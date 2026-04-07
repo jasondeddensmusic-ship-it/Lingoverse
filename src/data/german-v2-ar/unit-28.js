@@ -98,7 +98,7 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "sich reimen muss und eine vollständige und klare epische Hauptstruktur auch braucht",
     "bestimmte Strukturmerkmale hat wie einen Wendepunkt und ein symbolisches Objekt"
 ],ans:"bestimmte Strukturmerkmale hat wie einen Wendepunkt und ein symbolisches Objekt",hint:"تضع النظرية الأدبية الألمانية للـ Novelle قواعد صارمة: صراع مركزي واحد ونقطة تحول ورمز 'الصقر' (Falke)."},
-        {type:"match",pairs:[{trg:"Gedicht",src:"poem"},{trg:"Roman",src:"novel"},{trg:"Strophe",src:"stanza"},{trg:"Reim",src:"rhyme"}]},
+        {type:"match",pairs:[{trg:"Gedicht",src:"قصيدة"},{trg:"Roman",src:"رواية"},{trg:"Strophe",src:"مقطع شعري"},{trg:"Reim",src:"قافية"}]},
         {type:"fb",s:"Die {1} des Romans spielt in Berlin im 19. Jahrhundert.",a:["Handlung"],opts:["Handlung","Gattung","Strophe","Epoche"],hint:"الكلمة التي تعني 'حبكة' أو 'أحداث' القصة. مشتقة من 'handeln' (يتصرف).",sSrc:"تدور أحداث الرواية في برلين في القرن التاسع عشر."},
         {type:"mc",q:"Das deutsche Wort 'Schauplatz' bedeutet...",opts:[
     "Ein Eintritt oder eine Theaterkarte",
@@ -252,10 +252,10 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
         {type:"teach",trg:"existieren",src:"يوجد، يتواجد",pos:"verb",gender:null,note:"من اللاتينية 'existere' (البروز، الوجود).\nفعل منتظم -ieren. 'Noch existieren' = لا يزال موجوداً.",example:"A: Existiert die alte Baeckerei noch?\nB: Nein, sie existiert nicht mehr.\nA: Wann hat sie aufgehört zu existieren?\nB: Vor zwanzig Jahren. Aber in Heinrichs Geschichten existiert sie weiter.",exampleSrc:"أ: هل لا تزال المخبزة القديمة موجودة؟\nب: لا، لم تعد موجودة.\nأ: متى توقفت عن الوجود؟\nب: منذ عشرين عاماً. لكن في قصص هاينريش تستمر في الوجود.",funFact:"من اللاتينية 'existere' (البروز، الوجود). دخل الألمانية عبر الفرنسية. 'Die Existenz' (الوجود) هو الاسم. 'Das existenzielle Problem' (المشكلة الوجودية). Existenzphilosophie الألمانية (الوجودية) جعلت هذا الجذر مشهوراً عالمياً."},
         {type:"drag_fill",s:"Heinrich redet über die alte Baeckerei, {1} {2} sie noch {3}.",blanks:{"1":"als","2":"ob","3":"existierte"},pool:["als","ob","existierte","existiert","dass","wäre"],hint:"تركيب 'als ob': als ob + Konjunktiv II في النهاية. المخبزة لم تعد موجودة."},
         {type:"match",pairs:[
-    {trg:"ironisch",src:"ironic"},
-    {trg:"satirisch",src:"satirical"},
-    {trg:"humorvoll",src:"humorous"},
-    {trg:"tragisch",src:"tragic"}
+    {trg:"ironisch",src:"ساخر"},
+    {trg:"satirisch",src:"ساخر"},
+    {trg:"humorvoll",src:"مُضحك"},
+    {trg:"tragisch",src:"مأساوي"}
 ]},
         {type:"story",speaker:"verumius",mood:"thoughtful",art:"de-hildi-living-room",trg:"Heinrich erzählt, als wäre er noch dreissig. Als hätte die Zeit keine Macht über die Backstube. Ich schreibe auf, was er sagt. Aber ich schreibe auch auf, wie er es sagt. Das ist fast wichtiger.",src:"يحكي هاينريش القصص كأنه لا يزال في الثلاثين من عمره. كأن الزمن لا سلطة له على المخبزة. أكتب ما يقوله. لكنني أكتب أيضاً كيف يقوله. هذا يكاد يكون أكثر أهمية."},
         {type:"mc",q:"Wenn eine Geschichte 'ironisch' ist, dann...",opts:[
@@ -333,10 +333,10 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
 ],ans:"Drei: Konj. I Vergangenheit + als + Konj. II + Konj. I Gegenwart",hint:"عدّ الأساليب النحوية المختلفة في الجمل الثلاث المنقولة. اثنتان أسلوب إبلاغ، وواحدة أسلوب مقارنة. هل هي متشابهة أم مختلفة؟"},
         {type:"drag_fill",s:"Heinrich erzählte, sein Großvater {1} immer gesagt, Brot {2} das Wichtigste.",blanks:{"1":"habe","2":"sei"},pool:["habe","sei","hat","ist","hatte","wäre"],hint:"الفراغ الأول يُبلّغ عن فعل ماضٍ في الكلام غير المباشر؛ والثاني يُبلّغ عن حقيقة خالدة. زمنان مختلفان لنفس أسلوب الإبلاغ.",sSrc:"أخبر هاينريش أن جدّه كان دائماً يقول إن الخبز هو أهم شيء."},
         {type:"match",pairs:[
-    {trg:"behaupten",src:"to claim"},
-    {trg:"betonen",src:"to emphasize"},
-    {trg:"einraeumen",src:"to concede"},
-    {trg:"anmerken",src:"to remark"}
+    {trg:"behaupten",src:"يدّعي"},
+    {trg:"betonen",src:"يؤكّد / يشدّد"},
+    {trg:"einraeumen",src:"يعترف / يتنازل"},
+    {trg:"anmerken",src:"يلاحظ"}
 ]},
         {type:"mc",q:"Was bedeutet 'schriftlich'?",opts:["to inform, to communicate","colloquial, informal","figurative, metaphorical","written, in writing"],ans:"written, in writing",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Sprichwörter wurden {1} überliefert.",a:["mündlich"],opts:["mündlich","schriftlich","hinzufügen","im übertragenen Sinne"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Proverbs were passed down orally."},
@@ -394,10 +394,10 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
 ],ans:"Konjunktiv I + als ob + Konjunktiv II",hint:"تستخدم الجملتان أسلوبَي فعل مختلفَين. إحداهما تُبلّغ عن حقيقة من فم شخص ما؛ والأخرى تصف سيناريو لا يعكس الواقع الحالي."},
         {type:"drag_fill",s:"Heinrich erzählte, sein Großvater {1} immer gesagt, Übung {2} den Meister.",blanks:{"1":"habe","2":"mache"},pool:["habe","mache","hat","macht","hatte","machte"],hint:"فراغان، زمنان من الكلام المنقول. الأول يُبلّغ عن فعل ماضٍ؛ والثاني يُبلّغ عن حقيقة مثلية خالدة. كلاهما يستخدم أسلوب الإبلاغ.",sSrc:"أخبر هاينريش أن جدّه كان دائماً يقول إن التمرين يصنع الأستاذ."},
         {type:"match",pairs:[
-    {trg:"Morgenstund hat Gold im Mund",src:"The early bird catches the worm"},
-    {trg:"Aller Anfang ist schwer",src:"Every beginning is difficult"},
-    {trg:"Übung macht den Meister",src:"Practice makes perfect"},
-    {trg:"Stille Wasser sind tief",src:"Still waters run deep"}
+    {trg:"Morgenstund hat Gold im Mund",src:"الطائر المبكر يصطاد الدودة"},
+    {trg:"Aller Anfang ist schwer",src:"كل بداية صعبة"},
+    {trg:"Übung macht den Meister",src:"التمرين يصنع الإتقان"},
+    {trg:"Stille Wasser sind tief",src:"المياه الهادئة عميقة"}
 ]},
         {type:"fb",s:"Er hat sich mit {1} und Haar der Baeckerei verschrieben. Das heisst: vollstaendig.",a:["Haut"],opts:["Haut","Kopf","Nagel","Hals"],hint:"فكّر في معنى الكلمة.",sSrc:"He devoted himself completely to the bakery. That means: entirely."},
         {type:"mc",q:"Was bedeutet 'Es ist noch kein Meister vom Himmel gefallen'?",opts:[
@@ -462,10 +462,10 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
         {type:"teach",trg:"Tomaten auf den Augen haben",src:"يكون غافلاً عن الواضح (حرفياً: لديه طماطم على عينيه)",pos:"intj",gender:null,note:"عدم رؤية ما هو أمامك مباشرة.\n'Hast du Tomaten auf den Augen?' (هل لديك طماطم على عينيك؟).",example:"A: Ich sehe das Schild nicht.\nB: Hast du Tomaten auf den Augen?\nA: Wo ist es denn?\nB: Direkt vor dir! Grosse rote Buchstaben!",exampleSrc:"أ: لا أرى اللافتة.\nب: هل لديك طماطم على عينيك؟\nأ: أين هي إذن؟\nب: أمامك مباشرة! أحرف حمراء كبيرة!",funFact:"طماطم حمراء تحجب رؤيتك. يُستخدم حين يُفوّت أحد ما هو واضح. 'Hast du Tomaten auf den Augen?' = هل أنت أعمى؟ صورة ألمانية فريدة للغفلة."},
         {type:"teach",trg:"das Fettnäpfchen",src:"إناء الشحم الصغير",pos:"noun",gender:"n",note:"اسم محايد. 'Fett' (دهن) + 'Naepfchen' (إناء صغير).\nمصدر التعبير 'ins Fettnäpfchen treten.'",example:"A: Was ist ein Fettnäpfchen?\nB: Ein kleines Toepfchen mit Fett, früher an der Tuer.\nA: Und wenn man hineintritt?\nB: Dann hat man einen Fehler gemacht!",exampleSrc:"أ: ما هو Fettnäpfchen؟\nب: إناء صغير بالشحم، كان سابقاً بجانب الباب.\nأ: وحين تطأه؟\nب: حينها تكون قد وقعت في خطأ!",funFact:"إناء صغير للدهن كان يُحفظ بجانب باب البيوت الألمانية القديمة. التصغير '-naepfchen' يجعله محايداً. الوقوع فيه كان استعارةً اجتماعية للحرج لا تزال حية في الألمانية الحديثة."},
         {type:"match",pairs:[
-    {trg:"Jemandem die Daumen drücken",src:"to wish someone luck"},
-    {trg:"Auf dem Holzweg sein",src:"to be on the wrong track"},
-    {trg:"Schmetterlinge im Bauch haben",src:"to have butterflies in your stomach"},
-    {trg:"Eulen nach Athen tragen",src:"to do something pointless"}
+    {trg:"Jemandem die Daumen drücken",src:"يتمنّى لشخصٍ الحظّ"},
+    {trg:"Auf dem Holzweg sein",src:"يكون على الطريق الخطأ"},
+    {trg:"Schmetterlinge im Bauch haben",src:"يشعر برفرفة في المعدة"},
+    {trg:"Eulen nach Athen tragen",src:"يفعل شيئاً بلا فائدة"}
 ]},
         {type:"mc",q:"Was bedeutet 'Sich aus dem Staub machen'?",opts:["to sneak away quietly","to tidy up and clean the dust","to make a careless mistake","to give up something important"],ans:"to sneak away quietly",hint:"فكّر في شخص يختفي بلا صوت، كالغبار الذي يتبدد في الريح، كثيراً ما يكون هرباً من المسؤولية."}
       ]},
@@ -503,10 +503,10 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "Nur Konjunktiv II in allen vorhandenen Formen"
 ],ans:"Konj. I Vergangenheit + als + Konj. II + Konj. I Gegenwart",hint:"ثلاث جمل: الأولى تُبلّغ عن فعل ماضٍ، والثانية تُقدّم مقارنة غير واقعية، والثالثة تُبلّغ عن حالة راهنة. حدّد الأسلوب في كل منها."},
         {type:"match",pairs:[
-    {trg:"Ins Fettnäpfchen treten",src:"to make a social blunder"},
-    {trg:"Sich aus dem Staub machen",src:"to sneak away"},
-    {trg:"Schmetterlinge im Bauch haben",src:"to have butterflies"},
-    {trg:"Eulen nach Athen tragen",src:"to do something pointless"}
+    {trg:"Ins Fettnäpfchen treten",src:"يرتكب خطأً اجتماعياً"},
+    {trg:"Sich aus dem Staub machen",src:"يتسلّل بعيداً"},
+    {trg:"Schmetterlinge im Bauch haben",src:"يشعر بتوتّر الفرح"},
+    {trg:"Eulen nach Athen tragen",src:"يفعل شيئاً بلا فائدة"}
 ]},
         {type:"story",speaker:"heinrich",mood:"proud",art:"de-hildi-living-room",trg:"Nicht schlecht, Verumius. Du hast zugehört. Du hast verstanden. Mein Großvater hätte gesagt: Übung macht den Meister. Und du uebst gut.",src:"ليس سيئاً، فيروميوس. لقد استمعت. فهمت. كان جدّي سيقول: التمرين يصنع الأستاذ. وأنت تتمرن جيداً."},
         {type:"story",speaker:"hildi",mood:"warm",art:"de-hildi-living-room",trg:"Kommt nächssten Sonntag wieder. Papa hat noch ein ganzes Buch voller Sprichwörter im Kopf. Und ich habe Kuchen.",src:"عد الأحد القادم. بابا لديه كتاب أمثال كامل في رأسه. وأنا لديّ كعكة."}
@@ -556,10 +556,10 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
         {type:"teach",trg:"hineinrufen",src:"يُنادي في (شيء ما)",pos:"verb",gender:null,note:"Hinein (إلى الداخل) + rufen (يُنادي). فعل قابل للفصل.\n'In den Wald hineinrufen' = النداء داخل الغابة.",example:"A: Warum rufst du in den Wald hinein?\nB: Ich teste, ob das Echo antwortet.\nA: Wer in den Wald hineinruft...\nB: ...bekommt es zurück. Das Sprichwort stimmt.",exampleSrc:"أ: لماذا تُنادي في الغابة؟\nب: أختبر ما إذا كان الصدى يُجيب.\nأ: من يُنادي في الغابة...\nب: ...يسترجعه. المَثَل صحيح.",funFact:"Hinein (إلى الداخل) + rufen (يُنادي). قابل للفصل: 'Er ruft in den Wald hinein.' 'Wie man in den Wald hineinruft, so schallt es heraus' من أشهر Sprichwörter الألمانية: تحصد ما تزرع. شكل Konjunktiv I 'hineinrufe' يُشير إلى الكلام غير المباشر."},
         {type:"drag_fill",s:"Heinrich sagte, wer in den Wald {1}, {2} es genauso zurück.",blanks:{"1":"hineinrufe","2":"bekomme"},pool:["hineinrufe","bekomme","hineinruft","bekommt","hineinriefe","bekaeme"],hint:"كلا الفراغَين ينقلان المَثَل في الكلام غير المباشر. طبّق أسلوب الإبلاغ على كلا الفعلَين: فعل جملة wer والمسند الرئيسي.",sSrc:"قال هاينريش إن من يُنادي في الغابة يسترجعه بنفس الطريقة."},
         {type:"match",pairs:[
-    {trg:"Zwei Fliegen mit einer Klappe schlagen",src:"To kill two birds with one stone"},
-    {trg:"Die Katze im Sack kaufen",src:"To buy a pig in a poke"},
-    {trg:"Auf dem Holzweg sein",src:"To be on the wrong track"},
-    {trg:"Tomaten auf den Augen haben",src:"To be oblivious"}
+    {trg:"Zwei Fliegen mit einer Klappe schlagen",src:"ضرب عصفورين بحجر واحد"},
+    {trg:"Die Katze im Sack kaufen",src:"شراء شيء دون فحصه"},
+    {trg:"Auf dem Holzweg sein",src:"على الطريق الخطأ"},
+    {trg:"Tomaten auf den Augen haben",src:"أن يكون غافلاً"}
 ]},
         {type:"mc",q:"Wenn jemand sagt 'Was wollen Sie mir unterstellen?', dann fuehlt er sich...",opts:[
     "gelobt und geschmeichelt",

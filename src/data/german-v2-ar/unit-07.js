@@ -108,7 +108,7 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
             {trg:"der Besuch",pos:"noun",gender:"m",src:"the visit"},
             {trg:"die Krankheit",pos:"noun",gender:"f",src:"the illness"},
             {trg:"untersuchen",pos:"verb",gender:null,src:"to examine"},
-            {trg:"verletzen",src:"to injure"}
+            {trg:"verletzen",src:"يجرح"}
           ]}
       ]},
     {id:"deu_r07l4",title:"Untersuchung und Diagnose",icon:"🩺",xp:15,board:true,steps:[
@@ -189,7 +189,7 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
             {trg:"der Besuch",pos:"noun",gender:"m",src:"the visit"},
             {trg:"die Krankenkasse",pos:"noun",gender:"f",src:"health insurance"},
             {trg:"untersuchen",pos:"verb",gender:null,src:"to examine"},
-            {trg:"sich fühlen",src:"to feel"},
+            {trg:"sich fühlen",src:"يشعر"},
             {trg:"endlich",pos:"adv",gender:null,src:"finally"},
             {trg:"die Krankheit",pos:"noun",gender:"f",src:"illness"}
           ]},

@@ -31,12 +31,12 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"fb",s:"Hast du die {1} im Radio gehört?",a:["Nachricht"],opts:["Nachricht","Geschichte","Meinung","Idee"],hint:"أي كلمة تعني خبراً أو رسالة تتلقاها؟",sSrc:"هل سمعت الخبر في الراديو؟"},
         {type:"mc",q:"Which sentence correctly uses 'meinen' to express an opinion?",opts:["Ich meine, das Café ist schön.","Ich meine nach Berlin.","Ich meine einen Kaffee.","Ich meine um drei Uhr."],ans:"Ich meine, das Café ist schön.",hint:"هذا الفعل يقدم رأياً شخصياً أو اعتقاداً."},
         {type:"match",pairs:[
-    {trg:"die Meinung",src:"the opinion"},
-    {trg:"die Erfahrung",src:"the experience"},
-    {trg:"die Nachricht",src:"the news/message"},
+    {trg:"die Meinung",src:"الرأي"},
+    {trg:"die Erfahrung",src:"التجربة"},
+    {trg:"die Nachricht",src:"الخبر / الرسالة"},
     {trg:"hoffen",src:"يأمل"},
-    {trg:"denken",src:"to think"},
-    {trg:"meinen",src:"to mean/think (opinion)"}
+    {trg:"denken",src:"يفكّر"},
+    {trg:"meinen",src:"يعني / يعتقد (رأي)"}
 ]},
         {type:"drag_fill",s:"Ich {1}, dass du eine gute {2} hast. {3} Meinung nach ist das eine tolle {4}.",blanks:{"1":"denke","2":"Idee","3":"Meiner","4":"Erfahrung"},pool:["denke","Idee","Meiner","Erfahrung","hoffe","Geschichte","Seiner","Qualität"],hint:"ابنِ جملة تجمع بين التفكير والأفكار والآراء والتجارب.",sSrc:"أعتقد أن لديك فكرة جيدة. في رأيي هذه تجربة رائعة."},
         {type:"story",speaker:"yilmaz",mood:"warm",art:"de-literaturcafe-goodbye",trg:"Verumius, du hast dich verändert. Am Anfang warst du nervös und unsicher. Jetzt sitzt du hier und redest über Meinungen und Erfahrungen. Auf Deutsch. Ich bin stolz auf dich.",src:"فيروميوس، لقد تغيرت. في البداية كنت متوتراً وغير واثق. الآن تجلس هنا وتتحدث عن الآراء والتجارب. بالألمانية. أنا فخورة بك."}
@@ -71,10 +71,10 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"fb",s:"Das neue {1} dauert sechs Monate.",a:["Projekt"],opts:["Projekt","Gehalt","Vertrag","Büro"],hint:"عمل مخطط له هدف محدد وجدول زمني.",sSrc:"المشروع الجديد يستمر ستة أشهر."},
         {type:"match",pairs:[
     {trg:"die Bewerbung",src:"طلب التوظيف"},
-    {trg:"die Ausbildung",src:"training"},
-    {trg:"das Gehalt",src:"salary"},
-    {trg:"der Vertrag",src:"contract"},
-    {trg:"das Zeugnis",src:"certificate"}
+    {trg:"die Ausbildung",src:"تدريب"},
+    {trg:"das Gehalt",src:"راتب"},
+    {trg:"der Vertrag",src:"عقد"},
+    {trg:"das Zeugnis",src:"شهادة"}
 ]}
       ]},
 // ─── L3: Digitaler Papierkram ───
@@ -101,11 +101,11 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"fb",s:"Hast du den Vertrag {1} unterschrieben?",a:"schon",opts:["schon","noch","gerade","erst"],hint:"المتحدث يتوقع أنه ربما تم بالفعل.",sSrc:"هل وقعت العقد بالفعل؟"},
         {type:"fb",s:"Ich lese {1} die Mail von meinem Chef.",a:"gerade",opts:["gerade","schon","erst","noch"],hint:"هذا الظرف يعني 'الآن، في هذه اللحظة'.",sSrc:"أقرأ حالياً البريد الإلكتروني من مديري."},
         {type:"match",pairs:[
-    {trg:"das Büro",src:"office"},
-    {trg:"das Gehalt",src:"salary"},
-    {trg:"das Zeugnis",src:"certificate"},
-    {trg:"das Blatt",src:"sheet/leaf"},
-    {trg:"die Übersetzung",src:"translation"}
+    {trg:"das Büro",src:"مكتب"},
+    {trg:"das Gehalt",src:"راتب"},
+    {trg:"das Zeugnis",src:"شهادة"},
+    {trg:"das Blatt",src:"ورقة"},
+    {trg:"die Übersetzung",src:"ترجمة"}
 ]},
         {type:"mc",q:"'Die Mailbox' bedeutet auf Deutsch meistens...",opts:["physical letterbox","voicemail","email inbox","homepage"],ans:"voicemail",hint:"ليس صندوقاً تجده في الشارع. فكر في الهاتف."},
         {type:"fb",s:"Kannst du mir den {1} per Mail schicken?",a:"Link",opts:["Link","Blatt","Büro","Gehalt"],hint:"عنوان قابل للنقر يأخذك إلى موقع إلكتروني.",sSrc:"هل يمكنك إرسال الرابط لي عبر البريد الإلكتروني؟"},
@@ -117,11 +117,11 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"drag_fill",s:"Ich habe die {1} schon auf die {2} hochgeladen.",blanks:{"1":"Datei","2":"Homepage"},pool:["Datei","Homepage","Mailbox","Vertrag"],hint:"ملف رقمي يُرفع على موقع إلكتروني.",sSrc:"لقد رفعت الملف على الموقع بالفعل."},
         {type:"fb",s:"Das {1} ist zu niedrig, sagt er.",a:"Gehalt",opts:["Gehalt","Büro","Blatt","Zeugnis"],hint:"المبلغ الذي تكسبه كل شهر من العمل.",sSrc:"الراتب منخفض جداً، كما يقول."},
         {type:"match",pairs:[
-    {trg:"die Mail",src:"email"},
-    {trg:"der Link",src:"link"},
-    {trg:"die Datei",src:"file (digital)"},
-    {trg:"die Homepage",src:"homepage"},
-    {trg:"das Mobiltelefon",src:"mobile phone"}
+    {trg:"die Mail",src:"بريد إلكتروني"},
+    {trg:"der Link",src:"رابط"},
+    {trg:"die Datei",src:"ملف (رقمي)"},
+    {trg:"die Homepage",src:"صفحة رئيسية"},
+    {trg:"das Mobiltelefon",src:"هاتف محمول"}
 ]},
         {type:"teach",trg:"geduldig",pos:"adj",gender:null,src:"صبور",note:"Geduld (الصبر) + -ig. !Sei geduldig = كن صبوراً!",example:"A: Wann kommt das Ergebnis?\nB: Nächste Woche. Sei geduldig!\nA: Ich versuche es!",exampleSrc:"A: متى تأتي النتيجة؟\nB: الأسبوع القادم. كن صبوراً!\nA: أحاول!",funFact:"Geduld مشتقة من 'dulden' (يتحمل). الشخص الصبور هو من يستطيع تحمل الانتظار. كلمة 'Patient' الطبية تشترك في نفس الجذر اللاتيني."},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-apartment-desk-night",trg:"Fertig. Die Bewerbung ist geschickt. Das Passwort ist gespeichert. Jetzt brauche ich nur noch Geduld. Und vielleicht noch einen Kaffee.",src:"انتهيت. طلب التوظيف أُرسل. كلمة المرور محفوظة. الآن أحتاج فقط للصبر. وربما فنجان قهوة آخر."}
@@ -161,12 +161,12 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"mc",q:"'Das Gymnasium führt zum Abitur.' Was ist ein Gymnasium?",opts:["a sports gym","an academic school","a hospital","a harbor"],ans:"an academic school",hint:"هذه ليست صالة رياضية. إنها أحد المسارات المدرسية الثلاثة في ألمانيا."},
         {type:"mc",q:"'Der Hamburger Hafen ist riesig.' What does 'Hafen' mean?",opts:["airport","harbor","bridge","island"],ans:"harbor",hint:"الشهير في هامبورغ هو ثالث أكبر واحد في أوروبا."},
         {type:"match",pairs:[
-    {trg:"der Kontakt",src:"contact"},
-    {trg:"der Stift",src:"pen"},
-    {trg:"die Notiz",src:"note"},
-    {trg:"der Zettel",src:"slip of paper"},
-    {trg:"die Zahl",src:"number"},
-    {trg:"reden",src:"to talk"}
+    {trg:"der Kontakt",src:"تواصل"},
+    {trg:"der Stift",src:"قلم"},
+    {trg:"die Notiz",src:"ملاحظة"},
+    {trg:"der Zettel",src:"قصاصة ورق"},
+    {trg:"die Zahl",src:"رقم"},
+    {trg:"reden",src:"يتحدّث"}
 ]},
         {type:"story",speaker:"narrator",mood:"thoughtful",art:"de-kitchen-documents-2",trg:"Verumius schaut auf seine Notizen und rechnet. Er hat Kontakte, aber er braucht mehr Kenntnisse. Er hat einen Mietvertrag, aber er braucht auch einen Kredit. Er spricht gut Deutsch, aber er versteht nicht alles.",src:"فيروميوس ينظر إلى ملاحظاته ويحسب. لديه جهات اتصال، لكنه يحتاج مزيداً من المعرفة. لديه عقد إيجار، لكنه يحتاج أيضاً قرضاً. يتحدث الألمانية جيداً، لكنه لا يفهم كل شيء."}
       ]},
@@ -211,8 +211,8 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
     {trg:"oder",src:"أو"},
     {trg:"aber",src:"لكن"},
     {trg:"denn",src:"لأن"},
-    {trg:"sondern",src:"but rather"},
-    {trg:"das Stück",src:"piece"}
+    {trg:"sondern",src:"بل"},
+    {trg:"das Stück",src:"قطعة"}
 ]},
         {type:"story",speaker:"verumius",mood:"reflective",art:"de-kitchen-evening",trg:"Mietvertrag, Krankenversicherung, Steuernummer. Ich habe das alles allein gemacht. Auf Deutsch. Vor sechs Monaten konnte ich nicht mal Brot bestellen.",src:"عقد إيجار، تأمين صحي، رقم ضريبي. فعلت كل ذلك وحدي. بالألمانية. قبل ستة أشهر لم أكن أستطيع حتى طلب خبز."},
         {type:"fb",s:"Ich komme später, {1} ich muss noch arbeiten.",a:"denn",opts:["denn","weil","dass","ob"],hint:"أي رابط يبقي الفعل في الموضع الثاني؟"}
@@ -303,14 +303,14 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"fb",s:"Steh {1}! Wir müssen alles vorbereiten.",a:["auf"],opts:["auf","an","vor","zu"],hint:"أكمل صيغة الأمر المنفصلة هذه. الفعل يعني 'ينهض'.",sSrc:"انهض! علينا تحضير كل شيء."},
         {type:"mc",q:"'Wenn ich es versuchen könnte, ___ ich es sofort tun.' What fills the blank?",opts:["wäre","hätte","müsste","würde"],ans:"würde",hint:"الجملة الرئيسية لـ wenn-Konjunktiv II تحتاج صيغة 'سيكون' العامة مع مصدر."},
         {type:"match",pairs:[
-    {trg:"lassen",src:"to let / to leave"},
-    {trg:"schaffen",src:"to manage"},
+    {trg:"lassen",src:"يدع / يترك"},
+    {trg:"schaffen",src:"يدير"},
     {trg:"versuchen",src:"يحاول"},
     {trg:"vorbereiten",src:"يحضّر"},
-    {trg:"wählen",src:"to choose / to vote"},
-    {trg:"prüfen",src:"to test"},
-    {trg:"planen",src:"to plan"},
-    {trg:"sparen",src:"to save (money)"}
+    {trg:"wählen",src:"يختار / يصوّت"},
+    {trg:"prüfen",src:"يختبر"},
+    {trg:"planen",src:"يخطّط"},
+    {trg:"sparen",src:"يوفّر المال"}
 ]},
         {type:"story",speaker:"hildi",mood:"playful",art:"de-cafe-rain",trg:"Du träumst schon wieder. Aber weißt du was? Manchmal werden Träume wahr. Lass uns einen Plan machen. Einen richtigen.",src:"أنت تحلم مرة أخرى. لكن أتعرف ماذا؟ أحياناً تتحقق الأحلام. لنضع خطة. خطة حقيقية."}
       ]},
@@ -344,11 +344,11 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"mc",q:"'Mein Ziel ist es, Deutsch zu sprechen.' Was ist 'das Ziel'?",opts:["dream","goal","fun","lie"],ans:"goal",hint:"شيء تريد تحقيقه أو الوصول إليه."},
         {type:"drag_fill",s:"Er hat viel {1} bei der Arbeit, aber am Abend macht ihm Kochen großen {2}.",blanks:{"1":"Stress","2":"Spaß"},pool:["Stress","Spaß","Liebe","Ruhe","Lüge"],hint:"أولاً شيء سلبي في العمل، ثم شيء إيجابي في المساء.",sSrc:"لديه توتر كثير في العمل، لكن في المساء الطبخ يمنحه متعة كبيرة."},
         {type:"match",pairs:[
-    {trg:"der Traum",src:"dream"},
+    {trg:"der Traum",src:"حلم"},
     {trg:"die Ruhe",src:"السلام"},
-    {trg:"die Lüge",src:"lie"},
-    {trg:"der Vorschlag",src:"suggestion"},
-    {trg:"die Sache",src:"thing"}
+    {trg:"die Lüge",src:"كذبة"},
+    {trg:"der Vorschlag",src:"اقتراح"},
+    {trg:"die Sache",src:"شيء"}
 ]},
         {type:"story",speaker:"verumius",mood:"peaceful",art:"de-park-bench-dusk",trg:"Träume, Wünsche, Ziele. Vor sechs Monaten hatte ich nur eins: ankommen. Jetzt habe ich so viele. Das ist ein gutes Zeichen.",src:"أحلام وأمنيات وأهداف. قبل ستة أشهر كان لدي واحد فقط: الوصول. الآن لدي الكثير. هذه علامة جيدة."}
       ]},
@@ -395,15 +395,15 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"drag_fill",s:"Die Chefin sagte, {1} der Service besser {2} {3}, wenn alle Mitarbeiter pünktlich {4}.",blanks:{"1":"dass","2":"sein","3":"würde","4":"kämen"},pool:["dass","sein","würde","kämen","weil","haben","konnte","kommen"],hint:"حرف عطف نقلي يقدم هذه الجملة الفرعية. المساعد الشرطي والمصدر يذهبان إلى نهاية الجملة.",sSrc:"قالت المديرة إن الخدمة ستكون أفضل لو حضر جميع الموظفين في الموعد."},
         {type:"story",speaker:"narrator",mood:"warm",trg:"KD stempelt das letzte Dokument. Sie schaut Verumius an. 'Sie haben alles richtig gemacht. Das passiert selten.' Dann, ganz leise: 'Kommen Sie gut nach Hause.' War das... Freundlichkeit?",src:"KD تختم المستند الأخير. تنظر إلى فيروميوس. 'لقد فعلت كل شيء بشكل صحيح. هذا نادراً ما يحدث.' ثم، بهدوء شديد: 'عُد إلى المنزل بسلام.' هل كانت تلك... لطافة؟"},
         {type:"match",pairs:[
-    {trg:"die Erlaubnis",src:"the permission"},
-    {trg:"die Ermäßigung",src:"the discount"},
-    {trg:"der Bescheid",src:"the notice"},
-    {trg:"das Paar",src:"the pair/couple"},
-    {trg:"die Webseite",src:"the website"},
-    {trg:"der Laptop",src:"the laptop"},
-    {trg:"das Tablet",src:"the tablet"},
-    {trg:"der Service",src:"the service"},
-    {trg:"der Babysitter",src:"the babysitter"},
+    {trg:"die Erlaubnis",src:"الإذن"},
+    {trg:"die Ermäßigung",src:"الخصم"},
+    {trg:"der Bescheid",src:"الإشعار"},
+    {trg:"das Paar",src:"الزوج"},
+    {trg:"die Webseite",src:"الموقع الإلكتروني"},
+    {trg:"der Laptop",src:"الحاسوب المحمول"},
+    {trg:"das Tablet",src:"الجهاز اللوحي"},
+    {trg:"der Service",src:"الخدمة"},
+    {trg:"der Babysitter",src:"جليسة الأطفال"},
     {trg:"die Chefin",src:"المديرة"}
 ]}
       ]},
@@ -430,8 +430,8 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"mc",q:"'Ich bewerbe mich um die Stelle als Lehrer.' What is the speaker doing?",opts:["Quitting a teaching job","Applying for a teaching position","Complaining about the teacher","Thanking the teacher"],ans:"Applying for a teaching position",hint:"الفعل الانعكاسي 'sich bewerben um' يشير إلى السعي لدور محدد."},
         {type:"fb",s:"Ich möchte mich bei Ihnen {1}.",a:["bedanken"],opts:["bedanken","beschweren","bewerben","begründen"],hint:"أي فعل انعكاسي يعبر عن الامتنان رسمياً؟",sSrc:"أود أن أشكرك."},
         {type:"match",pairs:[
-    {trg:"ändern",src:"to change"},
-    {trg:"kündigen",src:"to quit/cancel"},
+    {trg:"ändern",src:"يغيّر"},
+    {trg:"kündigen",src:"يستقيل / يلغي"},
     {trg:"übersetzen",src:"يترجم"},
     {trg:"sich bewerben",src:"يتقدم بطلب"}
 ]}
@@ -461,23 +461,23 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
 ],ans:"An apology for not being able to come",hint:"العبارة في البداية تعبر عن الأسف أو الحزن."},
         {type:"drag_fill",s:"Wie {1} man das auf Deutsch? Man {2} es 'Rathaus.'",blanks:{"1":"nennt","2":"nennt"},pool:["nennt","merkt","lügt","sagt"],hint:"كلا الفراغين يحتاجان نفس الفعل بمعنى 'يُسمي'.",sSrc:"ماذا تسمي هذا بالألمانية؟ يسمونه 'Rathaus'."},
         {type:"match",pairs:[
-    {trg:"ändern",src:"to change"},
-    {trg:"kündigen",src:"to quit"},
+    {trg:"ändern",src:"يغيّر"},
+    {trg:"kündigen",src:"يستقيل"},
     {trg:"übersetzen",src:"يترجم"},
     {trg:"sich bewerben",src:"يتقدم بطلب"},
-    {trg:"verbieten",src:"to forbid"},
-    {trg:"leidtun",src:"to be sorry"},
-    {trg:"bestätigen",src:"to confirm"},
-    {trg:"verschieben",src:"to postpone"}
+    {trg:"verbieten",src:"يمنع"},
+    {trg:"leidtun",src:"يأسف"},
+    {trg:"bestätigen",src:"يؤكّد"},
+    {trg:"verschieben",src:"يؤجّل"}
 ]},
         {type:"match",pairs:[
-    {trg:"beantworten",src:"to answer"},
-    {trg:"berichten",src:"to report"},
-    {trg:"beraten",src:"to advise"},
-    {trg:"sich bedanken",src:"to thank"},
-    {trg:"sich beschweren",src:"to complain"},
-    {trg:"bestehen",src:"to pass (exam)"},
-    {trg:"lügen",src:"to lie"},
+    {trg:"beantworten",src:"يُجيب"},
+    {trg:"berichten",src:"يُبلّغ"},
+    {trg:"beraten",src:"ينصح"},
+    {trg:"sich bedanken",src:"يشكر"},
+    {trg:"sich beschweren",src:"يشتكي"},
+    {trg:"bestehen",src:"ينجح في الامتحان"},
+    {trg:"lügen",src:"يكذب"},
     {trg:"merken",src:"يلاحظ"}
 ]}
       ]},
@@ -529,10 +529,10 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"teach",trg:"die Universität",pos:"noun",gender:"f",src:"الجامعة",phonetic:"oo-nee-ver-zee-TAYT",example:"A: An welcher Universität studierst du?\nB: Ich studiere an der Universität München.",exampleSrc:"A: في أي جامعة تدرس؟\nB: أدرس في جامعة ميونخ.",note:"مؤنث. غالباً تُختصر إلى Uni في الكلام اليومي.",funFact:"أقدم جامعة ألمانية هي هايدلبرغ، تأسست عام 1386."},
         {type:"fb",s:"Möchtest du eine {1} Tee?",a:"Tasse",opts:["Tasse","Seite","Geldbörse","Note"],hint:"وعاء تشرب منه.",sSrc:"هل تريد فنجان شاي؟"},
         {type:"match",pairs:[
-    {trg:"das Fach",src:"subject/compartment"},
-    {trg:"die Geldbörse",src:"wallet"},
-    {trg:"der Supermarkt",src:"supermarket"},
-    {trg:"das Taschengeld",src:"pocket money"},
+    {trg:"das Fach",src:"مادة / حجرة"},
+    {trg:"die Geldbörse",src:"محفظة"},
+    {trg:"der Supermarkt",src:"سوبرماركت"},
+    {trg:"das Taschengeld",src:"مصروف"},
     {trg:"die Universität",src:"الجامعة"}
 ]}
       ]},
@@ -559,21 +559,21 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"mc",q:"Was ist eine Geldbörse?",opts:["a money tree","a bank","a wallet","a stock exchange"],ans:"a wallet",hint:"تحمله وتحفظ النقود بداخله."},
         {type:"drag_fill",s:"Meine {1} arbeitet an der {2} in Hamburg.",blanks:{"1":"Kollegin","2":"Universität"},pool:["Kollegin","Universität","Werkstatt","Rentnerin"],hint:"زميلة في مؤسسة تعليم عالٍ.",sSrc:"زميلتي تعمل في جامعة هامبورغ."},
         {type:"match",pairs:[
-    {trg:"das Taschengeld",src:"pocket money"},
-    {trg:"die Werkstatt",src:"workshop"},
-    {trg:"der Supermarkt",src:"supermarket"},
-    {trg:"die Fundsache",src:"lost property"},
-    {trg:"das Schloss",src:"castle / lock"}
+    {trg:"das Taschengeld",src:"مصروف"},
+    {trg:"die Werkstatt",src:"ورشة عمل"},
+    {trg:"der Supermarkt",src:"سوبرماركت"},
+    {trg:"die Fundsache",src:"مفقودات"},
+    {trg:"das Schloss",src:"قلعة / قفل"}
 ]},
         {type:"mc",q:"Lisa ist 16 und geht aufs Gymnasium. Wie nennt man sie?",opts:["eine Schülerin","eine Studentin","eine Rentnerin","eine Kollegin"],ans:"eine Schülerin",hint:"شخص يذهب إلى مدرسة، ليس جامعة."},
         {type:"fb",s:"Was hast du {1} heute Abend vor?",a:"eigentlich",opts:["eigentlich","aktuell","echt","endlich"],hint:"يخفف السؤال، يعني 'في الحقيقة' أو 'بالمناسبة'.",sSrc:"ماذا تخطط في الحقيقة لهذا المساء؟"},
         {type:"drag_fill",s:"Die {1} bekommt immer gute {2} in jedem {3}.",blanks:{"1":"Schülerin","2":"Noten","3":"Fach"},pool:["Schülerin","Noten","Fach","Seite","Studentin"],hint:"طالبة مدرسة تحصل على علامات جيدة في كل مادة.",sSrc:"الطالبة تحصل دائماً على علامات جيدة في كل مادة."},
         {type:"match",pairs:[
-    {trg:"aktuell",src:"current"},
-    {trg:"echt",src:"real / genuine"},
-    {trg:"eigentlich",src:"actually"},
-    {trg:"die Note",src:"grade"},
-    {trg:"die Tasse",src:"cup"}
+    {trg:"aktuell",src:"حالي"},
+    {trg:"echt",src:"حقيقي"},
+    {trg:"eigentlich",src:"في الواقع"},
+    {trg:"die Note",src:"علامة"},
+    {trg:"die Tasse",src:"كوب"}
 ]},
         {type:"story",speaker:"narrator",mood:"warm",art:"de-stairwell-night",trg:"Verumius öffnet seine Wohnungstür. Er hört Hildi oben lachen. Er hört den Fernseher des Nachbarn. Er hört die Stadt. Er gehört hierher.",src:"فيروميوس يفتح باب شقته. يسمع هيلدي تضحك في الأعلى. يسمع تلفزيون الجار. يسمع المدينة. هو ينتمي إلى هنا."}
       ]},
@@ -603,12 +603,12 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"fb",s:"Ich stelle die Blumen auf {1} Tisch.",a:["den kleinen"],opts:["den kleinen","dem kleinen","der kleine","das kleine"],hint:"وضع شيء هو حركة (حالة نصب). الطاولة مذكرة.",sSrc:"أضع الزهور على الطاولة الصغيرة."},
         {type:"mc",q:"'Es ___ mir besser, wenn ich mehr schlafen ___.' Fill both gaps.",opts:["geht ... werde","ging ... wollte","ginge ... würde","gehe ... würde"],ans:"ginge ... würde",hint:"كلا الفعلين يعبران عن أمنية غير حقيقية. الأول صيغة Konjunktiv II شاذة."},
         {type:"match",pairs:[
-    {trg:"Ich habe das gemacht.",src:"Perfekt (haben)"},
-    {trg:"Sie ist gefahren.",src:"Perfekt (sein)"},
-    {trg:"Er konnte nicht kommen.",src:"Präteritum modal"},
-    {trg:"Steh bitte auf!",src:"Imperative (separable)"},
-    {trg:"Ich würde gern bleiben.",src:"Konjunktiv II"},
-    {trg:"weil er müde ist",src:"Subordinate clause"}
+    {trg:"Ich habe das gemacht.",src:"الماضي التام (مع haben)"},
+    {trg:"Sie ist gefahren.",src:"الماضي التام (مع sein)"},
+    {trg:"Er konnte nicht kommen.",src:"الماضي البسيط للأفعال المساعدة"},
+    {trg:"Steh bitte auf!",src:"صيغة الأمر (فعل منفصل)"},
+    {trg:"Ich würde gern bleiben.",src:"صيغة الشرط الثانية"},
+    {trg:"weil er müde ist",src:"جملة فرعية"}
 ]},
         {type:"fb",s:"Er ist müde, weil er gestern spät nach Hause {1} ist.",a:["gekommen"],opts:["gekommen","kommen","kommt","kam"],hint:"هذا Perfekt مع sein داخل جملة weil. الفعل المساعد يبقى في النهاية.",sSrc:"هو متعب لأنه عاد إلى المنزل متأخراً أمس."},
         {type:"drag_fill",s:"Wenn ich {1} nicht beeile, verpasse ich {2} Zug.",blanks:{"1":"mich","2":"meinen"},pool:["mich","mir","sich","meinen","mein","meinem"],hint:"sich beeilen يأخذ ضميراً انعكاسياً بحالة النصب. القطار مذكر بحالة النصب.",sSrc:"إذا لم أسرع، سأفوت قطاري."},
@@ -650,14 +650,14 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"fb",s:"Ich kann morgen nicht kommen. Das ist {1}!",a:["schade"],opts:["schade","genau","doch","natürlich"],hint:"أي كلمة تعبر عن الأسف أو الندم على الوضع؟",sSrc:"لا أستطيع القدوم غداً. هذا مؤسف!"},
         {type:"mc",q:"'Er kommt wahrscheinlich morgen.' What does 'wahrscheinlich' mean?",opts:["definitely","never","probably","unfortunately"],ans:"probably",hint:"هذه الكلمة المكونة من 17 حرفاً تنقسم إلى wahr (حقيقي) + scheinlich (يبدو)."},
         {type:"match",pairs:[
-    {trg:"freundlich",src:"friendly"},
+    {trg:"freundlich",src:"ودود"},
     {trg:"traurig",src:"حزين"},
-    {trg:"wirklich",src:"really"},
-    {trg:"doch",src:"yes (contradicting)"},
-    {trg:"deshalb",src:"therefore"},
-    {trg:"genau",src:"exactly"},
-    {trg:"kostenlos",src:"free"},
-    {trg:"natürlich",src:"of course"}
+    {trg:"wirklich",src:"حقاً"},
+    {trg:"doch",src:"بلى (للتناقض)"},
+    {trg:"deshalb",src:"لذلك"},
+    {trg:"genau",src:"بالضبط"},
+    {trg:"kostenlos",src:"مجاني / حرّ"},
+    {trg:"natürlich",src:"بالطبع"}
 ]}
       ]},
 // ─── L17: Der A2-Abschluss ───
@@ -674,14 +674,14 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"fb",s:"Wie viel Geld {1} du pro Monat aus?",a:["gibst"],opts:["gibst","gehst","nimmst","sparst"],hint:"أي صيغة من الفعل المنفصل 'ausgeben' تناسب صيغة du؟",sSrc:"كم من المال تنفق شهرياً؟"},
         {type:"mc",q:"'Erinnerst du dich an den ersten Tag?' What does 'sich erinnern' mean?",opts:["to forget","to remember","to arrive","to celebrate"],ans:"to remember",hint:"هذا الفعل الانعكاسي يأخذ 'an' + حالة نصب للشيء المتذكر."},
         {type:"match",pairs:[
-    {trg:"sich erinnern",src:"to remember"},
-    {trg:"erreichen",src:"to achieve"},
-    {trg:"klappen",src:"to work out"},
-    {trg:"ausgeben",src:"to spend"},
-    {trg:"einige",src:"some"},
-    {trg:"überall",src:"everywhere"},
-    {trg:"kontrollieren",src:"to check"},
-    {trg:"zum Beispiel",src:"for example"}
+    {trg:"sich erinnern",src:"يتذكّر"},
+    {trg:"erreichen",src:"يحقّق"},
+    {trg:"klappen",src:"يتمرّن / ينجح"},
+    {trg:"ausgeben",src:"ينفق"},
+    {trg:"einige",src:"بعض"},
+    {trg:"überall",src:"في كل مكان"},
+    {trg:"kontrollieren",src:"يتحقّق"},
+    {trg:"zum Beispiel",src:"على سبيل المثال"}
 ]},
         {type:"story",speaker:"mia",mood:"sincere",art:"de-phone-mia",trg:"Weißt du, was mich am meisten beeindruckt? Nicht dein Deutsch. Sondern dass du geblieben bist. Dass du es jeden Tag wieder versucht hast. Das ist echte Stärke.",src:"أتعرف ما يثير إعجابي أكثر؟ ليس ألمانيتك. بل أنك بقيت. أنك حاولت مجدداً كل يوم. هذه هي القوة الحقيقية."},
         {type:"story",speaker:"narrator",mood:"happy",art:"de-couch-night",trg:"Verumius legt das Handy hin. Sechs Monate. Eine Wohnung. Freunde. Eine Sprache, die langsam seine wird. Er denkt an die Ankunft am Flughafen. Den falschen Zug. Die 14-seitige Hausordnung. Den Müll. Den Arzt. Den Lauftreff. Die Deutsche Bahn. Den Glühwein. Und jetzt: KD hat gelacht. Alles ist möglich. Er will bleiben.",src:"فيروميوس يضع الهاتف. ستة أشهر. شقة. أصدقاء. لغة تصبح لغته ببطء. يفكر في الوصول إلى المطار. القطار الخطأ. قواعد المنزل الـ14 صفحة. القمامة. الطبيب. نادي الجري. Deutsche Bahn. النبيذ الساخن. والآن: KD ضحكت. كل شيء ممكن. يريد البقاء."},

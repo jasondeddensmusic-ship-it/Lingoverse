@@ -68,11 +68,11 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
     "Beide Wörter bedeuten im Deutschen dasselbe"
 ],ans:"Burg ist eine Festung, Schloss ist ein Wohnpalast",hint:"أحدهما يعلو قمم التلال للدفاع، والآخر كان مقر إقامة النبلاء."},
         {type:"match",pairs:[
-    {trg:"Altstadt",src:"old town"},
-    {trg:"Wahrzeichen",src:"landmark"},
-    {trg:"Dom",src:"cathedral"},
-    {trg:"Marktplatz",src:"market square"},
-    {trg:"Weinberg",src:"vineyard"}
+    {trg:"Altstadt",src:"المدينة القديمة"},
+    {trg:"Wahrzeichen",src:"معلم بارز"},
+    {trg:"Dom",src:"كاتدرائية"},
+    {trg:"Marktplatz",src:"ساحة السوق"},
+    {trg:"Weinberg",src:"كرم عنب"}
 ]},
         {type:"fb",s:"Morgen wollen wir das Schloss {1}.",a:["besichtigen"],opts:["besichtigen","besuchen","sehen","schauen"],hint:"فعل رسمي بالبادئة be- للزيارة المنهجية الشاملة لمكان ما.",sSrc:"غداً نريد أن نزور القصر."},
         {type:"mc",q:"Ein kleines Dorf mit Fachwerkhäusern an einem Fluss. Welches Adjektiv passt am besten?",opts:["eindrucksvoll","malerisch","historisch","atemberaubend"],ans:"malerisch",hint:"مكان بالغ الجمال يدفع الرسام إلى التوقف والتقاطه.",sSrc:"قرية صغيرة ببيوت ذات هياكل خشبية على ضفة نهر. أي صفة تناسب أكثر؟"},
@@ -123,11 +123,11 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
         {type:"mc",q:"Welches Präfix bedeutet 'in Stücke' oder 'auseinander'?",opts:["un-","miss-","zer-","ver-"],ans:"zer-",hint:"البادئة الأشد تدميراً. 'Zerbrechen' و'zerreißen' و'zerfallen'. كل شيء ينهار ويتفكك."},
         {type:"fb",s:"Er hat mich völlig {1}.",a:["missverstanden"],opts:["missverstanden","unverstanden","zerverstanden","verstanden"],hint:"لقد فهمني بشكل خاطئ. البادئة الدالة على الخطأ مضافةً إلى 'verstehen'.",sSrc:"لقد أساء فهمي تماماً."},
         {type:"match",pairs:[
-    {trg:"Hochdeutsch",src:"Standard German"},
-    {trg:"Mundart",src:"dialect (literary term)"},
-    {trg:"Umgangssprache",src:"colloquial language"},
-    {trg:"Plattdeutsch",src:"Low German"},
-    {trg:"Muttersprachler",src:"native speaker"}
+    {trg:"Hochdeutsch",src:"الألمانية الفصحى"},
+    {trg:"Mundart",src:"لهجة (مصطلح أدبي)"},
+    {trg:"Umgangssprache",src:"لغة عامية"},
+    {trg:"Plattdeutsch",src:"الألمانية السفلى"},
+    {trg:"Muttersprachler",src:"ناطق أصلي"}
 ]},
         {type:"mc",q:"'Unglücklich' gegenüber 'missglückt' gegenüber 'zerstört.' Welches Wort ist am stärksten?",opts:["zerstört (kaputt)","missglückt (ging schief)","unglücklich (traurig)","alle gleich stark"],ans:"zerstört (kaputt)",hint:"من سوء حظ خفيف إلى خطأ فادح إلى دمار كامل. البوادئ تتصاعد في حدتها."},
         {type:"mc",q:"Was bedeutet 'bayrisch'?",opts:["southern German","native speaker","to destroy","Bavarian"],ans:"Bavarian",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -172,11 +172,11 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
         {type:"teach",trg:"trächtig",src:"مثقل بـ / مملوء بـ / حامل (للحيوانات)",pos:"adj",gender:null,note:"يُستخدم كثيراً في المركبات: geschichtsträchtig (عريق تاريخياً)، zukunftsträchtig (واعد بالمستقبل).",example:"Diese Stadt ist geschichtsträchtig.",exampleSrc:"هذه المدينة عريقة بالتاريخ ومثقلة به.",funFact:"للإنسان تستخدم الألمانية 'schwanger' (حامل). أما trächtig فمحجوز للحيوانات والمركبات المجازية مثل geschichtsträchtig. هذا التمييز الدقيق يشبه الفروق في العربية بين ألفاظ الحمل عند البشر والحيوانات."},
         {type:"drag_fill",s:"Geschichtsträchtig = {1} + {2}. Es bedeutet: voll von {3}.",blanks:{"1":"Geschichte","2":"trächtig","3":"Geschichte"},pool:["Geschichte","trächtig","Geschichten","traurig","Tradition","Kultur"],hint:"حلِّل الصفة المركبة إلى جزأيها. الجزء الثاني من كلمة تعني 'مثقل بشيء' أو 'مملوء به'. كلا الجزأين موجودان ضمن خيارات السؤال.",sSrc:"Geschichtsträchtig = Geschichte (تاريخ) + trächtig (مثقل بـ). المعنى: عريق بالتاريخ."},
         {type:"match",pairs:[
-    {trg:"-ung",src:"feminines Nomen (Bildung)"},
-    {trg:"-heit",src:"feminines Abstraktum (Freiheit)"},
-    {trg:"-lich",src:"Adjektiv (freundlich)"},
-    {trg:"-bar",src:"Adjektiv (machbar)"},
-    {trg:"-tum",src:"neutrales Nomen (Wachstum)"}
+    {trg:"-ung",src:"اسم مؤنث (التعليم)"},
+    {trg:"-heit",src:"اسم مؤنث مجرّد (الحرية)"},
+    {trg:"-lich",src:"صفة (ودود)"},
+    {trg:"-bar",src:"صفة (قابل للتنفيذ)"},
+    {trg:"-tum",src:"اسم محايد (النمو)"}
 ]},
         {type:"fb",s:"Spaetzle und Schwarzwaelder Kirschtorte sind {1} fuer Freiburg.",a:["regionaltypisch"],opts:["traditionsbewusst","geschichtstraechtig","pittoresk","regionaltypisch"],hint:"فكّر في معنى الكلمة.",sSrc:"Spaetzle and Black Forest cake are typical of the region for Freiburg."},
         {type:"mc",q:"Was bedeutet 'daher'?",opts:["therefore, from there","base word (last part of compound)","gladly, with pleasure","to put together, to compose"],ans:"therefore, from there",hint:"فكّر في معنى هذه الكلمة في السياق."}
@@ -236,11 +236,11 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
     "Naturschutz ist Grundwort, ver- verneint: vernaturschutz"
 ],ans:"Gebiet ist Grundwort, un- verneint: unnatürlich",hint:"حدّد أيّ جزء من الكلمة المركّبة يمنحها جنسها النحوي. ثم اسأل: أيّ بادئة نفي تصنع أخفّ مقابل للصفة؟",sSrc:"Naturschutzgebiet: ما الكلمة الأساسية؟ وأيّ بادئة يمكنها نفي 'natürlich'؟"},
         {type:"match",pairs:[
-    {trg:"Stammtisch",src:"regulars' table at a pub"},
-    {trg:"Fasching",src:"carnival (southern term)"},
-    {trg:"Volksfest",src:"folk festival"},
-    {trg:"Naturschutzgebiet",src:"nature reserve"},
-    {trg:"Fachwerk",src:"half-timbered construction"}
+    {trg:"Stammtisch",src:"طاولة الزبائن الدائمين"},
+    {trg:"Fasching",src:"كرنفال (لهجة جنوبية)"},
+    {trg:"Volksfest",src:"مهرجان شعبي"},
+    {trg:"Naturschutzgebiet",src:"محمية طبيعية"},
+    {trg:"Fachwerk",src:"بناء نصف خشبي"}
 ]},
         {type:"mc",q:"Was bedeutet 'gemütlich'?",opts:[
     "cozy, comfortable, leisurely",
@@ -288,11 +288,11 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
         {type:"fb",s:"In einem deutschen Kompositum bestimmt das {1} das grammatische Geschlecht.",a:["Grundwort"],opts:["Grundwort","Bestimmungswort","Fugenelement","Präfix"],hint:"هذا المصطلح النحوي يُسمّي العنصر الذي يأتي دائماً في آخر الكلمة المركّبة ويتحكّم في جنسها النحوي.",sSrc:"في الاسم المركّب الألماني، ___ هو الذي يحدد الجنس النحوي."},
         {type:"drag_fill",s:"Es ist {1}, dass so viel Kulturerbe {2} wurde. Aber vieles wurde auch {3}.",blanks:{"1":"unglaublich","2":"zerstört","3":"restauriert"},pool:["unglaublich","zerstört","restauriert","missverstanden","unmöglich","errichtet"],hint:"فكّر في البوادئ: un- للنفي، و-de للإزالة، وre- للإعادة. أيّ بوادئ ألمانية تقابلها في النص؟",sSrc:"من غير المصدَّق أن كثيراً من التراث الثقافي قد دُمِّر. لكن كثيراً منه جرى ترميمه أيضاً."},
         {type:"match",pairs:[
-    {trg:"Tiefebene",src:"lowland plain"},
-    {trg:"Mittelgebirge",src:"low mountain range"},
-    {trg:"Zugspitze",src:"Germany's highest peak"},
-    {trg:"Küstenregion",src:"coastal region"},
-    {trg:"Flusslandschaft",src:"river landscape"}
+    {trg:"Tiefebene",src:"سهل منخفض"},
+    {trg:"Mittelgebirge",src:"سلسلة جبال منخفضة"},
+    {trg:"Zugspitze",src:"أعلى قمة في ألمانيا"},
+    {trg:"Küstenregion",src:"منطقة ساحلية"},
+    {trg:"Flusslandschaft",src:"مشهد نهري"}
 ]},
         {type:"mc",q:"'Die mittelalterliche Burg wurde vermutlich im 13. Jahrhundert wegen ihrer strategischen Lage hoch über dem Tal errichtet.' Welche B2-Konstrukte erscheinen?",opts:[
     "Nur TeKaMoLo-Reihenfolge, kein weiteres Konstrukt erkennbar hier",
@@ -348,11 +348,11 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
     "Ich habe direkt an der Baustelle angehalten"
 ],ans:"Ich bin um die Baustelle herumgefahren (untrennbar)",hint:"حين تكون um- غير منفصلة (umFAHREN) فتعني القيادة حول شيء. أما المنفصلة (UMfahren) فتعني الإطاحة بشيء.",sSrc:"'قدت حول موقع البناء.' ماذا حدث؟"},
         {type:"match",pairs:[
-    {trg:"unglaublich",src:"unbelievable"},
-    {trg:"missverstehen",src:"to misunderstand"},
-    {trg:"zerbrechen",src:"to shatter"},
-    {trg:"unmöglich",src:"impossible"},
-    {trg:"zerfallen",src:"to decay"}
+    {trg:"unglaublich",src:"لا يُصدّق"},
+    {trg:"missverstehen",src:"يسيء الفهم"},
+    {trg:"zerbrechen",src:"يتحطّم"},
+    {trg:"unmöglich",src:"مستحيل"},
+    {trg:"zerfallen",src:"يتحلّل"}
 ]},
         {type:"teach",trg:"würdig",src:"جدير، ذو كرامة",pos:"adj",gender:null,note:"يُكوِّن مركبات عديدة: sehenswürdig (يستحق المشاهدة)، denkwürdig (جدير بالتذكر)، würdevoll (مليء بالكرامة).",example:"Er ist ein würdiger Nachfolger.",exampleSrc:"إنه خلف جدير.",funFact:"مرتبط بـ'die Würde' (الكرامة)، أولى كلمات الدستور الألماني: Die Würde des Menschen ist unantastbar، أي: كرامة الإنسان لا تُمسّ."},
         {type:"fb",s:"Ein Gebäude, das 'sehen + ___ + keit' enthält, ist eine Sehenswürdigkeit. Das mittlere Element bedeutet {1}.",a:["würdig"],opts:["würdig","wert","gut","schön"],hint:"العنصر الأوسط في هذا المركب يعني الاستحقاق. مرتبط بـ'Würde' (كرامة) لكنه يعمل كلاحقة صفة.",sSrc:"يشرح المرشد السياحي: 'هذا المبنى معلم سياحي حقيقي.' العنصر الأوسط يعني ___."},
@@ -395,11 +395,11 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
         {type:"teach",trg:"unbezahlbar",src:"لا يُقدَّر بثمن، نفيس",pos:"adj",gender:null,note:"un- + bezahlbar (يمكن دفعه). ما لا يعادله أي مبلغ من المال.\nاللاحقة -bar: bezahlen + -bar = قابل للدفع.",example:"A: War die Reise teuer?\nB: Finanziell ja, aber der Erlebniswert ist unbezahlbar.\nA: Freundschaft ist unbezahlbar.\nB: Das Wertvollste, was es gibt.",exampleSrc:"أ: هل كانت الرحلة مكلفة؟\nب: ماديًا نعم، لكن التجربة لا تُقدَّر بثمن.\nأ: الصداقة لا تُقدَّر بثمن.\nب: إنها أثمن شيء موجود.",funFact:"un- + bezahlbar (يمكن دفعه). ما لا يمكن الدفع مقابله. اللاحقة -bar تصنع صفات بمعنى 'يمكن X-ه': bezahlbar (قابل للدفع)، machbar (ممكن)، lösbar (قابل للحل). إضافة un- تنفي: غير قابل للدفع، وبالتالي لا يُقدَّر بثمن."},
         {type:"drag_fill",s:"Die {1} der Landschaft und die {2} der Menschen machen diese Reise {3}.",blanks:{"1":"Schönheit","2":"Freundschaft","3":"unbezahlbar"},pool:["Schönheit","Freundschaft","unbezahlbar","Freiheit","Reichtum","unmöglich"],hint:"جمال الطبيعة وصداقة الناس يجعلان الرحلة لا تُقدَّر بثمن (un- + bezahlbar).",sSrc:"جمال المشهد الطبيعي وصداقة الناس تجعل هذه الرحلة لا تُقدَّر بثمن."},
         {type:"match",pairs:[
-    {trg:"-heit/-keit",src:"feminines abstraktes Substantiv"},
-    {trg:"-schaft",src:"feminines Kollektivsubstantiv"},
-    {trg:"-tum",src:"meist maskulines Substantiv"},
-    {trg:"-nis",src:"meist neutrales Substantiv"},
-    {trg:"-bar",src:"Adjektiv (fähig, etwas zu sein)"}
+    {trg:"-heit/-keit",src:"اسم مؤنث مجرّد"},
+    {trg:"-schaft",src:"اسم جمع مؤنث"},
+    {trg:"-tum",src:"اسم مذكّر في الغالب"},
+    {trg:"-nis",src:"اسم محايد في الغالب"},
+    {trg:"-bar",src:"صفة (قادر على أن يكون)"}
 ]},
         {type:"mc",q:"Verumius sagt: 'Möglicherweise verstehe ich dann gar nichts mehr.' Was repräsentiert 'möglicherweise' in TeKaMoLo?",opts:[
     "Temporal (wann, zu welchem Zeitpunkt)",

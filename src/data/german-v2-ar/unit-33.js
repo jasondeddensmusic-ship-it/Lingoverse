@@ -77,10 +77,10 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
     "die Zufriedenheit mit dem Zuhause"
 ],ans:"die Sehnsucht nach fernen Orten",hint:"نقيض Heimweh (الحنين إلى الوطن). فكّر في الشعور بالألم تجاه ما هو بعيد، لا تجاه ما تركته."},
         {type:"match",pairs:[
-    {trg:"Geborgenheit",src:"feeling of shelter/safety"},
-    {trg:"Entfremdung",src:"alienation"},
-    {trg:"Einsamkeit",src:"loneliness/solitude"},
-    {trg:"Sehnsucht",src:"deep longing"}
+    {trg:"Geborgenheit",src:"شعور بالحماية والأمان"},
+    {trg:"Entfremdung",src:"اغتراب"},
+    {trg:"Einsamkeit",src:"وحدة"},
+    {trg:"Sehnsucht",src:"حنين عميق"}
 ]},
         {type:"fb",s:"Seitdem ich in Berlin lebe, hat sich mein {1} verändert.",a:["Lebensgefühl"],opts:["Lebensgefühl","Fernweh","Abschied","Andenken"],hint:"الجودة العاطفية الكلية لوجودك. كيف تُحسّ بالحياة بشكل عام، لا في لحظة واحدة.",sSrc:"منذ أن بدأت الحياة في برلين، تغيّر إحساسي العام بالحياة."},
         {type:"mc",q:"Im Wort 'Lebensgefühl' verbindet das -s- zwischen 'Leben' und 'Gefühl'...",opts:["eine Genitivmarkierung","ein Fugenelement","eine Pluralendung","eine Rechtschreibregel"],ans:"ein Fugenelement",hint:"حرف الربط الصوتي في الكلمات المركّبة الألمانية. مثال: Leben-s-Gefühl."},
@@ -212,10 +212,10 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
 ],ans:"Weil das Aufwachsen vor dem Aufbrechen stattfand",hint:"تشير 'Nachdem' إلى الحدث الأسبق. يُعبّر Plusquamperfekt عن حدث اكتمل قبل بدء الحدث في الجملة الرئيسية."},
         {type:"drag_fill",s:"{1} er nach Berlin gezogen war, wurde er {2} auf seine neue Heimat.",blanks:{"1":"Nachdem","2":"stolz"},pool:["Nachdem","stolz","Bevor","zufrieden","Während","dankbar"],hint:"أداة ربط زمنية تدل على الترتيب (الانتقال جاء أولاً)، تليها صفة مع حرف جر ثابت. تصف الصفة شعوره تجاه موطنه الجديد.",sSrc:"بعد أن انتقل إلى برلين، أصبح فخوراً بموطنه الجديد."},
         {type:"match",pairs:[
-    {trg:"stolz auf",src:"proud of (+Akk)"},
-    {trg:"abhängig von",src:"dependent on (+Dat)"},
-    {trg:"zufrieden mit",src:"satisfied with (+Dat)"},
-    {trg:"dankbar fuer",src:"grateful for (+Akk)"}
+    {trg:"stolz auf",src:"فخور بـ"},
+    {trg:"abhängig von",src:"معتمد على"},
+    {trg:"zufrieden mit",src:"راضٍ عن"},
+    {trg:"dankbar fuer",src:"ممتنّ لـ"}
 ]},
         {type:"story",speaker:"verumius",mood:"restless",art:"de-med-verumius-rooftop-night",trg:"Ich bin neugierig auf die Zukunft. Ich bin verbunden mit zwei Orten. Aber nur an einem fühle ich mich wirklich geborgen. Und der liegt 1.800 Kilometer noerdlich von hier.",src:"أنا فضولي بشأن المستقبل. أنا مرتبط بمكانين. لكنني لا أشعر بالأمان الحقيقي إلا في أحدهما. ويقع على بُعد ألف وثمانمائة كيلومتر شمال هذا المكان."},
         {type:"mc",q:"Was bedeutet 'damals'?",opts:["envious of","back then, at that time","nowadays","enthusiastic about"],ans:"back then, at that time",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -270,10 +270,10 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
 ],ans:"Temporalsatz + Adj+Präp",hint:"'Seitdem' تُقدّم الجملة الزمنية. 'Dankbar für' هو زوج ثابت من صفة وحرف جر."},
         {type:"drag_fill",s:"{1} er gegangen war, wuchs seine Sehnsucht {2} der Heimat.",blanks:{"1":"Nachdem","2":"nach"},pool:["Nachdem","nach","Bevor","auf","Während","von"],hint:"بنيتان: أداة ربط زمنية تقتضي دائماً Plusquamperfekt، تليها تركيب اسم مع حرف جر يُعبّر عن الشوق.",sSrc:"بعد أن غادر، ازداد شوقه إلى وطنه."},
         {type:"match",pairs:[
-    {trg:"die Angst vor",src:"fear of (+Dat)"},
-    {trg:"die Sehnsucht nach",src:"longing for (+Dat)"},
-    {trg:"der Einfluss auf",src:"influence on (+Akk)"},
-    {trg:"die Erinnerung an",src:"memory of (+Akk)"}
+    {trg:"die Angst vor",src:"خوف من"},
+    {trg:"die Sehnsucht nach",src:"شوق إلى"},
+    {trg:"der Einfluss auf",src:"تأثير على"},
+    {trg:"die Erinnerung an",src:"ذكرى عن"}
 ]},
         {type:"story",speaker:"narrator",mood:"decisive",art:"de-med-verumius-phone",trg:"Er tippt auf sein Handy. Berlin. Morgen früh. Buchen. Die Bestätigung kommt sofort. Flug gebucht. Er atmet aus. Zum ersten Mal seit Tagen fühlt sich etwas richtig an.",src:"ينقر على هاتفه. برلين. صباح الغد. يحجز. يأتي التأكيد فوراً. رحلة محجوزة. يزفر. للمرة الأولى منذ أيام، يشعر بأن شيئاً ما صحيح."},
         {type:"mc",q:"Was bedeutet 'das Interesse an'?",opts:["interest in","future, forthcoming","someday, at some point","fear of"],ans:"interest in",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -330,10 +330,10 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
 ],ans:"eine Handlung, die früher stattfand als der Hauptsatz",hint:"'Bevor' يربط فعلين: أولاً كانت الغرفة هي العالم، ثم غادر. الفعل في جملة bevor جاء لاحقاً من حيث الترتيب الزمني.",sSrc:"قبل أن يذهب إلى ألمانيا، كانت هذه الغرفة تمثل العالم كله."},
         {type:"drag_fill",s:"Berlin {1} viele Kulturen. Verumius hat sich dort {2}.",blanks:{"1":"beheimatet","2":"verwurzelt"},pool:["beheimatet","verwurzelt","einleben","schätzen","pflegen","entwurzelt"],hint:"أي فعل يعني 'يحتضن' أو 'يضم'؟ وأي اسم مفعول يصف نمو الجذور؟",sSrc:"برلين تحتضن ثقافات كثيرة. لقد ترسخت جذور فيروميوس هناك."},
         {type:"match",pairs:[
-    {trg:"Geborgenheit",src:"feeling of being sheltered"},
-    {trg:"Ruhepol",src:"point of calm/anchor"},
-    {trg:"Zuflucht",src:"refuge"},
-    {trg:"verwurzelt",src:"rooted"}
+    {trg:"Geborgenheit",src:"شعور بالأمان"},
+    {trg:"Ruhepol",src:"نقطة سكينة"},
+    {trg:"Zuflucht",src:"ملجأ"},
+    {trg:"verwurzelt",src:"متجذّر"}
 ]},
         {type:"story",speaker:"verumius",mood:"grateful",art:"de-ber-apartment-evening",trg:"Ich halte Hildis Zettel in der Hand und lese ihn noch einmal. Ihre Pflanzen haben Sie vermisst. Nicht ich habe die Pflanzen vermisst. Die Pflanzen haben mich vermisst. Hildi weiß genau, was sie schreibt.",src:"أمسك بورقة هيلدي في يدي وأقرأها مرة أخرى. نباتاتك اشتاقت إليك. ليس: اشتقت إلى النباتات. النباتات اشتاقت إليّ. هيلدي تعرف تماماً ما تكتبه."},
         {type:"mc",q:"Was bedeutet 'ortsbezogen'?",opts:["motherland","to be home to, to house","refuge","place-related, local"],ans:"place-related, local",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -390,10 +390,10 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
 ],ans:"neugierig auf verlangt Akkusativ (gerichtet auf)",hint:"هذا الثنائي (صفة + حرف جر) يستخدم حرف جر ثنائي الاستخدام. حين يتجه الشعور نحو شيء ما، أيّ حالة إعرابية تُستخدم؟"},
         {type:"fb",s:"{1} er ankam, fühlte er sich zu Hause.",a:["Sobald"],opts:["Sobald","Nachdem","Bevor","Bis"],hint:"اللحظة التي وصل فيها. تتابع فوري. أسرع أداة ربط زمنية.",sSrc:"بمجرد أن وصل، شعر بأنه في بيته."},
         {type:"match",pairs:[
-    {trg:"doch (Partikel)",src:"widerspricht/besteht (doch!)"},
-    {trg:"mal (Partikel)",src:"mildert eine Bitte (schau mal)"},
-    {trg:"ja (Partikel)",src:"signalisiert Überraschung (wow!)"},
-    {trg:"eben (Partikel)",src:"akzeptiert Realität (ist halt so)"}
+    {trg:"doch (Partikel)",src:"يعارض / يصرّ (بل!)"},
+    {trg:"mal (Partikel)",src:"تلطيف الطلب (انظر مثلاً)"},
+    {trg:"ja (Partikel)",src:"يُشير إلى المفاجأة (واو!)"},
+    {trg:"eben (Partikel)",src:"يتقبّل الواقع (هيك الدنيا)"}
 ]},
         {type:"story",speaker:"verumius",mood:"peaceful",art:"de-ber-apartment-window",trg:"Jedes Wort, das ich auf Deutsch gelernt habe, trägt eine Erinnerung. Sehnsucht: der Abend am Mittelmeer. Geborgenheit: Hildis Tee. Aufbruch: der erste Tag am Flughafen. Das ist nun mal so. Mein Wörterbuch ist mein Tagebuch.",src:"كل كلمة تعلمتها بالألمانية تحمل ذكرى. Sehnsucht: المساء على شواطئ المتوسط. Geborgenheit: شاي هيلدي. Aufbruch: اليوم الأول في المطار. هكذا الأمر ببساطة. قاموسي هو مذكراتي."},
         {type:"mc",q:"Was bedeutet 'schon'?",opts:[
@@ -441,10 +441,10 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
         {type:"fb",s:"{1} er in Berlin angekommen war, wusste er: das ist Heimat.",a:["Sobald"],opts:["Sobald","Nachdem","Bevor","Bis"],hint:"لحظة الوصول تساوي لحظة المعرفة. فوراً. أسرع أداة ربط.",sSrc:"بمجرد أن وصل إلى برلين، عرف: هذا هو الوطن."},
         {type:"drag_fill",s:"{1} er lange gesucht hatte, fand er Heimat. Er war {2} auf sein neues Leben und empfand tiefe Verbundenheit {3} Berlin.",blanks:{"1":"Nachdem","2":"stolz","3":"mit"},pool:["Nachdem","stolz","mit","Bevor","dankbar","von"],hint:"ثلاثة مواقع: أداة ربط زمنية تدل على فعل سابق مكتمل، وصفة تعبّر عن مشاعر إيجابية تجاه شيء تحقق، وحرف جر للمصاحبة.",sSrc:"بعد أن بحث طويلاً، وجد الوطن. كان فخوراً بحياته الجديدة وشعر بارتباط عميق ببرلين."},
         {type:"match",pairs:[
-    {trg:"Heimat",src:"home (emotional concept)"},
-    {trg:"Sehnsucht",src:"deep longing"},
-    {trg:"Geborgenheit",src:"sheltered safety"},
-    {trg:"Vergänglichkeit",src:"transience"}
+    {trg:"Heimat",src:"وطن (بالمعنى العاطفي)"},
+    {trg:"Sehnsucht",src:"حنين عميق"},
+    {trg:"Geborgenheit",src:"أمان محمي"},
+    {trg:"Vergänglichkeit",src:"زوال"}
 ]},
         {type:"story",speaker:"verumius",mood:"serene",art:"de-ber-apartment-balcony",trg:"Ich stehe auf meinem Balkon in Kreuzberg. Unter mir die Stadt, die mich aufgenommen hat. In der Ferne der Fernsehturm. Ich denke auf Deutsch. Ich träume auf Deutsch. Und wenn mich jemand fragt, woher ich komme, sage ich: Ich lebe in Berlin.",src:"أقف على شرفتي في كروتسبرغ. تحتي المدينة التي احتضنتني. في البعيد برج التلفزيون. أُفكّر بالألمانية. أحلم بالألمانية. وحين يسألني أحد من أين أنا، أقول: أنا أعيش في برلين."},
         {type:"story",speaker:"narrator",mood:"closing",art:"de-ber-skyline-dusk",trg:"Die Sonne geht unter über Berlin. Irgendwo in Prenzlauer Berg macht Hildi Tee. Irgendwo in Neukoelln stimmt Lukas seine Gitarre. Und in einer kleinen Wohnung in Kreuzberg giesst Verumius seine Pflanzen. Er ist zu Hause.",src:"تغرب الشمس فوق برلين. في مكان ما في برنتسلاور بيرغ، تُعدّ هيلدي الشاي. في مكان ما في نويكولن، يُدوزن لوكاس قيثارته. وفي شقة صغيرة في كروتسبرغ، يسقي فيروميوس نباتاته. هو في وطنه."},

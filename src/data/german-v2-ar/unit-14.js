@@ -86,11 +86,11 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"mc",q:"Du musst ein Dokument drucken. Welches Gerät brauchst du?",opts:["Den Kopierer","Die Tastatur","Den Ordner","Das Regal"],ans:"Den Kopierer",hint:"أي جهاز ينتج نسخًا ورقية من المستندات؟"},
         {type:"fb",s:"Bitte {1} Sie die Datei aus.",a:["drucken"],opts:["drucken","klicken","tippen","kopieren"],hint:"أي فعل يعني طباعة شيء على الورق؟",sSrc:"من فضلك اطبع الملف."},
         {type:"match",pairs:[
-    {trg:"der Bildschirm",src:"screen/monitor"},
-    {trg:"die Tastatur",src:"keyboard"},
-    {trg:"die Festplatte",src:"hard drive"},
-    {trg:"die Steckdose",src:"power outlet"},
-    {trg:"der Kuli",src:"ballpoint pen"}
+    {trg:"der Bildschirm",src:"شاشة"},
+    {trg:"die Tastatur",src:"لوحة مفاتيح"},
+    {trg:"die Festplatte",src:"قرص صلب"},
+    {trg:"die Steckdose",src:"مقبس كهربائي"},
+    {trg:"der Kuli",src:"قلم حبر"}
 ]},
         {type:"story",speaker:"mia",mood:"conspiratorial",art:"de-ber-office-hallway",trg:"So, dein Arbeitsplatz ist eingerichtet. Jetzt zeige ich dir den wichtigsten Ort im ganzen Betrieb. Die Kaffeküche.",src:"إذن، مكان عملك جاهز. الآن سأريك أهم مكان في كامل الشركة. مطبخ القهوة."},
         {type:"fb",s:"In welchem {1} ist der Vertrag? Im blauen auf dem Regal.",a:["Ordner"],opts:["Ordner","Kuli","Regal","Mappe"],hint:"فكّر في معنى الكلمة.",sSrc:"In which binder is the contract? In the blue one on the shelf."},
@@ -115,19 +115,19 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"die Überstunde",src:"ساعة العمل الإضافي",pos:"noun",gender:"f",note:"Über- (فوق) + Stunde (ساعة). يتتبع الألمان ساعات العمل الإضافي بدقة.\nالعمل الإضافي المفرط يُنظر إليه سلبًا وليس كدليل على الإخلاص.",example:"A: Wie viele Überstunden hast du diese Woche?\nB: Nur zwei. Mehr will ich nicht.\nA: In meiner alten Firma waren es oft zehn.\nB: Das ist zu viel. Hier werden Überstunden genau gezählt.",exampleSrc:"أ: كم ساعة عمل إضافي لديك هذا الأسبوع؟\nب: اثنتان فقط. لا أريد أكثر.\nأ: في شركتي القديمة كانت غالبًا عشرًا.\nب: هذا كثير جدًا. هنا العمل الإضافي يُحسب بدقة.",funFact:"يتتبع الألمان ساعات العمل الإضافي بدقة. كثير من العقود تحدّها. العمل الإضافي المفرط يُعتبر سوء إدارة للوقت وليس إخلاصًا. مجلس العمال Betriebsrat يراقب العمل الإضافي عن كثب."},
         {type:"teach",trg:"der Terminkalender",src:"جدول المواعيد، المفكرة",pos:"noun",gender:"m",note:"Termin (موعد) + Kalender (تقويم). مفكرتك اليومية.\nإن لم يكن في التقويم فهو غير موجود.",example:"A: Hast du morgen Zeit für eine Besprechung?\nB: Moment, ich schaue in meinen Terminkalender.\nA: Geht es um zehn Uhr?\nB: Ja, zehn Uhr ist frei. Ich trage es ein.",exampleSrc:"أ: هل لديك وقت لاجتماع غدًا؟\nب: لحظة، سأتحقق من جدول مواعيدي.\nأ: هل الساعة العاشرة مناسبة؟\nب: نعم، العاشرة فارغة. سأسجلها.",funFact:"يعيش الألمان وفق جدول مواعيدهم. إن لم يكن في التقويم فهو غير موجود. الاجتماعات العفوية نادرة. كل شيء يحصل على Termin. 'Ich habe keinen Termin frei' هي الرفض المهذب الألماني."},
         {type:"match",pairs:[
-    {trg:"der Leiter",src:"the manager (m)"},
-    {trg:"die Leiterin",src:"the manager (f)"},
-    {trg:"die Mitarbeiterin",src:"the employee (f)"},
-    {trg:"der Hausmeister",src:"the caretaker"}
+    {trg:"der Leiter",src:"المدير"},
+    {trg:"die Leiterin",src:"المديرة"},
+    {trg:"die Mitarbeiterin",src:"الموظّفة"},
+    {trg:"der Hausmeister",src:"الحارس"}
 ]},
         {type:"mc",q:"Wer organisiert die Termine im Büro?",opts:["Der Hausmeister","Die Sekretärin","Der Leiter","Die Mitarbeiterin"],ans:"Die Sekretärin",hint:"هذا الشخص يجلس عند الاستقبال ويساعد في تنظيم المواعيد والمهام الإدارية."},
         {type:"fb",s:"Herr Schmidt hat viele {1} diese Woche.",a:["Überstunden"],opts:["Überstunden","Dienste","Terminkalender","Leitungen"],hint:"ساعات عمل تتجاوز الجدول الطبيعي. تُتتبَّع بدقة في المكاتب الألمانية.",sSrc:"لدى السيد شميت ساعات عمل إضافي كثيرة هذا الأسبوع."},
         {type:"fb",s:"Frau Müller hat die {1} des Projekts.",a:["Leitung"],opts:["Leitung","Überstunde","Leiterin","Dienst"],hint:"إدارة أو قيادة مشروع. ليس الشخص بل الدور.",sSrc:"السيدة مولر تتولى إدارة المشروع."},
         {type:"match",pairs:[
     {trg:"der Leiter",src:"المدير"},
-    {trg:"die Überstunde",src:"the overtime hour"},
-    {trg:"der Terminkalender",src:"the schedule, the planner"},
-    {trg:"der Dienst",src:"the service, the duty"}
+    {trg:"die Überstunde",src:"ساعة العمل الإضافية"},
+    {trg:"der Terminkalender",src:"الجدول الزمني"},
+    {trg:"der Dienst",src:"الخدمة / الواجب"}
 ]},
         {type:"mc",q:"'Ich habe Dienst bis achtzehn Uhr.' Was bedeutet das?",opts:["Ich gehe um 18 Uhr zum Arzt","Ich habe frei ab 18 Uhr","Ich arbeite bis 18 Uhr","Ich komme um 18 Uhr an"],ans:"Ich arbeite bis 18 Uhr",hint:"أن يكون لديك Dienst يعني أنك في الخدمة وتعمل فعليًا في موقعك."}
       ]},
@@ -219,10 +219,10 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"die Decke",src:"السقف، البطانية",pos:"noun",gender:"f",note:"معنيان: سقف وبطانية. السياق يحدد.\n'An die Decke gehen' = يضرب السقف (يغضب جدًا).",example:"A: Die Decke im Büro ist sehr hoch.\nB: Ja, dreieinhalb Meter. Ein alter Bau.\nA: Und die Lampe an der Decke?\nB: Die wurde letzte Woche ausgetauscht.",exampleSrc:"أ: سقف المكتب عالٍ جدًا.\nب: نعم، ثلاثة أمتار ونصف. مبنى قديم.\nأ: والمصباح على السقف؟\nب: تم استبداله الأسبوع الماضي.",funFact:"Decke تعني السقف والبطانية. 'An die Decke gehen' (يذهب إلى السقف) تعني يغضب جدًا. 'Unter einer Decke stecken' (تحت بطانية واحدة) تعني بالتواطؤ."},
         {type:"teach",trg:"die Kerze",src:"الشمعة",pos:"noun",gender:"f",note:"'Kerzen anzünden' = إشعال الشموع. ألمانية جدًا.\nتقليد عيد الميلاد: شمعة لكل سنة على الكعكة.",example:"A: Warum stehen Kerzen auf dem Tisch?\nB: Thomas hat Geburtstag. Eine Kerze für jedes Jahr.\nA: Das sind viele Kerzen!\nB: Ja, er wird fünfzig. Die Kerzen wurden alle angezündet.",exampleSrc:"أ: لماذا توجد شموع على الطاولة؟\nب: عيد ميلاد توماس. شمعة لكل سنة.\nأ: هذا كثير من الشموع!\nب: نعم، يبلغ الخمسين. أُشعلت جميع الشموع.",funFact:"يحب الألمان الشموع. ألمانيا أكبر سوق شموع في أوروبا. في الشتاء أكاليل المجيء Adventskränze لديها أربع شموع. كعكات عيد الميلاد شمعة لكل سنة عمر. الأمسيات المضاءة بالشموع تُسمى 'gemütlich.'"},
         {type:"match",pairs:[
-    {trg:"der Auftrag",src:"the assignment"},
-    {trg:"der Direktor",src:"the director (m)"},
-    {trg:"die Direktorin",src:"the director (f)"},
-    {trg:"die Leiter",src:"the ladder"}
+    {trg:"der Auftrag",src:"المهمة"},
+    {trg:"der Direktor",src:"المدير"},
+    {trg:"die Direktorin",src:"المديرة"},
+    {trg:"die Leiter",src:"السلّم"}
 ]},
         {type:"mc",q:"Wie heißt das Loch in der Decke, durch das Licht kommt?",opts:["Das Dach","Die Kerze","Die Decke hat ein Loch","Der Stil"],ans:"Die Decke hat ein Loch",hint:"السؤال يصف فتحة في السقف. أي خيار يتناول هذا مباشرة؟"},
         {type:"fb",s:"Die {1} der Konferenz war perfekt geplant.",a:["Organisation"],opts:["Organisation","Liste","Stil","Kerze"],hint:"التخطيط والتنسيق المنهجي لحدث.",sSrc:"تنظيم المؤتمر خُطط بشكل مثالي."},
@@ -316,16 +316,16 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"drehen",src:"يدوّر، يلفّ",pos:"verb",gender:null,note:"دوران مادي. 'Einen Film drehen' = يصوّر فيلمًا.\n'Sich drehen' = يستدير.",example:"A: Dreh den Knopf nach rechts.\nB: So? Passiert nichts.\nA: Noch etwas weiter drehen.\nB: Ah, jetzt funktioniert es!",exampleSrc:"أ: أدر المقبض إلى اليمين.\nب: هكذا؟ لا شيء يحدث.\nأ: أدر أكثر قليلًا.\nب: آه، الآن يعمل!",funFact:"'Einen Film drehen' (يلفّ فيلمًا) تعني تصوير فيلم. تأتي من لفّ بكرة الفيلم في الكاميرات القديمة. 'Mir dreht sich alles' (كل شيء يدور لي) تعني الشعور بالدوار."},
         {type:"teach",trg:"heizen",src:"يُسخّن، يُدفّئ",pos:"verb",gender:null,note:"'Die Heizung' = نظام التدفئة. 'Heizkosten' = تكاليف التدفئة.\nالألمان واعون جدًا لتكاليف التدفئة.",example:"A: Wird das Büro im Winter geheizt?\nB: Natürlich. Die Heizung wird im Oktober eingeschaltet.\nA: Und die Heizkosten?\nB: Die werden vom Betrieb bezahlt.",exampleSrc:"أ: هل يُدفأ المكتب في الشتاء؟\nب: بالطبع. تُشغَّل التدفئة في أكتوبر.\nأ: وتكاليف التدفئة؟\nب: تدفعها الشركة.",funFact:"الألمان واعون جدًا لتكاليف التدفئة Heizkosten. 'Heiz nicht so viel!' (لا تسخّن كثيرًا!) شكوى منزلية شائعة. فاتورة التدفئة Heizkostenabrechnung تصل مرة في السنة وتسبب التوتر."},
         {type:"match",pairs:[
-    {trg:"klingeln",src:"to ring"},
-    {trg:"die Klingel",src:"the doorbell"},
-    {trg:"schalten",src:"to switch"},
-    {trg:"drehen",src:"to turn/rotate"}
+    {trg:"klingeln",src:"يرنّ"},
+    {trg:"die Klingel",src:"جرس الباب"},
+    {trg:"schalten",src:"يبدّل"},
+    {trg:"drehen",src:"يدير / يلفّ"}
 ]},
         {type:"match",pairs:[
-    {trg:"duzen",src:"to use 'du' with someone"},
-    {trg:"siezen",src:"to use 'Sie' with someone"},
-    {trg:"klopfen",src:"to knock"},
-    {trg:"klingeln",src:"to ring"}
+    {trg:"duzen",src:"يخاطب شخصاً بصيغة المفرد"},
+    {trg:"siezen",src:"يخاطب شخصاً بصيغة الاحترام"},
+    {trg:"klopfen",src:"يطرق"},
+    {trg:"klingeln",src:"يرنّ"}
 ]},
         {type:"mc",q:"'Die Heizung wird im Oktober eingeschaltet.' Was passiert im Oktober?",opts:["Die Heizung wird repariert","Die Heizung wird angemacht","Die Heizung wird abgeschaltet","Die Heizung geht kaputt"],ans:"Die Heizung wird angemacht",hint:"einschalten تعني التشغيل. يتم تفعيل التدفئة في بداية موسم البرد."}
       ]},
@@ -366,19 +366,19 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
 ],ans:"Es ist höfliche Büro-Etikette in Deutschland",hint:"الطرق قبل الدخول سلوك مكتبي ألماني معياري في كل مكان."},
         {type:"fb",s:"Der Computer muss zuerst {1} werden.",a:["eingeschaltet"],opts:["eingeschaltet","einschalten","schalten","geschaltet"],hint:"يجب تشغيل الحاسوب. مبني للمجهول مع فعل شكلي: muss + اسم المفعول + werden.",sSrc:"يجب أولًا تشغيل الحاسوب."},
         {type:"match",pairs:[
-    {trg:"duzen",src:"to use 'du' (informal)"},
-    {trg:"siezen",src:"to use 'Sie' (formal)"},
-    {trg:"klopfen",src:"to knock"},
-    {trg:"einschalten",src:"to turn on"}
+    {trg:"duzen",src:"يخاطب بصيغة المفرد"},
+    {trg:"siezen",src:"يخاطب بصيغة الاحترام"},
+    {trg:"klopfen",src:"يطرق"},
+    {trg:"einschalten",src:"يشغّل"}
 ]},
         {type:"drag_fill",s:"Der Kollege, {1} mich {2} hat, {3} gestern eingestellt.",blanks:{"1":"der","2":"begrüßt","3":"wurde"},pool:["der","den","begrüßt","begrüßen","wurde","wird"],hint:"الزميل المذكر الذي (مرفوع) رحّب بي. هو وُظِّف أمس (مبني للمجهول ماضي).",sSrc:"الزميل الذي رحّب بي وُظِّف أمس."},
         {type:"fb",s:"Dieses Dokument braucht einen {1}, sonst ist es nicht gültig.",a:["Stempel"],opts:["Stempel","Knopf","Klick","Sitz"],hint:"ختم أو طابع رسمي يجعل الوثائق قانونية.",sSrc:"هذا المستند يحتاج ختمًا وإلا فهو غير صالح."},
         {type:"mc",q:"Was bedeutet 'möbliert'?",opts:["leer","elektronisch","eingerichtet mit Möbeln","repariert"],ans:"eingerichtet mit Möbeln",hint:"هذه الصفة تصف غرفة أو شقة تأتي بأثاث موجود بالفعل."},
         {type:"match",pairs:[
-    {trg:"der Knopf",src:"the button/knob"},
-    {trg:"der Sessel",src:"the armchair"},
-    {trg:"das Kissen",src:"the cushion"},
-    {trg:"mobil",src:"mobile"}
+    {trg:"der Knopf",src:"الزرّ / المقبض"},
+    {trg:"der Sessel",src:"الكرسي بذراعين"},
+    {trg:"das Kissen",src:"الوسادة"},
+    {trg:"mobil",src:"محمول"}
 ]},
         {type:"story",speaker:"narrator",mood:"relieved",art:"de-ber-meeting-room",trg:"Die Besprechung ist vorbei. Verumius hat überlebt. Sogar Frau Müller hat gelächelt. In diesem Büro wird geduzt. Ein Problem weniger.",src:"انتهى الاجتماع. نجا فيروميوس. حتى السيدة مولر ابتسمت. في هذا المكتب الجميع يستخدم du. مشكلة أقل."}
       ]},
@@ -429,11 +429,11 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     "Das Werkzeug, das repariert wurde, funktioniert wieder."
 ],ans:"Das Werkzeug, das repariert wurde, funktioniert wieder.",hint:"ابحث عن الجملة التي يظهر فيها مبني للمجهول ماضي داخل جملة موصولة، مميزة بالفواصل حولها."},
         {type:"match",pairs:[
-    {trg:"die Schachtel",src:"small box/packet"},
-    {trg:"die Kiste",src:"crate/chest"},
-    {trg:"das Werkzeug",src:"tools"},
-    {trg:"der Hammer",src:"hammer"},
-    {trg:"der Handwerker",src:"craftsperson"}
+    {trg:"die Schachtel",src:"علبة صغيرة"},
+    {trg:"die Kiste",src:"صندوق"},
+    {trg:"das Werkzeug",src:"أدوات"},
+    {trg:"der Hammer",src:"مطرقة"},
+    {trg:"der Handwerker",src:"حِرَفي"}
 ]},
         {type:"drag_fill",s:"Der Handwerker, {1} gerufen {2}, hat das Regal {3}.",blanks:{"1":"der","2":"wurde","3":"repariert"},pool:["der","den","wurde","wird","repariert","reparieren"],hint:"الحِرَفي المذكر الذي استُدعي (مرفوع موصول + مبني للمجهول). أصلح الرف.",sSrc:"الحِرَفي الذي استُدعي أصلح الرف."},
         {type:"story",speaker:"verumius",mood:"bewildered",art:"de-ber-kaffeeküche-cake",trg:"Also. In Deutschland bringt man seinen eigenen Geburtstagskuchen mit. Man macht seinen eigenen Kaffee. Und man nimmt niemals den letzten Keks. Verstanden.",src:"إذن. في ألمانيا تحضر كعكة عيد ميلادك بنفسك. تصنع قهوتك بنفسك. ولا تأخذ آخر بسكويت أبدًا. مفهوم."},
@@ -460,9 +460,9 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"die Kassette",src:"الكاسيت، الشريط",pos:"noun",gender:"f",note:"من الفرنسية. أشرطة صوتية ومرئية.\nشبه منقرضة لكنها مفهومة لدى جميع الألمان.",example:"A: Was ist das? Eine Kassette?\nB: Ja, eine alte Videokassette. Die wurde im Keller gefunden.\nA: Haben wir noch einen Kassettenrekorder?\nB: Nein, der wurde vor Jahren weggeworfen.",exampleSrc:"أ: ما هذا؟ كاسيت؟\nب: نعم، شريط فيديو قديم. وُجد في القبو.\nأ: هل ما زال لدينا مسجل أشرطة؟\nب: لا، رُمي قبل سنوات.",funFact:"الكاسيت شبه منقرض في ألمانيا، استُبدل بالوسائط الرقمية. لكن 'Hörspielkassetten' (أشرطة المسرحيات الصوتية) كانت جزءًا كبيرًا من الطفولة الألمانية. مسلسل المحققين 'Die drei Fragezeichen' باع ملايين الأشرطة."},
         {type:"teach",trg:"das Laufwerk",src:"محرك الأقراص",pos:"noun",gender:"n",note:"Lauf (تشغيل) + Werk (عمل). محرك أقراص أو محرك تخزين.\n'CD-Laufwerk' و'DVD-Laufwerk.' يتم التخلص منه تدريجيًا.",example:"A: Mein Rechner hat kein CD-Laufwerk mehr.\nB: Die neuen Rechner werden ohne Laufwerk gebaut.\nA: Wie installiere ich dann Software?\nB: Alles wird online heruntergeladen.",exampleSrc:"أ: حاسوبي ليس فيه محرك أقراص مدمجة بعد الآن.\nب: الحواسيب الجديدة تُبنى بدون محركات أقراص.\nأ: كيف أثبّت البرامج إذن؟\nب: كل شيء يُحمَّل عبر الإنترنت.",funFact:"Laufwerk (محرك تشغيل) يشير إلى أي محرك أقراص. محركات CD وDVD تختفي من الحواسيب الحديثة. لكن الكلمة تستمر في المصطلحات التقنية: Netzlaufwerk (محرك شبكة) ما زال شائعًا."},
         {type:"match",pairs:[
-    {trg:"der Fernseher",src:"TV set"},
-    {trg:"das Fernsehen",src:"television (medium)"},
-    {trg:"die Fernbedienung",src:"remote control"},
+    {trg:"der Fernseher",src:"جهاز تلفاز"},
+    {trg:"das Fernsehen",src:"التلفزيون (وسيلة إعلام)"},
+    {trg:"die Fernbedienung",src:"جهاز تحكّم عن بُعد"},
     {trg:"der Lautsprecher",src:"متحدث"}
 ]},
         {type:"mc",q:"Was ist der Unterschied zwischen 'der Sender' und 'der Kanal'?",opts:[
@@ -474,10 +474,10 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"fb",s:"Die alte Videokassette {1} im Keller gefunden.",a:["wurde"],opts:["wurde","wird","werden","worden"],hint:"الكاسيت وُجد. مبني للمجهول ماضي مفرد.",sSrc:"شريط الفيديو القديم وُجد في القبو."},
         {type:"fb",s:"Wo ist die {1}? Ich kann den Fernseher nicht einschalten.",a:["Fernbedienung"],opts:["Fernbedienung","Kassette","Lautsprecher","Kanal"],hint:"الجهاز المحمول المستخدم للتحكم في التلفاز عن بعد.",sSrc:"أين جهاز التحكم؟ لا أستطيع تشغيل التلفاز."},
         {type:"match",pairs:[
-    {trg:"der Fernseher",src:"the television set"},
-    {trg:"die Fernbedienung",src:"the remote control"},
-    {trg:"der Lautsprecher",src:"the loudspeaker"},
-    {trg:"der Kanal",src:"the channel"}
+    {trg:"der Fernseher",src:"جهاز التلفاز"},
+    {trg:"die Fernbedienung",src:"جهاز التحكّم عن بُعد"},
+    {trg:"der Lautsprecher",src:"مكبّر الصوت"},
+    {trg:"der Kanal",src:"القناة"}
 ]},
         {type:"mc",q:"Was bedeutet 'der Sender'?",opts:["the TV or radio station","the remote control","the cassette","the channel"],ans:"the TV or radio station",hint:"فكّر في من يبث إشارة البث. تعني أيضًا مرسل."},
         {type:"fb",s:"Ich suche die {1} für den Fernseher.",a:["Fernbedienung"],opts:["Fernbedienung","Kassette","Lautsprecher","Laufwerk"],hint:"تستخدم هذا الجهاز لتغيير القنوات دون النهوض.",sSrc:"أبحث عن جهاز التحكم للتلفاز."},
@@ -527,11 +527,11 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     "Der Kollege, den geholfen wurde, ist zufrieden."
 ],ans:"Der Kollege, dem geholfen wurde, ist jetzt zufrieden.",hint:"helfen يأخذ المجرور. الزميل الذي قُدمت له المساعدة. المذكر المجرور = dem."},
         {type:"match",pairs:[
-    {trg:"hochladen",src:"to upload"},
-    {trg:"herunterfahren",src:"to shut down"},
-    {trg:"löschen",src:"to delete"},
-    {trg:"installieren",src:"to install"},
-    {trg:"kaputtgehen",src:"to break down"}
+    {trg:"hochladen",src:"يرفع (ملفاً)"},
+    {trg:"herunterfahren",src:"يُغلق"},
+    {trg:"löschen",src:"يحذف"},
+    {trg:"installieren",src:"يُثبّت"},
+    {trg:"kaputtgehen",src:"يتعطّل"}
 ]},
         {type:"drag_fill",s:"Die Dateien, {1} gelöscht {2}, {3} wichtig.",blanks:{"1":"die","2":"wurden","3":"waren"},pool:["die","der","wurden","wurde","waren","war"],hint:"الملفات (مؤنث جمع، مرفوع). حُذفت (مبني للمجهول ماضي جمع). كانت مهمة.",sSrc:"الملفات التي حُذفت كانت مهمة."},
         {type:"mc",q:"'Der Sender, ___ wir gestern empfangen haben, wurde abgeschaltet.' Welches Pronomen und warum?",opts:["die","den","dem","der"],ans:"den",hint:"Sender مذكر. استقبلناه (مفعول به في الجملة الموصولة = منصوب). المذكر المنصوب = den."},
@@ -563,10 +563,10 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"das Kuvert",src:"المظروف",pos:"noun",gender:"n",note:"من الفرنسية 'couvert.' أكثر شيوعًا في النمسا وسويسرا.\nفي ألمانيا 'Umschlag' أو 'Briefumschlag' أكثر شيوعًا.",example:"A: Hast du ein Kuvert für diesen Brief?\nB: Ja, hier. Das Kuvert wurde schon beschriftet.\nA: In Deutschland sagt man Umschlag.\nB: Stimmt. Kuvert ist eher österreichisch.",exampleSrc:"أ: هل لديك مظروف لهذه الرسالة؟\nب: نعم، تفضل. المظروف كُتب عليه بالفعل.\nأ: في ألمانيا يقولون Umschlag.\nب: صحيح. Kuvert نمساوية أكثر.",funFact:"Kuvert هي الكلمة النمساوية/السويسرية للمظروف. في ألمانيا Briefumschlag (مظروف الرسالة) هي المعيار. فروق مفردات DACH تظهر في امتحان غوته، لذا تعلّم جميع المتغيرات مهم."},
         {type:"teach",trg:"das Eck",src:"الزاوية، الركن",pos:"noun",gender:"n",note:"اختصار لـ 'die Ecke.' أكثر شيوعًا في جنوب ألمانيا.\n'Am Eck' = عند الزاوية.",example:"A: Stell den Kasten bitte in das Eck.\nB: Welches Eck?\nA: Das Eck neben dem Regal.\nB: Okay, der Kasten wird ins Eck gestellt.",exampleSrc:"أ: من فضلك ضع الصندوق في الزاوية.\nب: أي زاوية؟\nأ: الزاوية بجانب الرف.\nب: حسنًا، سيُوضع الصندوق في الزاوية.",funFact:"Eck هي المتغيرة الجنوب ألمانية/النمساوية لـ Ecke (زاوية). 'Dreieck' (مثلث) = ثلاث زوايا. 'Viereck' (مستطيل/مربع) = أربع زوايا. الهندسة الألمانية مبنية على الزوايا Ecken."},
         {type:"match",pairs:[
-    {trg:"der Lift",src:"elevator (Austrian)"},
-    {trg:"die Stiege",src:"staircase (Austrian)"},
-    {trg:"der Fauteuil",src:"armchair (Austrian)"},
-    {trg:"das Kuvert",src:"envelope (Austrian)"}
+    {trg:"der Lift",src:"مصعد (نمساوي)"},
+    {trg:"die Stiege",src:"درج (نمساوي)"},
+    {trg:"der Fauteuil",src:"كرسي بذراعين (نمساوي)"},
+    {trg:"das Kuvert",src:"ظرف (نمساوي)"}
 ]},
         {type:"mc",q:"In Austria, what word is used for 'Treppenhaus'?",opts:["das Stiegenhaus","der Korridor","das Eck","der Lift"],ans:"das Stiegenhaus",hint:"تجمع الكلمة النمساوية للدرج مع Haus."}
       ]},
@@ -585,19 +585,19 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"der Nagel",src:"المسمار",pos:"noun",gender:"m",note:"المسمار وظفر اليد.\n'Den Nagel auf den Kopf treffen' = يصيب المسمار على رأسه.",example:"A: Ich brauche einen Nagel für das Bild.\nB: Der Hammer liegt im Werkzeugkasten.\nA: Danke. Der Nagel wird jetzt in die Wand geschlagen.\nB: Aber nicht zu laut! Es wird noch gearbeitet.",exampleSrc:"أ: أحتاج مسمارًا للصورة.\nب: المطرقة في صندوق الأدوات.\nأ: شكرًا. سيُدقّ المسمار في الحائط الآن.\nب: لكن ليس بصوت عالٍ جدًا! الناس ما زالوا يعملون.",funFact:"'Den Nagel auf den Kopf treffen' (يصيب المسمار على رأسه) تعني أن تكون محقًا تمامًا. 'Nägel mit Köpfen machen' (يصنع مسامير برؤوس) تعني أن تنجز الأمور بشكل صحيح وشامل."},
         {type:"teach",trg:"die Hausmeisterin",src:"حارسة المبنى",pos:"noun",gender:"f",note:"الصيغة المؤنثة لـ Hausmeister. Hausmeister + -in.\nتتزايد في المباني الألمانية.",example:"A: Die Hausmeisterin hat den Schlüssel.\nB: Wo finde ich die Hausmeisterin?\nA: Im Erdgeschoss. Sie wurde letzte Woche eingestellt.\nB: Gut, ich gehe zu ihr.",exampleSrc:"أ: حارسة المبنى لديها المفتاح.\nب: أين أجد حارسة المبنى؟\nأ: في الطابق الأرضي. وُظِّفت الأسبوع الماضي.\nب: جيد، سأذهب إليها.",funFact:"مبانٍ ألمانية أكثر فأكثر لديها حارسة مبنى Hausmeisterin بدلًا من Hausmeister. الوظيفة أصبحت مهنية بشكل متزايد. شركة إدارة المباني Hausverwaltung غالبًا توظف الحارس/الحارسة."},
         {type:"match",pairs:[
-    {trg:"der Fleck",src:"the stain"},
-    {trg:"die Nadel",src:"the needle"},
-    {trg:"der Nagel",src:"the nail"},
-    {trg:"die Hausmeisterin",src:"the caretaker (f)"}
+    {trg:"der Fleck",src:"البقعة"},
+    {trg:"die Nadel",src:"الإبرة"},
+    {trg:"der Nagel",src:"المسمار"},
+    {trg:"die Hausmeisterin",src:"الحارسة"}
 ]},
         {type:"mc",q:"'Da ist ein ___ auf dem Teppich!' Was fehlt?",opts:["Fleck","Nagel","Ofen","Dach"],ans:"Fleck",hint:"شيء انسكب على السجاد تاركًا علامة مرئية.",sSrc:"يوجد ___ على السجاد!"},
         {type:"fb",s:"Ich brauche einen {1} für das Bild an der Wand.",a:["Nagel"],opts:["Nagel","Nadel","Fleck","Wecker"],hint:"قطعة معدنية صغيرة تُدقّ في الحائط لتعليق الصور.",sSrc:"أحتاج مسمارًا للصورة على الحائط."},
         {type:"match",pairs:[
-    {trg:"das Treppenhaus",src:"the stairwell"},
-    {trg:"das Dach",src:"the roof"},
-    {trg:"der Bau",src:"the construction"},
-    {trg:"das Schaufenster",src:"the shop window"},
-    {trg:"der Korridor",src:"the corridor"}
+    {trg:"das Treppenhaus",src:"بيت الدرج"},
+    {trg:"das Dach",src:"السقف"},
+    {trg:"der Bau",src:"البناء"},
+    {trg:"das Schaufenster",src:"واجهة المتجر"},
+    {trg:"der Korridor",src:"الممر"}
 ]},
         {type:"mc",q:"Was bedeutet 'der Fleck'?",opts:["the spot, the stain","the needle","the nail","the alarm clock"],ans:"the spot, the stain",hint:"شيء غير مرغوب يقع على القماش أو السجاد أو سطح ويحتاج تنظيفًا."},
         {type:"mc",q:"Welches Wort ist KEIN österreichisches Synonym?",opts:["der Korridor","der Lift","die Stiege","der Fauteuil"],ans:"der Korridor",hint:"ثلاثة من هذه متغيرات نمساوية تحديدًا. واحدة تُستخدم في جميع المناطق الناطقة بالألمانية."}
@@ -624,10 +624,10 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"die Mobilbox",src:"صندوق البريد الصوتي",pos:"noun",gender:"f",note:"Mobil (متنقل) + Box. البريد الصوتي لهاتفك المحمول.\nتُسمى أيضًا 'Mailbox' بالألمانية.",example:"A: Ich habe dich angerufen, aber du warst nicht da.\nB: Hast du auf die Mobilbox gesprochen?\nA: Ja, eine Nachricht wurde hinterlassen.\nB: Ich höre sie gleich ab.",exampleSrc:"أ: اتصلت بك لكنك لم تكن هناك.\nب: هل تحدثت على البريد الصوتي؟\nأ: نعم، تُركت رسالة.\nب: سأستمع إليها حالًا.",funFact:"يسمي الألمان البريد الصوتي 'Mobilbox' أو 'Mailbox.' 'Bitte hinterlassen Sie eine Nachricht nach dem Signalton' (يرجى ترك رسالة بعد الصافرة) هي تحية البريد الصوتي الألمانية المعيارية."},
         {type:"teach",trg:"die Mobilität",src:"التنقل، الحركية",pos:"noun",gender:"f",note:"'Elektromobilität' موضوع ضخم في ألمانيا.\nلاحقة -ität دائمًا مؤنثة.",example:"A: Mobilität ist wichtig für den Job.\nB: Ja, flexible Mobilität wird erwartet.\nA: Wird ein Firmenwagen zur Verfügung gestellt?\nB: Nein, aber ein Jobticket für den Nahverkehr.",exampleSrc:"أ: التنقل مهم للعمل.\nب: نعم، تنقل مرن متوقع.\nأ: هل توفَّر سيارة شركة؟\nب: لا، لكن تذكرة عمل للنقل العام.",funFact:"لاحقة -ität دائمًا مؤنثة وتوافق الإنجليزية -ity: Mobilität وQualität وAktivität وUniversität. قاعدة جنس مجانية لمئات الأسماء الألمانية."},
         {type:"match",pairs:[
-    {trg:"das Abonnement",src:"the subscription"},
-    {trg:"die Anleitung",src:"the instructions"},
-    {trg:"der Betriebsrat",src:"the works council"},
-    {trg:"die Mobilbox",src:"the voicemail box"}
+    {trg:"das Abonnement",src:"الاشتراك"},
+    {trg:"die Anleitung",src:"التعليمات"},
+    {trg:"der Betriebsrat",src:"مجلس العمّال"},
+    {trg:"die Mobilbox",src:"صندوق البريد الصوتي"}
 ]},
         {type:"teach",trg:"anschließen",src:"يوصل، يربط",pos:"verb",gender:null,note:"An- (إلى) + schließen (يغلق/يوصل).\n'Den Monitor anschließen' = يوصل الشاشة.",example:"A: Wie schließe ich den Monitor an?\nB: Das Kabel wird hinten angeschlossen.\nA: Welches Kabel?\nB: Das HDMI-Kabel. Es wurde gestern bestellt.",exampleSrc:"أ: كيف أوصل الشاشة؟\nب: يُوصل الكابل من الخلف.\nأ: أي كابل؟\nب: كابل HDMI. طُلب أمس.",funFact:"anschließen تعني يوصل أو ينضم. 'Sich jemandem anschließen' تعني ينضم لشخص. 'Im Anschluss an' تعني بعد. فعل واحد، اتصالات كثيرة."},
         {type:"teach",trg:"ausfallen",src:"يفشل، يُلغى، يتعطل",pos:"verb",gender:null,note:"Aus- (خارج) + fallen (يسقط). 'Der Strom fällt aus' = انقطاع كهرباء.\n'Die Besprechung fällt aus' = الاجتماع ملغى.",example:"A: Die Besprechung fällt heute aus.\nB: Warum? Was ist ausgefallen?\nA: Der Strom ist ausgefallen.\nB: Wann wird der Strom wieder eingeschaltet?",exampleSrc:"أ: الاجتماع ملغى اليوم.\nب: لماذا؟ ما الذي تعطل؟\nأ: الكهرباء انقطعت.\nب: متى ستعود الكهرباء؟",funFact:"ausfallen كلمة متعددة الاستخدامات للأشياء التي تسوء. Stromausfall (انقطاع كهرباء) وHaarausfall (تساقط شعر) وUnterrichtsausfall (إلغاء حصة). عندما يسقط شيء ausfällt يسقط حرفيًا من الوجود."},
@@ -652,10 +652,10 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"waagrecht",src:"أفقي (variant)",pos:"adj",gender:null,note:"متغيرة أقصر لـ waagerecht. كلتاهما صحيحة.\nأكثر شيوعًا في الألمانية النمساوية والسويسرية.",example:"A: Ist die Linie waagrecht?\nB: Ja, perfekt waagrecht.\nA: Waagrecht und waagerecht sind beide richtig?\nB: Ja, waagrecht ist die kürzere Form.",exampleSrc:"أ: هل الخط أفقي؟\nب: نعم، أفقي تمامًا.\nأ: waagrecht وwaagerecht كلتاهما صحيحتان؟\nب: نعم، waagrecht هي الأقصر.",funFact:"waagrecht هي المتغيرة الأقصر لـ waagerecht. كلتاهما صحيحة. الألمانية النمساوية تفضل waagrecht. امتحان غوته يقبل كلا الإملاءين."},
         {type:"teach",trg:"innerhalb",src:"داخل، ضمن",pos:"prep",gender:null,note:"Inner (داخل) + halb (نصف/جانب). تأخذ المجرور.\n'Innerhalb einer Woche' = خلال أسبوع.",example:"A: Innerhalb des Betriebs gelten besondere Regeln.\nB: Welche Regeln?\nA: Zum Beispiel: Überstunden werden innerhalb eines Monats ausgeglichen.\nB: Das ist eine gute Regelung.",exampleSrc:"أ: داخل الشركة تسري قواعد خاصة.\nب: أي قواعد؟\nأ: مثلًا: العمل الإضافي يُعوَّض خلال شهر.\nب: هذا تنظيم جيد.",funFact:"innerhalb تأخذ المجرور: innerhalb des Gebäudes (داخل المبنى)، innerhalb einer Woche (خلال أسبوع). عكسها außerhalb (خارج). كلتاهما أساسيتان لوصف القواعد والحدود."},
         {type:"match",pairs:[
-    {trg:"anschließen",src:"to connect"},
-    {trg:"ausfallen",src:"to fail, to cancel"},
-    {trg:"einfügen",src:"to insert, to paste"},
-    {trg:"herausfinden",src:"to find out"}
+    {trg:"anschließen",src:"يربط"},
+    {trg:"ausfallen",src:"يفشل / يلغي"},
+    {trg:"einfügen",src:"يدرج / يلصق"},
+    {trg:"herausfinden",src:"يكتشف"}
 ]},
         {type:"fb",s:"Das Kabel wird hinten {1}.",a:["angeschlossen"],opts:["angeschlossen","ausgefallen","aufgelöst","eingefügt"],hint:"يُوصل الكابل من الخلف (مبني للمجهول، اسم المفعول).",sSrc:"يُوصل الكابل من الخلف."},
         {type:"tip",title:"Feierabend: The Sacred Boundary",text:"Feierabend حرفيًا تعني 'مساء الاحتفال.'\nتُحدد نهاية العمل وبداية وقت الفراغ.\n\nيأخذ الألمان هذا الحد بجدية:\n- رسائل العمل بعد Feierabend مستهجنة\n- بعض الشركات تحجب خوادم البريد بعد السادسة مساءً\n- مجلس العمال يراقب الالتزام\n- العمل الإضافي يُوثَّق ويُعوَّض\n\nالتوازن بين العمل والحياة ليس شعارًا في ألمانيا.\nإنه قيمة ثقافية محمية بالقانون.",deepDive:{title:"The Arbeitszeitgesetz (Working Hours Act)",text:"ينظم قانون ساعات العمل الألماني Arbeitszeitgesetz:\n- بحد أقصى 8 ساعات يوميًا (10 في الاستثناءات)\n- بحد أدنى 11 ساعة راحة بين أيام العمل\n- راحة أيام الأحد والعطل الرسمية\n- تعويض العمل الإضافي خلال 6 أشهر\n\nمجلس العمال يراقب الالتزام.\nالمخالفات تُعاقب بغرامات.\n\nFeierabend ليس مجرد تقليد. إنه قانون."}},
@@ -669,11 +669,11 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     "Er schreibt die Bedienungsanleitung"
 ],ans:"Er vertritt die Interessen der Mitarbeiter",hint:"هذه الهيئة المفروضة قانونيًا تمثل مصالح الموظفين في الشركة."},
         {type:"match",pairs:[
-    {trg:"abwaschen",src:"to wash dishes"},
-    {trg:"staubsaugen",src:"to vacuum"},
-    {trg:"twittern",src:"to tweet"},
-    {trg:"befördern",src:"to promote"},
-    {trg:"elektronisch",src:"electronic"}
+    {trg:"abwaschen",src:"يغسل الصحون"},
+    {trg:"staubsaugen",src:"يكنس بالمكنسة الكهربائية"},
+    {trg:"twittern",src:"يغرّد"},
+    {trg:"befördern",src:"يُروّج"},
+    {trg:"elektronisch",src:"إلكتروني"}
 ]},
         {type:"story",speaker:"narrator",mood:"warm",art:"de-ber-office-exit-sunset",trg:"Verumius verlässt das Büro. Die Sonne steht tief über Berlin. Sein erster Arbeitstag wurde gemeistert. Morgen wird er wissen, wo der Kopierer steht und wann Feierabend ist.",src:"يغادر فيروميوس المكتب. الشمس منخفضة فوق برلين. يوم عمله الأول أُتقن. غدًا سيعرف أين آلة النسخ ومتى ينتهي يوم العمل."},
         {type:"story",speaker:"mia",mood:"friendly",art:"de-ber-street-evening",trg:"Übrigens, nächste Woche fahren wir nach Hamburg. Eine Geschäftsreise. Du brauchst einen Anzug, der passt, und einen Koffer, der nicht zu groß ist.",src:"بالمناسبة، الأسبوع القادم نذهب إلى هامبورغ. رحلة عمل. تحتاج بدلة تناسبك وحقيبة سفر ليست كبيرة جدًا."},

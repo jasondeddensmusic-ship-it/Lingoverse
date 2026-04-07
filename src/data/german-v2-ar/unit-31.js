@@ -83,10 +83,10 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
     "ein Aktienzertifikat"
 ],ans:"eine Kapitalertragsrate (return on investment)",hint:"المصطلح المصرفي الإيطالي لما تكسبه أموالك حين تستثمرها."},
         {type:"match",pairs:[
-    {trg:"Aktie",src:"stock/share"},
-    {trg:"Börse",src:"stock exchange"},
-    {trg:"Dividende",src:"dividend"},
-    {trg:"Anleger",src:"investor"}
+    {trg:"Aktie",src:"سهم"},
+    {trg:"Börse",src:"بورصة"},
+    {trg:"Dividende",src:"أرباح أسهم"},
+    {trg:"Anleger",src:"مستثمر"}
 ]},
         {type:"fb",s:"Die {1} bestimmt, wie sich Angebot und Nachfrage entwickeln.",a:["Konjunktur"],opts:["Konjunktur","Dividende","Aktie","Rendite"],hint:"الدورة الاقتصادية الكلية التي تحدد ظروف الأعمال.",sSrc:"تحدد الدورة الاقتصادية كيفية تطوّر العرض والطلب."},
         {type:"mc",q:"Wettbewerbsfaehig bedeutet...",opts:["nachhaltig und ressourcenschonend","konkurrenzfaehig (competitive)","börsennotiert","profitabel"],ans:"konkurrenzfaehig (competitive)",hint:"'Wettbewerb' تعني منافسة. 'Faehig' تعني قادر. قادر على المنافسة."},
@@ -211,10 +211,10 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"teach",trg:"sich erholen",src:"التعافي، الاستعادة",pos:"verb",gender:null,note:"فعل انعكاسي. Er/sie erholt sich.\nيُستخدم لوصف تعافي الأشخاص واسترداد الاقتصادات عافيتها.",example:"A: Erholt sich die Wirtschaft?\nB: Ja, die Wirtschaft erholt sich langsam.\nA: Wann wird sie sich vollständig erholt haben?\nB: Bis Ende des Jahres, wenn die Subventionen wirken.",exampleSrc:"أ: هل الاقتصاد يتعافى؟\nب: نعم، الاقتصاد يتعافى ببطء.\nأ: متى سيكون قد تعافى تماماً؟\nب: بحلول نهاية العام، إذا نجحت الإعانات.",funFact:"فعل انعكاسي: ich erhole mich, du erholst dich, er erholt sich. يُستخدم لوصف تعافي الأشخاص من المرض أو التوتر، ولوصف انتعاش الأسواق والاقتصادات. 'Die Erholung' هو الاسم المشتق. 'Der Erholungsort' (منتجع سياحي) مشتق من الجذر ذاته."},
         {type:"drag_fill",s:"{1} die Regierung Subventionen gibt, wird die Branche sich bis 2025 {2} haben.",blanks:{"1":"Da","2":"erholt"},pool:["Da","erholt","Weil","erholen","Denn","erholte"],hint:"جملة سببية رسمية + المستقبل الثاني. الفراغ الأول: أداة ربط مكتوبة (حرفان). الفراغ الثاني: Partizip II للفعل 'sich erholen'.",sSrc:"إذ تمنح الحكومة إعانات، سيكون القطاع قد تعافى بحلول عام 2025."},
         {type:"match",pairs:[
-    {trg:"Wachstum",src:"growth"},
-    {trg:"Rezession",src:"recession"},
-    {trg:"Aufschwung",src:"upswing"},
-    {trg:"Insolvenz",src:"insolvency"}
+    {trg:"Wachstum",src:"نموّ"},
+    {trg:"Rezession",src:"ركود اقتصادي"},
+    {trg:"Aufschwung",src:"انتعاش"},
+    {trg:"Insolvenz",src:"إفلاس"}
 ]}
       ]},
 // ─── L8: Eine Entscheidung treffen ───
@@ -260,10 +260,10 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"mc",q:"'Da die Sozialleistungen zur Verfügung stehen, muss jeder selbst eine Entscheidung treffen.' Wie viele NVV enthält dieser Satz?",opts:["zwei","eine","drei","keine"],ans:"zwei",hint:"احسب أزواج الاسم والفعل الثابتة. التوافر واتخاذ القرار كلاهما تركيبات رسمية."},
         {type:"drag_fill",s:"Bis Maerz wird er die Investition in {1} {2} haben.",blanks:{"1":"Betracht","2":"gezogen"},pool:["Betracht","gezogen","Kauf","genommen","Verfügung","gestanden"],hint:"المستقبل الثاني للتركيب الرسمي للاسم والفعل الخاص بالتأمل الدقيق. البنية: werden + Partizip II + haben.",sSrc:"بحلول مارس سيكون قد أخذ الاستثمار بعين الاعتبار."},
         {type:"match",pairs:[
-    {trg:"eine Entscheidung treffen",src:"to make a decision"},
-    {trg:"in Betracht ziehen",src:"to consider"},
-    {trg:"zur Verfügung stehen",src:"to be available"},
-    {trg:"in Kauf nehmen",src:"to accept (a drawback)"}
+    {trg:"eine Entscheidung treffen",src:"يتّخذ قراراً"},
+    {trg:"in Betracht ziehen",src:"يأخذ بعين الاعتبار"},
+    {trg:"zur Verfügung stehen",src:"يكون متاحاً"},
+    {trg:"in Kauf nehmen",src:"يتقبّل (عيباً)"}
 ]},
         {type:"story",speaker:"mia",mood:"resolute",art:"de-ber-park-sunset",trg:"Ich werde das Elterngeld in Anspruch nehmen. Und Lukas wird seine Musikschule finanzieren. Wir nehmen die Veraenderungen in Kauf. So funktioniert das hier.",src:"سأطالب بإعانة الوالدين. وسيموّل لوكاس مدرسته الموسيقية. نقبل التغييرات. هكذا تسير الأمور هنا."},
         {type:"story",speaker:"verumius",mood:"thoughtful",art:"de-ber-park-walking",trg:"In Betracht ziehen, zur Verfügung stehen, in Kauf nehmen. Das sind keine Wörter. Das sind Werkzeuge. Ohne sie kommt man in Deutschland nicht weiter.",src:"تأمّل، كن متاحًا، اقبل السلبيات. هذه ليست مجرد كلمات. إنها أدوات. بدونها لا يمكنك الاستمرار في ألمانيا."},
@@ -309,10 +309,10 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"mc",q:"'Bezug nehmend auf Ihren Brief möchte ich Stellung nehmen, da die Zahlen in Frage gestellt wurden.' Wie viele NVV sind enthalten?",opts:["zwei","eine","vier","drei"],ans:"drei",hint:"احسب أزواج الاسم والفعل الثابتة. الإشارة، واتخاذ موقف، والتشكيك كلها تركيبات رسمية."},
         {type:"drag_fill",s:"Bis Ende des Jahres wird er die Bilanz {1} haben, {2} das Geschäftsjahr zu Ende geht.",blanks:{"1":"gezogen","2":"da"},pool:["gezogen","da","ziehen","zumal","gemacht","weil"],hint:"المستقبل الثاني لـ 'Bilanz ziehen' (استخلاص الحصيلة) مع رابط سببي رسمي.",sSrc:"بحلول نهاية العام سيكون قد استخلص الحصيلة، بما أن السنة المالية تنتهي."},
         {type:"match",pairs:[
-    {trg:"in Anspruch nehmen",src:"to make use of"},
-    {trg:"Bezug nehmen auf",src:"to refer to"},
-    {trg:"zur Kenntnis nehmen",src:"to acknowledge"},
-    {trg:"in Frage stellen",src:"to question"}
+    {trg:"in Anspruch nehmen",src:"يستفيد من"},
+    {trg:"Bezug nehmen auf",src:"يشير إلى"},
+    {trg:"zur Kenntnis nehmen",src:"يعترف بـ"},
+    {trg:"in Frage stellen",src:"يستجوب"}
 ]},
         {type:"story",speaker:"lukas",mood:"content",art:"de-ber-kreuzberg-evening",trg:"Weißt du, Verumius, Buchführung ist nicht so schlimm. Man muss nur jeden Beleg zur Kenntnis nehmen. Und genug Rücklagen bilden. Dann läuft der Laden.",src:"تعلم يا فيروميوس، مسك الدفاتر ليس بهذا السوء. عليك فقط الإحاطة علمًا بكل إيصال. وبناء احتياطيات كافية. عندها يسير المحل."},
         {type:"story",speaker:"verumius",mood:"warm",art:"de-ber-verumius-laughing",trg:"Lukas, der Musiker, erklärt mir Buchführung. Berlin verändert jeden.",src:"لوكاس، الموسيقي، يشرح لي مسك الدفاتر. برلين تغير الجميع."},
@@ -369,10 +369,10 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
 ],ans:"insoweit wie (proportionale Bedingung)",hint:"رابط سببي أكاديمي دقيق. يحدد نطاق الجملة."},
         {type:"fb",s:"Die Investition wird sich in drei Jahren {1}.",a:["amortisieren"],opts:["amortisieren","liquidieren","budgetieren","privatisieren"],hint:"الفعل الانعكاسي لاستثمار يسترد تكلفته بمرور الوقت. شائع في سياقات التخطيط المالي.",sSrc:"سيسترد الاستثمار تكاليفه في غضون ثلاث سنوات."},
         {type:"match",pairs:[
-    {trg:"Maßnahmen ergreifen",src:"to take measures"},
-    {trg:"Bilanz ziehen",src:"to take stock"},
-    {trg:"Verantwortung übernehmen",src:"to take responsibility"},
-    {trg:"eine Rolle spielen",src:"to play a role"}
+    {trg:"Maßnahmen ergreifen",src:"يتّخذ إجراءات"},
+    {trg:"Bilanz ziehen",src:"يقيّم الوضع"},
+    {trg:"Verantwortung übernehmen",src:"يتحمّل المسؤولية"},
+    {trg:"eine Rolle spielen",src:"يلعب دوراً"}
 ]},
         {type:"mc",q:"In einem Geschäftsbericht steht: 'Wir müssen den veränderten Bedingungen Rechnung ___.' Welches Verb vervollständigt die NVV?",opts:["tragen","stellen","nehmen","ziehen"],ans:"tragen",hint:"تركيب رسمي ثابت لاسم وفعل يدل على إعطاء شيء وزنه المناسب. الاسم مرتبط بالحسابات أو المحاسبة."},
         {type:"story",speaker:"verumius",mood:"confident",art:"de-ber-library-leaving",trg:"Zahlen, Daten, Fakten. Ich habe unter Beweis gestellt, dass ich die Wirtschaftssprache beherrsche. Zumindest auf dem Papier. Morgen kommt die Praxis.",src:"أرقام وبيانات وحقائق. لقد أثبتت أنني أتقن لغة الاقتصاد. على الورق على الأقل. غدًا يأتي التطبيق العملي."},
@@ -423,10 +423,10 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"teach",trg:"einsetzen",src:"نشر، بدء، الشروع في",pos:"verb",gender:null,note:"فعل منفصل: ein + setzen. معنيان رئيسيان:\n1. النشر/الاستخدام؛ 2. البدء/الشروع (للعمليات).",example:"A: Wann setzt der Aufschwung ein?\nB: Der Aufschwung setzt ein, sobald die Inflation sinkt.\nA: Werden neue Maerkte eingesetzt?\nB: Ja, neue Ressourcen werden eingesetzt.",exampleSrc:"أ: متى يبدأ الانتعاش؟\nب: يبدأ الانتعاش بمجرد انخفاض التضخم.\nأ: هل ستُفتح أسواق جديدة؟\nب: نعم، ستُوظَّف موارد جديدة.",funFact:"فعل منفصل: 'Der Aufschwung setzt ein' (يبدأ الانتعاش). في الاقتصاد: تشرع العمليات بالـ 'einsetzen' حين تبدأ. الموارد والعمال يُنشَرون 'eingesetzt'. فعل بمعنيين: تبدأ العمليات الطبيعية، بينما ينشر البشر الأدوات والأشخاص."},
         {type:"drag_fill",s:"{1} die Konjunktur sich erholt hat, wird der Aufschwung bis 2027 {2} haben, {3} neue Maerkte entstehen.",blanks:{"1":"Da","2":"eingesetzt","3":"zumal"},pool:["Da","eingesetzt","zumal","Weil","setzen","nämlich"],hint:"ثلاث طبقات بنيوية في جملة واحدة: رابط سببي رسمي افتتاحي، وصيغة فعل مستقبلي مكتمل، ورابط سببي ثانوي تأكيدي.",sSrc:"بما أن الاقتصاد تعافى، سيكون الانتعاش قد بدأ بحلول عام 2027، لا سيما أن أسواقًا جديدة تظهر."},
         {type:"match",pairs:[
-    {trg:"zum Ausdruck bringen",src:"to express"},
-    {trg:"in Erwägung ziehen",src:"to contemplate"},
-    {trg:"Schulden tilgen",src:"to repay debts"},
-    {trg:"Dividenden ausschütten",src:"to distribute dividends"}
+    {trg:"zum Ausdruck bringen",src:"يعبّر"},
+    {trg:"in Erwägung ziehen",src:"يتأمّل"},
+    {trg:"Schulden tilgen",src:"يسدّد الديون"},
+    {trg:"Dividenden ausschütten",src:"يوزّع أرباح الأسهم"}
 ]},
         {type:"fb",s:"Er investiert nicht; er hat {1} kein Kapital.",a:["nämlich"],opts:["zumal","denn","schließlich","nämlich"],hint:"فكّر في معنى الكلمة.",sSrc:"He does not invest; he has no capital, you see."},
         {type:"mc",q:"Was bedeutet 'insofern als'?",opts:["after all, ultimately","to generate (profit/revenue)","namely, specifically (formal)","insofar as"],ans:"insofar as",hint:"فكّر في معنى هذه الكلمة في السياق."},

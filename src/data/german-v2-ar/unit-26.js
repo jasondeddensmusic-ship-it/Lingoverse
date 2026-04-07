@@ -45,10 +45,10 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
 ],ans:"Eine deutsche Wochenzeitung",hint:"دي تسايت من أكثر المطبوعات الورقية احتراماً في ألمانيا. فكّر في كيفية ارتباط اسمها بجدول نشرها وما الاسم المركب الذي يتشكل من ذلك."},
         {type:"fb",s:"Ein guter Journalist muss gründlich {1}, bevor er einen Artikel schreibt.",a:["recherchieren"],opts:["recherchieren","kommentieren","senden","berichten"],hint:"الفعل الصحفي للتحقيق في قصة، مشتق من الفرنسية 'rechercher'.",sSrc:"على الصحفي الجيد البحث بعمق قبل كتابة المقال."},
         {type:"match",pairs:[
-    {trg:"Tageszeitung",src:"daily newspaper"},
-    {trg:"Rundfunk",src:"broadcasting"},
-    {trg:"Schlagzeile",src:"headline"},
-    {trg:"Kommentar",src:"opinion piece"}
+    {trg:"Tageszeitung",src:"صحيفة يومية"},
+    {trg:"Rundfunk",src:"بثّ إذاعي"},
+    {trg:"Schlagzeile",src:"عنوان رئيسي"},
+    {trg:"Kommentar",src:"مقال رأي"}
 ]},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-ber-kitchen-morning",trg:"Er faltet die Zeitung zusammen. Sechzehn rote Markierungen auf einer Seite. Morgen werden es weniger sein. Er nimmt den letzten Schluck Kaffee und schaltet das Radio aus.",src:"يطوي الجريدة. ستة عشر علامة حمراء على صفحة واحدة. غداً ستكون أقل. يحتسي آخر رشفة من القهوة ويطفئ الراديو."},
         {type:"fb",s:"{1} hat die Regierung das gewusst. Das klingt ziemlich sicher.",a:["Offenbar"],opts:["Angeblich","Bekanntlich","Serioes","Offenbar"],hint:"فكّر في معنى الكلمة.",sSrc:"Apparently the government knew about it. That sounds fairly certain."},
@@ -99,10 +99,10 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
 ],ans:"Absichtlich falsche Informationen",hint:"البادئة 'Des-' تُشير إلى إبطال المعلومات عمداً. خاطئة متعمدة، لا خاطئة بالصدفة."},
         {type:"fb",s:"Ein Journalist, der nur eine Seite zeigt, berichtet {1}.",a:["einseitig"],opts:["einseitig","serioes","unabhängig","objektiv"],hint:"الصفة التي تصف التغطية التي تُقدّم وجهة نظر واحدة فقط. مركّبة من رقم ولاحقة اتجاهية.",sSrc:"الصحفي الذي يُظهر جانباً واحداً فقط يُغطّي بشكل أحادي الجانب."},
         {type:"match",pairs:[
-    {trg:"Filterblase",src:"filter bubble"},
-    {trg:"Desinformation",src:"disinformation"},
-    {trg:"Zensur",src:"censorship"},
-    {trg:"Medienkompetenz",src:"media literacy"}
+    {trg:"Filterblase",src:"فقاعة التصفية"},
+    {trg:"Desinformation",src:"تضليل إعلامي"},
+    {trg:"Zensur",src:"رقابة"},
+    {trg:"Medienkompetenz",src:"وعي إعلامي"}
 ]},
         {type:"mc",q:"Während unabhängige Medien objektiv berichten, verzerren tendenziose Medien die Realitaet. Was signalisiert 'während' hier?",opts:[
     "Eine zeitliche Gleichzeitigkeitsbeziehung (während/solange)",
@@ -340,10 +340,10 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
         {type:"fb",s:"Der Verlag hat den Artikel gestern {1}.",a:["veröffentlicht"],opts:["veröffentlicht","öffentlich","veröffentlichen","Veröffentlichung"],hint:"صيغة Partizip II للفعل بمعنى «نشر، أفصح». تنتمي هنا إلى تركيب زمن الماضي التام.",sSrc:"نشر الناشر المقال أمس."},
         {type:"drag_fill",s:"Der {1} in der Tageszeitung hat einen klaren {2}.",blanks:{"1":"Leitartikel","2":"Schreibstil"},pool:["Leitartikel","Schreibstil","Leserbrief","Faktencheck","Kommentar","Sendung"],hint:"المقال الافتتاحي في الصحيفة اليومية له أسلوب كتابة واضح. اسمان مركّبان."},
         {type:"match",pairs:[
-    {trg:"Feuilleton",src:"arts and culture section"},
-    {trg:"Glosse",src:"satirical commentary"},
-    {trg:"Karikatur",src:"political cartoon"},
-    {trg:"Leserbrief",src:"letter to the editor"}
+    {trg:"Feuilleton",src:"قسم الفنون والثقافة"},
+    {trg:"Glosse",src:"تعليق ساخر"},
+    {trg:"Karikatur",src:"كاريكاتير سياسي"},
+    {trg:"Leserbrief",src:"رسالة إلى المحرّر"}
 ]},
         {type:"mc",q:"Was bedeutet 'moderieren'?",opts:["to moderate, to host","front page","political cartoon, caricature","to stream"],ans:"to moderate, to host",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to review (critically)' auf Deutsch? {1}",a:["rezensieren"],opts:["rezensieren","der Schreibstil","das Feuilleton","zeitgemaess"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to review (critically)' بالألمانية؟"},
@@ -404,10 +404,10 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
 ],ans:"Das lässt sich erklären / Das ist zu erklären / Das ist erklärbar",hint:"ثلاث طرق للتعبير عن «Das kann erklärt werden» دون استخدام المبني للمجهول المعياري: sich lassen، وsein + zu، والصفة المنتهية بـ-bar."},
         {type:"drag_fill",s:"{1} die zu {2} Nachricht serioes klingt, ist der Wahrheitsgehalt fragwürdig.",blanks:{"1":"Obwohl","2":"prüfende"},pool:["Obwohl","prüfende","Während","geprüft","Weil","prüfenden"],hint:"تستهل الجملةَ أداةُ ربط تنازلية. يستخدم المعدِّل قبل الاسم zu + Partizip I (الجرونديف) لوصف شيء يحتاج إلى تحقق."},
         {type:"match",pairs:[
-    {trg:"Chefredakteur",src:"editor-in-chief"},
-    {trg:"Berichterstatter",src:"reporter"},
-    {trg:"Rezipient",src:"media consumer"},
-    {trg:"Korrespondent",src:"correspondent"}
+    {trg:"Chefredakteur",src:"رئيس التحرير"},
+    {trg:"Berichterstatter",src:"مراسل صحفي"},
+    {trg:"Rezipient",src:"مستهلك إعلامي"},
+    {trg:"Korrespondent",src:"مراسل"}
 ]},
         {type:"mc",q:"Ein Artikel ohne Quellenangabe, mit reisserischer Überschrift und einseitiger Darstellung ist am ehesten...",opts:["serioes und faktenbasiert","boulevardesk und fragwürdig","investigativ und gründlich","unparteiisch und ausgewogen"],ans:"boulevardesk und fragwürdig",hint:"لا مصادر، عنوان إثاري، أحادي الجانب. هذه هي السمات المميزة للصحافة الصفراء."},
         {type:"mc",q:"Was bedeutet 'das Printmedium'?",opts:["to suppress, to displace","subjective","translator","print medium"],ans:"print medium",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -464,10 +464,10 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
     "Soziale Medien konsequent meiden + ausschließlich fernsehen + keine Fragen stellen"
 ],ans:"Quellen überprüfen + Partizipialattribute verstehen + Fakten von Meinungen unterscheiden",hint:"الثقافة الإعلامية تعني: التحقق من المصادر، وفهم البنى اللغوية المعقدة، والتمييز بين الحقائق والآراء."},
         {type:"match",pairs:[
-    {trg:"Partizipialattribut",src:"participle before a noun"},
-    {trg:"Passiversatz",src:"passive alternative"},
-    {trg:"Adversativsatz",src:"contrast clause"},
-    {trg:"Medienkompetenz",src:"media literacy"}
+    {trg:"Partizipialattribut",src:"اسم فاعل/مفعول قبل الاسم"},
+    {trg:"Passiversatz",src:"بديل المبني للمجهول"},
+    {trg:"Adversativsatz",src:"جملة تضاد"},
+    {trg:"Medienkompetenz",src:"وعي إعلامي"}
 ]}
       ]}
   ]};

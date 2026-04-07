@@ -80,12 +80,12 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
         {type:"mc",q:"Der Nachbar sagt, es ist Verumius' Fehler. Welcher Satz passt?",opts:["Er hat Respekt.","Er ist still.","Er ist schuld.","Er hat Geduld."],ans:"Er ist schuld.",hint:"الصفة الخبرية التي تعني أن يكون الشخص مخطئاً. أي فعل يربط الفاعل بهذه الحالة؟"},
         {type:"fb",s:"Der Nachbar {1}, dass Verumius zu laut war.",a:["behauptet"],opts:["behauptet","kritisiert","beleidigt","unterbricht"],hint:"ما الفعل الذي يعني الادعاء أو تأكيد رأي؟",sSrc:"يدّعي الجار أن فيروميوس كان صاخباً جداً."},
         {type:"match",pairs:[
-    {trg:"Kritik",src:"criticism"},
-    {trg:"Kompromiss",src:"compromise"},
-    {trg:"Vorwurf",src:"accusation"},
-    {trg:"Geduld",src:"patience"},
-    {trg:"Schuld",src:"guilt/fault"},
-    {trg:"Verständnis",src:"understanding"}
+    {trg:"Kritik",src:"نقد"},
+    {trg:"Kompromiss",src:"حلّ وسط"},
+    {trg:"Vorwurf",src:"اتهام"},
+    {trg:"Geduld",src:"صبر"},
+    {trg:"Schuld",src:"ذنب"},
+    {trg:"Verständnis",src:"تفاهم"}
 ]},
         {type:"story",speaker:"narrator",mood:"ominous",art:"de-ber-stairwell-notes",trg:"Verumius ging schlafen. Um 6:47 Uhr fand er den zweiten Zettel. Diesmal nicht unter der Tür. An der Wand im Treppenhaus. Für alle sichtbar.",src:"نام فيروميوس. في الساعة 6:47 صباحاً وجد الرسالة الثانية. هذه المرة ليس تحت الباب. على الجدار في درج السلم. مرئية للجميع."},
         {type:"fb",s:"Der Nachbar {1} Respekt von Verumius.",a:["verlangt"],opts:["verlangt","behauptet","beleidigt","kritisiert"],hint:"فكّر في معنى الكلمة.",sSrc:"The neighbor demands respect from Verumius."},
@@ -225,12 +225,12 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
     "Er fragt, der Nachbar ob ihm verzeihen kann."
 ],ans:"Er fragt, ob der Nachbar ihm verzeihen kann.",hint:"بعد 'ob'، ينتقل الفعل المصرّف إلى نهاية الجملة الفرعية."},
         {type:"match",pairs:[
-    {trg:"Polizist",src:"policeman"},
+    {trg:"Polizist",src:"شرطي"},
     {trg:"Richterin",src:"القاضية"},
-    {trg:"Anwalt",src:"lawyer"},
-    {trg:"Urteil",src:"verdict"},
-    {trg:"Risiko",src:"risk"},
-    {trg:"Prozess",src:"trial"}
+    {trg:"Anwalt",src:"محامٍ"},
+    {trg:"Urteil",src:"حكم قضائي"},
+    {trg:"Risiko",src:"مخاطرة"},
+    {trg:"Prozess",src:"محاكمة"}
 ]},
         {type:"story",speaker:"hildi",mood:"firm-but-warm",art:"de-ber-hildi-livingroom-verdict",trg:"Mein Urteil: Verumius entschuldigt sich. Der Nachbar akzeptiert. Und am Sonntag wird nicht gebohrt. Punkt.",src:"حكمي: فيروميوس يعتذر. الجار يقبل. ولن يكون هناك حفر يوم الأحد. نقطة."},
         {type:"mc",q:"Was bedeutet 'der Verdacht'?",opts:["punishable","the suspicion","to fight, to struggle","courageous, brave"],ans:"the suspicion",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -333,12 +333,12 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
     "Nach er verhaftet worden war, der Richter fragte ob er schuldig war."
 ],ans:"Nachdem er verhaftet worden war, fragte der Richter, ob er schuldig sei.",hint:"'بعد أن' مع الماضي التام في الجملة الفرعية، ثم فعل الجملة الرئيسية في الموضع الثاني، ثم 'ob' والفعل في النهاية."},
         {type:"match",pairs:[
-    {trg:"Dieb",src:"thief"},
-    {trg:"Einbruch",src:"burglary"},
-    {trg:"Gefängnis",src:"prison"},
-    {trg:"Urteil",src:"verdict"},
-    {trg:"Täter",src:"perpetrator"},
-    {trg:"Verlierer",src:"loser"}
+    {trg:"Dieb",src:"لصّ"},
+    {trg:"Einbruch",src:"سرقة"},
+    {trg:"Gefängnis",src:"سجن"},
+    {trg:"Urteil",src:"حكم قضائي"},
+    {trg:"Täter",src:"جانٍ"},
+    {trg:"Verlierer",src:"خاسر"}
 ]},
         {type:"drag_fill",s:"Nachdem die Polizei den Täter {1} hatte, wollte der Richter wissen, {2} er die Tat {3} hatte.",blanks:{"1":"festgenommen","2":"ob","3":"geplant"},pool:["festgenommen","ob","geplant","verhaftet","dass","gemacht"],hint:"ثلاثة فراغات: فعل الاعتقال (اسم المفعول)، وأداة ربط نعم/لا، وفعل التخطيط (اسم المفعول). جميعها في تركيب 'بعد أن' مع الماضي التام.",sSrc:"بعد أن اعتقلت الشرطة الجاني، أراد القاضي أن يعرف إن كان قد خطط للجريمة."},
         {type:"story",speaker:"narrator",mood:"transitional",art:"de-ber-stairwell-evening",trg:"Die Fakten lagen auf dem Tisch. Die Grammatik saß. Aber zwischen Wissen und Handeln liegt manchmal ein Glas Marmelade.",src:"الوقائع كانت على الطاولة. القواعد كانت راسخة. لكن بين المعرفة والتصرف، أحياناً تكون هناك جرة مربى."},
@@ -395,12 +395,12 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
         {type:"fb",s:"Könnten Sie mir sagen, {1} der Nachbar die Gurken gebracht hat?",a:["wann"],opts:["wann","ob","dass","weil"],hint:"السؤال يستفسر عن وقت التسليم. أي أداة استفهام تناسب؟",sSrc:"هل يمكنك إخباري متى أحضر الجار المخللات؟"},
         {type:"drag_fill",s:"Nachdem er die Marmelade {1} hatte, wollte der Nachbar wissen, {2} Verumius wirklich so nett {3}.",blanks:{"1":"probiert","2":"ob","3":"war"},pool:["probiert","ob","war","gegessen","dass","ist"],hint:"ثلاثة فراغات: فعل التذوق (اسم المفعول)، وأداة ربط نعم/لا، وحالة الكون في الماضي. تركيب 'بعد أن' مع الماضي التام.",sSrc:"بعد أن تذوق المربى، أراد الجار أن يعرف إن كان فيروميوس طيباً إلى هذا الحد فعلاً."},
         {type:"match",pairs:[
-    {trg:"Gegner",src:"opponent"},
-    {trg:"Langeweile",src:"boredom"},
-    {trg:"stumm",src:"mute/silent"},
-    {trg:"unglaublich",src:"unbelievable"},
-    {trg:"beißen",src:"to bite"},
-    {trg:"bestrafen",src:"to punish"}
+    {trg:"Gegner",src:"خصم"},
+    {trg:"Langeweile",src:"ملل"},
+    {trg:"stumm",src:"صامت"},
+    {trg:"unglaublich",src:"لا يُصدّق"},
+    {trg:"beißen",src:"يعضّ"},
+    {trg:"bestrafen",src:"يعاقب"}
 ]},
         {type:"mc",q:"Was bedeutet 'entlassen'?",opts:["slim","to release, to dismiss, to fire","rarely, rare","to punish"],ans:"to release, to dismiss, to fire",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Die Nachbarn gingen {1}.",a:["auseinander"],opts:["auseinander","betrunken","unheimlich","bestrafen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The neighbors parted ways."},

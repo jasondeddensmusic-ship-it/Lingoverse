@@ -38,11 +38,11 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
         {type:"mc",q:"Die Goethe B2-Prüfung hat vier Prüfungsteile. Welcher gehört NICHT dazu?",opts:["Lesen (reading section)","Schreiben (writing section)","Hören (listening section)","Übersetzen (translating)"],ans:"Übersetzen (translating)",hint:"الأجزاء الأربعة هي القراءة والاستماع والكتابة والتحدث. الترجمة لا تُختبر.",sSrc:"امتحان غوته B2 يضم أربعة أجزاء. أيها لا ينتمي إليها؟"},
         {type:"fb",s:"Lies die Aufgabe zuerst komplett {1}.",a:["durch"],opts:["durch","vor","ab","an"],hint:"البادئة القابلة للفصل التي تدل على قراءة شيء حتى النهاية. فكّر في بادئة اتجاهية تعني المرور الكامل خلال شيء ما.",sSrc:"اقرأ المهمة بالكامل أولاً."},
         {type:"match",pairs:[
-    {trg:"Hörverstehen",src:"listening comprehension"},
-    {trg:"Leseverstehen",src:"reading comprehension"},
-    {trg:"Bearbeitungszeit",src:"time allowed"},
-    {trg:"Prüfungsangst",src:"exam anxiety"},
-    {trg:"bestehen",src:"to pass (an exam)"}
+    {trg:"Hörverstehen",src:"فهم استماع"},
+    {trg:"Leseverstehen",src:"فهم قراءة"},
+    {trg:"Bearbeitungszeit",src:"الوقت المتاح"},
+    {trg:"Prüfungsangst",src:"قلق الامتحان"},
+    {trg:"bestehen",src:"ينجح في الامتحان"}
 ]},
         {type:"fb",s:"Die {1} für das Schreiben beträgt 75 Minuten.",a:["Bearbeitungszeit"],opts:["Bearbeitungszeit","Prüfungsangst","Prüfungsvorbereitung","Schreibaufgabe"],hint:"فكّر في معنى الكلمة.",sSrc:"The time allowed for writing is 75 minutes."},
         {type:"mc",q:"Was bedeutet 'strukturieren'?",opts:["exam section","to structure","reading comprehension","listening comprehension"],ans:"to structure",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -79,11 +79,11 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
     "ein Text zum Zusammenfassen und Gliedern"
 ],ans:"ein Text mit Lücken zum Ausfüllen",hint:"تمرين ملء الفراغات. Lücke تعني فراغاً. كل فراغ يجب استكماله بالكلمة الصحيحة.",sSrc:"نص ملء الفراغات هو..."},
         {type:"match",pairs:[
-    {trg:"Lösungsblatt",src:"answer sheet"},
-    {trg:"Musterantwort",src:"model answer"},
-    {trg:"Bewertung",src:"assessment/grade"},
-    {trg:"Aufgabenstellung",src:"task prompt"},
-    {trg:"Lückentext",src:"gap-fill text"}
+    {trg:"Lösungsblatt",src:"ورقة الإجابة"},
+    {trg:"Musterantwort",src:"إجابة نموذجية"},
+    {trg:"Bewertung",src:"تقييم / علامة"},
+    {trg:"Aufgabenstellung",src:"توجيه المهمة"},
+    {trg:"Lückentext",src:"نص ملء الفراغات"}
 ]},
         {type:"fb",s:"Bitte {1} Sie die richtige Antwort an.",a:["kreuzen"],opts:["kreuzen","füllen","schreiben","lesen"],hint:"الفعل القابل للفصل الذي يعني التأشير بعلامة X. البادئة 'an' تذهب إلى النهاية.",sSrc:"من فضلك ضع علامة على الإجابة الصحيحة."},
         {type:"drag_fill",s:"Zuerst die Aufgabenstellung {1}, dann die Schlüsselwörter {2}, und am Ende das Lösungsblatt {3}.",blanks:{"1":"durchlesen","2":"markieren","3":"ausfüllen"},pool:["durchlesen","markieren","ausfüllen","korrigieren","ankreuzen","sichten"],hint:"أولاً اقرأ المهمة بالكامل. ثم حدّد الكلمات المفتاحية. وأخيراً املأ ورقة الإجابات.",sSrc:"أولاً اقرأ صياغة المهمة بالكامل، ثم حدّد الكلمات المفتاحية، وأخيراً املأ ورقة الإجابات."},
@@ -193,11 +193,11 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
     "den gesamten Wortschatz des Textes verstehen"
 ],ans:"das Thema und die Hauptidee erfassen",hint:"الكلي = الصورة الكبيرة. عمَّ يتحدث النص بشكل عام؟",sSrc:"الفهم الكلي يعني..."},
         {type:"match",pairs:[
-    {trg:"Globalverstehen",src:"gist comprehension"},
-    {trg:"Detailverstehen",src:"detailed comprehension"},
-    {trg:"Hauptaussage",src:"main message"},
-    {trg:"Schlüsselwort",src:"keyword"},
-    {trg:"erschließen",src:"to infer/deduce"}
+    {trg:"Globalverstehen",src:"فهم عام"},
+    {trg:"Detailverstehen",src:"فهم تفصيلي"},
+    {trg:"Hauptaussage",src:"الرسالة الرئيسية"},
+    {trg:"Schlüsselwort",src:"كلمة مفتاحية"},
+    {trg:"erschließen",src:"يستنتج"}
 ]},
         {type:"drag_fill",s:"{1} du die Schlüsselwörter markierst, kannst du die Hauptaussage schneller {2}.",blanks:{"1":"Indem","2":"erkennen"},pool:["Indem","Weil","erkennen","erschließen","markieren","lesen"],hint:"فراغان: رابط جملة أسلوب يُظهر كيف تجد الإجابة بسرعة أكبر، وفعل يعني التعرف على الرسالة الرئيسية أو استيعابها.",sSrc:"بتحديد الكلمات المفتاحية يمكنك التعرف على الرسالة الرئيسية بشكل أسرع."},
         {type:"fb",s:"Wenn ein Wort unbekannt ist, kann man seine Bedeutung aus dem Kontext {1}.",a:["erschließen"],opts:["erschließen","erkennen","markieren","sortieren"],hint:"استنباط المعنى من السياق. الفعل الذي يصف 'فتح' المعنى.",sSrc:"عندما تكون كلمة مجهولة، يمكنك استنباط معناها من السياق."},
@@ -305,11 +305,11 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
         {type:"fb",s:"Er hat die Prüfung bestanden, {1} dass er nervoes war.",a:["ohne"],opts:["ohne","indem","anstatt","dadurch"],hint:"رابط جملة ظرفية يعني أن الفعل المصاحب لم يحدث. حقق النتيجة في غياب ذلك الشيء الآخر.",sSrc:"اجتاز الامتحان دون أن يكون متوتراً."},
         {type:"drag_fill",s:"{1} man {2} Übungsaufgaben durcharbeitet, gewöhnt man sich {3} an den Prüfungsstil.",blanks:{"1":"Indem","2":"sämtliche","3":"halt"},pool:["Indem","sämtliche","halt","Weil","jegliche","doch"],hint:"ثلاثة تراكيب مجتمعة: رابط الجملة الظرفية، وضمير نكرة تأكيدي للشمولية، وأداة قبول هادئ. معاً تصف الممارسة المتأنية والهادئة.",sSrc:"بالاشتغال على جميع مهام التدريب، تعتاد ببساطة على أسلوب الامتحان."},
         {type:"match",pairs:[
-    {trg:"Korrekturlesen",src:"proofreading"},
-    {trg:"Zeitmanagement",src:"time management"},
-    {trg:"Nacherzählung",src:"retelling"},
-    {trg:"übersichtlich",src:"clear/well-organized"},
-    {trg:"textbezogen",src:"text-based"}
+    {trg:"Korrekturlesen",src:"تدقيق لغوي"},
+    {trg:"Zeitmanagement",src:"إدارة الوقت"},
+    {trg:"Nacherzählung",src:"إعادة سرد"},
+    {trg:"übersichtlich",src:"واضح / منظّم"},
+    {trg:"textbezogen",src:"نصّي"}
 ]},
         {type:"mc",q:"Verumius sagt: 'Indem ich durch diese Straßen gehe, gehe ich durch mein ganzes Deutsch.' Das ist ein Modalsatz mit...",opts:[
     "einer wörtlichen Bedeutung: Er übt Deutsch während er durch die Straßen Berlins geht.",
@@ -374,11 +374,11 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
     "Man macht Prüfungsübungen regelmäßig und das ist halt sehr gut so für den eigenen Lernprozess."
 ],ans:"Indem man sämtliche Übungen macht, wird man halt besser. Im Uebrigen ist Vorbereitung alles.",hint:"الجملة الصحيحة تضم أربع خصائص B2 في جملتين. ابحث عن جملة ظرفية، وكلمة تأكيد للشمولية، وأداة قبول، وظرف رابط رسمي."},
         {type:"match",pairs:[
-    {trg:"dessen ungeachtet",src:"notwithstanding"},
-    {trg:"in erster Linie",src:"first and foremost"},
-    {trg:"im Uebrigen",src:"furthermore"},
-    {trg:"abgesehen davon",src:"apart from that"},
-    {trg:"jedenfalls",src:"in any case"}
+    {trg:"dessen ungeachtet",src:"على الرغم من ذلك"},
+    {trg:"in erster Linie",src:"أولاً وقبل كل شيء"},
+    {trg:"im Uebrigen",src:"علاوة على ذلك"},
+    {trg:"abgesehen davon",src:"بصرف النظر عن ذلك"},
+    {trg:"jedenfalls",src:"على أي حال"}
 ]},
         {type:"fb",s:"Er lernte täglich, {1} dem Ziel, die Prüfung zu bestehen.",a:["mit"],opts:["mit","zu","fuer","ohne"],hint:"بهدف اجتياز الامتحان. تعبير رسمي عن الغرض.",sSrc:"درس يومياً بهدف اجتياز الامتحان."},
         {type:"drag_fill",s:"{1} dass er {2} Aufgaben bearbeitet hat, bestand er die Prüfung, {3} dass er nervoes war.",blanks:{"1":"Dadurch","2":"sämtliche","3":"ohne"},pool:["Dadurch","sämtliche","ohne","Indem","jegliche","anstatt"],hint:"ثلاثة تراكيب: رابط يُدخِل وسيلةً أو سبباً ('من خلال حقيقة أن')، وضمير نكرة تأكيدي للشمولية، وجملة ظرفية تُشير إلى ما غاب. ثلاث طبقات B2 في جملة واحدة.",sSrc:"من خلال أنه أنجز جميع المهام، اجتاز الامتحان دون أن يكون متوتراً."},
@@ -428,11 +428,11 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
         {type:"fb",s:"Die Prüfung war schwer. {1} habe ich bestanden.",a:["Nichtsdestotrotz"],opts:["Nichtsdestotrotz","Deswegen","Indem","Halt"],hint:"الظرف الألماني الرابط الطويل الشهير بمعنى 'على الرغم من كل شيء'. عكس 'deswegen'. يدفع ضد ما سبق من الكلام.",sSrc:"كان الامتحان صعباً. ومع ذلك، نجحت."},
         {type:"drag_fill",s:"{1} war die Prüfung anspruchsvoll. {2} konnte ich sie bestehen, {3} ich systematisch gearbeitet habe.",blanks:{"1":"Meines Erachtens","2":"Nichtsdestotrotz","3":"indem"},pool:["Meines Erachtens","Nichtsdestotrotz","indem","Unter anderem","Trotzdem","weil"],hint:"ثلاث علامات مستوى رسمي: عبارة رأي بـ Genitiv، ورابط تنازلي، وافتتاحية جملة ظرفية. جميعها مستوى B2. كل فراغ يُدخِل وظيفة بلاغية مستقلة.",sSrc:"في رأيي، كان الامتحان صعباً. ومع ذلك، تمكنت من اجتيازه بالعمل بشكل منهجي."},
         {type:"match",pairs:[
-    {trg:"meines Erachtens",src:"in my opinion (formal)"},
-    {trg:"nichtsdestotrotz",src:"nevertheless"},
-    {trg:"überdies",src:"moreover"},
-    {trg:"vollständig",src:"complete"},
-    {trg:"Eroerterung",src:"discursive essay"}
+    {trg:"meines Erachtens",src:"في رأيي (رسمي)"},
+    {trg:"nichtsdestotrotz",src:"مع ذلك"},
+    {trg:"überdies",src:"فضلاً عن ذلك"},
+    {trg:"vollständig",src:"كامل"},
+    {trg:"Eroerterung",src:"مقال نقاشي"}
 ]},
         {type:"mc",q:"Verumius kam mit null Deutsch nach Berlin und hat B2 in zwei Jahren bestanden. Welche Modalpartikel passt am besten zu seinem Gefühl?",opts:[
     "schon (einraeumend: Ja, es war schwer, aber er hat es geschafft.)",

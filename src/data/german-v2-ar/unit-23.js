@@ -27,10 +27,10 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"mc",q:"Verumius wiederholt seine Karteikarten jeden Abend. Welches Wort beschreibt diese regelmäßige Aktivität?",opts:["Zusammenhang","Wiederholung","Bedeutung","Abschnitt"],ans:"Wiederholung",hint:"ابحث عن الاسم الذي يصف فعل مراجعة شيء أكثر من مرة."},
         {type:"fb",s:"Um Vokabeln zu {1}, muss man regelmäßig üben.",a:["behalten"],opts:["behalten","erkennen","konzentrieren","verbessern"],hint:"أي فعل يعني الاحتفاظ بشيء في ذاكرتك؟",sSrc:"للاحتفاظ بالمفردات، يجب التدرّب بانتظام."},
         {type:"match",pairs:[
-    {trg:"Methode",src:"method"},
+    {trg:"Methode",src:"طريقة"},
     {trg:"Regel",src:"القاعدة"},
-    {trg:"Kapitel",src:"chapter"},
-    {trg:"Reihenfolge",src:"sequence"}
+    {trg:"Kapitel",src:"فصل"},
+    {trg:"Reihenfolge",src:"تسلسل"}
 ]},
         {type:"mc",q:"Welches Wort beschreibt, wie gut man sich eine Information merken kann?",opts:["der Inhalt","die Reihenfolge","die Bedeutung","das Wissen"],ans:"das Wissen",hint:"الاسم المشتق من الفعل 'wissen' ويعني كل ما تعلّمته واحتفظت به."}
       ]},
@@ -66,10 +66,10 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"mc",q:"Verumius braucht die Bedeutung eines unbekannten Wortes. Welches Werkzeug benutzt er?",opts:["Überschrift","Broschüre","Wörterbuch","Grafik"],ans:"Wörterbuch",hint:"يمدّ فيروميوس يده إلى أداة مرجعية لمعرفة معنى كلمة غير معروفة."},
         {type:"fb",s:"Lesen Sie zuerst die {1}, bevor Sie den ganzen Text lesen.",a:["Überschrift"],opts:["Überschrift","Zeile","Einzelheit","Punkt"],hint:"استراتيجية الامتحان: اقرأ ما فوق النص أولاً.",sSrc:"اقرأ العنوان الرئيسي أولاً قبل قراءة النص كاملاً."},
         {type:"match",pairs:[
-    {trg:"Hinweis",src:"hint/note"},
-    {trg:"Ausdruck",src:"expression"},
-    {trg:"Beschreibung",src:"description"},
-    {trg:"Erklärung",src:"explanation"}
+    {trg:"Hinweis",src:"ملاحظة / تلميح"},
+    {trg:"Ausdruck",src:"تعبير"},
+    {trg:"Beschreibung",src:"وصف"},
+    {trg:"Erklärung",src:"تفسير"}
 ]},
         {type:"story",speaker:"narrator",mood:"weary",art:"de-ber-study-bunker",trg:"Auf dem Schreibtisch liegt ein Stapel Bücher. Daneben drei leere Tassen Kaffee. Verumius streicht sich durch die Haare und blättert zur nächsten Seite.",src:"على المكتب كومة من الكتب. بجانبها ثلاثة أكواب قهوة فارغة. يمرّر فيروميوس يده في شعره ويقلب إلى الصفحة التالية."},
         {type:"fb",s:"Die {1} der Daten ist sehr klar.",a:["Darstellung"],opts:["Darstellung","Broschüre","Einzelheit","Zeile"],hint:"فكّر في معنى الكلمة.",sSrc:"The representation of the data is very clear."},
@@ -109,10 +109,10 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"mc",q:"Verumius braucht zusätzliche Hilfe bei der Grammatik vor der Prüfung. Was sollte er suchen?",opts:["Referat","Nachhilfe","Studie","Semester"],ans:"Nachhilfe",hint:"جلسات دعم فردية إضافية لتقوية نقاط الضعف قبل الامتحان."},
         {type:"fb",s:"Am Goethe-{1} kann man die Sprachprüfung ablegen.",a:["Institut"],opts:["Institut","Seminar","Studio","Semester"],hint:"المنظمة الثقافية الألمانية العالمية حيث تُعقد الامتحانات.",sSrc:"في معهد غوته يمكنك أداء امتحان اللغة."},
         {type:"match",pairs:[
-    {trg:"Kursleiter",src:"course instructor"},
-    {trg:"Teilnehmer",src:"participant"},
-    {trg:"Professor",src:"professor"},
-    {trg:"Studierende",src:"students"}
+    {trg:"Kursleiter",src:"مدرّب الدورة"},
+    {trg:"Teilnehmer",src:"مشارك"},
+    {trg:"Professor",src:"أستاذ جامعي"},
+    {trg:"Studierende",src:"طلّاب"}
 ]},
         {type:"story",speaker:"lukas",mood:"teasing",art:"de-ber-apartment-evening",trg:"Lukas schickt eine Nachricht: 'Lebst du noch? Oder bist du unter deinen Karteikarten begraben?' Verumius antwortet mit einem Foto seines Schreibtischs. Lukas: 'Oh. Respekt.'",src:"يرسل لوكاس رسالة: 'هل ما زلت حياً؟ أم أنك مدفون تحت بطاقاتك التعليمية؟' يردّ فيروميوس بصورة لمكتبه. لوكاس: 'أوه. احترام.'"},
         {type:"fb",s:"Die {1} am Kurs ist obligatorisch.",a:["Teilnahme"],opts:["Teilnahme","Präsentation","Studie","Nachhilfe"],hint:"فكّر في معنى الكلمة.",sSrc:"Participation in the course is obligatory."},
@@ -271,10 +271,10 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
     "Ihr braucht euch nicht zu beeilen."
 ],ans:"Ihr braucht euch nicht zu beeilen.",hint:"brauchen يحتاج nicht أو nur أو kein. تأتي zu مباشرة قبل المصدر."},
         {type:"match",pairs:[
-    {trg:"vorlesen",src:"to read aloud"},
-    {trg:"zusammenfassen",src:"to summarize"},
-    {trg:"präsentieren",src:"to present"},
-    {trg:"analysieren",src:"to analyze"}
+    {trg:"vorlesen",src:"يقرأ بصوت عالٍ"},
+    {trg:"zusammenfassen",src:"يلخّص"},
+    {trg:"präsentieren",src:"يقدّم"},
+    {trg:"analysieren",src:"يحلّل"}
 ]},
         {type:"drag_fill",s:"Sie hat das Buch nicht lesen {1}.",blanks:{"1":"können"},pool:["können","gekonnt","kann","konnte","lesen"],hint:"الفعل المشروط في Perfekt: يحتفظ الفعل المشروط بصيغة المصدر، وليس Partizip.",sSrc:"لم تستطع قراءة الكتاب."},
         {type:"story",speaker:"mia",mood:"supportive",art:"de-ber-ubahn-morning",trg:"Mia wartet an der U-Bahn-Station. Sie drückt ihm einen Glücksbringer in die Hand: einen kleinen Stein vom Brandenburger Tor. 'Den habe ich am ersten Tag in Berlin gefunden. Er bringt Glück.'",src:"تنتظر ميا في محطة القطار. تضع في يده تميمة حظّ: حجر صغير من بوابة براندنبورغ. 'وجدته في يومي الأول في برلين. إنه يجلب الحظّ.'"},
@@ -368,10 +368,10 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"mc",q:"Die Prüfung ist nicht einfach, _____ anspruchsvoll.",opts:["sondern","jedoch","aber","trotzdem"],ans:"sondern",hint:"بعد النفي (nicht)، أي كلمة تعني 'بل'؟"},
         {type:"fb",s:"{1} die Prüfung beginnt, liest Verumius die Hinweise.",a:["Bevor"],opts:["Bevor","Nachdem","Sobald","Solange"],hint:"أي أداة ربط تعني 'قبل'؟",sSrc:"قبل أن يبدأ الامتحان، يقرأ فيروميوس التعليمات."},
         {type:"match",pairs:[
-    {trg:"obwohl",src:"although"},
-    {trg:"nachdem",src:"after"},
-    {trg:"sobald",src:"as soon as"},
-    {trg:"indem",src:"by (doing)"}
+    {trg:"obwohl",src:"رغم أنّ"},
+    {trg:"nachdem",src:"بعد"},
+    {trg:"sobald",src:"حالما"},
+    {trg:"indem",src:"عن طريق"}
 ]},
         {type:"drag_fill",s:"{1} er gut vorbereitet ist, {2} er trotzdem nervös.",blanks:{"1":"Obwohl","2":"ist"},pool:["Obwohl","Weil","ist","hat","bleibt","Nachdem"],hint:"الفراغ الأول: أداة الربط التي تعني 'رغم أنّ' (تنازلية، ترسل الفعل للنهاية). الفراغ الثاني: المضارع البسيط من sein.",sSrc:"رغم أنه مستعدّ جيداً، فهو لا يزال متوتراً."},
         {type:"story",speaker:"verumius",mood:"hopeful",art:"de-ber-apartment-waiting",trg:"Eine Woche ist vergangen. Verumius sitzt am Fenster und schaut auf die Straße. 'Obwohl ich nervös bin, weiß ich, dass ich mein Bestes gegeben habe. Das muss reichen.'",src:"مرّ أسبوع. يجلس فيروميوس بجانب النافذة وينظر إلى الشارع. 'رغم أنني متوتر، أعرف أنني بذلت قصارى جهدي. يجب أن يكون ذلك كافياً.'"},
@@ -457,10 +457,10 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"teach",trg:"umso",src:"أكثر فأكثر",pos:"conj",gender:null,note:"مرادف لـ desto. Je mehr, umso besser. Umso besser! = أفضل بكثير!",example:"A: Er hat bestanden! Umso besser!\nB: Je schwieriger die Prüfung, umso stolzer.\nA: Umso schöner, dass alle gekommen sind.\nB: Umso besser, dass wir zusammen feiern!",exampleSrc:"أ: He passed! All the better!\nب: The harder the exam, the prouder.\nأ: All the nicer that everyone came.\nب: All the better that we celebrate together!",funFact:"مرادف لـ 'desto.' يتبادلان في التراكيب je...desto/umso. 'Umso besser!' (أفضل بكثير!) كتعجّب مستقلّ أكثر شيوعاً من 'desto besser.'"},
         {type:"tip",title:"The Goethe B1 Exam: What It Proves",text:"The Goethe-Zertifikat B1 has four sections:\n 1. Reading: 65 minutes, text comprehension 2. Listening: 40 minutes, audio comprehension 3. Writing: 60 minutes, written expression 4. Speaking: 15 minutes with a partner\n Passing requires 60% overall. B1 proves: you can understand the main points of clear standard language, handle most travel situations, write simple connected texts, and describe experiences, opinions, and plans. The certificate is accepted for German citizenship applications and required by many employers. Verumius's BESTANDEN means: he has proven all of this.",deepDive:{title:"B1 in the European Context",text:"B1 is the third of six CEFR levels (A1-C2). It is also called 'Schwelle' (Threshold): the threshold to independent language use. After B1, you can: - Travel without language difficulties - Discuss familiar topics - Write simple letters and reports - Understand films and series with subtitles\n Verumius has crossed the threshold. B2 awaits."}},
         {type:"match",pairs:[
-    {trg:"dasselbe",src:"the same (neuter)"},
-    {trg:"mehrere",src:"several"},
-    {trg:"je...desto",src:"the more...the more"},
-    {trg:"sämtlich",src:"all/entire"}
+    {trg:"dasselbe",src:"ذاته (محايد)"},
+    {trg:"mehrere",src:"عدّة"},
+    {trg:"je...desto",src:"كلّما ... كلّما"},
+    {trg:"sämtlich",src:"كل / كامل"}
 ]},
         {type:"mc",q:"'Je mehr ich lerne, desto besser spreche ich.' Was bedeutet 'je...desto'?",opts:["the more...the more","either...or","neither...nor","not only...but also"],ans:"the more...the more",hint:"أداة الربط الثنائية هذه تعبّر عن علاقة تناسبية بين شيئين."}
       ]},
@@ -499,10 +499,10 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
     "Passiv + Konjunktiv I + Imperativ"
 ],ans:"Irrealer Bedingungssatz + Doppelinfinitiv + brauchen + zu",hint:"عُدّ التراكيب: شرط ماضٍ غير حقيقي، وسلسلة فعل مشروط في الزمن التام (Doppelinfinitiv)، وتركيب مصدري يعمل فق�� مع nicht أو nur أو kein."},
         {type:"match",pairs:[
-    {trg:"dasselbe",src:"the same (neuter)"},
-    {trg:"mehrere",src:"several"},
-    {trg:"gleichfalls",src:"likewise"},
-    {trg:"sämtlich",src:"all/entire"}
+    {trg:"dasselbe",src:"ذاته (محايد)"},
+    {trg:"mehrere",src:"عدّة"},
+    {trg:"gleichfalls",src:"كذلك"},
+    {trg:"sämtlich",src:"كل / كامل"}
 ]},
         {type:"story",speaker:"opa",mood:"philosophical",art:"de-ber-biergarten-sunset",trg:"Die Sonne geht unter über Berlin. Opa Heinrich hebt sein Glas. 'Auf B1. Auf Verumius. Und auf B2, das schon wartet.' Alle stoßen an. Verumius lächelt. Der Weg geht weiter.",src:"تغرب الشمس فوق برلين. يرفع الجدّ هاينريش كأس��. 'لمستوى B1. لفيرو��يوس. ولمستوى B2 الذي ينتظر بالفعل.' الجميع يصطدمون بالكؤوس. يبتسم فيروميوس. الرحلة مستمرة."}
       ]}

@@ -36,12 +36,12 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"fb",s:"Verumius hat sich an das Leben in Berlin {1}.",a:["gewöhnt"],opts:["gewöhnt","vermisst","verbracht","begonnen"],hint:"أي فعل يعني التكيّف مع شيء؟ هو انعكاسي مع 'sich'.",sSrc:"اعتاد فيروميوس على الحياة في برلين."},
         {type:"mc",q:"Der Erzähler sagt: 'Verumius hatte so viel gelernt.' Wann fand dieses Lernen statt?",opts:["Genau jetzt am Fenster","Erst gestern","Vor einem anderen vergangenen Moment","In der Zukunft"],ans:"Vor einem anderen vergangenen Moment",hint:"الماضي التام يصف أحداثاً وقعت قبل حدث ماضٍ آخر."},
         {type:"match",pairs:[
-    {trg:"Abenteuer",src:"adventure"},
-    {trg:"Gewohnheit",src:"habit"},
-    {trg:"Wahrheit",src:"truth"},
-    {trg:"Zeitpunkt",src:"point in time"},
-    {trg:"vermissen",src:"to miss"},
-    {trg:"verbringen",src:"to spend (time)"}
+    {trg:"Abenteuer",src:"مغامرة"},
+    {trg:"Gewohnheit",src:"عادة"},
+    {trg:"Wahrheit",src:"حقيقة"},
+    {trg:"Zeitpunkt",src:"لحظة زمنية"},
+    {trg:"vermissen",src:"يفتقد"},
+    {trg:"verbringen",src:"يقضي (وقتاً)"}
 ]},
         {type:"fb",s:"Die {1} sagen ist nicht immer leicht.",a:["Wahrheit"],opts:["Wahrheit","Tatsache","Eile","Gewohnheit"],hint:"فكّر في معنى الكلمة.",sSrc:"Telling the truth is not always easy."},
         {type:"mc",q:"Was bedeutet 'gewöhnen'?",opts:["the everyday life","the hurry, the haste","the sense, the meaning, the purpose","to get used to"],ans:"to get used to",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -72,12 +72,12 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"mc",q:"Verumius muss zwischen Bleiben und Gehen wählen. Welche zwei Wörter bedeuten beide 'to decide'?",opts:["vermissen und verbringen","ähnlich und tatsächlich","entscheiden und beschließen","wundern und realisieren"],ans:"entscheiden und beschließen",hint:"كلا الفعلين يتعاملان مع فصل الخيارات أو الانتهاء من شيء."},
         {type:"fb",s:"Er hatte keine {1} mehr. Berlin war sein Zuhause.",a:["Zweifel"],opts:["Zweifel","Chance","Wunder","Schritt"],hint:"أي اسم يعني 'الشكّ'؟ جذره هو الرقم اثنان.",sSrc:"لم يعد لديه شكوك. برلين كانت بيته."},
         {type:"match",pairs:[
-    {trg:"Entscheidung",src:"decision"},
-    {trg:"Möglichkeit",src:"possibility"},
-    {trg:"Überraschung",src:"surprise"},
-    {trg:"Zufall",src:"coincidence"},
-    {trg:"beschließen",src:"to resolve"},
-    {trg:"realisieren",src:"to realize"}
+    {trg:"Entscheidung",src:"قرار"},
+    {trg:"Möglichkeit",src:"إمكانية"},
+    {trg:"Überraschung",src:"مفاجأة"},
+    {trg:"Zufall",src:"صدفة"},
+    {trg:"beschließen",src:"يحلّ"},
+    {trg:"realisieren",src:"يدرك"}
 ]},
         {type:"story",speaker:"narrator",mood:"quiet-resolve",art:"de-berlin-apartment-coffee-window",trg:"Er stellt die Tasse ab. Die Entscheidung, nach Berlin zu kommen, war kein Zufall gewesen. Es war die beste Möglichkeit seines Lebens. Und heute, ein Jahr später, steht die nächste Entscheidung an.",src:"يضع الكوب. لم يكن قرار القدوم إلى برلين صدفة. كانت أفضل فرصة في حياته. واليوم، بعد عام، ينتظره القرار التالي."},
         {type:"mc",q:"Was ist der Unterschied zwischen 'Chance' und 'Gelegenheit'?",opts:[
@@ -248,12 +248,12 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"fb",s:"Yilmaz sagt: 'Jetzt {1} du verstehen, warum.'",a:["wirst"],opts:["wirst","wurdest","hast","hattest"],hint:"المستقبل البسيط: werden المصرّف + المصدر. اختر صيغة المخاطب المفرد الصحيحة.",sSrc:"يقول يلماز: 'الآن ستفهم لماذا.'"},
         {type:"mc",q:"KD hat einen Kaktus mitgebracht 'für Paragraph.' Wer oder was ist Paragraph?",opts:["Ein juristisches Dokument","Verumius' vorhandener Kaktus","Der Hinterhof","KDs Haustier"],ans:"Verumius' vorhandener Kaktus",hint:"أحضر KD شقيقاً صغيراً لشيء يملكه فيروميوس بالفعل."},
         {type:"match",pairs:[
-    {trg:"Abschied",src:"farewell"},
-    {trg:"Ratschlag",src:"piece of advice"},
-    {trg:"zurechtkommen",src:"to manage/cope"},
-    {trg:"entschlossen",src:"determined"},
-    {trg:"zählen",src:"to count"},
-    {trg:"übrig",src:"remaining"}
+    {trg:"Abschied",src:"وداع"},
+    {trg:"Ratschlag",src:"نصيحة"},
+    {trg:"zurechtkommen",src:"يتدبّر الأمر"},
+    {trg:"entschlossen",src:"مصمّم"},
+    {trg:"zählen",src:"يعدّ"},
+    {trg:"übrig",src:"متبقٍّ"}
 ]},
         {type:"story",speaker:"verumius",mood:"overwhelmed-happy",art:"de-berlin-hinterhof-group-toast",trg:"Ich schaue in die Runde. Hildi mit ihrem Tee. Lukas mit der Gitarre. Mia, die lacht. Yilmaz, der nickt. Und KD, der einen Kaktus hält. Das ist meine Familie in Berlin. Das sind die Menschen, die zählen.",src:"أنظر حولي في الحلقة. هيلدي مع شايها. لوكاس مع غيتاره. ميا التي تضحك. يلماز التي تومئ. وKD الذي يمسك صبّاراً. هذه عائلتي في برلين. هؤلاء هم الأشخاص المهمّون."},
         {type:"mc",q:"Was bedeutet 'zugehen'?",opts:["the bad luck","to manage difficult situations","grown-up, adult","to approach, to go toward"],ans:"to approach, to go toward",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -298,10 +298,10 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"mc",q:"Verumius hat viel gelernt. _____ fühlt er sich jetzt sicher. Welche Konjunktion passt?",opts:["Trotzdem","Sonst","Obwohl","Deshalb"],ans:"Deshalb",hint:"الجملة الثانية نتيجة منطقية للأولى. ابحث عن أداة ربط سببية، وليس أداة ربط فرعية."},
         {type:"fb",s:"Er hat beschlossen, in Berlin zu {1}.",a:["bleiben"],opts:["bleiben","geblieben","bleibt","blieb"],hint:"بعد 'zu' في جملة مصدرية، يبقى الفعل في صيغة المصدر.",sSrc:"قرّر البقاء في برلين."},
         {type:"match",pairs:[
-    {trg:"hatte gesehen",src:"Plusquamperfekt"},
-    {trg:"wird bleiben",src:"Futur I"},
-    {trg:"wäre gekommen",src:"Konjunktiv II"},
-    {trg:"wurde gebaut",src:"Passiv"}
+    {trg:"hatte gesehen",src:"الماضي الأسبق"},
+    {trg:"wird bleiben",src:"المستقبل البسيط"},
+    {trg:"wäre gekommen",src:"صيغة الشرط الثانية"},
+    {trg:"wurde gebaut",src:"صيغة المبني للمجهول"}
 ]},
         {type:"story",speaker:"yilmaz",mood:"mentor-quiet",art:"de-berlin-hinterhof-yilmaz-aside",trg:"Ich gehe jetzt. Aber ich gebe dir einen letzten Ratschlag. Berlin wird dich noch oft überraschen. Du wirst Tage haben, an denen du alles in Frage stellst. Aber du wirst zurechtkommen. Du hast es schon bewiesen.",src:"سأغادر الآن. لكنني سأعطيك نصيحة أخيرة. برلين ستفاجئك مرات عديدة أخرى. ستكون لديك أيام تشكّك فيها بكل شيء. لكنك ستتدبّر أمرك. ��قد أثبتّ ذلك بالفعل."},
         {type:"story",speaker:"narrator",mood:"transitional",art:"de-berlin-hinterhof-guests-leaving",trg:"Einer nach dem anderen gehen sie. Umarmungen. Versprechen. 'Bis bald.' Bis am Ende nur noch die Lichterketten leuchten und Verumius allein im Hof sitzt.",src:"واحداً تلو الآخر يغادرون. أحضان. وعود. 'إلى اللقاء قريباً.' حتى لا يبقى في النهاية سوى الأضواء المتوهّجة وفيروميوس يجلس وحيداً في الفناء."},
@@ -353,12 +353,12 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
     "Die Grammatik wird einfacher"
 ],ans:"B2 wird härtere Herausforderungen bringen",hint:"'Ernst' تعني جدّي. 'Es wird ernst' تشير إلى أن الأمور أصبحت حقيقية الآن."},
         {type:"match",pairs:[
-    {trg:"wertvoll",src:"valuable"},
-    {trg:"zuverlässig",src:"reliable"},
-    {trg:"durcheinander",src:"mixed up"},
-    {trg:"Augenblick",src:"moment"},
-    {trg:"zweifeln",src:"to doubt"},
-    {trg:"los",src:"off/going"}
+    {trg:"wertvoll",src:"ثمين"},
+    {trg:"zuverlässig",src:"موثوق"},
+    {trg:"durcheinander",src:"مختلط"},
+    {trg:"Augenblick",src:"لحظة"},
+    {trg:"zweifeln",src:"يشكّ"},
+    {trg:"los",src:"منطلق"}
 ]},
         {type:"mc",q:"Was ist los? Was bedeutet 'los'?",opts:["completely still","fully lost","going/happening","rather slow"],ans:"going/happening",hint:"فكّر في معنى الكلمة."},
         {type:"mc",q:"Was bedeutet 'äußerlich'?",opts:["externally, outwardly","to doubt","by chance, coincidental","to copy, to write off"],ans:"externally, outwardly",hint:"فكّر في معنى هذه الكلمة في السياق."},

@@ -33,11 +33,11 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"fb",s:"Verumius {1} über die Veraenderungen in seiner Wohnung.",a:["staunt"],opts:["bewundert","freut","staunt","dankt"],hint:"أن تُذهَل، أن تتعجّب. أقوى من المفاجأة. فعل الوقوف في حالة دهشة.",sSrc:"يُذهَل فيروميوس من التغييرات في شقته."},
         {type:"mc",q:"What does 'aufrichtig' literally mean?",opts:["Heartfelt (from the heart)","Festive (celebration)","Upright/sincere","Grateful (able to thank)"],ans:"Upright/sincere",hint:"'Auf' (فوق) + 'richtig' (مستقيم). الأمانة مُجسَّدة في وقفة منتصبة."},
         {type:"match",pairs:[
-    {trg:"Vorfreude",src:"anticipatory joy"},
-    {trg:"Dankbarkeit",src:"gratitude"},
-    {trg:"Herzlichkeit",src:"warmth/cordiality"},
-    {trg:"Meilenstein",src:"milestone"},
-    {trg:"staunen",src:"to marvel/be amazed"}
+    {trg:"Vorfreude",src:"فرحة الترقّب"},
+    {trg:"Dankbarkeit",src:"امتنان"},
+    {trg:"Herzlichkeit",src:"دفء / ودّ"},
+    {trg:"Meilenstein",src:"معلم فارق"},
+    {trg:"staunen",src:"يندهش"}
 ]}
       ]},
 // ─── L2: Was wir fühlen ───
@@ -59,11 +59,11 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"teach",trg:"ausgeglichen",src:"متوازن، معتدل المزاج",pos:"adj",gender:null,note:"'Aus' (خارج) + 'geglichen' (معادَل).\nمن 'ausgleichen' (أن يوازن).",example:"A: Wie würdest du ihn beschreiben?\nB: Ausgeglichen. Seine innere Waage ist im Gleichgewicht.",exampleSrc:"أ: كيف تصفه؟\nب: متوازن. موازينه الداخلية معتدلة.",funFact:"شخص موازينه الداخلية معتدلة. لا ينجرف نحو التطرف. الشخص ausgeglichen يبقى ثابتاً وسط العواصف. في العربية: 'الاتزان' و'الاعتدال'."},
         {type:"mc",q:"Which German word means passion but literally contains 'suffering'?",opts:["Gelassenheit","Lebensfreude","Leidenschaft","Vorfreude"],ans:"Leidenschaft",hint:"'Leiden' (ألم) + '-schaft'. ما تحبّه بعمق حتى تتألّم من أجله."},
         {type:"match",pairs:[
-    {trg:"Gelassenheit",src:"serenity/composure"},
-    {trg:"Selbstvertrauen",src:"self-confidence"},
-    {trg:"Zuversicht",src:"optimism/confidence"},
-    {trg:"Wohlbefinden",src:"wellbeing"},
-    {trg:"Lebensfreude",src:"joy of living"}
+    {trg:"Gelassenheit",src:"هدوء / رباطة جأش"},
+    {trg:"Selbstvertrauen",src:"ثقة بالنفس"},
+    {trg:"Zuversicht",src:"تفاؤل / ثقة"},
+    {trg:"Wohlbefinden",src:"رفاهية"},
+    {trg:"Lebensfreude",src:"متعة الحياة"}
 ]},
         {type:"fb",s:"Verumius ist in Berlin richtig {1}.",a:["aufgeblüht"],opts:["aufgestanden","aufgeblüht","aufgewacht","aufgehört"],hint:"لقد انفتح ونما كزهرة في الربيع. فعل منفصل مع 'auf'. أساسه فعل التفتّح.",sSrc:"لقد تفتّح فيروميوس حقاً في برلين."},
         {type:"mc",q:"'Das Glück.' What makes this word special?",opts:[
@@ -133,11 +133,11 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
 ],ans:"Same meaning, different register: Gestatten is very formal",hint:"أحد الشكلين ينتمي إلى أسلوب يلماظ الرفيع الكلاسيكي. والآخر كلام لوكاس اليومي العادي. أيّ إجابة تُعرّف الفرق في الأسلوب بشكل صحيح؟"},
         {type:"fb",s:"Formal: 'Ich beabsichtige zu bleiben.' Informal: 'Ich {1} bleiben.'",a:["will"],opts:["will","beabsichtige","gedenke","möchte"],hint:"الطريقة الأبسط والأكثر مباشرة للقول بأنك تريد شيئاً. لا جذور لاتينية، لا رسمية. هذا هو الفعل الناقص اليومي.",sSrc:"رسمي: 'أعتزم البقاء.' غير رسمي: 'أريد البقاء.'"},
         {type:"match",pairs:[
-    {trg:"beginnen",src:"anfangen (everyday)"},
-    {trg:"verweilen",src:"bleiben (everyday)"},
-    {trg:"erwerben",src:"kaufen (everyday)"},
-    {trg:"entgegnen",src:"antworten (everyday)"},
-    {trg:"gestatten",src:"erlauben (everyday)"}
+    {trg:"beginnen",src:"يبدأ (يومي)"},
+    {trg:"verweilen",src:"يبقى (يومي)"},
+    {trg:"erwerben",src:"يشتري (يومي)"},
+    {trg:"entgegnen",src:"يُجيب (يومي)"},
+    {trg:"gestatten",src:"يسمح (يومي)"}
 ]},
         {type:"mc",q:"'Beginnen' und 'anfangen' bedeuten dasselbe. Was ist der Unterschied?",opts:[
     "Beginnen ist falsch, anfangen ist korrekt",
@@ -205,11 +205,11 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
 ],ans:"Reassurance: it will work out, I am sure",hint:"يلماظ تستخدم هذا الجسيم للتعبير عن الطمأنينة الهادئة بأن كل شيء سيسير على ما يرام. ليس wohl (غير متأكّد)، وليس halt (مستسلم)، وليس doch (متعارض). يُعبّر عن يقين هادئ."},
         {type:"drag_fill",s:"Komm {1} her und schau {2}! Das sieht {3} toll aus!",blanks:{"1":"mal","2":"mal","3":"ja"},pool:["mal","mal","ja","doch","halt","wohl"],hint:"أسلوب لوكاس العادي: مُليّنان ('mal') وعلامة معرفة مشتركة ('ja'). تعال إلى هنا وانظر!",sSrc:"تعال هنا وانظر! يبدو هذا رائعاً!"},
         {type:"match",pairs:[
-    {trg:"doch",src:"contradiction/emphasis"},
-    {trg:"halt/eben",src:"acceptance of reality"},
-    {trg:"ja",src:"shared knowledge"},
-    {trg:"mal",src:"softening/casualness"},
-    {trg:"schon",src:"concession/reassurance"}
+    {trg:"doch",src:"تناقض / تأكيد"},
+    {trg:"halt/eben",src:"تقبّل الواقع"},
+    {trg:"ja",src:"معرفة مشتركة"},
+    {trg:"mal",src:"تلطيف / عفوية"},
+    {trg:"schon",src:"تنازل / طمأنة"}
 ]},
         {type:"mc",q:"Verumius thinks: 'KD ist wohl noch im Buero.' What does 'wohl' mean here?",opts:[
     "Definitely: he has confirmed that KD is at the office",
@@ -267,11 +267,11 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"fb",s:"Heinrichs Geschenk war zutiefst {1}.",a:["rührend"],opts:["rührend","lustig","seltsam","langweilig"],hint:"مؤثر في العمق. ما يُحرِّك مشاعرك. عجينة خميرة عمرها عشرون عاماً من حياة خبَّاز.",sSrc:"كانت هدية هاينريش مؤثرةً في أعماق النفس."},
         {type:"drag_fill",s:"Rückblickend betrachtet, war der Umzug nach Berlin {1} die beste Entscheidung. Das wissen wir {2} alle.",blanks:{"1":"wohl","2":"ja"},pool:["wohl","ja","halt","doch","mal","eben"],hint:"جسيمان: الأول يُشير إلى الاحتمال الشخصي لا اليقين، والثاني يدعو المستمع لمشاركة ما هو معروف مسبقاً. لا هذا ولا ذاك جسيمُ استسلام أو تناقض."},
         {type:"match",pairs:[
-    {trg:"Wertschätzung",src:"appreciation/esteem"},
-    {trg:"Rückblick",src:"retrospective"},
-    {trg:"Aufbruch",src:"new beginning"},
-    {trg:"entschleunigen",src:"to slow down"},
-    {trg:"rührend",src:"moving/touching"}
+    {trg:"Wertschätzung",src:"تقدير"},
+    {trg:"Rückblick",src:"نظرة استرجاعية"},
+    {trg:"Aufbruch",src:"بداية جديدة"},
+    {trg:"entschleunigen",src:"يبطّئ"},
+    {trg:"rührend",src:"مؤثّر"}
 ]},
         {type:"mc",q:"Was bedeutet 'entschleunigen'?",opts:[
     "Schneller werden und beschleunigen",
@@ -330,11 +330,11 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"fb",s:"Diese Gruppe ist über zwei Jahre {1}.",a:["zusammengewachsen"],opts:["zusammengewachsen","zusammengekommen","zusammengestellt","zusammengefasst"],hint:"فعل قابل للفصل يصف تكوُّن الروابط العضوية بمرور الوقت. غرباء توحَّدوا ببطء، كأشجار التقت جذورها تحت الأرض.",sSrc:"نمت هذه المجموعة معاً على مدار عامين."},
         {type:"drag_fill",s:"Es ist {1}, was Freundschaft wert ist. {2} man füreinander da ist, wächst man {3} zusammen.",blanks:{"1":"unbezahlbar","2":"Indem","3":"halt"},pool:["unbezahlbar","Indem","halt","unmöglich","Weil","doch"],hint:"ثلاثة فراغات: صفة لشيء لا يمكن شراؤه بالمال، وأداة ربط تُقدِّم كيفية نشوء الانتماء، وجسيم قبول هادئ. فكِّر في قيمة الصداقة."},
         {type:"match",pairs:[
-    {trg:"Überraschung",src:"surprise"},
-    {trg:"unbezahlbar",src:"priceless"},
-    {trg:"zusammenwachsen",src:"to grow together"},
-    {trg:"ungezwungen",src:"relaxed/natural"},
-    {trg:"aufatmen",src:"to breathe a sigh of relief"}
+    {trg:"Überraschung",src:"مفاجأة"},
+    {trg:"unbezahlbar",src:"لا يُقدّر بثمن"},
+    {trg:"zusammenwachsen",src:"ينمو معاً"},
+    {trg:"ungezwungen",src:"مسترخٍ / طبيعي"},
+    {trg:"aufatmen",src:"يتنفّس الصُعداء"}
 ]},
         {type:"mc",q:"KD arrives late with a cactus. Which Modalpartikel fits his arrival best?",opts:[
     "halt: Er kommt halt immer zu spät. (He just always comes late.)",
@@ -380,11 +380,11 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "Das Essen schmeckt wirklich gut und lecker. Du hast recht gehabt."
 ],ans:"Das Essen schmeckt ja wirklich gut! Du hast doch recht gehabt.",hint:"عُدَّ الجسيمات الصغيرة في كل خيار. المحادثة الألمانية الطبيعية على المائدة تستخدم جسيمين متراكبين يُضيفان الإدراك المشترك والتأكيد الدافئ."},
         {type:"match",pairs:[
-    {trg:"sich begeben",src:"gehen (everyday)"},
-    {trg:"erblicken",src:"sehen (everyday)"},
-    {trg:"jedoch",src:"aber (everyday)"},
-    {trg:"ferner",src:"außerdem (everyday)"},
-    {trg:"sogleich",src:"sofort (everyday)"}
+    {trg:"sich begeben",src:"يذهب (يومي)"},
+    {trg:"erblicken",src:"يرى (يومي)"},
+    {trg:"jedoch",src:"لكن (يومي)"},
+    {trg:"ferner",src:"بالإضافة لذلك (يومي)"},
+    {trg:"sogleich",src:"فوراً (يومي)"}
 ]},
         {type:"fb",s:"{1} Anstrengung hat sich gelohnt.",a:["Jegliche"],opts:["Jegliche","Alle","Manche","Irgendwelche"],hint:"كل جهد بلا استثناء. الضمير النكرة الرسمي الأكثر توكيداً للدلالة على الشمولية.",sSrc:"كل جهدٍ بُذل كان يستحق."},
         {type:"mc",q:"Which sentence orders adverbs correctly according to TeKaMoLo?",opts:[
@@ -442,11 +442,11 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"fb",s:"{1} war alles richtig. Jeder Schritt. Jeder Fehler. Jedes Wort.",a:["Rückblickend"],opts:["Rückblickend","Vermutlich","Möglicherweise","Vielleicht"],hint:"ظرف يضع المتكلِّم في اللحظة الحاضرة، ويرسل بصره إلى الوراء على طول الرحلة بأسرها. يُؤطِّر التأمل في الماضي من موقع الوصول.",sSrc:"بالنظر إلى الوراء، كان كل شيء صحيحاً. كل خطوة. كل خطأ. كل كلمة."},
         {type:"drag_fill",s:"{1} Endes bin ich hier {2}. Ich bin {3}.",blanks:{"1":"Letzten","2":"zuhause","3":"glücklich"},pool:["Letzten","zuhause","glücklich","Guten","angekommen","zufrieden"],hint:"ثلاثة فراغات ختامية: اسم يُكمل عبارة ألمانية ثابتة بمعنى 'في نهاية المطاف'، والكلمة الدالة على المكان الذي يسمِّيه المرء وطناً، والشعور الذي ينتاب فيروميوس في نهاية عامين."},
         {type:"match",pairs:[
-    {trg:"zu guter Letzt",src:"last but not least"},
-    {trg:"von ganzem Herzen",src:"from the bottom of my heart"},
-    {trg:"schlussendlich",src:"finally/ultimately"},
-    {trg:"rückblickend",src:"looking back"},
-    {trg:"letzten Endes",src:"in the end"}
+    {trg:"zu guter Letzt",src:"أخيراً وليس آخراً"},
+    {trg:"von ganzem Herzen",src:"من أعماق قلبي"},
+    {trg:"schlussendlich",src:"في النهاية"},
+    {trg:"rückblickend",src:"بالنظر إلى الماضي"},
+    {trg:"letzten Endes",src:"في النهاية"}
 ]},
         {type:"mc",q:"Verumius says: 'Ich bin zuhause.' What does zuhause mean here?",opts:[
     "Home: not just a place, but a feeling of belonging.",

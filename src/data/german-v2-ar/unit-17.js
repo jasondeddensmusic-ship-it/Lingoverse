@@ -74,7 +74,7 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
         {type:"mc",q:"Die Band betritt die Bühne. Was bedeutet 'Auftritt'?",opts:["ein Orchester","eine Melodie","ein Tanz","ein Auftritt auf der Bühne"],ans:"ein Auftritt auf der Bühne",hint:"الفرقة تصعد على خشبة المسرح. ماذا تُسمّي ظهور مؤدٍّ أمام الجمهور؟"},
         {type:"mc",q:"Wenn ein männlicher Musiker 'der Musiker' ist, was ist eine weibliche Musikerin?",opts:["der Musikerin","das Musikerin","die Musiker","die Musikerin"],ans:"die Musikerin",hint:"الألمانية تُشكّل المهن المؤنثة بلاحقة قياسية. أي خيار يحتوي على أداة التعريف الصحيحة والنهاية المؤنثة؟"},
         {type:"fb",s:"Die Musik {1} fantastisch!",a:["klingt"],opts:["klingt","klingen","schaut","lächelt"],hint:"أي فعل يصف كيف تصل الموسيقى إلى أذنيك؟",sSrc:"الموسيقى تبدو رائعة!"},
-        {type:"match",pairs:[{trg:"Bühne",src:"stage"},{trg:"Publikum",src:"audience"},{trg:"Auftritt",src:"performance"},{trg:"Saal",src:"hall"}]},
+        {type:"match",pairs:[{trg:"Bühne",src:"مرحلة"},{trg:"Publikum",src:"جمهور"},{trg:"Auftritt",src:"أداء"},{trg:"Saal",src:"قاعة"}]},
         {type:"mc",q:"Mia sagt: 'Ich habe mich amüsiert.' Was bedeutet das?",opts:["Ich habe gesungen","Ich war verärgert","Ich habe getanzt","Ich hatte Spaß"],ans:"Ich hatte Spaß",hint:"sich amüsieren هو الفعل الانعكاسي للترفيه عن نفسك وقضاء وقت ممتع."},
         {type:"story",speaker:"narrator",mood:"lively",art:"de-koeln-altstadt-buehne",trg:"Auf der Bühne vor dem Dom spielt eine Band. Der Sänger schreit ins Mikrofon, das Publikum brüllt den Refrain mit. Verumius klatscht im falschen Rhythmus. Niemanden kümmert es.",src:"على المسرح أمام الكاتدرائية، تعزف فرقة. المغنّي يصرخ في الميكروفون، والجمهور يردد اللازمة بصوت عالٍ. فيروميوس يصفق على الإيقاع الخطأ. لا أحد يهتم."},
         {type:"fb",s:"Der Saal war voll. Über tausend Menschen haben den {1} der Band gefeiert.",a:["Auftritt"],opts:["Auftritt","Saal","Tanz","Publikum"],hint:"فكّر في معنى الكلمة.",sSrc:"The hall was full. Over a thousand people celebrated the band's performance."},
@@ -101,10 +101,10 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
         {type:"teach",trg:"das Märchen",src:"الحكاية الخرافية",pos:"noun",gender:"n",note:"اسم محايد الجنس بسبب نهاية -chen.\nمن 'Mär' (حكاية) + '-chen' (تصغير).",example:"A: Als wer bist du verkleidet?\nB: Als Prinz aus einem Märchen!\nA: Welches Märchen?\nB: Dornröschen. Aber ich bin der Prinz.",exampleSrc:"A: بمن تنكرت؟\nB: أمير من حكاية خرافية!\nA: أي حكاية خرافية؟\nB: الجمال النائم. لكنني الأمير.",funFact:"حكايات الأخوين غريم (سندريلا، بياض الثلج، هانسل وغريتل) هي أكبر صادرات ألمانيا الثقافية بعد السيارات والبيرة. نهاية -chen تجعل الأسماء دائماً محايدة الجنس."},
         {type:"teach",trg:"die Fantasie",src:"الخيال",pos:"noun",gender:"f",note:"اسم مؤنث. من اليونانية 'phantasia'.\nالألمانية تكتبها بحرف F لا Ph.",example:"A: Das Kostüm ist pure Fantasie!\nB: Danke! Fantasie ist alles beim Karneval.\nA: Ohne Fantasie kein Kostüm.\nB: Genau. Fantasie ist das Wichtigste.",exampleSrc:"A: الزي خيال محض!\nB: شكراً! الخيال هو كل شيء في الكرنفال.\nA: بدون خيال، لا زي تنكري.\nB: بالضبط. الخيال هو الأهم.",funFact:"الألمانية تكتبها Fantasie بحرف F لا Ph. الكرنفال هو حيث ينطلق الخيال الألماني من النظام الألماني Ordnung."},
         {type:"match",pairs:[
-    {trg:"der Held",src:"the hero"},
-    {trg:"die Rolle",src:"the role"},
-    {trg:"das Märchen",src:"the fairy tale"},
-    {trg:"die Fantasie",src:"the imagination"}
+    {trg:"der Held",src:"البطل"},
+    {trg:"die Rolle",src:"الدور"},
+    {trg:"das Märchen",src:"الحكاية الخرافية"},
+    {trg:"die Fantasie",src:"الخيال"}
 ]},
         {type:"mc",q:"Was bedeutet 'die Puppe' auf Englisch?",opts:["the doll, the puppet","the scene","the character","the artist"],ans:"the doll, the puppet",hint:"عربات الكرنفال تضم نسخاً عملاقة من هذه. السياسيون يصبحون دمى عملاقة."}
       ]},
@@ -344,10 +344,10 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
 ],ans:"Er schaut die Serie statt den Roman zu lesen",hint:"قراءة الرواية هي ما يتخطاه. مشاهدة المسلسل هي البديل. أي أداة ربط تشير إلى الخيار المتروك؟"},
         {type:"drag_fill",s:"{1} nur zuzuhören, singt Verumius mit, {2} den Text zu kennen, {3} alle lachen.",blanks:{"1":"Statt","2":"ohne","3":"damit"},pool:["Statt","ohne","damit","um","weil","obwohl"],hint:"الفراغ الأول: البديل الذي يتخطاه. الفراغ الثاني: صفة يفتقر إليها. الفراغ الثالث: النتيجة المقصودة للآخرين.",sSrc:"بدلاً من مجرد الاستماع، يغني فيروميوس معهم بدون معرفة الكلمات، حتى يضحك الجميع."},
         {type:"match",pairs:[
-    {trg:"um...zu",src:"in order to"},
-    {trg:"ohne...zu",src:"without doing"},
-    {trg:"(an)statt...zu",src:"instead of doing"},
-    {trg:"damit",src:"so that (different subject)"}
+    {trg:"um...zu",src:"من أجل أن"},
+    {trg:"ohne...zu",src:"دون أن يفعل"},
+    {trg:"(an)statt...zu",src:"بدلاً من أن يفعل"},
+    {trg:"damit",src:"لكي (فاعل مختلف)"}
 ]},
         {type:"mc",q:"Ein Autor schreibt Romane. Ein Schriftsteller ist...",opts:["auch ein Autor","ein Sportler","ein Musiker","ein Maler"],ans:"auch ein Autor",hint:"Schriftsteller هو المصطلح الأكثر أدبية، لكن كليهما يكتب. أحدهما يحتوي الآخر."},
         {type:"fb",s:"Der Maler malt, {1} berühmt zu werden.",a:["um"],opts:["um","ohne","statt","damit"],hint:"الغرض من الرسم: أن يصبح مشهوراً. نفس الفاعل، جملة غرض.",sSrc:"الرسّام يرسم من أجل أن يصبح مشهوراً."},
@@ -394,11 +394,11 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
 ],ans:"Verschiedene Regionen, gleiche Tradition",hint:"كلاهما يشيران إلى نفس الاحتفال لكنهما يُستخدمان في مناطق مختلفة من ألمانيا."},
         {type:"fb",s:"Ich gehe zum {1}, um mir die Haare schneiden zu lassen.",a:["Friseur"],opts:["Friseur","König","Bart","Fasching"],hint:"شخص يقص الشعر باحتراف.",sSrc:"أذهب إلى الحلّاق لقص شعري."},
         {type:"match",pairs:[
-    {trg:"der Fasching",src:"carnival (southern)"},
-    {trg:"der Friseur",src:"hairdresser"},
-    {trg:"der Bart",src:"beard"},
-    {trg:"die Socke",src:"sock"},
-    {trg:"der König",src:"king"}
+    {trg:"der Fasching",src:"كرنفال (جنوبي)"},
+    {trg:"der Friseur",src:"حلّاق"},
+    {trg:"der Bart",src:"لحية"},
+    {trg:"die Socke",src:"جورب"},
+    {trg:"der König",src:"ملك"}
 ]},
         {type:"mc",q:"In der Schweiz sagt man nicht 'Friseur.' Welches Wort benutzt man?",opts:["Coiffeur","König","Strumpf","Fasching"],ans:"Coiffeur",hint:"كلمة من أصل فرنسي تُستخدم في سويسرا وأجزاء من النمسا للحلّاق."}
       ]},
@@ -449,10 +449,10 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
 ],ans:"Verschiedene Subjekte: Mia singt, Verumius lernt",hint:"ميا تغني. فيروميوس يتعلم. شخصان منفصلان، فعلان منفصلان. أي أداة ربط مطلوبة عندما يختلف الفاعلان؟"},
         {type:"drag_fill",s:"Verumius reist nach Köln, {1} Karneval zu erleben, {2} die Regeln zu kennen, und Mia erklärt alles, {3} er sich nicht irrt.",blanks:{"1":"um","2":"ohne","3":"damit"},pool:["um","ohne","damit","statt","weil","obwohl"],hint:"الغرض (من أجل)، الغياب (بدون معرفة)، فاعل مختلف (حتى لا يخطئ).",sSrc:"يسافر فيروميوس إلى كولونيا من أجل تجربة الكرنفال، بدون معرفة القواعد، وميا تشرح كل شيء حتى لا يخطئ."},
         {type:"match",pairs:[
-    {trg:"Vergnügen",src:"pleasure"},
-    {trg:"Unterhaltung",src:"entertainment"},
-    {trg:"Neuigkeit",src:"news"},
-    {trg:"Tradition",src:"tradition"}
+    {trg:"Vergnügen",src:"متعة"},
+    {trg:"Unterhaltung",src:"ترفيه"},
+    {trg:"Neuigkeit",src:"أخبار"},
+    {trg:"Tradition",src:"تقليد"}
 ]},
         {type:"mc",q:"Statt den ganzen Tag zu faulenzen, geht Mia zum Karneval. Was macht Mia?",opts:[
     "Sie faulenzt beim Karneval",

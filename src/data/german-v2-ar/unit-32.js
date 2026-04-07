@@ -78,10 +78,10 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
     "menschliche Toleranz, andere zu ertragen"
 ],ans:"menschliche Würde, das Recht auf Respekt als Mensch",hint:"اسم مركب مُرسَّخ في المادة الأولى من الدستور الألماني. حدّد العنصرين الجذريين: الكائن والصفة المحمية."},
         {type:"match",pairs:[
-    {trg:"Grundwert",src:"fundamental value"},
-    {trg:"Überzeugung",src:"conviction"},
-    {trg:"Selbstbild",src:"self-image"},
-    {trg:"Ethik",src:"ethics"}
+    {trg:"Grundwert",src:"قيمة أساسية"},
+    {trg:"Überzeugung",src:"قناعة"},
+    {trg:"Selbstbild",src:"صورة الذات"},
+    {trg:"Ethik",src:"أخلاقيات"}
 ]},
         {type:"fb",s:"Die Kindheit {1} den Menschen für sein ganzes Leben.",a:["prägt"],opts:["pflegt","anerkennt","prägt","reflektiert"],hint:"يُشكّل ويصوغ. تطبع مرحلة الطفولة شيئاً في الإنسان يبقى.",sSrc:"تُشكِّل الطفولة الإنسان طوال حياته."},
         {type:"mc",q:"In Lebensqualität verbindet das -s- zwischen Leben und Qualität die Teile. Dieses -s- ist ein...",opts:["Pluralzeichen am Wortende","Fugenelement (Verbindungselement)","Genitivendung","Schreibfehler in der Komposita-Form"],ans:"Fugenelement (Verbindungselement)",hint:"الـ -s- الصغيرة التي تصل بين جزأي الاسم المركب. جسر صوتي."},
@@ -202,10 +202,10 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
 ],ans:"verallgemeinerte Relativsätze",hint:"'Wer...' و'alles, was...' أنماط وصفية حرة للجمل ذات الطابع العالمي."},
         {type:"drag_fill",s:"{1} Mensch, der Vorurteile hat, sollte sich mit {2} auseinandersetzen.",blanks:{"1":"Derjenige","2":"diesen"},pool:["Derjenige","diesen","Dieser","jenen","Solcher","denen"],hint:"ضمير إشاري رسمي يُدخل جملة وصفية، إضافةً إلى صيغة جمع في حالة النصب تُحيل إلى ما ذُكر للتو.",sSrc:"من لديه تحيزات ينبغي له مواجهتها."},
         {type:"match",pairs:[
-    {trg:"derselbe",src:"the same (identical)"},
-    {trg:"derjenige",src:"the one who"},
-    {trg:"ersterer",src:"the former"},
-    {trg:"letzterer",src:"the latter"}
+    {trg:"derselbe",src:"نفسه (مطابق)"},
+    {trg:"derjenige",src:"الذي"},
+    {trg:"ersterer",src:"السابق"},
+    {trg:"letzterer",src:"الأخير"}
 ]},
         {type:"fb",s:"Diskriminierung ist {1} akzeptabel.",a:["keineswegs"],opts:["keineswegs","gleichermaßen","letztlich","im Grunde"],hint:"فكّر في معنى الكلمة.",sSrc:"Discrimination is by no means acceptable."},
         {type:"mc",q:"Was bedeutet 'im Wesentlichen'?",opts:["essentially, in essence","the same one (neuter)","the same one (feminine)","the one which (neuter)"],ans:"essentially, in essence",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -278,10 +278,10 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
 ],ans:"Verweiswort (diejenigen) + verallgemeinernder Relativsatz (wer...der)",hint:"كلتا الجملتين تستخدمان تراكيب تُشير إلى الناس بشكل عام. إحداهما تستخدم اسم إشارة رسميًا مع جملة وصفية. والأخرى تستخدم فاتحة وصفية شاملة مقترنة بضمير استئنافي."},
         {type:"drag_fill",s:"{1} Menschen, die diskriminiert werden, brauchen gesellschaftliche {2}.",blanks:{"1":"Diejenigen","2":"Akzeptanz"},pool:["Diejenigen","Akzeptanz","Solche","Toleranz","Diese","Solidaritaet"],hint:"اسم الإشارة الرسمي لـ'الذين' مع اسم يعني القبول.",sSrc:"أولئك الذين يتعرضون للتمييز يحتاجون إلى القبول الاجتماعي."},
         {type:"match",pairs:[
-    {trg:"Gleichberechtigung",src:"equal rights"},
-    {trg:"Ausgrenzung",src:"exclusion"},
-    {trg:"Fremdenfeindlichkeit",src:"xenophobia"},
-    {trg:"Emanzipation",src:"emancipation"}
+    {trg:"Gleichberechtigung",src:"حقوق متساوية"},
+    {trg:"Ausgrenzung",src:"استبعاد"},
+    {trg:"Fremdenfeindlichkeit",src:"كراهية الأجانب"},
+    {trg:"Emanzipation",src:"تحرّر"}
 ]},
         {type:"mc",q:"Was bedeutet 'ausgrenzen'?",opts:["to exclude, to marginalize","to emancipate and liberate","to discriminate","to overcome"],ans:"to exclude, to marginalize",hint:"Aus (خارج) + grenzen (يحدّ). رسم خط ووضع شخص ما خارجه. فعل منفصل."}
       ]},
@@ -322,10 +322,10 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
         {type:"mc",q:"'Toleranz und Akzeptanz sind verwandt. Erstere ist passiv, letztere aktiv.' Erstere bezieht sich auf...",opts:["Toleranz (die zuerst Genannte)","beide","Akzeptanz (die zweit Genannte)","keines von beiden"],ans:"Toleranz (die zuerst Genannte)",hint:"'Erstere' = الأول المذكور، الأول من المصطلحين المسمّيين."},
         {type:"drag_fill",s:"{1}, was zaehlt, ist nicht {2} Meinung, sondern die Bereitschaft, andere zu verstehen.",blanks:{"1":"Alles","2":"dieselbe"},pool:["Alles","dieselbe","Was","die gleiche","Das","derselbe"],hint:"تركيبان: جملة وصفية حرة للتصريحات الشاملة وصفة إشارة تعبّر عن التماثل. لا التماثل ولا التجانس هو ما يهم.",sSrc:"ما يهم ليس الرأي ذاته، بل الاستعداد لفهم الآخرين."},
         {type:"match",pairs:[
-    {trg:"Leitkultur",src:"guiding/dominant culture"},
-    {trg:"Assimilation",src:"cultural absorption"},
-    {trg:"Minderheitenschutz",src:"minority protection"},
-    {trg:"Umbruch",src:"upheaval"}
+    {trg:"Leitkultur",src:"ثقافة سائدة"},
+    {trg:"Assimilation",src:"استيعاب ثقافي"},
+    {trg:"Minderheitenschutz",src:"حماية الأقليات"},
+    {trg:"Umbruch",src:"اضطراب"}
 ]},
         {type:"fb",s:"Ein {1} Leben ist das Gegenteil von Selbstbestimmung.",a:["fremdbestimmtes"],opts:["rassistisches","stereotypes","zeitgemaesses","fremdbestimmtes"],hint:"فكّر في معنى الكلمة.",sSrc:"An externally determined life is the opposite of self-determination."},
         {type:"mc",q:"Was bedeutet 'die Gesinnung'?",opts:["assimilation","cultural asset, cultural heritage","mindset, political disposition","diversity (formal/academic)"],ans:"mindset, political disposition",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -380,10 +380,10 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
 ],ans:"Sie sind emphatischer und formeller, schliessen jede Ausnahme aus",hint:"كلاهما أقوى من 'jede'. لا تتركان أي مجال للاستثناءات. أسلوب قانوني وأدبي."},
         {type:"fb",s:"Das Fugenelement nach schwachen Substantiven wie 'Minderheit': Minderheit + {1} + ...",a:["en"],opts:["en","s","n",""],hint:"الأسماء المؤنثة المنتهية بـ-heit تتبع نمطًا مختلفًا عن أسماء -ung. انظر إلى المركّبات مثل Menschenwürde أو Staatenbund للنمط.",sSrc:"عنصر الربط بعد أسماء مثل Minderheit هو: en"},
         {type:"match",pairs:[
-    {trg:"jemand",src:"someone"},
-    {trg:"niemand",src:"nobody"},
-    {trg:"sämtliche",src:"all/every single"},
-    {trg:"jedweder",src:"every whatsoever"}
+    {trg:"jemand",src:"شخص ما"},
+    {trg:"niemand",src:"لا أحد"},
+    {trg:"sämtliche",src:"كل واحد"},
+    {trg:"jedweder",src:"كل شيء مهما كان"}
 ]},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-ber-nightwalk-bridge",trg:"Mia kämpft für Gleichberechtigung. Yilmaz vermittelt zwischen Kulturen. KD vertraut dem Papier. Heinrich bewahrt die Sprache. Und ich? Ich sammle ihre Geschichten.",src:"ميا تناضل من أجل المساواة في الحقوق. يلماز تتوسط بين الثقافات. كا-د يثق بالورق. هاينريش يحفظ اللغة. وأنا؟ أنا أجمع قصصهم."},
         {type:"mc",q:"'Das führt zwangslaeufig zu Konflikten.' Was bedeutet 'zwangslaeufig'?",opts:["möglicherweise","selten","unvermeidlich, unausweichlich","niemals"],ans:"unvermeidlich, unausweichlich",hint:"فكّر في معنى الكلمة."},
@@ -433,10 +433,10 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
 ],ans:"Freiheitskampf (Fugen-s)",hint:"الأسماء المنتهية بـ-heit وَ-keit وَ-schaft تتبع جميعها القاعدة ذاتها. انظر إلى نمط مجموعة اللاحقات في الجدول النحوي."},
         {type:"drag_fill",s:"{1} andere respektiert, {2} wird selbst respektiert. {3} Erkenntnis ist zeitlos.",blanks:{"1":"Wer","2":"der","3":"Diese"},pool:["Wer","der","Diese","Was","den","Dieselbe"],hint:"جملة وصفية تعميمية (wer...der) + اسم إشارة (diese). 'Wer andere respektiert, der wird selbst respektiert.'",sSrc:"من يحترم الآخرين يُحترَم. هذه البصيرة خارجة عن الزمن."},
         {type:"match",pairs:[
-    {trg:"Erkenntnis",src:"insight/realization"},
-    {trg:"Weltanschauung",src:"worldview"},
-    {trg:"Zusammenleben",src:"coexistence"},
-    {trg:"Menschenwürde",src:"human dignity"}
+    {trg:"Erkenntnis",src:"إدراك"},
+    {trg:"Weltanschauung",src:"نظرة للعالم"},
+    {trg:"Zusammenleben",src:"تعايش"},
+    {trg:"Menschenwürde",src:"كرامة الإنسان"}
 ]},
         {type:"mc",q:"Was bedeutet 'sich assimilieren' im Vergleich zu 'sich integrieren'?",opts:[
     "Beide sind bedeutungsgleich: man wird Teil einer Gesellschaft",

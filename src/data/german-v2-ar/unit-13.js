@@ -100,12 +100,12 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"tip",title:"Das deutsche -in-Muster",text:"كل مهنة مذكرة لها صيغة مؤنثة: أضف -in.\n\nLehrer / Lehrerin (معلم/معلمة)\nIngenieur / Ingenieurin (مهندس/مهندسة)\nArchitekt / Architektin (معماري/معمارية)\nMechaniker / Mechanikerin (ميكانيكي/ميكانيكية)\n\nالجمع يُؤنّث أيضاً:\nLehrerinnen، Architektinnen\n\nالألمانية الحديثة تستخدم صيغاً محايدة بشكل متزايد:\nArchitekt*innen أو Ingenieur:innen\n\nستصادف كل الأشكال في إعلانات الوظائف والوثائق الرسمية.",deepDive:{title:"N-Deklination bei Berufen",text:"بعض أسماء المهن المذكرة تتبع الإعراب بالنون (n-Deklination). تُضاف -n أو -en في جميع الحالات ما عدا المرفوع المفرد.\n\nder Architekt, den Architekten, dem Architekten\nder Kandidat, den Kandidaten, dem Kandidaten\nder Praktikant, den Praktikanten, dem Praktikanten\n\nمؤشرات: الأسماء المذكرة المنتهية بـ -ent، -ant، -ist، -at، أو -e غالباً تتبع هذا النمط."}},
         {type:"mc",q:"A female engineer in German is...",opts:["Ingenieur","Architektin","Ingenieurin","Mechanikerin"],ans:"Ingenieurin",hint:"خذ الكلمة المذكرة لمهنة المهندس وأضف اللاحقة المؤنثة."},
         {type:"match",pairs:[
-    {trg:"Abitur",src:"high school exam"},
-    {trg:"Lehre",src:"apprenticeship"},
-    {trg:"Diplom",src:"university degree"},
-    {trg:"Zertifikat",src:"certificate"},
-    {trg:"Abschluss",src:"degree/completion"},
-    {trg:"Fortbildung",src:"continuing education"}
+    {trg:"Abitur",src:"امتحان الثانوية"},
+    {trg:"Lehre",src:"تدريب مهني"},
+    {trg:"Diplom",src:"شهادة جامعية"},
+    {trg:"Zertifikat",src:"شهادة"},
+    {trg:"Abschluss",src:"درجة / إنجاز"},
+    {trg:"Fortbildung",src:"تعليم مستمر"}
 ]},
         {type:"fb",s:"Nach dem Studium hat sie einen {1} in Informatik.",a:["Abschluss"],opts:["Abschluss","Anfang","Lehrling","Praktikant"],hint:"الكلمة التي تعني إنهاء تعليمك، حرفياً 'إغلاق.'",sSrc:"بعد دراستها حصلت على شهادة في علوم الحاسوب."},
         {type:"mc",q:"Weiterbildung means...",opts:["university degree","continuing education","apprenticeship","job interview"],ans:"continuing education",hint:"قسّم الكلمة المركبة إلى جزأيها: أحدهما يعني الاستمرار، والآخر يشير إلى تطوير المعرفة والمهارات."},
@@ -148,12 +148,12 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"teach",trg:"offiziell",src:"رسمي",pos:"adj",gender:null,note:"من الفرنسية 'officiel' من اللاتينية 'officium.'\nالتشديد على المقطع الأخير: off-ih-tsee-ELL.",example:"A: Ist das ein offizielles Dokument?\nB: Ja, mit Stempel und Unterschrift.\nA: Gut. Wir brauchen offizielle Unterlagen.\nB: Hier sind alle offiziellen Papiere.",exampleSrc:"أ: هل هذه وثيقة رسمية؟\nب: نعم، بختم وتوقيع.\nأ: جيد. نحتاج وثائق رسمية.\nب: ها هي جميع الأوراق الرسمية.",funFact:"تُنطق 'off-ih-tsee-ELL' بتشديد على المقطع الأخير. اقترضتها الألمانية بالنطق الفرنسي. 'Ein offizielles Dokument' (وثيقة رسمية)."},
         {type:"mc",q:"Welches Wort bedeutet 'recommendation' in a professional context?",opts:["Bedingung","Beschäftigung","Empfehlung","Angabe"],ans:"Empfehlung",hint:"من 'empfehlen' (يوصي). خطاب من مديرك السابق."},
         {type:"match",pairs:[
-    {trg:"Angabe",src:"information/detail"},
-    {trg:"Bericht",src:"report"},
-    {trg:"Bereich",src:"field/area"},
-    {trg:"Beschäftigung",src:"employment"},
-    {trg:"Bedarf",src:"need/demand"},
-    {trg:"Empfehlung",src:"recommendation"}
+    {trg:"Angabe",src:"معلومة / تفصيل"},
+    {trg:"Bericht",src:"تقرير"},
+    {trg:"Bereich",src:"مجال"},
+    {trg:"Beschäftigung",src:"توظيف"},
+    {trg:"Bedarf",src:"حاجة / طلب"},
+    {trg:"Empfehlung",src:"توصية"}
 ]},
         {type:"fb",s:"Wie ist Ihr {1}? Ledig oder verheiratet?",a:["Personenstand"],opts:["Personenstand","Personal","Personalie","Bereich"],hint:"الاسم المركب للحالة الاجتماعية في السيرة الذاتية. Personen + Stand.",sSrc:"ما حالتك الاجتماعية؟ أعزب أم متزوج؟"},
         {type:"mc",q:"Was bedeutet 'der Bedarf' in einem beruflichen Kontext?",opts:["die Angabe","die Bedingung","der Mangel","die Nachfrage"],ans:"die Nachfrage",hint:"فكّر فيما تحتاجه شركة. 'Bei Bedarf' تعني 'عند الحاجة.'"},
@@ -316,12 +316,12 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"mc",q:"Lebenslauf: 'Ich arbeitete bei Siemens.' Anschreiben: 'Ich würde gern wieder im Ingenieurbereich arbeiten.' Welche Zeitformen?",opts:["Beides Konjunktiv II","Beides Präteritum","Präteritum, dann Konjunktiv II","Präsens, dann Präteritum"],ans:"Präteritum, dann Konjunktiv II",hint:"السيرة الذاتية تصف الماضي. الخطاب يعبّر عن أمنية مؤدبة للمستقبل."},
         {type:"drag_fill",s:"Ich {1} mich sehr {2}, von Ihnen zu hören.",blanks:{"1":"würde","2":"freuen"},pool:["würde","freuen","wurde","gefreut","habe","arbeiten"],hint:"جملة ختامية مؤدبة في خطاب التقديم. 'سأكون' + 'مسروراً.'",sSrc:"سأكون مسروراً جداً بالسماع منكم."},
         {type:"match",pairs:[
-    {trg:"Vollzeit",src:"full-time"},
-    {trg:"Teilzeit",src:"part-time"},
-    {trg:"Aushilfe",src:"temporary worker"},
-    {trg:"Praktikant",src:"intern"},
-    {trg:"Angestellte",src:"employee"},
-    {trg:"Meister",src:"master craftsman"}
+    {trg:"Vollzeit",src:"دوام كامل"},
+    {trg:"Teilzeit",src:"دوام جزئي"},
+    {trg:"Aushilfe",src:"عامل مؤقّت"},
+    {trg:"Praktikant",src:"متدرّب"},
+    {trg:"Angestellte",src:"موظّف"},
+    {trg:"Meister",src:"حِرَفي ماهر"}
 ]},
         {type:"story",speaker:"yilmaz",mood:"thoughtful",art:"de-vhs-office-desk",trg:"Dein Anschreiben klingt jetzt professionell. 'Ich würde mich freuen.' Perfekt. Aber morgen üben wir das Gespräch. Das wird der schwierige Teil.",src:"خطاب تقديمك يبدو احترافياً الآن. 'سأكون مسروراً.' ممتاز. لكن غداً نتدرب على المقابلة. هذا سيكون الجزء الصعب."},
         {type:"fb",s:"Die {1} (plural) sind die Experten auf diesem Gebiet.",a:["Fachleute"],opts:["Fachleute","Fachmann","Fachfrau","Fachmänner"],hint:"فكّر في معنى الكلمة.",sSrc:"The experts are the specialists in this field."},
@@ -348,12 +348,12 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"teach",trg:"das Mitglied",src:"العضو",pos:"noun",gender:"n",note:"اسم محايد. Mit (مع) + Glied (عضو/طرف).\nيوجد 600,000 Verein مسجّل في ألمانيا.",example:"A: Sind Sie Mitglied in einem Verein?\nB: Ja, im Sportverein.\nA: Wie viele Mitglieder hat der Verein?\nB: Etwa dreihundert.",exampleSrc:"أ: هل أنت عضو في نادٍ؟\nب: نعم، في نادٍ رياضي.\nأ: كم عدد أعضاء النادي؟\nب: حوالي ثلاثمئة.",funFact:"الألمان يحبون عضوية الأندية: 'Vereinsmitglied' (عضو نادٍ). يوجد 600,000 Verein مسجّل في ألمانيا. Das Mitglied محايد."},
         {type:"teach",trg:"die Visitenkarte",src:"بطاقة العمل",pos:"noun",gender:"f",note:"اسم مؤنث. Visite (زيارة) + Karte (بطاقة).\nما زالت ممارسة معيارية في فعاليات التواصل المهني.",example:"A: Haben Sie eine Visitenkarte?\nB: Ja, hier bitte.\nA: Danke. Ich melde mich bei Ihnen.\nB: Gern. Meine E-Mail steht auf der Karte.",exampleSrc:"أ: هل لديك بطاقة عمل؟\nب: نعم، تفضل.\nأ: شكراً. سأتواصل معك.\nب: بكل سرور. بريدي الإلكتروني على البطاقة.",funFact:"في ثقافة الأعمال الألمانية، تبادل بطاقات العمل ما زال ممارسة معيارية في الاجتماعات وفعاليات التواصل. البدائل الرقمية تنمو لكن الورق يصمد."},
         {type:"match",pairs:[
-    {trg:"Experte",src:"expert"},
-    {trg:"Spezialistin",src:"specialist (female)"},
-    {trg:"Unternehmer",src:"entrepreneur"},
-    {trg:"Kandidat",src:"candidate"},
-    {trg:"Mitglied",src:"member"},
-    {trg:"Visitenkarte",src:"business card"}
+    {trg:"Experte",src:"خبير"},
+    {trg:"Spezialistin",src:"أخصائية"},
+    {trg:"Unternehmer",src:"رائد أعمال"},
+    {trg:"Kandidat",src:"مرشّح"},
+    {trg:"Mitglied",src:"عضو"},
+    {trg:"Visitenkarte",src:"بطاقة عمل"}
 ]},
         {type:"mc",q:"Welches Wort beschreibt eine weibliche Unternehmerin?",opts:["die Unternehmung","die Unternehmerin","der Unternehmer","das Unternehmen"],ans:"die Unternehmerin",hint:"الصيغة المؤنثة تضيف -in للاسم المذكر. نفس النمط كـ Spezialist/Spezialistin."},
         {type:"fb",s:"Haben Sie eine {1}? Hier ist meine E-Mail-Adresse.",a:["Visitenkarte"],opts:["Visitenkarte","Mitglied","Kandidat","Wirtschaft"],hint:"بطاقة صغيرة تُتبادل في فعاليات التواصل المهني. ما زالت ممارسة معيارية في ألمانيا.",sSrc:"هل لديك بطاقة عمل؟ ها هو عنوان بريدي الإلكتروني."}
@@ -396,12 +396,12 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"mc",q:"Verumius sagt: 'Ich studierte in Istanbul und könnte Ihre Kommunikation verbessern.' Welche Zeitformen?",opts:["Beides Konjunktiv II","Beides Präteritum","Präsens + Konjunktiv II","Präteritum + Konjunktiv II"],ans:"Präteritum + Konjunktiv II",hint:"الفعل الأول يصف الماضي. والثاني يعبّر عن إمكانية مؤدبة."},
         {type:"drag_fill",s:"{1} Sie mir bitte {2}, was genau die Stelle beinhaltet?",blanks:{"1":"Könnten","2":"sagen"},pool:["Könnten","sagen","Können","gesagt","Sollten","erklären"],hint:"سؤال مقابلة مؤدب: 'هل يمكنكم إخباري...' Konjunktiv II مساعد + مصدر.",sSrc:"هل يمكنكم إخباري بما تتضمنه الوظيفة بالضبط؟"},
         {type:"match",pairs:[
-    {trg:"Voraussetzung",src:"prerequisite"},
-    {trg:"Verantwortung",src:"responsibility"},
+    {trg:"Voraussetzung",src:"شرط مسبق"},
+    {trg:"Verantwortung",src:"مسؤولية"},
     {trg:"Wirtschaft",src:"الاقتصاد"},
-    {trg:"ausgezeichnet",src:"excellent"},
-    {trg:"geeignet",src:"suitable"},
-    {trg:"fließend",src:"fluent"}
+    {trg:"ausgezeichnet",src:"ممتاز"},
+    {trg:"geeignet",src:"مناسب"},
+    {trg:"fließend",src:"طليق"}
 ]},
         {type:"fb",s:"Wir {1} ab nächstem Monat drei neue Mitarbeiter ein.",a:["stellen"],opts:["stellen","arbeiten","einstellen","machen"],hint:"فعل منفصل بمعنى يوظّف. السابقة 'ein' موجودة بالفعل في النهاية.",sSrc:"سنوظّف ثلاثة موظفين جدد بدءاً من الشهر القادم."},
         {type:"story",speaker:"yilmaz",mood:"satisfied",art:"de-vhs-classroom-interview",trg:"Verumius. Du hast dich gut geschlagen. Deine Sprache war höflich, deine Antworten klar. Aber vergiss nicht: Augenkontakt. Immer Augenkontakt.",src:"فيروميوس. أبليت حسناً. لغتك كانت مؤدبة، إجاباتك واضحة. لكن لا تنسَ: التواصل البصري. دائماً التواصل البصري."}
@@ -440,12 +440,12 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"mc",q:"Verumius fragt: 'Dürfte ich noch eine Frage stellen?' und Yilmaz antwortet: 'Sie könnten auch nach dem Gehalt fragen.' Beide Sätze benutzen...",opts:["Imperativ der Modalverben","Präteritum der Modalverben","Indikativ der Modalverben","Konjunktiv II der Modalverben"],ans:"Konjunktiv II der Modalverben",hint:"كل من dürfte و könnten هما نسختان ألطف وأكثر أدباً من أفعالهما المساعدة الأصلية. أي صيغة نحوية تنتج هذا التلطيف؟"},
         {type:"drag_fill",s:"Ich {1} mich auf die Stelle und {2} gern mehr erfahren.",blanks:{"1":"bewerbe","2":"würde"},pool:["bewerbe","würde","bewarb","will","könnte","muss"],hint:"المضارع لما تفعله الآن، Konjunktiv II للأمنية المؤدبة.",sSrc:"أتقدم للوظيفة وأودّ معرفة المزيد."},
         {type:"match",pairs:[
-    {trg:"ablehnen",src:"to reject"},
-    {trg:"annehmen",src:"to accept"},
-    {trg:"absagen",src:"to cancel"},
-    {trg:"auswählen",src:"to select"},
-    {trg:"auffordern",src:"to request"},
-    {trg:"ausbilden",src:"to train"}
+    {trg:"ablehnen",src:"يرفض"},
+    {trg:"annehmen",src:"يقبل"},
+    {trg:"absagen",src:"يلغي"},
+    {trg:"auswählen",src:"يختار"},
+    {trg:"auffordern",src:"يطلب"},
+    {trg:"ausbilden",src:"يتدرّب"}
 ]},
         {type:"mc",q:"Lebenslauf: 'Ich arbeitete bei BMW.' Anschreiben: 'Ich könnte Ihre Kommunikation verbessern.' Gespräch: 'Ich würde mich über die Stelle freuen.' Welche Konstrukte erscheinen der Reihe nach?",opts:[
     "Alles Konjunktiv II",
@@ -496,12 +496,12 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"mc",q:"'Dürfte ich Sie etwas fragen?' Welches Modalverb steht im Konjunktiv II?",opts:["sollen","müssen","können","dürfen"],ans:"dürfen",hint:"السؤال 'Dürfte ich Sie etwas fragen?' طلب إذن لطيف جداً. من أي فعل مساعد أساسي تُشتق 'dürfte'؟"},
         {type:"drag_fill",s:"Ich {1} bei Siemens und {2} gern wieder dort {3}.",blanks:{"1":"arbeitete","2":"würde","3":"arbeiten"},pool:["arbeitete","würde","arbeiten","arbeite","wurde","gearbeitet"],hint:"الفراغ الأول: الماضي البسيط لتاريخ السيرة الذاتية. الفراغ الثاني: تركيب أمنية مؤدب باستخدام فعل مساعد يستدعي المصدر في النهاية.",sSrc:"عملت في سيمنز وأودّ العمل هناك مجدداً بكل سرور."},
         {type:"match",pairs:[
-    {trg:"Muttersprache",src:"mother tongue"},
-    {trg:"Fremdsprache",src:"foreign language"},
-    {trg:"Zweitsprache",src:"second language"},
-    {trg:"fließend",src:"fluent"},
-    {trg:"Anbieter",src:"provider"},
-    {trg:"Beratung",src:"consulting"}
+    {trg:"Muttersprache",src:"لغة أمّ"},
+    {trg:"Fremdsprache",src:"لغة أجنبية"},
+    {trg:"Zweitsprache",src:"لغة ثانية"},
+    {trg:"fließend",src:"طليق"},
+    {trg:"Anbieter",src:"مزوّد"},
+    {trg:"Beratung",src:"استشارات"}
 ]},
         {type:"mc",q:"Verumius will schreiben: 'Ich kann Ihr Team verstärken, weil ich drei Sprachen spreche.' Wie macht er den Satz höflicher?",opts:[
     "Ich muss Ihr Team verstärken, weil ich drei Sprachen spreche",
@@ -549,12 +549,12 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"mc",q:"Welches Verb bedeutet 'to announce' oder 'to make known'?",opts:["begleiten","bekanntgeben","besorgen","benötigen"],ans:"bekanntgeben",hint:"فعل منفصل يجمع بين 'bekannt' (معروف) و 'geben' (يعطي)."},
         {type:"fb",s:"Die Stelle {1} mindestens drei Jahre Erfahrung.",a:["erfordert"],opts:["erfordert","begleitet","besorgt","anwendet"],hint:"فعل رسمي بمعنى يتطلب. غير منفصل، بالسابقة er-.",sSrc:"الوظيفة تتطلب ثلاث سنوات خبرة على الأقل."},
         {type:"match",pairs:[
-    {trg:"Mühe",src:"effort"},
-    {trg:"ansprechen",src:"to address/bring up"},
-    {trg:"anwenden",src:"to apply/use"},
-    {trg:"begleiten",src:"to accompany"},
-    {trg:"benötigen",src:"to require"},
-    {trg:"beweisen",src:"to prove"}
+    {trg:"Mühe",src:"جهد"},
+    {trg:"ansprechen",src:"يطرح"},
+    {trg:"anwenden",src:"يطبّق / يستخدم"},
+    {trg:"begleiten",src:"يرافق"},
+    {trg:"benötigen",src:"يتطلّب"},
+    {trg:"beweisen",src:"يُثبت"}
 ]}
       ]},
 // ─── L17: Formell und informell ───
@@ -589,9 +589,9 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"match",pairs:[
     {trg:"Bewerbung",src:"طلب التوظيف"},
     {trg:"Lebenslauf",src:"السيرة الذاتية"},
-    {trg:"Vorstellungsgespräch",src:"job interview"},
-    {trg:"Kündigung",src:"termination"},
-    {trg:"Mühe",src:"effort"},
+    {trg:"Vorstellungsgespräch",src:"مقابلة عمل"},
+    {trg:"Kündigung",src:"إنهاء / فسخ"},
+    {trg:"Mühe",src:"جهد"},
     {trg:"Erfolg",src:"النجاح"}
 ]},
         {type:"mc",q:"Lukas schreibt: 'Alter! Krass!' Die Firma schreibt: 'Sehr geehrter Herr Verumius.' Was zeigt dieser Kontrast?",opts:[

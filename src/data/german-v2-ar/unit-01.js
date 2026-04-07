@@ -549,7 +549,7 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
         {type:"teach",trg:"gültig",src:"صالح / ساري المفعول",pos:"adj",gender:null,note:"للتذاكر والوثائق والتصاريح. العكس: ungültig (غير صالح).",example:"A: Ist dein Ticket noch gültig?\nB: Ja, es ist noch gültig.",exampleSrc:"A: هل تذكرتك لا تزال صالحة؟\nB: نعم، لا تزال صالحة.",funFact:"ستجد gültig على كل تذكرة قطار وبطاقة متحف في ألمانيا."},
         {type:"mc",q:"كيف تقول 'ستة عشر' بالألمانية؟",opts:["sechzehn","siebzehn","fünfzehn","achtzehn"],ans:"sechzehn",hint:"sechs تفقد s- الأخيرة قبل zehn-."},
         {type:"fb",s:"Ein Jahr hat {1} Monate.",a:["zwölf"],opts:["zwölf","elf","dreizehn","zehn"],hint:"فكر في سنة التقويم.",sSrc:"السنة فيها اثنا عشر شهرًا."},
-        {type:"match",pairs:[{trg:"elf",src:"11"},{trg:"vierzehn",src:"14"},{trg:"neunzehn",src:"19"},{trg:"sechs",src:"6"},{trg:"zwölf",src:"12"}]},
+        {type:"match",pairs:[{trg:"elf",src:"١١"},{trg:"vierzehn",src:"١٤"},{trg:"neunzehn",src:"١٩"},{trg:"sechs",src:"٦"},{trg:"zwölf",src:"١٢"}]},
         {type:"mc",q:"Welche Zahl ist 'vier + zehn'?",opts:["dreizehn","vierzehn","sechzehn","fünfzehn"],ans:"vierzehn",hint:"أضف الرقم الأساسي مباشرة إلى zehn."}
       ]},
 // ─── L16: Unsere Welt ───

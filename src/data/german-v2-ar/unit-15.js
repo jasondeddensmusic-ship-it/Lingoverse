@@ -77,11 +77,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"mc",q:"Kraftfahrzeug is made of Kraft + Fahrzeug. What does Kraft mean?",opts:["New","Power","Big","Fast"],ans:"Power",hint:"KFZ هي مركبة ___. ما الذي يضيفه العنصر الأول؟"},
         {type:"fb",s:"In der Hamburger Innenstadt gibt es eine große {1}.",a:["Fußgängerzone"],opts:["Fußgängerzone","Einbahnstraße","Ausfahrt","Fahrbahn"],hint:"منطقة يسير فيها المشاة فقط، لا يُسمح للسيارات بالدخول.",sSrc:"في وسط مدينة هامبورغ توجد منطقة مشاة كبيرة."},
         {type:"match",pairs:[
-    {trg:"U-Bahn",src:"subway"},
-    {trg:"Fähre",src:"ferry"},
-    {trg:"Eisenbahn",src:"railway"},
-    {trg:"Motorrad",src:"motorcycle"},
-    {trg:"Tram",src:"streetcar"}
+    {trg:"U-Bahn",src:"مترو"},
+    {trg:"Fähre",src:"عبّارة"},
+    {trg:"Eisenbahn",src:"سكة حديد"},
+    {trg:"Motorrad",src:"دراجة نارية"},
+    {trg:"Tram",src:"ترام"}
 ]},
         {type:"mc",q:"Welcher Artikel ist richtig: ___ Kraftfahrzeug?",opts:["die","der","ein","das"],ans:"das",hint:"في الأسماء المركبة، العنصر الأخير هو الذي يحدد المقالة. فارتسويغ مذكر محايد."},
         {type:"drag_fill",s:"Nehmen Sie die nächste {1} auf der rechten {2}.",blanks:{"1":"Ausfahrt","2":"Spur"},pool:["Ausfahrt","Spur","Einfahrt","Kurve","Linie","Zone"],hint:"خذ المخرج التالي في الحارة اليمنى. مصطلحان للطرق والسريع.",sSrc:"خذ المخرج التالي في الحارة اليمنى."},
@@ -204,11 +204,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"mc",q:"'Der Name DES ... .' How does 'Herr' look in genitive?",opts:["des Herres","des Herren","des Herrn","des Herrs"],ans:"des Herrn",hint:"Herr تصريف نوني. تأخذ -n في جميع حالات الإعراب عدا حالة الرفع."},
         {type:"drag_fill",s:"Der Titel {1} {2} ist sehr lang.",blanks:{"1":"des","2":"Kollegen"},pool:["des","der","dem","Kollegen","Kollege","Kolleges"],hint:"Kollege مذكر وتصريف نوني. أداة الإضافة للمذكر مع لاحقة التصريف النوني.",sSrc:"لقب الزميل طويل جداً."},
         {type:"match",pairs:[
-    {trg:"des Mannes",src:"of the man"},
-    {trg:"der Frau",src:"of the woman"},
-    {trg:"des Kindes",src:"of the child"},
-    {trg:"der Kinder",src:"of the children"},
-    {trg:"des Kollegen",src:"of the colleague"}
+    {trg:"des Mannes",src:"الرجل (مضاف إليه)"},
+    {trg:"der Frau",src:"المرأة (مضاف إليه)"},
+    {trg:"des Kindes",src:"الطفل (مضاف إليه)"},
+    {trg:"der Kinder",src:"الأطفال (مضاف إليه)"},
+    {trg:"des Kollegen",src:"الزميل (مضاف إليه)"}
 ]},
         {type:"mc",q:"Auf der Autobahn gibt es einen langen ...",opts:["Umtausch","Stau","Salon","Halt"],ans:"Stau",hint:"ما الذي يتشكل عندما يكون هناك عدد كبير جداً من السيارات على الطريق في آنٍ واحد؟"},
         {type:"mc",q:"Was bedeutet 'die Tankstelle'?",opts:["the object / item","the right of way","the breakdown","the gas station"],ans:"the gas station",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -256,11 +256,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"mc",q:"In Hamburg, Karotten are also called ...",opts:["Gewürze","Kartoffeln","Rüben","Möhren"],ans:"Möhren",hint:"كلمة لهجة شمال ألمانيا للجزر، مذكورة في البطاقة التعليمية."},
         {type:"drag_fill",s:"Während {1} {2} bestellen wir die Nachspeise.",blanks:{"1":"des","2":"Essens"},pool:["des","der","dem","Essens","Essen","Esse"],hint:"Während تستوجب حالة الإضافة. Essen محايد: des + -(e)ns.",sSrc:"نطلب الحلوى أثناء الوجبة."},
         {type:"match",pairs:[
-    {trg:"Vorspeise",src:"appetizer"},
-    {trg:"Nachspeise",src:"dessert"},
-    {trg:"Braten",src:"roast"},
-    {trg:"Hackfleisch",src:"ground meat"},
-    {trg:"Gewürz",src:"spice"}
+    {trg:"Vorspeise",src:"مقبّلات"},
+    {trg:"Nachspeise",src:"حلوى"},
+    {trg:"Braten",src:"شواء"},
+    {trg:"Hackfleisch",src:"لحم مفروم"},
+    {trg:"Gewürz",src:"بهار"}
 ]},
         {type:"story",speaker:"verumius",mood:"satisfied",art:"de-ham-restaurant-harbor",trg:"Das Fischbrötchen war lecker. Und die Kollegin sagt Möhre statt Karotte. Jede Region hat ihre eigene Sprache.",src:"كان ساندويتش السمك لذيذاً. والزميل يقول موهره بدلاً من كاروته. لكل منطقة لغتها الخاصة."},
         {type:"mc",q:"Was bedeutet 'die Limonade'?",opts:["the carrot","the dining car","the dish / food","the lemonade / soft drink"],ans:"the lemonade / soft drink",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -293,10 +293,10 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"teach",trg:"die Gaststätte",src:"المطعم",pos:"noun",gender:"f",note:"Gast + Stätte (مكان). المصطلح القانوني الرسمي للمنشآت التي تُقدّم الطعام.",example:"A: Ist das ein Restaurant oder eine Gaststätte?\nB: Offiziell ist alles eine Gaststätte.\nA: Auch McDonald's?\nB: Ja, gesetzlich gesehen schon!",exampleSrc:"أ: هل هذا مطعم أم غاسشتيتة؟\nب: رسمياً كل شيء غاسشتيتة.\nأ: حتى ماكدونالدز؟\nب: نعم، من الناحية القانونية!",funFact:"في نماذج الضرائب وتراخيص الأعمال، كل مطعم هو 'Gaststätte' رسمياً. الكلمة تجسّد الألمانية البيروقراطية في أبهى صورها."},
         {type:"teach",trg:"das Kaffeehaus",src:"المقهى",pos:"noun",gender:"n",note:"Kaffee + Haus. فيينا جعلت الKaffeehaus مشهوراً عالمياً.",example:"A: Gehen wir ins Kaffeehaus?\nB: Hamburg hat tolle Kaffeehäuser.\nA: Hamburg und Kaffee?\nB: Ja! Deutschlands erstes Kaffeehaus war hier, 1677.",exampleSrc:"أ: هل نذهب إلى المقهى؟\nب: هامبورغ لديها مقاهٍ رائعة.\nأ: هامبورغ والقهوة؟\nب: نعم! أول مقهى في ألمانيا كان هنا عام 1677.",funFact:"جعلت فيينا الKaffeehaus مشهوراً عالمياً، لكن هامبورغ تدّعي أنها أول مدينة أسّسته في ألمانيا (1677). ثقافة القهوة متجذّرة في الشمال. هامبورغ لا تزال مركز تجارة القهوة في ألمانيا."},
         {type:"match",pairs:[
-    {trg:"die Hütte",src:"the cabin/hut"},
-    {trg:"die Burg",src:"the castle"},
-    {trg:"das Hallenbad",src:"the indoor pool"},
-    {trg:"das Gasthaus",src:"the inn"}
+    {trg:"die Hütte",src:"الكوخ"},
+    {trg:"die Burg",src:"القلعة"},
+    {trg:"das Hallenbad",src:"المسبح الداخلي"},
+    {trg:"das Gasthaus",src:"النُزُل"}
 ]},
         {type:"mc",q:"Was ist der Unterschied zwischen 'Gasthaus' und 'Gaststätte'?",opts:[
     "Gasthaus hat auch Zimmer, Gaststätte nur Essen",
@@ -328,11 +328,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"mc",q:"Verumius nahm die U-Bahn ___ des Taxis.",opts:["trotz","innerhalb","statt","während"],ans:"statt",hint:"اختار مترو الأنفاق بدلاً من سيارة الأجرة. ما حرف الجر الذي يعني 'بدلاً من'؟"},
         {type:"drag_fill",s:"{1} {2} Tages hat Verumius viel erlebt.",blanks:{"1":"Innerhalb","2":"eines"},pool:["Innerhalb","Während","eines","des","einem","ein"],hint:"في يوم واحد. حرف جر للإضافة + أداة الإضافة النكرة للمذكر والمحايد.",sSrc:"في يوم واحد عاش فيروميوس الكثير."},
         {type:"match",pairs:[
-    {trg:"während",src:"during"},
-    {trg:"wegen",src:"because of"},
-    {trg:"trotz",src:"despite"},
-    {trg:"statt",src:"instead of"},
-    {trg:"innerhalb",src:"within"}
+    {trg:"während",src:"أثناء"},
+    {trg:"wegen",src:"بسبب"},
+    {trg:"trotz",src:"رغم"},
+    {trg:"statt",src:"بدلاً من"},
+    {trg:"innerhalb",src:"ضمن"}
 ]},
         {type:"story",speaker:"narrator",mood:"serene",art:"de-ham-elbphilharmonie-night",trg:"Die Lichter der Elbphilharmonie spiegeln sich im Wasser. Verumius geht langsam die Stufen hinunter, zurück in die Stadt.",src:"تنعكس أضواء إلبفيلهارموني على الماء. يمشي فيروميوس ببطء على الدرج، عائداً إلى المدينة."},
         {type:"story",speaker:"verumius",mood:"content",art:"de-ham-hafencity-night",trg:"Während eines einzigen Tages habe ich mehr erlebt als während einer ganzen Woche in Berlin. Hamburg, du bist besonders.",src:"في يوم واحد عشت أكثر مما عشته طوال أسبوع في برلين. يا هامبورغ، أنتِ مميزة."}
@@ -382,11 +382,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"drag_fill",s:"{1} {2} Reise lernte Verumius viel über Hamburg.",blanks:{"1":"Während","2":"der"},pool:["Während","Trotz","der","des","dem","die"],hint:"خلال الرحلة. Reise مؤنث. ما أداة الإضافة للمؤنث؟",sSrc:"تعلّم فيروميوس الكثير عن هامبورغ خلال الرحلة."},
         {type:"fb",s:"Die Rundfahrt durch den Hafen {1} Stadt war wunderbar.",a:["der"],opts:["der","die","des","dem"],hint:"Stadt مؤنث. الإضافة للمؤنث: تتحول die إلى ماذا؟",sSrc:"كانت الجولة في ميناء المدينة رائعة."},
         {type:"match",pairs:[
-    {trg:"Während des Fluges",src:"During the flight"},
-    {trg:"Wegen des Nebels",src:"Because of the fog"},
-    {trg:"Trotz der Kälte",src:"Despite the cold"},
-    {trg:"Statt des Zuges",src:"Instead of the train"},
-    {trg:"Innerhalb der Stadt",src:"Within the city"}
+    {trg:"Während des Fluges",src:"أثناء الرحلة"},
+    {trg:"Wegen des Nebels",src:"بسبب الضباب"},
+    {trg:"Trotz der Kälte",src:"رغم البرد"},
+    {trg:"Statt des Zuges",src:"بدلاً من القطار"},
+    {trg:"Innerhalb der Stadt",src:"داخل المدينة"}
 ]},
         {type:"mc",q:"Verumius muss tanken. Where does he go?",opts:["Zur Tankstelle","Zum Hallenbad","Zum Fundbüro","Zur Gaststätte"],ans:"Zur Tankstelle",hint:"Tanken تعني التزود بالوقود. أين تحصل على الوقود؟"},
         {type:"drag_fill",s:"{1} des Meetings stellte man Verumius dem {2} vor.",blanks:{"1":"Während","2":"Kollegen"},pool:["Während","Trotz","Kollegen","Kollege","Kolleg","Herrn"],hint:"الفراغ الأول: ما حرف الجر الذي يعني 'خلال'؟ الفراغ الثاني: اسم تصريف نوني في حالة الجر بعد 'dem'.",sSrc:"قُدّم فيروميوس إلى الزميل خلال الاجتماع."},
@@ -425,10 +425,10 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"teach",trg:"voraus",src:"للأمام / مسبقاً",pos:"adv",gender:null,note:"'Im Voraus' = مسبقاً. 'Geradeaus' = مباشرة للأمام.",example:"A: Bitte im Voraus bezahlen.\nB: Okay, wie viel?\nA: 25 Euro.\nB: Hier, bitte.",exampleSrc:"أ: من فضلك ادفع مسبقاً.\nب: حسناً، كم؟\nأ: 25 يورو.\nب: تفضل.",funFact:"'Im Voraus' (مسبقاً) و'voraus' (إلى الأمام) كلمتان أساسيتان. 'Voraussetzung' (شرط مسبق) و'voraussichtlich' (على الأرجح) مبنيتان على نفس الجذر."},
         {type:"teach",trg:"entlang",src:"على طول / بمحاذاة",pos:"prep",gender:null,note:"بعد الاسم + حالة نصب، أو قبل الاسم + حالة جر ثالث/رابع.",example:"A: Gehen Sie die Straße entlang.\nB: Wie weit?\nA: Bis zum Hafen.\nB: Am Ufer entlang?",exampleSrc:"أ: امشِ على طول الشارع.\nب: كم بُعداً؟\nأ: إلى الميناء.\nب: بمحاذاة الضفة؟",funFact:"نحو غير معتاد: 'die Straße entlang' (بعد الاسم، نصب) أو 'entlang der Straße' (قبل الاسم، جر رابع). كلاهما صحيح."},
         {type:"match",pairs:[
-    {trg:"pauschal",src:"all-inclusive"},
-    {trg:"aufwärts",src:"upward"},
-    {trg:"abwärts",src:"downward"},
-    {trg:"quer",src:"across/diagonal"}
+    {trg:"pauschal",src:"شامل"},
+    {trg:"aufwärts",src:"نحو الأعلى"},
+    {trg:"abwärts",src:"نحو الأسفل"},
+    {trg:"quer",src:"بشكل قُطري"}
 ]},
         {type:"mc",q:"'Gehen Sie die Straße entlang bis zum Hafen.' Was bedeutet 'entlang'?",opts:["gegen","weg von","an der Straße weiter","vor der Straße"],ans:"an der Straße weiter",hint:"يصف حرف الجر هذا السير على طول مسار أو طريق في اتجاه واحد."}
       ]},
@@ -457,11 +457,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"mc",q:"In a Swiss cafe, how would you order whipped cream?",opts:["Schlagsahne","Schlagobers","Schlagrahm","Sahne"],ans:"Schlagrahm",hint:"تستخدم سويسرا راهم للقشدة. المخفوقة = شلاغ + راهم."},
         {type:"drag_fill",s:"{1} {2} Aufenthalts in Hamburg besuchte Verumius die Elbphilharmonie.",blanks:{"1":"Während","2":"des"},pool:["Während","Trotz","des","der","dem","eines"],hint:"خلال الإقامة. Aufenthalt مذكر. الإضافة للمذكر: des.",sSrc:"خلال إقامته في هامبورغ زار فيروميوس إلبفيلهارموني."},
         {type:"match",pairs:[
-    {trg:"Sahne (D)",src:"cream"},
-    {trg:"Rahm (CH)",src:"cream"},
-    {trg:"Semmel (A/South)",src:"bread roll"},
-    {trg:"Möhre (North)",src:"carrot"},
-    {trg:"Trottoir (CH)",src:"sidewalk"}
+    {trg:"Sahne (D)",src:"كريمة"},
+    {trg:"Rahm (CH)",src:"كريمة"},
+    {trg:"Semmel (A/South)",src:"خبز صغير"},
+    {trg:"Möhre (North)",src:"جزر"},
+    {trg:"Trottoir (CH)",src:"رصيف"}
 ]}
       ]}
   ]};

@@ -80,10 +80,10 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
         {type:"tip",title:"Der deutsche Vortrag: Struktur",text:"كل عرض تقديمي ألماني يتبع ثلاثة أجزاء:\n\n1. Einleitung (نحو 10%): التحية، تقديم الموضوع، طرح الفكرة الرئيسية\n2. Hauptteil (نحو 80%): تطوير الحجج، تقديم البيانات، إعطاء الأمثلة\n3. Schluss (نحو 10%): التلخيص، شكر الجمهور، فتح باب الأسئلة\n\nالـ Einleitung تجذب الانتباه وتُعلن الهيكل. الـ Hauptteil يُقدّم الأدلة والحجج. الـ Schluss يلخّص ويفتح النقاش.\n\nمن يخرج عن هذا الهيكل يُعدّ غير مستعد.",deepDive:{title:"Vortrag structure in detail",text:"الهيكل الثلاثي الأجزاء غير قابل للتفاوض في الثقافة المهنية الألمانية. الـ Einleitung يُرحّب ويُقدّم الموضوع ويطرح الـ Kernaussage. الـ Hauptteil يطوّر الحجج بالأدلة. الـ Schluss يلخّص ويشكر ويفتح باب الأسئلة. الخروج عن هذا الهيكل يُظهرك غير مستعد. توزيع الوقت: نحو 10-80-10 بالمئة."}},
         {type:"mc",q:"Auf einer deutschen Konferenz heißt die Person, die den Fachvortrag hält...",opts:["Moderator","Zuhörer","Vorsitzender","Referent"],ans:"Referent",hint:"من اللاتينية 'referens'. الخبير الذي يُقدّم تقريراً عن مجاله أمام الجمهور."},
         {type:"match",pairs:[
-    {trg:"Folie",src:"slide"},
-    {trg:"Handout",src:"handout"},
-    {trg:"Diagramm",src:"chart"},
-    {trg:"Flipchart",src:"flipchart"}
+    {trg:"Folie",src:"شريحة عرض"},
+    {trg:"Handout",src:"نشرة"},
+    {trg:"Diagramm",src:"رسم بياني"},
+    {trg:"Flipchart",src:"لوح عرض"}
 ]},
         {type:"fb",s:"Die Referentin erklärte das Thema sehr {1}.",a:["anschaulich"],opts:["anschaulich","praegnant","ausführlich","professionell"],hint:"شرحته بوضوح شديد لدرجة أن الجميع استطاعوا 'رؤيته'. جعل المجرد مرئياً.",sSrc:"شرح المتحدث الموضوع بوضوح كبير."},
         {type:"mc",q:"Ein deutscher Kollege sagt, deine Praesentation ist 'praegnant.' Was bedeutet das?",opts:["concise and to the point","too long and repetitive","needs significantly more detail","quite excellent work"],ans:"concise and to the point",hint:"كلمة مخادعة بين الألمانية والإنجليزية. في الألمانية تصف التواصل المكثّف والمؤثر. ليس ما يوحي به المقابل الإنجليزي."},
@@ -200,10 +200,10 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
 ],ans:"Konditionalsatz (sofern) + Konsekutivsatz (so... dass)",hint:"الجملة تحتوي على بنيتين فرعيتين: إحداهما تعبّر عن شرط مسبق، والأخرى تعبّر عن نتيجة بدرجة كافية."},
         {type:"drag_fill",s:"{1} den Fall, dass neue Daten vorliegen, {2} wir den Bericht überarbeiten.",blanks:{"1":"Gesetzt","2":"müssen"},pool:["Gesetzt","müssen","Obwohl","können","Sofern","werden"],hint:"شرط رسمي جداً: 'بفرض أن...' يذهب الفعل في الجملة الرئيسية إلى الموضع الثاني.",sSrc:"بفرض توفّر بيانات جديدة، يجب علينا مراجعة التقرير."},
         {type:"match",pairs:[
-    {trg:"Einwand",src:"objection"},
-    {trg:"Gegenvorschlag",src:"counterproposal"},
-    {trg:"Konsens",src:"consensus"},
-    {trg:"Kompromiss",src:"compromise"}
+    {trg:"Einwand",src:"اعتراض"},
+    {trg:"Gegenvorschlag",src:"اقتراح مضاد"},
+    {trg:"Konsens",src:"إجماع"},
+    {trg:"Kompromiss",src:"حلّ وسط"}
 ]},
         {type:"mc",q:"Was bedeutet 'konstruktiv'?",opts:["provided that, on the condition that","constructive","factual, objective, on-topic","consensus"],ans:"constructive",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Bitte bleiben Sie {1}.",a:["sachbezogen"],opts:["der Meinungsaustausch","die Podiumsdiskussion","der Konsens","sachbezogen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Please stay on topic."},
@@ -273,10 +273,10 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
 ],ans:"Drei: Konditionalsatz + Konsekutivsatz + Finalsatz",hint:"'Sofern' تُدخل الشرط. 'So... dass' تُعبّر عن النتيجة. 'Um... zu' تُصيغ الغرض."},
         {type:"drag_fill",s:"Ich bereite mich gut vor, {1} meine Kernaussage {2} {3}.",blanks:{"1":"um","2":"zu","3":"unterstreichen"},pool:["um","zu","unterstreichen","damit","unterstrichen","sodass"],hint:"نفس الفاعل: 'Ich' في كلا الجزأين. تركيب المصدر: um + zu + الفعل في النهاية."},
         {type:"match",pairs:[
-    {trg:"schluessig",src:"conclusive/logical"},
-    {trg:"stichhaltig",src:"tenable/valid"},
-    {trg:"treffend",src:"apt/to the point"},
-    {trg:"praxisnah",src:"practice-oriented"}
+    {trg:"schluessig",src:"منطقي"},
+    {trg:"stichhaltig",src:"قابل للدفاع عنه"},
+    {trg:"treffend",src:"في الصميم"},
+    {trg:"praxisnah",src:"عملي التوجّه"}
 ]},
         {type:"mc",q:"Was bedeutet 'fachkundig'?",opts:["guide, manual","expert, knowledgeable","punchline","in keyword form, using bullet points"],ans:"expert, knowledgeable",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Fasse den Vortrag {1} zusammen.",a:["stichwortartig"],opts:["stichwortartig","nahelegen","die Ergebnispraesentation","fachkundig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Summarize the presentation in keyword form."},
@@ -331,10 +331,10 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
 ],ans:"Konditionalsatz + Konsekutivsatz + Finalsatz",hint:"'Sofern' تُدخل الشرط. 'So... dass' تُعبّر عن النتيجة. 'Um... zu' تُصيغ الغرض. Three constructs."},
         {type:"drag_fill",s:"Ich {1} die Ergebnisse {2}, {3} alle den Ablauf verstehen.",blanks:{"1":"fasse","2":"zusammen","3":"damit"},pool:["fasse","zusammen","damit","um","fasste","sodass"],hint:"فعل منفصل يكون بادئته في النهاية. فاعلان مختلفان في الجملتين: المتحدث يتصرف حتى يستفيد الآخرون."},
         {type:"match",pairs:[
-    {trg:"moderieren",src:"to moderate"},
-    {trg:"beitragen",src:"to contribute"},
-    {trg:"vereinbaren",src:"to agree upon"},
-    {trg:"einbeziehen",src:"to include"}
+    {trg:"moderieren",src:"يدير الحوار"},
+    {trg:"beitragen",src:"يساهم"},
+    {trg:"vereinbaren",src:"يتّفق على"},
+    {trg:"einbeziehen",src:"يتضمّن"}
 ]},
         {type:"story",speaker:"narrator",mood:"quiet",art:"de-office-conference",trg:"Verumius setzt sich. Seine Hände zittern leicht. Aber er lächelt. Der Aquädukt steht.",src:"يجلس فيروميوس. يداه ترتجفان قليلاً. لكنه يبتسم. القناة المائية صامدة."},
         {type:"mc",q:"Was bedeutet 'einbeziehen'?",opts:[
@@ -395,10 +395,10 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
 ],ans:"damit = Zweck, so...dass = Ergebnis",hint:"تركيب واحد يُعبّر عن هدف المتحدث (الغرض). والآخر يصف ما حدث فعلاً كنتيجة. أيهما أيهما؟"},
         {type:"drag_fill",s:"{1} die Daten vorliegen, stelle ich sie so dar, {2} alle überzeugt sind, {3} den Vorstand zur Freigabe zu bewegen.",blanks:{"1":"Sofern","2":"dass","3":"um"},pool:["Sofern","dass","um","Damit","sodass","zu"],hint:"ثلاثة تراكيب في جملة واحدة: أداة الشرط الرسمية، وأداة ربط جملة النتيجة، وعلامة الغرض بالمصدر."},
         {type:"match",pairs:[
-    {trg:"demnach",src:"accordingly"},
-    {trg:"daraufhin",src:"thereupon"},
-    {trg:"diesbezüglich",src:"regarding this"},
-    {trg:"ebenso",src:"likewise"}
+    {trg:"demnach",src:"وفقاً لذلك"},
+    {trg:"daraufhin",src:"على إثر ذلك"},
+    {trg:"diesbezüglich",src:"بخصوص هذا"},
+    {trg:"ebenso",src:"كذلك"}
 ]},
         {type:"mc",q:"'Gesetzt den Fall, dass neue Mitarbeiter kommen, müssen wir den Workshop so planen, dass alle profitieren, um eine gute Einarbeitung sicherzustellen.' Wie viele Satztypen?",opts:[
     "Zwei: Konditionalsatz und Konsekutivsatz ohne Final",
@@ -444,9 +444,9 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
         {type:"teach",trg:"dadurch dass",src:"بسبب أن، من خلال أن",pos:"conj",gender:null,note:"رابط من كلمتين. Dadurch (من خلال ذلك) + dass.\nأكثر صراحة من indem.",example:"A: Dadurch, dass er gut vorbereitet war, überzeugte er.\nB: Dadurch, dass alle beitrugen, war das Ergebnis gut.\nA: Erfolg entsteht dadurch, dass man zusammenarbeitet.\nB: Dadurch, dass wir üben, werden wir besser.",exampleSrc:"أ: بسبب أنه كان مستعداً جيداً، أقنع الجمهور.\nب: من خلال مساهمة الجميع، كانت النتيجة جيدة.\nأ: النجاح ينشأ من خلال العمل المشترك.\nب: من خلال ممارستنا نتحسن.",funFact:"Dadurch (من خلال ذلك) + dass. أكثر صراحة من «indem». يُؤكد على الوسيلة أو السبب. رابط من كلمتين يُقدّم جملة تابعة. «Dadurch, dass er gut vorbereitet war, überzeugte er» يضع السبب في الصدارة."},
         {type:"teach",trg:"mittels",src:"بواسطة، عبر",pos:"prep",gender:null,note:"حرف جر مضاف إليه. Mittel (وسيلة) + -s.\nرسمي ودقيق. يُستخدم في الكتابة التقنية.",example:"A: Mittels eines Diagramms erklärte er die Daten.\nB: Mittels dieser Methode können wir das Problem loesen.\nA: Die Analyse erfolgte mittels statistischer Verfahren.\nB: Mittels Praxisbeispielen wurde das Thema greifbar.",exampleSrc:"أ: بواسطة مخطط بياني شرح البيانات.\nب: عبر هذه الطريقة يمكننا حل المشكلة.\nأ: التحليل أُجري عبر أساليب إحصائية.\nب: بواسطة الأمثلة العملية أصبح الموضوع ملموساً.",funFact:"Mittel (وسيلة) + -s (مضاف إليه). حرف جر مضاف إليه. رسمي ودقيق. «Mittels eines Diagramms» (بواسطة مخطط بياني). يُستخدم في الكتابة التقنية والقانونية. البديل المختصر لـ «mit Hilfe von»."},
         {type:"match",pairs:[
-    {trg:"Ich möchte darauf hinweisen",src:"I would like to point that out"},
-    {trg:"Darf ich kurz einhaken",src:"may I briefly interject"},
-    {trg:"indem",src:"by (doing something)"},
+    {trg:"Ich möchte darauf hinweisen",src:"أودّ أن أشير إلى ذلك"},
+    {trg:"Darf ich kurz einhaken",src:"هل لي أن أعلّق بإيجاز"},
+    {trg:"indem",src:"عن طريق (فعل شيء)"},
     {trg:"mittels",src:"بواسطة"}
 ]}
       ]},
@@ -480,10 +480,10 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
     "Alle Saetze sind Finalsaetze"
 ],ans:"Konditionalsatz + Konsekutivsatz + Finalsatz",hint:"'Vorausgesetzt dass' تُدخل الشرط. 'So... dass' تُعبّر عن النتيجة. 'Um... zu' تُصيغ الغرض."},
         {type:"match",pairs:[
-    {trg:"Gestatten Sie mir",src:"Allow me"},
-    {trg:"Dürfte ich Sie bitten",src:"Might I ask you"},
-    {trg:"Es wäre mir recht",src:"It would suit me"},
-    {trg:"Darf ich kurz einhaken",src:"May I briefly interject"}
+    {trg:"Gestatten Sie mir",src:"اسمح لي"},
+    {trg:"Dürfte ich Sie bitten",src:"هل لي أن أسألك"},
+    {trg:"Es wäre mir recht",src:"يناسبني"},
+    {trg:"Darf ich kurz einhaken",src:"هل لي أن أعلّق بإيجاز"}
 ]},
         {type:"story",speaker:"verumius",mood:"reflective",art:"de-ver-apartment-night",trg:"Später, am Fenster. Die Stadt leuchtet. Irgendwo da draussen wartet der nächsste Vortrag. Aber diesmal weiß er: Er kann das. Auf Deutsch. Auf seine Art.",src:"لاحقاً، عند النافذة. المدينة تتوهج. في مكان ما هناك العرض التقديمي القادم ينتظر. لكن هذه المرة يعرف: يستطيع ذلك. بالألمانية. بطريقته الخاصة."}
       ]}

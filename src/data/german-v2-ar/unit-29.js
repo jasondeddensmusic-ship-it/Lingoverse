@@ -50,10 +50,10 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
     "die Moderatorin seinen Namen gerufen hat"
 ],ans:"er eine Frage auf Deutsch bei einer öffentlichen Debatte stellen will",hint:"إنه يفهم كل شيء. لكن صياغة سؤال علناً بالألمانية تحدٍّ مختلف."},
         {type:"match",pairs:[
-    {trg:"Debatte",src:"debate"},
-    {trg:"Demokratie",src:"democracy"},
+    {trg:"Debatte",src:"نقاش"},
+    {trg:"Demokratie",src:"ديمقراطية"},
     {trg:"Regierung",src:"الحكومة"},
-    {trg:"Bundestag",src:"German parliament"}
+    {trg:"Bundestag",src:"البرلمان الألماني"}
 ]},
         {type:"story",speaker:"narrator",mood:"anticipation",art:"de-ber-community-hall",trg:"Die Moderatorin kündigt eine Pause an. Fünfzehn Minuten. Verumius bleibt sitzen. Er schaut auf seine Notizen. Debatte, Demokratie, Standpunkt, Meinungsverschiedenheit. Die Worte einer Gesellschaft, die streiten kann, ohne sich zu hassen.",src:"يُعلن المُحيّر عن استراحة. خمس عشرة دقيقة. يبقى فيروميوس جالساً. ينظر في ملاحظاته. نقاش، ديمقراطية، وجهة نظر، اختلاف رأي. كلمات مجتمع يستطيع الجدال دون أن يكره بعضه."},
         {type:"mc",q:"Das Thema ist kontrovers, die Meinungen gehen auseinander. Was bedeutet 'kontrovers'?",opts:[
@@ -101,10 +101,10 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
         {type:"tip",title:"Wie ein deutsches Gesetz entsteht",text:"يبدأ مشروع القانون في وزارة أو في البوندستاغ.\n\n1. القراءة الأولى: التقديم في الجلسة العامة\n2. اللجنة: المراجعة التفصيلية والاستماع إلى الخبراء والتعديلات\n3. القراءة الثانية: تقرير اللجنة\n4. القراءة الثالثة: التصويت النهائي\n5. البوندسرات: موافقة الولايات\n6. الرئيس الفيدرالي: التوقيع\n\nثم: 'يُنشر في الجريدة الرسمية الفيدرالية.' قانون ملزم.",deepDive:{title:"The legislative process",text:"ليس كل قانون يحتاج إلى موافقة البوندسرات. قوانين الموافقة (Zustimmungsgesetze) تحتاج إليها. قوانين الاعتراض (Einspruchsgesetze) يمكن تجاوز نقض البوندسرات فيها بأغلبية البوندستاغ. هذا التمييز مهم لأنه يحدد مقدار سلطة الولايات على التشريعات الفيدرالية."}},
         {type:"mc",q:"Bevor ein Gesetzentwurf Gesetz wird, wird er im Detail geprüft von einem...",opts:["Koalition (Bündnis)","Ausschuss (Komitee)","Wahlkampf (Kampagne)","Fraktion (Parlamentsgruppe)"],ans:"Ausschuss (Komitee)",hint:"الهيئة التي تستمع إلى الخبراء وتصوغ التعديلات وتضطلع بالعمل التشريعي الفعلي."},
         {type:"match",pairs:[
-    {trg:"Abgeordnete",src:"member of parliament"},
-    {trg:"Fraktion",src:"parliamentary group"},
-    {trg:"Gesetzentwurf",src:"draft law/bill"},
-    {trg:"Grundgesetz",src:"Basic Law/constitution"}
+    {trg:"Abgeordnete",src:"عضو برلمان"},
+    {trg:"Fraktion",src:"كتلة برلمانية"},
+    {trg:"Gesetzentwurf",src:"مشروع قانون"},
+    {trg:"Grundgesetz",src:"القانون الأساسي / الدستور"}
 ]},
         {type:"fb",s:"Das Parlament hat das neue Gesetz {1}.",a:["verabschiedet"],opts:["verabschiedet","abgelehnt","eingewendet","kritisiert"],hint:"الفعل المستخدم حين تُقرّ هيئة تشريعية قانوناً رسمياً وتُصدره. يعني الانتهاء الرسمي من مرحلة الصياغة.",sSrc:"أقرّ البرلمان القانون الجديد."},
         {type:"mc",q:"'Ich habe Bedenken' ist diplomatischer als 'Ich lehne ab.' Warum?",opts:[
@@ -245,10 +245,10 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
     "Keine der Gruppen hatte Bedenken"
 ],ans:"Beide Gruppen teilten die gleiche Sorge",hint:"sowohl...als auch تعني كلٌّ من...و. شمول الطرفين."},
         {type:"match",pairs:[
-    {trg:"obgleich",src:"although (literary)"},
-    {trg:"selbst wenn",src:"even if (strongest)"},
-    {trg:"nichtsdestotrotz",src:"nevertheless"},
-    {trg:"trotz alledem",src:"despite all that"}
+    {trg:"obgleich",src:"على الرغم من أنّ (أدبي)"},
+    {trg:"selbst wenn",src:"حتى لو (أقوى صيغة)"},
+    {trg:"nichtsdestotrotz",src:"مع ذلك"},
+    {trg:"trotz alledem",src:"رغم كل ذلك"}
 ]},
         {type:"story",speaker:"verumius",mood:"contemplative",art:"de-ber-debate-stage",trg:"Obgleich, wenngleich, selbst wenn, nichtsdestotrotz. Die Sprache der Konzession. Man gibt dem Gegner recht und gewinnt trotzdem. Die eleganteste Form des Widerspruchs.",src:"Obgleich، wenngleich، selbst wenn، nichtsdestotrotz. لغة التنازل. تمنح خصمك نقطة وتنتصر على أي حال. الشكل الأكثر أناقة للتناقض."},
         {type:"fb",s:"Kann man das Argument {1}? Ja, indem man Gegenbeweise vorlegt.",a:["widerlegen"],opts:["widerlegen","begründen","abwägen","einräumen"],hint:"فكّر في معنى الكلمة.",sSrc:"Can the argument be refuted? Yes, by presenting counter-evidence."},
@@ -356,10 +356,10 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
     "Einen formellen Vergleich mit Partizipkonstruktion"
 ],ans:"Einen formellen Vergleich mit Partizipkonstruktion",hint:"'Verglichen' (مقارنةً) + 'mit' (مع). اسم المفعول Partizip II مستخدم كإطار للمقارنة."},
         {type:"match",pairs:[
-    {trg:"im Gegensatz zu",src:"as opposed to"},
-    {trg:"verglichen mit",src:"compared with"},
-    {trg:"genauso wie",src:"just like"},
-    {trg:"anders als",src:"unlike"}
+    {trg:"im Gegensatz zu",src:"على عكس"},
+    {trg:"verglichen mit",src:"مقارنةً بـ"},
+    {trg:"genauso wie",src:"تماماً مثل"},
+    {trg:"anders als",src:"على عكس"}
 ]},
         {type:"story",speaker:"narrator",mood:"electric",art:"de-ber-debate-stage",trg:"Im Saal wird es still. Die Panelisten schauen sich an. Eine Frage aus dem Publikum hat den Ton verändert. Die Moderatorin lächelt. 'Danke. Genau solche Beiträge brauchen wir.' Verumius merkt nicht, dass sie ihn meint.",src:"يخيم الصمت. يتبادل المتحدثون النظرات. سؤال من الجمهور غيّر النبرة. يبتسم المحاور. 'شكراً. هذه بالضبط المساهمات التي نحتاجها.' لا يدرك فيروميوس أنها تعنيه."},
         {type:"fb",s:"Deutschland ist ein {1}. Alle, auch die Regierung, müssen dem Gesetz folgen.",a:["Rechtsstaat"],opts:["Bundestag","Zusammenschluss","Wahlrecht","Rechtsstaat"],hint:"فكّر في معنى الكلمة.",sSrc:"Germany is a state governed by the rule of law. Everyone, including the government, must follow the law."},
@@ -418,10 +418,10 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
 ],ans:"'obgleich die Debatte hitzig war' (Verb am Ende)",hint:"تنتمي هذه الأداة إلى الفئة التي تستوجب وضع الفعل المصرّف في نهاية الجملة التي تستهلها. تحقق من كل خيار لتصحيح موضع الفعل."},
         {type:"drag_fill",s:"{1} man die Minderheit ignoriert, {2} die Demokratie Schaden.",blanks:{"1":"Würde","2":"nähme"},pool:["Würde","nähme","Wird","nimmt","Hätte","genommen"],hint:"جملة شرطية بالفعل أولاً بدون 'wenn'. كلا الفعلين في صيغة Konjunktiv II. لو تجاهل أحد... سيلحق به الضرر."},
         {type:"match",pairs:[
-    {trg:"konservativ",src:"preserving tradition"},
-    {trg:"liberal",src:"pro-freedom/free-market"},
-    {trg:"progressiv",src:"forward-moving reform"},
-    {trg:"reaktionär",src:"wanting to go back"}
+    {trg:"konservativ",src:"الحفاظ على التراث"},
+    {trg:"liberal",src:"مؤيّد للحرية / السوق الحرّة"},
+    {trg:"progressiv",src:"إصلاح تقدّمي"},
+    {trg:"reaktionär",src:"الرغبة في العودة"}
 ]},
         {type:"mc",q:"Welche Reihenfolge strukturiert ein Argument korrekt? 1) These aufstellen. 2) Gegenargument einraeumen. 3) Mit Belegen bekraeftigen.",opts:[
     "Erstens... Zugegebenermassen... Nichtsdestotrotz...",
@@ -486,10 +486,10 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
 ],ans:"Verb-Erst-Konditionalsatz + sowohl...als auch + Konzessivsatz",hint:"حدّد الطبقات النحوية الثلاث: الفعل في الموضع الأول بدون 'wenn'، وزوج ربط شامل، وجملة استدراكية في الختام."},
         {type:"drag_fill",s:"{1} in allem war die Debatte {2} kontrovers, {3} produktiv.",blanks:{"1":"Alles","2":"zwar","3":"aber"},pool:["Alles","zwar","aber","Unter","Obgleich","und"],hint:"ثلاثة فراغات: تعبير تلخيصي، ثم كلمة إقرار، ثم الكلمة التي تُقدّم الحجة المضادة. فكّر في: في المجمل / لا شك أن / غير أن."},
         {type:"match",pairs:[
-    {trg:"Meiner Ansicht nach",src:"In my view"},
-    {trg:"Auf den Punkt gebracht",src:"In a nutshell"},
-    {trg:"Es steht außer Frage",src:"It is beyond question"},
-    {trg:"Alles in allem",src:"All in all"}
+    {trg:"Meiner Ansicht nach",src:"من وجهة نظري"},
+    {trg:"Auf den Punkt gebracht",src:"باختصار"},
+    {trg:"Es steht außer Frage",src:"لا شكّ في ذلك"},
+    {trg:"Alles in allem",src:"بشكل عام"}
 ]},
         {type:"mc",q:"Was bedeutet 'ungeachtet'?",opts:["regardless of, irrespective of","all in all","to polarize","I am of the view that"],ans:"regardless of, irrespective of",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"{1} der Minderheit.",a:["zugunsten"],opts:["ungeachtet","beipflichten","Alles in allem","zugunsten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"In favor of the minority."},

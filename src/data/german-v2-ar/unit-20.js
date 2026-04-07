@@ -36,10 +36,10 @@ const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicheru
         {type:"mc",q:"Verumius hustet, hat Fieber und einen Schnupfen. Welches deutsche Wort beschreibt diese Krankheit?",opts:["Verletzung","Erkältung","Therapie","Operation"],ans:"Erkältung",hint:"هذه الكلمة مشتقة من 'kalt' (بارد) وتصف مرضًا شائعًا."},
         {type:"fb",s:"Im {1} ruft man die Nummer 112 an.",a:["Notfall"],opts:["Notfall","Notruf","Klinik","Kosten"],hint:"أي كلمة مركبة تعني حالة طوارئ؟",sSrc:"في حالة الطوارئ، تتصل بالرقم 112."},
         {type:"match",pairs:[
-    {trg:"Versicherung",src:"insurance"},
-    {trg:"Untersuchung",src:"examination"},
-    {trg:"Notaufnahme",src:"emergency room"},
-    {trg:"Krankenwagen",src:"ambulance"}
+    {trg:"Versicherung",src:"تأمين"},
+    {trg:"Untersuchung",src:"فحص / امتحان"},
+    {trg:"Notaufnahme",src:"غرفة الطوارئ"},
+    {trg:"Krankenwagen",src:"سيارة إسعاف"}
 ]},
         {type:"story",speaker:"narrator",mood:"ominous-comedy",art:"de-ber-kitchen-papers",trg:"Verumius schiebt die Briefe zur Seite. Morgen wird er KD anrufen. KD kennt sich aus. KD ist vom Amt. Und KD hat eine Telefonnummer, die tatsächlich funktioniert.",src:"يدفع فيروميوس الرسائل جانبًا. غدًا سيتصل بـ KD. يعرف KD طريقه جيدًا. KD من المكتب الحكومي. ولدى KD رقم هاتف يعمل فعلًا."},
         {type:"fb",s:"Im {1} ruft man sofort den Krankenwagen.",a:["Notfall"],opts:["Notfall","Notruf","Notaufnahme","Notausgang"],hint:"فكّر في معنى الكلمة.",sSrc:"In an emergency, you call the ambulance immediately."},
@@ -80,10 +80,10 @@ const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicheru
         {type:"mc",q:"Der Arzt bittet dich, den Arm zu heben. Aber zuerst: Wie heißt das Gelenk zwischen Ober- und Unterschenkel?",opts:["Schulter","Finger","Knie","Brust"],ans:"Knie",hint:"هذا المفصل ينثني عندما تجلس. في الألمانية، حرف K يُنطق."},
         {type:"fb",s:"Der Patient ist sehr {1}. Er hat kein Blut mehr im Gesicht.",a:["blass"],opts:["blass","erschöpft","körperlich","finanziell"],hint:"أي صفة تصف شخصًا فقد لون وجهه؟",sSrc:"المريض شاحب جدًا. لم يبقَ دم في وجهه."},
         {type:"match",pairs:[
-    {trg:"atmen",src:"to breathe"},
-    {trg:"bluten",src:"to bleed"},
-    {trg:"frieren",src:"to freeze"},
-    {trg:"schwitzen",src:"to sweat"}
+    {trg:"atmen",src:"يتنفّس"},
+    {trg:"bluten",src:"ينزف"},
+    {trg:"frieren",src:"يتجمّد"},
+    {trg:"schwitzen",src:"يعرق"}
 ]},
         {type:"story",speaker:"narrator",mood:"warm",art:"de-ber-arztpraxis",trg:"Die Ärztin gibt Verumius ein Rezept und sagt: 'Gute Besserung.' Er versteht das Wort sofort. Besser werden. Besserung. Deutsch ist logisch, wenn man die Teile kennt.",src:"تعطي الطبيبة فيروميوس وصفة طبية وتقول: 'سلامتك.' يفهم الكلمة فورًا. أن تتحسن. تحسّن. الألمانية منطقية عندما تعرف الأجزاء."},
         {type:"mc",q:"Was bedeutet 'messen'?",opts:["the bone","to X-ray","the muscle","to measure"],ans:"to measure",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -269,7 +269,7 @@ const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicheru
         {type:"fb",s:"Die Apotheke, {1} der ich meine Medizin hole, ist in der Nähe.",a:["bei"],opts:["bei","mit","für","über"],hint:"أيّ حرف جر يعني 'عند' أو 'من' عند أخذ شيء من مكان ما؟",sSrc:"الصيدلية التي أحصل منها على دوائي قريبة."},
         {type:"drag_fill",s:"Der Patient, {1} dem die Ärztin die Spritze gegeben hat, hatte Angst. {2} war er danach erleichtert.",blanks:{"1":"dem","2":"Trotzdem"},pool:["dem","den","der","Trotzdem","Deshalb","Sonst"],hint:"الفراغ الأول: الضمير الموصول المذكر في حالة المفعول غير المباشر. الفراغ الثاني: حرف عطف يفيد التناقض (رغم ذلك).",sSrc:"كان المريض الذي أعطاه الطبيب الحقنة خائفاً. ومع ذلك، شعر بارتياح بعدها."},
         {type:"mc",q:"Du hast Fieber. _____ solltest du zum Arzt gehen. Welches Wort bedeutet 'that is why'?",opts:["Trotzdem","Deswegen","Sonst","Also"],ans:"Deswegen",hint:"يدل هذا الرابط على النتيجة المباشرة، مشابهاً لكلمة deshalb."},
-        {type:"match",pairs:[{trg:"Sucht",src:"addiction"},{trg:"Gift",src:"poison"},{trg:"Droge",src:"drug"},{trg:"Pflaster",src:"bandage"}]},
+        {type:"match",pairs:[{trg:"Sucht",src:"إدمان"},{trg:"Gift",src:"سمّ"},{trg:"Droge",src:"دواء / مخدّر"},{trg:"Pflaster",src:"ضمادة"}]},
         {type:"fb",s:"Nimm deine Medizin. {1} wird es schlimmer.",a:["Sonst"],opts:["Sonst","Deshalb","Trotzdem","Also"],hint:"أيّ حرف عطف يعني 'وإلا' ويحذّر من عاقبة سلبية؟",sSrc:"تناول دواءك. وإلا سيزداد وضعك سوءاً."},
         {type:"story",speaker:"verumius",mood:"confident",art:"de-ber-kitchen-study",trg:"Verumius legt die letzte Karteikarte weg. Die Prüfung, vor der er Angst hatte, war gar nicht so schlimm. Also kann er vielleicht doch Beamtendeutsch. Ein bisschen.",src:"يضع فيروميوس البطاقة التعليمية الأخيرة. الامتحان الذي كان يخاف منه لم يكن سيئًا في النهاية. ربما يستطيع التعامل مع الألمانية البيروقراطية. قليلًا."}
       ]},

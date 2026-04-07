@@ -249,7 +249,7 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
     {trg:"vergessen",pos:"verb",gender:null,src:"to forget"},
     {trg:"sich verlieben",pos:"verb",gender:null,src:"to fall in love"},
     {trg:"ob",pos:"conj",gender:null,src:"whether"},
-    {trg:"sondern",src:"but rather"}
+    {trg:"sondern",src:"بل"}
 ]},
         {type:"teach",trg:"anders",src:"مختلف / بشكل مختلف",pos:"adv",gender:null,note:"ظرف/صفة لا يُعرب. 'Das ist anders' = هذا مختلف. 'Anders als' = مختلف عن.",example:"A: Das ist hier wirklich anders als in Italien.\nB: Ja, was ist anders für dich?\nA: Die Regeln! Alles hat Regeln.\nB: Das stimmt. Deutschland ist anders.",exampleSrc:"أ: هذا مختلف حقاً هنا عن إيطاليا.\nب: نعم, ما المختلف بالنسبة لك؟\nأ: القوانين! كل شيء له قوانين.\nب: هذا صحيح. ألمانيا مختلفة.",funFact:"'Anders' من أكثر الكلمات فائدة في الألمانية. لا تأخذ لواحق أبداً: دائماً 'anders' وليس 'anderse' في هذا الاستخدام الظرفي. مثالية للتعبير عن المفاجأة أو المقارنة أو الملاحظات الثقافية."},
         {type:"story",speaker:"mia",mood:"patient",trg:"Der Beitrag ist fünf Euro im Monat, Verumius. Dafür bekommst du einen Trainer, Trikots und Versicherung.",src:"الرسوم خمسة يورو شهرياً يا فيروميوس. مقابل ذلك تحصل على مدرب وقمصان وتأمين."},

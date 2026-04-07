@@ -72,10 +72,10 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
         {type:"mc",q:"Du musst Zwiebeln braten. Welches Küchengerät brauchst du?",opts:["Dose","Kanne","Pfanne","Schüssel"],ans:"Pfanne",hint:"هذا الشيء يأتي من اللاتينية 'patina' ويُستخدم للقلي على الموقد."},
         {type:"fb",s:"Für den Kuchen brauchen wir {1}, Eier und Zucker.",a:["Mehl"],opts:["Mehl","Fett","Pfeffer","Pilz"],hint:"المسحوق الأبيض الذي يشكل أساس كل الخبز.",sSrc:"للكعكة نحتاج طحيناً وبيضاً وسكراً."},
         {type:"match",pairs:[
-    {trg:"roh",src:"raw/uncooked"},
-    {trg:"gar",src:"cooked/done"},
-    {trg:"Zutat",src:"ingredient"},
-    {trg:"Frucht",src:"fruit"}
+    {trg:"roh",src:"نيء"},
+    {trg:"gar",src:"مطبوخ / ناضج"},
+    {trg:"Zutat",src:"مكوّن"},
+    {trg:"Frucht",src:"فاكهة"}
 ]},
         {type:"teach",trg:"die Marille",src:"المشمش (نمساوي)",pos:"noun",gender:"f",note:"كلمة نمساوية لـ Aprikose. من الإيطالية amarella.\nMarillenknödel = كنيدل المشمش، كلاسيكية نمساوية.",example:"A: Was ist eine Marille?\nB: Das ist die österreichische Aprikose.\nA: Sind Marillen süß?\nB: Ja, sehr süß und fruchtig.",exampleSrc:"A: ما هي Marille؟\nB: هذا هو المشمش النمساوي.\nA: هل Marillen حلوة؟\nB: نعم، حلوة جداً وفاكهية.",funFact:"Marille تأتي من الإيطالية amarella (المرّة الصغيرة). Marillenknödel واحدة من أحب الحلويات النمساوية. منطقة Wachau مشهورة ببساتين المشمش."},
         {type:"mc",q:"In Österreich heißt 'Aprikose' anders. Wie sagt man dort?",opts:["Frucht","Pflaume","Marille","Zwiebel"],ans:"Marille",hint:"هذه هي الكلمة النمساوية لنفس الفاكهة. تأتي من الإيطالية 'amarella'."},
@@ -196,10 +196,10 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
         {type:"mc",q:"'_____ ich das erste Mal Spargel aß, war ich überrascht.' Welches Wort passt?",opts:["Weil","Damit","Als","Wenn"],ans:"Als",hint:"المرة الأولى حدث واحد محدد في الماضي. ما الكلمة المخصصة لذلك؟"},
         {type:"drag_fill",s:"Mia {1} sich {2} Bio-Essen. Sie denkt oft {3}.",blanks:{"1":"interessiert","2":"für","3":"daran"},pool:["interessiert","für","daran","freut","auf","darauf"],hint:"أولًا: فعل الاهتمام مع حرف الجر الثابت المرتبط به. ثانيًا: 'denken an' يُستبدل بمركّب da-.",sSrc:"ميا مهتمة بالأطعمة العضوية. كثيرًا ما تفكر فيها."},
         {type:"match",pairs:[
-    {trg:"darauf",src:"on it / for it"},
-    {trg:"darüber",src:"about it"},
-    {trg:"daran",src:"of it / to it"},
-    {trg:"dafür",src:"for it (purpose)"}
+    {trg:"darauf",src:"عليه / لأجله"},
+    {trg:"darüber",src:"عن ذلك"},
+    {trg:"daran",src:"منه / إليه"},
+    {trg:"dafür",src:"لهذا الغرض"}
 ]},
         {type:"fb",s:"Spargel hat viele {1}, besonders Vitamin C und K.",a:["Vitamine"],opts:["Vitamine","Diäten","Ernährungen","Alkohol"],hint:"فكّر في معنى الكلمة.",sSrc:"Asparagus has many vitamins, especially vitamin C and K."},
         {type:"mc",q:"Was bedeutet 'spitz'?",opts:["sharp, pointed","biological, organic","the rental, the letting","the liquid, the fluid"],ans:"sharp, pointed",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -290,10 +290,10 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
         {type:"mc",q:"In Österreich heißt 'Sahne' (cream) wie?",opts:["Brötli","Obers","Glace","Paradeiser"],ans:"Obers",hint:"هذه الكلمة مشتقة من 'das Obere' لأن الكريمة ترتفع إلى أعلى الحليب."},
         {type:"fb",s:"In Wien bestellt man 'Kaffee mit {1}' statt 'Kaffee mit Sahne.'",a:["Obers"],opts:["Obers","Glace","Marille","Erdapfel"],hint:"الكلمة النمساوية للكريمة، مشتقة من 'الجزء العلوي' من الحليب.",sSrc:"في فيينا تطلب 'قهوة مع Obers' بدلًا من 'قهوة مع Sahne.'"},
         {type:"match",pairs:[
-    {trg:"Marille",src:"Aprikose"},
-    {trg:"Paradeiser",src:"Tomate"},
-    {trg:"Erdapfel",src:"Kartoffel"},
-    {trg:"Schwammerl",src:"Pilz"}
+    {trg:"Marille",src:"مشمش"},
+    {trg:"Paradeiser",src:"طماطم"},
+    {trg:"Erdapfel",src:"بطاطا"},
+    {trg:"Schwammerl",src:"فطر"}
 ]},
         {type:"mc",q:"'Die Bewohner warten _____ den Frühling.' Welche Präposition ergänzt 'warten'?",opts:["auf","für","über","an"],ans:"auf",hint:"'Warten' يقترن دائمًا بهذا حرف الجر. أنت تنتظر شيئًا محددًا."},
         {type:"mc",q:"'_____ ich in Wien war, habe ich zum ersten Mal Marillenknödel probiert.'",opts:["Wenn","Als","Damit","Weil"],ans:"Als",hint:"كان الوجود في فيينا رحلةً محددة في الماضي. مرة واحدة."},
@@ -332,10 +332,10 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
         {type:"mc",q:"'Poulet' ist das Schweizer Wort für...",opts:["Hähnchen","Schweinefleisch","Rindfleisch","Lamm"],ans:"Hähnchen",hint:"هذه الكلمة مشتقة من الفرنسية وتشير إلى الدواجن."},
         {type:"fb",s:"Der Eintritt zum Biergarten ist {1}. Man muss nichts bezahlen.",a:["gratis"],opts:["gratis","extra","halt","nebenbei"],hint:"كلمة من اللاتينية تعني 'مجانًا.'",sSrc:"الدخول إلى حديقة البيرة مجاني. لا يتعين عليك دفع أي شيء."},
         {type:"match",pairs:[
-    {trg:"Als ich ankam",src:"When I arrived (one time)"},
-    {trg:"Wenn ich esse",src:"When(ever) I eat"},
-    {trg:"sich freuen auf",src:"to look forward to"},
-    {trg:"Worauf wartest du?",src:"What are you waiting for?"}
+    {trg:"Als ich ankam",src:"عندما وصلتُ (مرة واحدة)"},
+    {trg:"Wenn ich esse",src:"كلّما أكلتُ"},
+    {trg:"sich freuen auf",src:"يتطلّع إلى"},
+    {trg:"Worauf wartest du?",src:"ماذا تنتظر؟"}
 ]},
         {type:"mc",q:"'_____ wartet Verumius?' -- 'Auf den Kellner. Er wartet _____.'",opts:["Worauf...darauf","Woran...daran","Wofür...dafür","Worüber...darüber"],ans:"Worauf...darauf",hint:"'Warten AUF' هو التعبير الثابت. السؤال = wo + auf. الجواب = da + auf."},
         {type:"drag_fill",s:"{1} wir im Biergarten saßen, rief Heinrich an. Er bestand {2}, dass wir Spargel bestellen.",blanks:{"1":"Als","2":"darauf"},pool:["Als","Wenn","darauf","darüber","daran","Weil"],hint:"الفراغ الأول: لحظة واحدة محددة في الماضي (als أم wenn). الفراغ الثاني: bestehen يأخذ حرف جر ثابتًا. استبدل 'auf etwas' بمركّب da-.",sSrc:"عندما كنا جالسين في حديقة البيرة، اتصل هاينريش. أصرّ على أن نطلب الهليون."},
@@ -382,10 +382,10 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
         {type:"drag_fill",s:"{1} wir im Biergarten waren, freute sich Hildi {2}. Sie hatte sich lange {3} gefreut.",blanks:{"1":"Als","2":"darüber","3":"darauf"},pool:["Als","Wenn","darüber","darauf","daran","dafür"],hint:"أولًا: مساء محدد في الماضي (als). ثانيًا: سعيد لأجل المساء (da + über). ثالثًا: كان يتطلع إليه (da + auf).",sSrc:"عندما كنا في حديقة البيرة، كانت هيلدي سعيدة لأجل ذلك. كانت تتطلع إليه منذ وقت طويل."},
         {type:"mc",q:"Welcher reflexive Ausdruck beschreibt gesundes, bewusstes Essen, im Gegensatz zum tierischen 'fressen'?",opts:["sich ernähren","fressen","verpflegen","füttern"],ans:"sich ernähren",hint:"هذا الفعل الانعكاسي يتعلق بالتغذية المستمرة والصحية. لا يُستخدم للحيوانات."},
         {type:"match",pairs:[
-    {trg:"als",src:"when (one-time past)"},
-    {trg:"wenn",src:"when(ever) / if"},
-    {trg:"darauf",src:"on it (da + auf)"},
-    {trg:"Worauf?",src:"On what? (wo + auf)"}
+    {trg:"als",src:"عندما (مرة واحدة في الماضي)"},
+    {trg:"wenn",src:"كلّما / إذا"},
+    {trg:"darauf",src:"عليه"},
+    {trg:"Worauf?",src:"على ماذا؟"}
 ]},
         {type:"mc",q:"Hildi sagt: 'Jedes Mal, _____ die Spargelzeit beginnt, denke ich _____ meine Kindheit.'",opts:["als...über","wenn...auf","als...an","wenn...an"],ans:"wenn...an",hint:"كل عام = متكرر (wenn). التفكير في شيء = denken AN."},
         {type:"drag_fill",s:"Verumius wartet {1} den Frühling. Er freut sich {2}.",blanks:{"1":"auf","2":"darauf"},pool:["auf","darauf","über","darüber","an","daran"],hint:"Warten AUF. ثم استبدل 'auf den Frühling' بمركّب da-.",sSrc:"فيروميوس ينتظر الربيع. هو يتطلع إليه."},

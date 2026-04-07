@@ -50,12 +50,12 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
     "Die Handschrift des Beamten ist unleserlich"
 ],ans:"Der einzige Satz ist 47 Wörter lang mit mehreren Nebensaetzen",hint:"لقد نجا من نقاش عام. لكن لغة الإدارة الألمانية لها قواعدها الخاصة: جملة لا تنتهي أبدًا."},
         {type:"match",pairs:[
-    {trg:"Amt",src:"government office"},
-    {trg:"Behörde",src:"authority / agency"},
-    {trg:"Bescheid",src:"official notice"},
-    {trg:"Formular",src:"form"},
-    {trg:"Frist",src:"deadline"},
-    {trg:"Genehmigung",src:"approval / permit"}
+    {trg:"Amt",src:"مكتب حكومي"},
+    {trg:"Behörde",src:"هيئة / جهة رسمية"},
+    {trg:"Bescheid",src:"إشعار رسمي"},
+    {trg:"Formular",src:"نموذج"},
+    {trg:"Frist",src:"موعد نهائي"},
+    {trg:"Genehmigung",src:"تصريح / إذن"}
 ]},
         {type:"fb",s:"Ist dieses Dokument {1}? Ja, es trägt den offiziellen Stempel.",a:["amtlich"],opts:["schriftlich","amtlich","bürokratisch","gesetzlich"],hint:"فكّر في معنى الكلمة.",sSrc:"Is this document official? Yes, it bears the official stamp."},
         {type:"mc",q:"Was bedeutet 'die Verwaltung'?",opts:["the right, the law","the form","the official notice, the decision","the administration"],ans:"the administration",hint:"فكّر في معنى هذه الكلمة في السياق."},
@@ -98,12 +98,12 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
         {type:"tip",title:"Das deutsche Amt-System",text:"تمتلك ألمانيا إدارة ثلاثية المستويات: الاتحادية (Bund)، والولائية (Land)، والمحلية (Kommune). لكل مستوى دوائره الخاصة.\n\nBürgeramt = محلي (العنوان، التسجيل)\nFinanzamt = ولائي (الضرائب)\nAusländerbehörde = يمكن أن يكون أيًا منهما\n\nقاعدة عامة: العنوان = محلي. المال = ولائي. الأجانب = راجع المدينة.\n\nاصطحب دائمًا: بطاقة الهوية أو جواز السفر، وشهادة التسجيل، والصبر.",deepDive:{title:"Why so many offices?",text:"يوزّع النظام الفيدرالي الألماني السلطة على ثلاثة مستويات. هذا أمر تاريخي: فبعد عام 1945، لا ينبغي لأي جهة واحدة أن تمسك بكل السلطة من جديد. والنتيجة نظام يعمل ببطء، لكنه ديمقراطي. لكل دائرة مجالات اختصاص واضحة. والتداخلات مقصودة، لا عرضية."}},
         {type:"mc",q:"Verumius muss seine neue Adresse anmelden. Welches Amt besucht er?",opts:["Bürgeramt","Bauordnungsamt","Finanzamt für Steuerfragen","Gesundheitsamt"],ans:"Bürgeramt",hint:"المكتب المحلي المسؤول عن تسجيل العناوين. كل انتقال إلى عنوان جديد يجب الإبلاغ عنه هناك خلال 14 يومًا."},
         {type:"match",pairs:[
-    {trg:"Meldebescheinigung",src:"registration certificate"},
-    {trg:"Aufenthaltserlaubnis",src:"residence permit"},
-    {trg:"Steuererklarung",src:"tax return"},
-    {trg:"Bussgeld",src:"fine"},
-    {trg:"Einspruch",src:"objection / appeal"},
-    {trg:"Mahnung",src:"dunning notice"}
+    {trg:"Meldebescheinigung",src:"شهادة تسجيل"},
+    {trg:"Aufenthaltserlaubnis",src:"تصريح إقامة"},
+    {trg:"Steuererklarung",src:"إقرار ضريبي"},
+    {trg:"Bussgeld",src:"غرامة"},
+    {trg:"Einspruch",src:"اعتراض / استئناف"},
+    {trg:"Mahnung",src:"إنذار دفع"}
 ]},
         {type:"fb",s:"Wenn Sie mit dem Bescheid nicht einverstanden sind, können Sie {1} einlegen.",a:["Widerspruch"],opts:["Widerspruch","Formular","Genehmigung","Mahnung"],hint:"الوثيقة الرسمية التي تقدّمها حين لا توافق على قرار رسمي. تخيّل: أنت ترفض القرار وتدفعه.",sSrc:"إذا لم توافق على الإشعار، يمكنك تقديم اعتراض."},
         {type:"mc",q:"'Ein befristeter Vertrag läuft am 31. Dezember aus.' Was bedeutet 'befristet'?",opts:["unbegrenzt gültig","erneuert automatisch","zeitlich begrenzt","vorzeitig gekündigt"],ans:"zeitlich begrenzt",hint:"'Frist' تعني الموعد النهائي. 'Befristet' تعني: هناك تاريخ انتهاء. الساعة تدق."},
@@ -206,10 +206,10 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
         {type:"teach",trg:"der Rechtsbehelf",src:"سبيل الطعن القانوني",pos:"noun",gender:"m",note:"اسم مذكر. 'Recht' + 'Behelf' (انتصاف).\n'Rechtsbehelfsbelehrung' (إرشادات سبل الانتصاف القانونية).",example:"A: Welche Rechtsbehelfe habe ich?\nB: Widerspruch, Klage oder Berufung.\nA: Steht das im Bescheid?\nB: Ja, jeder Bescheid muss eine Rechtsbehelfsbelehrung enthalten.",exampleSrc:"أ: ما هي سبل الطعن القانوني المتاحة لي؟\nب: الاعتراض، الدعوى القضائية، أو الاستئناف.\nأ: هل يُذكر ذلك في الإشعار؟\nب: نعم، يجب أن يتضمّن كل إشعار تعليمات حول سبل الطعن.",funFact:"'Recht' + 'Behelf' (انتصاف). كل Bescheid يجب أن يخبرك بسبل الانتصاف المتاحة لك. حقك في التظلم القانوني. 'Rechtsbehelfsbelehrung' هي الفقرة في نهاية كل إشعار رسمي."},
         {type:"teach",trg:"die Haftpflicht",src:"المسؤولية القانونية، التعويض",pos:"noun",gender:"f",note:"اسم مؤنث. 'Haft' (مسؤولية) + 'Pflicht' (واجب).\n'Haftpflichtversicherung' (تأمين المسؤولية المدنية).",example:"A: Hast du eine Haftpflichtversicherung?\nB: Natürlich. Jeder in Deutschland hat eine.\nA: Was deckt die ab?\nB: Schaeden, die du anderen zufuegst. Aus Versehen.",exampleSrc:"أ: هل لديك تأمين مسؤولية؟\nب: بالطبع. كل شخص في ألمانيا لديه واحد.\nأ: ما الذي يغطّيه؟\nب: الأضرار التي تتسبب فيها عن غير قصد للآخرين.",funFact:"'Haft' (مسؤولية) + 'Pflicht' (واجب). تقريباً كل ألماني لديه Haftpflichtversicherung. يغطي الأضرار التي تتسبب بها عن طريق الخطأ للآخرين. أكثر تأمين ألماني: يغطي Pflicht الخاص بك."},
         {type:"match",pairs:[
-    {trg:"der Richter",src:"the judge (m)"},
-    {trg:"das Urteil",src:"the judgment, the verdict"},
-    {trg:"die Berufung",src:"the appeal to a higher court"},
-    {trg:"die Haftpflicht",src:"the liability"}
+    {trg:"der Richter",src:"القاضي"},
+    {trg:"das Urteil",src:"الحكم"},
+    {trg:"die Berufung",src:"الاستئناف أمام محكمة أعلى"},
+    {trg:"die Haftpflicht",src:"المسؤولية القانونية"}
 ]},
         {type:"mc",q:"Was bedeutet 'der Rechtsbehelf'?",opts:["the legal remedy","the court level or tier","the plaintiff","the verdict"],ans:"the legal remedy",hint:"يجب أن يُعلمك كل Bescheid بالخيارات المتاحة للطعن. هذا حقّك في الاعتراض على قرار رسمي."}
       ]},
@@ -255,12 +255,12 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
     "Das Verfahren wird eingestellt"
 ],ans:"Zahlen Sie bis zum 15. Juni 300 Euro",hint:"ترجمة كابتن دويتش: كل ما تقوله الرسالة فعلاً، في جملة واحدة قصيرة. المبلغ والموعد النهائي."},
         {type:"match",pairs:[
-    {trg:"Rechtsanwalt",src:"lawyer"},
-    {trg:"Urteil",src:"verdict"},
-    {trg:"Berufung",src:"appeal"},
-    {trg:"Schadensersatz",src:"damages / compensation"},
-    {trg:"rechtswidrig",src:"unlawful"},
-    {trg:"zulaessig",src:"admissible"}
+    {trg:"Rechtsanwalt",src:"محامٍ"},
+    {trg:"Urteil",src:"حكم قضائي"},
+    {trg:"Berufung",src:"استئناف"},
+    {trg:"Schadensersatz",src:"تعويضات"},
+    {trg:"rechtswidrig",src:"غير قانوني"},
+    {trg:"zulaessig",src:"مقبول"}
 ]}
       ]},
 // ─── L9: Unter Bezugnahme auf... ───
@@ -328,8 +328,8 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
         {type:"match",pairs:[
     {trg:"bezüglich",src:"بشأن"},
     {trg:"hinsichtlich",src:"فيما يتعلق بـ"},
-    {trg:"vorbehaltlich",src:"subject to"},
-    {trg:"infolge",src:"as a result of"}
+    {trg:"vorbehaltlich",src:"خاضع لـ"},
+    {trg:"infolge",src:"نتيجةً لـ"}
 ]},
         {type:"mc",q:"Was bedeutet 'die Anlage'?",opts:["the attachment, the enclosure","regarding, concerning","accordingly, correspondingly","as a result of, due to"],ans:"the attachment, the enclosure",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"{1} ist Deutsch.",a:["die Amtssprache"],opts:["vorbehaltlich","gemaess Paragraph","im Sinne des Gesetzes","die Amtssprache"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The official language is German."},
@@ -387,10 +387,10 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
     "Erstes ist Aktiv, Zweites ist Passiv."
 ],ans:"Erstes: der Vorgang läuft. Zweites: das Ergebnis steht fest.",hint:"wird (werden) = عملية جارية الآن. ist (sein) = نتيجة راسخة. مجهولان، منظوران."},
         {type:"match",pairs:[
-    {trg:"beantragen",src:"to apply for"},
-    {trg:"genehmigen",src:"to approve"},
-    {trg:"einreichen",src:"to submit"},
-    {trg:"ausstellen",src:"to issue"}
+    {trg:"beantragen",src:"يتقدّم بطلب"},
+    {trg:"genehmigen",src:"يوافق"},
+    {trg:"einreichen",src:"يقدّم"},
+    {trg:"ausstellen",src:"يُصدر"}
 ]},
         {type:"mc",q:"Was bedeutet 'bearbeiten'?",opts:["the contract","the termination, the cancellation","to submit, to file","to process, to handle"],ans:"to process, to handle",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Können Sie den Empfang {1}?",a:["bestätigen"],opts:["genehmigen","der Vertrag","bearbeiten","bestätigen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you confirm receipt?"},
@@ -445,10 +445,10 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
     "Nach der abschliessenden Zustimmung"
 ],ans:"Unter dem Vorbehalt der Zustimmung des Ausschusses",hint:"حرف جر إضافي يعبر عن شرط. اللائحة لا تسري بصورة غير مشروطة؛ بل تعتمد أولاً على شيء آخر."},
         {type:"match",pairs:[
-    {trg:"vollstrecken",src:"to enforce"},
-    {trg:"widerrufen",src:"to revoke"},
-    {trg:"stattgeben",src:"to grant/uphold"},
-    {trg:"untersagen",src:"to prohibit"}
+    {trg:"vollstrecken",src:"يفرض"},
+    {trg:"widerrufen",src:"يُلغي / يسحب"},
+    {trg:"stattgeben",src:"يمنح / يؤيّد"},
+    {trg:"untersagen",src:"يحظر"}
 ]},
         {type:"mc",q:"Was bedeutet 'reklamieren'?",opts:["to grant, to uphold","to reject, to dismiss","submitted (past participle)","to complain, to make a claim"],ans:"to complain, to make a claim",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to ratify' auf Deutsch? {1}",a:["ratifizieren"],opts:["veranlassen","reklamieren","untersagen","ratifizieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to ratify' بالألمانية؟"},
@@ -513,10 +513,10 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
 ],ans:"Eine Genitivpraeposition (bezüglich + Genitiv)",hint:"تُفتتح الجملة بكلمة واحدة تمهّد الموضوع وتستلزم أن يكون الاسم التالي في حالة إعرابية محددة. إنه حرف جر رسمي، لا حرف عطف ولا مبنى مجهول."},
         {type:"drag_fill",s:"{1} der Prüfung wird mitgeteilt, dass der Bescheid {2} erteilt.",blanks:{"1":"Aufgrund","2":"ist"},pool:["Aufgrund","ist","Trotz","wird","Wegen","hat"],hint:"فراغان، مبنيان: حرف جر إضافي يفتتح الجملة، ومجهول حالة يختتمها. فكّر: بسبب المراجعة، أُبلغ بأن الإشعار قد مُنح (حالة مكتملة)."},
         {type:"match",pairs:[
-    {trg:"machbar",src:"feasible"},
-    {trg:"loesbar",src:"solvable"},
-    {trg:"essbar",src:"edible"},
-    {trg:"nachvollziehbar",src:"comprehensible"}
+    {trg:"machbar",src:"قابل للتطبيق"},
+    {trg:"loesbar",src:"قابل للحلّ"},
+    {trg:"essbar",src:"صالح للأكل"},
+    {trg:"nachvollziehbar",src:"مفهوم"}
 ]},
         {type:"mc",q:"Was bedeutet 'bewilligt'?",opts:["approved, granted","the land registry","the decree, the waiver","to decide"],ans:"approved, granted",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Ist die Vereinbarung {1}?",a:["bindend"],opts:["unbeschadet","erteilen","der Erlass","bindend"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is the agreement binding?"},

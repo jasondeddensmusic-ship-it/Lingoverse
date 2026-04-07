@@ -32,12 +32,12 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"fb",s:"Hildi kauft eine {1} am Weihnachtsmarkt.",a:"Rose",opts:["Rose","Wolke","Schnee","Himmel"],hint:"زهرة جميلة، غالباً حمراء",sSrc:"هيلدي تشتري وردة في سوق عيد الميلاد."},
         {type:"mc",q:"Verumius sees a round golden item on a stall. Which word describes it?",opts:["die Rose","der Schnee","der Ring","die Torte"],ans:"der Ring",hint:"شيء دائري صغير يُرتدى كمجوهرات في الإصبع."},
         {type:"match",pairs:[
-    {trg:"der Schnee",src:"the snow"},
-    {trg:"die Wolke",src:"the cloud"},
-    {trg:"der Himmel",src:"the sky"},
-    {trg:"die Postkarte",src:"the postcard"},
-    {trg:"die Schokolade",src:"the chocolate"},
-    {trg:"die Rose",src:"the rose"}
+    {trg:"der Schnee",src:"الثلج"},
+    {trg:"die Wolke",src:"السحابة"},
+    {trg:"der Himmel",src:"السماء"},
+    {trg:"die Postkarte",src:"البطاقة البريدية"},
+    {trg:"die Schokolade",src:"الشوكولاتة"},
+    {trg:"die Rose",src:"الوردة"}
 ]},
         {type:"tip",title:"Sneak Peek: Adjective Endings",text:"رأيت عبارات مثل 'der warme Glühwein'، 'die dunklen Wolken'، 'der goldene Ring'.\n\nلاحظ النهايات على الصفات: warm-E, dunkel-N, golden-E.\n\nالصفات الألمانية تغيّر نهاياتها حسب الجنس والحالة وأداة التعريف. يُسمى هذا تصريف الصفات.\n\nلا تحفظ القواعد بعد. فقط لاحظ الأنماط. ستتعلم النظام خطوة بخطوة في الدروس القادمة.",deepDive:"تصريف الصفات من أصعب موضوعات القواعد الألمانية. هناك ثلاثة أنماط تصريف (قوي، ضعيف، مختلط) حسب ما يسبق الصفة. الآن، فقط اعتد على سماع 'der warme'، 'die schöne'، 'das frische' كتعبيرات طبيعية."},
         {type:"mc",q:"Hildi sagt: 'Der Gendarmenmarkt hat den schönsten Weihnachtsmarkt in Berlin.' What does she mean?",opts:[
@@ -78,12 +78,12 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"mc",q:"Was ist 'der Rock' auf Englisch?",opts:["rock music","coat","dress","skirt"],ans:"skirt",hint:"قطعة ملابس، ليست نوعاً موسيقياً."},
         {type:"drag_fill",s:"Im Winter ziehe ich {1}, {2} und {3} an.",blanks:{"1":"Stiefel","2":"einen Mantel","3":"eine Mütze"},pool:["Stiefel","einen Mantel","eine Mütze","ein T-Shirt","einen Rock"],hint:"فكّر فيما يُبقيك دافئاً من الرأس إلى القدم.",sSrc:"في الشتاء أرتدي حذاءً طويلاً ومعطفاً وقبعة صوفية."},
         {type:"match",pairs:[
-    {trg:"der Mantel",src:"the coat"},
-    {trg:"die Mütze",src:"the beanie"},
-    {trg:"der Stiefel",src:"the boot"},
-    {trg:"die Hose",src:"the pants"},
-    {trg:"das Kleid",src:"the dress"},
-    {trg:"die Brille",src:"the glasses"}
+    {trg:"der Mantel",src:"المعطف"},
+    {trg:"die Mütze",src:"القبعة الصوفية"},
+    {trg:"der Stiefel",src:"الحذاء الطويل"},
+    {trg:"die Hose",src:"البنطال"},
+    {trg:"das Kleid",src:"الفستان"},
+    {trg:"die Brille",src:"النظارات"}
 ]},
         {type:"mc",q:"Welches Kleidungsstück ist immer Neutrum (das)?",opts:["der Mantel und der Rock","das Hemd und das Kleid","die Hose und die Jeans","die Bluse und die Mütze"],ans:"das Hemd und das Kleid",hint:"ابحث عن أدوات التعريف المحايدة بين كلمات الملابس التي تعلمتها."},
         {type:"fb",s:"Kleider machen {1}.",a:"Leute",opts:["Leute","Kleider","Schuhe","Sachen"],hint:"مثل شهير عن كيفية تأثير الملابس على نظرة الناس للآخرين.",sSrc:"الملابس تصنع الشخص."},
@@ -151,12 +151,12 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"fb",s:"{1} der Ferien fahre ich nach Spanien.",a:["Während"],opts:["Während","Seit","Vor","Ab"],hint:"أي حرف جر يعني 'أثناء' ويأخذ حالة المضاف إليه؟",sSrc:"أثناء العطلة سأسافر إلى إسبانيا."},
         {type:"drag_fill",s:"{1} Brötchen sind {2} heute Morgen.",blanks:{"1":"Die frischen","2":"von"},pool:["Die frischen","Das frische","Der frischer","von","vor","nach"],hint:"أداة تعريف + نهاية صفة جمع؟ و'من' هذا الصباح؟",sSrc:"الخبز الطازج من هذا الصباح."},
         {type:"match",pairs:[
-    {trg:"die Kette",src:"the necklace"},
-    {trg:"schenken",src:"to give (as gift)"},
+    {trg:"die Kette",src:"العقد"},
+    {trg:"schenken",src:"يُهدي"},
     {trg:"wünschen",src:"يتمنى"},
-    {trg:"die Ferien",src:"the holidays"},
-    {trg:"vor",src:"ago / before"},
-    {trg:"seit",src:"since / for"}
+    {trg:"die Ferien",src:"العُطلة"},
+    {trg:"vor",src:"قبل"},
+    {trg:"seit",src:"منذ / لمدة"}
 ]},
         {type:"story",speaker:"opa",mood:"nostalgic",trg:"Hier, frische Brötchen für alle! Seit fünfzig Jahren kaufe ich beim gleichen Bäcker. Vor dem Krieg war der Laden noch klein. Während der Ferien backt er sogar Stollen!",src:"تفضلوا، خبز طازج للجميع! منذ خمسين عاماً وأنا أشتري من نفس الخبّاز. قبل الحرب كان المحل لا يزال صغيراً. أثناء العطلة يخبز حتى كعكة شتولن!"},
         {type:"story",speaker:"verumius",mood:"touched",art:"de-ber-weihnachtsmarkt-broetchen",trg:"Verumius beißt in das Brötchen. Es ist frisch, weich und noch ein bisschen warm. Er sieht Heinrich an. Er sieht Hildi an. Er sagt nichts. Aber er lächelt.",src:"يعض فيروميوس الرغيف. إنه طازج، طري، ولا يزال دافئاً قليلاً. ينظر إلى هاينريش. ينظر إلى هيلدي. لا يقول شيئاً. لكنه يبتسم."},
@@ -265,12 +265,12 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"drag_fill",s:"Ich {1} gern {2} roten Schal für {3} Freundin kaufen.",blanks:{"1":"würde","2":"den","3":"meine"},pool:["würde","den","meine","wäre","dem","meiner"],hint:"عبّر عن رغبة (سأفعل)، ثم أداة نصب مذكرة، ثم أداة ملكية نصب مؤنثة.",sSrc:"أودّ شراء الوشاح الأحمر لصديقتي."},
         {type:"mc",q:"'Wenn ich reich ___, ___ ich alles kaufen.' Which pair completes this?",opts:["würde ... wäre","wäre ... würde","hätte ... wäre","könnte ... hätte"],ans:"wäre ... würde",hint:"الفراغ الأول يحتاج Konjunktiv II لـ 'sein'، والثاني يحتاج 'would' مع مصدر."},
         {type:"match",pairs:[
-    {trg:"den roten Schal",src:"the red scarf (acc.)"},
-    {trg:"dem kalten Wind",src:"the cold wind (dat.)"},
-    {trg:"meinen neuen Mantel",src:"my new coat (acc.)"},
-    {trg:"einer warmen Tasse",src:"a warm cup (dat.)"},
-    {trg:"würde kaufen",src:"would buy"},
-    {trg:"wäre",src:"would be"}
+    {trg:"den roten Schal",src:"الوشاح الأحمر (مفعول به)"},
+    {trg:"dem kalten Wind",src:"الريح الباردة (مجرور)"},
+    {trg:"meinen neuen Mantel",src:"معطفي الجديد (مفعول به)"},
+    {trg:"einer warmen Tasse",src:"كوبٍ دافئ (مجرور)"},
+    {trg:"würde kaufen",src:"سيشتري"},
+    {trg:"wäre",src:"سيكون"}
 ]},
         {type:"mc",q:"Which word expresses a polite wish in German?",opts:["hatte","wuerde + infinitive","ist","wird"],ans:"wuerde + infinitive",hint:"هذا التركيب يعني would + فعل. يعبّر عن رغبات افتراضية بأدب."},
         {type:"story",speaker:"opa",mood:"wise",art:"de-xmas-market-scarves",trg:"Heinrich kauft den roten Schal. Verumius protestiert. Heinrich winkt ab. 'In meinem Alter gibt man. Das ist das Schönste.'",src:"يشتري هاينريش الوشاح الأحمر. يعترض فيروميوس. يلوّح هاينريش رافضاً. 'في عمري، تعطي. هذا أجمل شيء.'"}
@@ -302,10 +302,10 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"match",pairs:[
     {trg:"kalt",src:"بارد"},
     {trg:"heiß",src:"حار"},
-    {trg:"nass",src:"wet"},
-    {trg:"trocken",src:"dry"},
-    {trg:"sonnig",src:"sunny"},
-    {trg:"windig",src:"windy"}
+    {trg:"nass",src:"مبلّل"},
+    {trg:"trocken",src:"جاف"},
+    {trg:"sonnig",src:"مشمس"},
+    {trg:"windig",src:"عاصف"}
 ]},
         {type:"fb",s:"Der Glühwein ist schön {1}. Perfekt für kalte Hände!",a:"warm",opts:["warm","kalt","nass","trocken"],hint:"عكس البارد. درجة حرارة لطيفة لمشروب شتوي.",sSrc:"النبيذ الساخن دافئ بشكل لطيف. مثالي لليدين الباردتين!"},
         {type:"fb",s:"Der {1} bläst heute stark. Halt deine Mütze fest!",a:"Wind",opts:["Wind","Schnee","Nebel","Himmel"],hint:"هواء متحرك يطير قبعتك. اسم مذكر.",sSrc:"الريح تهب بقوة اليوم. أمسك قبعتك!"},
@@ -327,10 +327,10 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"mc",q:"Wie ist das Gegenteil von 'dick'?",opts:["dünn","eng","bunt","dunkel"],ans:"dünn",hint:"هاتان الصفتان تصفان أنواع جسم أو سماكات متعاكسة."},
         {type:"fb",s:"Die {1} Lichter auf dem Weihnachtsmarkt sind wunderschön.",a:["bunten"],opts:["bunten","dunklen","engen","frühen"],hint:"الأضواء الملونة جميلة. صفة جمع مع أداة تعريف.",sSrc:"الأضواء الملونة في سوق عيد الميلاد جميلة."},
         {type:"match",pairs:[
-    {trg:"dunkel",src:"dark"},
-    {trg:"modern",src:"modern"},
-    {trg:"fleißig",src:"hardworking"},
-    {trg:"einzeln",src:"individual"}
+    {trg:"dunkel",src:"مظلم"},
+    {trg:"modern",src:"حديث"},
+    {trg:"fleißig",src:"مجتهد"},
+    {trg:"einzeln",src:"فرد"}
 ]},
         {type:"mc",q:"What does 'dunkel' mean?",opts:["colorful","dark","modern","early"],ans:"dark",hint:"عكس hell (مشرق). تُستخدم لأيام ديسمبر والألوان الداكنة."},
         {type:"mc",q:"Which adjective describes a jacket that is too thin for cold weather?",opts:["bunt","fleißig","dünn","einzeln"],ans:"dünn",hint:"عكس dick (سميك). نسيج غير كافٍ لإبقائك دافئاً."},
@@ -370,11 +370,11 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"fb",s:"{1} des Schnees gehen wir auf den Weihnachtsmarkt.",a:"Trotz",opts:["Trotz","Wegen","Ohne","Nach"],hint:"حرف جر يعني رغم. يأخذ حالة المضاف إليه.",sSrc:"رغم الثلج، سنذهب إلى سوق عيد الميلاد."},
         {type:"drag_fill",s:"Der {1} Markt gefällt mir nicht. Ich mag die {2} Weihnachtsmärkte mit {3} Holzbuden.",blanks:{"1":"moderne","2":"traditionellen","3":"bunten"},pool:["moderne","traditionellen","bunten","einzelnen","dunklen"],hint:"جديد مقابل قديم، والأكشاك لها ألوان كثيرة. ثلاث صفات بنهايات صحيحة.",sSrc:"السوق الحديث لا يعجبني. أفضّل أسواق عيد الميلاد التقليدية مع الأكشاك الخشبية الملونة."},
         {type:"match",pairs:[
-    {trg:"der Enkel",src:"the grandchild"},
-    {trg:"die Dame",src:"the lady"},
-    {trg:"das Feuer",src:"the fire"},
-    {trg:"die Decke",src:"the blanket"},
-    {trg:"das Weihnachtslied",src:"the Christmas carol"}
+    {trg:"der Enkel",src:"الحفيد"},
+    {trg:"die Dame",src:"السيّدة"},
+    {trg:"das Feuer",src:"النار"},
+    {trg:"die Decke",src:"البطانية"},
+    {trg:"das Weihnachtslied",src:"ترنيمة عيد الميلاد"}
 ]},
         {type:"story",speaker:"verumius",mood:"amused",art:"de-ber-gendarmenmarkt-snow-falling",trg:"Knuspriger Schnee. Ich schreibe mir das auf. Das brauche ich für die Prüfung.",src:"ثلج مقرمش. سأكتب ذلك. سأحتاجه للامتحان."}
       ]},
@@ -413,12 +413,12 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"fb",s:"Hätte ich {1} intelligenten Freund wie Verumius!",a:"einen",opts:["einen","einem","einer","ein"],hint:"مذكر نصب: hätte ich ___en ___en Freund.",sSrc:"ليتني أملك صديقاً ذكياً مثل فيروميوس!"},
         {type:"mc",q:"Die drei Freunde sitzen mit ___ warmen Tassen am Tisch. (possessive, dative plural)",opts:["ihre","ihrer","ihrem","ihren"],ans:"ihren",hint:"جمع جر ملكية: mit ___en warmen Tassen."},
         {type:"match",pairs:[
-    {trg:"tief",src:"deep"},
-    {trg:"reich",src:"rich"},
-    {trg:"arm",src:"poor"},
-    {trg:"bequem",src:"comfortable"},
+    {trg:"tief",src:"عميق"},
+    {trg:"reich",src:"غني"},
+    {trg:"arm",src:"فقير"},
+    {trg:"bequem",src:"مريح"},
     {trg:"hässlich",src:"قبيح"},
-    {trg:"klug",src:"clever"}
+    {trg:"klug",src:"ذكي"}
 ]},
         {type:"story",speaker:"opa",mood:"warm-mischievous",art:"de-ber-gluehwein-scene",trg:"Noch ein Brötchen? Sie sind nicht mehr ganz frisch, aber die Butter in meiner Manteltasche ist noch gut.",src:"رغيف آخر؟ لم يعودوا طازجين تماماً، لكن الزبدة في جيب معطفي لا تزال جيدة."},
         {type:"story",speaker:"verumius",mood:"belonging",art:"de-ber-gluehwein-bench",trg:"Verumius nimmt das Brötchen. Es schmeckt nach einem langen Tag, nach Zimt und nach Zuhause.",src:"يأخذ فيروميوس الرغيف. طعمه يشبه يوماً طويلاً، والقرفة، والوطن."}
@@ -457,23 +457,23 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"fb",s:"Das ist ein typisch{1} deutsches Weihnachtslied.",a:"es",opts:["es","er","e","en"],hint:"Lied محايد. بعد 'ein' في رفع محايد، الصفة تُظهر الجنس.",sSrc:"هذه أنشودة عيد ميلاد ألمانية نموذجية."},
         {type:"drag_fill",s:"{1} der Ferien {2} ich gern auf {3} schönen Markt gehen.",blanks:{"1":"Während","2":"würde","3":"den"},pool:["Während","Seit","Vor","würde","werde","wurde","den","dem","der"],hint:"حرف جر زمني + مضاف إليه، Konjunktiv II، نصب مذكر (اتجاه).",sSrc:"أثناء العطلة أودّ الذهاب إلى السوق الجميل."},
         {type:"match",pairs:[
-    {trg:"vor dem Essen",src:"before the meal"},
-    {trg:"nach Weihnachten",src:"after Christmas"},
-    {trg:"seit einer Woche",src:"for a week"},
-    {trg:"während des Fests",src:"during the festival"},
-    {trg:"bis Freitag",src:"until Friday"},
-    {trg:"ab morgen",src:"starting tomorrow"}
+    {trg:"vor dem Essen",src:"قبل الوجبة"},
+    {trg:"nach Weihnachten",src:"بعد عيد الميلاد"},
+    {trg:"seit einer Woche",src:"لمدة أسبوع"},
+    {trg:"während des Fests",src:"أثناء المهرجان"},
+    {trg:"bis Freitag",src:"حتى يوم الجمعة"},
+    {trg:"ab morgen",src:"ابتداءً من غد"}
 ]},
         {type:"mc",q:"'Wenn es nicht so kalt wäre, könnten wir draußen sitzen.' Was drückt 'könnten' aus?",opts:["Eine hypothetische Möglichkeit","Eine tatsächliche Fähigkeit","Eine vergangene Fähigkeit","Einen Zukunftsplan"],ans:"Eine hypothetische Möglichkeit",hint:"الجملة كلها تصف شرطاً غير واقعي. صيغة الفعل تتطابق."},
         {type:"drag_fill",s:"Heinrich schenkt {1} Enkelin {2} bequemen Schal und erzählt von {3} Kindheit.",blanks:{"1":"seiner","2":"einen","3":"seiner"},pool:["seiner","seiner","einen","eine","seinem","ihren"],hint:"جر مؤنث ملكية (لمن؟) + نصب مذكر (ماذا؟) + جر مؤنث ملكية بعد 'von.'",sSrc:"هاينريش يهدي حفيدته وشاحاً مريحاً ويروي عن طفولته."},
         {type:"fb",s:"Wenn ich Deutsch perfekt sprechen {1}, wäre das wunderbar.",a:"könnte",opts:["könnte","kann","konnte","können"],hint:"Konjunktiv II شاذ لـ 'können' لقدرة افتراضية.",sSrc:"لو استطعت التحدث بالألمانية بشكل مثالي، لكان ذلك رائعاً."},
         {type:"match",pairs:[
-    {trg:"der rote Schal",src:"the red scarf (nom.)"},
-    {trg:"den roten Schal",src:"the red scarf (acc.)"},
-    {trg:"dem roten Schal",src:"the red scarf (dat.)"},
-    {trg:"ein roter Schal",src:"a red scarf (nom.)"},
-    {trg:"einen roten Schal",src:"a red scarf (acc.)"},
-    {trg:"einem roten Schal",src:"a red scarf (dat.)"}
+    {trg:"der rote Schal",src:"الوشاح الأحمر (مبتدأ)"},
+    {trg:"den roten Schal",src:"الوشاح الأحمر (مفعول به)"},
+    {trg:"dem roten Schal",src:"الوشاح الأحمر (مجرور)"},
+    {trg:"ein roter Schal",src:"وشاحٌ أحمر (مبتدأ)"},
+    {trg:"einen roten Schal",src:"وشاحاً أحمر (مفعول به)"},
+    {trg:"einem roten Schal",src:"وشاحٍ أحمر (مجرور)"}
 ]}
       ]},
 // ─── L12: Durch den Schnee ───
@@ -511,14 +511,14 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"teach",trg:"einmal",pos:"adv",gender:null,src:"مرة واحدة",example:"A: Warst du schon einmal in Wien?\nB: Ja, einmal. Es war wunderschön.\nA: Ich möchte auch einmal dorthin.",exampleSrc:"أ: هل زرت فيينا من قبل؟\nب: نعم، مرة واحدة. كانت رائعة.\nأ: أودّ الذهاب إلى هناك أيضاً.",note:"einmal = مرة واحدة. Zweimal = مرتين. Dreimal = ثلاث مرات. تُستخدم أيضاً في 'Es war einmal...' (كان يا ما كان).",funFact:"كل حكاية ألمانية خيالية تبدأ بـ 'Es war einmal...' (كان يا ما كان). الأخوان غريم جعلا هذه البداية مشهورة عالمياً."},
         {type:"teach",trg:"wurscht",pos:"adj",gender:null,src:"مش مهم (عامية)",example:"A: Willst du Pizza oder Pasta?\nB: Das ist mir wurscht!\nA: Na gut, dann Pizza.",exampleSrc:"أ: هل تريد بيتزا أم معكرونة؟\nب: لا يهم!\nأ: حسناً، بيتزا إذاً.",note:"صيغة عامية من جنوب ألمانيا لـ 'egal.' شائعة جداً في بافاريا والنمسا. من Wurst (نقانق).",funFact:"'Das ist mir Wurst' أو 'wurscht' تعني حرفياً 'هذا نقانق بالنسبة لي.' لا أحد يعرف بالضبط لماذا النقانق تعني اللامبالاة، لكنها مستخدمة منذ القرن التاسع عشر."},
         {type:"match",pairs:[
-    {trg:"egal",src:"doesn't matter"},
-    {trg:"streng",src:"strict"},
-    {trg:"faul",src:"lazy"},
-    {trg:"deutlich",src:"clear"},
-    {trg:"damals",src:"back then"},
-    {trg:"übermorgen",src:"day after tomorrow"},
-    {trg:"üben",src:"to practice"},
-    {trg:"zeigen",src:"to show"}
+    {trg:"egal",src:"لا يهمّ"},
+    {trg:"streng",src:"صارم"},
+    {trg:"faul",src:"كسول"},
+    {trg:"deutlich",src:"واضح"},
+    {trg:"damals",src:"في ذلك الوقت"},
+    {trg:"übermorgen",src:"بعد غد"},
+    {trg:"üben",src:"يتمرّن"},
+    {trg:"zeigen",src:"يُظهر"}
 ]},
         {type:"tip",title:"German Christmas Traditions",text:"عيد الميلاد يبدأ في ٢٤ ديسمبر (Heiligabend)، وليس ٢٥ ديسمبر.\n\n- Adventskranz: ٤ شموع، واحدة تُضاء كل أحد قبل عيد الميلاد\n- Adventskalender: ٢٤ باباً، واحد كل يوم في ديسمبر\n- Nikolaus (٦ ديسمبر): أحذية عند الباب، مملوءة بالحلوى\n- Heiligabend: عشاء عائلي، هدايا، كنيسة\n- Weihnachtsgans: إوزة مشوية، الوجبة التقليدية لعيد الميلاد\n- Stille Nacht: أشهر أنشودة في العالم، كُتبت في النمسا ١٨١٨",deepDive:"تقليد سوق عيد الميلاد يعود إلى القرن الرابع عشر. Striezelmarkt في دريسدن (١٤٣٤) هو الأقدم. كل مدينة لديها واحد. كثير من الألمان يزورون ٥-١٠ أسواق مختلفة كل موسم."},
         {type:"mc",q:"Walking through snow, Verumius feels:",opts:["warm and content, like he belongs","cold and lonely","angry about the weather","worried about tomorrow"],ans:"warm and content, like he belongs",hint:"خبز هاينريش في حقيبته. دفء النبيذ الساخن في قلبه."},

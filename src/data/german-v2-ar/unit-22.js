@@ -37,9 +37,9 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
         {type:"fb",s:"Die Temperaturen {1} jedes Jahr.",a:["steigen"],opts:["steigen","sinken","reduzieren","kontrollieren"],hint:"أيّ فعل يعني 'يرتفع'؟ درجات الحرارة تصعد، وليس تنخفض.",sSrc:"درجات الحرارة ترتفع كل عام."},
         {type:"match",pairs:[
     {trg:"Umwelt",src:"البيئة"},
-    {trg:"Klima",src:"climate"},
-    {trg:"Energie",src:"energy"},
-    {trg:"Durchschnitt",src:"average"}
+    {trg:"Klima",src:"مناخ"},
+    {trg:"Energie",src:"طاقة"},
+    {trg:"Durchschnitt",src:"متوسّط"}
 ]},
         {type:"story",speaker:"narrator",mood:"satisfied",art:"de-office-presentation",trg:"Stille im Raum. Dann Applaus. Nicht perfekt, nicht fehlerfrei. Aber auf Deutsch. Ein ganzer Vortrag auf Deutsch. Verumius atmet aus. Der erste Schritt ist getan.",src:"صمت في القاعة. ثم تصفيق. ليس مثالياً، وليس خالياً من العيوب. لكنه كان بالألمانية. عرض تقديمي كامل بالألمانية. يأخذ فيروميوس نفساً. الخطوة الأولى تمّت."},
         {type:"mc",q:"Was bedeutet 'im Durchschnitt'?",opts:["on average","extremely high","somewhere in total","at most once"],ans:"on average",hint:"فكّر في معنى الكلمة."},
@@ -80,10 +80,10 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
         {type:"mc",q:"Dein deutscher Nachbar schimpft, weil du einen Joghurtbecher in die falsche Tonne geworfen hast. In welche Tonne gehört Verpackung?",opts:["Braune Tonne","Gelbe Tonne","Blaue Tonne","Schwarze Tonne"],ans:"Gelbe Tonne",hint:"أيّ حاوية ملوّنة مخصّصة للتغليف والبلاستيك؟ ليست الزرقاء (الورق) وليست البنية (العضوية)."},
         {type:"fb",s:"Dieser Tisch ist aus {1} gemacht.",a:["Holz"],opts:["Holz","Metall","Luft","Handel"],hint:"من أيّ مادة تُصنع الطاولة عادةً؟ فكّر في الأشجار.",sSrc:"هذه الطاولة مصنوعة من الخشب."},
         {type:"match",pairs:[
-    {trg:"Handel",src:"trade"},
-    {trg:"Export",src:"export"},
-    {trg:"Industrie",src:"industry"},
-    {trg:"Produktion",src:"production"}
+    {trg:"Handel",src:"تجارة"},
+    {trg:"Export",src:"تصدير"},
+    {trg:"Industrie",src:"صناعة"},
+    {trg:"Produktion",src:"إنتاج"}
 ]},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-office-kitchen",trg:"Vier Tonnen, vier Farben, null Fehler. Mia wäre stolz. Lukas nennt mich den Mülldiktator. Ich nehme das als Kompliment.",src:"أربع حاويات، أربعة ألوان، صفر أخطاء. ستكون ميا فخورة. يسمّيني لوكاس دكتاتور النفايات. أتقبّل ذلك بوصفه مدحاً."},
         {type:"mc",q:"Diese Fabrik produziert Solarpanels für den Export. Was bedeutet 'produzieren'?",opts:["to import","to trade","to control","to produce"],ans:"to produce",hint:"فكّر في معنى الكلمة."}
@@ -321,10 +321,10 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
         {type:"mc",q:"Es donnert, es blitzt, und der Wind ist extrem stark. Welches Wort beschreibt dieses Wetter?",opts:["Sturm","Durchschnitt","Schatten","Umgebung"],ans:"Sturm",hint:"رعد وبرق ورياح شديدة. فكّر في ما نسمّي حدثاً جوياً قاسياً."},
         {type:"fb",s:"Das Problem {1} sich lösen.",a:["lässt"],opts:["lässt","lassen","lass","lasst"],hint:"sich lassen + المصدر = يمكن القيام به. فكّر في صيغة الغائب المفرد.",sSrc:"يمكن حلّ المشكلة."},
         {type:"match",pairs:[
-    {trg:"der lachende Mann",src:"Partizip I (ongoing)"},
-    {trg:"der gelesene Brief",src:"Partizip II (completed)"},
-    {trg:"Ich lasse reparieren",src:"lassen causative"},
-    {trg:"Das lässt sich machen",src:"sich lassen passive"}
+    {trg:"der lachende Mann",src:"اسم الفاعل (مستمر)"},
+    {trg:"der gelesene Brief",src:"اسم المفعول (مكتمل)"},
+    {trg:"Ich lasse reparieren",src:"صيغة السببية مع lassen"},
+    {trg:"Das lässt sich machen",src:"المبني للمجهول مع sich lassen"}
 ]},
         {type:"story",speaker:"lukas",mood:"sheepish",art:"de-park-cleanup",trg:"Mia, ich habe die falschen Tüten mitgebracht. Aber ich habe drei Stunden lang Dreck gesammelt! Das zählt doch auch, oder?",src:"ميا، لقد أحضرت الأكياس الخطأ. لكنني جمعت الوسخ لثلاث ساعات! هذا يُحتسب أيضاً، أليس كذلك؟"},
         {type:"story",speaker:"mia",mood:"amused",art:"de-park-cleanup",trg:"Es zählt, Lukas. Es zählt. Nächstes Mal bringe ich dir die richtigen Tüten mit. Und eine Liste.",src:"يُحتسب يا لوكاس. يُحتسب. في المرة القادمة سأحضر لك الأكياس الصحيحة. وقائمة."},

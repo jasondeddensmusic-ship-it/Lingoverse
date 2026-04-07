@@ -31,10 +31,10 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"mc",q:"Leipzig nennt sich Heldenstadt. Wofür kämpften die Menschen 1989?",opts:["Erinnerung","Gesellschaft","Freiheit","Grenze"],ans:"Freiheit",hint:"كان هذا ما يطالب به المتظاهرون في لايبزيغ عام 1989. فكّر في نقيض القمع."},
         {type:"fb",s:"Die Berliner {1} fiel am 9. November 1989.",a:["Mauer"],opts:["Mauer","Grenze","Freiheit","Gesellschaft"],hint:"قسّم هذا البناء مدينةً لمدة 28 عاماً. وقد غيّر سقوطه عام 1989 مجرى التاريخ.",sSrc:"سقط جدار برلين في التاسع من نوفمبر 1989."},
         {type:"match",pairs:[
-    {trg:"Grenze",src:"border"},
+    {trg:"Grenze",src:"حدود"},
     {trg:"Freiheit",src:"الحرية"},
-    {trg:"Erinnerung",src:"memory"},
-    {trg:"Vergangenheit",src:"past"}
+    {trg:"Erinnerung",src:"ذاكرة"},
+    {trg:"Vergangenheit",src:"ماضٍ"}
 ]},
         {type:"mc",q:"Leipzig wird 'Heldenstadt' genannt. Warum?",opts:[
     "Wegen seiner vielen Burgen und Schlösser",
@@ -80,10 +80,10 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"fb",s:"Die Bürger forderten {1} und Demokratie.",a:["Freiheit"],opts:["Freiheit","Gewalt","Krieg","Kampf"],hint:"سار المواطنون وجازفوا بالاعتقال للمطالبة بهذا. وهو ما تسلبه الأنظمة الاستبدادية.",sSrc:"طالب المواطنون بالحرية والديمقراطية."},
         {type:"mc",q:"Öffentlichkeit kommt von offen. Was bedeutet öffentlich?",opts:["open","public","official","honest"],ans:"public",hint:"ما هو مفتوح (offen) يخص الجميع ومرئي للجميع."},
         {type:"match",pairs:[
-    {trg:"Bevölkerung",src:"population"},
-    {trg:"Gewalt",src:"violence"},
-    {trg:"Wahl",src:"election"},
-    {trg:"Rede",src:"speech"}
+    {trg:"Bevölkerung",src:"سكان"},
+    {trg:"Gewalt",src:"عنف"},
+    {trg:"Wahl",src:"انتخابات"},
+    {trg:"Rede",src:"خطاب"}
 ]},
         {type:"mc",q:"Was bedeutet 'die Politikerin'?",opts:["the reform","the citizen (male)","politics","the politician (female)"],ans:"the politician (female)",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Was bedeutet {1}?",a:["sozial"],opts:["die Rede","sozial","die B\\u00fcrgerin","die \\u00d6ffentlichkeit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"What does sozial mean?"},
@@ -311,11 +311,11 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"fb",s:"Die Friedensgebete in der Nikolaikirche haben die {1} völlig verändert.",a:["Gesellschaft"],opts:["Gesellschaft","Gemeinschaft","Versammlung","Bevölkerung"],hint:"أي كلمة تعني المجتمع بوصفه بنية كاملة، لا مجرد جماعة محلية؟",sSrc:"غيّرت صلوات السلام في كنيسة نيكولاي المجتمع تغييراً جذرياً."},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-lei-walk",trg:"Ich verstehe jetzt, warum Mia so stolz auf Leipzig ist. Und ich verstehe, warum Hildi geweint hat. Die Vergangenheit lebt in den Wörtern. Jedes Wort trägt eine Erinnerung.",src:"أفهم الآن لماذا تفخر ميا بلايبزيغ. وأفهم لماذا بكت هيلدي. الماضي يعيش في الكلمات. كل كلمة تحمل ذكرى."},
         {type:"match",pairs:[
-    {trg:"Flucht",src:"escape"},
-    {trg:"Erfindung",src:"invention"},
-    {trg:"Standpunkt",src:"point of view"},
-    {trg:"Heimweh",src:"homesickness"},
-    {trg:"Nachwuchs",src:"young talent"}
+    {trg:"Flucht",src:"هروب"},
+    {trg:"Erfindung",src:"اختراع"},
+    {trg:"Standpunkt",src:"وجهة نظر"},
+    {trg:"Heimweh",src:"حنين للوطن"},
+    {trg:"Nachwuchs",src:"موهبة شابّة"}
 ]}
       ]},
 // ─── L14: Leipziger Allerlei ───
@@ -360,9 +360,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"match",pairs:[
     {trg:"Änderung",src:"التغيير"},
     {trg:"Frieden",src:"السلام"},
-    {trg:"Kreis",src:"circle/district"},
-    {trg:"gründen",src:"to found"},
-    {trg:"einander",src:"each other"}
+    {trg:"Kreis",src:"دائرة / منطقة"},
+    {trg:"gründen",src:"يؤسّس"},
+    {trg:"einander",src:"بعضهم البعض"}
 ]},
         {type:"story",speaker:"narrator",mood:"bittersweet",art:"de-lei-hbf",trg:"Der ICE zurück nach Berlin. Verumius schaut aus dem Fenster. Leipzig wird kleiner. Er denkt an die Palmen-Säulen, an Hildis Fotoalbum, an Werners Gesicht auf dem alten Foto. Du kannst ruhig du sagen. Er lächelt. Manche Wörter verändern alles.",src:"قطار ICE العائد إلى برلين. ينظر فيروميوس من النافذة. تتصاغر لايبزيغ. يفكر في الأعمدة النخلية وفي ألبوم هيلدي وفي وجه فيرنر في الصورة القديمة. يمكنك أن تناديني بـ du. يبتسم. بعض الكلمات تُغيّر كل شيء."}
       ]}

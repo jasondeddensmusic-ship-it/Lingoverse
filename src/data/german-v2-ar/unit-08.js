@@ -282,12 +282,12 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
             "...weil es recyceln man kann."
           ],ans:"...weil man es recyceln kann.",hint:"في جملة weil، الفعل المساعد يذهب إلى النهاية بعد المصدر."},
         {type:"match",pairs:[
-            {trg:"am besten",src:"the best"},
-            {trg:"am härtesten",src:"the hardest"},
-            {trg:"am süßesten",src:"the sweetest"},
-            {trg:"am schärfsten",src:"the sharpest/spiciest"},
-            {trg:"am stärksten",src:"the strongest"},
-            {trg:"am sauersten",src:"the sourest"}
+            {trg:"am besten",src:"الأفضل"},
+            {trg:"am härtesten",src:"الأصعب"},
+            {trg:"am süßesten",src:"الأحلى"},
+            {trg:"am schärfsten",src:"الأحرّ"},
+            {trg:"am stärksten",src:"الأقوى"},
+            {trg:"am sauersten",src:"الأكثر حموضة"}
           ]},
         {type:"drag_fill",s:"Verumius stellt die Flasche {1} den Glascontainer, weil Glas {2} als Plastik {3}.",blanks:{"1":"in","2":"besser","3":"ist"},pool:["in","auf","besser","gut","ist","hat"],hint:"اتجاه إلى داخل حاوية (Wechselpräp مع Akkusativ)، ثم مقارنة، ثم الفعل في نهاية جملة weil.",sSrc:"يضع فيروميوس الزجاجة في حاوية الزجاج لأن الزجاج أفضل من البلاستيك."},
         {type:"fb",s:"Wir gehen nach Hause, weil es schon {1} ist.",a:"spät",opts:["spät","langsam","kalt","voll"],hint:"فكّر فيما يجعلك تذهب للبيت، يتأخر الوقت."},
@@ -557,7 +557,7 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
             {trg:"dafür",pos:"adv",gender:null,src:"for it"},
             {trg:"auf jeden Fall",pos:"adv",gender:null,src:"absolutely"},
             {trg:"die Schere",pos:"noun",gender:"f",src:"the scissors"},
-            {trg:"das Gerät",src:"the device"}
+            {trg:"das Gerät",src:"الجهاز"}
           ]},
         {type:"story",speaker:"narrator",mood:"content",art:"de-courtyard-evening",trg:"Verumius geht die Treppe hinunter. Im Briefkasten liegt ein Zettel von Mia: 'Samstag, 8 Uhr, Volkspark. Keine Ausreden!' Er lacht und steckt den Zettel in die Tasche. Er gehört jetzt dazu.",src:"ينزل فيروميوس الدرج. في صندوق البريد رسالة من ميا: 'السبت، 8 صباحاً، Volkspark. لا أعذار!' يضحك ويضع الرسالة في جيبه. إنه ينتمي الآن."}
       ]}

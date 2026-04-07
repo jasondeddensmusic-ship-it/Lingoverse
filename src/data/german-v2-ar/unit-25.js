@@ -95,10 +95,10 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
         {type:"teach",trg:"forschen",src:"يجري بحثاً، يستقصي",pos:"verb",gender:null,note:"فعل منتظم. من 'Forschung' (بحث).\nالفعل الكامن وراء كل استفسار علمي.",example:"A: Forschst du gerade an einem Thema?\nB: Ja, ich forsche über Sprachveraenderungen.\nA: Wie lange forscht man für eine Hausarbeit?\nB: Mindestens zwei bis drei Wochen.",exampleSrc:"أ: هل تبحث حالياً في موضوع ما؟\nب: نعم، أبحث في تغير اللغة.\nأ: كم يستغرق البحث لورقة فصلية؟\nب: أسبوعان إلى ثلاثة على الأقل.",funFact:"'Forschung' (بحث) هو الشكل الاسمي. تستثمر ألمانيا بكثافة في Forschung und Entwicklung (البحث والتطوير). 'Der Forscher' و'die Forscherin' هما اسما الفاعل. تشتهر ألمانيا بـ Grundlagenforschung (البحث الأساسي)."},
         {type:"fb",s:"Bevor man forscht, muss man eine {1} aufstellen.",a:["Hypothese"],opts:["Hypothese","Statistik","Quelle","Mensa"],hint:"تخمين مدروس حول ما سيكشفه البحث. من أصل يوناني.",sSrc:"قبل إجراء البحث، يجب أن تطرح فرضية."},
         {type:"match",pairs:[
-    {trg:"analysieren",src:"die Analyse"},
-    {trg:"untersuchen",src:"die Untersuchung"},
-    {trg:"forschen",src:"die Forschung"},
-    {trg:"definieren",src:"die Definition"}
+    {trg:"analysieren",src:"التحليل"},
+    {trg:"untersuchen",src:"الفحص / التحقيق"},
+    {trg:"forschen",src:"البحث العلمي"},
+    {trg:"definieren",src:"التعريف"}
 ]},
         {type:"mc",q:"Welcher Ausdruck gehört in eine wissenschaftliche Arbeit?",opts:[
     "Ich finde das cool.",
@@ -223,10 +223,10 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
         {type:"fb",s:"Die {1} der Ergebnisse dauerte drei Monate.",a:["Auswertung"],opts:["Auswertung","Auswerten","Ausgewertet","Wertung"],hint:"حوّل الفعل 'auswerten' إلى اسم باستخدام أكثر لاحقة اسمية إنتاجية في الألمانية.",sSrc:"استغرق تحليل النتائج ثلاثة أشهر."},
         {type:"drag_fill",s:"Man kann die Qualität {1} und die Ergebnisse kritisch {2}.",blanks:{"1":"bewerten","2":"hinterfragen"},pool:["bewerten","hinterfragen","Bewertung","Hinterfragung","bewertet","hinterfragt"],hint:"الفراغان كلاهما أفعال في صيغة المصدر. أحدهما يعبّر عن حكم نوعي، والآخر يعبّر عن فحص نقدي من خلف السطح."},
         {type:"match",pairs:[
-    {trg:"die Verbesserung",src:"verbessern"},
-    {trg:"die Erklärung",src:"erklären"},
-    {trg:"die Bewertung",src:"bewerten"},
-    {trg:"die Beobachtung",src:"beobachten"}
+    {trg:"die Verbesserung",src:"يُحسّن"},
+    {trg:"die Erklärung",src:"يشرح"},
+    {trg:"die Bewertung",src:"يُقيّم"},
+    {trg:"die Beobachtung",src:"يراقب"}
 ]},
         {type:"mc",q:"Im akademischen Deutsch ist 'kritisch' ein positives Wort. Was bedeutet es?",opts:[
     "negativ und ablehnend",
@@ -337,10 +337,10 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
         {type:"teach",trg:"recherchieren",src:"يبحث، يُحقق",pos:"verb",gender:null,note:"من الفرنسية 'rechercher'. فعل نشط للبحث عن المصادر.\nأكثر تحديداً من 'forschen': بحث موجّه عن المصادر.",example:"A: Hast du das Thema gut recherchiert?\nB: Ja, ich habe drei Datenbanken durchsucht.\nA: Wie lange hast du recherchiert?\nB: Fünf Stunden. Gruendliche Recherche braucht Zeit.",exampleSrc:"أ: هل بحثت في الموضوع جيداً؟\nب: نعم، بحثت في ثلاث قواعد بيانات.\nأ: كم استغرق البحث؟\nب: خمس ساعات. البحث الدقيق يستغرق وقتاً.",funFact:"مُستعار من الفرنسية 'rechercher' في القرن الثامن عشر. أكثر تحديداً من forschen: تقوم بـ recherchieren حين تبحث بنشاط عن مصادر. الصحفيون والأكاديميون كلاهما يقوم بـ recherchieren. الاسم هو 'die Recherche'."},
         {type:"drag_fill",s:"Zuerst {1} man die Quellen, dann {2} man die Ergebnisse.",blanks:{"1":"recherchiert","2":"analysiert"},pool:["recherchiert","analysiert","Recherche","Analyse","verfasst","zitiert"],hint:"فعلان أكاديميان: أولاً تبحث عن المصادر، ثم تُقيّم النتائج. كلاهما مثالان على الفعلنة."},
         {type:"match",pairs:[
-    {trg:"Plagiat",src:"plagiarism"},
-    {trg:"Fussnote",src:"footnote"},
-    {trg:"Gliederung",src:"outline"},
-    {trg:"Einleitung",src:"introduction"}
+    {trg:"Plagiat",src:"سرقة أدبية"},
+    {trg:"Fussnote",src:"حاشية"},
+    {trg:"Gliederung",src:"مخطّط"},
+    {trg:"Einleitung",src:"مقدّمة"}
 ]},
         {type:"story",speaker:"yilmaz",mood:"warm",art:"de-uni-library-corridor",trg:"Verumius, eine letzte Sache. Die Hausarbeit ist nicht das Ziel. Sie ist das Werkzeug. Du lernst, einen Gedanken bis zum Ende zu verfolgen. Das ist die eigentliche Fähigkeit.",src:"فيروميوس، شيء أخير. الورقة البحثية ليست الهدف. إنها الأداة. أنت تتعلم كيف تتبع فكرة حتى استنتاجها. هذه هي المهارة الحقيقية."},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-uni-verumius-desk-night",trg:"Zweiundzwanzig Uhr. Die Bibliothek schliesst. Verumius packt seine Bücher ein. Die Gliederung steht. Die Forschungsfrage ist formuliert. Hätte ihm jemand vor einem Jahr gesagt, dass er eine wissenschaftliche Arbeit auf Deutsch schreiben würde, hätte er es für einen schlechten Witz gehalten.",src:"العاشرة مساءً. تُغلق المكتبة أبوابها. يحزم فيروميوس كتبه. الهيكلة جاهزة. السؤال البحثي مصاغ. لو أخبره أحد قبل عام أنه سيكتب ورقة أكاديمية باللغة الألمانية، لاعتبر الأمر مزحة سمجة."},
@@ -403,10 +403,10 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
 ],ans:"Eine akademische Abteilung für ein bestimmtes Fachgebiet",hint:"اسم مركّب: الجزء الأول يسمّي تخصصاً أكاديمياً، والجزء الثاني يعني منطقة أو مجالاً. قسم مؤسسي."},
         {type:"drag_fill",s:"Zuerst {1} man eine Hypothese, dann versucht man, sie zu {2} oder zu widerlegen.",blanks:{"1":"stellt","2":"belegen"},pool:["stellt","belegen","aufstellt","bewiesen","widerlegen","formuliert"],hint:"الفراغ الأول هو جذر منفصل لفعل قابل للفصل يعني «يضع أو يُؤسّس». يقع البادئة في نهاية الجملة."},
         {type:"match",pairs:[
-    {trg:"Stichprobe",src:"random sample"},
-    {trg:"Forschungsfrage",src:"research question"},
-    {trg:"Wirksamkeit",src:"effectiveness"},
-    {trg:"Leistungsnachweis",src:"certificate of achievement"}
+    {trg:"Stichprobe",src:"عيّنة عشوائية"},
+    {trg:"Forschungsfrage",src:"سؤال بحثي"},
+    {trg:"Wirksamkeit",src:"فعالية"},
+    {trg:"Leistungsnachweis",src:"شهادة إنجاز"}
 ]},
         {type:"mc",q:"Wäre die Einleitung präziser formuliert worden, hätte der Dozent die Bewertung besser ausfallen lassen. Wie viele Grammatikkonstruktionen erscheinen?",opts:[
     "Zwei: Konjunktiv II Vergangenheit + Nominalisierung",
@@ -470,10 +470,10 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
         {type:"fb",s:"Die {1} der Forschungsergebnisse bestätigte die Hypothese.",a:["Auswertung"],opts:["Auswertung","Ausgewertet","Auswerten","Wertung"],hint:"طبّق التسمية القياسية بالنهاية «-ung» على الفعل «auswerten». والنتيجة هي الاسم للتحليل المنهجي للبيانات.",sSrc:"تقييم نتائج البحث أكّد الفرضية."},
         {type:"drag_fill",s:"Auf der {1} dieser Befunde können wir {2}, dass die Methode wirksam ist.",blanks:{"1":"Grundlage","2":"schlussfolgern"},pool:["Grundlage","schlussfolgern","Grund","geschlussfolgert","Schlussfolgerung","folgern"],hint:"استناداً إلى هذه النتائج يمكننا الاستنتاج بأن... أولاً تسمية (أساس/قاعدة)، ثم فعل (يستخلص استنتاجاً)."},
         {type:"match",pairs:[
-    {trg:"Nominalisierung",src:"making nouns from verbs"},
-    {trg:"Verbalisierung",src:"making verbs from nouns"},
-    {trg:"Konjunktiv II Vergangenheit",src:"hypothetical past"},
-    {trg:"Fussnote",src:"footnote"}
+    {trg:"Nominalisierung",src:"اشتقاق الأسماء من الأفعال"},
+    {trg:"Verbalisierung",src:"اشتقاق الأفعال من الأسماء"},
+    {trg:"Konjunktiv II Vergangenheit",src:"ماضٍ افتراضي"},
+    {trg:"Fussnote",src:"حاشية"}
 ]},
         {type:"mc",q:"Was bedeutet 'Gerechtigkeit'?",opts:[
     "Vollstaendige Gleichfoermigkeit",

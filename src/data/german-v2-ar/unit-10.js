@@ -241,11 +241,11 @@ const UNIT_10_AR = {n:10,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Bahn"
         {type:"drag_fill",s:"Verumius {1} zum Platz {2} und hat seinen Rucksack {3}.",blanks:{"1":"ist","2":"gegangen","3":"genommen"},pool:["ist","hat","gegangen","genommen","gefahren","gemacht"],hint:"المشي إلى المقعد يستخدم sein. أخذ حقيبة الظهر يستخدم haben.",sSrc:"ذهب فيروميوس إلى المقعد وأخذ حقيبة ظهره."},
         {type:"drag_fill",s:"Verumius {1} mit dem ICE {2} und {3} in Frankfurt {4}.",blanks:{"1":"ist","2":"gefahren","3":"ist","4":"angekommen"},pool:["ist","ist","hat","hat","gefahren","angekommen","gefahrt","ankommt"],hint:"fahren و ankommen كلاهما فعلا حركة. كلاهما يحتاج sein.",sSrc:"سافر فيروميوس بقطار ICE ووصل إلى فرانكفورت."},
         {type:"match",pairs:[
-    {trg:"gefahren",src:"driven/traveled"},
-    {trg:"gegangen",src:"went/walked"},
-    {trg:"angekommen",src:"arrived"},
-    {trg:"geflogen",src:"flew"},
-    {trg:"reserviert",src:"reserved"}
+    {trg:"gefahren",src:"سافر / قاد"},
+    {trg:"gegangen",src:"ذهب / مشى"},
+    {trg:"angekommen",src:"وصل"},
+    {trg:"geflogen",src:"طار"},
+    {trg:"reserviert",src:"متحفّظ"}
 ]}
       ]},
 // ─── L6: Koffer packen ───
@@ -303,10 +303,10 @@ const UNIT_10_AR = {n:10,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Bahn"
         {type:"drag_fill",s:"Wenn ich nach Berlin {1}, {2} ich immer direkt am Bahnhof.",blanks:{"1":"fahre","2":"parke"},pool:["fahre","parke","fährt","parken"],hint:"جملة wenn: الفعل في النهاية. الجملة الرئيسية: الفعل في المرتبة الثانية بعد الفاصلة.",sSrc:"عندما أسافر إلى برلين، أركن دائماً مباشرة عند المحطة."},
         {type:"fb",s:"Wenn der Zug direkt {1}, muss man nicht umsteigen.",a:"fährt",opts:["fährt","fahren","gefahren","fuhr"],hint:"المضارع، الغائب المفرد من fahren.",sSrc:"إذا ذهب القطار مباشرة، لا يحتاج المرء إلى التحويل."},
         {type:"match",pairs:[
-    {trg:"Wenn es regnet, ...",src:"verb-final: regnet at end"},
-    {trg:"..., weil er müde war.",src:"verb-final: war at end"},
-    {trg:"Ich weiß, dass er kommt.",src:"verb-final: kommt at end"},
-    {trg:"Ich frage, ob sie parkt.",src:"verb-final: parkt at end"}
+    {trg:"Wenn es regnet, ...",src:"الفعل في النهاية: regnet آخراً"},
+    {trg:"..., weil er müde war.",src:"الفعل في النهاية: war آخراً"},
+    {trg:"Ich weiß, dass er kommt.",src:"الفعل في النهاية: kommt آخراً"},
+    {trg:"Ich frage, ob sie parkt.",src:"الفعل في النهاية: parkt آخراً"}
 ]},
         {type:"mc",q:"Which sentence has correct word order?",opts:[
     "Ich weiß, dass er den Koffer gepackt hat.",
@@ -516,7 +516,7 @@ const UNIT_10_AR = {n:10,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Bahn"
         {type:"fb",s:"Ich fahre auch nach München. Ich fahre {1}.",a:"dorthin",opts:["dorthin","vorne","zuletzt","hinter"],hint:"أي كلمة تعني إلى هناك، تُظهر الاتجاه؟",sSrc:"أنا أيضاً ذاهب إلى ميونخ. أنا ذاهب إلى هناك."},
         {type:"mc",q:"Was ist eine Jugendherberge?",opts:["A youth hostel","A train station","A restaurant","A school"],ans:"A youth hostel",hint:"فكّر في الكلمة المركبة: Jugend + Herberge."},
         {type:"match",pairs:[
-    {trg:"der Führerschein",src:"driver's license"},
+    {trg:"der Führerschein",src:"رخصة قيادة"},
     {trg:"die Hauptstadt",pos:"noun",gender:"f",src:"capital city"},
     {trg:"die Unterkunft",pos:"noun",gender:"f",src:"accommodation"},
     {trg:"das Paket",pos:"noun",gender:"n",src:"package"},
@@ -550,10 +550,10 @@ const UNIT_10_AR = {n:10,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Bahn"
         {type:"fb",s:"Die Jugendherberge liegt {1} der Innenstadt.",a:"außerhalb",opts:["außerhalb","hinter","vorne","wegen"],hint:"حرف جر يعني خارج، ويأخذ حالة الإضافة.",sSrc:"بيت الشباب يقع خارج وسط المدينة."},
         {type:"match",pairs:[
     {trg:"wegen",pos:"prep",gender:null,src:"because of"},
-    {trg:"außerhalb",src:"outside of"},
+    {trg:"außerhalb",src:"خارج"},
     {trg:"hinter",pos:"prep",gender:null,src:"behind"},
     {trg:"pro",pos:"prep",gender:null,src:"per"},
-    {trg:"vorne",src:"at the front"},
+    {trg:"vorne",src:"في المقدّمة"},
     {trg:"dorther",pos:"adv",gender:null,src:"from there"}
 ]},
         {type:"fb",s:"Ich {1} schon zwanzig Minuten auf den Zug.",a:"warte",opts:["warte","fahre","liefere","trage"],hint:"هذا الفعل يعني ينتظر. المتكلم المفرد في المضارع.",sSrc:"أنتظر القطار منذ عشرين دقيقة."},
