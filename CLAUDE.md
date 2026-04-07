@@ -269,8 +269,8 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Korean | v1 (old) | 30 | 330 | 6,953 | ~1,367 | Production-ready. Most audited. Pending rehaul. |
 | Dutch | v2 (old) | 30 | 261 | ~5,825 | ~1,300 | Production-ready. Pending rehaul. |
 | German v1 | v1 (old) | 30 | 259 | ~4,941 | ~1,297 | Being replaced by v2. |
-| German v2 | v2 (new) | 36 | 369 | 9,396 | 5,147 | **PERFECT.** All validations PASS: PP8, PP43, PP48, PP52, PP59, PP61. |
-| German v2 (AR) | v2 (new) | 36 | ~369 | ~9,396 | ~5,147 | **COMPLETE.** All 36 units translated. Grammar (58), idioms (125), CEFR vocab (4,699/4,699). VocabularyPage WORD_DB translations not yet Arabic. |
+| German v2 | v2 (new) | 36 | 558 | ~11,000 | 5,148 | **PERFECT.** 189 lessons split for PP64. All validations PASS: PP8 (0/2849), PP43, PP48, PP52, PP59, PP61, PP64 (99.9%). Automated validators in `scripts/`. |
+| German v2 (AR) | v2 (new) | 36 | 558 | ~11,000 | ~5,148 | **SYNCED with EN.** Lesson splits applied. Per-bubble dialogue fixed. **NEEDS AUDIT**: native speaker reports Arabic translations feel unnatural/textbook-stiff. See handoff. |
 | French | v1 (old) | 30 | 258 | ~4,781 | ~1,077 | Production-ready. Pending rehaul. |
 | Spanish | v1 (old) | 30 | 258 | ~4,739 | ~1,062 | Production-ready. Pending rehaul. |
 | Arabic | skeleton | 5 | 29 | — | — | Deferred until new format established. |
@@ -312,6 +312,15 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **Arabic idioms** (2026-04-06): srcAr/litAr/noteAr added to all 125 entries in idioms-german.js. Arabic proverb equivalents bridged. IdiomsPage wired for baseLang=ar.
 - **Arabic CEFR vocab** (2026-04-06): trAr field on 4,199 of 4,699 entries (A1: 677, A2: 723/1,223, B1: 2,799). CefrReferencePage wired with baseLang + RTL. 500 A2 entries remain.
 - **i18n + RTL polish** (2026-04-07): 50+ UI strings localized for Arabic (LearnPage, CefrReferencePage, IdiomsPage, GrammarPage, Profile). RTL isolation via CSS utility classes (trg-text, trg-inline, meta-text) — German punctuation displays correctly in RTL pages. 24 unit subtitles translated. Tip/deepDive noColor readability fix.
+- **Quiz interleaving** (2026-04-07): ~876 new mc/fb quiz steps interleaved across all 36 units. Max consecutive teach run reduced from 26 to ≤6. All lessons now have quizzes between teach card groups.
+- **PP8 zero violations** (2026-04-07): 696 total PP8 violations fixed across 3 passes. Automated validator `scripts/pp8_validate.cjs` confirms 0/2,849 quiz steps with leaks.
+- **PP64 lesson splits** (2026-04-07): 189 lessons split at natural thematic break points (369→558 lessons). 308 quiz steps added for untested teach cards. PP64 coverage: 99.9%. Automated validator `scripts/pp64_validate.cjs`.
+- **PP43 density restored** (2026-04-07): 87 over-dense lessons trimmed back to ≤32 steps after quiz interleaving. 218 excess quizzes removed.
+- **PP61 U32 metalanguage** (2026-04-07): 66 German-only teach.note fields in unit-32 translated to English. 11 additional in U5/U9/U10/U12/U17.
+- **PP49 CEFR labels** (2026-04-07): 17 quiz fields referencing A1/A2/B1/B2 replaced with "fortgeschritten" or "Goethe-Prüfung".
+- **Arabic per-bubble fix** (2026-04-07): Dialogue regex `/[AB]:\s/` → `/[ABأب]:\s/` in all 4 teach card renderers. 3,767 Arabic dialogue examples now render as per-turn bubbles.
+- **Arabic unit split sync** (2026-04-07): AR units synced from 369→558 lessons matching EN structure. `scripts/sync_ar_splits.cjs`.
+- **Arabic content audit NEEDED** (2026-04-07): Native Arabic speaker reports translations feel unnatural/textbook-stiff. Full audit of Arabic metalanguage (notes, funFacts, exampleSrc, grammar explanations) required. See `docs/SESSION_HANDOFF_2026-04-07d.md`.
 
 ### Known Blockers
 1. ~~41 lessons over 32-step cap~~ — **RESOLVED.** All 41 splits completed. Zero violations remain.
@@ -338,6 +347,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 22. ~~Cases grammar pack empty~~ — **RESOLVED.** colorMap filled with preposition/article/pronoun mappings. Case-specific colors pending data model.
 23. ~~Arabic A1+A2 [AR] markers~~ — **RESOLVED.** Zero markers remain in A1+A2 content.
 24. **VocabularyPage WORD_DB** — Word meanings/definitions in `dictionary.js` are English only. Arabic source users see English definitions in the word popup. Scope: translate WORD_DB entry `meanings` + `note` fields to Arabic, or add `meaningsAr`/`noteAr` parallel fields.
+25. **Arabic content quality audit** — Native Arabic speaker reports translations feel unnatural/textbook-stiff (MSA too formal, explanations not clear). All 5,148 teach cards' Arabic fields (`src`, `note`, `exampleSrc`, `funFact`) across `german-v2-ar/` need native review. Grammar module (58 entries in `grammar/german-ar.js`) and idioms (125 entries) also affected. Priority: get specific feedback patterns from native speaker first, then systematic rewrite. See `docs/SESSION_HANDOFF_2026-04-07d.md` for detailed audit plan.
 
 ---
 
@@ -421,7 +431,8 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-07c.md`** — **Latest handoff.** Plumbing fixed, breathers live, quiz interleaving is Priority 1.
+- **`docs/SESSION_HANDOFF_2026-04-07d.md`** — **Latest handoff.** Quiz interleaving done, PP8/PP43/PP64 all PASS, Arabic dialogue fixed, Arabic content audit needed.
+- **`docs/SESSION_HANDOFF_2026-04-07c.md`** — Previous. Plumbing fixed, breathers live.
 - **`docs/SESSION_HANDOFF_2026-04-05.md`** — Previous. Phase 1.5A complete.
 - **`docs/SESSION_HANDOFF_2026-04-04b.md`** — Previous. Phase 1 complete.
 - **`docs/PHASE1_WORKPLAN.md`** — Phase 1 work plan (DONE). Phase 2 preview.
