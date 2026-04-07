@@ -141,10 +141,10 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"mc",q:"يقول شخص 'Du sprichst kein Deutsch.' لكنّك تتكلّم الألمانية. تردّ:",opts:["Nein!","Ja!","Doch!","Bitte!"],ans:"Doch!",hint:"هذه الكلمة الخاصة تنفي النفي."},
         {type:"fb",s:"Entschuldigung, {1} Sie mir bitte den Weg zeigen?",a:["können"],opts:["können","müssen","dürfen","möchten"],hint:"أي فعل مشروط يعبر عن القدرة والطلبات المهذبة؟",sSrc:"عذرًا، هل يمكنك أن تُريني الطريق من فضلك؟"},
         {type:"story",speaker:"narrator",mood:"reflective",art:"de-berlin-street-afternoon",trg:"Verumius kann jetzt fragen, hören und verstehen. Langsam. Aber er versteht. Das ist der erste Schritt.",src:"فيروميوس يستطيع الآن أن يسأل ويستمع ويفهم. ببطء. لكنه يفهم. هذه هي الخطوة الأولى."},
-        {type:"mc",q:"Was bedeutet 'lesen'?",opts:["بجانب","يرى","يقرأ","يسمع"],ans:"يقرأ",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to see' auf Deutsch? {1}",a:["sehen"],opts:["mal","geben","zu","sehen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to see' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'hören'?",opts:["يقرأ","يُظهر، يُشير","يودّ","يسمع"],ans:"يسمع",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} Sie mich?",a:["verstehen"],opts:["dürfen","sehen","zeigen","verstehen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل تفهمني؟"}
+        {type:"mc",q:"Was bedeutet 'lesen'?",opts:["بجانب","يرى","يقرأ","يسمع"],ans:"يقرأ",hint:"فعل يتعلق بالعيون والكتب والنصوص"},
+        {type:"fb",s:"Wie sagt man 'to see' auf Deutsch? {1}",a:["sehen"],opts:["mal","geben","zu","sehen"],hint:"فعل يتعلق بالعينين والنظر إلى الأشياء",sSrc:"كيف تقول 'to see' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'hören'?",opts:["يقرأ","يُظهر، يُشير","يودّ","يسمع"],ans:"يسمع",hint:"فعل يتعلق بالأذنين والأصوات"},
+        {type:"fb",s:"{1} Sie mich?",a:["verstehen"],opts:["dürfen","sehen","zeigen","verstehen"],hint:"فعل يعني إدراك معنى الكلام المسموع",sSrc:"هل تفهمني؟"}
       ]},
 // ─── L6: Der, die, das ───
     {id:"deu_r2l5",title:"Der, die, das",icon:"🔤",xp:15,board:true,steps:[
@@ -348,8 +348,8 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"fb",s:"Können Sie mir die {1} zum Bahnhof zeigen?",a:["Richtung"],opts:["Richtung","Kreuzung","Haltestelle","Ecke"],hint:"تطلب من شخص أن يُريك الاتجاه إلى المحطة.",sSrc:"هل يمكنك أن تُريني الاتجاه إلى محطة القطار؟"},
         {type:"tip",title:"Döner Culture",text:"ألمانيا تأكل حوالي ٧٢٠ مليون دونر كباب سنويًا.\nفي برلين وحدها أكثر من ١٦٠٠ محل دونر.\nالدونر الألماني اخترعه مهاجرون أتراك في برلين في السبعينيات.\nالآن هو الوجبة السريعة الأكثر شعبية في ألمانيا، متفوقًا على البرغر والبيتزا."},
         {type:"story",speaker:"verumius",mood:"content",art:"de-spree-doner",trg:"Das Bürgeramt kann warten. Dieser Döner kann nicht. Manchmal ist der Umweg das Ziel.",src:"مكتب المواطنين يمكنه الانتظار. هذا الدونر لا يمكنه. أحيانًا المنعطف هو الوجهة."},
-        {type:"mc",q:"Was bedeutet 'der Fluss'?",opts:["يمشي، يركض","يركب، يصعد","يأخذ","النهر"],ans:"النهر",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} scheint!",a:["die Sonne"],opts:["einsteigen","laufen","die Sonne","aussteigen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"الشمس تشرق!"}
+        {type:"mc",q:"Was bedeutet 'der Fluss'?",opts:["يمشي، يركض","يركب، يصعد","يأخذ","النهر"],ans:"النهر",hint:"كلمة مذكرة (der) تصف مجرى مائي طبيعي"},
+        {type:"fb",s:"{1} scheint!",a:["die Sonne"],opts:["einsteigen","laufen","die Sonne","aussteigen"],hint:"ما الذي يضيء ويدفئ ويشرق في السماء؟",sSrc:"الشمس تشرق!"}
       ]},
 // ─── L11: Alles zusammen! ───
     {id:"deu_r2l9",title:"Alles zusammen!",icon:"🏆",xp:20,board:true,steps:[
@@ -465,9 +465,9 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
 ]},
         {type:"fb",s:"Gehen Sie {1} die Straße bis zur Kirche.",a:["durch"],opts:["durch","auf","an","ab"],hint:"فكّر في معنى الكلمة.",sSrc:"اذهب عبر الشارع إلى الكنيسة."},
         {type:"fb",s:"Wir treffen uns {1} dem Bahnhof.",a:["vor"],opts:["vor","über","durch","ab"],hint:"فكّر في معنى الكلمة.",sSrc:"سنلتقي أمام محطة القطار."},
-        {type:"mc",q:"Was bedeutet 'an'?",opts:["often","again","now","on, at (a surface or location)"],ans:"on, at (a surface or location)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} drei Uhr.",a:["gegen"],opts:["gegen","über","oft","jetzt"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"حوالي الساعة الثالثة."},
-        {type:"mc",q:"Was bedeutet 'breit'?",opts:["wide, broad","through","already","soon"],ans:"wide, broad",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'an'?",opts:["often","again","now","on, at (a surface or location)"],ans:"on, at (a surface or location)",hint:"حرف جر يدل على الملامسة أو الاتصال بسطح"},
+        {type:"fb",s:"{1} drei Uhr.",a:["gegen"],opts:["gegen","über","oft","jetzt"],hint:"حرف جر يدل على وقت تقريبي، ليس دقيقًا",sSrc:"حوالي الساعة الثالثة."},
+        {type:"mc",q:"Was bedeutet 'breit'?",opts:["wide, broad","through","already","soon"],ans:"wide, broad",hint:"صفة تصف المسافة الأفقية الكبيرة"}
       ]},
 // ─── L15: Wo ist das? ───
     {id:"deu_r2l12",title:"Wo ist das?",icon:"📍",xp:15,board:true,steps:[
@@ -507,8 +507,8 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
     {trg:"die Mitte",src:"مركز"}
 ]},
         {type:"fb",s:"{1}! Der Zug kommt.",a:["Achtung"],opts:["Achtung","Mitte","Information","Praxis"],hint:"هذه الكلمة تعني 'انتباه' أو 'حذر' وتُسمع في المحطات.",sSrc:"انتباه! القطار قادم."},
-        {type:"mc",q:"Was bedeutet 'das Dorf'?",opts:["المدخل","الموقف، المحطة","الساحة، المقعد","القرية"],ans:"القرية",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'the sight, the attraction' auf Deutsch? {1}",a:["die Sehenswürdigkeit"],opts:["der Ort","der Eingang","die Praxis","die Sehenswürdigkeit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the sight, the attraction' بالألمانية؟"}
+        {type:"mc",q:"Was bedeutet 'das Dorf'?",opts:["المدخل","الموقف، المحطة","الساحة، المقعد","القرية"],ans:"القرية",hint:"كلمة محايدة (das) تصف مكان سكني أصغر من المدينة"},
+        {type:"fb",s:"Wie sagt man 'the sight, the attraction' auf Deutsch? {1}",a:["die Sehenswürdigkeit"],opts:["der Ort","der Eingang","die Praxis","die Sehenswürdigkeit"],hint:"كلمة مركبة: sehen (يرى) + würdig (جدير) = ما يستحق المشاهدة",sSrc:"كيف تقول 'the sight, the attraction' بالألمانية؟"}
       ]},
 // ─── L17: Unterwegs ───
     {id:"deu_r2l13",title:"Unterwegs",icon:"🚌",xp:15,board:true,steps:[
@@ -554,17 +554,17 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
     {trg:"die S-Bahn",src:"قطار المدينة"},
     {trg:"der Lkw",src:"شاحنة"}
 ]},
-        {type:"mc",q:"Was bedeutet 'hoch'?",opts:["the connection (transit)","السائق","the railway, the train","high, tall"],ans:"high, tall",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ist der Bahnhof {1}?",a:["weit"],opts:["das Gleis","die Autobahn","weit","der Süden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل محطة القطار بعيدة؟"},
-        {type:"mc",q:"Was bedeutet 'so'?",opts:["the north","هكذا","the west","الشاحنة"],ans:"هكذا",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Sind {1}e da?",a:["all"],opts:["all","das Gleis","der Süden","der Norden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل الجميع هنا؟"},
-        {type:"mc",q:"Was bedeutet 'daneben'?",opts:["السائق","بجانبه","هكذا","الكل، كل"],ans:"بجانبه",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1}, im zweiten Stock.",a:["oben"],opts:["das Fahrrad","am","oben","hinten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"في الأعلى، في الطابق الثاني."},
-        {type:"mc",q:"Was bedeutet 'unten'?",opts:["down, below, downstairs","the tram, the streetcar","high, tall","back, backwards"],ans:"down, below, downstairs",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1}, am Fenster.",a:["hinten"],opts:["der Lkw","so","all","hinten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"في الخلف، بجانب النافذة."},
-        {type:"mc",q:"Was bedeutet 'draußen'?",opts:["the track, the platform","the tram, the streetcar","there (at a distance)","outside"],ans:"outside",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1}, am Ende der Straße.",a:["dort"],opts:["dort","der Süden","die Autobahn","der Norden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هناك، في نهاية الشارع."},
-        {type:"mc",q:"Was bedeutet 'zurück'?",opts:["up, above, upstairs","the track, the platform","الدراجة","back, backwards"],ans:"back, backwards",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'hoch'?",opts:["the connection (transit)","السائق","the railway, the train","high, tall"],ans:"high, tall",hint:"صفة تصف الارتفاع، عكس niedrig"},
+        {type:"fb",s:"Ist der Bahnhof {1}?",a:["weit"],opts:["das Gleis","die Autobahn","weit","der Süden"],hint:"صفة تسأل عن المسافة بين مكانين",sSrc:"هل محطة القطار بعيدة؟"},
+        {type:"mc",q:"Was bedeutet 'so'?",opts:["the north","هكذا","the west","الشاحنة"],ans:"هكذا",hint:"كلمة قصيرة جدًا تُستخدم للمقارنة والإشارة"},
+        {type:"fb",s:"Sind {1}e da?",a:["all"],opts:["all","das Gleis","der Süden","der Norden"],hint:"كلمة تعني الجميع أو كل شيء بدون استثناء",sSrc:"هل الجميع هنا؟"},
+        {type:"mc",q:"Was bedeutet 'daneben'?",opts:["السائق","بجانبه","هكذا","الكل، كل"],ans:"بجانبه",hint:"ظرف يدل على القرب المكاني من شيء آخر"},
+        {type:"fb",s:"{1}, im zweiten Stock.",a:["oben"],opts:["das Fahrrad","am","oben","hinten"],hint:"ظرف مكان يدل على الاتجاه نحو الأعلى، عكس unten",sSrc:"في الأعلى، في الطابق الثاني."},
+        {type:"mc",q:"Was bedeutet 'unten'?",opts:["down, below, downstairs","the tram, the streetcar","high, tall","back, backwards"],ans:"down, below, downstairs",hint:"ظرف يدل على الاتجاه نحو الأسفل، عكس oben"},
+        {type:"fb",s:"{1}, am Fenster.",a:["hinten"],opts:["der Lkw","so","all","hinten"],hint:"ظرف يدل على الجزء الخلفي من المكان، عكس vorne",sSrc:"في الخلف، بجانب النافذة."},
+        {type:"mc",q:"Was bedeutet 'draußen'?",opts:["the track, the platform","the tram, the streetcar","there (at a distance)","outside"],ans:"outside",hint:"ظرف يدل على الخارج، عكس drinnen"},
+        {type:"fb",s:"{1}, am Ende der Straße.",a:["dort"],opts:["dort","der Süden","die Autobahn","der Norden"],hint:"ظرف إشارة يدل على مكان بعيد عن المتكلم",sSrc:"هناك، في نهاية الشارع."},
+        {type:"mc",q:"Was bedeutet 'zurück'?",opts:["up, above, upstairs","the track, the platform","الدراجة","back, backwards"],ans:"back, backwards",hint:"ظرف يدل على العودة إلى الخلف"}
       ]},
 // ─── L19: Kommen und Gehen ───
     {id:"deu_r2l14",title:"Kommen und Gehen",icon:"🚶",xp:15,board:true,steps:[
@@ -603,13 +603,13 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
     {trg:"helfen",src:"يساعد"}
 ]},
         {type:"fb",s:"Kommst du {1}? Ich gehe ins Museum.",a:["mit"],opts:["mit","ab","aus","ein"],hint:"فكّر في معنى الكلمة.",sSrc:"هل ستأتي معي؟ أنا ذاهب إلى المتحف."},
-        {type:"mc",q:"Was bedeutet 'leihen'?",opts:["يُعير، يستعير","يبقى","يساعد","يغادر (بالطائرة)"],ans:"يُعير، يستعير",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to come along' auf Deutsch? {1}",a:["mitkommen"],opts:["wandern","mitkommen","grade","halten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to come along' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'zeigen'?",opts:["يحمل، يتوقف","يُظهر","ينتقل، يغيّر (قطار/حافلة)","يُعير، يستعير"],ans:"يُظهر",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to take along' auf Deutsch? {1}",a:["mitnehmen"],opts:["mitnehmen","abholen","auf sein","helfen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to take along' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'weiterfahren'?",opts:["يتابع القيادة","يُعير، يستعير","يحمل، يتوقف","يتنزه في الطبيعة"],ans:"يتابع القيادة",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to be open' auf Deutsch? {1}",a:["auf sein"],opts:["weiterfahren","abfliegen","zeigen","auf sein"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to be open' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'grade'?",opts:["to stand","to last, to take (time)","just, right now (colloquial)","يبقى"],ans:"just, right now (colloquial)",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'leihen'?",opts:["يُعير، يستعير","يبقى","يساعد","يغادر (بالطائرة)"],ans:"يُعير، يستعير",hint:"فعل يتعلق بإعطاء شيء مؤقتًا واسترجاعه"},
+        {type:"fb",s:"Wie sagt man 'to come along' auf Deutsch? {1}",a:["mitkommen"],opts:["wandern","mitkommen","grade","halten"],hint:"فعل مركب: mit (مع) + kommen (يأتي) = يرافق",sSrc:"كيف تقول 'to come along' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'zeigen'?",opts:["يحمل، يتوقف","يُظهر","ينتقل، يغيّر (قطار/حافلة)","يُعير، يستعير"],ans:"يُظهر",hint:"فعل يتعلق بجعل شيء مرئيًا للآخرين"},
+        {type:"fb",s:"Wie sagt man 'to take along' auf Deutsch? {1}",a:["mitnehmen"],opts:["mitnehmen","abholen","auf sein","helfen"],hint:"فعل مركب: mit (مع) + nehmen (يأخذ) = يصطحب",sSrc:"كيف تقول 'to take along' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'weiterfahren'?",opts:["يتابع القيادة","يُعير، يستعير","يحمل، يتوقف","يتنزه في الطبيعة"],ans:"يتابع القيادة",hint:"فعل مركب: weiter (أبعد) + fahren (يقود)"},
+        {type:"fb",s:"Wie sagt man 'to be open' auf Deutsch? {1}",a:["auf sein"],opts:["weiterfahren","abfliegen","zeigen","auf sein"],hint:"تعبير يدل على حالة الانفتاح، عكس zu sein",sSrc:"كيف تقول 'to be open' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'grade'?",opts:["to stand","to last, to take (time)","just, right now (colloquial)","يبقى"],ans:"just, right now (colloquial)",hint:"كلمة عامية تعني الآن تحديدًا في هذه اللحظة"}
       ]},
 // ─── L21: Rund um die Stadt ───
     {id:"deu_r2l15",title:"Rund um die Stadt",icon:"🏙️",xp:15,board:true,steps:[
@@ -626,7 +626,7 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"teach",trg:"das Meer",src:"البحر",pos:"noun",gender:"n",note:"اسم محايد. الجمع: die Meere.",example:"A: Warst du schon am Meer?\nB: Ja, die Nordsee ist wunderschön.",exampleSrc:"A: هل زرت البحر؟\nB: نعم، بحر الشمال جميل.",funFact:"ألمانيا لديها بحران: Nordsee (بحر الشمال) و Ostsee (بحر البلطيق). كلاهما وجهات عطلة شعبية."},
         {type:"teach",trg:"der See",src:"البحيرة",pos:"noun",gender:"m",note:"اسم مذكر! الجمع: die Seen. ليست نفس 'die See' (البحر).",example:"A: Gehen wir zum See?\nB: Ja, der See ist sehr schön.",exampleSrc:"A: هل نذهب إلى البحيرة؟\nB: نعم، البحيرة جميلة جدًا.",funFact:"انتبه! der See (مذكر) = بحيرة. die See (مؤنث) = بحر. نفس الإملاء، جنس مختلف، معنى مختلف!"},
         {type:"teach",trg:"der Ausflug",src:"الرحلة النهارية",pos:"noun",gender:"m",note:"اسم مذكر. الجمع: die Ausflüge. تتكون من Aus (خارج) + Flug (طيران).",example:"A: Machen wir einen Ausflug?\nB: Ja, wir machen einen Ausflug nach Potsdam.",exampleSrc:"A: هل نأخذ رحلة يومية؟\nB: نعم، نأخذ رحلة يومية إلى بوتسدام.",funFact:"الرحلات النهارية (Ausflüge) من برلين إلى بوتسدام أو شبريفالد أو زاكسنهاوزن شعبية جدًا."},
-        {type:"teach",trg:"das Foto",src:"الصورة",pos:"noun",gender:"n",note:"اسم محايد. الجمع: die Fotos.",example:"A: Kann ich ein Foto machen?\nB: Ja, natürlich! Lächeln!",exampleSrc:"A: هل يمكنني التقاط صورة؟\nB: نعم، بالطبع! Smile!",funFact:"الألمان يقولون ein Foto machen (يصنع صورة) وليس 'يأخذ صورة'. فعل مختلف نفس الفعل!"},
+        {type:"teach",trg:"das Foto",src:"الصورة",pos:"noun",gender:"n",note:"اسم محايد. الجمع: die Fotos.",example:"A: Kann ich ein Foto machen?\nB: Ja, natürlich! Lächeln!",exampleSrc:"A: هل يمكنني التقاط صورة؟\nB: نعم، طبعاً! ابتسم!",funFact:"الألمان يقولون ein Foto machen (يصنع صورة) وليس 'يأخذ صورة'. فعل مختلف نفس الفعل!"},
         {type:"teach",trg:"die Führung",src:"الجولة المرشدة",pos:"noun",gender:"f",note:"اسم مؤنث. الجمع: die Führungen. من führen (يقود).",example:"A: Gibt es eine Führung?\nB: Ja, die Führung beginnt um elf Uhr.",exampleSrc:"A: هل توجد جولة إرشادية؟\nB: نعم، الجولة تبدأ الساعة الحادية عشرة.",funFact:"جولات المشي المجانية (kostenlose Führungen) شعبية في برلين. تعطي فقط بقشيشًا في النهاية."},
         {type:"teach",trg:"die Karte",src:"الخريطة / التذكرة / البطاقة",pos:"noun",gender:"f",note:"اسم مؤنث. الجمع: die Karten. السياق يحدد المعنى.",example:"A: Hast du eine Karte?\nB: Ja, ich habe eine Karte von Berlin.",exampleSrc:"A: هل لديك خريطة؟\nB: نعم، لدي خريطة لبرلين.",funFact:"Karte تعني خريطة وتذكرة وبطاقة. Fahrkarte = تذكرة نقل. Eintrittskarte = تذكرة دخول. Kreditkarte = بطاقة ائتمان."},
         {type:"teach",trg:"der Prospekt",src:"الكتيب / النشرة",pos:"noun",gender:"m",note:"اسم مذكر. الجمع: die Prospekte.",example:"A: Haben Sie einen Prospekt?\nB: Ja, hier ist der Prospekt vom Museum.",exampleSrc:"A: هل لديك نشرة؟\nB: نعم، هذه نشرة المتحف.",funFact:"مراكز المعلومات السياحية في ألمانيا فيها دائمًا أكوام من Prospekte المجانية لكل معلم."},
@@ -649,21 +649,21 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
     {trg:"die Hilfe",src:"مساعدة"},
     {trg:"das Meer",src:"بحر"}
 ]},
-        {type:"teach",trg:"das Foto",src:"the photo",pos:"noun",gender:"n",note:"Neuter noun. Plural: die Fotos.",example:"A: Kann ich ein Foto machen?\nB: Ja, natürlich! Lächeln!",exampleSrc:"A: Can I take a photo?\nB: Yes, of course! Smile!",funFact:"Germans say 'ein Foto machen' (make a photo), not 'take a photo'. Different verb, same action!"},
-        {type:"teach",trg:"die Führung",src:"the guided tour",pos:"noun",gender:"f",note:"Feminine noun. Plural: die Führungen. From führen (to lead).",example:"A: Gibt es eine Führung?\nB: Ja, die Führung beginnt um elf Uhr.",exampleSrc:"A: Is there a guided tour?\nB: Yes, the tour starts at eleven o'clock.",funFact:"Free walking tours (kostenlose Führungen) are popular in Berlin. You just give a tip at the end."},
-        {type:"teach",trg:"die Karte",src:"the map, the ticket, the card",pos:"noun",gender:"f",note:"Feminine noun. Plural: die Karten. Context determines meaning.",example:"A: Hast du eine Karte?\nB: Ja, ich habe eine Karte von Berlin.",exampleSrc:"A: Do you have a map?\nB: Yes, I have a map of Berlin.",funFact:"Karte means map, ticket, AND card. 'Fahrkarte' = transit ticket. 'Eintrittskarte' = admission ticket. 'Kreditkarte' = credit card."},
-        {type:"teach",trg:"der Prospekt",src:"the brochure, the flyer",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Prospekte.",example:"A: Haben Sie einen Prospekt?\nB: Ja, hier ist der Prospekt vom Museum.",exampleSrc:"A: Do you have a brochure?\nB: Yes, here is the museum brochure.",funFact:"Tourist information centers in Germany always have stacks of free Prospekte for every attraction."},
-        {type:"teach",trg:"das Reisebüro",src:"وكالة السفر",pos:"noun",gender:"n",note:"Neuter noun. Plural: die Reisebüros. Reise (travel) + Büro (office).",example:"A: Wo buche ich die Reise?\nB: Im Reisebüro am Platz.",exampleSrc:"A: Where do I book the trip?\nB: At the travel agency at the square.",funFact:"Despite the internet, Germany still has thousands of Reisebüros. Many Germans prefer booking trips in person."},
+        {type:"teach",trg:"das Foto",src:"الصورة",pos:"noun",gender:"n",note:"اسم محايد. الجمع: die Fotos.",example:"A: Kann ich ein Foto machen?\nB: Ja, natürlich! Lächeln!",exampleSrc:"أ: هل يمكنني التقاط صورة؟\nب: طبعاً! ابتسم!",funFact:"الألمان يقولون ein Foto machen (يصنع صورة) مش 'يأخذ صورة'. فعل مختلف، نفس الفعل!"},
+        {type:"teach",trg:"die Führung",src:"الجولة المُرشَدة",pos:"noun",gender:"f",note:"اسم مؤنث. الجمع: die Führungen. من führen (يقود).",example:"A: Gibt es eine Führung?\nB: Ja, die Führung beginnt um elf Uhr.",exampleSrc:"أ: هل في جولة مُرشَدة؟\nب: نعم، الجولة تبدأ الساعة حدعش.",funFact:"الجولات المجانية سيراً على الأقدام (kostenlose Führungen) شائعة ببرلين. بس تعطي بقشيش بالآخر."},
+        {type:"teach",trg:"die Karte",src:"الخريطة، التذكرة، البطاقة",pos:"noun",gender:"f",note:"اسم مؤنث. الجمع: die Karten. المعنى حسب السياق.",example:"A: Hast du eine Karte?\nB: Ja, ich habe eine Karte von Berlin.",exampleSrc:"أ: عندك خريطة؟\nب: نعم، عندي خريطة لبرلين.",funFact:"Karte تعني خريطة وتذكرة وبطاقة. Fahrkarte = تذكرة نقل. Eintrittskarte = تذكرة دخول. Kreditkarte = بطاقة ائتمان."},
+        {type:"teach",trg:"der Prospekt",src:"النشرة، الكتيّب",pos:"noun",gender:"m",note:"اسم مذكر. الجمع: die Prospekte.",example:"A: Haben Sie einen Prospekt?\nB: Ja, hier ist der Prospekt vom Museum.",exampleSrc:"أ: عندكم نشرة؟\nب: نعم، تفضّل نشرة المتحف.",funFact:"مراكز المعلومات السياحية بألمانيا دايماً فيها أكوام نشرات مجانية لكل معلم سياحي."},
+        {type:"teach",trg:"das Reisebüro",src:"وكالة السفر",pos:"noun",gender:"n",note:"اسم محايد. الجمع: die Reisebüros. تتكون من Reise (سفر) + Büro (مكتب).",example:"A: Wo buche ich die Reise?\nB: Im Reisebüro am Platz.",exampleSrc:"أ: وين أحجز الرحلة؟\nب: بوكالة السفر يلي بالساحة.",funFact:"رغم الإنترنت، ألمانيا لسا فيها آلاف وكالات السفر. كتير ألمان يفضلون يحجزون شخصياً."},
         {type:"fb",s:"Kann ich ein {1} machen?",a:["Foto"],opts:["Foto","Karte","Schild","Führung"],hint:"فكّر في معنى الكلمة.",sSrc:"هل يمكنني التقاط صورة؟"},
-        {type:"teach",trg:"der Reiseführer",src:"the travel guide (book or person)",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Reiseführer. Reise (travel) + Führer (guide).",example:"A: Hast du einen Reiseführer?\nB: Ja, der Reiseführer empfiehlt dieses Lokal.",exampleSrc:"A: Do you have a travel guide?\nB: Yes, the guide recommends this restaurant.",funFact:"The Lonely Planet and Baedeker travel guides were pioneers. Baedeker, founded in 1827 in Germany, invented the modern guidebook."},
-        {type:"teach",trg:"ander",src:"other, different",pos:"adj",gender:null,note:"Pronoun/adjective. Changes form: der andere, die andere, das andere.",example:"A: Möchtest du dieses Hotel?\nB: Nein, das andere Hotel ist besser.",exampleSrc:"A: Would you like this hotel?\nB: No, the other hotel is better.",funFact:"'Unter anderem' (among other things), abbreviated 'u.a.', is very common in German writing."},
-        {type:"teach",trg:"alles",src:"كل شيء",pos:"pron",gender:null,note:"Pronoun. The neuter form of 'all'. Alles klar? = All clear?",example:"A: Hast du alles?\nB: Ja, ich habe alles. Wir können gehen.",exampleSrc:"A: Do you have everything?\nB: Yes, I have everything. We can go.",funFact:"'Alles Gute!' (All the best!) is the standard wish for birthdays, farewells, and any occasion."},
-        {type:"teach",trg:"der Eintritt",src:"the entry, the admission",pos:"noun",gender:"m",note:"Masculine noun. Ein (in) + Tritt (step). Admission fee: der Eintrittspreis.",example:"A: Was kostet der Eintritt?\nB: Der Eintritt kostet zehn Euro.",exampleSrc:"A: How much is the admission?\nB: The admission is ten euros.",funFact:"Many Berlin museums have 'Eintritt frei' (free admission) on the first Sunday of each month."},
+        {type:"teach",trg:"der Reiseführer",src:"دليل السفر (كتاب أو شخص)",pos:"noun",gender:"m",note:"اسم مذكر. الجمع: die Reiseführer. تتكون من Reise (سفر) + Führer (مرشد).",example:"A: Hast du einen Reiseführer?\nB: Ja, der Reiseführer empfiehlt dieses Lokal.",exampleSrc:"أ: عندك دليل سفر؟\nب: نعم، الدليل بينصح بهالمطعم.",funFact:"دليل Lonely Planet ودليل Baedeker كانوا رواد. Baedeker تأسس عام 1827 بألمانيا واخترع مفهوم دليل السفر الحديث."},
+        {type:"teach",trg:"ander",src:"آخر، مختلف",pos:"adj",gender:null,note:"ضمير/صفة. يتغيّر حسب الجنس: der andere، die andere، das andere.",example:"A: Möchtest du dieses Hotel?\nB: Nein, das andere Hotel ist besser.",exampleSrc:"أ: بدك هالفندق؟\nب: لا، الفندق التاني أحسن.",funFact:"عبارة unter anderem (من بين أشياء أخرى) واختصارها u.a. شائعة جداً بالكتابة الألمانية."},
+        {type:"teach",trg:"alles",src:"كل شيء",pos:"pron",gender:null,note:"ضمير. صيغة المحايد من all. عبارة Alles klar? = كل شي تمام؟",example:"A: Hast du alles?\nB: Ja, ich habe alles. Wir können gehen.",exampleSrc:"أ: أخذت كل شي؟\nب: نعم، أخذت كل شي. يلّا نروح.",funFact:"عبارة Alles Gute! (كل الخير!) هي التحية المعتادة لأعياد الميلاد والوداع وكل مناسبة."},
+        {type:"teach",trg:"der Eintritt",src:"الدخول، رسم الدخول",pos:"noun",gender:"m",note:"اسم مذكر. تتكون من Ein (داخل) + Tritt (خطوة). رسم الدخول: der Eintrittspreis.",example:"A: Was kostet der Eintritt?\nB: Der Eintritt kostet zehn Euro.",exampleSrc:"أ: قديش رسم الدخول؟\nب: الدخول بعشر يورو.",funFact:"كتير من متاحف برلين عندها Eintritt frei (دخول مجاني) بأول يوم أحد من كل شهر."},
         {type:"mc",q:"'Der See' is masculine and means 'the lake'. What does 'die See' (feminine) mean?",opts:["البحيرة","النهر","البركة","البحر"],ans:"البحر",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'das Reisebüro'?",opts:["كل شيء","المعلومات، مكتب المعلومات","اللافتة","وكالة السفر"],ans:"وكالة السفر",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ja, {1} empfiehlt dieses Lokal.",a:["der Reiseführer"],opts:["der Ausflug","die Karte","der Reiseführer","die Vorsicht"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"نعم، المرشد يوصي بهذا المطعم."},
-        {type:"mc",q:"Was bedeutet 'ander'?",opts:["the view, the glance","المعلومات، مكتب المعلومات","other, different","the travel guide (book or person)"],ans:"other, different",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Hast du {1}?",a:["alles"],opts:["alles","die Vorsicht","die Auskunft","das Beispiel"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل لديك كل شيء؟"}
+        {type:"mc",q:"Was bedeutet 'das Reisebüro'?",opts:["كل شيء","المعلومات، مكتب المعلومات","اللافتة","وكالة السفر"],ans:"وكالة السفر",hint:"كلمة مركبة: Reise (سفر) + Büro (مكتب)"},
+        {type:"fb",s:"Ja, {1} empfiehlt dieses Lokal.",a:["der Reiseführer"],opts:["der Ausflug","die Karte","der Reiseführer","die Vorsicht"],hint:"كلمة مركبة: Reise (رحلة) + Führer (مرشد) = كتاب أو شخص",sSrc:"نعم، المرشد يوصي بهذا المطعم."},
+        {type:"mc",q:"Was bedeutet 'ander'?",opts:["the view, the glance","المعلومات، مكتب المعلومات","other, different","the travel guide (book or person)"],ans:"other, different",hint:"صفة تدل على الاختلاف أو البديل"},
+        {type:"fb",s:"Hast du {1}?",a:["alles"],opts:["alles","die Vorsicht","die Auskunft","das Beispiel"],hint:"كلمة تعني كل شيء بدون استثناء",sSrc:"هل لديك كل شيء؟"}
       ]}
   ]};
 

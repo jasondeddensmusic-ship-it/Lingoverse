@@ -496,13 +496,13 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"teach",trg:"einverstanden",pos:"adj",gender:null,src:"موافق",example:"A: Treffen wir uns um drei?\nB: Einverstanden!\nA: Super, bis dann!",exampleSrc:"A: هل نلتقي في الثالثة؟\nB: موافق!\nA: رائع، أراك حينها!",note:"Ein + verstanden (مفهوم). 'Ich bin einverstanden' = أنا موافق. رسمي جداً.",funFact:"في العقود: 'Hiermit erkläre ich mich einverstanden' (أعلن بموجب هذا موافقتي). أكثر جملة ألمانية كُتبت على الإطلاق."},
         {type:"story",speaker:"verumius",mood:"proud",art:"de-montage-pfand",trg:"Bewerben, beenden, sich beschweren, kündigen. Vor sechs Monaten waren das nur Wörter im Wörterbuch. Jetzt sind es Werkzeuge. Meine Werkzeuge.",src:"يتقدم بطلب، ينهي، يشتكي، يستقيل. قبل ستة أشهر كانت هذه مجرد كلمات في قاموس. الآن هي أدوات. أدواتي."},
         {type:"mc",q:"'Bitte bestätigen Sie schriftlich.' Was soll die Person tun?",opts:["Confirm in writing","Speak loudly","Call back tomorrow","Visit the office"],ans:"Confirm in writing",hint:"هذه الصفة means in written form, not orally."},
-        {type:"fb",s:"Wie war dein Tag? Sehr {1}! Ich brauche Ruhe.",a:"stressig",opts:["stressig","preiswert","privat","schriftlich"],hint:"فكّر في معنى الكلمة.",sSrc:"How was your day? Very stressful! I need rest."},
-        {type:"mc",q:"Was bedeutet 'eintragen'?",opts:["agreed / in agreement","to register / to enter (data)","stressful","private"],ans:"to register / to enter (data)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Hast du das {1}e Buch gelesen?",a:["ganz"],opts:["einverstanden","ganz","preiswert","privat"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Did you read the whole book?"},
-        {type:"mc",q:"Was bedeutet 'schrecklich'?",opts:["to lie (tell an untruth)","private","terrible / dreadful","affordable / good value"],ans:"terrible / dreadful",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1}! Ich habe überall gesucht.",a:["nirgends"],opts:["schrecklich","nirgends","wenigstens","bestätigen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Nowhere! I looked everywhere."},
-        {type:"mc",q:"Was bedeutet 'wenigstens'?",opts:["to be sorry","nowhere","to pass (an exam) / to exist","at least"],ans:"at least",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1}!",a:["einverstanden"],opts:["eintragen","merken","bestehen","einverstanden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Agreed!"}
+        {type:"fb",s:"Wie war dein Tag? Sehr {1}! Ich brauche Ruhe.",a:"stressig",opts:["stressig","preiswert","privat","schriftlich"],hint:"فكّر في معنى الكلمة.",sSrc:"كيف كان يومك؟ كتير متعب! بدي أرتاح."},
+        {type:"mc",q:"Was bedeutet 'eintragen'?",opts:["agreed / in agreement","to register / to enter (data)","stressful","private"],ans:"to register / to enter (data)",hint:"فعل يتعلق بإدخال بيانات في نظام أو قائمة"},
+        {type:"fb",s:"Hast du das {1}e Buch gelesen?",a:["ganz"],opts:["einverstanden","ganz","preiswert","privat"],hint:"صفة تعني الكامل أو بأكمله دون نقصان",sSrc:"قرأت الكتاب كله؟"},
+        {type:"mc",q:"Was bedeutet 'schrecklich'?",opts:["to lie (tell an untruth)","private","terrible / dreadful","affordable / good value"],ans:"terrible / dreadful",hint:"صفة تعبّر عن شيء سيء جدًا ومخيف"},
+        {type:"fb",s:"{1}! Ich habe überall gesucht.",a:["nirgends"],opts:["schrecklich","nirgends","wenigstens","bestätigen"],hint:"ظرف نفي يعني في لا مكان، عكس überall",sSrc:"ولا محل! دوّرت بكل مكان."},
+        {type:"mc",q:"Was bedeutet 'wenigstens'?",opts:["to be sorry","nowhere","to pass (an exam) / to exist","at least"],ans:"at least",hint:"تعبير يدل على الحد الأدنى المقبول"},
+        {type:"fb",s:"{1}!",a:["einverstanden"],opts:["eintragen","merken","bestehen","einverstanden"],hint:"كلمة تعني الموافقة التامة على شيء ما",sSrc:"موافق!"}
       ]},
 // ─── L13: Das letzte Kapitel ───
     {id:"deu_r12l12",title:"Das letzte Kapitel",icon:"📖",xp:15,board:true,steps:[

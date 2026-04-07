@@ -42,10 +42,10 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
     {trg:"Durchschnitt",src:"متوسّط"}
 ]},
         {type:"story",speaker:"narrator",mood:"satisfied",art:"de-office-presentation",trg:"Stille im Raum. Dann Applaus. Nicht perfekt, nicht fehlerfrei. Aber auf Deutsch. Ein ganzer Vortrag auf Deutsch. Verumius atmet aus. Der erste Schritt ist getan.",src:"صمت في القاعة. ثم تصفيق. ليس مثالياً، وليس خالياً من العيوب. لكنه كان بالألمانية. عرض تقديمي كامل بالألمانية. يأخذ فيروميوس نفساً. الخطوة الأولى تمّت."},
-        {type:"mc",q:"Was bedeutet 'im Durchschnitt'?",opts:["on average","extremely high","somewhere in total","at most once"],ans:"on average",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"Wir müssen den Stromverbrauch {1}.",a:["reduzieren"],opts:["reduzieren","steigen","sinken","kontrollieren"],hint:"فكّر في معنى الكلمة.",sSrc:"يجب تقليل استهلاك الكهرباء."},
-        {type:"mc",q:"Was bedeutet 'das System'?",opts:["the system","the average","the environment","to rise, to climb"],ans:"the system",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'statistics' auf Deutsch? {1}",a:["die Statistik"],opts:["die Statistik","das System","reduzieren","der Umweltschutz"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'statistics' بالألمانية؟"}
+        {type:"mc",q:"Was bedeutet 'im Durchschnitt'?",opts:["on average","extremely high","somewhere in total","at most once"],ans:"on average",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."},
+        {type:"fb",s:"Wir müssen den Stromverbrauch {1}.",a:["reduzieren"],opts:["reduzieren","steigen","sinken","kontrollieren"],hint:"الجملة تعبّر عن ضرورة. أيّ كلمة تكمل ما يجب فعله؟",sSrc:"يجب تقليل استهلاك الكهرباء."},
+        {type:"mc",q:"Was bedeutet 'das System'?",opts:["the system","the average","the environment","to rise, to climb"],ans:"the system",hint:"الكلمة اسم ألماني. حلّل أجزاءها المركّبة للوصول إلى المعنى."},
+        {type:"fb",s:"Wie sagt man 'statistics' auf Deutsch? {1}",a:["die Statistik"],opts:["die Statistik","das System","reduzieren","der Umweltschutz"],hint:"الكلمة مؤنّثة (die). أيّ اسم بين الخيارات يطابق المعنى المطلوب؟",sSrc:"كيف تقول 'statistics' بالألمانية؟"}
       ]},
 // ─── L3: Grün denken ───
     {id:"deu_r22l2",title:"Grün denken",icon:"🌿",xp:15,board:true,steps:[
@@ -86,7 +86,7 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
     {trg:"Produktion",src:"إنتاج"}
 ]},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-office-kitchen",trg:"Vier Tonnen, vier Farben, null Fehler. Mia wäre stolz. Lukas nennt mich den Mülldiktator. Ich nehme das als Kompliment.",src:"أربع حاويات، أربعة ألوان، صفر أخطاء. ستكون ميا فخورة. يسمّيني لوكاس دكتاتور النفايات. أتقبّل ذلك بوصفه مدحاً."},
-        {type:"mc",q:"Diese Fabrik produziert Solarpanels für den Export. Was bedeutet 'produzieren'?",opts:["to import","to trade","to control","to produce"],ans:"to produce",hint:"فكّر في معنى الكلمة."}
+        {type:"mc",q:"Diese Fabrik produziert Solarpanels für den Export. Was bedeutet 'produzieren'?",opts:["to import","to trade","to control","to produce"],ans:"to produce",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."}
       ]},
 // ─── L5: Der Pfand-Meister ───
     {id:"deu_r22l3",title:"Der Pfand-Meister",icon:"🎯",xp:15,board:true,steps:[
@@ -124,10 +124,10 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
         {type:"fb",s:"Die wachsende {1} durch Abgase ist ein ernstes Problem.",a:["Gefahr"],opts:["Gefahr","Sicherheit","Forschung","Umfrage"],hint:"أيّ اسم يعني 'الخطر'؟ شيء ينمو ويُهدّد.",sSrc:"الخطر المتنامي من عوادم السيارات مشكلة خطيرة."},
         {type:"mc",q:"Wie bildet man das Partizip I von 'schlafen' (to sleep)?",opts:["schläft","schlafen","geschlafen","schlafend"],ans:"schlafend",hint:"خذ المصدر وأضف -d. التكوين دائماً نفسه."},
         {type:"story",speaker:"verumius",mood:"satisfied",art:"de-rewe-pfand",trg:"Sechs Flaschen, ein Euro fünfzig Pfand. Ich erinnere mich noch an meinen ersten Tag am Pfandautomaten. Heute? Heute bin ich der Pfand-Meister.",src:"ستة زجاجات، يورو وخمسون سنتاً رهناً. ما زلت أتذكر يومي الأول عند آلة الرهن. أما اليوم؟ اليوم أنا سيّد الرهن."},
-        {type:"mc",q:"Autos verschmutzen die Luft. Was bedeutet 'verschmutzen'?",opts:["to protect","to clean","to pollute","to warn"],ans:"to pollute",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'giftig'?",opts:["toxic, poisonous","thrifty, economical","survey, poll","danger"],ans:"toxic, poisonous",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Bist du {1} mit Wasser?",a:["sparsam"],opts:["die Krise","der Schutz","die Forderung","sparsam"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل تقتصد في استهلاك الماء؟"},
-        {type:"fb",s:"Dieses Produkt ist {1} und schadet der Natur nicht.",a:["ökologisch"],opts:["ökologisch","praktisch","sparsam","chemisch"],hint:"فكّر في معنى الكلمة.",sSrc:"هذا المنتج بيئي ولا يضرّ الطبيعة."}
+        {type:"mc",q:"Autos verschmutzen die Luft. Was bedeutet 'verschmutzen'?",opts:["to protect","to clean","to pollute","to warn"],ans:"to pollute",hint:"البادئة 'ver-' تعني تغيير حالة. الجذر 'schmutzen' يكشف المعنى."},
+        {type:"mc",q:"Was bedeutet 'giftig'?",opts:["toxic, poisonous","thrifty, economical","survey, poll","danger"],ans:"toxic, poisonous",hint:"اللاحقة '-ig' تحوّل الاسم إلى صفة. الجذر 'gift' يكشف المعنى."},
+        {type:"fb",s:"Bist du {1} mit Wasser?",a:["sparsam"],opts:["die Krise","der Schutz","die Forderung","sparsam"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"هل تقتصد في استهلاك الماء؟"},
+        {type:"fb",s:"Dieses Produkt ist {1} und schadet der Natur nicht.",a:["ökologisch"],opts:["ökologisch","praktisch","sparsam","chemisch"],hint:"الجملة تحتوي على نفي. أيّ كلمة تكمل المعنى المنفي؟",sSrc:"هذا المنتج بيئي ولا يضرّ الطبيعة."}
       ]},
 // ─── L7: Grammatik der Natur ───
     {id:"deu_r22l4",title:"Grammatik der Natur",icon:"📚",xp:15,board:true,steps:[
@@ -192,8 +192,8 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
 ],ans:"Partizip I ist laufende Handlung, Partizip II ist abgeschlossene Handlung",hint:"الرجل يقرأ الآن (مستمر). الرسالة قُرئت (مكتمل)."},
         {type:"drag_fill",s:"Mia {1} die {2} Dokumente kopieren.",blanks:{"1":"lässt","2":"fehlenden"},pool:["lässt","lasst","fehlenden","gefehlten","lassen"],hint:"تطلب ميا من شخص ما نسخ الوثائق المفقودة. فعل lassen التسبيبي (الغائب المفرد) + اسم الفاعل (Partizip I) (الغياب المستمر).",sSrc:"تطلب ميا نسخ الوثائق المفقودة."},
         {type:"story",speaker:"verumius",mood:"amused",art:"de-office-conference",trg:"Partizip I, Partizip II, lassen. Drei neue Werkzeuge. Ich lasse mein Gehirn kurz ausruhen. Das ist auch eine Form von lassen, oder?",src:"اسم الفاعل واسم المفعول وفعل lassen. ثلاث أدوات جديدة. سأترك دماغي يستريح قليلاً. هذا أيضاً شكل من أشكال lassen، أليس كذلك؟"},
-        {type:"fb",s:"Die Regierung will erneuerbare Energien {1}.",a:["fördern"],opts:["fördern","fordern","erhöhen","protestieren"],hint:"فكّر في معنى الكلمة.",sSrc:"الحكومة تريد تعزيز الطاقات المتجددة."},
-        {type:"mc",q:"Was bedeutet 'statistisch'?",opts:["net, network","network","statistical","factory"],ans:"statistical",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"fb",s:"Die Regierung will erneuerbare Energien {1}.",a:["fördern"],opts:["fördern","fordern","erhöhen","protestieren"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"الحكومة تريد تعزيز الطاقات المتجددة."},
+        {type:"mc",q:"Was bedeutet 'statistisch'?",opts:["net, network","network","statistical","factory"],ans:"statistical",hint:"اللاحقة '-isch' تعني 'مرتبط بـ'. الجذر يكشف الأصل."}
       ]},
 // ─── L9: Bio oder Discounter? ───
     {id:"deu_r22l5",title:"Bio oder Discounter?",icon:"🛒",xp:15,board:true,steps:[
@@ -236,9 +236,9 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
     "Er lässt die Verpackung im Laden"
 ],ans:"Er lässt sich nicht von hübscher Verpackung hereinlegen",hint:"السماح لشيء ما بأن يُفعل بك. تويشن تعني يخدع. اختر المرادف العامي من بين الخيارات."},
         {type:"story",speaker:"verumius",mood:"thoughtful",art:"de-biomarkt",trg:"Mia hat recht: Bio schmeckt besser. Lukas hat auch recht: Bio ist teurer. Mein Kompromiss? Bio-Gemüse, Discounter-Nudeln. Das Beste aus beiden Welten.",src:"ميا محقّة: المنتجات العضوية أطيب مذاقاً. لوكاس أيضاً محقّ: المنتجات العضوية أغلى ثمناً. حلّي الوسط؟ خضروات عضوية ومعكرونة مخفّضة. أفضل ما في العالمين."},
-        {type:"fb",s:"Die {1} der Arbeit ist geschafft. Morgen kommt der Rest.",a:["Hälfte"],opts:["Hälfte","Höhe","Länge","Anzahl"],hint:"فكّر في معنى الكلمة.",sSrc:"Half the work is done. Tomorrow comes the rest."},
-        {type:"mc",q:"Was bedeutet 'verpacken'?",opts:["edge, margin, rim","to package","match","artificial"],ans:"to package",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie viel Strom {1} wir?",a:["verbrauchen"],opts:["verbrauchen","die Anzahl","die Fl\\u00e4che","das Feuerzeug"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"How much electricity do we use?"}
+        {type:"fb",s:"Die {1} der Arbeit ist geschafft. Morgen kommt der Rest.",a:["Hälfte"],opts:["Hälfte","Höhe","Länge","Anzahl"],hint:"الجملة في سياق مهني. أيّ كلمة تكمل المعنى؟",sSrc:"نص الشغل خلص. بكرا بيجي الباقي."},
+        {type:"mc",q:"Was bedeutet 'verpacken'?",opts:["edge, margin, rim","to package","match","artificial"],ans:"to package",hint:"البادئة 'ver-' تعني تغيير حالة. الجذر 'packen' يكشف المعنى."},
+        {type:"fb",s:"Wie viel Strom {1} wir?",a:["verbrauchen"],opts:["verbrauchen","die Anzahl","die Fl\\u00e4che","das Feuerzeug"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"قديش كهربا منستعمل؟"}
       ]},
 // ─── L11: Ruhig du sagen ───
     {id:"deu_r22l6",title:"Ruhig du sagen",icon:"🤝",xp:15,board:true,steps:[
@@ -280,11 +280,11 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
     "Sie korrigiert seine Grammatik",
     "Sie bietet informelle Anrede als Zeichen der Nähe an"
 ],ans:"Sie bietet informelle Anrede als Zeichen der Nähe an",hint:"الانتقال من صيغة 'زي' إلى 'دو' هو معلَم شخصي في الثقافة الألمانية."},
-        {type:"fb",s:"Wegen einer technischen {1} fährt heute kein Zug.",a:["Störung"],opts:["Störung","Unterstützung","Umgebung","Wettervorhersage"],hint:"فكّر في معنى الكلمة.",sSrc:"Due to a technical disruption, no train is running today."},
-        {type:"fb",s:"Der Sturm hat das Dach {1}.",a:["beschädigt"],opts:["beschädigt","gerettet","getrocknet","geblitzt"],hint:"فكّر في معنى الكلمة.",sSrc:"The storm damaged the roof."},
-        {type:"mc",q:"Welches Verb bedeutet 'etwas vor Gefahr bewahren'?",opts:["trocknen","blitzen","retten","hageln"],ans:"retten",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'steil'?",opts:["steep","alarm, alert","to rescue, to save","to burn"],ans:"steep",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Gibt es {1}e Tiere in Berlin?",a:["wild"],opts:["blitzen","der Alarm","wild","die Unterst\\u00fctzung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Are there wild animals in Berlin?"}
+        {type:"fb",s:"Wegen einer technischen {1} fährt heute kein Zug.",a:["Störung"],opts:["Störung","Unterstützung","Umgebung","Wettervorhersage"],hint:"الكلمة المطلوبة مركّبة وتنتهي بـ '-ung' (مصدر فعلي). حلّل الجذر 'Stör'.",sSrc:"بسبب عطل تقني، ما في قطار ماشي اليوم."},
+        {type:"fb",s:"Der Sturm hat das Dach {1}.",a:["beschädigt"],opts:["beschädigt","gerettet","getrocknet","geblitzt"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"العاصفة خرّبت السطح."},
+        {type:"mc",q:"Welches Verb bedeutet 'etwas vor Gefahr bewahren'?",opts:["trocknen","blitzen","retten","hageln"],ans:"retten",hint:"اقرأ السؤال بعناية وحلّل الخيارات. أيّها يتوافق مع السياق الألماني؟"},
+        {type:"mc",q:"Was bedeutet 'steil'?",opts:["steep","alarm, alert","to rescue, to save","to burn"],ans:"steep",hint:"'Teil' تعني جزء. ما المعنى المركّب الكامل؟"},
+        {type:"fb",s:"Gibt es {1}e Tiere in Berlin?",a:["wild"],opts:["blitzen","der Alarm","wild","die Unterst\\u00fctzung"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"في حيوانات برية ببرلين؟"}
       ]},
 // ─── L13: Umwelt-Quiz ───
     {id:"deu_r22l7",title:"Umwelt-Quiz",icon:"🏆",xp:15,board:true,steps:[
@@ -328,10 +328,10 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
 ]},
         {type:"story",speaker:"lukas",mood:"sheepish",art:"de-park-cleanup",trg:"Mia, ich habe die falschen Tüten mitgebracht. Aber ich habe drei Stunden lang Dreck gesammelt! Das zählt doch auch, oder?",src:"ميا، لقد أحضرت الأكياس الخطأ. لكنني جمعت الوسخ لثلاث ساعات! هذا يُحتسب أيضاً، أليس كذلك؟"},
         {type:"story",speaker:"mia",mood:"amused",art:"de-park-cleanup",trg:"Es zählt, Lukas. Es zählt. Nächstes Mal bringe ich dir die richtigen Tüten mit. Und eine Liste.",src:"يُحتسب يا لوكاس. يُحتسب. في المرة القادمة سأحضر لك الأكياس الصحيحة. وقائمة."},
-        {type:"fb",s:"Der Sturm hat das Haus komplett {1}.",a:["zerstört"],opts:["zerstört","gebaut","geschützt","gerettet"],hint:"فكّر في معنى الكلمة.",sSrc:"The storm completely destroyed the house."},
-        {type:"mc",q:"Was bedeutet 'weltenweit'?",opts:["gas","worldwide (literary)","mountain range","dirt, grime"],ans:"worldwide (literary)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Dieses Problem ist {1}.",a:["weltweit"],opts:["weltweit","zentral","der Staub","der H\\u00fcgel"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"This problem is worldwide."},
-        {type:"mc",q:"Was bedeutet 'zentral'?",opts:["moon","to destroy","dirt, filth","central"],ans:"central",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"fb",s:"Der Sturm hat das Haus komplett {1}.",a:["zerstört"],opts:["zerstört","gebaut","geschützt","gerettet"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"العاصفة دمّرت البيت بالكامل."},
+        {type:"mc",q:"Was bedeutet 'weltenweit'?",opts:["gas","worldwide (literary)","mountain range","dirt, grime"],ans:"worldwide (literary)",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."},
+        {type:"fb",s:"Dieses Problem ist {1}.",a:["weltweit"],opts:["weltweit","zentral","der Staub","der H\\u00fcgel"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"هالمشكلة عالمية."},
+        {type:"mc",q:"Was bedeutet 'zentral'?",opts:["moon","to destroy","dirt, filth","central"],ans:"central",hint:"حلّل بنية الكلمة 'zentral' — البادئة والجذر واللاحقة تكشف المعنى."}
       ]},
 // ─── L15: Ein richtiger Berliner ───
     {id:"deu_r22l8",title:"Ein richtiger Berliner",icon:"🌳",xp:15,board:true,steps:[
@@ -371,10 +371,10 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
 ],ans:"Ein Mechaniker oder Fahrradladen",hint:"فعل lassen التسبيبي يعني: شخص آخر يُنفّذ الفعل. فيروميوس ينظّم الأمر."},
         {type:"story",speaker:"verumius",mood:"grateful",art:"de-park-bench",trg:"Mia, Lukas, Elif. Ohne euch hätte ich das nicht geschafft. Ihr habt mir nicht nur Deutsch beigebracht. Ihr habt mir beigebracht, wie man hier lebt. Und dass man Joghurtbecher ausspült.",src:"ميا، لوكاس، إليف. من دونكم لم أكن لأتمكّن من هذا. لم تعلّموني الألمانية فحسب. علّمتموني كيف أعيش هنا. وأن تُشطف أكواب الزبادي."},
         {type:"tip",title:"Deutsche Umweltkultur",text:"الوعي البيئي في ألمانيا متجذّر في أعماق الثقافة.\n\nPfand: وديعة الزجاجات. 25 سنتاً للبلاستيك، 8 سنتات للزجاج. نسبة الإرجاع: 98%.\nMülltrennung: أربعة صناديق على الأقل. الجيران سيصحّحون لك إن أخطأت.\nEnergiewende: التحوّل إلى الطاقات المتجددة. الهدف: 80% بحلول 2030.\nBio: منتجات Bio تحتلّ حصصاً كبيرة في السوق. Bio-Siegel علامة موثوقة.\n\nحين تقول Mia 'Du bist ein richtiger Berliner geworden'، تعني أكثر من الانتماء الجغرافي. فرز النفايات وتوفير الطاقة وإعادة الزجاجات: هذه أفعال الانتماء.",deepDive:{title:"Environmental identity in Germany",text:"علاقة ألمانيا بالطبيعة تمتدّ جذورها عميقاً في ثقافتها. احتفت الحركة الرومانسية (القرنان الثامن عشر والتاسع عشر) بالغابات والطبيعة. وروّجت حركة شباب Wandervogel (1896) للمشي وحياة الهواء الطلق.\n\nيتجلّى ذلك اليوم في:\n- حزب الخضر (Die Grünen): شريك في حكومات اتحادية عديدة\n- نظام Pfand: نسبة إرجاع الزجاجات 98%\n- Energiewende: أطموح تحوّل طاقوي في العالم\n- سوق الغذاء العضوي: الأكبر في أوروبا\n\nبالنسبة للمهاجرين، يصبح تبنّي العادات البيئية علامةً على الاندماج الثقافي. حين تصف Mia فيروميوس بـ 'richtiger Berliner'، فإن سلوكه البيئي هو الدليل."}},
-        {type:"mc",q:"Plastik schadet der Umwelt. Welches Verb bedeutet 'to burn up completely'?",opts:["verbrennen","entsorgen","schaden","unterstützen"],ans:"verbrennen",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'elektr-'?",opts:["to support","to burn (up), to incinerate","igniter, detonator","electr- (prefix for adjectives)"],ans:"electr- (prefix for adjectives)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'electro- (prefix for compound nouns)' auf Deutsch? {1}",a:["elektro-"],opts:["die Feuerwehr","elektr-","elektro-","die Klimaanlage"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'electro- (prefix for compound nouns)' بالألمانية؟"},
-        {type:"fb",s:"Man kann das Bild am Computer {1}.",a:["vergrößern"],opts:["vergrößern","entsorgen","verbrennen","schützen"],hint:"فكّر في معنى الكلمة.",sSrc:"You can enlarge the picture on the computer."}
+        {type:"mc",q:"Plastik schadet der Umwelt. Welches Verb bedeutet 'to burn up completely'?",opts:["verbrennen","entsorgen","schaden","unterstützen"],ans:"verbrennen",hint:"اقرأ السؤال بعناية وحلّل الخيارات. أيّها يتوافق مع السياق الألماني؟"},
+        {type:"mc",q:"Was bedeutet 'elektr-'?",opts:["to support","to burn (up), to incinerate","igniter, detonator","electr- (prefix for adjectives)"],ans:"electr- (prefix for adjectives)",hint:"حلّل بنية الكلمة 'elektr-' — البادئة والجذر واللاحقة تكشف المعنى."},
+        {type:"fb",s:"Wie sagt man 'electro- (prefix for compound nouns)' auf Deutsch? {1}",a:["elektro-"],opts:["die Feuerwehr","elektr-","elektro-","die Klimaanlage"],hint:"ترجم المصطلح الإنجليزي إلى الألمانية. أيّ خيار يطابق المعنى المطلوب؟",sSrc:"كيف تقول 'electro- (prefix for compound nouns)' بالألمانية؟"},
+        {type:"fb",s:"Man kann das Bild am Computer {1}.",a:["vergrößern"],opts:["vergrößern","entsorgen","verbrennen","schützen"],hint:"الجملة تعبّر عن إمكانية. أيّ كلمة تكمل ما يمكن فعله؟",sSrc:"فيك تكبّر الصورة على الكمبيوتر."}
       ]}
   ]};
 

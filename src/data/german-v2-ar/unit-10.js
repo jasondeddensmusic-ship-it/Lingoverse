@@ -87,7 +87,7 @@ const UNIT_10_AR = {n:10,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Bahn"
         {type:"drag_fill",s:"Die {1} in Deutschland ist sehr vielfältig: {2} im Süden, {3} in der Mitte und {4} im Norden.",blanks:{"1":"Landschaft","2":"Berge","3":"Wälder","4":"Strände"},pool:["Landschaft","Berge","Wälder","Strände","Kirchen","Ampeln"],hint:"فكّر في الجغرافيا: الألب، الغابة السوداء، بحر الشمال.",sSrc:"المناظر الطبيعية في ألمانيا متنوعة جداً: جبال في الجنوب، غابات في الوسط وشواطئ في الشمال."},
         {type:"mc",q:"Was ist das Hamburger Rathaus?",opts:["Ein Berg in Hamburg","Ein Fluss in Hamburg","Ein Markt in Hamburg","Ein Gebäude für den Stadtrat"],ans:"Ein Gebäude für den Stadtrat",hint:"Rat تعني مجلس، Haus تعني بيت."},
         {type:"story",speaker:"narrator",mood:"warm",art:"de-ber-hbf-brezel",trg:"Verumius isst seine Brezel auf einer Bank. Ein Stadtplan von München liegt auf seinem Schoß. Norden, Süden, Berge, Flüsse. Er kennt jetzt die Wörter. Jetzt muss er nur noch hinkommen.",src:"فيروميوس يأكل بريتسله على مقعد. خريطة مدينة ميونخ على حجره. شمال، جنوب، جبال، أنهار. يعرف الكلمات الآن. عليه فقط أن يصل إلى هناك."},
-        {type:"fb",s:"Das {1} hat mehr Zimmer als der Buckingham-Palast.",a:"Rathaus",opts:["Rathaus","Zentrum","Markt","Kirche"],hint:"فكّر في معنى الكلمة.",sSrc:"The town hall has more rooms than Buckingham Palace."},
+        {type:"fb",s:"Das {1} hat mehr Zimmer als der Buckingham-Palast.",a:"Rathaus",opts:["Rathaus","Zentrum","Markt","Kirche"],hint:"فكّر في معنى الكلمة.",sSrc:"البلدية فيها غرف أكتر من قصر باكنغهام."},
         {type:"mc",q:"Welchen Artikel hat 'Rathaus'?",opts:["der","die","das","den"],ans:"das",hint:"فكّر في معنى الكلمة."}
       ]},
 // ─── L4: Mein Platz! ───

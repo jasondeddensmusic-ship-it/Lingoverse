@@ -43,13 +43,13 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     "the canteen, the cafeteria",
     "with each other, together",
     "the daily routine, the daily schedule"
-],ans:"the daily routine, the daily schedule",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie ist {1} in deinem Team?",a:["die Zusammenarbeit"],opts:["die Zusammenarbeit","die Konferenz","der Betrieb","die Abteilung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف التعاون في فريقك؟"},
-        {type:"mc",q:"Was bedeutet 'einrichten'?",opts:["to set up, to furnish","the corridor, the aisle","the hallway, the corridor","firm, fixed, solid"],ans:"to set up, to furnish",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Kannst du bitte die Unterlagen {1}?",a:["ordnen"],opts:["ordnen","innen","begrüßen","aufmerksam"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل يمكنك ترتيب الوثائق من فضلك؟"},
-        {type:"mc",q:"Was bedeutet 'gemeinsam'?",opts:["the company, the operation","together, jointly, shared","the collaboration, the teamwork","the conference"],ans:"together, jointly, shared",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Dein Schreibtisch ist sehr {1}!",a:["ordentlich"],opts:["die Besprechung","die Kantine","der Betrieb","ordentlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"مكتبك مرتّب جداً!"},
-        {type:"mc",q:"Was bedeutet 'miteinander'?",opts:["with each other, together","the company, the operation","attentive, observant","together, jointly, shared"],ans:"with each other, together",hint:"فكّر في معنى هذه الكلمة في السياق."}
+],ans:"the daily routine, the daily schedule",hint:"كلمة مركبة: Tages (يوم) + Ablauf (مجرى) = برنامج يومي"},
+        {type:"fb",s:"Wie ist {1} in deinem Team?",a:["die Zusammenarbeit"],opts:["die Zusammenarbeit","die Konferenz","der Betrieb","die Abteilung"],hint:"كلمة مركبة: zusammen (معًا) + Arbeit (عمل)",sSrc:"كيف التعاون في فريقك؟"},
+        {type:"mc",q:"Was bedeutet 'einrichten'?",opts:["to set up, to furnish","the corridor, the aisle","the hallway, the corridor","firm, fixed, solid"],ans:"to set up, to furnish",hint:"فعل مركب: ein- + richten = ترتيب وتجهيز مكان"},
+        {type:"fb",s:"Kannst du bitte die Unterlagen {1}?",a:["ordnen"],opts:["ordnen","innen","begrüßen","aufmerksam"],hint:"فعل يعني ترتيب الأشياء بنظام معين",sSrc:"هل يمكنك ترتيب الوثائق من فضلك؟"},
+        {type:"mc",q:"Was bedeutet 'gemeinsam'?",opts:["the company, the operation","together, jointly, shared","the collaboration, the teamwork","the conference"],ans:"together, jointly, shared",hint:"كلمة تعني المشاركة والعمل مع الآخرين كفريق"},
+        {type:"fb",s:"Dein Schreibtisch ist sehr {1}!",a:["ordentlich"],opts:["die Besprechung","die Kantine","der Betrieb","ordentlich"],hint:"صفة تصف مكانًا مرتبًا ونظيفًا",sSrc:"مكتبك مرتّب جداً!"},
+        {type:"mc",q:"Was bedeutet 'miteinander'?",opts:["with each other, together","the company, the operation","attentive, observant","together, jointly, shared"],ans:"with each other, together",hint:"ظرف متبادل يعني مع بعضهم البعض"}
       ]},
 // ─── L3: Das Büro ───
     {id:"deu_r14l2",title:"Das Büro",icon:"🖥️",xp:15,board:true,steps:[
@@ -94,7 +94,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
 ]},
         {type:"story",speaker:"mia",mood:"conspiratorial",art:"de-ber-office-hallway",trg:"So, dein Arbeitsplatz ist eingerichtet. Jetzt zeige ich dir den wichtigsten Ort im ganzen Betrieb. Die Kaffeküche.",src:"إذن، مكان عملك جاهز. الآن سأريك أهم مكان في كامل الشركة. مطبخ القهوة."},
         {type:"fb",s:"In welchem {1} ist der Vertrag? Im blauen auf dem Regal.",a:["Ordner"],opts:["Ordner","Kuli","Regal","Mappe"],hint:"فكّر في معنى الكلمة.",sSrc:"في أي ملف العقد؟ في الأزرق على الرف."},
-        {type:"mc",q:"Was bedeutet 'die Tabelle'?",opts:["the table, the spreadsheet","to type, to tap","the plug","the key, the button"],ans:"the table, the spreadsheet",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'die Tabelle'?",opts:["the table, the spreadsheet","to type, to tap","the plug","the key, the button"],ans:"the table, the spreadsheet",hint:"كلمة مؤنثة (die) تصف جدولًا منظمًا بصفوف وأعمدة"}
       ]},
 // ─── L5: Die Kaffeküche ───
     {id:"deu_r14l3",title:"Die Kaffeküche",icon:"☕",xp:15,board:true,steps:[
@@ -437,11 +437,11 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
 ]},
         {type:"drag_fill",s:"Der Handwerker, {1} gerufen {2}, hat das Regal {3}.",blanks:{"1":"der","2":"wurde","3":"repariert"},pool:["der","den","wurde","wird","repariert","reparieren"],hint:"الحِرَفي المذكر الذي استُدعي (مرفوع موصول + مبني للمجهول). أصلح الرف.",sSrc:"الحِرَفي الذي استُدعي أصلح الرف."},
         {type:"story",speaker:"verumius",mood:"bewildered",art:"de-ber-kaffeeküche-cake",trg:"Also. In Deutschland bringt man seinen eigenen Geburtstagskuchen mit. Man macht seinen eigenen Kaffee. Und man nimmt niemals den letzten Keks. Verstanden.",src:"إذن. في ألمانيا تحضر كعكة عيد ميلادك بنفسك. تصنع قهوتك بنفسك. ولا تأخذ آخر بسكويت أبدًا. مفهوم."},
-        {type:"mc",q:"Was bedeutet 'aufnehmen'?",opts:["the craftsperson, the tradesperson","to glue, to stick","to record, to absorb, to take in","the hammer"],ans:"to record, to absorb, to take in",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to use' auf Deutsch? {1}",a:["gebrauchen"],opts:["stecken","der Handwerker","gebrauchen","einsetzen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to use' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'einsetzen'?",opts:["the hammer","to deploy, to use, to insert","the tool(s)","vertical, perpendicular"],ans:"to deploy, to use, to insert",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Soll der Tisch rund oder {1} sein?",a:["eckig"],opts:["einsetzen","der Kasten","die Schachtel","eckig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Should the table be round or square?"},
-        {type:"mc",q:"Was bedeutet 'senkrecht'?",opts:["the box, the packet","to put in, to insert, to be stuck","vertical, perpendicular","to deploy, to use, to insert"],ans:"vertical, perpendicular",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'aufnehmen'?",opts:["the craftsperson, the tradesperson","to glue, to stick","to record, to absorb, to take in","the hammer"],ans:"to record, to absorb, to take in",hint:"فعل مركب: auf- + nehmen (يأخذ) = يستقبل أو يسجّل"},
+        {type:"fb",s:"Wie sagt man 'to use' auf Deutsch? {1}",a:["gebrauchen"],opts:["stecken","der Handwerker","gebrauchen","einsetzen"],hint:"فعل يعني استخدام شيء لغرض معين",sSrc:"كيف تقول 'to use' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'einsetzen'?",opts:["the hammer","to deploy, to use, to insert","the tool(s)","vertical, perpendicular"],ans:"to deploy, to use, to insert",hint:"فعل مركب: ein- + setzen (يضع) = يستخدم في مهمة"},
+        {type:"fb",s:"Soll der Tisch rund oder {1} sein?",a:["eckig"],opts:["einsetzen","der Kasten","die Schachtel","eckig"],hint:"صفة تصف شكلًا ذا زوايا، عكس rund",sSrc:"لازم تكون الطاولة مدوّرة أو مربّعة؟"},
+        {type:"mc",q:"Was bedeutet 'senkrecht'?",opts:["the box, the packet","to put in, to insert, to be stuck","vertical, perpendicular","to deploy, to use, to insert"],ans:"vertical, perpendicular",hint:"صفة تصف الوضع العمودي بزاوية 90 درجة"}
       ]},
 // ─── L13: Alles zusammen ───
     {id:"deu_r14l10",title:"Alles zusammen",icon:"🧪",xp:15,board:true,steps:[

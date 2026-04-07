@@ -41,7 +41,7 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"story",speaker:"colleague",mood:"matter-of-fact",art:"de-ham-taxi-rain",trg:"So, die Strecke zum Hotel ist nicht weit. Zehn Minuten, wenn der Verkehr mitmacht.",src:"إذن، المسار إلى الفندق ليس بعيداً. عشر دقائق إذا تعاون الطريق."},
         {type:"story",speaker:"verumius",mood:"curious",art:"de-ham-taxi-rain",trg:"Hamburg ist größer, als ich dachte. Und feuchter.",src:"هامبورغ أكبر مما توقعت. وأكثر رطوبة أيضاً."},
         {type:"fb",s:"Die {1} ist nicht weit von Hamburg. Etwa 100 Kilometer.",a:["Nordsee"],opts:["Nordsee","Ostsee","Metropole","Nacht"],hint:"فكّر في معنى الكلمة.",sSrc:"بحر الشمال ليس بعيداً عن هامبورغ. حوالي 100 كيلومتر."},
-        {type:"mc",q:"Was bedeutet 'feucht'?",opts:["the region","the night","damp / humid","the area / vicinity"],ans:"damp / humid",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'feucht'?",opts:["the region","the night","damp / humid","the area / vicinity"],ans:"damp / humid",hint:"صفة تصف الهواء الرطب أو الجو الممطر"}
       ]},
 // ─── L3: Unterwegs in der Stadt ───
     {id:"deu_r15l2",title:"Unterwegs in der Stadt",icon:"🚋",xp:15,board:true,steps:[
@@ -85,8 +85,8 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
 ]},
         {type:"mc",q:"Welcher Artikel ist richtig: ___ Kraftfahrzeug?",opts:["die","der","ein","das"],ans:"das",hint:"في الأسماء المركبة، العنصر الأخير هو الذي يحدد المقالة. فارتسويغ مذكر محايد."},
         {type:"drag_fill",s:"Nehmen Sie die nächste {1} auf der rechten {2}.",blanks:{"1":"Ausfahrt","2":"Spur"},pool:["Ausfahrt","Spur","Einfahrt","Kurve","Linie","Zone"],hint:"خذ المخرج التالي في الحارة اليمنى. مصطلحان للطرق والسريع.",sSrc:"خذ المخرج التالي في الحارة اليمنى."},
-        {type:"mc",q:"Was bedeutet 'der Radfahrer'?",opts:["the curve / bend","the pedestrian (male)","the motor vehicle","the cyclist (male)"],ans:"the cyclist (male)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} f\\u00e4hrt sehr schnell.",a:["die Radfahrerin"],opts:["die Radfahrerin","die Kurve","der Fu\\u00dfg\\u00e4nger","die Ausfahrt"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"الدرّاج يقود بسرعة كبيرة."}
+        {type:"mc",q:"Was bedeutet 'der Radfahrer'?",opts:["the curve / bend","the pedestrian (male)","the motor vehicle","the cyclist (male)"],ans:"the cyclist (male)",hint:"كلمة مركبة: Rad (دراجة) + Fahrer (سائق)"},
+        {type:"fb",s:"{1} f\\u00e4hrt sehr schnell.",a:["die Radfahrerin"],opts:["die Radfahrerin","die Kurve","der Fu\\u00dfg\\u00e4nger","die Ausfahrt"],hint:"صيغة مؤنثة (-in) لراكب الدراجة",sSrc:"الدرّاج يقود بسرعة كبيرة."}
       ]},
 // ─── L5: Herr Professor Doktor Schmidt ───
     {id:"deu_r15l3",title:"Herr Professor Doktor Schmidt",icon:"👔",xp:15,board:true,steps:[
@@ -143,15 +143,15 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"fb",s:"Der Name {1} Kollegen ist Schmidt.",a:["des"],opts:["des","der","dem","den"],hint:"Kollege مذكر. ما أداة الإضافة التي تصاحب الأسماء المذكرة؟",sSrc:"اسم الزميل هو شميت."},
         {type:"story",speaker:"verumius",mood:"overwhelmed",art:"de-ham-office",trg:"Herr Professor Doktor Schmidt. Soll ich das jedes Mal sagen? Jedes Mal alle Titel?",src:"الأستاذ الدكتور شميت. هل يُفترض أن أقول ذلك في كل مرة؟ في كل مرة، جميع الألقاب؟"},
         {type:"story",speaker:"colleague",mood:"reassuring",art:"de-ham-office-harbor",trg:"Beim ersten Mal: ja. Danach reicht Herr Schmidt. Die Regel ist einfach: lieber zu höflich als zu locker.",src:"في المرة الأولى: نعم. بعد ذلك، هير شميت كافٍ. القاعدة بسيطة: أفضل مبالغة في التأدب من التساهل."},
-        {type:"mc",q:"Was bedeutet 'der Passagier'?",opts:["the passenger (male)","the courtyard / yard / farm","the coast","the suburb"],ans:"the passenger (male)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} hat ihr Gep\\u00e4ck vergessen.",a:["die Passagierin"],opts:["st\\u00e4dtisch","die Passagierin","der Transport","der Ozean"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"الراكبة نسيت حقيبتها."},
-        {type:"mc",q:"Was bedeutet 'der Steward'?",opts:["the transport","the suburb","the ocean","the steward (male)"],ans:"the steward (male)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} erkl\\u00e4rt die Sicherheitsregeln.",a:["die Stewardess"],opts:["die Stewardess","der Tourismus","die K\\u00fcste","der Transport"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"المضيفة تشرح قواعد السلامة."},
-        {type:"mc",q:"Was bedeutet 'der Laster'?",opts:["the truck","the transport","the building","the courtyard / yard / farm"],ans:"the truck",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} der Waren dauert drei Tage.",a:["der Transport"],opts:["die Entfernung","das Geb\\u00e4ude","das Ufer","der Transport"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"نقل البضائع يستغرق ثلاثة أيام."},
-        {type:"mc",q:"Was bedeutet 'transportieren'?",opts:["urban / municipal","to transport","the bank / shore (of a river)","the truck"],ans:"to transport",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Der Nebel ist heute sehr {1}.",a:["dicht"],opts:["dicht","der Laster","der Vorort","regional"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The fog is very thick today."},
-        {type:"mc",q:"Was bedeutet 'der Tourismus'?",opts:["to transport","urban / municipal","the tourism","the courtyard / yard / farm"],ans:"the tourism",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'der Passagier'?",opts:["the passenger (male)","the courtyard / yard / farm","the coast","the suburb"],ans:"the passenger (male)",hint:"كلمة مركبة: Fahr (سفر) + Gast (ضيف) = مسافر"},
+        {type:"fb",s:"{1} hat ihr Gep\\u00e4ck vergessen.",a:["die Passagierin"],opts:["st\\u00e4dtisch","die Passagierin","der Transport","der Ozean"],hint:"صيغة مؤنثة (-in) للمسافر على وسيلة نقل",sSrc:"الراكبة نسيت حقيبتها."},
+        {type:"mc",q:"Was bedeutet 'der Steward'?",opts:["the transport","the suburb","the ocean","the steward (male)"],ans:"the steward (male)",hint:"شخص يخدم المسافرين على الطائرة أو القطار"},
+        {type:"fb",s:"{1} erkl\\u00e4rt die Sicherheitsregeln.",a:["die Stewardess"],opts:["die Stewardess","der Tourismus","die K\\u00fcste","der Transport"],hint:"صيغة مؤنثة لمضيفة الطيران أو القطار",sSrc:"المضيفة تشرح قواعد السلامة."},
+        {type:"mc",q:"Was bedeutet 'der Laster'?",opts:["the truck","the transport","the building","the courtyard / yard / farm"],ans:"the truck",hint:"كلمة مركبة: Last (حمل) + Wagen (عربة) = مركبة نقل"},
+        {type:"fb",s:"{1} der Waren dauert drei Tage.",a:["der Transport"],opts:["die Entfernung","das Geb\\u00e4ude","das Ufer","der Transport"],hint:"كلمة مذكرة (der) تعني عملية نقل البضائع",sSrc:"نقل البضائع يستغرق ثلاثة أيام."},
+        {type:"mc",q:"Was bedeutet 'transportieren'?",opts:["urban / municipal","to transport","the bank / shore (of a river)","the truck"],ans:"to transport",hint:"فعل لاتيني الأصل يعني نقل الأشياء من مكان لآخر"},
+        {type:"fb",s:"Der Nebel ist heute sehr {1}.",a:["dicht"],opts:["dicht","der Laster","der Vorort","regional"],hint:"صفة تصف شيئًا متراصًا وكثيفًا، مثل الضباب",sSrc:"الضباب كتير كثيف اليوم."},
+        {type:"mc",q:"Was bedeutet 'der Tourismus'?",opts:["to transport","urban / municipal","the tourism","the courtyard / yard / farm"],ans:"the tourism",hint:"كلمة مذكرة (der) تصف صناعة السفر والسياحة"}
       ]},
 // ─── L7: Der Genitiv und die N-Deklination ───
     {id:"deu_r15l4",title:"Der Genitiv und die N-Deklination",icon:"📝",xp:15,board:true,steps:[
@@ -211,11 +211,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
     {trg:"des Kollegen",src:"الزميل (مضاف إليه)"}
 ]},
         {type:"mc",q:"Auf der Autobahn gibt es einen langen ...",opts:["Umtausch","Stau","Salon","Halt"],ans:"Stau",hint:"ما الذي يتشكل عندما يكون هناك عدد كبير جداً من السيارات على الطريق في آنٍ واحد؟"},
-        {type:"mc",q:"Was bedeutet 'die Tankstelle'?",opts:["the object / item","the right of way","the breakdown","the gas station"],ans:"the gas station",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'the breakdown' auf Deutsch? {1}",a:["die Panne"],opts:["stoppen","die Rundfahrt","der Halt","die Panne"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the breakdown' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'das Tempo'?",opts:["the gas station","the speed / pace","the salon","the detour"],ans:"the speed / pace",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wir m\\u00fcssen {1}!",a:["eilen"],opts:["eilen","das Tempo","der Stau","die Panne"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"We have to hurry!"},
-        {type:"mc",q:"Was bedeutet 'stoppen'?",opts:["to stop","the breakdown","the salon","the taste / flavor"],ans:"to stop",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'die Tankstelle'?",opts:["the object / item","the right of way","the breakdown","the gas station"],ans:"the gas station",hint:"كلمة مركبة: Tank (خزان وقود) + Stelle (مكان)"},
+        {type:"fb",s:"Wie sagt man 'the breakdown' auf Deutsch? {1}",a:["die Panne"],opts:["stoppen","die Rundfahrt","der Halt","die Panne"],hint:"كلمة مؤنثة (die) تصف عطلًا مفاجئًا في السيارة",sSrc:"كيف تقول 'the breakdown' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'das Tempo'?",opts:["the gas station","the speed / pace","the salon","the detour"],ans:"the speed / pace",hint:"كلمة محايدة (das) تصف سرعة الحركة"},
+        {type:"fb",s:"Wir m\\u00fcssen {1}!",a:["eilen"],opts:["eilen","das Tempo","der Stau","die Panne"],hint:"فعل يعني الإسراع والعجلة للحاق بشيء",sSrc:"لازم نستعجل!"},
+        {type:"mc",q:"Was bedeutet 'stoppen'?",opts:["to stop","the breakdown","the salon","the taste / flavor"],ans:"to stop",hint:"فعل يعني التوقف عن الحركة تمامًا"}
       ]},
 // ─── L9: Hamburger Küche ───
     {id:"deu_r15l5",title:"Hamburger Küche",icon:"🍜",xp:15,board:true,steps:[
@@ -263,10 +263,10 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
     {trg:"Gewürz",src:"بهار"}
 ]},
         {type:"story",speaker:"verumius",mood:"satisfied",art:"de-ham-restaurant-harbor",trg:"Das Fischbrötchen war lecker. Und die Kollegin sagt Möhre statt Karotte. Jede Region hat ihre eigene Sprache.",src:"كان ساندويتش السمك لذيذاً. والزميل يقول موهره بدلاً من كاروته. لكل منطقة لغتها الخاصة."},
-        {type:"mc",q:"Was bedeutet 'die Limonade'?",opts:["the carrot","the dining car","the dish / food","the lemonade / soft drink"],ans:"the lemonade / soft drink",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'the pub / bar' auf Deutsch? {1}",a:["die Kneipe"],opts:["die Kneipe","die Nachspeise","der Honig","das H\\u00fchnchen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the pub / bar' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'salzig'?",opts:["salty","the dessert (French loan)","the dessert","the appetizer / starter"],ans:"salty",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Der K\\u00e4se ist {1}.",a:["mild"],opts:["das Men\\u00fc","die Vorspeise","mild","die Karotte"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The cheese is mild."}
+        {type:"mc",q:"Was bedeutet 'die Limonade'?",opts:["the carrot","the dining car","the dish / food","the lemonade / soft drink"],ans:"the lemonade / soft drink",hint:"كلمة مؤنثة (die) تصف مشروبًا غازيًا حلوًا"},
+        {type:"fb",s:"Wie sagt man 'the pub / bar' auf Deutsch? {1}",a:["die Kneipe"],opts:["die Kneipe","die Nachspeise","der Honig","das H\\u00fchnchen"],hint:"كلمة مؤنثة (die) تصف بارًا صغيرًا شعبيًا",sSrc:"كيف تقول 'the pub / bar' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'salzig'?",opts:["salty","the dessert (French loan)","the dessert","the appetizer / starter"],ans:"salty",hint:"صفة تصف طعم الملح في الأكل"},
+        {type:"fb",s:"Der K\\u00e4se ist {1}.",a:["mild"],opts:["das Men\\u00fc","die Vorspeise","mild","die Karotte"],hint:"صفة تصف طعمًا لطيفًا غير حاد، عكس scharf",sSrc:"الجبنة خفيفة."}
       ]},
 // ─── L11: Elbphilharmonie ───
     {id:"deu_r15l6",title:"Elbphilharmonie",icon:"🎶",xp:15,board:true,steps:[
@@ -391,11 +391,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"mc",q:"Verumius muss tanken. Where does he go?",opts:["Zur Tankstelle","Zum Hallenbad","Zum Fundbüro","Zur Gaststätte"],ans:"Zur Tankstelle",hint:"Tanken تعني التزود بالوقود. أين تحصل على الوقود؟"},
         {type:"drag_fill",s:"{1} des Meetings stellte man Verumius dem {2} vor.",blanks:{"1":"Während","2":"Kollegen"},pool:["Während","Trotz","Kollegen","Kollege","Kolleg","Herrn"],hint:"الفراغ الأول: ما حرف الجر الذي يعني 'خلال'؟ الفراغ الثاني: اسم تصريف نوني في حالة الجر بعد 'dem'.",sSrc:"قُدّم فيروميوس إلى الزميل خلال الاجتماع."},
         {type:"story",speaker:"verumius",mood:"proud",art:"de-ham-hotel-checkout",trg:"Trotz der Nervosität habe ich alles richtig gemacht. Den Genitiv, die Titel, sogar das Fischbrötchen.",src:"على الرغم من التوتر فعلت كل شيء صحيحاً. الإضافة، والألقاب، وحتى ساندويتش السمك."},
-        {type:"mc",q:"Was bedeutet 'landen'?",opts:["to land","to honk","the sidewalk","the landing"],ans:"to land",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to depart / set off' auf Deutsch? {1}",a:["losfahren"],opts:["die Semmel","losfahren","das Benzin","landen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to depart / set off' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'stehenbleiben'?",opts:["the muesli","the sidewalk","to stop / stand still","the boat"],ans:"to stop / stand still",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wir müssen {1}. Die Tankstelle ist in fünf Kilometern.",a:"tanken",opts:["tanken","hupen","landen","bremsen"],hint:"فكّر في معنى الكلمة.",sSrc:"We need to refuel. The gas station is in five kilometers."},
-        {type:"fb",s:"Darf ich hier ___? Nein, Überholverbot!",a:"überholen",opts:["überholen","überfahren","überqueren","umdrehen"],hint:"فكّر في معنى الكلمة.",sSrc:"May I overtake here? No, no-passing zone!"}
+        {type:"mc",q:"Was bedeutet 'landen'?",opts:["to land","to honk","the sidewalk","the landing"],ans:"to land",hint:"فعل يصف هبوط الطائرة على الأرض"},
+        {type:"fb",s:"Wie sagt man 'to depart / set off' auf Deutsch? {1}",a:["losfahren"],opts:["die Semmel","losfahren","das Benzin","landen"],hint:"فعل مركب: los- + fahren = يبدأ الرحلة بالسيارة",sSrc:"كيف تقول 'to depart / set off' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'stehenbleiben'?",opts:["the muesli","the sidewalk","to stop / stand still","the boat"],ans:"to stop / stand still",hint:"فعل يعني الوقوف ساكنًا بلا حركة تمامًا"},
+        {type:"fb",s:"Wir müssen {1}. Die Tankstelle ist in fünf Kilometern.",a:"tanken",opts:["tanken","hupen","landen","bremsen"],hint:"فكّر في معنى الكلمة.",sSrc:"لازم نتعبّى بنزين. محطة البنزين بعد خمس كيلومترات."},
+        {type:"fb",s:"Darf ich hier ___? Nein, Überholverbot!",a:"überholen",opts:["überholen","überfahren","überqueren","umdrehen"],hint:"فكّر في معنى الكلمة.",sSrc:"فيني أتجاوز هون؟ لا، ممنوع التجاوز!"}
       ]},
 // ─── L15: Zurück nach Berlin ───
     {id:"deu_r15l9",title:"Zurück nach Berlin",icon:"🌃",xp:15,board:true,steps:[

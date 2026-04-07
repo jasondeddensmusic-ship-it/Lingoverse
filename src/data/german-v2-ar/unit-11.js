@@ -161,7 +161,7 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"story",speaker:"opa",mood:"nostalgic",trg:"Hier, frische Brötchen für alle! Seit fünfzig Jahren kaufe ich beim gleichen Bäcker. Vor dem Krieg war der Laden noch klein. Während der Ferien backt er sogar Stollen!",src:"تفضلوا، خبز طازج للجميع! منذ خمسين عاماً وأنا أشتري من نفس الخبّاز. قبل الحرب كان المحل لا يزال صغيراً. أثناء العطلة يخبز حتى كعكة شتولن!"},
         {type:"story",speaker:"verumius",mood:"touched",art:"de-ber-weihnachtsmarkt-broetchen",trg:"Verumius beißt in das Brötchen. Es ist frisch, weich und noch ein bisschen warm. Er sieht Heinrich an. Er sieht Hildi an. Er sagt nichts. Aber er lächelt.",src:"يعض فيروميوس الرغيف. إنه طازج، طري، ولا يزال دافئاً قليلاً. ينظر إلى هاينريش. ينظر إلى هيلدي. لا يقول شيئاً. لكنه يبتسم."},
         {type:"mc",q:"يقول الجد هاينريش 'Seit fünfzig Jahren kaufe ich beim gleichen Bäcker.' منذ متى يشتري من نفس الخبّاز؟",opts:["منذ خمس سنوات","منذ خمس عشرة سنة","منذ عيد ميلاده","منذ خمسين سنة"],ans:"منذ خمسين سنة",hint:"'Fünfzig' هي الكلمة الألمانية لرقم بين ٤٩ و٥١."},
-        {type:"mc",q:"ماذا تعني 'der Flohmarkt'؟",opts:["العطر","سوق البرغوث (المستعملات)","يُهدي","السلسلة / القلادة"],ans:"سوق البرغوث (المستعملات)",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"ماذا تعني 'der Flohmarkt'؟",opts:["العطر","سوق البرغوث (المستعملات)","يُهدي","السلسلة / القلادة"],ans:"سوق البرغوث (المستعملات)",hint:"كلمة مركبة: Floh (برغوث) + Markt (سوق)"}
       ]},
 // ─── L5: Der rote Schal ───
     {id:"deu_r11l4",title:"Der rote Schal",icon:"📐",xp:20,board:true,steps:[
@@ -522,10 +522,10 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
 ]},
         {type:"tip",title:"German Christmas Traditions",text:"عيد الميلاد يبدأ في ٢٤ ديسمبر (Heiligabend)، وليس ٢٥ ديسمبر.\n\n- Adventskranz: ٤ شموع، واحدة تُضاء كل أحد قبل عيد الميلاد\n- Adventskalender: ٢٤ باباً، واحد كل يوم في ديسمبر\n- Nikolaus (٦ ديسمبر): أحذية عند الباب، مملوءة بالحلوى\n- Heiligabend: عشاء عائلي، هدايا، كنيسة\n- Weihnachtsgans: إوزة مشوية، الوجبة التقليدية لعيد الميلاد\n- Stille Nacht: أشهر أنشودة في العالم، كُتبت في النمسا ١٨١٨",deepDive:"تقليد سوق عيد الميلاد يعود إلى القرن الرابع عشر. Striezelmarkt في دريسدن (١٤٣٤) هو الأقدم. كل مدينة لديها واحد. كثير من الألمان يزورون ٥-١٠ أسواق مختلفة كل موسم."},
         {type:"mc",q:"Walking through snow, Verumius feels:",opts:["warm and content, like he belongs","cold and lonely","angry about the weather","worried about tomorrow"],ans:"warm and content, like he belongs",hint:"خبز هاينريش في حقيبته. دفء النبيذ الساخن في قلبه."},
-        {type:"mc",q:"Was bedeutet 'aussprechen'?",opts:["strict","to pronounce","lazy","own"],ans:"to pronounce",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Hildi ist {1}, oder?",a:["blond"],opts:["blond","verschieden","deutlich","der Witz"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Hildi is blond, right?"},
-        {type:"mc",q:"Was bedeutet 'einmal'?",opts:["lazy","strict","once / one time","to practice"],ans:"once / one time",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Das ist mir {1}!",a:["wurscht"],opts:["eigen","streng","wurscht","blond"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"I don't care!"}
+        {type:"mc",q:"Was bedeutet 'aussprechen'?",opts:["strict","to pronounce","lazy","own"],ans:"to pronounce",hint:"فعل يتعلق بنطق الأصوات والكلمات بصوت عالٍ"},
+        {type:"fb",s:"Hildi ist {1}, oder?",a:["blond"],opts:["blond","verschieden","deutlich","der Witz"],hint:"صفة تصف لون الشعر الفاتح الذهبي",sSrc:"هيلدي شقرا، صح؟"},
+        {type:"mc",q:"Was bedeutet 'einmal'?",opts:["lazy","strict","once / one time","to practice"],ans:"once / one time",hint:"ظرف عدد يعني مرة واحدة فقط"},
+        {type:"fb",s:"Das ist mir {1}!",a:["wurscht"],opts:["eigen","streng","wurscht","blond"],hint:"كلمة عامية بافارية تعني عدم الاهتمام بشيء",sSrc:"ما بيهمني!"}
       ]}
   ]};
 

@@ -39,9 +39,9 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
         {type:"story",speaker:"verumius",mood:"overwhelmed",art:"de-koeln-hbf-crowd",trg:"Alles ist zu viel. Zu laut, zu bunt, zu fröhlich. Ein Fremder im Piratenkostüm schreit mir 'Alaaf!' ins Gesicht und gibt mir eine Trommel.",src:"كل شيء أكثر من اللازم. صاخب جداً، ملوّن جداً، مرح جداً. غريب بزي قرصان يصرخ 'آلاف!' في وجهي ويعطيني طبلة."},
         {type:"story",speaker:"mia",mood:"grinning",art:"de-koeln-hbf-crowd",trg:"Komm. Wir gehen rein. In den Wahnsinn. Du bist jetzt ein Kölner, Verumius.",src:"هيا. سندخل. إلى الجنون. أنت من أهل كولونيا الآن يا فيروميوس."},
         {type:"fb",s:"Die Kostüme sind {1}! Jedes Detail ist anders.",a:["wunderschön"],opts:["wunderschön","riesig","kreativ","fröhlich"],hint:"فكّر في معنى الكلمة.",sSrc:"الأزياء رائعة الجمال! كل تفصيل مختلف."},
-        {type:"mc",q:"Was bedeutet 'gucken'?",opts:["this time","to look, to peek","huge, enormous","the jewelry, the decoration"],ans:"to look, to peek",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to wave' auf Deutsch? {1}",a:["winken"],opts:["riesig","die Tradition","winken","der Hut"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to wave' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'diesmal'?",opts:["this time","huge, enormous","enthusiastic, thrilled","the tradition"],ans:"this time",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"mc",q:"Was bedeutet 'gucken'?",opts:["this time","to look, to peek","huge, enormous","the jewelry, the decoration"],ans:"to look, to peek",hint:"فعل عامي يعني النظر بسرعة أو خلسة"},
+        {type:"fb",s:"Wie sagt man 'to wave' auf Deutsch? {1}",a:["winken"],opts:["riesig","die Tradition","winken","der Hut"],hint:"فعل يعني تحريك اليد يمينًا ويسارًا للتحية",sSrc:"كيف تقول 'to wave' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'diesmal'?",opts:["this time","huge, enormous","enthusiastic, thrilled","the tradition"],ans:"this time",hint:"تعبير ظرفي: dies + Mal (مرة) = في هذه المناسبة"},
         {type:"fb",s:"Er hat mich freundlich {1}. Guten Tag, Herr Verumius!",a:"gegrüßt",opts:["gegrüßt","gewinkt","geguckt","gerufen"],hint:"فكّر في معنى الكلمة.",sSrc:"حيّاني بودّ. يوم سعيد، سيد فيروميوس!"}
       ]},
 // ─── L3: Masken und Melodien ───
@@ -77,10 +77,10 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
         {type:"match",pairs:[{trg:"Bühne",src:"مرحلة"},{trg:"Publikum",src:"جمهور"},{trg:"Auftritt",src:"أداء"},{trg:"Saal",src:"قاعة"}]},
         {type:"mc",q:"Mia sagt: 'Ich habe mich amüsiert.' Was bedeutet das?",opts:["Ich habe gesungen","Ich war verärgert","Ich habe getanzt","Ich hatte Spaß"],ans:"Ich hatte Spaß",hint:"sich amüsieren هو الفعل الانعكاسي للترفيه عن نفسك وقضاء وقت ممتع."},
         {type:"story",speaker:"narrator",mood:"lively",art:"de-koeln-altstadt-buehne",trg:"Auf der Bühne vor dem Dom spielt eine Band. Der Sänger schreit ins Mikrofon, das Publikum brüllt den Refrain mit. Verumius klatscht im falschen Rhythmus. Niemanden kümmert es.",src:"على المسرح أمام الكاتدرائية، تعزف فرقة. المغنّي يصرخ في الميكروفون، والجمهور يردد اللازمة بصوت عالٍ. فيروميوس يصفق على الإيقاع الخطأ. لا أحد يهتم."},
-        {type:"fb",s:"Der Saal war voll. Über tausend Menschen haben den {1} der Band gefeiert.",a:["Auftritt"],opts:["Auftritt","Saal","Tanz","Publikum"],hint:"فكّر في معنى الكلمة.",sSrc:"The hall was full. Over a thousand people celebrated the band's performance."},
-        {type:"mc",q:"Was bedeutet 'musikalisch'?",opts:["the dance","musical","traditional","the hall, the ballroom"],ans:"musical",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Dein Kost\\u00fcm ist sehr {1}.",a:["elegant"],opts:["die Musikerin","der Saal","die B\\u00fchne","elegant"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Your costume is very elegant."},
-        {type:"mc",q:"Was bedeutet 'schick'?",opts:["the opera","the singer (male)","stylish, chic","elegant"],ans:"stylish, chic",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"fb",s:"Der Saal war voll. Über tausend Menschen haben den {1} der Band gefeiert.",a:["Auftritt"],opts:["Auftritt","Saal","Tanz","Publikum"],hint:"فكّر في معنى الكلمة.",sSrc:"القاعة كانت ممتلئة. أكتر من ألف شخص احتفلوا بأداء الفرقة."},
+        {type:"mc",q:"Was bedeutet 'musikalisch'?",opts:["the dance","musical","traditional","the hall, the ballroom"],ans:"musical",hint:"صفة تتعلق بالموسيقى والألحان والآلات"},
+        {type:"fb",s:"Dein Kost\\u00fcm ist sehr {1}.",a:["elegant"],opts:["die Musikerin","der Saal","die B\\u00fchne","elegant"],hint:"صفة فرنسية الأصل تصف الرقي والذوق الرفيع",sSrc:"زيّك كتير أنيق."},
+        {type:"mc",q:"Was bedeutet 'schick'?",opts:["the opera","the singer (male)","stylish, chic","elegant"],ans:"stylish, chic",hint:"صفة فرنسية الأصل تصف الأناقة في المظهر"}
       ]},
 // ─── L5: Jeder ist du ───
     {id:"deu_r17l3",title:"Jeder ist du",icon:"🤝",xp:15,board:true,steps:[
@@ -183,13 +183,13 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
         {type:"fb",s:"Verumius zieht eine Toga an, {1} ein Senator zu sein.",a:["um"],opts:["um","ohne","statt","damit"],hint:"يرتدي التوغا لغرض: ليكون سيناتوراً.",sSrc:"يرتدي فيروميوس التوغا ليكون سيناتوراً."},
         {type:"drag_fill",s:"{1} nur zuzuschauen, tanzt Verumius mit, {2} Spaß zu haben.",blanks:{"1":"Statt","2":"um"},pool:["Statt","um","ohne","damit","weil"],hint:"أولاً: لا يكتفي بالمشاهدة (البديل). ثانياً: الغرض هو الاستمتاع.",sSrc:"بدلاً من مجرد المشاهدة، يرقص فيروميوس معهم من أجل الاستمتاع."},
         {type:"mc",q:"'Ich singe, ___ alle mitmachen.' Welches Wort fehlt?",opts:["ohne","statt","um","damit"],ans:"damit",hint:"من يغني؟ من يشارك؟ عندما يكون فاعل الفعل الثاني مختلفاً عن الأول، أي أداة ربط مطلوبة؟"},
-        {type:"mc",q:"Was bedeutet 'der Spielplatz'?",opts:["the winner, the victor","the coach (male)","the playground","the winner (female)"],ans:"the playground",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'the toy, the toys' auf Deutsch? {1}",a:["das Spielzeug"],opts:["das Spielzeug","die Sportart","der Spielplatz","der Sieger"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the toy, the toys' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'das Stadion'?",opts:["the record (competitive)","the stadium","to win, to be victorious","the player (female)"],ans:"the stadium",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'golf (the sport)' auf Deutsch? {1}",a:["das Golf"],opts:["das Golf","die Sportlerin","der Rekord","der Sieg"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'golf (the sport)' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'der Ski'?",opts:["the record (competitive)","the toy, the toys","the ski","the start"],ans:"the ski",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'gymnastics' auf Deutsch? {1}",a:["die Gymnastik"],opts:["der Rekord","der Spieler","starten","die Gymnastik"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'gymnastics' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'der Start'?",opts:["the ski","the coach (female)","golf (the sport)","the start"],ans:"the start",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'der Spielplatz'?",opts:["the winner, the victor","the coach (male)","the playground","the winner (female)"],ans:"the playground",hint:"كلمة مركبة: Spiel (لعب) + Platz (ساحة)"},
+        {type:"fb",s:"Wie sagt man 'the toy, the toys' auf Deutsch? {1}",a:["das Spielzeug"],opts:["das Spielzeug","die Sportart","der Spielplatz","der Sieger"],hint:"كلمة مركبة: Spiel (لعب) + Zeug (شيء/أداة)",sSrc:"كيف تقول 'the toy, the toys' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'das Stadion'?",opts:["the record (competitive)","the stadium","to win, to be victorious","the player (female)"],ans:"the stadium",hint:"كلمة لاتينية الأصل تصف مبنى رياضيًا كبيرًا"},
+        {type:"fb",s:"Wie sagt man 'golf (the sport)' auf Deutsch? {1}",a:["das Golf"],opts:["das Golf","die Sportlerin","der Rekord","der Sieg"],hint:"رياضة تُلعب بكرة صغيرة وعصا في ملاعب خضراء",sSrc:"كيف تقول 'golf (the sport)' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'der Ski'?",opts:["the record (competitive)","the toy, the toys","the ski","the start"],ans:"the ski",hint:"أداة رياضية طويلة تُستخدم على الثلج"},
+        {type:"fb",s:"Wie sagt man 'gymnastics' auf Deutsch? {1}",a:["die Gymnastik"],opts:["der Rekord","der Spieler","starten","die Gymnastik"],hint:"رياضة يونانية الأصل تتضمن حركات جسدية منظمة",sSrc:"كيف تقول 'gymnastics' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'der Start'?",opts:["the ski","the coach (female)","golf (the sport)","the start"],ans:"the start",hint:"كلمة إنجليزية الأصل تعني نقطة البداية"}
       ]},
 // ─── L9: Kneipentour durch die Altstadt ───
     {id:"deu_r17l6",title:"Kneipentour durch die Altstadt",icon:"🍺",xp:15,board:true,steps:[
@@ -238,16 +238,16 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
         {type:"mc",q:"Ein Fotograf macht Bilder. Eine Reporterin schreibt Artikel. Was haben beide gemeinsam?",opts:["Beide arbeiten im Journalismus","Beide singen","Beide tanzen","Beide tragen Kostüme"],ans:"Beide arbeiten im Journalismus",hint:"كلتا المهنتين تتضمنان توثيق ومشاركة الأحداث مع الجمهور."},
         {type:"story",speaker:"narrator",mood:"buzzing",art:"de-koeln-altstadt-nacht",trg:"Dritte Kneipe. Oder vierte? Verumius hat aufgehört zu zählen. In jeder Kneipe: andere Musik, andere Kostüme, gleiche Energie. Ein Astronaut singt Kölsch mit einem Dinosaurier.",src:"الحانة الثالثة. أو الرابعة؟ فيروميوس فقد العد. في كل حانة: موسيقى مختلفة، أزياء مختلفة، نفس الطاقة. رائد فضاء يغني أغاني كولونيا مع ديناصور."},
         {type:"story",speaker:"verumius",mood:"happy-dizzy",art:"de-koeln-altstadt-nacht",trg:"Mia, in welcher Stadt sind wir? Ist das wirklich Deutschland? Dieses Land hat zwei Gesichter.",src:"ميا، في أي مدينة نحن؟ هل هذه ألمانيا حقاً؟ هذا البلد له وجهان."},
-        {type:"fb",s:"Wir geben eine {1} aus. Prost, Kölle Alaaf!",a:["Runde"],opts:["Runde","Unterhaltung","Neuigkeit","Galerie"],hint:"فكّر في معنى الكلمة.",sSrc:"We are buying a round. Cheers, Kölle Alaaf!"},
-        {type:"mc",q:"Was bedeutet 'die Journalistin'?",opts:["the gallery","the journalist (female)","the round","the reporter (female)"],ans:"the journalist (female)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} macht Bilder vom Umzug.",a:["der Fotograf"],opts:["der Reporter","das Vergn\\u00fcgen","die Reporterin","der Fotograf"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The photographer takes pictures of the parade."},
-        {type:"mc",q:"Was bedeutet 'die Fotografie'?",opts:["the entertainment, the conversation","intercultural","the round","the photography, the photograph"],ans:"the photography, the photograph",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ist das Kost\\u00fcm {1}?",a:["original"],opts:["original","die Fotografie","die Runde","auftreten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is the costume original?"},
-        {type:"mc",q:"Was bedeutet 'realistisch'?",opts:["realistic","the pleasure, the fun","to encounter, to meet (by chance)","the report, the feature story"],ans:"realistic",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Karneval in K\\u00f6ln ist sehr {1}.",a:["interkulturell"],opts:["interkulturell","die Fotografie","realistisch","die Diskothek"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Carnival in Cologne is very intercultural."},
-        {type:"mc",q:"Was bedeutet 'auftreten'?",opts:["to appear, to perform","to take care of, to ensure","the news, the novelty","the reporter (female)"],ans:"to appear, to perform",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to encounter, to meet (by chance)' auf Deutsch? {1}",a:["begegnen"],opts:["die Journalistin","die Neuigkeit","sorgen","begegnen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to encounter, to meet (by chance)' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'sorgen'?",opts:["the news, the novelty","to appear, to perform","the photography, the photograph","to take care of, to ensure"],ans:"to take care of, to ensure",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"fb",s:"Wir geben eine {1} aus. Prost, Kölle Alaaf!",a:["Runde"],opts:["Runde","Unterhaltung","Neuigkeit","Galerie"],hint:"فكّر في معنى الكلمة.",sSrc:"عم ندير جولة مشروبات. بالصحة، كولّه ألاف!"},
+        {type:"mc",q:"Was bedeutet 'die Journalistin'?",opts:["the gallery","the journalist (female)","the round","the reporter (female)"],ans:"the journalist (female)",hint:"صيغة مؤنثة بإضافة -in لمهنة الصحافة والأخبار"},
+        {type:"fb",s:"{1} macht Bilder vom Umzug.",a:["der Fotograf"],opts:["der Reporter","das Vergn\\u00fcgen","die Reporterin","der Fotograf"],hint:"شخص يلتقط الصور بالكاميرا كمهنة",sSrc:"المصوّر بيصوّر الاستعراض."},
+        {type:"mc",q:"Was bedeutet 'die Fotografie'?",opts:["the entertainment, the conversation","intercultural","the round","the photography, the photograph"],ans:"the photography, the photograph",hint:"كلمة يونانية الأصل: photos (ضوء) + graphein (يكتب)"},
+        {type:"fb",s:"Ist das Kost\\u00fcm {1}?",a:["original"],opts:["original","die Fotografie","die Runde","auftreten"],hint:"صفة تصف شيئًا أصليًا وليس نسخة",sSrc:"هل الزي أصلي؟"},
+        {type:"mc",q:"Was bedeutet 'realistisch'?",opts:["realistic","the pleasure, the fun","to encounter, to meet (by chance)","the report, the feature story"],ans:"realistic",hint:"صفة تصف شيئًا قريبًا من الواقع والحقيقة"},
+        {type:"fb",s:"Karneval in K\\u00f6ln ist sehr {1}.",a:["interkulturell"],opts:["interkulturell","die Fotografie","realistisch","die Diskothek"],hint:"صفة مركبة: inter (بين) + kulturell (ثقافي)",sSrc:"الكرنفال بكولونيا كتير متعدد الثقافات."},
+        {type:"mc",q:"Was bedeutet 'auftreten'?",opts:["to appear, to perform","to take care of, to ensure","the news, the novelty","the reporter (female)"],ans:"to appear, to perform",hint:"فعل مركب: auf + treten (يخطو) = يظهر على المسرح"},
+        {type:"fb",s:"Wie sagt man 'to encounter, to meet (by chance)' auf Deutsch? {1}",a:["begegnen"],opts:["die Journalistin","die Neuigkeit","sorgen","begegnen"],hint:"فعل يعني اللقاء العشوائي غير المخطط",sSrc:"كيف تقول 'to encounter, to meet (by chance)' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'sorgen'?",opts:["the news, the novelty","to appear, to perform","the photography, the photograph","to take care of, to ensure"],ans:"to take care of, to ensure",hint:"فعل يعني ضمان حدوث شيء أو الاهتمام بأمر ما"}
       ]},
 // ─── L11: Rosenmontagszug! ───
     {id:"deu_r17l7",title:"Rosenmontagszug!",icon:"🎊",xp:15,board:true,steps:[
@@ -296,15 +296,15 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
         {type:"mc",q:"Verumius sagt: 'Das war der allerbeste Tag!' Was bedeutet 'allerbest'?",opts:["ziemlich gut","der schlimmste","der allerbeste von allen","der normalste"],ans:"der allerbeste von allen",hint:"فيروميوس يصفه بالحد الأقصى المطلق لـ 'جيد'. أي خيار يعني الأفضل من بين كل الخيارات الممكنة، وليس فقط الأفضل؟"},
         {type:"story",speaker:"verumius",mood:"joyful",art:"de-koeln-rosenmontagszug-confetti",trg:"Meine Taschen sind voll mit Kamelle. Meine Stimme ist weg. Ein Fremder hat mich umarmt und ich habe zurück umarmt, ohne nachzudenken. Ohne Angst. Einfach so.",src:"جيوبي مليئة بالحلوى. صوتي ذهب. غريب عانقني وعانقته بالمقابل بدون تفكير. بدون خوف. هكذا ببساطة."},
         {type:"story",speaker:"mia",mood:"proud",art:"de-koeln-rosenmontagszug-confetti",trg:"Du hast gerade auf Deutsch gesungen. Ohne den Text zu kennen. Vor hunderttausend Menschen. Und du hast es nicht mal bemerkt.",src:"غنيت للتو بالألمانية. بدون معرفة الكلمات. أمام مئة ألف شخص. ولم تلاحظ حتى."},
-        {type:"fb",s:"Über eine Million {1} stehen am Straßenrand und schauen den Rosenmontagszug.",a:["Zuschauer"],opts:["Zuschauer","Schauspieler","Zuhörer","Hörer"],hint:"فكّر في معنى الكلمة.",sSrc:"Over one million spectators line the roadside and watch the Rose Monday parade."},
-        {type:"mc",q:"Was bedeutet 'das Ballett'?",opts:["to run (fast)","the talent","the listener, the receiver","the ballet"],ans:"the ballet",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Die Parade ist {1} laut!",a:["wahnsinnig"],opts:["wahnsinnig","das Ballett","allerbest","der Schauspieler"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The parade is insanely loud!"},
-        {type:"mc",q:"Was bedeutet 'allerbest'?",opts:["the gate, the goal","the very best of all","the talent","the listener (female)"],ans:"the very best of all",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Die Kinder {1} nach den Bonbons!",a:["springen"],opts:["der Schauspieler","springen","die H\\u00f6rerin","das Ballett"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The children jump for the candy!"},
-        {type:"mc",q:"Was bedeutet 'rennen'?",opts:["the listener, the receiver","to drive, to push, to do (sport)","to climb","to run (fast)"],ans:"to run (fast)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Die Kinder {1} auf die Absperrung!",a:["klettern"],opts:["klettern","die Zuschauerin","das Ballett","treiben"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The children climb on the barrier!"},
-        {type:"mc",q:"Was bedeutet 'treiben'?",opts:["the listener, the receiver","the type, the guy","to drive, to push, to do (sport)","the most beautiful of all"],ans:"to drive, to push, to do (sport)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} Sie bitte ein!",a:["treten"],opts:["allersch\\u00f6nst","treten","springen","allerbest"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Please step in!"}
+        {type:"fb",s:"Über eine Million {1} stehen am Straßenrand und schauen den Rosenmontagszug.",a:["Zuschauer"],opts:["Zuschauer","Schauspieler","Zuhörer","Hörer"],hint:"فكّر في معنى الكلمة.",sSrc:"أكتر من مليون متفرّج واقفين على جانب الطريق ويتفرّجون على استعراض اثنين الورد."},
+        {type:"mc",q:"Was bedeutet 'das Ballett'?",opts:["to run (fast)","the talent","the listener, the receiver","the ballet"],ans:"the ballet",hint:"كلمة فرنسية الأصل تصف نوعًا من الرقص الكلاسيكي"},
+        {type:"fb",s:"Die Parade ist {1} laut!",a:["wahnsinnig"],opts:["wahnsinnig","das Ballett","allerbest","der Schauspieler"],hint:"صفة عامية تعني شدة غير عادية، مثل مجنون",sSrc:"الاستعراض عالي بشكل جنوني!"},
+        {type:"mc",q:"Was bedeutet 'allerbest'?",opts:["the gate, the goal","the very best of all","the talent","the listener (female)"],ans:"the very best of all",hint:"صيغة التفضيل المطلقة بإضافة aller- قبل الصفة"},
+        {type:"fb",s:"Die Kinder {1} nach den Bonbons!",a:["springen"],opts:["der Schauspieler","springen","die H\\u00f6rerin","das Ballett"],hint:"فعل يصف القفز من الأرض إلى الأعلى",sSrc:"الأطفال بينطّوا على الحلويات!"},
+        {type:"mc",q:"Was bedeutet 'rennen'?",opts:["the listener, the receiver","to drive, to push, to do (sport)","to climb","to run (fast)"],ans:"to run (fast)",hint:"فعل يصف الحركة السريعة جدًا بالقدمين"},
+        {type:"fb",s:"Die Kinder {1} auf die Absperrung!",a:["klettern"],opts:["klettern","die Zuschauerin","das Ballett","treiben"],hint:"فعل يعني الصعود باستخدام اليدين والقدمين",sSrc:"الأطفال بيتسلّقوا الحاجز!"},
+        {type:"mc",q:"Was bedeutet 'treiben'?",opts:["the listener, the receiver","the type, the guy","to drive, to push, to do (sport)","the most beautiful of all"],ans:"to drive, to push, to do (sport)",hint:"فعل يعني ممارسة الرياضة أو دفع شيء للأمام"},
+        {type:"fb",s:"{1} Sie bitte ein!",a:["treten"],opts:["allersch\\u00f6nst","treten","springen","allerbest"],hint:"فعل يعني الدخول بخطوة إلى مكان",sSrc:"تفضّل ادخل!"}
       ]},
 // ─── L13: Kamelle und Konfetti ───
     {id:"deu_r17l8",title:"Kamelle und Konfetti",icon:"🍬",xp:15,board:true,steps:[
@@ -357,14 +357,14 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
     "Mia erklärt die Tradition, statt alles zu verstehen, um gelangweilt zu klingen",
     "Mia erklärt die Tradition, ohne alles zu verstehen, damit gelangweilt klingt"
 ],ans:"Mia erklärt die Tradition, damit Verumius alles versteht, ohne gelangweilt zu klingen",hint:"للجملة الفرعية الأولى، تحقق من يفعل كل فعل. للثانية، ميا لا تزال الفاعل طوال الوقت."},
-        {type:"mc",q:"Was bedeutet 'der Roman'?",opts:["the author (female)","the literature","the novel","to err, to be wrong"],ans:"the novel",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'the poem' auf Deutsch? {1}",a:["das Gedicht"],opts:["garantieren","das Gedicht","die Erz\\u00e4hlung","auff\\u00fchren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the poem' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'die Literatur'?",opts:["the literature","the painter (female)","the writer, the author (male)","the script, the writing, the typeface"],ans:"the literature",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'the script, the writing, the typeface' auf Deutsch? {1}",a:["die Schrift"],opts:["die Malerin","der Maler","die Schrift","wetten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the script, the writing, the typeface' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'der Verlag'?",opts:["the painter (female)","the painter (male)","the publishing house","the script, the writing, the typeface"],ans:"the publishing house",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'the medium' auf Deutsch? {1}",a:["das Medium"],opts:["wetten","das Medium","die Erz\\u00e4hlung","die Schriftstellerin"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the medium' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'die Garantie'?",opts:["the medium","the author (male)","to guarantee","the guarantee, the warranty"],ans:"the guarantee, the warranty",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Kannst du mir Spa\\u00df {1}?",a:["garantieren"],opts:["die Schrift","auff\\u00fchren","die Erz\\u00e4hlung","garantieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you guarantee me fun?"}
+        {type:"mc",q:"Was bedeutet 'der Roman'?",opts:["the author (female)","the literature","the novel","to err, to be wrong"],ans:"the novel",hint:"كلمة مذكرة (der) تصف كتابًا قصصيًا طويلًا"},
+        {type:"fb",s:"Wie sagt man 'the poem' auf Deutsch? {1}",a:["das Gedicht"],opts:["garantieren","das Gedicht","die Erz\\u00e4hlung","auff\\u00fchren"],hint:"كلمة محايدة (das) تصف نصًا أدبيًا موزونًا",sSrc:"كيف تقول 'the poem' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'die Literatur'?",opts:["the literature","the painter (female)","the writer, the author (male)","the script, the writing, the typeface"],ans:"the literature",hint:"كلمة مؤنثة (die) تصف فن الكتابة والأعمال الأدبية"},
+        {type:"fb",s:"Wie sagt man 'the script, the writing, the typeface' auf Deutsch? {1}",a:["die Schrift"],opts:["die Malerin","der Maler","die Schrift","wetten"],hint:"كلمة مؤنثة (die) تصف رموز الكتابة أو الخط",sSrc:"كيف تقول 'the script, the writing, the typeface' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'der Verlag'?",opts:["the painter (female)","the painter (male)","the publishing house","the script, the writing, the typeface"],ans:"the publishing house",hint:"كلمة مذكرة (der) تصف مؤسسة تطبع وتوزع الكتب"},
+        {type:"fb",s:"Wie sagt man 'the medium' auf Deutsch? {1}",a:["das Medium"],opts:["wetten","das Medium","die Erz\\u00e4hlung","die Schriftstellerin"],hint:"كلمة محايدة (das) تصف وسيلة لنقل المعلومات",sSrc:"كيف تقول 'the medium' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'die Garantie'?",opts:["the medium","the author (male)","to guarantee","the guarantee, the warranty"],ans:"the guarantee, the warranty",hint:"كلمة مؤنثة (die) تعني ضمانًا كتابيًا على منتج"},
+        {type:"fb",s:"Kannst du mir Spa\\u00df {1}?",a:["garantieren"],opts:["die Schrift","auff\\u00fchren","die Erz\\u00e4hlung","garantieren"],hint:"فعل فرنسي الأصل يعني الضمان والكفالة",sSrc:"فيك تضمنلي المتعة؟"}
       ]},
 // ─── L15: Konfetti im Haar ───
     {id:"deu_r17l9",title:"Konfetti im Haar",icon:"✨",xp:15,board:true,steps:[
@@ -462,14 +462,14 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
 ],ans:"Sie geht zum Karneval statt zu faulenzen",hint:"التكاسل هو الخيار الذي تتخطاه ميا. الكرنفال هو البديل. أي أداة ربط تقدم ما لم يُفعل؟"},
         {type:"story",speaker:"verumius",mood:"peaceful",art:"de-ice-fenster-daemmerung",trg:"Nächstes Jahr komme ich wieder. Nicht um Karneval zu sehen. Sondern um ihn zu feiern. Wie ein Kölner.",src:"العام القادم سأعود. ليس لمشاهدة الكرنفال. بل للاحتفال به. مثل أهل المدينة."},
         {type:"story",speaker:"narrator",mood:"closing",art:"de-ice-fenster-daemmerung",trg:"Der ICE gleitet durch die Nacht. Mia murmelt im Schlaf: 'Kölle Alaaf.' Verumius lächelt. Irgendwann hat Deutschland aufgehört, ein fremdes Land zu sein.",src:"القطار ينزلق عبر الليل. ميا تتمتم في نومها: 'كولّه آلاف'. فيروميوس يبتسم. في لحظة ما، توقفت ألمانيا عن كونها بلداً أجنبياً."},
-        {type:"fb",s:"Verumius will {1} nach Köln zurückkommen.",a:["irgendwann"],opts:["irgendwann","neulich","kürzlich","sowieso"],hint:"فكّر في معنى الكلمة.",sSrc:"Verumius wants to come back to Cologne someday."},
-        {type:"mc",q:"Was bedeutet 'tauchen'?",opts:["colored, colorful","(prefix) of all, the very (superlative amplifier)","to watch","to dive"],ans:"to dive",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Manche Leute {1} am Stra\\u00dfenrand.",a:["zelten"],opts:["zelten","f\\u00e4rbig","faulenzen","farbig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Some people camp on the roadside."},
-        {type:"mc",q:"Was bedeutet 'zuschauen'?",opts:["to watch","to shave","colored, colorful","stylistic"],ans:"to watch",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} macht alles noch intensiver.",a:["aller-"],opts:["aller-","stilistisch","f\\u00e4rbig","farbig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Aller- makes everything even more intense."},
-        {type:"mc",q:"Was bedeutet 'doppel-'?",opts:["(prefix) double","colored, colorful","double","(prefix) again, re-"],ans:"(prefix) double",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man '(prefix) again, re-' auf Deutsch? {1}",a:["wieder-"],opts:["sowieso","rasieren","wieder-","f\\u00e4rbig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول '(prefix) again, re-' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'zusammen-'?",opts:["colored, colorful","stylistic","(prefix) together","colored, colorful"],ans:"(prefix) together",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"fb",s:"Verumius will {1} nach Köln zurückkommen.",a:["irgendwann"],opts:["irgendwann","neulich","kürzlich","sowieso"],hint:"فكّر في معنى الكلمة.",sSrc:"فيروميوس بده يرجع لكولونيا بيوم من الأيام."},
+        {type:"mc",q:"Was bedeutet 'tauchen'?",opts:["colored, colorful","(prefix) of all, the very (superlative amplifier)","to watch","to dive"],ans:"to dive",hint:"فعل يصف النزول تحت سطح الماء"},
+        {type:"fb",s:"Manche Leute {1} am Stra\\u00dfenrand.",a:["zelten"],opts:["zelten","f\\u00e4rbig","faulenzen","farbig"],hint:"فعل يعني المبيت في خيمة في الطبيعة",sSrc:"بعض الناس بيخيّموا على جانب الطريق."},
+        {type:"mc",q:"Was bedeutet 'zuschauen'?",opts:["to watch","to shave","colored, colorful","stylistic"],ans:"to watch",hint:"فعل يعني مشاهدة شيء باهتمام لفترة طويلة"},
+        {type:"fb",s:"{1} macht alles noch intensiver.",a:["aller-"],opts:["aller-","stilistisch","f\\u00e4rbig","farbig"],hint:"بادئة تضيف معنى التفضيل المطلق للصفة",sSrc:"البادئة aller- بتخلي كل شي أقوى."},
+        {type:"mc",q:"Was bedeutet 'doppel-'?",opts:["(prefix) double","colored, colorful","double","(prefix) again, re-"],ans:"(prefix) double",hint:"بادئة تعني اثنين أو مرتين من الشيء نفسه"},
+        {type:"fb",s:"Wie sagt man '(prefix) again, re-' auf Deutsch? {1}",a:["wieder-"],opts:["sowieso","rasieren","wieder-","f\\u00e4rbig"],hint:"بادئة تعني التكرار أو الإعادة مرة أخرى",sSrc:"كيف تقول '(prefix) again, re-' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'zusammen-'?",opts:["colored, colorful","stylistic","(prefix) together","colored, colorful"],ans:"(prefix) together",hint:"بادئة تعني الاشتراك والاجتماع مع الآخرين"}
       ]}
   ]};
 
