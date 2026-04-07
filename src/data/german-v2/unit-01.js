@@ -350,7 +350,6 @@ const UNIT_1 =
 {type:"fb",s:"Ich spreche Deutsch {1} Englisch.",a:"und",opts:["und","aber","oder","nicht"],hint:"You need a word that connects two equal items together.",sSrc:"I speak German and English."},
 {type:"mc",q:"'Wie viel kostet das?' asks about...",opts:["the name of something","the location of something","the time of something","the price of something"],ans:"the price of something",hint:"Think about what information 'how much' would give you."},
 {type:"match",pairs:[{trg:"wo",src:"where"},{trg:"wann",src:"when"},{trg:"wer",src:"who"},{trg:"warum",src:"why"},{trg:"was",src:"what"}]},
-{type:"fb",s:"Ich komme heute {1}.",a:"nicht",opts:["nicht","nichts","sehr","gut"],hint:"Which word negates the verb at the end of the clause?",sSrc:"I am not coming today."},
 {type:"story",speaker:"verumius",mood:"thoughtful",art:"de-hostel-breakfast",trg:"Und, aber, oder, nicht. Vier kleine Wörter. Aber jetzt kann ich Sätze bauen. Nicht perfekt, aber verständlich. Und das ist gut.",src:"And, but, or, not. Four little words. But now I can build sentences. Not perfect, but understandable. And that is good."}
 ]},
 

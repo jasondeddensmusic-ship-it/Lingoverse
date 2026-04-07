@@ -1,0 +1,420 @@
+
+=== UNIT 01: 5 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r01l1] Answer is longest in 4/5 (80%) mc steps
+  [LENGTH_LEAK] [deu_r01l11] Answer is longest in 3/4 (75%) mc steps
+  [VISUAL_LEAK_MC] q="You want to ask about someone's location. Which W-word fits?" contains ans="wo"
+  [HINT_LEAK_MC] hint="Match the pronoun 'ich' to its correct form of sein." leaks [ich] from ans="Ich bin Verumius"
+  [HINT_LEAK_MC] hint="When introducing yourself, which name do people say before the family " leaks [name] from ans="the first name"
+
+=== UNIT 02: 5 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r2l14] Answer is longest in 4/4 (100%) mc steps
+  [HINT_LEAK_MC] hint="Apotheke is feminine (die). Hotel is neuter (das), and after neben it " leaks [die, dem] from ans="Die ... dem"
+  [HINT_LEAK_MC] hint="Richtung, Kreuzung, Verbindung, Besichtigung... all die." leaks [die] from ans="feminine (die)"
+  [HINT_LEAK_FB] hint="This separable prefix means 'along' or 'with' in mitkommen." leaks [mit] from a[0]="mit"
+  [HINT_LEAK_MC] hint="Careful! der See = lake, but die See = sea. Different gender, differen" leaks [lake] from ans="the lake"
+
+=== UNIT 03: 11 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r03l2] Answer is longest in 4/6 (67%) mc steps
+  [LENGTH_LEAK] [deu_r03l4] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r03l5] Answer is longest in 4/6 (67%) mc steps
+  [LENGTH_LEAK] [deu_r03l7] Answer is longest in 4/6 (67%) mc steps
+  [LENGTH_LEAK] [deu_r03l8] Answer is longest in 4/4 (100%) mc steps
+  [HINT_LEAK_FB] hint="This neuter noun means child. Plural: Kinder." leaks [kind] from a[0]="Kind"
+  [HINT_LEAK_MC] hint="'That looks good.' The prefix 'aus' separates to the end." leaks [aus] from ans="sieht...aus"
+  [HINT_LEAK_MC] hint="Pattern 1: -e ending plus umlaut on the vowel. All plurals use 'die.'" leaks [die] from ans="die Stühle"
+  [HINT_LEAK_MC] hint="Die-nouns with -e ending typically just add -n." leaks [die] from ans="die Lampen"
+  [VISUAL_LEAK_MC] q="'Seine Schwester und _____ Bruder kommen zum Umzug.' (his)" contains ans="sein"
+  [HINT_LEAK_MC] hint="Some nouns don't change in plural. Just the article switches to 'die.'" leaks [die] from ans="die Zimmer"
+
+=== UNIT 04: 18 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r4l2] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r4l5] Answer is longest in 5/8 (63%) mc steps
+  [LENGTH_LEAK] [deu_r4l7] Answer is longest in 6/9 (67%) mc steps
+  [LENGTH_LEAK] [deu_r4l8] Answer is longest in 5/8 (63%) mc steps
+  [HINT_LEAK_MC] hint="The sentence describes an exchange of money for goods. Which answer co" leaks [ich] from ans="Ich kaufe etwas."
+  [HINT_LEAK_MC] hint="Baked goods often take das in German." leaks [das] from ans="das Brot"
+  [VISUAL_LEAK_FB] s="Ich gehe durch {1} Laden." contains ans="den"
+  [HINT_LEAK_FB] hint="Flasche is feminine. It is the direct object here. Check the dieser-wo" leaks [diese] from a[0]="diese"
+  [HINT_LEAK_MC] hint="Polite imperative uses the Sie-form: infinitive + Sie." leaks [sie] from ans="Kaufen Sie!"
+  [HINT_LEAK_MC] hint="Polite command = infinitive + Sie." leaks [sie] from ans="Zahlen Sie"
+  [HINT_LEAK_MC] hint="Brot is neuter. Accusative neuter ein = no change." leaks [ein] from ans="ein"
+  [HINT_LEAK_MC] hint="Fisch is masculine. Direct object = accusative = den." leaks [den] from ans="den"
+  [VISUAL_LEAK_FB] s="Ohne {1} Euro bekomme ich keinen Einkaufswagen." contains ans="einen"
+  [HINT_LEAK_MC] hint="Per kilogram. 'Pro Kilo' means per kilo in German." leaks [pro] from ans="pro"
+  [VISUAL_LEAK_FB] s="Jed{1} Kundin muss eine Nummer ziehen." contains ans="e"
+  [HINT_LEAK_MC] hint="Brötchen is neuter. Du-imperative + neuter acc = das." leaks [das] from ans="das"
+  [VISUAL_LEAK_MC] q="'Das Brötchen' hat welchen Artikel?" contains ans="das"
+  [VISUAL_LEAK_MC] q="'Verkaufen' ist das Gegenteil von:" contains ans="kaufen"
+
+=== UNIT 05: 11 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r05l4] Answer is longest in 6/6 (100%) mc steps
+  [LENGTH_LEAK] [deu_r05l5] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r05l7] Answer is longest in 3/4 (75%) mc steps
+  [LENGTH_LEAK] [deu_r05l9] Answer is longest in 7/9 (78%) mc steps
+  [VISUAL_LEAK_MC] q="Ich ___ gern Brot. Which form of essen fits?" contains ans="esse"
+  [HINT_LEAK_MC] hint="With modal verbs, the main verb goes to the end in infinitive form." leaks [end] from ans="sprechen (at the end)"
+  [HINT_LEAK_MC] hint="Separable verbs: prefix to the end." leaks [end] from ans="At the end of the sentence"
+  [HINT_LEAK_MC] hint="Küche is feminine. After 'aus' (dative), die becomes der." leaks [der] from ans="der"
+  [HINT_LEAK_MC] hint="Rezeption is feminine. After 'zu' (dative), die becomes der." leaks [der] from ans="der"
+  [HINT_LEAK_MC] hint="The magic 7 chant. These prepositions all demand the same case." leaks [case] from ans="They always take dative case"
+  [HINT_LEAK_MC] hint="The waiter is asking whether you want one receipt or two. Which word d" leaks [bill] from ans="paying together or splitting the bill"
+
+=== UNIT 06: 3 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r6l11] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r6l15] Answer is longest in 3/4 (75%) mc steps
+  [HINT_LEAK_MC] hint="Lieblings- means favorite. Lied means song." leaks [lied] from ans="das Lied, das man am meisten mag"
+
+=== UNIT 07: 5 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r07l5] Answer is longest in 4/6 (67%) mc steps
+  [HINT_LEAK_MC] hint="This body part connects your head to your shoulders and helps you swal" leaks [der] from ans="der Hals"
+  [HINT_LEAK_MC] hint="In a subordinate clause, the conjugated verb moves to one specific pos" leaks [weil] from ans="Ich musste im Krankenhaus bleiben, weil "
+  [HINT_LEAK_MC] hint="Grund mit weil, dann eine indirekte Frage." leaks [weil] from ans="weil ... was"
+  [HINT_LEAK_MC] hint="This borrowed English word describes physical well-being." leaks [well] from ans="He feels healthy and well"
+
+=== UNIT 08: 13 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r8l3] Answer is longest in 3/4 (75%) mc steps
+  [LENGTH_LEAK] [deu_r8l5] Answer is longest in 4/4 (100%) mc steps
+  [LENGTH_LEAK] [deu_r8l7] Answer is longest in 5/5 (100%) mc steps
+  [LENGTH_LEAK] [deu_r8l8] Answer is longest in 3/5 (60%) mc steps
+  [VISUAL_LEAK_MC] q="Die Heizung läuft. Mach bitte das Fenster ..." contains ans="zu"
+  [HINT_LEAK_MC] hint="In subordinate clauses, the verb always moves to one specific position" leaks [clause] from ans="It is at the very end of the weil-clause"
+  [HINT_LEAK_MC] hint="After weil, subject first, then everything else, verb at the very end." leaks [weil] from ans="Weil es wichtig für die Natur ist"
+  [HINT_LEAK_MC] hint="Main clause has normal word order. The weil-clause puts the verb at th" leaks [weil] from ans="Frisches Brot ist besser, weil es weiche"
+  [HINT_LEAK_MC] hint="In the weil-clause, the modal verb goes to the very end, after the inf" leaks [weil] from ans="...weil man es recyceln kann."
+  [HINT_LEAK_MC] hint="Weil is a subordinating conjunction. It sends the verb somewhere speci" leaks [end] from ans="At the very end"
+  [HINT_LEAK_MC] hint="Moving in is a change of location. Think about which helper verb locat" leaks [verb] from ans="Movement verb, so uses sein"
+  [HINT_LEAK_MC] hint="Identify both patterns: the degree of comparison (not the highest degr" leaks [clause] from ans="Comparative + weil-clause"
+  [VISUAL_LEAK_FB] s="Verumius zieht {1} die Wohnung im zweiten Stock ein." contains ans="in"
+
+=== UNIT 09: 15 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r9l1] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r9l3] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r9l4] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r9l8] Answer is longest in 3/4 (75%) mc steps
+  [LENGTH_LEAK] [deu_r9l10] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r9l11] Answer is longest in 7/10 (70%) mc steps
+  [HINT_LEAK_MC] hint="In this verb class, the same person both performs and experiences the " leaks [ich] from ans="It is a reflexive pronoun referring back"
+  [VISUAL_LEAK_MC] q="'Er freut sich auf den Wettbewerb.' Which reflexive pronoun is correct" contains ans="sich"
+  [HINT_LEAK_MC] hint="Subordinating conjunctions like 'dass' kick the finite verb out of pos" leaks [end] from ans="At the end of the clause"
+  [HINT_LEAK_MC] hint="After 'dass,' the verb must go to the very end. Check each option for " leaks [dass, das] from ans="Ich denke, dass Mia das Fest organisiert"
+  [HINT_LEAK_MC] hint="ADUSO conjunctions: aber, denn, und, sondern, oder. All keep V2." leaks [und] from ans="und"
+  [HINT_LEAK_MC] hint="This digital format replaced paper books for many readers." leaks [book] from ans="Das E-Book"
+  [HINT_LEAK_MC] hint="In a dass clause, the conjugated verb moves to the very end." leaks [dass] from ans="Sie schreibt, dass Gemeinschaft wichtig "
+  [VISUAL_LEAK_MC] q="'Ich interessiere mich für Krimis, und Lukas interessiert sich für Spo" contains ans="und"
+  [HINT_LEAK_MC] hint="'Denn' is a coordinating conjunction, so the word order after it stays" leaks [denn] from ans="Ich fühle mich gut, denn ich habe Sport "
+
+=== UNIT 10: 11 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r10l6] Answer is longest in 4/4 (100%) mc steps
+  [LENGTH_LEAK] [deu_r10l10] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r10l12] Answer is longest in 3/4 (75%) mc steps
+  [VISUAL_LEAK_MC] q="Welchen Artikel hat das Wort für 'town hall'?" contains ans="das"
+  [HINT_LEAK_MC] hint="One word refers to a mechanical part inside a machine. The other descr" leaks [part] from ans="Motor is an engine part, Motorroller is "
+  [HINT_LEAK_MC] hint="In Perfekt inside a dass-clause, the helping verb goes last." leaks [dass] from ans="Ich weiß, dass er den Koffer gepackt hat"
+  [HINT_LEAK_MC] hint="Rennen involves a change of location. Motion verbs use sein." leaks [verb] from ans="ist (movement verb)"
+  [HINT_LEAK_MC] hint="Subordinate clauses in German send the verb to the final position." leaks [verb, end] from ans="The conjugated verb goes to the end"
+  [HINT_LEAK_MC] hint="Identify the tense of the modal verb, then name the type of subordinat" leaks [clause] from ans="Präteritum + weil-clause"
+  [HINT_LEAK_MC] hint="In a wenn-clause the verb goes to the end. In the main clause after a " leaks [wenn] from ans="Wenn ich den Zug verpasse, muss ich wart"
+  [VISUAL_LEAK_MC] q="Was ist das große Gebäude dort? Which word means building?" contains ans="Gebäude"
+
+=== UNIT 11: 7 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r11l10] Answer is longest in 6/8 (75%) mc steps
+  [HINT_LEAK_MC] hint="He is carrying a bag of something baked under his arm." leaks [his] from ans="His bread rolls"
+  [VISUAL_LEAK_FB] s="Verumius tr\u00e4gt einen rot{1} Schal." contains ans="en"
+  [HINT_LEAK_MC] hint="The opposite of hell (bright). Used for December days and dark colors." leaks [dark] from ans="dark"
+  [HINT_LEAK_MC] hint="Nominative masculine with ein: ein ___er." leaks [ein] from ans="ein hässlicher"
+  [HINT_LEAK_MC] hint="Definite articles in nominative make adjective endings predictable." leaks [nominativ] from ans="Nach bestimmtem Artikel im Nominativ: im"
+  [HINT_LEAK_MC] hint="Heinrich's bread in his bag. Glühwein warmth in his heart." leaks [warm] from ans="warm and content, like he belongs"
+
+=== UNIT 12: 11 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r12l1] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r12l5] Answer is longest in 5/6 (83%) mc steps
+  [LENGTH_LEAK] [deu_r12l13] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r12l14] Answer is longest in 6/10 (60%) mc steps
+  [HINT_LEAK_MC] hint="This word is only used for files stored on computers." leaks [file] from ans="a digital file"
+  [HINT_LEAK_MC] hint="The verb 'sein' has a completely unique imperative form for the du-for" leaks [sei] from ans="Sei geduldig!"
+  [HINT_LEAK_MC] hint="This highly versatile verb has dozens of uses. In this phrase 'in Ruhe" leaks [let] from ans="to leave / let"
+  [HINT_LEAK_MC] hint="This phrase uses Reihe idiomatically to express whose turn it is." leaks [turn] from ans="It is my turn"
+  [VISUAL_LEAK_FB] s="Die Chefin hat den Bescheid an {1} neuen Babysitter geschickt." contains ans="den"
+  [HINT_LEAK_FB] hint="Reported speech uses Konjunktiv I to signal indirect quotation. Which " leaks [sei] from a[0]="sei"
+  [VISUAL_LEAK_FB] s="Er sagt, dass er seit einer Woche krank {1}." contains ans="sei"
+
+=== UNIT 13: 4 VIOLATION(S) ===
+  [HINT_LEAK_MC] hint="Stronger than a 'Bitte.' Auf (up) + Forderung (demand). An urgent call" leaks [call] from ans="a request/call to action"
+  [HINT_LEAK_MC] hint="What Germans say when being introduced. Short for 'It is pleasant to m" leaks [bei] from ans="Bei einer Vorstellung"
+  [HINT_LEAK_MC] hint="Both verbs need Perfekt. One expresses movement to a location and uses" leaks [ich] from ans="Ich bin zur Universität gegangen und hab"
+  [HINT_LEAK_MC] hint="Formal emails use Konjunktiv II, Sie, and complete sentences." leaks [sie] from ans="Wir würden uns freuen, Sie in unserem Te"
+
+=== UNIT 14: 19 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r14l1] Answer is longest in 3/4 (75%) mc steps
+  [LENGTH_LEAK] [deu_r14l6] Answer is longest in 5/7 (71%) mc steps
+  [LENGTH_LEAK] [deu_r14l8] Answer is longest in 4/6 (67%) mc steps
+  [LENGTH_LEAK] [deu_r14l11] Answer is longest in 5/7 (71%) mc steps
+  [LENGTH_LEAK] [deu_r14l13] Answer is longest in 4/4 (100%) mc steps
+  [VISUAL_LEAK_MC] q="'Der Kollege, ___ neben mir sitzt, heißt Thomas.' Welches Relativprono" contains ans="der"
+  [VISUAL_LEAK_FB] s="Die Datei, {1} ich gestern kopiert habe, ist weg." contains ans="die"
+  [HINT_LEAK_MC] hint="Kind is neuter. Helfen takes dative: we helped IT. Neuter dative = dem" leaks [dem] from ans="dem"
+  [HINT_LEAK_MC] hint="Kollegin is feminine. She IS SITTING (subject = Nominativ). Feminine N" leaks [die] from ans="die"
+  [VISUAL_LEAK_MC] q="'Die Kollegin, ___ neben Verumius sitzt, heißt Mia.' Welches Pronomen?" contains ans="die"
+  [HINT_LEAK_FB] hint="Rechner is masculine. I operate IT (direct object = Akkusativ). Mascul" leaks [den] from a[0]="den"
+  [HINT_LEAK_FB] hint="Thomas is masculine. He HAS his birthday (subject = Nominativ). Mascul" leaks [der] from a[0]="der"
+  [HINT_LEAK_MC] hint="Lautsprecher is masculine. It does NOT function (subject = Nominativ)." leaks [der] from ans="der"
+  [VISUAL_LEAK_MC] q="'Der Lautsprecher, ___ nicht funktioniert, muss repariert werden.' Wel" contains ans="der"
+  [HINT_LEAK_FB] hint="Fernbedienung is feminine. I searched for IT (direct object = Akkusati" leaks [die] from a[0]="die"
+  [VISUAL_LEAK_FB] s="Die Fernbedienung, {1} ich gesucht habe, lag unter dem Kissen." contains ans="die"
+  [HINT_LEAK_FB] hint="Kollege is masculine. Helfen takes Dativ. I helped TO HIM. Masculine D" leaks [dem] from a[0]="dem"
+  [HINT_LEAK_MC] hint="Helfen takes Dativ. The colleague TO WHOM help was given. Masculine Da" leaks [dem] from ans="Der Kollege, dem geholfen wurde, ist jet"
+  [HINT_LEAK_MC] hint="Sender is masculine. We received IT (direct object in the relative cla" leaks [den] from ans="den"
+
+=== UNIT 15: 13 VIOLATION(S) ===
+  [HINT_LEAK_FB] hint="A courtyard. This word appears in many compounds: Bahnhof, Bauernhof." leaks [hof] from a[0]="Hof"
+  [HINT_LEAK_MC] hint="Both mean distance. One comes from Latin and sounds more scientific." leaks [ist, ist] from ans="Distanz ist formeller, Entfernung ist al"
+  [HINT_LEAK_MC] hint="Abteilung is feminine. Feminine genitive changes 'die' to 'der.' The h" leaks [der] from ans="der"
+  [VISUAL_LEAK_MC] q="'Der Leiter ___ Abteilung.' Welcher Artikel fehlt?" contains ans="der"
+  [HINT_LEAK_MC] hint="Hafen is masculine. Masculine genitive: des + noun + -(e)s." leaks [des] from ans="des"
+  [HINT_LEAK_MC] hint="Hafen is masculine. Masculine genitive uses 'des' and adds -(e)s to th" leaks [des] from ans="des"
+  [HINT_LEAK_MC] hint="F\u00e4hre is feminine. Feminine genitive changes 'die' to 'der.' The " leaks [der] from ans="der"
+  [HINT_LEAK_MC] hint="In German, this word means a SET MEAL, NOT the card listing dishes. Th" leaks [set] from ans="ein Set-Essen mit mehreren G\u00e4ngen"
+  [VISUAL_LEAK_FB] s="Essig und \u00d6l f\u00fcr den Salat? Ja, mehr {1} als \u00d6l bitte." contains ans="Essig"
+  [HINT_LEAK_MC] hint="The city was named after a fortress. Ham means meadow or bend, Burg me" leaks [ham, burg] from ans="Ham (Wiese) + Burg (Festung)"
+  [HINT_LEAK_MC] hint="This preposition always takes a specific case. Kälte is a die-noun. Wh" leaks [takes, lte] from ans="Wegen takes genitive; K\u00e4lte is femi"
+  [VISUAL_LEAK_FB] s="Die Rundfahrt durch den Hafen {1} Stadt war wunderbar." contains ans="der"
+  [HINT_LEAK_FB] hint="The opposite of downward. Things are looking up! Auf + -warts." leaks [rts] from a[0]="aufw\u00e4rts"
+
+=== UNIT 16: 4 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r16l3] Answer is longest in 3/4 (75%) mc steps
+  [LENGTH_LEAK] [deu_r16l4] Answer is longest in 3/4 (75%) mc steps
+  [LENGTH_LEAK] [deu_r16l7] Answer is longest in 3/4 (75%) mc steps
+  [HINT_LEAK_MC] hint="From 'einbrechen' (to break in). The noun describes the criminal act o" leaks [ein] from ans="Das gewaltsame Eindringen in ein Geb\u00"
+
+=== UNIT 17: 15 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r17l2] Answer is longest in 4/6 (67%) mc steps
+  [LENGTH_LEAK] [deu_r17l5] Answer is longest in 5/7 (71%) mc steps
+  [LENGTH_LEAK] [deu_r17l6] Answer is longest in 4/6 (67%) mc steps
+  [LENGTH_LEAK] [deu_r17l10] Answer is longest in 6/7 (86%) mc steps
+  [HINT_LEAK_FB] hint="Which head covering is associated with 'Hut ab!' meaning 'respect'?" leaks [hut] from a[0]="Hut"
+  [HINT_LEAK_MC] hint="Carnival songs are both well-known (from Latin 'popularis') and rooted" leaks [popul] from ans="popul\u00e4r und traditionell"
+  [HINT_LEAK_MC] hint="Sich am\u00fcsieren is the reflexive verb for entertaining yourself, h" leaks [ich] from ans="Ich hatte Spa\u00df"
+  [HINT_LEAK_MC] hint="Um (around) + Arme (arms). To put your arms around someone." leaks [arme] from ans="die Arme um jemanden legen"
+  [VISUAL_LEAK_FB] s="Verumius zieht eine Toga an, {1} ein Senator zu sein." contains ans="um"
+  [HINT_LEAK_MC] hint="Purpose (in order to catch) uses um...zu. Not falling uses ohne...zu." leaks [ohne] from ans="Verumius rennt, um Bonbons zu fangen, oh"
+  [VISUAL_LEAK_MC] q="Die Lutherbibel hat die deutsche Schrift standardisiert. Was bedeutet " contains ans="die Schrift"
+  [VISUAL_LEAK_FB] s="Der {1} hat das Buch herausgegeben. Er ist ein kleiner K\u00f6lner Ver" contains ans="Verlag"
+  [HINT_LEAK_MC] hint="For the first sub-clause, check who does each action. For the second, " leaks [mia] from ans="Mia erkl\u00e4rt die Tradition, damit Ve"
+  [VISUAL_LEAK_FB] s="Alles war {1} so gut wie letztes Jahr: doppelt so laut und doppelt so " contains ans="doppelt"
+  [VISUAL_LEAK_FB] s="Verumius f\u00e4hrt nach K\u00f6ln, {1} Karneval zu feiern." contains ans="um"
+
+=== UNIT 18: 9 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r18l2] Answer is longest in 3/5 (60%) mc steps
+  [LENGTH_LEAK] [deu_r18l8] Answer is longest in 4/6 (67%) mc steps
+  [HINT_LEAK_MC] hint="Bauer (farmer) + Hof (yard). A place where a farmer lives and works." leaks [farm] from ans="eine Farm"
+  [VISUAL_LEAK_FB] s="Haustiere sind in den meisten Bierg\u00e4rten erlaubt. 'Haustier' bede" contains ans="Tier"
+  [HINT_LEAK_FB] hint="The verb is 'sich interessieren F\u00dcR.' Replace 'f\u00fcr Bio-Essen" leaks [fcr] from a[0]="daf\u00fcr"
+  [HINT_LEAK_MC] hint="The wo-compound wo + \u00fcber asks about the topic of a feeling. Whic" leaks [about] from ans="What are you happy about?"
+  [VISUAL_LEAK_FB] s="Der {1} verkauft frische Bratwurst. Vom Metzger schmeckt sie besser." contains ans="Metzger"
+  [HINT_LEAK_MC] hint="A reflexive verb about how you sustain yourself through food, from 'Na" leaks [yourself] from ans="to nourish yourself, to eat"
+  [HINT_LEAK_MC] hint="Every year = repeated (wenn). Thinking OF something = denken AN." leaks [wenn] from ans="wenn...an"
+
+=== UNIT 19: 5 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r19l1] Answer is longest in 4/6 (67%) mc steps
+  [HINT_LEAK_MC] hint="He asks about a different submission method. 'Kann...gestellt werden' " leaks [den, kann] from ans="Ob er den Antrag digital einreichen kann"
+  [HINT_LEAK_MC] hint="The conditional clause pushes its verb last. After the comma, the main" leaks [der] from ans="Falls die Frist abläuft, muss der Antrag"
+  [HINT_LEAK_MC] hint="Sitz implies official registration. Ort is more general." leaks [ist] from ans="Wohnsitz ist die offizielle Meldeadresse"
+  [HINT_LEAK_MC] hint="Muss...werden = obligation. Bis = by a certain point. What kind of tim" leaks [hat, bis] from ans="Der Bankauftrag hat eine Frist bis Freit"
+
+=== UNIT 20: 2 VIOLATION(S) ===
+  [HINT_LEAK_MC] hint="Ein- (in) + nehmen (to take). Taking something into your body." leaks [take] from ans="to take (medicine)"
+  [HINT_LEAK_MC] hint="sich entscheiden f\u00fcr + accusative. Versicherung is feminine." leaks [fcr] from ans="f\u00fcr die"
+
+=== UNIT 21: 1 VIOLATION(S) ===
+  [HINT_LEAK_MC] hint="Switching from Sie to du is a milestone in German relationships." leaks [sie] from ans="Sie bietet die informelle Anrede als Zei"
+
+=== UNIT 22: 7 VIOLATION(S) ===
+  [LENGTH_LEAK] [deu_r22l1] Answer is longest in 3/4 (75%) mc steps
+  [LENGTH_LEAK] [deu_r22l5] Answer is longest in 4/4 (100%) mc steps
+  [HINT_LEAK_FB] hint="The verb that matches 'Schutz' (protection). To keep the environment s" leaks [sch] from a[0]="sch\u00fctzen"
+  [HINT_LEAK_MC] hint="Sich etwas antun lassen. T\u00e4uschen means to deceive. Choose the co" leaks [sich] from ans="Er l\u00e4sst sich nicht von h\u00fcbsch"
+  [HINT_LEAK_MC] hint="Tier (animal) + Park. The Berlin one is the largest landscape zoo in E" leaks [park] from ans="Ein Tierpark betont die park\u00e4hnlich"
+  [HINT_LEAK_MC] hint="Switching from Sie to du is a personal milestone in German culture." leaks [sie] from ans="Sie bietet informelle Anrede als Zeichen"
+  [HINT_LEAK_MC] hint="Cognate with 'star' via Latin 'stella.' You see these twinkling in the" leaks [star] from ans="star"
+
+=== UNIT 23: 10 VIOLATION(S) ===
+  [POSITION_LEAK] [deu_r23l1] Position 1 has 3/4 (75%) answers
+  [LENGTH_LEAK] [deu_r23l1] Answer is longest in 3/4 (75%) mc steps
+  [POSITION_LEAK] [deu_r23l3] Position 0 has 3/4 (75%) answers
+  [LENGTH_LEAK] [deu_r23l3] Answer is longest in 3/4 (75%) mc steps
+  [LENGTH_LEAK] [deu_r23l6] Answer is longest in 3/4 (75%) mc steps
+  [HINT_LEAK_FB] hint="This verb means 'to be correct.' 'Das stimmt' is one of the most usefu" leaks [stimmt] from a[0]="stimmt"
+  [HINT_LEAK_MC] hint="Unreal condition: the wenn-clause uses Konjunktiv II, and the main cla" leaks [wenn] from ans="Wenn ich Zeit hätte, würde ich lernen."
+  [HINT_LEAK_FB] hint="The separable prefix of 'aufgeben' (to give up). Which particle comple" leaks [auf] from a[0]="auf"
+  [HINT_LEAK_FB] hint="The separable prefix of 'ausreichen' (to be sufficient). Which particl" leaks [aus] from a[0]="aus"
+  [HINT_LEAK_MC] hint="The separable verb mit + a verb of distributing/communicating. The for" leaks [mit] from ans="Ich teile Ihnen mit, dass..."
+
+=== UNIT 24: 7 VIOLATION(S) ===
+  [HINT_LEAK_MC] hint="'Gehen' uses 'sein' in the Perfekt. In Plusquamperfekt, 'sein' becomes" leaks [war] from ans="Sie war schon gegangen"
+  [HINT_LEAK_FB] hint="Vorhaben is separable. 'Was hast du vor?' asks about your plans. Which" leaks [hast] from a[0]="hast"
+  [VISUAL_LEAK_FB] s="Er {1} sich entschlossen zu bleiben, nachdem er ein Jahr in Berlin ver" contains ans="hatte"
+  [HINT_LEAK_MC] hint="Versatile verb covering effort, money, and contribution. 'Einen Beitra" leaks [make] from ans="to make/contribute"
+  [HINT_LEAK_FB] hint="The relative pronoun replaces 'der Mann' (masculine Nominativ) as the " leaks [der] from a[0]="der"
+  [VISUAL_LEAK_FB] s="Der Mann, {1} den Kaktus mitgebracht hat, heißt KD." contains ans="der"
+  [HINT_LEAK_MC] hint="'Ernst' means serious. 'Es wird ernst' signals that things are getting" leaks [wird] from ans="B2 wird härtere Herausforderungen bringe"
+
+=== UNIT 25: 5 VIOLATION(S) ===
+  [POSITION_LEAK] [deu_r25l1] Position 1 has 5/6 (83%) answers
+  [POSITION_LEAK] [deu_r25l3] Position 2 has 3/5 (60%) answers
+  [VISUAL_LEAK_MC] q="Welches Wort bedeutet die Faehigkeit, etwas zu tun?" contains ans="die Faehigkeit"
+  [HINT_LEAK_MC] hint="Working OVER your text again. The first draft is never good enough. Ge" leaks [text, und] from ans="Einen Text gruendlich verbessern und kor"
+  [HINT_LEAK_MC] hint="From Latin 'variabilis'. In research, the factor that changes and is m" leaks [man] from ans="Ein veraenderlicher Faktor, den man unte"
+
+=== UNIT 26: 3 VIOLATION(S) ===
+  [POSITION_LEAK] [deu_r26l7] Position 1 has 3/5 (60%) answers
+  [HINT_LEAK_MC] hint="Hervor (forth) + heben (to lift). Lifting something out so it stands o" leaks [und] from ans="Etwas betonen und sichtbar machen"
+  [HINT_LEAK_MC] hint="Three ways to express 'Das kann erklärt werden' without standard passi" leaks [das, sich, das, das] from ans="Das lässt sich erklären / Das ist zu erk"
+
+=== UNIT 27: 4 VIOLATION(S) ===
+  [POSITION_LEAK] [deu_r27l1] Position 0 has 3/5 (60%) answers
+  [HINT_LEAK_FB] hint="The elegant German way to say 'unless'. Uses the subjunctive 'sei'." leaks [sei] from a[0]="es sei denn"
+  [HINT_LEAK_MC] hint="One is an official record distributed to all participants. The other i" leaks [ist, ist] from ans="Ein Protokoll ist offiziell, eine Mitsch"
+  [HINT_LEAK_MC] hint="The pattern 'so + adjective, dass...' shows the result of a quality. C" leaks [das] from ans="Ein Ergebnis: Das verständliche Sprechen"
+
+=== UNIT 28: 8 VIOLATION(S) ===
+  [HINT_LEAK_MC] hint="Zeit (time) + -los (without). Something that exists outside of any spe" leaks [zeit, ist] from ans="keiner bestimmten Zeit zugeordnet ist un"
+  [VISUAL_LEAK_FB] s="Die {1} beschreibt, zu welcher Epoche ein literarisches Werk gehoert, " contains ans="Epoche"
+  [HINT_LEAK_MC] hint="One uses 'wie' (like) to state similarity. The other states identity d" leaks [wie] from ans="Ein Vergleich benutzt 'wie,' eine Metaph"
+  [VISUAL_LEAK_MC] q="Welches Wort drueckt den staerksten Zweifel aus: angeblich, anscheinen" contains ans="angeblich"
+  [HINT_LEAK_MC] hint="German superstition: wishing bad luck is meant to bring good luck. Lik" leaks [man] from ans="Man wuenscht jemandem viel Glueck"
+  [HINT_LEAK_FB] hint="Feminine noun meaning 'skin.' The idiom 'mit Haut und Haar' means comp" leaks [haut] from a[0]="Haut"
+  [HINT_LEAK_MC] hint="A Holzweg is a forest path that ends in a dead end. Following it means" leaks [weg] from ans="Du liegst falsch, du bist auf dem falsch"
+  [HINT_LEAK_MC] hint="als ob + hätte (Konj. II) describes an unreal scenario: he acts AS IF " leaks [als] from ans="als ob + Konjunktiv II + Redewendung"
+
+=== UNIT 29: 9 VIOLATION(S) ===
+  [POSITION_LEAK] [deu_r29l2] Position 1 has 3/4 (75%) answers
+  [POSITION_LEAK] [deu_r29l4] Position 1 has 3/4 (75%) answers
+  [HINT_LEAK_MC] hint="So (so) + dass (that). A result clause: the first part caused the seco" leaks [das, aus] from ans="Ein Ergebnis, das aus der ersten Handlun"
+  [HINT_LEAK_MC] hint="Look at where the finite verb appears in the first clause. An unusual " leaks [verb] from ans="Das Verb (wäre) steht an erster Stelle u"
+  [HINT_LEAK_MC] hint="'Verglichen' (compared) + 'mit' (with). Partizip II used as a comparis" leaks [mit] from ans="Einen formellen Vergleich mit Partizipko"
+  [HINT_LEAK_MC] hint="Count the number of distinct B2 grammatical structures in the sentence" leaks [verb] from ans="Drei: Verb-Erst-Konditionalsatz + Konnek"
+  [HINT_LEAK_MC] hint="This conjunction belongs to the class that requires the finite verb at" leaks [verb] from ans="'obgleich die Debatte hitzig war' (Verb "
+  [HINT_LEAK_FB] hint="The verb meaning to defuse or de-escalate. Ent- (un-) + schaerfen (to " leaks [rfen] from a[0]="entsch\u00e4rfen"
+  [HINT_LEAK_MC] hint="Identify all three grammatical layers: verb at position one without 'w" leaks [verb] from ans="Verb-Erst-Konditionalsatz + sowohl...als"
+
+=== UNIT 30: 3 VIOLATION(S) ===
+  [HINT_LEAK_MC] hint="Sein + Partizip II = the action is COMPLETE. The result exists as a st" leaks [ist] from ans="Die Zustellung ist abgeschlossen (Ergebn"
+  [HINT_LEAK_FB] hint="The delivery is complete, the result exists now. Choose the auxiliary " leaks [ist] from a[0]="ist"
+  [HINT_LEAK_MC] hint="Ist abgelaufen = IS expired (state). The deadline is past. The running" leaks [ist] from ans="Unterlagen fristgerecht einreichen, denn"
+
+=== UNIT 31: 4 VIOLATION(S) ===
+  [HINT_LEAK_MC] hint="Jahr + -lich. The same umlaut pattern as Tag/täglich and Monat/monatli" leaks [jahr] from ans="einmal pro Jahr"
+  [HINT_LEAK_MC] hint="'Zumal' strengthens the statement. Not simply 'weil' (because), but 'e" leaks [weil] from ans="Es betont die Ursache (besonders weil)"
+  [HINT_LEAK_MC] hint="Fixed noun-verb collocations use specific verb partners. Formal German" leaks [verb] from ans="treffen ist das feste Verb für Entscheid"
+  [HINT_LEAK_MC] hint="werden + Partizip II + haben. A completed future action with a deadlin" leaks [haben] from ans="Die Firma wird ihre Schulden bis 2030 zu"
+
+=== UNIT 32: 7 VIOLATION(S) ===
+  [HINT_LEAK_MC] hint="From 'zugeh\u00f6ren' (to belong). The feeling of being part of someth" leaks [zugeh, ren] from ans="Zugeh\u00f6rigkeit, das Gef\u00fchl dazu"
+  [HINT_LEAK_MC] hint="'Wer' without a reference word means 'whoever.' A universal statement." leaks [wer] from ans="wer auch immer, jeder der"
+  [VISUAL_LEAK_FB] s="Chancen + {1} = Chancengleichheit (equal opportunity)." contains ans="gleichheit"
+  [VISUAL_LEAK_FB] s="Das Fugenelement nach Nomen auf -taet lautet: Identität + {1} + ..." contains ans="s"
+  [VISUAL_LEAK_FB] s="Das Fugenelement nach Nomen auf -heit/-keit/-schaft lautet: Zukunft + " contains ans="s"
+  [HINT_LEAK_MC] hint="Both are stronger than 'jede.' They leave zero room for exceptions. Le" leaks [jede] from ans="Sie sind emphatischer und formeller, sch"
+  [VISUAL_LEAK_FB] s="Das Fugenelement nach schwachen Substantiven wie 'Minderheit': Minderh" contains ans="en"
+
+=== UNIT 33: 15 VIOLATION(S) ===
+  [POSITION_LEAK] [deu_r33l2] Position 1 has 3/4 (75%) answers
+  [POSITION_LEAK] [deu_r33l7] Position 1 has 3/5 (60%) answers
+  [VISUAL_LEAK_FB] s="Hast du Abschied von Berlin genommen? Ja, der {1} fiel mir schwer." contains ans="Abschied"
+  [HINT_LEAK_MC] hint="The word consists of 'Heim' (home) and 'Weh' (pain). The pain of not b" leaks [heim] from ans="Heim-Schmerz"
+  [HINT_LEAK_MC] hint="'Nachdem' requires the earlier action in Plusquamperfekt. Living (earl" leaks [dem] from ans="Weil das Leben vor dem Weggehen stattfan"
+  [HINT_LEAK_MC] hint="'Nachdem' marks the earlier event. Plusquamperfekt shows it was comple" leaks [dem] from ans="Weil das Aufwachsen vor dem Aufbrechen s"
+  [VISUAL_LEAK_MC] q="Die Erinnerung an die Kindheit bleibt. Welche Pr\u00e4position verlang" contains ans="Erinnerung an"
+  [HINT_LEAK_MC] hint="This noun of deep longing pairs with a fixed preposition. That preposi" leaks [position] from ans="nach ist Sehnsuchts-Pr\u00e4position und"
+  [HINT_LEAK_MC] hint="'Seitdem' introduces the time clause. 'Dankbar f\u00fcr' is a fixed ad" leaks [adj] from ans="Temporalsatz + Adj+Pr\u00e4p"
+  [HINT_LEAK_MC] hint="Ruhe (calm) + Pol (pole). Like the North Pole on a compass: the fixed," leaks [ruhe] from ans="Der feste Punkt der Ruhe, um den sich al"
+  [HINT_LEAK_FB] hint="The compound noun: Sicherheit (security) + s + Gef\u00fchl (feeling). " leaks [fchl] from a[0]="Sicherheitsgef\u00fchl"
+  [HINT_LEAK_MC] hint="Count each structural type: a temporal clause with a sequence rule, an" leaks [adj] from ans="Temporalsatz + Adj+Pr\u00e4p + Nomen+Pr\"
+  [HINT_LEAK_FB] hint="The compound noun for the feeling of belonging somewhere. Zugeh\u00f6r" leaks [zugeh, fchl] from a[0]="Zugeh\u00f6rigkeitsgef\u00fchl"
+  [HINT_LEAK_MC] hint="'Seitdem' (temporal), 'Angst vor' (Noun+Prep), 'stolz auf' (Adj+Prep)." leaks [adj] from ans="Temporalsatz + Nomen+Pr\u00e4p + Adj+Pr\"
+  [HINT_LEAK_MC] hint="Count the structural types: a temporal clause with sequence rule, an a" leaks [adj] from ans="Temporalsatz + Adj+Pr\u00e4p + Nomen+Pr\"
+
+=== UNIT 34: 5 VIOLATION(S) ===
+  [HINT_LEAK_FB] hint="From Latin 'domus Dei' (house of God). A cathedral. Masculine noun." leaks [dom] from a[0]="Dom"
+  [HINT_LEAK_MC] hint="The most destructive prefix. 'Zerbrechen,' 'zerrei\u00dfen,' 'zerfalle" leaks [zer] from ans="zer-"
+  [VISUAL_LEAK_MC] q="In 'Haustuer' bestimmt das Grundwort das Geschlecht. Welcher Teil ist " contains ans="Tuer"
+  [HINT_LEAK_MC] hint="Apply the four-position rule. Check each option to find the one with t" leaks [der] from ans="Ich fahre morgen wegen der Arbeit gern n"
+  [HINT_LEAK_MC] hint="'Die Bildung, die Freiheit, die M\u00f6glichkeit, die Freundschaft.' T" leaks [die] from ans="feminin (die)"
+
+=== UNIT 35: 12 VIOLATION(S) ===
+  [POSITION_LEAK] [deu_r35l2] Position 1 has 3/5 (60%) answers
+  [POSITION_LEAK] [deu_r35l6] Position 1 has 3/4 (75%) answers
+  [POSITION_LEAK] [deu_r35l8] Position 1 has 3/4 (75%) answers
+  [HINT_LEAK_MC] hint="Both words begin with Muster (model/sample). The second part determine" leaks [sung] from ans="Musterantwort ist f\u00fcr offene Fragen"
+  [HINT_LEAK_MC] hint="Inhalt, Textaufbau, Grammatik, and Wortschatz count. How pretty the le" leaks [sch] from ans="Handschrift (Sch\u00f6nheit der Schrift)"
+  [HINT_LEAK_MC] hint="Which connector specifically answers the question HOW one achieves som" leaks [ich, ich] from ans="Indem ich strukturiert schreibe, bekomme"
+  [HINT_LEAK_MC] hint="The correct sentence must contain both a manner clause (answering HOW)" leaks [man, man] from ans="Indem man s\u00e4mtliche Texte durchlies"
+  [HINT_LEAK_MC] hint="One type consists of full sentences; the other uses only isolated word" leaks [ist] from ans="Eine Notiz kann ein Satz sein, ein Stich"
+  [HINT_LEAK_MC] hint="The correct sentence must combine all three layers: a manner clause co" leaks [man, man] from ans="Indem man sämtliche Texte liest, versteh"
+  [HINT_LEAK_MC] hint="The correct sentence packs four B2 features into two clauses. Look for" leaks [man, man] from ans="Indem man sämtliche Übungen macht, wird "
+  [HINT_LEAK_MC] hint="The most formal way to express an opinion in German uses a fixed Genit" leaks [ist] from ans="Meines Erachtens ist die Prüfung fair."
+  [HINT_LEAK_MC] hint="The particle that says: yes, it was hard, but... he made it. Concessio" leaks [hat] from ans="schon (einraeumend: Ja, es war schwer, a"
+
+=== UNIT 36: 5 VIOLATION(S) ===
+  [HINT_LEAK_MC] hint="Same meaning, different register. One sits in official language (annou" leaks [ist, ist] from ans="Beginnen ist formell, anfangen ist umgan"
+  [HINT_LEAK_MC] hint="Halt is the particle of quiet truth. No drama, no excitement. It is wh" leaks [art] from ans="Simple acceptance: baking is just an art"
+  [HINT_LEAK_FB] hint="Deeper than Dankbarkeit. It recognizes the VALUE of who someone is, no" leaks [tzung] from a[0]="Wertsch\u00e4tzung"
+  [HINT_LEAK_MC] hint="There is a shift in how Hildi addresses Verumius here. The narrator de" leaks [his] from ans="She uses his first name publicly for the"
+  [HINT_LEAK_MC] hint="KD arriving late is entirely predictable. This particle captures quiet" leaks [late] from ans="halt: Er kommt halt immer zu spät. (He j"
+
+========================================
+            PP8 GRAND SUMMARY
+========================================
+Units checked : 36
+Total mc steps: 1594
+Total fb steps: 1162
+Total quiz    : 2756
+Total violations: 291
+
+Breakdown by type:
+  HINT_LEAK_MC: 151
+  LENGTH_LEAK: 57
+  HINT_LEAK_FB: 26
+  VISUAL_LEAK_FB: 25
+  VISUAL_LEAK_MC: 19
+  POSITION_LEAK: 13
+
+Failing units (36):
+  Unit 01: 5 violation(s)
+  Unit 02: 5 violation(s)
+  Unit 03: 11 violation(s)
+  Unit 04: 18 violation(s)
+  Unit 05: 11 violation(s)
+  Unit 06: 3 violation(s)
+  Unit 07: 5 violation(s)
+  Unit 08: 13 violation(s)
+  Unit 09: 15 violation(s)
+  Unit 10: 11 violation(s)
+  Unit 11: 7 violation(s)
+  Unit 12: 11 violation(s)
+  Unit 13: 4 violation(s)
+  Unit 14: 19 violation(s)
+  Unit 15: 13 violation(s)
+  Unit 16: 4 violation(s)
+  Unit 17: 15 violation(s)
+  Unit 18: 9 violation(s)
+  Unit 19: 5 violation(s)
+  Unit 20: 2 violation(s)
+  Unit 21: 1 violation(s)
+  Unit 22: 7 violation(s)
+  Unit 23: 10 violation(s)
+  Unit 24: 7 violation(s)
+  Unit 25: 5 violation(s)
+  Unit 26: 3 violation(s)
+  Unit 27: 4 violation(s)
+  Unit 28: 8 violation(s)
+  Unit 29: 9 violation(s)
+  Unit 30: 3 violation(s)
+  Unit 31: 4 violation(s)
+  Unit 32: 7 violation(s)
+  Unit 33: 15 violation(s)
+  Unit 34: 5 violation(s)
+  Unit 35: 12 violation(s)
+  Unit 36: 5 violation(s)
+
+RESULT: PP8 FAIL

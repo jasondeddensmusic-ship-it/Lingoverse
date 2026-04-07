@@ -366,10 +366,6 @@ const UNIT_19 =
 
 {type:"mc",q:"Verumius möchte Geld abheben. Wo geht er hin?",opts:["Zur Überweisung","Zum Briefkasten","Zum Geldautomaten","Zur Einzahlung"],ans:"Zum Geldautomaten",hint:"Abheben means to withdraw. Which machine gives you Bargeld?"},
 
-{type:"mc",q:"Verumius schickt einen wichtigen Antrag. Wie sollte er ihn schicken?",opts:["Per Briefkasten","Per Überweisung","Per Geldautomat","Per Einschreiben"],ans:"Per Einschreiben",hint:"Important documents need proof of delivery. Which postal service provides that?"},
-
-{type:"fb",s:"Der Sohn meiner Schwester ist mein {1}.",a:["Neffe"],opts:["Neffe","Onkel","Cousin","Enkel"],hint:"Your sister's son is a specific family relationship. Which option names a sibling's male child?",sSrc:"My sister's son is my nephew."},
-
 {type:"match",pairs:[{trg:"Girokonto",src:"checking account"},{trg:"Überweisung",src:"bank transfer"},{trg:"Bargeld",src:"cash"},{trg:"Einzahlung",src:"deposit"},{trg:"Geldautomat",src:"ATM"}]},
 
 {type:"teach",trg:"ausführen",src:"to execute / to carry out",pos:"verb",gender:null,note:"Separable: führt aus. Past: ausgeführt. Formal; used for orders, transfers, tasks.",example:"A: Wann wird die Überweisung ausgeführt?\nB: Innerhalb von drei Tagen.\nA: Und wenn es länger dauert?\nB: Dann können Sie reklamieren.",exampleSrc:"A: When will the transfer be executed?\nB: Within three days.\nA: And if it takes longer?\nB: Then you can lodge a complaint.",funFact:"'Ausführen' literally means 'to lead out' (aus = out, führen = to lead). In banking it means executing a transfer. The same verb is also used for walking a dog: 'den Hund ausführen.'"},
