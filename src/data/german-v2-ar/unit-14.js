@@ -44,11 +44,11 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     "with each other, together",
     "the daily routine, the daily schedule"
 ],ans:"the daily routine, the daily schedule",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie ist {1} in deinem Team?",a:["die Zusammenarbeit"],opts:["die Zusammenarbeit","die Konferenz","der Betrieb","die Abteilung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"How is the collaboration in your team?"},
+        {type:"fb",s:"Wie ist {1} in deinem Team?",a:["die Zusammenarbeit"],opts:["die Zusammenarbeit","die Konferenz","der Betrieb","die Abteilung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف التعاون في فريقك؟"},
         {type:"mc",q:"Was bedeutet 'einrichten'?",opts:["to set up, to furnish","the corridor, the aisle","the hallway, the corridor","firm, fixed, solid"],ans:"to set up, to furnish",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Kannst du bitte die Unterlagen {1}?",a:["ordnen"],opts:["ordnen","innen","begrüßen","aufmerksam"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you please organize the documents?"},
+        {type:"fb",s:"Kannst du bitte die Unterlagen {1}?",a:["ordnen"],opts:["ordnen","innen","begrüßen","aufmerksam"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل يمكنك ترتيب الوثائق من فضلك؟"},
         {type:"mc",q:"Was bedeutet 'gemeinsam'?",opts:["the company, the operation","together, jointly, shared","the collaboration, the teamwork","the conference"],ans:"together, jointly, shared",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Dein Schreibtisch ist sehr {1}!",a:["ordentlich"],opts:["die Besprechung","die Kantine","der Betrieb","ordentlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Your desk is very tidy!"},
+        {type:"fb",s:"Dein Schreibtisch ist sehr {1}!",a:["ordentlich"],opts:["die Besprechung","die Kantine","der Betrieb","ordentlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"مكتبك مرتّب جداً!"},
         {type:"mc",q:"Was bedeutet 'miteinander'?",opts:["with each other, together","the company, the operation","attentive, observant","together, jointly, shared"],ans:"with each other, together",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L3: Das Büro ───
@@ -93,7 +93,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     {trg:"der Kuli",src:"قلم حبر"}
 ]},
         {type:"story",speaker:"mia",mood:"conspiratorial",art:"de-ber-office-hallway",trg:"So, dein Arbeitsplatz ist eingerichtet. Jetzt zeige ich dir den wichtigsten Ort im ganzen Betrieb. Die Kaffeküche.",src:"إذن، مكان عملك جاهز. الآن سأريك أهم مكان في كامل الشركة. مطبخ القهوة."},
-        {type:"fb",s:"In welchem {1} ist der Vertrag? Im blauen auf dem Regal.",a:["Ordner"],opts:["Ordner","Kuli","Regal","Mappe"],hint:"فكّر في معنى الكلمة.",sSrc:"In which binder is the contract? In the blue one on the shelf."},
+        {type:"fb",s:"In welchem {1} ist der Vertrag? Im blauen auf dem Regal.",a:["Ordner"],opts:["Ordner","Kuli","Regal","Mappe"],hint:"فكّر في معنى الكلمة.",sSrc:"في أي ملف العقد؟ في الأزرق على الرف."},
         {type:"mc",q:"Was bedeutet 'die Tabelle'?",opts:["the table, the spreadsheet","to type, to tap","the plug","the key, the button"],ans:"the table, the spreadsheet",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Die Kaffeküche ───

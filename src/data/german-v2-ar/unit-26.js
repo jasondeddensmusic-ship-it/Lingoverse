@@ -51,9 +51,9 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
     {trg:"Kommentar",src:"مقال رأي"}
 ]},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-ber-kitchen-morning",trg:"Er faltet die Zeitung zusammen. Sechzehn rote Markierungen auf einer Seite. Morgen werden es weniger sein. Er nimmt den letzten Schluck Kaffee und schaltet das Radio aus.",src:"يطوي الجريدة. ستة عشر علامة حمراء على صفحة واحدة. غداً ستكون أقل. يحتسي آخر رشفة من القهوة ويطفئ الراديو."},
-        {type:"fb",s:"{1} hat die Regierung das gewusst. Das klingt ziemlich sicher.",a:["Offenbar"],opts:["Angeblich","Bekanntlich","Serioes","Offenbar"],hint:"فكّر في معنى الكلمة.",sSrc:"Apparently the government knew about it. That sounds fairly certain."},
-        {type:"mc",q:"Was bedeutet 'informieren'?",opts:["as is well known","to inform","journalism","daily newspaper"],ans:"to inform",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Darf ein Journalist {1}?",a:["kommentieren"],opts:["kommentieren","informieren","die Journalistin","der Journalist"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is a journalist allowed to comment?"}
+        {type:"fb",s:"{1} hat die Regierung das gewusst. Das klingt ziemlich sicher.",a:["Offenbar"],opts:["Angeblich","Bekanntlich","Serioes","Offenbar"],hint:"فكّر في معنى الكلمة.",sSrc:"يبدو أن الحكومة كانت على علم بذلك. يبدو ذلك شبه مؤكد."},
+        {type:"mc",q:"Was bedeutet 'informieren'?",opts:["كما هو معروف","يُعلم، يُخبر","الصحافة","الجريدة اليومية"],ans:"يُعلم، يُخبر",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Darf ein Journalist {1}?",a:["kommentieren"],opts:["kommentieren","informieren","die Journalistin","der Journalist"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل يُسمح للصحفي بالتعليق؟"}
       ]},
 // ─── L3: Wem kann man glauben? ───
     {id:"deu_r26l2",title:"Wem kann man glauben?",icon:"🔍",xp:15,board:true,steps:[
@@ -116,11 +116,11 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
     "Die Wahrheit unsichtbar machen, verhüllen",
     "Die Wahrheit unterstreichen und hervorheben"
 ],ans:"Die Wahrheit unsichtbar machen, verhüllen",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'manipulieren'?",opts:["manipulation","to manipulate","press freedom","one-sided, biased"],ans:"to manipulate",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Die Medien {1} sie stark.",a:["beeinflussen"],opts:["die Filterblase","die Desinformation","parteiisch","beeinflussen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The media influence it strongly."},
-        {type:"mc",q:"Was bedeutet 'verfaelschen'?",opts:["press freedom","to falsify, to distort","fake news","media literacy"],ans:"to falsify, to distort",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ist dieser Bericht {1}?",a:["tendenzioes"],opts:["die Pressefreiheit","tendenzioes","verschleiern","verbreiten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is this report tendentious?"},
-        {type:"mc",q:"Was bedeutet 'voreingenommen'?",opts:["partisan, biased toward a party","media literacy","to influence","prejudiced, biased"],ans:"prejudiced, biased",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'manipulieren'?",opts:["التلاعب","يتلاعب","حرية الصحافة","أحادي الجانب، متحيز"],ans:"يتلاعب",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Die Medien {1} sie stark.",a:["beeinflussen"],opts:["die Filterblase","die Desinformation","parteiisch","beeinflussen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"الإعلام يؤثر بقوة."},
+        {type:"mc",q:"Was bedeutet 'verfaelschen'?",opts:["حرية الصحافة","يزوّر، يحرّف","أخبار كاذبة","الوعي الإعلامي"],ans:"يزوّر، يحرّف",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ist dieser Bericht {1}?",a:["tendenzioes"],opts:["die Pressefreiheit","tendenzioes","verschleiern","verbreiten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل هذا التقرير متحيز؟"},
+        {type:"mc",q:"Was bedeutet 'voreingenommen'?",opts:["حزبي، منحاز لحزب","الوعي الإعلامي","يؤثر","متحيز، منحاز"],ans:"متحيز، منحاز",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Die Nachrichtenredaktion ───
     {id:"deu_r26l3",title:"Die Nachrichtenredaktion",icon:"🏢",xp:15,board:true,steps:[
@@ -160,19 +160,19 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
         {type:"tip",title:"Partizipialattribute: Der deutsche Satz-im-Wort",text:"يمكن للألمانية أن تضع جملة وصفية كاملة قبل الاسم:\n\nالمشارك الأول (فاعل، مستمر): der berichtende Journalist = الصحفي الذي يُقدّم تقريراً\nالمشارك الثاني (مفعول، مكتمل): der veröffentlichte Bericht = التقرير الذي نُشر\nموسَّع: die von der Regierung geplante Maßnahme = الإجراء الذي خططت له الحكومة\nمع 'zu' (الصفة الإلزامية): die zu prüfende Aussage = التصريح الذي يجب فحصه\n\nتظهر هذه التراكيب في كل مكان في الصحف والنصوص الأكاديمية والوثائق القانونية. إنها تضغط المعلومات.",deepDive:{title:"Why Partizipialattribute?",text:"الألمانية المكتوبة تحبّ الإيجاز. الجملة الوصفية ('der Bericht, der veröffentlicht wurde') تأخذ كلمات كثيرة. الصفة الاسمية ('der veröffentlichte Bericht') تقول الشيء ذاته بكلمات أقل. الصحف تستخدمها باستمرار لأن المساحة محدودة. النصوص الأكاديمية تستخدمها للدقة. تعلّم قراءة الصفات الاسمية ضروري لقراءة الإعلام الألماني بطلاقة."}},
         {type:"verb_table",title:"Partizipialattribute: Bildungsmuster",groups:[
     {label:"Partizip I (aktiv, laufend)",rows:[
-    {pronoun:"berichten",form:"der berichtende Journalist",src:"the reporting journalist"},
-    {pronoun:"wachsen",form:"die wachsende Kritik",src:"the growing criticism"},
-    {pronoun:"lesen",form:"der lesende Student",src:"the reading student"}
+    {pronoun:"berichten",form:"der berichtende Journalist",src:"الصحفي المُبلّغ"},
+    {pronoun:"wachsen",form:"die wachsende Kritik",src:"النقد المتزايد"},
+    {pronoun:"lesen",form:"der lesende Student",src:"الطالب القارئ"}
 ]},
     {label:"Partizip II (passiv, abgeschlossen)",rows:[
-    {pronoun:"veröffentlichen",form:"der veröffentlichte Bericht",src:"the published report"},
-    {pronoun:"betreffen",form:"die betroffenen Bürger",src:"the affected citizens"},
-    {pronoun:"recherchieren",form:"die recherchierten Fakten",src:"the researched facts"}
+    {pronoun:"veröffentlichen",form:"der veröffentlichte Bericht",src:"التقرير المنشور"},
+    {pronoun:"betreffen",form:"die betroffenen Bürger",src:"المواطنون المعنيون"},
+    {pronoun:"recherchieren",form:"die recherchierten Fakten",src:"الحقائق المبحوثة"}
 ]},
     {label:"Partizip I + zu (Gerundiv: muss getan werden)",rows:[
-    {pronoun:"prüfen",form:"die zu prüfende Aussage",src:"the statement to be examined"},
-    {pronoun:"loesen",form:"das zu loesende Problem",src:"the problem to be solved"},
-    {pronoun:"beachten",form:"die zu beachtenden Regeln",src:"the rules to be observed"}
+    {pronoun:"prüfen",form:"die zu prüfende Aussage",src:"البيان المُراد فحصه"},
+    {pronoun:"loesen",form:"das zu loesende Problem",src:"المشكلة المُراد حلها"},
+    {pronoun:"beachten",form:"die zu beachtenden Regeln",src:"القواعد الواجب مراعاتها"}
 ]}
 ],note:"Partizip I: الجذر + d + نهاية الصفة. Partizip II: ge- + الجذر + t/en + نهاية الصفة. الصيغة الاستلزامية: zu + Partizip I + نهاية الصفة."},
         {type:"mc",q:"Mia sagt: 'Der veröffentlichte Bericht ist einseitig.' Was ist 'der veröffentlichte Bericht'?",opts:[
@@ -188,12 +188,12 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
     "Etwas betonen und sichtbar machen",
     "Etwas verharmlosen und herunterspielen"
 ],ans:"Etwas betonen und sichtbar machen",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'erläutern'?",opts:["editor (female)","to explain, to elucidate","controversial","lead article, editorial"],ans:"to explain, to elucidate",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"mc",q:"Was bedeutet 'erläutern'?",opts:["المحررة","يشرح، يوضّح","مثير للجدل","المقال الافتتاحي"],ans:"يشرح، يوضّح",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to publish, to issue' auf Deutsch? {1}",a:["herausgeben"],opts:["der Verlag","herausgeben","kritisieren","der Herausgeber"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to publish, to issue' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'darstellen'?",opts:["to explain, to elucidate","editor (male)","editorial office, newsroom","to present, to portray"],ans:"to present, to portray",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Darf man die Medien {1}?",a:["kritisieren"],opts:["kontrovers","kritisieren","erläutern","sachkundig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is it allowed to criticize the media?"},
-        {type:"mc",q:"Was bedeutet 'kontrovers'?",opts:["column (regular opinion piece)","controversial","to present, to portray","editorial office, newsroom"],ans:"controversial",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ist der Kommentator {1}?",a:["sachkundig"],opts:["die Redaktion","investigativ","herausgeben","sachkundig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is the commentator knowledgeable?"}
+        {type:"mc",q:"Was bedeutet 'darstellen'?",opts:["يشرح، يوضّح","المحرر","هيئة التحرير","يعرض، يصوّر"],ans:"يعرض، يصوّر",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Darf man die Medien {1}?",a:["kritisieren"],opts:["kontrovers","kritisieren","erläutern","sachkundig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل يُسمح بانتقاد الإعلام؟"},
+        {type:"mc",q:"Was bedeutet 'kontrovers'?",opts:["العمود الصحفي","مثير للجدل","يعرض، يصوّر","هيئة التحرير"],ans:"مثير للجدل",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ist der Kommentator {1}?",a:["sachkundig"],opts:["die Redaktion","investigativ","herausgeben","sachkundig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل المعلّق مُلمّ بالموضوع؟"}
       ]},
 // ─── L7: Man kann das auch anders sagen ───
     {id:"deu_r26l4",title:"Man kann das auch anders sagen",icon:"🔄",xp:15,board:true,steps:[
@@ -245,12 +245,12 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
     "Etwas Verborgenes entdecken und zeigen",
     "Einen Kommentar schreiben"
 ],ans:"Etwas Verborgenes entdecken und zeigen",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'enthueleln'?",opts:["populist","sensationalist","information source","to reveal, to unveil"],ans:"to reveal, to unveil",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wenn Politiker {1}, recherchieren Journalisten weiter.",a:["dementieren"],opts:["sensationell","unterdrücken","die Privatsphaere","dementieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"When politicians deny, journalists investigate harder."},
-        {type:"mc",q:"Was bedeutet 'unterdrücken'?",opts:["misleading","data protection","to suppress","populist"],ans:"to suppress",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} ist formeller als ablehnen.",a:["zurückweisen"],opts:["unterdrücken","zurückweisen","die Zielgruppe","die Informationsquelle"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Zurückweisen is more formal than ablehnen."},
-        {type:"mc",q:"Was bedeutet 'sensibilisieren'?",opts:["information source","misleading","to sensitize, to raise awareness","data protection"],ans:"to sensitize, to raise awareness",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Die Entdeckung ist {1}!",a:["sensationell"],opts:["unterdrücken","sensationell","die Reichweite","enthueleln"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The discovery is sensational!"}
+        {type:"mc",q:"Was bedeutet 'enthueleln'?",opts:["شعبوي","مثير للإثارة","مصدر المعلومات","يكشف، يفضح"],ans:"يكشف، يفضح",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wenn Politiker {1}, recherchieren Journalisten weiter.",a:["dementieren"],opts:["sensationell","unterdrücken","die Privatsphaere","dementieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"عندما ينفي السياسيون، يحقق الصحفيون بجدية أكبر."},
+        {type:"mc",q:"Was bedeutet 'unterdrücken'?",opts:["مضلل","حماية البيانات","يقمع","شعبوي"],ans:"يقمع",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} ist formeller als ablehnen.",a:["zurückweisen"],opts:["unterdrücken","zurückweisen","die Zielgruppe","die Informationsquelle"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"zurückweisen أكثر رسمية من ablehnen."},
+        {type:"mc",q:"Was bedeutet 'sensibilisieren'?",opts:["مصدر المعلومات","مضلل","يُوعّي، يرفع الوعي","حماية البيانات"],ans:"يُوعّي، يرفع الوعي",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Die Entdeckung ist {1}!",a:["sensationell"],opts:["unterdrücken","sensationell","die Reichweite","enthueleln"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"الاكتشاف مثير!"}
       ]},
 // ─── L9: Die andere Seite ───
     {id:"deu_r26l5",title:"Die andere Seite",icon:"🗣️",xp:15,board:true,steps:[
@@ -291,10 +291,10 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
 ],ans:"Adversativsatz + Partizipialattribut + Passiversatz",hint:"ثلاث بنى: أداة الربط التعارضية، والمعدِّل المضغوط قبل الاسم (Partizip II قبل الاسم)، وبديل المبني للمجهول باستخدام sich lassen."},
         {type:"fb",s:"{1} der Korrespondent ausführlich berichtet, übertreibt die Boulevardpresse.",a:["Während"],opts:["Während","Weil","Obwohl","Damit"],hint:"أداة الربط للتعارض بين ممارستين إعلاميتين. معنى «في حين» بالمعنى المعارض.",sSrc:"بينما يُغطي المراسل الأحداث بتفصيل، تبالغ الصحافة الصفراء."},
         {type:"drag_fill",s:"Die Glaubwürdigkeit {1} sich anhand der Quellen {2}.",blanks:{"1":"lässt","2":"überprüfen"},pool:["lässt","überprüfen","lassen","überprüft","wird","geprüft"],hint:"نمط sich lassen + المصدر: «Glaubwürdigkeit kann anhand der Quellen überprüft werden.» (يمكن التحقق من المصداقية من خلال المصادر.)"},
-        {type:"fb",s:"Wir müssen diese Darstellung {1}, um die Wahrheit zu finden.",a:["hinterfragen"],opts:["widersprechen","übertreiben","einschätzen","hinterfragen"],hint:"فكّر في معنى الكلمة.",sSrc:"We must critically question this portrayal in order to find the truth."},
-        {type:"mc",q:"Was bedeutet 'zweifelhaft'?",opts:["to exaggerate","transparency","to assess, to evaluate","doubtful, dubious"],ans:"doubtful, dubious",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Dieser Journalist ist {1}.",a:["unzuverlässiig"],opts:["die Objektivitaet","unzuverlässiig","vertrauenswürdig","die Tatsache"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"This journalist is unreliable."},
-        {type:"mc",q:"Was bedeutet 'vertrauenswürdig'?",opts:["trustworthy","objectivity","unreliable","statement, position paper"],ans:"trustworthy",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"fb",s:"Wir müssen diese Darstellung {1}, um die Wahrheit zu finden.",a:["hinterfragen"],opts:["widersprechen","übertreiben","einschätzen","hinterfragen"],hint:"فكّر في معنى الكلمة.",sSrc:"يجب أن نتساءل بنقدية عن هذا العرض للوصول إلى الحقيقة."},
+        {type:"mc",q:"Was bedeutet 'zweifelhaft'?",opts:["يبالغ","الشفافية","يُقيّم","مشكوك فيه، مريب"],ans:"مشكوك فيه، مريب",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Dieser Journalist ist {1}.",a:["unzuverlässiig"],opts:["die Objektivitaet","unzuverlässiig","vertrauenswürdig","die Tatsache"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هذا الصحفي غير موثوق."},
+        {type:"mc",q:"Was bedeutet 'vertrauenswürdig'?",opts:["trustworthy","objectivity","unreliable","بيان، ورقة موقف"],ans:"trustworthy",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L11: Faktencheck ───
     {id:"deu_r26l6",title:"Faktencheck",icon:"🔍",xp:15,board:true,steps:[
@@ -345,15 +345,15 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
     {trg:"Karikatur",src:"كاريكاتير سياسي"},
     {trg:"Leserbrief",src:"رسالة إلى المحرّر"}
 ]},
-        {type:"mc",q:"Was bedeutet 'moderieren'?",opts:["to moderate, to host","front page","political cartoon, caricature","to stream"],ans:"to moderate, to host",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"mc",q:"Was bedeutet 'moderieren'?",opts:["يُدير (حوار)، يقدّم","الصفحة الأولى","رسم كاريكاتوري سياسي","يبث عبر الإنترنت"],ans:"يُدير (حوار)، يقدّم",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to review (critically)' auf Deutsch? {1}",a:["rezensieren"],opts:["rezensieren","der Schreibstil","das Feuilleton","zeitgemaess"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to review (critically)' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'ausstrahlen'?",opts:["photo caption","to publish, to make public","writing style","to broadcast, to air"],ans:"to broadcast, to air",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wir {1} live aus Berlin.",a:["senden"],opts:["streamen","rezensieren","die Titelseite","senden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"We are broadcasting live from Berlin."},
-        {type:"mc",q:"Was bedeutet 'streamen'?",opts:["to stream","headline, title","fact check","arts and culture section"],ans:"to stream",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Die FAZ ist ein {1}es Medium.",a:["meinungsbildend"],opts:["senden","die Quellenangabe","meinungsbildend","die Titelseite"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The FAZ is an opinion-forming medium."},
-        {type:"mc",q:"Was bedeutet 'medial'?",opts:["to stream","media-related","to review (critically)","satirical commentary"],ans:"media-related",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Die Berichterstattung muss {1} sein.",a:["transparent"],opts:["rezensieren","transparent","ausstrahlen","moderieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Reporting must be transparent."},
-        {type:"mc",q:"Was bedeutet 'zeitgemaess'?",opts:["front page","contemporary, up-to-date","to publish, to make public","arts and culture section"],ans:"contemporary, up-to-date",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'ausstrahlen'?",opts:["تعليق الصورة","ينشر، يعلن","أسلوب الكتابة","يبث، يذيع"],ans:"يبث، يذيع",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wir {1} live aus Berlin.",a:["senden"],opts:["streamen","rezensieren","die Titelseite","senden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"نحن نبث مباشرة من برلين."},
+        {type:"mc",q:"Was bedeutet 'streamen'?",opts:["يبث عبر الإنترنت","العنوان الرئيسي","تدقيق الحقائق","قسم الثقافة والفنون"],ans:"يبث عبر الإنترنت",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Die FAZ ist ein {1}es Medium.",a:["meinungsbildend"],opts:["senden","die Quellenangabe","meinungsbildend","die Titelseite"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"الـ FAZ وسيلة إعلامية مؤثرة في الرأي العام."},
+        {type:"mc",q:"Was bedeutet 'medial'?",opts:["يبث عبر الإنترنت","إعلامي","ينتقد (نقداً أدبياً)","تعليق ساخر"],ans:"إعلامي",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Die Berichterstattung muss {1} sein.",a:["transparent"],opts:["rezensieren","transparent","ausstrahlen","moderieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"يجب أن تكون التقارير الإعلامية شفافة."},
+        {type:"mc",q:"Was bedeutet 'zeitgemaess'?",opts:["الصفحة الأولى","معاصر، حديث","ينشر، يعلن","قسم الثقافة والفنون"],ans:"معاصر، حديث",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L13: Zwischen den Zeilen ───
     {id:"deu_r26l7",title:"Zwischen den Zeilen",icon:"📋",xp:15,board:true,steps:[
@@ -363,7 +363,7 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
     "استخدام الصفات الاشتقاقية وبدائل المبني للمجهول والجمل المعارضة"
 ]},
         {type:"story",speaker:"narrator",mood:"matter-of-fact",art:"de-ber-office-lunch",trg:"Mittagspause. Verumius sitzt mit Mia und zwei Kollegen in der Kantine. Ein Artikel über Medienkompetenz liegt zwischen den Tabletts. Mia tippt darauf.",src:"استراحة الغداء. يجلس فيروميوس مع ميا وزميلين في مطعم الكافيتيريا. مقالة عن الثقافة الإعلامية موضوعة بين أطباق الطعام. تنقر ميا عليها."},
-        {type:"story",speaker:"mia",mood:"challenging",art:"de-ber-office-lunch",trg:"Okay, Faktencheck. Wer findet die meisten Partizipialattribute in diesem Artikel? Der berichtende Journalist, die zu prüfenden Fakten, die veröffentlichten Ergebnisse. Wer kann sie alle entschlüsseln?",src:"حسناً، تحقق من الحقائق. من يستطيع إيجاد أكبر عدد من الصفات الاشتقاقية في هذا المقال؟ الصحفي المُبلِّغ، الوقائع التي يجب فحصها، النتائج المنشورة. من يستطيع فك شفرتها جميعاً؟"},
+        {type:"story",speaker:"mia",mood:"تحدٍّ",art:"de-ber-office-lunch",trg:"Okay, Faktencheck. Wer findet die meisten Partizipialattribute in diesem Artikel? Der berichtende Journalist, die zu prüfenden Fakten, die veröffentlichten Ergebnisse. Wer kann sie alle entschlüsseln?",src:"حسناً، تحقق من الحقائق. من يستطيع إيجاد أكبر عدد من الصفات الاشتقاقية في هذا المقال؟ الصحفي المُبلِّغ، الوقائع التي يجب فحصها، النتائج المنشورة. من يستطيع فك شفرتها جميعاً؟"},
         {type:"story",speaker:"verumius",mood:"amused",art:"de-ber-office-lunch",trg:"Vor zwei Wochen hätte ich kein einziges erkannt. Jetzt sehe ich sie überall. In jeder Schlagzeile, in jedem Kommentar. Man kann sie nicht mehr übersehen.",src:"قبل أسبوعين لم أكن لأتعرف على واحدة. الآن أراها في كل مكان. في كل عنوان، في كل تعليق. لا يمكنك عدم رؤيتها بعد الآن."},
         {type:"teach",trg:"der Chefredakteur",src:"رئيس التحرير",pos:"noun",gender:"m",note:"اسم مذكر. Chef (رئيس) + Redakteur (محرر).\nالكلمة الأخيرة فيما يُنشر.",example:"A: Wer ist der Chefredakteur?\nB: Der Chefredakteur ist Herr Schmidt.\nA: Der Chefredakteur entscheidet, was veröffentlicht wird.\nB: Ja, er hat das letzte Wort.",exampleSrc:"أ: من هو رئيس التحرير؟\nب: رئيس التحرير هو السيد شميت.\nأ: رئيس التحرير يقرر ما يُنشر.\nب: نعم، له الكلمة الأخيرة.",funFact:"Chef (رئيس) + Redakteur (محرر). الشخص الذي له الكلمة الأخيرة فيما يُنشر. 'Die Chefredakteurin' الصيغة المؤنثة. أقوى منصب في غرفة الأخبار. شخص واحد، مسؤولية هائلة."},
         {type:"teach",trg:"der Berichterstatter",src:"مراسل",pos:"noun",gender:"m",note:"اسم مذكر. Bericht (تقرير) + Erstatter (مُعِد).\nالشخص الذي يُنشئ Bericht.",example:"A: Unser Berichterstatter ist vor Ort.\nB: Der Berichterstatter berichtet live.\nA: Ein guter Berichterstatter bleibt sachlich.\nB: Ja, Fakten zuerst, Meinung später.",exampleSrc:"أ: مراسلنا في مكان الحدث.\nب: المراسل يُبلّغ مباشرة.\nأ: المراسل الجيد يبقى واقعياً.\nب: نعم، الحقائق أولاً والرأي لاحقاً.",funFact:"Bericht (تقرير) + Erstatter (مُعِد). الشخص الذي يُنشئ Bericht. 'Unser Berichterstatter vor Ort' (مراسلنا في الميدان). في الموقع، في قلب الحدث، يُقدّم الخبر."},
@@ -410,17 +410,17 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
     {trg:"Korrespondent",src:"مراسل"}
 ]},
         {type:"mc",q:"Ein Artikel ohne Quellenangabe, mit reisserischer Überschrift und einseitiger Darstellung ist am ehesten...",opts:["serioes und faktenbasiert","boulevardesk und fragwürdig","investigativ und gründlich","unparteiisch und ausgewogen"],ans:"boulevardesk und fragwürdig",hint:"لا مصادر، عنوان إثاري، أحادي الجانب. هذه هي السمات المميزة للصحافة الصفراء."},
-        {type:"mc",q:"Was bedeutet 'das Printmedium'?",opts:["to suppress, to displace","subjective","translator","print medium"],ans:"print medium",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Sollen wir die Ergebnisse {1}?",a:["öffentlich machen"],opts:["ausblenden","wahrheitsgemaess","der Rezipient","öffentlich machen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Should we make the results public?"},
-        {type:"mc",q:"Was bedeutet 'ausblenden'?",opts:["to fade out, to ignore","to suppress, to displace","media consumer, recipient","scandalous"],ans:"to fade out, to ignore",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Man kann die Wahrheit nicht ewig {1}.",a:["verdraengen"],opts:["die Nachrichtensprecherin","die Sondersendung","skandaloes","verdraengen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"You cannot suppress the truth forever."},
-        {type:"mc",q:"Was bedeutet 'verleumden'?",opts:["to slander, to defame","to trivialize, to downplay","online medium","reporter"],ans:"to slander, to defame",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Man darf die Gefahr nicht {1}.",a:["verharmlosen"],opts:["verharmlosen","zuverlässiig","die Sondersendung","verleumden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"One must not trivialize the danger."},
-        {type:"mc",q:"Was bedeutet 'zensieren'?",opts:["reporter","to make public, to disclose","to censor","editor-in-chief"],ans:"to censor",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Die Enthuellungen sind {1}.",a:["skandaloes"],opts:["wahrheitsgemaess","skandaloes","der Chefredakteur","öffentlich machen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The revelations are scandalous."},
-        {type:"mc",q:"Was bedeutet 'subjektiv'?",opts:["media consumer, recipient","print medium","reporter","subjective"],ans:"subjective",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Journalisten müssen {1} berichten.",a:["wahrheitsgemaess"],opts:["der Übersetzer","wahrheitsgemaess","verharmlosen","öffentlich machen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Journalists must report truthfully."},
-        {type:"mc",q:"Was bedeutet 'zuverlässiig'?",opts:["reliable","to slander, to defame","to censor","subjective"],ans:"reliable",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'das Printmedium'?",opts:["يقمع، يكبت","ذاتي، شخصي","المترجم","وسيلة إعلام مطبوعة"],ans:"وسيلة إعلام مطبوعة",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Sollen wir die Ergebnisse {1}?",a:["öffentlich machen"],opts:["ausblenden","wahrheitsgemaess","der Rezipient","öffentlich machen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل يجب أن نعلن النتائج؟"},
+        {type:"mc",q:"Was bedeutet 'ausblenden'?",opts:["يتجاهل، يُقصي","يقمع، يكبت","المتلقي الإعلامي","فاضح، فضائحي"],ans:"يتجاهل، يُقصي",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Man kann die Wahrheit nicht ewig {1}.",a:["verdraengen"],opts:["die Nachrichtensprecherin","die Sondersendung","skandaloes","verdraengen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"لا يمكنك قمع الحقيقة إلى الأبد."},
+        {type:"mc",q:"Was bedeutet 'verleumden'?",opts:["يفتري، يشوّه السمعة","يستهين، يقلل من الشأن","وسيلة إعلامية إلكترونية","المراسل"],ans:"يفتري، يشوّه السمعة",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Man darf die Gefahr nicht {1}.",a:["verharmlosen"],opts:["verharmlosen","zuverlässiig","die Sondersendung","verleumden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"يجب عدم التقليل من شأن الخطر."},
+        {type:"mc",q:"Was bedeutet 'zensieren'?",opts:["المراسل","يعلن، يكشف","يفرض الرقابة","رئيس التحرير"],ans:"يفرض الرقابة",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Die Enthuellungen sind {1}.",a:["skandaloes"],opts:["wahrheitsgemaess","skandaloes","der Chefredakteur","öffentlich machen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"الكشوفات فاضحة!"},
+        {type:"mc",q:"Was bedeutet 'subjektiv'?",opts:["المتلقي الإعلامي","وسيلة إعلام مطبوعة","المراسل","ذاتي، شخصي"],ans:"ذاتي، شخصي",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Journalisten müssen {1} berichten.",a:["wahrheitsgemaess"],opts:["der Übersetzer","wahrheitsgemaess","verharmlosen","öffentlich machen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"يجب على الصحفيين أن يُبلّغوا بصدق."},
+        {type:"mc",q:"Was bedeutet 'zuverlässiig'?",opts:["موثوق","يفتري، يشوّه السمعة","يفرض الرقابة","ذاتي، شخصي"],ans:"موثوق",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L15: Medienkompetenz ───
     {id:"deu_r26l8",title:"Medienkompetenz",icon:"🎓",xp:15,board:true,steps:[

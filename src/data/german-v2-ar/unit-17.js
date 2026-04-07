@@ -38,11 +38,11 @@ const UNIT_17_AR = {n:17,lang:"de",srcLang:"ar",track:"v2",title:"Karneval im Rh
         {type:"fb",s:"Die Parade ist {1}. Sie ist über sieben Kilometer lang!",a:["riesig"],opts:["riesig","fröhlich","kreativ","verrückt"],hint:"فكّر في الحجم: هذا الاستعراض يمتد لأكثر من سبعة كيلومترات. أي صفة تناسب هذا المقدار؟",sSrc:"الاستعراض ضخم. يزيد طوله عن سبعة كيلومترات!"},
         {type:"story",speaker:"verumius",mood:"overwhelmed",art:"de-koeln-hbf-crowd",trg:"Alles ist zu viel. Zu laut, zu bunt, zu fröhlich. Ein Fremder im Piratenkostüm schreit mir 'Alaaf!' ins Gesicht und gibt mir eine Trommel.",src:"كل شيء أكثر من اللازم. صاخب جداً، ملوّن جداً، مرح جداً. غريب بزي قرصان يصرخ 'آلاف!' في وجهي ويعطيني طبلة."},
         {type:"story",speaker:"mia",mood:"grinning",art:"de-koeln-hbf-crowd",trg:"Komm. Wir gehen rein. In den Wahnsinn. Du bist jetzt ein Kölner, Verumius.",src:"هيا. سندخل. إلى الجنون. أنت من أهل كولونيا الآن يا فيروميوس."},
-        {type:"fb",s:"Die Kostüme sind {1}! Jedes Detail ist anders.",a:["wunderschön"],opts:["wunderschön","riesig","kreativ","fröhlich"],hint:"فكّر في معنى الكلمة.",sSrc:"The costumes are wonderfully beautiful! Every detail is different."},
+        {type:"fb",s:"Die Kostüme sind {1}! Jedes Detail ist anders.",a:["wunderschön"],opts:["wunderschön","riesig","kreativ","fröhlich"],hint:"فكّر في معنى الكلمة.",sSrc:"الأزياء رائعة الجمال! كل تفصيل مختلف."},
         {type:"mc",q:"Was bedeutet 'gucken'?",opts:["this time","to look, to peek","huge, enormous","the jewelry, the decoration"],ans:"to look, to peek",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to wave' auf Deutsch? {1}",a:["winken"],opts:["riesig","die Tradition","winken","der Hut"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to wave' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'diesmal'?",opts:["this time","huge, enormous","enthusiastic, thrilled","the tradition"],ans:"this time",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Er hat mich freundlich {1}. Guten Tag, Herr Verumius!",a:"gegrüßt",opts:["gegrüßt","gewinkt","geguckt","gerufen"],hint:"فكّر في معنى الكلمة.",sSrc:"He greeted me in a friendly way. Good day, Mr. Verumius!"}
+        {type:"fb",s:"Er hat mich freundlich {1}. Guten Tag, Herr Verumius!",a:"gegrüßt",opts:["gegrüßt","gewinkt","geguckt","gerufen"],hint:"فكّر في معنى الكلمة.",sSrc:"حيّاني بودّ. يوم سعيد، سيد فيروميوس!"}
       ]},
 // ─── L3: Masken und Melodien ───
     {id:"deu_r17l2",title:"Masken und Melodien",icon:"🎶",xp:15,board:true,steps:[

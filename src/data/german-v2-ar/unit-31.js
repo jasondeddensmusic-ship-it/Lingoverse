@@ -44,8 +44,8 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"fb",s:"Da er Schulden hat, muss Verumius einen {1} aufnehmen.",a:["Kredit"],opts:["Kredit","Gewinn","Umsatz","Etat"],hint:"حين تكون مديناً وتحتاج إلى مزيد من المال، تأخذ...",sSrc:"بما أن لدى Verumius ديوناً، عليه أخذ قرض."},
         {type:"story",speaker:"steuerberater",mood:"encouraging",art:"de-ber-steuerberater-handshake",trg:"Machen Sie sich keine Sorgen, Herr Verumius. Bis Ende des Monats werden wir Ihre Steuererklärung fertig haben. Dann sieht alles klarer aus.",src:"لا تقلق، السيد Verumius. بحلول نهاية الشهر سيكون إقرارك الضريبي جاهزاً. حينها سيبدو كل شيء أوضح."},
         {type:"story",speaker:"verumius",mood:"relieved",art:"de-ber-verumius-leaving-office",trg:"Danke. Ich dachte, Steuern in Deutschland wären unmöglich. Aber mit einem guten Steuerberater ist es machbar.",src:"شكراً. كنت أظن أن الضرائب في ألمانيا مستحيلة. لكن مع مستشار ضريبي جيد، الأمر ممكن."},
-        {type:"fb",s:"Eine {1} Investition bringt langfristigen Gewinn.",a:["nachhaltige"],opts:["rentable","finanzielle","oekonomische","nachhaltige"],hint:"فكّر في معنى الكلمة.",sSrc:"A sustainable investment brings long-term profit."},
-        {type:"fb",s:"Wir {1} das Projekt durch einen Bankkredit.",a:["finanzieren"],opts:["investieren","finanzieren","wirtschaften","nachhalten"],hint:"فكّر في معنى الكلمة.",sSrc:"We finance the project through a bank loan."},
+        {type:"fb",s:"Eine {1} Investition bringt langfristigen Gewinn.",a:["nachhaltige"],opts:["rentable","finanzielle","oekonomische","nachhaltige"],hint:"فكّر في معنى الكلمة.",sSrc:"الاستثمار المستدام يُحقق ربحاً طويل الأمد."},
+        {type:"fb",s:"Wir {1} das Projekt durch einen Bankkredit.",a:["finanzieren"],opts:["investieren","finanzieren","wirtschaften","nachhalten"],hint:"فكّر في معنى الكلمة.",sSrc:"نموّل المشروع من خلال قرض مصرفي."},
         {type:"mc",q:"Was bedeutet 'jährlich'?",opts:["einmal pro Monat","einmal pro Woche","einmal pro Jahr","jeden zweiten Tag"],ans:"einmal pro Jahr",hint:"فكّر في معنى الكلمة."}
       ]},
 // ─── L3: Die Sprache des Geldes ───
@@ -91,9 +91,9 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"fb",s:"Die {1} bestimmt, wie sich Angebot und Nachfrage entwickeln.",a:["Konjunktur"],opts:["Konjunktur","Dividende","Aktie","Rendite"],hint:"الدورة الاقتصادية الكلية التي تحدد ظروف الأعمال.",sSrc:"تحدد الدورة الاقتصادية كيفية تطوّر العرض والطلب."},
         {type:"mc",q:"Wettbewerbsfaehig bedeutet...",opts:["nachhaltig und ressourcenschonend","konkurrenzfaehig (competitive)","börsennotiert","profitabel"],ans:"konkurrenzfaehig (competitive)",hint:"'Wettbewerb' تعني منافسة. 'Faehig' تعني قادر. قادر على المنافسة."},
         {type:"story",speaker:"verumius",mood:"amused",art:"de-ber-cafe-closing-newspaper",trg:"Ich habe gerade eine ganze Seite Börsenbericht gelesen. Vor drei Monaten hätte ich kein Wort verstanden. Jetzt verstehe ich fast alles. Fast.",src:"قرأت للتو صفحة كاملة من تقرير سوق الأسهم. قبل ثلاثة أشهر لم أكن لأفهم كلمة واحدة. الآن أفهم كل شيء تقريباً. تقريباً."},
-        {type:"fb",s:"Deutschland ist eine {1} Volkswirtschaft mit freiem Markt.",a:["wettbewerbsfaehige"],opts:["börsennotierte","profitabel","gewinnbringende","wettbewerbsfaehige"],hint:"فكّر في معنى الكلمة.",sSrc:"Germany is a competitive economy with a free market."},
-        {type:"mc",q:"Was bedeutet 'anlegen'?",opts:["listed on the stock exchange","to invest (money)","profitable","investment (the act)"],ans:"to invest (money)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} auch Anleger?",a:["profitieren"],opts:["profitieren","die Anlage","die Börse","die Nachfrage"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Do investors benefit too?"}
+        {type:"fb",s:"Deutschland ist eine {1} Volkswirtschaft mit freiem Markt.",a:["wettbewerbsfaehige"],opts:["börsennotierte","profitabel","gewinnbringende","wettbewerbsfaehige"],hint:"فكّر في معنى الكلمة.",sSrc:"ألمانيا اقتصاد تنافسي بسوق حرة."},
+        {type:"mc",q:"Was bedeutet 'anlegen'?",opts:["مُدرَج في البورصة","يستثمر (مالاً)","profitable","الاستثمار (الفعل)"],ans:"يستثمر (مالاً)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} auch Anleger?",a:["profitieren"],opts:["profitieren","die Anlage","die Börse","die Nachfrage"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل يستفيد المستثمرون أيضاً؟"}
       ]},
 // ─── L5: Bis Dezember werden Sie bezahlt haben ───
     {id:"deu_r31l3",title:"Bis Dezember werden Sie bezahlt haben",icon:"📅",xp:15,board:true,steps:[
@@ -147,14 +147,14 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"teach",trg:"sinken",src:"انخفاض، تراجع، هبوط",pos:"verb",gender:null,note:"فعل قوي. Sinken/sank/gesunken.\nيأخذ 'sein'. يُستخدم للأسعار والقيم ودرجات الحرارة.",example:"A: Sind die Preise gesunken?\nB: Ja, die Inflation ist deutlich gesunken.\nA: Wie weit ist sie gesunken?\nB: Um zwei Prozent im letzten Quartal.",exampleSrc:"أ: هل انخفضت الأسعار؟\nب: نعم، انخفض التضخم بشكل ملحوظ.\nأ: بكم انخفض؟\nب: بنسبة اثنين بالمئة في الربع الأخير.",funFact:"فعل قوي: sinken/sank/gesunken. يأخذ 'sein' لأنه يصف تغيراً في الحالة. 'Die Zinsen sinken' (تنخفض أسعار الفائدة)، 'die Temperaturen sinken' (تنخفض درجات الحرارة). نقيضه 'steigen' (الارتفاع). ضروري في الألمانية الاقتصادية والمالية."},
         {type:"fb",s:"Die Inflation wird bis Frühjahr {1} sein.",a:["gesunken"],opts:["gesunken","sinken","gesinkt","sank"],hint:"المستقبل الثاني لفعل حركة/تحوّل. هذا الفعل يأخذ 'sein' لا 'haben'. أي Partizip II يناسب 'الأسعار الهابطة'؟",sSrc:"سيكون التضخم قد انخفض بحلول الربيع."},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-ber-verumius-notes",trg:"Bis Dezember werde ich die Steuererklärung abgegeben haben. Das hat der Steuerberater versprochen. Und ich habe es zur Kenntnis genommen.",src:"بحلول ديسمبر سأكون قد قدّمت الإقرار الضريبي. وعد المستشار الضريبي بذلك. وقد أخذت بالأمر."},
-        {type:"fb",s:"Deutschland muss viele Rohstoffe {1}.",a:["importieren"],opts:["exportieren","besteuern","einsparen","importieren"],hint:"فكّر في معنى الكلمة.",sSrc:"Germany has to import many raw materials."},
+        {type:"fb",s:"Deutschland muss viele Rohstoffe {1}.",a:["importieren"],opts:["exportieren","besteuern","einsparen","importieren"],hint:"فكّر في معنى الكلمة.",sSrc:"يتعين على ألمانيا استيراد كثير من المواد الخام."},
         {type:"mc",q:"Was bedeutet 'voraussichtlich'?",opts:[
     "wahrscheinlich, nach Einschätzung",
     "absolut sicher und garantiert",
     "niemals unter diesen Bedingungen",
     "rückblickend betrachtet"
 ],ans:"wahrscheinlich, nach Einschätzung",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'konjunkturell'?",opts:["related to the business cycle","to save, to cut costs","raw material","presumably, expected"],ans:"related to the business cycle",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'konjunkturell'?",opts:["متعلق بالدورة الاقتصادية","يوفّر، يُقلّص التكاليف","المادة الخام","يُفترض، متوقع"],ans:"متعلق بالدورة الاقتصادية",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L7: Da die Wirtschaft wächst ───
     {id:"deu_r31l4",title:"Da die Wirtschaft wächst",icon:"📈",xp:15,board:true,steps:[
@@ -224,7 +224,7 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
     "افهم نظام المزايا الاجتماعية في ألمانيا",
     "تدرّب على التراكيب النحوية الثلاثة معاً"
 ]},
-        {type:"story",speaker:"steuerberater",mood:"concluding",art:"de-ber-tax-office",trg:"So, Herr Verumius. Wir müssen eine Entscheidung treffen. Ziehen Sie die Kleinunternehmerregelung in Betracht, oder wollen Sie die volle Umsatzsteuer?",src:"حسنًا، يا سيد فيروميوس. نحن بحاجة إلى اتخاذ قرار. هل تدرس نظام المشاريع الصغيرة، أم تريد ضريبة المبيعات الكاملة؟"},
+        {type:"story",speaker:"steuerberater",mood:"ختامي",art:"de-ber-tax-office",trg:"So, Herr Verumius. Wir müssen eine Entscheidung treffen. Ziehen Sie die Kleinunternehmerregelung in Betracht, oder wollen Sie die volle Umsatzsteuer?",src:"حسنًا، يا سيد فيروميوس. نحن بحاجة إلى اتخاذ قرار. هل تدرس نظام المشاريع الصغيرة، أم تريد ضريبة المبيعات الكاملة؟"},
         {type:"story",speaker:"verumius",mood:"thinking",art:"de-ber-tax-office-thinking",trg:"Ich muss das in Betracht ziehen. Was steht mir zur Verfügung?",src:"أحتاج إلى التفكير في ذلك. ما الذي يتوفر لي؟"},
         {type:"story",speaker:"narrator",mood:"transitional",art:"de-ber-park-autumn",trg:"Später am Nachmittag. Ein Berliner Park im Herbst. Mia und Verumius gehen zusammen spazieren. Das Gespraech wird persönlich: Mia denkt über Elterngeld nach.",src:"في وقت متأخر من بعد الظهر. حديقة برلينية في الخريف. تمشي ميا وفيروميوس معًا. يأخذ الحديث منحىً شخصيًا: ميا تفكر في إعانة الوالدين."},
         {type:"story",speaker:"mia",mood:"reflective",art:"de-ber-park-mia",trg:"Ich muss eine Entscheidung treffen. Elterngeld oder Karriere. Oder beides. Deutschland stellt beides zur Verfügung, aber man muss es auch in Kauf nehmen, dass sich alles verändert.",src:"أحتاج إلى اتخاذ قرار. إعانة الوالدين أم المسيرة المهنية. أو كلاهما. توفر ألمانيا كليهما، لكن عليك أيضًا أن تقبل أن كل شيء يتغير."},
@@ -267,8 +267,8 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
 ]},
         {type:"story",speaker:"mia",mood:"resolute",art:"de-ber-park-sunset",trg:"Ich werde das Elterngeld in Anspruch nehmen. Und Lukas wird seine Musikschule finanzieren. Wir nehmen die Veraenderungen in Kauf. So funktioniert das hier.",src:"سأطالب بإعانة الوالدين. وسيموّل لوكاس مدرسته الموسيقية. نقبل التغييرات. هكذا تسير الأمور هنا."},
         {type:"story",speaker:"verumius",mood:"thoughtful",art:"de-ber-park-walking",trg:"In Betracht ziehen, zur Verfügung stehen, in Kauf nehmen. Das sind keine Wörter. Das sind Werkzeuge. Ohne sie kommt man in Deutschland nicht weiter.",src:"تأمّل، كن متاحًا، اقبل السلبيات. هذه ليست مجرد كلمات. إنها أدوات. بدونها لا يمكنك الاستمرار في ألمانيا."},
-        {type:"fb",s:"Kosten von der Steuer {1} spart Geld.",a:["absetzen"],opts:["umsetzen","einsetzen","aufsetzen","absetzen"],hint:"فكّر في معنى الكلمة.",sSrc:"Deducting costs from taxes saves money."},
-        {type:"mc",q:"Was bedeutet 'Einfluss nehmen auf'?",opts:["to exert influence on","monthly","net salary, take-home pay","to deduct (from taxes), to sell, to remove"],ans:"to exert influence on",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"fb",s:"Kosten von der Steuer {1} spart Geld.",a:["absetzen"],opts:["umsetzen","einsetzen","aufsetzen","absetzen"],hint:"فكّر في معنى الكلمة.",sSrc:"خصم التكاليف من الضرائب يوفّر المال."},
+        {type:"mc",q:"Was bedeutet 'Einfluss nehmen auf'?",opts:["to exert influence on","monthly","الراتب الصافي","يخصم (ضريبياً)، يبيع"],ans:"to exert influence on",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L10: Bilanz ziehen ───
     {id:"deu_r31l6",title:"Bilanz ziehen",icon:"🎵",xp:15,board:true,steps:[
@@ -316,10 +316,10 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
 ]},
         {type:"story",speaker:"lukas",mood:"content",art:"de-ber-kreuzberg-evening",trg:"Weißt du, Verumius, Buchführung ist nicht so schlimm. Man muss nur jeden Beleg zur Kenntnis nehmen. Und genug Rücklagen bilden. Dann läuft der Laden.",src:"تعلم يا فيروميوس، مسك الدفاتر ليس بهذا السوء. عليك فقط الإحاطة علمًا بكل إيصال. وبناء احتياطيات كافية. عندها يسير المحل."},
         {type:"story",speaker:"verumius",mood:"warm",art:"de-ber-verumius-laughing",trg:"Lukas, der Musiker, erklärt mir Buchführung. Berlin verändert jeden.",src:"لوكاس، الموسيقي، يشرح لي مسك الدفاتر. برلين تغير الجميع."},
-        {type:"fb",s:"Darf man die Ergebnisse in {1} stellen?",a:["Frage"],opts:["Kenntnis","Anspruch","Bezug","Frage"],hint:"فكّر في معنى الكلمة.",sSrc:"May one call the results into question?"},
-        {type:"mc",q:"Was bedeutet 'Monopol'?",opts:["to take note of, to acknowledge","monopoly","fund (investment)","equity, own capital"],ans:"monopoly",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Die zwei Konzerne werden {1}.",a:["fusionieren"],opts:["fusionieren","Geschäftsbericht","solvent","Gesamtkosten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The two corporations will merge."},
-        {type:"mc",q:"Was bedeutet 'bilanzieren'?",opts:["bookkeeping","to call into question, to challenge","to refer to","to draw up a balance sheet, to take stock"],ans:"to draw up a balance sheet, to take stock",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"fb",s:"Darf man die Ergebnisse in {1} stellen?",a:["Frage"],opts:["Kenntnis","Anspruch","Bezug","Frage"],hint:"فكّر في معنى الكلمة.",sSrc:"هل يجوز التشكيك في النتائج؟"},
+        {type:"mc",q:"Was bedeutet 'Monopol'?",opts:["يأخذ علماً بـ","monopoly","صندوق استثماري","رأس المال الخاص"],ans:"monopoly",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Die zwei Konzerne werden {1}.",a:["fusionieren"],opts:["fusionieren","Geschäftsbericht","solvent","Gesamtkosten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"ستندمج الشركتان."},
+        {type:"mc",q:"Was bedeutet 'bilanzieren'?",opts:["مسك الدفاتر","يطعن في، يتحدى","يشير إلى","يعمل ميزانية، يقيّم الوضع"],ans:"يعمل ميزانية، يقيّم الوضع",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L12: Zahlen, Daten, Fakten ───
     {id:"deu_r31l7",title:"Zahlen, Daten, Fakten",icon:"📊",xp:15,board:true,steps:[
@@ -376,8 +376,8 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
 ]},
         {type:"mc",q:"In einem Geschäftsbericht steht: 'Wir müssen den veränderten Bedingungen Rechnung ___.' Welches Verb vervollständigt die NVV?",opts:["tragen","stellen","nehmen","ziehen"],ans:"tragen",hint:"تركيب رسمي ثابت لاسم وفعل يدل على إعطاء شيء وزنه المناسب. الاسم مرتبط بالحسابات أو المحاسبة."},
         {type:"story",speaker:"verumius",mood:"confident",art:"de-ber-library-leaving",trg:"Zahlen, Daten, Fakten. Ich habe unter Beweis gestellt, dass ich die Wirtschaftssprache beherrsche. Zumindest auf dem Papier. Morgen kommt die Praxis.",src:"أرقام وبيانات وحقائق. لقد أثبتت أنني أتقن لغة الاقتصاد. على الورق على الأقل. غدًا يأتي التطبيق العملي."},
-        {type:"fb",s:"Viele Firmen {1} ihre IT-Abteilung an externe Dienstleister.",a:["outsourcen"],opts:["outsourcen","budgetieren","liquidieren","amortisieren"],hint:"فكّر في معنى الكلمة.",sSrc:"Many companies outsource their IT department to external providers."},
-        {type:"mc",q:"Was bedeutet 'quartalweise'?",opts:["quarterly","employee","to liquidate, to wind up","to amortize, to recoup"],ans:"quarterly",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"fb",s:"Viele Firmen {1} ihre IT-Abteilung an externe Dienstleister.",a:["outsourcen"],opts:["outsourcen","budgetieren","liquidieren","amortisieren"],hint:"فكّر في معنى الكلمة.",sSrc:"كثير من الشركات تُسند قسم تكنولوجيا المعلومات إلى مزودين خارجيين."},
+        {type:"mc",q:"Was bedeutet 'quartalweise'?",opts:["quarterly","employee","يصفّي","يستهلك، يسترد"],ans:"quarterly",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L14: Das System verstehen ───
     {id:"deu_r31l8",title:"Das System verstehen",icon:"🏛️",xp:15,board:true,steps:[
@@ -388,7 +388,7 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
 ]},
         {type:"story",speaker:"narrator",mood:"warm",art:"de-ber-apartment-mindmap",trg:"Verumius' Wohnung, abends. Er sitzt am Schreibtisch und zeichnet eine Mindmap. Steuern, Rente, Krankenversicherung, Kindergeld, Elterngeld: alles durch Pfeile verbunden. Das System ergibt jetzt Sinn.",src:"شقة فيروميوس، المساء. يجلس على مكتبه يرسم خريطة ذهنية. الضرائب، والتقاعد، والتأمين الصحي، ومكافأة الأطفال، وإعانة الوالدين: كلها مرتبطة بالأسهم. النظام أصبح منطقيًا الآن."},
         {type:"story",speaker:"verumius",mood:"reflective",art:"de-ber-verumius-desk",trg:"Ich habe Bilanz gezogen. Da ich das Steuersystem verstehe und die Sozialleistungen in Anspruch nehmen kann, fühle ich mich in Deutschland angekommen.",src:"لقد استخلصت الحصيلة. بما أنني أفهم النظام الضريبي ويمكنني الاستفادة من المنافع الاجتماعية، أشعر أنني وصلت إلى ألمانيا."},
-        {type:"story",speaker:"narrator",mood:"concluding",art:"de-ber-apartment-corkboard",trg:"Er pinnt die Mindmap neben sein Korkbrett mit den Dokumenten des deutschen Lebens. Die Sammlung wächst: Anmeldung, Mietvertrag, Lauftreff-Mitgliedskarte, Arbeitsvertrag. Und jetzt: ein Verständnis des Systems.",src:"يُثبّت الخريطة الذهنية بجانب لوحة الفلين التي تحتوي وثائق حياته الألمانية. المجموعة تكبر: التسجيل وعقد الإيجار والعضوية في نادي الجري وعقد العمل. والآن: فهم النظام."},
+        {type:"story",speaker:"narrator",mood:"ختامي",art:"de-ber-apartment-corkboard",trg:"Er pinnt die Mindmap neben sein Korkbrett mit den Dokumenten des deutschen Lebens. Die Sammlung wächst: Anmeldung, Mietvertrag, Lauftreff-Mitgliedskarte, Arbeitsvertrag. Und jetzt: ein Verständnis des Systems.",src:"يُثبّت الخريطة الذهنية بجانب لوحة الفلين التي تحتوي وثائق حياته الألمانية. المجموعة تكبر: التسجيل وعقد الإيجار والعضوية في نادي الجري وعقد العمل. والآن: فهم النظام."},
         {type:"story",speaker:"verumius",mood:"peaceful",art:"de-ber-apartment-window-night",trg:"Soziale Marktwirtschaft. Man zahlt viel, aber man bekommt auch viel zurück. Da ich das jetzt verstehe, kann ich endlich mitreden. Nicht nur leben in Deutschland, sondern verstehen, wie es funktioniert.",src:"اقتصاد السوق الاجتماعي. تدفع كثيرًا لكنك تستعيد كثيرًا أيضًا. بما أنني أفهم ذلك الآن، يمكنني أخيرًا المشاركة في الحوار. ليس فقط العيش في ألمانيا بل فهم كيفية عملها."},
         {type:"teach",trg:"zum Ausdruck bringen",src:"التعبير عن",pos:"verb",gender:null,note:"تعبير اسمي فعلي ثابت. Ausdruck + bringen.\n'Seine Meinung zum Ausdruck bringen.'",example:"A: Wie bringt man seine Meinung zum Ausdruck?\nB: In einer formellen Stellungnahme.\nA: Er brachte seine Bedenken zum Ausdruck.\nB: Das war mutig und wichtig.",exampleSrc:"أ: كيف يُعبَّر عن الرأي؟\nب: في بيان رسمي.\nأ: عبّر عن مخاوفه.\nب: كان ذلك شجاعًا ومهمًا.",funFact:"تجلب شيئاً إلى التعبير. أكثر رسمية من 'ausdrücken'. يُستخدم في الخطب والكتابة الرسمية. التعبير الاسمي الفعلي للتواصل الدبلوماسي والرسمي."},
         {type:"teach",trg:"in Erwägung ziehen",src:"التفكير في، التأمل في",pos:"verb",gender:null,note:"تعبير اسمي فعلي ثابت. Erwägung + ziehen.\nأكثر تأنّياً من 'in Betracht ziehen'.",example:"A: Wir ziehen einen Standortwechsel in Erwägung.\nB: Aus welchem Grund?\nA: Da die Mietkosten steigen.\nB: Das sollte man gründlich in Erwägung ziehen.",exampleSrc:"أ: نحن نفكر في تغيير الموقع.\nب: لأي سبب؟\nأ: بما أن تكاليف الإيجار ترتفع.\nب: ينبغي التفكير في ذلك بعناية.",funFact:"أكثر تأمّلاً من 'in Betracht ziehen'. تسحب شيئاً إلى فضاء التداوُل. تُوحي 'Wir ziehen einen Wechsel in Erwägung' بموازنة دقيقة وهادئة بين المزايا والعيوب."},
@@ -428,9 +428,9 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
     {trg:"Schulden tilgen",src:"يسدّد الديون"},
     {trg:"Dividenden ausschütten",src:"يوزّع أرباح الأسهم"}
 ]},
-        {type:"fb",s:"Er investiert nicht; er hat {1} kein Kapital.",a:["nämlich"],opts:["zumal","denn","schließlich","nämlich"],hint:"فكّر في معنى الكلمة.",sSrc:"He does not invest; he has no capital, you see."},
-        {type:"mc",q:"Was bedeutet 'insofern als'?",opts:["after all, ultimately","to generate (profit/revenue)","namely, specifically (formal)","insofar as"],ans:"insofar as",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Einige Branchen profitieren, {1} die Techbranche.",a:["namentlich"],opts:["tilgen","namentlich","da","zum Ausdruck bringen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Some sectors profit, namely the tech sector."}
+        {type:"fb",s:"Er investiert nicht; er hat {1} kein Kapital.",a:["nämlich"],opts:["zumal","denn","schließlich","nämlich"],hint:"فكّر في معنى الكلمة.",sSrc:"إنه لا يستثمر، فليس لديه رأس مال كما ترى."},
+        {type:"mc",q:"Was bedeutet 'insofern als'?",opts:["في نهاية المطاف","يُحقق (ربحاً/إيراداً)","وتحديداً (رسمي)","بقدر ما"],ans:"بقدر ما",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Einige Branchen profitieren, {1} die Techbranche.",a:["namentlich"],opts:["tilgen","namentlich","da","zum Ausdruck bringen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"بعض القطاعات تربح، وتحديداً قطاع التقنية."}
       ]}
   ]};
 

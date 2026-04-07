@@ -25,14 +25,14 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
         {type:"mc",q:"Du hast seit einer Woche starke Kopfschmerzen. Sie werden schlimmer. Wohin gehst du?",opts:["In die Apotheke","Zum Arzt","Ins Krankenhaus","In den Supermarkt"],ans:"Zum Arzt",hint:"أسبوع من الألم المتزايد يحتاج أكثر من نصيحة الصيدلي."},
         {type:"drag_fill",s:"Ich habe eine {1} und habe {2}. Es ist nicht so {3}.",blanks:{"1":"Grippe","2":"Husten","3":"schlimm"},pool:["Grippe","Husten","schlimm","Apotheke","nervös","Schmerz"],hint:"عندي إنفلونزا وسعال. ليس بهذا السوء.",sSrc:"عندي إنفلونزا وسعال. ليس بهذا السوء."},
         {type:"match",pairs:[
-            {trg:"die Apotheke",pos:"noun",gender:"f",src:"the pharmacy"},
-            {trg:"die Grippe",pos:"noun",gender:"f",src:"the flu"},
-            {trg:"der Schmerz",pos:"noun",gender:"m",src:"the pain"},
-            {trg:"husten",pos:"verb",gender:null,src:"to cough"},
-            {trg:"die Gesundheit",pos:"noun",gender:"f",src:"health"},
-            {trg:"das Krankenhaus",pos:"noun",gender:"n",src:"the hospital"},
-            {trg:"nervös",pos:"adj",gender:null,src:"nervous"},
-            {trg:"schlimm",pos:"adj",gender:null,src:"bad, severe"}
+            {trg:"die Apotheke",pos:"noun",gender:"f",src:"الصيدلية"},
+            {trg:"die Grippe",pos:"noun",gender:"f",src:"الإنفلونزا"},
+            {trg:"der Schmerz",pos:"noun",gender:"m",src:"الألم"},
+            {trg:"husten",pos:"verb",gender:null,src:"يسعل"},
+            {trg:"die Gesundheit",pos:"noun",gender:"f",src:"الصحة"},
+            {trg:"das Krankenhaus",pos:"noun",gender:"n",src:"المستشفى"},
+            {trg:"nervös",pos:"adj",gender:null,src:"متوتر"},
+            {trg:"schlimm",pos:"adj",gender:null,src:"سيئ، شديد"}
           ]},
         {type:"mc",q:"Was passiert in der Geschichte? Verumius wacht auf und ...",opts:[
             "Er geht ins Krankenhaus mit dem Krankenwagen",
@@ -48,7 +48,7 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
         {type:"teach",trg:"der Körper",pos:"noun",gender:"m",src:"الجسم",note:"اسم مذكر. مرتبط بالإنجليزية 'corpse' و'corps'.",example:"A: Geht es Ihnen gut?\nB: Nein, mein ganzer Körper tut weh.\nA: Oh nein. Was haben Sie gemacht?\nB: Ich war gestern im Fitnessstudio.",exampleSrc:"أ: هل أنت بخير؟\nب: لا، جسمي كله يؤلمني.\nأ: يا إلهي. ماذا فعلت؟\nب: كنت في صالة الرياضة أمس.",funFact:"Körper تأتي من اللاتينية 'corpus'. نفس الجذر أعطانا 'corporation' بالإنجليزية، أي 'جسم' من الناس يعملون معاً."},
         {type:"teach",trg:"der Hals",pos:"noun",gender:"m",src:"الحلق / الرقبة",note:"اسم مذكر. تشمل الحلق والرقبة معاً في الألمانية.",example:"A: Was fehlt Ihnen?\nB: Mir tut der Hals weh.\nA: Seit wann?\nB: Seit zwei Tagen. Ich kann kaum schlucken.",exampleSrc:"أ: ما الأمر؟\nب: حلقي يؤلمني.\nأ: منذ متى؟\nب: منذ يومين. بالكاد أستطيع البلع.",funFact:"يقول الألمان 'Hals- und Beinbruch!' (اكسر رقبتك وساقك) لتمني حظ سعيد. تأتي من تعبير يديشي يعني 'النجاح والبركة'."},
         {type:"teach",trg:"der Magen",pos:"noun",gender:"m",src:"المعدة",note:"اسم مذكر. يُستخدم للعضو وليس لمنطقة البطن (تلك 'der Bauch').",example:"A: Möchten Sie etwas essen?\nB: Nein danke, mein Magen tut weh.\nA: Haben Sie etwas Schlechtes gegessen?\nB: Vielleicht. Das Sushi gestern war komisch.",exampleSrc:"أ: هل تريد أن تأكل شيئاً؟\nب: لا شكراً، معدتي تؤلمني.\nأ: هل أكلت شيئاً فاسداً؟\nب: ربما. السوشي أمس كان غريباً.",funFact:"'Magengrummeln' هي الكلمة الألمانية لقرقرة المعدة. يحب الألمان الأسماء المركبة للأصوات الجسدية الدقيقة."},
-        {type:"mc",q:"Welches Wort bedeutet 'throat'?",opts:["der Magen","der Körper","der Schmerz","der Hals"],ans:"der Hals",hint:"هذا العضو يربط رأسك بكتفيك ويساعدك على البلع."},
+        {type:"mc",q:"أي كلمة تعني 'الحلق'؟",opts:["der Magen","der Körper","der Schmerz","der Hals"],ans:"der Hals",hint:"هذا العضو يربط رأسك بكتفيك ويساعدك على البلع."},
         {type:"teach",trg:"das Ohr",pos:"noun",gender:"n",src:"الأذن",note:"اسم محايد (لا مذكر ولا مؤنث). الجمع: die Ohren. من أعضاء الجسم القليلة التي يتغير شكلها في الجمع.",example:"A: Mein Ohr tut so weh!\nB: Gehen Sie zum Arzt. Das ist nicht gut.",exampleSrc:"أ: أذني تؤلمني جداً!\nب: اذهب إلى الطبيب. هذا ليس جيداً.",funFact:"'Ohrwurm' (دودة الأذن) هي الكلمة الألمانية للأغنية العالقة في رأسك. استعارت الإنجليزية هذه الكلمة مباشرة من الألمانية!"},
         {type:"teach",trg:"der Rücken",pos:"noun",gender:"m",src:"الظهر",note:"اسم مذكر. شكوى شائعة جداً. 'Rückenschmerzen' تعني ألم الظهر.",example:"A: Können Sie mir helfen? Mein Rücken tut weh.\nB: Sitzen Sie viel am Schreibtisch?\nA: Ja, den ganzen Tag.\nB: Ich empfehle Ihnen diese Creme.",exampleSrc:"أ: هل يمكنك مساعدتي؟ ظهري يؤلمني.\nب: هل تجلس كثيراً أمام المكتب؟\nأ: نعم، طوال اليوم.\nب: أنصحك بهذا الكريم.",funFact:"ألم الظهر (Rückenschmerzen) هو السبب الأول لزيارة الألمان للطبيب. لدى ألمانيا حتى 'Rückenschule' (مدرسة الظهر) خاصة للوقاية."},
         {type:"teach",trg:"der Zahn",pos:"noun",gender:"m",src:"السنّ",note:"اسم مذكر. الجمع: die Zähne. لاحظ تغير الحرف المتحرك في الجمع!",example:"A: Au! Mein Zahn tut weh!\nB: Welcher Zahn?\nA: Hier hinten. Seit drei Tagen.\nB: Sie brauchen einen Zahnarzt, keine Apotheke.",exampleSrc:"أ: آه! سني يؤلمني!\nب: أي سن؟\nأ: هنا في الخلف. منذ ثلاثة أيام.\nب: أنت بحاجة لطبيب أسنان، لا صيدلية.",funFact:"الكلمة الألمانية لطبيب الأسنان هي 'Zahnarzt'، حرفياً 'طبيب الأسنان'. الألمان مشهورون بعنايتهم بالأسنان. يحصل الأطفال على 'Zahnfee' (جنية الأسنان) تماماً مثل التقاليد الإنجليزية."},
@@ -68,16 +68,16 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
         {type:"fb",s:"Der Arzt gibt Verumius ein {1} für die Apotheke.",a:["Rezept"],opts:["Rezept","Medikament","Tablette","Creme"],hint:"ورقة من الطبيب يحتاج الصيدلاني رؤيتها.",sSrc:"يعطي الطبيب فيروميوس وصفة طبية للصيدلية."},
         {type:"drag_fill",s:"Mir {1} der Rücken {2}. Ich brauche eine Creme.",blanks:{"1":"tut","2":"weh"},pool:["tut","weh","tun","ist","gut","hat"],hint:"عضو الجسم المفرد يستخدم صيغة الفعل المفرد. كلمة الألم تأتي في النهاية.",sSrc:"ظهري يؤلمني. أحتاج كريماً."},
         {type:"match",pairs:[
-            {trg:"der Körper",pos:"noun",gender:"m",src:"body"},
-            {trg:"der Hals",pos:"noun",gender:"m",src:"throat/neck"},
-            {trg:"der Magen",pos:"noun",gender:"m",src:"stomach"},
-            {trg:"das Ohr",pos:"noun",gender:"n",src:"ear"},
-            {trg:"der Rücken",pos:"noun",gender:"m",src:"back"},
-            {trg:"der Zahn",pos:"noun",gender:"m",src:"tooth"},
-            {trg:"die Tablette",pos:"noun",gender:"f",src:"tablet/pill"},
-            {trg:"das Medikament",pos:"noun",gender:"n",src:"medication"},
-            {trg:"das Rezept",pos:"noun",gender:"n",src:"prescription"},
-            {trg:"die Creme",pos:"noun",gender:"f",src:"cream"}
+            {trg:"der Körper",pos:"noun",gender:"m",src:"الجسم"},
+            {trg:"der Hals",pos:"noun",gender:"m",src:"الحلق / الرقبة"},
+            {trg:"der Magen",pos:"noun",gender:"m",src:"المعدة"},
+            {trg:"das Ohr",pos:"noun",gender:"n",src:"الأذن"},
+            {trg:"der Rücken",pos:"noun",gender:"m",src:"الظهر"},
+            {trg:"der Zahn",pos:"noun",gender:"m",src:"السنّ"},
+            {trg:"die Tablette",pos:"noun",gender:"f",src:"القرص / الحبة"},
+            {trg:"das Medikament",pos:"noun",gender:"n",src:"الدواء"},
+            {trg:"das Rezept",pos:"noun",gender:"n",src:"الوصفة الطبية"},
+            {trg:"die Creme",pos:"noun",gender:"f",src:"الكريم"}
           ]},
         {type:"mc",q:"Verumius hat Rückenschmerzen und geht in die Apotheke. Was braucht er?",opts:["eine Creme","einen Zahn","ein Ohr","einen Hals"],ans:"eine Creme",hint:"لألم الظهر، تضع شيئاً على الجلد."},
         {type:"story",speaker:"verumius",mood:"proud",art:"de-ber-apartment-mirror",trg:"Zu Hause steht Verumius vor dem Spiegel. Er zeigt auf seinen Kopf: 'Kopf.' Auf seinen Hals: 'Hals.' Auf seinen Rücken: 'Rücken.' Er kennt jetzt sechs Körperteile auf Deutsch. Dann hustet er wieder.",src:"في البيت، يقف فيروميوس أمام المرآة. يشير إلى رأسه: 'Kopf.' إلى حلقه: 'Hals.' إلى ظهره: 'Rücken.' يعرف الآن ستة أعضاء جسم بالألمانية. ثم يسعل مجدداً."}
@@ -103,11 +103,11 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
         {type:"teach",trg:"sich fühlen",pos:"verb",gender:null,src:"يشعر (فعل انعكاسي)",note:"فعل انعكاسي: ich fühle mich, du fühlst dich, er fühlt sich.",example:"A: Wie fühlen Sie sich?\nB: Ich fühle mich nicht gut.\nA: Seit wann?\nB: Seit drei Tagen.",exampleSrc:"أ: كيف تشعر؟\nب: لا أشعر بأنني بخير.\nأ: منذ متى؟\nب: منذ ثلاثة أيام.",funFact:"تستخدم الألمانية 'sich' (نفسي/نفسك) حيث تقول الإنجليزية فقط 'feel'. أنت لا تشعر بالسوء فحسب، بل تشعر نفسك بالسوء. 'Ich fühle mich krank' تعني أشعر نفسي مريضاً. كثير من أفعال الجسم والمشاعر انعكاسية في الألمانية."},
         {type:"teach",trg:"fallen",pos:"verb",gender:null,src:"يسقط",note:"فعل شاذ: ich falle, du fällst, er fällt. تغيّر في الجذع من a إلى ä.",example:"A: Ich bin gestern gefallen.\nB: Oh nein! Wo bist du gefallen?\nA: Auf der Treppe.\nB: Hast du dich verletzt?",exampleSrc:"أ: سقطت أمس.\nب: يا إلهي! أين سقطت؟\nأ: على الدرج.\nب: هل أصبت بجروح؟",funFact:"'fallen' يستخدم 'sein' في زمن Perfekt (ich BIN gefallen) وليس 'haben'. لماذا؟ لأنه فعل حركة. أفعال الحركة مثل gehen وkommen وfallen وfahren تستخدم دائماً 'sein'. ستتعلم هذا التمييز قريباً."},
         {type:"teach",trg:"verletzen",src:"يُصيب / يجرح",pos:"verb",gender:null,note:"فعل منتظم غير منفصل. Ich verletze, er verletzt. انعكاسي: sich verletzen = يجرح نفسه.",example:"A: Hast du dich verletzt?\nB: Ja, ich habe mich beim Sport verletzt.\nA: Ist es schlimm?\nB: Nein, nur ein kleiner Schmerz.",exampleSrc:"أ: هل جرحت نفسك؟\nب: نعم، أصبت بجرح أثناء الرياضة.\nأ: هل هو سيئ؟\nب: لا، مجرد ألم بسيط.",funFact:"البادئة 'ver-' غالباً تشير إلى خطأ ما: verlieren (يخسر)، vergessen (ينسى)، verletzen (يجرح). بمجرد ملاحظة النمط، تصبح عشرات الأفعال أسهل في التذكر."},
-        {type:"mc",q:"'Die Krankenkasse' literally means what?",opts:["sick register / health fund","the disease card","the doctor ticket","the hospital bill"],ans:"sick register / health fund",hint:"Krank = مريض. Kasse = صندوق. اجمعهما معاً."},
+        {type:"mc",q:"ماذا تعني 'Die Krankenkasse' حرفياً؟",opts:["صندوق المرض / التأمين الصحي","بطاقة المرض","تذكرة الطبيب","فاتورة المستشفى"],ans:"صندوق المرض / التأمين الصحي",hint:"Krank = مريض. Kasse = صندوق. اجمعهما معاً."},
         {type:"match",pairs:[
-            {trg:"der Besuch",pos:"noun",gender:"m",src:"the visit"},
-            {trg:"die Krankheit",pos:"noun",gender:"f",src:"the illness"},
-            {trg:"untersuchen",pos:"verb",gender:null,src:"to examine"},
+            {trg:"der Besuch",pos:"noun",gender:"m",src:"الزيارة"},
+            {trg:"die Krankheit",pos:"noun",gender:"f",src:"المرض"},
+            {trg:"untersuchen",pos:"verb",gender:null,src:"يفحص"},
             {trg:"verletzen",src:"يجرح"}
           ]}
       ]},
@@ -117,49 +117,49 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
         {type:"tip",title:"Perfekt with haben: Talking About the Past",text:"في الألمانية زمن ماضٍ يُسمى Perfekt. يتكون من جزأين: صيغة مصرّفة من haben، ثم Partizip II في نهاية الجملة.\n\nالأفعال المنتظمة تبني Partizip II بإضافة ge- في البداية و-t في النهاية:\n- machen: gemacht\n- kaufen: gekauft\n- hören: gehört\n\nالأفعال الشاذة تستخدم ge- مع -en، غالباً مع تغيّر حرف العلة:\n- nehmen: genommen\n- sprechen: gesprochen\n- trinken: getrunken\n\nأمثلة:\nIch habe Medikamente gekauft. (اشتريت دواءً.)\nEr hat den Hals untersucht. (فحص الحلق.)\n\nPartizip II يذهب دائماً إلى نهاية الجملة.",deepDive:"الأفعال ذات البادئات غير المنفصلة (be-, er-, ver-, ent-, unter-) لا تأخذ ge-:\nbesuchen → besucht, untersuchen → untersucht, verstehen → verstanden.\n\nالأفعال ذات البادئات المنفصلة تضع ge- في الوسط:\neinkaufen → eingekauft, aufmachen → aufgemacht.\n\nبعض الأفعال تستخدم 'sein' بدل 'haben' لأفعال الحركة وتغيّر الحالة مثل gehen وfallen وkommen. ستتعلمها في الدرس القادم."},
         {type:"verb_table",title:"Perfekt with haben",groups:[
             {label:"haben conjugation",rows:[
-                {pronoun:"ich",form:"habe",src:"I have"},
-                {pronoun:"du",form:"hast",src:"you have"},
-                {pronoun:"er/sie/es",form:"hat",src:"he/she/it has"},
-                {pronoun:"wir",form:"haben",src:"we have"},
-                {pronoun:"ihr",form:"habt",src:"you all have"},
-                {pronoun:"sie/Sie",form:"haben",src:"they/you formal have"}
+                {pronoun:"ich",form:"habe",src:"لديّ"},
+                {pronoun:"du",form:"hast",src:"لديك"},
+                {pronoun:"er/sie/es",form:"hat",src:"لديه / لديها"},
+                {pronoun:"wir",form:"haben",src:"لدينا"},
+                {pronoun:"ihr",form:"habt",src:"لديكم"},
+                {pronoun:"sie/Sie",form:"haben",src:"لديهم / لديكم (رسمي)"}
               ]},
             {label:"Partizip II examples",rows:[
-                {pronoun:"machen",form:"gemacht",src:"made/done"},
-                {pronoun:"kaufen",form:"gekauft",src:"bought"},
-                {pronoun:"hören",form:"gehört",src:"heard"},
-                {pronoun:"nehmen",form:"genommen",src:"taken"},
-                {pronoun:"sprechen",form:"gesprochen",src:"spoken"},
-                {pronoun:"trinken",form:"getrunken",src:"drunk"}
+                {pronoun:"machen",form:"gemacht",src:"صنع / فعل"},
+                {pronoun:"kaufen",form:"gekauft",src:"اشترى"},
+                {pronoun:"hören",form:"gehört",src:"سمع"},
+                {pronoun:"nehmen",form:"genommen",src:"أخذ"},
+                {pronoun:"sprechen",form:"gesprochen",src:"تحدّث"},
+                {pronoun:"trinken",form:"getrunken",src:"شرب"}
               ]}
           ],note:"منتظم: ge- + جذع + -t. شاذ: ge- + جذع متغيّر + -en. يذهب Partizip II إلى النهاية."},
         {type:"verb_table",title:"Irregular Partizip II Forms",label:"ge + changed stem + en",groups:[
             {label:"Key strong verbs",rows:[
-                {pronoun:"schreiben",form:"geschrieben",src:"written"},
-                {pronoun:"trinken",form:"getrunken",src:"drunk"},
-                {pronoun:"essen",form:"gegessen",src:"eaten"},
-                {pronoun:"lesen",form:"gelesen",src:"read"},
-                {pronoun:"nehmen",form:"genommen",src:"taken"},
-                {pronoun:"schlafen",form:"geschlafen",src:"slept"}
+                {pronoun:"schreiben",form:"geschrieben",src:"كتب"},
+                {pronoun:"trinken",form:"getrunken",src:"شرب"},
+                {pronoun:"essen",form:"gegessen",src:"أكل"},
+                {pronoun:"lesen",form:"gelesen",src:"قرأ"},
+                {pronoun:"nehmen",form:"genommen",src:"أخذ"},
+                {pronoun:"schlafen",form:"geschlafen",src:"نام"}
               ]}
           ],note:"صيغ Partizip II هذه تنتهي بـ -en وليس -t.\nحرف العلة في الجذع يتغير. احفظها كمفردات."},
         {type:"verb_table",title:"Verbs Without ge- in Partizip II",label:"No ge- for these groups",groups:[
             {label:"-ieren verbs (no ge-)",rows:[
-                {pronoun:"telefonieren",form:"telefoniert",src:"telephoned"},
-                {pronoun:"studieren",form:"studiert",src:"studied"},
-                {pronoun:"fotografieren",form:"fotografiert",src:"photographed"},
-                {pronoun:"reparieren",form:"repariert",src:"repaired"}
+                {pronoun:"telefonieren",form:"telefoniert",src:"هاتف"},
+                {pronoun:"studieren",form:"studiert",src:"درس"},
+                {pronoun:"fotografieren",form:"fotografiert",src:"صوّر"},
+                {pronoun:"reparieren",form:"repariert",src:"أصلح"}
               ]},
             {label:"Inseparable prefix verbs (no ge-)",rows:[
-                {pronoun:"besuchen",form:"besucht",src:"visited"},
-                {pronoun:"erzählen",form:"erzählt",src:"told"},
-                {pronoun:"verstehen",form:"verstanden",src:"understood"},
-                {pronoun:"erklären",form:"erklärt",src:"explained"}
+                {pronoun:"besuchen",form:"besucht",src:"زار"},
+                {pronoun:"erzählen",form:"erzählt",src:"روى"},
+                {pronoun:"verstehen",form:"verstanden",src:"فهم"},
+                {pronoun:"erklären",form:"erklärt",src:"شرح"}
               ]}
           ],note:"لا تستخدم أي من المجموعتين ge-.\nالبادئات غير المنفصلة: be-, er-, ver-, ent-, ge-, zer-."},
-        {type:"mc",q:"'Ich habe Tabletten gekauft.' What does this sentence mean?",opts:["I am buying tablets.","I bought tablets.","I will buy tablets.","I want to buy tablets."],ans:"I bought tablets.",hint:"الجملة تستخدم haben + Partizip II، وهو يصف حدثاً مكتملاً."},
+        {type:"mc",q:"ماذا تعني جملة 'Ich habe Tabletten gekauft.'؟",opts:["أنا أشتري أقراصاً.","اشتريتُ أقراصاً.","سأشتري أقراصاً.","أريد شراء أقراص."],ans:"اشتريتُ أقراصاً.",hint:"الجملة تستخدم haben + Partizip II، وهو يصف حدثاً مكتملاً."},
         {type:"fb",s:"Er hat den Arzt {1}.",a:["besucht"],opts:["besucht","gebesucht","besuchen","besuchte"],hint:"الأفعال ذات البادئة غير المنفصلة تشكّل Partizip II بدون ge-.",sSrc:"زار الطبيب."},
-        {type:"mc",q:"Which is the correct Partizip II of 'machen'?",opts:["gemachen","gegemacht","macht","gemacht"],ans:"gemacht",hint:"الأفعال المنتظمة تتبع النمط ge- + جذع + -t."},
+        {type:"mc",q:"ما هو Partizip II الصحيح لـ 'machen'؟",opts:["gemachen","gegemacht","macht","gemacht"],ans:"gemacht",hint:"الأفعال المنتظمة تتبع النمط ge- + جذع + -t."},
         {type:"tip",title:"The Dative Case: Giving, Showing, Telling",text:"في الألمانية أربع حالات إعرابية. تعرف Nominativ (الفاعل) وAkkusativ (المفعول به المباشر). الآن: Dativ.\n\nDativ يجيب على: لمن؟\n\nأدوات التعريف تتغير في حالة Dativ:\n- المذكر: der يصبح dem\n- المؤنث: die يصبح der\n- المحايد: das يصبح dem\n- الجمع: die يصبح den، والاسم يُضاف له -n\n\nأمثلة:\nDer Arzt gibt dem Mann ein Rezept. (الطبيب يعطي الرجل وصفة طبية.)\nIch sage der Frau meinen Namen. (أقول للمرأة اسمي.)\nEr hilft dem Kind. (يساعد الطفل.)",deepDive:"أفعال شائعة تأخذ دائماً حالة Dativ:\nhelfen (يساعد): Ich helfe dem Arzt.\ngeben (يعطي): Er gibt dem Patienten Tabletten.\nzeigen (يُري): Sie zeigt dem Kind das Buch.\nsagen (يقول لـ): Ich sage der Frau die Adresse.\ngefallen (يُعجب): Das gefällt dem Mann.\n\nأيضاً بعد حروف الجر: mit (مع)، bei (عند)، von (من)، zu (إلى)، nach (بعد)، seit (منذ)، aus (من داخل)."},
         {type:"verb_table",title:"Dative Article Changes",label:"Definite article: der/die/das to dative",groups:[
             {label:"Nominative (for comparison)",rows:[
@@ -181,17 +181,17 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
                 {pronoun:"einem/einer/einem",form:"einem Freund / einer Freundin / einem Kind",src:""}
               ]}
           ],note:"المذكر والمحايد: einem.\nالمؤنث: einer.\nموازٍ لنمط أداة التعريف.",deepDive:{title:"Kein in the dative",text:"Kein (لا/ليس) يتبع نفس نمط ein:\nkeinem Freund, keiner Freundin, keinem Kind, keinen Kindern.\n\nبمجرد تعلّم einem/einer/einem، تعرف تلقائياً keinem/keiner/keinem أيضاً."}},
-        {type:"mc",q:"'Der Arzt gibt ___ Mann ein Rezept.' Which article fills the blank?",opts:["dem","den","der","das"],ans:"dem",hint:"الرجل يستلم الوصفة. هذه حالة 'لمن' لاسم مذكر."},
+        {type:"mc",q:"'Der Arzt gibt ___ Mann ein Rezept.' أي أداة تعريف تملأ الفراغ؟",opts:["dem","den","der","das"],ans:"dem",hint:"الرجل يستلم الوصفة. هذه حالة 'لمن' لاسم مذكر."},
         {type:"fb",s:"Ich erkläre {1} Ärztin die Krankheit.",a:["der"],opts:["der","die","dem","den"],hint:"Ärztin مؤنث. فكّر ماذا يصبح 'die' في حالة Dativ.",sSrc:"أشرح المرض للطبيبة."},
-        {type:"mc",q:"Verumius says: 'Ich habe endlich die Sprechstunde gefunden!' What does 'endlich' express?",opts:["All of a sudden","Finally, relieved","With deep regret","Probably not yet"],ans:"Finally, relieved",hint:"هذه الكلمة تأتي من 'Ende' وتعبّر عن أن شيئاً استغرق وقتاً طويلاً."},
+        {type:"mc",q:"يقول فيروميوس: 'Ich habe endlich die Sprechstunde gefunden!' ماذا تعبّر 'endlich'؟",opts:["فجأة","أخيراً، بارتياح","بندم شديد","ربما ليس بعد"],ans:"أخيراً، بارتياح",hint:"هذه الكلمة تأتي من 'Ende' وتعبّر عن أن شيئاً استغرق وقتاً طويلاً."},
         {type:"fb",s:"Wie {1} Sie sich heute?",a:["fühlen"],opts:["fühlen","fallen","finden","fahren"],hint:"أي فعل انعكاسي يسأل عن الحالة الجسدية.",sSrc:"كيف تشعر اليوم؟"},
         {type:"match",pairs:[
-            {trg:"der Besuch",pos:"noun",gender:"m",src:"the visit"},
-            {trg:"die Krankenkasse",pos:"noun",gender:"f",src:"health insurance"},
-            {trg:"untersuchen",pos:"verb",gender:null,src:"to examine"},
+            {trg:"der Besuch",pos:"noun",gender:"m",src:"الزيارة"},
+            {trg:"die Krankenkasse",pos:"noun",gender:"f",src:"التأمين الصحي"},
+            {trg:"untersuchen",pos:"verb",gender:null,src:"يفحص"},
             {trg:"sich fühlen",src:"يشعر"},
-            {trg:"endlich",pos:"adv",gender:null,src:"finally"},
-            {trg:"die Krankheit",pos:"noun",gender:"f",src:"illness"}
+            {trg:"endlich",pos:"adv",gender:null,src:"أخيراً"},
+            {trg:"die Krankheit",pos:"noun",gender:"f",src:"المرض"}
           ]},
         {type:"drag_fill",s:"Verumius {1} dem Arzt die Krankenkassenkarte {2}.",blanks:{"1":"hat","2":"gegeben"},pool:["hat","gegeben","ist","geben","dem","den"],hint:"الماضي مع haben: haben مصرّفة + Partizip II في النهاية.",sSrc:"أعطى فيروميوس بطاقة التأمين للطبيب."}
       ]},
@@ -206,88 +206,88 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
         {type:"teach",trg:"weil",pos:"conj",gender:null,src:"لأنّ",note:"أيضاً ترسل الفعل إلى النهاية.\nweil + فاعل + ... + فعل (أخيراً).",example:"A: Warum bist du beim Arzt?\nB: Weil ich starke Kopfschmerzen habe.\nA: Seit wann?\nB: Seit drei Tagen. Es wird nicht besser.",exampleSrc:"أ: لماذا أنت عند الطبيب؟\nب: لأن عندي صداعاً شديداً.\nأ: منذ متى؟\nب: منذ ثلاثة أيام. لا يتحسن.",funFact:"'weil' و'denn' كلاهما يعني 'لأن'، لكن 'weil' ترسل الفعل إلى النهاية بينما 'denn' تحافظ على ترتيب الكلمات العادي. كلمتان بنفس المعنى وقواعد مختلفة."},
         {type:"teach",trg:"wenn",pos:"conj",gender:null,src:"عندما / إذا (متكرر أو افتراضي)",note:"للأحداث المتكررة أو الشروط.\nwenn + فاعل + ... + فعل (أخيراً).",example:"A: Wann nimmst du die Tabletten?\nB: Wenn ich Kopfschmerzen habe.\nA: Und wenn du keine hast?\nB: Dann bin ich froh!",exampleSrc:"أ: متى تأخذ الأقراص؟\nب: عندما يكون عندي صداع.\nأ: وعندما لا يكون؟\nب: عندها أكون سعيداً!",funFact:"'wenn' تؤدي دوراً مزدوجاً: 'عندما' للأحداث المتكررة و'إذا' للشروط. 'Wenn es regnet, bleibe ich zu Hause' يمكن أن تعني 'عندما تمطر' و'إذا أمطرت'. السياق يحدد."},
         {type:"teach",trg:"als",pos:"conj",gender:null,src:"عندما (ماضٍ، حدث واحد)",note:"فقط للحظة واحدة محددة في الماضي.\nals + فاعل + ... + فعل (أخيراً).",example:"A: Was ist passiert?\nB: Als ich beim Arzt war, hat er mich untersucht.\nA: Und was hat er gefunden?\nB: Er hat gesagt, es ist nur eine Erkältung.",exampleSrc:"أ: ماذا حدث؟\nب: عندما كنت عند الطبيب، فحصني.\nأ: وماذا وجد؟\nب: قال إنه مجرد زكام.",funFact:"التمييز بين wenn/als يُربك كل متعلم. القاعدة البسيطة: لحظة ماضية واحدة محددة = als. كل شيء آخر (ماضٍ متكرر، حاضر، مستقبل، افتراضي) = wenn. 'Als ich Kind war' = عندما كنت طفلاً (حقبة واحدة)."},
-        {type:"mc",q:"Verumius says: 'Ich bin müde, ___ ich nicht gut geschlafen habe.' Which conjunction means 'because'?",opts:["dass","weil","wenn","als"],ans:"weil",hint:"هو يعطي سبباً لتعبه."},
+        {type:"mc",q:"يقول فيروميوس: 'Ich bin müde, ___ ich nicht gut geschlafen habe.' أي أداة ربط تعني 'لأن'؟",opts:["dass","weil","wenn","als"],ans:"weil",hint:"هو يعطي سبباً لتعبه."},
         {type:"fb",s:"Er hat gesagt, {1} ich mehr Wasser trinken soll.",a:["dass"],opts:["dass","weil","wenn","als"],hint:"الطبيب أخبر بشيء. أي أداة ربط تقدّم الكلام المنقول.",sSrc:"قال إنه يجب أن أشرب المزيد من الماء."},
-        {type:"mc",q:"'Als ich beim Arzt war, hat er mich untersucht.' Why is 'als' correct here?",opts:["It describes a repeated habit","It introduces a condition","It gives a reason","It describes a single past event"],ans:"It describes a single past event",hint:"زيارة الطبيب حدثت مرة واحدة في وقت محدد سابق."},
+        {type:"mc",q:"'Als ich beim Arzt war, hat er mich untersucht.' لماذا 'als' صحيحة هنا؟",opts:["تصف عادة متكررة","تقدّم شرطاً","تعطي سبباً","تصف حدثاً ماضياً واحداً"],ans:"تصف حدثاً ماضياً واحداً",hint:"زيارة الطبيب حدثت مرة واحدة في وقت محدد سابق."},
         {type:"verb_table",title:"Modal Verbs: Präteritum (Simple Past)",groups:[
             {label:"können (could)",rows:[
-                {pronoun:"ich",form:"konnte",src:"I could"},
-                {pronoun:"du",form:"konntest",src:"you could"},
-                {pronoun:"er/sie/es",form:"konnte",src:"he/she/it could"},
-                {pronoun:"wir",form:"konnten",src:"we could"},
-                {pronoun:"ihr",form:"konntet",src:"you all could"},
-                {pronoun:"sie/Sie",form:"konnten",src:"they/you (formal) could"}
+                {pronoun:"ich",form:"konnte",src:"كنت أستطيع"},
+                {pronoun:"du",form:"konntest",src:"كنت تستطيع"},
+                {pronoun:"er/sie/es",form:"konnte",src:"كان يستطيع"},
+                {pronoun:"wir",form:"konnten",src:"كنا نستطيع"},
+                {pronoun:"ihr",form:"konntet",src:"كنتم تستطيعون"},
+                {pronoun:"sie/Sie",form:"konnten",src:"كانوا يستطيعون"}
               ]},
             {label:"müssen (had to)",rows:[
-                {pronoun:"ich",form:"musste",src:"I had to"},
-                {pronoun:"du",form:"musstest",src:"you had to"},
-                {pronoun:"er/sie/es",form:"musste",src:"he/she/it had to"},
-                {pronoun:"wir",form:"mussten",src:"we had to"},
-                {pronoun:"ihr",form:"musstet",src:"you all had to"},
-                {pronoun:"sie/Sie",form:"mussten",src:"they/you (formal) had to"}
+                {pronoun:"ich",form:"musste",src:"كان عليّ"},
+                {pronoun:"du",form:"musstest",src:"كان عليك"},
+                {pronoun:"er/sie/es",form:"musste",src:"كان عليه / عليها"},
+                {pronoun:"wir",form:"mussten",src:"كان علينا"},
+                {pronoun:"ihr",form:"musstet",src:"كان عليكم"},
+                {pronoun:"sie/Sie",form:"mussten",src:"كان عليهم / عليكم (رسمي)"}
               ]},
             {label:"wollen (wanted to)",rows:[
-                {pronoun:"ich",form:"wollte",src:"I wanted to"},
-                {pronoun:"du",form:"wolltest",src:"you wanted to"},
-                {pronoun:"er/sie/es",form:"wollte",src:"he/she/it wanted to"},
-                {pronoun:"wir",form:"wollten",src:"we wanted to"},
-                {pronoun:"ihr",form:"wolltet",src:"you all wanted to"},
-                {pronoun:"sie/Sie",form:"wollten",src:"they/you (formal) wanted to"}
+                {pronoun:"ich",form:"wollte",src:"أردتُ"},
+                {pronoun:"du",form:"wolltest",src:"أردتَ"},
+                {pronoun:"er/sie/es",form:"wollte",src:"أراد / أرادت"},
+                {pronoun:"wir",form:"wollten",src:"أردنا"},
+                {pronoun:"ihr",form:"wolltet",src:"أردتم"},
+                {pronoun:"sie/Sie",form:"wollten",src:"أرادوا / أردتم (رسمي)"}
               ]},
             {label:"dürfen (was allowed to)",rows:[
-                {pronoun:"ich",form:"durfte",src:"I was allowed to"},
-                {pronoun:"du",form:"durftest",src:"you were allowed to"},
-                {pronoun:"er/sie/es",form:"durfte",src:"he/she/it was allowed to"},
-                {pronoun:"wir",form:"durften",src:"we were allowed to"},
-                {pronoun:"ihr",form:"durftet",src:"you all were allowed to"},
-                {pronoun:"sie/Sie",form:"durften",src:"they/you (formal) were allowed to"}
+                {pronoun:"ich",form:"durfte",src:"كان مسموحاً لي"},
+                {pronoun:"du",form:"durftest",src:"كان مسموحاً لك"},
+                {pronoun:"er/sie/es",form:"durfte",src:"كان مسموحاً له / لها"},
+                {pronoun:"wir",form:"durften",src:"كان مسموحاً لنا"},
+                {pronoun:"ihr",form:"durftet",src:"كان مسموحاً لكم"},
+                {pronoun:"sie/Sie",form:"durften",src:"كان مسموحاً لهم / لكم (رسمي)"}
               ]},
             {label:"sollen (was supposed to)",rows:[
-                {pronoun:"ich",form:"sollte",src:"I was supposed to"},
-                {pronoun:"du",form:"solltest",src:"you were supposed to"},
-                {pronoun:"er/sie/es",form:"sollte",src:"he/she/it was supposed to"},
-                {pronoun:"wir",form:"sollten",src:"we were supposed to"},
-                {pronoun:"ihr",form:"solltet",src:"you all were supposed to"},
-                {pronoun:"sie/Sie",form:"sollten",src:"they/you (formal) were supposed to"}
+                {pronoun:"ich",form:"sollte",src:"كان ينبغي عليّ"},
+                {pronoun:"du",form:"solltest",src:"كان ينبغي عليك"},
+                {pronoun:"er/sie/es",form:"sollte",src:"كان ينبغي عليه / عليها"},
+                {pronoun:"wir",form:"sollten",src:"كان ينبغي علينا"},
+                {pronoun:"ihr",form:"solltet",src:"كان ينبغي عليكم"},
+                {pronoun:"sie/Sie",form:"sollten",src:"كان ينبغي عليهم / عليكم (رسمي)"}
               ]}
           ],note:"النمط: احذف الأملاوت وأضف -te. konnte/musste/wollte/durfte/sollte. صيغة ich وer/sie/es متطابقة (بدون -st أو -t)."},
         {type:"tip",title:"Why Modals Prefer Präteritum",text:"في الألمانية المحكية، معظم الأفعال تستخدم Perfekt للماضي:\n'Ich habe gegessen.' (أكلت.)\n\nلكن الأفعال المساعدة تستخدم دائماً تقريباً Präteritum:\n'Ich konnte nicht schlafen.' (لم أستطع النوم.)\nوليس: 'Ich habe nicht schlafen können.'\n\nلماذا؟ Perfekt للأفعال المساعدة معقّد: مصدران في النهاية.\nPräteritum أقصر وأنظف. الألمان يفضلونه ببساطة.",deepDive:"المصطلح التقني هو Ersatzinfinitiv. عندما يكون للفعل المساعد مصدر تابع، يتطلب Perfekt بناء مصدر مزدوج: 'Ich habe schlafen können.' هذا يبدو رسمياً جداً. في الكلام اليومي، 'Ich konnte schlafen' تفوز دائماً. نفس الشيء ينطبق على werden وlassen وsehen وhören وhelfen مع المصادر."},
-        {type:"mc",q:"'Ich ___ gestern nicht schlafen.' Which Präteritum form of 'können' fits?",opts:["gekonnt","kann","könnte","konnte"],ans:"konnte",hint:"الماضي البسيط لـ 'können' مع ich. بدون أملاوت في الماضي."},
+        {type:"mc",q:"'Ich ___ gestern nicht schlafen.' أي صيغة Präteritum لـ 'können' تناسب؟",opts:["gekonnt","kann","könnte","konnte"],ans:"konnte",hint:"الماضي البسيط لـ 'können' مع ich. بدون أملاوت في الماضي."},
         {type:"fb",s:"Er {1} zum Arzt gehen, weil er krank war.",a:["musste"],opts:["musste","muss","gemusst","müsste"],hint:"الماضي البسيط لـ 'müssen' مع er. يختفي الأملاوت في الماضي.",sSrc:"كان عليه الذهاب إلى الطبيب لأنه كان مريضاً."},
-        {type:"mc",q:"'Wir ___ am Wochenende nicht arbeiten.' Which is the Präteritum of 'dürfen' for wir?",opts:["dürfen","durften","gedurft","dürften"],ans:"durften",hint:"الماضي البسيط لـ dürfen، صيغة الجمع. ينتهي بـ -ten."},
+        {type:"mc",q:"'Wir ___ am Wochenende nicht arbeiten.' ما هو Präteritum لـ 'dürfen' مع wir؟",opts:["dürfen","durften","gedurft","dürften"],ans:"durften",hint:"الماضي البسيط لـ dürfen، صيغة الجمع. ينتهي بـ -ten."},
         {type:"tip",title:"Verbs with Dative: Who Benefits?",text:"بعض الأفعال الألمانية تأخذ مفعولاً به في Dativ بدل Akkusativ. فكّر فيها كأفعال 'فائدة/تأثير'.\n\nإليك الأهم مع أمثلة:\n- helfen (يساعد): Ich helfe DIR. (أساعدك.)\n- gefallen (يُعجب): Das gefällt MIR. (يعجبني ذلك.)\n- gehören (يملك): Das gehört IHM. (ذلك ملكه.)\n- schmecken (يتذوق): Das schmeckt UNS. (طعمه جيد لنا.)\n- fehlen (يفتقد): Du fehlst MIR. (أفتقدك.)\n- wehtun (يؤلم): Der Kopf tut MIR weh. (رأسي يؤلمني.)\n\nكلها تصف شيئاً يحدث لشخص ما.",deepDive:"النمط: هذه الأفعال تصف تجربة أو فائدة موجّهة لشخص، وليس فعلاً يُنفّذ على شيء. 'helfen' لا تغيّر الشخص بل تفيده. 'gefallen' تصف تجربة شخص. الإنجليزية تخفي هذا، لكن الألمانية تميّزه بحالة Dativ: mir, dir, ihm, ihr, uns, euch, ihnen."},
         {type:"verb_table",title:"Dative Pronouns",label:"Personal pronouns in the dative case",groups:[
             {label:"Singular",rows:[
-                {pronoun:"1st sing.",form:"ich / mich / mir",src:"I / me (acc) / me (dat)"},
-                {pronoun:"2nd sing. (informal)",form:"du / dich / dir",src:"you / you (acc) / you (dat)"},
-                {pronoun:"3rd masc.",form:"er / ihn / ihm",src:"he / him (acc) / him (dat)"},
-                {pronoun:"3rd fem.",form:"sie / sie / ihr",src:"she / her (acc) / her (dat)"},
-                {pronoun:"3rd neut.",form:"es / es / ihm",src:"it / it (acc) / it (dat)"}
+                {pronoun:"1st sing.",form:"ich / mich / mir",src:"أنا / إياي / لي"},
+                {pronoun:"2nd sing. (informal)",form:"du / dich / dir",src:"أنت / إياك / لك"},
+                {pronoun:"3rd masc.",form:"er / ihn / ihm",src:"هو / إياه / له"},
+                {pronoun:"3rd fem.",form:"sie / sie / ihr",src:"هي / إياها / لها"},
+                {pronoun:"3rd neut.",form:"es / es / ihm",src:"هو/هي / إياه / له"}
               ]},
             {label:"Plural",rows:[
-                {pronoun:"1st pl.",form:"wir / uns / uns",src:"we / us (acc) / us (dat)"},
-                {pronoun:"2nd pl. (informal)",form:"ihr / euch / euch",src:"you all / you (acc) / you (dat)"},
-                {pronoun:"3rd pl. / formal",form:"sie/Sie / sie/Sie / ihnen/Ihnen",src:"they/you / them/you (acc) / them/you (dat)"}
+                {pronoun:"1st pl.",form:"wir / uns / uns",src:"نحن / إيانا / لنا"},
+                {pronoun:"2nd pl. (informal)",form:"ihr / euch / euch",src:"أنتم / إياكم / لكم"},
+                {pronoun:"3rd pl. / formal",form:"sie/Sie / sie/Sie / ihnen/Ihnen",src:"هم/حضرتك / إياهم / لهم"}
               ]}
           ],note:"الرسمي Sie في Dativ = Ihnen (بحرف كبير).\nuns وeuch متطابقتان في Akkusativ وDativ.",deepDive:{title:"A shortcut: uns and euch do double duty",text:"uns هي Akkusativ وDativ لـ wir (نحن).\neuch هي Akkusativ وDativ لـ ihr (أنتم).\n\nEr sieht uns. (يرانا، Akkusativ)\nEr hilft uns. (يساعدنا، Dativ)\n\nنفس الشكل، والسياق يوضّح الحالة."}},
-        {type:"mc",q:"'Der Arzt hilft ___.' Which pronoun completes this correctly?",opts:["mich","ich","mir","mein"],ans:"mir",hint:"helfen يأخذ مفعولاً في Dativ. ما هي صيغة Dativ لـ 'ich'؟"},
+        {type:"mc",q:"'Der Arzt hilft ___.' أي ضمير يكمل الجملة بشكل صحيح؟",opts:["mich","ich","mir","mein"],ans:"mir",hint:"helfen يأخذ مفعولاً في Dativ. ما هي صيغة Dativ لـ 'ich'؟"},
         {type:"fb",s:"Das Medikament schmeckt {1} nicht.",a:["mir"],opts:["mir","mich","ich","mein"],hint:"schmecken يأخذ Dativ. ضمير المتكلم المفرد في حالة Dativ.",sSrc:"الدواء طعمه ليس جيداً بالنسبة لي."},
         {type:"teach",trg:"dringend",pos:"adv",gender:null,src:"عاجل / بشكل عاجل",note:"تُستخدم كصفة أو ظرف.\ndringend = عاجل/بشكل عاجل.",example:"A: Ist es dringend?\nB: Ja, sehr dringend! Ich brauche sofort einen Arzt.\nA: Okay, kommen Sie mit!\nB: Danke, das ist sehr nett.",exampleSrc:"أ: هل الأمر عاجل؟\nب: نعم، عاجل جداً! أحتاج طبيباً فوراً.\nأ: حسناً، تعال معي!\nب: شكراً، هذا لطف منك.",funFact:"'dringend' تأتي من 'dringen' (يضغط/يخترق). الشيء العاجل يضغط عليك حرفياً. الإنجليزية 'urgent' من اللاتينية urgere (يضغط). نفس الاستعارة، عائلة لغوية مختلفة."},
         {type:"teach",trg:"selbst",pos:"adv",gender:null,src:"نفس / بنفسه",note:"تضيف تأكيداً: 'ich selbst' = أنا بنفسي.\nتعني أيضاً 'حتى': 'Selbst der Arzt war krank.'",example:"A: Wer hat das Rezept gelesen?\nB: Ich selbst! Es war zehn Seiten lang.\nA: Zehn Seiten? Das ist ja ein Roman!\nB: Selbst die Apothekerin hat gelacht.",exampleSrc:"أ: من قرأ الوصفة؟\nب: أنا بنفسي! كانت عشر صفحات.\nأ: عشر صفحات؟ هذه رواية!\nب: حتى الصيدلانية ضحكت.",funFact:"'selbst' في بداية الجملة تعني 'حتى'. 'Selbst Verumius hat das verstanden' = حتى فيروميوس فهم ذلك. بعد الضمير تعني 'بنفسه': 'Er hat es selbst gemacht' = فعلها بنفسه."},
         {type:"teach",trg:"dabei",pos:"adv",gender:null,src:"معه / في نفس الوقت / حاضر",note:"da + bei. 'Ich war dabei' = كنت حاضراً.\n'Er hat dabei gelacht' = ضحك أثناء ذلك.",example:"A: Hattest du den Beipackzettel dabei?\nB: Ja, ich hatte ihn dabei.\nA: Und? Hast du alles gelesen?\nB: Nein, ich bin dabei eingeschlafen!",exampleSrc:"أ: هل كانت نشرة الدواء معك؟\nب: نعم، كانت معي.\nأ: و؟ هل قرأت كل شيء؟\nب: لا، نمت أثناء القراءة!",funFact:"في الألمانية عشرات 'كلمات da': dabei, dafür, damit, darauf, darin, darüber, darunter. تحل محل 'حرف جر + es/das' للأشياء (ليس الأشخاص). 'dabei' = 'bei dem' مضغوطة."},
         {type:"teach",trg:"darauf",pos:"adv",gender:null,src:"عليه / بعد ذلك",note:"da + auf. 'Darauf steht eine Warnung' = عليه تحذير.\n'Ich freue mich darauf' = أتطلع إلى ذلك.",example:"A: Was steht auf dem Beipackzettel?\nB: Darauf steht: nicht mit Kaffee einnehmen.\nA: Kein Kaffee?! Das ist schlimmer als die Krankheit!\nB: Darauf habe ich gewartet. Dein Gesicht!",exampleSrc:"أ: ماذا تقول نشرة الدواء؟\nب: مكتوب عليها: لا تتناوله مع القهوة.\nأ: لا قهوة؟! هذا أسوأ من المرض!\nب: كنت أنتظر ردة فعلك. وجهك!",funFact:"'darauf' تُستخدم مع الأفعال التي تأخذ 'auf': warten auf (ينتظر)، sich freuen auf (يتطلع إلى)، achten auf (ينتبه إلى). 'Ich warte darauf' = أنتظر ذلك. لا يمكن قول 'Ich warte auf es'."},
-        {type:"mc",q:"'Verumius konnte den Beipackzettel nicht lesen, ___ er zu lang war.' Which conjunction fits?",opts:["dass","als","weil","wenn"],ans:"weil",hint:"يعطي السبب الذي لم يستطع القراءة بسببه."},
+        {type:"mc",q:"'Verumius konnte den Beipackzettel nicht lesen, ___ er zu lang war.' أي أداة ربط تناسب؟",opts:["dass","als","weil","wenn"],ans:"weil",hint:"يعطي السبب الذي لم يستطع القراءة بسببه."},
         {type:"drag_fill",s:"Der Arzt sagte, {1} Verumius mehr Wasser trinken {2}.",blanks:{"1":"dass","2":"sollte"},pool:["dass","weil","sollte","konnte","wenn","musste"],hint:"الكلام المنقول يستخدم أداة ربط ترسل الفعل إلى النهاية.",sSrc:"قال الطبيب إن فيروميوس يجب أن يشرب المزيد من الماء."},
         {type:"fb",s:"Als ich beim Arzt war, {1} ich lange warten.",a:["musste"],opts:["musste","muss","konnte","sollte"],hint:"ماضي 'يجب'. لم يكن لديه خيار سوى الانتظار.",sSrc:"عندما كنت عند الطبيب، كان عليّ الانتظار طويلاً."},
         {type:"match",pairs:[
-            {trg:"dass",pos:"conj",gender:null,src:"that (conjunction)"},
-            {trg:"weil",pos:"conj",gender:null,src:"because"},
-            {trg:"wenn",pos:"conj",gender:null,src:"when / if"},
-            {trg:"als",pos:"conj",gender:null,src:"when (past, single)"},
-            {trg:"dringend",pos:"adv",gender:null,src:"urgent"},
-            {trg:"selbst",pos:"adv",gender:null,src:"self / even"},
-            {trg:"dabei",pos:"adv",gender:null,src:"with it / present"},
-            {trg:"darauf",pos:"adv",gender:null,src:"on it / thereupon"}
+            {trg:"dass",pos:"conj",gender:null,src:"أنّ (أداة ربط)"},
+            {trg:"weil",pos:"conj",gender:null,src:"لأنّ"},
+            {trg:"wenn",pos:"conj",gender:null,src:"عندما / إذا"},
+            {trg:"als",pos:"conj",gender:null,src:"عندما (ماضٍ، مرة واحدة)"},
+            {trg:"dringend",pos:"adv",gender:null,src:"عاجل"},
+            {trg:"selbst",pos:"adv",gender:null,src:"نفسه / حتى"},
+            {trg:"dabei",pos:"adv",gender:null,src:"معه / حاضر"},
+            {trg:"darauf",pos:"adv",gender:null,src:"عليه / بعد ذلك"}
           ]},
         {type:"story",speaker:"lukas",mood:"amused",art:"de-ber-apartment-phone",trg:"'Alter, der Arzt hat gesagt, dass du dich ausruhen sollst. Und dass du viel Wasser trinken musst. Das ist doch einfach!' Verumius schweigt. Wenn Lukas es so sagt, klingt es wirklich einfach.",src:"'يا صاحبي، الطبيب قال إنك يجب أن ترتاح. وأنك يجب أن تشرب الكثير من الماء. هذا بسيط!' فيروميوس صامت. عندما يقولها لوكاس هكذا، تبدو فعلاً بسيطة."}
       ]},
@@ -314,11 +314,11 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
         {type:"mc",q:"Manchmal ___ ich mich nach der Arbeit aus.",opts:["ruhe","ruhen","ausruhe","ruht"],ans:"ruhe",hint:"فعل منفصل: البادئة تذهب إلى نهاية الجمل الرئيسية."},
         {type:"teach",trg:"schwanger",pos:"adj",gender:null,src:"حامل",note:"صفة. Sie ist schwanger = هي حامل. لا صيغة مقارنة.",example:"A: Hast du gehört? Lisa ist schwanger!\nB: Wirklich? Das ist wunderbar!\nA: Ja, sie bekommt das Baby im Sommer.\nB: Herzlichen Glückwunsch an sie!",exampleSrc:"أ: هل سمعت؟ ليزا حامل!\nب: حقاً؟ هذا رائع!\nأ: نعم، ستلد الطفل في الصيف.\nب: مبروك لها!",funFact:"في ألمانيا تحصل الحامل على Mutterpass (دفتر صحة الأمومة) من طبيبها. تحمله في كل مكان. يجب على أصحاب العمل توفير 14 أسبوعاً من إجازة الأمومة المدفوعة (Mutterschutz)، وفصل الموظفة الحامل غير قانوني."},
         {type:"match",pairs:[
-            {trg:"der Unfall",pos:"noun",gender:"m",src:"the accident"},
-            {trg:"die Angst",pos:"noun",gender:"f",src:"the fear"},
-            {trg:"aufpassen",pos:"verb",gender:null,src:"to watch out"},
-            {trg:"sich beeilen",pos:"verb",gender:null,src:"to hurry"},
-            {trg:"manchmal",pos:"adv",gender:null,src:"sometimes"}
+            {trg:"der Unfall",pos:"noun",gender:"m",src:"الحادث"},
+            {trg:"die Angst",pos:"noun",gender:"f",src:"الخوف"},
+            {trg:"aufpassen",pos:"verb",gender:null,src:"ينتبه"},
+            {trg:"sich beeilen",pos:"verb",gender:null,src:"يُسرع"},
+            {trg:"manchmal",pos:"adv",gender:null,src:"أحياناً"}
           ]},
         {type:"fb",s:"Der Arzt hat einen neuen {1} für den Blutdruck.",a:"Apparat",opts:["Apparat","Rezept","Tablette","Besuch"],hint:"جهاز يُستخدم لقياس شيء طبي.",sSrc:"الطبيب لديه جهاز جديد لضغط الدم."},
         {type:"teach",trg:"bleiben",pos:"verb",gender:null,src:"يبقى",note:"فعل شاذ: ich bleibe, du bleibst. Perfekt: ist geblieben (مع sein!).",example:"A: Wie lange bleibst du in Berlin?\nB: Ich weiß noch nicht. Vielleicht für immer.\nA: Das wäre schön!",exampleSrc:"أ: كم ستبقى في برلين؟\nب: لا أعرف بعد. ربما للأبد.\nأ: سيكون ذلك رائعاً!",funFact:"bleiben يستخدم sein في Perfekt لأن البقاء تغيّر حالة: كنت في مكان آخر، والآن تبقى. 'Ich bin geblieben' وليس 'Ich habe geblieben'."},
@@ -339,28 +339,28 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
         {type:"teach",trg:"weinen",pos:"verb",gender:null,src:"يبكي",note:"فعل منتظم. Perfekt: hat geweint.",example:"A: Warum hast du geweint?\nB: Weil der Film so traurig war.",exampleSrc:"أ: لماذا بكيت؟\nب: لأن الفيلم كان حزيناً جداً.",funFact:"'weinen' مرتبطة بالإنجليزية 'whine'، لكن في الألمانية تعني البكاء الكامل بالدموع وليس التذمر. للتذمر يقول الألمان 'jammern'."},
         {type:"teach",trg:"sich aufregen",pos:"verb",gender:null,src:"ينزعج / يتوتر",note:"منفصل + انعكاسي: Ich rege mich auf. Perfekt: hat sich aufgeregt.",example:"A: Reg dich nicht auf!\nB: Ich kann mich nicht beruhigen, weil ich den Beipackzettel gelesen habe!",exampleSrc:"أ: لا تنزعج!\nب: لا أستطيع الهدوء لأنني قرأت نشرة الدواء!",funFact:"'auf' (فوق) + 'regen' (يحرّك). الانزعاج يعني حرفياً تحريك نفسك للأعلى. 'aufregen' من أكثر الأفعال الانعكاسية شيوعاً في الألمانية اليومية."},
         {type:"teach",trg:"sogar",pos:"adv",gender:null,src:"حتى (ظرف)",note:"تضيف تأكيداً أو مفاجأة. توضع قبل الكلمة التي تؤكدها.",example:"A: Kannst du den Beipackzettel lesen?\nB: Sogar mein Arzt versteht ihn nicht!",exampleSrc:"أ: هل تستطيع قراءة نشرة الدواء؟\nب: حتى طبيبي لا يفهمها!",funFact:"'sogar' تأتي من 'so' + 'gar' (تماماً). هي الكلمة القياسية لـ 'حتى' في سياقات المفاجأة. Sogar Hildi hat gelacht. حتى هيلدي ضحكت."},
-        {type:"mc",q:"Hildi sagt: 'Ruf mich an, wenn etwas passiert.' Was bedeutet 'passiert'?",opts:["happens","passes by","calls","hurts"],ans:"happens",hint:"فكّر في الأحداث غير المتوقعة، وليس الحركة الجسدية."},
+        {type:"mc",q:"Hildi sagt: 'Ruf mich an, wenn etwas passiert.' ماذا تعني 'passiert'؟",opts:["يحدث","يمر بجانب","يتصل","يؤلم"],ans:"يحدث",hint:"فكّر في الأحداث غير المتوقعة، وليس الحركة الجسدية."},
         {type:"fb",s:"Was ist gestern {1}?",a:["passiert"],opts:["passiert","gerufen","gesetzt","geweint"],hint:"أي اسم مفعول في Perfekt يستخدم sein وليس haben.",sSrc:"ماذا حدث أمس؟"},
-        {type:"mc",q:"Verumius hat sich aufgeregt, weil er den Beipackzettel gelesen hat. What was Verumius?",opts:["upset","tired","hungry","happy"],ans:"upset",hint:"قراءة نشرة دواء طويلة بشكل مضحك أثارته."},
+        {type:"mc",q:"Verumius hat sich aufgeregt, weil er den Beipackzettel gelesen hat. كيف كان فيروميوس؟",opts:["منزعج","متعب","جائع","سعيد"],ans:"منزعج",hint:"قراءة نشرة دواء طويلة بشكل مضحك أثارته."},
         {type:"drag_fill",s:"Verumius {1} sich auf den Stuhl {2}, weil er müde {3}.",blanks:{"1":"hat","2":"gesetzt","3":"war"},pool:["hat","gesetzt","war","ist","gerufen","hatte"],hint:"Perfekt لـ sich setzen (hat + اسم المفعول) ثم Präteritum لـ sein.",sSrc:"جلس فيروميوس على الكرسي لأنه كان متعباً."},
         {type:"fb",s:"Der Arzt hat den Patienten {1}.",a:["gerufen"],opts:["gerufen","geweint","passiert","gesetzt"],hint:"أي اسم مفعول يعني 'نادى على شخص'.",sSrc:"نادى الطبيب المريض."},
-        {type:"mc",q:"'Sogar der Apotheker konnte den Beipackzettel nicht verstehen.' Was bedeutet 'sogar'?",opts:["always","never","even","almost"],ans:"even",hint:"هذه الكلمة تضيف مفاجأة وتؤكد كم هو غير متوقع."},
+        {type:"mc",q:"'Sogar der Apotheker konnte den Beipackzettel nicht verstehen.' ماذا تعني 'sogar'؟",opts:["دائماً","أبداً","حتى","تقريباً"],ans:"حتى",hint:"هذه الكلمة تضيف مفاجأة وتؤكد كم هو غير متوقع."},
         {type:"drag_fill",s:"Ich habe {1}, weil der Arzt mir {2} hat, dass ich {3} musste.",blanks:{"1":"geweint","2":"gesagt","3":"warten"},pool:["geweint","gesagt","warten","gerufen","passiert","konnte"],hint:"Perfekt لـ weinen، ثم Perfekt لـ sagen، ثم مصدر مساعد في النهاية.",sSrc:"بكيت لأن الطبيب أخبرني أنه كان عليّ الانتظار."},
-        {type:"mc",q:"Verumius konnte den Beipackzettel nicht lesen, weil die Wörter zu lang waren. Why couldn't he read it?",opts:[
-            "Because the words were too long",
-            "Because he lost his glasses",
-            "Because it was in English",
-            "Because the doctor took it away"
-          ],ans:"Because the words were too long",hint:"جملة weil تشرح السبب بصفة تتعلق بالطول."},
+        {type:"mc",q:"Verumius konnte den Beipackzettel nicht lesen, weil die Wörter zu lang waren. لماذا لم يستطع قراءتها؟",opts:[
+            "لأن الكلمات كانت طويلة جداً",
+            "لأنه فقد نظارته",
+            "لأنها كانت بالإنجليزية",
+            "لأن الطبيب أخذها منه"
+          ],ans:"لأن الكلمات كانت طويلة جداً",hint:"جملة weil تشرح السبب بصفة تتعلق بالطول."},
         {type:"fb",s:"Sie hat sich so {1}, dass sie sogar geweint hat.",a:["aufgeregt"],opts:["aufgeregt","gesetzt","passiert","gerufen"],hint:"أي اسم مفعول لفعل منفصل يعني 'انزعج'.",sSrc:"انزعجت لدرجة أنها حتى بكت."},
         {type:"drag_fill",s:"Hildi {1} Verumius {2}, weil er sich nicht {3} {4}.",blanks:{"1":"hat","2":"gerufen","3":"beruhigen","4":"konnte"},pool:["hat","gerufen","beruhigen","konnte","ist","passiert"],hint:"Perfekt لـ rufen في الجملة الرئيسية، ثم weil ترسل الفعل المساعد إلى النهاية.",sSrc:"نادت هيلدي فيروميوس لأنه لم يستطع تهدئة نفسه."},
         {type:"match",pairs:[
-            {trg:"passieren",pos:"verb",gender:null,src:"to happen"},
-            {trg:"rufen",pos:"verb",gender:null,src:"to call out"},
-            {trg:"sich setzen",pos:"verb",gender:null,src:"to sit down"},
-            {trg:"weinen",pos:"verb",gender:null,src:"to cry"},
-            {trg:"sich aufregen",pos:"verb",gender:null,src:"to get upset"},
-            {trg:"sogar",pos:"adv",gender:null,src:"even"}
+            {trg:"passieren",pos:"verb",gender:null,src:"يحدث"},
+            {trg:"rufen",pos:"verb",gender:null,src:"ينادي"},
+            {trg:"sich setzen",pos:"verb",gender:null,src:"يجلس"},
+            {trg:"weinen",pos:"verb",gender:null,src:"يبكي"},
+            {trg:"sich aufregen",pos:"verb",gender:null,src:"ينزعج"},
+            {trg:"sogar",pos:"adv",gender:null,src:"حتى"}
           ]},
         {type:"story",speaker:"narrator",mood:"comedic-horror",art:"de-ber-apartment-beipackzettel",trg:"Der Beipackzettel liegt auf dem Tisch. Er ist jetzt komplett entfaltet. Siebenunddreißig Zentimeter lang. Schriftgröße: mikroskopisch. Verumius zählt die Nebenwirkungen. Er hört bei dreiundzwanzig auf.",src:"نشرة الدواء على الطاولة. مفتوحة بالكامل الآن. سبعة وثلاثون سنتيمتراً. حجم الخط: مجهري. فيروميوس يعد الآثار الجانبية. يتوقف عند ثلاثة وعشرين."},
         {type:"story",speaker:"verumius",mood:"defeated",art:"de-ber-apartment-couch",trg:"'Häufig: Müdigkeit. Gelegentlich: Schwindel. Selten: Magenschmerzen.' Verumius legt den Zettel hin. Er hat Müdigkeit, Schwindel UND Magenschmerzen. Aber die hatte er auch schon vorher.",src:"'شائع: إرهاق. أحياناً: دوخة. نادر: ألم معدة.' يضع فيروميوس الورقة. عنده إرهاق ودوخة وألم معدة. لكنه كان يعاني منها قبل ذلك أيضاً."},
@@ -371,7 +371,7 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
         {type:"story",speaker:"narrator",mood:"determined",art:"de-ber-apartment-desk",trg:"Tag drei. Der Husten ist leiser. Der Kopf ist klarer. Verumius setzt sich an den Tisch und öffnet seine Notizen. Apotheke, Arzt, Krankenkasse, Beipackzettel. So viele neue Wörter. Zeit, alles zu wiederholen.",src:"اليوم الثالث. السعال أهدأ. الرأس أصفى. يجلس فيروميوس إلى الطاولة ويفتح ملاحظاته. صيدلية، طبيب، تأمين صحي، نشرة دواء. كلمات جديدة كثيرة. حان وقت المراجعة."},
         {type:"mc",q:"Ich habe gestern eine Tablette ___.",opts:["nehmen","genommen","genommt","genahmt"],ans:"genommen",hint:"nehmen فعل قوي باسم مفعول شاذ."},
         {type:"fb",s:"Er {1} nicht zum Arzt gehen.",a:"konnte",opts:["konnte","kann","gekonnt","könnte"],hint:"فعل مساعد في الماضي، صيغة Präteritum.",sSrc:"لم يستطع الذهاب إلى الطبيب."},
-        {type:"mc",q:"Was bedeutet 'die Sprechstunde'?",opts:["Emergency room","Office hours","Pharmacy aisle","Waiting room"],ans:"Office hours",hint:"للطبيب ساعات محددة يمكن للمرضى القدوم فيها."},
+        {type:"mc",q:"ماذا تعني 'die Sprechstunde'؟",opts:["غرفة الطوارئ","ساعات الاستقبال","ممر الصيدلية","غرفة الانتظار"],ans:"ساعات الاستقبال",hint:"للطبيب ساعات محددة يمكن للمرضى القدوم فيها."},
         {type:"drag_fill",s:"Ich habe {1} Arzt gesagt, {2} mein Hals wehtut.",blanks:{"1":"dem","2":"dass"},pool:["dem","der","dass","weil","den"],hint:"Dativ بعد sagen، ثم جملة فرعية والفعل في النهاية.",sSrc:"أخبرت الطبيب أن حلقي يؤلمني."},
         {type:"fb",s:"Die Ärztin hat mich gründlich {1}.",a:"untersucht",opts:["untersucht","untersuchen","untersuchte","unterforscht"],hint:"Perfekt لـ untersuchen: البادئة unter- غير منفصلة، لذا لا ge- في اسم المفعول.",sSrc:"فحصني الطبيب بدقة."},
         {type:"mc",q:"Welcher Satz ist richtig?",opts:[
@@ -396,12 +396,12 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
         {type:"mc",q:"Der Zahnarzt hat ___ Mädchen gesagt, dass es keine Angst haben soll.",opts:["das","dem","der","den"],ans:"dem",hint:"sagen يأخذ مفعولاً في Dativ. Mädchen محايد."},
         {type:"fb",s:"Sie wollte sich {1}, aber sie konnte den Arzt nicht erreichen.",a:"beeilen",opts:["beeilen","beeilt","beeilte","beeilen sich"],hint:"بعد الأفعال المساعدة، يأتي المصدر بدون sich في المقدمة.",sSrc:"أرادت أن تسرع، لكنها لم تستطع الوصول إلى الطبيب."},
         {type:"match",pairs:[
-            {trg:"die Krankenkasse",pos:"noun",gender:"f",src:"health insurance"},
-            {trg:"das Rezept",pos:"noun",gender:"n",src:"prescription"},
-            {trg:"die Grippe",pos:"noun",gender:"f",src:"the flu"},
-            {trg:"der Besuch",pos:"noun",gender:"m",src:"the visit"},
-            {trg:"dringend",pos:"adv",gender:null,src:"urgent"},
-            {trg:"sogar",pos:"adv",gender:null,src:"even"}
+            {trg:"die Krankenkasse",pos:"noun",gender:"f",src:"التأمين الصحي"},
+            {trg:"das Rezept",pos:"noun",gender:"n",src:"الوصفة الطبية"},
+            {trg:"die Grippe",pos:"noun",gender:"f",src:"الإنفلونزا"},
+            {trg:"der Besuch",pos:"noun",gender:"m",src:"الزيارة"},
+            {trg:"dringend",pos:"adv",gender:null,src:"عاجل"},
+            {trg:"sogar",pos:"adv",gender:null,src:"حتى"}
           ]},
         {type:"story",speaker:"verumius",mood:"satisfied",art:"de-ber-apartment-window",trg:"Verumius schließt das Notizbuch. Er hat alle Wörter gewusst. Perfekt mit haben? Kein Problem. Dativ? Dem Mann, der Frau, dem Kind. Er öffnet das Fenster. Frische Luft strömt herein.",src:"يغلق فيروميوس الدفتر. عرف كل الكلمات. Perfekt مع haben؟ لا مشكلة. Dativ؟ Dem Mann, der Frau, dem Kind. يفتح النافذة. الهواء النقي يتدفق."}
       ]},
@@ -425,19 +425,19 @@ const UNIT_07_AR = {n:7,lang:"de",srcLang:"ar",track:"v2",title:"Der Arztbesuch"
         {type:"tip",title:"Deutsche Gesundheitskultur",text:"ثقافة الرعاية الصحية الألمانية فيها مفاجآت:\n\n• Krankschreibung: طبيبك يعطيك إجازة مرضية وتبقى في البيت. بدون شعور بالذنب.\n• Kur: استراحة صحية لعدة أسابيع في مدينة ينابيع، أحياناً يغطيها التأمين.\n• Frische Luft: الألمان يفتحون النوافذ طوال السنة. الهواء النقي يُعتبر دواءً.\n• Hühnersuppe: حساء الدجاج هو العلاج المنزلي العالمي الألماني، مثل كل مكان.\n• Apotheke مقابل Drogerie: الأدوية بوصفة فقط في الصيدلية. الشامبو والفيتامينات في الدروغيري.",deepDive:"لدى ألمانيا رعاية صحية شاملة من خلال التأمين الصحي القانوني (Gesetzliche Krankenversicherung). حوالي 90% من السكان مشمولون. يتقاسم الموظفون وأصحاب العمل التكلفة. زيارات الطبيب بدون رسوم مشاركة. النظام يعود إلى عام 1883 في عهد أوتو فون بسمارك، مما يجعله من أقدم أنظمة الرعاية الصحية الوطنية في العالم."},
         {type:"mc",q:"Hildi hat Suppe vor die Tür gestellt. Was steht auf dem Zettel?",opts:["Guten Appetit","Viel Glück","Gute Besserung","Herzlichen Glückwunsch"],ans:"Gute Besserung",hint:"هذا ما يقوله الألمان لشخص مريض."},
         {type:"fb",s:"Ich fühle mich heute wieder {1}.",a:"gesund",opts:["gesund","krank","schwach","gefährlich"],hint:"عكس المريض، هدف التعافي.",sSrc:"أشعر بصحة جيدة مجدداً اليوم."},
-        {type:"mc",q:"Was bedeutet 'furchtbar'?",opts:["dangerous","terrible","suddenly","hopefully"],ans:"terrible",hint:"فكّر في الكلمة الأصلية Furcht التي تعني الخوف."},
+        {type:"mc",q:"ماذا تعني 'furchtbar'؟",opts:["خطير","فظيع","فجأة","نأمل"],ans:"فظيع",hint:"فكّر في الكلمة الأصلية Furcht التي تعني الخوف."},
         {type:"fb",s:"Hoffentlich kann ich morgen wieder {1}.",a:"arbeiten",opts:["arbeiten","schlafen","husten","niesen"],hint:"ما تفعله في المكتب أو مكان العمل.",sSrc:"آمل أن أستطيع العمل مجدداً غداً."},
         {type:"mc",q:"Verumius öffnet das Fenster. Warum?",opts:["Er hat Besuch","Das Fenster ist kaputt","Er will rausgehen","Frische Luft hilft bei Krankheit"],ans:"Frische Luft hilft bei Krankheit",hint:"اعتقاد ألماني بامتياز عن التعافي والصحة."},
         {type:"fb",s:"{1} hat an der Tür geklopft.",a:"Niemand",opts:["Niemand","Jemand","Hildi","Der Arzt"],hint:"ظهر الحساء بدون أن يطرق أحد الباب.",sSrc:"لم يطرق أحد الباب."},
-        {type:"mc",q:"Plötzlich war mir schwindelig. Was bedeutet 'plötzlich'?",opts:["suddenly","slowly","hopefully","always"],ans:"suddenly",hint:"تصف شيئاً يحدث بدون سابق إنذار."},
+        {type:"mc",q:"Plötzlich war mir schwindelig. ماذا تعني 'plötzlich'؟",opts:["فجأة","ببطء","نأمل","دائماً"],ans:"فجأة",hint:"تصف شيئاً يحدث بدون سابق إنذار."},
         {type:"drag_fill",s:"Gestern war ich {1}, aber heute bin ich wieder {2}.",blanks:{"1":"krank","2":"fit"},pool:["krank","fit","schwach","wach","gefährlich"],hint:"من المرض أمس إلى الشعور بالعافية اليوم.",sSrc:"أمس كنت مريضاً، لكن اليوم أنا بصحة جيدة مجدداً."},
         {type:"match",pairs:[
-            {trg:"gesund",pos:"adj",gender:null,src:"healthy"},
-            {trg:"schwach",pos:"adj",gender:null,src:"weak"},
-            {trg:"gefährlich",pos:"adj",gender:null,src:"dangerous"},
-            {trg:"furchtbar",pos:"adj",gender:null,src:"terrible"},
-            {trg:"plötzlich",pos:"adv",gender:null,src:"suddenly"},
-            {trg:"hoffentlich",pos:"adv",gender:null,src:"hopefully"}
+            {trg:"gesund",pos:"adj",gender:null,src:"بصحة جيدة"},
+            {trg:"schwach",pos:"adj",gender:null,src:"ضعيف"},
+            {trg:"gefährlich",pos:"adj",gender:null,src:"خطير"},
+            {trg:"furchtbar",pos:"adj",gender:null,src:"فظيع"},
+            {trg:"plötzlich",pos:"adv",gender:null,src:"فجأة"},
+            {trg:"hoffentlich",pos:"adv",gender:null,src:"إن شاء الله"}
           ]},
         {type:"mc",q:"Was ist eine Krankschreibung?",opts:[
             "Ein Rezept für Medizin",

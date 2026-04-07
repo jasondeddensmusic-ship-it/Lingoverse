@@ -39,9 +39,9 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
         {type:"story",speaker:"narrator",mood:"tense",art:"de-ber-apartment-door",trg:"Nachdem Verumius die Bohrmaschine abgestellt hatte, klopfte es an der Tür.",src:"بعد أن أوقف فيروميوس المثقاب، سُمع طرق على الباب."},
         {type:"mc",q:"Der Nachbar steht in der Tür, rot im Gesicht, und schreit wegen des Lärms. Welches Wort beschreibt sein Gefühl gerade?",opts:["still","ernst","bloß","wütend"],ans:"wütend",hint:"هذه الكلمة مشتقة من كلمة تعني الغضب الشديد، ومعناها مفعم بالغضب."},
         {type:"mc",q:"Was bedeutet 'schreien'?",opts:["to scream, to shout","the worry, the concern","the annoyance, the trouble","the atmosphere, the mood"],ans:"to scream, to shout",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Kein Wort. Nur {1}.",a:["schweigen"],opts:["die Stimmung","die Bohrmaschine","\\u00e4rgerlich","schweigen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Not a word. Just silence."},
+        {type:"fb",s:"Kein Wort. Nur {1}.",a:["schweigen"],opts:["die Stimmung","die Bohrmaschine","\\u00e4rgerlich","schweigen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"ولا كلمة. فقط صمت."},
         {type:"mc",q:"Was bedeutet 'klagen'?",opts:["to be silent, to stay quiet","the drill, the power drill","the worry, the concern","to complain, to sue"],ans:"to complain, to sue",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Seit wann {1} sie?",a:["streiken"],opts:["streiken","der Konflikt","die Laune","klagen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Since when have they been striking?"}
+        {type:"fb",s:"Seit wann {1} sie?",a:["streiken"],opts:["streiken","der Konflikt","die Laune","klagen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"منذ متى وهم مضربون؟"}
       ]},
 // ─── L3: Die Hausordnung ───
     {id:"deu_r16l2",title:"Die Hausordnung",icon:"📋",xp:15,board:true,steps:[

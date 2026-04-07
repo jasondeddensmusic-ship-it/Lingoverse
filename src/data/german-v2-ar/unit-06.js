@@ -164,7 +164,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"teach",trg:"das Gesicht / der Zeh",src:"الوجه / إصبع القدم",pos:"noun",gender:"n",note:"Gesicht محايد. Zeh مذكر.",example:"A: Mein Gesicht ist rot.\nB: Und mein Zeh tut weh.",exampleSrc:"A: وجهي أحمر.\nB: وإصبع قدمي يؤلمني.",funFact:"Gesicht حرفيا: 'الشيء المرئي.' من sehen (يرى). وجهك هو ما يراه الناس."},
         {type:"mc",q:"'Das Telefon klingelt!' تعني:",opts:["الهاتف معطّل!","الهاتف جديد!","الهاتف غالٍ!","الهاتف يرن!"],ans:"الهاتف يرن!",hint:"Klingeln = يرن. فكر بالصوت: kling-kling!"},
         {type:"drag_fill",s:"Ich {1} die Hausverwaltung {2}.",blanks:{"1":"rufe","2":"an"},pool:["rufe","an","telefoniere","klingele","anrufe","bin"],hint:"فعل منفصل: الجذع المصرّف يملأ {1}، البادئة تذهب للنهاية عند {2}.",sSrc:"أتصل بإدارة العقار."},
-        {type:"mc",q:"'Handy' في الألمانية تعني:",opts:["useful","handbag","hand cream","mobile phone"],ans:"mobile phone",hint:"صديق مزيف ألماني. لا علاقة له بالكلمة الإنجليزية handy."},
+        {type:"mc",q:"'Handy' في الألمانية تعني:",opts:["مفيد","حقيبة يد","كريم يد","هاتف محمول"],ans:"هاتف محمول",hint:"صديق مزيف ألماني. لا علاقة له بالكلمة الإنجليزية handy."},
         {type:"match",pairs:[
     {trg:"das Auge",src:"عين"},
     {trg:"das Ohr",src:"أذن"},
@@ -173,7 +173,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
     {trg:"der Zahn",src:"سنّ"}
 ]},
         {type:"fb",s:"Ich habe eine {1} von der Hausverwaltung bekommen.",a:["Nachricht"],opts:["Nachricht","Brief","Anruf","Handy"],hint:"رسالة. قد تكون بريدا إلكترونيا أو نصية أو بريدا صوتيا.",sSrc:"استلمت رسالة من إدارة العقار."},
-        {type:"mc",q:"'Drücken Sie die Eins!' مثال على:",opts:["past tense","modal verb","reflexive verb","imperative"],ans:"imperative",hint:"صيغة أمر رسمية. ما هذا التركيب النحوي؟"},
+        {type:"mc",q:"'Drücken Sie die Eins!' مثال على:",opts:["الماضي","فعل ناقص","فعل انعكاسي","imperative"],ans:"imperative",hint:"صيغة أمر رسمية. ما هذا التركيب النحوي؟"},
         {type:"story",speaker:"narrator",mood:"frustrated",art:"de-hold-music",trg:"Wartemusik. Fünf Minuten. Zehn Minuten. Eine Stimme: 'Ihr Anruf ist uns wichtig. Bitte warten Sie.' Verumius wartet. Und wartet. Kaltes Wasser, warme Geduld.",src:"موسيقى انتظار. خمس دقائق. عشر دقائق. صوت: 'مكالمتك مهمة لنا. يرجى الانتظار.' فيروميوس ينتظر. وينتظر. ماء بارد، صبر دافئ."},
         {type:"drag_fill",s:"Mein {1} tut weh und meine {2} sind rot.",blanks:{"1":"Kopf","2":"Augen"},pool:["Kopf","Augen","Hand","Fuß","Ohr"],hint:"الرأس يؤلم والعيون حمراء. أجزاء الجسم من الدرس ١ + هذا الدرس.",sSrc:"رأسي يؤلمني وعيوني حمراء."},
         {type:"mc",q:"جمع 'der Zahn':",opts:["die Zahne","die Zähne","die Zähnen","die Zahns"],ans:"die Zähne",hint:"نمط أوملاوت + -e. مثل Stuhl إلى Stühle."}
@@ -204,7 +204,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
     {trg:"die Apotheke",src:"صيدلية"}
 ]},
         {type:"fb",s:"Der Arzt sagt: 'Sie {1} mehr schlafen.'",a:["sollen"],opts:["sollen","müssen","können","dürfen"],hint:"الطبيب يعطي نصيحة. ينبغي أن تنام أكثر.",sSrc:"الطبيب يقول: 'ينبغي أن تنام أكثر.'"},
-        {type:"story",speaker:"narrator",mood:"happy",art:"de-apotheke",trg:"Verumius verlässt die Praxis mit einem Rezept. Zur Apotheke. Die Apothekerin lächelt: 'Drei Mal am Tag, nach dem Essen.' Er nickt. In Deutschland funktioniert alles. Auch krank sein.",src:"فيروميوس يغادر العيادة بوصفة طبية. إلى الصيدلية. الصيدلي يبتسم: 'ثلاث مرات يوميا، بعد الأكل.' يومئ. في ألمانيا كل شيء يعمل. حتى المرض."},
+        {type:"story",speaker:"narrator",mood:"سعيد",art:"de-apotheke",trg:"Verumius verlässt die Praxis mit einem Rezept. Zur Apotheke. Die Apothekerin lächelt: 'Drei Mal am Tag, nach dem Essen.' Er nickt. In Deutschland funktioniert alles. Auch krank sein.",src:"فيروميوس يغادر العيادة بوصفة طبية. إلى الصيدلية. الصيدلي يبتسم: 'ثلاث مرات يوميا، بعد الأكل.' يومئ. في ألمانيا كل شيء يعمل. حتى المرض."},
         {type:"mc",q:"'Rezept' في الألمانية تعني كلاً من:",opts:["prescription AND recipe","poison AND medicine","doctor AND nurse","pharmacy AND hospital"],ans:"prescription AND recipe",hint:"نفس الكلمة، سياقان مختلفان تماما!"}
       ]},
 // ─── L7: Am Bürgeramt ───
@@ -218,7 +218,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"teach",trg:"die Versicherung",src:"التأمين",pos:"noun",gender:"f",note:"اسم مؤنث. التأمين الصحي إلزامي في ألمانيا.",example:"A: Haben Sie eine Versicherung?\nB: Ja, Krankenversicherung.",exampleSrc:"A: هل لديك تأمين؟\nB: نعم، تأمين صحي.",funFact:"Krankenversicherung (التأمين الصحي) إلزامي. بدونه لا زيارة طبيب، لا تسجيل، لا حياة."},
         {type:"teach",trg:"die Verwaltung / der Beamte",src:"الإدارة / الموظف الرسمي",pos:"noun",gender:"f",note:"Verwaltung مؤنث. Beamte مذكر (اسم-صفة).",example:"A: Die Verwaltung ist zuständig.\nB: Der Beamte hilft Ihnen.",exampleSrc:"A: الإدارة مسؤولة.\nB: الموظف سيساعدك.",funFact:"الموظفون الرسميون الألمان (Beamte) لديهم أمان وظيفي أسطوري. Unkündbar (لا يمكن فصلهم)."},
         {type:"teach",trg:"die Halle",src:"القاعة، الغرفة الكبيرة",pos:"noun",gender:"f",note:"اسم مؤنث. الجمع: die Hallen.\nتُستخدم للمساحات الداخلية الكبيرة: قاعات الدخول، الصالات الرياضية، محطات القطار.",example:"A: Wo treffen wir uns?\nB: In der Halle, vor dem Schalter.",exampleSrc:"A: أين نلتقي؟\nB: في القاعة، أمام الشباك.",funFact:"كثير من المباني العامة الألمانية فيها Eingangshalle (قاعة دخول) أو Wartehalle (قاعة انتظار). Bahnhofshalle هي الصالة الرئيسية لمحطة القطار."},
-        {type:"mc",q:"'Bitte füllen Sie das Formular aus.' مثال على:",opts:["past tense","modal verb","reflexive verb","polite imperative"],ans:"polite imperative",hint:"Füllen Sie... aus! تستخدم صيغة Sie الرسمية لإصدار أمر. البادئة المنفصلة تنفصل."},
+        {type:"mc",q:"'Bitte füllen Sie das Formular aus.' مثال على:",opts:["الماضي","فعل ناقص","فعل انعكاسي","أمر مهذب"],ans:"أمر مهذب",hint:"Füllen Sie... aus! تستخدم صيغة Sie الرسمية لإصدار أمر. البادئة المنفصلة تنفصل."},
         {type:"fb",s:"Haben Sie einen {1}?",a:["Termin"],opts:["Termin","Formular","Vertrag","Ausweis"],hint:"السؤال الأول في أي مكتب ألماني: هل لديك موعد؟",sSrc:"هل لديك موعد؟"},
         {type:"mc",q:"'Anmeldung' إلزامي خلال ___ أيام من الانتقال.",opts:["30","7","90","14"],ans:"14",hint:"أسبوعان! البيروقراطية الألمانية لا تنتظر أحدا."},
         {type:"match",pairs:[
@@ -230,8 +230,8 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
 ]},
         {type:"drag_fill",s:"Ich {1} das Formular {2} und gebe meine {3}.",blanks:{"1":"fülle","2":"aus","3":"Unterschrift"},pool:["fülle","aus","Unterschrift","Termin","habe","ein"],hint:"أملأ الاستمارة (منفصل: ausfüllen) وأعطي توقيعي.",sSrc:"أملأ الاستمارة وأعطي توقيعي."},
         {type:"fb",s:"Die {1} kostet zwanzig Euro.",a:["Gebühr"],opts:["Gebühr","Versicherung","Anmeldung","Verwaltung"],hint:"الرسوم. مبلغ مقابل الخدمة.",sSrc:"الرسوم عشرون يورو."},
-        {type:"mc",q:"الموظفون الحكوميون الألمان معروفون بـ:",opts:["legendary job security","low salaries","working weekends","being very fast"],ans:"legendary job security",hint:"Unkündbar = لا يمكن فصله. مؤسسة ألمانية."},
-        {type:"story",speaker:"narrator",mood:"happy",art:"de-anmeldung-done",trg:"Nummer 347. Verumius geht zum Schalter. Formulare, Unterschrift, Gebühr. Fertig. Er hat seine Anmeldung. Er existiert offiziell in Deutschland. Der Beamte sagt: 'Nächster!'",src:"الرقم 347. فيروميوس يذهب إلى الشباك. استمارات، توقيع، رسوم. انتهى. لديه تسجيله. هو موجود رسميا في ألمانيا. الموظف يقول: 'التالي!'"},
+        {type:"mc",q:"الموظفون الحكوميون الألمان معروفون بـ:",opts:["أمان وظيفي أسطوري","رواتب منخفضة","العمل في عطلة نهاية الأسبوع","سرعة كبيرة"],ans:"أمان وظيفي أسطوري",hint:"Unkündbar = لا يمكن فصله. مؤسسة ألمانية."},
+        {type:"story",speaker:"narrator",mood:"سعيد",art:"de-anmeldung-done",trg:"Nummer 347. Verumius geht zum Schalter. Formulare, Unterschrift, Gebühr. Fertig. Er hat seine Anmeldung. Er existiert offiziell in Deutschland. Der Beamte sagt: 'Nächster!'",src:"الرقم 347. فيروميوس يذهب إلى الشباك. استمارات، توقيع، رسوم. انتهى. لديه تسجيله. هو موجود رسميا في ألمانيا. الموظف يقول: 'التالي!'"},
         {type:"fb",s:"Ohne {1} kann ich nicht zum Arzt gehen.",a:["Versicherung"],opts:["Versicherung","Formular","Termin","Gebühr"],hint:"بدون هذا، لا زيارة طبيب في ألمانيا.",sSrc:"بدون تأمين لا أستطيع الذهاب للطبيب."},
         {type:"mc",q:"'Hausverwaltung' كلمة مركّبة من:",opts:["Haus + Verwaltung","Haus + Waltung","Hauser + Verwaltung","Haus + Verwalter"],ans:"Haus + Verwaltung",hint:"بيت + إدارة. إدارة العقار."}
       ]},
@@ -266,7 +266,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
     "studieren = reading, lernen = writing"
 ],ans:"studieren = at university, lernen = general learning",hint:"Student الألمانية دائما في مؤسسة تعليم عالٍ محددة."},
         {type:"fb",s:"Das {1} ist gut. Dreißig Tage Urlaub!",a:["Gehalt"],opts:["Gehalt","Urlaub","Büro","Beruf"],hint:"الراتب. دفعتك الشهرية مقابل العمل.",sSrc:"الراتب جيد. ثلاثون يوم إجازة!"},
-        {type:"mc",q:"Schüler الألماني هو:",opts:["a school pupil","a university student","a teacher","a professor"],ans:"a school pupil",hint:"بالألمانية، الكلمة تعتمد على مستوى تعليم المتعلم."}
+        {type:"mc",q:"Schüler الألماني هو:",opts:["تلميذ مدرسة","طالب جامعي","معلم","أستاذ جامعي"],ans:"تلميذ مدرسة",hint:"بالألمانية، الكلمة تعتمد على مستوى تعليم المتعلم."}
       ]},
 // ─── L9: Freizeit und Hobbys ───
     {id:"deu_r6l9",title:"Freizeit und Hobbys",icon:"🎨",xp:15,board:true,steps:[
@@ -300,19 +300,19 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
 // ─── L10: Ein Fest planen ───
     {id:"deu_r6l10",title:"Ein Fest planen",icon:"🎉",xp:15,board:true,steps:[
         {type:"intro",title:"Ein Fest planen",desc:"فيروميوس يخطط لحفلة صغيرة. دعوات، طعام، مشروبات، وتجميع كل المفردات معا. حدث ثقافي: حفل تدشين المنزل الألماني Einweihungsfeier.",goals:["تعلّم مفردات الحفلات والمناسبات","ادمج كلمات الطعام والوقت والمكان","خطّط لحدث وصِفه"]},
-        {type:"story",speaker:"narrator",mood:"happy",art:"de-party-planning",trg:"Lena ruft an: 'Du wohnst seit einem Monat in Berlin und hast noch keine Einweihungsfeier gemacht? Das geht nicht! Samstag. Einladungen. Sofort.' Verumius sieht sich in der leeren Wohnung um. Er hat einen Tisch. Und zwei Stühle.",src:"لينا تتصل: 'تعيش في برلين منذ شهر ولم تقم بحفل تدشين بعد؟ هذا لا يصح! السبت. دعوات. الآن.' فيروميوس ينظر حول الشقة الفارغة. عنده طاولة. وكرسيان."},
+        {type:"story",speaker:"narrator",mood:"سعيد",art:"de-party-planning",trg:"Lena ruft an: 'Du wohnst seit einem Monat in Berlin und hast noch keine Einweihungsfeier gemacht? Das geht nicht! Samstag. Einladungen. Sofort.' Verumius sieht sich in der leeren Wohnung um. Er hat einen Tisch. Und zwei Stühle.",src:"لينا تتصل: 'تعيش في برلين منذ شهر ولم تقم بحفل تدشين بعد؟ هذا لا يصح! السبت. دعوات. الآن.' فيروميوس ينظر حول الشقة الفارغة. عنده طاولة. وكرسيان."},
         {type:"teach",trg:"die Feier / die Party",src:"الاحتفال / الحفلة",pos:"noun",gender:"f",note:"Feier رسمي، Party غير رسمي. كلاهما مؤنث.",example:"A: Wir machen eine Feier!\nB: Eine Party? Super!",exampleSrc:"A: سنقيم احتفالا!\nB: حفلة؟ رائع!",funFact:"Einweihungsfeier = حفل تدشين المنزل. الألمان يحضرون خبزا وملحا كهدايا تقليدية."},
         {type:"teach",trg:"die Einladung / einladen",src:"الدعوة / يدعو",pos:"noun",gender:"f",note:"Einladung مؤنث. Einladen منفصل: ich lade ein.",example:"A: Ich lade Lukas ein.\nB: Und Hildi?",exampleSrc:"A: سأدعو لوكاس.\nB: وهيلدي؟",funFact:"منفصل: Ich lade dich ein! كلمة ein تذهب للنهاية. مع الأفعال الناقصة: Ich möchte dich einladen."},
         {type:"teach",trg:"das Geschenk / schenken",src:"الهدية / يُهدي",pos:"noun",gender:"n",note:"Geschenk محايد. Schenken منتظم.",example:"A: Was schenkst du?\nB: Ich schenke Wein.",exampleSrc:"A: ماذا ستُهدي؟\nB: سأهدي نبيذا.",funFact:"Schenken = يُهدي. Geben = يعطي عموما. الهدايا أمر جاد في ألمانيا."},
         {type:"teach",trg:"feiern / sich freuen",src:"يحتفل / يفرح / يتطلّع إلى",pos:"verb",gender:null,note:"Feiern منتظم. Sich freuen auf = يتطلّع إلى.",example:"A: Wir feiern am Samstag!\nB: Ich freue mich!",exampleSrc:"A: سنحتفل يوم السبت!\nB: أتطلّع لذلك!",funFact:"Sich freuen auf = يتطلّع إلى (المستقبل). Sich freuen über = يفرح بـ (الحاضر). حرف الجر مهم!"},
         {type:"teach",trg:"der Gast / die Gäste",src:"الضيف / الضيوف",pos:"noun",gender:"m",note:"اسم مذكر. الجمع: Gäste (أوملاوت!).",example:"A: Wie viele Gäste kommen?\nB: Zehn Gäste.",exampleSrc:"A: كم ضيفا سيأتي؟\nB: عشرة ضيوف.",funFact:"Gastfreundschaft = صداقة الضيف = الضيافة. فضيلة ألمانية. الضيوف يحصلون على أفضل معاملة."},
         {type:"teach",trg:"bringen / holen",src:"يحضر / يجلب",pos:"verb",gender:null,note:"Bringen: شاذ. Holen: منتظم.",example:"A: Ich bringe Kuchen.\nB: Und ich hole Getränke.",exampleSrc:"A: سأحضر كعكة.\nB: وأنا سأجلب مشروبات.",funFact:"Bringen = يُحضر (نحو هنا). Holen = يجلب (يذهب ويعود). الاتجاه مهم."},
-        {type:"mc",q:"'Einweihungsfeier' هي:",opts:["birthday party","wedding","housewarming party","office party"],ans:"housewarming party",hint:"Ein+weih+ung = تدشين/تكريس. Feier = احتفال. لمنزل جديد."},
+        {type:"mc",q:"'Einweihungsfeier' هي:",opts:["حفلة عيد ميلاد","حفل زفاف","حفل انتقال إلى بيت جديد","حفل مكتبي"],ans:"حفل انتقال إلى بيت جديد",hint:"Ein+weih+ung = تدشين/تكريس. Feier = احتفال. لمنزل جديد."},
         {type:"drag_fill",s:"Ich {1} Lukas zur Party {2}.",blanks:{"1":"lade","2":"ein"},pool:["lade","ein","bringe","hole","einlade","schenke"],hint:"الفعل المنفصل ينقسم: الجذع المصرّف في {1}، البادئة تذهب للنهاية عند {2}.",sSrc:"أدعو لوكاس إلى الحفلة."},
-        {type:"mc",q:"هدايا حفل الانتقال التقليدية في ألمانيا هي:",opts:["flowers and wine","bread and salt","money and cards","books and music"],ans:"bread and salt",hint:"خبز وملح. حتى لا ينقص البيت طعاما."},
+        {type:"mc",q:"هدايا حفل الانتقال التقليدية في ألمانيا هي:",opts:["ورود ونبيذ","خبز وملح","مال وبطاقات","كتب وموسيقى"],ans:"خبز وملح",hint:"خبز وملح. حتى لا ينقص البيت طعاما."},
         {type:"drag_fill",s:"Wir {1} am Samstag und ich {2} mich sehr!",blanks:{"1":"feiern","2":"freue"},pool:["feiern","freue","bringe","lade","hole","schenke"],hint:"نحتفل يوم السبت وأنا أتطلّع لذلك!",sSrc:"نحتفل يوم السبت وأنا متحمس جدا!"},
         {type:"fb",s:"Wie viele {1} kommen zur Party?",a:["Gäste"],opts:["Gäste","Geschenke","Einladungen","Feiern"],hint:"كم شخصا مدعو؟ الضيوف.",sSrc:"كم ضيفا سيأتي إلى الحفلة؟"},
-        {type:"mc",q:"'Sich freuen auf' تعني:",opts:["to be afraid of","to run away from","to argue about","to look forward to"],ans:"to look forward to",hint:"Freuen = يفرح. Auf = نحو (المستقبل). سعيد بشيء قادم."},
+        {type:"mc",q:"'Sich freuen auf' تعني:",opts:["يخاف من","يهرب من","يتشاجر حول","يتطلع إلى"],ans:"يتطلع إلى",hint:"Freuen = يفرح. Auf = نحو (المستقبل). سعيد بشيء قادم."},
         {type:"match",pairs:[
     {trg:"die Feier",src:"احتفال"},
     {trg:"die Einladung",src:"دعوة"},
@@ -322,22 +322,22 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
 ]},
         {type:"drag_fill",s:"Ich {1} Kuchen und Lukas {2} Getränke.",blanks:{"1":"bringe","2":"holt"},pool:["bringe","holt","lade","schenke","feiere","hole"],hint:"أحضر كعكة (نحو هنا). لوكاس يجلب مشروبات (يذهب ليحضرها).",sSrc:"أحضر كعكة ولوكاس يجلب مشروبات."},
         {type:"fb",s:"Was {1} du Verumius zur Einweihungsfeier?",a:["schenkst"],opts:["schenkst","bringst","holst","kaufst"],hint:"ماذا تُهدي؟",sSrc:"ماذا تُهدي فيروميوس لحفل التدشين؟"},
-        {type:"story",speaker:"narrator",mood:"happy",art:"de-einweihung",trg:"Samstag Abend. Zehn Gäste, ein Tisch, zwei Stühle. Alle sitzen auf dem Boden. Lukas bringt Bier, Hildi bringt Brot und Salz ('Tradition!'), Lena schickt eine Videobotschaft. Verumius hat sein erstes Fest in Deutschland. Die Wohnung fühlt sich zum ersten Mal wie zu Hause an.",src:"مساء السبت. عشرة ضيوف، طاولة واحدة، كرسيان. الكل يجلس على الأرض. لوكاس يحضر بيرة، هيلدي تحضر خبزا وملحا ('تقليد!')، لينا ترسل رسالة فيديو. فيروميوس يقيم أول حفلة له في ألمانيا. الشقة تشعر كالبيت لأول مرة."}
+        {type:"story",speaker:"narrator",mood:"سعيد",art:"de-einweihung",trg:"Samstag Abend. Zehn Gäste, ein Tisch, zwei Stühle. Alle sitzen auf dem Boden. Lukas bringt Bier, Hildi bringt Brot und Salz ('Tradition!'), Lena schickt eine Videobotschaft. Verumius hat sein erstes Fest in Deutschland. Die Wohnung fühlt sich zum ersten Mal wie zu Hause an.",src:"مساء السبت. عشرة ضيوف، طاولة واحدة، كرسيان. الكل يجلس على الأرض. لوكاس يحضر بيرة، هيلدي تحضر خبزا وملحا ('تقليد!')، لينا ترسل رسالة فيديو. فيروميوس يقيم أول حفلة له في ألمانيا. الشقة تشعر كالبيت لأول مرة."}
       ]},
 // ─── L11: Hildis Tee ───
     {id:"deu_r6l11",title:"Hildis Tee",icon:"🍵",xp:15,board:true,steps:[
         {type:"intro",title:"Hildis Tee",desc:"ذروة القصة. فيروميوس مدعو إلى شقة هيلدي لأول مرة. الماء الساخن عاد. هيلدي تصنع شايا. محادثة حقيقية تحدث.",goals:["راجع جميع مفردات الوحدة 6 في سياق القصة","تعلّم المفردات العاطفية","اكتشف شخصية هيلدي"]},
         {type:"story",speaker:"narrator",mood:"neutral",art:"de-hildi-apartment",trg:"Dienstagabend. Hildi klopft an die Tür. 'Das heiße Wasser funktioniert wieder. Ich habe die Reparatur selbst gemacht.' Pause. 'Möchten Sie... einen Tee? Bei mir?'",src:"مساء الثلاثاء. هيلدي تطرق الباب. 'الماء الساخن يعمل مجددا. أصلحته بنفسي.' توقف. 'هل تريد... شايا؟ عندي؟'"},
-        {type:"story",speaker:"narrator",mood:"happy",art:"de-hildi-wohnzimmer",trg:"Hildis Wohnung. Alles perfekt. Blumen auf jedem Fensterbrett. Fotos an der Wand: ein Mann mit freundlichen Augen. 'Mein Mann Werner,' sagt Hildi leise. 'Seit fünf Jahren...' Sie macht den Tee fertig.",src:"شقة هيلدي. كل شيء مثالي. زهور على كل حافة نافذة. صور على الجدار: رجل بعيون طيبة. 'زوجي فيرنر،' تقول هيلدي بهدوء. 'منذ خمس سنوات...' تنهي تحضير الشاي."},
-        {type:"mc",q:"'Das heiße Wasser funktioniert wieder.' أصلحت Hildi:",opts:["the cold water","the shower","the hot water","the toilet"],ans:"the hot water",hint:"Heiß عكس kalt. شيء أصلحته هيلدي أخيرا."},
+        {type:"story",speaker:"narrator",mood:"سعيد",art:"de-hildi-wohnzimmer",trg:"Hildis Wohnung. Alles perfekt. Blumen auf jedem Fensterbrett. Fotos an der Wand: ein Mann mit freundlichen Augen. 'Mein Mann Werner,' sagt Hildi leise. 'Seit fünf Jahren...' Sie macht den Tee fertig.",src:"شقة هيلدي. كل شيء مثالي. زهور على كل حافة نافذة. صور على الجدار: رجل بعيون طيبة. 'زوجي فيرنر،' تقول هيلدي بهدوء. 'منذ خمس سنوات...' تنهي تحضير الشاي."},
+        {type:"mc",q:"'Das heiße Wasser funktioniert wieder.' أصلحت Hildi:",opts:["الماء البارد","الدوش","الماء الساخن","المرحاض"],ans:"الماء الساخن",hint:"Heiß عكس kalt. شيء أصلحته هيلدي أخيرا."},
         {type:"fb",s:"Möchten Sie einen Tee {1} mir?",a:["bei"],opts:["bei","mit","von","zu"],hint:"عندي. أي حرف جر Dativ يعني 'عند شخص ما'؟",sSrc:"هل تريد شايا عندي؟"},
         {type:"story",speaker:"narrator",mood:"neutral",art:"de-hildi-tea",trg:"Sie sitzen am Tisch. Hildi gießt Tee ein. 'Seit wann sind Sie in Deutschland?' 'Seit einem Monat.' 'Und? Gefällt es Ihnen?' Verumius denkt nach. 'Ja. Es ist... anders. Aber gut.' Hildi nickt. 'Am Anfang ist alles schwer. Auch für mich war es schwer. Damals.'",src:"يجلسان عند الطاولة. هيلدي تصبّ الشاي. 'منذ متى وأنت في ألمانيا؟' 'منذ شهر.' 'و؟ هل يعجبك؟' فيروميوس يفكر. 'نعم. إنه... مختلف. لكن جيد.' هيلدي تومئ. 'في البداية، كل شيء صعب. بالنسبة لي أيضا كان صعبا. حينها.'"},
         {type:"mc",q:"'Seit einem Monat' أيّ حالة إعرابية تُستخدم بعد seit؟",opts:["accusative","nominative","dative","genitive"],ans:"dative",hint:"حروف الجر السبعة السحرية (aus, bei, mit, nach, seit, von, zu) كلها تتطلب أي حالة إعراب؟"},
         {type:"fb",s:"Am Anfang {1} alles schwer.",a:["ist"],opts:["ist","war","hat","wird"],hint:"في البداية، كل شيء صعب. جملة بالمضارع.",sSrc:"في البداية، كل شيء صعب."},
-        {type:"story",speaker:"narrator",mood:"happy",art:"de-hildi-smile",trg:"Hildi zeigt auf die Hausordnung an der Wand. 'Die habe ich selbst geschrieben. Vierzehn Seiten. Werner hat gelacht.' Zum ersten Mal lächelt sie richtig. 'Er hat gesagt: Hildi, du kannst ein Buch schreiben. Über Mülltrennung.'",src:"هيلدي تشير إلى نظام المنزل على الجدار. 'كتبته بنفسي. أربع عشرة صفحة. فيرنر ضحك.' لأول مرة تبتسم بحق. 'قال: هيلدي، تستطيعين كتابة كتاب. عن فرز النفايات.'"},
+        {type:"story",speaker:"narrator",mood:"سعيد",art:"de-hildi-smile",trg:"Hildi zeigt auf die Hausordnung an der Wand. 'Die habe ich selbst geschrieben. Vierzehn Seiten. Werner hat gelacht.' Zum ersten Mal lächelt sie richtig. 'Er hat gesagt: Hildi, du kannst ein Buch schreiben. Über Mülltrennung.'",src:"هيلدي تشير إلى نظام المنزل على الجدار. 'كتبته بنفسي. أربع عشرة صفحة. فيرنر ضحك.' لأول مرة تبتسم بحق. 'قال: هيلدي، تستطيعين كتابة كتاب. عن فرز النفايات.'"},
         {type:"mc",q:"تتضمّن الـ Hausordnung:",opts:["14 pages","7 pages","20 pages","3 pages"],ans:"14 pages",hint:"أربع عشرة صفحة. هيلدي كتبتها كلها بنفسها."},
         {type:"fb",s:"Werner {1}: 'Du kannst ein Buch schreiben!'",a:["lacht"],opts:["lacht","schreibt","liest","schläft"],hint:"ردة فعل فيرنر على نظام المنزل المكون من ١٤ صفحة. وجده مضحكا.",sSrc:"فيرنر يضحك: 'تستطيعين كتابة كتاب!'"},
-        {type:"story",speaker:"narrator",mood:"happy",art:"de-hildi-door",trg:"An der Tür. Hildi: 'Die Ruhezeit beginnt um 22 Uhr. Sie wissen das.' Verumius: 'Ja, Frau Schreiber.' Hildi: 'Hildi. Sie können Hildi sagen.' Die Tür schließt sich. Verumius steht im Flur und lächelt. Hildi. Nicht Frau Schreiber. Ein Durchbruch.",src:"عند الباب. هيلدي: 'ساعات الهدوء تبدأ الساعة العاشرة مساء. أنت تعلم ذلك.' فيروميوس: 'نعم، سيدة شرايبر.' هيلدي: 'هيلدي. يمكنك أن تقول هيلدي.' الباب يُغلق. فيروميوس يقف في الممر ويبتسم. هيلدي. ليس سيدة شرايبر. اختراق."},
+        {type:"story",speaker:"narrator",mood:"سعيد",art:"de-hildi-door",trg:"An der Tür. Hildi: 'Die Ruhezeit beginnt um 22 Uhr. Sie wissen das.' Verumius: 'Ja, Frau Schreiber.' Hildi: 'Hildi. Sie können Hildi sagen.' Die Tür schließt sich. Verumius steht im Flur und lächelt. Hildi. Nicht Frau Schreiber. Ein Durchbruch.",src:"عند الباب. هيلدي: 'ساعات الهدوء تبدأ الساعة العاشرة مساء. أنت تعلم ذلك.' فيروميوس: 'نعم، سيدة شرايبر.' هيلدي: 'هيلدي. يمكنك أن تقول هيلدي.' الباب يُغلق. فيروميوس يقف في الممر ويبتسم. هيلدي. ليس سيدة شرايبر. اختراق."},
         {type:"mc",q:"ماذا تقدّم Hildi لـ Verumius؟",opts:["مفتاح شقتها","نسخة من لائحة المبنى","وظيفة في إدارة المبنى","إذن باستخدام اسمها الأول"],ans:"إذن باستخدام اسمها الأول",hint:"Sie können Hildi sagen. من الرسمي إلى الشخصي. اختراق."},
         {type:"drag_fill",s:"Hildi wohnt {1} fünf Jahren alleine. Ihr Mann Werner ist {2} fünf Jahren nicht mehr da.",blanks:{"1":"seit","2":"seit"},pool:["seit","vor","nach","bis","um"],hint:"منذ خمس سنوات. كلا الفراغين يستخدمان نفس حرف الجر Dativ للمدة.",sSrc:"هيلدي تعيش وحدها منذ خمس سنوات. زوجها فيرنر رحل منذ خمس سنوات."},
         {type:"teach",trg:"die Ruhezeit",src:"ساعات الهدوء",pos:"noun",gender:"f",note:"اسم مؤنث. Ruhe (هدوء) + Zeit (وقت). فترات صمت إلزامية.",example:"A: Ab wann gilt die Ruhezeit?\nB: Ab 22 Uhr. Kein Lärm mehr.",exampleSrc:"A: من متى تبدأ ساعات الهدوء؟\nB: من العاشرة مساء. لا مزيد من الضوضاء.",funFact:"ساعات الهدوء الألمانية (Ruhezeiten) قانون: عادة ٢٢:٠٠ حتى ٦:٠٠ ليلا و١٣:٠٠ حتى ١٥:٠٠ ظهرا. مخالفتها تكسبك شكوى من جارك. هيلدي تطبّقها بصرامة."},
@@ -350,11 +350,11 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
 ]},
         {type:"fb",s:"Es {1} mir hier in Deutschland.",a:["gefällt"],opts:["gefällt","schmeckt","ist","hat"],hint:"يعجبني هنا. الشيء يسعدني. فعل مع Dativ.",sSrc:"يعجبني هنا في ألمانيا."},
         {type:"mc",q:"المسار العاطفي لهذا الدرس يُظهر Hildi بوصفها:",opts:[
-    "strict but caring, with hidden vulnerability",
+    "صارمة لكن حنونة، مع ضعف مخفي",
     "cold and distant always",
     "only interested in rules",
     "angry about the hot water"
-],ans:"strict but caring, with hidden vulnerability",hint:"نظام المنزل، الشاي، عرض الاسم الأول. طبقات."},
+],ans:"صارمة لكن حنونة، مع ضعف مخفي",hint:"نظام المنزل، الشاي، عرض الاسم الأول. طبقات."},
         {type:"tip",title:"A1 Complete: Verumius Has a Home",text:"الوحدة ٦ هي نهاية A1.\n\nفيروميوس الآن لديه:\n1. شقة (مع نظام منزل من ١٤ صفحة)\n2. صديق (لوكاس)\n3. مالكة بيت تصبح صديقة (هيلدي)\n4. ماء ساخن (أخيرا)\n5. كل الألمانية التي يحتاجها للبقاء\n\nلكن A1 مجرد بقاء.\nA2 حيث يبدأ التواصل الحقيقي."}
       ]},
 // ─── L12: Alles auf Deutsch ───
@@ -372,7 +372,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"mc",q:"Was ist dein Beruf? 'Ich bin ___.'",opts:["Lehrerin","eine Lehrerin","die Lehrerin","Lehrerinnen"],ans:"Lehrerin",hint:"الألمانية تسقط أداة التعريف للمهن!"},
         {type:"drag_fill",s:"Ich {1} gern Fußball und {2} gern Bücher.",blanks:{"1":"spiele","2":"lese"},pool:["spiele","lese","tanze","schwimme","singe","male"],hint:"لعب كرة القدم وقراءة الكتب. هوايتان.",sSrc:"أحب لعب كرة القدم وأحب قراءة الكتب."},
         {type:"drag_fill",s:"Ich {1} Lukas zur Einweihungsfeier {2}.",blanks:{"1":"lade","2":"ein"},pool:["lade","ein","bringe","hole","schenke","feiere"],hint:"الفعل المنفصل ينقسم: الجذع المصرّف في {1}، البادئة تذهب للنهاية عند {2}.",sSrc:"أدعو لوكاس إلى حفل تدشين المنزل."},
-        {type:"mc",q:"هدايا حفل الانتقال التقليدية في ألمانيا:",opts:["flowers and wine","money and cards","bread and salt","books and music"],ans:"bread and salt",hint:"حتى لا ينقص البيت طعاما."},
+        {type:"mc",q:"هدايا حفل الانتقال التقليدية في ألمانيا:",opts:["ورود ونبيذ","مال وبطاقات","خبز وملح","كتب وموسيقى"],ans:"خبز وملح",hint:"حتى لا ينقص البيت طعاما."},
         {type:"match",pairs:[
     {trg:"der Arzt",src:"طبيب"},
     {trg:"das Formular",src:"استمارة"},
@@ -425,10 +425,10 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
     {trg:"arbeitslos",src:"عاطل عن العمل"},
     {trg:"der Kurs",src:"الدورة"}
 ]},
-        {type:"fb",s:"Er ist {1}. Er hat keine Arbeit.",a:["arbeitslos"],opts:["arbeitslos","selbständig","kulturell","normal"],hint:"فكّر في معنى الكلمة.",sSrc:"He is unemployed. He has no work."},
+        {type:"fb",s:"Er ist {1}. Er hat keine Arbeit.",a:["arbeitslos"],opts:["arbeitslos","selbständig","kulturell","normal"],hint:"فكّر في معنى الكلمة.",sSrc:"هو عاطل عن العمل. ليس لديه وظيفة."},
         {type:"mc",q:"How do you say 'workplace' in German?",opts:["die Arbeit","der Arbeitsplatz hier","der Arbeitsplatz","das Arbeiten"],ans:"der Arbeitsplatz",hint:"فكّر في معنى الكلمة."},
         {type:"mc",q:"Which word means 'to become'?",opts:["verdienen","arbeiten","lernen","werden"],ans:"werden",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'der Doktor'?",opts:["the student/pupil (male)","the class/classroom","self-employed/independent","the doctor/PhD"],ans:"the doctor/PhD",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'der Doktor'?",opts:["الطالب (ذكر)","الصف / الفصل","يعمل لحسابه الخاص","الطبيب / الدكتور"],ans:"الطبيب / الدكتور",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L15: Stift und Papier ───
     {id:"deu_r6l14",title:"Stift und Papier",icon:"✏️",xp:15,board:true,steps:[
@@ -458,7 +458,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"teach",trg:"das Wort",src:"الكلمة",pos:"noun",gender:"n",note:"اسم محايد. جمعان: die Wörter (كلمات مفردة)، die Worte (كلام متصل/أقوال).",example:"A: Was bedeutet dieses Wort?\nB: Dieses Wort bedeutet Freundschaft.",exampleSrc:"A: ماذا تعني هذه الكلمة؟\nB: هذه الكلمة تعني الصداقة.",funFact:"الألمانية تميّز بين Wörter (كلمات القاموس المفردة) و Worte (كلمات ذات معنى في السياق، مثل آخر الكلمات)."},
         {type:"teach",trg:"die Zeitung",src:"الجريدة",pos:"noun",gender:"f",note:"اسم مؤنث. الجمع: die Zeitungen. من Zeit (وقت) + -ung.",example:"A: Liest du die Zeitung?\nB: Ja, ich lese die Zeitung am Morgen.",exampleSrc:"A: هل تقرأ الجريدة؟\nB: نعم، أقرأ الجريدة صباحا.",funFact:"Bild-Zeitung (بيلد) أكثر الصحف قراءة في ألمانيا، مشهورة بعناوينها الجريئة وأسلوبها الشعبي."},
         {type:"teach",trg:"der Film",src:"الفيلم",pos:"noun",gender:"m",note:"اسم مذكر. الجمع: die Filme.",example:"A: Welchen Film möchtest du sehen?\nB: Ich möchte einen deutschen Film sehen.",exampleSrc:"A: أي فيلم تريد مشاهدته؟\nB: أريد مشاهدة فيلم ألماني.",funFact:"ألمانيا لديها صناعة سينما قوية. مهرجان برلين السينمائي الدولي (Berlinale) من أهم ثلاثة مهرجانات في العالم."},
-        {type:"mc",q:"ما معنى 'der Fehler'؟",opts:["the solution","the mistake","the result","the task"],ans:"the mistake",hint:"فكر بشيء تريد تصحيحه."},
+        {type:"mc",q:"ما معنى 'der Fehler'؟",opts:["الحل","الخطأ","النتيجة","المهمة"],ans:"الخطأ",hint:"فكر بشيء تريد تصحيحه."},
         {type:"fb",s:"Ich brauche einen {1} und Papier.",a:"Bleistift",opts:["Bleistift","Buchstabe","Bogen","Buch"],hint:"أداة كتابة مصنوعة من الخشب بداخلها غرافيت.",sSrc:"أحتاج قلم رصاص وورقا."},
         {type:"mc",q:"أيّ كلمة تعني 'الموضوع'؟",opts:["der Text","der Satz","das Wort","das Thema"],ans:"das Thema",hint:"هذا الاسم المحايد يأتي من اليونانية ويعني موضوع النقاش."},
         {type:"match",pairs:[
@@ -469,9 +469,9 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
     {trg:"der Film",src:"الفيلم"}
 ]},
         {type:"mc",q:"'Kugelschreiber' wird oft abgekürzt als:",opts:["Kugel","Kuli","Schreiber","KS"],ans:"Kuli",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"Was ist das {1} heute?",a:["Thema"],opts:["Thema","Text","Wort","Satz"],hint:"فكّر في معنى الكلمة.",sSrc:"What is the topic today?"},
+        {type:"fb",s:"Was ist das {1} heute?",a:["Thema"],opts:["Thema","Text","Wort","Satz"],hint:"فكّر في معنى الكلمة.",sSrc:"ما موضوع اليوم؟"},
         {type:"mc",q:"Which word means 'the topic'?",opts:["der Text","der Satz","das Wort","das Thema"],ans:"das Thema",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'das Papier'?",opts:["the advertisement/display","the topic/theme","the answer","the paper"],ans:"the paper",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'das Papier'?",opts:["الإعلان / العرض","الموضوع","الإجابة","الورقة"],ans:"الورقة",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L17: Am Telefon ───
     {id:"deu_r6l15",title:"Am Telefon",icon:"📱",xp:15,board:true,steps:[
@@ -501,7 +501,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"teach",trg:"benutzen",src:"يستخدم",pos:"verb",gender:null,note:"فعل منتظم. ich benutze, du benutzt, er/sie benutzt. مرادف: verwenden.",example:"A: Kann ich dein Telefon benutzen?\nB: Ja, du kannst es benutzen.",exampleSrc:"A: هل يمكنني استخدام هاتفك؟\nB: نعم، يمكنك استخدامه.",funFact:"Benutzen و verwenden كلاهما يعني يستخدم. Benutzen أقل رسمية، verwenden أكثر رسمية."},
         {type:"mc",q:"ما هي العبارة الألمانية لـ 'مع السلامة' على الهاتف؟",opts:["Auf Wiedersehen","Tschüss","Bis bald","Auf Wiederhören"],ans:"Auf Wiederhören",hint:"هذه العبارة تستخدم كلمة السمع، وليس البصر."},
         {type:"fb",s:"Kannst du das bitte {1}? Ich brauche eine Kopie.",a:"drucken",opts:["drucken","drücken","benutzen","schicken"],hint:"هذا الفعل يعني عمل نسخة ورقية بآلة.",sSrc:"هل يمكنك طباعة ذلك من فضلك؟ أحتاج نسخة."},
-        {type:"mc",q:"ما معنى 'der Empfänger'؟",opts:["the sender","the stamp","the area code","the recipient"],ans:"the recipient",hint:"هذا الشخص على الطرف الآخر من توصيل البريد."},
+        {type:"mc",q:"ما معنى 'der Empfänger'؟",opts:["المُرسِل","الطابع","رمز المنطقة","المُستلِم"],ans:"المُستلِم",hint:"هذا الشخص على الطرف الآخر من توصيل البريد."},
         {type:"match",pairs:[
     {trg:"der Absender",src:"المُرسِل"},
     {trg:"die Briefmarke",src:"الطابع"},
@@ -510,11 +510,11 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
     {trg:"das Lied",src:"الأغنية"}
 ]},
         {type:"mc",q:"Was ist ein 'Lieblingslied'?",opts:["ein langes Lied","das Lied, das man am meisten mag","ein altes Lied","ein Liebeslied"],ans:"das Lied, das man am meisten mag",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"{1} den grünen Knopf!",a:["Drück"],opts:["Drück","Druck","Benutz","Schreib"],hint:"فكّر في معنى الكلمة.",sSrc:"Press the green button!"},
+        {type:"fb",s:"{1} den grünen Knopf!",a:["Drück"],opts:["Drück","Druck","Benutz","Schreib"],hint:"فكّر في معنى الكلمة.",sSrc:"اضغط الزر الأخضر!"},
         {type:"mc",q:"What is the German phrase for 'goodbye' on the phone?",opts:["Auf Wiedersehen (formal)","Tschüss","Auf Wiederhören","Bis bald"],ans:"Auf Wiederhören",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'das Internet'?",opts:["to print","the printer","the favorite song","the internet"],ans:"the internet",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"mc",q:"Was bedeutet 'das Internet'?",opts:["يطبع","الطابعة","الأغنية المفضّلة","الإنترنت"],ans:"الإنترنت",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'the favorite song' auf Deutsch? {1}",a:["das Lieblingslied"],opts:["das Lieblingslied","das Wiederhören","das Fax","das Gespräch"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the favorite song' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'automatisch'?",opts:["the favorite song","automatic","the sender","to use"],ans:"automatic",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'automatisch'?",opts:["الأغنية المفضّلة","تلقائي","المُرسِل","to use"],ans:"تلقائي",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L19: Was machst du so? ───
     {id:"deu_r6l16",title:"Was machst du so?",icon:"🎬",xp:15,board:true,steps:[
@@ -553,7 +553,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"teach",trg:"fernsehen",src:"to watch TV",pos:"verb",gender:null,note:"Separable: Ich sehe fern. Das Fernsehen = television (noun).",example:"A: Was machst du heute Abend?\nB: Ich sehe ein bisschen fern.",exampleSrc:"A: What are you doing tonight?\nB: I'm watching a bit of TV.",funFact:"Fernsehen literally means 'far-seeing.' Germans watch about 3.5 hours of TV per day on average."},
         {type:"teach",trg:"gewinnen",src:"to win",pos:"verb",gender:null,note:"Irregular past: gewann, hat gewonnen.",example:"A: Wer hat das Spiel gewonnen?\nB: Deutschland hat drei zu eins gewonnen!",exampleSrc:"A: Who won the game?\nB: Germany won three to one!",funFact:"Der Gewinner (winner) and der Gewinn (prize/profit) both come from gewinnen."},
         {type:"teach",trg:"glauben",src:"to believe",pos:"verb",gender:null,note:"Regular verb. Ich glaube (nicht) = I (don't) think so.",example:"A: Kommt er heute?\nB: Ich glaube nicht. Er ist krank.",exampleSrc:"A: Is he coming today?\nB: I don't think so. He is sick.",funFact:"Ich glaube schon (I think so) and Ich glaube nicht (I don't think so) are among the most common German phrases."},
-        {type:"teach",trg:"kümmern",src:"to care / take care of",pos:"verb",gender:null,note:"Reflexive: sich kümmern um + accusative. Ich kümmere mich darum.",example:"A: Wer kümmert sich um die Kinder?\nB: Ich kümmere mich heute um sie.",exampleSrc:"A: Who takes care of the children?\nB: I'll take care of them today.",funFact:"Kummer means grief or sorrow. Sich kümmern originally meant to worry about something, now it means to take care of it."},
+        {type:"teach",trg:"kümmern",src:"يعتني بـ / يهتم بـ",pos:"verb",gender:null,note:"Reflexive: sich kümmern um + accusative. Ich kümmere mich darum.",example:"A: Wer kümmert sich um die Kinder?\nB: Ich kümmere mich heute um sie.",exampleSrc:"A: Who takes care of the children?\nB: I'll take care of them today.",funFact:"Kummer means grief or sorrow. Sich kümmern originally meant to worry about something, now it means to take care of it."},
         {type:"fb",s:"Ich {1} mich um die Kinder.",a:["kümmere"],opts:["kümmere","glaube","gewinne","lache"],hint:"فكّر في معنى الكلمة.",sSrc:"I take care of the children."},
         {type:"teach",trg:"lachen",src:"to laugh",pos:"verb",gender:null,note:"Regular verb. Lach nicht! = Don't laugh!",example:"A: Warum lachst du?\nB: Der Film ist so lustig!",exampleSrc:"A: Why are you laughing?\nB: The movie is so funny!",funFact:"Das Lachen is contagious in any language. Germans even have Lachyoga (laughter yoga) classes."},
         {type:"teach",trg:"leben",src:"to live",pos:"verb",gender:null,note:"Regular verb. Means to be alive / to reside. Das Leben = life.",example:"A: Wo lebst du?\nB: Ich lebe in Hamburg.",exampleSrc:"A: Where do you live?\nB: I live in Hamburg.",funFact:"Leben and wohnen both mean 'to live,' but leben is broader (to be alive, to exist) while wohnen is specifically about where you reside."},
@@ -564,7 +564,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"mc",q:"Which verb means 'to register or sign up'?",opts:["ausfüllen","abgeben","ankreuzen","anmelden"],ans:"anmelden",hint:"فكّر في معنى الكلمة."},
         {type:"fb",s:"Ich {1} heute Abend ein bisschen fern.",a:"sehe",opts:["sehe","mache","gebe","fülle"],hint:"فكّر في معنى الكلمة.",sSrc:"I watch a bit of TV tonight."},
         {type:"mc",q:"'Du fehlst mir' means...",opts:["You are wrong","You are late","I miss you","I need you"],ans:"I miss you",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'kümmern'?",opts:["to allow / permit","to click on","to tell / narrate","to care / take care of"],ans:"to care / take care of",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'kümmern'?",opts:["يسمح","ينقر على","يحكي / يروي","يعتني بـ / يهتم بـ"],ans:"يعتني بـ / يهتم بـ",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L21: Zeit und Feste ───
     {id:"deu_r6l17",title:"Zeit und Feste",icon:"🎊",xp:15,board:true,steps:[
@@ -598,15 +598,15 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"teach",trg:"enden",src:"ينتهي",pos:"verb",gender:null,note:"فعل منتظم. Das Ende = النهاية (اسم). Enden تعني أيضا ينهي.",example:"A: Wann endet das Konzert?\nB: Es endet um elf Uhr.",exampleSrc:"A: متى ينتهي الحفل؟\nB: ينتهي الساعة الحادية عشرة.",funFact:"Endlich! تعني 'أخيرا!' بالألمانية. تأتي من Ende وتعبّر عن الراحة لانتهاء شيء."},
         {type:"teach",trg:"gratulieren",src:"يهنّئ",pos:"verb",gender:null,note:"فعل منتظم. Ich gratuliere dir! = أهنّئك!",example:"A: Ich habe einen neuen Job!\nB: Toll! Ich gratuliere dir!",exampleSrc:"A: حصلت على وظيفة جديدة!\nB: رائع! أهنّئك!",funFact:"الألمان يهنّئون (gratulieren) لأعياد الميلاد والامتحانات والزفاف والوظائف الجديدة. دائما يتبعه Dativ (dir, Ihnen)."},
         {type:"teach",trg:"heiraten",src:"يتزوج",pos:"verb",gender:null,note:"فعل منتظم. Die Heirat = الزواج (اسم). Wir heiraten! = سنتزوج!",example:"A: Wann heiratet ihr?\nB: Wir heiraten im September.",exampleSrc:"A: متى ستتزوجون؟\nB: سنتزوج في سبتمبر.",funFact:"في ألمانيا يجب إجراء حفل مدني في Standesamt (مكتب السجل المدني). الزفاف الكنسي وحده غير ملزم قانونيا."},
-        {type:"mc",q:"ما معنى 'der Feierabend'؟",opts:["the end of the work day","the public holiday","the celebration","the weekend"],ans:"the end of the work day",hint:"بعد إنهاء التزاماتك المهنية، هذه لحظة الحرية."},
+        {type:"mc",q:"ما معنى 'der Feierabend'؟",opts:["نهاية يوم العمل","العطلة الرسمية","الاحتفال","نهاية الأسبوع"],ans:"نهاية يوم العمل",hint:"بعد إنهاء التزاماتك المهنية، هذه لحظة الحرية."},
         {type:"fb",s:"Herzlichen {1} zum Geburtstag!",a:"Glückwunsch",opts:["Glückwunsch","Glück","Hochzeit","Feiertag"],hint:"هذا الاسم المركّب يجمع بين الحظ والأمنية.",sSrc:"أمنيات عيد ميلاد سعيد!"},
         {type:"mc",q:"أيّ كلمة هي الطريقة الرسمية لقول 'ربيع'؟",opts:["der Frühling","die Frühzeit","das Frühjahr","der Frühstart"],ans:"das Frühjahr",hint:"هذا المركّب يجمع 'مبكر' مع 'سنة.'"},
         {type:"fb",s:"Wann {1} der Kurs? Um neun Uhr.",a:"beginnt",opts:["beginnt","endet","macht","geht"],hint:"هذا الفعل الرسمي لبدء شيء.",sSrc:"متى تبدأ الدورة؟ الساعة التاسعة."},
-        {type:"fb",s:"Bist du in einem {1}?",a:["Verein"],opts:["Verein","Gruppe","Wind","Moment"],hint:"فكّر في معنى الكلمة.",sSrc:"Are you in a club?"},
+        {type:"fb",s:"Bist du in einem {1}?",a:["Verein"],opts:["Verein","Gruppe","Wind","Moment"],hint:"فكّر في معنى الكلمة.",sSrc:"هل أنت في نادٍ؟"},
         {type:"mc",q:"Which word is the formal way to say 'spring'?",opts:["der Frühling","die Frühzeit","das Frühjahr","der Frühstart"],ans:"das Frühjahr",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'beginnen'?",opts:["to begin","the group","to congratulate","spring (formal)"],ans:"to begin",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"mc",q:"Was bedeutet 'beginnen'?",opts:["يبدأ","المجموعة","يهنّئ","الربيع (رسمي)"],ans:"يبدأ",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to congratulate' auf Deutsch? {1}",a:["gratulieren"],opts:["das Jahr","gratulieren","der Wochentag","das Ende"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to congratulate' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'heiraten'?",opts:["to end","the group","the public holiday","to marry"],ans:"to marry",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'heiraten'?",opts:["ينتهي","المجموعة","العطلة الرسمية","يتزوج"],ans:"يتزوج",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L23: Noch mehr Verben ───
     {id:"deu_r6l18",title:"Noch mehr Verben",icon:"💪",xp:15,board:true,steps:[
@@ -634,14 +634,14 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"teach",trg:"später",src:"لاحقا",pos:"adv",gender:null,note:"صيغة تفضيل من spät (متأخر). Bis später! = إلى اللقاء!",example:"A: Kommst du jetzt?\nB: Nein, ich komme später. Bis später!",exampleSrc:"A: هل ستأتي الآن؟\nB: لا، سآتي لاحقا. إلى اللقاء!",funFact:"Bis später من أكثر أشكال الوداع الألمانية شيوعا. Spätestens تعني 'على أبعد تقدير.'"},
         {type:"teach",trg:"heute",src:"اليوم",pos:"adv",gender:null,note:"ظرف. Heute Morgen = هذا الصباح. Heute Abend = هذا المساء.",example:"A: Was machst du heute?\nB: Heute gehe ich einkaufen und dann ins Kino.",exampleSrc:"A: ماذا تفعل اليوم؟\nB: اليوم سأتسوق ثم أذهب إلى السينما.",funFact:"Heutzutage تعني 'في أيامنا هذه.' Heute مرتبطة بالإنجليزية today عبر الجذر الجرماني لـ 'هذا اليوم.'"},
         {type:"teach",trg:"bis",src:"حتى",pos:"prep",gender:null,note:"حرف جر. Bis morgen! = إلى الغد! Bis wann? = حتى متى؟",example:"A: Bis wann bist du im Büro?\nB: Bis fünf Uhr. Dann mache ich Feierabend.",exampleSrc:"A: حتى متى أنت في المكتب؟\nB: حتى الساعة الخامسة. ثم أنهي العمل.",funFact:"Bis من أكثر الكلمات الصغيرة فائدة. Bis bald (إلى اللقاء قريبا)، bis gleich (إلى اللقاء حالا)، bis dann (إلى حينها)."},
-        {type:"mc",q:"ما معنى 'wehtun'؟",opts:["to wait","to repeat","to be gone","to hurt / ache"],ans:"to hurt / ache",hint:"فكر بشيء يسبب ألما في جسمك."},
+        {type:"mc",q:"ما معنى 'wehtun'؟",opts:["ينتظر","يكرّر","غائب","يؤلم"],ans:"يؤلم",hint:"فكر بشيء يسبب ألما في جسمك."},
         {type:"fb",s:"Ich {1} auf den Bus. Er kommt bald.",a:"warte",opts:["warte","fahre","bin","mache"],hint:"هذا الفعل المنتظم يأخذ حرف الجر auf لما تنتظره.",sSrc:"أنتظر الحافلة. ستأتي قريبا."},
         {type:"mc",q:"'Bis später' تعني...",opts:["صباح الخير","أراك لاحقًا","وداعاً للأبد","إلى الغد"],ans:"أراك لاحقًا",hint:"Bis تعني حتى. Später تعني في وقت لاحق."},
         {type:"fb",s:"Letzte {1} war ich im Kino.",a:"Woche",opts:["Woche","Tag","Jahr","Monat"],hint:"سبعة أيام تشكّل هذه الفترة الزمنية.",sSrc:"الأسبوع الماضي كنت في السينما."},
         {type:"story",speaker:"narrator",mood:"content",art:"de-altbau-window-sunset",trg:"Abend. Verumius sitzt am Fenster. Warmer Tee, warmes Wasser, warme Wohnung. Draußen leuchtet Berlin. Hildi hatte Recht: am Anfang ist alles schwer. Aber danach wird es leichter. Bis zum nächsten Abenteuer.",src:"المساء. فيروميوس يجلس عند النافذة. شاي دافئ، ماء دافئ، شقة دافئة. بالخارج، برلين تتوهج. هيلدي كانت محقة: في البداية، كل شيء صعب. لكن بعد ذلك، يصبح أسهل. حتى المغامرة القادمة."},
-        {type:"fb",s:"{1} Woche war ich im Kino.",a:["Letzte"],opts:["Letzte","Nächste","Heute","Morgen"],hint:"فكّر في معنى الكلمة.",sSrc:"Last week I was at the cinema."},
-        {type:"mc",q:"Was bedeutet 'glücklich'?",opts:["football / soccer","to be gone / away","later","happy"],ans:"happy",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie war das Leben {1}?",a:["früher"],opts:["aus sein","zu sein","tot","früher"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"How was life in the past?"}
+        {type:"fb",s:"{1} Woche war ich im Kino.",a:["Letzte"],opts:["Letzte","Nächste","Heute","Morgen"],hint:"فكّر في معنى الكلمة.",sSrc:"الأسبوع الماضي كنت في السينما."},
+        {type:"mc",q:"Was bedeutet 'glücklich'?",opts:["كرة القدم","غائب / بعيد","لاحقًا","سعيد"],ans:"سعيد",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie war das Leben {1}?",a:["früher"],opts:["aus sein","zu sein","tot","früher"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف كانت الحياة في الماضي؟"}
       ]}
   ]};
 

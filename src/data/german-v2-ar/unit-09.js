@@ -11,12 +11,12 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"teach",trg:"der Fan",pos:"noun",gender:"m",src:"المشجّع",note:"اسم مذكر. الجمع: die Fans. مستعار من الإنجليزية.",example:"A: Bist du ein Fan von Bayern München?\nB: Nein! Ich bin ein Fan von Dortmund!\nA: Oh, dann können wir nicht Freunde sein.",exampleSrc:"أ: هل أنت مشجّع لبايرن ميونخ؟\nب: لا! أنا مشجّع لدورتموند!\nأ: إذاً لا يمكننا أن نكون أصدقاء.",funFact:"الدوري الألماني (Bundesliga) لديه أعلى متوسط حضور جماهيري في العالم. 'الجدار الأصفر' (Gelbe Wand) في دورتموند يتسع لـ 25,000 مشجع واقف في قسم واحد فقط."},
         {type:"teach",trg:"die Mannschaft",pos:"noun",gender:"f",src:"الفريق",note:"اسم مؤنث. الجمع: die Mannschaften.",example:"A: Welche Mannschaft spielt heute?\nB: Die Mannschaft aus Berlin spielt gegen Hamburg.\nA: Das wird ein gutes Spiel!",exampleSrc:"أ: أي فريق يلعب اليوم؟\nب: الفريق من برلين يلعب ضد هامبورغ.\nأ: ستكون مباراة جيدة!",funFact:"المنتخب الألماني لكرة القدم يُسمى ببساطة 'die Mannschaft' (الفريق). الكلمة مشتقة من 'Mann' (رجل) + '-schaft' (لاحقة جمعية), مثل '-ship' في الإنجليزية."},
         {type:"teach",trg:"der Sportplatz",pos:"noun",gender:"m",src:"ملعب الرياضة",note:"اسم مركب مذكر. : Sport + Platz (place).",example:"A: Wo ist der Sportplatz?\nB: Der Sportplatz ist hinter der Schule.\nA: Danke! Wir trainieren dort um vier.",exampleSrc:"أ: أين ملعب الرياضة؟\nب: ملعب الرياضة خلف المدرسة.\nأ: شكراً! نتدرب هناك الساعة الرابعة.",funFact:"كل حي ألماني لديه ملعب رياضي. يوجد أكثر من 90,000 منشأة رياضية في ألمانيا. حتى القرى الصغيرة لديها ملعب كرة قدم خاص بها مع نادٍ."},
-        {type:"mc",q:"Mia says 'Die Mannschaft trainiert auf dem Sportplatz.' Where does the team train?",opts:["At the train station","On the sports field","In the swimming pool","At the supermarket"],ans:"On the sports field",hint:"كلمة مركبة من Sport وكلمة تعني 'مكان'."},
+        {type:"mc",q:"Mia تقول 'Die Mannschaft trainiert auf dem Sportplatz.' أين يتدرب الفريق؟",opts:["في محطة القطار","في الملعب الرياضي","في المسبح","في السوبرماركت"],ans:"في الملعب الرياضي",hint:"كلمة مركبة من Sport وكلمة تعني 'مكان'."},
         {type:"fb",s:"Bist du ein {1} von Dortmund?",a:["Fan"],opts:["Fan","Ball","Spiel","Mannschaft"],hint:"أي كلمة مستعارة من الإنجليزية تعني مناصراً لفريق؟",sSrc:"هل أنت مشجّع لدورتموند؟"},
         {type:"teach",trg:"das Training",pos:"noun",gender:"n",src:"التدريب",note:"اسم محايد. لا جمع شائع في الاستخدام اليومي.",example:"A: Wann ist das Training?\nB: Das Training ist um sechs Uhr.\nA: So früh? Das ist hart!",exampleSrc:"أ: متى التدريب؟\nب: التدريب الساعة السادسة.\nأ: بهذا البكور؟ هذا صعب!",funFact:"الألمان يأخذون جداول التدريب على محمل الجد. تستمر تدريبات الأندية طوال العام في كل الأحوال. عبارة 'Übung macht den Meister' (التمرين يصنع المحترف) هي شعار وطني."},
         {type:"teach",trg:"das Spiel",pos:"noun",gender:"n",src:"اللعبة / المباراة",note:"اسم محايد. الجمع: die Spiele.",example:"A: Wie war das Spiel?\nB: Das Spiel war fantastisch! 3:1 für uns.\nA: Toll! Wer hat die Tore geschossen?",exampleSrc:"أ: كيف كانت المباراة؟\nب: المباراة كانت رائعة! 3-1 لصالحنا.\nأ: ممتاز! من سجّل الأهداف؟",funFact:"كلمة 'Spiel' أعطتنا 'Spielplatz' (ملعب أطفال), 'Spielzeug' (لعبة, حرفياً أغراض اللعب), والفعل 'spielen.' اسم عائلة ستيفن سبيلبرغ يعني حرفياً 'جبل اللعب.'"},
         {type:"teach",trg:"der Spaziergang",pos:"noun",gender:"m",src:"المشي / التنزّه",note:"مذكر. compound: spazieren (to stroll) + Gang (way/path).",example:"A: Machen wir einen Spaziergang?\nB: Ja, gerne! Im Park?\nA: Perfekt. Die Sonne scheint.",exampleSrc:"أ: هل نذهب في نزهة؟\nب: نعم, بكل سرور! في الحديقة؟\nأ: ممتاز. الشمس مشرقة.",funFact:"نزهة يوم الأحد 'Spaziergang' تقليد ألماني مقدس. بعد الغداء, تمشي العائلات في الحدائق أو الغابات. يُعتبر صحياً واجتماعياً وألمانياً بامتياز. البعض يسميه 'Verdauungsspaziergang' (نزهة الهضم)."},
-        {type:"mc",q:"Verumius says 'Machen wir einen Spaziergang im Park?' What is he suggesting?",opts:["Let's go for a walk in the park","Let's eat in the park","Let's play a game in the park","Let's train in the park"],ans:"Let's go for a walk in the park",hint:"الـ 'Spaziergang' نشاط خارجي هادئ ومريح."},
+        {type:"mc",q:"يقول فيروميوس 'Machen wir einen Spaziergang im Park?' ماذا يقترح؟",opts:["لنتمشى في المنتزه","لنأكل في المنتزه","لنلعب في المنتزه","لنتدرب في المنتزه"],ans:"لنتمشى في المنتزه",hint:"الـ 'Spaziergang' نشاط خارجي هادئ ومريح."},
         {type:"story",speaker:"narrator",mood:"struggling",art:"de-volkspark-running",trg:"Die Gruppe läuft los. Mia ist vorne, schnell und leicht. Verumius ist hinten. Seine Beine sind schwer. Sein Atem ist laut. Ein älterer Mann überholt ihn. Eine Frau mit Kinderwagen überholt ihn.",src:"المجموعة تبدأ الجري. ميا في المقدمة, سريعة وخفيفة. فيروميوس في المؤخرة. ساقاه ثقيلتان. تنفسه مرتفع. رجل مسن يتجاوزه. امرأة بعربة أطفال تتجاوزه."}
       ]},
 // ─── L2: Der Lauftreff (Teil 2) ───
@@ -28,23 +28,23 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"fb",s:"Ich {1} jeden Morgen im Park.",a:["jogge"],opts:["jogge","spaziere","trainiere","spiele"],hint:"أي فعل يعني تحديداً الجري بوتيرة معتدلة؟",sSrc:"أركض كل صباح في الحديقة."},
         {type:"teach",trg:"aktiv",pos:"adj",gender:null,src:"نشيط",note:"نفس الإملاء بالإنجليزية. تُستخدم مع sein: 'Ich bin aktiv.'",example:"A: Bist du sportlich?\nB: Ja, ich bin sehr aktiv. Ich jogge und schwimme.\nA: Respekt!",exampleSrc:"أ: هل أنت رياضي؟\nب: نعم, أنا نشيط جداً. أركض وأسبح.\nأ: احترام!",funFact:"ألمانيا من بين الدول الأكثر نشاطاً بدنياً في أوروبا. أكثر من 27 مليون ألماني أعضاء في نادٍ رياضي. أي واحد من كل ثلاثة أشخاص!"},
         {type:"teach",trg:"sportlich",pos:"adj",gender:null,src:"رياضي",note:"From 'Sport' + '-lich' (similar to English '-ly'). تُستخدم للأشخاص والأشياء.",example:"A: Mia ist wirklich sportlich!\nB: Ja, sie trainiert jeden Tag.\nA: Ich bin leider nicht so sportlich.",exampleSrc:"أ: ميا رياضية حقاً!\nب: نعم, تتدرب كل يوم.\nأ: للأسف لست رياضياً بهذا القدر.",funFact:"اللاحقة '-lich' تحوّل الأسماء إلى صفات: Sport إلى sportlich, Freund إلى freundlich, Herz إلى herzlich. حين تعرف هذه الحيلة, يمكنك فهم مئات الصفات الألمانية."},
-        {type:"mc",q:"Verumius says 'Mia ist sportlich, ich bin es nicht.' What does 'sportlich' mean?",opts:["Tired","Sporty","Hungry","Late"],ans:"Sporty",hint:"هذه الصفة مبنية من كلمة تعرفها بالفعل مع إضافة '-lich.'"},
+        {type:"mc",q:"Verumius says 'Mia ist sportlich, ich bin es nicht.' ماذا تعني 'sportlich'؟",opts:["Tired","Sporty","Hungry","Late"],ans:"Sporty",hint:"هذه الصفة مبنية من كلمة تعرفها بالفعل مع إضافة '-lich.'"},
         {type:"tip",title:"Vereinskultur: The Heart of German Community",text:"يوجد في ألمانيا أكثر من 600,000 نادٍ مسجل (Vereine).\n\nأندية كرة قدم, أندية مشي, أندية جري, أندية غناء, أندية تربية أرانب.\n\n'sich treffen' (يلتقي) و'sich anmelden' (يسجّل) أفعال أساسية في حياة الأندية. ستتعلمها قريباً!\n\nالانضمام لنادٍ هو الطريقة التي يبني بها الألمان مجتمعهم. نادي ميا للجري مثال مثالي: نفس الأشخاص, نفس الوقت, نفس الحديقة, كل أسبوع.",deepDive:"تأسس أول نادٍ ألماني عام 1791. اليوم حوالي 44% من الألمان ينتمون لنادٍ واحد على الأقل. المفهوم محوري في الهوية الألمانية لدرجة أن 'Vereinsmeier' (المهووس بقوانين النادي) كلمة معروفة. كثير من الأندية لديها 'Stammtisch' (طاولة الأعضاء الدائمين) في حانة محلية حيث يلتقي الأعضاء بعد الأنشطة."},
-        {type:"mc",q:"How many registered Vereine (clubs) does Germany have?",opts:["About 6,000","About 600,000","About 60,000","About 6,000,000"],ans:"About 600,000",hint:"تذكّر بطاقة النصيحة. إنه رقم من ستة أرقام."},
+        {type:"mc",q:"كم عدد الـ Vereine (الأندية) المسجلة في ألمانيا؟",opts:["حوالي 6,000","حوالي 600,000","حوالي 60,000","حوالي 6,000,000"],ans:"حوالي 600,000",hint:"تذكّر بطاقة النصيحة. إنه رقم من ستة أرقام."},
         {type:"fb",s:"Mia ist sehr {1}. Sie trainiert jeden Tag.",a:["sportlich"],opts:["sportlich","aktiv","müde","hungrig"],hint:"أي صفة تصف شخصاً رياضياً؟",sSrc:"ميا رياضية جداً. تتدرب كل يوم."},
         {type:"match",pairs:[
-    {trg:"der Ball",pos:"noun",gender:"m",src:"the ball"},
-    {trg:"die Mannschaft",pos:"noun",gender:"f",src:"the team"},
-    {trg:"das Spiel",pos:"noun",gender:"n",src:"the game"},
-    {trg:"joggen",pos:"verb",gender:null,src:"to jog"},
-    {trg:"trainieren",pos:"verb",gender:null,src:"to train"},
-    {trg:"spazieren",pos:"verb",gender:null,src:"to stroll"},
-    {trg:"aktiv",pos:"adj",gender:null,src:"active"},
-    {trg:"sportlich",pos:"adj",gender:null,src:"sporty"}
+    {trg:"der Ball",pos:"noun",gender:"m",src:"الكرة"},
+    {trg:"die Mannschaft",pos:"noun",gender:"f",src:"الفريق"},
+    {trg:"das Spiel",pos:"noun",gender:"n",src:"اللعبة"},
+    {trg:"joggen",pos:"verb",gender:null,src:"يركض"},
+    {trg:"trainieren",pos:"verb",gender:null,src:"يتدرب"},
+    {trg:"spazieren",pos:"verb",gender:null,src:"يتنزه"},
+    {trg:"aktiv",pos:"adj",gender:null,src:"نشيط"},
+    {trg:"sportlich",pos:"adj",gender:null,src:"رياضي"}
 ]},
         {type:"story",speaker:"mia",mood:"encouraging",trg:"Nicht schlecht für dein erstes Mal! Nächste Woche wird es einfacher. Das Training macht dich fit!",src:"ليس سيئاً لأول مرة! الأسبوع القادم سيكون أسهل. التدريب سيجعلك لائقاً!"},
         {type:"story",speaker:"verumius",mood:"exhausted",trg:"Nächste Woche? Ich kann meine Beine nicht mehr fühlen!",src:"الأسبوع القادم؟ لم أعد أشعر بساقيّ!"},
-        {type:"mc",q:"'Das Training macht dich fit.' What does 'das Training' mean?",opts:["The game","The walk","The team","The training"],ans:"The training",hint:"اسم محايد يصف نشاط ممارسة الرياضة."},
+        {type:"mc",q:"'Das Training macht dich fit.' ماذا تعني 'das Training'؟",opts:["The game","The walk","The team","The training"],ans:"The training",hint:"اسم محايد يصف نشاط ممارسة الرياضة."},
         {type:"drag_fill",s:"Mia ist {1} und {2}. Sie geht jeden Samstag zum {3}.",blanks:{"1":"aktiv","2":"sportlich","3":"Lauftreff"},pool:["aktiv","sportlich","Lauftreff","müde","Spiel"],hint:"صف شخصية ميا ونشاطها يوم السبت.",sSrc:"ميا نشيطة ورياضية. تذهب كل سبت إلى نادي الجري."}
       ]},
 // ─── L3: Was machst du gern? ───
@@ -75,12 +75,12 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"fb",s:"Am Samstag gehen wir ins {1}. Wir sehen ein Stück von Schiller.",a:["Theater"],opts:["Theater","Museum","Konzert","Bibliothek"],hint:"مكان يؤدي فيه الممثلون على خشبة المسرح.",sSrc:"يوم السبت سنذهب إلى المسرح. سنشاهد مسرحية لشيلر."},
         {type:"drag_fill",s:"Mein Bruder {1} gern und meine Schwester {2} gern. Beide lieben {3}.",blanks:{"1":"malt","2":"zeichnet","3":"Kunst"},pool:["malt","zeichnet","Kunst","bastelt","Musik","Kultur"],hint:"هو يستخدم الألوان, هي تستخدم القلم, كلاهما يحب ذلك.",sSrc:"أخي يرسم بالألوان وأختي ترسم بالقلم. كلاهما يحب الفن."},
         {type:"match",pairs:[
-    {trg:"die Ausstellung",pos:"noun",gender:"f",src:"exhibition"},
-    {trg:"das Konzert",pos:"noun",gender:"n",src:"concert"},
-    {trg:"die Bibliothek",pos:"noun",gender:"f",src:"library"},
-    {trg:"basteln",pos:"verb",gender:null,src:"to do crafts"},
-    {trg:"zeichnen",pos:"verb",gender:null,src:"to draw"},
-    {trg:"die Gitarre",pos:"noun",gender:"f",src:"guitar"}
+    {trg:"die Ausstellung",pos:"noun",gender:"f",src:"المعرض"},
+    {trg:"das Konzert",pos:"noun",gender:"n",src:"الحفلة الموسيقية"},
+    {trg:"die Bibliothek",pos:"noun",gender:"f",src:"المكتبة"},
+    {trg:"basteln",pos:"verb",gender:null,src:"يصنع أعمالاً يدوية"},
+    {trg:"zeichnen",pos:"verb",gender:null,src:"يرسم"},
+    {trg:"die Gitarre",pos:"noun",gender:"f",src:"الغيتار"}
 ]},
         {type:"mc",q:"Was macht man in einer Bibliothek?",opts:["Konzerte besuchen","Bilder malen","Bücher lesen und ausleihen","Instrumente spielen"],ans:"Bücher lesen und ausleihen",hint:"فكّر بالرفوف والهدوء وبطاقة تستعير بها."},
         {type:"fb",s:"Ich gehe heute Abend ins {1}. Die Band spielt meine Lieblingsmusik!",a:["Konzert"],opts:["Konzert","Museum","Theater","Bibliothek"],hint:"حدث تعزف فيه فرقة موسيقية حية.",sSrc:"سأذهب إلى الحفل الموسيقي الليلة. الفرقة تعزف موسيقاي المفضلة!"},
@@ -104,7 +104,7 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"teach",trg:"das Fest",pos:"noun",gender:"n",src:"الاحتفال / المهرجان",note:"اسم محايد. الجمع: die Feste. فكّر بـ Oktoberfest!",example:"A: Wann ist das Sommerfest?\nB: Das Fest ist im Juli.",exampleSrc:"أ: متى المهرجان الصيفي؟\nب: المهرجان في يوليو.",funFact:"كلمة 'Fest' أعطتنا Oktoberfest وWeinfest وSchützenfest وVolksfest. يوجد في ألمانيا أكثر من 10,000 مهرجان سنوياً. إذا كان هناك سبب للاحتفال, فهناك Fest له."},
         {type:"teach",trg:"die Feier",pos:"noun",gender:"f",src:"الحفلة / الاحتفال",note:"اسم مؤنث. الجمع: die Feiern. أكثر شخصية من Fest.",example:"A: Kommst du zur Feier am Samstag?\nB: Ja, ich komme gerne zur Feier!",exampleSrc:"أ: هل ستأتي للحفلة يوم السبت؟\nب: نعم, أحب أن آتي للحفلة!",funFact:"'Feier' للاحتفالات الشخصية (أعياد الميلاد, حفلات الزفاف). 'Fest' للعامة (المهرجانات, المعارض). عيد الميلاد هو Feier وليس Fest. أكتوبرفست هو Fest وليس Feier."},
         {type:"teach",trg:"die Veranstaltung",pos:"noun",gender:"f",src:"الفعالية / المناسبة المنظمة",note:"اسم مؤنث. الجمع: die Veranstaltungen. كلمة رسمية.",example:"A: Welche Veranstaltungen gibt es im Mai?\nB: Es gibt drei Veranstaltungen im Mai.",exampleSrc:"أ: ما الفعاليات الموجودة في مايو؟\nب: توجد ثلاث فعاليات في مايو.",funFact:"16 حرفاً! واحدة من تلك الكلمات الألمانية الطويلة التي تبدو مخيفة لكنها بسيطة: ver + an + stalt + ung. كلمة 'Anstalt' تعني مؤسسة, و'ver-' تحولها إلى فعل. مناسبة منظمة."},
-        {type:"mc",q:"Mia says 'Hast du Lust auf eine Feier?' What is she asking?",opts:["Do you have time for a party?","Do you need a party?","Do you feel like a party?","Do you know about a party?"],ans:"Do you feel like a party?",hint:"عبارة 'Lust haben auf' تعبّر عن الرغبة أو الميل. فكّر كيف ترتبط 'Lust' بالحماس."},
+        {type:"mc",q:"Mia says 'Hast du Lust auf eine Feier?' ماذا تسأل؟",opts:["Do you have time for a party?","Do you need a party?","Do you feel like a party?","Do you know about a party?"],ans:"Do you feel like a party?",hint:"عبارة 'Lust haben auf' تعبّر عن الرغبة أو الميل. فكّر كيف ترتبط 'Lust' بالحماس."},
         {type:"fb",s:"Das Training macht {1}!",a:["Spaß"],opts:["Spaß","Lust","Fest","Interesse"],hint:"أي اسم مذكر يعني 'المرح' ويقترن بـ 'machen'؟",sSrc:"التدريب ممتع!"},
         {type:"teach",trg:"der Wettbewerb",pos:"noun",gender:"m",src:"المنافسة",note:"اسم مذكر. الجمع: die Wettbewerbe. مركب من: Wette + Bewerb.",example:"A: Gibt es einen Wettbewerb im Oktober?\nB: Ja, der Wettbewerb ist am 15. Oktober.",exampleSrc:"أ: هل توجد مسابقة في أكتوبر؟\nب: نعم, المسابقة في 15 أكتوبر.",funFact:"'Wette' تعني رهان, و'Bewerb' من 'bewerben' (يتقدم/يتنافس). المسابقة حرفياً هي 'تقديم رهان.' الألمان قديماً حسموا النزاعات بالمراهنة على المسابقات الرياضية."},
         {type:"teach",trg:"sich freuen",pos:"verb",gender:null,src:"يفرح / يتطلع إلى",note:"فعل انعكاسي. 'Ich freue mich.' 'sich freuen auf' = look forward to.",example:"A: Ich freue mich auf das Fest!\nB: Ich freue mich auch!",exampleSrc:"أ: أتطلع إلى المهرجان!\nب: أنا أيضاً أتطلع إليه!",funFact:"'sich freuen' يحتاج ضميراً انعكاسياً. بدونه, 'freuen' وحدها تبدو خاطئة. الـ'sich' كأنك تقول 'أُفرح نفسي.' المشاعر الألمانية غالباً تعمل هكذا: أنت تفعل الشعور لنفسك."},
@@ -113,30 +113,30 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"tip",title:"Reflexive Verbs: The 'sich' System",text:"بعض الأفعال الألمانية تحتاج ضميراً انعكاسياً. الضمير يعود على الفاعل.\n\nالضمير الانعكاسي يقع بين الفاعل وبقية الجملة:\n- Ich freue mich. (أنا سعيد.)\n- Du freust dich. (أنت سعيد.)\n- Wir treffen uns. (نلتقي.)\n\nالضمير الانعكاسي يتغير مع الفاعل. في البطاقة التالية سترى الجدول الكامل.",deepDive:{title:"Accusative vs dative reflexive pronouns",text:"في الألمانية مجموعتان من الضمائر الانعكاسية. مجموعة النصب (mich, dich, sich, uns, euch, sich) تُستخدم حين يكون الضمير الانعكاسي هو المفعول به المباشر.\n\nمجموعة الجر (mir, dir, sich, uns, euch, sich) تُستخدم حين يكون للفعل مفعول به مباشر والضمير هو المفعول به غير المباشر.\n\nمثال: Ich wasche mir die Hände. (أغسل يديّ, حرفياً: أغسل لنفسي اليدين.)\n\nلاحظ أن uns وeuch وsich متطابقة في المجموعتين. فقط ich وdu يختلفان: mich/mir وdich/dir."}},
         {type:"verb_table",title:"Accusative Reflexive Pronouns",groups:[
     {label:"Subject + reflexive pronoun",rows:[
-    {pronoun:"ich",form:"mich",src:"myself"},
-    {pronoun:"du",form:"dich",src:"yourself"},
-    {pronoun:"er/sie/es",form:"sich",src:"himself/herself/itself"},
-    {pronoun:"wir",form:"uns",src:"ourselves"},
-    {pronoun:"ihr",form:"euch",src:"yourselves"},
-    {pronoun:"sie/Sie",form:"sich",src:"themselves/yourself (formal)"}
+    {pronoun:"ich",form:"mich",src:"نفسي"},
+    {pronoun:"du",form:"dich",src:"نفسك"},
+    {pronoun:"er/sie/es",form:"sich",src:"نفسه / نفسها"},
+    {pronoun:"wir",form:"uns",src:"أنفسنا"},
+    {pronoun:"ihr",form:"euch",src:"أنفسكم"},
+    {pronoun:"sie/Sie",form:"sich",src:"أنفسهم / نفسكم (رسمي)"}
 ]},
     {label:"sich freuen (to be happy)",rows:[
-    {pronoun:"ich",form:"freue mich",src:"I am happy"},
-    {pronoun:"du",form:"freust dich",src:"you are happy"},
-    {pronoun:"er/sie/es",form:"freut sich",src:"he/she/it is happy"},
-    {pronoun:"wir",form:"freuen uns",src:"we are happy"},
-    {pronoun:"ihr",form:"freut euch",src:"you all are happy"},
-    {pronoun:"sie/Sie",form:"freuen sich",src:"they are / you (formal) are happy"}
+    {pronoun:"ich",form:"freue mich",src:"أنا سعيد"},
+    {pronoun:"du",form:"freust dich",src:"أنت سعيد"},
+    {pronoun:"er/sie/es",form:"freut sich",src:"هو/هي سعيد/ة"},
+    {pronoun:"wir",form:"freuen uns",src:"نحن سعداء"},
+    {pronoun:"ihr",form:"freut euch",src:"أنتم سعداء"},
+    {pronoun:"sie/Sie",form:"freuen sich",src:"هم / حضرتك سعداء"}
 ]}
 ],note:"الضمير الانعكاسي يأتي مباشرة بعد الفعل المصرّف. في الأسئلة: 'Freust du dich?' أفعال انعكاسية شائعة: sich freuen, sich treffen, sich anmelden, sich fühlen."},
-        {type:"mc",q:"'Ich freue mich auf das Fest.' What does 'mich' do in this sentence?",opts:[
+        {type:"mc",q:"'Ich freue mich auf das Fest.' ما دور 'mich' في هذه الجملة؟",opts:[
     "It means 'me' as a direct object",
     "It means 'my' as a possessive",
     "It replaces a noun that was mentioned before",
     "It is a reflexive pronoun referring back to 'ich'"
 ],ans:"It is a reflexive pronoun referring back to 'ich'",hint:"sich freuen فعل انعكاسي. الضمير يوضح من يقوم ويتلقى الفعل."},
         {type:"fb",s:"Wir treffen {1} um 18 Uhr im Park.",a:["uns"],opts:["uns","sich","mich","euch"],hint:"أي ضمير انعكاسي يطابق الفاعل 'wir'؟",sSrc:"نلتقي الساعة السادسة مساءً في الحديقة."},
-        {type:"mc",q:"'Er freut sich auf den Wettbewerb.' Which reflexive pronoun is correct for 'er'?",opts:["sich","mich","dich","uns"],ans:"sich",hint:"الشخص الثالث (er, sie, es) يستخدم دائماً نفس الضمير الانعكاسي."},
+        {type:"mc",q:"'Er freut sich auf den Wettbewerb.' أي ضمير انعكاسي صحيح مع 'er'؟",opts:["sich","mich","dich","uns"],ans:"sich",hint:"الشخص الثالث (er, sie, es) يستخدم دائماً نفس الضمير الانعكاسي."},
         {type:"fb",s:"Freust du {1} auf die Feier?",a:["dich"],opts:["dich","mich","sich","uns"],hint:"أي ضمير انعكاسي يطابق الفاعل 'du'؟",sSrc:"هل تتطلع إلى الحفلة؟"}
       ]},
 // ─── L5: Mitmachen und Planen ───
@@ -151,16 +151,16 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"teach",trg:"organisieren",pos:"verb",gender:null,src:"يُنظّم",note:"فعل نظامي: ich organisiere, du organisierst, er organisiert.",example:"A: Wer organisiert das Sommerfest?\nB: Mia organisiert alles!",exampleSrc:"أ: من يُنظّم المهرجان الصيفي؟\nب: ميا تنظم كل شيء!",funFact:"مستعار من الفرنسية 'organiser.' الألمانية تستعير بسرور كلمات من الفرنسية لكل ما هو ثقافي أو إداري أو عصري. Organisieren, reservieren, telefonieren: اللاحقة -ieren دائماً فرنسية الأصل."},
         {type:"story",speaker:"mia",mood:"formal",trg:"Punkt eins: Ich glaube, dass wir ein Sommerfest organisieren sollten. Wer nimmt teil?",src:"النقطة الأولى: أعتقد أننا يجب أن ننظم مهرجاناً صيفياً. من يشارك؟"},
         {type:"tip",title:"dass-Clauses: Verb Goes to the End",text:"بعد 'dass' (أنّ), يتحرك الفعل المصرّف إلى نهاية الجملة.\n\nجملة رئيسية: Ich glaube + جملة dass: dass wir ein Fest organisieren.\n\nIch glaube, dass wir ein Fest organisieren.\nEr sagt, dass das Fest am Samstag stattfindet.\nWir wissen, dass Mia alles organisiert.\n\nبدايات شائعة: glauben (يعتقد), sagen (يقول), wissen (يعرف), denken (يفكر), hoffen (يأمل).\n\nالفاصلة قبل 'dass' إلزامية في الألمانية.",deepDive:{title:"The four verb-final triggers",text:"'dass' ليست أداة الربط الوحيدة التي ترسل الفعل للنهاية. أربع أدوات ربط رئيسية تتبع نفس القاعدة:\n\nweil = لأن (سبب)\ndass = أنّ (فكرة/تقرير)\nwenn = إذا/حين (شرط/عادة)\nob = هل/إذا ما (سؤال غير مباشر)\n\nكلها تتبع نفس النمط: أداة ربط + فاعل + ... + الفعل في النهاية.\n\nأدوات ربط فرعية أخرى ستلتقيها لاحقاً (obwohl, als, bevor, nachdem, seitdem, damit) كلها تتبع قاعدة الفعل في النهاية. تعلّمها الآن يبني العادة لكل الجمل الفرعية."}},
-        {type:"mc",q:"'Ich glaube, dass das Fest am Samstag stattfindet.' Where is the verb in the dass-clause?",opts:["Right after the word dass","In the second position","At the end of the clause","Before the comma itself"],ans:"At the end of the clause",hint:"في جمل dass, الفعل المصرّف ينتقل دائماً إلى موضع محدد."},
+        {type:"mc",q:"'Ich glaube, dass das Fest am Samstag stattfindet.' أين الفعل في جملة dass؟",opts:["مباشرة بعد كلمة dass","في الموقع الثاني","في نهاية الجملة الفرعية","قبل الفاصلة"],ans:"في نهاية الجملة الفرعية",hint:"في جمل dass, الفعل المصرّف ينتقل دائماً إلى موضع محدد."},
         {type:"fb",s:"Er sagt, dass er sich auf die Veranstaltung {1}.",a:["freut"],opts:["freut","freuen","freue","freust"],hint:"الفعل يجب أن يتوافق مع 'er' ويذهب لنهاية جملة dass.",sSrc:"يقول إنه سعيد بالفعالية."},
-        {type:"mc",q:"Which sentence correctly uses a dass-clause?",opts:[
+        {type:"mc",q:"أي جملة تستخدم جملة dass بشكل صحيح؟",opts:[
     "Ich denke, dass organisiert Mia das Fest.",
     "Ich denke, Mia dass das Fest organisiert.",
     "Ich denke dass, Mia das Fest organisiert.",
     "Ich denke, dass Mia das Fest organisiert."
 ],ans:"Ich denke, dass Mia das Fest organisiert.",hint:"بعد 'dass,' يجب أن يذهب الفعل للنهاية تماماً. تحقق من كل خيار لموضع الفعل."},
         {type:"drag_fill",s:"Wir wissen, {1} die Feier am Samstag {2}.",blanks:{"1":"dass","2":"stattfindet"},pool:["dass","stattfindet","findet","weil","statt"],hint:"الفراغ الأول يحتاج أداة الربط. الثاني يحتاج الفعل المنفصل المتحد في النهاية.",sSrc:"نعرف أن الحفلة تُقام يوم السبت."},
-        {type:"mc",q:"Mia says 'Ich hoffe, dass alle teilnehmen.' What does she hope?",opts:[
+        {type:"mc",q:"Mia تقول 'Ich hoffe, dass alle teilnehmen.' ماذا تأمل؟",opts:[
     "That everyone organizes something",
     "That everyone leaves early",
     "That everyone participates",
@@ -169,16 +169,16 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"fb",s:"Hast du {1} auf den Wettbewerb?",a:["Lust"],opts:["Lust","Spaß","Fest","Interesse"],hint:"أي اسم مؤنث يعني 'الرغبة/المزاج' ويقترن بـ 'haben auf'؟",sSrc:"هل عندك رغبة بالمسابقة؟"},
         {type:"drag_fill",s:"Ich {1} mich, dass du am Wettbewerb {2}.",blanks:{"1":"freue","2":"teilnimmst"},pool:["freue","teilnimmst","nimmst","freuen","teil"],hint:"الجملة الرئيسية تحتاج الفعل الانعكاسي لـ'ich.' جملة dass تحتاج الفعل لـ'du' في النهاية.",sSrc:"أنا سعيد أنك تشارك في المسابقة."},
         {type:"match",pairs:[
-    {trg:"sich freuen",pos:"verb",gender:null,src:"to be happy"},
-    {trg:"sich treffen",pos:"verb",gender:null,src:"to meet up"},
-    {trg:"teilnehmen",pos:"verb",gender:null,src:"to participate"},
-    {trg:"stattfinden",pos:"verb",gender:null,src:"to take place"},
-    {trg:"organisieren",pos:"verb",gender:null,src:"to organize"},
-    {trg:"die Veranstaltung",pos:"noun",gender:"f",src:"the event"}
+    {trg:"sich freuen",pos:"verb",gender:null,src:"يفرح"},
+    {trg:"sich treffen",pos:"verb",gender:null,src:"يلتقي"},
+    {trg:"teilnehmen",pos:"verb",gender:null,src:"يشارك"},
+    {trg:"stattfinden",pos:"verb",gender:null,src:"يُقام"},
+    {trg:"organisieren",pos:"verb",gender:null,src:"ينظّم"},
+    {trg:"die Veranstaltung",pos:"noun",gender:"f",src:"الفعالية"}
 ]},
-        {type:"mc",q:"What does 'teilnehmen' mean?",opts:["to take place","to participate","to organize","to celebrate"],ans:"to participate",hint:"البادئة 'Teil' تعني جزء. أنت تأخذ جزءاً في شيء."},
+        {type:"mc",q:"ماذا تعني 'teilnehmen'؟",opts:["to take place","to participate","to organize","to celebrate"],ans:"to participate",hint:"البادئة 'Teil' تعني جزء. أنت تأخذ جزءاً في شيء."},
         {type:"fb",s:"Wann {1} das Sommerfest statt?",a:["findet"],opts:["findet","nimmt","macht","gibt"],hint:"فعل منفصل يعني 'يُقام.' طابق الفاعل 'das Sommerfest.'",sSrc:"متى يُقام المهرجان الصيفي؟"},
-        {type:"mc",q:"'Mia organisiert die Feier.' What is Mia doing?",opts:["attending the party","hosting the party","canceling the party","organizing the party"],ans:"organizing the party",hint:"Organisieren تعني التخطيط والترتيب لفعالية."},
+        {type:"mc",q:"'Mia organisiert die Feier.' ماذا تفعل Mia؟",opts:["تحضر الحفلة","تستضيف الحفلة","تلغي الحفلة","تنظّم الحفلة"],ans:"تنظّم الحفلة",hint:"Organisieren تعني التخطيط والترتيب لفعالية."},
         {type:"story",speaker:"verumius",mood:"amused",trg:"Okay, ich glaube, dass deutsche Vereine ernster sind als italienische. Aber ich freue mich, dass ich dabei bin!",src:"حسناً, أعتقد أن الأندية الألمانية أكثر جدية من الإيطالية. لكنني سعيد أنني جزء منها!"}
       ]},
 // ─── L6: Ob oder dass? ───
@@ -203,20 +203,20 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"tip",title:"Separable Reflexive Verbs",text:"بعض الأفعال الانعكاسية أيضاً منفصلة. البادئة تنفصل وتذهب للنهاية:\n\nsich anziehen: Ich ziehe mich an. (البادئة 'an' في النهاية)\nsich ausziehen: Ich ziehe mich aus. (البادئة 'aus' في النهاية)\nsich umziehen: Ich ziehe mich um. (البادئة 'um' في النهاية)\n\nالضمير الانعكاسي يبقى مباشرة بعد الفعل الرئيسي.",deepDive:{title:"Separable reflexive verbs in Perfekt",text:"في صيغة Perfekt, الأفعال الانعكاسية المنفصلة تدمج بادئة ge-:\nsich anziehen: Ich habe mich angezogen.\nsich ausziehen: Ich habe mich ausgezogen.\nge- تدخل بين البادئة والجذر: an+ge+zogen = angezogen."}},
         {type:"verb_table",title:"Dative Pronouns: Full Paradigm",label:"Personal pronouns across three cases",groups:[
     {label:"Singular",rows:[
-    {pronoun:"1st sing.",form:"ich / mich / mir",src:"I / me (acc) / me (dat)"},
-    {pronoun:"2nd sing. (informal)",form:"du / dich / dir",src:"you / you (acc) / you (dat)"},
-    {pronoun:"3rd masc.",form:"er / ihn / ihm",src:"he / him (acc) / him (dat)"},
-    {pronoun:"3rd fem.",form:"sie / sie / ihr",src:"she / her (acc) / her (dat)"},
-    {pronoun:"3rd neut.",form:"es / es / ihm",src:"it / it (acc) / it (dat)"}
+    {pronoun:"1st sing.",form:"ich / mich / mir",src:"أنا / إياي / لي"},
+    {pronoun:"2nd sing. (informal)",form:"du / dich / dir",src:"أنت / إياك / لك"},
+    {pronoun:"3rd masc.",form:"er / ihn / ihm",src:"هو / إياه / له"},
+    {pronoun:"3rd fem.",form:"sie / sie / ihr",src:"هي / إياها / لها"},
+    {pronoun:"3rd neut.",form:"es / es / ihm",src:"هو/هي / إياه / له"}
 ]},
     {label:"Plural",rows:[
-    {pronoun:"1st pl.",form:"wir / uns / uns",src:"we / us (acc) / us (dat)"},
-    {pronoun:"2nd pl. (informal)",form:"ihr / euch / euch",src:"you all / you (acc) / you (dat)"},
-    {pronoun:"3rd pl. / formal",form:"sie/Sie / sie/Sie / ihnen/Ihnen",src:"they/you / them/you (acc) / them/you (dat)"}
+    {pronoun:"1st pl.",form:"wir / uns / uns",src:"نحن / إيانا / لنا"},
+    {pronoun:"2nd pl. (informal)",form:"ihr / euch / euch",src:"أنتم / إياكم / لكم"},
+    {pronoun:"3rd pl. / formal",form:"sie/Sie / sie/Sie / ihnen/Ihnen",src:"هم/حضرتك / إياهم / لهم"}
 ]}
 ],note:"Sie الرسمية (حالة الجر) = Ihnen (بحرف كبير).\nuns وeuch متطابقتان في النصب والجر.\nفقط ich وdu يتغيران بين النصب والجر: mich/mir, dich/dir.",deepDive:{title:"A shortcut: uns and euch do double duty",text:"uns تُستخدم للنصب والجر لـ wir (نحن).\neuch تُستخدم للنصب والجر لـ ihr (أنتم).\n\nEr sieht uns. (يرانا, نصب)\nEr hilft uns. (يساعدنا, جر)\n\nنفس الصيغة, السياق يوضح الحالة."}},
-        {type:"mc",q:"'Ich wasche ___ die Hände.' Which reflexive pronoun fits?",opts:["mich","sich","dir","mir"],ans:"mir",hint:"اليدان هما المفعول به المباشر. الضمير الانعكاسي يجب أن يكون في حالة الجر."},
-        {type:"mc",q:"Which reflexive verb means 'to fall in love'?",opts:["sich unterhalten","sich verabreden","sich verlieben","sich ärgern"],ans:"sich verlieben",hint:"البادئة 'ver-' تشير إلى الدخول في حالة جديدة. الحب هو الحالة هنا."},
+        {type:"mc",q:"'Ich wasche ___ die Hände.' أي ضمير انعكاسي يناسب؟",opts:["mich","sich","dir","mir"],ans:"mir",hint:"اليدان هما المفعول به المباشر. الضمير الانعكاسي يجب أن يكون في حالة الجر."},
+        {type:"mc",q:"أي فعل انعكاسي يعني 'يقع في الحب'؟",opts:["sich unterhalten","sich verabreden","sich verlieben","sich ärgern"],ans:"sich verlieben",hint:"البادئة 'ver-' تشير إلى الدخول في حالة جديدة. الحب هو الحالة هنا."},
         {type:"fb",s:"Ärgerst du {1} über das Wetter?",a:["dich"],opts:["dich","dir","mich","sich"],hint:"لا يوجد مفعول آخر هنا. الضمير الانعكاسي في حالة النصب لـ du.",sSrc:"هل أنت منزعج من الطقس؟"}
       ]},
 // ─── L7: Ob, dass und ADUSO ───
@@ -229,26 +229,26 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"teach",trg:"ob",pos:"conj",gender:null,src:"هل / إذا ما",note:"أداة ربط فرعية. تُرسل الفعل إلى النهاية.\nob + subject + ... + verb (last).",example:"A: Weißt du, ob er morgen kommt?\nB: Nein, ich bin mir nicht sicher.",exampleSrc:"أ: هل تعرف إن كان سيأتي غداً؟\nب: لا, لست متأكداً.",funFact:"'Ob' تحوّل سؤال نعم/لا إلى سؤال غير مباشر. '?Kommt er' تصبح 'Ich frage mich, ob er kommt.' نفس السؤال لكن مُدمج. الفعل يقفز للنهاية تماماً مثل dass وweil."},
         {type:"teach",trg:"wahr",src:"صحيح / حقيقي",pos:"adj",gender:null,note:"صفة. 'Das stimmt' = that is correct (informal). 'Das ist wahr' = that is true (factual).",example:"A: Stimmt es, dass er aus Italien kommt?\nB: Ja, das ist wahr.\nA: Und er spricht kein Deutsch?\nB: Das war früher wahr, aber jetzt spricht er gut.",exampleSrc:"أ: هل صحيح أنه من إيطاليا؟\nب: نعم, هذا صحيح.\nأ: ولا يتكلم ألمانية؟\nب: كان هذا صحيحاً من قبل, لكن الآن يتحدث جيداً.",funFact:"'Wahr' أعطت الألمانية 'wahrhaftig' (حقاً), 'während' (أثناء, حرفياً بينما صحيح), و'Wahrheit' (الحقيقة). حين يقول ألماني '!Das ist doch wahr', كلمة 'doch' تضيف نبرة يقين بديهي."},
         {type:"tip",title:"ob: Indirect Yes/No Questions",text:"'Ob' تعني 'هل/إذا ما' وتحوّل سؤال نعم/لا إلى سؤال غير مباشر.\nالفعل يذهب للنهاية بعد ob.\n\nمباشر: Kommt er morgen?\nغير مباشر: Ich weiß nicht, ob er morgen kommt.\n\nمحفّزات شائعة لـ ob:\nfragen (يسأل), wissen (يعرف), sicher sein (يكون متأكداً)\n\nقارن مع dass (أنّ) التي تذكر حقائق:\nIch weiß, dass er morgen kommt. (أعرف أنّه سيأتي.)\nIch weiß nicht, ob er morgen kommt. (لا أعرف هل سيأتي.)\n\ndass = يقين. ob = عدم يقين.",deepDive:{title:"Dass vs Ob: The Quick Test",text:"اسأل نفسك: 'هل يمكنني الإجابة بنعم أو لا؟'\nإذا نعم: استخدم ob.\nIch frage, ob du kommst. (هل ستأتي؟ نعم/لا.)\nإذا لا: استخدم dass.\nIch weiß, dass du kommst. (أنت قادم. حقيقة.)\n\nكلاهما يرسل الفعل للنهاية. الفرق هو اليقين مقابل عدم اليقين."}},
-        {type:"mc",q:"'Ich frage mich, ___ er heute kommt.' Which conjunction fits?",opts:["dass","weil","ob","denn"],ans:"ob",hint:"قد يأتي وقد لا يأتي. أنت غير متأكد."},
+        {type:"mc",q:"'Ich frage mich, ___ er heute kommt.' أي أداة ربط fits?",opts:["dass","weil","ob","denn"],ans:"ob",hint:"قد يأتي وقد لا يأتي. أنت غير متأكد."},
         {type:"fb",s:"Weißt du, {1} das Kino heute offen ist?",a:["ob"],opts:["ob","dass","weil","und"],hint:"أنت حقاً لا تعرف. سؤال نعم/لا مخفي بالداخل.",sSrc:"هل تعرف إن كان السينما مفتوحاً اليوم؟"},
         {type:"tip",title:"Coordinating Conjunctions: ADUSO",text:"خمس أدوات ربط تحافظ على ترتيب الكلمات الطبيعي (الفعل يبقى في الموضع الثاني):\n\nA: aber (لكن)\nD: denn (لأن, في الجمل الرئيسية)\nU: und (و)\nS: sondern (بل, بعد النفي)\nO: oder (أو)\n\nتربط جملتين رئيسيتين. الفعل لا يتحرك.\nIch spiele Tennis, und er spielt Fußball.\nSie kommt nicht, sondern sie bleibt zu Hause.\n\nبالمقارنة مع dass/ob/weil: تلك فرعية وترسل الفعل للنهاية.",deepDive:{title:"Aber vs Sondern",text:"كلاهما تعني 'لكن,' لكن باستخدامات مختلفة:\n\naber = تناقض عام:\nIch bin müde, aber ich gehe ins Kino.\n\nsondern = تصحيح بعد نفي:\nIch trinke nicht Kaffee, sondern Tee.\n(ليس قهوة, بل شاي.)\n\nsondern تأتي دائماً بعد 'nicht' أو 'kein.' إذا لم يكن هناك نفي, استخدم aber."}},
-        {type:"mc",q:"'Er kommt nicht aus Berlin, ___ aus Hamburg.' Which word corrects the false statement?",opts:["aber","denn","oder","sondern"],ans:"sondern",hint:"بعد 'nicht,' أداة الربط هذه تستبدل فكرة خاطئة بالصحيحة."},
+        {type:"mc",q:"'Er kommt nicht aus Berlin, ___ aus Hamburg.' أي كلمة تصحح العبارة الخاطئة؟",opts:["aber","denn","oder","sondern"],ans:"sondern",hint:"بعد 'nicht,' أداة الربط هذه تستبدل فكرة خاطئة بالصحيحة."},
         {type:"fb",s:"Ich möchte mitkommen, {1} ich habe keine Zeit.",a:["aber"],opts:["aber","sondern","denn","ob"],hint:"تناقض عام. لا يوجد نفي قبل أداة الربط هذه.",sSrc:"أحب أن أرافقكم, لكن ليس لدي وقت."},
-        {type:"mc",q:"'Ich weiß, dass er sich verliebt hat.' What does 'dass' introduce here?",opts:["A yes/no question","A reason","A time clause","A fact he knows"],ans:"A fact he knows",hint:"هنا يوجد يقين. dass تقدم الحقائق المؤكدة, ob تقدم الشك."},
+        {type:"mc",q:"'Ich weiß, dass er sich verliebt hat.' ماذا تقدّم 'dass' هنا؟",opts:["سؤال نعم/لا","سبباً","جملة زمنية","حقيقة يعرفها"],ans:"حقيقة يعرفها",hint:"هنا يوجد يقين. dass تقدم الحقائق المؤكدة, ob تقدم الشك."},
         {type:"drag_fill",s:"Ich frage mich, {1} sie {2} heute {3}.",blanks:{"1":"ob","2":"sich","3":"verabredet"},pool:["ob","sich","verabredet","dass","mich","verliebt"],hint:"سؤال غير مؤكد: هل تتواعد اليوم. الفعل في النهاية.",sSrc:"أتساءل هل تلتقي بأحد اليوم."},
-        {type:"mc",q:"'Ich putze mir die Zähne.' Why is it 'mir' and not 'mich'?",opts:["Putzen always needs dative","Zähne takes the accusative","Mir sounds more polite here","There is no real reason"],ans:"Zähne takes the accusative",hint:"الجملة يمكن أن تحتوي على مفعول مباشر واحد فقط. جزء الجسم يملأ هذا الدور."},
+        {type:"mc",q:"'Ich putze mir die Zähne.' لماذا 'mir' وليس 'mich'؟",opts:["Putzen always needs dative","Zähne takes the accusative","Mir sounds more polite here","There is no real reason"],ans:"Zähne takes the accusative",hint:"الجملة يمكن أن تحتوي على مفعول مباشر واحد فقط. جزء الجسم يملأ هذا الدور."},
         {type:"fb",s:"Wir unterhalten {1} über den neuen Film.",a:["uns"],opts:["uns","euch","sich","mich"],hint:"wir = نحن. الضمير الانعكاسي لـ wir متطابق في النصب والجر.",sSrc:"نتحدث عن الفيلم الجديد."},
         {type:"drag_fill",s:"Er fragt sie, {1} er weiß nicht, {2} sie ihn {3}.",blanks:{"1":"denn","2":"ob","3":"liebt"},pool:["denn","ob","liebt","dass","verliebt","aber"],hint:"تحتاج أداتي ربط مختلفتين: واحدة تنسيقية (تحافظ على V2) وأخرى لسؤال نعم/لا غير مباشر.",sSrc:"يسألها لأنه لا يعرف هل تحبه."},
-        {type:"mc",q:"Which conjunction keeps normal V2 word order?",opts:["und","dass","ob","weil"],ans:"und",hint:"أدوات ADUSO: aber, denn, und, sondern, oder. كلها تحافظ على V2."},
+        {type:"mc",q:"أي أداة ربط keeps normal V2 word order?",opts:["und","dass","ob","weil"],ans:"und",hint:"أدوات ADUSO: aber, denn, und, sondern, oder. كلها تحافظ على V2."},
         {type:"fb",s:"Ich vergesse nie, {1} du mir geholfen hast.",a:["dass"],opts:["dass","ob","denn","und"],hint:"أنت تعرف بيقين أنها ساعدتك. هذه حقيقة مذكورة.",sSrc:"لا أنسى أبداً أنك ساعدتني."},
         {type:"drag_fill",s:"Sie {1} sich, {2} sie morgen frei {3}.",blanks:{"1":"fragt","2":"ob","3":"hat"},pool:["fragt","ob","hat","weiß","dass","ist"],hint:"تسأل نفسها هل عندها يوم عطلة غداً. الفعل في النهاية بعد ob.",sSrc:"تسأل نفسها هل عندها يوم عطلة غداً."},
-        {type:"mc",q:"'Ich ärgere mich, denn er vergisst alles.' What does 'denn' mean here?",opts:["but (contrast)","whether (doubt)","because (reason)","that (fact)"],ans:"because (reason)",hint:"denn تشرح السبب مع الحفاظ على ترتيب الجملة الرئيسية."},
+        {type:"mc",q:"'Ich ärgere mich, denn er vergisst alles.' ماذا تعني 'denn' هنا؟",opts:["لكن (تناقض)","ما إذا (شك)","لأن (سبب)","أنّ (حقيقة)"],ans:"لأن (سبب)",hint:"denn تشرح السبب مع الحفاظ على ترتيب الجملة الرئيسية."},
         {type:"match",pairs:[
-    {trg:"sich verabreden",pos:"verb",gender:null,src:"to arrange to meet"},
-    {trg:"sich unterhalten",pos:"verb",gender:null,src:"to chat"},
-    {trg:"vergessen",pos:"verb",gender:null,src:"to forget"},
-    {trg:"sich verlieben",pos:"verb",gender:null,src:"to fall in love"},
-    {trg:"ob",pos:"conj",gender:null,src:"whether"},
+    {trg:"sich verabreden",pos:"verb",gender:null,src:"يتواعد للقاء"},
+    {trg:"sich unterhalten",pos:"verb",gender:null,src:"يتحدث / يدردش"},
+    {trg:"vergessen",pos:"verb",gender:null,src:"ينسى"},
+    {trg:"sich verlieben",pos:"verb",gender:null,src:"يقع في الحب"},
+    {trg:"ob",pos:"conj",gender:null,src:"هل / ما إذا"},
     {trg:"sondern",src:"بل"}
 ]},
         {type:"teach",trg:"anders",src:"مختلف / بشكل مختلف",pos:"adv",gender:null,note:"ظرف/صفة لا يُعرب. 'Das ist anders' = هذا مختلف. 'Anders als' = مختلف عن.",example:"A: Das ist hier wirklich anders als in Italien.\nB: Ja, was ist anders für dich?\nA: Die Regeln! Alles hat Regeln.\nB: Das stimmt. Deutschland ist anders.",exampleSrc:"أ: هذا مختلف حقاً هنا عن إيطاليا.\nب: نعم, ما المختلف بالنسبة لك؟\nأ: القوانين! كل شيء له قوانين.\nب: هذا صحيح. ألمانيا مختلفة.",funFact:"'Anders' من أكثر الكلمات فائدة في الألمانية. لا تأخذ لواحق أبداً: دائماً 'anders' وليس 'anderse' في هذا الاستخدام الظرفي. مثالية للتعبير عن المفاجأة أو المقارنة أو الملاحظات الثقافية."},
@@ -267,18 +267,18 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"teach",trg:"die Zeitschrift",pos:"noun",gender:"f",src:"المجلة",note:"اسم مؤنث. الجمع: die Zeitschriften. مركب من: Zeit (وقت) + Schrift (كتابة).",example:"A: Kaufst du noch Zeitschriften?\nB: Nein, ich lese alles online.",exampleSrc:"أ: هل ما زلت تشتري مجلات؟\nب: لا, أقرأ كل شيء عبر الإنترنت.",funFact:"Zeit + Schrift = كتابة الوقت. المجلة تلتقط لحظة في الزمن. Der Spiegel وStern هما أشهر المجلات الألمانية وتُقرأ في كل عيادة طبيب."},
         {type:"teach",trg:"das Programm",pos:"noun",gender:"n",src:"البرنامج / الجدول",note:"اسم محايد. الجمع: die Programme. تعني أيضاً TV schedule.",example:"A: Was kommt heute im Programm?\nB: Um acht kommt eine neue Sendung.",exampleSrc:"أ: ماذا في الجدول اليوم؟\nب: الساعة الثامنة يوجد برنامج جديد.",funFact:"الألمان ما زالوا يقولون '?Was kommt im Programm' حين يسألون ماذا على التلفزيون. الكلمة تغطي البرمجيات وجداول التلفزيون وبرامج المسرح والمنصات السياسية."},
         {type:"teach",trg:"manch",src:"بعض",pos:"pron",gender:null,note:"محدد/ضمير. 'Mancher' (مذكر), 'manche' (مؤنث/جمع), 'manches' (محايد). غالباً بالجمع: manche Leute = بعض الناس.",example:"A: Lesen manche Leute noch Zeitungen?\nB: Ja, manche Leute lesen jeden Tag eine Zeitung.\nA: Und manche surfen nur im Internet?\nB: Genau, manche machen beides.",exampleSrc:"أ: هل ما زال بعض الناس يقرأون الصحف؟\nب: نعم, بعض الناس يقرأون صحيفة كل يوم.\nأ: وبعضهم يتصفح الإنترنت فقط؟\nب: بالضبط, بعضهم يفعل كليهما.",funFact:"'Manch' تنتمي لعائلة كلمات der (mancher, dieser, jener). تبدو أدبية قليلاً مقارنة بـ 'einige' (بعض). الألمان يستخدمونها حين يرسمون صورة: '...Mancher Leser' لها نبرة سردية أكثر من '...Einige Leser'"},
-        {type:"mc",q:"Verumius fragt: 'Was kommt heute im Programm?' What is he asking about?",opts:["What software to install","What is for dinner","When the train leaves","What is on TV tonight"],ans:"What is on TV tonight",hint:"'Programm' هنا تشير إلى جدول البث التلفزيوني."},
+        {type:"mc",q:"يسأل فيروميوس: 'Was kommt heute im Programm?' عمّ يسأل؟",opts:["أي برنامج يُثبّت","ماذا على العشاء","متى يغادر القطار","ماذا على التلفاز الليلة"],ans:"ماذا على التلفاز الليلة",hint:"'Programm' هنا تشير إلى جدول البث التلفزيوني."},
         {type:"fb",s:"Ich lese eine {1} über Reisen.",a:["Zeitschrift"],opts:["Zeitschrift","Sendung","Blog","Programm"],hint:"أي اسم مؤنث يعني مجلة مطبوعة يمكنك حملها؟",sSrc:"أقرأ مجلة عن السفر."},
         {type:"teach",trg:"das Radio",pos:"noun",gender:"n",src:"الراديو",note:"اسم محايد. الجمع: die Radios.",example:"A: Hörst du Radio im Auto?\nB: Ja, ich höre immer Radio beim Fahren.",exampleSrc:"أ: هل تسمع الراديو في السيارة؟\nب: نعم, أسمع الراديو دائماً أثناء القيادة.",funFact:"الإذاعة العامة الألمانية ممولة من Rundfunkbeitrag, رسم شهري يدفعه كل منزل (حوالي 18 يورو). الألمان يناقشون هذا الرسم بنفس حماس مناقشة الطقس."},
         {type:"teach",trg:"der Tipp",pos:"noun",gender:"m",src:"النصيحة",note:"اسم مذكر. الجمع: die Tipps. مستعار من الإنجليزية.",example:"A: Hast du einen Tipp für mich?\nB: Ja, informiere dich vorher im Internet.",exampleSrc:"أ: هل لديك نصيحة لي؟\nب: نعم, اطلّع مسبقاً على الإنترنت.",funFact:"الألمان يكتبونها بحرف p مزدوج بخلاف الإنجليزية. دخلت الكلمة الألمانية في القرن التاسع عشر من مصطلحات سباق الخيل الإنجليزية."},
         {type:"teach",trg:"das Heft",pos:"noun",gender:"n",src:"الدفتر / العدد (من مجلة)",note:"اسم محايد. الجمع: die Hefte. معنيان حسب السياق.",example:"A: Hast du das neue Heft gekauft?\nB: Nein, ich kaufe keine Hefte mehr.",exampleSrc:"أ: هل اشتريت العدد الجديد؟\nب: لم أعد أشتري أعداداً.",funFact:"كل تلميذ ألماني لديه دفتر لكل مادة: Matheheft, Deutschheft, Englischheft. الكلمة أصلاً كانت تعني مقبض (ما تمسكه), ثم تحولت إلى كتيّب مجلد."},
-        {type:"mc",q:"'Das Heft' can mean two things. Which pair is correct?",opts:["Book and a letter","Blog and an email","Notebook and issue","Radio and a show"],ans:"Notebook and issue",hint:"فكّر فيما تكتب فيه في المدرسة وما تشتريه من كشك الصحف."},
+        {type:"mc",q:"'Das Heft' لها معنيان. أي زوج صحيح؟",opts:["كتاب ورسالة","مدونة وبريد إلكتروني","دفتر وعدد (مجلة)","راديو وبرنامج"],ans:"دفتر وعدد (مجلة)",hint:"فكّر فيما تكتب فيه في المدرسة وما تشتريه من كشك الصحف."},
         {type:"fb",s:"Heute Abend kommt eine interessante {1} im Fernsehen.",a:["Sendung"],opts:["Sendung","Blog","Comic","Heft"],hint:"برنامج تلفزيوني أو بث. اسم مؤنث من 'senden' (يُرسل).",sSrc:"الليلة يوجد برنامج مثير على التلفزيون."},
         {type:"match",pairs:[
-    {trg:"der Blog",pos:"noun",gender:"m",src:"the blog"},
-    {trg:"die Zeitschrift",pos:"noun",gender:"f",src:"the magazine"},
-    {trg:"das Radio",pos:"noun",gender:"n",src:"the radio"},
-    {trg:"der Tipp",pos:"noun",gender:"m",src:"the tip"}
+    {trg:"der Blog",pos:"noun",gender:"m",src:"المدونة"},
+    {trg:"die Zeitschrift",pos:"noun",gender:"f",src:"المجلة"},
+    {trg:"das Radio",pos:"noun",gender:"n",src:"الراديو"},
+    {trg:"der Tipp",pos:"noun",gender:"m",src:"النصيحة"}
 ]}
       ]},
 // ─── L9: Digitale Hobbys ───
@@ -289,28 +289,28 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"teach",trg:"surfen",pos:"verb",gender:null,src:"يتصفّح (الإنترنت)",note:"تصريف نظامي: ich surfe, du surfst. 'Im Internet surfen' = to browse the web.",example:"A: Was machst du gerade?\nB: Ich surfe im Internet.",exampleSrc:"أ: ماذا تفعل الآن؟\nب: أتصفح الإنترنت.",funFact:"الألمان يقولون 'im Internet surfen' كركوب أمواج المعلومات. الفعل يحتفظ بنطقه الإنجليزي لكن يأخذ لواحق ألمانية: surfe, surfst, surft."},
         {type:"teach",trg:"sammeln",pos:"verb",gender:null,src:"يجمع",note:"تصريف نظامي: ich sammle, du sammelst. الماضي: gesammelt.",example:"A: Was sammelst du?\nB: Ich sammle alte Comics und Briefmarken.",exampleSrc:"أ: ماذا تجمع؟\nب: أجمع قصصاً مصورة قديمة وطوابع.",funFact:"الألمان جامعون جادون. جامعو الطوابع وجامعو العملات وجامعو أغطية البيرة كلهم لديهم أندية ولقاءات مخصصة."},
         {type:"teach",trg:"informieren",pos:"verb",gender:null,src:"يُعلم / يُبلغ",note:"تصريف نظامي: ich informiere. انعكاسي: sich informieren = to find out, to inform oneself.",example:"A: Wo informierst du dich über Nachrichten?\nB: Ich informiere mich online.",exampleSrc:"أ: من أين تحصل على أخبارك؟\nب: أطّلع عبر الإنترنت.",funFact:"'sich informieren' انعكاسي: أنت تُعلم نفسك. الألمان يحبون الأفعال الانعكاسية لما تفعله لمصلحتك: sich erinnern, sich freuen, sich informieren."},
-        {type:"mc",q:"'Ich informiere mich im Internet.' Why is 'mich' in this sentence?",opts:[
+        {type:"mc",q:"'Ich informiere mich im Internet.' لماذا 'mich' في هذه الجملة؟",opts:[
     "Because informieren is used reflexively here",
     "Because the internet requires accusative",
     "Because ich always needs mich",
-    "Because it is a question"
+    "لأنها سؤال"
 ],ans:"Because informieren is used reflexively here",hint:"فعل الإعلام يعود إلى الفاعل. فكّر: أُعلم نفسي."},
         {type:"fb",s:"Er {1} sich über das Programm.",a:["informiert"],opts:["informiert","informieren","informiere","informierst"],hint:"الشخص الثالث المفرد: er + فعل. أي لاحقة تناسب؟",sSrc:"يطّلع على البرنامج."},
         {type:"mc",q:"Mia sagt, dass sie jeden Tag einen Blog ___.",opts:["lesen","liest","lese","lest"],ans:"liest",hint:"في جملة dass الفعل يذهب للنهاية. ميا هي 'sie' لذا الفعل يحتاج صيغة الشخص الثالث."},
         {type:"fb",s:"Ich weiß nicht, ob er gern {1}.",a:["chattet"],opts:["chattet","chatten","chatte","chattest"],hint:"بعد 'ob' الفعل ينتقل للنهاية. الفاعل هو 'er.'",sSrc:"لا أعرف إن كان يحب الدردشة."},
         {type:"drag_fill",s:"Sie fragt, ob Verumius {1} gern {2} und ob er Zeitschriften {3}.",blanks:{"1":"sich","2":"informiert","3":"sammelt"},pool:["sich","informiert","sammelt","mich","surft","chatten"],hint:"كلا الجملتين سؤالان غير مباشران يبدآن بـ 'ob.' الفراغ الأول: فعل 'informieren' يُستخدم دائماً انعكاسياً. الثاني: صرّف لـ 'er' وانقله للنهاية.",sSrc:"تسأل هل يحب فيروميوس الاطلاع وهل يجمع مجلات."},
-        {type:"mc",q:"How do you form the Partizip II of verbs ending in -ieren?",opts:["Normal ge- prefix: ge + stem + t","No ge- prefix: just stem + t","Double ge-: gege + stem + t","No change at all"],ans:"No ge- prefix: just stem + t",hint:"فكّر بـ studieren, telefonieren, informieren. كلها تتبع نفس النمط."},
+        {type:"mc",q:"كيف تشكّل Partizip II للأفعال المنتهية بـ -ieren؟",opts:["بادئة ge- عادية: ge + جذع + t","بدون بادئة ge-: الجذع + t فقط","بادئة ge- مزدوجة: gege + جذع + t","بدون تغيير"],ans:"بدون بادئة ge-: الجذع + t فقط",hint:"فكّر بـ studieren, telefonieren, informieren. كلها تتبع نفس النمط."},
         {type:"fb",s:"Er sagt, dass er alte Comics {1}.",a:["sammelt"],opts:["sammelt","sammeln","sammle","gesammelt"],hint:"في جملة dass الفعل المصرّف يذهب للنهاية. الفاعل هو 'er.'",sSrc:"يقول إنه يجمع قصصاً مصورة قديمة."},
         {type:"mc",q:"Verumius surft im Internet. Er findet einen Blog. Was macht er?",opts:["He browses online and finds a blog","He goes surfing at the beach","He collects magazines","He listens to the radio"],ans:"He browses online and finds a blog",hint:"'Im Internet surfen' تعني التصفح وليس أمواج البحر."},
         {type:"drag_fill",s:"Lukas erzählt, dass er {1} für Sendungen über Natur {2} und dass er Tipps im {3} gehört hat.",blanks:{"1":"sich","2":"interessiert","3":"Radio"},pool:["sich","interessiert","Radio","mich","informiert","Blog"],hint:"جملة dass الأولى تحتوي فعلاً انعكاسياً عن الاهتمام. الضمير الانعكاسي لـ 'er' يأتي قبل الفعل. سمع نصائح على أي جهاز بث؟",sSrc:"لوكاس يخبرنا أنه مهتم ببرامج عن الطبيعة وأنه سمع نصائح في الراديو."},
         {type:"match",pairs:[
-    {trg:"der Blog",pos:"noun",gender:"m",src:"the blog"},
-    {trg:"die Sendung",pos:"noun",gender:"f",src:"the TV show"},
-    {trg:"das Radio",pos:"noun",gender:"n",src:"the radio"},
-    {trg:"fotografieren",pos:"verb",gender:null,src:"to photograph"},
-    {trg:"chatten",pos:"verb",gender:null,src:"to chat online"},
-    {trg:"sammeln",pos:"verb",gender:null,src:"to collect"},
-    {trg:"die Zeitschrift",pos:"noun",gender:"f",src:"the magazine"}
+    {trg:"der Blog",pos:"noun",gender:"m",src:"المدونة"},
+    {trg:"die Sendung",pos:"noun",gender:"f",src:"البرنامج التلفزيوني"},
+    {trg:"das Radio",pos:"noun",gender:"n",src:"الراديو"},
+    {trg:"fotografieren",pos:"verb",gender:null,src:"يصوّر"},
+    {trg:"chatten",pos:"verb",gender:null,src:"يدردش عبر الإنترنت"},
+    {trg:"sammeln",pos:"verb",gender:null,src:"يجمع"},
+    {trg:"die Zeitschrift",pos:"noun",gender:"f",src:"المجلة"}
 ]},
         {type:"teach",trg:"der Fotoapparat",pos:"noun",gender:"m",src:"آلة التصوير (تقليدية)",note:"مذكر. compound: Foto + Apparat. الجمع: die Fotoapparate.",example:"A: Hast du deinen Fotoapparat dabei?\nB: Nein, ich fotografiere nur mit dem Handy.\nA: Mein Opa hat noch einen alten Fotoapparat.",exampleSrc:"أ: هل معك آلة التصوير؟\nب: لا, أصوّر فقط بالهاتف.\nأ: جدي ما زال لديه آلة تصوير قديمة.",funFact:"قبل الكاميرات الرقمية, كل عائلة ألمانية كان لديها Fotoapparat للإجازات. Leica, علامة ألمانية, اخترعت كاميرا 35 ملم عام 1925."},
         {type:"teach",trg:"die Kamera",pos:"noun",gender:"f",src:"الكاميرا",note:"مؤنث. الجمع: die Kameras. Modern, general word for camera.",example:"A: Welche Kamera benutzt du?\nB: Eine kleine Digitalkamera.\nA: Die Fotos sind wirklich gut!",exampleSrc:"أ: أي كاميرا تستخدم؟\nب: كاميرا رقمية صغيرة.\nأ: الصور جيدة حقاً!",funFact:"صناعة الكاميرات الألمانية شكّلت التصوير عالمياً. عدسات Zeiss وكاميرات Leica وRollei كلها وُلدت في ألمانيا."},
@@ -359,7 +359,7 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
 ],ans:"Sie schreibt, dass Gemeinschaft wichtig ist.",hint:"في جملة dass, الفعل المصرّف ينتقل إلى النهاية تماماً."},
         {type:"fb",s:"Ich frage mich, {1} der Zoo am Sonntag offen ist.",a:"ob",opts:["ob","dass","weil","denn"],hint:"أي أداة ربط تقدم سؤال نعم/لا غير مباشر؟",sSrc:"أتساءل هل حديقة الحيوان مفتوحة يوم الأحد."},
         {type:"drag_fill",s:"Lukas sagt, {1} er {2} auf die Tour {3}.",blanks:{"1":"dass","2":"sich","3":"freut"},pool:["dass","sich","freut","ob","mich","lacht"],hint:"لوكاس يقرر حقيقة وليس شكاً. الفعل 'freuen' انعكاسي: يحتاج ضميراً يعود إلى الفاعل 'er.' الفعل في النهاية.",sSrc:"لوكاس يقول إنه يتطلع إلى الجولة."},
-        {type:"mc",q:"'Ich interessiere mich für Krimis, und Lukas interessiert sich für Sport.' What connects these two clauses?",opts:["aber","denn","oder","und"],ans:"und",hint:"كلتا الحقيقتين صحيحتان ومضافتان ببساطة بدون تناقض."},
+        {type:"mc",q:"'Ich interessiere mich für Krimis, und Lukas interessiert sich für Sport.' ما الذي يربط الجملتين؟",opts:["aber","denn","oder","und"],ans:"und",hint:"كلتا الحقيقتين صحيحتان ومضافتان ببساطة بدون تناقض."},
         {type:"fb",s:"Die Katze schläft, {1} sie müde ist.",a:"weil",opts:["weil","und","oder","denn"],hint:"أداة الربط الفرعية هذه تعني 'لأن' وترسل الفعل للنهاية.",sSrc:"القطة نائمة لأنها متعبة."},
         {type:"drag_fill",s:"Er fragt, {1} sie {2} für Pferde {3}.",blanks:{"1":"ob","2":"sich","3":"interessiert"},pool:["ob","sich","interessiert","dass","mich","fragt"],hint:"سؤال نعم/لا غير مباشر مع فعل انعكاسي. الفعل في النهاية.",sSrc:"يسأل هل هي مهتمة بالأحصنة."},
         {type:"mc",q:"Welcher Satz kombiniert 'sich fühlen' und 'denn' korrekt?",opts:[
@@ -369,17 +369,17 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
     "Ich fühle gut mich, denn ich habe Sport gemacht."
 ],ans:"Ich fühle mich gut, denn ich habe Sport gemacht.",hint:"'Denn' أداة ربط تنسيقية, لذا ترتيب الكلمات بعدها يبقى طبيعياً (الفعل ثانياً)."},
         {type:"fb",s:"Sie ärgert {1} über den Lärm im Park.",a:"sich",opts:["sich","mich","dich","uns"],hint:"الضمير الانعكاسي للشخص الثالث لـ 'هي' في فعل انعكاسي.",sSrc:"هي منزعجة من الضجيج في الحديقة."},
-        {type:"mc",q:"'Verumius weiß nicht, ob er morgen eine Radtour macht oder ob er in den Zoo geht.' How many ob clauses are in this sentence?",opts:["Two","One","Three","None"],ans:"Two",hint:"عدّ كلمة 'ob.' كل واحدة تفتح سؤالاً غير مباشر جديداً."},
+        {type:"mc",q:"'Verumius weiß nicht, ob er morgen eine Radtour macht oder ob er in den Zoo geht.' كم عدد جمل ob في هذه الجملة؟",opts:["اثنتان","واحدة","ثلاث","لا يوجد"],ans:"اثنتان",hint:"عدّ كلمة 'ob.' كل واحدة تفتح سؤالاً غير مباشر جديداً."},
         {type:"drag_fill",s:"Er {1} sich, {2} der Krimi spannend ist, {3} er ihn lesen will.",blanks:{"1":"fragt","2":"ob","3":"denn"},pool:["fragt","ob","denn","dass","freut","weil"],hint:"يسأل نفسه (انعكاسي), هل... لأن... تحتاج أداتي ربط مختلفتين.",sSrc:"يسأل نفسه هل الرواية البوليسية مثيرة, لأنه يريد قراءتها."},
         {type:"match",pairs:[
-    {trg:"die Katze",pos:"noun",gender:"f",src:"the cat"},
-    {trg:"der Vogel",pos:"noun",gender:"m",src:"the bird"},
-    {trg:"das Pferd",pos:"noun",gender:"n",src:"the horse"},
-    {trg:"das Tier",pos:"noun",gender:"n",src:"the animal"},
-    {trg:"der Park",pos:"noun",gender:"m",src:"the park"},
-    {trg:"der Krimi",pos:"noun",gender:"m",src:"the thriller"}
+    {trg:"die Katze",pos:"noun",gender:"f",src:"القطة"},
+    {trg:"der Vogel",pos:"noun",gender:"m",src:"العصفور"},
+    {trg:"das Pferd",pos:"noun",gender:"n",src:"الحصان"},
+    {trg:"das Tier",pos:"noun",gender:"n",src:"الحيوان"},
+    {trg:"der Park",pos:"noun",gender:"m",src:"المنتزه"},
+    {trg:"der Krimi",pos:"noun",gender:"m",src:"فيلم الإثارة"}
 ]},
-        {type:"mc",q:"'Er interessiert sich für Krimis.' What does this mean?",opts:["He wrote a thriller","He is interested in thrillers","He forgot the thriller","He lost the thriller"],ans:"He is interested in thrillers",hint:"الفعل الانعكاسي 'sich interessieren für' يعني الاهتمام بشيء."},
+        {type:"mc",q:"'Er interessiert sich für Krimis.' ماذا يعني هذا؟",opts:["He wrote a thriller","He is interested in thrillers","He forgot the thriller","He lost the thriller"],ans:"He is interested in thrillers",hint:"الفعل الانعكاسي 'sich interessieren für' يعني الاهتمام بشيء."},
         {type:"teach",trg:"die Gemeinschaft",pos:"noun",gender:"f",src:"المجتمع / الجماعة",note:"مؤنث. From gemein (common) + -schaft (collective suffix). الجمع: die Gemeinschaften.",example:"A: Die Gemeinschaft im Verein ist toll.\nB: Ja, alle helfen sich gegenseitig.\nA: Das ist das Beste am Vereinsleben.",exampleSrc:"أ: المجتمع في النادي رائع.\nب: نعم, الجميع يساعد بعضهم.\nأ: هذا أفضل شيء في حياة النادي.",funFact:"Gemeinschaft مقابل Gesellschaft تناقض اجتماعي شهير صاغه فرديناند تونيس عام 1887. Gemeinschaft هي الروابط الشخصية الدافئة, Gesellschaft هي المجتمع الرسمي."},
         {type:"teach",trg:"interessieren (sich)",pos:"verb",gender:null,src:"يهتم (بـ)",note:"انعكاسي: sich interessieren für + accusative. Ich interessiere mich für Musik.",example:"A: Wofür interessierst du dich?\nB: Ich interessiere mich für Fotografie.\nA: Dann musst du die Ausstellung sehen!",exampleSrc:"أ: بماذا تهتم؟\nب: أهتم بالتصوير.\nأ: إذاً يجب أن تشاهد المعرض!",funFact:"مثل كثير من الأفعال الانعكاسية الألمانية, المعنى يتغير مع 'sich.' بدونه, 'interessieren' تعني يُثير اهتمام شخص آخر: Das interessiert mich (هذا يثير اهتمامي)."},
         {type:"teach",trg:"leihen",pos:"verb",gender:null,src:"يُقرض / يستعير",note:"شاذ: ich leihe, du leihst. الماضي: geliehen. غير منفصل (بخلاف ausleihen).",example:"A: Kannst du mir zehn Euro leihen?\nB: Klar, hier bitte.\nA: Danke! Ich gebe es dir morgen zurück.",exampleSrc:"أ: هل يمكنك إقراضي عشرة يورو؟\nب: بالتأكيد, تفضل.\nأ: شكراً! سأعيدها غداً.",funFact:"Leihen هو الفعل الأساسي. أضف بادئات للدقة: ausleihen (يستعير من مكتبة), verleihen (يمنح/يكافئ), entleihen (استعارة رسمية)."},
@@ -400,11 +400,11 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"teach",trg:"falls",src:"في حال / إذا",pos:"conj",gender:null,note:"أداة ربط فرعية. الفعل يذهب للنهاية.\nمشابهة لـ 'wenn' لكنها تعني احتمالاً أقل.",example:"A: Falls es regnet, bleiben wir hier.\nB: Gute Idee!",exampleSrc:"أ: في حال هطول المطر, نبقى هنا.\nب: فكرة جيدة!",funFact:"'Falls' تشير إلى أن الشرط أقل احتمالاً من 'wenn.' استخدم falls حين قد يحدث شيء أو لا يحدث."},
         {type:"mc",q:"___ du dich für den Wettbewerb anmelden möchtest, musst du morgen kommen.",opts:["Ob","Dass","Falls","Denn"],ans:"Falls",hint:"هذا شرطي: إذا أردت التسجيل..."},
         {type:"match",pairs:[
-    {trg:"sich freuen",pos:"verb",gender:null,src:"to be happy/excited"},
-    {trg:"sich treffen",pos:"verb",gender:null,src:"to meet up"},
-    {trg:"sich ärgern",pos:"verb",gender:null,src:"to be annoyed"},
-    {trg:"sich verlieben",pos:"verb",gender:null,src:"to fall in love"},
-    {trg:"sich verabreden",pos:"verb",gender:null,src:"to make plans to meet"}
+    {trg:"sich freuen",pos:"verb",gender:null,src:"يفرح / يتحمس"},
+    {trg:"sich treffen",pos:"verb",gender:null,src:"يلتقي"},
+    {trg:"sich ärgern",pos:"verb",gender:null,src:"ينزعج"},
+    {trg:"sich verlieben",pos:"verb",gender:null,src:"يقع في الحب"},
+    {trg:"sich verabreden",pos:"verb",gender:null,src:"يتواعد للقاء"}
 ]},
         {type:"fb",s:"Hast du {1}, das Heft mitzubringen?",a:"vergessen",opts:["vergessen","verloren","geträumt","organisiert"],hint:"كان من المفترض أن تحضره لكنك لم تتذكر.",sSrc:"هل نسيت إحضار الدفتر؟"},
         {type:"mc",q:"Sie träumt davon, in einem Zirkus zu arbeiten, ___ sie liebt Tiere.",opts:["dass","denn","ob","sich"],ans:"denn",hint:"هذا يعطي السبب. أداة ربط تنسيقية."},
@@ -416,11 +416,11 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"fb",s:"Sie ärgert {1} über die Sendung im Radio.",a:"sich",opts:["sich","mich","dich","euch"],hint:"الضمير الانعكاسي يطابق 'sie' (هي).",sSrc:"هي منزعجة من البرنامج في الراديو."},
         {type:"mc",q:"Weißt du, ___ der Workshop morgen stattfindet ___ am Wochenende?",opts:["dass ... und","ob ... denn","dass ... aber","ob ... oder"],ans:"ob ... oder",hint:"تسأل بين احتمالين لست متأكداً منهما."},
         {type:"match",pairs:[
-    {trg:"das Konzert",pos:"noun",gender:"n",src:"the concert"},
-    {trg:"die Zeitschrift",pos:"noun",gender:"f",src:"the magazine"},
-    {trg:"der Wettbewerb",pos:"noun",gender:"m",src:"the competition"},
-    {trg:"die Bibliothek",pos:"noun",gender:"f",src:"the library"},
-    {trg:"die Mannschaft",pos:"noun",gender:"f",src:"the team"}
+    {trg:"das Konzert",pos:"noun",gender:"n",src:"الحفلة الموسيقية"},
+    {trg:"die Zeitschrift",pos:"noun",gender:"f",src:"المجلة"},
+    {trg:"der Wettbewerb",pos:"noun",gender:"m",src:"المسابقة"},
+    {trg:"die Bibliothek",pos:"noun",gender:"f",src:"المكتبة"},
+    {trg:"die Mannschaft",pos:"noun",gender:"f",src:"الفريق"}
 ]},
         {type:"drag_fill",s:"Sie informiert {1}, {2} der Krimi heute Abend im Programm ist.",blanks:{"1":"sich","2":"ob"},pool:["sich","mich","ob","dass","denn"],hint:"تتحقق لنفسها هل شيء يُعرض الليلة.",sSrc:"تتحقق هل الرواية البوليسية تُعرض الليلة."},
         {type:"fb",s:"Ich weiß, {1} er jeden Tag auf dem Sportplatz trainiert.",a:"dass",opts:["dass","ob","denn","aber"],hint:"أنت تذكر حقيقة أنت متأكد منها.",sSrc:"أعرف أنه يتدرب في الملعب الرياضي كل يوم."},
@@ -439,7 +439,7 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"teach",trg:"das Tennis",pos:"noun",gender:"n",src:"التنس",note:"محايد. Tennis spielen = to play tennis.",example:"A: Spielst du Tennis?\nB: Ja, jeden Samstag im Verein.\nA: Toll! Ich möchte auch anfangen.",exampleSrc:"أ: هل تلعب التنس؟\nب: نعم, كل سبت في النادي.\nأ: رائع! أريد أن أبدأ أيضاً.",funFact:"بوريس بيكر فاز بويمبلدون في سن 17. ألمانيا أصبحت مجنونة بالتنس في الثمانينيات. كل مدينة بنت ملاعب."},
         {type:"teach",trg:"der Basketball",pos:"noun",gender:"m",src:"كرة السلة",note:"مذكر. Basketball spielen.",example:"A: Wer spielt heute Basketball?\nB: Die Mannschaft aus Hamburg.\nA: Ich bin Fan!",exampleSrc:"أ: من يلعب كرة السلة اليوم؟\nب: الفريق من هامبورغ.\nأ: أنا مشجّع!",funFact:"ديرك نوفيتسكي جعل كرة السلة ضخمة في ألمانيا. دوري كرة السلة الألماني (BBL) لديه الآن 18 فريقاً."},
         {type:"teach",trg:"der Volleyball",pos:"noun",gender:"m",src:"الكرة الطائرة",note:"مذكر. الكرة الطائرة الشاطئية شعبية أيضاً في ألمانيا.",example:"A: Wollen wir Volleyball spielen?\nB: Gern! Am Strand oder in der Halle?",exampleSrc:"أ: هل تريد لعب الكرة الطائرة؟\nب: بالتأكيد! على الشاطئ أم في الصالة؟",funFact:"ثنائي الكرة الطائرة الشاطئية الألماني فاز بالذهب الأولمبي عام 2012 في لندن. الكرة الطائرة الشاطئية شائعة جداً في بحيرات ألمانيا."},
-        {type:"mc",q:"Which sport uses a net and you hit the ball over it with your hands?",opts:["Basketball","Volleyball","Tennis","Fußball"],ans:"Volleyball",hint:"فرق من ستة لاعبين تقف على جانبي الشبكة."},
+        {type:"mc",q:"أي رياضة تستخدم شبكة وتضرب الكرة فوقها بيديك؟",opts:["Basketball","Volleyball","Tennis","Fußball"],ans:"Volleyball",hint:"فرق من ستة لاعبين تقف على جانبي الشبكة."},
         {type:"teach",trg:"das Rad",pos:"noun",gender:"n",src:"عجلة / دراجة",note:"محايد. Rad fahren = to cycle. الجمع: Räder.",example:"A: Fährst du mit dem Rad zur Arbeit?\nB: Ja, jeden Tag. Es ist gesünder.",exampleSrc:"أ: هل تركب الدراجة للعمل؟\nب: نعم, كل يوم. إنه أصح.",funFact:"الألمان يقودون الدراجات حوالي 1,000 كم للشخص سنوياً. كثير من المدن لديها مسارات دراجات أكثر من حارات السيارات."},
         {type:"teach",trg:"reiten",pos:"verb",gender:null,src:"يمتطي (حصان)",note:"شاذ: ich reite, du reitest. الماضي: geritten (مع sein!).",example:"A: Kannst du reiten?\nB: Ein bisschen. Als Kind habe ich geritten.",exampleSrc:"أ: هل تستطيع ركوب الخيل؟\nب: قليلاً. ركبت الخيل في طفولتي.",funFact:"ألمانيا من أبرز دول الفروسية في أوروبا. الاتحاد الألماني للفروسية لديه أكثر من 660,000 عضو."},
         {type:"teach",trg:"singen",pos:"verb",gender:null,src:"يغنّي",note:"شاذ: ich singe, du singst. الماضي: gesungen.",example:"A: Singst du gern?\nB: Ja, ich bin im Chor!\nA: Wirklich? Das ist toll!",exampleSrc:"أ: هل تحب الغناء؟\nب: نعم, أنا في جوقة!\nأ: حقاً؟ هذا رائع!",funFact:"ألمانيا لديها جوقات هواة أكثر من أي بلد في أوروبا. حوالي 3 ملايين ألماني يغنون في جوقة."},
@@ -447,7 +447,7 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"teach",trg:"unternehmen",pos:"verb",gender:null,src:"يقوم بنشاط",note:"شاذ: ich unternehme, du unternimmst. منفصل: NOT (inseparable un-).",example:"A: Was wollen wir heute unternehmen?\nB: Wir könnten ins Museum gehen.",exampleSrc:"أ: ماذا نفعل اليوم؟\nب: يمكننا الذهاب إلى المتحف.",funFact:"رغم أنه يبدو كفعل منفصل, فإن unternehmen غير منفصل. 'unter' بادئة وليست جسيمة."},
         {type:"teach",trg:"ausgehen",pos:"verb",gender:null,src:"يخرج",note:"منفصل: ich gehe aus, du gehst aus. الماضي: ausgegangen (sein).",example:"A: Gehst du heute Abend aus?\nB: Ja, wir gehen in die Disco.",exampleSrc:"أ: هل ستخرج الليلة؟\nب: نعم, سنذهب إلى النادي الليلي.",funFact:"الألمان يخرجون متأخرين أكثر من كثير من الأوروبيين. العشاء الساعة 8, النوادي بعد منتصف الليل. نوادي برلين تفتح الساعة 1 صباحاً."},
         {type:"teach",trg:"probieren",pos:"verb",gender:null,src:"يجرّب / يتذوّق",note:"تصريف نظامي: ich probiere, du probierst. Probieren geht über Studieren!",example:"A: Möchtest du den Kuchen probieren?\nB: Ja, gern! Er sieht lecker aus.",exampleSrc:"أ: هل تريد تجربة الكعكة؟\nب: نعم, لو سمحت! تبدو لذيذة.",funFact:"المثل الألماني 'Probieren geht über Studieren' يعني 'التجربة تفوق الدراسة.' التعلم بالممارسة!"},
-        {type:"mc",q:"'Was wollen wir heute unternehmen?' means:",opts:["What shall we do today?","What are you studying?","Where are you going?","Who is coming along?"],ans:"What shall we do today?",hint:"التخطيط لنشاط معاً. ماذا يجب أن نفعل؟"},
+        {type:"mc",q:"ماذا تعني 'Was wollen wir heute unternehmen?'",opts:["ماذا سنفعل اليوم؟","ماذا تدرس؟","إلى أين تذهب؟","من سيأتي معنا؟"],ans:"ماذا سنفعل اليوم؟",hint:"التخطيط لنشاط معاً. ماذا يجب أن نفعل؟"},
         {type:"teach",trg:"tauschen",pos:"verb",gender:null,src:"يتبادل",note:"تصريف نظامي: ich tausche. Tauschbörse = swap market.",example:"A: Wollen wir die Plätze tauschen?\nB: Ja, klar! Ich sitze gern am Fenster.",exampleSrc:"أ: هل تريد تبادل المقاعد؟\nب: نعم, بالتأكيد! أحب الجلوس بجانب النافذة.",funFact:"ألمانيا لديها ثقافة تبادل قوية. حفلات تبادل الملابس والكتب والألعاب شائعة خاصة في برلين."},
         {type:"teach",trg:"teilen",pos:"verb",gender:null,src:"يشارك / يقسم",note:"تصريف نظامي: ich teile. Teilen ist leben! (Sharing is living.)",example:"A: Sollen wir die Pizza teilen?\nB: Gute Idee! Eine ganze Pizza ist zu viel.",exampleSrc:"أ: هل نتقاسم البيتزا؟\nب: فكرة جيدة! بيتزا كاملة كثيرة جداً.",funFact:"في المطاعم الألمانية, 'getrennt' تعني فواتير منفصلة و'zusammen' تعني فاتورة واحدة. الألمان غالباً يقسمون الحساب."},
         {type:"teach",trg:"schimpfen",pos:"verb",gender:null,src:"يوبّخ / يشتكي",note:"تصريف نظامي: ich schimpfe. Schimpfwort = swear word.",example:"A: Warum schimpft Hildi?\nB: Weil jemand den Müll falsch sortiert hat!",exampleSrc:"أ: لماذا هيلدي تُوبّخ؟\nب: لأن شخصاً فرز النفايات بشكل خاطئ!",funFact:"الألمان معروفون بثقافة الشكوى (Beschwerdekultur). إذا كُسرت القواعد, سيقول أحدهم شيئاً بالتأكيد."},
@@ -469,17 +469,17 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"teach",trg:"meistens",pos:"adv",gender:null,src:"في الغالب / عادةً",note:"ظرف. Meistens + verb = what you usually do.",example:"A: Was machst du am Wochenende?\nB: Meistens gehe ich spazieren.",exampleSrc:"أ: ماذا تفعل في نهاية الأسبوع؟\nب: عادةً أتمشى.",funFact:"Meistens من 'meist' (الأكثر). اللاحقة -ens تحولها إلى 'في الغالب.'"},
         {type:"drag_fill",s:"Der Film war {1} und {2}. Ich habe so viel gelacht!",blanks:{"1":"witzig","2":"toll"},pool:["witzig","toll","langweilig","schlimm","nett","traurig"],hint:"فيلم مضحك ورائع. صفتان إيجابيتان.",sSrc:"الفيلم كان مضحكاً ورائعاً. ضحكت كثيراً!"},
         {type:"match",pairs:[
-    {trg:"fantastisch",pos:"adj",gender:null,src:"fantastic"},
-    {trg:"langweilig",pos:"adj",gender:null,src:"boring"},
-    {trg:"spannend",pos:"adj",gender:null,src:"exciting"},
-    {trg:"beliebt",pos:"adj",gender:null,src:"popular"},
-    {trg:"berühmt",pos:"adj",gender:null,src:"famous"},
-    {trg:"witzig",pos:"adj",gender:null,src:"funny"},
-    {trg:"nett",pos:"adj",gender:null,src:"nice"},
-    {trg:"toll",pos:"adj",gender:null,src:"great"}
+    {trg:"fantastisch",pos:"adj",gender:null,src:"رائع"},
+    {trg:"langweilig",pos:"adj",gender:null,src:"ممل"},
+    {trg:"spannend",pos:"adj",gender:null,src:"مثير"},
+    {trg:"beliebt",pos:"adj",gender:null,src:"شائع"},
+    {trg:"berühmt",pos:"adj",gender:null,src:"مشهور"},
+    {trg:"witzig",pos:"adj",gender:null,src:"مضحك"},
+    {trg:"nett",pos:"adj",gender:null,src:"لطيف"},
+    {trg:"toll",pos:"adj",gender:null,src:"عظيم"}
 ]},
         {type:"mc",q:"'Reiten' ist ein Hobby. Was macht man dabei?",opts:["Man fährt Fahrrad","Man reitet ein Pferd","Man singt Lieder","Man spielt Tennis"],ans:"Man reitet ein Pferd",hint:"هذه الهواية تتضمن حيواناً. 'Reiten' تعني يركب, لكن ليس دراجة."},
-        {type:"mc",q:"Which adjective describes something that is famous and known to many people?",opts:["nett","meistens","beliebt","berühmt"],ans:"berühmt",hint:"هذه الكلمة من 'Ruhm' بمعنى الشهرة أو المجد."},
+        {type:"mc",q:"أي صفة تصف شيئاً مشهوراً ومعروفاً لدى كثيرين؟",opts:["nett","meistens","beliebt","berühmt"],ans:"berühmt",hint:"هذه الكلمة من 'Ruhm' بمعنى الشهرة أو المجد."},
         {type:"fb",s:"Die neue Sendung ist sehr {1} in Deutschland.",a:["beliebt"],opts:["beliebt","berühmt","besonders","meistens"],hint:"كثير من الناس يحبونه ويشاهدونه. ليس أنه مشهور دولياً بل محبوب على نطاق واسع.",sSrc:"البرنامج الجديد شائع جداً في ألمانيا."},
         {type:"fb",s:"Das Konzert war {1}! Alle haben getanzt.",a:["fantastisch"],opts:["fantastisch","langweilig","schlimm","traurig"],hint:"الحفل الموسيقي كان مذهلاً. الجميع رقصوا. أي صفة إيجابية تناسب؟",sSrc:"الحفل الموسيقي كان رائعاً! الجميع رقصوا."}
       ]},
@@ -487,7 +487,7 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
     {id:"deu_r9l14",title:"Unterhaltung und Events",icon:"🎶",xp:10,board:true,steps:[
         {type:"intro",title:"Unterhaltung und Events",desc:"من الفرق الموسيقية إلى المهرجانات, ومن النوادي إلى المسابقات: مفردات الترفيه لحياتك الاجتماعية في ألمانيا. بالإضافة لأفعال مفيدة للتخطيط وتبادل الأفكار.",goals:["تعلّم مفردات الترفيه والفعاليات","استخدم أفعال التخطيط: vereinbaren, austauschen","صف الفعاليات بصفات جديدة"]},
         {type:"story",speaker:"narrator",mood:"happy",art:"de-corkboard",trg:"Lukas schreibt in den Gruppenchat: 'Wer will nächste Woche mit dem ICE nach München fahren? Ich habe günstige Tickets gefunden!' Verumius hat noch nie allein den ICE genommen. Aber jetzt hat er einen Mitgliedsausweis. Er kann alles.",src:"لوكاس يكتب في دردشة المجموعة: 'من يريد أخذ القطار السريع إلى ميونخ الأسبوع القادم؟ وجدت تذاكر رخيصة!' فيروميوس لم يأخذ القطار السريع وحده قط. لكن الآن لديه بطاقة عضوية. يمكنه فعل أي شيء."},
-        {type:"mc",q:"What is Lukas proposing in the group chat?",opts:["A running competition","A train trip to Munich","A museum visit","A concert in Berlin"],ans:"A train trip to Munich",hint:"وجد تذاكر ICE رخيصة. أين يريد الذهاب؟"},
+        {type:"mc",q:"ماذا يقترح لوكاس في المحادثة الجماعية؟",opts:["مسابقة جري","رحلة بالقطار إلى ميونخ","زيارة متحف","حفلة موسيقية في برلين"],ans:"رحلة بالقطار إلى ميونخ",hint:"وجد تذاكر ICE رخيصة. أين يريد الذهاب؟"},
         {type:"teach",trg:"die Band",pos:"noun",gender:"f",src:"الفرقة الموسيقية",note:"مؤنث. الجمع: die Bands. مستعار من الإنجليزية.",example:"A: Welche Band spielte auf dem Festival?\nB: Eine Indie-Band aus Berlin.\nA: Waren sie gut?",exampleSrc:"أ: أي فرقة عزفت في المهرجان؟\nب: فرقة إندي من برلين.\nأ: هل كانوا جيدين؟",funFact:"ألمانيا لديها مشهد موسيقى حية ضخم. Rock am Ring وWacken Open Air وSplash! من بين أكبر مهرجانات أوروبا."},
         {type:"teach",trg:"die Disco",pos:"noun",gender:"f",src:"النادي الليلي",note:"مؤنث. أيضاً: die Disko. الجمع: die Discos.",example:"A: Gehen wir heute Abend in die Disco?\nB: Ja, die Musik dort ist super!\nA: Um wie viel Uhr?",exampleSrc:"أ: هل نذهب إلى النادي الليلي الليلة؟\nب: نعم, الموسيقى هناك رائعة!\nأ: في أي ساعة؟",funFact:"الألمان ما زالوا يقولون 'Disco' للنادي الليلي, رغم أن الشباب يقولون أيضاً 'Club.' برلين تُعتبر عاصمة التكنو في العالم."},
         {type:"teach",trg:"das Festival",pos:"noun",gender:"n",src:"المهرجان",note:"محايد. الجمع: die Festivals. من الإنجليزية.",example:"A: Warst du schon auf einem Festival?\nB: Ja, letztes Jahr auf dem Wacken Open Air.\nA: Drei Tage Musik und Camping!",exampleSrc:"أ: هل حضرت مهرجاناً؟\nب: نعم, العام الماضي في Wacken Open Air.\nأ: ثلاثة أيام موسيقى وتخييم!",funFact:"Wacken Open Air هو أكبر مهرجان هيفي ميتال في العالم, يُقام في قرية صغيرة بها 2,000 ساكن فقط لكن 85,000 زائر."},
@@ -502,11 +502,11 @@ const UNIT_09_AR = {n:9,lang:"de",srcLang:"ar",track:"v2",title:"Freizeit und Ve
         {type:"teach",trg:"austauschen",pos:"verb",gender:null,src:"يتبادل",note:"منفصل: ich tausche aus. يؤكد التبادل المتبادل.",example:"A: Wollen wir Telefonnummern austauschen?\nB: Ja, gerne! Hier ist meine.\nA: Danke! Ich schreibe dir.",exampleSrc:"أ: هل نتبادل أرقام الهواتف؟\nب: نعم, بكل سرور! هذا رقمي.\nأ: شكراً! سأراسلك.",funFact:"تبادل الطلاب (Schüleraustausch) شائع جداً. حوالي 20,000 طالب ألماني يسافرون للخارج كل عام."},
         {type:"teach",trg:"romantisch",pos:"adj",gender:null,src:"رومانسي",note:"صفة. نفس الجذر بالإنجليزية. Ein romantischer Abend.",example:"A: Der Film war sehr romantisch.\nB: Ja, aber auch ein bisschen kitschig.\nA: Das ist doch das Beste daran!",exampleSrc:"أ: الفيلم كان رومانسياً جداً.\nب: نعم, لكن أيضاً ساذج قليلاً.\nأ: هذا أفضل جزء!",funFact:"وادي الراين ألهم الحركة الرومانسية الألمانية في القرن التاسع عشر. Romantisch تأتي من هذا العصر."},
         {type:"match",pairs:[
-    {trg:"die Band",pos:"noun",gender:"f",src:"the band"},
-    {trg:"das Festival",pos:"noun",gender:"n",src:"the festival"},
-    {trg:"der Klub",pos:"noun",gender:"m",src:"the club"},
-    {trg:"das Rätsel",pos:"noun",gender:"n",src:"the puzzle"},
-    {trg:"das Team",pos:"noun",gender:"n",src:"the team"}
+    {trg:"die Band",pos:"noun",gender:"f",src:"الفرقة الموسيقية"},
+    {trg:"das Festival",pos:"noun",gender:"n",src:"المهرجان"},
+    {trg:"der Klub",pos:"noun",gender:"m",src:"النادي"},
+    {trg:"das Rätsel",pos:"noun",gender:"n",src:"الأحجية"},
+    {trg:"das Team",pos:"noun",gender:"n",src:"الفريق"}
 ]},
         {type:"mc",q:"Wo kann man in Berlin am besten tanzen gehen?",opts:["In die Disco","In das Festival","In das Rätsel","In die Band"],ans:"In die Disco",hint:"مكان تذهب إليه ليلاً للرقص على الموسيقى. ليس فعالية خارجية."},
         {type:"fb",s:"Wollen wir einen Termin {1}?",a:["vereinbaren"],opts:["vereinbaren","auspacken","austauschen","probieren"],hint:"لترتيب أو الاتفاق على وقت لقاء. مرتبطة بـ 'Verein' (نادي).",sSrc:"هل نرتّب موعداً؟"},

@@ -27,11 +27,11 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"mc",q:"Was gehört in die gelbe Tonne?",opts:["Papier und Kartons","Glas und Flaschen","Obst und Gemüse","Plastik und Metall"],ans:"Plastik und Metall",hint:"هذه الحاوية لمواد التغليف التي تحضرها من السوبرماركت."},
         {type:"fb",s:"Geh durch die {1} zum Hinterhof.",a:"Tür",opts:["Tür","Pflanze","Natur","Nachbarin"],hint:"تفتحه وتغلقه لدخول غرفة.",sSrc:"امشِ عبر الباب إلى الفناء."},
         {type:"match",pairs:[
-            {trg:"der Müll",pos:"noun",gender:"m",src:"waste/trash"},
-            {trg:"die Pflanze",pos:"noun",gender:"f",src:"plant"},
-            {trg:"sauber",pos:"adj",gender:null,src:"clean"},
-            {trg:"schmutzig",pos:"adj",gender:null,src:"dirty"},
-            {trg:"nützlich",pos:"adj",gender:null,src:"useful"}
+            {trg:"der Müll",pos:"noun",gender:"m",src:"النفايات"},
+            {trg:"die Pflanze",pos:"noun",gender:"f",src:"النبتة"},
+            {trg:"sauber",pos:"adj",gender:null,src:"نظيف"},
+            {trg:"schmutzig",pos:"adj",gender:null,src:"متسخ"},
+            {trg:"nützlich",pos:"adj",gender:null,src:"مفيد"}
           ]},
         {type:"teach",trg:"die Mülltrennung",pos:"noun",gender:"f",src:"فرز النفايات / إعادة التدوير",note:"اسم مؤنث. مركّب: Müll (نفايات) + Trennung (فصل). حجر الزاوية في الثقافة البيئية الألمانية.",example:"A: Was ist Mülltrennung?\nB: Man sortiert den Müll in verschiedene Tonnen.\nA: Ist das wirklich so wichtig?\nB: In Deutschland ist es Pflicht!",exampleSrc:"أ: ما هو فرز النفايات؟\nب: تفرز النفايات في حاويات مختلفة.\nأ: هل هذا مهم حقاً؟\nب: في ألمانيا هو إلزامي!",funFact:"أدخلت ألمانيا نظام النقطة الخضراء (Grüner Punkt) عام 1991، مما جعلها من أوائل الدول التي تُلزم المصنّعين بدفع تكاليف إعادة تدوير التغليف. يُدرّس فرز النفايات في المدارس من سن السادسة."},
         {type:"mc",q:"Hildi sagt: 'Mülltrennung ist sehr ... für die Umwelt.'",opts:["nützlich","schmutzig","schädlich","sauber"],ans:"nützlich",hint:"صفة إيجابية تصف الفائدة أو النفع."},
@@ -67,12 +67,12 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"fb",s:"Mach bitte das {1} auf, es ist warm.",a:"Fenster",opts:["Fenster","Geschirr","Keller","Stuhl"],hint:"تفتح هذا لإدخال الهواء النقي.",sSrc:"افتح النافذة من فضلك، الجو حار."},
         {type:"mc",q:"Hildi sagt: 'Das Geschirr ist schmutzig.' Was meint sie?",opts:["The kitchen is dirty","The glass is broken","The dishes are dirty","The spoon is missing"],ans:"The dishes are dirty",hint:"Geschirr هي الكلمة الجماعية للأطباق والأكواب والصحون"},
         {type:"match",pairs:[
-            {trg:"die Gabel",pos:"noun",gender:"f",src:"the fork"},
-            {trg:"der Löffel",pos:"noun",gender:"m",src:"the spoon"},
-            {trg:"das Messer",pos:"noun",gender:"n",src:"the knife"},
-            {trg:"der Teller",pos:"noun",gender:"m",src:"the plate"},
-            {trg:"der Topf",pos:"noun",gender:"m",src:"the pot"},
-            {trg:"das Geschirr",pos:"noun",gender:"n",src:"the dishes"}
+            {trg:"die Gabel",pos:"noun",gender:"f",src:"الشوكة"},
+            {trg:"der Löffel",pos:"noun",gender:"m",src:"الملعقة"},
+            {trg:"das Messer",pos:"noun",gender:"n",src:"السكين"},
+            {trg:"der Teller",pos:"noun",gender:"m",src:"الطبق"},
+            {trg:"der Topf",pos:"noun",gender:"m",src:"القِدر"},
+            {trg:"das Geschirr",pos:"noun",gender:"n",src:"الأواني"}
           ]},
         {type:"mc",q:"Du brauchst etwas zum Schneiden. Was nimmst du?",opts:["das Messer","die Gabel","den Löffel","den Teller"],ans:"das Messer",hint:"الأداة الحادة المستخدمة لتقطيع الطعام"},
         {type:"fb",s:"Setz dich auf den {1}, er ist sehr bequem.",a:"Stuhl",opts:["Stuhl","Teller","Topf","Keller"],hint:"قطعة الأثاث التي تجلس عليها.",sSrc:"اجلس على الكرسي، إنه مريح جداً."},
@@ -98,12 +98,12 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"fb",s:"Jeder Mieter hat seinen eigenen {1}.",a:"Keller",opts:["Keller","Stuhl","Löffel","Teller"],hint:"مساحة التخزين أسفل المبنى.",sSrc:"كل مستأجر لديه قبو خاص."},
         {type:"mc",q:"Hildis Haus hat vier Etagen. Was ist ein anderes Wort dafür?",opts:["Fenster","Stockwerke","Keller","Stühle"],ans:"Stockwerke",hint:"كل مستوى في المبنى من الأرض إلى السقف."},
         {type:"match",pairs:[
-            {trg:"die Lampe",pos:"noun",gender:"f",src:"the lamp"},
-            {trg:"der Stuhl",pos:"noun",gender:"m",src:"the chair"},
-            {trg:"das Fenster",pos:"noun",gender:"n",src:"the window"},
-            {trg:"der Keller",pos:"noun",gender:"m",src:"the basement"},
-            {trg:"das Erdgeschoss",pos:"noun",gender:"n",src:"the ground floor"},
-            {trg:"das Stockwerk",pos:"noun",gender:"n",src:"the floor/story"}
+            {trg:"die Lampe",pos:"noun",gender:"f",src:"المصباح"},
+            {trg:"der Stuhl",pos:"noun",gender:"m",src:"الكرسي"},
+            {trg:"das Fenster",pos:"noun",gender:"n",src:"النافذة"},
+            {trg:"der Keller",pos:"noun",gender:"m",src:"القبو"},
+            {trg:"das Erdgeschoss",pos:"noun",gender:"n",src:"الطابق الأرضي"},
+            {trg:"das Stockwerk",pos:"noun",gender:"n",src:"الطابق"}
           ]},
         {type:"teach",trg:"sortieren",pos:"verb",gender:null,src:"يُرتّب / يفرز",note:"فعل منتظم: ich sortiere. Müll sortieren = فرز النفايات.",example:"A: Wie sortiert man den Müll richtig?\nB: Plastik in den gelben Sack, Papier in die blaue Tonne.\nA: Und Glas?",exampleSrc:"أ: كيف تفرز النفايات بشكل صحيح؟\nب: البلاستيك في الكيس الأصفر، الورق في الحاوية الزرقاء.\nأ: والزجاج؟",funFact:"يفرز الألمان النفايات إلى 6 فئات. الخطأ قد يكسبك نظرة صارمة من جيرانك."},
         {type:"teach",trg:"niedrig",pos:"adj",gender:null,src:"منخفض",note:"عكس hoch (عالٍ). Niedrige Preise = أسعار منخفضة.",example:"A: Ist die Miete hier niedrig?\nB: Nein, Berlin wird immer teurer.\nA: Das stimmt leider.",exampleSrc:"أ: هل الإيجار منخفض هنا؟\nب: لا، برلين أصبحت أغلى.\nأ: هذا صحيح للأسف.",funFact:"niedrig تأتي من الألمانية القديمة 'nidar' (أسفل). مرتبطة بالإنجليزية 'nether' كما في Netherlands (الأراضي المنخفضة)."},
@@ -138,20 +138,20 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"mc",q:"Aufräumen ist gut, aber putzen ist ...",opts:["besser","guter","mehr gut","am besten"],ans:"besser",hint:"صيغة المقارنة الشاذة لـ 'gut'"},
         {type:"mc",q:"Die Heizung läuft. Mach bitte das Fenster ...",opts:["auf","an","zu","ab"],ans:"zu",hint:"عكس aufmachen"},
         {type:"match",pairs:[
-            {trg:"der Haushalt",pos:"noun",gender:"m",src:"the household"},
-            {trg:"die Heizung",pos:"noun",gender:"f",src:"the heating"},
-            {trg:"die Reinigung",pos:"noun",gender:"f",src:"the cleaning"},
-            {trg:"die Wäsche",pos:"noun",gender:"f",src:"the laundry"},
-            {trg:"aufräumen",pos:"verb",gender:null,src:"to tidy up"},
-            {trg:"putzen",pos:"verb",gender:null,src:"to clean"}
+            {trg:"der Haushalt",pos:"noun",gender:"m",src:"شؤون المنزل"},
+            {trg:"die Heizung",pos:"noun",gender:"f",src:"التدفئة"},
+            {trg:"die Reinigung",pos:"noun",gender:"f",src:"التنظيف"},
+            {trg:"die Wäsche",pos:"noun",gender:"f",src:"الغسيل"},
+            {trg:"aufräumen",pos:"verb",gender:null,src:"يرتّب"},
+            {trg:"putzen",pos:"verb",gender:null,src:"ينظّف"}
           ]},
         {type:"match",pairs:[
-            {trg:"aufmachen",pos:"verb",gender:null,src:"to open"},
-            {trg:"zumachen",pos:"verb",gender:null,src:"to close"},
-            {trg:"hängen",pos:"verb",gender:null,src:"to hang"},
-            {trg:"stören",pos:"verb",gender:null,src:"to disturb"},
-            {trg:"der Haushalt",pos:"noun",gender:"m",src:"the household"},
-            {trg:"die Wäsche",pos:"noun",gender:"f",src:"the laundry"}
+            {trg:"aufmachen",pos:"verb",gender:null,src:"يفتح"},
+            {trg:"zumachen",pos:"verb",gender:null,src:"يغلق"},
+            {trg:"hängen",pos:"verb",gender:null,src:"يعلّق"},
+            {trg:"stören",pos:"verb",gender:null,src:"يزعج"},
+            {trg:"der Haushalt",pos:"noun",gender:"m",src:"شؤون المنزل"},
+            {trg:"die Wäsche",pos:"noun",gender:"f",src:"الغسيل"}
           ]},
         {type:"drag_fill",s:"Hildi {1} die Küche, und ich {2} das Wohnzimmer {3}.",blanks:{"1":"putzt","2":"räume","3":"auf"},pool:["putzt","räume","auf","mache","zu"],hint:"فعلا تنظيف مختلفان: فرك مقابل ترتيب. أحدهما منفصل.",sSrc:"هيلدي تنظف المطبخ وأنا أرتّب غرفة المعيشة."},
         {type:"fb",s:"Mia sagt: 'Störe ich?' Hildi antwortet: 'Nein, du {1} nicht.'",a:"störst",opts:["störst","störe","stört","gestört"],hint:"المتكلم المفرد المخاطب في المضارع لـ stören.",sSrc:"ميا تقول: 'هل أزعجكم؟' هيلدي تجيب: 'لا، أنتِ لا تزعجين.'"},
@@ -209,32 +209,32 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"schwierig",pos:"adj",gender:null,src:"صعب",note:"لا أملاوت في المقارنة: schwieriger، am schwierigsten.",example:"A: Ist Mülltrennung schwierig?\nB: Am Anfang ist es schwierig, aber dann wird es leichter.",exampleSrc:"أ: هل فرز النفايات صعب؟\nب: في البداية صعب، لكن بعد ذلك يصبح أسهل.",funFact:"الألمان نادراً يقولون 'schwer' للمهام. 'schwierig' للصعوبة الذهنية. 'schwer' للوزن الفيزيائي. الصندوق schwer. قاعدة نحوية schwierig."},
         {type:"teach",trg:"stark",pos:"adj",gender:null,src:"قوي",note:"المقارنة: stärker. التفضيل: am stärksten. أملاوت!",example:"A: Ist der Müllgeruch stark?\nB: Ja, heute ist er stärker als gestern.",exampleSrc:"أ: هل رائحة النفايات قوية؟\nب: نعم، اليوم أقوى من أمس.",funFact:"'stark' تعني أيضاً 'رائع' في العامية. 'Das war echt stark!' = كان رائعاً فعلاً! مثل 'strong move' بالإنجليزية."},
         {type:"teach",trg:"weich",pos:"adj",gender:null,src:"طري",note:"المقارنة: weicher. التفضيل: am weichsten.",example:"A: Ist das Brot noch weich?\nB: Nein, es ist hart. Wir brauchen frisches.",exampleSrc:"أ: هل الخبز لا يزال طرياً؟\nب: لا، إنه صلب. نحتاج خبزاً طازجاً.",funFact:"'weich' تأتي من نفس جذر الإنجليزية 'weak'. المعنى الأصلي كان 'يلين'. مع الوقت تحولت الإنجليزية إلى 'ضعيف' بينما احتفظت الألمانية بمعنى 'ناعم الملمس'."},
-        {type:"mc",q:"Hildi says the bread is not 'weich' anymore. What does she mean?",opts:["It is not warm anymore","It is not sweet anymore","It is not fresh anymore","It is not soft anymore"],ans:"It is not soft anymore",hint:"هذه الصفة تصف الملمس، ليس الحرارة أو الطعم."},
+        {type:"mc",q:"Hildi says the bread is not 'weich' anymore. ماذا تقصد؟",opts:["لم يعد دافئاً","لم يعد حلواً","لم يعد طازجاً","لم يعد طرياً"],ans:"لم يعد طرياً",hint:"هذه الصفة تصف الملمس، ليس الحرارة أو الطعم."},
         {type:"teach",trg:"scharf",pos:"adj",gender:null,src:"حاد / حار",note:"معنيان! المقارنة: schärfer. أملاوت في المقارنة.",example:"A: Ist die Soße scharf?\nB: Ja, sie ist schärfer als gestern.",exampleSrc:"أ: هل الصلصة حارة؟\nب: نعم، أحرّ من أمس.",funFact:"السكين 'scharf' (حاد). الفلفل 'scharf' (حار). الصورة 'scharf' (واضحة). والشخص يمكن أن يكون 'scharf' (جذاب). كلمة واحدة، أربع وظائف."},
         {type:"teach",trg:"frisch",pos:"adj",gender:null,src:"طازج",note:"المقارنة: frischer. التفضيل: am frischesten.",example:"A: Kaufst du frisches Gemüse?\nB: Ja, frisches Gemüse ist am besten.",exampleSrc:"أ: هل تشتري خضاراً طازجة؟\nب: نعم، الخضار الطازجة هي الأفضل.",funFact:"'frisch' والإنجليزية 'fresh' نفس الكلمة. الألمانية حافظت على الهجاء الأصلي. الإنجليزية أضافت 'e' وخففت 'sch' إلى 'sh'."},
         {type:"teach",trg:"süß",pos:"adj",gender:null,src:"حلو",note:"المقارنة: süßer. التفضيل: am süßesten.",example:"A: Ist der Kuchen süß?\nB: Ja, er ist süßer als die Schokolade!",exampleSrc:"أ: هل الكعك حلو؟\nب: نعم، أحلى من الشوكولاتة!",funFact:"الألمان يسمون الأشياء اللطيفة 'süß' أيضاً. الطفل süß. الجرو süß. حتى الفكرة الجيدة يمكن أن تكون 'süß'. تماماً مثل 'sweet' بالإنجليزية!"},
         {type:"teach",trg:"sauer",pos:"adj",gender:null,src:"حامض",note:"المقارنة: saurer. التفضيل: am sauersten.",example:"A: Ist die Zitrone sauer?\nB: Ja, sie ist am sauersten von allen Früchten.",exampleSrc:"أ: هل الليمون حامض؟\nب: نعم، أحمض الفواكه كلها.",funFact:"'sauer' تعني أيضاً 'غاضب' في الألمانية. 'Er ist sauer auf mich' = إنه غاضب مني. و'Sauerbraten' طبق لحم مشهور منقوع في الخل. لحم حامض!"},
-        {type:"mc",q:"Which word describes both a knife and a chili pepper?",opts:["hart","scharf","stark","frisch"],ans:"scharf",hint:"فكّر في الكلمة التي تعني 'حاد' و'حار' معاً."},
+        {type:"mc",q:"أي كلمة تصف both a knife and a chili pepper?",opts:["hart","scharf","stark","frisch"],ans:"scharf",hint:"فكّر في الكلمة التي تعني 'حاد' و'حار' معاً."},
         {type:"tip",title:"Superlative: am ...sten",text:"للقول إن شيئاً هو الأكثر أو الأفضل، استخدم am قبل الجذع وأضف -sten:\n- schnell: am schnellsten (the fastest)\n- hart: am härtesten (the hardest)\n- frisch: am frischesten (the freshest)\n\nBefore a noun, use the article and add -ste to the stem:\n- der schnellste Zug (the fastest train)\n- die frischeste Orange (the freshest orange)\n\nThree key irregulars to memorize:\n- gut: am besten (the best)\n- viel: am meisten (the most)\n- gern: am liebsten (most gladly)",deepDive:"عندما ينتهي الجذع بـ -t، -d، -s، -ß، -z، أضف -e- إضافية قبل -sten for pronunciation:\nhärt-esten, süß-esten, frisch-esten.\n\nWith articles, the adjective takes declension endings:\nder beste Müll (nom masc)\ndie beste Idee (nom fem)\ndas beste Essen (nom neut)\nden besten Kuchen (acc masc)"},
         {type:"verb_table",title:"Irregular Comparatives and Superlatives",groups:[
             {label:"Must-know irregulars",rows:[
-                {pronoun:"gut",form:"besser",src:"am besten"},
-                {pronoun:"viel",form:"mehr",src:"am meisten"},
-                {pronoun:"gern",form:"lieber",src:"am liebsten"},
-                {pronoun:"hoch",form:"höher",src:"am höchsten"},
-                {pronoun:"nah",form:"näher",src:"am nächsten"},
-                {pronoun:"groß",form:"größer",src:"am größten"}
+                {pronoun:"gut",form:"besser",src:"الأفضل"},
+                {pronoun:"viel",form:"mehr",src:"الأكثر"},
+                {pronoun:"gern",form:"lieber",src:"الأحب"},
+                {pronoun:"hoch",form:"höher",src:"الأعلى"},
+                {pronoun:"nah",form:"näher",src:"الأقرب"},
+                {pronoun:"groß",form:"größer",src:"الأكبر"}
               ]},
             {label:"Umlaut comparatives (a/o/u get ä/ö/ü)",rows:[
-                {pronoun:"alt",form:"älter",src:"am ältesten"},
-                {pronoun:"stark",form:"stärker",src:"am stärksten"},
-                {pronoun:"hart",form:"härter",src:"am härtesten"},
-                {pronoun:"scharf",form:"schärfer",src:"am schärfsten"},
-                {pronoun:"kalt",form:"kälter",src:"am kältesten"},
-                {pronoun:"warm",form:"wärmer",src:"am wärmsten"}
+                {pronoun:"alt",form:"älter",src:"الأقدم / الأكبر سناً"},
+                {pronoun:"stark",form:"stärker",src:"الأقوى"},
+                {pronoun:"hart",form:"härter",src:"الأصعب"},
+                {pronoun:"scharf",form:"schärfer",src:"الأحرّ"},
+                {pronoun:"kalt",form:"kälter",src:"الأبرد"},
+                {pronoun:"warm",form:"wärmer",src:"الأدفأ"}
               ]}
           ],note:"كثير من الصفات أحادية المقطع بحروف a/o/u تأخذ أملاوت في المقارنة والتفضيل. الصيغ الشاذة (gut/viel/gern) يجب حفظها."},
-        {type:"mc",q:"What is the superlative of 'gut'?",opts:["am gusten","am bessten","am gutsten","am besten"],ans:"am besten",hint:"هذه شاذة تماماً. فكّر بالإنجليزية 'good, better, best'."},
+        {type:"mc",q:"ما هو التفضيل لـ 'gut'؟",opts:["am gusten","am bessten","am gutsten","am besten"],ans:"am besten",hint:"هذه شاذة تماماً. فكّر بالإنجليزية 'good, better, best'."},
         {type:"fb",s:"Frisches Gemüse ist {1} als Dosengemüse.",a:["besser"],opts:["besser","bester","am besten","gut"],hint:"تحتاج صيغة المقارنة هنا لأن 'als' تتبعها.",sSrc:"الخضار الطازجة أفضل من الخضار المعلبة."},
         {type:"fb",s:"Die Zitrone ist {1} von allen Früchten.",a:["am sauersten"],opts:["am sauersten","saurer","sauer","am saueren"],hint:"تحتاج صيغة التفضيل بـ 'am ... sten'.",sSrc:"الليمون أحمض الفواكه كلها."}
       ]},
@@ -245,7 +245,7 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
             "التدرّب على جمل متعددة التراكيب"
           ]},
         {type:"tip",title:"weil: Because + Verb to the End",text:"في الألمانية، 'weil' (لأن) ترسل الفعل إلى نهاية الجملة الفرعية.\n\nMain clause: Das Essen ist frisch.\nWith weil: ..., weil das Essen frisch ist.\n\nThe verb 'ist' jumps to the end!\n\nMore examples:\nIch trenne den Müll, weil es wichtig ist.\nHildi ist sauer, weil Verumius falsch sortiert.\nDas Brot ist hart, weil es alt ist.",deepDive:"ماذا يحدث مع الأفعال المنفصلة؟\nThe prefix stays attached in weil-clauses:\n\nMain: Verumius räumt auf.\nWith weil: ..., weil Verumius aufräumt.\n\nThe separable verb reunites at the end! This is true for ALL subordinate clauses (weil, dass, wenn, ob)."},
-        {type:"mc",q:"'Ich kaufe frisches Brot, weil ...' Which ending is correct?",opts:[
+        {type:"mc",q:"'Ich kaufe frisches Brot, weil ...' أي نهاية صحيحة؟",opts:[
             "weil das alte Brot ist hart",
             "weil das alte Brot hart ist",
             "weil hart ist das alte Brot",
@@ -254,7 +254,7 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"fb",s:"Hildi ist sauer, weil Verumius den Müll falsch {1}.",a:["sortiert"],opts:["sortiert","sortieren","sortiert hat","hat sortiert"],hint:"الفعل يذهب إلى نهاية جملة weil في المضارع.",sSrc:"هيلدي منزعجة لأن فيروميوس يفرز النفايات بشكل خاطئ."},
         {type:"tip",title:"Subordinate Clause Word Order",text:"بعد أدوات الربط مثل weil وdass وwenn وob، ينتقل الفعل إلى آخر الجملة الفرعية.\n\nCompare normal and subordinate word order:\n- Normal: Plastik gehört nicht in den Biomüll.\n- Subordinate: ..., weil Plastik nicht in den Biomüll gehört.\n\n- Normal: Er räumt die Küche auf.\n- Subordinate: ..., weil er die Küche aufräumt.\n\nThe verb always sits at the very end. Separable prefixes rejoin their verb.",deepDive:"عندما تأتي الجملة الفرعية أولاً, the main clause verb comes immediately after:\n\nWeil es regnet, bleibe ich zu Hause.\n(Because it is raining, I stay at home.)\n\nThe pattern: Subordinate clause (verb-final), VERB (main clause), rest.\nThis is called 'Verb-Zweit' (verb-second): the main verb is always in position 2."},
         {type:"drag_fill",s:"Hildi sagt, dass frisches Gemüse {1} als {2} ist.",blanks:{"1":"besser","2":"Dosengemüse"},pool:["besser","Dosengemüse","ist","gut","als"],hint:"بعد 'dass'، ابنِ المقارنة وضع الفعل في النهاية.",sSrc:"هيلدي تقول إن الخضار الطازجة أفضل من المعلبة."},
-        {type:"mc",q:"'Weil Plastik nicht in den Biomüll gehört, ...' What is happening with 'gehört' here?",opts:[
+        {type:"mc",q:"'Weil Plastik nicht in den Biomüll gehört, ...' ما الذي يحدث مع 'gehört' هنا؟",opts:[
             "It is at the very end of the weil-clause",
             "It is at the start of the clause",
             "It is in the normal second position",
@@ -268,14 +268,14 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
             "Weil es wichtig für die Natur ist"
           ],ans:"Weil es wichtig für die Natur ist",hint:"بعد weil، الفاعل أولاً، ثم كل شيء آخر، والفعل في آخر الجملة."},
         {type:"drag_fill",s:"Mülltrennung ist am {1}, weil frische Luft am {2} ist.",blanks:{"1":"wichtigsten","2":"besten"},pool:["wichtigsten","besten","wichtiger","besser","wichtig","gut"],hint:"فرز النفايات هو الأهم. الهواء النقي هو الأفضل. صيغتا تفضيل مختلفتان.",sSrc:"فرز النفايات هو الأهم، لأن الهواء النقي هو الأفضل."},
-        {type:"mc",q:"Which sentence correctly combines a comparative with a weil-clause?",opts:[
+        {type:"mc",q:"أي جملة تجمع بشكل صحيح بين a comparative with a weil-clause?",opts:[
             "Frisches Brot ist besser, weil es weicher ist.",
             "Frisches Brot ist besser, weil es ist weicher.",
             "Frisches Brot besser ist, weil es weicher ist.",
             "Frisches Brot ist besser, weil weicher es ist."
           ],ans:"Frisches Brot ist besser, weil es weicher ist.",hint:"الجملة الرئيسية بترتيب عادي. جملة weil تضع الفعل في النهاية."},
         {type:"fb",s:"Die Soße ist heute {1} als gestern.",a:["schärfer"],opts:["schärfer","scharf","am schärfsten","scharfer"],hint:"تحتاج صيغة المقارنة مع أملاوت لأن 'als' تتبعها.",sSrc:"الصلصة أحرّ اليوم من أمس."},
-        {type:"mc",q:"Hildi says: 'Glas gehört in den Glascontainer, weil ...' How does this clause end?",opts:[
+        {type:"mc",q:"Hildi says: 'Glas gehört in den Glascontainer, weil ...' كيف تنتهي هذه الجملة الفرعية؟",opts:[
             "...weil man es recyceln kann.",
             "...weil man kann es recyceln.",
             "...weil kann man es recyceln.",
@@ -311,7 +311,7 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"die Nudel",pos:"noun",gender:"f",src:"المعكرونة",note:"اسم مؤنث. الجمع: die Nudeln. تُستخدم لكل أنواع المعكرونة.",example:"A: Was gibt es zum Mittagessen?\nB: Nudeln mit Tomatensoße!",exampleSrc:"أ: ماذا على الغداء؟\nب: معكرونة بصلصة الطماطم!",funFact:"Spätzle، Maultaschen، Schupfnudeln: جنوب ألمانيا لديه تقليد معكرونة أقدم من المعكرونة الإيطالية في ألمانيا. أهل شوابن يأخذون معكرونتهم بجدية كبيرة."},
         {type:"teach",trg:"die Orange",pos:"noun",gender:"f",src:"البرتقالة",note:"اسم مؤنث. الجمع: die Orangen. تُنطق بتشديد فرنسي: أو-ران-جُه.",example:"A: Möchtest du eine Orange?\nB: Ja, gerne! Orangen sind gesund.",exampleSrc:"أ: هل تريد برتقالة؟\nب: نعم، من فضلك! البرتقال صحي.",funFact:"في شمال ألمانيا قد تسمع 'Apfelsine' بدلاً من 'Orange'. تعني 'تفاحة من الصين' (Apfel + Sine/China). كلمتان لنفس الفاكهة، مقسمتان جغرافياً."},
         {type:"teach",trg:"die Pizza",pos:"noun",gender:"f",src:"البيتزا",note:"اسم مؤنث. الجمع: die Pizzen (أو Pizzas).",example:"A: Lass uns Pizza bestellen!\nB: Gute Idee! Ich nehme eine Margherita.",exampleSrc:"أ: لنطلب بيتزا!\nب: فكرة جيدة! سآخذ مارغريتا.",funFact:"ألمانيا تأكل بيتزا مجمدة للفرد أكثر من أي دولة أوروبية أخرى. ماركة Dr. Oetker تبيع أكثر من 350 مليون بيتزا مجمدة سنوياً في ألمانيا وحدها."},
-        {type:"mc",q:"Which article goes with 'Käse'?",opts:["die","das","ein","der"],ans:"der",hint:"منتج الألبان هذا مذكر في الألمانية."},
+        {type:"mc",q:"أي أداة تعريف تناسب 'Käse'؟",opts:["die","das","ein","der"],ans:"der",hint:"منتج الألبان هذا مذكر في الألمانية."},
         {type:"fb",s:"Ich esse {1} Wurst zum Abendbrot.",a:["die"],opts:["die","der","das","den"],hint:"Wurst مؤنث. ما هي أداة التعريف المؤنثة في حالة Akkusativ.",sSrc:"آكل النقانق لعشاء Abendbrot."},
         {type:"tip",title:"Abendbrot: The Cold Supper",text:"يأكل الألمان تقليدياً وجبتهم الساخنة في الظهيرة (Mittagessen).\n\nAbendbrot (evening bread) is a cold meal:\n\n• Bread (often dark rye or sourdough)\n• Sliced cheese and cold cuts\n• Maybe pickles, tomatoes, or radishes\n• Butter and mustard\n\nIt is simple, practical, and very German.\nVisitors expecting a hot dinner are often surprised."},
         {type:"mc",q:"Hildi sagt: 'In Deutschland essen wir abends kalt.' Was bedeutet das?",opts:[
@@ -337,36 +337,36 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"die Suppe",pos:"noun",gender:"f",src:"الحساء",note:"اسم مؤنث. الجمع: die Suppen.",example:"A: Im Winter esse ich gern Suppe.\nB: Ich auch! Kartoffelsuppe ist mein Favorit.",exampleSrc:"أ: في الشتاء أحب أكل الحساء.\nب: أنا أيضاً! حساء البطاطس المفضل لدي.",funFact:"Eintopf (قِدر واحد) هو حساء الراحة الألماني: يخنة سميكة من اللحم والبطاطس والخضار. خلال الحربين العالميتين، روّجت الحكومة لـ 'Eintopfsonntag' (أحد القِدر الواحد) لتوفير الموارد."},
         {type:"teach",trg:"das Eis",pos:"noun",gender:"n",src:"البوظة",note:"اسم محايد. تعني أيضاً 'جليد'. السياق يحدد المعنى.",example:"A: Möchtest du ein Eis?\nB: Ja, Schokolade bitte!",exampleSrc:"أ: هل تريد بوظة؟\nب: نعم، شوكولاتة من فضلك!",funFact:"محلات البوظة الألمانية (Eisdielen) غالباً تديرها عائلات إيطالية جاءت لألمانيا في العشرينيات. التقليد قوي جداً لدرجة أن 'البوظة الإيطالية' تُعتبر ركيزة ثقافية ألمانية."},
         {type:"fb",s:"Nimmst du {1} in den Kaffee?",a:["Zucker"],opts:["Zucker","Käse","Wurst","Nudel"],hint:"أيّ منها مسحوق أبيض حلو.",sSrc:"هل تضع سكراً في قهوتك؟"},
-        {type:"mc",q:"Verumius legt die Wurst auf das Brett. What does 'auf das Brett' tell us?",opts:[
+        {type:"mc",q:"Verumius legt die Wurst auf das Brett. ماذا تخبرنا 'auf das Brett'؟",opts:[
             "The sausage is already on the board",
             "The sausage is moving onto the board",
             "The sausage is under the board",
             "The sausage is next to the board"
           ],ans:"The sausage is moving onto the board",hint:"'auf das' (Akkusativ) يشير إلى حركة إلى موضع جديد."},
         {type:"fb",s:"Der Käse liegt {1} dem Tisch.",a:["auf"],opts:["auf","in","über","unter"],hint:"الجبن مستقر على سطح مسطح. أي Wechselpräposition.",sSrc:"الجبن على الطاولة."},
-        {type:"mc",q:"Verumius sagt: 'Ich esse Suppe, weil ich Hunger habe.' Where is the verb in the weil-clause?",opts:["Second position","Right after weil","At the very end","Before the subject"],ans:"At the very end",hint:"weil أداة ربط فرعية. ترسل الفعل إلى مكان خاص."},
+        {type:"mc",q:"Verumius sagt: 'Ich esse Suppe, weil ich Hunger habe.' أين الفعل في جملة weil؟",opts:["في الموقع الثاني","مباشرة بعد weil","في آخر الجملة","قبل الفاعل"],ans:"في آخر الجملة",hint:"weil أداة ربط فرعية. ترسل الفعل إلى مكان خاص."},
         {type:"drag_fill",s:"Ich trinke Mineralwasser, {1} es {2} als Cola {3}.",blanks:{"1":"weil","2":"gesünder","3":"ist"},pool:["weil","gesünder","ist","denn","gut","hat"],hint:"جملة السبب ترسل الفعل إلى النهاية. المقارنة من 'gesund' تتضمن أملاوت.",sSrc:"أشرب الماء المعدني لأنه أصح من الكولا."},
-        {type:"mc",q:"'Die Pizza ist größer als die Portion Nudeln.' What does 'größer als' express?",opts:["The pizza is larger","The pizza is the same size","The pizza is smaller","The pizza is cheaper"],ans:"The pizza is larger",hint:"'größer' هي صيغة المقارنة من 'groß' (كبير)."},
+        {type:"mc",q:"'Die Pizza ist größer als die Portion Nudeln.' ماذا تعبّر 'größer als'؟",opts:["البيتزا أكبر","البيتزا بنفس الحجم","البيتزا أصغر","البيتزا أرخص"],ans:"البيتزا أكبر",hint:"'größer' هي صيغة المقارنة من 'groß' (كبير)."},
         {type:"fb",s:"Abendbrot ist {1} als Mittagessen.",a:["einfacher"],opts:["einfacher","einfach","am einfachsten","einfache"],hint:"تحتاج صيغة المقارنة لمقارنة وجبتين.",sSrc:"Abendbrot أبسط من الغداء."},
         {type:"teach",trg:"backen",pos:"verb",gender:null,src:"يخبز",note:"فعل شاذ: ich backe, du bäckst/backst, er bäckt/backt. الماضي: gebacken.",example:"A: Was bäckst du da?\nB: Einen Apfelkuchen für die Nachbarn.\nA: Das riecht wunderbar!\nB: Danke, das Rezept ist von meiner Oma.",exampleSrc:"أ: ماذا تخبز؟\nب: كعكة تفاح للجيران.\nأ: رائحتها رائعة!\nب: شكراً، الوصفة من جدتي.",funFact:"ثقافة الخبز الألمانية (Brotkultur) مدرجة في اليونسكو. أكثر من 3,200 نوع خبز مسجل. كل قرية لديها مخبز (Bäckerei). backen من أول الأفعال التي يتعلمها الأطفال الألمان."},
         {type:"teach",trg:"braten",pos:"verb",gender:null,src:"يقلي / يشوي",note:"فعل شاذ: ich brate, du brätst, er brät. الماضي: gebraten.",example:"A: Wie bereitest du das Schnitzel zu?\nB: Ich brate es in der Pfanne.\nA: Mit viel Butter?\nB: Natürlich! So macht man es in Deutschland.",exampleSrc:"أ: كيف تحضر الشنيتسل؟\nب: أقليه في المقلاة.\nأ: بكثير من الزبدة؟\nب: طبعاً! هكذا يُحضّر في ألمانيا.",funFact:"Braten (المشوي) هو قلب عشاء الأحد الألماني. Schweinebraten وRinderbraten وGänsebraten من الكلاسيكيات."},
         {type:"teach",trg:"schneiden",pos:"verb",gender:null,src:"يقطع",note:"فعل شاذ: ich schneide, du schneidest. الماضي: geschnitten. فعل قوي!",example:"A: Kannst du das Brot schneiden?\nB: Ja, wo ist das Messer?\nA: In der Schublade links.\nB: Danke. Wie dick soll ich schneiden?",exampleSrc:"أ: هل تستطيع تقطيع الخبز؟\nب: نعم، أين السكين؟\nأ: في الدرج الأيسر.\nب: شكراً. كم يجب أن أقطع سميكاً؟",funFact:"der Schneider تعني خياط (من يقطع القماش). كثير من أسماء العائلات الألمانية تأتي من المهن: Schneider، Bäcker، Fischer."},
         {type:"match",pairs:[
-            {trg:"der Käse",pos:"noun",gender:"m",src:"the cheese"},
-            {trg:"die Wurst",pos:"noun",gender:"f",src:"the sausage"},
-            {trg:"die Bohne",pos:"noun",gender:"f",src:"the bean"},
-            {trg:"die Nudel",pos:"noun",gender:"f",src:"the noodle"},
-            {trg:"das Mineralwasser",pos:"noun",gender:"n",src:"the mineral water"},
-            {trg:"das Eis",pos:"noun",gender:"n",src:"the ice cream"},
-            {trg:"die Suppe",pos:"noun",gender:"f",src:"the soup"},
-            {trg:"der Zucker",pos:"noun",gender:"m",src:"the sugar"}
+            {trg:"der Käse",pos:"noun",gender:"m",src:"الجبن"},
+            {trg:"die Wurst",pos:"noun",gender:"f",src:"النقانق"},
+            {trg:"die Bohne",pos:"noun",gender:"f",src:"الفاصوليا"},
+            {trg:"die Nudel",pos:"noun",gender:"f",src:"المعكرونة"},
+            {trg:"das Mineralwasser",pos:"noun",gender:"n",src:"المياه المعدنية"},
+            {trg:"das Eis",pos:"noun",gender:"n",src:"المثلجات"},
+            {trg:"die Suppe",pos:"noun",gender:"f",src:"الحساء"},
+            {trg:"der Zucker",pos:"noun",gender:"m",src:"السكر"}
           ]},
-        {type:"mc",q:"Verumius stellt das Mineralwasser neben den Käse. Why is it 'neben den Käse' and not 'neben dem Käse'?",opts:[
-            "Because it describes movement to a new spot",
-            "Because Käse is masculine",
-            "Because the water is already there",
-            "Because neben always takes accusative"
-          ],ans:"Because it describes movement to a new spot",hint:"Wechselpräpositionen تستخدم Akkusativ للاتجاه وDativ للموقع."},
+        {type:"mc",q:"Verumius stellt das Mineralwasser neben den Käse. لماذا 'neben den Käse' وليس 'neben dem Käse'؟",opts:[
+            "لأنها تصف حركة إلى مكان جديد",
+            "لأن Käse مذكر",
+            "لأن الماء موجود هناك بالفعل",
+            "لأن neben تأخذ Akkusativ دائماً"
+          ],ans:"لأنها تصف حركة إلى مكان جديد",hint:"Wechselpräpositionen تستخدم Akkusativ للاتجاه وDativ للموقع."},
         {type:"fb",s:"Die Suppe steht {1} dem Herd.",a:["auf"],opts:["auf","in","an","neben"],hint:"الحساء يقف على سطح طبخ مسطح.",sSrc:"الحساء على الموقد."},
         {type:"story",speaker:"verumius",mood:"resigned",art:"de-hildi-kitchen-abendbrot",trg:"Also gut. Kaltes Essen zum Abendessen. Kein Braten, keine Soße. Nur Brot und Käse. Aber der Käse ist eigentlich... ziemlich gut.",src:"حسناً إذن. طعام بارد للعشاء. لا لحم مشوي، لا صلصة. فقط خبز وجبن. لكن الجبن في الحقيقة... جيد جداً."},
         {type:"story",speaker:"hildi",mood:"smug",art:"de-hildi-kitchen-abendbrot",trg:"Siehst du? Abendbrot ist perfekt. Schnell, einfach, lecker. Willkommen in Deutschland!",src:"أرأيت؟ Abendbrot مثالي. سريع، بسيط، لذيذ. مرحباً بك في ألمانيا!"}
@@ -388,12 +388,12 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"streiten",pos:"verb",gender:null,src:"يتشاجر / يتجادل",note:"فعل شاذ: ich streite, du streitest, er streitet. الماضي: gestritten.",example:"A: Warum streiten die Nachbarn?\nB: Weil der Müll im Treppenhaus steht.",exampleSrc:"أ: لماذا يتشاجر الجيران؟\nب: لأن القمامة في بئر الدرج.",funFact:"'sich streiten' (انعكاسي) تعني يتجادل مع بعض. 'Darüber lässt sich streiten' تعبير شائع يعني 'هذا قابل للنقاش'."},
         {type:"teach",trg:"renovieren",pos:"verb",gender:null,src:"يُجدد",note:"فعل منتظم: ich renoviere, du renovierst. الماضي: renoviert (بدون ge- بسبب نهاية -ieren).",example:"A: Was macht der Nachbar im Erdgeschoss?\nB: Er renoviert seine Wohnung.",exampleSrc:"أ: ماذا يفعل الجار في الطابق الأرضي؟\nب: يُجدد شقته.",funFact:"الأفعال المنتهية بـ '-ieren' (renovieren, telefonieren, organisieren) لا تأخذ أبداً بادئة 'ge-' في الماضي. 'renoviert' وليس 'gerenoviert'. كلها مستعارة من الفرنسية أو اللاتينية."},
         {type:"teach",trg:"einziehen",pos:"verb",gender:null,src:"ينتقل (إلى سكن)",note:"فعل منفصل: ich ziehe ein, du ziehst ein. الماضي: eingezogen (مع sein).",example:"A: Wann bist du eingezogen?\nB: Ich bin letzte Woche eingezogen.",exampleSrc:"أ: متى انتقلت؟\nب: انتقلت الأسبوع الماضي.",funFact:"ein + ziehen = يسحب للداخل. Ausziehen = ينتقل من السكن (يسحب للخارج). أيضاً: ausziehen = يخلع الملابس. السياق مهم. 'Ich ziehe aus' في حفلة تعني شيئاً مختلفاً تماماً عن معاينة شقة."},
-        {type:"mc",q:"Mia sagt: 'Ich lege das Handtuch auf den Stuhl.' Where is the towel going?",opts:["under the chair","behind the chair","next to the chair","onto the chair"],ans:"onto the chair",hint:"'auf den Stuhl' تستخدم Akkusativ، تُظهر اتجاه الحركة."},
+        {type:"mc",q:"Mia sagt: 'Ich lege das Handtuch auf den Stuhl.' إلى أين تذهب المنشفة؟",opts:["تحت الكرسي","خلف الكرسي","بجانب الكرسي","على الكرسي"],ans:"على الكرسي",hint:"'auf den Stuhl' تستخدم Akkusativ، تُظهر اتجاه الحركة."},
         {type:"fb",s:"Die Seife liegt neben {1} Waschbecken.",a:["dem"],opts:["dem","den","das","der"],hint:"الموقع (بدون حركة) بعد 'neben' يتطلب Dativ. Waschbecken محايد.",sSrc:"الصابون بجانب المغسلة."},
         {type:"mc",q:"Die Nachbarn sind laut und böse. Was machen sie?",opts:["stören","streichen","stellen","streiten"],ans:"streiten",hint:"عندما يختلف شخصان بصوت عالٍ وبغضب."},
         {type:"fb",s:"Er hat seine Wohnung {1}.",a:["renoviert"],opts:["renoviert","gerenoviert","renovieren","renovierte"],hint:"الأفعال المنتهية بـ -ieren تشكّل الماضي بدون ge-. تذكر القاعدة.",sSrc:"جدّد شقته."},
         {type:"drag_fill",s:"Mia legt die Lauftasche {1} den Boden und hängt das Handtuch {2} die Tür.",blanks:{"1":"auf","2":"an"},pool:["auf","an","in","unter","neben","vor"],hint:"كلاهما يُظهر اتجاهاً (Akkusativ). الحقيبة تذهب على الأرض، والمنشفة على الباب.",sSrc:"تضع ميا حقيبة الجري على الأرض وتعلّق المنشفة على الباب."},
-        {type:"mc",q:"'Ich bin letzte Woche eingezogen.' Why does this use 'bin' instead of 'habe'?",opts:[
+        {type:"mc",q:"'Ich bin letzte Woche eingezogen.' لماذا تستخدم هذه 'bin' بدلاً من 'habe'؟",opts:[
             "It is a reflexive verb here",
             "Movement verb, so uses sein",
             "The subject ich requires sein",
@@ -401,10 +401,10 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
           ],ans:"Movement verb, so uses sein",hint:"الانتقال تغيير في المكان. فكّر أي فعل مساعد تحتاجه أفعال تغيير المكان."},
         {type:"fb",s:"Süßigkeiten sind süßer {1} Obst.",a:["als"],opts:["als","wie","von","mit"],hint:"أي كلمة تعني 'من' عند المقارنة بين شيئين في الألمانية.",sSrc:"الحلويات أحلى من الفاكهة."},
         {type:"drag_fill",s:"Das Handtuch hängt {1} der Tür, weil Mia es {2} die Tür gehängt hat.",blanks:{"1":"an","2":"an"},pool:["an","auf","in","an","unter","neben"],hint:"الفراغ الأول: موقع (Dativ، معلقة هناك). الثاني: اتجاه (Akkusativ، علّقتها هناك). نفس حرف الجر، حالة مختلفة!",sSrc:"المنشفة معلقة على الباب لأن ميا علّقتها على الباب."},
-        {type:"mc",q:"Verumius findet Hildis Abendbrot besser als Pizza, weil es frischer ist. Which two grammar patterns are combined here?",opts:["Comparative + weil-clause","Superlative + dass-clause","Comparative + wenn-clause","Superlative + weil-clause"],ans:"Comparative + weil-clause",hint:"حدد كلا النمطين: درجة المقارنة (ليس أعلى درجة) ونوع جملة السبب المستخدمة."},
+        {type:"mc",q:"Verumius findet Hildis Abendbrot besser als Pizza, weil es frischer ist. أي نمطين نحويين مُدمجان هنا؟",opts:["مقارنة + جملة weil","تفضيل + جملة dass","مقارنة + جملة wenn","تفضيل + جملة weil"],ans:"مقارنة + جملة weil",hint:"حدد كلا النمطين: درجة المقارنة (ليس أعلى درجة) ونوع جملة السبب المستخدمة."},
         {type:"fb",s:"Mia ist die {1} Läuferin im Lauftreff.",a:["schnellste"],opts:["schnellste","schneller","schnellere","am schnellsten"],hint:"بعد أداة التعريف (die)، التفضيل يستخدم نهاية '-ste'، وليس 'am ...sten'.",sSrc:"ميا أسرع عدّاءة في مجموعة الجري."},
         {type:"drag_fill",s:"Mia stellt die Schuhe {1} die Tür, weil es {2} der Wohnung sauberer ist {3} im Treppenhaus.",blanks:{"1":"vor","2":"in","3":"als"},pool:["vor","in","als","an","auf","wie"],hint:"الأحذية تُوضع أمام الباب (اتجاه). أنظف داخل (موقع) الشقة من بئر الدرج (مقارنة).",sSrc:"تضع ميا الأحذية أمام الباب لأنه أنظف في الشقة من بئر الدرج."},
-        {type:"mc",q:"'Im dritten Stock wohnt die netteste Nachbarin.' What grammar is used here?",opts:[
+        {type:"mc",q:"'Im dritten Stock wohnt die netteste Nachbarin.' أي قاعدة نحوية مستخدمة هنا؟",opts:[
             "Comparative with als",
             "Superlative with adjective ending",
             "Wechselpräposition with dative",
@@ -412,20 +412,20 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
           ],ans:"Superlative with adjective ending",hint:"'die netteste' تُظهر أعلى درجة من 'nett' بلاحقة نحوية بعد أداة التعريف."},
         {type:"fb",s:"Verumius zieht {1} die Wohnung im zweiten Stock ein.",a:["in"],opts:["in","an","auf","vor"],hint:"أي Wechselpräposition تعني 'إلى داخل' عند الانتقال إلى مكان.",sSrc:"ينتقل فيروميوس إلى الشقة في الطابق الثاني."},
         {type:"drag_fill",s:"Mia sagt, dass der Lauftreff {1} wichtigste Termin der Woche ist, weil Laufen {2} als Fernsehen ist.",blanks:{"1":"der","2":"besser"},pool:["der","besser","als","am","im","gut"],hint:"الفراغ الأول: أداة تعريف للتفضيل الوصفي (مذكر مرفوع). الثاني: صيغة شاذة تعني 'أكثر جودة' للمقارنة.",sSrc:"ميا تقول إن مجموعة الجري هي أهم موعد في الأسبوع لأن الجري أفضل من مشاهدة التلفاز."},
-        {type:"mc",q:"'Weil Mia jeden Samstag im Park läuft, ist sie stärker als Verumius.' Why is 'läuft' at the end of the weil-clause?",opts:[
+        {type:"mc",q:"'Weil Mia jeden Samstag im Park läuft, ist sie stärker als Verumius.' لماذا 'läuft' في النهاية of the weil-clause?",opts:[
             "Läuft is always last in German",
             "In weil-clauses, the verb moves to the final position",
             "Mia is the subject so the verb follows",
             "Im Park requires the verb at the end"
           ],ans:"In weil-clauses, the verb moves to the final position",hint:"تذكر قاعدة ترتيب الكلمات في الجملة الفرعية من وقت سابق في هذه الوحدة."},
         {type:"match",pairs:[
-            {trg:"der Hamburger",pos:"noun",gender:"m",src:"the hamburger"},
-            {trg:"die Süßigkeit",pos:"noun",gender:"f",src:"the sweet/candy"},
-            {trg:"das Handtuch",pos:"noun",gender:"n",src:"the towel"},
-            {trg:"die Seife",pos:"noun",gender:"f",src:"the soap"},
-            {trg:"streiten",pos:"verb",gender:null,src:"to argue"},
-            {trg:"renovieren",pos:"verb",gender:null,src:"to renovate"},
-            {trg:"einziehen",pos:"verb",gender:null,src:"to move in"}
+            {trg:"der Hamburger",pos:"noun",gender:"m",src:"الهمبرغر"},
+            {trg:"die Süßigkeit",pos:"noun",gender:"f",src:"الحلوى"},
+            {trg:"das Handtuch",pos:"noun",gender:"n",src:"المنشفة"},
+            {trg:"die Seife",pos:"noun",gender:"f",src:"الصابون"},
+            {trg:"streiten",pos:"verb",gender:null,src:"يتشاجر"},
+            {trg:"renovieren",pos:"verb",gender:null,src:"يجدّد"},
+            {trg:"einziehen",pos:"verb",gender:null,src:"ينتقل (للسكن)"}
           ]},
         {type:"story",speaker:"verumius",mood:"thoughtful",art:"de-altbau-stairwell",trg:"Ein Lauftreff? Samstags um acht? Ich bin kein Läufer. Aber Mia hat schon 'du' gesagt. In Deutschland heißt das wohl: Wir sind jetzt Freunde.",src:"مجموعة جري؟ أيام السبت الساعة الثامنة؟ أنا لست عدّاءً. لكن ميا قالت بالفعل 'du'. في ألمانيا ربما يعني هذا: نحن أصدقاء الآن."}
       ]},
@@ -447,11 +447,11 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"mc",q:"Pizza ist ___ als Suppe. (lecker)",opts:["am leckersten","leckerer","lecker","das leckerste"],ans:"leckerer",hint:"المقارنات مع als تتطلب صيغة المقارنة."},
         {type:"fb",s:"Das Messer ist {1} als die Gabel. (scharf)",a:"schärfer",opts:["schärfer","am schärfsten","scharf","scharfer"],hint:"المقارنة من scharf: لا تنسَ الأملاوت.",sSrc:"السكين أحدّ من الشوكة."},
         {type:"match",pairs:[
-            {trg:"die Bohne",pos:"noun",gender:"f",src:"bean"},
-            {trg:"der Zucker",pos:"noun",gender:"m",src:"sugar"},
-            {trg:"die Wurst",pos:"noun",gender:"f",src:"sausage"},
-            {trg:"das Eis",pos:"noun",gender:"n",src:"ice cream"},
-            {trg:"die Nudel",pos:"noun",gender:"f",src:"noodle"}
+            {trg:"die Bohne",pos:"noun",gender:"f",src:"الفاصوليا"},
+            {trg:"der Zucker",pos:"noun",gender:"m",src:"السكر"},
+            {trg:"die Wurst",pos:"noun",gender:"f",src:"النقانق"},
+            {trg:"das Eis",pos:"noun",gender:"n",src:"المثلجات"},
+            {trg:"die Nudel",pos:"noun",gender:"f",src:"المعكرونة"}
           ]},
         {type:"mc",q:"Welches Essen ist am süßesten?",opts:["Käse","Wurst","Suppe","Eis"],ans:"Eis",hint:"التفضيل: أيها حقاً الأحلى؟"},
         {type:"drag_fill",s:"Sie stellt die {1} in den {2}, weil sie {3} kochen will.",blanks:{"1":"Nudeln","2":"Topf","3":"Mittagessen"},pool:["Nudeln","Topf","Mittagessen","Teller","Gabel","Suppe"],hint:"المعكرونة (جمع) تُوضع في إناء طبخ دائري. وجبة الظهيرة تحتاج تحضيراً.",sSrc:"تضع المعكرونة في القِدر لأنها تريد طبخ الغداء."},
@@ -461,11 +461,11 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"mc",q:"Mineralwasser ist ___ als Orangensaft. (gesund)",opts:["am gesündesten","gesund","gesunder","gesünder"],ans:"gesünder",hint:"مقارنة مع als: صيغة المقارنة مع أملاوت."},
         {type:"fb",s:"Die Nachbarin legt die Seife {1} das Waschbecken.",a:"neben",opts:["neben","zwischen","über","hinter"],hint:"اتجاه إلى جانب المغسلة: Wohin? يأخذ Akkusativ.",sSrc:"الجارة تضع الصابون بجانب المغسلة."},
         {type:"match",pairs:[
-            {trg:"aufräumen",pos:"verb",gender:null,src:"to tidy up"},
-            {trg:"putzen",pos:"verb",gender:null,src:"to clean"},
-            {trg:"aufmachen",pos:"verb",gender:null,src:"to open"},
-            {trg:"zumachen",pos:"verb",gender:null,src:"to close"},
-            {trg:"stören",pos:"verb",gender:null,src:"to disturb"}
+            {trg:"aufräumen",pos:"verb",gender:null,src:"يرتّب"},
+            {trg:"putzen",pos:"verb",gender:null,src:"ينظّف"},
+            {trg:"aufmachen",pos:"verb",gender:null,src:"يفتح"},
+            {trg:"zumachen",pos:"verb",gender:null,src:"يغلق"},
+            {trg:"stören",pos:"verb",gender:null,src:"يزعج"}
           ]},
         {type:"mc",q:"Welcher Satz hat die richtige Wortstellung?",opts:[
             "Ich putze, weil die Küche ist schmutzig.",
@@ -479,11 +479,11 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"drag_fill",s:"Die {1} im Keller ist {2} als die im {3}.",blanks:{"1":"Heizung","2":"stärker","3":"Erdgeschoss"},pool:["Heizung","stärker","Erdgeschoss","Wäsche","schwieriger","Stockwerk"],hint:"ما الذي يُدفئ؟ المقارنة من stark. أي طابق.",sSrc:"التدفئة في القبو أقوى من تلك في الطابق الأرضي."},
         {type:"mc",q:"Ich renoviere die Wohnung, weil wir bald ___.",opts:["einziehe","ziehen ein","einziehen","ein ziehen"],ans:"einziehen",hint:"بعد weil، يبقى الفعل المنفصل متصلاً في نهاية الجملة."},
         {type:"match",pairs:[
-            {trg:"schädlich",pos:"adj",gender:null,src:"harmful"},
-            {trg:"nützlich",pos:"adj",gender:null,src:"useful"},
-            {trg:"frisch",pos:"adj",gender:null,src:"fresh"},
-            {trg:"sauer",pos:"adj",gender:null,src:"sour"},
-            {trg:"weich",pos:"adj",gender:null,src:"soft"}
+            {trg:"schädlich",pos:"adj",gender:null,src:"ضار"},
+            {trg:"nützlich",pos:"adj",gender:null,src:"مفيد"},
+            {trg:"frisch",pos:"adj",gender:null,src:"طازج"},
+            {trg:"sauer",pos:"adj",gender:null,src:"حامض"},
+            {trg:"weich",pos:"adj",gender:null,src:"ناعم / طري"}
           ]},
         {type:"drag_fill",s:"Eine {1} Portion Käse ist {2} als eine große Portion {3}.",blanks:{"1":"kleine","2":"gesünder","3":"Süßigkeit"},pool:["kleine","gesünder","Süßigkeit","große","schärfer","Hamburger"],hint:"المقارنة من gesund مع أملاوت. ما هو غير صحي وحلو؟",sSrc:"حصة صغيرة من الجبن أصح من حصة كبيرة من الحلويات."},
         {type:"story",speaker:"hildi",mood:"impressed",art:"de-hildi-kitchen",trg:"Nicht schlecht, Verumius! Du weißt jetzt mehr über Mülltrennung als manche Deutsche. Ich bin fast zufrieden.",src:"ليس سيئاً يا فيروميوس! أنت الآن تعرف عن إعادة التدوير أكثر من بعض الألمان. أنا شبه راضية."}
@@ -500,7 +500,7 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"die Vermieterin",pos:"noun",gender:"f",src:"المؤجّرة",note:"اسم مؤنث. Der Vermieter = المؤجّر. من 'vermieten' (يؤجّر).",example:"A: Wer ist deine Vermieterin?\nB: Frau Klein. Sie wohnt nebenan.",exampleSrc:"أ: من هي المؤجّرة؟\nب: فراو كلاين. تسكن بجوارنا.",funFact:"المؤجّرون الألمان لديهم سمعة بقواعد صارمة. 'Hausordnung' (قواعد المنزل) يمكن أن تنظم ساعات الهدوء وجداول تنظيف الدرج وحتى طريقة تعليق الغسيل."},
         {type:"teach",trg:"das Wohnzimmer",pos:"noun",gender:"n",src:"غرفة المعيشة",note:"اسم محايد. مركّب: Wohn (سكن) + Zimmer (غرفة).",example:"A: Wo ist der Fernseher?\nB: Im Wohnzimmer, neben dem Sofa.",exampleSrc:"أ: أين التلفاز؟\nب: في غرفة المعيشة، بجانب الأريكة.",funFact:"في الألمانية غرفة لكل شيء: Wohnzimmer (معيشة)، Schlafzimmer (نوم)، Esszimmer (طعام)، Arbeitszimmer (عمل)، Badezimmer (استحمام). النظام منطقي بشكل جميل."},
         {type:"teach",trg:"die Garage",pos:"noun",gender:"f",src:"المرآب",note:"اسم مؤنث. مستعارة من الفرنسية. الجمع: die Garagen.",example:"A: Wo ist dein Auto?\nB: In der Garage.",exampleSrc:"أ: أين سيارتك؟\nب: في المرآب.",funFact:"كثير من الألمان ينطقونها بالطريقة الفرنسية: ga-RAH-zhuh. آخرون يقولون ga-RAH-guh. كلاهما صحيح، لكن النطق الفرنسي يبدو أكثر أناقة."},
-        {type:"mc",q:"Verumius asks 'Wo ist das Sofa?' Hildi says 'Im Wohnzimmer.' What is a Wohnzimmer?",opts:["A bedroom","A bathroom","A living room","A kitchen"],ans:"A living room",hint:"'wohnen' تعني يعيش أو يسكن في الألمانية."},
+        {type:"mc",q:"Verumius asks 'Wo ist das Sofa?' Hildi says 'Im Wohnzimmer.' ما هو Wohnzimmer؟",opts:["غرفة نوم","حمام","غرفة معيشة","مطبخ"],ans:"غرفة معيشة",hint:"'wohnen' تعني يعيش أو يسكن في الألمانية."},
         {type:"teach",trg:"die Baustelle",pos:"noun",gender:"f",src:"موقع البناء",note:"اسم مؤنث. مركّب: Bau (بناء) + Stelle (مكان/موقع).",example:"A: Warum ist die Straße gesperrt?\nB: Es gibt eine Baustelle nebenan.",exampleSrc:"أ: لماذا الشارع مغلق؟\nب: هناك موقع بناء بالجوار.",funFact:"ألمانيا مشهورة بمواقع بنائها. مطار برلين BER استغرق 14 سنة للبناء. يمزح الألمان أن مواقع البناء معالم دائمة."},
         {type:"teach",trg:"die Cafeteria",pos:"noun",gender:"f",src:"المقصف",note:"اسم مؤنث. نفس الكلمة في لغات كثيرة. الجمع: die Cafeterien.",example:"A: Wo essen die Studenten?\nB: In der Cafeteria. Das Essen ist günstig.",exampleSrc:"أ: أين يأكل الطلاب؟\nب: في المقصف. الطعام بأسعار معقولة.",funFact:"الجامعات الألمانية لديها 'Mensa' (من اللاتينية بمعنى طاولة)، وهي مقصف الطلاب. 'Cafeteria' عادة تشير إلى مقصف في مكتب أو مستشفى."},
         {type:"fb",s:"Hildi hat ein neues {1} für die Küche gekauft.",a:["Gerät"],opts:["Gerät","Gericht","Garage","Garten"],hint:"أي اسم محايد يعني جهاز أو أداة.",sSrc:"اشترت هيلدي جهازاً جديداً للمطبخ."},
@@ -509,14 +509,14 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"das Schwein",pos:"noun",gender:"n",src:"الخنزير",note:"اسم محايد. الجمع: die Schweine. تعني أيضاً 'حظ' في العامية!",example:"A: Was ist das auf dem Bauernhof?\nB: Das ist ein Schwein.",exampleSrc:"أ: ما هذا في المزرعة؟\nب: ذلك خنزير.",funFact:"'Schwein haben' (أن يكون لديك خنزير) تعني 'أن تكون محظوظاً' في الألمانية! في رأس السنة، يتبادل الألمان خنازير المرزبان (Glücksschweine) للحظ. الخنازير = ازدهار في الثقافة الألمانية."},
         {type:"teach",trg:"das Glück",pos:"noun",gender:"n",src:"الحظ / السعادة",note:"اسم محايد. لا جمع. Glück haben = يكون محظوظاً. Glücklich = سعيد.",example:"A: Ich habe die Prüfung bestanden!\nB: Herzlichen Glückwunsch! Du hattest Glück.\nA: Nein, ich habe viel gelernt!\nB: Na gut, dann hast du es verdient.",exampleSrc:"أ: نجحت في الامتحان!\nب: مبروك! كنت محظوظاً.\nأ: لا، درست كثيراً!\nب: حسناً، إذن تستحق ذلك.",funFact:"الألمانية تميّز بين Glück (حظ/سعادة) وPech (سوء حظ). 'Glück im Unglück' تعني الحظ في المصيبة، إيجاد الجانب المشرق. رموز رأس السنة: البرسيم رباعي الأوراق، منظفو المداخن، حدوات الحصان، وخنازير المرزبان."},
         {type:"teach",trg:"das Rind",pos:"noun",gender:"n",src:"البقر / اللحم البقري",note:"اسم محايد. Rindfleisch = لحم بقري. الجمع: die Rinder.",example:"A: Was möchtest du essen?\nB: Ich nehme das Rind mit Gemüse.",exampleSrc:"أ: ماذا تريد أن تأكل؟\nب: سآخذ اللحم البقري مع الخضار.",funFact:"الألمان يميّزون بدقة: das Rind (الحيوان/الماشية)، das Rindfleisch (لحم البقر)، die Kuh (البقرة تحديداً). Rinderbraten (لحم بقري مشوي) طبق أحد كلاسيكي."},
-        {type:"mc",q:"Verumius sees a 'Glücksschwein' at New Year. What animal is it?",opts:["A cat","A cow","A pig","A horse"],ans:"A pig",hint:"هذا الاسم المحايد له أيضاً معنى عامي مرتبط بالحظ."},
+        {type:"mc",q:"Verumius sees a 'Glücksschwein' at New Year. أي حيوان هو؟",opts:["قطة","بقرة","خنزير","حصان"],ans:"خنزير",hint:"هذا الاسم المحايد له أيضاً معنى عامي مرتبط بالحظ."},
         {type:"tip",title:"Deutsche Nachbarschaft",text:"في ألمانيا، معرفة جيرانك أهم مما تعتقد.\n\n• Grüßen ist Pflicht: Always greet neighbors in the stairwell. Not greeting is considered rude.\n• Hausordnung: Most buildings have written house rules on quiet hours, cleaning schedules, and trash sorting.\n• Kehrwoche: In Süddeutschland, tenants take turns sweeping the stairwell and sidewalk. Skipping your turn is a social crime.\n• Nachbarschaftshilfe: Neighbors help each other with packages, watering plants, and lending tools.\n• Lauftreff/Stammtisch: Community running groups and regular pub meetups build real friendships.",deepDive:"مفهوم 'Nachbarschaft' يتجاوز القرب الجغرافي. In smaller cities, neighbors exchange house keys, watch each other's children, and celebrate together. The 'Nachbarschaftsfest' (neighborhood party) is a tradition where the whole street sets up tables outside and shares food. Moving into a new building? Introduce yourself with a small gift or a note in the mailbox. First impressions matter."},
         {type:"match",pairs:[
-            {trg:"die Vermieterin",pos:"noun",gender:"f",src:"landlady"},
-            {trg:"das Wohnzimmer",pos:"noun",gender:"n",src:"living room"},
-            {trg:"die Garage",pos:"noun",gender:"f",src:"garage"},
-            {trg:"die Schere",pos:"noun",gender:"f",src:"scissors"},
-            {trg:"das Glück",pos:"noun",gender:"n",src:"luck"}
+            {trg:"die Vermieterin",pos:"noun",gender:"f",src:"صاحبة المنزل"},
+            {trg:"das Wohnzimmer",pos:"noun",gender:"n",src:"غرفة المعيشة"},
+            {trg:"die Garage",pos:"noun",gender:"f",src:"المرآب"},
+            {trg:"die Schere",pos:"noun",gender:"f",src:"المقص"},
+            {trg:"das Glück",pos:"noun",gender:"n",src:"الحظ"}
           ]},
         {type:"fb",s:"Auf der {1} nebenan wird ein neues Haus gebaut.",a:["Baustelle"],opts:["Baustelle","Cafeteria","Garage","Schere"],hint:"مكان يجري فيه عمل بناء.",sSrc:"يُبنى منزل جديد في موقع البناء المجاور."}
       ]},
@@ -535,13 +535,13 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"außer",src:"ما عدا / بالإضافة إلى",pos:"prep",gender:null,note:"حرف جر يأخذ Dativ. Außer + Dativ. 'Außer dir' = ما عداك.",example:"A: Wer kommt heute?\nB: Alle außer Hildi.\nA: Warum kommt sie nicht?\nB: Sie hat Hausarbeit.",exampleSrc:"أ: من يأتي اليوم؟\nب: الجميع ما عدا هيلدي.\nأ: لماذا لا تأتي؟\nب: لديها أعمال منزلية.",funFact:"'außer' لها معنى ثانٍ: 'außer sich sein' تعني أن تكون خارج نفسك من الانفعال. '!Er ist außer sich vor Wut' = إنه خارج نفسه من الغضب. حرف الجر والتعبير الاصطلاحي يبدوان متطابقين."},
         {type:"teach",trg:"dafür",pos:"adv",gender:null,src:"لصالحه / مؤيد له",note:"Da + für. يحل محل 'für + اسم' عندما يكون الاسم معروفاً بالفعل.",example:"A: Bist du dafür?\nB: Ja, ich bin dafür!",exampleSrc:"أ: هل أنت مؤيد؟\nب: نعم، أنا مؤيد!",funFact:"'كلمات da' الألمانية تحل محل العبارات الجرّية: dafür (لأجله)، damit (بواسطته)، darüber (عنه)، daran (عليه). تتجنب تكرار الاسم. فعالة جداً!"},
         {type:"teach",trg:"dagegen",pos:"adv",gender:null,src:"ضده / معارض له",note:"Da + gegen. عكس 'dafür'.",example:"A: Alle wollen ein Nachbarschaftsfest. Bist du dagegen?\nB: Nein, ich bin dafür!",exampleSrc:"أ: الجميع يريد حفلة حيّ. هل أنت معارض؟\nب: لا، أنا مؤيد!",funFact:"في البرلمان الألماني، تُحسب الأصوات كـ 'dafür' (مؤيد)، 'dagegen' (معارض)، و'Enthaltung' (ممتنع). تسمع هذه الكلمات في كل نقاش سياسي."},
-        {type:"mc",q:"Hildi asks 'Bist du dafür oder dagegen?' What is she asking?",opts:["Are you for it or against it?","Are you inside or outside?","Are you coming or staying?","Are you hungry or full?"],ans:"Are you for it or against it?",hint:"كلمتا da هاتان تعبّران عن آراء متضادة حول شيء ما."},
+        {type:"mc",q:"Hildi asks 'Bist du dafür oder dagegen?' ماذا تسأل؟",opts:["هل أنت مع أم ضد؟","هل أنت في الداخل أم الخارج؟","هل ستأتي أم ستبقى؟","هل أنت جائع أم شبعان؟"],ans:"هل أنت مع أم ضد؟",hint:"كلمتا da هاتان تعبّران عن آراء متضادة حول شيء ما."},
         {type:"teach",trg:"auf jeden Fall",pos:"adv",gender:null,src:"بالتأكيد / على كل حال",note:"موافقة قوية. '!Auf jeden Fall komme ich' = بالتأكيد سآتي!",example:"A: Kommst du zum Lauftreff?\nB: Auf jeden Fall!",exampleSrc:"أ: هل ستأتي لنادي الجري؟\nب: بالتأكيد!",funFact:"العكس هو 'auf keinen Fall' (بأي حال من الأحوال). 'jeden' = كل، 'keinen' = لا. نفس البنية، معنى معاكس."},
         {type:"teach",trg:"auf keinen Fall",pos:"adv",gender:null,src:"بأي حال من الأحوال / مستحيل",note:"رفض قوي. '!Auf keinen Fall' = مستحيل!",example:"A: Soll ich den Biomüll in den Restmüll werfen?\nB: Auf keinen Fall! Hildi sieht alles.",exampleSrc:"أ: هل أرمي النفايات العضوية في القمامة العامة؟\nب: مستحيل! هيلدي ترى كل شيء.",funFact:"يستخدم الألمان هذه العبارة بقناعة. لا تترك مجالاً للشك. إذا قالت هيلدي 'auf keinen Fall'، لا تضع البلاستيك في الحاوية العضوية."},
         {type:"fb",s:"Kommst du morgen? {1}!",a:["Auf jeden Fall"],opts:["Auf jeden Fall","Auf keinen Fall","Dagegen","Nebenan"],hint:"أي تعبير يعني 'بالتأكيد' أو 'حتماً'.",sSrc:"هل ستأتي غداً؟ بالتأكيد!"},
         {type:"drag_fill",s:"Die Apotheke ist {1} dem Supermarkt. Frau Klein wohnt {2}.",blanks:{"1":"gegenüber","2":"nebenan"},pool:["gegenüber","nebenan","drinnen","raus","dagegen"],hint:"واحدة تعني 'مقابل'، والأخرى تعني 'بالجوار'.",sSrc:"الصيدلية مقابل السوبرماركت. فراو كلاين تسكن بالجوار."},
-        {type:"mc",q:"Verumius says 'Die Kinder spielen drinnen.' Where are the children?",opts:["Outside in the garden","Next door","At the construction site","Inside the building"],ans:"Inside the building",hint:"هذا الظرف عكس 'draußen' (الخارج)."},
-        {type:"mc",q:"Which word means 'the construction site'?",opts:["die Cafeteria","die Garage","die Baustelle","die Vermieterin"],ans:"die Baustelle",hint:"كلمة مركبة: Bau (بناء) + Stelle (مكان)."},
+        {type:"mc",q:"يقول فيروميوس 'Die Kinder spielen drinnen.' أين الأطفال؟",opts:["في الخارج في الحديقة","بالجوار","في موقع البناء","داخل المبنى"],ans:"داخل المبنى",hint:"هذا الظرف عكس 'draußen' (الخارج)."},
+        {type:"mc",q:"أي كلمة تعني 'موقع البناء'؟",opts:["die Cafeteria","die Garage","die Baustelle","die Vermieterin"],ans:"die Baustelle",hint:"كلمة مركبة: Bau (بناء) + Stelle (مكان)."},
         {type:"fb",s:"Zum Neujahr verschenkt man Marzipanschweine. Schwein haben bedeutet '{1} haben.'",a:["Glück"],opts:["Glück","Geld","Essen","Angst"],hint:"عكس Pech. شيء إيجابي يحدث بالصدفة.",sSrc:"في رأس السنة، يهدي الناس خنازير المرزبان. أن يكون لديك خنزير يعني أن يكون لديك 'حظ'."},
         {type:"teach",trg:"leer",pos:"adj",gender:null,src:"فارغ",note:"صفة. العكس: voll (ممتلئ). Die Flasche ist leer.",example:"A: Ist noch Milch da?\nB: Nein, die Flasche ist leer.\nA: Schon wieder? Wer trinkt so viel Milch?\nB: Verumius. Er macht jeden Morgen Müsli.",exampleSrc:"أ: هل لا يزال هناك حليب؟\nب: لا، الزجاجة فارغة.\nأ: مجدداً؟ من يشرب كل هذا الحليب؟\nب: فيروميوس. يصنع موسلي كل صباح.",funFact:"Leergut تعني الحاويات الفارغة المؤهلة لإعادة تأمين Pfand. في السوبرماركتات آلات Leergutautomaten حيث تُدخل الزجاجات والعلب لاسترداد المال."},
         {type:"teach",trg:"notwendig",pos:"adj",gender:null,src:"ضروري",note:"صفة. أقوى من nötig. Es ist notwendig = إنه ضروري.",example:"A: Ist eine Krankenversicherung notwendig?\nB: Ja, in Deutschland ist sie Pflicht.\nA: Auch für Studenten?\nB: Ja, für alle. Ohne geht es nicht.",exampleSrc:"أ: هل التأمين الصحي ضروري؟\nب: نعم، في ألمانيا إلزامي.\nأ: حتى للطلاب؟\nب: نعم، للجميع. لا يمكنك الاستغناء عنه.",funFact:"notwendig تعني حرفياً 'صرف الحاجة' (Not = حاجة، wenden = يحوّل). الألمانية تحب بناء كلمات تشرح معناها بنفسها."},
@@ -550,13 +550,13 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"herstellen",pos:"verb",gender:null,src:"يُنتج / يُصنّع",note:"فعل منفصل: ich stelle her. الماضي: hergestellt. يُستخدم للإنتاج الصناعي.",example:"A: Wo wird dieses Auto hergestellt?\nB: In Wolfsburg, bei Volkswagen.\nA: Made in Germany!\nB: Genau. Deutsche Qualität.",exampleSrc:"أ: أين تُصنع هذه السيارة؟\nب: في فولفسبورغ، عند فولكسفاغن.\nأ: صنع في ألمانيا!\nب: بالضبط. جودة ألمانية.",funFact:"'Made in Germany' كانت أصلاً تحذيراً بريطانياً عام 1887 لتمييز الواردات الألمانية الرديئة. حوّلها الألمان إلى شارة جودة عالمية."},
         {type:"teach",trg:"das Gerät",src:"الجهاز",pos:"noun",gender:"n",note:"اسم محايد. الجمع: die Geräte. يشمل أي آلة أو جهاز.",example:"A: Welches Gerät benutzt du zum Kochen?\nB: Einen Herd und eine Mikrowelle.\nA: Und zum Staubsaugen?\nB: Das alte Gerät von Hildi.",exampleSrc:"أ: أي جهاز تستخدم للطبخ؟\nب: موقد وميكروويف.\nأ: وللكنس؟\nب: جهاز هيلدي القديم.",funFact:"الألمانية تميّز بين Gerät (أي جهاز وظيفي) وMaschine (آلة بأجزاء متحركة). هاتفك الذكي Gerät. غسالة الملابس كلاهما."},
         {type:"match",pairs:[
-            {trg:"die Vermieterin",pos:"noun",gender:"f",src:"the landlady"},
-            {trg:"das Wohnzimmer",pos:"noun",gender:"n",src:"the living room"},
-            {trg:"die Baustelle",pos:"noun",gender:"f",src:"the construction site"},
-            {trg:"nebenan",pos:"adv",gender:null,src:"next door"},
-            {trg:"dafür",pos:"adv",gender:null,src:"for it"},
-            {trg:"auf jeden Fall",pos:"adv",gender:null,src:"absolutely"},
-            {trg:"die Schere",pos:"noun",gender:"f",src:"the scissors"},
+            {trg:"die Vermieterin",pos:"noun",gender:"f",src:"صاحبة المنزل"},
+            {trg:"das Wohnzimmer",pos:"noun",gender:"n",src:"غرفة المعيشة"},
+            {trg:"die Baustelle",pos:"noun",gender:"f",src:"موقع البناء"},
+            {trg:"nebenan",pos:"adv",gender:null,src:"بجوار / بالجوار"},
+            {trg:"dafür",pos:"adv",gender:null,src:"لصالح ذلك"},
+            {trg:"auf jeden Fall",pos:"adv",gender:null,src:"بالتأكيد"},
+            {trg:"die Schere",pos:"noun",gender:"f",src:"المقص"},
             {trg:"das Gerät",src:"الجهاز"}
           ]},
         {type:"story",speaker:"narrator",mood:"content",art:"de-courtyard-evening",trg:"Verumius geht die Treppe hinunter. Im Briefkasten liegt ein Zettel von Mia: 'Samstag, 8 Uhr, Volkspark. Keine Ausreden!' Er lacht und steckt den Zettel in die Tasche. Er gehört jetzt dazu.",src:"ينزل فيروميوس الدرج. في صندوق البريد رسالة من ميا: 'السبت، 8 صباحاً، Volkspark. لا أعذار!' يضحك ويضع الرسالة في جيبه. إنه ينتمي الآن."}

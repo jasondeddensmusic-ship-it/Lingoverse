@@ -54,7 +54,7 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
     "Nur die Berufserfahrung"
 ],ans:"Foto, Personaldaten, Ausbildung, Berufserfahrung",hint:"يلماز تذكر أربعة عناصر تجعل السيرة الذاتية الألمانية كاملة."},
         {type:"story",speaker:"yilmaz",mood:"encouraging",art:"de-vhs-office",trg:"Für morgen: schreib deinen Lebenslauf neu. Auf Deutsch. Jede Zeile. Und dann zeigst du ihn mir.",src:"للغد: أعد كتابة سيرتك الذاتية. بالألمانية. كل سطر. ثم تريني إياها."},
-        {type:"fb",s:"Bist du {1} für das Vorstellungsgespräch?",a:["bereit"],opts:["bereit","korrekt","persönlich","höflich"],hint:"فكّر في معنى الكلمة.",sSrc:"Are you ready for the job interview?"},
+        {type:"fb",s:"Bist du {1} für das Vorstellungsgespräch?",a:["bereit"],opts:["bereit","korrekt","persönlich","höflich"],hint:"فكّر في معنى الكلمة.",sSrc:"هل أنت جاهز لمقابلة العمل؟"},
         {type:"mc",q:"Welches Wort passt? 'In Deutschland ist eine Bewerbung ein ___ Dokument.'",opts:["höfliches","persönliches","offizielles","korrektes"],ans:"offizielles",hint:"فكّر في معنى الكلمة."},
         {type:"mc",q:"Wie heißt der Satz 'Ohne Vorbereitung kein Erfolg' auf Englisch?",opts:[
     "Without success no preparation",
@@ -63,9 +63,9 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
     "Without career no success (formal)"
 ],ans:"Without preparation no success",hint:"فكّر في معنى الكلمة."},
         {type:"mc",q:"Was bedeutet 'die Unterlage'?",opts:["the impression","the application","to create, to produce","the document, the paperwork"],ans:"the document, the paperwork",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Was {1} Sie von diesem Job?",a:["erwarten"],opts:["das Vorstellungsgespräch","erstellen","erwarten","die Unterlage"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"What do you expect from this job?"},
+        {type:"fb",s:"Was {1} Sie von diesem Job?",a:["erwarten"],opts:["das Vorstellungsgespräch","erstellen","erwarten","die Unterlage"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"ماذا تتوقع من هذه الوظيفة؟"},
         {type:"mc",q:"Was bedeutet 'reagieren'?",opts:["the CV, the resume","personal","to react","to expect"],ans:"to react",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wann ist {1}?",a:["die Frist"],opts:["die Frist","korrekt","die Vorstellung","der Eindruck"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"When is the deadline?"},
+        {type:"fb",s:"Wann ist {1}?",a:["die Frist"],opts:["die Frist","korrekt","die Vorstellung","der Eindruck"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"متى الموعد النهائي؟"},
         {type:"mc",q:"Was bedeutet 'beachten'?",opts:["the job interview","the preparation","the application","to observe, to pay attention to"],ans:"to observe, to pay attention to",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L3: Berufe und Qualifikationen ───
@@ -109,7 +109,7 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
 ]},
         {type:"fb",s:"Nach dem Studium hat sie einen {1} in Informatik.",a:["Abschluss"],opts:["Abschluss","Anfang","Lehrling","Praktikant"],hint:"الكلمة التي تعني إنهاء تعليمك، حرفياً 'إغلاق.'",sSrc:"بعد دراستها حصلت على شهادة في علوم الحاسوب."},
         {type:"mc",q:"Weiterbildung means...",opts:["university degree","continuing education","apprenticeship","job interview"],ans:"continuing education",hint:"قسّم الكلمة المركبة إلى جزأيها: أحدهما يعني الاستمرار، والآخر يشير إلى تطوير المعرفة والمهارات."},
-        {type:"fb",s:"Die neue {1} fängt morgen an. Sie bleibt drei Monate.",a:["Praktikantin"],opts:["Praktikantin","Ingenieurin","Architektin","Lehrerin"],hint:"فكّر في معنى الكلمة.",sSrc:"The new intern starts tomorrow. She stays three months."},
+        {type:"fb",s:"Die neue {1} fängt morgen an. Sie bleibt drei Monate.",a:["Praktikantin"],opts:["Praktikantin","Ingenieurin","Architektin","Lehrerin"],hint:"فكّر في معنى الكلمة.",sSrc:"المتدربة الجديدة تبدأ غداً. تبقى ثلاثة أشهر."},
         {type:"mc",q:"Was bedeutet 'der Architekt'?",opts:["the degree, the completion","professional, work-related","the architect (male)","the qualification"],ans:"the architect (male)",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'the mechanic (male)' auf Deutsch? {1}",a:["der Mechaniker"],opts:["der Mechaniker","das Abitur","die Fortbildung","die Fähigkeit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the mechanic (male)' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'berufstätig'?",opts:["the degree, the completion","the diploma","the high school leaving exam","employed, working"],ans:"employed, working",hint:"فكّر في معنى هذه الكلمة في السياق."}

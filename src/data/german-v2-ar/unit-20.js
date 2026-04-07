@@ -42,7 +42,7 @@ const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicheru
     {trg:"Krankenwagen",src:"سيارة إسعاف"}
 ]},
         {type:"story",speaker:"narrator",mood:"ominous-comedy",art:"de-ber-kitchen-papers",trg:"Verumius schiebt die Briefe zur Seite. Morgen wird er KD anrufen. KD kennt sich aus. KD ist vom Amt. Und KD hat eine Telefonnummer, die tatsächlich funktioniert.",src:"يدفع فيروميوس الرسائل جانبًا. غدًا سيتصل بـ KD. يعرف KD طريقه جيدًا. KD من المكتب الحكومي. ولدى KD رقم هاتف يعمل فعلًا."},
-        {type:"fb",s:"Im {1} ruft man sofort den Krankenwagen.",a:["Notfall"],opts:["Notfall","Notruf","Notaufnahme","Notausgang"],hint:"فكّر في معنى الكلمة.",sSrc:"In an emergency, you call the ambulance immediately."},
+        {type:"fb",s:"Im {1} ruft man sofort den Krankenwagen.",a:["Notfall"],opts:["Notfall","Notruf","Notaufnahme","Notausgang"],hint:"فكّر في معنى الكلمة.",sSrc:"في حالة طوارئ، تتصل بالإسعاف فوراً."},
         {type:"mc",q:"Was bedeutet 'versichern'?",opts:["the ambulance","the costs, the expenses","the emergency room","to insure, to assure"],ans:"to insure, to assure",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to treat (medically), to handle' auf Deutsch? {1}",a:["behandeln"],opts:["finanziell","behandeln","der Patient","die Patientin"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to treat (medically), to handle' بالألمانية؟"}
       ]},

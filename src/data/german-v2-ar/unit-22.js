@@ -43,7 +43,7 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
 ]},
         {type:"story",speaker:"narrator",mood:"satisfied",art:"de-office-presentation",trg:"Stille im Raum. Dann Applaus. Nicht perfekt, nicht fehlerfrei. Aber auf Deutsch. Ein ganzer Vortrag auf Deutsch. Verumius atmet aus. Der erste Schritt ist getan.",src:"صمت في القاعة. ثم تصفيق. ليس مثالياً، وليس خالياً من العيوب. لكنه كان بالألمانية. عرض تقديمي كامل بالألمانية. يأخذ فيروميوس نفساً. الخطوة الأولى تمّت."},
         {type:"mc",q:"Was bedeutet 'im Durchschnitt'?",opts:["on average","extremely high","somewhere in total","at most once"],ans:"on average",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"Wir müssen den Stromverbrauch {1}.",a:["reduzieren"],opts:["reduzieren","steigen","sinken","kontrollieren"],hint:"فكّر في معنى الكلمة.",sSrc:"We need to reduce electricity consumption."},
+        {type:"fb",s:"Wir müssen den Stromverbrauch {1}.",a:["reduzieren"],opts:["reduzieren","steigen","sinken","kontrollieren"],hint:"فكّر في معنى الكلمة.",sSrc:"يجب تقليل استهلاك الكهرباء."},
         {type:"mc",q:"Was bedeutet 'das System'?",opts:["the system","the average","the environment","to rise, to climb"],ans:"the system",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'statistics' auf Deutsch? {1}",a:["die Statistik"],opts:["die Statistik","das System","reduzieren","der Umweltschutz"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'statistics' بالألمانية؟"}
       ]},
@@ -126,8 +126,8 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
         {type:"story",speaker:"verumius",mood:"satisfied",art:"de-rewe-pfand",trg:"Sechs Flaschen, ein Euro fünfzig Pfand. Ich erinnere mich noch an meinen ersten Tag am Pfandautomaten. Heute? Heute bin ich der Pfand-Meister.",src:"ستة زجاجات، يورو وخمسون سنتاً رهناً. ما زلت أتذكر يومي الأول عند آلة الرهن. أما اليوم؟ اليوم أنا سيّد الرهن."},
         {type:"mc",q:"Autos verschmutzen die Luft. Was bedeutet 'verschmutzen'?",opts:["to protect","to clean","to pollute","to warn"],ans:"to pollute",hint:"فكّر في معنى الكلمة."},
         {type:"mc",q:"Was bedeutet 'giftig'?",opts:["toxic, poisonous","thrifty, economical","survey, poll","danger"],ans:"toxic, poisonous",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Bist du {1} mit Wasser?",a:["sparsam"],opts:["die Krise","der Schutz","die Forderung","sparsam"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Are you economical with water?"},
-        {type:"fb",s:"Dieses Produkt ist {1} und schadet der Natur nicht.",a:["ökologisch"],opts:["ökologisch","praktisch","sparsam","chemisch"],hint:"فكّر في معنى الكلمة.",sSrc:"This product is ecological and does not harm nature."}
+        {type:"fb",s:"Bist du {1} mit Wasser?",a:["sparsam"],opts:["die Krise","der Schutz","die Forderung","sparsam"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل تقتصد في استهلاك الماء؟"},
+        {type:"fb",s:"Dieses Produkt ist {1} und schadet der Natur nicht.",a:["ökologisch"],opts:["ökologisch","praktisch","sparsam","chemisch"],hint:"فكّر في معنى الكلمة.",sSrc:"هذا المنتج بيئي ولا يضرّ الطبيعة."}
       ]},
 // ─── L7: Grammatik der Natur ───
     {id:"deu_r22l4",title:"Grammatik der Natur",icon:"📚",xp:15,board:true,steps:[
@@ -192,7 +192,7 @@ const UNIT_22_AR = {n:22,lang:"de",srcLang:"ar",track:"v2",title:"Umwelt und All
 ],ans:"Partizip I ist laufende Handlung, Partizip II ist abgeschlossene Handlung",hint:"الرجل يقرأ الآن (مستمر). الرسالة قُرئت (مكتمل)."},
         {type:"drag_fill",s:"Mia {1} die {2} Dokumente kopieren.",blanks:{"1":"lässt","2":"fehlenden"},pool:["lässt","lasst","fehlenden","gefehlten","lassen"],hint:"تطلب ميا من شخص ما نسخ الوثائق المفقودة. فعل lassen التسبيبي (الغائب المفرد) + اسم الفاعل (Partizip I) (الغياب المستمر).",sSrc:"تطلب ميا نسخ الوثائق المفقودة."},
         {type:"story",speaker:"verumius",mood:"amused",art:"de-office-conference",trg:"Partizip I, Partizip II, lassen. Drei neue Werkzeuge. Ich lasse mein Gehirn kurz ausruhen. Das ist auch eine Form von lassen, oder?",src:"اسم الفاعل واسم المفعول وفعل lassen. ثلاث أدوات جديدة. سأترك دماغي يستريح قليلاً. هذا أيضاً شكل من أشكال lassen، أليس كذلك؟"},
-        {type:"fb",s:"Die Regierung will erneuerbare Energien {1}.",a:["fördern"],opts:["fördern","fordern","erhöhen","protestieren"],hint:"فكّر في معنى الكلمة.",sSrc:"The government wants to promote renewable energies."},
+        {type:"fb",s:"Die Regierung will erneuerbare Energien {1}.",a:["fördern"],opts:["fördern","fordern","erhöhen","protestieren"],hint:"فكّر في معنى الكلمة.",sSrc:"الحكومة تريد تعزيز الطاقات المتجددة."},
         {type:"mc",q:"Was bedeutet 'statistisch'?",opts:["net, network","network","statistical","factory"],ans:"statistical",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L9: Bio oder Discounter? ───

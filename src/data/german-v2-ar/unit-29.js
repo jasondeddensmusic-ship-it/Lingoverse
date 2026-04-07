@@ -62,13 +62,13 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
     "Menschen sind sich uneinig darüber",
     "Es wurde schon längst entschieden"
 ],ans:"Menschen sind sich uneinig darüber",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"Hat dich die Rede {1}? Nicht ganz, die Argumente waren zu schwach.",a:["überzeugt"],opts:["unterstützt","kritisiert","verteidigt","überzeugt"],hint:"فكّر في معنى الكلمة.",sSrc:"Did the speech convince you? Not quite, the arguments were too weak."},
-        {type:"mc",q:"Was bedeutet 'der Standpunkt'?",opts:["the difference of opinion","the (political) party","the government","the viewpoint, the position"],ans:"the viewpoint, the position",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Hat dich die Rede {1}? Nicht ganz, die Argumente waren zu schwach.",a:["überzeugt"],opts:["unterstützt","kritisiert","verteidigt","überzeugt"],hint:"فكّر في معنى الكلمة.",sSrc:"هل أقنعك الخطاب؟ ليس تماماً، الحجج كانت ضعيفة جداً."},
+        {type:"mc",q:"Was bedeutet 'der Standpunkt'?",opts:["الخلاف في الرأي","الحزب (السياسي)","الحكومة","وجهة النظر، الموقف"],ans:"وجهة النظر، الموقف",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'the difference of opinion' auf Deutsch? {1}",a:["die Meinungsverschiedenheit"],opts:["der Politiker","die Partei","kritisieren","die Meinungsverschiedenheit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the difference of opinion' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'demokratisch'?",opts:["democratic","to convince","the opposition","the parliament"],ans:"democratic",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Was ist eine {1}e Anfrage?",a:["parlamentarisch"],opts:["unterst\\u00fctzen","die Meinungsverschiedenheit","der Politiker","parlamentarisch"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"What is a parliamentary question?"},
-        {type:"mc",q:"Was bedeutet 'kritisieren'?",opts:["parliamentary","to criticize","political","to convince"],ans:"to criticize",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} Sie Ihren Standpunkt?",a:["verteidigen"],opts:["verteidigen","die Partei","politisch","der Politiker"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Are you defending your position?"}
+        {type:"mc",q:"Was bedeutet 'demokratisch'?",opts:["democratic","يُقنع","المعارضة","البرلمان"],ans:"democratic",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Was ist eine {1}e Anfrage?",a:["parlamentarisch"],opts:["unterst\\u00fctzen","die Meinungsverschiedenheit","der Politiker","parlamentarisch"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"ما هو السؤال البرلماني؟"},
+        {type:"mc",q:"Was bedeutet 'kritisieren'?",opts:["parliamentary","ينتقد","political","يُقنع"],ans:"ينتقد",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} Sie Ihren Standpunkt?",a:["verteidigen"],opts:["verteidigen","die Partei","politisch","der Politiker"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل تدافع عن موقفك؟"}
       ]},
 // ─── L3: Argumente und Gegenargumente ───
     {id:"deu_r29l2",title:"Argumente und Gegenargumente",icon:"⚖️",xp:15,board:true,steps:[
@@ -114,12 +114,12 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
     "Bedenken bedeutet Zustimmung"
 ],ans:"Bedenken drückt Sorge aus, ohne direkte Ablehnung",hint:"هذا الاسم يعبّر عن تردد مدروس لا عن رفض صريح. إنه دبلوماسي: لقد تفكّرت وأنت قلق، لا مجرد معارض."},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-ber-community-hall",trg:"Koalition, Fraktion, Gesetzentwurf, Grundgesetz. Die Wörter setzen sich zusammen wie ein Puzzle. Das ist keine fremde Sprache mehr. Das ist ein System, das ich verstehen kann.",src:"ائتلاف، كتلة برلمانية، مشروع قانون، قانون أساسي. الكلمات تتراص كقطع أحجية. هذه لم تعد لغة أجنبية. هذا نظام أستطيع فهمه."},
-        {type:"fb",s:"Der {1} prüft den Gesetzentwurf im Detail und hört Experten.",a:["Ausschuss"],opts:["Ausschuss","Bundestag","Wahlkampf","Grundgesetz"],hint:"فكّر في معنى الكلمة.",sSrc:"The committee examines the bill in detail and hears experts."},
-        {type:"mc",q:"Was bedeutet 'das Grundrecht'?",opts:["the fundamental right","the counterargument","the member of parliament","the coalition"],ans:"the fundamental right",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Der {1} prüft den Gesetzentwurf im Detail und hört Experten.",a:["Ausschuss"],opts:["Ausschuss","Bundestag","Wahlkampf","Grundgesetz"],hint:"فكّر في معنى الكلمة.",sSrc:"تفحص اللجنة مشروع القانون بالتفصيل وتستمع إلى الخبراء."},
+        {type:"mc",q:"Was bedeutet 'das Grundrecht'?",opts:["الحق الأساسي","الحجة المضادة","عضو البرلمان","الائتلاف"],ans:"الحق الأساسي",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'the concern, the reservation' auf Deutsch? {1}",a:["das Bedenken"],opts:["das Bedenken","das Gegenargument","das Grundrecht","einwenden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the concern, the reservation' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'einwenden'?",opts:["to pass (a law), to adopt","to object","the parliamentary group","the committee"],ans:"to object",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"mc",q:"Was bedeutet 'einwenden'?",opts:["يُقرّ (قانوناً)","يعترض","الكتلة البرلمانية","اللجنة"],ans:"يعترض",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to reply, to retort' auf Deutsch? {1}",a:["entgegnen"],opts:["entgegnen","das Gegenargument","das Grundrecht","der Abgeordnete"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to reply, to retort' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'verabschieden'?",opts:["to pass (a law), to adopt","the election campaign","the bill, the draft law","the compromise"],ans:"to pass (a law), to adopt",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'verabschieden'?",opts:["يُقرّ (قانوناً)","الحملة الانتخابية","مشروع القانون","التسوية"],ans:"يُقرّ (قانوناً)",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Einerseits... andererseits ───
     {id:"deu_r29l3",title:"Einerseits... andererseits",icon:"↔️",xp:15,board:true,steps:[
@@ -158,12 +158,12 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
         {type:"teach",trg:"vertreten",src:"يمثّل",pos:"verb",gender:null,note:"'Ver-' + 'treten' (أن يخطو). تخطو مكان شخص ما.\nفعل قوي: vertreten, vertrat, vertreten.",example:"A: Wen vertreten Sie?\nB: Ich vertrete die Bürger meines Wahlkreises.\nA: Vertreten Sie diesen Standpunkt?\nB: Ja, ich vertrete ihn mit Überzeugung.",exampleSrc:"أ: من تمثّل؟\nب: أمثّل مواطني دائرتي الانتخابية.\nأ: هل تتبنى وجهة النظر هذه؟\nب: نعم، أمثّلها بقناعة.",funFact:"'Ver-' + 'treten' (أن يخطو). تخطو مكان شخص ما. فعل قوي: vertreten, vertrat, vertreten. 'Ich vertrete den Standpunkt, dass...' (أتبنى الموقف القائل إن...)."},
         {type:"verb_table",title:"Zweiteilige Konnektoren: Wortstellungsmuster",groups:[
     {label:"Gepaarte Konnektoren",rows:[
-    {pronoun:"sowohl...als auch",form:"Sowohl A als auch B + Verb",src:"both A and B"},
+    {pronoun:"sowohl...als auch",form:"Sowohl A als auch B + Verb",src:"أ و ب معاً"},
     {pronoun:"weder...noch",form:"Weder A noch verb B",src:"neither A nor B"},
     {pronoun:"nicht nur...sondern auch",form:"Nicht nur A, sondern auch B",src:"not only A but also B"},
-    {pronoun:"einerseits...andererseits",form:"Einerseits..., andererseits...",src:"on one hand... on the other"},
+    {pronoun:"einerseits...andererseits",form:"Einerseits..., andererseits...",src:"من جهة... ومن جهة أخرى"},
     {pronoun:"zwar...aber",form:"Zwar A, aber B",src:"admittedly... but"},
-    {pronoun:"je...desto",form:"Je + Komp. + V-Ende, desto + Komp. + V2",src:"the more... the more"},
+    {pronoun:"je...desto",form:"Je + Komp. + V-Ende, desto + Komp. + V2",src:"كلما... كلما"},
     {pronoun:"teils...teils",form:"Teils A, teils B",src:"partly... partly"}
 ]}
 ]},
@@ -178,11 +178,11 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
     "Keine der beiden Eigenschaften stimmt",
     "Die eine Eigenschaft schliesst die andere aus"
 ],ans:"Beide Eigenschaften treffen gleichzeitig zu",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'teils...teils'?",opts:["the minority","however, yet","on the contrary, in contrast","partly...partly"],ans:"partly...partly",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wann findet {1} statt?",a:["die Abstimmung"],opts:["die Kanzlerin","andererseits","hingegen","die Abstimmung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"When does the vote take place?"},
-        {type:"mc",q:"Was bedeutet 'die Verfassung'?",opts:["both...and","the chancellor (female)","the constitution","the chancellor (male)"],ans:"the constitution",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie zeigt sich {1}?",a:["der Widerstand"],opts:["der Widerstand","sowohl...als auch","nicht nur...sondern auch","hingegen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"How is the resistance expressed?"},
-        {type:"mc",q:"Was bedeutet 'vertreten'?",opts:["resistance","on the one hand","the chancellor (male)","to represent"],ans:"to represent",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'teils...teils'?",opts:["الأقلية","مع ذلك، إلا أن","على العكس، بالمقابل","partly...partly"],ans:"partly...partly",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wann findet {1} statt?",a:["die Abstimmung"],opts:["die Kanzlerin","andererseits","hingegen","die Abstimmung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"متى يُجرى التصويت؟"},
+        {type:"mc",q:"Was bedeutet 'die Verfassung'?",opts:["كلاهما ... و","المستشارة","الدستور","المستشار"],ans:"الدستور",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie zeigt sich {1}?",a:["der Widerstand"],opts:["der Widerstand","sowohl...als auch","nicht nur...sondern auch","hingegen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف يُعبَّر عن المقاومة؟"},
+        {type:"mc",q:"Was bedeutet 'vertreten'?",opts:["resistance","من جهة","المستشار","يمثّل"],ans:"يمثّل",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L7: Obgleich und Wenngleich ───
     {id:"deu_r29l4",title:"Obgleich und Wenngleich",icon:"🔄",xp:15,board:true,steps:[
@@ -251,11 +251,11 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
     {trg:"trotz alledem",src:"رغم كل ذلك"}
 ]},
         {type:"story",speaker:"verumius",mood:"contemplative",art:"de-ber-debate-stage",trg:"Obgleich, wenngleich, selbst wenn, nichtsdestotrotz. Die Sprache der Konzession. Man gibt dem Gegner recht und gewinnt trotzdem. Die eleganteste Form des Widerspruchs.",src:"Obgleich، wenngleich، selbst wenn، nichtsdestotrotz. لغة التنازل. تمنح خصمك نقطة وتنتصر على أي حال. الشكل الأكثر أناقة للتناقض."},
-        {type:"fb",s:"Kann man das Argument {1}? Ja, indem man Gegenbeweise vorlegt.",a:["widerlegen"],opts:["widerlegen","begründen","abwägen","einräumen"],hint:"فكّر في معنى الكلمة.",sSrc:"Can the argument be refuted? Yes, by presenting counter-evidence."},
-        {type:"mc",q:"Was bedeutet 'die Schlussfolgerung'?",opts:["to concede, to admit","nevertheless, nonetheless","even if, although","the conclusion, the inference"],ans:"the conclusion, the inference",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ja, {1} wurde ver\\u00f6ffentlicht.",a:["die Stellungnahme"],opts:["die Stellungnahme","nichtsdestotrotz","wenngleich","selbst wenn"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Yes, the statement was published."},
-        {type:"mc",q:"Was bedeutet 'die Kompromissbereitschaft'?",opts:["the premise","to concede, to admit","willingness to compromise","consequently, as a result"],ans:"willingness to compromise",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ihre {1} hat sich über die Jahre gefestigt.",a:["Überzeugung"],opts:["Überzeugung","Schlussfolgerung","Stellungnahme","Kompromissbereitschaft"],hint:"فكّر في معنى الكلمة.",sSrc:"Her conviction has solidified over the years."}
+        {type:"fb",s:"Kann man das Argument {1}? Ja, indem man Gegenbeweise vorlegt.",a:["widerlegen"],opts:["widerlegen","begründen","abwägen","einräumen"],hint:"فكّر في معنى الكلمة.",sSrc:"هل يمكن دحض الحجة؟ نعم، بتقديم أدلة مضادة."},
+        {type:"mc",q:"Was bedeutet 'die Schlussfolgerung'?",opts:["يعترف، يُقرّ","مع ذلك","حتى لو، رغم أن","الاستنتاج"],ans:"الاستنتاج",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ja, {1} wurde ver\\u00f6ffentlicht.",a:["die Stellungnahme"],opts:["die Stellungnahme","nichtsdestotrotz","wenngleich","selbst wenn"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"نعم، نُشر البيان."},
+        {type:"mc",q:"Was bedeutet 'die Kompromissbereitschaft'?",opts:["المقدمة المنطقية","يعترف، يُقرّ","الاستعداد للتسوية","وبالتالي"],ans:"الاستعداد للتسوية",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ihre {1} hat sich über die Jahre gefestigt.",a:["Überzeugung"],opts:["Überzeugung","Schlussfolgerung","Stellungnahme","Kompromissbereitschaft"],hint:"فكّر في معنى الكلمة.",sSrc:"تعزّز اقتناعها على مر السنين."}
       ]},
 // ─── L9: Die Frage ───
     {id:"deu_r29l5",title:"Die Frage",icon:"❓",xp:15,board:true,steps:[
@@ -303,14 +303,14 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
 ],ans:"Das Verb (wäre) steht an erster Stelle und bildet ohne wenn eine Bedingung",hint:"انظر إلى موضع الفعل المصرّف في الجملة الأولى. موضع غير معتاد للفعل مع صيغة الشرط يمكن أن يحلّ محل أداة الربط الشرطية."},
         {type:"fb",s:"{1} die Opposition zugestimmt, wäre der Kompromiss möglich gewesen.",a:["Hätte"],opts:["Hätte","Wenn","Hat","Würde"],hint:"جملة شرطية بالفعل أولاً بدون 'wenn'. الفاعل هو 'die Opposition'. أي صيغة Konjunktiv II للفعل المساعد الدال على الموافقة تحتل الموضع الأول؟",sSrc:"لو كانت المعارضة قد وافقت، لكان الحل الوسط ممكناً."},
         {type:"drag_fill",s:"{1} ist die Lage komplex. {2} müssen wir handeln.",blanks:{"1":"Zugegebenermassen","2":"Nichtsdestotrotz"},pool:["Zugegebenermassen","Nichtsdestotrotz","Obgleich","Deshalb","Weder","Kurzum"],hint:"أقرّ أولاً بصدق بصعوبة الأمر، ثم أكّد مع ذلك ضرورة التحرك."},
-        {type:"mc",q:"Was bedeutet 'wohlgemerkt'?",opts:["mind you, note well","would (Konjunktiv II of werden)","furthermore, beyond that","admittedly"],ans:"mind you, note well",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Was ist {1}?",a:["die Gegenposition"],opts:["die Gegenposition","der Gegenvorschlag","kurzum","würde"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"What is the counterposition?"},
-        {type:"mc",q:"Was bedeutet 'der Gegenvorschlag'?",opts:["opinion formation","mind you, note well","consequently, therefore","counterproposal"],ans:"counterproposal",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"mc",q:"Was bedeutet 'wohlgemerkt'?",opts:["انتبه، لاحظ جيداً","سيكون (Konjunktiv II لـ werden)","علاوة على ذلك","بالاعتراف"],ans:"انتبه، لاحظ جيداً",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Was ist {1}?",a:["die Gegenposition"],opts:["die Gegenposition","der Gegenvorschlag","kurzum","würde"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"ما هو الموقف المعارض؟"},
+        {type:"mc",q:"Was bedeutet 'der Gegenvorschlag'?",opts:["تشكيل الرأي","انتبه، لاحظ جيداً","بالتالي، وبناءً على ذلك","counterproposal"],ans:"counterproposal",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'opinion formation' auf Deutsch? {1}",a:["die Meinungsbildung"],opts:["allerdings","vor allem","erwidern","die Meinungsbildung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'opinion formation' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'das Stimmrecht'?",opts:["counterproposal","right to vote","to counter, to object","to oppose"],ans:"right to vote",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"mc",q:"Was bedeutet 'das Stimmrecht'?",opts:["counterproposal","حق التصويت","يعارض، يعترض","يعارض"],ans:"حق التصويت",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to counter, to object' auf Deutsch? {1}",a:["dagegenhalten"],opts:["dagegenhalten","vor allem","insbesondere","erwidern"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to counter, to object' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'erwidern'?",opts:["to oppose","would (Konjunktiv II of werden)","besides, moreover","to reply, to respond"],ans:"to reply, to respond",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Warum {1} sie?",a:["opponieren"],opts:["opponieren","dagegenhalten","die Gegenposition","das Stimmrecht"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Why do they oppose it?"}
+        {type:"mc",q:"Was bedeutet 'erwidern'?",opts:["يعارض","سيكون (Konjunktiv II لـ werden)","بالإضافة إلى ذلك","يرد، يُجيب"],ans:"يرد، يُجيب",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Warum {1} sie?",a:["opponieren"],opts:["opponieren","dagegenhalten","die Gegenposition","das Stimmrecht"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"لماذا يعارضون ذلك؟"}
       ]},
 // ─── L11: Zwischenrufe und Repliken ───
     {id:"deu_r29l6",title:"Zwischenrufe und Repliken",icon:"🗣️",xp:15,board:true,steps:[
@@ -362,14 +362,14 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
     {trg:"anders als",src:"على عكس"}
 ]},
         {type:"story",speaker:"narrator",mood:"electric",art:"de-ber-debate-stage",trg:"Im Saal wird es still. Die Panelisten schauen sich an. Eine Frage aus dem Publikum hat den Ton verändert. Die Moderatorin lächelt. 'Danke. Genau solche Beiträge brauchen wir.' Verumius merkt nicht, dass sie ihn meint.",src:"يخيم الصمت. يتبادل المتحدثون النظرات. سؤال من الجمهور غيّر النبرة. يبتسم المحاور. 'شكراً. هذه بالضبط المساهمات التي نحتاجها.' لا يدرك فيروميوس أنها تعنيه."},
-        {type:"fb",s:"Deutschland ist ein {1}. Alle, auch die Regierung, müssen dem Gesetz folgen.",a:["Rechtsstaat"],opts:["Bundestag","Zusammenschluss","Wahlrecht","Rechtsstaat"],hint:"فكّر في معنى الكلمة.",sSrc:"Germany is a state governed by the rule of law. Everyone, including the government, must follow the law."},
-        {type:"mc",q:"Was bedeutet 'ungeachtet dessen'?",opts:["electoral law / right to vote","similar to","in contrast to, as opposed to","regardless of that, notwithstanding"],ans:"regardless of that, notwithstanding",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} der Umstände war die Entscheidung richtig.",a:["in Anbetracht"],opts:["in Anbetracht","der Rechtsstaat","oppositionell","genauso wie"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"In view of the circumstances, the decision was right."},
-        {type:"mc",q:"Was bedeutet 'die Volksabstimmung'?",opts:["equally, in equal measure","in comparison to/with","merger, union, alliance","referendum"],ans:"referendum",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Gibt es {1}e Stimmen?",a:["oppositionell"],opts:["im Gegensatz zu","verglichen mit","ungeachtet dessen","oppositionell"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Are there oppositional voices?"},
-        {type:"mc",q:"Was bedeutet 'zugestehen'?",opts:["compared with","to concede, to grant","in comparison to/with","just like, in the same way as"],ans:"to concede, to grant",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wir müssen sie {1}.",a:["forcieren"],opts:["forcieren","im Unterschied zu","der Zusammenschluss","der Rechtsstaat"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"We must push for it."},
-        {type:"fb",s:"Das fällt nicht in meine {1}.",a:["Zuständigkeit"],opts:["Zuständigkeit","Stellungnahme","Verfassung","Schlussfolgerung"],hint:"فكّر في معنى الكلمة.",sSrc:"That does not fall within my area of responsibility."}
+        {type:"fb",s:"Deutschland ist ein {1}. Alle, auch die Regierung, müssen dem Gesetz folgen.",a:["Rechtsstaat"],opts:["Bundestag","Zusammenschluss","Wahlrecht","Rechtsstaat"],hint:"فكّر في معنى الكلمة.",sSrc:"ألمانيا دولة يحكمها سيادة القانون. الجميع، بمن فيهم الحكومة، يجب أن يلتزموا بالقانون."},
+        {type:"mc",q:"Was bedeutet 'ungeachtet dessen'?",opts:["قانون الانتخابات / حق التصويت","مشابه لـ","على عكس، في مقابل","بصرف النظر عن ذلك"],ans:"بصرف النظر عن ذلك",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} der Umstände war die Entscheidung richtig.",a:["in Anbetracht"],opts:["in Anbetracht","der Rechtsstaat","oppositionell","genauso wie"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"بالنظر إلى الظروف، كان القرار صائباً."},
+        {type:"mc",q:"Was bedeutet 'die Volksabstimmung'?",opts:["بالتساوي","بالمقارنة مع","اندماج، اتحاد","referendum"],ans:"referendum",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Gibt es {1}e Stimmen?",a:["oppositionell"],opts:["im Gegensatz zu","verglichen mit","ungeachtet dessen","oppositionell"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل هناك أصوات معارضة؟"},
+        {type:"mc",q:"Was bedeutet 'zugestehen'?",opts:["مقارنةً بـ","يتنازل، يمنح","بالمقارنة مع","تماماً كـ"],ans:"يتنازل، يمنح",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wir müssen sie {1}.",a:["forcieren"],opts:["forcieren","im Unterschied zu","der Zusammenschluss","der Rechtsstaat"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"يجب أن نسعى إلى ذلك."},
+        {type:"fb",s:"Das fällt nicht in meine {1}.",a:["Zuständigkeit"],opts:["Zuständigkeit","Stellungnahme","Verfassung","Schlussfolgerung"],hint:"فكّر في معنى الكلمة.",sSrc:"ذلك لا يقع ضمن نطاق مسؤوليتي."}
       ]},
 // ─── L13: Auf dem Prüfstand ───
     {id:"deu_r29l7",title:"Auf dem Prüfstand",icon:"📋",xp:15,board:true,steps:[
@@ -431,12 +431,12 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
 ],ans:"Erstens... Zugegebenermassen... Nichtsdestotrotz...",hint:"أولاً الطرح، ثم أقرّ بصدق بنقطة ما، ثم عُد بقوة أكبر. الطرح، التنازل، التعزيز."},
         {type:"fb",s:"Die Argumente sind klar. {1} sollte das Parlament handeln.",a:["Folglich"],opts:["Folglich","Obgleich","Weder","Trotzdem"],hint:"الدليل موجود، والنتيجة تتبعه. أداة النتيجة المنطقية.",sSrc:"الحجج واضحة. بناءً على ذلك، يجب على البرلمان أن يتصرف."},
         {type:"story",speaker:"narrator",mood:"quiet-pride",art:"de-ber-community-hall",trg:"Verumius klappt sein Notizbuch zu. Jede Seite voll. Konzessionen, Vergleiche, Konditionalsaetze. Die Grammatik einer Demokratie. Er hat sie nicht nur gelernt. Er hat sie benutzt.",src:"يُغلق فيروميوس دفتره. كل صفحة ممتلئة. تنازلات، مقارنات، جمل شرطية. قواعد الديمقراطية. لم يتعلمها فقط. بل استخدمها."},
-        {type:"fb",s:"Ist das ein radikaler oder ein {1} Vorschlag? Er will Veränderung, aber gemessen.",a:["progressiv"],opts:["reaktionär","konservativ","populistisch","progressiv"],hint:"فكّر في معنى الكلمة.",sSrc:"Is that a radical or a progressive proposal? He wants change, but measured."},
-        {type:"mc",q:"Was bedeutet 'strittig'?",opts:["disputed, contentious","constitutional","populist","progressive"],ans:"disputed, contentious",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ist die Entscheidung {1}?",a:["unanfechtbar"],opts:["der Minister","die Vertreterin","die Ministerin","unanfechtbar"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is the decision uncontestable?"},
-        {type:"mc",q:"Was bedeutet 'undemokratisch'?",opts:["disputed, contentious","strategy","to counteract","undemocratic"],ans:"undemocratic",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Kann die Regierung die Reform {1}?",a:["durchsetzen"],opts:["durchsetzen","verfassungsm\\u00e4\\u00dfig","entgegenwirken","der Minister"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can the government push through the reform?"},
-        {type:"mc",q:"Was bedeutet 'entgegenwirken'?",opts:["petition","to counteract","minister (female)","constitutional"],ans:"to counteract",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"fb",s:"Ist das ein radikaler oder ein {1} Vorschlag? Er will Veränderung, aber gemessen.",a:["progressiv"],opts:["reaktionär","konservativ","populistisch","progressiv"],hint:"فكّر في معنى الكلمة.",sSrc:"هل هذا اقتراح جذري أم تقدمي؟ يريد التغيير، لكن بتأنٍّ."},
+        {type:"mc",q:"Was bedeutet 'strittig'?",opts:["مُتنازَع عليه","دستوري","شعبوي","progressive"],ans:"مُتنازَع عليه",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ist die Entscheidung {1}?",a:["unanfechtbar"],opts:["der Minister","die Vertreterin","die Ministerin","unanfechtbar"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل القرار غير قابل للطعن؟"},
+        {type:"mc",q:"Was bedeutet 'undemokratisch'?",opts:["مُتنازَع عليه","strategy","يُضاد، يقاوم","undemocratic"],ans:"undemocratic",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Kann die Regierung die Reform {1}?",a:["durchsetzen"],opts:["durchsetzen","verfassungsm\\u00e4\\u00dfig","entgegenwirken","der Minister"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل تستطيع الحكومة تمرير الإصلاح؟"},
+        {type:"mc",q:"Was bedeutet 'entgegenwirken'?",opts:["petition","يُضاد، يقاوم","الوزيرة","دستوري"],ans:"يُضاد، يقاوم",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L15: Wichtiger Beitrag ───
     {id:"deu_r29l8",title:"Wichtiger Beitrag",icon:"🏆",xp:15,board:true,steps:[
@@ -491,14 +491,14 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
     {trg:"Es steht außer Frage",src:"لا شكّ في ذلك"},
     {trg:"Alles in allem",src:"بشكل عام"}
 ]},
-        {type:"mc",q:"Was bedeutet 'ungeachtet'?",opts:["regardless of, irrespective of","all in all","to polarize","I am of the view that"],ans:"regardless of, irrespective of",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} der Minderheit.",a:["zugunsten"],opts:["ungeachtet","beipflichten","Alles in allem","zugunsten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"In favor of the minority."},
-        {type:"mc",q:"Was bedeutet 'polarisieren'?",opts:["to counter that, it must be said that","to polarize","in favor of","I am of the view that"],ans:"to polarize",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Sollte man das Ergebnis {1}?",a:["relativieren"],opts:["Meiner Ansicht nach","angesichts","Ich bin der Auffassung, dass","relativieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Should one put the result into perspective?"},
-        {type:"mc",q:"Was bedeutet 'infrage stellen'?",opts:["contestable, challengeable","in a nutshell, to sum up","I am of the view that","to call into question, to challenge"],ans:"to call into question, to challenge",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Darf ich Ihnen {1}?",a:["beipflichten"],opts:["Meiner Ansicht nach","beipflichten","entsch\\u00e4rfen","zur\\u00fcckweisen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"May I agree with you?"},
-        {type:"mc",q:"Was bedeutet 'provozieren'?",opts:["to provoke","to defuse, to de-escalate","contestable, challengeable","in a nutshell, to sum up"],ans:"to provoke",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ist das Urteil {1}?",a:["anfechtbar"],opts:["Ich bin der Auffassung, dass","Dem ist entgegenzuhalten, dass","polarisieren","anfechtbar"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is the verdict contestable?"}
+        {type:"mc",q:"Was bedeutet 'ungeachtet'?",opts:["بغض النظر عن","إجمالاً","يُستقطب","أرى أن"],ans:"بغض النظر عن",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} der Minderheit.",a:["zugunsten"],opts:["ungeachtet","beipflichten","Alles in allem","zugunsten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"لصالح الأقلية."},
+        {type:"mc",q:"Was bedeutet 'polarisieren'?",opts:["في المقابل يجب القول إن","يُستقطب","لصالح","أرى أن"],ans:"يُستقطب",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Sollte man das Ergebnis {1}?",a:["relativieren"],opts:["Meiner Ansicht nach","angesichts","Ich bin der Auffassung, dass","relativieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل يجب وضع النتيجة في سياقها؟"},
+        {type:"mc",q:"Was bedeutet 'infrage stellen'?",opts:["قابل للطعن","باختصار شديد","أرى أن","يطعن في، يتحدى"],ans:"يطعن في، يتحدى",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Darf ich Ihnen {1}?",a:["beipflichten"],opts:["Meiner Ansicht nach","beipflichten","entsch\\u00e4rfen","zur\\u00fcckweisen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل يمكنني الموافقة معك؟"},
+        {type:"mc",q:"Was bedeutet 'provozieren'?",opts:["يستفز","يهدّئ، يخفف التصعيد","قابل للطعن","باختصار شديد"],ans:"يستفز",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ist das Urteil {1}?",a:["anfechtbar"],opts:["Ich bin der Auffassung, dass","Dem ist entgegenzuhalten, dass","polarisieren","anfechtbar"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل الحكم قابل للطعن؟"}
       ]}
   ]};
 

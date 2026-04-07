@@ -22,16 +22,16 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"teach",trg:"feierlich",src:"احتفالي، مهيب، رسمي",pos:"adj",gender:null,note:"'Feier' (احتفال) + لاحقة '-lich'.\nيمكن أن يعني فرحاً أو جدية.",example:"A: Der Moment war sehr feierlich.\nB: Ja, fast wie eine kleine Zeremonie.",exampleSrc:"أ: كانت اللحظة مهيبة جداً.\nب: نعم، تقريباً كأنها حفل صغير.",funFact:"Feierlich تجمع بين معنيين: فرح الاحتفال وجدية الطقس. الزفاف feierlich. حفل التخرّج feierlich. وهذا العشاء feierlich. في العربية نقول 'مهيب' للجدي و'احتفالي' للمبهج."},
         {type:"teach",trg:"dankbar",src:"ممتنّ، شاكر",pos:"adj",gender:null,note:"'Dank' (شكر) + لاحقة '-bar'.\nقادر على تقديم الشكر.",example:"A: Ich bin dankbar für jeden Menschen hier.\nB: Wir sind auch dankbar, dich zu kennen.",exampleSrc:"أ: أنا ممتنّ لكل شخص هنا.\nب: نحن أيضاً ممتنّون لمعرفتك.",funFact:"لاحقة '-bar' تعني 'قادر على'. Dankbar = قادر على الشكر. Dankbar هو ما أنت عليه. Dankbarkeit هو ما تشعر به. في العربية: 'الامتنان' اسم، و'الشكر' فعل."},
         {type:"teach",trg:"aufrichtig",src:"صادق، مخلص",pos:"adj",gender:null,note:"'Auf' (فوق/مستقيم) + 'richtig' (صحيح/مستقيم).\nحرفياً 'منتصب'. الأمانة تتجسّد في هيئة جسدية.",example:"A: Ich möchte euch aufrichtig danken.\nB: Das bedeutet uns sehr viel.",exampleSrc:"أ: أريد أن أشكركم جميعاً بصدق.\nب: هذا يعني لنا الكثير.",funFact:"الشخص aufrichtig يقف منتصباً ولا يخفي شيئاً. 'Aufrichtigen Dank' (شكراً صادقاً). الصدق والنزاهة مُجسَّدان في وقفة. في العربية: 'أخلص' أو 'صريح'."},
-        {type:"mc",q:"'Vorfreude' is the joy you feel...",opts:[
+        {type:"mc",q:"'Vorfreude' هي الفرحة التي تشعر بها...",opts:[
     "during an ongoing event only",
     "about a recent past event only",
     "before an event happens",
     "after an event concludes and ends"
 ],ans:"before an event happens",hint:"البادئة الألمانية في هذه الكلمة تُخبرك بتوقيت الفرح. ماذا تُشير 'Vor' عن وقت حدوث هذا الشعور؟"},
         {type:"fb",s:"Ich bin {1} für jeden Menschen an diesem Tisch.",a:["dankbar"],opts:["herzlich","dankbar","feierlich","aufrichtig"],hint:"شعور تجاه من أعطوك شيئاً. الصفة تستخدم لاحقة تعني 'قادر على'. فكّر في الاسم الذي يُسمّي هذا الشعور.",sSrc:"أنا ممتنّ لكل شخص على هذه المائدة."},
-        {type:"mc",q:"Which word describes a significant moment marking progress in life?",opts:["Meilenstein","Lebensabschnitt","Herzlichkeit","Vorfreude"],ans:"Meilenstein",hint:"'Meile' (ميل) + 'Stein' (حجر). علامة تدلّ على المسافة المقطوعة، كحجر على الطريق."},
+        {type:"mc",q:"أي كلمة تصف لحظة مهمة تُمثّل تقدماً في الحياة؟",opts:["Meilenstein","Lebensabschnitt","Herzlichkeit","Vorfreude"],ans:"Meilenstein",hint:"'Meile' (ميل) + 'Stein' (حجر). علامة تدلّ على المسافة المقطوعة، كحجر على الطريق."},
         {type:"fb",s:"Verumius {1} über die Veraenderungen in seiner Wohnung.",a:["staunt"],opts:["bewundert","freut","staunt","dankt"],hint:"أن تُذهَل، أن تتعجّب. أقوى من المفاجأة. فعل الوقوف في حالة دهشة.",sSrc:"يُذهَل فيروميوس من التغييرات في شقته."},
-        {type:"mc",q:"What does 'aufrichtig' literally mean?",opts:["Heartfelt (from the heart)","Festive (celebration)","Upright/sincere","Grateful (able to thank)"],ans:"Upright/sincere",hint:"'Auf' (فوق) + 'richtig' (مستقيم). الأمانة مُجسَّدة في وقفة منتصبة."},
+        {type:"mc",q:"ما المعنى الحرفي لـ 'aufrichtig'؟",opts:["من القلب، قلبي","احتفالي","Upright/sincere","ممتنّ (القادر على الشكر)"],ans:"Upright/sincere",hint:"'Auf' (فوق) + 'richtig' (مستقيم). الأمانة مُجسَّدة في وقفة منتصبة."},
         {type:"match",pairs:[
     {trg:"Vorfreude",src:"فرحة الترقّب"},
     {trg:"Dankbarkeit",src:"امتنان"},
@@ -57,7 +57,7 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"teach",trg:"schätzen",src:"أن يُقدّر، أن يثمّن",pos:"verb",gender:null,note:"من 'Schatz' (كنز).\nحين تعامل شيئاً كما لو كان ثميناً.",example:"A: Ich schätze deine Freundschaft sehr.\nB: Das Gefühl ist gegenseitig.",exampleSrc:"أ: أُقدّر صداقتك كثيراً.\nب: الشعور متبادل.",funFact:"حين تعامل شيئاً كـ Schatz (كنز)، فأنت تـ schätzen ذلك الشيء. التقدير والتثمين في كلمة واحدة. أن تكنز ما يهمّ. في العربية: 'يُقدّر' و'يُثمّن'."},
         {type:"teach",trg:"gelassen",src:"هادئ، متزن، رابط الجأش",pos:"adj",gender:null,note:"اسم المفعول من 'lassen' (أن يترك).\nالشخص الذي تعلّم أن يُفلت الأمور.",example:"A: Er blieb voellig gelassen.\nB: Ja, nichts bringt ihn aus der Ruhe.",exampleSrc:"أ: بقي هادئاً تماماً.\nب: نعم، لا شيء يُقلقه.",funFact:"الشخص الذي تعلّم أن يُفلت ما لا يستطيع السيطرة عليه. Gelassenheit (السكينة) تأتي من كونك gelassen. الهدوء عبر الإفراج. في العربية: 'رباطة الجأش'."},
         {type:"teach",trg:"ausgeglichen",src:"متوازن، معتدل المزاج",pos:"adj",gender:null,note:"'Aus' (خارج) + 'geglichen' (معادَل).\nمن 'ausgleichen' (أن يوازن).",example:"A: Wie würdest du ihn beschreiben?\nB: Ausgeglichen. Seine innere Waage ist im Gleichgewicht.",exampleSrc:"أ: كيف تصفه؟\nب: متوازن. موازينه الداخلية معتدلة.",funFact:"شخص موازينه الداخلية معتدلة. لا ينجرف نحو التطرف. الشخص ausgeglichen يبقى ثابتاً وسط العواصف. في العربية: 'الاتزان' و'الاعتدال'."},
-        {type:"mc",q:"Which German word means passion but literally contains 'suffering'?",opts:["Gelassenheit","Lebensfreude","Leidenschaft","Vorfreude"],ans:"Leidenschaft",hint:"'Leiden' (ألم) + '-schaft'. ما تحبّه بعمق حتى تتألّم من أجله."},
+        {type:"mc",q:"أي كلمة ألمانية تعني الشغف لكنها تحتوي حرفياً على 'المعاناة'؟",opts:["Gelassenheit","Lebensfreude","Leidenschaft","Vorfreude"],ans:"Leidenschaft",hint:"'Leiden' (ألم) + '-schaft'. ما تحبّه بعمق حتى تتألّم من أجله."},
         {type:"match",pairs:[
     {trg:"Gelassenheit",src:"هدوء / رباطة جأش"},
     {trg:"Selbstvertrauen",src:"ثقة بالنفس"},
@@ -73,7 +73,7 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "It means both happiness AND luck"
 ],ans:"It means both happiness AND luck",hint:"كلمة واحدة، مفهومان. الحظّ والسعادة يشتركان في الاسم ذاته في الألمانية."},
         {type:"drag_fill",s:"Nach zwei Jahren in Berlin fühlt Verumius {1}, {2} und voller {3}.",blanks:{"1":"Stolz","2":"Gelassenheit","3":"Dankbarkeit"},pool:["Stolz","Gelassenheit","Dankbarkeit","Angst","Trauer","Langeweile"],hint:"الفخر، والسكينة، والامتلاء بالامتنان. ثلاث حالات داخلية إيجابية.",sSrc:"بعد عامين في برلين، يشعر فيروميوس بالفخر والسكينة والامتنان."},
-        {type:"mc",q:"What is the difference between 'sich freuen' and 'geniessen'?",opts:[
+        {type:"mc",q:"ما الفرق بين 'sich freuen' و'genießen'؟",opts:[
     "They mean exactly the same thing in all possible contexts",
     "sich freuen = to be glad/look forward; geniessen = to savor the moment",
     "sich freuen is always formal and elevated; geniessen is strictly informal only",
@@ -87,7 +87,7 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "Composure means letting go of what you cannot control"
 ],ans:"Composure means letting go of what you cannot control",hint:"الفعل الجذري هو lassen. Gelassenheit حالة داخلية تُحقَّق بالإفراج عن التوتر، لا بالقوة والجهد."},
         {type:"fb",s:"Er blieb voellig {1}, obwohl alle nervoes waren.",a:["gelassen"],opts:["ausgeglichen","gelassen","glücklich","stolz"],hint:"بقي مطمئناً بينما أصاب الآخرين الذعر. هذه الصفة تصف الهدوء المُحقَّق بإفراج التوتر لا بمقاومته. فعلها الجذري يعني أن تترك.",sSrc:"بقي هادئاً تماماً، رغم أن الجميع كانوا متوترين."},
-        {type:"mc",q:"Which compound word means 'trust in yourself'?",opts:["Wohlbefinden (wellbeing)","Zuversicht (optimism)","Lebensfreude (zest)","Selbstvertrauen"],ans:"Selbstvertrauen",hint:"'Selbst' (النفس) + 'Vertrauen' (ثقة). اليقين الهادئ بأنك قادر على مواجهة ما يأتي."}
+        {type:"mc",q:"أي كلمة مركّبة تعني 'الثقة بالنفس'؟",opts:["Wohlbefinden (wellbeing)","Zuversicht (optimism)","Lebensfreude (zest)","Selbstvertrauen"],ans:"Selbstvertrauen",hint:"'Selbst' (النفس) + 'Vertrauen' (ثقة). اليقين الهادئ بأنك قادر على مواجهة ما يأتي."}
       ]},
 // ─── L3: An der Tuer ───
     {id:"deu_r36l3",title:"An der Tuer",icon:"🚪",xp:20,board:true,steps:[
@@ -125,7 +125,7 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"teach",trg:"sich erinnern",src:"أن يتذكّر",pos:"verb",gender:null,note:"انعكاسي. 'Sich erinnern an' + المفعول به.\nحرفياً: أن تجعل شيئاً داخلياً مرة أخرى.",example:"A: Erinnerst du dich an den ersten Tag?\nB: An jeden einzelnen Moment.",exampleSrc:"أ: هل تتذكّر اليوم الأول؟\nب: كل لحظة بعينها.",funFact:"بادئة 'Er-' + 'innern' (من 'inner' أي داخلي). أن تجعل شيئاً داخلياً مرة أخرى. استعادة الماضي إلى الداخل. الذاكرة رحلة نحو الداخل. في العربية: 'تذكّر' يوحي بالاسترجاع."},
         {type:"teach",trg:"liebevoll",src:"محبّ، حنون، ملؤه المحبة",pos:"adj",gender:null,note:"'Liebe' (محبة) + 'voll' (ممتلئ).\nمفعم بالمحبة.",example:"A: Das war eine liebevolle Geste.\nB: Heinrich gibt nur solche Geschenke.",exampleSrc:"أ: كانت تلك إيماءة محبّة.\nب: هاينريش لا يُقدّم إلا مثل هذه الهدايا.",funFact:"هذا ما هدية هاينريش من العجين المخمّر. وما طاجن هيلدي. وما هذه الأمسية بأسرها. مفعمة بالمحبة. في العربية: 'الحنان' و'المحبة الصادقة'."},
         {type:"teach",trg:"innig",src:"عميق، حميمي، من صميم القلب",pos:"adj",gender:null,note:"من 'innen' (داخل/باطن).\nأشدّ عمقاً من 'herzlich'.",example:"A: Eine innige Freundschaft verbindet sie.\nB: Ja, das sieht man sofort.",exampleSrc:"أ: صداقة عميقة تجمعهما.\nب: نعم، يمكنك أن ترى ذلك فوراً.",funFact:"شيء يأتي من أعماق الداخل. مخصَّص لأوثق الروابط. أشدّ من 'herzlich'. innige Umarmung هو العناق الذي يجعلك تُغمض عينيك. في العربية: 'حميمي' و'من صميم القلب'."},
-        {type:"mc",q:"Yilmaz says 'Gestatten Sie.' Lukas says 'Darf ich.' What is the difference?",opts:[
+        {type:"mc",q:"يقول يلماظ 'Gestatten Sie.' ويقول لوكاس 'Darf ich.' ما الفرق؟",opts:[
     "Both are completely casual, everyday expressions",
     "They have entirely different and unrelated meanings",
     "Gestatten is casual in all contexts and Darf ich is always formal",
@@ -146,27 +146,27 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "Es gibt keinen Unterschied in Register oder Stil"
 ],ans:"Beginnen ist formell, anfangen ist umgangssprachlich",hint:"فكّر في معنى الكلمة."},
         {type:"mc",q:"Was bedeutet 'die Umarmung'?",opts:[
-    "to remember",
+    "يتذكر",
     "to express oneself (formal) / to say (everyday)",
-    "to intend (formal) / to want (everyday)",
-    "the embrace, the hug"
-],ans:"the embrace, the hug",hint:"فكّر في معنى هذه الكلمة في السياق."},
+    "ينوي (رسمي) / يريد (يومي)",
+    "العناق"
+],ans:"العناق",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'the wealth of experience' auf Deutsch? {1}",a:["der Erfahrungsschatz"],opts:["erwerben / kaufen","der Erfahrungsschatz","beabsichtigen / wollen","innig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the wealth of experience' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'das Erinnerungsstück'?",opts:[
-    "the memento, keepsake",
-    "to acquire (formal) / to buy (everyday)",
+    "التذكار",
+    "يكتسب (رسمي) / يشتري (يومي)",
     "loving, affectionate",
     "to express oneself (formal) / to say (everyday)"
-],ans:"the memento, keepsake",hint:"فكّر في معنى هذه الكلمة في السياق."},
+],ans:"التذكار",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to embrace, to hug' auf Deutsch? {1}",a:["umarmen"],opts:["umarmen","gestatten / erlauben","innig","die Umarmung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to embrace, to hug' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'sich erinnern'?",opts:["to linger (literary) / to stay (everyday)","to remember","heartfelt, intimate, deep","to embrace, to hug"],ans:"to remember",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Das war eine {1}e Geste.",a:["liebevoll"],opts:["entgegnen / antworten","der Erfahrungsschatz","liebevoll","umarmen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"That was a loving gesture."},
+        {type:"mc",q:"Was bedeutet 'sich erinnern'?",opts:["يمكث (أدبي) / يبقى (يومي)","يتذكر","حميمي، عميق","to embrace, to hug"],ans:"يتذكر",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Das war eine {1}e Geste.",a:["liebevoll"],opts:["entgegnen / antworten","der Erfahrungsschatz","liebevoll","umarmen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كانت تلك لفتة حانية."},
         {type:"mc",q:"Was bedeutet 'innig'?",opts:[
-    "heartfelt, intimate, deep",
-    "to acquire (formal) / to buy (everyday)",
-    "to linger (literary) / to stay (everyday)",
+    "حميمي، عميق",
+    "يكتسب (رسمي) / يشتري (يومي)",
+    "يمكث (أدبي) / يبقى (يومي)",
     "to embrace, to hug"
-],ans:"heartfelt, intimate, deep",hint:"فكّر في معنى هذه الكلمة في السياق."}
+],ans:"حميمي، عميق",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Ja, doch, halt, eben, wohl ───
     {id:"deu_r36l4",title:"Ja, doch, halt, eben, wohl",icon:"✨",xp:20,board:true,steps:[
@@ -190,14 +190,14 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"teach",trg:"mutig",src:"شجاع، جريء",pos:"adj",gender:null,note:"'Mut' (شجاعة) + لاحقة '-ig'.\nالشجاعة في الفعل.",example:"A: Du warst mutig, nach Deutschland zu kommen.\nB: Oder verrückt. Vielleicht beides.",exampleSrc:"أ: كنت شجاعاً حين أتيت إلى ألمانيا.\nب: أو مجنوناً. ربما كلاهما.",funFact:"الانتقال إلى بلد لا تعرف منه كلمة واحدة: هذا mutig. الشجاعة ليست غياب الخوف. إنها التصرّف رغمه. في العربية: 'الإقدام' و'الشجاعة'."},
         {type:"teach",trg:"reif",src:"ناضج، مكتمل",pos:"adj",gender:null,note:"من الألمانية القديمة العليا 'rifi'.\nيُطبَّق على الثمار والأشخاص على حدّ سواء.",example:"A: Er ist reifer geworden.\nB: Ja, man merkt den Unterschied.",exampleSrc:"أ: لقد أصبح أكثر نضجاً.\nب: نعم، يمكن ملاحظة الفرق.",funFact:"الصفة المشتقة من Reife. الشخص reif نما عبر التجربة. 'Reif für' (مستعدّ لـ) تعني أنك نضجت بما يكفي لشيء جديد. في العربية: 'ناضج' و'مكتمل'."},
         {type:"tip",title:"Modalpartikeln: The Complete Guide",text:"كل جسيم يمثّل شخصية على مائدة العشاء.\n\nDOCH (هيلدي): التناقض والتأكيد.\n'Das stimmt doch!' (لكنه صحيح فعلاً!)\n'Das weißt du doch!' (أنت تعرف ذلك!)\n\nHALT / EBEN (هاينريش): قبول الواقع.\n'Es ist halt so.' (الأمور هكذا ببساطة.)\n'Da kann man eben nichts machen.' (لا يمكن فعل شيء.)\n\nJA (ميا): المعرفة المشتركة، الترابط.\n'Du weißt ja, wie das ist.' (أنت تعرف كيف يكون الأمر.)\n'Das ist ja toll!' (هذا رائع حقاً!)\n\nMAL (لوكاس): التليين، الأسلوب العادي.\n'Komm mal her.' (تعال هنا للحظة.)\n'Schau mal.' (انظر فحسب.)\n\nSCHON (يلماظ): التنازل، الطمأنة.\n'Das stimmt schon, aber...' (صحيح، لكن...)\n'Das wird schon.' (ستسير الأمور.)\n\nWOHL (فيروميوس): الافتراض، الاحتمال.\n'Er ist wohl müde.' (هو على الأرجح متعب.)\n'Das dürfte wohl stimmen.' (هذا على الأرجح صحيح.)",deepDive:{title:"The golden rule of Modalpartikeln",text:"الـ Modalpartikeln لا تُنبَّر أبداً في الجملة. تجلس بهدوء بين الكلمات الأخرى وتُغيّر كل شيء في النبرة والموقف والمعنى. لا يمكن ترجمتها كلمة بكلمة. إنها روح الألمانية المنطوقة.\n\nبدون جسيمات: 'Komm her.' (تعال هنا.) = أمر محايد.\nمع جسيمات: 'Komm doch mal her.' (تعال هنا إذن.) = دعوة ودية.\n\nالجسيمات تُليّن أو تؤكّد أو تتعارض أو تطمئن أو تفترض أو تربط. المتكلّمون الأصليون يستخدمون 3-4 منها في كل جملة دون تفكير. إتقانها الخطوة الأخيرة من 'الألمانية الصحيحة' إلى 'الألمانية الطبيعية'."}},
-        {type:"mc",q:"Heinrich says: 'Brot backen ist halt eine Kunst.' What does 'halt' express?",opts:[
+        {type:"mc",q:"يقول هاينريش: 'Brot backen ist halt eine Kunst.' ماذا يعبّر 'halt'؟",opts:[
     "Strong disagreement with someone about whether the statement holds",
     "Uncertainty or serious doubt about whether the baking claim is true",
     "Simple acceptance: baking is just an art, that is how it is",
     "Great excitement, pride, and enthusiasm about the art of baking bread"
 ],ans:"Simple acceptance: baking is just an art, that is how it is",hint:"Halt جسيم الحقيقة الهادئة. لا دراما، لا إثارة. الأمر كما هو، ولا أحد يستطيع الجدال في ذلك."},
         {type:"fb",s:"Hildi corrects Verumius: 'Das heißt {1} nicht so!'",a:["doch"],opts:["doch","halt","mal","wohl"],hint:"هيلدي تتعارض مع ما قيل. تقول عكس ما افترضه فيروميوس. أيّ جسيم يُعبّر تحديداً عن التناقض والردّ التأكيدي؟",sSrc:"هيلدي تصحّح فيروميوس: 'هذه ليست الطريقة الصحيحة لقولها!'"},
-        {type:"mc",q:"Yilmaz says: 'Das wird schon.' What does she mean?",opts:[
+        {type:"mc",q:"يقول يلماظ: 'Das wird schon.' ماذا يقصد؟",opts:[
     "Reassurance: it will work out, I am absolutely sure",
     "Doubt and hesitation: there is only a chance it might work",
     "An open question: can we expect it to work here?",
@@ -211,14 +211,14 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     {trg:"mal",src:"تلطيف / عفوية"},
     {trg:"schon",src:"تنازل / طمأنة"}
 ]},
-        {type:"mc",q:"Verumius thinks: 'KD ist wohl noch im Buero.' What does 'wohl' mean here?",opts:[
+        {type:"mc",q:"يفكر فيروميوس: 'KD ist wohl noch im Büro.' ماذا تعني 'wohl' هنا؟",opts:[
     "Definitely: he has confirmed that KD is at the office",
     "Probably: he assumes KD is still at the office",
     "He sincerely hopes KD is at the office",
     "He wishes very much that KD were at the office"
 ],ans:"Probably: he assumes KD is still at the office",hint:"Wohl جسيم الافتراض. ليس يقيناً، لكنه محتمَل. تخمين مدروس."},
         {type:"fb",s:"Das war {1} ein schoener Abend!",a:["ja"],opts:["ja","halt","wohl","mal"],hint:"جسيم يقول: نحن جميعاً نعلم هذا، إنه واضح. يُستخدَم لدعوة الإدراك المشترك. قد يقوله هاينريش. ليس تناقضاً، وليس افتراضاً، وليس استسلاماً.",sSrc:"لقد كانت أمسيةً رائعةً حقاً!"},
-        {type:"mc",q:"Which sentence sounds most like natural spoken German?",opts:[
+        {type:"mc",q:"أي جملة تبدو أقرب للألمانية المحكية الطبيعية؟",opts:[
     "Bitte kommen Sie vorbei, es wird bestimmt gut.",
     "Komm doch mal vorbei, das wird schon toll!",
     "Kommen Sie doch mal, es ist schon gut.",
@@ -279,13 +279,13 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "Etwas reparieren und wieder in Ordnung bringen",
     "Jemanden motivieren und antreiben"
 ],ans:"Das Leben bewusst verlangsamen",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'verarbeiten'?",opts:["commitment, reliability","appreciation, esteem","to content oneself, to settle for","to process, to work through"],ans:"to process, to work through",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Mia ist wirklich {1}.",a:["einfühlsam"],opts:["verarbeiten","die Versöhnlichkeit","sich zufriedengeben","einfühlsam"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Mia is really empathetic."},
+        {type:"mc",q:"Was bedeutet 'verarbeiten'?",opts:["الالتزام، الموثوقية","التقدير","يرضى بـ، يكتفي","يعالج، يدرس"],ans:"يعالج، يدرس",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Mia ist wirklich {1}.",a:["einfühlsam"],opts:["verarbeiten","die Versöhnlichkeit","sich zufriedengeben","einfühlsam"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"ميا متعاطفة حقاً."},
         {type:"mc",q:"Was bedeutet 'behutsam'?",opts:[
-    "to look back, to retrospect",
+    "يسترجع، ينظر للوراء",
     "gentle, careful, cautious",
     "spirit of reconciliation, forgiveness",
-    "appreciation, esteem"
+    "التقدير"
 ],ans:"gentle, careful, cautious",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L8: Verumius ───
@@ -321,7 +321,7 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"teach",trg:"unbezahlbar",src:"لا يُقدَّر بثمن، لا يُعوَّض",pos:"adj",gender:null,note:"Un- + bezahlbar (قابل للدفع).\nما لا يعادله أي مبلغ من المال.",example:"A: Dieser Abend ist unbezahlbar.\nB: Ja, so etwas kann man nicht kaufen.\nA: Echte Freundschaft ist unbezahlbar.\nB: Das Wertvollste, was es gibt.",exampleSrc:"أ: هذه الأمسية لا تُقدَّر بثمن.\nب: نعم، لا يمكنك شراء شيء كهذا.\nأ: الصداقة الحقيقية لا تُقدَّر بثمن.\nب: هي أثمن ما في الوجود.",funFact:"Un-bezahl-bar: لا يمكن دفعه. بادئة النفي un- + bezahlen (يدفع) + -bar (قادر). ما تكونه الصداقة الحقيقية. لا مبلغ من المال يعادل قيمة هذه الأمسية."},
         {type:"teach",trg:"ungezwungen",src:"مسترخٍ، غير رسمي، طبيعي",pos:"adj",gender:null,note:"Un- + gezwungen (مُكرَه).\nدون تصنُّع. حين يكون الجميع أنفسهم ببساطة.",example:"A: Die Atmosphäre war total ungezwungen.\nB: Ja, niemand hat sich verstellt.\nA: Alle waren einfach sie selbst.\nB: So soll es sein.",exampleSrc:"أ: كان الجو مريحاً تماماً.\nب: نعم، لم يكن أحد يتصنَّع.\nأ: كان الجميع أنفسهم ببساطة.\nب: هكذا ينبغي أن يكون.",funFact:"Un-ge-zwungen: دون إكراه أو إجبار. حين لا يوجد تصنُّع، ولا أداء، ولا قناع. الجميع ببساطة من هم. أجواء هذه الليلة على مائدة العشاء."},
         {type:"teach",trg:"zuversichtlich",src:"واثق، متفائل",pos:"adj",gender:null,note:"من Zuversicht (ثقة) + -lich.\nالنظر للأمام بثقة.",example:"A: Ich blicke zuversichtlich in die Zukunft.\nB: Was kommt als Nächstes?\nA: Ich weiß es noch nicht.\nB: Aber du bist bereit.",exampleSrc:"أ: أنظر إلى المستقبل بثقة.\nب: ماذا سيأتي بعد ذلك؟\nأ: لا أعرف بعد.\nب: لكنك مستعد.",funFact:"Zuversicht هي الثقة مع الإيمان. ليست غروراً، وليست تفاؤلاً أعمى، بل إيمان راسخ بأن ما يأتي سيكون قابلاً للتعامل معه. ما يشعر به فيروميوس حيال ما سيأتي."},
-        {type:"mc",q:"Hildi says 'Verumius... der Wein ist wirklich gut.' Why is this moment so important?",opts:[
+        {type:"mc",q:"تقول هيلدي 'Verumius... der Wein ist wirklich gut.' لماذا هذه اللحظة مهمة جداً؟",opts:[
     "The wine truly is exceptionally good quality and she must publicly note it",
     "She uses his first name publicly for the first time, signaling belonging",
     "She is officially giving a formal toast to the whole group in front of everyone",
@@ -336,17 +336,17 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     {trg:"ungezwungen",src:"مسترخٍ / طبيعي"},
     {trg:"aufatmen",src:"يتنفّس الصُعداء"}
 ]},
-        {type:"mc",q:"KD arrives late with a cactus. Which Modalpartikel fits his arrival best?",opts:[
+        {type:"mc",q:"يصل KD متأخراً بصبّار. أي Modalpartikel تناسب وصوله؟",opts:[
     "halt: Er kommt halt immer zu spät. (He just always comes late.)",
     "doch: Er kommt doch immer pünktlich. (He always comes on time after all.)",
     "wohl: Er kommt wohl nie wieder. (He probably never comes again.)",
     "schon: Er kommt schon nie. (He never comes anyway.)"
 ],ans:"halt: Er kommt halt immer zu spät. (He just always comes late.)",hint:"وصول KD متأخراً أمرٌ متوقَّع تماماً. هذا الجسيم يعبِّر عن القبول الهادئ لشيء لا يتغير، دون مبالغة أو جدال."},
-        {type:"fb",s:"In seinem {1} wusste er es schon lange: Berlin ist sein Zuhause.",a:["Inneren"],opts:["Traum","Inneren","Stoßseufzer","Muße"],hint:"فكّر في معنى الكلمة.",sSrc:"Deep inside he had known it for a long time: Berlin is his home."},
-        {type:"mc",q:"Was bedeutet 'sich versöhnen'?",opts:["to allow, to permit, to let in","surprise","dream","to become reconciled, to make peace"],ans:"to become reconciled, to make peace",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Man muss Gefühle {1}.",a:["zulassen"],opts:["die Überraschung","der Traum","der Stoßseufzer","zulassen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"One must allow feelings."},
-        {type:"mc",q:"Was bedeutet 'ausruhen'?",opts:["to grow together","confident, optimistic","leisure, contemplation time","to rest completely"],ans:"to rest completely",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ich blicke {1} in die Zukunft.",a:["zuversichtlich"],opts:["sich versöhnen","das Innere","zuversichtlich","unbezahlbar"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"I look to the future with confidence."}
+        {type:"fb",s:"In seinem {1} wusste er es schon lange: Berlin ist sein Zuhause.",a:["Inneren"],opts:["Traum","Inneren","Stoßseufzer","Muße"],hint:"فكّر في معنى الكلمة.",sSrc:"في أعماقه كان يعلم منذ زمن طويل: برلين هي وطنه."},
+        {type:"mc",q:"Was bedeutet 'sich versöhnen'?",opts:["يسمح، يدخل","surprise","dream","يتصالح"],ans:"يتصالح",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Man muss Gefühle {1}.",a:["zulassen"],opts:["die Überraschung","der Traum","der Stoßseufzer","zulassen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"يجب أن نسمح للمشاعر بالظهور."},
+        {type:"mc",q:"Was bedeutet 'ausruhen'?",opts:["ينمو معاً، يتماسك","واثق، متفائل","وقت الفراغ والتأمل","يرتاح تماماً"],ans:"يرتاح تماماً",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ich blicke {1} in die Zukunft.",a:["zuversichtlich"],opts:["sich versöhnen","das Innere","zuversichtlich","unbezahlbar"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"أنظر إلى المستقبل بثقة."}
       ]},
 // ─── L10: Alles ───
     {id:"deu_r36l7",title:"Alles",icon:"🏆",xp:15,board:true,steps:[
@@ -365,7 +365,7 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"teach",trg:"die Zusammengehörigkeit",src:"الشعور بالانتماء المشترك",pos:"noun",gender:"f",note:"اسم مؤنث. Zusammen (معاً) + Gehörigkeit (انتماء).\nناس يعودون لبعضهم باختيار.",example:"A: An diesem Tisch spürt man Zusammengehörigkeit.\nB: Obwohl alle so verschieden sind?\nA: Gerade deswegen.\nB: Zusammengehörigkeit braucht keine Gleichheit.",exampleSrc:"أ: عند هذه المائدة تشعر بالانتماء المشترك.\nب: حتى مع اختلاف الجميع كثيراً؟\nأ: بسبب ذلك تحديداً.\nب: الانتماء لا يشترط التماثل.",funFact:"Zusammen (معاً) + Gehörigkeit (انتماء). ما تُجسِّده هذه المائدة. ليسوا أقارب دماً بل عائلة مختارة. ناس ينتمون لبعضهم لأنهم قرَّروا ذلك."},
         {type:"teach",trg:"bedingungslos",src:"غير مشروط، مطلق",pos:"adj",gender:null,note:"Bedingung (شرط) + -los (دون).\nدون شروط. دون متطلبات.",example:"A: Echte Freundschaft ist bedingungslos.\nB: Ohne Wenn und Aber?\nA: Genau. Man akzeptiert den anderen ganz.\nB: Das ist selten und wertvoll.",exampleSrc:"أ: الصداقة الحقيقية غير مشروطة.\nب: دون لو ولكن؟\nأ: بالضبط. تقبل الشخص الآخر كاملاً.\nب: هذا نادر وثمين.",funFact:"Bedingung (شرط) + -los (دون). حب دون متطلبات. صداقة دون بنود خفية. ما تكونه أفضل العلاقات. bedingungslos هي كلمة القبول الكامل."},
         {type:"teach",trg:"füreinander",src:"لبعضنا البعض، من أجل بعضنا",pos:"adv",gender:null,note:"ظرف. Für (من أجل) + einander (بعضنا البعض).\nالرعاية المتبادلة في كلمة واحدة.",example:"A: Sie sind füreinander da.\nB: In guten und in schlechten Zeiten?\nA: Ja, immer füreinander.\nB: Das ist das Wichtigste.",exampleSrc:"أ: هم موجودون لبعضهم البعض.\nب: في الأوقات الجيدة والصعبة؟\nأ: نعم، دائماً لبعضهم.\nب: هذا هو الأهم.",funFact:"Für + einander: من أجل بعضنا البعض. ظرف يجمع الرعاية المتبادلة في كلمة واحدة. التواجد من أجل بعضنا. تعريف هذه المجموعة من الأصدقاء."},
-        {type:"mc",q:"Match the register: 'Begeben Sie sich zum Ausgang' vs. 'Geh raus.' What is the difference?",opts:[
+        {type:"mc",q:"قارن المستوى: 'Begeben Sie sich zum Ausgang' مقابل 'Geh raus.' ما الفرق؟",opts:[
     "Both sentences express exactly the same formal register of German throughout.",
     "First is very formal (official announcements). Second is casual (friends).",
     "Both sentences express exactly the same casual, everyday German register.",
@@ -373,7 +373,7 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
 ],ans:"First is very formal (official announcements). Second is casual (friends).",hint:"'Sich begeben' ما تسمعه في القطار. 'Geh raus' ما كان سيقوله لوكاس. المعنى واحد، لكن العالمان مختلفان."},
         {type:"fb",s:"{1} man bedingungslos füreinander da ist, entsteht Zusammengehörigkeit.",a:["Indem"],opts:["Indem","Weil","Obwohl","Wenn"],hint:"أيُّ أداة ربط تُجيب عن سؤال كيف ينشأ الانتماء؟ إنها تُقدِّم الطريقة أو الوسيلة التي يحدث بها شيء ما.",sSrc:"بالتواجد لبعضنا البعض دون شروط، ينشأ الشعور بالانتماء."},
         {type:"drag_fill",s:"Rückblickend betrachtet war es {1} ein langer Weg, {2} hat sich {3} Mühe gelohnt.",blanks:{"1":"wohl","2":"nichtsdestotrotz","3":"jegliche"},pool:["wohl","nichtsdestotrotz","jegliche","halt","trotzdem","sämtliche"],hint:"ثلاثة فراغات: جسيم يُعبِّر عن الاحتمال لا اليقين، وظرف ربط رسمي يُعاكس الجملة السابقة، وضمير نكرة توكيدي لا يستثني شيئاً. ثلاثة مستويات B2 مميزة في جملة واحدة."},
-        {type:"mc",q:"Which sentence sounds most natural at a German dinner table?",opts:[
+        {type:"mc",q:"أي جملة تبدو أكثر طبيعية على مائدة عشاء ألمانية؟",opts:[
     "Das Essen schmeckt wirklich. Du hast recht gehabt, das stimmt.",
     "Das Essen ist gut und du hattest in dieser Sache recht.",
     "Das Essen schmeckt ja wirklich gut! Du hast doch recht gehabt.",
@@ -387,7 +387,7 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     {trg:"sogleich",src:"فوراً (يومي)"}
 ]},
         {type:"fb",s:"{1} Anstrengung hat sich gelohnt.",a:["Jegliche"],opts:["Jegliche","Alle","Manche","Irgendwelche"],hint:"كل جهد بلا استثناء. الضمير النكرة الرسمي الأكثر توكيداً للدلالة على الشمولية.",sSrc:"كل جهدٍ بُذل كان يستحق."},
-        {type:"mc",q:"Which sentence orders adverbs correctly according to TeKaMoLo?",opts:[
+        {type:"mc",q:"أي جملة تُرتّب الظروف صحيحاً وفق TeKaMoLo؟",opts:[
     "Er hat gestern Abend aus Dankbarkeit gern für seine Freunde gekocht.",
     "Er hat gern gestern Abend für seine Freunde aus Dankbarkeit gekocht.",
     "Er hat für seine Freunde gestern Abend gern aus Dankbarkeit gekocht.",
@@ -417,7 +417,7 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"story",speaker:"yilmaz",mood:"final",trg:"Du bist du. Auf Deutsch.",src:"أنت أنت. بالألمانية."},
         {type:"story",speaker:"narrator",mood:"closing",trg:"Stille. Die Stadt. Der Tee. Dann nimmt Yilmaz ihren Mantel, küsst ihn auf beide Wangen (türkische Tradition) und geht. Die Tür schließt sich leise.",src:"صمت. المدينة. الشاي. ثم تأخذ يلماظ معطفها، وتُقبِّله على الخدَّين (تقليد تركي)، وتغادر. يُغلَق الباب بهدوء."},
         {type:"story",speaker:"narrator",mood:"final",trg:"Verumius steht allein in seiner Wohnung. Die Kerzen flackern. Der Sauerteig steht in seinem Glas. Die Fotos an der Wand. Der Aufsatz an der Pinnwand. Berlin vor dem Fenster.",src:"يقف فيروميوس وحيداً في شقته. الشموع تتراقص. عجينة الخميرة في جرَّتها. الصور على الجدار. المقالة على لوحة الفَلِّين. برلين خارج النافذة."},
-        {type:"story",speaker:"verumius",mood:"complete",trg:"Ich bin zuhause.",src:"أنا في الوطن."},
+        {type:"story",speaker:"verumius",mood:"كامل",trg:"Ich bin zuhause.",src:"أنا في الوطن."},
         {type:"teach",trg:"der Steuerzahler",src:"دافع الضرائب",pos:"noun",gender:"m",note:"اسم مذكر. Steuer (ضريبة) + Zahler (دافع).\nالاندماج اكتمل: جزء من المنظومة.",example:"A: Verumius ist jetzt Steuerzahler.\nB: Krankenversicherung, Finanzamt, alles.\nA: Ein richtiges Mitglied der Gesellschaft.\nB: Integration auf Papier und im Herzen.",exampleSrc:"أ: فيروميوس الآن دافع ضرائب.\nب: التأمين الصحي، مكتب الضرائب، كل شيء.\nأ: عضو حقيقي في المجتمع.\nب: اندماج على الورق وفي القلب.",funFact:"Steuer (ضريبة) + Zahler (دافع). فيروميوس يدفع الضرائب، ولديه تأمين صحي، ويتلقى بريداً من مكتب Finanzamt. إنه جزء من المنظومة. أكثر الأدلة البيروقراطية على الانتماء."},
         {type:"teach",trg:"von ganzem Herzen",src:"من أعماق القلب",pos:"intj",gender:null,note:"عبارة اصطلاحية ثابتة. Von (من) + ganzem (كامل) + Herzen (القلب).\nأصدق تعبير عن الامتنان.",example:"A: Ich danke euch von ganzem Herzen.\nB: Das freut uns sehr.\nA: Ohne euch wäre ich nicht hier.\nB: Wir sind froh, dass du da bist.",exampleSrc:"أ: أشكرك من أعماق قلبي.\nب: هذا يُسعدنا كثيراً.\nأ: لولاك لما كنتُ هنا.\nب: يسعدنا وجودك هنا.",funFact:"أصدق تعبير عن الامتنان في الألمانية. لا شيء يُحتجز. القلب كله، لا جزء منه فقط. ما تقوله حين لا تكفي الكلمات وحدها."},
         {type:"teach",trg:"von Herzen",src:"بصدق، بإخلاص من القلب",pos:"intj",gender:null,note:"عبارة اصطلاحية ثابتة. أقصر من 'von ganzem Herzen'.\nما تكتبه في البطاقات للأشخاص الذين تهتم بأمرهم.",example:"A: Von Herzen alles Gute!\nB: Danke, das ist lieb.\nA: Ich meine es von Herzen.\nB: Das spüre ich.",exampleSrc:"أ: كل التوفيق، من القلب!\nب: شكراً، هذا لطيف.\nأ: أعنيه بصدق.\nب: أستطيع أن أشعر بذلك.",funFact:"أقصر من 'von ganzem Herzen' لكنها بنفس الصدق. ما تكتبه في بطاقات أعياد الميلاد، وعلى هدايا الوداع، وفي رسائل الأشخاص الذين يعنون لك أمراً. كلمتان، صدق كامل."},
@@ -433,7 +433,7 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
         {type:"teach",trg:"rückblickend",src:"بالنظر إلى الوراء، استرجاعياً",pos:"adv",gender:null,note:"ظرف. اسم الفاعل من rückblicken.\nالوقوف في النهاية والنظر إلى البداية.",example:"A: Rückblickend war alles richtig.\nB: Jeder Schritt?\nA: Ja. Rückblickend sogar die Umwege.\nB: Umwege erweitern die Ortskenntnis.",exampleSrc:"أ: بالنظر إلى الوراء، كان كل شيء صحيحاً.\nب: كل خطوة؟\nأ: نعم. استرجاعياً، حتى الانعطافات.\nب: الانعطافات توسِّع معرفتك بالمنطقة.",funFact:"الصيغة الظرفية لـRückblick. الوقوف في النهاية والنظر إلى الوراء نحو البداية. 'Rückblickend war alles richtig' جملة من وصل إلى وجهته."},
         {type:"teach",trg:"aufrichtig",src:"صادق، مخلص",pos:"adj",gender:null,note:"Auf (للأعلى) + richtig (مستقيم). مستقيم القامة.\nالصدق يتجسَّد جسدياً. لا يُخفي شيئاً.",example:"A: Aufrichtigen Dank für alles.\nB: Das klingt so ernst.\nA: Es ist ernst gemeint.\nB: Dann nehme ich es gern an.",exampleSrc:"أ: شكر صادق على كل شيء.\nب: هذا يبدو جدياً.\nأ: إنه مقصود بجدية.\nب: إذن أقبله بكل سرور.",funFact:"حرفياً 'مستقيم القامة'. الشخص aufrichtig يقف مستقيماً، لا يُخفي شيئاً. الصدق يتجسَّد جسدياً. ليس صادقاً فحسب بل بشفافية كاملة."},
         {type:"teach",trg:"zuhause",src:"في البيت، في الوطن",pos:"adv",gender:null,note:"ظرف. Zu (عند) + Hause (المضاف إليه من Haus).\nأكثر من موقع: شعور الانتماء إلى مكان.",example:"A: Bist du endlich zuhause?\nB: Ja. Und es fühlt sich anders an als vorher.\nA: Anders wie?\nB: Wie ich gehöre hierher. Ich bin zuhause.",exampleSrc:"أ: هل أنت في البيت أخيراً؟\nب: نعم. والشعور مختلف عن قبل.\nأ: مختلف كيف؟\nب: كأنني أنتمي إلى هنا. أنا في الوطن.",funFact:"الظرف 'zuhause' (في البيت) يُعبِّر عن الموقع. مرتبط لكن مختلف: 'nach Hause' (العودة للبيت، اتجاهي) و'das Zuhause' (البيت كاسم). 'Zuhause sein' أكثر من حضور جسدي. إنه شعور الانتماء. قوس فيروميوس على مدار عامين ينتهي بثلاث كلمات: Ich bin zuhause."},
-        {type:"mc",q:"Yilmaz says: 'Du bist du, auf Deutsch.' What does she mean?",opts:[
+        {type:"mc",q:"يقول يلماظ: 'Du bist du, auf Deutsch.' ماذا يقصد؟",opts:[
     "You have become yourself in the German language. Not a tourist, but truly you.",
     "You now speak the German language correctly and without any grammatical errors.",
     "You have passed the B2 level exam successfully, and that is a real achievement.",
@@ -448,15 +448,15 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     {trg:"rückblickend",src:"بالنظر إلى الماضي"},
     {trg:"letzten Endes",src:"في النهاية"}
 ]},
-        {type:"mc",q:"Verumius says: 'Ich bin zuhause.' What does zuhause mean here?",opts:[
+        {type:"mc",q:"يقول فيروميوس: 'Ich bin zuhause.' ماذا تعني zuhause هنا؟",opts:[
     "Home: not just a place, but a feeling of belonging.",
     "A house that he recently purchased in Berlin.",
     "A temporary furnished apartment he is renting.",
     "The German word specifically for Germany as a country."
 ],ans:"Home: not just a place, but a feeling of belonging.",hint:"zuhause هو المكان الذي تنتمي إليه. حيث الناس الذين يعرفون اسمك. حيث تكون نفسك."},
-        {type:"mc",q:"Was bedeutet 'träumen'?",opts:["to dream","to be at peace, to be forgiving","last but not least, finally","at home"],ans:"to dream",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"mc",q:"Was bedeutet 'träumen'?",opts:["يحلم","يتصالح","أخيراً وليس آخراً","في الوطن"],ans:"يحلم",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to be at peace, to be forgiving' auf Deutsch? {1}",a:["versöhnlich sein"],opts:["versöhnlich sein","der Steuerzahler","rückblickend","von ganzem Herzen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to be at peace, to be forgiving' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'aufrichtig'?",opts:["to be at peace, to be forgiving","sincere, genuine","in the end, ultimately","finally, ultimately"],ans:"sincere, genuine",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'aufrichtig'?",opts:["يتصالح","صادق، حقيقي","في النهاية","أخيراً"],ans:"صادق، حقيقي",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]}
   ]};
 

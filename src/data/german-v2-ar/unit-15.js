@@ -40,7 +40,7 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"fb",s:"Die {1} Hamburg-Berlin dauert etwa zwei Stunden.",a:["Strecke"],opts:["Strecke","Station","Linie","Richtung"],hint:"ما الكلمة التي تصف مساراً محدداً بين مدينتين؟",sSrc:"يستغرق المسار بين هامبورغ وبرلين نحو ساعتين."},
         {type:"story",speaker:"colleague",mood:"matter-of-fact",art:"de-ham-taxi-rain",trg:"So, die Strecke zum Hotel ist nicht weit. Zehn Minuten, wenn der Verkehr mitmacht.",src:"إذن، المسار إلى الفندق ليس بعيداً. عشر دقائق إذا تعاون الطريق."},
         {type:"story",speaker:"verumius",mood:"curious",art:"de-ham-taxi-rain",trg:"Hamburg ist größer, als ich dachte. Und feuchter.",src:"هامبورغ أكبر مما توقعت. وأكثر رطوبة أيضاً."},
-        {type:"fb",s:"Die {1} ist nicht weit von Hamburg. Etwa 100 Kilometer.",a:["Nordsee"],opts:["Nordsee","Ostsee","Metropole","Nacht"],hint:"فكّر في معنى الكلمة.",sSrc:"The North Sea is not far from Hamburg. About 100 kilometers."},
+        {type:"fb",s:"Die {1} ist nicht weit von Hamburg. Etwa 100 Kilometer.",a:["Nordsee"],opts:["Nordsee","Ostsee","Metropole","Nacht"],hint:"فكّر في معنى الكلمة.",sSrc:"بحر الشمال ليس بعيداً عن هامبورغ. حوالي 100 كيلومتر."},
         {type:"mc",q:"Was bedeutet 'feucht'?",opts:["the region","the night","damp / humid","the area / vicinity"],ans:"damp / humid",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L3: Unterwegs in der Stadt ───
@@ -86,7 +86,7 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"mc",q:"Welcher Artikel ist richtig: ___ Kraftfahrzeug?",opts:["die","der","ein","das"],ans:"das",hint:"في الأسماء المركبة، العنصر الأخير هو الذي يحدد المقالة. فارتسويغ مذكر محايد."},
         {type:"drag_fill",s:"Nehmen Sie die nächste {1} auf der rechten {2}.",blanks:{"1":"Ausfahrt","2":"Spur"},pool:["Ausfahrt","Spur","Einfahrt","Kurve","Linie","Zone"],hint:"خذ المخرج التالي في الحارة اليمنى. مصطلحان للطرق والسريع.",sSrc:"خذ المخرج التالي في الحارة اليمنى."},
         {type:"mc",q:"Was bedeutet 'der Radfahrer'?",opts:["the curve / bend","the pedestrian (male)","the motor vehicle","the cyclist (male)"],ans:"the cyclist (male)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} f\\u00e4hrt sehr schnell.",a:["die Radfahrerin"],opts:["die Radfahrerin","die Kurve","der Fu\\u00dfg\\u00e4nger","die Ausfahrt"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The cyclist is riding very fast."}
+        {type:"fb",s:"{1} f\\u00e4hrt sehr schnell.",a:["die Radfahrerin"],opts:["die Radfahrerin","die Kurve","der Fu\\u00dfg\\u00e4nger","die Ausfahrt"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"الدرّاج يقود بسرعة كبيرة."}
       ]},
 // ─── L5: Herr Professor Doktor Schmidt ───
     {id:"deu_r15l3",title:"Herr Professor Doktor Schmidt",icon:"👔",xp:15,board:true,steps:[
@@ -144,11 +144,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"story",speaker:"verumius",mood:"overwhelmed",art:"de-ham-office",trg:"Herr Professor Doktor Schmidt. Soll ich das jedes Mal sagen? Jedes Mal alle Titel?",src:"الأستاذ الدكتور شميت. هل يُفترض أن أقول ذلك في كل مرة؟ في كل مرة، جميع الألقاب؟"},
         {type:"story",speaker:"colleague",mood:"reassuring",art:"de-ham-office-harbor",trg:"Beim ersten Mal: ja. Danach reicht Herr Schmidt. Die Regel ist einfach: lieber zu höflich als zu locker.",src:"في المرة الأولى: نعم. بعد ذلك، هير شميت كافٍ. القاعدة بسيطة: أفضل مبالغة في التأدب من التساهل."},
         {type:"mc",q:"Was bedeutet 'der Passagier'?",opts:["the passenger (male)","the courtyard / yard / farm","the coast","the suburb"],ans:"the passenger (male)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} hat ihr Gep\\u00e4ck vergessen.",a:["die Passagierin"],opts:["st\\u00e4dtisch","die Passagierin","der Transport","der Ozean"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The passenger forgot her luggage."},
+        {type:"fb",s:"{1} hat ihr Gep\\u00e4ck vergessen.",a:["die Passagierin"],opts:["st\\u00e4dtisch","die Passagierin","der Transport","der Ozean"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"الراكبة نسيت حقيبتها."},
         {type:"mc",q:"Was bedeutet 'der Steward'?",opts:["the transport","the suburb","the ocean","the steward (male)"],ans:"the steward (male)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} erkl\\u00e4rt die Sicherheitsregeln.",a:["die Stewardess"],opts:["die Stewardess","der Tourismus","die K\\u00fcste","der Transport"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The stewardess is explaining the safety rules."},
+        {type:"fb",s:"{1} erkl\\u00e4rt die Sicherheitsregeln.",a:["die Stewardess"],opts:["die Stewardess","der Tourismus","die K\\u00fcste","der Transport"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"المضيفة تشرح قواعد السلامة."},
         {type:"mc",q:"Was bedeutet 'der Laster'?",opts:["the truck","the transport","the building","the courtyard / yard / farm"],ans:"the truck",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} der Waren dauert drei Tage.",a:["der Transport"],opts:["die Entfernung","das Geb\\u00e4ude","das Ufer","der Transport"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The transport of the goods takes three days."},
+        {type:"fb",s:"{1} der Waren dauert drei Tage.",a:["der Transport"],opts:["die Entfernung","das Geb\\u00e4ude","das Ufer","der Transport"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"نقل البضائع يستغرق ثلاثة أيام."},
         {type:"mc",q:"Was bedeutet 'transportieren'?",opts:["urban / municipal","to transport","the bank / shore (of a river)","the truck"],ans:"to transport",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Der Nebel ist heute sehr {1}.",a:["dicht"],opts:["dicht","der Laster","der Vorort","regional"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The fog is very thick today."},
         {type:"mc",q:"Was bedeutet 'der Tourismus'?",opts:["to transport","urban / municipal","the tourism","the courtyard / yard / farm"],ans:"the tourism",hint:"فكّر في معنى هذه الكلمة في السياق."}

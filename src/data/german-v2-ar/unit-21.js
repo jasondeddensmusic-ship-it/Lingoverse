@@ -42,9 +42,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
     "Wegen der friedlichen Revolution 1989",
     "Weil es die größte Stadt in Deutschland ist"
 ],ans:"Wegen der friedlichen Revolution 1989",hint:"غيّرت المظاهرات السلمية التي انطلقت من لايبزيغ عام 1989 مسار التاريخ الألماني."},
-        {type:"fb",s:"Verumius hat viel {1}. Er hat die Nikolaikirche besucht.",a:["erlebt"],opts:["erlebt","erfahren","entstanden","entwickelt"],hint:"فكّر في معنى الكلمة.",sSrc:"Verumius experienced a lot. He visited the Nikolaikirche."},
+        {type:"fb",s:"Verumius hat viel {1}. Er hat die Nikolaikirche besucht.",a:["erlebt"],opts:["erlebt","erfahren","entstanden","entwickelt"],hint:"فكّر في معنى الكلمة.",sSrc:"عاش فيروميوس كثيراً. زار كنيسة نيكولاي."},
         {type:"mc",q:"Was bedeutet 'entstehen'?",opts:["to arise, to come into being","to experience","the border, the boundary","the wall"],ans:"to arise, to come into being",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"M\\u00f6chtest du mehr {1}?",a:["erleben"],opts:["erleben","national","die Mauer","die Grenze"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Would you like to experience more?"},
+        {type:"fb",s:"M\\u00f6chtest du mehr {1}?",a:["erleben"],opts:["erleben","national","die Mauer","die Grenze"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل تريد أن تعيش المزيد؟"},
         {type:"mc",q:"Was bedeutet 'vor allem'?",opts:["the memory, the remembrance","to experience","above all, especially","political"],ans:"above all, especially",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L3: Stimmen der Geschichte ───
@@ -86,7 +86,7 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
     {trg:"Rede",src:"خطاب"}
 ]},
         {type:"mc",q:"Was bedeutet 'die Politikerin'?",opts:["the reform","the citizen (male)","politics","the politician (female)"],ans:"the politician (female)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Was bedeutet {1}?",a:["sozial"],opts:["die Rede","sozial","die B\\u00fcrgerin","die \\u00d6ffentlichkeit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"What does sozial mean?"},
+        {type:"fb",s:"Was bedeutet {1}?",a:["sozial"],opts:["die Rede","sozial","die B\\u00fcrgerin","die \\u00d6ffentlichkeit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"ماذا تعني sozial؟"},
         {type:"mc",q:"Was bedeutet 'dienen'?",opts:["to serve","the reform","the election, the choice","the population"],ans:"to serve",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Altes Rathaus ───

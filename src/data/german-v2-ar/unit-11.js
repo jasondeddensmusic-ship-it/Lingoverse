@@ -18,19 +18,19 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"teach",trg:"der Himmel",pos:"noun",src:"السماء",gender:"m",example:"A: Der Himmel ist so schön heute Abend.\nB: Ja, die Sterne leuchten über dem Markt.",exampleSrc:"أ: السماء جميلة جداً هذا المساء.\nب: نعم، النجوم تلمع فوق السوق.",note:"der Himmel = السماء والجنة. 'Himmelblau' = أزرق سماوي. الجمع: die Himmel (نادر).",funFact:"'Himmel und Hölle' (الجنة والنار) هو الاسم الألماني للحجلة. لا يزال الأطفال يلعبونها في ساحات المدارس في ألمانيا."},
         {type:"teach",trg:"der Kalender",pos:"noun",src:"التقويم",gender:"m",example:"A: Hast du einen Adventskalender?\nB: Ja, mit Schokolade! Heute ist Türchen Nummer zwölf.",exampleSrc:"أ: هل لديك تقويم المجيء؟\nب: نعم، مع شوكولاتة! اليوم الباب رقم اثني عشر.",note:"der Kalender، الجمع: die Kalender. Adventskalender = تقويم المجيء (٢٤ باباً صغيراً، واحد كل يوم حتى عيد الميلاد).",funFact:"أول تقويم مجيء مطبوع صُنع في ألمانيا عام ١٩٠٢. اليوم، ينفق الألمان أكثر من ٦٠ مليون يورو عليها كل عام."},
         {type:"teach",trg:"die Postkarte",pos:"noun",src:"البطاقة البريدية",gender:"f",example:"A: Ich schreibe eine Postkarte an meine Eltern.\nB: Gute Idee! Der Weihnachtsmarkt ist ein tolles Motiv.",exampleSrc:"أ: أكتب بطاقة بريدية لوالديّ.\nب: فكرة جيدة! سوق عيد الميلاد موضوع رائع.",note:"die Postkarte، الجمع: die Postkarten. كلمة مركبة: Post (بريد) + Karte (بطاقة).",funFact:"البريد الألماني يوصل حوالي ٢٠٠ مليون بطاقة عيد ميلاد كل ديسمبر. بلدة 'Himmelpfort' (بوابة الجنة) لديها مكتب بريد خاص لبابا نويل."},
-        {type:"mc",q:"Hildi says: 'Schau, es ___!' What is happening?",opts:["Es regnet","Es schneit","Es ist warm","Es ist dunkel"],ans:"Es schneit",hint:"فكّر فيما يتساقط من سحب الشتاء"},
+        {type:"mc",q:"هيلدي تقول: 'Schau, es ___!' ماذا يحدث؟",opts:["Es regnet","Es schneit","Es ist warm","Es ist dunkel"],ans:"Es schneit",hint:"فكّر فيما يتساقط من سحب الشتاء"},
         {type:"fb",s:"Der {1} ist heute Abend wunderschön.",a:"Himmel",opts:["Himmel","Schnee","Wolke","Kalender"],hint:"انظر إلى الأعلى فوق أكشاك السوق",sSrc:"السماء جميلة الليلة."},
         {type:"teach",trg:"die Schokolade",pos:"noun",src:"الشوكولاتة",gender:"f",example:"A: Möchtest du heiße Schokolade?\nB: Oh ja, bitte! Mit Sahne?",exampleSrc:"أ: هل تريد شوكولاتة ساخنة؟\nب: نعم، من فضلك! مع كريمة؟",note:"die Schokolade (بدون جمع شائع). Heiße Schokolade = شوكولاتة ساخنة. الشكل المختصر: Schoki.",funFact:"ألمانيا أكبر مستهلك للشوكولاتة في أوروبا، بمعدل ١١ كغ للفرد سنوياً. Ritter Sport وMilka علامتان تجاريتان ألمانيتان شهيرتان."},
         {type:"teach",trg:"die Torte",pos:"noun",src:"الكعكة / التورتة",gender:"f",example:"A: Diese Torte sieht lecker aus!\nB: Das ist Schwarzwälder Kirschtorte. Sehr berühmt!",exampleSrc:"أ: هذه الكعكة تبدو لذيذة!\nب: هذه كعكة الغابة السوداء بالكرز. مشهورة جداً!",note:"die Torte، الجمع: die Torten. تختلف عن 'der Kuchen' (كعكة أبسط). Torte = طبقات، فاخرة.",funFact:"Schwarzwälder Kirschtorte (كعكة الغابة السوداء) يجب قانونياً أن تحتوي على Kirschwasser (نبيذ الكرز) لتحمل الاسم. اخْتُرعت حوالي عام ١٩١٥."},
         {type:"teach",trg:"die Rose",pos:"noun",src:"الوردة",gender:"f",example:"A: Rosen im Winter?\nB: Ja, rote Rosen für den Weihnachtstisch!",exampleSrc:"أ: ورود في الشتاء؟\nب: نعم، ورود حمراء لطاولة عيد الميلاد!",note:"die Rose، الجمع: die Rosen. نفس الكلمة بالإنجليزية، من اللاتينية 'rosa'.",funFact:"ألمانيا تزرع أكثر من ٨٠ مليون وردة سنوياً، معظمها في البيوت الزجاجية. مدينة Bad Langensalza تُسمى 'Rosenstadt' (مدينة الورد)."},
         {type:"teach",trg:"der Ring",pos:"noun",src:"الخاتم",gender:"m",example:"A: Schau mal, der goldene Ring am Stand!\nB: Sehr schön. Ist das ein Geschenk?",exampleSrc:"أ: انظر، الخاتم الذهبي عند الكشك!\nب: جميل جداً. هل هذه هدية؟",note:"der Ring، الجمع: die Ringe. تعني أيضاً الدائرة أو الحلبة (Boxring).",funFact:"تقليد 'Ringstraße' في المدن الألمانية يعود إلى العصور الوسطى، عندما حلّت الطرق الدائرية محل أسوار المدن القديمة. شارع Ringstraße الشهير في فيينا هو الأكثر شهرة."},
         {type:"tip",title:"Weihnachtsmarkt: A German Tradition",text:"عيد الميلاد markets (Weihnachtsmärkte) open across Germany from late November until Christmas Eve. Every city has its own.\n\nBerlin alone has over 60 markets. The Gendarmenmarkt is considered the most beautiful, framed by two cathedrals and the Konzerthaus.\n\nTypical treats: Glühwein (mulled wine), gebrannte Mandeln (roasted almonds), Lebkuchen (gingerbread), Bratwurst, Stollen (fruit bread).\n\nThe tradition dates back to the 1300s. Dresden's Striezelmarkt (founded 1434) is the oldest.",deepDive:"الأسواق تُسمى 'Weihnachtsmarkt' أو 'Christkindlmarkt' (خاصة في جنوب ألمانيا). كل منطقة لها تخصصاتها: نورمبرغ مشهورة بـ Lebkuchen الصغير، آخن بـ Printen، ودريسدن بـ Christstollen."},
-        {type:"mc",q:"What is 'die Schokolade'?",opts:["calendar","postcard","chocolate","cake"],ans:"chocolate",hint:"حلوى لذيذة، غالباً تُقدّم ساخنة في الشتاء"},
-        {type:"mc",q:"Verumius wants to write home. Which does he need?",opts:["der Kalender","die Torte","die Postkarte","der Ring"],ans:"die Postkarte",hint:"شيء تكتب عليه وترسله بالبريد"},
+        {type:"mc",q:"ما هي 'die Schokolade'؟",opts:["calendar","postcard","chocolate","cake"],ans:"chocolate",hint:"حلوى لذيذة، غالباً تُقدّم ساخنة في الشتاء"},
+        {type:"mc",q:"فيروميوس يريد الكتابة للبيت. ماذا يحتاج؟",opts:["der Kalender","die Torte","die Postkarte","der Ring"],ans:"die Postkarte",hint:"شيء تكتب عليه وترسله بالبريد"},
         {type:"fb",s:"Es gibt dunkle {1} am Himmel.",a:"Wolken",opts:["Wolken","Schnee","Ringe","Rosen"],hint:"تطفو في السماء قبل تساقط الثلج",sSrc:"توجد غيوم داكنة في السماء."},
         {type:"mc",q:"'Die Torte' is different from 'der Kuchen' because a Torte is...",opts:["layered and fancy","simple and plain","always chocolate","served cold"],ans:"layered and fancy",hint:"فكّر في حلوى مزينة متعددة الطبقات"},
         {type:"fb",s:"Hildi kauft eine {1} am Weihnachtsmarkt.",a:"Rose",opts:["Rose","Wolke","Schnee","Himmel"],hint:"زهرة جميلة، غالباً حمراء",sSrc:"هيلدي تشتري وردة في سوق عيد الميلاد."},
-        {type:"mc",q:"Verumius sees a round golden item on a stall. Which word describes it?",opts:["die Rose","der Schnee","der Ring","die Torte"],ans:"der Ring",hint:"شيء دائري صغير يُرتدى كمجوهرات في الإصبع."},
+        {type:"mc",q:"Verumius sees a round golden item on a stall. أي كلمة تصف it?",opts:["die Rose","der Schnee","der Ring","die Torte"],ans:"der Ring",hint:"شيء دائري صغير يُرتدى كمجوهرات في الإصبع."},
         {type:"match",pairs:[
     {trg:"der Schnee",src:"الثلج"},
     {trg:"die Wolke",src:"السحابة"},
@@ -40,7 +40,7 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
     {trg:"die Rose",src:"الوردة"}
 ]},
         {type:"tip",title:"Sneak Peek: Adjective Endings",text:"رأيت عبارات مثل 'der warme Glühwein'، 'die dunklen Wolken'، 'der goldene Ring'.\n\nلاحظ النهايات على الصفات: warm-E, dunkel-N, golden-E.\n\nالصفات الألمانية تغيّر نهاياتها حسب الجنس والحالة وأداة التعريف. يُسمى هذا تصريف الصفات.\n\nلا تحفظ القواعد بعد. فقط لاحظ الأنماط. ستتعلم النظام خطوة بخطوة في الدروس القادمة.",deepDive:"تصريف الصفات من أصعب موضوعات القواعد الألمانية. هناك ثلاثة أنماط تصريف (قوي، ضعيف، مختلط) حسب ما يسبق الصفة. الآن، فقط اعتد على سماع 'der warme'، 'die schöne'، 'das frische' كتعبيرات طبيعية."},
-        {type:"mc",q:"Hildi sagt: 'Der Gendarmenmarkt hat den schönsten Weihnachtsmarkt in Berlin.' What does she mean?",opts:[
+        {type:"mc",q:"Hildi sagt: 'Der Gendarmenmarkt hat den schönsten Weihnachtsmarkt in Berlin.' ماذا تقصد؟",opts:[
     "Gendarmenmarkt has the most beautiful Christmas market in Berlin",
     "Gendarmenmarkt has the biggest Christmas market in Berlin",
     "Gendarmenmarkt has the oldest Christmas market in Berlin",
@@ -105,7 +105,7 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"teach",trg:"das Parfüm",pos:"noun",gender:"n",src:"العطر",note:"اسم محايد. الجمع: die Parfüms. مستعارة من الفرنسية.",example:"A: Das teure Parfüm riecht toll!\nB: Ich schenke es meiner Mutter nach Weihnachten.",exampleSrc:"أ: العطر الغالي رائحته رائعة!\nب: سأهديه لأمي بعد عيد الميلاد.",funFact:"استعار الألمان 'Parfüm' مباشرة من الفرنسية 'parfum.' أُضيف حرف ü ليتوافق مع النطق الألماني. كثير من كلمات الفخامة في الألمانية مستوردة من الفرنسية."},
         {type:"teach",trg:"die Kosmetik",pos:"noun",gender:"f",src:"مستحضرات التجميل",note:"اسم مؤنث. يُستخدم كمفرد للفئة.",example:"A: Wo finde ich gute Kosmetik?\nB: Seit letztem Jahr gibt es einen neuen Stand hier.",exampleSrc:"أ: أين أجد مستحضرات تجميل جيدة؟\nب: منذ العام الماضي يوجد كشك جديد هنا.",funFact:"من اليونانية 'kosmetikos' بمعنى 'ماهر في التزيين.' نفس الجذر أعطانا 'cosmos'، لأن اليونانيين ظنوا أن الكون منظم بجمال."},
         {type:"teach",trg:"die Mode",pos:"noun",gender:"f",src:"الموضة",note:"اسم مؤنث. من الفرنسية 'mode.'",example:"A: Ist diese Mode noch modern?\nB: Ja, vor zwei Wochen war sie auf Instagram!",exampleSrc:"أ: هل هذه الموضة لا تزال حديثة؟\nب: نعم، قبل أسبوعين كانت على إنستغرام!",funFact:"'Mode' و'modern' يشتركان في نفس الجذر اللاتيني 'modus' (طريقة، أسلوب). في الألمانية، 'altmodisch' (قديم الطراز) تعني حرفياً 'ذو الطراز القديم.'"},
-        {type:"mc",q:"Opa Heinrich says 'Von heute Morgen, noch frisch!' What is he talking about?",opts:["His wool coat","His bread rolls","His flat cap","His necklace"],ans:"His bread rolls",hint:"يحمل كيساً من شيء مخبوز تحت ذراعه."}
+        {type:"mc",q:"يقول الجد هاينريش 'Von heute Morgen, noch frisch!' عمّ يتحدث؟",opts:["His wool coat","His bread rolls","His flat cap","His necklace"],ans:"His bread rolls",hint:"يحمل كيساً من شيء مخبوز تحت ذراعه."}
       ]},
 // ─── L4: Opa Heinrichs Brötchen (Teil 2) ───
     {id:"deu_r11l3b",title:"Opa Heinrichs Brötchen (Teil 2)",icon:"🍞",xp:15,board:true,steps:[
@@ -115,30 +115,30 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"teach",trg:"schenken",pos:"verb",gender:null,src:"يُهدي",note:"فعل منتظم. يختلف عن 'geben' (يعطي). schenken = دائماً هدية.",example:"A: Was schenkst du ihr?\nB: Ich schenke ihr eine neue Kette vor ihrem Geburtstag.",exampleSrc:"أ: ماذا ستهديها؟\nب: سأهديها عقداً جديداً قبل عيد ميلادها.",funFact:"'schenken' تأتي من 'einschenken' (يسكب مشروباً). في الأصل، تقديم مشروب لشخص كان فعل العطاء. توسّع المعنى ليشمل أي هدية."},
         {type:"teach",trg:"wünschen",pos:"verb",gender:null,src:"يتمنى",note:"فعل منتظم. 'Ich wünsche dir alles Gute!' = أتمنى لك كل الخير!",example:"A: Was wünschst du dir zu Weihnachten?\nB: Ich wünsche mir ein gutes Parfüm.",exampleSrc:"أ: ماذا تتمنى لعيد الميلاد؟\nب: أتمنى عطراً جميلاً.",funFact:"الصيغة الانعكاسية 'sich wünschen' تعني 'يتمنى لنفسه.' Wunschzettel هي 'قائمة أمنيات' يكتبها الأطفال الألمان لعيد الميلاد."},
         {type:"teach",trg:"der Schal",pos:"noun",src:"الوشاح",gender:"m",phonetic:"SHAHL",example:"A: Dein Schal ist wirklich schön!\nB: Danke, ich habe ihn auf dem Weihnachtsmarkt gekauft.\nA: Die Farbe passt perfekt zu deinem Mantel.",exampleSrc:"أ: وشاحك جميل حقاً!\nب: شكراً، اشتريته من سوق عيد الميلاد.\nأ: اللون يناسب معطفك تماماً.",note:"der Schal، مذكر. الجمع: die Schals. قطعة أساسية للشتاء في سوق عيد الميلاد.",funFact:"الكلمة الألمانية 'Schal' تأتي من الفارسية عبر الفرنسية. أوشحة الكشمير من كشمير كانت سلعاً فاخرة في أوروبا القرن الثامن عشر."},
-        {type:"mc",q:"'Ich schenke dir eine Kette.' What is the speaker doing?",opts:["Buying a necklace for themselves","Borrowing a necklace","Returning a necklace","Giving a necklace as a gift"],ans:"Giving a necklace as a gift",hint:"هذا الفعل يُستخدم فقط لإعطاء الأشياء مجاناً ودائماً، ليس للإعارة أو البيع."},
+        {type:"mc",q:"'Ich schenke dir eine Kette.' ماذا يفعل المتحدث؟",opts:["Buying a necklace for themselves","Borrowing a necklace","Returning a necklace","Giving a necklace as a gift"],ans:"Giving a necklace as a gift",hint:"هذا الفعل يُستخدم فقط لإعطاء الأشياء مجاناً ودائماً، ليس للإعارة أو البيع."},
         {type:"verb_table",title:"Adjective Endings: Nominative Case",groups:[
     {label:"After der/die/das (definite article): always -e",rows:[
-    {pronoun:"der",form:"-e",src:"der alte Mann (the old man)"},
-    {pronoun:"die",form:"-e",src:"die goldene Kette (the golden necklace)"},
-    {pronoun:"das",form:"-e",src:"das teure Parfüm (the expensive perfume)"},
-    {pronoun:"die (pl.)",form:"-en",src:"die frischen Brötchen (the fresh rolls)"}
+    {pronoun:"der",form:"-e",src:"الرجل العجوز"},
+    {pronoun:"die",form:"-e",src:"السلسلة الذهبية"},
+    {pronoun:"das",form:"-e",src:"العطر الغالي"},
+    {pronoun:"die (pl.)",form:"-en",src:"الخبز الطازج"}
 ]},
     {label:"After ein/eine/ein (indefinite article)",rows:[
-    {pronoun:"ein (masc.)",form:"-er",src:"ein alter Mann (an old man)"},
-    {pronoun:"eine (fem.)",form:"-e",src:"eine goldene Kette (a golden necklace)"},
-    {pronoun:"ein (neut.)",form:"-es",src:"ein teures Parfüm (an expensive perfume)"}
+    {pronoun:"ein (masc.)",form:"-er",src:"رجل عجوز"},
+    {pronoun:"eine (fem.)",form:"-e",src:"سلسلة ذهبية"},
+    {pronoun:"ein (neut.)",form:"-es",src:"عطر غالٍ"}
 ]},
     {label:"No article (strong endings)",rows:[
-    {pronoun:"masc.",form:"-er",src:"frischer Kaffee (fresh coffee)"},
-    {pronoun:"fem.",form:"-e",src:"gute Kosmetik (good cosmetics)"},
-    {pronoun:"neut.",form:"-es",src:"kaltes Wasser (cold water)"},
-    {pronoun:"plural",form:"-e",src:"frische Brötchen (fresh rolls)"}
+    {pronoun:"masc.",form:"-er",src:"قهوة طازجة"},
+    {pronoun:"fem.",form:"-e",src:"مستحضرات تجميل جيدة"},
+    {pronoun:"neut.",form:"-es",src:"ماء بارد"},
+    {pronoun:"plural",form:"-e",src:"خبز طازج"}
 ]}
 ],note:"بعد أدوات التعريف، تكون الصفات 'ضعيفة' وتنتهي دائماً تقريباً بـ -e (إلا الجمع: -en). بعد أدوات النكرة، الصفة تُظهر الجنس."},
         {type:"tip",title:"Temporal Prepositions: When Did It Happen?",text:"الألمانية تستخدم حروف جر محددة للتعبيرات الزمنية:\n\nvor (قبل، منذ) تأخذ حالة الجر:\n- 'Vor einer Stunde' = منذ ساعة\n- 'Vor dem Frühstück' = قبل الفطور\n\nnach (بعد) تأخذ حالة الجر:\n- 'Nach dem Essen' = بعد الوجبة\n- 'Nach Weihnachten' = بعد عيد الميلاد\n\nwährend (أثناء) تأخذ حالة المضاف إليه:\n- 'Während der Ferien' = أثناء العطلة\n\nbis (حتى) لا تحتاج أداة:\n- 'Bis morgen!' = حتى الغد!\n\nseit (منذ، للمواقف المستمرة) تأخذ حالة الجر:\n- 'Seit gestern' = منذ أمس\n- 'Seit zwei Wochen' = منذ أسبوعين\n\nab (من نقطة زمنية) تأخذ حالة الجر:\n- 'Ab morgen' = ابتداءً من الغد",deepDive:"'Vor' و'nach' هما الزوج الأكثر شيوعاً. فكّر فيهما كمتضادين على خط زمني: vor = إلى اليسار (أبكر)، nach = إلى اليمين (لاحقاً). 'Seit' تصف شيئاً بدأ في الماضي ويستمر الآن. 'Bis' تحدد أين ينتهي شيء."},
-        {type:"mc",q:"Opa Heinrich says 'Vor einer Stunde waren es zwölf.' What does 'vor einer Stunde' mean?",opts:["In one hour","For one hour","Before one hour","An hour ago"],ans:"An hour ago",hint:"'Vor' مع تعبير زمني تنظر إلى الوراء على خط الزمن."},
+        {type:"mc",q:"Opa Heinrich says 'Vor einer Stunde waren es zwölf.' ماذا تعني 'vor einer Stunde'؟",opts:["In one hour","For one hour","Before one hour","An hour ago"],ans:"An hour ago",hint:"'Vor' مع تعبير زمني تنظر إلى الوراء على خط الزمن."},
         {type:"fb",s:"{1} dem Frühstück habe ich noch zehn übrig.",a:["Nach"],opts:["Nach","Vor","Seit","Bis"],hint:"أي حرف جر يعني 'بعد' مع حدث ماضٍ؟",sSrc:"بعد الفطور لديّ عشرة."},
-        {type:"mc",q:"'Die goldene Kette ist schön.' Why does the adjective end in -e?",opts:[
+        {type:"mc",q:"'Die goldene Kette ist schön.' لماذا تنتهي الصفة بـ -e؟",opts:[
     "Because 'Kette' is feminine",
     "Because 'golden' always ends in -e",
     "Because the sentence is about beauty",
@@ -146,7 +146,7 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
 ],ans:"Because it follows 'die' (definite article)",hint:"بعد 'die' في حالة الرفع، النهاية على الوصف دائماً تقريباً نفسها."},
         {type:"fb",s:"Ein alt{1} Mann kommt durch die Menge.",a:["er"],opts:["er","e","es","en"],hint:"بعد 'ein' في حالة الرفع، أي نهاية تحتاجها الصفة لاسم مذكر؟",sSrc:"رجل عجوز يأتي عبر الحشد."},
         {type:"drag_fill",s:"Ich wünsche mir {1} Parfüm {2} Weihnachten.",blanks:{"1":"ein gutes","2":"vor"},pool:["ein gutes","eine gute","ein guter","vor","nach","seit"],hint:"اسم محايد بعد 'ein' يحتاج أي نهاية؟ وأي حرف جر يعني 'قبل'؟",sSrc:"أتمنى عطراً جميلاً قبل عيد الميلاد."},
-        {type:"mc",q:"'Seit letztem Jahr gibt es einen neuen Stand.' What does 'seit' tell you?",opts:["It happened once last year","It started last year and continues now","It will happen next year","It ended last year"],ans:"It started last year and continues now",hint:"حرف الجر هذا يصف شيئاً مستمراً من نقطة بداية في الماضي."},
+        {type:"mc",q:"'Seit letztem Jahr gibt es einen neuen Stand.' ماذا تخبرك 'seit'؟",opts:["It happened once last year","It started last year and continues now","It will happen next year","It ended last year"],ans:"It started last year and continues now",hint:"حرف الجر هذا يصف شيئاً مستمراً من نقطة بداية في الماضي."},
         {type:"teach",trg:"während",src:"بينما / أثناء",pos:"conj",gender:null,note:"استخدامان: أداة ربط (بينما) + جملة تابعة، حرف جر (أثناء) + مضاف إليه.",example:"A: Was machst du während der Ferien?\nB: Ich lese, während die Kinder spielen.\nA: Das klingt entspannend!\nB: Ja, während der Ferien brauche ich Ruhe.",exampleSrc:"أ: ماذا تفعل أثناء العطلة؟\nب: أقرأ بينما يلعب الأطفال.\nأ: يبدو ذلك مريحاً!\nب: نعم، أحتاج الهدوء أثناء العطلة.",funFact:"während من الكلمات الألمانية القليلة التي تعمل كأداة ربط وحرف جر. كأداة ربط تعني 'بينما'، كحرف جر تعني 'أثناء' وتأخذ حالة المضاف إليه."},
         {type:"fb",s:"{1} der Ferien fahre ich nach Spanien.",a:["Während"],opts:["Während","Seit","Vor","Ab"],hint:"أي حرف جر يعني 'أثناء' ويأخذ حالة المضاف إليه؟",sSrc:"أثناء العطلة سأسافر إلى إسبانيا."},
         {type:"drag_fill",s:"{1} Brötchen sind {2} heute Morgen.",blanks:{"1":"Die frischen","2":"von"},pool:["Die frischen","Das frische","Der frischer","von","vor","nach"],hint:"أداة تعريف + نهاية صفة جمع؟ و'من' هذا الصباح؟",sSrc:"الخبز الطازج من هذا الصباح."},
@@ -160,8 +160,8 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
 ]},
         {type:"story",speaker:"opa",mood:"nostalgic",trg:"Hier, frische Brötchen für alle! Seit fünfzig Jahren kaufe ich beim gleichen Bäcker. Vor dem Krieg war der Laden noch klein. Während der Ferien backt er sogar Stollen!",src:"تفضلوا، خبز طازج للجميع! منذ خمسين عاماً وأنا أشتري من نفس الخبّاز. قبل الحرب كان المحل لا يزال صغيراً. أثناء العطلة يخبز حتى كعكة شتولن!"},
         {type:"story",speaker:"verumius",mood:"touched",art:"de-ber-weihnachtsmarkt-broetchen",trg:"Verumius beißt in das Brötchen. Es ist frisch, weich und noch ein bisschen warm. Er sieht Heinrich an. Er sieht Hildi an. Er sagt nichts. Aber er lächelt.",src:"يعض فيروميوس الرغيف. إنه طازج، طري، ولا يزال دافئاً قليلاً. ينظر إلى هاينريش. ينظر إلى هيلدي. لا يقول شيئاً. لكنه يبتسم."},
-        {type:"mc",q:"Opa Heinrich says 'Seit fünfzig Jahren kaufe ich beim gleichen Bäcker.' How long has he been going to the same baker?",opts:["For five years","For fifteen years","Since his birthday","For fifty years"],ans:"For fifty years",hint:"'Fünfzig' هي الكلمة الألمانية لرقم بين ٤٩ و٥١."},
-        {type:"mc",q:"Was bedeutet 'der Flohmarkt'?",opts:["the perfume","the flea market","to give (as a gift)","the necklace / the chain"],ans:"the flea market",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"يقول الجد هاينريش 'Seit fünfzig Jahren kaufe ich beim gleichen Bäcker.' منذ متى يشتري من نفس الخبّاز؟",opts:["منذ خمس سنوات","منذ خمس عشرة سنة","منذ عيد ميلاده","منذ خمسين سنة"],ans:"منذ خمسين سنة",hint:"'Fünfzig' هي الكلمة الألمانية لرقم بين ٤٩ و٥١."},
+        {type:"mc",q:"ماذا تعني 'der Flohmarkt'؟",opts:["العطر","سوق البرغوث (المستعملات)","يُهدي","السلسلة / القلادة"],ans:"سوق البرغوث (المستعملات)",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Der rote Schal ───
     {id:"deu_r11l4",title:"Der rote Schal",icon:"📐",xp:20,board:true,steps:[
@@ -179,34 +179,34 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"teach",trg:"vergleichen",pos:"verb",gender:null,src:"يقارن",note:"ماضٍ شاذ، لكن المضارع منتظم: ich vergleiche, du vergleichst.",example:"A: Lass uns die zwei Schals vergleichen.\nB: Der rote ist weicher als der blaue.",exampleSrc:"أ: لنقارن بين الوشاحين.\nب: الأحمر أنعم من الأزرق.",funFact:"'vergleichen' تحتوي على 'gleich' (مساوٍ/متشابه). المقارنة حرفياً هي 'التحقق من التشابه.' 'Gleich' تعني أيضاً 'قريباً' في الكلام العادي: 'Ich komme gleich!'"},
         {type:"teach",trg:"wechseln",pos:"verb",gender:null,src:"يغيّر / يستبدل",note:"منتظم: ich wechsle, du wechselst. يُستخدم للنقود أو الملابس أو المواضيع.",example:"A: Kann ich den Schal wechseln?\nB: Natürlich, gegen welche Farbe?",exampleSrc:"أ: هل يمكنني استبدال الوشاح؟\nب: بالطبع، بأي لون؟",funFact:"'Wechselstube' هي كشك صرف عملات. 'Geld wechseln' = يصرف نقوداً. في سوق عيد الميلاد، قد تحتاج 'wechseln' أوراق كبيرة لعملات صغيرة."},
         {type:"teach",trg:"ansehen",pos:"verb",gender:null,src:"ينظر إلى",note:"فعل منفصل: ich sehe ... an, du siehst ... an. تغيير الجذع e ← ie.",example:"A: Sieh dir den Schal an!\nB: Oh, der ist wirklich schön!",exampleSrc:"أ: انظر إلى الوشاح!\nب: يا إلهي، إنه جميل حقاً!",funFact:"'ansehen' فعل منفصل: 'an' تقفز إلى نهاية الجملة. 'Ich sehe den Schal an.' لكن في الجملة التابعة تتحد مجدداً: 'weil ich den Schal ansehe.' تتريس الكلمات الألمانية!"},
-        {type:"mc",q:"Which verb means 'to wear' or 'to carry' in German?",opts:["passen","wechseln","beschreiben","tragen"],ans:"tragen",hint:"هذا الفعل الشاذ لديه تغيير جذع من a إلى ä في صيغتي du/er."},
+        {type:"mc",q:"أي فعل يعني 'يلبس' أو 'يحمل' بالألمانية؟",opts:["passen","wechseln","beschreiben","tragen"],ans:"tragen",hint:"هذا الفعل الشاذ لديه تغيير جذع من a إلى ä في صيغتي du/er."},
         {type:"tip",title:"Adjective Endings: The Big Picture",text:"الصفات الألمانية تغيّر نهاياتها بناءً على ثلاثة أشياء:\n\n١. الحالة: رفع، نصب، أم جر؟\n٢. الجنس: der، die، أم das؟\n٣. نوع الأداة: معرفة (der/die/das) أم نكرة (ein/eine/ein)؟\n\nأنت تعرف حالة الرفع من الدرس الثالث.\nالآن نضيف النصب (المفعول المباشر) والجر (المفعول غير المباشر).\n\nخبر جيد: هناك أنماط تبسّط كل شيء.",deepDive:"لماذا تفعل الألمانية هذا؟ لأن نهايات الصفات تحمل معلومات نحوية. في 'Ich sehe den roten Schal'، النهاية '-en' على 'roten' تؤكد أن هذا نصب مذكر. حتى لو فاتتك 'den'، نهاية الصفة تخبرك بالحالة. إنه نظام احتياطي مدمج في اللغة."},
         {type:"verb_table",title:"Adjective Declension: Accusative Case",groups:[
     {label:"With definite article (den/die/das)",rows:[
-    {pronoun:"Masculine",form:"den rot-en Schal",src:"the red scarf (-en)"},
-    {pronoun:"Feminine",form:"die rot-e Mütze",src:"the red hat (-e)"},
-    {pronoun:"Neuter",form:"das rot-e Kleid",src:"the red dress (-e)"}
+    {pronoun:"Masculine",form:"den rot-en Schal",src:"الوشاح الأحمر"},
+    {pronoun:"Feminine",form:"die rot-e Mütze",src:"القبعة الحمراء"},
+    {pronoun:"Neuter",form:"das rot-e Kleid",src:"الفستان الأحمر"}
 ]},
     {label:"With indefinite article (einen/eine/ein)",rows:[
-    {pronoun:"Masculine",form:"einen rot-en Schal",src:"a red scarf (-en)"},
-    {pronoun:"Feminine",form:"eine rot-e Mütze",src:"a red hat (-e)"},
-    {pronoun:"Neuter",form:"ein rot-es Kleid",src:"a red dress (-es)"}
+    {pronoun:"Masculine",form:"einen rot-en Schal",src:"وشاح أحمر"},
+    {pronoun:"Feminine",form:"eine rot-e Mütze",src:"قبعة حمراء"},
+    {pronoun:"Neuter",form:"ein rot-es Kleid",src:"فستان أحمر"}
 ]}
 ],note:"النصب المذكر يحصل دائماً على -en. المؤنث يبقى -e. المحايد: -e مع المعرفة، -es مع النكرة (لأن 'ein' ليس لها نهاية لتُظهر الجنس)."},
-        {type:"mc",q:"'Ich kaufe _____ warmen Schal.' Which article completes this accusative masculine phrase?",opts:["die","das","dem","den"],ans:"den",hint:"حالة النصب تغيّر فقط أداة التعريف المذكرة من 'der' إلى شيء آخر."},
+        {type:"mc",q:"'Ich kaufe _____ warmen Schal.' أي أداة تعريف تكمل هذه العبارة المذكرة في Akkusativ؟",opts:["die","das","dem","den"],ans:"den",hint:"حالة النصب تغيّر فقط أداة التعريف المذكرة من 'der' إلى شيء آخر."},
         {type:"fb",s:"Verumius trägt einen rot{1} Schal.",a:["en"],opts:["en","e","es","em"],hint:"بعد 'einen' (نصب مذكر غير معرف)، أي نهاية تأخذها الصفة؟",sSrc:"فيروميوس يرتدي وشاحاً أحمر."},
-        {type:"mc",q:"'Hildi sieht die schön___ Lampe an.' Which ending fits this accusative feminine phrase?",opts:["-en","-es","-e","-em"],ans:"-e",hint:"حالة النصب المؤنثة مع 'die' تحتفظ بنفس النهاية كحالة الرفع المؤنثة."},
+        {type:"mc",q:"'Hildi sieht die schön___ Lampe an.' أي نهاية تناسب هذه العبارة المؤنثة في Akkusativ؟",opts:["-en","-es","-e","-em"],ans:"-e",hint:"حالة النصب المؤنثة مع 'die' تحتفظ بنفس النهاية كحالة الرفع المؤنثة."},
         {type:"fb",s:"Ich möchte ein warm{1} Kleid kaufen.",a:["es"],opts:["es","e","en","em"],hint:"حالة النصب المحايدة مع 'ein' تحتاج نهاية تُظهر الجنس المحايد.",sSrc:"أودّ شراء فستان دافئ."},
         {type:"verb_table",title:"Adjective Declension: Dative Case",groups:[
     {label:"With definite article (dem/der/dem)",rows:[
-    {pronoun:"Masculine",form:"dem rot-en Schal",src:"the red scarf (-en)"},
-    {pronoun:"Feminine",form:"der rot-en Mütze",src:"the red hat (-en)"},
-    {pronoun:"Neuter",form:"dem rot-en Kleid",src:"the red dress (-en)"}
+    {pronoun:"Masculine",form:"dem rot-en Schal",src:"الوشاح الأحمر"},
+    {pronoun:"Feminine",form:"der rot-en Mütze",src:"القبعة الحمراء"},
+    {pronoun:"Neuter",form:"dem rot-en Kleid",src:"الفستان الأحمر"}
 ]},
     {label:"With indefinite article (einem/einer/einem)",rows:[
-    {pronoun:"Masculine",form:"einem rot-en Schal",src:"a red scarf (-en)"},
-    {pronoun:"Feminine",form:"einer rot-en Mütze",src:"a red hat (-en)"},
-    {pronoun:"Neuter",form:"einem rot-en Kleid",src:"a red dress (-en)"}
+    {pronoun:"Masculine",form:"einem rot-en Schal",src:"وشاح أحمر"},
+    {pronoun:"Feminine",form:"einer rot-en Mütze",src:"قبعة حمراء"},
+    {pronoun:"Neuter",form:"einem rot-en Kleid",src:"فستان أحمر"}
 ]}
 ],note:"حالة الجر هي الحالة السهلة للصفات: كل نهاية هي -en. دائماً. بدون استثناءات. مذكر، مؤنث، محايد، معرفة، نكرة: دائماً -en."},
         {type:"tip",title:"Dative Shortcut: Always -en!",text:"نهايات صفات حالة الجر هي الأبسط في الألمانية:\n\ndem kalten Wind = -en\nder warmen Suppe = -en\ndem alten Haus = -en\neinem neuen Freund = -en\n\nجميع الأجناس. جميع أنواع الأدوات. دائماً -en.\nهذه هي الحالة الوحيدة التي يمكنك تعلمها في خمس ثوانٍ.",deepDive:"لماذا دائماً -en؟ في حالة الجر، الأداة نفسها تُظهر الجنس بوضوح (dem = مذكر/محايد، der = مؤنث). الصفة لا تحتاج لحمل معلومات جنس إضافية، فترتاح إلى النهاية الافتراضية -en. عمل أقل للصفة عندما تقوم الأداة بالمهمة."},
@@ -220,50 +220,50 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
     "الجمع بين تصريف الصفات وأدوات الملكية"
 ]},
         {type:"teach",trg:"die Tasse",pos:"noun",src:"الفنجان",gender:"f",phonetic:"TA-suh",example:"A: Möchtest du eine Tasse Tee?\nB: Ja, gerne! Mit Zucker, bitte.\nA: Hier, eine warme Tasse für dich.",exampleSrc:"أ: هل تريد فنجان شاي؟\nب: نعم، من فضلك! مع سكر.\nأ: تفضل، فنجان دافئ لك.",note:"die Tasse، مؤنث. الجمع: die Tassen. تُستخدم للفناجين ذات المقابض.",funFact:"يشرب الألمان حوالي ١٦٤ لتراً من القهوة للفرد سنوياً. في سوق عيد الميلاد، يأتي النبيذ الساخن في فناجين قابلة للجمع يمكنك الاحتفاظ بها."},
-        {type:"mc",q:"'Mit einer warm___ Tasse Tee.' Which ending completes this dative phrase?",opts:["-e","-es","-er","-en"],ans:"-en",hint:"نهايات صفات الجر تتبع قاعدة واحدة عالمية بغض النظر عن الجنس أو نوع الأداة."},
+        {type:"mc",q:"'Mit einer warm___ Tasse Tee.' أي نهاية تكمل عبارة Dativ هذه؟",opts:["-e","-es","-er","-en"],ans:"-en",hint:"نهايات صفات الجر تتبع قاعدة واحدة عالمية بغض النظر عن الجنس أو نوع الأداة."},
         {type:"drag_fill",s:"Verumius gibt {1} Frau {2} Schal.",blanks:{"1":"der netten","2":"den roten"},pool:["der netten","den roten","die nette","das rote","dem netten"],hint:"'Der Frau' جر مؤنث. 'Den Schal' نصب مذكر. اختر صيغ الصفات المناسبة.",sSrc:"فيروميوس يعطي السيدة اللطيفة الوشاح الأحمر."},
         {type:"verb_table",title:"Possessive Articles: mein/dein/sein/ihr",groups:[
     {label:"Nominative",rows:[
-    {pronoun:"Masculine",form:"mein roter Schal",src:"my red scarf"},
-    {pronoun:"Feminine",form:"meine rote Mütze",src:"my red hat"},
-    {pronoun:"Neuter",form:"mein rotes Kleid",src:"my red dress"}
+    {pronoun:"Masculine",form:"mein roter Schal",src:"وشاحي الأحمر"},
+    {pronoun:"Feminine",form:"meine rote Mütze",src:"قبعتي الحمراء"},
+    {pronoun:"Neuter",form:"mein rotes Kleid",src:"فستاني الأحمر"}
 ]},
     {label:"Accusative",rows:[
-    {pronoun:"Masculine",form:"meinen roten Schal",src:"my red scarf"},
-    {pronoun:"Feminine",form:"meine rote Mütze",src:"my red hat"},
-    {pronoun:"Neuter",form:"mein rotes Kleid",src:"my red dress"}
+    {pronoun:"Masculine",form:"meinen roten Schal",src:"وشاحي الأحمر"},
+    {pronoun:"Feminine",form:"meine rote Mütze",src:"قبعتي الحمراء"},
+    {pronoun:"Neuter",form:"mein rotes Kleid",src:"فستاني الأحمر"}
 ]},
     {label:"Dative",rows:[
-    {pronoun:"Masculine",form:"meinem roten Schal",src:"my red scarf"},
-    {pronoun:"Feminine",form:"meiner roten Mütze",src:"my red hat"},
-    {pronoun:"Neuter",form:"meinem roten Kleid",src:"my red dress"}
+    {pronoun:"Masculine",form:"meinem roten Schal",src:"وشاحي الأحمر"},
+    {pronoun:"Feminine",form:"meiner roten Mütze",src:"قبعتي الحمراء"},
+    {pronoun:"Neuter",form:"meinem roten Kleid",src:"فستاني الأحمر"}
 ]}
 ],note:"أدوات الملكية (mein/dein/sein/ihr/unser/euer/ihr) تتبع نفس نمط ein/eine/ein. فقط استبدل 'ein' بـ 'mein' ونهايات الصفات تبقى متطابقة."},
         {type:"tip",title:"Possessives = ein-Words",text:"خبر رائع: mein, dein, sein, ihr, unser, euer, ihr و kein كلها تتبع نفس النمط تماماً مثل ein/eine/ein.\n\nإذا كنت تعرف 'einen roten Schal'، فأنت تعرف:\nmeinen roten Schal\ndeinen roten Schal\nseinen roten Schal\nihren roten Schal\n\nنمط واحد، ثماني كلمات. تعلّمه مرة، استخدمه في كل مكان.",deepDive:"تُسمى أدوات الملكية 'كلمات ein' لأنها تأخذ نفس نهايات 'ein.' كلمات أدوات التعريف (dieser, jeder, welcher) تُسمى 'كلمات der' وتتبع نهايات 'der/die/das'. معرفة أي مجموعة تنتمي إليها الكلمة يخبرك بجميع نهاياتها تلقائياً."},
         {type:"fb",s:"Hildi trägt {1} neuen Schal.",a:["ihren"],opts:["ihren","ihre","ihr","ihrem"],hint:"النصب المذكر مع أداة ملكية يتبع نفس نمط 'einen.'",sSrc:"هيلدي ترتدي وشاحها الجديد."},
-        {type:"mc",q:"'Ich gebe es meinem alten Freund.' What case is 'meinem alten' in?",opts:["Accusative","Nominative","Dative","Genitive"],ans:"Dative",hint:"'Meinem' بنهاية -em تشير إلى الحالة المستخدمة لإعطاء الأشياء لشخص ما."},
+        {type:"mc",q:"'Ich gebe es meinem alten Freund.' في أي حالة إعرابية 'meinem alten'؟",opts:["Accusative","Nominative","Dative","Genitive"],ans:"Dative",hint:"'Meinem' بنهاية -em تشير إلى الحالة المستخدمة لإعطاء الأشياء لشخص ما."},
         {type:"tip",title:"Konjunktiv II: Wishes and Polite Requests",text:"لتقول 'سأفعل...' بالألمانية، استخدم:\nwürde + مصدر (في النهاية)\n\nIch würde den Schal kaufen. = سأشتري الوشاح.\nWürdest du mir helfen? = هل ستساعدني؟\n\nأربعة أفعال شائعة لها صيغ Konjunktiv II خاصة بها:\nwäre (سيكون)، hätte (سيملك)،\nkönnte (يستطيع)، müsste (يجب عليه).",deepDive:"صيغة Konjunktiv II تأتي من صيغة الماضي البسيط (Präteritum) مع إضافة Umlaut. 'War' تصبح 'wäre'، 'hatte' تصبح 'hätte'، 'konnte' تصبح 'könnte.' لمعظم الأفعال، هذه الصيغة القديمة تبدو أثرية، لذا الألمانية الحديثة تستخدم 'würde + مصدر' بدلاً منها. لكن الأربعة الشائعة (wäre, hätte, könnte, müsste) تُستخدم يومياً."},
         {type:"verb_table",title:"Konjunktiv II: würde + Infinitive",groups:[
     {label:"würde (would)",rows:[
-    {pronoun:"ich",form:"würde",src:"I would"},
-    {pronoun:"du",form:"würdest",src:"you would"},
-    {pronoun:"er/sie/es",form:"würde",src:"he/she/it would"},
-    {pronoun:"wir",form:"würden",src:"we would"},
-    {pronoun:"ihr",form:"würdet",src:"you all would"},
-    {pronoun:"sie/Sie",form:"würden",src:"they/you (formal) would"}
+    {pronoun:"ich",form:"würde",src:"سأفعل (أنا)"},
+    {pronoun:"du",form:"würdest",src:"ستفعل (أنت)"},
+    {pronoun:"er/sie/es",form:"würde",src:"سيفعل / ستفعل"},
+    {pronoun:"wir",form:"würden",src:"سنفعل (نحن)"},
+    {pronoun:"ihr",form:"würdet",src:"ستفعلون (أنتم)"},
+    {pronoun:"sie/Sie",form:"würden",src:"سيفعلون / ستفعلون (حضرتك)"}
 ]},
     {label:"Common irregular forms",rows:[
-    {pronoun:"sein",form:"wäre",src:"would be"},
-    {pronoun:"haben",form:"hätte",src:"would have"},
-    {pronoun:"können",form:"könnte",src:"could"},
-    {pronoun:"müssen",form:"müsste",src:"would have to"}
+    {pronoun:"sein",form:"wäre",src:"سيكون"},
+    {pronoun:"haben",form:"hätte",src:"سيملك"},
+    {pronoun:"können",form:"könnte",src:"يمكن أن"},
+    {pronoun:"müssen",form:"müsste",src:"سيتوجب عليه"}
 ]}
 ],note:"استخدم würde + مصدر لمعظم الأفعال. استخدم wäre/hätte/könnte/müsste مباشرة (لا حاجة لـ würde). 'Ich würde kaufen' لكن 'Ich hätte gern...'"},
-        {type:"mc",q:"Hildi says 'Ich würde den grünen nehmen!' What does 'würde ... nehmen' mean?",opts:["must take","will take","would take","should take"],ans:"would take",hint:"هذا التركيب يعبّر عن رغبة افتراضية، ليس يقيناً أو التزاماً."},
+        {type:"mc",q:"Hildi says 'Ich würde den grünen nehmen!' ماذا تعني 'würde ... nehmen'؟",opts:["must take","will take","would take","should take"],ans:"would take",hint:"هذا التركيب يعبّر عن رغبة افتراضية، ليس يقيناً أو التزاماً."},
         {type:"fb",s:"Ich {1} gern einen Glühwein trinken.",a:["würde"],opts:["würde","wäre","hätte","könnte"],hint:"أي كلمة تعني 'سأفعل' وتتحد مع مصدر في النهاية؟",sSrc:"أودّ شرب نبيذ ساخن."},
-        {type:"mc",q:"'Das wäre sehr nett!' What does 'wäre' mean?",opts:["would have","could","would be","would have to"],ans:"would be",hint:"هذه صيغة Konjunktiv II الشاذة تأتي من 'sein' (يكون)."},
+        {type:"mc",q:"'Das wäre sehr nett!' ماذا تعني 'wäre'؟",opts:["would have","could","would be","would have to"],ans:"would be",hint:"هذه صيغة Konjunktiv II الشاذة تأتي من 'sein' (يكون)."},
         {type:"drag_fill",s:"Ich {1} gern {2} roten Schal für {3} Freundin kaufen.",blanks:{"1":"würde","2":"den","3":"meine"},pool:["würde","den","meine","wäre","dem","meiner"],hint:"عبّر عن رغبة (سأفعل)، ثم أداة نصب مذكرة، ثم أداة ملكية نصب مؤنثة.",sSrc:"أودّ شراء الوشاح الأحمر لصديقتي."},
-        {type:"mc",q:"'Wenn ich reich ___, ___ ich alles kaufen.' Which pair completes this?",opts:["würde ... wäre","wäre ... würde","hätte ... wäre","könnte ... hätte"],ans:"wäre ... würde",hint:"الفراغ الأول يحتاج Konjunktiv II لـ 'sein'، والثاني يحتاج 'would' مع مصدر."},
+        {type:"mc",q:"'Wenn ich reich ___, ___ ich alles kaufen.' أي زوج يكمل هذه الجملة؟",opts:["würde ... wäre","wäre ... würde","hätte ... wäre","könnte ... hätte"],ans:"wäre ... würde",hint:"الفراغ الأول يحتاج Konjunktiv II لـ 'sein'، والثاني يحتاج 'would' مع مصدر."},
         {type:"match",pairs:[
     {trg:"den roten Schal",src:"الوشاح الأحمر (مفعول به)"},
     {trg:"dem kalten Wind",src:"الريح الباردة (مجرور)"},
@@ -272,7 +272,7 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
     {trg:"würde kaufen",src:"سيشتري"},
     {trg:"wäre",src:"سيكون"}
 ]},
-        {type:"mc",q:"Which word expresses a polite wish in German?",opts:["hatte","wuerde + infinitive","ist","wird"],ans:"wuerde + infinitive",hint:"هذا التركيب يعني would + فعل. يعبّر عن رغبات افتراضية بأدب."},
+        {type:"mc",q:"أي كلمة تعبّر عن أمنية مهذبة في الألمانية؟",opts:["hatte","wuerde + infinitive","ist","wird"],ans:"wuerde + infinitive",hint:"هذا التركيب يعني would + فعل. يعبّر عن رغبات افتراضية بأدب."},
         {type:"story",speaker:"opa",mood:"wise",art:"de-xmas-market-scarves",trg:"Heinrich kauft den roten Schal. Verumius protestiert. Heinrich winkt ab. 'In meinem Alter gibt man. Das ist das Schönste.'",src:"يشتري هاينريش الوشاح الأحمر. يعترض فيروميوس. يلوّح هاينريش رافضاً. 'في عمري، تعطي. هذا أجمل شيء.'"}
       ]},
 // ─── L7: Wie ist das Wetter? ───
@@ -332,8 +332,8 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
     {trg:"fleißig",src:"مجتهد"},
     {trg:"einzeln",src:"فرد"}
 ]},
-        {type:"mc",q:"What does 'dunkel' mean?",opts:["colorful","dark","modern","early"],ans:"dark",hint:"عكس hell (مشرق). تُستخدم لأيام ديسمبر والألوان الداكنة."},
-        {type:"mc",q:"Which adjective describes a jacket that is too thin for cold weather?",opts:["bunt","fleißig","dünn","einzeln"],ans:"dünn",hint:"عكس dick (سميك). نسيج غير كافٍ لإبقائك دافئاً."},
+        {type:"mc",q:"ماذا تعني 'dunkel'؟",opts:["colorful","dark","modern","early"],ans:"dark",hint:"عكس hell (مشرق). تُستخدم لأيام ديسمبر والألوان الداكنة."},
+        {type:"mc",q:"أي صفة تصف سترة رقيقة جداً للطقس البارد؟",opts:["bunt","fleißig","dünn","einzeln"],ans:"dünn",hint:"عكس dick (سميك). نسيج غير كافٍ لإبقائك دافئاً."},
         {type:"fb",s:"Die Verkäufer auf dem Markt sind sehr {1}. Sie arbeiten von morgens bis abends.",a:["fleißig"],opts:["fleißig","bunt","eng","typisch"],hint:"يعملون بجد طوال اليوم. فضيلة ألمانية كلاسيكية.",sSrc:"الباعة في السوق مجتهدون جداً. يعملون من الصباح حتى المساء."},
         {type:"mc",q:"'Das ist typisch für einen deutschen Weihnachtsmarkt.' Was bedeutet 'typisch'?",opts:["selten","fremd","charakteristisch","langweilig"],ans:"charakteristisch",hint:"شيء مُمثّل ومتوقع لهذه الثقافة أو المكان."}
       ]},

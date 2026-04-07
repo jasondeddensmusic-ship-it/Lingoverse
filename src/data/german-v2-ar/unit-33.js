@@ -39,10 +39,10 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
     "geographisches Wissen über Heimatregionen und Orte"
 ],ans:"das Gefühl, beschützt und emotional sicher zu sein",hint:"أكثر من مجرد أمان جسدي. إنها حالة دفء عاطفي وحماية عميقة يصعب ترجمتها بكلمة واحدة."},
         {type:"fb",s:"Ich {1} mich nach meiner Kindheit.",a:["sehne"],opts:["sehne","finde","denke","gehe"],hint:"هذا الفعل يصف ألماً عميقاً تجاه شيء غائب. إنه انعكاسي ويقترن بحرف الجر 'nach'. فكّر في الاسم المشتقّ منه.",sSrc:"أشتاق إلى طفولتي."},
-        {type:"fb",s:"War deine Zeit in Berlin {1}? Absolut. Jeder Tag war besonders.",a:["unvergesslich"],opts:["melancholisch","nostalgisch","unvergesslich","vertraut"],hint:"فكّر في معنى الكلمة.",sSrc:"Was your time in Berlin unforgettable? Absolutely. Every day was special."},
-        {type:"mc",q:"Was bedeutet 'die Wurzel'?",opts:["to feel, to sense","root","feeling of shelter, emotional safety","homesickness"],ans:"root",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"War deine Zeit in Berlin {1}? Absolut. Jeder Tag war besonders.",a:["unvergesslich"],opts:["melancholisch","nostalgisch","unvergesslich","vertraut"],hint:"فكّر في معنى الكلمة.",sSrc:"هل كانت فترتك في برلين لا تُنسى؟ بالتأكيد. كل يوم كان مميزاً."},
+        {type:"mc",q:"Was bedeutet 'die Wurzel'?",opts:["يشعر، يستشعر","root","شعور بالأمان العاطفي","homesickness"],ans:"root",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to miss (someone/something)' auf Deutsch? {1}",a:["vermissen"],opts:["vermissen","die Kindheit","das Heimweh","die Verbundenheit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to miss (someone/something)' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'erinnern'?",opts:["a fresh start, a new beginning","melancholic","to remember","to miss (someone/something)"],ans:"to remember",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'erinnern'?",opts:["بداية جديدة","melancholic","يتذكر","to miss (someone/something)"],ans:"يتذكر",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L3: Zwischen hier und dort ───
     {id:"deu_r33l2",title:"Zwischen hier und dort",icon:"🌍",xp:15,board:true,steps:[
@@ -85,11 +85,11 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
         {type:"fb",s:"Seitdem ich in Berlin lebe, hat sich mein {1} verändert.",a:["Lebensgefühl"],opts:["Lebensgefühl","Fernweh","Abschied","Andenken"],hint:"الجودة العاطفية الكلية لوجودك. كيف تُحسّ بالحياة بشكل عام، لا في لحظة واحدة.",sSrc:"منذ أن بدأت الحياة في برلين، تغيّر إحساسي العام بالحياة."},
         {type:"mc",q:"Im Wort 'Lebensgefühl' verbindet das -s- zwischen 'Leben' und 'Gefühl'...",opts:["eine Genitivmarkierung","ein Fugenelement","eine Pluralendung","eine Rechtschreibregel"],ans:"ein Fugenelement",hint:"حرف الربط الصوتي في الكلمات المركّبة الألمانية. مثال: Leben-s-Gefühl."},
         {type:"story",speaker:"verumius",mood:"torn",art:"de-med-verumius-balcony-night",trg:"Jeder dieser Begriffe beschreibt ein Stück von mir. Heimweh, Fernweh, Einsamkeit, Verbundenheit. Ich trage sie alle gleichzeitig. Das ist kein Widerspruch. Das ist mein Leben.",src:"كل كلمة من هذه الكلمات تصف جزءاً مني. الحنين إلى الوطن، والشوق إلى الرحيل، والوحدة، والارتباط. أحملها جميعاً في آنٍ واحد. هذا ليس تناقضاً. هذه هي حياتي."},
-        {type:"mc",q:"Was bedeutet 'die Praegung'?",opts:["imprint, formative influence","atmosphere","surroundings, environment","nostalgia"],ans:"imprint, formative influence",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Bist du ein {1}er Mensch?",a:["bodenständig"],opts:["die Lebensphase","die Landschaft","bodenständig","praegend"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Are you a down-to-earth person?"},
-        {type:"mc",q:"Was bedeutet 'einheimisch'?",opts:["local, native","life phase, stage of life","wanderlust, longing for distant places","nostalgia"],ans:"local, native",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"War Berlin eine {1}e Erfahrung?",a:["praegend"],opts:["das Fernweh","die Nachbarschaft","die Nostalgie","praegend"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Was Berlin a formative experience?"},
-        {type:"mc",q:"Was bedeutet 'sesshaft'?",opts:["loneliness, solitude","wanderlust, longing for distant places","nostalgia","settled, sedentary"],ans:"settled, sedentary",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'die Praegung'?",opts:["imprint, formative influence","الأجواء","المحيط، البيئة","nostalgia"],ans:"imprint, formative influence",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Bist du ein {1}er Mensch?",a:["bodenständig"],opts:["die Lebensphase","die Landschaft","bodenständig","praegend"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل أنت شخص واقعي؟"},
+        {type:"mc",q:"Was bedeutet 'einheimisch'?",opts:["محلي","مرحلة الحياة","حنين للسفر والأماكن البعيدة","nostalgia"],ans:"محلي",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"War Berlin eine {1}e Erfahrung?",a:["praegend"],opts:["das Fernweh","die Nachbarschaft","die Nostalgie","praegend"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل كانت برلين تجربة مؤثرة؟"},
+        {type:"mc",q:"Was bedeutet 'sesshaft'?",opts:["loneliness, solitude","حنين للسفر والأماكن البعيدة","nostalgia","مستقر"],ans:"مستقر",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Nachdem ich weggegangen war ───
     {id:"deu_r33l3",title:"Nachdem ich weggegangen war",icon:"⏳",xp:15,board:true,steps:[
@@ -149,13 +149,13 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
 ],ans:"Weil das Leben vor dem Weggehen stattfand",hint:"فكّر في الترتيب الزمني: أي الحدثين وقع أولاً؟ الفعل الأسبق يحتاج إلى الزمن التام."},
         {type:"fb",s:"{1} ich nach Deutschland ging, war dieses Zimmer die ganze Welt.",a:["Bevor"],opts:["Bevor","Nachdem","Während","Seitdem"],hint:"الغرفة كانت العالم كله في وقت سابق. ثم جاء الرحيل. أي أداة ربط زمنية تضع جملتها قبل حدث الجملة الرئيسية؟",sSrc:"قبل أن أذهب إلى ألمانيا، كانت هذه الغرفة العالم كله."},
         {type:"story",speaker:"verumius",mood:"pensive",art:"de-med-verumius-night-sky",trg:"Seitdem ich zurück bin, fühle ich mich wie ein Gast im eigenen Haus. Die Sprache in meinem Kopf hat sich verschoben. Nachdem ich so lange weg war, bin ich ein anderer Mensch geworden. Und dieses Haus hat sich nicht mitverändert.",src:"منذ أن عدت، أشعر أنني ضيف في بيتي. اللغة في رأسي تبدّلت. بعد أن ابتعدت كل هذا الوقت، أصبحت شخصاً مختلفاً. وهذا البيت لم يتغير معي."},
-        {type:"fb",s:"Die {1} des Lebens macht jeden Moment kostbar.",a:["Vergaenglichkeit"],opts:["Zufriedenheit","Vorfreude","Vergaenglichkeit","Wehmut"],hint:"فكّر في معنى الكلمة.",sSrc:"The transience of life makes every moment precious."},
-        {type:"mc",q:"Was bedeutet 'der Zusammenhalt'?",opts:["contentment, satisfaction","wistfulness, bittersweet melancholy","search for meaning","cohesion, solidarity"],ans:"cohesion, solidarity",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Warum schaust du so {1}?",a:["wehmuetig"],opts:["wehmuetig","der Aufbruch","geborgen","die Vorfreude"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Why do you look so wistful?"},
-        {type:"mc",q:"Was bedeutet 'liebgewonnen'?",opts:["grown fond of","a move, relocation","wistfulness, bittersweet melancholy","search for meaning"],ans:"grown fond of",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ist deine Heimat {1}?",a:["unersetzlich"],opts:["aufbrechen","unersetzlich","der Aufbruch","zurückdenken"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is your homeland irreplaceable?"},
-        {type:"mc",q:"Was bedeutet 'zurückdenken'?",opts:["to think back, to reminisce","search for meaning","transience, impermanence","a move, relocation"],ans:"to think back, to reminisce",hint:"فكّر في what هذه الكلمة expresses in everyday conversation."},
-        {type:"fb",s:"Die {1} über die Zukunft quaelt ihn jede Nacht.",a:["Ungewissheit"],opts:["Ungewissheit","Nostalgie","Sehnsucht","Geborgenheit"],hint:"فكّر في معنى الكلمة.",sSrc:"The uncertainty about the future torments him every night."}
+        {type:"fb",s:"Die {1} des Lebens macht jeden Moment kostbar.",a:["Vergaenglichkeit"],opts:["Zufriedenheit","Vorfreude","Vergaenglichkeit","Wehmut"],hint:"فكّر في معنى الكلمة.",sSrc:"زوال الحياة يجعل كل لحظة ثمينة."},
+        {type:"mc",q:"Was bedeutet 'der Zusammenhalt'?",opts:["الرضا، القناعة","الحنين المرّ","البحث عن المعنى","التماسك، التضامن"],ans:"التماسك، التضامن",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Warum schaust du so {1}?",a:["wehmuetig"],opts:["wehmuetig","der Aufbruch","geborgen","die Vorfreude"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"لماذا تبدو حزيناً هكذا؟"},
+        {type:"mc",q:"Was bedeutet 'liebgewonnen'?",opts:["تعلّق بـ","الانتقال","الحنين المرّ","البحث عن المعنى"],ans:"تعلّق بـ",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ist deine Heimat {1}?",a:["unersetzlich"],opts:["aufbrechen","unersetzlich","der Aufbruch","zurückdenken"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل وطنك لا يُعوَّض؟"},
+        {type:"mc",q:"Was bedeutet 'zurückdenken'?",opts:["يسترجع الذكريات","البحث عن المعنى","الزوال، الفناء","الانتقال"],ans:"يسترجع الذكريات",hint:"فكّر في what هذه الكلمة expresses in everyday conversation."},
+        {type:"fb",s:"Die {1} über die Zukunft quaelt ihn jede Nacht.",a:["Ungewissheit"],opts:["Ungewissheit","Nostalgie","Sehnsucht","Geborgenheit"],hint:"فكّر في معنى الكلمة.",sSrc:"الشك حول المستقبل يؤرّقه كل ليلة."}
       ]},
 // ─── L7: Stolz auf, abhängig von ───
     {id:"deu_r33l4",title:"Stolz auf, abhängig von",icon:"🔗",xp:15,board:true,steps:[
@@ -218,9 +218,9 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
     {trg:"dankbar fuer",src:"ممتنّ لـ"}
 ]},
         {type:"story",speaker:"verumius",mood:"restless",art:"de-med-verumius-rooftop-night",trg:"Ich bin neugierig auf die Zukunft. Ich bin verbunden mit zwei Orten. Aber nur an einem fühle ich mich wirklich geborgen. Und der liegt 1.800 Kilometer noerdlich von hier.",src:"أنا فضولي بشأن المستقبل. أنا مرتبط بمكانين. لكنني لا أشعر بالأمان الحقيقي إلا في أحدهما. ويقع على بُعد ألف وثمانمائة كيلومتر شمال هذا المكان."},
-        {type:"mc",q:"Was bedeutet 'damals'?",opts:["envious of","back then, at that time","nowadays","enthusiastic about"],ans:"back then, at that time",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} war dieses Haus meine ganze Welt.",a:["einst"],opts:["überzeugt von","gewöhnt an","einst","damals"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Once this house was my whole world."},
-        {type:"mc",q:"Was bedeutet 'heutzutage'?",opts:["nowadays","envious of","enthusiastic about","curious about"],ans:"nowadays",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'damals'?",opts:["حاسد لـ","في ذلك الوقت، آنذاك","nowadays","متحمس لـ"],ans:"في ذلك الوقت، آنذاك",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} war dieses Haus meine ganze Welt.",a:["einst"],opts:["überzeugt von","gewöhnt an","einst","damals"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كان هذا البيت عالمي بأكمله ذات يوم."},
+        {type:"mc",q:"Was bedeutet 'heutzutage'?",opts:["nowadays","حاسد لـ","متحمس لـ","فضولي حول"],ans:"nowadays",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L9: Die Angst vor, die Sehnsucht nach ───
     {id:"deu_r33l5",title:"Die Angst vor, die Sehnsucht nach",icon:"⚓",xp:15,board:true,steps:[
@@ -276,10 +276,10 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
     {trg:"die Erinnerung an",src:"ذكرى عن"}
 ]},
         {type:"story",speaker:"narrator",mood:"decisive",art:"de-med-verumius-phone",trg:"Er tippt auf sein Handy. Berlin. Morgen früh. Buchen. Die Bestätigung kommt sofort. Flug gebucht. Er atmet aus. Zum ersten Mal seit Tagen fühlt sich etwas richtig an.",src:"ينقر على هاتفه. برلين. صباح الغد. يحجز. يأتي التأكيد فوراً. رحلة محجوزة. يزفر. للمرة الأولى منذ أيام، يشعر بأن شيئاً ما صحيح."},
-        {type:"mc",q:"Was bedeutet 'das Interesse an'?",opts:["interest in","future, forthcoming","someday, at some point","fear of"],ans:"interest in",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1}. Vielleicht im Sommer.",a:["irgendwann"],opts:["die Freude \\u00fcber","irgendwann","die Erinnerung an","der Stolz auf"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Someday. Maybe in summer."},
-        {type:"mc",q:"Was bedeutet 'von jeher'?",opts:["pride in","wish for","trust in","from time immemorial, always"],ans:"from time immemorial, always",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Er verlor nie die {1} auf ein besseres Leben.",a:["Hoffnung"],opts:["Hoffnung","Angst","Sehnsucht","Erinnerung"],hint:"فكّر في معنى الكلمة.",sSrc:"He never lost the hope for a better life."}
+        {type:"mc",q:"Was bedeutet 'das Interesse an'?",opts:["الاهتمام بـ","مستقبلي، قادم","ذات يوم","الخوف من"],ans:"الاهتمام بـ",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1}. Vielleicht im Sommer.",a:["irgendwann"],opts:["die Freude \\u00fcber","irgendwann","die Erinnerung an","der Stolz auf"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"ذات يوم. ربما في الصيف."},
+        {type:"mc",q:"Was bedeutet 'von jeher'?",opts:["الفخر بـ","الأمنية بـ","الثقة في","منذ الأزل"],ans:"منذ الأزل",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Er verlor nie die {1} auf ein besseres Leben.",a:["Hoffnung"],opts:["Hoffnung","Angst","Sehnsucht","Erinnerung"],hint:"فكّر في معنى الكلمة.",sSrc:"لم يفقد أبداً الأمل بحياة أفضل."}
       ]},
 // ─── L11: Heimat ist kein Ort ───
     {id:"deu_r33l6",title:"Heimat ist kein Ort",icon:"🏠",xp:15,board:true,steps:[
@@ -336,9 +336,9 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
     {trg:"verwurzelt",src:"متجذّر"}
 ]},
         {type:"story",speaker:"verumius",mood:"grateful",art:"de-ber-apartment-evening",trg:"Ich halte Hildis Zettel in der Hand und lese ihn noch einmal. Ihre Pflanzen haben Sie vermisst. Nicht ich habe die Pflanzen vermisst. Die Pflanzen haben mich vermisst. Hildi weiß genau, was sie schreibt.",src:"أمسك بورقة هيلدي في يدي وأقرأها مرة أخرى. نباتاتك اشتاقت إليك. ليس: اشتقت إلى النباتات. النباتات اشتاقت إليّ. هيلدي تعرف تماماً ما تكتبه."},
-        {type:"mc",q:"Was bedeutet 'ortsbezogen'?",opts:["motherland","to be home to, to house","refuge","place-related, local"],ans:"place-related, local",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Es dauert, sich an einem neuen Ort zu {1}.",a:["verwurzeln"],opts:["ruheliebend","das Sicherheitsgef\\u00fchl","verwurzeln","die Seele"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"It takes time to take root in a new place."},
-        {type:"fb",s:"Sie hat ein sonniges {1}. Nichts bringt sie aus der Ruhe.",a:["Gemüt"],opts:["Gemüt","Gewissen","Gefühl","Gedanke"],hint:"فكّر في معنى الكلمة.",sSrc:"She has a sunny temperament. Nothing upsets her."}
+        {type:"mc",q:"Was bedeutet 'ortsbezogen'?",opts:["motherland","يحتضن، يأوي","refuge","محلي، متعلق بالمكان"],ans:"محلي، متعلق بالمكان",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Es dauert, sich an einem neuen Ort zu {1}.",a:["verwurzeln"],opts:["ruheliebend","das Sicherheitsgef\\u00fchl","verwurzeln","die Seele"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"يحتاج الأمر وقتاً حتى تترسّخ في مكان جديد."},
+        {type:"fb",s:"Sie hat ein sonniges {1}. Nichts bringt sie aus der Ruhe.",a:["Gemüt"],opts:["Gemüt","Gewissen","Gefühl","Gedanke"],hint:"فكّر في معنى الكلمة.",sSrc:"لديها طبيعة مُشرقة. لا شيء يُزعجها."}
       ]},
 // ─── L13: Jedes Wort eine Erinnerung ───
     {id:"deu_r33l7",title:"Jedes Wort eine Erinnerung",icon:"📝",xp:15,board:true,steps:[
@@ -402,8 +402,8 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
     "(particle: reassures/concedes)",
     "(particle: contradicts/insists)"
 ],ans:"(particle: reassures/concedes)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Du kannst {1} bleiben.",a:["ruhig"],opts:["denn","mal","ruhig","das Versprechen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"You can go ahead and stay."},
-        {type:"fb",s:"Die ganze {1} kommt zu Weihnachten zusammen.",a:["Verwandtschaft"],opts:["Verwandtschaft","Nachbarschaft","Ortskenntnis","Geborgenheit"],hint:"فكّر في معنى الكلمة.",sSrc:"The whole extended family comes together at Christmas."}
+        {type:"fb",s:"Du kannst {1} bleiben.",a:["ruhig"],opts:["denn","mal","ruhig","das Versprechen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"يمكنك البقاء. تفضّل."},
+        {type:"fb",s:"Die ganze {1} kommt zu Weihnachten zusammen.",a:["Verwandtschaft"],opts:["Verwandtschaft","Nachbarschaft","Ortskenntnis","Geborgenheit"],hint:"فكّر في معنى الكلمة.",sSrc:"تجتمع العائلة الممتدة بأكملها في عيد الميلاد."}
       ]},
 // ─── L15: Willkommen zurück ───
     {id:"deu_r33l8",title:"Willkommen zurück",icon:"🌿",xp:15,board:true,steps:[
@@ -448,11 +448,11 @@ const UNIT_33_AR = {n:33,lang:"de",srcLang:"ar",track:"v2",title:"Heimat",sub:"W
 ]},
         {type:"story",speaker:"verumius",mood:"serene",art:"de-ber-apartment-balcony",trg:"Ich stehe auf meinem Balkon in Kreuzberg. Unter mir die Stadt, die mich aufgenommen hat. In der Ferne der Fernsehturm. Ich denke auf Deutsch. Ich träume auf Deutsch. Und wenn mich jemand fragt, woher ich komme, sage ich: Ich lebe in Berlin.",src:"أقف على شرفتي في كروتسبرغ. تحتي المدينة التي احتضنتني. في البعيد برج التلفزيون. أُفكّر بالألمانية. أحلم بالألمانية. وحين يسألني أحد من أين أنا، أقول: أنا أعيش في برلين."},
         {type:"story",speaker:"narrator",mood:"closing",art:"de-ber-skyline-dusk",trg:"Die Sonne geht unter über Berlin. Irgendwo in Prenzlauer Berg macht Hildi Tee. Irgendwo in Neukoelln stimmt Lukas seine Gitarre. Und in einer kleinen Wohnung in Kreuzberg giesst Verumius seine Pflanzen. Er ist zu Hause.",src:"تغرب الشمس فوق برلين. في مكان ما في برنتسلاور بيرغ، تُعدّ هيلدي الشاي. في مكان ما في نويكولن، يُدوزن لوكاس قيثارته. وفي شقة صغيرة في كروتسبرغ، يسقي فيروميوس نباتاته. هو في وطنه."},
-        {type:"fb",s:"Familien müssen {1}, besonders in schweren Zeiten.",a:["zusammenhalten"],opts:["zurücklassen","nachtrauern","zusammenhalten","fortziehen"],hint:"فكّر في معنى الكلمة.",sSrc:"Families must stick together, especially in difficult times."},
-        {type:"mc",q:"Was bedeutet 'entwurzeln'?",opts:["to mourn (something past)","to say goodbye","to uproot","anyway, in any case"],ans:"to uproot",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Familien müssen {1}, besonders in schweren Zeiten.",a:["zusammenhalten"],opts:["zurücklassen","nachtrauern","zusammenhalten","fortziehen"],hint:"فكّر في معنى الكلمة.",sSrc:"يجب أن تتماسك العائلات، خاصة في الأوقات الصعبة."},
+        {type:"mc",q:"Was bedeutet 'entwurzeln'?",opts:["يحزن على (شيء مضى)","يودّع","يقتلع من الجذور","على أي حال"],ans:"يقتلع من الجذور",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to care for, to cultivate' auf Deutsch? {1}",a:["pflegen"],opts:["nun mal","etwa","zur\\u00fcck","pflegen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to care for, to cultivate' بالألمانية؟"},
-        {type:"fb",s:"Diese Buecher {1} zur Pflichtlektüre an der Universitaet.",a:["gehören"],opts:["gehören","pflegen","prägen","kehren"],hint:"فكّر في معنى الكلمة.",sSrc:"These books belong to the required reading at the university."},
-        {type:"fb",s:"Die Erfahrungen im Ausland haben ihn stark {1}.",a:["geprägt"],opts:["geprägt","entwurzelt","verwurzelt","gepflegt"],hint:"فكّر في معنى الكلمة.",sSrc:"The experiences abroad shaped him profoundly."}
+        {type:"fb",s:"Diese Buecher {1} zur Pflichtlektüre an der Universitaet.",a:["gehören"],opts:["gehören","pflegen","prägen","kehren"],hint:"فكّر في معنى الكلمة.",sSrc:"هذه الكتب ضمن القراءات المطلوبة في الجامعة."},
+        {type:"fb",s:"Die Erfahrungen im Ausland haben ihn stark {1}.",a:["geprägt"],opts:["geprägt","entwurzelt","verwurzelt","gepflegt"],hint:"فكّر في معنى الكلمة.",sSrc:"التجارب في الخارج أثّرت فيه بعمق."}
       ]}
   ]};
 

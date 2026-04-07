@@ -80,9 +80,9 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
         {type:"teach",trg:"die Marille",src:"المشمش (نمساوي)",pos:"noun",gender:"f",note:"كلمة نمساوية لـ Aprikose. من الإيطالية amarella.\nMarillenknödel = كنيدل المشمش، كلاسيكية نمساوية.",example:"A: Was ist eine Marille?\nB: Das ist die österreichische Aprikose.\nA: Sind Marillen süß?\nB: Ja, sehr süß und fruchtig.",exampleSrc:"A: ما هي Marille؟\nB: هذا هو المشمش النمساوي.\nA: هل Marillen حلوة؟\nB: نعم، حلوة جداً وفاكهية.",funFact:"Marille تأتي من الإيطالية amarella (المرّة الصغيرة). Marillenknödel واحدة من أحب الحلويات النمساوية. منطقة Wachau مشهورة ببساتين المشمش."},
         {type:"mc",q:"In Österreich heißt 'Aprikose' anders. Wie sagt man dort?",opts:["Frucht","Pflaume","Marille","Zwiebel"],ans:"Marille",hint:"هذه هي الكلمة النمساوية لنفس الفاكهة. تأتي من الإيطالية 'amarella'."},
         {type:"fb",s:"Zum Frühstück esse ich gerne frisches {1} vom Bäcker.",a:["Gebäck"],opts:["Gebäck","Picknick","Mehl","Fett"],hint:"الاسم الجماعي لكل المخبوزات، مع بادئة Ge-.",sSrc:"على الإفطار أحب أكل معجنات طازجة من الخباز."},
-        {type:"fb",s:"Schneid bitte die {1}! Aber Vorsicht, du wirst weinen.",a:["Zwiebeln"],opts:["Zwiebeln","Pflaumen","Aprikosen","Früchte"],hint:"فكّر في معنى الكلمة.",sSrc:"Please cut the onions! But careful, you will cry."},
+        {type:"fb",s:"Schneid bitte die {1}! Aber Vorsicht, du wirst weinen.",a:["Zwiebeln"],opts:["Zwiebeln","Pflaumen","Aprikosen","Früchte"],hint:"فكّر في معنى الكلمة.",sSrc:"قطّع البصل من فضلك! لكن انتبه، ستبكي."},
         {type:"mc",q:"Was bedeutet 'die Pflaume'?",opts:["the plum","the bowl","the fat, the grease","the can, the tin"],ans:"the plum",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Was ist da {1}?",a:["drin"],opts:["die Frucht","die Sch\\u00fcssel","die Dose","drin"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"What is in there?"}
+        {type:"fb",s:"Was ist da {1}?",a:["drin"],opts:["die Frucht","die Sch\\u00fcssel","die Dose","drin"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"ماذا يوجد هناك؟"}
       ]},
 // ─── L5: Die Spargel-Panik ───
     {id:"deu_r18l3",title:"Die Spargel-Panik",icon:"🥦",xp:15,board:true,steps:[
@@ -133,13 +133,13 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
 ]},
         {type:"mc",q:"Ergänze: '_____ ich gestern im Biergarten war, habe ich Spargel bestellt.'",opts:["Ob","Als","Wenn","Weil"],ans:"Als",hint:"الأمس لحظة واحدة محددة في الماضي. ما الكلمة التي تعني 'عندما' للأحداث التي وقعت مرة واحدة؟"},
         {type:"fb",s:"{1} die Spargelzeit endet, sind die Deutschen immer traurig.",a:["Wenn"],opts:["Wenn","Als","Ob","Weil"],hint:"موسم الهليون ينتهي كل عام. هذا حدث متكرر.",sSrc:"عندما ينتهي موسم الهليون، يحزن الألمان دائمًا."},
-        {type:"fb",s:"'Mindestens {1} bis...' steht auf jeder deutschen Lebensmittelverpackung.",a:["haltbar"],opts:["haltbar","reif","roh","gar"],hint:"فكّر في معنى الكلمة.",sSrc:"'Best before...' is printed on every German food package."},
+        {type:"fb",s:"'Mindestens {1} bis...' steht auf jeder deutschen Lebensmittelverpackung.",a:["haltbar"],opts:["haltbar","reif","roh","gar"],hint:"فكّر في معنى الكلمة.",sSrc:"عبارة 'صالح حتى...' مطبوعة على كل عبوة غذائية ألمانية."},
         {type:"mc",q:"Was bedeutet 'der Backofen'?",opts:["the special offer","the oven","vegetarian","to prepare (food)"],ans:"the oven",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'the foodstuff' auf Deutsch? {1}",a:["das Nahrungsmittel"],opts:["das Nahrungsmittel","haltbar","das Vitamin","reif"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the foodstuff' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'das Vitamin'?",opts:["the nutrition, the diet","the receipt","the discount","the vitamin"],ans:"the vitamin",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to prepare (food)' auf Deutsch? {1}",a:["zubereiten"],opts:["die Schlange","die Ern\\u00e4hrung","vegetarisch","zubereiten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to prepare (food)' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'mischen'?",opts:["to mix","the foodstuff","the discount","the nutrition, the diet"],ans:"to mix",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wer {1} heute ab? Die Teller stehen noch in der Küche.",a:"spült",opts:["spült","mischt","kocht","schneidet"],hint:"فكّر في معنى الكلمة.",sSrc:"Who does the dishes today? The plates are still in the kitchen."}
+        {type:"fb",s:"Wer {1} heute ab? Die Teller stehen noch in der Küche.",a:"spült",opts:["spült","mischt","kocht","schneidet"],hint:"فكّر في معنى الكلمة.",sSrc:"مَن يغسل الصحون اليوم؟ الأطباق ما زالت في المطبخ."}
       ]},
 // ─── L7: Worauf freust du dich? ───
     {id:"deu_r18l4",title:"Worauf freust du dich?",icon:"💡",xp:15,board:true,steps:[
