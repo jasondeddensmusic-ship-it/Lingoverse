@@ -52,11 +52,11 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
         {type:"story",speaker:"narrator",mood:"wry",art:"de-fub-dahlem-building",trg:"Verumius findet den Hörsaal. Zehn Minuten zu spät, aber niemand schaut auf. Akademisches Viertel. Er setzt sich in die letzte Reihe und atmet aus. Die Universität hat ihn noch nicht ausgespuckt. Tag eins, Punkt eins: überlebt.",src:"يجد فيروميوس قاعة المحاضرات. متأخر عشر دقائق، لكن أحداً لا يرفع رأسه. الربع الأكاديمي. يجلس في الصف الأخير ويتنفس الصعداء. الجامعة لم تطرده بعد. اليوم الأول، البند الأول: نجا."},
         {type:"fb",s:"Die {1} ist eine Abteilung der Universitaet, zum Beispiel die Philosophische.",a:["Fakultaet"],opts:["Fakultaet","Mensa","Vorlesung","Einschreibung"],hint:"تقسيم مؤسسي للجامعة. كلية الآداب مثال عليها.",sSrc:"الكلية هي قسم في الجامعة، مثل كلية الآداب."},
         {type:"fb",s:"An der Universitaet {1} man ein Fach wie Linguistik oder Medizin.",a:["studiert"],opts:["studiert","lernt","forscht","immatrikuliert"],hint:"فعل يعني الالتحاق بدرجة جامعية، وليس مجرد التعلم.",sSrc:"في الجامعة يدرس المرء مادة كاللغويات أو الطب."},
-        {type:"mc",q:"Was bedeutet 'die Immatrikulation'?",opts:["فيما يتعلق بـ، بخصوص","بواسطة، على أساس","الدراسة (في الجامعة)","التسجيل الرسمي"],ans:"التسجيل الرسمي",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to formally enroll' auf Deutsch? {1}",a:["immatrikulieren"],opts:["die Immatrikulation","immatrikulieren","die Fakult\\u00e4t","die Einschreibung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'التسجيل الرسمي' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'insbesondere'?",opts:["بشكل خاص، ولا سيما","الجامعة","المحاضِرة","من حيث المبدأ، أساساً"],ans:"بشكل خاص، ولا سيما",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"mc",q:"Was bedeutet 'die Immatrikulation'?",opts:["فيما يتعلق بـ، بخصوص","بواسطة، على أساس","الدراسة (في الجامعة)","التسجيل الرسمي"],ans:"التسجيل الرسمي",hint:"كلمة لاتينية الأصل. العملية الإدارية الأولى عند دخول الجامعة."},
+        {type:"fb",s:"Wie sagt man 'to formally enroll' auf Deutsch? {1}",a:["immatrikulieren"],opts:["die Immatrikulation","immatrikulieren","die Fakult\\u00e4t","die Einschreibung"],hint:"فعل بلاحقة '-ieren'. الجذر مشترك مع لغات أوروبية أخرى.",sSrc:"كيف تقول 'التسجيل الرسمي' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'insbesondere'?",opts:["بشكل خاص، ولا سيما","الجامعة","المحاضِرة","من حيث المبدأ، أساساً"],ans:"بشكل خاص، ولا سيما",hint:"ظرف يعني التخصيص والتحديد. مرادف لـ 'besonders' في سياق رسمي."},
         {type:"fb",s:"{1} von Daten und Quellen.",a:["anhand"],opts:["immatrikulieren","anhand","studieren","grunds\\u00e4tzlich"],hint:"حرف جر أكاديمي يعني 'استناداً إلى'. يتبعه المضاف إليه.",sSrc:"بواسطة البيانات والمصادر."},
-        {type:"mc",q:"Was bedeutet 'hinsichtlich'?",opts:["المحاضِر","فيما يتعلق بـ، بخصوص","الكلية، القسم","بواسطة، على أساس"],ans:"فيما يتعلق بـ، بخصوص",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'hinsichtlich'?",opts:["المحاضِر","فيما يتعلق بـ، بخصوص","الكلية، القسم","بواسطة، على أساس"],ans:"فيما يتعلق بـ، بخصوص",hint:"حرف جر رسمي يتبعه المضاف إليه (Genitiv). يُستخدم في النصوص الأكاديمية."}
       ]},
 // ─── L3: Die Sprache der Wissenschaft ───
     {id:"deu_r25l2",title:"Die Sprache der Wissenschaft",icon:"🔬",xp:15,board:true,steps:[
@@ -169,17 +169,17 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
 ],ans:"Eine hypothetische Vergangenheit: etwas, das nicht passiert ist",hint:"'hätte' + Partizip II يدل على شيء كان يمكن أن يحدث لكنه لم يحدث."},
         {type:"fb",s:"Verumius denkt: '{1} ich doch vorher den Text gelesen!'",a:["Hätte"],opts:["Hätte","Hatte","Habe","Wäre"],hint:"أسف على الماضي: 'ليتني كنت...' أي فعل مساعد لـ Konjunktiv II Vergangenheit تأخذه الأفعال التي تستخدم haben؟",sSrc:"يفكر فيروميوس: 'ليتني قرأت النص مسبقاً!'"},
         {type:"story",speaker:"verumius",mood:"overwhelmed",art:"de-fub-hoersaal-exit",trg:"Neunzig Minuten. Sechzehn Seiten Notizen, davon acht unleserlich. Der Professor hat kein einziges Mal auf die Folien geschaut. Er hat sie auswendig vorgetragen. Ich bin hier richtig.",src:"تسعون دقيقة. ست عشرة صفحة من الملاحظات، ثمانية منها غير مقروءة. لم ينظر الأستاذ إلى الشرائح مرة واحدة. ألقاها من الذاكرة. أنا في المكان الصحيح."},
-        {type:"fb",s:"Um eine These zu pruefen, muss man sie kritisch {1}.",a:["reflektieren"],opts:["reflektieren","argumentieren","folgern","eroertern"],hint:"فكّر في معنى الكلمة.",sSrc:"لفحص أطروحة ما، يجب التأمل فيها بشكل نقدي."},
-        {type:"mc",q:"Was bedeutet 'abstrakt'?",opts:["to discuss, to examine thoroughly","الارتباط، السياق","منطقي","مجرد، تجريدي"],ans:"مجرد، تجريدي",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ist dieser Artikel {1}?",a:["relevant"],opts:["die Entwicklung","relevant","reflektieren","wesentlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل هذا المقال ذو صلة؟"},
+        {type:"fb",s:"Um eine These zu pruefen, muss man sie kritisch {1}.",a:["reflektieren"],opts:["reflektieren","argumentieren","folgern","eroertern"],hint:"فعل من اللاتينية reflectere. التأمل العميق في فكرة ما بشكل نقدي.",sSrc:"لفحص أطروحة ما، يجب التأمل فيها بشكل نقدي."},
+        {type:"mc",q:"Was bedeutet 'abstrakt'?",opts:["to discuss, to examine thoroughly","الارتباط، السياق","منطقي","مجرد، تجريدي"],ans:"مجرد، تجريدي",hint:"من اللاتينية abstractus. عكس 'konkret'. يصف الأفكار غير المادية."},
+        {type:"fb",s:"Ist dieser Artikel {1}?",a:["relevant"],opts:["die Entwicklung","relevant","reflektieren","wesentlich"],hint:"صفة من اللاتينية. تصف شيئاً ذا صلة مباشرة بالموضوع المطروح.",sSrc:"هل هذا المقال ذو صلة؟"},
         {type:"mc",q:"Was bedeutet 'sachlich'?",opts:[
     "المعنى، الأهمية",
     "يبرر، يعطي أسباباً",
     "موضوعي، واقعي",
     "كان سيكون (Konjunktiv II لـ haben)"
-],ans:"موضوعي، واقعي",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Gibt es einen {1}en Unterschied?",a:["wesentlich"],opts:["er\\u00f6rtern","folgern","begr\\u00fcnden","wesentlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل يوجد فرق جوهري؟"},
-        {type:"mc",q:"Was bedeutet 'folglich'?",opts:["بالتالي، وبناءً على ذلك","يحتج أكاديمياً","يتأمل","التطور"],ans:"بالتالي، وبناءً على ذلك",hint:"فكّر في معنى هذه الكلمة في السياق."}
+],ans:"موضوعي، واقعي",hint:"من 'Sache' (الشيء/الموضوع). يصف الحديث المبني على الحقائق لا العواطف."},
+        {type:"fb",s:"Gibt es einen {1}en Unterschied?",a:["wesentlich"],opts:["er\\u00f6rtern","folgern","begr\\u00fcnden","wesentlich"],hint:"صفة تصف الأهمية الجوهرية. من 'Wesen' (جوهر، طبيعة).",sSrc:"هل يوجد فرق جوهري؟"},
+        {type:"mc",q:"Was bedeutet 'folglich'?",opts:["بالتالي، وبناءً على ذلك","يحتج أكاديمياً","يتأمل","التطور"],ans:"بالتالي، وبناءً على ذلك",hint:"ظرف يربط النتيجة بالسبب. مرادف لـ 'deshalb' في السياق الأكاديمي."}
       ]},
 // ─── L6: Nominalisierung und Verbalisierung ───
     {id:"deu_r25l4",title:"Nominalisierung und Verbalisierung",icon:"🔄",xp:15,board:true,steps:[
@@ -233,11 +233,11 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
     "gedankenlos und oberflaechlich",
     "schnell und entscheidungsfreudig",
     "sorgfaeltig und reflektiert denkend"
-],ans:"sorgfaeltig und reflektiert denkend",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"Eine gute Argumentation muss {1} sein, damit andere sie Schritt fuer Schritt nachvollziehen koennen.",a:["nachvollziehbar"],opts:["nachvollziehbar","praezise","methodisch","kritisch"],hint:"فكّر في معنى الكلمة.",sSrc:"يجب أن تكون الحجة الجيدة مفهومة حتى يتمكن الآخرون من تتبعها خطوة بخطوة."},
-        {type:"mc",q:"Was bedeutet 'herausfinden'?",opts:["يكتشف، يتوصل إلى","يحلل ويقيّم (البيانات)","القدرة، المهارة","مفهوم، قابل للتتبع"],ans:"يكتشف، يتوصل إلى",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Der Professor muss die Ergebnisse noch {1}.",a:["überprüfen"],opts:["überprüfen","bewerten","herausfinden","auswerten"],hint:"فكّر في معنى الكلمة.",sSrc:"لا يزال على الأستاذ التحقق من النتائج."},
-        {type:"mc",q:"Die Anweisungen müssen präzise formuliert sein. Was bedeutet 'präzise'?",opts:["عام","مبهم","دقيق، محدد","بسيط"],ans:"دقيق، محدد",hint:"فكّر في معنى الكلمة."}
+],ans:"sorgfaeltig und reflektiert denkend",hint:"في الأكاديمية الألمانية، هذه الكلمة إيجابية: تعني فحص الأفكار بعمق وتأنٍّ."},
+        {type:"fb",s:"Eine gute Argumentation muss {1} sein, damit andere sie Schritt fuer Schritt nachvollziehen koennen.",a:["nachvollziehbar"],opts:["nachvollziehbar","praezise","methodisch","kritisch"],hint:"صفة مركبة: nach (يتبع) + vollziehen (ينفذ) + -bar (قابل لـ). يمكن فهمها خطوة بخطوة.",sSrc:"يجب أن تكون الحجة الجيدة مفهومة حتى يتمكن الآخرون من تتبعها خطوة بخطوة."},
+        {type:"mc",q:"Was bedeutet 'herausfinden'?",opts:["يكتشف، يتوصل إلى","يحلل ويقيّم (البيانات)","القدرة، المهارة","مفهوم، قابل للتتبع"],ans:"يكتشف، يتوصل إلى",hint:"فعل مركب: heraus (للخارج) + finden (يجد). استخراج معلومة جديدة."},
+        {type:"fb",s:"Der Professor muss die Ergebnisse noch {1}.",a:["überprüfen"],opts:["überprüfen","bewerten","herausfinden","auswerten"],hint:"فعل مركب: über (فوق) + prüfen (يفحص). فحص دقيق للتأكد من الصحة.",sSrc:"لا يزال على الأستاذ التحقق من النتائج."},
+        {type:"mc",q:"Die Anweisungen müssen präzise formuliert sein. Was bedeutet 'präzise'?",opts:["عام","مبهم","دقيق، محدد","بسيط"],ans:"دقيق، محدد",hint:"من الفرنسية précis. تصف الدقة العالية في التعبير أو القياس."}
       ]},
 // ─── L8: In der Mensa ───
     {id:"deu_r25l5",title:"In der Mensa",icon:"🍽️",xp:15,board:true,steps:[
@@ -284,13 +284,13 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
         {type:"drag_fill",s:"Nach der {1} muss ich die {2} bis Freitag einreichen.",blanks:{"1":"Vorlesung","2":"Hausarbeit"},pool:["Vorlesung","Hausarbeit","Mensa","Stipendium","Prüfung","Hoersaal"],hint:"بعد المحاضرة، يجب تسليم الواجب الكتابي. اسمان يخصّان البيئة الجامعية."},
         {type:"story",speaker:"narrator",mood:"content",art:"de-uni-mensa-tray-empty",trg:"Verumius schiebt das leere Tablett zurück. 3.20 EUR für ein warmes Essen, neue Bekanntschaften und das Gefühl, dazuzugehören. Die Mensa ist kein Restaurant. Sie ist eine Institution.",src:"يدفع فيروميوس الصينية الفارغة جانباً. 3.20 يورو مقابل وجبة دافئة، ومعارف جديدة، والشعور بالانتماء. المطعم الجامعي ليس مطعماً عادياً. إنه مؤسسة."},
         {type:"story",speaker:"verumius",mood:"reflective",art:"de-uni-mensa-window",trg:"Jana hat mir den Tipp gegeben: die Bibliothek im dritten Stock hat die besten Arbeitsplätze. Hätte ich sie nicht in der Mensa getroffen, wüsste ich das nicht. So funktioniert Uni: man lernt nebenbei.",src:"أعطتني يانا نصيحة: مكتبة الطابق الثالث تحتوي على أفضل أماكن العمل. لو لم أقابلها في المطعم الجامعي، ما كنت لأعرف ذلك. هكذا تعمل الجامعة: تتعلم في الهامش."},
-        {type:"fb",s:"Wer auf Deutsch einen akademischen Titel erwerben will, muss {1}.",a:["promovieren"],opts:["promovieren","publizieren","referieren","einreichen"],hint:"فكّر في معنى الكلمة.",sSrc:"من يرغب في الحصول على لقب أكاديمي في ألمانيا يجب أن يحصل على الدكتوراه."},
-        {type:"mc",q:"Was bedeutet 'spezialisieren'?",opts:["المنحة الدراسية","لوائح الامتحانات","ينشر","يتخصص"],ans:"يتخصص",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ist Wikipedia eine {1}e Quelle?",a:["zuverlässiig"],opts:["die Hausarbeit","das Studentenwohnheim","spezialisieren","zuverlässiig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل ويكيبيديا مصدر موثوق؟"},
-        {type:"mc",q:"Was bedeutet 'fundiert'?",opts:["مؤسَّس، مدعوم بأدلة","السكن الطلابي","معقد","زميل الدراسة"],ans:"مؤسَّس، مدعوم بأدلة",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Die Forschungsfrage ist ziemlich {1}.",a:["komplex"],opts:["die Prüfungsordnung","das Stipendium","die Prüfung","komplex"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"السؤال البحثي معقد جداً."},
-        {type:"mc",q:"Was bedeutet 'stichhaltig'?",opts:["المنحة الدراسية","لوائح الامتحانات","سليم، صحيح (من حيث الحجج)","يُسلّم، يُقدّم"],ans:"سليم، صحيح (من حيث الحجج)",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Sehr {1}. Alle Aspekte wurden berücksichtigt.",a:["umfassend"],opts:["promovieren","publizieren","stichhaltig","umfassend"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"شامل جداً. أُخذت جميع الجوانب بعين الاعتبار."}
+        {type:"fb",s:"Wer auf Deutsch einen akademischen Titel erwerben will, muss {1}.",a:["promovieren"],opts:["promovieren","publizieren","referieren","einreichen"],hint:"فعل لاتيني الأصل. العملية الأكاديمية للحصول على درجة الدكتوراه.",sSrc:"من يرغب في الحصول على لقب أكاديمي في ألمانيا يجب أن يحصل على الدكتوراه."},
+        {type:"mc",q:"Was bedeutet 'spezialisieren'?",opts:["المنحة الدراسية","لوائح الامتحانات","ينشر","يتخصص"],ans:"يتخصص",hint:"فعل منعكس (sich spezialisieren). من 'speziell'. التركيز على مجال واحد."},
+        {type:"fb",s:"Ist Wikipedia eine {1}e Quelle?",a:["zuverlässiig"],opts:["die Hausarbeit","das Studentenwohnheim","spezialisieren","zuverlässiig"],hint:"صفة تصف المصدر الذي يمكن الاعتماد عليه. من 'Verlass' (اعتماد).",sSrc:"هل ويكيبيديا مصدر موثوق؟"},
+        {type:"mc",q:"Was bedeutet 'fundiert'?",opts:["مؤسَّس، مدعوم بأدلة","السكن الطلابي","معقد","زميل الدراسة"],ans:"مؤسَّس، مدعوم بأدلة",hint:"من 'Fundament' (أساس). يصف شيئاً مبنياً على أدلة قوية."},
+        {type:"fb",s:"Die Forschungsfrage ist ziemlich {1}.",a:["komplex"],opts:["die Prüfungsordnung","das Stipendium","die Prüfung","komplex"],hint:"صفة لاتينية الأصل. تصف شيئاً متشعباً ذا أبعاد متعددة.",sSrc:"السؤال البحثي معقد جداً."},
+        {type:"mc",q:"Was bedeutet 'stichhaltig'?",opts:["المنحة الدراسية","لوائح الامتحانات","سليم، صحيح (من حيث الحجج)","يُسلّم، يُقدّم"],ans:"سليم، صحيح (من حيث الحجج)",hint:"كلمة مركبة: Stich (طعنة) + haltig (يتحمل). حجة تصمد أمام النقد."},
+        {type:"fb",s:"Sehr {1}. Alle Aspekte wurden berücksichtigt.",a:["umfassend"],opts:["promovieren","publizieren","stichhaltig","umfassend"],hint:"صفة من umfassen (يشمل). تغطية شاملة بلا استثناء.",sSrc:"شامل جداً. أُخذت جميع الجوانب بعين الاعتبار."}
       ]},
 // ─── L10: Die Hausarbeit ───
     {id:"deu_r25l6",title:"Die Hausarbeit",icon:"📚",xp:15,board:true,steps:[
@@ -344,17 +344,17 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
 ]},
         {type:"story",speaker:"yilmaz",mood:"warm",art:"de-uni-library-corridor",trg:"Verumius, eine letzte Sache. Die Hausarbeit ist nicht das Ziel. Sie ist das Werkzeug. Du lernst, einen Gedanken bis zum Ende zu verfolgen. Das ist die eigentliche Fähigkeit.",src:"فيروميوس، شيء أخير. الورقة البحثية ليست الهدف. إنها الأداة. أنت تتعلم كيف تتبع فكرة حتى استنتاجها. هذه هي المهارة الحقيقية."},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-uni-verumius-desk-night",trg:"Zweiundzwanzig Uhr. Die Bibliothek schliesst. Verumius packt seine Bücher ein. Die Gliederung steht. Die Forschungsfrage ist formuliert. Hätte ihm jemand vor einem Jahr gesagt, dass er eine wissenschaftliche Arbeit auf Deutsch schreiben würde, hätte er es für einen schlechten Witz gehalten.",src:"العاشرة مساءً. تُغلق المكتبة أبوابها. يحزم فيروميوس كتبه. الهيكلة جاهزة. السؤال البحثي مصاغ. لو أخبره أحد قبل عام أنه سيكتب ورقة أكاديمية باللغة الألمانية، لاعتبر الأمر مزحة سمجة."},
-        {type:"mc",q:"Was bedeutet 'die Reihenfolge'?",opts:["السرقة الأدبية","يقتبس، يستشهد","الترتيب، التسلسل","رسالة الدبلوم"],ans:"الترتيب، التسلسل",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie lange hast du gebraucht, den Text zu {1}?",a:["verfassen"],opts:["verfassen","die Reihenfolge","das Plagiat","paraphrasieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كم استغرقت لكتابة النص؟"},
-        {type:"mc",q:"Was bedeutet 'paraphrasieren'?",opts:["السرقة الأدبية","يكتب، يؤلّف","يُعيد الصياغة","يبحث، يُحقق"],ans:"يُعيد الصياغة",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to quote, to cite' auf Deutsch? {1}",a:["zitieren"],opts:["zitieren","das Plagiat","vertiefen","die Diplomarbeit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'يقتبس' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'rekonstruieren'?",opts:["يبحث، يُحقق","قائمة المراجع","الحاشية السفلية","يُعيد البناء"],ans:"يُعيد البناء",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to revise, to rework' auf Deutsch? {1}",a:["überarbeiten"],opts:["überarbeiten","der Nachweis","paraphrasieren","analytisch"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'يُراجع' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'verweisen'?",opts:["يُشير إلى، يستشهد","الحاشية السفلية","السرقة الأدبية","يكتب، يؤلّف"],ans:"يُشير إلى، يستشهد",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Moechtest du das Thema {1}?",a:["vertiefen"],opts:["die Gliederung","das Literaturverzeichnis","vertiefen","überarbeiten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل تودّ التعمق في الموضوع؟"},
-        {type:"mc",q:"Was bedeutet 'analytisch'?",opts:["تحليلي","الحاشية السفلية","رسالة الدبلوم","ذو دلالة"],ans:"تحليلي",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Sind die Ergebnisse {1}?",a:["signifikant"],opts:["signifikant","die Fussnote","rekonstruieren","verfassen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل النتائج ذات دلالة؟"},
-        {type:"mc",q:"Was bedeutet 'recherchieren'?",opts:["يبحث، يُحقق","البحث، التحري","الحاشية السفلية","قائمة المراجع"],ans:"يبحث، يُحقق",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'die Reihenfolge'?",opts:["السرقة الأدبية","يقتبس، يستشهد","الترتيب، التسلسل","رسالة الدبلوم"],ans:"الترتيب، التسلسل",hint:"كلمة مركبة: Reihe (صف) + Folge (تسلسل). ترتيب العناصر واحداً تلو الآخر."},
+        {type:"fb",s:"Wie lange hast du gebraucht, den Text zu {1}?",a:["verfassen"],opts:["verfassen","die Reihenfolge","das Plagiat","paraphrasieren"],hint:"فعل أكاديمي يعني كتابة نص بعناية وتأنٍّ. ليس مجرد 'schreiben'.",sSrc:"كم استغرقت لكتابة النص؟"},
+        {type:"mc",q:"Was bedeutet 'paraphrasieren'?",opts:["السرقة الأدبية","يكتب، يؤلّف","يُعيد الصياغة","يبحث، يُحقق"],ans:"يُعيد الصياغة",hint:"من اليونانية para + phrasis. إعادة التعبير عن فكرة بكلمات مختلفة."},
+        {type:"fb",s:"Wie sagt man 'to quote, to cite' auf Deutsch? {1}",a:["zitieren"],opts:["zitieren","das Plagiat","vertiefen","die Diplomarbeit"],hint:"فعل بلاحقة '-ieren'. الجذر مشترك مع لغات أوروبية أخرى.",sSrc:"كيف تقول 'يقتبس' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'rekonstruieren'?",opts:["يبحث، يُحقق","قائمة المراجع","الحاشية السفلية","يُعيد البناء"],ans:"يُعيد البناء",hint:"بادئة re- (إعادة) + konstruieren (يبني). إعادة تجميع شيء من أجزائه."},
+        {type:"fb",s:"Wie sagt man 'to revise, to rework' auf Deutsch? {1}",a:["überarbeiten"],opts:["überarbeiten","der Nachweis","paraphrasieren","analytisch"],hint:"بادئة 'über-' تعني 'فوق' أو تجاوز الحد. ما الفعل الأساسي؟",sSrc:"كيف تقول 'يُراجع' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'verweisen'?",opts:["يُشير إلى، يستشهد","الحاشية السفلية","السرقة الأدبية","يكتب، يؤلّف"],ans:"يُشير إلى، يستشهد",hint:"من weisen (يُوجّه). الإشارة إلى مصدر أو مرجع في نص أكاديمي."},
+        {type:"fb",s:"Moechtest du das Thema {1}?",a:["vertiefen"],opts:["die Gliederung","das Literaturverzeichnis","vertiefen","überarbeiten"],hint:"فعل مركب: ver- + tiefen (عميق). الغوص أعمق في موضوع ما.",sSrc:"هل تودّ التعمق في الموضوع؟"},
+        {type:"mc",q:"Was bedeutet 'analytisch'?",opts:["تحليلي","الحاشية السفلية","رسالة الدبلوم","ذو دلالة"],ans:"تحليلي",hint:"من اليونانية analysis. يصف التفكير الذي يفكك الأشياء إلى مكوناتها."},
+        {type:"fb",s:"Sind die Ergebnisse {1}?",a:["signifikant"],opts:["signifikant","die Fussnote","rekonstruieren","verfassen"],hint:"صفة لاتينية. في البحث العلمي: نتائج ذات معنى إحصائي.",sSrc:"هل النتائج ذات دلالة؟"},
+        {type:"mc",q:"Was bedeutet 'recherchieren'?",opts:["يبحث، يُحقق","البحث، التحري","الحاشية السفلية","قائمة المراجع"],ans:"يبحث، يُحقق",hint:"من الفرنسية rechercher. البحث المنهجي عن معلومات في مصادر متعددة."}
       ]},
 // ─── L12: Alles unter der Lupe ───
     {id:"deu_r25l7",title:"Alles unter der Lupe",icon:"🔍",xp:15,board:true,steps:[
@@ -415,17 +415,17 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
     "Eins: Konjunktiv II Vergangenheit allein"
 ],ans:"Drei: Konjunktiv II Vergangenheit + Nominalisierung + Verbalisierung",hint:"أحصِ التراكيب النحوية: واحد يستخدم الماضي الافتراضي، وواحد يستخدم الصيغة الاسمية، وواحد يُحوّل اسماً إلى فعل."},
         {type:"story",speaker:"verumius",mood:"satisfied",art:"de-fub-dahlem-campus-afternoon",trg:"Verumius klappt das letzte Buch zu. Er kennt die Begriffe. Er versteht die Muster. Hätte er das akademische Viertel nicht am ersten Tag erlebt, hätte er nie gelernt, dass Wissen in Deutschland seinen eigenen Rhythmus hat.",src:"يُغلق فيروميوس آخر كتاب. يعرف المصطلحات. يفهم الأنماط. لو لم يُجرّب الفصل الأكاديمي في يومه الأول، ما كان ليتعلم أن المعرفة في ألمانيا لها إيقاعها الخاص."},
-        {type:"drag_fill",s:"Um eine Hypothese zu testen, muss man {1} sammeln und {2}.",blanks:{"1":"Daten","2":"auswerten"},pool:["Daten","auswerten","Thesen","aufstellen","Methoden","dokumentieren"],hint:"فكّر في معنى الكلمة."},
+        {type:"drag_fill",s:"Um eine Hypothese zu testen, muss man {1} sammeln und {2}.",blanks:{"1":"Daten","2":"auswerten"},pool:["Daten","auswerten","Thesen","aufstellen","Methoden","dokumentieren"],hint:"الخطوة الأولى في البحث: جمع المعلومات. الخطوة الثانية: تحليلها واستخلاص النتائج."},
         {type:"mc",q:"Was beschreibt eine 'hypothetische' Situation?",opts:[
     "Etwas, das sicher passieren wird",
     "Etwas, das tatsaechlich passiert ist",
     "Etwas, das moeglich waere, aber nicht real ist",
     "Etwas, das jeden Tag passiert"
-],ans:"Etwas, das moeglich waere, aber nicht real ist",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'zusammenfassen'?",opts:["يُلخّص","مجال التخصص","السؤال البحثي","يُوثّق"],ans:"يُلخّص",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to evaluate' auf Deutsch? {1}",a:["evaluieren"],opts:["evaluieren","dokumentieren","die Forschungsfrage","das Forschungsergebnis"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'يُقيّم' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'differenzieren'?",opts:["يُفرّق، يُميّز","يدحض، يُفنّد","الجامعة، مؤسسة التعليم العالي","نتيجة البحث"],ans:"يُفرّق، يُميّز",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ist deine Forschung {1}?",a:["interdisziplinaer"],opts:["aufstellen","interdisziplinaer","der Leistungsnachweis","die Hochschule"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل بحثك متعدد التخصصات؟"}
+],ans:"Etwas, das moeglich waere, aber nicht real ist",hint:"من اليونانية hypothesis. تصف موقفاً افتراضياً غير متحقق في الواقع."},
+        {type:"mc",q:"Was bedeutet 'zusammenfassen'?",opts:["يُلخّص","مجال التخصص","السؤال البحثي","يُوثّق"],ans:"يُلخّص",hint:"فعل مركب: zusammen (معاً) + fassen (يمسك). جمع الأفكار الرئيسية."},
+        {type:"fb",s:"Wie sagt man 'to evaluate' auf Deutsch? {1}",a:["evaluieren"],opts:["evaluieren","dokumentieren","die Forschungsfrage","das Forschungsergebnis"],hint:"فعل بلاحقة '-ieren'. الجذر مشترك مع لغات أوروبية أخرى.",sSrc:"كيف تقول 'يُقيّم' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'differenzieren'?",opts:["يُفرّق، يُميّز","يدحض، يُفنّد","الجامعة، مؤسسة التعليم العالي","نتيجة البحث"],ans:"يُفرّق، يُميّز",hint:"من اللاتينية differentia. التمييز بين أشياء متشابهة."},
+        {type:"fb",s:"Ist deine Forschung {1}?",a:["interdisziplinaer"],opts:["aufstellen","interdisziplinaer","der Leistungsnachweis","die Hochschule"],hint:"صفة مركبة: inter- (بين) + Disziplin (تخصص). بحث يجمع عدة مجالات.",sSrc:"هل بحثك متعدد التخصصات؟"}
       ]},
 // ─── L14: Guter Punkt ───
     {id:"deu_r25l8",title:"Guter Punkt",icon:"🎓",xp:15,board:true,steps:[
@@ -480,10 +480,10 @@ const UNIT_25_AR = {n:25,lang:"de",srcLang:"ar",track:"v2",title:"Die Uni",sub:"
     "Fairness und gleiche Chancen",
     "Strenge gesetzliche Bestrafung",
     "Vollstaendige akademische Freiheit"
-],ans:"Fairness und gleiche Chancen",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"Akademische {1} ist in Deutschland durch Artikel 5 des Grundgesetzes geschuetzt.",a:["Freiheit"],opts:["Freiheit","Sicherheit","Gleichheit","Gerechtigkeit"],hint:"فكّر في معنى الكلمة.",sSrc:"الحرية الأكاديمية محمية في ألمانيا بموجب المادة 5 من القانون الأساسي."},
-        {type:"mc",q:"Was bedeutet 'gegenüberstellen'?",opts:["المحاضِر (محايد جنسياً)","المساواة","يقارن، يضع جنباً إلى جنب","العدالة"],ans:"يقارن، يضع جنباً إلى جنب",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Man muss Erfahrung in der Praxis {1}.",a:["erwerben"],opts:["erwerben","bewerten","anwenden","belegen"],hint:"فكّر في معنى الكلمة.",sSrc:"يجب اكتساب الخبرة في التطبيق العملي."}
+],ans:"Fairness und gleiche Chancen",hint:"من 'gerecht' (عادل). مفهوم أخلاقي يتعلق بالإنصاف والمساواة في الحقوق."},
+        {type:"fb",s:"Akademische {1} ist in Deutschland durch Artikel 5 des Grundgesetzes geschuetzt.",a:["Freiheit"],opts:["Freiheit","Sicherheit","Gleichheit","Gerechtigkeit"],hint:"اسم مؤنث مشتق من 'frei'. مفهوم أساسي في القانون الألماني.",sSrc:"الحرية الأكاديمية محمية في ألمانيا بموجب المادة 5 من القانون الأساسي."},
+        {type:"mc",q:"Was bedeutet 'gegenüberstellen'?",opts:["المحاضِر (محايد جنسياً)","المساواة","يقارن، يضع جنباً إلى جنب","العدالة"],ans:"يقارن، يضع جنباً إلى جنب",hint:"فعل مركب: gegenüber (مقابل) + stellen (يضع). وضع شيئين للمقارنة."},
+        {type:"fb",s:"Man muss Erfahrung in der Praxis {1}.",a:["erwerben"],opts:["erwerben","bewerten","anwenden","belegen"],hint:"فعل يعني الحصول على شيء بالجهد. ليس 'kaufen' بل اكتساب بالخبرة.",sSrc:"يجب اكتساب الخبرة في التطبيق العملي."}
       ]}
   ]};
 

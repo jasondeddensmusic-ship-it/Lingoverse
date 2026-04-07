@@ -80,7 +80,7 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
         {type:"teach",trg:"die Marille",src:"المشمش (نمساوي)",pos:"noun",gender:"f",note:"كلمة نمساوية لـ Aprikose. من الإيطالية amarella.\nMarillenknödel = كنيدل المشمش، كلاسيكية نمساوية.",example:"A: Was ist eine Marille?\nB: Das ist die österreichische Aprikose.\nA: Sind Marillen süß?\nB: Ja, sehr süß und fruchtig.",exampleSrc:"A: ما هي Marille؟\nB: هذا هو المشمش النمساوي.\nA: هل Marillen حلوة؟\nB: نعم، حلوة جداً وفاكهية.",funFact:"Marille تأتي من الإيطالية amarella (المرّة الصغيرة). Marillenknödel واحدة من أحب الحلويات النمساوية. منطقة Wachau مشهورة ببساتين المشمش."},
         {type:"mc",q:"In Österreich heißt 'Aprikose' anders. Wie sagt man dort?",opts:["Frucht","Pflaume","Marille","Zwiebel"],ans:"Marille",hint:"هذه هي الكلمة النمساوية لنفس الفاكهة. تأتي من الإيطالية 'amarella'."},
         {type:"fb",s:"Zum Frühstück esse ich gerne frisches {1} vom Bäcker.",a:["Gebäck"],opts:["Gebäck","Picknick","Mehl","Fett"],hint:"الاسم الجماعي لكل المخبوزات، مع بادئة Ge-.",sSrc:"على الإفطار أحب أكل معجنات طازجة من الخباز."},
-        {type:"fb",s:"Schneid bitte die {1}! Aber Vorsicht, du wirst weinen.",a:["Zwiebeln"],opts:["Zwiebeln","Pflaumen","Aprikosen","Früchte"],hint:"فكّر في معنى الكلمة.",sSrc:"قطّع البصل من فضلك! لكن انتبه، ستبكي."},
+        {type:"fb",s:"Schneid bitte die {1}! Aber Vorsicht, du wirst weinen.",a:["Zwiebeln"],opts:["Zwiebeln","Pflaumen","Aprikosen","Früchte"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"قطّع البصل من فضلك! لكن انتبه، ستبكي."},
         {type:"mc",q:"Was bedeutet 'die Pflaume'?",opts:["the plum","the bowl","the fat, the grease","the can, the tin"],ans:"the plum",hint:"فاكهة بنفسجية صغيرة تنمو على الأشجار"},
         {type:"fb",s:"Was ist da {1}?",a:["drin"],opts:["die Frucht","die Sch\\u00fcssel","die Dose","drin"],hint:"ظرف مكان قصير يعني في الداخل، عكس draußen",sSrc:"ماذا يوجد هناك؟"}
       ]},
@@ -133,13 +133,13 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
 ]},
         {type:"mc",q:"Ergänze: '_____ ich gestern im Biergarten war, habe ich Spargel bestellt.'",opts:["Ob","Als","Wenn","Weil"],ans:"Als",hint:"الأمس لحظة واحدة محددة في الماضي. ما الكلمة التي تعني 'عندما' للأحداث التي وقعت مرة واحدة؟"},
         {type:"fb",s:"{1} die Spargelzeit endet, sind die Deutschen immer traurig.",a:["Wenn"],opts:["Wenn","Als","Ob","Weil"],hint:"موسم الهليون ينتهي كل عام. هذا حدث متكرر.",sSrc:"عندما ينتهي موسم الهليون، يحزن الألمان دائمًا."},
-        {type:"fb",s:"'Mindestens {1} bis...' steht auf jeder deutschen Lebensmittelverpackung.",a:["haltbar"],opts:["haltbar","reif","roh","gar"],hint:"فكّر في معنى الكلمة.",sSrc:"عبارة 'صالح حتى...' مطبوعة على كل عبوة غذائية ألمانية."},
+        {type:"fb",s:"'Mindestens {1} bis...' steht auf jeder deutschen Lebensmittelverpackung.",a:["haltbar"],opts:["haltbar","reif","roh","gar"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"عبارة 'صالح حتى...' مطبوعة على كل عبوة غذائية ألمانية."},
         {type:"mc",q:"Was bedeutet 'der Backofen'?",opts:["the special offer","the oven","vegetarian","to prepare (food)"],ans:"the oven",hint:"جهاز مطبخ كبير يُستخدم للخبز بحرارة عالية"},
         {type:"fb",s:"Wie sagt man 'the foodstuff' auf Deutsch? {1}",a:["das Nahrungsmittel"],opts:["das Nahrungsmittel","haltbar","das Vitamin","reif"],hint:"كلمة مركبة: Nahrung (غذاء) + Mittel (مادة/وسيلة)",sSrc:"كيف تقول 'the foodstuff' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'das Vitamin'?",opts:["the nutrition, the diet","the receipt","the discount","the vitamin"],ans:"the vitamin",hint:"كلمة لاتينية الأصل من vita (حياة)، مادة غذائية"},
         {type:"fb",s:"Wie sagt man 'to prepare (food)' auf Deutsch? {1}",a:["zubereiten"],opts:["die Schlange","die Ern\\u00e4hrung","vegetarisch","zubereiten"],hint:"فعل مركب: zu- + bereiten = تحضير الطعام للأكل",sSrc:"كيف تقول 'to prepare (food)' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'mischen'?",opts:["to mix","the foodstuff","the discount","the nutrition, the diet"],ans:"to mix",hint:"فعل يعني خلط مكونات مختلفة معًا"},
-        {type:"fb",s:"Wer {1} heute ab? Die Teller stehen noch in der Küche.",a:"spült",opts:["spült","mischt","kocht","schneidet"],hint:"فكّر في معنى الكلمة.",sSrc:"مَن يغسل الصحون اليوم؟ الأطباق ما زالت في المطبخ."}
+        {type:"fb",s:"Wer {1} heute ab? Die Teller stehen noch in der Küche.",a:"spült",opts:["spült","mischt","kocht","schneidet"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"مَن يغسل الصحون اليوم؟ الأطباق ما زالت في المطبخ."}
       ]},
 // ─── L7: Worauf freust du dich? ───
     {id:"deu_r18l4",title:"Worauf freust du dich?",icon:"💡",xp:15,board:true,steps:[
@@ -201,11 +201,11 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
     {trg:"daran",src:"منه / إليه"},
     {trg:"dafür",src:"لهذا الغرض"}
 ]},
-        {type:"fb",s:"Spargel hat viele {1}, besonders Vitamin C und K.",a:["Vitamine"],opts:["Vitamine","Diäten","Ernährungen","Alkohol"],hint:"فكّر في معنى الكلمة.",sSrc:"الهليون فيه فيتامينات كتير، خصوصاً فيتامين C وK."},
+        {type:"fb",s:"Spargel hat viele {1}, besonders Vitamin C und K.",a:["Vitamine"],opts:["Vitamine","Diäten","Ernährungen","Alkohol"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"الهليون فيه فيتامينات كتير، خصوصاً فيتامين C وK."},
         {type:"mc",q:"Was bedeutet 'spitz'?",opts:["sharp, pointed","biological, organic","the rental, the letting","the liquid, the fluid"],ans:"sharp, pointed",hint:"صفة تصف شيئًا حادًا أو مدببًا يمكنه القطع"},
         {type:"fb",s:"Deutsche {1} viel Bier.",a:["konsumieren"],opts:["mager","die Vermietung","der Konsum","konsumieren"],hint:"فعل لاتيني الأصل يعني استهلاك واستعمال شيء",sSrc:"الألمان بيستهلكوا بيرة كتير."},
         {type:"mc",q:"Was bedeutet 'heben'?",opts:["the opening, the inauguration","to lift, to raise","sharp, pointed","the consumption"],ans:"to lift, to raise",hint:"فعل يعني رفع شيء من الأسفل إلى الأعلى"},
-        {type:"fb",s:"Kannst du das Problem {1}?",a:"lösen",opts:["lösen","heben","konsumieren","mischen"],hint:"فكّر في معنى الكلمة.",sSrc:"فيك تحل المشكلة؟"}
+        {type:"fb",s:"Kannst du das Problem {1}?",a:"lösen",opts:["lösen","heben","konsumieren","mischen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"فيك تحل المشكلة؟"}
       ]},
 // ─── L9: Lukas spielt ───
     {id:"deu_r18l5",title:"Lukas spielt",icon:"🎸",xp:15,board:true,steps:[
@@ -250,7 +250,7 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
     "What is Lukas happy about?"
 ],ans:"What is Lukas thinking about?",hint:"الفعل هو 'denken AN.' مركّب wo- يجمع wo + an."},
         {type:"fb",s:"Die Blumen auf der {1} blühen im Sommer.",a:["Wiese"],opts:["Wiese","Feld","Gras","Landwirtschaft"],hint:"الكلمة التي تصف مرجًا تنمو فيه الزهور والعشب.",sSrc:"تزهر الزهور على المرج في الصيف."},
-        {type:"fb",s:"Die {1} ist wichtig für das Spargelgebiet Brandenburg. Viele Bauern arbeiten dort.",a:["Landwirtschaft"],opts:["Landwirtschaft","Wiese","Ernte","Köchin"],hint:"فكّر في معنى الكلمة.",sSrc:"الزراعة مهمة لمنطقة الهليون براندنبورغ. كتير فلاحين بيشتغلوا هناك."},
+        {type:"fb",s:"Die {1} ist wichtig für das Spargelgebiet Brandenburg. Viele Bauern arbeiten dort.",a:["Landwirtschaft"],opts:["Landwirtschaft","Wiese","Ernte","Köchin"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"الزراعة مهمة لمنطقة الهليون براندنبورغ. كتير فلاحين بيشتغلوا هناك."},
         {type:"mc",q:"Was bedeutet 'pflanzen'?",opts:["to pour, to water (plants)","to plant","to wake up","to grow"],ans:"to plant",hint:"فعل يتعلق بوضع البذور أو النباتات في التربة"},
         {type:"fb",s:"Wie sagt man 'to grow' auf Deutsch? {1}",a:["wachsen"],opts:["wachsen","die B\\u00fcchse","das Tuch","gie\\u00dfen"],hint:"فعل يصف زيادة حجم النباتات أو الأطفال",sSrc:"كيف تقول 'to grow' بالألمانية؟"}
       ]},
@@ -297,7 +297,7 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
 ]},
         {type:"mc",q:"'Die Bewohner warten _____ den Frühling.' Welche Präposition ergänzt 'warten'?",opts:["auf","für","über","an"],ans:"auf",hint:"'Warten' يقترن دائمًا بهذا حرف الجر. أنت تنتظر شيئًا محددًا."},
         {type:"mc",q:"'_____ ich in Wien war, habe ich zum ersten Mal Marillenknödel probiert.'",opts:["Wenn","Als","Damit","Weil"],ans:"Als",hint:"كان الوجود في فيينا رحلةً محددة في الماضي. مرة واحدة."},
-        {type:"fb",s:"In Biergärten sind Hunde willkommen. 'Hund' ist ein Haus{1}.",a:["tier"],opts:["tier","bauer","bewohner","mieter"],hint:"فكّر في معنى الكلمة.",sSrc:"الكلاب مرحّب فيها بحدائق البيرة. كلمة Hund هي حيوان أليف (حيوان بيت)."},
+        {type:"fb",s:"In Biergärten sind Hunde willkommen. 'Hund' ist ein Haus{1}.",a:["tier"],opts:["tier","bauer","bewohner","mieter"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"الكلاب مرحّب فيها بحدائق البيرة. كلمة Hund هي حيوان أليف (حيوان بيت)."},
         {type:"mc",q:"Was bedeutet 'der Fleischhauer'?",opts:["the chicken (Austrian)","the tomato (Austrian)","the tenant","the butcher (Austrian)"],ans:"the butcher (Austrian)",hint:"كلمة نمساوية محلية تعني بائع اللحوم"},
         {type:"fb",s:"Wie sagt man 'the oven (Austrian)' auf Deutsch? {1}",a:["das Backrohr"],opts:["das Hendl","die Bewohnerin","der Mieter","das Backrohr"],hint:"كلمة نمساوية مركبة: Back (خبز) + Rohr (أنبوب)",sSrc:"كيف تقول 'the oven (Austrian)' بالألمانية؟"}
       ]},
@@ -339,7 +339,7 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
 ]},
         {type:"mc",q:"'_____ wartet Verumius?' -- 'Auf den Kellner. Er wartet _____.'",opts:["Worauf...darauf","Woran...daran","Wofür...dafür","Worüber...darüber"],ans:"Worauf...darauf",hint:"'Warten AUF' هو التعبير الثابت. السؤال = wo + auf. الجواب = da + auf."},
         {type:"drag_fill",s:"{1} wir im Biergarten saßen, rief Heinrich an. Er bestand {2}, dass wir Spargel bestellen.",blanks:{"1":"Als","2":"darauf"},pool:["Als","Wenn","darauf","darüber","daran","Weil"],hint:"الفراغ الأول: لحظة واحدة محددة في الماضي (als أم wenn). الفراغ الثاني: bestehen يأخذ حرف جر ثابتًا. استبدل 'auf etwas' بمركّب da-.",sSrc:"عندما كنا جالسين في حديقة البيرة، اتصل هاينريش. أصرّ على أن نطلب الهليون."},
-        {type:"fb",s:"Der Eintritt zum Biergarten ist {1}. Man braucht nichts zu bezahlen.",a:["gratis"],opts:["gratis","extra","halt","nebenbei"],hint:"فكّر في معنى الكلمة.",sSrc:"الدخول لحديقة البيرة مجاني. ما بتحتاج تدفع شي."},
+        {type:"fb",s:"Der Eintritt zum Biergarten ist {1}. Man braucht nichts zu bezahlen.",a:["gratis"],opts:["gratis","extra","halt","nebenbei"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"الدخول لحديقة البيرة مجاني. ما بتحتاج تدفع شي."},
         {type:"mc",q:"Was bedeutet 'au'?",opts:["every time","ouch, ow","the caretaker (Swiss)","on the side, incidentally, by the way"],ans:"ouch, ow",hint:"تعبير تلقائي يصدر عند الشعور بالألم المفاجئ"},
         {type:"fb",s:"Wie sagt man 'the lightning, the flash' auf Deutsch? {1}",a:["der Blitz"],opts:["halt","der Blitz","der Abwart","der Abt"],hint:"كلمة مذكرة (der) تصف ضوءًا مفاجئًا في العاصفة",sSrc:"كيف تقول 'the lightning, the flash' بالألمانية؟"}
       ]},
@@ -389,7 +389,7 @@ const UNIT_18_AR = {n:18,lang:"de",srcLang:"ar",track:"v2",title:"Im Biergarten"
 ]},
         {type:"mc",q:"Hildi sagt: 'Jedes Mal, _____ die Spargelzeit beginnt, denke ich _____ meine Kindheit.'",opts:["als...über","wenn...auf","als...an","wenn...an"],ans:"wenn...an",hint:"كل عام = متكرر (wenn). التفكير في شيء = denken AN."},
         {type:"drag_fill",s:"Verumius wartet {1} den Frühling. Er freut sich {2}.",blanks:{"1":"auf","2":"darauf"},pool:["auf","darauf","über","darüber","an","daran"],hint:"Warten AUF. ثم استبدل 'auf den Frühling' بمركّب da-.",sSrc:"فيروميوس ينتظر الربيع. هو يتطلع إليه."},
-        {type:"fb",s:"In der Schweiz sagt man nicht 'grillen,' sondern {1}.",a:["grillieren"],opts:["grillieren","nähen","nützen","füttern"],hint:"فكّر في معنى الكلمة.",sSrc:"بسويسرا ما بيقولوا grillen، بيقولوا grillieren."},
+        {type:"fb",s:"In der Schweiz sagt man nicht 'grillen,' sondern {1}.",a:["grillieren"],opts:["grillieren","nähen","nützen","füttern"],hint:"فعل بلاحقة '-ieren' مشترك مع لغات أوروبية. السياق يحدد المعنى.",sSrc:"بسويسرا ما بيقولوا grillen، بيقولوا grillieren."},
         {type:"mc",q:"Was bedeutet 'bio-'?",opts:["organic, biological (prefix)","to eat (for animals)","to feed (an animal or baby)","to use, to make use of"],ans:"organic, biological (prefix)",hint:"بادئة يونانية الأصل من bios (حياة) تعني عضوي"},
         {type:"fb",s:"Wie sagt man 'single, individual (prefix)' auf Deutsch? {1}",a:["einzel-"],opts:["einzel-","f\\u00fcttern","ern\\u00e4hren","n\\u00fctzen"],hint:"بادئة تعني واحد فقط، منفرد، عكس الجماعي",sSrc:"كيف تقول 'single, individual (prefix)' بالألمانية؟"}
       ]}

@@ -40,7 +40,7 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"fb",s:"Die {1} Hamburg-Berlin dauert etwa zwei Stunden.",a:["Strecke"],opts:["Strecke","Station","Linie","Richtung"],hint:"ما الكلمة التي تصف مساراً محدداً بين مدينتين؟",sSrc:"يستغرق المسار بين هامبورغ وبرلين نحو ساعتين."},
         {type:"story",speaker:"colleague",mood:"matter-of-fact",art:"de-ham-taxi-rain",trg:"So, die Strecke zum Hotel ist nicht weit. Zehn Minuten, wenn der Verkehr mitmacht.",src:"إذن، المسار إلى الفندق ليس بعيداً. عشر دقائق إذا تعاون الطريق."},
         {type:"story",speaker:"verumius",mood:"curious",art:"de-ham-taxi-rain",trg:"Hamburg ist größer, als ich dachte. Und feuchter.",src:"هامبورغ أكبر مما توقعت. وأكثر رطوبة أيضاً."},
-        {type:"fb",s:"Die {1} ist nicht weit von Hamburg. Etwa 100 Kilometer.",a:["Nordsee"],opts:["Nordsee","Ostsee","Metropole","Nacht"],hint:"فكّر في معنى الكلمة.",sSrc:"بحر الشمال ليس بعيداً عن هامبورغ. حوالي 100 كيلومتر."},
+        {type:"fb",s:"Die {1} ist nicht weit von Hamburg. Etwa 100 Kilometer.",a:["Nordsee"],opts:["Nordsee","Ostsee","Metropole","Nacht"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"بحر الشمال ليس بعيداً عن هامبورغ. حوالي 100 كيلومتر."},
         {type:"mc",q:"Was bedeutet 'feucht'?",opts:["the region","the night","damp / humid","the area / vicinity"],ans:"damp / humid",hint:"صفة تصف الهواء الرطب أو الجو الممطر"}
       ]},
 // ─── L3: Unterwegs in der Stadt ───
@@ -394,8 +394,8 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"mc",q:"Was bedeutet 'landen'?",opts:["to land","to honk","the sidewalk","the landing"],ans:"to land",hint:"فعل يصف هبوط الطائرة على الأرض"},
         {type:"fb",s:"Wie sagt man 'to depart / set off' auf Deutsch? {1}",a:["losfahren"],opts:["die Semmel","losfahren","das Benzin","landen"],hint:"فعل مركب: los- + fahren = يبدأ الرحلة بالسيارة",sSrc:"كيف تقول 'to depart / set off' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'stehenbleiben'?",opts:["the muesli","the sidewalk","to stop / stand still","the boat"],ans:"to stop / stand still",hint:"فعل يعني الوقوف ساكنًا بلا حركة تمامًا"},
-        {type:"fb",s:"Wir müssen {1}. Die Tankstelle ist in fünf Kilometern.",a:"tanken",opts:["tanken","hupen","landen","bremsen"],hint:"فكّر في معنى الكلمة.",sSrc:"لازم نتعبّى بنزين. محطة البنزين بعد خمس كيلومترات."},
-        {type:"fb",s:"Darf ich hier ___? Nein, Überholverbot!",a:"überholen",opts:["überholen","überfahren","überqueren","umdrehen"],hint:"فكّر في معنى الكلمة.",sSrc:"فيني أتجاوز هون؟ لا، ممنوع التجاوز!"}
+        {type:"fb",s:"Wir müssen {1}. Die Tankstelle ist in fünf Kilometern.",a:"tanken",opts:["tanken","hupen","landen","bremsen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"لازم نتعبّى بنزين. محطة البنزين بعد خمس كيلومترات."},
+        {type:"fb",s:"Darf ich hier ___? Nein, Überholverbot!",a:"überholen",opts:["überholen","überfahren","überqueren","umdrehen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"فيني أتجاوز هون؟ لا، ممنوع التجاوز!"}
       ]},
 // ─── L15: Zurück nach Berlin ───
     {id:"deu_r15l9",title:"Zurück nach Berlin",icon:"🌃",xp:15,board:true,steps:[

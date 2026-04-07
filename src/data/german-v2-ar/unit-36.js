@@ -144,29 +144,29 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "Anfangen ist formell, beginnen ist umgangssprachlich",
     "Beginnen ist formell, anfangen ist umgangssprachlich",
     "Es gibt keinen Unterschied in Register oder Stil"
-],ans:"Beginnen ist formell, anfangen ist umgangssprachlich",hint:"فكّر في معنى الكلمة."},
+],ans:"Beginnen ist formell, anfangen ist umgangssprachlich",hint:"كلاهما يعني 'يبدأ' لكنهما يختلفان في مستوى الرسمية. أيهما تسمعه في الخطابات؟"},
         {type:"mc",q:"Was bedeutet 'die Umarmung'?",opts:[
     "يتذكر",
     "to express oneself (formal) / to say (everyday)",
     "ينوي (رسمي) / يريد (يومي)",
     "العناق"
-],ans:"العناق",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'the wealth of experience' auf Deutsch? {1}",a:["der Erfahrungsschatz"],opts:["erwerben / kaufen","der Erfahrungsschatz","beabsichtigen / wollen","innig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the wealth of experience' بالألمانية؟"},
+],ans:"العناق",hint:"اسم مؤنث مشتق من الفعل 'umarmen'. حركة جسدية تعبّر عن المحبة."},
+        {type:"fb",s:"Wie sagt man 'the wealth of experience' auf Deutsch? {1}",a:["der Erfahrungsschatz"],opts:["erwerben / kaufen","der Erfahrungsschatz","beabsichtigen / wollen","innig"],hint:"فكّر في الكلمة الألمانية المناسبة. راجع الخيارات وتذكّر ما تعلمته.",sSrc:"كيف تقول 'the wealth of experience' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'das Erinnerungsstück'?",opts:[
     "التذكار",
     "يكتسب (رسمي) / يشتري (يومي)",
     "loving, affectionate",
     "to express oneself (formal) / to say (everyday)"
-],ans:"التذكار",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to embrace, to hug' auf Deutsch? {1}",a:["umarmen"],opts:["umarmen","gestatten / erlauben","innig","die Umarmung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to embrace, to hug' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'sich erinnern'?",opts:["يمكث (أدبي) / يبقى (يومي)","يتذكر","حميمي، عميق","to embrace, to hug"],ans:"يتذكر",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Das war eine {1}e Geste.",a:["liebevoll"],opts:["entgegnen / antworten","der Erfahrungsschatz","liebevoll","umarmen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كانت تلك لفتة حانية."},
+],ans:"التذكار",hint:"كلمة مركبة: Erinnerung (ذكرى) + Stück (قطعة). شيء مادي يحمل ذكرى."},
+        {type:"fb",s:"Wie sagt man 'to embrace, to hug' auf Deutsch? {1}",a:["umarmen"],opts:["umarmen","gestatten / erlauben","innig","die Umarmung"],hint:"فكّر في الكلمة الألمانية المناسبة. راجع الخيارات وتذكّر ما تعلمته.",sSrc:"كيف تقول 'to embrace, to hug' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'sich erinnern'?",opts:["يمكث (أدبي) / يبقى (يومي)","يتذكر","حميمي، عميق","to embrace, to hug"],ans:"يتذكر",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"fb",s:"Das war eine {1}e Geste.",a:["liebevoll"],opts:["entgegnen / antworten","der Erfahrungsschatz","liebevoll","umarmen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"كانت تلك لفتة حانية."},
         {type:"mc",q:"Was bedeutet 'innig'?",opts:[
     "حميمي، عميق",
     "يكتسب (رسمي) / يشتري (يومي)",
     "يمكث (أدبي) / يبقى (يومي)",
     "to embrace, to hug"
-],ans:"حميمي، عميق",hint:"فكّر في معنى هذه الكلمة في السياق."}
+],ans:"حميمي، عميق",hint:"صفة تصف مشاعر عميقة وصادقة. من 'innen' (الداخل). مشاعر من الأعماق."}
       ]},
 // ─── L5: Ja, doch, halt, eben, wohl ───
     {id:"deu_r36l4",title:"Ja, doch, halt, eben, wohl",icon:"✨",xp:20,board:true,steps:[
@@ -278,15 +278,15 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "Das Leben bewusst verlangsamen",
     "Etwas reparieren und wieder in Ordnung bringen",
     "Jemanden motivieren und antreiben"
-],ans:"Das Leben bewusst verlangsamen",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'verarbeiten'?",opts:["الالتزام، الموثوقية","التقدير","يرضى بـ، يكتفي","يعالج، يدرس"],ans:"يعالج، يدرس",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Mia ist wirklich {1}.",a:["einfühlsam"],opts:["verarbeiten","die Versöhnlichkeit","sich zufriedengeben","einfühlsam"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"ميا متعاطفة حقاً."},
+],ans:"Das Leben bewusst verlangsamen",hint:"بادئة 'ent-' تعكس المعنى. عكس 'beschleunigen' (يُسرّع). إبطاء الإيقاع عمداً."},
+        {type:"mc",q:"Was bedeutet 'verarbeiten'?",opts:["الالتزام، الموثوقية","التقدير","يرضى بـ، يكتفي","يعالج، يدرس"],ans:"يعالج، يدرس",hint:"بادئة 'ver-' تغيّر معنى الفعل الأساسي. فكّر في الجذر."},
+        {type:"fb",s:"Mia ist wirklich {1}.",a:["einfühlsam"],opts:["verarbeiten","die Versöhnlichkeit","sich zufriedengeben","einfühlsam"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"ميا متعاطفة حقاً."},
         {type:"mc",q:"Was bedeutet 'behutsam'?",opts:[
     "يسترجع، ينظر للوراء",
     "gentle, careful, cautious",
     "spirit of reconciliation, forgiveness",
     "التقدير"
-],ans:"gentle, careful, cautious",hint:"فكّر في معنى هذه الكلمة في السياق."}
+],ans:"gentle, careful, cautious",hint:"من 'Hut' (حماية). صفة تصف التعامل بحذر ورفق، كمن يحمي شيئاً ثميناً."}
       ]},
 // ─── L8: Verumius ───
     {id:"deu_r36l6",title:"Verumius",icon:"❤️",xp:15,board:true,steps:[
@@ -342,11 +342,11 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "wohl: Er kommt wohl nie wieder. (He probably never comes again.)",
     "schon: Er kommt schon nie. (He never comes anyway.)"
 ],ans:"halt: Er kommt halt immer zu spät. (He just always comes late.)",hint:"وصول KD متأخراً أمرٌ متوقَّع تماماً. هذا الجسيم يعبِّر عن القبول الهادئ لشيء لا يتغير، دون مبالغة أو جدال."},
-        {type:"fb",s:"In seinem {1} wusste er es schon lange: Berlin ist sein Zuhause.",a:["Inneren"],opts:["Traum","Inneren","Stoßseufzer","Muße"],hint:"فكّر في معنى الكلمة.",sSrc:"في أعماقه كان يعلم منذ زمن طويل: برلين هي وطنه."},
-        {type:"mc",q:"Was bedeutet 'sich versöhnen'?",opts:["يسمح، يدخل","surprise","dream","يتصالح"],ans:"يتصالح",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Man muss Gefühle {1}.",a:["zulassen"],opts:["die Überraschung","der Traum","der Stoßseufzer","zulassen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"يجب أن نسمح للمشاعر بالظهور."},
-        {type:"mc",q:"Was bedeutet 'ausruhen'?",opts:["ينمو معاً، يتماسك","واثق، متفائل","وقت الفراغ والتأمل","يرتاح تماماً"],ans:"يرتاح تماماً",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ich blicke {1} in die Zukunft.",a:["zuversichtlich"],opts:["sich versöhnen","das Innere","zuversichtlich","unbezahlbar"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"أنظر إلى المستقبل بثقة."}
+        {type:"fb",s:"In seinem {1} wusste er es schon lange: Berlin ist sein Zuhause.",a:["Inneren"],opts:["Traum","Inneren","Stoßseufzer","Muße"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"في أعماقه كان يعلم منذ زمن طويل: برلين هي وطنه."},
+        {type:"mc",q:"Was bedeutet 'sich versöhnen'?",opts:["يسمح، يدخل","surprise","dream","يتصالح"],ans:"يتصالح",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."},
+        {type:"fb",s:"Man muss Gefühle {1}.",a:["zulassen"],opts:["die Überraschung","der Traum","der Stoßseufzer","zulassen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"يجب أن نسمح للمشاعر بالظهور."},
+        {type:"mc",q:"Was bedeutet 'ausruhen'?",opts:["ينمو معاً، يتماسك","واثق، متفائل","وقت الفراغ والتأمل","يرتاح تماماً"],ans:"يرتاح تماماً",hint:"بادئة 'aus-' تعني 'خارج' أو 'انتهاء'. ما الفعل الأساسي؟"},
+        {type:"fb",s:"Ich blicke {1} in die Zukunft.",a:["zuversichtlich"],opts:["sich versöhnen","das Innere","zuversichtlich","unbezahlbar"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"أنظر إلى المستقبل بثقة."}
       ]},
 // ─── L10: Alles ───
     {id:"deu_r36l7",title:"Alles",icon:"🏆",xp:15,board:true,steps:[
@@ -454,9 +454,9 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "A temporary furnished apartment he is renting.",
     "The German word specifically for Germany as a country."
 ],ans:"Home: not just a place, but a feeling of belonging.",hint:"zuhause هو المكان الذي تنتمي إليه. حيث الناس الذين يعرفون اسمك. حيث تكون نفسك."},
-        {type:"mc",q:"Was bedeutet 'träumen'?",opts:["يحلم","يتصالح","أخيراً وليس آخراً","في الوطن"],ans:"يحلم",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to be at peace, to be forgiving' auf Deutsch? {1}",a:["versöhnlich sein"],opts:["versöhnlich sein","der Steuerzahler","rückblickend","von ganzem Herzen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to be at peace, to be forgiving' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'aufrichtig'?",opts:["يتصالح","صادق، حقيقي","في النهاية","أخيراً"],ans:"صادق، حقيقي",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'träumen'?",opts:["يحلم","يتصالح","أخيراً وليس آخراً","في الوطن"],ans:"يحلم",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"fb",s:"Wie sagt man 'to be at peace, to be forgiving' auf Deutsch? {1}",a:["versöhnlich sein"],opts:["versöhnlich sein","der Steuerzahler","rückblickend","von ganzem Herzen"],hint:"بادئة 'ver-' تغيّر معنى الجذر. فكّر في الفعل البسيط.",sSrc:"كيف تقول 'to be at peace, to be forgiving' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'aufrichtig'?",opts:["يتصالح","صادق، حقيقي","في النهاية","أخيراً"],ans:"صادق، حقيقي",hint:"بادئة 'auf-' تعني 'فوق' أو 'فتح'. ما الفعل الأساسي؟"}
       ]}
   ]};
 

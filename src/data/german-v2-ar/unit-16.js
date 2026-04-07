@@ -88,7 +88,7 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
     {trg:"Verständnis",src:"تفاهم"}
 ]},
         {type:"story",speaker:"narrator",mood:"ominous",art:"de-ber-stairwell-notes",trg:"Verumius ging schlafen. Um 6:47 Uhr fand er den zweiten Zettel. Diesmal nicht unter der Tür. An der Wand im Treppenhaus. Für alle sichtbar.",src:"نام فيروميوس. في الساعة 6:47 صباحاً وجد الرسالة الثانية. هذه المرة ليس تحت الباب. على الجدار في درج السلم. مرئية للجميع."},
-        {type:"fb",s:"Der Nachbar {1} Respekt von Verumius.",a:["verlangt"],opts:["verlangt","behauptet","beleidigt","kritisiert"],hint:"فكّر في معنى الكلمة.",sSrc:"الجار بيطالب باحترام من فيروميوس."},
+        {type:"fb",s:"Der Nachbar {1} Respekt von Verumius.",a:["verlangt"],opts:["verlangt","behauptet","beleidigt","kritisiert"],hint:"بادئة 'ver-' تعدّل معنى الجذر. ما الفعل البسيط الذي تعرفه؟",sSrc:"الجار بيطالب باحترام من فيروميوس."},
         {type:"mc",q:"Was bedeutet 'unterbrechen'?",opts:["to interrupt","to insult, to offend","to criticize","to claim, to assert"],ans:"to interrupt",hint:"فعل مركب: unter + brechen (يكسر) = يقطع الكلام"},
         {type:"fb",s:"Jeder hat das Recht zu {1}.",a:["widersprechen"],opts:["peinlich","der Respekt","unterbrechen","widersprechen"],hint:"فعل يعني الاعتراض على رأي شخص آخر",sSrc:"كل واحد عنده حق يعترض."},
         {type:"mc",q:"Was bedeutet 'verlangen'?",opts:["the guilt, the fault, the debt","guilty","to contradict","to demand, to require"],ans:"to demand, to require",hint:"فعل يعني طلب شيء بإلحاح وقوة"},
@@ -127,7 +127,7 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
         {type:"tip",title:"nachdem + Plusquamperfekt: Ordering Past Events",text:"nachdem = بعد. تستخدم جملة nachdem الـ Plusquamperfekt (hatte/war + Partizip II) لأن الحدث وقع قبل حدث آخر في الماضي.",deepDive:{title:"Plusquamperfekt: The Past Before the Past",text:"الـ Plusquamperfekt يُظهر ما حدث قبل حدث آخر في الماضي.\n\nالتكوين: hatte/war + Partizip II\nمثال: Nachdem er gebohrt hatte, klingelte es."}},
         {type:"story",speaker:"verumius",mood:"overwhelmed",art:"de-ber-stairwell-notes-reading",trg:"Nachdem ich alle Zettel gelesen hatte, wusste ich eines sicher: Ich brauche Hilfe. Professionelle Hilfe. Ich brauche Hildi.",src:"بعد أن قرأت جميع الرسائل، أدركت شيئاً واحداً بيقين: أحتاج إلى مساعدة. مساعدة متخصصة. أحتاج إلى هيلدي."},
         {type:"fb",s:"Nachdem Verumius die Bohrmaschine abgestellt {1}, klopfte es an der Tür.",a:["hatte"],opts:["hatte","hat","war","ist"],hint:"جملة 'بعد أن' تستلزم صيغة الماضي التام. أي فعل مساعد يُستخدم مع 'abgestellt'؟",sSrc:"بعد أن أوقف فيروميوس المثقاب، سُمع طرق على الباب."},
-        {type:"mc",q:"Der Zettel des Nachbarn nennt Verumius beim Namen. Verumius sagt: 'Das war nicht ___!'",opts:["ehrlich","treu","fair","dankbar"],ans:"fair",hint:"فكّر في معنى الكلمة."},
+        {type:"mc",q:"Der Zettel des Nachbarn nennt Verumius beim Namen. Verumius sagt: 'Das war nicht ___!'",opts:["ehrlich","treu","fair","dankbar"],ans:"fair",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'loben'?",opts:["to praise","to persuade, to talk into","to convince","to relax"],ans:"to praise",hint:"فعل إيجابي عكس kritisieren، يعبّر عن الإعجاب"},
         {type:"fb",s:"Kannst du mir den Zettel {1}?",a:["reichen"],opts:["die Kraft","das Geheimnis","reichen","das Herz"],hint:"فعل يعني مد اليد بشيء لشخص آخر",sSrc:"فيك تناولني الورقة؟"}
       ]},
@@ -173,8 +173,8 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
 ],ans:"Können Sie mir sagen, wo das Büro ist?",hint:"في الأسئلة غير المباشرة، ينتقل الفعل المصرّف إلى نهاية الجملة."},
         {type:"drag_fill",s:"Nachdem er den Brief gelesen {1}, wollte er wissen, {2} der Nachbar wirklich wütend {3}.",blanks:{"1":"hatte","2":"ob","3":"war"},pool:["hatte","ob","war","hat","dass","ist"],hint:"جملة 'بعد أن' مع الماضي التام، تليها سؤال غير مباشر بنعم/لا مع 'ob' والفعل في النهاية.",sSrc:"بعد أن قرأ الرسالة، أراد أن يعرف إن كان الجار غاضباً فعلاً."},
         {type:"story",speaker:"verumius",mood:"hopeful",art:"de-ber-stairwell-evening",trg:"Ich wollte wissen, ob der Nachbar mich versteht. Ob er mir verzeihen kann. Ob wir jemals wieder normal miteinander reden. Drei Fragen. Alle indirekt.",src:"أردت أن أعرف إن كان الجار يفهمني. وإن كان يستطيع مسامحتي. وإن كنا سنتحدث بشكل طبيعي مرة أخرى. ثلاثة أسئلة. جميعها غير مباشرة."},
-        {type:"mc",q:"Der Nachbar sagt: 'Ich kann dir verzeihen.' Was bedeutet 'verzeihen'?",opts:["jemanden hassen","sich fürchten","jemandem vergeben","sich langweilen"],ans:"jemandem vergeben",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"Verumius {1} auf das Bohren am Sonntag.",a:["verzichtet"],opts:["verzichtet","verzeiht","fürchtet","hasst"],hint:"فكّر في معنى الكلمة.",sSrc:"فيروميوس تخلّى عن الحفر يوم الأحد."},
+        {type:"mc",q:"Der Nachbar sagt: 'Ich kann dir verzeihen.' Was bedeutet 'verzeihen'?",opts:["jemanden hassen","sich fürchten","jemandem vergeben","sich langweilen"],ans:"jemandem vergeben",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"fb",s:"Verumius {1} auf das Bohren am Sonntag.",a:["verzichtet"],opts:["verzichtet","verzeiht","fürchtet","hasst"],hint:"بادئة 'ver-' تعدّل معنى الجذر. ما الفعل البسيط الذي تعرفه؟",sSrc:"فيروميوس تخلّى عن الحفر يوم الأحد."},
         {type:"mc",q:"Was bedeutet 'trennen'?",opts:["the friendship","to separate","the married couple","to fear"],ans:"to separate",hint:"فعل يعني الفصل والابتعاد بين شخصين"},
         {type:"fb",s:"Sie wollen sich {1} lassen.",a:["scheiden"],opts:["entt\\u00e4uschen","das Ehepaar","die Entt\\u00e4uschung","scheiden"],hint:"فعل يتعلق بإنهاء الزواج قانونيًا",sSrc:"بدهم يتطلّقوا."},
         {type:"mc",q:"Was bedeutet 'verzichten'?",opts:["the disappointment","to separate","the relationship","to give up, to do without"],ans:"to give up, to do without",hint:"فعل مركب: ver + zichten = التخلي عن شيء طوعًا"}
@@ -287,7 +287,7 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
         {type:"mc",q:"Was bedeutet 'hinterher'?",opts:["the damage","to leave, to abandon / to rely on","afterwards, behind","to stink"],ans:"afterwards, behind",hint:"ظرف يدل على ما يأتي بعد شيء في الزمن أو المكان"},
         {type:"fb",s:"Das ist {1} Deutschland.",a:["eben"],opts:["eben","verhindern","das Vertrauen","heimlich"],hint:"كلمة تعبيرية تعني هذا هو الواقع ببساطة",sSrc:"هيك هي ألمانيا."},
         {type:"mc",q:"Was bedeutet 'stinken'?",opts:["to stink","the trust","to behave","to trust"],ans:"to stink",hint:"فعل يصف رائحة كريهة جدًا وغير محتملة"},
-        {type:"fb",s:"Er hat den Termin {1}. Jetzt ist es zu spät.",a:"versäumt",opts:["versäumt","verpasst","vergessen","verlassen"],hint:"فكّر في معنى الكلمة.",sSrc:"فوّت الموعد. هلأ صار متأخر."}
+        {type:"fb",s:"Er hat den Termin {1}. Jetzt ist es zu spät.",a:"versäumt",opts:["versäumt","verpasst","vergessen","verlassen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"فوّت الموعد. هلأ صار متأخر."}
       ]},
 // ─── L13: Alles auf den Tisch ───
     {id:"deu_r16l7",title:"Alles auf den Tisch",icon:"📚",xp:15,board:true,steps:[
@@ -342,8 +342,8 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
 ]},
         {type:"drag_fill",s:"Nachdem die Polizei den Täter {1} hatte, wollte der Richter wissen, {2} er die Tat {3} hatte.",blanks:{"1":"festgenommen","2":"ob","3":"geplant"},pool:["festgenommen","ob","geplant","verhaftet","dass","gemacht"],hint:"ثلاثة فراغات: فعل الاعتقال (اسم المفعول)، وأداة ربط نعم/لا، وفعل التخطيط (اسم المفعول). جميعها في تركيب 'بعد أن' مع الماضي التام.",sSrc:"بعد أن اعتقلت الشرطة الجاني، أراد القاضي أن يعرف إن كان قد خطط للجريمة."},
         {type:"story",speaker:"narrator",mood:"transitional",art:"de-ber-stairwell-evening",trg:"Die Fakten lagen auf dem Tisch. Die Grammatik saß. Aber zwischen Wissen und Handeln liegt manchmal ein Glas Marmelade.",src:"الوقائع كانت على الطاولة. القواعد كانت راسخة. لكن بين المعرفة والتصرف، أحياناً تكون هناك جرة مربى."},
-        {type:"mc",q:"Die Polizei hat den Dieb festgenommen. Was bedeutet 'festnehmen'?",opts:["jemanden bestrafen","jemanden verhören","jemanden verhaften","jemanden verurteilen"],ans:"jemanden verhaften",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"Der Richter sagt: '{1} Sie das Bohren während der Ruhezeit!'",a:["Unterlassen"],opts:["Unterlassen","Schütteln","Fangen","Greifen"],hint:"فكّر في معنى الكلمة.",sSrc:"القاضي بيقول: 'أوقفوا الحفر خلال ساعات الهدوء!'"},
+        {type:"mc",q:"Die Polizei hat den Dieb festgenommen. Was bedeutet 'festnehmen'?",opts:["jemanden bestrafen","jemanden verhören","jemanden verhaften","jemanden verurteilen"],ans:"jemanden verhaften",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"fb",s:"Der Richter sagt: '{1} Sie das Bohren während der Ruhezeit!'",a:["Unterlassen"],opts:["Unterlassen","Schütteln","Fangen","Greifen"],hint:"بادئة 'un-' تنفي المعنى. فكّر في الصفة الأساسية ثم اعكسها.",sSrc:"القاضي بيقول: 'أوقفوا الحفر خلال ساعات الهدوء!'"},
         {type:"mc",q:"Was bedeutet 'stehlen'?",opts:["to grab, to grasp","the burglar","to steal","to catch"],ans:"to steal",hint:"فعل يعني أخذ شيء من شخص دون إذنه"},
         {type:"fb",s:"Wie sagt man 'to break in, to burglarize' auf Deutsch? {1}",a:["einbrechen"],opts:["schie\\u00dfen","einbrechen","fangen","die Verbrecherin"],hint:"فعل مركب: ein + brechen (يكسر) = يدخل بالقوة",sSrc:"كيف تقول 'to break in, to burglarize' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'der Streik'?",opts:["to shoot","to steal","to arrest","the strike (labor)"],ans:"the strike (labor)",hint:"كلمة مذكرة (der) تعني توقف جماعي عن العمل احتجاجًا"}
@@ -405,7 +405,7 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
         {type:"mc",q:"Was bedeutet 'entlassen'?",opts:["slim","to release, to dismiss, to fire","rarely, rare","to punish"],ans:"to release, to dismiss, to fire",hint:"فعل مركب: ent + lassen = يطلق سراح أو يُقيل من العمل"},
         {type:"fb",s:"Die Nachbarn gingen {1}.",a:["auseinander"],opts:["auseinander","betrunken","unheimlich","bestrafen"],hint:"ظرف يصف الانفصال والتفرق في اتجاهات مختلفة",sSrc:"الجيران افترقوا."},
         {type:"mc",q:"Was bedeutet 'heim'?",opts:["crooked, askew","unbelievable, incredibly","home, homeward","rarely, rare"],ans:"home, homeward",hint:"ظرف يدل على الاتجاه نحو البيت أو المنزل"},
-        {type:"fb",s:"Wir müssen die Kosten {1}. Es gibt ein Budget.",a:"beschränken",opts:["beschränken","betrügen","beleidigen","besprechen"],hint:"فكّر في معنى الكلمة.",sSrc:"لازم نحدّ التكاليف. في ميزانية."}
+        {type:"fb",s:"Wir müssen die Kosten {1}. Es gibt ein Budget.",a:"beschränken",opts:["beschränken","betrügen","beleidigen","besprechen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"لازم نحدّ التكاليف. في ميزانية."}
       ]}
   ]};
 

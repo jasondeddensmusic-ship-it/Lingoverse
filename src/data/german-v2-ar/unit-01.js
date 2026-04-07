@@ -160,9 +160,9 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
     {trg:"gehen",src:"يذهب"}
 ]},
         {type:"story",speaker:"verumius",mood:"proud",art:"de-ber-departures",trg:"Danke! Tschüss! Verumius geht zum Gleis. Er hat ein Ticket. Er kann Danke sagen. Das ist ein Anfang.",src:"شكرًا! مع السلامة! يمشي فيروميوس إلى الرصيف. لديه تذكرة. يستطيع أن يقول شكرًا. هذه بداية."},
-        {type:"mc",q:"ماذا تعني 'sagen'؟",opts:["أنا...","يقول / يُخبر","يفعل / يصنع","بالطبع / طبعًا"],ans:"يقول / يُخبر",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"mc",q:"ماذا تعني 'sagen'؟",opts:["أنا...","يقول / يُخبر","يفعل / يصنع","بالطبع / طبعًا"],ans:"يقول / يُخبر",hint:"فعل يُستخدم مع الكلمات والعبارات. ماذا تفعل عندما تتحدث؟"},
         {type:"fb",s:"Wie sagt man 'يفعل / يصنع' auf Deutsch? {1}",a:["machen"],opts:["Deutschland","Ich bin...","machen","Wie heißen Sie?"],hint:"أي فعل ألماني يعني 'يفعل' أو 'يصنع'؟",sSrc:"كيف تقول 'يفعل / يصنع' بالألمانية؟"},
-        {type:"mc",q:"ماذا تعني 'etwas'؟",opts:["شيء ما / قليل","يمشي / يذهب","لا أفهم","ألمانيا"],ans:"شيء ما / قليل",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"ماذا تعني 'etwas'؟",opts:["شيء ما / قليل","يمشي / يذهب","لا أفهم","ألمانيا"],ans:"شيء ما / قليل",hint:"كلمة تشير إلى شيء غير محدد. ليست 'لا شيء' بل عكسها."}
       ]},
 // ─── L5: Im falschen Zug ───
     {id:"deu_r01l4",title:"Im falschen Zug",icon:"🚂",xp:15,board:true,steps:[
@@ -620,7 +620,7 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
     {trg:"der Zoll",src:"الجمارك"}
 ]},
         {type:"story",speaker:"verumius",mood:"hopeful",art:"de-ber-departures-evening",trg:"Die Reise hat gerade erst begonnen. Aber ich habe schon so viel gelernt. Hallo, Deutschland. Ich bin bereit für mehr.",src:"الرحلة بدأت للتو. لكنني تعلمت الكثير بالفعل. مرحبًا يا ألمانيا. أنا مستعد للمزيد."},
-        {type:"mc",q:"Welches Wort bedeutet 'suitcase'?",opts:["das Gepäck","das Ticket","der Zoll","der Koffer"],ans:"der Koffer",hint:"فكّر في معنى الكلمة."}
+        {type:"mc",q:"Welches Wort bedeutet 'suitcase'?",opts:["das Gepäck","das Ticket","der Zoll","der Koffer"],ans:"der Koffer",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."}
       ]}
   ]};
 

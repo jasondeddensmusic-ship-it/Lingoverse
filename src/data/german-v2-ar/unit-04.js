@@ -334,13 +334,13 @@ const UNIT_04_AR = {n:4,lang:"de",srcLang:"ar",track:"v2",title:"Im Supermarkt",
     {trg:"das Ei",src:"بيضة"}
 ]},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-rewe-entrance-return",trg:"Morgen gehe ich wieder. Diesmal mit Münze, mit Tüte, und mit einer Liste. Ich bin bereit. Glaube ich.",src:"غداً أذهب مرة أخرى. هذه المرة بقطعة نقود، وكيس، وقائمة. أنا مستعد. أظن."},
-        {type:"fb",s:"Ich möchte {1} mit Reis, bitte.",a:["Hähnchen"],opts:["Hähnchen","Kartoffel","Kuchen","Fisch"],hint:"فكّر في معنى الكلمة.",sSrc:"بدي دجاج مع رز، لو سمحت."},
-        {type:"mc",q:"'Ein Glas Wasser, bitte.' Was möchte die Person?",opts:["ein Glas mit Wasser","eine Flasche Milch","ein Stück Kuchen","eine Tasse Tee"],ans:"ein Glas mit Wasser",hint:"فكّر في معنى الكلمة."},
+        {type:"fb",s:"Ich möchte {1} mit Reis, bitte.",a:["Hähnchen"],opts:["Hähnchen","Kartoffel","Kuchen","Fisch"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"بدي دجاج مع رز، لو سمحت."},
+        {type:"mc",q:"'Ein Glas Wasser, bitte.' Was möchte die Person?",opts:["ein Glas mit Wasser","eine Flasche Milch","ein Stück Kuchen","eine Tasse Tee"],ans:"ein Glas mit Wasser",hint:"بادئة 'ein-' تعني 'داخل'. ما الجذر الأصلي؟"},
         {type:"mc",q:"Was bedeutet 'die Birne'?",opts:["الإجاصة","البطاطا","البيرة","النبيذ"],ans:"الإجاصة",hint:"فاكهة تشبه التفاحة لكنها أنحف في الشكل"},
         {type:"fb",s:"Wie sagt man 'the oil' auf Deutsch? {1}",a:["das Öl"],opts:["das Öl","der Kuchen","das Brötchen","das Salz"],hint:"سائل دهني يُستخدم في الطبخ والسلطات",sSrc:"كيف تقول 'the oil' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'das Glas'?",opts:["الكعك","الزجاجة","الكأس","البطاطا"],ans:"الكأس",hint:"إناء زجاجي صغير للشرب"},
-        {type:"fb",s:"Ich brauche ein {1} für das Frühstück.",a:["Ei"],opts:["Ei","Öl","Brot","Glas"],hint:"فكّر في معنى الكلمة.",sSrc:"بدي بيضة للفطور."},
-        {type:"mc",q:"Was ist 'das Öl'?",opts:["الزيت","البيضة","الزبدة","الخل"],ans:"الزيت",hint:"فكّر في معنى الكلمة."}
+        {type:"fb",s:"Ich brauche ein {1} für das Frühstück.",a:["Ei"],opts:["Ei","Öl","Brot","Glas"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"بدي بيضة للفطور."},
+        {type:"mc",q:"Was ist 'das Öl'?",opts:["الزيت","البيضة","الزبدة","الخل"],ans:"الزيت",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."}
       ]},
 // ─── L12: Geld und Maße ───
     {id:"deu_r4l10",title:"Geld und Maße",icon:"💶",xp:15,board:true,steps:[
@@ -389,7 +389,7 @@ const UNIT_04_AR = {n:4,lang:"de",srcLang:"ar",track:"v2",title:"Im Supermarkt",
 ]},
         {type:"story",speaker:"verumius",mood:"confident",art:"de-rewe-entrance-confident",trg:"REWE. Rote Buchstaben. Automatische Türen. Aber diesmal: eine Münze in der Tasche, eine Liste in der Hand, und ein Wort auf den Lippen. 'Guten Tag.'",src:"REWE. حروف حمراء. أبواب أوتوماتيكية. لكن هذه المرة: قطعة نقود في الجيب، وقائمة في اليد، وكلمة على الشفاه. 'Guten Tag.'"},
         {type:"mc",q:"Was ist 'die Tasche'?",opts:["die Jacke","die Hose","die Tasche ist Beutel oder Hosentasche","der Schuh"],ans:"die Tasche ist Beutel oder Hosentasche",hint:"هذه الكلمة تعني both bag and pocket."},
-        {type:"fb",s:"Zieh deine {1} an, es ist kalt!",a:["Jacke"],opts:["Jacke","Tasche","Schuh","Prozent"],hint:"فكّر في معنى الكلمة.",sSrc:"البس جاكيتك، الجو بارد!"},
+        {type:"fb",s:"Zieh deine {1} an, es ist kalt!",a:["Jacke"],opts:["Jacke","Tasche","Schuh","Prozent"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"البس جاكيتك، الجو بارد!"},
         {type:"mc",q:"Was bedeutet 'der Teil'?",opts:["المليون","الجزء / القطعة","غالبًا / معظم","الحساب المصرفي"],ans:"الجزء / القطعة",hint:"كلمة محايدة (das) تصف جزءًا من كلّ أكبر"},
         {type:"fb",s:"Wie sagt man 'the vending machine / ATM' auf Deutsch? {1}",a:["der Automat"],opts:["der Automat","meist","die Million","zweihundert"],hint:"كلمة مركبة من اليونانية: جهاز يعمل بنفسه",sSrc:"كيف تقول 'the vending machine / ATM' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'verkaufen'?",opts:["يبيع","سبعون (٧٠)","مئة (١٠٠)","النسبة المئوية"],ans:"يبيع",hint:"فعل يتعلق بالتجارة: إعطاء بضاعة مقابل مال"},

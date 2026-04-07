@@ -37,7 +37,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"story",speaker:"mia",mood:"helpful",art:"de-ber-office-floor",trg:"Hier ist unsere Etage. Der Flur führt zur Kantine, und am Ende vom Gang ist der Konferenzraum. Die Besprechung beginnt um zehn.",src:"هذا طابقنا. الممر يؤدي إلى المطعم، وفي نهاية الممر توجد غرفة الاجتماعات. الاجتماع يبدأ الساعة العاشرة."},
         {type:"mc",q:"Mia sagt, die Besprechung ist im Konferenzraum. Was ist ein Konferenzraum?",opts:["Der Flur","Die Garderobe","Die Kantine","Ein Besprechungsraum"],ans:"Ein Besprechungsraum",hint:"هذه الكلمة المركبة تصف مكانًا مخصصًا في المكتب تُعقد فيه الاجتماعات الرسمية."},
         {type:"fb",s:"Die {1} beginnt um zehn Uhr im Konferenzraum.",a:["Besprechung"],opts:["Besprechung","Kantine","Garderobe","Etage"],hint:"أي كلمة تعني اجتماعًا أو مناقشة رسمية؟",sSrc:"يبدأ الاجتماع الساعة العاشرة في غرفة الاجتماعات."},
-        {type:"mc",q:"'Gute Zusammenarbeit ist hier sehr wichtig.' Was bedeutet Zusammenarbeit?",opts:["overtime","collaboration","daily routine","meeting"],ans:"collaboration",hint:"فكّر في معنى الكلمة."},
+        {type:"mc",q:"'Gute Zusammenarbeit ist hier sehr wichtig.' Was bedeutet Zusammenarbeit?",opts:["overtime","collaboration","daily routine","meeting"],ans:"collaboration",hint:"كلمة مركبة تحتوي 'Arbeit' (عمل). ما الجزء الأول الذي يحدد نوع العمل؟"},
         {type:"mc",q:"Was bedeutet 'der Tagesablauf'?",opts:[
     "the company, the operation",
     "the canteen, the cafeteria",
@@ -93,7 +93,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     {trg:"der Kuli",src:"قلم حبر"}
 ]},
         {type:"story",speaker:"mia",mood:"conspiratorial",art:"de-ber-office-hallway",trg:"So, dein Arbeitsplatz ist eingerichtet. Jetzt zeige ich dir den wichtigsten Ort im ganzen Betrieb. Die Kaffeküche.",src:"إذن، مكان عملك جاهز. الآن سأريك أهم مكان في كامل الشركة. مطبخ القهوة."},
-        {type:"fb",s:"In welchem {1} ist der Vertrag? Im blauen auf dem Regal.",a:["Ordner"],opts:["Ordner","Kuli","Regal","Mappe"],hint:"فكّر في معنى الكلمة.",sSrc:"في أي ملف العقد؟ في الأزرق على الرف."},
+        {type:"fb",s:"In welchem {1} ist der Vertrag? Im blauen auf dem Regal.",a:["Ordner"],opts:["Ordner","Kuli","Regal","Mappe"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"في أي ملف العقد؟ في الأزرق على الرف."},
         {type:"mc",q:"Was bedeutet 'die Tabelle'?",opts:["the table, the spreadsheet","to type, to tap","the plug","the key, the button"],ans:"the table, the spreadsheet",hint:"كلمة مؤنثة (die) تصف جدولًا منظمًا بصفوف وأعمدة"}
       ]},
 // ─── L5: Die Kaffeküche ───

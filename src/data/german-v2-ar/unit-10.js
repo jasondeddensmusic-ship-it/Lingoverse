@@ -87,8 +87,8 @@ const UNIT_10_AR = {n:10,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Bahn"
         {type:"drag_fill",s:"Die {1} in Deutschland ist sehr vielfältig: {2} im Süden, {3} in der Mitte und {4} im Norden.",blanks:{"1":"Landschaft","2":"Berge","3":"Wälder","4":"Strände"},pool:["Landschaft","Berge","Wälder","Strände","Kirchen","Ampeln"],hint:"فكّر في الجغرافيا: الألب، الغابة السوداء، بحر الشمال.",sSrc:"المناظر الطبيعية في ألمانيا متنوعة جداً: جبال في الجنوب، غابات في الوسط وشواطئ في الشمال."},
         {type:"mc",q:"Was ist das Hamburger Rathaus?",opts:["Ein Berg in Hamburg","Ein Fluss in Hamburg","Ein Markt in Hamburg","Ein Gebäude für den Stadtrat"],ans:"Ein Gebäude für den Stadtrat",hint:"Rat تعني مجلس، Haus تعني بيت."},
         {type:"story",speaker:"narrator",mood:"warm",art:"de-ber-hbf-brezel",trg:"Verumius isst seine Brezel auf einer Bank. Ein Stadtplan von München liegt auf seinem Schoß. Norden, Süden, Berge, Flüsse. Er kennt jetzt die Wörter. Jetzt muss er nur noch hinkommen.",src:"فيروميوس يأكل بريتسله على مقعد. خريطة مدينة ميونخ على حجره. شمال، جنوب، جبال، أنهار. يعرف الكلمات الآن. عليه فقط أن يصل إلى هناك."},
-        {type:"fb",s:"Das {1} hat mehr Zimmer als der Buckingham-Palast.",a:"Rathaus",opts:["Rathaus","Zentrum","Markt","Kirche"],hint:"فكّر في معنى الكلمة.",sSrc:"البلدية فيها غرف أكتر من قصر باكنغهام."},
-        {type:"mc",q:"Welchen Artikel hat 'Rathaus'?",opts:["der","die","das","den"],ans:"das",hint:"فكّر في معنى الكلمة."}
+        {type:"fb",s:"Das {1} hat mehr Zimmer als der Buckingham-Palast.",a:"Rathaus",opts:["Rathaus","Zentrum","Markt","Kirche"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"البلدية فيها غرف أكتر من قصر باكنغهام."},
+        {type:"mc",q:"Welchen Artikel hat 'Rathaus'?",opts:["der","die","das","den"],ans:"das",hint:"كلمة مركبة تحتوي 'Haus' (بيت/مبنى). السياق يحدد نوع المبنى."}
       ]},
 // ─── L4: Mein Platz! ───
     {id:"deu_r10l3",title:"Mein Platz!",icon:"💺",xp:15,board:true,steps:[
@@ -316,7 +316,7 @@ const UNIT_10_AR = {n:10,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Bahn"
 ],ans:"Ich weiß, dass er den Koffer gepackt hat.",hint:"في الماضي التام داخل جملة dass، الفعل المساعد يأتي أخيراً."},
         {type:"fb",s:"Wenn die Tür {1} ist, kommt kalte Luft herein.",a:"offen",opts:["offen","öffnen","geöffnet","offene"],hint:"صفة تصف حالة الباب.",sSrc:"إذا كان الباب مفتوحاً، يدخل هواء بارد."},
         {type:"fb",s:"Der Zug ist {1}. Es gibt keine freien Plätze mehr.",a:"voll",opts:["voll","offen","direkt","leer"],hint:"صفة تعني ممتلئ تماماً، لا مكان متبقّي.",sSrc:"القطار ممتلئ. لا توجد مقاعد فارغة."},
-        {type:"mc",q:"Gibt es einen {blank} Zug nach Hamburg? أي كلمة تناسب؟",opts:["direkten","offenen","vollen","liefern"],ans:"direkten",hint:"صفة تصف قطاراً يذهب مباشرة إلى الوجهة بدون توقف."},
+        {type:"mc",q:"Gibt es einen {blank} Zug nach Hamburg?",opts:["direkten","offenen","vollen","liefern"],ans:"direkten",hint:"صفة تصف قطاراً يذهب مباشرة إلى الوجهة بدون توقف."},
         {type:"story",speaker:"lukas",mood:"reassuring",art:"de-phone-text",trg:"[SMS von Lukas] Wenn du den Anschluss verpasst, musst du zum Service-Point gehen. Die buchen dich kostenlos um. Das ist das Gesetz.",src:"[رسالة من لوكاس] إذا فاتك قطار الربط، يجب أن تذهب إلى نقطة الخدمة. سيعيدون حجزك مجاناً. هذا هو القانون."},
         {type:"story",speaker:"verumius",mood:"impressed",art:"de-phone-text",trg:"Du kennst dich gut aus.",src:"أنت فعلاً تعرف كل شيء."},
         {type:"story",speaker:"lukas",mood:"wry",art:"de-phone-text",trg:"Ich bin Deutscher. Wir werden mit Verspätung geboren.",src:"أنا ألماني. نحن نولد مع التأخيرات."}

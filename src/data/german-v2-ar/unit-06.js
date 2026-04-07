@@ -425,9 +425,9 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
     {trg:"arbeitslos",src:"عاطل عن العمل"},
     {trg:"der Kurs",src:"الدورة"}
 ]},
-        {type:"fb",s:"Er ist {1}. Er hat keine Arbeit.",a:["arbeitslos"],opts:["arbeitslos","selbständig","kulturell","normal"],hint:"فكّر في معنى الكلمة.",sSrc:"هو عاطل عن العمل. ليس لديه وظيفة."},
-        {type:"mc",q:"How do you say 'workplace' in German?",opts:["die Arbeit","der Arbeitsplatz hier","der Arbeitsplatz","das Arbeiten"],ans:"der Arbeitsplatz",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Which word means 'to become'?",opts:["verdienen","arbeiten","lernen","werden"],ans:"werden",hint:"فكّر في معنى الكلمة."},
+        {type:"fb",s:"Er ist {1}. Er hat keine Arbeit.",a:["arbeitslos"],opts:["arbeitslos","selbständig","kulturell","normal"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هو عاطل عن العمل. ليس لديه وظيفة."},
+        {type:"mc",q:"How do you say 'workplace' in German?",opts:["die Arbeit","der Arbeitsplatz hier","der Arbeitsplatz","das Arbeiten"],ans:"der Arbeitsplatz",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Which word means 'to become'?",opts:["verdienen","arbeiten","lernen","werden"],ans:"werden",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'der Doktor'?",opts:["الطالب (ذكر)","الصف / الفصل","يعمل لحسابه الخاص","الطبيب / الدكتور"],ans:"الطبيب / الدكتور",hint:"شخص يعالج المرضى ويصف الأدوية"}
       ]},
 // ─── L15: Stift und Papier ───
@@ -468,9 +468,9 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
     {trg:"die Aufgabe",src:"المهمّة"},
     {trg:"der Film",src:"الفيلم"}
 ]},
-        {type:"mc",q:"'Kugelschreiber' wird oft abgekürzt als:",opts:["Kugel","Kuli","Schreiber","KS"],ans:"Kuli",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"Was ist das {1} heute?",a:["Thema"],opts:["Thema","Text","Wort","Satz"],hint:"فكّر في معنى الكلمة.",sSrc:"ما موضوع اليوم؟"},
-        {type:"mc",q:"Which word means 'the topic'?",opts:["der Text","der Satz","das Wort","das Thema"],ans:"das Thema",hint:"فكّر في معنى الكلمة."},
+        {type:"mc",q:"'Kugelschreiber' wird oft abgekürzt als:",opts:["Kugel","Kuli","Schreiber","KS"],ans:"Kuli",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"fb",s:"Was ist das {1} heute?",a:["Thema"],opts:["Thema","Text","Wort","Satz"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"ما موضوع اليوم؟"},
+        {type:"mc",q:"Which word means 'the topic'?",opts:["der Text","der Satz","das Wort","das Thema"],ans:"das Thema",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'das Papier'?",opts:["الإعلان / العرض","الموضوع","الإجابة","الورقة"],ans:"الورقة",hint:"شيء مسطح أبيض يُكتب عليه"}
       ]},
 // ─── L17: Am Telefon ───
@@ -509,9 +509,9 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
     {trg:"der Drucker",src:"الطابعة"},
     {trg:"das Lied",src:"الأغنية"}
 ]},
-        {type:"mc",q:"Was ist ein 'Lieblingslied'?",opts:["ein langes Lied","das Lied, das man am meisten mag","ein altes Lied","ein Liebeslied"],ans:"das Lied, das man am meisten mag",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"{1} den grünen Knopf!",a:["Drück"],opts:["Drück","Druck","Benutz","Schreib"],hint:"فكّر في معنى الكلمة.",sSrc:"اضغط الزر الأخضر!"},
-        {type:"mc",q:"What is the German phrase for 'goodbye' on the phone?",opts:["Auf Wiedersehen (formal)","Tschüss","Auf Wiederhören","Bis bald"],ans:"Auf Wiederhören",hint:"فكّر في معنى الكلمة."},
+        {type:"mc",q:"Was ist ein 'Lieblingslied'?",opts:["ein langes Lied","das Lied, das man am meisten mag","ein altes Lied","ein Liebeslied"],ans:"das Lied, das man am meisten mag",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"fb",s:"{1} den grünen Knopf!",a:["Drück"],opts:["Drück","Druck","Benutz","Schreib"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"اضغط الزر الأخضر!"},
+        {type:"mc",q:"What is the German phrase for 'goodbye' on the phone?",opts:["Auf Wiedersehen (formal)","Tschüss","Auf Wiederhören","Bis bald"],ans:"Auf Wiederhören",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'das Internet'?",opts:["يطبع","الطابعة","الأغنية المفضّلة","الإنترنت"],ans:"الإنترنت",hint:"شبكة عالمية تربط الحواسيب ببعضها"},
         {type:"fb",s:"Wie sagt man 'the favorite song' auf Deutsch? {1}",a:["das Lieblingslied"],opts:["das Lieblingslied","das Wiederhören","das Fax","das Gespräch"],hint:"كلمة مركبة: Liebling (مفضل) + Lied (أغنية)",sSrc:"كيف تقول 'the favorite song' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'automatisch'?",opts:["الأغنية المفضّلة","تلقائي","المُرسِل","to use"],ans:"تلقائي",hint:"صفة تصف شيئًا يعمل بنفسه دون تدخل بشري"}
@@ -554,16 +554,16 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"teach",trg:"gewinnen",src:"يفوز / يربح",pos:"verb",gender:null,note:"شاذ بالماضي: gewann، hat gewonnen.",example:"A: Wer hat das Spiel gewonnen?\nB: Deutschland hat drei zu eins gewonnen!",exampleSrc:"أ: مين ربح المباراة؟\nب: ألمانيا ربحت تلاتة لواحد!",funFact:"der Gewinner (الفائز) وder Gewinn (الجائزة/الربح) كلاهما من gewinnen."},
         {type:"teach",trg:"glauben",src:"يعتقد / يؤمن",pos:"verb",gender:null,note:"فعل منتظم. Ich glaube (nicht) = أعتقد (ما أعتقد).",example:"A: Kommt er heute?\nB: Ich glaube nicht. Er ist krank.",exampleSrc:"أ: رح يجي اليوم؟\nب: ما أعتقد. هو مريض.",funFact:"عبارة Ich glaube schon (أعتقد نعم) وIch glaube nicht (ما أعتقد) من أكتر العبارات الألمانية شيوعاً."},
         {type:"teach",trg:"kümmern",src:"يعتني بـ / يهتم بـ",pos:"verb",gender:null,note:"Reflexive: sich kümmern um + accusative. Ich kümmere mich darum.",example:"A: Wer kümmert sich um die Kinder?\nB: Ich kümmere mich heute um sie.",exampleSrc:"أ: مين بيهتم بالأولاد؟\nب: أنا رح اهتم فيهم اليوم.",funFact:"Kummer تعني حزن أو أسى. sich kümmern أصلاً كانت تعني يقلق على شي، هلأ صارت تعني يعتني فيه."},
-        {type:"fb",s:"Ich {1} mich um die Kinder.",a:["kümmere"],opts:["kümmere","glaube","gewinne","lache"],hint:"فكّر في معنى الكلمة.",sSrc:"أنا بهتم بالأولاد."},
+        {type:"fb",s:"Ich {1} mich um die Kinder.",a:["kümmere"],opts:["kümmere","glaube","gewinne","lache"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"أنا بهتم بالأولاد."},
         {type:"teach",trg:"lachen",src:"يضحك",pos:"verb",gender:null,note:"فعل منتظم. !Lach nicht = لا تضحك!",example:"A: Warum lachst du?\nB: Der Film ist so lustig!",exampleSrc:"أ: ليش عم تضحك؟\nب: الفيلم كتير مضحك!",funFact:"الضحك معدي بأي لغة. الألمان عندهم حتى صفوف Lachyoga (يوغا الضحك)."},
         {type:"teach",trg:"leben",src:"يعيش",pos:"verb",gender:null,note:"فعل منتظم. يعني يكون على قيد الحياة / يقيم. das Leben = الحياة.",example:"A: Wo lebst du?\nB: Ich lebe in Hamburg.",exampleSrc:"أ: وين عايش؟\nب: عايش بهامبورغ.",funFact:"leben وwohnen كلاهما يعني 'يعيش'، بس leben أوسع (على قيد الحياة، يوجد) بينما wohnen بالتحديد وين ساكن."},
         {type:"teach",trg:"mitmachen",src:"يشارك",pos:"verb",gender:null,note:"فعل منفصل: ?Machst du mit = بدك تشارك؟",example:"A: Wir spielen Fußball. Machst du mit?\nB: Ja, ich mache gerne mit!",exampleSrc:"أ: عم نلعب كرة قدم. بدك تشارك؟\nب: أكيد، بحب أشارك!",funFact:"mitmachen هي أحلى كلمة دعوة بالألمانية. ?Machst du mit هيك بتبدأ معظم النشاطات."},
         {type:"teach",trg:"treffen",src:"يلتقي",pos:"verb",gender:null,note:"شاذ: du triffst، er trifft. sich treffen = يتقابلوا (انعكاسي).",example:"A: Wann treffen wir uns?\nB: Lass uns um drei Uhr treffen.",exampleSrc:"أ: إيمتى منلتقي؟\nب: يلّا نلتقي الساعة تلاتة.",funFact:"treffen كمان تعني يصيب الهدف. ein Treffer = إصابة أو هدف بكرة القدم."},
         {type:"teach",trg:"tun",src:"يفعل",pos:"verb",gender:null,note:"شاذ: ich tue، du tust، er tut. شائع جداً بالألمانية المحكية.",example:"A: Was tust du gerade?\nB: Ich tue nichts. Ich bin müde.",exampleSrc:"أ: شو عم تعمل هلأ؟\nب: ما عم أعمل شي. أنا تعبان.",funFact:"tun أقل رسمية شوي من machen. عبارة ?Was tun (شو نعمل؟) عبارة ألمانية كلاسيكية للحيرة."},
-        {type:"mc",q:"'Machst du mit?' bedeutet:",opts:["Machst du das kaputt?","Nimmst du teil?","Hast du Spaß?","Bist du fertig?"],ans:"Nimmst du teil?",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Which verb means 'to register or sign up'?",opts:["ausfüllen","abgeben","ankreuzen","anmelden"],ans:"anmelden",hint:"فكّر في معنى الكلمة."},
-        {type:"fb",s:"Ich {1} heute Abend ein bisschen fern.",a:"sehe",opts:["sehe","mache","gebe","fülle"],hint:"فكّر في معنى الكلمة.",sSrc:"بتفرّج شوي على التلفزيون الليلة."},
-        {type:"mc",q:"'Du fehlst mir' means...",opts:["You are wrong","You are late","I miss you","I need you"],ans:"I miss you",hint:"فكّر في معنى الكلمة."},
+        {type:"mc",q:"'Machst du mit?' bedeutet:",opts:["Machst du das kaputt?","Nimmst du teil?","Hast du Spaß?","Bist du fertig?"],ans:"Nimmst du teil?",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Which verb means 'to register or sign up'?",opts:["ausfüllen","abgeben","ankreuzen","anmelden"],ans:"anmelden",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"fb",s:"Ich {1} heute Abend ein bisschen fern.",a:"sehe",opts:["sehe","mache","gebe","fülle"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"بتفرّج شوي على التلفزيون الليلة."},
+        {type:"mc",q:"'Du fehlst mir' means...",opts:["You are wrong","You are late","I miss you","I need you"],ans:"I miss you",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'kümmern'?",opts:["يسمح","ينقر على","يحكي / يروي","يعتني بـ / يهتم بـ"],ans:"يعتني بـ / يهتم بـ",hint:"فعل مع sich: الاهتمام والعناية بشخص أو شيء"}
       ]},
 // ─── L21: Zeit und Feste ───
@@ -602,8 +602,8 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"fb",s:"Herzlichen {1} zum Geburtstag!",a:"Glückwunsch",opts:["Glückwunsch","Glück","Hochzeit","Feiertag"],hint:"هذا الاسم المركّب يجمع بين الحظ والأمنية.",sSrc:"أمنيات عيد ميلاد سعيد!"},
         {type:"mc",q:"أيّ كلمة هي الطريقة الرسمية لقول 'ربيع'؟",opts:["der Frühling","die Frühzeit","das Frühjahr","der Frühstart"],ans:"das Frühjahr",hint:"هذا المركّب يجمع 'مبكر' مع 'سنة.'"},
         {type:"fb",s:"Wann {1} der Kurs? Um neun Uhr.",a:"beginnt",opts:["beginnt","endet","macht","geht"],hint:"هذا الفعل الرسمي لبدء شيء.",sSrc:"متى تبدأ الدورة؟ الساعة التاسعة."},
-        {type:"fb",s:"Bist du in einem {1}?",a:["Verein"],opts:["Verein","Gruppe","Wind","Moment"],hint:"فكّر في معنى الكلمة.",sSrc:"هل أنت في نادٍ؟"},
-        {type:"mc",q:"Which word is the formal way to say 'spring'?",opts:["der Frühling","die Frühzeit","das Frühjahr","der Frühstart"],ans:"das Frühjahr",hint:"فكّر في معنى الكلمة."},
+        {type:"fb",s:"Bist du in einem {1}?",a:["Verein"],opts:["Verein","Gruppe","Wind","Moment"],hint:"بادئة 'ver-' تعدّل معنى الجذر. ما الفعل البسيط الذي تعرفه؟",sSrc:"هل أنت في نادٍ؟"},
+        {type:"mc",q:"Which word is the formal way to say 'spring'?",opts:["der Frühling","die Frühzeit","das Frühjahr","der Frühstart"],ans:"das Frühjahr",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'beginnen'?",opts:["يبدأ","المجموعة","يهنّئ","الربيع (رسمي)"],ans:"يبدأ",hint:"فعل يدل على بداية شيء جديد، عكس aufhören"},
         {type:"fb",s:"Wie sagt man 'to congratulate' auf Deutsch? {1}",a:["gratulieren"],opts:["das Jahr","gratulieren","der Wochentag","das Ende"],hint:"فعل لاتيني الأصل يعني تقديم التهاني",sSrc:"كيف تقول 'to congratulate' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'heiraten'?",opts:["ينتهي","المجموعة","العطلة الرسمية","يتزوج"],ans:"يتزوج",hint:"فعل يتعلق بالزواج وحفل الزفاف"}
@@ -639,7 +639,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"mc",q:"'Bis später' تعني...",opts:["صباح الخير","أراك لاحقًا","وداعاً للأبد","إلى الغد"],ans:"أراك لاحقًا",hint:"Bis تعني حتى. Später تعني في وقت لاحق."},
         {type:"fb",s:"Letzte {1} war ich im Kino.",a:"Woche",opts:["Woche","Tag","Jahr","Monat"],hint:"سبعة أيام تشكّل هذه الفترة الزمنية.",sSrc:"الأسبوع الماضي كنت في السينما."},
         {type:"story",speaker:"narrator",mood:"content",art:"de-altbau-window-sunset",trg:"Abend. Verumius sitzt am Fenster. Warmer Tee, warmes Wasser, warme Wohnung. Draußen leuchtet Berlin. Hildi hatte Recht: am Anfang ist alles schwer. Aber danach wird es leichter. Bis zum nächsten Abenteuer.",src:"المساء. فيروميوس يجلس عند النافذة. شاي دافئ، ماء دافئ، شقة دافئة. بالخارج، برلين تتوهج. هيلدي كانت محقة: في البداية، كل شيء صعب. لكن بعد ذلك، يصبح أسهل. حتى المغامرة القادمة."},
-        {type:"fb",s:"{1} Woche war ich im Kino.",a:["Letzte"],opts:["Letzte","Nächste","Heute","Morgen"],hint:"فكّر في معنى الكلمة.",sSrc:"الأسبوع الماضي كنت في السينما."},
+        {type:"fb",s:"{1} Woche war ich im Kino.",a:["Letzte"],opts:["Letzte","Nächste","Heute","Morgen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"الأسبوع الماضي كنت في السينما."},
         {type:"mc",q:"Was bedeutet 'glücklich'?",opts:["كرة القدم","غائب / بعيد","لاحقًا","سعيد"],ans:"سعيد",hint:"صفة تصف مشاعر الفرح والسعادة"},
         {type:"fb",s:"Wie war das Leben {1}?",a:["früher"],opts:["aus sein","zu sein","tot","früher"],hint:"ظرف زمان يدل على الماضي البعيد، عكس heute",sSrc:"كيف كانت الحياة في الماضي؟"}
       ]}

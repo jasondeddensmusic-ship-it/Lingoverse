@@ -44,9 +44,9 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
     {trg:"Prüfungsangst",src:"قلق الامتحان"},
     {trg:"bestehen",src:"ينجح في الامتحان"}
 ]},
-        {type:"fb",s:"Die {1} für das Schreiben beträgt 75 Minuten.",a:["Bearbeitungszeit"],opts:["Bearbeitungszeit","Prüfungsangst","Prüfungsvorbereitung","Schreibaufgabe"],hint:"فكّر في معنى الكلمة.",sSrc:"الوقت المتاح للكتابة 75 دقيقة."},
-        {type:"mc",q:"Was bedeutet 'strukturieren'?",opts:["قسم الامتحان","يُهيكل","فهم القراءة","فهم الاستماع"],ans:"يُهيكل",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Bist du {1} angekommen?",a:["rechtzeitig"],opts:["durchlesen","die Schreibaufgabe","das Leseverstehen","rechtzeitig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل وصلت في الوقت المناسب؟"}
+        {type:"fb",s:"Die {1} für das Schreiben beträgt 75 Minuten.",a:["Bearbeitungszeit"],opts:["Bearbeitungszeit","Prüfungsangst","Prüfungsvorbereitung","Schreibaufgabe"],hint:"صفة تصف العناية بالتفاصيل. كلمة دولية من اللاتينية.",sSrc:"الوقت المتاح للكتابة 75 دقيقة."},
+        {type:"mc",q:"Was bedeutet 'strukturieren'?",opts:["قسم الامتحان","يُهيكل","فهم القراءة","فهم الاستماع"],ans:"يُهيكل",hint:"فعل بلاحقة '-ieren' مستعار من اللاتينية أو الفرنسية. الجذر دولي."},
+        {type:"fb",s:"Bist du {1} angekommen?",a:["rechtzeitig"],opts:["durchlesen","die Schreibaufgabe","das Leseverstehen","rechtzeitig"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هل وصلت في الوقت المناسب؟"}
       ]},
 // ─── L3: Wortfeld Prüfung ───
     {id:"deu_r35l2",title:"Wortfeld Prüfung",icon:"📖",xp:15,board:true,steps:[
@@ -147,11 +147,11 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
         {type:"drag_fill",s:"Ein guter Aufsatz hat eine {1}, einen {2} und einen {3}.",blanks:{"1":"Einleitung","2":"Hauptteil","3":"Schluss"},pool:["Einleitung","Hauptteil","Schluss","Anfang","Mitte","Ende"],hint:"الأجزاء الرسمية الثلاثة للمقالة الألمانية. المصطلحات التقنية، لا الكلمات اليومية.",sSrc:"المقالة الجيدة تحتوي مقدمة وجزءاً رئيسياً وخاتمة."},
         {type:"mc",q:"'Den Inhalt in eigenen Worten wiedergeben' bedeutet dasselbe wie...",opts:["zusammenfassen","paraphrasieren","nacherzählen","korrigieren"],ans:"paraphrasieren",hint:"صياغة المحتوى بكلماتك الخاصة: الفعل الأكاديمي ذو الأصل اليوناني.",sSrc:"'صياغة المحتوى بكلماتك الخاصة' تعني نفس..."},
         {type:"story",speaker:"narrator",mood:"relieved",art:"de-goethe-exam-room",trg:"Er legt den Stift hin. 248 Wörter. Einleitung, drei Argumente, Fazit. Er liest den Text noch einmal durch, korrigiert zwei Kommafehler. Die Bearbeitungszeit läuft ab. Er gibt das Blatt ab.",src:"يضع القلم جانباً. 248 كلمة. مقدمة، ثلاث حجج، خاتمة. يقرأ النص مرة أخرى، يُصحح خطأين في الفاصلة. الوقت ينتهي. يُسلّم الورقة."},
-        {type:"fb",s:"Zuerst die Ideen sammeln, dann den Text {1}.",a:["zusammenfassen"],opts:["zusammenfassen","nacherzählen","paraphrasieren","überarbeiten"],hint:"فكّر في معنى الكلمة.",sSrc:"اجمع الأفكار أولاً، ثم لخّص النص."},
-        {type:"mc",q:"Was bedeutet 'umformulieren'?",opts:["يُعيد الصياغة","يُراجع، يُعيد صياغة","بنية الجملة","الخاتمة"],ans:"يُعيد الصياغة",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to structure, to divide into sections' auf Deutsch? {1}",a:["gliedern"],opts:["gliedern","die Argumentation","herausarbeiten","der Satzbau"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to structure, to divide into sections' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'herausarbeiten'?",opts:["يبرز، يوضّح","introduction","يُهيكل، يقسّم","conclusion, final assessment"],ans:"يبرز، يوضّح",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Ist die Pr\\u00fcfung {1}?",a:["schriftlich"],opts:["schriftlich","die Textsorte","\\u00fcberarbeiten","herausarbeiten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل الامتحان كتابي؟"}
+        {type:"fb",s:"Zuerst die Ideen sammeln, dann den Text {1}.",a:["zusammenfassen"],opts:["zusammenfassen","nacherzählen","paraphrasieren","überarbeiten"],hint:"بادئة 'zusammen-' تعني 'معاً'. ما الفعل الأساسي؟",sSrc:"اجمع الأفكار أولاً، ثم لخّص النص."},
+        {type:"mc",q:"Was bedeutet 'umformulieren'?",opts:["يُعيد الصياغة","يُراجع، يُعيد صياغة","بنية الجملة","الخاتمة"],ans:"يُعيد الصياغة",hint:"فعل بلاحقة '-ieren' مستعار من اللاتينية أو الفرنسية. الجذر دولي."},
+        {type:"fb",s:"Wie sagt man 'to structure, to divide into sections' auf Deutsch? {1}",a:["gliedern"],opts:["gliedern","die Argumentation","herausarbeiten","der Satzbau"],hint:"فكّر في الكلمة الألمانية المناسبة. راجع الخيارات وتذكّر ما تعلمته.",sSrc:"كيف تقول 'to structure, to divide into sections' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'herausarbeiten'?",opts:["يبرز، يوضّح","introduction","يُهيكل، يقسّم","conclusion, final assessment"],ans:"يبرز، يوضّح",hint:"كلمة مركبة تحتوي 'Arbeit' (عمل). ما الجزء الأول الذي يحدد نوع العمل؟"},
+        {type:"fb",s:"Ist die Pr\\u00fcfung {1}?",a:["schriftlich"],opts:["schriftlich","die Textsorte","\\u00fcberarbeiten","herausarbeiten"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هل الامتحان كتابي؟"}
       ]},
 // ─── L7: Sämtliche Aufgaben ───
     {id:"deu_r35l4",title:"Sämtliche Aufgaben",icon:"📚",xp:15,board:true,steps:[
@@ -207,8 +207,8 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
     "Indem man sämtliche Texte durchliest, versteht man das Thema.",
     "Wenn manche Aufgaben leicht sind, löse ich den Rest leichter."
 ],ans:"Indem man sämtliche Texte durchliest, versteht man das Thema.",hint:"الجملة الصحيحة يجب أن تحتوي جملة أسلوب (تُجيب على كيف) وكلمة تأكيدية رسمية للكلية. افحص كل خيار بحثاً عن الميزتين.",sSrc:"أي جملة تستخدم جملة أسلوب وضميراً نكرةً معاً؟"},
-        {type:"fb",s:"Wenn ein Wort unbekannt ist, kann man es aus dem Kontext {1}.",a:["erschließen"],opts:["erkennen","einordnen","erschließen","markieren"],hint:"فكّر في معنى الكلمة.",sSrc:"عندما تكون الكلمة غير معروفة، يمكنك استنتاجها من السياق."},
-        {type:"mc",q:"Was bedeutet 'der Absatz'?",opts:["paragraph","أنواع مختلفة، متعددة","العنوان","يصنّف"],ans:"paragraph",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"fb",s:"Wenn ein Wort unbekannt ist, kann man es aus dem Kontext {1}.",a:["erschließen"],opts:["erkennen","einordnen","erschließen","markieren"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"عندما تكون الكلمة غير معروفة، يمكنك استنتاجها من السياق."},
+        {type:"mc",q:"Was bedeutet 'der Absatz'?",opts:["paragraph","أنواع مختلفة، متعددة","العنوان","يصنّف"],ans:"paragraph",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."}
       ]},
 // ─── L9: Doch, halt, eben ───
     {id:"deu_r35l5",title:"Doch, halt, eben",icon:"🗣️",xp:15,board:true,steps:[
@@ -257,10 +257,10 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
     "Indem man sämtliche Texte liest, versteht man das Thema halt besser."
 ],ans:"Indem man sämtliche Texte liest, versteht man das Thema halt besser.",hint:"الجملة الصحيحة تجمع الطبقات الثلاث: رابط الجملة الظرفية، وضمير تأكيدي رسمي للشمولية، وأداة قبول. راجع كل خيار بعناية."},
         {type:"story",speaker:"verumius",mood:"relieved",art:"de-goethe-hallway",trg:"Der mündliche Teil ist vorbei. Er hat mit der Prueferin über Digitalisierung diskutiert. Zehn Minuten. Er hat 'nichtsdestotrotz' benutzt. Er hat 'meines Erachtens' gesagt, ohne nachzudenken. Es kam einfach. Er steht im Flur und merkt: Er hat doch Deutsch gelernt.",src:"انتهى قسم الكلام. ناقش مع الممتحن موضوع الرقمنة. عشر دقائق. استخدم 'nichtsdestotrotz.' قال 'meines Erachtens' دون تفكير. جاءت عفواً. يقف في الممر ويُدرك: لقد تعلم الألمانية فعلاً."},
-        {type:"mc",q:"Was bedeutet 'entschlüsseln'?",opts:["شفهي، منطوق","يفك الشفرة","فهم النص","يُرتّب الأولويات"],ans:"يفك الشفرة",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"{1} ist wichtig.",a:["priorisieren"],opts:["priorisieren","das Wortfeld","die Notiz","zuordnen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"تحديد الأولويات مهم."},
-        {type:"mc",q:"Was bedeutet 'kurzgefasst'?",opts:["موجز، مختصر","يدوّن","يفك الشفرة","الكلمة المفتاحية"],ans:"موجز، مختصر",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Das war ein {1}er Ausdruck.",a:["treffend"],opts:["treffend","das Textverständnis","kurzgefasst","priorisieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كان ذلك تعبيراً موفّقاً."}
+        {type:"mc",q:"Was bedeutet 'entschlüsseln'?",opts:["شفهي، منطوق","يفك الشفرة","فهم النص","يُرتّب الأولويات"],ans:"يفك الشفرة",hint:"بادئة 'ent-' تدل على الإزالة أو الابتعاد. ما الجذر الأصلي؟"},
+        {type:"fb",s:"{1} ist wichtig.",a:["priorisieren"],opts:["priorisieren","das Wortfeld","die Notiz","zuordnen"],hint:"فعل بلاحقة '-ieren' مشترك مع لغات أوروبية. السياق يحدد المعنى.",sSrc:"تحديد الأولويات مهم."},
+        {type:"mc",q:"Was bedeutet 'kurzgefasst'?",opts:["موجز، مختصر","يدوّن","يفك الشفرة","الكلمة المفتاحية"],ans:"موجز، مختصر",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"fb",s:"Das war ein {1}er Ausdruck.",a:["treffend"],opts:["treffend","das Textverständnis","kurzgefasst","priorisieren"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"كان ذلك تعبيراً موفّقاً."}
       ]},
 // ─── L11: Nachtspaziergang ───
     {id:"deu_r35l6",title:"Nachtspaziergang",icon:"🌃",xp:15,board:true,steps:[
@@ -322,12 +322,12 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
     "Den Text wörtlich und komplett abschreiben",
     "Nur die Überschrift aufschreiben und nichts weiter",
     "In Stichwörtern und kurzen Punkten notieren"
-],ans:"In Stichwörtern und kurzen Punkten notieren",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'durcharbeiten'?",opts:["يدرس بعمق","إدارة الوقت","إجابة نموذجية","في شكل نقاط"],ans:"يدرس بعمق",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Kann man den Hauptteil {1}?",a:["untergliedern"],opts:["stichpunktartig","durcharbeiten","sprachlich","untergliedern"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"هل يمكنك تقسيم صلب الموضوع؟"},
-        {type:"mc",q:"Was bedeutet 'genügen'?",opts:["نتيجة الامتحان","الرسم البياني","يكفي","اقتراح موضوع"],ans:"يكفي",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie ist seine {1}e Kompetenz?",a:["sprachlich"],opts:["sprachlich","das Zeitmanagement","untergliedern","unvollständig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف كفاءته اللغوية؟"},
-        {type:"mc",q:"Was bedeutet 'umgangssprachlich'?",opts:["واضح، منظم","لغوي","عامي، غير رسمي","إدارة الوقت"],ans:"عامي، غير رسمي",hint:"فكّر في معنى هذه الكلمة في السياق."}
+],ans:"In Stichwörtern und kurzen Punkten notieren",hint:"'Stichpunkt' = نقطة مختصرة. '-artig' = بأسلوب. كتابة مختصرة بنقاط لا جمل كاملة."},
+        {type:"mc",q:"Was bedeutet 'durcharbeiten'?",opts:["يدرس بعمق","إدارة الوقت","إجابة نموذجية","في شكل نقاط"],ans:"يدرس بعمق",hint:"بادئة 'durch-' تعني 'عبر' أو 'بشكل كامل'. ما الجذر؟"},
+        {type:"fb",s:"Kann man den Hauptteil {1}?",a:["untergliedern"],opts:["stichpunktartig","durcharbeiten","sprachlich","untergliedern"],hint:"بادئة 'un-' تنفي المعنى. فكّر في الصفة الأساسية ثم اعكسها.",sSrc:"هل يمكنك تقسيم صلب الموضوع؟"},
+        {type:"mc",q:"Was bedeutet 'genügen'?",opts:["نتيجة الامتحان","الرسم البياني","يكفي","اقتراح موضوع"],ans:"يكفي",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"fb",s:"Wie ist seine {1}e Kompetenz?",a:["sprachlich"],opts:["sprachlich","das Zeitmanagement","untergliedern","unvollständig"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"كيف كفاءته اللغوية؟"},
+        {type:"mc",q:"Was bedeutet 'umgangssprachlich'?",opts:["واضح، منظم","لغوي","عامي، غير رسمي","إدارة الوقت"],ans:"عامي، غير رسمي",hint:"اللاحقة '-lich' تصنع صفة. مشابهة لـ '-ly' في الإنجليزية."}
       ]},
 // ─── L13: Generalprobe ───
     {id:"deu_r35l7",title:"Generalprobe",icon:"🎯",xp:15,board:true,steps:[
@@ -440,11 +440,11 @@ const UNIT_35_AR = {n:35,lang:"de",srcLang:"ar",track:"v2",title:"Prüfung B2",s
     "halt (Resignation: Das ist halt leider nun einmal wirklich so gewesen)",
     "wohl (Unsicherheit: Er ist wohl gerade krank oder vielleicht abwesend)"
 ],ans:"schon (einraeumend: Ja, es war schwer, aber er hat es geschafft.)",hint:"الأداة التي تقول: نعم، كان صعباً، لكن... نجح. تنازل يعقبه انتصار هادئ."},
-        {type:"mc",q:"Was bedeutet 'richtig'?",opts:["مع ذلك","صحيح","في رأيي (رسمي)","يبحث (في مرجع)"],ans:"صحيح",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Meine Grammatik ist noch {1}.",a:["lueckenhaft"],opts:["gegenüberstellen","vornehmlich","unter anderem","lueckenhaft"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"قواعدي لا تزال ناقصة."},
-        {type:"mc",q:"Was bedeutet 'gegenüberstellen'?",opts:["يقارن، يضع جنباً إلى جنب","بالدرجة الأولى","كامل، تام","grammatical"],ans:"يقارن، يضع جنباً إلى جنب",hint:"فكّر في معنى هذه الكلمة في السياق."},
-        {type:"fb",s:"Wie sagt man 'to look up (in a reference)' auf Deutsch? {1}",a:["nachschlagen"],opts:["nachschlagen","lueckenhaft","grammatikalisch","wörtlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to look up (in a reference)' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'das Bewertungskriterium'?",opts:["خاطئ، معيب","في رأيي (رسمي)","يبحث (في مرجع)","معيار التقييم"],ans:"معيار التقييم",hint:"فكّر في معنى هذه الكلمة في السياق."}
+        {type:"mc",q:"Was bedeutet 'richtig'?",opts:["مع ذلك","صحيح","في رأيي (رسمي)","يبحث (في مرجع)"],ans:"صحيح",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"fb",s:"Meine Grammatik ist noch {1}.",a:["lueckenhaft"],opts:["gegenüberstellen","vornehmlich","unter anderem","lueckenhaft"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"قواعدي لا تزال ناقصة."},
+        {type:"mc",q:"Was bedeutet 'gegenüberstellen'?",opts:["يقارن، يضع جنباً إلى جنب","بالدرجة الأولى","كامل، تام","grammatical"],ans:"يقارن، يضع جنباً إلى جنب",hint:"فعل مركب: gegenüber (مقابل) + stellen (يضع). وضع شيئين للمقارنة."},
+        {type:"fb",s:"Wie sagt man 'to look up (in a reference)' auf Deutsch? {1}",a:["nachschlagen"],opts:["nachschlagen","lueckenhaft","grammatikalisch","wörtlich"],hint:"فكّر في الكلمة الألمانية المناسبة. راجع الخيارات وتذكّر ما تعلمته.",sSrc:"كيف تقول 'to look up (in a reference)' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'das Bewertungskriterium'?",opts:["خاطئ، معيب","في رأيي (رسمي)","يبحث (في مرجع)","معيار التقييم"],ans:"معيار التقييم",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."}
       ]}
   ]};
 
