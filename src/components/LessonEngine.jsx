@@ -2430,15 +2430,15 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           {st.example && (()=>{
             const ex = st.example||"";
             const exTrans = st.exampleSrc||st.exampleEn||"";
-            const isDialogue = /[AB]:\s/.test(ex);
+            const isDialogue = /[ABأب]:\s/.test(ex);
             if(isDialogue){
-              const turns = ex.split(/(?=[AB]:\s)/).filter(Boolean);
-              const turnsEn = exTrans.split(/(?=[AB]:\s)/).filter(Boolean);
+              const turns = ex.split(/(?=[ABأب]:\s)/).filter(Boolean);
+              const turnsEn = exTrans.split(/(?=[ABأب]:\s)/).filter(Boolean);
               return <div style={{display:"flex",flexDirection:"column",gap:10,marginBottom:16}}>
                 {turns.map((turn,ti)=>{
-                  const isA = turn.trim().startsWith("A:");
-                  const content = turn.replace(/^[AB]:\s*/,"").trim();
-                  const enC = (turnsEn[ti]||"").replace(/^[AB]:\s*/,"").trim();
+                  const isA = turn.trim().startsWith("A:")||turn.trim().startsWith("أ:");
+                  const content = turn.replace(/^[ABأب]:\s*/,"").trim();
+                  const enC = (turnsEn[ti]||"").replace(/^[ABأب]:\s*/,"").trim();
                   return <div key={ti} style={{display:"flex",justifyContent:isA?"flex-start":"flex-end",paddingLeft:isA?0:30,paddingRight:isA?30:0}}>
                     <div style={{...compBubble,maxWidth:"82%",borderRadius:isA?"20px 20px 20px 6px":"20px 20px 6px 20px",padding:"14px 18px"}}>
                       <div style={glossArc}/>
@@ -2658,7 +2658,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // ── LETTER / WORD / IDIOM cards ──
   // Helper: render letter examples with Hangul purple, operators gray
   const showInContext = teachKind==="word"||teachKind==="idiom"||teachKind==="grammar"||teachKind==="phrase"; // letters and info don't get "In Context"
-  const isDialogueEx = /[AB]:\s/.test(st.example||""); // dialogue examples render as standalone iOS bubbles
+  const isDialogueEx = /[ABأب]:\s/.test(st.example||""); // dialogue examples render as standalone iOS bubbles
   const showEmoji = teachKind==="word"||teachKind==="idiom"; // letters don't show emoji icon
   const isScript = /[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]/.test(st.nl); // Korean/Arabic/CJK = script mode (NOT Latin diacritics like ë, ü, é)
   const letterSize = teachKind==="letter" ? 52 : 36; // letters get extra big display
@@ -2789,13 +2789,13 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               :"linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.1) 60%, transparent 100%)",
             pointerEvents:"none",zIndex:1};
           if(isDialogueEx){
-            const turns=ex.split(/(?=[AB]:\s)/).filter(Boolean);
-            const turnsEn=exEn.split(/(?=[AB]:\s)/).filter(Boolean);
+            const turns=ex.split(/(?=[ABأب]:\s)/).filter(Boolean);
+            const turnsEn=exEn.split(/(?=[ABأب]:\s)/).filter(Boolean);
             return <div style={{display:"flex",flexDirection:"column",gap:10,marginBottom:14}}>
               {turns.map((turn,ti)=>{
-                const isA=turn.trim().startsWith("A:");
-                const content=turn.replace(/^[AB]:\s*/,"").trim();
-                const enC=(turnsEn[ti]||"").replace(/^[AB]:\s*/,"").trim();
+                const isA=turn.trim().startsWith("A:")||turn.trim().startsWith("أ:");
+                const content=turn.replace(/^[ABأب]:\s*/,"").trim();
+                const enC=(turnsEn[ti]||"").replace(/^[ABأب]:\s*/,"").trim();
                 return <div key={ti} style={{display:"flex",justifyContent:isA?"flex-start":"flex-end",paddingLeft:isA?0:30,paddingRight:isA?30:0}}>
                   <div style={{...bubbleStyle,maxWidth:"82%",borderRadius:isA?"20px 20px 20px 6px":"20px 20px 6px 20px"}}>
                     <div style={glossArc}/>
@@ -3111,10 +3111,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           const bS={background:dk?"linear-gradient(180deg, rgba(123,94,232,0.22), rgba(100,80,200,0.14), rgba(80,60,180,0.08))":"linear-gradient(180deg, rgba(200,190,255,0.45), rgba(220,210,255,0.3), rgba(235,230,255,0.18))",borderRadius:20,padding:"14px 18px",position:"relative",overflow:"hidden",border:dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(180,165,240,0.4)",boxShadow:dk?"0 6px 20px rgba(0,0,0,0.3),inset 0 2px 0 rgba(255,255,255,0.07),inset 0 -3px 0 rgba(0,0,0,0.12)":"0 6px 24px rgba(123,94,232,0.1),inset 0 2px 0 rgba(255,255,255,0.75),inset 0 -3px 0 rgba(123,94,232,0.05)"};
           const gA={position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.01),transparent)":"linear-gradient(180deg,rgba(255,255,255,0.55),rgba(255,255,255,0.1),transparent)",pointerEvents:"none",zIndex:1};
           if(isDialogueEx){
-            const turns=ex.split(/(?=[AB]:\s)/).filter(Boolean);
-            const turnsEn=exEn.split(/(?=[AB]:\s)/).filter(Boolean);
+            const turns=ex.split(/(?=[ABأب]:\s)/).filter(Boolean);
+            const turnsEn=exEn.split(/(?=[ABأب]:\s)/).filter(Boolean);
             return <div style={{display:"flex",flexDirection:"column",gap:10,marginBottom:16}}>
-              {turns.map((turn,ti)=>{const isA=turn.trim().startsWith("A:");const content=turn.replace(/^[AB]:\s*/,"").trim();const enC=(turnsEn[ti]||"").replace(/^[AB]:\s*/,"").trim();
+              {turns.map((turn,ti)=>{const isA=turn.trim().startsWith("A:")||turn.trim().startsWith("أ:");const content=turn.replace(/^[ABأب]:\s*/,"").trim();const enC=(turnsEn[ti]||"").replace(/^[ABأب]:\s*/,"").trim();
                 return <div key={ti} style={{display:"flex",justifyContent:isA?"flex-start":"flex-end",paddingLeft:isA?0:30,paddingRight:isA?30:0}}>
                   <div style={{...bS,maxWidth:"82%",borderRadius:isA?"20px 20px 20px 6px":"20px 20px 6px 20px"}}><div style={gA}/><div style={{position:"relative",zIndex:2}}>
                     <div style={{fontSize:15,fontWeight:700,color:dk?"rgba(230,225,245,0.9)":"var(--gray-800)",lineHeight:1.4,display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>{universalHl(content, lang, { noColor: true })}<SpeakerButton text={content} lang={LANG_META[lang]?.ttsLocale||"en-US"} size={13} showToast={showToast}/></div>
