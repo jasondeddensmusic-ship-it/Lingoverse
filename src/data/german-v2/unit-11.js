@@ -105,7 +105,6 @@ const UNIT_11 =
 
 {id:"deu_r11l3",title:"Opa Heinrichs Brötchen",icon:"🍞",xp:15,board:true,steps:[
 {type:"intro",title:"Opa Heinrichs Brötchen",desc:"A man in a wool coat and flat cap appears at the Weihnachtsmarkt. He has bread from this morning and opinions about everything. Meet Opa Heinrich.",goals:["Learn 8 new words for gifts and shopping","Understand adjective endings in nominative case","Use temporal prepositions to talk about time"]},
-
 {type:"story",speaker:"narrator",mood:"anticipating",art:"de-ber-weihnachtsmarkt-bench",trg:"Hildi bleibt an einer Bank neben dem Bratwurststand stehen. Sie schaut in die Menge, als ob sie jemanden sucht. Dann lächelt sie.",src:"Hildi stops at a bench near the bratwurst stand. She looks into the crowd as if searching for someone. Then she smiles."},
 {type:"story",speaker:"narrator",mood:"warm",art:"de-weihnachtsmarkt-opa",trg:"Ein alter Mann kommt langsam durch die Menge. Wollmantel, Schiebermütze, eine Tüte Brötchen unter dem Arm. Er sieht Hildi und winkt. 'Von heute Morgen,' sagt er und hält die Tüte hoch. 'Noch frisch!'",src:"An old man comes slowly through the crowd. Wool coat, flat cap, a bag of bread rolls under his arm. He sees Hildi and waves. 'From this morning,' he says, holding up the bag. 'Still fresh!'"},
 {type:"story",speaker:"hildi",mood:"proud",trg:"Verumius, das ist mein Opa Heinrich. Opa, das ist Verumius. Er lernt Deutsch.",src:"Verumius, this is my grandpa Heinrich. Grandpa, this is Verumius. He is learning German."},
@@ -123,6 +122,10 @@ const UNIT_11 =
   pos:"noun",
   gender:"f",src:"the fashion",note:"Feminine noun. From French 'mode.'",example:"A: Ist diese Mode noch modern?\nB: Ja, vor zwei Wochen war sie auf Instagram!",exampleSrc:"A: Is this fashion still modern?\nB: Yes, two weeks ago it was on Instagram!",funFact:"'Mode' and 'modern' share the same Latin root 'modus' (way, style). In German, 'altmodisch' (old-fashioned) literally means 'old-mode-ish.'"},
 {type:"mc",q:"Opa Heinrich says 'Von heute Morgen, noch frisch!' What is he talking about?",opts:["His bread rolls","His wool coat","His flat cap","His necklace"],ans:"His bread rolls",hint:"He is carrying a bag of something baked under one arm."},
+{type:"mc",q:"Wo finde ich gute ___? Am neuen Stand auf dem Markt.",opts:["Kosmetik","Mode","Kette","Parfüm"],ans:"Kosmetik",hint:"This feminine noun covers beauty products like makeup and skincare."}
+]},
+{id:"deu_r11l3b",title:"Opa Heinrichs Brötchen (Teil 2)",icon:"🍞",xp:15,board:true,steps:[
+{type:"intro",title:"Opa Heinrichs Brötchen (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"die Ferien",
   pos:"noun",
   gender:"pl",src:"the holidays / the vacation",note:"Always plural in German. No singular form.",example:"A: Was machst du in den Ferien?\nB: Während der Ferien fahre ich nach Spanien.",exampleSrc:"A: What are you doing during the holidays?\nB: During the holidays I'm going to Spain.",funFact:"'Ferien' is always plural. For a single day off, Germans say 'Feiertag' (celebration-day). School holidays are 'Schulferien,' and summer break is 'Sommerferien.'"},
@@ -154,10 +157,10 @@ const UNIT_11 =
 {type:"fb",s:"{1} der Ferien fahre ich nach Spanien.",a:["Während"],opts:["Während","Seit","Vor","Ab"],hint:"Which preposition means 'during' and takes the genitive case?",sSrc:"During the holidays I am travelling to Spain."},
 {type:"drag_fill",s:"{1} Brötchen sind {2} heute Morgen.",blanks:{"1":"Die frischen","2":"von"},pool:["Die frischen","Das frische","Der frischer","von","vor","nach"],hint:"Definite article + plural adjective ending? And 'from' this morning?",sSrc:"The fresh rolls are from this morning."},
 {type:"match",pairs:[{trg:"die Kette",src:"the necklace"},{trg:"schenken",src:"to give (as gift)"},{trg:"wünschen",src:"to wish"},{trg:"die Ferien",src:"the holidays"},{trg:"vor",src:"ago / before"},{trg:"seit",src:"since / for"}]},
-
 {type:"story",speaker:"opa",mood:"nostalgic",trg:"Hier, frische Brötchen für alle! Seit fünfzig Jahren kaufe ich beim gleichen Bäcker. Vor dem Krieg war der Laden noch klein. Während der Ferien backt er sogar Stollen!",src:"Here, fresh rolls for everyone! For fifty years I have been buying from the same baker. Before the war the shop was still small. During the holidays he even bakes Stollen!"},
 {type:"story",speaker:"verumius",mood:"touched",art:"de-ber-weihnachtsmarkt-broetchen",trg:"Verumius beißt in das Brötchen. Es ist frisch, weich und noch ein bisschen warm. Er sieht Heinrich an. Er sieht Hildi an. Er sagt nichts. Aber er lächelt.",src:"Verumius bites into the bread roll. It is fresh, soft, and still a little warm. He looks at Heinrich. He looks at Hildi. He says nothing. But he smiles."},
-{type:"mc",q:"Opa Heinrich says 'Seit fünfzig Jahren kaufe ich beim gleichen Bäcker.' How long has he been going to the same baker?",opts:["For five years","For fifty years","For fifteen years","Since his birthday"],ans:"For fifty years",hint:"'Fünfzig' is the German word for a number between 49 and 51."}
+{type:"mc",q:"Opa Heinrich says 'Seit fünfzig Jahren kaufe ich beim gleichen Bäcker.' How long has he been going to the same baker?",opts:["For five years","For fifty years","For fifteen years","Since his birthday"],ans:"For fifty years",hint:"'Fünfzig' is the German word for a number between 49 and 51."},
+{type:"mc",q:"Was bedeutet 'der Flohmarkt'?",opts:["the perfume","the flea market","to give (as a gift)","the necklace / the chain"],ans:"the flea market",hint:"Think about the meaning of this word in context."}
 ]},
 
 // U11 L4: Der rote Schal - Grammar: Adjective declension (acc/dat), possessives, Konjunktiv II
@@ -198,7 +201,8 @@ const UNIT_11 =
 
 {label:"With indefinite article (einem/einer/einem)",rows:[{pronoun:"Masculine",form:"einem rot-en Schal",src:"a red scarf (-en)"},{pronoun:"Feminine",form:"einer rot-en M\u00fctze",src:"a red hat (-en)"},{pronoun:"Neuter",form:"einem rot-en Kleid",src:"a red dress (-en)"}]}],note:"Dative is the EASY case for adjectives: EVERY ending is -en. Always. No exceptions. Masculine, feminine, neuter, definite, indefinite: always -en."},
 {type:"tip",title:"Dative Shortcut: Always -en!",text:"Dative adjective endings are the simplest in German:\n\ndem kalten Wind = -en\nder warmen Suppe = -en\ndem alten Haus = -en\neinem neuen Freund = -en\n\nAll genders. All article types. Always -en.\nThis is the one case you can learn in five seconds.",deepDive:"Why always -en? In dative, the article itself already shows the gender clearly (dem = masc/neut, der = fem). The adjective does not need to carry extra gender information, so it relaxes to the default -en ending. Less work for the adjective when the article is already doing the job."},
-{type:"fb",s:"Ich gebe es dem klein{1} Kind.",a:["en"],opts:["en","e","es","em"],hint:"In dative, adjective endings follow one universal rule for all genders.",sSrc:"I give it to the small child."}
+{type:"fb",s:"Ich gebe es dem klein{1} Kind.",a:["en"],opts:["en","e","es","em"],hint:"In dative, adjective endings follow one universal rule for all genders.",sSrc:"I give it to the small child."},
+{type:"fb",s:"Lass uns die zwei Schals {1}.",a:"vergleichen",opts:["vergleichen","beschreiben","wechseln","ansehen"],hint:"This verb means to check two things side by side for differences.",sSrc:"Let's compare the two scarves."}
 ]},
 
 // ─── Lesson: Besitz und Wünsche ───
@@ -405,12 +409,12 @@ const UNIT_11 =
 {type:"mc",q:"'Wenn es nicht so kalt wäre, könnten wir draußen sitzen.' Was drückt 'könnten' aus?",opts:["Eine hypothetische Möglichkeit","Eine tatsächliche Fähigkeit im Alltag","Eine vergangene Fähigkeit aus der Jugend","Einen konkreten Zukunftsplan für morgen"],ans:"Eine hypothetische Möglichkeit",hint:"The whole sentence describes an unreal condition. The verb form matches."},
 {type:"drag_fill",s:"Heinrich schenkt {1} Enkelin {2} bequemen Schal und erzählt von {3} Kindheit.",blanks:{"1":"seiner","2":"einen","3":"seiner"},pool:["seiner","seiner","einen","eine","seinem","ihren"],hint:"Dative fem. possessive (to whom?) + accusative masc. (what?) + dative fem. possessive after 'von.'",sSrc:"Heinrich gives his granddaughter a comfortable scarf and tells of his childhood."},
 {type:"fb",s:"Wenn ich Deutsch perfekt sprechen {1}, wäre das wunderbar.",a:"könnte",opts:["könnte","kann","konnte","können"],hint:"Irregular Konjunktiv II of 'können' for a hypothetical ability.",sSrc:"If I could speak German perfectly, that would be wonderful."},
-{type:"match",pairs:[{trg:"der rote Schal",src:"the red scarf (nom.)"},{trg:"den roten Schal",src:"the red scarf (acc.)"},{trg:"dem roten Schal",src:"the red scarf (dat.)"},{trg:"ein roter Schal",src:"a red scarf (nom.)"},{trg:"einen roten Schal",src:"a red scarf (acc.)"},{trg:"einem roten Schal",src:"a red scarf (dat.)"}]}
+{type:"match",pairs:[{trg:"der rote Schal",src:"the red scarf (nom.)"},{trg:"den roten Schal",src:"the red scarf (acc.)"},{trg:"dem roten Schal",src:"the red scarf (dat.)"},{trg:"ein roter Schal",src:"a red scarf (nom.)"},{trg:"einen roten Schal",src:"a red scarf (acc.)"},{trg:"einem roten Schal",src:"a red scarf (dat.)"}]},
+{type:"mc",q:"Was bedeutet 'sterben'?",opts:["to die","to be born","to run","to drive"],ans:"to die",hint:"An irregular strong verb. Perfekt with sein: ist gestorben."}
 ]},
 
 {id:"deu_r11l11",title:"Durch den Schnee",icon:"❄️",xp:15,board:true,steps:[
 {type:"intro",title:"Durch den Schnee",desc:"Walking home through snowy Berlin after the Weihnachtsmarkt. Heinrich's bread in the bag, warmth in the heart.",goals:["Personality and character adjectives","Time expressions beyond today","Everyday verbs for learning"]},
-
 {type:"story",speaker:"narrator",mood:"happy",art:"de-snowy-street",trg:"Schnee auf den Straßenlaternen. Schnee auf den parkenden Autos. Schnee auf Verumius' Schultern. In der Tasche: Heinrichs Brötchen. Im Herzen: Wärme. Er geht langsam nach Hause.",src:"Snow on the streetlamps. Snow on the parked cars. Snow on Verumius's shoulders. In the bag: Heinrich's bread rolls. In the heart: warmth. He walks slowly home."},
 {type:"story",speaker:"narrator",mood:"quiet-content",art:"de-ber-snowy-street-door",trg:"An der Haustür dreht er sich um. Die Stadt ist still. Nur der Schnee fällt. Morgen wird er neue Wörter lernen. Aber heute Nacht reichen die alten.",src:"At the front door he turns around. The city is quiet. Only the snow falls. Tomorrow he will learn new words. But tonight, the old ones are enough."},
 {type:"teach",trg:"egal",
@@ -444,6 +448,11 @@ const UNIT_11 =
   pos:"adj",
   gender:null,src:"own",note:"Mein eigenes Zimmer = my own room.",example:"A: Hast du eine eigene Wohnung?\nB: Nein, nur ein eigenes Zimmer.",exampleSrc:"A: Do you have your own apartment?\nB: No, just my own room.",funFact:"Eigentum, Eigenschaft, eigenartig. 'Eigen' spawns dozens of compound words."},
 {type:"mc",q:"'Sprechen Sie deutlich' asks someone to:",opts:["speak quietly","speak clearly","speak German","speak faster"],ans:"speak clearly",hint:"You want to understand every word. Clear and distinct."},
+{type:"fb",s:"Ist die Teilnahme {1}? Ja, niemand muss kommen.",a:"freiwillig",opts:["freiwillig","verschieden","streng","deutlich"],hint:"This adjective means nobody is forced. It is entirely optional.",sSrc:"Is participation voluntary? Yes, nobody has to come."},
+{type:"mc",q:"Ich habe meinen Schlüssel vergessen. Das ist ___!",opts:["blöd","faul","eigen","egal"],ans:"blöd",hint:"A mild, colloquial word meaning annoying or silly."}
+]},
+{id:"deu_r11l11b",title:"Durch den Schnee (Teil 2)",icon:"❄️",xp:15,board:true,steps:[
+{type:"intro",title:"Durch den Schnee (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"damals",
   pos:"adv",
   gender:null,src:"back then / at that time",note:"Temporal adverb for the past. Damals war alles anders.",example:"A: Damals gab es kein Internet.\nB: Wirklich? Wie habt ihr kommuniziert?\nA: Mit Briefen!",exampleSrc:"A: Back then there was no internet.\nB: Really? How did you communicate?\nA: With letters!",funFact:"Heinrich says 'damals' constantly. For someone born in the 1930s, it covers a LOT of history."},
@@ -476,9 +485,12 @@ const UNIT_11 =
   pos:"adj",
   gender:null,src:"doesn't matter (colloquial)",example:"A: Willst du Pizza oder Pasta?\nB: Das ist mir wurscht!\nA: Na gut, dann Pizza.",exampleSrc:"A: Do you want pizza or pasta?\nB: I don't care!\nA: Alright, pizza then.",note:"Colloquial southern German variant of 'egal.' Very common in Bavaria and Austria. From Wurst (sausage).",funFact:"'Das ist mir Wurst' or 'wurscht' literally means 'that is sausage to me.' Nobody knows exactly why sausage means indifference, but it has been used since the 1800s."},
 {type:"match",pairs:[{trg:"egal",src:"doesn't matter"},{trg:"streng",src:"strict"},{trg:"faul",src:"lazy"},{trg:"deutlich",src:"clear"},{trg:"damals",src:"back then"},{trg:"übermorgen",src:"day after tomorrow"},{trg:"üben",src:"to practice"},{trg:"zeigen",src:"to show"}]},
-
 {type:"tip",title:"German Christmas Traditions",text:"Weihnachten starts December 24 (Heiligabend), not December 25.\n\n- Adventskranz: 4 candles, one lit each Sunday before Christmas\n- Adventskalender: 24 doors, one per day in December\n- Nikolaus (Dec 6): shoes by the door, filled with sweets\n- Heiligabend: family dinner, gifts, church\n- Weihnachtsgans: roast goose, the traditional Christmas meal\n- Stille Nacht: world's most famous carol, written in Austria 1818",deepDive:"The Weihnachtsmarkt tradition dates to the 14th century. Dresden's Striezelmarkt (1434) is the oldest. Every city has one. Many Germans visit 5-10 different markets each season."},
-{type:"mc",q:"Walking through snow, Verumius feels:",opts:["cold and lonely walking in the dark","angry about the freezing cold weather","warm and content, like he belongs","worried about what tomorrow may bring"],ans:"warm and content, like he belongs",hint:"Bread from a friend in the bag. A glow from the market in the chest."}
+{type:"mc",q:"Walking through snow, Verumius feels:",opts:["cold and lonely walking in the dark","angry about the freezing cold weather","warm and content, like he belongs","worried about what tomorrow may bring"],ans:"warm and content, like he belongs",hint:"Bread from a friend in the bag. A glow from the market in the chest."},
+{type:"mc",q:"Was bedeutet 'aussprechen'?",opts:["strict","to pronounce","lazy","own"],ans:"to pronounce",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Hildi ist {1}, oder?",a:["blond"],opts:["blond","verschieden","deutlich","der Witz"],hint:"Which word fits in this context?",sSrc:"Hildi is blond, right?"},
+{type:"mc",q:"Was bedeutet 'einmal'?",opts:["lazy","strict","once / one time","to practice"],ans:"once / one time",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Das ist mir {1}!",a:["wurscht"],opts:["eigen","streng","wurscht","blond"],hint:"Which word fits in this context?",sSrc:"I don't care!"}
 ]}
 
 

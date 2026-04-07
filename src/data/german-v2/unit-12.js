@@ -60,7 +60,8 @@ const UNIT_12 =
 {type:"mc",q:"Which sentence correctly uses 'meinen' to express an opinion?",opts:["Ich meine, das Café ist schön.","Ich meine nach Berlin.","Ich meine einen Kaffee.","Ich meine um drei Uhr."],ans:"Ich meine, das Café ist schön.",hint:"This verb introduces a personal opinion or belief."},
 {type:"match",pairs:[{trg:"die Meinung",src:"the opinion"},{trg:"die Erfahrung",src:"the experience"},{trg:"die Nachricht",src:"the news/message"},{trg:"hoffen",src:"to hope"},{trg:"denken",src:"to think"},{trg:"meinen",src:"to mean/think (opinion)"}]},
 {type:"drag_fill",s:"Ich {1}, dass du eine gute {2} hast. {3} Meinung nach ist das eine tolle {4}.",blanks:{"1":"denke","2":"Idee","3":"Meiner","4":"Erfahrung"},pool:["denke","Idee","Meiner","Erfahrung","hoffe","Geschichte","Seiner","Qualität"],hint:"Build a sentence combining thinking, ideas, opinions, and experiences.",sSrc:"I think that you have a good idea. In my opinion that is a great experience."},
-{type:"story",speaker:"yilmaz",mood:"warm",art:"de-literaturcafe-goodbye",trg:"Verumius, du hast dich verändert. Am Anfang warst du nervös und unsicher. Jetzt sitzt du hier und redest über Meinungen und Erfahrungen. Auf Deutsch. Ich bin stolz auf dich.",src:"Verumius, you have changed. In the beginning you were nervous and insecure. Now you sit here and talk about opinions and experiences. In German. I am proud of you."}
+{type:"story",speaker:"yilmaz",mood:"warm",art:"de-literaturcafe-goodbye",trg:"Verumius, du hast dich verändert. Am Anfang warst du nervös und unsicher. Jetzt sitzt du hier und redest über Meinungen und Erfahrungen. Auf Deutsch. Ich bin stolz auf dich.",src:"Verumius, you have changed. In the beginning you were nervous and insecure. Now you sit here and talk about opinions and experiences. In German. I am proud of you."},
+{type:"fb",s:"Ich habe morgen ein {1} für den neuen Job.",a:"Interview",opts:["Interview","Erfahrung","Meinung","Nachricht"],hint:"A formal meeting where someone asks you questions about a position.",sSrc:"I have an interview tomorrow for the new job."}
 ]}
 ,
 
@@ -477,8 +478,6 @@ const UNIT_12 =
 // ─── L8: Entscheidungen und Eigenschaften ───
 {id:"deu_r12l11",title:"Entscheidungen und Eigenschaften",icon:"⚖️",xp:10,board:true,steps:[
 {type:"intro",title:"Entscheidungen und Eigenschaften",desc:"More action verbs for formal situations: confirming, prohibiting, postponing. Plus adjectives and adverbs to describe your life in Germany.",goals:["Use formal action verbs: bestehen, bestätigen, verbieten, verschieben","Learn everyday adjectives: preiswert, stressig, schrecklich","Master useful adverbs: nirgends, wenigstens, einverstanden"]},
-
-// ─── Group 4: Remaining Essential Verbs ───
 {type:"teach",trg:"bestehen",
   pos:"verb",
   gender:null,src:"to pass (an exam) / to exist",note:"Irregular: bestand, bestanden. 'Die Prüfung bestehen' = to pass the exam.",example:"A: Hast du die Prüfung bestanden?\nB: Ja, ich habe sie bestanden!",exampleSrc:"A: Did you pass the exam?\nB: Yes, I passed it!",funFact:"'Bestehen' has two very different meanings: 'to pass' (an exam) and 'to exist/consist of.' 'Das Problem besteht seit Jahren' = The problem has existed for years."},
@@ -493,8 +492,6 @@ const UNIT_12 =
   gender:null,src:"to postpone / to move to a later date",note:"Irregular: verschob, verschoben. Inseparable prefix.",example:"A: Wir müssen das Meeting verschieben.\nB: Auf wann verschieben wir es?",exampleSrc:"A: We have to postpone the meeting.\nB: To when shall we postpone it?",funFact:"Literally 'to push away.' 'Ver-' intensifies + 'schieben' (to push). Germans also say 'auf die lange Bank schieben' (to push onto the long bench) for procrastinating."},
 {type:"mc",q:"A sign says 'Fotografieren verboten.' What must you NOT do?",opts:["Eat here","Park here","Take photos","Enter this area"],ans:"Take photos",hint:"'Fotografieren' looks very similar to its English equivalent."},
 {type:"fb",s:"Können wir das Meeting auf Freitag {1}?",a:["verschieben"],opts:["verschieben","verbieten","bestehen","bestätigen"],hint:"Which verb means to push an event to a later time?",sSrc:"Can we postpone the meeting to Friday?"},
-
-// ─── Group 5: Final Verbs ───
 {type:"teach",trg:"lügen",
   pos:"verb",
   gender:null,src:"to lie (tell an untruth)",note:"Irregular: log, gelogen. Ich lüge, du lügst.",example:"A: Lügst du?\nB: Nein, ich lüge nie!",exampleSrc:"A: Are you lying?\nB: No, I never lie!",funFact:"'Lügen' and English 'lie' are direct cousins from the same Germanic root. The saying 'Lügen haben kurze Beine' (lies have short legs) means lies don't get you far."},
@@ -510,7 +507,10 @@ const UNIT_12 =
 {type:"mc",q:"'Es tut mir leid, ich kann heute nicht kommen.' What is the speaker expressing?",opts:["Excitement about coming","A request to come later","A complaint about the event","An apology for not being able to come"],ans:"An apology for not being able to come",hint:"The phrase at the beginning expresses regret or sorrow."},
 {type:"drag_fill",s:"Wie {1} man das auf Deutsch? Man {2} es 'Rathaus.'",blanks:{"1":"nennt","2":"nennt"},pool:["nennt","merkt","lügt","sagt"],hint:"Both blanks need the same verb meaning 'to call or name.'",sSrc:"How do you call that in German? You call it 'Rathaus.'"},
 {type:"match",pairs:[{trg:"ändern",src:"to change"},{trg:"kündigen",src:"to quit"},{trg:"übersetzen",src:"to translate"},{trg:"sich bewerben",src:"to apply"},{trg:"verbieten",src:"to forbid"},{trg:"leidtun",src:"to be sorry"},{trg:"bestätigen",src:"to confirm"},{trg:"verschieben",src:"to postpone"}]},
-{type:"match",pairs:[{trg:"beantworten",src:"to answer"},{trg:"berichten",src:"to report"},{trg:"beraten",src:"to advise"},{trg:"sich bedanken",src:"to thank"},{trg:"sich beschweren",src:"to complain"},{trg:"bestehen",src:"to pass (exam)"},{trg:"lügen",src:"to lie"},{trg:"merken",src:"to notice"}]},
+{type:"match",pairs:[{trg:"beantworten",src:"to answer"},{trg:"berichten",src:"to report"},{trg:"beraten",src:"to advise"},{trg:"sich bedanken",src:"to thank"},{trg:"sich beschweren",src:"to complain"},{trg:"bestehen",src:"to pass (exam)"},{trg:"lügen",src:"to lie"},{trg:"merken",src:"to notice"}]}
+]},
+{id:"deu_r12l11b",title:"Entscheidungen und Eigenschaften (Teil 2)",icon:"⚖️",xp:15,board:true,steps:[
+{type:"intro",title:"Entscheidungen und Eigenschaften (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"eintragen",
   pos:"verb",
   gender:null,src:"to register / to enter (data)",example:"A: Tragen Sie bitte Ihren Namen ein.\nB: Hier? In diese Zeile?\nA: Ja, genau dort.",exampleSrc:"A: Please enter your name.\nB: Here? On this line?\nA: Yes, right there.",note:"Separable: ich trage ein. Used for forms, lists, and calendars.",funFact:"Germans love forms. 'Bitte eintragen' (please fill in) appears on every official document."},
@@ -543,7 +543,13 @@ const UNIT_12 =
 {type:"teach",trg:"einverstanden",
   pos:"adj",
   gender:null,src:"agreed / in agreement",example:"A: Treffen wir uns um drei?\nB: Einverstanden!\nA: Super, bis dann!",exampleSrc:"A: Shall we meet at three?\nB: Agreed!\nA: Great, see you then!",note:"Ein + verstanden (understood). 'Ich bin einverstanden' = I agree. Very formal.",funFact:"On contracts: 'Hiermit erkläre ich mich einverstanden' (I hereby declare my agreement). The most German sentence ever written."},
-{type:"story",speaker:"verumius",mood:"proud",art:"de-montage-pfand",trg:"Bewerben, beenden, sich beschweren, kündigen. Vor sechs Monaten waren das nur Wörter im Wörterbuch. Jetzt sind es Werkzeuge. Meine Werkzeuge.",src:"Apply, finish, complain, quit. Six months ago those were just words in a dictionary. Now they are tools. My tools."}
+{type:"story",speaker:"verumius",mood:"proud",art:"de-montage-pfand",trg:"Bewerben, beenden, sich beschweren, kündigen. Vor sechs Monaten waren das nur Wörter im Wörterbuch. Jetzt sind es Werkzeuge. Meine Werkzeuge.",src:"Apply, finish, complain, quit. Six months ago those were just words in a dictionary. Now they are tools. My tools."},
+{type:"mc",q:"Was bedeutet 'eintragen'?",opts:["agreed / in agreement","to register / to enter (data)","stressful","private"],ans:"to register / to enter (data)",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Hast du das {1}e Buch gelesen?",a:["ganz"],opts:["einverstanden","ganz","preiswert","privat"],hint:"Which word fits in this context?",sSrc:"Did you read the whole book?"},
+{type:"mc",q:"Was bedeutet 'schrecklich'?",opts:["to lie (tell an untruth)","private","terrible / dreadful","affordable / good value"],ans:"terrible / dreadful",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"{1}! Ich habe überall gesucht.",a:["nirgends"],opts:["schrecklich","nirgends","wenigstens","bestätigen"],hint:"Which word fits in this context?",sSrc:"Nowhere! I looked everywhere."},
+{type:"mc",q:"Was bedeutet 'wenigstens'?",opts:["to be sorry","nowhere","to pass (an exam) / to exist","at least"],ans:"at least",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"{1}!",a:["einverstanden"],opts:["eintragen","merken","bestehen","einverstanden"],hint:"Which word fits in this context?",sSrc:"Agreed!"}
 ]}
 ,
 
@@ -602,7 +608,8 @@ const UNIT_12 =
   pos:"noun",
   gender:"f",src:"university",phonetic:"oo-nee-ver-zee-TAYT",example:"A: An welcher Universität studierst du?\nB: Ich studiere an der Universität München.",exampleSrc:"A: At which university do you study?\nB: I study at the University of Munich.",note:"Feminine. Often shortened to Uni in everyday speech.",funFact:"The oldest German Universität is Heidelberg, founded in 1386."},
 {type:"fb",s:"Möchtest du eine {1} Tee?",a:"Tasse",opts:["Tasse","Seite","Geldbörse","Note"],hint:"A container you drink from.",sSrc:"Would you like a cup of tea?"},
-{type:"match",pairs:[{trg:"das Fach",src:"subject/compartment"},{trg:"die Geldbörse",src:"wallet"},{trg:"der Supermarkt",src:"supermarket"},{trg:"das Taschengeld",src:"pocket money"},{trg:"die Universität",src:"university"}]}
+{type:"match",pairs:[{trg:"das Fach",src:"subject/compartment"},{trg:"die Geldbörse",src:"wallet"},{trg:"der Supermarkt",src:"supermarket"},{trg:"das Taschengeld",src:"pocket money"},{trg:"die Universität",src:"university"}]},
+{type:"mc",q:"Dieses ___ ist sehr beliebt in Deutschland.",opts:["Produkt","Fach","Taschengeld","Supermarkt"],ans:"Produkt",hint:"A neuter noun meaning something manufactured or created for sale."}
 ]},
 
 // ─── L10: Beschreibungen und Abschluss ───
@@ -806,7 +813,8 @@ const UNIT_12 =
 {type:"mc",q:"'Die Nachbarn sind freundlich.' Was bedeutet 'freundlich'?",opts:["rather sad","quite strange","friendly","a bit loud"],ans:"friendly",hint:"This adjective comes from the noun 'Freund' (friend) with a -lich suffix."},
 {type:"fb",s:"Ich kann morgen nicht kommen. Das ist {1}!",a:["schade"],opts:["schade","genau","doch","natürlich"],hint:"Which word expresses pity or regret about the situation?",sSrc:"I cannot come tomorrow. That is too bad!"},
 {type:"mc",q:"'Er kommt wahrscheinlich morgen.' What does 'wahrscheinlich' mean?",opts:["definitely","never","unfortunately","probably"],ans:"probably",hint:"This 17-letter word breaks down to wahr (true) + scheinlich (seeming)."},
-{type:"match",pairs:[{trg:"freundlich",src:"friendly"},{trg:"traurig",src:"sad"},{trg:"wirklich",src:"really"},{trg:"doch",src:"yes (contradicting)"},{trg:"deshalb",src:"therefore"},{trg:"genau",src:"exactly"},{trg:"kostenlos",src:"free"},{trg:"natürlich",src:"of course"}]}
+{type:"match",pairs:[{trg:"freundlich",src:"friendly"},{trg:"traurig",src:"sad"},{trg:"wirklich",src:"really"},{trg:"doch",src:"yes (contradicting)"},{trg:"deshalb",src:"therefore"},{trg:"genau",src:"exactly"},{trg:"kostenlos",src:"free"},{trg:"natürlich",src:"of course"}]},
+{type:"fb",s:"Es gibt {1} Bäckereien in Deutschland.",a:"überall",opts:["überall","deshalb","wirklich","natürlich"],hint:"This adverb means in every place, no matter where you go.",sSrc:"There are bakeries everywhere in Germany."}
 ]},
 
 // ─── U12 L13b: Der A2-Abschluss ───
@@ -838,7 +846,8 @@ const UNIT_12 =
 {type:"story",speaker:"mia",mood:"sincere",art:"de-phone-mia",trg:"Weißt du, was mich am meisten beeindruckt? Nicht dein Deutsch. Sondern dass du geblieben bist. Dass du es jeden Tag wieder versucht hast. Das ist echte Stärke.",src:"You know what impresses me the most? Not your German. But that you stayed. That you tried again every day. That is real strength."},
 {type:"story",speaker:"narrator",mood:"happy",art:"de-couch-night",trg:"Verumius legt das Handy hin. Sechs Monate. Eine Wohnung. Freunde. Eine Sprache, die langsam seine wird. Er denkt an die Ankunft am Flughafen. Den falschen Zug. Die 14-seitige Hausordnung. Den Müll. Den Arzt. Den Lauftreff. Die Deutsche Bahn. Den Glühwein. Und jetzt: KD hat gelacht. Alles ist möglich. Er will bleiben.",src:"Verumius puts down the phone. Six months. An apartment. Friends. A language that is slowly becoming his. He thinks about arriving at the airport. The wrong train. The 14-page house rules. The trash. The doctor. The running club. Deutsche Bahn. The Glühwein. And now: KD laughed. Anything is possible. He wants to stay."},
 {type:"tip",title:"A2 Complete: Verumius Belongs",text:"Unit 12 is the end of A2.\n\nVerumius can now:\n1. Talk about the past (Perfekt, Prateritum modals)\n2. Express opinions (Ich denke, dass...)\n3. Compare things (besser als, am besten)\n4. Describe people and objects (adjective declension)\n5. Navigate German bureaucracy\n6. Have real conversations with friends\n\nBut A2 is just daily communication.\nB1 is where adventure begins.\n\n'Ich will bleiben. Das bedeutet: einen Job.'",deepDive:"A2 covered 612 Goethe words and 25 grammar constructs. Verumius has grown from tourist to resident. The next challenge: professional German, job applications, and deeper cultural integration."},
-{type:"mc",q:"What has Verumius decided at the end of this chapter?",opts:["He wants to go home","He wants to move to Munich","He wants to stay in Germany","He wants to become a teacher"],ans:"He wants to stay in Germany",hint:"'Ich will bleiben.' The verb 'bleiben' is key. Think about what this requires."},{type:"fb",s:"Meine Großmutter kann sich noch gut an den Krieg {1}.",a:"erinnern",opts:["erinnern","erreichen","klappen","kontrollieren"],hint:"Which reflexive verb means to recall a memory?"},{type:"mc",q:"Was ist ein Ehepartner?",opts:["a colleague","a neighbor","a friend","a spouse"],ans:"a spouse",hint:"This word combines Ehe (marriage) with Partner."}
+{type:"mc",q:"What has Verumius decided at the end of this chapter?",opts:["He wants to go home","He wants to move to Munich","He wants to stay in Germany","He wants to become a teacher"],ans:"He wants to stay in Germany",hint:"'Ich will bleiben.' The verb 'bleiben' is key. Think about what this requires."},{type:"fb",s:"Meine Großmutter kann sich noch gut an den Krieg {1}.",a:"erinnern",opts:["erinnern","erreichen","klappen","kontrollieren"],hint:"Which reflexive verb means to recall a memory?"},{type:"mc",q:"Was ist ein Ehepartner?",opts:["a colleague","a neighbor","a friend","a spouse"],ans:"a spouse",hint:"This word combines Ehe (marriage) with Partner."},
+{type:"mc",q:"Möchtest du ___ im Tee?",opts:["Zitrone","Tasse","Geldbörse","Erfahrung"],ans:"Zitrone",hint:"A sour yellow fruit often added to hot drinks."}
 ]}]};
 
 export default UNIT_12;

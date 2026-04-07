@@ -61,7 +61,9 @@ const UNIT_6 =
 {type:"mc",q:"'Ich dusche ___ um sieben Uhr.'",opts:["gestern","danach","morgens","spät"],ans:"morgens",hint:"What time word means 'in the morning' as a habit?"},
 {type:"drag_fill",s:"Ich frühstücke {1} sieben {2}.",blanks:{"1":"um","2":"Uhr"},pool:["um","am","Uhr","Morgen","Tag"],hint:"Clock time format: preposition + number + the word for o'clock.",sSrc:"I have breakfast at seven o'clock."},
 {type:"mc",q:"'___ hatte ich keinen Hunger.'",opts:["Morgen","Endlich","Gerade","Gestern"],ans:"Gestern",hint:"Which word means 'yesterday'?"}
-]},
+,
+{"type":"mc","q":"Was ist 'die Minute'?","opts":["the minute","the hour","the second","the day"],"ans":"the minute","hint":"Sixty of these make one hour."},
+{"type":"fb","s":"Welches {1} haben wir heute?","a":["Datum"],"opts":["Datum","Tag","Monat","Kalender"],"hint":"The specific day, month, and year.","sSrc":"What date is it today?"}]},
 
 // ─── L3: Montag bis Sonntag ───
 {id:"deu_r6l3",title:"Montag bis Sonntag",icon:"📅",xp:15,board:true,steps:[
@@ -85,7 +87,8 @@ const UNIT_6 =
 {type:"match",pairs:[{trg:"Montag",src:"Monday"},{trg:"Mittwoch",src:"Wednesday"},{trg:"Freitag",src:"Friday"},{trg:"Sonntag",src:"Sunday"},{trg:"Donnerstag",src:"Thursday"}]},
 {type:"fb",s:"Ich wohne {1} drei Wochen in Berlin.",a:["seit"],opts:["seit","vor","nach","um"],hint:"Which preposition means 'for' with a continuing duration?",sSrc:"I have been living in Berlin for three weeks."},
 {type:"mc",q:"Shops are closed on ___ in Germany.",opts:["Samstag","Freitag","Sonntag","Mittwoch"],ans:"Sonntag",hint:"The Sunday rest is law."}
-]},
+,
+{"type":"mc","q":"Welcher Tag ist 'Dienstag'?","opts":["Tuesday","Monday","Wednesday","Thursday"],"ans":"Tuesday","hint":"The second working day of the week."}]},
 
 // ─── L4: Juli bis Dezember ───
 {id:"deu_r6l4",title:"Juli bis Dezember",icon:"🌦️",xp:15,board:true,steps:[
@@ -111,7 +114,8 @@ const UNIT_6 =
 {type:"match",pairs:[{trg:"der Frühling",src:"spring"},{trg:"der Sommer",src:"summer"},{trg:"der Herbst",src:"autumn"},{trg:"der Winter",src:"winter"},{trg:"das Wetter",src:"weather"}]},
 {type:"mc",q:"'Leider' means:",opts:["luckily","always","unfortunately","never"],ans:"unfortunately",hint:"From 'Leid' (suffering). Softens bad news."},
 {type:"story",speaker:"verumius",mood:"determined",art:"de-altbau-notepad",trg:"Freitagabend. Verumius sitzt am Tisch. Ein Notizblock, ein Wörterbuch, sein Handy. Er schreibt Wörter auf: Heizung. Warmwasser. Reparatur. Morgen ruft er an. Auf Deutsch.",src:"Friday evening. Verumius sits at the table. A notepad, a dictionary, his phone. He writes down words: heating, hot water, repair. Tomorrow he calls. In German."}
-]},
+,
+{"type":"fb","s":"Die Sonne {1} heute den ganzen Tag.","a":["scheint"],"opts":["scheint","regnet","schneit","weht"],"hint":"What the sun does on a clear day.","sSrc":"The sun shines all day today."}]},
 
 // ─── L5: Der Anruf ───
 {id:"deu_r6l5",title:"Der Anruf",icon:"📞",xp:15,board:true,steps:[
@@ -323,7 +327,10 @@ const UNIT_6 =
 {type:"teach",trg:"der Test",src:"the test",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Tests.",example:"A: Wie war der Test?\nB: Der Test war nicht so schwer.",exampleSrc:"A: How was the test?\nB: The test was not so hard.",funFact:"Germans borrowed Test directly from English. The older German word is Prüfung, which sounds more formal."},
 {type:"teach",trg:"der Unterricht",src:"the lesson/instruction",pos:"noun",gender:"m",note:"Masculine noun. Usually no plural. Refers to teaching sessions.",example:"A: Wann beginnt der Unterricht?\nB: Der Unterricht beginnt um acht Uhr.",exampleSrc:"A: When does the lesson start?\nB: The lesson starts at eight o'clock.",funFact:"German school Unterricht typically starts at 7:45 or 8:00, earlier than in many countries."},
 {type:"teach",trg:"verdienen",src:"to earn",pos:"verb",gender:null,note:"Regular verb. Ich verdiene, du verdienst, er/sie verdient.",example:"A: Wie viel verdienst du?\nB: Ich verdiene genug.",exampleSrc:"A: How much do you earn?\nB: I earn enough.",funFact:"Asking about salary is considered quite private in Germany. Many people avoid the topic."},
-{type:"mc",q:"'Studieren' benutzt man nur für:",opts:["Schüler","Studenten an der Universität","Schulkinder dort","alle Lernenden"],ans:"Studenten an der Universität",hint:"This verb is reserved for university-level education."},
+{type:"mc",q:"'Studieren' benutzt man nur für:",opts:["Schüler","Studenten an der Universität","Schulkinder dort","alle Lernenden"],ans:"Studenten an der Universität",hint:"This verb is reserved for university-level education."}
+]},
+{id:"deu_r6l13b",title:"Arbeit und Bildung (Teil 2)",icon:"🎓",xp:15,board:true,steps:[
+{type:"intro",title:"Arbeit und Bildung (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"werden",src:"to become",pos:"verb",gender:null,note:"Irregular verb. Ich werde, du wirst, er/sie wird. Also used as future auxiliary.",example:"A: Was willst du werden?\nB: Ich will Arzt werden.",exampleSrc:"A: What do you want to become?\nB: I want to become a doctor.",funFact:"Werden is one of the most important German verbs. It forms the future tense and the passive voice."},
 {type:"teach",trg:"arbeitslos",src:"unemployed",pos:"adj",gender:null,note:"Adjective. Compound: Arbeit (work) + los (without).",example:"A: Ist er noch arbeitslos?\nB: Nein, er hat jetzt eine Stelle.",exampleSrc:"A: Is he still unemployed?\nB: No, he has a job now.",funFact:"The suffix -los means without, like English -less. Arbeitslos, hoffnungslos (hopeless), kostenlos (free of charge)."},
 {type:"teach",trg:"selbständig",src:"self-employed/independent",pos:"adj",gender:null,note:"Adjective. Also spelled selbstständig (both accepted).",example:"A: Arbeitest du in einer Firma?\nB: Nein, ich bin selbständig.",exampleSrc:"A: Do you work at a company?\nB: No, I am self-employed.",funFact:"Germany has over 4 million self-employed people. The word comes from selbst (self) + ständig (standing)."},
@@ -334,7 +341,8 @@ const UNIT_6 =
 {type:"mc",q:"How do you say 'workplace' in German?",opts:["die Arbeit","der Arbeitsplatz hier","der Arbeitsplatz","das Arbeiten"],ans:"der Arbeitsplatz",hint:"It is a compound noun combining work and place."},
 {type:"fb",s:"Ich mache ein {1} bei Siemens.",a:"Praktikum",opts:["Praktikum","Prüfung","Studium","Unterricht"],hint:"This is the German word for an internship.",sSrc:"I am doing an internship at Siemens."},
 {type:"mc",q:"Which word means 'to become'?",opts:["verdienen","arbeiten","lernen","werden"],ans:"werden",hint:"This irregular verb also helps form the future tense."},
-{type:"match",pairs:[{trg:"die Prüfung",src:"the exam"},{trg:"der Schüler",src:"the pupil"},{trg:"die Stelle",src:"the position/job"},{trg:"arbeitslos",src:"unemployed"},{trg:"der Kurs",src:"the course"}]}
+{type:"match",pairs:[{trg:"die Prüfung",src:"the exam"},{trg:"der Schüler",src:"the pupil"},{trg:"die Stelle",src:"the position/job"},{trg:"arbeitslos",src:"unemployed"},{trg:"der Kurs",src:"the course"}]},
+{type:"mc",q:"Was bedeutet 'der Doktor'?",opts:["the student/pupil (male)","the class/classroom","self-employed/independent","the doctor/PhD"],ans:"the doctor/PhD",hint:"Think about the meaning of this word in context."}
 ]},
 
 {id:"deu_r6l14",title:"Stift und Papier",icon:"✏️",xp:15,board:true,steps:[
@@ -351,7 +359,12 @@ const UNIT_6 =
 {type:"teach",trg:"das Bild",src:"the picture/image",pos:"noun",gender:"n",note:"Neuter noun. Plural: die Bilder.",example:"A: Wer hat dieses Bild gemalt?\nB: Das hat mein Sohn gemalt.",exampleSrc:"A: Who painted this picture?\nB: My son painted it.",funFact:"Bildung means education in German, literally forming or building. Same root as Bild (image, formation)."},
 {type:"teach",trg:"der Bleistift",src:"the pencil",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Bleistifte. Compound: Blei (lead) + Stift (pen).",example:"A: Hast du einen Bleistift?\nB: Ja, hier ist ein Bleistift.",exampleSrc:"A: Do you have a pencil?\nB: Yes, here is a pencil.",funFact:"Bleistift literally means lead pen, though modern pencils use graphite, not lead."},
 {type:"teach",trg:"der Bogen",src:"the sheet (of paper)/form",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Bögen or die Bogen.",example:"A: Ich brauche einen Bogen Papier.\nB: Hier, nimm diesen Bogen.",exampleSrc:"A: I need a sheet of paper.\nB: Here, take this sheet.",funFact:"Bogen also means bow or arch. The Regenbogen (rainbow) is literally a rain arch."},
-{type:"fb",s:"Ich habe einen {1} gemacht. Die Antwort war falsch.",a:["Fehler"],opts:["Fehler","Lösung","Ergebnis","Bogen"],hint:"A mistake. Something incorrect.",sSrc:"I made a mistake. The answer was wrong."},
+{type:"fb",s:"Ich habe einen {1} gemacht. Die Antwort war falsch.",a:["Fehler"],opts:["Fehler","Lösung","Ergebnis","Bogen"],hint:"A mistake. Something incorrect.",sSrc:"I made a mistake. The answer was wrong."}
+,
+{"type":"mc","q":"Was ist 'die Aussage'?","opts":["the statement","the question","the answer","the warning"],"ans":"the statement","hint":"A declaration or claim someone makes."},
+{"type":"fb","s":"Schau dir das {1} an!","a":["Bild"],"opts":["Bild","Buch","Lied","Wort"],"hint":"A visual representation, a photo or painting.","sSrc":"Look at the picture!"}]},
+{id:"deu_r6l14b",title:"Stift und Papier (Teil 2)",icon:"✏️",xp:15,board:true,steps:[
+{type:"intro",title:"Stift und Papier (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"das Buch",src:"the book",pos:"noun",gender:"n",note:"Neuter noun. Plural: die Bücher.",example:"A: Liest du gern Bücher?\nB: Ja, ich lese jeden Abend ein Buch.",exampleSrc:"A: Do you like reading books?\nB: Yes, I read a book every evening.",funFact:"The Frankfurt Book Fair (Frankfurter Buchmesse) is the world's largest book trade fair, held since the 15th century."},
 {type:"teach",trg:"der Buchstabe",src:"the letter (of the alphabet)",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Buchstaben. Weak noun: den/dem Buchstaben.",example:"A: Wie viele Buchstaben hat das Alphabet?\nB: Das deutsche Alphabet hat 26 Buchstaben plus Umlaute.",exampleSrc:"A: How many letters does the alphabet have?\nB: The German alphabet has 26 letters plus umlauts.",funFact:"Buchstabe literally comes from Buche (beech tree) + Stab (staff), referring to ancient runes carved into beech wood."},
 {type:"teach",trg:"der Kugelschreiber",src:"the ballpoint pen",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Kugelschreiber. Often shortened to Kuli.",example:"A: Kann ich deinen Kugelschreiber haben?\nB: Klar, hier ist mein Kuli.",exampleSrc:"A: Can I have your ballpoint pen?\nB: Sure, here is my pen.",funFact:"Kugelschreiber literally means ball writer. Almost everyone shortens it to Kuli in everyday speech."},
@@ -367,7 +380,8 @@ const UNIT_6 =
 {type:"mc",q:"What does 'der Fehler' mean?",opts:["the solution","the mistake","the result","the task"],ans:"the mistake",hint:"Think of something you want to correct."},
 {type:"fb",s:"Ich brauche einen {1} und Papier.",a:"Bleistift",opts:["Bleistift","Buchstabe","Bogen","Buch"],hint:"A writing tool made of wood with graphite inside.",sSrc:"I need a pencil and paper."},
 {type:"mc",q:"Which word means 'the topic'?",opts:["der Text","der Satz","das Wort","das Thema"],ans:"das Thema",hint:"This neuter noun comes from Greek and means subject of discussion."},
-{type:"match",pairs:[{trg:"die Zeitung",src:"the newspaper"},{trg:"das Buch",src:"the book"},{trg:"die Lösung",src:"the solution"},{trg:"die Aufgabe",src:"the task"},{trg:"der Film",src:"the film"}]}
+{type:"match",pairs:[{trg:"die Zeitung",src:"the newspaper"},{trg:"das Buch",src:"the book"},{trg:"die Lösung",src:"the solution"},{trg:"die Aufgabe",src:"the task"},{trg:"der Film",src:"the film"}]},
+{type:"mc",q:"Was bedeutet 'das Papier'?",opts:["the advertisement/display","the topic/theme","the answer","the paper"],ans:"the paper",hint:"Think about the meaning of this word in context."}
 ]},
 
 {id:"deu_r6l15",title:"Am Telefon",icon:"📱",xp:15,board:true,steps:[
@@ -384,7 +398,11 @@ const UNIT_6 =
 {type:"teach",trg:"das Wiederhören",src:"the hearing again",pos:"noun",gender:"n",note:"Neuter noun. Used in Auf Wiederhören (goodbye on the phone).",example:"A: Dann bis morgen. Auf Wiederhören!\nB: Auf Wiederhören!",exampleSrc:"A: Then until tomorrow. Goodbye!\nB: Goodbye!",funFact:"Auf Wiederhören is for phone calls (hearing again). Auf Wiedersehen is for in-person goodbyes (seeing again)."},
 {type:"teach",trg:"die CD",src:"the CD",pos:"noun",gender:"f",note:"Feminine noun. Plural: die CDs. Pronounced tsee-dee.",example:"A: Hast du noch CDs?\nB: Ja, ich habe viele alte CDs.",exampleSrc:"A: Do you still have CDs?\nB: Yes, I have many old CDs.",funFact:"Germans pronounce CD as tsee-dee, not see-dee. The letters follow German pronunciation rules."},
 {type:"teach",trg:"der Drucker",src:"the printer",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Drucker. From drucken (to print).",example:"A: Funktioniert der Drucker?\nB: Nein, der Drucker ist kaputt.",exampleSrc:"A: Does the printer work?\nB: No, the printer is broken.",funFact:"Drucker also means printer as a profession. Johannes Gutenberg was the most famous Drucker in history."},
-{type:"fb",s:"Am Telefon sagt man zum Abschied: Auf {1}!",a:["Wiederhören"],opts:["Wiederhören","Wiedersehen","Morgen","Abend"],hint:"On the phone you say goodbye with hearing, not seeing.",sSrc:"On the phone one says goodbye: Auf Wiederhören!"},
+{type:"fb",s:"Am Telefon sagt man zum Abschied: Auf {1}!",a:["Wiederhören"],opts:["Wiederhören","Wiedersehen","Morgen","Abend"],hint:"On the phone you say goodbye with hearing, not seeing.",sSrc:"On the phone one says goodbye: Auf Wiederhören!"}
+,
+{"type":"mc","q":"Was ist 'die CD'?","opts":["the CD","the DVD","the USB","the radio"],"ans":"the CD","hint":"A round disc for storing music or data."}]},
+{id:"deu_r6l15b",title:"Am Telefon (Teil 2)",icon:"📱",xp:15,board:true,steps:[
+{type:"intro",title:"Am Telefon (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"das Internet",src:"the internet",pos:"noun",gender:"n",note:"Neuter noun. No plural. Always with article: das Internet.",example:"A: Hast du Internet zu Hause?\nB: Ja, aber es ist langsam.",exampleSrc:"A: Do you have internet at home?\nB: Yes, but it is slow.",funFact:"Germany is often teased for slow Internet. The country has been working to expand fiber optic networks."},
 {type:"teach",trg:"das Lieblingslied",src:"the favorite song",pos:"noun",gender:"n",note:"Neuter noun. Plural: die Lieblingslieder. Compound: Liebling (favorite) + Lied (song).",example:"A: Was ist dein Lieblingslied?\nB: Mein Lieblingslied ist von den Beatles.",exampleSrc:"A: What is your favorite song?\nB: My favorite song is by the Beatles.",funFact:"Lieblings- is a productive prefix. You can make Lieblingsfilm, Lieblingsbuch, Lieblingsessen for any favorite thing."},
 {type:"teach",trg:"das Lied",src:"the song",pos:"noun",gender:"n",note:"Neuter noun. Plural: die Lieder.",example:"A: Kennst du dieses Lied?\nB: Ja, das ist ein altes Volkslied.",exampleSrc:"A: Do you know this song?\nB: Yes, that is an old folk song.",funFact:"Volkslied means folk song. Germany has a rich tradition of Volkslieder, many dating back centuries."},
@@ -398,7 +416,10 @@ const UNIT_6 =
 {type:"mc",q:"What is the German phrase for 'goodbye' on the phone?",opts:["Auf Wiedersehen (formal)","Tschüss","Auf Wiederhören","Bis bald"],ans:"Auf Wiederhören",hint:"This phrase uses the word for hearing, not seeing."},
 {type:"fb",s:"Kannst du das bitte {1}? Ich brauche eine Kopie.",a:"drucken",opts:["drucken","drücken","benutzen","schicken"],hint:"This verb means making a paper copy with a machine.",sSrc:"Can you please print that? I need a copy."},
 {type:"mc",q:"What does 'der Empfänger' mean?",opts:["the sender","the stamp","the area code","the recipient"],ans:"the recipient",hint:"This person is on the other end of mail delivery."},
-{type:"match",pairs:[{trg:"der Absender",src:"the sender"},{trg:"die Briefmarke",src:"the stamp"},{trg:"das Gespräch",src:"the conversation"},{trg:"der Drucker",src:"the printer"},{trg:"das Lied",src:"the song"}]}
+{type:"match",pairs:[{trg:"der Absender",src:"the sender"},{trg:"die Briefmarke",src:"the stamp"},{trg:"das Gespräch",src:"the conversation"},{trg:"der Drucker",src:"the printer"},{trg:"das Lied",src:"the song"}]},
+{type:"mc",q:"Was bedeutet 'das Internet'?",opts:["to print","the printer","the favorite song","the internet"],ans:"the internet",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Wie sagt man 'the favorite song' auf Deutsch? {1}",a:["das Lieblingslied"],opts:["das Lieblingslied","das Wiederhören","das Fax","das Gespräch"],hint:"Which word fits in this context?",sSrc:"How do you say 'the favorite song' in German?"},
+{type:"mc",q:"Was bedeutet 'automatisch'?",opts:["the favorite song","automatic","the sender","to use"],ans:"automatic",hint:"Think about the meaning of this word in context."}
 ]},
 
 {id:"deu_r6l16",title:"Was machst du so?",icon:"🎬",xp:15,board:true,steps:[
@@ -414,7 +435,11 @@ const UNIT_6 =
 {type:"teach",trg:"anklicken",src:"to click on",pos:"verb",gender:null,note:"Separable: Klick den Link an! Used for computer/phone actions.",example:"A: Was soll ich machen?\nB: Klick einfach den Button an.",exampleSrc:"A: What should I do?\nB: Just click on the button.",funFact:"German tech vocabulary mixes English loans with German prefixes: anklicken, downloaden, uploaden."},
 {type:"teach",trg:"ankreuzen",src:"to check / mark with X",pos:"verb",gender:null,note:"Separable: Kreuz die richtige Antwort an.",example:"A: Was muss ich hier machen?\nB: Kreuz bitte die richtige Antwort an.",exampleSrc:"A: What do I have to do here?\nB: Please check the correct answer.",funFact:"In Germany, you mark answers with an X (Kreuz), not a checkmark. The opposite of many countries!"},
 {type:"teach",trg:"fehlen",src:"to be missing / absent",pos:"verb",gender:null,note:"Works like gefallen: the missing thing is the subject. Du fehlst mir = I miss you.",example:"A: Wer fehlt heute?\nB: Lisa fehlt. Sie ist krank.",exampleSrc:"A: Who is absent today?\nB: Lisa is absent. She is sick.",funFact:"Du fehlst mir literally means 'You are missing to me.' German expresses missing someone from the other direction."},
-{type:"mc",q:"'Du fehlst mir' bedeutet:",opts:["Du bist falsch.","Ich vermisse dich.","Du bist krank.","Du brauchst Hilfe."],ans:"Ich vermisse dich.",hint:"The missing person is the grammatical subject. You are missed by me."},
+{type:"mc",q:"'Du fehlst mir' bedeutet:",opts:["Du bist falsch.","Ich vermisse dich.","Du bist krank.","Du brauchst Hilfe."],ans:"Ich vermisse dich.",hint:"The missing person is the grammatical subject. You are missed by me."}
+,
+{"type":"fb","s":"Darf ich mich {1}? Ich bin Anna.","a":["vorstellen"],"opts":["vorstellen","verstehen","vergessen","verlassen"],"hint":"What you do when you tell someone your name.","sSrc":"May I introduce myself? I am Anna."}]},
+{id:"deu_r6l16b",title:"Was machst du so? (Teil 2)",icon:"🎬",xp:15,board:true,steps:[
+{type:"intro",title:"Was machst du so? (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"fernsehen",src:"to watch TV",pos:"verb",gender:null,note:"Separable: Ich sehe fern. Das Fernsehen = television (noun).",example:"A: Was machst du heute Abend?\nB: Ich sehe ein bisschen fern.",exampleSrc:"A: What are you doing tonight?\nB: I'm watching a bit of TV.",funFact:"Fernsehen literally means 'far-seeing.' Germans watch about 3.5 hours of TV per day on average."},
 {type:"teach",trg:"gewinnen",src:"to win",pos:"verb",gender:null,note:"Irregular past: gewann, hat gewonnen.",example:"A: Wer hat das Spiel gewonnen?\nB: Deutschland hat drei zu eins gewonnen!",exampleSrc:"A: Who won the game?\nB: Germany won three to one!",funFact:"Der Gewinner (winner) and der Gewinn (prize/profit) both come from gewinnen."},
 {type:"teach",trg:"glauben",src:"to believe",pos:"verb",gender:null,note:"Regular verb. Ich glaube (nicht) = I (don't) think so.",example:"A: Kommt er heute?\nB: Ich glaube nicht. Er ist krank.",exampleSrc:"A: Is he coming today?\nB: I don't think so. He is sick.",funFact:"Ich glaube schon (I think so) and Ich glaube nicht (I don't think so) are among the most common German phrases."},
@@ -429,7 +454,8 @@ const UNIT_6 =
 {type:"mc",q:"Which verb means 'to register or sign up'?",opts:["ausfüllen","abgeben","ankreuzen","anmelden"],ans:"anmelden",hint:"Think of putting your name on a list."},
 {type:"fb",s:"Ich {1} heute Abend ein bisschen fern.",a:"sehe",opts:["sehe","mache","gebe","fülle"],hint:"This separable verb is about watching from far away.",sSrc:"I watch a bit of TV tonight."},
 {type:"mc",q:"'Du fehlst mir' means...",opts:["You are wrong","You are late","I miss you","I need you"],ans:"I miss you",hint:"The subject is the person who is absent, not the speaker."},
-{type:"fb",s:"Wir {1} uns morgen um zehn Uhr.",a:"treffen",opts:["treffen","machen","leben","glauben"],hint:"This irregular verb means to meet up with someone.",sSrc:"We meet tomorrow at ten o'clock."}
+{type:"fb",s:"Wir {1} uns morgen um zehn Uhr.",a:"treffen",opts:["treffen","machen","leben","glauben"],hint:"This irregular verb means to meet up with someone.",sSrc:"We meet tomorrow at ten o'clock."},
+{type:"mc",q:"Was bedeutet 'kümmern'?",opts:["to allow / permit","to click on","to tell / narrate","to care / take care of"],ans:"to care / take care of",hint:"Think about the meaning of this word in context."}
 ]},
 
 {id:"deu_r6l17",title:"Zeit und Feste",icon:"🎊",xp:15,board:true,steps:[
@@ -449,7 +475,11 @@ const UNIT_6 =
 {type:"teach",trg:"das Glück",src:"luck / happiness",pos:"noun",gender:"n",note:"Neuter noun. No plural in this meaning. Viel Glück! = Good luck!",example:"A: Morgen habe ich meine Prüfung.\nB: Viel Glück! Du schaffst das!",exampleSrc:"A: Tomorrow I have my exam.\nB: Good luck! You can do it!",funFact:"Glück means both luck AND happiness in German. A Glückspilz (lucky mushroom) is a lucky person."},
 {type:"teach",trg:"der Glückwunsch",src:"the congratulations",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Glückwünsche. Herzlichen Glückwunsch! = Congratulations!",example:"A: Ich habe die Prüfung bestanden!\nB: Herzlichen Glückwunsch!",exampleSrc:"A: I passed the exam!\nB: Congratulations!",funFact:"Herzlichen Glückwunsch zum Geburtstag is the full way to say Happy Birthday. Literally: heartfelt luck-wish for the birthday."},
 {type:"teach",trg:"die Hochzeit",src:"the wedding",pos:"noun",gender:"f",note:"Feminine noun. Plural: die Hochzeiten. Literally: high time.",example:"A: Wann ist die Hochzeit?\nB: Im Juni. Die Feier ist im Garten.",exampleSrc:"A: When is the wedding?\nB: In June. The celebration is in the garden.",funFact:"Hochzeit literally means 'high time' or 'best time.' A Hochzeitstorte (wedding cake) is often multi-layered."},
-{type:"mc",q:"Was sagt man, wenn jemand Geburtstag hat?",opts:["Gute Nacht!","Viel Glück!","Herzlichen Glückwunsch!","Guten Appetit!"],ans:"Herzlichen Glückwunsch!",hint:"The standard birthday congratulation phrase in German."},
+{type:"mc",q:"Was sagt man, wenn jemand Geburtstag hat?",opts:["Gute Nacht!","Viel Glück!","Herzlichen Glückwunsch!","Guten Appetit!"],ans:"Herzlichen Glückwunsch!",hint:"The standard birthday congratulation phrase in German."}
+,
+{"type":"mc","q":"Was ist 'die Pause'?","opts":["the break","the lesson","the meeting","the speech"],"ans":"the break","hint":"A short rest between activities."}]},
+{id:"deu_r6l17b",title:"Zeit und Feste (Teil 2)",icon:"🎊",xp:15,board:true,steps:[
+{type:"intro",title:"Zeit und Feste (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"der Verein",src:"the club / association",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Vereine. Central to German social life.",example:"A: Bist du in einem Verein?\nB: Ja, ich bin im Sportverein.",exampleSrc:"A: Are you in a club?\nB: Yes, I'm in the sports club.",funFact:"Germany has over 600,000 Vereine. There is a saying: Drei Deutsche, ein Verein (three Germans, one club)."},
 {type:"teach",trg:"die Gruppe",src:"the group",pos:"noun",gender:"f",note:"Feminine noun. Plural: die Gruppen. Gruppenarbeit = group work.",example:"A: Wie groß ist deine Gruppe?\nB: Wir sind fünf Personen in der Gruppe.",exampleSrc:"A: How big is your group?\nB: We are five people in the group.",funFact:"Gruppenarbeit (group work) is extremely common in German schools and universities. Teamwork is highly valued."},
 {type:"teach",trg:"das Frühjahr",src:"spring (formal)",pos:"noun",gender:"n",note:"Neuter noun. More formal than Frühling. Früh = early + Jahr = year.",example:"A: Wann blühen die Blumen?\nB: Im Frühjahr, meistens im April.",exampleSrc:"A: When do the flowers bloom?\nB: In spring, mostly in April.",funFact:"Frühjahr is used more in writing and news. Frühling is the everyday word. Both mean the early part of the year."},
@@ -462,7 +492,10 @@ const UNIT_6 =
 {type:"mc",q:"What does 'der Feierabend' mean?",opts:["the end of the work day","the public holiday","the celebration","a normal weekend day off"],ans:"the end of the work day",hint:"After finishing your professional obligations, this is the moment of freedom."},
 {type:"fb",s:"Herzlichen {1} zum Geburtstag!",a:"Glückwunsch",opts:["Glückwunsch","Glück","Hochzeit","Feiertag"],hint:"This compound noun combines luck and wish.",sSrc:"Happy birthday congratulations!"},
 {type:"mc",q:"Which word is the formal way to say 'spring'?",opts:["der Frühling","die Frühzeit","das Frühjahr","der Frühstart"],ans:"das Frühjahr",hint:"This compound combines 'early' with 'year.'"},
-{type:"fb",s:"Wann {1} der Kurs? Um neun Uhr.",a:"beginnt",opts:["beginnt","endet","macht","geht"],hint:"This is the formal verb for starting something.",sSrc:"When does the course begin? At nine o'clock."}
+{type:"fb",s:"Wann {1} der Kurs? Um neun Uhr.",a:"beginnt",opts:["beginnt","endet","macht","geht"],hint:"This is the formal verb for starting something.",sSrc:"When does the course begin? At nine o'clock."},
+{type:"mc",q:"Was bedeutet 'beginnen'?",opts:["to begin","the group","to congratulate","spring (formal)"],ans:"to begin",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Wie sagt man 'to congratulate' auf Deutsch? {1}",a:["gratulieren"],opts:["das Jahr","gratulieren","der Wochentag","das Ende"],hint:"Which word fits in this context?",sSrc:"How do you say 'to congratulate' in German?"},
+{type:"mc",q:"Was bedeutet 'heiraten'?",opts:["to end","the group","the public holiday","to marry"],ans:"to marry",hint:"Think about the meaning of this word in context."}
 ]},
 
 {id:"deu_r6l18",title:"Noch mehr Verben",icon:"💪",xp:15,board:true,steps:[
@@ -480,7 +513,10 @@ const UNIT_6 =
 {type:"teach",trg:"das Leben",src:"the life",pos:"noun",gender:"n",note:"Neuter noun. No plural in this meaning. Das ist das Leben! = That's life!",example:"A: Wie ist das Leben in Deutschland?\nB: Es ist gut, aber manchmal stressig.",exampleSrc:"A: How is life in Germany?\nB: It's good, but sometimes stressful.",funFact:"Lebensqualität (quality of life) is something Germans take very seriously. German cities regularly rank in top global livability lists."},
 {type:"teach",trg:"der Plan",src:"the plan",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Pläne. Note the umlaut in plural!",example:"A: Was sind deine Pläne für das Wochenende?\nB: Ich habe noch keine Pläne.",exampleSrc:"A: What are your plans for the weekend?\nB: I don't have any plans yet.",funFact:"Germans love planning. Der Fahrplan (schedule), der Stadtplan (city map), der Lehrplan (curriculum) all have Plan in them."},
 {type:"teach",trg:"der Fußball",src:"football / soccer",pos:"noun",gender:"m",note:"Masculine noun. Literally: foot + ball. Die Bundesliga is the top league.",example:"A: Spielst du gerne Fußball?\nB: Ja, jeden Samstag im Verein!",exampleSrc:"A: Do you like playing football?\nB: Yes, every Saturday at the club!",funFact:"Fußball is practically a religion in Germany. The Bundesliga is one of the most-watched leagues in the world."},
-{type:"mc",q:"Was sind deine Pläne? Die Mehrzahl von 'Plan' ist:",opts:["die Plane","die Planen","die Pläne","die Plans"],ans:"die Pläne",hint:"Umlaut in the plural. A to Ä."},
+{type:"mc",q:"Was sind deine Pläne? Die Mehrzahl von 'Plan' ist:",opts:["die Plane","die Planen","die Pläne","die Plans"],ans:"die Pläne",hint:"Umlaut in the plural. A to Ä."}
+]},
+{id:"deu_r6l18b",title:"Noch mehr Verben (Teil 2)",icon:"💪",xp:15,board:true,steps:[
+{type:"intro",title:"Noch mehr Verben (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"glücklich",src:"happy",pos:"adj",gender:null,note:"Adjective. Opposite: unglücklich (unhappy). From Glück (luck/happiness).",example:"A: Bist du glücklich hier?\nB: Ja, ich bin sehr glücklich in dieser Stadt.",exampleSrc:"A: Are you happy here?\nB: Yes, I am very happy in this city.",funFact:"Glücklich combines luck and happiness. Germans might say Ich bin glücklich for deep contentment, froh for momentary gladness."},
 {type:"teach",trg:"tot",src:"dead",pos:"adj",gender:null,note:"Adjective. Der Tod = death (noun). Totmüde = dead tired (colloquial).",example:"A: Lebt der Fisch noch?\nB: Nein, er ist leider tot.",exampleSrc:"A: Is the fish still alive?\nB: No, it's unfortunately dead.",funFact:"Totmüde (dead tired), totlachen (to die laughing), totschweigen (to kill with silence): German loves tot- as an intensifier."},
 {type:"teach",trg:"früher",src:"earlier / in the past",pos:"adv",gender:null,note:"Comparative of früh (early). Also means 'back then, in the old days.'",example:"A: Wie war das Leben früher?\nB: Früher war alles anders.",exampleSrc:"A: How was life in the past?\nB: Everything was different back then.",funFact:"Früher war alles besser (everything was better in the past) is a classic German phrase, usually said with a sigh."},
@@ -494,7 +530,9 @@ const UNIT_6 =
 {type:"fb",s:"Ich {1} auf den Bus. Er kommt bald.",a:"warte",opts:["warte","fahre","bin","mache"],hint:"This regular verb takes the preposition 'auf' for what you expect.",sSrc:"I wait for the bus. It is coming soon."},
 {type:"mc",q:"'Bis später' means...",opts:["Good morning","See you later","Goodbye forever","Until tomorrow"],ans:"See you later",hint:"Bis means until. Später means at a following time."},
 {type:"fb",s:"Letzte {1} war ich im Kino.",a:"Woche",opts:["Woche","Tag","Jahr","Monat"],hint:"Seven days make up this time period.",sSrc:"Last week I was at the cinema."},
-{type:"story",speaker:"narrator",mood:"content",art:"de-altbau-window-sunset",trg:"Abend. Verumius sitzt am Fenster. Warmer Tee, warmes Wasser, warme Wohnung. Draußen leuchtet Berlin. Hildi hatte Recht: am Anfang ist alles schwer. Aber danach wird es leichter. Bis zum nächsten Abenteuer.",src:"Evening. Verumius sits at the window. Warm tea, warm water, warm apartment. Outside, Berlin glows. Hildi was right: in the beginning, everything is hard. But after that, it gets easier. Until the next adventure."}
+{type:"story",speaker:"narrator",mood:"content",art:"de-altbau-window-sunset",trg:"Abend. Verumius sitzt am Fenster. Warmer Tee, warmes Wasser, warme Wohnung. Draußen leuchtet Berlin. Hildi hatte Recht: am Anfang ist alles schwer. Aber danach wird es leichter. Bis zum nächsten Abenteuer.",src:"Evening. Verumius sits at the window. Warm tea, warm water, warm apartment. Outside, Berlin glows. Hildi was right: in the beginning, everything is hard. But after that, it gets easier. Until the next adventure."},
+{type:"mc",q:"Was bedeutet 'glücklich'?",opts:["football / soccer","to be gone / away","later","happy"],ans:"happy",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Wie war das Leben {1}?",a:["früher"],opts:["aus sein","zu sein","tot","früher"],hint:"Which word fits in this context?",sSrc:"How was life in the past?"}
 ]}
 
 ]};

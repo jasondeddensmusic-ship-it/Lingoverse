@@ -1,0 +1,2056 @@
+
+=== UNIT 01: Willkommen in Deutschland ===
+  LESSON deu_r01l3 — "Erste Sätze" (28 steps, 16 teaches, 6 untested)
+    Untested: [genau, stimmt, natürlich, sagen, machen, etwas]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [Ja, Nein, vielleicht, genau...] (10 teaches)
+      Cluster B (steps 16-27): [Ich verstehe nicht, wiederholen, gehen, sagen...] (6 teaches)
+  LESSON deu_r01l4 — "Im falschen Zug" (23 steps, 8 teaches, 1 untested)
+    Untested: [die Fahrkarte]
+    SPLIT CANDIDATE: No
+  LESSON deu_r01l5 — "Ich bin, du bist" (31 steps, 7 teaches, 2 untested)
+    Untested: [ich / du / er / sie / es, wir / ihr / sie / Sie]
+    SPLIT CANDIDATE: No
+  LESSON deu_r01l8 — "Berlin Hauptbahnhof" (24 steps, 6 teaches, 1 untested)
+    Untested: [der Schalter]
+    SPLIT CANDIDATE: No
+  LESSON deu_r01l10 — "Der erste Abend" (29 steps, 8 teaches, 3 untested)
+    Untested: [das Hostel, der Mensch, Servus]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 6 (after mc "mc")
+      Cluster A (steps 0-6): [das Hostel, müde, der Mensch, Gute Nacht] (4 teaches)
+      Cluster B (steps 7-28): [morgen, Guten Morgen, Guten Abend, Servus] (4 teaches)
+  LESSON deu_r01l11 — "Bausteine" (32 steps, 20 teaches, 1 untested)
+    Untested: [woher]
+    SPLIT CANDIDATE: No
+  LESSON deu_r01l12 — "Wer bist du?" (30 steps, 18 teaches, 2 untested)
+    Untested: [die Anrede, das Wiedersehen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r01l13 — "Die Zahlen" (24 steps, 14 teaches, 2 untested)
+    Untested: [zwei, gültig]
+    SPLIT CANDIDATE: No
+  LESSON deu_r01l14 — "Unsere Welt" (24 steps, 14 teaches, 1 untested)
+    Untested: [der Europäer]
+    SPLIT CANDIDATE: No
+  LESSON deu_r01l15 — "Am Flughafen" (30 steps, 18 teaches, 4 untested)
+    Untested: [bedeuten, buchstabieren, danken, entschuldigen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after fb "fb")
+      Cluster A (steps 0-17): [der Flughafen, das Flugzeug, der Abflug, das Gepäck...] (13 teaches)
+      Cluster B (steps 18-29): [finden, fragen, kennen, kennenlernen...] (5 teaches)
+
+=== UNIT 02: Entschuldigung, wo ist...? ===
+  LESSON deu_r2l2 — "Die Stadt erkunden" (20 steps, 14 teaches, 1 untested)
+    Untested: [das Geschäft]
+    SPLIT CANDIDATE: No
+  LESSON deu_r2l3 — "Geschäfte und Verkehr" (19 steps, 12 teaches, 3 untested)
+    Untested: [das Restaurant, das Schloss, das Auto]
+    SPLIT CANDIDATE: No
+  LESSON deu_r2l4 — "Können Sie mir helfen?" (28 steps, 15 teaches, 6 untested)
+    Untested: [mal, zu, lesen, sehen, hören, verstehen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 11 (after story "Entschuldigung, können Sie mir helfen? Ich möchte zum Bahnhof. Eine Frau zeigt nach links. Ein Mann zeigt nach rechts. Verumius steht in der Mitte.")
+      Cluster A (steps 0-11): [können, müssen, dürfen, möchten...] (8 teaches)
+      Cluster B (steps 12-27): [neben, geben, zeigen, lesen...] (7 teaches)
+  LESSON deu_r2l5 — "Der, die, das" (25 steps, 11 teaches, 6 untested)
+    Untested: [kurz, die Frage, das Problem, schnell, anfangen, aufhören]
+    SPLIT CANDIDATE: No
+  LESSON deu_r2l7 — "Eigenschaften und mehr" (18 steps, 7 teaches, 4 untested)
+    Untested: [gleich, spielen, sitzen, liegen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r2l8 — "Der Döner-Umweg" (28 steps, 12 teaches, 7 untested)
+    Untested: [fahren, nehmen, laufen, der Spaß, das Stück, der Fluss, die Sonne]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [fahren, nehmen, laufen, einsteigen...] (8 teaches)
+      Cluster B (steps 14-27): [bekommen, der Fluss, die Sonne, der See] (4 teaches)
+  LESSON deu_r2l9 — "Alles zusammen!" (24 steps, 10 teaches, 5 untested)
+    Untested: [abfahren, fliegen, schließen, gern(e), trinken]
+    SPLIT CANDIDATE: No
+  LESSON deu_r2l11 — "Kleine Wörter, große Wirkung" (30 steps, 20 teaches, 4 untested)
+    Untested: [dann, sofort, gegen, breit]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [bald, dann, immer, jetzt...] (10 teaches)
+      Cluster B (steps 14-29): [vielleicht, wieder, an, auf...] (10 teaches)
+  LESSON deu_r2l12 — "Wo ist das?" (29 steps, 19 teaches, 6 untested)
+    Untested: [der Bahnsteig, das Geschäft, das Lokal, der Ort, das Dorf, die Sehenswürdigkeit]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [die Bäckerei, der Bahnsteig, der Ausgang, der Eingang...] (11 teaches)
+      Cluster B (steps 15-28): [das Dorf, der Platz, die Praxis, das Schwimmbad...] (8 teaches)
+  LESSON deu_r2l13 — "Unterwegs" (32 steps, 26 teaches, 14 untested)
+    Untested: [der Anschluss, die Bahn, der Fahrer, hoch, weit, so, all, daneben, oben, unten, hinten, draußen, dort, zurück]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after teach "ins")
+      Cluster A (steps 0-16): [der Anschluss, die Autobahn, die Bahn, der Fahrer...] (15 teaches)
+      Cluster B (steps 17-31): [hoch, weit, so, all...] (11 teaches)
+  LESSON deu_r2l14 — "Kommen und Gehen" (28 steps, 18 teaches, 12 untested)
+    Untested: [abfliegen, besichtigen, halten, stehen, dauern, leihen, mitkommen, zeigen, mitnehmen, weiterfahren, auf sein, grade]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after mc "mc")
+      Cluster A (steps 0-13): [abfliegen, abholen, besichtigen, halten...] (10 teaches)
+      Cluster B (steps 14-27): [leihen, mitkommen, zeigen, mitnehmen...] (8 teaches)
+  LESSON deu_r2l15 — "Rund um die Stadt" (29 steps, 20 teaches, 8 untested)
+    Untested: [die Ansage, die Auskunft, die Durchsage, die Vorsicht, das Reisebüro, der Reiseführer, ander, alles]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [der Blick, die Hilfe, die Ansage, die Auskunft...] (11 teaches)
+      Cluster B (steps 15-28): [das Foto, die Führung, die Karte, der Prospekt...] (9 teaches)
+
+=== UNIT 03: Die Wohnungssuche ===
+  LESSON deu_r03l1 — "Wohnung frei" (20 steps, 11 teaches, 1 untested)
+    Untested: [das Haus]
+    SPLIT CANDIDATE: No
+  LESSON deu_r03l4 — "Besichtigung um 14 Uhr" (31 steps, 18 teaches, 4 untested)
+    Untested: [die Ordnung, die Reparatur, der Monat, erklären]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [die Küche, das Wohnzimmer, das Schlafzimmer, das Bad...] (13 teaches)
+      Cluster B (steps 18-30): [alleine, der Monat, die Nebenkosten, erklären...] (5 teaches)
+  LESSON deu_r03l5 — "Aufräumen, einziehen, umziehen" (32 steps, 16 teaches, 3 untested)
+    Untested: [waschen, möglich, Lieblings-]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [aufräumen, einziehen, umziehen, anmachen...] (12 teaches)
+      Cluster B (steps 18-31): [ihr / ihre, unser / unsere, der Baum, Lieblings-] (4 teaches)
+  LESSON deu_r03l6 — "Alles muss raus!" (19 steps, 12 teaches, 2 untested)
+    Untested: [der Computer, zu]
+    SPLIT CANDIDATE: No
+  LESSON deu_r03l7 — "Haustiere und Pronomen" (21 steps, 8 teaches, 4 untested)
+    Untested: [die Katze, der Fisch, der Vogel, das Kaninchen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r03l8 — "Die Hausordnung" (21 steps, 8 teaches, 3 untested)
+    Untested: [teilen, schicken, die Blume]
+    SPLIT CANDIDATE: No
+  LESSON deu_r03l11 — "Die ganze Familie" (23 steps, 13 teaches, 3 untested)
+    Untested: [der Hausmann, die Erwachsene, die Jugendliche]
+    SPLIT CANDIDATE: No
+  LESSON deu_r03l12 — "Zu Hause" (28 steps, 18 teaches, 10 untested)
+    Untested: [das Apartment, der Stock, der Quadratmeter, die Hausaufgabe, aufstehen, baden, öffnen, reparieren, legen, zwischen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [das Apartment, der Garten, der Stock, der Quadratmeter...] (10 teaches)
+      Cluster B (steps 14-27): [reparieren, legen, stellen, allein...] (8 teaches)
+  LESSON deu_r03l13 — "Wie siehst du aus?" (22 steps, 11 teaches, 2 untested)
+    Untested: [unsre, weiter-]
+    SPLIT CANDIDATE: No
+
+=== UNIT 04: Im Supermarkt ===
+  LESSON deu_r4l1 — "Einkaufswagen-Panik" (26 steps, 12 teaches, 3 untested)
+    Untested: [der Verkäufer, die Rechnung, die Kleidung]
+    SPLIT CANDIDATE: No
+  LESSON deu_r4l2 — "Obst, Gemüse und Chaos" (29 steps, 17 teaches, 6 untested)
+    Untested: [die Gurke, die Zwiebel, die Pommes frites, das Wasser, das Getränk, das Lebensmittel]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [der Käse, das Obst, der Apfel, die Banane...] (11 teaches)
+      Cluster B (steps 16-28): [der Schinken, die Pommes frites, das Wasser, der Saft...] (6 teaches)
+  LESSON deu_r4l3 — "Nummern, Farben, Gewichte" (27 steps, 12 teaches, 3 untested)
+    Untested: [hundert / tausend, die Farbe, das Pfund]
+    SPLIT CANDIDATE: No
+  LESSON deu_r4l4 — "Akkusativ-Alarm" (26 steps, 5 teaches, 1 untested)
+    Untested: [ihn]
+    SPLIT CANDIDATE: No
+  LESSON deu_r4l9 — "Essen und Trinken" (32 steps, 18 teaches, 3 untested)
+    Untested: [die Birne, das Öl, das Glas]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [der Kaffee, die Milch, der Tee, das Bier...] (9 teaches)
+      Cluster B (steps 15-31): [die Birne, der Kuchen, der Fisch, das Hähnchen...] (9 teaches)
+  LESSON deu_r4l10 — "Geld und Maße" (32 steps, 23 teaches, 10 untested)
+    Untested: [das Konto, einhundert, eintausend, siebzig, die Milliarde, der Teil, der Automat, verkaufen, zahlen, meist]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after fb "fb")
+      Cluster A (steps 0-18): [der Euro, der Cent, das Konto, einhundert...] (14 teaches)
+      Cluster B (steps 19-31): [das Prozent, der Teil, der Automat, die Jacke...] (9 teaches)
+
+=== UNIT 05: Hunger! ===
+  LESSON deu_r05l1 — "Was gibt's zum Essen?" (30 steps, 15 teaches, 3 untested)
+    Untested: [der Freund, schön, das Herz]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after fb "fb")
+      Cluster A (steps 0-15): [der Freund, schön, das Herz, das Frühstück...] (9 teaches)
+      Cluster B (steps 16-29): [frühstücken, der Appetit, die Speisekarte, die Speisenkarte...] (6 teaches)
+  LESSON deu_r05l2 — "Wie schmeckt's?" (31 steps, 18 teaches, 3 untested)
+    Untested: [die Suppe, lecker, salzig]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after tip "tip")
+      Cluster A (steps 0-16): [die Suppe, schmecken, wunderbar, schlecht...] (12 teaches)
+      Cluster B (steps 17-30): [zufrieden, zusammen, gern, gerne...] (6 teaches)
+  LESSON deu_r05l3 — "Ich kann das nicht lesen!" (29 steps, 6 teaches, 1 untested)
+    Untested: [böse]
+    SPLIT CANDIDATE: No
+  LESSON deu_r05l5 — "Ich bestelle für uns beide!" (31 steps, 9 teaches, 1 untested)
+    Untested: [Getrennt oder zusammen?]
+    SPLIT CANDIDATE: No
+  LESSON deu_r05l6 — "Aus der Küche, mit Liebe" (18 steps, 6 teaches, 1 untested)
+    Untested: [um]
+    SPLIT CANDIDATE: No
+  LESSON deu_r05l7 — "Im Hotel" (19 steps, 6 teaches, 2 untested)
+    Untested: [das Doppelzimmer, ihm]
+    SPLIT CANDIDATE: No
+
+=== UNIT 06: Alles auf Deutsch ===
+  LESSON deu_r6l1 — "Kaltes Wasser!" (26 steps, 13 teaches, 1 untested)
+    Untested: [spazieren gehen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r6l2 — "Mein Tag" (25 steps, 15 teaches, 5 untested)
+    Untested: [der Tag, die Uhr, die Minute / die Sekunde, pünktlich, der Schluss]
+    SPLIT CANDIDATE: No
+  LESSON deu_r6l3 — "Montag bis Sonntag" (20 steps, 11 teaches, 2 untested)
+    Untested: [der Dienstag, wichtig / eilig]
+    SPLIT CANDIDATE: No
+  LESSON deu_r6l4 — "Juli bis Dezember" (22 steps, 12 teaches, 2 untested)
+    Untested: [der Schnee / die Temperatur, vierte / fünfte / sechste]
+    SPLIT CANDIDATE: No
+  LESSON deu_r6l5 — "Der Anruf" (20 steps, 8 teaches, 2 untested)
+    Untested: [die E-Mail / klingeln, das Gesicht / der Zeh]
+    SPLIT CANDIDATE: No
+  LESSON deu_r6l6 — "Beim Arzt" (21 steps, 8 teaches, 2 untested)
+    Untested: [das Medikament / die Tablette, weh tun]
+    SPLIT CANDIDATE: No
+  LESSON deu_r6l7 — "Am Bürgeramt" (20 steps, 7 teaches, 1 untested)
+    Untested: [die Halle]
+    SPLIT CANDIDATE: No
+  LESSON deu_r6l9 — "Freizeit und Hobbys" (21 steps, 9 teaches, 1 untested)
+    Untested: [die Musik / das Konzert]
+    SPLIT CANDIDATE: No
+  LESSON deu_r6l13 — "Arbeit und Bildung" (30 steps, 20 teaches, 4 untested)
+    Untested: [der Kollege, der Student, der Test, der Doktor]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after mc "mc")
+      Cluster A (steps 0-18): [der Arbeitsplatz, die Klasse, der Kollege, der Kurs...] (14 teaches)
+      Cluster B (steps 19-29): [werden, arbeitslos, selbständig, kulturell...] (6 teaches)
+  LESSON deu_r6l14 — "Stift und Papier" (30 steps, 20 teaches, 4 untested)
+    Untested: [die Anzeige, die Aussage, das Bild, das Papier]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [die Antwort, die Anzeige, die Aufgabe, die Aussage...] (10 teaches)
+      Cluster B (steps 14-29): [das Buch, der Buchstabe, der Kugelschreiber, das Papier...] (10 teaches)
+  LESSON deu_r6l15 — "Am Telefon" (28 steps, 18 teaches, 7 untested)
+    Untested: [der Anrufbeantworter, das Fax, die Vorwahl, die CD, das Internet, das Lieblingslied, automatisch]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [der Absender, der Anrufbeantworter, die Briefmarke, der Empfänger...] (10 teaches)
+      Cluster B (steps 14-27): [das Internet, das Lieblingslied, das Lied, das Gespräch...] (8 teaches)
+  LESSON deu_r6l16 — "Was machst du so?" (28 steps, 18 teaches, 5 untested)
+    Untested: [erlauben, erzählen, anklicken, fehlen, kümmern]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 12 (after mc "mc")
+      Cluster A (steps 0-12): [anmelden, ausfüllen, erlauben, erzählen...] (9 teaches)
+      Cluster B (steps 13-27): [fernsehen, gewinnen, glauben, kümmern...] (9 teaches)
+  LESSON deu_r6l17 — "Zeit und Feste" (30 steps, 20 teaches, 5 untested)
+    Untested: [der Sonnabend, die Pause, beginnen, gratulieren, heiraten]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [das Ende, das Jahr, der Moment, die Zeit...] (12 teaches)
+      Cluster B (steps 17-29): [der Verein, die Gruppe, das Frühjahr, der Wind...] (8 teaches)
+  LESSON deu_r6l18 — "Noch mehr Verben" (29 steps, 18 teaches, 9 untested)
+    Untested: [aus sein, weg sein, zu sein, wiederholen, das Leben, der Plan, der Fußball, glücklich, früher]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [wehtun, warten, Rad fahren, aus sein...] (10 teaches)
+      Cluster B (steps 15-28): [glücklich, tot, früher, letzt...] (8 teaches)
+
+=== UNIT 07: Der Arztbesuch ===
+  LESSON deu_r07l2 — "Mein Körper tut weh" (27 steps, 15 teaches, 2 untested)
+    Untested: [das Mittel, stark]
+    SPLIT CANDIDATE: No
+  LESSON deu_r07l6 — "Vorsicht ist besser" (27 steps, 11 teaches, 1 untested)
+    Untested: [schwanger]
+    SPLIT CANDIDATE: No
+
+=== UNIT 08: Müllprofessor ===
+  LESSON deu_r8l3 — "Stockwerke und Zimmer" (26 steps, 12 teaches, 1 untested)
+    Untested: [die Etage]
+    SPLIT CANDIDATE: No
+  LESSON deu_r8l5 — "Wo oder Wohin?" (25 steps, 7 teaches, 3 untested)
+    Untested: [stehen, legen, sitzen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r8l9 — "Kochen und Vergleichen" (22 steps, 9 teaches, 3 untested)
+    Untested: [backen, braten, schneiden]
+    SPLIT CANDIDATE: No
+  LESSON deu_r8l12 — "Neue Nachbarn" (20 steps, 10 teaches, 2 untested)
+    Untested: [das Schwein, das Rind]
+    SPLIT CANDIDATE: No
+  LESSON deu_r8l13 — "Richtungen und Beschreibungen" (26 steps, 16 teaches, 6 untested)
+    Untested: [außer, leer, notwendig, praktisch, bauen, herstellen]
+    SPLIT CANDIDATE: No
+
+=== UNIT 09: Freizeit und Vereine ===
+  LESSON deu_r9l1 — "Der Lauftreff" (31 steps, 12 teaches, 3 untested)
+    Untested: [der Fan, der Sportplatz, der Spaziergang]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after story "Die Gruppe läuft los. Mia ist vorne, schnell und leicht. Verumius ist hinten. Seine Beine sind schwer. Sein Atem ist laut. Ein älterer Mann überholt ihn. Eine Frau mit Kinderwagen überholt ihn.")
+      Cluster A (steps 0-15): [der Ball, der Fan, die Mannschaft, der Sportplatz...] (7 teaches)
+      Cluster B (steps 16-30): [joggen, trainieren, spazieren, aktiv...] (5 teaches)
+  LESSON deu_r9l5 — "Ob oder dass?" (21 steps, 9 teaches, 2 untested)
+    Untested: [zuhören, träumen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r9l6 — "Ob, dass und ADUSO" (22 steps, 3 teaches, 2 untested)
+    Untested: [wahr, anders]
+    SPLIT CANDIDATE: No
+  LESSON deu_r9l7 — "Digital und analog" (20 steps, 10 teaches, 1 untested)
+    Untested: [manch]
+    SPLIT CANDIDATE: No
+  LESSON deu_r9l8 — "Digitale Hobbys" (22 steps, 10 teaches, 5 untested)
+    Untested: [surfen, der Fotoapparat, die Kamera, das Buch, ausleihen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r9l10 — "Alles zusammen üben" (18 steps, 5 teaches, 4 untested)
+    Untested: [die Gemeinschaft, leihen, komisch, sympathisch]
+    SPLIT CANDIDATE: No
+  LESSON deu_r9l12 — "Sport und Beschreibungen" (18 steps, 12 teaches, 3 untested)
+    Untested: [das Rad, singen, ausgehen]
+    SPLIT CANDIDATE: No
+
+=== UNIT 10: Deutsche Bahn ===
+  LESSON deu_r10l1 — "47 Minuten Verspätung" (28 steps, 10 teaches, 1 untested)
+    Untested: [der Weg]
+    SPLIT CANDIDATE: No
+  LESSON deu_r10l2 — "Unterwegs" (32 steps, 17 teaches, 3 untested)
+    Untested: [der Norden, der Süden, das Fundbüro]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [die Ampel, der Berg, die Brücke, der Fluss...] (11 teaches)
+      Cluster B (steps 16-31): [der Markt, das Rathaus, die Kirche, das Zentrum...] (6 teaches)
+  LESSON deu_r10l3 — "Mein Platz!" (22 steps, 8 teaches, 1 untested)
+    Untested: [der Tourist / die Touristin]
+    SPLIT CANDIDATE: No
+  LESSON deu_r10l9 — "Fahrkartenkontrolle" (18 steps, 2 teaches, 1 untested)
+    Untested: [der Bus]
+    SPLIT CANDIDATE: No
+  LESSON deu_r10l12 — "Im Bordbistro" (25 steps, 11 teaches, 1 untested)
+    Untested: [der Euro]
+    SPLIT CANDIDATE: No
+
+=== UNIT 11: Auf dem Weihnachtsmarkt ===
+  LESSON deu_r11l1 — "Gendarmenmarkt" (29 steps, 11 teaches, 1 untested)
+    Untested: [schneien]
+    SPLIT CANDIDATE: No
+  LESSON deu_r11l2 — "Was ziehe ich an?" (31 steps, 14 teaches, 2 untested)
+    Untested: [der Schirm, das T-Shirt]
+    SPLIT CANDIDATE: No
+  LESSON deu_r11l3 — "Opa Heinrichs Brötchen" (31 steps, 10 teaches, 4 untested)
+    Untested: [das Parfüm, die Kosmetik, die Mode, der Flohmarkt]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 9 (after mc "mc")
+      Cluster A (steps 0-9): [die Kette, das Parfüm, die Kosmetik, die Mode] (4 teaches)
+      Cluster B (steps 10-30): [die Ferien, der Flohmarkt, schenken, wünschen...] (6 teaches)
+  LESSON deu_r11l4 — "Der rote Schal" (20 steps, 6 teaches, 2 untested)
+    Untested: [vergleichen, ansehen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r11l5 — "Besitz und Wünsche" (18 steps, 1 teaches, 1 untested)
+    Untested: [die Tasse]
+    SPLIT CANDIDATE: No
+  LESSON deu_r11l9 — "Glühwein" (32 steps, 10 teaches, 2 untested)
+    Untested: [das Gewitter, sterben]
+    SPLIT CANDIDATE: No
+  LESSON deu_r11l11 — "Durch den Schnee" (31 steps, 20 teaches, 8 untested)
+    Untested: [freiwillig, verschieden, blöd, der Witz, aussprechen, blond, einmal, wurscht]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [egal, freiwillig, verschieden, blöd...] (10 teaches)
+      Cluster B (steps 16-30): [damals, übermorgen, vorgestern, zeigen...] (10 teaches)
+
+=== UNIT 12: Halbjahresbilanz ===
+  LESSON deu_r12l1 — "Im Literaturcafé" (30 steps, 13 teaches, 2 untested)
+    Untested: [die Situation, das Interview]
+    SPLIT CANDIDATE: No
+  LESSON deu_r12l2 — "Papierkram" (18 steps, 9 teaches, 1 untested)
+    Untested: [abschließen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r12l3 — "Digitaler Papierkram" (32 steps, 12 teaches, 1 untested)
+    Untested: [der Artikel]
+    SPLIT CANDIDATE: No
+  LESSON deu_r12l4 — "Rückblick" (27 steps, 16 teaches, 4 untested)
+    Untested: [der Mitarbeiter, der Kredit, die Tafel, der Hafen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r12l11 — "Entscheidungen und Eigenschaften" (28 steps, 18 teaches, 7 untested)
+    Untested: [nennen, eintragen, ganz, schrecklich, nirgends, wenigstens, einverstanden]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after match "match")
+      Cluster A (steps 0-14): [bestehen, bestätigen, verbieten, verschieben...] (8 teaches)
+      Cluster B (steps 15-27): [eintragen, ganz, preiswert, privat...] (10 teaches)
+  LESSON deu_r12l12 — "Das letzte Kapitel" (23 steps, 16 teaches, 2 untested)
+    Untested: [das Produkt, der Rentner]
+    SPLIT CANDIDATE: No
+  LESSON deu_r12l13 — "Beschreibungen und Abschluss" (24 steps, 9 teaches, 3 untested)
+    Untested: [heraus, herein, der/die Nächste]
+    SPLIT CANDIDATE: No
+  LESSON deu_r12l15 — "Ich will bleiben" (29 steps, 17 teaches, 1 untested)
+    Untested: [unbedingt]
+    SPLIT CANDIDATE: No
+  LESSON deu_r12l16 — "Der A2-Abschluss" (18 steps, 7 teaches, 2 untested)
+    Untested: [der Ehepartner, die Zitrone]
+    SPLIT CANDIDATE: No
+
+=== UNIT 13: Die Bewerbung ===
+  LESSON deu_r13l1 — "Der rote Stift" (32 steps, 20 teaches, 6 untested)
+    Untested: [die Vorstellung, die Unterlage, erwarten, reagieren, die Frist, beachten]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [die Bewerbung, der Lebenslauf, der Erfolg, die Karriere...] (8 teaches)
+      Cluster B (steps 15-31): [die Unterlage, bereit, korrekt, persönlich...] (12 teaches)
+  LESSON deu_r13l2 — "Berufe und Qualifikationen" (32 steps, 21 teaches, 7 untested)
+    Untested: [die Qualifikation, die Fähigkeit, die Weiterbildung, die Lehrstelle, der Architekt, der Mechaniker, berufstätig]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [die Qualifikation, die Fähigkeit, die Fortbildung, die Weiterbildung...] (11 teaches)
+      Cluster B (steps 16-31): [der Praktikant, die Praktikantin, der Ingenieur, der Architekt...] (10 teaches)
+  LESSON deu_r13l3 — "Persönliche Angaben" (30 steps, 18 teaches, 3 untested)
+    Untested: [der Beitrag, der Anspruch, das Werk]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [die Angabe, die Personalie, der Personenstand, das Personal...] (8 teaches)
+      Cluster B (steps 14-29): [die Beschäftigung, die Bedingung, der Bedarf, der Anspruch...] (10 teaches)
+  LESSON deu_r13l4 — "Ich studierte in Istanbul" (18 steps, 4 teaches, 1 untested)
+    Untested: [beschäftigen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r13l5 — "Ich würde mich freuen" (32 steps, 20 teaches, 6 untested)
+    Untested: [das Einkommen, die Lehrerin, absolut, flexibel, ideal, individuell]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after fb "fb")
+      Cluster A (steps 0-17): [die Aushilfe, die Teilzeit, die Vollzeit, das Einkommen...] (13 teaches)
+      Cluster B (steps 18-31): [der Fachmann, die Fachfrau, die Fachleute, absolut...] (7 teaches)
+  LESSON deu_r13l7 — "Könnten Sie das wiederholen?" (24 steps, 12 teaches, 3 untested)
+    Untested: [eignen, bieten, beteiligen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r13l8 — "Der perfekte Lebenslauf" (32 steps, 20 teaches, 8 untested)
+    Untested: [das Inserat, der Empfang, die Aktion, die Aktivität, die Aufforderung, der Vortrag, der Beweis, akzeptieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [die Annonce, das Inserat, die Nachfrage, die Auswahl...] (12 teaches)
+      Cluster B (steps 18-31): [der Beweis, ablehnen, absagen, akzeptieren...] (8 teaches)
+  LESSON deu_r13l9 — "Alles auf dem Prüfstand" (32 steps, 20 teaches, 13 untested)
+    Untested: [das Kennzeichen, die Matura, der Führerausweis, der Profisportler, die Profisportlerin, abhängig, abwesend, anwesend, achten, ankündigen, anschaffen, anstellen, anstrengen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [der Anbieter, die Beratung, die Fremdsprache, die Muttersprache...] (11 teaches)
+      Cluster B (steps 15-31): [abhängig, abwesend, anwesend, angenehm...] (9 teaches)
+  LESSON deu_r13l10 — "Die gute Nachricht" (24 steps, 11 teaches, 1 untested)
+    Untested: [erfordern]
+    SPLIT CANDIDATE: No
+  LESSON deu_r13l11 — "Formell und informell" (23 steps, 8 teaches, 4 untested)
+    Untested: [die Absenderin, meinetwegen, halbtags, perfekt]
+    SPLIT CANDIDATE: No
+
+=== UNIT 14: Erster Arbeitstag ===
+  LESSON deu_r14l1 — "Der erste Morgen" (30 steps, 20 teaches, 8 untested)
+    Untested: [der Gang, der Tagesablauf, die Zusammenarbeit, einrichten, ordnen, gemeinsam, ordentlich, miteinander]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [der Betrieb, die Abteilung, die Etage, der Flur...] (9 teaches)
+      Cluster B (steps 14-29): [der Tagesablauf, die Zusammenarbeit, begrüßen, einrichten...] (11 teaches)
+  LESSON deu_r14l2 — "Das Büro" (29 steps, 20 teaches, 4 untested)
+    Untested: [der Monitor, der Kopierer, die Kopie, die Tabelle]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [der Bildschirm, der Monitor, der Rechner, die Tastatur...] (11 teaches)
+      Cluster B (steps 15-28): [der Ordner, das Regal, die Mappe, der Kuli...] (9 teaches)
+  LESSON deu_r14l4 — "Im Büro unterwegs" (25 steps, 12 teaches, 7 untested)
+    Untested: [leiten, reinigen, besprechen, anstrengend, einheitlich, digital, aktualisieren]
+    SPLIT CANDIDATE: No
+  LESSON deu_r14l6 — "Grammatik im Büro II" (27 steps, 7 teaches, 5 untested)
+    Untested: [bedienen, festlegen, festsetzen, feststehen, festhalten]
+    SPLIT CANDIDATE: No
+  LESSON deu_r14l7 — "Du oder Sie?" (19 steps, 9 teaches, 1 untested)
+    Untested: [heizen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r14l8 — "Technik und Einrichtung" (27 steps, 11 teaches, 1 untested)
+    Untested: [elektrisch]
+    SPLIT CANDIDATE: No
+  LESSON deu_r14l9 — "Geburtstagskuchen und Regeln" (31 steps, 14 teaches, 7 untested)
+    Untested: [kleben, stecken, aufnehmen, gebrauchen, einsetzen, eckig, senkrecht]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [die Schachtel, die Kiste, der Kasten, das Werkzeug...] (9 teaches)
+      Cluster B (steps 15-30): [aufnehmen, gebrauchen, einsetzen, eckig...] (5 teaches)
+  LESSON deu_r14l11 — "Computer und Software" (26 steps, 9 teaches, 4 untested)
+    Untested: [abonnieren, aufladen, kaputtmachen, virtuell]
+    SPLIT CANDIDATE: No
+  LESSON deu_r14l13 — "Zu Hause und im Büro" (18 steps, 9 teaches, 1 untested)
+    Untested: [der Schlaf]
+    SPLIT CANDIDATE: No
+  LESSON deu_r14l14 — "Anleitungen und Abläufe" (18 steps, 12 teaches, 4 untested)
+    Untested: [die Bedienungsanleitung, die Gebrauchsanweisung, die Mobilität, auflösen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r14l15 — "Alltag und Feierabend" (21 steps, 8 teaches, 2 untested)
+    Untested: [waagerecht, waagrecht]
+    SPLIT CANDIDATE: No
+
+=== UNIT 15: Reise nach Hamburg ===
+  LESSON deu_r15l1 — "Moin, Hamburg!" (31 steps, 18 teaches, 4 untested)
+    Untested: [der Hauptbahnhof, der Hafen, der Nebel, feucht]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [der Hauptbahnhof, der Hafen, die Region, die Gegend...] (11 teaches)
+      Cluster B (steps 18-30): [die Metropole, die Nordsee, die Ostsee, die Nacht...] (7 teaches)
+  LESSON deu_r15l2 — "Unterwegs in der Stadt" (30 steps, 20 teaches, 6 untested)
+    Untested: [das Fahrzeug, das Kraftfahrzeug, der Fußgänger, die Fußgängerin, der Radfahrer, die Radfahrerin]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after fb "fb")
+      Cluster A (steps 0-17): [die U-Bahn, die Tram, die Fähre, die Eisenbahn...] (14 teaches)
+      Cluster B (steps 18-29): [der Radfahrer, die Radfahrerin, die Zone, die Spur...] (6 teaches)
+  LESSON deu_r15l3 — "Herr Professor Doktor Schmidt" (32 steps, 20 teaches, 13 untested)
+    Untested: [der Hof, die Distanz, die Entfernung, städtisch, der Passagier, die Passagierin, der Steward, die Stewardess, der Laster, der Transport, transportieren, dicht, der Tourismus]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after mc "mc")
+      Cluster A (steps 0-18): [das Gebäude, der Turm, der Hof, der Vorort...] (11 teaches)
+      Cluster B (steps 19-31): [der Passagier, die Passagierin, der Steward, die Stewardess...] (9 teaches)
+  LESSON deu_r15l4 — "Der Genitiv und die N-Deklination" (32 steps, 18 teaches, 7 untested)
+    Untested: [der Gegenstand, die Reservierung, die Tankstelle, die Panne, das Tempo, eilen, stoppen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [der Gegenstand, der Geschmack, die Geschwindigkeit, die Geschwindigkeitsbeschränkung...] (10 teaches)
+      Cluster B (steps 15-31): [der Halt, der Stau, die Tankstelle, die Panne...] (8 teaches)
+  LESSON deu_r15l5 — "Hamburger Küche" (32 steps, 20 teaches, 6 untested)
+    Untested: [das Hühnchen, die Karotte, die Limonade, die Kneipe, salzig, mild]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 19 (after fb "fb")
+      Cluster A (steps 0-19): [die Speise, der Speisewagen, die Vorspeise, die Nachspeise...] (14 teaches)
+      Cluster B (steps 20-31): [die Limonade, der Imbiss, die Kneipe, lecker...] (6 teaches)
+  LESSON deu_r15l6 — "Elbphilharmonie" (21 steps, 13 teaches, 7 untested)
+    Untested: [die Bar, die Marmelade, die Margarine, die Wolle, das Leder, der Katalog, das Kaffeehaus]
+    SPLIT CANDIDATE: No
+  LESSON deu_r15l7 — "Wetter und Orientierung" (19 steps, 9 teaches, 5 untested)
+    Untested: [die Wärme, die Kälte, flach, abbiegen, sich befinden]
+    SPLIT CANDIDATE: No
+  LESSON deu_r15l8 — "Alles über Hamburg" (32 steps, 20 teaches, 11 untested)
+    Untested: [die Bremse, die Landung, das Fundbüro, die Semmel, der Knödel, das Müsli, landen, losfahren, stehenbleiben, überfahren, überholen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after fb "fb")
+      Cluster A (steps 0-18): [das Benzin, die Bremse, das Boot, der Gehsteig...] (14 teaches)
+      Cluster B (steps 19-31): [landen, losfahren, stehenbleiben, tanken...] (6 teaches)
+  LESSON deu_r15l9 — "Zurück nach Berlin" (23 steps, 10 teaches, 4 untested)
+    Untested: [vorder, außen, rückwärts, voraus]
+    SPLIT CANDIDATE: No
+  LESSON deu_r15l10 — "Verben und Varianten" (20 steps, 12 teaches, 10 untested)
+    Untested: [entfernen, fließen, parkieren, überqueren, umdrehen, umtauschen, das Zeug, der Rahm, die Möhre, die Konfitüre]
+    SPLIT CANDIDATE: No
+
+=== UNIT 16: Der Streit ===
+  LESSON deu_r16l1 — "Das Bohrloch" (32 steps, 21 teaches, 6 untested)
+    Untested: [der Konflikt, das Verbot, schreien, schweigen, klagen, streiken]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after fb "fb")
+      Cluster A (steps 0-17): [die Bohrmaschine, der Streit, der Ärger, der Konflikt...] (12 teaches)
+      Cluster B (steps 18-31): [wütend, ärgerlich, ernst, still...] (9 teaches)
+  LESSON deu_r16l2 — "Die Hausordnung" (32 steps, 20 teaches, 8 untested)
+    Untested: [die Stimme, der Gedanke, kritisieren, beleidigen, unterbrechen, widersprechen, verlangen, behaupten]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after story "Verumius traf den Nachbarn im Treppenhaus. Der Nachbar sagte kein Wort. Er zeigte nur auf die Wand, wo sein Zettel hing. Dann ging er weiter.")
+      Cluster A (steps 0-17): [die Schuld, schuldig, schuld, die Kritik...] (12 teaches)
+      Cluster B (steps 18-31): [unterbrechen, widersprechen, verlangen, behaupten...] (8 teaches)
+  LESSON deu_r16l3 — "Die Zettel an der Wand" (32 steps, 20 teaches, 8 untested)
+    Untested: [das Gewissen, der Mut, das Herz, das Gefühl, entgegenkommen, loben, reichen, tolerant]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after fb "fb")
+      Cluster A (steps 0-16): [das Geheimnis, das Gewissen, die Herausforderung, die Kraft...] (12 teaches)
+      Cluster B (steps 17-31): [überreden, loben, reichen, ehrlich...] (8 teaches)
+  LESSON deu_r16l4 — "Indirekte Fragen" (32 steps, 20 teaches, 11 untested)
+    Untested: [die Diskussion, die Ehe, das Ehepaar, der Schreck, der Schrecken, leiden, enttäuschen, erschrecken, trennen, scheiden, verzichten]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after fb "fb")
+      Cluster A (steps 0-18): [die Diskussion, die Beziehung, die Freundschaft, die Ehe...] (13 teaches)
+      Cluster B (steps 19-31): [trennen, scheiden, fürchten, hassen...] (7 teaches)
+  LESSON deu_r16l5 — "Hildi greift ein" (32 steps, 23 teaches, 9 untested)
+    Untested: [die Kriminalpolizei, der Verdacht, gespannt, ängstlich, einsam, stolz, mutig, kämpfen, schließlich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after story "Paragraph drei, Absatz zwei: Ruhestörender Lärm ist ab 20 Uhr untersagt. Verumius, du hast um 20:05 gebohrt. Fünf Minuten zu spät.")
+      Cluster A (steps 0-14): [der Polizist, die Polizistin, der Richter, die Richterin...] (10 teaches)
+      Cluster B (steps 15-31): [das Risiko, der Verdacht, verdächtig, strafbar...] (13 teaches)
+  LESSON deu_r16l6 — "Heinrichs Weisheit" (32 steps, 23 teaches, 15 untested)
+    Untested: [die Wunde, die Träne, der Schade, der Schaden, versprechen, verhalten, verhindern, verlassen, verlaufen, versäumen, ernsthaft, heimlich, hinterher, eben, stinken]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after story "Verumius, hör zu. Ich habe fünfzig Jahre lang Nachbarn gehabt. Manche waren laut, manche leise. Alle brauchten Geduld. Und Marmelade.")
+      Cluster A (steps 0-16): [das Vertrauen, die Verzeihung, die Wunde, die Träne...] (11 teaches)
+      Cluster B (steps 17-31): [verhalten, verhindern, verlassen, verlaufen...] (12 teaches)
+  LESSON deu_r16l7 — "Alles auf den Tisch" (32 steps, 22 teaches, 4 untested)
+    Untested: [stehlen, schießen, einbrechen, der Streik]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after story "Hildi sagte, ein Kompromiss braucht zwei Seiten. Der Nachbar hat seine Seite gezeigt. Jetzt bin ich dran.")
+      Cluster A (steps 0-15): [der Dieb, der Einbrecher, die Einbrecherin, der Einbruch...] (11 teaches)
+      Cluster B (steps 16-31): [festnehmen, verhaften, verurteilen, fangen...] (11 teaches)
+  LESSON deu_r16l8 — "Marmelade und Frieden" (32 steps, 22 teaches, 16 untested)
+    Untested: [betrunken, geschieden, getrennt, geheim, schlank, schmal, schief, selten, unheimlich, verliebt, vergeblich, beschränken, entlassen, betrügen, auseinander, heim]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after story "Ein Glas Marmelade? Von dem Mann mit der Bohrmaschine? Er klopfte nicht. Er stellte es einfach hin und ging.")
+      Cluster A (steps 0-18): [der Gegner, die Langeweile, betrunken, geschieden...] (15 teaches)
+      Cluster B (steps 19-31): [beißen, beschränken, entlassen, bestrafen...] (7 teaches)
+
+=== UNIT 17: Karneval im Rheinland ===
+  LESSON deu_r17l1 — "Kölle Alaaf!" (32 steps, 18 teaches, 5 untested)
+    Untested: [der Hut, grüßen, gucken, winken, diesmal]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after fb "fb")
+      Cluster A (steps 0-17): [der Karneval, das Kostüm, die Tradition, die Freude...] (11 teaches)
+      Cluster B (steps 18-31): [riesig, kreativ, grüßen, schauen...] (7 teaches)
+  LESSON deu_r17l2 — "Masken und Melodien" (32 steps, 20 teaches, 7 untested)
+    Untested: [die Sängerin, die Oper, musikalisch, elegant, schick, amüsieren, lächeln]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [die Bühne, der Tanz, der Sänger, die Sängerin...] (10 teaches)
+      Cluster B (steps 15-31): [der Auftritt, der Saal, musikalisch, populär...] (10 teaches)
+  LESSON deu_r17l4 — "Gefuehle und Feste" (22 steps, 11 teaches, 1 untested)
+    Untested: [der Kuss]
+    SPLIT CANDIDATE: No
+  LESSON deu_r17l5 — "Warum? Wozu? Stattdessen!" (32 steps, 20 teaches, 12 untested)
+    Untested: [die Sportart, der Spielplatz, das Spielzeug, das Stadion, das Golf, der Ski, die Gymnastik, der Start, der Rekord, der Sieg, siegen, starten]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 7 (after fb "fb")
+      Cluster A (steps 0-7): [der Spieler, die Spielerin, der Sportler, die Sportlerin...] (6 teaches)
+      Cluster B (steps 8-31): [die Trainerin, der Spielplatz, das Spielzeug, das Stadion...] (14 teaches)
+  LESSON deu_r17l6 — "Kneipentour durch die Altstadt" (32 steps, 20 teaches, 11 untested)
+    Untested: [der Reporter, der Journalist, die Journalistin, der Fotograf, die Fotografie, original, realistisch, interkulturell, auftreten, begegnen, sorgen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after mc "mc")
+      Cluster A (steps 0-18): [die Runde, die Unterhaltung, das Vergnügen, die Neuigkeit...] (11 teaches)
+      Cluster B (steps 19-31): [die Journalistin, der Fotograf, die Fotografie, original...] (9 teaches)
+  LESSON deu_r17l7 — "Rosenmontagszug!" (32 steps, 20 teaches, 12 untested)
+    Untested: [das Tor, das Talent, der Typ, das Ballett, wahnsinnig, allerbest, allerschönst, springen, rennen, klettern, treiben, treten]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after mc "mc")
+      Cluster A (steps 0-18): [der Zuschauer, die Zuschauerin, der Schauspieler, die Schauspielerin...] (11 teaches)
+      Cluster B (steps 19-31): [das Ballett, wahnsinnig, allerbest, allerschönst...] (9 teaches)
+  LESSON deu_r17l8 — "Kamelle und Konfetti" (32 steps, 20 teaches, 16 untested)
+    Untested: [der Schriftsteller, der Autor, der Roman, das Gedicht, die Erzählung, die Literatur, die Schrift, der Verlag, das Medium, die Garantie, garantieren, aufführen, auffallen, verwenden, wetten, irren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 8 (after fb "fb")
+      Cluster A (steps 0-8): [der Maler, die Malerin, der Schriftsteller, die Schriftstellerin...] (6 teaches)
+      Cluster B (steps 9-31): [der Roman, das Gedicht, die Erzählung, die Literatur...] (14 teaches)
+  LESSON deu_r17l9 — "Konfetti im Haar" (18 steps, 10 teaches, 3 untested)
+    Untested: [die Fasnacht, die Frisur, die Coiffeuse]
+    SPLIT CANDIDATE: No
+  LESSON deu_r17l10 — "Adjektive und Freizeitverben" (32 steps, 19 teaches, 10 untested)
+    Untested: [rasieren, faulenzen, tauchen, zelten, zuschauen, vergnügt, aller-, doppel-, wieder-, zusammen-]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [färbig, farbig, stilistisch, kürzlich...] (11 teaches)
+      Cluster B (steps 16-31): [tauchen, zelten, zuschauen, vergnügt...] (8 teaches)
+
+=== UNIT 18: Im Biergarten ===
+  LESSON deu_r18l1 — "Unter den Kastanien" (32 steps, 18 teaches, 6 untested)
+    Untested: [der Treffpunkt, der Wirt, der Ober, genießen, spazieren gehen, prost]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 19 (after fb "fb")
+      Cluster A (steps 0-19): [die Terrasse, der Treffpunkt, der Wirt, die Wirtin...] (11 teaches)
+      Cluster B (steps 20-31): [gemütlich, durstig, hungrig, satt...] (7 teaches)
+  LESSON deu_r18l2 — "Brotzeit und Bratwurst" (32 steps, 20 teaches, 6 untested)
+    Untested: [die Kanne, die Schüssel, die Dose, die Tüte, die Pflaume, drin]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [die Pfanne, die Kanne, die Schüssel, die Dose...] (11 teaches)
+      Cluster B (steps 17-31): [die Pflaume, die Aprikose, die Frucht, das Gebäck...] (9 teaches)
+  LESSON deu_r18l3 — "Die Spargel-Panik" (32 steps, 17 teaches, 7 untested)
+    Untested: [die Schlange, der Backofen, das Nahrungsmittel, das Vitamin, zubereiten, mischen, spülen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [die Saison, die Ernte, die Quittung, der Rabatt...] (6 teaches)
+      Cluster B (steps 15-31): [der Backofen, das Nahrungsmittel, die Ernährung, die Diät...] (11 teaches)
+  LESSON deu_r18l4 — "Worauf freust du dich?" (32 steps, 16 teaches, 12 untested)
+    Untested: [der Konsum, der Kakao, die Serviceangestellte, die Vermietung, die Vermittlung, die Eröffnung, mager, spitz, eröffnen, konsumieren, lösen, heben]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [der Konsum, die Flüssigkeit, der Alkohol, der Kakao...] (11 teaches)
+      Cluster B (steps 17-31): [spitz, eröffnen, konsumieren, lösen...] (5 teaches)
+  LESSON deu_r18l5 — "Lukas spielt" (32 steps, 16 teaches, 7 untested)
+    Untested: [das Tuch, der Kloß, aufwachen, nähern, pflanzen, wachsen, gießen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 19 (after mc "mc")
+      Cluster A (steps 0-19): [die Wiese, das Gras, das Feld, das Tuch...] (11 teaches)
+      Cluster B (steps 20-31): [blühen, nähern, pflanzen, wachsen...] (5 teaches)
+  LESSON deu_r18l6 — "Dialekt auf dem Teller" (32 steps, 18 teaches, 4 untested)
+    Untested: [das Henderl, das Hendl, der Fleischhauer, das Backrohr]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [der Bauer, der Bauernhof, der Bewohner, die Bewohnerin...] (12 teaches)
+      Cluster B (steps 18-31): [das Obers, der Schwammerl, der Fleischhauer, das Backrohr...] (6 teaches)
+  LESSON deu_r18l7 — "Prost und Wiederholung" (31 steps, 14 teaches, 5 untested)
+    Untested: [der Abt, der Bub, ein paar, au, der Blitz]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [der Abt, der Abwart, die Abwartin, der Bub...] (11 teaches)
+      Cluster B (steps 16-30): [nebenbei, au, der Blitz] (3 teaches)
+  LESSON deu_r18l8 — "Der Nachhauseweg" (30 steps, 12 teaches, 4 untested)
+    Untested: [nutzen, runterwerfen, bio-, einzel-]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [der Metzger, ernähren, fressen, füttern...] (9 teaches)
+      Cluster B (steps 18-29): [verpflegen, bio-, einzel-] (3 teaches)
+
+=== UNIT 19: Ausländerbehörde ===
+  LESSON deu_r19l1 — "Wartenummer B089" (29 steps, 16 teaches, 2 untested)
+    Untested: [die Bestätigung, die Meldung]
+    SPLIT CANDIDATE: No
+  LESSON deu_r19l2 — "Amtsdeutsch" (29 steps, 17 teaches, 3 untested)
+    Untested: [der Migrant, der Wohnort, die Daten]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 12 (after mc "mc")
+      Cluster A (steps 0-12): [die Gebühr, die Urkunde, das Gesetz, das Recht...] (9 teaches)
+      Cluster B (steps 13-28): [die Verwaltung, der Wohnort, der Wohnsitz, die Daten...] (8 teaches)
+  LESSON deu_r19l3 — "Das muss gemacht werden" (27 steps, 14 teaches, 11 untested)
+    Untested: [beantragen, genehmigen, anerkennen, erhalten, verpflichten, fällig, zusätzlich, untersagt, voraussichtlich, inklusive, einschließlich]
+    SPLIT CANDIDATE: No
+  LESSON deu_r19l4 — "Bevor die Frist abläuft" (30 steps, 17 teaches, 8 untested)
+    Untested: [abstimmen, umgehen, sichern, der Zugang, die Rufnummer, der Zivilstand, das Original, ablaufen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [obwohl, trotzdem, bevor, seitdem...] (12 teaches)
+      Cluster B (steps 17-29): [der Zugang, die Rufnummer, der Zivilstand, das Original...] (5 teaches)
+  LESSON deu_r19l5 — "Die Dokumentenprüfung" (29 steps, 14 teaches, 6 untested)
+    Untested: [die Schwangerschaft, das Konsulat, empfangen, integrieren, illegal, zugänglich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [die Beamtin, das Asyl, die Geburt, die Schwangerschaft...] (10 teaches)
+      Cluster B (steps 16-28): [integrieren, illegal, recht, zugänglich] (4 teaches)
+  LESSON deu_r19l6 — "Bankdeutsch und Briefpost" (32 steps, 21 teaches, 6 untested)
+    Untested: [abmachen, einzahlen, die Bankleitzahl, der Cousin, der Neffe, der Onkel]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [das Bargeld, das Girokonto, die Überweisung, die Einzahlung...] (12 teaches)
+      Cluster B (steps 17-31): [der Briefkasten, der Briefumschlag, der Briefträger, das Einschreiben...] (9 teaches)
+  LESSON deu_r19l7 — "Alles auf dem Prüfstand" (26 steps, 10 teaches, 3 untested)
+    Untested: [der Enkel, die Angehörige, verwandt]
+    SPLIT CANDIDATE: No
+  LESSON deu_r19l8 — "Ich habe es geschafft!" (30 steps, 8 teaches, 5 untested)
+    Untested: [der Käufer, die Verkäuferin, die Betriebsrätin, der Bankomat, der Zuschlag]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 10 (after fb "fb")
+      Cluster A (steps 0-10): [der Käufer, die Verkäuferin, die Betriebsrätin, die Chipkarte] (4 teaches)
+      Cluster B (steps 11-29): [der Bancomat, der Bankomat, die Brieftasche, der Zuschlag] (4 teaches)
+
+=== UNIT 20: Die Versicherung ===
+  LESSON deu_r20l1 — "Der Papierstapel" (29 steps, 18 teaches, 4 untested)
+    Untested: [die Patientin, die Medizin, versichern, behandeln]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [die Versicherung, der Krankenwagen, die Kosten, der Patient...] (11 teaches)
+      Cluster B (steps 15-28): [die Verletzung, der Notfall, die Notaufnahme, der Notruf...] (7 teaches)
+  LESSON deu_r20l2 — "Körpervokabular" (32 steps, 22 teaches, 7 untested)
+    Untested: [der Muskel, der Knochen, der Atem, der Blutdruck, brechen, messen, spüren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 19 (after mc "mc")
+      Cluster A (steps 0-19): [die Brust, die Schulter, das Knie, der Finger...] (15 teaches)
+      Cluster B (steps 20-31): [messen, spüren, schwitzen, frieren...] (7 teaches)
+  LESSON deu_r20l3 — "KD im Café" (27 steps, 17 teaches, 11 untested)
+    Untested: [die Versichertenkarte, die Steuer, der Lohn, berechnen, finanzieren, die Einnahme, der Einkauf, der Kauf, niedrig, gering, knapp]
+    SPLIT CANDIDATE: No
+  LESSON deu_r20l4 — "Die Grammatik der Bürokratie" (32 steps, 19 teaches, 9 untested)
+    Untested: [die Pille, die Infektion, verschreiben, einnehmen, operieren, die Doktorin, die Schwierigkeit, maximal, minimal]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after fb "fb")
+      Cluster A (steps 0-16): [das Pflaster, die Salbe, die Pille, die Spritze...] (12 teaches)
+      Cluster B (steps 17-31): [operieren, die Ärztin, die Doktorin, die Schwierigkeit...] (7 teaches)
+  LESSON deu_r20l5 — "Apotheke und Pflege" (31 steps, 20 teaches, 12 untested)
+    Untested: [die Zahncreme, die Zahnpasta, die Zahnbürste, die Bürste, der Pfleger, der Krankenpfleger, die Krankenschwester, der Betreuer, die Betreuerin, die Betreuung, der Ersatz, die Besserung]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [die Drogerie, die Zahncreme, die Zahnpasta, die Zahnbürste...] (12 teaches)
+      Cluster B (steps 17-30): [die Betreuung, pflegen, betreuen, erleichtern...] (8 teaches)
+  LESSON deu_r20l6 — "TK oder AOK?" (27 steps, 18 teaches, 14 untested)
+    Untested: [die Pension, der Senior, die Seniorin, der Pensionist, die Pensionistin, das Altersheim, die Einrichtung, pensionieren, die Not, das Opfer, der Tod, die Tote, tödlich, die Lieferung]
+    SPLIT CANDIDATE: No
+  LESSON deu_r20l7 — "Prüfung: Gesundheit und System" (27 steps, 15 teaches, 11 untested)
+    Untested: [der Raucher, die Raucherin, der Nichtraucher, die Nichtraucherin, süchtig, blind, taub, link, stechen, schieben, wiegen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r20l8 — "Hildis Servietten-Diagramm" (29 steps, 18 teaches, 11 untested)
+    Untested: [die Münze, sich erholen, die Erholung, behindern, die Ordination, befreit, befriedigend, kräftig, parallel, der Mangel, die Badewanne]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 12 (after fb "fb")
+      Cluster A (steps 0-12): [die Münze, abheben, abnehmen, zunehmen...] (9 teaches)
+      Cluster B (steps 13-28): [behindern, stürzen, die Ordination, befreit...] (9 teaches)
+
+=== UNIT 21: Ost und West ===
+  LESSON deu_r21l1 — "Leipzig Hauptbahnhof" (28 steps, 16 teaches, 6 untested)
+    Untested: [national, die Entwicklung, entstehen, erleben, vor allem, ursprünglich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [die Grenze, die Mauer, die Freiheit, die Gesellschaft...] (10 teaches)
+      Cluster B (steps 16-27): [entstehen, erleben, erfahren, überhaupt...] (6 teaches)
+  LESSON deu_r21l2 — "Stimmen der Geschichte" (30 steps, 19 teaches, 7 untested)
+    Untested: [die Bürgerin, die Politik, die Politikerin, die Öffentlichkeit, sozial, führen, dienen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [die Bevölkerung, der Bürger, die Bürgerin, die Gewalt...] (10 teaches)
+      Cluster B (steps 14-29): [der Politiker, die Politikerin, der Pfarrer, die Rede...] (9 teaches)
+  LESSON deu_r21l3 — "Altes Rathaus" (28 steps, 16 teaches, 10 untested)
+    Untested: [die Generation, das Zeichen, die Wirkung, die Hoffnung, kritisch, häufig, ständig, ewig, verändern, wirken]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [das Denkmal, der Einfluss, der Fortschritt, die Generation...] (11 teaches)
+      Cluster B (steps 16-27): [ewig, verändern, nachdenken, wirken...] (5 teaches)
+  LESSON deu_r21l4 — "Nikolaikirche" (29 steps, 15 teaches, 8 untested)
+    Untested: [der Zeuge, die Zeugin, die Wirklichkeit, menschlich, geschehen, entwickeln, überlegen, der Dialekt]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [die Versammlung, die Gemeinschaft, die Jugend, der Zeuge...] (10 teaches)
+      Cluster B (steps 16-28): [geschehen, entwickeln, überlegen, andererseits...] (5 teaches)
+  LESSON deu_r21l5 — "Hildis Fotoalbum" (29 steps, 18 teaches, 11 untested)
+    Untested: [die Kindheit, das Heim, die Erziehung, die Mehrheit, die Minderheit, die Religion, die Gewerkschaft, dauernd, sogenannt, fliehen, erziehen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after fb "fb")
+      Cluster A (steps 0-16): [die Kindheit, das Heimweh, das Heim, die Flucht...] (11 teaches)
+      Cluster B (steps 17-28): [die Religion, die Gewerkschaft, gleichberechtigt, dauernd...] (7 teaches)
+  LESSON deu_r21l6 — "Du kannst ruhig du sagen" (28 steps, 16 teaches, 10 untested)
+    Untested: [die Einführung, die Tätigkeit, die Vertretung, der Vertreter, die Vertreterin, das Gold, der Gott, das Kreuz, die Uniform, beeinflussen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 11 (after fb "fb")
+      Cluster A (steps 0-11): [der Standpunkt, die Einführung, die Erfindung, die Tätigkeit...] (6 teaches)
+      Cluster B (steps 12-27): [die Vertreterin, der Druck, das Gold, der Gott...] (10 teaches)
+  LESSON deu_r21l7 — "Zeitzeugen" (26 steps, 11 teaches, 5 untested)
+    Untested: [die Zeichnung, der Sozialarbeiter, die Sozialarbeiterin, hierher, veröffentlichen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r21l8 — "Leipziger Allerlei" (27 steps, 13 teaches, 3 untested)
+    Untested: [die Entwickelung, einführen, hieher]
+    SPLIT CANDIDATE: No
+
+=== UNIT 22: Umwelt und Alltag ===
+  LESSON deu_r22l1 — "Nachhaltigkeit im Büro" (31 steps, 18 teaches, 3 untested)
+    Untested: [der Boden, das System, die Statistik]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [die Umwelt, der Umweltschutz, die Energie, das Klima...] (11 teaches)
+      Cluster B (steps 16-30): [das System, die Statistik, der Durchschnitt, steigen...] (7 teaches)
+  LESSON deu_r22l2 — "Grün denken" (32 steps, 21 teaches, 5 untested)
+    Untested: [die Müllabfuhr, die Mülltonne, das Material, die Ware, der Import]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after fb "fb")
+      Cluster A (steps 0-18): [der Abfall, der Abfalleimer, die Müllabfuhr, die Mülltonne...] (14 teaches)
+      Cluster B (steps 19-31): [der Export, der Import, die Industrie, die Produktion...] (7 teaches)
+  LESSON deu_r22l3 — "Der Pfand-Meister" (29 steps, 18 teaches, 7 untested)
+    Untested: [das Abgas, die Katastrophe, die Forderung, verursachen, giftig, ökologisch, sparsam]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after fb "fb")
+      Cluster A (steps 0-17): [das Abgas, die Gefahr, die Katastrophe, die Krise...] (14 teaches)
+      Cluster B (steps 18-28): [verschmutzen, giftig, ökologisch, sparsam] (4 teaches)
+  LESSON deu_r22l4 — "Grammatik der Natur" (32 steps, 18 teaches, 9 untested)
+    Untested: [die Fabrik, die Anlage, die Werbung, die Reklame, die Marke, der Faktor, die Technik, die Technologie, statistisch]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [die Fabrik, das Kraftwerk, die Anlage, die Werbung...] (13 teaches)
+      Cluster B (steps 17-31): [erhöhen, fördern, protestieren, statistisch...] (5 teaches)
+  LESSON deu_r22l5 — "Bio oder Discounter?" (32 steps, 20 teaches, 7 untested)
+    Untested: [das Waschmittel, das Feuerzeug, das Streichholz, das Grundstück, verpacken, verbrauchen, künstlich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after fb "fb")
+      Cluster A (steps 0-15): [das Waschmittel, die Batterie, das Feuerzeug, das Streichholz...] (8 teaches)
+      Cluster B (steps 16-31): [das Grundstück, der Rasen, die Fläche, die Hälfte...] (12 teaches)
+  LESSON deu_r22l6 — "Ruhig du sagen" (31 steps, 18 teaches, 4 untested)
+    Untested: [der Tierpark, beschädigen, steil, wild]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [die Umgebung, der Wetterbericht, die Wettervorhersage, der Sturm...] (9 teaches)
+      Cluster B (steps 16-30): [beschädigen, brennen, donnern, blitzen...] (9 teaches)
+  LESSON deu_r22l7 — "Umwelt-Quiz" (30 steps, 14 teaches, 10 untested)
+    Untested: [der Schmutz, das Gebirge, das Tal, der Mond, der Lärm, das Gas, zerstören, weltenweit, weltweit, zentral]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [der Dreck, der Schmutz, der Staub, der Hügel...] (10 teaches)
+      Cluster B (steps 15-29): [zerstören, weltenweit, weltweit, zentral] (4 teaches)
+  LESSON deu_r22l8 — "Ein richtiger Berliner" (30 steps, 18 teaches, 14 untested)
+    Untested: [der Protest, die Alternative, die Klimaanlage, der Hersteller, die Feuerwehr, die Umweltverschmutzung, der Zünder, das Zündholz, die Form, vergrößern, elektr-, elektro-, öko-, über-]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after fb "fb")
+      Cluster A (steps 0-16): [der Protest, die Alternative, die Klimaanlage, der Hersteller...] (12 teaches)
+      Cluster B (steps 17-29): [vergrößern, verbrennen, elektr-, elektro-...] (6 teaches)
+
+=== UNIT 23: Die Prüfung ===
+  LESSON deu_r23l1 — "Lernmaschine" (28 steps, 18 teaches, 2 untested)
+    Untested: [gründlich, ziemlich]
+    SPLIT CANDIDATE: No
+  LESSON deu_r23l2 — "Werkzeuge des Lernens" (31 steps, 20 teaches, 5 untested)
+    Untested: [die Abbildung, das Detail, die Aussprache, nachschlagen, markieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after mc "mc")
+      Cluster A (steps 0-13): [das Wörterbuch, das Lexikon, die Überschrift, die Zeile...] (10 teaches)
+      Cluster B (steps 14-30): [die Aussprache, das Alphabet, der Ausdruck, die Beschreibung...] (10 teaches)
+  LESSON deu_r23l3 — "Vor der Prüfung" (31 steps, 20 teaches, 3 untested)
+    Untested: [der Intensivkurs, unterrichten, testen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [das Institut, der Intensivkurs, das Semester, das Seminar...] (11 teaches)
+      Cluster B (steps 16-30): [die Teilnahme, der Teilnehmer, die Teilnehmerin, der Professor...] (9 teaches)
+  LESSON deu_r23l4 — "Hypothesen und Wünsche" (32 steps, 18 teaches, 10 untested)
+    Untested: [die Ursache, die Begründung, die Reaktion, der Vorteil, feststellen, gelten, stimmen, gelingen, allgemein, kompliziert]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after mc "mc")
+      Cluster A (steps 0-13): [die Ausnahme, die Folge, der Gegensatz, der Grund...] (8 teaches)
+      Cluster B (steps 14-31): [der Vorteil, der Nachteil, feststellen, ergänzen...] (10 teaches)
+  LESSON deu_r23l5 — "Drei Konstruktionen" (32 steps, 18 teaches, 9 untested)
+    Untested: [das Forum, der Dialog, der Lerner, die Lernerin, der Leser, die Leserin, darstellen, unterscheiden, korrigieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [die Kommunikation, die Recherche, die Theorie, das Forum...] (11 teaches)
+      Cluster B (steps 16-31): [darstellen, unterscheiden, korrigieren, zusammenfassen...] (7 teaches)
+  LESSON deu_r23l6 — "Wortschatz-Blitz" (32 steps, 20 teaches, 14 untested)
+    Untested: [die Aufnahme, der Einfall, die Buchhandlung, das Magazin, die Mensa, das Studio, das Schreiben, der Übersetzer, die Übersetzerin, der Wissenschaftler, die Wissenschaftlerin, bemerken, beobachten, eintreten]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 20 (after fb "fb")
+      Cluster A (steps 0-20): [die Aufnahme, der Einfall, die Buchhandlung, das Magazin...] (16 teaches)
+      Cluster B (steps 21-31): [einfallen, eintreten, präsentieren, vorlesen] (4 teaches)
+  LESSON deu_r23l7 — "Im Prüfungsraum" (32 steps, 20 teaches, 4 untested)
+    Untested: [beinah, beinahe, jemals, jederzeit]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after fb "fb")
+      Cluster A (steps 0-16): [allerdings, bereits, bisher, inzwischen...] (12 teaches)
+      Cluster B (steps 17-31): [jemals, jederzeit, jeweils, nachher...] (8 teaches)
+  LESSON deu_r23l8 — "Die großen Wörter" (32 steps, 20 teaches, 5 untested)
+    Untested: [solange, ob, nämlich, zwar, ebenfalls]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after fb "fb")
+      Cluster A (steps 0-16): [bevor, da, damit, nachdem...] (11 teaches)
+      Cluster B (steps 17-31): [entweder, weder, sowohl, sondern...] (9 teaches)
+  LESSON deu_r23l9 — "BESTANDEN!" (32 steps, 19 teaches, 12 untested)
+    Untested: [genauso, daher, teilweise, eher, vermutlich, ungefähr, unterschiedlich, interessant, interessiert, neugierig, begrenzt, sichtbar]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after story "Mia setzt sich neben Verumius. 'Erinnerst du dich an den kleinen Stein?' Er zieht ihn aus der Tasche. 'Den habe ich die ganze Prüfung über festgehalten.' Mia lacht. 'Dann hat er seinen Job gemacht.'")
+      Cluster A (steps 0-18): [deswegen, ebenso, genauso, weshalb...] (14 teaches)
+      Cluster B (steps 19-31): [interessant, interessiert, neugierig, begrenzt...] (5 teaches)
+  LESSON deu_r23l10 — "Bildung und Kultur" (28 steps, 18 teaches, 2 untested)
+    Untested: [so viel, umso]
+    SPLIT CANDIDATE: No
+  LESSON deu_r23l11 — "Verben und Feinschliff" (22 steps, 14 teaches, 12 untested)
+    Untested: [regeln, mitteilen, ausrichten, hinweisen, ereignen, genügen, die Biologie, mittler, öfter, folgend, speziell, unterstreichen]
+    SPLIT CANDIDATE: No
+
+=== UNIT 24: Einjährig ===
+  LESSON deu_r24l1 — "Ein Jahr" (28 steps, 16 teaches, 6 untested)
+    Untested: [der Alltag, der Beginn, die Rückkehr, der Sinn, gewöhnen, alltäglich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [das Abenteuer, der Alltag, der Beginn, die Eile...] (10 teaches)
+      Cluster B (steps 14-27): [der Zeitpunkt, der Zustand, verbringen, vermissen...] (6 teaches)
+  LESSON deu_r24l2 — "Rückblick" (29 steps, 19 teaches, 2 untested)
+    Untested: [die Überzeugung, der Fall]
+    SPLIT CANDIDATE: No
+  LESSON deu_r24l3 — "Bevor Berlin" (27 steps, 15 teaches, 8 untested)
+    Untested: [die Dauer, die Fortsetzung, das Mal, die Art, erfüllen, besonder, gewöhnlich, negativ]
+    SPLIT CANDIDATE: No
+  LESSON deu_r24l4 — "Zukunftsmusik" (28 steps, 14 teaches, 8 untested)
+    Untested: [vorschlagen, entschließen, zukünftig, weiter, optimistisch, vernünftig, sinnvoll, sinnlos]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [die Zukunft, die Planung, der Zweck, fortsetzen...] (10 teaches)
+      Cluster B (steps 14-27): [vernünftig, sinnvoll, sinnlos, wohl] (4 teaches)
+  LESSON deu_r24l5 — "Vorbereitung" (29 steps, 18 teaches, 9 untested)
+    Untested: [das Souvenir, das Video, dieÜbernachtung, überraschen, verstecken, gewohnt, üblich, selbstverständlich, ungewöhnlich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [die Gratulation, die Leistung, das Souvenir, die Verabredung...] (10 teaches)
+      Cluster B (steps 15-28): [verstecken, aussuchen, zusagen, zustimmen...] (8 teaches)
+  LESSON deu_r24l6 — "Das Fest" (31 steps, 16 teaches, 6 untested)
+    Untested: [das Pech, der Rat, zugehen, erwachsen, verständlich, umgekehrt]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [der Abschied, das Pech, der Rat, der Ratschlag...] (9 teaches)
+      Cluster B (steps 18-30): [zugehen, zurechtkommen, entschlossen, erwachsen...] (7 teaches)
+  LESSON deu_r24l7 — "Rückblick und Ausblick" (29 steps, 10 teaches, 5 untested)
+    Untested: [die Wandrung, worüber, möglichst, voneinander, zumindest]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 9 (after mc "mc")
+      Cluster A (steps 0-9): [die Wandrung, worüber, worum, möglicherweise...] (5 teaches)
+      Cluster B (steps 10-28): [nirgendwo, normalerweise, umsonst, voneinander...] (5 teaches)
+  LESSON deu_r24l8 — "Ich werde bleiben" (31 steps, 15 teaches, 6 untested)
+    Untested: [besetzen, abschreiben, vermuten, zufällig, äußerlich, -weis / -weise]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after fb "fb")
+      Cluster A (steps 0-17): [der Augenblick, besetzen, abschreiben, verwechseln...] (11 teaches)
+      Cluster B (steps 18-30): [los, durcheinander, äußerlich, -weis / -weise] (4 teaches)
+
+=== UNIT 25: Die Uni ===
+  LESSON deu_r25l1 — "Herr Professor Doktor" (32 steps, 20 teaches, 9 untested)
+    Untested: [die Universität, der Hörsaal, der Dozent, die Dozentin, die Immatrikulation, immatrikulieren, insbesondere, anhand, hinsichtlich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [die Universität, der Hörsaal, die Mensa, das Seminar...] (9 teaches)
+      Cluster B (steps 16-31): [die Einschreibung, die Immatrikulation, studieren, immatrikulieren...] (11 teaches)
+  LESSON deu_r25l3 — "Die erste Vorlesung" (32 steps, 21 teaches, 11 untested)
+    Untested: [der Zusammenhang, die Darstellung, der Sachverhalt, die Veränderung, begründen, erörtern, abstrakt, relevant, sachlich, wesentlich, folglich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [der Zusammenhang, die Bedeutung, die Entwicklung, die Darstellung...] (10 teaches)
+      Cluster B (steps 17-31): [erörtern, folgern, schlussfolgern, reflektieren...] (11 teaches)
+  LESSON deu_r25l4 — "Nominalisierung und Verbalisierung" (32 steps, 21 teaches, 5 untested)
+    Untested: [die Lösung, die Fähigkeit, herausfinden, überprüfen, präzise]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after fb "fb")
+      Cluster A (steps 0-15): [die Verbesserung, die Verschlechterung, die Erklärung, die Begründung...] (12 teaches)
+      Cluster B (steps 16-31): [auswerten, herausfinden, überprüfen, hinterfragen...] (9 teaches)
+  LESSON deu_r25l5 — "In der Mensa" (32 steps, 20 teaches, 10 untested)
+    Untested: [die Semesterferien, das Studentenwohnheim, der Kommilitone, die Kommilitonin, spezialisieren, zuverlässiig, fundiert, komplex, stichhaltig, umfassend]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [die Semesterferien, das Stipendium, das Studentenwohnheim, die Prüfung...] (8 teaches)
+      Cluster B (steps 15-31): [die Sprechstunde, die Prüfungsordnung, einreichen, spezialisieren...] (12 teaches)
+  LESSON deu_r25l6 — "Die Hausarbeit" (32 steps, 21 teaches, 13 untested)
+    Untested: [die Diplomarbeit, die Dissertation, die Reihenfolge, verfassen, paraphrasieren, zitieren, rekonstruieren, überarbeiten, verweisen, vertiefen, analytisch, signifikant, recherchieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [die Diplomarbeit, die Dissertation, das Literaturverzeichnis, die Fussnote...] (8 teaches)
+      Cluster B (steps 15-31): [die Recherche, die Reihenfolge, verfassen, paraphrasieren...] (13 teaches)
+  LESSON deu_r25l7 — "Alles unter der Lupe" (32 steps, 20 teaches, 7 untested)
+    Untested: [das Forschungsergebnis, die Fachsprache, anwenden, zusammenfassen, evaluieren, differenzieren, interdisziplinaer]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [die Forschungsfrage, das Forschungsergebnis, der Fachbereich, das Fachgebiet...] (11 teaches)
+      Cluster B (steps 16-31): [aufstellen, belegen, widerlegen, zusammenfassen...] (9 teaches)
+  LESSON deu_r25l8 — "Guter Punkt" (32 steps, 15 teaches, 9 untested)
+    Untested: [die Umfrage, die Variable, die Datenbank, die Deadline, der Dozierende, der Beleg, der Befund, der Gegenstand, gegenüberstellen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after fb "fb")
+      Cluster A (steps 0-18): [die Umfrage, die Variable, die Datenbank, die Deadline...] (9 teaches)
+      Cluster B (steps 19-31): [gegenüberstellen, erwerben, die Gleichheit, die Gerechtigkeit...] (6 teaches)
+
+=== UNIT 26: Medienkritik ===
+  LESSON deu_r26l1 — "Die Morgenzeitung" (32 steps, 20 teaches, 4 untested)
+    Untested: [der Journalismus, die Massenmedien, informieren, kommentieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [der Journalismus, der Journalist, die Journalistin, die Nachrichten...] (10 teaches)
+      Cluster B (steps 18-31): [berichten, informieren, recherchieren, kommentieren...] (10 teaches)
+  LESSON deu_r26l2 — "Wem kann man glauben?" (32 steps, 20 teaches, 9 untested)
+    Untested: [die Meinungsfreiheit, die Fake News, die Manipulation, die Berichterstattung, manipulieren, beeinflussen, verfaelschen, tendenzioes, voreingenommen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after fb "fb")
+      Cluster A (steps 0-15): [die Pressefreiheit, die Meinungsfreiheit, die Desinformation, die Fake News...] (10 teaches)
+      Cluster B (steps 16-31): [manipulieren, beeinflussen, verbreiten, verfaelschen...] (10 teaches)
+  LESSON deu_r26l3 — "Die Nachrichtenredaktion" (32 steps, 20 teaches, 8 untested)
+    Untested: [die Kolumne, der Herausgeber, erläutern, herausgeben, darstellen, kritisieren, kontrovers, sachkundig]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [die Redaktion, der Redakteur, die Redakteurin, der Leitartikel...] (7 teaches)
+      Cluster B (steps 14-31): [der Verlag, der Korrespondent, die Korrespondentin, hervorheben...] (13 teaches)
+  LESSON deu_r26l4 — "Man kann das auch anders sagen" (32 steps, 20 teaches, 12 untested)
+    Untested: [die Pressekonferenz, die Pressemitteilung, die Nachrichtenagentur, die Informationsquelle, der Datenschutz, enthueleln, dementieren, unterdrücken, zurückweisen, sensibilisieren, sensationell, populistisch]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [die Pressekonferenz, die Pressemitteilung, die Nachrichtenagentur, die Informationsquelle...] (8 teaches)
+      Cluster B (steps 14-31): [aufdecken, enthueleln, dementieren, unterdrücken...] (12 teaches)
+  LESSON deu_r26l5 — "Die andere Seite" (32 steps, 20 teaches, 5 untested)
+    Untested: [der Hintergrund, der Interessenkonflikt, zweifelhaft, unzuverlässiig, vertrauenswürdig]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 20 (after mc "mc")
+      Cluster A (steps 0-20): [der Hintergrund, der Interessenkonflikt, die Medienlandschaft, die Stellungnahme...] (13 teaches)
+      Cluster B (steps 21-31): [übertreiben, faktenbasiert, oberflächlich, zweifelhaft...] (7 teaches)
+  LESSON deu_r26l6 — "Faktencheck" (32 steps, 20 teaches, 10 untested)
+    Untested: [die Titelseite, moderieren, rezensieren, ausstrahlen, senden, streamen, meinungsbildend, medial, transparent, zeitgemaess]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [das Feuilleton, die Glosse, die Karikatur, der Leserbrief...] (10 teaches)
+      Cluster B (steps 18-31): [moderieren, rezensieren, ausstrahlen, senden...] (10 teaches)
+  LESSON deu_r26l7 — "Zwischen den Zeilen" (32 steps, 20 teaches, 15 untested)
+    Untested: [die Nachrichtensprecherin, der Übersetzer, die Übersetzerin, das Online-Medium, das Printmedium, öffentlich machen, ausblenden, verdraengen, verleumden, verharmlosen, zensieren, skandaloes, subjektiv, wahrheitsgemaess, zuverlässiig]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [der Chefredakteur, der Berichterstatter, der Rezipient, die Nachrichtensprecherin...] (8 teaches)
+      Cluster B (steps 14-31): [das Printmedium, die Qualitaetszeitung, öffentlich machen, ausblenden...] (12 teaches)
+  LESSON deu_r26l8 — "Medienkompetenz" (27 steps, 13 teaches, 7 untested)
+    Untested: [die Auflage, die Informationsflut, die Meinungsmache, das Rechercheergebnis, die sozialen Medien, die Verbreitung, die Verleumdung]
+    SPLIT CANDIDATE: No
+
+=== UNIT 27: Der Vortrag ===
+  LESSON deu_r27l1 — "Lampenfieber" (32 steps, 18 teaches, 5 untested)
+    Untested: [der Vortrag, der Fachvortrag, strukturiert, präsentieren, einleiten]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after mc "mc")
+      Cluster A (steps 0-18): [die Praesentation, der Vortrag, das Publikum, der Fachvortrag...] (11 teaches)
+      Cluster B (steps 19-31): [die Kernaussage, überzeugend, anschaulich, strukturiert...] (7 teaches)
+  LESSON deu_r27l2 — "Fachbegriffe und Formeln" (32 steps, 20 teaches, 6 untested)
+    Untested: [die Bildschirmpräsentation, die Übersicht, die Überleitung, der Übergang, prägnant, kompetent]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [das Flipchart, das Handout, die Bildschirmpräsentation, das Diagramm...] (12 teaches)
+      Cluster B (steps 17-31): [der Moderator, die Moderatorin, ausführlich, prägnant...] (8 teaches)
+  LESSON deu_r27l3 — "So klar, dass alle nicken" (32 steps, 20 teaches, 8 untested)
+    Untested: [die Tagung, der Konferenzraum, das Rahmenprogramm, der Redebeitrag, erstens, ferner, schließlich, darstellen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [die Tagung, die Veranstaltung, die Sitzung, die Besprechung...] (8 teaches)
+      Cluster B (steps 15-31): [die Redezeit, der Redebeitrag, demnach, daraufhin...] (12 teaches)
+  LESSON deu_r27l4 — "Gesetzt den Fall" (32 steps, 20 teaches, 9 untested)
+    Untested: [die Podiumsdiskussion, die Diskussionsrunde, die Moderation, der Meinungsaustausch, die Verhandlung, die Zwischenfrage, konstruktiv, sachbezogen, ergebnisorientiert]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 19 (after fb "fb")
+      Cluster A (steps 0-19): [die Podiumsdiskussion, die Diskussionsrunde, die Moderation, der Meinungsaustausch...] (15 teaches)
+      Cluster B (steps 20-31): [angenommen, konstruktiv, sachbezogen, ergebnisorientiert...] (5 teaches)
+  LESSON deu_r27l5 — "Damit alle verstehen" (32 steps, 20 teaches, 14 untested)
+    Untested: [die Ergebnispraesentation, die Gespraechsführung, der Leitfaden, das Praxisbeispiel, die Schlussfolgerung, die Grussformel, die Pointe, interaktiv, fachkundig, stichwortartig, ergänzen, bekraeftigen, nahelegen, präzisieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after teach "stichhaltig")
+      Cluster A (steps 0-16): [die Ergebnispraesentation, die Gespraechsführung, der Leitfaden, das Praxisbeispiel...] (12 teaches)
+      Cluster B (steps 17-31): [fachkundig, stichwortartig, ergänzen, bekraeftigen...] (8 teaches)
+  LESSON deu_r27l6 — "Der roemische Aquädukt" (32 steps, 20 teaches, 11 untested)
+    Untested: [das Protokoll, die Rueckmeldung, die Anmerkung, die Erläuterung, die Mitschrift, das Netzwerken, der Workshop, aufgreifen, thematisieren, verhandeln, überzeugen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after fb "fb")
+      Cluster A (steps 0-17): [das Protokoll, die Rueckmeldung, die Anmerkung, die Erläuterung...] (10 teaches)
+      Cluster B (steps 18-31): [leiten, moderieren, einbeziehen, beitragen...] (10 teaches)
+  LESSON deu_r27l7 — "Alles auf dem Prüfstand" (32 steps, 20 teaches, 12 untested)
+    Untested: [das Thesenpapier, das Kernthema, der Grundgedanke, die Geschäftsordnung, überblicksartig, zutreffend, angemessen, zusammenfassend, abschließend, daran anknüpfend, abschließen, beifuegen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 12 (after mc "mc")
+      Cluster A (steps 0-12): [die Teilnehmerliste, das Thesenpapier, die Tischvorlage, das Kernthema...] (9 teaches)
+      Cluster B (steps 13-31): [angemessen, zusammenfassend, abschließend, daran anknüpfend...] (11 teaches)
+  LESSON deu_r27l8 — "Gut gemacht" (23 steps, 11 teaches, 2 untested)
+    Untested: [Wären Sie so freundlich, Ich komme nun zum nächssten Punkt]
+    SPLIT CANDIDATE: No
+  LESSON deu_r27l9 — "Argumente und Methoden" (22 steps, 12 teaches, 7 untested)
+    Untested: [mithilfe von, der/die Vorsitzende, ausführen, einführen, andeuten, überleiten, gegeneinander abwägen]
+    SPLIT CANDIDATE: No
+
+=== UNIT 28: Sprichwörter ===
+  LESSON deu_r28l1 — "Sonntagsbesuch" (31 steps, 18 teaches, 6 untested)
+    Untested: [poetisch, volkstümlich, überliefert, erzählen, dichten, zitieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after fb "fb")
+      Cluster A (steps 0-17): [das Sprichwort, die Redewendung, die Weisheit, die Redensart...] (10 teaches)
+      Cluster B (steps 18-30): [literarisch, poetisch, zeitlos, volkstümlich...] (8 teaches)
+  LESSON deu_r28l2 — "Dichtung und Wahrheit" (32 steps, 20 teaches, 7 untested)
+    Untested: [die Kurzgeschichte, das Drama, das Werk, die Hauptfigur, der Schauplatz, lyrisch, dichterisch]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 19 (after mc "mc")
+      Cluster A (steps 0-19): [das Gedicht, der Vers, die Strophe, der Reim...] (15 teaches)
+      Cluster B (steps 20-31): [der Schauplatz, die Epoche, episch, lyrisch...] (5 teaches)
+  LESSON deu_r28l3 — "Er sagte, die Backstube sei sein Königreich" (32 steps, 20 teaches, 13 untested)
+    Untested: [die Perspektive, das Motiv, das Wortspiel, die Doppeldeutigkeit, die Anspielung, die Lektüre, angeblich, anscheinend, bekanntlich, offenbar, berichten, schildern, meinen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [das Zitat, der Kontext, die Perspektive, das Motiv...] (10 teaches)
+      Cluster B (steps 18-31): [angeblich, anscheinend, bekanntlich, offenbar...] (10 teaches)
+  LESSON deu_r28l4 — "Als ob er alles wüsste" (32 steps, 21 teaches, 9 untested)
+    Untested: [der Erzaehler, die Tragödie, der Schriftsteller, der Zeitgenosse, fiktiv, klassisch, metaphorisch, sinnbildlich, existieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [der Erzaehler, die Erzaehlerin, die Nebenfigur, die Tragödie...] (10 teaches)
+      Cluster B (steps 15-31): [tragisch, satirisch, ironisch, humorvoll...] (11 teaches)
+  LESSON deu_r28l5 — "Laut Heinrich" (32 steps, 20 teaches, 15 untested)
+    Untested: [die Übung, der Anfang, bildlich, wörtlich, sprichwörtlich, zweideutig, umgangssprachlich, gleichnishaft, prosaisch, sprachlich, schriftlich, mündlich, äußern, hinzufügen, mitteilen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after teach "sprachlich")
+      Cluster A (steps 0-16): [die Übung, der Anfang, bildlich, wörtlich...] (12 teaches)
+      Cluster B (steps 17-31): [schriftlich, mündlich, übertragen, äußern...] (8 teaches)
+  LESSON deu_r28l6 — "Morgenstund hat Gold im Mund" (32 steps, 20 teaches, 8 untested)
+    Untested: [Es ist noch kein Meister vom Himmel gefallen, Andere Laender, andere Sitten, Der Apfel fällt nicht weit vom Stamm, Wo ein Wille ist, ist auch ein Weg, der Daumen, der Stamm, der Schmetterling, versinnbildlichen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 10 (after mc "mc")
+      Cluster A (steps 0-10): [Morgenstund hat Gold im Mund, Übung macht den Meister, Aller Anfang ist schwer, Reden ist Silber, Schweigen ist Gold...] (5 teaches)
+      Cluster B (steps 11-31): [Es ist noch kein Meister vom Himmel gefallen, Wer zuletzt lacht, lacht am besten, Andere Laender, andere Sitten, Wer A sagt, muss auch B sagen...] (15 teaches)
+  LESSON deu_r28l7 — "Alles auf dem Prüfstand" (20 steps, 13 teaches, 4 untested)
+    Untested: [Etwas auf den Nagel haengen, Jemandem Honig ums Maul schmieren, Das Kind mit dem Bade ausschütten, das Fettnäpfchen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r28l8 — "Sprichwoerter verstehen" (20 steps, 10 teaches, 4 untested)
+    Untested: [überliefern, verbreiten, aufgreifen, aussagen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r28l9 — "Aufgeschrieben" (32 steps, 18 teaches, 11 untested)
+    Untested: [bildlich gesprochen, dem Vernehmen nach, sozusagen, vermeintlich, wörtlich genommen, sich beziehen auf, umschreiben, begründen, entgegnen, vermitteln, heissen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after fb "fb")
+      Cluster A (steps 0-16): [Zwei Fliegen mit einer Klappe schlagen, Die Katze im Sack kaufen, Was Haenschen nicht lernt, lernt Hans nimmermehr, Wie man in den Wald hineinruft, so schallt es heraus...] (10 teaches)
+      Cluster B (steps 17-31): [sich beziehen auf, umschreiben, unterstellen, begründen...] (8 teaches)
+
+=== UNIT 29: Die Debatte ===
+  LESSON deu_r29l1 — "Integration und Zusammenleben" (32 steps, 20 teaches, 8 untested)
+    Untested: [der Politiker, die Politikerin, der Standpunkt, die Meinungsverschiedenheit, demokratisch, parlamentarisch, kritisieren, verteidigen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [die Debatte, die Demokratie, die Partei, der Politiker...] (8 teaches)
+      Cluster B (steps 15-31): [der Bundestag, der Standpunkt, die Meinungsverschiedenheit, politisch...] (12 teaches)
+  LESSON deu_r29l2 — "Argumente und Gegenargumente" (32 steps, 20 teaches, 9 untested)
+    Untested: [das Gegenargument, die Reform, das Grundrecht, die Maßnahme, das Bedenken, beschließen, einwenden, entgegnen, verabschieden]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [das Gegenargument, die Koalition, der Kompromiss, die Fraktion...] (10 teaches)
+      Cluster B (steps 15-31): [das Grundrecht, die Kontroverse, die Maßnahme, das Bedenken...] (10 teaches)
+  LESSON deu_r29l3 — "Einerseits... andererseits" (32 steps, 20 teaches, 8 untested)
+    Untested: [hingegen, je...desto, teils...teils, die Abstimmung, die Verfassung, der Widerstand, plädieren, vertreten]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [einerseits, andererseits, jedoch, hingegen...] (8 teaches)
+      Cluster B (steps 15-31): [teils...teils, nicht nur...sondern auch, ebenso wie, die Abstimmung...] (12 teaches)
+  LESSON deu_r29l4 — "Obgleich und Wenngleich" (32 steps, 20 teaches, 6 untested)
+    Untested: [demzufolge, die Prämisse, die Schlussfolgerung, die Stellungnahme, die Überzeugung, die Kompromissbereitschaft]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [obgleich, wenngleich, wenn auch, selbst wenn...] (12 teaches)
+      Cluster B (steps 17-31): [die Schlussfolgerung, die Stellungnahme, die Überzeugung, die Kompromissbereitschaft...] (8 teaches)
+  LESSON deu_r29l5 — "Die Frage" (32 steps, 21 teaches, 15 untested)
+    Untested: [insbesondere, darüber hinaus, außerdem, des Weiteren, folglich, zugegebenermaßen, wohlgemerkt, die Gegenposition, der Gegenvorschlag, die Meinungsbildung, das Stimmrecht, das Zugeständnis, dagegenhalten, erwidern, opponieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after teach "zugegebenermaßen")
+      Cluster A (steps 0-16): [vor allem, insbesondere, darüber hinaus, außerdem...] (10 teaches)
+      Cluster B (steps 17-31): [wohlgemerkt, kurzum, die Gegenposition, der Gegenvorschlag...] (11 teaches)
+  LESSON deu_r29l6 — "Zwischenrufe und Repliken" (32 steps, 20 teaches, 9 untested)
+    Untested: [ähnlich wie, demgegenüber, ungeachtet dessen, in Anbetracht, die Zuständigkeit, die Volksabstimmung, oppositionell, zugestehen, forcieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [im Vergleich zu, verglichen mit, genauso wie, anders als...] (9 teaches)
+      Cluster B (steps 15-31): [ungeachtet dessen, in Anbetracht, die Zuständigkeit, die Volksabstimmung...] (11 teaches)
+  LESSON deu_r29l7 — "Auf dem Prüfstand" (32 steps, 20 teaches, 11 untested)
+    Untested: [die Ministerin, die Petition, die Strategie, der Vertreter, die Vertreterin, reformorientiert, strittig, unanfechtbar, undemokratisch, durchsetzen, entgegenwirken]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after mc "mc")
+      Cluster A (steps 0-13): [der Minister, die Ministerin, die Petition, das Plenum...] (9 teaches)
+      Cluster B (steps 14-31): [populistisch, radikal, strittig, unanfechtbar...] (11 teaches)
+  LESSON deu_r29l8 — "Wichtiger Beitrag" (32 steps, 20 teaches, 15 untested)
+    Untested: [Ich bin der Auffassung, dass, Dem ist entgegenzuhalten, dass, Es lässt sich nicht leugnen, dass, Daraus ergibt sich, aufgrund, ungeachtet, zugunsten, polarisieren, relativieren, zurückweisen, infrage stellen, beipflichten, entschärfen, provozieren, anfechtbar]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after teach "aufgrund")
+      Cluster A (steps 0-16): [Ich bin der Auffassung, dass, Meiner Ansicht nach, Es steht außer Frage, dass, Dem ist entgegenzuhalten, dass...] (10 teaches)
+      Cluster B (steps 17-31): [ungeachtet, zugunsten, polarisieren, relativieren...] (10 teaches)
+
+=== UNIT 30: Amtsdeutsch ===
+  LESSON deu_r30l1 — "Der Brief" (32 steps, 20 teaches, 6 untested)
+    Untested: [das Amt, die Verwaltung, die Vorschrift, das Recht, die Sachbearbeiterin, buerokratisch]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 11 (after fb "fb")
+      Cluster A (steps 0-11): [das Amt, die Behörde, der Bescheid, das Formular...] (6 teaches)
+      Cluster B (steps 12-31): [die Genehmigung, die Verwaltung, die Vorschrift, die Verordnung...] (14 teaches)
+  LESSON deu_r30l2 — "Formulare und Fristen" (29 steps, 20 teaches, 4 untested)
+    Untested: [die Ausländerbehörde, die Ordnungswidrigkeit, unbefristet, gueltig]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 12 (after mc "mc")
+      Cluster A (steps 0-12): [das Bürgeramt, das Finanzamt, das Bauamt, das Ordnungsamt...] (10 teaches)
+      Cluster B (steps 13-28): [die Ordnungswidrigkeit, die Mahnung, der Einspruch, der Widerspruch...] (10 teaches)
+  LESSON deu_r30l3 — "Für Elise auf Endlosschleife" (32 steps, 20 teaches, 11 untested)
+    Untested: [die Bearbeitungsgebühr, die Eingangsbestätigung, die Erteilung, der Verwaltungsakt, die Rechtslage, die Laufzeit, der Paragraph, der Dienstweg, es ist davon auszugehen, es bedarf, es gilt]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [die Bearbeitungsgebühr, das Aktenzeichen, die Bescheinigung, die Eingangsbestätigung...] (10 teaches)
+      Cluster B (steps 17-31): [der Betrag, die Laufzeit, der Paragraph, der Dienstweg...] (10 teaches)
+  LESSON deu_r30l4 — "KD übersetzt" (22 steps, 11 teaches, 3 untested)
+    Untested: [die Rechtsanwaeltin, der Klaeger, die Klaegerin]
+    SPLIT CANDIDATE: No
+  LESSON deu_r30l6 — "Unter Bezugnahme auf..." (32 steps, 20 teaches, 9 untested)
+    Untested: [zufolge, im Sinne des Gesetzes, die Anlage, die Amtssprache, die Beitragsordnung, die Verguetung, demnach, ferner, entsprechend]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after teach "hiermit lege ich Widerspruch ein")
+      Cluster A (steps 0-16): [bezüglich, hinsichtlich, aufgrund, infolge...] (12 teaches)
+      Cluster B (steps 17-31): [die Anlage, die Amtssprache, die Beitragsordnung, die Nachfrist...] (8 teaches)
+  LESSON deu_r30l7 — "Die digitale Behörde" (32 steps, 22 teaches, 17 untested)
+    Untested: [der Vertrag, die Kuendigung, die Vollmacht, der Mangel, der Schaden, die Reklamation, die Abmahnung, die Dienstleistung, der Betreff, der Leserbrief, die Aufgabe, die Anforderung, bearbeiten, bestätigen, anordnen, beauftragen, erlassen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after teach "die Anforderung")
+      Cluster A (steps 0-16): [der Vertrag, die Kuendigung, die Vollmacht, der Mangel...] (12 teaches)
+      Cluster B (steps 17-31): [beantragen, bearbeiten, einreichen, genehmigen...] (10 teaches)
+  LESSON deu_r30l8 — "Paragraphen und Pflichten" (29 steps, 19 teaches, 12 untested)
+    Untested: [veranlassen, verfügen, verweigern, vorsehen, zurückweisen, zustimmen, reklamieren, ratifizieren, nachkommen, mahnen, kündigen, pflichtgemaess]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 12 (after fb "fb")
+      Cluster A (steps 0-12): [untersagen, veranlassen, verfügen, verweigern...] (10 teaches)
+      Cluster B (steps 13-28): [reklamieren, ratifizieren, stattgeben, nachkommen...] (9 teaches)
+  LESSON deu_r30l9 — "Hildi und die Formulare" (32 steps, 16 teaches, 12 untested)
+    Untested: [das Grundbuch, der Erlass, entscheiden, erteilen, bewilligt, bindend, unvorstellbar, insoweit, mithin, seitens, unbeschadet, nichtsdestoweniger]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [das Grundbuch, der Erlass, entscheiden, erteilen...] (5 teaches)
+      Cluster B (steps 15-31): [bewilligt, bindend, essbar, loesbar...] (11 teaches)
+
+=== UNIT 31: Wirtschaft ===
+  LESSON deu_r31l1 — "Der Steuerberater" (32 steps, 18 teaches, 4 untested)
+    Untested: [der Gewinn, die Schulden, das Kapital, der Etat]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [die Abgabe, der Umsatz, der Gewinn, der Verlust...] (10 teaches)
+      Cluster B (steps 18-31): [finanziell, oekonomisch, nachhaltig, rentabel...] (8 teaches)
+  LESSON deu_r31l2 — "Die Sprache des Geldes" (31 steps, 20 teaches, 7 untested)
+    Untested: [die Anlage, der Profit, der Konzern, der Wettbewerb, der Marktanteil, anlegen, profitieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [die Aktie, die Anlage, der Anleger, die Börse...] (12 teaches)
+      Cluster B (steps 17-30): [die Nachfrage, die Konjunktur, profitabel, gewinnbringend...] (8 teaches)
+  LESSON deu_r31l3 — "Bis Dezember werden Sie bezahlt haben" (32 steps, 19 teaches, 7 untested)
+    Untested: [der Import, die Subvention, der Rohstoff, der Steuersatz, steuerpflichtig, fiskalisch, konjunkturell]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after mc "mc")
+      Cluster A (steps 0-18): [die Bilanz, der Export, der Import, die Inflation...] (12 teaches)
+      Cluster B (steps 19-31): [konjunkturell, exportieren, importieren, besteuern...] (7 teaches)
+  LESSON deu_r31l4 — "Da die Wirtschaft wächst" (31 steps, 19 teaches, 2 untested)
+    Untested: [die Globalisierung, schätzungsweise]
+    SPLIT CANDIDATE: No
+  LESSON deu_r31l5 — "Eine Entscheidung treffen" (32 steps, 18 teaches, 3 untested)
+    Untested: [Bruttoinlandsprodukt, Nettogehalt, Einfluss nehmen auf]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after mc "mc")
+      Cluster A (steps 0-18): [Privatisierung, Bruttoinlandsprodukt, Sozialleistung, Nettogehalt...] (11 teaches)
+      Cluster B (steps 19-31): [Einfluss nehmen auf, in Kauf nehmen, einen Beitrag leisten, absetzen...] (7 teaches)
+  LESSON deu_r31l6 — "Bilanz ziehen" (32 steps, 18 teaches, 4 untested)
+    Untested: [Ruecklage, Monopol, fusionieren, bilanzieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [Buchführung, Eigenkapital, Fremdkapital, Gesamtkosten...] (8 teaches)
+      Cluster B (steps 15-31): [Monopol, Fonds, solvent, branchenspezifisch...] (10 teaches)
+  LESSON deu_r31l7 — "Zahlen, Daten, Fakten" (32 steps, 18 teaches, 6 untested)
+    Untested: [Arbeitgeber, Arbeitnehmer, Angebot, Konkurs anmelden, Rechnung tragen, quartalweise]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after fb "fb")
+      Cluster A (steps 0-16): [Arbeitgeber, Arbeitnehmer, Angebot, Krise...] (12 teaches)
+      Cluster B (steps 17-31): [verstaatlichen, amortisieren, liquidieren, outsourcen...] (6 teaches)
+  LESSON deu_r31l8 — "Das System verstehen" (32 steps, 18 teaches, 4 untested)
+    Untested: [erwirtschaften, umso mehr als, insofern als, namentlich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after fb "fb")
+      Cluster A (steps 0-17): [zum Ausdruck bringen, in Erwägung ziehen, erwirtschaften, abschreiben...] (10 teaches)
+      Cluster B (steps 18-31): [nämlich, und zwar, schließlich, insofern als...] (8 teaches)
+
+=== UNIT 32: Kultur und Identität ===
+  LESSON deu_r32l1 — "Im Museum" (31 steps, 18 teaches, 4 untested)
+    Untested: [die Identität, die Vielfalt, die Wahrnehmung, die Zugehörigkeit]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [die Identität, das Bewusstsein, die Herkunft, die Tradition...] (8 teaches)
+      Cluster B (steps 15-30): [die Zugehörigkeit, das Zusammenleben, gesellschaftlich, multikulturell...] (10 teaches)
+  LESSON deu_r32l2 — "Wer bin ich?" (32 steps, 20 teaches, 4 untested)
+    Untested: [respektieren, prägen, pflegen, anerkennen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after fb "fb")
+      Cluster A (steps 0-14): [die Anschauung, die Überzeugung, die Vorstellung, die Wertvorstellung...] (9 teaches)
+      Cluster B (steps 15-31): [die Lebensqualität, die Menschenwürde, eigenständig, offen...] (11 teaches)
+  LESSON deu_r32l3 — "Wer seine Herkunft kennt" (32 steps, 18 teaches, 7 untested)
+    Untested: [die Migration, die Integration, das Milieu, sich auseinandersetzen mit, sich identifizieren mit, sich anpassen, vermitteln]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after fb "fb")
+      Cluster A (steps 0-15): [die Migration, die Integration, die Einwanderung, die Diskriminierung...] (8 teaches)
+      Cluster B (steps 16-31): [die Lebensweise, die Weltanschauung, ethnisch, pluralistisch...] (10 teaches)
+  LESSON deu_r32l4 — "Dieser und jener" (32 steps, 18 teaches, 3 untested)
+    Untested: [dasjenige, im Wesentlichen, keinesfalls]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [dieser, jener, solcher, derjenige...] (11 teaches)
+      Cluster B (steps 17-31): [ein solcher, gleichermaßen, im Wesentlichen, im Grunde...] (7 teaches)
+  LESSON deu_r32l6 — "Fuer Gleichberechtigung" (20 steps, 9 teaches, 4 untested)
+    Untested: [aufgeklaert, diskriminieren, emanzipieren, überwinden]
+    SPLIT CANDIDATE: No
+  LESSON deu_r32l7 — "Was wirklich zaehlt" (31 steps, 18 teaches, 10 untested)
+    Untested: [die Diversitaet, die Subkultur, das Kulturgut, die Werteordnung, die Zukunftsvision, die Gesinnung, die Rollenverteilung, die Moral, tolerieren, verdraengen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [die Diversitaet, die Assimilation, die Interkulturalitaet, die Leitkultur...] (10 teaches)
+      Cluster B (steps 17-30): [die Gesinnung, die Rollenverteilung, die Moral, fremdbestimmt...] (8 teaches)
+  LESSON deu_r32l8 — "Die grosse Debatte" (29 steps, 16 teaches, 10 untested)
+    Untested: [die Abstammung, der Individualismus, die Kompetenz, das Stereotyp, irgendetwas, jeglicher, ein jeder, notwendigerweise, zurechtkommen, wertschätzen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 11 (after fb "fb")
+      Cluster A (steps 0-11): [die Abstammung, der Individualismus, die Kompetenz, das Stereotyp...] (8 teaches)
+      Cluster B (steps 12-28): [sämtliche, jeglicher, jedweder, ein jeder...] (8 teaches)
+  LESSON deu_r32l9 — "Zwischen den Welten" (28 steps, 14 teaches, 6 untested)
+    Untested: [der Begriff, ableiten, umdenken, zukunftsorientiert, identifizieren, mancher]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after fb "fb")
+      Cluster A (steps 0-15): [die Erkenntnis, der Begriff, assimilieren, ableiten...] (9 teaches)
+      Cluster B (steps 16-27): [umdenken, zukunftsorientiert, identifizieren, man...] (5 teaches)
+
+=== UNIT 33: Heimat ===
+  LESSON deu_r33l1 — "Abflug" (30 steps, 18 teaches, 4 untested)
+    Untested: [das Heimweh, die Wurzel, vermissen, erinnern]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after mc "mc")
+      Cluster A (steps 0-13): [das Heimweh, die Sehnsucht, der Abschied, der Neuanfang...] (7 teaches)
+      Cluster B (steps 14-29): [die Verbundenheit, die Vertrautheit, die Wurzel, nostalgisch...] (11 teaches)
+  LESSON deu_r33l2 — "Zwischen hier und dort" (28 steps, 18 teaches, 7 untested)
+    Untested: [die Nostalgie, die Umgebung, die Praegung, bodenständig, einheimisch, praegend, sesshaft]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 10 (after fb "fb")
+      Cluster A (steps 0-10): [das Fernweh, die Nostalgie, die Nachbarschaft, die Landschaft...] (7 teaches)
+      Cluster B (steps 11-27): [die Praegung, die Einsamkeit, die Entfremdung, das Lebensgefühl...] (11 teaches)
+  LESSON deu_r33l3 — "Nachdem ich weggegangen war" (32 steps, 19 teaches, 7 untested)
+    Untested: [der Aufbruch, der Umzug, der Zusammenhalt, wehmuetig, liebgewonnen, unersetzlich, zurückdenken]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 10 (after mc "mc")
+      Cluster A (steps 0-10): [die Rückkehr, der Aufbruch, der Umzug, die Sinnsuche] (4 teaches)
+      Cluster B (steps 11-31): [die Ungewissheit, die Vergaenglichkeit, die Vorfreude, die Wehmut...] (15 teaches)
+  LESSON deu_r33l4 — "Stolz auf, abhängig von" (31 steps, 18 teaches, 4 untested)
+    Untested: [neidisch auf, damals, einst, heutzutage]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after fb "fb")
+      Cluster A (steps 0-18): [stolz auf, abhängig von, interessiert an, überzeugt von...] (14 teaches)
+      Cluster B (steps 19-30): [angewiesen auf, damals, einst, heutzutage] (4 teaches)
+  LESSON deu_r33l5 — "Die Angst vor, die Sehnsucht nach" (32 steps, 18 teaches, 9 untested)
+    Untested: [die Hoffnung auf, die Freude über, das Vertrauen in, der Dank für, das Interesse an, irgendwann, künftig, längst, von jeher]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [die Angst vor, der Einfluss auf, die Hoffnung auf, der Bedarf an...] (11 teaches)
+      Cluster B (steps 18-31): [das Interesse an, irgendwann, künftig, längst...] (7 teaches)
+  LESSON deu_r33l6 — "Heimat ist kein Ort" (32 steps, 16 teaches, 7 untested)
+    Untested: [die Seele, das Obdach, das Mutterland, das Vaterland, das Gemüt, ortsbezogen, verwurzeln]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after fb "fb")
+      Cluster A (steps 0-15): [die Seele, der Ruhepol, das Obdach, die Zuflucht...] (8 teaches)
+      Cluster B (steps 16-31): [verwurzelt, zufrieden, ortsbezogen, ruheliebend...] (8 teaches)
+  LESSON deu_r33l7 — "Jedes Wort eine Erinnerung" (29 steps, 16 teaches, 10 untested)
+    Untested: [die Ortskenntnis, die Verwandtschaft, die Zuverlässigkeit, ja, wohl, eigentlich, denn, schon, bloß, ruhig]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [die Ortskenntnis, das Zugehörigkeitsgefühl, das Versprechen, die Verwandtschaft...] (13 teaches)
+      Cluster B (steps 18-28): [schon, bloß, ruhig] (3 teaches)
+  LESSON deu_r33l8 — "Willkommen zurück" (30 steps, 16 teaches, 8 untested)
+    Untested: [nun mal, durchaus, Abschied nehmen, gehören, zurückkehren, entwurzeln, pflegen, prägen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after mc "mc")
+      Cluster A (steps 0-13): [etwa, nun mal, durchaus, ohnehin...] (8 teaches)
+      Cluster B (steps 14-29): [gehören, nachtrauern, zurückkehren, zurücklassen...] (8 teaches)
+
+=== UNIT 34: Deutsche Welle ===
+  LESSON deu_r34l1 — "Freie Fahrt" (30 steps, 18 teaches, 5 untested)
+    Untested: [die Durchfahrt, die Raststätte, der Zwischenstopp, herumkommen, inzwischen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after fb "fb")
+      Cluster A (steps 0-18): [das Bundesland, die Region, die Durchfahrt, die Raststätte...] (10 teaches)
+      Cluster B (steps 19-29): [wandern, übernachten, atemberaubend, landschaftlich...] (8 teaches)
+  LESSON deu_r34l2 — "Land und Leute" (29 steps, 18 teaches, 3 untested)
+    Untested: [der Dom, das Freibad, die Stadtführung]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 11 (after mc "mc")
+      Cluster A (steps 0-11): [die Altstadt, die Burg, der Dom, das Schloss...] (9 teaches)
+      Cluster B (steps 12-28): [das Freibad, die Stadtführung, historisch, mittelalterlich...] (9 teaches)
+  LESSON deu_r34l3 — "Un-, miss-, zer-" (32 steps, 18 teaches, 10 untested)
+    Untested: [zerstören, der Dialekt, das Schwäbisch, süddeutsch, bayrisch, ursprünglich, altertümlich, gleichzeitig, unterdessen, deshalb]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after teach "das Plattdeutsch")
+      Cluster A (steps 0-16): [missverstehen, zerstören, die Mundart, das Hochdeutsch...] (8 teaches)
+      Cluster B (steps 17-31): [das Schwäbisch, norddeutsch, süddeutsch, bayrisch...] (10 teaches)
+  LESSON deu_r34l4 — "Wortfabrik" (31 steps, 19 teaches, 4 untested)
+    Untested: [die Zusammensetzung, die Gründerzeit, das Bauwerk, daher]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [die Wortbildung, das Bestimmungswort, das Grundwort, die Zusammensetzung...] (14 teaches)
+      Cluster B (steps 18-30): [regionaltypisch, traditionsbewusst, daher, gern...] (5 teaches)
+  LESSON deu_r34l5 — "Erst wann, dann warum" (23 steps, 10 teaches, 2 untested)
+    Untested: [die Gemeinde, die Kulturveranstaltung]
+    SPLIT CANDIDATE: No
+  LESSON deu_r34l6 — "Unterwegs in der Region" (20 steps, 10 teaches, 4 untested)
+    Untested: [flanieren, einkehren, vorbeischauen, die Neugier]
+    SPLIT CANDIDATE: No
+  LESSON deu_r34l7 — "Konzert in Freiburg" (32 steps, 18 teaches, 11 untested)
+    Untested: [die Landeshauptstadt, Norddeutschland, Süddeutschland, das Industriegebiet, der Zwiebelturm, die Zunft, das UNESCO-Welterbe, beherbergen, errichten, restaurieren, präsentieren]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [die Landeshauptstadt, die Küstenregion, Norddeutschland, Süddeutschland...] (9 teaches)
+      Cluster B (steps 18-31): [der Zwiebelturm, die Zunft, das UNESCO-Welterbe, beherbergen...] (9 teaches)
+  LESSON deu_r34l8 — "Deutschlandquiz" (32 steps, 19 teaches, 5 untested)
+    Untested: [flussabwärts, unverständlich, unerträglich, zerreißen, zerlegen]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after mc "mc")
+      Cluster A (steps 0-15): [besiedeln, durchstreifen, instandhalten, umgestalten...] (12 teaches)
+      Cluster B (steps 16-31): [zerbrechen, zerreißen, zerfallen, zerlegen...] (7 teaches)
+  LESSON deu_r34l9 — "Schwarzwaldmorgen" (32 steps, 17 teaches, 9 untested)
+    Untested: [missachten, misslingen, das Missverständnis, missbrauchen, die Möglichkeit, die Fähigkeit, die Landschaft, machbar, lösbar]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after mc "mc")
+      Cluster A (steps 0-16): [missachten, misslingen, das Missverständnis, missbrauchen...] (8 teaches)
+      Cluster B (steps 17-31): [die Landschaft, die Freundschaft, der Reichtum, das Wachstum...] (9 teaches)
+
+=== UNIT 35: Prüfung B2 ===
+  LESSON deu_r35l1 — "Prüfungstag" (30 steps, 17 teaches, 5 untested)
+    Untested: [der Prüfungsteil, der Sprachbaustein, strukturieren, prüfungsrelevant, rechtzeitig]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after mc "mc")
+      Cluster A (steps 0-17): [der Prüfungsteil, das Hörverstehen, das Leseverstehen, die Schreibaufgabe...] (10 teaches)
+      Cluster B (steps 18-29): [durchlesen, markieren, korrigieren, strukturieren...] (7 teaches)
+  LESSON deu_r35l2 — "Wortfeld Prüfung" (28 steps, 17 teaches, 4 untested)
+    Untested: [das Kriterium, die Mindmap, die Auswahlaufgabe, die Übungsaufgabe]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after fb "fb")
+      Cluster A (steps 0-13): [die Aufgabenstellung, die Bewertung, das Kriterium, der Maßstab...] (11 teaches)
+      Cluster B (steps 14-27): [die Grammatikübung, die Übungsaufgabe, ausfüllen, ankreuzen...] (6 teaches)
+  LESSON deu_r35l3 — "Indem du schreibst" (31 steps, 17 teaches, 7 untested)
+    Untested: [das Fazit, der Satzbau, der Ausdruck, umformulieren, gliedern, herausarbeiten, schriftlich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 13 (after mc "mc")
+      Cluster A (steps 0-13): [die Argumentation, die Einleitung, der Hauptteil, der Schluss...] (8 teaches)
+      Cluster B (steps 14-30): [die Zusammenfassung, nacherzählen, paraphrasieren, zusammenfassen...] (9 teaches)
+  LESSON deu_r35l4 — "Sämtliche Aufgaben" (30 steps, 17 teaches, 3 untested)
+    Untested: [irgendein, jedweder, der Absatz]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 11 (after mc "mc")
+      Cluster A (steps 0-11): [sämtliche, jegliche, irgendein, irgendwelche...] (8 teaches)
+      Cluster B (steps 12-29): [die Hauptaussage, das Schlüsselwort, der Absatz, die Überschrift...] (9 teaches)
+  LESSON deu_r35l5 — "Doch, halt, eben" (30 steps, 17 teaches, 8 untested)
+    Untested: [der Hoerabschnitt, das Stichwort, wiedergeben, zuordnen, entschlüsseln, priorisieren, kurzgefasst, treffend]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after mc "mc")
+      Cluster A (steps 0-18): [der Hoerabschnitt, die Redeabsicht, die Sprachhandlung, das Sprachniveau...] (12 teaches)
+      Cluster B (steps 19-29): [entschlüsseln, priorisieren, mündlich, kurzgefasst...] (5 teaches)
+  LESSON deu_r35l6 — "Nachtspaziergang" (32 steps, 17 teaches, 8 untested)
+    Untested: [die Beispielantwort, die Zuordnung, das Diagramm, durcharbeiten, untergliedern, genügen, sprachlich, umgangssprachlich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 16 (after fb "fb")
+      Cluster A (steps 0-16): [das Prüfungsergebnis, der Themenvorschlag, die Beispielantwort, die Nacherzählung...] (8 teaches)
+      Cluster B (steps 17-31): [durcharbeiten, untergliedern, genügen, sprachlich...] (9 teaches)
+  LESSON deu_r35l7 — "Generalprobe" (31 steps, 18 teaches, 6 untested)
+    Untested: [auf diese Weise, mit dem Ziel, zum Zweck, um...willen, was für ein, ein jeder]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 17 (after fb "fb")
+      Cluster A (steps 0-17): [indem, dadurch dass, ohne dass, anstatt dass...] (13 teaches)
+      Cluster B (steps 18-30): [dessen ungeachtet, im Uebrigen, in erster Linie, jedenfalls...] (5 teaches)
+  LESSON deu_r35l8 — "Bestanden" (32 steps, 16 teaches, 7 untested)
+    Untested: [vornehmlich, grammatikalisch, richtig, lueckenhaft, gegenüberstellen, nachschlagen, das Bewertungskriterium]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 18 (after fb "fb")
+      Cluster A (steps 0-18): [meines Erachtens, nichtsdestotrotz, überdies, unter anderem...] (8 teaches)
+      Cluster B (steps 19-31): [richtig, lueckenhaft, vollständig, wörtlich...] (8 teaches)
+
+=== UNIT 36: Zuhause ===
+  LESSON deu_r36l1 — "Einladung" (27 steps, 14 teaches, 2 untested)
+    Untested: [der Abschluss, bewundern]
+    SPLIT CANDIDATE: No
+  LESSON deu_r36l2 — "Was wir fühlen" (27 steps, 14 teaches, 2 untested)
+    Untested: [die Ruhe, aufblühen]
+    SPLIT CANDIDATE: No
+  LESSON deu_r36l3 — "An der Tuer" (30 steps, 14 teaches, 8 untested)
+    Untested: [sich äußern / sagen, die Umarmung, der Erfahrungsschatz, das Erinnerungsstück, umarmen, sich erinnern, liebevoll, innig]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after fb "fb")
+      Cluster A (steps 0-15): [beginnen / anfangen, erwerben / kaufen, sich äußern / sagen, verweilen / bleiben] (4 teaches)
+      Cluster B (steps 16-29): [gestatten / erlauben, beabsichtigen / wollen, entgegnen / antworten, die Umarmung...] (10 teaches)
+  LESSON deu_r36l4 — "Ja, doch, halt, eben, wohl" (27 steps, 14 teaches, 5 untested)
+    Untested: [das Mitgefühl, loslassen, besonnen, nachdenklich, mutig]
+    SPLIT CANDIDATE: No
+  LESSON deu_r36l5 — "Am Tisch" (28 steps, 14 teaches, 4 untested)
+    Untested: [wertschätzen, verarbeiten, einfühlsam, behutsam]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 15 (after fb "fb")
+      Cluster A (steps 0-15): [die Wertschätzung, die Versöhnlichkeit, die Verbindlichkeit, der Rückblick...] (7 teaches)
+      Cluster B (steps 16-27): [verarbeiten, entschleunigen, sich zufriedengeben, versöhnlich...] (7 teaches)
+  LESSON deu_r36l6 — "Verumius" (30 steps, 14 teaches, 5 untested)
+    Untested: [das Innere, sich versöhnen, zulassen, ausruhen, zuversichtlich]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 14 (after mc "mc")
+      Cluster A (steps 0-14): [die Überraschung, der Stoßseufzer, das Innere, die Muße...] (5 teaches)
+      Cluster B (steps 15-29): [sich versöhnen, zulassen, zusammenwachsen, ausruhen...] (9 teaches)
+  LESSON deu_r36l7 — "Alles" (27 steps, 14 teaches, 6 untested)
+    Untested: [sich befinden, beinahe, die Menschenkenntnis, die Selbstverwirklichung, die Willenskraft, die Zusammengehörigkeit]
+    SPLIT CANDIDATE: No
+  LESSON deu_r36l8 — "Du bist du, auf Deutsch" (31 steps, 11 teaches, 5 untested)
+    Untested: [der Steuerzahler, von Herzen, träumen, versöhnlich sein, aufrichtig]
+    SPLIT CANDIDATE: YES
+    If yes: Natural break after step index 20 (after fb "fb")
+      Cluster A (steps 0-20): [der Steuerzahler, von ganzem Herzen, von Herzen, letzten Endes...] (6 teaches)
+      Cluster B (steps 21-30): [träumen, versöhnlich sein, rückblickend, aufrichtig...] (5 teaches)
+
+============================================================
+GRAND TOTALS
+============================================================
+Total untested teach cards:    1769
+Total split candidate lessons: 189
+Total new lessons if split:    189
+
+--- SPLIT CANDIDATES SUMMARY ---
+  U01 deu_r01l3 "Erste Sätze" — 28 steps, 6 untested
+    [genau, stimmt, natürlich, sagen, machen, etwas]
+  U01 deu_r01l10 "Der erste Abend" — 29 steps, 3 untested
+    [das Hostel, der Mensch, Servus]
+  U01 deu_r01l15 "Am Flughafen" — 30 steps, 4 untested
+    [bedeuten, buchstabieren, danken, entschuldigen]
+  U02 deu_r2l4 "Können Sie mir helfen?" — 28 steps, 6 untested
+    [mal, zu, lesen, sehen, hören, verstehen]
+  U02 deu_r2l8 "Der Döner-Umweg" — 28 steps, 7 untested
+    [fahren, nehmen, laufen, der Spaß, das Stück, der Fluss, die Sonne]
+  U02 deu_r2l11 "Kleine Wörter, große Wirkung" — 30 steps, 4 untested
+    [dann, sofort, gegen, breit]
+  U02 deu_r2l12 "Wo ist das?" — 29 steps, 6 untested
+    [der Bahnsteig, das Geschäft, das Lokal, der Ort, das Dorf, die Sehenswürdigkeit]
+  U02 deu_r2l13 "Unterwegs" — 32 steps, 14 untested
+    [der Anschluss, die Bahn, der Fahrer, hoch, weit, so, all, daneben, oben, unten, hinten, draußen, dort, zurück]
+  U02 deu_r2l14 "Kommen und Gehen" — 28 steps, 12 untested
+    [abfliegen, besichtigen, halten, stehen, dauern, leihen, mitkommen, zeigen, mitnehmen, weiterfahren, auf sein, grade]
+  U02 deu_r2l15 "Rund um die Stadt" — 29 steps, 8 untested
+    [die Ansage, die Auskunft, die Durchsage, die Vorsicht, das Reisebüro, der Reiseführer, ander, alles]
+  U03 deu_r03l4 "Besichtigung um 14 Uhr" — 31 steps, 4 untested
+    [die Ordnung, die Reparatur, der Monat, erklären]
+  U03 deu_r03l5 "Aufräumen, einziehen, umziehen" — 32 steps, 3 untested
+    [waschen, möglich, Lieblings-]
+  U03 deu_r03l12 "Zu Hause" — 28 steps, 10 untested
+    [das Apartment, der Stock, der Quadratmeter, die Hausaufgabe, aufstehen, baden, öffnen, reparieren, legen, zwischen]
+  U04 deu_r4l2 "Obst, Gemüse und Chaos" — 29 steps, 6 untested
+    [die Gurke, die Zwiebel, die Pommes frites, das Wasser, das Getränk, das Lebensmittel]
+  U04 deu_r4l9 "Essen und Trinken" — 32 steps, 3 untested
+    [die Birne, das Öl, das Glas]
+  U04 deu_r4l10 "Geld und Maße" — 32 steps, 10 untested
+    [das Konto, einhundert, eintausend, siebzig, die Milliarde, der Teil, der Automat, verkaufen, zahlen, meist]
+  U05 deu_r05l1 "Was gibt's zum Essen?" — 30 steps, 3 untested
+    [der Freund, schön, das Herz]
+  U05 deu_r05l2 "Wie schmeckt's?" — 31 steps, 3 untested
+    [die Suppe, lecker, salzig]
+  U06 deu_r6l13 "Arbeit und Bildung" — 30 steps, 4 untested
+    [der Kollege, der Student, der Test, der Doktor]
+  U06 deu_r6l14 "Stift und Papier" — 30 steps, 4 untested
+    [die Anzeige, die Aussage, das Bild, das Papier]
+  U06 deu_r6l15 "Am Telefon" — 28 steps, 7 untested
+    [der Anrufbeantworter, das Fax, die Vorwahl, die CD, das Internet, das Lieblingslied, automatisch]
+  U06 deu_r6l16 "Was machst du so?" — 28 steps, 5 untested
+    [erlauben, erzählen, anklicken, fehlen, kümmern]
+  U06 deu_r6l17 "Zeit und Feste" — 30 steps, 5 untested
+    [der Sonnabend, die Pause, beginnen, gratulieren, heiraten]
+  U06 deu_r6l18 "Noch mehr Verben" — 29 steps, 9 untested
+    [aus sein, weg sein, zu sein, wiederholen, das Leben, der Plan, der Fußball, glücklich, früher]
+  U09 deu_r9l1 "Der Lauftreff" — 31 steps, 3 untested
+    [der Fan, der Sportplatz, der Spaziergang]
+  U10 deu_r10l2 "Unterwegs" — 32 steps, 3 untested
+    [der Norden, der Süden, das Fundbüro]
+  U11 deu_r11l3 "Opa Heinrichs Brötchen" — 31 steps, 4 untested
+    [das Parfüm, die Kosmetik, die Mode, der Flohmarkt]
+  U11 deu_r11l11 "Durch den Schnee" — 31 steps, 8 untested
+    [freiwillig, verschieden, blöd, der Witz, aussprechen, blond, einmal, wurscht]
+  U12 deu_r12l11 "Entscheidungen und Eigenschaften" — 28 steps, 7 untested
+    [nennen, eintragen, ganz, schrecklich, nirgends, wenigstens, einverstanden]
+  U13 deu_r13l1 "Der rote Stift" — 32 steps, 6 untested
+    [die Vorstellung, die Unterlage, erwarten, reagieren, die Frist, beachten]
+  U13 deu_r13l2 "Berufe und Qualifikationen" — 32 steps, 7 untested
+    [die Qualifikation, die Fähigkeit, die Weiterbildung, die Lehrstelle, der Architekt, der Mechaniker, berufstätig]
+  U13 deu_r13l3 "Persönliche Angaben" — 30 steps, 3 untested
+    [der Beitrag, der Anspruch, das Werk]
+  U13 deu_r13l5 "Ich würde mich freuen" — 32 steps, 6 untested
+    [das Einkommen, die Lehrerin, absolut, flexibel, ideal, individuell]
+  U13 deu_r13l8 "Der perfekte Lebenslauf" — 32 steps, 8 untested
+    [das Inserat, der Empfang, die Aktion, die Aktivität, die Aufforderung, der Vortrag, der Beweis, akzeptieren]
+  U13 deu_r13l9 "Alles auf dem Prüfstand" — 32 steps, 13 untested
+    [das Kennzeichen, die Matura, der Führerausweis, der Profisportler, die Profisportlerin, abhängig, abwesend, anwesend, achten, ankündigen, anschaffen, anstellen, anstrengen]
+  U14 deu_r14l1 "Der erste Morgen" — 30 steps, 8 untested
+    [der Gang, der Tagesablauf, die Zusammenarbeit, einrichten, ordnen, gemeinsam, ordentlich, miteinander]
+  U14 deu_r14l2 "Das Büro" — 29 steps, 4 untested
+    [der Monitor, der Kopierer, die Kopie, die Tabelle]
+  U14 deu_r14l9 "Geburtstagskuchen und Regeln" — 31 steps, 7 untested
+    [kleben, stecken, aufnehmen, gebrauchen, einsetzen, eckig, senkrecht]
+  U15 deu_r15l1 "Moin, Hamburg!" — 31 steps, 4 untested
+    [der Hauptbahnhof, der Hafen, der Nebel, feucht]
+  U15 deu_r15l2 "Unterwegs in der Stadt" — 30 steps, 6 untested
+    [das Fahrzeug, das Kraftfahrzeug, der Fußgänger, die Fußgängerin, der Radfahrer, die Radfahrerin]
+  U15 deu_r15l3 "Herr Professor Doktor Schmidt" — 32 steps, 13 untested
+    [der Hof, die Distanz, die Entfernung, städtisch, der Passagier, die Passagierin, der Steward, die Stewardess, der Laster, der Transport, transportieren, dicht, der Tourismus]
+  U15 deu_r15l4 "Der Genitiv und die N-Deklination" — 32 steps, 7 untested
+    [der Gegenstand, die Reservierung, die Tankstelle, die Panne, das Tempo, eilen, stoppen]
+  U15 deu_r15l5 "Hamburger Küche" — 32 steps, 6 untested
+    [das Hühnchen, die Karotte, die Limonade, die Kneipe, salzig, mild]
+  U15 deu_r15l8 "Alles über Hamburg" — 32 steps, 11 untested
+    [die Bremse, die Landung, das Fundbüro, die Semmel, der Knödel, das Müsli, landen, losfahren, stehenbleiben, überfahren, überholen]
+  U16 deu_r16l1 "Das Bohrloch" — 32 steps, 6 untested
+    [der Konflikt, das Verbot, schreien, schweigen, klagen, streiken]
+  U16 deu_r16l2 "Die Hausordnung" — 32 steps, 8 untested
+    [die Stimme, der Gedanke, kritisieren, beleidigen, unterbrechen, widersprechen, verlangen, behaupten]
+  U16 deu_r16l3 "Die Zettel an der Wand" — 32 steps, 8 untested
+    [das Gewissen, der Mut, das Herz, das Gefühl, entgegenkommen, loben, reichen, tolerant]
+  U16 deu_r16l4 "Indirekte Fragen" — 32 steps, 11 untested
+    [die Diskussion, die Ehe, das Ehepaar, der Schreck, der Schrecken, leiden, enttäuschen, erschrecken, trennen, scheiden, verzichten]
+  U16 deu_r16l5 "Hildi greift ein" — 32 steps, 9 untested
+    [die Kriminalpolizei, der Verdacht, gespannt, ängstlich, einsam, stolz, mutig, kämpfen, schließlich]
+  U16 deu_r16l6 "Heinrichs Weisheit" — 32 steps, 15 untested
+    [die Wunde, die Träne, der Schade, der Schaden, versprechen, verhalten, verhindern, verlassen, verlaufen, versäumen, ernsthaft, heimlich, hinterher, eben, stinken]
+  U16 deu_r16l7 "Alles auf den Tisch" — 32 steps, 4 untested
+    [stehlen, schießen, einbrechen, der Streik]
+  U16 deu_r16l8 "Marmelade und Frieden" — 32 steps, 16 untested
+    [betrunken, geschieden, getrennt, geheim, schlank, schmal, schief, selten, unheimlich, verliebt, vergeblich, beschränken, entlassen, betrügen, auseinander, heim]
+  U17 deu_r17l1 "Kölle Alaaf!" — 32 steps, 5 untested
+    [der Hut, grüßen, gucken, winken, diesmal]
+  U17 deu_r17l2 "Masken und Melodien" — 32 steps, 7 untested
+    [die Sängerin, die Oper, musikalisch, elegant, schick, amüsieren, lächeln]
+  U17 deu_r17l5 "Warum? Wozu? Stattdessen!" — 32 steps, 12 untested
+    [die Sportart, der Spielplatz, das Spielzeug, das Stadion, das Golf, der Ski, die Gymnastik, der Start, der Rekord, der Sieg, siegen, starten]
+  U17 deu_r17l6 "Kneipentour durch die Altstadt" — 32 steps, 11 untested
+    [der Reporter, der Journalist, die Journalistin, der Fotograf, die Fotografie, original, realistisch, interkulturell, auftreten, begegnen, sorgen]
+  U17 deu_r17l7 "Rosenmontagszug!" — 32 steps, 12 untested
+    [das Tor, das Talent, der Typ, das Ballett, wahnsinnig, allerbest, allerschönst, springen, rennen, klettern, treiben, treten]
+  U17 deu_r17l8 "Kamelle und Konfetti" — 32 steps, 16 untested
+    [der Schriftsteller, der Autor, der Roman, das Gedicht, die Erzählung, die Literatur, die Schrift, der Verlag, das Medium, die Garantie, garantieren, aufführen, auffallen, verwenden, wetten, irren]
+  U17 deu_r17l10 "Adjektive und Freizeitverben" — 32 steps, 10 untested
+    [rasieren, faulenzen, tauchen, zelten, zuschauen, vergnügt, aller-, doppel-, wieder-, zusammen-]
+  U18 deu_r18l1 "Unter den Kastanien" — 32 steps, 6 untested
+    [der Treffpunkt, der Wirt, der Ober, genießen, spazieren gehen, prost]
+  U18 deu_r18l2 "Brotzeit und Bratwurst" — 32 steps, 6 untested
+    [die Kanne, die Schüssel, die Dose, die Tüte, die Pflaume, drin]
+  U18 deu_r18l3 "Die Spargel-Panik" — 32 steps, 7 untested
+    [die Schlange, der Backofen, das Nahrungsmittel, das Vitamin, zubereiten, mischen, spülen]
+  U18 deu_r18l4 "Worauf freust du dich?" — 32 steps, 12 untested
+    [der Konsum, der Kakao, die Serviceangestellte, die Vermietung, die Vermittlung, die Eröffnung, mager, spitz, eröffnen, konsumieren, lösen, heben]
+  U18 deu_r18l5 "Lukas spielt" — 32 steps, 7 untested
+    [das Tuch, der Kloß, aufwachen, nähern, pflanzen, wachsen, gießen]
+  U18 deu_r18l6 "Dialekt auf dem Teller" — 32 steps, 4 untested
+    [das Henderl, das Hendl, der Fleischhauer, das Backrohr]
+  U18 deu_r18l7 "Prost und Wiederholung" — 31 steps, 5 untested
+    [der Abt, der Bub, ein paar, au, der Blitz]
+  U18 deu_r18l8 "Der Nachhauseweg" — 30 steps, 4 untested
+    [nutzen, runterwerfen, bio-, einzel-]
+  U19 deu_r19l2 "Amtsdeutsch" — 29 steps, 3 untested
+    [der Migrant, der Wohnort, die Daten]
+  U19 deu_r19l4 "Bevor die Frist abläuft" — 30 steps, 8 untested
+    [abstimmen, umgehen, sichern, der Zugang, die Rufnummer, der Zivilstand, das Original, ablaufen]
+  U19 deu_r19l5 "Die Dokumentenprüfung" — 29 steps, 6 untested
+    [die Schwangerschaft, das Konsulat, empfangen, integrieren, illegal, zugänglich]
+  U19 deu_r19l6 "Bankdeutsch und Briefpost" — 32 steps, 6 untested
+    [abmachen, einzahlen, die Bankleitzahl, der Cousin, der Neffe, der Onkel]
+  U19 deu_r19l8 "Ich habe es geschafft!" — 30 steps, 5 untested
+    [der Käufer, die Verkäuferin, die Betriebsrätin, der Bankomat, der Zuschlag]
+  U20 deu_r20l1 "Der Papierstapel" — 29 steps, 4 untested
+    [die Patientin, die Medizin, versichern, behandeln]
+  U20 deu_r20l2 "Körpervokabular" — 32 steps, 7 untested
+    [der Muskel, der Knochen, der Atem, der Blutdruck, brechen, messen, spüren]
+  U20 deu_r20l4 "Die Grammatik der Bürokratie" — 32 steps, 9 untested
+    [die Pille, die Infektion, verschreiben, einnehmen, operieren, die Doktorin, die Schwierigkeit, maximal, minimal]
+  U20 deu_r20l5 "Apotheke und Pflege" — 31 steps, 12 untested
+    [die Zahncreme, die Zahnpasta, die Zahnbürste, die Bürste, der Pfleger, der Krankenpfleger, die Krankenschwester, der Betreuer, die Betreuerin, die Betreuung, der Ersatz, die Besserung]
+  U20 deu_r20l8 "Hildis Servietten-Diagramm" — 29 steps, 11 untested
+    [die Münze, sich erholen, die Erholung, behindern, die Ordination, befreit, befriedigend, kräftig, parallel, der Mangel, die Badewanne]
+  U21 deu_r21l1 "Leipzig Hauptbahnhof" — 28 steps, 6 untested
+    [national, die Entwicklung, entstehen, erleben, vor allem, ursprünglich]
+  U21 deu_r21l2 "Stimmen der Geschichte" — 30 steps, 7 untested
+    [die Bürgerin, die Politik, die Politikerin, die Öffentlichkeit, sozial, führen, dienen]
+  U21 deu_r21l3 "Altes Rathaus" — 28 steps, 10 untested
+    [die Generation, das Zeichen, die Wirkung, die Hoffnung, kritisch, häufig, ständig, ewig, verändern, wirken]
+  U21 deu_r21l4 "Nikolaikirche" — 29 steps, 8 untested
+    [der Zeuge, die Zeugin, die Wirklichkeit, menschlich, geschehen, entwickeln, überlegen, der Dialekt]
+  U21 deu_r21l5 "Hildis Fotoalbum" — 29 steps, 11 untested
+    [die Kindheit, das Heim, die Erziehung, die Mehrheit, die Minderheit, die Religion, die Gewerkschaft, dauernd, sogenannt, fliehen, erziehen]
+  U21 deu_r21l6 "Du kannst ruhig du sagen" — 28 steps, 10 untested
+    [die Einführung, die Tätigkeit, die Vertretung, der Vertreter, die Vertreterin, das Gold, der Gott, das Kreuz, die Uniform, beeinflussen]
+  U22 deu_r22l1 "Nachhaltigkeit im Büro" — 31 steps, 3 untested
+    [der Boden, das System, die Statistik]
+  U22 deu_r22l2 "Grün denken" — 32 steps, 5 untested
+    [die Müllabfuhr, die Mülltonne, das Material, die Ware, der Import]
+  U22 deu_r22l3 "Der Pfand-Meister" — 29 steps, 7 untested
+    [das Abgas, die Katastrophe, die Forderung, verursachen, giftig, ökologisch, sparsam]
+  U22 deu_r22l4 "Grammatik der Natur" — 32 steps, 9 untested
+    [die Fabrik, die Anlage, die Werbung, die Reklame, die Marke, der Faktor, die Technik, die Technologie, statistisch]
+  U22 deu_r22l5 "Bio oder Discounter?" — 32 steps, 7 untested
+    [das Waschmittel, das Feuerzeug, das Streichholz, das Grundstück, verpacken, verbrauchen, künstlich]
+  U22 deu_r22l6 "Ruhig du sagen" — 31 steps, 4 untested
+    [der Tierpark, beschädigen, steil, wild]
+  U22 deu_r22l7 "Umwelt-Quiz" — 30 steps, 10 untested
+    [der Schmutz, das Gebirge, das Tal, der Mond, der Lärm, das Gas, zerstören, weltenweit, weltweit, zentral]
+  U22 deu_r22l8 "Ein richtiger Berliner" — 30 steps, 14 untested
+    [der Protest, die Alternative, die Klimaanlage, der Hersteller, die Feuerwehr, die Umweltverschmutzung, der Zünder, das Zündholz, die Form, vergrößern, elektr-, elektro-, öko-, über-]
+  U23 deu_r23l2 "Werkzeuge des Lernens" — 31 steps, 5 untested
+    [die Abbildung, das Detail, die Aussprache, nachschlagen, markieren]
+  U23 deu_r23l3 "Vor der Prüfung" — 31 steps, 3 untested
+    [der Intensivkurs, unterrichten, testen]
+  U23 deu_r23l4 "Hypothesen und Wünsche" — 32 steps, 10 untested
+    [die Ursache, die Begründung, die Reaktion, der Vorteil, feststellen, gelten, stimmen, gelingen, allgemein, kompliziert]
+  U23 deu_r23l5 "Drei Konstruktionen" — 32 steps, 9 untested
+    [das Forum, der Dialog, der Lerner, die Lernerin, der Leser, die Leserin, darstellen, unterscheiden, korrigieren]
+  U23 deu_r23l6 "Wortschatz-Blitz" — 32 steps, 14 untested
+    [die Aufnahme, der Einfall, die Buchhandlung, das Magazin, die Mensa, das Studio, das Schreiben, der Übersetzer, die Übersetzerin, der Wissenschaftler, die Wissenschaftlerin, bemerken, beobachten, eintreten]
+  U23 deu_r23l7 "Im Prüfungsraum" — 32 steps, 4 untested
+    [beinah, beinahe, jemals, jederzeit]
+  U23 deu_r23l8 "Die großen Wörter" — 32 steps, 5 untested
+    [solange, ob, nämlich, zwar, ebenfalls]
+  U23 deu_r23l9 "BESTANDEN!" — 32 steps, 12 untested
+    [genauso, daher, teilweise, eher, vermutlich, ungefähr, unterschiedlich, interessant, interessiert, neugierig, begrenzt, sichtbar]
+  U24 deu_r24l1 "Ein Jahr" — 28 steps, 6 untested
+    [der Alltag, der Beginn, die Rückkehr, der Sinn, gewöhnen, alltäglich]
+  U24 deu_r24l4 "Zukunftsmusik" — 28 steps, 8 untested
+    [vorschlagen, entschließen, zukünftig, weiter, optimistisch, vernünftig, sinnvoll, sinnlos]
+  U24 deu_r24l5 "Vorbereitung" — 29 steps, 9 untested
+    [das Souvenir, das Video, dieÜbernachtung, überraschen, verstecken, gewohnt, üblich, selbstverständlich, ungewöhnlich]
+  U24 deu_r24l6 "Das Fest" — 31 steps, 6 untested
+    [das Pech, der Rat, zugehen, erwachsen, verständlich, umgekehrt]
+  U24 deu_r24l7 "Rückblick und Ausblick" — 29 steps, 5 untested
+    [die Wandrung, worüber, möglichst, voneinander, zumindest]
+  U24 deu_r24l8 "Ich werde bleiben" — 31 steps, 6 untested
+    [besetzen, abschreiben, vermuten, zufällig, äußerlich, -weis / -weise]
+  U25 deu_r25l1 "Herr Professor Doktor" — 32 steps, 9 untested
+    [die Universität, der Hörsaal, der Dozent, die Dozentin, die Immatrikulation, immatrikulieren, insbesondere, anhand, hinsichtlich]
+  U25 deu_r25l3 "Die erste Vorlesung" — 32 steps, 11 untested
+    [der Zusammenhang, die Darstellung, der Sachverhalt, die Veränderung, begründen, erörtern, abstrakt, relevant, sachlich, wesentlich, folglich]
+  U25 deu_r25l4 "Nominalisierung und Verbalisierung" — 32 steps, 5 untested
+    [die Lösung, die Fähigkeit, herausfinden, überprüfen, präzise]
+  U25 deu_r25l5 "In der Mensa" — 32 steps, 10 untested
+    [die Semesterferien, das Studentenwohnheim, der Kommilitone, die Kommilitonin, spezialisieren, zuverlässiig, fundiert, komplex, stichhaltig, umfassend]
+  U25 deu_r25l6 "Die Hausarbeit" — 32 steps, 13 untested
+    [die Diplomarbeit, die Dissertation, die Reihenfolge, verfassen, paraphrasieren, zitieren, rekonstruieren, überarbeiten, verweisen, vertiefen, analytisch, signifikant, recherchieren]
+  U25 deu_r25l7 "Alles unter der Lupe" — 32 steps, 7 untested
+    [das Forschungsergebnis, die Fachsprache, anwenden, zusammenfassen, evaluieren, differenzieren, interdisziplinaer]
+  U25 deu_r25l8 "Guter Punkt" — 32 steps, 9 untested
+    [die Umfrage, die Variable, die Datenbank, die Deadline, der Dozierende, der Beleg, der Befund, der Gegenstand, gegenüberstellen]
+  U26 deu_r26l1 "Die Morgenzeitung" — 32 steps, 4 untested
+    [der Journalismus, die Massenmedien, informieren, kommentieren]
+  U26 deu_r26l2 "Wem kann man glauben?" — 32 steps, 9 untested
+    [die Meinungsfreiheit, die Fake News, die Manipulation, die Berichterstattung, manipulieren, beeinflussen, verfaelschen, tendenzioes, voreingenommen]
+  U26 deu_r26l3 "Die Nachrichtenredaktion" — 32 steps, 8 untested
+    [die Kolumne, der Herausgeber, erläutern, herausgeben, darstellen, kritisieren, kontrovers, sachkundig]
+  U26 deu_r26l4 "Man kann das auch anders sagen" — 32 steps, 12 untested
+    [die Pressekonferenz, die Pressemitteilung, die Nachrichtenagentur, die Informationsquelle, der Datenschutz, enthueleln, dementieren, unterdrücken, zurückweisen, sensibilisieren, sensationell, populistisch]
+  U26 deu_r26l5 "Die andere Seite" — 32 steps, 5 untested
+    [der Hintergrund, der Interessenkonflikt, zweifelhaft, unzuverlässiig, vertrauenswürdig]
+  U26 deu_r26l6 "Faktencheck" — 32 steps, 10 untested
+    [die Titelseite, moderieren, rezensieren, ausstrahlen, senden, streamen, meinungsbildend, medial, transparent, zeitgemaess]
+  U26 deu_r26l7 "Zwischen den Zeilen" — 32 steps, 15 untested
+    [die Nachrichtensprecherin, der Übersetzer, die Übersetzerin, das Online-Medium, das Printmedium, öffentlich machen, ausblenden, verdraengen, verleumden, verharmlosen, zensieren, skandaloes, subjektiv, wahrheitsgemaess, zuverlässiig]
+  U27 deu_r27l1 "Lampenfieber" — 32 steps, 5 untested
+    [der Vortrag, der Fachvortrag, strukturiert, präsentieren, einleiten]
+  U27 deu_r27l2 "Fachbegriffe und Formeln" — 32 steps, 6 untested
+    [die Bildschirmpräsentation, die Übersicht, die Überleitung, der Übergang, prägnant, kompetent]
+  U27 deu_r27l3 "So klar, dass alle nicken" — 32 steps, 8 untested
+    [die Tagung, der Konferenzraum, das Rahmenprogramm, der Redebeitrag, erstens, ferner, schließlich, darstellen]
+  U27 deu_r27l4 "Gesetzt den Fall" — 32 steps, 9 untested
+    [die Podiumsdiskussion, die Diskussionsrunde, die Moderation, der Meinungsaustausch, die Verhandlung, die Zwischenfrage, konstruktiv, sachbezogen, ergebnisorientiert]
+  U27 deu_r27l5 "Damit alle verstehen" — 32 steps, 14 untested
+    [die Ergebnispraesentation, die Gespraechsführung, der Leitfaden, das Praxisbeispiel, die Schlussfolgerung, die Grussformel, die Pointe, interaktiv, fachkundig, stichwortartig, ergänzen, bekraeftigen, nahelegen, präzisieren]
+  U27 deu_r27l6 "Der roemische Aquädukt" — 32 steps, 11 untested
+    [das Protokoll, die Rueckmeldung, die Anmerkung, die Erläuterung, die Mitschrift, das Netzwerken, der Workshop, aufgreifen, thematisieren, verhandeln, überzeugen]
+  U27 deu_r27l7 "Alles auf dem Prüfstand" — 32 steps, 12 untested
+    [das Thesenpapier, das Kernthema, der Grundgedanke, die Geschäftsordnung, überblicksartig, zutreffend, angemessen, zusammenfassend, abschließend, daran anknüpfend, abschließen, beifuegen]
+  U28 deu_r28l1 "Sonntagsbesuch" — 31 steps, 6 untested
+    [poetisch, volkstümlich, überliefert, erzählen, dichten, zitieren]
+  U28 deu_r28l2 "Dichtung und Wahrheit" — 32 steps, 7 untested
+    [die Kurzgeschichte, das Drama, das Werk, die Hauptfigur, der Schauplatz, lyrisch, dichterisch]
+  U28 deu_r28l3 "Er sagte, die Backstube sei sein Königreich" — 32 steps, 13 untested
+    [die Perspektive, das Motiv, das Wortspiel, die Doppeldeutigkeit, die Anspielung, die Lektüre, angeblich, anscheinend, bekanntlich, offenbar, berichten, schildern, meinen]
+  U28 deu_r28l4 "Als ob er alles wüsste" — 32 steps, 9 untested
+    [der Erzaehler, die Tragödie, der Schriftsteller, der Zeitgenosse, fiktiv, klassisch, metaphorisch, sinnbildlich, existieren]
+  U28 deu_r28l5 "Laut Heinrich" — 32 steps, 15 untested
+    [die Übung, der Anfang, bildlich, wörtlich, sprichwörtlich, zweideutig, umgangssprachlich, gleichnishaft, prosaisch, sprachlich, schriftlich, mündlich, äußern, hinzufügen, mitteilen]
+  U28 deu_r28l6 "Morgenstund hat Gold im Mund" — 32 steps, 8 untested
+    [Es ist noch kein Meister vom Himmel gefallen, Andere Laender, andere Sitten, Der Apfel fällt nicht weit vom Stamm, Wo ein Wille ist, ist auch ein Weg, der Daumen, der Stamm, der Schmetterling, versinnbildlichen]
+  U28 deu_r28l9 "Aufgeschrieben" — 32 steps, 11 untested
+    [bildlich gesprochen, dem Vernehmen nach, sozusagen, vermeintlich, wörtlich genommen, sich beziehen auf, umschreiben, begründen, entgegnen, vermitteln, heissen]
+  U29 deu_r29l1 "Integration und Zusammenleben" — 32 steps, 8 untested
+    [der Politiker, die Politikerin, der Standpunkt, die Meinungsverschiedenheit, demokratisch, parlamentarisch, kritisieren, verteidigen]
+  U29 deu_r29l2 "Argumente und Gegenargumente" — 32 steps, 9 untested
+    [das Gegenargument, die Reform, das Grundrecht, die Maßnahme, das Bedenken, beschließen, einwenden, entgegnen, verabschieden]
+  U29 deu_r29l3 "Einerseits... andererseits" — 32 steps, 8 untested
+    [hingegen, je...desto, teils...teils, die Abstimmung, die Verfassung, der Widerstand, plädieren, vertreten]
+  U29 deu_r29l4 "Obgleich und Wenngleich" — 32 steps, 6 untested
+    [demzufolge, die Prämisse, die Schlussfolgerung, die Stellungnahme, die Überzeugung, die Kompromissbereitschaft]
+  U29 deu_r29l5 "Die Frage" — 32 steps, 15 untested
+    [insbesondere, darüber hinaus, außerdem, des Weiteren, folglich, zugegebenermaßen, wohlgemerkt, die Gegenposition, der Gegenvorschlag, die Meinungsbildung, das Stimmrecht, das Zugeständnis, dagegenhalten, erwidern, opponieren]
+  U29 deu_r29l6 "Zwischenrufe und Repliken" — 32 steps, 9 untested
+    [ähnlich wie, demgegenüber, ungeachtet dessen, in Anbetracht, die Zuständigkeit, die Volksabstimmung, oppositionell, zugestehen, forcieren]
+  U29 deu_r29l7 "Auf dem Prüfstand" — 32 steps, 11 untested
+    [die Ministerin, die Petition, die Strategie, der Vertreter, die Vertreterin, reformorientiert, strittig, unanfechtbar, undemokratisch, durchsetzen, entgegenwirken]
+  U29 deu_r29l8 "Wichtiger Beitrag" — 32 steps, 15 untested
+    [Ich bin der Auffassung, dass, Dem ist entgegenzuhalten, dass, Es lässt sich nicht leugnen, dass, Daraus ergibt sich, aufgrund, ungeachtet, zugunsten, polarisieren, relativieren, zurückweisen, infrage stellen, beipflichten, entschärfen, provozieren, anfechtbar]
+  U30 deu_r30l1 "Der Brief" — 32 steps, 6 untested
+    [das Amt, die Verwaltung, die Vorschrift, das Recht, die Sachbearbeiterin, buerokratisch]
+  U30 deu_r30l2 "Formulare und Fristen" — 29 steps, 4 untested
+    [die Ausländerbehörde, die Ordnungswidrigkeit, unbefristet, gueltig]
+  U30 deu_r30l3 "Für Elise auf Endlosschleife" — 32 steps, 11 untested
+    [die Bearbeitungsgebühr, die Eingangsbestätigung, die Erteilung, der Verwaltungsakt, die Rechtslage, die Laufzeit, der Paragraph, der Dienstweg, es ist davon auszugehen, es bedarf, es gilt]
+  U30 deu_r30l6 "Unter Bezugnahme auf..." — 32 steps, 9 untested
+    [zufolge, im Sinne des Gesetzes, die Anlage, die Amtssprache, die Beitragsordnung, die Verguetung, demnach, ferner, entsprechend]
+  U30 deu_r30l7 "Die digitale Behörde" — 32 steps, 17 untested
+    [der Vertrag, die Kuendigung, die Vollmacht, der Mangel, der Schaden, die Reklamation, die Abmahnung, die Dienstleistung, der Betreff, der Leserbrief, die Aufgabe, die Anforderung, bearbeiten, bestätigen, anordnen, beauftragen, erlassen]
+  U30 deu_r30l8 "Paragraphen und Pflichten" — 29 steps, 12 untested
+    [veranlassen, verfügen, verweigern, vorsehen, zurückweisen, zustimmen, reklamieren, ratifizieren, nachkommen, mahnen, kündigen, pflichtgemaess]
+  U30 deu_r30l9 "Hildi und die Formulare" — 32 steps, 12 untested
+    [das Grundbuch, der Erlass, entscheiden, erteilen, bewilligt, bindend, unvorstellbar, insoweit, mithin, seitens, unbeschadet, nichtsdestoweniger]
+  U31 deu_r31l1 "Der Steuerberater" — 32 steps, 4 untested
+    [der Gewinn, die Schulden, das Kapital, der Etat]
+  U31 deu_r31l2 "Die Sprache des Geldes" — 31 steps, 7 untested
+    [die Anlage, der Profit, der Konzern, der Wettbewerb, der Marktanteil, anlegen, profitieren]
+  U31 deu_r31l3 "Bis Dezember werden Sie bezahlt haben" — 32 steps, 7 untested
+    [der Import, die Subvention, der Rohstoff, der Steuersatz, steuerpflichtig, fiskalisch, konjunkturell]
+  U31 deu_r31l5 "Eine Entscheidung treffen" — 32 steps, 3 untested
+    [Bruttoinlandsprodukt, Nettogehalt, Einfluss nehmen auf]
+  U31 deu_r31l6 "Bilanz ziehen" — 32 steps, 4 untested
+    [Ruecklage, Monopol, fusionieren, bilanzieren]
+  U31 deu_r31l7 "Zahlen, Daten, Fakten" — 32 steps, 6 untested
+    [Arbeitgeber, Arbeitnehmer, Angebot, Konkurs anmelden, Rechnung tragen, quartalweise]
+  U31 deu_r31l8 "Das System verstehen" — 32 steps, 4 untested
+    [erwirtschaften, umso mehr als, insofern als, namentlich]
+  U32 deu_r32l1 "Im Museum" — 31 steps, 4 untested
+    [die Identität, die Vielfalt, die Wahrnehmung, die Zugehörigkeit]
+  U32 deu_r32l2 "Wer bin ich?" — 32 steps, 4 untested
+    [respektieren, prägen, pflegen, anerkennen]
+  U32 deu_r32l3 "Wer seine Herkunft kennt" — 32 steps, 7 untested
+    [die Migration, die Integration, das Milieu, sich auseinandersetzen mit, sich identifizieren mit, sich anpassen, vermitteln]
+  U32 deu_r32l4 "Dieser und jener" — 32 steps, 3 untested
+    [dasjenige, im Wesentlichen, keinesfalls]
+  U32 deu_r32l7 "Was wirklich zaehlt" — 31 steps, 10 untested
+    [die Diversitaet, die Subkultur, das Kulturgut, die Werteordnung, die Zukunftsvision, die Gesinnung, die Rollenverteilung, die Moral, tolerieren, verdraengen]
+  U32 deu_r32l8 "Die grosse Debatte" — 29 steps, 10 untested
+    [die Abstammung, der Individualismus, die Kompetenz, das Stereotyp, irgendetwas, jeglicher, ein jeder, notwendigerweise, zurechtkommen, wertschätzen]
+  U32 deu_r32l9 "Zwischen den Welten" — 28 steps, 6 untested
+    [der Begriff, ableiten, umdenken, zukunftsorientiert, identifizieren, mancher]
+  U33 deu_r33l1 "Abflug" — 30 steps, 4 untested
+    [das Heimweh, die Wurzel, vermissen, erinnern]
+  U33 deu_r33l2 "Zwischen hier und dort" — 28 steps, 7 untested
+    [die Nostalgie, die Umgebung, die Praegung, bodenständig, einheimisch, praegend, sesshaft]
+  U33 deu_r33l3 "Nachdem ich weggegangen war" — 32 steps, 7 untested
+    [der Aufbruch, der Umzug, der Zusammenhalt, wehmuetig, liebgewonnen, unersetzlich, zurückdenken]
+  U33 deu_r33l4 "Stolz auf, abhängig von" — 31 steps, 4 untested
+    [neidisch auf, damals, einst, heutzutage]
+  U33 deu_r33l5 "Die Angst vor, die Sehnsucht nach" — 32 steps, 9 untested
+    [die Hoffnung auf, die Freude über, das Vertrauen in, der Dank für, das Interesse an, irgendwann, künftig, längst, von jeher]
+  U33 deu_r33l6 "Heimat ist kein Ort" — 32 steps, 7 untested
+    [die Seele, das Obdach, das Mutterland, das Vaterland, das Gemüt, ortsbezogen, verwurzeln]
+  U33 deu_r33l7 "Jedes Wort eine Erinnerung" — 29 steps, 10 untested
+    [die Ortskenntnis, die Verwandtschaft, die Zuverlässigkeit, ja, wohl, eigentlich, denn, schon, bloß, ruhig]
+  U33 deu_r33l8 "Willkommen zurück" — 30 steps, 8 untested
+    [nun mal, durchaus, Abschied nehmen, gehören, zurückkehren, entwurzeln, pflegen, prägen]
+  U34 deu_r34l1 "Freie Fahrt" — 30 steps, 5 untested
+    [die Durchfahrt, die Raststätte, der Zwischenstopp, herumkommen, inzwischen]
+  U34 deu_r34l2 "Land und Leute" — 29 steps, 3 untested
+    [der Dom, das Freibad, die Stadtführung]
+  U34 deu_r34l3 "Un-, miss-, zer-" — 32 steps, 10 untested
+    [zerstören, der Dialekt, das Schwäbisch, süddeutsch, bayrisch, ursprünglich, altertümlich, gleichzeitig, unterdessen, deshalb]
+  U34 deu_r34l4 "Wortfabrik" — 31 steps, 4 untested
+    [die Zusammensetzung, die Gründerzeit, das Bauwerk, daher]
+  U34 deu_r34l7 "Konzert in Freiburg" — 32 steps, 11 untested
+    [die Landeshauptstadt, Norddeutschland, Süddeutschland, das Industriegebiet, der Zwiebelturm, die Zunft, das UNESCO-Welterbe, beherbergen, errichten, restaurieren, präsentieren]
+  U34 deu_r34l8 "Deutschlandquiz" — 32 steps, 5 untested
+    [flussabwärts, unverständlich, unerträglich, zerreißen, zerlegen]
+  U34 deu_r34l9 "Schwarzwaldmorgen" — 32 steps, 9 untested
+    [missachten, misslingen, das Missverständnis, missbrauchen, die Möglichkeit, die Fähigkeit, die Landschaft, machbar, lösbar]
+  U35 deu_r35l1 "Prüfungstag" — 30 steps, 5 untested
+    [der Prüfungsteil, der Sprachbaustein, strukturieren, prüfungsrelevant, rechtzeitig]
+  U35 deu_r35l2 "Wortfeld Prüfung" — 28 steps, 4 untested
+    [das Kriterium, die Mindmap, die Auswahlaufgabe, die Übungsaufgabe]
+  U35 deu_r35l3 "Indem du schreibst" — 31 steps, 7 untested
+    [das Fazit, der Satzbau, der Ausdruck, umformulieren, gliedern, herausarbeiten, schriftlich]
+  U35 deu_r35l4 "Sämtliche Aufgaben" — 30 steps, 3 untested
+    [irgendein, jedweder, der Absatz]
+  U35 deu_r35l5 "Doch, halt, eben" — 30 steps, 8 untested
+    [der Hoerabschnitt, das Stichwort, wiedergeben, zuordnen, entschlüsseln, priorisieren, kurzgefasst, treffend]
+  U35 deu_r35l6 "Nachtspaziergang" — 32 steps, 8 untested
+    [die Beispielantwort, die Zuordnung, das Diagramm, durcharbeiten, untergliedern, genügen, sprachlich, umgangssprachlich]
+  U35 deu_r35l7 "Generalprobe" — 31 steps, 6 untested
+    [auf diese Weise, mit dem Ziel, zum Zweck, um...willen, was für ein, ein jeder]
+  U35 deu_r35l8 "Bestanden" — 32 steps, 7 untested
+    [vornehmlich, grammatikalisch, richtig, lueckenhaft, gegenüberstellen, nachschlagen, das Bewertungskriterium]
+  U36 deu_r36l3 "An der Tuer" — 30 steps, 8 untested
+    [sich äußern / sagen, die Umarmung, der Erfahrungsschatz, das Erinnerungsstück, umarmen, sich erinnern, liebevoll, innig]
+  U36 deu_r36l5 "Am Tisch" — 28 steps, 4 untested
+    [wertschätzen, verarbeiten, einfühlsam, behutsam]
+  U36 deu_r36l6 "Verumius" — 30 steps, 5 untested
+    [das Innere, sich versöhnen, zulassen, ausruhen, zuversichtlich]
+  U36 deu_r36l8 "Du bist du, auf Deutsch" — 31 steps, 5 untested
+    [der Steuerzahler, von Herzen, träumen, versöhnlich sein, aufrichtig]
+
+--- LESSONS WITH UNTESTED (not at capacity, can add quizzes directly) ---
+  Unit 01 (Willkommen in Deutschland):
+    deu_r01l4 "Im falschen Zug" — 23 steps (9 room), 1 untested: [die Fahrkarte]
+    deu_r01l5 "Ich bin, du bist" — 31 steps (1 room), 2 untested: [ich / du / er / sie / es, wir / ihr / sie / Sie]
+    deu_r01l8 "Berlin Hauptbahnhof" — 24 steps (8 room), 1 untested: [der Schalter]
+    deu_r01l11 "Bausteine" — 32 steps (0 room), 1 untested: [woher]
+    deu_r01l12 "Wer bist du?" — 30 steps (2 room), 2 untested: [die Anrede, das Wiedersehen]
+    deu_r01l13 "Die Zahlen" — 24 steps (8 room), 2 untested: [zwei, gültig]
+    deu_r01l14 "Unsere Welt" — 24 steps (8 room), 1 untested: [der Europäer]
+  Unit 02 (Entschuldigung, wo ist...?):
+    deu_r2l2 "Die Stadt erkunden" — 20 steps (12 room), 1 untested: [das Geschäft]
+    deu_r2l3 "Geschäfte und Verkehr" — 19 steps (13 room), 3 untested: [das Restaurant, das Schloss, das Auto]
+    deu_r2l5 "Der, die, das" — 25 steps (7 room), 6 untested: [kurz, die Frage, das Problem, schnell, anfangen, aufhören]
+    deu_r2l7 "Eigenschaften und mehr" — 18 steps (14 room), 4 untested: [gleich, spielen, sitzen, liegen]
+    deu_r2l9 "Alles zusammen!" — 24 steps (8 room), 5 untested: [abfahren, fliegen, schließen, gern(e), trinken]
+  Unit 03 (Die Wohnungssuche):
+    deu_r03l1 "Wohnung frei" — 20 steps (12 room), 1 untested: [das Haus]
+    deu_r03l6 "Alles muss raus!" — 19 steps (13 room), 2 untested: [der Computer, zu]
+    deu_r03l7 "Haustiere und Pronomen" — 21 steps (11 room), 4 untested: [die Katze, der Fisch, der Vogel, das Kaninchen]
+    deu_r03l8 "Die Hausordnung" — 21 steps (11 room), 3 untested: [teilen, schicken, die Blume]
+    deu_r03l11 "Die ganze Familie" — 23 steps (9 room), 3 untested: [der Hausmann, die Erwachsene, die Jugendliche]
+    deu_r03l13 "Wie siehst du aus?" — 22 steps (10 room), 2 untested: [unsre, weiter-]
+  Unit 04 (Im Supermarkt):
+    deu_r4l1 "Einkaufswagen-Panik" — 26 steps (6 room), 3 untested: [der Verkäufer, die Rechnung, die Kleidung]
+    deu_r4l3 "Nummern, Farben, Gewichte" — 27 steps (5 room), 3 untested: [hundert / tausend, die Farbe, das Pfund]
+    deu_r4l4 "Akkusativ-Alarm" — 26 steps (6 room), 1 untested: [ihn]
+  Unit 05 (Hunger!):
+    deu_r05l3 "Ich kann das nicht lesen!" — 29 steps (3 room), 1 untested: [böse]
+    deu_r05l5 "Ich bestelle für uns beide!" — 31 steps (1 room), 1 untested: [Getrennt oder zusammen?]
+    deu_r05l6 "Aus der Küche, mit Liebe" — 18 steps (14 room), 1 untested: [um]
+    deu_r05l7 "Im Hotel" — 19 steps (13 room), 2 untested: [das Doppelzimmer, ihm]
+  Unit 06 (Alles auf Deutsch):
+    deu_r6l1 "Kaltes Wasser!" — 26 steps (6 room), 1 untested: [spazieren gehen]
+    deu_r6l2 "Mein Tag" — 25 steps (7 room), 5 untested: [der Tag, die Uhr, die Minute / die Sekunde, pünktlich, der Schluss]
+    deu_r6l3 "Montag bis Sonntag" — 20 steps (12 room), 2 untested: [der Dienstag, wichtig / eilig]
+    deu_r6l4 "Juli bis Dezember" — 22 steps (10 room), 2 untested: [der Schnee / die Temperatur, vierte / fünfte / sechste]
+    deu_r6l5 "Der Anruf" — 20 steps (12 room), 2 untested: [die E-Mail / klingeln, das Gesicht / der Zeh]
+    deu_r6l6 "Beim Arzt" — 21 steps (11 room), 2 untested: [das Medikament / die Tablette, weh tun]
+    deu_r6l7 "Am Bürgeramt" — 20 steps (12 room), 1 untested: [die Halle]
+    deu_r6l9 "Freizeit und Hobbys" — 21 steps (11 room), 1 untested: [die Musik / das Konzert]
+  Unit 07 (Der Arztbesuch):
+    deu_r07l2 "Mein Körper tut weh" — 27 steps (5 room), 2 untested: [das Mittel, stark]
+    deu_r07l6 "Vorsicht ist besser" — 27 steps (5 room), 1 untested: [schwanger]
+  Unit 08 (Müllprofessor):
+    deu_r8l3 "Stockwerke und Zimmer" — 26 steps (6 room), 1 untested: [die Etage]
+    deu_r8l5 "Wo oder Wohin?" — 25 steps (7 room), 3 untested: [stehen, legen, sitzen]
+    deu_r8l9 "Kochen und Vergleichen" — 22 steps (10 room), 3 untested: [backen, braten, schneiden]
+    deu_r8l12 "Neue Nachbarn" — 20 steps (12 room), 2 untested: [das Schwein, das Rind]
+    deu_r8l13 "Richtungen und Beschreibungen" — 26 steps (6 room), 6 untested: [außer, leer, notwendig, praktisch, bauen, herstellen]
+  Unit 09 (Freizeit und Vereine):
+    deu_r9l5 "Ob oder dass?" — 21 steps (11 room), 2 untested: [zuhören, träumen]
+    deu_r9l6 "Ob, dass und ADUSO" — 22 steps (10 room), 2 untested: [wahr, anders]
+    deu_r9l7 "Digital und analog" — 20 steps (12 room), 1 untested: [manch]
+    deu_r9l8 "Digitale Hobbys" — 22 steps (10 room), 5 untested: [surfen, der Fotoapparat, die Kamera, das Buch, ausleihen]
+    deu_r9l10 "Alles zusammen üben" — 18 steps (14 room), 4 untested: [die Gemeinschaft, leihen, komisch, sympathisch]
+    deu_r9l12 "Sport und Beschreibungen" — 18 steps (14 room), 3 untested: [das Rad, singen, ausgehen]
+  Unit 10 (Deutsche Bahn):
+    deu_r10l1 "47 Minuten Verspätung" — 28 steps (4 room), 1 untested: [der Weg]
+    deu_r10l3 "Mein Platz!" — 22 steps (10 room), 1 untested: [der Tourist / die Touristin]
+    deu_r10l9 "Fahrkartenkontrolle" — 18 steps (14 room), 1 untested: [der Bus]
+    deu_r10l12 "Im Bordbistro" — 25 steps (7 room), 1 untested: [der Euro]
+  Unit 11 (Auf dem Weihnachtsmarkt):
+    deu_r11l1 "Gendarmenmarkt" — 29 steps (3 room), 1 untested: [schneien]
+    deu_r11l2 "Was ziehe ich an?" — 31 steps (1 room), 2 untested: [der Schirm, das T-Shirt]
+    deu_r11l4 "Der rote Schal" — 20 steps (12 room), 2 untested: [vergleichen, ansehen]
+    deu_r11l5 "Besitz und Wünsche" — 18 steps (14 room), 1 untested: [die Tasse]
+    deu_r11l9 "Glühwein" — 32 steps (0 room), 2 untested: [das Gewitter, sterben]
+  Unit 12 (Halbjahresbilanz):
+    deu_r12l1 "Im Literaturcafé" — 30 steps (2 room), 2 untested: [die Situation, das Interview]
+    deu_r12l2 "Papierkram" — 18 steps (14 room), 1 untested: [abschließen]
+    deu_r12l3 "Digitaler Papierkram" — 32 steps (0 room), 1 untested: [der Artikel]
+    deu_r12l4 "Rückblick" — 27 steps (5 room), 4 untested: [der Mitarbeiter, der Kredit, die Tafel, der Hafen]
+    deu_r12l12 "Das letzte Kapitel" — 23 steps (9 room), 2 untested: [das Produkt, der Rentner]
+    deu_r12l13 "Beschreibungen und Abschluss" — 24 steps (8 room), 3 untested: [heraus, herein, der/die Nächste]
+    deu_r12l15 "Ich will bleiben" — 29 steps (3 room), 1 untested: [unbedingt]
+    deu_r12l16 "Der A2-Abschluss" — 18 steps (14 room), 2 untested: [der Ehepartner, die Zitrone]
+  Unit 13 (Die Bewerbung):
+    deu_r13l4 "Ich studierte in Istanbul" — 18 steps (14 room), 1 untested: [beschäftigen]
+    deu_r13l7 "Könnten Sie das wiederholen?" — 24 steps (8 room), 3 untested: [eignen, bieten, beteiligen]
+    deu_r13l10 "Die gute Nachricht" — 24 steps (8 room), 1 untested: [erfordern]
+    deu_r13l11 "Formell und informell" — 23 steps (9 room), 4 untested: [die Absenderin, meinetwegen, halbtags, perfekt]
+  Unit 14 (Erster Arbeitstag):
+    deu_r14l4 "Im Büro unterwegs" — 25 steps (7 room), 7 untested: [leiten, reinigen, besprechen, anstrengend, einheitlich, digital, aktualisieren]
+    deu_r14l6 "Grammatik im Büro II" — 27 steps (5 room), 5 untested: [bedienen, festlegen, festsetzen, feststehen, festhalten]
+    deu_r14l7 "Du oder Sie?" — 19 steps (13 room), 1 untested: [heizen]
+    deu_r14l8 "Technik und Einrichtung" — 27 steps (5 room), 1 untested: [elektrisch]
+    deu_r14l11 "Computer und Software" — 26 steps (6 room), 4 untested: [abonnieren, aufladen, kaputtmachen, virtuell]
+    deu_r14l13 "Zu Hause und im Büro" — 18 steps (14 room), 1 untested: [der Schlaf]
+    deu_r14l14 "Anleitungen und Abläufe" — 18 steps (14 room), 4 untested: [die Bedienungsanleitung, die Gebrauchsanweisung, die Mobilität, auflösen]
+    deu_r14l15 "Alltag und Feierabend" — 21 steps (11 room), 2 untested: [waagerecht, waagrecht]
+  Unit 15 (Reise nach Hamburg):
+    deu_r15l6 "Elbphilharmonie" — 21 steps (11 room), 7 untested: [die Bar, die Marmelade, die Margarine, die Wolle, das Leder, der Katalog, das Kaffeehaus]
+    deu_r15l7 "Wetter und Orientierung" — 19 steps (13 room), 5 untested: [die Wärme, die Kälte, flach, abbiegen, sich befinden]
+    deu_r15l9 "Zurück nach Berlin" — 23 steps (9 room), 4 untested: [vorder, außen, rückwärts, voraus]
+    deu_r15l10 "Verben und Varianten" — 20 steps (12 room), 10 untested: [entfernen, fließen, parkieren, überqueren, umdrehen, umtauschen, das Zeug, der Rahm, die Möhre, die Konfitüre]
+  Unit 17 (Karneval im Rheinland):
+    deu_r17l4 "Gefuehle und Feste" — 22 steps (10 room), 1 untested: [der Kuss]
+    deu_r17l9 "Konfetti im Haar" — 18 steps (14 room), 3 untested: [die Fasnacht, die Frisur, die Coiffeuse]
+  Unit 19 (Ausländerbehörde):
+    deu_r19l1 "Wartenummer B089" — 29 steps (3 room), 2 untested: [die Bestätigung, die Meldung]
+    deu_r19l3 "Das muss gemacht werden" — 27 steps (5 room), 11 untested: [beantragen, genehmigen, anerkennen, erhalten, verpflichten, fällig, zusätzlich, untersagt, voraussichtlich, inklusive, einschließlich]
+    deu_r19l7 "Alles auf dem Prüfstand" — 26 steps (6 room), 3 untested: [der Enkel, die Angehörige, verwandt]
+  Unit 20 (Die Versicherung):
+    deu_r20l3 "KD im Café" — 27 steps (5 room), 11 untested: [die Versichertenkarte, die Steuer, der Lohn, berechnen, finanzieren, die Einnahme, der Einkauf, der Kauf, niedrig, gering, knapp]
+    deu_r20l6 "TK oder AOK?" — 27 steps (5 room), 14 untested: [die Pension, der Senior, die Seniorin, der Pensionist, die Pensionistin, das Altersheim, die Einrichtung, pensionieren, die Not, das Opfer, der Tod, die Tote, tödlich, die Lieferung]
+    deu_r20l7 "Prüfung: Gesundheit und System" — 27 steps (5 room), 11 untested: [der Raucher, die Raucherin, der Nichtraucher, die Nichtraucherin, süchtig, blind, taub, link, stechen, schieben, wiegen]
+  Unit 21 (Ost und West):
+    deu_r21l7 "Zeitzeugen" — 26 steps (6 room), 5 untested: [die Zeichnung, der Sozialarbeiter, die Sozialarbeiterin, hierher, veröffentlichen]
+    deu_r21l8 "Leipziger Allerlei" — 27 steps (5 room), 3 untested: [die Entwickelung, einführen, hieher]
+  Unit 23 (Die Prüfung):
+    deu_r23l1 "Lernmaschine" — 28 steps (4 room), 2 untested: [gründlich, ziemlich]
+    deu_r23l10 "Bildung und Kultur" — 28 steps (4 room), 2 untested: [so viel, umso]
+    deu_r23l11 "Verben und Feinschliff" — 22 steps (10 room), 12 untested: [regeln, mitteilen, ausrichten, hinweisen, ereignen, genügen, die Biologie, mittler, öfter, folgend, speziell, unterstreichen]
+  Unit 24 (Einjährig):
+    deu_r24l2 "Rückblick" — 29 steps (3 room), 2 untested: [die Überzeugung, der Fall]
+    deu_r24l3 "Bevor Berlin" — 27 steps (5 room), 8 untested: [die Dauer, die Fortsetzung, das Mal, die Art, erfüllen, besonder, gewöhnlich, negativ]
+  Unit 26 (Medienkritik):
+    deu_r26l8 "Medienkompetenz" — 27 steps (5 room), 7 untested: [die Auflage, die Informationsflut, die Meinungsmache, das Rechercheergebnis, die sozialen Medien, die Verbreitung, die Verleumdung]
+  Unit 27 (Der Vortrag):
+    deu_r27l8 "Gut gemacht" — 23 steps (9 room), 2 untested: [Wären Sie so freundlich, Ich komme nun zum nächssten Punkt]
+    deu_r27l9 "Argumente und Methoden" — 22 steps (10 room), 7 untested: [mithilfe von, der/die Vorsitzende, ausführen, einführen, andeuten, überleiten, gegeneinander abwägen]
+  Unit 28 (Sprichwörter):
+    deu_r28l7 "Alles auf dem Prüfstand" — 20 steps (12 room), 4 untested: [Etwas auf den Nagel haengen, Jemandem Honig ums Maul schmieren, Das Kind mit dem Bade ausschütten, das Fettnäpfchen]
+    deu_r28l8 "Sprichwoerter verstehen" — 20 steps (12 room), 4 untested: [überliefern, verbreiten, aufgreifen, aussagen]
+  Unit 30 (Amtsdeutsch):
+    deu_r30l4 "KD übersetzt" — 22 steps (10 room), 3 untested: [die Rechtsanwaeltin, der Klaeger, die Klaegerin]
+  Unit 31 (Wirtschaft):
+    deu_r31l4 "Da die Wirtschaft wächst" — 31 steps (1 room), 2 untested: [die Globalisierung, schätzungsweise]
+  Unit 32 (Kultur und Identität):
+    deu_r32l6 "Fuer Gleichberechtigung" — 20 steps (12 room), 4 untested: [aufgeklaert, diskriminieren, emanzipieren, überwinden]
+  Unit 34 (Deutsche Welle):
+    deu_r34l5 "Erst wann, dann warum" — 23 steps (9 room), 2 untested: [die Gemeinde, die Kulturveranstaltung]
+    deu_r34l6 "Unterwegs in der Region" — 20 steps (12 room), 4 untested: [flanieren, einkehren, vorbeischauen, die Neugier]
+  Unit 36 (Zuhause):
+    deu_r36l1 "Einladung" — 27 steps (5 room), 2 untested: [der Abschluss, bewundern]
+    deu_r36l2 "Was wir fühlen" — 27 steps (5 room), 2 untested: [die Ruhe, aufblühen]
+    deu_r36l4 "Ja, doch, halt, eben, wohl" — 27 steps (5 room), 5 untested: [das Mitgefühl, loslassen, besonnen, nachdenklich, mutig]
+    deu_r36l7 "Alles" — 27 steps (5 room), 6 untested: [sich befinden, beinahe, die Menschenkenntnis, die Selbstverwirklichung, die Willenskraft, die Zusammengehörigkeit]

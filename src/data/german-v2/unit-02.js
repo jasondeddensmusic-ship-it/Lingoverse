@@ -87,7 +87,10 @@ const UNIT_2 =
 {type:"teach",trg:"mal",src:"just, once (softener)",pos:"part",gender:null,note:"Makes requests sound friendlier and less demanding.",example:"A: Schau mal!\nB: Was ist das?",exampleSrc:"A: Just look!\nB: What is that?",funFact:"'Schau mal' = just look. 'Sag mal' = tell me. Mal makes everything sound friendlier. Without it, commands sound harsh."},
 {type:"teach",trg:"nach",src:"to (cities/countries), after",pos:"prep",gender:null,note:"Preposition with multiple meanings.",example:"A: Ich fahre nach Berlin.\nB: Wann fährst du?",exampleSrc:"A: I am going to Berlin.\nB: When are you going?",funFact:"'Nach Berlin' = to Berlin. 'Nach links' = to the left. 'Nach dem Essen' = after the meal. One little word, enormous reach."},
 {type:"teach",trg:"zu",src:"to (specific places/people)",pos:"prep",gender:null,note:"Preposition. 'Zum' = zu + dem, 'Zur' = zu + der.",example:"A: Ich gehe zum Bahnhof.\nB: Der Bahnhof ist nicht weit.",exampleSrc:"A: I am going to the station.\nB: The station is not far.",funFact:"'Zu' for specific places: zum Bahnhof, zur Apotheke. 'Nach' for cities/countries: nach Berlin. This distinction does not exist in English."},
-{type:"story",speaker:"verumius",mood:"nervous",art:"de-berlin-asking-directions",trg:"Entschuldigung, können Sie mir helfen? Ich möchte zum Bahnhof. Eine Frau zeigt nach links. Ein Mann zeigt nach rechts. Verumius steht in der Mitte.",src:"Excuse me, can you help me? I would like to get to the station. A woman points left. A man points right. Verumius stands in the middle."},
+{type:"story",speaker:"verumius",mood:"nervous",art:"de-berlin-asking-directions",trg:"Entschuldigung, können Sie mir helfen? Ich möchte zum Bahnhof. Eine Frau zeigt nach links. Ein Mann zeigt nach rechts. Verumius steht in der Mitte.",src:"Excuse me, can you help me? I would like to get to the station. A woman points left. A man points right. Verumius stands in the middle."}
+]},
+{id:"deu_r2l4b",title:"Können Sie mir helfen? (Teil 2)",icon:"\uD83D\uDE4B",xp:15,board:true,steps:[
+{type:"intro",title:"Können Sie mir helfen? (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"neben",src:"next to, beside",pos:"prep",gender:null,note:"Preposition of location.",example:"A: Wo ist die Bank?\nB: Die Bank ist neben der Apotheke.",exampleSrc:"A: Where is the bank?\nB: The bank is next to the pharmacy.",funFact:"'Die Bank ist neben der Apotheke.' Neben = physically beside something. Very useful for giving directions."},
 {type:"teach",trg:"geben",src:"to give",pos:"verb",gender:null,note:"Irregular: ich gebe, du gibst, er gibt.",example:"A: Können Sie mir den Stadtplan geben?\nB: Ja, hier bitte!",exampleSrc:"A: Can you give me the city map?\nB: Yes, here you go!",funFact:"'Es gibt' = there is/are (literally 'it gives'). 'Es gibt viele Cafés in Berlin' = There are many cafes in Berlin. One of German's most common phrases."},
 {type:"verb_table",title:"geben (to give)",groups:[{label:"Present tense (stem change: e → i)",rows:[{pronoun:"ich",form:"gebe",src:"I give"},{pronoun:"du",form:"gibst",src:"you give"},{pronoun:"er/sie/es",form:"gibt",src:"he/she/it gives"},{pronoun:"wir",form:"geben",src:"we give"},{pronoun:"ihr",form:"gebt",src:"you all give"},{pronoun:"sie/Sie",form:"geben",src:"they/you (formal) give"}]}],note:"Key phrase: es gibt = there is/are. Literally: it gives."},
@@ -103,7 +106,11 @@ const UNIT_2 =
 {type:"mc",q:"Verumius asks for help. Which is most polite?",opts:["Können Sie mir helfen?","Hilf mir!","Wo ist das?","Gib mir den Weg!"],ans:"Können Sie mir helfen?",hint:"Polite requests use a modal verb with the formal pronoun."},
 {type:"mc",q:"Someone says 'Du sprichst kein Deutsch.' You DO speak German. You reply:",opts:["Nein!","Ja!","Doch!","Bitte!"],ans:"Doch!",hint:"This special word contradicts a negative statement."},
 {type:"fb",s:"Entschuldigung, {1} Sie mir bitte den Weg zeigen?",a:["können"],opts:["können","müssen","dürfen","möchten"],hint:"Which modal expresses ability and polite requests?",sSrc:"Excuse me, can you please show me the way?"},
-{type:"story",speaker:"narrator",mood:"reflective",art:"de-berlin-street-afternoon",trg:"Verumius kann jetzt fragen, hören und verstehen. Langsam. Aber er versteht. Das ist der erste Schritt.",src:"Verumius can now ask, listen, and understand. Slowly. But he understands. That is the first step."}
+{type:"story",speaker:"narrator",mood:"reflective",art:"de-berlin-street-afternoon",trg:"Verumius kann jetzt fragen, hören und verstehen. Langsam. Aber er versteht. Das ist der erste Schritt.",src:"Verumius can now ask, listen, and understand. Slowly. But he understands. That is the first step."},
+{type:"mc",q:"Was bedeutet 'lesen'?",opts:["next to, beside","to see","to read","to hear"],ans:"to read",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Wie sagt man 'to see' auf Deutsch? {1}",a:["sehen"],opts:["mal","geben","zu","sehen"],hint:"Which word fits in this context?",sSrc:"How do you say 'to see' in German?"},
+{type:"mc",q:"Was bedeutet 'hören'?",opts:["to read","to show, to point","would like","to hear"],ans:"to hear",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"{1} Sie mich?",a:["verstehen"],opts:["dürfen","sehen","zeigen","verstehen"],hint:"Which word fits in this context?",sSrc:"Do you understand me?"}
 ]},
 // --- L4: Der, die, das (Grammar) ---
 {id:"deu_r2l5",title:"Der, die, das",icon:"\uD83D\uDD24",xp:15,board:true,steps:[
@@ -132,7 +139,11 @@ const UNIT_2 =
 {type:"drag_fill",s:"{1} Café ist klein, aber {2} Restaurant ist groß.",blanks:{"1":"Das","2":"das"},pool:["Das","das","Der","die","Die"],hint:"Café and Restaurant are both neuter. Sentence-initial gets capital D.",sSrc:"The café is small, but the restaurant is big."},
 {type:"mc",q:"Words ending in -ung are always...",opts:["masculine (der)","neuter (das)","depends on the word","feminine (die)"],ans:"feminine (die)",hint:"Richtung, Kreuzung, Verbindung, Besichtigung... all share one article."},
 {type:"story",speaker:"verumius",mood:"cautiously-hopeful",art:"de-berlin-notebook",trg:"Der, die, das. Klein aber wichtig. Langsam sehe ich die Muster. Die Bäckerei, die Kreuzung, die Richtung. Alles mit -ei und -ung ist die. Danke, Muster.",src:"Der, die, das. Small but important. Slowly I see the patterns. The bakery, the intersection, the direction. Everything with -ei and -ung is die. Thank you, patterns."}
-]},
+,
+{"type":"mc","q":"Was ist 'die Frage'?","opts":["the question","the answer","the problem","the idea"],"ans":"the question","hint":"The opposite of an answer."},
+{"type":"fb","s":"Das ist ein großes {1}.","a":["Problem"],"opts":["Problem","Frage","Antwort","Idee"],"hint":"Something difficult that needs solving.","sSrc":"That is a big problem."},
+{"type":"mc","q":"Was bedeutet 'schnell'?","opts":["fast","slow","heavy","light"],"ans":"fast","hint":"The opposite of langsam."},
+{"type":"mc","q":"Was bedeutet 'anfangen'?","opts":["to begin","to finish","to forget","to find"],"ans":"to begin","hint":"What you do at the start of something."}]},
 // --- L5: Unterwegs in der Stadt (Vocab: Verbs + Adjectives) ---
 {id:"deu_r2l6",title:"Unterwegs in der Stadt",icon:"\uD83D\uDEB6",xp:15,board:true,steps:[
 {type:"intro",title:"Unterwegs in der Stadt",desc:"Verumius wanders Berlin. Every shop, every sign, every scene is a vocabulary lesson. Today: essential verbs and adjectives.",goals:["Learn 30+ everyday verbs","Master descriptive adjectives","Describe places and situations"]},
@@ -176,7 +187,8 @@ const UNIT_2 =
 {type:"tip",title:"Action vs State Verb Pairs",text:"German distinguishes between doing something and the result:\n\nlegen (to lay) vs liegen (it is lying)\nsetzen (to seat) vs sitzen (it is sitting)\nstellen (to place) vs stehen (it is standing)\n\nThe -e- verb is the ACTION. The -i- verb is the STATE.",deepDive:{title:"Upright vs flat, state vs action",text:"The key question is: is the object UPRIGHT (bottle, vase, lamp) or FLAT (book, paper, clothes)?\n\nUpright: stehen (state) / stellen (action)\nFlat: liegen (state) / legen (action)\n\nThen ask: LOCATION (already there) or ACTION (you move it)?\n\nLocation: stehen / liegen + dative (wo?)\nAction: stellen / legen + accusative (wohin?)\n\nExample: 'Das Buch liegt auf dem Tisch' (state, flat). 'Ich lege das Buch auf den Tisch' (action, flat)."}},
 {type:"mc",q:"'Wo sitzt du?' means what in English?",opts:["Where are you going?","Where are you sitting?","Are you sitting down?","Why are you sitting?"],ans:"Where are you sitting?",hint:"Sitzen is the state verb meaning to be in a seated position."},
 {type:"story",speaker:"verumius",mood:"satisfied",art:"de-berlin-bench-evening",trg:"Essen, kaufen, arbeiten, kochen. Die Stadt ist nicht fremd. Sie ist bekannt. Alles klar? Ja. Alles klar.",src:"Eat, buy, work, cook. The city is not foreign. It is familiar. Everything clear? Yes. Everything clear."}
-]},
+,
+{"type":"fb","s":"Die Kinder {1} im Garten.","a":["spielen"],"opts":["spielen","lernen","schlafen","essen"],"hint":"An activity children do for fun outside.","sSrc":"The children play in the garden."}]},
 // --- L6: Der Döner-Umweg (Story Climax) ---
 {id:"deu_r2l8",title:"Der Döner-Umweg",icon:"\uD83C\uDF2F",xp:15,board:true,steps:[
 {type:"intro",title:"Der Döner-Umweg",desc:"Verumius has been walking for an hour. He is hungry, lost, and his map is useless. Then he smells something incredible from a Döner stand by the Spree.",goals:["Learn travel and transport verbs","Navigate public transport in German","Discover Berlin's Döner culture"]},
@@ -192,7 +204,11 @@ const UNIT_2 =
 {type:"teach",trg:"umsteigen",src:"to transfer, to change trains",pos:"verb",gender:null,note:"Separable: Sie müssen umsteigen.",example:"A: Muss ich umsteigen?\nB: Ja, am Alexanderplatz.",exampleSrc:"A: Do I need to transfer?\nB: Yes, at Alexanderplatz.",funFact:"Um = around/change. 'Sie müssen am Alexanderplatz umsteigen' = You have to transfer at Alexanderplatz. A daily Berlin experience."},
 {type:"teach",trg:"der Spaß",src:"fun",pos:"noun",gender:"m",note:"Masculine noun. 'Das macht Spaß!' = That is fun!",example:"A: Macht Berlin Spaß?\nB: Ja, Berlin macht viel Spaß!",exampleSrc:"A: Is Berlin fun?\nB: Yes, Berlin is a lot of fun!",funFact:"'Das macht Spaß!' = That is fun! (literally 'That makes fun'). 'Viel Spaß!' = Have fun! Germans use 'machen' (to make) with fun, not 'haben' (to have)."},
 {type:"teach",trg:"das Stück",src:"piece, item",pos:"noun",gender:"n",note:"Neuter noun. 'Ein Stück Kuchen' = a piece of cake.",example:"A: Ein Stück, bitte!\nB: Hier, ein Stück Döner.",exampleSrc:"A: One piece, please!\nB: Here, one piece of Döner.",funFact:"'Ein Stück' is how you order at counters. 'Zwei Stück' for two pieces. At a bakery: 'Drei Stück Brötchen, bitte.'"},
-{type:"fb",s:"Bitte {1}! Der Zug fährt ab.",a:["einsteigen"],opts:["einsteigen","aussteigen","umsteigen","bleiben"],hint:"The train is leaving. You need to board now.",sSrc:"Please board! The train is departing."},
+{type:"fb",s:"Bitte {1}! Der Zug fährt ab.",a:["einsteigen"],opts:["einsteigen","aussteigen","umsteigen","bleiben"],hint:"The train is leaving. You need to board now.",sSrc:"Please board! The train is departing."}
+,
+{"type":"mc","q":"Was bedeutet 'der Spaß'?","opts":["fun","stress","work","sleep"],"ans":"fun","hint":"What you have when you enjoy yourself."}]},
+{id:"deu_r2l8b",title:"Der Döner-Umweg (Teil 2)",icon:"\uD83C\uDF2F",xp:15,board:true,steps:[
+{type:"intro",title:"Der Döner-Umweg (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"bekommen",src:"to get, to receive",pos:"verb",gender:null,note:"FALSE FRIEND! Not 'to become'!",example:"A: Ich bekomme einen Döner.\nB: Mit alles?",exampleSrc:"A: I am getting a Döner.\nB: With everything?",funFact:"FAMOUS FALSE FRIEND! 'Bekommen' does NOT mean 'to become.' 'Ich bekomme einen Döner' = I am GETTING a Döner, NOT 'I am becoming a Döner.'"},
 {type:"teach",trg:"der Fluss",src:"the river",pos:"noun",gender:"m",note:"Masculine noun. Berlin's river: die Spree.",example:"A: Ist das ein Fluss?\nB: Ja, das ist die Spree.",exampleSrc:"A: Is that a river?\nB: Yes, that is the Spree.",funFact:"Berlin's river is die Spree, but Fluss itself is masculine (der Fluss). The Spree flows through the heart of Berlin."},
 {type:"teach",trg:"die Sonne",src:"the sun",pos:"noun",gender:"f",note:"Feminine noun. 'Sonnenschein' = sunshine.",example:"A: Die Sonne scheint!\nB: Ja, endlich Sonne in Berlin!",exampleSrc:"A: The sun is shining!\nB: Yes, finally sun in Berlin!",funFact:"'Sonnenschein' = sunshine. Germans celebrate sun like it is a miracle. In Berlin, where grey skies dominate, a sunny day changes the whole city's mood."},
@@ -206,7 +222,9 @@ const UNIT_2 =
 {type:"mc",q:"You need to change trains. The announcement says:",opts:["Bitte einsteigen!","Bitte aussteigen!","Bitte umsteigen!","Bitte aufstehen!"],ans:"Bitte umsteigen!",hint:"'Um' means change/around. Which verb means to transfer?"},
 {type:"fb",s:"Können Sie mir die {1} zum Bahnhof zeigen?",a:["Richtung"],opts:["Richtung","Kreuzung","Haltestelle","Ecke"],hint:"You are asking someone to show you the direction to the station.",sSrc:"Can you show me the direction to the train station?"},
 {type:"tip",title:"Döner Culture",text:"Germany eats about 720 million Döner Kebabs per year.\nBerlin alone has over 1,600 Döner shops.\nThe German Döner was invented in Berlin in the 1970s by Turkish immigrants.\nIt is now Germany's most popular fast food, ahead of burgers and pizza."},
-{type:"story",speaker:"verumius",mood:"content",art:"de-spree-doner",trg:"Das Bürgeramt kann warten. Dieser Döner kann nicht. Manchmal ist der Umweg das Ziel.",src:"The Bürgeramt can wait. This Döner cannot. Sometimes the detour is the destination."}
+{type:"story",speaker:"verumius",mood:"content",art:"de-spree-doner",trg:"Das Bürgeramt kann warten. Dieser Döner kann nicht. Manchmal ist der Umweg das Ziel.",src:"The Bürgeramt can wait. This Döner cannot. Sometimes the detour is the destination."},
+{type:"mc",q:"Was bedeutet 'der Fluss'?",opts:["to walk, to run","to get in, to board","to take","the river"],ans:"the river",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"{1} scheint!",a:["die Sonne"],opts:["einsteigen","laufen","die Sonne","aussteigen"],hint:"Which word fits in this context?",sSrc:"The sun is shining!"}
 ]},
 // --- L7: Alles zusammen! (Quiz) ---
 {id:"deu_r2l9",title:"Alles zusammen!",icon:"\uD83C\uDFC6",xp:20,board:true,steps:[
@@ -234,7 +252,8 @@ const UNIT_2 =
 {type:"teach",trg:"brauchen",src:"to need",pos:"verb",gender:null,note:"Regular verb. Ich brauche, du brauchst, er braucht.",example:"A: Was brauchst du?\nB: Ich brauche eine Karte von Berlin.",exampleSrc:"A: What do you need?\nB: I need a map of Berlin.",funFact:"In spoken German, brauchen sometimes replaces müssen with nicht: Du brauchst nicht kommen = you don't need to come."},
 {type:"drag_fill",s:"Entschuldigung, {1} ist {2} Apotheke? Ich {3} Medizin.",blanks:{"1":"wo","2":"die","3":"brauche"},pool:["wo","die","brauche","wohin","der","kaufe"],hint:"Where (location) is the (feminine) pharmacy? I need medicine.",sSrc:"Excuse me, where is the pharmacy? I need medicine."},
 {type:"mc",q:"Which compound noun is NEUTER?",opts:["der Parkplatz","die Innenstadt","das Rathaus","der Stadtplan"],ans:"das Rathaus",hint:"Compound nouns take the gender of the LAST word."}
-]},
+,
+{"type":"fb","s":"Ich trinke {1} Kaffee.","a":["gern"],"opts":["gern","nie","schlecht","viel"],"hint":"Expresses that you enjoy doing something.","sSrc":"I like drinking coffee."}]},
 // --- L8: Morgen versuche ich es nochmal (Resolution) ---
 {id:"deu_r2l10",title:"Morgen versuche ich es nochmal",icon:"\uD83C\uDF07",xp:15,board:true,steps:[
 {type:"intro",title:"Morgen versuche ich es nochmal",desc:"Day 1 in Berlin is ending. The Bürgeramt? Not found. But Verumius discovered something better: the art of being lost in Berlin.",goals:["Learn sondern vs aber","Master denn as conjunction","Reflect on Unit 2 vocabulary"]},
@@ -274,7 +293,12 @@ const UNIT_2 =
 {type:"teach",trg:"oft",src:"often",pos:"adv",gender:null,note:"Adverb of frequency. Between immer and manchmal.",example:"A: Gehst du oft ins Kino?\nB: Ja, ich gehe oft ins Kino.",exampleSrc:"A: Do you go to the cinema often?\nB: Yes, I go to the cinema often.",funFact:"The comparative form is 'öfter' (more often), with an umlaut."},
 {type:"teach",trg:"schon",src:"already",pos:"adv",gender:null,note:"Adverb. Can also express surprise or reassurance.",example:"A: Ist der Zug schon da?\nB: Ja, er ist schon am Gleis.",exampleSrc:"A: Is the train already there?\nB: Yes, it is already at the platform.",funFact:"'Schon gut' means 'it is alright' and is used to reassure someone."},
 {type:"teach",trg:"sofort",src:"immediately",pos:"adv",gender:null,note:"Adverb. Stronger than 'bald' (soon).",example:"A: Wann kann ich das Zimmer haben?\nB: Sofort! Es ist fertig.",exampleSrc:"A: When can I have the room?\nB: Immediately! It is ready.",funFact:"German bureaucrats love this word. 'Sofortige Maßnahmen' means immediate measures."},
-{type:"fb",s:"Das kostet {1} zwei Euro. Es ist billig!",a:["nur"],opts:["nur","nie","oft","schon"],hint:"This adverb means 'only' and limits the amount.",sSrc:"That costs only two euros. It is cheap!"},
+{type:"fb",s:"Das kostet {1} zwei Euro. Es ist billig!",a:["nur"],opts:["nur","nie","oft","schon"],hint:"This adverb means 'only' and limits the amount.",sSrc:"That costs only two euros. It is cheap!"}
+,
+{"type":"mc","q":"Was bedeutet 'dann'?","opts":["then","now","never","here"],"ans":"then","hint":"A word for what comes next in time."},
+{"type":"mc","q":"Was bedeutet 'sofort'?","opts":["immediately","slowly","later","sometimes"],"ans":"immediately","hint":"Without any delay at all."}]},
+{id:"deu_r2l11b",title:"Kleine Wörter, große Wirkung (Teil 2)",icon:"💡",xp:15,board:true,steps:[
+{type:"intro",title:"Kleine Wörter, große Wirkung (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"vielleicht",src:"perhaps, maybe",pos:"adv",gender:null,note:"Adverb. Softens statements and suggestions.",example:"A: Gehen wir ins Museum?\nB: Ja, vielleicht am Nachmittag.",exampleSrc:"A: Shall we go to the museum?\nB: Yes, perhaps in the afternoon.",funFact:"Vielleicht literally breaks down to 'viel' (much) + 'leicht' (easy/light), meaning 'easily possible'."},
 {type:"teach",trg:"wieder",src:"again",pos:"adv",gender:null,note:"Adverb. Indicates repetition.",example:"A: Der Bus ist weg!\nB: Kein Problem. Er kommt wieder.",exampleSrc:"A: The bus is gone!\nB: No problem. It comes again.",funFact:"'Auf Wiedersehen' literally means 'until seeing again'. It is the formal goodbye."},
 {type:"teach",trg:"an",src:"on, at (a surface or location)",pos:"prep",gender:null,note:"Preposition. Used for surfaces and specific locations.",example:"A: Wo ist die Karte?\nB: Sie ist an der Wand.",exampleSrc:"A: Where is the map?\nB: It is on the wall.",funFact:"An der Haltestelle (at the bus stop) is one of the most common uses of 'an'."},
@@ -287,10 +311,13 @@ const UNIT_2 =
 {type:"teach",trg:"ab",src:"from (a point in time or place)",pos:"prep",gender:null,note:"Preposition. Marks a starting point: ab Montag (from Monday).",example:"A: Ab wann ist das Museum offen?\nB: Ab neun Uhr.",exampleSrc:"A: From when is the museum open?\nB: From nine o'clock.",funFact:"At airports, 'Abflug' (departure) uses 'ab' (away) + 'Flug' (flight)."},
 {type:"fb",s:"Wir treffen uns {1} dem Bahnhof.",a:["vor"],opts:["vor","über","durch","ab"],hint:"Which preposition means 'in front of'?",sSrc:"We are meeting in front of the train station."},
 {type:"teach",trg:"breit",src:"wide, broad",pos:"adj",gender:null,note:"Adjective. Opposite: schmal (narrow).",example:"A: Ist die Straße breit?\nB: Ja, sie ist sehr breit.",exampleSrc:"A: Is the street wide?\nB: Yes, it is very wide.",funFact:"The Kurfürstendamm in Berlin is one of the broadest avenues in Europe."},
-{type:"mc",q:"What does 'vielleicht' mean?",opts:["always","never","soon","perhaps"],ans:"perhaps",hint:"Think of a word that expresses uncertainty."},
+{type:"mc",q:"What does 'vielleicht' mean?",opts:["always","never","soon (formal)","perhaps"],ans:"perhaps",hint:"Think of a word that expresses uncertainty."},
 {type:"fb",s:"Der Zug kommt {1}. Wir müssen warten.",a:["bald"],opts:["bald","nie","schon","wieder"],hint:"The train is arriving in the near future.",sSrc:"The train comes soon. We have to wait."},
 {type:"mc",q:"'Gehen Sie über die Brücke.' What does 'über' mean here?",opts:["over","under","next to","behind"],ans:"over",hint:"You cross something from one side to the other."},
-{type:"match",pairs:[{trg:"jetzt",src:"now"},{trg:"immer",src:"always"},{trg:"oft",src:"often"},{trg:"nie",src:"never"},{trg:"noch",src:"still"}]}
+{type:"match",pairs:[{trg:"jetzt",src:"now"},{trg:"immer",src:"always"},{trg:"oft",src:"often"},{trg:"nie",src:"never"},{trg:"noch",src:"still"}]},
+{type:"mc",q:"Was bedeutet 'an'?",opts:["often","again","now","on, at (a surface or location)"],ans:"on, at (a surface or location)",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"{1} drei Uhr.",a:["gegen"],opts:["gegen","über","oft","jetzt"],hint:"Which word fits in this context?",sSrc:"Around three o'clock."},
+{type:"mc",q:"Was bedeutet 'breit'?",opts:["wide, broad","through","already","soon"],ans:"wide, broad",hint:"Think about the meaning of this word in context."}
 ]},
 
 {id:"deu_r2l12",title:"Wo ist das?",icon:"📍",xp:15,board:true,steps:[
@@ -308,7 +335,10 @@ const UNIT_2 =
 {type:"teach",trg:"der Laden",src:"the shop, the store",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Läden. More casual than Geschäft.",example:"A: Kennst du den Laden?\nB: Ja, der Laden ist sehr gut.",exampleSrc:"A: Do you know the shop?\nB: Yes, the shop is very good.",funFact:"'Laden' originally meant 'a shutter or plank', because shops used to have wooden shutters you opened for business."},
 {type:"teach",trg:"das Lokal",src:"the restaurant, the pub",pos:"noun",gender:"n",note:"Neuter noun. Plural: die Lokale. A casual place to eat or drink.",example:"A: Gibt es hier ein gutes Lokal?\nB: Ja, das Lokal am Platz ist super.",exampleSrc:"A: Is there a good restaurant here?\nB: Yes, the restaurant at the square is great.",funFact:"A 'Stammlokal' is a local pub where regulars always go. Very important in German culture!"},
 {type:"teach",trg:"der Ort",src:"the place, the town",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Orte.",example:"A: Was für ein Ort ist das?\nB: Das ist ein kleiner Ort in Bayern.",exampleSrc:"A: What kind of place is that?\nB: That is a small town in Bavaria.",funFact:"Many German town names end in -burg (castle), -dorf (village), or -heim (home)."},
-{type:"fb",s:"Die {1} ist vor dem Hotel.",a:["Haltestelle"],opts:["Haltestelle","Kiosk","Laden","Kindergarten"],hint:"This feminine noun is where buses and trams stop.",sSrc:"The bus stop is in front of the hotel."},
+{type:"fb",s:"Die {1} ist vor dem Hotel.",a:["Haltestelle"],opts:["Haltestelle","Kiosk","Laden","Kindergarten"],hint:"This feminine noun is where buses and trams stop.",sSrc:"The bus stop is in front of the hotel."}
+]},
+{id:"deu_r2l12b",title:"Wo ist das? (Teil 2)",icon:"📍",xp:15,board:true,steps:[
+{type:"intro",title:"Wo ist das? (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"das Dorf",src:"the village",pos:"noun",gender:"n",note:"Neuter noun. Plural: die Dörfer.\nSmaller than a Stadt (city) and an Ort (town).",example:"A: Lebst du in der Stadt?\nB: Nein, ich wohne in einem kleinen Dorf.",exampleSrc:"A: Do you live in the city?\nB: No, I live in a small village.",funFact:"Many German town names end in -dorf (Düsseldorf, Neudorf). Dorf literally means a small settlement. Germany has about 80,000 villages, more than any other EU country."},
 {type:"teach",trg:"der Platz",src:"the square, the seat",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Plätze. Both a city square and a seat.",example:"A: Ist dieser Platz frei?\nB: Ja, bitte setzen Sie sich.",exampleSrc:"A: Is this seat free?\nB: Yes, please sit down.",funFact:"Alexanderplatz in Berlin is one of Germany's most famous squares, often just called 'Alex'."},
 {type:"teach",trg:"die Praxis",src:"the doctor's office",pos:"noun",gender:"f",note:"Feminine noun. Plural: die Praxen.",example:"A: Wo ist die Praxis?\nB: Die Praxis ist im zweiten Stock.",exampleSrc:"A: Where is the doctor's office?\nB: The doctor's office is on the second floor.",funFact:"In Germany, most doctors have their own Praxis (private practice) rather than working in hospitals."},
@@ -322,7 +352,9 @@ const UNIT_2 =
 {type:"mc",q:"What does 'die Haltestelle' mean?",opts:["the bakery","the bus stop","the exit","the entrance"],ans:"the bus stop",hint:"Think of a place where vehicles pause to let people on and off."},
 {type:"fb",s:"Wo ist der {1}? Ich möchte rausgehen.",a:["Ausgang"],opts:["Ausgang","Eingang","Platz","Laden"],hint:"You want to leave, so you need the way out.",sSrc:"Where is the exit? I want to go outside."},
 {type:"mc",q:"Verumius asks: 'Ist dieser Platz frei?' What is he asking about?",opts:["a shop","a seat","a bakery","a platform"],ans:"a seat",hint:"This word has two meanings. Here, someone wants to sit down in a specific spot."},
-{type:"match",pairs:[{trg:"die Bäckerei",src:"bakery"},{trg:"der Kindergarten",src:"kindergarten"},{trg:"das Schwimmbad",src:"swimming pool"},{trg:"die Praxis",src:"doctor's office"},{trg:"die Mitte",src:"center"}]}
+{type:"match",pairs:[{trg:"die Bäckerei",src:"bakery"},{trg:"der Kindergarten",src:"kindergarten"},{trg:"das Schwimmbad",src:"swimming pool"},{trg:"die Praxis",src:"doctor's office"},{trg:"die Mitte",src:"center"}]},
+{type:"mc",q:"Was bedeutet 'das Dorf'?",opts:["the entrance","the stop, the station","the square, the seat","the village"],ans:"the village",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Wie sagt man 'the sight, the attraction' auf Deutsch? {1}",a:["die Sehenswürdigkeit"],opts:["der Ort","der Eingang","die Praxis","die Sehenswürdigkeit"],hint:"Which word fits in this context?",sSrc:"How do you say 'the sight, the attraction' in German?"}
 ]},
 
 {id:"deu_r2l13",title:"Unterwegs",icon:"🚌",xp:15,board:true,steps:[
@@ -342,7 +374,10 @@ const UNIT_2 =
 {type:"teach",trg:"der Osten",src:"the east",pos:"noun",gender:"m",note:"Masculine noun. No plural. Direction word.",example:"A: Wo liegt Dresden?\nB: Dresden liegt im Osten.",exampleSrc:"A: Where is Dresden?\nB: Dresden is in the east.",funFact:"After reunification in 1990, Germans still say 'im Osten' and 'im Westen' to refer to the former East and West."},
 {type:"teach",trg:"der Westen",src:"the west",pos:"noun",gender:"m",note:"Masculine noun. No plural. Direction word.",example:"A: Wo liegt Köln?\nB: Köln liegt im Westen.",exampleSrc:"A: Where is Cologne?\nB: Cologne is in the west.",funFact:"Cologne (Köln) in western Germany is famous for its cathedral and its own beer style, Kölsch."},
 {type:"teach",trg:"am",src:"at the (contraction of an + dem)",pos:"prep",gender:null,note:"Preposition+article contraction. Used for locations and days.",example:"A: Wo treffen wir uns?\nB: Am Bahnhof, am Montag.",exampleSrc:"A: Where do we meet?\nB: At the train station, on Monday.",funFact:"'Am' is used with days (am Montag), times (am Morgen), and places (am Flughafen)."},
-{type:"teach",trg:"ins",src:"into the (contraction of in + das)",pos:"prep",gender:null,note:"Preposition+article contraction. Used with neuter nouns for direction.",example:"A: Wohin gehst du?\nB: Ich gehe ins Kino.",exampleSrc:"A: Where are you going?\nB: I am going to the cinema.",funFact:"Ins Kino, ins Theater, ins Museum. These are the classic 'ins' phrases every German learner needs."},
+{type:"teach",trg:"ins",src:"into the (contraction of in + das)",pos:"prep",gender:null,note:"Preposition+article contraction. Used with neuter nouns for direction.",example:"A: Wohin gehst du?\nB: Ich gehe ins Kino.",exampleSrc:"A: Where are you going?\nB: I am going to the cinema.",funFact:"Ins Kino, ins Theater, ins Museum. These are the classic 'ins' phrases every German learner needs."}
+]},
+{id:"deu_r2l13b",title:"Unterwegs (Teil 2)",icon:"🚌",xp:15,board:true,steps:[
+{type:"intro",title:"Unterwegs (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"hoch",src:"high, tall",pos:"adj",gender:null,note:"Adjective/adverb. Describes height or elevation.",example:"A: Ist der Turm hoch?\nB: Ja, er ist sehr hoch.",exampleSrc:"A: Is the tower tall?\nB: Yes, it is very tall.",funFact:"The Zugspitze (2,962 m) is Germany's highest mountain. 'Hoch' describes its peak perfectly."},
 {type:"teach",trg:"weit",src:"far, wide",pos:"adj",gender:null,note:"Adjective/adverb. Used for distance. Opposite: nah (near).",example:"A: Ist der Bahnhof weit?\nB: Nein, nur fünf Minuten zu Fuß.",exampleSrc:"A: Is the train station far?\nB: No, only five minutes on foot.",funFact:"'Wie weit ist es?' (How far is it?) is the essential travel question in Germany."},
 {type:"teach",trg:"so",src:"so, such, like this",pos:"adv",gender:null,note:"Adverb. Very versatile. Used for emphasis and comparison.",example:"A: Berlin ist so groß!\nB: Ja, die Stadt ist wirklich so groß.",exampleSrc:"A: Berlin is so big!\nB: Yes, the city is really that big.",funFact:"'So' is one of the most overused filler words in German. 'Also, so, ja...' starts many sentences."},
@@ -357,7 +392,18 @@ const UNIT_2 =
 {type:"mc",q:"What does 'die Straßenbahn' mean?",opts:["the tram","the highway","the bicycle","the truck"],ans:"the tram",hint:"It rides on streets and runs on rails."},
 {type:"fb",s:"Ich gehe {1} Kino.",a:["ins"],opts:["ins","am","auf","im"],hint:"You are going INTO a neuter place.",sSrc:"I am going to the cinema."},
 {type:"mc",q:"Hamburg liegt im... ?",opts:["Süden","Norden","Osten","Westen"],ans:"Norden",hint:"This port city is near the coast of the North Sea."},
-{type:"match",pairs:[{trg:"das Fahrrad",src:"bicycle"},{trg:"die Autobahn",src:"highway"},{trg:"das Gleis",src:"track"},{trg:"die S-Bahn",src:"city train"},{trg:"der Lkw",src:"truck"}]}
+{type:"match",pairs:[{trg:"das Fahrrad",src:"bicycle"},{trg:"die Autobahn",src:"highway"},{trg:"das Gleis",src:"track"},{trg:"die S-Bahn",src:"city train"},{trg:"der Lkw",src:"truck"}]},
+{type:"mc",q:"Was bedeutet 'hoch'?",opts:["the connection (transit)","the driver","the railway, the train","high, tall"],ans:"high, tall",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Ist der Bahnhof {1}?",a:["weit"],opts:["das Gleis","die Autobahn","weit","der Süden"],hint:"Which word fits in this context?",sSrc:"Is the train station far?"},
+{type:"mc",q:"Was bedeutet 'so'?",opts:["the north","so, such, like this","the west","the truck"],ans:"so, such, like this",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Sind {1}e da?",a:["all"],opts:["all","das Gleis","der Süden","der Norden"],hint:"Which word fits in this context?",sSrc:"Is everyone here?"},
+{type:"mc",q:"Was bedeutet 'daneben'?",opts:["the driver","next to it, beside it","so, such, like this","all, every"],ans:"next to it, beside it",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"{1}, im zweiten Stock.",a:["oben"],opts:["das Fahrrad","am","oben","hinten"],hint:"Which word fits in this context?",sSrc:"Upstairs, on the second floor."},
+{type:"mc",q:"Was bedeutet 'unten'?",opts:["down, below, downstairs","the tram, the streetcar","high, tall","back, backwards"],ans:"down, below, downstairs",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"{1}, am Fenster.",a:["hinten"],opts:["der Lkw","so","all","hinten"],hint:"Which word fits in this context?",sSrc:"At the back, by the window."},
+{type:"mc",q:"Was bedeutet 'draußen'?",opts:["the track, the platform","the tram, the streetcar","there (at a distance)","outside"],ans:"outside",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"{1}, am Ende der Straße.",a:["dort"],opts:["dort","der Süden","die Autobahn","der Norden"],hint:"Which word fits in this context?",sSrc:"There, at the end of the street."},
+{type:"mc",q:"Was bedeutet 'zurück'?",opts:["up, above, upstairs","the track, the platform","the bicycle","back, backwards"],ans:"back, backwards",hint:"Think about the meaning of this word in context."}
 ]},
 
 {id:"deu_r2l14",title:"Kommen und Gehen",icon:"🚶",xp:15,board:true,steps:[
@@ -374,7 +420,10 @@ const UNIT_2 =
 {type:"teach",trg:"bleiben",src:"to stay, to remain",pos:"verb",gender:null,note:"Irregular verb. Ich bleibe, du bleibst. Past: geblieben.",example:"A: Wie lange bleibst du in Berlin?\nB: Ich bleibe drei Tage.",exampleSrc:"A: How long are you staying in Berlin?\nB: I am staying three days.",funFact:"'Bleib gesund!' (Stay healthy!) became a very popular farewell during the pandemic years."},
 {type:"teach",trg:"dauern",src:"to last, to take (time)",pos:"verb",gender:null,note:"Regular verb. Es dauert zwei Stunden.",example:"A: Wie lange dauert die Fahrt?\nB: Sie dauert eine Stunde.",exampleSrc:"A: How long does the trip take?\nB: It takes one hour.",funFact:"'Das dauert ewig!' (That takes forever!) is a common complaint, especially about bureaucracy."},
 {type:"teach",trg:"helfen",src:"to help",pos:"verb",gender:null,note:"Strong verb: er hilft (stem changes e to i). Takes dative.",example:"A: Können Sie mir helfen?\nB: Ja, natürlich. Wie kann ich helfen?",exampleSrc:"A: Can you help me?\nB: Yes, of course. How can I help?",funFact:"'Hilfe!' (Help!) is the German emergency shout. You will hear it in every action movie dubbed into German."},
-{type:"mc",q:"Wie lange ___ du in Berlin?",opts:["bleibst","dauerst","hilfst","durchsuchst"],ans:"bleibst",hint:"This verb means to stay or remain somewhere."},
+{type:"mc",q:"Wie lange ___ du in Berlin?",opts:["bleibst","dauerst","hilfst","durchsuchst"],ans:"bleibst",hint:"This verb means to stay or remain somewhere."}
+]},
+{id:"deu_r2l14b",title:"Kommen und Gehen (Teil 2)",icon:"🚶",xp:15,board:true,steps:[
+{type:"intro",title:"Kommen und Gehen (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"leihen",src:"to lend, to borrow",pos:"verb",gender:null,note:"Strong verb. Ich leihe dir mein Buch. Context determines lend vs. borrow.",example:"A: Kannst du mir dein Handy leihen?\nB: Ja, hier bitte.",exampleSrc:"A: Can you lend me your phone?\nB: Yes, here you go.",funFact:"German uses the same word for lend AND borrow. Context makes the meaning clear."},
 {type:"teach",trg:"mitkommen",src:"to come along",pos:"verb",gender:null,note:"Separable verb: mit + kommen. Kommst du mit?",example:"A: Ich gehe ins Museum. Kommst du mit?\nB: Ja, ich komme gern mit!",exampleSrc:"A: I am going to the museum. Are you coming along?\nB: Yes, I would love to come along!",funFact:"'Kommst du mit?' is one of the most common German invitations. Short, direct, friendly."},
 {type:"teach",trg:"zeigen",src:"to show",pos:"verb",gender:null,note:"Regular verb. Ich zeige, du zeigst.",example:"A: Können Sie mir den Weg zeigen?\nB: Ja, ich zeige Ihnen den Weg.",exampleSrc:"A: Can you show me the way?\nB: Yes, I will show you the way.",funFact:"'Zeig mal!' (Show me!) is how Germans ask to see something. Very direct and casual."},
@@ -388,7 +437,14 @@ const UNIT_2 =
 {type:"mc",q:"What does 'umsteigen' mean?",opts:["to depart early","to arrive there","to transfer","to search around"],ans:"to transfer",hint:"You leave one train and get on another one."},
 {type:"fb",s:"Wie lange {1} die Fahrt nach Hamburg?",a:["dauert"],opts:["dauert","bleibt","hilft","sucht"],hint:"You are asking about how much time the trip takes.",sSrc:"How long does the trip to Hamburg take?"},
 {type:"mc",q:"'Kommst du mit?' is an invitation to... ?",opts:["stay home instead","go away alone","be quiet about it","come along"],ans:"come along",hint:"The speaker wants company on their outing."},
-{type:"match",pairs:[{trg:"abholen",src:"to pick up"},{trg:"bleiben",src:"to stay"},{trg:"wandern",src:"to hike"},{trg:"suchen",src:"to search"},{trg:"helfen",src:"to help"}]}
+{type:"match",pairs:[{trg:"abholen",src:"to pick up"},{trg:"bleiben",src:"to stay"},{trg:"wandern",src:"to hike"},{trg:"suchen",src:"to search"},{trg:"helfen",src:"to help"}]},
+{type:"mc",q:"Was bedeutet 'leihen'?",opts:["to lend, to borrow","to stay, to remain","to help","to depart (by plane)"],ans:"to lend, to borrow",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Wie sagt man 'to come along' auf Deutsch? {1}",a:["mitkommen"],opts:["wandern","mitkommen","grade","halten"],hint:"Which word fits in this context?",sSrc:"How do you say 'to come along' in German?"},
+{type:"mc",q:"Was bedeutet 'zeigen'?",opts:["to hold, to stop","to show","to transfer, to change (trains/buses)","to lend, to borrow"],ans:"to show",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Wie sagt man 'to take along' auf Deutsch? {1}",a:["mitnehmen"],opts:["mitnehmen","abholen","auf sein","helfen"],hint:"Which word fits in this context?",sSrc:"How do you say 'to take along' in German?"},
+{type:"mc",q:"Was bedeutet 'weiterfahren'?",opts:["to continue driving, to drive on","to lend, to borrow","to hold, to stop","to hike"],ans:"to continue driving, to drive on",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Wie sagt man 'to be open' auf Deutsch? {1}",a:["auf sein"],opts:["weiterfahren","abfliegen","zeigen","auf sein"],hint:"Which word fits in this context?",sSrc:"How do you say 'to be open' in German?"},
+{type:"mc",q:"Was bedeutet 'grade'?",opts:["to stand","to last, to take (time)","just, right now (colloquial)","to stay, to remain"],ans:"just, right now (colloquial)",hint:"Think about the meaning of this word in context."}
 ]},
 
 {id:"deu_r2l15",title:"Rund um die Stadt",icon:"🏙️",xp:15,board:true,steps:[
@@ -406,7 +462,12 @@ const UNIT_2 =
 {type:"teach",trg:"das Meer",src:"the sea",pos:"noun",gender:"n",note:"Neuter noun. Plural: die Meere.",example:"A: Warst du schon am Meer?\nB: Ja, die Nordsee ist wunderschön.",exampleSrc:"A: Have you been to the sea?\nB: Yes, the North Sea is beautiful.",funFact:"Germany has two seas: the Nordsee (North Sea) and the Ostsee (Baltic Sea). Both are popular vacation spots."},
 {type:"teach",trg:"der See",src:"the lake",pos:"noun",gender:"m",note:"Masculine noun! Plural: die Seen. Not the same as 'die See' (the sea).",example:"A: Gehen wir zum See?\nB: Ja, der See ist sehr schön.",exampleSrc:"A: Shall we go to the lake?\nB: Yes, the lake is very beautiful.",funFact:"Watch out! 'Der See' (masculine) = lake. 'Die See' (feminine) = sea. Same spelling, different genders, different meanings!"},
 {type:"teach",trg:"der Ausflug",src:"the excursion, the day trip",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Ausflüge. Aus (out) + Flug (flight).",example:"A: Machen wir einen Ausflug?\nB: Ja, wir machen einen Ausflug nach Potsdam.",exampleSrc:"A: Shall we take a day trip?\nB: Yes, we are taking a day trip to Potsdam.",funFact:"Day trips (Ausflüge) from Berlin to Potsdam, Spreewald, or Sachsenhausen are very popular."},
-{type:"mc",q:"'Der See' ist maskulin und bedeutet...",opts:["the lake","the sea","the river","the ocean"],ans:"the lake",hint:"This masculine noun refers to a body of fresh water, often surrounded by land."},
+{type:"mc",q:"'Der See' ist maskulin und bedeutet...",opts:["the lake","the sea","the river","the ocean"],ans:"the lake",hint:"This masculine noun refers to a body of fresh water, often surrounded by land."}
+,
+{"type":"mc","q":"Was ist 'die Ansage'?","opts":["the announcement","the question","the ticket","the platform"],"ans":"the announcement","hint":"Information shared publicly to a group."},
+{"type":"fb","s":"Bitte beachten Sie die {1}.","a":["Durchsage"],"opts":["Durchsage","Fahrkarte","Haltestelle","Ausfahrt"],"hint":"A spoken message over speakers at a station.","sSrc":"Please pay attention to the PA announcement."}]},
+{id:"deu_r2l15b",title:"Rund um die Stadt (Teil 2)",icon:"🏙️",xp:15,board:true,steps:[
+{type:"intro",title:"Rund um die Stadt (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"das Foto",src:"the photo",pos:"noun",gender:"n",note:"Neuter noun. Plural: die Fotos.",example:"A: Kann ich ein Foto machen?\nB: Ja, natürlich! Lächeln!",exampleSrc:"A: Can I take a photo?\nB: Yes, of course! Smile!",funFact:"Germans say 'ein Foto machen' (make a photo), not 'take a photo'. Different verb, same action!"},
 {type:"teach",trg:"die Führung",src:"the guided tour",pos:"noun",gender:"f",note:"Feminine noun. Plural: die Führungen. From führen (to lead).",example:"A: Gibt es eine Führung?\nB: Ja, die Führung beginnt um elf Uhr.",exampleSrc:"A: Is there a guided tour?\nB: Yes, the tour starts at eleven o'clock.",funFact:"Free walking tours (kostenlose Führungen) are popular in Berlin. You just give a tip at the end."},
 {type:"teach",trg:"die Karte",src:"the map, the ticket, the card",pos:"noun",gender:"f",note:"Feminine noun. Plural: die Karten. Context determines meaning.",example:"A: Hast du eine Karte?\nB: Ja, ich habe eine Karte von Berlin.",exampleSrc:"A: Do you have a map?\nB: Yes, I have a map of Berlin.",funFact:"Karte means map, ticket, AND card. 'Fahrkarte' = transit ticket. 'Eintrittskarte' = admission ticket. 'Kreditkarte' = credit card."},
@@ -420,7 +481,11 @@ const UNIT_2 =
 {type:"mc",q:"'Der See' is masculine and means 'the lake'. What does 'die See' (feminine) mean?",opts:["the lake","the river","the pond","the sea"],ans:"the sea",hint:"Changing the article from masculine to feminine gives a completely different body of water."},
 {type:"fb",s:"Was kostet der {1}?",a:["Eintritt"],opts:["Eintritt","Ausflug","Blick","Prospekt"],hint:"You want to know the price to get into a place.",sSrc:"How much does the admission cost?"},
 {type:"mc",q:"What does 'Vorsicht!' mean when you see it on a sign?",opts:["Welcome!","Caution!","Exit!","Open!"],ans:"Caution!",hint:"This word warns you to be careful about something."},
-{type:"match",pairs:[{trg:"das Foto",src:"photo"},{trg:"die Karte",src:"map/ticket"},{trg:"das Schild",src:"sign"},{trg:"die Hilfe",src:"help"},{trg:"das Meer",src:"sea"}]}
+{type:"match",pairs:[{trg:"das Foto",src:"photo"},{trg:"die Karte",src:"map/ticket"},{trg:"das Schild",src:"sign"},{trg:"die Hilfe",src:"help"},{trg:"das Meer",src:"sea"}]},
+{type:"mc",q:"Was bedeutet 'das Reisebüro'?",opts:["everything","the information, the information desk","the sign","the travel agency"],ans:"the travel agency",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Ja, {1} empfiehlt dieses Lokal.",a:["der Reiseführer"],opts:["der Ausflug","die Karte","der Reiseführer","die Vorsicht"],hint:"Which word fits in this context?",sSrc:"Yes, the guide recommends this restaurant."},
+{type:"mc",q:"Was bedeutet 'ander'?",opts:["the view, the glance","the information, the information desk","other, different","the travel guide (book or person)"],ans:"other, different",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Hast du {1}?",a:["alles"],opts:["alles","die Vorsicht","die Auskunft","das Beispiel"],hint:"Which word fits in this context?",sSrc:"Do you have everything?"}
 ]}
 ]};
 

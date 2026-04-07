@@ -113,7 +113,10 @@ const UNIT_3 =
 {type:"teach",trg:"die Möbel",src:"the furniture",pos:"noun",gender:"pl",note:"Always plural! One piece = ein Möbelstück.",example:"A: Sind Möbel dabei?\nB: Nein, keine Möbel.",exampleSrc:"A: Is furniture included?\nB: No, no furniture.",funFact:"'Möbel' is always plural. There is no singular 'ein Möbel.' You say 'ein Möbelstück' (a furniture-piece). Germans are precise."},
 {type:"teach",trg:"die Ordnung",src:"the order / tidiness",pos:"noun",gender:"f",note:"Feminine. 'Ordnung muss sein!' = There must be order!",example:"A: Die Ordnung ist wichtig.\nB: Ja, Ordnung muss sein!",exampleSrc:"A: Order is important.\nB: Yes, there must be order!",funFact:"Hildi's 'Hausordnung' literally means 'house-order.' Rules for everything. Germans have Ordnung for everything."},
 {type:"teach",trg:"die Reparatur",src:"the repair",pos:"noun",gender:"f",note:"Feminine. From Latin 'reparare.'",example:"A: Der Kühlschrank ist kaputt.\nB: Ich mache die Reparatur.",exampleSrc:"A: The fridge is broken.\nB: I will do the repair.",funFact:"If something breaks, call the Vermieter. Hildi handles all Reparaturen herself. Nothing stays broken in her building."},
-{type:"mc",q:"Was bedeutet 'Ordnung muss sein'?",opts:["Order must go.","There must be order.","The order is already ready.","I must order."],ans:"There must be order.",hint:"This famous German saying expresses the importance of tidiness."},
+{type:"mc",q:"Was bedeutet 'Ordnung muss sein'?",opts:["Order must go.","There must be order.","The order is already ready.","I must order."],ans:"There must be order.",hint:"This famous German saying expresses the importance of tidiness."}
+]},
+{id:"deu_r03l4b",title:"Besichtigung um 14 Uhr (Teil 2)",icon:"🔑",xp:15,board:true,steps:[
+{type:"intro",title:"Besichtigung um 14 Uhr (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"alleine",src:"alone",pos:"adv",gender:null,note:"Adverb. Also 'allein.' Both forms used interchangeably.",example:"A: Wohnst du alleine?\nB: Ja, ich wohne alleine.",exampleSrc:"A: Do you live alone?\nB: Yes, I live alone.",funFact:"'Wohnst du alleine?' is what every German landlord asks to gauge how many people will use the apartment."},
 {type:"story",speaker:"narrator",mood:"neutral",art:"de-hildi-apartment-tour",trg:"Hildi führt ihn durch die Wohnung. 'Das Wohnzimmer. 28 Quadratmeter.' Sie misst mit den Augen. 'Die Küche. Der Kühlschrank funktioniert. Der Boden ist neu.' Alles klingt wie ein Rechtsdokument.",src:"Hildi walks him through the apartment. 'The living room. 28 square meters.' She measures with her eyes. 'The kitchen. The fridge works. The floor is new.' Everything sounds like a legal document."},
 {type:"teach",trg:"der Monat",src:"the month",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Monate.\nim Monat = per month. pro Monat = per month.",example:"A: Wie lange wohnst du schon hier?\nB: Seit einem Monat.",exampleSrc:"A: How long have you been living here?\nB: For one month.",funFact:"The German month names come from Latin and old Germanic gods: Januar (Janus, the two-faced god), März (Mars, god of war), Juli (Julius Caesar). Germans count rent and bills im Monat (per month)."},
@@ -126,7 +129,9 @@ const UNIT_3 =
 {type:"mc",q:"Wo ist die Toilette? _____ dem Bad.",opts:["Hinter","Zwischen","Auf","Neben"],ans:"Neben",hint:"The toilet room is right next to the bathroom."},
 {type:"match",pairs:[{trg:"die Küche",src:"the kitchen"},{trg:"das Bad",src:"the bathroom"},{trg:"die Treppe",src:"the stairs"},{trg:"die Toilette",src:"the restroom"},{trg:"der Raum",src:"the room/space"}]},
 {type:"mc",q:"'Die Möbel _____ neu.'",opts:["sind","ist","hat","bist"],ans:"sind",hint:"Möbel is always plural. Which plural verb form?"},
-{type:"story",speaker:"narrator",mood:"nervous",art:"de-hildi-apartment-checklist",trg:"Hildi steht an der Wohnungstür. Sie hat eine Checkliste. 'Fenster: sauber. Boden: sauber. Kühlschrank: leer.' Sie macht ein Häkchen. Dann sieht sie Verumius an. 'Der Mietvertrag ist fertig.' Pause. 'Kommen Sie morgen um 14 Uhr. Pünktlich.' Verumius nickt. Zweimal.",src:"Hildi stands at the apartment door. She has a checklist. 'Windows: clean. Floor: clean. Fridge: empty.' She makes a check mark. Then she looks at Verumius. 'The lease is ready.' Pause. 'Come tomorrow at 2 PM. Punctual.' Verumius nods. Twice."}
+{type:"story",speaker:"narrator",mood:"nervous",art:"de-hildi-apartment-checklist",trg:"Hildi steht an der Wohnungstür. Sie hat eine Checkliste. 'Fenster: sauber. Boden: sauber. Kühlschrank: leer.' Sie macht ein Häkchen. Dann sieht sie Verumius an. 'Der Mietvertrag ist fertig.' Pause. 'Kommen Sie morgen um 14 Uhr. Pünktlich.' Verumius nickt. Zweimal.",src:"Hildi stands at the apartment door. She has a checklist. 'Windows: clean. Floor: clean. Fridge: empty.' She makes a check mark. Then she looks at Verumius. 'The lease is ready.' Pause. 'Come tomorrow at 2 PM. Punctual.' Verumius nods. Twice."},
+{type:"mc",q:"Was bedeutet 'der Monat'?",opts:["the floor","the month","the utility costs","the bathroom"],ans:"the month",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Können Sie das {1}?",a:["erklären"],opts:["erklären","die Küche","das Wohnzimmer","der Tisch"],hint:"Which word fits in this context?",sSrc:"Can you explain that?"}
 ]},
 
 // ─── L4: Aufräumen, einziehen, umziehen ───
@@ -148,7 +153,11 @@ const UNIT_3 =
 {type:"teach",trg:"unterschreiben",src:"to sign",pos:"verb",gender:null,note:"Inseparable! unter- stays attached: ich unterschreibe.",example:"A: Vermieten Sie die Wohnung?\nB: Ja, unterschreiben Sie hier.",exampleSrc:"A: Are you renting out the apartment?\nB: Yes, sign here.",funFact:"'Unter' + 'schreiben' = write-under. Inseparable because 'unter-' cannot stand alone as a preposition here. The prefix stays glued."},
 {type:"teach",trg:"vermieten",src:"to rent out (as landlord)",pos:"verb",gender:null,note:"Inseparable! ver- stays: ich vermiete.",example:"A: Vermieten Sie die Wohnung?\nB: Ja, ab sofort.",exampleSrc:"A: Are you renting out the apartment?\nB: Yes, starting now.",funFact:"'Vermieten' is the landlord's side of 'mieten.' Hildi vermietet streng aber fair (strict but fair)."},
 {type:"teach",trg:"möglich",src:"possible",pos:"adj",gender:null,note:"Adjective. 'Ist das möglich?' = Is that possible?",example:"A: Ist ein Hund möglich?\nB: Nein, das ist nicht möglich.",exampleSrc:"A: Is a dog possible?\nB: No, that is not possible.",funFact:"'Möglichkeit' = possibility. Hildi on pets: 'Haustiere sind nicht möglich.' End of discussion."},
-{type:"mc",q:"'Ich _____ morgen _____.' (einziehen)",opts:["einziehe","ziehe...um","räume...ein","ziehe...ein"],ans:"ziehe...ein",hint:"Moving IN, not relocating. The prefix separates in present tense."},
+{type:"mc",q:"'Ich _____ morgen _____.' (einziehen)",opts:["einziehe","ziehe...um","räume...ein","ziehe...ein"],ans:"ziehe...ein",hint:"Moving IN, not relocating. The prefix separates in present tense."}
+,
+{"type":"mc","q":"Was bedeutet 'möglich'?","opts":["possible","difficult","certain","forbidden"],"ans":"possible","hint":"It can be done, but is not guaranteed."}]},
+{id:"deu_r03l5b",title:"Aufräumen, einziehen, umziehen (Teil 2)",icon:"📦",xp:15,board:true,steps:[
+{type:"intro",title:"Aufräumen, einziehen, umziehen (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"mc",q:"'Hildi _____ jeden Tag _____.' (aufräumen)",opts:["aufräumt","räumt...auf","putzt...auf","räumt...ein"],ans:"räumt...auf",hint:"Third person singular of this verb. Remember: the prefix separates to the end."},
 {type:"fb",s:"Wir ziehen nächste Woche {1}.",a:["um"],opts:["um","auf","ein","aus"],hint:"Relocating, not moving in. Which prefix means 'around/re-'?",sSrc:"We are moving next week."},
 {type:"mc",q:"'Mach das Licht _____!' (turn on)",opts:["aus","auf","an","ein"],ans:"an",hint:"Switching ON, not off. Which prefix?"},
@@ -162,7 +171,8 @@ const UNIT_3 =
 {type:"mc",q:"Which verb is separable?",opts:["anmachen","funktionieren","unterschreiben","reparieren"],ans:"anmachen",hint:"Separable prefixes can stand alone as words: an, auf, ein, um, aus."},
 {type:"mc",q:"'Das _____ gut _____!' (aussehen)",opts:["aussieht","sieht...an","macht...aus","sieht...aus"],ans:"sieht...aus",hint:"'That looks good.' The separable prefix goes to the final position."},
 {type:"match",pairs:[{trg:"aufräumen",src:"to tidy up"},{trg:"einziehen",src:"to move in"},{trg:"anmachen",src:"to turn on"},{trg:"ausmachen",src:"to turn off"},{trg:"vermieten",src:"to rent out"}]},
-{type:"story",speaker:"narrator",mood:"exhausted",art:"de-apartment-boxes-floor",trg:"21 Uhr. Alle Kisten sind oben. Verumius liegt auf dem Boden. Kein Bett, kein Sofa, keine Energie. Sein Handy leuchtet. Hildi: 'Die Kisten im Flur bitte bis morgen aufräumen. Gute Nacht.' Er räumt auf. In Socken.",src:"9 PM. All boxes are upstairs. Verumius lies on the floor. No bed, no sofa, no energy. His phone lights up. Hildi: 'Please tidy up the boxes in the hallway by tomorrow. Good night.' He tidies up. In socks."}
+{type:"story",speaker:"narrator",mood:"exhausted",art:"de-apartment-boxes-floor",trg:"21 Uhr. Alle Kisten sind oben. Verumius liegt auf dem Boden. Kein Bett, kein Sofa, keine Energie. Sein Handy leuchtet. Hildi: 'Die Kisten im Flur bitte bis morgen aufräumen. Gute Nacht.' Er räumt auf. In Socken.",src:"9 PM. All boxes are upstairs. Verumius lies on the floor. No bed, no sofa, no energy. His phone lights up. Hildi: 'Please tidy up the boxes in the hallway by tomorrow. Good night.' He tidies up. In socks."},
+{type:"mc",q:"Was bedeutet 'Lieblings-'?",opts:["the tree","to tidy up","to turn on / switch on","favorite (prefix)"],ans:"favorite (prefix)",hint:"Think about the meaning of this word in context."}
 ]},
 
 // ─── L5: Alles muss raus! ───
@@ -186,7 +196,8 @@ const UNIT_3 =
 {type:"match",pairs:[{trg:"das Bett",src:"the bed"},{trg:"der Schrank",src:"the wardrobe"},{trg:"das Sofa",src:"the sofa"},{trg:"der Herd",src:"the stove"}]},
 {type:"mc",q:"'Das Regal' is a FALSE FRIEND. What does it really mean in German?",opts:["regal, royal","the shelf","the rule","the regulator"],ans:"the shelf",hint:"This looks like the English word 'regal' but has a completely different meaning."},
 {type:"fb",s:"Ich brauche ein {1} für meine Bücher.",a:["Regal"],opts:["Regal","Bett","Licht","Sofa"],hint:"You need a piece of furniture to store your books on.",sSrc:"I need a shelf for my books."}
-]},
+,
+{"type":"fb","s":"Mein {1} ist kaputt.","a":["Computer"],"opts":["Computer","Fernseher","Kühlschrank","Handy"],"hint":"An electronic device you type and work on.","sSrc":"My computer is broken."}]},
 
 // --- Lesson: Haustiere und Pronomen ---
 {id:"deu_r03l7",title:"Haustiere und Pronomen",icon:"🐾",xp:15,board:true,steps:[
@@ -211,7 +222,11 @@ const UNIT_3 =
 {type:"teach",trg:"das Kaninchen",src:"the rabbit",pos:"noun",gender:"n",note:"Neuter: das Kaninchen. The -chen suffix = always das.",example:"A: Das Kaninchen ist so süß!\nB: Ja, Kaninchen sind tolle Haustiere.",exampleSrc:"A: The rabbit is so cute!\nB: Yes, rabbits are great pets.",funFact:"'-chen' makes any noun neuter AND small: Hase (hare) becomes Häschen (little hare/bunny). Kaninchen was already a diminutive from Latin 'cuniculus.'"},
 {type:"tip",title:"ein vs eine vs einen (Accusative Preview)",text:"After haben, the article changes depending on gender. This is the accusative case:\n- Masculine: einen (Ich habe einen Hund.)\n- Feminine: eine (Ich habe eine Katze.)\n- Neuter: ein (Ich habe ein Kaninchen.)\n\nNotice: only masculine changes. Feminine and neuter stay the same as nominative.\nThe key thing to remember: der becomes einen after haben.",deepDive:{title:"Why does only masculine change in accusative?",text:"German has 4 grammatical cases. In the accusative case (used for direct objects, like what you 'have'), only the masculine article changes:\n\nnominative: der Hund (subject)\naccusative: Ich habe einen Hund (object)\n\nFeminine (die) and neuter (das) stay the same in accusative. Masculine (der) changes to den (definite) or einen (indefinite).\n\nYou will study all four cases systematically in Unit 4 and beyond."}},
 {type:"story",speaker:"narrator",mood:"amused",art:"de-ikea-furniture-chaos",trg:"Verumius liegt auf dem Boden. Um ihn herum: 47 Schrauben, eine Anleitung auf Schwedisch und ein halbes Regal. Lena am Telefon: 'Hast du alle Teile?' 'Ich habe JEDES Teil. Das Problem ist die Reihenfolge.' 'Willkommen bei IKEA.'",src:"Verumius lies on the floor. Around him: 47 screws, instructions in Swedish, and half a shelf. Lena on the phone: 'Do you have all the parts?' 'I have EVERY part. The problem is the order.' 'Welcome to IKEA.'"}
-]},
+,
+{"type":"mc","q":"Was ist 'die Katze'?","opts":["the cat","the dog","the bird","the rabbit"],"ans":"the cat","hint":"A furry pet that purrs and chases mice."},
+{"type":"mc","q":"Was ist 'der Fisch'?","opts":["the fish","the bird","the dog","the mouse"],"ans":"the fish","hint":"This animal lives in water."},
+{"type":"fb","s":"Der {1} singt am Morgen.","a":["Vogel"],"opts":["Vogel","Fisch","Hund","Frosch"],"hint":"A creature with wings and feathers.","sSrc":"The bird sings in the morning."},
+{"type":"mc","q":"Was ist 'das Kaninchen'?","opts":["the rabbit","the hamster","the cat","the turtle"],"ans":"the rabbit","hint":"A small animal with long ears that hops."}]},
 
 // ─── L6: Die Hausordnung ───
 {id:"deu_r03l8",title:"Die Hausordnung",icon:"📋",xp:15,board:true,steps:[
@@ -236,7 +251,9 @@ const UNIT_3 =
 {type:"fb",s:"Die Wohnung kostet achthundertfünfzig Euro. Das ist {1} Euro.",a:["850"],opts:["850","750","580","805"],hint:"Acht-hundert-fünfzig. Break it apart: 800 + 50.",sSrc:"The apartment costs eight hundred and fifty euros. That is 850 euros."},
 {type:"match",pairs:[{trg:"also",src:"so/therefore"},{trg:"denn",src:"because"},{trg:"beide",src:"both"},{trg:"sich",src:"oneself"},{trg:"die Hilfe",src:"the help"}]},
 {type:"story",speaker:"narrator",mood:"happy",art:"de-hildi-key",trg:"Verumius unterschreibt. Hildi gibt ihm den Schlüssel. Zum ersten Mal spricht sie leise: 'Möchten Sie... Tee? Frischen?' Die Kamera zeigt den Ordner, die Schlüssel, den kalten Tee. Hildi geht schon in die Küche. Verumius hält den Schlüssel und grinst. Die Uhr: 17:30. Dreieinhalb Stunden.",src:"Verumius signs. Hildi hands over the key. For the first time, she speaks softly: 'Would you like... tea? Fresh?' The camera shows the binder, the keys, the cold tea. Hildi is already walking to the kitchen. Verumius holds the key and grins. Clock: 17:30. Three and a half hours."}
-]},
+,
+{"type":"fb","s":"Ich {1} dir eine Nachricht.","a":["schicke"],"opts":["schicke","kaufe","lese","öffne"],"hint":"The action of transmitting a message to someone.","sSrc":"I send you a message."},
+{"type":"mc","q":"Was ist 'die Blume'?","opts":["the flower","the tree","the grass","the leaf"],"ans":"the flower","hint":"A colorful plant you give as a gift."}]},
 
 // ─── L7: Die Prüfung ───
 {id:"deu_r03l9",title:"Die Prüfung",icon:"📝",xp:20,board:true,steps:[
@@ -315,7 +332,8 @@ const UNIT_3 =
 {type:"match",pairs:[{trg:"die Ehefrau",src:"wife"},{trg:"der Ehemann",src:"husband"},{trg:"die Großeltern",src:"grandparents"},{trg:"die Leute",src:"people"},{trg:"das Baby",src:"baby"},{trg:"die Verwandte",src:"relative"}]},
 {type:"fb",s:"Das ist meine {1}. Sie wohnt auch in Berlin.",a:["Bekannte"],opts:["Bekannte","Freundin","Großeltern","Leute"],hint:"Not a close friend, just someone you know. An acquaintance.",sSrc:"This is my acquaintance. She also lives in Berlin."},
 {type:"story",speaker:"narrator",mood:"amused",art:"de-hildi-doorway-family",trg:"Hildi klopft. 'Herr Verumius, Ihr Formular. Sie haben vergessen: Notfallkontakt.' Er schreibt: Lena. 'Und Ihre Familie?' 'In Rom.' 'Hm.' Sie notiert etwas. 'Ich bin auch Ihr Notfallkontakt. Für die Waschmaschine.' Sie geht. Er ist nicht sicher, ob das ein Witz war.",src:"Hildi knocks. 'Mr. Verumius, your form. You forgot: emergency contact.' He writes: Lena. 'And your family?' 'In Rome.' 'Hm.' She notes something. 'I am also your emergency contact. For the washing machine.' She leaves. He is not sure if that was a joke."}
-]},
+,
+{"type":"mc","q":"Was ist 'der Hausmann'?","opts":["the stay-at-home dad","the landlord","the neighbor","the builder"],"ans":"the stay-at-home dad","hint":"A man who manages the household full-time."}]},
 
 {id:"deu_r03l12",title:"Zu Hause",icon:"🏡",xp:15,board:true,steps:[
 {type:"intro",title:"Zu Hause",desc:"The apartment needs work. Broken things, missing furniture, and German has a word for everything around the house.",goals:["Describe your home and surroundings","Talk about household activities","Use prepositions unter and zwischen"]},
@@ -331,7 +349,12 @@ const UNIT_3 =
 {type:"teach",trg:"aufstehen",src:"to get up / stand up",pos:"verb",gender:null,note:"Separable verb: ich stehe auf, du stehst auf.",example:"A: Wann stehst du auf?\nB: Ich stehe um sieben Uhr auf.",exampleSrc:"A: When do you get up?\nB: I get up at seven o'clock.",funFact:"Auf (up) + stehen (to stand) = to stand up. In separable verbs, the prefix flies to the end: 'Ich stehe morgen früh auf.' The verb literally splits in two."},
 {type:"teach",trg:"baden",src:"to bathe / take a bath",pos:"verb",gender:null,note:"Regular verb: ich bade, du badest.",example:"A: Duschst du oder badest du?\nB: Ich bade gern. Das ist entspannend.",exampleSrc:"A: Do you shower or bathe?\nB: I like bathing. It is relaxing.",funFact:"Baden-Württemberg (a German state) is named after its famous baths. The Romans built thermal baths there 2,000 years ago. Baden literally means 'bathing.'"},
 {type:"teach",trg:"öffnen",src:"to open",pos:"verb",gender:null,note:"Regular verb: ich öffne, du öffnest. Opposite: schließen.",example:"A: Können Sie das Fenster öffnen?\nB: Ja, natürlich.",exampleSrc:"A: Can you open the window?\nB: Yes, of course.",funFact:"Germans have strong opinions about fresh air: 'Lüften' (airing out) is a daily ritual. You open all windows for 5-10 minutes, even in winter. It is called Stoßlüften."},
-{type:"fb",s:"Wann {1} du morgens auf?",a:["stehst"],opts:["stehst","badest","öffnest","legst"],hint:"Which verb means 'to get up' in the morning?",sSrc:"When do you get up in the morning?"},
+{type:"fb",s:"Wann {1} du morgens auf?",a:["stehst"],opts:["stehst","badest","öffnest","legst"],hint:"Which verb means 'to get up' in the morning?",sSrc:"When do you get up in the morning?"}
+,
+{"type":"mc","q":"Was ist 'das Apartment'?","opts":["the apartment","the house","the hotel","the office"],"ans":"the apartment","hint":"A small furnished place to live in."},
+{"type":"fb","s":"Kannst du bitte das Fenster {1}?","a":["öffnen"],"opts":["öffnen","schließen","kaufen","finden"],"hint":"The opposite of closing something.","sSrc":"Can you please open the window?"}]},
+{id:"deu_r03l12b",title:"Zu Hause (Teil 2)",icon:"🏡",xp:15,board:true,steps:[
+{type:"intro",title:"Zu Hause (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"reparieren",src:"to repair / fix",pos:"verb",gender:null,note:"Regular verb: ich repariere, du reparierst. From Latin.",example:"A: Kannst du das reparieren?\nB: Nein, ich rufe einen Handwerker.",exampleSrc:"A: Can you repair that?\nB: No, I will call a repairman.",funFact:"Getting a Handwerker (repairman) in Germany is an adventure. Appointments are weeks away, and they give you a 4-hour window. Germans joke: 'Der Handwerker kommt zwischen 8 und 16 Uhr.'"},
 {type:"teach",trg:"legen",src:"to lay / put (horizontally)",pos:"verb",gender:null,note:"Regular verb: ich lege. Different from stellen (put upright) and setzen (sit).",example:"A: Wohin soll ich das Buch legen?\nB: Leg es auf den Tisch.",exampleSrc:"A: Where should I put the book?\nB: Put it on the table.",funFact:"German distinguishes HOW you place things: legen (lay flat), stellen (stand up), hängen (hang). English just says 'put.' This drives English speakers crazy."},
 {type:"teach",trg:"stellen",src:"to put / place (upright)",pos:"verb",gender:null,note:"Regular verb: ich stelle. For things that stand: bottles, glasses, books upright.",example:"A: Stell die Flasche in den Kühlschrank.\nB: Welchen Kühlschrank?",exampleSrc:"A: Put the bottle in the fridge.\nB: Which fridge?",funFact:"Stellen vs legen: a book lying flat on a table = legen. A book standing upright on a shelf = stellen. Germans are very precise about spatial positions."},
@@ -345,7 +368,10 @@ const UNIT_3 =
 {type:"fb",s:"Wann {1} du morgens auf?",a:["stehst"],opts:["stehst","machst","gehst","legst"],hint:"The separable verb for getting out of bed. Prefix is 'auf.'",sSrc:"When do you get up in the mornings?"},
 {type:"mc",q:"'Unter dem Tisch' means:",opts:["Under the table","On the table","Next to the table","Behind the table"],ans:"Under the table",hint:"'Unter' describes a position below something."},
 {type:"match",pairs:[{trg:"der Garten",src:"garden"},{trg:"der Hund",src:"dog"},{trg:"das Feuer",src:"fire"},{trg:"alt",src:"old"},{trg:"jung",src:"young"},{trg:"allein",src:"alone"}]},
-{type:"story",speaker:"narrator",mood:"satisfied",art:"de-apartment-garden-evening",trg:"Abend. Der Garten ist sauber. Das Regal steht. Die Lampe funktioniert. Verumius sitzt auf dem Balkon mit einem Bier. Unter ihm der Garten. Neben ihm die Werkzeugkiste. Hildi ruft von unten: 'Die Gartenarbeit nach 20 Uhr ist verboten!' Er trinkt schnell.",src:"Evening. The garden is clean. The shelf is standing. The lamp works. Verumius sits on the balcony with a beer. Below him the garden. Next to him the toolbox. Hildi calls from below: 'Garden work after 8 PM is forbidden!' He drinks quickly."}
+{type:"story",speaker:"narrator",mood:"satisfied",art:"de-apartment-garden-evening",trg:"Abend. Der Garten ist sauber. Das Regal steht. Die Lampe funktioniert. Verumius sitzt auf dem Balkon mit einem Bier. Unter ihm der Garten. Neben ihm die Werkzeugkiste. Hildi ruft von unten: 'Die Gartenarbeit nach 20 Uhr ist verboten!' Er trinkt schnell.",src:"Evening. The garden is clean. The shelf is standing. The lamp works. Verumius sits on the balcony with a beer. Below him the garden. Next to him the toolbox. Hildi calls from below: 'Garden work after 8 PM is forbidden!' He drinks quickly."},
+{type:"mc",q:"Was bedeutet 'reparieren'?",opts:["to repair / fix","the homework","the square meter","old"],ans:"to repair / fix",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Wohin soll ich das Buch {1}?",a:["legen"],opts:["legen","reparieren","alt","der Quadratmeter"],hint:"Which word fits in this context?",sSrc:"Where should I put the book?"},
+{type:"mc",q:"Was bedeutet 'zwischen'?",opts:["between / among","to put / place (upright)","the square meter","to get up / stand up"],ans:"between / among",hint:"Think about the meaning of this word in context."}
 ]},
 
 {id:"deu_r03l13",title:"Wie siehst du aus?",icon:"👤",xp:15,board:true,steps:[
@@ -371,7 +397,8 @@ const UNIT_3 =
 {type:"mc",q:"'Er zieht nächsten Monat aus.' What does 'ausziehen' mean here?",opts:["to undress","to arrive","to stay","to move out"],ans:"to move out",hint:"This person is leaving their current home. Think about changing residences."},
 {type:"match",pairs:[{trg:"kaputt",src:"broken"},{trg:"hell",src:"bright"},{trg:"aussehen",src:"to look/appear"},{trg:"ausziehen",src:"to move out"},{trg:"gehören",src:"to belong to"},{trg:"männlich",src:"male"}]},
 {type:"story",speaker:"narrator",mood:"warm",art:"de-hildi-hallway-nameplate",trg:"Verumius geht nach Hause. Im Flur sieht er es: ein neues Namensschild an seinem Briefkasten. 'VERUMIUS.' In Hildis ordentlicher Handschrift. Er berührt es. Lächelt. Geht hinein.",src:"Verumius walks home. In the hallway he sees it: a new nameplate on his mailbox. 'VERUMIUS.' In Hildi's tidy handwriting. He touches it. Smiles. Goes inside."}
-]}
+,
+{"type":"mc","q":"Was bedeutet das Präfix 'weiter-'?","opts":["further / onward","back / return","under / below","over / above"],"ans":"further / onward","hint":"Indicates continuation of an action."}]}
 ]};
 
 export default UNIT_3;
