@@ -1,23 +1,52 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { LANG_META } from '../data/metadata.js';
-import { VOCAB, t } from '../data/vocabulary.js';
+import { VOCAB, t, ARTICLE_COLORS, getArticle } from '../data/vocabulary.js';
+import { POS_COLORS, GENDER_COLORS } from '../data/dictionary.js';
 import { shuffle, cap, UNITS } from '../utils.js';
 import { SpeakerButton } from '../audio.jsx';
 
+// Map short POS tags to display-friendly labels
+const POS_LABELS = {verb:"Verb",noun:"Noun",adj:"Adjective",adv:"Adverb",prep:"Preposition",conj:"Conjunction",pron:"Pronoun",num:"Number",intj:"Interjection",part:"Particle",aux:"Auxiliary",art:"Article"};
+// Map short POS tags to POS_COLORS keys
+const POS_KEY_MAP = {verb:"verb",noun:"noun",adj:"adjective",adv:"adverb",prep:"preposition",conj:"conjunction",pron:"pronoun",num:"number",intj:"interjection",part:"particle",aux:"auxiliary",art:"article"};
+const GENDER_LABELS = {m:"masculine",f:"feminine",n:"neuter",c:"common",pl:"plural"};
+
 // Build vocab from UNITS teach cards for v2 languages (German etc.)
-function buildUnitsVocab(lang) {
+// baseLang: prefer units with matching srcLang for translations
+function buildUnitsVocab(lang, baseLang) {
   const seen = new Set();
   const cards = [];
+  const cardMap = new Map(); // word -> card (for Arabic override)
   const langUnits = UNITS.filter(u => u.lang === lang);
-  for (const u of langUnits) {
+  // Sort: preferred srcLang units LAST so they override
+  const sorted = [...langUnits].sort((a, b) => {
+    const aMatch = (a.srcLang || "en") === baseLang ? 1 : 0;
+    const bMatch = (b.srcLang || "en") === baseLang ? 1 : 0;
+    return aMatch - bMatch;
+  });
+  for (const u of sorted) {
     const level = (u.level || "A1").substring(0, 2);
+    const unitSrcLang = u.srcLang || "en";
     for (const lesson of (u.lessons || [])) {
       for (const st of (lesson.steps || [])) {
         if (st.type !== "teach") continue;
         const word = st.nl || st.trg || "";
-        if (!word || seen.has(word.toLowerCase())) continue;
-        seen.add(word.toLowerCase());
-        cards.push({
+        if (!word) continue;
+        const key = word.toLowerCase();
+        // If baseLang matches this unit's srcLang, override translation
+        if (seen.has(key)) {
+          if (unitSrcLang === baseLang && baseLang !== "en") {
+            const existing = cardMap.get(key);
+            if (existing) {
+              existing.translation = st.en || st.src || existing.translation;
+              existing.note = st.note || existing.note;
+              existing.funFact = st.funFact || existing.funFact;
+            }
+          }
+          continue;
+        }
+        seen.add(key);
+        const card = {
           word,
           translation: st.en || st.src || "",
           category: st.pos || "",
@@ -27,7 +56,9 @@ function buildUnitsVocab(lang) {
           gender: st.gender || null,
           funFact: st.funFact || null,
           note: st.note || null,
-        });
+        };
+        cards.push(card);
+        cardMap.set(key, card);
       }
     }
   }
@@ -37,12 +68,12 @@ function buildUnitsVocab(lang) {
 function Flashcards({lang,baseLang="en",user,showToast}){
   // Use UNITS-derived vocab for languages with v2 content, fall back to static VOCAB
   const allVocab = useMemo(() => {
-    const unitsVocab = buildUnitsVocab(lang);
+    const unitsVocab = buildUnitsVocab(lang, baseLang);
     // If UNITS has substantial teach cards, prefer those over static VOCAB
     if (unitsVocab.length > 50) return unitsVocab;
     // Otherwise use static VOCAB (Korean, Dutch, French, Spanish etc.)
     return VOCAB[lang] || [];
-  }, [lang]);
+  }, [lang, baseLang]);
 
   // Only show words the user has learned
   const learnedWords=allVocab.filter(w=>user.lw.has(w.word));
@@ -98,7 +129,11 @@ function Flashcards({lang,baseLang="en",user,showToast}){
       <div className="fc-wrap" onClick={()=>setFlipped(!flipped)}>
         <div className={`fc-inner ${flipped?"flipped":""}`}>
           <div className="fc-face fc-front">
-            <div className="fc-cat">{card.category||""}</div>
+            <div style={{display:"flex",justifyContent:"center",gap:6,flexWrap:"wrap",marginBottom:4}}>
+              {card.pos&&(()=>{const key=POS_KEY_MAP[card.pos];const c=POS_COLORS[key];return c?<span style={{display:"inline-block",fontSize:10,fontWeight:700,padding:"2px 10px",borderRadius:8,background:`${c.light}18`,color:c.light,textTransform:"uppercase",letterSpacing:1}}>{POS_LABELS[card.pos]||card.pos}</span>:card.pos?<span className="fc-cat">{POS_LABELS[card.pos]||card.pos}</span>:null;})()}
+              {card.gender&&(()=>{const c=GENDER_COLORS[card.gender];return c?<span style={{display:"inline-block",fontSize:10,fontWeight:700,padding:"2px 10px",borderRadius:8,background:`${c.light}18`,color:c.light,textTransform:"uppercase",letterSpacing:1}}>{GENDER_LABELS[card.gender]||card.gender}</span>:null;})()}
+              {!card.pos&&card.category&&<div className="fc-cat">{card.category}</div>}
+            </div>
             <div className="fc-word">{cap(card.word)}</div>
             <div className="fc-phonetic">{card.phonetic}</div>
             <div style={{display:"flex",justifyContent:"center",marginTop:12}}>
@@ -109,7 +144,8 @@ function Flashcards({lang,baseLang="en",user,showToast}){
           <div className="fc-face fc-back">
             <div className="fc-cat" style={{color:"var(--teal-dark)"}}>{t("fc_translation",baseLang)}</div>
             <div className="fc-trans">{cap(card.translation)}</div>
-            {card.funFact&&<div style={{fontSize:12,color:"var(--gray-400)",marginTop:8,fontStyle:"italic",lineHeight:1.5,maxWidth:280,margin:"8px auto 0"}}>{card.funFact}</div>}
+            {card.note&&<div style={{fontSize:12,color:"var(--gray-500)",marginTop:6,lineHeight:1.5,maxWidth:280,margin:"6px auto 0"}}>{card.note}</div>}
+            {card.funFact&&<div style={{fontSize:12,color:"var(--gray-400)",marginTop:6,fontStyle:"italic",lineHeight:1.5,maxWidth:280,margin:"6px auto 0"}}>{card.funFact}</div>}
             <div className="fc-label">{cap(card.word)} = {cap(card.translation)}</div>
           </div>
         </div>

@@ -624,7 +624,7 @@ export default function App(){
       {!devAccess?<DevGate onAccess={()=>{try{sessionStorage.setItem("lingoverse:dev","1");}catch(e){}setDevAccess(true);}}/>:!ob?<Onboarding onComplete={onboard}/>:!authed?<AuthScreen lang={lang} baseLang={baseLang} onAuth={(p)=>{setProfile(p);setAuthed(true);showToast(`${t("home_welcome",baseLang)} ${p.displayName}!`,"🎉");}}/>:(
         <>
           <NavBar/>
-          <div className="main">
+          <div className="main anim" key={page}>
             {page==="home"&&<Home user={user} setPage={setPage} lang={lang} baseLang={baseLang}/>}
             {page==="learn"&&<LearnPage lang={lang} baseLang={baseLang} user={user} setUser={setUser} addXp={addXp} learnWord={learnWord} showToast={showToast} addFlag={addFlag} jumpTo={jumpTo} clearJumpTo={()=>setJumpTo(null)}/>}
             {page==="vocabulary"&&<VocabularyPage lang={lang} user={user} showToast={showToast} baseLang={baseLang}/>}

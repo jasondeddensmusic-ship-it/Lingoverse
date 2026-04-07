@@ -13,6 +13,16 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // RTL flag for source language (Arabic etc.) — applies to translations, hints, notes
   const srcRtl=baseLang==="ar";
   const srcDir=srcRtl?{direction:"rtl",textAlign:"right"}:{};
+  // Helper: pick translation based on baseLang (Arabic users get Arabic translations from WORD_DB)
+  const getTrans=(entry)=>baseLang==="ar"&&entry.ar?entry.ar:entry.en;
+  const getNote=(entry)=>baseLang==="ar"&&entry.noteAr?entry.noteAr:entry.note;
+  const getExampleSrc=(entry)=>baseLang==="ar"&&entry.exampleAr?entry.exampleAr:entry.exampleEn;
+  const getFunFact=(entry)=>baseLang==="ar"&&entry.funFactAr?entry.funFactAr:entry.funFact;
+  // Snapshot of learned words at lesson start — words learned DURING this lesson
+  // should show "NEW WORD" not "REVIEW", even if learnWord() has fired on a previous card.
+  const lwAtStart = React.useRef(null);
+  if (lwAtStart.current === null) lwAtStart.current = new Set(user.lw);
+  const isNewInLesson = (word) => !lwAtStart.current.has(word);
   // Glass panel style for dark mode cards
   const glass={background:"var(--card-bg)",backdropFilter:"var(--glass-blur)",WebkitBackdropFilter:"var(--glass-blur)",boxShadow:"var(--card-shadow)",border:"2px solid var(--card-border)"};
   // NavArrow is now a global component (defined before ScoreCircle)
@@ -1451,10 +1461,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         return(
           <span key={ti}
             onClick={isKnown?e=>{e.stopPropagation();navTo({
-              base:entry.en,morph:entry.note||null,
+              base:getTrans(entry),morph:getNote(entry)||null,
               particle:entry.article?entry.article+" "+entry.word:null,
-              uses:entry.example?[{k:entry.example,e:entry.exampleEn||""}]:[],
-              note:(typeof entry.cognate==="string"?entry.cognate:entry.note)||null,level:entry.level,
+              uses:entry.example?[{k:entry.example,e:getExampleSrc(entry)||""}]:[],
+              note:(typeof entry.cognate==="string"?entry.cognate:getNote(entry))||null,level:entry.level,
             },tok.word,tok.word,null);}:undefined}
             style={{
               fontSize:fz,fontWeight:isKnown?900:500,display:"inline-block",
@@ -1795,11 +1805,11 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         const cResolved = (cEntry && grammarHl && activePack) ? resolvePackColor(cEntry, activePack, dk) : null;
         if (cResolved) {
           spans.push(<span key={i+"c"} style={{color:cResolved.color,fontWeight:700,cursor:"pointer",transition:"all .1s"}}
-            onClick={(e) => { e.stopPropagation(); setMiniWordPopup({ word:contractionPart, en:cEntry?.en||"", pos:cEntry?.pos, lang:effectiveLang }); }}
+            onClick={(e) => { e.stopPropagation(); setMiniWordPopup({ word:contractionPart, en:cEntry?(getTrans(cEntry)||""):"", pos:cEntry?.pos, lang:effectiveLang }); }}
           >{contractionPart}</span>);
         } else {
           spans.push(<span key={i+"c"} style={{cursor:"pointer",transition:"all .1s"}}
-            onClick={(e) => { e.stopPropagation(); setMiniWordPopup({ word:contractionPart, en:cEntry?.en||"", pos:cEntry?.pos, lang:effectiveLang }); }}
+            onClick={(e) => { e.stopPropagation(); setMiniWordPopup({ word:contractionPart, en:cEntry?(getTrans(cEntry)||""):"", pos:cEntry?.pos, lang:effectiveLang }); }}
           >{contractionPart}</span>);
         }
       }
@@ -1859,16 +1869,16 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           setWordBubble({
             key: wordKey, word: mainWord, stem: null, particle: null,
             entry: {
-              base: entry.en,
-              morph: entry.note || null,
+              base: getTrans(entry),
+              morph: getNote(entry) || null,
               particle: entry.article ? entry.article + " " + entry.word : null,
-              uses: entry.example ? [{ k: entry.example, e: entry.exampleEn || "" }] : [],
-              note: (typeof entry.cognate === "string" ? entry.cognate : entry.note) || null,
+              uses: entry.example ? [{ k: entry.example, e: getExampleSrc(entry) || "" }] : [],
+              note: (typeof entry.cognate === "string" ? entry.cognate : getNote(entry)) || null,
               level: entry.level,
               pos: entry.pos || null,
               gender: entry.gender || null,
-              funFact: entry.funFact || null,
-              exampleSrc: entry.exampleEn || null,
+              funFact: getFunFact(entry) || null,
+              exampleSrc: getExampleSrc(entry) || null,
             }
           });
         };
@@ -1877,12 +1887,12 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           e.stopPropagation();
           setMiniWordPopup({
             word: mainWord,
-            en: entry.en || null,
+            en: getTrans(entry) || null,
             pos: entry.pos || null,
             article: entry.article || null,
             level: entry.level || null,
             example: entry.example || null,
-            exampleEn: entry.exampleEn || null,
+            exampleEn: getExampleSrc(entry) || null,
             lang: effectiveLang,
             isNewWord: wordIsNew,
           });
@@ -2273,7 +2283,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     const v=getVocab(st.id);
     if(!v)return(<div className="anim"key={si}><ProgressBar/><div style={{maxWidth:460,margin:"0 auto",padding:32,background:"#fee",borderRadius:16,textAlign:"center"}}><div style={{fontSize:48}}>⚠️</div><div style={{fontSize:20,fontWeight:"bold",color:"#dc2626",marginTop:12}}>{t("le_vocab_not_found",baseLang)}</div><div style={{fontSize:14,color:"#64748b",marginTop:8}}>ID: <code>{st.id}</code></div><button onClick={next}className="btn-primary"style={{marginTop:20,width:"100%"}}>{t("le_continue",baseLang)}</button></div></div>);
     const w=toTeach(v);
-    const isNew=!user.lw.has(w.nl);
+    const isNew=isNewInLesson(w.nl);
     return(<div className="anim"key={si}><ProgressBar/><div style={{maxWidth:460,margin:"0 auto"}}>{isNew&&<div style={{background:"linear-gradient(135deg, var(--gold), #E8960A)",borderRadius:24,padding:"3px",marginBottom:20,boxShadow:"0 6px 24px rgba(245,166,35,0.25)"}}><div style={{background:"var(--gold)",borderRadius:"22px 22px 0 0",padding:"8px 0",textAlign:"center"}}><span style={{color:"white",fontSize:12,fontWeight:800,textTransform:"uppercase",letterSpacing:3}}>✨ {t("le_new_word",baseLang)} ✨</span></div><div style={{background:"var(--card-bg)",borderRadius:"0 0 21px 21px",overflow:"hidden",position:"relative"}}><div style={{position:"absolute",top:-15,right:-15,width:60,height:60,borderRadius:"50%",background:"rgba(74,143,231,0.06)"}}/><div style={{position:"absolute",bottom:20,left:-10,width:40,height:40,borderRadius:"50%",background:"rgba(46,205,167,0.06)"}}/><div style={{position:"absolute",top:12,right:14,display:"flex",gap:6,zIndex:2}}><button onClick={()=>setShowPhonetic(!showPhonetic)}style={{width:34,height:34,borderRadius:10,background:showPhonetic?"var(--blue-light)":"var(--panel-bg)",border:`1.5px solid ${showPhonetic?"var(--blue)":"var(--gray-200)"}`,display:"flex",alignItems:"center",justifyContent:"center",fontSize:16,cursor:"pointer",transition:"all .15s",backdropFilter:"blur(4px)"}}>🔤</button><SpeakerButton text={w.nl}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={16}showToast={showToast}/></div>{w.img&&<div style={{textAlign:"center",paddingTop:24}}><div style={{display:"inline-flex",alignItems:"center",justifyContent:"center",width:80,height:80,borderRadius:22,background:"var(--card-bg)",boxShadow:"var(--card-shadow)",fontSize:36,lineHeight:1}}>{w.img}</div></div>}<div style={{textAlign:"center",padding:"18px 28px 10px"}}>{(()=>{const art=getArticle(w.nl,lang);const c=ARTICLE_COLORS[art];return(<>{art!=="none"&&<div style={{marginBottom:6}}><span style={{display:"inline-block",background:c.pill,color:c.pillText,fontSize:12,fontWeight:800,borderRadius:10,padding:"3px 14px",textTransform:"uppercase",letterSpacing:1.5}}>{art}</span></div>}<div style={{display:"inline-block",background:c.bg,borderRadius:18,padding:"12px 32px",boxShadow:`0 4px 16px ${c.shadow}`,marginBottom:10}}><span className="hd"style={{fontSize:36,fontWeight:800,color:"white",lineHeight:1.1}}>{cap(w.nl)}</span></div></>);})()}</div>{showPhonetic&&<div className="anim"style={{textAlign:"center",marginBottom:8}}><span style={{display:"inline-block",background:"rgba(74,143,231,0.08)",borderRadius:14,padding:"4px 16px",fontSize:14,color:"var(--blue)",fontWeight:600}}>/{w.phonetic}/</span></div>}<div style={{textAlign:"center",paddingBottom:20}}><div style={{display:"inline-block",background:"linear-gradient(135deg, var(--teal), var(--teal-dark))",borderRadius:14,padding:"8px 24px",boxShadow:"0 3px 12px rgba(46,205,167,0.25)"}}><span style={{fontSize:18,color:"white",fontWeight:700}}>{cap(w.en)}</span></div></div><div style={{background:"var(--panel-bg)",padding:"16px 22px",borderTop:"1.5px solid rgba(74,143,231,0.08)"}}><div style={{background:"var(--card-bg)",borderRadius:14,padding:"12px 16px",boxShadow:"var(--card-shadow)"}}><div style={{fontSize:11,fontWeight:700,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:6}}>💬 {t("le_in_context",baseLang)}</div><div style={{fontSize:15,color:"var(--gray-800)",fontWeight:600,marginBottom:3,lineHeight:1.5,display:"flex",flexWrap:"wrap",alignItems:"center",gap:6}}>{universalHl(w.example, lang, { noColor: true })}<SpeakerButton text={w.example}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={14}showToast={showToast}/></div><div style={{fontSize:13,color:"var(--gray-400)",fontStyle:"italic"}}>"{w.exampleEn}"</div></div></div></div></div>}{!isNew&&<div style={{background:"var(--card-bg)",borderRadius:24,border:"2px solid rgba(255,255,255,0.55)",boxShadow:"0 4px 16px rgba(0,0,0,0.04)",marginBottom:20,overflow:"hidden",position:"relative"}}><div style={{position:"absolute",top:12,right:14,display:"flex",gap:6,zIndex:2}}><button onClick={()=>setShowPhonetic(!showPhonetic)}style={{width:30,height:30,borderRadius:8,background:showPhonetic?"var(--blue-light)":"var(--panel-bg)",border:`1.5px solid ${showPhonetic?"var(--blue)":"var(--gray-200)"}`,display:"flex",alignItems:"center",justifyContent:"center",fontSize:14,cursor:"pointer",transition:"all .15s"}}>🔤</button><SpeakerButton text={w.nl}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={14}showToast={showToast}/></div>{w.img&&<div style={{textAlign:"center",paddingTop:24}}><div style={{display:"inline-flex",alignItems:"center",justifyContent:"center",width:72,height:72,borderRadius:20,background:"var(--card-bg)",boxShadow:"var(--card-shadow)",fontSize:32,lineHeight:1}}>{w.img}</div></div>}<div style={{textAlign:"center",paddingTop:w.img?12:24}}><span style={{display:"inline-block",background:"var(--gray-200)",color:"var(--gray-500)",fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:2,padding:"4px 14px",borderRadius:16}}>{t("le_review",baseLang)}</span></div><div style={{textAlign:"center",padding:"14px 28px 10px"}}>{(()=>{const art=getArticle(w.nl,lang);const c=ARTICLE_COLORS[art];return(<>{art!=="none"&&<div style={{marginBottom:6}}><span style={{display:"inline-block",background:c.pill,color:c.pillText,fontSize:11,fontWeight:700,borderRadius:8,padding:"2px 10px",textTransform:"uppercase",letterSpacing:1}}>{art}</span></div>}<div style={{display:"inline-block",background:c.bg,borderRadius:16,padding:"10px 28px",boxShadow:`0 3px 12px ${c.shadow}`,marginBottom:8}}><span className="hd"style={{fontSize:30,fontWeight:800,color:"white",lineHeight:1.1}}>{cap(w.nl)}</span></div></>);})()}</div>{showPhonetic&&<div className="anim"style={{textAlign:"center",marginBottom:8}}><span style={{display:"inline-block",background:"rgba(74,143,231,0.08)",borderRadius:12,padding:"3px 14px",fontSize:13,color:"var(--blue)",fontWeight:600}}>/{w.phonetic}/</span></div>}<div style={{textAlign:"center",paddingBottom:16}}><div style={{display:"inline-block",background:"linear-gradient(135deg, var(--teal), var(--teal-dark))",borderRadius:12,padding:"6px 20px",boxShadow:"0 2px 10px rgba(46,205,167,0.2)"}}><span style={{fontSize:16,color:"white",fontWeight:700}}>{cap(w.en)}</span></div></div><div style={{background:"var(--panel-bg)",padding:"14px 20px",borderTop:"1.5px solid rgba(74,143,231,0.08)"}}><div style={{background:"var(--card-bg)",borderRadius:12,padding:"10px 14px",boxShadow:"var(--card-shadow)"}}><div style={{fontSize:10,fontWeight:700,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.2,marginBottom:5}}>💬 {t("le_in_context",baseLang)}</div><div style={{fontSize:14,color:"var(--gray-800)",fontWeight:600,marginBottom:2,lineHeight:1.5,display:"flex",flexWrap:"wrap",alignItems:"center",gap:6}}>{universalHl(w.example, lang, { noColor: true })}<SpeakerButton text={w.example}lang={LANG_META[lang]?.ttsLocale||"en-US"}size={13}showToast={showToast}/></div><div style={{fontSize:12,color:"var(--gray-400)",fontStyle:"italic"}}>"{w.exampleEn}"</div></div></div></div>}{w.note&&<div style={{background:dk?"var(--gold-bg)":"linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%)",borderRadius:16,padding:"14px 20px",marginBottom:20,boxShadow:"0 2px 12px rgba(245,166,35,0.15)"}}><div style={{fontSize:11,fontWeight:800,color:"var(--gold-dark)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:6}}><AppIcon name="lightbulb" size={20} style={{marginRight:5}}/>{t("le_note",baseLang)}</div><div style={{fontSize:14,color:"var(--gray-700)",lineHeight:1.6}}>{w.note}</div></div>}<button onClick={()=>{if(!user.lw.has(w.nl)){setUser(u=>({...u,lw:new Set([...u.lw,w.nl])}));}next();}}className="btn-primary"style={{width:"100%"}}>{t("le_continue",baseLang)}</button></div></div>);
   }
 
@@ -2348,7 +2358,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   // ═══ NEW FORMAT TEACH CARD (trg/src) — dual renderer ═══
   // Only fires for cards ORIGINALLY written in trg/src format (not normalized from nl/en)
   if(st.type==="teach" && st._origTrg) {
-    const isNewTrg = !user.lw.has(st.trg);
+    const isNewTrg = isNewInLesson(st.trg);
     const ttsLocNew = LANG_META[lang]?.ttsLocale||"en-US";
     const artNew = getArticle(st.trg, lang);
     const cNew = ARTICLE_COLORS[artNew];
@@ -2530,7 +2540,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   }
 
   // ═══ TEACH — Multi-kind card (word / letter / info / idiom) ═══
-  const isNew = st.type==="teach" && !user.lw.has(st.nl);
+  const isNew = st.type==="teach" && isNewInLesson(st.nl);
   const teachKind = st.kind || "word"; // "word" | "letter" | "info" | "idiom" | "grammar" | "phrase"
   const ttsLoc = LANG_META[lang]?.ttsLocale||"en-US";
   const teachLabel = teachKind==="letter"?t("le_new_letter",baseLang):teachKind==="info"?t("le_concept",baseLang):teachKind==="idiom"?t("le_new_expression",baseLang):teachKind==="grammar"?t("le_grammar_pattern",baseLang):teachKind==="phrase"?t("le_key_phrase",baseLang):t("le_new_word",baseLang);

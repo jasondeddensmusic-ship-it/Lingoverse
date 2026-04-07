@@ -10,6 +10,8 @@ import { useBottomSheet } from '../hooks.js';
 function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const dk=document.documentElement.classList.contains("dark");
   const isMobile=typeof window!=="undefined"&&window.innerWidth<600;
+  // Helper: pick translation based on baseLang
+  const getTrans=(entry)=>baseLang==="ar"&&entry.ar?entry.ar:entry.en;
 
   // ── Data: all words from WORD_DB ──
   const allWords=useMemo(()=>{
@@ -266,7 +268,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           <div style={{flex:1,minWidth:0}}>
             <span style={{fontFamily:"Quicksand, sans-serif",fontWeight:800,fontSize:15,color:wColor||(dk?"rgba(255,255,255,0.92)":"var(--gray-800)")}}>{disp}</span>
           </div>
-          <span style={{color:transColor,fontSize:13,fontWeight:700,textAlign:"right",maxWidth:"40%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",flexShrink:0}}>{entry.en||""}</span>
+          <span style={{color:transColor,fontSize:13,fontWeight:700,textAlign:"right",maxWidth:"40%",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",flexShrink:0,...(baseLang==="ar"?{direction:"rtl"}:{})}}>{getTrans(entry)||""}</span>
           <SpeakerButton text={entry.word} lang={ttsLocale} size={13} showToast={showToast}/>
         </div>
       </div>
@@ -410,7 +412,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             <div style={{position:"relative",zIndex:1,display:"flex",alignItems:"center",gap:10}}>
               <div style={{flex:1}}>
                 <div style={{fontFamily:"Quicksand, sans-serif",fontWeight:900,fontSize:22,color:wColor||(dk?"rgba(255,255,255,0.95)":"var(--gray-800)"),marginBottom:2}}>{disp}</div>
-                <div style={{fontSize:14,fontWeight:700,color:grammarHl?"#7B5EE8":(dk?"rgba(200,184,255,0.65)":"rgba(100,80,160,0.6)")}}>{entry.en||""}</div>
+                <div style={{fontSize:14,fontWeight:700,color:grammarHl?"#7B5EE8":(dk?"rgba(200,184,255,0.65)":"rgba(100,80,160,0.6)"),...(baseLang==="ar"?{direction:"rtl"}:{})}}>{getTrans(entry)||""}</div>
                 {entry.phonetic&&<div style={{fontSize:11,fontWeight:600,color:dk?"rgba(200,184,255,0.4)":"rgba(100,80,160,0.35)",marginTop:2}}>{entry.phonetic}</div>}
               </div>
               <SpeakerButton text={entry.word} lang={ttsLocale} size={18} showToast={showToast}/>

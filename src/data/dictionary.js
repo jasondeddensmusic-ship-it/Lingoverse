@@ -22,6 +22,7 @@ import { FUNCTION_WORDS_NL } from './wordlists/function-words-nl.js';
 import { FUNCTION_WORDS_ES } from './wordlists/function-words-es.js';
 import { FUNCTION_WORDS_KO } from './wordlists/function-words-ko.js';
 import { TOPIK_VOCAB_KO } from './wordlists/topik-vocab-ko.js';
+import { UNITS_GERMAN_V2_AR } from './units-german-v2-ar.js';
 
 // Korean conjugation engine (Phase 1 of deep dictionary)
 import { buildFormIndex, conjugateVerb, detectIrregType, getIrregInfo, nounWithParticles } from './korean-conjugation.js';
@@ -620,6 +621,32 @@ function buildWordDB() {
           entry.topikPos = topik.pos;
           if (topik.hanja && !entry.hanja) entry.hanja = topik.hanja;
           if (topik.rank) entry.frequencyRank = topik.rank;
+        }
+      }
+    }
+  }
+
+  // ── Post-process: Arabic translation enrichment (German only) ──
+  // AR units have the same `trg` (German) but `src` in Arabic.
+  // Extract Arabic translations and store as `entry.ar` alongside `entry.en`.
+  if (db.de && UNITS_GERMAN_V2_AR && UNITS_GERMAN_V2_AR.length > 0) {
+    for (const unit of UNITS_GERMAN_V2_AR) {
+      for (const lesson of (unit.lessons || [])) {
+        for (const step of (lesson.steps || [])) {
+          if (step.type !== "teach") continue;
+          const word = step.trg || step.nl;
+          const arTrans = step.src;
+          if (!word || !arTrans) continue;
+
+          const { bare } = stripArticle(word, "de");
+          const key = bare.toLowerCase();
+          const entry = db.de[key];
+          if (entry) {
+            entry.ar = arTrans;
+            if (step.note) entry.noteAr = step.note;
+            if (step.funFact) entry.funFactAr = step.funFact;
+            if (step.exampleSrc) entry.exampleAr = step.exampleSrc;
+          }
         }
       }
     }
