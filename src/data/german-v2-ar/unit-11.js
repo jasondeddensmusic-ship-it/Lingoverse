@@ -153,7 +153,7 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"match",pairs:[
     {trg:"die Kette",src:"the necklace"},
     {trg:"schenken",src:"to give (as gift)"},
-    {trg:"wünschen",src:"to wish"},
+    {trg:"wünschen",src:"يتمنى"},
     {trg:"die Ferien",src:"the holidays"},
     {trg:"vor",src:"ago / before"},
     {trg:"seit",src:"since / for"}
@@ -161,7 +161,7 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"story",speaker:"opa",mood:"nostalgic",trg:"Hier, frische Brötchen für alle! Seit fünfzig Jahren kaufe ich beim gleichen Bäcker. Vor dem Krieg war der Laden noch klein. Während der Ferien backt er sogar Stollen!",src:"تفضلوا، خبز طازج للجميع! منذ خمسين عاماً وأنا أشتري من نفس الخبّاز. قبل الحرب كان المحل لا يزال صغيراً. أثناء العطلة يخبز حتى كعكة شتولن!"},
         {type:"story",speaker:"verumius",mood:"touched",art:"de-ber-weihnachtsmarkt-broetchen",trg:"Verumius beißt in das Brötchen. Es ist frisch, weich und noch ein bisschen warm. Er sieht Heinrich an. Er sieht Hildi an. Er sagt nichts. Aber er lächelt.",src:"يعض فيروميوس الرغيف. إنه طازج، طري، ولا يزال دافئاً قليلاً. ينظر إلى هاينريش. ينظر إلى هيلدي. لا يقول شيئاً. لكنه يبتسم."},
         {type:"mc",q:"Opa Heinrich says 'Seit fünfzig Jahren kaufe ich beim gleichen Bäcker.' How long has he been going to the same baker?",opts:["For five years","For fifteen years","Since his birthday","For fifty years"],ans:"For fifty years",hint:"'Fünfzig' هي الكلمة الألمانية لرقم بين ٤٩ و٥١."},
-        {type:"mc",q:"Was bedeutet 'der Flohmarkt'?",opts:["the perfume","the flea market","to give (as a gift)","the necklace / the chain"],ans:"the flea market",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'der Flohmarkt'?",opts:["the perfume","the flea market","to give (as a gift)","the necklace / the chain"],ans:"the flea market",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Der rote Schal ───
     {id:"deu_r11l4",title:"Der rote Schal",icon:"📐",xp:20,board:true,steps:[
@@ -300,8 +300,8 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"mc",q:"Verumius fragt: 'Wie ist das Wetter heute?' Hildi antwortet: 'Es ist ___ und kalt.'",opts:["windig","fleißig","einzeln","typisch"],ans:"windig",hint:"أي كلمة تصف الطقس، ليس شخصية الإنسان؟"},
         {type:"drag_fill",s:"Im November ist es oft {1} und {2}. Man sieht die Sonne nicht.",blanks:{"1":"bewölkt","2":"nebelig"},pool:["bewölkt","nebelig","sonnig","trocken"],hint:"طقس نوفمبر النموذجي: رمادي وضبابي. صفتان مناخيتان لضعف الرؤية.",sSrc:"في نوفمبر غالباً يكون الجو غائماً وضبابياً. لا يمكنك رؤية الشمس."},
         {type:"match",pairs:[
-    {trg:"kalt",src:"cold"},
-    {trg:"heiß",src:"hot"},
+    {trg:"kalt",src:"بارد"},
+    {trg:"heiß",src:"حار"},
     {trg:"nass",src:"wet"},
     {trg:"trocken",src:"dry"},
     {trg:"sonnig",src:"sunny"},
@@ -417,7 +417,7 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
     {trg:"reich",src:"rich"},
     {trg:"arm",src:"poor"},
     {trg:"bequem",src:"comfortable"},
-    {trg:"hässlich",src:"ugly"},
+    {trg:"hässlich",src:"قبيح"},
     {trg:"klug",src:"clever"}
 ]},
         {type:"story",speaker:"opa",mood:"warm-mischievous",art:"de-ber-gluehwein-scene",trg:"Noch ein Brötchen? Sie sind nicht mehr ganz frisch, aber die Butter in meiner Manteltasche ist noch gut.",src:"رغيف آخر؟ لم يعودوا طازجين تماماً، لكن الزبدة في جيب معطفي لا تزال جيدة."},
@@ -522,10 +522,10 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
 ]},
         {type:"tip",title:"German Christmas Traditions",text:"عيد الميلاد يبدأ في ٢٤ ديسمبر (Heiligabend)، وليس ٢٥ ديسمبر.\n\n- Adventskranz: ٤ شموع، واحدة تُضاء كل أحد قبل عيد الميلاد\n- Adventskalender: ٢٤ باباً، واحد كل يوم في ديسمبر\n- Nikolaus (٦ ديسمبر): أحذية عند الباب، مملوءة بالحلوى\n- Heiligabend: عشاء عائلي، هدايا، كنيسة\n- Weihnachtsgans: إوزة مشوية، الوجبة التقليدية لعيد الميلاد\n- Stille Nacht: أشهر أنشودة في العالم، كُتبت في النمسا ١٨١٨",deepDive:"تقليد سوق عيد الميلاد يعود إلى القرن الرابع عشر. Striezelmarkt في دريسدن (١٤٣٤) هو الأقدم. كل مدينة لديها واحد. كثير من الألمان يزورون ٥-١٠ أسواق مختلفة كل موسم."},
         {type:"mc",q:"Walking through snow, Verumius feels:",opts:["warm and content, like he belongs","cold and lonely","angry about the weather","worried about tomorrow"],ans:"warm and content, like he belongs",hint:"خبز هاينريش في حقيبته. دفء النبيذ الساخن في قلبه."},
-        {type:"mc",q:"Was bedeutet 'aussprechen'?",opts:["strict","to pronounce","lazy","own"],ans:"to pronounce",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Hildi ist {1}, oder?",a:["blond"],opts:["blond","verschieden","deutlich","der Witz"],hint:"أي كلمة تناسب in this context?",sSrc:"Hildi is blond, right?"},
-        {type:"mc",q:"Was bedeutet 'einmal'?",opts:["lazy","strict","once / one time","to practice"],ans:"once / one time",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Das ist mir {1}!",a:["wurscht"],opts:["eigen","streng","wurscht","blond"],hint:"أي كلمة تناسب in this context?",sSrc:"I don't care!"}
+        {type:"mc",q:"Was bedeutet 'aussprechen'?",opts:["strict","to pronounce","lazy","own"],ans:"to pronounce",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Hildi ist {1}, oder?",a:["blond"],opts:["blond","verschieden","deutlich","der Witz"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Hildi is blond, right?"},
+        {type:"mc",q:"Was bedeutet 'einmal'?",opts:["lazy","strict","once / one time","to practice"],ans:"once / one time",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Das ist mir {1}!",a:["wurscht"],opts:["eigen","streng","wurscht","blond"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"I don't care!"}
       ]}
   ]};
 

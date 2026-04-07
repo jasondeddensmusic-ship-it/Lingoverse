@@ -428,7 +428,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"fb",s:"Er ist {1}. Er hat keine Arbeit.",a:["arbeitslos"],opts:["arbeitslos","selbständig","kulturell","normal"],hint:"فكّر في معنى الكلمة.",sSrc:"He is unemployed. He has no work."},
         {type:"mc",q:"How do you say 'workplace' in German?",opts:["die Arbeit","der Arbeitsplatz hier","der Arbeitsplatz","das Arbeiten"],ans:"der Arbeitsplatz",hint:"فكّر في معنى الكلمة."},
         {type:"mc",q:"Which word means 'to become'?",opts:["verdienen","arbeiten","lernen","werden"],ans:"werden",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'der Doktor'?",opts:["the student/pupil (male)","the class/classroom","self-employed/independent","the doctor/PhD"],ans:"the doctor/PhD",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'der Doktor'?",opts:["the student/pupil (male)","the class/classroom","self-employed/independent","the doctor/PhD"],ans:"the doctor/PhD",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L15: Stift und Papier ───
     {id:"deu_r6l14",title:"Stift und Papier",icon:"✏️",xp:15,board:true,steps:[
@@ -471,7 +471,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"mc",q:"'Kugelschreiber' wird oft abgekürzt als:",opts:["Kugel","Kuli","Schreiber","KS"],ans:"Kuli",hint:"فكّر في معنى الكلمة."},
         {type:"fb",s:"Was ist das {1} heute?",a:["Thema"],opts:["Thema","Text","Wort","Satz"],hint:"فكّر في معنى الكلمة.",sSrc:"What is the topic today?"},
         {type:"mc",q:"Which word means 'the topic'?",opts:["der Text","der Satz","das Wort","das Thema"],ans:"das Thema",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'das Papier'?",opts:["the advertisement/display","the topic/theme","the answer","the paper"],ans:"the paper",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'das Papier'?",opts:["the advertisement/display","the topic/theme","the answer","the paper"],ans:"the paper",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L17: Am Telefon ───
     {id:"deu_r6l15",title:"Am Telefon",icon:"📱",xp:15,board:true,steps:[
@@ -512,9 +512,9 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"mc",q:"Was ist ein 'Lieblingslied'?",opts:["ein langes Lied","das Lied, das man am meisten mag","ein altes Lied","ein Liebeslied"],ans:"das Lied, das man am meisten mag",hint:"فكّر في معنى الكلمة."},
         {type:"fb",s:"{1} den grünen Knopf!",a:["Drück"],opts:["Drück","Druck","Benutz","Schreib"],hint:"فكّر في معنى الكلمة.",sSrc:"Press the green button!"},
         {type:"mc",q:"What is the German phrase for 'goodbye' on the phone?",opts:["Auf Wiedersehen (formal)","Tschüss","Auf Wiederhören","Bis bald"],ans:"Auf Wiederhören",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'das Internet'?",opts:["to print","the printer","the favorite song","the internet"],ans:"the internet",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the favorite song' auf Deutsch? {1}",a:["das Lieblingslied"],opts:["das Lieblingslied","das Wiederhören","das Fax","das Gespräch"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the favorite song' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'automatisch'?",opts:["the favorite song","automatic","the sender","to use"],ans:"automatic",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'das Internet'?",opts:["to print","the printer","the favorite song","the internet"],ans:"the internet",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the favorite song' auf Deutsch? {1}",a:["das Lieblingslied"],opts:["das Lieblingslied","das Wiederhören","das Fax","das Gespräch"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the favorite song' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'automatisch'?",opts:["the favorite song","automatic","the sender","to use"],ans:"automatic",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L19: Was machst du so? ───
     {id:"deu_r6l16",title:"Was machst du so?",icon:"🎬",xp:15,board:true,steps:[
@@ -564,7 +564,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"mc",q:"Which verb means 'to register or sign up'?",opts:["ausfüllen","abgeben","ankreuzen","anmelden"],ans:"anmelden",hint:"فكّر في معنى الكلمة."},
         {type:"fb",s:"Ich {1} heute Abend ein bisschen fern.",a:"sehe",opts:["sehe","mache","gebe","fülle"],hint:"فكّر في معنى الكلمة.",sSrc:"I watch a bit of TV tonight."},
         {type:"mc",q:"'Du fehlst mir' means...",opts:["You are wrong","You are late","I miss you","I need you"],ans:"I miss you",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'kümmern'?",opts:["to allow / permit","to click on","to tell / narrate","to care / take care of"],ans:"to care / take care of",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'kümmern'?",opts:["to allow / permit","to click on","to tell / narrate","to care / take care of"],ans:"to care / take care of",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L21: Zeit und Feste ───
     {id:"deu_r6l17",title:"Zeit und Feste",icon:"🎊",xp:15,board:true,steps:[
@@ -604,9 +604,9 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"fb",s:"Wann {1} der Kurs? Um neun Uhr.",a:"beginnt",opts:["beginnt","endet","macht","geht"],hint:"هذا الفعل الرسمي لبدء شيء.",sSrc:"متى تبدأ الدورة؟ الساعة التاسعة."},
         {type:"fb",s:"Bist du in einem {1}?",a:["Verein"],opts:["Verein","Gruppe","Wind","Moment"],hint:"فكّر في معنى الكلمة.",sSrc:"Are you in a club?"},
         {type:"mc",q:"Which word is the formal way to say 'spring'?",opts:["der Frühling","die Frühzeit","das Frühjahr","der Frühstart"],ans:"das Frühjahr",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'beginnen'?",opts:["to begin","the group","to congratulate","spring (formal)"],ans:"to begin",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to congratulate' auf Deutsch? {1}",a:["gratulieren"],opts:["das Jahr","gratulieren","der Wochentag","das Ende"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to congratulate' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'heiraten'?",opts:["to end","the group","the public holiday","to marry"],ans:"to marry",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'beginnen'?",opts:["to begin","the group","to congratulate","spring (formal)"],ans:"to begin",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to congratulate' auf Deutsch? {1}",a:["gratulieren"],opts:["das Jahr","gratulieren","der Wochentag","das Ende"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to congratulate' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'heiraten'?",opts:["to end","the group","the public holiday","to marry"],ans:"to marry",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L23: Noch mehr Verben ───
     {id:"deu_r6l18",title:"Noch mehr Verben",icon:"💪",xp:15,board:true,steps:[
@@ -640,8 +640,8 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"fb",s:"Letzte {1} war ich im Kino.",a:"Woche",opts:["Woche","Tag","Jahr","Monat"],hint:"سبعة أيام تشكّل هذه الفترة الزمنية.",sSrc:"الأسبوع الماضي كنت في السينما."},
         {type:"story",speaker:"narrator",mood:"content",art:"de-altbau-window-sunset",trg:"Abend. Verumius sitzt am Fenster. Warmer Tee, warmes Wasser, warme Wohnung. Draußen leuchtet Berlin. Hildi hatte Recht: am Anfang ist alles schwer. Aber danach wird es leichter. Bis zum nächsten Abenteuer.",src:"المساء. فيروميوس يجلس عند النافذة. شاي دافئ، ماء دافئ، شقة دافئة. بالخارج، برلين تتوهج. هيلدي كانت محقة: في البداية، كل شيء صعب. لكن بعد ذلك، يصبح أسهل. حتى المغامرة القادمة."},
         {type:"fb",s:"{1} Woche war ich im Kino.",a:["Letzte"],opts:["Letzte","Nächste","Heute","Morgen"],hint:"فكّر في معنى الكلمة.",sSrc:"Last week I was at the cinema."},
-        {type:"mc",q:"Was bedeutet 'glücklich'?",opts:["football / soccer","to be gone / away","later","happy"],ans:"happy",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie war das Leben {1}?",a:["früher"],opts:["aus sein","zu sein","tot","früher"],hint:"أي كلمة تناسب in this context?",sSrc:"How was life in the past?"}
+        {type:"mc",q:"Was bedeutet 'glücklich'?",opts:["football / soccer","to be gone / away","later","happy"],ans:"happy",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie war das Leben {1}?",a:["früher"],opts:["aus sein","zu sein","tot","früher"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"How was life in the past?"}
       ]}
   ]};
 

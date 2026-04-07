@@ -28,7 +28,7 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"fb",s:"Um Vokabeln zu {1}, muss man regelmäßig üben.",a:["behalten"],opts:["behalten","erkennen","konzentrieren","verbessern"],hint:"أي فعل يعني الاحتفاظ بشيء في ذاكرتك؟",sSrc:"للاحتفاظ بالمفردات، يجب التدرّب بانتظام."},
         {type:"match",pairs:[
     {trg:"Methode",src:"method"},
-    {trg:"Regel",src:"rule"},
+    {trg:"Regel",src:"القاعدة"},
     {trg:"Kapitel",src:"chapter"},
     {trg:"Reihenfolge",src:"sequence"}
 ]},
@@ -74,9 +74,9 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"story",speaker:"narrator",mood:"weary",art:"de-ber-study-bunker",trg:"Auf dem Schreibtisch liegt ein Stapel Bücher. Daneben drei leere Tassen Kaffee. Verumius streicht sich durch die Haare und blättert zur nächsten Seite.",src:"على المكتب كومة من الكتب. بجانبها ثلاثة أكواب قهوة فارغة. يمرّر فيروميوس يده في شعره ويقلب إلى الصفحة التالية."},
         {type:"fb",s:"Die {1} der Daten ist sehr klar.",a:["Darstellung"],opts:["Darstellung","Broschüre","Einzelheit","Zeile"],hint:"فكّر في معنى الكلمة.",sSrc:"The representation of the data is very clear."},
         {type:"mc",q:"Was bedeutet 'aufschreiben'?",opts:["to look up","to write down","to highlight","to describe"],ans:"to write down",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'die Aussprache'?",opts:["pronunciation","graphic, chart","to look up (in a reference)","point, period, dot"],ans:"pronunciation",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Muss ich jedes Wort {1}?",a:["nachschlagen"],opts:["das Alphabet","die Abbildung","nachschlagen","die Darstellung"],hint:"أي كلمة تناسب in this context?",sSrc:"Do I have to look up every word?"},
-        {type:"mc",q:"Was bedeutet 'markieren'?",opts:["alphabet","dictionary","explanation, declaration","to mark, to highlight"],ans:"to mark, to highlight",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'die Aussprache'?",opts:["pronunciation","graphic, chart","to look up (in a reference)","point, period, dot"],ans:"pronunciation",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Muss ich jedes Wort {1}?",a:["nachschlagen"],opts:["das Alphabet","die Abbildung","nachschlagen","die Darstellung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Do I have to look up every word?"},
+        {type:"mc",q:"Was bedeutet 'markieren'?",opts:["alphabet","dictionary","explanation, declaration","to mark, to highlight"],ans:"to mark, to highlight",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L4: Vor der Prüfung ───
     {id:"deu_r23l3",title:"Vor der Prüfung",icon:"🏫",xp:15,board:true,steps:[
@@ -116,8 +116,8 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
 ]},
         {type:"story",speaker:"lukas",mood:"teasing",art:"de-ber-apartment-evening",trg:"Lukas schickt eine Nachricht: 'Lebst du noch? Oder bist du unter deinen Karteikarten begraben?' Verumius antwortet mit einem Foto seines Schreibtischs. Lukas: 'Oh. Respekt.'",src:"يرسل لوكاس رسالة: 'هل ما زلت حياً؟ أم أنك مدفون تحت بطاقاتك التعليمية؟' يردّ فيروميوس بصورة لمكتبه. لوكاس: 'أوه. احترام.'"},
         {type:"fb",s:"Die {1} am Kurs ist obligatorisch.",a:["Teilnahme"],opts:["Teilnahme","Präsentation","Studie","Nachhilfe"],hint:"فكّر في معنى الكلمة.",sSrc:"Participation in the course is obligatory."},
-        {type:"mc",q:"Was bedeutet 'unterrichten'?",opts:["participant (male)","homework, school test","seminar","to teach, to instruct"],ans:"to teach, to instruct",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Heute {1} wir die Grammatik.",a:["testen"],opts:["die Teilnehmerin","die Präsentation","testen","das Referat"],hint:"أي كلمة تناسب in this context?",sSrc:"Today we test the grammar."}
+        {type:"mc",q:"Was bedeutet 'unterrichten'?",opts:["participant (male)","homework, school test","seminar","to teach, to instruct"],ans:"to teach, to instruct",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Heute {1} wir die Grammatik.",a:["testen"],opts:["die Teilnehmerin","die Präsentation","testen","das Referat"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Today we test the grammar."}
       ]},
 // ─── L6: Hypothesen und Wünsche ───
     {id:"deu_r23l4",title:"Hypothesen und Wünsche",icon:"💭",xp:15,board:true,steps:[
@@ -165,13 +165,13 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
 ],ans:"Wenn ich Zeit hätte, würde ich lernen.",hint:"الشرط غير الحقيقي: جملة wenn تستخدم Konjunktiv II، والجملة الرئيسية تستخدم تركيباً مع Infinitiv، وليس Partizip."},
         {type:"fb",s:"Du brauchst dir keine Sorgen zu {1}.",a:["machen"],opts:["machen","haben","sein","gehen"],hint:"المصدر الذي يتوافق مع Sorgen (مخاوف). أنت تصنع المخاوف، لا تملكها.",sSrc:"لا تحتاج للقلق."},
         {type:"story",speaker:"yilmaz",mood:"proud",art:"de-ber-yilmaz-office",trg:"Yilmaz steht auf und reicht Verumius die Hand. 'Ich habe hunderte Schüler auf die B1-Prüfung vorbereitet. Du gehörst zu den besten. Geh hin und zeig, was du kannst.'",src:"يقف يلماز ويصافح فيروميوس. 'لقد حضّرت مئات الطلاب لامتحان B1. أنت من بين الأفضل. اذهب وأظهر ما تستطيع.'"},
-        {type:"mc",q:"Was bedeutet 'der Vorteil'?",opts:["to complete, to supplement","advantage","to succeed","to follow"],ans:"advantage",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to establish, to notice' auf Deutsch? {1}",a:["feststellen"],opts:["feststellen","die Ausnahme","die Folge","die Begründung"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to establish, to notice' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'gelten'?",opts:["to be valid, to apply","reason, ground","to be correct, to vote","consequence, episode"],ans:"to be valid, to apply",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to be correct, to vote' auf Deutsch? {1}",a:["stimmen"],opts:["stimmen","der Versuch","der Grund","der Vorteil"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to be correct, to vote' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'gelingen'?",opts:["to succeed","justification, reasoning","to be correct, to vote","to be valid, to apply"],ans:"to succeed",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Im {1}en ist die Prüfung fair.",a:["allgemein"],opts:["allgemein","der Grund","kompliziert","der Gegensatz"],hint:"أي كلمة تناسب in this context?",sSrc:"In general, the exam is fair."},
-        {type:"mc",q:"Was bedeutet 'kompliziert'?",opts:["exception","to complete, to supplement","reason, ground","complicated"],ans:"complicated",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'der Vorteil'?",opts:["to complete, to supplement","advantage","to succeed","to follow"],ans:"advantage",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to establish, to notice' auf Deutsch? {1}",a:["feststellen"],opts:["feststellen","die Ausnahme","die Folge","die Begründung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to establish, to notice' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'gelten'?",opts:["to be valid, to apply","reason, ground","to be correct, to vote","consequence, episode"],ans:"to be valid, to apply",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to be correct, to vote' auf Deutsch? {1}",a:["stimmen"],opts:["stimmen","der Versuch","der Grund","der Vorteil"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to be correct, to vote' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'gelingen'?",opts:["to succeed","justification, reasoning","to be correct, to vote","to be valid, to apply"],ans:"to succeed",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Im {1}en ist die Prüfung fair.",a:["allgemein"],opts:["allgemein","der Grund","kompliziert","der Gegensatz"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"In general, the exam is fair."},
+        {type:"mc",q:"Was bedeutet 'kompliziert'?",opts:["exception","to complete, to supplement","reason, ground","complicated"],ans:"complicated",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L8: Drei Konstruktionen ───
     {id:"deu_r23l5",title:"Drei Konstruktionen",icon:"🔧",xp:15,board:true,steps:[
@@ -226,9 +226,9 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"drag_fill",s:"Wenn ich besser vorbereitet {1}, {2} ich die Prüfung leicht bestehen.",blanks:{"1":"wäre","2":"würde"},pool:["wäre","würde","bin","werde","hätte","könnte"],hint:"الشرط غير الحقيقي: جملة wenn تحتاج Konjunktiv II من sein، والجملة الرئيسية تحتاج الفعل المساعد Konjunktiv II + المصدر.",sSrc:"لو كنت أفضل استعداداً، لنجحت في الامتحان بسهولة."},
         {type:"story",speaker:"verumius",mood:"nervous",art:"de-ber-apartment-night",trg:"Verumius legt die letzten Karteikarten weg. Morgen ist es so weit. Er stellt den Wecker auf sechs Uhr. 'Wenn ich jetzt nicht schlafe, bin ich morgen erledigt.' Er löscht das Licht.",src:"يضع فيروميوس البطاقات الأخيرة جانباً. غداً هو اليوم. يضبط المنبّه على السادسة. 'إذا لم أنم الآن، سأكون منهكاً غداً.' يطفئ الضوء."},
         {type:"fb",s:"Die Prüfung hat einen {1} Teil und einen schriftlichen Teil.",a:["mündlichen"],opts:["mündlichen","passiven","theoretischen","mündliche"],hint:"فكّر في معنى الكلمة.",sSrc:"The exam has an oral part and a written part."},
-        {type:"mc",q:"Was bedeutet 'darstellen'?",opts:["reader (male)","oral, verbal","forum","to represent, to depict"],ans:"to represent, to depict",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Können Sie die beiden Wörter {1}?",a:["unterscheiden"],opts:["die Kommunikation","theoretisch","unterscheiden","analysieren"],hint:"أي كلمة تناسب in this context?",sSrc:"Can you distinguish the two words?"},
-        {type:"mc",q:"Was bedeutet 'korrigieren'?",opts:["to correct","forum","intelligence","oral, verbal"],ans:"to correct",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'darstellen'?",opts:["reader (male)","oral, verbal","forum","to represent, to depict"],ans:"to represent, to depict",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Können Sie die beiden Wörter {1}?",a:["unterscheiden"],opts:["die Kommunikation","theoretisch","unterscheiden","analysieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you distinguish the two words?"},
+        {type:"mc",q:"Was bedeutet 'korrigieren'?",opts:["to correct","forum","intelligence","oral, verbal"],ans:"to correct",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L10: Wortschatz-Blitz ───
     {id:"deu_r23l6",title:"Wortschatz-Blitz",icon:"⚡",xp:15,board:true,steps:[
@@ -278,7 +278,7 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
 ]},
         {type:"drag_fill",s:"Sie hat das Buch nicht lesen {1}.",blanks:{"1":"können"},pool:["können","gekonnt","kann","konnte","lesen"],hint:"الفعل المشروط في Perfekt: يحتفظ الفعل المشروط بصيغة المصدر، وليس Partizip.",sSrc:"لم تستطع قراءة الكتاب."},
         {type:"story",speaker:"mia",mood:"supportive",art:"de-ber-ubahn-morning",trg:"Mia wartet an der U-Bahn-Station. Sie drückt ihm einen Glücksbringer in die Hand: einen kleinen Stein vom Brandenburger Tor. 'Den habe ich am ersten Tag in Berlin gefunden. Er bringt Glück.'",src:"تنتظر ميا في محطة القطار. تضع في يده تميمة حظّ: حجر صغير من بوابة براندنبورغ. 'وجدته في يومي الأول في برلين. إنه يجلب الحظّ.'"},
-        {type:"mc",q:"Was bedeutet 'eintreten'?",opts:["to notice, to remark","studio","to enter, to occur","to give up, to assign"],ans:"to enter, to occur",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'eintreten'?",opts:["to notice, to remark","studio","to enter, to occur","to give up, to assign"],ans:"to enter, to occur",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L12: Im Prüfungsraum ───
     {id:"deu_r23l7",title:"Im Prüfungsraum",icon:"🕐",xp:15,board:true,steps:[
@@ -331,8 +331,8 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"story",speaker:"narrator",mood:"relieved",art:"de-ber-goethe-exam",trg:"Die Prüferin sammelt die Bögen ein. Verumius legt den Stift hin. Seine Hände zittern, aber er lächelt. Der Hören-Teil war schwer. Der Schreiben-Teil war fair. Jetzt muss er warten.",src:"تجمع الممتحنة الأوراق. يضع فيروميوس قلمه. يداه ترتجفان لكنه يبتسم. جزء الاستماع كان صعباً. جزء الكتابة كان عادلاً. الآن عليه الانتظار."},
         {type:"fb",s:"Er hat {1} alle Aufgaben gelöst.",a:["bereits"],opts:["bereits","allerdings","kaum","jeweils"],hint:"فكّر في معنى الكلمة.",sSrc:"He has already solved all tasks."},
         {type:"mc",q:"Was ist die formelle Variante von 'jetzt'?",opts:["nachher","längst","nun","mitten"],ans:"nun",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'jemals'?",opts:["ever","once more, again","however, admittedly","in each case, respectively"],ans:"ever",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Kann ich {1} zur Prüfung kommen?",a:["jederzeit"],opts:["jederzeit","beinah","insgesamt","jemals"],hint:"أي كلمة تناسب in this context?",sSrc:"Can I come to the exam at any time?"}
+        {type:"mc",q:"Was bedeutet 'jemals'?",opts:["ever","once more, again","however, admittedly","in each case, respectively"],ans:"ever",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Kann ich {1} zur Prüfung kommen?",a:["jederzeit"],opts:["jederzeit","beinah","insgesamt","jemals"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can I come to the exam at any time?"}
       ]},
 // ─── L14: Die großen Wörter ───
     {id:"deu_r23l8",title:"Die großen Wörter",icon:"🔗",xp:15,board:true,steps:[
@@ -376,9 +376,9 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"drag_fill",s:"{1} er gut vorbereitet ist, {2} er trotzdem nervös.",blanks:{"1":"Obwohl","2":"ist"},pool:["Obwohl","Weil","ist","hat","bleibt","Nachdem"],hint:"الفراغ الأول: أداة الربط التي تعني 'رغم أنّ' (تنازلية، ترسل الفعل للنهاية). الفراغ الثاني: المضارع البسيط من sein.",sSrc:"رغم أنه مستعدّ جيداً، فهو لا يزال متوتراً."},
         {type:"story",speaker:"verumius",mood:"hopeful",art:"de-ber-apartment-waiting",trg:"Eine Woche ist vergangen. Verumius sitzt am Fenster und schaut auf die Straße. 'Obwohl ich nervös bin, weiß ich, dass ich mein Bestes gegeben habe. Das muss reichen.'",src:"مرّ أسبوع. يجلس فيروميوس بجانب النافذة وينظر إلى الشارع. 'رغم أنني متوتر، أعرف أنني بذلت قصارى جهدي. يجب أن يكون ذلك كافياً.'"},
         {type:"mc",q:"Er ist weder müde noch nervös. Was bedeutet 'weder...noch'?",opts:["both...and","either...or","neither...nor","not only...but also"],ans:"neither...nor",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'nämlich'?",opts:["since, because (formal)","indeed, admittedly","namely, because (you see)","as long as"],ans:"namely, because (you see)",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} ist die Prüfung schwer, aber machbar.",a:["zwar"],opts:["nachdem","bevor","zwar","sodass"],hint:"أي كلمة تناسب in this context?",sSrc:"Admittedly, the exam is hard, but doable."},
-        {type:"mc",q:"Was bedeutet 'ebenfalls'?",opts:["likewise, also (formal)","before","since, because (formal)","indeed, admittedly"],ans:"likewise, also (formal)",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'nämlich'?",opts:["since, because (formal)","indeed, admittedly","namely, because (you see)","as long as"],ans:"namely, because (you see)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} ist die Prüfung schwer, aber machbar.",a:["zwar"],opts:["nachdem","bevor","zwar","sodass"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Admittedly, the exam is hard, but doable."},
+        {type:"mc",q:"Was bedeutet 'ebenfalls'?",opts:["likewise, also (formal)","before","since, because (formal)","indeed, admittedly"],ans:"likewise, also (formal)",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L16: BESTANDEN! ───
     {id:"deu_r23l9",title:"BESTANDEN!",icon:"🎉",xp:15,board:true,steps:[
@@ -422,11 +422,11 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
     "Einen Plan, Deutschland zu verlassen."
 ],ans:"Dankbarkeit für eine Entscheidung, die auch anders hätte ausgehen können.",hint:"الشرط الماضي غير الحقيقي (nicht gekommen wäre) يُظهر المسار الذي لم يُسلك. الواقع هو العكس."},
         {type:"drag_fill",s:"Verumius ist {1} stolz {2} glücklich.",blanks:{"1":"sowohl","2":"als auch"},pool:["sowohl","als auch","weder","noch","entweder","oder"],hint:"هو فخور وسعيد معاً. أي أداة ربط ثنائية تعني 'كلا...و'؟",sSrc:"فيروميوس فخور وسعيد معاً."},
-        {type:"mc",q:"Was bedeutet 'interessant'?",opts:["interesting","visible","for which reason, why (formal)","therefore, that is why"],ans:"interesting",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Bist du an Deutschland {1}?",a:["interessiert"],opts:["seitdem","interessiert","begrenzt","ungefähr"],hint:"أي كلمة تناسب in this context?",sSrc:"Are you interested in Germany?"},
-        {type:"mc",q:"Was bedeutet 'neugierig'?",opts:["why, how come","approximately","apparently, evidently","curious"],ans:"curious",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Die Zeit ist {1}.",a:["begrenzt"],opts:["ungefähr","neugierig","begrenzt","teilweise"],hint:"أي كلمة تناسب in this context?",sSrc:"The time is limited."},
-        {type:"mc",q:"Was bedeutet 'sichtbar'?",opts:["for which reason, why (formal)","presumably, probably","therefore, that is why","visible"],ans:"visible",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'interessant'?",opts:["interesting","visible","for which reason, why (formal)","therefore, that is why"],ans:"interesting",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Bist du an Deutschland {1}?",a:["interessiert"],opts:["seitdem","interessiert","begrenzt","ungefähr"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Are you interested in Germany?"},
+        {type:"mc",q:"Was bedeutet 'neugierig'?",opts:["why, how come","approximately","apparently, evidently","curious"],ans:"curious",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Die Zeit ist {1}.",a:["begrenzt"],opts:["ungefähr","neugierig","begrenzt","teilweise"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The time is limited."},
+        {type:"mc",q:"Was bedeutet 'sichtbar'?",opts:["for which reason, why (formal)","presumably, probably","therefore, that is why","visible"],ans:"visible",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L18: Bildung und Kultur ───
     {id:"deu_r23l10",title:"Bildung und Kultur",icon:"🎓",xp:15,board:true,steps:[

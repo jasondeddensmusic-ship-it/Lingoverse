@@ -58,11 +58,11 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
     {trg:"Genehmigung",src:"approval / permit"}
 ]},
         {type:"fb",s:"Ist dieses Dokument {1}? Ja, es trägt den offiziellen Stempel.",a:["amtlich"],opts:["schriftlich","amtlich","bürokratisch","gesetzlich"],hint:"فكّر في معنى الكلمة.",sSrc:"Is this document official? Yes, it bears the official stamp."},
-        {type:"mc",q:"Was bedeutet 'die Verwaltung'?",opts:["the right, the law","the form","the official notice, the decision","the administration"],ans:"the administration",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the regulation, the rule' auf Deutsch? {1}",a:["die Vorschrift"],opts:["der Bürger","das Recht","der Sachbearbeiter","die Vorschrift"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the regulation, the rule' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'das Recht'?",opts:["the application, the request","the right, the law","official","bureaucratic"],ans:"the right, the law",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the case worker, the clerk (f)' auf Deutsch? {1}",a:["die Sachbearbeiterin"],opts:["das Formular","der Bescheid","die Sachbearbeiterin","der Antrag"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the case worker, the clerk (f)' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'buerokratisch'?",opts:["the case worker, the clerk (f)","bureaucratic","the citizen (m)","official"],ans:"bureaucratic",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'die Verwaltung'?",opts:["the right, the law","the form","the official notice, the decision","the administration"],ans:"the administration",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the regulation, the rule' auf Deutsch? {1}",a:["die Vorschrift"],opts:["der Bürger","das Recht","der Sachbearbeiter","die Vorschrift"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the regulation, the rule' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'das Recht'?",opts:["the application, the request","the right, the law","official","bureaucratic"],ans:"the right, the law",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the case worker, the clerk (f)' auf Deutsch? {1}",a:["die Sachbearbeiterin"],opts:["das Formular","der Bescheid","die Sachbearbeiterin","der Antrag"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the case worker, the clerk (f)' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'buerokratisch'?",opts:["the case worker, the clerk (f)","bureaucratic","the citizen (m)","official"],ans:"bureaucratic",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L3: Formulare und Fristen ───
     {id:"deu_r30l2",title:"Formulare und Fristen",icon:"📄",xp:15,board:true,steps:[
@@ -108,10 +108,10 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
         {type:"fb",s:"Wenn Sie mit dem Bescheid nicht einverstanden sind, können Sie {1} einlegen.",a:["Widerspruch"],opts:["Widerspruch","Formular","Genehmigung","Mahnung"],hint:"الوثيقة الرسمية التي تقدّمها حين لا توافق على قرار رسمي. تخيّل: أنت ترفض القرار وتدفعه.",sSrc:"إذا لم توافق على الإشعار، يمكنك تقديم اعتراض."},
         {type:"mc",q:"'Ein befristeter Vertrag läuft am 31. Dezember aus.' Was bedeutet 'befristet'?",opts:["unbegrenzt gültig","erneuert automatisch","zeitlich begrenzt","vorzeitig gekündigt"],ans:"zeitlich begrenzt",hint:"'Frist' تعني الموعد النهائي. 'Befristet' تعني: هناك تاريخ انتهاء. الساعة تدق."},
         {type:"fb",s:"Wenn Sie mit dem Bescheid nicht einverstanden sind, koennen Sie {1} einlegen.",a:["Widerspruch"],opts:["Beschwerde","Einspruch","Widerspruch","Mahnung"],hint:"فكّر في معنى الكلمة.",sSrc:"If you do not agree with the notice, you can file a formal objection."},
-        {type:"mc",q:"Was bedeutet 'die Ordnungswidrigkeit'?",opts:["the citizens' office","valid","unlimited, permanent","the regulatory offense"],ans:"the regulatory offense",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ist dein Vertrag {1}?",a:["befristet"],opts:["die Ordnungswidrigkeit","befristet","die Beschwerde","die Bewilligung"],hint:"أي كلمة تناسب in this context?",sSrc:"Is your contract fixed-term?"},
-        {type:"mc",q:"Was bedeutet 'unbefristet'?",opts:["the city hall","the building office","unlimited, permanent","the foreigners' registration office"],ans:"unlimited, permanent",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ist dein Reisepass noch {1}?",a:["gueltig"],opts:["unbefristet","die Aufenthaltserlaubnis","das Bürgeramt","gueltig"],hint:"أي كلمة تناسب in this context?",sSrc:"Is your passport still valid?"}
+        {type:"mc",q:"Was bedeutet 'die Ordnungswidrigkeit'?",opts:["the citizens' office","valid","unlimited, permanent","the regulatory offense"],ans:"the regulatory offense",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ist dein Vertrag {1}?",a:["befristet"],opts:["die Ordnungswidrigkeit","befristet","die Beschwerde","die Bewilligung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is your contract fixed-term?"},
+        {type:"mc",q:"Was bedeutet 'unbefristet'?",opts:["the city hall","the building office","unlimited, permanent","the foreigners' registration office"],ans:"unlimited, permanent",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ist dein Reisepass noch {1}?",a:["gueltig"],opts:["unbefristet","die Aufenthaltserlaubnis","das Bürgeramt","gueltig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is your passport still valid?"}
       ]},
 // ─── L5: Für Elise auf Endlosschleife ───
     {id:"deu_r30l3",title:"Für Elise auf Endlosschleife",icon:"🎵",xp:15,board:true,steps:[
@@ -176,12 +176,12 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
     "Es geht um einen ausstehenden Betrag",
     "Der Betrag wurde bereits geleistet"
 ],ans:"Es geht um einen ausstehenden Betrag",hint:"'Es handelt sich um' صيغة انعكاسية ثابتة. تستهلّ موضوع رسالة. ما هو أقرب مكافئ يومي في المعنى؟"},
-        {type:"mc",q:"Was bedeutet 'die Laufzeit'?",opts:["the duration, the term","the administrative act","in accordance with (+ dative)","the section of law"],ans:"the duration, the term",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the section of law' auf Deutsch? {1}",a:["der Paragraph"],opts:["das Verfahren","das Aktenzeichen","die Bearbeitungsgebühr","der Paragraph"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the section of law' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'der Dienstweg'?",opts:["the official channels","attention is drawn to the fact that","it requires (+ genitive)","the amount (of money)"],ans:"the official channels",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1}, dass der Bescheid korrekt ist.",a:["es ist davon auszugehen"],opts:["es bedarf","die Laufzeit","der Betrag","es ist davon auszugehen"],hint:"أي كلمة تناسب in this context?",sSrc:"It is to be assumed that the notice is correct."},
-        {type:"mc",q:"Was bedeutet 'es bedarf'?",opts:["the issuance, the granting","it requires (+ genitive)","the facts of the matter","the procedure, the process"],ans:"it requires (+ genitive)",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} die Frist zu beachten.",a:["es gilt"],opts:["der Sachverhalt","es ist davon auszugehen","es handelt sich um","es gilt"],hint:"أي كلمة تناسب in this context?",sSrc:"The deadline must be observed."}
+        {type:"mc",q:"Was bedeutet 'die Laufzeit'?",opts:["the duration, the term","the administrative act","in accordance with (+ dative)","the section of law"],ans:"the duration, the term",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the section of law' auf Deutsch? {1}",a:["der Paragraph"],opts:["das Verfahren","das Aktenzeichen","die Bearbeitungsgebühr","der Paragraph"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the section of law' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'der Dienstweg'?",opts:["the official channels","attention is drawn to the fact that","it requires (+ genitive)","the amount (of money)"],ans:"the official channels",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1}, dass der Bescheid korrekt ist.",a:["es ist davon auszugehen"],opts:["es bedarf","die Laufzeit","der Betrag","es ist davon auszugehen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"It is to be assumed that the notice is correct."},
+        {type:"mc",q:"Was bedeutet 'es bedarf'?",opts:["the issuance, the granting","it requires (+ genitive)","the facts of the matter","the procedure, the process"],ans:"it requires (+ genitive)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} die Frist zu beachten.",a:["es gilt"],opts:["der Sachverhalt","es ist davon auszugehen","es handelt sich um","es gilt"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The deadline must be observed."}
       ]},
 // ─── L7: KD übersetzt ───
     {id:"deu_r30l4",title:"KD übersetzt",icon:"💡",xp:15,board:true,steps:[
@@ -326,18 +326,18 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
     "Indikativ (Tatsachenaussage)"
 ],ans:"Konjunktiv I (indirekte Rede / formelle Distanzierung)",hint:"تظهر هذه الصيغة من 'sein' في الكتابة الرسمية الرسمية لإيجاد مسافة مؤسسية، لا للتعبير عن فرضية أو أمر."},
         {type:"match",pairs:[
-    {trg:"bezüglich",src:"regarding"},
-    {trg:"hinsichtlich",src:"with regard to"},
+    {trg:"bezüglich",src:"بشأن"},
+    {trg:"hinsichtlich",src:"فيما يتعلق بـ"},
     {trg:"vorbehaltlich",src:"subject to"},
     {trg:"infolge",src:"as a result of"}
 ]},
-        {type:"mc",q:"Was bedeutet 'die Anlage'?",opts:["the attachment, the enclosure","regarding, concerning","accordingly, correspondingly","as a result of, due to"],ans:"the attachment, the enclosure",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} ist Deutsch.",a:["die Amtssprache"],opts:["vorbehaltlich","gemaess Paragraph","im Sinne des Gesetzes","die Amtssprache"],hint:"أي كلمة تناسب in this context?",sSrc:"The official language is German."},
-        {type:"mc",q:"Was bedeutet 'die Beitragsordnung'?",opts:["regarding, concerning","according to","hereby I file an objection","the contribution regulations, fee schedule"],ans:"the contribution regulations, fee schedule",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} beträgt 3.500 Euro brutto.",a:["die Verguetung"],opts:["aufgrund","hinsichtlich","bezüglich","die Verguetung"],hint:"أي كلمة تناسب in this context?",sSrc:"The compensation is 3,500 euros gross."},
-        {type:"mc",q:"Was bedeutet 'demnach'?",opts:["accordingly, correspondingly","accordingly, therefore","the compensation, remuneration","due to, on the basis of"],ans:"accordingly, therefore",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} bitten wir um schriftliche Bestätigung.",a:["ferner"],opts:["Einspruch erheben","die Anlage","bezüglich","ferner"],hint:"أي كلمة تناسب in this context?",sSrc:"Furthermore, we request written confirmation."},
-        {type:"mc",q:"Was bedeutet 'entsprechend'?",opts:["according to","to raise an objection","the official language","accordingly, correspondingly"],ans:"accordingly, correspondingly",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'die Anlage'?",opts:["the attachment, the enclosure","regarding, concerning","accordingly, correspondingly","as a result of, due to"],ans:"the attachment, the enclosure",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} ist Deutsch.",a:["die Amtssprache"],opts:["vorbehaltlich","gemaess Paragraph","im Sinne des Gesetzes","die Amtssprache"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The official language is German."},
+        {type:"mc",q:"Was bedeutet 'die Beitragsordnung'?",opts:["regarding, concerning","according to","hereby I file an objection","the contribution regulations, fee schedule"],ans:"the contribution regulations, fee schedule",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} beträgt 3.500 Euro brutto.",a:["die Verguetung"],opts:["aufgrund","hinsichtlich","bezüglich","die Verguetung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The compensation is 3,500 euros gross."},
+        {type:"mc",q:"Was bedeutet 'demnach'?",opts:["accordingly, correspondingly","accordingly, therefore","the compensation, remuneration","due to, on the basis of"],ans:"accordingly, therefore",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} bitten wir um schriftliche Bestätigung.",a:["ferner"],opts:["Einspruch erheben","die Anlage","bezüglich","ferner"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Furthermore, we request written confirmation."},
+        {type:"mc",q:"Was bedeutet 'entsprechend'?",opts:["according to","to raise an objection","the official language","accordingly, correspondingly"],ans:"accordingly, correspondingly",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L11: Die digitale Behörde ───
     {id:"deu_r30l7",title:"Die digitale Behörde",icon:"💻",xp:15,board:true,steps:[
@@ -392,11 +392,11 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
     {trg:"einreichen",src:"to submit"},
     {trg:"ausstellen",src:"to issue"}
 ]},
-        {type:"mc",q:"Was bedeutet 'bearbeiten'?",opts:["the contract","the termination, the cancellation","to submit, to file","to process, to handle"],ans:"to process, to handle",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Können Sie den Empfang {1}?",a:["bestätigen"],opts:["genehmigen","der Vertrag","bearbeiten","bestätigen"],hint:"أي كلمة تناسب in this context?",sSrc:"Can you confirm receipt?"},
-        {type:"mc",q:"Was bedeutet 'anordnen'?",opts:["to submit, to file","the defect, the flaw","the complaint (about product/service)","to order, to decree"],ans:"to order, to decree",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to commission, to instruct' auf Deutsch? {1}",a:["beauftragen"],opts:["der Mangel","einreichen","beauftragen","der Vertrag"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to commission, to instruct' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'erlassen'?",opts:["the defect, the flaw","to issue (a decree), to waive (a debt)","the subject line","to order, to decree"],ans:"to issue (a decree), to waive (a debt)",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'bearbeiten'?",opts:["the contract","the termination, the cancellation","to submit, to file","to process, to handle"],ans:"to process, to handle",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Können Sie den Empfang {1}?",a:["bestätigen"],opts:["genehmigen","der Vertrag","bearbeiten","bestätigen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you confirm receipt?"},
+        {type:"mc",q:"Was bedeutet 'anordnen'?",opts:["to submit, to file","the defect, the flaw","the complaint (about product/service)","to order, to decree"],ans:"to order, to decree",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to commission, to instruct' auf Deutsch? {1}",a:["beauftragen"],opts:["der Mangel","einreichen","beauftragen","der Vertrag"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to commission, to instruct' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'erlassen'?",opts:["the defect, the flaw","to issue (a decree), to waive (a debt)","the subject line","to order, to decree"],ans:"to issue (a decree), to waive (a debt)",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L13: Paragraphen und Pflichten ───
     {id:"deu_r30l8",title:"Paragraphen und Pflichten",icon:"⚖️",xp:20,board:true,steps:[
@@ -450,17 +450,17 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
     {trg:"stattgeben",src:"to grant/uphold"},
     {trg:"untersagen",src:"to prohibit"}
 ]},
-        {type:"mc",q:"Was bedeutet 'reklamieren'?",opts:["to grant, to uphold","to reject, to dismiss","submitted (past participle)","to complain, to make a claim"],ans:"to complain, to make a claim",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to ratify' auf Deutsch? {1}",a:["ratifizieren"],opts:["veranlassen","reklamieren","untersagen","ratifizieren"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to ratify' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'nachkommen'?",opts:["to enclose, to settle (a dispute)","to revoke, to withdraw","to refuse, to deny","to comply with, to fulfill"],ans:"to comply with, to fulfill",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wir {1} Sie hiermit an die ausstehende Zahlung.",a:["mahnen"],opts:["mahnen","stattgeben","vorsehen","eingereicht"],hint:"أي كلمة تناسب in this context?",sSrc:"We hereby remind you of the outstanding payment."},
+        {type:"mc",q:"Was bedeutet 'reklamieren'?",opts:["to grant, to uphold","to reject, to dismiss","submitted (past participle)","to complain, to make a claim"],ans:"to complain, to make a claim",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to ratify' auf Deutsch? {1}",a:["ratifizieren"],opts:["veranlassen","reklamieren","untersagen","ratifizieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to ratify' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'nachkommen'?",opts:["to enclose, to settle (a dispute)","to revoke, to withdraw","to refuse, to deny","to comply with, to fulfill"],ans:"to comply with, to fulfill",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wir {1} Sie hiermit an die ausstehende Zahlung.",a:["mahnen"],opts:["mahnen","stattgeben","vorsehen","eingereicht"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"We hereby remind you of the outstanding payment."},
         {type:"mc",q:"Was bedeutet 'kündigen'?",opts:[
     "to give notice, to terminate",
     "to decree, to dispose, to have at one's disposal",
     "to refuse, to deny",
     "to provide for, to stipulate"
-],ans:"to give notice, to terminate",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Haben Sie Ihre Pflichten {1} erfuellt?",a:["pflichtgemaess"],opts:["zustellen","pflichtgemaess","nachkommen","zurückweisen"],hint:"أي كلمة تناسب in this context?",sSrc:"Have you fulfilled your duties in accordance with duty?"}
+],ans:"to give notice, to terminate",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Haben Sie Ihre Pflichten {1} erfuellt?",a:["pflichtgemaess"],opts:["zustellen","pflichtgemaess","nachkommen","zurückweisen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Have you fulfilled your duties in accordance with duty?"}
       ]},
 // ─── L15: Hildi und die Formulare ───
     {id:"deu_r30l9",title:"Hildi und die Formulare",icon:"📝",xp:20,board:true,steps:[
@@ -518,14 +518,14 @@ const UNIT_30_AR = {n:30,lang:"de",srcLang:"ar",track:"v2",title:"Amtsdeutsch",s
     {trg:"essbar",src:"edible"},
     {trg:"nachvollziehbar",src:"comprehensible"}
 ]},
-        {type:"mc",q:"Was bedeutet 'bewilligt'?",opts:["approved, granted","the land registry","the decree, the waiver","to decide"],ans:"approved, granted",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ist die Vereinbarung {1}?",a:["bindend"],opts:["unbeschadet","erteilen","der Erlass","bindend"],hint:"أي كلمة تناسب in this context?",sSrc:"Is the agreement binding?"},
-        {type:"mc",q:"Was bedeutet 'unvorstellbar'?",opts:["to decide","unimaginable","without prejudice to, notwithstanding","solvable"],ans:"unimaginable",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} ja, als die Frist eingehalten wurde.",a:["insoweit"],opts:["unvorstellbar","insoweit","essbar","mithin"],hint:"أي كلمة تناسب in this context?",sSrc:"Insofar as the deadline was met, yes."},
-        {type:"mc",q:"Was bedeutet 'mithin'?",opts:["the land registry","consequently, therefore","unimaginable","the decree, the waiver"],ans:"consequently, therefore",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} der Behörde gibt es keine Einwaende.",a:["seitens"],opts:["entscheiden","unbeschadet","essbar","seitens"],hint:"أي كلمة تناسب in this context?",sSrc:"On the part of the authority, there are no objections."},
-        {type:"mc",q:"Was bedeutet 'unbeschadet'?",opts:["solvable","feasible, doable","insofar, to that extent","without prejudice to, notwithstanding"],ans:"without prejudice to, notwithstanding",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} handeln wir zuversichtlich.",a:["nichtsdestoweniger"],opts:["insoweit","bindend","unvorstellbar","nichtsdestoweniger"],hint:"أي كلمة تناسب in this context?",sSrc:"Nevertheless, we act with confidence."}
+        {type:"mc",q:"Was bedeutet 'bewilligt'?",opts:["approved, granted","the land registry","the decree, the waiver","to decide"],ans:"approved, granted",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ist die Vereinbarung {1}?",a:["bindend"],opts:["unbeschadet","erteilen","der Erlass","bindend"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is the agreement binding?"},
+        {type:"mc",q:"Was bedeutet 'unvorstellbar'?",opts:["to decide","unimaginable","without prejudice to, notwithstanding","solvable"],ans:"unimaginable",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} ja, als die Frist eingehalten wurde.",a:["insoweit"],opts:["unvorstellbar","insoweit","essbar","mithin"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Insofar as the deadline was met, yes."},
+        {type:"mc",q:"Was bedeutet 'mithin'?",opts:["the land registry","consequently, therefore","unimaginable","the decree, the waiver"],ans:"consequently, therefore",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} der Behörde gibt es keine Einwaende.",a:["seitens"],opts:["entscheiden","unbeschadet","essbar","seitens"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"On the part of the authority, there are no objections."},
+        {type:"mc",q:"Was bedeutet 'unbeschadet'?",opts:["solvable","feasible, doable","insofar, to that extent","without prejudice to, notwithstanding"],ans:"without prejudice to, notwithstanding",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} handeln wir zuversichtlich.",a:["nichtsdestoweniger"],opts:["insoweit","bindend","unvorstellbar","nichtsdestoweniger"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Nevertheless, we act with confidence."}
       ]}
   ]};
 

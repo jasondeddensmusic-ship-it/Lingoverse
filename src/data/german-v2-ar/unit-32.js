@@ -86,9 +86,9 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
         {type:"fb",s:"Die Kindheit {1} den Menschen für sein ganzes Leben.",a:["prägt"],opts:["pflegt","anerkennt","prägt","reflektiert"],hint:"يُشكّل ويصوغ. تطبع مرحلة الطفولة شيئاً في الإنسان يبقى.",sSrc:"تُشكِّل الطفولة الإنسان طوال حياته."},
         {type:"mc",q:"In Lebensqualität verbindet das -s- zwischen Leben und Qualität die Teile. Dieses -s- ist ein...",opts:["Pluralzeichen am Wortende","Fugenelement (Verbindungselement)","Genitivendung","Schreibfehler in der Komposita-Form"],ans:"Fugenelement (Verbindungselement)",hint:"الـ -s- الصغيرة التي تصل بين جزأي الاسم المركب. جسر صوتي."},
         {type:"story",speaker:"verumius",mood:"wondering",art:"de-ber-museum-exit",trg:"Eigenständig denken. Werte hinterfragen. Offen bleiben. Leichter gesagt als getan, wenn man nicht einmal weiß, woher man kommt.",src:"فكّر باستقلالية. اسأل عن القيم. ابقَ منفتحاً. أسهل قولاً من فعلاً حين لا تعرف حتى من أين أتيت."},
-        {type:"mc",q:"Was bedeutet 'respektieren'?",opts:["philosophy","value system, moral conception","to respect","diverse, manifold"],ans:"to respect",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} bedeutet aktiv bewahren.",a:["pflegen"],opts:["pflegen","die Philosophie","die \\u00dcberzeugung","die Vorstellung"],hint:"أي كلمة تناسب in this context?",sSrc:"To maintain means to actively preserve."},
-        {type:"mc",q:"Was bedeutet 'anerkennen'?",opts:["ethics","self-image","human dignity","to acknowledge, to recognize officially"],ans:"to acknowledge, to recognize officially",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'respektieren'?",opts:["philosophy","value system, moral conception","to respect","diverse, manifold"],ans:"to respect",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} bedeutet aktiv bewahren.",a:["pflegen"],opts:["pflegen","die Philosophie","die \\u00dcberzeugung","die Vorstellung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"To maintain means to actively preserve."},
+        {type:"mc",q:"Was bedeutet 'anerkennen'?",opts:["ethics","self-image","human dignity","to acknowledge, to recognize officially"],ans:"to acknowledge, to recognize officially",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Wer seine Herkunft kennt ───
     {id:"deu_r32l3",title:"Wer seine Herkunft kennt",icon:"📚",xp:15,board:true,steps:[
@@ -136,10 +136,10 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
 ],note:"wer/wen/wem تتبع قواعد حالات الإعراب. بعد alles/nichts/etwas/das دائمًا 'was' وليس 'das.'"},
         {type:"mc",q:"Heinrich sagt: 'Wer richtig spricht, der wird auch richtig verstanden.' Was bedeutet 'wer' hier?",opts:["wer (eine bestimmte Person)","wo (Ortsangabe)","wann (Zeitangabe)","wer auch immer, jeder der"],ans:"wer auch immer, jeder der",hint:"'Wer' بدون كلمة مرجعية تعني 'كل من'. جملة ذات طابع عالمي."},
         {type:"fb",s:"{1} seine Herkunft kennt, der versteht sich selbst besser.",a:["Wer"],opts:["Der","Wer","Was","Welcher"],hint:"ضمير وصفي للجمل ذات الطابع العالمي، لا يحيل إلى شخص محدد. يفتح جملة وصفية حرة يتبعها 'der' في الجملة الرئيسية.",sSrc:"من يعرف تراثه يفهم نفسه بشكل أفضل."},
-        {type:"mc",q:"Was bedeutet 'sich auseinandersetzen mit'?",opts:["to engage critically with, to confront","ethnic","migration","social environment, milieu"],ans:"to engage critically with, to confront",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to identify with' auf Deutsch? {1}",a:["sich identifizieren mit"],opts:["integrieren","sich identifizieren mit","die Integration","kosmopolitisch"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to identify with' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'sich anpassen'?",opts:["integration","way of life, lifestyle","to adapt, to adjust","to integrate"],ans:"to adapt, to adjust",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Kannst du zwischen den Kulturen {1}?",a:["vermitteln"],opts:["ethnisch","sich auseinandersetzen mit","die Migration","vermitteln"],hint:"أي كلمة تناسب in this context?",sSrc:"Can you mediate between cultures?"}
+        {type:"mc",q:"Was bedeutet 'sich auseinandersetzen mit'?",opts:["to engage critically with, to confront","ethnic","migration","social environment, milieu"],ans:"to engage critically with, to confront",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to identify with' auf Deutsch? {1}",a:["sich identifizieren mit"],opts:["integrieren","sich identifizieren mit","die Integration","kosmopolitisch"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to identify with' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'sich anpassen'?",opts:["integration","way of life, lifestyle","to adapt, to adjust","to integrate"],ans:"to adapt, to adjust",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Kannst du zwischen den Kulturen {1}?",a:["vermitteln"],opts:["ethnisch","sich auseinandersetzen mit","die Migration","vermitteln"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you mediate between cultures?"}
       ]},
 // ─── L7: Dieser und jener ───
     {id:"deu_r32l4",title:"Dieser und jener",icon:"🔍",xp:15,board:true,steps:[
@@ -208,8 +208,8 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
     {trg:"letzterer",src:"the latter"}
 ]},
         {type:"fb",s:"Diskriminierung ist {1} akzeptabel.",a:["keineswegs"],opts:["keineswegs","gleichermaßen","letztlich","im Grunde"],hint:"فكّر في معنى الكلمة.",sSrc:"Discrimination is by no means acceptable."},
-        {type:"mc",q:"Was bedeutet 'im Wesentlichen'?",opts:["essentially, in essence","the same one (neuter)","the same one (feminine)","the one which (neuter)"],ans:"essentially, in essence",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1}.",a:["keinesfalls"],opts:["dieselbe","keinesfalls","dasselbe","dasjenige"],hint:"أي كلمة تناسب in this context?",sSrc:"Under no circumstances."}
+        {type:"mc",q:"Was bedeutet 'im Wesentlichen'?",opts:["essentially, in essence","the same one (neuter)","the same one (feminine)","the one which (neuter)"],ans:"essentially, in essence",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1}.",a:["keinesfalls"],opts:["dieselbe","keinesfalls","dasselbe","dasjenige"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Under no circumstances."}
       ]},
 // ─── L9: Meinungsfreiheit ───
     {id:"deu_r32l5",title:"Meinungsfreiheit",icon:"⚖️",xp:15,board:true,steps:[
@@ -328,11 +328,11 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
     {trg:"Umbruch",src:"upheaval"}
 ]},
         {type:"fb",s:"Ein {1} Leben ist das Gegenteil von Selbstbestimmung.",a:["fremdbestimmtes"],opts:["rassistisches","stereotypes","zeitgemaesses","fremdbestimmtes"],hint:"فكّر في معنى الكلمة.",sSrc:"An externally determined life is the opposite of self-determination."},
-        {type:"mc",q:"Was bedeutet 'die Gesinnung'?",opts:["assimilation","cultural asset, cultural heritage","mindset, political disposition","diversity (formal/academic)"],ans:"mindset, political disposition",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wer bestimmt {1}?",a:["die Rollenverteilung"],opts:["die Diversitaet","stereotyp","die Leitkultur","die Rollenverteilung"],hint:"أي كلمة تناسب in this context?",sSrc:"Who determines the role distribution?"},
-        {type:"mc",q:"Was bedeutet 'die Moral'?",opts:["to suppress, to repress","to tolerate","cultural asset, cultural heritage","morals, morality"],ans:"morals, morality",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Soll man alles {1}?",a:["tolerieren"],opts:["tolerieren","die Subkultur","der Minderheitenschutz","fremdbestimmt"],hint:"أي كلمة تناسب in this context?",sSrc:"Should one tolerate everything?"},
-        {type:"mc",q:"Was bedeutet 'verdraengen'?",opts:["to suppress, to repress","subculture","future vision","role distribution"],ans:"to suppress, to repress",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'die Gesinnung'?",opts:["assimilation","cultural asset, cultural heritage","mindset, political disposition","diversity (formal/academic)"],ans:"mindset, political disposition",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wer bestimmt {1}?",a:["die Rollenverteilung"],opts:["die Diversitaet","stereotyp","die Leitkultur","die Rollenverteilung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Who determines the role distribution?"},
+        {type:"mc",q:"Was bedeutet 'die Moral'?",opts:["to suppress, to repress","to tolerate","cultural asset, cultural heritage","morals, morality"],ans:"morals, morality",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Soll man alles {1}?",a:["tolerieren"],opts:["tolerieren","die Subkultur","der Minderheitenschutz","fremdbestimmt"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Should one tolerate everything?"},
+        {type:"mc",q:"Was bedeutet 'verdraengen'?",opts:["to suppress, to repress","subculture","future vision","role distribution"],ans:"to suppress, to repress",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L13: Die grosse Debatte ───
     {id:"deu_r32l8",title:"Die grosse Debatte",icon:"🏛️",xp:15,board:true,steps:[
@@ -387,11 +387,11 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
 ]},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-ber-nightwalk-bridge",trg:"Mia kämpft für Gleichberechtigung. Yilmaz vermittelt zwischen Kulturen. KD vertraut dem Papier. Heinrich bewahrt die Sprache. Und ich? Ich sammle ihre Geschichten.",src:"ميا تناضل من أجل المساواة في الحقوق. يلماز تتوسط بين الثقافات. كا-د يثق بالورق. هاينريش يحفظ اللغة. وأنا؟ أنا أجمع قصصهم."},
         {type:"mc",q:"'Das führt zwangslaeufig zu Konflikten.' Was bedeutet 'zwangslaeufig'?",opts:["möglicherweise","selten","unvermeidlich, unausweichlich","niemals"],ans:"unvermeidlich, unausweichlich",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'jeglicher'?",opts:["descent, lineage","every possible, any whatsoever","every single, any whatsoever (literary)","someone, somebody"],ans:"every possible, any whatsoever",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} trägt Verantwortung.",a:["ein jeder"],opts:["notwendigerweise","jeglicher","jedweder","ein jeder"],hint:"أي كلمة تناسب in this context?",sSrc:"Each and every one bears responsibility."},
-        {type:"mc",q:"Was bedeutet 'notwendigerweise'?",opts:["necessarily","every single, any whatsoever (literary)","individualism","something or other, anything at all"],ans:"necessarily",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Man muss damit {1}.",a:["zurechtkommen"],opts:["jeglicher","niemand","zurechtkommen","die Abstammung"],hint:"أي كلمة تناسب in this context?",sSrc:"One has to manage."},
-        {type:"mc",q:"Was bedeutet 'wertschätzen'?",opts:["something or other, anything at all","a stereotype (noun)","to appreciate, to value","descent, lineage"],ans:"to appreciate, to value",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'jeglicher'?",opts:["descent, lineage","every possible, any whatsoever","every single, any whatsoever (literary)","someone, somebody"],ans:"every possible, any whatsoever",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} trägt Verantwortung.",a:["ein jeder"],opts:["notwendigerweise","jeglicher","jedweder","ein jeder"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Each and every one bears responsibility."},
+        {type:"mc",q:"Was bedeutet 'notwendigerweise'?",opts:["necessarily","every single, any whatsoever (literary)","individualism","something or other, anything at all"],ans:"necessarily",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Man muss damit {1}.",a:["zurechtkommen"],opts:["jeglicher","niemand","zurechtkommen","die Abstammung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"One has to manage."},
+        {type:"mc",q:"Was bedeutet 'wertschätzen'?",opts:["something or other, anything at all","a stereotype (noun)","to appreciate, to value","descent, lineage"],ans:"to appreciate, to value",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L15: Zwischen den Welten ───
     {id:"deu_r32l9",title:"Zwischen den Welten",icon:"🌍",xp:15,board:true,steps:[
@@ -444,11 +444,11 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
     "Assimilation löscht Unterschiede, Integration bewahrt sie",
     "Integration ist stärker als Assimilation"
 ],ans:"Assimilation löscht Unterschiede, Integration bewahrt sie",hint:"فكّر فيما يحدث لهويتك الأصلية في كل عملية. إحداهما تحافظ على الفوارق، والأخرى تُذيبها."},
-        {type:"mc",q:"Was bedeutet 'umdenken'?",opts:["to rethink, to change one's thinking","one, you (impersonal), people","to assimilate","to classify, to categorize"],ans:"to rethink, to change one's thinking",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Eine {1}e Gesellschaft investiert in Bildung.",a:["zukunftsorientiert"],opts:["einordnen","gleichstellen","zukunftsorientiert","identifizieren"],hint:"أي كلمة تناسب in this context?",sSrc:"A future-oriented society invests in education."},
-        {type:"mc",q:"Was bedeutet 'identifizieren'?",opts:["to sensitize, to raise awareness","to classify, to categorize","to identify (pinpoint)","to define"],ans:"to identify (pinpoint)",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} sagt, dass Berlin weltoffen ist.",a:["man"],opts:["der Begriff","umdenken","die Erkenntnis","man"],hint:"أي كلمة تناسب in this context?",sSrc:"People say that Berlin is cosmopolitan."},
-        {type:"mc",q:"Was bedeutet 'mancher'?",opts:["some, many a","concept, term","to assimilate","to classify, to categorize"],ans:"some, many a",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'umdenken'?",opts:["to rethink, to change one's thinking","one, you (impersonal), people","to assimilate","to classify, to categorize"],ans:"to rethink, to change one's thinking",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Eine {1}e Gesellschaft investiert in Bildung.",a:["zukunftsorientiert"],opts:["einordnen","gleichstellen","zukunftsorientiert","identifizieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"A future-oriented society invests in education."},
+        {type:"mc",q:"Was bedeutet 'identifizieren'?",opts:["to sensitize, to raise awareness","to classify, to categorize","to identify (pinpoint)","to define"],ans:"to identify (pinpoint)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} sagt, dass Berlin weltoffen ist.",a:["man"],opts:["der Begriff","umdenken","die Erkenntnis","man"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"People say that Berlin is cosmopolitan."},
+        {type:"mc",q:"Was bedeutet 'mancher'?",opts:["some, many a","concept, term","to assimilate","to classify, to categorize"],ans:"some, many a",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]}
   ]};
 

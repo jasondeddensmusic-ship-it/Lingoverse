@@ -150,23 +150,23 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "to express oneself (formal) / to say (everyday)",
     "to intend (formal) / to want (everyday)",
     "the embrace, the hug"
-],ans:"the embrace, the hug",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the wealth of experience' auf Deutsch? {1}",a:["der Erfahrungsschatz"],opts:["erwerben / kaufen","der Erfahrungsschatz","beabsichtigen / wollen","innig"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the wealth of experience' بالألمانية؟"},
+],ans:"the embrace, the hug",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the wealth of experience' auf Deutsch? {1}",a:["der Erfahrungsschatz"],opts:["erwerben / kaufen","der Erfahrungsschatz","beabsichtigen / wollen","innig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the wealth of experience' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'das Erinnerungsstück'?",opts:[
     "the memento, keepsake",
     "to acquire (formal) / to buy (everyday)",
     "loving, affectionate",
     "to express oneself (formal) / to say (everyday)"
-],ans:"the memento, keepsake",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to embrace, to hug' auf Deutsch? {1}",a:["umarmen"],opts:["umarmen","gestatten / erlauben","innig","die Umarmung"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to embrace, to hug' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'sich erinnern'?",opts:["to linger (literary) / to stay (everyday)","to remember","heartfelt, intimate, deep","to embrace, to hug"],ans:"to remember",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Das war eine {1}e Geste.",a:["liebevoll"],opts:["entgegnen / antworten","der Erfahrungsschatz","liebevoll","umarmen"],hint:"أي كلمة تناسب in this context?",sSrc:"That was a loving gesture."},
+],ans:"the memento, keepsake",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to embrace, to hug' auf Deutsch? {1}",a:["umarmen"],opts:["umarmen","gestatten / erlauben","innig","die Umarmung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to embrace, to hug' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'sich erinnern'?",opts:["to linger (literary) / to stay (everyday)","to remember","heartfelt, intimate, deep","to embrace, to hug"],ans:"to remember",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Das war eine {1}e Geste.",a:["liebevoll"],opts:["entgegnen / antworten","der Erfahrungsschatz","liebevoll","umarmen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"That was a loving gesture."},
         {type:"mc",q:"Was bedeutet 'innig'?",opts:[
     "heartfelt, intimate, deep",
     "to acquire (formal) / to buy (everyday)",
     "to linger (literary) / to stay (everyday)",
     "to embrace, to hug"
-],ans:"heartfelt, intimate, deep",hint:"فكّر في the meaning of this word in context."}
+],ans:"heartfelt, intimate, deep",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Ja, doch, halt, eben, wohl ───
     {id:"deu_r36l4",title:"Ja, doch, halt, eben, wohl",icon:"✨",xp:20,board:true,steps:[
@@ -279,14 +279,14 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "Etwas reparieren und wieder in Ordnung bringen",
     "Jemanden motivieren und antreiben"
 ],ans:"Das Leben bewusst verlangsamen",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'verarbeiten'?",opts:["commitment, reliability","appreciation, esteem","to content oneself, to settle for","to process, to work through"],ans:"to process, to work through",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Mia ist wirklich {1}.",a:["einfühlsam"],opts:["verarbeiten","die Versöhnlichkeit","sich zufriedengeben","einfühlsam"],hint:"أي كلمة تناسب in this context?",sSrc:"Mia is really empathetic."},
+        {type:"mc",q:"Was bedeutet 'verarbeiten'?",opts:["commitment, reliability","appreciation, esteem","to content oneself, to settle for","to process, to work through"],ans:"to process, to work through",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Mia ist wirklich {1}.",a:["einfühlsam"],opts:["verarbeiten","die Versöhnlichkeit","sich zufriedengeben","einfühlsam"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Mia is really empathetic."},
         {type:"mc",q:"Was bedeutet 'behutsam'?",opts:[
     "to look back, to retrospect",
     "gentle, careful, cautious",
     "spirit of reconciliation, forgiveness",
     "appreciation, esteem"
-],ans:"gentle, careful, cautious",hint:"فكّر في the meaning of this word in context."}
+],ans:"gentle, careful, cautious",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L8: Verumius ───
     {id:"deu_r36l6",title:"Verumius",icon:"❤️",xp:15,board:true,steps:[
@@ -343,10 +343,10 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "schon: Er kommt schon nie. (He never comes anyway.)"
 ],ans:"halt: Er kommt halt immer zu spät. (He just always comes late.)",hint:"وصول KD متأخراً أمرٌ متوقَّع تماماً. هذا الجسيم يعبِّر عن القبول الهادئ لشيء لا يتغير، دون مبالغة أو جدال."},
         {type:"fb",s:"In seinem {1} wusste er es schon lange: Berlin ist sein Zuhause.",a:["Inneren"],opts:["Traum","Inneren","Stoßseufzer","Muße"],hint:"فكّر في معنى الكلمة.",sSrc:"Deep inside he had known it for a long time: Berlin is his home."},
-        {type:"mc",q:"Was bedeutet 'sich versöhnen'?",opts:["to allow, to permit, to let in","surprise","dream","to become reconciled, to make peace"],ans:"to become reconciled, to make peace",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Man muss Gefühle {1}.",a:["zulassen"],opts:["die Überraschung","der Traum","der Stoßseufzer","zulassen"],hint:"أي كلمة تناسب in this context?",sSrc:"One must allow feelings."},
-        {type:"mc",q:"Was bedeutet 'ausruhen'?",opts:["to grow together","confident, optimistic","leisure, contemplation time","to rest completely"],ans:"to rest completely",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ich blicke {1} in die Zukunft.",a:["zuversichtlich"],opts:["sich versöhnen","das Innere","zuversichtlich","unbezahlbar"],hint:"أي كلمة تناسب in this context?",sSrc:"I look to the future with confidence."}
+        {type:"mc",q:"Was bedeutet 'sich versöhnen'?",opts:["to allow, to permit, to let in","surprise","dream","to become reconciled, to make peace"],ans:"to become reconciled, to make peace",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Man muss Gefühle {1}.",a:["zulassen"],opts:["die Überraschung","der Traum","der Stoßseufzer","zulassen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"One must allow feelings."},
+        {type:"mc",q:"Was bedeutet 'ausruhen'?",opts:["to grow together","confident, optimistic","leisure, contemplation time","to rest completely"],ans:"to rest completely",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ich blicke {1} in die Zukunft.",a:["zuversichtlich"],opts:["sich versöhnen","das Innere","zuversichtlich","unbezahlbar"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"I look to the future with confidence."}
       ]},
 // ─── L10: Alles ───
     {id:"deu_r36l7",title:"Alles",icon:"🏆",xp:15,board:true,steps:[
@@ -454,9 +454,9 @@ const UNIT_36_AR = {n:36,lang:"de",srcLang:"ar",track:"v2",title:"Zuhause",sub:"
     "A temporary furnished apartment he is renting.",
     "The German word specifically for Germany as a country."
 ],ans:"Home: not just a place, but a feeling of belonging.",hint:"zuhause هو المكان الذي تنتمي إليه. حيث الناس الذين يعرفون اسمك. حيث تكون نفسك."},
-        {type:"mc",q:"Was bedeutet 'träumen'?",opts:["to dream","to be at peace, to be forgiving","last but not least, finally","at home"],ans:"to dream",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to be at peace, to be forgiving' auf Deutsch? {1}",a:["versöhnlich sein"],opts:["versöhnlich sein","der Steuerzahler","rückblickend","von ganzem Herzen"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to be at peace, to be forgiving' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'aufrichtig'?",opts:["to be at peace, to be forgiving","sincere, genuine","in the end, ultimately","finally, ultimately"],ans:"sincere, genuine",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'träumen'?",opts:["to dream","to be at peace, to be forgiving","last but not least, finally","at home"],ans:"to dream",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to be at peace, to be forgiving' auf Deutsch? {1}",a:["versöhnlich sein"],opts:["versöhnlich sein","der Steuerzahler","rückblickend","von ganzem Herzen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to be at peace, to be forgiving' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'aufrichtig'?",opts:["to be at peace, to be forgiving","sincere, genuine","in the end, ultimately","finally, ultimately"],ans:"sincere, genuine",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]}
   ]};
 

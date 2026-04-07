@@ -403,7 +403,7 @@ const UNIT_10_AR = {n:10,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Bahn"
         {type:"fb",s:"Wenn ich am Bahnhof {1}, kaufe ich eine Brezel.",a:["ankomme"],opts:["ankomme","ankommen","angekommen","ankam"],hint:"جملة wenn تحتاج المضارع، المتكلم المفرد. في الجمل الثانوية، الأفعال المنفصلة تتحد في النهاية.",sSrc:"عندما أصل إلى المحطة، أشتري بريتسل."},
         {type:"drag_fill",s:"Gestern {1} ich zur Messe {2}, und danach {3} ich ein Zelt auf dem Marktplatz {4}.",blanks:{"1":"bin","2":"gefahren","3":"habe","4":"gesehen"},pool:["bin","gefahren","habe","gesehen","ist","gekauft"],hint:"حدثان، فعلان مختلفان: أحدهما فعل حركة يستخدم sein، والآخر فعل إدراك يستخدم الفعل المساعد الآخر.",sSrc:"أمس سافرت إلى المعرض، وبعدها رأيت خيمة في ساحة السوق."},
         {type:"match",pairs:[
-    {trg:"das Kaufhaus",pos:"noun",gender:"n",src:"department store"},
+    {trg:"das Kaufhaus",pos:"noun",gender:"n",src:"متجر متعدد الأقسام"},
     {trg:"das Einkaufszentrum",pos:"noun",gender:"n",src:"shopping center"},
     {trg:"die Kreuzung",pos:"noun",gender:"f",src:"intersection"},
     {trg:"der Rundgang",pos:"noun",gender:"m",src:"tour / round"},

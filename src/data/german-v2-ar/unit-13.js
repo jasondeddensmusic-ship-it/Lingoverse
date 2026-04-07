@@ -40,12 +40,12 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"mc",q:"Dr. Yilmaz sagt: 'Der erste Eindruck zählt.' Was bedeutet Eindruck?",opts:["impression","application","preparation","success"],ans:"impression",hint:"شيء 'يُطبع' في ذهن شخص ما."},
         {type:"fb",s:"Verumius muss seine {1} gut vorbereiten.",a:["Bewerbung"],opts:["Bewerbung","Karriere","Erfolg","Eindruck"],hint:"الحزمة المكونة من ثلاثة أجزاء التي ترسلها عند التقدم لوظيفة في ألمانيا.",sSrc:"على فيروميوس أن يحضّر طلب توظيفه جيداً."},
         {type:"match",pairs:[
-    {trg:"Bewerbung",src:"application"},
-    {trg:"Lebenslauf",src:"CV/resume"},
-    {trg:"Erfolg",src:"success"},
-    {trg:"Karriere",src:"career"},
-    {trg:"Eindruck",src:"impression"},
-    {trg:"Vorbereitung",src:"preparation"}
+    {trg:"Bewerbung",src:"طلب التوظيف"},
+    {trg:"Lebenslauf",src:"السيرة الذاتية"},
+    {trg:"Erfolg",src:"النجاح"},
+    {trg:"Karriere",src:"المسيرة المهنية"},
+    {trg:"Eindruck",src:"الانطباع"},
+    {trg:"Vorbereitung",src:"التحضير"}
 ]},
         {type:"mc",q:"Was braucht ein deutscher Lebenslauf laut Dr. Yilmaz?",opts:[
     "Nur den Namen und die Adresse",
@@ -62,11 +62,11 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
     "Without impression no career",
     "Without career no success (formal)"
 ],ans:"Without preparation no success",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'die Unterlage'?",opts:["the impression","the application","to create, to produce","the document, the paperwork"],ans:"the document, the paperwork",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Was {1} Sie von diesem Job?",a:["erwarten"],opts:["das Vorstellungsgespräch","erstellen","erwarten","die Unterlage"],hint:"أي كلمة تناسب in this context?",sSrc:"What do you expect from this job?"},
-        {type:"mc",q:"Was bedeutet 'reagieren'?",opts:["the CV, the resume","personal","to react","to expect"],ans:"to react",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wann ist {1}?",a:["die Frist"],opts:["die Frist","korrekt","die Vorstellung","der Eindruck"],hint:"أي كلمة تناسب in this context?",sSrc:"When is the deadline?"},
-        {type:"mc",q:"Was bedeutet 'beachten'?",opts:["the job interview","the preparation","the application","to observe, to pay attention to"],ans:"to observe, to pay attention to",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'die Unterlage'?",opts:["the impression","the application","to create, to produce","the document, the paperwork"],ans:"the document, the paperwork",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Was {1} Sie von diesem Job?",a:["erwarten"],opts:["das Vorstellungsgespräch","erstellen","erwarten","die Unterlage"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"What do you expect from this job?"},
+        {type:"mc",q:"Was bedeutet 'reagieren'?",opts:["the CV, the resume","personal","to react","to expect"],ans:"to react",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wann ist {1}?",a:["die Frist"],opts:["die Frist","korrekt","die Vorstellung","der Eindruck"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"When is the deadline?"},
+        {type:"mc",q:"Was bedeutet 'beachten'?",opts:["the job interview","the preparation","the application","to observe, to pay attention to"],ans:"to observe, to pay attention to",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L3: Berufe und Qualifikationen ───
     {id:"deu_r13l2",title:"Berufe und Qualifikationen",icon:"🎓",xp:15,board:true,steps:[
@@ -110,9 +110,9 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"fb",s:"Nach dem Studium hat sie einen {1} in Informatik.",a:["Abschluss"],opts:["Abschluss","Anfang","Lehrling","Praktikant"],hint:"الكلمة التي تعني إنهاء تعليمك، حرفياً 'إغلاق.'",sSrc:"بعد دراستها حصلت على شهادة في علوم الحاسوب."},
         {type:"mc",q:"Weiterbildung means...",opts:["university degree","continuing education","apprenticeship","job interview"],ans:"continuing education",hint:"قسّم الكلمة المركبة إلى جزأيها: أحدهما يعني الاستمرار، والآخر يشير إلى تطوير المعرفة والمهارات."},
         {type:"fb",s:"Die neue {1} fängt morgen an. Sie bleibt drei Monate.",a:["Praktikantin"],opts:["Praktikantin","Ingenieurin","Architektin","Lehrerin"],hint:"فكّر في معنى الكلمة.",sSrc:"The new intern starts tomorrow. She stays three months."},
-        {type:"mc",q:"Was bedeutet 'der Architekt'?",opts:["the degree, the completion","professional, work-related","the architect (male)","the qualification"],ans:"the architect (male)",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the mechanic (male)' auf Deutsch? {1}",a:["der Mechaniker"],opts:["der Mechaniker","das Abitur","die Fortbildung","die Fähigkeit"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the mechanic (male)' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'berufstätig'?",opts:["the degree, the completion","the diploma","the high school leaving exam","employed, working"],ans:"employed, working",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'der Architekt'?",opts:["the degree, the completion","professional, work-related","the architect (male)","the qualification"],ans:"the architect (male)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the mechanic (male)' auf Deutsch? {1}",a:["der Mechaniker"],opts:["der Mechaniker","das Abitur","die Fortbildung","die Fähigkeit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the mechanic (male)' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'berufstätig'?",opts:["the degree, the completion","the diploma","the high school leaving exam","employed, working"],ans:"employed, working",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Persönliche Angaben ───
     {id:"deu_r13l3",title:"Persönliche Angaben",icon:"📋",xp:15,board:true,steps:[
@@ -159,8 +159,8 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"mc",q:"Was bedeutet 'der Bedarf' in einem beruflichen Kontext?",opts:["die Angabe","die Bedingung","der Mangel","die Nachfrage"],ans:"die Nachfrage",hint:"فكّر فيما تحتاجه شركة. 'Bei Bedarf' تعني 'عند الحاجة.'"},
         {type:"fb",s:"Die Stelle ist {1} ausgeschrieben. Bitte bewerben Sie sich bis Freitag.",a:["offiziell"],opts:["offiziell","komplett","bestimmt","erforderlich"],hint:"إعلان الوظيفة نُشر رسمياً. من الفرنسية 'officiel.'",sSrc:"الوظيفة مُعلنة رسمياً. الرجاء التقدّم بحلول الجمعة."},
         {type:"mc",q:"'Bei Bedarf kontaktieren Sie uns.' Was bedeutet 'bei Bedarf'?",opts:["at the beginning","at the deadline","if needed","at the end"],ans:"if needed",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'der Anspruch'?",opts:["the work, the factory","the claim, the entitlement","required, necessary","certain, specific, definitely"],ans:"the claim, the entitlement",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie groß ist {1}?",a:["das Werk"],opts:["das Personal","die Beschäftigung","das Werk","erforderlich"],hint:"أي كلمة تناسب in this context?",sSrc:"How big is the factory?"},
+        {type:"mc",q:"Was bedeutet 'der Anspruch'?",opts:["the work, the factory","the claim, the entitlement","required, necessary","certain, specific, definitely"],ans:"the claim, the entitlement",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie groß ist {1}?",a:["das Werk"],opts:["das Personal","die Beschäftigung","das Werk","erforderlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"How big is the factory?"},
         {type:"fb",s:"War die Bewerbung {1}? Ja, ich habe die Stelle bekommen!",a:"erfolgreich",opts:["erfolgreich","erforderlich","bestimmt","komplett"],hint:"هذه الصفة means rich in success. Built from Erfolg + reich.",sSrc:"Was the application successful? Yes, I got the job!"}
       ]},
 // ─── L7: Ich studierte in Istanbul ───
@@ -325,10 +325,10 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
 ]},
         {type:"story",speaker:"yilmaz",mood:"thoughtful",art:"de-vhs-office-desk",trg:"Dein Anschreiben klingt jetzt professionell. 'Ich würde mich freuen.' Perfekt. Aber morgen üben wir das Gespräch. Das wird der schwierige Teil.",src:"خطاب تقديمك يبدو احترافياً الآن. 'سأكون مسروراً.' ممتاز. لكن غداً نتدرب على المقابلة. هذا سيكون الجزء الصعب."},
         {type:"fb",s:"Die {1} (plural) sind die Experten auf diesem Gebiet.",a:["Fachleute"],opts:["Fachleute","Fachmann","Fachfrau","Fachmänner"],hint:"فكّر في معنى الكلمة.",sSrc:"The experts are the specialists in this field."},
-        {type:"mc",q:"Was bedeutet 'absolut'?",opts:["individual, personal","the employee (white-collar)","full-time","absolute, absolutely"],ans:"absolute, absolutely",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Sind Sie zeitlich {1}?",a:["flexibel"],opts:["die Lehrerin","flexibel","der Fachmann","die Arbeitslosigkeit"],hint:"أي كلمة تناسب in this context?",sSrc:"Are you flexible with your time?"},
-        {type:"mc",q:"Was bedeutet 'ideal'?",opts:["the experts (plural)","part-time","the temporary worker","ideal, perfect"],ans:"ideal, perfect",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Jede Bewerbung muss {1} sein.",a:["individuell"],opts:["individuell","das Einkommen","flexibel","die Fachfrau"],hint:"أي كلمة تناسب in this context?",sSrc:"Every application must be individual."}
+        {type:"mc",q:"Was bedeutet 'absolut'?",opts:["individual, personal","the employee (white-collar)","full-time","absolute, absolutely"],ans:"absolute, absolutely",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Sind Sie zeitlich {1}?",a:["flexibel"],opts:["die Lehrerin","flexibel","der Fachmann","die Arbeitslosigkeit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Are you flexible with your time?"},
+        {type:"mc",q:"Was bedeutet 'ideal'?",opts:["the experts (plural)","part-time","the temporary worker","ideal, perfect"],ans:"ideal, perfect",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Jede Bewerbung muss {1} sein.",a:["individuell"],opts:["individuell","das Einkommen","flexibel","die Fachfrau"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Every application must be individual."}
       ]},
 // ─── L10: Experten und Kandidaten ───
     {id:"deu_r13l6",title:"Experten und Kandidaten",icon:"👔",xp:15,board:true,steps:[
@@ -398,7 +398,7 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"match",pairs:[
     {trg:"Voraussetzung",src:"prerequisite"},
     {trg:"Verantwortung",src:"responsibility"},
-    {trg:"Wirtschaft",src:"economy"},
+    {trg:"Wirtschaft",src:"الاقتصاد"},
     {trg:"ausgezeichnet",src:"excellent"},
     {trg:"geeignet",src:"suitable"},
     {trg:"fließend",src:"fluent"}
@@ -455,8 +455,8 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
 ],ans:"Präteritum, dann Modaler Konj. II, dann würde + Inf.",hint:"طابق كل سياق بسجله النحوي: السيرة الذاتية تسرد حقائق ماضية، خطاب التقديم يستخدم إمكانية مساعدة مؤدبة، وجملة المقابلة تعبّر عن أمنية بأسلوب غير مباشر."},
         {type:"story",speaker:"verumius",mood:"nervous-excited",art:"de-vhs-office-desk",trg:"Verumius klickt auf 'Senden.' Stille. Dann dreht er sich zu Yilmaz. 'Das war's? Einfach so?' Yilmaz lächelt. 'Jetzt beginnt das Warten.'",src:"فيروميوس ينقر 'إرسال.' صمت. ثم يلتفت إلى يلماز. 'هذا كل شيء؟ هكذا ببساطة؟' يلماز تبتسم. 'الآن يبدأ الانتظار.'"},
         {type:"fb",s:"Er hat das Angebot {1} und fängt nächste Woche an.",a:["angenommen"],opts:["angenommen","abgelehnt","akzeptiert","abgesagt"],hint:"فكّر في معنى الكلمة.",sSrc:"He accepted the offer and starts next week."},
-        {type:"mc",q:"Was bedeutet 'der Beweis'?",opts:["the proof, the evidence","the advertisement","the classified ad","the presentation, the lecture"],ans:"the proof, the evidence",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} Sie das Angebot?",a:["akzeptieren"],opts:["die Auswahl","das Inserat","die Entlassung","akzeptieren"],hint:"أي كلمة تناسب in this context?",sSrc:"Do you accept the offer?"}
+        {type:"mc",q:"Was bedeutet 'der Beweis'?",opts:["the proof, the evidence","the advertisement","the classified ad","the presentation, the lecture"],ans:"the proof, the evidence",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} Sie das Angebot?",a:["akzeptieren"],opts:["die Auswahl","das Inserat","die Entlassung","akzeptieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Do you accept the offer?"}
       ]},
 // ─── L14: Alles auf dem Prüfstand ───
     {id:"deu_r13l9",title:"Alles auf dem Prüfstand",icon:"📋",xp:15,board:true,steps:[
@@ -511,19 +511,19 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
 ],ans:"Ich könnte Ihr Team verstärken, da ich drei Sprachen fließend spreche",hint:"استبدل 'kann' بصيغة Konjunktiv II. استخدم 'da' بدلاً من 'weil' لسجل أكثر رسمية."},
         {type:"fb",s:"Könnten Sie mir bitte {1}, wann das Gespräch stattfindet?",a:["sagen"],opts:["sagen","gesagt","sage","sagte"],hint:"Könnten Sie + مصدر في النهاية. طلب مؤدب للمعلومات.",sSrc:"هل يمكنكم إخباري متى تُعقد المقابلة؟"},
         {type:"mc",q:"'Angenehm! Mein Name ist Verumius.' Wann sagt man 'Angenehm!'?",opts:["Beim formellen Verabschieden","Bei einer Vorstellung","Beim Einreichen einer Beschwerde","Bei einer Bewerbung"],ans:"Bei einer Vorstellung",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'abhängig'?",opts:["pleasant, agreeable","the second language","dependent","the driver's license (Swiss)"],ans:"dependent",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Herr Müller ist heute {1}.",a:["abwesend"],opts:["die Zweitsprache","anstellen","der Profisportler","abwesend"],hint:"أي كلمة تناسب in this context?",sSrc:"Mr. Müller is absent today."},
+        {type:"mc",q:"Was bedeutet 'abhängig'?",opts:["pleasant, agreeable","the second language","dependent","the driver's license (Swiss)"],ans:"dependent",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Herr Müller ist heute {1}.",a:["abwesend"],opts:["die Zweitsprache","anstellen","der Profisportler","abwesend"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Mr. Müller is absent today."},
         {type:"mc",q:"Was bedeutet 'anwesend'?",opts:[
     "the professional athlete (female)",
     "to exhaust, to make an effort",
     "the provider, the supplier",
     "present, in attendance"
-],ans:"present, in attendance",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} Sie auf die Details.",a:["achten"],opts:["achten","abwesend","der Anbieter","die Mehrwertsteuer"],hint:"أي كلمة تناسب in this context?",sSrc:"Pay attention to the details."},
-        {type:"mc",q:"Was bedeutet 'ankündigen'?",opts:["the consulting, the advice","the mother tongue","to announce","to hire, to employ"],ans:"to announce",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wir müssen neue Computer {1}.",a:["anschaffen"],opts:["anwesend","anschaffen","die Beratung","anstrengen"],hint:"أي كلمة تناسب in this context?",sSrc:"We need to purchase new computers."},
-        {type:"mc",q:"Was bedeutet 'anstellen'?",opts:["pleasant, agreeable","to announce","the driver's license (Swiss)","to hire, to employ"],ans:"to hire, to employ",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to exhaust, to make an effort' auf Deutsch? {1}",a:["anstrengen"],opts:["angenehm","anstrengen","ankündigen","achten"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to exhaust, to make an effort' بالألمانية؟"}
+],ans:"present, in attendance",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} Sie auf die Details.",a:["achten"],opts:["achten","abwesend","der Anbieter","die Mehrwertsteuer"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Pay attention to the details."},
+        {type:"mc",q:"Was bedeutet 'ankündigen'?",opts:["the consulting, the advice","the mother tongue","to announce","to hire, to employ"],ans:"to announce",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wir müssen neue Computer {1}.",a:["anschaffen"],opts:["anwesend","anschaffen","die Beratung","anstrengen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"We need to purchase new computers."},
+        {type:"mc",q:"Was bedeutet 'anstellen'?",opts:["pleasant, agreeable","to announce","the driver's license (Swiss)","to hire, to employ"],ans:"to hire, to employ",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to exhaust, to make an effort' auf Deutsch? {1}",a:["anstrengen"],opts:["angenehm","anstrengen","ankündigen","achten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to exhaust, to make an effort' بالألمانية؟"}
       ]},
 // ─── L16: Die gute Nachricht ───
     {id:"deu_r13l10",title:"Die gute Nachricht",icon:"🎉",xp:15,board:true,steps:[
@@ -587,12 +587,12 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
 ],ans:"Könnten ist höflicher und formeller",hint:"Konjunktiv II للأفعال المساعدة يُلطّف الطلبات. المراسلات المهنية تفضّل دائماً الصيغة المؤدبة."},
         {type:"drag_fill",s:"Ich {1} mir, Ihnen {2}, dass ich die Stelle gern {3} möchte.",blanks:{"1":"erlaube","2":"mitzuteilen","3":"annehmen"},pool:["erlaube","mitzuteilen","annehmen","erlaubte","mitteilen","angenommen"],hint:"رد رسمي: 'أسمح لنفسي بإبلاغكم أنني أودّ قبول الوظيفة.'",sSrc:"أسمح لنفسي بإبلاغكم أنني أودّ قبول الوظيفة."},
         {type:"match",pairs:[
-    {trg:"Bewerbung",src:"application"},
-    {trg:"Lebenslauf",src:"CV/resume"},
+    {trg:"Bewerbung",src:"طلب التوظيف"},
+    {trg:"Lebenslauf",src:"السيرة الذاتية"},
     {trg:"Vorstellungsgespräch",src:"job interview"},
     {trg:"Kündigung",src:"termination"},
     {trg:"Mühe",src:"effort"},
-    {trg:"Erfolg",src:"success"}
+    {trg:"Erfolg",src:"النجاح"}
 ]},
         {type:"mc",q:"Lukas schreibt: 'Alter! Krass!' Die Firma schreibt: 'Sehr geehrter Herr Verumius.' Was zeigt dieser Kontrast?",opts:[
     "Lukas spricht kein gutes Deutsch",

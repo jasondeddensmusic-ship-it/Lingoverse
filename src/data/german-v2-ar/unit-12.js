@@ -34,7 +34,7 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
     {trg:"die Meinung",src:"the opinion"},
     {trg:"die Erfahrung",src:"the experience"},
     {trg:"die Nachricht",src:"the news/message"},
-    {trg:"hoffen",src:"to hope"},
+    {trg:"hoffen",src:"يأمل"},
     {trg:"denken",src:"to think"},
     {trg:"meinen",src:"to mean/think (opinion)"}
 ]},
@@ -70,7 +70,7 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"mc",q:"Was ist eine 'Übersetzung'?",opts:["A translation from one language to another","A type of contract","A job application","A salary increase"],ans:"A translation from one language to another",hint:"من الفعل 'übersetzen'. فكر في نقل الكلمات بين اللغات."},
         {type:"fb",s:"Das neue {1} dauert sechs Monate.",a:["Projekt"],opts:["Projekt","Gehalt","Vertrag","Büro"],hint:"عمل مخطط له هدف محدد وجدول زمني.",sSrc:"المشروع الجديد يستمر ستة أشهر."},
         {type:"match",pairs:[
-    {trg:"die Bewerbung",src:"application"},
+    {trg:"die Bewerbung",src:"طلب التوظيف"},
     {trg:"die Ausbildung",src:"training"},
     {trg:"das Gehalt",src:"salary"},
     {trg:"der Vertrag",src:"contract"},
@@ -207,10 +207,10 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
 ],ans:"Yes, it corrects the negative 'keinen Kredit' with the real situation",hint:"الجملة الأولى تحتوي 'keinen' (نفي). Sondern تستبدل وتصحح بالحقيقة."},
         {type:"fb",s:"Ich verstehe die Mitarbeiterin nicht, {1} sie redet schnell.",a:["denn"],opts:["denn","und","oder","sondern"],hint:"الجملة الثانية تعطي السبب الذي يجعلها صعبة الفهم.",sSrc:"لا أفهم الزميلة لأنها تتحدث بسرعة."},
         {type:"match",pairs:[
-    {trg:"und",src:"and"},
-    {trg:"oder",src:"or"},
-    {trg:"aber",src:"but"},
-    {trg:"denn",src:"because"},
+    {trg:"und",src:"و"},
+    {trg:"oder",src:"أو"},
+    {trg:"aber",src:"لكن"},
+    {trg:"denn",src:"لأن"},
     {trg:"sondern",src:"but rather"},
     {trg:"das Stück",src:"piece"}
 ]},
@@ -305,8 +305,8 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"match",pairs:[
     {trg:"lassen",src:"to let / to leave"},
     {trg:"schaffen",src:"to manage"},
-    {trg:"versuchen",src:"to try"},
-    {trg:"vorbereiten",src:"to prepare"},
+    {trg:"versuchen",src:"يحاول"},
+    {trg:"vorbereiten",src:"يحضّر"},
     {trg:"wählen",src:"to choose / to vote"},
     {trg:"prüfen",src:"to test"},
     {trg:"planen",src:"to plan"},
@@ -345,7 +345,7 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"drag_fill",s:"Er hat viel {1} bei der Arbeit, aber am Abend macht ihm Kochen großen {2}.",blanks:{"1":"Stress","2":"Spaß"},pool:["Stress","Spaß","Liebe","Ruhe","Lüge"],hint:"أولاً شيء سلبي في العمل، ثم شيء إيجابي في المساء.",sSrc:"لديه توتر كثير في العمل، لكن في المساء الطبخ يمنحه متعة كبيرة."},
         {type:"match",pairs:[
     {trg:"der Traum",src:"dream"},
-    {trg:"die Ruhe",src:"peace"},
+    {trg:"die Ruhe",src:"السلام"},
     {trg:"die Lüge",src:"lie"},
     {trg:"der Vorschlag",src:"suggestion"},
     {trg:"die Sache",src:"thing"}
@@ -404,7 +404,7 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
     {trg:"das Tablet",src:"the tablet"},
     {trg:"der Service",src:"the service"},
     {trg:"der Babysitter",src:"the babysitter"},
-    {trg:"die Chefin",src:"the female boss"}
+    {trg:"die Chefin",src:"المديرة"}
 ]}
       ]},
 // ─── L10: Verben für den Alltag ───
@@ -432,8 +432,8 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"match",pairs:[
     {trg:"ändern",src:"to change"},
     {trg:"kündigen",src:"to quit/cancel"},
-    {trg:"übersetzen",src:"to translate"},
-    {trg:"sich bewerben",src:"to apply"}
+    {trg:"übersetzen",src:"يترجم"},
+    {trg:"sich bewerben",src:"يتقدم بطلب"}
 ]}
       ]},
 // ─── L11: Entscheidungen und Eigenschaften ───
@@ -463,8 +463,8 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"match",pairs:[
     {trg:"ändern",src:"to change"},
     {trg:"kündigen",src:"to quit"},
-    {trg:"übersetzen",src:"to translate"},
-    {trg:"sich bewerben",src:"to apply"},
+    {trg:"übersetzen",src:"يترجم"},
+    {trg:"sich bewerben",src:"يتقدم بطلب"},
     {trg:"verbieten",src:"to forbid"},
     {trg:"leidtun",src:"to be sorry"},
     {trg:"bestätigen",src:"to confirm"},
@@ -478,7 +478,7 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
     {trg:"sich beschweren",src:"to complain"},
     {trg:"bestehen",src:"to pass (exam)"},
     {trg:"lügen",src:"to lie"},
-    {trg:"merken",src:"to notice"}
+    {trg:"merken",src:"يلاحظ"}
 ]}
       ]},
 // ─── L12: Entscheidungen und Eigenschaften (Teil 2) ───
@@ -497,12 +497,12 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"story",speaker:"verumius",mood:"proud",art:"de-montage-pfand",trg:"Bewerben, beenden, sich beschweren, kündigen. Vor sechs Monaten waren das nur Wörter im Wörterbuch. Jetzt sind es Werkzeuge. Meine Werkzeuge.",src:"يتقدم بطلب، ينهي، يشتكي، يستقيل. قبل ستة أشهر كانت هذه مجرد كلمات في قاموس. الآن هي أدوات. أدواتي."},
         {type:"mc",q:"'Bitte bestätigen Sie schriftlich.' Was soll die Person tun?",opts:["Confirm in writing","Speak loudly","Call back tomorrow","Visit the office"],ans:"Confirm in writing",hint:"هذه الصفة means in written form, not orally."},
         {type:"fb",s:"Wie war dein Tag? Sehr {1}! Ich brauche Ruhe.",a:"stressig",opts:["stressig","preiswert","privat","schriftlich"],hint:"فكّر في معنى الكلمة.",sSrc:"How was your day? Very stressful! I need rest."},
-        {type:"mc",q:"Was bedeutet 'eintragen'?",opts:["agreed / in agreement","to register / to enter (data)","stressful","private"],ans:"to register / to enter (data)",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Hast du das {1}e Buch gelesen?",a:["ganz"],opts:["einverstanden","ganz","preiswert","privat"],hint:"أي كلمة تناسب in this context?",sSrc:"Did you read the whole book?"},
-        {type:"mc",q:"Was bedeutet 'schrecklich'?",opts:["to lie (tell an untruth)","private","terrible / dreadful","affordable / good value"],ans:"terrible / dreadful",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1}! Ich habe überall gesucht.",a:["nirgends"],opts:["schrecklich","nirgends","wenigstens","bestätigen"],hint:"أي كلمة تناسب in this context?",sSrc:"Nowhere! I looked everywhere."},
-        {type:"mc",q:"Was bedeutet 'wenigstens'?",opts:["to be sorry","nowhere","to pass (an exam) / to exist","at least"],ans:"at least",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1}!",a:["einverstanden"],opts:["eintragen","merken","bestehen","einverstanden"],hint:"أي كلمة تناسب in this context?",sSrc:"Agreed!"}
+        {type:"mc",q:"Was bedeutet 'eintragen'?",opts:["agreed / in agreement","to register / to enter (data)","stressful","private"],ans:"to register / to enter (data)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Hast du das {1}e Buch gelesen?",a:["ganz"],opts:["einverstanden","ganz","preiswert","privat"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Did you read the whole book?"},
+        {type:"mc",q:"Was bedeutet 'schrecklich'?",opts:["to lie (tell an untruth)","private","terrible / dreadful","affordable / good value"],ans:"terrible / dreadful",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1}! Ich habe überall gesucht.",a:["nirgends"],opts:["schrecklich","nirgends","wenigstens","bestätigen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Nowhere! I looked everywhere."},
+        {type:"mc",q:"Was bedeutet 'wenigstens'?",opts:["to be sorry","nowhere","to pass (an exam) / to exist","at least"],ans:"at least",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1}!",a:["einverstanden"],opts:["eintragen","merken","bestehen","einverstanden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Agreed!"}
       ]},
 // ─── L13: Das letzte Kapitel ───
     {id:"deu_r12l12",title:"Das letzte Kapitel",icon:"📖",xp:15,board:true,steps:[
@@ -533,7 +533,7 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
     {trg:"die Geldbörse",src:"wallet"},
     {trg:"der Supermarkt",src:"supermarket"},
     {trg:"das Taschengeld",src:"pocket money"},
-    {trg:"die Universität",src:"university"}
+    {trg:"die Universität",src:"الجامعة"}
 ]}
       ]},
 // ─── L14: Beschreibungen und Abschluss ───
@@ -651,7 +651,7 @@ const UNIT_12_AR = {n:12,lang:"de",srcLang:"ar",track:"v2",title:"Halbjahresbila
         {type:"mc",q:"'Er kommt wahrscheinlich morgen.' What does 'wahrscheinlich' mean?",opts:["definitely","never","probably","unfortunately"],ans:"probably",hint:"هذه الكلمة المكونة من 17 حرفاً تنقسم إلى wahr (حقيقي) + scheinlich (يبدو)."},
         {type:"match",pairs:[
     {trg:"freundlich",src:"friendly"},
-    {trg:"traurig",src:"sad"},
+    {trg:"traurig",src:"حزين"},
     {trg:"wirklich",src:"really"},
     {trg:"doch",src:"yes (contradicting)"},
     {trg:"deshalb",src:"therefore"},

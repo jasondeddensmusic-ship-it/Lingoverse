@@ -23,7 +23,7 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
         {type:"teach",trg:"die Metapher",src:"استعارة",pos:"noun",gender:"f",note:"من اليونانية 'metaphora' (نقل). مؤنثة في الألمانية.\n'Das Leben ist eine Reise' استعارة كلاسيكية.",example:"A: Was ist eine Metapher?\nB: Ein Bild für etwas anderes.\nA: Zum Beispiel?\nB: 'Das Leben ist eine Reise.' Das Leben reist nicht wirklich.",exampleSrc:"أ: ما هي الاستعارة؟\nب: صورة لشيء آخر.\nأ: مثلاً؟\nب: 'الحياة رحلة.' الحياة لا تسافر فعلياً.",funFact:"من اليونانية 'metaphora' (نقل). مؤنثة في الألمانية رغم أن كثيرين يخمنون أنها محايدة. 'Das Leben ist eine Reise' استعارة كلاسيكية. يحب التحليل الأدبي الألماني تحديد Metaphern في النصوص."},
         {type:"teach",trg:"das Gleichnis",src:"مَثَل، قصة رمزية",pos:"noun",gender:"n",note:"من gleich (نفس/مساوٍ) + -nis (لاحقة الاسم المجرد).\nالأمثال الإنجيلية هي Gleichnisse.",example:"A: Was ist ein Gleichnis?\nB: Eine einfache Geschichte mit tieferer Bedeutung.\nA: Wie in der Bibel?\nB: Ja, aber auch Heinrichs Geschichten sind Gleichnisse.",exampleSrc:"أ: ما هو المثل الرمزي؟\nب: قصة بسيطة ذات معنى أعمق.\nأ: كما في الإنجيل؟\nب: نعم، لكن قصص هاينريش هي أيضاً أمثال رمزية.",funFact:"من 'gleich' (نفس/مساوٍ) + '-nis' (لاحقة الاسم المجرد). الأمثال الإنجيلية هي 'Gleichnisse'. قصص مخبزة هاينريش هي Gleichnisse: حكايات بسيطة تحمل معنى أعمق."},
         {type:"teach",trg:"der Dichter",src:"شاعر، كاتب أدبي",pos:"noun",gender:"m",note:"من dichten (نظم الشعر). Der Dichter.\nغوته هو 'der groesste deutsche Dichter'.",example:"A: Wer ist der bekannteste deutsche Dichter?\nB: Goethe. Ohne Zweifel.\nA: Was hat der Dichter geschrieben?\nB: Gedichte, Romane, Theaterstücke. Alles.",exampleSrc:"أ: من هو أشهر شاعر ألماني؟\nب: غوته. بلا شك.\nأ: ماذا كتب الشاعر؟\nب: قصائد وروايات ومسرحيات. كل شيء.",funFact:"'Dichter und Denker' (الشعراء والمفكرون) هو كيف يصف الألمان تقليدهم الثقافي. الكلمة تشمل الشعراء والكتّاب الأدبيين. غوته هو 'der groesste deutsche Dichter' (أعظم شاعر ألماني)."},
-        {type:"teach",trg:"die Dichterin",src:"شاعر، كاتب أدبي (female)",pos:"noun",gender:"f",note:"Dichter + -in. Die Dichterin.\nأنيته فون دروستيه-هولسهوف، إنغبورغ باخمان.",example:"A: Kennst du eine deutsche Dichterin?\nB: Ingeborg Bachmann. Eine großartige Dichterin.\nA: Was hat die Dichterin geschrieben?\nB: Gedichte und Erzählungen. Wunderbare Sprache.",exampleSrc:"أ: هل تعرف شاعرة ألمانية؟\nب: إنغبورغ باخمان. شاعرة رائعة.\nأ: ماذا كتبت الشاعرة؟\nب: قصائد وقصصاً. لغة بديعة.",funFact:"أنيته فون دروستيه-هولسهوف، إيلزه لاسكر-شولر، إنغبورغ باخمان: عظيمات Dichterinnen في ألمانيا يستحققن اللقب. لاحقة -in تُنشئ باستمرار الصيغة المؤنثة للمهن."}
+        {type:"teach",trg:"die Dichterin",src:"الشاعرة، الكاتبة الأدبية",pos:"noun",gender:"f",note:"Dichter + -in. Die Dichterin.\nأنيته فون دروستيه-هولسهوف، إنغبورغ باخمان.",example:"A: Kennst du eine deutsche Dichterin?\nB: Ingeborg Bachmann. Eine großartige Dichterin.\nA: Was hat die Dichterin geschrieben?\nB: Gedichte und Erzählungen. Wunderbare Sprache.",exampleSrc:"أ: هل تعرف شاعرة ألمانية؟\nب: إنغبورغ باخمان. شاعرة رائعة.\nأ: ماذا كتبت الشاعرة؟\nب: قصائد وقصصاً. لغة بديعة.",funFact:"أنيته فون دروستيه-هولسهوف، إيلزه لاسكر-شولر، إنغبورغ باخمان: عظيمات Dichterinnen في ألمانيا يستحققن اللقب. لاحقة -in تُنشئ باستمرار الصيغة المؤنثة للمهن."}
       ]},
 // ─── L2: Sonntagsbesuch (Teil 2) ───
     {id:"deu_r28l1b",title:"Sonntagsbesuch (Teil 2)",icon:"☕",xp:15,board:true,steps:[
@@ -51,12 +51,12 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "ausschliesslich modern und aktuell ist"
 ],ans:"keiner bestimmten Zeit zugeordnet ist und immer gueltig bleibt",hint:"فكّر في معنى الكلمة."},
         {type:"fb",s:"Goethe war der groesste deutsche {1}. Er schrieb Gedichte, Romane und Theaterstücke.",a:["Dichter"],opts:["Erzaehler","Zitator","Autor","Dichter"],hint:"فكّر في معنى الكلمة.",sSrc:"Goethe was the greatest German poet. He wrote poems, novels, and plays."},
-        {type:"mc",q:"Was bedeutet 'poetisch'?",opts:["poetic","to compose poetry, to write literary works","expression, manner of speaking","proverb"],ans:"poetic",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Sind Sprichwörter {1}?",a:["volkstümlich"],opts:["die Redensart","die Weisheit","zeitlos","volkstümlich"],hint:"أي كلمة تناسب in this context?",sSrc:"Are proverbs folk in nature?"},
-        {type:"mc",q:"Was bedeutet 'überliefert'?",opts:["handed down, transmitted","to compose poetry, to write literary works","to tell, to narrate","proverb"],ans:"handed down, transmitted",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to tell, to narrate' auf Deutsch? {1}",a:["erzählen"],opts:["die Metapher","dichten","erzählen","überliefert"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to tell, to narrate' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'dichten'?",opts:["metaphor","wisdom","handed down, transmitted","to compose poetry, to write literary works"],ans:"to compose poetry, to write literary works",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Darf ich Heinrich {1}?",a:["zitieren"],opts:["die Weisheit","die Erzählung","literarisch","zitieren"],hint:"أي كلمة تناسب in this context?",sSrc:"May I quote Heinrich?"}
+        {type:"mc",q:"Was bedeutet 'poetisch'?",opts:["poetic","to compose poetry, to write literary works","expression, manner of speaking","proverb"],ans:"poetic",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Sind Sprichwörter {1}?",a:["volkstümlich"],opts:["die Redensart","die Weisheit","zeitlos","volkstümlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Are proverbs folk in nature?"},
+        {type:"mc",q:"Was bedeutet 'überliefert'?",opts:["handed down, transmitted","to compose poetry, to write literary works","to tell, to narrate","proverb"],ans:"handed down, transmitted",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to tell, to narrate' auf Deutsch? {1}",a:["erzählen"],opts:["die Metapher","dichten","erzählen","überliefert"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to tell, to narrate' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'dichten'?",opts:["metaphor","wisdom","handed down, transmitted","to compose poetry, to write literary works"],ans:"to compose poetry, to write literary works",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Darf ich Heinrich {1}?",a:["zitieren"],opts:["die Weisheit","die Erzählung","literarisch","zitieren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"May I quote Heinrich?"}
       ]},
 // ─── L3: Dichtung und Wahrheit ───
     {id:"deu_r28l2",title:"Dichtung und Wahrheit",icon:"📚",xp:15,board:true,steps:[
@@ -108,9 +108,9 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
 ],ans:"Ort oder Szene einer Geschichte",hint:"'Schau-Platz' (مكان العرض). حيث تتكشف أحداث الحبكة."},
         {type:"story",speaker:"heinrich",mood:"satisfied",art:"de-hildi-living-room",trg:"Gut. Jetzt kennst du die Wörter. Jetzt kann ich dir erzählen, was mein Großvater mir erzählt hat. Und du kannst es aufschreiben. In den richtigen Wörtern.",src:"جيد. الآن تعرف الكلمات. الآن أستطيع أن أحكي لك ما حدثني به جدي. وتستطيع أنت تدوينه. بالكلمات الصحيحة."},
         {type:"fb",s:"Die {1} beschreibt, zu welchem Zeitabschnitt ein literarisches Werk gehoert, zum Beispiel Romantik oder Expressionismus.",a:["Epoche"],opts:["Gattung","Strophe","Lyrik","Epoche"],hint:"فكّر في معنى الكلمة.",sSrc:"The era describes which period a literary work belongs to, for example Romanticism or Expressionism."},
-        {type:"mc",q:"Was bedeutet 'der Schauplatz'?",opts:["epic","prose","setting, scene","era, literary period"],ans:"setting, scene",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Dieser Text hat eine {1}e Qualitaet.",a:["lyrisch"],opts:["das Gedicht","die Novelle","das Werk","lyrisch"],hint:"أي كلمة تناسب in this context?",sSrc:"This text has a lyrical quality."},
-        {type:"mc",q:"Was bedeutet 'dichterisch'?",opts:["poetic, of a poet","verse, line of poetry","novel","setting, scene"],ans:"poetic, of a poet",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'der Schauplatz'?",opts:["epic","prose","setting, scene","era, literary period"],ans:"setting, scene",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Dieser Text hat eine {1}e Qualitaet.",a:["lyrisch"],opts:["das Gedicht","die Novelle","das Werk","lyrisch"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"This text has a lyrical quality."},
+        {type:"mc",q:"Was bedeutet 'dichterisch'?",opts:["poetic, of a poet","verse, line of poetry","novel","setting, scene"],ans:"poetic, of a poet",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Er sagte, die Backstube sei sein Königreich ───
     {id:"deu_r28l3",title:"Er sagte, die Backstube sei sein Königreich",icon:"👑",xp:15,board:true,steps:[
@@ -174,18 +174,18 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "Es formuliert eine direkte Frage"
 ],ans:"Indirekte Rede markiert, was Heinrich sagte",hint:"هذه الصيغة الفعلية الخاصة تُشير إلى أنك تُبلّغ عن كلام شخص آخر، لا عن رأيك الخاص."},
         {type:"fb",s:"Heinrich erzählte, er {1} jeden Morgen um vier Uhr aufgestanden.",a:["sei"],opts:["sei","ist","war","wäre"],hint:"في وضع المراسل يتغير الفعل المساعد. صيغة الماضي + Partizip II تُعطي الماضي المُبلَّغ عنه.",sSrc:"أخبر هاينريش أنه كان يستيقظ في الساعة الرابعة كل صباح."},
-        {type:"mc",q:"Was bedeutet 'angeblich'?",opts:["quote, citation","to report","allegedly, supposedly","ambiguity, double meaning"],ans:"allegedly, supposedly",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} war es halb vier.",a:["anscheinend"],opts:["anscheinend","angeblich","das Symbol","betonen"],hint:"أي كلمة تناسب in this context?",sSrc:"Apparently it was half past three."},
-        {type:"mc",q:"Was bedeutet 'bekanntlich'?",opts:["as is well known","according to (preposition)","to mean, to think, to be of the opinion","obviously, evidently"],ans:"as is well known",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} hatte Heinrich recht.",a:["offenbar"],opts:["die Lektüre","offenbar","meinen","der Vergleich"],hint:"أي كلمة تناسب in this context?",sSrc:"Obviously Heinrich was right."},
+        {type:"mc",q:"Was bedeutet 'angeblich'?",opts:["quote, citation","to report","allegedly, supposedly","ambiguity, double meaning"],ans:"allegedly, supposedly",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} war es halb vier.",a:["anscheinend"],opts:["anscheinend","angeblich","das Symbol","betonen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Apparently it was half past three."},
+        {type:"mc",q:"Was bedeutet 'bekanntlich'?",opts:["as is well known","according to (preposition)","to mean, to think, to be of the opinion","obviously, evidently"],ans:"as is well known",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} hatte Heinrich recht.",a:["offenbar"],opts:["die Lektüre","offenbar","meinen","der Vergleich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Obviously Heinrich was right."},
         {type:"mc",q:"Was bedeutet 'berichten'?",opts:[
     "reading material, text being read",
     "to report",
     "perspective, point of view",
     "to mean, to think, to be of the opinion"
-],ans:"to report",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} ist lebendiger als beschreiben?",a:["schildern"],opts:["offenbar","bekanntlich","das Wortspiel","schildern"],hint:"أي كلمة تناسب in this context?",sSrc:"Schildern is more vivid than beschreiben?"},
-        {type:"mc",q:"Was bedeutet 'meinen'?",opts:["to mean, to think, to be of the opinion","quote, citation","allusion, reference","context"],ans:"to mean, to think, to be of the opinion",hint:"فكّر في what this word expresses in everyday conversation."}
+],ans:"to report",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} ist lebendiger als beschreiben?",a:["schildern"],opts:["offenbar","bekanntlich","das Wortspiel","schildern"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Schildern is more vivid than beschreiben?"},
+        {type:"mc",q:"Was bedeutet 'meinen'?",opts:["to mean, to think, to be of the opinion","quote, citation","allusion, reference","context"],ans:"to mean, to think, to be of the opinion",hint:"فكّر في what هذه الكلمة expresses in everyday conversation."}
       ]},
 // ─── L7: Als ob er alles wüsste ───
     {id:"deu_r28l4",title:"Als ob er alles wüsste",icon:"🎭",xp:15,board:true,steps:[
@@ -198,7 +198,7 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
         {type:"story",speaker:"narrator",mood:"observant",art:"de-hildi-living-room",trg:"Heinrich erzählt weiter. Er beschreibt die Baeckerei, als könnte er den Mehlstaub noch riechen. Seine Hände bewegen sich, als kneteten sie unsichtbaren Teig. Hildi schuettelt den Kopf, aber lächelt. Verumius schreibt und schreibt.",src:"يواصل هاينريش الحكي. يصف المخبزة كأنه لا يزال يشم غبار الطحين. تتحرك يداه كأنه يعجن عجيناً غير مرئي. تهز هيلدي رأسها لكنها تبتسم. يكتب فيروميوس ويكتب."},
         {type:"story",speaker:"hildi",mood:"amused",art:"de-hildi-living-room",trg:"Er tut immer so, als ob er alles wüsste. Als ob er der einzige Baecker der Welt gewesen wäre. Dabei hat Oma das halbe Geschäft geführt.",src:"دائماً يتصرف كأنه يعلم كل شيء. كأنه كان الخباز الوحيد في العالم. في حين أن جدتي هي التي كانت تُدير نصف العمل."},
         {type:"teach",trg:"der Erzaehler",src:"راوٍ",pos:"noun",gender:"m",note:"من erzählen (السرد). Der Erzaehler.\nفي Literaturanalyse: 'der allwissende Erzaehler' = الراوي العليم.",example:"A: Wer ist der Erzaehler dieser Geschichte?\nB: Ein allwissender Erzaehler. Er weiß alles.\nA: Und Heinrich? Ist er auch ein Erzaehler?\nB: Ja, ein geborener Erzaehler.",exampleSrc:"أ: من هو راوي هذه القصة؟\nب: راوٍ كلي المعرفة. يعرف كل شيء.\nأ: وهاينريش؟ هل هو أيضاً راوٍ؟\nب: نعم، راوٍ بالفطرة.",funFact:"في التحليل الأدبي: 'der allwissende Erzaehler' (الراوي العليم) يعرف كل شيء. 'Der Ich-Erzaehler' يروي بضمير المتكلم. هاينريش Erzaehler بالفطرة."},
-        {type:"teach",trg:"die Erzaehlerin",src:"راوٍ (female)",pos:"noun",gender:"f",note:"Erzaehler + -in. Die Erzaehlerin.\n'Die unzuverlässiige Erzaehlerin' = الراوية غير الموثوقة.",example:"A: Ist die Erzaehlerin zuverlässiig?\nB: Nein, sie ist eine unzuverlässiige Erzaehlerin.\nA: Man kann ihr nicht vertrauen?\nB: Genau. Sie verändert die Fakten.",exampleSrc:"أ: هل الراوية موثوقة؟\nب: لا، إنها راوية غير موثوقة.\nأ: لا تستطيع الوثوق بها؟\nب: بالضبط. تُغيّر الحقائق.",funFact:"'Die unzuverlässiige Erzaehlerin' (الراوية غير الموثوقة) أسلوب أدبي. لا يستطيع القارئ الثقة الكاملة بما ترويه. لاحقة -in تُنشئ الصيغة المؤنثة."},
+        {type:"teach",trg:"die Erzaehlerin",src:"الراوية",pos:"noun",gender:"f",note:"Erzaehler + -in. Die Erzaehlerin.\n'Die unzuverlässiige Erzaehlerin' = الراوية غير الموثوقة.",example:"A: Ist die Erzaehlerin zuverlässiig?\nB: Nein, sie ist eine unzuverlässiige Erzaehlerin.\nA: Man kann ihr nicht vertrauen?\nB: Genau. Sie verändert die Fakten.",exampleSrc:"أ: هل الراوية موثوقة؟\nب: لا، إنها راوية غير موثوقة.\nأ: لا تستطيع الوثوق بها؟\nب: بالضبط. تُغيّر الحقائق.",funFact:"'Die unzuverlässiige Erzaehlerin' (الراوية غير الموثوقة) أسلوب أدبي. لا يستطيع القارئ الثقة الكاملة بما ترويه. لاحقة -in تُنشئ الصيغة المؤنثة."},
         {type:"teach",trg:"die Nebenfigur",src:"شخصية ثانوية",pos:"noun",gender:"f",note:"Neben (جانبي/ثانوي) + Figur (شخصية).\nالممثلون المساندون. أساسيون لكن ليسوا النجوم.",example:"A: Ist Hildi eine Nebenfigur?\nB: In Heinrichs Geschichten, ja.\nA: Nebenfiguren bereichern die Handlung.\nB: Ohne sie wäre die Geschichte flach.",exampleSrc:"أ: هل هيلدي شخصية ثانوية؟\nب: في قصص هاينريش، نعم.\nأ: الشخصيات الثانوية تُثري الحبكة.\nب: بدونها ستكون القصة مسطحة.",funFact:"'Neben' (جانبي/ثانوي) + 'Figur' (شخصية). 'Nebenfiguren bereichern die Handlung' (الشخصيات الثانوية تُثري الحبكة). ليست النجمة، لكنها أساسية."},
         {type:"teach",trg:"die Tragödie",src:"مأساة، تراجيديا",pos:"noun",gender:"f",note:"من اليونانية 'tragodia' (أغنية الماعز). Die Tragödie.\n'Die Raeuber' لشيلر و'Faust' لغوته من الأدب العالمي.",example:"A: Ist 'Faust' eine Tragödie?\nB: Ja, eine der groessten deutschen Tragödien.\nA: Was macht eine Tragödie aus?\nB: Der Held scheitert an seinem Schicksal.",exampleSrc:"أ: هل 'فاوست' مأساة؟\nب: نعم، إحدى أعظم المآسي الألمانية.\nأ: ما الذي يُحدد المأساة؟\nب: يفشل البطل بسبب مصيره.",funFact:"من اليونانية 'tragodia' (أغنية الماعز). واحدة من أقدم الأشكال الدرامية. Tragödien الألمانية لشيلر وغوته من الأدب العالمي. 'Das ist eine Tragödie!' تُستخدم أيضاً في الدراما اليومية."},
         {type:"teach",trg:"die Poesie",src:"شِعر، جودة شعرية",pos:"noun",gender:"f",note:"من اليونانية 'poiesis' (الصنع/الخلق). أوسع من Lyrik:\nPoesie هو الجمال والفن في اللغة ذاتها.",example:"A: Gibt es Poesie in Sprichwörtern?\nB: Ja, alltägliche Poesie. Einfach und schoen.\nA: Poesie ist mehr als Gedichte?\nB: Ja, Poesie ist Schoenheit in der Sprache.",exampleSrc:"أ: هل في الأمثال شعر؟\nب: نعم، شعر يومي. بسيط وجميل.\nأ: الشعر أكثر من مجرد قصائد؟\nب: نعم، الشعر هو الجمال في اللغة.",funFact:"من اليونانية 'poiesis' (الصنع/الخلق). أوسع من Lyrik: Poesie هو الجمال والفن في اللغة ذاتها. 'Alltägliche Poesie' (شعر الحياة اليومية) يوجد في Sprichwörter."},
@@ -264,9 +264,9 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "sagt der Autor das Gegenteil von dem, was er meint",
     "ist sie nur fuer Kinder geschrieben"
 ],ans:"sagt der Autor das Gegenteil von dem, was er meint",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'metaphorisch'?",opts:["metaphorical","narrator","tragedy","humorous"],ans:"metaphorical",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Das Brot ist {1} für Arbeit.",a:["sinnbildlich"],opts:["sinnbildlich","ironisch","als wenn","tragisch"],hint:"أي كلمة تناسب in this context?",sSrc:"The bread is symbolic of work."},
-        {type:"mc",q:"Was bedeutet 'existieren'?",opts:["writer, author","to exist","narrator (female)","tragedy"],ans:"to exist",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'metaphorisch'?",opts:["metaphorical","narrator","tragedy","humorous"],ans:"metaphorical",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Das Brot ist {1} für Arbeit.",a:["sinnbildlich"],opts:["sinnbildlich","ironisch","als wenn","tragisch"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The bread is symbolic of work."},
+        {type:"mc",q:"Was bedeutet 'existieren'?",opts:["writer, author","to exist","narrator (female)","tragedy"],ans:"to exist",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L9: Laut Heinrich ───
     {id:"deu_r28l5",title:"Laut Heinrich",icon:"📜",xp:15,board:true,steps:[
@@ -338,11 +338,11 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     {trg:"einraeumen",src:"to concede"},
     {trg:"anmerken",src:"to remark"}
 ]},
-        {type:"mc",q:"Was bedeutet 'schriftlich'?",opts:["to inform, to communicate","colloquial, informal","figurative, metaphorical","written, in writing"],ans:"written, in writing",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Sprichwörter wurden {1} überliefert.",a:["mündlich"],opts:["mündlich","schriftlich","hinzufügen","im übertragenen Sinne"],hint:"أي كلمة تناسب in this context?",sSrc:"Proverbs were passed down orally."},
-        {type:"mc",q:"Was bedeutet 'äußern'?",opts:["figurative, metaphorical","to express, to utter","to concede, to admit","linguistic, language-related"],ans:"to express, to utter",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Moechtest du etwas {1}?",a:["hinzufügen"],opts:["hinzufügen","zweideutig","still","wörtlich"],hint:"أي كلمة تناسب in this context?",sSrc:"Would you like to add something?"},
-        {type:"mc",q:"Was bedeutet 'mitteilen'?",opts:["literal, word-for-word","colloquial, informal","the beginning","to inform, to communicate"],ans:"to inform, to communicate",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'schriftlich'?",opts:["to inform, to communicate","colloquial, informal","figurative, metaphorical","written, in writing"],ans:"written, in writing",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Sprichwörter wurden {1} überliefert.",a:["mündlich"],opts:["mündlich","schriftlich","hinzufügen","im übertragenen Sinne"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Proverbs were passed down orally."},
+        {type:"mc",q:"Was bedeutet 'äußern'?",opts:["figurative, metaphorical","to express, to utter","to concede, to admit","linguistic, language-related"],ans:"to express, to utter",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Moechtest du etwas {1}?",a:["hinzufügen"],opts:["hinzufügen","zweideutig","still","wörtlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Would you like to add something?"},
+        {type:"mc",q:"Was bedeutet 'mitteilen'?",opts:["literal, word-for-word","colloquial, informal","the beginning","to inform, to communicate"],ans:"to inform, to communicate",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L11: Morgenstund hat Gold im Mund ───
     {id:"deu_r28l6",title:"Morgenstund hat Gold im Mund",icon:"☀️",xp:15,board:true,steps:[
@@ -405,39 +405,39 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "If you start something, follow through (lit: whoever says A must also say B)",
     "the head",
     "Where there is a will, there is a way"
-],ans:"Nobody is born an expert (lit: no master has yet fallen from the sky)",hint:"فكّر في the meaning of this word in context."},
+],ans:"Nobody is born an expert (lit: no master has yet fallen from the sky)",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"{1}!",a:["Andere Laender, andere Sitten"],opts:[
     "der Stamm",
     "Es ist noch kein Meister vom Himmel gefallen",
     "Morgenstund hat Gold im Mund",
     "Andere Laender, andere Sitten"
-],hint:"أي كلمة تناسب in this context?",sSrc:"Different countries, different customs!"},
+],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Different countries, different customs!"},
         {type:"mc",q:"Was bedeutet 'Der Apfel fällt nicht weit vom Stamm'?",opts:[
     "Still waters run deep",
     "Practice makes perfect (lit: practice makes the master)",
     "the thumb",
     "The apple does not fall far from the tree"
-],ans:"The apple does not fall far from the tree",hint:"فكّر في the meaning of this word in context."},
+],ans:"The apple does not fall far from the tree",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"{1}.",a:["Wo ein Wille ist, ist auch ein Weg"],opts:[
     "Wo ein Wille ist, ist auch ein Weg",
     "Aller Anfang ist schwer",
     "Man soll den Tag nicht vor dem Abend loben",
     "Andere Laender, andere Sitten"
-],hint:"أي كلمة تناسب in this context?",sSrc:"Where there is a will, there is a way."},
+],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Where there is a will, there is a way."},
         {type:"mc",q:"Was bedeutet 'der Daumen'?",opts:[
     "the thumb",
     "Speech is silver, silence is gold",
     "Do not count your chickens before they hatch (lit: one should not praise the day before the evening)",
     "Nobody is born an expert (lit: no master has yet fallen from the sky)"
-],ans:"the thumb",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} des Baumes ist sehr dick.",a:["der Stamm"],opts:["Übung macht den Meister","Stille Wasser sind tief","der Stamm","der Schmetterling"],hint:"أي كلمة تناسب in this context?",sSrc:"The trunk of the tree is very thick."},
+],ans:"the thumb",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} des Baumes ist sehr dick.",a:["der Stamm"],opts:["Übung macht den Meister","Stille Wasser sind tief","der Stamm","der Schmetterling"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The trunk of the tree is very thick."},
         {type:"mc",q:"Was bedeutet 'der Schmetterling'?",opts:[
     "Different countries, different customs",
     "If you start something, follow through (lit: whoever says A must also say B)",
     "the trunk, the stem",
     "the butterfly"
-],ans:"the butterfly",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to symbolize, to represent' auf Deutsch? {1}",a:["versinnbildlichen"],opts:["Übung macht den Meister","versinnbildlichen","Stille Wasser sind tief","Man soll den Tag nicht vor dem Abend loben"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to symbolize, to represent' بالألمانية؟"}
+],ans:"the butterfly",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to symbolize, to represent' auf Deutsch? {1}",a:["versinnbildlichen"],opts:["Übung macht den Meister","versinnbildlichen","Stille Wasser sind tief","Man soll den Tag nicht vor dem Abend loben"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to symbolize, to represent' بالألمانية؟"}
       ]},
 // ─── L13: Alles auf dem Prüfstand ───
     {id:"deu_r28l7",title:"Alles auf dem Prüfstand",icon:"🎯",xp:15,board:true,steps:[
@@ -567,27 +567,27 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "gut beraten und informiert",
     "amuesiert und unterhalten"
 ],ans:"falsch beschuldigt oder verdaechtigt",hint:"فكّر في معنى الكلمة.",sSrc:"If someone says 'What are you implying about me?', they feel falsely accused or suspected."},
-        {type:"mc",q:"Was bedeutet 'sich beziehen auf'?",opts:["figuratively speaking","to refer to","taken literally","to reply, to retort"],ans:"to refer to",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Können Sie das Sprichwort {1}?",a:["umschreiben"],opts:["bildlich gesprochen","wörtlich genommen","umschreiben","unterstellen"],hint:"أي كلمة تناسب in this context?",sSrc:"Can you paraphrase the proverb?"},
+        {type:"mc",q:"Was bedeutet 'sich beziehen auf'?",opts:["figuratively speaking","to refer to","taken literally","to reply, to retort"],ans:"to refer to",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Können Sie das Sprichwort {1}?",a:["umschreiben"],opts:["bildlich gesprochen","wörtlich genommen","umschreiben","unterstellen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you paraphrase the proverb?"},
         {type:"mc",q:"Was bedeutet 'begründen'?",opts:[
     "taken literally",
     "to justify, to give reasons for",
     "to buy a pig in a poke (lit: to buy the cat in the bag)",
     "supposed, alleged"
-],ans:"to justify, to give reasons for",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to reply, to retort' auf Deutsch? {1}",a:["entgegnen"],opts:["entgegnen","vermeintlich","bildlich gesprochen","heissen"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to reply, to retort' بالألمانية؟"},
+],ans:"to justify, to give reasons for",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to reply, to retort' auf Deutsch? {1}",a:["entgegnen"],opts:["entgegnen","vermeintlich","bildlich gesprochen","heissen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to reply, to retort' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'vermitteln'?",opts:[
     "figuratively speaking",
     "to kill two birds with one stone (lit: to hit two flies with one swatter)",
     "to convey, to mediate",
     "to buy a pig in a poke (lit: to buy the cat in the bag)"
-],ans:"to convey, to mediate",hint:"فكّر في the meaning of this word in context."},
+],ans:"to convey, to mediate",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wie sagt man 'to be called, to mean' auf Deutsch? {1}",a:["heissen"],opts:[
     "sich beziehen auf",
     "Was Haenschen nicht lernt, lernt Hans nimmermehr",
     "heissen",
     "Wie man in den Wald hineinruft, so schallt es heraus"
-],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to be called, to mean' بالألمانية؟"}
+],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to be called, to mean' بالألمانية؟"}
       ]}
   ]};
 

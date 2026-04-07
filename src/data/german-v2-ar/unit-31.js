@@ -92,8 +92,8 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"mc",q:"Wettbewerbsfaehig bedeutet...",opts:["nachhaltig und ressourcenschonend","konkurrenzfaehig (competitive)","börsennotiert","profitabel"],ans:"konkurrenzfaehig (competitive)",hint:"'Wettbewerb' تعني منافسة. 'Faehig' تعني قادر. قادر على المنافسة."},
         {type:"story",speaker:"verumius",mood:"amused",art:"de-ber-cafe-closing-newspaper",trg:"Ich habe gerade eine ganze Seite Börsenbericht gelesen. Vor drei Monaten hätte ich kein Wort verstanden. Jetzt verstehe ich fast alles. Fast.",src:"قرأت للتو صفحة كاملة من تقرير سوق الأسهم. قبل ثلاثة أشهر لم أكن لأفهم كلمة واحدة. الآن أفهم كل شيء تقريباً. تقريباً."},
         {type:"fb",s:"Deutschland ist eine {1} Volkswirtschaft mit freiem Markt.",a:["wettbewerbsfaehige"],opts:["börsennotierte","profitabel","gewinnbringende","wettbewerbsfaehige"],hint:"فكّر في معنى الكلمة.",sSrc:"Germany is a competitive economy with a free market."},
-        {type:"mc",q:"Was bedeutet 'anlegen'?",opts:["listed on the stock exchange","to invest (money)","profitable","investment (the act)"],ans:"to invest (money)",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} auch Anleger?",a:["profitieren"],opts:["profitieren","die Anlage","die Börse","die Nachfrage"],hint:"أي كلمة تناسب in this context?",sSrc:"Do investors benefit too?"}
+        {type:"mc",q:"Was bedeutet 'anlegen'?",opts:["listed on the stock exchange","to invest (money)","profitable","investment (the act)"],ans:"to invest (money)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} auch Anleger?",a:["profitieren"],opts:["profitieren","die Anlage","die Börse","die Nachfrage"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Do investors benefit too?"}
       ]},
 // ─── L5: Bis Dezember werden Sie bezahlt haben ───
     {id:"deu_r31l3",title:"Bis Dezember werden Sie bezahlt haben",icon:"📅",xp:15,board:true,steps:[
@@ -154,7 +154,7 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
     "niemals unter diesen Bedingungen",
     "rückblickend betrachtet"
 ],ans:"wahrscheinlich, nach Einschätzung",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'konjunkturell'?",opts:["related to the business cycle","to save, to cut costs","raw material","presumably, expected"],ans:"related to the business cycle",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'konjunkturell'?",opts:["related to the business cycle","to save, to cut costs","raw material","presumably, expected"],ans:"related to the business cycle",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L7: Da die Wirtschaft wächst ───
     {id:"deu_r31l4",title:"Da die Wirtschaft wächst",icon:"📈",xp:15,board:true,steps:[
@@ -268,7 +268,7 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"story",speaker:"mia",mood:"resolute",art:"de-ber-park-sunset",trg:"Ich werde das Elterngeld in Anspruch nehmen. Und Lukas wird seine Musikschule finanzieren. Wir nehmen die Veraenderungen in Kauf. So funktioniert das hier.",src:"سأطالب بإعانة الوالدين. وسيموّل لوكاس مدرسته الموسيقية. نقبل التغييرات. هكذا تسير الأمور هنا."},
         {type:"story",speaker:"verumius",mood:"thoughtful",art:"de-ber-park-walking",trg:"In Betracht ziehen, zur Verfügung stehen, in Kauf nehmen. Das sind keine Wörter. Das sind Werkzeuge. Ohne sie kommt man in Deutschland nicht weiter.",src:"تأمّل، كن متاحًا، اقبل السلبيات. هذه ليست مجرد كلمات. إنها أدوات. بدونها لا يمكنك الاستمرار في ألمانيا."},
         {type:"fb",s:"Kosten von der Steuer {1} spart Geld.",a:["absetzen"],opts:["umsetzen","einsetzen","aufsetzen","absetzen"],hint:"فكّر في معنى الكلمة.",sSrc:"Deducting costs from taxes saves money."},
-        {type:"mc",q:"Was bedeutet 'Einfluss nehmen auf'?",opts:["to exert influence on","monthly","net salary, take-home pay","to deduct (from taxes), to sell, to remove"],ans:"to exert influence on",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'Einfluss nehmen auf'?",opts:["to exert influence on","monthly","net salary, take-home pay","to deduct (from taxes), to sell, to remove"],ans:"to exert influence on",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L10: Bilanz ziehen ───
     {id:"deu_r31l6",title:"Bilanz ziehen",icon:"🎵",xp:15,board:true,steps:[
@@ -317,9 +317,9 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"story",speaker:"lukas",mood:"content",art:"de-ber-kreuzberg-evening",trg:"Weißt du, Verumius, Buchführung ist nicht so schlimm. Man muss nur jeden Beleg zur Kenntnis nehmen. Und genug Rücklagen bilden. Dann läuft der Laden.",src:"تعلم يا فيروميوس، مسك الدفاتر ليس بهذا السوء. عليك فقط الإحاطة علمًا بكل إيصال. وبناء احتياطيات كافية. عندها يسير المحل."},
         {type:"story",speaker:"verumius",mood:"warm",art:"de-ber-verumius-laughing",trg:"Lukas, der Musiker, erklärt mir Buchführung. Berlin verändert jeden.",src:"لوكاس، الموسيقي، يشرح لي مسك الدفاتر. برلين تغير الجميع."},
         {type:"fb",s:"Darf man die Ergebnisse in {1} stellen?",a:["Frage"],opts:["Kenntnis","Anspruch","Bezug","Frage"],hint:"فكّر في معنى الكلمة.",sSrc:"May one call the results into question?"},
-        {type:"mc",q:"Was bedeutet 'Monopol'?",opts:["to take note of, to acknowledge","monopoly","fund (investment)","equity, own capital"],ans:"monopoly",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Die zwei Konzerne werden {1}.",a:["fusionieren"],opts:["fusionieren","Geschäftsbericht","solvent","Gesamtkosten"],hint:"أي كلمة تناسب in this context?",sSrc:"The two corporations will merge."},
-        {type:"mc",q:"Was bedeutet 'bilanzieren'?",opts:["bookkeeping","to call into question, to challenge","to refer to","to draw up a balance sheet, to take stock"],ans:"to draw up a balance sheet, to take stock",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'Monopol'?",opts:["to take note of, to acknowledge","monopoly","fund (investment)","equity, own capital"],ans:"monopoly",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Die zwei Konzerne werden {1}.",a:["fusionieren"],opts:["fusionieren","Geschäftsbericht","solvent","Gesamtkosten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The two corporations will merge."},
+        {type:"mc",q:"Was bedeutet 'bilanzieren'?",opts:["bookkeeping","to call into question, to challenge","to refer to","to draw up a balance sheet, to take stock"],ans:"to draw up a balance sheet, to take stock",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L12: Zahlen, Daten, Fakten ───
     {id:"deu_r31l7",title:"Zahlen, Daten, Fakten",icon:"📊",xp:15,board:true,steps:[
@@ -377,7 +377,7 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"mc",q:"In einem Geschäftsbericht steht: 'Wir müssen den veränderten Bedingungen Rechnung ___.' Welches Verb vervollständigt die NVV?",opts:["tragen","stellen","nehmen","ziehen"],ans:"tragen",hint:"تركيب رسمي ثابت لاسم وفعل يدل على إعطاء شيء وزنه المناسب. الاسم مرتبط بالحسابات أو المحاسبة."},
         {type:"story",speaker:"verumius",mood:"confident",art:"de-ber-library-leaving",trg:"Zahlen, Daten, Fakten. Ich habe unter Beweis gestellt, dass ich die Wirtschaftssprache beherrsche. Zumindest auf dem Papier. Morgen kommt die Praxis.",src:"أرقام وبيانات وحقائق. لقد أثبتت أنني أتقن لغة الاقتصاد. على الورق على الأقل. غدًا يأتي التطبيق العملي."},
         {type:"fb",s:"Viele Firmen {1} ihre IT-Abteilung an externe Dienstleister.",a:["outsourcen"],opts:["outsourcen","budgetieren","liquidieren","amortisieren"],hint:"فكّر في معنى الكلمة.",sSrc:"Many companies outsource their IT department to external providers."},
-        {type:"mc",q:"Was bedeutet 'quartalweise'?",opts:["quarterly","employee","to liquidate, to wind up","to amortize, to recoup"],ans:"quarterly",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'quartalweise'?",opts:["quarterly","employee","to liquidate, to wind up","to amortize, to recoup"],ans:"quarterly",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L14: Das System verstehen ───
     {id:"deu_r31l8",title:"Das System verstehen",icon:"🏛️",xp:15,board:true,steps:[
@@ -429,8 +429,8 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
     {trg:"Dividenden ausschütten",src:"to distribute dividends"}
 ]},
         {type:"fb",s:"Er investiert nicht; er hat {1} kein Kapital.",a:["nämlich"],opts:["zumal","denn","schließlich","nämlich"],hint:"فكّر في معنى الكلمة.",sSrc:"He does not invest; he has no capital, you see."},
-        {type:"mc",q:"Was bedeutet 'insofern als'?",opts:["after all, ultimately","to generate (profit/revenue)","namely, specifically (formal)","insofar as"],ans:"insofar as",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Einige Branchen profitieren, {1} die Techbranche.",a:["namentlich"],opts:["tilgen","namentlich","da","zum Ausdruck bringen"],hint:"أي كلمة تناسب in this context?",sSrc:"Some sectors profit, namely the tech sector."}
+        {type:"mc",q:"Was bedeutet 'insofern als'?",opts:["after all, ultimately","to generate (profit/revenue)","namely, specifically (formal)","insofar as"],ans:"insofar as",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Einige Branchen profitieren, {1} die Techbranche.",a:["namentlich"],opts:["tilgen","namentlich","da","zum Ausdruck bringen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Some sectors profit, namely the tech sector."}
       ]}
   ]};
 

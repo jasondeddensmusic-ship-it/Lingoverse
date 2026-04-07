@@ -46,8 +46,8 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
     "sehr abstrakt und vollkommen theoretisch"
 ],ans:"klar und glaubwuerdig, sodass man zustimmt",hint:"فكّر في معنى الكلمة."},
         {type:"fb",s:"Der Referent {1} seinen Vortrag mit einer persoenlichen Anekdote ein.",a:["leitet"],opts:["traegt","leitet","stellt","gliedert"],hint:"فكّر في معنى الكلمة.",sSrc:"The speaker introduces his presentation with a personal anecdote."},
-        {type:"mc",q:"Was bedeutet 'strukturiert'?",opts:["structured, organized","sequence, procedure","preparation","vivid, illustrative"],ans:"structured, organized",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to introduce, to open' auf Deutsch? {1}",a:["einleiten"],opts:["die Praesentation","das Schlusswort","der Aufbau","einleiten"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to introduce, to open' بالألمانية؟"}
+        {type:"mc",q:"Was bedeutet 'strukturiert'?",opts:["structured, organized","sequence, procedure","preparation","vivid, illustrative"],ans:"structured, organized",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to introduce, to open' auf Deutsch? {1}",a:["einleiten"],opts:["die Praesentation","das Schlusswort","der Aufbau","einleiten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to introduce, to open' بالألمانية؟"}
       ]},
 // ─── L3: Fachbegriffe und Formeln ───
     {id:"deu_r27l2",title:"Fachbegriffe und Formeln",icon:"📚",xp:15,board:true,steps:[
@@ -62,9 +62,9 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
         {type:"teach",trg:"der Übergang",src:"انتقال، مرور",pos:"noun",gender:"m",note:"Über (فوق/عبر) + Gang (مشية/ممر).\nبينما Überleitung تتعلق بالتوجيه، فإن Übergang يتعلق بالانتقال نفسه.",example:"A: Der Übergang zum nächssten Thema war fliessend.\nB: Gut, das war mein Ziel.\nA: Achte auf den Übergang zwischen den Teilen.\nB: Ja, sonst wird es holprig.",exampleSrc:"أ: كان الانتقال إلى الموضوع التالي سلساً.\nب: جيد، كان ذلك هدفي.\nأ: انتبه إلى الانتقال بين الأجزاء.\nب: نعم، وإلا سيكون متقطعاً.",funFact:"'Über' (فوق/عبر) + 'Gang' (مشية/ممر). بينما Überleitung تتعلق بالتوجيه، فإن Übergang يتعلق بالانتقال نفسه. 'Der Übergang zum nächssten Thema' (الانتقال إلى الموضوع التالي)."},
         {type:"teach",trg:"die Formulierung",src:"صياغة، تعبير",pos:"noun",gender:"f",note:"من 'formulieren' (يُصيغ/يُحدّد).\nتُقدّر ثقافة الأعمال الألمانية Formulierungen الدقيقة.",example:"A: Die Formulierung ist zu kompliziert.\nB: Ich aendere sie, einfacher.\nA: Eine gute Formulierung ist kurz und klar.\nB: Wie wäre es mit diesem Satz?",exampleSrc:"أ: الصياغة معقدة جداً.\nب: سأغيّرها، بشكل أبسط.\nأ: الصياغة الجيدة قصيرة وواضحة.\nب: ماذا عن هذه الجملة؟",funFact:"من 'formulieren' (يُصيغ/يُحدّد). 'Eine glückliche Formulierung' (صياغة موفّقة) يمكن أن تُحدث فرقاً في العرض التقديمي. تُقدّر ثقافة الأعمال الألمانية Formulierungen الدقيقة."},
         {type:"teach",trg:"der Zuhörer",src:"مستمع",pos:"noun",gender:"m",note:"Zu (إلى) + Hoerer (مستمع). الاستماع الفعّال:\n'zuhören' أكثر انتباهاً من مجرد 'hören.'",example:"A: Wie viele Zuhörer waren da?\nB: Ungefähr zwanzig Zuhörer.\nA: Waren die Zuhörer interessiert?\nB: Ja, sie haben viele Fragen gestellt.",exampleSrc:"أ: كم كان عدد المستمعين؟\nب: نحو عشرين مستمعاً.\nأ: هل كان المستمعون مهتمين؟\nب: نعم، طرحوا أسئلة كثيرة.",funFact:"'Zu' (إلى) + 'Hoerer' (مستمع). 'Die Zuhörer fesseln' (استقطاب المستمعين) هو هدف كل متحدث. الاستماع الفعّال: 'zuhören' أكثر انتباهاً من مجرد 'hören.'"},
-        {type:"teach",trg:"die Zuhörerin",src:"مستمع (female)",pos:"noun",gender:"f",note:"Zuhörer + '-in.' الصيغة المؤنثة المعتادة.\nتستخدم الألمانية الحديثة 'Zuhörerinnen und Zuhörer' بشكل شامل.",example:"A: Die Zuhörerin in der ersten Reihe nickte.\nB: Ja, sie war sehr aufmerksam.\nA: Jede Zuhörerin hatte ein Handout.\nB: Gut, so konnten alle folgen.",exampleSrc:"أ: المستمعة في الصف الأول أومأت برأسها.\nب: نعم، كانت منتبهة جداً.\nأ: كل مستمعة كان لديها نشرة توزيع.\nب: جيد، هكذا استطاع الجميع المتابعة.",funFact:"Zuhörer + '-in.' الصيغة المؤنثة المعتادة. في الألمانية الحديثة، يستخدم كثير من المتحدثين 'Zuhörerinnen und Zuhörer' للتوجّه إلى الجمهور كاملاً بشكل شامل."},
+        {type:"teach",trg:"die Zuhörerin",src:"المستمعة",pos:"noun",gender:"f",note:"Zuhörer + '-in.' الصيغة المؤنثة المعتادة.\nتستخدم الألمانية الحديثة 'Zuhörerinnen und Zuhörer' بشكل شامل.",example:"A: Die Zuhörerin in der ersten Reihe nickte.\nB: Ja, sie war sehr aufmerksam.\nA: Jede Zuhörerin hatte ein Handout.\nB: Gut, so konnten alle folgen.",exampleSrc:"أ: المستمعة في الصف الأول أومأت برأسها.\nب: نعم، كانت منتبهة جداً.\nأ: كل مستمعة كان لديها نشرة توزيع.\nب: جيد، هكذا استطاع الجميع المتابعة.",funFact:"Zuhörer + '-in.' الصيغة المؤنثة المعتادة. في الألمانية الحديثة، يستخدم كثير من المتحدثين 'Zuhörerinnen und Zuhörer' للتوجّه إلى الجمهور كاملاً بشكل شامل."},
         {type:"teach",trg:"der Referent",src:"متحدث، مُقدّم",pos:"noun",gender:"m",note:"من اللاتينية 'referens' (من يُقدّم تقريراً). أكثر رسميةً من 'Sprecher.'\nتصريف N: Referent, Referenten.",example:"A: Wer ist der Referent heute?\nB: Der Referent ist Professor Mueller.\nA: Ist der Referent gut vorbereitet?\nB: Ja, er ist ein erfahrener Referent.",exampleSrc:"أ: من هو المتحدث اليوم؟\nب: المتحدث هو البروفيسور مولر.\nأ: هل المتحدث مستعد جيداً؟\nب: نعم، إنه متحدث ذو خبرة.",funFact:"من اللاتينية 'referens' (من يُقدّم تقريراً). أكثر رسميةً من 'Sprecher.' في المؤتمرات الألمانية، Referent هو الخبير الذي يُلقي Fachvortrag. تصريف N: Referent, Referenten."},
-        {type:"teach",trg:"die Referentin",src:"متحدث، مُقدّم (female)",pos:"noun",gender:"f",note:"Referent + '-in.' الصيغة المؤنثة المعتادة.\nفي المؤتمرات، تُذكر Referentin باسمها.",example:"A: Die Referentin hat brillant gesprochen.\nB: Ja, die Referentin war überzeugend.\nA: Kennst du die Referentin?\nB: Ja, sie ist Expertin für Projektmanagement.",exampleSrc:"أ: ألقت المتحدثة حديثاً رائعاً.\nب: نعم، كانت المتحدثة مقنعة.\nأ: هل تعرف المتحدثة؟\nب: نعم، إنها خبيرة في إدارة المشاريع.",funFact:"Referent + '-in.' 'Die Referentin hat überzeugend vorgetragen' (قدّمت المتحدثة بشكل مُقنع) ثناءٌ رفيعٌ في المؤتمر الألماني."}
+        {type:"teach",trg:"die Referentin",src:"المتحدثة، المُقدّمة",pos:"noun",gender:"f",note:"Referent + '-in.' الصيغة المؤنثة المعتادة.\nفي المؤتمرات، تُذكر Referentin باسمها.",example:"A: Die Referentin hat brillant gesprochen.\nB: Ja, die Referentin war überzeugend.\nA: Kennst du die Referentin?\nB: Ja, sie ist Expertin für Projektmanagement.",exampleSrc:"أ: ألقت المتحدثة حديثاً رائعاً.\nب: نعم، كانت المتحدثة مقنعة.\nأ: هل تعرف المتحدثة؟\nب: نعم، إنها خبيرة في إدارة المشاريع.",funFact:"Referent + '-in.' 'Die Referentin hat überzeugend vorgetragen' (قدّمت المتحدثة بشكل مُقنع) ثناءٌ رفيعٌ في المؤتمر الألماني."}
       ]},
 // ─── L4: Fachbegriffe und Formeln (Teil 2) ───
     {id:"deu_r27l2b",title:"Fachbegriffe und Formeln (Teil 2)",icon:"📚",xp:15,board:true,steps:[
@@ -90,7 +90,7 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
         {type:"story",speaker:"verumius",mood:"resolute",art:"de-office-morning",trg:"Die Wörter hat er. Jetzt fehlt die Stimme. Er schliesst die Liste und öffnet Mias Nachricht: 'Morgen früh, Besprechungsraum. Ich bin gnadenlos.'",src:"لديه الكلمات. الآن يحتاج إلى الصوت. يغلق القائمة ويفتح رسالة ميا: 'صباح الغد، غرفة الاجتماعات. سأكون بلا رحمة.'"},
         {type:"fb",s:"Eine {1} Erklaerung macht das Abstrakte sichtbar.",a:["anschauliche"],opts:["anschauliche","praegnante","professionelle","ausfuehrliche"],hint:"فكّر في معنى الكلمة.",sSrc:"A vivid explanation makes the abstract visible."},
         {type:"mc",q:"In der deutschen Berufskultur gilt 'professionell' als...",opts:["ein besonderes Lob","die absolute Mindesterwartung","eine Beleidigung","eine Uebertreibung"],ans:"die absolute Mindesterwartung",hint:"ليس compliment but a baseline. The minimum standard expected in German business culture."},
-        {type:"mc",q:"Was bedeutet 'kompetent'?",opts:["wording, phrasing","concise, pithy","overview","competent, knowledgeable"],ans:"competent, knowledgeable",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'kompetent'?",opts:["wording, phrasing","concise, pithy","overview","competent, knowledgeable"],ans:"competent, knowledgeable",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: So klar, dass alle nicken ───
     {id:"deu_r27l3",title:"So klar, dass alle nicken",icon:"💡",xp:15,board:true,steps:[
@@ -146,10 +146,10 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
         {type:"story",speaker:"mia",mood:"wry",art:"de-office-meetingroom",trg:"Sieben Seiten auf drei gekuerzt. Du wirst mir später danken.",src:"سبع صفحات تقلّصت إلى ثلاث. ستشكرني لاحقاً."},
         {type:"mc",q:"Was bedeutet 'demnach' in einem Vortrag?",opts:["trotzdem","folglich, dementsprechend","vorher","obwohl"],ans:"folglich, dementsprechend",hint:"فكّر في معنى الكلمة."},
         {type:"fb",s:"Der Referent wollte die Kernaussage besonders {1}.",a:["hervorheben"],opts:["hervorheben","aufzeigen","skizzieren","hinweisen"],hint:"فكّر في معنى الكلمة.",sSrc:"The speaker wanted to particularly emphasize the key message."},
-        {type:"mc",q:"Was bedeutet 'der Redebeitrag'?",opts:["to emphasize, to highlight","finally, ultimately","furthermore, moreover","spoken contribution"],ans:"spoken contribution",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} sparen wir Kosten.",a:["erstens"],opts:["darstellen","demnach","die Tagung","erstens"],hint:"أي كلمة تناسب in this context?",sSrc:"Firstly, we save costs."},
-        {type:"mc",q:"Was bedeutet 'ferner'?",opts:["firstly","finally, ultimately","meeting, session","furthermore, moreover"],ans:"furthermore, moreover",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Kann man das anders {1}?",a:["darstellen"],opts:["erstens","der Konferenzraum","das Rahmenprogramm","darstellen"],hint:"أي كلمة تناسب in this context?",sSrc:"Can you present that differently?"}
+        {type:"mc",q:"Was bedeutet 'der Redebeitrag'?",opts:["to emphasize, to highlight","finally, ultimately","furthermore, moreover","spoken contribution"],ans:"spoken contribution",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} sparen wir Kosten.",a:["erstens"],opts:["darstellen","demnach","die Tagung","erstens"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Firstly, we save costs."},
+        {type:"mc",q:"Was bedeutet 'ferner'?",opts:["firstly","finally, ultimately","meeting, session","furthermore, moreover"],ans:"furthermore, moreover",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Kann man das anders {1}?",a:["darstellen"],opts:["erstens","der Konferenzraum","das Rahmenprogramm","darstellen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you present that differently?"}
       ]},
 // ─── L7: Gesetzt den Fall ───
     {id:"deu_r27l4",title:"Gesetzt den Fall",icon:"⚖️",xp:15,board:true,steps:[
@@ -205,9 +205,9 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
     {trg:"Konsens",src:"consensus"},
     {trg:"Kompromiss",src:"compromise"}
 ]},
-        {type:"mc",q:"Was bedeutet 'konstruktiv'?",opts:["provided that, on the condition that","constructive","factual, objective, on-topic","consensus"],ans:"constructive",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Bitte bleiben Sie {1}.",a:["sachbezogen"],opts:["der Meinungsaustausch","die Podiumsdiskussion","der Konsens","sachbezogen"],hint:"أي كلمة تناسب in this context?",sSrc:"Please stay on topic."},
-        {type:"mc",q:"Was bedeutet 'ergebnisorientiert'?",opts:["results-oriented","consensus","counterproposal","moderation, hosting"],ans:"results-oriented",hint:"فكّر في the meaning of this word in context."},
+        {type:"mc",q:"Was bedeutet 'konstruktiv'?",opts:["provided that, on the condition that","constructive","factual, objective, on-topic","consensus"],ans:"constructive",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Bitte bleiben Sie {1}.",a:["sachbezogen"],opts:["der Meinungsaustausch","die Podiumsdiskussion","der Konsens","sachbezogen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Please stay on topic."},
+        {type:"mc",q:"Was bedeutet 'ergebnisorientiert'?",opts:["results-oriented","consensus","counterproposal","moderation, hosting"],ans:"results-oriented",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wir müssen dieses Missverständnis {1}.",a:["klären"],opts:["klären","stellen","leiten","moderieren"],hint:"فكّر في معنى الكلمة.",sSrc:"We must clarify this misunderstanding."}
       ]},
 // ─── L9: Damit alle verstehen ───
@@ -278,12 +278,12 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
     {trg:"treffend",src:"apt/to the point"},
     {trg:"praxisnah",src:"practice-oriented"}
 ]},
-        {type:"mc",q:"Was bedeutet 'fachkundig'?",opts:["guide, manual","expert, knowledgeable","punchline","in keyword form, using bullet points"],ans:"expert, knowledgeable",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Fasse den Vortrag {1} zusammen.",a:["stichwortartig"],opts:["stichwortartig","nahelegen","die Ergebnispraesentation","fachkundig"],hint:"أي كلمة تناسب in this context?",sSrc:"Summarize the presentation in keyword form."},
-        {type:"mc",q:"Was bedeutet 'ergänzen'?",opts:["conclusive, logical","expert, knowledgeable","to supplement, to add to","guide, manual"],ans:"to supplement, to add to",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ich möchte diese Aussage {1}.",a:["bekraeftigen"],opts:["präzisieren","bekraeftigen","die Gespraechsführung","das Praxisbeispiel"],hint:"أي كلمة تناسب in this context?",sSrc:"I would like to reinforce this statement."},
-        {type:"mc",q:"Was bedeutet 'nahelegen'?",opts:["to suggest, to recommend","to supplement, to add to","to affirm, to reinforce","to illustrate, to make vivid"],ans:"to suggest, to recommend",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Können Sie das bitte {1}?",a:["präzisieren"],opts:["die Ergebnispraesentation","präzisieren","bekraeftigen","interaktiv"],hint:"أي كلمة تناسب in this context?",sSrc:"Can you please be more specific?"}
+        {type:"mc",q:"Was bedeutet 'fachkundig'?",opts:["guide, manual","expert, knowledgeable","punchline","in keyword form, using bullet points"],ans:"expert, knowledgeable",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Fasse den Vortrag {1} zusammen.",a:["stichwortartig"],opts:["stichwortartig","nahelegen","die Ergebnispraesentation","fachkundig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Summarize the presentation in keyword form."},
+        {type:"mc",q:"Was bedeutet 'ergänzen'?",opts:["conclusive, logical","expert, knowledgeable","to supplement, to add to","guide, manual"],ans:"to supplement, to add to",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ich möchte diese Aussage {1}.",a:["bekraeftigen"],opts:["präzisieren","bekraeftigen","die Gespraechsführung","das Praxisbeispiel"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"I would like to reinforce this statement."},
+        {type:"mc",q:"Was bedeutet 'nahelegen'?",opts:["to suggest, to recommend","to supplement, to add to","to affirm, to reinforce","to illustrate, to make vivid"],ans:"to suggest, to recommend",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Können Sie das bitte {1}?",a:["präzisieren"],opts:["die Ergebnispraesentation","präzisieren","bekraeftigen","interaktiv"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you please be more specific?"}
       ]},
 // ─── L11: Der roemische Aquädukt ───
     {id:"deu_r27l6",title:"Der roemische Aquädukt",icon:"🏛️",xp:15,board:true,steps:[
@@ -343,10 +343,10 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
     "eine Sitzung beenden",
     "ein Dokument anfuegen"
 ],ans:"jemanden in eine Entscheidung mit einschliessen",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'aufgreifen'?",opts:["to convince","workshop","minutes, protocol","to take up, to pick up on"],ans:"to take up, to pick up on",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wir sollten dieses Problem {1}.",a:["thematisieren"],opts:["das Protokoll","das Plenum","thematisieren","aufgreifen"],hint:"أي كلمة تناسب in this context?",sSrc:"We should address this problem."},
-        {type:"mc",q:"Was bedeutet 'verhandeln'?",opts:["to agree upon, to arrange","to address a topic, to bring up","to negotiate","plenary, full assembly"],ans:"to negotiate",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Die Argumente waren {1}d.",a:["überzeugen"],opts:["einbeziehen","das Protokoll","überzeugen","die Mitschrift"],hint:"أي كلمة تناسب in this context?",sSrc:"The arguments were convincing."}
+        {type:"mc",q:"Was bedeutet 'aufgreifen'?",opts:["to convince","workshop","minutes, protocol","to take up, to pick up on"],ans:"to take up, to pick up on",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wir sollten dieses Problem {1}.",a:["thematisieren"],opts:["das Protokoll","das Plenum","thematisieren","aufgreifen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"We should address this problem."},
+        {type:"mc",q:"Was bedeutet 'verhandeln'?",opts:["to agree upon, to arrange","to address a topic, to bring up","to negotiate","plenary, full assembly"],ans:"to negotiate",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Die Argumente waren {1}d.",a:["überzeugen"],opts:["einbeziehen","das Protokoll","überzeugen","die Mitschrift"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The arguments were convincing."}
       ]},
 // ─── L13: Alles auf dem Prüfstand ───
     {id:"deu_r27l7",title:"Alles auf dem Prüfstand",icon:"📝",xp:15,board:true,steps:[
@@ -413,12 +413,12 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
     "Ich fasse den gesamten Vortrag zusammen",
     "Ich baue auf dem vorherigen Punkt auf"
 ],ans:"Ich baue auf dem vorherigen Punkt auf",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'angemessen'?",opts:["table document, meeting handout","appropriate, adequate","to conclude, to finalize","position paper, thesis paper"],ans:"appropriate, adequate",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} lässt sich sagen: Der Vortrag war ein Erfolg.",a:["zusammenfassend"],opts:["abschließen","der Grundgedanke","anfügen","zusammenfassend"],hint:"أي كلمة تناسب in this context?",sSrc:"In summary, one can say: the presentation was a success."},
-        {type:"mc",q:"Was bedeutet 'abschließend'?",opts:["rules of procedure","regarding this, in this regard","in closing, finally","basic idea, fundamental concept"],ans:"in closing, finally",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} möchte ich ergänzen...",a:["daran anknüpfend"],opts:["daran anknüpfend","die Teilnehmerliste","abschließend","aussagekraeftig"],hint:"أي كلمة تناسب in this context?",sSrc:"Building on that, I would like to add..."},
-        {type:"mc",q:"Was bedeutet 'abschließen'?",opts:["likewise, equally","regarding this, in this regard","attendance list","to conclude, to finalize"],ans:"to conclude, to finalize",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Danke. Können Sie auch die Tischvorlage {1}?",a:["beifuegen"],opts:["die Tischvorlage","erläutern","beifuegen","die Geschäftsordnung"],hint:"أي كلمة تناسب in this context?",sSrc:"Thanks. Can you also attach the table document?"}
+        {type:"mc",q:"Was bedeutet 'angemessen'?",opts:["table document, meeting handout","appropriate, adequate","to conclude, to finalize","position paper, thesis paper"],ans:"appropriate, adequate",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} lässt sich sagen: Der Vortrag war ein Erfolg.",a:["zusammenfassend"],opts:["abschließen","der Grundgedanke","anfügen","zusammenfassend"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"In summary, one can say: the presentation was a success."},
+        {type:"mc",q:"Was bedeutet 'abschließend'?",opts:["rules of procedure","regarding this, in this regard","in closing, finally","basic idea, fundamental concept"],ans:"in closing, finally",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} möchte ich ergänzen...",a:["daran anknüpfend"],opts:["daran anknüpfend","die Teilnehmerliste","abschließend","aussagekraeftig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Building on that, I would like to add..."},
+        {type:"mc",q:"Was bedeutet 'abschließen'?",opts:["likewise, equally","regarding this, in this regard","attendance list","to conclude, to finalize"],ans:"to conclude, to finalize",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Danke. Können Sie auch die Tischvorlage {1}?",a:["beifuegen"],opts:["die Tischvorlage","erläutern","beifuegen","die Geschäftsordnung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Thanks. Can you also attach the table document?"}
       ]},
 // ─── L15: Gut gemacht ───
     {id:"deu_r27l8",title:"Gut gemacht",icon:"🏆",xp:15,board:true,steps:[
@@ -447,7 +447,7 @@ const UNIT_27_AR = {n:27,lang:"de",srcLang:"ar",track:"v2",title:"Der Vortrag",s
     {trg:"Ich möchte darauf hinweisen",src:"I would like to point that out"},
     {trg:"Darf ich kurz einhaken",src:"may I briefly interject"},
     {trg:"indem",src:"by (doing something)"},
-    {trg:"mittels",src:"by means of"}
+    {trg:"mittels",src:"بواسطة"}
 ]}
       ]},
 // ─── L16: Argumente und Methoden ───

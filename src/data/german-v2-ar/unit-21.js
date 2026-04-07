@@ -32,7 +32,7 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"fb",s:"Die Berliner {1} fiel am 9. November 1989.",a:["Mauer"],opts:["Mauer","Grenze","Freiheit","Gesellschaft"],hint:"قسّم هذا البناء مدينةً لمدة 28 عاماً. وقد غيّر سقوطه عام 1989 مجرى التاريخ.",sSrc:"سقط جدار برلين في التاسع من نوفمبر 1989."},
         {type:"match",pairs:[
     {trg:"Grenze",src:"border"},
-    {trg:"Freiheit",src:"freedom"},
+    {trg:"Freiheit",src:"الحرية"},
     {trg:"Erinnerung",src:"memory"},
     {trg:"Vergangenheit",src:"past"}
 ]},
@@ -43,9 +43,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
     "Weil es die größte Stadt in Deutschland ist"
 ],ans:"Wegen der friedlichen Revolution 1989",hint:"غيّرت المظاهرات السلمية التي انطلقت من لايبزيغ عام 1989 مسار التاريخ الألماني."},
         {type:"fb",s:"Verumius hat viel {1}. Er hat die Nikolaikirche besucht.",a:["erlebt"],opts:["erlebt","erfahren","entstanden","entwickelt"],hint:"فكّر في معنى الكلمة.",sSrc:"Verumius experienced a lot. He visited the Nikolaikirche."},
-        {type:"mc",q:"Was bedeutet 'entstehen'?",opts:["to arise, to come into being","to experience","the border, the boundary","the wall"],ans:"to arise, to come into being",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"M\\u00f6chtest du mehr {1}?",a:["erleben"],opts:["erleben","national","die Mauer","die Grenze"],hint:"أي كلمة تناسب in this context?",sSrc:"Would you like to experience more?"},
-        {type:"mc",q:"Was bedeutet 'vor allem'?",opts:["the memory, the remembrance","to experience","above all, especially","political"],ans:"above all, especially",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'entstehen'?",opts:["to arise, to come into being","to experience","the border, the boundary","the wall"],ans:"to arise, to come into being",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"M\\u00f6chtest du mehr {1}?",a:["erleben"],opts:["erleben","national","die Mauer","die Grenze"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Would you like to experience more?"},
+        {type:"mc",q:"Was bedeutet 'vor allem'?",opts:["the memory, the remembrance","to experience","above all, especially","political"],ans:"above all, especially",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L3: Stimmen der Geschichte ───
     {id:"deu_r21l2",title:"Stimmen der Geschichte",icon:"🗣️",xp:15,board:true,steps:[
@@ -85,9 +85,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
     {trg:"Wahl",src:"election"},
     {trg:"Rede",src:"speech"}
 ]},
-        {type:"mc",q:"Was bedeutet 'die Politikerin'?",opts:["the reform","the citizen (male)","politics","the politician (female)"],ans:"the politician (female)",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Was bedeutet {1}?",a:["sozial"],opts:["die Rede","sozial","die B\\u00fcrgerin","die \\u00d6ffentlichkeit"],hint:"أي كلمة تناسب in this context?",sSrc:"What does sozial mean?"},
-        {type:"mc",q:"Was bedeutet 'dienen'?",opts:["to serve","the reform","the election, the choice","the population"],ans:"to serve",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'die Politikerin'?",opts:["the reform","the citizen (male)","politics","the politician (female)"],ans:"the politician (female)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Was bedeutet {1}?",a:["sozial"],opts:["die Rede","sozial","die B\\u00fcrgerin","die \\u00d6ffentlichkeit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"What does sozial mean?"},
+        {type:"mc",q:"Was bedeutet 'dienen'?",opts:["to serve","the reform","the election, the choice","the population"],ans:"to serve",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Altes Rathaus ───
     {id:"deu_r21l3",title:"Altes Rathaus",icon:"🏛️",xp:15,board:true,steps:[
@@ -144,8 +144,8 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"fb",s:"Leipzig hat {1} Geschichte.",a:["lange"],opts:["lange","langer","langem","langen"],hint:"كلمة Geschichte مؤنثة. المؤنث في حالة الرفع بدون أداة تعريف يأخذ النهاية -e.",sSrc:"لايبزيغ لها تاريخ طويل."},
         {type:"mc",q:"Mia trinkt _____ Kaffee. (maskulin, Akkusativ, ohne Artikel)",opts:["starke","starkes","starker","starken"],ans:"starken",hint:"المذكر في حالة النصب بدون أداة تعريف يأخذ النهاية -en، مثل den."},
         {type:"drag_fill",s:"Verumius trinkt {1} Tee und isst {2} Brot mit {3} Butter.",blanks:{"1":"heißen","2":"frisches","3":"guter"},pool:["heißen","frisches","guter","kalte","neuen","altem"],hint:"Tee مذكر في حالة النصب (-en). وBrot محايد في حالة النصب (-es). وButter مؤنث في حالة الجر (-er).",sSrc:"يشرب فيروميوس شاياً ساخناً ويأكل خبزاً طازجاً مع زبدة جيدة."},
-        {type:"mc",q:"Was bedeutet 'ewig'?",opts:["eternal","the monument, the memorial","constant(ly)","to have an effect, to seem"],ans:"eternal",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to have an effect, to seem' auf Deutsch? {1}",a:["wirken"],opts:["wirken","ver\\u00e4ndern","die Hoffnung","st\\u00e4ndig"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to have an effect, to seem' بالألمانية؟"}
+        {type:"mc",q:"Was bedeutet 'ewig'?",opts:["eternal","the monument, the memorial","constant(ly)","to have an effect, to seem"],ans:"eternal",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to have an effect, to seem' auf Deutsch? {1}",a:["wirken"],opts:["wirken","ver\\u00e4ndern","die Hoffnung","st\\u00e4ndig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to have an effect, to seem' بالألمانية؟"}
       ]},
 // ─── L7: Nikolaikirche ───
     {id:"deu_r21l4",title:"Nikolaikirche",icon:"⛪",xp:15,board:true,steps:[
@@ -184,9 +184,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"mc",q:"Ergänze: trotz der _____ Situation (despite the difficult situation)",opts:["schwieriger","schwierige","schwierigem","schwierigen"],ans:"schwierigen",hint:"بعد der في حالة الإضافة للمؤنث، تأخذ الصفة دائماً النهاية -en."},
         {type:"drag_fill",s:"Während des {1} Krieges kannten Ost und West {2} kaum. Sie wussten wenig {3}.",blanks:{"1":"Kalten","2":"einander","3":"voneinander"},pool:["Kalten","einander","voneinander","Kalter","sich","miteinander"],hint:"أولاً: الصفة بعد des. ثانياً: الضمير التبادلي غير الملتبس. ثالثاً: المركّب الذي يعني 'عن بعضهم بعضاً'.",sSrc:"خلال الحرب الباردة، لم يكد الشرق والغرب يعرفان بعضهما. كانوا يعرفون القليل عن بعضهم بعضاً."},
         {type:"mc",q:"Mia erzählt von _____ Erinnerungen. (old memories, ohne Artikel, Dativ Plural)",opts:["alten Erinnerungen","altes Erinnerungen","alter Erinnerungen","alte Erinnerungen"],ans:"alten Erinnerungen",hint:"الجمع في حالة الجر بدون أداة تعريف: تأخذ الصفة النهاية -en، مثل den."},
-        {type:"mc",q:"Was bedeutet 'geschehen'?",opts:["completely","to consider, to think over","the witness (male)","to happen, to occur"],ans:"to happen, to occur",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to develop' auf Deutsch? {1}",a:["entwickeln"],opts:["der Dialekt","die Wirklichkeit","entwickeln","v\\u00f6llig"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to develop' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'der Dialekt'?",opts:["the dialect","the assembly, the gathering","the community","youth"],ans:"the dialect",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'geschehen'?",opts:["completely","to consider, to think over","the witness (male)","to happen, to occur"],ans:"to happen, to occur",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to develop' auf Deutsch? {1}",a:["entwickeln"],opts:["der Dialekt","die Wirklichkeit","entwickeln","v\\u00f6llig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to develop' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'der Dialekt'?",opts:["the dialect","the assembly, the gathering","the community","youth"],ans:"the dialect",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L9: Hildis Fotoalbum ───
     {id:"deu_r21l5",title:"Hildis Fotoalbum",icon:"📷",xp:15,board:true,steps:[
@@ -224,11 +224,11 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"mc",q:"Hildi sagt, sie und ihr Mann haben einander vertraut. Was bedeutet einander hier?",opts:["themselves","always","each other","nobody"],ans:"each other",hint:"Einander هي الكلمة التبادلية الصريحة التي لا تحتمل أي لبس."},
         {type:"fb",s:"Während der {1} Jahre in der DDR erlebte Hildi viel.",a:["langen"],opts:["langen","lange","langer","langem"],hint:"بعد der في حالة الإضافة للجمع، تنتهي الصفات بـ -en. دائماً.",sSrc:"خلال السنوات الطويلة في جمهورية ألمانيا الديمقراطية، عاشت هيلدي الكثير."},
         {type:"drag_fill",s:"Trotz {1} Angst halfen die Nachbarn {2}. Sie zeigten {3} Mut.",blanks:{"1":"großer","2":"einander","3":"echten"},pool:["großer","einander","echten","große","sich","echter"],hint:"أولاً: نهاية الصفة بعد trotz مع اسم مؤنث وبدون أداة تعريف. ثانياً: الضمير التبادلي غير الملتبس. ثالثاً: الصفة للمذكر في حالة النصب بدون أداة تعريف.",sSrc:"رغم الخوف الشديد، تعاون الجيران وساعد بعضهم بعضاً. وأبدوا شجاعة حقيقية."},
-        {type:"fb",s:"Wie sagt man 'the trade union' auf Deutsch? {1}",a:["die Gewerkschaft"],opts:["die Gewerkschaft","die Erziehung","erziehen","die Kindheit"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the trade union' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'dauernd'?",opts:["constant(ly), lasting","the flight, the escape","homesickness","the experience (lived)"],ans:"constant(ly), lasting",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Was war die {1}e Wende?",a:["sogenannt"],opts:["das Geschlecht","gleichberechtigt","die Kindheit","sogenannt"],hint:"أي كلمة تناسب in this context?",sSrc:"What was the so-called Wende?"},
-        {type:"mc",q:"Was bedeutet 'fliehen'?",opts:["homesickness","to flee","constant(ly), lasting","the majority"],ans:"to flee",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to raise, to educate' auf Deutsch? {1}",a:["erziehen"],opts:["fliehen","das Verhalten","erziehen","das Heimweh"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to raise, to educate' بالألمانية؟"}
+        {type:"fb",s:"Wie sagt man 'the trade union' auf Deutsch? {1}",a:["die Gewerkschaft"],opts:["die Gewerkschaft","die Erziehung","erziehen","die Kindheit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the trade union' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'dauernd'?",opts:["constant(ly), lasting","the flight, the escape","homesickness","the experience (lived)"],ans:"constant(ly), lasting",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Was war die {1}e Wende?",a:["sogenannt"],opts:["das Geschlecht","gleichberechtigt","die Kindheit","sogenannt"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"What was the so-called Wende?"},
+        {type:"mc",q:"Was bedeutet 'fliehen'?",opts:["homesickness","to flee","constant(ly), lasting","the majority"],ans:"to flee",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to raise, to educate' auf Deutsch? {1}",a:["erziehen"],opts:["fliehen","das Verhalten","erziehen","das Heimweh"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to raise, to educate' بالألمانية؟"}
       ]},
 // ─── L11: Du kannst ruhig du sagen ───
     {id:"deu_r21l6",title:"Du kannst ruhig du sagen",icon:"🤝",xp:15,board:true,steps:[
@@ -271,12 +271,12 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
     "Sie bietet die informelle Anrede als Zeichen des Vertrauens an",
     "Sie bringt ihm ein neues Wort bei"
 ],ans:"Sie bietet die informelle Anrede als Zeichen des Vertrauens an",hint:"الانتقال من Sie إلى du علامة فارقة في العلاقات الألمانية."},
-        {type:"mc",q:"Was bedeutet 'die Vertreterin'?",opts:["by the way","representation, substitute","the representative (female)","the representative (male)"],ans:"the representative (female)",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'gold' auf Deutsch? {1}",a:["das Gold"],opts:["das Gold","\\u00fcbrigens","die Einf\\u00fchrung","die T\\u00e4tigkeit"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'gold' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'der Gott'?",opts:["activity, occupation","the point of view","gold","God"],ans:"God",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Was bedeutet {1} in der Nikolaikirche?",a:["das Kreuz"],opts:["vorhin","das Kreuz","beeinflussen","der Standpunkt"],hint:"أي كلمة تناسب in this context?",sSrc:"What does the cross in the Nikolaikirche mean?"},
-        {type:"mc",q:"Was bedeutet 'die Uniform'?",opts:["by the way","pressure, print","the point of view","the uniform"],ans:"the uniform",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to influence' auf Deutsch? {1}",a:["beeinflussen"],opts:["die Erfindung","\\u00fcbrigens","beeinflussen","der Gott"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to influence' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'die Vertreterin'?",opts:["by the way","representation, substitute","the representative (female)","the representative (male)"],ans:"the representative (female)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'gold' auf Deutsch? {1}",a:["das Gold"],opts:["das Gold","\\u00fcbrigens","die Einf\\u00fchrung","die T\\u00e4tigkeit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'gold' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'der Gott'?",opts:["activity, occupation","the point of view","gold","God"],ans:"God",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Was bedeutet {1} in der Nikolaikirche?",a:["das Kreuz"],opts:["vorhin","das Kreuz","beeinflussen","der Standpunkt"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"What does the cross in the Nikolaikirche mean?"},
+        {type:"mc",q:"Was bedeutet 'die Uniform'?",opts:["by the way","pressure, print","the point of view","the uniform"],ans:"the uniform",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to influence' auf Deutsch? {1}",a:["beeinflussen"],opts:["die Erfindung","\\u00fcbrigens","beeinflussen","der Gott"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to influence' بالألمانية؟"},
         {type:"fb",s:"{1}, Leipzig hat auch eine interessante Musikgeschichte.",a:["Übrigens"],opts:["Übrigens","Völlig","Ständig","Häufig"],hint:"فكّر في معنى الكلمة.",sSrc:"By the way, Leipzig also has an interesting music history."}
       ]},
 // ─── L13: Zeitzeugen ───
@@ -358,8 +358,8 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
 ],ans:"Es war einst ein Luxusgericht, das zum Alltagsessen wurde",hint:"شرحت ميا أنه كان في الأصل طعاماً للأثرياء؛ أما اليوم فيأكله الجميع."},
         {type:"teach",trg:"enorm",src:"هائل، ضخم",pos:"adj",gender:null,note:"من اللاتينية enormis (خارج عن القاعدة).\nenormer Einfluss = تأثير هائل.",example:"A: Leipzig hatte einen enormen Einfluss auf die Musik.\nB: Ja, Bach, Mendelssohn, Schumann.\nA: Der Einfluss war enorm.\nB: Und auf die Politik auch.",exampleSrc:"أ: كان للايبزيغ تأثير هائل في الموسيقى.\nب: نعم، باخ وميندلسون وشومان.\nأ: كان التأثير هائلاً.\nب: وفي السياسة أيضاً.",funFact:"من اللاتينية enormis (خارج عن القاعدة). ما هو enorm يتخطى المقياس المعتاد حرفياً. يستخدمها الألمان بكثرة في السياقات الرسمية وغير الرسمية على حدٍّ سواء."},
         {type:"match",pairs:[
-    {trg:"Änderung",src:"change"},
-    {trg:"Frieden",src:"peace"},
+    {trg:"Änderung",src:"التغيير"},
+    {trg:"Frieden",src:"السلام"},
     {trg:"Kreis",src:"circle/district"},
     {trg:"gründen",src:"to found"},
     {trg:"einander",src:"each other"}

@@ -159,8 +159,8 @@ const UNIT_03_AR = {n:3,lang:"de",srcLang:"ar",track:"v2",title:"Die Wohnungssuc
 ]},
         {type:"mc",q:"'Die Möbel _____ neu.'",opts:["ist","hat","sind","bist"],ans:"sind",hint:"Möbel جمع دائماً. أي صيغة فعل جمع؟"},
         {type:"story",speaker:"narrator",mood:"nervous",art:"de-hildi-apartment-checklist",trg:"Hildi steht an der Wohnungstür. Sie hat eine Checkliste. 'Fenster: sauber. Boden: sauber. Kühlschrank: leer.' Sie macht ein Häkchen. Dann sieht sie Verumius an. 'Der Mietvertrag ist fertig.' Pause. 'Kommen Sie morgen um 14 Uhr. Pünktlich.' Verumius nickt. Zweimal.",src:"هيلدي تقف عند باب الشقة. عندها قائمة تحقق. 'النوافذ: نظيفة. الأرضية: نظيفة. الثلاجة: فارغة.' تضع علامة. ثم تنظر إلى فيروميوس. 'عقد الإيجار جاهز.' توقف. 'تعال غداً الساعة ٢ ظهراً. بالضبط.' فيروميوس يومئ. مرتين."},
-        {type:"mc",q:"Was bedeutet 'der Monat'?",opts:["the floor","the month","the utility costs","the bathroom"],ans:"the month",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Können Sie das {1}?",a:["erklären"],opts:["erklären","die Küche","das Wohnzimmer","der Tisch"],hint:"أي كلمة تناسب in this context?",sSrc:"Can you explain that?"}
+        {type:"mc",q:"Was bedeutet 'der Monat'?",opts:["the floor","the month","the utility costs","the bathroom"],ans:"the month",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Können Sie das {1}?",a:["erklären"],opts:["erklären","die Küche","das Wohnzimmer","der Tisch"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you explain that?"}
       ]},
 // ─── L6: Aufräumen, einziehen, umziehen ───
     {id:"deu_r03l5",title:"Aufräumen, einziehen, umziehen",icon:"📦",xp:15,board:true,steps:[
@@ -214,7 +214,7 @@ const UNIT_03_AR = {n:3,lang:"de",srcLang:"ar",track:"v2",title:"Die Wohnungssuc
     {trg:"vermieten",src:"يؤجّر"}
 ]},
         {type:"story",speaker:"narrator",mood:"exhausted",art:"de-apartment-boxes-floor",trg:"21 Uhr. Alle Kisten sind oben. Verumius liegt auf dem Boden. Kein Bett, kein Sofa, keine Energie. Sein Handy leuchtet. Hildi: 'Die Kisten im Flur bitte bis morgen aufräumen. Gute Nacht.' Er räumt auf. In Socken.",src:"الساعة ٩ مساءً. كل الصناديق في الأعلى. فيروميوس مستلقٍ على الأرض. لا سرير، لا أريكة، لا طاقة. هاتفه يضيء. هيلدي: 'رجاءً رتّب الصناديق في الرواق بحلول الغد. تصبح على خير.' يرتّب. بالجوارب."},
-        {type:"mc",q:"Was bedeutet 'Lieblings-'?",opts:["the tree","to tidy up","to turn on / switch on","favorite (prefix)"],ans:"favorite (prefix)",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'Lieblings-'?",opts:["the tree","to tidy up","to turn on / switch on","favorite (prefix)"],ans:"favorite (prefix)",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L8: Alles muss raus! ───
     {id:"deu_r03l6",title:"Alles muss raus!",icon:"🛋️",xp:15,board:true,steps:[
@@ -445,9 +445,9 @@ const UNIT_03_AR = {n:3,lang:"de",srcLang:"ar",track:"v2",title:"Die Wohnungssuc
         {type:"teach",trg:"zwischen",src:"between / among",pos:"prep",gender:null,note:"Preposition. Takes dative (location) or accusative (movement).",example:"A: Wo ist die Bank?\nB: Zwischen dem Kino und der Post.",exampleSrc:"A: Where is the bank?\nB: Between the cinema and the post office.",funFact:"'Zwischen' and English 'tween/between' share the same root. Both come from the number two (zwei/two). Between = by two things."},
         {type:"mc",q:"Hildi says: 'Stell die Flasche in den Kühlschrank.' What does 'stellen' mean?",opts:["to lay flat","to place upright","to hang up","to throw away"],ans:"to place upright",hint:"فكّر في whether a bottle stands up or lies down. German uses different verbs depending on the object's orientation."},
         {type:"fb",s:"Wann {1} du morgens auf?",a:["stehst"],opts:["stehst","machst","gehst","legst"],hint:"فكّر في معنى الكلمة.",sSrc:"When do you get up in the mornings?"},
-        {type:"mc",q:"Was bedeutet 'reparieren'?",opts:["to repair / fix","the homework","the square meter","old"],ans:"to repair / fix",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wohin soll ich das Buch {1}?",a:["legen"],opts:["legen","reparieren","alt","der Quadratmeter"],hint:"أي كلمة تناسب in this context?",sSrc:"Where should I put the book?"},
-        {type:"mc",q:"Was bedeutet 'zwischen'?",opts:["between / among","to put / place (upright)","the square meter","to get up / stand up"],ans:"between / among",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'reparieren'?",opts:["to repair / fix","the homework","the square meter","old"],ans:"to repair / fix",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wohin soll ich das Buch {1}?",a:["legen"],opts:["legen","reparieren","alt","der Quadratmeter"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Where should I put the book?"},
+        {type:"mc",q:"Was bedeutet 'zwischen'?",opts:["between / among","to put / place (upright)","the square meter","to get up / stand up"],ans:"between / among",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L16: Wie siehst du aus? ───
     {id:"deu_r03l13",title:"Wie siehst du aus?",icon:"👤",xp:15,board:true,steps:[

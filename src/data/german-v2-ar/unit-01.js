@@ -160,9 +160,9 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
     {trg:"gehen",src:"يذهب"}
 ]},
         {type:"story",speaker:"verumius",mood:"proud",art:"de-ber-departures",trg:"Danke! Tschüss! Verumius geht zum Gleis. Er hat ein Ticket. Er kann Danke sagen. Das ist ein Anfang.",src:"شكرًا! مع السلامة! يمشي فيروميوس إلى الرصيف. لديه تذكرة. يستطيع أن يقول شكرًا. هذه بداية."},
-        {type:"mc",q:"Was bedeutet 'sagen'?",opts:["I am...","to say / to tell","to do / to make","of course / naturally"],ans:"to say / to tell",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to do / to make' auf Deutsch? {1}",a:["machen"],opts:["Deutschland","Ich bin...","machen","Wie heißen Sie?"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to do / to make' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'etwas'?",opts:["something / a little","to go (on foot)","I don't understand","Germany"],ans:"something / a little",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'sagen'?",opts:["I am...","to say / to tell","to do / to make","of course / naturally"],ans:"to say / to tell",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to do / to make' auf Deutsch? {1}",a:["machen"],opts:["Deutschland","Ich bin...","machen","Wie heißen Sie?"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to do / to make' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'etwas'?",opts:["something / a little","to go (on foot)","I don't understand","Germany"],ans:"something / a little",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Im falschen Zug ───
     {id:"deu_r01l4",title:"Im falschen Zug",icon:"🚂",xp:15,board:true,steps:[
@@ -452,7 +452,7 @@ const UNIT_01_AR = {n:1,lang:"de",srcLang:"ar",track:"v2",title:"Willkommen in D
 ],ans:"استكشف المدينة وتدرّب على الألمانية أكثر",hint:"فيروميوس متعب لكنه متحمس لمغامرته."},
         {type:"story",speaker:"narrator",mood:"happy",art:"de-berlin-night",trg:"Er lächelt. Morgen wird er das Brandenburger Tor sehen. Morgen wird er mehr Deutsch sprechen. Aber jetzt: Gute Nacht, Berlin.",src:"يبتسم. غدًا سيرى بوابة براندنبورغ. غدًا سيتحدث المزيد من الألمانية. لكن الآن: تصبح على خير يا برلين."},
         {type:"tr",q:"How do you say 'Good night! I am tired.' in German?",a:"Gute Nacht! Ich bin müde.",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'Servus'?",opts:["tomorrow","Hello / Goodbye (Southern German, Austrian)","the hostel","Good evening"],ans:"Hello / Goodbye (Southern German, Austrian)",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'Servus'?",opts:["tomorrow","Hello / Goodbye (Southern German, Austrian)","the hostel","Good evening"],ans:"Hello / Goodbye (Southern German, Austrian)",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L13: Bausteine ───
     {id:"deu_r01l11",title:"Bausteine",icon:"🧱",xp:15,board:true,steps:[

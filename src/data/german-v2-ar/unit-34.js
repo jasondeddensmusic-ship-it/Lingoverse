@@ -33,7 +33,7 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
         {type:"teach",trg:"inzwischen",src:"في غضون ذلك، في الأثناء",pos:"adv",gender:null,note:"In + zwischen (بين). يُعبّر عن الوقت المنقضي بين حدثين.\n'Inzwischen hat sich viel verändert.' (في غضون ذلك، تغير الكثير). أنيق وشائع.",example:"A: Wir fahren seit drei Stunden.\nB: Inzwischen hat es angefangen zu regnen.\nA: Inzwischen sind wir fast da.\nB: Gut, ich bin hungrig!",exampleSrc:"أ: لقد قدنا ثلاث ساعات.\nب: في غضون ذلك، بدأت الأمطار.\nأ: وفي الأثناء، اقتربنا من الوجهة.\nب: رائع، أنا جائع!",funFact:"In + zwischen (بين). في غضون ذلك، في الأثناء. 'Inzwischen hat sich viel verändert' (في غضون ذلك، تغير الكثير). يُعبّر عن مرور الوقت بين الأحداث. أنيق وشائع الاستخدام."},
         {type:"mc",q:"Wie viele Bundesländer hat Deutschland?",opts:["12","20","9","16"],ans:"16",hint:"الأكبر هي بافاريا والأصغر هي بريمن. العدد بين 15 و17."},
         {type:"fb",s:"Wir wollen ganz Süddeutschland {1}.",a:["bereisen"],opts:["bereisen","reisen","fahren","gehen"],hint:"فعل بالبادئة be- يعني التجوال الشامل في منطقة أو بلد.",sSrc:"نريد أن نجوب جنوب ألمانيا بأكمله."},
-        {type:"mc",q:"Was bedeutet 'inzwischen'?",opts:["to explore, to scout out","scenic, relating to landscape","picturesque","meanwhile, in the meantime"],ans:"meanwhile, in the meantime",hint:"فكّر في the meaning of this word in context."},
+        {type:"mc",q:"Was bedeutet 'inzwischen'?",opts:["to explore, to scout out","scenic, relating to landscape","picturesque","meanwhile, in the meantime"],ans:"meanwhile, in the meantime",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wir wollen in einem kleinen Hotel {1}.",a:["übernachten"],opts:["übernachten","bereisen","erkunden","besichtigen"],hint:"فكّر في معنى الكلمة.",sSrc:"We want to stay overnight in a small hotel."}
       ]},
 // ─── L3: Land und Leute ───
@@ -84,7 +84,7 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
     "Eine historische Burg aus dem Mittelalter"
 ],ans:"Das definierende Symbol einer Stadt",hint:"Wahr (حقيقي) + Zeichen (علامة). فكّر في بوابة براندنبورغ الشهيرة في برلين."},
         {type:"fb",s:"Diese Burg ist {1}: sie stammt aus dem 12. Jahrhundert.",a:["mittelalterlich"],opts:["historisch","sehenswert","mittelalterlich","reizvoll"],hint:"فكّر في معنى الكلمة.",sSrc:"This castle is medieval: it dates from the 12th century."},
-        {type:"mc",q:"Was bedeutet 'das Freibad'?",opts:["city wall","outdoor swimming pool","cathedral","palace, stately home"],ans:"outdoor swimming pool",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'das Freibad'?",opts:["city wall","outdoor swimming pool","cathedral","palace, stately home"],ans:"outdoor swimming pool",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Un-, miss-, zer- ───
     {id:"deu_r34l3",title:"Un-, miss-, zer-",icon:"🖇️",xp:15,board:true,steps:[
@@ -130,10 +130,10 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
     {trg:"Muttersprachler",src:"native speaker"}
 ]},
         {type:"mc",q:"'Unglücklich' gegenüber 'missglückt' gegenüber 'zerstört.' Welches Wort ist am stärksten?",opts:["zerstört (kaputt)","missglückt (ging schief)","unglücklich (traurig)","alle gleich stark"],ans:"zerstört (kaputt)",hint:"من سوء حظ خفيف إلى خطأ فادح إلى دمار كامل. البوادئ تتصاعد في حدتها."},
-        {type:"mc",q:"Was bedeutet 'bayrisch'?",opts:["southern German","native speaker","to destroy","Bavarian"],ans:"Bavarian",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Kann man {1} fahren und essen?",a:["gleichzeitig"],opts:["gleichzeitig","unterdessen","s\\u00fcddeutsch","das Hochdeutsch"],hint:"أي كلمة تناسب in this context?",sSrc:"Can you drive and eat at the same time?"},
-        {type:"mc",q:"Was bedeutet 'unterdessen'?",opts:["Swabian (dialect)","meanwhile (literary)","to destroy","Bavarian"],ans:"meanwhile (literary)",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ich liebe Sprachen, {1} lerne ich Deutsch.",a:["deshalb"],opts:["deshalb","altert\\u00fcmlich","urspr\\u00fcnglich","zerst\\u00f6ren"],hint:"أي كلمة تناسب in this context?",sSrc:"I love languages, that is why I am learning German."}
+        {type:"mc",q:"Was bedeutet 'bayrisch'?",opts:["southern German","native speaker","to destroy","Bavarian"],ans:"Bavarian",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Kann man {1} fahren und essen?",a:["gleichzeitig"],opts:["gleichzeitig","unterdessen","s\\u00fcddeutsch","das Hochdeutsch"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you drive and eat at the same time?"},
+        {type:"mc",q:"Was bedeutet 'unterdessen'?",opts:["Swabian (dialect)","meanwhile (literary)","to destroy","Bavarian"],ans:"meanwhile (literary)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ich liebe Sprachen, {1} lerne ich Deutsch.",a:["deshalb"],opts:["deshalb","altert\\u00fcmlich","urspr\\u00fcnglich","zerst\\u00f6ren"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"I love languages, that is why I am learning German."}
       ]},
 // ─── L7: Wortfabrik ───
     {id:"deu_r34l4",title:"Wortfabrik",icon:"🏭",xp:15,board:true,steps:[
@@ -179,7 +179,7 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
     {trg:"-tum",src:"neutrales Nomen (Wachstum)"}
 ]},
         {type:"fb",s:"Spaetzle und Schwarzwaelder Kirschtorte sind {1} fuer Freiburg.",a:["regionaltypisch"],opts:["traditionsbewusst","geschichtstraechtig","pittoresk","regionaltypisch"],hint:"فكّر في معنى الكلمة.",sSrc:"Spaetzle and Black Forest cake are typical of the region for Freiburg."},
-        {type:"mc",q:"Was bedeutet 'daher'?",opts:["therefore, from there","base word (last part of compound)","gladly, with pleasure","to put together, to compose"],ans:"therefore, from there",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'daher'?",opts:["therefore, from there","base word (last part of compound)","gladly, with pleasure","to put together, to compose"],ans:"therefore, from there",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L9: Erst wann, dann warum ───
     {id:"deu_r34l5",title:"Erst wann, dann warum",icon:"📍",xp:15,board:true,steps:[
@@ -300,12 +300,12 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
     "Nur ein einzelnes Negationspräfix, kein TeKaMoLo und kein Modaladverb",
     "TeKaMoLo + Wortbildung (mittelalterliche) + Modaladverb (vermutlich)"
 ],ans:"TeKaMoLo + Wortbildung (mittelalterliche) + Modaladverb (vermutlich)",hint:"الجملة ترتّب الظروف بشكل صحيح، وتستخدم صفة مركّبة وظرف احتمال. حدّد هذه العناصر الثلاثة.",sSrc:"أيّ تراكيب B2 تظهر في: 'شُيِّدت القلعة الوسيطة على الأرجح في القرن الثالث عشر بسبب موقعها الاستراتيجي المرتفع فوق الوادي'؟"},
-        {type:"mc",q:"Was bedeutet 'der Zwiebelturm'?",opts:["everywhere","lowland plain","state capital","onion dome tower"],ans:"onion dome tower",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'guild, medieval craft association' auf Deutsch? {1}",a:["die Zunft"],opts:["S\\u00fcddeutschland","\\u00fcberall","die Flusslandschaft","die Zunft"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'guild, medieval craft association' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'das UNESCO-Welterbe'?",opts:["UNESCO World Heritage Site","river landscape","to present, to showcase","Zugspitze (Germany's highest peak)"],ans:"UNESCO World Heritage Site",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to house, to accommodate' auf Deutsch? {1}",a:["beherbergen"],opts:["beherbergen","das Industriegebiet","das UNESCO-Welterbe","die Flusslandschaft"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to house, to accommodate' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'errichten'?",opts:["everywhere","to house, to accommodate","to erect, to build","industrial area"],ans:"to erect, to build",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} kostet viel Geld.",a:["restaurieren"],opts:["die Tiefebene","die Landeshauptstadt","restaurieren","das Mittelgebirge"],hint:"أي كلمة تناسب in this context?",sSrc:"Restoring costs a lot of money."},
+        {type:"mc",q:"Was bedeutet 'der Zwiebelturm'?",opts:["everywhere","lowland plain","state capital","onion dome tower"],ans:"onion dome tower",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'guild, medieval craft association' auf Deutsch? {1}",a:["die Zunft"],opts:["S\\u00fcddeutschland","\\u00fcberall","die Flusslandschaft","die Zunft"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'guild, medieval craft association' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'das UNESCO-Welterbe'?",opts:["UNESCO World Heritage Site","river landscape","to present, to showcase","Zugspitze (Germany's highest peak)"],ans:"UNESCO World Heritage Site",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to house, to accommodate' auf Deutsch? {1}",a:["beherbergen"],opts:["beherbergen","das Industriegebiet","das UNESCO-Welterbe","die Flusslandschaft"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to house, to accommodate' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'errichten'?",opts:["everywhere","to house, to accommodate","to erect, to build","industrial area"],ans:"to erect, to build",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} kostet viel Geld.",a:["restaurieren"],opts:["die Tiefebene","die Landeshauptstadt","restaurieren","das Mittelgebirge"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Restoring costs a lot of money."},
         {type:"fb",s:"Ich habe meine Schlüssel {1} verloren, aber ich weiss nicht wo.",a:["irgendwo"],opts:["irgendwo","nirgendwo","überall","hierher"],hint:"فكّر في معنى الكلمة.",sSrc:"I lost my keys somewhere, but I don't know where."}
       ]},
 // ─── L13: Deutschlandquiz ───
@@ -359,7 +359,7 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
         {type:"drag_fill",s:"Es ist {1}, dass man {2} in Deutschland {3} schöne Orte {4} kann.",blanks:{"1":"unglaublich","2":"überall","3":"möglicherweise","4":"entdecken"},pool:["unglaublich","überall","möglicherweise","entdecken","unmöglich","nirgendwo"],hint:"من المذهل أن بإمكان المرء (ظرف أسلوب) اكتشاف أماكن جميلة في كل مكان (ظرف مكان).",sSrc:"من المذهل أن بالإمكان اكتشاف أماكن جميلة في كل أنحاء ألمانيا."},
         {type:"mc",q:"Wörter auf -ung, -heit, -keit und -schaft sind immer...",opts:["maskulin (der)","feminin (die)","neutrum (das)","es variiert"],ans:"feminin (die)",hint:"'Die Bildung، die Freiheit، die Möglichkeit، die Freundschaft.' النمط لا يتغير أبدًا.",sSrc:"الكلمات المنتهية بـ-ung وَ-heit وَ-keit وَ-schaft هي دائمًا..."},
         {type:"fb",s:"Ein altes Gebaeude {1} langsam, wenn niemand es pflegt.",a:["zerfaellt"],opts:["zerbricht","zerreisst","zerlegt","zerfaellt"],hint:"فكّر في معنى الكلمة.",sSrc:"An old building gradually falls apart if nobody maintains it."},
-        {type:"mc",q:"Was bedeutet 'zerlegen'?",opts:["to redesign, to transform","absolutely, by all means","downstream","to disassemble, to take apart"],ans:"to disassemble, to take apart",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'zerlegen'?",opts:["to redesign, to transform","absolutely, by all means","downstream","to disassemble, to take apart"],ans:"to disassemble, to take apart",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L15: Schwarzwaldmorgen ───
     {id:"deu_r34l9",title:"Schwarzwaldmorgen",icon:"🌲",xp:15,board:true,steps:[
@@ -408,8 +408,8 @@ const UNIT_34_AR = {n:34,lang:"de",srcLang:"ar",track:"v2",title:"Deutsche Welle
     "Lokal (wo, an welchem Ort)"
 ],ans:"Modal (wie/auf welche Weise)",hint:"هذه الفئة تصف أسلوب الفعل. الموضع الثالث في قاعدة المواضع الأربعة. تذكر: ليس متى، ولا لماذا، ولا أين.",sSrc:"يقول فيروميوس: 'ربما لن أفهم شيئًا بعد الآن.' ماذا يمثل 'möglicherweise' في نظام TeKaMoLo؟"},
         {type:"fb",s:"Das {1} der Pruefung haengt von der Vorbereitung ab.",a:["Ergebnis"],opts:["Kenntnis","Wachstum","Ergebnis","Reichtum"],hint:"فكّر في معنى الكلمة.",sSrc:"The result of the exam depends on preparation."},
-        {type:"mc",q:"Was bedeutet 'die Landschaft'?",opts:["landscape","possibility","to disregard, to ignore disrespectfully","solvable"],ans:"landscape",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ist das {1}?",a:["machbar"],opts:["l\\u00f6sbar","das Wachstum","machbar","die Freiheit"],hint:"أي كلمة تناسب in this context?",sSrc:"Is that feasible?"}
+        {type:"mc",q:"Was bedeutet 'die Landschaft'?",opts:["landscape","possibility","to disregard, to ignore disrespectfully","solvable"],ans:"landscape",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ist das {1}?",a:["machbar"],opts:["l\\u00f6sbar","das Wachstum","machbar","die Freiheit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is that feasible?"}
       ]}
   ]};
 

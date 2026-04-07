@@ -43,13 +43,13 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     "the canteen, the cafeteria",
     "with each other, together",
     "the daily routine, the daily schedule"
-],ans:"the daily routine, the daily schedule",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie ist {1} in deinem Team?",a:["die Zusammenarbeit"],opts:["die Zusammenarbeit","die Konferenz","der Betrieb","die Abteilung"],hint:"أي كلمة تناسب in this context?",sSrc:"How is the collaboration in your team?"},
-        {type:"mc",q:"Was bedeutet 'einrichten'?",opts:["to set up, to furnish","the corridor, the aisle","the hallway, the corridor","firm, fixed, solid"],ans:"to set up, to furnish",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Kannst du bitte die Unterlagen {1}?",a:["ordnen"],opts:["ordnen","innen","begrüßen","aufmerksam"],hint:"أي كلمة تناسب in this context?",sSrc:"Can you please organize the documents?"},
-        {type:"mc",q:"Was bedeutet 'gemeinsam'?",opts:["the company, the operation","together, jointly, shared","the collaboration, the teamwork","the conference"],ans:"together, jointly, shared",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Dein Schreibtisch ist sehr {1}!",a:["ordentlich"],opts:["die Besprechung","die Kantine","der Betrieb","ordentlich"],hint:"أي كلمة تناسب in this context?",sSrc:"Your desk is very tidy!"},
-        {type:"mc",q:"Was bedeutet 'miteinander'?",opts:["with each other, together","the company, the operation","attentive, observant","together, jointly, shared"],ans:"with each other, together",hint:"فكّر في the meaning of this word in context."}
+],ans:"the daily routine, the daily schedule",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie ist {1} in deinem Team?",a:["die Zusammenarbeit"],opts:["die Zusammenarbeit","die Konferenz","der Betrieb","die Abteilung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"How is the collaboration in your team?"},
+        {type:"mc",q:"Was bedeutet 'einrichten'?",opts:["to set up, to furnish","the corridor, the aisle","the hallway, the corridor","firm, fixed, solid"],ans:"to set up, to furnish",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Kannst du bitte die Unterlagen {1}?",a:["ordnen"],opts:["ordnen","innen","begrüßen","aufmerksam"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you please organize the documents?"},
+        {type:"mc",q:"Was bedeutet 'gemeinsam'?",opts:["the company, the operation","together, jointly, shared","the collaboration, the teamwork","the conference"],ans:"together, jointly, shared",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Dein Schreibtisch ist sehr {1}!",a:["ordentlich"],opts:["die Besprechung","die Kantine","der Betrieb","ordentlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Your desk is very tidy!"},
+        {type:"mc",q:"Was bedeutet 'miteinander'?",opts:["with each other, together","the company, the operation","attentive, observant","together, jointly, shared"],ans:"with each other, together",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L3: Das Büro ───
     {id:"deu_r14l2",title:"Das Büro",icon:"🖥️",xp:15,board:true,steps:[
@@ -94,7 +94,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
 ]},
         {type:"story",speaker:"mia",mood:"conspiratorial",art:"de-ber-office-hallway",trg:"So, dein Arbeitsplatz ist eingerichtet. Jetzt zeige ich dir den wichtigsten Ort im ganzen Betrieb. Die Kaffeküche.",src:"إذن، مكان عملك جاهز. الآن سأريك أهم مكان في كامل الشركة. مطبخ القهوة."},
         {type:"fb",s:"In welchem {1} ist der Vertrag? Im blauen auf dem Regal.",a:["Ordner"],opts:["Ordner","Kuli","Regal","Mappe"],hint:"فكّر في معنى الكلمة.",sSrc:"In which binder is the contract? In the blue one on the shelf."},
-        {type:"mc",q:"Was bedeutet 'die Tabelle'?",opts:["the table, the spreadsheet","to type, to tap","the plug","the key, the button"],ans:"the table, the spreadsheet",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'die Tabelle'?",opts:["the table, the spreadsheet","to type, to tap","the plug","the key, the button"],ans:"the table, the spreadsheet",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L5: Die Kaffeküche ───
     {id:"deu_r14l3",title:"Die Kaffeküche",icon:"☕",xp:15,board:true,steps:[
@@ -124,7 +124,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"fb",s:"Herr Schmidt hat viele {1} diese Woche.",a:["Überstunden"],opts:["Überstunden","Dienste","Terminkalender","Leitungen"],hint:"ساعات عمل تتجاوز الجدول الطبيعي. تُتتبَّع بدقة في المكاتب الألمانية.",sSrc:"لدى السيد شميت ساعات عمل إضافي كثيرة هذا الأسبوع."},
         {type:"fb",s:"Frau Müller hat die {1} des Projekts.",a:["Leitung"],opts:["Leitung","Überstunde","Leiterin","Dienst"],hint:"إدارة أو قيادة مشروع. ليس الشخص بل الدور.",sSrc:"السيدة مولر تتولى إدارة المشروع."},
         {type:"match",pairs:[
-    {trg:"der Leiter",src:"the manager (male)"},
+    {trg:"der Leiter",src:"المدير"},
     {trg:"die Überstunde",src:"the overtime hour"},
     {trg:"der Terminkalender",src:"the schedule, the planner"},
     {trg:"der Dienst",src:"the service, the duty"}
@@ -210,7 +210,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"story",speaker:"mia",mood:"warning",art:"de-ber-kaffeeküche",trg:"Eine Sache noch. Nimm niemals den letzten Kaffee, ohne neuen zu kochen. Das ist die goldene Regel der Kaffeküche.",src:"شيء آخر. لا تأخذ آخر قهوة أبدًا دون تحضير إبريق جديد. هذه هي القاعدة الذهبية لمطبخ القهوة."},
         {type:"teach",trg:"der Auftrag",src:"الطلب، المهمة، التكليف",pos:"noun",gender:"m",note:"'Im Auftrag von' (بالنيابة عن) تظهر على كل رسالة رسمية.\nمن 'auftragen' (يُكلّف). مديرك يعطيك تكليفات Aufträge.",example:"A: Hast du den Auftrag von Frau Müller bekommen?\nB: Ja, ich soll den Bericht bis Freitag schreiben.\nA: Das ist ein wichtiger Auftrag.\nB: Ich weiß. Er wird rechtzeitig erledigt.",exampleSrc:"أ: هل تلقيت التكليف من السيدة مولر؟\nب: نعم، يجب أن أكتب التقرير بحلول الجمعة.\nأ: هذا تكليف مهم.\nب: أعلم. سيُنجز في الموعد.",funFact:"'Im Auftrag von' (بالنيابة عن) تظهر على كل رسالة ألمانية رسمية. في رسائل العمل الإلكترونية، 'i.A.' (im Auftrag) قبل اسمك تعني أنك توقع بالنيابة عن شخص آخر."},
         {type:"teach",trg:"der Direktor",src:"المدير",pos:"noun",gender:"m",note:"من اللاتينية 'dirigere' (يوجّه). الرئيس الأعلى.\nفي المدارس الألمانية، المدير أيضًا 'der Direktor.'",example:"A: Der Direktor möchte dich sprechen.\nB: Oh. Was will er?\nA: Keine Sorge. Er begrüßt alle neuen Mitarbeiter.\nB: Ah, gut. Dann gehe ich gleich hin.",exampleSrc:"أ: المدير يريد التحدث معك.\nب: آه. ماذا يريد؟\nأ: لا تقلق. يرحب بجميع الموظفين الجدد.\nب: آه، جيد. سأذهب حالًا.",funFact:"Direktor أكثر رسمية من Leiter. في المدارس الألمانية المدير هو 'der Direktor.' في الشركات يجلس المدير في القمة. 'Direktorsebene' (مستوى الإدارة) حيث تُتخذ القرارات الكبرى."},
-        {type:"teach",trg:"die Direktorin",src:"المدير (female)",pos:"noun",gender:"f",note:"تزيد ألمانيا عدد المديرات في المناصب القيادية.\nلاحقة -in إلزامية عند الإشارة إلى امرأة بعينها.",example:"A: Die Direktorin kommt um elf Uhr.\nB: Die neue Direktorin? Ich habe sie noch nicht kennengelernt.\nA: Sie wurde letzten Monat eingestellt.\nB: Ich bin gespannt auf die Besprechung.",exampleSrc:"أ: المديرة ستأتي الساعة الحادية عشرة.\nب: المديرة الجديدة؟ لم أقابلها بعد.\nأ: تم توظيفها الشهر الماضي.\nب: أنا فضولي بشأن الاجتماع.",funFact:"تزيد ألمانيا باطراد عدد المديرات في المناصب القيادية. منذ عام 2015 تتطلب حصة المرأة Frauenquote من الشركات الكبرى أن يكون 30% على الأقل من مجالس الإشراف نساءً."},
+        {type:"teach",trg:"die Direktorin",src:"المديرة",pos:"noun",gender:"f",note:"تزيد ألمانيا عدد المديرات في المناصب القيادية.\nلاحقة -in إلزامية عند الإشارة إلى امرأة بعينها.",example:"A: Die Direktorin kommt um elf Uhr.\nB: Die neue Direktorin? Ich habe sie noch nicht kennengelernt.\nA: Sie wurde letzten Monat eingestellt.\nB: Ich bin gespannt auf die Besprechung.",exampleSrc:"أ: المديرة ستأتي الساعة الحادية عشرة.\nب: المديرة الجديدة؟ لم أقابلها بعد.\nأ: تم توظيفها الشهر الماضي.\nب: أنا فضولي بشأن الاجتماع.",funFact:"تزيد ألمانيا باطراد عدد المديرات في المناصب القيادية. منذ عام 2015 تتطلب حصة المرأة Frauenquote من الشركات الكبرى أن يكون 30% على الأقل من مجالس الإشراف نساءً."},
         {type:"teach",trg:"die Leiter",src:"السلّم",pos:"noun",gender:"f",note:"مؤنث. der Leiter = المدير، die Leiter = السلّم.\nالجنس النحوي يغيّر المعنى تمامًا.",example:"A: Wo ist die Leiter? Ich muss an die Decke.\nB: Im Lager. Der Hausmeister hat sie.\nA: Danke. Die Leiter wird oft gebraucht.\nB: Ja, besonders wenn Lampen gewechselt werden.",exampleSrc:"أ: أين السلّم؟ أحتاج للوصول إلى السقف.\nب: في المستودع. حارس المبنى لديه.\nأ: شكرًا. السلّم مطلوب كثيرًا.\nب: نعم، خاصة عند تغيير المصابيح.",funFact:"der Leiter (مذكر) = قائد. die Leiter (مؤنث) = سلّم. 'Die Karriereleiter' (سلّم المهنة) تجمع المعنيين بجمال: تتسلق السلّم Leiter لتصبح قائدًا Leiter."},
         {type:"teach",trg:"die Liste",src:"القائمة",pos:"noun",gender:"f",note:"نفس الكلمة في لغات أوروبية كثيرة.\nالألمان يعملون قوائم Listen لكل شيء: Einkaufsliste وAufgabenliste وWunschliste.",example:"A: Steht das auf der Liste?\nB: Ja, Punkt sieben auf der Liste.\nA: Gut. Wir arbeiten die Liste ab.\nB: Bis Freitag muss alles auf der Liste erledigt sein.",exampleSrc:"أ: هل هذا على القائمة؟\nب: نعم، النقطة السابعة في القائمة.\nأ: جيد. سنعمل على القائمة.\nب: بحلول الجمعة يجب إنجاز كل شيء في القائمة.",funFact:"يعمل الألمان قوائم لكل شيء: Einkaufsliste (قائمة تسوق) وAufgabenliste (قائمة مهام) وWunschliste (قائمة أمنيات) وPackliste (قائمة تعبئة). إن أمكن تنظيمه فسيحصل على Liste."},
         {type:"teach",trg:"die Organisation",src:"المنظمة، التنظيم",pos:"noun",gender:"f",note:"لاحقة -tion دائمًا مؤنثة في الألمانية.\nالتشديد دائمًا على المقطع الأخير: Organisa-TION.",example:"A: Die Organisation der Konferenz war perfekt.\nB: Danke! Es wurde alles im Voraus geplant.\nA: Gute Organisation ist der Schlüssel zum Erfolg.\nB: Ja, ohne Organisation funktioniert nichts.",exampleSrc:"أ: تنظيم المؤتمر كان مثاليًا.\nب: شكرًا! كل شيء تم التخطيط له مسبقًا.\nأ: التنظيم الجيد مفتاح النجاح.\nب: نعم، بدون تنظيم لا شيء يعمل.",funFact:"لاحقة -tion دائمًا مؤنثة في الألمانية ومشددة على المقطع الأخير: Organisa-TION. تنطبق هذه القاعدة على Kommunikation وInformation وSituation ومئات غيرها. قاعدة مجانية للكلمات اللاتينية المستعارة."},
@@ -437,11 +437,11 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
 ]},
         {type:"drag_fill",s:"Der Handwerker, {1} gerufen {2}, hat das Regal {3}.",blanks:{"1":"der","2":"wurde","3":"repariert"},pool:["der","den","wurde","wird","repariert","reparieren"],hint:"الحِرَفي المذكر الذي استُدعي (مرفوع موصول + مبني للمجهول). أصلح الرف.",sSrc:"الحِرَفي الذي استُدعي أصلح الرف."},
         {type:"story",speaker:"verumius",mood:"bewildered",art:"de-ber-kaffeeküche-cake",trg:"Also. In Deutschland bringt man seinen eigenen Geburtstagskuchen mit. Man macht seinen eigenen Kaffee. Und man nimmt niemals den letzten Keks. Verstanden.",src:"إذن. في ألمانيا تحضر كعكة عيد ميلادك بنفسك. تصنع قهوتك بنفسك. ولا تأخذ آخر بسكويت أبدًا. مفهوم."},
-        {type:"mc",q:"Was bedeutet 'aufnehmen'?",opts:["the craftsperson, the tradesperson","to glue, to stick","to record, to absorb, to take in","the hammer"],ans:"to record, to absorb, to take in",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to use' auf Deutsch? {1}",a:["gebrauchen"],opts:["stecken","der Handwerker","gebrauchen","einsetzen"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to use' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'einsetzen'?",opts:["the hammer","to deploy, to use, to insert","the tool(s)","vertical, perpendicular"],ans:"to deploy, to use, to insert",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Soll der Tisch rund oder {1} sein?",a:["eckig"],opts:["einsetzen","der Kasten","die Schachtel","eckig"],hint:"أي كلمة تناسب in this context?",sSrc:"Should the table be round or square?"},
-        {type:"mc",q:"Was bedeutet 'senkrecht'?",opts:["the box, the packet","to put in, to insert, to be stuck","vertical, perpendicular","to deploy, to use, to insert"],ans:"vertical, perpendicular",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'aufnehmen'?",opts:["the craftsperson, the tradesperson","to glue, to stick","to record, to absorb, to take in","the hammer"],ans:"to record, to absorb, to take in",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to use' auf Deutsch? {1}",a:["gebrauchen"],opts:["stecken","der Handwerker","gebrauchen","einsetzen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to use' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'einsetzen'?",opts:["the hammer","to deploy, to use, to insert","the tool(s)","vertical, perpendicular"],ans:"to deploy, to use, to insert",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Soll der Tisch rund oder {1} sein?",a:["eckig"],opts:["einsetzen","der Kasten","die Schachtel","eckig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Should the table be round or square?"},
+        {type:"mc",q:"Was bedeutet 'senkrecht'?",opts:["the box, the packet","to put in, to insert, to be stuck","vertical, perpendicular","to deploy, to use, to insert"],ans:"vertical, perpendicular",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L13: Alles zusammen ───
     {id:"deu_r14l10",title:"Alles zusammen",icon:"🧪",xp:15,board:true,steps:[
@@ -463,7 +463,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     {trg:"der Fernseher",src:"TV set"},
     {trg:"das Fernsehen",src:"television (medium)"},
     {trg:"die Fernbedienung",src:"remote control"},
-    {trg:"der Lautsprecher",src:"speaker"}
+    {trg:"der Lautsprecher",src:"متحدث"}
 ]},
         {type:"mc",q:"Was ist der Unterschied zwischen 'der Sender' und 'der Kanal'?",opts:[
     "Es gibt keinen Unterschied",

@@ -65,10 +65,10 @@ const UNIT_04_AR = {n:4,lang:"de",srcLang:"ar",track:"v2",title:"Im Supermarkt",
         {type:"mc",q:"ما المعنى الحرفي لكلمة 'Lebensmittel'؟",opts:["means of life","food store","daily bread","fresh items"],ans:"means of life",hint:"ترجم كل جزء من هذا الاسم المركب على حدة."},
         {type:"mc",q:"'Die Tomaten _____ frisch.'",opts:["ist","sind","hat","haben"],ans:"sind",hint:"Tomaten جمع. يحتاج صيغة الفعل الجمع."},
         {type:"story",speaker:"verumius",mood:"hopeful",art:"de-rewe-basket-fruit",trg:"Ich lege die gelben Dinge in den Korb. Und die roten. Und... ich weiß nicht, was das ist, aber es riecht gut.",src:"أضع الأشياء الصفراء في السلة. والحمراء. و... لا أعرف ما هذا، لكن رائحته طيبة."},
-        {type:"mc",q:"Was bedeutet 'die Pommes frites'?",opts:["the fries / chips","the cucumber","the juice","the banana"],ans:"the fries / chips",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the water' auf Deutsch? {1}",a:["das Wasser"],opts:["die Pommes frites","der Schinken","das Obst","das Wasser"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the water' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'das Getränk'?",opts:["the drink / beverage","the banana","the fruit (collective)","the cheese"],ans:"the drink / beverage",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the food / groceries' auf Deutsch? {1}",a:["das Lebensmittel"],opts:["das Getränk","das Lebensmittel","der Käse","der Saft"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the food / groceries' بالألمانية؟"}
+        {type:"mc",q:"Was bedeutet 'die Pommes frites'?",opts:["the fries / chips","the cucumber","the juice","the banana"],ans:"the fries / chips",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the water' auf Deutsch? {1}",a:["das Wasser"],opts:["die Pommes frites","der Schinken","das Obst","das Wasser"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the water' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'das Getränk'?",opts:["the drink / beverage","the banana","the fruit (collective)","the cheese"],ans:"the drink / beverage",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the food / groceries' auf Deutsch? {1}",a:["das Lebensmittel"],opts:["das Getränk","das Lebensmittel","der Käse","der Saft"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the food / groceries' بالألمانية؟"}
       ]},
 // ─── L4: Nummern, Farben, Gewichte ───
     {id:"deu_r4l3",title:"Nummern, Farben, Gewichte",icon:"🔢",xp:15,board:true,steps:[
@@ -336,9 +336,9 @@ const UNIT_04_AR = {n:4,lang:"de",srcLang:"ar",track:"v2",title:"Im Supermarkt",
         {type:"story",speaker:"verumius",mood:"determined",art:"de-rewe-entrance-return",trg:"Morgen gehe ich wieder. Diesmal mit Münze, mit Tüte, und mit einer Liste. Ich bin bereit. Glaube ich.",src:"غداً أذهب مرة أخرى. هذه المرة بقطعة نقود، وكيس، وقائمة. أنا مستعد. أظن."},
         {type:"fb",s:"Ich möchte {1} mit Reis, bitte.",a:["Hähnchen"],opts:["Hähnchen","Kartoffel","Kuchen","Fisch"],hint:"فكّر في معنى الكلمة.",sSrc:"I would like chicken with rice, please."},
         {type:"mc",q:"'Ein Glas Wasser, bitte.' Was möchte die Person?",opts:["ein Glas mit Wasser","eine Flasche Milch","ein Stück Kuchen","eine Tasse Tee"],ans:"ein Glas mit Wasser",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'die Birne'?",opts:["the pear","the potato","the beer","the wine"],ans:"the pear",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the oil' auf Deutsch? {1}",a:["das Öl"],opts:["das Öl","der Kuchen","das Brötchen","das Salz"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the oil' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'das Glas'?",opts:["the cake","the bottle","the glass","the potato"],ans:"the glass",hint:"فكّر في the meaning of this word in context."},
+        {type:"mc",q:"Was bedeutet 'die Birne'?",opts:["the pear","the potato","the beer","the wine"],ans:"the pear",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the oil' auf Deutsch? {1}",a:["das Öl"],opts:["das Öl","der Kuchen","das Brötchen","das Salz"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the oil' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'das Glas'?",opts:["the cake","the bottle","the glass","the potato"],ans:"the glass",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Ich brauche ein {1} für das Frühstück.",a:["Ei"],opts:["Ei","Öl","Brot","Glas"],hint:"فكّر في معنى الكلمة.",sSrc:"I need an egg for breakfast."},
         {type:"mc",q:"Was ist 'das Öl'?",opts:["the oil","the egg","the butter","the vinegar"],ans:"the oil",hint:"فكّر في معنى الكلمة."}
       ]},
@@ -390,11 +390,11 @@ const UNIT_04_AR = {n:4,lang:"de",srcLang:"ar",track:"v2",title:"Im Supermarkt",
         {type:"story",speaker:"verumius",mood:"confident",art:"de-rewe-entrance-confident",trg:"REWE. Rote Buchstaben. Automatische Türen. Aber diesmal: eine Münze in der Tasche, eine Liste in der Hand, und ein Wort auf den Lippen. 'Guten Tag.'",src:"REWE. حروف حمراء. أبواب أوتوماتيكية. لكن هذه المرة: قطعة نقود في الجيب، وقائمة في اليد، وكلمة على الشفاه. 'Guten Tag.'"},
         {type:"mc",q:"Was ist 'die Tasche'?",opts:["die Jacke","die Hose","die Tasche ist Beutel oder Hosentasche","der Schuh"],ans:"die Tasche ist Beutel oder Hosentasche",hint:"هذه الكلمة تعني both bag and pocket."},
         {type:"fb",s:"Zieh deine {1} an, es ist kalt!",a:["Jacke"],opts:["Jacke","Tasche","Schuh","Prozent"],hint:"فكّر في معنى الكلمة.",sSrc:"Put on your jacket, it is cold!"},
-        {type:"mc",q:"Was bedeutet 'der Teil'?",opts:["the million","the part / piece","mostly / most","the bank account"],ans:"the part / piece",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the vending machine / ATM' auf Deutsch? {1}",a:["der Automat"],opts:["der Automat","meist","die Million","zweihundert"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the vending machine / ATM' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'verkaufen'?",opts:["to sell","seventy (70)","one hundred (100)","the percent"],ans:"to sell",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ich möchte {1}, bitte.",a:["zahlen"],opts:["der Kilometer","der Schuh","zahlen","der Automat"],hint:"أي كلمة تناسب in this context?",sSrc:"I would like to pay, please."},
-        {type:"mc",q:"Was bedeutet 'meist'?",opts:["mostly / most","the centimeter","the bag / pocket","the euro"],ans:"mostly / most",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'der Teil'?",opts:["the million","the part / piece","mostly / most","the bank account"],ans:"the part / piece",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the vending machine / ATM' auf Deutsch? {1}",a:["der Automat"],opts:["der Automat","meist","die Million","zweihundert"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the vending machine / ATM' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'verkaufen'?",opts:["to sell","seventy (70)","one hundred (100)","the percent"],ans:"to sell",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ich möchte {1}, bitte.",a:["zahlen"],opts:["der Kilometer","der Schuh","zahlen","der Automat"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"I would like to pay, please."},
+        {type:"mc",q:"Was bedeutet 'meist'?",opts:["mostly / most","the centimeter","the bag / pocket","the euro"],ans:"mostly / most",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]}
   ]};
 

@@ -141,10 +141,10 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"mc",q:"يقول شخص 'Du sprichst kein Deutsch.' لكنّك تتكلّم الألمانية. تردّ:",opts:["Nein!","Ja!","Doch!","Bitte!"],ans:"Doch!",hint:"هذه الكلمة الخاصة تنفي النفي."},
         {type:"fb",s:"Entschuldigung, {1} Sie mir bitte den Weg zeigen?",a:["können"],opts:["können","müssen","dürfen","möchten"],hint:"أي فعل مشروط يعبر عن القدرة والطلبات المهذبة؟",sSrc:"عذرًا، هل يمكنك أن تُريني الطريق من فضلك؟"},
         {type:"story",speaker:"narrator",mood:"reflective",art:"de-berlin-street-afternoon",trg:"Verumius kann jetzt fragen, hören und verstehen. Langsam. Aber er versteht. Das ist der erste Schritt.",src:"فيروميوس يستطيع الآن أن يسأل ويستمع ويفهم. ببطء. لكنه يفهم. هذه هي الخطوة الأولى."},
-        {type:"mc",q:"Was bedeutet 'lesen'?",opts:["next to, beside","to see","to read","to hear"],ans:"to read",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to see' auf Deutsch? {1}",a:["sehen"],opts:["mal","geben","zu","sehen"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to see' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'hören'?",opts:["to read","to show, to point","would like","to hear"],ans:"to hear",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} Sie mich?",a:["verstehen"],opts:["dürfen","sehen","zeigen","verstehen"],hint:"أي كلمة تناسب in this context?",sSrc:"Do you understand me?"}
+        {type:"mc",q:"Was bedeutet 'lesen'?",opts:["next to, beside","to see","to read","to hear"],ans:"to read",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to see' auf Deutsch? {1}",a:["sehen"],opts:["mal","geben","zu","sehen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to see' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'hören'?",opts:["to read","to show, to point","would like","to hear"],ans:"to hear",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} Sie mich?",a:["verstehen"],opts:["dürfen","sehen","zeigen","verstehen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Do you understand me?"}
       ]},
 // ─── L6: Der, die, das ───
     {id:"deu_r2l5",title:"Der, die, das",icon:"🔤",xp:15,board:true,steps:[
@@ -348,8 +348,8 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"fb",s:"Können Sie mir die {1} zum Bahnhof zeigen?",a:["Richtung"],opts:["Richtung","Kreuzung","Haltestelle","Ecke"],hint:"تطلب من شخص أن يُريك الاتجاه إلى المحطة.",sSrc:"هل يمكنك أن تُريني الاتجاه إلى محطة القطار؟"},
         {type:"tip",title:"Döner Culture",text:"ألمانيا تأكل حوالي ٧٢٠ مليون دونر كباب سنويًا.\nفي برلين وحدها أكثر من ١٦٠٠ محل دونر.\nالدونر الألماني اخترعه مهاجرون أتراك في برلين في السبعينيات.\nالآن هو الوجبة السريعة الأكثر شعبية في ألمانيا، متفوقًا على البرغر والبيتزا."},
         {type:"story",speaker:"verumius",mood:"content",art:"de-spree-doner",trg:"Das Bürgeramt kann warten. Dieser Döner kann nicht. Manchmal ist der Umweg das Ziel.",src:"مكتب المواطنين يمكنه الانتظار. هذا الدونر لا يمكنه. أحيانًا المنعطف هو الوجهة."},
-        {type:"mc",q:"Was bedeutet 'der Fluss'?",opts:["to walk, to run","to get in, to board","to take","the river"],ans:"the river",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} scheint!",a:["die Sonne"],opts:["einsteigen","laufen","die Sonne","aussteigen"],hint:"أي كلمة تناسب in this context?",sSrc:"The sun is shining!"}
+        {type:"mc",q:"Was bedeutet 'der Fluss'?",opts:["to walk, to run","to get in, to board","to take","the river"],ans:"the river",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} scheint!",a:["die Sonne"],opts:["einsteigen","laufen","die Sonne","aussteigen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The sun is shining!"}
       ]},
 // ─── L11: Alles zusammen! ───
     {id:"deu_r2l9",title:"Alles zusammen!",icon:"🏆",xp:20,board:true,steps:[
@@ -465,9 +465,9 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
 ]},
         {type:"fb",s:"Gehen Sie {1} die Straße bis zur Kirche.",a:["durch"],opts:["durch","auf","an","ab"],hint:"فكّر في معنى الكلمة.",sSrc:"Go through the street to the church."},
         {type:"fb",s:"Wir treffen uns {1} dem Bahnhof.",a:["vor"],opts:["vor","über","durch","ab"],hint:"فكّر في معنى الكلمة.",sSrc:"We are meeting in front of the train station."},
-        {type:"mc",q:"Was bedeutet 'an'?",opts:["often","again","now","on, at (a surface or location)"],ans:"on, at (a surface or location)",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} drei Uhr.",a:["gegen"],opts:["gegen","über","oft","jetzt"],hint:"أي كلمة تناسب in this context?",sSrc:"Around three o'clock."},
-        {type:"mc",q:"Was bedeutet 'breit'?",opts:["wide, broad","through","already","soon"],ans:"wide, broad",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'an'?",opts:["often","again","now","on, at (a surface or location)"],ans:"on, at (a surface or location)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} drei Uhr.",a:["gegen"],opts:["gegen","über","oft","jetzt"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Around three o'clock."},
+        {type:"mc",q:"Was bedeutet 'breit'?",opts:["wide, broad","through","already","soon"],ans:"wide, broad",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L15: Wo ist das? ───
     {id:"deu_r2l12",title:"Wo ist das?",icon:"📍",xp:15,board:true,steps:[
@@ -507,8 +507,8 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
     {trg:"die Mitte",src:"مركز"}
 ]},
         {type:"fb",s:"{1}! Der Zug kommt.",a:["Achtung"],opts:["Achtung","Mitte","Information","Praxis"],hint:"هذه الكلمة تعني 'attention' or 'caution' and is heard in stations.",sSrc:"Attention! The train is coming."},
-        {type:"mc",q:"Was bedeutet 'das Dorf'?",opts:["the entrance","the stop, the station","the square, the seat","the village"],ans:"the village",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the sight, the attraction' auf Deutsch? {1}",a:["die Sehenswürdigkeit"],opts:["der Ort","der Eingang","die Praxis","die Sehenswürdigkeit"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the sight, the attraction' بالألمانية؟"}
+        {type:"mc",q:"Was bedeutet 'das Dorf'?",opts:["the entrance","the stop, the station","the square, the seat","the village"],ans:"the village",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the sight, the attraction' auf Deutsch? {1}",a:["die Sehenswürdigkeit"],opts:["der Ort","der Eingang","die Praxis","die Sehenswürdigkeit"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the sight, the attraction' بالألمانية؟"}
       ]},
 // ─── L17: Unterwegs ───
     {id:"deu_r2l13",title:"Unterwegs",icon:"🚌",xp:15,board:true,steps:[
@@ -554,17 +554,17 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
     {trg:"die S-Bahn",src:"قطار المدينة"},
     {trg:"der Lkw",src:"شاحنة"}
 ]},
-        {type:"mc",q:"Was bedeutet 'hoch'?",opts:["the connection (transit)","the driver","the railway, the train","high, tall"],ans:"high, tall",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ist der Bahnhof {1}?",a:["weit"],opts:["das Gleis","die Autobahn","weit","der Süden"],hint:"أي كلمة تناسب in this context?",sSrc:"Is the train station far?"},
-        {type:"mc",q:"Was bedeutet 'so'?",opts:["the north","so, such, like this","the west","the truck"],ans:"so, such, like this",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Sind {1}e da?",a:["all"],opts:["all","das Gleis","der Süden","der Norden"],hint:"أي كلمة تناسب in this context?",sSrc:"Is everyone here?"},
-        {type:"mc",q:"Was bedeutet 'daneben'?",opts:["the driver","next to it, beside it","so, such, like this","all, every"],ans:"next to it, beside it",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1}, im zweiten Stock.",a:["oben"],opts:["das Fahrrad","am","oben","hinten"],hint:"أي كلمة تناسب in this context?",sSrc:"Upstairs, on the second floor."},
-        {type:"mc",q:"Was bedeutet 'unten'?",opts:["down, below, downstairs","the tram, the streetcar","high, tall","back, backwards"],ans:"down, below, downstairs",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1}, am Fenster.",a:["hinten"],opts:["der Lkw","so","all","hinten"],hint:"أي كلمة تناسب in this context?",sSrc:"At the back, by the window."},
-        {type:"mc",q:"Was bedeutet 'draußen'?",opts:["the track, the platform","the tram, the streetcar","there (at a distance)","outside"],ans:"outside",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1}, am Ende der Straße.",a:["dort"],opts:["dort","der Süden","die Autobahn","der Norden"],hint:"أي كلمة تناسب in this context?",sSrc:"There, at the end of the street."},
-        {type:"mc",q:"Was bedeutet 'zurück'?",opts:["up, above, upstairs","the track, the platform","the bicycle","back, backwards"],ans:"back, backwards",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'hoch'?",opts:["the connection (transit)","the driver","the railway, the train","high, tall"],ans:"high, tall",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ist der Bahnhof {1}?",a:["weit"],opts:["das Gleis","die Autobahn","weit","der Süden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is the train station far?"},
+        {type:"mc",q:"Was bedeutet 'so'?",opts:["the north","so, such, like this","the west","the truck"],ans:"so, such, like this",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Sind {1}e da?",a:["all"],opts:["all","das Gleis","der Süden","der Norden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is everyone here?"},
+        {type:"mc",q:"Was bedeutet 'daneben'?",opts:["the driver","next to it, beside it","so, such, like this","all, every"],ans:"next to it, beside it",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1}, im zweiten Stock.",a:["oben"],opts:["das Fahrrad","am","oben","hinten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Upstairs, on the second floor."},
+        {type:"mc",q:"Was bedeutet 'unten'?",opts:["down, below, downstairs","the tram, the streetcar","high, tall","back, backwards"],ans:"down, below, downstairs",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1}, am Fenster.",a:["hinten"],opts:["der Lkw","so","all","hinten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"At the back, by the window."},
+        {type:"mc",q:"Was bedeutet 'draußen'?",opts:["the track, the platform","the tram, the streetcar","there (at a distance)","outside"],ans:"outside",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1}, am Ende der Straße.",a:["dort"],opts:["dort","der Süden","die Autobahn","der Norden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"There, at the end of the street."},
+        {type:"mc",q:"Was bedeutet 'zurück'?",opts:["up, above, upstairs","the track, the platform","the bicycle","back, backwards"],ans:"back, backwards",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L19: Kommen und Gehen ───
     {id:"deu_r2l14",title:"Kommen und Gehen",icon:"🚶",xp:15,board:true,steps:[
@@ -603,13 +603,13 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
     {trg:"helfen",src:"يساعد"}
 ]},
         {type:"fb",s:"Kommst du {1}? Ich gehe ins Museum.",a:["mit"],opts:["mit","ab","aus","ein"],hint:"فكّر في معنى الكلمة.",sSrc:"Are you coming along? I am going to the museum."},
-        {type:"mc",q:"Was bedeutet 'leihen'?",opts:["to lend, to borrow","to stay, to remain","to help","to depart (by plane)"],ans:"to lend, to borrow",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to come along' auf Deutsch? {1}",a:["mitkommen"],opts:["wandern","mitkommen","grade","halten"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to come along' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'zeigen'?",opts:["to hold, to stop","to show","to transfer, to change (trains/buses)","to lend, to borrow"],ans:"to show",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to take along' auf Deutsch? {1}",a:["mitnehmen"],opts:["mitnehmen","abholen","auf sein","helfen"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to take along' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'weiterfahren'?",opts:["to continue driving, to drive on","to lend, to borrow","to hold, to stop","to hike"],ans:"to continue driving, to drive on",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to be open' auf Deutsch? {1}",a:["auf sein"],opts:["weiterfahren","abfliegen","zeigen","auf sein"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to be open' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'grade'?",opts:["to stand","to last, to take (time)","just, right now (colloquial)","to stay, to remain"],ans:"just, right now (colloquial)",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'leihen'?",opts:["to lend, to borrow","to stay, to remain","to help","to depart (by plane)"],ans:"to lend, to borrow",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to come along' auf Deutsch? {1}",a:["mitkommen"],opts:["wandern","mitkommen","grade","halten"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to come along' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'zeigen'?",opts:["to hold, to stop","to show","to transfer, to change (trains/buses)","to lend, to borrow"],ans:"to show",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to take along' auf Deutsch? {1}",a:["mitnehmen"],opts:["mitnehmen","abholen","auf sein","helfen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to take along' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'weiterfahren'?",opts:["to continue driving, to drive on","to lend, to borrow","to hold, to stop","to hike"],ans:"to continue driving, to drive on",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to be open' auf Deutsch? {1}",a:["auf sein"],opts:["weiterfahren","abfliegen","zeigen","auf sein"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to be open' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'grade'?",opts:["to stand","to last, to take (time)","just, right now (colloquial)","to stay, to remain"],ans:"just, right now (colloquial)",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L21: Rund um die Stadt ───
     {id:"deu_r2l15",title:"Rund um die Stadt",icon:"🏙️",xp:15,board:true,steps:[
@@ -660,10 +660,10 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"teach",trg:"alles",src:"everything",pos:"pron",gender:null,note:"Pronoun. The neuter form of 'all'. Alles klar? = All clear?",example:"A: Hast du alles?\nB: Ja, ich habe alles. Wir können gehen.",exampleSrc:"A: Do you have everything?\nB: Yes, I have everything. We can go.",funFact:"'Alles Gute!' (All the best!) is the standard wish for birthdays, farewells, and any occasion."},
         {type:"teach",trg:"der Eintritt",src:"the entry, the admission",pos:"noun",gender:"m",note:"Masculine noun. Ein (in) + Tritt (step). Admission fee: der Eintrittspreis.",example:"A: Was kostet der Eintritt?\nB: Der Eintritt kostet zehn Euro.",exampleSrc:"A: How much is the admission?\nB: The admission is ten euros.",funFact:"Many Berlin museums have 'Eintritt frei' (free admission) on the first Sunday of each month."},
         {type:"mc",q:"'Der See' is masculine and means 'the lake'. What does 'die See' (feminine) mean?",opts:["the lake","the river","the pond","the sea"],ans:"the sea",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'das Reisebüro'?",opts:["everything","the information, the information desk","the sign","the travel agency"],ans:"the travel agency",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ja, {1} empfiehlt dieses Lokal.",a:["der Reiseführer"],opts:["der Ausflug","die Karte","der Reiseführer","die Vorsicht"],hint:"أي كلمة تناسب in this context?",sSrc:"Yes, the guide recommends this restaurant."},
-        {type:"mc",q:"Was bedeutet 'ander'?",opts:["the view, the glance","the information, the information desk","other, different","the travel guide (book or person)"],ans:"other, different",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Hast du {1}?",a:["alles"],opts:["alles","die Vorsicht","die Auskunft","das Beispiel"],hint:"أي كلمة تناسب in this context?",sSrc:"Do you have everything?"}
+        {type:"mc",q:"Was bedeutet 'das Reisebüro'?",opts:["everything","the information, the information desk","the sign","the travel agency"],ans:"the travel agency",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ja, {1} empfiehlt dieses Lokal.",a:["der Reiseführer"],opts:["der Ausflug","die Karte","der Reiseführer","die Vorsicht"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Yes, the guide recommends this restaurant."},
+        {type:"mc",q:"Was bedeutet 'ander'?",opts:["the view, the glance","the information, the information desk","other, different","the travel guide (book or person)"],ans:"other, different",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Hast du {1}?",a:["alles"],opts:["alles","die Vorsicht","die Auskunft","das Beispiel"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Do you have everything?"}
       ]}
   ]};
 

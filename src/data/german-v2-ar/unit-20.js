@@ -43,8 +43,8 @@ const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicheru
 ]},
         {type:"story",speaker:"narrator",mood:"ominous-comedy",art:"de-ber-kitchen-papers",trg:"Verumius schiebt die Briefe zur Seite. Morgen wird er KD anrufen. KD kennt sich aus. KD ist vom Amt. Und KD hat eine Telefonnummer, die tatsächlich funktioniert.",src:"يدفع فيروميوس الرسائل جانبًا. غدًا سيتصل بـ KD. يعرف KD طريقه جيدًا. KD من المكتب الحكومي. ولدى KD رقم هاتف يعمل فعلًا."},
         {type:"fb",s:"Im {1} ruft man sofort den Krankenwagen.",a:["Notfall"],opts:["Notfall","Notruf","Notaufnahme","Notausgang"],hint:"فكّر في معنى الكلمة.",sSrc:"In an emergency, you call the ambulance immediately."},
-        {type:"mc",q:"Was bedeutet 'versichern'?",opts:["the ambulance","the costs, the expenses","the emergency room","to insure, to assure"],ans:"to insure, to assure",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to treat (medically), to handle' auf Deutsch? {1}",a:["behandeln"],opts:["finanziell","behandeln","der Patient","die Patientin"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to treat (medically), to handle' بالألمانية؟"}
+        {type:"mc",q:"Was bedeutet 'versichern'?",opts:["the ambulance","the costs, the expenses","the emergency room","to insure, to assure"],ans:"to insure, to assure",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to treat (medically), to handle' auf Deutsch? {1}",a:["behandeln"],opts:["finanziell","behandeln","der Patient","die Patientin"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to treat (medically), to handle' بالألمانية؟"}
       ]},
 // ─── L3: Körpervokabular ───
     {id:"deu_r20l2",title:"Körpervokabular",icon:"🦴",xp:15,board:true,steps:[
@@ -86,7 +86,7 @@ const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicheru
     {trg:"schwitzen",src:"to sweat"}
 ]},
         {type:"story",speaker:"narrator",mood:"warm",art:"de-ber-arztpraxis",trg:"Die Ärztin gibt Verumius ein Rezept und sagt: 'Gute Besserung.' Er versteht das Wort sofort. Besser werden. Besserung. Deutsch ist logisch, wenn man die Teile kennt.",src:"تعطي الطبيبة فيروميوس وصفة طبية وتقول: 'سلامتك.' يفهم الكلمة فورًا. أن تتحسن. تحسّن. الألمانية منطقية عندما تعرف الأجزاء."},
-        {type:"mc",q:"Was bedeutet 'messen'?",opts:["the bone","to X-ray","the muscle","to measure"],ans:"to measure",hint:"فكّر في the meaning of this word in context."},
+        {type:"mc",q:"Was bedeutet 'messen'?",opts:["the bone","to X-ray","the muscle","to measure"],ans:"to measure",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"mc",q:"Ich kann den Schmerz im Rücken spüren. Was bedeutet 'spüren'?",opts:["to break","to feel, to sense","to bleed","to measure"],ans:"to feel, to sense",hint:"فكّر في معنى الكلمة."}
       ]},
 // ─── L5: KD im Café ───
@@ -159,11 +159,11 @@ const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicheru
         {type:"mc",q:"Es regnet stark. _____ bleibe ich zu Hause. Welches Wort bedeutet 'therefore'?",opts:["Deshalb","Trotzdem","Sonst","Also"],ans:"Deshalb",hint:"أيّ حرف عطف يعبّر عن علاقة سببية مباشرة؟"},
         {type:"drag_fill",s:"Die Klinik, in {1} ich war, war sehr gut. {2} empfehle ich sie.",blanks:{"1":"der","2":"Deshalb"},pool:["der","die","dem","Deshalb","Trotzdem","Sonst"],hint:"الفراغ الأول: حرف الجر in مع حالة المفعول غير المباشر، وكلمة Klinik مؤنثة. الفراغ الثاني: حرف عطف يفيد النتيجة.",sSrc:"العيادة التي كنت فيها كانت ممتازة. لذلك أنصح بها."},
         {type:"story",speaker:"kd",mood:"encouraging",art:"de-ber-cafe-kd",trg:"KD klopft Verumius auf die Schulter. 'Die Grammatik, vor der du Angst hast, ist eigentlich logisch. Deshalb liebe ich Deutsch. Alles hat Regeln.' Verumius denkt: Regeln ja. Ausnahmen auch.",src:"يربت KD على كتف فيروميوس. 'القواعد التي تخاف منها منطقية فعلًا. لذلك أحب الألمانية. كل شيء له قواعد.' يفكر فيروميوس: قواعد نعم. واستثناءات أيضًا."},
-        {type:"mc",q:"Was bedeutet 'operieren'?",opts:["the painkiller","the injection, the syringe","the drop","to operate (surgery)"],ans:"to operate (surgery)",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'the doctor (female, title)' auf Deutsch? {1}",a:["die Doktorin"],opts:["die Doktorin","die Infektion","operieren","die \\u00c4rztin"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the doctor (female, title)' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'die Schwierigkeit'?",opts:["to operate (surgery)","minimal, at least","the injection, the syringe","the difficulty"],ans:"the difficulty",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} drei pro Tag.",a:["maximal"],opts:["maximal","die \\u00c4rztin","das Pflaster","die Doktorin"],hint:"أي كلمة تناسب in this context?",sSrc:"Maximum three per day."},
-        {type:"mc",q:"Was bedeutet 'minimal'?",opts:["the cold, the runny nose","minimal, at least","the cough","the painkiller"],ans:"minimal, at least",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'operieren'?",opts:["the painkiller","the injection, the syringe","the drop","to operate (surgery)"],ans:"to operate (surgery)",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'the doctor (female, title)' auf Deutsch? {1}",a:["die Doktorin"],opts:["die Doktorin","die Infektion","operieren","die \\u00c4rztin"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the doctor (female, title)' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'die Schwierigkeit'?",opts:["to operate (surgery)","minimal, at least","the injection, the syringe","the difficulty"],ans:"the difficulty",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} drei pro Tag.",a:["maximal"],opts:["maximal","die \\u00c4rztin","das Pflaster","die Doktorin"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Maximum three per day."},
+        {type:"mc",q:"Was bedeutet 'minimal'?",opts:["the cold, the runny nose","minimal, at least","the cough","the painkiller"],ans:"minimal, at least",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L8: Apotheke und Pflege ───
     {id:"deu_r20l5",title:"Apotheke und Pflege",icon:"💊",xp:15,board:true,steps:[
@@ -203,14 +203,14 @@ const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicheru
         {type:"drag_fill",s:"Die Salbe, {1} der Arzt mir verschrieben hat, hilft nicht. {2} brauche ich ein anderes Schmerzmittel.",blanks:{"1":"die","2":"Deswegen"},pool:["die","der","das","Deswegen","Trotzdem","Weil"],hint:"الفراغ الأول: الضمير الموصول في حالة المفعول به لكلمة Salbe المؤنثة. الفراغ الثاني: حرف عطف يفيد النتيجة مع وضع الفعل في المرتبة الثانية.",sSrc:"المرهم الذي وصفه لي الطبيب لا يفيد. لهذا السبب أحتاج إلى مسكن ألم مختلف."},
         {type:"story",speaker:"verumius",mood:"relieved",art:"de-ber-apotheke",trg:"Verumius verlässt die Apotheke mit drei Tüten und einer Versichertenkarte, die er jetzt tatsächlich benutzen kann. Das System funktioniert. Trotzdem versteht er die Beipackzettel nicht. Schritt für Schritt.",src:"يغادر فيروميوس الصيدلية بثلاثة أكياس وبطاقة تأمين يمكنه استخدامها فعلًا الآن. النظام يعمل. ومع ذلك، لا يفهم نشرات الأدوية. خطوة بخطوة."},
         {type:"fb",s:"Die neue Medizin soll die alte {1}.",a:["ersetzen"],opts:["ersetzen","erleichtern","verbinden","pflegen"],hint:"فكّر في معنى الكلمة.",sSrc:"The new medicine is supposed to replace the old one."},
-        {type:"mc",q:"Was bedeutet 'die Betreuung'?",opts:["the care, the supervision","to look after, to supervise","the caregiver, the nurse (female)","the toothbrush"],ans:"the care, the supervision",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wirkt {1} genauso gut?",a:["der Ersatz"],opts:["der Ersatz","die Besserung","der Betreuer","betreuen"],hint:"أي كلمة تناسب in this context?",sSrc:"Does the substitute work just as well?"},
+        {type:"mc",q:"Was bedeutet 'die Betreuung'?",opts:["the care, the supervision","to look after, to supervise","the caregiver, the nurse (female)","the toothbrush"],ans:"the care, the supervision",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wirkt {1} genauso gut?",a:["der Ersatz"],opts:["der Ersatz","die Besserung","der Betreuer","betreuen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Does the substitute work just as well?"},
         {type:"mc",q:"Was bedeutet 'die Besserung'?",opts:[
     "the caregiver, the nurse (female)",
     "the improvement, the recovery",
     "the replacement, the substitute",
     "the male nurse"
-],ans:"the improvement, the recovery",hint:"فكّر في the meaning of this word in context."}
+],ans:"the improvement, the recovery",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L10: TK oder AOK? ───
     {id:"deu_r20l6",title:"TK oder AOK?",icon:"📋",xp:15,board:true,steps:[
@@ -309,12 +309,12 @@ const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicheru
         {type:"story",speaker:"narrator",mood:"satisfied",art:"de-ber-hildi-kitchen",trg:"Die Serviette ist voll mit Pfeilen, Kreisen und Ausrufezeichen. Es sieht aus wie ein Kunstwerk. Aber Verumius versteht jetzt mehr über das deutsche Gesundheitssystem als die meisten Touristen nach zehn Jahren.",src:"المنديل مغطى بأسهم ودوائر وعلامات تعجب. يبدو كعمل فني. لكن فيروميوس الآن يفهم النظام الصحي الألماني أكثر من معظم السياح بعد عشر سنوات."},
         {type:"mc",q:"Hildi sagt: 'Die Krankenkasse, _____ du jeden Monat zahlst, hilft dir im Notfall.' Was passt?",opts:["an der","an den","an dem","an die"],ans:"an die",hint:"الفعل zahlen مع حرف الجر an يستلزم حالة المفعول به. كلمة Krankenkasse مؤنثة. ما هي الصيغة المؤنثة لحالة المفعول به؟"},
         {type:"drag_fill",s:"Das Altenheim, in {1} meine Oma wohnt, ist sehr gut. {2} besuche ich sie oft.",blanks:{"1":"dem","2":"Deshalb"},pool:["dem","der","das","Deshalb","Trotzdem","Sonst"],hint:"الفراغ الأول: حرف الجر in مع حالة المفعول غير المباشر، وكلمة Altenheim محايدة الجنس. الفراغ الثاني: حرف عطف يفيد النتيجة.",sSrc:"دار المسنين الذي تعيش فيه جدتي ممتاز. لذلك أزورها كثيراً."},
-        {type:"mc",q:"Was bedeutet 'behindern'?",opts:["the coin","the recovery, the recreation","to hinder, to obstruct","to distribute"],ans:"to hinder, to obstruct",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wo ist {1}?",a:["die Ordination"],opts:["abheben","st\\u00fcrzen","die M\\u00fcnze","die Ordination"],hint:"أي كلمة تناسب in this context?",sSrc:"Where is the doctor's office?"},
-        {type:"mc",q:"Was bedeutet 'befreit'?",opts:["satisfactory","exempt, freed","to estimate, to value, to appreciate","to recover, to recuperate"],ans:"exempt, freed",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1}. Nicht schlecht, nicht gro\\u00dfartig.",a:["befriedigend"],opts:["die Badewanne","abheben","behindern","befriedigend"],hint:"أي كلمة تناسب in this context?",sSrc:"Satisfactory. Not bad, not great."},
-        {type:"fb",s:"Wie sagt man 'the lack, the deficiency' auf Deutsch? {1}",a:["der Mangel"],opts:["der Mangel","parallel","zunehmen","die Ordination"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'the lack, the deficiency' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'die Badewanne'?",opts:["to withdraw (money), to lift off","parallel","strong, powerful, hearty","the bathtub"],ans:"the bathtub",hint:"فكّر في the meaning of this word in context."},
+        {type:"mc",q:"Was bedeutet 'behindern'?",opts:["the coin","the recovery, the recreation","to hinder, to obstruct","to distribute"],ans:"to hinder, to obstruct",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wo ist {1}?",a:["die Ordination"],opts:["abheben","st\\u00fcrzen","die M\\u00fcnze","die Ordination"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Where is the doctor's office?"},
+        {type:"mc",q:"Was bedeutet 'befreit'?",opts:["satisfactory","exempt, freed","to estimate, to value, to appreciate","to recover, to recuperate"],ans:"exempt, freed",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1}. Nicht schlecht, nicht gro\\u00dfartig.",a:["befriedigend"],opts:["die Badewanne","abheben","behindern","befriedigend"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Satisfactory. Not bad, not great."},
+        {type:"fb",s:"Wie sagt man 'the lack, the deficiency' auf Deutsch? {1}",a:["der Mangel"],opts:["der Mangel","parallel","zunehmen","die Ordination"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'the lack, the deficiency' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'die Badewanne'?",opts:["to withdraw (money), to lift off","parallel","strong, powerful, hearty","the bathtub"],ans:"the bathtub",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Der Pfleger {1} den Rollstuhl durch den Flur.",a:["schiebt"],opts:["schiebt","sticht","bricht","stürzt"],hint:"فكّر في معنى الكلمة.",sSrc:"The caregiver pushes the wheelchair through the corridor."},
         {type:"mc",q:"Er ist vom Fahrrad gestürzt. Was bedeutet 'stürzen'?",opts:["to push","to sting","to fall, to crash","to weigh"],ans:"to fall, to crash",hint:"فكّر في معنى الكلمة."}
       ]}

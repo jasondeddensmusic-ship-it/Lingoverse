@@ -44,8 +44,8 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
     {trg:"verbringen",src:"to spend (time)"}
 ]},
         {type:"fb",s:"Die {1} sagen ist nicht immer leicht.",a:["Wahrheit"],opts:["Wahrheit","Tatsache","Eile","Gewohnheit"],hint:"فكّر في معنى الكلمة.",sSrc:"Telling the truth is not always easy."},
-        {type:"mc",q:"Was bedeutet 'gewöhnen'?",opts:["the everyday life","the hurry, the haste","the sense, the meaning, the purpose","to get used to"],ans:"to get used to",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ist dein Leben in Berlin jetzt {1}?",a:["alltäglich"],opts:["vermissen","das Abenteuer","verbringen","alltäglich"],hint:"أي كلمة تناسب in this context?",sSrc:"Is your life in Berlin everyday now?"}
+        {type:"mc",q:"Was bedeutet 'gewöhnen'?",opts:["the everyday life","the hurry, the haste","the sense, the meaning, the purpose","to get used to"],ans:"to get used to",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ist dein Leben in Berlin jetzt {1}?",a:["alltäglich"],opts:["vermissen","das Abenteuer","verbringen","alltäglich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Is your life in Berlin everyday now?"}
       ]},
 // ─── L3: Rückblick ───
     {id:"deu_r24l2",title:"Rückblick",icon:"🔍",xp:15,board:true,steps:[
@@ -168,8 +168,8 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"mc",q:"Welcher Satz drückt ein stärkeres Engagement zum Bleiben aus?",opts:["Ich bleibe morgen","Ich bin geblieben","Ich blieb","Ich werde bleiben"],ans:"Ich werde bleiben",hint:"المستقبل البسيط يؤكّد النيّة والالتزام الواعي أكثر من المضارع."},
         {type:"story",speaker:"narrator",mood:"anticipatory",art:"de-berlin-apartment-evening-light",trg:"Die Sonne geht unter. In zwei Stunden werden sie kommen. Verumius schaut auf sein Telefon. Eine Nachricht von Lukas: 'Ich bringe die Lichterketten.' Eine von Hildi: 'Der Tee ist fertig. Komm runter.' Es wird ein guter Abend werden.",src:"الشمس تغرب. بعد ساعتين سيأتون. ينظر فيروميوس إلى هاتفه. رسالة من لوكاس: 'سأحضر الأضواء.' ورسالة من هيلدي: 'الشاي جاهز. انزل.' سيكون مساءً جمي��اً."},
         {type:"fb",s:"Er {1} sich entschlossen zu bleiben, nachdem er ein Jahr in Berlin gelebt hat.",a:["hatte"],opts:["hatte","hat","wird","war"],hint:"فكّر في معنى الكلمة.",sSrc:"He had resolved to stay after spending a year in Berlin."},
-        {type:"mc",q:"Was bedeutet 'sinnvoll'?",opts:["to suggest","meaningful, sensible","to continue","optimistic"],ans:"meaningful, sensible",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Manchmal dachte ich: das ist {1}.",a:["sinnlos"],opts:["sinnlos","der Zweck","die Planung","wohl"],hint:"أي كلمة تناسب in this context?",sSrc:"Sometimes I thought: this is pointless."}
+        {type:"mc",q:"Was bedeutet 'sinnvoll'?",opts:["to suggest","meaningful, sensible","to continue","optimistic"],ans:"meaningful, sensible",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Manchmal dachte ich: das ist {1}.",a:["sinnlos"],opts:["sinnlos","der Zweck","die Planung","wohl"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Sometimes I thought: this is pointless."}
       ]},
 // ─── L7: Vorbereitung ───
     {id:"deu_r24l5",title:"Vorbereitung",icon:"✨",xp:15,board:true,steps:[
@@ -204,11 +204,11 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"story",speaker:"hildi",mood:"stern-fond",art:"de-berlin-hinterhof-hildi-tea",trg:"Die Lichterketten hängen schief. Und die Mülltonnen stehen zu nah am Tisch. Aber gut. Ausnahmsweise. Hier, trink deinen Tee. Du wirst ihn brauchen.",src:"الأضواء معلّقة بشكل معوجّ. وحاويات إعادة التدوير قريبة جداً من الطاولة. لكن حسناً. استثنائياً. تفضّل، اشرب شايك. ستحتاجه."},
         {type:"story",speaker:"verumius",mood:"grateful-amused",art:"de-berlin-hinterhof-setup-done",trg:"Danke, Hildi. Wirklich. Ohne dich wäre das hier nicht möglich gewesen. Du hast mir in diesem Jahr so viel beigebracht. Nicht nur Deutsch.",src:"شكراً لك يا هيلدي. حقاً. بدونك لم يكن هذا ممكناً. علّمتِني الكثير هذا العام. ليس فقط الألمانية."},
         {type:"mc",q:"Was bedeutet 'übertreiben'?",opts:["to exaggerate","to surprise thoroughly","to hide carefully","to prepare in advance"],ans:"to exaggerate",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'verstecken'?",opts:["to surprise","the video","to hide","the hike"],ans:"to hide",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Bist du das deutsche Wetter {1}?",a:["gewohnt"],opts:["üblich","gewohnt","aussuchen","die Wanderung"],hint:"أي كلمة تناسب in this context?",sSrc:"Are you used to the German weather?"},
-        {type:"mc",q:"Was bedeutet 'üblich'?",opts:["usual, customary","the hike","to pick out, to choose","the congratulations"],ans:"usual, customary",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1}!",a:["selbstverständlich"],opts:["die Gratulation","überraschen","gewohnt","selbstverständlich"],hint:"أي كلمة تناسب in this context?",sSrc:"Of course!"},
-        {type:"mc",q:"Was bedeutet 'ungewöhnlich'?",opts:["accustomed, used to","unusual","the overnight stay","to pick out, to choose"],ans:"unusual",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'verstecken'?",opts:["to surprise","the video","to hide","the hike"],ans:"to hide",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Bist du das deutsche Wetter {1}?",a:["gewohnt"],opts:["üblich","gewohnt","aussuchen","die Wanderung"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Are you used to the German weather?"},
+        {type:"mc",q:"Was bedeutet 'üblich'?",opts:["usual, customary","the hike","to pick out, to choose","the congratulations"],ans:"usual, customary",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1}!",a:["selbstverständlich"],opts:["die Gratulation","überraschen","gewohnt","selbstverständlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Of course!"},
+        {type:"mc",q:"Was bedeutet 'ungewöhnlich'?",opts:["accustomed, used to","unusual","the overnight stay","to pick out, to choose"],ans:"unusual",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L9: Das Fest ───
     {id:"deu_r24l6",title:"Das Fest",icon:"🎶",xp:15,board:true,steps:[
@@ -256,10 +256,10 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
     {trg:"übrig",src:"remaining"}
 ]},
         {type:"story",speaker:"verumius",mood:"overwhelmed-happy",art:"de-berlin-hinterhof-group-toast",trg:"Ich schaue in die Runde. Hildi mit ihrem Tee. Lukas mit der Gitarre. Mia, die lacht. Yilmaz, der nickt. Und KD, der einen Kaktus hält. Das ist meine Familie in Berlin. Das sind die Menschen, die zählen.",src:"أنظر حولي في الحلقة. هيلدي مع شايها. لوكاس مع غيتاره. ميا التي تضحك. يلماز التي تومئ. وKD الذي يمسك صبّاراً. هذه عائلتي في برلين. هؤلاء هم الأشخاص المهمّون."},
-        {type:"mc",q:"Was bedeutet 'zugehen'?",opts:["the bad luck","to manage difficult situations","grown-up, adult","to approach, to go toward"],ans:"to approach, to go toward",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Fühlst du dich {1}?",a:["erwachsen"],opts:["entschlossen","zählen","erwachsen","der Abschied"],hint:"أي كلمة تناسب in this context?",sSrc:"Do you feel grown-up?"},
-        {type:"mc",q:"Was bedeutet 'verständlich'?",opts:["to throw","to achieve, to afford","understandable","the farewell"],ans:"understandable",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Genau {1}!",a:["umgekehrt"],opts:["übrig","verständlich","der Abschied","umgekehrt"],hint:"أي كلمة تناسب in this context?",sSrc:"Exactly the other way around!"},
+        {type:"mc",q:"Was bedeutet 'zugehen'?",opts:["the bad luck","to manage difficult situations","grown-up, adult","to approach, to go toward"],ans:"to approach, to go toward",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Fühlst du dich {1}?",a:["erwachsen"],opts:["entschlossen","zählen","erwachsen","der Abschied"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Do you feel grown-up?"},
+        {type:"mc",q:"Was bedeutet 'verständlich'?",opts:["to throw","to achieve, to afford","understandable","the farewell"],ans:"understandable",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Genau {1}!",a:["umgekehrt"],opts:["übrig","verständlich","der Abschied","umgekehrt"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Exactly the other way around!"},
         {type:"mc",q:"Ist noch Kuchen übrig? Was bedeutet 'übrig'?",opts:["missing","remaining, left over","fresh","expensive"],ans:"remaining, left over",hint:"فكّر في معنى الكلمة."}
       ]},
 // ─── L11: Rückblick und Ausblick ───
@@ -307,8 +307,8 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"story",speaker:"narrator",mood:"transitional",art:"de-berlin-hinterhof-guests-leaving",trg:"Einer nach dem anderen gehen sie. Umarmungen. Versprechen. 'Bis bald.' Bis am Ende nur noch die Lichterketten leuchten und Verumius allein im Hof sitzt.",src:"واحداً تلو الآخر يغادرون. أحضان. وعود. 'إلى اللقاء قريباً.' حتى لا يبقى في النهاية سوى الأضواء المتوهّجة وفيروميوس يجلس وحيداً في الفناء."},
         {type:"fb",s:"{1} sonst fühle ich mich so zu Hause wie in Berlin.",a:["Nirgendwo"],opts:["Nirgendwo","Normalerweise","Möglicherweise","Umsonst"],hint:"فكّر في معنى الكلمة.",sSrc:"Nowhere else do I feel so at home as in Berlin."},
         {type:"fb",s:"Ein Mann, {1} den Kaktus mitgebracht hat, heißt KD.",a:["der"],opts:["der","den","dem","die"],hint:"فكّر في معنى الكلمة.",sSrc:"The man who brought the cactus is called KD."},
-        {type:"mc",q:"Was bedeutet 'voneinander'?",opts:["normally, usually","from each other","as ... as possible","nowhere"],ans:"from each other",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"{1} habe ich es versucht.",a:["zumindest"],opts:["umsonst","möglicherweise","normalerweise","zumindest"],hint:"أي كلمة تناسب in this context?",sSrc:"At least I tried."}
+        {type:"mc",q:"Was bedeutet 'voneinander'?",opts:["normally, usually","from each other","as ... as possible","nowhere"],ans:"from each other",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"{1} habe ich es versucht.",a:["zumindest"],opts:["umsonst","möglicherweise","normalerweise","zumindest"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"At least I tried."}
       ]},
 // ─── L13: Ich werde bleiben ───
     {id:"deu_r24l8",title:"Ich werde bleiben",icon:"🏠",xp:15,board:true,steps:[
@@ -361,8 +361,8 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
     {trg:"los",src:"off/going"}
 ]},
         {type:"mc",q:"Was ist los? Was bedeutet 'los'?",opts:["completely still","fully lost","going/happening","rather slow"],ans:"going/happening",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'äußerlich'?",opts:["externally, outwardly","to doubt","by chance, coincidental","to copy, to write off"],ans:"externally, outwardly",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'suffix: in the manner of' auf Deutsch? {1}",a:["-weis / -weise"],opts:["durcheinander","zweifeln","abschreiben","-weis / -weise"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'suffix: in the manner of' بالألمانية؟"}
+        {type:"mc",q:"Was bedeutet 'äußerlich'?",opts:["externally, outwardly","to doubt","by chance, coincidental","to copy, to write off"],ans:"externally, outwardly",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'suffix: in the manner of' auf Deutsch? {1}",a:["-weis / -weise"],opts:["durcheinander","zweifeln","abschreiben","-weis / -weise"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'suffix: in the manner of' بالألمانية؟"}
       ]}
   ]};
 

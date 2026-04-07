@@ -38,10 +38,10 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
         {type:"teach",trg:"bloß",src:"فقط، مجرد",pos:"adv",gender:null,note:"بوصفها Modalpartikel، تُضيف إحساساً باليأس أو التوكيد.\nWas soll ich bloß tun? = ماذا يا تُرى يجب أن أفعل؟",example:"A: Was soll ich bloß tun?\nB: Dich entschuldigen.\nA: Bloß das?\nB: Ja, bloß das. Ein einfaches 'Entschuldigung' reicht.",exampleSrc:"أ: ماذا يا تُرى يجب أن أفعل؟\nب: اعتذر.\nأ: هذا فقط؟\nب: نعم، هذا فقط. كلمة 'آسف' البسيطة تكفي.",funFact:"بوصفها Modalpartikel، تُضيف يأساً أو توكيداً. Was soll ich bloß tun? تعبّر عن العجز. كل نزاع بين جيران ينتج على الأقل جملة واحدة فيها bloß."},
         {type:"story",speaker:"narrator",mood:"tense",art:"de-ber-apartment-door",trg:"Nachdem Verumius die Bohrmaschine abgestellt hatte, klopfte es an der Tür.",src:"بعد أن أوقف فيروميوس المثقاب، سُمع طرق على الباب."},
         {type:"mc",q:"Der Nachbar steht in der Tür, rot im Gesicht, und schreit wegen des Lärms. Welches Wort beschreibt sein Gefühl gerade?",opts:["still","ernst","bloß","wütend"],ans:"wütend",hint:"هذه الكلمة مشتقة من كلمة تعني الغضب الشديد، ومعناها مفعم بالغضب."},
-        {type:"mc",q:"Was bedeutet 'schreien'?",opts:["to scream, to shout","the worry, the concern","the annoyance, the trouble","the atmosphere, the mood"],ans:"to scream, to shout",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Kein Wort. Nur {1}.",a:["schweigen"],opts:["die Stimmung","die Bohrmaschine","\\u00e4rgerlich","schweigen"],hint:"أي كلمة تناسب in this context?",sSrc:"Not a word. Just silence."},
-        {type:"mc",q:"Was bedeutet 'klagen'?",opts:["to be silent, to stay quiet","the drill, the power drill","the worry, the concern","to complain, to sue"],ans:"to complain, to sue",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Seit wann {1} sie?",a:["streiken"],opts:["streiken","der Konflikt","die Laune","klagen"],hint:"أي كلمة تناسب in this context?",sSrc:"Since when have they been striking?"}
+        {type:"mc",q:"Was bedeutet 'schreien'?",opts:["to scream, to shout","the worry, the concern","the annoyance, the trouble","the atmosphere, the mood"],ans:"to scream, to shout",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Kein Wort. Nur {1}.",a:["schweigen"],opts:["die Stimmung","die Bohrmaschine","\\u00e4rgerlich","schweigen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Not a word. Just silence."},
+        {type:"mc",q:"Was bedeutet 'klagen'?",opts:["to be silent, to stay quiet","the drill, the power drill","the worry, the concern","to complain, to sue"],ans:"to complain, to sue",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Seit wann {1} sie?",a:["streiken"],opts:["streiken","der Konflikt","die Laune","klagen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Since when have they been striking?"}
       ]},
 // ─── L3: Die Hausordnung ───
     {id:"deu_r16l2",title:"Die Hausordnung",icon:"📋",xp:15,board:true,steps:[
@@ -89,10 +89,10 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
 ]},
         {type:"story",speaker:"narrator",mood:"ominous",art:"de-ber-stairwell-notes",trg:"Verumius ging schlafen. Um 6:47 Uhr fand er den zweiten Zettel. Diesmal nicht unter der Tür. An der Wand im Treppenhaus. Für alle sichtbar.",src:"نام فيروميوس. في الساعة 6:47 صباحاً وجد الرسالة الثانية. هذه المرة ليس تحت الباب. على الجدار في درج السلم. مرئية للجميع."},
         {type:"fb",s:"Der Nachbar {1} Respekt von Verumius.",a:["verlangt"],opts:["verlangt","behauptet","beleidigt","kritisiert"],hint:"فكّر في معنى الكلمة.",sSrc:"The neighbor demands respect from Verumius."},
-        {type:"mc",q:"Was bedeutet 'unterbrechen'?",opts:["to interrupt","to insult, to offend","to criticize","to claim, to assert"],ans:"to interrupt",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Jeder hat das Recht zu {1}.",a:["widersprechen"],opts:["peinlich","der Respekt","unterbrechen","widersprechen"],hint:"أي كلمة تناسب in this context?",sSrc:"Everyone has the right to contradict."},
-        {type:"mc",q:"Was bedeutet 'verlangen'?",opts:["the guilt, the fault, the debt","guilty","to contradict","to demand, to require"],ans:"to demand, to require",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to claim, to assert' auf Deutsch? {1}",a:["behaupten"],opts:["schuldig","widersprechen","behaupten","die Schuld"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to claim, to assert' بالألمانية؟"}
+        {type:"mc",q:"Was bedeutet 'unterbrechen'?",opts:["to interrupt","to insult, to offend","to criticize","to claim, to assert"],ans:"to interrupt",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Jeder hat das Recht zu {1}.",a:["widersprechen"],opts:["peinlich","der Respekt","unterbrechen","widersprechen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Everyone has the right to contradict."},
+        {type:"mc",q:"Was bedeutet 'verlangen'?",opts:["the guilt, the fault, the debt","guilty","to contradict","to demand, to require"],ans:"to demand, to require",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to claim, to assert' auf Deutsch? {1}",a:["behaupten"],opts:["schuldig","widersprechen","behaupten","die Schuld"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to claim, to assert' بالألمانية؟"}
       ]},
 // ─── L5: Die Zettel an der Wand ───
     {id:"deu_r16l3",title:"Die Zettel an der Wand",icon:"📌",xp:15,board:true,steps:[
@@ -128,8 +128,8 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
         {type:"story",speaker:"verumius",mood:"overwhelmed",art:"de-ber-stairwell-notes-reading",trg:"Nachdem ich alle Zettel gelesen hatte, wusste ich eines sicher: Ich brauche Hilfe. Professionelle Hilfe. Ich brauche Hildi.",src:"بعد أن قرأت جميع الرسائل، أدركت شيئاً واحداً بيقين: أحتاج إلى مساعدة. مساعدة متخصصة. أحتاج إلى هيلدي."},
         {type:"fb",s:"Nachdem Verumius die Bohrmaschine abgestellt {1}, klopfte es an der Tür.",a:["hatte"],opts:["hatte","hat","war","ist"],hint:"جملة 'بعد أن' تستلزم صيغة الماضي التام. أي فعل مساعد يُستخدم مع 'abgestellt'؟",sSrc:"بعد أن أوقف فيروميوس المثقاب، سُمع طرق على الباب."},
         {type:"mc",q:"Der Zettel des Nachbarn nennt Verumius beim Namen. Verumius sagt: 'Das war nicht ___!'",opts:["ehrlich","treu","fair","dankbar"],ans:"fair",hint:"فكّر في معنى الكلمة."},
-        {type:"mc",q:"Was bedeutet 'loben'?",opts:["to praise","to persuade, to talk into","to convince","to relax"],ans:"to praise",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Kannst du mir den Zettel {1}?",a:["reichen"],opts:["die Kraft","das Geheimnis","reichen","das Herz"],hint:"أي كلمة تناسب in this context?",sSrc:"Can you pass me the note?"}
+        {type:"mc",q:"Was bedeutet 'loben'?",opts:["to praise","to persuade, to talk into","to convince","to relax"],ans:"to praise",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Kannst du mir den Zettel {1}?",a:["reichen"],opts:["die Kraft","das Geheimnis","reichen","das Herz"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you pass me the note?"}
       ]},
 // ─── L7: Indirekte Fragen ───
     {id:"deu_r16l4",title:"Indirekte Fragen",icon:"❓",xp:15,board:true,steps:[
@@ -175,9 +175,9 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
         {type:"story",speaker:"verumius",mood:"hopeful",art:"de-ber-stairwell-evening",trg:"Ich wollte wissen, ob der Nachbar mich versteht. Ob er mir verzeihen kann. Ob wir jemals wieder normal miteinander reden. Drei Fragen. Alle indirekt.",src:"أردت أن أعرف إن كان الجار يفهمني. وإن كان يستطيع مسامحتي. وإن كنا سنتحدث بشكل طبيعي مرة أخرى. ثلاثة أسئلة. جميعها غير مباشرة."},
         {type:"mc",q:"Der Nachbar sagt: 'Ich kann dir verzeihen.' Was bedeutet 'verzeihen'?",opts:["jemanden hassen","sich fürchten","jemandem vergeben","sich langweilen"],ans:"jemandem vergeben",hint:"فكّر في معنى الكلمة."},
         {type:"fb",s:"Verumius {1} auf das Bohren am Sonntag.",a:["verzichtet"],opts:["verzichtet","verzeiht","fürchtet","hasst"],hint:"فكّر في معنى الكلمة.",sSrc:"Verumius gives up drilling on Sundays."},
-        {type:"mc",q:"Was bedeutet 'trennen'?",opts:["the friendship","to separate","the married couple","to fear"],ans:"to separate",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Sie wollen sich {1} lassen.",a:["scheiden"],opts:["entt\\u00e4uschen","das Ehepaar","die Entt\\u00e4uschung","scheiden"],hint:"أي كلمة تناسب in this context?",sSrc:"They want to get divorced."},
-        {type:"mc",q:"Was bedeutet 'verzichten'?",opts:["the disappointment","to separate","the relationship","to give up, to do without"],ans:"to give up, to do without",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'trennen'?",opts:["the friendship","to separate","the married couple","to fear"],ans:"to separate",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Sie wollen sich {1} lassen.",a:["scheiden"],opts:["entt\\u00e4uschen","das Ehepaar","die Entt\\u00e4uschung","scheiden"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"They want to get divorced."},
+        {type:"mc",q:"Was bedeutet 'verzichten'?",opts:["the disappointment","to separate","the relationship","to give up, to do without"],ans:"to give up, to do without",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L9: Hildi greift ein ───
     {id:"deu_r16l5",title:"Hildi greift ein",icon:"⚖️",xp:15,board:true,steps:[
@@ -226,18 +226,18 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
 ],ans:"Er fragt, ob der Nachbar ihm verzeihen kann.",hint:"بعد 'ob'، ينتقل الفعل المصرّف إلى نهاية الجملة الفرعية."},
         {type:"match",pairs:[
     {trg:"Polizist",src:"policeman"},
-    {trg:"Richterin",src:"female judge"},
+    {trg:"Richterin",src:"القاضية"},
     {trg:"Anwalt",src:"lawyer"},
     {trg:"Urteil",src:"verdict"},
     {trg:"Risiko",src:"risk"},
     {trg:"Prozess",src:"trial"}
 ]},
         {type:"story",speaker:"hildi",mood:"firm-but-warm",art:"de-ber-hildi-livingroom-verdict",trg:"Mein Urteil: Verumius entschuldigt sich. Der Nachbar akzeptiert. Und am Sonntag wird nicht gebohrt. Punkt.",src:"حكمي: فيروميوس يعتذر. الجار يقبل. ولن يكون هناك حفر يوم الأحد. نقطة."},
-        {type:"mc",q:"Was bedeutet 'der Verdacht'?",opts:["punishable","the suspicion","to fight, to struggle","courageous, brave"],ans:"the suspicion",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Ich bin {1} auf das Ergebnis.",a:["gespannt"],opts:["der Polizist","strafbar","die Polizistin","gespannt"],hint:"أي كلمة تناسب in this context?",sSrc:"I'm eager about the result."},
-        {type:"mc",q:"Was bedeutet 'einsam'?",opts:["lonely","anxious, fearful","the female judge","the risk"],ans:"lonely",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Hildi ist {1} auf ihre Mediation.",a:["stolz"],opts:["stolz","die Anw\\u00e4ltin","gerecht","mutig"],hint:"أي كلمة تناسب in this context?",sSrc:"Hildi is proud of her mediation."},
-        {type:"mc",q:"Was bedeutet 'mutig'?",opts:["to fight, to struggle","courageous, brave","excited, eager, tense","the policewoman"],ans:"courageous, brave",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'der Verdacht'?",opts:["punishable","the suspicion","to fight, to struggle","courageous, brave"],ans:"the suspicion",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Ich bin {1} auf das Ergebnis.",a:["gespannt"],opts:["der Polizist","strafbar","die Polizistin","gespannt"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"I'm eager about the result."},
+        {type:"mc",q:"Was bedeutet 'einsam'?",opts:["lonely","anxious, fearful","the female judge","the risk"],ans:"lonely",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Hildi ist {1} auf ihre Mediation.",a:["stolz"],opts:["stolz","die Anw\\u00e4ltin","gerecht","mutig"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Hildi is proud of her mediation."},
+        {type:"mc",q:"Was bedeutet 'mutig'?",opts:["to fight, to struggle","courageous, brave","excited, eager, tense","the policewoman"],ans:"courageous, brave",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L11: Heinrichs Weisheit ───
     {id:"deu_r16l6",title:"Heinrichs Weisheit",icon:"📞",xp:15,board:true,steps:[
@@ -278,15 +278,15 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
         {type:"teach",trg:"stinken",src:"أنتن، كانت رائحته كريهة",pos:"verb",gender:null,note:"شاذ: stank، gestunken. من الجذر ذاته للإنجليزية stink.\nDas stinkt mir = هذا يضايقني (عامية).",example:"A: Der Müll stinkt.\nB: Ja, er stinkt seit drei Tagen.\nA: Und die Situation stinkt auch.\nB: Alles stinkt. Wir brauchen frische Luft.",exampleSrc:"أ: القمامة تُنتن.\nب: نعم، رائحتها كريهة منذ ثلاثة أيام.\nأ: والوضع أيضاً كريه.\nب: كل شيء كريه. نحتاج هواءً نقياً.",funFact:"شاذ: stank، gestunken. من الجذر ذاته للإنجليزية stink. Das stinkt mir (هذا يضايقني) تستخدم الأنف مجازاً."},
         {type:"story",speaker:"heinrich",mood:"warm-and-loud",art:"de-ber-phone-heinrich",trg:"Nachbarn sind wie Brot. Man braucht sie jeden Tag!",src:"الجيران كالخبز. تحتاجهم كل يوم!"},
         {type:"mc",q:"Nachdem Heinrich angerufen hatte, wollte Verumius wissen, ob er dem Nachbarn _____ konnte.",opts:["zwingen","vertrauen","weigern","verraten"],ans:"vertrauen",hint:"ما الفعل الذي يعني الإيمان بشخص والاعتماد عليه؟ يأخذ حالة المفعول غير المباشر."},
-        {type:"mc",q:"Was bedeutet 'verhalten'?",opts:["to behave","to refuse","to stink","the damage"],ans:"to behave",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Kann man Streit {1}?",a:["verhindern"],opts:["weigern","ernsthaft","vertrauen","verhindern"],hint:"أي كلمة تناسب in this context?",sSrc:"Can you prevent arguments?"},
-        {type:"mc",q:"Was bedeutet 'verlassen'?",opts:["the wound","the tear (teardrop)","to leave, to abandon / to rely on","to betray, to reveal"],ans:"to leave, to abandon / to rely on",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie ist die Mediation {1}?",a:["verlaufen"],opts:["verlaufen","hinterher","verhindern","der Schade"],hint:"أي كلمة تناسب in this context?",sSrc:"How did the mediation go?"},
-        {type:"mc",q:"Was bedeutet 'ernsthaft'?",opts:["the trust","just, exactly, precisely","seriously, earnest","the pity, the shame"],ans:"seriously, earnest",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Verumius hat {1} Marmelade gekocht.",a:["heimlich"],opts:["zwingen","das Ungl\\u00fcck","versprechen","heimlich"],hint:"أي كلمة تناسب in this context?",sSrc:"Verumius secretly made jam."},
-        {type:"mc",q:"Was bedeutet 'hinterher'?",opts:["the damage","to leave, to abandon / to rely on","afterwards, behind","to stink"],ans:"afterwards, behind",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Das ist {1} Deutschland.",a:["eben"],opts:["eben","verhindern","das Vertrauen","heimlich"],hint:"أي كلمة تناسب in this context?",sSrc:"That's just Germany."},
-        {type:"mc",q:"Was bedeutet 'stinken'?",opts:["to stink","the trust","to behave","to trust"],ans:"to stink",hint:"فكّر في the meaning of this word in context."},
+        {type:"mc",q:"Was bedeutet 'verhalten'?",opts:["to behave","to refuse","to stink","the damage"],ans:"to behave",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Kann man Streit {1}?",a:["verhindern"],opts:["weigern","ernsthaft","vertrauen","verhindern"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Can you prevent arguments?"},
+        {type:"mc",q:"Was bedeutet 'verlassen'?",opts:["the wound","the tear (teardrop)","to leave, to abandon / to rely on","to betray, to reveal"],ans:"to leave, to abandon / to rely on",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie ist die Mediation {1}?",a:["verlaufen"],opts:["verlaufen","hinterher","verhindern","der Schade"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"How did the mediation go?"},
+        {type:"mc",q:"Was bedeutet 'ernsthaft'?",opts:["the trust","just, exactly, precisely","seriously, earnest","the pity, the shame"],ans:"seriously, earnest",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Verumius hat {1} Marmelade gekocht.",a:["heimlich"],opts:["zwingen","das Ungl\\u00fcck","versprechen","heimlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"Verumius secretly made jam."},
+        {type:"mc",q:"Was bedeutet 'hinterher'?",opts:["the damage","to leave, to abandon / to rely on","afterwards, behind","to stink"],ans:"afterwards, behind",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Das ist {1} Deutschland.",a:["eben"],opts:["eben","verhindern","das Vertrauen","heimlich"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"That's just Germany."},
+        {type:"mc",q:"Was bedeutet 'stinken'?",opts:["to stink","the trust","to behave","to trust"],ans:"to stink",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Er hat den Termin {1}. Jetzt ist es zu spät.",a:"versäumt",opts:["versäumt","verpasst","vergessen","verlassen"],hint:"فكّر في معنى الكلمة.",sSrc:"He missed the appointment. Now it is too late."}
       ]},
 // ─── L13: Alles auf den Tisch ───
@@ -344,9 +344,9 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
         {type:"story",speaker:"narrator",mood:"transitional",art:"de-ber-stairwell-evening",trg:"Die Fakten lagen auf dem Tisch. Die Grammatik saß. Aber zwischen Wissen und Handeln liegt manchmal ein Glas Marmelade.",src:"الوقائع كانت على الطاولة. القواعد كانت راسخة. لكن بين المعرفة والتصرف، أحياناً تكون هناك جرة مربى."},
         {type:"mc",q:"Die Polizei hat den Dieb festgenommen. Was bedeutet 'festnehmen'?",opts:["jemanden bestrafen","jemanden verhören","jemanden verhaften","jemanden verurteilen"],ans:"jemanden verhaften",hint:"فكّر في معنى الكلمة."},
         {type:"fb",s:"Der Richter sagt: '{1} Sie das Bohren während der Ruhezeit!'",a:["Unterlassen"],opts:["Unterlassen","Schütteln","Fangen","Greifen"],hint:"فكّر في معنى الكلمة.",sSrc:"The judge says: 'Cease the drilling during quiet hours!'"},
-        {type:"mc",q:"Was bedeutet 'stehlen'?",opts:["to grab, to grasp","the burglar","to steal","to catch"],ans:"to steal",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Wie sagt man 'to break in, to burglarize' auf Deutsch? {1}",a:["einbrechen"],opts:["schie\\u00dfen","einbrechen","fangen","die Verbrecherin"],hint:"أي كلمة تناسب in this context?",sSrc:"كيف تقول 'to break in, to burglarize' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'der Streik'?",opts:["to shoot","to steal","to arrest","the strike (labor)"],ans:"the strike (labor)",hint:"فكّر في the meaning of this word in context."}
+        {type:"mc",q:"Was bedeutet 'stehlen'?",opts:["to grab, to grasp","the burglar","to steal","to catch"],ans:"to steal",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Wie sagt man 'to break in, to burglarize' auf Deutsch? {1}",a:["einbrechen"],opts:["schie\\u00dfen","einbrechen","fangen","die Verbrecherin"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"كيف تقول 'to break in, to burglarize' بالألمانية؟"},
+        {type:"mc",q:"Was bedeutet 'der Streik'?",opts:["to shoot","to steal","to arrest","the strike (labor)"],ans:"the strike (labor)",hint:"فكّر في معنى هذه الكلمة في السياق."}
       ]},
 // ─── L15: Marmelade und Frieden ───
     {id:"deu_r16l8",title:"Marmelade und Frieden",icon:"🍓",xp:15,board:true,steps:[
@@ -402,9 +402,9 @@ const UNIT_16_AR = {n:16,lang:"de",srcLang:"ar",track:"v2",title:"Der Streit",su
     {trg:"beißen",src:"to bite"},
     {trg:"bestrafen",src:"to punish"}
 ]},
-        {type:"mc",q:"Was bedeutet 'entlassen'?",opts:["slim","to release, to dismiss, to fire","rarely, rare","to punish"],ans:"to release, to dismiss, to fire",hint:"فكّر في the meaning of this word in context."},
-        {type:"fb",s:"Die Nachbarn gingen {1}.",a:["auseinander"],opts:["auseinander","betrunken","unheimlich","bestrafen"],hint:"أي كلمة تناسب in this context?",sSrc:"The neighbors parted ways."},
-        {type:"mc",q:"Was bedeutet 'heim'?",opts:["crooked, askew","unbelievable, incredibly","home, homeward","rarely, rare"],ans:"home, homeward",hint:"فكّر في the meaning of this word in context."},
+        {type:"mc",q:"Was bedeutet 'entlassen'?",opts:["slim","to release, to dismiss, to fire","rarely, rare","to punish"],ans:"to release, to dismiss, to fire",hint:"فكّر في معنى هذه الكلمة في السياق."},
+        {type:"fb",s:"Die Nachbarn gingen {1}.",a:["auseinander"],opts:["auseinander","betrunken","unheimlich","bestrafen"],hint:"أي كلمة تناسب في هذا السياق?",sSrc:"The neighbors parted ways."},
+        {type:"mc",q:"Was bedeutet 'heim'?",opts:["crooked, askew","unbelievable, incredibly","home, homeward","rarely, rare"],ans:"home, homeward",hint:"فكّر في معنى هذه الكلمة في السياق."},
         {type:"fb",s:"Wir müssen die Kosten {1}. Es gibt ein Budget.",a:"beschränken",opts:["beschränken","betrügen","beleidigen","besprechen"],hint:"فكّر في معنى الكلمة.",sSrc:"We need to limit the costs. There is a budget."}
       ]}
   ]};
