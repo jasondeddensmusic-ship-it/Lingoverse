@@ -88,6 +88,7 @@ function visualLeakMC(q, ans) {
 
 function visualLeakFB(s, ans) {
   if (!s || !ans) return false;
+  if (ans.length < 3) return false; // Skip very short answers (s, en, etc.) - false positives
   const sClean = s.replace(/\{[0-9]+\}/g, '').toLowerCase();
   return sClean.includes(ans.toLowerCase());
 }
