@@ -2066,6 +2066,17 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
   const smartHl=(text)=>{
     if(!text||typeof text!=="string") return text;
+    const hasArabic=/[\u0600-\u06FF]/.test(text);
+    // For Arabic-containing text: isolate Latin runs with dir="ltr" for proper bidi
+    if(hasArabic&&srcRtl){
+      // Split into Arabic vs Latin segments
+      return text.split(/([\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF\u200F\u060C\u061B\u061F\u0640]+(?:\s+[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]+)*)/g).map((seg,si)=>{
+        if(/[\u0600-\u06FF]/.test(seg)) return <span key={si}>{seg}</span>;
+        if(!seg.trim()) return <span key={si}>{seg}</span>;
+        // Latin text inside Arabic context: isolate with dir="ltr"
+        return <span key={si} dir="ltr" style={{unicodeBidi:"isolate"}}>{seg}</span>;
+      });
+    }
     const parts=text.split(/([\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]+)/g);
     return parts.map((seg,si)=>{
       if(/[\u3130-\u318F\uAC00-\uD7AF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\u0400-\u04FF]/.test(seg))
