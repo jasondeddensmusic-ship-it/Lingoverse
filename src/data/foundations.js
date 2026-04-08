@@ -2260,7 +2260,9 @@ export const FK_PLAYTHROUGH = {
       ]},
 
     // ── STAGE 3: CONSONANT TRAPS ──
-    {id:"de_fp_s3",title:"Consonant Traps",desc:"ch, sch, z, w, v, s, sp, st: sounds that deceive English speakers",icon:"🧩",
+    // Teacher board: ch has TWO sounds (back vs front), sch is always sh,
+    // sp/st shift at word start, consonant clusters never insert vowels.
+    {id:"de_fp_s3",title:"Consonant Traps",desc:"ch, sch, sp, st: the combos that sound nothing like English",icon:"🧩",
       lessons:[
         {id:"de_fp_s3_l1",title:"ch and sch",icon:"🔗",xp:15,board:true,steps:[
           {type:"intro",title:"Two German consonant combos",desc:"ch has two sounds depending on the vowel before it. sch always sounds like English sh. Neither sounds like English ch in chair.",goals:["Learn the ach-Laut after a, o, u, au","Learn the ich-Laut after e, i, ä, ö, ü, ei, eu","Know sch always sounds like sh"]},
@@ -2271,6 +2273,7 @@ export const FK_PLAYTHROUGH = {
           {type:"mc",q:"In 'ich' (I), the ch follows i. This produces:",opts:["The ach-Laut (back, throaty)","The ich-Laut (front, soft hiss)","The English ch as in chair","A hard K sound"],ans:"The ich-Laut (front, soft hiss)",hint:"After front vowels i, e, ä, ö, ü the soft version appears"},
           {type:"mc",q:"'Schule' (school) starts with sch. This sounds like:",opts:["S + K + H separately","SK as in skip","SH as in shoe","CH as in chair"],ans:"SH as in shoe",hint:"sch is always a single sh sound in German"},
           {type:"mc",q:"What determines which ch sound to use?",opts:["The letter after ch","The vowel before ch","The length of the word","Whether the word is a noun"],ans:"The vowel before ch",hint:"Back vowels (a, o, u, au) vs. front vowels (e, i, ä, ö, ü, ei, eu)"},
+          {type:"tip",title:"The ch Decision",text:"Look at the vowel BEFORE ch:\n\nBACK vowels (a, o, u, au) = ach-Laut (throat)\nBach, doch, Buch, auch\n\nFRONT vowels (e, i, ä, ö, ü, ei, eu) = ich-Laut (hiss)\nich, nicht, Mädchen, echt\n\nWord START = ich-Laut\nChina, Chemie, Chirurg\n\nNever use the English ch sound. It does not exist in German."},
         ]},
         {id:"de_fp_s3_l2",title:"z, w, v and s",icon:"⚡",xp:15,board:true,steps:[
           {type:"intro",title:"Four letters with deceptive sounds",desc:"German z, w, v, and s each sound different from their English counterparts. These are the four biggest consonant traps for English speakers.",goals:["Know z = TS sound","Know w = V sound","Know v = F sound in native words","Know s before a vowel = Z sound"]},
@@ -2297,7 +2300,8 @@ export const FK_PLAYTHROUGH = {
       ]},
 
     // ── STAGE 4: SPELLING & CAPITALIZATION ──
-    {id:"de_fp_s4",title:"Spelling & Capitalization",desc:"All nouns are capitalized. Compound words are one word.",icon:"✏️",
+    // Teacher board: capitalization = noun detector, compounds = word LEGO.
+    {id:"de_fp_s4",title:"Spelling Superpowers",desc:"Capitalization tells you every noun. Compounding builds infinite words.",icon:"✏️",
       lessons:[
         {id:"de_fp_s4_l1",title:"All Nouns Are Capitalized",icon:"🔡",xp:15,board:true,steps:[
           {type:"intro",title:"Every noun gets a capital letter",desc:"In German, ALL nouns are capitalized, regardless of position in the sentence. This applies to every noun, including abstract ones.",goals:["Know all nouns are capitalized","Recognize nouns by their capital letter","See how this differs from English"]},
@@ -2322,7 +2326,9 @@ export const FK_PLAYTHROUGH = {
       ]},
 
     // ── STAGE 5: PRONUNCIATION PATTERNS ──
-    {id:"de_fp_s5",title:"Pronunciation Patterns",desc:"Word stress, vowel length in open and closed syllables",icon:"🎵",
+    // Teacher board: stress rules as a decision tree, syllable structure
+    // as open (long) vs closed (short). Separable vs inseparable prefixes.
+    {id:"de_fp_s5",title:"Stress and Rhythm",desc:"Where to put the stress, and how syllable structure predicts vowel length",icon:"🎵",
       lessons:[
         {id:"de_fp_s5_l1",title:"Word Stress",icon:"💬",xp:15,board:true,steps:[
           {type:"intro",title:"Stress in German words",desc:"German words are usually stressed on the FIRST syllable of the base word. Prefixes affect stress differently depending on whether they are separable or inseparable.",goals:["Know stress usually falls on the first syllable","Know separable verb prefixes get stress","Know inseparable prefixes do NOT get stress"]},
@@ -2348,7 +2354,9 @@ export const FK_PLAYTHROUGH = {
       ]},
 
     // ── STAGE 6: GRAMMAR PREVIEW ──
-    {id:"de_fp_s6",title:"Grammar Preview",desc:"Three genders and V2 word order: what to expect in German",icon:"🏗️",
+    // Teacher board: gender as a color system (der=blue, die=coral, das=gold),
+    // V2 word order as a sentence bracket. Preview only, not full grammar.
+    {id:"de_fp_s6",title:"Grammar Preview",desc:"Three genders (der/die/das) and the V2 word order rule: the two pillars of German grammar",icon:"🏗️",
       lessons:[
         {id:"de_fp_s6_l1",title:"Three Genders: der, die, das",icon:"🎭",xp:20,board:true,steps:[
           {type:"intro",title:"Every German noun has a gender",desc:"German has three grammatical genders: masculine (der), feminine (die), and neuter (das). Gender affects articles, adjectives, and pronouns. It must be learned with each noun. Color-coding: der = blue, die = coral, das = gold.",goals:["Know the three genders: der, die, das","Know gender affects articles and adjectives","Accept that gender must be learned with each noun"]},
