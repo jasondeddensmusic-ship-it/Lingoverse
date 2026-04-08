@@ -9,12 +9,21 @@ import LessonEngine from '../components/LessonEngine.jsx';
 
 // ── Helper: check if Foundations is unlocked for a language ──
 // This checks COMPLETION status only. FOUNDATIONS_LOCK_ENABLED controls click-blocking separately.
-const isFoundationsUnlocked=(user,lang)=>{
+// Pick the FK_PLAYTHROUGH key: use lang_baseLang variant if it exists (e.g. de_ar for Arabic-source German)
+const getFkPlayKey=(lang,baseLang)=>{
+  if(baseLang&&baseLang!=="en"){
+    const composite=lang+"_"+baseLang;
+    if(FK_PLAYTHROUGH[composite]) return composite;
+  }
+  return lang;
+};
+const isFoundationsUnlocked=(user,lang,baseLang)=>{
   const p=user.progress||{};
   if(p.foundationsUnlocked?.[lang]) return true; // Manual bypass ("Unlock anyway")
   if(p.gateQuiz?.[lang]?.passed) return true; // Gate quiz passed
   // Check if all playthrough lessons complete
-  const pt=FK_PLAYTHROUGH[lang];
+  const fkKey=getFkPlayKey(lang,baseLang);
+  const pt=FK_PLAYTHROUGH[fkKey];
   if(pt&&pt.stages&&pt.stages.length>0){
     const allDone=pt.stages.every(stage=>
       stage.lessons.every(lesson=>p.fkPlay?.[lang]?.[lesson.id])
@@ -728,7 +737,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
 
         {/* CEFR band grid — with Foundations Lock (Manifesto P13) */}
         {(()=>{
-          const fUnlocked=isFoundationsUnlocked(user,lang);
+          const fUnlocked=isFoundationsUnlocked(user,lang,baseLang);
           const hasFk=FOUNDATIONS_BY_LANG[lang]?.sections?.length>0;
           const showLock=!fUnlocked&&hasFk;
           return <>
@@ -1093,7 +1102,8 @@ function FoundationsPlaythrough({lang,user,setUser,addXp,learnWord,showToast,add
   const [selStage,setSelStage]=useState(savedNav?.stageId||null);
   const [selLesson,setSelLesson]=useState(null);
   const [running,setRunning]=useState(false);
-  const fpData=FK_PLAYTHROUGH[lang];
+  const fkKey=getFkPlayKey(lang,baseLang);
+  const fpData=FK_PLAYTHROUGH[fkKey];
   const stages=fpData?.stages||[];
   const fkPlay=(user.progress||{}).fkPlay||{};
   const langPlay=fkPlay[lang]||{};
