@@ -433,7 +433,8 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-08.md`** — **Latest handoff.** ~6,800 Arabic fixes, CEFR B2 Arabic complete, German Foundations rewrite (Stages 1-2 teacher board), Arabic Foundations for German, systemic RTL bidi fix, browser audit passed.
+- **`docs/SESSION_HANDOFF_2026-04-08b.md`** — **Latest handoff.** Deep audit (~150 fixes, 52 files), FSRS spaced repetition engine (working, UI needs redesign), competitor benchmark, learning science analysis. All validators PASS.
+- **`docs/SESSION_HANDOFF_2026-04-08.md`** — Previous. ~6,800 Arabic fixes, CEFR B2 Arabic complete, German Foundations rewrite, RTL bidi fix.
 - **`docs/SESSION_HANDOFF_2026-04-07d.md`** — Previous. Quiz interleaving, PP8/PP43/PP64 all PASS, Arabic dialogue fixed.
 - **`docs/SESSION_HANDOFF_2026-04-07c.md`** — Previous. Plumbing fixed, breathers live.
 - **`docs/SESSION_HANDOFF_2026-04-05.md`** — Previous. Phase 1.5A complete.
@@ -460,7 +461,7 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Check `docs/SESSION_HANDOFF_2026-04-08.md` for latest context.
+2. Check `docs/SESSION_HANDOFF_2026-04-08b.md` for latest context.
 3. Check `docs/PHASE1_WORKPLAN.md` for current work plan.
 4. Check memory files (`~/.claude/projects/.../memory/`).
 5. Before audits: follow Rule A (grep actual code, never trust docs alone).
