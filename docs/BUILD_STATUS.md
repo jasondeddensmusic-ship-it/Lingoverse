@@ -41,21 +41,22 @@
 - CEFR distribution flagged (D110): 8-8-7-6 was template-based.
 
 ### V2 (new rehaul format — PERFECT)
-- 36 units (A1 6 + A2 6 + B1 12 + B2 12), 369 lessons, 9,396 steps, 5,147 teach cards
+- 36 units (A1 6 + A2 6 + B1 12 + B2 12), **558 lessons** (189 splits for PP64), ~11,000 steps, 5,148 teach cards
 - Story system with Verumius protagonist, funFact on every card
-- ALL validations PASS: PP8, PP43 (max 32), PP48, PP52, PP59 (pos/gender), PP61 (metalanguage)
+- ALL validations PASS: PP8 (0/2,849), PP43 (max 32), PP48, PP52, PP59 (pos/gender), PP61 (metalanguage), PP64 (99.9%)
 - Full field rename: nl→trg, en→src, exampleEn→exampleSrc
-- Master batch plan: docs/GERMAN_MASTER_BATCH_PLAN.md
+- Automated validators: `scripts/pp8_validate.cjs`, `scripts/pp64_validate.cjs`
 
 ### V2 Arabic Source (srcLang:"ar")
-- 36 units generated (scaffolds from EN source). **All 36 units fully translated to Arabic MSA.**
-- A1+A2 (12 units): translated. B1 (12 units): translated. B2 (12 units): translated.
-- Zero content [AR] markers remain (header comments only).
-- Arabic-specific pedagogy: ch=خ, /p/ warnings, neuter=محايد, compound=إضافة, cases=إعراب.
-- Grammar module: `src/data/grammar/german-ar.js` (58 entries across A1-B2).
-- Idioms: srcAr/litAr/noteAr on all 125 entries in idioms-german.js.
-- CEFR vocab: trAr field on 4,199/4,699 entries (500 A2 entries remain).
-- Pages wired: GrammarPage, IdiomsPage, CefrReferencePage all baseLang-aware.
+- 36 units, **558 lessons** (synced with EN splits), ~11,000 steps, 5,148 teach cards
+- **~6,800 Arabic fixes applied (2026-04-08):** mixed-language fields, match pairs, MC opts/ans, contextual hints, native register review
+- Zero English in any learner-facing field (verified by automated scan)
+- Arabic-specific pedagogy: ch=خ, /p/ warnings, neuter=محايد, compound=إضافة, cases=إعراب
+- Grammar module: `src/data/grammar/german-ar.js` (58 entries across A1-B2)
+- Idioms: srcAr/litAr/noteAr on all 125 entries in idioms-german.js
+- CEFR vocab: trAr on 4,699/6,537 entries. **B2 gap: 1,821 entries missing trAr.**
+- WORD_DB: Arabic enrichment via `.ar`/`.noteAr`/`.funFactAr`/`.exampleAr` fields
+- Pages wired: GrammarPage, IdiomsPage, CefrReferencePage, VocabularyPage, Flashcards all baseLang-aware
 
 ## French (v1) — PRODUCTION-READY (old format, pending rehaul)
 

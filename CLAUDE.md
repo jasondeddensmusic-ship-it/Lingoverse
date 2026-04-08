@@ -270,7 +270,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Dutch | v2 (old) | 30 | 261 | ~5,825 | ~1,300 | Production-ready. Pending rehaul. |
 | German v1 | v1 (old) | 30 | 259 | ~4,941 | ~1,297 | Being replaced by v2. |
 | German v2 | v2 (new) | 36 | 558 | ~11,000 | 5,148 | **PERFECT.** 189 lessons split for PP64. All validations PASS: PP8 (0/2849), PP43, PP48, PP52, PP59, PP61, PP64 (99.9%). Automated validators in `scripts/`. |
-| German v2 (AR) | v2 (new) | 36 | 558 | ~11,000 | ~5,148 | **SYNCED with EN.** Lesson splits applied. Per-bubble dialogue fixed. **NEEDS AUDIT**: native speaker reports Arabic translations feel unnatural/textbook-stiff. See handoff. |
+| German v2 (AR) | v2 (new) | 36 | 558 | ~11,000 | ~5,148 | **COMPLETE.** ~6,800 Arabic fixes applied (2026-04-08). Zero English in learner-facing fields. Contextual hints, natural register. CEFR B2 trAr gap (1,821 entries). |
 | French | v1 (old) | 30 | 258 | ~4,781 | ~1,077 | Production-ready. Pending rehaul. |
 | Spanish | v1 (old) | 30 | 258 | ~4,739 | ~1,062 | Production-ready. Pending rehaul. |
 | Arabic | skeleton | 5 | 29 | — | — | Deferred until new format established. |
@@ -346,8 +346,10 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 21. ~~`verumlingua.jsx` is dead code~~ — **RESOLVED.** Deleted (6,010 lines). `App.jsx` is the real entry.
 22. ~~Cases grammar pack empty~~ — **RESOLVED.** colorMap filled with preposition/article/pronoun mappings. Case-specific colors pending data model.
 23. ~~Arabic A1+A2 [AR] markers~~ — **RESOLVED.** Zero markers remain in A1+A2 content.
-24. **VocabularyPage WORD_DB** — Word meanings/definitions in `dictionary.js` are English only. Arabic source users see English definitions in the word popup. Scope: translate WORD_DB entry `meanings` + `note` fields to Arabic, or add `meaningsAr`/`noteAr` parallel fields.
-25. **Arabic content quality audit** — Native Arabic speaker reports translations feel unnatural/textbook-stiff (MSA too formal, explanations not clear). All 5,148 teach cards' Arabic fields (`src`, `note`, `exampleSrc`, `funFact`) across `german-v2-ar/` need native review. Grammar module (58 entries in `grammar/german-ar.js`) and idioms (125 entries) also affected. Priority: get specific feedback patterns from native speaker first, then systematic rewrite. See `docs/SESSION_HANDOFF_2026-04-07d.md` for detailed audit plan.
+24. ~~**VocabularyPage WORD_DB**~~ — **RESOLVED** (2026-04-08). Arabic enrichment pass in dictionary.js imports AR units and stores `.ar`, `.noteAr`, `.funFactAr`, `.exampleAr` on German entries. LessonEngine, VocabularyPage, and Flashcards all use baseLang-aware helpers.
+25. ~~**Arabic content quality audit**~~ — **RESOLVED** (2026-04-08). ~6,800 fixes across all 36 AR unit files: 748 broken mixed-language fields, 854 match pair translations, 2,170 native speaker review fixes, 1,285 contextual hint rewrites, 1,609 MC opts/ans translations. Zero English remaining in learner-facing fields. See `docs/SESSION_HANDOFF_2026-04-08.md`.
+26. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537). CefrReferencePage shows English for Arabic users on B2 words.
+27. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing for back-navigation and lesson re-entry scenarios.
 
 ---
 
@@ -367,7 +369,7 @@ Make existing features actually work properly for German:
 6. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors.
 7. **Flashcards German v2** — Verify `VOCAB[lang]` maps correctly to German v2 `trg/src` data.
 8. **Idioms page search/filter** — 45 entries with no way to filter by level or search.
-9. **"Continue Learning" on home** — Every user sees same generic greeting. Returning users need resume prompt.
+9. ~~**"Continue Learning" on home**~~ — **ALREADY DONE.** Home.jsx has Continue Learning card with progress tracking, resume prompt, and lesson count.
 10. **German Foundations** — "Coming soon" placeholder. Needs at least alphabet/basics content.
 
 ### Phase 1.5B: Grammar Visualization (POST-LAUNCH)
@@ -379,14 +381,14 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 
 ### Phase 2: Arabic Finishing Touches
 11. ~~**Arabic B1+B2 translation**~~ — **DONE.** All 36 units translated. Zero content [AR] markers.
-12. ~~**CEFR A2 gap**~~ — **DONE.** All 4,699 CEFR entries have trAr. Complete.
+12. ~~**CEFR A2 gap**~~ — **PARTIAL.** 4,699 of 6,537 CEFR entries have trAr. All A1+A2+B1 complete. **B2 (1,821 entries) has no trAr yet.**
 13. ~~**Arabic UI localization**~~ — **DONE.** 50+ strings localized. RTL CSS utility classes in place.
-14. **WORD_DB Arabic translations** — Word meanings in `dictionary.js` are English only. Scope: add `meaningsAr`/`noteAr` fields or translate existing fields. Affects VocabularyPage word popups for Arabic source users.
+14. ~~**WORD_DB Arabic translations**~~ — **DONE** (2026-04-08). Arabic enrichment pass stores `.ar`/`.noteAr`/`.funFactAr`/`.exampleAr` on WORD_DB entries. UI helpers pick translation by baseLang.
 15. **Arabic Foundations text** — Scope not yet defined. Foundations mode ("coming soon") has no Arabic content.
 
 ### Phase 3: Navigation + Flow Redesign
-14. **Home screen redesign** — "Continue Learning" prominent, features organized not overwhelming.
-15. **Smooth transitions** — Page animations, lesson completion celebrations.
+14. ~~**Home screen redesign**~~ — **DONE.** Continue Learning card, organized feature grid, progress stats.
+15. ~~**Smooth transitions**~~ — **PARTIAL** (2026-04-08). Page fadeUp animation on switch via `key={page}`. Lesson completion celebrations still TODO.
 
 ### Phase 4: Audio/TTS
 16. **Google Cloud TTS integration** — Provider chosen, deferred until content phases done.
@@ -431,10 +433,10 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-07d.md`** — **Latest handoff.** Quiz interleaving done, PP8/PP43/PP64 all PASS, Arabic dialogue fixed, Arabic content audit needed.
+- **`docs/SESSION_HANDOFF_2026-04-08.md`** — **Latest handoff.** Arabic content audit complete (~6,800 fixes), NEW WORD bug fixed, WORD_DB Arabic, page transitions, Flashcards v2.
+- **`docs/SESSION_HANDOFF_2026-04-07d.md`** — Previous. Quiz interleaving, PP8/PP43/PP64 all PASS, Arabic dialogue fixed.
 - **`docs/SESSION_HANDOFF_2026-04-07c.md`** — Previous. Plumbing fixed, breathers live.
 - **`docs/SESSION_HANDOFF_2026-04-05.md`** — Previous. Phase 1.5A complete.
-- **`docs/SESSION_HANDOFF_2026-04-04b.md`** — Previous. Phase 1 complete.
 - **`docs/PHASE1_WORKPLAN.md`** — Phase 1 work plan (DONE). Phase 2 preview.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
 - **`docs/BUILD_STATUS.md`** — Full build history per language.
@@ -458,7 +460,7 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Check `docs/SESSION_HANDOFF_2026-04-04b.md` for latest context.
+2. Check `docs/SESSION_HANDOFF_2026-04-08.md` for latest context.
 3. Check `docs/PHASE1_WORKPLAN.md` for current work plan.
 4. Check memory files (`~/.claude/projects/.../memory/`).
 5. Before audits: follow Rule A (grep actual code, never trust docs alone).
