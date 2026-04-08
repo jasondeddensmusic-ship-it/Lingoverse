@@ -2145,45 +2145,73 @@ export const FK_PLAYTHROUGH = {
   ]},
   de:{name:"German Foundations Play",icon:"🇩🇪",blueprint:"latin_complex",stages:[
     // ══════════════════════════════════════════════════════════════
-    // GERMAN FOUNDATIONS PLAYTHROUGH
-    // 6 stages, 15 lessons, ~110 steps.
-    // Covers alphabet, umlauts, Eszett, vowels, diphthongs,
-    // consonant traps, spelling/capitalization, pronunciation,
-    // and grammar preview (gender + V2 word order).
+    // GERMAN FOUNDATIONS PLAYTHROUGH (TEACHER BOARD STYLE)
+    // Korean-quality progressive curriculum. Every concept EARNED
+    // before tested. Visual, geometric, teacher-board layouts.
+    // Arabic-aware from day one (baseLang bridges).
     // P8 compliant, no IPA slashes, no em-dashes, board:true all.
     // ══════════════════════════════════════════════════════════════
 
-    // ── STAGE 1: THE ALPHABET & SPECIAL CHARACTERS ──
-    {id:"de_fp_s1",title:"The Alphabet & Special Characters",desc:"German uses 26 letters plus 4 special characters: ä, ö, ü, ß",icon:"🔤",
+    // ── STAGE 1: THE ALPHABET SYSTEM ──
+    // Phase 0 approach: understand the SYSTEM before drilling letters.
+    // 4 lessons: Overview → Letter Traps → Umlauts → Eszett
+    {id:"de_fp_s1",title:"The Alphabet System",desc:"German uses 26 familiar letters plus 4 special ones. Learn the system first.",icon:"🔤",
       lessons:[
-        {id:"de_fp_s1_l1",title:"The German Alphabet",icon:"🔤",xp:15,board:true,steps:[
-          {type:"intro",title:"German uses the Latin alphabet",desc:"German has 26 base letters like English, plus 4 special characters: ä, ö, ü, and ß. Most consonants are similar to English, but several vowels and consonant combos sound very different.",goals:["Know the 26 base letters","Meet the 4 special German characters","Spot key differences from English"]},
-          {type:"teach",kind:"info",nl:"Das Alphabet",en:"The Alphabet",phonetic:"dahs ahl-fah-BET",example:"A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",exampleEn:"26 base letters, same as English. Special chars: ä ö ü ß",note:"Letters Q, X, Y appear mainly in loanwords.\nThe letter J sounds like English Y (yes).\nThe letter W sounds like English V (very)."},
-          {type:"teach",kind:"info",nl:"Unterschiede",en:"Key differences from English",phonetic:"OON-ter-shee-deh",example:"J = Y-sound. W = V-sound. V = F-sound. Z = TS-sound.",exampleEn:"These four letters are the biggest traps for English speakers",note:"English habits will mislead you here.\nTrain your ears: German J, W, V, Z all diverge from English."},
-          {type:"mc",q:"In German, the letter J sounds like which English letter?",opts:["J as in jump","Y as in yes","G as in go","Zh as in measure"],ans:"Y as in yes",hint:"Think of the English word yes when you see German J"},
-          {type:"mc",q:"In German, the letter W sounds like which English sound?",opts:["W as in water","F as in fox","V as in very","B as in boy"],ans:"V as in very",hint:"German W and English V share the same sound"},
-          {type:"mc",q:"German has 26 base letters plus how many special characters?",opts:["Two: ä and ö","Three: ä, ö, and ü","Four: ä, ö, ü, and ß","Five including ch"],ans:"Four: ä, ö, ü, and ß",hint:"Three umlaut vowels plus one special consonant letter"},
-          {type:"mc",q:"Which German letters appear mainly in loanwords?",opts:["B, D, G","Q, X, Y","J, W, V","Ä, Ö, Ü"],ans:"Q, X, Y",hint:"These three letters are rare in native German vocabulary"},
+        // ── L1: The System (no drilling yet, just orientation) ──
+        {id:"de_fp_s1_l1",title:"Same Letters, Different Sounds",icon:"🔤",xp:15,board:true,steps:[
+          {type:"intro",title:"German uses the same alphabet as English",desc:"Good news: you already know 26 of the 30 German letters. Bad news: many of them SOUND completely different. This lesson is about understanding the system before memorizing anything.",goals:["See the 26 base letters you already know","Meet the 4 special German characters","Understand that SOUND, not shape, is where German diverges"]},
+          {type:"teach",kind:"info",nl:"26 + 4",en:"The German letter inventory",phonetic:"",example:"Base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z\nSpecial: Ä  Ö  Ü  ß",exampleEn:"26 letters you know + 4 you need to learn",note:"The 26 base letters are IDENTICAL to English.\nThe shapes are familiar. The sounds are not.\nFour special characters exist nowhere in English:\nÄ, Ö, Ü (modified vowels) and ß (a special S)."},
+          {type:"mc",q:"How many base letters does German share with English?",opts:["20","24","26","30"],ans:"26",hint:"The entire English alphabet is included in German"},
+          {type:"mc",q:"German adds how many special characters beyond the 26?",opts:["Two","Three","Four","Six"],ans:"Four",hint:"Three vowels with dots plus one special consonant"},
+          {type:"teach",kind:"info",nl:"Drei Gruppen",en:"Three groups of letters",phonetic:"",example:"Group 1: SAFE (same sound as English)\nB D F H K L M N P T\n\nGroup 2: TRAPS (look familiar, sound different)\nJ W V Z S R\n\nGroup 3: SPECIAL (new characters)\nÄ Ö Ü ß",exampleEn:"Safe letters, trap letters, and special characters",note:"Group 1 = relax, you know these.\nGroup 2 = WARNING. Your English habits will betray you.\nGroup 3 = brand new. You have to learn these from scratch."},
+          {type:"mc",q:"Which group needs the most attention from an English speaker?",opts:["Safe letters (B, D, F)","Trap letters (J, W, V, Z)","Special characters (Ä, Ö, Ü, ß)","All groups equally"],ans:"Trap letters (J, W, V, Z)",hint:"These LOOK familiar but SOUND different, so your brain auto-corrects wrong"},
+          {type:"mc",q:"The letters Ä, Ö, Ü are:",opts:["Decorated versions of A, O, U with the same sound","Completely new vowels with their own sounds","Only used in Swiss German","Consonants that look like vowels"],ans:"Completely new vowels with their own sounds",hint:"The two dots signal a genuinely different vowel sound"},
+          {type:"tip",title:"The German Alphabet Map",text:"Think of it as 3 zones:\n\nSAFE ZONE: B D F H K L M N P T\nThese sound exactly like English. No effort needed.\n\nTRAP ZONE: J W V Z S R\nThese look English but sound German. Drill required.\n\nNEW ZONE: Ä Ö Ü ß\nThese are entirely new. Learn from scratch.\n\nFocus your energy on the TRAP and NEW zones."},
         ]},
-        {id:"de_fp_s1_l2",title:"Umlauts: ä, ö, ü",icon:"🔠",xp:15,board:true,steps:[
-          {type:"intro",title:"Three vowels with two dots",desc:"Umlauts are modified vowels marked by two dots. They are full letters with their own distinct sounds, not decorations. ä, ö, ü each sound different from a, o, u.",goals:["Recognize ä, ö, ü as separate letters","Learn the approximate sound of each","Know that umlauts can change word meaning"]},
-          {type:"teach",kind:"word",nl:"ä",en:"a-umlaut",phonetic:"like English e in bed",example:"A: Wie heißt das Tier?\nB: Das ist ein Bär.",exampleEn:"A: What is that animal called?\nB: That is a bear.",note:"Short ä sounds like English e in set.\nLong ä sounds like English a in say.\nExample pair: schlafen (sleep) vs. schläft (sleeps)."},
-          {type:"teach",kind:"word",nl:"ö",en:"o-umlaut",phonetic:"round lips and say e",example:"A: Wie ist das Wetter?\nB: Es ist sehr schön.",exampleEn:"A: How is the weather?\nB: It is very beautiful.",note:"To produce ö: shape lips as if to say oh, then say eh.\nThis is one of the harder sounds for English speakers."},
-          {type:"teach",kind:"word",nl:"ü",en:"u-umlaut",phonetic:"round lips and say ee",example:"A: Wo ist die Tür?\nB: Die Tür ist dort drüben.",exampleEn:"A: Where is the door?\nB: The door is over there.",note:"To produce ü: shape lips as if to say oo, then say ee.\nCompare: Mutter (mother) vs. Mütter (mothers)."},
-          {type:"mc",q:"Which description best fits the sound of ö?",opts:["Say oh with flat lips","Round lips and say e","Exactly like English o","Like English oo in food"],ans:"Round lips and say e",hint:"Lip rounding is the key feature of ö"},
-          {type:"mc",q:"Which description best fits the sound of ü?",opts:["Exactly like English u in cup","Round lips and say ee","Like English oo in food","Say ah with tight lips"],ans:"Round lips and say ee",hint:"Lip rounding plus an ee tongue position"},
-          {type:"mc",q:"'Mutter' means mother. 'Mütter' means mothers. What signals the plural?",opts:["A different vowel letter","Adding -s to the end","The umlaut on the u","A prefix before the word"],ans:"The umlaut on the u",hint:"The dot pair above the vowel marks a grammatical change"},
-          {type:"mc",q:"ä, ö, ü are best described as:",opts:["Decorative accent marks","Separate letters with distinct sounds","Variants of a, o, u with the same sound","Silent vowels used in formal writing"],ans:"Separate letters with distinct sounds",hint:"Two dots = a genuinely different letter and sound"},
+
+        // ── L2: The Four Letter Traps ──
+        {id:"de_fp_s1_l2",title:"The Four Letter Traps",icon:"⚠️",xp:15,board:true,steps:[
+          {type:"intro",title:"Four letters that will trick you every time",desc:"J, W, V, and Z look identical to English but sound completely different. Your brain will auto-correct to the English sound. Fight it. This lesson drills each one individually.",goals:["Know that German J = English Y sound","Know that German W = English V sound","Know that German V = English F sound","Know that German Z = English TS sound"]},
+          {type:"teach",kind:"info",nl:"J",en:"German J = Y sound",phonetic:"like Y in yes",example:"ja = yah (yes)\nJuni = YOO-nee (June)\nJahr = YAHR (year)",exampleEn:"Every German J sounds like English Y",note:"German J is NEVER the English J sound.\nEnglish jump = German J does not exist.\nThink: Ja = Ya. Always."},
+          {type:"mc",q:"The German word 'ja' (yes) is pronounced:",opts:["jah (like jam)","yah (like yard)","zhah (like measure)","hah (like hat)"],ans:"yah (like yard)",hint:"German J always makes the Y sound"},
+          {type:"teach",kind:"info",nl:"W",en:"German W = V sound",phonetic:"like V in very",example:"Wasser = VAHS-ser (water)\nWein = VINE (wine)\nwo = VOH (where)",exampleEn:"Every German W sounds like English V",note:"German W is NEVER the English W sound.\nNo lip rounding. Teeth on lower lip.\nThink: Wasser = Vasser. Always."},
+          {type:"mc",q:"The German word 'Wasser' (water) starts with the sound:",opts:["W as in water","V as in very","F as in fox","B as in boy"],ans:"V as in very",hint:"German W and English V make the same sound"},
+          {type:"teach",kind:"info",nl:"V",en:"German V = F sound",phonetic:"like F in fox",example:"Vater = FAH-ter (father)\nvier = FEER (four)\nvon = FON (from)",exampleEn:"Most German V words sound like English F",note:"German V is usually the F sound.\nException: foreign words (Verb, Vase) keep the V sound.\nNative German words: V = F. Always."},
+          {type:"mc",q:"'Vater' (father) starts with the sound:",opts:["V as in very","F as in fox","W as in water","P as in park"],ans:"F as in fox",hint:"In native German words, V makes the F sound"},
+          {type:"teach",kind:"info",nl:"Z",en:"German Z = TS sound",phonetic:"like TS in cats",example:"Zeit = TSAIT (time)\nzwei = TSVAI (two)\nzusammen = tsoo-ZAH-men (together)",exampleEn:"Every German Z sounds like TS",note:"German Z is NEVER the English Z buzzing sound.\nIt is a sharp TS, like the end of cats.\nThink: Zeit = TSait. Always."},
+          {type:"mc",q:"'Zeit' (time) starts with the sound:",opts:["Z as in zoo","S as in sun","TS as in cats","TH as in the"],ans:"TS as in cats",hint:"German Z is always the sharp TS sound"},
+          {type:"match",pairs:[{nl:"J",en:"Y sound (like yes)"},{nl:"W",en:"V sound (like very)"},{nl:"V",en:"F sound (like fox)"},{nl:"Z",en:"TS sound (like cats)"}]},
+          {type:"mc",q:"A German word starts with W. You should pronounce it like English:",opts:["W","V","F","B"],ans:"V",hint:"German W swaps with English V"},
+          {type:"mc",q:"A German word starts with V. In a native German word, pronounce it like:",opts:["V","F","W","P"],ans:"F",hint:"German V swaps with English F in native words"},
+          {type:"tip",title:"The Swap Chain",text:"Memorize this chain:\n\nGerman J = English Y\nGerman W = English V\nGerman V = English F\nGerman Z = English TS\n\nFour letters. Four swaps. Drill until automatic."},
         ]},
-        {id:"de_fp_s1_l3",title:"Eszett: ß",icon:"📝",xp:15,board:true,steps:[
-          {type:"intro",title:"The letter ß (Eszett)",desc:"ß is a single letter that represents a sharp S sound. When ß appears versus SS depends on whether the preceding vowel is long or short.",goals:["Recognize ß as a single letter","Know ß sounds like a sharp S","Learn the basic ß vs. SS rule"]},
-          {type:"teach",kind:"word",nl:"ß (Eszett)",en:"sharp S",phonetic:"like ss in kiss",example:"A: Wie heißt du?\nB: Ich heiße Lukas.",exampleEn:"A: What is your name?\nB: My name is Lukas.",note:"ß only appears after long vowels or diphthongs.\nAfter short vowels: use SS instead.\nExample: Straße (long a) vs. Klasse (short a)."},
-          {type:"teach",kind:"info",nl:"ß vs. SS Regel",en:"ß vs. SS rule",phonetic:"ess-TSET fair-zooss ES-ES",example:"Long vowel or diphthong + sharp S = ß.\nShort vowel + sharp S = SS.",exampleEn:"heißen (ei = diphthong) uses ß. Klasse (short a) uses SS.",note:"In Swiss German and some official contexts, SS replaces ß entirely.\nCapital ß was standardized as an official letter in 2017."},
-          {type:"mc",q:"ß represents which sound?",opts:["A voiced Z sound","A soft G sound","A sharp voiceless S sound","A combination of S and H"],ans:"A sharp voiceless S sound",hint:"It is a special form of the letter S, not Z"},
-          {type:"mc",q:"After a SHORT vowel, the sharp S is written as:",opts:["ß","SS","sz","s alone"],ans:"SS",hint:"Short vowels always take double S, not Eszett"},
-          {type:"mc",q:"'Straße' (street) uses ß because the vowel before it is:",opts:["Short","Long","Silent","An umlaut only"],ans:"Long",hint:"Long vowel or diphthong + sharp S = ß"},
-          {type:"mc",q:"If ß is unavailable on a keyboard, it is replaced by:",opts:["S alone","SZ","SS","Z alone"],ans:"SS",hint:"Double S is the standard substitute for ß"},
-          {type:"mc",q:"'Klasse' (class) uses SS not ß because the a in Kla- is:",opts:["Long","A diphthong","Short","An umlaut"],ans:"Short",hint:"Short vowel = SS rule applies"},
+
+        // ── L3: The Three Umlauts ──
+        {id:"de_fp_s1_l3",title:"Ä, Ö, Ü: Three New Vowels",icon:"🔠",xp:15,board:true,steps:[
+          {type:"intro",title:"Three vowels that do not exist in English",desc:"The two dots above A, O, U are not decorations. They signal completely different vowel sounds. Each umlaut is its own letter. Ä, Ö, Ü are as different from A, O, U as A is from E.",goals:["Know Ä sounds like E in bed","Know Ö has no English match (round lips + E)","Know Ü has no English match (round lips + EE)","Understand umlauts change word meaning"]},
+          {type:"teach",kind:"info",nl:"Ä",en:"A with umlaut",phonetic:"like E in bed",example:"Bär (bear) = BAIR\nMänner (men) = MEN-ner\nspät (late) = SHPAIT",exampleEn:"Ä sounds like the E in English bed or fair",note:"Ä is the easiest umlaut for English speakers.\nIt sounds like E in bed (short) or AI in fair (long).\nPair: Mann (man) vs. Männer (men). The umlaut marks plural."},
+          {type:"mc",q:"The German letter Ä sounds most like:",opts:["A as in father","E as in bed","O as in go","U as in blue"],ans:"E as in bed",hint:"Despite looking like an A, it sounds like a different vowel entirely"},
+          {type:"teach",kind:"info",nl:"Ö",en:"O with umlaut",phonetic:"round lips, say E",example:"schön (beautiful) = SHURN\nhören (to hear) = HUR-en\nöffnen (to open) = UFF-nen",exampleEn:"Ö has no English equivalent. Round your lips for O, then say E.",note:"How to make Ö:\n1. Shape your lips as if saying O (round)\n2. Keep lips round\n3. Try to say E\nThe result is Ö. Practice with: schön, hören, böse."},
+          {type:"mc",q:"To produce the Ö sound, you should:",opts:["Open jaw wide and say A","Round lips like O, then say E","Close lips and hum","Say U with flat lips"],ans:"Round lips like O, then say E",hint:"Lip rounding is what makes Ö special"},
+          {type:"teach",kind:"info",nl:"Ü",en:"U with umlaut",phonetic:"round lips, say EE",example:"über (over) = UE-ber\ngrün (green) = GRUEN\nTür (door) = TUER",exampleEn:"Ü has no English equivalent. Round your lips for U, then say EE.",note:"How to make Ü:\n1. Shape your lips as if saying OO (round)\n2. Keep lips round\n3. Try to say EE\nThe result is Ü. Practice with: Tür, grün, müssen."},
+          {type:"mc",q:"To produce the Ü sound, you should:",opts:["Round lips like U, then say EE","Say OO as in moon","Open mouth wide and say AH","Say EE with flat lips"],ans:"Round lips like U, then say EE",hint:"Same trick as Ö but starting from U position instead of O"},
+          {type:"teach",kind:"info",nl:"Umlauts change meaning",en:"Two dots = different word",phonetic:"",example:"Mutter (mother) vs. Mütter (mothers)\nschon (already) vs. schön (beautiful)\nfordern (demand) vs. fördern (promote)",exampleEn:"Umlauts are not optional. They change the word.",note:"Umlauts are grammatically active:\n1. They mark plurals: Haus vs. Häuser\n2. They mark verb forms: fahren vs. fährt\n3. They create new words: schon vs. schön\nNever drop an umlaut. It changes the word."},
+          {type:"mc",q:"'Mutter' means mother. 'Mütter' means mothers. The umlaut signals:",opts:["Past tense","Plural form","Feminine gender","A question"],ans:"Plural form",hint:"Many German plurals are formed by adding an umlaut"},
+          {type:"mc",q:"'schon' means already. 'schön' means beautiful. What changed?",opts:["A letter was added","The umlaut changed the vowel sound and meaning","The word stress shifted","Nothing, they sound the same"],ans:"The umlaut changed the vowel sound and meaning",hint:"Two dots on the O turned already into beautiful"},
+          {type:"match",pairs:[{nl:"Ä",en:"sounds like E in bed"},{nl:"Ö",en:"round lips + E sound"},{nl:"Ü",en:"round lips + EE sound"}]},
+        ]},
+
+        // ── L4: Eszett (ß) ──
+        {id:"de_fp_s1_l4",title:"ß: The Sharp S",icon:"📝",xp:15,board:true,steps:[
+          {type:"intro",title:"One letter, one sound, one rule",desc:"ß (Eszett) is a single letter that makes a sharp S sound. It only appears after long vowels or diphthongs. After short vowels, German uses SS instead. One simple rule governs which you use.",goals:["Know ß makes a sharp S sound","Know the long vowel = ß rule","Know the short vowel = SS rule","See the rule in real words"]},
+          {type:"teach",kind:"info",nl:"ß",en:"Eszett (sharp S)",phonetic:"sharp S, like ss in kiss",example:"Straße (street): long A, so ß\nheißen (to be called): diphthong ei, so ß\ngroß (big): long O, so ß",exampleEn:"ß always follows a LONG vowel or diphthong",note:"ß is NOT two letters. It is ONE letter.\nIt makes ONE sound: a sharp, voiceless S.\nIt ONLY appears after long vowels or diphthongs.\nNever at the start of a word."},
+          {type:"mc",q:"ß makes which sound?",opts:["A buzzing Z","A sharp voiceless S","A SH sound","A TS sound"],ans:"A sharp voiceless S",hint:"Think of the S sound in English kiss, not the Z in zoo"},
+          {type:"teach",kind:"info",nl:"ß vs. SS",en:"The one rule",phonetic:"",example:"LONG vowel + S sound = ß\nStraße, heißen, groß, Fuß\n\nSHORT vowel + S sound = SS\nKlasse, Wasser, essen, müssen",exampleEn:"Vowel length before the S sound determines the spelling",note:"The rule is simple:\nListen to the vowel BEFORE the S sound.\nIs it long or a diphthong? Use ß.\nIs it short? Use SS.\nNo exceptions in standard German."},
+          {type:"mc",q:"'Straße' uses ß because the vowel before it is:",opts:["Short","Long","Silent","An umlaut"],ans:"Long",hint:"The A in Straße is a long vowel"},
+          {type:"mc",q:"'Wasser' uses SS because the vowel before it is:",opts:["Long","A diphthong","Short","A consonant"],ans:"Short",hint:"The A in Wasser is a short vowel"},
+          {type:"mc",q:"'heißen' (to be called) uses ß because before the S sound there is:",opts:["A short vowel","A long vowel","A diphthong (ei)","A consonant"],ans:"A diphthong (ei)",hint:"ei is a diphthong, and diphthongs always take ß"},
+          {type:"mc",q:"If ß is not available on your keyboard, replace it with:",opts:["S alone","SZ","SS","Z"],ans:"SS",hint:"Double S is the universal substitute for ß"},
+          {type:"tip",title:"ß vs SS Decision",text:"When you hear a sharp S in German, ask ONE question:\n\nIs the vowel before it LONG or a diphthong?\nYES = use ß (Straße, heißen, groß)\nNO = use SS (Klasse, Wasser, müssen)\n\nSwiss German never uses ß at all. They always write SS."},
         ]},
       ]},
 
