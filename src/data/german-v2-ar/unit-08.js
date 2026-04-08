@@ -56,7 +56,7 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"der Löffel",pos:"noun",gender:"m",src:"الملعقة",note:"اسم مذكر. الجمع: die Löffel.",example:"A: Hast du einen Löffel für mich?\nB: Ja, hier ist ein Löffel.\nA: Der ist aber groß!\nB: Das ist ein Suppenlöffel.",exampleSrc:"أ: هل لديك ملعقة لي؟\nب: نعم، هذه ملعقة.\nأ: لكنها كبيرة!\nب: تلك ملعقة حساء.",funFact:"يميّز الألمان بين Teelöffel (ملعقة شاي) وEsslöffel (ملعقة طعام) وSuppenlöffel (ملعقة حساء). الوصفات تحدد دائماً أي ملعقة تُستخدم."},
         {type:"teach",trg:"das Messer",pos:"noun",gender:"n",src:"السكين",note:"اسم محايد. الجمع: die Messer.",example:"A: Dieses Messer ist sehr scharf.\nB: Ja, pass auf! Es ist neu.\nA: Wo hast du es gekauft?\nB: Im Geschäft am Marktplatz.",exampleSrc:"أ: هذا السكين حاد جداً.\nب: نعم، انتبه! إنه جديد.\nأ: من أين اشتريته؟\nب: من المتجر في ساحة السوق.",funFact:"سولينغن، مدينة في غرب ألمانيا، تُسمى 'مدينة الشفرات' وهي عاصمة العالم لإنتاج السكاكين والشفرات منذ العصور الوسطى."},
         {type:"teach",trg:"der Teller",pos:"noun",gender:"m",src:"الطبق",note:"اسم مذكر. الجمع: die Teller.",example:"A: Kannst du die Teller auf den Tisch stellen?\nB: Wie viele Teller brauchen wir?\nA: Vier Teller, bitte.\nB: Gut, ich hole sie aus dem Schrank.",exampleSrc:"أ: هل تستطيع وضع الأطباق على الطاولة؟\nب: كم طبقاً نحتاج؟\nأ: أربعة أطباق من فضلك.\nب: جيد، سأحضرها من الخزانة.",funFact:"في كثير من البيوت الألمانية، لكل فرد طبقه وكوبه وكأسه الخاص. استخدام أدوات شخص آخر يُعتبر خطأً اجتماعياً بسيطاً."},
-        {type:"mc",q:"Was ist 'die Gabel' auf Englisch?",opts:["the spoon","the fork","the knife","the plate"],ans:"the fork",hint:"فكّر في الأداة ذات الأسنان"},
+        {type:"mc",q:"Was ist 'die Gabel' auf Englisch?",opts:["الملعقة","الشوكة","السكين","الصحن"],ans:"الشوكة",hint:"فكّر في الأداة ذات الأسنان"},
         {type:"fb",s:"Der {1} liegt neben dem Messer.",a:"Löffel",opts:["Löffel","Gabel","Fenster","Keller"],hint:"الأداة المستديرة للحساء.",sSrc:"الملعقة بجانب السكين."},
         {type:"teach",trg:"der Topf",pos:"noun",gender:"m",src:"القِدر",note:"اسم مذكر. الجمع: die Töpfe. لاحظ الأملاوت في الجمع.",example:"A: Was kochst du in dem Topf?\nB: Ich mache eine Suppe.\nA: Der Topf ist sehr groß!\nB: Ja, es gibt Suppe für alle.",exampleSrc:"أ: ماذا تطبخ في القِدر؟\nب: أصنع حساءً.\nأ: القِدر كبير جداً!\nب: نعم، هناك حساء للجميع.",funFact:"يقول الألمان غالباً 'Jeder Topf findet seinen Deckel' (كل قِدر يجد غطاءه)، بمعنى أن لكل شخص نصيبه المثالي. إنه المعادل الألماني لـ 'لكل إنسان قسمة ونصيب'."},
         {type:"teach",trg:"das Geschirr",pos:"noun",gender:"n",src:"الأواني / الصحون",note:"اسم محايد. يُستخدم كاسم جماعي. لا صيغة جمع شائعة.",example:"A: Wer spült heute das Geschirr?\nB: Du bist dran! Ich habe gestern gespült.\nA: Okay, aber die Spülmaschine ist voll.\nB: Dann spül bitte mit der Hand.",exampleSrc:"أ: من يغسل الصحون اليوم؟\nب: دورك أنت! غسلتها أمس.\nأ: حسناً، لكن غسالة الصحون ممتلئة.\nب: إذن اغسل باليد من فضلك.",funFact:"'Geschirr' كانت تعني أصلاً المعدات أو لجام الخيول. تضيّق المعنى عبر القرون ليعني أدوات المائدة تحديداً. لجام الخيول لا يزال يُسمى 'Pferdegeschirr'."},
@@ -65,7 +65,7 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"der Stuhl",pos:"noun",gender:"m",src:"الكرسي",note:"اسم مذكر. الجمع: die Stühle. لاحظ الأملاوت.",example:"A: Ist dieser Stuhl frei?\nB: Ja, setz dich! Der Stuhl ist bequem.\nA: Oh ja, sehr bequem.\nB: Den habe ich vom Flohmarkt.",exampleSrc:"أ: هل هذا الكرسي متاح؟\nب: نعم، اجلس! الكرسي مريح.\nأ: أوه نعم، مريح جداً.\nب: اشتريته من سوق البرغوث.",funFact:"يحب الألمان أسواق البرغوث (Flohmärkte). شراء الأثاث المستعمل، خاصة الكراسي والطاولات، شائع جداً ولا يُعتبر بخلاً بل وعياً بيئياً."},
         {type:"teach",trg:"das Fenster",pos:"noun",gender:"n",src:"النافذة",note:"اسم محايد. الجمع: die Fenster.",example:"A: Kannst du das Fenster öffnen?\nB: Ja, es ist warm hier drin.\nA: Frische Luft tut gut.\nB: In fünf Minuten mache ich es wieder zu.",exampleSrc:"أ: هل تستطيع فتح النافذة؟\nب: نعم، الجو حار هنا.\nأ: الهواء النقي جيد.\nب: بعد خمس دقائق سأغلقها.",funFact:"يمارس الألمان 'Stoßlüften': فتح النوافذ على مصراعيها 5 إلى 10 دقائق لتبديل الهواء، ثم إغلاقها. ترك النوافذ مفتوحة قليلاً (gekippt) طوال اليوم يُعتبر إسرافاً وضاراً بالتدفئة."},
         {type:"fb",s:"Mach bitte das {1} auf, es ist warm.",a:"Fenster",opts:["Fenster","Geschirr","Keller","Stuhl"],hint:"تفتح هذا لإدخال الهواء النقي.",sSrc:"افتح النافذة من فضلك، الجو حار."},
-        {type:"mc",q:"Hildi sagt: 'Das Geschirr ist schmutzig.' Was meint sie?",opts:["The kitchen is dirty","The glass is broken","The dishes are dirty","The spoon is missing"],ans:"The dishes are dirty",hint:"Geschirr هي الكلمة الجماعية للأطباق والأكواب والصحون"},
+        {type:"mc",q:"Hildi sagt: 'Das Geschirr ist schmutzig.' Was meint sie?",opts:["المطبخ وسخ","الكوب مكسور","الصحون وسخة","الملعقة ضايعة"],ans:"الصحون وسخة",hint:"Geschirr هي الكلمة الجماعية للأطباق والأكواب والصحون"},
         {type:"match",pairs:[
             {trg:"die Gabel",pos:"noun",gender:"f",src:"الشوكة"},
             {trg:"der Löffel",pos:"noun",gender:"m",src:"الملعقة"},
@@ -94,7 +94,7 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"stellen",pos:"verb",gender:null,src:"يضع (عمودياً)",note:"فعل منتظم: ich stelle, du stellst. يعني دائماً الوضع عمودياً.\nLegen = يضع مسطحاً. Stellen = يضع عمودياً.",example:"A: Wo soll ich die Teller stellen?\nB: Stell sie bitte in den Schrank.\nA: Und die Gläser?\nB: Die auch. Stell alles in den Schrank.",exampleSrc:"أ: أين أضع الأطباق؟\nب: ضعها في الخزانة من فضلك.\nأ: والكؤوس؟\nب: هي أيضاً. ضع كل شيء في الخزانة.",funFact:"في الألمانية أفعال مختلفة للوضع: stellen (عمودياً كالزجاجة)، legen (مسطحاً ككتاب)، setzen (جالساً)، hängen (معلقاً). الإنجليزية تستخدم فقط 'put' لكلها!"},
         {type:"teach",trg:"fernsehen",pos:"verb",gender:null,src:"يشاهد التلفاز",note:"فعل منفصل: ich sehe fern, du siehst fern.\nمن fern (بعيد) + sehen (يرى) = 'النظر البعيد'.\nder Fernseher = جهاز التلفاز.",example:"A: Was machst du heute Abend?\nB: Ich sehe fern. Es gibt einen guten Film.\nA: Welchen Fernseher hast du?\nB: Einen alten, aber er funktioniert gut.",exampleSrc:"أ: ماذا تفعل الليلة؟\nب: أشاهد التلفاز. هناك فيلم جيد.\nأ: أي تلفاز لديك؟\nب: واحد قديم، لكنه يعمل جيداً.",funFact:"'fernsehen' تعني حرفياً 'النظر البعيد'. أول بث تلفزيوني ألماني كان عام 1935. اليوم، ARD وZDF قنوات عامة تُموّل برسوم البث (Rundfunkbeitrag) التي يدفعها كل بيت: 18.36 يورو شهرياً."},
         {type:"tip",title:"Abendbrot: Die deutsche Küchentradition",text:"يأكل الألمان تقليدياً عشاءً بارداً يُسمى Abendbrot (خبز المساء). تجتمع العائلة في المطبخ وتضع الخبز والجبن واللحوم الباردة والمخللات.\n\nلا حاجة للطبخ. كل شيء يُوضع على Teller مع Messer وGabel.\n\nهذا التقليد هو سبب أن المطابخ الألمانية غالباً فيها طاولة صغيرة مع كراسي لوجبات عائلية غير رسمية، منفصلة عن غرفة الطعام الرسمية (Esszimmer).",deepDive:{title:"Why cold dinner?",text:"Abendbrot يعود لزمن كانت الوجبة الساخنة الرئيسية تُطبخ في الظهيرة. وجبة المساء كانت بسيطة: خبز مع إضافات.\n\nاليوم تبيع السوبرماركتات خبزاً مقطعاً ولحوماً باردة مخصصة لـ Abendbrot. عندما يقول الألمان 'Wir essen Abendbrot' يعنون هذا التقليد.\n\nاختلاف إقليمي: في جنوب ألمانيا، وجبة المساء الباردة تُسمى أحياناً Brotzeit. في الشمال، Abendbrot هو المعيار."}},
-        {type:"mc",q:"Was ist das Erdgeschoss?",opts:["The basement","The attic","The second floor","The ground floor"],ans:"The ground floor",hint:"فكّر في المعنى الحرفي: Erd = أرض"},
+        {type:"mc",q:"Was ist das Erdgeschoss?",opts:["القبو","العلّية","الطابق الثاني","الطابق الأرضي"],ans:"الطابق الأرضي",hint:"فكّر في المعنى الحرفي: Erd = أرض"},
         {type:"fb",s:"Jeder Mieter hat seinen eigenen {1}.",a:"Keller",opts:["Keller","Stuhl","Löffel","Teller"],hint:"مساحة التخزين أسفل المبنى.",sSrc:"كل مستأجر لديه قبو خاص."},
         {type:"mc",q:"Hildis Haus hat vier Etagen. Was ist ein anderes Wort dafür?",opts:["Fenster","Stockwerke","Keller","Stühle"],ans:"Stockwerke",hint:"كل مستوى في المبنى من الأرض إلى السقف."},
         {type:"match",pairs:[
@@ -255,11 +255,11 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"tip",title:"Subordinate Clause Word Order",text:"بعد أدوات الربط مثل weil وdass وwenn وob، ينتقل الفعل إلى آخر الجملة الفرعية.\n\nCompare normal and subordinate word order:\n- Normal: Plastik gehört nicht in den Biomüll.\n- Subordinate: ..., weil Plastik nicht in den Biomüll gehört.\n\n- Normal: Er räumt die Küche auf.\n- Subordinate: ..., weil er die Küche aufräumt.\n\nThe verb always sits at the very end. Separable prefixes rejoin their verb.",deepDive:"عندما تأتي الجملة الفرعية أولاً, the main clause verb comes immediately after:\n\nWeil es regnet, bleibe ich zu Hause.\n(Because it is raining, I stay at home.)\n\nThe pattern: Subordinate clause (verb-final), VERB (main clause), rest.\nThis is called 'Verb-Zweit' (verb-second): the main verb is always in position 2."},
         {type:"drag_fill",s:"Hildi sagt, dass frisches Gemüse {1} als {2} ist.",blanks:{"1":"besser","2":"Dosengemüse"},pool:["besser","Dosengemüse","ist","gut","als"],hint:"بعد 'dass'، ابنِ المقارنة وضع الفعل في النهاية.",sSrc:"هيلدي تقول إن الخضار الطازجة أفضل من المعلبة."},
         {type:"mc",q:"'Weil Plastik nicht in den Biomüll gehört, ...' ما الذي يحدث مع 'gehört' هنا؟",opts:[
-            "It is at the very end of the weil-clause",
-            "It is at the start of the clause",
-            "It is in the normal second position",
-            "It has been removed"
-          ],ans:"It is at the very end of the weil-clause",hint:"في الجمل الفرعية، ينتقل الفعل دائماً إلى موقع محدد."},
+            "في آخر جملة weil تمامًا",
+            "في بداية الجملة",
+            "في الموقع الثاني العادي",
+            "تم حذفه"
+          ],ans:"في آخر جملة weil تمامًا",hint:"في الجمل الفرعية، ينتقل الفعل دائماً إلى موقع محدد."},
         {type:"fb",s:"Das ist der {1} Müll in der ganzen Stadt.",a:["schlimmste"],opts:["schlimmste","schlimmer","am schlimmsten","schlimm"],hint:"قبل اسم مع 'der'، تحتاج صفة التفضيل بنهاية -ste.",sSrc:"تلك أسوأ نفايات في المدينة كلها."},
         {type:"mc",q:"Verumius asks: 'Warum trennst du den Müll?' Hildi answers: 'Weil es ...'",opts:[
             "Weil es ist wichtig für die Natur",
@@ -315,11 +315,11 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"fb",s:"Ich esse {1} Wurst zum Abendbrot.",a:["die"],opts:["die","der","das","den"],hint:"Wurst مؤنث. ما هي أداة التعريف المؤنثة في حالة Akkusativ.",sSrc:"آكل النقانق لعشاء Abendbrot."},
         {type:"tip",title:"Abendbrot: The Cold Supper",text:"يأكل الألمان تقليدياً وجبتهم الساخنة في الظهيرة (Mittagessen).\n\nAbendbrot (evening bread) is a cold meal:\n\n• Bread (often dark rye or sourdough)\n• Sliced cheese and cold cuts\n• Maybe pickles, tomatoes, or radishes\n• Butter and mustard\n\nIt is simple, practical, and very German.\nVisitors expecting a hot dinner are often surprised."},
         {type:"mc",q:"Hildi sagt: 'In Deutschland essen wir abends kalt.' Was bedeutet das?",opts:[
-            "Germans eat outside in the evening",
-            "Germans skip dinner",
-            "Germans eat cold food in the evening",
-            "Germans eat early in the morning"
-          ],ans:"Germans eat cold food in the evening",hint:"ترجم الكلمتين الرئيسيتين: 'kalt' و'abends' لفهم العادة."},
+            "الألمان يأكلون بره بالمسا",
+            "الألمان ما بيتعشوا",
+            "الألمان بياكلوا أكل بارد بالمسا",
+            "الألمان بياكلوا بكير الصبح"
+          ],ans:"الألمان بياكلوا أكل بارد بالمسا",hint:"ترجم الكلمتين الرئيسيتين: 'kalt' و'abends' لفهم العادة."},
         {type:"fb",s:"Ich koche eine {1}suppe mit Gemüse.",a:"Bohnen",opts:["Bohnen","Nudel","Orangen","Wurst"],hint:"نوع بقوليات يُستخدم غالباً في الحساء واليخنات.",sSrc:"أطبخ حساء فاصوليا بالخضار."},
         {type:"mc",q:"Was isst man oft zum Mittagessen in Deutschland?",opts:["Nudeln mit Soße","Nur Brot und Käse","Eis mit Zucker","Orangen mit Wurst"],ans:"Nudeln mit Soße",hint:"وجبة الظهيرة الساخنة غالباً تتضمن طبقاً شائعاً من أصل إيطالي."},
         {type:"fb",s:"In Norddeutschland sagt man '{1}' statt 'Orange'.",a:"Apfelsine",opts:["Apfelsine","Pflanze","Bohne","Nudel"],hint:"هذه الكلمة تعني حرفياً 'تفاحة من الصين' وتُستخدم في شمال ألمانيا.",sSrc:"في شمال ألمانيا يقولون 'Apfelsine' بدلاً من 'Orange'."}
@@ -338,11 +338,11 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"teach",trg:"das Eis",pos:"noun",gender:"n",src:"البوظة",note:"اسم محايد. تعني أيضاً 'جليد'. السياق يحدد المعنى.",example:"A: Möchtest du ein Eis?\nB: Ja, Schokolade bitte!",exampleSrc:"أ: هل تريد بوظة؟\nب: نعم، شوكولاتة من فضلك!",funFact:"محلات البوظة الألمانية (Eisdielen) غالباً تديرها عائلات إيطالية جاءت لألمانيا في العشرينيات. التقليد قوي جداً لدرجة أن 'البوظة الإيطالية' تُعتبر ركيزة ثقافية ألمانية."},
         {type:"fb",s:"Nimmst du {1} in den Kaffee?",a:["Zucker"],opts:["Zucker","Käse","Wurst","Nudel"],hint:"أيّ منها مسحوق أبيض حلو.",sSrc:"هل تضع سكراً في قهوتك؟"},
         {type:"mc",q:"Verumius legt die Wurst auf das Brett. ماذا تخبرنا 'auf das Brett'؟",opts:[
-            "The sausage is already on the board",
-            "The sausage is moving onto the board",
-            "The sausage is under the board",
-            "The sausage is next to the board"
-          ],ans:"The sausage is moving onto the board",hint:"'auf das' (Akkusativ) يشير إلى حركة إلى موضع جديد."},
+            "النقانق موجودة على اللوح",
+            "النقانق تنتقل إلى اللوح",
+            "النقانق تحت اللوح",
+            "النقانق بجانب اللوح"
+          ],ans:"النقانق تنتقل إلى اللوح",hint:"'auf das' (Akkusativ) يشير إلى حركة إلى موضع جديد."},
         {type:"fb",s:"Der Käse liegt {1} dem Tisch.",a:["auf"],opts:["auf","in","über","unter"],hint:"الجبن مستقر على سطح مسطح. أي Wechselpräposition.",sSrc:"الجبن على الطاولة."},
         {type:"mc",q:"Verumius sagt: 'Ich esse Suppe, weil ich Hunger habe.' أين الفعل في جملة weil؟",opts:["في الموقع الثاني","مباشرة بعد weil","في آخر الجملة","قبل الفاعل"],ans:"في آخر الجملة",hint:"weil أداة ربط فرعية. ترسل الفعل إلى مكان خاص."},
         {type:"drag_fill",s:"Ich trinke Mineralwasser, {1} es {2} als Cola {3}.",blanks:{"1":"weil","2":"gesünder","3":"ist"},pool:["weil","gesünder","ist","denn","gut","hat"],hint:"جملة السبب ترسل الفعل إلى النهاية. المقارنة من 'gesund' تتضمن أملاوت.",sSrc:"أشرب الماء المعدني لأنه أصح من الكولا."},
@@ -394,30 +394,30 @@ const UNIT_08_AR = {n:8,lang:"de",srcLang:"ar",track:"v2",title:"Müllprofessor"
         {type:"fb",s:"Er hat seine Wohnung {1}.",a:["renoviert"],opts:["renoviert","gerenoviert","renovieren","renovierte"],hint:"الأفعال المنتهية بـ -ieren تشكّل الماضي بدون ge-. تذكر القاعدة.",sSrc:"جدّد شقته."},
         {type:"drag_fill",s:"Mia legt die Lauftasche {1} den Boden und hängt das Handtuch {2} die Tür.",blanks:{"1":"auf","2":"an"},pool:["auf","an","in","unter","neben","vor"],hint:"كلاهما يُظهر اتجاهاً (Akkusativ). الحقيبة تذهب على الأرض، والمنشفة على الباب.",sSrc:"تضع ميا حقيبة الجري على الأرض وتعلّق المنشفة على الباب."},
         {type:"mc",q:"'Ich bin letzte Woche eingezogen.' لماذا تستخدم هذه 'bin' بدلاً من 'habe'؟",opts:[
-            "It is a reflexive verb here",
-            "Movement verb, so uses sein",
-            "The subject ich requires sein",
-            "Past time phrases force sein"
-          ],ans:"Movement verb, so uses sein",hint:"الانتقال تغيير في المكان. فكّر أي فعل مساعد تحتاجه أفعال تغيير المكان."},
+            "هنا فعل انعكاسي",
+            "فعل حركة، لذلك يستخدم sein",
+            "الفاعل ich يتطلب sein",
+            "عبارات الزمن الماضي تفرض sein"
+          ],ans:"فعل حركة، لذلك يستخدم sein",hint:"الانتقال تغيير في المكان. فكّر أي فعل مساعد تحتاجه أفعال تغيير المكان."},
         {type:"fb",s:"Süßigkeiten sind süßer {1} Obst.",a:["als"],opts:["als","wie","von","mit"],hint:"أي كلمة تعني 'من' عند المقارنة بين شيئين في الألمانية.",sSrc:"الحلويات أحلى من الفاكهة."},
         {type:"drag_fill",s:"Das Handtuch hängt {1} der Tür, weil Mia es {2} die Tür gehängt hat.",blanks:{"1":"an","2":"an"},pool:["an","auf","in","an","unter","neben"],hint:"الفراغ الأول: موقع (Dativ، معلقة هناك). الثاني: اتجاه (Akkusativ، علّقتها هناك). نفس حرف الجر، حالة مختلفة!",sSrc:"المنشفة معلقة على الباب لأن ميا علّقتها على الباب."},
         {type:"mc",q:"Verumius findet Hildis Abendbrot besser als Pizza, weil es frischer ist. أي نمطين نحويين مُدمجان هنا؟",opts:["مقارنة + جملة weil","تفضيل + جملة dass","مقارنة + جملة wenn","تفضيل + جملة weil"],ans:"مقارنة + جملة weil",hint:"حدد كلا النمطين: درجة المقارنة (ليس أعلى درجة) ونوع جملة السبب المستخدمة."},
         {type:"fb",s:"Mia ist die {1} Läuferin im Lauftreff.",a:["schnellste"],opts:["schnellste","schneller","schnellere","am schnellsten"],hint:"بعد أداة التعريف (die)، التفضيل يستخدم نهاية '-ste'، وليس 'am ...sten'.",sSrc:"ميا أسرع عدّاءة في مجموعة الجري."},
         {type:"drag_fill",s:"Mia stellt die Schuhe {1} die Tür, weil es {2} der Wohnung sauberer ist {3} im Treppenhaus.",blanks:{"1":"vor","2":"in","3":"als"},pool:["vor","in","als","an","auf","wie"],hint:"الأحذية تُوضع أمام الباب (اتجاه). أنظف داخل (موقع) الشقة من بئر الدرج (مقارنة).",sSrc:"تضع ميا الأحذية أمام الباب لأنه أنظف في الشقة من بئر الدرج."},
         {type:"mc",q:"'Im dritten Stock wohnt die netteste Nachbarin.' أي قاعدة نحوية مستخدمة هنا؟",opts:[
-            "Comparative with als",
-            "Superlative with adjective ending",
-            "Wechselpräposition with dative",
-            "Subordinate clause with weil"
-          ],ans:"Superlative with adjective ending",hint:"'die netteste' تُظهر أعلى درجة من 'nett' بلاحقة نحوية بعد أداة التعريف."},
+            "مقارنة مع als",
+            "تفضيل مع نهاية صفة",
+            "Wechselpräposition مع Dativ",
+            "جملة فرعية مع weil"
+          ],ans:"تفضيل مع نهاية صفة",hint:"'die netteste' تُظهر أعلى درجة من 'nett' بلاحقة نحوية بعد أداة التعريف."},
         {type:"fb",s:"Verumius zieht {1} die Wohnung im zweiten Stock ein.",a:["in"],opts:["in","an","auf","vor"],hint:"أي Wechselpräposition تعني 'إلى داخل' عند الانتقال إلى مكان.",sSrc:"ينتقل فيروميوس إلى الشقة في الطابق الثاني."},
         {type:"drag_fill",s:"Mia sagt, dass der Lauftreff {1} wichtigste Termin der Woche ist, weil Laufen {2} als Fernsehen ist.",blanks:{"1":"der","2":"besser"},pool:["der","besser","als","am","im","gut"],hint:"الفراغ الأول: أداة تعريف للتفضيل الوصفي (مذكر مرفوع). الثاني: صيغة شاذة تعني 'أكثر جودة' للمقارنة.",sSrc:"ميا تقول إن مجموعة الجري هي أهم موعد في الأسبوع لأن الجري أفضل من مشاهدة التلفاز."},
         {type:"mc",q:"'Weil Mia jeden Samstag im Park läuft, ist sie stärker als Verumius.' لماذا 'läuft' في النهاية of the weil-clause?",opts:[
-            "Läuft is always last in German",
-            "In weil-clauses, the verb moves to the final position",
-            "Mia is the subject so the verb follows",
-            "Im Park requires the verb at the end"
-          ],ans:"In weil-clauses, the verb moves to the final position",hint:"تذكر قاعدة ترتيب الكلمات في الجملة الفرعية من وقت سابق في هذه الوحدة."},
+            "läuft دائمًا في النهاية بالألمانية",
+            "في جمل weil، ينتقل الفعل إلى الموقع الأخير",
+            "Mia هي الفاعل لذلك الفعل يتبعها",
+            "im Park يتطلب الفعل في النهاية"
+          ],ans:"في جمل weil، ينتقل الفعل إلى الموقع الأخير",hint:"تذكر قاعدة ترتيب الكلمات في الجملة الفرعية من وقت سابق في هذه الوحدة."},
         {type:"match",pairs:[
             {trg:"der Hamburger",pos:"noun",gender:"m",src:"الهمبرغر"},
             {trg:"die Süßigkeit",pos:"noun",gender:"f",src:"الحلوى"},

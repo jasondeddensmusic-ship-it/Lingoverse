@@ -10,7 +10,7 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
     "افهم التحيات الإقليمية"
 ]},
         {type:"story",speaker:"narrator",mood:"descriptive",art:"de-ham-hauptbahnhof",trg:"Hamburg Hauptbahnhof. Regen, roter Backstein, der Geruch der Nordsee in der Luft. Alles hier ist anders als in Berlin.",src:"محطة هامبورغ المركزية. مطر، طوب أحمر، رائحة بحر الشمال في الهواء. كل شيء هنا مختلف عن برلين."},
-        {type:"story",speaker:"colleague",mood:"friendly",art:"de-ham-hauptbahnhof",trg:"Moin! Sie müssen Herr Verumius sein. Willkommen in Hamburg!",src:"موين! لا بد أنك السيد فيروميوس. أهلاً بك في هامبورغ!"},
+        {type:"story",speaker:"colleague",mood:"ودود",art:"de-ham-hauptbahnhof",trg:"Moin! Sie müssen Herr Verumius sein. Willkommen in Hamburg!",src:"موين! لا بد أنك السيد فيروميوس. أهلاً بك في هامبورغ!"},
         {type:"story",speaker:"verumius",mood:"happy",art:"de-ham-hauptbahnhof",trg:"Hallo! Danke, dass Sie mich abholen. Was bedeutet 'Moin'?",src:"مرحباً! شكراً لاستقبالي. ماذا تعني كلمة 'Moin'؟"},
         {type:"story",speaker:"colleague",mood:"amused",art:"de-ham-hauptbahnhof",trg:"Moin ist unser Hallo hier im Norden. Morgens, abends, immer: Moin!",src:"موين هي تحيتنا هنا في الشمال. صباحاً، مساءً، دائماً: موين!"},
         {type:"teach",trg:"der Hauptbahnhof",src:"محطة القطار الرئيسية",pos:"noun",gender:"m",note:"Haupt (رئيسي) + Bahnhof (محطة قطار). كل مدينة ألمانية كبيرة لديها واحدة.",example:"A: Entschuldigung, wo ist der Hauptbahnhof?\nB: Geradeaus, dann links.\nA: Wie weit ist es?\nB: Etwa zehn Minuten zu Fuß.",exampleSrc:"A: عفواً، أين محطة القطار الرئيسية؟\nB: مباشرة إلى الأمام، ثم يساراً.\nA: كم تبعد؟\nB: حوالي عشر دقائق سيراً على الأقدام.",funFact:"تستقبل محطة هامبورغ المركزية 550,000 مسافر يومياً، مما يجعلها من أكثر المحطات ازدحاماً في أوروبا. افتُتحت عام 1906 وظلت قلب المدينة منذ ذلك الحين."},
@@ -41,7 +41,7 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"story",speaker:"colleague",mood:"matter-of-fact",art:"de-ham-taxi-rain",trg:"So, die Strecke zum Hotel ist nicht weit. Zehn Minuten, wenn der Verkehr mitmacht.",src:"إذن، المسار إلى الفندق ليس بعيداً. عشر دقائق إذا تعاون الطريق."},
         {type:"story",speaker:"verumius",mood:"curious",art:"de-ham-taxi-rain",trg:"Hamburg ist größer, als ich dachte. Und feuchter.",src:"هامبورغ أكبر مما توقعت. وأكثر رطوبة أيضاً."},
         {type:"fb",s:"Die {1} ist nicht weit von Hamburg. Etwa 100 Kilometer.",a:["Nordsee"],opts:["Nordsee","Ostsee","Metropole","Nacht"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"بحر الشمال ليس بعيداً عن هامبورغ. حوالي 100 كيلومتر."},
-        {type:"mc",q:"Was bedeutet 'feucht'?",opts:["the region","the night","damp / humid","the area / vicinity"],ans:"damp / humid",hint:"صفة تصف الهواء الرطب أو الجو الممطر"}
+        {type:"mc",q:"Was bedeutet 'feucht'?",opts:["المنطقة","الليل","رطب","المنطقة / الجوار"],ans:"رطب",hint:"صفة تصف الهواء الرطب أو الجو الممطر"}
       ]},
 // ─── L3: Unterwegs in der Stadt ───
     {id:"deu_r15l2",title:"Unterwegs in der Stadt",icon:"🚋",xp:15,board:true,steps:[
@@ -74,7 +74,7 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"teach",trg:"die Spur",src:"المسار / الحارة",pos:"noun",gender:"f",note:"تعني أيضاً 'أثر' أو 'دليل' في قصص المحققين.",example:"A: Bleiben Sie auf der rechten Spur.\nB: Warum?\nA: Die linke Spur ist nur zum Überholen.\nB: Ah, wie auf der Autobahn.",exampleSrc:"أ: ابقَ في الحارة اليمنى.\nب: لماذا؟\nأ: الحارة اليسرى للتجاوز فقط.\nب: آه، كما في الأوتوبان.",funFact:"على الأوتوبان، 'die rechte Spur' (المسار الأيمن) للقيادة العادية، و'die linke Spur' (المسار الأيسر) للتجاوز فقط. يأخذ الألمان هذه القاعدة بجدية بالغة."},
         {type:"teach",trg:"die Kurve",src:"المنعطف / الانحناء",pos:"noun",gender:"f",note:"مرتبطة بالكلمة الإنجليزية 'curve' عبر اللاتينية 'curvus'.",example:"A: Vorsicht, scharfe Kurve!\nB: Ich fahre langsam.\nA: Diese Kurven sind gefährlich bei Regen.\nB: Ja, die Straße ist glatt.",exampleSrc:"أ: تنبّه، منعطف حاد!\nب: أسوق ببطء.\nأ: هذه المنعطفات خطرة في المطر.\nب: نعم، الطريق زلق.",funFact:"على طرق الجبال، تجد باستمرار 'Vorsicht, scharfe Kurve!' (انتبه، منعطف حاد!). تعمل الكلمة أيضاً بالمعنى المجازي: 'die Kurve kriegen' = أن تتدارك الأمر."},
         {type:"teach",trg:"die Lage",src:"الموقع / الوضع",pos:"noun",gender:"f",note:"يحدد السياق المعنى: 'موقع' أو 'وضع/حالة'.",example:"A: Die Lage des Hotels ist perfekt.\nB: Ja, direkt am Hafen.\nA: Und die politische Lage?\nB: Das ist eine andere Frage!",exampleSrc:"أ: موقع الفندق مثالي.\nب: نعم، مباشرةً على الميناء.\nأ: وما هو الوضع السياسي؟\nب: ذلك سؤال آخر!",funFact:"'Die Lage des Hotels' (موقع الفندق) يتضمن خفيةً بنية الجر الرابع. ستتعلم هذه الحالة الإعرابية رسمياً في الدرس القادم."},
-        {type:"mc",q:"Kraftfahrzeug is made of Kraft + Fahrzeug. What does Kraft mean?",opts:["New","Power","Big","Fast"],ans:"Power",hint:"KFZ هي مركبة ___. ما الذي يضيفه العنصر الأول؟"},
+        {type:"mc",q:"Kraftfahrzeug is made of Kraft + Fahrzeug. What does Kraft mean?",opts:["جديد","قوة","كبير","سريع"],ans:"قوة",hint:"KFZ هي مركبة ___. ما الذي يضيفه العنصر الأول؟"},
         {type:"fb",s:"In der Hamburger Innenstadt gibt es eine große {1}.",a:["Fußgängerzone"],opts:["Fußgängerzone","Einbahnstraße","Ausfahrt","Fahrbahn"],hint:"منطقة يسير فيها المشاة فقط، لا يُسمح للسيارات بالدخول.",sSrc:"في وسط مدينة هامبورغ توجد منطقة مشاة كبيرة."},
         {type:"match",pairs:[
     {trg:"U-Bahn",src:"مترو"},
@@ -85,7 +85,7 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
 ]},
         {type:"mc",q:"Welcher Artikel ist richtig: ___ Kraftfahrzeug?",opts:["die","der","ein","das"],ans:"das",hint:"في الأسماء المركبة، العنصر الأخير هو الذي يحدد المقالة. فارتسويغ مذكر محايد."},
         {type:"drag_fill",s:"Nehmen Sie die nächste {1} auf der rechten {2}.",blanks:{"1":"Ausfahrt","2":"Spur"},pool:["Ausfahrt","Spur","Einfahrt","Kurve","Linie","Zone"],hint:"خذ المخرج التالي في الحارة اليمنى. مصطلحان للطرق والسريع.",sSrc:"خذ المخرج التالي في الحارة اليمنى."},
-        {type:"mc",q:"Was bedeutet 'der Radfahrer'?",opts:["the curve / bend","the pedestrian (male)","the motor vehicle","the cyclist (male)"],ans:"the cyclist (male)",hint:"كلمة مركبة: Rad (دراجة) + Fahrer (سائق)"},
+        {type:"mc",q:"Was bedeutet 'der Radfahrer'?",opts:["المنحنى / المنعطف","المشاة (ذكر)","المركبة الآلية","راكب الدراجة"],ans:"راكب الدراجة",hint:"كلمة مركبة: Rad (دراجة) + Fahrer (سائق)"},
         {type:"fb",s:"{1} f\\u00e4hrt sehr schnell.",a:["die Radfahrerin"],opts:["die Radfahrerin","die Kurve","der Fu\\u00dfg\\u00e4nger","die Ausfahrt"],hint:"صيغة مؤنثة (-in) لراكب الدراجة",sSrc:"الدرّاج يقود بسرعة كبيرة."}
       ]},
 // ─── L5: Herr Professor Doktor Schmidt ───
@@ -143,15 +143,15 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"fb",s:"Der Name {1} Kollegen ist Schmidt.",a:["des"],opts:["des","der","dem","den"],hint:"Kollege مذكر. ما أداة الإضافة التي تصاحب الأسماء المذكرة؟",sSrc:"اسم الزميل هو شميت."},
         {type:"story",speaker:"verumius",mood:"overwhelmed",art:"de-ham-office",trg:"Herr Professor Doktor Schmidt. Soll ich das jedes Mal sagen? Jedes Mal alle Titel?",src:"الأستاذ الدكتور شميت. هل يُفترض أن أقول ذلك في كل مرة؟ في كل مرة، جميع الألقاب؟"},
         {type:"story",speaker:"colleague",mood:"reassuring",art:"de-ham-office-harbor",trg:"Beim ersten Mal: ja. Danach reicht Herr Schmidt. Die Regel ist einfach: lieber zu höflich als zu locker.",src:"في المرة الأولى: نعم. بعد ذلك، هير شميت كافٍ. القاعدة بسيطة: أفضل مبالغة في التأدب من التساهل."},
-        {type:"mc",q:"Was bedeutet 'der Passagier'?",opts:["the passenger (male)","the courtyard / yard / farm","the coast","the suburb"],ans:"the passenger (male)",hint:"كلمة مركبة: Fahr (سفر) + Gast (ضيف) = مسافر"},
+        {type:"mc",q:"Was bedeutet 'der Passagier'?",opts:["الراكب / المسافر","الفناء / المزرعة","الساحل","الضاحية"],ans:"الراكب / المسافر",hint:"كلمة مركبة: Fahr (سفر) + Gast (ضيف) = مسافر"},
         {type:"fb",s:"{1} hat ihr Gep\\u00e4ck vergessen.",a:["die Passagierin"],opts:["st\\u00e4dtisch","die Passagierin","der Transport","der Ozean"],hint:"صيغة مؤنثة (-in) للمسافر على وسيلة نقل",sSrc:"الراكبة نسيت حقيبتها."},
-        {type:"mc",q:"Was bedeutet 'der Steward'?",opts:["the transport","the suburb","the ocean","the steward (male)"],ans:"the steward (male)",hint:"شخص يخدم المسافرين على الطائرة أو القطار"},
+        {type:"mc",q:"Was bedeutet 'der Steward'?",opts:["النقل","الضاحية","المحيط","المضيف"],ans:"المضيف",hint:"شخص يخدم المسافرين على الطائرة أو القطار"},
         {type:"fb",s:"{1} erkl\\u00e4rt die Sicherheitsregeln.",a:["die Stewardess"],opts:["die Stewardess","der Tourismus","die K\\u00fcste","der Transport"],hint:"صيغة مؤنثة لمضيفة الطيران أو القطار",sSrc:"المضيفة تشرح قواعد السلامة."},
-        {type:"mc",q:"Was bedeutet 'der Laster'?",opts:["the truck","the transport","the building","the courtyard / yard / farm"],ans:"the truck",hint:"كلمة مركبة: Last (حمل) + Wagen (عربة) = مركبة نقل"},
+        {type:"mc",q:"Was bedeutet 'der Laster'?",opts:["الشاحنة","النقل","المبنى","الفناء / المزرعة"],ans:"الشاحنة",hint:"كلمة مركبة: Last (حمل) + Wagen (عربة) = مركبة نقل"},
         {type:"fb",s:"{1} der Waren dauert drei Tage.",a:["der Transport"],opts:["die Entfernung","das Geb\\u00e4ude","das Ufer","der Transport"],hint:"كلمة مذكرة (der) تعني عملية نقل البضائع",sSrc:"نقل البضائع يستغرق ثلاثة أيام."},
-        {type:"mc",q:"Was bedeutet 'transportieren'?",opts:["urban / municipal","to transport","the bank / shore (of a river)","the truck"],ans:"to transport",hint:"فعل لاتيني الأصل يعني نقل الأشياء من مكان لآخر"},
+        {type:"mc",q:"Was bedeutet 'transportieren'?",opts:["حضري / بلدي","ينقل","ضفة النهر","الشاحنة"],ans:"ينقل",hint:"فعل لاتيني الأصل يعني نقل الأشياء من مكان لآخر"},
         {type:"fb",s:"Der Nebel ist heute sehr {1}.",a:["dicht"],opts:["dicht","der Laster","der Vorort","regional"],hint:"صفة تصف شيئًا متراصًا وكثيفًا، مثل الضباب",sSrc:"الضباب كتير كثيف اليوم."},
-        {type:"mc",q:"Was bedeutet 'der Tourismus'?",opts:["to transport","urban / municipal","the tourism","the courtyard / yard / farm"],ans:"the tourism",hint:"كلمة مذكرة (der) تصف صناعة السفر والسياحة"}
+        {type:"mc",q:"Was bedeutet 'der Tourismus'?",opts:["ينقل","حضري / بلدي","السياحة","الفناء / المزرعة"],ans:"السياحة",hint:"كلمة مذكرة (der) تصف صناعة السفر والسياحة"}
       ]},
 // ─── L7: Der Genitiv und die N-Deklination ───
     {id:"deu_r15l4",title:"Der Genitiv und die N-Deklination",icon:"📝",xp:15,board:true,steps:[
@@ -211,11 +211,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
     {trg:"des Kollegen",src:"الزميل (مضاف إليه)"}
 ]},
         {type:"mc",q:"Auf der Autobahn gibt es einen langen ...",opts:["Umtausch","Stau","Salon","Halt"],ans:"Stau",hint:"ما الذي يتشكل عندما يكون هناك عدد كبير جداً من السيارات على الطريق في آنٍ واحد؟"},
-        {type:"mc",q:"Was bedeutet 'die Tankstelle'?",opts:["the object / item","the right of way","the breakdown","the gas station"],ans:"the gas station",hint:"كلمة مركبة: Tank (خزان وقود) + Stelle (مكان)"},
+        {type:"mc",q:"Was bedeutet 'die Tankstelle'?",opts:["الشيء / الغرض","حق المرور","العطل","محطة الوقود"],ans:"محطة الوقود",hint:"كلمة مركبة: Tank (خزان وقود) + Stelle (مكان)"},
         {type:"fb",s:"Wie sagt man 'the breakdown' auf Deutsch? {1}",a:["die Panne"],opts:["stoppen","die Rundfahrt","der Halt","die Panne"],hint:"كلمة مؤنثة (die) تصف عطلًا مفاجئًا في السيارة",sSrc:"كيف تقول 'the breakdown' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'das Tempo'?",opts:["the gas station","the speed / pace","the salon","the detour"],ans:"the speed / pace",hint:"كلمة محايدة (das) تصف سرعة الحركة"},
+        {type:"mc",q:"Was bedeutet 'das Tempo'?",opts:["محطة الوقود","السرعة / الإيقاع","الصالون","الانعطاف / الالتفاف"],ans:"السرعة / الإيقاع",hint:"كلمة محايدة (das) تصف سرعة الحركة"},
         {type:"fb",s:"Wir m\\u00fcssen {1}!",a:["eilen"],opts:["eilen","das Tempo","der Stau","die Panne"],hint:"فعل يعني الإسراع والعجلة للحاق بشيء",sSrc:"لازم نستعجل!"},
-        {type:"mc",q:"Was bedeutet 'stoppen'?",opts:["to stop","the breakdown","the salon","the taste / flavor"],ans:"to stop",hint:"فعل يعني التوقف عن الحركة تمامًا"}
+        {type:"mc",q:"Was bedeutet 'stoppen'?",opts:["يتوقف","العطل","الصالون","المذاق / النكهة"],ans:"يتوقف",hint:"فعل يعني التوقف عن الحركة تمامًا"}
       ]},
 // ─── L9: Hamburger Küche ───
     {id:"deu_r15l5",title:"Hamburger Küche",icon:"🍜",xp:15,board:true,steps:[
@@ -251,7 +251,7 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"teach",trg:"lecker",src:"لذيذ",pos:"adj",gender:null,note:"أعلى مديح للطعام في الألمانية اليومية. من 'lecken' (اللعق).",example:"A: Wie schmeckt der Fisch?\nB: Sehr lecker!\nA: Und die Soße?\nB: Auch lecker! Alles ist lecker hier.",exampleSrc:"أ: كيف طعم السمك؟\nب: لذيذ جداً!\nأ: والصلصة؟\nب: لذيذة أيضاً! كل شيء لذيذ هنا.",funFact:"'Das ist lecker!' هي المديح الألماني الشامل للطعام. شيء لذيذ لدرجة أنك تريد أن تلعق الطبق. من 'lecken' (لعق)."},
         {type:"teach",trg:"salzig",src:"مالح",pos:"adj",gender:null,note:"من 'Salz' (ملح). اللاحقة -ig تحوّل الأسماء إلى صفات.",example:"A: Die Suppe ist zu salzig.\nB: Wirklich? Ich finde sie gut.\nA: Hamburg und Salz gehören zusammen.\nB: Stimmt, wegen des Meeres!",exampleSrc:"أ: الشوربة مالحة جداً.\nب: حقاً؟ أعتقد أنها جيدة.\nأ: هامبورغ والملح يتلاءمان.\nب: صحيح، بسبب البحر!",funFact:"قرب هامبورغ من البحر يعني هواءً مالحاً وطعاماً مالحاً. اللاحقة -ig تحوّل الأسماء إلى صفات: Salz/salzig، Hunger/hungrig، Durst/durstig."},
         {type:"teach",trg:"mild",src:"خفيف / معتدل",pos:"adj",gender:null,note:"مثل الإنجليزية. من أسهل الصفات الألمانية للناطقين بالإنجليزية.",example:"A: Der Käse ist mild.\nB: Haben Sie auch würzigen Käse?\nA: Ja, den Tilsiter.\nB: Den nehme ich!",exampleSrc:"أ: الجبن خفيف المذاق.\nب: هل لديكم جبن حاد أيضاً؟\nأ: نعم، التيلزيتر.\nب: سآخذ هذا!",funFact:"'Milder Käse' (جبن خفيف)، 'mildes Wetter' (طقس معتدل)، 'milde Strafe' (عقوبة مخففة). من أسهل الكلمات الألمانية للناطقين بالإنجليزية."},
-        {type:"mc",q:"'Der Geschmack DES Bratens ist ausgezeichnet.' What case is 'des Bratens'?",opts:["Genitive: of the roast","Dative: to the roast","Accusative: the roast","Nominative: the roast"],ans:"Genitive: of the roast",hint:"يستخدم des Bratens: des + الاسم + -s. أي حالة تعبر عن الملكية أو 'من المشوي'؟"},
+        {type:"mc",q:"'Der Geschmack DES Bratens ist ausgezeichnet.' What case is 'des Bratens'?",opts:["حالة الإضافة: المشوي","حالة الجر: للمشوي","حالة النصب: المشوي","حالة الرفع: المشوي"],ans:"حالة الإضافة: المشوي",hint:"يستخدم des Bratens: des + الاسم + -s. أي حالة تعبر عن الملكية أو 'من المشوي'؟"},
         {type:"fb",s:"Die Soße {1} Vorspeise war lecker.",a:["der"],opts:["der","die","des","dem"],hint:"Vorspeise مؤنث. الإضافة للمؤنث تحول die إلى ماذا؟",sSrc:"كانت صلصة المقبلات لذيذة."},
         {type:"mc",q:"In Hamburg, Karotten are also called ...",opts:["Gewürze","Kartoffeln","Rüben","Möhren"],ans:"Möhren",hint:"كلمة لهجة شمال ألمانيا للجزر، مذكورة في البطاقة التعليمية."},
         {type:"drag_fill",s:"Während {1} {2} bestellen wir die Nachspeise.",blanks:{"1":"des","2":"Essens"},pool:["des","der","dem","Essens","Essen","Esse"],hint:"Während تستوجب حالة الإضافة. Essen محايد: des + -(e)ns.",sSrc:"نطلب الحلوى أثناء الوجبة."},
@@ -263,9 +263,9 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
     {trg:"Gewürz",src:"بهار"}
 ]},
         {type:"story",speaker:"verumius",mood:"satisfied",art:"de-ham-restaurant-harbor",trg:"Das Fischbrötchen war lecker. Und die Kollegin sagt Möhre statt Karotte. Jede Region hat ihre eigene Sprache.",src:"كان ساندويتش السمك لذيذاً. والزميل يقول موهره بدلاً من كاروته. لكل منطقة لغتها الخاصة."},
-        {type:"mc",q:"Was bedeutet 'die Limonade'?",opts:["the carrot","the dining car","the dish / food","the lemonade / soft drink"],ans:"the lemonade / soft drink",hint:"كلمة مؤنثة (die) تصف مشروبًا غازيًا حلوًا"},
+        {type:"mc",q:"Was bedeutet 'die Limonade'?",opts:["الجزرة","عربة الطعام","الطبق / الطعام","الليمونادة / المشروب الغازي"],ans:"الليمونادة / المشروب الغازي",hint:"كلمة مؤنثة (die) تصف مشروبًا غازيًا حلوًا"},
         {type:"fb",s:"Wie sagt man 'the pub / bar' auf Deutsch? {1}",a:["die Kneipe"],opts:["die Kneipe","die Nachspeise","der Honig","das H\\u00fchnchen"],hint:"كلمة مؤنثة (die) تصف بارًا صغيرًا شعبيًا",sSrc:"كيف تقول 'the pub / bar' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'salzig'?",opts:["salty","the dessert (French loan)","the dessert","the appetizer / starter"],ans:"salty",hint:"صفة تصف طعم الملح في الأكل"},
+        {type:"mc",q:"Was bedeutet 'salzig'?",opts:["مالح","الحلوى (من الفرنسية)","الحلوى","المقبّلات"],ans:"مالح",hint:"صفة تصف طعم الملح في الأكل"},
         {type:"fb",s:"Der K\\u00e4se ist {1}.",a:["mild"],opts:["das Men\\u00fc","die Vorspeise","mild","die Karotte"],hint:"صفة تصف طعمًا لطيفًا غير حاد، عكس scharf",sSrc:"الجبنة خفيفة."}
       ]},
 // ─── L11: Elbphilharmonie ───
@@ -299,11 +299,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
     {trg:"das Gasthaus",src:"النُزُل"}
 ]},
         {type:"mc",q:"Was ist der Unterschied zwischen 'Gasthaus' und 'Gaststätte'?",opts:[
-    "Gasthaus hat auch Zimmer, Gaststätte nur Essen",
+    "Gasthaus فيه غرف أيضاً، Gaststätte للأكل فقط",
     "Es gibt keinen Unterschied",
     "Gasthaus ist größer",
     "Gaststätte ist teurer"
-],ans:"Gasthaus hat auch Zimmer, Gaststätte nur Essen",hint:"أحدهما يوفر الإقامة والطعام، والآخر مطعم في المقام الأول."}
+],ans:"Gasthaus فيه غرف أيضاً، Gaststätte للأكل فقط",hint:"أحدهما يوفر الإقامة والطعام، والآخر مطعم في المقام الأول."}
       ]},
 // ─── L12: Wetter und Orientierung ───
     {id:"deu_r15l7",title:"Wetter und Orientierung",icon:"🌡️",xp:15,board:true,steps:[
@@ -319,11 +319,11 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"teach",trg:"sich befinden",src:"يقع، يتوضع",pos:"verb",gender:null,note:"فعل انعكاسي. بديل رسمي لـ sein للدلالة على الموقع.\nDas Hotel befindet sich am Hafen.",example:"A: Wo befindet sich die Elbphilharmonie?\nB: Sie befindet sich in der HafenCity.\nA: Und der Hauptbahnhof?\nB: Er befindet sich im Zentrum.",exampleSrc:"أ: أين تقع إلبفيلهارموني؟\nب: تقع في هافنستادت.\nأ: والمحطة الرئيسية؟\nب: تقع في وسط المدينة.",funFact:"أكثر رسمية من sein للتعبير عن المواقع. 'Das Museum befindet sich in der Altstadt' يبدو أكثر رسمية. ضروري لإعطاء الاتجاهات وقراءة الخرائط."},
         {type:"tip",title:"Genitive prepositions: während, wegen, trotz, statt, innerhalb",text:"تأخذ هذه الحروف الخمسة الجرَّ الرابعَ دائماً. ترفع مستوى ألمانيتك من اليومي إلى الاحترافي.\n\n- während (خلال): Während des Meetings (خلال الاجتماع)\n- wegen (بسبب): Wegen des Regens (بسبب المطر)\n- trotz (رغم): Trotz der Kälte (رغم البرد)\n- statt/anstatt (بدلاً من): Statt des Taxis (بدلاً من سيارة الأجرة)\n- innerhalb (خلال/داخل): Innerhalb eines Tages (في غضون يوم واحد)\n\nتعتمد أداة الجر الرابع على الجنس:\n- الأسماء المذكرة والمحايدة تستخدم des، ويأخذ الاسم لاحقة -(e)s.\n- الأسماء المؤنثة والجمع تستخدم der، دون تغيير الاسم.\n\nفي الكلام غير الرسمي، يستخدم الألمان أحياناً الجر الثالث بعد wegen/trotz ('wegen dem Regen')، لكن الكتابة والألمانية المهنية تستلزم الجر الرابع.",deepDive:{title:"More genitive prepositions",text:"بعيداً عن الحروف الخمسة الرئيسية، ثمة حروف جر أخرى تأخذ الجر الرابع:\n\naußerhalb = خارج: Außerhalb der Stadt (خارج المدينة)\noberhalb = فوق: Oberhalb des Hafens (فوق الميناء)\nunterhalb = تحت: Unterhalb der Brücke (تحت الجسر)\naufgrund = بناءً على: Aufgrund des Wetters (بسبب الطقس)\nanhand = بواسطة: Anhand der Daten (استناداً إلى البيانات)\n\nالحروف الخمسة الرئيسية (während، wegen، trotz، statt، innerhalb) هي الأكثر شيوعاً والأهم في الامتحانات."}},
         {type:"mc",q:"'Trotz DES Regens war der Tag gut.' Why 'des Regens'?",opts:[
-    "trotz takes genitive; Regen is masculine",
-    "trotz takes dative; Regen is neuter",
-    "des is always used with weather",
+    "trotz تأخذ حالة الإضافة؛ Regen مذكر",
+    "trotz تأخذ حالة الجر؛ Regen محايد",
+    "des تُستخدم دائماً مع الطقس",
     "trotz takes accusative"
-],ans:"trotz takes genitive; Regen is masculine",hint:"Trotz تستخدم دائماً نفس حالة الإعراب كـ wegen وwährend. Regen مذكر، لذا الأداة هي des + -(e)s."},
+],ans:"trotz تأخذ حالة الإضافة؛ Regen مذكر",hint:"Trotz تستخدم دائماً نفس حالة الإعراب كـ wegen وwährend. Regen مذكر، لذا الأداة هي des + -(e)s."},
         {type:"fb",s:"Während {1} Meetings sprach Verumius Deutsch.",a:["des"],opts:["des","dem","der","das"],hint:"Während تستوجب حالة الإضافة. Meeting محايد. ما أداة الإضافة للمحايد؟",sSrc:"تحدث فيروميوس الألمانية خلال الاجتماع."},
         {type:"mc",q:"Verumius nahm die U-Bahn ___ des Taxis.",opts:["trotz","innerhalb","statt","während"],ans:"statt",hint:"اختار مترو الأنفاق بدلاً من سيارة الأجرة. ما حرف الجر الذي يعني 'بدلاً من'؟"},
         {type:"drag_fill",s:"{1} {2} Tages hat Verumius viel erlebt.",blanks:{"1":"Innerhalb","2":"eines"},pool:["Innerhalb","Während","eines","des","einem","ein"],hint:"في يوم واحد. حرف جر للإضافة + أداة الإضافة النكرة للمذكر والمحايد.",sSrc:"في يوم واحد عاش فيروميوس الكثير."},
@@ -370,13 +370,13 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"teach",trg:"tanken",src:"يتزود بالوقود",pos:"verb",gender:null,note:"من 'Tank'. 'Volltanken' = ملء الخزان بالكامل.",example:"A: Wir müssen tanken.\nB: Die nächste Tankstelle ist in fünf Kilometern.\nA: Reicht das Benzin?\nB: Gerade so.",exampleSrc:"أ: نحتاج التزود بالوقود.\nب: محطة الوقود التالية على بُعد خمسة كيلومترات.\nأ: هل البنزين كافٍ؟\nب: بالكاد.",funFact:"'Volltanken' = ملء الخزان. كما يُستخدم عامياً: 'Energie tanken' = إعادة شحن طاقتك. 'Sonne tanken' = الاستمتاع بأشعة الشمس. فعل متعدد الاستخدامات."},
         {type:"teach",trg:"überfahren",src:"يدهس / يتجاوز",pos:"verb",gender:null,note:"بادئة غير منفصلة. 'Eine rote Ampel überfahren' = تخطي إشارة حمراء.",example:"A: Er hat die rote Ampel überfahren!\nB: Das ist sehr gefährlich.\nA: Und verboten!\nB: Ja, hohe Strafe.",exampleSrc:"أ: تجاوز إشارة الوقوف الحمراء!\nب: هذا خطير جداً.\nأ: وممنوع!\nب: نعم، غرامة ثقيلة.",funFact:"بادئة غير منفصلة: 'Er hat die Ampel überfahren' (بدون ge-). 'Eine rote Ampel überfahren' = تخطي الإشارة الحمراء. مخالفة خطيرة بغرامات ثقيلة."},
         {type:"teach",trg:"überholen",src:"يتجاوز / يتخطى",pos:"verb",gender:null,note:"بادئة غير منفصلة. 'Rechts überholen ist verboten' على الأوتوبان.",example:"A: Darf ich hier überholen?\nB: Nein, Überholverbot!\nA: Und auf der Autobahn?\nB: Nur links überholen!",exampleSrc:"أ: هل يمكنني التجاوز هنا؟\nب: لا، منطقة حظر التجاوز!\nأ: وعلى الأوتوبان؟\nب: التجاوز من اليسار فقط!",funFact:"'Rechts überholen ist verboten' (التجاوز من اليمين ممنوع) قاعدة أساسية في الأوتوبان. يواجه المخالفون غرامات ثقيلة."},
-        {type:"mc",q:"'Die Atmosphäre DES Hafens ist besonders.' Which case?",opts:["Accusative masculine","Genitive masculine","Nominative neuter","Dative masculine"],ans:"Genitive masculine",hint:"des + اسم ينتهي بـ -s: الإشارة الكلاسيكية لهذه الحالة ومجموعة الجنس."},
+        {type:"mc",q:"'Die Atmosphäre DES Hafens ist besonders.' Which case?",opts:["نصب مذكر","إضافة مذكر","رفع محايد","جر مذكر"],ans:"إضافة مذكر",hint:"des + اسم ينتهي بـ -s: الإشارة الكلاسيكية لهذه الحالة ومجموعة الجنس."},
         {type:"mc",q:"'Wegen DER Kälte blieb Verumius im Kaffeehaus.' Why 'der'?",opts:[
-    "Der is nominative masculine here",
-    "Wegen takes genitive; Kälte is feminine",
+    "der هنا مرفوع مذكر",
+    "wegen تأخذ حالة الإضافة؛ Kälte مؤنثة",
     "Wegen takes dative; Kälte is feminine",
     "Kälte is always 'der'"
-],ans:"Wegen takes genitive; Kälte is feminine",hint:"Kälte مؤنث. إلى ما تتحول die في الحالة التي يستوجبها wegen؟"},
+],ans:"wegen تأخذ حالة الإضافة؛ Kälte مؤنثة",hint:"Kälte مؤنث. إلى ما تتحول die في الحالة التي يستوجبها wegen؟"},
         {type:"fb",s:"Der Titel des {1} war 'Professor Doktor.'",a:["Herrn"],opts:["Herrn","Herr","Herrs","Herren"],hint:"Herr تصريف نوني. في حالة الإضافة تأخذ -n بعد 'des'.",sSrc:"لقب السيد كان 'أستاذ دكتور'."},
         {type:"mc",q:"'___ des schlechten Wetters ging Verumius zur Elbphilharmonie.'",opts:["Während","Wegen","Statt","Trotz"],ans:"Trotz",hint:"ذهب على الرغم من سوء الأحوال الجوية. ما حرف الجر الذي يعني 'على الرغم من'؟"},
         {type:"drag_fill",s:"{1} {2} Reise lernte Verumius viel über Hamburg.",blanks:{"1":"Während","2":"der"},pool:["Während","Trotz","der","des","dem","die"],hint:"خلال الرحلة. Reise مؤنث. ما أداة الإضافة للمؤنث؟",sSrc:"تعلّم فيروميوس الكثير عن هامبورغ خلال الرحلة."},
@@ -391,9 +391,9 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"mc",q:"Verumius muss tanken. Where does he go?",opts:["Zur Tankstelle","Zum Hallenbad","Zum Fundbüro","Zur Gaststätte"],ans:"Zur Tankstelle",hint:"Tanken تعني التزود بالوقود. أين تحصل على الوقود؟"},
         {type:"drag_fill",s:"{1} des Meetings stellte man Verumius dem {2} vor.",blanks:{"1":"Während","2":"Kollegen"},pool:["Während","Trotz","Kollegen","Kollege","Kolleg","Herrn"],hint:"الفراغ الأول: ما حرف الجر الذي يعني 'خلال'؟ الفراغ الثاني: اسم تصريف نوني في حالة الجر بعد 'dem'.",sSrc:"قُدّم فيروميوس إلى الزميل خلال الاجتماع."},
         {type:"story",speaker:"verumius",mood:"proud",art:"de-ham-hotel-checkout",trg:"Trotz der Nervosität habe ich alles richtig gemacht. Den Genitiv, die Titel, sogar das Fischbrötchen.",src:"على الرغم من التوتر فعلت كل شيء صحيحاً. الإضافة، والألقاب، وحتى ساندويتش السمك."},
-        {type:"mc",q:"Was bedeutet 'landen'?",opts:["to land","to honk","the sidewalk","the landing"],ans:"to land",hint:"فعل يصف هبوط الطائرة على الأرض"},
+        {type:"mc",q:"Was bedeutet 'landen'?",opts:["يهبط","يزمّر","الرصيف","الهبوط"],ans:"يهبط",hint:"فعل يصف هبوط الطائرة على الأرض"},
         {type:"fb",s:"Wie sagt man 'to depart / set off' auf Deutsch? {1}",a:["losfahren"],opts:["die Semmel","losfahren","das Benzin","landen"],hint:"فعل مركب: los- + fahren = يبدأ الرحلة بالسيارة",sSrc:"كيف تقول 'to depart / set off' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'stehenbleiben'?",opts:["the muesli","the sidewalk","to stop / stand still","the boat"],ans:"to stop / stand still",hint:"فعل يعني الوقوف ساكنًا بلا حركة تمامًا"},
+        {type:"mc",q:"Was bedeutet 'stehenbleiben'?",opts:["الموسلي","الرصيف","يقف / يتوقف تماماً","القارب"],ans:"يقف / يتوقف تماماً",hint:"فعل يعني الوقوف ساكنًا بلا حركة تمامًا"},
         {type:"fb",s:"Wir müssen {1}. Die Tankstelle ist in fünf Kilometern.",a:"tanken",opts:["tanken","hupen","landen","bremsen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"لازم نتعبّى بنزين. محطة البنزين بعد خمس كيلومترات."},
         {type:"fb",s:"Darf ich hier ___? Nein, Überholverbot!",a:"überholen",opts:["überholen","überfahren","überqueren","umdrehen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"فيني أتجاوز هون؟ لا، ممنوع التجاوز!"}
       ]},
@@ -409,7 +409,7 @@ const UNIT_15_AR = {n:15,lang:"de",srcLang:"ar",track:"v2",title:"Reise nach Ham
         {type:"story",speaker:"verumius",mood:"reflective",art:"de-ham-ice-night",trg:"Trotz des Regens, trotz der Nervosität war es ein guter Tag. Der Name des Professors war schwer zu merken, aber sein Lächeln war echt.",src:"على الرغم من المطر وعلى الرغم من التوتر، كان يوماً جيداً. كان من الصعب تذكر اسم الأستاذ، لكن ابتسامته كانت صادقة."},
         {type:"story",speaker:"verumius",mood:"thoughtful",art:"de-ham-ice-night",trg:"Moin. Ein Wort, vier Buchstaben, und plötzlich fühlt sich eine fremde Stadt wie ein Zuhause an.",src:"موين. كلمة واحدة وأربعة أحرف، وفجأة تشعر أن مدينة غريبة باتت كالوطن."},
         {type:"story",speaker:"narrator",mood:"warm",art:"de-ber-hauptbahnhof-night",trg:"Berlin Hauptbahnhof. Auf dem Bahnsteig: ein bekanntes Gesicht. Lukas mit einem Paket unter dem Arm.",src:"محطة برلين المركزية. على الرصيف: وجه مألوف. لوكاس وحزمة تحت ذراعه."},
-        {type:"story",speaker:"lukas",mood:"friendly",art:"de-ber-hauptbahnhof-night",trg:"Hey! Wie war Hamburg?",src:"مرحباً! كيف كانت هامبورغ؟"},
+        {type:"story",speaker:"lukas",mood:"ودود",art:"de-ber-hauptbahnhof-night",trg:"Hey! Wie war Hamburg?",src:"مرحباً! كيف كانت هامبورغ؟"},
         {type:"story",speaker:"verumius",mood:"amused",art:"de-ber-hauptbahnhof-night",trg:"Regnerisch.",src:"ممطرة."},
         {type:"story",speaker:"lukas",mood:"laughing",art:"de-ber-hauptbahnhof-night",trg:"Hamburg halt. Komm, wir nehmen die S-Bahn zusammen.",src:"هامبورغ بالطبع. تعال، لنأخذ قطار S-Bahn معاً."},
         {type:"story",speaker:"verumius",mood:"grateful",art:"de-ber-sbahn-night",trg:"Lukas, wusstest du, dass man in Hamburg immer alle Titel sagen muss? Herr Professor Doktor.",src:"لوكاس، هل تعلم أنه في هامبورغ يجب دائماً ذكر جميع الألقاب؟ هير بروفيسور دوكتور."},

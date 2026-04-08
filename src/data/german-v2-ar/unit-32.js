@@ -86,9 +86,9 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
         {type:"fb",s:"Die Kindheit {1} den Menschen für sein ganzes Leben.",a:["prägt"],opts:["pflegt","anerkennt","prägt","reflektiert"],hint:"يُشكّل ويصوغ. تطبع مرحلة الطفولة شيئاً في الإنسان يبقى.",sSrc:"تُشكِّل الطفولة الإنسان طوال حياته."},
         {type:"mc",q:"In Lebensqualität verbindet das -s- zwischen Leben und Qualität die Teile. Dieses -s- ist ein...",opts:["Pluralzeichen am Wortende","Fugenelement (Verbindungselement)","Genitivendung","Schreibfehler in der Komposita-Form"],ans:"Fugenelement (Verbindungselement)",hint:"الـ -s- الصغيرة التي تصل بين جزأي الاسم المركب. جسر صوتي."},
         {type:"story",speaker:"verumius",mood:"wondering",art:"de-ber-museum-exit",trg:"Eigenständig denken. Werte hinterfragen. Offen bleiben. Leichter gesagt als getan, wenn man nicht einmal weiß, woher man kommt.",src:"فكّر باستقلالية. اسأل عن القيم. ابقَ منفتحاً. أسهل قولاً من فعلاً حين لا تعرف حتى من أين أتيت."},
-        {type:"mc",q:"Was bedeutet 'respektieren'?",opts:["philosophy","value system, moral conception","يحترم","متنوع، متعدد"],ans:"يحترم",hint:"فعل بلاحقة '-ieren' مستعار من اللاتينية أو الفرنسية. الجذر دولي."},
+        {type:"mc",q:"Was bedeutet 'respektieren'?",opts:["فلسفة","منظومة قِيَم، تصوّر أخلاقي","يحترم","متنوع، متعدد"],ans:"يحترم",hint:"فعل بلاحقة '-ieren' مستعار من اللاتينية أو الفرنسية. الجذر دولي."},
         {type:"fb",s:"{1} bedeutet aktiv bewahren.",a:["pflegen"],opts:["pflegen","die Philosophie","die \\u00dcberzeugung","die Vorstellung"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"«يصون» تعني أن تحافظ بشكل فعّال."},
-        {type:"mc",q:"Was bedeutet 'anerkennen'?",opts:["ethics","self-image","الكرامة الإنسانية","يعترف رسمياً"],ans:"يعترف رسمياً",hint:"بادئة 'an-' تدل على الاقتراب أو البدء. ما الجذر الأصلي؟"}
+        {type:"mc",q:"Was bedeutet 'anerkennen'?",opts:["الأخلاقيات","الصورة الذاتية","الكرامة الإنسانية","يعترف رسمياً"],ans:"يعترف رسمياً",hint:"بادئة 'an-' تدل على الاقتراب أو البدء. ما الجذر الأصلي؟"}
       ]},
 // ─── L5: Wer seine Herkunft kennt ───
     {id:"deu_r32l3",title:"Wer seine Herkunft kennt",icon:"📚",xp:15,board:true,steps:[
@@ -136,9 +136,9 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
 ],note:"wer/wen/wem تتبع قواعد حالات الإعراب. بعد alles/nichts/etwas/das دائمًا 'was' وليس 'das.'"},
         {type:"mc",q:"Heinrich sagt: 'Wer richtig spricht, der wird auch richtig verstanden.' Was bedeutet 'wer' hier?",opts:["wer (eine bestimmte Person)","wo (Ortsangabe)","wann (Zeitangabe)","wer auch immer, jeder der"],ans:"wer auch immer, jeder der",hint:"'Wer' بدون كلمة مرجعية تعني 'كل من'. جملة ذات طابع عالمي."},
         {type:"fb",s:"{1} seine Herkunft kennt, der versteht sich selbst besser.",a:["Wer"],opts:["Der","Wer","Was","Welcher"],hint:"ضمير وصفي للجمل ذات الطابع العالمي، لا يحيل إلى شخص محدد. يفتح جملة وصفية حرة يتبعها 'der' في الجملة الرئيسية.",sSrc:"من يعرف تراثه يفهم نفسه بشكل أفضل."},
-        {type:"mc",q:"Was bedeutet 'sich auseinandersetzen mit'?",opts:["يتعامل نقدياً مع، يواجه","ethnic","migration","البيئة الاجتماعية"],ans:"يتعامل نقدياً مع، يواجه",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Was bedeutet 'sich auseinandersetzen mit'?",opts:["يتعامل نقدياً مع، يواجه","عِرقي","الهجرة","البيئة الاجتماعية"],ans:"يتعامل نقدياً مع، يواجه",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Wie sagt man 'to identify with' auf Deutsch? {1}",a:["sich identifizieren mit"],opts:["integrieren","sich identifizieren mit","die Integration","kosmopolitisch"],hint:"فكّر في الكلمة الألمانية المناسبة. راجع الخيارات وتذكّر ما تعلمته.",sSrc:"كيف تقول 'to identify with' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'sich anpassen'?",opts:["integration","أسلوب الحياة","يتكيّف، يتأقلم","يندمج"],ans:"يتكيّف، يتأقلم",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Was bedeutet 'sich anpassen'?",opts:["الاندماج","أسلوب الحياة","يتكيّف، يتأقلم","يندمج"],ans:"يتكيّف، يتأقلم",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Kannst du zwischen den Kulturen {1}?",a:["vermitteln"],opts:["ethnisch","sich auseinandersetzen mit","die Migration","vermitteln"],hint:"بادئة 'ver-' تعدّل معنى الجذر. ما الفعل البسيط الذي تعرفه؟",sSrc:"هل يمكنك التوسط بين الثقافات؟"}
       ]},
 // ─── L7: Dieser und jener ───
@@ -328,11 +328,11 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
     {trg:"Umbruch",src:"اضطراب"}
 ]},
         {type:"fb",s:"Ein {1} Leben ist das Gegenteil von Selbstbestimmung.",a:["fremdbestimmtes"],opts:["rassistisches","stereotypes","zeitgemaesses","fremdbestimmtes"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"الحياة المُحدَّدة من الخارج نقيض تقرير المصير."},
-        {type:"mc",q:"Was bedeutet 'die Gesinnung'?",opts:["الاستيعاب","الإرث الثقافي","التوجه السياسي","diversity (formal/academic)"],ans:"التوجه السياسي",hint:"اللاحقة '-ung' تحوّل الفعل إلى اسم مؤنث. ما الفعل الأصلي؟"},
+        {type:"mc",q:"Was bedeutet 'die Gesinnung'?",opts:["الاستيعاب","الإرث الثقافي","التوجه السياسي","التنوّع (رسمي/أكاديمي)"],ans:"التوجه السياسي",hint:"اللاحقة '-ung' تحوّل الفعل إلى اسم مؤنث. ما الفعل الأصلي؟"},
         {type:"fb",s:"Wer bestimmt {1}?",a:["die Rollenverteilung"],opts:["die Diversitaet","stereotyp","die Leitkultur","die Rollenverteilung"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"من يحدد توزيع الأدوار؟"},
-        {type:"mc",q:"Was bedeutet 'die Moral'?",opts:["to suppress, to repress","يتحمّل، يتسامح","الإرث الثقافي","الأخلاق"],ans:"الأخلاق",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."},
+        {type:"mc",q:"Was bedeutet 'die Moral'?",opts:["يقمع، يكبت","يتحمّل، يتسامح","الإرث الثقافي","الأخلاق"],ans:"الأخلاق",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."},
         {type:"fb",s:"Soll man alles {1}?",a:["tolerieren"],opts:["tolerieren","die Subkultur","der Minderheitenschutz","fremdbestimmt"],hint:"فعل بلاحقة '-ieren' مشترك مع لغات أوروبية. السياق يحدد المعنى.",sSrc:"هل يجب تحمّل كل شيء؟"},
-        {type:"mc",q:"Was bedeutet 'verdraengen'?",opts:["to suppress, to repress","subculture","رؤية مستقبلية","توزيع الأدوار"],ans:"to suppress, to repress",hint:"بادئة 'ver-' تغيّر معنى الفعل الأساسي. فكّر في الجذر."}
+        {type:"mc",q:"Was bedeutet 'verdraengen'?",opts:["يقمع، يكبت","ثقافة فرعية","رؤية مستقبلية","توزيع الأدوار"],ans:"يقمع، يكبت",hint:"بادئة 'ver-' تغيّر معنى الفعل الأساسي. فكّر في الجذر."}
       ]},
 // ─── L13: Die grosse Debatte ───
     {id:"deu_r32l8",title:"Die grosse Debatte",icon:"🏛️",xp:15,board:true,steps:[
@@ -389,7 +389,7 @@ const UNIT_32_AR = {n:32,lang:"de",srcLang:"ar",track:"v2",title:"Kultur und Ide
         {type:"mc",q:"'Das führt zwangslaeufig zu Konflikten.' Was bedeutet 'zwangslaeufig'?",opts:["möglicherweise","selten","unvermeidlich, unausweichlich","niemals"],ans:"unvermeidlich, unausweichlich",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'jeglicher'?",opts:["الأصل، النسب","أي ... كان","كل ... على الإطلاق (أدبي)","أحدهم، شخص ما"],ans:"أي ... كان",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"{1} trägt Verantwortung.",a:["ein jeder"],opts:["notwendigerweise","jeglicher","jedweder","ein jeder"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"كل فرد يتحمّل المسؤولية."},
-        {type:"mc",q:"Was bedeutet 'notwendigerweise'?",opts:["necessarily","كل ... على الإطلاق (أدبي)","individualism","شيء ما"],ans:"necessarily",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Was bedeutet 'notwendigerweise'?",opts:["بالضرورة","كل ... على الإطلاق (أدبي)","الفردانية","شيء ما"],ans:"بالضرورة",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Man muss damit {1}.",a:["zurechtkommen"],opts:["jeglicher","niemand","zurechtkommen","die Abstammung"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"يجب على المرء أن يتدبّر أمره."},
         {type:"mc",q:"Was bedeutet 'wertschätzen'?",opts:["شيء ما","قالب نمطي","يُقدّر","الأصل، النسب"],ans:"يُقدّر",hint:"فعل ألماني. فكّر في الحدث أو الفعل الذي يصفه السياق."}
       ]},

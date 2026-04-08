@@ -43,9 +43,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
     "Weil es die größte Stadt in Deutschland ist"
 ],ans:"Wegen der friedlichen Revolution 1989",hint:"غيّرت المظاهرات السلمية التي انطلقت من لايبزيغ عام 1989 مسار التاريخ الألماني."},
         {type:"fb",s:"Verumius hat viel {1}. Er hat die Nikolaikirche besucht.",a:["erlebt"],opts:["erlebt","erfahren","entstanden","entwickelt"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"عاش فيروميوس كثيراً. زار كنيسة نيكولاي."},
-        {type:"mc",q:"Was bedeutet 'entstehen'?",opts:["to arise, to come into being","to experience","the border, the boundary","the wall"],ans:"to arise, to come into being",hint:"البادئة 'ent-' تعني إزالة أو ابتعاد. الجذر 'stehen' يكشف المعنى."},
+        {type:"mc",q:"Was bedeutet 'entstehen'?",opts:["ينشأ، يظهر","يختبر، يعايش","الحدود","الجدار"],ans:"ينشأ، يظهر",hint:"البادئة 'ent-' تعني إزالة أو ابتعاد. الجذر 'stehen' يكشف المعنى."},
         {type:"fb",s:"M\\u00f6chtest du mehr {1}?",a:["erleben"],opts:["erleben","national","die Mauer","die Grenze"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"هل تريد أن تعيش المزيد؟"},
-        {type:"mc",q:"Was bedeutet 'vor allem'?",opts:["the memory, the remembrance","to experience","above all, especially","political"],ans:"above all, especially",hint:"البادئة 'vor-' تعني أمام أو مسبقاً. ما الجذر الأساسي؟"}
+        {type:"mc",q:"Was bedeutet 'vor allem'?",opts:["الذاكرة، الذكرى","يختبر، يعايش","قبل كل شيء، خاصةً","سياسي"],ans:"قبل كل شيء، خاصةً",hint:"البادئة 'vor-' تعني أمام أو مسبقاً. ما الجذر الأساسي؟"}
       ]},
 // ─── L3: Stimmen der Geschichte ───
     {id:"deu_r21l2",title:"Stimmen der Geschichte",icon:"🗣️",xp:15,board:true,steps:[
@@ -76,18 +76,18 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"teach",trg:"dienen",src:"أن يخدم",pos:"verb",gender:null,note:"من البروتو-جرمانية thewjan. dem Frieden dienen = خدمة السلام.\nder Dienst = الخدمة.",example:"A: Wem diente die Nikolaikirche?\nB: Dem Frieden. Sie war ein Ort des Gebets.\nA: Und heute?\nB: Sie dient der Erinnerung. Sie ist ein Denkmal des Friedens.",exampleSrc:"أ: ما الذي خدمت كنيسة نيكولاي؟\nب: السلام. كانت مكاناً للصلاة.\nأ: وفي يومنا هذا؟\nب: تخدم الذاكرة. إنها نصب للسلام.",funFact:"Beamter im öffentlichen Dienst (موظف مدني) لقب رسمي. في لايبزيغ، شعر كثيرون بأنهم خدموا نظاماً لم يُعاملهم بالمثل. dienen تنطوي على الواجب والتفاني."},
         {type:"story",speaker:"mia",mood:"reflective",art:"de-lei-walk",trg:"Meine Großeltern haben in der DDR gelebt. Sie haben einander nicht sofort vertraut. Das war normal. Man wusste nie, wer für die Stasi arbeitete.",src:"عاش أجدادي في جمهورية ألمانيا الديمقراطية. لم يثق أحدهم بالآخر بسهولة. كان ذلك أمراً طبيعياً. لم تعرف أبداً من يعمل للشتازي."},
         {type:"story",speaker:"verumius",mood:"quiet",art:"de-lei-walk",trg:"So viele Wörter für Dinge, die ich nie erlebt habe. Grenze, Gewalt, Kampf. Und dann: Freiheit, Friede, Hoffnung. Die Sprache trägt die ganze Geschichte.",src:"كم من الكلمات لأشياء لم أختبرها قط. الحدود، والعنف، والنضال. ثم: الحرية، والسلام، والأمل. اللغة تحمل التاريخ كله."},
-        {type:"mc",q:"Die Demonstranten 1989 forderten freie Wahlen. Was bedeutet Wahl?",opts:["speech","violence","reform","election"],ans:"election",hint:"طالب الناس عام 1989 بحق اختيار قادتهم. ما الذي نسمّي هذه العملية السياسية؟"},
+        {type:"mc",q:"Die Demonstranten 1989 forderten freie Wahlen. Was bedeutet Wahl?",opts:["الخطاب","العنف","الإصلاح","الانتخاب"],ans:"الانتخاب",hint:"طالب الناس عام 1989 بحق اختيار قادتهم. ما الذي نسمّي هذه العملية السياسية؟"},
         {type:"fb",s:"Die Bürger forderten {1} und Demokratie.",a:["Freiheit"],opts:["Freiheit","Gewalt","Krieg","Kampf"],hint:"سار المواطنون وجازفوا بالاعتقال للمطالبة بهذا. وهو ما تسلبه الأنظمة الاستبدادية.",sSrc:"طالب المواطنون بالحرية والديمقراطية."},
-        {type:"mc",q:"Öffentlichkeit kommt von offen. Was bedeutet öffentlich?",opts:["open","public","official","honest"],ans:"public",hint:"ما هو مفتوح (offen) يخص الجميع ومرئي للجميع."},
+        {type:"mc",q:"Öffentlichkeit kommt von offen. Was bedeutet öffentlich?",opts:["مفتوح","عام","رسمي","صادق"],ans:"عام",hint:"ما هو مفتوح (offen) يخص الجميع ومرئي للجميع."},
         {type:"match",pairs:[
     {trg:"Bevölkerung",src:"سكان"},
     {trg:"Gewalt",src:"عنف"},
     {trg:"Wahl",src:"انتخابات"},
     {trg:"Rede",src:"خطاب"}
 ]},
-        {type:"mc",q:"Was bedeutet 'die Politikerin'?",opts:["the reform","the citizen (male)","politics","the politician (female)"],ans:"the politician (female)",hint:"الكلمة اسم ألماني. حلّل أجزاءها المركّبة للوصول إلى المعنى."},
+        {type:"mc",q:"Was bedeutet 'die Politikerin'?",opts:["الإصلاح","المواطن","السياسة","السياسية"],ans:"السياسية",hint:"الكلمة اسم ألماني. حلّل أجزاءها المركّبة للوصول إلى المعنى."},
         {type:"fb",s:"Was bedeutet {1}?",a:["sozial"],opts:["die Rede","sozial","die B\\u00fcrgerin","die \\u00d6ffentlichkeit"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"ماذا تعني sozial؟"},
-        {type:"mc",q:"Was bedeutet 'dienen'?",opts:["to serve","the reform","the election, the choice","the population"],ans:"to serve",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."}
+        {type:"mc",q:"Was bedeutet 'dienen'?",opts:["يخدم","الإصلاح","الانتخاب، الاختيار","السكان"],ans:"يخدم",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."}
       ]},
 // ─── L5: Altes Rathaus ───
     {id:"deu_r21l3",title:"Altes Rathaus",icon:"🏛️",xp:15,board:true,steps:[
@@ -144,7 +144,7 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"fb",s:"Leipzig hat {1} Geschichte.",a:["lange"],opts:["lange","langer","langem","langen"],hint:"كلمة Geschichte مؤنثة. المؤنث في حالة الرفع بدون أداة تعريف يأخذ النهاية -e.",sSrc:"لايبزيغ لها تاريخ طويل."},
         {type:"mc",q:"Mia trinkt _____ Kaffee. (maskulin, Akkusativ, ohne Artikel)",opts:["starke","starkes","starker","starken"],ans:"starken",hint:"المذكر في حالة النصب بدون أداة تعريف يأخذ النهاية -en، مثل den."},
         {type:"drag_fill",s:"Verumius trinkt {1} Tee und isst {2} Brot mit {3} Butter.",blanks:{"1":"heißen","2":"frisches","3":"guter"},pool:["heißen","frisches","guter","kalte","neuen","altem"],hint:"Tee مذكر في حالة النصب (-en). وBrot محايد في حالة النصب (-es). وButter مؤنث في حالة الجر (-er).",sSrc:"يشرب فيروميوس شاياً ساخناً ويأكل خبزاً طازجاً مع زبدة جيدة."},
-        {type:"mc",q:"Was bedeutet 'ewig'?",opts:["eternal","the monument, the memorial","constant(ly)","to have an effect, to seem"],ans:"eternal",hint:"اللاحقة '-ig' تحوّل الاسم إلى صفة. الجذر 'ew' يكشف المعنى."},
+        {type:"mc",q:"Was bedeutet 'ewig'?",opts:["أبدي","النُّصب التذكاري","مستمر، دائم","يُؤثّر، يبدو"],ans:"أبدي",hint:"اللاحقة '-ig' تحوّل الاسم إلى صفة. الجذر 'ew' يكشف المعنى."},
         {type:"fb",s:"Wie sagt man 'to have an effect, to seem' auf Deutsch? {1}",a:["wirken"],opts:["wirken","ver\\u00e4ndern","die Hoffnung","st\\u00e4ndig"],hint:"ترجم المصطلح الإنجليزي إلى الألمانية. أيّ خيار يطابق المعنى المطلوب؟",sSrc:"كيف تقول 'to have an effect, to seem' بالألمانية؟"}
       ]},
 // ─── L7: Nikolaikirche ───
@@ -184,9 +184,9 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"mc",q:"Ergänze: trotz der _____ Situation (despite the difficult situation)",opts:["schwieriger","schwierige","schwierigem","schwierigen"],ans:"schwierigen",hint:"بعد der في حالة الإضافة للمؤنث، تأخذ الصفة دائماً النهاية -en."},
         {type:"drag_fill",s:"Während des {1} Krieges kannten Ost und West {2} kaum. Sie wussten wenig {3}.",blanks:{"1":"Kalten","2":"einander","3":"voneinander"},pool:["Kalten","einander","voneinander","Kalter","sich","miteinander"],hint:"أولاً: الصفة بعد des. ثانياً: الضمير التبادلي غير الملتبس. ثالثاً: المركّب الذي يعني 'عن بعضهم بعضاً'.",sSrc:"خلال الحرب الباردة، لم يكد الشرق والغرب يعرفان بعضهما. كانوا يعرفون القليل عن بعضهم بعضاً."},
         {type:"mc",q:"Mia erzählt von _____ Erinnerungen. (old memories, ohne Artikel, Dativ Plural)",opts:["alten Erinnerungen","altes Erinnerungen","alter Erinnerungen","alte Erinnerungen"],ans:"alten Erinnerungen",hint:"الجمع في حالة الجر بدون أداة تعريف: تأخذ الصفة النهاية -en، مثل den."},
-        {type:"mc",q:"Was bedeutet 'geschehen'?",opts:["completely","to consider, to think over","the witness (male)","to happen, to occur"],ans:"to happen, to occur",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
+        {type:"mc",q:"Was bedeutet 'geschehen'?",opts:["تماماً","يتأمّل، يفكّر ملياً","الشاهد","يحدث"],ans:"يحدث",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
         {type:"fb",s:"Wie sagt man 'to develop' auf Deutsch? {1}",a:["entwickeln"],opts:["der Dialekt","die Wirklichkeit","entwickeln","v\\u00f6llig"],hint:"ترجم المصطلح الإنجليزي إلى الألمانية. أيّ خيار يطابق المعنى المطلوب؟",sSrc:"كيف تقول 'to develop' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'der Dialekt'?",opts:["the dialect","the assembly, the gathering","the community","youth"],ans:"the dialect",hint:"الكلمة اسم ألماني. حلّل أجزاءها المركّبة للوصول إلى المعنى."}
+        {type:"mc",q:"Was bedeutet 'der Dialekt'?",opts:["اللهجة","التجمّع، الاجتماع","المجتمع المحلي","الشباب"],ans:"اللهجة",hint:"الكلمة اسم ألماني. حلّل أجزاءها المركّبة للوصول إلى المعنى."}
       ]},
 // ─── L9: Hildis Fotoalbum ───
     {id:"deu_r21l5",title:"Hildis Fotoalbum",icon:"📷",xp:15,board:true,steps:[
@@ -221,13 +221,13 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
         {type:"teach",trg:"fliehen",src:"أن يفرّ، أن يهرب",pos:"verb",gender:null,note:"شاذ: flieht، floh، ist geflohen.\nكان aus der DDR fliehen قراراً يُهدد الحياة.",example:"A: Sind viele Menschen aus der DDR geflohen?\nB: Ja, Millionen, bevor die Mauer gebaut wurde.\nA: Und danach?\nB: Auch. Aber es war extrem gefährlich.",exampleSrc:"أ: هل فرّ كثير من الناس من جمهورية ألمانيا الديمقراطية؟\nب: نعم، الملايين، قبل بناء الجدار.\nأ: وبعد ذلك؟\nب: أيضاً. لكن كان ذلك في غاية الخطورة.",funFact:"نجح أكثر من 5,000 شخص في الفرار عبر جدار برلين. flüchtig (عابر، فارّ) مشتق من هذا الفعل. aus der DDR fliehen كان من أخطر القرارات التي يمكن لشخص أن يتخذها."},
         {type:"teach",trg:"erziehen",src:"أن يُربّي، أن يُعلّم",pos:"verb",gender:null,note:"شاذ: erzieht، erzog، hat erzogen. Er- + ziehen (يسحب).\ngut erzogen (حسن التربية) ثناء حقيقي.",example:"A: Wer hat dich erzogen?\nB: Meine Großeltern. Meine Eltern haben viel gearbeitet.\nA: Wie haben sie dich erzogen?\nB: Streng, aber liebevoll. Gut erzogen, sagen die Nachbarn.",exampleSrc:"أ: من ربّاك؟\nب: أجدادي. كان والداي يعملان كثيراً.\nأ: كيف ربّياك؟\nب: بصرامة لكن بمحبة. محسنو التربية، يقول الجيران.",funFact:"Kinder erziehen (تربية الأطفال) يستخدم الفعل ذاته. der Erzieher/die Erzieherin يعمل في رياض الأطفال. في DDR، كان للدولة دور كبير في Erziehung."},
         {type:"story",speaker:"narrator",mood:"tender",art:"de-ber-stairwell",trg:"Hildi klappt das Album zu. Ihre Hände zittern leicht. Verumius sagt nichts. Manche Momente brauchen keine Wörter. Er setzt sich neben sie, und sie sitzen zusammen in der Stille des Treppenhauses.",src:"تُغلق هيلدي الألبوم. يرتجفان يداها قليلاً. لا يقول فيروميوس شيئاً. بعض اللحظات لا تحتاج إلى كلمات. يجلس إلى جانبها، ويجلسان معاً في صمت بهو الدرج."},
-        {type:"mc",q:"Hildi sagt, sie und ihr Mann haben einander vertraut. Was bedeutet einander hier?",opts:["themselves","always","each other","nobody"],ans:"each other",hint:"Einander هي الكلمة التبادلية الصريحة التي لا تحتمل أي لبس."},
+        {type:"mc",q:"Hildi sagt, sie und ihr Mann haben einander vertraut. Was bedeutet einander hier?",opts:["أنفسهم","دائماً","بعضهم البعض","لا أحد"],ans:"بعضهم البعض",hint:"Einander هي الكلمة التبادلية الصريحة التي لا تحتمل أي لبس."},
         {type:"fb",s:"Während der {1} Jahre in der DDR erlebte Hildi viel.",a:["langen"],opts:["langen","lange","langer","langem"],hint:"بعد der في حالة الإضافة للجمع، تنتهي الصفات بـ -en. دائماً.",sSrc:"خلال السنوات الطويلة في جمهورية ألمانيا الديمقراطية، عاشت هيلدي الكثير."},
         {type:"drag_fill",s:"Trotz {1} Angst halfen die Nachbarn {2}. Sie zeigten {3} Mut.",blanks:{"1":"großer","2":"einander","3":"echten"},pool:["großer","einander","echten","große","sich","echter"],hint:"أولاً: نهاية الصفة بعد trotz مع اسم مؤنث وبدون أداة تعريف. ثانياً: الضمير التبادلي غير الملتبس. ثالثاً: الصفة للمذكر في حالة النصب بدون أداة تعريف.",sSrc:"رغم الخوف الشديد، تعاون الجيران وساعد بعضهم بعضاً. وأبدوا شجاعة حقيقية."},
         {type:"fb",s:"Wie sagt man 'the trade union' auf Deutsch? {1}",a:["die Gewerkschaft"],opts:["die Gewerkschaft","die Erziehung","erziehen","die Kindheit"],hint:"الكلمة الألمانية مركّبة: 'Gewerk' + '-schaft' (اسم جماعي).",sSrc:"كيف تقول 'the trade union' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'dauernd'?",opts:["constant(ly), lasting","the flight, the escape","homesickness","the experience (lived)"],ans:"constant(ly), lasting",hint:"حلّل بنية الكلمة 'dauernd' — البادئة والجذر واللاحقة تكشف المعنى."},
+        {type:"mc",q:"Was bedeutet 'dauernd'?",opts:["مستمر، دائم","الفرار، الهروب","الحنين إلى الوطن","التجربة (المعاشة)"],ans:"مستمر، دائم",hint:"حلّل بنية الكلمة 'dauernd' — البادئة والجذر واللاحقة تكشف المعنى."},
         {type:"fb",s:"Was war die {1}e Wende?",a:["sogenannt"],opts:["das Geschlecht","gleichberechtigt","die Kindheit","sogenannt"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"شو كانت ما يُسمّى الـ Wende؟"},
-        {type:"mc",q:"Was bedeutet 'fliehen'?",opts:["homesickness","to flee","constant(ly), lasting","the majority"],ans:"to flee",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
+        {type:"mc",q:"Was bedeutet 'fliehen'?",opts:["الحنين إلى الوطن","يفرّ، يهرب","مستمر، دائم","الأغلبية"],ans:"يفرّ، يهرب",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
         {type:"fb",s:"Wie sagt man 'to raise, to educate' auf Deutsch? {1}",a:["erziehen"],opts:["fliehen","das Verhalten","erziehen","das Heimweh"],hint:"ترجم المصطلح الإنجليزي إلى الألمانية. أيّ خيار يطابق المعنى المطلوب؟",sSrc:"كيف تقول 'to raise, to educate' بالألمانية؟"}
       ]},
 // ─── L11: Du kannst ruhig du sagen ───
@@ -271,11 +271,11 @@ const UNIT_21_AR = {n:21,lang:"de",srcLang:"ar",track:"v2",title:"Ost und West",
     "Sie bietet die informelle Anrede als Zeichen des Vertrauens an",
     "Sie bringt ihm ein neues Wort bei"
 ],ans:"Sie bietet die informelle Anrede als Zeichen des Vertrauens an",hint:"الانتقال من Sie إلى du علامة فارقة في العلاقات الألمانية."},
-        {type:"mc",q:"Was bedeutet 'die Vertreterin'?",opts:["by the way","representation, substitute","the representative (female)","the representative (male)"],ans:"the representative (female)",hint:"البادئة 'ver-' تعني تغيير حالة. الجذر 'treterin' يكشف المعنى."},
+        {type:"mc",q:"Was bedeutet 'die Vertreterin'?",opts:["بالمناسبة","التمثيل، البديل","المُمثّلة","المُمثّل"],ans:"المُمثّلة",hint:"البادئة 'ver-' تعني تغيير حالة. الجذر 'treterin' يكشف المعنى."},
         {type:"fb",s:"Wie sagt man 'gold' auf Deutsch? {1}",a:["das Gold"],opts:["das Gold","\\u00fcbrigens","die Einf\\u00fchrung","die T\\u00e4tigkeit"],hint:"الكلمة محايدة الجنس (das). أيّ اسم بين الخيارات يطابق المعنى؟",sSrc:"كيف تقول 'gold' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'der Gott'?",opts:["activity, occupation","the point of view","gold","God"],ans:"God",hint:"حلّل بنية الكلمة 'Gott' — البادئة والجذر واللاحقة تكشف المعنى."},
+        {type:"mc",q:"Was bedeutet 'der Gott'?",opts:["النشاط، المهنة","وجهة النظر","الذهب","الله"],ans:"الله",hint:"حلّل بنية الكلمة 'Gott' — البادئة والجذر واللاحقة تكشف المعنى."},
         {type:"fb",s:"Was bedeutet {1} in der Nikolaikirche?",a:["das Kreuz"],opts:["vorhin","das Kreuz","beeinflussen","der Standpunkt"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"شو بيعني الصليب بكنيسة نيكولاي؟"},
-        {type:"mc",q:"Was bedeutet 'die Uniform'?",opts:["by the way","pressure, print","the point of view","the uniform"],ans:"the uniform",hint:"الكلمة اسم ألماني. حلّل أجزاءها المركّبة للوصول إلى المعنى."},
+        {type:"mc",q:"Was bedeutet 'die Uniform'?",opts:["بالمناسبة","الضغط، الطباعة","وجهة النظر","الزيّ الرسمي"],ans:"الزيّ الرسمي",hint:"الكلمة اسم ألماني. حلّل أجزاءها المركّبة للوصول إلى المعنى."},
         {type:"fb",s:"Wie sagt man 'to influence' auf Deutsch? {1}",a:["beeinflussen"],opts:["die Erfindung","\\u00fcbrigens","beeinflussen","der Gott"],hint:"ترجم المصطلح الإنجليزي إلى الألمانية. أيّ خيار يطابق المعنى المطلوب؟",sSrc:"كيف تقول 'to influence' بالألمانية؟"},
         {type:"fb",s:"{1}, Leipzig hat auch eine interessante Musikgeschichte.",a:["Übrigens"],opts:["Übrigens","Völlig","Ständig","Häufig"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"بالمناسبة، لايبزيغ كمان عندها تاريخ موسيقي مثير."}
       ]},

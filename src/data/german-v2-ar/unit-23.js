@@ -73,10 +73,10 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
 ]},
         {type:"story",speaker:"narrator",mood:"weary",art:"de-ber-study-bunker",trg:"Auf dem Schreibtisch liegt ein Stapel Bücher. Daneben drei leere Tassen Kaffee. Verumius streicht sich durch die Haare und blättert zur nächsten Seite.",src:"على المكتب كومة من الكتب. بجانبها ثلاثة أكواب قهوة فارغة. يمرّر فيروميوس يده في شعره ويقلب إلى الصفحة التالية."},
         {type:"fb",s:"Die {1} der Daten ist sehr klar.",a:["Darstellung"],opts:["Darstellung","Broschüre","Einzelheit","Zeile"],hint:"الكلمة المطلوبة مركّبة وتنتهي بـ '-ung' (مصدر فعلي). حلّل الجذر 'Darstell'.",sSrc:"عرض البيانات واضح كتير."},
-        {type:"mc",q:"Was bedeutet 'aufschreiben'?",opts:["to look up","to write down","to highlight","to describe"],ans:"to write down",hint:"البادئة 'auf-' تعني فوق أو فتح. ما الفعل الأساسي بعدها؟"},
-        {type:"mc",q:"Was bedeutet 'die Aussprache'?",opts:["pronunciation","graphic, chart","to look up (in a reference)","point, period, dot"],ans:"pronunciation",hint:"'Sprache' تعني لغة. ما المعنى المركّب الكامل؟"},
+        {type:"mc",q:"Was bedeutet 'aufschreiben'?",opts:["يبحث عن","يكتب، يدوّن","يُبرز، يُظهّر","يصف"],ans:"يكتب، يدوّن",hint:"البادئة 'auf-' تعني فوق أو فتح. ما الفعل الأساسي بعدها؟"},
+        {type:"mc",q:"Was bedeutet 'die Aussprache'?",opts:["النطق، اللفظ","رسم بياني","يبحث (في مرجع)","النقطة"],ans:"النطق، اللفظ",hint:"'Sprache' تعني لغة. ما المعنى المركّب الكامل؟"},
         {type:"fb",s:"Muss ich jedes Wort {1}?",a:["nachschlagen"],opts:["das Alphabet","die Abbildung","nachschlagen","die Darstellung"],hint:"الجملة تعبّر عن ضرورة. أيّ كلمة تكمل ما يجب فعله؟",sSrc:"لازم أدوّر على كل كلمة؟"},
-        {type:"mc",q:"Was bedeutet 'markieren'?",opts:["alphabet","dictionary","explanation, declaration","to mark, to highlight"],ans:"to mark, to highlight",hint:"'Markt' تعني سوق. ما المعنى المركّب؟"}
+        {type:"mc",q:"Was bedeutet 'markieren'?",opts:["الأبجدية","القاموس","الشرح، التوضيح","يُعلّم، يُظهّر"],ans:"يُعلّم، يُظهّر",hint:"'Markt' تعني سوق. ما المعنى المركّب؟"}
       ]},
 // ─── L4: Vor der Prüfung ───
     {id:"deu_r23l3",title:"Vor der Prüfung",icon:"🏫",xp:15,board:true,steps:[
@@ -116,7 +116,7 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
 ]},
         {type:"story",speaker:"lukas",mood:"teasing",art:"de-ber-apartment-evening",trg:"Lukas schickt eine Nachricht: 'Lebst du noch? Oder bist du unter deinen Karteikarten begraben?' Verumius antwortet mit einem Foto seines Schreibtischs. Lukas: 'Oh. Respekt.'",src:"يرسل لوكاس رسالة: 'هل ما زلت حياً؟ أم أنك مدفون تحت بطاقاتك التعليمية؟' يردّ فيروميوس بصورة لمكتبه. لوكاس: 'أوه. احترام.'"},
         {type:"fb",s:"Die {1} am Kurs ist obligatorisch.",a:["Teilnahme"],opts:["Teilnahme","Präsentation","Studie","Nachhilfe"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"المشاركة بالدورة إلزامية."},
-        {type:"mc",q:"Was bedeutet 'unterrichten'?",opts:["participant (male)","homework, school test","seminar","to teach, to instruct"],ans:"to teach, to instruct",hint:"البادئة 'unter-' تعني تحت. ما الفعل الأساسي بعدها؟"},
+        {type:"mc",q:"Was bedeutet 'unterrichten'?",opts:["المشارك","الواجب المنزلي، الاختبار","الحلقة الدراسية","يُعلّم، يُدرّس"],ans:"يُعلّم، يُدرّس",hint:"البادئة 'unter-' تعني تحت. ما الفعل الأساسي بعدها؟"},
         {type:"fb",s:"Heute {1} wir die Grammatik.",a:["testen"],opts:["die Teilnehmerin","die Präsentation","testen","das Referat"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"اليوم منمتحن القواعد."}
       ]},
 // ─── L6: Hypothesen und Wünsche ───
@@ -165,13 +165,13 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
 ],ans:"Wenn ich Zeit hätte, würde ich lernen.",hint:"الشرط غير الحقيقي: جملة wenn تستخدم Konjunktiv II، والجملة الرئيسية تستخدم تركيباً مع Infinitiv، وليس Partizip."},
         {type:"fb",s:"Du brauchst dir keine Sorgen zu {1}.",a:["machen"],opts:["machen","haben","sein","gehen"],hint:"المصدر الذي يتوافق مع Sorgen (مخاوف). أنت تصنع المخاوف، لا تملكها.",sSrc:"لا تحتاج للقلق."},
         {type:"story",speaker:"yilmaz",mood:"proud",art:"de-ber-yilmaz-office",trg:"Yilmaz steht auf und reicht Verumius die Hand. 'Ich habe hunderte Schüler auf die B1-Prüfung vorbereitet. Du gehörst zu den besten. Geh hin und zeig, was du kannst.'",src:"يقف يلماز ويصافح فيروميوس. 'لقد حضّرت مئات الطلاب لامتحان B1. أنت من بين الأفضل. اذهب وأظهر ما تستطيع.'"},
-        {type:"mc",q:"Was bedeutet 'der Vorteil'?",opts:["to complete, to supplement","advantage","to succeed","to follow"],ans:"advantage",hint:"'Teil' تعني جزء. ما المعنى المركّب الكامل؟"},
+        {type:"mc",q:"Was bedeutet 'der Vorteil'?",opts:["يُكمل، يُتمّم","الميزة","ينجح","يتبع"],ans:"الميزة",hint:"'Teil' تعني جزء. ما المعنى المركّب الكامل؟"},
         {type:"fb",s:"Wie sagt man 'to establish, to notice' auf Deutsch? {1}",a:["feststellen"],opts:["feststellen","die Ausnahme","die Folge","die Begründung"],hint:"ترجم المصطلح الإنجليزي إلى الألمانية. أيّ خيار يطابق المعنى المطلوب؟",sSrc:"كيف تقول 'to establish, to notice' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'gelten'?",opts:["to be valid, to apply","reason, ground","to be correct, to vote","consequence, episode"],ans:"to be valid, to apply",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
+        {type:"mc",q:"Was bedeutet 'gelten'?",opts:["يسري، ينطبق","السبب، الأساس","يصحّ، يصوّت","النتيجة، الحلقة"],ans:"يسري، ينطبق",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
         {type:"fb",s:"Wie sagt man 'to be correct, to vote' auf Deutsch? {1}",a:["stimmen"],opts:["stimmen","der Versuch","der Grund","der Vorteil"],hint:"ترجم المصطلح الإنجليزي إلى الألمانية. أيّ خيار يطابق المعنى المطلوب؟",sSrc:"كيف تقول 'to be correct, to vote' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'gelingen'?",opts:["to succeed","justification, reasoning","to be correct, to vote","to be valid, to apply"],ans:"to succeed",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
+        {type:"mc",q:"Was bedeutet 'gelingen'?",opts:["ينجح","التبرير، المنطق","يصحّ، يصوّت","يسري، ينطبق"],ans:"ينجح",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
         {type:"fb",s:"Im {1}en ist die Prüfung fair.",a:["allgemein"],opts:["allgemein","der Grund","kompliziert","der Gegensatz"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"بشكل عام، الامتحان عادل."},
-        {type:"mc",q:"Was bedeutet 'kompliziert'?",opts:["exception","to complete, to supplement","reason, ground","complicated"],ans:"complicated",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."}
+        {type:"mc",q:"Was bedeutet 'kompliziert'?",opts:["الاستثناء","يُكمل، يُتمّم","السبب، الأساس","معقّد"],ans:"معقّد",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."}
       ]},
 // ─── L8: Drei Konstruktionen ───
     {id:"deu_r23l5",title:"Drei Konstruktionen",icon:"🔧",xp:15,board:true,steps:[
@@ -218,17 +218,17 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"mc",q:"Welcher Satz ist grammatisch korrekt?",opts:["Du brauchst nicht lernen zu.","Du brauchst zu lernen.","Du brauchst gelernt zu.","Du brauchst nicht zu lernen."],ans:"Du brauchst nicht zu lernen.",hint:"brauchen + zu يعمل فقط مع nicht أو nur أو kein. تأتي zu قبل المصدر."},
         {type:"fb",s:"Er hat gestern nicht kommen {1}.",a:["können"],opts:["können","gekonnt","kann","konnte"],hint:"فعل مشروط + Perfekt = مصدر مزدوج. الفعل المشروط يبقى بصيغة المصدر.",sSrc:"لم يستطع الحضور أمس."},
         {type:"mc",q:"'Wenn er hätte kommen können, hätte er nicht zu Hause bleiben brauchen.' Was bedeutet dieser Satz?",opts:[
-    "He could come but he needed to stay home.",
-    "He had come and then stayed home.",
-    "If he had been able to come, he would not have needed to stay home.",
-    "If he comes, he will not stay home."
-],ans:"If he had been able to come, he would not have needed to stay home.",hint:"شرطيتان غير حقيقيتين مدمجتان: hätte + kommen können (مصدر مزدوج) وhätte + brauchen."},
+    "كان يمكنه القدوم لكنه احتاج للبقاء في البيت.",
+    "كان قد أتى ثم بقي في البيت.",
+    "لو كان قادراً على القدوم، لما احتاج للبقاء في البيت.",
+    "إذا أتى، لن يبقى في البيت."
+],ans:"لو كان قادراً على القدوم، لما احتاج للبقاء في البيت.",hint:"شرطيتان غير حقيقيتين مدمجتان: hätte + kommen können (مصدر مزدوج) وhätte + brauchen."},
         {type:"drag_fill",s:"Wenn ich besser vorbereitet {1}, {2} ich die Prüfung leicht bestehen.",blanks:{"1":"wäre","2":"würde"},pool:["wäre","würde","bin","werde","hätte","könnte"],hint:"الشرط غير الحقيقي: جملة wenn تحتاج Konjunktiv II من sein، والجملة الرئيسية تحتاج الفعل المساعد Konjunktiv II + المصدر.",sSrc:"لو كنت أفضل استعداداً، لنجحت في الامتحان بسهولة."},
         {type:"story",speaker:"verumius",mood:"nervous",art:"de-ber-apartment-night",trg:"Verumius legt die letzten Karteikarten weg. Morgen ist es so weit. Er stellt den Wecker auf sechs Uhr. 'Wenn ich jetzt nicht schlafe, bin ich morgen erledigt.' Er löscht das Licht.",src:"يضع فيروميوس البطاقات الأخيرة جانباً. غداً هو اليوم. يضبط المنبّه على السادسة. 'إذا لم أنم الآن، سأكون منهكاً غداً.' يطفئ الضوء."},
         {type:"fb",s:"Die Prüfung hat einen {1} Teil und einen schriftlichen Teil.",a:["mündlichen"],opts:["mündlichen","passiven","theoretischen","mündliche"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"الامتحان فيه قسم شفهي وقسم كتابي."},
-        {type:"mc",q:"Was bedeutet 'darstellen'?",opts:["reader (male)","oral, verbal","forum","to represent, to depict"],ans:"to represent, to depict",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
+        {type:"mc",q:"Was bedeutet 'darstellen'?",opts:["القارئ","شفهي","المنتدى","يُمثّل، يُصوّر"],ans:"يُمثّل، يُصوّر",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
         {type:"fb",s:"Können Sie die beiden Wörter {1}?",a:["unterscheiden"],opts:["die Kommunikation","theoretisch","unterscheiden","analysieren"],hint:"الجملة تعبّر عن إمكانية. أيّ كلمة تكمل ما يمكن فعله؟",sSrc:"فيك تفرّق بين الكلمتين؟"},
-        {type:"mc",q:"Was bedeutet 'korrigieren'?",opts:["to correct","forum","intelligence","oral, verbal"],ans:"to correct",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."}
+        {type:"mc",q:"Was bedeutet 'korrigieren'?",opts:["يُصحّح","المنتدى","الذكاء","شفهي"],ans:"يُصحّح",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."}
       ]},
 // ─── L10: Wortschatz-Blitz ───
     {id:"deu_r23l6",title:"Wortschatz-Blitz",icon:"⚡",xp:15,board:true,steps:[
@@ -278,7 +278,7 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
 ]},
         {type:"drag_fill",s:"Sie hat das Buch nicht lesen {1}.",blanks:{"1":"können"},pool:["können","gekonnt","kann","konnte","lesen"],hint:"الفعل المشروط في Perfekt: يحتفظ الفعل المشروط بصيغة المصدر، وليس Partizip.",sSrc:"لم تستطع قراءة الكتاب."},
         {type:"story",speaker:"mia",mood:"supportive",art:"de-ber-ubahn-morning",trg:"Mia wartet an der U-Bahn-Station. Sie drückt ihm einen Glücksbringer in die Hand: einen kleinen Stein vom Brandenburger Tor. 'Den habe ich am ersten Tag in Berlin gefunden. Er bringt Glück.'",src:"تنتظر ميا في محطة القطار. تضع في يده تميمة حظّ: حجر صغير من بوابة براندنبورغ. 'وجدته في يومي الأول في برلين. إنه يجلب الحظّ.'"},
-        {type:"mc",q:"Was bedeutet 'eintreten'?",opts:["to notice, to remark","studio","to enter, to occur","to give up, to assign"],ans:"to enter, to occur",hint:"البادئة 'ein-' تعني داخل. الجذر 'treten' يكشف المعنى."}
+        {type:"mc",q:"Was bedeutet 'eintreten'?",opts:["يلاحظ، يُعلّق","الاستوديو","يدخل، يحدث","يتنازل عن، يُكلّف"],ans:"يدخل، يحدث",hint:"البادئة 'ein-' تعني داخل. الجذر 'treten' يكشف المعنى."}
       ]},
 // ─── L12: Im Prüfungsraum ───
     {id:"deu_r23l7",title:"Im Prüfungsraum",icon:"🕐",xp:15,board:true,steps:[
@@ -331,7 +331,7 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
         {type:"story",speaker:"narrator",mood:"relieved",art:"de-ber-goethe-exam",trg:"Die Prüferin sammelt die Bögen ein. Verumius legt den Stift hin. Seine Hände zittern, aber er lächelt. Der Hören-Teil war schwer. Der Schreiben-Teil war fair. Jetzt muss er warten.",src:"تجمع الممتحنة الأوراق. يضع فيروميوس قلمه. يداه ترتجفان لكنه يبتسم. جزء الاستماع كان صعباً. جزء الكتابة كان عادلاً. الآن عليه الانتظار."},
         {type:"fb",s:"Er hat {1} alle Aufgaben gelöst.",a:["bereits"],opts:["bereits","allerdings","kaum","jeweils"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"هو خلّص كل التمارين."},
         {type:"mc",q:"Was ist die formelle Variante von 'jetzt'?",opts:["nachher","längst","nun","mitten"],ans:"nun",hint:"اقرأ السؤال بعناية وحلّل الخيارات. أيّها يتوافق مع السياق الألماني؟"},
-        {type:"mc",q:"Was bedeutet 'jemals'?",opts:["ever","once more, again","however, admittedly","in each case, respectively"],ans:"ever",hint:"الكلمة ظرف زمني. فكّر في التوقيت الذي تصفه."},
+        {type:"mc",q:"Was bedeutet 'jemals'?",opts:["أبداً (في أيّ وقت)","مرة أخرى","على كل حال، مع ذلك","في كل حالة، على التوالي"],ans:"أبداً (في أيّ وقت)",hint:"الكلمة ظرف زمني. فكّر في التوقيت الذي تصفه."},
         {type:"fb",s:"Kann ich {1} zur Prüfung kommen?",a:["jederzeit"],opts:["jederzeit","beinah","insgesamt","jemals"],hint:"الجملة تعبّر عن إمكانية. أيّ كلمة تكمل ما يمكن فعله؟",sSrc:"فيني أجي على الامتحان بأي وقت؟"}
       ]},
 // ─── L14: Die großen Wörter ───
@@ -375,10 +375,10 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
 ]},
         {type:"drag_fill",s:"{1} er gut vorbereitet ist, {2} er trotzdem nervös.",blanks:{"1":"Obwohl","2":"ist"},pool:["Obwohl","Weil","ist","hat","bleibt","Nachdem"],hint:"الفراغ الأول: أداة الربط التي تعني 'رغم أنّ' (تنازلية، ترسل الفعل للنهاية). الفراغ الثاني: المضارع البسيط من sein.",sSrc:"رغم أنه مستعدّ جيداً، فهو لا يزال متوتراً."},
         {type:"story",speaker:"verumius",mood:"hopeful",art:"de-ber-apartment-waiting",trg:"Eine Woche ist vergangen. Verumius sitzt am Fenster und schaut auf die Straße. 'Obwohl ich nervös bin, weiß ich, dass ich mein Bestes gegeben habe. Das muss reichen.'",src:"مرّ أسبوع. يجلس فيروميوس بجانب النافذة وينظر إلى الشارع. 'رغم أنني متوتر، أعرف أنني بذلت قصارى جهدي. يجب أن يكون ذلك كافياً.'"},
-        {type:"mc",q:"Er ist weder müde noch nervös. Was bedeutet 'weder...noch'?",opts:["both...and","either...or","neither...nor","not only...but also"],ans:"neither...nor",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."},
-        {type:"mc",q:"Was bedeutet 'nämlich'?",opts:["since, because (formal)","indeed, admittedly","namely, because (you see)","as long as"],ans:"namely, because (you see)",hint:"اللاحقة '-lich' تجعل الكلمة صفة بمعنى 'ذو علاقة بـ'. الجذر 'näm' يكشف المعنى."},
+        {type:"mc",q:"Er ist weder müde noch nervös. Was bedeutet 'weder...noch'?",opts:["كلاهما...و","إما...أو","لا...ولا","ليس فقط...بل أيضاً"],ans:"لا...ولا",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."},
+        {type:"mc",q:"Was bedeutet 'nämlich'?",opts:["إذ، لأن (رسمي)","في الواقع، بالفعل","وذلك لأن، إذ إن","طالما"],ans:"وذلك لأن، إذ إن",hint:"اللاحقة '-lich' تجعل الكلمة صفة بمعنى 'ذو علاقة بـ'. الجذر 'näm' يكشف المعنى."},
         {type:"fb",s:"{1} ist die Prüfung schwer, aber machbar.",a:["zwar"],opts:["nachdem","bevor","zwar","sodass"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"صحيح الامتحان صعب، بس ممكن."},
-        {type:"mc",q:"Was bedeutet 'ebenfalls'?",opts:["likewise, also (formal)","before","since, because (formal)","indeed, admittedly"],ans:"likewise, also (formal)",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."}
+        {type:"mc",q:"Was bedeutet 'ebenfalls'?",opts:["كذلك، أيضاً (رسمي)","قبل","إذ، لأن (رسمي)","في الواقع، بالفعل"],ans:"كذلك، أيضاً (رسمي)",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."}
       ]},
 // ─── L16: BESTANDEN! ───
     {id:"deu_r23l9",title:"BESTANDEN!",icon:"🎉",xp:15,board:true,steps:[
@@ -422,11 +422,11 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
     "Einen Plan, Deutschland zu verlassen."
 ],ans:"Dankbarkeit für eine Entscheidung, die auch anders hätte ausgehen können.",hint:"الشرط الماضي غير الحقيقي (nicht gekommen wäre) يُظهر المسار الذي لم يُسلك. الواقع هو العكس."},
         {type:"drag_fill",s:"Verumius ist {1} stolz {2} glücklich.",blanks:{"1":"sowohl","2":"als auch"},pool:["sowohl","als auch","weder","noch","entweder","oder"],hint:"هو فخور وسعيد معاً. أي أداة ربط ثنائية تعني 'كلا...و'؟",sSrc:"فيروميوس فخور وسعيد معاً."},
-        {type:"mc",q:"Was bedeutet 'interessant'?",opts:["interesting","visible","for which reason, why (formal)","therefore, that is why"],ans:"interesting",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."},
+        {type:"mc",q:"Was bedeutet 'interessant'?",opts:["مثير للاهتمام","مرئي","لأي سبب، لماذا (رسمي)","لذلك، لهذا السبب"],ans:"مثير للاهتمام",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."},
         {type:"fb",s:"Bist du an Deutschland {1}?",a:["interessiert"],opts:["seitdem","interessiert","begrenzt","ungefähr"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"مهتم بألمانيا؟"},
-        {type:"mc",q:"Was bedeutet 'neugierig'?",opts:["why, how come","approximately","apparently, evidently","curious"],ans:"curious",hint:"اللاحقة '-ig' تحوّل الاسم إلى صفة. الجذر 'neugier' يكشف المعنى."},
+        {type:"mc",q:"Was bedeutet 'neugierig'?",opts:["لماذا، كيف","تقريباً","على ما يبدو","فضولي"],ans:"فضولي",hint:"اللاحقة '-ig' تحوّل الاسم إلى صفة. الجذر 'neugier' يكشف المعنى."},
         {type:"fb",s:"Die Zeit ist {1}.",a:["begrenzt"],opts:["ungefähr","neugierig","begrenzt","teilweise"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"الوقت محدود."},
-        {type:"mc",q:"Was bedeutet 'sichtbar'?",opts:["for which reason, why (formal)","presumably, probably","therefore, that is why","visible"],ans:"visible",hint:"اللاحقة '-bar' تعني 'قابل لـ'. الجذر 'sicht' يكشف المعنى."}
+        {type:"mc",q:"Was bedeutet 'sichtbar'?",opts:["لأي سبب، لماذا (رسمي)","على الأرجح","لذلك، لهذا السبب","مرئي"],ans:"مرئي",hint:"اللاحقة '-bar' تعني 'قابل لـ'. الجذر 'sicht' يكشف المعنى."}
       ]},
 // ─── L18: Bildung und Kultur ───
     {id:"deu_r23l10",title:"Bildung und Kultur",icon:"🎓",xp:15,board:true,steps:[
@@ -462,7 +462,7 @@ const UNIT_23_AR = {n:23,lang:"de",srcLang:"ar",track:"v2",title:"Die Prüfung",
     {trg:"je...desto",src:"كلّما ... كلّما"},
     {trg:"sämtlich",src:"كل / كامل"}
 ]},
-        {type:"mc",q:"'Je mehr ich lerne, desto besser spreche ich.' Was bedeutet 'je...desto'?",opts:["the more...the more","either...or","neither...nor","not only...but also"],ans:"the more...the more",hint:"أداة الربط الثنائية هذه تعبّر عن علاقة تناسبية بين شيئين."}
+        {type:"mc",q:"'Je mehr ich lerne, desto besser spreche ich.' Was bedeutet 'je...desto'?",opts:["كلّما...كلّما","إما...أو","لا...ولا","ليس فقط...بل أيضاً"],ans:"كلّما...كلّما",hint:"أداة الربط الثنائية هذه تعبّر عن علاقة تناسبية بين شيئين."}
       ]},
 // ─── L19: Verben und Feinschliff ───
     {id:"deu_r23l11",title:"Verben und Feinschliff",icon:"✨",xp:10,board:true,steps:[

@@ -19,7 +19,7 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"tip",title:"Gender Color Code",text:"كل اسم ألماني له جنس نحوي. راقب الألوان على كل بطاقة كلمة:\n\nder = أزرق (مذكر)\ndie = قرمزي (مؤنث)\ndas = أخضر (محايد)\n\nدماغك سيبدأ برؤية الأنماط. ثق بالألوان.",deepDive:{title:"Why does German have three genders?",text:"الجرمانية البدائية كان فيها ثلاثة أجناس نحوية، موروثة من الهندو-أوروبية البدائية. معظم اللغات الجرمانية الحديثة قلّصتها: الإنجليزية أسقطت الثلاثة، الهولندية دمجتها في اثنين (de/het)، السويدية والدانماركية تستخدمان اثنين (en/ett).\n\nالألمانية احتفظت بالثلاثة. هذا أحد أسباب صعوبة الألمانية مقارنة بالهولندية أو السويدية.\n\nالخبر الجيد: تحتاج فقط أن تربط الأداة الصحيحة بالاسم الصحيح. لا تحتاج أن تفهم لماذا Mädchen (فتاة) محايد أو لماذا Sonne (شمس) مؤنث. فقط تعلّم الكلمة مع أداتها في كل مرة."}},
         {type:"mc",q:"يحتاج Verumius أن يمشي مباشرة. أيّ كلمة اتجاه؟",opts:["geradeaus","links","rechts","wohin"],ans:"geradeaus",hint:"هذه الكلمة المركبة تعني 'مستقيم-للخارج'."},
         {type:"fb",s:"Die Kirche ist {1}, nicht rechts.",a:["links"],opts:["links","geradeaus","wohin","hier"],hint:"عكس rechts (يمين) هو...",sSrc:"الكنيسة على اليسار وليس اليمين."},
-        {type:"mc",q:"ما الجنس النحوي لـ 'Rathaus'؟",opts:["masculine (der)","feminine (die)","neuter (das)","plural (die)"],ans:"neuter (das)",hint:"الأسماء المركبة تأخذ جنس مكونها الأخير. ما جنس الجزء الأخير من Rathaus؟"},
+        {type:"mc",q:"ما الجنس النحوي لـ 'Rathaus'؟",opts:["مذكر (der)","مؤنث (die)","محايد (das)","جمع (die)"],ans:"محايد (das)",hint:"الأسماء المركبة تأخذ جنس مكونها الأخير. ما جنس الجزء الأخير من Rathaus؟"},
         {type:"match",pairs:[
     {trg:"die Straße",src:"شارع"},
     {trg:"der Platz",src:"ميدان"},
@@ -185,7 +185,7 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"fb",s:"{1} Straße ist lang und breit.",a:["Die"],opts:["Die","Der","Das","Ein"],hint:"Straße مؤنث. أي أداة تعريف تناسب؟",sSrc:"الشارع طويل وعريض."},
         {type:"mc",q:"أيّها صحيح؟",opts:["Das Museum ist großes.","Das Museum ist groß.","Der Museum ist groß.","Das Museum ist große."],ans:"Das Museum ist groß.",hint:"هذا الاسم محايد. الصفات الخبرية لا تحتاج نهاية."},
         {type:"drag_fill",s:"{1} Café ist klein, aber {2} Restaurant ist groß.",blanks:{"1":"Das","2":"das"},pool:["Das","das","Der","die","Die"],hint:"Café و Restaurant كلاهما محايد. بداية الجملة تأخذ حرف D كبير.",sSrc:"المقهى صغير لكن المطعم كبير."},
-        {type:"mc",q:"الكلمات المنتهية بـ -ung دائمًا...",opts:["masculine (der)","neuter (das)","depends on the word","feminine (die)"],ans:"feminine (die)",hint:"Richtung، Kreuzung، Verbindung، Besichtigung... كلها die."},
+        {type:"mc",q:"الكلمات المنتهية بـ -ung دائمًا...",opts:["مذكر (der)","محايد (das)","يعتمد على الكلمة","مؤنث (die)"],ans:"مؤنث (die)",hint:"Richtung، Kreuzung، Verbindung، Besichtigung... كلها die."},
         {type:"story",speaker:"verumius",mood:"cautiously-hopeful",art:"de-berlin-notebook",trg:"Der, die, das. Klein aber wichtig. Langsam sehe ich die Muster. Die Bäckerei, die Kreuzung, die Richtung. Alles mit -ei und -ung ist die. Danke, Muster.",src:"Der، die، das. صغيرة لكنها مهمة. ببطء أرى الأنماط. المخبز، التقاطع، الاتجاه. كل شيء بـ ei- و ung- هو die. شكرًا أيتها الأنماط."}
       ]},
 // ─── L7: Unterwegs in der Stadt ───
@@ -455,7 +455,7 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"teach",trg:"breit",src:"واسع / عريض",pos:"adj",gender:null,note:"صفة. العكس: schmal (ضيّق).",example:"A: Ist die Straße breit?\nB: Ja, sie ist sehr breit.",exampleSrc:"A: هل الشارع عريض؟\nB: نعم، عريض جدًا.",funFact:"كورفورستندام في برلين من أعرض الشوارع في أوروبا."},
         {type:"mc",q:"ماذا تعني 'vielleicht'؟",opts:["always","never","soon","perhaps"],ans:"perhaps",hint:"فكر في كلمة تعبر عن عدم اليقين."},
         {type:"fb",s:"Der Zug kommt {1}. Wir müssen warten.",a:["bald"],opts:["bald","nie","schon","wieder"],hint:"القطار يصل في المستقبل القريب.",sSrc:"القطار يأتي قريبًا. يجب أن ننتظر."},
-        {type:"mc",q:"'Gehen Sie über die Brücke.' ماذا تعني 'über' هنا؟",opts:["over","under","next to","behind"],ans:"over",hint:"تعبر شيئًا من جانب إلى آخر."},
+        {type:"mc",q:"'Gehen Sie über die Brücke.' ماذا تعني 'über' هنا؟",opts:["فوق","تحت","بجانب","خلف"],ans:"فوق",hint:"تعبر شيئًا من جانب إلى آخر."},
         {type:"match",pairs:[
     {trg:"jetzt",src:"الآن"},
     {trg:"immer",src:"دائمًا"},
@@ -465,9 +465,9 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
 ]},
         {type:"fb",s:"Gehen Sie {1} die Straße bis zur Kirche.",a:["durch"],opts:["durch","auf","an","ab"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"اذهب عبر الشارع إلى الكنيسة."},
         {type:"fb",s:"Wir treffen uns {1} dem Bahnhof.",a:["vor"],opts:["vor","über","durch","ab"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"سنلتقي أمام محطة القطار."},
-        {type:"mc",q:"Was bedeutet 'an'?",opts:["often","again","now","on, at (a surface or location)"],ans:"on, at (a surface or location)",hint:"حرف جر يدل على الملامسة أو الاتصال بسطح"},
+        {type:"mc",q:"Was bedeutet 'an'?",opts:["غالبًا","مجددًا","الآن","على، عند (سطح أو موقع)"],ans:"على، عند (سطح أو موقع)",hint:"حرف جر يدل على الملامسة أو الاتصال بسطح"},
         {type:"fb",s:"{1} drei Uhr.",a:["gegen"],opts:["gegen","über","oft","jetzt"],hint:"حرف جر يدل على وقت تقريبي، ليس دقيقًا",sSrc:"حوالي الساعة الثالثة."},
-        {type:"mc",q:"Was bedeutet 'breit'?",opts:["wide, broad","through","already","soon"],ans:"wide, broad",hint:"صفة تصف المسافة الأفقية الكبيرة"}
+        {type:"mc",q:"Was bedeutet 'breit'?",opts:["واسع، عريض","عبر","بالفعل","قريبًا"],ans:"واسع، عريض",hint:"صفة تصف المسافة الأفقية الكبيرة"}
       ]},
 // ─── L15: Wo ist das? ───
     {id:"deu_r2l12",title:"Wo ist das?",icon:"📍",xp:15,board:true,steps:[
@@ -496,7 +496,7 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"teach",trg:"die Mitte",src:"الوسط / المركز",pos:"noun",gender:"f",note:"اسم مؤنث. لا يوجد جمع شائع.",example:"A: Wo liegt das Hotel?\nB: In der Mitte der Stadt.",exampleSrc:"A: أين الفندق؟\nB: في وسط المدينة.",funFact:"Berlin-Mitte هي المنطقة المركزية في برلين، موطن الرايخستاغ وجزيرة المتاحف."},
         {type:"teach",trg:"die Achtung",src:"انتباه / حذر",pos:"noun",gender:"f",note:"اسم مؤنث. شائعة جدًا في الإعلانات.",example:"A: Achtung! Der Zug kommt.\nB: Danke für die Warnung!",exampleSrc:"A: انتباه! القطار قادم.\nB: شكرًا على التنبيه!",funFact:"ستسمع '!Achtung' في كل محطة قطار ألمانية. هي كلمة التحذير العالمية."},
         {type:"teach",trg:"die Information",src:"المعلومات",pos:"noun",gender:"f",note:"اسم مؤنث. الجمع: die Informationen. تعني أيضًا مكتب الاستعلامات.",example:"A: Wo ist die Information?\nB: Die Information ist am Eingang.",exampleSrc:"A: أين مكتب الاستعلامات؟\nB: مكتب الاستعلامات عند المدخل.",funFact:"الألمان يختصرونها غالبًا إلى Info. Die Info-Tafel هي لوحة المعلومات."},
-        {type:"mc",q:"ماذا تعني 'die Haltestelle'؟",opts:["المخبز","موقف الحافلة","the exit","المدخل"],ans:"موقف الحافلة",hint:"فكر في مكان تتوقف فيه المركبات لإنزال وإصعاد الناس."},
+        {type:"mc",q:"ماذا تعني 'die Haltestelle'؟",opts:["المخبز","موقف الحافلة","المخرج","المدخل"],ans:"موقف الحافلة",hint:"فكر في مكان تتوقف فيه المركبات لإنزال وإصعاد الناس."},
         {type:"fb",s:"Wo ist der {1}? Ich möchte rausgehen.",a:["Ausgang"],opts:["Ausgang","Eingang","Platz","Laden"],hint:"تريد المغادرة فتحتاج طريق الخروج.",sSrc:"أين المخرج؟ أريد الخروج."},
         {type:"mc",q:"يسأل Verumius: 'Ist dieser Platz frei?' عمّ يسأل؟",opts:["متجر","مقعد","مخبز","رصيف"],ans:"مقعد",hint:"هذه الكلمة لها معنيان. هنا شخص يريد الجلوس في مكان محدد."},
         {type:"match",pairs:[
@@ -554,17 +554,17 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
     {trg:"die S-Bahn",src:"قطار المدينة"},
     {trg:"der Lkw",src:"شاحنة"}
 ]},
-        {type:"mc",q:"Was bedeutet 'hoch'?",opts:["the connection (transit)","السائق","the railway, the train","high, tall"],ans:"high, tall",hint:"صفة تصف الارتفاع، عكس niedrig"},
+        {type:"mc",q:"Was bedeutet 'hoch'?",opts:["الاتصال (المواصلات)","السائق","السكة الحديدية، القطار","عالي، طويل"],ans:"عالي، طويل",hint:"صفة تصف الارتفاع، عكس niedrig"},
         {type:"fb",s:"Ist der Bahnhof {1}?",a:["weit"],opts:["das Gleis","die Autobahn","weit","der Süden"],hint:"صفة تسأل عن المسافة بين مكانين",sSrc:"هل محطة القطار بعيدة؟"},
-        {type:"mc",q:"Was bedeutet 'so'?",opts:["the north","هكذا","the west","الشاحنة"],ans:"هكذا",hint:"كلمة قصيرة جدًا تُستخدم للمقارنة والإشارة"},
+        {type:"mc",q:"Was bedeutet 'so'?",opts:["الشمال","هكذا","الغرب","الشاحنة"],ans:"هكذا",hint:"كلمة قصيرة جدًا تُستخدم للمقارنة والإشارة"},
         {type:"fb",s:"Sind {1}e da?",a:["all"],opts:["all","das Gleis","der Süden","der Norden"],hint:"كلمة تعني الجميع أو كل شيء بدون استثناء",sSrc:"هل الجميع هنا؟"},
         {type:"mc",q:"Was bedeutet 'daneben'?",opts:["السائق","بجانبه","هكذا","الكل، كل"],ans:"بجانبه",hint:"ظرف يدل على القرب المكاني من شيء آخر"},
         {type:"fb",s:"{1}, im zweiten Stock.",a:["oben"],opts:["das Fahrrad","am","oben","hinten"],hint:"ظرف مكان يدل على الاتجاه نحو الأعلى، عكس unten",sSrc:"في الأعلى، في الطابق الثاني."},
-        {type:"mc",q:"Was bedeutet 'unten'?",opts:["down, below, downstairs","the tram, the streetcar","high, tall","back, backwards"],ans:"down, below, downstairs",hint:"ظرف يدل على الاتجاه نحو الأسفل، عكس oben"},
+        {type:"mc",q:"Was bedeutet 'unten'?",opts:["تحت، أسفل","الترام","عالي، طويل","رجوعًا، للخلف"],ans:"تحت، أسفل",hint:"ظرف يدل على الاتجاه نحو الأسفل، عكس oben"},
         {type:"fb",s:"{1}, am Fenster.",a:["hinten"],opts:["der Lkw","so","all","hinten"],hint:"ظرف يدل على الجزء الخلفي من المكان، عكس vorne",sSrc:"في الخلف، بجانب النافذة."},
-        {type:"mc",q:"Was bedeutet 'draußen'?",opts:["the track, the platform","the tram, the streetcar","there (at a distance)","outside"],ans:"outside",hint:"ظرف يدل على الخارج، عكس drinnen"},
+        {type:"mc",q:"Was bedeutet 'draußen'?",opts:["المسار، الرصيف","الترام","هناك (على بُعد)","في الخارج"],ans:"في الخارج",hint:"ظرف يدل على الخارج، عكس drinnen"},
         {type:"fb",s:"{1}, am Ende der Straße.",a:["dort"],opts:["dort","der Süden","die Autobahn","der Norden"],hint:"ظرف إشارة يدل على مكان بعيد عن المتكلم",sSrc:"هناك، في نهاية الشارع."},
-        {type:"mc",q:"Was bedeutet 'zurück'?",opts:["up, above, upstairs","the track, the platform","الدراجة","back, backwards"],ans:"back, backwards",hint:"ظرف يدل على العودة إلى الخلف"}
+        {type:"mc",q:"Was bedeutet 'zurück'?",opts:["فوق، أعلى","المسار، الرصيف","الدراجة","رجوعًا، للخلف"],ans:"رجوعًا، للخلف",hint:"ظرف يدل على العودة إلى الخلف"}
       ]},
 // ─── L19: Kommen und Gehen ───
     {id:"deu_r2l14",title:"Kommen und Gehen",icon:"🚶",xp:15,board:true,steps:[
@@ -609,7 +609,7 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"fb",s:"Wie sagt man 'to take along' auf Deutsch? {1}",a:["mitnehmen"],opts:["mitnehmen","abholen","auf sein","helfen"],hint:"فعل مركب: mit (مع) + nehmen (يأخذ) = يصطحب",sSrc:"كيف تقول 'to take along' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'weiterfahren'?",opts:["يتابع القيادة","يُعير، يستعير","يحمل، يتوقف","يتنزه في الطبيعة"],ans:"يتابع القيادة",hint:"فعل مركب: weiter (أبعد) + fahren (يقود)"},
         {type:"fb",s:"Wie sagt man 'to be open' auf Deutsch? {1}",a:["auf sein"],opts:["weiterfahren","abfliegen","zeigen","auf sein"],hint:"تعبير يدل على حالة الانفتاح، عكس zu sein",sSrc:"كيف تقول 'to be open' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'grade'?",opts:["to stand","to last, to take (time)","just, right now (colloquial)","يبقى"],ans:"just, right now (colloquial)",hint:"كلمة عامية تعني الآن تحديدًا في هذه اللحظة"}
+        {type:"mc",q:"Was bedeutet 'grade'?",opts:["يقف","يستغرق (وقت)","الآن تمامًا (عامية)","يبقى"],ans:"الآن تمامًا (عامية)",hint:"كلمة عامية تعني الآن تحديدًا في هذه اللحظة"}
       ]},
 // ─── L21: Rund um die Stadt ───
     {id:"deu_r2l15",title:"Rund um die Stadt",icon:"🏙️",xp:15,board:true,steps:[
@@ -659,10 +659,10 @@ const UNIT_02_AR = {n:2,lang:"de",srcLang:"ar",track:"v2",title:"Entschuldigung,
         {type:"teach",trg:"ander",src:"آخر، مختلف",pos:"adj",gender:null,note:"ضمير/صفة. يتغيّر حسب الجنس: der andere، die andere، das andere.",example:"A: Möchtest du dieses Hotel?\nB: Nein, das andere Hotel ist besser.",exampleSrc:"أ: بدك هالفندق؟\nب: لا، الفندق التاني أحسن.",funFact:"عبارة unter anderem (من بين أشياء أخرى) واختصارها u.a. شائعة جداً بالكتابة الألمانية."},
         {type:"teach",trg:"alles",src:"كل شيء",pos:"pron",gender:null,note:"ضمير. صيغة المحايد من all. عبارة Alles klar? = كل شي تمام؟",example:"A: Hast du alles?\nB: Ja, ich habe alles. Wir können gehen.",exampleSrc:"أ: أخذت كل شي؟\nب: نعم، أخذت كل شي. يلّا نروح.",funFact:"عبارة Alles Gute! (كل الخير!) هي التحية المعتادة لأعياد الميلاد والوداع وكل مناسبة."},
         {type:"teach",trg:"der Eintritt",src:"الدخول، رسم الدخول",pos:"noun",gender:"m",note:"اسم مذكر. تتكون من Ein (داخل) + Tritt (خطوة). رسم الدخول: der Eintrittspreis.",example:"A: Was kostet der Eintritt?\nB: Der Eintritt kostet zehn Euro.",exampleSrc:"أ: قديش رسم الدخول؟\nب: الدخول بعشر يورو.",funFact:"كتير من متاحف برلين عندها Eintritt frei (دخول مجاني) بأول يوم أحد من كل شهر."},
-        {type:"mc",q:"'Der See' is masculine and means 'the lake'. What does 'die See' (feminine) mean?",opts:["البحيرة","النهر","البركة","البحر"],ans:"البحر",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."},
+        {type:"mc",q:"'der See' مذكر ويعني 'البحيرة'. ماذا تعني 'die See' (مؤنث)؟",opts:["البحيرة","النهر","البركة","البحر"],ans:"البحر",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."},
         {type:"mc",q:"Was bedeutet 'das Reisebüro'?",opts:["كل شيء","المعلومات، مكتب المعلومات","اللافتة","وكالة السفر"],ans:"وكالة السفر",hint:"كلمة مركبة: Reise (سفر) + Büro (مكتب)"},
         {type:"fb",s:"Ja, {1} empfiehlt dieses Lokal.",a:["der Reiseführer"],opts:["der Ausflug","die Karte","der Reiseführer","die Vorsicht"],hint:"كلمة مركبة: Reise (رحلة) + Führer (مرشد) = كتاب أو شخص",sSrc:"نعم، المرشد يوصي بهذا المطعم."},
-        {type:"mc",q:"Was bedeutet 'ander'?",opts:["the view, the glance","المعلومات، مكتب المعلومات","other, different","the travel guide (book or person)"],ans:"other, different",hint:"صفة تدل على الاختلاف أو البديل"},
+        {type:"mc",q:"Was bedeutet 'ander'?",opts:["المنظر، النظرة","المعلومات، مكتب المعلومات","آخر، مختلف","دليل السفر (كتاب أو شخص)"],ans:"آخر، مختلف",hint:"صفة تدل على الاختلاف أو البديل"},
         {type:"fb",s:"Hast du {1}?",a:["alles"],opts:["alles","die Vorsicht","die Auskunft","das Beispiel"],hint:"كلمة تعني كل شيء بدون استثناء",sSrc:"هل لديك كل شيء؟"}
       ]}
   ]};

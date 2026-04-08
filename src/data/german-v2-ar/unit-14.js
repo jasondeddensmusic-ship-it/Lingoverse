@@ -37,19 +37,19 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"story",speaker:"mia",mood:"helpful",art:"de-ber-office-floor",trg:"Hier ist unsere Etage. Der Flur führt zur Kantine, und am Ende vom Gang ist der Konferenzraum. Die Besprechung beginnt um zehn.",src:"هذا طابقنا. الممر يؤدي إلى المطعم، وفي نهاية الممر توجد غرفة الاجتماعات. الاجتماع يبدأ الساعة العاشرة."},
         {type:"mc",q:"Mia sagt, die Besprechung ist im Konferenzraum. Was ist ein Konferenzraum?",opts:["Der Flur","Die Garderobe","Die Kantine","Ein Besprechungsraum"],ans:"Ein Besprechungsraum",hint:"هذه الكلمة المركبة تصف مكانًا مخصصًا في المكتب تُعقد فيه الاجتماعات الرسمية."},
         {type:"fb",s:"Die {1} beginnt um zehn Uhr im Konferenzraum.",a:["Besprechung"],opts:["Besprechung","Kantine","Garderobe","Etage"],hint:"أي كلمة تعني اجتماعًا أو مناقشة رسمية؟",sSrc:"يبدأ الاجتماع الساعة العاشرة في غرفة الاجتماعات."},
-        {type:"mc",q:"'Gute Zusammenarbeit ist hier sehr wichtig.' Was bedeutet Zusammenarbeit?",opts:["overtime","collaboration","daily routine","meeting"],ans:"collaboration",hint:"كلمة مركبة تحتوي 'Arbeit' (عمل). ما الجزء الأول الذي يحدد نوع العمل؟"},
+        {type:"mc",q:"'Gute Zusammenarbeit ist hier sehr wichtig.' Was bedeutet Zusammenarbeit?",opts:["ساعات إضافية","تعاون","روتين يومي","اجتماع"],ans:"تعاون",hint:"كلمة مركبة تحتوي 'Arbeit' (عمل). ما الجزء الأول الذي يحدد نوع العمل؟"},
         {type:"mc",q:"Was bedeutet 'der Tagesablauf'?",opts:[
-    "the company, the operation",
-    "the canteen, the cafeteria",
-    "with each other, together",
-    "the daily routine, the daily schedule"
-],ans:"the daily routine, the daily schedule",hint:"كلمة مركبة: Tages (يوم) + Ablauf (مجرى) = برنامج يومي"},
+    "الشركة / المؤسسة",
+    "المقصف / الكافيتيريا",
+    "مع بعضهم البعض",
+    "الروتين اليومي / الجدول اليومي"
+],ans:"الروتين اليومي / الجدول اليومي",hint:"كلمة مركبة: Tages (يوم) + Ablauf (مجرى) = برنامج يومي"},
         {type:"fb",s:"Wie ist {1} in deinem Team?",a:["die Zusammenarbeit"],opts:["die Zusammenarbeit","die Konferenz","der Betrieb","die Abteilung"],hint:"كلمة مركبة: zusammen (معًا) + Arbeit (عمل)",sSrc:"كيف التعاون في فريقك؟"},
-        {type:"mc",q:"Was bedeutet 'einrichten'?",opts:["to set up, to furnish","the corridor, the aisle","the hallway, the corridor","firm, fixed, solid"],ans:"to set up, to furnish",hint:"فعل مركب: ein- + richten = ترتيب وتجهيز مكان"},
+        {type:"mc",q:"Was bedeutet 'einrichten'?",opts:["يُجهّز / يُؤثّث","الممر / الرواق","الردهة / الممر","ثابت / صلب"],ans:"يُجهّز / يُؤثّث",hint:"فعل مركب: ein- + richten = ترتيب وتجهيز مكان"},
         {type:"fb",s:"Kannst du bitte die Unterlagen {1}?",a:["ordnen"],opts:["ordnen","innen","begrüßen","aufmerksam"],hint:"فعل يعني ترتيب الأشياء بنظام معين",sSrc:"هل يمكنك ترتيب الوثائق من فضلك؟"},
-        {type:"mc",q:"Was bedeutet 'gemeinsam'?",opts:["the company, the operation","together, jointly, shared","the collaboration, the teamwork","the conference"],ans:"together, jointly, shared",hint:"كلمة تعني المشاركة والعمل مع الآخرين كفريق"},
+        {type:"mc",q:"Was bedeutet 'gemeinsam'?",opts:["الشركة / المؤسسة","معاً / بشكل مشترك","التعاون / العمل الجماعي","المؤتمر"],ans:"معاً / بشكل مشترك",hint:"كلمة تعني المشاركة والعمل مع الآخرين كفريق"},
         {type:"fb",s:"Dein Schreibtisch ist sehr {1}!",a:["ordentlich"],opts:["die Besprechung","die Kantine","der Betrieb","ordentlich"],hint:"صفة تصف مكانًا مرتبًا ونظيفًا",sSrc:"مكتبك مرتّب جداً!"},
-        {type:"mc",q:"Was bedeutet 'miteinander'?",opts:["with each other, together","the company, the operation","attentive, observant","together, jointly, shared"],ans:"with each other, together",hint:"ظرف متبادل يعني مع بعضهم البعض"}
+        {type:"mc",q:"Was bedeutet 'miteinander'?",opts:["مع بعضهم البعض","الشركة / المؤسسة","منتبه / يقظ","معاً / بشكل مشترك"],ans:"مع بعضهم البعض",hint:"ظرف متبادل يعني مع بعضهم البعض"}
       ]},
 // ─── L3: Das Büro ───
     {id:"deu_r14l2",title:"Das Büro",icon:"🖥️",xp:15,board:true,steps:[
@@ -94,7 +94,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
 ]},
         {type:"story",speaker:"mia",mood:"conspiratorial",art:"de-ber-office-hallway",trg:"So, dein Arbeitsplatz ist eingerichtet. Jetzt zeige ich dir den wichtigsten Ort im ganzen Betrieb. Die Kaffeküche.",src:"إذن، مكان عملك جاهز. الآن سأريك أهم مكان في كامل الشركة. مطبخ القهوة."},
         {type:"fb",s:"In welchem {1} ist der Vertrag? Im blauen auf dem Regal.",a:["Ordner"],opts:["Ordner","Kuli","Regal","Mappe"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"في أي ملف العقد؟ في الأزرق على الرف."},
-        {type:"mc",q:"Was bedeutet 'die Tabelle'?",opts:["the table, the spreadsheet","to type, to tap","the plug","the key, the button"],ans:"the table, the spreadsheet",hint:"كلمة مؤنثة (die) تصف جدولًا منظمًا بصفوف وأعمدة"}
+        {type:"mc",q:"Was bedeutet 'die Tabelle'?",opts:["الجدول / جدول البيانات","يكتب / ينقر","القابس","المفتاح / الزر"],ans:"الجدول / جدول البيانات",hint:"كلمة مؤنثة (die) تصف جدولًا منظمًا بصفوف وأعمدة"}
       ]},
 // ─── L5: Die Kaffeküche ───
     {id:"deu_r14l3",title:"Die Kaffeküche",icon:"☕",xp:15,board:true,steps:[
@@ -227,7 +227,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"mc",q:"Wie heißt das Loch in der Decke, durch das Licht kommt?",opts:["Das Dach","Die Kerze","Die Decke hat ein Loch","Der Stil"],ans:"Die Decke hat ein Loch",hint:"السؤال يصف فتحة في السقف. أي خيار يتناول هذا مباشرة؟"},
         {type:"fb",s:"Die {1} der Konferenz war perfekt geplant.",a:["Organisation"],opts:["Organisation","Liste","Stil","Kerze"],hint:"التخطيط والتنسيق المنهجي لحدث.",sSrc:"تنظيم المؤتمر خُطط بشكل مثالي."},
         {type:"mc",q:"Was steht auf deutschen Geschäftsbriefen vor der Unterschrift?",opts:["Im Auftrag von","Auf der Liste","Im Stil von","Mit dem Direktor"],ans:"Im Auftrag von",hint:"هذا الاختصار (i.A.) يعني أن شخصًا يوقع بالنيابة عن شخص آخر."},
-        {type:"mc",q:"Was bedeutet 'der Auftrag'?",opts:["the order, the task","the director","the style","the hole"],ans:"the order, the task",hint:"فكّر في تلقي تعليمات من عميل أو مدير لإنجاز مهمة."},
+        {type:"mc",q:"Was bedeutet 'der Auftrag'?",opts:["الطلب / المهمة","المدير","الأسلوب","الثقب"],ans:"الطلب / المهمة",hint:"فكّر في تلقي تعليمات من عميل أو مدير لإنجاز مهمة."},
         {type:"fb",s:"Auf der {1} stehen sieben Punkte für die Besprechung.",a:["Liste"],opts:["Liste","Decke","Kerze","Organisation"],hint:"وثيقة منظمة بنقاط مرقمة للعمل عليها.",sSrc:"توجد سبع نقاط على القائمة للاجتماع."}
       ]},
 // ─── L8: Grammatik im Büro II ───
@@ -437,11 +437,11 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
 ]},
         {type:"drag_fill",s:"Der Handwerker, {1} gerufen {2}, hat das Regal {3}.",blanks:{"1":"der","2":"wurde","3":"repariert"},pool:["der","den","wurde","wird","repariert","reparieren"],hint:"الحِرَفي المذكر الذي استُدعي (مرفوع موصول + مبني للمجهول). أصلح الرف.",sSrc:"الحِرَفي الذي استُدعي أصلح الرف."},
         {type:"story",speaker:"verumius",mood:"bewildered",art:"de-ber-kaffeeküche-cake",trg:"Also. In Deutschland bringt man seinen eigenen Geburtstagskuchen mit. Man macht seinen eigenen Kaffee. Und man nimmt niemals den letzten Keks. Verstanden.",src:"إذن. في ألمانيا تحضر كعكة عيد ميلادك بنفسك. تصنع قهوتك بنفسك. ولا تأخذ آخر بسكويت أبدًا. مفهوم."},
-        {type:"mc",q:"Was bedeutet 'aufnehmen'?",opts:["the craftsperson, the tradesperson","to glue, to stick","to record, to absorb, to take in","the hammer"],ans:"to record, to absorb, to take in",hint:"فعل مركب: auf- + nehmen (يأخذ) = يستقبل أو يسجّل"},
+        {type:"mc",q:"Was bedeutet 'aufnehmen'?",opts:["الحرفي / صاحب المهنة","يلصق","يسجّل / يستوعب","المطرقة"],ans:"يسجّل / يستوعب",hint:"فعل مركب: auf- + nehmen (يأخذ) = يستقبل أو يسجّل"},
         {type:"fb",s:"Wie sagt man 'to use' auf Deutsch? {1}",a:["gebrauchen"],opts:["stecken","der Handwerker","gebrauchen","einsetzen"],hint:"فعل يعني استخدام شيء لغرض معين",sSrc:"كيف تقول 'to use' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'einsetzen'?",opts:["the hammer","to deploy, to use, to insert","the tool(s)","vertical, perpendicular"],ans:"to deploy, to use, to insert",hint:"فعل مركب: ein- + setzen (يضع) = يستخدم في مهمة"},
+        {type:"mc",q:"Was bedeutet 'einsetzen'?",opts:["المطرقة","ينشر / يستخدم / يُدخل","الأداة / الأدوات","عمودي / متعامد"],ans:"ينشر / يستخدم / يُدخل",hint:"فعل مركب: ein- + setzen (يضع) = يستخدم في مهمة"},
         {type:"fb",s:"Soll der Tisch rund oder {1} sein?",a:["eckig"],opts:["einsetzen","der Kasten","die Schachtel","eckig"],hint:"صفة تصف شكلًا ذا زوايا، عكس rund",sSrc:"لازم تكون الطاولة مدوّرة أو مربّعة؟"},
-        {type:"mc",q:"Was bedeutet 'senkrecht'?",opts:["the box, the packet","to put in, to insert, to be stuck","vertical, perpendicular","to deploy, to use, to insert"],ans:"vertical, perpendicular",hint:"صفة تصف الوضع العمودي بزاوية 90 درجة"}
+        {type:"mc",q:"Was bedeutet 'senkrecht'?",opts:["الصندوق / الطرد","يضع / يُدخل","عمودي / متعامد","ينشر / يستخدم / يُدخل"],ans:"عمودي / متعامد",hint:"صفة تصف الوضع العمودي بزاوية 90 درجة"}
       ]},
 // ─── L13: Alles zusammen ───
     {id:"deu_r14l10",title:"Alles zusammen",icon:"🧪",xp:15,board:true,steps:[
@@ -467,10 +467,10 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
 ]},
         {type:"mc",q:"Was ist der Unterschied zwischen 'der Sender' und 'der Kanal'?",opts:[
     "Es gibt keinen Unterschied",
-    "Sender ist die Station, Kanal ist die Nummer",
+    "Sender هي المحطة، Kanal هو الرقم",
     "Sender ist für Radio, Kanal ist für TV",
     "Kanal ist österreichisch für Sender"
-],ans:"Sender ist die Station, Kanal ist die Nummer",hint:"واحدة تشير إلى منظمة البث والأخرى إلى التردد المرقم الذي تضبطه."},
+],ans:"Sender هي المحطة، Kanal هو الرقم",hint:"واحدة تشير إلى منظمة البث والأخرى إلى التردد المرقم الذي تضبطه."},
         {type:"fb",s:"Die alte Videokassette {1} im Keller gefunden.",a:["wurde"],opts:["wurde","wird","werden","worden"],hint:"الكاسيت وُجد. مبني للمجهول ماضي مفرد.",sSrc:"شريط الفيديو القديم وُجد في القبو."},
         {type:"fb",s:"Wo ist die {1}? Ich kann den Fernseher nicht einschalten.",a:["Fernbedienung"],opts:["Fernbedienung","Kassette","Lautsprecher","Kanal"],hint:"الجهاز المحمول المستخدم للتحكم في التلفاز عن بعد.",sSrc:"أين جهاز التحكم؟ لا أستطيع تشغيل التلفاز."},
         {type:"match",pairs:[
@@ -479,14 +479,14 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     {trg:"der Lautsprecher",src:"مكبّر الصوت"},
     {trg:"der Kanal",src:"القناة"}
 ]},
-        {type:"mc",q:"Was bedeutet 'der Sender'?",opts:["the TV or radio station","the remote control","the cassette","the channel"],ans:"the TV or radio station",hint:"فكّر في من يبث إشارة البث. تعني أيضًا مرسل."},
+        {type:"mc",q:"Was bedeutet 'der Sender'?",opts:["محطة التلفزيون أو الإذاعة","جهاز التحكم عن بُعد","الشريط / الكاسيت","القناة"],ans:"محطة التلفزيون أو الإذاعة",hint:"فكّر في من يبث إشارة البث. تعني أيضًا مرسل."},
         {type:"fb",s:"Ich suche die {1} für den Fernseher.",a:["Fernbedienung"],opts:["Fernbedienung","Kassette","Lautsprecher","Laufwerk"],hint:"تستخدم هذا الجهاز لتغيير القنوات دون النهوض.",sSrc:"أبحث عن جهاز التحكم للتلفاز."},
         {type:"mc",q:"Was ist der Unterschied zwischen 'der Fernseher' und 'das Fernsehen'?",opts:[
-    "Fernseher ist das Gerät, Fernsehen ist das Medium",
+    "Fernseher هو الجهاز، Fernsehen هو الوسيلة",
     "Es gibt keinen Unterschied",
     "Fernsehen ist österreichisch",
     "Fernseher ist formeller"
-],ans:"Fernseher ist das Gerät, Fernsehen ist das Medium",hint:"كلمة تشير إلى الجهاز المادي الذي يمكنك لمسه، والأخرى إلى وسيلة البث ذاتها."}
+],ans:"Fernseher هو الجهاز، Fernsehen هو الوسيلة",hint:"كلمة تشير إلى الجهاز المادي الذي يمكنك لمسه، والأخرى إلى وسيلة البث ذاتها."}
       ]},
 // ─── L14: Computer und Software ───
     {id:"deu_r14l11",title:"Computer und Software",icon:"💻",xp:15,board:true,steps:[
@@ -554,7 +554,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"der Bau",src:"البناء، الإنشاء",pos:"noun",gender:"m",note:"'Der Bau' = البناء أو مبنى قيد الإنشاء.\nالجمع: die Bauten (مبانٍ) أو die Baue (جحور حيوانات).",example:"A: Neben unserem Büro ist ein Bau.\nB: Ja, da wird ein neues Gebäude gebaut.\nA: Der Bau wurde letztes Jahr begonnen.\nB: Er soll nächstes Jahr fertig sein.",exampleSrc:"أ: بجانب مكتبنا موقع بناء.\nب: نعم، يُبنى مبنى جديد هناك.\nأ: البناء بدأ العام الماضي.\nب: يجب أن ينتهي العام القادم.",funFact:"Bau لها معانٍ كثيرة: بناء ومبنى وهيكل وجحر (حيوان). 'Baufirma' (شركة بناء) و'Bauarbeiter' (عامل بناء) و'Baustelle' (موقع بناء). ألمانيا دائمًا في حالة بناء Bau."},
         {type:"teach",trg:"die Kabine",src:"الكابينة، الحجرة",pos:"noun",gender:"f",note:"Umkleidekabine (غرفة تبديل ملابس)، Telefonkabine (كشك هاتف).\nمن الفرنسية 'cabine.'",example:"A: Wo ist die Umkleidekabine?\nB: Am Ende des Korridors.\nA: Gibt es auch eine Duschkabine?\nB: Ja, die wurde letztes Jahr eingebaut.",exampleSrc:"أ: أين غرفة تبديل الملابس؟\nب: في نهاية الممر.\nأ: هل توجد أيضًا كابينة استحمام؟\nب: نعم، رُكِّبت العام الماضي.",funFact:"Kabine تظهر في مركبات كثيرة: Umkleidekabine (غرفة تبديل ملابس) وTelefonkabine (كشك هاتف) وFlugzeugkabine (مقصورة طائرة) وDuschkabine (كابينة استحمام). كشك الهاتف Kabine شبه منقرض."},
         {type:"teach",trg:"das Schaufenster",src:"واجهة المتجر",pos:"noun",gender:"n",note:"Schau (نظرة/عرض) + Fenster (نافذة). حرفيًا 'نافذة النظر.'\n'Schaufensterbummel' = التسوق بالنظر.",example:"A: Hast du das Schaufenster gesehen?\nB: Ja, es wurde neu dekoriert.\nA: Die Produkte im Schaufenster sehen toll aus.\nB: Schaufensterbummel machen wir am Wochenende.",exampleSrc:"أ: هل رأيت واجهة المتجر؟\nب: نعم، زُيِّنت حديثًا.\nأ: المنتجات في الواجهة تبدو رائعة.\nب: سنتسوق بالنظر في نهاية الأسبوع.",funFact:"'Schaufensterbummel' (جولة التسوق بالنظر) هواية ألمانية محبوبة. 'Schaufensterpuppe' (دمية الواجهة) هي المانيكان. الواجهة Schaufenster هي الحد بين النظر والشراء."},
-        {type:"mc",q:"Was bedeutet 'das Treppenhaus'?",opts:["the stairwell","the roof","the corridor","the elevator"],ans:"the stairwell",hint:"Treppe تعني درج، Haus تعني بيت. معًا تشكّلان ملمحًا معماريًا."},
+        {type:"mc",q:"Was bedeutet 'das Treppenhaus'?",opts:["بيت الدرج","السطح","الممر","المصعد"],ans:"بيت الدرج",hint:"Treppe تعني درج، Haus تعني بيت. معًا تشكّلان ملمحًا معماريًا."},
         {type:"fb",s:"Das {1} des Bürogebäudes wurde letztes Jahr renoviert.",a:["Dach"],opts:["Dach","Treppenhaus","Korridor","Bau"],hint:"الغطاء العلوي للمبنى جُدِّد العام الماضي.",sSrc:"سطح مبنى المكتب جُدِّد العام الماضي."},
         {type:"teach",trg:"der Lift",src:"المصعد",pos:"noun",gender:"m",note:"من الإنجليزية 'lift.' أكثر شيوعًا في النمسا وسويسرا.\nفي ألمانيا 'Aufzug' أو 'Fahrstuhl' أكثر معيارية.",example:"A: Nehmen wir den Lift oder die Treppe?\nB: Den Lift. Meine Beine sind müde.\nA: Der Lift wurde gestern repariert.\nB: Gut, dann funktioniert er wieder.",exampleSrc:"أ: هل نأخذ المصعد أم الدرج؟\nب: المصعد. ساقاي متعبتان.\nأ: المصعد أُصلح أمس.\nب: جيد، إذن يعمل مجددًا.",funFact:"Lift أكثر شيوعًا في النمسا وسويسرا. ألمانيا تفضل Aufzug أو Fahrstuhl (كرسي القيادة). الثلاثة تعني مصعد. الفروق المفرداتية الإقليمية داخل الدول الناطقة بالألمانية هائلة."},
         {type:"teach",trg:"die Stiege",src:"الدرج (نمساوي)",pos:"noun",gender:"f",note:"نمساوية وجنوب ألمانية لـ 'Treppe' (درج).\nStiegenhaus = Treppenhaus = بئر الدرج.",example:"A: Nehmen wir die Stiege oder den Lift?\nB: Die Stiege. Ist gesünder.\nA: In Deutschland sagt man Treppe.\nB: Ja, Stiege ist österreichisch.",exampleSrc:"أ: هل نأخذ الدرج أم المصعد؟\nب: الدرج. أصح.\nأ: في ألمانيا يقولون Treppe.\nب: نعم، Stiege نمساوية.",funFact:"Stiege هي الكلمة النمساوية للدرج (Treppe). Stiegenhaus = Treppenhaus = بئر الدرج. الألمانية النمساوية لديها مئات الكلمات الفريدة. تعلّمها جزء من إتقان الألمانية لكامل منطقة DACH."},
@@ -579,7 +579,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"der Wecker",src:"المنبّه",pos:"noun",gender:"m",note:"من 'wecken' (يوقظ). عدو كل صباح إثنين.\n'Der Wecker klingelt um sechs' أكثر جملة مرعبة في الألمانية.",example:"A: Um wie viel Uhr klingelt dein Wecker?\nB: Um sechs. Jeden Morgen.\nA: Das ist früh. Mein Wecker wird auf sieben gestellt.\nB: Du hast es gut. Um sechs wird bei mir aufgestanden.",exampleSrc:"أ: في أي ساعة يرنّ منبهك؟\nب: السادسة. كل صباح.\nأ: هذا مبكر. منبهي مضبوط على السابعة.\nب: أنت محظوظ. أستيقظ السادسة.",funFact:"المنبّه der Wecker عدو كل صباح إثنين. 'Wecker überhören' (النوم رغم المنبه) كابوس كل ألماني. بعض الأشخاص لديهم عدة منبهات. كلمة Wecker تعني أيضًا شخصًا يوقظك."},
         {type:"teach",trg:"der Schlaf",src:"النوم",pos:"noun",gender:"m",note:"نفس جذر الإنجليزية 'sleep.' 'Guten Schlaf!' = نومًا هنيئًا.\nSchlafzimmer (غرفة نوم)، Mittagsschlaf (قيلولة).",example:"A: Wie war dein Schlaf letzte Nacht?\nB: Schlecht. Ich habe nur vier Stunden geschlafen.\nA: Das ist zu wenig. Schlaf ist wichtig.\nB: Ja, heute Abend wird früh ins Bett gegangen.",exampleSrc:"أ: كيف كان نومك الليلة الماضية؟\nب: سيئ. نمت أربع ساعات فقط.\nأ: هذا قليل جدًا. النوم مهم.\nب: نعم، الليلة سأنام مبكرًا.",funFact:"يقدّر الألمان نومهم. 'Mittagsschlaf' (القيلولة) تقليد خاصة أيام الأحد. 'Schlaf gut!' (نم جيدًا) تحية المساء الألمانية المعيارية. Schlafmütze (قبعة النوم) تعني شخصًا نعسان."},
         {type:"fb",s:"Nach dem Feierabend liege ich auf der {1}.",a:["Couch"],opts:["Couch","Vase","Kabine","Stiege"],hint:"قطعة الأثاث التي تسترخي عليها في البيت بعد العمل.",sSrc:"بعد العمل أستلقي على الأريكة."},
-        {type:"mc",q:"Was ist 'der Wecker'?",opts:["the alarm clock","the sleep","the oven","the roof"],ans:"the alarm clock",hint:"تأتي من 'wecken' (يوقظ) وترنّ كل صباح."},
+        {type:"mc",q:"Was ist 'der Wecker'?",opts:["المنبّه","النوم","الفرن","السطح"],ans:"المنبّه",hint:"تأتي من 'wecken' (يوقظ) وترنّ كل صباح."},
         {type:"teach",trg:"der Fleck",src:"البقعة",pos:"noun",gender:"m",note:"'Ein Fleck auf dem Hemd' = بقعة على القميص.\n'Blinder Fleck' = نقطة عمياء.",example:"A: Da ist ein Fleck auf dem Teppich!\nB: Oh nein. Kaffee? Der wurde wahrscheinlich verschüttet.\nA: Der Fleck muss gereinigt werden.\nB: Der Hausmeister wird informiert.",exampleSrc:"أ: يوجد بقعة على السجاد!\nب: يا إلهي. قهوة؟ على الأرجح انسكبت.\nأ: البقعة تحتاج تنظيفًا.\nب: سيُبلَّغ حارس المبنى.",funFact:"'Am rechten Fleck' (في المكان الصحيح) تعني في المكان الصحيح. 'Das Herz auf dem rechten Fleck haben' تعني أن قلبك في المكان الصحيح، أي أنك شخص طيب."},
         {type:"teach",trg:"die Nadel",src:"الإبرة، الدبوس",pos:"noun",gender:"f",note:"'Die Nadel im Heuhaufen suchen' = البحث عن إبرة في كومة قش.\nNähnadel (إبرة خياطة)، Stecknadel (دبوس).",example:"A: Hast du eine Nadel? Der Knopf ist abgefallen.\nB: Ja, eine Nadel und Faden.\nA: Danke. Der Knopf wird schnell wieder angenäht.\nB: Wie praktisch!",exampleSrc:"أ: هل لديك إبرة؟ الزر سقط.\nب: نعم، إبرة وخيط.\nأ: شكرًا. سيُخاط الزر بسرعة.\nب: كم هذا عملي!",funFact:"'Die Nadel im Heuhaufen suchen' (البحث عن إبرة في كومة قش) موجودة في الألمانية أيضًا. Nadelwald (غابة إبر) هي غابة صنوبرية. Tannennadeln (إبر التنوب) تغطي أرضية الغابة."},
         {type:"teach",trg:"der Nagel",src:"المسمار",pos:"noun",gender:"m",note:"المسمار وظفر اليد.\n'Den Nagel auf den Kopf treffen' = يصيب المسمار على رأسه.",example:"A: Ich brauche einen Nagel für das Bild.\nB: Der Hammer liegt im Werkzeugkasten.\nA: Danke. Der Nagel wird jetzt in die Wand geschlagen.\nB: Aber nicht zu laut! Es wird noch gearbeitet.",exampleSrc:"أ: أحتاج مسمارًا للصورة.\nب: المطرقة في صندوق الأدوات.\nأ: شكرًا. سيُدقّ المسمار في الحائط الآن.\nب: لكن ليس بصوت عالٍ جدًا! الناس ما زالوا يعملون.",funFact:"'Den Nagel auf den Kopf treffen' (يصيب المسمار على رأسه) تعني أن تكون محقًا تمامًا. 'Nägel mit Köpfen machen' (يصنع مسامير برؤوس) تعني أن تنجز الأمور بشكل صحيح وشامل."},
@@ -599,7 +599,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     {trg:"das Schaufenster",src:"واجهة المتجر"},
     {trg:"der Korridor",src:"الممر"}
 ]},
-        {type:"mc",q:"Was bedeutet 'der Fleck'?",opts:["the spot, the stain","the needle","the nail","the alarm clock"],ans:"the spot, the stain",hint:"شيء غير مرغوب يقع على القماش أو السجاد أو سطح ويحتاج تنظيفًا."},
+        {type:"mc",q:"Was bedeutet 'der Fleck'?",opts:["البقعة / اللطخة","الإبرة","المسمار","المنبّه"],ans:"البقعة / اللطخة",hint:"شيء غير مرغوب يقع على القماش أو السجاد أو سطح ويحتاج تنظيفًا."},
         {type:"mc",q:"Welches Wort ist KEIN österreichisches Synonym?",opts:["der Korridor","der Lift","die Stiege","der Fauteuil"],ans:"der Korridor",hint:"ثلاثة من هذه متغيرات نمساوية تحديدًا. واحدة تُستخدم في جميع المناطق الناطقة بالألمانية."}
       ]},
 // ─── L17: Anleitungen und Abläufe ───
@@ -615,11 +615,11 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"die Bedienungsanleitung",src:"دليل الاستخدام، تعليمات التشغيل",pos:"noun",gender:"f",note:"Bedienung (تشغيل) + Anleitung (تعليمات).\nالألمان فعلًا يقرأون أدلة الاستخدام Bedienungsanleitungen.",example:"A: Wo ist die Bedienungsanleitung für den Kopierer?\nB: Im Ordner neben dem Regal.\nA: Die Bedienungsanleitung hat dreißig Seiten!\nB: Ja, aber sie wurde übersichtlich geschrieben.",exampleSrc:"أ: أين دليل استخدام آلة النسخ؟\nب: في الملف بجانب الرف.\nأ: دليل الاستخدام ثلاثون صفحة!\nب: نعم، لكنه كُتب بوضوح.",funFact:"Bedienungsanleitung من أطول الكلمات المركبة الشائعة في الحياة المكتبية الألمانية. الألمان فعلًا يقرأون أدلتهم. في دول أخرى تُتجاهل بشكل مشهور."},
         {type:"teach",trg:"die Gebrauchsanweisung",src:"إرشادات الاستعمال",pos:"noun",gender:"f",note:"Gebrauch (استعمال) + Anweisung (تعليمة). أكثر رسمية.\nتوجد على الأدوية ومنتجات التنظيف والمعدات التقنية.",example:"A: Steht in der Gebrauchsanweisung, wie man das reinigt?\nB: Ja, auf Seite drei. Es wurde genau beschrieben.\nA: Gut, dann lese ich die Gebrauchsanweisung.\nB: Die Gebrauchsanweisung ist auch online verfügbar.",exampleSrc:"أ: هل إرشادات الاستعمال تقول كيف ينظَّف؟\nب: نعم، في الصفحة الثالثة. وُصف بالضبط.\nأ: جيد، إذن سأقرأ الإرشادات.\nب: إرشادات الاستعمال متاحة أيضًا على الإنترنت.",funFact:"Gebrauchsanweisung هي الصيغة الرسمية لـ Bedienungsanleitung. الأدوية دائمًا لديها Gebrauchsanweisung (تُسمى أيضًا Beipackzettel). قراءة إرشادات الاستعمال قبل استخدام الدواء عادة ألمانية."},
         {type:"mc",q:"What is the difference between 'Anleitung' and 'Gebrauchsanweisung'?",opts:[
-    "Gebrauchsanweisung is more formal, found on medicine and technical products",
-    "Anleitung is only for cooking recipes",
-    "They mean completely different things",
-    "Gebrauchsanweisung is informal slang"
-],ans:"Gebrauchsanweisung is more formal, found on medicine and technical products",hint:"كلتاهما تعنيان تعليمات، لكن واحدة أكثر رسمية وتظهر على الأدوية."},
+    "Gebrauchsanweisung أكثر رسمية، توجد على الأدوية والمنتجات التقنية",
+    "Anleitung فقط لوصفات الطبخ",
+    "معناهما مختلف تماماً",
+    "Gebrauchsanweisung عامية غير رسمية"
+],ans:"Gebrauchsanweisung أكثر رسمية، توجد على الأدوية والمنتجات التقنية",hint:"كلتاهما تعنيان تعليمات، لكن واحدة أكثر رسمية وتظهر على الأدوية."},
         {type:"teach",trg:"der Betriebsrat",src:"مجلس العمال",pos:"noun",gender:"m",note:"Betrieb (شركة) + Rat (مجلس). هيئة موظفين مفروضة قانونيًا.\nلديها سلطة حقيقية: التوظيف والفصل وظروف العمل.",example:"A: Was macht der Betriebsrat?\nB: Er vertritt die Interessen der Mitarbeiter.\nA: Und er wird von den Mitarbeitern gewählt?\nB: Ja, alle vier Jahre. Die Wahl wird geheim durchgeführt.",exampleSrc:"أ: ماذا يفعل مجلس العمال؟\nب: يمثل مصالح الموظفين.\nأ: ويُنتخب من قبل الموظفين؟\nب: نعم، كل أربع سنوات. الانتخاب يُجرى بسرية.",funFact:"مجلس العمال Betriebsrat هو هيئة تمثيل موظفين مفروضة قانونيًا في الشركات الألمانية بأكثر من 5 موظفين. لديه سلطة حقيقية على التوظيف والفصل وظروف العمل. إنه شكل ألماني فريد من الديمقراطية في مكان العمل."},
         {type:"teach",trg:"die Mobilbox",src:"صندوق البريد الصوتي",pos:"noun",gender:"f",note:"Mobil (متنقل) + Box. البريد الصوتي لهاتفك المحمول.\nتُسمى أيضًا 'Mailbox' بالألمانية.",example:"A: Ich habe dich angerufen, aber du warst nicht da.\nB: Hast du auf die Mobilbox gesprochen?\nA: Ja, eine Nachricht wurde hinterlassen.\nB: Ich höre sie gleich ab.",exampleSrc:"أ: اتصلت بك لكنك لم تكن هناك.\nب: هل تحدثت على البريد الصوتي؟\nأ: نعم، تُركت رسالة.\nب: سأستمع إليها حالًا.",funFact:"يسمي الألمان البريد الصوتي 'Mobilbox' أو 'Mailbox.' 'Bitte hinterlassen Sie eine Nachricht nach dem Signalton' (يرجى ترك رسالة بعد الصافرة) هي تحية البريد الصوتي الألمانية المعيارية."},
         {type:"teach",trg:"die Mobilität",src:"التنقل، الحركية",pos:"noun",gender:"f",note:"'Elektromobilität' موضوع ضخم في ألمانيا.\nلاحقة -ität دائمًا مؤنثة.",example:"A: Mobilität ist wichtig für den Job.\nB: Ja, flexible Mobilität wird erwartet.\nA: Wird ein Firmenwagen zur Verfügung gestellt?\nB: Nein, aber ein Jobticket für den Nahverkehr.",exampleSrc:"أ: التنقل مهم للعمل.\nب: نعم، تنقل مرن متوقع.\nأ: هل توفَّر سيارة شركة؟\nب: لا، لكن تذكرة عمل للنقل العام.",funFact:"لاحقة -ität دائمًا مؤنثة وتوافق الإنجليزية -ity: Mobilität وQualität وAktivität وUniversität. قاعدة جنس مجانية لمئات الأسماء الألمانية."},
@@ -635,7 +635,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"teach",trg:"einfügen",src:"يُدرج، يلصق",pos:"verb",gender:null,note:"Ein- (داخل) + fügen (يناسب). 'Text einfügen' = لصق نص.\nCtrl+V بالألمانية هو 'Einfügen.'",example:"A: Kannst du den Text hier einfügen?\nB: Ja, er wird sofort eingefügt.\nA: Der Text wurde von der Leiterin geschrieben.\nB: Gut, ich füge ihn in das Dokument ein.",exampleSrc:"أ: هل يمكنك إدراج النص هنا؟\nب: نعم، سيُدرج حالًا.\nأ: النص كتبته المديرة.\nب: جيد، سأدرجه في المستند.",funFact:"في قوائم الحاسوب الألمانية 'Einfügen' هو أمر اللصق (Ctrl+V). 'Sich einfügen' تعني يندمج. الموظفون الجدد يجب أن 'sich ins Team einfügen' (يندمجوا في الفريق)."},
         {type:"teach",trg:"herausfinden",src:"يكتشف",pos:"verb",gender:null,note:"Heraus- (خارج) + finden (يجد). فعل منفصل.\n'Ich muss herausfinden, wann Feierabend ist.'",example:"A: Hast du herausgefunden, wann die Konferenz ist?\nB: Ja, nächsten Dienstag. Es wurde gestern festgelegt.\nA: Gut. Ich muss noch herausfinden, wer teilnimmt.\nB: Das wird von der Sekretärin organisiert.",exampleSrc:"أ: هل اكتشفت متى المؤتمر؟\nب: نعم، الثلاثاء القادم. حُدد أمس.\nأ: جيد. ما زلت أحتاج معرفة من يشارك.\nب: ذلك تنظمه السكرتيرة.",funFact:"herausfinden هو فعل التحقيق في الألمانية. تكتشف الأشياء وتجدها. 'Es stellte sich heraus' (تبيّن) تُستخدم عند الاكتشافات. كل رواية بوليسية Krimi جيدة تدور حول herausfinden."},
         {type:"fb",s:"Die Besprechung {1} heute aus, weil der Strom ausgefallen ist.",a:["fällt"],opts:["fällt","fallen","fiel","gefallen"],hint:"الاجتماع ملغى (مضارع، غائب مفرد).",sSrc:"الاجتماع ملغى اليوم لأن الكهرباء انقطعت."},
-        {type:"mc",q:"Was bedeutet 'einfügen' am Computer?",opts:["to paste","to delete","to save","to print"],ans:"to paste",hint:"هذه هي الكلمة الألمانية لاختصار لوحة المفاتيح Ctrl+V."}
+        {type:"mc",q:"Was bedeutet 'einfügen' am Computer?",opts:["يلصق (Ctrl+V)","يحذف","يحفظ","يطبع"],ans:"يلصق (Ctrl+V)",hint:"هذه هي الكلمة الألمانية لاختصار لوحة المفاتيح Ctrl+V."}
       ]},
 // ─── L18: Alltag und Feierabend ───
     {id:"deu_r14l15",title:"Alltag und Feierabend",icon:"🌇",xp:10,board:true,steps:[
@@ -660,7 +660,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
         {type:"fb",s:"Das Kabel wird hinten {1}.",a:["angeschlossen"],opts:["angeschlossen","ausgefallen","aufgelöst","eingefügt"],hint:"يُوصل الكابل من الخلف (مبني للمجهول، اسم المفعول).",sSrc:"يُوصل الكابل من الخلف."},
         {type:"tip",title:"Feierabend: The Sacred Boundary",text:"Feierabend حرفيًا تعني 'مساء الاحتفال.'\nتُحدد نهاية العمل وبداية وقت الفراغ.\n\nيأخذ الألمان هذا الحد بجدية:\n- رسائل العمل بعد Feierabend مستهجنة\n- بعض الشركات تحجب خوادم البريد بعد السادسة مساءً\n- مجلس العمال يراقب الالتزام\n- العمل الإضافي يُوثَّق ويُعوَّض\n\nالتوازن بين العمل والحياة ليس شعارًا في ألمانيا.\nإنه قيمة ثقافية محمية بالقانون.",deepDive:{title:"The Arbeitszeitgesetz (Working Hours Act)",text:"ينظم قانون ساعات العمل الألماني Arbeitszeitgesetz:\n- بحد أقصى 8 ساعات يوميًا (10 في الاستثناءات)\n- بحد أدنى 11 ساعة راحة بين أيام العمل\n- راحة أيام الأحد والعطل الرسمية\n- تعويض العمل الإضافي خلال 6 أشهر\n\nمجلس العمال يراقب الالتزام.\nالمخالفات تُعاقب بغرامات.\n\nFeierabend ليس مجرد تقليد. إنه قانون."}},
         {type:"teach",trg:"befördern",src:"يُرقّي، ينقل",pos:"verb",gender:null,note:"غير قابل للفصل. Be- + fördern (يدعم/يتقدم).\n'Befördert werden' = تتم ترقيته.",example:"A: Sie wurde zur Teamleiterin befördert.\nB: Das hat sie verdient!\nA: Wann wirst du befördert?\nB: Hoffentlich nächstes Jahr.",exampleSrc:"أ: رُقِّيت إلى قائدة فريق.\nب: تستحق ذلك!\nأ: متى ستُرقّى؟\nب: أتمنى العام القادم.",funFact:"befördern لها معنيان: ترقية (شخص) ونقل (بضائع). Die Post befördert Briefe (البريد ينقل الرسائل). Der Chef befördert Mitarbeiter (المدير يرقّي الموظفين)."},
-        {type:"mc",q:"'Überstunden werden innerhalb eines Monats ausgeglichen.' Was bedeutet 'innerhalb'?",opts:["within","outside of","despite","because of"],ans:"within",hint:"حرف الجر هذا يصف شيئًا يحدث داخل إطار زمني."},
+        {type:"mc",q:"'Überstunden werden innerhalb eines Monats ausgeglichen.' Was bedeutet 'innerhalb'?",opts:["خلال / ضمن","خارج","على الرغم من","بسبب"],ans:"خلال / ضمن",hint:"حرف الجر هذا يصف شيئًا يحدث داخل إطار زمني."},
         {type:"fb",s:"Sie {1} gestern zur Teamleiterin befördert.",a:["wurde"],opts:["wurde","wird","werden","worden"],hint:"رُقِّيت (مبني للمجهول ماضي، مفرد مؤنث).",sSrc:"رُقِّيت إلى قائدة فريق أمس."},
         {type:"mc",q:"Was macht der Betriebsrat?",opts:[
     "Er vertritt die Interessen der Mitarbeiter",
@@ -676,7 +676,7 @@ const UNIT_14_AR = {n:14,lang:"de",srcLang:"ar",track:"v2",title:"Erster Arbeits
     {trg:"elektronisch",src:"إلكتروني"}
 ]},
         {type:"story",speaker:"narrator",mood:"warm",art:"de-ber-office-exit-sunset",trg:"Verumius verlässt das Büro. Die Sonne steht tief über Berlin. Sein erster Arbeitstag wurde gemeistert. Morgen wird er wissen, wo der Kopierer steht und wann Feierabend ist.",src:"يغادر فيروميوس المكتب. الشمس منخفضة فوق برلين. يوم عمله الأول أُتقن. غدًا سيعرف أين آلة النسخ ومتى ينتهي يوم العمل."},
-        {type:"story",speaker:"mia",mood:"friendly",art:"de-ber-street-evening",trg:"Übrigens, nächste Woche fahren wir nach Hamburg. Eine Geschäftsreise. Du brauchst einen Anzug, der passt, und einen Koffer, der nicht zu groß ist.",src:"بالمناسبة، الأسبوع القادم نذهب إلى هامبورغ. رحلة عمل. تحتاج بدلة تناسبك وحقيبة سفر ليست كبيرة جدًا."},
+        {type:"story",speaker:"mia",mood:"ودود",art:"de-ber-street-evening",trg:"Übrigens, nächste Woche fahren wir nach Hamburg. Eine Geschäftsreise. Du brauchst einen Anzug, der passt, und einen Koffer, der nicht zu groß ist.",src:"بالمناسبة، الأسبوع القادم نذهب إلى هامبورغ. رحلة عمل. تحتاج بدلة تناسبك وحقيبة سفر ليست كبيرة جدًا."},
         {type:"fb",s:"Der erste Arbeitstag {1} erfolgreich gemeistert.",a:["wurde"],opts:["wurde","wird","werden","worden"],hint:"يوم العمل الأول أُتقن بنجاح. مبني للمجهول ماضي مفرد.",sSrc:"يوم العمل الأول أُتقن بنجاح."},
         {type:"drag_fill",s:"Die Mitarbeiterin, {1} die E-Mail {2} hat, {3} gestern {4}.",blanks:{"1":"die","2":"geschrieben","3":"wurde","4":"befördert"},pool:["die","der","geschrieben","schreiben","wurde","wird","befördert","befördern"],hint:"الزميلة المؤنثة التي كتبت الرسالة (مرفوع). رُقِّيت (مبني للمجهول ماضي).",sSrc:"الزميلة التي كتبت الرسالة رُقِّيت أمس."}
       ]}

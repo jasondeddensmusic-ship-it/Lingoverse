@@ -65,9 +65,9 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
         {type:"fb",s:"Hat dich die Rede {1}? Nicht ganz, die Argumente waren zu schwach.",a:["überzeugt"],opts:["unterstützt","kritisiert","verteidigt","überzeugt"],hint:"بادئة 'über-' تعني 'فوق' أو 'أكثر من اللازم'. ما الجذر؟",sSrc:"هل أقنعك الخطاب؟ ليس تماماً، الحجج كانت ضعيفة جداً."},
         {type:"mc",q:"Was bedeutet 'der Standpunkt'?",opts:["الخلاف في الرأي","الحزب (السياسي)","الحكومة","وجهة النظر، الموقف"],ans:"وجهة النظر، الموقف",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."},
         {type:"fb",s:"Wie sagt man 'the difference of opinion' auf Deutsch? {1}",a:["die Meinungsverschiedenheit"],opts:["der Politiker","die Partei","kritisieren","die Meinungsverschiedenheit"],hint:"فكّر في الكلمة الألمانية المناسبة. راجع الخيارات وتذكّر ما تعلمته.",sSrc:"كيف تقول 'the difference of opinion' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'demokratisch'?",opts:["democratic","يُقنع","المعارضة","البرلمان"],ans:"democratic",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Was bedeutet 'demokratisch'?",opts:["ديمقراطي","يُقنع","المعارضة","البرلمان"],ans:"ديمقراطي",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Was ist eine {1}e Anfrage?",a:["parlamentarisch"],opts:["unterst\\u00fctzen","die Meinungsverschiedenheit","der Politiker","parlamentarisch"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"ما هو السؤال البرلماني؟"},
-        {type:"mc",q:"Was bedeutet 'kritisieren'?",opts:["parliamentary","ينتقد","political","يُقنع"],ans:"ينتقد",hint:"فعل بلاحقة '-ieren' مستعار من اللاتينية أو الفرنسية. الجذر دولي."},
+        {type:"mc",q:"Was bedeutet 'kritisieren'?",opts:["برلماني","ينتقد","سياسي","يُقنع"],ans:"ينتقد",hint:"فعل بلاحقة '-ieren' مستعار من اللاتينية أو الفرنسية. الجذر دولي."},
         {type:"fb",s:"{1} Sie Ihren Standpunkt?",a:["verteidigen"],opts:["verteidigen","die Partei","politisch","der Politiker"],hint:"بادئة 'ver-' تعدّل معنى الجذر. ما الفعل البسيط الذي تعرفه؟",sSrc:"هل تدافع عن موقفك؟"}
       ]},
 // ─── L3: Argumente und Gegenargumente ───
@@ -178,11 +178,11 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
     "Keine der beiden Eigenschaften stimmt",
     "Die eine Eigenschaft schliesst die andere aus"
 ],ans:"Beide Eigenschaften treffen gleichzeitig zu",hint:"'sowohl...als auch' ربط إيجابي مزدوج. كلا الوصفين صحيحان في آن واحد."},
-        {type:"mc",q:"Was bedeutet 'teils...teils'?",opts:["الأقلية","مع ذلك، إلا أن","على العكس، بالمقابل","partly...partly"],ans:"partly...partly",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Was bedeutet 'teils...teils'?",opts:["الأقلية","مع ذلك، إلا أن","على العكس، بالمقابل","جزئياً...جزئياً"],ans:"جزئياً...جزئياً",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Wann findet {1} statt?",a:["die Abstimmung"],opts:["die Kanzlerin","andererseits","hingegen","die Abstimmung"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"متى يُجرى التصويت؟"},
         {type:"mc",q:"Was bedeutet 'die Verfassung'?",opts:["كلاهما ... و","المستشارة","الدستور","المستشار"],ans:"الدستور",hint:"اللاحقة '-ung' تحوّل الفعل إلى اسم مؤنث. ما الفعل الأصلي؟"},
         {type:"fb",s:"Wie zeigt sich {1}?",a:["der Widerstand"],opts:["der Widerstand","sowohl...als auch","nicht nur...sondern auch","hingegen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"كيف يُعبَّر عن المقاومة؟"},
-        {type:"mc",q:"Was bedeutet 'vertreten'?",opts:["resistance","من جهة","المستشار","يمثّل"],ans:"يمثّل",hint:"بادئة 'ver-' تغيّر معنى الفعل الأساسي. فكّر في الجذر."}
+        {type:"mc",q:"Was bedeutet 'vertreten'?",opts:["المقاومة","من جهة","المستشار","يمثّل"],ans:"يمثّل",hint:"بادئة 'ver-' تغيّر معنى الفعل الأساسي. فكّر في الجذر."}
       ]},
 // ─── L7: Obgleich und Wenngleich ───
     {id:"deu_r29l4",title:"Obgleich und Wenngleich",icon:"🔄",xp:15,board:true,steps:[
@@ -305,9 +305,9 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
         {type:"drag_fill",s:"{1} ist die Lage komplex. {2} müssen wir handeln.",blanks:{"1":"Zugegebenermassen","2":"Nichtsdestotrotz"},pool:["Zugegebenermassen","Nichtsdestotrotz","Obgleich","Deshalb","Weder","Kurzum"],hint:"أقرّ أولاً بصدق بصعوبة الأمر، ثم أكّد مع ذلك ضرورة التحرك."},
         {type:"mc",q:"Was bedeutet 'wohlgemerkt'?",opts:["انتبه، لاحظ جيداً","سيكون (Konjunktiv II لـ werden)","علاوة على ذلك","بالاعتراف"],ans:"انتبه، لاحظ جيداً",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Was ist {1}?",a:["die Gegenposition"],opts:["die Gegenposition","der Gegenvorschlag","kurzum","würde"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"ما هو الموقف المعارض؟"},
-        {type:"mc",q:"Was bedeutet 'der Gegenvorschlag'?",opts:["تشكيل الرأي","انتبه، لاحظ جيداً","بالتالي، وبناءً على ذلك","counterproposal"],ans:"counterproposal",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Was bedeutet 'der Gegenvorschlag'?",opts:["تشكيل الرأي","انتبه، لاحظ جيداً","بالتالي، وبناءً على ذلك","اقتراح مضاد"],ans:"اقتراح مضاد",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Wie sagt man 'opinion formation' auf Deutsch? {1}",a:["die Meinungsbildung"],opts:["allerdings","vor allem","erwidern","die Meinungsbildung"],hint:"فكّر في الكلمة الألمانية المناسبة. راجع الخيارات وتذكّر ما تعلمته.",sSrc:"كيف تقول 'opinion formation' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'das Stimmrecht'?",opts:["counterproposal","حق التصويت","يعارض، يعترض","يعارض"],ans:"حق التصويت",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."},
+        {type:"mc",q:"Was bedeutet 'das Stimmrecht'?",opts:["اقتراح مضاد","حق التصويت","يعارض، يعترض","يعارض"],ans:"حق التصويت",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."},
         {type:"fb",s:"Wie sagt man 'to counter, to object' auf Deutsch? {1}",a:["dagegenhalten"],opts:["dagegenhalten","vor allem","insbesondere","erwidern"],hint:"فكّر في الكلمة الألمانية المناسبة. راجع الخيارات وتذكّر ما تعلمته.",sSrc:"كيف تقول 'to counter, to object' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'erwidern'?",opts:["يعارض","سيكون (Konjunktiv II لـ werden)","بالإضافة إلى ذلك","يرد، يُجيب"],ans:"يرد، يُجيب",hint:"بادئة 'er-' تدل غالباً على بداية أو تحقيق. ما الجذر؟"},
         {type:"fb",s:"Warum {1} sie?",a:["opponieren"],opts:["opponieren","dagegenhalten","die Gegenposition","das Stimmrecht"],hint:"فعل بلاحقة '-ieren' مشترك مع لغات أوروبية. السياق يحدد المعنى.",sSrc:"لماذا يعارضون ذلك؟"}
@@ -350,7 +350,7 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
         {type:"fb",s:"{1} wir alle Standpunkte abgewaegt, könnten wir zu einem Kompromiss kommen.",a:["Hätten"],opts:["Hätten","Wenn","Haben","Wären"],hint:"جملة شرطية بالفعل أولاً بدون 'wenn'. الفعل 'abwägen' يحدد أي فعل مساعد ينتمي هنا.",sSrc:"لو كنا وزّنا جميع وجهات النظر، لأمكننا الوصول إلى حل وسط."},
         {type:"drag_fill",s:"{1} die Debatte kontrovers war, führte sie {2} zu einem Kompromiss.",blanks:{"1":"Obgleich","2":"nichtsdestotrotz"},pool:["Obgleich","nichtsdestotrotz","Weil","deshalb","Sowohl","kurzum"],hint:"تركيبان من مستوى B2: أداة ربط استدراكية تبعية تفتح الجملة الأولى، وظرف رابط يعزز التناقض في الجملة الثانية."},
         {type:"mc",q:"'Verglichen mit Frankreich hat Deutschland einen foederalen Ansatz.' Was signalisiert 'verglichen mit'?",opts:[
-    "Eine konzessive Aussage mit Einschränkung (obwohl/although)",
+    "Eine konzessive Aussage mit Einschränkung (obwohl/رغم أنّ)",
     "Einen Konditionalsatz ohne wenn",
     "Einen Ergebnissatz mit Folgerung",
     "Einen formellen Vergleich mit Partizipkonstruktion"
@@ -365,7 +365,7 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
         {type:"fb",s:"Deutschland ist ein {1}. Alle, auch die Regierung, müssen dem Gesetz folgen.",a:["Rechtsstaat"],opts:["Bundestag","Zusammenschluss","Wahlrecht","Rechtsstaat"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"ألمانيا دولة يحكمها سيادة القانون. الجميع، بمن فيهم الحكومة، يجب أن يلتزموا بالقانون."},
         {type:"mc",q:"Was bedeutet 'ungeachtet dessen'?",opts:["قانون الانتخابات / حق التصويت","مشابه لـ","على عكس، في مقابل","بصرف النظر عن ذلك"],ans:"بصرف النظر عن ذلك",hint:"بادئة 'un-' تعني النفي في الألمانية. ما عكس الكلمة بدون هذه البادئة؟"},
         {type:"fb",s:"{1} der Umstände war die Entscheidung richtig.",a:["in Anbetracht"],opts:["in Anbetracht","der Rechtsstaat","oppositionell","genauso wie"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"بالنظر إلى الظروف، كان القرار صائباً."},
-        {type:"mc",q:"Was bedeutet 'die Volksabstimmung'?",opts:["بالتساوي","بالمقارنة مع","اندماج، اتحاد","referendum"],ans:"referendum",hint:"اللاحقة '-ung' تحوّل الفعل إلى اسم مؤنث. ما الفعل الأصلي؟"},
+        {type:"mc",q:"Was bedeutet 'die Volksabstimmung'?",opts:["بالتساوي","بالمقارنة مع","اندماج، اتحاد","استفتاء"],ans:"استفتاء",hint:"اللاحقة '-ung' تحوّل الفعل إلى اسم مؤنث. ما الفعل الأصلي؟"},
         {type:"fb",s:"Gibt es {1}e Stimmen?",a:["oppositionell"],opts:["im Gegensatz zu","verglichen mit","ungeachtet dessen","oppositionell"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هل هناك أصوات معارضة؟"},
         {type:"mc",q:"Was bedeutet 'zugestehen'?",opts:["مقارنةً بـ","يتنازل، يمنح","بالمقارنة مع","تماماً كـ"],ans:"يتنازل، يمنح",hint:"بادئة 'zu-' تعني 'إغلاق' أو 'إضافة'. ما الفعل الأساسي؟"},
         {type:"fb",s:"Wir müssen sie {1}.",a:["forcieren"],opts:["forcieren","im Unterschied zu","der Zusammenschluss","der Rechtsstaat"],hint:"فعل بلاحقة '-ieren' مشترك مع لغات أوروبية. السياق يحدد المعنى.",sSrc:"يجب أن نسعى إلى ذلك."},
@@ -432,11 +432,11 @@ const UNIT_29_AR = {n:29,lang:"de",srcLang:"ar",track:"v2",title:"Die Debatte",s
         {type:"fb",s:"Die Argumente sind klar. {1} sollte das Parlament handeln.",a:["Folglich"],opts:["Folglich","Obgleich","Weder","Trotzdem"],hint:"الدليل موجود، والنتيجة تتبعه. أداة النتيجة المنطقية.",sSrc:"الحجج واضحة. بناءً على ذلك، يجب على البرلمان أن يتصرف."},
         {type:"story",speaker:"narrator",mood:"quiet-pride",art:"de-ber-community-hall",trg:"Verumius klappt sein Notizbuch zu. Jede Seite voll. Konzessionen, Vergleiche, Konditionalsaetze. Die Grammatik einer Demokratie. Er hat sie nicht nur gelernt. Er hat sie benutzt.",src:"يُغلق فيروميوس دفتره. كل صفحة ممتلئة. تنازلات، مقارنات، جمل شرطية. قواعد الديمقراطية. لم يتعلمها فقط. بل استخدمها."},
         {type:"fb",s:"Ist das ein radikaler oder ein {1} Vorschlag? Er will Veränderung, aber gemessen.",a:["progressiv"],opts:["reaktionär","konservativ","populistisch","progressiv"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هل هذا اقتراح جذري أم تقدمي؟ يريد التغيير، لكن بتأنٍّ."},
-        {type:"mc",q:"Was bedeutet 'strittig'?",opts:["مُتنازَع عليه","دستوري","شعبوي","progressive"],ans:"مُتنازَع عليه",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Was bedeutet 'strittig'?",opts:["مُتنازَع عليه","دستوري","شعبوي","تقدّمي"],ans:"مُتنازَع عليه",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Ist die Entscheidung {1}?",a:["unanfechtbar"],opts:["der Minister","die Vertreterin","die Ministerin","unanfechtbar"],hint:"بادئة 'un-' تنفي المعنى. فكّر في الصفة الأساسية ثم اعكسها.",sSrc:"هل القرار غير قابل للطعن؟"},
-        {type:"mc",q:"Was bedeutet 'undemokratisch'?",opts:["مُتنازَع عليه","strategy","يُضاد، يقاوم","undemocratic"],ans:"undemocratic",hint:"بادئة 'un-' تعني النفي في الألمانية. ما عكس الكلمة بدون هذه البادئة؟"},
+        {type:"mc",q:"Was bedeutet 'undemokratisch'?",opts:["مُتنازَع عليه","استراتيجية","يُضاد، يقاوم","غير ديمقراطي"],ans:"غير ديمقراطي",hint:"بادئة 'un-' تعني النفي في الألمانية. ما عكس الكلمة بدون هذه البادئة؟"},
         {type:"fb",s:"Kann die Regierung die Reform {1}?",a:["durchsetzen"],opts:["durchsetzen","verfassungsm\\u00e4\\u00dfig","entgegenwirken","der Minister"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هل تستطيع الحكومة تمرير الإصلاح؟"},
-        {type:"mc",q:"Was bedeutet 'entgegenwirken'?",opts:["petition","يُضاد، يقاوم","الوزيرة","دستوري"],ans:"يُضاد، يقاوم",hint:"بادئة 'ent-' تدل على الإزالة أو الابتعاد. ما الجذر الأصلي؟"}
+        {type:"mc",q:"Was bedeutet 'entgegenwirken'?",opts:["عريضة","يُضاد، يقاوم","الوزيرة","دستوري"],ans:"يُضاد، يقاوم",hint:"بادئة 'ent-' تدل على الإزالة أو الابتعاد. ما الجذر الأصلي؟"}
       ]},
 // ─── L15: Wichtiger Beitrag ───
     {id:"deu_r29l8",title:"Wichtiger Beitrag",icon:"🏆",xp:15,board:true,steps:[

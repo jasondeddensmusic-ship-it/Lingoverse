@@ -294,7 +294,7 @@ const UNIT_26_AR = {n:26,lang:"de",srcLang:"ar",track:"v2",title:"Medienkritik",
         {type:"fb",s:"Wir müssen diese Darstellung {1}, um die Wahrheit zu finden.",a:["hinterfragen"],opts:["widersprechen","übertreiben","einschätzen","hinterfragen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"يجب أن نتساءل بنقدية عن هذا العرض للوصول إلى الحقيقة."},
         {type:"mc",q:"Was bedeutet 'zweifelhaft'?",opts:["يبالغ","الشفافية","يُقيّم","مشكوك فيه، مريب"],ans:"مشكوك فيه، مريب",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Dieser Journalist ist {1}.",a:["unzuverlässiig"],opts:["die Objektivitaet","unzuverlässiig","vertrauenswürdig","die Tatsache"],hint:"بادئة 'un-' تنفي المعنى. فكّر في الصفة الأساسية ثم اعكسها.",sSrc:"هذا الصحفي غير موثوق."},
-        {type:"mc",q:"Was bedeutet 'vertrauenswürdig'?",opts:["trustworthy","objectivity","unreliable","بيان، ورقة موقف"],ans:"trustworthy",hint:"بادئة 'ver-' تغيّر معنى الفعل الأساسي. فكّر في الجذر."}
+        {type:"mc",q:"Was bedeutet 'vertrauenswürdig'?",opts:["جدير بالثقة","الموضوعية","غير موثوق","بيان، ورقة موقف"],ans:"جدير بالثقة",hint:"بادئة 'ver-' تغيّر معنى الفعل الأساسي. فكّر في الجذر."}
       ]},
 // ─── L11: Faktencheck ───
     {id:"deu_r26l6",title:"Faktencheck",icon:"🔍",xp:15,board:true,steps:[

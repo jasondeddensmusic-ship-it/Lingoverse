@@ -9,7 +9,7 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "ميّز بين Sprichwort وRedewendung وGleichnis",
     "انضم إلى هاينريش في زيارته يوم الأحد"
 ]},
-        {type:"story",speaker:"narrator",mood:"warm",art:"de-hildi-living-room",trg:"Sonntagsnachmittag bei Hildi. Das Zimmer riecht nach Kaffee und altem Holz. Heinrich sitzt in seinem Sessel, eine Decke auf dem Schoss. Hildi stellt Kuchen auf den Tisch. Nachmittagslicht fällt durch Spitzengardinen. Verumius kommt mit einem Notizbuch. Er hat gelernt, Dinge aufzuschreiben.",src:"بعد ظهر الأحد في بيت هيلدي. تفوح رائحة القهوة والخشب العتيق في الغرفة. يجلس هاينريش على كرسيه المريح وعلى ركبتيه بطانية. تضع هيلدي الكعك على الطاولة. يتسرب ضوء الظهيرة عبر الستائر الدانتيلية. يصل فيروميوس حاملاً دفتر ملاحظات. لقد تعلم تدوين الأشياء."},
+        {type:"story",speaker:"الراوي",mood:"warm",art:"de-hildi-living-room",trg:"Sonntagsnachmittag bei Hildi. Das Zimmer riecht nach Kaffee und altem Holz. Heinrich sitzt in seinem Sessel, eine Decke auf dem Schoss. Hildi stellt Kuchen auf den Tisch. Nachmittagslicht fällt durch Spitzengardinen. Verumius kommt mit einem Notizbuch. Er hat gelernt, Dinge aufzuschreiben.",src:"بعد ظهر الأحد في بيت هيلدي. تفوح رائحة القهوة والخشب العتيق في الغرفة. يجلس هاينريش على كرسيه المريح وعلى ركبتيه بطانية. تضع هيلدي الكعك على الطاولة. يتسرب ضوء الظهيرة عبر الستائر الدانتيلية. يصل فيروميوس حاملاً دفتر ملاحظات. لقد تعلم تدوين الأشياء."},
         {type:"story",speaker:"heinrich",mood:"delighted",trg:"Ah, Verumius! Setz dich. Heute erzähle ich dir etwas Wichtiges. Kein Lehrbuch. Keine Grammatik. Sprichwörter.",src:"آه، فيروميوس! اجلس. سأخبرك اليوم بشيء مهم. لا كتاب مدرسي. لا قواعد. أمثال."},
         {type:"story",speaker:"verumius",mood:"happy",trg:"Sprichwörter? Wie 'Übung macht den Meister'?",src:"أمثال؟ مثل 'التكرار يُعلّم الشطار'؟"},
         {type:"story",speaker:"heinrich",mood:"animated",trg:"Genau! Aber ein Sprichwort ist mehr als Worte. Es ist Weisheit, die Generationen überdauert hat. Jedes hat eine Geschichte.",src:"بالضبط! لكن المثل أكثر من مجرد كلمات. إنه حكمة نجت عبر الأجيال. لكل مثل حكاية."},
@@ -51,11 +51,11 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "ausschliesslich modern und aktuell ist"
 ],ans:"keiner bestimmten Zeit zugeordnet ist und immer gueltig bleibt",hint:"كلمة مركبة: zeit (زمن) + los (بدون). شيء لا يتأثر بمرور الوقت."},
         {type:"fb",s:"Goethe war der groesste deutsche {1}. Er schrieb Gedichte, Romane und Theaterstücke.",a:["Dichter"],opts:["Erzaehler","Zitator","Autor","Dichter"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"غوته أعظم شاعر ألماني. كتب قصائد وروايات ومسرحيات."},
-        {type:"mc",q:"Was bedeutet 'poetisch'?",opts:["poetic","to compose poetry, to write literary works","expression, manner of speaking","proverb"],ans:"poetic",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Was bedeutet 'poetisch'?",opts:["شعري","ينظم الشعر، يكتب أعمالاً أدبية","تعبير، أسلوب كلام","مثل شعبي"],ans:"شعري",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Sind Sprichwörter {1}?",a:["volkstümlich"],opts:["die Redensart","die Weisheit","zeitlos","volkstümlich"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هل الأمثال ذات طابع شعبي؟"},
-        {type:"mc",q:"Was bedeutet 'überliefert'?",opts:["مُتوارَث، منقول","to compose poetry, to write literary works","يروي، يحكي","proverb"],ans:"مُتوارَث، منقول",hint:"بادئة 'über-' تعني 'فوق' أو 'أكثر من'. ما الجذر؟"},
+        {type:"mc",q:"Was bedeutet 'überliefert'?",opts:["مُتوارَث، منقول","ينظم الشعر، يكتب أعمالاً أدبية","يروي، يحكي","مثل شعبي"],ans:"مُتوارَث، منقول",hint:"بادئة 'über-' تعني 'فوق' أو 'أكثر من'. ما الجذر؟"},
         {type:"fb",s:"Wie sagt man 'to tell, to narrate' auf Deutsch? {1}",a:["erzählen"],opts:["die Metapher","dichten","erzählen","überliefert"],hint:"فكّر في الكلمة الألمانية المناسبة. راجع الخيارات وتذكّر ما تعلمته.",sSrc:"كيف تقول 'to tell, to narrate' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'dichten'?",opts:["metaphor","wisdom","مُتوارَث، منقول","to compose poetry, to write literary works"],ans:"to compose poetry, to write literary works",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Was bedeutet 'dichten'?",opts:["استعارة","حكمة","مُتوارَث، منقول","ينظم الشعر، يكتب أعمالاً أدبية"],ans:"ينظم الشعر، يكتب أعمالاً أدبية",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Darf ich Heinrich {1}?",a:["zitieren"],opts:["die Weisheit","die Erzählung","literarisch","zitieren"],hint:"فعل بلاحقة '-ieren' مشترك مع لغات أوروبية. السياق يحدد المعنى.",sSrc:"هل يمكنني الاستشهاد بهاينريش؟"}
       ]},
 // ─── L3: Dichtung und Wahrheit ───
@@ -108,9 +108,9 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
 ],ans:"Ort oder Szene einer Geschichte",hint:"'Schau-Platz' (مكان العرض). حيث تتكشف أحداث الحبكة."},
         {type:"story",speaker:"heinrich",mood:"satisfied",art:"de-hildi-living-room",trg:"Gut. Jetzt kennst du die Wörter. Jetzt kann ich dir erzählen, was mein Großvater mir erzählt hat. Und du kannst es aufschreiben. In den richtigen Wörtern.",src:"جيد. الآن تعرف الكلمات. الآن أستطيع أن أحكي لك ما حدثني به جدي. وتستطيع أنت تدوينه. بالكلمات الصحيحة."},
         {type:"fb",s:"Die {1} beschreibt, zu welchem Zeitabschnitt ein literarisches Werk gehoert, zum Beispiel Romantik oder Expressionismus.",a:["Epoche"],opts:["Gattung","Strophe","Lyrik","Epoche"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"الحقبة تصف الفترة الزمنية التي ينتمي إليها العمل الأدبي، كالرومانسية أو التعبيرية."},
-        {type:"mc",q:"Was bedeutet 'der Schauplatz'?",opts:["epic","prose","المشهد، الإطار","الحقبة الأدبية"],ans:"المشهد، الإطار",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."},
+        {type:"mc",q:"Was bedeutet 'der Schauplatz'?",opts:["ملحمي","نثر","المشهد، الإطار","الحقبة الأدبية"],ans:"المشهد، الإطار",hint:"اسم ألماني. السياق يحدد المجال الذي تنتمي إليه هذه الكلمة."},
         {type:"fb",s:"Dieser Text hat eine {1}e Qualitaet.",a:["lyrisch"],opts:["das Gedicht","die Novelle","das Werk","lyrisch"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هذا النص يحمل طابعاً غنائياً."},
-        {type:"mc",q:"Was bedeutet 'dichterisch'?",opts:["poetic, of a poet","verse, line of poetry","novel","المشهد، الإطار"],ans:"poetic, of a poet",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."}
+        {type:"mc",q:"Was bedeutet 'dichterisch'?",opts:["شعري، خاص بالشاعر","بيت شعر، سطر شعري","رواية","المشهد، الإطار"],ans:"شعري، خاص بالشاعر",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."}
       ]},
 // ─── L5: Er sagte, die Backstube sei sein Königreich ───
     {id:"deu_r28l3",title:"Er sagte, die Backstube sei sein Königreich",icon:"👑",xp:15,board:true,steps:[
@@ -120,7 +120,7 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "أبلغ عما يقوله الآخرون بالألمانية الرسمية",
     "حلّل الأساليب الأدبية البلاغية"
 ]},
-        {type:"story",speaker:"narrator",mood:"intimate",art:"de-hildi-living-room-close",trg:"Heinrich beugt sich vor. Seine Augen leuchten. Er ist kurz davor, eine Geschichte zu erzählen, die er schon hundertmal erzählt hat. Jedes Mal ein bisschen anders. Verumius' Stift ist bereit.",src:"يميل هاينريش إلى الأمام. تبرق عيناه. هو على وشك أن يحكي قصة حكاها مئة مرة، في كل مرة بشكل مختلف قليلاً. قلم فيروميوس جاهز."},
+        {type:"story",speaker:"الراوي",mood:"intimate",art:"de-hildi-living-room-close",trg:"Heinrich beugt sich vor. Seine Augen leuchten. Er ist kurz davor, eine Geschichte zu erzählen, die er schon hundertmal erzählt hat. Jedes Mal ein bisschen anders. Verumius' Stift ist bereit.",src:"يميل هاينريش إلى الأمام. تبرق عيناه. هو على وشك أن يحكي قصة حكاها مئة مرة، في كل مرة بشكل مختلف قليلاً. قلم فيروميوس جاهز."},
         {type:"story",speaker:"heinrich",mood:"animated",trg:"Mein Großvater sagte immer: 'Morgenstund hat Gold im Mund.' Und er hatte recht. Er stand jeden Morgen um vier Uhr auf. Die Backstube war sein Königreich.",src:"كان جدي يقول دائماً: 'الطائر الباكر يصطاد الدود.' وكان محقاً. كان يستيقظ كل صباح في الساعة الرابعة. المخبزة كانت مملكته."},
         {type:"story",speaker:"verumius",mood:"writing",trg:"Also: Heinrich erzählte, sein Großvater habe jeden Morgen um vier Uhr angefangen. Die Backstube sei sein Königreich gewesen.",src:"إذن: أخبر هاينريش أن جده كان يبدأ كل صباح في الساعة الرابعة. المخبزة كانت مملكته."},
         {type:"story",speaker:"hildi",mood:"correcting",trg:"Es waren halb vier, nicht vier. Aber erzähl weiter, Papa.",src:"كانت الساعة الثالثة والنصف لا الرابعة. لكن استمر في الحكي يا أبي."},
@@ -179,9 +179,9 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
         {type:"mc",q:"Was bedeutet 'bekanntlich'?",opts:["كما هو معروف","وفقاً لـ (حرف جر)","يقصد، يعتقد","من الواضح"],ans:"كما هو معروف",hint:"بادئة 'be-' تجعل الفعل متعدياً. ما الفعل الأساسي؟"},
         {type:"fb",s:"{1} hatte Heinrich recht.",a:["offenbar"],opts:["die Lektüre","offenbar","meinen","der Vergleich"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"من الواضح أن هاينريش كان على حق."},
         {type:"mc",q:"Was bedeutet 'berichten'?",opts:[
-    "reading material, text being read",
+    "مادة قراءة، نص مقروء",
     "يُبلّغ",
-    "perspective, point of view",
+    "منظور، وجهة نظر",
     "يقصد، يعتقد"
 ],ans:"يُبلّغ",hint:"من 'Bericht' (تقرير). فعل يعني نقل الأخبار والمعلومات للآخرين."},
         {type:"fb",s:"{1} ist lebendiger als beschreiben?",a:["schildern"],opts:["offenbar","bekanntlich","das Wortspiel","schildern"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هل schildern أكثر حيوية من beschreiben؟"},
@@ -195,7 +195,7 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "افهم الشكل المختصر: 'als wäre' (القلب)",
     "دمج Konjunktiv I (الكلام) مع Konjunktiv II (المقارنة)"
 ]},
-        {type:"story",speaker:"narrator",mood:"observant",art:"de-hildi-living-room",trg:"Heinrich erzählt weiter. Er beschreibt die Baeckerei, als könnte er den Mehlstaub noch riechen. Seine Hände bewegen sich, als kneteten sie unsichtbaren Teig. Hildi schuettelt den Kopf, aber lächelt. Verumius schreibt und schreibt.",src:"يواصل هاينريش الحكي. يصف المخبزة كأنه لا يزال يشم غبار الطحين. تتحرك يداه كأنه يعجن عجيناً غير مرئي. تهز هيلدي رأسها لكنها تبتسم. يكتب فيروميوس ويكتب."},
+        {type:"story",speaker:"الراوي",mood:"observant",art:"de-hildi-living-room",trg:"Heinrich erzählt weiter. Er beschreibt die Baeckerei, als könnte er den Mehlstaub noch riechen. Seine Hände bewegen sich, als kneteten sie unsichtbaren Teig. Hildi schuettelt den Kopf, aber lächelt. Verumius schreibt und schreibt.",src:"يواصل هاينريش الحكي. يصف المخبزة كأنه لا يزال يشم غبار الطحين. تتحرك يداه كأنه يعجن عجيناً غير مرئي. تهز هيلدي رأسها لكنها تبتسم. يكتب فيروميوس ويكتب."},
         {type:"story",speaker:"hildi",mood:"amused",art:"de-hildi-living-room",trg:"Er tut immer so, als ob er alles wüsste. Als ob er der einzige Baecker der Welt gewesen wäre. Dabei hat Oma das halbe Geschäft geführt.",src:"دائماً يتصرف كأنه يعلم كل شيء. كأنه كان الخباز الوحيد في العالم. في حين أن جدتي هي التي كانت تُدير نصف العمل."},
         {type:"teach",trg:"der Erzaehler",src:"راوٍ",pos:"noun",gender:"m",note:"من erzählen (السرد). Der Erzaehler.\nفي Literaturanalyse: 'der allwissende Erzaehler' = الراوي العليم.",example:"A: Wer ist der Erzaehler dieser Geschichte?\nB: Ein allwissender Erzaehler. Er weiß alles.\nA: Und Heinrich? Ist er auch ein Erzaehler?\nB: Ja, ein geborener Erzaehler.",exampleSrc:"أ: من هو راوي هذه القصة؟\nب: راوٍ كلي المعرفة. يعرف كل شيء.\nأ: وهاينريش؟ هل هو أيضاً راوٍ؟\nب: نعم، راوٍ بالفطرة.",funFact:"في التحليل الأدبي: 'der allwissende Erzaehler' (الراوي العليم) يعرف كل شيء. 'Der Ich-Erzaehler' يروي بضمير المتكلم. هاينريش Erzaehler بالفطرة."},
         {type:"teach",trg:"die Erzaehlerin",src:"الراوية",pos:"noun",gender:"f",note:"Erzaehler + -in. Die Erzaehlerin.\n'Die unzuverlässiige Erzaehlerin' = الراوية غير الموثوقة.",example:"A: Ist die Erzaehlerin zuverlässiig?\nB: Nein, sie ist eine unzuverlässiige Erzaehlerin.\nA: Man kann ihr nicht vertrauen?\nB: Genau. Sie verändert die Fakten.",exampleSrc:"أ: هل الراوية موثوقة؟\nب: لا، إنها راوية غير موثوقة.\nأ: لا تستطيع الوثوق بها؟\nب: بالضبط. تُغيّر الحقائق.",funFact:"'Die unzuverlässiige Erzaehlerin' (الراوية غير الموثوقة) أسلوب أدبي. لا يستطيع القارئ الثقة الكاملة بما ترويه. لاحقة -in تُنشئ الصيغة المؤنثة."},
@@ -264,9 +264,9 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "sagt der Autor das Gegenteil von dem, was er meint",
     "ist sie nur fuer Kinder geschrieben"
 ],ans:"sagt der Autor das Gegenteil von dem, was er meint",hint:"أسلوب أدبي من اليونانية eironia. الكاتب يقول عكس ما يقصده تماماً."},
-        {type:"mc",q:"Was bedeutet 'metaphorisch'?",opts:["metaphorical","narrator","tragedy","humorous"],ans:"metaphorical",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Was bedeutet 'metaphorisch'?",opts:["مجازي","الراوي","مأساة","فكاهي"],ans:"مجازي",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Das Brot ist {1} für Arbeit.",a:["sinnbildlich"],opts:["sinnbildlich","ironisch","als wenn","tragisch"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"الخبز رمز للعمل."},
-        {type:"mc",q:"Was bedeutet 'existieren'?",opts:["الكاتب، المؤلف","يوجد","الراوية","tragedy"],ans:"يوجد",hint:"فعل بلاحقة '-ieren' مستعار من اللاتينية أو الفرنسية. الجذر دولي."}
+        {type:"mc",q:"Was bedeutet 'existieren'?",opts:["الكاتب، المؤلف","يوجد","الراوية","مأساة"],ans:"يوجد",hint:"فعل بلاحقة '-ieren' مستعار من اللاتينية أو الفرنسية. الجذر دولي."}
       ]},
 // ─── L9: Laut Heinrich ───
     {id:"deu_r28l5",title:"Laut Heinrich",icon:"📜",xp:15,board:true,steps:[
@@ -275,7 +275,7 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "ميّز بين المعنى الحرفي والمجازي",
     "أبلغ عن السرديات بدقة في الألمانية الرسمية"
 ]},
-        {type:"story",speaker:"narrator",mood:"nostalgic",art:"de-ber-bakery-1960s",trg:"Die Szene wechselt. Goldenes Sepia-Licht. Eine Baeckerei der 1960er Jahre. Holztische voller Mehl. Oefen gluehen. Der junge Heinrich knetet um vier Uhr morgens Teig. Der Geruch von frischem Brot fuellt die Erinnerung.",src:"يتغير المشهد. ضوء ذهبي بني داكن. مخبزة من الستينيات. طاولات خشبية مغطاة بالطحين. أفران متوهجة. هاينريش الشاب يعجن العجين في الساعة الرابعة صباحاً. رائحة الخبز الطازج تملأ الذاكرة."},
+        {type:"story",speaker:"الراوي",mood:"nostalgic",art:"de-ber-bakery-1960s",trg:"Die Szene wechselt. Goldenes Sepia-Licht. Eine Baeckerei der 1960er Jahre. Holztische voller Mehl. Oefen gluehen. Der junge Heinrich knetet um vier Uhr morgens Teig. Der Geruch von frischem Brot fuellt die Erinnerung.",src:"يتغير المشهد. ضوء ذهبي بني داكن. مخبزة من الستينيات. طاولات خشبية مغطاة بالطحين. أفران متوهجة. هاينريش الشاب يعجن العجين في الساعة الرابعة صباحاً. رائحة الخبز الطازج تملأ الذاكرة."},
         {type:"story",speaker:"heinrich",mood:"storytelling",art:"de-ber-bakery-1960s",trg:"Mein Großvater sagte immer: 'Der Apfel fällt nicht weit vom Stamm.' Er meinte, ich sei genau wie er. Und er hatte recht. Ich habe die Baeckerei übernommen.",src:"كان جدي يقول دائماً: 'الشبل من ذاك الأسد.' كان يقصد أنني مثله تماماً. وكان محقاً. توليت إدارة المخبزة."},
         {type:"story",speaker:"verumius",mood:"writing",art:"de-ber-hildi-livingroom",trg:"Also: Heinrich berichtete, sein Großvater habe gesagt, der Apfel falle nicht weit vom Stamm. Er habe damit gemeint, Heinrich sei wie er.",src:"إذن: أفاد هاينريش بأن جده قال إن الشبل من ذاك الأسد. وكان يقصد أن هاينريش مثله."},
         {type:"story",speaker:"hildi",mood:"warm",art:"de-ber-hildi-livingroom",trg:"Papa übertreibt gerne. Aber im übertragenen Sinne stimmt es.",src:"بابا يحب المبالغة. لكن بالمعنى المجازي، هذا صحيح."},
@@ -351,7 +351,7 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "تدرّب على الأساليب النحوية الثلاثة في سياقات أدبية",
     "افهم الأمثال بوصفها تعبيراً عن القيم الثقافية"
 ]},
-        {type:"story",speaker:"narrator",mood:"nostalgic",art:"de-ber-bakery-1960s-dawn",trg:"Die Rueckblende vertieft sich. Vier Uhr morgens, 1962. Der junge Heinrich schiebt Brot in den Ofen. Seine Hände sind voller Mehl. Die Baeckerei gluehtwarm gegen die Dunkelheit draussen. Das ist seine Welt.",src:"يتعمّق الاسترجاع. الساعة الرابعة صباحاً، عام 1962. يضع هاينريش الشاب الخبز في الفرن. يداه مغطّاتان بالدقيق. يتوهّج المخبز دافئاً في مواجهة الظلام خارجه. هذا هو عالمه."},
+        {type:"story",speaker:"الراوي",mood:"nostalgic",art:"de-ber-bakery-1960s-dawn",trg:"Die Rueckblende vertieft sich. Vier Uhr morgens, 1962. Der junge Heinrich schiebt Brot in den Ofen. Seine Hände sind voller Mehl. Die Baeckerei gluehtwarm gegen die Dunkelheit draussen. Das ist seine Welt.",src:"يتعمّق الاسترجاع. الساعة الرابعة صباحاً، عام 1962. يضع هاينريش الشاب الخبز في الفرن. يداه مغطّاتان بالدقيق. يتوهّج المخبز دافئاً في مواجهة الظلام خارجه. هذا هو عالمه."},
         {type:"story",speaker:"heinrich",mood:"emotional",art:"de-ber-hildi-livingroom",trg:"Mein Vater sagte, Morgenstund habe Gold im Mund. Er meinte, wer früh aufstehe, dem gehoere die Welt. Und er hatte recht. Die besten Ideen kamen mir vor Sonnenaufgang.",src:"قال والدي إن ساعة الصباح ذهب في فمها. قصد أن من يستيقظ مبكراً يملك العالم. وكان محقاً. جاءتني أفضل الأفكار قبل الشروق."},
         {type:"story",speaker:"verumius",mood:"moved",art:"de-ber-hildi-livingroom",trg:"Heinrich berichtete, die besten Ideen seien ihm vor Sonnenaufgang gekommen. Er erzählte es, als wäre er noch in der Backstube.",src:"أفاد هاينريش بأن أفضل الأفكار جاءته قبل الشروق. رواها كأنه لا يزال في المخبز."},
         {type:"story",speaker:"hildi",mood:"tender",art:"de-ber-hildi-livingroom",trg:"Papa. Es ist Sonntag. Du bist in meinem Wohnzimmer. Trink deinen Kaffee.",src:"بابا. إنه يوم الأحد. أنت في غرفة معيشتي. اشرب قهوتك."},
@@ -401,11 +401,11 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
 ]},
         {type:"fb",s:"Er hat sich mit {1} und Haar der Baeckerei verschrieben. Das heisst: vollstaendig.",a:["Haut"],opts:["Haut","Kopf","Nagel","Hals"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"كرّس نفسه تماماً للمخبز. أي: بشكل كامل."},
         {type:"mc",q:"Was bedeutet 'Es ist noch kein Meister vom Himmel gefallen'?",opts:[
-    "Nobody is born an expert (lit: no master has yet fallen from the sky)",
-    "If you start something, follow through (lit: whoever says A must also say B)",
-    "the head",
-    "Where there is a will, there is a way"
-],ans:"Nobody is born an expert (lit: no master has yet fallen from the sky)",hint:"مثل ألماني عن التعلم التدريجي. 'Meister' = خبير، 'Himmel' = سماء."},
+    "لا أحد يولد خبيراً (حرفياً: لم يسقط أي أستاذ من السماء بعد)",
+    "من بدأ شيئاً فليكمله (حرفياً: من قال ألف فليقل باء)",
+    "الرأس",
+    "أين توجد الإرادة، يوجد الطريق"
+],ans:"لا أحد يولد خبيراً (حرفياً: لم يسقط أي أستاذ من السماء بعد)",hint:"مثل ألماني عن التعلم التدريجي. 'Meister' = خبير، 'Himmel' = سماء."},
         {type:"fb",s:"{1}!",a:["Andere Laender, andere Sitten"],opts:[
     "der Stamm",
     "Es ist noch kein Meister vom Himmel gefallen",
@@ -413,11 +413,11 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "Andere Laender, andere Sitten"
 ],hint:"مثل ألماني عن اختلاف الثقافات. 'Länder' = بلدان، 'Sitten' = عادات.",sSrc:"لكل بلد عاداته!"},
         {type:"mc",q:"Was bedeutet 'Der Apfel fällt nicht weit vom Stamm'?",opts:[
-    "Still waters run deep",
-    "Practice makes perfect (lit: practice makes the master)",
+    "المياه الراكدة عميقة",
+    "التمرين يصنع الإتقان (حرفياً: التمرين يصنع الأستاذ)",
     "الإبهام",
-    "The apple does not fall far from the tree"
-],ans:"The apple does not fall far from the tree",hint:"مثل عن التشابه بين الأجيال. 'Apfel' = تفاحة، 'Stamm' = جذع الشجرة."},
+    "التفاحة لا تسقط بعيداً عن الشجرة"
+],ans:"التفاحة لا تسقط بعيداً عن الشجرة",hint:"مثل عن التشابه بين الأجيال. 'Apfel' = تفاحة، 'Stamm' = جذع الشجرة."},
         {type:"fb",s:"{1}.",a:["Wo ein Wille ist, ist auch ein Weg"],opts:[
     "Wo ein Wille ist, ist auch ein Weg",
     "Aller Anfang ist schwer",
@@ -426,14 +426,14 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
 ],hint:"مثل عن الإصرار: 'Wille' = إرادة، 'Weg' = طريق. الإرادة تصنع المستحيل.",sSrc:"أين توجد إرادة، يوجد طريق."},
         {type:"mc",q:"Was bedeutet 'der Daumen'?",opts:[
     "الإبهام",
-    "Speech is silver, silence is gold",
-    "Do not count your chickens before they hatch (lit: one should not praise the day before the evening)",
-    "Nobody is born an expert (lit: no master has yet fallen from the sky)"
+    "الكلام من فضة والسكوت من ذهب",
+    "لا تمدح اليوم قبل مسائه (لا تعدّ الفراخ قبل أن تفقس)",
+    "لا أحد يولد خبيراً (حرفياً: لم يسقط أي أستاذ من السماء بعد)"
 ],ans:"الإبهام",hint:"جزء من اليد. الإصبع الأقصر والأغلظ الذي يقابل الأصابع الأخرى."},
         {type:"fb",s:"{1} des Baumes ist sehr dick.",a:["der Stamm"],opts:["Übung macht den Meister","Stille Wasser sind tief","der Stamm","der Schmetterling"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"جذع الشجرة سميك جداً."},
         {type:"mc",q:"Was bedeutet 'der Schmetterling'?",opts:[
-    "Different countries, different customs",
-    "If you start something, follow through (lit: whoever says A must also say B)",
+    "لكل بلد عاداته (بلدان مختلفة، عادات مختلفة)",
+    "من بدأ شيئاً فليكمله (حرفياً: من قال ألف فليقل باء)",
     "الجذع",
     "الفراشة"
 ],ans:"الفراشة",hint:"حشرة ملونة ذات أجنحة كبيرة. تمر بمرحلة التحول من يرقة."},
@@ -467,7 +467,7 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     {trg:"Schmetterlinge im Bauch haben",src:"يشعر برفرفة في المعدة"},
     {trg:"Eulen nach Athen tragen",src:"يفعل شيئاً بلا فائدة"}
 ]},
-        {type:"mc",q:"Was bedeutet 'Sich aus dem Staub machen'?",opts:["يتسلل بهدوء","يُرتّب ويُنظّف","to make a careless mistake","يتخلى عن شيء مهم"],ans:"يتسلل بهدوء",hint:"فكّر في شخص يختفي بلا صوت، كالغبار الذي يتبدد في الريح، كثيراً ما يكون هرباً من المسؤولية."}
+        {type:"mc",q:"Was bedeutet 'Sich aus dem Staub machen'?",opts:["يتسلل بهدوء","يُرتّب ويُنظّف","يرتكب خطأً بسبب الإهمال","يتخلى عن شيء مهم"],ans:"يتسلل بهدوء",hint:"فكّر في شخص يختفي بلا صوت، كالغبار الذي يتبدد في الريح، كثيراً ما يكون هرباً من المسؤولية."}
       ]},
 // ─── L14: Sprichwoerter verstehen ───
     {id:"deu_r28l8",title:"Sprichwoerter verstehen",icon:"📖",xp:15,board:true,steps:[
@@ -514,10 +514,10 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
 // ─── L15: Aufgeschrieben ───
     {id:"deu_r28l9",title:"Aufgeschrieben",icon:"📓",xp:15,board:true,steps:[
         {type:"intro",title:"Aufgeschrieben",desc:"الأمثال والتعبيرات الأخيرة. راجع جميع الأساليب النحوية من الوحدة 28. احتفل بلقاء التراث الشفهي والمتعلم الأجنبي.",goals:["أتقن الأمثال والتعبيرات المتبقية","راجع جميع الأساليب النحوية من الوحدة 28","احتفل بلقاء التراث الشفهي ومتعلم اللغة"]},
-        {type:"story",speaker:"narrator",mood:"warm",art:"de-ber-verumius-apartment-evening",trg:"Abend. Verumius' Wohnung. Schreibtischlampe an. Er überträgt Heinrichs Sprichwörter in ein Notizbuch. Jedes bekommt eine Seite: das Sprichwort, die Geschichte, die Bedeutung. Eine wachsende Sammlung mündlicher Tradition.",src:"المساء. شقة فيروميوس. مصباح المكتب مضاء. ينقل أمثال هاينريش إلى دفتر ملاحظات. كل مَثَل يحصل على صفحة: المَثَل والقصة والمعنى. مجموعة متنامية من التراث الشفهي المحفوظ."},
+        {type:"story",speaker:"الراوي",mood:"warm",art:"de-ber-verumius-apartment-evening",trg:"Abend. Verumius' Wohnung. Schreibtischlampe an. Er überträgt Heinrichs Sprichwörter in ein Notizbuch. Jedes bekommt eine Seite: das Sprichwort, die Geschichte, die Bedeutung. Eine wachsende Sammlung mündlicher Tradition.",src:"المساء. شقة فيروميوس. مصباح المكتب مضاء. ينقل أمثال هاينريش إلى دفتر ملاحظات. كل مَثَل يحصل على صفحة: المَثَل والقصة والمعنى. مجموعة متنامية من التراث الشفهي المحفوظ."},
         {type:"story",speaker:"verumius",mood:"happy",art:"de-ber-verumius-apartment-evening",trg:"Jedes Sprichwort hat eine Geschichte. Bildlich gesprochen sind sie wie Zeitkapseln. Heinrich hat sie mir anvertraut, als ob ich zur Familie gehören würde.",src:"كل مَثَل له قصة. بالمعنى المجازي، هي كبسولات زمنية. أودعها هاينريش لديّ كأنني من العائلة."},
-        {type:"story",speaker:"narrator",mood:"fond",art:"de-ber-verumius-apartment-evening",trg:"Er schreibt das letzte auf: 'Wie man in den Wald hineinruft, so schallt es heraus.' Schliesst das Notizbuch. Laechelt. Irgendwo in Berlin erzählt Opa Heinrich wahrscheinlich gerade dieselben Geschichten, jedes Mal ein bisschen anders.",src:"يكتب الأخير: 'كما تُنادي في الغابة، يصدح الصدى.' يُغلق الدفتر. يبتسم. في مكان ما عبر برلين، ربما يروي الجد هاينريش نفس القصص لشخص آخر، في كل مرة بشكل مختلف قليلاً."},
-        {type:"story",speaker:"narrator",mood:"reflective",art:"de-ber-verumius-apartment-evening",trg:"Nächste Woche: eine öffentliche Debatte. Verumius' Deutsch reicht jetzt für die Arena der Ideen. Aber zuerst schreibt er Hildi: 'Danke für den Sonntag. Und danke an Opa Heinrich.' Sie antwortet: 'Er sagt, du sollst nächssten Sonntag wiederkommen. Er hat noch mehr.'",src:"الأسبوع القادم: نقاش عام. ألمانية فيروميوس الآن جيدة بما يكفي لساحة الأفكار. لكن أولاً، يرسل رسالة لهيلدي: 'شكراً على يوم الأحد. وشكراً للجد هاينريش.' ترد: 'يقول إنك يجب أن تعود الأحد القادم. لديه المزيد.'"},
+        {type:"story",speaker:"الراوي",mood:"fond",art:"de-ber-verumius-apartment-evening",trg:"Er schreibt das letzte auf: 'Wie man in den Wald hineinruft, so schallt es heraus.' Schliesst das Notizbuch. Laechelt. Irgendwo in Berlin erzählt Opa Heinrich wahrscheinlich gerade dieselben Geschichten, jedes Mal ein bisschen anders.",src:"يكتب الأخير: 'كما تُنادي في الغابة، يصدح الصدى.' يُغلق الدفتر. يبتسم. في مكان ما عبر برلين، ربما يروي الجد هاينريش نفس القصص لشخص آخر، في كل مرة بشكل مختلف قليلاً."},
+        {type:"story",speaker:"الراوي",mood:"reflective",art:"de-ber-verumius-apartment-evening",trg:"Nächste Woche: eine öffentliche Debatte. Verumius' Deutsch reicht jetzt für die Arena der Ideen. Aber zuerst schreibt er Hildi: 'Danke für den Sonntag. Und danke an Opa Heinrich.' Sie antwortet: 'Er sagt, du sollst nächssten Sonntag wiederkommen. Er hat noch mehr.'",src:"الأسبوع القادم: نقاش عام. ألمانية فيروميوس الآن جيدة بما يكفي لساحة الأفكار. لكن أولاً، يرسل رسالة لهيلدي: 'شكراً على يوم الأحد. وشكراً للجد هاينريش.' ترد: 'يقول إنك يجب أن تعود الأحد القادم. لديه المزيد.'"},
         {type:"teach",trg:"Zwei Fliegen mit einer Klappe schlagen",src:"يضرب عصفورين بحجر واحد (حرفياً: يضرب ذبابتين بمضرب واحد)",pos:"intj",gender:null,note:"إنجاز شيئين في آنٍ واحد.\nالنسخة الألمانية تستخدم مضرب الذباب، لا حجراً.",example:"A: Ich gehe zum Supermarkt und hole die Post ab.\nB: Zwei Fliegen mit einer Klappe!\nA: Genau, warum zweimal gehen?\nB: Effizient. Sehr deutsch.",exampleSrc:"أ: سأذهب إلى السوبر ماركت وآخذ البريد.\nب: ذبابتان بمضرب واحد!\nأ: بالضبط، لماذا أذهب مرتين؟\nب: فعّال. ألماني جداً.",funFact:"الفكرة ذاتها كـ 'اقتل عصفورين بحجر واحد' بالإنجليزية، لكن النسخة الألمانية أقل عنفاً: مضرب الذباب (Klappe) بدل الحجر. إنجاز شيئين في آنٍ. الكفاءة الألمانية في قالب مَثَل."},
         {type:"teach",trg:"Die Katze im Sack kaufen",src:"يشتري ما في الكيس دون معرفة محتواه (حرفياً: يشتري القطة في الكيس)",pos:"intj",gender:null,note:"الشراء دون رؤية ما تشتريه.\nأصل قروسطي: التجار المحتالون كانوا يبيعون قططاً بدلاً من أرانب.",example:"A: Ich kaufe das Auto ohne Probefahrt.\nB: Kauf nicht die Katze im Sack!\nA: Du meinst, ich soll es erst testen?\nB: Natürlich! Oeffne den Sack zuerst.",exampleSrc:"أ: سأشتري السيارة دون تجربة.\nب: لا تشتري القطة في الكيس!\nأ: تقصد أنه يجب أن أجرّبها أولاً؟\nب: بالطبع! افتح الكيس أولاً.",funFact:"أصل قروسطي: التجار المحتالون كانوا يبيعون قططاً بدلاً من أرانب في أكياس مغلقة. 'Pig in a poke' هو المُعادل الإنجليزي. ثق ولكن تحقق. افتح الكيس دائماً قبل الدفع."},
         {type:"teach",trg:"Was Haenschen nicht lernt, lernt Hans nimmermehr",src:"ما فاتك في الصغر يصعب تعلّمه لاحقاً",pos:"intj",gender:null,note:"Haenschen = هانز الصغير (طفل). Hans = الرجل البالغ.\nحجة لصالح التعليم المبكر.",example:"A: Ich hätte früher Deutsch lernen sollen.\nB: Was Haenschen nicht lernt, lernt Hans nimmermehr!\nA: Aber ich lerne es doch jetzt!\nB: Stimmt. Du bist die Ausnahme!",exampleSrc:"أ: كان يجب أن أتعلم الألمانية في وقت أبكر.\nب: ما لم يتعلمه هانس الصغير لن يتعلمه هانس الكبير أبداً!\nأ: لكنني أتعلمه الآن!\nب: صحيح. أنت الاستثناء!",funFact:"Haenschen = هانز الصغير (طفل). Hans = الرجل البالغ. حجة ألمانية لصالح التعليم المبكر. ما يُفوّته الطفل، لا يستطيع البالغ استعادته. وإن كان فيروميوس يُثبت أن البالغين يستطيعون التعلم أيضاً."},
@@ -573,7 +573,7 @@ const UNIT_28_AR = {n:28,lang:"de",srcLang:"ar",track:"v2",title:"Sprichwörter"
     "بالمعنى الحرفي",
     "يبرر",
     "يشتري السمك في البحر (حرفياً: يشتري القطة في الكيس)",
-    "supposed, alleged"
+    "مفترض، مزعوم"
 ],ans:"يبرر",hint:"من 'Grund' (سبب/أساس). فعل يعني تقديم الأسباب والحجج لتسويغ موقف."},
         {type:"fb",s:"Wie sagt man 'to reply, to retort' auf Deutsch? {1}",a:["entgegnen"],opts:["entgegnen","vermeintlich","bildlich gesprochen","heissen"],hint:"فكّر في الكلمة الألمانية المناسبة. راجع الخيارات وتذكّر ما تعلمته.",sSrc:"كيف تقول 'to reply, to retort' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'vermitteln'?",opts:[

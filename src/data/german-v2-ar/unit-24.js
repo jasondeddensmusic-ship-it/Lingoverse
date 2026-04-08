@@ -34,7 +34,7 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"tip",title:"Plusquamperfekt: A First Look",text:"You just heard 'hatte gelernt' and 'war gewesen' in the story. That is the Plusquamperfekt (past perfect). It describes something that happened BEFORE another past event. Formula: hatte/war (Präteritum) + Partizip II (at the end). Er hatte die Stadt gesehen. (He had seen the city.) Sie war schon gegangen. (She had already gone.)\n This grammar is practiced in lessons 3 and 4.",deepDive:{title:"Why Use the Plusquamperfekt?",text:"The Plusquamperfekt creates temporal depth in narratives. When you say 'Er hatte Deutsch gelernt, bevor er nach Berlin kam,' you show two past moments: the learning (further back) and the arriving (closer to now). In newspapers, novels, and storytelling, this distinction matters."}},
         {type:"mc",q:"Verumius denkt an sein Jahr in Berlin. Was bedeutet 'Alltag'?",opts:["Das tägliche Leben","Das Abenteuer","Der Beginn","Die Gewohnheit"],ans:"Das tägliche Leben",hint:"هذا الاسم المركّب يجمع بين 'all' (كل) و'Tag' (يوم)."},
         {type:"fb",s:"Verumius hat sich an das Leben in Berlin {1}.",a:["gewöhnt"],opts:["gewöhnt","vermisst","verbracht","begonnen"],hint:"أي فعل يعني التكيّف مع شيء؟ هو انعكاسي مع 'sich'.",sSrc:"اعتاد فيروميوس على الحياة في برلين."},
-        {type:"mc",q:"Der Erzähler sagt: 'Verumius hatte so viel gelernt.' Wann fand dieses Lernen statt?",opts:["Genau jetzt am Fenster","Erst gestern","Vor einem anderen vergangenen Moment","In der Zukunft"],ans:"Vor einem anderen vergangenen Moment",hint:"الماضي التام يصف أحداثاً وقعت قبل حدث ماضٍ آخر."},
+        {type:"mc",q:"Der Erzähler sagt: 'Verumius hatte so viel gelernt.' Wann fand dieses Lernen statt?",opts:["Genau jetzt am Fenster","Erst gestern","Vor einem anderen vergangenen Moment","في المستقبل"],ans:"Vor einem anderen vergangenen Moment",hint:"الماضي التام يصف أحداثاً وقعت قبل حدث ماضٍ آخر."},
         {type:"match",pairs:[
     {trg:"Abenteuer",src:"مغامرة"},
     {trg:"Gewohnheit",src:"عادة"},
@@ -44,7 +44,7 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
     {trg:"verbringen",src:"يقضي (وقتاً)"}
 ]},
         {type:"fb",s:"Die {1} sagen ist nicht immer leicht.",a:["Wahrheit"],opts:["Wahrheit","Tatsache","Eile","Gewohnheit"],hint:"الكلمة المطلوبة مركّبة وتنتهي بـ '-heit' (صفة تحولت إلى اسم). حلّل الجذر 'Wahr'.",sSrc:"قول الحقيقة مش دايماً سهل."},
-        {type:"mc",q:"Was bedeutet 'gewöhnen'?",opts:["the everyday life","the hurry, the haste","the sense, the meaning, the purpose","to get used to"],ans:"to get used to",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
+        {type:"mc",q:"Was bedeutet 'gewöhnen'?",opts:["الحياة اليومية","العجلة، التسرّع","المعنى، الغاية","يعتاد على"],ans:"يعتاد على",hint:"الكلمة فعل ألماني. حلّل بادئتها وجذرها لاستنتاج المعنى."},
         {type:"fb",s:"Ist dein Leben in Berlin jetzt {1}?",a:["alltäglich"],opts:["vermissen","das Abenteuer","verbringen","alltäglich"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"صارت حياتك ببرلين عادية هلأ؟"}
       ]},
 // ─── L3: Rückblick ───
@@ -168,7 +168,7 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"mc",q:"Welcher Satz drückt ein stärkeres Engagement zum Bleiben aus?",opts:["Ich bleibe morgen","Ich bin geblieben","Ich blieb","Ich werde bleiben"],ans:"Ich werde bleiben",hint:"المستقبل البسيط يؤكّد النيّة والالتزام الواعي أكثر من المضارع."},
         {type:"story",speaker:"narrator",mood:"anticipatory",art:"de-berlin-apartment-evening-light",trg:"Die Sonne geht unter. In zwei Stunden werden sie kommen. Verumius schaut auf sein Telefon. Eine Nachricht von Lukas: 'Ich bringe die Lichterketten.' Eine von Hildi: 'Der Tee ist fertig. Komm runter.' Es wird ein guter Abend werden.",src:"الشمس تغرب. بعد ساعتين سيأتون. ينظر فيروميوس إلى هاتفه. رسالة من لوكاس: 'سأحضر الأضواء.' ورسالة من هيلدي: 'الشاي جاهز. انزل.' سيكون مساءً جمي��اً."},
         {type:"fb",s:"Er {1} sich entschlossen zu bleiben, nachdem er ein Jahr in Berlin gelebt hat.",a:["hatte"],opts:["hatte","hat","wird","war"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"كان قرّر يضل بعد ما قضى سنة ببرلين."},
-        {type:"mc",q:"Was bedeutet 'sinnvoll'?",opts:["to suggest","meaningful, sensible","to continue","optimistic"],ans:"meaningful, sensible",hint:"اللاحقة '-voll' تعني 'مليء بـ'. الجذر 'sinn' يكشف المحتوى."},
+        {type:"mc",q:"Was bedeutet 'sinnvoll'?",opts:["يقترح","ذو معنى، عقلاني","يستمر","متفائل"],ans:"ذو معنى، عقلاني",hint:"اللاحقة '-voll' تعني 'مليء بـ'. الجذر 'sinn' يكشف المحتوى."},
         {type:"fb",s:"Manchmal dachte ich: das ist {1}.",a:["sinnlos"],opts:["sinnlos","der Zweck","die Planung","wohl"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"أوقات كنت أفكر: هاد بلا فايدة."}
       ]},
 // ─── L7: Vorbereitung ───
@@ -203,12 +203,12 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"drag_fill",s:"Verumius {1} alles {2}. Morgen {3} er seine Freunde einladen.",blanks:{"1":"hat","2":"vorbereitet","3":"wird"},pool:["hat","hatte","vorbereitet","wird","werde","vorbereiten"],hint:"الجملة الأولى تصف فعلاً مكتملاً (Perfekt). الجملة الثانية تخطّط لفعل مستقبلي (Futur I). اختر الفعل المساعد الصحيح لكل منهما.",sSrc:"حضّر فيروميوس كل شيء. غداً سيدعو أصدقاءه."},
         {type:"story",speaker:"hildi",mood:"stern-fond",art:"de-berlin-hinterhof-hildi-tea",trg:"Die Lichterketten hängen schief. Und die Mülltonnen stehen zu nah am Tisch. Aber gut. Ausnahmsweise. Hier, trink deinen Tee. Du wirst ihn brauchen.",src:"الأضواء معلّقة بشكل معوجّ. وحاويات إعادة التدوير قريبة جداً من الطاولة. لكن حسناً. استثنائياً. تفضّل، اشرب شايك. ستحتاجه."},
         {type:"story",speaker:"verumius",mood:"grateful-amused",art:"de-berlin-hinterhof-setup-done",trg:"Danke, Hildi. Wirklich. Ohne dich wäre das hier nicht möglich gewesen. Du hast mir in diesem Jahr so viel beigebracht. Nicht nur Deutsch.",src:"شكراً لك يا هيلدي. حقاً. بدونك لم يكن هذا ممكناً. علّمتِني الكثير هذا العام. ليس فقط الألمانية."},
-        {type:"mc",q:"Was bedeutet 'übertreiben'?",opts:["to exaggerate","to surprise thoroughly","to hide carefully","to prepare in advance"],ans:"to exaggerate",hint:"البادئة 'über-' تعني فوق أو تجاوز. ما الجذر الأساسي؟"},
-        {type:"mc",q:"Was bedeutet 'verstecken'?",opts:["to surprise","the video","to hide","the hike"],ans:"to hide",hint:"البادئة 'ver-' تعني تغيير حالة. الجذر 'stecken' يكشف المعنى."},
+        {type:"mc",q:"Was bedeutet 'übertreiben'?",opts:["يبالغ","يفاجئ تماماً","يُخفي بعناية","يُحضّر مسبقاً"],ans:"يبالغ",hint:"البادئة 'über-' تعني فوق أو تجاوز. ما الجذر الأساسي؟"},
+        {type:"mc",q:"Was bedeutet 'verstecken'?",opts:["يُفاجئ","الفيديو","يُخفي","النزهة، رحلة المشي"],ans:"يُخفي",hint:"البادئة 'ver-' تعني تغيير حالة. الجذر 'stecken' يكشف المعنى."},
         {type:"fb",s:"Bist du das deutsche Wetter {1}?",a:["gewohnt"],opts:["üblich","gewohnt","aussuchen","die Wanderung"],hint:"الفراغ يحتاج اسم المفعول (Partizip II). ابحث عن الصيغة التي تبدأ بـ ge-.",sSrc:"تعوّدت على الطقس الألماني؟"},
-        {type:"mc",q:"Was bedeutet 'üblich'?",opts:["usual, customary","the hike","to pick out, to choose","the congratulations"],ans:"usual, customary",hint:"اللاحقة '-lich' تجعل الكلمة صفة بمعنى 'ذو علاقة بـ'. الجذر 'üb' يكشف المعنى."},
+        {type:"mc",q:"Was bedeutet 'üblich'?",opts:["معتاد، مألوف","النزهة، رحلة المشي","يختار، ينتقي","التهاني"],ans:"معتاد، مألوف",hint:"اللاحقة '-lich' تجعل الكلمة صفة بمعنى 'ذو علاقة بـ'. الجذر 'üb' يكشف المعنى."},
         {type:"fb",s:"{1}!",a:["selbstverständlich"],opts:["die Gratulation","überraschen","gewohnt","selbstverständlich"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"طبعاً!"},
-        {type:"mc",q:"Was bedeutet 'ungewöhnlich'?",opts:["accustomed, used to","unusual","the overnight stay","to pick out, to choose"],ans:"unusual",hint:"اللاحقة '-lich' تجعل الكلمة صفة بمعنى 'ذو علاقة بـ'. الجذر 'ungewöhn' يكشف المعنى."}
+        {type:"mc",q:"Was bedeutet 'ungewöhnlich'?",opts:["معتاد على","غير معتاد","المبيت","يختار، ينتقي"],ans:"غير معتاد",hint:"اللاحقة '-lich' تجعل الكلمة صفة بمعنى 'ذو علاقة بـ'. الجذر 'ungewöhn' يكشف المعنى."}
       ]},
 // ─── L9: Das Fest ───
     {id:"deu_r24l6",title:"Das Fest",icon:"🎶",xp:15,board:true,steps:[
@@ -256,11 +256,11 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
     {trg:"übrig",src:"متبقٍّ"}
 ]},
         {type:"story",speaker:"verumius",mood:"overwhelmed-happy",art:"de-berlin-hinterhof-group-toast",trg:"Ich schaue in die Runde. Hildi mit ihrem Tee. Lukas mit der Gitarre. Mia, die lacht. Yilmaz, der nickt. Und KD, der einen Kaktus hält. Das ist meine Familie in Berlin. Das sind die Menschen, die zählen.",src:"أنظر حولي في الحلقة. هيلدي مع شايها. لوكاس مع غيتاره. ميا التي تضحك. يلماز التي تومئ. وKD الذي يمسك صبّاراً. هذه عائلتي في برلين. هؤلاء هم الأشخاص المهمّون."},
-        {type:"mc",q:"Was bedeutet 'zugehen'?",opts:["the bad luck","to manage difficult situations","grown-up, adult","to approach, to go toward"],ans:"to approach, to go toward",hint:"البادئة 'zu-' تعني إغلاق أو نحو. ما الفعل الأساسي؟"},
+        {type:"mc",q:"Was bedeutet 'zugehen'?",opts:["سوء الحظ","يتعامل مع المواقف الصعبة","بالغ، راشد","يقترب، يتّجه نحو"],ans:"يقترب، يتّجه نحو",hint:"البادئة 'zu-' تعني إغلاق أو نحو. ما الفعل الأساسي؟"},
         {type:"fb",s:"Fühlst du dich {1}?",a:["erwachsen"],opts:["entschlossen","zählen","erwachsen","der Abschied"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"حاسس حالك كبرت؟"},
-        {type:"mc",q:"Was bedeutet 'verständlich'?",opts:["to throw","to achieve, to afford","understandable","the farewell"],ans:"understandable",hint:"البادئة 'ver-' تعني تغيير حالة. الجذر 'ständlich' يكشف المعنى."},
+        {type:"mc",q:"Was bedeutet 'verständlich'?",opts:["يرمي","يحقّق، يتحمّل","مفهوم","الوداع"],ans:"مفهوم",hint:"البادئة 'ver-' تعني تغيير حالة. الجذر 'ständlich' يكشف المعنى."},
         {type:"fb",s:"Genau {1}!",a:["umgekehrt"],opts:["übrig","verständlich","der Abschied","umgekehrt"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"بالعكس تماماً!"},
-        {type:"mc",q:"Ist noch Kuchen übrig? Was bedeutet 'übrig'?",opts:["missing","remaining, left over","fresh","expensive"],ans:"remaining, left over",hint:"اللاحقة '-ig' تحوّل الاسم إلى صفة. الجذر 'übr' يكشف المعنى."}
+        {type:"mc",q:"Ist noch Kuchen übrig? Was bedeutet 'übrig'?",opts:["مفقود","متبقٍّ","طازج","غالٍ"],ans:"متبقٍّ",hint:"اللاحقة '-ig' تحوّل الاسم إلى صفة. الجذر 'übr' يكشف المعنى."}
       ]},
 // ─── L11: Rückblick und Ausblick ───
     {id:"deu_r24l7",title:"Rückblick und Ausblick",icon:"📝",xp:15,board:true,steps:[
@@ -307,7 +307,7 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"story",speaker:"narrator",mood:"transitional",art:"de-berlin-hinterhof-guests-leaving",trg:"Einer nach dem anderen gehen sie. Umarmungen. Versprechen. 'Bis bald.' Bis am Ende nur noch die Lichterketten leuchten und Verumius allein im Hof sitzt.",src:"واحداً تلو الآخر يغادرون. أحضان. وعود. 'إلى اللقاء قريباً.' حتى لا يبقى في النهاية سوى الأضواء المتوهّجة وفيروميوس يجلس وحيداً في الفناء."},
         {type:"fb",s:"{1} sonst fühle ich mich so zu Hause wie in Berlin.",a:["Nirgendwo"],opts:["Nirgendwo","Normalerweise","Möglicherweise","Umsonst"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"ما في محل تاني بحس فيه إني ببيتي متل برلين."},
         {type:"fb",s:"Ein Mann, {1} den Kaktus mitgebracht hat, heißt KD.",a:["der"],opts:["der","den","dem","die"],hint:"اختر أداة التعريف الصحيحة. انتبه لجنس الاسم والحالة النحوية في الجملة.",sSrc:"الرجل يلي جاب الصبّار اسمه KD."},
-        {type:"mc",q:"Was bedeutet 'voneinander'?",opts:["normally, usually","from each other","as ... as possible","nowhere"],ans:"from each other",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."},
+        {type:"mc",q:"Was bedeutet 'voneinander'?",opts:["عادةً","عن بعضهم البعض","بأقصى ما يمكن","في أيّ مكان"],ans:"عن بعضهم البعض",hint:"الكلمة الألمانية طويلة وغالباً مركّبة. حلّل أجزاءها للوصول إلى المعنى."},
         {type:"fb",s:"{1} habe ich es versucht.",a:["zumindest"],opts:["umsonst","möglicherweise","normalerweise","zumindest"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"عالأقل حاولت."}
       ]},
 // ─── L13: Ich werde bleiben ───
@@ -340,7 +340,7 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
         {type:"story",speaker:"narrator",mood:"epic-quiet",art:"de-berlin-fernsehturm-night-lights",trg:"Die Lichterketten gehen aus. Der Fernsehturm leuchtet in der Ferne. Berlin schläft. Aber Verumius ist wach. Ein Jahr ist vorbei. Das nächste beginnt. Und diesmal weiß er, wer er ist und wo er hingehört.",src:"تنطفئ الأضواء. يتوهّج برج التلفزيون في البعيد. برلين نائمة. لكن فيروميوس مستيقظ. انتهى عام. يبدأ التالي. وهذه المرة يعرف من هو وأين ينتمي."},
         {type:"tip",title:"Bridge to B2: What Comes Next",text:"You have completed B1! You can now:\n Narrate past events using multiple tenses (Perfekt, Präteritum, Plusquamperfekt) Talk about the future (Futur I) Express conditions and wishes (Konjunktiv II) Build complex sentences (subordinate clauses, relative clauses, infinitive constructions) Understand and use the passive voice\n B2 introduces: Konjunktiv I (indirect speech: 'Er sagte, er sei müde') Extended participial phrases ('das in Berlin stattfindende Festival') Genitiv in everyday use Academic and professional German Verumius at university\n 'Ich werde bleiben. Und jetzt wird es ernst.'",deepDive:{title:"The Journey from A1 to Here",text:"Think back to the beginning: Verumius on the wrong train, not a word of German. Now: 3,298 words, every grammar construct from A1 to B1, and a decision. The journey from 'Hallo' to 'Ich werde bleiben' is the journey from tourist to resident. B2 will deepen that journey: from resident to citizen, from everyday life to academia, from surviving to thriving."}},
         {type:"mc",q:"Verumius sagt: 'Ich werde bleiben.' Warum benutzt er Futur I statt Präsens?",opts:[
-    "Weil es in der Vergangenheit geschah",
+    "لأنه حدث في الماضي",
     "Um sein bewusstes Engagement zu betonen",
     "Weil die Handlung gerade jetzt passiert",
     "Weil er unsicher ist"
@@ -360,8 +360,8 @@ const UNIT_24_AR = {n:24,lang:"de",srcLang:"ar",track:"v2",title:"Einjährig",su
     {trg:"zweifeln",src:"يشكّ"},
     {trg:"los",src:"منطلق"}
 ]},
-        {type:"mc",q:"Was ist los? Was bedeutet 'los'?",opts:["completely still","fully lost","going/happening","rather slow"],ans:"going/happening",hint:"اللاحقة '-los' تعني 'بدون'. الجذر '' يكشف ما ينقص."},
-        {type:"mc",q:"Was bedeutet 'äußerlich'?",opts:["externally, outwardly","to doubt","by chance, coincidental","to copy, to write off"],ans:"externally, outwardly",hint:"اللاحقة '-lich' تجعل الكلمة صفة بمعنى 'ذو علاقة بـ'. الجذر 'äußer' يكشف المعنى."},
+        {type:"mc",q:"Was ist los? Was bedeutet 'los'?",opts:["ساكن تماماً","ضائع تماماً","حاصل / جارٍ","بطيء نوعاً ما"],ans:"حاصل / جارٍ",hint:"اللاحقة '-los' تعني 'بدون'. الجذر '' يكشف ما ينقص."},
+        {type:"mc",q:"Was bedeutet 'äußerlich'?",opts:["خارجياً، ظاهرياً","يشكّ","بالصدفة","ينسخ، يشطب"],ans:"خارجياً، ظاهرياً",hint:"اللاحقة '-lich' تجعل الكلمة صفة بمعنى 'ذو علاقة بـ'. الجذر 'äußer' يكشف المعنى."},
         {type:"fb",s:"Wie sagt man 'suffix: in the manner of' auf Deutsch? {1}",a:["-weis / -weise"],opts:["durcheinander","zweifeln","abschreiben","-weis / -weise"],hint:"ترجم المصطلح الإنجليزي إلى الألمانية. أيّ خيار يطابق المعنى المطلوب؟",sSrc:"كيف تقول 'suffix: in the manner of' بالألمانية؟"}
       ]}
   ]};

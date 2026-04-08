@@ -37,7 +37,7 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"teach",trg:"anfangs",src:"في البداية",pos:"adv",gender:null,note:"من Anfang (بداية). اللاحقة -s تحوّلها\nإلى ظرف.",example:"A: Wie war der erste Tag?\nB: Anfangs war ich sehr nervös.\nA: Und jetzt?\nB: Jetzt fühle ich mich sicher.",exampleSrc:"أ: كيف كان اليوم الأول؟\nب: في البداية كنت متوتراً جداً.\nأ: والآن؟\nب: الآن أشعر بالثقة.",funFact:"'Anfangs war ich nervös' (في البداية كنت متوتراً). مثالية لسرد قصة كيف بدأت في مكان ما. اللاحقة -s تحوّل الاسم Anfang إلى ظرف."},
         {type:"teach",trg:"per",src:"عبر، بواسطة",pos:"prep",gender:null,note:"من اللاتينية 'per' (عبر/بواسطة).\n'Per E-Mail,' 'per Post.' استخدام رسمي.",example:"A: Wie schicke ich die Bewerbung?\nB: Per E-Mail oder per Post.\nA: Was ist besser?\nB: Die meisten Firmen bevorzugen per E-Mail.",exampleSrc:"أ: كيف أرسل طلب التوظيف؟\nب: عبر البريد الإلكتروني أو البريد العادي.\nأ: ما الأفضل؟\nب: معظم الشركات تفضّل البريد الإلكتروني.",funFact:"'Per E-Mail' (عبر البريد الإلكتروني)، 'per Post' (عبر البريد). مختصرة وفعّالة وتُستخدم في الكتابة الرسمية. اقترضتها الألمانية مباشرة من اللاتينية."},
         {type:"mc",q:"Verumius muss ein Dokument über seine Ausbildung und Berufserfahrung schreiben. Wie heißt dieses Dokument?",opts:["Vorstellung","Bewerbung","Lebenslauf","Eindruck"],ans:"Lebenslauf",hint:"هذه الوثيقة تروي قصة حياتك على الورق."},
-        {type:"mc",q:"Dr. Yilmaz sagt: 'Der erste Eindruck zählt.' Was bedeutet Eindruck?",opts:["impression","application","preparation","success"],ans:"impression",hint:"شيء 'يُطبع' في ذهن شخص ما."},
+        {type:"mc",q:"Dr. Yilmaz sagt: 'Der erste Eindruck zählt.' Was bedeutet Eindruck?",opts:["انطباع","application","preparation","success"],ans:"انطباع",hint:"شيء 'يُطبع' في ذهن شخص ما."},
         {type:"fb",s:"Verumius muss seine {1} gut vorbereiten.",a:["Bewerbung"],opts:["Bewerbung","Karriere","Erfolg","Eindruck"],hint:"الحزمة المكونة من ثلاثة أجزاء التي ترسلها عند التقدم لوظيفة في ألمانيا.",sSrc:"على فيروميوس أن يحضّر طلب توظيفه جيداً."},
         {type:"match",pairs:[
     {trg:"Bewerbung",src:"طلب التوظيف"},
@@ -57,16 +57,16 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"fb",s:"Bist du {1} für das Vorstellungsgespräch?",a:["bereit"],opts:["bereit","korrekt","persönlich","höflich"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هل أنت جاهز لمقابلة العمل؟"},
         {type:"mc",q:"Welches Wort passt? 'In Deutschland ist eine Bewerbung ein ___ Dokument.'",opts:["höfliches","persönliches","offizielles","korrektes"],ans:"offizielles",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Wie heißt der Satz 'Ohne Vorbereitung kein Erfolg' auf Englisch?",opts:[
-    "Without success no preparation",
-    "Without preparation no success",
-    "Without impression no career",
-    "Without career no success (formal)"
-],ans:"Without preparation no success",hint:"'Vorbereitung' تعني التحضير و'Erfolg' يعني النجاح. ما العلاقة بينهما؟"},
-        {type:"mc",q:"Was bedeutet 'die Unterlage'?",opts:["the impression","the application","to create, to produce","the document, the paperwork"],ans:"the document, the paperwork",hint:"كلمة مؤنثة (die) تصف ورقة رسمية مكتوبة"},
+    "بدون نجاح لا تحضير",
+    "بدون تحضير لا نجاح",
+    "بدون انطباع لا مهنة",
+    "بدون مهنة لا نجاح (رسمي)"
+],ans:"بدون تحضير لا نجاح",hint:"'Vorbereitung' تعني التحضير و'Erfolg' يعني النجاح. ما العلاقة بينهما؟"},
+        {type:"mc",q:"Was bedeutet 'die Unterlage'?",opts:["الانطباع","الطلب / التقديم","ينشئ / ينتج","الوثيقة / المستندات"],ans:"الوثيقة / المستندات",hint:"كلمة مؤنثة (die) تصف ورقة رسمية مكتوبة"},
         {type:"fb",s:"Was {1} Sie von diesem Job?",a:["erwarten"],opts:["das Vorstellungsgespräch","erstellen","erwarten","die Unterlage"],hint:"فعل يعني ترقب حدوث شيء في المستقبل",sSrc:"ماذا تتوقع من هذه الوظيفة؟"},
-        {type:"mc",q:"Was bedeutet 'reagieren'?",opts:["the CV, the resume","personal","to react","to expect"],ans:"to react",hint:"فعل يبدأ بـ re- ويعني الاستجابة لفعل سابق"},
+        {type:"mc",q:"Was bedeutet 'reagieren'?",opts:["السيرة الذاتية","شخصي","يتفاعل / يستجيب","يتوقع"],ans:"يتفاعل / يستجيب",hint:"فعل يبدأ بـ re- ويعني الاستجابة لفعل سابق"},
         {type:"fb",s:"Wann ist {1}?",a:["die Frist"],opts:["die Frist","korrekt","die Vorstellung","der Eindruck"],hint:"كلمة مؤنثة (die) تعني موعدًا نهائيًا لإنجاز شيء",sSrc:"متى الموعد النهائي؟"},
-        {type:"mc",q:"Was bedeutet 'beachten'?",opts:["the job interview","the preparation","the application","to observe, to pay attention to"],ans:"to observe, to pay attention to",hint:"فعل مركب: be- + achten (ينتبه) = يراقب بعناية"}
+        {type:"mc",q:"Was bedeutet 'beachten'?",opts:["مقابلة العمل","التحضير","الطلب / التقديم","يراقب / ينتبه إلى"],ans:"يراقب / ينتبه إلى",hint:"فعل مركب: be- + achten (ينتبه) = يراقب بعناية"}
       ]},
 // ─── L3: Berufe und Qualifikationen ───
     {id:"deu_r13l2",title:"Berufe und Qualifikationen",icon:"🎓",xp:15,board:true,steps:[
@@ -108,11 +108,11 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
     {trg:"Fortbildung",src:"تعليم مستمر"}
 ]},
         {type:"fb",s:"Nach dem Studium hat sie einen {1} in Informatik.",a:["Abschluss"],opts:["Abschluss","Anfang","Lehrling","Praktikant"],hint:"الكلمة التي تعني إنهاء تعليمك، حرفياً 'إغلاق.'",sSrc:"بعد دراستها حصلت على شهادة في علوم الحاسوب."},
-        {type:"mc",q:"Weiterbildung means...",opts:["university degree","continuing education","apprenticeship","job interview"],ans:"continuing education",hint:"قسّم الكلمة المركبة إلى جزأيها: أحدهما يعني الاستمرار، والآخر يشير إلى تطوير المعرفة والمهارات."},
+        {type:"mc",q:"Weiterbildung means...",opts:["شهادة جامعية","تعليم مستمر","تدريب مهني","مقابلة عمل"],ans:"تعليم مستمر",hint:"قسّم الكلمة المركبة إلى جزأيها: أحدهما يعني الاستمرار، والآخر يشير إلى تطوير المعرفة والمهارات."},
         {type:"fb",s:"Die neue {1} fängt morgen an. Sie bleibt drei Monate.",a:["Praktikantin"],opts:["Praktikantin","Ingenieurin","Architektin","Lehrerin"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"المتدربة الجديدة تبدأ غداً. تبقى ثلاثة أشهر."},
-        {type:"mc",q:"Was bedeutet 'der Architekt'?",opts:["the degree, the completion","professional, work-related","the architect (male)","the qualification"],ans:"the architect (male)",hint:"مهنة تتعلق بتصميم المباني والهندسة المعمارية"},
+        {type:"mc",q:"Was bedeutet 'der Architekt'?",opts:["الشهادة / الإتمام","مهني / متعلق بالعمل","المهندس المعماري","المؤهل"],ans:"المهندس المعماري",hint:"مهنة تتعلق بتصميم المباني والهندسة المعمارية"},
         {type:"fb",s:"Wie sagt man 'the mechanic (male)' auf Deutsch? {1}",a:["der Mechaniker"],opts:["der Mechaniker","das Abitur","die Fortbildung","die Fähigkeit"],hint:"مهنة تتعلق بإصلاح السيارات والآلات",sSrc:"كيف تقول 'the mechanic (male)' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'berufstätig'?",opts:["the degree, the completion","the diploma","the high school leaving exam","employed, working"],ans:"employed, working",hint:"صفة تصف شخصًا يعمل عند شركة أو مؤسسة"}
+        {type:"mc",q:"Was bedeutet 'berufstätig'?",opts:["الشهادة / الإتمام","الدبلوم","امتحان الثانوية العامة","موظف / يعمل"],ans:"موظف / يعمل",hint:"صفة تصف شخصًا يعمل عند شركة أو مؤسسة"}
       ]},
 // ─── L5: Persönliche Angaben ───
     {id:"deu_r13l3",title:"Persönliche Angaben",icon:"📋",xp:15,board:true,steps:[
@@ -158,8 +158,8 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"fb",s:"Wie ist Ihr {1}? Ledig oder verheiratet?",a:["Personenstand"],opts:["Personenstand","Personal","Personalie","Bereich"],hint:"الاسم المركب للحالة الاجتماعية في السيرة الذاتية. Personen + Stand.",sSrc:"ما حالتك الاجتماعية؟ أعزب أم متزوج؟"},
         {type:"mc",q:"Was bedeutet 'der Bedarf' in einem beruflichen Kontext?",opts:["die Angabe","die Bedingung","der Mangel","die Nachfrage"],ans:"die Nachfrage",hint:"فكّر فيما تحتاجه شركة. 'Bei Bedarf' تعني 'عند الحاجة.'"},
         {type:"fb",s:"Die Stelle ist {1} ausgeschrieben. Bitte bewerben Sie sich bis Freitag.",a:["offiziell"],opts:["offiziell","komplett","bestimmt","erforderlich"],hint:"إعلان الوظيفة نُشر رسمياً. من الفرنسية 'officiel.'",sSrc:"الوظيفة مُعلنة رسمياً. الرجاء التقدّم بحلول الجمعة."},
-        {type:"mc",q:"'Bei Bedarf kontaktieren Sie uns.' Was bedeutet 'bei Bedarf'?",opts:["at the beginning","at the deadline","if needed","at the end"],ans:"if needed",hint:"بادئة 'be-' تجعل الفعل متعدياً. ما الفعل الأساسي؟"},
-        {type:"mc",q:"Was bedeutet 'der Anspruch'?",opts:["the work, the factory","the claim, the entitlement","required, necessary","certain, specific, definitely"],ans:"the claim, the entitlement",hint:"كلمة مذكرة (der) تعني حقًا قانونيًا أو مطلبًا"},
+        {type:"mc",q:"'Bei Bedarf kontaktieren Sie uns.' Was bedeutet 'bei Bedarf'?",opts:["في البداية","عند الموعد النهائي","عند الحاجة","في النهاية"],ans:"عند الحاجة",hint:"بادئة 'be-' تجعل الفعل متعدياً. ما الفعل الأساسي؟"},
+        {type:"mc",q:"Was bedeutet 'der Anspruch'?",opts:["العمل / المصنع","الحق / الاستحقاق","مطلوب / ضروري","محدد / معيّن / بالتأكيد"],ans:"الحق / الاستحقاق",hint:"كلمة مذكرة (der) تعني حقًا قانونيًا أو مطلبًا"},
         {type:"fb",s:"Wie groß ist {1}?",a:["das Werk"],opts:["das Personal","die Beschäftigung","das Werk","erforderlich"],hint:"كلمة محايدة (das) تعني مصنعًا أو عملًا أدبيًا",sSrc:"قديش كبير المصنع؟"},
         {type:"fb",s:"War die Bewerbung {1}? Ja, ich habe die Stelle bekommen!",a:"erfolgreich",opts:["erfolgreich","erforderlich","bestimmt","komplett"],hint:"هذه الصفة means rich in success. Built from Erfolg + reich.",sSrc:"هل نجح الطلب؟ نعم، حصلت على الوظيفة!"}
       ]},
@@ -306,8 +306,8 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
     {pronoun:"sie/Sie",form:"würden ... arbeiten",src:"they/you would work"}
 ]},
     {label:"Wichtige eigene Formen",rows:[
-    {pronoun:"sein",form:"wäre",src:"would be"},
-    {pronoun:"haben",form:"hätte",src:"would have"},
+    {pronoun:"sein",form:"wäre",src:"سيكون (افتراضي)"},
+    {pronoun:"haben",form:"hätte",src:"سيملك (افتراضي)"},
     {pronoun:"werden",form:"würde",src:"would become"}
 ]}
 ],note:"würde + مصدر هي الصيغة المعيارية للطلبات والأمنيات المؤدبة في الألمانية. sein و haben يستخدمان صيغهما الخاصة: wäre، hätte."},
@@ -325,9 +325,9 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
 ]},
         {type:"story",speaker:"yilmaz",mood:"thoughtful",art:"de-vhs-office-desk",trg:"Dein Anschreiben klingt jetzt professionell. 'Ich würde mich freuen.' Perfekt. Aber morgen üben wir das Gespräch. Das wird der schwierige Teil.",src:"خطاب تقديمك يبدو احترافياً الآن. 'سأكون مسروراً.' ممتاز. لكن غداً نتدرب على المقابلة. هذا سيكون الجزء الصعب."},
         {type:"fb",s:"Die {1} (plural) sind die Experten auf diesem Gebiet.",a:["Fachleute"],opts:["Fachleute","Fachmann","Fachfrau","Fachmänner"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"الخبراء هم المختصون بهالمجال."},
-        {type:"mc",q:"Was bedeutet 'absolut'?",opts:["individual, personal","the employee (white-collar)","full-time","absolute, absolutely"],ans:"absolute, absolutely",hint:"كلمة لاتينية الأصل تعني بشكل كامل وقاطع"},
+        {type:"mc",q:"Was bedeutet 'absolut'?",opts:["individual, personal","الموظف (مكتبي)","دوام كامل","مطلق / بالكامل"],ans:"مطلق / بالكامل",hint:"كلمة لاتينية الأصل تعني بشكل كامل وقاطع"},
         {type:"fb",s:"Sind Sie zeitlich {1}?",a:["flexibel"],opts:["die Lehrerin","flexibel","der Fachmann","die Arbeitslosigkeit"],hint:"صفة لاتينية الأصل تعني القدرة على التكيف والتغيير",sSrc:"عندك مرونة بالوقت؟"},
-        {type:"mc",q:"Was bedeutet 'ideal'?",opts:["the experts (plural)","part-time","the temporary worker","ideal, perfect"],ans:"ideal, perfect",hint:"كلمة لاتينية الأصل تصف الكمال والملاءمة التامة"},
+        {type:"mc",q:"Was bedeutet 'ideal'?",opts:["الخبراء (جمع)","دوام جزئي","العامل المؤقت","مثالي / كامل"],ans:"مثالي / كامل",hint:"كلمة لاتينية الأصل تصف الكمال والملاءمة التامة"},
         {type:"fb",s:"Jede Bewerbung muss {1} sein.",a:["individuell"],opts:["individuell","das Einkommen","flexibel","die Fachfrau"],hint:"صفة تعني خاص بشخص واحد، ليس عامًا",sSrc:"كل طلب توظيف لازم يكون فردي."}
       ]},
 // ─── L10: Experten und Kandidaten ───
@@ -376,8 +376,8 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
         {type:"tip",title:"Konjunktiv II of Modal Verbs: The Polite Tools",text:"للأفعال المساعدة صيغ Konjunktiv II خاصة بها. لا حاجة لـ 'würde.'\n\nkönnen: könnte (يمكن أن)\nmüssen: müsste (يجب أن)\ndürfen: dürfte (هل يُسمح)\nsollen: sollte (ينبغي)\nwollen: wollte (يريد)\n\nهذه أكثر أدباً من würde:\n'Könnten Sie mir helfen?' ألطف من\n'Würden Sie mir helfen?'\n\nاستخدم صيغ Konjunktiv II المساعدة في مقابلات العمل والرسائل ومع الغرباء.",deepDive:{title:"Könnten vs. konnten: One Letter, Big Difference",text:"Könnten (Konjunktiv II) = يمكن (مؤدب/افتراضي)\nKonnten (Präteritum) = استطاع (ماضٍ: كان قادراً)\n\nعلامة النقطتين (Umlaut) تصنع الفرق:\n'Sie könnten mir helfen' = يمكنكم مساعدتي (طلب مؤدب)\n'Sie konnten mir helfen' = استطعتم مساعدتي (حقيقة ماضية)\n\nنفس القاعدة لجميع الأفعال المساعدة:\nmüsste (ينبغي) مقابل musste (اضطر)\ndürfte (ربما) مقابل durfte (سُمح له)"}},
         {type:"verb_table",title:"Konjunktiv II: Modalverben",groups:[
     {label:"Modale Konjunktiv-II-Formen",rows:[
-    {pronoun:"können",form:"könnte",src:"could"},
-    {pronoun:"müssen",form:"müsste",src:"would have to"},
+    {pronoun:"können",form:"könnte",src:"يستطيع (افتراضي)"},
+    {pronoun:"müssen",form:"müsste",src:"سيضطر (افتراضي)"},
     {pronoun:"dürfen",form:"dürfte",src:"might/would be allowed to"},
     {pronoun:"sollen",form:"sollte",src:"should"},
     {pronoun:"wollen",form:"wollte",src:"would want"}
@@ -455,7 +455,7 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
 ],ans:"Präteritum, dann Modaler Konj. II, dann würde + Inf.",hint:"طابق كل سياق بسجله النحوي: السيرة الذاتية تسرد حقائق ماضية، خطاب التقديم يستخدم إمكانية مساعدة مؤدبة، وجملة المقابلة تعبّر عن أمنية بأسلوب غير مباشر."},
         {type:"story",speaker:"verumius",mood:"nervous-excited",art:"de-vhs-office-desk",trg:"Verumius klickt auf 'Senden.' Stille. Dann dreht er sich zu Yilmaz. 'Das war's? Einfach so?' Yilmaz lächelt. 'Jetzt beginnt das Warten.'",src:"فيروميوس ينقر 'إرسال.' صمت. ثم يلتفت إلى يلماز. 'هذا كل شيء؟ هكذا ببساطة؟' يلماز تبتسم. 'الآن يبدأ الانتظار.'"},
         {type:"fb",s:"Er hat das Angebot {1} und fängt nächste Woche an.",a:["angenommen"],opts:["angenommen","abgelehnt","akzeptiert","abgesagt"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"قبل العرض وبيبدأ الأسبوع الجاي."},
-        {type:"mc",q:"Was bedeutet 'der Beweis'?",opts:["the proof, the evidence","the advertisement","the classified ad","the presentation, the lecture"],ans:"the proof, the evidence",hint:"كلمة مذكرة (der) تعني دليلًا يثبت شيئًا ما"},
+        {type:"mc",q:"Was bedeutet 'der Beweis'?",opts:["الدليل / البرهان","الإعلان","إعلان مبوب","العرض التقديمي / المحاضرة"],ans:"الدليل / البرهان",hint:"كلمة مذكرة (der) تعني دليلًا يثبت شيئًا ما"},
         {type:"fb",s:"{1} Sie das Angebot?",a:["akzeptieren"],opts:["die Auswahl","das Inserat","die Entlassung","akzeptieren"],hint:"فعل لاتيني الأصل يعني الموافقة على عرض",sSrc:"بتقبل العرض؟"}
       ]},
 // ─── L14: Alles auf dem Prüfstand ───
@@ -511,18 +511,18 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
 ],ans:"Ich könnte Ihr Team verstärken, da ich drei Sprachen fließend spreche",hint:"استبدل 'kann' بصيغة Konjunktiv II. استخدم 'da' بدلاً من 'weil' لسجل أكثر رسمية."},
         {type:"fb",s:"Könnten Sie mir bitte {1}, wann das Gespräch stattfindet?",a:["sagen"],opts:["sagen","gesagt","sage","sagte"],hint:"Könnten Sie + مصدر في النهاية. طلب مؤدب للمعلومات.",sSrc:"هل يمكنكم إخباري متى تُعقد المقابلة؟"},
         {type:"mc",q:"'Angenehm! Mein Name ist Verumius.' Wann sagt man 'Angenehm!'?",opts:["Beim formellen Verabschieden","Bei einer Vorstellung","Beim Einreichen einer Beschwerde","Bei einer Bewerbung"],ans:"Bei einer Vorstellung",hint:"بادئة 'an-' تدل على الاقتراب أو البدء. ما الجذر الأصلي؟"},
-        {type:"mc",q:"Was bedeutet 'abhängig'?",opts:["pleasant, agreeable","the second language","dependent","the driver's license (Swiss)"],ans:"dependent",hint:"صفة تعني الاعتماد على شخص أو شيء آخر"},
+        {type:"mc",q:"Was bedeutet 'abhängig'?",opts:["ممتع / لطيف","اللغة الثانية","معتمد على / تابع","رخصة القيادة (سويسرية)"],ans:"معتمد على / تابع",hint:"صفة تعني الاعتماد على شخص أو شيء آخر"},
         {type:"fb",s:"Herr Müller ist heute {1}.",a:["abwesend"],opts:["die Zweitsprache","anstellen","der Profisportler","abwesend"],hint:"صفة تعني غير موجود في المكان، عكس anwesend",sSrc:"السيد مولر غائب اليوم."},
         {type:"mc",q:"Was bedeutet 'anwesend'?",opts:[
-    "the professional athlete (female)",
-    "to exhaust, to make an effort",
-    "the provider, the supplier",
-    "present, in attendance"
-],ans:"present, in attendance",hint:"صفة تعني الحضور الفعلي في المكان، عكس abwesend"},
+    "الرياضية المحترفة",
+    "يرهق / يبذل جهداً",
+    "المزوّد / المورّد",
+    "حاضر / موجود"
+],ans:"حاضر / موجود",hint:"صفة تعني الحضور الفعلي في المكان، عكس abwesend"},
         {type:"fb",s:"{1} Sie auf die Details.",a:["achten"],opts:["achten","abwesend","der Anbieter","die Mehrwertsteuer"],hint:"فعل يعني الانتباه بعناية لشيء مهم",sSrc:"انتبه للتفاصيل."},
-        {type:"mc",q:"Was bedeutet 'ankündigen'?",opts:["the consulting, the advice","the mother tongue","to announce","to hire, to employ"],ans:"to announce",hint:"فعل مركب: an- + kündigen = يُعلم بشيء قادم"},
+        {type:"mc",q:"Was bedeutet 'ankündigen'?",opts:["الاستشارة / النصيحة","اللغة الأم","يُعلن","يوظّف"],ans:"يُعلن",hint:"فعل مركب: an- + kündigen = يُعلم بشيء قادم"},
         {type:"fb",s:"Wir müssen neue Computer {1}.",a:["anschaffen"],opts:["anwesend","anschaffen","die Beratung","anstrengen"],hint:"فعل مركب: an- + schaffen = شراء شيء جديد للاستخدام",sSrc:"لازم نشتري كمبيوترات جديدة."},
-        {type:"mc",q:"Was bedeutet 'anstellen'?",opts:["pleasant, agreeable","to announce","the driver's license (Swiss)","to hire, to employ"],ans:"to hire, to employ",hint:"فعل مركب: an- + stellen = يضع شخصًا في وظيفة"},
+        {type:"mc",q:"Was bedeutet 'anstellen'?",opts:["ممتع / لطيف","يُعلن","رخصة القيادة (سويسرية)","يوظّف"],ans:"يوظّف",hint:"فعل مركب: an- + stellen = يضع شخصًا في وظيفة"},
         {type:"fb",s:"Wie sagt man 'to exhaust, to make an effort' auf Deutsch? {1}",a:["anstrengen"],opts:["angenehm","anstrengen","ankündigen","achten"],hint:"فعل انعكاسي (sich) يعني بذل جهد كبير",sSrc:"كيف تقول 'to exhaust, to make an effort' بالألمانية؟"}
       ]},
 // ─── L16: Die gute Nachricht ───
@@ -580,11 +580,11 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
 ],ans:"Wir würden uns freuen, Sie in unserem Team zu begrüßen.",hint:"الرسائل الرسمية تستخدم Konjunktiv II، Sie، وجملاً كاملة."},
         {type:"fb",s:"Er {1} drei Jahre in Istanbul und kam dann nach Berlin.",a:["studierte"],opts:["studierte","studiert","studieren","studiere"],hint:"الماضي السردي في سياق السيرة الذاتية. الفعل المنتظم في Präteritum يأخذ -te.",sSrc:"درس ثلاث سنوات في إسطنبول ثم جاء إلى برلين."},
         {type:"mc",q:"Verumius schreibt an die Firma: 'Könnten Sie mir bitte den Vertrag zusenden?' Warum könnten und nicht können?",opts:[
-    "Könnten ist höflicher und formeller",
+    "könnten أكثر أدباً ورسمية",
     "Es gibt keinen Unterschied",
     "Können wäre grammatisch falsch",
     "Könnten bedeutet etwas anderes"
-],ans:"Könnten ist höflicher und formeller",hint:"Konjunktiv II للأفعال المساعدة يُلطّف الطلبات. المراسلات المهنية تفضّل دائماً الصيغة المؤدبة."},
+],ans:"könnten أكثر أدباً ورسمية",hint:"Konjunktiv II للأفعال المساعدة يُلطّف الطلبات. المراسلات المهنية تفضّل دائماً الصيغة المؤدبة."},
         {type:"drag_fill",s:"Ich {1} mir, Ihnen {2}, dass ich die Stelle gern {3} möchte.",blanks:{"1":"erlaube","2":"mitzuteilen","3":"annehmen"},pool:["erlaube","mitzuteilen","annehmen","erlaubte","mitteilen","angenommen"],hint:"رد رسمي: 'أسمح لنفسي بإبلاغكم أنني أودّ قبول الوظيفة.'",sSrc:"أسمح لنفسي بإبلاغكم أنني أودّ قبول الوظيفة."},
         {type:"match",pairs:[
     {trg:"Bewerbung",src:"طلب التوظيف"},
@@ -598,8 +598,8 @@ const UNIT_13_AR = {n:13,lang:"de",srcLang:"ar",track:"v2",title:"Die Bewerbung"
     "Lukas spricht kein gutes Deutsch",
     "Die Firma ist unhöflich",
     "Verumius versteht Lukas nicht",
-    "Formelles und informelles Register in derselben Sprache"
-],ans:"Formelles und informelles Register in derselben Sprache",hint:"لوكاس يكتب كما يكتب لصديق. الشركة تكتب رسمياً. ماذا يُظهر هذا التباين عن اللغة؟"},
+    "السجل الرسمي وغير الرسمي في نفس اللغة"
+],ans:"السجل الرسمي وغير الرسمي في نفس اللغة",hint:"لوكاس يكتب كما يكتب لصديق. الشركة تكتب رسمياً. ماذا يُظهر هذا التباين عن اللغة؟"},
         {type:"story",speaker:"lukas",mood:"proud",art:"de-verumius-apartment-evening",trg:"Eine Sprachnachricht von Lukas: 'Ey, ich wollte nur sagen... ich bin stolz auf dich, Alter. Vom ersten Tag an, als du kein Wort Deutsch konntest. Und jetzt? Job in Berlin. Respekt.'",src:"رسالة صوتية من لوكاس: 'يا صاحبي، أردت فقط أن أقول... أنا فخور بك. من اليوم الأول، عندما لم تكن تعرف كلمة ألمانية واحدة. والآن؟ وظيفة في برلين. احترام.'"},
         {type:"fb",s:"Wir {1} uns, Ihnen mitzuteilen, dass wir Sie ausgewählt haben.",a:["freuen"],opts:["freuen","würden","können","haben"],hint:"الافتتاحية المعيارية لرد إيجابي من صاحب عمل. 'يسعدنا إبلاغكم...'",sSrc:"يسعدنا إبلاغكم أننا اخترناكم."},
         {type:"fb",s:"Ich {1} mich nach der offenen Stelle in Ihrer Firma.",a:["erkundige"],opts:["erkundige","melde","handle","funktioniere"],hint:"فعل انعكاسي بمعنى يستفسر. رسمي ومؤدب، يُستخدم عند السؤال عن وظيفة.",sSrc:"أستفسر عن الوظيفة الشاغرة في شركتكم."}

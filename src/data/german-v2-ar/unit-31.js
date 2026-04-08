@@ -36,11 +36,11 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"teach",trg:"jährlich",src:"سنوياً، كل عام",pos:"adj",gender:null,note:"Jahr (سنة) + -lich. نمط تحويل الحرف:\nTag/täglich، Monat/monatlich، Jahr/jährlich.",example:"A: Wie oft müssen Sie die Steuererklärung machen?\nB: Jährlich. Einmal pro Jahr.\nA: Und die jährlichen Kosten?\nB: Die berechnet der Steuerberater.",exampleSrc:"أ: كم مرة يجب تقديم الإقرار الضريبي؟\nب: سنوياً. مرة واحدة في السنة.\nأ: وما التكاليف السنوية؟\nب: يحسبها المستشار الضريبي.",funFact:"'Jahr' (سنة) + '-lich' (لاحقة الصفة). سنوياً، كل عام. 'Jährliche Steuererklärung' (الإقرار الضريبي السنوي). نمط تحويل الحرف: Tag/täglich، Monat/monatlich، Jahr/jährlich."},
         {type:"mc",q:"Der Steuerberater prüft Verumius' Finanzen. Die Gesamteinnahmen vor Abzug aller Kosten heissen...",opts:["Gewinn","Umsatz","Kapital","Verlust"],ans:"Umsatz",hint:"ما يدخل قبل أي خصومات. عكس 'بعد التكاليف'."},
         {type:"mc",q:"Verumius fragt nach seinem Zinssatz. Wonach fragt er?",opts:[
-    "nach dem Zinssatz (interest rate)",
-    "nach der Gewinnmarge (profit margin)",
+    "nach dem Zinssatz (سعر الفائدة)",
+    "nach der Gewinnmarge (هامش الربح)",
     "nach dem Steuersatz",
     "nach dem Schuldenniveau"
-],ans:"nach dem Zinssatz (interest rate)",hint:"من اللاتينية 'census' عبر الألمانية العالية القديمة. المركّب يصف ما يفرضه البنك على المال المقترض."},
+],ans:"nach dem Zinssatz (سعر الفائدة)",hint:"من اللاتينية 'census' عبر الألمانية العالية القديمة. المركّب يصف ما يفرضه البنك على المال المقترض."},
         {type:"fb",s:"Da er Schulden hat, muss Verumius einen {1} aufnehmen.",a:["Kredit"],opts:["Kredit","Gewinn","Umsatz","Etat"],hint:"حين تكون مديناً وتحتاج إلى مزيد من المال، تأخذ...",sSrc:"بما أن لدى Verumius ديوناً، عليه أخذ قرض."},
         {type:"story",speaker:"steuerberater",mood:"encouraging",art:"de-ber-steuerberater-handshake",trg:"Machen Sie sich keine Sorgen, Herr Verumius. Bis Ende des Monats werden wir Ihre Steuererklärung fertig haben. Dann sieht alles klarer aus.",src:"لا تقلق، السيد Verumius. بحلول نهاية الشهر سيكون إقرارك الضريبي جاهزاً. حينها سيبدو كل شيء أوضح."},
         {type:"story",speaker:"verumius",mood:"relieved",art:"de-ber-verumius-leaving-office",trg:"Danke. Ich dachte, Steuern in Deutschland wären unmöglich. Aber mit einem guten Steuerberater ist es machbar.",src:"شكراً. كنت أظن أن الضرائب في ألمانيا مستحيلة. لكن مع مستشار ضريبي جيد، الأمر ممكن."},
@@ -77,11 +77,11 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"teach",trg:"anlegen",src:"استثمار (money)",pos:"verb",gender:null,note:"An (في/عند) + legen (الوضع). فعل منفصل: 'Ich lege mein Geld an'.\nفعل واحد، معانٍ كثيرة حسب السياق.",example:"A: Wo legen Sie Ihr Geld an?\nB: In Fonds und Immobilien.\nA: Legt man besser langfristig an?\nB: Ja, Zeit ist der beste Freund des Anlegers.",exampleSrc:"أ: أين تستثمر أموالك؟\nب: في الصناديق والعقارات.\nأ: هل من الأفضل الاستثمار على المدى الطويل؟\nب: نعم، الوقت أفضل صديق للمستثمر.",funFact:"'An' (في/عند) + 'legen' (الوضع). استثمار (المال)، إنشاء (حديقة)، ارتداء (ملابس). 'Geld anlegen' (استثمار المال). فعل منفصل: 'Ich lege mein Geld an.' فعل واحد، معانٍ كثيرة حسب ما تضعه."},
         {type:"teach",trg:"profitieren",src:"الاستفادة، الانتفاع",pos:"verb",gender:null,note:"من الفرنسية 'profiter'. يُستخدم دائماً مع 'von'.\nفعل غير منفصل من نوع -ieren.",example:"A: Wer profitiert von niedrigen Zinsen?\nB: Alle, die einen Kredit haben.\nA: Profitieren auch Anleger?\nB: Nicht unbedingt. Sie bekommen weniger Rendite.",exampleSrc:"أ: من يستفيد من انخفاض أسعار الفائدة؟\nب: كل من لديه قرض.\nأ: هل يستفيد المستثمرون أيضاً؟\nب: ليس بالضرورة. يحصلون على عائد أقل.",funFact:"من الفرنسية 'profiter'. الاستفادة أو الربح. 'Von etwas profitieren' (الاستفادة من شيء). يُستخدم دائماً مع 'von'. فعل غير منفصل من نوع -ieren. 'Alle profitieren von niedrigen Zinsen' (يستفيد الجميع من أسعار الفائدة المنخفضة)."},
         {type:"mc",q:"Eine Rendite ist...",opts:[
-    "eine Kapitalertragsrate (return on investment)",
-    "ein Steuerabzug vom Bruttolohn (tax deduction)",
+    "eine Kapitalertragsrate (عائد الاستثمار)",
+    "ein Steuerabzug vom Bruttolohn (خصم ضريبي)",
     "ein Geschäftskredit",
     "ein Aktienzertifikat"
-],ans:"eine Kapitalertragsrate (return on investment)",hint:"المصطلح المصرفي الإيطالي لما تكسبه أموالك حين تستثمرها."},
+],ans:"eine Kapitalertragsrate (عائد الاستثمار)",hint:"المصطلح المصرفي الإيطالي لما تكسبه أموالك حين تستثمرها."},
         {type:"match",pairs:[
     {trg:"Aktie",src:"سهم"},
     {trg:"Börse",src:"بورصة"},
@@ -89,10 +89,10 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
     {trg:"Anleger",src:"مستثمر"}
 ]},
         {type:"fb",s:"Die {1} bestimmt, wie sich Angebot und Nachfrage entwickeln.",a:["Konjunktur"],opts:["Konjunktur","Dividende","Aktie","Rendite"],hint:"الدورة الاقتصادية الكلية التي تحدد ظروف الأعمال.",sSrc:"تحدد الدورة الاقتصادية كيفية تطوّر العرض والطلب."},
-        {type:"mc",q:"Wettbewerbsfaehig bedeutet...",opts:["nachhaltig und ressourcenschonend","konkurrenzfaehig (competitive)","börsennotiert","profitabel"],ans:"konkurrenzfaehig (competitive)",hint:"'Wettbewerb' تعني منافسة. 'Faehig' تعني قادر. قادر على المنافسة."},
+        {type:"mc",q:"Wettbewerbsfaehig bedeutet...",opts:["nachhaltig und ressourcenschonend","konkurrenzfaehig (تنافسي)","börsennotiert","profitabel"],ans:"konkurrenzfaehig (تنافسي)",hint:"'Wettbewerb' تعني منافسة. 'Faehig' تعني قادر. قادر على المنافسة."},
         {type:"story",speaker:"verumius",mood:"amused",art:"de-ber-cafe-closing-newspaper",trg:"Ich habe gerade eine ganze Seite Börsenbericht gelesen. Vor drei Monaten hätte ich kein Wort verstanden. Jetzt verstehe ich fast alles. Fast.",src:"قرأت للتو صفحة كاملة من تقرير سوق الأسهم. قبل ثلاثة أشهر لم أكن لأفهم كلمة واحدة. الآن أفهم كل شيء تقريباً. تقريباً."},
         {type:"fb",s:"Deutschland ist eine {1} Volkswirtschaft mit freiem Markt.",a:["wettbewerbsfaehige"],opts:["börsennotierte","profitabel","gewinnbringende","wettbewerbsfaehige"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"ألمانيا اقتصاد تنافسي بسوق حرة."},
-        {type:"mc",q:"Was bedeutet 'anlegen'?",opts:["مُدرَج في البورصة","يستثمر (مالاً)","profitable","الاستثمار (الفعل)"],ans:"يستثمر (مالاً)",hint:"بادئة 'an-' تدل على الاقتراب أو البدء. ما الجذر الأصلي؟"},
+        {type:"mc",q:"Was bedeutet 'anlegen'?",opts:["مُدرَج في البورصة","يستثمر (مالاً)","مُربح","الاستثمار (الفعل)"],ans:"يستثمر (مالاً)",hint:"بادئة 'an-' تدل على الاقتراب أو البدء. ما الجذر الأصلي؟"},
         {type:"fb",s:"{1} auch Anleger?",a:["profitieren"],opts:["profitieren","die Anlage","die Börse","die Nachfrage"],hint:"فعل بلاحقة '-ieren' مشترك مع لغات أوروبية. السياق يحدد المعنى.",sSrc:"هل يستفيد المستثمرون أيضاً؟"}
       ]},
 // ─── L5: Bis Dezember werden Sie bezahlt haben ───
@@ -268,7 +268,7 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"story",speaker:"mia",mood:"resolute",art:"de-ber-park-sunset",trg:"Ich werde das Elterngeld in Anspruch nehmen. Und Lukas wird seine Musikschule finanzieren. Wir nehmen die Veraenderungen in Kauf. So funktioniert das hier.",src:"سأطالب بإعانة الوالدين. وسيموّل لوكاس مدرسته الموسيقية. نقبل التغييرات. هكذا تسير الأمور هنا."},
         {type:"story",speaker:"verumius",mood:"thoughtful",art:"de-ber-park-walking",trg:"In Betracht ziehen, zur Verfügung stehen, in Kauf nehmen. Das sind keine Wörter. Das sind Werkzeuge. Ohne sie kommt man in Deutschland nicht weiter.",src:"تأمّل، كن متاحًا، اقبل السلبيات. هذه ليست مجرد كلمات. إنها أدوات. بدونها لا يمكنك الاستمرار في ألمانيا."},
         {type:"fb",s:"Kosten von der Steuer {1} spart Geld.",a:["absetzen"],opts:["umsetzen","einsetzen","aufsetzen","absetzen"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"خصم التكاليف من الضرائب يوفّر المال."},
-        {type:"mc",q:"Was bedeutet 'Einfluss nehmen auf'?",opts:["to exert influence on","monthly","الراتب الصافي","يخصم (ضريبياً)، يبيع"],ans:"to exert influence on",hint:"بادئة 'ein-' تعني 'داخل'. ما الجذر الأصلي؟"}
+        {type:"mc",q:"Was bedeutet 'Einfluss nehmen auf'?",opts:["ممارسة التأثير على","شهري","الراتب الصافي","يخصم (ضريبياً)، يبيع"],ans:"ممارسة التأثير على",hint:"بادئة 'ein-' تعني 'داخل'. ما الجذر الأصلي؟"}
       ]},
 // ─── L10: Bilanz ziehen ───
     {id:"deu_r31l6",title:"Bilanz ziehen",icon:"🎵",xp:15,board:true,steps:[
@@ -317,7 +317,7 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"story",speaker:"lukas",mood:"content",art:"de-ber-kreuzberg-evening",trg:"Weißt du, Verumius, Buchführung ist nicht so schlimm. Man muss nur jeden Beleg zur Kenntnis nehmen. Und genug Rücklagen bilden. Dann läuft der Laden.",src:"تعلم يا فيروميوس، مسك الدفاتر ليس بهذا السوء. عليك فقط الإحاطة علمًا بكل إيصال. وبناء احتياطيات كافية. عندها يسير المحل."},
         {type:"story",speaker:"verumius",mood:"warm",art:"de-ber-verumius-laughing",trg:"Lukas, der Musiker, erklärt mir Buchführung. Berlin verändert jeden.",src:"لوكاس، الموسيقي، يشرح لي مسك الدفاتر. برلين تغير الجميع."},
         {type:"fb",s:"Darf man die Ergebnisse in {1} stellen?",a:["Frage"],opts:["Kenntnis","Anspruch","Bezug","Frage"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هل يجوز التشكيك في النتائج؟"},
-        {type:"mc",q:"Was bedeutet 'Monopol'?",opts:["يأخذ علماً بـ","monopoly","صندوق استثماري","رأس المال الخاص"],ans:"monopoly",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"Was bedeutet 'Monopol'?",opts:["يأخذ علماً بـ","احتكار","صندوق استثماري","رأس المال الخاص"],ans:"احتكار",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Die zwei Konzerne werden {1}.",a:["fusionieren"],opts:["fusionieren","Geschäftsbericht","solvent","Gesamtkosten"],hint:"فعل بلاحقة '-ieren' مشترك مع لغات أوروبية. السياق يحدد المعنى.",sSrc:"ستندمج الشركتان."},
         {type:"mc",q:"Was bedeutet 'bilanzieren'?",opts:["مسك الدفاتر","يطعن في، يتحدى","يشير إلى","يعمل ميزانية، يقيّم الوضع"],ans:"يعمل ميزانية، يقيّم الوضع",hint:"فعل بلاحقة '-ieren' مستعار من اللاتينية أو الفرنسية. الجذر دولي."}
       ]},
@@ -377,7 +377,7 @@ const UNIT_31_AR = {n:31,lang:"de",srcLang:"ar",track:"v2",title:"Wirtschaft",su
         {type:"mc",q:"In einem Geschäftsbericht steht: 'Wir müssen den veränderten Bedingungen Rechnung ___.' Welches Verb vervollständigt die NVV?",opts:["tragen","stellen","nehmen","ziehen"],ans:"tragen",hint:"تركيب رسمي ثابت لاسم وفعل يدل على إعطاء شيء وزنه المناسب. الاسم مرتبط بالحسابات أو المحاسبة."},
         {type:"story",speaker:"verumius",mood:"confident",art:"de-ber-library-leaving",trg:"Zahlen, Daten, Fakten. Ich habe unter Beweis gestellt, dass ich die Wirtschaftssprache beherrsche. Zumindest auf dem Papier. Morgen kommt die Praxis.",src:"أرقام وبيانات وحقائق. لقد أثبتت أنني أتقن لغة الاقتصاد. على الورق على الأقل. غدًا يأتي التطبيق العملي."},
         {type:"fb",s:"Viele Firmen {1} ihre IT-Abteilung an externe Dienstleister.",a:["outsourcen"],opts:["outsourcen","budgetieren","liquidieren","amortisieren"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"كثير من الشركات تُسند قسم تكنولوجيا المعلومات إلى مزودين خارجيين."},
-        {type:"mc",q:"Was bedeutet 'quartalweise'?",opts:["quarterly","employee","يصفّي","يستهلك، يسترد"],ans:"quarterly",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."}
+        {type:"mc",q:"Was bedeutet 'quartalweise'?",opts:["ربع سنوي","موظف","يصفّي","يستهلك، يسترد"],ans:"ربع سنوي",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."}
       ]},
 // ─── L14: Das System verstehen ───
     {id:"deu_r31l8",title:"Das System verstehen",icon:"🏛️",xp:15,board:true,steps:[

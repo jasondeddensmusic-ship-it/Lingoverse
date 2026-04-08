@@ -147,7 +147,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
     {trg:"der Winter",src:"شتاء"},
     {trg:"das Wetter",src:"طقس"}
 ]},
-        {type:"mc",q:"'Leider' تعني:",opts:["luckily","unfortunately","always","never"],ans:"unfortunately",hint:"من Leid (معاناة). يخفف الأخبار السيئة."},
+        {type:"mc",q:"'Leider' تعني:",opts:["لحسن الحظ","للأسف","دائمًا","أبدًا"],ans:"للأسف",hint:"من Leid (معاناة). يخفف الأخبار السيئة."},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-altbau-notepad",trg:"Freitagabend. Verumius sitzt am Tisch. Ein Notizblock, ein Wörterbuch, sein Handy. Er schreibt Wörter auf: Heizung. Warmwasser. Reparatur. Morgen ruft er an. Auf Deutsch.",src:"مساء الجمعة. فيروميوس يجلس عند الطاولة. دفتر ملاحظات، قاموس، هاتفه. يكتب كلمات: تدفئة، ماء ساخن، إصلاح. غدا يتصل. بالألمانية."}
       ]},
 // ─── L5: Der Anruf ───
@@ -195,7 +195,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"mc",q:"'Gesundheit!' تُقال عندما يقوم شخص بـ:",opts:["coughs","laughs","sneezes","sleeps"],ans:"sneezes",hint:"الرد الألماني العالمي على العطس."},
         {type:"drag_fill",s:"Sie {1} dieses Medikament drei Mal am Tag {2}.",blanks:{"1":"müssen","2":"nehmen"},pool:["müssen","nehmen","können","trinken","sollen","essen"],hint:"يجب أن تأخذ هذا الدواء. فعل ناقص + مصدر في النهاية.",sSrc:"يجب أن تأخذ هذا الدواء ثلاث مرات يوميا."},
         {type:"fb",s:"Ich gehe zur {1}. Ich brauche Medikamente.",a:["Apotheke"],opts:["Apotheke","Kasse","Rezeption","Küche"],hint:"المكان الذي يبيع الأدوية.",sSrc:"أذهب إلى الصيدلية. أحتاج دواء."},
-        {type:"mc",q:"'Krankenhaus' تعني حرفياً:",opts:["care-house","doctor-house","sick-house","medicine-house"],ans:"sick-house",hint:"Krank (مريض) + Haus (بيت). منطق التركيب الألماني."},
+        {type:"mc",q:"'Krankenhaus' تعني حرفياً:",opts:["بيت الرعاية","بيت الطبيب","بيت المرض","بيت الدواء"],ans:"بيت المرض",hint:"Krank (مريض) + Haus (بيت). منطق التركيب الألماني."},
         {type:"match",pairs:[
     {trg:"der Arzt",src:"طبيب"},
     {trg:"krank",src:"مريض"},
@@ -205,7 +205,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
 ]},
         {type:"fb",s:"Der Arzt sagt: 'Sie {1} mehr schlafen.'",a:["sollen"],opts:["sollen","müssen","können","dürfen"],hint:"الطبيب يعطي نصيحة. ينبغي أن تنام أكثر.",sSrc:"الطبيب يقول: 'ينبغي أن تنام أكثر.'"},
         {type:"story",speaker:"narrator",mood:"سعيد",art:"de-apotheke",trg:"Verumius verlässt die Praxis mit einem Rezept. Zur Apotheke. Die Apothekerin lächelt: 'Drei Mal am Tag, nach dem Essen.' Er nickt. In Deutschland funktioniert alles. Auch krank sein.",src:"فيروميوس يغادر العيادة بوصفة طبية. إلى الصيدلية. الصيدلي يبتسم: 'ثلاث مرات يوميا، بعد الأكل.' يومئ. في ألمانيا كل شيء يعمل. حتى المرض."},
-        {type:"mc",q:"'Rezept' في الألمانية تعني كلاً من:",opts:["prescription AND recipe","poison AND medicine","doctor AND nurse","pharmacy AND hospital"],ans:"prescription AND recipe",hint:"نفس الكلمة، سياقان مختلفان تماما!"}
+        {type:"mc",q:"'Rezept' في الألمانية تعني كلاً من:",opts:["وصفة طبية ووصفة طبخ","سم ودواء","طبيب وممرض","صيدلية ومستشفى"],ans:"وصفة طبية ووصفة طبخ",hint:"نفس الكلمة، سياقان مختلفان تماما!"}
       ]},
 // ─── L7: Am Bürgeramt ───
     {id:"deu_r6l7",title:"Am Bürgeramt",icon:"🏛️",xp:15,board:true,steps:[
@@ -260,11 +260,11 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"drag_fill",s:"Mein {1} arbeitet bei einer großen {2} in Berlin.",blanks:{"1":"Chef","2":"Firma"},pool:["Chef","Firma","Büro","Schule","Lehrer","Universität"],hint:"مديري يعمل في شركة كبيرة في برلين.",sSrc:"مديري يعمل في شركة كبيرة في برلين."},
         {type:"fb",s:"Ich bin {1}. Ich lehre Deutsch.",a:["Lehrerin"],opts:["Lehrerin","Schülerin","Studentin","Chefin"],hint:"معلمة. أضف لاحقة التأنيث للصيغة المذكرة.",sSrc:"أنا معلم. أعلّم الألمانية."},
         {type:"mc",q:"'Studieren' مقابل 'lernen':",opts:[
-    "studieren = at university, lernen = general learning",
-    "studieren = general, lernen = university",
-    "both mean the same",
-    "studieren = reading, lernen = writing"
-],ans:"studieren = at university, lernen = general learning",hint:"Student الألمانية دائما في مؤسسة تعليم عالٍ محددة."},
+    "studieren = في الجامعة، lernen = تعلّم عام",
+    "studieren = عام، lernen = في الجامعة",
+    "كلاهما بنفس المعنى",
+    "studieren = القراءة، lernen = الكتابة"
+],ans:"studieren = في الجامعة، lernen = تعلّم عام",hint:"Student الألمانية دائما في مؤسسة تعليم عالٍ محددة."},
         {type:"fb",s:"Das {1} ist gut. Dreißig Tage Urlaub!",a:["Gehalt"],opts:["Gehalt","Urlaub","Büro","Beruf"],hint:"الراتب. دفعتك الشهرية مقابل العمل.",sSrc:"الراتب جيد. ثلاثون يوم إجازة!"},
         {type:"mc",q:"Schüler الألماني هو:",opts:["تلميذ مدرسة","طالب جامعي","معلم","أستاذ جامعي"],ans:"تلميذ مدرسة",hint:"بالألمانية، الكلمة تعتمد على مستوى تعليم المتعلم."}
       ]},
@@ -283,7 +283,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"teach",trg:"malen / fotografieren",src:"يرسم / يصوّر",pos:"verb",gender:null,note:"كلاهما منتظم. هوايات إبداعية.",example:"A: Ich male gern.\nB: Und ich fotografiere gern.",exampleSrc:"A: أحب الرسم.\nB: وأنا أحب التصوير.",funFact:"Malen = يرسم (فن). Streichen = يدهن (جدران). أفعال مختلفة لأنواع مختلفة من الرسم!"},
         {type:"mc",q:"'Treibst du Sport?' تعني:",opts:["هل تقود الرياضة؟","هل تمارس الرياضة؟","هل تدفع الرياضة؟","هل تحب الرياضة؟"],ans:"هل تمارس الرياضة؟",hint:"هذا تلازم فعل واسم ثابت. Treiben يقترن باسم نشاط بدني."},
         {type:"fb",s:"Ich {1} gern Bücher.",a:["lese"],opts:["lese","singe","spiele","tanze"],hint:"ماذا تفعل بالكتب؟ تقرأها.",sSrc:"أقرأ الكتب بسرور."},
-        {type:"mc",q:"'Fernweh' تعني:",opts:["homesickness","fear of travel","wanderlust / longing for far places","jet lag"],ans:"wanderlust / longing for far places",hint:"Fern (بعيد) + Weh (ألم). عكس Heimweh."},
+        {type:"mc",q:"'Fernweh' تعني:",opts:["الحنين للوطن","الخوف من السفر","حب التجوال / الشوق للأماكن البعيدة","إرهاق السفر"],ans:"حب التجوال / الشوق للأماكن البعيدة",hint:"Fern (بعيد) + Weh (ألم). عكس Heimweh."},
         {type:"match",pairs:[
     {trg:"schwimmen",src:"يسبح"},
     {trg:"laufen",src:"يركض"},
@@ -293,7 +293,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
 ]},
         {type:"drag_fill",s:"Ich {1} gern Fußball, aber ich {2} lieber Fahrrad.",blanks:{"1":"spiele","2":"fahre"},pool:["spiele","fahre","laufe","schwimme","tanze","singe"],hint:"أحب لعب كرة القدم، لكن أفضل ركوب الدراجة.",sSrc:"أحب لعب كرة القدم، لكن أفضل ركوب دراجتي."},
         {type:"fb",s:"Gehen wir heute Abend ins {1}?",a:["Kino"],opts:["Kino","Büro","Krankenhaus","Bürgeramt"],hint:"المكان الذي تشاهد فيه الأفلام.",sSrc:"هل نذهب إلى السينما الليلة؟"},
-        {type:"mc",q:"'Spielen' يمكن استخدامها لـ:",opts:["only sports","only music","sports, instruments, and games","only children's games"],ans:"sports, instruments, and games",hint:"Fußball spielen, Gitarre spielen, Karten spielen. فعل لعب شامل."},
+        {type:"mc",q:"'Spielen' يمكن استخدامها لـ:",opts:["الرياضة فقط","الموسيقى فقط","الرياضة والآلات الموسيقية والألعاب","ألعاب الأطفال فقط"],ans:"الرياضة والآلات الموسيقية والألعاب",hint:"Fußball spielen, Gitarre spielen, Karten spielen. فعل لعب شامل."},
         {type:"fb",s:"Mein Hobby ist {1}. Ich reise jedes Jahr.",a:["Reisen"],opts:["Reisen","Lesen","Kochen","Tanzen"],hint:"السفر كهواية. صيغة الاسم.",sSrc:"هوايتي السفر. أسافر كل سنة."},
         {type:"story",speaker:"verumius",mood:"determined",art:"de-altbau-phone-prep",trg:"Genug. Morgen ist Montag. Morgen ruft Verumius die Hausverwaltung an. Er übt den Satz: 'Guten Tag, ich habe ein Problem mit dem Warmwasser.' Zehn Mal. Zwanzig Mal. Er ist bereit.",src:"كفى. غدا الاثنين. غدا يتصل فيروميوس بإدارة العقار. يتدرب على الجملة: 'يوم سعيد، لديّ مشكلة مع الماء الساخن.' عشر مرات. عشرين مرة. هو جاهز."}
       ]},
@@ -332,7 +332,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"mc",q:"'Das heiße Wasser funktioniert wieder.' أصلحت Hildi:",opts:["الماء البارد","الدوش","الماء الساخن","المرحاض"],ans:"الماء الساخن",hint:"Heiß عكس kalt. شيء أصلحته هيلدي أخيرا."},
         {type:"fb",s:"Möchten Sie einen Tee {1} mir?",a:["bei"],opts:["bei","mit","von","zu"],hint:"عندي. أي حرف جر Dativ يعني 'عند شخص ما'؟",sSrc:"هل تريد شايا عندي؟"},
         {type:"story",speaker:"narrator",mood:"neutral",art:"de-hildi-tea",trg:"Sie sitzen am Tisch. Hildi gießt Tee ein. 'Seit wann sind Sie in Deutschland?' 'Seit einem Monat.' 'Und? Gefällt es Ihnen?' Verumius denkt nach. 'Ja. Es ist... anders. Aber gut.' Hildi nickt. 'Am Anfang ist alles schwer. Auch für mich war es schwer. Damals.'",src:"يجلسان عند الطاولة. هيلدي تصبّ الشاي. 'منذ متى وأنت في ألمانيا؟' 'منذ شهر.' 'و؟ هل يعجبك؟' فيروميوس يفكر. 'نعم. إنه... مختلف. لكن جيد.' هيلدي تومئ. 'في البداية، كل شيء صعب. بالنسبة لي أيضا كان صعبا. حينها.'"},
-        {type:"mc",q:"'Seit einem Monat' أيّ حالة إعرابية تُستخدم بعد seit؟",opts:["accusative","nominative","dative","genitive"],ans:"dative",hint:"حروف الجر السبعة السحرية (aus, bei, mit, nach, seit, von, zu) كلها تتطلب أي حالة إعراب؟"},
+        {type:"mc",q:"'Seit einem Monat' أيّ حالة إعرابية تُستخدم بعد seit؟",opts:["النصب (Akkusativ)","الرفع (Nominativ)","الجر (Dativ)","الإضافة (Genitiv)"],ans:"الجر (Dativ)",hint:"حروف الجر السبعة السحرية (aus, bei, mit, nach, seit, von, zu) كلها تتطلب أي حالة إعراب؟"},
         {type:"fb",s:"Am Anfang {1} alles schwer.",a:["ist"],opts:["ist","war","hat","wird"],hint:"في البداية، كل شيء صعب. جملة بالمضارع.",sSrc:"في البداية، كل شيء صعب."},
         {type:"story",speaker:"narrator",mood:"سعيد",art:"de-hildi-smile",trg:"Hildi zeigt auf die Hausordnung an der Wand. 'Die habe ich selbst geschrieben. Vierzehn Seiten. Werner hat gelacht.' Zum ersten Mal lächelt sie richtig. 'Er hat gesagt: Hildi, du kannst ein Buch schreiben. Über Mülltrennung.'",src:"هيلدي تشير إلى نظام المنزل على الجدار. 'كتبته بنفسي. أربع عشرة صفحة. فيرنر ضحك.' لأول مرة تبتسم بحق. 'قال: هيلدي، تستطيعين كتابة كتاب. عن فرز النفايات.'"},
         {type:"mc",q:"تتضمّن الـ Hausordnung:",opts:["14 pages","7 pages","20 pages","3 pages"],ans:"14 pages",hint:"أربع عشرة صفحة. هيلدي كتبتها كلها بنفسها."},
@@ -351,9 +351,9 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"fb",s:"Es {1} mir hier in Deutschland.",a:["gefällt"],opts:["gefällt","schmeckt","ist","hat"],hint:"يعجبني هنا. الشيء يسعدني. فعل مع Dativ.",sSrc:"يعجبني هنا في ألمانيا."},
         {type:"mc",q:"المسار العاطفي لهذا الدرس يُظهر Hildi بوصفها:",opts:[
     "صارمة لكن حنونة، مع ضعف مخفي",
-    "cold and distant always",
-    "only interested in rules",
-    "angry about the hot water"
+    "باردة وبعيدة دائمًا",
+    "مهتمة بالقواعد فقط",
+    "غاضبة بسبب الماء الساخن"
 ],ans:"صارمة لكن حنونة، مع ضعف مخفي",hint:"نظام المنزل، الشاي، عرض الاسم الأول. طبقات."},
         {type:"tip",title:"A1 Complete: Verumius Has a Home",text:"الوحدة ٦ هي نهاية A1.\n\nفيروميوس الآن لديه:\n1. شقة (مع نظام منزل من ١٤ صفحة)\n2. صديق (لوكاس)\n3. مالكة بيت تصبح صديقة (هيلدي)\n4. ماء ساخن (أخيرا)\n5. كل الألمانية التي يحتاجها للبقاء\n\nلكن A1 مجرد بقاء.\nA2 حيث يبدأ التواصل الحقيقي."}
       ]},
@@ -426,8 +426,8 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
     {trg:"der Kurs",src:"الدورة"}
 ]},
         {type:"fb",s:"Er ist {1}. Er hat keine Arbeit.",a:["arbeitslos"],opts:["arbeitslos","selbständig","kulturell","normal"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"هو عاطل عن العمل. ليس لديه وظيفة."},
-        {type:"mc",q:"How do you say 'workplace' in German?",opts:["die Arbeit","der Arbeitsplatz hier","der Arbeitsplatz","das Arbeiten"],ans:"der Arbeitsplatz",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
-        {type:"mc",q:"Which word means 'to become'?",opts:["verdienen","arbeiten","lernen","werden"],ans:"werden",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"كيف تقول 'مكان العمل' بالألمانية؟",opts:["die Arbeit","der Arbeitsplatz hier","der Arbeitsplatz","das Arbeiten"],ans:"der Arbeitsplatz",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"أيّ كلمة تعني 'يصبح'؟",opts:["verdienen","arbeiten","lernen","werden"],ans:"werden",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'der Doktor'?",opts:["الطالب (ذكر)","الصف / الفصل","يعمل لحسابه الخاص","الطبيب / الدكتور"],ans:"الطبيب / الدكتور",hint:"شخص يعالج المرضى ويصف الأدوية"}
       ]},
 // ─── L15: Stift und Papier ───
@@ -470,7 +470,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
 ]},
         {type:"mc",q:"'Kugelschreiber' wird oft abgekürzt als:",opts:["Kugel","Kuli","Schreiber","KS"],ans:"Kuli",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Was ist das {1} heute?",a:["Thema"],opts:["Thema","Text","Wort","Satz"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"ما موضوع اليوم؟"},
-        {type:"mc",q:"Which word means 'the topic'?",opts:["der Text","der Satz","das Wort","das Thema"],ans:"das Thema",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"أيّ كلمة تعني 'الموضوع'؟",opts:["der Text","der Satz","das Wort","das Thema"],ans:"das Thema",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'das Papier'?",opts:["الإعلان / العرض","الموضوع","الإجابة","الورقة"],ans:"الورقة",hint:"شيء مسطح أبيض يُكتب عليه"}
       ]},
 // ─── L17: Am Telefon ───
@@ -511,10 +511,10 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
 ]},
         {type:"mc",q:"Was ist ein 'Lieblingslied'?",opts:["ein langes Lied","das Lied, das man am meisten mag","ein altes Lied","ein Liebeslied"],ans:"das Lied, das man am meisten mag",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"{1} den grünen Knopf!",a:["Drück"],opts:["Drück","Druck","Benutz","Schreib"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"اضغط الزر الأخضر!"},
-        {type:"mc",q:"What is the German phrase for 'goodbye' on the phone?",opts:["Auf Wiedersehen (formal)","Tschüss","Auf Wiederhören","Bis bald"],ans:"Auf Wiederhören",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"ما العبارة الألمانية لـ 'وداعًا' على الهاتف؟",opts:["Auf Wiedersehen (رسمي)","Tschüss","Auf Wiederhören","Bis bald"],ans:"Auf Wiederhören",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'das Internet'?",opts:["يطبع","الطابعة","الأغنية المفضّلة","الإنترنت"],ans:"الإنترنت",hint:"شبكة عالمية تربط الحواسيب ببعضها"},
         {type:"fb",s:"Wie sagt man 'the favorite song' auf Deutsch? {1}",a:["das Lieblingslied"],opts:["das Lieblingslied","das Wiederhören","das Fax","das Gespräch"],hint:"كلمة مركبة: Liebling (مفضل) + Lied (أغنية)",sSrc:"كيف تقول 'the favorite song' بالألمانية؟"},
-        {type:"mc",q:"Was bedeutet 'automatisch'?",opts:["الأغنية المفضّلة","تلقائي","المُرسِل","to use"],ans:"تلقائي",hint:"صفة تصف شيئًا يعمل بنفسه دون تدخل بشري"}
+        {type:"mc",q:"Was bedeutet 'automatisch'?",opts:["الأغنية المفضّلة","تلقائي","المُرسِل","يستخدم"],ans:"تلقائي",hint:"صفة تصف شيئًا يعمل بنفسه دون تدخل بشري"}
       ]},
 // ─── L19: Was machst du so? ───
     {id:"deu_r6l16",title:"Was machst du so?",icon:"🎬",xp:15,board:true,steps:[
@@ -561,9 +561,9 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"teach",trg:"treffen",src:"يلتقي",pos:"verb",gender:null,note:"شاذ: du triffst، er trifft. sich treffen = يتقابلوا (انعكاسي).",example:"A: Wann treffen wir uns?\nB: Lass uns um drei Uhr treffen.",exampleSrc:"أ: إيمتى منلتقي؟\nب: يلّا نلتقي الساعة تلاتة.",funFact:"treffen كمان تعني يصيب الهدف. ein Treffer = إصابة أو هدف بكرة القدم."},
         {type:"teach",trg:"tun",src:"يفعل",pos:"verb",gender:null,note:"شاذ: ich tue، du tust، er tut. شائع جداً بالألمانية المحكية.",example:"A: Was tust du gerade?\nB: Ich tue nichts. Ich bin müde.",exampleSrc:"أ: شو عم تعمل هلأ؟\nب: ما عم أعمل شي. أنا تعبان.",funFact:"tun أقل رسمية شوي من machen. عبارة ?Was tun (شو نعمل؟) عبارة ألمانية كلاسيكية للحيرة."},
         {type:"mc",q:"'Machst du mit?' bedeutet:",opts:["Machst du das kaputt?","Nimmst du teil?","Hast du Spaß?","Bist du fertig?"],ans:"Nimmst du teil?",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
-        {type:"mc",q:"Which verb means 'to register or sign up'?",opts:["ausfüllen","abgeben","ankreuzen","anmelden"],ans:"anmelden",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"أيّ فعل يعني 'التسجيل'؟",opts:["ausfüllen","abgeben","ankreuzen","anmelden"],ans:"anmelden",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"fb",s:"Ich {1} heute Abend ein bisschen fern.",a:"sehe",opts:["sehe","mache","gebe","fülle"],hint:"اقرأ الجملة الألمانية بتمعن. الفراغ يحتاج كلمة تكمل المعنى منطقياً.",sSrc:"بتفرّج شوي على التلفزيون الليلة."},
-        {type:"mc",q:"'Du fehlst mir' means...",opts:["You are wrong","You are late","I miss you","I need you"],ans:"I miss you",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"'Du fehlst mir' تعني...",opts:["أنت مخطئ","أنت متأخر","أفتقدك","أحتاجك"],ans:"أفتقدك",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'kümmern'?",opts:["يسمح","ينقر على","يحكي / يروي","يعتني بـ / يهتم بـ"],ans:"يعتني بـ / يهتم بـ",hint:"فعل مع sich: الاهتمام والعناية بشخص أو شيء"}
       ]},
 // ─── L21: Zeit und Feste ───
@@ -603,7 +603,7 @@ const UNIT_06_AR = {n:6,lang:"de",srcLang:"ar",track:"v2",title:"Alles auf Deuts
         {type:"mc",q:"أيّ كلمة هي الطريقة الرسمية لقول 'ربيع'؟",opts:["der Frühling","die Frühzeit","das Frühjahr","der Frühstart"],ans:"das Frühjahr",hint:"هذا المركّب يجمع 'مبكر' مع 'سنة.'"},
         {type:"fb",s:"Wann {1} der Kurs? Um neun Uhr.",a:"beginnt",opts:["beginnt","endet","macht","geht"],hint:"هذا الفعل الرسمي لبدء شيء.",sSrc:"متى تبدأ الدورة؟ الساعة التاسعة."},
         {type:"fb",s:"Bist du in einem {1}?",a:["Verein"],opts:["Verein","Gruppe","Wind","Moment"],hint:"بادئة 'ver-' تعدّل معنى الجذر. ما الفعل البسيط الذي تعرفه؟",sSrc:"هل أنت في نادٍ؟"},
-        {type:"mc",q:"Which word is the formal way to say 'spring'?",opts:["der Frühling","die Frühzeit","das Frühjahr","der Frühstart"],ans:"das Frühjahr",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
+        {type:"mc",q:"أيّ كلمة هي الطريقة الرسمية لقول 'الربيع'؟",opts:["der Frühling","die Frühzeit","das Frühjahr","der Frühstart"],ans:"das Frühjahr",hint:"كلمة ألمانية في سياق أكاديمي. اقرأ الخيارات وحدد المعنى الأنسب للسياق."},
         {type:"mc",q:"Was bedeutet 'beginnen'?",opts:["يبدأ","المجموعة","يهنّئ","الربيع (رسمي)"],ans:"يبدأ",hint:"فعل يدل على بداية شيء جديد، عكس aufhören"},
         {type:"fb",s:"Wie sagt man 'to congratulate' auf Deutsch? {1}",a:["gratulieren"],opts:["das Jahr","gratulieren","der Wochentag","das Ende"],hint:"فعل لاتيني الأصل يعني تقديم التهاني",sSrc:"كيف تقول 'to congratulate' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'heiraten'?",opts:["ينتهي","المجموعة","العطلة الرسمية","يتزوج"],ans:"يتزوج",hint:"فعل يتعلق بالزواج وحفل الزفاف"}
