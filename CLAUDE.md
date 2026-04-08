@@ -433,7 +433,7 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-08.md`** — **Latest handoff.** Arabic content audit complete (~6,800 fixes), NEW WORD bug fixed, WORD_DB Arabic, page transitions, Flashcards v2.
+- **`docs/SESSION_HANDOFF_2026-04-08.md`** — **Latest handoff.** ~6,800 Arabic fixes, CEFR B2 Arabic complete, German Foundations rewrite (Stages 1-2 teacher board), Arabic Foundations for German, systemic RTL bidi fix, browser audit passed.
 - **`docs/SESSION_HANDOFF_2026-04-07d.md`** — Previous. Quiz interleaving, PP8/PP43/PP64 all PASS, Arabic dialogue fixed.
 - **`docs/SESSION_HANDOFF_2026-04-07c.md`** — Previous. Plumbing fixed, breathers live.
 - **`docs/SESSION_HANDOFF_2026-04-05.md`** — Previous. Phase 1.5A complete.
