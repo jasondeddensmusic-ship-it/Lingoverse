@@ -28,9 +28,9 @@ const UNIT_11_AR = {n:11,lang:"de",srcLang:"ar",track:"v2",title:"Auf dem Weihna
         {type:"mc",q:"ما هي 'die Schokolade'؟",opts:["تقويم","بطاقة بريدية","شوكولاتة","كعكة"],ans:"شوكولاتة",hint:"حلوى لذيذة، غالباً تُقدّم ساخنة في الشتاء"},
         {type:"mc",q:"فيروميوس يريد الكتابة للبيت. ماذا يحتاج؟",opts:["der Kalender","die Torte","die Postkarte","der Ring"],ans:"die Postkarte",hint:"شيء تكتب عليه وترسله بالبريد"},
         {type:"fb",s:"Es gibt dunkle {1} am Himmel.",a:"Wolken",opts:["Wolken","Schnee","Ringe","Rosen"],hint:"تطفو في السماء قبل تساقط الثلج",sSrc:"توجد غيوم داكنة في السماء."},
-        {type:"mc",q:"'Die Torte' is different from 'der Kuchen' because a Torte is...",opts:["متعددة الطبقات وفاخرة","بسيطة وعادية","دائماً شوكولاتة","تُقدّم باردة"],ans:"متعددة الطبقات وفاخرة",hint:"فكّر في حلوى مزينة متعددة الطبقات"},
+        {type:"mc",q:"'Die Torte' تختلف عن 'der Kuchen' لأن Torte هي...",opts:["متعددة الطبقات وفاخرة","بسيطة وعادية","دائماً شوكولاتة","تُقدّم باردة"],ans:"متعددة الطبقات وفاخرة",hint:"فكّر في حلوى مزينة متعددة الطبقات"},
         {type:"fb",s:"Hildi kauft eine {1} am Weihnachtsmarkt.",a:"Rose",opts:["Rose","Wolke","Schnee","Himmel"],hint:"زهرة جميلة، غالباً حمراء",sSrc:"هيلدي تشتري وردة في سوق عيد الميلاد."},
-        {type:"mc",q:"Verumius sees a round golden item on a stall. أي كلمة تصف it?",opts:["die Rose","der Schnee","der Ring","die Torte"],ans:"der Ring",hint:"شيء دائري صغير يُرتدى كمجوهرات في الإصبع."},
+        {type:"mc",q:"يرى فيروميوس شيئاً مستديراً ذهبياً على كشك. أي كلمة تصفه؟",opts:["die Rose","der Schnee","der Ring","die Torte"],ans:"der Ring",hint:"شيء دائري صغير يُرتدى كمجوهرات في الإصبع."},
         {type:"match",pairs:[
     {trg:"der Schnee",src:"الثلج"},
     {trg:"die Wolke",src:"السحابة"},

@@ -107,6 +107,8 @@ export const UI={
   vocab_no_words:{en:"No words found — try a different search",ar:"لم يتم العثور على كلمات — جرب بحثاً مختلفاً",fr:"Aucun mot trouvé — essayez une autre recherche",es:"No se encontraron palabras — intenta otra búsqueda",tr:"Kelime bulunamadı — farklı bir arama deneyin"},
   vocab_words:{en:"words",ar:"كلمة",fr:"mots",es:"palabras",tr:"kelime"},
   home_welcome:{en:"Welcome",ar:"مرحباً",fr:"Bienvenue",es:"Bienvenido",tr:"Hoş geldin"},
+  home_continue:{en:"Continue Learning",ar:"تابع التعلّم",fr:"Continuer",es:"Continuar",tr:"Öğrenmeye Devam"},
+  home_lessons_done:{en:"lessons completed",ar:"درس مكتمل",fr:"leçons terminées",es:"lecciones completadas",tr:"ders tamamlandı"},
   grammar_title:{en:"Grammar",ar:"القواعد",fr:"Grammaire",es:"Gramática",tr:"Dilbilgisi"},
   chat_title:{en:"Chat with Nova",ar:"تحدث مع نوفا",fr:"Discutez avec Nova",es:"Chatea con Nova",tr:"Nova ile Sohbet"},
   chat_placeholder:{en:"Type a message...",ar:"اكتب رسالة...",fr:"Tapez un message...",es:"Escribe un mensaje...",tr:"Bir mesaj yazın..."},

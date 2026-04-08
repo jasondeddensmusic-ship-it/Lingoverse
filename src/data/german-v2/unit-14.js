@@ -192,7 +192,8 @@ const UNIT_14 =
 {type:"mc",q:"'Das Kind, ___ wir geholfen haben, war dankbar.' Welches Pronomen?",opts:["das","dem","den","die"],ans:"dem",hint:"Kind is neuter. Helfen governs dative: we helped IT. Think neuter dative."},
 {type:"drag_fill",s:"Der Auftrag, {1} letzte Woche {2} wurde, ist jetzt {3}.",blanks:{"1":"der","2":"erledigt","3":"fertig"},pool:["der","den","erledigt","erledigen","fertig","wurde"],hint:"Auftrag is masculine, subject of the relative clause (Nominativ). It WAS completed.",sSrc:"The assignment that was completed last week is now finished."},
 {type:"story",speaker:"verumius",mood:"anxious",art:"de-ber-office-hallway",trg:"Gleich ist die Besprechung. Mia hat gesagt, ich soll alle siezen. Aber was, wenn ich es vergesse? Was, wenn mir ein 'du' rausrutscht?",src:"The meeting is coming up. Mia said I should use Sie with everyone. But what if I forget? What if a du slips out?"},
-{type:"mc",q:"Der Termin ist fix und unveränderlich. Ja, das ___ fest. Nächsten Mittwoch.",opts:["liegt","steht","hält","legt"],ans:"steht",hint:"A separable verb combining fest (firm) with stehen. Something that cannot be changed."}
+{type:"mc",q:"Der Termin ist fix und unveränderlich. Ja, das ___ fest. Nächsten Mittwoch.",opts:["liegt","steht","hält","legt"],ans:"steht",hint:"A separable verb combining fest (firm) with stehen. Something that cannot be changed."},
+{type:"mc",q:"'Es steht fest, dass wir nächste Woche umziehen.' Was bedeutet 'feststehen'?",opts:["to be fixed, settled","to stand still, freeze","to hold on to something","to remain seated firmly"],ans:"to be fixed, settled",hint:"Fest (firm) + stehen (stand). When something stands firm, it will not change anymore."}
 ]},
 
 // ─── Lesson 5: Du oder Sie? ───

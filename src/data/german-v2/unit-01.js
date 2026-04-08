@@ -203,7 +203,8 @@ const UNIT_1 =
 {type:"teach",kind:"word",trg:"zehn",src:"ten",pos:"num",gender:null,phonetic:"TSAYN",example:"A: Zehn Minuten noch!\nB: Dann schaffen wir es.",exampleSrc:"A: Ten more minutes!\nB: Then we will make it.",note:"Begins with /ts/ sound, like 'tsunami'.\nThis word is the building block for 13-19.",funFact:"'Zehn' is the base of the entire teen number system in German. Once you know 'zehn', you can build thirteen through nineteen by putting the ones digit in front of it."},
 {type:"mc",q:"Was ist sieben plus drei?",opts:["elf","neun","acht","zehn"],ans:"zehn",hint:"Add seven and three together."},
 {type:"fb",s:"Der Zug fährt in {1} Minuten ab.",a:["fünf"],opts:["fünf","drei","acht","neun"],hint:"Which number with an umlaut means five?",sSrc:"The train departs in five minutes."},
-{type:"match",pairs:[{trg:"sieben",src:"seven"},{trg:"acht",src:"eight"},{trg:"neun",src:"nine"},{trg:"zehn",src:"ten"}]}
+{type:"match",pairs:[{trg:"sieben",src:"seven"},{trg:"acht",src:"eight"},{trg:"neun",src:"nine"},{trg:"zehn",src:"ten"}]},
+{type:"mc",q:"Which set lists the German personal pronouns in order?",opts:["ich, du, er, sie, es","ich, wir, du, sie, es","er, ich, du, sie, es","ich, du, es, er, sie"],ans:"ich, du, er, sie, es",hint:"Start with first person, then second, then third person singular forms."}
 ]},
 
 // ─── Lesson: Uhrzeit und Reise ───

@@ -7,6 +7,7 @@ import { searchUnits, _findHit, UNITS } from './utils.js';
 import { UISounds, UI_SOUNDS_ENABLED } from './audio.jsx';
 import { useFocusNav } from './hooks.js';
 import { CSS } from "./styles.js";
+import { clearSrsData } from "./srs.js";
 
 // ── Component imports ──
 import { AppIcon } from './components/shared.jsx';
@@ -505,7 +506,7 @@ export default function App(){
           <p style={{fontSize:14,color:"var(--gray-500)",marginBottom:24,lineHeight:1.5}}>This will erase all XP, completed lessons, achievements, flags, and quiz history. This cannot be undone.</p>
           <div style={{display:"flex",gap:12,justifyContent:"center"}}>
             <button onClick={()=>setShowResetModal(false)} style={{padding:"12px 28px",borderRadius:14,border:"2px solid var(--gray-200)",background:"var(--card-bg)",fontSize:15,fontWeight:700,cursor:"pointer",color:"var(--gray-600)"}}>N — Cancel</button>
-            <button onClick={()=>{setUser({xp:0,streak:1,wl:0,lw:new Set(),cm:0,achs:[],ls:new Set(),progress:{}});setFlags([]);setQuizLog([]);setShowResetModal(false);showToast("All progress reset!","🗑️");}} style={{padding:"12px 28px",borderRadius:14,border:"none",background:"linear-gradient(135deg,#E85D75,#D4394B)",fontSize:15,fontWeight:700,cursor:"pointer",color:"white"}}>Y — Reset</button>
+            <button onClick={()=>{setUser({xp:0,streak:1,wl:0,lw:new Set(),cm:0,achs:[],ls:new Set(),progress:{}});setFlags([]);setQuizLog([]);clearSrsData();setShowResetModal(false);showToast("All progress reset!","🗑️");}} style={{padding:"12px 28px",borderRadius:14,border:"none",background:"linear-gradient(135deg,#E85D75,#D4394B)",fontSize:15,fontWeight:700,cursor:"pointer",color:"white"}}>Y — Reset</button>
           </div>
           <p style={{fontSize:11,color:"var(--gray-300)",marginTop:16}}>Press Y to confirm, N to cancel</p>
         </div>

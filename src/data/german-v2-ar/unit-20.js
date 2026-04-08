@@ -163,7 +163,7 @@ const UNIT_20_AR = {n:20,lang:"de",srcLang:"ar",track:"v2",title:"Die Versicheru
         {type:"fb",s:"Wie sagt man 'the doctor (female, title)' auf Deutsch? {1}",a:["die Doktorin"],opts:["die Doktorin","die Infektion","operieren","die \\u00c4rztin"],hint:"الكلمة مؤنّثة (die). أيّ اسم بين الخيارات يطابق المعنى المطلوب؟",sSrc:"كيف تقول 'the doctor (female, title)' بالألمانية؟"},
         {type:"mc",q:"Was bedeutet 'die Schwierigkeit'?",opts:["يُجري عملية جراحية","على الأقل، كحد أدنى","الحقنة، الإبرة","الصعوبة"],ans:"الصعوبة",hint:"الكلمة مركّبة: 'Schwierig' + '-keit' (صفة تحولت إلى اسم). ما المعنى الكامل؟"},
         {type:"fb",s:"{1} drei pro Tag.",a:["maximal"],opts:["maximal","die \\u00c4rztin","das Pflaster","die Doktorin"],hint:"اقرأ الجملة الألمانية واستنتج الكلمة الناقصة من سياق المعنى.",sSrc:"بالحد الأقصى تلاتة باليوم."},
-        {type:"mc",q:"Was bedeutet 'minimal'?",opts:["الرشح، الزكام","على الأقل، كحد أدنى","السعال","المسكّن"],ans:"على الأقل، كحد أدنى",hint:"حلّل بنية الكلمة 'minimal' — البادئة والجذر واللاحقة تكشف المعنى."}
+        {type:"mc",q:"Was bedeutet 'minimal'?",opts:["الرشح، الزكام","على الأقل، كحد أدنى","السعال","المسكّن"],ans:"على الأقل، كحد أدنى",hint:"حلّل بنية الكلمة 'minimal'. البادئة والجذر واللاحقة تكشف المعنى."}
       ]},
 // ─── L8: Apotheke und Pflege ───
     {id:"deu_r20l5",title:"Apotheke und Pflege",icon:"💊",xp:15,board:true,steps:[

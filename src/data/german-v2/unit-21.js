@@ -287,7 +287,7 @@ const UNIT_21 =
 
 {type:"fb",s:"Der {1} hilft Familien in schwierigen Situationen.",a:["Sozialarbeiter"],opts:["Sozialarbeiter","Vertreter","Kreis","Nachwuchs"],hint:"A male professional who works with people in social need.",sSrc:"The social worker helps families in difficult situations."},
 
-{type:"mc",q:"Die Sozialarbeiterin besucht die Familie. Was ist 'die Sozialarbeiterin'?",opts:["the teacher (female)","the social worker (female)","the politician (female)","the journalist (female)"],ans:"the social worker (female)",hint:"The feminine form. She works with families in need — a common public service profession in Germany."},
+{type:"mc",q:"Die Sozialarbeiterin besucht die Familie. Was ist 'die Sozialarbeiterin'?",opts:["the teacher (female)","the social worker (female)","the politician (female)","the journalist (female)"],ans:"the social worker (female)",hint:"The feminine form. She works with families in need, a common public service profession in Germany."},
 
 {type:"fb",s:"Komm {1}! Ich zeige dir das Museum.",a:["hierher"],opts:["hierher","vorhin","übrigens","häufig"],hint:"An adverb meaning 'to this place,' directing someone toward you.",sSrc:"Come here! I will show you the museum."},
 

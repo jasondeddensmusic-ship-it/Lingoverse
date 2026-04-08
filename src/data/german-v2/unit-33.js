@@ -160,7 +160,8 @@ const UNIT_33 =
 {type:"story",speaker:"verumius",mood:"restless",art:"de-med-verumius-rooftop-night",trg:"Ich bin neugierig auf die Zukunft. Ich bin verbunden mit zwei Orten. Aber nur an einem fühle ich mich wirklich geborgen. Und der liegt 1.800 Kilometer noerdlich von hier.",src:"I am curious about the future. I am connected with two places. But only in one do I truly feel sheltered. And it lies 1,800 kilometers north of here."},
 {type:"mc",q:"Was bedeutet 'damals'?",opts:["envious of","back then, at that time","nowadays","enthusiastic about"],ans:"back then, at that time",hint:"Think about the meaning of this word in context."},
 {type:"fb",s:"{1} war dieses Haus meine ganze Welt.",a:["einst"],opts:["überzeugt von","gewöhnt an","einst","damals"],hint:"Which word fits in this context?",sSrc:"Once this house was my whole world."},
-{type:"mc",q:"Was bedeutet 'heutzutage'?",opts:["nowadays","envious of","enthusiastic about","curious about"],ans:"nowadays",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'heutzutage'?",opts:["nowadays","envious of","enthusiastic about","curious about"],ans:"nowadays",hint:"Think about the meaning of this word in context."},
+{type:"fb",s:"Viele ländliche Regionen sind auf staatliche Förderung {1}.",a:["angewiesen"],opts:["angewiesen","verbunden","gewöhnt","begeistert"],hint:"Dependent on, reliant on. This adjective-preposition combination uses auf + Akkusativ.",sSrc:"Many rural regions are dependent on government funding."}
 ]},
 {id:"deu_r33l5",title:"Die Angst vor, die Sehnsucht nach",icon:"\u2693",xp:15,board:true,steps:[
 {type:"intro",title:"Die Angst vor, die Sehnsucht nach",desc:"Verumius sits on a bench by the Mediterranean. The sun is setting. He realizes where his Heimat truly lies.",goals:["Learn noun + fixed prepositions (die Angst vor, die Sehnsucht nach)","Combine all three grammar constructs","Describe abstract relationships between feelings and concepts"]},

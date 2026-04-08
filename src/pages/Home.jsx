@@ -87,6 +87,7 @@ function Home({user,setPage,lang,baseLang="en"}){
           {p:"idioms",icon:"chat_bubbles",label:t("idioms_title",baseLang),desc:t("home_idioms_desc",baseLang)},
           {p:"cefr-reference",icon:"globe",label:t("home_cefr_ref",baseLang),desc:t("home_official_lists",baseLang)},
           {p:"curriculum",icon:"brain",label:t("home_curriculum",baseLang),desc:t("home_personal_path",baseLang)},
+          {p:"flashcards",icon:"books_stack",label:"Flashcards",desc:"Spaced review"},
           {p:"quiz",icon:"checkmark_green",label:t("home_quiz",baseLang),desc:t("home_test_knowledge",baseLang)},
         ].map(c=>{
           const restShadow="0 5px 16px rgba(85,53,181,0.35), 0 2px 4px rgba(0,0,0,0.08), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -3px 0 rgba(0,0,0,0.18)";

@@ -333,7 +333,7 @@ const UNIT_12 =
 {type:"teach",trg:"die Reihe",
   pos:"noun",src:"row, series",gender:"f",note:"Plural: die Reihen. 'Ich bin an der Reihe' heißt it's my turn.",funFact:"'Der Reihe nach' means one after another, in order.",example:"A: Wer ist jetzt an der Reihe?\nB: Du bist an der Reihe!",exampleSrc:"A: Whose turn is it now?\nB: It's your turn!"},
 {type:"teach",trg:"der Rest",
-  pos:"noun",src:"rest, remainder",gender:"m",note:"Plural: die Reste. 'Den Rest' kann man auch für Essensreste benutzen.",funFact:"'Gib ihm den Rest!' heißt umgangssprachlich: finish him off!",example:"A: Möchtest du den Rest vom Kuchen?\nB: Nein danke, ich bin satt.",exampleSrc:"A: Would you like the rest of the cake?\nB: No thanks, I'm full."},
+  pos:"noun",src:"rest, remainder",gender:"m",note:"Plural: die Reste. You can also use 'den Rest' for leftover food.",funFact:"'Gib ihm den Rest!' heißt umgangssprachlich: finish him off!",example:"A: Möchtest du den Rest vom Kuchen?\nB: Nein danke, ich bin satt.",exampleSrc:"A: Would you like the rest of the cake?\nB: No thanks, I'm full."},
 {type:"teach",trg:"die Ruhe",
   pos:"noun",src:"peace, quiet",gender:"f",note:"Kein Plural. Adjektiv: ruhig (calm, quiet).",funFact:"'Immer mit der Ruhe!' is a popular German saying meaning: take it easy!",example:"A: Ich brauche etwas Ruhe.\nB: Soll ich das Radio ausmachen?",exampleSrc:"A: I need some peace and quiet.\nB: Should I turn off the radio?"},
 {type:"teach",trg:"die Sache",
