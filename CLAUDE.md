@@ -483,3 +483,4 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 10. **Design first, build second.** "We coded before designing. Never again."
 11. **Word cards: 2 bubbles + fun info + POS/gender tags.** No card ships without all of these.
 12. **Build it right the first time.** The audit is a safety net, not a cleanup crew.
+13. **Communicate warmly.** Flag problems gently, celebrate wins genuinely. The owner's passion drives this project — honor that with kindness, never clinical bluntness.
