@@ -37,8 +37,8 @@ const UNIT_24 =
 {type:"fb",s:"Verumius hat sich an das Leben in Berlin {1}.",a:["gewöhnt"],opts:["gewöhnt","vermisst","verbracht","begonnen"],hint:"Which verb means to adapt to something? It is reflexive with 'sich.'",sSrc:"Verumius has gotten used to life in Berlin."},
 {type:"mc",q:"Der Erzähler sagt: 'Verumius hatte so viel gelernt.' Wann fand dieses Lernen statt?",opts:["Genau jetzt am Fenster","Erst gestern","Vor einem anderen vergangenen Moment","In der Zukunft"],ans:"Vor einem anderen vergangenen Moment",hint:"Plusquamperfekt describes events that happened before another past event."},
 {type:"match",pairs:[{trg:"Abenteuer",src:"adventure"},{trg:"Gewohnheit",src:"habit"},{trg:"Wahrheit",src:"truth"},{trg:"Zeitpunkt",src:"point in time"},{trg:"vermissen",src:"to miss"},{trg:"verbringen",src:"to spend (time)"}]},
-{type:"mc",q:"Was bedeutet 'gewöhnen'?",opts:["the everyday life","the hurry, the haste","the sense, the meaning, the purpose","to get used to"],ans:"to get used to",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Ist dein Leben in Berlin jetzt {1}?",a:["alltäglich"],opts:["vermissen","das Abenteuer","verbringen","alltäglich"],hint:"Which word fits in this context?",sSrc:"Is your life in Berlin everyday now?"}
+{type:"mc",q:"Was bedeutet 'gewöhnen'?",opts:["the everyday life","the hurry, the haste","the sense, the meaning, the purpose","to get used to"],ans:"to get used to",hint:"Related to Gewohnheit (habit). To gradually form a habit over time."},
+{type:"fb",s:"Ist dein Leben in Berlin jetzt {1}?",a:["alltäglich"],opts:["vermissen","das Abenteuer","verbringen","alltäglich"],hint:"All- (every) + täglich (daily). What happens each and every day.",sSrc:"Is your life in Berlin everyday now?"}
 ]},
 
 // ==================== LESSON 2: Rückblick ====================
@@ -150,8 +150,8 @@ const UNIT_24 =
 {type:"fb",s:"Er {1} sich entschlossen zu bleiben, nachdem er ein Jahr in Berlin gelebt hat.",a:["hatte"],opts:["hatte","hat","wird","war"],hint:"Sich entschließen uses haben. Which Plusquamperfekt auxiliary form fits a haben-verb in the Präteritum?",sSrc:"He had resolved to stay after spending a year in Berlin."},
 {type:"mc",q:"Welcher Satz drückt ein stärkeres Engagement zum Bleiben aus?",opts:["Ich bleibe morgen","Ich bin geblieben","Ich blieb","Ich werde bleiben"],ans:"Ich werde bleiben",hint:"Futur I emphasizes intention and conscious commitment more than Präsens."},
 {type:"story",speaker:"narrator",mood:"anticipatory",art:"de-berlin-apartment-evening-light",trg:"Die Sonne geht unter. In zwei Stunden werden sie kommen. Verumius schaut auf sein Telefon. Eine Nachricht von Lukas: 'Ich bringe die Lichterketten.' Eine von Hildi: 'Der Tee ist fertig. Komm runter.' Es wird ein guter Abend werden.",src:"The sun goes down. In two hours they will come. Verumius looks at his phone. A message from Lukas: 'I am bringing the fairy lights.' One from Hildi: 'The tea is ready. Come downstairs.' It is going to be a good evening."},
-{type:"mc",q:"Was bedeutet 'sinnvoll'?",opts:["to suggest","meaningful, sensible","to continue","optimistic"],ans:"meaningful, sensible",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Manchmal dachte ich: das ist {1}.",a:["sinnlos"],opts:["sinnlos","der Zweck","die Planung","wohl"],hint:"Which word fits in this context?",sSrc:"Sometimes I thought: this is pointless."}
+{type:"mc",q:"Was bedeutet 'sinnvoll'?",opts:["to suggest","meaningful, sensible","to continue","optimistic"],ans:"meaningful, sensible",hint:"Sinn (sense/meaning) + voll (full). Full of meaning and purpose."},
+{type:"fb",s:"Manchmal dachte ich: das ist {1}.",a:["sinnlos"],opts:["sinnlos","der Zweck","die Planung","wohl"],hint:"Sinn (sense) + -los (without). Devoid of meaning. Opposite of sinnvoll.",sSrc:"Sometimes I thought: this is pointless."}
 ]},
 
 // ==================== LESSON 5: Vorbereitung ====================
@@ -190,11 +190,11 @@ const UNIT_24 =
 {type:"drag_fill",s:"Verumius {1} alles {2}. Morgen {3} er seine Freunde einladen.",blanks:{"1":"hat","2":"vorbereitet","3":"wird"},pool:["hat","hatte","vorbereitet","wird","werde","vorbereiten"],hint:"First clause describes a completed action (Perfekt). Second clause plans a future action (Futur I). Choose the correct auxiliary for each.",sSrc:"Verumius has prepared everything. Tomorrow he will invite his friends."},
 {type:"story",speaker:"hildi",mood:"stern-fond",art:"de-berlin-hinterhof-hildi-tea",trg:"Die Lichterketten hängen schief. Und die Mülltonnen stehen zu nah am Tisch. Aber gut. Ausnahmsweise. Hier, trink deinen Tee. Du wirst ihn brauchen.",src:"The fairy lights are hanging crooked. And the recycling bins are too close to the table. But fine. Exceptionally. Here, drink your tea. You will need it."},
 {type:"story",speaker:"verumius",mood:"grateful-amused",art:"de-berlin-hinterhof-setup-done",trg:"Danke, Hildi. Wirklich. Ohne dich wäre das hier nicht möglich gewesen. Du hast mir in diesem Jahr so viel beigebracht. Nicht nur Deutsch.",src:"Thank you, Hildi. Really. Without you this would not have been possible. You taught me so much this year. Not just German."},
-{type:"mc",q:"Was bedeutet 'verstecken'?",opts:["to surprise","the video","to hide","the hike"],ans:"to hide",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Bist du das deutsche Wetter {1}?",a:["gewohnt"],opts:["üblich","gewohnt","aussuchen","die Wanderung"],hint:"Which word fits in this context?",sSrc:"Are you used to the German weather?"},
-{type:"mc",q:"Was bedeutet 'üblich'?",opts:["usual, customary","the hike","to pick out, to choose","the congratulations"],ans:"usual, customary",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1}!",a:["selbstverständlich"],opts:["die Gratulation","überraschen","gewohnt","selbstverständlich"],hint:"Which word fits in this context?",sSrc:"Of course!"},
-{type:"mc",q:"Was bedeutet 'ungewöhnlich'?",opts:["accustomed, used to","unusual","the overnight stay","to pick out, to choose"],ans:"unusual",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'verstecken'?",opts:["to surprise","the video","to hide","the hike"],ans:"to hide",hint:"Ver- + stecken (to stick/put). To put something where nobody can find it."},
+{type:"fb",s:"Bist du das deutsche Wetter {1}?",a:["gewohnt"],opts:["üblich","gewohnt","aussuchen","die Wanderung"],hint:"Past participle of gewohnen. Familiar through repeated exposure over time.",sSrc:"Are you used to the German weather?"},
+{type:"mc",q:"Was bedeutet 'üblich'?",opts:["usual, customary","the hike","to pick out, to choose","the congratulations"],ans:"usual, customary",hint:"From Brauch (custom). What people normally do by convention."},
+{type:"fb",s:"{1}!",a:["selbstverständlich"],opts:["die Gratulation","überraschen","gewohnt","selbstverständlich"],hint:"Selbst (self) + verständlich (understandable). Understood without asking.",sSrc:"Of course!"},
+{type:"mc",q:"Was bedeutet 'ungewöhnlich'?",opts:["accustomed, used to","unusual","the overnight stay","to pick out, to choose"],ans:"unusual",hint:"Un- + gewohnlich (usual). The negation prefix turns 'normal' into 'not normal.'"}
 ]},
 
 // ==================== LESSON 6: Das Fest ====================
@@ -233,10 +233,10 @@ const UNIT_24 =
 {type:"mc",q:"KD hat einen Kaktus mitgebracht 'für Paragraph.' Wer oder was ist Paragraph?",opts:["Ein juristisches Vertragsdokument","Der Hinterhof","KDs Haustier","Verumius' vorhandener Kaktus"],ans:"Verumius' vorhandener Kaktus",hint:"KD's gift is described as a little sibling. The name 'Paragraph' suggests something belonging to the apartment's long-term resident."},
 {type:"match",pairs:[{trg:"Abschied",src:"farewell"},{trg:"Ratschlag",src:"piece of advice"},{trg:"zurechtkommen",src:"to manage/cope"},{trg:"entschlossen",src:"determined"},{trg:"zählen",src:"to count"},{trg:"übrig",src:"remaining"}]},
 {type:"story",speaker:"verumius",mood:"overwhelmed-happy",art:"de-berlin-hinterhof-group-toast",trg:"Ich schaue in die Runde. Hildi mit ihrem Tee. Lukas mit der Gitarre. Mia, die lacht. Yilmaz, der nickt. Und KD, der einen Kaktus hält. Das ist meine Familie in Berlin. Das sind die Menschen, die zählen.",src:"I look around the circle. Hildi with her tea. Lukas with his guitar. Mia, who laughs. Yilmaz, who nods. And KD, who is holding a cactus. This is my family in Berlin. These are the people who count."},
-{type:"mc",q:"Was bedeutet 'zugehen'?",opts:["the bad luck","to manage difficult situations","grown-up, adult","to approach, to go toward"],ans:"to approach, to go toward",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Fühlst du dich {1}?",a:["erwachsen"],opts:["entschlossen","zählen","erwachsen","der Abschied"],hint:"Which word fits in this context?",sSrc:"Do you feel grown-up?"},
-{type:"mc",q:"Was bedeutet 'verständlich'?",opts:["to throw","to achieve, to afford","understandable","the farewell"],ans:"understandable",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Genau {1}!",a:["umgekehrt"],opts:["übrig","verständlich","der Abschied","umgekehrt"],hint:"Which word fits in this context?",sSrc:"Exactly the other way around!"},
+{type:"mc",q:"Was bedeutet 'zugehen'?",opts:["the bad luck","to manage difficult situations","grown-up, adult","to approach, to go toward"],ans:"to approach, to go toward",hint:"Zu- (in the direction of) + gehen (to go). To walk closer to a person or thing."},
+{type:"fb",s:"Fühlst du dich {1}?",a:["erwachsen"],opts:["entschlossen","zählen","erwachsen","der Abschied"],hint:"Er- + wachsen (to grow). Having fully grown into maturity.",sSrc:"Do you feel grown-up?"},
+{type:"mc",q:"Was bedeutet 'verständlich'?",opts:["to throw","to achieve, to afford","understandable","the farewell"],ans:"understandable",hint:"From verstehen (understand) + -lich. Clear enough to be grasped."},
+{type:"fb",s:"Genau {1}!",a:["umgekehrt"],opts:["übrig","verständlich","der Abschied","umgekehrt"],hint:"Um- (around) + gekehrt (turned). Flipped to the opposite direction.",sSrc:"Exactly the other way around!"},
 
 {type:"mc",q:"Ist noch Kuchen übrig? Was bedeutet 'übrig'?",opts:["missing","remaining, left over","fresh","expensive"],ans:"remaining, left over",hint:"What is still there after most has been used or consumed."}
 ]},
@@ -277,8 +277,8 @@ const UNIT_24 =
 {type:"match",pairs:[{trg:"hatte gesehen",src:"Plusquamperfekt"},{trg:"wird bleiben",src:"Futur I"},{trg:"wäre gekommen",src:"Konjunktiv II"},{trg:"wurde gebaut",src:"Passiv"}]},
 {type:"story",speaker:"yilmaz",mood:"mentor-quiet",art:"de-berlin-hinterhof-yilmaz-aside",trg:"Ich gehe jetzt. Aber ich gebe dir einen letzten Ratschlag. Berlin wird dich noch oft überraschen. Du wirst Tage haben, an denen du alles in Frage stellst. Aber du wirst zurechtkommen. Du hast es schon bewiesen.",src:"I am leaving now. But I will give you one last piece of advice. Berlin will surprise you many more times. You will have days when you question everything. But you will manage. You have already proven it."},
 {type:"story",speaker:"narrator",mood:"transitional",art:"de-berlin-hinterhof-guests-leaving",trg:"Einer nach dem anderen gehen sie. Umarmungen. Versprechen. 'Bis bald.' Bis am Ende nur noch die Lichterketten leuchten und Verumius allein im Hof sitzt.",src:"One by one they leave. Hugs. Promises. 'See you soon.' Until in the end only the fairy lights glow and Verumius sits alone in the courtyard."},
-{type:"mc",q:"Was bedeutet 'voneinander'?",opts:["normally, usually","from each other","as ... as possible","nowhere"],ans:"from each other",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1} habe ich es versucht.",a:["zumindest"],opts:["umsonst","möglicherweise","normalerweise","zumindest"],hint:"Which word fits in this context?",sSrc:"At least I tried."}
+{type:"mc",q:"Was bedeutet 'voneinander'?",opts:["normally, usually","from each other","as ... as possible","nowhere"],ans:"from each other",hint:"Von (from) + einander (one another). Expressing mutual separation."},
+{type:"fb",s:"{1} habe ich es versucht.",a:["zumindest"],opts:["umsonst","möglicherweise","normalerweise","zumindest"],hint:"Zu- + mindest (least). At the very minimum. The bare minimum that applies.",sSrc:"At least I tried."}
 ]},
 
 // ==================== LESSON 8: Ich werde bleiben ====================
@@ -317,8 +317,8 @@ const UNIT_24 =
 {type:"fb",s:"Er {1} gezweifelt, ob er es schaffen würde.",a:["hatte"],opts:["hatte","hat","war","ist"],hint:"Zweifeln uses haben. You need the Plusquamperfekt auxiliary in Präteritum form for a haben-verb.",sSrc:"He had doubted whether he would manage it."},
 {type:"mc",q:"Was signalisiert 'Und jetzt wird es ernst' über die Geschichte?",opts:["Verumius verlässt Berlin und kehrt in seine Heimat zurück","Das nächste Kapitel wird härtere Herausforderungen bringen","Die Geschichte endet hier endgültig für immer","Die Grammatik wird von jetzt an deutlich einfacher"],ans:"Das nächste Kapitel wird härtere Herausforderungen bringen",hint:"'Ernst' means serious. The expression signals that things are getting real from this point."},
 {type:"match",pairs:[{trg:"wertvoll",src:"valuable"},{trg:"zuverlässig",src:"reliable"},{trg:"durcheinander",src:"mixed up"},{trg:"Augenblick",src:"moment"},{trg:"zweifeln",src:"to doubt"},{trg:"los",src:"off/going"}]},
-{type:"mc",q:"Was bedeutet 'äußerlich'?",opts:["externally, outwardly","to doubt","by chance, coincidental","to copy, to write off"],ans:"externally, outwardly",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'suffix: in the manner of' auf Deutsch? {1}",a:["-weis / -weise"],opts:["durcheinander","zweifeln","abschreiben","-weis / -weise"],hint:"Which word fits in this context?",sSrc:"How do you say 'suffix: in the manner of' in German?"}
+{type:"mc",q:"Was bedeutet 'äußerlich'?",opts:["externally, outwardly","to doubt","by chance, coincidental","to copy, to write off"],ans:"externally, outwardly",hint:"From au\u00dfen (outside) + -lich. What shows on the outer surface."},
+{type:"fb",s:"Wie sagt man 'suffix: in the manner of' auf Deutsch? {1}",a:["-weis / -weise"],opts:["durcheinander","zweifeln","abschreiben","-weis / -weise"],hint:"A German suffix turning nouns into manner adverbs, like English '-wise.'",sSrc:"How do you say 'suffix: in the manner of' in German?"}
 ]}
 
 ]};

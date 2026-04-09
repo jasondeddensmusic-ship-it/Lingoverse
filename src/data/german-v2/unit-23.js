@@ -85,9 +85,9 @@ const UNIT_23 =
 {type:"fb",s:"Lesen Sie zuerst die {1}, bevor Sie den ganzen Text lesen.",a:["Überschrift"],opts:["Überschrift","Zeile","Einzelheit","Punkt"],hint:"Exam strategy: read the writing above the text first.",sSrc:"Read the headline first before you read the whole text."},
 {type:"match",pairs:[{trg:"Hinweis",src:"hint/note"},{trg:"Ausdruck",src:"expression"},{trg:"Beschreibung",src:"description"},{trg:"Erklärung",src:"explanation"}]},
 {type:"story",speaker:"narrator",mood:"weary",art:"de-ber-study-bunker",trg:"Auf dem Schreibtisch liegt ein Stapel Bücher. Daneben drei leere Tassen Kaffee. Verumius streicht sich durch die Haare und blättert zur nächsten Seite.",src:"On the desk lies a stack of books. Next to them, three empty cups of coffee. Verumius runs his hand through his hair and turns to the next page."},
-{type:"mc",q:"Was bedeutet 'die Aussprache'?",opts:["pronunciation","graphic, chart","to look up (in a reference)","point, period, dot"],ans:"pronunciation",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Muss ich jedes Wort {1}?",a:["nachschlagen"],opts:["das Alphabet","die Abbildung","nachschlagen","die Darstellung"],hint:"Which word fits in this context?",sSrc:"Do I have to look up every word?"},
-{type:"mc",q:"Was bedeutet 'markieren'?",opts:["alphabet","dictionary","explanation, declaration","to mark, to highlight"],ans:"to mark, to highlight",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'die Aussprache'?",opts:["pronunciation","graphic, chart","to look up (in a reference)","point, period, dot"],ans:"pronunciation",hint:"Aus- (out) + Sprache (speech). How words sound when spoken aloud."},
+{type:"fb",s:"Muss ich jedes Wort {1}?",a:["nachschlagen"],opts:["das Alphabet","die Abbildung","nachschlagen","die Darstellung"],hint:"Nach- (after) + schlagen (to hit). To look something up in a reference.",sSrc:"Do I have to look up every word?"},
+{type:"mc",q:"Was bedeutet 'markieren'?",opts:["alphabet","dictionary","explanation, declaration","to mark, to highlight"],ans:"to mark, to highlight",hint:"Sounds like its English equivalent. French-Latin origin: marquer."}
 ]},
 
 // =============================================
@@ -129,8 +129,8 @@ const UNIT_23 =
 {type:"fb",s:"Am Goethe-{1} kann man die Sprachprüfung ablegen.",a:["Institut"],opts:["Institut","Seminar","Studio","Semester"],hint:"The worldwide German cultural organization where exams are held.",sSrc:"At the Goethe Institute you can take the language exam."},
 {type:"match",pairs:[{trg:"Kursleiter",src:"course instructor"},{trg:"Teilnehmer",src:"participant"},{trg:"Professor",src:"professor"},{trg:"Studierende",src:"students"}]},
 {type:"story",speaker:"lukas",mood:"teasing",art:"de-ber-apartment-evening",trg:"Lukas schickt eine Nachricht: 'Lebst du noch? Oder bist du unter deinen Karteikarten begraben?' Verumius antwortet mit einem Foto seines Schreibtischs. Lukas: 'Oh. Respekt.'",src:"Lukas sends a message: 'Are you still alive? Or are you buried under your flashcards?' Verumius replies with a photo of his desk. Lukas: 'Oh. Respect.'"},
-{type:"mc",q:"Was bedeutet 'unterrichten'?",opts:["participant (male)","homework, school test","seminar","to teach, to instruct"],ans:"to teach, to instruct",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Heute {1} wir die Grammatik.",a:["testen"],opts:["die Teilnehmerin","die Präsentation","testen","das Referat"],hint:"Which word fits in this context?",sSrc:"Today we test the grammar."}
+{type:"mc",q:"Was bedeutet 'unterrichten'?",opts:["participant (male)","homework, school test","seminar","to teach, to instruct"],ans:"to teach, to instruct",hint:"Unter- + richten (to direct). To direct knowledge toward students."},
+{type:"fb",s:"Heute {1} wir die Grammatik.",a:["testen"],opts:["die Teilnehmerin","die Präsentation","testen","das Referat"],hint:"Cognate of English 'test.' Same Latin root. To check knowledge formally.",sSrc:"Today we test the grammar."}
 ]},
 
 // =============================================
@@ -176,13 +176,13 @@ const UNIT_23 =
 {type:"tip",title:"Wish and Regret Patterns",text:"For present wishes, use 'Ich wünschte' followed by a Konjunktiv II clause:\n- Ich wünschte, ich hätte mehr Zeit.\n- Ich wünschte, ich wäre in Berlin.\n- Ich wünschte, ich könnte fliegen.\n\nFor past regret, the verb comes first with particles like doch, nur, or bloß:\n- Hätte ich doch nur mehr gelernt!\n- Wäre ich doch nur früher gekommen!\n- Wenn ich das doch nur gewusst hätte!\n\nThe particles doch, nur, and bloß all intensify the emotion. They are interchangeable.",deepDive:{title:"Register Differences",text:"Ich wünschte = formal, calm wish\nHätte ich doch nur = emotional regret\nWenn ich doch nur = slightly softer regret\n\n'Hätte ich doch nur mehr gelernt!'\n'Wäre ich doch nur früher gekommen!'\n'Wenn ich das doch nur gewusst hätte!'"}},
 {type:"tip",title:"als ob + Konjunktiv II",text:"There are two ways to say 'as if' in German, both requiring Konjunktiv II.\n\nWith als ob, the verb goes to the END of the clause:\n- Er tut, als ob er müde wäre.\n\nWith als alone (dropping ob), the verb comes IMMEDIATELY after als:\n- Er tut, als wäre er müde.\n\nBoth mean the same thing. The shorter form with als alone is considered more elegant.\nBoth always require Konjunktiv II.",deepDive:{title:"Common verbs before als ob",text:"tun als ob, aussehen als ob, klingen als ob,\nsich fühlen als ob, scheinen als ob, sich verhalten als ob\n\nAll describe APPEARANCES, not facts.\n\n'Er tut, als wüsste er alles.'\n'Es sieht aus, als ob es regnen würde.'\n'Sie klingt, als wäre sie müde.'"}},
 {type:"story",speaker:"yilmaz",mood:"proud",art:"de-ber-yilmaz-office",trg:"Yilmaz steht auf und reicht Verumius die Hand. 'Ich habe hunderte Schüler auf die B1-Prüfung vorbereitet. Du gehörst zu den besten. Geh hin und zeig, was du kannst.'",src:"Yilmaz stands up and shakes Verumius's hand. 'I have prepared hundreds of students for the B1 exam. You are among the best. Go and show what you can do.'"},
-{type:"mc",q:"Was bedeutet 'der Vorteil'?",opts:["to complete, to supplement","advantage","to succeed","to follow"],ans:"advantage",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to establish, to notice' auf Deutsch? {1}",a:["feststellen"],opts:["feststellen","die Ausnahme","die Folge","die Begründung"],hint:"Which word fits in this context?",sSrc:"How do you say 'to establish, to notice' in German?"},
-{type:"mc",q:"Was bedeutet 'gelten'?",opts:["to be valid, to apply","reason, ground","to be correct, to vote","consequence, episode"],ans:"to be valid, to apply",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to be correct, to vote' auf Deutsch? {1}",a:["stimmen"],opts:["stimmen","der Versuch","der Grund","der Vorteil"],hint:"Which word fits in this context?",sSrc:"How do you say 'to be correct, to vote' in German?"},
-{type:"mc",q:"Was bedeutet 'gelingen'?",opts:["to succeed","justification, reasoning","to be correct, to vote","to be valid, to apply"],ans:"to succeed",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Im {1}en ist die Prüfung fair.",a:["allgemein"],opts:["allgemein","der Grund","kompliziert","der Gegensatz"],hint:"Which word fits in this context?",sSrc:"In general, the exam is fair."},
-{type:"mc",q:"Was bedeutet 'kompliziert'?",opts:["exception","to complete, to supplement","reason, ground","complicated"],ans:"complicated",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'der Vorteil'?",opts:["to complete, to supplement","advantage","to succeed","to follow"],ans:"advantage",hint:"Vor- (ahead) + Teil (part). Having the front or better portion."},
+{type:"fb",s:"Wie sagt man 'to establish, to notice' auf Deutsch? {1}",a:["feststellen"],opts:["feststellen","die Ausnahme","die Folge","die Begründung"],hint:"Fest (firm) + stellen (to place). To establish something as a firm fact.",sSrc:"How do you say 'to establish, to notice' in German?"},
+{type:"mc",q:"Was bedeutet 'gelten'?",opts:["to be valid, to apply","reason, ground","to be correct, to vote","consequence, episode"],ans:"to be valid, to apply",hint:"A rule or ticket that has legal force. 'Es gilt' means it applies."},
+{type:"fb",s:"Wie sagt man 'to be correct, to vote' auf Deutsch? {1}",a:["stimmen"],opts:["stimmen","der Versuch","der Grund","der Vorteil"],hint:"From Stimme (voice). To be correct, or to cast a voice (vote).",sSrc:"How do you say 'to be correct, to vote' in German?"},
+{type:"mc",q:"Was bedeutet 'gelingen'?",opts:["to succeed","justification, reasoning","to be correct, to vote","to be valid, to apply"],ans:"to succeed",hint:"An impersonal verb: 'Es gelingt mir' = I manage to do it."},
+{type:"fb",s:"Im {1}en ist die Prüfung fair.",a:["allgemein"],opts:["allgemein","der Grund","kompliziert","der Gegensatz"],hint:"All (all) + gemein (common). What is shared by or applies to everyone.",sSrc:"In general, the exam is fair."},
+{type:"mc",q:"Was bedeutet 'kompliziert'?",opts:["exception","to complete, to supplement","reason, ground","complicated"],ans:"complicated",hint:"Latin: complicare (to fold together). Many layers folded on top of each other."}
 ]},
 
 // =============================================
@@ -228,9 +228,9 @@ const UNIT_23 =
 {type:"mc",q:"'Wenn er hätte kommen können, hätte er nicht zu Hause bleiben brauchen.' Was bedeutet dieser Satz?",opts:["He was able to come whenever he liked but still made the choice to stay at home.","If he had been able to come, he would not have needed to stay home.","He had come but then decided to stay home after all.","If he comes tomorrow, he will definitely not stay home."],ans:"If he had been able to come, he would not have needed to stay home.",hint:"Two irreale Bedingungen combined: hätte + kommen können (Doppelinfinitiv) and hätte + brauchen."},
 {type:"drag_fill",s:"Wenn ich besser vorbereitet {1}, {2} ich die Prüfung leicht bestehen.",blanks:{"1":"wäre","2":"würde"},pool:["wäre","würde","bin","werde","hätte","könnte"],hint:"Unreal condition: the wenn clause needs Konjunktiv II of sein, the main clause needs the Konjunktiv II auxiliary + Infinitiv.",sSrc:"If I were better prepared, I would easily pass the exam."},
 {type:"story",speaker:"verumius",mood:"nervous",art:"de-ber-apartment-night",trg:"Verumius legt die letzten Karteikarten weg. Morgen ist es so weit. Er stellt den Wecker auf sechs Uhr. 'Wenn ich jetzt nicht schlafe, bin ich morgen erledigt.' Er löscht das Licht.",src:"Verumius puts away the last flashcards. Tomorrow is the day. He sets the alarm for six o'clock. 'If I don't sleep now, I'm done for tomorrow.' He turns off the light."},
-{type:"mc",q:"Was bedeutet 'darstellen'?",opts:["reader (male)","oral, verbal","forum","to represent, to depict"],ans:"to represent, to depict",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Können Sie die beiden Wörter {1}?",a:["unterscheiden"],opts:["die Kommunikation","theoretisch","unterscheiden","analysieren"],hint:"Which word fits in this context?",sSrc:"Can you distinguish the two words?"},
-{type:"mc",q:"Was bedeutet 'korrigieren'?",opts:["to correct","forum","intelligence","oral, verbal"],ans:"to correct",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'darstellen'?",opts:["reader (male)","oral, verbal","forum","to represent, to depict"],ans:"to represent, to depict",hint:"Dar- (there) + stellen (to place). To place before an audience."},
+{type:"fb",s:"Können Sie die beiden Wörter {1}?",a:["unterscheiden"],opts:["die Kommunikation","theoretisch","unterscheiden","analysieren"],hint:"Unter- + scheiden (to separate). To separate and tell things apart.",sSrc:"Can you distinguish the two words?"},
+{type:"mc",q:"Was bedeutet 'korrigieren'?",opts:["to correct","forum","intelligence","oral, verbal"],ans:"to correct",hint:"Near-identical in English. Latin: corrigere (to make straight)."}
 ]},
 
 // =============================================
@@ -285,7 +285,7 @@ const UNIT_23 =
 {type:"match",pairs:[{trg:"vorlesen",src:"to read aloud"},{trg:"zusammenfassen",src:"to summarize"},{trg:"präsentieren",src:"to present"},{trg:"analysieren",src:"to analyze"}]},
 {type:"drag_fill",s:"Sie hat das Buch nicht lesen {1}.",blanks:{"1":"können"},pool:["können","gekonnt","kann","konnte","lesen"],hint:"Modal verb in the Perfekt: the modal keeps its Infinitiv form, not a Partizip.",sSrc:"She was not able to read the book."},
 {type:"story",speaker:"mia",mood:"supportive",art:"de-ber-ubahn-morning",trg:"Mia wartet an der U-Bahn-Station. Sie drückt ihm einen Glücksbringer in die Hand: einen kleinen Stein vom Brandenburger Tor. 'Den habe ich am ersten Tag in Berlin gefunden. Er bringt Glück.'",src:"Mia waits at the U-Bahn station. She presses a lucky charm into his hand: a small stone from the Brandenburg Gate. 'I found this on my first day in Berlin. It brings luck.'"},
-{type:"mc",q:"Was bedeutet 'eintreten'?",opts:["to notice, to remark","studio","to enter, to occur","to give up, to assign"],ans:"to enter, to occur",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'eintreten'?",opts:["to notice, to remark","studio","to enter, to occur","to give up, to assign"],ans:"to enter, to occur",hint:"Ein- (in) + treten (to step). To step into or to come about."}
 ]},
 
 // =============================================
@@ -328,8 +328,8 @@ const UNIT_23 =
 {type:"fb",s:"Die Prüfung dauert {1} vier Stunden.",a:["insgesamt"],opts:["insgesamt","höchstens","kaum","allerdings"],hint:"Which adverb means 'in total'?",sSrc:"The exam lasts four hours in total."},
 {type:"drag_fill",s:"{1} hat Verumius {2} alles gelernt, was er braucht.",blanks:{"1":"Inzwischen","2":"längst"},pool:["Inzwischen","längst","kaum","nachher","bisher","allerdings"],hint:"Two time adverbs: one marks present completion of a gradual process, the other marks something done well before now.",sSrc:"By now, Verumius has long since learned everything he needs."},
 {type:"story",speaker:"narrator",mood:"relieved",art:"de-ber-goethe-exam",trg:"Die Prüferin sammelt die Bögen ein. Verumius legt den Stift hin. Seine Hände zittern, aber er lächelt. Der Hören-Teil war schwer. Der Schreiben-Teil war fair. Jetzt muss er warten.",src:"The examiner collects the papers. Verumius puts down his pen. His hands are shaking, but he smiles. The listening part was hard. The writing part was fair. Now he has to wait."},
-{type:"mc",q:"Was bedeutet 'jemals'?",opts:["ever","once more, again","however, admittedly","in each case, respectively"],ans:"ever",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Kann ich {1} zur Prüfung kommen?",a:["jederzeit"],opts:["jederzeit","beinah","insgesamt","jemals"],hint:"Which word fits in this context?",sSrc:"Can I come to the exam at any time?"}
+{type:"mc",q:"Was bedeutet 'jemals'?",opts:["ever","once more, again","however, admittedly","in each case, respectively"],ans:"ever",hint:"Je- + -mals (times). At any point in all of time. Has it happened at all?"},
+{type:"fb",s:"Kann ich {1} zur Prüfung kommen?",a:["jederzeit"],opts:["jederzeit","beinah","insgesamt","jemals"],hint:"Jeder (every) + Zeit (time). At whatever moment you choose.",sSrc:"Can I come to the exam at any time?"}
 ]},
 
 // =============================================
@@ -373,9 +373,9 @@ const UNIT_23 =
 {type:"match",pairs:[{trg:"obwohl",src:"although"},{trg:"nachdem",src:"after"},{trg:"sobald",src:"as soon as"},{trg:"indem",src:"by (doing)"}]},
 {type:"drag_fill",s:"{1} er gut vorbereitet ist, {2} er trotzdem nervös.",blanks:{"1":"Obwohl","2":"ist"},pool:["Obwohl","Weil","ist","hat","bleibt","Nachdem"],hint:"First blank: the conjunction that means 'although' (concessive, sends verb to end). Second blank: the simple present of sein.",sSrc:"Although he is well prepared, he is still nervous."},
 {type:"story",speaker:"verumius",mood:"hopeful",art:"de-ber-apartment-waiting",trg:"Eine Woche ist vergangen. Verumius sitzt am Fenster und schaut auf die Straße. 'Obwohl ich nervös bin, weiß ich, dass ich mein Bestes gegeben habe. Das muss reichen.'",src:"A week has passed. Verumius sits by the window and looks at the street. 'Although I am nervous, I know I gave my best. That has to be enough.'"},
-{type:"mc",q:"Was bedeutet 'nämlich'?",opts:["since, because (formal)","indeed, admittedly","namely, because (you see)","as long as"],ans:"namely, because (you see)",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1} ist die Prüfung schwer, aber machbar.",a:["zwar"],opts:["nachdem","bevor","zwar","sodass"],hint:"Which word fits in this context?",sSrc:"Admittedly, the exam is hard, but doable."},
-{type:"mc",q:"Was bedeutet 'ebenfalls'?",opts:["likewise, also (formal)","before","since, because (formal)","indeed, admittedly"],ans:"likewise, also (formal)",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'nämlich'?",opts:["since, because (formal)","indeed, admittedly","namely, because (you see)","as long as"],ans:"namely, because (you see)",hint:"Introduces an explanation for what was just said. Signals 'the reason is.'"},
+{type:"fb",s:"{1} ist die Prüfung schwer, aber machbar.",a:["zwar"],opts:["nachdem","bevor","zwar","sodass"],hint:"Concessive word meaning 'admittedly.' Often paired with aber (but).",sSrc:"Admittedly, the exam is hard, but doable."},
+{type:"mc",q:"Was bedeutet 'ebenfalls'?",opts:["likewise, also (formal)","before","since, because (formal)","indeed, admittedly"],ans:"likewise, also (formal)",hint:"Eben (just/even) + falls (in case). An elevated synonym for 'auch.'"}
 ]},
 
 // =============================================
@@ -422,11 +422,11 @@ const UNIT_23 =
 {type:"fb",s:"{1} kommt Lukas zur Feier. Er ist sich noch nicht sicher.",a:["Eventuell"],opts:["Eventuell","Schließlich","Seitdem","Offenbar"],hint:"Which word means 'possibly,' NOT 'eventually'?",sSrc:"Possibly Lukas will come to the party. He is not sure yet."},
 {type:"mc",q:"'Wenn Verumius nicht nach Deutschland gekommen wäre, hätte er diese Freunde nie kennengelernt.' Dieser Satz drückt aus...",opts:["Dankbarkeit für eine Entscheidung, die auch anders hätte ausgehen können.","Bedauern über die Reise nach Deutschland.","Eine Vorhersage über die Zukunft.","Einen Plan, Deutschland zu verlassen."],ans:"Dankbarkeit für eine Entscheidung, die auch anders hätte ausgehen können.",hint:"The unreal past condition (nicht gekommen wäre) shows the path not taken. Reality is the opposite."},
 {type:"drag_fill",s:"Verumius ist {1} stolz {2} glücklich.",blanks:{"1":"sowohl","2":"als auch"},pool:["sowohl","als auch","weder","noch","entweder","oder"],hint:"He is BOTH proud AND happy. Which two-part conjunction means both...and?",sSrc:"Verumius is both proud and happy."},
-{type:"mc",q:"Was bedeutet 'interessant'?",opts:["interesting","visible","for which reason, why (formal)","therefore, that is why"],ans:"interesting",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Bist du an Deutschland {1}?",a:["interessiert"],opts:["seitdem","interessiert","begrenzt","ungefähr"],hint:"Which word fits in this context?",sSrc:"Are you interested in Germany?"},
-{type:"mc",q:"Was bedeutet 'neugierig'?",opts:["why, how come","approximately","apparently, evidently","curious"],ans:"curious",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Die Zeit ist {1}.",a:["begrenzt"],opts:["ungefähr","neugierig","begrenzt","teilweise"],hint:"Which word fits in this context?",sSrc:"The time is limited."},
-{type:"mc",q:"Was bedeutet 'sichtbar'?",opts:["for which reason, why (formal)","presumably, probably","therefore, that is why","visible"],ans:"visible",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'interessant'?",opts:["interesting","visible","for which reason, why (formal)","therefore, that is why"],ans:"interesting",hint:"Latin: inter + esse (to be among). Capturing your attention and curiosity."},
+{type:"fb",s:"Bist du an Deutschland {1}?",a:["interessiert"],opts:["seitdem","interessiert","begrenzt","ungefähr"],hint:"Past participle of interessieren. Used with 'an etwas' (in something).",sSrc:"Are you interested in Germany?"},
+{type:"mc",q:"Was bedeutet 'neugierig'?",opts:["why, how come","approximately","apparently, evidently","curious"],ans:"curious",hint:"Neu (new) + gierig (greedy). Greedy for new knowledge and experiences."},
+{type:"fb",s:"Die Zeit ist {1}.",a:["begrenzt"],opts:["ungefähr","neugierig","begrenzt","teilweise"],hint:"Be- + Grenze (border) + -t. Kept within boundaries. Not unlimited.",sSrc:"The time is limited."},
+{type:"mc",q:"Was bedeutet 'sichtbar'?",opts:["for which reason, why (formal)","presumably, probably","therefore, that is why","visible"],ans:"visible",hint:"Sicht (sight) + -bar (-able). Something perceivable by the eyes."}
 ]},
 
 // =============================================
