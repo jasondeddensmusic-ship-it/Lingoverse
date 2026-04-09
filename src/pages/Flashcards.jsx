@@ -171,7 +171,6 @@ function TeachStyleCard({ card, lang, baseLang, revealed, onReveal, showToast })
     <div>
       {/* ═══ MAIN CARD — matches teach card from LessonEngine ═══ */}
       <div
-        onClick={!revealed ? onReveal : undefined}
         style={{
           background:"var(--card-bg)",borderRadius:22,
           border:"2px solid rgba(255,255,255,0.55)",
@@ -180,8 +179,13 @@ function TeachStyleCard({ card, lang, baseLang, revealed, onReveal, showToast })
           overflow:"hidden",marginBottom:16,
           cursor: revealed ? "default" : "pointer",
           transition:"all 0.25s ease",
+          position:"relative",
         }}
       >
+        {/* Tap overlay — catches all taps when unrevealed, above SpeakerButton */}
+        {!revealed && (
+          <div onClick={onReveal} style={{position:"absolute",top:0,left:0,right:0,bottom:0,zIndex:10,cursor:"pointer"}}/>
+        )}
         {/* Top strip */}
         <div style={{
           background:"linear-gradient(135deg, rgba(123,94,232,0.06), rgba(46,205,167,0.04))",
