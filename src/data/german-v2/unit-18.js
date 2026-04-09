@@ -41,8 +41,8 @@ const UNIT_18 =
 {type:"mc",q:"Mia kommt vom Lauftreff und sagt, sie ist sehr ___. Welches Wort beschreibt ihren Zustand?",opts:["satt","gem\u00fctlich","durstig","hungrig"],ans:"durstig",hint:"She wants something to drink first. This word comes from Durst."},
 {type:"mc",q:"Was bedeutet 'Mahlzeit!', wenn ein Kollege es um die Mittagszeit sagt?",opts:["Es bedeutet auf Wiedersehen oder Tsch\u00fcss","Es ist eine formelle Entschuldigung","Es bedeutet immer Danke sch\u00f6n","Es ist ein Mittagsgru\u00df"],ans:"Es ist ein Mittagsgru\u00df",hint:"Mahl means meal, Zeit means time. Think about what happens at noon in German offices."},
 {type:"fb",s:"Lukas, m\u00f6chtest du etwas trinken? -- Ja, ich bin sehr {1}!",a:["durstig"],opts:["durstig","hungrig","satt","gem\u00fctlich"],hint:"Lukas wants something to drink. Which adjective describes being thirsty?",sSrc:"Lukas, would you like something to drink? -- Yes, I am very thirsty!"},
-{type:"mc",q:"Was bedeutet 'spazieren gehen'?",opts:["the terrace, the patio","to go for a walk","thirsty","the waitress"],ans:"to go for a walk",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1}!",a:["prost"],opts:["das Trinkgeld","satt","die Wirtin","prost"],hint:"Which word fits in this context?",sSrc:"Cheers!"},
+{type:"mc",q:"Was bedeutet 'spazieren gehen'?",opts:["the terrace, the patio","to go for a walk","thirsty","the waitress"],ans:"to go for a walk",hint:"Italian loanword 'spaziare' (to stroll). A casual outing on foot, not athletic training."},
+{type:"fb",s:"{1}!",a:["prost"],opts:["das Trinkgeld","satt","die Wirtin","prost"],hint:"The classic German toast when raising glasses. Latin origin: 'prosit' (may it be good).",sSrc:"Cheers!"},
 {type:"mc",q:"Ich möchte den Abend in Ruhe ___.",opts:["genießen","spazieren","trinken","essen"],ans:"genießen",hint:"A verb meaning to savor, enjoy, or relish an experience fully."}
 ]},
 
@@ -83,8 +83,8 @@ const UNIT_18 =
 {type:"teach",trg:"die Marille",src:"the apricot (Austrian)",pos:"noun",gender:"f",note:"Austrian word for Aprikose. From Italian amarella.\nMarillenknödel = apricot dumplings, an Austrian classic.",example:"A: Was ist eine Marille?\nB: Das ist die österreichische Aprikose.\nA: Sind Marillen süß?\nB: Ja, sehr süß und fruchtig.",exampleSrc:"A: What is a Marille?\nB: That is the Austrian apricot.\nA: Are Marillen sweet?\nB: Yes, very sweet and fruity.",funFact:"Marille comes from Italian amarella (little bitter one). Marillenknödel are one of Austria's most beloved desserts. The Wachau region is famous for its Marillen orchards."},
 {type:"mc",q:"In \u00d6sterreich hei\u00dft 'Aprikose' anders. Wie sagt man dort?",opts:["Frucht","Pflaume (nein)","Marille","Zwiebel"],ans:"Marille",hint:"This is the Austrian word for the same fruit. It comes from Italian 'amarella.'"},
 {type:"fb",s:"Zum Fr\u00fchst\u00fcck esse ich gerne frisches {1} vom B\u00e4cker.",a:["Geb\u00e4ck"],opts:["Geb\u00e4ck","Picknick","Mehl","Fett"],hint:"The collective noun for all baked goods, with the Ge- prefix.",sSrc:"For breakfast I like to eat fresh pastries from the baker."},
-{type:"mc",q:"Was bedeutet 'die Pflaume'?",opts:["the plum","the bowl","the fat, the grease","the can, the tin"],ans:"the plum",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Was ist da {1}?",a:["drin"],opts:["die Frucht","die Sch\\u00fcssel","die Dose","drin"],hint:"Which word fits in this context?",sSrc:"What is in there?"}
+{type:"mc",q:"Was bedeutet 'die Pflaume'?",opts:["the plum","the bowl","the fat, the grease","the can, the tin"],ans:"the plum",hint:"Sounds like its English equivalent. A purple stone fruit used in German cakes and jams."},
+{type:"fb",s:"Was ist da {1}?",a:["drin"],opts:["die Frucht","die Sch\\u00fcssel","die Dose","drin"],hint:"Contraction of 'darin' (in there). A colloquial adverb for something being inside.",sSrc:"What is in there?"}
 ]},
 
 // ─── Lesson 3: Die Spargel-Panik ────────────────────────────────────
@@ -124,11 +124,11 @@ const UNIT_18 =
 {type:"verb_table",title:"als vs wenn (when)",note:"Als = one specific past event. Wenn = repeated, habitual, or hypothetical.",groups:[{label:"als (einmalig in der Vergangenheit)",rows:[{pronoun:"Als ich ankam,",form:"war alles bereit.",src:"When I arrived, everything was ready."},{pronoun:"Als wir Kinder waren,",form:"spielten wir im Garten.",src:"When we were children, we played in the garden."},{pronoun:"Als Heinrich anrief,",form:"sa\u00dfen wir im Biergarten.",src:"When Heinrich called, we were sitting in the beer garden."}]},{label:"wenn (wiederholt / hypothetisch)",rows:[{pronoun:"Wenn ich Hunger habe,",form:"esse ich Brot.",src:"When(ever) I am hungry, I eat bread."},{pronoun:"Wenn die Saison endet,",form:"gibt es keinen Spargel.",src:"When the season ends, there is no asparagus."},{pronoun:"Wenn ich k\u00f6nnte,",form:"w\u00fcrde ich jeden Tag grillen.",src:"If I could, I would grill every day."}]}]},
 {type:"mc",q:"Erg\u00e4nze: '_____ ich gestern im Biergarten war, habe ich Spargel bestellt.'",opts:["Ob","Als","Wenn","Weil"],ans:"Als",hint:"Yesterday is a single, specific moment in the past. Which word means 'when' for one-time events?"},
 {type:"fb",s:"{1} die Spargelzeit endet, sind die Deutschen immer traurig.",a:["Wenn"],opts:["Wenn","Als","Ob","Weil"],hint:"The asparagus season ends EVERY year. This is a repeated event.",sSrc:"When the asparagus season ends, Germans are always sad."},
-{type:"mc",q:"Was bedeutet 'der Backofen'?",opts:["the special offer","the oven","vegetarian","to prepare (food)"],ans:"the oven",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the foodstuff' auf Deutsch? {1}",a:["das Nahrungsmittel"],opts:["das Nahrungsmittel","haltbar","das Vitamin","reif"],hint:"Which word fits in this context?",sSrc:"How do you say 'the foodstuff' in German?"},
-{type:"mc",q:"Was bedeutet 'das Vitamin'?",opts:["the nutrition, the diet","the receipt","the discount","the vitamin"],ans:"the vitamin",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to prepare (food)' auf Deutsch? {1}",a:["zubereiten"],opts:["die Schlange","die Ern\\u00e4hrung","vegetarisch","zubereiten"],hint:"Which word fits in this context?",sSrc:"How do you say 'to prepare (food)' in German?"},
-{type:"mc",q:"Was bedeutet 'mischen'?",opts:["to mix","the foodstuff","the discount","the nutrition, the diet"],ans:"to mix",hint:"Think about the meaning of this word in context."},
+{type:"mc",q:"Was bedeutet 'der Backofen'?",opts:["the special offer","the oven","vegetarian","to prepare (food)"],ans:"the oven",hint:"Backen (to bake) + Ofen (furnace/stove). The heated box in the kitchen for baking."},
+{type:"fb",s:"Wie sagt man 'the foodstuff' auf Deutsch? {1}",a:["das Nahrungsmittel"],opts:["das Nahrungsmittel","haltbar","das Vitamin","reif"],hint:"Nahrung (nourishment) + Mittel (means/agent). A general term for edible products.",sSrc:"How do you say 'the foodstuff' in German?"},
+{type:"mc",q:"Was bedeutet 'das Vitamin'?",opts:["the nutrition, the diet","the receipt","the discount","the vitamin"],ans:"the vitamin",hint:"Latin/scientific cognate. Identical meaning across all European languages. Essential nutrients."},
+{type:"fb",s:"Wie sagt man 'to prepare (food)' auf Deutsch? {1}",a:["zubereiten"],opts:["die Schlange","die Ern\\u00e4hrung","vegetarisch","zubereiten"],hint:"Zu- (to/toward) + bereiten (to make ready). To get food ready for eating.",sSrc:"How do you say 'to prepare (food)' in German?"},
+{type:"mc",q:"Was bedeutet 'mischen'?",opts:["to mix","the foodstuff","the discount","the nutrition, the diet"],ans:"to mix",hint:"Sounds like its English equivalent (same Germanic root). To combine ingredients together."},
 {type:"fb",s:"Wer {1} heute ab? Die Teller stehen noch in der Küche.",a:"spült",opts:["spült","mischt","kocht","schneidet"],hint:"A verb meaning to wash dishes or rinse something with water.",sSrc:"Who does the dishes today? The plates are still in the kitchen."}
 ]},
 
@@ -171,9 +171,9 @@ const UNIT_18 =
 {type:"mc",q:"'_____ ich das erste Mal Spargel a\u00df, war ich \u00fcberrascht.' Welches Wort passt?",opts:["Als","Weil","Damit","Wenn"],ans:"Als",hint:"The FIRST time is a single, one-time past event. Which word is for that?"},
 {type:"drag_fill",s:"Mia {1} sich {2} Bio-Essen. Sie denkt oft {3}.",blanks:{"1":"interessiert","2":"f\u00fcr","3":"daran"},pool:["interessiert","f\u00fcr","daran","freut","auf","darauf"],hint:"First: the verb for being interested plus its fixed preposition. Second: 'denken an' replaced with a da-compound.",sSrc:"Mia is interested in organic food. She often thinks about it."},
 {type:"match",pairs:[{trg:"darauf",src:"on it / for it"},{trg:"dar\u00fcber",src:"about it"},{trg:"daran",src:"of it / to it"},{trg:"daf\u00fcr",src:"for it (purpose)"}]},
-{type:"mc",q:"Was bedeutet 'spitz'?",opts:["sharp, pointed","biological, organic","the rental, the letting","the liquid, the fluid"],ans:"sharp, pointed",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Deutsche {1} viel Bier.",a:["konsumieren"],opts:["mager","die Vermietung","der Konsum","konsumieren"],hint:"Which word fits in this context?",sSrc:"Germans consume a lot of beer."},
-{type:"mc",q:"Was bedeutet 'heben'?",opts:["the opening, the inauguration","to lift, to raise","sharp, pointed","the consumption"],ans:"to lift, to raise",hint:"Think about the meaning of this word in context."},
+{type:"mc",q:"Was bedeutet 'spitz'?",opts:["sharp, pointed","biological, organic","the rental, the letting","the liquid, the fluid"],ans:"sharp, pointed",hint:"Describes a narrow, tapering end. Think of a pencil tip or a church steeple."},
+{type:"fb",s:"Deutsche {1} viel Bier.",a:["konsumieren"],opts:["mager","die Vermietung","der Konsum","konsumieren"],hint:"Latin cognate of English 'consume'. A formal verb for using up food, drink, or goods.",sSrc:"Germans consume a lot of beer."},
+{type:"mc",q:"Was bedeutet 'heben'?",opts:["the opening, the inauguration","to lift, to raise","sharp, pointed","the consumption"],ans:"to lift, to raise",hint:"A strong verb for raising something. 'Gewichtheben' = weightlifting."},
 {type:"fb",s:"Kannst du das Problem {1}?",a:"lösen",opts:["lösen","heben","konsumieren","mischen"],hint:"A verb meaning to solve, dissolve, or resolve a difficulty.",sSrc:"Can you solve the problem?"}
 ]},
 
@@ -214,8 +214,8 @@ const UNIT_18 =
 {type:"drag_fill",s:"{1} Lukas seine Band hatte, spielten sie jeden Freitag. {2} er jetzt allein spielt, klingt es anders.",blanks:{"1":"Als","2":"Wenn"},pool:["Als","Wenn","Weil","Dass","Ob"],hint:"First blank: having the band was a specific period in the past. Second blank: playing alone is a repeated present situation.",sSrc:"When Lukas had his band, they played every Friday. When he plays alone now, it sounds different."},
 {type:"mc",q:"Wie fragt man 'Woran denkt Lukas?' auf Englisch?",opts:["What is Lukas thinking about?","What is Lukas interested in?","What is Lukas waiting for?","What is Lukas happy about?"],ans:"What is Lukas thinking about?",hint:"The verb is 'denken AN.' The wo-compound combines wo + an."},
 {type:"fb",s:"Die Blumen auf der {1} bl\u00fchen im Sommer.",a:["Wiese"],opts:["Wiese","Feld","Gras","Landwirtschaft"],hint:"The word for a meadow where flowers and grass grow.",sSrc:"The flowers on the meadow bloom in summer."},
-{type:"mc",q:"Was bedeutet 'pflanzen'?",opts:["to pour, to water (plants)","to plant","to wake up","to grow"],ans:"to plant",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to grow' auf Deutsch? {1}",a:["wachsen"],opts:["wachsen","die B\\u00fcchse","das Tuch","gie\\u00dfen"],hint:"Which word fits in this context?",sSrc:"How do you say 'to grow' in German?"}
+{type:"mc",q:"Was bedeutet 'pflanzen'?",opts:["to pour, to water (plants)","to plant","to wake up","to grow"],ans:"to plant",hint:"Sounds like its English equivalent. To put seeds or seedlings into the soil to grow."},
+{type:"fb",s:"Wie sagt man 'to grow' auf Deutsch? {1}",a:["wachsen"],opts:["wachsen","die B\\u00fcchse","das Tuch","gie\\u00dfen"],hint:"English cognate: 'wax' (as in 'waxing moon'). To increase in size naturally.",sSrc:"How do you say 'to grow' in German?"}
 ]},
 
 // ─── Lesson 6: Dialekt auf dem Teller ───────────────────────────────
@@ -255,8 +255,8 @@ const UNIT_18 =
 {type:"match",pairs:[{trg:"Marille",src:"Aprikose"},{trg:"Paradeiser",src:"Tomate"},{trg:"Erdapfel",src:"Kartoffel"},{trg:"Schwammerl",src:"Pilz"}]},
 {type:"mc",q:"'Die Bewohner warten _____ den Fr\u00fchling.' Welche Pr\u00e4position erg\u00e4nzt 'warten'?",opts:["auf","f\u00fcr","\u00fcber","an"],ans:"auf",hint:"Warten always pairs with this preposition. You wait ON something."},
 {type:"mc",q:"'_____ ich in Wien war, habe ich zum ersten Mal Marillenkn\u00f6del probiert.'",opts:["Wenn","Damit","Weil","Als"],ans:"Als",hint:"Being in Vienna was a specific trip in the past. One time."},
-{type:"mc",q:"Was bedeutet 'der Fleischhauer'?",opts:["the chicken (Austrian)","the tomato (Austrian)","the tenant","the butcher (Austrian)"],ans:"the butcher (Austrian)",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the oven (Austrian)' auf Deutsch? {1}",a:["das Backrohr"],opts:["das Hendl","die Bewohnerin","der Mieter","das Backrohr"],hint:"Which word fits in this context?",sSrc:"How do you say 'the oven (Austrian)' in German?"}
+{type:"mc",q:"Was bedeutet 'der Fleischhauer'?",opts:["the chicken (Austrian)","the tomato (Austrian)","the tenant","the butcher (Austrian)"],ans:"the butcher (Austrian)",hint:"Fleisch (meat) + Hauer (chopper). Regional word for someone who cuts and sells meat."},
+{type:"fb",s:"Wie sagt man 'the oven (Austrian)' auf Deutsch? {1}",a:["das Backrohr"],opts:["das Hendl","die Bewohnerin","der Mieter","das Backrohr"],hint:"Back- (baking) + Rohr (pipe/tube). Austrian word for the kitchen appliance that bakes.",sSrc:"How do you say 'the oven (Austrian)' in German?"}
 ]},
 
 // ─── Lesson 7: Prost und Wiederholung ───────────────────────────────
@@ -295,8 +295,8 @@ const UNIT_18 =
 {type:"match",pairs:[{trg:"Als ich ankam",src:"When I arrived (one time)"},{trg:"Wenn ich esse",src:"When(ever) I eat"},{trg:"sich freuen auf",src:"to look forward to"},{trg:"Worauf wartest du?",src:"What are you waiting for?"}]},
 {type:"mc",q:"'_____ wartet Verumius?' -- 'Auf den Kellner. Er wartet _____.'",opts:["Worauf...darauf","Woran...daran","Wof\u00fcr...daf\u00fcr","Wor\u00fcber...dar\u00fcber"],ans:"Worauf...darauf",hint:"'Warten AUF' is the fixed combo. Question = wo + auf. Answer = da + auf."},
 {type:"drag_fill",s:"{1} wir im Biergarten sa\u00dfen, rief Heinrich an. Er bestand {2}, dass wir Spargel bestellen.",blanks:{"1":"Als","2":"darauf"},pool:["Als","Wenn","darauf","dar\u00fcber","daran","Weil"],hint:"First blank: one specific past moment (als vs. wenn). Second blank: bestehen takes a fixed preposition. Replace 'auf etwas' with the da-compound.",sSrc:"When we were sitting in the beer garden, Heinrich called. He insisted that we order asparagus."},
-{type:"mc",q:"Was bedeutet 'au'?",opts:["every time","ouch, ow","the caretaker (Swiss)","on the side, incidentally, by the way"],ans:"ouch, ow",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the lightning, the flash' auf Deutsch? {1}",a:["der Blitz"],opts:["halt","der Blitz","der Abwart","der Abt"],hint:"Which word fits in this context?",sSrc:"How do you say 'the lightning, the flash' in German?"}
+{type:"mc",q:"Was bedeutet 'au'?",opts:["every time","ouch, ow","the caretaker (Swiss)","on the side, incidentally, by the way"],ans:"ouch, ow",hint:"A short exclamation of pain. Universal across German dialects. Think: stubbing your toe."},
+{type:"fb",s:"Wie sagt man 'the lightning, the flash' auf Deutsch? {1}",a:["der Blitz"],opts:["halt","der Blitz","der Abwart","der Abt"],hint:"The bright flash in the sky during a thunderstorm. Also appears in compound words for speed.",sSrc:"How do you say 'the lightning, the flash' in German?"}
 ]},
 
 // ─── Lesson 8: Der Nachhauseweg ─────────────────────────────────────
@@ -335,8 +335,8 @@ const UNIT_18 =
 {type:"match",pairs:[{trg:"als",src:"when (one-time past)"},{trg:"wenn",src:"when(ever) / if"},{trg:"darauf",src:"on it (da + auf)"},{trg:"Worauf?",src:"On what? (wo + auf)"}]},
 {type:"mc",q:"Hildi sagt: 'Jedes Mal, _____ die Spargelzeit beginnt, denke ich _____ meine Kindheit.'",opts:["als...\u00fcber","wenn...auf","als...an","wenn...an"],ans:"wenn...an",hint:"Every year = repeated (conditional conjunction). Thinking OF something = denken + a fixed preposition."},
 {type:"drag_fill",s:"Verumius wartet {1} den Fr\u00fchling. Er freut sich {2}.",blanks:{"1":"auf","2":"darauf"},pool:["auf","darauf","\u00fcber","dar\u00fcber","an","daran"],hint:"Warten AUF. Then replace 'auf den Fr\u00fchling' with the da-compound.",sSrc:"Verumius waits for spring. He looks forward to it."},
-{type:"mc",q:"Was bedeutet 'bio-'?",opts:["organic, biological (prefix)","to eat (for animals)","to feed (an animal or baby)","to use, to make use of"],ans:"organic, biological (prefix)",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'single, individual (prefix)' auf Deutsch? {1}",a:["einzel-"],opts:["einzel-","f\\u00fcttern","ern\\u00e4hren","n\\u00fctzen"],hint:"Which word fits in this context?",sSrc:"How do you say 'single, individual (prefix)' in German?"}
+{type:"mc",q:"Was bedeutet 'bio-'?",opts:["organic, biological (prefix)","to eat (for animals)","to feed (an animal or baby)","to use, to make use of"],ans:"organic, biological (prefix)",hint:"From Greek 'bios' (life). In German supermarkets, it labels natural/pesticide-free products."},
+{type:"fb",s:"Wie sagt man 'single, individual (prefix)' auf Deutsch? {1}",a:["einzel-"],opts:["einzel-","f\\u00fcttern","ern\\u00e4hren","n\\u00fctzen"],hint:"From 'ein' (one). A prefix meaning one at a time, separate, not in a group.",sSrc:"How do you say 'single, individual (prefix)' in German?"}
 ]}
 
 ]};

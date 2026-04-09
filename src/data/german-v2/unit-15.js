@@ -40,7 +40,7 @@ const UNIT_15 =
 {type:"fb",s:"Die {1} Hamburg-Berlin dauert etwa zwei Stunden.",a:["Strecke"],opts:["Strecke","Station","Linie","Richtung"],hint:"Which word describes a defined route between two cities?",sSrc:"The Hamburg-Berlin route takes about two hours."},
 {type:"story",speaker:"colleague",mood:"matter-of-fact",art:"de-ham-taxi-rain",trg:"So, die Strecke zum Hotel ist nicht weit. Zehn Minuten, wenn der Verkehr mitmacht.",src:"So, the route to the hotel is not far. Ten minutes, if the traffic cooperates."},
 {type:"story",speaker:"verumius",mood:"curious",art:"de-ham-taxi-rain",trg:"Hamburg ist gr\u00f6\u00dfer, als ich dachte. Und feuchter.",src:"Hamburg is bigger than I thought. And damper."},
-{type:"mc",q:"Was bedeutet 'feucht'?",opts:["the region","the night","damp / humid","the area / vicinity"],ans:"damp / humid",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'feucht'?",opts:["the region","the night","damp / humid","the area / vicinity"],ans:"damp / humid",hint:"Describes moisture in the air or on surfaces. Hamburg is famous for this weather."}
 ]},
 
 // ─── Lesson 2: "Unterwegs in der Stadt" ───────────────────────────────
@@ -78,8 +78,8 @@ const UNIT_15 =
 {type:"match",pairs:[{trg:"U-Bahn",src:"subway"},{trg:"F\u00e4hre",src:"ferry"},{trg:"Eisenbahn",src:"railway"},{trg:"Motorrad",src:"motorcycle"},{trg:"Tram",src:"streetcar"}]},
 {type:"mc",q:"Welcher Artikel ist richtig: ___ Kraftfahrzeug?",opts:["die","der","ein","das"],ans:"das",hint:"In compound nouns, the LAST element determines the article. Fahrzeug is neuter."},
 {type:"drag_fill",s:"Nehmen Sie die n\u00e4chste {1} auf der rechten {2}.",blanks:{"1":"Ausfahrt","2":"Spur"},pool:["Ausfahrt","Spur","Einfahrt","Kurve","Linie","Zone"],hint:"Take the next exit on the right lane. Two road/highway terms.",sSrc:"Take the next exit on the right lane."},
-{type:"mc",q:"Was bedeutet 'der Radfahrer'?",opts:["the curve / bend","the pedestrian (male)","the motor vehicle","the cyclist (male)"],ans:"the cyclist (male)",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1} f\\u00e4hrt sehr schnell.",a:["die Radfahrerin"],opts:["die Radfahrerin","die Kurve","der Fu\\u00dfg\\u00e4nger","die Ausfahrt"],hint:"Which word fits in this context?",sSrc:"The cyclist is riding very fast."}
+{type:"mc",q:"Was bedeutet 'der Radfahrer'?",opts:["the curve / bend","the pedestrian (male)","the motor vehicle","the cyclist (male)"],ans:"the cyclist (male)",hint:"Rad (wheel/bicycle) + Fahrer (driver). A person who rides a bicycle."},
+{type:"fb",s:"{1} f\\u00e4hrt sehr schnell.",a:["die Radfahrerin"],opts:["die Radfahrerin","die Kurve","der Fu\\u00dfg\\u00e4nger","die Ausfahrt"],hint:"The feminine form (-in ending) of the person who rides a bicycle.",sSrc:"The cyclist is riding very fast."}
 ]},
 
 // ─── Lesson 3: "Herr Professor Doktor Schmidt" ───────────────────────
@@ -119,15 +119,15 @@ const UNIT_15 =
 {type:"verb_table",title:"Der Genitiv: Artikel und Endungen",groups:[{label:"Bestimmter Artikel (definite)",rows:[{pronoun:"maskulin",form:"des Mannes",src:"of the man"},{pronoun:"feminin",form:"der Frau",src:"of the woman"},{pronoun:"neutral",form:"des Kindes",src:"of the child"},{pronoun:"Plural",form:"der Kinder",src:"of the children"}]},{label:"Unbestimmter Artikel (indefinite)",rows:[{pronoun:"maskulin",form:"eines Mannes",src:"of a man"},{pronoun:"feminin",form:"einer Frau",src:"of a woman"},{pronoun:"neutral",form:"eines Kindes",src:"of a child"}]}],note:"Masculine and neuter: des/eines + noun + -(e)s. Feminine and plural: der + noun unchanged.",deepDive:{title:"Proper names in the genitive: Peters Auto",text:"Two ways to express possession:\n\n1. Name + s: Peters Auto = Peter's car. NO apostrophe!\n2. Article genitive: das Auto des Mannes.\n\nNever mix: Des Peters Auto (wrong). Peters Auto (right).\n\nThe 'Deppenapostroph' (idiot apostrophe): Peter's Auto is grammatically wrong.\nGerman genitive-s comes WITHOUT an apostrophe.\n\nException: names ending in -s, -x, -z use an apostrophe:\nMax' Auto, Hans' Buch (or: das Auto von Max)\n\nThis also applies to place names: Berlins Museen, Hamburgs Hafen."}},
 {type:"story",speaker:"verumius",mood:"overwhelmed",art:"de-ham-office",trg:"Herr Professor Doktor Schmidt. Soll ich das jedes Mal sagen? Jedes Mal alle Titel?",src:"Herr Professor Doktor Schmidt. Am I supposed to say that every time? Every time, all the titles?"},
 {type:"story",speaker:"colleague",mood:"reassuring",art:"de-ham-office-harbor",trg:"Beim ersten Mal: ja. Danach reicht Herr Schmidt. Die Regel ist einfach: lieber zu h\u00f6flich als zu locker.",src:"The first time: yes. After that, Herr Schmidt is enough. The rule is simple: better too polite than too casual."},
-{type:"mc",q:"Was bedeutet 'der Passagier'?",opts:["the passenger (male)","the courtyard / yard / farm","the coast","the suburb"],ans:"the passenger (male)",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1} hat ihr Gep\\u00e4ck vergessen.",a:["die Passagierin"],opts:["st\\u00e4dtisch","die Passagierin","der Transport","der Ozean"],hint:"Which word fits in this context?",sSrc:"The passenger forgot her luggage."},
-{type:"mc",q:"Was bedeutet 'der Steward'?",opts:["the transport","the suburb","the ocean","the steward (male)"],ans:"the steward (male)",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1} erkl\\u00e4rt die Sicherheitsregeln.",a:["die Stewardess"],opts:["die Stewardess","der Tourismus","die K\\u00fcste","der Transport"],hint:"Which word fits in this context?",sSrc:"The stewardess is explaining the safety rules."},
-{type:"mc",q:"Was bedeutet 'der Laster'?",opts:["the truck","the transport","the building","the courtyard / yard / farm"],ans:"the truck",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1} der Waren dauert drei Tage.",a:["der Transport"],opts:["die Entfernung","das Geb\\u00e4ude","das Ufer","der Transport"],hint:"Which word fits in this context?",sSrc:"The transport of the goods takes three days."},
-{type:"mc",q:"Was bedeutet 'transportieren'?",opts:["urban / municipal","to transport","the bank / shore (of a river)","the truck"],ans:"to transport",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Der Nebel ist heute sehr {1}.",a:["dicht"],opts:["dicht","der Laster","der Vorort","regional"],hint:"Which word fits in this context?",sSrc:"The fog is very thick today."},
-{type:"mc",q:"Was bedeutet 'der Tourismus'?",opts:["to transport","urban / municipal","the tourism","the courtyard / yard / farm"],ans:"the tourism",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'der Passagier'?",opts:["the passenger (male)","the courtyard / yard / farm","the coast","the suburb"],ans:"the passenger (male)",hint:"French loanword from 'passage'. A person traveling on a vehicle they do not operate."},
+{type:"fb",s:"{1} hat ihr Gep\\u00e4ck vergessen.",a:["die Passagierin"],opts:["st\\u00e4dtisch","die Passagierin","der Transport","der Ozean"],hint:"The feminine (-in) form of a French loanword for a traveler on a plane or ship.",sSrc:"The passenger forgot her luggage."},
+{type:"mc",q:"Was bedeutet 'der Steward'?",opts:["the transport","the suburb","the ocean","the steward (male)"],ans:"the steward (male)",hint:"An English loanword. A flight attendant or ship crew member serving guests onboard."},
+{type:"fb",s:"{1} erkl\\u00e4rt die Sicherheitsregeln.",a:["die Stewardess"],opts:["die Stewardess","der Tourismus","die K\\u00fcste","der Transport"],hint:"The feminine form of an English loanword for a flight attendant.",sSrc:"The stewardess is explaining the safety rules."},
+{type:"mc",q:"Was bedeutet 'der Laster'?",opts:["the truck","the transport","the building","the courtyard / yard / farm"],ans:"the truck",hint:"Short for Lastkraftwagen (LKW). Last means 'load' or 'burden'."},
+{type:"fb",s:"{1} der Waren dauert drei Tage.",a:["der Transport"],opts:["die Entfernung","das Geb\\u00e4ude","das Ufer","der Transport"],hint:"A Latin/French cognate. The act of moving goods from one place to another.",sSrc:"The transport of the goods takes three days."},
+{type:"mc",q:"Was bedeutet 'transportieren'?",opts:["urban / municipal","to transport","the bank / shore (of a river)","the truck"],ans:"to transport",hint:"Latin cognate: trans (across) + portare (to carry). Identical in English."},
+{type:"fb",s:"Der Nebel ist heute sehr {1}.",a:["dicht"],opts:["dicht","der Laster","der Vorort","regional"],hint:"An adjective meaning thick or dense. Fog can be so thick you cannot see through it.",sSrc:"The fog is very thick today."},
+{type:"mc",q:"Was bedeutet 'der Tourismus'?",opts:["to transport","urban / municipal","the tourism","the courtyard / yard / farm"],ans:"the tourism",hint:"A Greek/French cognate. The travel and leisure industry. Same root as English 'tour'."}
 ]},
 
 // ─── Lesson 4: "Der Genitiv und die N-Deklination" ──────────────────
@@ -168,11 +168,11 @@ const UNIT_15 =
 {type:"drag_fill",s:"Der Titel {1} {2} ist sehr lang.",blanks:{"1":"des","2":"Kollegen"},pool:["des","der","dem","Kollegen","Kollege","Kolleges"],hint:"Kollege is masculine AND N-Deklination. Genitive masculine article + N-Dekl ending.",sSrc:"The colleague's title is very long."},
 {type:"match",pairs:[{trg:"des Mannes",src:"of the man"},{trg:"der Frau",src:"of the woman"},{trg:"des Kindes",src:"of the child"},{trg:"der Kinder",src:"of the children"},{trg:"des Kollegen",src:"of the colleague"}]},
 {type:"mc",q:"Auf der Autobahn gibt es einen langen ...",opts:["Umtausch","Stau","Salon","Halt"],ans:"Stau",hint:"What forms when too many cars are on the road at once?"},
-{type:"mc",q:"Was bedeutet 'die Tankstelle'?",opts:["the object / item","the right of way","the breakdown","the gas station"],ans:"the gas station",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the breakdown' auf Deutsch? {1}",a:["die Panne"],opts:["stoppen","die Rundfahrt","der Halt","die Panne"],hint:"Which word fits in this context?",sSrc:"How do you say 'the breakdown' in German?"},
-{type:"mc",q:"Was bedeutet 'das Tempo'?",opts:["the gas station","the speed / pace","the salon","the detour"],ans:"the speed / pace",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wir m\\u00fcssen {1}!",a:["eilen"],opts:["eilen","das Tempo","der Stau","die Panne"],hint:"Which word fits in this context?",sSrc:"We have to hurry!"},
-{type:"mc",q:"Was bedeutet 'stoppen'?",opts:["to stop","the breakdown","the salon","the taste / flavor"],ans:"to stop",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'die Tankstelle'?",opts:["the object / item","the right of way","the breakdown","the gas station"],ans:"the gas station",hint:"Tank (fuel tank) + Stelle (place/spot). Where you fill up your car."},
+{type:"fb",s:"Wie sagt man 'the breakdown' auf Deutsch? {1}",a:["die Panne"],opts:["stoppen","die Rundfahrt","der Halt","die Panne"],hint:"A French loanword for when your car stops working unexpectedly on the road.",sSrc:"How do you say 'the breakdown' in German?"},
+{type:"mc",q:"Was bedeutet 'das Tempo'?",opts:["the gas station","the speed / pace","the salon","the detour"],ans:"the speed / pace",hint:"Italian/Latin loanword. Same root as English 'tempo' in music. How fast something goes."},
+{type:"fb",s:"Wir m\\u00fcssen {1}!",a:["eilen"],opts:["eilen","das Tempo","der Stau","die Panne"],hint:"A verb meaning to rush. Related to English 'hail' (quick movement). Think: urgency.",sSrc:"We have to hurry!"},
+{type:"mc",q:"Was bedeutet 'stoppen'?",opts:["to stop","the breakdown","the salon","the taste / flavor"],ans:"to stop",hint:"English/Dutch loanword. Nearly identical in spelling and meaning across many languages."}
 ]},
 
 // ─── Lesson 5: "Hamburger K\u00fcche" ─────────────────────────────────────
@@ -213,10 +213,10 @@ const UNIT_15 =
 {type:"drag_fill",s:"W\u00e4hrend {1} {2} bestellen wir die Nachspeise.",blanks:{"1":"des","2":"Essens"},pool:["des","der","dem","Essens","Essen","Esse"],hint:"W\u00e4hrend takes genitive. Essen is neuter: des + -(e)ns.",sSrc:"During the meal we order the dessert."},
 {type:"match",pairs:[{trg:"Vorspeise",src:"appetizer"},{trg:"Nachspeise",src:"dessert"},{trg:"Braten",src:"roast"},{trg:"Hackfleisch",src:"ground meat"},{trg:"Gew\u00fcrz",src:"spice"}]},
 {type:"story",speaker:"verumius",mood:"satisfied",art:"de-ham-restaurant-harbor",trg:"Das Fischbr\u00f6tchen war lecker. Und die Kollegin sagt M\u00f6hre statt Karotte. Jede Region hat ihre eigene Sprache.",src:"The fish sandwich was delicious. And the colleague says M\u00f6hre instead of Karotte. Every region has its own language."},
-{type:"mc",q:"Was bedeutet 'die Limonade'?",opts:["the carrot","the dining car","the dish / food","the lemonade / soft drink"],ans:"the lemonade / soft drink",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the pub / bar' auf Deutsch? {1}",a:["die Kneipe"],opts:["die Kneipe","die Nachspeise","der Honig","das H\\u00fchnchen"],hint:"Which word fits in this context?",sSrc:"How do you say 'the pub / bar' in German?"},
-{type:"mc",q:"Was bedeutet 'salzig'?",opts:["salty","the dessert (French loan)","the dessert","the appetizer / starter"],ans:"salty",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Der K\\u00e4se ist {1}.",a:["mild"],opts:["das Men\\u00fc","die Vorspeise","mild","die Karotte"],hint:"Which word fits in this context?",sSrc:"The cheese is mild."}
+{type:"mc",q:"Was bedeutet 'die Limonade'?",opts:["the carrot","the dining car","the dish / food","the lemonade / soft drink"],ans:"the lemonade / soft drink",hint:"French loanword from 'limon' (lemon). In Germany, it covers any sweet, bubbly, bottled beverage."},
+{type:"fb",s:"Wie sagt man 'the pub / bar' auf Deutsch? {1}",a:["die Kneipe"],opts:["die Kneipe","die Nachspeise","der Honig","das H\\u00fchnchen"],hint:"A casual German word for a place to drink beer in the evening. Very informal.",sSrc:"How do you say 'the pub / bar' in German?"},
+{type:"mc",q:"Was bedeutet 'salzig'?",opts:["salty","the dessert (French loan)","the dessert","the appetizer / starter"],ans:"salty",hint:"From Salz (salt) + -ig suffix. Describes food with a lot of that white mineral."},
+{type:"fb",s:"Der K\\u00e4se ist {1}.",a:["mild"],opts:["das Men\\u00fc","die Vorspeise","mild","die Karotte"],hint:"An adjective for gentle flavor, not sharp or strong. Same word in English.",sSrc:"The cheese is mild."}
 ]},
 
 // ─── Lesson 6: "Elbphilharmonie" ─────────────────────────────────────
@@ -314,9 +314,9 @@ const UNIT_15 =
 {type:"match",pairs:[{trg:"W\u00e4hrend des Fluges",src:"During the flight"},{trg:"Wegen des Nebels",src:"Because of the fog"},{trg:"Trotz der K\u00e4lte",src:"Despite the cold"},{trg:"Statt des Zuges",src:"Instead of the train"},{trg:"Innerhalb der Stadt",src:"Within the city"}]},
 {type:"drag_fill",s:"{1} des Meetings stellte man Verumius dem {2} vor.",blanks:{"1":"W\u00e4hrend","2":"Kollegen"},pool:["W\u00e4hrend","Trotz","Kollegen","Kollege","Kolleg","Herrn"],hint:"First blank: which preposition means 'during'? Second blank: N-Deklination noun in dative after 'dem.'",sSrc:"During the meeting Verumius was introduced to the colleague."},
 {type:"story",speaker:"verumius",mood:"proud",art:"de-ham-hotel-checkout",trg:"Trotz der Nervosit\u00e4t habe ich alles richtig gemacht. Den Genitiv, die Titel, sogar das Fischbr\u00f6tchen.",src:"Despite the nervousness I did everything right. The genitive, the titles, even the fish sandwich."},
-{type:"mc",q:"Was bedeutet 'landen'?",opts:["to land","to honk","the sidewalk","the landing"],ans:"to land",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to depart / set off' auf Deutsch? {1}",a:["losfahren"],opts:["die Semmel","losfahren","das Benzin","landen"],hint:"Which word fits in this context?",sSrc:"How do you say 'to depart / set off' in German?"},
-{type:"mc",q:"Was bedeutet 'stehenbleiben'?",opts:["the muesli","the sidewalk","to stop / stand still","the boat"],ans:"to stop / stand still",hint:"Think about the meaning of this word in context."},
+{type:"mc",q:"Was bedeutet 'landen'?",opts:["to land","to honk","the sidewalk","the landing"],ans:"to land",hint:"The verb shares its root with Gelände (terrain). What a plane does when it touches down."},
+{type:"fb",s:"Wie sagt man 'to depart / set off' auf Deutsch? {1}",a:["losfahren"],opts:["die Semmel","losfahren","das Benzin","landen"],hint:"Los- (away/off) + fahren (to drive). To set off on a journey by vehicle.",sSrc:"How do you say 'to depart / set off' in German?"},
+{type:"mc",q:"Was bedeutet 'stehenbleiben'?",opts:["the muesli","the sidewalk","to stop / stand still","the boat"],ans:"to stop / stand still",hint:"Two verbs merged: to remain upright in one place. What you do at a red light on foot."},
 {type:"fb",s:"Wir müssen {1}. Die Tankstelle ist in fünf Kilometern.",a:"tanken",opts:["tanken","hupen","landen","bremsen"],hint:"A verb meaning to fill up the car with gasoline at a station.",sSrc:"We need to refuel. The gas station is in five kilometers."},
 {type:"mc",q:"Er hat die rote Ampel ___! Das ist sehr gefährlich.",opts:["überfahren","überholt","getankt","angeschnallt"],ans:"überfahren",hint:"An inseparable verb meaning to run through or run over something illegally."},
 {type:"fb",s:"Darf ich hier ___? Nein, Überholverbot!",a:"überholen",opts:["überholen","überfahren","überqueren","umdrehen"],hint:"A verb meaning to pass another vehicle on the road.",sSrc:"May I overtake here? No, no-passing zone!"}

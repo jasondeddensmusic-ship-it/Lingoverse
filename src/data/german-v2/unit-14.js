@@ -39,13 +39,13 @@ const UNIT_14 =
 {type:"story",speaker:"mia",mood:"helpful",art:"de-ber-office-floor",trg:"Hier ist unsere Etage. Der Flur führt zur Kantine, und am Ende vom Gang ist der Konferenzraum. Die Besprechung beginnt um zehn.",src:"Here is our floor. The hallway leads to the canteen, and at the end of the corridor is the conference room. The meeting starts at ten."},
 {type:"mc",q:"Mia sagt, die Besprechung ist im Konferenzraum. Was ist ein Konferenzraum?",opts:["Der Flur","Die Garderobe","Die Kantine","Ein Besprechungsraum"],ans:"Ein Besprechungsraum",hint:"This compound word describes a dedicated space in an office where formal gatherings take place."},
 {type:"fb",s:"Die {1} beginnt um zehn Uhr im Konferenzraum.",a:["Besprechung"],opts:["Besprechung","Kantine","Garderobe","Etage"],hint:"Which word means a meeting or formal discussion?",sSrc:"The meeting starts at ten o'clock in the conference room."},
-{type:"mc",q:"Was bedeutet 'der Tagesablauf'?",opts:["the company, the operation","the canteen, the cafeteria","with each other, together","the daily routine, the daily schedule"],ans:"the daily routine, the daily schedule",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie ist {1} in deinem Team?",a:["die Zusammenarbeit"],opts:["die Zusammenarbeit","die Konferenz","der Betrieb","die Abteilung"],hint:"Which word fits in this context?",sSrc:"How is the collaboration in your team?"},
-{type:"mc",q:"Was bedeutet 'einrichten'?",opts:["to set up, to furnish","the corridor, the aisle","the hallway, the corridor","firm, fixed, solid"],ans:"to set up, to furnish",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Kannst du bitte die Unterlagen {1}?",a:["ordnen"],opts:["ordnen","innen","begrüßen","aufmerksam"],hint:"Which word fits in this context?",sSrc:"Can you please organize the documents?"},
-{type:"mc",q:"Was bedeutet 'gemeinsam'?",opts:["the company, the operation","together, jointly, shared","the collaboration, the teamwork","the conference"],ans:"together, jointly, shared",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Dein Schreibtisch ist sehr {1}!",a:["ordentlich"],opts:["die Besprechung","die Kantine","der Betrieb","ordentlich"],hint:"Which word fits in this context?",sSrc:"Your desk is very tidy!"},
-{type:"mc",q:"Was bedeutet 'miteinander'?",opts:["with each other, together","the company, the operation","attentive, observant","together, jointly, shared"],ans:"with each other, together",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'der Tagesablauf'?",opts:["the company, the operation","the canteen, the cafeteria","with each other, together","the daily routine, the daily schedule"],ans:"the daily routine, the daily schedule",hint:"A compound: Tag (day) + es + Ab + Lauf (course/run). How a day runs its course."},
+{type:"fb",s:"Wie ist {1} in deinem Team?",a:["die Zusammenarbeit"],opts:["die Zusammenarbeit","die Konferenz","der Betrieb","die Abteilung"],hint:"Zusammen (together) + Arbeit (work). The noun for working as a team.",sSrc:"How is the collaboration in your team?"},
+{type:"mc",q:"Was bedeutet 'einrichten'?",opts:["to set up, to furnish","the corridor, the aisle","the hallway, the corridor","firm, fixed, solid"],ans:"to set up, to furnish",hint:"Ein- (in) + richten (to arrange/direct). To arrange the inside of a space."},
+{type:"fb",s:"Kannst du bitte die Unterlagen {1}?",a:["ordnen"],opts:["ordnen","innen","begrüßen","aufmerksam"],hint:"From Ordnung (order). A verb meaning to sort or arrange systematically.",sSrc:"Can you please organize the documents?"},
+{type:"mc",q:"Was bedeutet 'gemeinsam'?",opts:["the company, the operation","together, jointly, shared","the collaboration, the teamwork","the conference"],ans:"together, jointly, shared",hint:"From Gemein- (communal/mutual) + -sam. Doing something as a group, not alone."},
+{type:"fb",s:"Dein Schreibtisch ist sehr {1}!",a:["ordentlich"],opts:["die Besprechung","die Kantine","der Betrieb","ordentlich"],hint:"From Ordnung (order) + -lich. An adjective for someone who keeps things neat.",sSrc:"Your desk is very tidy!"},
+{type:"mc",q:"Was bedeutet 'miteinander'?",opts:["with each other, together","the company, the operation","attentive, observant","together, jointly, shared"],ans:"with each other, together",hint:"Mit (with) + einander (one another). Three parts fused into one word."}
 ]},
 
 // ─── Lesson 2: Das Büro ───
@@ -82,7 +82,7 @@ const UNIT_14 =
 {type:"fb",s:"Bitte {1} Sie die Datei aus.",a:["drucken"],opts:["drucken","klicken","tippen","kopieren"],hint:"Which verb means to print something on paper?",sSrc:"Please print out the file."},
 {type:"match",pairs:[{trg:"der Bildschirm",src:"screen/monitor"},{trg:"die Tastatur",src:"keyboard"},{trg:"die Festplatte",src:"hard drive"},{trg:"die Steckdose",src:"power outlet"},{trg:"der Kuli",src:"ballpoint pen"}]},
 {type:"story",speaker:"mia",mood:"conspiratorial",art:"de-ber-office-hallway",trg:"So, dein Arbeitsplatz ist eingerichtet. Jetzt zeige ich dir den wichtigsten Ort im ganzen Betrieb. Die Kaffeküche.",src:"So, your workspace is set up. Now I will show you the most important place in the whole company. The coffee kitchen."},
-{type:"mc",q:"Was bedeutet 'die Tabelle'?",opts:["the table, the spreadsheet","to type, to tap","the plug","the key, the button"],ans:"the table, the spreadsheet",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'die Tabelle'?",opts:["the table, the spreadsheet","to type, to tap","the plug","the key, the button"],ans:"the table, the spreadsheet",hint:"Sounds like its English equivalent. In German, it means a data grid, not furniture."}
 ]},
 
 // ─── Lesson 3: Die Kaffeküche ───
@@ -286,11 +286,11 @@ const UNIT_14 =
 {type:"match",pairs:[{trg:"die Schachtel",src:"small box/packet"},{trg:"die Kiste",src:"crate/chest"},{trg:"das Werkzeug",src:"tools"},{trg:"der Hammer",src:"hammer"},{trg:"der Handwerker",src:"craftsperson"}]},
 {type:"drag_fill",s:"Der Handwerker, {1} gerufen {2}, hat das Regal {3}.",blanks:{"1":"der","2":"wurde","3":"repariert"},pool:["der","den","wurde","wird","repariert","reparieren"],hint:"Masculine Handwerker WHO was called (Nominativ relative + passive). He repaired the shelf.",sSrc:"The craftsperson who was called repaired the shelf."},
 {type:"story",speaker:"verumius",mood:"bewildered",art:"de-ber-kaffeeküche-cake",trg:"Also. In Deutschland bringt man seinen eigenen Geburtstagskuchen mit. Man macht seinen eigenen Kaffee. Und man nimmt niemals den letzten Keks. Verstanden.",src:"So. In Germany you bring your own birthday cake. You make your own coffee. And you never take the last cookie. Understood."},
-{type:"mc",q:"Was bedeutet 'aufnehmen'?",opts:["the craftsperson, the tradesperson","to glue, to stick","to record, to absorb, to take in","the hammer"],ans:"to record, to absorb, to take in",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to use' auf Deutsch? {1}",a:["gebrauchen"],opts:["stecken","der Handwerker","gebrauchen","einsetzen"],hint:"Which word fits in this context?",sSrc:"How do you say 'to use' in German?"},
-{type:"mc",q:"Was bedeutet 'einsetzen'?",opts:["the hammer","to deploy, to use, to insert","the tool(s)","vertical, perpendicular"],ans:"to deploy, to use, to insert",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Soll der Tisch rund oder {1} sein?",a:["eckig"],opts:["einsetzen","der Kasten","die Schachtel","eckig"],hint:"Which word fits in this context?",sSrc:"Should the table be round or square?"},
-{type:"mc",q:"Was bedeutet 'senkrecht'?",opts:["the box, the packet","to put in, to insert, to be stuck","vertical, perpendicular","to deploy, to use, to insert"],ans:"vertical, perpendicular",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'aufnehmen'?",opts:["the craftsperson, the tradesperson","to glue, to stick","to record, to absorb, to take in","the hammer"],ans:"to record, to absorb, to take in",hint:"Auf- (up) + nehmen (to receive/grasp). To capture or absorb something (audio, photo, info)."},
+{type:"fb",s:"Wie sagt man 'to use' auf Deutsch? {1}",a:["gebrauchen"],opts:["stecken","der Handwerker","gebrauchen","einsetzen"],hint:"Ge- prefix + brauchen (to need). To make use of something you have.",sSrc:"How do you say 'to use' in German?"},
+{type:"mc",q:"Was bedeutet 'einsetzen'?",opts:["the hammer","to deploy, to use, to insert","the tool(s)","vertical, perpendicular"],ans:"to deploy, to use, to insert",hint:"Ein- (in) + setzen (to set/place). To put something into action or position."},
+{type:"fb",s:"Soll der Tisch rund oder {1} sein?",a:["eckig"],opts:["einsetzen","der Kasten","die Schachtel","eckig"],hint:"From Ecke (corner). The -ig suffix makes it an adjective: having corners.",sSrc:"Should the table be round or square?"},
+{type:"mc",q:"Was bedeutet 'senkrecht'?",opts:["the box, the packet","to put in, to insert, to be stuck","vertical, perpendicular","to deploy, to use, to insert"],ans:"vertical, perpendicular",hint:"Senken (to lower/sink) + recht (right/straight). A plumb line goes straight down."}
 ]},
 
 // ─── Lesson 7: Alles zusammen ───

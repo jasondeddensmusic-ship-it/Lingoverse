@@ -37,9 +37,9 @@ const UNIT_21 =
 {type:"fb",s:"Die Berliner {1} fiel am 9. November 1989.",a:["Mauer"],opts:["Mauer","Grenze","Freiheit","Gesellschaft"],hint:"This structure divided a city for 28 years. Its fall in 1989 changed history.",sSrc:"The Berlin Wall fell on November 9, 1989."},
 {type:"match",pairs:[{trg:"Grenze",src:"border"},{trg:"Freiheit",src:"freedom"},{trg:"Erinnerung",src:"memory"},{trg:"Vergangenheit",src:"past"}]},
 {type:"mc",q:"Leipzig wird 'Heldenstadt' genannt. Warum?",opts:["Wegen seiner vielen Burgen und Schl\u00f6sser","Wegen der friedlichen Revolution 1989","Weil es die gr\u00f6\u00dfte Stadt in Deutschland ist","Weil dort Goethe geboren wurde"],ans:"Wegen der friedlichen Revolution 1989",hint:"The peaceful demonstrations that began in Leipzig in 1989 changed German history."},
-{type:"mc",q:"Was bedeutet 'entstehen'?",opts:["to arise, to come into being","to experience","the border, the boundary","the wall"],ans:"to arise, to come into being",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"M\\u00f6chtest du mehr {1}?",a:["erleben"],opts:["erleben","national","die Mauer","die Grenze"],hint:"Which word fits in this context?",sSrc:"Would you like to experience more?"},
-{type:"mc",q:"Was bedeutet 'vor allem'?",opts:["the memory, the remembrance","to experience","above all, especially","political"],ans:"above all, especially",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'entstehen'?",opts:["to arise, to come into being","to experience","the border, the boundary","the wall"],ans:"to arise, to come into being",hint:"Ent- (out of) + stehen (to stand). Something stands forth into existence."},
+{type:"fb",s:"M\\u00f6chtest du mehr {1}?",a:["erleben"],opts:["erleben","national","die Mauer","die Grenze"],hint:"Er- + leben (to live). To live through something with your own senses.",sSrc:"Would you like to experience more?"},
+{type:"mc",q:"Was bedeutet 'vor allem'?",opts:["the memory, the remembrance","to experience","above all, especially","political"],ans:"above all, especially",hint:"Literally 'before everything.' An emphatic phrase for 'most importantly.'"}
 ]},
 
 // Lesson 2: Stimmen der Geschichte (Vocab teach, 24 steps, 18 new words)
@@ -77,9 +77,9 @@ const UNIT_21 =
 {type:"fb",s:"Die B\u00fcrger forderten {1} und Demokratie.",a:["Freiheit"],opts:["Freiheit","Gewalt","Krieg","Kampf"],hint:"The citizens marched and risked arrest to demand this. It is what authoritarian systems take away.",sSrc:"The citizens demanded freedom and democracy."},
 {type:"mc",q:"\u00d6ffentlichkeit kommt von offen. Was bedeutet \u00f6ffentlich?",opts:["open","public","official","honest"],ans:"public",hint:"What is offen (open) belongs to everyone and is visible to all."},
 {type:"match",pairs:[{trg:"Bev\u00f6lkerung",src:"population"},{trg:"Gewalt",src:"violence"},{trg:"Wahl",src:"election"},{trg:"Rede",src:"speech"}]},
-{type:"mc",q:"Was bedeutet 'die Politikerin'?",opts:["the reform","the citizen (male)","politics","the politician (female)"],ans:"the politician (female)",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Was bedeutet {1}?",a:["sozial"],opts:["die Rede","sozial","die B\\u00fcrgerin","die \\u00d6ffentlichkeit"],hint:"Which word fits in this context?",sSrc:"What does sozial mean?"},
-{type:"mc",q:"Was bedeutet 'dienen'?",opts:["to serve","the reform","the election, the choice","the population"],ans:"to serve",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'die Politikerin'?",opts:["the reform","the citizen (male)","politics","the politician (female)"],ans:"the politician (female)",hint:"Politik + -erin (feminizing suffix). The -in ending marks the word as referring to a woman."},
+{type:"fb",s:"Was bedeutet {1}?",a:["sozial"],opts:["die Rede","sozial","die B\\u00fcrgerin","die \\u00d6ffentlichkeit"],hint:"Cognate of English 'social.' Latin: socius (companion).",sSrc:"What does sozial mean?"},
+{type:"mc",q:"Was bedeutet 'dienen'?",opts:["to serve","the reform","the election, the choice","the population"],ans:"to serve",hint:"Related to English 'thane.' To work in a role for someone or something else."}
 ]},
 
 // Lesson 3: Altes Rathaus (Story dev + grammar, 24 steps, 16 new words)
@@ -119,8 +119,8 @@ const UNIT_21 =
 {type:"fb",s:"Leipzig hat {1} Geschichte.",a:["lange"],opts:["lange","langer","langem","langen"],hint:"Geschichte is feminine. Feminine Nominativ without article takes -e.",sSrc:"Leipzig has a long history."},
 {type:"mc",q:"Mia trinkt _____ Kaffee. (maskulin, Akkusativ, ohne Artikel)",opts:["starkes","starkeren","starke","starken"],ans:"starken",hint:"Masculine Akkusativ without article takes -en, matching den."},
 {type:"drag_fill",s:"Verumius trinkt {1} Tee und isst {2} Brot mit {3} Butter.",blanks:{"1":"hei\u00dfen","2":"frisches","3":"guter"},pool:["hei\u00dfen","frisches","guter","kalte","neuen","altem"],hint:"Tee is masculine Akkusativ (-en). Brot is neuter Akkusativ (-es). Butter is feminine Dativ (-er).",sSrc:"Verumius drinks hot tea and eats fresh bread with good butter."},
-{type:"mc",q:"Was bedeutet 'ewig'?",opts:["eternal","the monument, the memorial","constant(ly)","to have an effect, to seem"],ans:"eternal",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to have an effect, to seem' auf Deutsch? {1}",a:["wirken"],opts:["wirken","ver\\u00e4ndern","die Hoffnung","st\\u00e4ndig"],hint:"Which word fits in this context?",sSrc:"How do you say 'to have an effect, to seem' in German?"}
+{type:"mc",q:"Was bedeutet 'ewig'?",opts:["eternal","the monument, the memorial","constant(ly)","to have an effect, to seem"],ans:"eternal",hint:"Think of 'aye' (always). Without any end in time. Ewig und drei Tage."},
+{type:"fb",s:"Wie sagt man 'to have an effect, to seem' auf Deutsch? {1}",a:["wirken"],opts:["wirken","ver\\u00e4ndern","die Hoffnung","st\\u00e4ndig"],hint:"Related to English 'work.' To produce an effect or give an impression.",sSrc:"How do you say 'to have an effect, to seem' in German?"}
 ]},
 
 // Lesson 4: Nikolaikirche (Grammar, 24 steps, 14 new words)
@@ -159,9 +159,9 @@ const UNIT_21 =
 {type:"mc",q:"Erg\u00e4nze: trotz der _____ Situation (despite the difficult situation)",opts:["schwieriger","schwierige","schwierigem","schwierigen"],ans:"schwierigen",hint:"After der in the feminine Genitiv, the adjective always takes -en."},
 {type:"drag_fill",s:"W\u00e4hrend des {1} Krieges kannten Ost und West {2} kaum. Sie wussten wenig {3}.",blanks:{"1":"Kalten","2":"einander","3":"voneinander"},pool:["Kalten","einander","voneinander","Kalter","sich","miteinander"],hint:"First: adjective after des. Second: the unambiguous reciprocal pronoun. Third: the compound meaning 'about each other.'",sSrc:"During the Cold War, East and West barely knew each other. They knew little about each other."},
 {type:"mc",q:"Mia erz\u00e4hlt von _____ Erinnerungen. (old memories, ohne Artikel, Dativ Plural)",opts:["alten Erinnerungen","alten und neuen Erinnerungen","altes Erinnerungen","alter Erinnerungen"],ans:"alten Erinnerungen",hint:"Dativ Plural without article: the adjective takes -en, matching den."},
-{type:"mc",q:"Was bedeutet 'geschehen'?",opts:["completely","to consider, to think over","the witness (male)","to happen, to occur"],ans:"to happen, to occur",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to develop' auf Deutsch? {1}",a:["entwickeln"],opts:["der Dialekt","die Wirklichkeit","entwickeln","v\\u00f6llig"],hint:"Which word fits in this context?",sSrc:"How do you say 'to develop' in German?"},
-{type:"mc",q:"Was bedeutet 'der Dialekt'?",opts:["the dialect","the assembly, the gathering","the community","youth"],ans:"the dialect",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'geschehen'?",opts:["completely","to consider, to think over","the witness (male)","to happen, to occur"],ans:"to happen, to occur",hint:"Related to Geschichte (history). Events that take place over time."},
+{type:"fb",s:"Wie sagt man 'to develop' auf Deutsch? {1}",a:["entwickeln"],opts:["der Dialekt","die Wirklichkeit","entwickeln","v\\u00f6llig"],hint:"Ent- (un-) + wickeln (to wrap). To unwrap or unfold something new.",sSrc:"How do you say 'to develop' in German?"},
+{type:"mc",q:"Was bedeutet 'der Dialekt'?",opts:["the dialect","the assembly, the gathering","the community","youth"],ans:"the dialect",hint:"Sounds like its English equivalent. Greek: dialektos (way of speaking)."}
 ]},
 
 // Lesson 5: Hildis Fotoalbum (Vocab + review, 24 steps, 18 new words)
@@ -200,12 +200,12 @@ const UNIT_21 =
 {type:"mc",q:"Hildi sagt, sie und ihr Mann haben einander vertraut. Was bedeutet einander hier?",opts:["about themselves","always","each other","nobody"],ans:"each other",hint:"Einander is the explicitly reciprocal word, with no ambiguity."},
 {type:"fb",s:"W\u00e4hrend der {1} Jahre in der DDR erlebte Hildi viel.",a:["langen"],opts:["langen","lange","langer","langem"],hint:"After der in the Genitiv Plural, adjectives end in -en. Always.",sSrc:"During the long years in the GDR, Hildi experienced a lot."},
 {type:"drag_fill",s:"Trotz {1} Angst halfen die Nachbarn {2}. Sie zeigten {3} Mut.",blanks:{"1":"gro\u00dfer","2":"einander","3":"echten"},pool:["gro\u00dfer","einander","echten","gro\u00dfe","sich","echter"],hint:"First: adjective ending after trotz with a feminine noun and no article. Second: the unambiguous reciprocal pronoun. Third: adjective for masculine Akkusativ without article.",sSrc:"Despite great fear, the neighbors helped each other. They showed real courage."},
-{type:"mc",q:"Welches Substantiv bezeichnet den Glauben an Gott oder Götter?",opts:["religion","gender, sex, lineage","the trade union","childhood"],ans:"religion",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the trade union' auf Deutsch? {1}",a:["die Gewerkschaft"],opts:["die Gewerkschaft","die Erziehung","erziehen","die Kindheit"],hint:"Which word fits in this context?",sSrc:"How do you say 'the trade union' in German?"},
-{type:"mc",q:"Was bedeutet 'dauernd'?",opts:["constant(ly), lasting","the flight, the escape","homesickness","the experience (lived)"],ans:"constant(ly), lasting",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Was war die {1}e Wende?",a:["sogenannt"],opts:["das Geschlecht","gleichberechtigt","die Kindheit","sogenannt"],hint:"Which word fits in this context?",sSrc:"What was the so-called Wende?"},
-{type:"mc",q:"Was bedeutet 'fliehen'?",opts:["homesickness","to flee","constant(ly), lasting","the majority"],ans:"to flee",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to raise, to educate' auf Deutsch? {1}",a:["erziehen"],opts:["fliehen","das Verhalten","erziehen","das Heimweh"],hint:"Which word fits in this context?",sSrc:"How do you say 'to raise, to educate' in German?"}
+{type:"mc",q:"Welches Substantiv bezeichnet den Glauben an Gott oder Götter?",opts:["religion","gender, sex, lineage","the trade union","childhood"],ans:"religion",hint:"Latin: religare (to bind together). A system of faith and worship."},
+{type:"fb",s:"Wie sagt man 'the trade union' auf Deutsch? {1}",a:["die Gewerkschaft"],opts:["die Gewerkschaft","die Erziehung","erziehen","die Kindheit"],hint:"Gewerk (trade/craft) + -schaft. An organized body of workers.",sSrc:"How do you say 'the trade union' in German?"},
+{type:"mc",q:"Was bedeutet 'dauernd'?",opts:["constant(ly), lasting","the flight, the escape","homesickness","the experience (lived)"],ans:"constant(ly), lasting",hint:"From dauern (to last). Ongoing without interruption."},
+{type:"fb",s:"Was war die {1}e Wende?",a:["sogenannt"],opts:["das Geschlecht","gleichberechtigt","die Kindheit","sogenannt"],hint:"So (so) + genannt (called). Abbreviated sog. Used before a known label.",sSrc:"What was the so-called Wende?"},
+{type:"mc",q:"Was bedeutet 'fliehen'?",opts:["homesickness","to flee","constant(ly), lasting","the majority"],ans:"to flee",hint:"Sounds like its English equivalent. Same Germanic root. To escape from danger."},
+{type:"fb",s:"Wie sagt man 'to raise, to educate' auf Deutsch? {1}",a:["erziehen"],opts:["fliehen","das Verhalten","erziehen","das Heimweh"],hint:"Er- + ziehen (to pull/draw). To pull a child up into adulthood.",sSrc:"How do you say 'to raise, to educate' in German?"}
 ]},
 
 // Lesson 6: Du kannst ruhig du sagen (Story climax, 24 steps, 16 new words)
@@ -243,12 +243,12 @@ const UNIT_21 =
 {type:"fb",s:"Leipzig hat {1} Architektur aus verschiedenen Jahrhunderten.",a:["historische"],opts:["historische","historisch","historischer","historischem"],hint:"Architektur is feminine Akkusativ. Without article the adjective takes the strong ending -e.",sSrc:"Leipzig has historic architecture from different centuries."},
 {type:"drag_fill",s:"W\u00e4hrend {1} Zeiten half die Gemeinschaft {2}. Die B\u00fcrger zeigten {3} Mut.",blanks:{"1":"schwieriger","2":"einander","3":"gro\u00dfen"},pool:["schwieriger","einander","gro\u00dfen","schwierigen","sich","gro\u00dfer"],hint:"First: adjective ending after während with a plural noun and no article. Second: the unambiguous reciprocal pronoun. Third: adjective for masculine Akkusativ without article.",sSrc:"During difficult times the community helped each other. The citizens showed great courage."},
 {type:"mc",q:"Wenn Hildi sagt Du kannst ruhig du sagen, was passiert?",opts:["Sie erklaert, dass sie ab jetzt keine Fehler mehr akzeptiert","Sie korrigiert seinen grammatischen Fehler","Sie bietet die informelle Anrede als Zeichen des Vertrauens an","Sie bringt ihm ein neues Wort bei"],ans:"Sie bietet die informelle Anrede als Zeichen des Vertrauens an",hint:"Moving from formal to informal address marks growing closeness in German culture."},
-{type:"mc",q:"Was bedeutet 'die Vertreterin'?",opts:["by the way","representation, substitute","the representative (female)","the representative (male)"],ans:"the representative (female)",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'gold' auf Deutsch? {1}",a:["das Gold"],opts:["das Gold","\\u00fcbrigens","die Einf\\u00fchrung","die T\\u00e4tigkeit"],hint:"Which word fits in this context?",sSrc:"How do you say 'gold' in German?"},
-{type:"mc",q:"Was bedeutet 'der Gott'?",opts:["activity, occupation","the point of view","gold","God"],ans:"God",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Was bedeutet {1} in der Nikolaikirche?",a:["das Kreuz"],opts:["vorhin","das Kreuz","beeinflussen","der Standpunkt"],hint:"Which word fits in this context?",sSrc:"What does the cross in the Nikolaikirche mean?"},
-{type:"mc",q:"Was bedeutet 'die Uniform'?",opts:["by the way","pressure, print","the point of view","the uniform"],ans:"the uniform",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to influence' auf Deutsch? {1}",a:["beeinflussen"],opts:["die Erfindung","\\u00fcbrigens","beeinflussen","der Gott"],hint:"Which word fits in this context?",sSrc:"How do you say 'to influence' in German?"},
+{type:"mc",q:"Was bedeutet 'die Vertreterin'?",opts:["by the way","representation, substitute","the representative (female)","the representative (male)"],ans:"the representative (female)",hint:"From vertreten (represent) + -in. She stands in for another person."},
+{type:"fb",s:"Wie sagt man 'gold' auf Deutsch? {1}",a:["das Gold"],opts:["das Gold","\\u00fcbrigens","die Einf\\u00fchrung","die T\\u00e4tigkeit"],hint:"Same word in English and German. The precious yellow metal.",sSrc:"How do you say 'gold' in German?"},
+{type:"mc",q:"Was bedeutet 'der Gott'?",opts:["activity, occupation","the point of view","gold","God"],ans:"God",hint:"Sounds like its English equivalent. Same ancient Germanic root word."},
+{type:"fb",s:"Was bedeutet {1} in der Nikolaikirche?",a:["das Kreuz"],opts:["vorhin","das Kreuz","beeinflussen","der Standpunkt"],hint:"Related to Latin crux. The religious symbol with two crossing lines.",sSrc:"What does the cross in the Nikolaikirche mean?"},
+{type:"mc",q:"Was bedeutet 'die Uniform'?",opts:["by the way","pressure, print","the point of view","the uniform"],ans:"the uniform",hint:"Sounds like its English equivalent. Latin: uni (one) + forma (shape)."},
+{type:"fb",s:"Wie sagt man 'to influence' auf Deutsch? {1}",a:["beeinflussen"],opts:["die Erfindung","\\u00fcbrigens","beeinflussen","der Gott"],hint:"Be- + Einfluss (influence). Ein- (in) + Fluss (flow). Ideas flow in.",sSrc:"How do you say 'to influence' in German?"},
 
 {type:"fb",s:"{1}, Leipzig hat auch eine interessante Musikgeschichte.",a:["Übrigens"],opts:["Übrigens","Völlig","Ständig","Häufig"],hint:"A transitional word meaning 'by the way' to introduce a side topic.",sSrc:"By the way, Leipzig also has an interesting music history."}
 ]},

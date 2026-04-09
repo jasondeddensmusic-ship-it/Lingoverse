@@ -41,11 +41,11 @@ const UNIT_13 =
 {type:"teach",trg:"per",src:"by, via",pos:"prep",gender:null,note:"From Latin 'per' (through/by means of).\n'Per E-Mail,' 'per Post.' Formal usage.",example:"A: Wie schicke ich die Bewerbung?\nB: Per E-Mail oder per Post.\nA: Was ist besser?\nB: Die meisten Firmen bevorzugen per E-Mail.",exampleSrc:"A: How do I send the application?\nB: By email or by mail.\nA: What is better?\nB: Most companies prefer by email.",funFact:"'Per E-Mail' (by email), 'per Post' (by mail). Short, efficient, and used in formal writing. German borrowed it directly from Latin and never let go."},
 {type:"match",pairs:[{trg:"Bewerbung",src:"application"},{trg:"Lebenslauf",src:"CV/resume"},{trg:"Erfolg",src:"success"},{trg:"Karriere",src:"career"},{trg:"Eindruck",src:"impression"},{trg:"Vorbereitung",src:"preparation"}]},
 {type:"story",speaker:"yilmaz",mood:"encouraging",art:"de-vhs-office",trg:"Für morgen: schreib deinen Lebenslauf neu. Auf Deutsch. Jede Zeile. Und dann zeigst du ihn mir.",src:"For tomorrow: rewrite your CV. In German. Every line. And then you show it to me."},
-{type:"mc",q:"Was bedeutet 'die Unterlage'?",opts:["the impression","the application","to create, to produce","the document, the paperwork"],ans:"the document, the paperwork",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Was {1} Sie von diesem Job?",a:["erwarten"],opts:["das Vorstellungsgespräch","erstellen","erwarten","die Unterlage"],hint:"Which word fits in this context?",sSrc:"What do you expect from this job?"},
-{type:"mc",q:"Was bedeutet 'reagieren'?",opts:["the CV, the resume","personal","to react","to expect"],ans:"to react",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wann ist {1}?",a:["die Frist"],opts:["die Frist","korrekt","die Vorstellung","der Eindruck"],hint:"Which word fits in this context?",sSrc:"When is the deadline?"},
-{type:"mc",q:"Was bedeutet 'beachten'?",opts:["the job interview","the preparation","the application","to observe, to pay attention to"],ans:"to observe, to pay attention to",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'die Unterlage'?",opts:["the impression","the application","to create, to produce","the document, the paperwork"],ans:"the document, the paperwork",hint:"Unter (under) + Lage (layer/position). Papers that support your case."},
+{type:"fb",s:"Was {1} Sie von diesem Job?",a:["erwarten"],opts:["das Vorstellungsgespräch","erstellen","erwarten","die Unterlage"],hint:"A verb meaning 'to anticipate' or 'to look forward to'. Er- prefix + warten (to wait).",sSrc:"What do you expect from this job?"},
+{type:"mc",q:"Was bedeutet 'reagieren'?",opts:["the CV, the resume","personal","to react","to expect"],ans:"to react",hint:"Almost identical to the English cognate. Latin re- (back) + agere (to act)."},
+{type:"fb",s:"Wann ist {1}?",a:["die Frist"],opts:["die Frist","korrekt","die Vorstellung","der Eindruck"],hint:"A feminine noun for a time limit. From Old High German meaning a set period of respite.",sSrc:"When is the deadline?"},
+{type:"mc",q:"Was bedeutet 'beachten'?",opts:["the job interview","the preparation","the application","to observe, to pay attention to"],ans:"to observe, to pay attention to",hint:"Be- prefix + achten (to respect/heed). To heed or notice something with care."}
 ]},
 
 // ==================== LESSON 2: Berufe und Qualifikationen ====================
@@ -85,9 +85,9 @@ const UNIT_13 =
 {type:"match",pairs:[{trg:"Abitur",src:"high school exam"},{trg:"Lehre",src:"apprenticeship"},{trg:"Diplom",src:"university degree"},{trg:"Zertifikat",src:"certificate"},{trg:"Abschluss",src:"degree/completion"},{trg:"Fortbildung",src:"continuing education"}]},
 {type:"fb",s:"Nach dem Studium hat sie einen {1} in Informatik.",a:["Abschluss"],opts:["Abschluss","Anfang","Lehrling","Praktikant"],hint:"The word for completing your education, literally a 'closing off.'",sSrc:"After her studies she has a degree in computer science."},
 {type:"mc",q:"Weiterbildung means...",opts:["university degree","continuing education","apprenticeship","job interview"],ans:"continuing education",hint:"Break the compound word into its two parts: one means going on or onward, the other refers to developing knowledge and skills."},
-{type:"mc",q:"Was bedeutet 'der Architekt'?",opts:["the degree, the completion","professional, work-related","the architect (male)","the qualification"],ans:"the architect (male)",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the mechanic (male)' auf Deutsch? {1}",a:["der Mechaniker"],opts:["der Mechaniker","das Abitur","die Fortbildung","die Fähigkeit"],hint:"Which word fits in this context?",sSrc:"How do you say 'the mechanic (male)' in German?"},
-{type:"mc",q:"Was bedeutet 'berufstätig'?",opts:["the degree, the completion","the diploma","the high school leaving exam","employed, working"],ans:"employed, working",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'der Architekt'?",opts:["the degree, the completion","professional, work-related","the architect (male)","the qualification"],ans:"the architect (male)",hint:"A direct Greek/Latin cognate. The person who designs buildings."},
+{type:"fb",s:"Wie sagt man 'the mechanic (male)' auf Deutsch? {1}",a:["der Mechaniker"],opts:["der Mechaniker","das Abitur","die Fortbildung","die Fähigkeit"],hint:"A Latin/Greek cognate with -iker ending. The person who repairs machines.",sSrc:"How do you say 'the mechanic (male)' in German?"},
+{type:"mc",q:"Was bedeutet 'berufstätig'?",opts:["the degree, the completion","the diploma","the high school leaving exam","employed, working"],ans:"employed, working",hint:"Beruf (profession) + tätig (active/doing). Actively engaged in a profession."}
 ]},
 
 // ==================== LESSON 3: Persönliche Angaben ====================
@@ -126,8 +126,8 @@ const UNIT_13 =
 {type:"fb",s:"Wie ist Ihr {1}? Ledig oder verheiratet?",a:["Personenstand"],opts:["Personenstand","Personal","Personalie","Bereich"],hint:"The formal field on German CVs and official documents asking whether you are single, married, or divorced.",sSrc:"What is your marital status? Single or married?"},
 {type:"mc",q:"Was bedeutet 'der Bedarf' in einem beruflichen Kontext?",opts:["die Angabe","die Bedingung","der Mangel","die Nachfrage"],ans:"die Nachfrage",hint:"Think of what a company needs. 'Bei Bedarf' means 'if needed' or 'on demand.'"},
 {type:"fb",s:"Die Stelle ist {1} ausgeschrieben. Bitte bewerben Sie sich bis Freitag.",a:["offiziell"],opts:["offiziell","komplett","bestimmt","erforderlich"],hint:"The job listing has been formally published in the government gazette or company portal. Applications are now open.",sSrc:"The position is officially posted. Please apply by Friday."},
-{type:"mc",q:"Was bedeutet 'der Anspruch'?",opts:["the work, the factory","the claim, the entitlement","required, necessary","certain, specific, definitely"],ans:"the claim, the entitlement",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie groß ist {1}?",a:["das Werk"],opts:["das Personal","die Beschäftigung","das Werk","erforderlich"],hint:"Which word fits in this context?",sSrc:"How big is the factory?"},
+{type:"mc",q:"Was bedeutet 'der Anspruch'?",opts:["the work, the factory","the claim, the entitlement","required, necessary","certain, specific, definitely"],ans:"the claim, the entitlement",hint:"An- (at/to) + Spruch (saying/verdict). A formal demand or right to something."},
+{type:"fb",s:"Wie groß ist {1}?",a:["das Werk"],opts:["das Personal","die Beschäftigung","das Werk","erforderlich"],hint:"A neuter noun for a factory or large creative work. Think of major automotive plants.",sSrc:"How big is the factory?"},
 {type:"fb",s:"War die Bewerbung {1}? Ja, ich habe die Stelle bekommen!",a:"erfolgreich",opts:["erfolgreich","erforderlich","bestimmt","komplett"],hint:"This adjective means rich in success. Built from Erfolg + reich.",sSrc:"Was the application successful? Yes, I got the job!"}
 ]},
 
@@ -192,10 +192,10 @@ const UNIT_13 =
 {type:"drag_fill",s:"Ich {1} mich sehr {2}, von Ihnen zu hören.",blanks:{"1":"würde","2":"freuen"},pool:["würde","freuen","wurde","gefreut","habe","arbeiten"],hint:"A polite closing line in a cover letter. 'Would' + 'be pleased.'",sSrc:"I would be very pleased to hear from you."},
 {type:"match",pairs:[{trg:"Vollzeit",src:"full-time"},{trg:"Teilzeit",src:"part-time"},{trg:"Aushilfe",src:"temporary worker"},{trg:"Praktikant",src:"intern"},{trg:"Angestellte",src:"employee"},{trg:"Meister",src:"master craftsman"}]},
 {type:"story",speaker:"yilmaz",mood:"thoughtful",art:"de-vhs-office-desk",trg:"Dein Anschreiben klingt jetzt professionell. 'Ich würde mich freuen.' Perfekt. Aber morgen üben wir das Gespräch. Das wird der schwierige Teil.",src:"Your cover letter sounds professional now. 'I would be pleased.' Perfect. But tomorrow we practice the interview. That will be the difficult part."},
-{type:"mc",q:"Was bedeutet 'absolut'?",opts:["individual, personal","the employee (white-collar)","full-time","absolute, absolutely"],ans:"absolute, absolutely",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Sind Sie zeitlich {1}?",a:["flexibel"],opts:["die Lehrerin","flexibel","der Fachmann","die Arbeitslosigkeit"],hint:"Which word fits in this context?",sSrc:"Are you flexible with your time?"},
-{type:"mc",q:"Was bedeutet 'ideal'?",opts:["the experts (plural)","part-time","the temporary worker","ideal, perfect"],ans:"ideal, perfect",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Jede Bewerbung muss {1} sein.",a:["individuell"],opts:["individuell","das Einkommen","flexibel","die Fachfrau"],hint:"Which word fits in this context?",sSrc:"Every application must be individual."}
+{type:"mc",q:"Was bedeutet 'absolut'?",opts:["individual, personal","the employee (white-collar)","full-time","absolute, absolutely"],ans:"absolute, absolutely",hint:"A Latin cognate, same spelling and meaning as in English and French."},
+{type:"fb",s:"Sind Sie zeitlich {1}?",a:["flexibel"],opts:["die Lehrerin","flexibel","der Fachmann","die Arbeitslosigkeit"],hint:"An adjective meaning adaptable or bendable. Latin cognate, same in English.",sSrc:"Are you flexible with your time?"},
+{type:"mc",q:"Was bedeutet 'ideal'?",opts:["the experts (plural)","part-time","the temporary worker","ideal, perfect"],ans:"ideal, perfect",hint:"Greek/Latin origin. Identical spelling in English, French, and German."},
+{type:"fb",s:"Jede Bewerbung muss {1} sein.",a:["individuell"],opts:["individuell","das Einkommen","flexibel","die Fachfrau"],hint:"An adjective meaning tailored to one person. Latin cognate with -ell ending.",sSrc:"Every application must be individual."}
 ]},
 
 // ==================== LESSON 6: Experten und Kandidaten ====================
@@ -287,8 +287,8 @@ const UNIT_13 =
 {type:"drag_fill",s:"Ich {1} mich auf die Stelle und {2} gern mehr erfahren.",blanks:{"1":"bewerbe","2":"würde"},pool:["bewerbe","würde","bewarb","will","könnte","muss"],hint:"Present tense for what you are doing now, Konjunktiv II for the polite wish.",sSrc:"I am applying for the position and would like to learn more."},
 {type:"match",pairs:[{trg:"ablehnen",src:"to reject"},{trg:"annehmen",src:"to accept"},{trg:"absagen",src:"to cancel"},{trg:"auswählen",src:"to select"},{trg:"auffordern",src:"to request"},{trg:"ausbilden",src:"to train"}]},
 {type:"story",speaker:"verumius",mood:"nervous-excited",art:"de-vhs-office-desk",trg:"Verumius klickt auf 'Senden.' Stille. Dann dreht er sich zu Yilmaz. 'Das war's? Einfach so?' Yilmaz lächelt. 'Jetzt beginnt das Warten.'",src:"Verumius clicks 'Send.' Silence. Then he turns to Yilmaz. 'That's it? Just like that?' Yilmaz smiles. 'Now the waiting begins.'"},
-{type:"mc",q:"Was bedeutet 'der Beweis'?",opts:["the proof, the evidence","the advertisement","the classified ad","the presentation, the lecture"],ans:"the proof, the evidence",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1} Sie das Angebot?",a:["akzeptieren"],opts:["die Auswahl","das Inserat","die Entlassung","akzeptieren"],hint:"Which word fits in this context?",sSrc:"Do you accept the offer?"}
+{type:"mc",q:"Was bedeutet 'der Beweis'?",opts:["the proof, the evidence","the advertisement","the classified ad","the presentation, the lecture"],ans:"the proof, the evidence",hint:"Be- prefix + weisen (to show/point). Something that shows the truth of a claim."},
+{type:"fb",s:"{1} Sie das Angebot?",a:["akzeptieren"],opts:["die Auswahl","das Inserat","die Entlassung","akzeptieren"],hint:"A Latin verb cognate meaning to agree to or receive. Same root as English 'accept'.",sSrc:"Do you accept the offer?"}
 ]},
 
 // ==================== LESSON 9: Alles auf dem Prüfstand ====================
@@ -328,14 +328,14 @@ const UNIT_13 =
 {type:"match",pairs:[{trg:"Muttersprache",src:"mother tongue"},{trg:"Fremdsprache",src:"foreign language"},{trg:"Zweitsprache",src:"second language"},{trg:"fließend",src:"fluent"},{trg:"Anbieter",src:"provider"},{trg:"Beratung",src:"consulting"}]},
 {type:"mc",q:"Verumius will schreiben: 'Ich kann Ihr Team verstärken, weil ich drei Sprachen spreche.' Wie macht er den Satz höflicher?",opts:["Ich muss Ihr Team sofort verstärken, weil ich drei Sprachen spreche","Ich könnte Ihr Team verstärken, da ich drei Sprachen fließend spreche","Ich werde auf jeden Fall Ihr Team verstärken, ob ich Sprachen spreche","Ich kann Ihr Team leider nicht verstärken, denn ich spreche keine Sprachen"],ans:"Ich könnte Ihr Team verstärken, da ich drei Sprachen fließend spreche",hint:"Replace 'kann' with its Konjunktiv II form. Use 'da' instead of 'weil' for a more formal register."},
 {type:"fb",s:"Könnten Sie mir bitte {1}, wann das Gespräch stattfindet?",a:["sagen"],opts:["sagen","gesagt","sage","sagte"],hint:"Könnten Sie + Infinitiv at the end. A polite request for information.",sSrc:"Could you please tell me when the interview takes place?"},
-{type:"mc",q:"Was bedeutet 'abhängig'?",opts:["pleasant, agreeable","the second language","dependent","the driver's license (Swiss)"],ans:"dependent",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Herr Müller ist heute {1}.",a:["abwesend"],opts:["die Zweitsprache","anstellen","der Profisportler","abwesend"],hint:"Which word fits in this context?",sSrc:"Mr. Müller is absent today."},
-{type:"mc",q:"Was bedeutet 'anwesend'?",opts:["the professional athlete (female)","to exhaust, to make an effort","the provider, the supplier","present, in attendance"],ans:"present, in attendance",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1} Sie auf die Details.",a:["achten"],opts:["achten","abwesend","der Anbieter","die Mehrwertsteuer"],hint:"Which word fits in this context?",sSrc:"Pay attention to the details."},
-{type:"mc",q:"Was bedeutet 'ankündigen'?",opts:["the consulting, the advice","the mother tongue","to announce","to hire, to employ"],ans:"to announce",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wir müssen neue Computer {1}.",a:["anschaffen"],opts:["anwesend","anschaffen","die Beratung","anstrengen"],hint:"Which word fits in this context?",sSrc:"We need to purchase new computers."},
-{type:"mc",q:"Was bedeutet 'anstellen'?",opts:["pleasant, agreeable","to announce","the driver's license (Swiss)","to hire, to employ"],ans:"to hire, to employ",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to exhaust, to make an effort' auf Deutsch? {1}",a:["anstrengen"],opts:["angenehm","anstrengen","ankündigen","achten"],hint:"Which word fits in this context?",sSrc:"How do you say 'to exhaust, to make an effort' in German?"}
+{type:"mc",q:"Was bedeutet 'abhängig'?",opts:["pleasant, agreeable","the second language","dependent","the driver's license (Swiss)"],ans:"dependent",hint:"Ab- (from/off) + hängen (to hang). Literally 'hanging from' something."},
+{type:"fb",s:"Herr Müller ist heute {1}.",a:["abwesend"],opts:["die Zweitsprache","anstellen","der Profisportler","abwesend"],hint:"Ab- (away) + wesend (being). Not here, not physically at the workplace today.",sSrc:"Mr. Müller is absent today."},
+{type:"mc",q:"Was bedeutet 'anwesend'?",opts:["the professional athlete (female)","to exhaust, to make an effort","the provider, the supplier","present, in attendance"],ans:"present, in attendance",hint:"An- (at) + wesend (being). The opposite of 'abwesend'. Physically here."},
+{type:"fb",s:"{1} Sie auf die Details.",a:["achten"],opts:["achten","abwesend","der Anbieter","die Mehrwertsteuer"],hint:"A verb meaning to heed or respect. Related to Acht (attention) in 'Acht geben'.",sSrc:"Pay attention to the details."},
+{type:"mc",q:"Was bedeutet 'ankündigen'?",opts:["the consulting, the advice","the mother tongue","to announce","to hire, to employ"],ans:"to announce",hint:"An- (on/toward) + kündigen (to notify). To make something publicly known."},
+{type:"fb",s:"Wir müssen neue Computer {1}.",a:["anschaffen"],opts:["anwesend","anschaffen","die Beratung","anstrengen"],hint:"An- + schaffen (to create/produce). To procure or acquire something new.",sSrc:"We need to purchase new computers."},
+{type:"mc",q:"Was bedeutet 'anstellen'?",opts:["pleasant, agreeable","to announce","the driver's license (Swiss)","to hire, to employ"],ans:"to hire, to employ",hint:"An- + stellen (to place). To place someone into a position at a company."},
+{type:"fb",s:"Wie sagt man 'to exhaust, to make an effort' auf Deutsch? {1}",a:["anstrengen"],opts:["angenehm","anstrengen","ankündigen","achten"],hint:"An- + strengen (from streng, strict). To push oneself rigorously.",sSrc:"How do you say 'to exhaust, to make an effort' in German?"}
 ]},
 
 // ==================== LESSON 10: Die gute Nachricht ====================
