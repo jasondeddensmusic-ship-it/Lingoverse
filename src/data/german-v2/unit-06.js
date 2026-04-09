@@ -342,7 +342,7 @@ const UNIT_6 =
 {type:"fb",s:"Ich mache ein {1} bei Siemens.",a:"Praktikum",opts:["Praktikum","Prüfung","Studium","Unterricht"],hint:"This is the German word for an internship.",sSrc:"I am doing an internship at Siemens."},
 {type:"mc",q:"Which word means 'to become'?",opts:["verdienen","arbeiten","lernen","werden"],ans:"werden",hint:"This irregular verb also helps form the future tense."},
 {type:"match",pairs:[{trg:"die Prüfung",src:"the exam"},{trg:"der Schüler",src:"the pupil"},{trg:"die Stelle",src:"the position/job"},{trg:"arbeitslos",src:"unemployed"},{trg:"der Kurs",src:"the course"}]},
-{type:"mc",q:"Was bedeutet 'der Doktor'?",opts:["the student/pupil (male)","the class/classroom","self-employed/independent","the doctor/PhD"],ans:"the doctor/PhD",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'der Doktor'?",opts:["the student/pupil (male)","the class/classroom","self-employed/independent","the doctor/PhD"],ans:"the doctor/PhD",hint:"A Latin loanword (same as English). Both a medical title and an academic degree."}
 ]},
 
 {id:"deu_r6l14",title:"Stift und Papier",icon:"✏️",xp:15,board:true,steps:[
@@ -381,7 +381,7 @@ const UNIT_6 =
 {type:"fb",s:"Ich brauche einen {1} und Papier.",a:"Bleistift",opts:["Bleistift","Buchstabe","Bogen","Buch"],hint:"A writing tool made of wood with graphite inside.",sSrc:"I need a pencil and paper."},
 {type:"mc",q:"Which word means 'the topic'?",opts:["der Text","der Satz","das Wort","das Thema"],ans:"das Thema",hint:"This neuter noun comes from Greek and means subject of discussion."},
 {type:"match",pairs:[{trg:"die Zeitung",src:"the newspaper"},{trg:"das Buch",src:"the book"},{trg:"die Lösung",src:"the solution"},{trg:"die Aufgabe",src:"the task"},{trg:"der Film",src:"the film"}]},
-{type:"mc",q:"Was bedeutet 'das Papier'?",opts:["the advertisement/display","the topic/theme","the answer","the paper"],ans:"the paper",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'das Papier'?",opts:["the advertisement/display","the topic/theme","the answer","the paper"],ans:"the paper",hint:"Neuter noun from Latin 'papyrus.' The material you write and print on."}
 ]},
 
 {id:"deu_r6l15",title:"Am Telefon",icon:"📱",xp:15,board:true,steps:[
@@ -417,9 +417,9 @@ const UNIT_6 =
 {type:"fb",s:"Kannst du das bitte {1}? Ich brauche eine Kopie.",a:"drucken",opts:["drucken","drücken","benutzen","schicken"],hint:"This verb means making a paper copy with a machine.",sSrc:"Can you please print that? I need a copy."},
 {type:"mc",q:"What does 'der Empfänger' mean?",opts:["the sender","the stamp","the area code","the recipient"],ans:"the recipient",hint:"This person is on the other end of mail delivery."},
 {type:"match",pairs:[{trg:"der Absender",src:"the sender"},{trg:"die Briefmarke",src:"the stamp"},{trg:"das Gespräch",src:"the conversation"},{trg:"der Drucker",src:"the printer"},{trg:"das Lied",src:"the song"}]},
-{type:"mc",q:"Was bedeutet 'das Internet'?",opts:["to print","the printer","the favorite song","the internet"],ans:"the internet",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the favorite song' auf Deutsch? {1}",a:["das Lieblingslied"],opts:["das Lieblingslied","das Wiederhören","das Fax","das Gespräch"],hint:"Which word fits in this context?",sSrc:"How do you say 'the favorite song' in German?"},
-{type:"mc",q:"Was bedeutet 'automatisch'?",opts:["the favorite song","automatic","the sender","to use"],ans:"automatic",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'das Internet'?",opts:["to print","the printer","the favorite song","the internet"],ans:"the internet",hint:"Neuter noun. An international loanword, same spelling as English. The global network."},
+{type:"fb",s:"Wie sagt man 'the favorite song' auf Deutsch? {1}",a:["das Lieblingslied"],opts:["das Lieblingslied","das Wiederhören","das Fax","das Gespräch"],hint:"A compound: the 'Lieblings-' prefix (favorite) + 'Lied' (song). Neuter noun.",sSrc:"How do you say 'the favorite song' in German?"},
+{type:"mc",q:"Was bedeutet 'automatisch'?",opts:["the favorite song","automatic","the sender","to use"],ans:"automatic",hint:"An international adjective from Greek 'automatos.' Nearly identical spelling in English."}
 ]},
 
 {id:"deu_r6l16",title:"Was machst du so?",icon:"🎬",xp:15,board:true,steps:[
@@ -455,7 +455,7 @@ const UNIT_6 =
 {type:"fb",s:"Ich {1} heute Abend ein bisschen fern.",a:"sehe",opts:["sehe","mache","gebe","fülle"],hint:"This separable verb is about watching from far away.",sSrc:"I watch a bit of TV tonight."},
 {type:"mc",q:"'Du fehlst mir' means...",opts:["You are wrong","You are late","I miss you","I need you"],ans:"I miss you",hint:"The subject is the person who is absent, not the speaker."},
 {type:"fb",s:"Wir {1} uns morgen um zehn Uhr.",a:"treffen",opts:["treffen","machen","leben","glauben"],hint:"This irregular verb means to meet up with someone.",sSrc:"We meet tomorrow at ten o'clock."},
-{type:"mc",q:"Was bedeutet 'kümmern'?",opts:["to allow / permit","to click on","to tell / narrate","to care / take care of"],ans:"to care / take care of",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'kümmern'?",opts:["to allow / permit","to click on","to tell / narrate","to care / take care of"],ans:"to care / take care of",hint:"Reflexive: 'sich ___ um' = to look after someone or something. Related to 'Kummer' (worry)."}
 ]},
 
 {id:"deu_r6l17",title:"Zeit und Feste",icon:"🎊",xp:15,board:true,steps:[
@@ -493,9 +493,9 @@ const UNIT_6 =
 {type:"fb",s:"Herzlichen {1} zum Geburtstag!",a:"Glückwunsch",opts:["Glückwunsch","Glück","Hochzeit","Feiertag"],hint:"This compound noun combines luck and wish.",sSrc:"Happy birthday congratulations!"},
 {type:"mc",q:"Which word is the formal way to say 'spring'?",opts:["der Frühling","die Frühzeit","das Frühjahr","der Frühstart"],ans:"das Frühjahr",hint:"This compound combines 'early' with 'year.'"},
 {type:"fb",s:"Wann {1} der Kurs? Um neun Uhr.",a:"beginnt",opts:["beginnt","endet","macht","geht"],hint:"This is the formal verb for starting something.",sSrc:"When does the course begin? At nine o'clock."},
-{type:"mc",q:"Was bedeutet 'beginnen'?",opts:["to begin","the group","to congratulate","spring (formal)"],ans:"to begin",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to congratulate' auf Deutsch? {1}",a:["gratulieren"],opts:["das Jahr","gratulieren","der Wochentag","das Ende"],hint:"Which word fits in this context?",sSrc:"How do you say 'to congratulate' in German?"},
-{type:"mc",q:"Was bedeutet 'heiraten'?",opts:["to end","the group","the public holiday","to marry"],ans:"to marry",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'beginnen'?",opts:["to begin","the group","to congratulate","spring (formal)"],ans:"to begin",hint:"An irregular strong verb. Shares roots with many Germanic languages. Past: begann, begonnen."},
+{type:"fb",s:"Wie sagt man 'to congratulate' auf Deutsch? {1}",a:["gratulieren"],opts:["das Jahr","gratulieren","der Wochentag","das Ende"],hint:"From Latin 'gratulari.' You do this on birthdays: 'Herzlichen Glückwunsch!'",sSrc:"How do you say 'to congratulate' in German?"},
+{type:"mc",q:"Was bedeutet 'heiraten'?",opts:["to end","the group","the public holiday","to marry"],ans:"to marry",hint:"What couples do at a wedding. Related to 'die Heirat' (marriage). Rings and vows involved."}
 ]},
 
 {id:"deu_r6l18",title:"Noch mehr Verben",icon:"💪",xp:15,board:true,steps:[
@@ -531,8 +531,8 @@ const UNIT_6 =
 {type:"mc",q:"'Bis später' means...",opts:["Good morning","See you later","Goodbye forever","Until tomorrow"],ans:"See you later",hint:"Bis means until. Später means at a following time."},
 {type:"fb",s:"Letzte {1} war ich im Kino.",a:"Woche",opts:["Woche","Tag","Jahr","Monat"],hint:"Seven days make up this time period.",sSrc:"Last week I was at the cinema."},
 {type:"story",speaker:"narrator",mood:"content",art:"de-altbau-window-sunset",trg:"Abend. Verumius sitzt am Fenster. Warmer Tee, warmes Wasser, warme Wohnung. Draußen leuchtet Berlin. Hildi hatte Recht: am Anfang ist alles schwer. Aber danach wird es leichter. Bis zum nächsten Abenteuer.",src:"Evening. Verumius sits at the window. Warm tea, warm water, warm apartment. Outside, Berlin glows. Hildi was right: in the beginning, everything is hard. But after that, it gets easier. Until the next adventure."},
-{type:"mc",q:"Was bedeutet 'glücklich'?",opts:["football / soccer","to be gone / away","later","happy"],ans:"happy",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie war das Leben {1}?",a:["früher"],opts:["aus sein","zu sein","tot","früher"],hint:"Which word fits in this context?",sSrc:"How was life in the past?"}
+{type:"mc",q:"Was bedeutet 'glücklich'?",opts:["football / soccer","to be gone / away","later","happy"],ans:"happy",hint:"From 'Glück' (luck/happiness) + '-lich' suffix. The feeling when everything goes well."},
+{type:"fb",s:"Wie war das Leben {1}?",a:["früher"],opts:["aus sein","zu sein","tot","früher"],hint:"Comparative form of 'früh' (early). Used as an adverb meaning 'in earlier times.'",sSrc:"How was life in the past?"}
 ]}
 
 ]};

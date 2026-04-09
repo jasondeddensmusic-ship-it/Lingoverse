@@ -69,10 +69,10 @@ const UNIT_4 =
 {type:"mc",q:"What does 'Lebensmittel' literally mean?",opts:["food store","daily bread (alt.)","fresh items","means of life"],ans:"means of life",hint:"Translate each part of this compound noun separately."},
 {type:"mc",q:"'Die Tomaten _____ frisch.'",opts:["sind","ist","hat","haben"],ans:"sind",hint:"Tomaten is plural. Plural verb form needed."},
 {type:"story",speaker:"verumius",mood:"hopeful",art:"de-rewe-basket-fruit",trg:"Ich lege die gelben Dinge in den Korb. Und die roten. Und... ich weiß nicht, was das ist, aber es riecht gut.",src:"I put the yellow things in the basket. And the red ones. And... I don't know what that is, but it smells good."},
-{type:"mc",q:"Was bedeutet 'die Pommes frites'?",opts:["the fries / chips","the cucumber","the juice","the banana"],ans:"the fries / chips",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the water' auf Deutsch? {1}",a:["das Wasser"],opts:["die Pommes frites","der Schinken","das Obst","das Wasser"],hint:"Which word fits in this context?",sSrc:"How do you say 'the water' in German?"},
-{type:"mc",q:"Was bedeutet 'das Getränk'?",opts:["the drink / beverage","the banana","the fruit (collective)","the cheese"],ans:"the drink / beverage",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the food / groceries' auf Deutsch? {1}",a:["das Lebensmittel"],opts:["das Getränk","das Lebensmittel","der Käse","der Saft"],hint:"Which word fits in this context?",sSrc:"How do you say 'the food / groceries' in German?"}
+{type:"mc",q:"Was bedeutet 'die Pommes frites'?",opts:["the fries / chips","the cucumber","the juice","the banana"],ans:"the fries / chips",hint:"Borrowed from French. These fried potato sticks are a popular fast food side dish."},
+{type:"fb",s:"Wie sagt man 'the water' auf Deutsch? {1}",a:["das Wasser"],opts:["die Pommes frites","der Schinken","das Obst","das Wasser"],hint:"Neuter noun, nearly identical to the English word. You drink it every day.",sSrc:"How do you say 'the water' in German?"},
+{type:"mc",q:"Was bedeutet 'das Getränk'?",opts:["the drink / beverage","the banana","the fruit (collective)","the cheese"],ans:"the drink / beverage",hint:"Derived from 'trinken' with a 'Ge-' prefix. German often uses this pattern to make verbal nouns."},
+{type:"fb",s:"Wie sagt man 'the food / groceries' auf Deutsch? {1}",a:["das Lebensmittel"],opts:["das Getränk","das Lebensmittel","der Käse","der Saft"],hint:"A compound noun: 'Leben' (life) + 'Mittel' (means/agent). Literally 'means of life.'",sSrc:"How do you say 'the food / groceries' in German?"}
 ]},
 
 // ─── L3: Nummern, Farben, Gewichte ───
@@ -293,9 +293,9 @@ const UNIT_4 =
 {type:"match",pairs:[{trg:"das Ei",src:"egg"},{trg:"die Butter",src:"butter"},{trg:"der Reis",src:"rice"},{trg:"der Schinken",src:"ham"},{trg:"das Salz",src:"salt"}]},
 {type:"match",pairs:[{trg:"der Kaffee",src:"coffee"},{trg:"die Milch",src:"milk"},{trg:"das Brötchen",src:"bread roll"},{trg:"die Kartoffel",src:"potato"},{trg:"der Fisch",src:"fish"},{trg:"das Ei",src:"egg"}]},
 {type:"story",speaker:"verumius",mood:"determined",art:"de-rewe-entrance-return",trg:"Morgen gehe ich wieder. Diesmal mit Münze, mit Tüte, und mit einer Liste. Ich bin bereit. Glaube ich.",src:"Tomorrow I go again. This time with a coin, with a bag, and with a list. I am ready. I think."},
-{type:"mc",q:"Was bedeutet 'die Birne'?",opts:["the pear","the potato","the beer","the wine"],ans:"the pear",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the oil' auf Deutsch? {1}",a:["das Öl"],opts:["das Öl","der Kuchen","das Brötchen","das Salz"],hint:"Which word fits in this context?",sSrc:"How do you say 'the oil' in German?"},
-{type:"mc",q:"Was bedeutet 'das Glas'?",opts:["the cake","the bottle","the glass","the potato"],ans:"the glass",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'die Birne'?",opts:["the pear","the potato","the beer","the wine"],ans:"the pear",hint:"A feminine noun for a bell-shaped fruit. Also slang for 'head' or 'light bulb.'"},
+{type:"fb",s:"Wie sagt man 'the oil' auf Deutsch? {1}",a:["das Öl"],opts:["das Öl","der Kuchen","das Brötchen","das Salz"],hint:"A short neuter noun for the liquid used in cooking and engines. Note the umlaut.",sSrc:"How do you say 'the oil' in German?"},
+{type:"mc",q:"Was bedeutet 'das Glas'?",opts:["the cake","the bottle","the glass","the potato"],ans:"the glass",hint:"Neuter noun. Sounds nearly identical across many European languages. Both the material and the drinking vessel."}
 ,
 {"type":"fb","s":"Ich brauche ein {1} für das Frühstück.","a":["Ei"],"opts":["Ei","Öl","Brot","Glas"],"hint":"An oval thing that comes from a chicken.","sSrc":"I need an egg for breakfast."},
 {"type":"mc","q":"Was ist 'das Öl'?","opts":["the oil","the egg","the butter","the vinegar"],"ans":"the oil","hint":"A liquid fat used for cooking and salads."}]},
@@ -336,11 +336,11 @@ const UNIT_4 =
 {type:"teach",trg:"meist",src:"mostly / most",pos:"adv",gender:null,note:"Superlative adverb. 'Meistens' = usually/most of the time.",example:"A: Was isst du meistens?\nB: Meistens Brötchen mit Käse.",exampleSrc:"A: What do you usually eat?\nB: Mostly bread rolls with cheese.",funFact:"'Am meisten' = the most (superlative of viel). 'Meistens' = most of the time. 'Der Meister' = the master. All from the same root."},
 {type:"match",pairs:[{trg:"der Euro",src:"euro"},{trg:"der Cent",src:"cent"},{trg:"das Kilo",src:"kilogram"},{trg:"die Jacke",src:"jacket"},{trg:"der Schuh",src:"shoe"},{trg:"die Tasche",src:"bag"}]},
 {type:"story",speaker:"verumius",mood:"confident",art:"de-rewe-entrance-confident",trg:"REWE. Rote Buchstaben. Automatische Türen. Aber diesmal: eine Münze in der Tasche, eine Liste in der Hand, und ein Wort auf den Lippen. 'Guten Tag.'",src:"REWE. Red letters. Automatic doors. But this time: a coin in the pocket, a list in the hand, and a word on the lips. 'Guten Tag.'"},
-{type:"mc",q:"Was bedeutet 'der Teil'?",opts:["the million","the part / piece","mostly / most","the bank account"],ans:"the part / piece",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the vending machine / ATM' auf Deutsch? {1}",a:["der Automat"],opts:["der Automat","meist","die Million","zweihundert"],hint:"Which word fits in this context?",sSrc:"How do you say 'the vending machine / ATM' in German?"},
-{type:"mc",q:"Was bedeutet 'verkaufen'?",opts:["to sell","seventy (70)","one hundred (100)","the percent"],ans:"to sell",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Ich möchte {1}, bitte.",a:["zahlen"],opts:["der Kilometer","der Schuh","zahlen","der Automat"],hint:"Which word fits in this context?",sSrc:"I would like to pay, please."},
-{type:"mc",q:"Was bedeutet 'meist'?",opts:["mostly / most","the centimeter","the bag / pocket","the euro"],ans:"mostly / most",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'der Teil'?",opts:["the million","the part / piece","mostly / most","the bank account"],ans:"the part / piece",hint:"Masculine noun. Appears in compounds like 'Nachteil' (disadvantage) and 'Vorteil' (advantage)."},
+{type:"fb",s:"Wie sagt man 'the vending machine / ATM' auf Deutsch? {1}",a:["der Automat"],opts:["der Automat","meist","die Million","zweihundert"],hint:"From Greek meaning 'self-moving.' A machine that operates without a human operator.",sSrc:"How do you say 'the vending machine / ATM' in German?"},
+{type:"mc",q:"Was bedeutet 'verkaufen'?",opts:["to sell","seventy (70)","one hundred (100)","the percent"],ans:"to sell",hint:"'Ver-' prefix + 'kaufen' (to buy) = the opposite transaction. A shop does this."},
+{type:"fb",s:"Ich möchte {1}, bitte.",a:["zahlen"],opts:["der Kilometer","der Schuh","zahlen","der Automat"],hint:"The verb for handing over money. Related to 'die Zahl' (the number).",sSrc:"I would like to pay, please."},
+{type:"mc",q:"Was bedeutet 'meist'?",opts:["mostly / most","the centimeter","the bag / pocket","the euro"],ans:"mostly / most",hint:"Superlative adverb from 'mehr' (more). 'Meistens' = most of the time. 'Am meisten' = the most."}
 ]}
 ]};
 

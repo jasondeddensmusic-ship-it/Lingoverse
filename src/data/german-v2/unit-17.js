@@ -41,9 +41,9 @@ const UNIT_17 =
 {type:"mc",q:"Mia ruft: 'K\u00f6lle Alaaf!' Was bedeutet das?",opts:["Eine h\u00f6fliche Bitte an alle um etwas Ruhe","Eine pers\u00f6nliche Beleidigung gegen jemanden","Ein k\u00f6lnischer Karnevalsgru\u00df","Ein sehr freundlicher pers\u00f6nlicher Abschied"],ans:"Ein k\u00f6lnischer Karnevalsgru\u00df",hint:"The traditional shout of celebration specific to Cologne's carnival."},
 {type:"story",speaker:"verumius",mood:"overwhelmed",art:"de-koeln-hbf-crowd",trg:"Alles ist zu viel. Zu laut, zu bunt, zu fr\u00f6hlich. Ein Fremder im Piratenkost\u00fcm schreit mir 'Alaaf!' ins Gesicht und gibt mir eine Trommel.",src:"Everything is too much. Too loud, too colorful, too cheerful. A stranger in a pirate costume shouts 'Alaaf!' in my face and hands me a drum."},
 {type:"story",speaker:"mia",mood:"grinning",art:"de-koeln-hbf-crowd",trg:"Komm. Wir gehen rein. In den Wahnsinn. Du bist jetzt ein K\u00f6lner, Verumius.",src:"Come on. We're going in. Into the madness. You're a Cologne local now, Verumius."},
-{type:"mc",q:"Was bedeutet 'gucken'?",opts:["this time","to look, to peek","huge, enormous","the jewelry, the decoration"],ans:"to look, to peek",hint:"A colloquial North German verb for visually checking something. 'Mal guck!' = 'Have a look!'"},
+{type:"mc",q:"Was bedeutet 'gucken'?",opts:["this time","to look, to peek","huge, enormous","the jewelry, the decoration"],ans:"to look, to peek",hint:"A colloquial North German verb for using your eyes. 'Mal guck!' = 'Just check!'"},
 {type:"fb",s:"Wie sagt man 'to wave' auf Deutsch? {1}",a:["winken"],opts:["riesig","die Tradition","winken","der Hut"],hint:"A hand gesture to say hello or goodbye. English cognate: 'wink' (related motion).",sSrc:"How do you say 'to wave' in German?"},
-{type:"mc",q:"Was bedeutet 'diesmal'?",opts:["this time","huge, enormous","enthusiastic, thrilled","the tradition"],ans:"this time",hint:"Dies- (this) + Mal (occasion). Refers to the current instance, as opposed to last time."},
+{type:"mc",q:"Was bedeutet 'diesmal'?",opts:["this time","huge, enormous","enthusiastic, thrilled","the tradition"],ans:"this time",hint:"Dies- (this) + Mal (occasion). Refers to the current instance, in contrast to previous occasions."},
 {type:"fb",s:"Er hat mich freundlich {1}. Guten Tag, Herr Verumius!",a:"gegrüßt",opts:["gegrüßt","gewinkt","geguckt","gerufen"],hint:"The past participle of a verb meaning to greet someone politely.",sSrc:"He greeted me in a friendly way. Good day, Mr. Verumius!"}
 ]},
 
@@ -183,7 +183,7 @@ const UNIT_17 =
 {type:"fb",s:"Wie sagt man 'golf (the sport)' auf Deutsch? {1}",a:["das Golf"],opts:["das Golf","die Sportlerin","der Rekord","der Sieg"],hint:"An English/Scottish loanword. The sport with clubs, holes, and a small white ball.",sSrc:"How do you say 'golf (the sport)' in German?"},
 {type:"mc",q:"Was bedeutet 'der Ski'?",opts:["the record (competitive)","the toy, the toys","the ski","the start"],ans:"the ski",hint:"Norwegian loanword. Long narrow boards strapped to boots for gliding on snow."},
 {type:"fb",s:"Wie sagt man 'gymnastics' auf Deutsch? {1}",a:["die Gymnastik"],opts:["der Rekord","der Spieler","starten","die Gymnastik"],hint:"Greek cognate from 'gymnazein' (to exercise). Acrobatic floor and apparatus sport.",sSrc:"How do you say 'gymnastics' in German?"},
-{type:"mc",q:"Was bedeutet 'der Start'?",opts:["the ski","the coach (female)","golf (the sport)","the start"],ans:"the start",hint:"Sounds like its English equivalent. The opening moment of a race or competition. 'Startschuss' = starting gun."}
+{type:"mc",q:"Was bedeutet 'der Start'?",opts:["the ski","the coach (female)","golf (the sport)","the start"],ans:"the start",hint:"Sounds like its English equivalent. The signal that a race begins. The gun fires and everyone runs."}
 ]},
 
 // ─── Lesson 5: Kneipentour durch die Altstadt ─────────────────
@@ -277,7 +277,7 @@ const UNIT_17 =
 {type:"fb",s:"Die Kinder {1} nach den Bonbons!",a:["springen"],opts:["der Schauspieler","springen","die H\\u00f6rerin","das Ballett"],hint:"A strong verb for leaping into the air. English cognate: 'spring'. Up and off the ground.",sSrc:"The children jump for the candy!"},
 {type:"mc",q:"Was bedeutet 'rennen'?",opts:["the listener, the receiver","to drive, to push, to do (sport)","to climb","to run (fast)"],ans:"to run (fast)",hint:"Sounds like its English equivalent. A strong verb for sprinting at high speed on foot."},
 {type:"fb",s:"Die Kinder {1} auf die Absperrung!",a:["klettern"],opts:["klettern","die Zuschauerin","das Ballett","treiben"],hint:"A verb for going upward using hands and feet, like on a ladder or tree.",sSrc:"The children climb on the barrier!"},
-{type:"mc",q:"Was bedeutet 'treiben'?",opts:["the listener, the receiver","the type, the guy","to drive, to push, to do (sport)","the most beautiful of all"],ans:"to drive, to push, to do (sport)",hint:"Sounds like its English equivalent. Also used in the phrase 'Sport treiben' meaning to do athletic activity."},
+{type:"mc",q:"Was bedeutet 'treiben'?",opts:["the listener, the receiver","the type, the guy","to drive, to push, to do (sport)","the most beautiful of all"],ans:"to drive, to push, to do (sport)",hint:"Sounds like its English equivalent. Also used in the phrase 'treiben' meaning to do athletic activity."},
 {type:"fb",s:"{1} Sie bitte ein!",a:["treten"],opts:["allersch\\u00f6nst","treten","springen","allerbest"],hint:"A strong verb meaning to step or kick. 'Ein-' prefix = stepping inside a room.",sSrc:"Please step in!"}
 ]},
 
@@ -390,7 +390,7 @@ const UNIT_17 =
 {type:"match",pairs:[{trg:"Vergn\u00fcgen",src:"pleasure"},{trg:"Unterhaltung",src:"entertainment"},{trg:"Neuigkeit",src:"news"},{trg:"Tradition",src:"tradition"}]},
 {type:"story",speaker:"verumius",mood:"peaceful",art:"de-ice-fenster-daemmerung",trg:"N\u00e4chstes Jahr komme ich wieder. Nicht um Karneval zu sehen. Sondern um ihn zu feiern. Wie ein K\u00f6lner.",src:"Next year I'll come back. Not to see carnival. But to celebrate it. Like a local."},
 {type:"story",speaker:"narrator",mood:"closing",art:"de-ice-fenster-daemmerung",trg:"Der ICE gleitet durch die Nacht. Mia murmelt im Schlaf: 'K\u00f6lle Alaaf.' Verumius l\u00e4chelt. Irgendwann hat Deutschland aufgeh\u00f6rt, ein fremdes Land zu sein.",src:"The ICE glides through the night. Mia murmurs in her sleep: 'K\u00f6lle Alaaf.' Verumius smiles. At some point, Germany stopped being a foreign country."},
-{type:"mc",q:"Was bedeutet 'tauchen'?",opts:["colored, colorful","(prefix) of all, the very (superlative amplifier)","to watch","to dive"],ans:"to dive",hint:"Going under water. 'Taucher' = diver, 'Taucherboot' = a vessel that submerges."},
+{type:"mc",q:"Was bedeutet 'tauchen'?",opts:["colored, colorful","(prefix) of all, the very (superlative amplifier)","to watch","to dive"],ans:"to dive",hint:"Going under water. 'Taucherboot' = a vessel that submerges. Used for swimming deep."},
 {type:"fb",s:"Manche Leute {1} am Stra\\u00dfenrand.",a:["zelten"],opts:["zelten","f\\u00e4rbig","faulenzen","farbig"],hint:"From Zelt (tent). A verb meaning to sleep outdoors in a temporary shelter.",sSrc:"Some people camp on the roadside."},
 {type:"mc",q:"Was bedeutet 'zuschauen'?",opts:["to watch","to shave","colored, colorful","stylistic"],ans:"to watch",hint:"Zu- (toward) + schauen (to look). To sit and observe something happening, like a spectator."},
 {type:"fb",s:"{1} macht alles noch intensiver.",a:["aller-"],opts:["aller-","stilistisch","f\\u00e4rbig","farbig"],hint:"A superlative intensifier meaning 'of all things.' Boosts any superlative to its maximum.",sSrc:"Aller- makes everything even more intense."},

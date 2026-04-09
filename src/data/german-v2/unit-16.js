@@ -46,7 +46,7 @@ const UNIT_16 =
 {type:"mc",q:"Der Nachbar steht in der T\u00fcr, rot im Gesicht, und schreit wegen des L\u00e4rms. Welches Wort beschreibt sein Gef\u00fchl gerade?",opts:["still","ernst","blo\u00df","w\u00fctend"],ans:"w\u00fctend",hint:"This word comes from 'Wut' (rage) and means full of anger."},
 {type:"mc",q:"Was bedeutet 'schreien'?",opts:["to scream, to shout","the worry, the concern","the annoyance, the trouble","the atmosphere, the mood"],ans:"to scream, to shout",hint:"A strong verb for loud vocal expression. Think of the English cognate 'shriek'."},
 {type:"fb",s:"Kein Wort. Nur {1}.",a:["schweigen"],opts:["die Stimmung","die Bohrmaschine","\\u00e4rgerlich","schweigen"],hint:"A verb meaning to remain silent, to say nothing. The opposite of speaking.",sSrc:"Not a word. Just silence."},
-{type:"mc",q:"Was bedeutet 'klagen'?",opts:["to be silent, to stay quiet","the drill, the power drill","the worry, the concern","to complain, to sue"],ans:"to complain, to sue",hint:"Used both informally (to grumble) and legally in court. From 'Klage' (complaint/legal action)."},
+{type:"mc",q:"Was bedeutet 'klagen'?",opts:["to be silent, to stay quiet","the drill, the power drill","the worry, the concern","to complain, to sue"],ans:"to complain, to sue",hint:"Used both informally (to grumble) and legally in court. From 'Klage', a noun for grievances."},
 {type:"fb",s:"Seit wann {1} sie?",a:["streiken"],opts:["streiken","der Konflikt","die Laune","klagen"],hint:"English loanword from 'strike'. When workers refuse to work in protest.",sSrc:"Since when have they been striking?"},
 {type:"mc",q:"Das ist wirklich ___! Der Lärm geht schon seit Stunden.",opts:["ärgerlich","freundlich","verliebt","heimlich"],ans:"ärgerlich",hint:"An adjective meaning annoying or irritating. Related to Ärger (anger)."}
 ]},
@@ -381,7 +381,7 @@ const UNIT_16 =
 {type:"match",pairs:[{trg:"Gegner",src:"opponent"},{trg:"Langeweile",src:"boredom"},{trg:"stumm",src:"mute/silent"},{trg:"unglaublich",src:"unbelievable"},{trg:"bei\u00dfen",src:"to bite"},{trg:"bestrafen",src:"to punish"}]},
 {type:"mc",q:"Was bedeutet 'entlassen'?",opts:["slim","to release, to dismiss, to fire","rarely, rare","to punish"],ans:"to release, to dismiss, to fire",hint:"Ent- (away from) + lassen (to let). To let someone go from a job or hospital."},
 {type:"fb",s:"Die Nachbarn gingen {1}.",a:["auseinander"],opts:["auseinander","betrunken","unheimlich","bestrafen"],hint:"Aus (out) + einander (each other). Moving apart, going separate ways.",sSrc:"The neighbors parted ways."},
-{type:"mc",q:"Was bedeutet 'heim'?",opts:["crooked, askew","unbelievable, incredibly","home, homeward","rarely, rare"],ans:"home, homeward",hint:"The root of 'Heimat' (homeland). An adverb/prefix for returning to where you belong."},
+{type:"mc",q:"Was bedeutet 'heim'?",opts:["crooked, askew","unbelievable, incredibly","home, homeward","rarely, rare"],ans:"home, homeward",hint:"The root of 'Heimat' (one's native region). An adverb/prefix for returning to where you belong."},
 {type:"fb",s:"Wir müssen die Kosten {1}. Es gibt ein Budget.",a:"beschränken",opts:["beschränken","betrügen","beleidigen","besprechen"],hint:"A verb meaning to limit or restrict something within boundaries.",sSrc:"We need to limit the costs. There is a budget."},
 {type:"mc",q:"Er hat sie ___. Sie kann ihm nicht mehr vertrauen.",opts:["betrogen","beschränkt","beleidigt","erschreckt"],ans:"betrogen",hint:"The past participle of a verb meaning to deceive or cheat on someone."}
 ]}

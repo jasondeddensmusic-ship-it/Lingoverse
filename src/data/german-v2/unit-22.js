@@ -44,7 +44,7 @@ const UNIT_22 =
 {type:"fb",s:"Die Temperaturen {1} jedes Jahr.",a:["steigen"],opts:["steigen","sinken","reduzieren","kontrollieren"],hint:"Which verb means 'to rise'? The temperatures go up, not down.",sSrc:"The temperatures rise every year."},
 {type:"match",pairs:[{trg:"Umwelt",src:"environment"},{trg:"Klima",src:"climate"},{trg:"Energie",src:"energy"},{trg:"Durchschnitt",src:"average"}]},
 {type:"story",speaker:"narrator",mood:"satisfied",art:"de-office-presentation",trg:"Stille im Raum. Dann Applaus. Nicht perfekt, nicht fehlerfrei. Aber auf Deutsch. Ein ganzer Vortrag auf Deutsch. Verumius atmet aus. Der erste Schritt ist getan.",src:"Silence in the room. Then applause. Not perfect, not flawless. But in German. An entire presentation in German. Verumius breathes out. The first step is taken."},
-{type:"mc",q:"Was bedeutet 'das System'?",opts:["the system","the average","the environment","to rise, to climb"],ans:"the system",hint:"Sounds like its English equivalent. Greek: systema (organized whole)."},
+{type:"mc",q:"Was bedeutet 'das System'?",opts:["the system","the average","the environment","to rise, to climb"],ans:"the system",hint:"Sounds like its English equivalent. From Greek, meaning an organized whole."},
 {type:"fb",s:"Wie sagt man 'statistics' auf Deutsch? {1}",a:["die Statistik"],opts:["die Statistik","das System","reduzieren","der Umweltschutz"],hint:"Cognate of English 'statistics.' Latin: status (state of affairs).",sSrc:"How do you say 'statistics' in German?"}
 ]},
 

@@ -96,9 +96,9 @@ const UNIT_1 =
 {type:"teach",trg:"etwas",src:"something / a little",pos:"pron",gender:null,note:"Used everywhere: 'Ich möchte etwas trinken.' = I'd like something to drink.",example:"A: Möchtest du etwas essen?\nB: Ja, etwas Brot bitte.",exampleSrc:"A: Would you like something to eat?\nB: Yes, some bread please.",funFact:"'Etwas' can mean 'something' or 'a bit.' 'Etwas Wasser' = some water. 'Etwas Neues' = something new."},
 {type:"match",pairs:[{trg:"Guten Tag",src:"Good day"},{trg:"Tschüss",src:"Bye"},{trg:"Danke",src:"Thank you"},{trg:"Bitte",src:"Please"},{trg:"Ich bin...",src:"I am..."},{trg:"Wie heißen Sie?",src:"What is your name?"},{trg:"Deutschland",src:"Germany"},{trg:"gehen",src:"to go"}]},
 {type:"story",speaker:"verumius",mood:"proud",art:"de-ber-departures",trg:"Danke! Tschüss! Verumius geht zum Gleis. Er hat ein Ticket. Er kann Danke sagen. Das ist ein Anfang.",src:"Thank you! Bye! Verumius walks to the platform. He has a ticket. He can say thank you. That is a start."},
-{type:"mc",q:"Was bedeutet 'sagen'?",opts:["I am...","to say / to tell","to do / to make","of course / naturally"],ans:"to say / to tell",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to do / to make' auf Deutsch? {1}",a:["machen"],opts:["Deutschland","Ich bin...","machen","Wie heißen Sie?"],hint:"Which word fits in this context?",sSrc:"How do you say 'to do / to make' in German?"},
-{type:"mc",q:"Was bedeutet 'etwas'?",opts:["something / a little","to go (on foot)","I don't understand","Germany"],ans:"something / a little",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'sagen'?",opts:["I am...","to say / to tell","to do / to make","of course / naturally"],ans:"to say / to tell",hint:"This verb covers speaking and expressing. You do it with words and your voice."},
+{type:"fb",s:"Wie sagt man 'to do / to make' auf Deutsch? {1}",a:["machen"],opts:["Deutschland","Ich bin...","machen","Wie heißen Sie?"],hint:"The verb that rhymes with 'lachen.' It covers doing, making, and creating.",sSrc:"How do you say 'to do / to make' in German?"},
+{type:"mc",q:"Was bedeutet 'etwas'?",opts:["something / a little","to go (on foot)","I don't understand","Germany"],ans:"something / a little",hint:"A versatile pronoun: 'Ich möchte ___ trinken' = I'd like a bit to drink."}
 ]},
 
 // ─── L3: Im falschen Zug ───
@@ -325,7 +325,7 @@ const UNIT_1 =
 {type:"fb",s:"Verumius sagt: 'Ich {1} aus Italien.'",a:["komme"],opts:["komme","kommen","kommst","kommt"],hint:"What is the ich-form ending for regular verbs?",sSrc:"Verumius says: 'I come from Italy.'"},
 {type:"mc",q:"Verumius lies in bed, smiling. What will he do tomorrow in Berlin?",opts:["Take the next flight back home to Italy","Stay in bed all day and forget Germany","Give up learning and try a different hobby","Explore the city and practice more German"],ans:"Explore the city and practice more German",hint:"Verumius is tired but excited about his adventure."},
 {type:"story",speaker:"narrator",mood:"happy",art:"de-berlin-night",trg:"Er lächelt. Morgen wird er das Brandenburger Tor sehen. Morgen wird er mehr Deutsch sprechen. Aber jetzt: Gute Nacht, Berlin.",src:"He smiles. Tomorrow he will see the Brandenburg Gate. Tomorrow he will speak more German. But for now: Good night, Berlin."},
-{type:"mc",q:"Was bedeutet 'Servus'?",opts:["tomorrow","Hello / Goodbye (Southern German, Austrian)","the hostel","Good evening"],ans:"Hello / Goodbye (Southern German, Austrian)",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'Servus'?",opts:["tomorrow","Hello / Goodbye (Southern German, Austrian)","the hostel","Good evening"],ans:"Hello / Goodbye (Southern German, Austrian)",hint:"A Latin-rooted greeting popular in Bavaria and Austria. Works for both arriving and leaving."}
 ]}
 
 ,

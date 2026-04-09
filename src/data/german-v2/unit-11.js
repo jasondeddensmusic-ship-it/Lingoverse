@@ -160,7 +160,7 @@ const UNIT_11 =
 {type:"story",speaker:"opa",mood:"nostalgic",trg:"Hier, frische Brötchen für alle! Seit fünfzig Jahren kaufe ich beim gleichen Bäcker. Vor dem Krieg war der Laden noch klein. Während der Ferien backt er sogar Stollen!",src:"Here, fresh rolls for everyone! For fifty years I have been buying from the same baker. Before the war the shop was still small. During the holidays he even bakes Stollen!"},
 {type:"story",speaker:"verumius",mood:"touched",art:"de-ber-weihnachtsmarkt-broetchen",trg:"Verumius beißt in das Brötchen. Es ist frisch, weich und noch ein bisschen warm. Er sieht Heinrich an. Er sieht Hildi an. Er sagt nichts. Aber er lächelt.",src:"Verumius bites into the bread roll. It is fresh, soft, and still a little warm. He looks at Heinrich. He looks at Hildi. He says nothing. But he smiles."},
 {type:"mc",q:"Opa Heinrich says 'Seit fünfzig Jahren kaufe ich beim gleichen Bäcker.' How long has he been going to the same baker?",opts:["For five years","For fifty years","For fifteen years","Since his birthday"],ans:"For fifty years",hint:"'Fünfzig' is the German word for a number between 49 and 51."},
-{type:"mc",q:"Was bedeutet 'der Flohmarkt'?",opts:["the perfume","the flea market","to give (as a gift)","the necklace / the chain"],ans:"the flea market",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'der Flohmarkt'?",opts:["the perfume","the flea market","to give (as a gift)","the necklace / the chain"],ans:"the flea market",hint:"A compound of two nouns. Where you find secondhand goods on folding tables outdoors."}
 ]},
 
 // U11 L4: Der rote Schal - Grammar: Adjective declension (acc/dat), possessives, Konjunktiv II
@@ -487,10 +487,10 @@ const UNIT_11 =
 {type:"match",pairs:[{trg:"egal",src:"doesn't matter"},{trg:"streng",src:"strict"},{trg:"faul",src:"lazy"},{trg:"deutlich",src:"clear"},{trg:"damals",src:"back then"},{trg:"übermorgen",src:"day after tomorrow"},{trg:"üben",src:"to practice"},{trg:"zeigen",src:"to show"}]},
 {type:"tip",title:"German Christmas Traditions",text:"Weihnachten starts December 24 (Heiligabend), not December 25.\n\n- Adventskranz: 4 candles, one lit each Sunday before Christmas\n- Adventskalender: 24 doors, one per day in December\n- Nikolaus (Dec 6): shoes by the door, filled with sweets\n- Heiligabend: family dinner, gifts, church\n- Weihnachtsgans: roast goose, the traditional Christmas meal\n- Stille Nacht: world's most famous carol, written in Austria 1818",deepDive:"The Weihnachtsmarkt tradition dates to the 14th century. Dresden's Striezelmarkt (1434) is the oldest. Every city has one. Many Germans visit 5-10 different markets each season."},
 {type:"mc",q:"Walking through snow, Verumius feels:",opts:["cold and lonely walking in the dark","angry about the freezing cold weather","warm and content, like he belongs","worried about what tomorrow may bring"],ans:"warm and content, like he belongs",hint:"Bread from a friend in the bag. A glow from the market in the chest."},
-{type:"mc",q:"Was bedeutet 'aussprechen'?",opts:["strict","to pronounce","lazy","own"],ans:"to pronounce",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Hildi ist {1}, oder?",a:["blond"],opts:["blond","verschieden","deutlich","der Witz"],hint:"Which word fits in this context?",sSrc:"Hildi is blond, right?"},
-{type:"mc",q:"Was bedeutet 'einmal'?",opts:["lazy","strict","once / one time","to practice"],ans:"once / one time",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Das ist mir {1}!",a:["wurscht"],opts:["eigen","streng","wurscht","blond"],hint:"Which word fits in this context?",sSrc:"I don't care!"}
+{type:"mc",q:"Was bedeutet 'aussprechen'?",opts:["strict","to pronounce","lazy","own"],ans:"to pronounce",hint:"Aus- (out) + sprechen (to speak). To say a word out loud clearly."},
+{type:"fb",s:"Hildi ist {1}, oder?",a:["blond"],opts:["blond","verschieden","deutlich","der Witz"],hint:"A hair color adjective. Same word exists in English and French.",sSrc:"Hildi is blond, right?"},
+{type:"mc",q:"Was bedeutet 'einmal'?",opts:["lazy","strict","once / one time","to practice"],ans:"once / one time",hint:"Ein (one) + mal (instance). A single occurrence."},
+{type:"fb",s:"Das ist mir {1}!",a:["wurscht"],opts:["eigen","streng","wurscht","blond"],hint:"Bavarian slang from 'Wurst' (sausage). Means you could not care less.",sSrc:"I don't care!"}
 ]}
 
 

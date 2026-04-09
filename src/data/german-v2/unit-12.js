@@ -544,12 +544,12 @@ const UNIT_12 =
   pos:"adj",
   gender:null,src:"agreed / in agreement",example:"A: Treffen wir uns um drei?\nB: Einverstanden!\nA: Super, bis dann!",exampleSrc:"A: Shall we meet at three?\nB: Agreed!\nA: Great, see you then!",note:"Ein + verstanden (understood). 'Ich bin einverstanden' = I agree. Very formal.",funFact:"On contracts: 'Hiermit erkläre ich mich einverstanden' (I hereby declare my agreement). The most German sentence ever written."},
 {type:"story",speaker:"verumius",mood:"proud",art:"de-montage-pfand",trg:"Bewerben, beenden, sich beschweren, kündigen. Vor sechs Monaten waren das nur Wörter im Wörterbuch. Jetzt sind es Werkzeuge. Meine Werkzeuge.",src:"Apply, finish, complain, quit. Six months ago those were just words in a dictionary. Now they are tools. My tools."},
-{type:"mc",q:"Was bedeutet 'eintragen'?",opts:["agreed / in agreement","to register / to enter (data)","stressful","private"],ans:"to register / to enter (data)",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Hast du das {1}e Buch gelesen?",a:["ganz"],opts:["einverstanden","ganz","preiswert","privat"],hint:"Which word fits in this context?",sSrc:"Did you read the whole book?"},
-{type:"mc",q:"Was bedeutet 'schrecklich'?",opts:["to lie (tell an untruth)","private","terrible / dreadful","affordable / good value"],ans:"terrible / dreadful",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1}! Ich habe überall gesucht.",a:["nirgends"],opts:["schrecklich","nirgends","wenigstens","bestätigen"],hint:"Which word fits in this context?",sSrc:"Nowhere! I looked everywhere."},
-{type:"mc",q:"Was bedeutet 'wenigstens'?",opts:["to be sorry","nowhere","to pass (an exam) / to exist","at least"],ans:"at least",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1}!",a:["einverstanden"],opts:["eintragen","merken","bestehen","einverstanden"],hint:"Which word fits in this context?",sSrc:"Agreed!"}
+{type:"mc",q:"Was bedeutet 'eintragen'?",opts:["agreed / in agreement","to register / to enter (data)","stressful","private"],ans:"to register / to enter (data)",hint:"Ein- (in/into) + tragen (to carry). To carry information into a form or list."},
+{type:"fb",s:"Hast du das {1}e Buch gelesen?",a:["ganz"],opts:["einverstanden","ganz","preiswert","privat"],hint:"An adjective meaning 'entire' or 'complete'. Rhymes with 'Tanz'.",sSrc:"Did you read the whole book?"},
+{type:"mc",q:"Was bedeutet 'schrecklich'?",opts:["to lie (tell an untruth)","private","terrible / dreadful","affordable / good value"],ans:"terrible / dreadful",hint:"From Schreck (fright/shock). The -lich suffix makes it an adjective."},
+{type:"fb",s:"{1}! Ich habe überall gesucht.",a:["nirgends"],opts:["schrecklich","nirgends","wenigstens","bestätigen"],hint:"The opposite of 'überall' (everywhere). It means in no place at all.",sSrc:"Nowhere! I looked everywhere."},
+{type:"mc",q:"Was bedeutet 'wenigstens'?",opts:["to be sorry","nowhere","to pass (an exam) / to exist","at least"],ans:"at least",hint:"From wenig (little/few) + -stens (superlative). The bare minimum."},
+{type:"fb",s:"{1}!",a:["einverstanden"],opts:["eintragen","merken","bestehen","einverstanden"],hint:"A past participle used as an adjective: ein + verstanden. Signals agreement.",sSrc:"Agreed!"}
 ]}
 ,
 

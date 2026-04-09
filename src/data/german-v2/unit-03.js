@@ -130,8 +130,8 @@ const UNIT_3 =
 {type:"match",pairs:[{trg:"die Küche",src:"the kitchen"},{trg:"das Bad",src:"the bathroom"},{trg:"die Treppe",src:"the stairs"},{trg:"die Toilette",src:"the restroom"},{trg:"der Raum",src:"the room/space"}]},
 {type:"mc",q:"'Die Möbel _____ neu.'",opts:["sind","ist","hat","bist"],ans:"sind",hint:"Möbel is always plural. Which plural verb form?"},
 {type:"story",speaker:"narrator",mood:"nervous",art:"de-hildi-apartment-checklist",trg:"Hildi steht an der Wohnungstür. Sie hat eine Checkliste. 'Fenster: sauber. Boden: sauber. Kühlschrank: leer.' Sie macht ein Häkchen. Dann sieht sie Verumius an. 'Der Mietvertrag ist fertig.' Pause. 'Kommen Sie morgen um 14 Uhr. Pünktlich.' Verumius nickt. Zweimal.",src:"Hildi stands at the apartment door. She has a checklist. 'Windows: clean. Floor: clean. Fridge: empty.' She makes a check mark. Then she looks at Verumius. 'The lease is ready.' Pause. 'Come tomorrow at 2 PM. Punctual.' Verumius nods. Twice."},
-{type:"mc",q:"Was bedeutet 'der Monat'?",opts:["the floor","the month","the utility costs","the bathroom"],ans:"the month",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Können Sie das {1}?",a:["erklären"],opts:["erklären","die Küche","das Wohnzimmer","der Tisch"],hint:"Which word fits in this context?",sSrc:"Can you explain that?"}
+{type:"mc",q:"Was bedeutet 'der Monat'?",opts:["the floor","the month","the utility costs","the bathroom"],ans:"the month",hint:"A unit of time linked to lunar cycles. Latin 'mensis.' About 30 days long."},
+{type:"fb",s:"Können Sie das {1}?",a:["erklären"],opts:["erklären","die Küche","das Wohnzimmer","der Tisch"],hint:"A verb meaning to make something clear. Related to 'klar' (clear). 'Er-' prefix intensifies.",sSrc:"Can you explain that?"}
 ]},
 
 // ─── L4: Aufräumen, einziehen, umziehen ───
@@ -172,7 +172,7 @@ const UNIT_3 =
 {type:"mc",q:"'Das _____ gut _____!' (aussehen)",opts:["aussieht","sieht...an","macht...aus","sieht...aus"],ans:"sieht...aus",hint:"'That looks good.' The separable prefix goes to the final position."},
 {type:"match",pairs:[{trg:"aufräumen",src:"to tidy up"},{trg:"einziehen",src:"to move in"},{trg:"anmachen",src:"to turn on"},{trg:"ausmachen",src:"to turn off"},{trg:"vermieten",src:"to rent out"}]},
 {type:"story",speaker:"narrator",mood:"exhausted",art:"de-apartment-boxes-floor",trg:"21 Uhr. Alle Kisten sind oben. Verumius liegt auf dem Boden. Kein Bett, kein Sofa, keine Energie. Sein Handy leuchtet. Hildi: 'Die Kisten im Flur bitte bis morgen aufräumen. Gute Nacht.' Er räumt auf. In Socken.",src:"9 PM. All boxes are upstairs. Verumius lies on the floor. No bed, no sofa, no energy. His phone lights up. Hildi: 'Please tidy up the boxes in the hallway by tomorrow. Good night.' He tidies up. In socks."},
-{type:"mc",q:"Was bedeutet 'Lieblings-'?",opts:["the tree","to tidy up","to turn on / switch on","favorite (prefix)"],ans:"favorite (prefix)",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'Lieblings-'?",opts:["the tree","to tidy up","to turn on / switch on","favorite (prefix)"],ans:"favorite (prefix)",hint:"Derived from 'Liebe' (love). An intensifier you add to nouns: _____farbe, _____essen, _____film."}
 ]},
 
 // ─── L5: Alles muss raus! ───
@@ -369,9 +369,9 @@ const UNIT_3 =
 {type:"mc",q:"'Unter dem Tisch' means:",opts:["Under the table","On the table","Next to the table","Behind the table"],ans:"Under the table",hint:"'Unter' describes a position below something."},
 {type:"match",pairs:[{trg:"der Garten",src:"garden"},{trg:"der Hund",src:"dog"},{trg:"das Feuer",src:"fire"},{trg:"alt",src:"old"},{trg:"jung",src:"young"},{trg:"allein",src:"alone"}]},
 {type:"story",speaker:"narrator",mood:"satisfied",art:"de-apartment-garden-evening",trg:"Abend. Der Garten ist sauber. Das Regal steht. Die Lampe funktioniert. Verumius sitzt auf dem Balkon mit einem Bier. Unter ihm der Garten. Neben ihm die Werkzeugkiste. Hildi ruft von unten: 'Die Gartenarbeit nach 20 Uhr ist verboten!' Er trinkt schnell.",src:"Evening. The garden is clean. The shelf is standing. The lamp works. Verumius sits on the balcony with a beer. Below him the garden. Next to him the toolbox. Hildi calls from below: 'Garden work after 8 PM is forbidden!' He drinks quickly."},
-{type:"mc",q:"Was bedeutet 'reparieren'?",opts:["to repair / fix","the homework","the square meter","old"],ans:"to repair / fix",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wohin soll ich das Buch {1}?",a:["legen"],opts:["legen","reparieren","alt","der Quadratmeter"],hint:"Which word fits in this context?",sSrc:"Where should I put the book?"},
-{type:"mc",q:"Was bedeutet 'zwischen'?",opts:["between / among","to put / place (upright)","the square meter","to get up / stand up"],ans:"between / among",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'reparieren'?",opts:["to repair / fix","the homework","the square meter","old"],ans:"to repair / fix",hint:"A Latin-rooted verb. Sounds close to its French and Spanish equivalents. What a mechanic does."},
+{type:"fb",s:"Wohin soll ich das Buch {1}?",a:["legen"],opts:["legen","reparieren","alt","der Quadratmeter"],hint:"The verb for placing something flat/horizontal. Different from 'stellen' (upright).",sSrc:"Where should I put the book?"},
+{type:"mc",q:"Was bedeutet 'zwischen'?",opts:["between / among","to put / place (upright)","the square meter","to get up / stand up"],ans:"between / among",hint:"A two-way preposition for the space separating two things. Cognate with English 'betwixt.'"}
 ]},
 
 {id:"deu_r03l13",title:"Wie siehst du aus?",icon:"👤",xp:15,board:true,steps:[

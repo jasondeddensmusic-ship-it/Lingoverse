@@ -144,8 +144,7 @@ export const CSS = `
   background: linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.015) 50%, transparent 100%);
 }
 :root.dark .quiz-opt::before,
-:root.dark .lang-card::before,
-:root.dark .fc-front::before {
+:root.dark .lang-card::before {
   background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.02) 50%, transparent 100%);
 }
 :root.dark .card:hover {
@@ -187,16 +186,7 @@ export const CSS = `
   box-shadow: inset 0 2px 6px rgba(0,0,0,0.25), 0 0 20px rgba(106,171,245,0.15);
 }
 
-/* ━━━━━━ GLASS FLASHCARDS & PANELS ━━━━━━ */
-:root.dark .fc-front, :root.dark .fc-back {
-  background: var(--glass-bg);
-  backdrop-filter: blur(20px) saturate(1.2); -webkit-backdrop-filter: blur(20px) saturate(1.2);
-  border: 1.5px solid var(--glass-border);
-  box-shadow:
-    0 10px 36px rgba(0,0,0,0.35),
-    inset 0 1px 0 var(--glass-highlight),
-    inset 0 -1px 0 var(--glass-lowlight);
-}
+/* ━━━━━━ GLASS PANELS ━━━━━━ */
 :root.dark .ach-card::before {
   background: linear-gradient(180deg, rgba(255,255,255,0.06) 0%, transparent 100%);
 }
@@ -665,85 +655,6 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
 .lang-card .flag { font-size: 32px; }
 .lang-card .name { font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 13px; color: var(--gray-700); }
 .lang-card .native { font-size: 11px; color: var(--gray-400); }
-
-/* ── FLASHCARD (candy gloss + frosted glass) ── */
-.fc-wrap { perspective: 1200px; width: 100%; max-width: 420px; height: 220px; margin: 0 auto; }
-.fc-inner {
-  width: 100%; height: 100%; position: relative;
-  transition: transform 0.6s cubic-bezier(0.16,1,0.3,1);
-  transform-style: preserve-3d; cursor: pointer;
-}
-.fc-inner.flipped { transform: rotateY(180deg); }
-.fc-face {
-  position: absolute; inset: 0; border-radius: 24px;
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  backface-visibility: hidden; padding: 28px 24px; overflow: hidden;
-}
-.fc-front {
-  background: linear-gradient(180deg,
-    rgba(245,240,255,0.95) 0%,
-    rgba(237,232,255,0.9) 40%,
-    rgba(230,224,250,0.85) 100%);
-  border: 2px solid rgba(123,94,232,0.15);
-  box-shadow:
-    0 12px 40px rgba(123,94,232,0.15),
-    0 4px 12px rgba(0,0,0,0.06),
-    inset 0 2px 0 rgba(255,255,255,0.8),
-    inset 0 -3px 0 rgba(0,0,0,0.04);
-  backdrop-filter: blur(20px) saturate(1.2); -webkit-backdrop-filter: blur(20px) saturate(1.2);
-  position: relative;
-}
-/* Candy gloss shine overlay */
-.fc-front::before {
-  content: ''; position: absolute; top: 0; left: 5%; right: 5%; height: 44%;
-  border-radius: 0 0 50% 50%;
-  background: linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%);
-  pointer-events: none; z-index: 1;
-}
-.fc-back {
-  background: linear-gradient(180deg,
-    rgba(255,255,255,0.97) 0%,
-    rgba(248,245,255,0.95) 40%,
-    rgba(242,238,252,0.93) 100%);
-  border: 2px solid rgba(123,94,232,0.18);
-  transform: rotateY(180deg);
-  box-shadow:
-    0 12px 40px rgba(123,94,232,0.12),
-    0 4px 12px rgba(0,0,0,0.06),
-    inset 0 2px 0 rgba(255,255,255,0.9),
-    inset 0 -3px 0 rgba(0,0,0,0.03);
-  position: relative;
-}
-.fc-back::before {
-  content: ''; position: absolute; top: 0; left: 5%; right: 5%; height: 44%;
-  border-radius: 0 0 50% 50%;
-  background: linear-gradient(180deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 60%, transparent 100%);
-  pointer-events: none; z-index: 1;
-}
-.fc-word { font-family: 'Quicksand', 'DM Sans', sans-serif; font-size: 34px; font-weight: 800; color: var(--gray-800); margin-bottom: 6px; position: relative; z-index: 2; }
-.fc-phonetic { color: var(--gray-400); font-size: 15px; position: relative; z-index: 2; }
-.fc-cat { font-size: 11px; color: var(--purple-accent); text-transform: uppercase; letter-spacing: 2px; font-weight: 700; font-family: 'DM Sans', sans-serif; margin-bottom: 8px; position: relative; z-index: 2; }
-.fc-trans { font-family: 'Quicksand', 'DM Sans', sans-serif; font-size: 28px; font-weight: 800; color: var(--purple-accent); position: relative; z-index: 2; }
-.fc-label { color: var(--gray-400); font-size: 13px; margin-top: 10px; position: relative; z-index: 2; }
-/* Dark mode: full frosted glass */
-:root.dark .fc-front {
-  background: linear-gradient(180deg, rgba(55,45,95,0.85) 0%, rgba(40,35,75,0.8) 50%, rgba(30,28,60,0.75) 100%);
-  border-color: rgba(160,140,240,0.25);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 20px rgba(123,94,232,0.15),
-    inset 0 2px 0 rgba(255,255,255,0.12), inset 0 -3px 0 rgba(0,0,0,0.2);
-}
-:root.dark .fc-front::before {
-  background: linear-gradient(180deg, rgba(255,255,255,0.08) 0%, transparent 60%);
-}
-:root.dark .fc-back {
-  background: linear-gradient(180deg, rgba(45,40,75,0.9) 0%, rgba(35,32,65,0.85) 50%, rgba(28,26,55,0.8) 100%);
-  border-color: rgba(160,140,240,0.2);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 20px rgba(123,94,232,0.1),
-    inset 0 2px 0 rgba(255,255,255,0.1), inset 0 -3px 0 rgba(0,0,0,0.2);
-}
-:root.dark .fc-back::before {
-  background: linear-gradient(180deg, rgba(255,255,255,0.06) 0%, transparent 60%);
-}
 
 /* ── SRS REVIEW ── */
 .srs-tabs {

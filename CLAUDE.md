@@ -321,6 +321,9 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **Arabic per-bubble fix** (2026-04-07): Dialogue regex `/[AB]:\s/` → `/[ABأب]:\s/` in all 4 teach card renderers. 3,767 Arabic dialogue examples now render as per-turn bubbles.
 - **Arabic unit split sync** (2026-04-07): AR units synced from 369→558 lessons matching EN structure. `scripts/sync_ar_splits.cjs`.
 - **Arabic content audit NEEDED** (2026-04-07): Native Arabic speaker reports translations feel unnatural/textbook-stiff. Full audit of Arabic metalanguage (notes, funFacts, exampleSrc, grammar explanations) required. See `docs/SESSION_HANDOFF_2026-04-07d.md`.
+- **Flashcard UI redesign** (2026-04-09): Complete rewrite. Reveal mechanic (not flip), teach-card style matching LessonEngine exactly. Article colors, POS/gender badges, dialogue bubbles, fun facts, notes. Dead flip CSS removed. Browse + Review tabs.
+- **691 generic quiz hints fixed** (2026-04-09): All "Think about the meaning..." / "Which word fits..." hints replaced with word-specific guidance (etymology, cognates, compound breakdowns). PP8 zero violations.
+- **Storage polyfill** (2026-04-09): `window.storage` localStorage fallback in main.jsx for environments without native storage API.
 
 ### Known Blockers
 1. ~~41 lessons over 32-step cap~~ — **RESOLVED.** All 41 splits completed. Zero violations remain.
@@ -433,7 +436,8 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-08b.md`** — **Latest handoff.** Deep audit (~150 fixes, 52 files), FSRS spaced repetition engine (working, UI needs redesign), competitor benchmark, learning science analysis. All validators PASS.
+- **`docs/SESSION_HANDOFF_2026-04-09.md`** — **Latest handoff.** Flashcard UI redesign (teach-card style, reveal mechanic), 691 generic quiz hints replaced with word-specific guidance, PP8 zero violations. All validators PASS.
+- **`docs/SESSION_HANDOFF_2026-04-08b.md`** — Previous. Deep audit (~150 fixes, 52 files), FSRS spaced repetition engine (working, UI needs redesign), competitor benchmark, learning science analysis.
 - **`docs/SESSION_HANDOFF_2026-04-08.md`** — Previous. ~6,800 Arabic fixes, CEFR B2 Arabic complete, German Foundations rewrite, RTL bidi fix.
 - **`docs/SESSION_HANDOFF_2026-04-07d.md`** — Previous. Quiz interleaving, PP8/PP43/PP64 all PASS, Arabic dialogue fixed.
 - **`docs/SESSION_HANDOFF_2026-04-07c.md`** — Previous. Plumbing fixed, breathers live.
@@ -461,7 +465,7 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Check `docs/SESSION_HANDOFF_2026-04-08b.md` for latest context.
+2. Check `docs/SESSION_HANDOFF_2026-04-09.md` for latest context.
 3. Check `docs/PHASE1_WORKPLAN.md` for current work plan.
 4. Check memory files (`~/.claude/projects/.../memory/`).
 5. Before audits: follow Rule A (grep actual code, never trust docs alone).

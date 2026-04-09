@@ -107,10 +107,10 @@ const UNIT_2 =
 {type:"mc",q:"Someone says 'Du sprichst kein Deutsch.' You DO speak German. You reply:",opts:["Nein!","Ja!","Doch!","Bitte!"],ans:"Doch!",hint:"This special word contradicts a negative statement."},
 {type:"fb",s:"Entschuldigung, {1} Sie mir bitte den Weg zeigen?",a:["können"],opts:["können","müssen","dürfen","möchten"],hint:"Which modal expresses ability and polite requests?",sSrc:"Excuse me, can you please show me the way?"},
 {type:"story",speaker:"narrator",mood:"reflective",art:"de-berlin-street-afternoon",trg:"Verumius kann jetzt fragen, hören und verstehen. Langsam. Aber er versteht. Das ist der erste Schritt.",src:"Verumius can now ask, listen, and understand. Slowly. But he understands. That is the first step."},
-{type:"mc",q:"Was bedeutet 'lesen'?",opts:["next to, beside","to see","to read","to hear"],ans:"to read",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to see' auf Deutsch? {1}",a:["sehen"],opts:["mal","geben","zu","sehen"],hint:"Which word fits in this context?",sSrc:"How do you say 'to see' in German?"},
-{type:"mc",q:"Was bedeutet 'hören'?",opts:["to read","to show, to point","would like","to hear"],ans:"to hear",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1} Sie mich?",a:["verstehen"],opts:["dürfen","sehen","zeigen","verstehen"],hint:"Which word fits in this context?",sSrc:"Do you understand me?"}
+{type:"mc",q:"Was bedeutet 'lesen'?",opts:["next to, beside","to see","to read","to hear"],ans:"to read",hint:"You do this with a book or newspaper. Related to English 'lesson.'"},
+{type:"fb",s:"Wie sagt man 'to see' auf Deutsch? {1}",a:["sehen"],opts:["mal","geben","zu","sehen"],hint:"This verb for visual perception is an irregular strong verb. Ich sehe, du siehst...",sSrc:"How do you say 'to see' in German?"},
+{type:"mc",q:"Was bedeutet 'hören'?",opts:["to read","to show, to point","would like","to hear"],ans:"to hear",hint:"You do this with your ears. Think of 'Kopfhörer' (headphones)."},
+{type:"fb",s:"{1} Sie mich?",a:["verstehen"],opts:["dürfen","sehen","zeigen","verstehen"],hint:"The verb for comprehension. 'Ver-' prefix + 'stehen' (to stand) = to understand.",sSrc:"Do you understand me?"}
 ]},
 // --- L4: Der, die, das (Grammar) ---
 {id:"deu_r2l5",title:"Der, die, das",icon:"\uD83D\uDD24",xp:15,board:true,steps:[
@@ -223,8 +223,8 @@ const UNIT_2 =
 {type:"fb",s:"Können Sie mir die {1} zum Bahnhof zeigen?",a:["Richtung"],opts:["Richtung","Kreuzung","Haltestelle","Ecke"],hint:"You are asking someone to show you the direction to the station.",sSrc:"Can you show me the direction to the train station?"},
 {type:"tip",title:"Döner Culture",text:"Germany eats about 720 million Döner Kebabs per year.\nBerlin alone has over 1,600 Döner shops.\nThe German Döner was invented in Berlin in the 1970s by Turkish immigrants.\nIt is now Germany's most popular fast food, ahead of burgers and pizza."},
 {type:"story",speaker:"verumius",mood:"content",art:"de-spree-doner",trg:"Das Bürgeramt kann warten. Dieser Döner kann nicht. Manchmal ist der Umweg das Ziel.",src:"The Bürgeramt can wait. This Döner cannot. Sometimes the detour is the destination."},
-{type:"mc",q:"Was bedeutet 'der Fluss'?",opts:["to walk, to run","to get in, to board","to take","the river"],ans:"the river",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1} scheint!",a:["die Sonne"],opts:["einsteigen","laufen","die Sonne","aussteigen"],hint:"Which word fits in this context?",sSrc:"The sun is shining!"}
+{type:"mc",q:"Was bedeutet 'der Fluss'?",opts:["to walk, to run","to get in, to board","to take","the river"],ans:"the river",hint:"A flowing body of water. Related to 'fließen' (to flow). The Spree is one in Berlin."},
+{type:"fb",s:"{1} scheint!",a:["die Sonne"],opts:["einsteigen","laufen","die Sonne","aussteigen"],hint:"The bright star in our sky. Feminine noun: remember the article!",sSrc:"The sun is shining!"}
 ]},
 // --- L7: Alles zusammen! (Quiz) ---
 {id:"deu_r2l9",title:"Alles zusammen!",icon:"\uD83C\uDFC6",xp:20,board:true,steps:[
@@ -315,9 +315,9 @@ const UNIT_2 =
 {type:"fb",s:"Der Zug kommt {1}. Wir müssen warten.",a:["bald"],opts:["bald","nie","schon","wieder"],hint:"The train is arriving in the near future.",sSrc:"The train comes soon. We have to wait."},
 {type:"mc",q:"'Gehen Sie über die Brücke.' What does 'über' mean here?",opts:["over","under","next to","behind"],ans:"over",hint:"You cross something from one side to the other."},
 {type:"match",pairs:[{trg:"jetzt",src:"now"},{trg:"immer",src:"always"},{trg:"oft",src:"often"},{trg:"nie",src:"never"},{trg:"noch",src:"still"}]},
-{type:"mc",q:"Was bedeutet 'an'?",opts:["often","again","now","on, at (a surface or location)"],ans:"on, at (a surface or location)",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1} drei Uhr.",a:["gegen"],opts:["gegen","über","oft","jetzt"],hint:"Which word fits in this context?",sSrc:"Around three o'clock."},
-{type:"mc",q:"Was bedeutet 'breit'?",opts:["wide, broad","through","already","soon"],ans:"wide, broad",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'an'?",opts:["often","again","now","on, at (a surface or location)"],ans:"on, at (a surface or location)",hint:"A two-way preposition for touching contact points: 'an der Wand' (on the wall)."},
+{type:"fb",s:"{1} drei Uhr.",a:["gegen"],opts:["gegen","über","oft","jetzt"],hint:"This preposition means 'around' or 'approximately' when used with times.",sSrc:"Around three o'clock."},
+{type:"mc",q:"Was bedeutet 'breit'?",opts:["wide, broad","through","already","soon"],ans:"wide, broad",hint:"An adjective describing horizontal size. It describes a road or river, not its length."}
 ]},
 
 {id:"deu_r2l12",title:"Wo ist das?",icon:"📍",xp:15,board:true,steps:[
@@ -353,8 +353,8 @@ const UNIT_2 =
 {type:"fb",s:"Wo ist der {1}? Ich möchte rausgehen.",a:["Ausgang"],opts:["Ausgang","Eingang","Platz","Laden"],hint:"You want to leave, so you need the way out.",sSrc:"Where is the exit? I want to go outside."},
 {type:"mc",q:"Verumius asks: 'Ist dieser Platz frei?' What is he asking about?",opts:["a shop","a seat","a bakery","a platform"],ans:"a seat",hint:"This word has two meanings. Here, someone wants to sit down in a specific spot."},
 {type:"match",pairs:[{trg:"die Bäckerei",src:"bakery"},{trg:"der Kindergarten",src:"kindergarten"},{trg:"das Schwimmbad",src:"swimming pool"},{trg:"die Praxis",src:"doctor's office"},{trg:"die Mitte",src:"center"}]},
-{type:"mc",q:"Was bedeutet 'das Dorf'?",opts:["the entrance","the stop, the station","the square, the seat","the village"],ans:"the village",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'the sight, the attraction' auf Deutsch? {1}",a:["die Sehenswürdigkeit"],opts:["der Ort","der Eingang","die Praxis","die Sehenswürdigkeit"],hint:"Which word fits in this context?",sSrc:"How do you say 'the sight, the attraction' in German?"}
+{type:"mc",q:"Was bedeutet 'das Dorf'?",opts:["the entrance","the stop, the station","the square, the seat","the village"],ans:"the village",hint:"A small rural settlement, smaller than a Stadt (city). Neuter noun."},
+{type:"fb",s:"Wie sagt man 'the sight, the attraction' auf Deutsch? {1}",a:["die Sehenswürdigkeit"],opts:["der Ort","der Eingang","die Praxis","die Sehenswürdigkeit"],hint:"A famously long compound: sehen (see) + würdig (worthy) + -keit (noun suffix).",sSrc:"How do you say 'the sight, the attraction' in German?"}
 ]},
 
 {id:"deu_r2l13",title:"Unterwegs",icon:"🚌",xp:15,board:true,steps:[
@@ -393,17 +393,17 @@ const UNIT_2 =
 {type:"fb",s:"Ich gehe {1} Kino.",a:["ins"],opts:["ins","am","auf","im"],hint:"You are going INTO a neuter place.",sSrc:"I am going to the cinema."},
 {type:"mc",q:"Hamburg liegt im... ?",opts:["Süden","Norden","Osten","Westen"],ans:"Norden",hint:"This port city is near the coast of the North Sea."},
 {type:"match",pairs:[{trg:"das Fahrrad",src:"bicycle"},{trg:"die Autobahn",src:"highway"},{trg:"das Gleis",src:"track"},{trg:"die S-Bahn",src:"city train"},{trg:"der Lkw",src:"truck"}]},
-{type:"mc",q:"Was bedeutet 'hoch'?",opts:["the connection (transit)","the driver","the railway, the train","high, tall"],ans:"high, tall",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Ist der Bahnhof {1}?",a:["weit"],opts:["das Gleis","die Autobahn","weit","der Süden"],hint:"Which word fits in this context?",sSrc:"Is the train station far?"},
-{type:"mc",q:"Was bedeutet 'so'?",opts:["the north","so, such, like this","the west","the truck"],ans:"so, such, like this",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Sind {1}e da?",a:["all"],opts:["all","das Gleis","der Süden","der Norden"],hint:"Which word fits in this context?",sSrc:"Is everyone here?"},
-{type:"mc",q:"Was bedeutet 'daneben'?",opts:["the driver","next to it, beside it","so, such, like this","all, every"],ans:"next to it, beside it",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1}, im zweiten Stock.",a:["oben"],opts:["das Fahrrad","am","oben","hinten"],hint:"Which word fits in this context?",sSrc:"Upstairs, on the second floor."},
-{type:"mc",q:"Was bedeutet 'unten'?",opts:["down, below, downstairs","the tram, the streetcar","high, tall","back, backwards"],ans:"down, below, downstairs",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1}, am Fenster.",a:["hinten"],opts:["der Lkw","so","all","hinten"],hint:"Which word fits in this context?",sSrc:"At the back, by the window."},
-{type:"mc",q:"Was bedeutet 'draußen'?",opts:["the track, the platform","the tram, the streetcar","there (at a distance)","outside"],ans:"outside",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"{1}, am Ende der Straße.",a:["dort"],opts:["dort","der Süden","die Autobahn","der Norden"],hint:"Which word fits in this context?",sSrc:"There, at the end of the street."},
-{type:"mc",q:"Was bedeutet 'zurück'?",opts:["up, above, upstairs","the track, the platform","the bicycle","back, backwards"],ans:"back, backwards",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'hoch'?",opts:["the connection (transit)","the driver","the railway, the train","high, tall"],ans:"high, tall",hint:"An adjective for vertical height. Think 'Hochhaus' (skyscraper) or 'Hochzeit' (wedding)."},
+{type:"fb",s:"Ist der Bahnhof {1}?",a:["weit"],opts:["das Gleis","die Autobahn","weit","der Süden"],hint:"An adjective asking about distance. Opposite of 'nah' (near).",sSrc:"Is the train station far?"},
+{type:"mc",q:"Was bedeutet 'so'?",opts:["the north","so, such, like this","the west","the truck"],ans:"so, such, like this",hint:"A tiny but powerful adverb. Same spelling and meaning as English 'so.'"},
+{type:"fb",s:"Sind {1}e da?",a:["all"],opts:["all","das Gleis","der Süden","der Norden"],hint:"A short word meaning 'every' or 'everyone.' Same root as English 'all.'",sSrc:"Is everyone here?"},
+{type:"mc",q:"Was bedeutet 'daneben'?",opts:["the driver","next to it, beside it","so, such, like this","all, every"],ans:"next to it, beside it",hint:"A compound adverb: 'da' (there) + 'neben' (alongside). Describes a nearby position."},
+{type:"fb",s:"{1}, im zweiten Stock.",a:["oben"],opts:["das Fahrrad","am","oben","hinten"],hint:"The adverb for 'up' or 'upstairs.' Opposite of 'unten' (below).",sSrc:"Upstairs, on the second floor."},
+{type:"mc",q:"Was bedeutet 'unten'?",opts:["down, below, downstairs","the tram, the streetcar","high, tall","back, backwards"],ans:"down, below, downstairs",hint:"The directional adverb for the low end. Related to English 'under.'"},
+{type:"fb",s:"{1}, am Fenster.",a:["hinten"],opts:["der Lkw","so","all","hinten"],hint:"The adverb for 'at the back' or 'in the rear.' Related to 'hinter' (behind).",sSrc:"At the back, by the window."},
+{type:"mc",q:"Was bedeutet 'draußen'?",opts:["the track, the platform","the tram, the streetcar","there (at a distance)","outside"],ans:"outside",hint:"Where you are when you leave a building. Opposite of 'drinnen' (inside)."},
+{type:"fb",s:"{1}, am Ende der Straße.",a:["dort"],opts:["dort","der Süden","die Autobahn","der Norden"],hint:"A demonstrative adverb pointing to a location at some distance. Formal cousin of 'da.'",sSrc:"There, at the end of the street."},
+{type:"mc",q:"Was bedeutet 'zurück'?",opts:["up, above, upstairs","the track, the platform","the bicycle","back, backwards"],ans:"back, backwards",hint:"A directional adverb meaning return. 'Zu' (to) + 'rück' (rear). Also a common prefix."}
 ]},
 
 {id:"deu_r2l14",title:"Kommen und Gehen",icon:"🚶",xp:15,board:true,steps:[
@@ -438,13 +438,13 @@ const UNIT_2 =
 {type:"fb",s:"Wie lange {1} die Fahrt nach Hamburg?",a:["dauert"],opts:["dauert","bleibt","hilft","sucht"],hint:"You are asking about how much time the trip takes.",sSrc:"How long does the trip to Hamburg take?"},
 {type:"mc",q:"'Kommst du mit?' is an invitation to... ?",opts:["stay home instead","go away alone","be quiet about it","come along"],ans:"come along",hint:"The speaker wants company on their outing."},
 {type:"match",pairs:[{trg:"abholen",src:"to pick up"},{trg:"bleiben",src:"to stay"},{trg:"wandern",src:"to hike"},{trg:"suchen",src:"to search"},{trg:"helfen",src:"to help"}]},
-{type:"mc",q:"Was bedeutet 'leihen'?",opts:["to lend, to borrow","to stay, to remain","to help","to depart (by plane)"],ans:"to lend, to borrow",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to come along' auf Deutsch? {1}",a:["mitkommen"],opts:["wandern","mitkommen","grade","halten"],hint:"Which word fits in this context?",sSrc:"How do you say 'to come along' in German?"},
-{type:"mc",q:"Was bedeutet 'zeigen'?",opts:["to hold, to stop","to show","to transfer, to change (trains/buses)","to lend, to borrow"],ans:"to show",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to take along' auf Deutsch? {1}",a:["mitnehmen"],opts:["mitnehmen","abholen","auf sein","helfen"],hint:"Which word fits in this context?",sSrc:"How do you say 'to take along' in German?"},
-{type:"mc",q:"Was bedeutet 'weiterfahren'?",opts:["to continue driving, to drive on","to lend, to borrow","to hold, to stop","to hike"],ans:"to continue driving, to drive on",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Wie sagt man 'to be open' auf Deutsch? {1}",a:["auf sein"],opts:["weiterfahren","abfliegen","zeigen","auf sein"],hint:"Which word fits in this context?",sSrc:"How do you say 'to be open' in German?"},
-{type:"mc",q:"Was bedeutet 'grade'?",opts:["to stand","to last, to take (time)","just, right now (colloquial)","to stay, to remain"],ans:"just, right now (colloquial)",hint:"Think about the meaning of this word in context."}
+{type:"mc",q:"Was bedeutet 'leihen'?",opts:["to lend, to borrow","to stay, to remain","to help","to depart (by plane)"],ans:"to lend, to borrow",hint:"A verb for temporary exchange of objects. Think of a 'Leihwagen' (rental car)."},
+{type:"fb",s:"Wie sagt man 'to come along' auf Deutsch? {1}",a:["mitkommen"],opts:["wandern","mitkommen","grade","halten"],hint:"A separable verb: 'mit' (with/along) + 'kommen' (to come). 'Kommst du mit?'",sSrc:"How do you say 'to come along' in German?"},
+{type:"mc",q:"Was bedeutet 'zeigen'?",opts:["to hold, to stop","to show","to transfer, to change (trains/buses)","to lend, to borrow"],ans:"to show",hint:"You point your finger and do this. Related to 'der Zeiger' (pointer/hand on a clock)."},
+{type:"fb",s:"Wie sagt man 'to take along' auf Deutsch? {1}",a:["mitnehmen"],opts:["mitnehmen","abholen","auf sein","helfen"],hint:"A separable verb: 'mit' (with/along) + 'nehmen' (to take). Pack it and bring it!",sSrc:"How do you say 'to take along' in German?"},
+{type:"mc",q:"Was bedeutet 'weiterfahren'?",opts:["to continue driving, to drive on","to lend, to borrow","to hold, to stop","to hike"],ans:"to continue driving, to drive on",hint:"A separable compound: 'weiter' (further) + 'fahren' (to go by vehicle). Keep going!"},
+{type:"fb",s:"Wie sagt man 'to be open' auf Deutsch? {1}",a:["auf sein"],opts:["weiterfahren","abfliegen","zeigen","auf sein"],hint:"Two words: a directional prefix meaning 'open/up' + the verb 'to be.' A shop can be this.",sSrc:"How do you say 'to be open' in German?"},
+{type:"mc",q:"Was bedeutet 'grade'?",opts:["to stand","to last, to take (time)","just, right now (colloquial)","to stay, to remain"],ans:"just, right now (colloquial)",hint:"Informal shortening of 'gerade.' Describes something happening at this very moment."}
 ]},
 
 {id:"deu_r2l15",title:"Rund um die Stadt",icon:"🏙️",xp:15,board:true,steps:[
@@ -482,10 +482,10 @@ const UNIT_2 =
 {type:"fb",s:"Was kostet der {1}?",a:["Eintritt"],opts:["Eintritt","Ausflug","Blick","Prospekt"],hint:"You want to know the price to get into a place.",sSrc:"How much does the admission cost?"},
 {type:"mc",q:"What does 'Vorsicht!' mean when you see it on a sign?",opts:["Welcome!","Caution!","Exit!","Open!"],ans:"Caution!",hint:"This word warns you to be careful about something."},
 {type:"match",pairs:[{trg:"das Foto",src:"photo"},{trg:"die Karte",src:"map/ticket"},{trg:"das Schild",src:"sign"},{trg:"die Hilfe",src:"help"},{trg:"das Meer",src:"sea"}]},
-{type:"mc",q:"Was bedeutet 'das Reisebüro'?",opts:["everything","the information, the information desk","the sign","the travel agency"],ans:"the travel agency",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Ja, {1} empfiehlt dieses Lokal.",a:["der Reiseführer"],opts:["der Ausflug","die Karte","der Reiseführer","die Vorsicht"],hint:"Which word fits in this context?",sSrc:"Yes, the guide recommends this restaurant."},
-{type:"mc",q:"Was bedeutet 'ander'?",opts:["the view, the glance","the information, the information desk","other, different","the travel guide (book or person)"],ans:"other, different",hint:"Think about the meaning of this word in context."},
-{type:"fb",s:"Hast du {1}?",a:["alles"],opts:["alles","die Vorsicht","die Auskunft","das Beispiel"],hint:"Which word fits in this context?",sSrc:"Do you have everything?"}
+{type:"mc",q:"Was bedeutet 'das Reisebüro'?",opts:["everything","the information, the information desk","the sign","the travel agency"],ans:"the travel agency",hint:"A compound: 'Reise' (journey) + 'Büro' (office). Where you book trips."},
+{type:"fb",s:"Ja, {1} empfiehlt dieses Lokal.",a:["der Reiseführer"],opts:["der Ausflug","die Karte","der Reiseführer","die Vorsicht"],hint:"A person or book that leads travelers. Compound: Reise (travel) + Führer (guide).",sSrc:"Yes, the guide recommends this restaurant."},
+{type:"mc",q:"Was bedeutet 'ander'?",opts:["the view, the glance","the information, the information desk","other, different","the travel guide (book or person)"],ans:"other, different",hint:"This adjective marks a distinction from what was just mentioned. Used as 'ein anderer' (one more, one else)."},
+{type:"fb",s:"Hast du {1}?",a:["alles"],opts:["alles","die Vorsicht","die Auskunft","das Beispiel"],hint:"The neuter singular form of 'all.' Means 'everything' as a standalone pronoun.",sSrc:"Do you have everything?"}
 ]}
 ]};
 

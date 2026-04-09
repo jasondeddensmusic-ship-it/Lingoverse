@@ -173,7 +173,7 @@ const UNIT_18 =
 {type:"match",pairs:[{trg:"darauf",src:"on it / for it"},{trg:"dar\u00fcber",src:"about it"},{trg:"daran",src:"of it / to it"},{trg:"daf\u00fcr",src:"for it (purpose)"}]},
 {type:"mc",q:"Was bedeutet 'spitz'?",opts:["sharp, pointed","biological, organic","the rental, the letting","the liquid, the fluid"],ans:"sharp, pointed",hint:"Describes a narrow, tapering end. Think of a pencil tip or a church steeple."},
 {type:"fb",s:"Deutsche {1} viel Bier.",a:["konsumieren"],opts:["mager","die Vermietung","der Konsum","konsumieren"],hint:"Latin cognate of English 'consume'. A formal verb for using up food, drink, or goods.",sSrc:"Germans consume a lot of beer."},
-{type:"mc",q:"Was bedeutet 'heben'?",opts:["the opening, the inauguration","to lift, to raise","sharp, pointed","the consumption"],ans:"to lift, to raise",hint:"A strong verb for raising something. 'Gewichtheben' = weightlifting."},
+{type:"mc",q:"Was bedeutet 'heben'?",opts:["the opening, the inauguration","to lift, to raise","sharp, pointed","the consumption"],ans:"to lift, to raise",hint:"A strong verb for moving something upward by force. 'Gewicht_____' = the sport of hoisting heavy things."},
 {type:"fb",s:"Kannst du das Problem {1}?",a:"lösen",opts:["lösen","heben","konsumieren","mischen"],hint:"A verb meaning to solve, dissolve, or resolve a difficulty.",sSrc:"Can you solve the problem?"}
 ]},
 
@@ -296,7 +296,7 @@ const UNIT_18 =
 {type:"mc",q:"'_____ wartet Verumius?' -- 'Auf den Kellner. Er wartet _____.'",opts:["Worauf...darauf","Woran...daran","Wof\u00fcr...daf\u00fcr","Wor\u00fcber...dar\u00fcber"],ans:"Worauf...darauf",hint:"'Warten AUF' is the fixed combo. Question = wo + auf. Answer = da + auf."},
 {type:"drag_fill",s:"{1} wir im Biergarten sa\u00dfen, rief Heinrich an. Er bestand {2}, dass wir Spargel bestellen.",blanks:{"1":"Als","2":"darauf"},pool:["Als","Wenn","darauf","dar\u00fcber","daran","Weil"],hint:"First blank: one specific past moment (als vs. wenn). Second blank: bestehen takes a fixed preposition. Replace 'auf etwas' with the da-compound.",sSrc:"When we were sitting in the beer garden, Heinrich called. He insisted that we order asparagus."},
 {type:"mc",q:"Was bedeutet 'au'?",opts:["every time","ouch, ow","the caretaker (Swiss)","on the side, incidentally, by the way"],ans:"ouch, ow",hint:"A short exclamation of pain. Universal across German dialects. Think: stubbing your toe."},
-{type:"fb",s:"Wie sagt man 'the lightning, the flash' auf Deutsch? {1}",a:["der Blitz"],opts:["halt","der Blitz","der Abwart","der Abt"],hint:"The bright flash in the sky during a thunderstorm. Also appears in compound words for speed.",sSrc:"How do you say 'the lightning, the flash' in German?"}
+{type:"fb",s:"Wie sagt man 'the lightning, the flash' auf Deutsch? {1}",a:["der Blitz"],opts:["halt","der Blitz","der Abwart","der Abt"],hint:"The bright flash in the sky during a storm. Also appears in compound words for speed.",sSrc:"How do you say 'the lightning, the flash' in German?"}
 ]},
 
 // ─── Lesson 8: Der Nachhauseweg ─────────────────────────────────────
