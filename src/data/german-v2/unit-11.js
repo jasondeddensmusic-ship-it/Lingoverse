@@ -6,9 +6,6 @@ const UNIT_11 =
 {id:"deu_r11l1",title:"Gendarmenmarkt",icon:"🎄",xp:15,board:true,steps:[
 {type:"intro",title:"Gendarmenmarkt",desc:"Dusk falls over Berlin's most beautiful Christmas market. Golden lights, wooden stalls, the smell of Glühwein and roasted almonds. Hildi pulls Verumius into the crowd.",goals:["Learn 10 winter and Christmas market words","See adjective endings in real sentences","Discover German Weihnachtsmarkt culture"]},
 
-{type:"story",speaker:"narrator",mood:"enchanted",art:"de-ber-gendarmenmarkt-dusk",trg:"Berlin, Dezember. Die Sonne ist seit einer Stunde weg. Aber der Gendarmenmarkt leuchtet. Goldene Lichter an jeder Holzbude, Dampf über den Ständen, der Geruch von gebrannten Mandeln in der kalten Luft.",src:"Berlin, December. The sun has been gone for an hour. But the Gendarmenmarkt glows. Golden lights on every wooden stall, steam over the stands, the smell of roasted almonds in the cold air."},
-{type:"story",speaker:"hildi",mood:"proud",art:"de-ber-gendarmenmarkt-entrance",trg:"Das ist er. Der schönste Weihnachtsmarkt in ganz Berlin. Ich komme seit dreißig Jahren hierher.",src:"This is it. The most beautiful Christmas market in all of Berlin. I have been coming here for thirty years."},
-{type:"story",speaker:"verumius",mood:"overwhelmed",art:"de-ber-gendarmenmarkt-lights",trg:"So viele Lichter. So viele Menschen. Und dieser Geruch. Was ist das?",src:"So many lights. So many people. And that smell. What is that?"},
 {type:"teach",trg:"das Weihnachten",
   pos:"noun",src:"Christmas",phonetic:"VYE-nakh-ten",gender:"n",example:"A: Was machst du an Weihnachten?\nB: Ich besuche meine Familie.\nA: Das klingt schön!",exampleSrc:"A: What are you doing at Christmas?\nB: I am visiting my family.\nA: That sounds lovely!",note:"das Weihnachten (neuter). Often used without article: 'an Weihnachten' or 'zu Weihnachten.' Compound: Weih (holy) + Nachten (nights).",funFact:"Germany celebrates on Heiligabend (Christmas Eve, Dec 24), not Dec 25. Gifts are opened in the evening, often after church. The 25th and 26th are quiet family days."},
 {type:"teach",trg:"der Schnee",
@@ -45,16 +42,11 @@ const UNIT_11 =
 {type:"match",pairs:[{trg:"der Schnee",src:"the snow"},{trg:"die Wolke",src:"the cloud"},{trg:"der Himmel",src:"the sky"},{trg:"die Postkarte",src:"the postcard"},{trg:"die Schokolade",src:"the chocolate"},{trg:"die Rose",src:"the rose"}]},
 
 {type:"tip",title:"Sneak Peek: Adjective Endings",text:"You saw phrases like 'der warme Glühwein', 'die dunklen Wolken', 'der goldene Ring'.\n\nNotice the endings on the adjectives: warm-E, dunkel-N, golden-E.\n\nGerman adjectives change their endings depending on gender, case, and article. This is called adjective declension.\n\nDo not memorize rules yet. Just notice the patterns. You will learn the system step by step in coming lessons.",deepDive:"Adjective declension is one of German's trickiest grammar topics. There are three declension patterns (strong, weak, mixed) depending on what comes before the adjective. For now, just get used to hearing 'der warme', 'die schöne', 'das frische' as natural chunks."},
-{type:"mc",q:"Hildi sagt: 'Der Gendarmenmarkt hat den schönsten Weihnachtsmarkt in Berlin.' What does she mean?",opts:["Gendarmenmarkt has the most beautiful Christmas market in Berlin","Gendarmenmarkt has the biggest Christmas market in Berlin","Gendarmenmarkt has the most historic and oldest Christmas market in Berlin","Gendarmenmarkt has the cheapest Christmas market in Berlin"],ans:"Gendarmenmarkt has the most beautiful Christmas market in Berlin",hint:"'schön' is an adjective in its highest form (superlative) here."},
-{type:"story",speaker:"verumius",mood:"curious-warm",art:"de-ber-gendarmenmarkt-crowd",trg:"Hildi? Danke, dass du mich mitgenommen hast. Ich habe so etwas noch nie gesehen.",src:"Hildi? Thank you for bringing me along. I have never seen anything like this."},
-{type:"story",speaker:"hildi",mood:"gentle",art:"de-ber-gendarmenmarkt-snow",trg:"Der Abend hat gerade erst angefangen, mein Junge. Wir warten noch auf jemanden.",src:"The evening has only just begun, my boy. We are still waiting for someone."}
-]},
+{type:"mc",q:"Hildi sagt: 'Der Gendarmenmarkt hat den schönsten Weihnachtsmarkt in Berlin.' What does she mean?",opts:["Gendarmenmarkt has the most beautiful Christmas market in Berlin","Gendarmenmarkt has the biggest Christmas market in Berlin","Gendarmenmarkt has the most historic and oldest Christmas market in Berlin","Gendarmenmarkt has the cheapest Christmas market in Berlin"],ans:"Gendarmenmarkt has the most beautiful Christmas market in Berlin",hint:"'schön' is an adjective in its highest form (superlative) here."}]},
 
 {id:"deu_r11l2",title:"Was ziehe ich an?",icon:"🧣",xp:15,board:true,steps:[
 {type:"intro",title:"Was ziehe ich an?",desc:"It's cold at the Christmas market! Learn the most important clothing items for winter.",goals:["14 clothing words with their articles","Talk about clothing","Dress for cold weather"]},
 
-{type:"story",speaker:"narrator",mood:"playful",art:"de-ber-gendarmenmarkt-cold",trg:"Es ist minus drei Grad. Verumius trägt eine dünne Jacke und keine Mütze. Hildi sieht ihn an. Langsam. Von oben nach unten.",src:"It is minus three degrees. Verumius is wearing a thin jacket and no hat. Hildi looks at him. Slowly. From top to bottom."},
-{type:"story",speaker:"hildi",mood:"disapproving",art:"de-ber-clothing-lecture",trg:"Nein. Nein, nein, nein. So gehst du nicht auf den Weihnachtsmarkt. Wo ist dein Schal? Wo ist deine Mütze?",src:"No. No, no, no. You are not going to the Christmas market like this. Where is your scarf? Where is your hat?"},
 {type:"teach",trg:"der Mantel",
   pos:"noun",src:"the coat",gender:"m",phonetic:"MAN-tel",example:"A: Es ist so kalt draußen!\nB: Zieh deinen Mantel an!",exampleSrc:"A: It's so cold outside!\nB: Put your coat on!",note:"der Mantel, masculine. Plural: die Mäntel.",funFact:"German Christmas markets run from late November to December 23rd, so a warm Mantel is essential."},
 {type:"teach",trg:"die Mütze",
@@ -96,10 +88,7 @@ const UNIT_11 =
 {type:"match",pairs:[{trg:"der Mantel",src:"the coat"},{trg:"die Mütze",src:"the beanie"},{trg:"der Stiefel",src:"the boot"},{trg:"die Hose",src:"the pants"},{trg:"das Kleid",src:"the dress"},{trg:"die Brille",src:"the glasses"}]},
 
 {type:"mc",q:"Welches Kleidungsstück ist immer Neutrum (das)?",opts:["der Mantel und der Rock","das Hemd und das Kleid","die Hose und die Jeans","die Bluse und die Mütze"],ans:"das Hemd und das Kleid",hint:"Look for the neuter articles among the clothing words you learned."},
-{type:"fb",s:"Kleider machen {1}.",a:"Leute",opts:["Leute","Kleider","Schuhe","Sachen"],hint:"A famous proverb about how clothes affect perception of people.",sSrc:"Clothes make people."},
-{type:"story",speaker:"hildi",mood:"satisfied",art:"de-ber-verumius-bundled",trg:"So. Mantel, Mütze, Schal, Handschuhe. Jetzt siehst du aus wie ein Berliner im Winter.",src:"There. Coat, hat, scarf, gloves. Now you look like a Berliner in winter."},
-{type:"story",speaker:"verumius",mood:"sheepish",art:"de-ber-gendarmenmarkt-warm",trg:"Ich kann meine Arme nicht mehr bewegen, Hildi.",src:"I can no longer move my arms, Hildi."}
-]},
+{type:"fb",s:"Kleider machen {1}.",a:"Leute",opts:["Leute","Kleider","Schuhe","Sachen"],hint:"A famous proverb about how clothes affect perception of people.",sSrc:"Clothes make people."}]},
 
 // Unit 11, Lesson 3: Opa Heinrichs Brötchen
 // Story dev + grammar intro: adjective declension (nominative) + temporal prepositions
@@ -107,10 +96,6 @@ const UNIT_11 =
 
 {id:"deu_r11l3",title:"Opa Heinrichs Brötchen",icon:"🍞",xp:15,board:true,steps:[
 {type:"intro",title:"Opa Heinrichs Brötchen",desc:"A man in a wool coat and flat cap appears at the Weihnachtsmarkt. He has bread from this morning and opinions about everything. Meet Opa Heinrich.",goals:["Learn 8 new words for gifts and shopping","Understand adjective endings in nominative case","Use temporal prepositions to talk about time"]},
-{type:"story",speaker:"narrator",mood:"anticipating",art:"de-ber-weihnachtsmarkt-bench",trg:"Hildi bleibt an einer Bank neben dem Bratwurststand stehen. Sie schaut in die Menge, als ob sie jemanden sucht. Dann lächelt sie.",src:"Hildi stops at a bench near the bratwurst stand. She looks into the crowd as if searching for someone. Then she smiles."},
-{type:"story",speaker:"narrator",mood:"warm",art:"de-weihnachtsmarkt-opa",trg:"Ein alter Mann kommt langsam durch die Menge. Wollmantel, Schiebermütze, eine Tüte Brötchen unter dem Arm. Er sieht Hildi und winkt. 'Von heute Morgen,' sagt er und hält die Tüte hoch. 'Noch frisch!'",src:"An old man comes slowly through the crowd. Wool coat, flat cap, a bag of bread rolls under his arm. He sees Hildi and waves. 'From this morning,' he says, holding up the bag. 'Still fresh!'"},
-{type:"story",speaker:"hildi",mood:"proud",trg:"Verumius, das ist mein Opa Heinrich. Opa, das ist Verumius. Er lernt Deutsch.",src:"Verumius, this is my grandpa Heinrich. Grandpa, this is Verumius. He is learning German."},
-{type:"story",speaker:"opa",mood:"welcoming",trg:"Ah, der neue Freund! Hier, nimm ein frisches Brötchen. Nach dem Frühstück habe ich noch zehn übrig. Vor einer Stunde waren es zwölf.",src:"Ah, the new friend! Here, take a fresh bread roll. After breakfast I still had ten left. An hour ago there were twelve."},
 {type:"teach",trg:"die Kette",
   pos:"noun",
   gender:"f",src:"the necklace / the chain",note:"Feminine noun. Plural: die Ketten.",example:"A: Die goldene Kette ist schön!\nB: Ja, die ist seit gestern im Angebot.",exampleSrc:"A: The golden necklace is beautiful!\nB: Yes, it has been on sale since yesterday.",funFact:"'Kette' means both 'necklace' and 'chain.' A bicycle chain is also 'eine Kette.' Context tells you if it is jewelry or hardware."},
@@ -159,8 +144,6 @@ const UNIT_11 =
 {type:"fb",s:"{1} der Ferien fahre ich nach Spanien.",a:["Während"],opts:["Während","Seit","Vor","Ab"],hint:"Which preposition means 'during' and takes the genitive case?",sSrc:"During the holidays I am travelling to Spain."},
 {type:"drag_fill",s:"{1} Brötchen sind {2} heute Morgen.",blanks:{"1":"Die frischen","2":"von"},pool:["Die frischen","Das frische","Der frischer","von","vor","nach"],hint:"Definite article + plural adjective ending? And 'from' this morning?",sSrc:"The fresh rolls are from this morning."},
 {type:"match",pairs:[{trg:"die Kette",src:"the necklace"},{trg:"schenken",src:"to give (as gift)"},{trg:"wünschen",src:"to wish"},{trg:"die Ferien",src:"the holidays"},{trg:"vor",src:"ago / before"},{trg:"seit",src:"since / for"}]},
-{type:"story",speaker:"opa",mood:"nostalgic",trg:"Hier, frische Brötchen für alle! Seit fünfzig Jahren kaufe ich beim gleichen Bäcker. Vor dem Krieg war der Laden noch klein. Während der Ferien backt er sogar Stollen!",src:"Here, fresh rolls for everyone! For fifty years I have been buying from the same baker. Before the war the shop was still small. During the holidays he even bakes Stollen!"},
-{type:"story",speaker:"verumius",mood:"touched",art:"de-ber-weihnachtsmarkt-broetchen",trg:"Verumius beißt in das Brötchen. Es ist frisch, weich und noch ein bisschen warm. Er sieht Heinrich an. Er sieht Hildi an. Er sagt nichts. Aber er lächelt.",src:"Verumius bites into the bread roll. It is fresh, soft, and still a little warm. He looks at Heinrich. He looks at Hildi. He says nothing. But he smiles."},
 {type:"mc",q:"Opa Heinrich says 'Seit fünfzig Jahren kaufe ich beim gleichen Bäcker.' How long has he been going to the same baker?",opts:["For five years","For fifty years","For fifteen years","Since his birthday"],ans:"For fifty years",hint:"'Fünfzig' is the German word for a number between 49 and 51."},
 {type:"mc",q:"Was bedeutet 'der Flohmarkt'?",opts:["the perfume","the flea market","to give (as a gift)","the necklace / the chain"],ans:"the flea market",hint:"A compound of two nouns. Where you find secondhand goods on folding tables outdoors."}
 ]},
@@ -169,9 +152,6 @@ const UNIT_11 =
 {id:"deu_r11l4",title:"Der rote Schal",icon:"\uD83D\uDCD0",xp:20,board:true,steps:[
 {type:"intro",title:"Der rote Schal",desc:"Verumius spots a beautiful red scarf at the Weihnachtsmarkt. But describing it means mastering adjective endings in accusative and dative. Plus: how to say 'I would like...'",goals:["Decline adjectives in accusative and dative","Use possessive articles across cases","Express wishes with w\u00fcrde + infinitive"]},
 
-{type:"story",speaker:"narrator",mood:"festive",art:"de-xmas-market-walking",trg:"Sie gehen weiter durch den Markt. Heinrich links, Hildi rechts, Verumius in der Mitte. Wie eine kleine Familie an Heiligabend.",src:"They walk on through the market. Heinrich on the left, Hildi on the right, Verumius in the middle. Like a small family on Christmas Eve."},
-{type:"story",speaker:"narrator",mood:"curious",art:"de-xmas-market-scarves",trg:"Am Schalstand. Bunte Schals h\u00e4ngen \u00fcberall. Verumius sieht einen roten Schal und greift danach. Hildi lacht.",src:"At the scarf stand. Colorful scarves hang everywhere. Verumius sees a red scarf and reaches for it. Hildi laughs."},
-{type:"story",speaker:"hildi",mood:"amused",trg:"Du willst den roten Schal? Der passt zu deinem blauen Mantel. Aber ich w\u00fcrde den gr\u00fcnen nehmen!",src:"You want the red scarf? It goes with your blue coat. But I would take the green one!"},
 {type:"teach",trg:"beschreiben",
   pos:"verb",
   gender:null,src:"to describe",note:"Irregular (strong verb): ich beschreibe, du beschreibst, er beschreibt. Past: beschrieb, Partizip II: beschrieben.",example:"A: Kannst du den Schal beschreiben?\nB: Er ist lang, rot und sehr weich.",exampleSrc:"A: Can you describe the scarf?\nB: It is long, red, and very soft.",funFact:"'Beschreiben' literally means 'to write upon.' You 'write upon' something with words to paint a picture. The same 'schreiben' root appears in 'Schreibtisch' (writing desk)."},
@@ -234,15 +214,11 @@ const UNIT_11 =
 {type:"mc",q:"'Wenn ich reich ___, ___ ich alles kaufen.' Which pair completes this?",opts:["w\u00fcrde ... w\u00e4re","w\u00e4re ... w\u00fcrde","h\u00e4tte ... w\u00e4re","k\u00f6nnte ... h\u00e4tte"],ans:"w\u00e4re ... w\u00fcrde",hint:"First blank needs the Konjunktiv II of 'sein,' second needs 'would' with an infinitive."},
 {type:"match",pairs:[{trg:"den roten Schal",src:"the red scarf (acc.)"},{trg:"dem kalten Wind",src:"the cold wind (dat.)"},{trg:"meinen neuen Mantel",src:"my new coat (acc.)"},{trg:"einer warmen Tasse",src:"a warm cup (dat.)"},{trg:"w\u00fcrde kaufen",src:"would buy"},{trg:"w\u00e4re",src:"would be"}]},
 
-{type:"mc",q:"Which word expresses a polite wish in German?",opts:["hatte","wuerde + infinitive","ist","wird"],ans:"wuerde + infinitive",hint:"This construction means would + verb. It expresses hypothetical wishes politely."},
-{type:"story",speaker:"opa",mood:"wise",art:"de-xmas-market-scarves",trg:"Heinrich kauft den roten Schal. Verumius protestiert. Heinrich winkt ab. 'In meinem Alter gibt man. Das ist das Schönste.'",src:"Heinrich buys the red scarf. Verumius protests. Heinrich waves it off. 'At my age, you give. That is the most beautiful thing.'"}
-]},
+{type:"mc",q:"Which word expresses a polite wish in German?",opts:["hatte","wuerde + infinitive","ist","wird"],ans:"wuerde + infinitive",hint:"This construction means would + verb. It expresses hypothetical wishes politely."}]},
 
 {id:"deu_r11l6",title:"Wie ist das Wetter?",icon:"🌨️",xp:10,board:true,steps:[
 {type:"intro",title:"Wie ist das Wetter?",desc:"Snow falls at the Christmas market. Learn to talk about weather in German.",goals:["Learn 11 weather words and adjectives","Describe temperature, wind, and sky conditions","Use weather small talk patterns"]},
 
-{type:"story",speaker:"narrator",mood:"atmospheric",art:"de-ber-gendarmenmarkt-snow-falling",trg:"Der Wind dreht. Kleine Schneeflocken tanzen zwischen den Lichtern. Verumius hält die Hände um seine Tasse. Heiße Schokolade. Dampf steigt auf.",src:"The wind shifts. Small snowflakes dance between the lights. Verumius wraps his hands around his cup. Hot chocolate. Steam rises."},
-{type:"story",speaker:"opa",mood:"nostalgic",art:"de-ber-gendarmenmarkt-snow-bench",trg:"Damals, als ich jung war, gab es kälteren Schnee. Nicht diesen modernen Schnee. Der Schnee von heute ist zu weich.",src:"Back then, when I was young, the snow was colder. Not this modern snow. Today's snow is too soft."},
 {type:"teach",trg:"kalt",src:"cold",pos:"adj",gender:null,phonetic:"kahlt",example:"A: Ist es draußen kalt?\nB: Ja, es ist sehr kalt heute.",exampleSrc:"A: Is it cold outside?\nB: Yes, it is very cold today.",note:"The classic winter word. Kälte = the cold (noun).",funFact:"Germans talk about the weather constantly. 'Kalt, oder?' (cold, isn't it?) is a fully valid conversation opener."},
 {type:"teach",trg:"kühl",src:"cool",pos:"adj",gender:null,phonetic:"küül",example:"A: Wie ist es abends auf dem Markt?\nB: Es wird kühl nach sechs Uhr.",exampleSrc:"A: How is it in the evening at the market?\nB: It gets cool after six o'clock.",note:"Milder than 'kalt.' Frische Luft = cool air.",funFact:"Kühl also describes people: 'Sie war sehr kühl zu mir' means she was distant or cold in manner."},
 {type:"teach",trg:"warm",src:"warm",pos:"adj",gender:null,phonetic:"varm",example:"A: Der Glühwein ist schön warm.\nB: Ja, perfekt für kalte Hände!",exampleSrc:"A: The mulled wine is nicely warm.\nB: Yes, perfect for cold hands!",note:"Cognate with English. Wärme = warmth (noun).",funFact:"Mulled wine at Christmas markets is served in ceramic mugs that you can keep as a souvenir. A small deposit is included in the price."},
@@ -267,9 +243,7 @@ const UNIT_11 =
 {type:"drag_fill",s:"Im November ist es oft {1} und {2}. Man sieht die Sonne nicht.",blanks:{"1":"bewölkt","2":"nebelig"},pool:["bewölkt","nebelig","sonnig","trocken"],hint:"Typical November weather: grey and misty. Two weather adjectives for poor visibility.",sSrc:"In November it is often cloudy and foggy. You cannot see the sun."},
 {type:"match",pairs:[{trg:"kalt",src:"cold"},{trg:"heiß",src:"hot"},{trg:"nass",src:"wet"},{trg:"trocken",src:"dry"},{trg:"sonnig",src:"sunny"},{trg:"windig",src:"windy"}]},
 {type:"fb",s:"Der Gl\u00fchwein ist sch\u00f6n {1}. Perfekt f\u00fcr kalte H\u00e4nde!",a:"warm",opts:["warm","kalt","nass","trocken"],hint:"The opposite of cold. A pleasant temperature for a winter drink.",sSrc:"The mulled wine is nicely warm. Perfect for cold hands!"},
-{type:"fb",s:"Der {1} bläst heute stark. Halt deine Mütze fest!",a:"Wind",opts:["Wind","Schnee","Nebel","Himmel"],hint:"Moving air that blows your hat off. A masculine noun.",sSrc:"The wind blows strongly today. Hold on to your hat!"},
-{type:"story",speaker:"verumius",mood:"content",art:"de-ber-gendarmenmarkt-snow-falling",trg:"Es ist kalt und windig, aber der warme Glühwein hilft. Ich lerne jetzt Wetterwörter!",src:"It is cold and windy, but the warm mulled wine helps. I am learning weather words now!"}
-]},
+{type:"fb",s:"Der {1} bläst heute stark. Halt deine Mütze fest!",a:"Wind",opts:["Wind","Schnee","Nebel","Himmel"],hint:"Moving air that blows your hat off. A masculine noun.",sSrc:"The wind blows strongly today. Hold on to your hat!"}]},
 
 {id:"deu_r11l7",title:"Beschreibungen am Markt",icon:"🎨",xp:10,board:true,steps:[
 {type:"intro",title:"Beschreibungen am Markt",desc:"Describe what you see at the Christmas market. Colors, sizes, people, and traditions.",goals:["Learn 10 descriptive adjectives","Learn 7 nouns for people, objects, and traditions","Use trotz + genitive to say despite"]},
@@ -326,18 +300,11 @@ const UNIT_11 =
 {type:"fb",s:"Sprachen lernen ist eine wichtige {1}.",a:"Fähigkeit",opts:["Fähigkeit","Decke","Dame","Nebel"],hint:"An ability or skill. A feminine noun ending in -keit.",sSrc:"Learning languages is an important ability."},
 {type:"fb",s:"{1} des Schnees gehen wir auf den Weihnachtsmarkt.",a:"Trotz",opts:["Trotz","Wegen","Ohne","Nach"],hint:"A preposition meaning despite. Takes the genitive case.",sSrc:"Despite the snow, we are going to the Christmas market."},
 {type:"drag_fill",s:"Der {1} Markt gefällt mir nicht. Ich mag die {2} Weihnachtsmärkte mit {3} Holzbuden.",blanks:{"1":"moderne","2":"traditionellen","3":"bunten"},pool:["moderne","traditionellen","bunten","einzelnen","dunklen"],hint:"New vs. old, and the stalls have many colors. Three adjectives with correct endings.",sSrc:"The modern market does not appeal to me. I prefer the traditional Christmas markets with colourful wooden stalls."},
-{type:"match",pairs:[{trg:"der Enkel",src:"the grandchild"},{trg:"die Dame",src:"the lady"},{trg:"das Feuer",src:"the fire"},{trg:"die Decke",src:"the blanket"},{trg:"das Weihnachtslied",src:"the Christmas carol"}]},
-
-{type:"story",speaker:"verumius",mood:"amused",art:"de-ber-gendarmenmarkt-snow-falling",trg:"Knuspriger Schnee. Ich schreibe mir das auf. Das brauche ich für die Prüfung.",src:"Crunchy snow. I am writing that down. I will need it for the exam."}
-]},
+{type:"match",pairs:[{trg:"der Enkel",src:"the grandchild"},{trg:"die Dame",src:"the lady"},{trg:"das Feuer",src:"the fire"},{trg:"die Decke",src:"the blanket"},{trg:"das Weihnachtslied",src:"the Christmas carol"}]}]},
 
 {id:"deu_r11l9",title:"Glühwein",icon:"\ud83c\udf77",xp:20,board:true,steps:[
 {type:"intro",title:"Glühwein",desc:"Three cups of Glühwein, steam rising, fairy lights reflected in the wine. Heinrich tells stories, Hildi rolls her eyes fondly. Verumius is warm and settled.",goals:["Learn 8 new adjectives and nouns","Practice adjective declension in all three cases","Review temporal prepositions, possessives, and Konjunktiv II"]},
 
-{type:"story",speaker:"narrator",mood:"warm-climactic",art:"de-ber-gluehwein-scene",trg:"Drei Tassen Glühwein auf dem Holztisch. Dampf steigt in die kalte Nachtluft. Die Lichterketten spiegeln sich im Wein. Heinrich, Hildi und Verumius sitzen eng zusammen.",src:"Three cups of mulled wine on the wooden table. Steam rises into the cold night air. The fairy lights reflect in the wine. Heinrich, Hildi, and Verumius sit close together."},
-{type:"story",speaker:"opa",mood:"ceremonial",art:"de-ber-gluehwein-toast",trg:"Heinrich hebt seine Tasse. 'Auf den jungen Mann, der unsere Sprache lernt. Auf den Schnee. Und auf frische Brötchen am Morgen.'",src:"Heinrich raises his cup. 'To the young man who is learning our language. To the snow. And to fresh bread rolls in the morning.'"},
-{type:"story",speaker:"hildi",mood:"tender",art:"de-ber-gluehwein-scene",trg:"Auf uns drei.",src:"To the three of us."},
-{type:"story",speaker:"narrator",mood:"profound",art:"de-ber-gluehwein-close",trg:"Sie trinken. Der Glühwein ist heiß, süß und voller Zimt. Aber das ist nicht, was Verumius wärmt. Seit Wochen lernt er Wörter. Heute Abend versteht er zum ersten Mal, warum.",src:"They drink. The mulled wine is hot, sweet, and full of cinnamon. But that is not what warms Verumius. For weeks he has been learning words. Tonight, for the first time, he understands why."},
 {type:"teach",trg:"das Gewitter",
   pos:"noun",
   gender:"n",src:"thunderstorm",example:"A: Kommt heute Abend ein Gewitter?\nB: Nein, der Himmel ist klar. Perfekt für den Weihnachtsmarkt!",exampleSrc:"A: Is there a thunderstorm coming tonight?\nB: No, the sky is clear. Perfect for the Christmas market!",note:"das Gewitter (neuter). Despite der in some dialects, standard German uses das.",funFact:"German Christmas markets stay open even in light rain. Only a real Gewitter closes the stalls."},
@@ -378,11 +345,7 @@ const UNIT_11 =
 {type:"fb",s:"Wenn das Wetter {1} wäre, könnten wir nicht draußen sitzen.",a:"hässlich",opts:["hässlich","hässliches","hässlichen","hässlicher"],hint:"Predicate adjective after sein: no ending needed.",sSrc:"If the weather were ugly, we would not be able to sit outside."},
 {type:"mc",q:"Heinrich hat eine ___ Stimme. Er erzählt gern Geschichten. (tief, accusative feminine)",opts:["tiefer","tiefe","tiefes","tiefen"],ans:"tiefe",hint:"Accusative feminine: eine ___e Stimme."},
 {type:"drag_fill",s:"{1} des Gewitters {2} sie gemütlich {3} dem Markt.",blanks:{"1":"Trotz","2":"saßen","3":"auf"},pool:["Trotz","saßen","auf","Wegen","standen","in"],hint:"'Despite' + genitive, then past tense of sitzen + location.",sSrc:"Despite the thunderstorm they sat cosily at the market."},
-{type:"match",pairs:[{trg:"tief",src:"deep"},{trg:"reich",src:"rich"},{trg:"arm",src:"poor"},{trg:"bequem",src:"comfortable"},{trg:"hässlich",src:"ugly"},{trg:"klug",src:"clever"}]},
-
-{type:"story",speaker:"opa",mood:"warm-mischievous",art:"de-ber-gluehwein-scene",trg:"Noch ein Brötchen? Sie sind nicht mehr ganz frisch, aber die Butter in meiner Manteltasche ist noch gut.",src:"Another bread roll? They are not quite fresh anymore, but the butter in my coat pocket is still good."},
-{type:"story",speaker:"verumius",mood:"belonging",art:"de-ber-gluehwein-bench",trg:"Verumius nimmt das Brötchen. Es schmeckt nach einem langen Tag, nach Zimt und nach Zuhause.",src:"Verumius takes the bread roll. It tastes of a long day, of cinnamon, and of home."}
-]},
+{type:"match",pairs:[{trg:"tief",src:"deep"},{trg:"reich",src:"rich"},{trg:"arm",src:"poor"},{trg:"bequem",src:"comfortable"},{trg:"hässlich",src:"ugly"},{trg:"klug",src:"clever"}]}]},
 
 {id:"deu_r11l10",title:"Weihnachtsprüfung",icon:"✅",xp:25,board:true,steps:[
 {type:"intro",title:"Weihnachtsprüfung",desc:"The Glühwein is gone, the lights are blinking, and Opa Heinrich is waiting for answers. Show what you learned at the Christmas market. No new words. Just you and the grammar.",goals:["Adjective declension in nominative, accusative, and dative","Possessive articles in all cases","Use temporal prepositions correctly","Konjunktiv II for wishes and hypotheticals"]},
@@ -418,8 +381,6 @@ const UNIT_11 =
 
 {id:"deu_r11l11",title:"Durch den Schnee",icon:"❄️",xp:15,board:true,steps:[
 {type:"intro",title:"Durch den Schnee",desc:"Walking home through snowy Berlin after the Weihnachtsmarkt. Heinrich's bread in the bag, warmth in the heart.",goals:["Personality and character adjectives","Time expressions beyond today","Everyday verbs for learning"]},
-{type:"story",speaker:"narrator",mood:"happy",art:"de-snowy-street",trg:"Schnee auf den Straßenlaternen. Schnee auf den parkenden Autos. Schnee auf Verumius' Schultern. In der Tasche: Heinrichs Brötchen. Im Herzen: Wärme. Er geht langsam nach Hause.",src:"Snow on the streetlamps. Snow on the parked cars. Snow on Verumius's shoulders. In the bag: Heinrich's bread rolls. In the heart: warmth. He walks slowly home."},
-{type:"story",speaker:"narrator",mood:"quiet-content",art:"de-ber-snowy-street-door",trg:"An der Haustür dreht er sich um. Die Stadt ist still. Nur der Schnee fällt. Morgen wird er neue Wörter lernen. Aber heute Nacht reichen die alten.",src:"At the front door he turns around. The city is quiet. Only the snow falls. Tomorrow he will learn new words. But tonight, the old ones are enough."},
 {type:"teach",trg:"egal",
   pos:"adj",
   gender:null,src:"doesn't matter / irrelevant",note:"Das ist mir egal = I don't care. Very common.",example:"A: Willst du Tee oder Kaffee?\nB: Das ist mir egal. Beides ist gut.\nA: Dann mache ich Tee.",exampleSrc:"A: Do you want tea or coffee?\nB: I don't care. Both are fine.\nA: Then I'll make tea.",funFact:"From Latin 'aequalis' (equal). If two things are equal, neither matters more."},
