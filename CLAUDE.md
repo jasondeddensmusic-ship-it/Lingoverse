@@ -36,7 +36,9 @@ npm run build                 # Production build (validates compilation)
 | `units-dutch.js` | 30 Dutch v1 units (legacy, kept for reference) |
 | `units-dutch-v2.js` | Re-exports from 4 per-level files (active import) |
 | `dutch-v2/unit-01.js` ... `unit-30.js` | **30 per-unit files.** V2 format with trg/src, POS, gender, funFact. |
-| `units-korean.js` | 30 Korean units (old format, `nl`/`en` fields) |
+| `units-korean.js` | 30 Korean v1 units (legacy, kept for reference) |
+| `units-korean-v2.js` | Re-exports from 4 per-level files (active import) |
+| `korean-v2/unit-01.js` ... `unit-30.js` | **30 per-unit files.** V2 format with trg/src, POS, funFact, hanja preserved. |
 | `units-german.js` | 30 German v1 units (old format, being replaced by v2) |
 | `units-german-v2.js` | Re-exports from 4 per-level files (14 lines, DO NOT read) |
 | `german-v2/unit-01.js` ... `unit-36.js` | **36 per-unit files, ~250 lines each.** Agents read THESE. |
@@ -272,7 +274,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 | Language | Format | Units | Lessons | Steps | Teach Cards | Status |
 |----------|--------|-------|---------|-------|-------------|--------|
-| Korean | v1 (old) | 30 | 330 | 6,953 | ~1,367 | Production-ready. Most audited. Pending rehaul. |
+| Korean | v2 (new) | 30 | 330 | 6,953 | 1,266 | **V2 UPGRADED** (2026-04-12). Per-unit files in `korean-v2/`. POS tagged, 1,266 funFacts generated, hanja/deepDive preserved. |
 | Dutch | v2 (new) | 30 | 261 | ~5,825 | 1,233 | **V2 UPGRADED** (2026-04-12). Per-unit files in `dutch-v2/`. POS/gender tagged, 347 cognate→funFact migrated, 886 funFacts generated, 22 COMPOUND breakdowns. |
 | German v1 | v1 (old) | 30 | 259 | ~4,941 | ~1,297 | Being replaced by v2. |
 | German v2 | v2 (new) | 36 | 558 | ~11,000 | 5,148 | **PERFECT.** All validations PASS. 125 COMPOUND breakdowns added (2026-04-12). |
@@ -406,8 +408,7 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 17. **Enable `AUDIO_ENABLED`** — Flip gate in `src/audio.jsx`.
 
 ### Phase 5: V1→V2 Language Upgrades
-18. ~~**Dutch** → **French** → **Spanish**~~ — **DONE** (2026-04-12). All 3 upgraded to V2 format with per-unit files, POS/gender, funFact, compound breakdowns.
-19. **Korean** — v1 → v2 format. Still pending (most audited, needs careful migration).
+18. ~~**Dutch** → **French** → **Spanish** → **Korean**~~ — **ALL DONE** (2026-04-12). All 4 upgraded to V2 format with per-unit files, POS/gender, funFact, compound breakdowns.
 20. **Dutch grammar teacher-board rewrite** — Current content is mock/placeholder.
 
 ### Phase 6: Premium Visual Overhaul
