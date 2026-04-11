@@ -39,7 +39,7 @@ export default {n:1,lang:"es",srcLang:"en",track:"v2",title:"¡Hola!",sub:"Greet
         {type:"mc",q:"The shopkeeper says 'Hasta luego'. You reply:",opts:["Buenos días","¡Hasta luego!","Me llamo Pedro","Buenas"],ans:"¡Hasta luego!",hint:"Mirror the farewell you received."},
         {type:"match",pairs:[{trg:"Adiós",src:"Goodbye (standard)"},{trg:"Hasta luego",src:"See you later"},{trg:"Hasta mañana",src:"See you tomorrow"},{trg:"Nos vemos",src:"See you (casual)"},{trg:"Chao",src:"Bye (informal)"}]},
         {type:"fb",opts:["Nos","Los","Mis","Les"],hint:"This pronoun means 'us' or 'each other'.",s:"¡{1} vemos!",a:"Nos"},
-        {type:"mc",q:"'Hasta pronto' is best translated as:",opts:["See you tomorrow","See you later","See you soon","Goodbye forever"],ans:"See you soon",hint:"Pronto means soon, indicating a short time gap."},
+        {type:"mc",q:"'Hasta pronto' is best translated as:",opts:["See you tomorrow","See you later","See you soon","Goodbye forever"],ans:"See you soon",hint:"Pronto means ___, indicating a short time gap."},
         {type:"mc",q:"Which goodbye is a warm wish for the other person?",opts:["Adiós","Chao","¡Que te vaya bien!","Hasta luego"],ans:"¡Que te vaya bien!",hint:"This farewell is a wish that things go well for them."}
   ]},
   {id:"esp1l3",title:"¿Cómo estás?",icon:"😊",xp:15,board:true,steps:[
@@ -94,7 +94,7 @@ export default {n:1,lang:"es",srcLang:"en",track:"v2",title:"¡Hola!",sub:"Greet
         {type:"fb",opts:["te","se","me","le"],hint:"The informal reflexive pronoun for 'yourself'.",s:"¿Cómo {1} llamas?",a:"te"},
         {type:"teach",trg:"Soy...",src:"I am...",pos:"noun",gender:null,phonetic:"SOY",note:"Short form using ser. Soy = I am (identity).",example:"A: ¿Quién eres?\nB: Soy Miguel. Soy estudiante.",exampleSrc:"A: Who are you?\nB: I'm Miguel. I'm a student.",funFact:"Spanish nouns are either masculine or feminine. The ending usually gives it away."},
         {type:"teach",trg:"¿Y tú?",src:"And you?",pos:"intj",gender:null,phonetic:"ee TOO",note:"Used to return a question to the other person.",example:"A: Me llamo Julia. ¿Y tú?\nB: Me llamo Roberto.",exampleSrc:"A: My name is Julia. And you?\nB: My name is Roberto.",funFact:"Spanish is the fourth most spoken language worldwide, with 500+ million native speakers."},
-        {type:"mc",q:"A woman introducing herself says 'Encantada' because:",opts:["She is happy","The -a ending matches feminine","It is always -a","She is speaking formally"],ans:"The -a ending matches feminine",hint:"Spanish adjectives change ending to match the speaker's gender."},
+        {type:"mc",q:"A woman introducing herself says 'Encantada' because:",opts:["She is happy","The -a ending matches feminine","It is always -a","She is speaking formally"],ans:"The -a ending matches feminine",hint:"Spanish adjectives change ___ to match the speaker's gender."},
         {type:"mc",q:"Meeting your friend's grandfather, you ask:",opts:["¿Cómo te llamas?","¿Qué tal?","¿Cómo se llama usted?","Me llamo..."],ans:"¿Cómo se llama usted?",hint:"Elders require the formal form of address."},
         {type:"fb",opts:["gusto","gracias","bien","hola"],hint:"This word means pleasure or taste.",s:"¡Mucho {1}!",a:"gusto"},
         {type:"match",pairs:[
@@ -121,7 +121,7 @@ export default {n:1,lang:"es",srcLang:"en",track:"v2",title:"¡Hola!",sub:"Greet
         {type:"mc",q:"'Soy estudiante' means:",opts:["You are a student","I am a student","He is a student","She is a student"],ans:"I am a student",hint:"Soy is the first person (I) form of ser."},
         {type:"mc",q:"Él with an accent mark means:",opts:["The","He","You","She"],ans:"He",hint:"The accent distinguishes the pronoun from the article."},
         {type:"fb",opts:["es","soy","eres","está"],hint:"Third person form of ser for identity.",s:"Ella {1} profesora.",a:"es"},
-        {type:"mc",q:"Why say 'Soy estudiante' without 'yo'?",opts:["It is incorrect without yo","The verb ending already shows first person","Yo is only for emphasis","Students never use yo"],ans:"The verb ending already shows first person",hint:"The -oy ending only exists for the first person."},
+        {type:"mc",q:"Why say 'Soy estudiante' without 'yo'?",opts:["It is incorrect without yo","The verb ending already shows first person","Yo is only for emphasis","Students never use yo"],ans:"The verb ending already shows first person",hint:"The -oy ___ only exists for the ___ ___."},
         {type:"fb",opts:["eres","soy","es","somos"],hint:"Second person informal form of ser.",s:"¿Tú {1} médico?",a:"eres"},
         {type:"match",pairs:[{trg:"Yo soy",src:"I am"},{trg:"Tú eres",src:"You are (informal)"},{trg:"Él es",src:"He is"},{trg:"Ella es",src:"She is"}]},
         {type:"mc",q:"A female doctor says 'Soy ___':",opts:["médico","médica","médicos","médice"],ans:"médica",hint:"Feminine professions use the -a ending."},
@@ -146,7 +146,7 @@ export default {n:1,lang:"es",srcLang:"en",track:"v2",title:"¡Hola!",sub:"Greet
         {type:"match",pairs:[{trg:"español/a",src:"Spanish"},{trg:"mexicano/a",src:"Mexican"},{trg:"inglés/a",src:"English"},{trg:"francés/a",src:"French"},{trg:"estadounidense",src:"American"}]},
         {type:"mc",q:"'Estadounidense' is the same for:",opts:["Only men","Only women","Both men and women","Only formal use"],ans:"Both men and women",hint:"Some nationalities have one form for all genders."},
         {type:"fb",opts:["francesa","francés","Francia","francesas"],hint:"Feminine singular nationality for a woman from France.",s:"Ella es {1}. De París.",a:"francesa"},
-        {type:"mc",q:"To ask formally where someone is from:",opts:["¿De dónde eres?","¿De dónde es usted?","¿Dónde estás?","¿De dónde estás?"],ans:"¿De dónde es usted?",hint:"Formal requires usted and the third person verb form."}
+        {type:"mc",q:"To ask formally where someone is from:",opts:["¿De dónde eres?","¿De dónde es usted?","¿Dónde estás?","¿De dónde estás?"],ans:"¿De dónde es usted?",hint:"Formal requires ___ and the third person verb form."}
   ]},
   {id:"esp1l8",title:"¡Conversación!",icon:"💬",xp:20,board:true,steps:[
         {type:"intro",title:"¡Conversación!",desc:"Put everything from Unit 1 together in real conversations.",goals:["Complete a full greeting conversation","Introduce yourself naturally","Use all Unit 1 vocabulary"]},
@@ -158,12 +158,12 @@ export default {n:1,lang:"es",srcLang:"en",track:"v2",title:"¡Hola!",sub:"Greet
         {type:"mc",q:"A professor says 'Soy la profesora Martínez'. You respond:",opts:["¡Hola, tú!","Encantado/a de conocerla","¿Qué tal, amiga?","Chao"],ans:"Encantado/a de conocerla",hint:"A professor warrants a formal, respectful response."},
         {type:"match",pairs:[{trg:"¡Hola!",src:"Hello!"},{trg:"¿Cómo estás?",src:"How are you?"},{trg:"Me llamo...",src:"My name is..."},{trg:"Soy de...",src:"I am from..."},{trg:"¡Hasta luego!",src:"See you later!"}]},
         {type:"fb",opts:["está","estás","estoy","están"],hint:"Formal 'you' requires the third person form.",s:"¿Cómo {1} usted?",a:"está"},
-        {type:"mc",q:"The shopkeeper says 'Que le vaya bien'. This is:",opts:["A greeting","An insult","A farewell wish","A question"],ans:"A farewell wish",hint:"The shopkeeper is wishing you well as you leave."},
+        {type:"mc",q:"The shopkeeper says 'Que le vaya bien'. This is:",opts:["A greeting","An insult","A farewell wish","A question"],ans:"A farewell wish",hint:"The shopkeeper is ___ing you well as you leave."},
         {type:"drag_fill",hint:"Complete self-introduction: greeting + name + origin.",s:"{1}, me {2} Ana. Soy {3} España.",blanks:{"1":"Hola","2":"llamo","3":"de"},pool:["Hola","llamo","de","Adiós","llamas","en"]},
         {type:"mc",q:"It is 8 PM. You greet someone with:",opts:["Buenos días","Buenas tardes","Buenas noches","Buenas mañanas"],ans:"Buenas noches",hint:"8 PM is after sunset in most places."},
         {type:"fb",opts:["inglesa","inglés","española","francesa"],hint:"A woman from the English capital.",s:"Ella es {1}. De Londres.",a:"inglesa"},
         {type:"mc",q:"'¿Qué tal?' is best used with:",opts:["Your boss","A judge","A close friend","A police officer"],ans:"A close friend",hint:"This is the most casual way to greet someone."},
-        {type:"mc",q:"Correct order for a first meeting?",opts:["Name, goodbye, greeting","Greeting, name, farewell","Farewell, greeting, name","Name, greeting, name"],ans:"Greeting, name, farewell",hint:"You always start with a greeting before anything else."},
+        {type:"mc",q:"Correct order for a first meeting?",opts:["Name, goodbye, greeting","Greeting, name, farewell","Farewell, greeting, name","Name, greeting, name"],ans:"Greeting, name, farewell",hint:"You always start with a ___ before anything else."},
         {type:"drag_fill",hint:"Formal morning greeting to a woman.",s:"¡{1} días, {2}! ¿Cómo {3}?",blanks:{"1":"Buenos","2":"señora","3":"está"},pool:["Buenos","señora","está","Buenas","señor","estás"]},
         {type:"match",pairs:[{trg:"Yo soy",src:"I am"},{trg:"Tú eres",src:"You are"},{trg:"Él es",src:"He is"},{trg:"Ella es",src:"She is"}]},
         {type:"mc",q:"'Soy médica' tells you she is:",opts:["A nurse","A female doctor","A male doctor","A student"],ans:"A female doctor",hint:"The -a ending on the profession indicates feminine."}

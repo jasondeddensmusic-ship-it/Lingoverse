@@ -67,7 +67,7 @@ export default {n:18,lang:"es",srcLang:"en",track:"v2",title:"Es Importante Que.
         {type:"fb",opts:["de","da","dara","dio"],hint:"Dar subjunctive after necesito que. Remember the accent mark.",s:"Necesito que alguien me {1} la verdad. (dar)",a:["de"]},
         {type:"drag_fill",hint:"Haber and saber subjunctive after doubt expressions.",s:"No creo que {1} tiempo y dudo que ella {2} la direccion.",blanks:{"1":"haya","2":"sepa"},pool:["haya","hay","sepa","sabe","habra"]},
         {type:"mc",q:"Quiero que nosotros ___ la pelicula juntos. (ver)",opts:["veamos","vemos","veremos","vimos"],ans:"veamos",hint:"Ver subjunctive, nosotros form after quiero que."},
-        {type:"mc",q:"Which verb has the subjunctive form 'sepa'?",opts:["saber (to know)","ser (to be)","salir (to leave)","sentir (to feel)"],ans:"saber (to know)",hint:"Think about which verb means 'to know facts'."},
+        {type:"mc",q:"Which verb has the subjunctive form 'sepa'?",opts:["saber (to know)","ser (to be)","salir (to leave)","sentir (to feel)"],ans:"saber (to know)",hint:"Think about which verb means 'to ___ facts'."},
         {type:"match",pairs:[{trg:"haya",src:"there be / have (aux)"},{trg:"sepa",src:"know (saber)"},{trg:"de",src:"give (dar)"},{trg:"vea",src:"see (ver)"}]},
         {type:"drag_fill",hint:"Three subjunctive forms: haber (impersonal), saber, dar (ellos).",s:"Es posible que no {1} nadie que {2} la respuesta y que nos {3} mas pistas.",blanks:{"1":"haya","2":"sepa","3":"den"},pool:["haya","hay","sepa","sabe","den","dan"]},
         {type:"mc",q:"Necesito que nosotros ___ mas informacion antes de decidir. (saber)",opts:["sepamos","sabemos","sabremos","supimos"],ans:"sepamos",hint:"Saber subjunctive, nosotros form after necesito que."}
@@ -226,7 +226,7 @@ export default {n:18,lang:"es",srcLang:"en",track:"v2",title:"Es Importante Que.
         {type:"match",pairs:[{trg:"sea",src:"be (ser)"},{trg:"tenga",src:"have (tener)"},{trg:"diga",src:"say (decir)"},{trg:"pueda",src:"can (poder)"},{trg:"haya",src:"there be (haber)"}]},
         {type:"fb",opts:["podamos","podemos","podremos","pudimos"],hint:"Poder subjunctive, nosotros. No stem change in nosotros.",s:"Dudo que nosotros {1} terminar todo hoy. (poder)",a:["podamos"]},
         {type:"drag_fill",hint:"Ir, decir, and seguir subjunctive after advice.",s:"Es mejor que {1} al medico, que le {2} todo y que {3} su consejo.",blanks:{"1":"vayas","2":"digas","3":"sigas"},pool:["vayas","vas","digas","dices","sigas","sigues"]},
-        {type:"mc",q:"Which sentence needs INDICATIVE (not subjunctive)?",opts:["Creo que tiene razon.","No creo que tenga razon.","Dudo que sepa algo.","Es posible que venga."],ans:"Creo que tiene razon.",hint:"Positive belief (creo que) uses indicative."},
+        {type:"mc",q:"Which sentence needs INDICATIVE (not subjunctive)?",opts:["Creo que tiene razon.","No creo que tenga razon.","Dudo que sepa algo.","Es posible que venga."],ans:"Creo que tiene razon.",hint:"Positive belief (___ ___) uses indicative."},
         {type:"drag_fill",hint:"Three irregular subjunctive verbs: ser, haber, salir.",s:"No creo que {1} facil, pero espero que {2} una solucion y que todo {3} bien.",blanks:{"1":"sea","2":"haya","3":"salga"},pool:["sea","es","haya","hay","salga","sale"]},
         {type:"mc",q:"Te sugiero que ___ las maletas esta noche para que manana no ___ prisa.",opts:["hagas / tengas","haces / tienes","haras / tendras","hiciste / tuviste"],ans:"hagas / tengas",hint:"Both clauses need subjunctive: sugerir que + para que."}
   ]}

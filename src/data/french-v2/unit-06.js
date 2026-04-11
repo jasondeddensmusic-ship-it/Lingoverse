@@ -20,7 +20,7 @@ export default {n:6,lang:"fr",srcLang:"en",track:"v2",title:"La maison",sub:"Hom
         {type:"fb",opts:["le","la","les","un"],hint:"Salon is masculine. Which definite article?",s:"On regarde la télé dans {1} salon.",a:"le"},
         {type:"mc",q:"Where do you sleep?",opts:["La cuisine","Le jardin","La chambre","Le couloir"],ans:"La chambre",hint:"This feminine room is for sleeping and resting."},
         {type:"fb",opts:["le","la","les","un"],hint:"Garden is masculine. Which definite article?",s:"Les enfants jouent dans {1} jardin.",a:"le"},
-        {type:"mc",q:"'La salle de bains' literally translates to:",opts:["The bath room","The room of baths","The water room","The washing room"],ans:"The room of baths",hint:"Salle = room, de = of, bains = baths."}
+        {type:"mc",q:"'La salle de bains' literally translates to:",opts:["The bath room","The room of baths","The water room","The washing room"],ans:"The room of baths",hint:"Salle = ___, de = of, bains = ___."}
   ]},
   {id:"fre6l2",title:"Les meubles",icon:"🛋️",xp:15,board:true,steps:[
         {type:"intro",title:"Les meubles",desc:"Learn common furniture words. Like rooms, every piece of furniture has a gender. The article is part of the word.",goals:["Name 8 common pieces of furniture","Place furniture in the correct room","Use articles accurately"]},
@@ -52,10 +52,10 @@ export default {n:6,lang:"fr",srcLang:"en",track:"v2",title:"La maison",sub:"Hom
         {type:"fb",opts:["Il","Elle","On","Ça"],hint:"The subject of 'y a' is always the same impersonal pronoun.",s:"{1} y a trois chambres dans la maison.",a:"Il"},
         {type:"mc",q:"'Il n'y a pas DE lait' uses 'de' because:",opts:["Lait is masculine","It sounds better","Negation changes articles to de","De means some"],ans:"Negation changes articles to de",hint:"After ne...pas, all partitives and indefinites simplify."},
         {type:"fb",opts:["de","du","un","le"],hint:"After il n'y a pas, all articles become this short word.",s:"Il n'y a pas {1} jardin.",a:"de"},
-        {type:"mc",q:"How do you ask 'Is there a balcony?'",opts:["Il y a un balcon","Est-ce qu'il y a un balcon?","Il n'y a pas de balcon","Un balcon il y a?"],ans:"Est-ce qu'il y a un balcon?",hint:"Add the question marker before il y a."},
+        {type:"mc",q:"How do you ask 'Is there a balcony?'",opts:["Il y a un balcon","Est-ce qu'il y a un balcon?","Il n'y a pas de balcon","Un balcon il y a?"],ans:"Est-ce qu'il y a un balcon?",hint:"Add the qu___ion marker before il y a."},
         {type:"fb",opts:["des","les","de","la"],hint:"In questions, use the indefinite plural article.",s:"Est-ce qu'il y a {1} toilettes? (any restrooms)",a:"des"},
         {type:"match",pairs:[{trg:"Il y a un lit",src:"There is a bed"},{trg:"Il n'y a pas de lit",src:"There is no bed"},{trg:"Est-ce qu'il y a un lit?",src:"Is there a bed?"},{trg:"Il y a des lits",src:"There are beds"}]},
-        {type:"mc",q:"'Il n'y a pas d'étagère' uses d' because:",opts:["Étagère is feminine","Étagère starts with a vowel","It is plural","It is a question"],ans:"Étagère starts with a vowel",hint:"De + vowel = d'. This is elision, same as l'."},
+        {type:"mc",q:"'Il n'y a pas d'étagère' uses d' because:",opts:["Étagère is feminine","Étagère starts with a vowel","It is plural","It is a question"],ans:"Étagère starts with a vowel",hint:"De + ___ = d'. This is elision, same as l'."},
         {type:"fb",opts:["Est-ce","Il y a","Qu'est-ce","Comment"],hint:"The two-word question marker that turns statements into yes/no questions.",s:"{1} qu'il y a un café près d'ici?",a:"Est-ce"},
         {type:"mc",q:"'Qu'est-ce qu'il y a dans le frigo?' asks:",opts:["Is there a fridge?","Where is the fridge?","What is in the fridge?","How big is the fridge?"],ans:"What is in the fridge?",hint:"Qu'est-ce que = what. Combined with il y a = what is there."},
         {type:"fb",opts:["un","une","le","la"],hint:"Indefinite articles: masculine for sofa, feminine for table.",s:"Il y a {1} canapé et ___ table dans le salon.",a:["un","une"]},
@@ -112,7 +112,7 @@ export default {n:6,lang:"fr",srcLang:"en",track:"v2",title:"La maison",sub:"Hom
         {type:"teach",trg:"faire visiter",src:"to show around / give a tour",pos:"verb",gender:null,phonetic:"fehr vee-zee-TAY",note:"Faire visiter = to give a tour.\nJe te fais visiter = I'll show you around.",example:"A: Tu veux visiter?\nB: Oui, fais-moi visiter!\nA: Alors, ici c'est le salon...",exampleSrc:"A: Do you want a tour?\nB: Yes, show me around!\nA: So, here is the living room...",funFact:"A regular -er verb, the most common French verb group (~90% of all verbs)."},
         {type:"mc",q:"'Chez moi' literally means:",opts:["My house","In my room","At the place of me","Inside me"],ans:"At the place of me",hint:"Chez = at the place of. Moi = me."},
         {type:"fb",opts:["chez","dans","à","sur"],hint:"We're going to Pierre's place. Which preposition?",s:"On va {1} Pierre ce soir.",a:"chez"},
-        {type:"mc",q:"To say 'at her place', you use:",opts:["Chez sa","Chez la","Chez elle","Chez soi"],ans:"Chez elle",hint:"Chez + stress pronoun. She/her stress pronoun is..."},
+        {type:"mc",q:"To say 'at her place', you use:",opts:["Chez sa","Chez la","Chez elle","Chez soi"],ans:"Chez elle",hint:"___ + stress pronoun. She/her stress pronoun is..."},
         {type:"match",pairs:[{trg:"chez moi",src:"at my place"},{trg:"chez toi",src:"at your place"},{trg:"chez lui",src:"at his place"},{trg:"chez elle",src:"at her place"}]},
         {type:"fb",opts:["chez","dans","à","en"],hint:"Welcome to our place. Which preposition goes with pronouns?",s:"Bienvenue {1} nous!",a:"chez"},
         {type:"mc",q:"'Chez le docteur' means:",opts:["The doctor's house","At the doctor's office","The doctor is home","Doctor at home"],ans:"At the doctor's office",hint:"Chez + professional = at their place of work."},
@@ -149,17 +149,17 @@ export default {n:6,lang:"fr",srcLang:"en",track:"v2",title:"La maison",sub:"Hom
         {type:"match",pairs:[{trg:"la cuisine",src:"the kitchen"},{trg:"le salon",src:"the living room"},{trg:"la chambre",src:"the bedroom"},{trg:"le couloir",src:"the hallway"}]},
         {type:"mc",q:"'Il n'y a pas de jardin' means:",opts:["The garden is big","There is a garden","There is no garden","The garden is behind"],ans:"There is no garden",hint:"Il n'y a pas de = there is no. Negation of existence."},
         {type:"fb",opts:["à","en","de","du"],hint:"Next to: ___ côté de. First word of this preposition.",s:"L'étagère est {1} côté du bureau.",a:"à"},
-        {type:"mc",q:"Which is correct?",opts:["Chez moi est grand","C'est grand chez moi","Grand chez moi c'est","Moi chez est grand"],ans:"C'est grand chez moi",hint:"C'est + adjective + location. Standard description pattern."},
+        {type:"mc",q:"Which is correct?",opts:["Chez moi est grand","C'est grand chez moi","Grand chez moi c'est","Moi chez est grand"],ans:"C'est grand chez moi",hint:"C'___ + adjective + location. Standard description pattern."},
         {type:"fb",opts:["chez","dans","à","sur"],hint:"Come to my place. Which preposition means 'to/at someone's home'?",s:"Viens {1} moi, on regarde un film!",a:"chez"},
         {type:"match",pairs:[{trg:"le lit",src:"the bed"},{trg:"le canapé",src:"the sofa"},{trg:"l'armoire",src:"the wardrobe"},{trg:"le frigo",src:"the fridge"}]},
-        {type:"mc",q:"'Combien de pièces?' asks about:",opts:["The price","The number of rooms","The floor level","The neighborhood"],ans:"The number of rooms",hint:"Combien de = how many. Pièces = rooms."},
+        {type:"mc",q:"'Combien de pièces?' asks about:",opts:["The price","The number of rooms","The floor level","The neighborhood"],ans:"The number of rooms",hint:"Combien de = how many. Pièces = ___."},
         {type:"fb",opts:["un","le","de","du"],hint:"Is there A balcony? Indefinite article in a question.",s:"Est-ce qu'il y a {1} balcon?",a:"un"},
         {type:"mc",q:"In French, the ground floor is called:",opts:["Le premier étage","Le zéro étage","Le rez-de-chaussée","Le sous-sol"],ans:"Le rez-de-chaussée",hint:"This compound word means 'level of the street'."},
         {type:"fb",opts:["dans","sur","sous","chez"],hint:"There is a table IN the kitchen. Which preposition?",s:"Il y a une table {1} la cuisine.",a:"dans"},
         {type:"mc",q:"'Chez le docteur' means:",opts:["The doctor's house","At the doctor's (office)","Near the doctor","Behind the doctor"],ans:"At the doctor's (office)",hint:"Chez + professional = at their place of work."},
         {type:"fb",opts:["lumineux","sombre","petit","vieux"],hint:"Bright and quiet. Which adjective means well-lit?",s:"L'appartement est {1} et calme.",a:"lumineux"},
         {type:"match",pairs:[{trg:"dans",src:"in / inside"},{trg:"sur",src:"on top of"},{trg:"sous",src:"under"},{trg:"derrière",src:"behind"}]},
-        {type:"mc",q:"'Je cherche un T3' means I'm looking for:",opts:["A three-floor house","A three-room apartment","Three apartments","A third-floor studio"],ans:"A three-room apartment",hint:"T + number = number of main rooms in French housing."},
+        {type:"mc",q:"'Je cherche un T3' means I'm looking for:",opts:["A three-floor house","A three-room apartment","Three apartments","A third-floor studio"],ans:"A three-room apartment",hint:"T + number = number of main ___s in French housing."},
         {type:"fb",opts:["derrière","dans","sur","chez"],hint:"The garden is BEHIND the house. At the back.",s:"Le jardin est {1} la maison.",a:"derrière"}
   ]}
 ]};

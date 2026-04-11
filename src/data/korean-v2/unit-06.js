@@ -21,8 +21,8 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
           title:"T-money, Color-Coded Buses, and Airport Rail",
           text:"• T-money card works on everything\n• Last train ~12-1am\n\nKTX (bullet train):\n• Seoul → Busan: 2h 30m\n• Seoul → Gwangju: 1h 30m\n• Reserved seating, meals available\n\n버스 (bus):\n• Color-coded by type:\n  파란 버스: trunk routes (blue)\n  초록 버스: neighborhood routes (green)\n  빨간 버스: express (red)\n\n공항철도: Airport Railroad\nSeoul Station → Incheon Airport: 43 min."
         },text:"Seoul's public transit system:\n\n지하철 (subway):\n• 23 lines covering Greater Seoul\n• Color-coded, numbered exits"},
-        {type:"mc",q:"지하철 decomposes into:",opts:["지하 (underground) + 철 (iron)","지 (earth) + 하철 (rail)","지하 (lower) + 전 (electric)","All one piece"],ans:"지하 (underground) + 철 (iron)",hint:"Underground + iron/rail"},
-        {type:"mc",q:"비행기 means 'airplane' because:",opts:["It sounds like English 'fly'","비행 (flying) + 기 (machine)","From Chinese characters only","It's an old native Korean word"],ans:"비행 (flying) + 기 (machine)",hint:"Flying-machine = airplane"},
+        {type:"mc",q:"지하철 decomposes into:",opts:["지하 (underground) + 철 (iron)","지 (earth) + 하철 (rail)","지하 (lower) + 전 (electric)","All one piece"],ans:"지하 (underground) + 철 (iron)",hint:"___ + ___/rail"},
+        {type:"mc",q:"비행기 means 'airplane' because:",opts:["It sounds like English 'fly'","비행 (flying) + 기 (machine)","From Chinese characters only","It's an old native Korean word"],ans:"비행 (flying) + 기 (machine)",hint:"___-___ = airplane"},
         {type:"mc",q:"타다 means:",opts:["To go to a place","To arrive at a place","To ride/board transport","To pay for a ticket"],ans:"To ride/board transport",hint:"버스를 타다, 기차를 타다"},
         {type:"fb",opts:["지하철","비행기","기차","버스"],hint:"... = subway (underground + iron)",s:"매일 ___ 을/를 타요.\n(I take the subway every day)",a:"지하철"},
         {type:"fb",opts:["KTX","버스","지하철","비행기"],hint:"Seoul to Busan 2.5 hours = bullet train",s:"서울에서 부산까지 ___로 두 시간 삼십 분이에요.\n(Seoul to Busan by ___ is 2.5 hours.)",a:"KTX"},
@@ -46,7 +46,7 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
           text:"회사에서 일해요 = I work at the company\n\nTest: is someone DOING something there? → 에서. Just existing or going? → 에.\n\n→ I'm at school. (static)\n\n학교에서 공부해요.\n→ I study at school. (action)\n\nBonus  -  에서 also means FROM:\n서울에서 왔어요.\n→ I came from Seoul.\n\n에서: WHERE you DO something\n\n집에서 쉬어요: rest AT home (action: resting)\n도서관에서 공부해요: study AT library (action: studying)\n카페에서 일해요: work AT a café (action: working)\n\nThe test:\n'What are you doing there?'\nIf there IS an action → 에서\nIf you're just BEING there or ARRIVING → 에\n\nBonus: 에서 also means 'from' in one pattern:\n서울에서 왔어요: I came FROM Seoul."
         },text:"에 = static location or destination (no action happening there):\n집에 있어요 = I am at home\n학교에 가요 = I go to school\n\n에서 = action location (something happens there):\n카페에서 공부해요 = I study at the café"},
         {type:"mc",q:"'I study AT the library'  -  correct particle:",opts:["도서관에 공부해요","도서관에서 공부해요","도서관을 공부해요","도서관는 공부해요"],ans:"도서관에서 공부해요",hint:"Studying = action at a place → 에서"},
-        {type:"mc",q:"'I am AT home'  -  correct particle:",opts:["집에서 있어요","집에 있어요","집을 있어요","집는 있어요"],ans:"집에 있어요",hint:"Being there statically (있어요, no action) → 에"},
+        {type:"mc",q:"'I am AT home'  -  correct particle:",opts:["집에서 있어요","집에 있어요","집을 있어요","집는 있어요"],ans:"집에 있어요",hint:"Being there statically (___, no action) → 에"},
         {type:"mc",q:"'I go TO school'  -  correct particle:",opts:["학교에서 가요","학교를 가요","학교에 가요","학교는 가요"],ans:"학교에 가요",hint:"Going TO a destination → 에"},
         {type:"mc",q:"'I drink coffee AT the café'  -  correct particle:",opts:["카페에 커피를 마셔요","카페에서 커피를 마셔요","카페를 커피를 마셔요","카페는 커피를 마셔요"],ans:"카페에서 커피를 마셔요",hint:"Drinking = action at a place → 에서"},
         {type:"fb",opts:["에서","에","를","는"],hint:"Studying is an action  -  what you DO at the library",s:"저는 매일 도서관___공부해요.\n(I study at the library every day.)",a:"에서"},
@@ -70,7 +70,7 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
         {type:"teach",trg:"로  -  direction use",src:"toward / in the direction of",pos:"intj",gender:null,phonetic:"ro",note:"Marks DIRECTION:\n\n왼쪽으로 가세요: go LEFT",example:"A: 어디로 가요? B: 왼쪽으로 가세요.",exampleSrc:"A: Which way do I go? B: Please go to the left.",deepDive:{title:"Using 로  -  direction use",text:"오른쪽으로 가세요: go RIGHT\n앞으로 가세요: go FORWARD\n뒤로 가세요: go BACK\n출구 쪽으로 가세요: go toward the exit",funFact:"Korean has rich exclamations that express subtle emotions. Tone and context determine the exact feeling."}},
         {type:"mc",q:"(으)로 with transport means:",opts:["toward","from","at","by (means of)"],ans:"by (means of)",hint:"버스로 = by bus. This particle marks the METHOD of travel."},
         {type:"mc",q:"'I go by subway'  -  correct form:",opts:["지하철에 가요","지하철를 가요","지하철로 가요","지하철가 가요"],ans:"지하철로 가요",hint:"지하철 ends in a consonant → 로 (not 으로)"},
-        {type:"mc",q:"(으)로 marks:",opts:["Static location","Action location","Means/direction","Object"],ans:"Means/direction",hint:"BY bus, TOWARD the exit  -  means and direction"},
+        {type:"mc",q:"(으)로 marks:",opts:["Static location","Action location","Means/direction","Object"],ans:"Means/direction",hint:"BY bus, TOWARD the exit  -  ___ and ___"},
         {type:"mc",q:"왼쪽___가세요  -  correct form:",opts:["왼쪽가","왼쪽로","왼쪽으로","왼쪽에서"],ans:"왼쪽으로",hint:"왼쪽 ends in consonant ㄱ → 으로"},
         {type:"mc",q:"'By airplane' in Korean:",opts:["비행기에","비행기를","비행기로","비행기에서"],ans:"비행기로",hint:"비행기 ends in vowel → 로"},
         {type:"fb",opts:["으로","에서","에","를"],hint:"Vowel ending or consonant ending?",s:"오른쪽___가세요.\n(Go right)",a:"으로"},
@@ -78,7 +78,7 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
         {type:"match",pairs:[{trg:"버스로",src:"by bus"},{trg:"지하철로",src:"by subway"},{trg:"왼쪽으로",src:"to the left"},{trg:"앞으로",src:"forward"}]},
         {type:"drag_fill",hint:"Go straight, then go left. From there, go by bus.",s:"직진하다가 왼쪽{1} 가세요. 거기서 버스{2} 가면 돼요.",blanks:{"1":"으로","2":"로"},pool:["으로","로","에","에서"]},
         {type:"mc",q:"How is 에 different from (으)로?",opts:["They mean the same thing","에: to/at; 로: toward","로 is more formal than 에","에 is for transport only"],ans:"에: to/at; 로: toward",hint:"에 = destination. 로 = direction/means."},
-        {type:"mc",q:"걸어서 가요. 걸어서 = going by:",opts:["Car (driving)","Train (riding)","Foot (walking)","Bicycle (cycling)"],ans:"Foot (walking)",hint:"걷다 (to walk) + -어서 = by walking"},
+        {type:"mc",q:"걸어서 가요. 걸어서 = going by:",opts:["Car (driving)","Train (riding)","Foot (walking)","Bicycle (cycling)"],ans:"Foot (walking)",hint:"걷다 (to walk) + -어서 = by ___"},
         {type:"teach",trg:"기다리다",src:"to wait",pos:"verb",gender:null,phonetic:"gi-da-ri-da",note:"기다리다 → 기다려요 (polite present).\nㅣ+ㅓ contracts to ㅕ.\n",example:"A: 지금 뭐 해요? B: 버스를 기다려요.",exampleSrc:"A: What are you doing now? B: I'm waiting for the bus.",deepDive:{title:"Common Phrases",text:"여기에서 기다리세요: please wait here.\n잠깐만 기다려요: wait a moment.\n버스를 기다려요: I'm waiting for the bus.",funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
         {type:"teach",trg:"찾다",src:"to find / to look for",pos:"verb",gender:null,phonetic:"chat-da",note:"찾다 → 찾아요 (polite present).\nBright vowel in stem.",example:"A: 뭘 찾아요? B: 지하철역을 찾아요.",exampleSrc:"A: What are you looking for? B: I'm looking for the subway station.",deepDive:{title:"Common Uses",text:"길을 찾다: look for the way.\n친구를 찾다: look for a friend.\n지갑을 찾다: look for a wallet.\n\n찾았어요!: I found it!",funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
         {type:"teach",trg:"(이)랑",src:"and / with (casual)",pos:"part",gender:null,phonetic:"(i)-rang",note:"Casual and/with particle.\n\nAfter vowel: no extra syllable.\nAfter consonant: extra syllable added.",example:"A: 누구랑 가요? B: 친구랑 같이 가요.",exampleSrc:"A: Who are you going with? B: I'm going with a friend.",deepDive:{
@@ -91,13 +91,13 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
           text:"친구에게 = 친구한테 (same meaning).\n\n선생님에게 물어봤어요: I asked the teacher.\n엄마한테 전화했어요: I called mom.\n\n에: for places/things.\n에게/한테: for people/animals."
         ,funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
         {type:"mc",q:"친구랑 같이 가요. (이)랑 is the casual form of:",opts:["하고","에서","의","에"],ans:"하고",hint:"(이)랑  (and/with). More casual"},
-        {type:"mc",q:"에게 and 한테 are:",opts:["Same meaning, 에게 is formal","에게 is for places","한테 is for things","Different meanings"],ans:"Same meaning, 에게 is formal",hint:"에게 (formal) = 한테 (casual). Both mean 'to a person.'"}
+        {type:"mc",q:"에게 and 한테 are:",opts:["Same meaning, 에게 is formal","에게 is for places","한테 is for things","Different meanings"],ans:"Same meaning, 에게 is formal",hint:"에게 (___) = 한테 (casual). Both mean 'to a person.'"}
   ]},
   {id:"kou6l4.1",title:"Directions: Left, Right, Straight",icon:"🧭",xp:18,board:true,steps:[
         {type:"intro",title:"Left, Right, Straight, Nearby",desc:"왼쪽 / 오른쪽\n→ left / right\n\nDirection words for navigation.",goals:["Give and understand basic directions","Use 어디에 있어요? to find places","Know subway exit culture"]},
         {type:"teach",trg:"왼쪽",src:"left",pos:"noun",gender:null,phonetic:"oen-jjok",note:"왼쪽: left (side).\n쪽 = side / direction.",example:"A: 어디로 가요? B: 왼쪽으로 가세요.",exampleSrc:"A: Which way do I go? B: Go to the left.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
         {type:"teach",trg:"오른쪽",src:"right",pos:"noun",gender:null,phonetic:"o-reun-jjok",note:"오른쪽: right (side).\n왼쪽 (left) ↔ 오른쪽 (right).",example:"A: 카페가 어디에 있어요? B: 오른쪽에 있어요.",exampleSrc:"A: Where is the cafe? B: It's on the right.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
-        {type:"teach",trg:"직진",src:"straight ahead",pos:"noun",gender:null,phonetic:"jik-jin",note:"직진: straight ahead.\nCOMPOUND: 직 (straight) + 진 (advance).",example:"A: 여기에서 어떻게 가요? B: 직진하세요.",exampleSrc:"A: How do I go from here? B: Go straight.",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."},
+        {type:"teach",trg:"직진",src:"straight ahead",pos:"noun",gender:null,phonetic:"jik-jin",note:"직진: straight ahead.\nCOMPOUND: 직 (___) + 진 (advance).",example:"A: 여기에서 어떻게 가요? B: 직진하세요.",exampleSrc:"A: How do I go from here? B: Go straight.",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."},
         {type:"mc",q:"오른쪽 means:",opts:["right","left","straight","behind"],ans:"right",hint:"The opposite of 왼쪽. A direction word with 쪽 (side/direction)."},
         {type:"teach",trg:"유턴",src:"U-turn",pos:"noun",gender:null,phonetic:"yu-teon",note:"유턴: U-turn (Konglish from English).",example:"A: 길을 지나쳤어요. B: 여기서 유턴하세요.",exampleSrc:"A: I passed the road. B: Make a U-turn here.",funFact:"A Konglish loanword adapted from English. Korean has borrowed many modern and tech words."},
         {type:"teach",trg:"근처",src:"nearby / in the vicinity",pos:"noun",gender:null,phonetic:"geun-cheo",note:"근처: nearby area.\n근처에: in the vicinity of.\n",example:"A: 여기 근처에 카페가 있어요? B: 네, 역 근처에 있어요.",exampleSrc:"A: Is there a cafe nearby? B: Yes, there's one near the station.",deepDive:{
@@ -118,15 +118,15 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
           text:"Koreans give ALL directions by exit number.\n\n'3번 출구로 나오세요.\n→ Please come out exit 3.\n\n홍대역 9번 출구 앞에서 만나요.\n→ Let's meet in front of Hongdae Station exit 9.\n\nPractical use:\n• Save the exit number, not just the station\n• Landmarks are always described by exit number\n• Meeting spots are '역 X번 출구 앞' (in front of exit X)"
         },text:"Every Korean subway station has NUMBERED EXITS.\n\n출구: exit (출=out + 구=opening/mouth)\n1번 출구, 2번 출구, 3번 출구...\n\nWhy this matters:"},
         {type:"mc",q:"쪽 in 왼쪽/오른쪽 means:",opts:["Turn / rotate","Side / direction","Hand / palm","Road / street"],ans:"Side / direction",hint:"쪽 = side/direction suffix. 이쪽, 앞쪽, 뒤쪽 all use it."},
-        {type:"mc",q:"'Where is the bathroom?' in Korean:",opts:["화장실이 뭐예요?","화장실이 어디에 있어요?","화장실을 가요?","화장실에서 있어요?"],ans:"화장실이 어디에 있어요?",hint:"어디에 있어요? = Where does it exist? = Where is it?"},
-        {type:"mc",q:"직진 = 직 + 진. What does it mean?",opts:["Slow down","Turn left","Go straight","Go back"],ans:"Go straight",hint:"직 (straight) + 진 (advance)"},
+        {type:"mc",q:"'Where is the bathroom?' in Korean:",opts:["화장실이 뭐예요?","화장실이 어디에 있어요?","화장실을 가요?","화장실에서 있어요?"],ans:"화장실이 어디에 있어요?",hint:"___ ___? = Where does it exist? = Where is it?"},
+        {type:"mc",q:"직진 = 직 + 진. What does it mean?",opts:["Slow down","Turn left","Go straight","Go back"],ans:"Go straight",hint:"직 (___) + 진 (advance)"},
         {type:"mc",q:"Koreans give directions using:",opts:["Street names like America","Numbered subway exits","Building colors","Compass directions"],ans:"Numbered subway exits",hint:"'3번 출구로 나오세요'  -  exit number is the landmark"},
         {type:"fb",opts:["어디에","어디를","어디서","어디가"],hint:"... 있어요 = where is it? (어디 + location particle 에)",s:"지하철역이 ___ 있어요?\n(Where is the subway station?)",a:"어디에"},
         {type:"fb",opts:["으로","에","에서","를"],hint:"Vowel ending or consonant ending?",s:"직진하다가 오른쪽___가세요.\n(Go straight, then go to the right.)",a:"으로"},
         {type:"fb",opts:["근처","뒤쪽","직진","출구"],hint:"... = nearby/vicinity",s:"학교 ___에 카페가 있어요.\n(There's a café ___ the school.)",a:"근처"},
         {type:"match",pairs:[{trg:"왼쪽으로 가세요",src:"go left"},{trg:"직진하세요",src:"go straight"},{trg:"오른쪽으로 가세요",src:"go right"},{trg:"3번 출구",src:"exit number 3"}]},
         {type:"drag_fill",hint:"Go straight, then go left. It's near the station.",s:"{1}하다가 왼쪽{2} 가세요. 역 {3}에 있어요.",blanks:{"1":"직진","2":"으로","3":"근처"},pool:["직진","오른쪽","으로","에서","근처","앞쪽"]},
-        {type:"mc",q:"Correct way to say 'meet at exit 9':",opts:["9번 출구 앞에서 만나요","9번에서 만나요","역에 만나요","9번에 역을 만나요"],ans:"9번 출구 앞에서 만나요",hint:"역 + numbered exit + 앞에서 + 만나요  -  standard Korean meeting arrangement"}
+        {type:"mc",q:"Correct way to say 'meet at exit 9':",opts:["9번 출구 앞에서 만나요","9번에서 만나요","역에 만나요","9번에 역을 만나요"],ans:"9번 출구 앞에서 만나요",hint:"역 + numbered exit + ___ + ___  -  standard Korean meeting arrangement"}
   ]},
   {id:"kou6l4.2",title:"Positions: Above, Beside, Between",icon:"📍",xp:18,board:true,steps:[
         {type:"intro",title:"Where Things Are",desc:"위 / 아래 / 옆\n→ above / below / beside\n\nEight position words.",goals:["Use 위/아래 for above and below","Use 옆/사이 for beside and between","Cross and turn with 건너다 and 돌다"]},
@@ -156,7 +156,7 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
           text:"왼쪽으로 돌아가세요: turn left.\n오른쪽으로 돌아가세요: turn right.\n\n좌회전/우회전: formal signs.\n돌아가세요 = conversational direction."
         ,funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
         {type:"mc",q:"'It's next to the school'  -  correct:",opts:["학교 위에 있어요","학교 옆에 있어요","학교 사이에 있어요","학교 밖에 있어요"],ans:"학교 옆에 있어요",hint:"옆 = beside/next to"},
-        {type:"mc",q:"'Between the bank and the café':",opts:["은행 카페 위에","은행과 카페 옆에","은행과 카페 사이에","은행과 카페 밖에"],ans:"은행과 카페 사이에",hint:"A와 B 사이에 = between A and B"},
+        {type:"mc",q:"'Between the bank and the café':",opts:["은행 카페 위에","은행과 카페 옆에","은행과 카페 사이에","은행과 카페 밖에"],ans:"은행과 카페 사이에",hint:"A와 B ___ = between A and B"},
         {type:"mc",q:"안 ↔ 밖 means:",opts:["Front ↔ Back","Left ↔ Right","Inside ↔ Outside","Above ↔ Below"],ans:"Inside ↔ Outside",hint:"안 = inside, 밖 = outside"},
         {type:"mc",q:"'Cross the crosswalk'  -  correct verb:",opts:["가세요","건너세요","돌아가세요","내려가세요"],ans:"건너세요",hint:"건너다 = to cross"},
         {type:"fb",opts:["위","아래","옆","사이"],hint:"위 = above/on top",s:"책상 ___ 에 책이 있어요.\n(The book is on top of the desk)",a:"위"},
@@ -249,7 +249,7 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
         {type:"mc",q:"'It's hot' in Korean (correct form):",opts:["덥어요","덥요","더워요","더워다"],ans:"더워요",hint:"덥다 is ㅂ-irregular. ㅂ becomes 우 before vowel endings."},
         {type:"mc",q:"'It's raining' in Korean:",opts:["비가 와요","비가 있어요","비가 내려요","비가 해요"],ans:"비가 와요",hint:"Korean thinks of rain as 'coming': 비가 오다"},
         {type:"mc",q:"날씨가 어때요? means:",opts:["What's the weather?","Where is the weather?","The weather is good","What season is it?"],ans:"What's the weather?",hint:"어때요 = how is it? 날씨 = weather"},
-        {type:"mc",q:"춥다 → 추워요 is an example of:",opts:["Regular conjugation pattern","ㅂ-irregular (ㅂ becomes 워)","르-irregular pattern type","으-irregular pattern type"],ans:"ㅂ-irregular (ㅂ becomes 워)",hint:"ㅂ-irregular: ㅂ becomes 워 before endings. The full pattern comes later."},
+        {type:"mc",q:"춥다 → 추워요 is an example of:",opts:["Regular conjugation pattern","ㅂ-irregular (ㅂ becomes 워)","르-irregular pattern type","으-irregular pattern type"],ans:"ㅂ-irregular (ㅂ becomes 워)",hint:"ㅂ-___: ㅂ ___ 워 before endings. The full pattern comes later."},
         {type:"fb",opts:["흐려요","흐리어요","맑아요","더워요"],hint:"흐리다 → ... (이 + 어 → 여)",s:"오늘 날씨가 ___. 비가 와요.\n(It's cloudy today. It's raining.)",a:"흐려요"},
         {type:"fb",opts:["더워요","덥어요","덥요","더위요"],hint:"덥다 is ㅂ-irregular. ㅂ becomes 우 before vowel endings.",s:"여름에 ___, 겨울에 추워요.\n(In summer it's hot, in winter it's cold)",a:"더워요"},
         {type:"match",pairs:[{trg:"더워요",src:"it's hot"},{trg:"추워요",src:"it's cold"},{trg:"맑아요",src:"it's clear/sunny"},{trg:"비가 와요",src:"it's raining"}]},
@@ -298,7 +298,7 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
         {type:"match",pairs:[{trg:"셔츠 → 입다",src:"shirt → torso verb"},{trg:"모자 → 쓰다",src:"hat → head verb"},{trg:"양말 → 신다",src:"socks → feet verb"},{trg:"장갑 → 끼다",src:"gloves → hand verb"}]},
         {type:"match",pairs:[{trg:"구두",src:"dress shoes"},{trg:"운동화",src:"sneakers"},{trg:"원피스",src:"dress"},{trg:"목도리",src:"scarf"}]},
         {type:"drag_fill",hint:"In winter: coat (torso), gloves (hands), scarf (accessory)",s:"겨울에 {1}를 입고, {2}을 끼고, {3}를 해요.",blanks:{"1":"코트","2":"장갑","3":"목도리"},pool:["코트","장갑","목도리","모자","양말"]},
-        {type:"mc",q:"Which verb goes with 안경?",opts:["쓰다 (head verb)","입다 (torso verb)","신다 (feet verb)","끼다 (hand verb)"],ans:"쓰다 (head verb)",hint:"Glasses go on your face/head area"}
+        {type:"mc",q:"Which verb goes with 안경?",opts:["쓰다 (head verb)","입다 (torso verb)","신다 (feet verb)","끼다 (hand verb)"],ans:"쓰다 (head verb)",hint:"Glasses go on your face/___ area"}
   ]},
   {id:"kou6l6c",title:"옷 더 배우기 (More Clothing)",icon:"👗",xp:20,board:true,steps:[
         {type:"intro",title:"Expanding Your Wardrobe Vocabulary",desc:"바지, 티셔츠, 청바지...\n\nMore clothing items, including Konglish words and native Korean words.",goals:["Learn 8 more clothing items","Spot Konglish (English loan) words","Use the correct wear verbs from the previous lesson","Describe outfits"]},
@@ -336,7 +336,7 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
         {type:"teach",trg:"서 / 서쪽",src:"west",pos:"intj",gender:null,phonetic:"seo / seo-jjok",note:"서(西): west.\n서쪽: west side/direction.\n서울: capital city.\n서해: West Sea (Yellow Sea).",example:"A: 해가 어디에서 져요? B: 서쪽에서 져요.",exampleSrc:"A: Where does the sun set? B: It sets in the west.",funFact:"Built from Chinese characters (Hanja). About 60% of Korean vocabulary has Hanja roots."},
         {type:"teach",trg:"남 / 남쪽",src:"south",pos:"intj",gender:null,phonetic:"nam / nam-jjok",note:"남(南): south.\n남쪽: south side/direction.\n남산: South Mountain (서울).\n남해: South Sea.",example:"A: 제주도가 어디에 있어요? B: 한국 남쪽에 있어요.",exampleSrc:"A: Where is Jeju Island? B: It's in the south of Korea.",funFact:"Built from Chinese characters (Hanja). About 60% of Korean vocabulary has Hanja roots."},
         {type:"teach",trg:"북 / 북쪽",src:"north",pos:"intj",gender:null,phonetic:"buk / buk-jjok",note:"북(北): north.\n북쪽: north side/direction.\n북한: North Korea.\n북해: North Sea.",example:"A: 겨울에 북쪽이 추워요? B: 네, 아주 추워요.",exampleSrc:"A: Is it cold in the north in winter? B: Yes, it's very cold.",funFact:"Built from Chinese characters (Hanja). About 60% of Korean vocabulary has Hanja roots."},
-        {type:"mc",q:"해가 동쪽에서 떠요. What does this mean?",opts:["The sun rises in the east","The sun sets in the west","The sun is in the south","The sun is in the north"],ans:"The sun rises in the east",hint:"동 = east, 해 = sun. Where does the sun come up?"},
+        {type:"mc",q:"해가 동쪽에서 떠요. What does this mean?",opts:["The sun rises in the east","The sun sets in the west","The sun is in the south","The sun is in the north"],ans:"The sun rises in the east",hint:"동 = ___, 해 = ___. Where does the ___ come up?"},
         {type:"mc",q:"Korean compass order is:",opts:["동서남북 (E-W-S-N)","북남동서 (N-S-E-W)","남북동서 (S-N-E-W)","서동남북 (W-E-S-N)"],ans:"동서남북 (E-W-S-N)",hint:"East comes first in Korean culture. The sun rises there."},
         {type:"tip",title:"Directions in Korean Place Names",deepDive:{
           title:"Seoul's Four Gates",
@@ -350,7 +350,7 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
         {type:"match",pairs:[{trg:"동쪽",src:"east"},{trg:"서쪽",src:"west"},{trg:"남쪽",src:"south"},{trg:"북쪽",src:"north"}]},
         {type:"match",pairs:[{trg:"동대문",src:"East Gate"},{trg:"남산",src:"South Mountain"},{trg:"북한",src:"North Korea"},{trg:"서해",src:"West Sea"}]},
         {type:"drag_fill",hint:"The sun rises in one direction and sets in the opposite.",s:"해가 {1}에서 떠서 {2}에서 져요.",blanks:{"1":"동쪽","2":"서쪽"},pool:["동쪽","서쪽","남쪽","북쪽"]},
-        {type:"mc",q:"남산타워 is on which mountain?",opts:["남산 (South Mountain)","북한산 (North Han Mountain)","동대문 (East Gate area)","서울산 (Seoul Mountain)"],ans:"남산 (South Mountain)",hint:"남산 = 남 (south) + 산 (mountain). The famous tower is there."},
+        {type:"mc",q:"남산타워 is on which mountain?",opts:["남산 (South Mountain)","북한산 (North Han Mountain)","동대문 (East Gate area)","서울산 (Seoul Mountain)"],ans:"남산 (South Mountain)",hint:"남산 = 남 (___) + 산 (___). The famous tower is there."},
         {type:"fb",opts:["북쪽","남쪽","동쪽","서쪽"],hint:"The direction opposite to south. 북 = north.",s:"겨울에 ___이 아주 추워요.\n(In winter, the north is very cold.)",a:"북쪽"},
         {type:"mc",q:"동대문 = 동 + 대 + 문. 동 means:",opts:["east","west","great","gate"],ans:"east",hint:"The first character in the Korean compass order 동서남북."}
   ]},
@@ -433,8 +433,8 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
         {type:"mc",q:"얼마나 means:",opts:["how much/long","how many","where","when"],ans:"how much/long",hint:"A question word for degree or duration. 얼마나 걸려요? = How long does it take?"},
         {type:"teach",trg:"가장",src:"the most",pos:"noun",gender:null,phonetic:"ga-jang",note:"가장: the most  -  same meaning as 제일.\n제일 is more colloquial, 가장 more formal.",example:"A: 뭐가 가장 중요해요? B: 건강이 가장 중요해요.",exampleSrc:"A: What is most important? B: Health is the most important.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
         {type:"tip",title:"📊 Frequency Scale  -  Full A1 Set",text:"항상 / 늘\n→ always\n\n자주\n→ often\n\n보통\n→ usually\n\n가끔\n→ sometimes\n\n별로 (+ negative)\n→ not really\n\n전혀 (+ negative)\n→ not at all\n\n이제 A1이 진짜 끝났어요.\n→ Now A1 is truly complete."},
-        {type:"mc",q:"별로 / 전혀 always pair with:",opts:["Positive sentences (verb + 요)","Negative sentences (안/못/없어요)","Questions only (interrogative)","Past tense only (았/었어요)"],ans:"Negative sentences (안/못/없어요)",hint:"별로 안 좋아요, 전혀 없어요  -  always negative"},
-        {type:"mc",q:"'How long does it take?' in Korean:",opts:["얼마예요?","얼마나 걸려요?","언제 걸려요?","왜 걸려요?"],ans:"얼마나 걸려요?",hint:"얼마나 = how much/long (degree/duration)"},
+        {type:"mc",q:"별로 / 전혀 always pair with:",opts:["Positive sentences (verb + 요)","Negative sentences (안/못/없어요)","Questions only (interrogative)","Past tense only (았/었어요)"],ans:"Negative sentences (안/못/없어요)",hint:"별로 안 좋아요, 전혀 ___  -  always ___"},
+        {type:"mc",q:"'How long does it take?' in Korean:",opts:["얼마예요?","얼마나 걸려요?","언제 걸려요?","왜 걸려요?"],ans:"얼마나 걸려요?",hint:"___ = how much/long (degree/duration)"},
         {type:"fb",opts:["자주","가끔","전혀","별로"],hint:"... = often",s:"저는 ___ 커피를 마셔요.\n(I often drink coffee)",a:"자주"},
         {type:"fb",opts:["천천히","자주","다시","혼자"],hint:"... = slowly",s:"___ 말해 주세요.\n(Please speak slowly)",a:"천천히"},
         {type:"match",pairs:[{trg:"자주",src:"often"},{trg:"가끔",src:"sometimes"},{trg:"전혀 + neg",src:"not at all"},{trg:"제일/가장",src:"the most/best"}]},
@@ -448,16 +448,16 @@ export default {n:6,lang:"ko",srcLang:"en",track:"v2",title:"어디 가요?",sub
         ,funFact:"Korean particles attach to nouns to show their role in the sentence. The particle, not word order, determines meaning."}},
         {type:"mc",q:"에 vs 에서  -  the key difference:",opts:["They are the same thing","에: static; 에서: action","에: action; 에서: static","에: formal; 에서: casual"],ans:"에: static; 에서: action",hint:"에 = being/going there. 에서 = doing something there."},
         {type:"mc",q:"지하 means 'underground'. 지하철 therefore means:",opts:["Underground train","Fast train","City bus","Underground tunnel"],ans:"Underground train",hint:"지하 (underground) + 철 (iron/rail) = subway/metro."},
-        {type:"mc",q:"버스로 가요. 로 here marks:",opts:["Object (acted on)","Location (at/in)","Means of transport","Topic (about this)"],ans:"Means of transport",hint:"(으)로 = by means of / toward."},
+        {type:"mc",q:"버스로 가요. 로 here marks:",opts:["Object (acted on)","Location (at/in)","Means of transport","Topic (about this)"],ans:"Means of transport",hint:"(으)로 = by ___ of / toward."},
         {type:"mc",q:"In 먹어요, the stem is:",opts:["먹어","먹","어요","먹어요"],ans:"먹",hint:"Strip 다 from 먹다. Remaining = stem."},
         {type:"mc",q:"'It's hot'  -  correct polite form:",opts:["덥어요","덥요","더워요","더워다"],ans:"더워요",hint:"덥다 is ㅂ-irregular. ㅂ becomes 우 before vowel endings."},
         {type:"mc",q:"공항 = 공 + 항. 공 means:",opts:["Korean / domestic","Machine / device","Air / public / empty","Port / harbor"],ans:"Air / public / empty",hint:"공 (空): air, public, empty. 공기, 공원, 공항"},
-        {type:"mc",q:"비가 와요  -  why 와요 (come) not another verb?",opts:["No reason, just random","Korean sees rain as coming","와요 sounds nice and soft","It is a translation of English"],ans:"Korean sees rain as coming",hint:"비가 오다 = rain comes = it rains. 눈이 오다 = snow comes = it snows."},
+        {type:"mc",q:"비가 와요  -  why 와요 (come) not another verb?",opts:["No reason, just random","Korean sees rain as coming","와요 sounds nice and soft","It is a translation of English"],ans:"Korean sees rain as coming",hint:"비가 오다 = ___ comes = it ___s. 눈이 오다 = snow comes = it snows."},
         {type:"fb",opts:["에서","에","를","로"],hint:"Studying is an ACTION at the library",s:"도서관___공부해요.\n(I study at the library)",a:"에서"},
         {type:"fb",opts:["로","에","에서","를"],hint:"지하철 ends in a consonant → 로 (by subway)",s:"지하철___학교에 가요.\n(I go to school by subway)",a:"로"},
         {type:"fb",opts:["와요","오아요","오요","왔요"],hint:"Check the stem vowel: bright or dark?",s:"친구가___.\n(A friend comes  -  polite present)",a:"와요"},
         {type:"match",pairs:[{trg:"에",src:"to/at (static or destination)"},{trg:"에서",src:"at (action location)"},{trg:"(으)로",src:"by/toward (means/direction)"},{trg:"을/를",src:"object marker"}]},
         {type:"drag_fill",hint:"I go to the airport by bus. I waited at the airport for 2 hours.",s:"저는 버스{1} 공항{2} 가요. 공항{3} 두 시간 기다렸어요.",blanks:{"1":"로","2":"에","3":"에서"},pool:["로","에","에서","를","는"]},
-        {type:"mc",q:"지금까지 배운 것으로 할 수 있는 것은?",opts:["기본 생활 한국어 (Handle survival Korean)","한국 소설 읽기 (Read Korean novels)","자막 없이 드라마 보기 (Watch dramas without subs)","회의에서 유창하게 말하기 (Speak fluently in meetings)"],ans:"기본 생활 한국어 (Handle survival Korean)",hint:"At this stage you can navigate, eat, shop, ask directions, handle numbers."}
+        {type:"mc",q:"지금까지 배운 것으로 할 수 있는 것은?",opts:["기본 생활 한국어 (Handle survival Korean)","한국 소설 읽기 (Read Korean novels)","자막 없이 드라마 보기 (Watch dramas without subs)","회의에서 유창하게 말하기 (Speak fluently in meetings)"],ans:"기본 생활 한국어 (Handle survival Korean)",hint:"At this stage you can navigate, eat, shop, ask directions, ___ numbers."}
   ]}
 ]};

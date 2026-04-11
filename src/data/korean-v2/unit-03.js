@@ -18,13 +18,13 @@ export default {n:3,lang:"ko",srcLang:"en",track:"v2",title:"하나, 둘, 셋",s
         {type:"mc",q:"십일 in numbers:",opts:["10","11","12","21"],ans:"11",hint:"십(10) + 일(1)"},
         {type:"mc",q:"이십 in numbers:",opts:["12","20","21","2"],ans:"20",hint:"이(2) × 십(10)"},
         {type:"mc",q:"삼십오 in numbers:",opts:["35","53","305","350"],ans:"35",hint:"삼(3) tens + 오(5)"},
-        {type:"mc",q:"Why do many Korean buildings skip the 4th floor?",opts:["Building codes","사 sounds like 'death'","Only 3 floors are needed","Old tradition"],ans:"사 sounds like 'death'",hint:"사 = 4 AND death (from Chinese)"},
+        {type:"mc",q:"Why do many Korean buildings skip the 4th floor?",opts:["Building codes","사 sounds like 'death'","Only 3 floors are needed","Old tradition"],ans:"사 sounds like 'death'",hint:"사 = 4 AND ___ (from Chinese)"},
         {type:"fb",opts:["십","팔","구","칠"],hint:"4 + 6 = ?",s:"사 더하기 육은 ___이에요. (4 + 6 = ___)",a:"십"},
         {type:"fb",opts:["삼","이","사","육"],hint:"20 + 3 = 23: 이십 + ?",s:"이십___ = 23 (twenty-___)",a:"삼"},
         {type:"match",pairs:[{trg:"일",src:"1"},{trg:"삼",src:"3"},{trg:"육",src:"6"},{trg:"십",src:"10"}]},
         {type:"match",pairs:[{trg:"십일",src:"11"},{trg:"이십",src:"20"},{trg:"삼십",src:"30"},{trg:"사십오",src:"45"}]},
         {type:"drag_fill",hint:"010 format: most Korean mobile numbers start 010",s:"전화번호: 공 {1} 공 - 일이삼사 - 오육칠팔",blanks:{"1":"일"},pool:["일","이","삼","사","오"]},
-        {type:"mc",q:"Sino-Korean numbers are used for:",opts:["Counting apples","Telling the hour","Dates and money","Age"],ans:"Dates and money",hint:"Dates, money, phone numbers, minutes  -  all Sino-Korean"}
+        {type:"mc",q:"Sino-Korean numbers are used for:",opts:["Counting apples","Telling the hour","Dates and money","Age"],ans:"Dates and money",hint:"___, ___, phone numbers, minutes  -  all Sino-Korean"}
   ]},
   {id:"kou3l2",title:"백, 천, 만",icon:"💰",xp:20,board:true,steps:[
         {type:"intro",title:"Bigger Numbers",desc:"만\n→ ten-thousand\n\nKorean counts by 10,000s, not 1,000s.",goals:["Use 백 (100), 천 (1,000), 만 (10,000)","Understand the Korean ten-thousand base","Read real Korean prices"]},
@@ -43,7 +43,7 @@ export default {n:3,lang:"ko",srcLang:"en",track:"v2",title:"하나, 둘, 셋",s
         {type:"mc",q:"오천 원 in won:",opts:["₩500","₩5,000","₩50,000","₩500,000"],ans:"₩5,000",hint:"오(5) × 천(1,000)"},
         {type:"mc",q:"오만 원 in won:",opts:["₩5,000","₩50,000","₩500,000","₩5,000,000"],ans:"₩50,000",hint:"오(5) × 만(10,000) = 50,000  -  the biggest Korean bill"},
         {type:"mc",q:"Korean groups big numbers by:",opts:["Hundreds (백)","Thousands (천)","Ten-thousands (만)","Millions"],ans:"Ten-thousands (만)",hint:"만 = 10,000 is the base grouping unit"},
-        {type:"mc",q:"전화번호 = 전화 + 번호. What does 전화 mean?",opts:["Number","Address","Phone call","Building"],ans:"Phone call",hint:"전화하다 = to phone someone"},
+        {type:"mc",q:"전화번호 = 전화 + 번호. What does 전화 mean?",opts:["Number","Address","Phone call","Building"],ans:"Phone call",hint:"전화하다 = to ___ someone"},
         {type:"fb",opts:["오천","오백","오십","오"],hint:"30,000 + 5,000 = 35,000",s:"삼만___ = 35,000원 (thirty thousand + ___)",a:"오천"},
         {type:"fb",opts:["천","백","만","십"],hint:"1,000 = one thousand",s:"1,000원은 ___원이에요. (1,000 = one thousand)",a:"천"},
         {type:"match",pairs:[{trg:"백",src:"100"},{trg:"천",src:"1,000"},{trg:"만",src:"10,000"},{trg:"십만",src:"100,000"}]},
@@ -160,7 +160,7 @@ export default {n:3,lang:"ko",srcLang:"en",track:"v2",title:"하나, 둘, 셋",s
         {type:"mc",q:"이천오백 원 in won:",opts:["₩250","₩2,500","₩25,000","₩250,000"],ans:"₩2,500",hint:"이(2) × 천(1,000) + 오(5) × 백(100) = 2,500"},
         {type:"mc",q:"삼만 원 in won:",opts:["₩3,000","₩300","₩30,000","₩300,000"],ans:"₩30,000",hint:"삼(3) × 만(10,000) = 30,000"},
         {type:"mc",q:"The ₩50,000 bill features:",opts:["Modern Seoul skyline","King Sejong the Great","Shin Saimdang","Cherry blossom painting"],ans:"Shin Saimdang",hint:"신사임당: famous artist and calligrapher. King Sejong is on the ₩10,000 bill."},
-        {type:"mc",q:"You want to pay by card. You say:",opts:["영수증 주세요","카드로 해 주세요","현금이 없어요","얼마예요?"],ans:"카드로 해 주세요",hint:"카드 = card, 로 = by means of, 해 주세요 = please do"},
+        {type:"mc",q:"You want to pay by card. You say:",opts:["영수증 주세요","카드로 해 주세요","현금이 없어요","얼마예요?"],ans:"카드로 해 주세요",hint:"카드 = card, 로 = by means of, 해 ___ = please do"},
         {type:"fb",opts:["만오천","십오천","오만","천오"],hint:"15,000 = 만(10,000) + 오천(5,000)",s:"이 책은 ___ 원이에요.\n(This book is ___ won. ₩15,000)",a:"만오천"},
         {type:"fb",opts:["할인","거스름돈","영수증","카드"],hint:"할 (cut) + 인 (price) = discount",s:"___이 있어요?\n(Is there a discount?)",a:"할인"},
         {type:"match",pairs:[{trg:"얼마예요?",src:"How much is it?"},{trg:"영수증",src:"receipt"},{trg:"할인",src:"discount"},{trg:"거스름돈",src:"change (money back)"}]},
@@ -181,7 +181,7 @@ export default {n:3,lang:"ko",srcLang:"en",track:"v2",title:"하나, 둘, 셋",s
           title:"Using Flexible middle, fixed end",
           text:"학교에서 (at school)  -  location\n점심을 (lunch)  -  object\n먹었어요 (ate)  -  VERB LAST\n\nThe middle elements can shift.\nThe verb CANNOT move from the end.\n\nEnglish: I ate lunch at school yesterday.\nKorean: Yesterday I at-school lunch ATE."
         ,funFact:"Korean has rich exclamations that express subtle emotions. Tone and context determine the exact feeling."}},
-        {type:"mc",q:"In Korean, the standard word order is:",opts:["Subject  -  Verb  -  Object","Object  -  Subject  -  Verb","Subject  -  Object  -  Verb","Verb  -  Subject  -  Object"],ans:"Subject  -  Object  -  Verb",hint:"The verb always goes last in Korean sentences."},
+        {type:"mc",q:"In Korean, the standard word order is:",opts:["Subject  -  Verb  -  Object","Object  -  Subject  -  Verb","Subject  -  Object  -  Verb","Verb  -  Subject  -  Object"],ans:"Subject  -  Object  -  Verb",hint:"The ___ always goes last in Korean sentences."},
         {type:"tip",title:"⭐ Why SOV Feels Natural After Two Units",deepDive:{
           title:"The Verb-Last Rule and Why It Sticks",
           text:"SOV = Subject-Object-Verb. The verb ALWAYS goes last.\nThe middle is flexible. The end is fixed.\n\n저도 몰라요 → ...몰라요 (last)\n\nYour brain already knows SOV.\nThis lesson just gave your brain a name for it.\n\nKey takeaway: NEVER move the verb.\nEven in a sentence with 10 elements,\nthe verb is the caboose."
@@ -189,13 +189,13 @@ export default {n:3,lang:"ko",srcLang:"en",track:"v2",title:"하나, 둘, 셋",s
         {type:"mc",q:"In Korean, where does the verb go?",opts:["First","Middle","Last","It varies"],ans:"Last",hint:"SOV = verb at the END, always"},
         {type:"mc",q:"저는 학생이에요. The verb is:",opts:["저는","학생","이에요","저"],ans:"이에요",hint:"The verb is always the final element"},
         {type:"mc",q:"Which sentence shows correct SOV order?",opts:["마셔요 저는 커피를","저는 마셔요 커피를","저는 커피를 마셔요","커피를 마셔요 저는"],ans:"저는 커피를 마셔요",hint:"Subject first, object middle, verb LAST"},
-        {type:"mc",q:"Korean SOV vs English SVO: what's different?",opts:["Korean has no subject","Verb is in the middle in Korean","Verb comes last in Korean","Objects come first in Korean"],ans:"Verb comes last in Korean",hint:"English: I DRINK coffee. Korean: I coffee DRINK."},
+        {type:"mc",q:"Korean SOV vs English SVO: what's different?",opts:["Korean has no subject","Verb is in the middle in Korean","Verb comes last in Korean","Objects come first in Korean"],ans:"Verb comes last in Korean",hint:"English: I DRINK coffee. ___: I coffee DRINK."},
         {type:"fb",opts:["먹어요","있어요","가요","이에요"],hint:"Verb = last. 밥을 먹다 = to eat rice",s:"저는 밥을 ___.\n(I eat rice  -  put the verb last)",a:"먹어요"},
         {type:"fb",opts:["읽었어요","도서관","어제","책을"],hint:"The verb (read) goes last in this SOV sentence",s:"어제 저는 도서관에서 책을 ___.\n(Yesterday I ___ a book at the library.)",a:"읽었어요"},
         {type:"match",pairs:[{trg:"S",src:"subject (first)"},{trg:"O",src:"object (middle)"},{trg:"V",src:"verb (always LAST)"},{trg:"SOV",src:"Korean word order"}]},
         {type:"drag_fill",hint:"I drink coffee  -  object comes before verb",s:"{1} {2}를 {3}.",blanks:{"1":"저는","2":"커피","3":"마셔요"},pool:["커피","마셔요","저는","학교"]},
         {type:"mc",q:"어제 저는 학교에서 점심을 먹었어요. The verb is:",opts:["어제","저는","점심을","먹었어요"],ans:"먹었어요",hint:"Verb = last word. Always."},
-        {type:"mc",q:"Korean word order is flexible EXCEPT:",opts:["The verb can move anywhere","The verb must be last","The subject must be first","Particles can be dropped"],ans:"The verb must be last",hint:"SOV: the verb always goes at the end"}
+        {type:"mc",q:"Korean word order is flexible EXCEPT:",opts:["The verb can move anywhere","The verb must be last","The subject must be first","Particles can be dropped"],ans:"The verb must be last",hint:"SOV: the ___ always goes at the end"}
   ]},
   {id:"kou3l7b",title:"★ 해요체 Named: You've Been Speaking It All Along",icon:"🎙️",xp:25,board:true,steps:[
         {type:"intro",title:"The Speech Level You're Already Using",desc:"해요체\n→ the polite register\n\nEvery -요 ending you've used is this.",goals:["Learn the name: 해요체","Understand what a speech level is and why Korean has them","See the 3 practical speech levels (not 7  -  be calm)","Hear 합쇼체 and recognise you've already encountered it","Know when 반말 exists but not use it yet"]},
@@ -211,7 +211,7 @@ export default {n:3,lang:"ko",srcLang:"en",track:"v2",title:"하나, 둘, 셋",s
           title:"Using 합쇼체 (hapjyo-che)",
           text:"감사합니다 () = 하다 → 합니다 form\n안녕히 가세요 → formal version: 안녕히 가십시오\n\nFORMATION:\nStem ends in vowel + ㅂ니다: 가다 → 갑니다\nStem ends in consonant + 습니다: 먹다 → 먹습니다\n\nWHEN to use:\n• Job interviews\n• Meeting clients / senior strangers\n• Official broadcasts and announcements\n• Military, airlines, formal ceremonies\n\n⚡ You don't need to produce this yet. Just recognise it."
         ,funFact:"Korean has rich exclamations that express subtle emotions. Tone and context determine the exact feeling."}},
-        {type:"mc",q:"감사합니다  -  the -ㅂ니다 ending signals:",opts:["해요체","합쇼체 (formal)","반말","A question"],ans:"합쇼체 (formal)",hint:"합니다/ㅂ니다/습니다 = 합쇼체. The formal register."},
+        {type:"mc",q:"감사합니다  -  the -ㅂ니다 ending signals:",opts:["해요체","합쇼체 (formal)","반말","A question"],ans:"합쇼체 (formal)",hint:"합니다/ㅂ니다/습니다 = ___. The ___ register."},
         {type:"mc",q:"Meeting a Korean colleague for the first time, you use:",opts:["반말 (casual)","해요체 or 합쇼체","Only 합쇼체","English instead"],ans:"해요체 or 합쇼체",hint:"Both polite registers are appropriate for first meetings"},
         {type:"teach",trg:"합쇼체  -  formation pattern",src:"Verb stem + ㅂ니다 (vowel) / 습니다 (consonant)",pos:"part",gender:null,phonetic:"",note:"\n가다 → 갑니다 (to go → go, formal)\n→ vowel stem: just add the ending\n먹다 → 먹습니다 (consonant stem: add -습니다).\n하다 → 합니다 (to do → do, formal).",example:"A: 어디 갑니까? B: 학교에 갑니다.",exampleSrc:"A: Where are you going? (formal) B: I'm going to school. (formal)",deepDive:{
           title:"Same Engine, Different Car",
@@ -242,14 +242,14 @@ export default {n:3,lang:"ko",srcLang:"en",track:"v2",title:"하나, 둘, 셋",s
         {type:"teach",trg:"축하해요",src:"Congratulations!",pos:"noun",gender:null,phonetic:"chu-ka-hae-yo",note:"축하: congratulations.\n축하해요: 'Congratulations!' / 'Happy [occasion]!'\n",example:"A: 오늘 생일이에요! B: 생일 축하해요!",exampleSrc:"A: Today is my birthday! B: Happy birthday!",deepDive:{title:"Using 축하해요",text:"생일 축하해요: Happy birthday!\n결혼 축하해요: Congratulations on your wedding!\n졸업 축하해요: Congratulations on graduating!",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
         {type:"mc",q:"생일 = 생 + 일. 생 means:",opts:["Sun","Study","Birth/life","Person"],ans:"Birth/life",hint:"생 = birth, same morpheme as 학생 (study-person)"},
         {type:"mc",q:"'July 7th' in Korean:",opts:["칠월 칠일","일곱월 일곱일","칠월 일곱일","일월 칠일"],ans:"칠월 칠일",hint:"Dates use SINO-Korean. 7 = 칠."},
-        {type:"mc",q:"Korean date order is:",opts:["Day → Month → Year","Month → Day → Year (American)","Year → Month → Day","Month → Year → Day"],ans:"Year → Month → Day",hint:"Big to small: year first, day last"},
+        {type:"mc",q:"Korean date order is:",opts:["Day → Month → Year","Month → Day → Year (American)","Year → Month → Day","Month → Year → Day"],ans:"Year → Month → Day",hint:"Big to small: ___ first, ___ last"},
         {type:"mc",q:"내년 = 내 + 년. 년 means:",opts:["Month","Day","Year","Time"],ans:"Year",hint:"년 = year. 내 = next."},
         {type:"fb",opts:["언제","어디","뭐","얼마"],hint:"Time question word: when",s:"생일이 ___예요?\n(When is your birthday?)",a:"언제"},
         {type:"fb",opts:["년","월","일","살"],hint:"Year marker after the number",s:"이천이십오___ 삼월 이십오일.\n(The year 2025)",a:"년"},
         {type:"fb",opts:["축하","감사","안녕","미안"],hint:"Congratulations",s:"생일 ___해요!\n(Happy birthday!)",a:"축하"},
         {type:"match",pairs:[{trg:"년",src:"year"},{trg:"월",src:"month"},{trg:"일",src:"day"},{trg:"생일",src:"birthday (birth+day)"}]},
         {type:"drag_fill",hint:"2002, July 15th  -  a sample birthday",s:"제 생일은 {1}년 {2}월 {3}일이에요.",blanks:{"1":"이천이","2":"칠","3":"십오"},pool:["이천이","이천삼","칠","팔","십오","이십"]},
-        {type:"mc",q:"'생일 축하해요' is used for:",opts:["Any celebration","Only for adults","Any birthday","Only for children"],ans:"Any birthday",hint:"생일 축하해요 = Happy birthday (any age)"}
+        {type:"mc",q:"'생일 축하해요' is used for:",opts:["Any celebration","Only for adults","Any birthday","Only for children"],ans:"Any birthday",hint:"생일 축하해요 = Happy ___ (any age)"}
   ]},
   {id:"kou3l8b",title:"일월-십이월 (Months)",icon:"📅",xp:20,board:true,steps:[
         {type:"intro",title:"12 Months in Korean",desc:"일월 → January\n\nAll months = Sino-Korean number + 월.\nYou already know the numbers. Now add 월!",goals:["Name all 12 months","Use months in date sentences","Know the irregular pronunciations"]},
@@ -262,7 +262,7 @@ export default {n:3,lang:"ko",srcLang:"en",track:"v2",title:"하나, 둘, 셋",s
         {type:"teach",trg:"삼월",src:"March",pos:"noun",gender:null,phonetic:"sam-wol",note:"삼(3) + 월(month) = March.",example:"A: 삼월에 벚꽃이 펴요? B: 네, 삼월 말에 펴요.",exampleSrc:"A: Do cherry blossoms bloom in March? B: Yes, they bloom in late March.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
         {type:"teach",trg:"사월",src:"April",pos:"noun",gender:null,phonetic:"sa-wol",note:"사(4) + 월(month) = April.",example:"A: 사월에 날씨가 어때요? B: 따뜻해요.",exampleSrc:"A: How is the weather in April? B: It's warm.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
         {type:"teach",trg:"오월",src:"May",pos:"noun",gender:null,phonetic:"o-wol",note:"오(5) + 월(month) = May.\n어린이날: Children's Day (May 5th).",example:"A: 오월에 무슨 날이 있어요? B: 어린이날이 있어요.",exampleSrc:"A: What holiday is in May? B: Children's Day.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
-        {type:"mc",q:"삼월은 몇 번째 달이에요?\n(March is which month?)",opts:["1st month","2nd month","3rd month","4th month"],ans:"3rd month",hint:"삼 = 3. 삼월 = 3rd month"},
+        {type:"mc",q:"삼월은 몇 번째 달이에요?\n(March is which month?)",opts:["1st month","2nd month","3rd month","4th month"],ans:"3rd month",hint:"삼 = 3. 삼월 = 3rd ___"},
         {type:"teach",trg:"유월",src:"June",pos:"noun",gender:null,phonetic:"yu-wol",note:"IRREGULAR: 육월 → 유월 (the ㄱ drops!).\n장마: rainy season (monsoon).",example:"A: 유월에 뭐 해요? B: 장마가 시작돼요.",exampleSrc:"A: What happens in June? B: The rainy season starts.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
         {type:"teach",trg:"칠월",src:"July",pos:"noun",gender:null,phonetic:"chil-wol",note:"칠(7) + 월(month) = July.",example:"A: 칠월에 날씨가 어때요? B: 아주 더워요.",exampleSrc:"A: How is the weather in July? B: It's very hot.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
         {type:"teach",trg:"팔월",src:"August",pos:"noun",gender:null,phonetic:"pal-wol",note:"팔(8) + 월(month) = August.\n여름 휴가: summer vacation.",example:"A: 팔월에 뭐 해요? B: 여름 휴가를 가요.",exampleSrc:"A: What do you do in August? B: I go on summer vacation.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
@@ -278,7 +278,7 @@ export default {n:3,lang:"ko",srcLang:"en",track:"v2",title:"하나, 둘, 셋",s
         {type:"match",pairs:[{trg:"일월",src:"January"},{trg:"삼월",src:"March"},{trg:"유월",src:"June"},{trg:"시월",src:"October"}]},
         {type:"match",pairs:[{trg:"사월",src:"April"},{trg:"칠월",src:"July"},{trg:"십일월",src:"November"},{trg:"십이월",src:"December"}]},
         {type:"drag_fill",hint:"My birthday is August 15th",s:"제 생일은 {1} {2}일이에요.",blanks:{"1":"팔월","2":"십오"},pool:["팔월","칠월","십오","이십"]},
-        {type:"mc",q:"수능 is in which month?",opts:["시월 (October)","십일월 (November)","십이월 (December)","구월 (September)"],ans:"십일월 (November)",hint:"Korea's college entrance exam is in November"}
+        {type:"mc",q:"수능 is in which month?",opts:["시월 (October)","십일월 (November)","십이월 (December)","구월 (September)"],ans:"십일월 (November)",hint:"Korea's college entrance exam is in ___"}
   ]},
   {id:"kou3l9",title:"요일 (Days of the Week)",icon:"📆",xp:20,board:true,steps:[
         {type:"intro",title:"Monday Through Sunday",desc:"월요일\n→ Monday\n\nEvery day = element (e.g. 화 fire) + 요일.",goals:["Name all 7 days","Decompose each day name","Ask and say what day it is"]},
@@ -309,10 +309,10 @@ export default {n:3,lang:"ko",srcLang:"en",track:"v2",title:"하나, 둘, 셋",s
         {type:"teach",trg:"Review Summary",src:"What you now know",pos:"num",gender:null,phonetic:"",note:"Two number systems, each with its own job.\nCounters learned: things, people, cups, animals, and more.\nTime: native Korean for hours, Sino-Korean for minutes.",example:"A: 지금 몇 시예요? B: 세 시 반이에요.",exampleSrc:"A: What time is it now? B: It's 3:30.",deepDive:{title:"Using Review Summary",text:"DATES: Sino-Korean, big→small.\nSOV: verb ALWAYS last.",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."}},
         {type:"mc",q:"십오 in numbers:",opts:["5","10","15","50"],ans:"15",hint:"십(10) + 오(5)"},
         {type:"mc",q:"'3 cups of coffee':",opts:["커피 삼 잔","커피 세 잔","세 커피 잔","커피 셋 잔"],ans:"커피 세 잔",hint:"Drinks counter 잔, native number 셋→세"},
-        {type:"mc",q:"Korean word order is:",opts:["SVO (like English)","SOV (verb last)","VSO","Free, no rules"],ans:"SOV (verb last)",hint:"Subject Object Verb  -  verb at the end, always"},
+        {type:"mc",q:"Korean word order is:",opts:["SVO (like English)","SOV (verb last)","VSO","Free, no rules"],ans:"SOV (verb last)",hint:"Subject Object ___  -  ___ at the end, always"},
         {type:"mc",q:"오전 = 오 + 전. It means:",opts:["5 o'clock","Afternoon / PM","Before noon / AM","After 5"],ans:"Before noon / AM",hint:"오(noon) + 전(before) = AM"},
         {type:"mc",q:"학생 has 생 meaning person/life. In 생일, 생 means:",opts:["Study","Day","Birth","Student"],ans:"Birth",hint:"생 = birth/life. 일 = day. 생일 = birthday."},
-        {type:"mc",q:"Hours use ___; minutes use ___.",opts:["Sino; Native","Native; Sino","Both Sino","Both Native"],ans:"Native; Sino",hint:"세 시(native) 삼십 분(Sino) = 3:30"},
+        {type:"mc",q:"Hours use ___; minutes use ___.",opts:["Sino; Native","Native; Sino","Both Sino","Both Native"],ans:"Native; Sino",hint:"세 시(___) 삼십 분(___) = 3:30"},
         {type:"mc",q:"수요일 = 수 + 요일. 수 means:",opts:["Moon","Fire","Water","Gold"],ans:"Water",hint:"수 = water. Water-day = Wednesday."},
         {type:"mc",q:"Which correctly says '2 people'?",opts:["둘 명","이 명","두 명","이분"],ans:"두 명",hint:"둘 → 두 before counter 명"},
         {type:"fb",opts:["읽어요","책을","저는","도서관"],hint:"SOV: verb goes at the end",s:"저는 책을 ___.\n(I read books  -  verb last)",a:"읽어요"},

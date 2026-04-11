@@ -44,7 +44,7 @@ export default {n:11,lang:"nl",srcLang:"en",track:"v2",title:"Op het Werk",sub:"
         {type:"match",pairs:[{trg:"de vergadering",src:"the meeting"},{trg:"de pauze",src:"the break"},{trg:"de afspraak",src:"the appointment"},{trg:"het overleg",src:"the discussion"}]},
         {type:"fb",opts:["afspraak","vergadering","pauze","overleg"],hint:"An appointment at three",s:"Ik heb een ___ om drie uur. (appointment)",a:"afspraak"},
         {type:"drag_fill",hint:"I'm sick, you see. Therefore I work from home.",s:"Ik kan niet komen, ik ben {1} ziek. {2} werk ik vandaag thuis.",blanks:{"1":"namelijk","2":"Daarom"},pool:["namelijk","Daarom","want","maar"]},
-        {type:"mc",q:"Why is the Netherlands called the 'part-time capital'?",opts:["People are lazy","Many people work 4-day weeks by choice","Companies require it","Schools are only 4 days"],ans:"Many people work 4-day weeks by choice",hint:"Work-life balance is a Dutch value"},
+        {type:"mc",q:"Why is the Netherlands called the 'part-time capital'?",opts:["People are lazy","Many people work 4-day weeks by choice","Companies require it","Schools are only 4 days"],ans:"Many people work 4-day weeks by choice",hint:"___-life balance is a Dutch value"},
         {type:"tr",mk:"v2u11_meeting_at_ten",dir:"produce"}
   ]},
   {id:"v2u11l3",title:"Had Al Gedaan",icon:"📐",xp:20,board:true,steps:[
@@ -100,13 +100,13 @@ export default {n:11,lang:"nl",srcLang:"en",track:"v2",title:"Op het Werk",sub:"
         },text:"'Nadat' usually pairs with the past perfect:\n\nNadat ik had gegeten, ging ik slapen.\n= After I had eaten, I went to sleep.\n\nNadat zij was aangekomen, begon de vergadering.\n= After she had arrived, the meeting started.\n\nThe nadat-clause = the EARLIER event (past perfect).\nThe main clause = the LATER event (simple past or perfect).\n\nYou CAN use nadat without past perfect,\nbut with past perfect it's clearer and more precise."},
         {type:"mc",q:"'Nadat ik had gegeten, ging ik slapen.'  -  what happened first?",opts:["I went to sleep","I ate","They happened together","Neither"],ans:"I ate",hint:"Nadat-clause = the EARLIER event"},
         {type:"fb",opts:["Voordat","Nadat","Zodra","Totdat"],hint:"BEFORE I went home...",s:"___ ik naar huis ging, maakte ik het werk af.",a:"Voordat"},
-        {type:"mc",q:"In 'Voordat ik naar huis ging', the verb 'ging' is:",opts:["Second position","First position","At the end","Before the subject"],ans:"At the end",hint:"Subordinate clause → verb to end"},
+        {type:"mc",q:"In 'Voordat ik naar huis ging', the verb 'ging' is:",opts:["Second position","First position","At the end","Before the subject"],ans:"At the end",hint:"Subordinate clause → verb to ___"},
         {type:"drag_fill",hint:"After she arrived... I waited until...",s:"{1} zij was aangekomen, begon de vergadering. Ik wachtte {2} de baas klaar was.",blanks:{"1":"Nadat","2":"totdat"},pool:["Nadat","totdat","Voordat","zodra"]},
         {type:"fb",opts:["Zodra","Totdat","Voordat","Nadat"],hint:"As soon as I'm home...",s:"___ ik thuis ben, bel ik je. (as soon as)",a:"Zodra"},
         {type:"match",pairs:[{trg:"voordat",src:"before"},{trg:"nadat",src:"after"},{trg:"zodra",src:"as soon as"},{trg:"totdat",src:"until"}]},
-        {type:"mc",q:"'Nadat' is usually paired with which tense?",opts:["Present tense","Simple past only","Past perfect (had + PP)","Future tense"],ans:"Past perfect (had + PP)",hint:"Nadat + past form: what is the PP of 'eten'?"},
+        {type:"mc",q:"'Nadat' is usually paired with which tense?",opts:["Present tense","Simple past only","Past perfect (had + PP)","Future tense"],ans:"Past perfect (had + PP)",hint:"Nadat + ___ form: what is the PP of 'eten'?"},
         {type:"fb",opts:["gegeten","eten","at","gegeet"],hint:"Past perfect: had + past participle of eten",s:"Nadat ik had ___, ging ik naar bed. (eaten)",a:"gegeten"},
-        {type:"mc",q:"'Ik wacht totdat je klaar bent.'  -  why is 'bent' at the end?",opts:["It is a question","Totdat is a subordinate conjunction","Bent always goes last","It is the past perfect"],ans:"Totdat is a subordinate conjunction",hint:"Subordinate conjunctions push the verb to the end"},
+        {type:"mc",q:"'Ik wacht totdat je klaar bent.'  -  why is 'bent' at the end?",opts:["It is a question","Totdat is a subordinate conjunction","Bent always goes last","It is the past perfect"],ans:"Totdat is a subordinate conjunction",hint:"___ ___s push the verb to the end"},
         {type:"tr",mk:"v2u11_after_meeting",dir:"produce"},
         {type:"tr",mk:"v2u11_before_i_came",dir:"produce"}
   ]},
@@ -125,10 +125,10 @@ export default {n:11,lang:"nl",srcLang:"en",track:"v2",title:"Op het Werk",sub:"
         {type:"mc",q:"'Solliciteren naar een baan' means:",opts:["To apply for a job","To reject a job","To quit a job","To interview someone"],ans:"To apply for a job",hint:"Cognate of solicit, involves job-seeking"},
         {type:"fb",opts:["opleiding","ervaring","baan","sollicitatie"],hint:"What education/training did you do?",s:"Welke ___ heb je gedaan? (education/training)",a:"opleiding"},
         {type:"match",pairs:[{trg:"solliciteren",src:"to apply"},{trg:"het gesprek",src:"the interview"},{trg:"de ervaring",src:"the experience"},{trg:"de opleiding",src:"the education"}]},
-        {type:"mc",q:"In a Dutch interview, asking about vacation days is:",opts:["Rude","Completely normal","Only for the second interview","Never done"],ans:"Completely normal",hint:"Work-life balance is a Dutch value"},
+        {type:"mc",q:"In a Dutch interview, asking about vacation days is:",opts:["Rude","Completely normal","Only for the second interview","Never done"],ans:"Completely normal",hint:"___-life balance is a Dutch value"},
         {type:"fb",opts:["cv","brief","mail","baan"],hint:"What document summarizes your work experience?",s:"Stuur je ___ naar de werkgever.",a:"cv"},
         {type:"drag_fill",hint:"Three years of experience. Before that, I studied.",s:"Ik heb drie jaar {1} als programmeur. Daarvoor heb ik informatica {2}.",blanks:{"1":"ervaring","2":"gestudeerd"},pool:["ervaring","gestudeerd","opleiding","gewerkt"]},
-        {type:"mc",q:"'Het salaris' is:",opts:["de-word","het-word","no article","irregular"],ans:"het-word",hint:"Think about which article this word for pay takes"},
+        {type:"mc",q:"'Het salaris' is:",opts:["de-word","het-word","no article","irregular"],ans:"het-word",hint:"Think about which article this ___ for pay takes"},
         {type:"fb",opts:["gesprek","brief","mail","baan"],hint:"Sollicitatie + what word means 'job interview'?",s:"Ik heb morgen een sollicitatie___. (job interview)",a:"gesprek"},
         {type:"mc",q:"In a Dutch job application, you typically send:",opts:["Only a CV","CV and motivatiebrief","Three reference letters","A video introduction"],ans:"CV and motivatiebrief",hint:"The standard Dutch application: CV plus cover letter"},
         {type:"tr",mk:"v2u11_applied_for_job",dir:"produce"}
@@ -178,7 +178,7 @@ export default {n:11,lang:"nl",srcLang:"en",track:"v2",title:"Op het Werk",sub:"
   ]},
   {id:"v2u11l8",title:"Unit 11 Review",icon:"🔄",xp:20,board:true,steps:[
         {type:"intro",title:"Unit 11 Review",desc:"Let's bring it all together. Work vocabulary, the past perfect, time connectors, and workplace culture. This review tests everything from Unit 11.",goals:["Review all work vocabulary","Past perfect: had/was + PP","Voordat, nadat, zodra, totdat","Express opinions: Ik denk dat..., Volgens mij..."]},
-        {type:"mc",q:"'Ik had al gegeten toen hij kwam.'  -  the past perfect is:",opts:["hij kwam","ik had gegeten","Both are past perfect","Neither"],ans:"ik had gegeten",hint:"had + PP: which compound tense for earlier-than-past events?"},
+        {type:"mc",q:"'Ik had al gegeten toen hij kwam.'  -  the past perfect is:",opts:["hij kwam","ik had gegeten","Both are past perfect","Neither"],ans:"ik had gegeten",hint:"___ + PP: which compound tense for earlier-than-past events?"},
         {type:"fb",opts:["Voordat","Nadat","Zodra","Totdat"],hint:"BEFORE the meeting started...",s:"___ de vergadering begon, had ik al koffie gedronken.",a:"Voordat"},
         {type:"match",pairs:[{trg:"het kantoor",src:"the office"},{trg:"de vergadering",src:"the meeting"},{trg:"solliciteren",src:"to apply"},{trg:"het besluit",src:"the decision"}]},
         {type:"mc",q:"'Nadat ik had gegeten'  -  which tense is in the nadat-clause?",opts:["Present","Simple past","Past perfect","Future"],ans:"Past perfect",hint:"had + PP of 'eten' = which compound tense?"},

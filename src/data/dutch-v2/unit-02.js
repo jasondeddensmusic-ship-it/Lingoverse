@@ -172,7 +172,7 @@ export default {n:2,lang:"nl",srcLang:"en",track:"v2",title:"Who Am I?",sub:"Kom
         {type:"mc",q:"Er ___ drie mannen in het huis.",opts:["zijn","is","heeft","ben"],ans:"zijn",hint:"Three men = plural"},
         {type:"fb",opts:["is","zijn","heeft","ben"],hint:"Milk is singular (uncountable)",s:"Er ___ geen melk.",a:"is"},
         {type:"fb",opts:["zijn","is","heeft","bent"],hint:"Five houses = plural",s:"Er ___ vijf huizen in de stad.",a:"zijn"},
-        {type:"mc",q:"How do you say 'There is no house'?",opts:["Er is geen huis","Er zijn geen huis","Het is geen huis","Er heeft geen huis"],ans:"Er is geen huis",hint:"One house = singular, negate with geen"},
+        {type:"mc",q:"How do you say 'There is no house'?",opts:["Er is geen huis","Er zijn geen huis","Het is geen huis","Er heeft geen huis"],ans:"Er is geen huis",hint:"One house = singular, negate with ___"},
         {type:"fb",opts:["zijn","is","heeft","komt"],hint:"Two women + one man = plural total",s:"Er ___ twee vrouwen en een man.",a:"zijn"},
         {type:"drag_fill",hint:"One school (singular), three houses (plural)",s:"Er {1} een school en er {2} drie huizen.",blanks:{"1":"is","2":"zijn"},pool:["is","zijn","heeft","ben"]},
         {type:"match",mks:["phrase_there_is","phrase_there_are","phrase_there_is_no","phrase_there_are_no"]},
@@ -195,7 +195,7 @@ export default {n:2,lang:"nl",srcLang:"en",track:"v2",title:"Who Am I?",sub:"Kom
         {type:"mc",q:"___ man hier is een leraar.",opts:["Dit","Dat","Deze","Die"],ans:"Deze",hint:"Two clues: the noun type AND the distance"},
         {type:"fb",opts:["Dit","Deze","Dat","Die"],hint:"Think about the article AND the distance word",s:"___ huis daar is klein.",a:"Dat"},
         {type:"fb",opts:["Deze","Die","Dit","Dat"],hint:"Plural + hier = nearby",s:"___ kinderen hier spreken Nederlands.",a:"Deze"},
-        {type:"mc",q:"How do you say 'That man there is not here'?",opts:["Die man daar is niet hier","Deze man daar is niet hier","Dat man daar is niet hier","Dit man daar is niet hier"],ans:"Die man daar is niet hier",hint:"What article does 'man' use? And is he close?"},
+        {type:"mc",q:"How do you say 'That man there is not here'?",opts:["Die man daar is niet hier","Deze man daar is niet hier","Dat man daar is niet hier","Dit man daar is niet hier"],ans:"Die man daar is niet hier",hint:"What article does '___' use? And is he close?"},
         {type:"fb",opts:["Dit","Deze","Die","Dat"],hint:"Nearby + het-word: which demonstrative?",s:"___ is het kind hier.",a:"Dit"},
         {type:"fb",opts:["Dat","Deze","Die","Dit"],hint:"Far away + de-word: which demonstrative?",s:"___ is de school daar.",a:"Dat"},
         {type:"tip",title:"⚠️ A Common Mistake",deepDive:{
@@ -241,8 +241,8 @@ export default {n:2,lang:"nl",srcLang:"en",track:"v2",title:"Who Am I?",sub:"Kom
         {type:"match",mks:["noun_man","noun_child","noun_city","noun_country"]},
         {type:"tr",mk:"u2_no_schools_in_this_city",dir:"comprehend"},
         {type:"tr",mk:"u2_live_brussels_speak_french",dir:"produce"},
-        {type:"mc",q:"'Zij woont in Parijs.' What does this mean?",opts:["She lives in Paris","They live in Paris","She comes from Paris","She speaks French"],ans:"She lives in Paris",hint:"Singular zij + woont = lives"},
+        {type:"mc",q:"'Zij woont in Parijs.' What does this mean?",opts:["She lives in Paris","They live in Paris","She comes from Paris","She speaks French"],ans:"She lives in Paris",hint:"Singular zij + woont = ___"},
         {type:"fb",opts:["spreek","spreekt","spreken","komt"],hint:"Ik + verb stem for speaking",s:"Ik ___ Nederlands en Engels.",a:"spreek"},
-        {type:"mc",q:"'Er zijn veel mensen hier.' What is 'er' doing?",opts:["It replaces 'there'","It means 'he'","It means 'here'","It replaces 'they'"],ans:"It replaces 'there'",hint:"Think: there are many people here"}
+        {type:"mc",q:"'Er zijn veel mensen hier.' What is 'er' doing?",opts:["It replaces 'there'","It means 'he'","It means 'here'","It replaces 'they'"],ans:"It replaces 'there'",hint:"Think: ___ are many people here"}
   ]}
 ]};

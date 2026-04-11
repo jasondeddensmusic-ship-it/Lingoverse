@@ -52,7 +52,7 @@ export default {n:25,lang:"fr",srcLang:"en",track:"v2",title:"Le Subjonctif Pass
         {type:"mc",q:"Which sentence refers to a COMPLETED action?",opts:["Je suis triste qu'il ait perdu son emploi.","Je crains qu'il perde son emploi.","Il faut qu'il cherche un travail.","Je veux qu'il parte."],ans:"Je suis triste qu'il ait perdu son emploi.",hint:"Look for the compound subjunctive form with helper + participle"},
         {type:"fb",opts:["ait vu","voie","a vu","voit"],hint:"Déjà signals completion; the conjunction requires subjunctive",s:"Bien qu'elle {1} déjà le film, elle veut le revoir.",a:"ait vu"},
         {type:"drag_fill",hint:"Partir uses être. The participle agrees with vous (plural).",s:"Je suis surpris que vous {1} {2} sans moi.",blanks:{"1":"soyez","2":"partis"},pool:["soyez","partis","ayez","partir","parti"]},
-        {type:"mc",q:"'Il faut que tu aies envoyé le colis avant lundi.' Why subjonctif passé here?",opts:["The sending must be completed before a deadline","The sending is happening right now","The speaker doubts it was sent","It's a polite request"],ans:"The sending must be completed before a deadline",hint:"Avant lundi sets a completion deadline for a future-perfect meaning"},
+        {type:"mc",q:"'Il faut que tu aies envoyé le colis avant lundi.' Why subjonctif passé here?",opts:["The sending must be completed before a deadline","The sending is happening right now","The speaker doubts it was sent","It's a polite request"],ans:"The sending must be completed before a deadline",hint:"Avant lundi sets a completion ___ for a future-perfect meaning"},
         {type:"fb",opts:["aie","ai","ais","aurai"],hint:"Superlatives trigger subjunctive mood in French",s:"C'est le meilleur film que j'{1} jamais vu.",a:"aie"},
         {type:"match",pairs:[
           {trg:"qu'il soit venu (past)",src:"that he came"},
@@ -98,7 +98,7 @@ export default {n:25,lang:"fr",srcLang:"en",track:"v2",title:"Le Subjonctif Pass
         {type:"mc",q:"Which trigger takes INDICATIVE, not subjunctive?",opts:["je crois que (affirmative)","je doute que","je regrette que","j'ai peur que"],ans:"je crois que (affirmative)",hint:"Only one of these expresses certainty rather than doubt or emotion"},
         {type:"drag_fill",hint:"Assister uses avoir. Match vous in subjunctive with negation.",s:"C'est dommage que vous n'{1} pas {2} à la conférence.",blanks:{"1":"ayez","2":"assisté"},pool:["ayez","assisté","avez","assister","soyez"]},
         {type:"fb",opts:["soient","aient","sont","ont"],hint:"Arriver uses être; craindre que triggers subjunctive",s:"Je crains qu'ils ne {1} pas arrivés à temps.",a:"soient"},
-        {type:"mc",q:"'Il est peu probable qu'on ait trouvé une solution.' What does this express?",opts:["Doubt about a past event","Certainty about the future","A completed fact","A polite request"],ans:"Doubt about a past event",hint:"Il est peu probable expresses low likelihood about something"},
+        {type:"mc",q:"'Il est peu probable qu'on ait trouvé une solution.' What does this express?",opts:["Doubt about a past event","Certainty about the future","A completed fact","A polite request"],ans:"Doubt about a past event",hint:"Il est peu probable expresses low likelihood ___ something"},
         {type:"drag_fill",hint:"Partir uses être. The participle agrees with elle (feminine).",s:"Je suis surpris qu'elle {1} {2} sans rien dire.",blanks:{"1":"soit","2":"partie"},pool:["soit","partie","ait","partir","est"]},
         {type:"match",pairs:[
           {trg:"Je doute qu'il ait fini",src:"I doubt he finished"},
@@ -107,7 +107,7 @@ export default {n:25,lang:"fr",srcLang:"en",track:"v2",title:"Le Subjonctif Pass
           {trg:"Je suis content qu'il ait réussi",src:"I'm happy he succeeded"}
         ]},
         {type:"fb",opts:["ait","a","avait","soit"],hint:"Faire uses avoir; impossible que triggers subjunctive",s:"Il est impossible qu'elle {1} fait cela toute seule.",a:"ait"},
-        {type:"mc",q:"'Nous regrettons que le projet n'ait pas abouti.' What is the speaker expressing?",opts:["Regret about a failed project","Hope for future success","Doubt about the outcome","Fear of failure"],ans:"Regret about a failed project",hint:"Regretter expresses feeling about something that already occurred"},
+        {type:"mc",q:"'Nous regrettons que le projet n'ait pas abouti.' What is the speaker expressing?",opts:["Regret about a failed project","Hope for future success","Doubt about the outcome","Fear of failure"],ans:"Regret about a failed project",hint:"___ter expresses feeling ___ something that already occurred"},
         {type:"fb",opts:["soit partie","est partie","a parti","était partie"],hint:"Past completed action after a regret trigger. Movement verb requires auxiliary agreement.",s:"Je regrette qu'elle {1} sans dire au revoir.",a:"soit partie"},
         {type:"mc",q:"'Il est dommage qu'ils n'___ pas vu le spectacle.'",opts:["aient","ont","avaient","auraient"],ans:"aient",hint:"After an emotional expression, the completed past needs the subjunctive auxiliary for ils."}
   ]},

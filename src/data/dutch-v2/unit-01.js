@@ -29,7 +29,7 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"mc",q:"'Dag' can be used as:",opts:["Only hello","Only goodbye","Both hello AND goodbye","Only formal"],ans:"Both hello AND goodbye",hint:"The Swiss army knife"},
         {type:"fb",opts:["Doei","Meneer","Sorry","Hallo"],hint:"Casual goodbye to a friend",s:"___! Tot morgen!",a:"Doei"},
         {type:"match",pairs:[{trg:"hallo",src:"hello"},{trg:"dag",src:"hello/goodbye"},{trg:"tot ziens",src:"goodbye (formal)"},{trg:"doei",src:"bye! (casual)"}]},
-        {type:"mc",q:"What does 'tot ziens' literally mean?",opts:["Good day","Until seeing","See you later","Hello again"],ans:"Until seeing",hint:"Tot = until"}
+        {type:"mc",q:"What does 'tot ziens' literally mean?",opts:["Good day","Until seeing","See you later","Hello again"],ans:"Until seeing",hint:"Tot = ___"}
   ]},
   {id:"v2u1l2",title:"Zijn: To Be (Complete)",icon:"🧑",xp:20,board:true,steps:[
         {type:"intro",title:"Zijn: To Be",desc:"The most important verb in Dutch. You'll learn ALL forms of 'zijn' in one go, because you need them all from day one.",goals:["All 7 subject pronouns","Every form of zijn","Say 'I am', 'you are', 'we are'..."]},
@@ -59,7 +59,7 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"teach",trg:"jullie zijn",src:"you all are",pos:"verb",gender:null,phonetic:"YUL-lee zayn",note:"'Jullie' = you (plural). Also uses 'zijn'.\nNo separate formal plural  -  'u' covers both.",example:"A: Jullie zijn laat!\nB: De tijd gaat snel!\nA: Goed punt.",exampleSrc:"A: You all are late!\nB: Time goes fast!\nA: Good point.",funFact:"Dutch verbs follow the stem + ending pattern. Find the stem, add the right ending."},
         {type:"teach",trg:"zij zijn",src:"they are",pos:"verb",gender:null,phonetic:"zay zayn",note:"Same word as 'she'  -  context makes it clear.\nShort form: 'ze zijn'.",example:"A: Zij zijn mijn buren.\nB: Dat klinkt leuk! Mag ik mee?\nA: Goed punt.",exampleSrc:"A: They are my neighbours.\nB: That sounds fun! Can I come along?\nA: Good point.",funFact:"zij + zijn: Dutch verb conjugation follows regular patterns once you learn the stem."},
         {type:"tip",title:"🔑 Pattern: Only 4 Forms",text:"Despite 9 pronouns, zijn only has 4 forms:\n\nben → only ik (I)\nbent → jij (you) and u (you, formal)\nis → hij (he), zij (she), het (it)\nzijn → wij (we), jullie (you all), zij (they)\n\nCompare English: am, are, is, also just 3 forms!\nDutch adds one more (ben ≠ bent) but the logic is identical."},
-        {type:"mc",q:"'Wij ___ blij.', Fill in:",opts:["ben","bent","is","zijn"],ans:"zijn",hint:"Which form of 'zijn' fits wij?"},
+        {type:"mc",q:"'Wij ___ blij.', Fill in:",opts:["ben","bent","is","zijn"],ans:"zijn",hint:"Which form of '___' fits wij?"},
         {type:"mc",q:"Which pronoun uses 'is'?",opts:["ik","jij","hij","wij"],ans:"hij",hint:"Third person singular"},
         {type:"fb",opts:["zijn","bent","is","ben"],hint:"Plural 'you'",s:"Jullie ___ laat!",a:"zijn"},
         {type:"mc",q:"In a question, 'jij bent' becomes:",opts:["Bent jij?","Ben jij?","Is jij?","Zijn jij?"],ans:"Ben jij?",hint:"The -t drops when jij follows the verb"},
@@ -74,7 +74,7 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"tip",title:"⚡ Question Word Order",deepDive:{
           title:"Why does Dutch flip the verb?",
           text:"This is called 'inversion' and Dutch does it consistently.\n\nIn statements: subject → verb → rest\nJij bent groot. = You are tall.\n\nIn questions: verb → subject → rest\nBen jij groot? = Are you tall?\n\nWith question word: question → verb → subject → rest\nHoe groot ben jij? = How tall are you?\n\nGerman does exactly the same thing! If you ever learn German, this rule transfers directly."
-        },text:"Dutch flips the verb before the subject:\n\nJij bent student. → Ben jij student?\n\nWith a question word, it goes FIRST:\nWie ben jij? = Who are you?\nWat is dat? = What is that?\nWaar is het station? = Where is the station?\n\nPattern: Question word → VERB → subject → rest"},
+        },text:"Dutch flips the verb before the subject:\n\nJij bent student. → Ben jij student?\n\nWith a question word, it goes FIRST:\nWie ben jij? = Who are you?\nWat is dat? = What is that?\nWaar is het station? = Where is the station?\n\nPattern: ___ ___ → VERB → subject → rest"},
         {type:"teach",trg:"hoe",src:"how",pos:"noun",gender:null,phonetic:"hoo",note:"THE most common way to ask a name.\nLiterally: 'How are-you-called?'",example:"A: Hoe heet je?\nB: Ik zal het voor je uitzoeken.\nA: Goed punt.",exampleSrc:"A: What's your name? (lit: How are you called?)\nB: I'll find out for you.\nA: Good point.",funFact:"Dutch and English are the closest major language pair in the world. Many words share common roots."},
         {type:"teach",trg:"wanneer",src:"when",pos:"noun",gender:null,phonetic:"vah-NEER",note:"Two syllables: wan-NEER. Stress on second.",example:"A: Wanneer kom je?\nB: Goede vraag! Laat me even denken.\nA: Goed punt.",exampleSrc:"A: When are you coming?\nB: Good question! Let me think.\nA: Good point.",funFact:"Dutch and English are the closest major language pair in the world. Many words share common roots."},
         {type:"teach",trg:"waarom",src:"why",pos:"noun",gender:null,phonetic:"vahr-OM",note:"Waar + om = 'where about.'\nStress on second: vahr-OM.",example:"A: Waarom niet?\nB: Goede vraag! Laat me even denken.\nA: Goed punt.",exampleSrc:"A: Why not?\nB: Good question! Let me think.\nA: Good point.",funFact:"Dutch and English are the closest major language pair in the world. Many words share common roots."},
@@ -82,7 +82,7 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"mc",q:"'Waar is het station?' means:",opts:["What is the station?","Who is at the station?","Where is the station?","How is the station?"],ans:"Where is the station?",hint:"Waar = where"},
         {type:"mc",q:"'Hoe heet je?' literally means:",opts:["What is your name?","How are you called?","Where are you from?","Who are you?"],ans:"How are you called?",hint:"Hoe = how"},
         {type:"fb",opts:["Wie","Wat","Waar","Hoe"],hint:"Asking about a person",s:"___ is dat?",a:"Wie"},
-        {type:"mc",q:"In Dutch questions, the verb comes:",opts:["At the end","Right after the question word","After everything","Before the question word"],ans:"Right after the question word",hint:"Question word → VERB → subject"},
+        {type:"mc",q:"In Dutch questions, the verb comes:",opts:["At the end","Right after the question word","After everything","Before the question word"],ans:"Right after the question word",hint:"___ ___ → VERB → subject"},
         {type:"match",pairs:[{trg:"wie",src:"who"},{trg:"wat",src:"what"},{trg:"waar",src:"where"},{trg:"waarom",src:"why"}]},
         {type:"mc",q:"'Wanneer kom je?' means:",opts:["Where are you going?","When are you coming?","Why are you coming?","How are you coming?"],ans:"When are you coming?",hint:"Wanneer = when"}
   ]},
@@ -181,7 +181,7 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"fb",opts:["Twee","Tien","Zes","Vijf"],hint:"Count in order",s:"Eén, ___, drie, vier...",a:"Twee"},
         {type:"mc",q:"Which number sounds like English 'fear'?",opts:["vijf","vier","drie","zes"],ans:"vier",hint:"Sounds like English 'fear' without the R"},
         {type:"match",pairs:[{trg:"drie",src:"three"},{trg:"zeven",src:"seven"},{trg:"negen",src:"nine"},{trg:"tien",src:"ten"}]},
-        {type:"mc",q:"'Een' as a number is pronounced differently than 'een' as:",opts:["a verb","a name","an article (a/an)","an adjective"],ans:"an article (a/an)",hint:"Number = stressed, article = unstressed"}
+        {type:"mc",q:"'Een' as a number is pronounced differently than 'een' as:",opts:["a verb","a name","an article (a/an)","an adjective"],ans:"an article (a/an)",hint:"Number = stressed, ___ = unstressed"}
   ]},
   {id:"v2u1l8",title:"Introducing Yourself",icon:"🙋",xp:20,board:true,steps:[
         {type:"intro",title:"Introducing Yourself",desc:"Put it all together, you'll learn to introduce yourself in Dutch with a natural mini-conversation. This is where L1–L7 click into place.",goals:["Say your name","Say where you're from","Ask someone's name","Have a real mini-conversation"]},
@@ -205,7 +205,7 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"mc",q:"Someone asks 'Hoe heet je?', you reply:",opts:["Ik kom uit...","Ik heet...","Ik woon in...","Ik ben..."],ans:"Ik heet...",hint:"They asked your name"},
         {type:"mc",q:"'Waar kom je vandaan?' asks about your:",opts:["Your full name","Your origin","Your profession","Your family"],ans:"Your origin",hint:"Waar = where, vandaan = from"},
         {type:"fb",opts:["spreek","heet","woon","kom"],hint:"What do you do with a language?",s:"Ik ___ een beetje Nederlands.",a:"spreek"},
-        {type:"mc",q:"'En jij?' is used to:",opts:["End a conversation","Ask someone to repeat","Bounce the question back","Say goodbye"],ans:"Bounce the question back",hint:"How to ask 'and you?' back"},
+        {type:"mc",q:"'En jij?' is used to:",opts:["End a conversation","Ask someone to repeat","Bounce the question back","Say goodbye"],ans:"Bounce the question back",hint:"How to ask 'and you?' ___"},
         {type:"match",pairs:[{trg:"ik heet",src:"my name is"},{trg:"ik kom uit",src:"I come from"},{trg:"ik woon in",src:"I live in"},{trg:"aangenaam",src:"nice to meet you"}]},
         {type:"mc",q:"Dutch people react to 'ik spreek een beetje Nederlands' by:",opts:["Being offended","Appreciating the effort","Ignoring you","Correcting your grammar"],ans:"Appreciating the effort",hint:"They love it when foreigners try!"}
   ]},
@@ -224,7 +224,7 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"mc",q:"'Ik heb ___ auto.' (I don't have a car.)",opts:["niet","geen","nee","ja"],ans:"geen",hint:"Would the positive use 'een'? Ik heb een auto → ..."},
         {type:"mc",q:"'Hij is ___ groot.' (He is not tall.)",opts:["niet","geen","nee","un"],ans:"niet",hint:"Negating an adjective"},
         {type:"fb",opts:["geen","niet","nee","de"],hint:"No problem! (negating a noun)",s:"Dat is ___ probleem!",a:"geen"},
-        {type:"mc",q:"Which sentence is CORRECT?",opts:["Ik niet woon in Amsterdam.","Ik woon niet in Amsterdam.","Niet ik woon in Amsterdam.","Ik woon in niet Amsterdam."],ans:"Ik woon niet in Amsterdam.",hint:"Verb stays in position 2, niet comes after"},
+        {type:"mc",q:"Which sentence is CORRECT?",opts:["Ik niet woon in Amsterdam.","Ik woon niet in Amsterdam.","Niet ik woon in Amsterdam.","Ik woon in niet Amsterdam."],ans:"Ik woon niet in Amsterdam.",hint:"Verb stays in position 2, ___ comes after"},
         {type:"mc",q:"'Wij hebben geen kinderen' means:",opts:["We have children","We don't have children","We like children","We want children"],ans:"We don't have children",hint:"Geen = no / not any"},
         {type:"match",pairs:[{trg:"niet",src:"not (verbs/adjectives)"},{trg:"geen",src:"no / not a (nouns)"},{trg:"geen probleem",src:"no problem"},{trg:"niet hier",src:"not here"}]}
   ]},
@@ -261,6 +261,6 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"match",pairs:[{trg:"hoe heet je?",src:"what's your name?"},{trg:"waar woon je?",src:"where do you live?"},{trg:"geen probleem",src:"no problem"},{trg:"dank je wel",src:"thank you very much"}]},
         {type:"mc",q:"'Aangenaam' is used when:",opts:["Saying goodbye","Meeting someone","Ordering food","Apologizing"],ans:"Meeting someone",hint:"Nice to meet you"},
         {type:"mc",q:"Which greeting uses the Dutch throat 'g' sound?",opts:["goedemorgen","alsjeblieft","tot ziens","aangenaam"],ans:"goedemorgen",hint:"Goede... starts with 'g'"},
-        {type:"mc",q:"Which is CORRECT?",opts:["Ik ben niet student.","Ik niet ben student.","Ik ben geen student.","Ik geen ben student."],ans:"Ik ben geen student.",hint:"Student has an implied 'een': so use geen"}
+        {type:"mc",q:"Which is CORRECT?",opts:["Ik ben niet student.","Ik niet ben student.","Ik ben geen student.","Ik geen ben student."],ans:"Ik ben geen student.",hint:"___ has an implied 'een': so use ___"}
   ]}
 ]};

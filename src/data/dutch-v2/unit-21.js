@@ -21,7 +21,7 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
         {type:"match",pairs:[{trg:"de aanhef",src:"the salutation"},{trg:"de afsluiting",src:"the closing"},{trg:"hoogachtend",src:"yours faithfully"},{trg:"van belang",src:"of importance"}]},
         {type:"mc",q:"'Het desbetreffende formulier' means:",opts:["The new form","The old form","The form in question","The digital form"],ans:"The form in question",hint:"Desbetreffend = pertaining to that"},
         {type:"fb",opts:["belang","belangen","belangrijk","belangstelling"],hint:"Van groot _____: significance",s:"Dit is van groot ___ voor uw aanvraag.",a:"belang"},
-        {type:"mc",q:"'Hoogachtend' is used when:",opts:["Writing to a friend","Writing to a colleague you know well","Writing a very formal letter to an unknown recipient","Sending a casual email"],ans:"Writing a very formal letter to an unknown recipient",hint:"The most formal closing"},
+        {type:"mc",q:"'Hoogachtend' is used when:",opts:["Writing to a friend","Writing to a colleague you know well","Writing a very formal letter to an unknown recipient","Sending a casual email"],ans:"Writing a very formal letter to an unknown recipient",hint:"The most ___ closing"},
         {type:"drag_fill",hint:"Dear Sir/Madam, with regard to your letter...",s:"{1} heer/mevrouw, met {2} tot uw brief schrijf ik u.",blanks:{"1":"Geachte","2":"betrekking"},pool:["Geachte","betrekking","Beste","aanleiding"]},
         {type:"mc",q:"Which is the correct order of a Dutch formal letter?",opts:["Closing, body, salutation","Salutation, reference, body, closing, sign-off","Sign-off, salutation, body","Body, salutation, closing"],ans:"Salutation, reference, body, closing, sign-off",hint:"Aanhef first, groet last"}
   ]},
@@ -77,9 +77,9 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
             ]
           }
         ],label:"Real Conditions"},
-        {type:"mc",q:"In 'Als het regent, blijf ik thuis', where is the verb in the als-clause?",opts:["First position","Second position","At the end","Before als"],ans:"At the end",hint:"Als sends the verb to the end of its clause"},
+        {type:"mc",q:"In 'Als het regent, blijf ik thuis', where is the verb in the als-clause?",opts:["First position","Second position","At the end","Before als"],ans:"At the end",hint:"Als s___s the verb to the ___ of its clause"},
         {type:"fb",opts:["werkt","werk","werken","werkend"],hint:"In the als-clause, verb goes final. Which jij-form?",s:"Als je hard ___, slaag je voor het examen.",a:"werkt"},
-        {type:"mc",q:"'Als we te laat komen, missen we de trein.' What type of condition is this?",opts:["Impossible","Unreal","Real and possible","Past regret"],ans:"Real and possible",hint:"Present tense in both clauses = real condition"},
+        {type:"mc",q:"'Als we te laat komen, missen we de trein.' What type of condition is this?",opts:["Impossible","Unreal","Real and possible","Past regret"],ans:"Real and possible",hint:"Present tense in both clauses = ___ condition"},
         {type:"fb",opts:["belt","bellen","belde","zou bellen"],hint:"Real condition: present tense. Hij-form of bellen.",s:"Als hij ___, neem ik op.",a:"belt"},
         {type:"mc",q:"After the comma in a conditional, the main clause starts with:",opts:["The subject","The object","The verb (inversion)","Als"],ans:"The verb (inversion)",hint:"Als het regent, BLIJF ik thuis"},
         {type:"drag_fill",hint:"If you fill in the form, you get a response.",s:"Als je het formulier {1}, krijg je een {2}.",blanks:{"1":"invult","2":"antwoord"},pool:["invult","antwoord","invullen","brief"]},
@@ -88,7 +88,7 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
         {type:"drag_fill",hint:"If we arrive on time, we catch the train.",s:"Als we op tijd {1}, {2} we de trein.",blanks:{"1":"komen","2":"halen"},pool:["komen","halen","kwamen","missen"]},
         {type:"match",pairs:[{trg:"Als het regent",src:"If it rains"},{trg:"blijf ik thuis",src:"I stay home"},{trg:"Als je hard werkt",src:"If you work hard"},{trg:"slaag je",src:"you pass"}]},
         {type:"fb",opts:["komt","komen","kwam","zou komen"],hint:"Real condition: present tense. Jij-form of komen.",s:"Als je te laat ___, mis je de vergadering.",a:"komt"},
-        {type:"mc",q:"'Ik blijf thuis als het regent.' Is this correct Dutch?",opts:["No, als must come first","Yes, main clause can come first","No, the verb order is wrong","No, you need zou"],ans:"Yes, main clause can come first",hint:"Both orders work: als-first or main-first"},
+        {type:"mc",q:"'Ik blijf thuis als het regent.' Is this correct Dutch?",opts:["No, als must come first","Yes, main clause can come first","No, the verb order is wrong","No, you need zou"],ans:"Yes, main clause can come first",hint:"Both orders work: als-___ or ___-___"},
         {type:"drag_fill",hint:"If you listen well, you understand everything.",s:"Als je goed {1}, {2} je alles.",blanks:{"1":"luistert","2":"begrijp"},pool:["luistert","begrijp","luisteren","begrijpen"]},
         {type:"fb",opts:["werken","werkt","werkten","zou werken"],hint:"Real condition: present tense, first person plural form",s:"Als we samen ___, gaat het sneller.",a:"werken"},
         {type:"mc",q:"In 'Als je wilt, mag je mee', what does 'als' mean?",opts:["When","Although","Because","If"],ans:"If",hint:"Als in conditional = if"}
@@ -112,14 +112,14 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
             rows:[{pronoun:"wij / we",form:"zouden",src:"we would"},{pronoun:"jullie",form:"zouden",src:"you all would"},{pronoun:"zij / ze",form:"zouden",src:"they would"}]
           }
         ],label:"Conditional Forms"},
-        {type:"mc",q:"In 'Als ik rijk was, zou ik een huis kopen', the condition is:",opts:["Real and likely","A fact","Unreal or unlikely","A past event"],ans:"Unreal or unlikely",hint:"Past tense + zou = unreal/hypothetical"},
+        {type:"mc",q:"In 'Als ik rijk was, zou ik een huis kopen', the condition is:",opts:["Real and likely","A fact","Unreal or unlikely","A past event"],ans:"Unreal or unlikely",hint:"Past tense + zou = ___/hypothetical"},
         {type:"fb",opts:["had","heb","hebben","zou hebben"],hint:"Unreal condition: which tense in the als-clause?",s:"Als ik meer tijd ___, zou ik een boek schrijven.",a:"had"},
-        {type:"mc",q:"Which form is correct for 'we would'?",opts:["We zou","We zouden","We zullen","We zouen"],ans:"We zouden",hint:"Plural = zouden"},
+        {type:"mc",q:"Which form is correct for 'we would'?",opts:["We zou","We zouden","We zullen","We zouen"],ans:"We zouden",hint:"Plural = ___"},
         {type:"fb",opts:["woonden","wonen","zouden wonen","woon"],hint:"Past tense of 'wonen' for unreal condition",s:"Als we in Amsterdam ___, zouden we elke dag fietsen.",a:"woonden"},
-        {type:"mc",q:"What is the difference between type 1 and type 2 conditionals?",opts:["Type 1 uses past tense, type 2 present","Type 1 is real, type 2 is unreal/unlikely","Both types are exactly the same thing","Type 1 uses zou, type 2 uses present"],ans:"Type 1 is real, type 2 is unreal/unlikely",hint:"Present = real. Past + zou = unreal."},
+        {type:"mc",q:"What is the difference between type 1 and type 2 conditionals?",opts:["Type 1 uses past tense, type 2 present","Type 1 is real, type 2 is unreal/unlikely","Both types are exactly the same thing","Type 1 uses zou, type 2 uses present"],ans:"Type 1 is real, type 2 is unreal/unlikely",hint:"Present = ___. Past + zou = un___."},
         {type:"drag_fill",hint:"If she spoke (past) better Dutch, she would get the job.",s:"Als zij beter Nederlands {1}, {2} zij de baan krijgen.",blanks:{"1":"sprak","2":"zou"},pool:["sprak","zou","spreekt","zouden"]},
         {type:"fb",opts:["regende","regent","regenen","zou regenen"],hint:"Past tense of 'regenen' in the unreal als-clause",s:"Als het niet ___, zou ik naar het park gaan.",a:"regende"},
-        {type:"mc",q:"'Als ik jou was, zou ik dat niet doen.' This is:",opts:["A real condition about the future","Advice using a hypothetical","A past event","A command"],ans:"Advice using a hypothetical",hint:"If I were you (unreal) I would not do that (advice)"},
+        {type:"mc",q:"'Als ik jou was, zou ik dat niet doen.' This is:",opts:["A real condition about the future","Advice using a hypothetical","A past event","A command"],ans:"Advice using a hypothetical",hint:"If I were you (unreal) I would not do that (___)"},
         {type:"drag_fill",hint:"If I were (past) the director, I would give more vacation days.",s:"Als ik de directeur {1}, {2} ik meer vakantiedagen geven.",blanks:{"1":"was","2":"zou"},pool:["was","zou","ben","zouden"]},
         {type:"match",pairs:[
           {trg:"Als het regent, blijf ik thuis",src:"Type 1: real condition"},
@@ -128,10 +128,10 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
           {trg:"zouden",src:"plural: would"}
         ]},
         {type:"fb",opts:["sprak","spreek","spreken","zou spreken"],hint:"Unreal condition: past form of spreken (stem vowel change)",s:"Als ik Nederlands ___, zou ik in Amsterdam werken.",a:"sprak"},
-        {type:"mc",q:"'Als ik jou was, zou ik harder studeren.' Who is giving advice?",opts:["The teacher","The speaker","The listener","A stranger"],ans:"The speaker",hint:"'Als ik jou was' = if I were you (speaker advises)"},
+        {type:"mc",q:"'Als ik jou was, zou ik harder studeren.' Who is giving advice?",opts:["The teacher","The speaker","The listener","A stranger"],ans:"The speaker",hint:"'Als ik jou was' = if I were you (___ advises)"},
         {type:"drag_fill",hint:"If we had (past) more money, we would go on vacation.",s:"Als wij meer geld {1}, {2} wij op vakantie gaan.",blanks:{"1":"hadden","2":"zouden"},pool:["hadden","zouden","hebben","zou"]},
         {type:"fb",opts:["was","is","zou zijn","waren"],hint:"Unreal condition: past tense of 'zijn' for third person singular",s:"Als hij hier ___, zou hij ons kunnen helpen.",a:"was"},
-        {type:"mc",q:"Which sentence correctly uses a polite hypothetical request?",opts:["Als u wilt, help ik u.","Zou u mij kunnen helpen?","Als u helpt, dank ik u.","U moet mij helpen."],ans:"Zou u mij kunnen helpen?",hint:"Zou + formal u = polite hypothetical request"}
+        {type:"mc",q:"Which sentence correctly uses a polite hypothetical request?",opts:["Als u wilt, help ik u.","Zou u mij kunnen helpen?","Als u helpt, dank ik u.","U moet mij helpen."],ans:"Zou u mij kunnen helpen?",hint:"___ + formal u = polite hypothetical request"}
   ]},
   {id:"v2u21l5",title:"Een Brief Schrijven",icon:"📝",xp:20,board:true,steps:[
         {type:"intro",title:"Een Brief Schrijven",desc:"Time to put your formal vocabulary and conditionals together. You will practice writing formal letter phrases: openings, references, requests, and closings. Every exercise uses real-world Dutch formal writing situations.",goals:["Combine formal vocab with conditionals","Write aanhef and afsluiting correctly","Use met betrekking tot in context","Formal requests with zou"]},
@@ -139,7 +139,7 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
         {type:"teach",trg:"ik zou het op prijs stellen als",src:"I would appreciate it if",pos:"verb",gender:null,phonetic:"ik zow hut op prays STEL-un als",note:"Very polite formal request.\nUses conditional type 2 (zou).\nOp prijs stellen = to appreciate/value.\nAlways followed by 'als' + subordinate clause.",example:"A: Ik zou het op prijs stellen als u snel reageert.\nB: Ik zal mijn best doen.\nA: Dank u. Het is vrij urgent.\nB: Ik reageer uiterlijk vrijdag.",exampleSrc:"A: I would appreciate it if you respond quickly.\nB: I will do my best.\nA: Thank you. It is quite urgent.\nB: I will respond by Friday at the latest.",funFact:"Dutch verbs follow the stem + ending pattern. Find the stem, add the right ending."},
         {type:"tip",title:"✍️ Model Brief: Sollicitatie",text:"Geachte mevrouw De Jong,\n\nNaar aanleiding van de vacature op uw website\nschrijf ik u met betrekking tot de functie van\nprojectleider.\n\nIk ben van mening dat mijn ervaring goed\naansluit bij de desbetreffende functie. Als\nbijlage vindt u mijn cv.\n\nIk zou het op prijs stellen als u mij de\nmogelijkheid biedt voor een gesprek.\n\nMet vriendelijke groet,\nAnna Bakker\n\nNotice the formal elements:\n- Geachte + title + surname\n- Naar aanleiding van (reference)\n- Met betrekking tot (regarding)\n- Ik ben van mening dat (opinion)\n- Desbetreffende (the relevant)\n- Ik zou het op prijs stellen als (polite request)\n- Met vriendelijke groet (closing)"},
         {type:"fb",opts:["aanleiding","betrekking","mening","belang"],hint:"In connection with / following",s:"Naar ___ van de vacature schrijf ik u deze brief.",a:"aanleiding"},
-        {type:"mc",q:"'Ik zou het op prijs stellen als u snel reageert' uses:",opts:["Conditional type 1","Conditional type 2","Past perfect","Simple past only"],ans:"Conditional type 2",hint:"Which conditional type uses zou + infinitive?"},
+        {type:"mc",q:"'Ik zou het op prijs stellen als u snel reageert' uses:",opts:["Conditional type 1","Conditional type 2","Past perfect","Simple past only"],ans:"Conditional type 2",hint:"Which ___ ___ uses zou + infinitive?"},
         {type:"fb",opts:["tot","van","aan","over"],hint:"Which preposition completes this fixed formal expression?",s:"Met betrekking ___ de functie van projectleider, schrijf ik u.",a:"tot"},
         {type:"drag_fill",hint:"Dear Mrs. De Jong, following your advertisement...",s:"{1} mevrouw De Jong, naar {2} van uw advertentie schrijf ik u.",blanks:{"1":"Geachte","2":"aanleiding"},pool:["Geachte","aanleiding","Beste","betrekking"]},
         {type:"mc",q:"Which closing is appropriate for a formal job application?",opts:["Groetjes","Doei","Met vriendelijke groet","Kusjes"],ans:"Met vriendelijke groet",hint:"The standard formal letter closing"},
@@ -156,7 +156,7 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
         {type:"drag_fill",hint:"I would appreciate it if you respond quickly.",s:"Ik {1} het op prijs stellen als u {2} reageert.",blanks:{"1":"zou","2":"snel"},pool:["zou","snel","zal","graag"]},
         {type:"mc",q:"'De desbetreffende functie' in a letter refers to:",opts:["Any function","The function mentioned earlier in the letter","A new function","The most important function"],ans:"The function mentioned earlier in the letter",hint:"Desbetreffend = the one in question"},
         {type:"fb",opts:["vriendelijke","hartelijke","goede","beste"],hint:"The standard formal closing: Met ___ groet. Think: kind/friendly",s:"Met ___ groet, Anna Bakker.",a:"vriendelijke"},
-        {type:"mc",q:"Which phrase correctly opens a formal letter reference?",opts:["Ik wil zeggen dat","Naar aanleiding van uw brief","Hoi, ik schrijf over","Hey, even over"],ans:"Naar aanleiding van uw brief",hint:"Naar ___ van: a formal phrase meaning 'following' or 'regarding'"}
+        {type:"mc",q:"Which phrase correctly opens a formal letter reference?",opts:["Ik wil zeggen dat","Naar aanleiding van uw brief","Hoi, ik schrijf over","Hey, even over"],ans:"Naar aanleiding van uw brief",hint:"___ ___ ___: a formal phrase meaning 'following' or 'regarding'"}
   ]},
   {id:"v2u21l6",title:"Het Betoog",icon:"📄",xp:20,board:true,steps:[
         {type:"intro",title:"Het Betoog",desc:"A 'betoog' is a structured opinion essay. Dutch formal writing follows a clear pattern: stelling (thesis), argumenten (arguments), and conclusie (conclusion). You will learn the connectors and structure that make Dutch essays convincing.",goals:["Essay structure: inleiding, kern, conclusie","Connectors: ten eerste, daarnaast, tot slot","Build arguments with formal opinion markers","Practice structuring an argument"]},
@@ -190,7 +190,7 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
         {type:"tip",title:"🔧 Softening Techniques",text:"Even in Dutch, sometimes you need to soften:\n\n1. ZOU (conditional):\n'Zou u dit willen aanpassen?'\n= Would you like to adjust this?\n(Softer than: 'Pas dit aan.')\n\n2. MISSCHIEN (maybe):\n'Misschien is het beter om...'\n= Maybe it's better to...\n\n3. WELLICHT (perhaps, formal):\n'Wellicht kunt u mij helpen.'\n= Perhaps you could help me.\n\n4. IK VRAAG ME AF OF (I wonder if):\n'Ik vraag me af of dit de beste aanpak is.'\n= I wonder if this is the best approach.\n\n5. HET LIJKT ME (it seems to me):\n'Het lijkt me beter om te wachten.'\n= It seems better to me to wait.\n\nUse these when writing to someone senior,\nwhen delivering bad news, or when you want\nto leave room for discussion."},
         {type:"mc",q:"Dutch directness in formal communication means:",opts:["Being rude on purpose","Stating problems clearly and requesting solutions directly","Avoiding all politeness","Using only informal language"],ans:"Stating problems clearly and requesting solutions directly",hint:"Directness = clarity, not rudeness"},
         {type:"fb",opts:["eens","mee","bij","over"],hint:"The Dutch expression: het ___ zijn met = to agree with",s:"Ik ben het niet met u ___.",a:"eens"},
-        {type:"mc",q:"'Wellicht kunt u mij helpen' is:",opts:["Very direct","A softened request","An order","Informal"],ans:"A softened request",hint:"Wellicht = perhaps. Softens the request."},
+        {type:"mc",q:"'Wellicht kunt u mij helpen' is:",opts:["Very direct","A softened request","An order","Informal"],ans:"A softened request",hint:"Wellicht = perhaps. Softens the ___."},
         {type:"fb",opts:["Misschien","Zeker","Altijd","Nooit"],hint:"A softening word expressing uncertainty: perhaps (informal)",s:"___ is het beter om morgen te beginnen.",a:"Misschien"},
         {type:"match",pairs:[{trg:"zou",src:"would (conditional softener)"},{trg:"misschien",src:"maybe"},{trg:"wellicht",src:"perhaps (formal)"},{trg:"het lijkt me",src:"it seems to me"}]},
         {type:"mc",q:"In a Dutch formal letter, where should the main message appear?",opts:["At the very end","In a postscript","In the first paragraph","Hidden between other sentences"],ans:"In the first paragraph",hint:"Dutch readers expect the point up front"},
@@ -198,7 +198,7 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
         {type:"drag_fill",hint:"Perhaps you could help me with the relevant form?",s:"{1} kunt u mij helpen met het {2} formulier?",blanks:{"1":"Wellicht","2":"desbetreffende"},pool:["Wellicht","desbetreffende","Zeker","belangrijke"]},
         {type:"mc",q:"How many 'Zou u zo vriendelijk willen zijn' phrases should a Dutch formal letter typically contain?",opts:["As many as possible","At most one","At least three","None"],ans:"At most one",hint:"Excessive politeness looks suspicious to Dutch readers"},
         {type:"fb",opts:["lijkt","vindt","denkt","zegt"],hint:"Which verb describes how something appears or looks to someone?",s:"Het ___ me beter om te wachten met de beslissing.",a:"lijkt"},
-        {type:"mc",q:"'Nee, dat klopt niet' in a Dutch professional context is:",opts:["Extremely rude","A normal factual correction","Grounds for a complaint","Only used among friends"],ans:"A normal factual correction",hint:"Dutch directness: factual, not emotional"},
+        {type:"mc",q:"'Nee, dat klopt niet' in a Dutch professional context is:",opts:["Extremely rude","A normal factual correction","Grounds for a complaint","Only used among friends"],ans:"A normal factual correction",hint:"Dutch directness: ___, not emotional"},
         {type:"drag_fill",hint:"I wonder if we can change the project.",s:"Ik vraag me {1} of we het project kunnen {2}.",blanks:{"1":"af","2":"veranderen"},pool:["af","veranderen","uit","vertragen"]},
         {type:"match",pairs:[
           {trg:"Dit is niet goed genoeg",src:"Direct: not good enough"},
@@ -207,22 +207,22 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
           {trg:"Zou u dit willen aanpassen?",src:"Polite: would you like to adjust?"}
         ]},
         {type:"fb",opts:["heeft","bevat","is","maakt"],hint:"This report ___ errors. Which common verb for 'has'?",s:"Dit rapport ___ fouten. Kunt u het aanpassen?",a:"heeft"},
-        {type:"mc",q:"In which region is Dutch communication typically softer and more indirect?",opts:["Amsterdam","The north of the Netherlands","The south of the Netherlands and Belgium","Rotterdam"],ans:"The south of the Netherlands and Belgium",hint:"Southern Netherlands and Belgium tend toward softer communication"}
+        {type:"mc",q:"In which region is Dutch communication typically softer and more indirect?",opts:["Amsterdam","The north of the Netherlands","The south of the Netherlands and Belgium","Rotterdam"],ans:"The south of the Netherlands and Belgium",hint:"___ern ___ and ___ tend toward softer communication"}
   ]},
   {id:"v2u21l8",title:"Eenheid 21 Herhaling",icon:"🔄",xp:25,board:true,steps:[
         {type:"intro",title:"Eenheid 21 Herhaling",desc:"Review everything from Unit 21: formal letter vocabulary, opinion markers, conditional types 1 and 2, essay structure, and Dutch directness. Every question combines multiple concepts from this unit.",goals:["Review all formal writing vocabulary","Conditionals type 1 and 2","Opinion markers and essay connectors","Dutch directness and softening"]},
         {type:"mc",q:"'Met betrekking tot uw brief' means:",opts:["In reply to your letter","With regard to your letter","In spite of your letter","Together with your letter"],ans:"With regard to your letter",hint:"Met betrekking tot = with regard to"},
         {type:"fb",opts:["Geachte","Beste","Lieve","Hoi"],hint:"The most formal salutation",s:"___ heer/mevrouw, naar aanleiding van uw advertentie schrijf ik u.",a:"Geachte"},
-        {type:"mc",q:"'Als het regent, blijf ik thuis' is conditional type:",opts:["Type 2: unreal","Type 1: real","Type 3: past regret","Not a conditional"],ans:"Type 1: real",hint:"Present tense + present tense = real condition"},
+        {type:"mc",q:"'Als het regent, blijf ik thuis' is conditional type:",opts:["Type 2: unreal","Type 1: real","Type 3: past regret","Not a conditional"],ans:"Type 1: real",hint:"Present tense + present tense = ___ condition"},
         {type:"fb",opts:["had","heb","hebben","zou hebben"],hint:"Unreal condition: which tense in the als-clause?",s:"Als ik meer tijd ___, zou ik een boek schrijven.",a:"had"},
         {type:"drag_fill",hint:"In my opinion... Firstly...",s:"{1} mijn mening moet het onderwijs beter. {2} eerste zijn de klassen te groot.",blanks:{"1":"Naar","2":"Ten"},pool:["Naar","Ten","Volgens","Tot"]},
-        {type:"mc",q:"'Ik ben van mening dat' is followed by:",opts:["An infinitive","A main clause with V2","A subordinate clause (verb final)","A question"],ans:"A subordinate clause (verb final)",hint:"'dat' introduces a subordinate clause"},
+        {type:"mc",q:"'Ik ben van mening dat' is followed by:",opts:["An infinitive","A main clause with V2","A subordinate clause (verb final)","A question"],ans:"A subordinate clause (verb final)",hint:"'dat' introduces a ___ ___"},
         {type:"match",pairs:[{trg:"de aanhef",src:"the salutation"},{trg:"de afsluiting",src:"the closing"},{trg:"het betoog",src:"the argumentative essay"},{trg:"de stelling",src:"the thesis"}]},
         {type:"fb",opts:["zou","zal","wil","kan"],hint:"Conditional auxiliary: which form expresses 'would' for ik?",s:"Ik ___ het op prijs stellen als u snel reageert.",a:"zou"},
         {type:"mc",q:"Dutch directness means:",opts:["Always being rude","Stating your point clearly in the first paragraph","Avoiding formal language","Never softening requests"],ans:"Stating your point clearly in the first paragraph",hint:"Main message up front, clear and direct"},
         {type:"drag_fill",hint:"If you fill in the form (real), you get a confirmation.",s:"Als je het formulier {1}, {2} je een bevestiging.",blanks:{"1":"invult","2":"krijg"},pool:["invult","krijg","invulde","zou"]},
         {type:"fb",opts:["Wellicht","Zeker","Altijd","Natuurlijk"],hint:"The formal Dutch word for perhaps, used to soften requests",s:"___ kunt u mij helpen? (formal softener)",a:"Wellicht"},
-        {type:"mc",q:"'Hoogachtend' is used as:",opts:["A greeting at the start","A very formal letter closing","An opinion marker","A conditional connector"],ans:"A very formal letter closing",hint:"The most formal sign-off"},
+        {type:"mc",q:"'Hoogachtend' is used as:",opts:["A greeting at the start","A very formal letter closing","An opinion marker","A conditional connector"],ans:"A very formal letter closing",hint:"The most ___ sign-off"},
         {type:"drag_fill",hint:"Firstly... In addition...",s:"{1} eerste is het goed voor het milieu. {2} bespaar je ook reistijd.",blanks:{"1":"Ten","2":"Daarnaast"},pool:["Ten","Daarnaast","Tot","Bovendien"]},
         {type:"match",pairs:[
           {trg:"als + presens",src:"real condition (type 1)"},
@@ -231,7 +231,7 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
           {trg:"volgens mij",src:"I think (semi-formal)"}
         ]},
         {type:"fb",opts:["concludeer","beargumenteer","vind","stel"],hint:"Which verb means to reach a final judgment from evidence?",s:"Op basis van bovenstaande argumenten ___ ik dat we moeten investeren.",a:"concludeer"},
-        {type:"mc",q:"Which is the correct unreal conditional?",opts:["Als het regent, blijf ik thuis.","Als het regende, zou ik thuisblijven.","Als het regent, zou ik thuisblijven.","Als het regende, blijf ik thuis."],ans:"Als het regende, zou ik thuisblijven.",hint:"Past tense als-clause + zou + infinitive"},
+        {type:"mc",q:"Which is the correct unreal conditional?",opts:["Als het regent, blijf ik thuis.","Als het regende, zou ik thuisblijven.","Als het regent, zou ik thuisblijven.","Als het regende, blijf ik thuis."],ans:"Als het regende, zou ik thuisblijven.",hint:"Past tense ___-clause + ___ + infinitive"},
         {type:"drag_fill",hint:"Dear Mrs. De Vries, with regard to the vacancy...",s:"{1} mevrouw De Vries, met {2} tot de vacature schrijf ik u.",blanks:{"1":"Geachte","2":"betrekking"},pool:["Geachte","betrekking","Beste","aanleiding"]},
         {type:"mc",q:"'Tot slot' in an essay means:",opts:["In the beginning","In addition","Finally / to conclude","On the other hand"],ans:"Finally / to conclude",hint:"Tot slot wraps up the argument"}
   ]}

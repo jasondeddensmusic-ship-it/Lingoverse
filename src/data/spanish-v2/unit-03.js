@@ -34,7 +34,7 @@ export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores"
         {type:"mc",q:"How do you say 35 in Spanish?",opts:["treinta y cinco","treintacinco","treinticinco","trece y cinco"],ans:"treinta y cinco",hint:"From 31 onward, tens and ones are connected with 'y'."},
         {type:"mc",q:"What is 'cuarenta'?",opts:["40","14","4","44"],ans:"40",hint:"The tens number related to cuatro (4)."},
         {type:"fb",opts:["sesenta","seis","dieciséis","cien"],hint:"The tens version of the number six.",s:"Mi abuelo tiene {1} años.",a:"sesenta"},
-        {type:"mc",q:"21-29 are written as:",opts:["Two separate words with 'y'","One compound word (veinti-)","Three words","Just the ones digit"],ans:"One compound word (veinti-)",hint:"Unlike 31+, these are fused into a single word."},
+        {type:"mc",q:"21-29 are written as:",opts:["Two separate words with 'y'","One compound word (veinti-)","Three words","Just the ones digit"],ans:"One compound word (veinti-)",hint:"Unlike 31+, these are fused into a single ___."},
         {type:"match",pairs:[{trg:"treinta",src:"30"},{trg:"cincuenta",src:"50"},{trg:"setenta",src:"70"},{trg:"noventa",src:"90"},{trg:"cien",src:"100"}]},
         {type:"fb",opts:["veintiuno","veinte y uno","veinti","uno"],hint:"The compound form for twenty-one.",s:"¿Cuántos años tienes? Tengo {1} años.",a:"veintiuno"},
         {type:"mc",q:"'Cien' is used for exactly 100. For 101 you say:",opts:["cien uno","ciento uno","cien y uno","un ciento"],ans:"ciento uno",hint:"Above exactly 100, a longer form of the word is used."},
@@ -113,14 +113,14 @@ export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores"
         {type:"teach",trg:"negro",src:"black (masculine)",pos:"noun",gender:"m",phonetic:"NEH-gro",note:"Negro = black (masc). Negra = black (fem).",example:"A: ¿De qué color es tu gato?\nB: Mi gato es negro.",exampleSrc:"A: What color is your cat?\nB: My cat is black.",funFact:"Spanish nouns are either masculine or feminine. The ending usually gives it away."},
         {type:"tip",title:"Color Gender Rules",text:"Colors ending in -o change for gender:\nrojo/roja, blanco/blanca, negro/negra, amarillo/amarilla.\n\nColors ending in -e or consonant do NOT change:\nverde, azul, marrón, gris, naranja.\n\nAll colors add -s or -es for plural.",icon:"🎨"},
         {type:"teach",trg:"gris",src:"gray",pos:"noun",gender:"m",phonetic:"GREES",note:"Gris = gray. Same for masculine and feminine.",example:"A: ¿De qué color es el elefante?\nB: El elefante es gris.",exampleSrc:"A: What color is the elephant?\nB: The elephant is gray.",funFact:"Spanish nouns are either masculine or feminine. The ending usually gives it away."},
-        {type:"mc",q:"'La casa es blanca' uses 'blanca' because:",opts:["Casa is feminine","Casa is big","Blanco sounds wrong","It is always blanca"],ans:"Casa is feminine",hint:"The -a ending on the color matches the feminine noun."},
+        {type:"mc",q:"'La casa es blanca' uses 'blanca' because:",opts:["Casa is feminine","Casa is big","Blanco sounds wrong","It is always blanca"],ans:"Casa is feminine",hint:"The -a ending on the color matches the ___ noun."},
         {type:"mc",q:"Which color does NOT change for gender?",opts:["rojo","azul","blanco","amarillo"],ans:"azul",hint:"Colors ending in a consonant stay the same."},
         {type:"fb",opts:["azul","rojo","verde","blanco"],hint:"The color you see when you look up on a clear day.",s:"El cielo es {1}.",a:"azul"},
         {type:"mc",q:"How do you say 'the red car' if coche is masculine?",opts:["el coche roja","el coche rojo","la coche rojo","el coche rojos"],ans:"el coche rojo",hint:"Masculine noun needs masculine adjective: -o ending."},
         {type:"match",pairs:[{trg:"rojo",src:"red"},{trg:"azul",src:"blue"},{trg:"verde",src:"green"},{trg:"amarillo",src:"yellow"},{trg:"blanco",src:"white"},{trg:"negro",src:"black"}]},
         {type:"fb",opts:["blanca","blanco","blancos","blancas"],hint:"Mesa is feminine singular. Match the color ending.",s:"La mesa es {1}.",a:"blanca"},
         {type:"mc",q:"The plural of 'azul' is:",opts:["azules","azuls","azulo","azula"],ans:"azules",hint:"Colors ending in consonant add -es for plural."},
-        {type:"mc",q:"What color is 'amarilla'?",opts:["Yellow (feminine)","Orange (feminine)","Green (feminine)","Gold (feminine)"],ans:"Yellow (feminine)",hint:"The -a ending marks it as feminine of amarillo."},
+        {type:"mc",q:"What color is 'amarilla'?",opts:["Yellow (feminine)","Orange (feminine)","Green (feminine)","Gold (feminine)"],ans:"Yellow (feminine)",hint:"The -a ending marks it as ___ of amarillo."},
         {type:"fb",opts:["negros","negro","negras","negra"],hint:"Masculine plural cats need the masculine plural color.",s:"Los gatos son {1}.",a:"negros"}
   ]},
   {id:"esp3l6",title:"Más Colores",icon:"🖌️",xp:15,board:true,steps:[
@@ -140,7 +140,7 @@ export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores"
         {type:"fb",opts:["color","día","nombre","año"],hint:"You are asking about the visual appearance.",s:"¿De qué {1} es tu casa?",a:"color"},
         {type:"mc",q:"'El libro rojo' means:",opts:["The red book","The red flower","The big book","The open book"],ans:"The red book",hint:"Libro = book, and the color follows the noun."},
         {type:"fb",opts:["rosas","rosa","rojas","rojo"],hint:"Pink flowers, feminine plural. This color adds -s for plural.",s:"Las flores son {1}.",a:"rosas"},
-        {type:"mc",q:"How do you say 'the brown table'?",opts:["la mesa marrón","la mesa marrona","el mesa marrón","la mesa marrono"],ans:"la mesa marrón",hint:"Marrón does not change for gender."},
+        {type:"mc",q:"How do you say 'the brown table'?",opts:["la mesa marrón","la mesa marrona","el mesa marrón","la mesa marrono"],ans:"la mesa marrón",hint:"___ does not change for gender."},
         {type:"fb",opts:["azul","verde","rojo","negro"],hint:"The sky shares its color with the sea on a clear day.",s:"El cielo es {1}.",a:"azul"}
   ]},
   {id:"esp3l7",title:"¿Qué Hora Es?",icon:"🕐",xp:15,board:true,steps:[
@@ -153,7 +153,7 @@ export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores"
         {type:"teach",trg:"de la mañana",src:"in the morning (AM)",pos:"noun",gender:null,phonetic:"deh la ma-NYAH-na",note:"De la mañana = AM. De la tarde = PM (afternoon). De la noche = PM (night).",example:"A: ¿A qué hora es la clase?\nB: A las ocho de la mañana.",exampleSrc:"A: What time is the class?\nB: At eight in the morning.",funFact:"Spanish nouns are either masculine or feminine. The ending usually gives it away."},
         {type:"tip",title:"Time Summary",text:"1:00: Es la una.\nAll others: Son las + number.\nAdd minutes: y cinco, y diez, y veinte.\n:15 = y cuarto. :30 = y media.\nAM = de la mañana.\nPM (day) = de la tarde.\nPM (night) = de la noche.",icon:"🕐"},
         {type:"mc",q:"'Son las cinco' means:",opts:["It's five o'clock","It's one o'clock","I have five","There are five"],ans:"It's five o'clock",hint:"Son las + number tells the time."},
-        {type:"mc",q:"Why does 1:00 use 'es la una' instead of 'son las'?",opts:["Una is singular, so the verb is singular too","It is an exception","Una is special","Es sounds better"],ans:"Una is singular, so the verb is singular too",hint:"One hour = singular. Two+ hours = plural."},
+        {type:"mc",q:"Why does 1:00 use 'es la una' instead of 'son las'?",opts:["Una is singular, so the verb is singular too","It is an exception","Una is special","Es sounds better"],ans:"Una is singular, so the verb is singular too",hint:"One hour = ___. Two+ hours = plural."},
         {type:"fb",opts:["Son","Es","Soy","Hay"],hint:"Plural verb for hours above one.",s:"{1} las tres y media.",a:"Son"},
         {type:"mc",q:"3:15 in Spanish is:",opts:["Son las tres y cuarto","Son las tres y media","Es la tres y cuarto","Son las tres y quince"],ans:"Son las tres y cuarto",hint:"Quarter past uses the word for 'quarter'."},
         {type:"fb",opts:["mañana","tarde","noche","media"],hint:"8 o'clock in the morning, not evening.",s:"Son las ocho de la {1}.",a:"mañana"},
@@ -192,7 +192,7 @@ export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores"
         {type:"mc",q:"'La bicicleta naranja' is correct because:",opts:["Bicicleta is special","Naranja does not change for gender","Naranja is feminine only","All colors work this way"],ans:"Naranja does not change for gender",hint:"Colors from nouns (the fruit) stay invariable."},
         {type:"drag_fill",hint:"Camisa is feminine, pantalón is masculine. Each color must agree.",s:"Tengo una camisa {1} y un pantalón {2}.",blanks:{"1":"blanca","2":"negro"},pool:["blanca","negro","blanco","negra"]},
         {type:"fb",opts:["moradas","morado","morada","morados"],hint:"Uvas is feminine plural. This variable color needs -adas.",s:"Las uvas son {1}.",a:"moradas"},
-        {type:"mc",q:"Which sentence is correct?",opts:["El gato negra duerme","El gato negros duerme","El gato negro duerme","El gato negroa duerme"],ans:"El gato negro duerme",hint:"Gato is masculine singular. The color must match exactly."},
+        {type:"mc",q:"Which sentence is correct?",opts:["El gato negra duerme","El gato negros duerme","El gato negro duerme","El gato negroa duerme"],ans:"El gato negro duerme",hint:"___ is masculine singular. The color must match exactly."},
         {type:"fb",opts:["azul","azula","azulo","azules"],hint:"This color stays the same for both masculine and feminine nouns.",s:"Mi coche es {1} y mi bicicleta es {1}.",a:"azul"},
         {type:"mc",q:"How do you say 'the violet flowers'?",opts:["las flores violetas","las flores violeto","las flores violeta","las flores violetaas"],ans:"las flores violeta",hint:"Like naranja and rosa, this color from a noun stays invariable."}
   ]},
@@ -214,6 +214,6 @@ export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores"
         {type:"mc",q:"Complete: 'Mi padre tiene ___ años.'",opts:["cuarenta y cinco","cuarenta cinco","cuarentacinco","cuarenta con cinco"],ans:"cuarenta y cinco",hint:"From 31 onward, tens and ones connect with 'y'."},
         {type:"drag_fill",hint:"Complete: day of week + date + month.",s:"Hoy es {1}, el {2} de {3}.",blanks:{"1":"jueves","2":"veinte","3":"septiembre"},pool:["jueves","veinte","septiembre","lunes","quince","marzo"]},
         {type:"fb",opts:["color","hora","día","nombre"],hint:"Asking about the visual appearance of the car.",s:"¿De qué {1} es tu coche?",a:"color"},
-        {type:"mc",q:"Which is correct for 1:30 PM?",opts:["Es la una y media de la tarde","Son las una y media","Es la una y cuarto","Son la una y media"],ans:"Es la una y media de la tarde",hint:"1:00 is singular: es la una. Plus y media for :30."}
+        {type:"mc",q:"Which is correct for 1:30 PM?",opts:["Es la una y media de la tarde","Son las una y media","Es la una y cuarto","Son la una y media"],ans:"Es la una y media de la tarde",hint:"1:00 is singular: es la una. Plus y ___ for :30."}
   ]}
 ]};

@@ -25,7 +25,7 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"fb",opts:["moine","roi","saint","prêtre"],hint:"A religious person living in a monastery",s:"L'habit ne fait pas le {1}.",a:["moine"]},
         {type:"mc",q:"What animal appears in the proverb about patience and steady effort?",opts:["Un oiseau","Un ours","Un moine","Un renard"],ans:"Un oiseau",hint:"A small creature that builds something piece by piece"},
         {type:"drag_fill",hint:"First the skin, then what you do to the bear",s:"Il ne faut pas vendre la {1} de l'ours avant de l'avoir {2}.",blanks:{"1":"peau","2":"tué"},pool:["peau","tué","vu","main"]},
-        {type:"mc",q:"What is the literal meaning of 'Qui vivra verra'?",opts:["Who will live will see","Who lives well sees well","Life is short","Living is seeing"],ans:"Who will live will see",hint:"Translate each word: qui=who, vivra=will live, verra=will see"},
+        {type:"mc",q:"What is the literal meaning of 'Qui vivra verra'?",opts:["Who will live will see","Who lives well sees well","Life is short","Living is seeing"],ans:"Who will live will see",hint:"Translate each word: qui=___, vivra=will ___, verra=will ___"},
         {type:"fb",opts:["Qui","Que","Quoi","Quel"],hint:"The relative pronoun meaning 'who' as a subject",s:"{1} vivra verra.",a:["Qui"]}
   ]},
   {id:"fre29l2",title:"Expressions culinaires",icon:"🍑",xp:15,board:true,steps:[
@@ -175,7 +175,7 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"mc",q:"Which quote is often misunderstood as simply hating people, but actually means the gaze of others defines us?",opts:["L'enfer, c'est les autres","Je pense, donc je suis","L'essentiel est invisible pour les yeux","Liberté, Égalité, Fraternité"],ans:"L'enfer, c'est les autres",hint:"From a play where three people are trapped in a room together forever"},
         {type:"fb",opts:["yeux","mains","oreilles","pieds"],hint:"The organs of sight, which cannot see what truly matters",s:"L'essentiel est invisible pour les {1}.",a:["yeux"]},
         {type:"fb",opts:["coeur","esprit","temps","monde"],hint:"Saint-Exupéry's famous line about what we truly see with, not our eyes.",s:"\"On ne voit bien qu'avec le {1}\" est une citation du Petit Prince.",a:["coeur"]},
-        {type:"mc",q:"'Liberté, Égalité, Fraternité' dates back to which historical event?",opts:["The French Revolution","World War I","The Napoleonic Wars","The Renaissance"],ans:"The French Revolution",hint:"The event of 1789 that transformed French society and government"}
+        {type:"mc",q:"'Liberté, Égalité, Fraternité' dates back to which historical event?",opts:["The French Revolution","World War I","The Napoleonic Wars","The Renaissance"],ans:"The French Revolution",hint:"The event of 1789 that transformed ___ society and government"}
   ]},
   {id:"fre29l8",title:"Révision: le français figuré",icon:"🏆",xp:20,board:true,steps:[
         {type:"intro",title:"Révision: le français figuré",desc:"Put everything together! Review proverbs, food idioms, body expressions, animal phrases, literary connectors, figures of style, and cultural quotes.",goals:["Review all proverb and idiom categories","Apply figurative language in mixed contexts","Demonstrate mastery of literary French"]},

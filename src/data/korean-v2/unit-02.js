@@ -19,7 +19,7 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
           text:"And 원 (member/place) twice:\n\n회사원\n→ office worker (company + member)\n\n병원\n→ hospital (illness + place)\n\n8 morphemes → already 10+ words decoded.\nEvery lesson, your LEGO set gets bigger."
         },text:"You've now seen 사 (expert) THREE times:\n의사 (medicine + expert) = doctor\n요리사 (cooking + expert) = chef\n간호사 (nursing + expert) = nurse\n\nOne morpheme, three words decoded."},
         {type:"mc",q:"학생 분해: 학 + 생. 학 means:",opts:["Person","Study","School","Teacher"],ans:"Study",hint:"Study-person = student"},
-        {type:"mc",q:"의사, 요리사, 간호사  -  what do they all share?",opts:["의 (medicine) morpheme","사 (expert) morpheme","원 (institution) morpheme","님 (honorific) suffix"],ans:"사 (expert) morpheme",hint:"사 = professional/expert in a field"},
+        {type:"mc",q:"의사, 요리사, 간호사  -  what do they all share?",opts:["의 (medicine) morpheme","사 (expert) morpheme","원 (institution) morpheme","님 (honorific) suffix"],ans:"사 (expert) morpheme",hint:"사 = professional/___ in a field"},
         {type:"mc",q:"Which word uses 님 to add RESPECT to a title?",opts:["학생","의사","선생님","회사원"],ans:"선생님",hint:"님 is an honorific suffix added to titles"},
         {type:"mc",q:"'I am a chef' in Korean:",opts:["저는 요리사예요","저는 선생님이에요","저는 학생이에요","저는 의사예요"],ans:"저는 요리사예요",hint:"Check the last sound of the job title."},
         {type:"fb",opts:["회사원","경찰관","의사","학생"],hint:"Company + member = office worker",s:"저는 ___이에요. (office worker)",a:"회사원"},
@@ -47,7 +47,7 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
           text:"2. I have:\n\n저는 차가 있어요.\n→ I have a car.\n\n3. Someone is somewhere:\n선생님이 교실에 있어요.\n→ The teacher is in the classroom.\n\n없다 is the exact inverse of all three:\n\n커피가 없어요.\n→ There is no coffee. / I don't have coffee.\n\nOne verb doing the work of three English verbs."
         },text:"있다 covers THREE English ideas:\n\n1. There is:\n커피가 있어요.\n→ There is coffee."},
         {type:"mc",q:"커피가 있어요 can mean:",opts:["Only there is coffee","Both there is and I have","Only I have coffee","Only I like coffee"],ans:"Both there is and I have",hint:"있다 covers existence AND possession"},
-        {type:"mc",q:"'I don't have time':",opts:["시간이 있어요","시간이 없어요","시간은 이에요","시간을 주세요"],ans:"시간이 없어요",hint:"없어요 = don't have / there isn't"},
+        {type:"mc",q:"'I don't have time':",opts:["시간이 있어요","시간이 없어요","시간은 이에요","시간을 주세요"],ans:"시간이 없어요",hint:"___ = don't have / there isn't"},
         {type:"mc",q:"시간이 없어요. Which particle is on 시간?",opts:["은","도","이","를"],ans:"이",hint:"이 after consonant-ending words"},
         {type:"mc",q:"커피___ 있어요.\n(There is coffee)",opts:["이","가","은","는"],ans:"가",hint:"Check the last letter."},
         {type:"teach",trg:"물",src:"water",pos:"noun",gender:null,phonetic:"mul",note:"One of the most common Korean nouns.",example:"A: 물이 있어요? B: 네, 물이 있어요.",exampleSrc:"A: Is there water? B: Yes, there is water.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
@@ -56,7 +56,7 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
         {type:"fb",opts:["이","가","은","는"],hint:"선생님 ends in consonant ㅁ",s:"교실에 선생님___ 있어요.\n(In the classroom, a teacher is there.)",a:"이"},
         {type:"match",pairs:[{trg:"있어요",src:"there is / I have"},{trg:"없어요",src:"there isn't / don't have"},{trg:"이",src:"subject marker (after consonant)"},{trg:"가",src:"subject marker (after vowel)"}]},
         {type:"drag_fill",hint:"Time exists. No coffee.",s:"{1}이 있어요. 커피가 {2}.",blanks:{"1":"시간","2":"없어요"},pool:["시간","커피","있어요","없어요","이에요"]},
-        {type:"mc",q:"'There is no doctor'  -  choose the correct sentence:",opts:["의사가 있어요","의사는 없어요","의사가 이에요","의사도 있어요"],ans:"의사는 없어요",hint:"없어요 = there isn't"},
+        {type:"mc",q:"'There is no doctor'  -  choose the correct sentence:",opts:["의사가 있어요","의사는 없어요","의사가 이에요","의사도 있어요"],ans:"의사는 없어요",hint:"___ = there isn't"},
         {type:"mc",q:"저는 고양이가 있어요. This means:",opts:["I am a cat","I want a cat","I have a cat","Cats are nice"],ans:"I have a cat",hint:"있어요 = have, when used with a possessed object"},
         {type:"mc",q:"이/가 is used for:",opts:["Object of sentence","Topic of sentence","Subject of sentence","Location"],ans:"Subject of sentence",hint:"Just notice for now  -  This gets named properly in a later lesson"},
         {type:"teach",trg:"질문",src:"question",pos:"noun",gender:null,phonetic:"jil-mun",note:"질문: question.\nSINO-KOREAN: 질 (matter) + 문 (ask).\n\n질문이 있어요.\n→ I have a question.",example:"A: 질문이 있어요? B: 네, 질문이 있어요!",exampleSrc:"A: Do you have a question? B: Yes, I have a question!",deepDive:{
@@ -95,7 +95,7 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
         {type:"teach",trg:"놀다",src:"to play / to hang out",pos:"verb",gender:null,phonetic:"nol-da",note:"놀다: stem 놀.\nThe stem vowel ㅗ is bright.",example:"A: 같이 놀아요! B: 네, 좋아요!",exampleSrc:"A: Let's hang out! B: Yes, sounds good!",funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."},
         {type:"mc",q:"배우다 (to learn)  -  stem vowel is ㅜ. Which ending?",opts:["-아요 → 배우아요","-어요 → 배워요","해요","가요"],ans:"-어요 → 배워요",hint:"Is the stem vowel bright or dark?"},
         {type:"mc",q:"오다 (to come)  -  stem vowel is ㅗ. Which ending?",opts:["-아요 → 와요","-어요 → 오어요","해요","요만"],ans:"-아요 → 와요",hint:"What kind of vowel is ㅗ?"},
-        {type:"mc",q:"Which verb gets -어요?",opts:["가다 (ㅏ stem)","보다 (ㅗ stem)","읽다 (ㅣ vowel)","오다 (ㅗ stem)"],ans:"읽다 (ㅣ vowel)",hint:"What kind of vowel is ㅣ: bright or dark?"},
+        {type:"mc",q:"Which verb gets -어요?",opts:["가다 (ㅏ stem)","보다 (ㅗ stem)","읽다 (ㅣ vowel)","오다 (ㅗ stem)"],ans:"읽다 (ㅣ vowel)",hint:"What kind of ___ is ㅣ: bright or dark?"},
         {type:"fb",opts:["살아요","살어요","살해요","살요"],hint:"ㅏ is BRIGHT",s:"살다 (to live): polite form ___",a:"살아요"},
         {type:"fb",opts:["서요","서아요","서해요","서어요"],hint:"ㅓ is a dark vowel. Dark vowels take -어요, which contracts here.",s:"서다 (to stand): polite form ___",a:"서요"},
         {type:"tip",title:"🔗 Contraction Patterns",deepDive:{
@@ -171,8 +171,8 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
         {type:"match",pairs:[{trg:"이것",src:"this (near me)"},{trg:"그것",src:"that (near you)"},{trg:"저것",src:"that (far away)"},{trg:"그 책",src:"that book (near listener)"}]},
         {type:"teach",trg:"제",src:"my (polite)",pos:"noun",gender:null,phonetic:"je",note:"제 = 저 (I, polite) + 의 (possession).\nContracted from the polite I + possessive.",example:"A: 이것은 누구 가방이에요? B: 제 가방이에요.",exampleSrc:"A: Whose bag is this? B: It's my bag.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
         {type:"drag_fill",hint:"My bag, teacher's bag (near them), the third one is far",s:"이것은 제 가방이에요. {1}은 선생님 가방이에요. {2}은 저기 있어요.",blanks:{"1":"그것","2":"저것"},pool:["이것","그것","저것","여기","거기"]},
-        {type:"mc",q:"'이 사람' most likely refers to:",opts:["A person far away","A person near the speaker","A person near the listener","An imaginary person"],ans:"A person near the speaker",hint:"이 = near ME/the speaker"},
-        {type:"mc",q:"그것 is used when the object is:",opts:["Right in front of you","Near the listener","On a distant mountain","In a past conversation only"],ans:"Near the listener",hint:"그 = near YOU (the other person)"},
+        {type:"mc",q:"'이 사람' most likely refers to:",opts:["A person far away","A person near the speaker","A person near the listener","An imaginary person"],ans:"A person near the speaker",hint:"이 = ___ ME/the ___"},
+        {type:"mc",q:"그것 is used when the object is:",opts:["Right in front of you","Near the listener","On a distant mountain","In a past conversation only"],ans:"Near the listener",hint:"그 = ___ YOU (the other person)"},
         {type:"mc",q:"Which prefix system do 이것/그것/저것 share with 여기/거기/저기?",opts:["은/는/도","이/그/저","있/없/모","을/를"],ans:"이/그/저",hint:"The same distance-based prefix runs through both"},
         {type:"teach",trg:"보다",src:"to see / to watch",pos:"verb",gender:null,phonetic:"bo-da",note:"보다: to see, to watch, to look.\n\nOne of the 5 most common Korean verbs.",example:"A: 이거 봐요! B: 뭐예요?",exampleSrc:"A: Look at this! B: What is it?",deepDive:{
           title:"보다",
@@ -199,18 +199,18 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
           title:"When to Use 저기요",
           text:"저기요 works for:\n• Calling a waiter in a restaurant\n• Getting a stranger's attention\n• Flagging down a taxi\n• Alerting a shopkeeper\n\n저기요 is the safe default."
         },text:"The most useful single word for visiting Korea:\n\n저기요!\n→ Excuse me! (literally: hey, over there!)\n\n여기요!\n→ Hey, over here! (also used, less common)"},
-        {type:"mc",q:"To call a waiter in a Korean restaurant:",opts:["여기!","거기요!","저기요!","안녕하세요!"],ans:"저기요!",hint:"저기요 = Excuse me! (to get attention from afar)"},
+        {type:"mc",q:"To call a waiter in a Korean restaurant:",opts:["여기!","거기요!","저기요!","안녕하세요!"],ans:"저기요!",hint:"___ = Excuse me! (to get attention from afar)"},
         {type:"mc",q:"You want your friend (standing near you) to come toward you. You say:",opts:["저기로 가세요","거기 있어요","이쪽으로 오세요","저기요"],ans:"이쪽으로 오세요",hint:"이쪽 = this direction (toward me)"},
         {type:"mc",q:"거기 maps to which 이/그/저 prefix?",opts:["이","그","저","여"],ans:"그",hint:"거기 = there, near YOU = 그 logic"},
         {type:"teach",trg:"화장실",src:"bathroom / restroom",pos:"noun",gender:null,phonetic:"hwa-jang-shil",note:"The first phrase every Korea visitor learns.\n실 = room (building block).",example:"A: 화장실이 어디 있어요? B: 저기에 있어요.",exampleSrc:"A: Where is the bathroom? B: It's over there.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
         {type:"teach",trg:"지하철역",src:"subway station",pos:"noun",gender:null,phonetic:"ji-ha-cheol-yeok",note:"지하 = underground. 철 = iron/rail.\n역 = station (building block).",example:"A: 지하철역이 어디에 있어요? B: 저기에 있어요.",exampleSrc:"A: Where is the subway station? B: It's over there.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
-        {type:"mc",q:"화장실이 어디 있어요? You look and say '저기요!' Wait  -  what does 저기요 mean here?",opts:["I found it over there","Excuse me (asking someone)","Here I am","That's the bathroom"],ans:"Excuse me (asking someone)",hint:"저기요 = 'Excuse me!' to get attention"},
+        {type:"mc",q:"화장실이 어디 있어요? You look and say '저기요!' Wait  -  what does 저기요 mean here?",opts:["I found it over there","Excuse me (asking someone)","Here I am","That's the bathroom"],ans:"Excuse me (asking someone)",hint:"저기요 = '___ me!' to get attention"},
         {type:"fb",opts:["여기","거기","저기","이기"],hint:"Far from both people = 저",s:"지하철역이 ___에 있어요.\n(The subway station is over there)",a:"저기"},
         {type:"fb",opts:["여기","거기","저기","이기"],hint:"Standard way to call a waiter",s:"___요! 메뉴 주세요.\n(Calling the waiter)",a:"저기"},
         {type:"match",pairs:[{trg:"여기",src:"here (near me)"},{trg:"거기",src:"there (near you)"},{trg:"저기",src:"over there"},{trg:"저기요!",src:"Excuse me!"}]},
         {type:"match",pairs:[{trg:"이쪽",src:"this way (toward me)"},{trg:"그쪽",src:"that way (toward you)"},{trg:"저쪽",src:"that way (far)"},{trg:"쪽",src:"direction / side"}]},
         {type:"drag_fill",hint:"Call the waiter, then: the menu is right here",s:"A: {1}요! 메뉴 주세요. B: 네, {2} 있어요.",blanks:{"1":"저기","2":"여기"},pool:["여기","거기","저기","이기"]},
-        {type:"mc",q:"What connects 이것/그것/저것 and 여기/거기/저기?",opts:["They use different roots","They share 이/그/저 prefix","They are all formal","They all mean here"],ans:"They share 이/그/저 prefix",hint:"Same distance prefix: 이 (near me), 그 (near you), 저 (far)"},
+        {type:"mc",q:"What connects 이것/그것/저것 and 여기/거기/저기?",opts:["They use different roots","They share 이/그/저 prefix","They are all formal","They all mean here"],ans:"They share 이/그/저 prefix",hint:"Same distance ___: 이 (near me), 그 (near you), 저 (far)"},
         {type:"mc",q:"이쪽으로 오세요 means:",opts:["Go over there","Come this way","Look that direction","Stay there"],ans:"Come this way",hint:"이쪽 = this direction (toward speaker), 오세요 = please come"}
   ]},
   {id:"kou2l5",title:"Family Preview",icon:"👨‍👩‍👧‍👦",xp:20,board:true,steps:[
@@ -230,7 +230,7 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
           title:"Speaker Gender Changes the Word",
           text:"Male speaker:\n형 = my older brother\n누나 = my older sister\n\nFemale speaker:\n오빠 = my older brother\n언니 = my older sister\n\nThese words also extend OUTSIDE family:\n오빠: how female fans call male idols!\n언니: how Korean women address older female friends.\n형: how Korean men address older male friends.\n\nThey're relationship words, not just family labels."
         },text:"In English: one word per sibling type.\n\nIn Korean: THE SPEAKER'S GENDER MATTERS.\n\nIf you are male: 형 (older bro), 누나 (older sis).\nIf you are female: 오빠 (older bro), 언니 (older sis)."},
-        {type:"mc",q:"A female speaker says '오빠가 있어요.' She has:",opts:["A younger brother","An older brother","An older sister","A younger sister"],ans:"An older brother",hint:"오빠 = older brother, used by FEMALE speakers"},
+        {type:"mc",q:"A female speaker says '오빠가 있어요.' She has:",opts:["A younger brother","An older brother","An older sister","A younger sister"],ans:"An older brother",hint:"오빠 = ___ ___, used by FEMALE speakers"},
         {type:"mc",q:"A male speaker wants to say 'I have an older sister':",opts:["오빠가 있어요","언니가 있어요","누나가 있어요","형이 있어요"],ans:"누나가 있어요",hint:"Male speaker + older sister = 누나"},
         {type:"mc",q:"남동생 = 남 + 동생. 남 means:",opts:["Female","Older","Male","Young"],ans:"Male",hint:"남 and 여 are a pair. Think about which gender 남 represents."},
         {type:"mc",q:"Which sibling term does NOT change based on speaker gender?",opts:["형/오빠","누나/언니","동생","All change"],ans:"동생",hint:"Younger sibling  regardless of speaker"},
@@ -238,7 +238,7 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
         {type:"fb",opts:["누나","언니","오빠","형"],hint:"Male speaker + older sister = ?",s:"저는 남자예요. ___ 이 있어요. (older sister)",a:"누나"},
         {type:"match",pairs:[{trg:"형",src:"older bro (male speaker)"},{trg:"오빠",src:"older bro (female speaker)"},{trg:"누나",src:"older sis (male speaker)"},{trg:"언니",src:"older sis (female speaker)"}]},
         {type:"drag_fill",hint:"Female speaker: older brother, then older sister",s:"저는 여자예요. {1}가 있어요. {2}가 있어요.",blanks:{"1":"오빠","2":"언니"},pool:["형","오빠","누나","언니","동생"]},
-        {type:"mc",q:"Outside family, 오빠 is used by:",opts:["Male speakers to older males","Female speakers to older males","Anyone to anyone older","Only to blood relatives"],ans:"Female speakers to older males",hint:"Only women/girls use 오빠 for non-family older males"},
+        {type:"mc",q:"Outside family, 오빠 is used by:",opts:["Male speakers to older males","Female speakers to older males","Anyone to anyone older","Only to blood relatives"],ans:"Female speakers to older males",hint:"Only women/girls use 오빠 for non-family ___ ___"},
         {type:"mc",q:"'I have a younger brother' in Korean:",opts:["남동생이 있어요","여동생이 있어요","형이 있어요","오빠가 있어요"],ans:"남동생이 있어요",hint:"남 (male) + 동생 (younger sibling)"}
   ]},
   {id:"kou2l6",title:"Sino-Korean Cluster",icon:"🏛️",xp:20,board:true,steps:[
@@ -300,12 +300,12 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
         ,funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
         {type:"teach",trg:"어디",src:"where",pos:"noun",gender:null,phonetic:"eo-di",note:"어디: where.\n어디에 있어요?: 'Where is it?'\n",example:"A: 화장실이 어디에 있어요? B: 저기 왼쪽에 있어요.",exampleSrc:"A: Where is the bathroom? B: Over there on the left.",deepDive:{title:"어디 in Korean Culture",text:"어디에 있어요 = survival Korean.\nThe most important question you'll ask in Korea.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
         {type:"teach",trg:"집",src:"home / house",pos:"noun",gender:null,phonetic:"jip",note:"집: home/house.\n집에 있어요: 'I'm at home' / 'It's at home'.\n",example:"A: 지금 어디에 있어요? B: 집에 있어요.",exampleSrc:"A: Where are you now? B: I'm at home.",deepDive:{title:"집 in Korean Culture",text:"Native Korean word (not Sino-Korean).\n집에 가요: 'going home' (에 as destination  -  preview of U6!)",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
-        {type:"mc",q:"학교가 어디에 있어요? This question asks:",opts:["What is a school?","Where is the school?","Is there a school?","Who is at school?"],ans:"Where is the school?",hint:"어디 = where."},
+        {type:"mc",q:"학교가 어디에 있어요? This question asks:",opts:["What is a school?","Where is the school?","Is there a school?","Who is at school?"],ans:"Where is the school?",hint:"어디 = ___."},
         {type:"teach",trg:"카페",src:"café",pos:"noun",gender:null,phonetic:"ka-pe",note:"From English café.\n카페에 있어요: 'I'm at the café.'\n",example:"A: 카페에 있어요? B: 네, 카페에 있어요!",exampleSrc:"A: Are you at the cafe? B: Yes, I'm at the cafe!",deepDive:{title:"Cultural Note",text:"Korea has more cafés per capita than any country.\n카페 culture is massive here.",funFact:"A Konglish loanword adapted from English. Korean has borrowed many modern and tech words."}},
         {type:"teach",trg:"지금",src:"now / right now",pos:"intj",gender:null,phonetic:"ji-geum",note:"지금: now.\n지금 어디에 있어요?: 'Where are you right now?'\n",example:"A: 지금 어디에 있어요? B: 카페에 있어요.",exampleSrc:"A: Where are you right now? B: I'm at the cafe.",deepDive:{title:"Using 지금",text:"SINO-KOREAN: 지 (this) + 금 (now).\nVery common time word.",funFact:"Korean has rich exclamations that express subtle emotions. Tone and context determine the exact feeling."}},
-        {type:"mc",q:"화장실이 어디에 있어요? means:",opts:["What is the bathroom?","Where is the bathroom?","Is there a bathroom?","The bathroom is big."],ans:"Where is the bathroom?",hint:"어디 = where, 있어요 = is/there is"},
-        {type:"mc",q:"'I'm at the library':",opts:["도서관에 없어요","도서관이 있어요","도서관에 있어요","도서관은 이에요"],ans:"도서관에 있어요",hint:"Place + 에 + 있어요 = am at [place]"},
-        {type:"mc",q:"지금 어디에 있어요? Someone is asking:",opts:["How are you now?","Where are you right now?","What time is it?","Are you here now?"],ans:"Where are you right now?",hint:"지금 = now, 어디에 있어요 = where is"},
+        {type:"mc",q:"화장실이 어디에 있어요? means:",opts:["What is the bathroom?","Where is the bathroom?","Is there a bathroom?","The bathroom is big."],ans:"Where is the bathroom?",hint:"어디 = where, ___ = is/there is"},
+        {type:"mc",q:"'I'm at the library':",opts:["도서관에 없어요","도서관이 있어요","도서관에 있어요","도서관은 이에요"],ans:"도서관에 있어요",hint:"Place + 에 + ___ = am at [place]"},
+        {type:"mc",q:"지금 어디에 있어요? Someone is asking:",opts:["How are you now?","Where are you right now?","What time is it?","Are you here now?"],ans:"Where are you right now?",hint:"지금 = ___, 어디에 있어요 = ___ is"},
         {type:"mc",q:"집에 있어요. 집 means:",opts:["School","Café","Home","Library"],ans:"Home",hint:"집 = home/house"},
         {type:"fb",opts:["에","이","가","는"],hint:"Location particle: at the café",s:"지금 카페___있어요.\n(Location particle: at the café)",a:"에"},
         {type:"fb",opts:["어디","무엇","누구","언제"],hint:"'Where' in Korean",s:"선생님이 ___에 있어요?\n(Where is the teacher?)",a:"어디"},
@@ -313,7 +313,7 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
         {type:"match",pairs:[{trg:"에",src:"at/in (location)"},{trg:"어디",src:"where"},{trg:"집",src:"home/house"},{trg:"지금",src:"now"}]},
         {type:"drag_fill",hint:"Are you at school? No, I'm at the café.",s:"A: 지금 {1}에 있어요? B: 아니요, {2}에 있어요.",blanks:{"1":"학교","2":"카페"},pool:["학교","카페","집","병원","어디"]},
         {type:"mc",q:"학교에 있어요: the 에 marks:",opts:["Action location","Static location","Object","Topic"],ans:"Static location",hint:"에 marks where something IS, not where action happens"},
-        {type:"mc",q:"카페 comes from:",opts:["Pure Korean","Chinese characters","English loanword","Japanese"],ans:"English loanword",hint:"French/English cafe adapted into Korean"}
+        {type:"mc",q:"카페 comes from:",opts:["Pure Korean","Chinese characters","English loanword","Japanese"],ans:"English loanword",hint:"French/___ cafe adapted into Korean"}
   ]},
   {id:"kou2l9",title:"알아요 / 몰라요",icon:"💡",xp:20,board:true,steps:[
         {type:"intro",title:"I Know / I Don't Know",desc:"알다 / 모르다\n→ know / don't know\n\nTwo essential verbs.",goals:["Say 알아요 (I know)","Say 몰라요 (I don't know)","Understand the preview flag"]},
@@ -331,17 +331,17 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
         },text:"You'll occasionally meet verbs that change shape when conjugated.\n\n모르다 → 몰라요 (expected: 모르어요 ✗)\n\nThis is called an IRREGULAR verb.\nDon't try to figure out the pattern yet."},
         {type:"mc",q:"'I don't know':",opts:["알아요","몰라요","없어요","아니에요"],ans:"몰라요",hint:"모르다 is a 르-irregular. The 르 doubles before vowel endings."},
         {type:"mc",q:"모르다 becomes 몰라요 because:",opts:["It is regular","르 doubles to ㄹㄹ","ㄹ drops","ㅗ changes to ㅏ"],ans:"르 doubles to ㄹㄹ",hint:"르-irregular: 모르 becomes 몰라 before -아/어"},
-        {type:"mc",q:"맞아요 is used to:",opts:["Express disagreement politely","Confirm something is correct","Say goodbye formally to someone","Ask a question very indirectly"],ans:"Confirm something is correct",hint:"맞다 = to be correct/right"},
-        {type:"mc",q:"정말요? is a reaction expressing:",opts:["Strong agreement","Strong disagreement","Surprise or interest","Formal politeness"],ans:"Surprise or interest",hint:"정말 = really  -  used when surprised or wanting to confirm"},
+        {type:"mc",q:"맞아요 is used to:",opts:["Express disagreement politely","Confirm something is correct","Say goodbye formally to someone","Ask a question very indirectly"],ans:"Confirm something is correct",hint:"맞다 = to be ___/right"},
+        {type:"mc",q:"정말요? is a reaction expressing:",opts:["Strong agreement","Strong disagreement","Surprise or interest","Formal politeness"],ans:"Surprise or interest",hint:"정말 = really  -  used when ___d or wanting to confirm"},
         {type:"fb",opts:["맞아","알아","몰라","정말"],hint:"Confirming something is correct",s:"A: 선생님이 학교에 있어요. B: 네, ___요.\n(That's right)",a:"맞아"},
         {type:"fb",opts:["몰라요","모르어요","모르요","모라요"],hint:"모르다 is 르-irregular. The 르 doubles to ㄹㄹ before -아/어.",s:"저는 ___.\n(I don't know  -  irregular form!)",a:"몰라요"},
         {type:"match",pairs:[{trg:"알아요",src:"I know"},{trg:"몰라요",src:"I don't know"},{trg:"맞아요",src:"That's right"},{trg:"정말요?",src:"Really?"}]},
         {type:"drag_fill",hint:"A asks where the teacher is. B has no idea. Neither does C.",s:"A: 선생님이 어디에 있어요? B: {1}. 저도 {2}.",blanks:{"1":"몰라요","2":"몰라요"},pool:["알아요","몰라요","맞아요","정말요"]},
         {type:"mc",q:"진짜요? compared to 정말요? is:",opts:["More formal","Less common","More casual/emphatic","Completely different meaning"],ans:"More casual/emphatic",hint:"진짜 = real/true, often used with stronger feeling"},
-        {type:"mc",q:"알아요 covers which English meanings?",opts:["Only I know (knowledge)","Both I know and I understand","Only I understand (feeling)","I want to know something"],ans:"Both I know and I understand",hint:"알아요 is used for both in daily conversation"}
+        {type:"mc",q:"알아요 covers which English meanings?",opts:["Only I know (knowledge)","Both I know and I understand","Only I understand (feeling)","I want to know something"],ans:"Both I know and I understand",hint:"알아요 is used for ___ in daily conversation"}
   ]},
   {id:"kou2l9b",title:"누구? 왜? 어떻게?",icon:"❓",xp:20,board:true,steps:[
-        {type:"intro",title:"Korean Question Words",desc:"누구 = who\n왜 = why\n어떻게 = how\n뭐 = what\n\nYou already know 어디 (where).\nNow: the full question set.",goals:["Use 누구 (who) in sentences","Ask 왜 (why)","Ask 어떻게 (how)","Formalize 뭐 (what) as a question word"]},
+        {type:"intro",title:"Korean Question Words",desc:"누구 = ___\n왜 = why\n어떻게 = how\n뭐 = what\n\nYou already know 어디 (where).\nNow: the full question set.",goals:["Use 누구 (who) in sentences","Ask 왜 (why)","Ask 어떻게 (how)","Formalize 뭐 (what) as a question word"]},
         {type:"tip",title:"Korean Question Words",deepDive:{
           title:"Question Word Positions",
           text:"Korean question words sit WHERE the answer would go:\n\n학교에 있어요 → 어디에 있어요?\n(school) → (where?)\n\n선생님이 있어요 → 누가 있어요?\n(teacher) → (who?)\n\nThis is the opposite of English, which moves the question word to the front."
@@ -355,7 +355,7 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
           text:"Both translate as 'what kind of' but differ:\n\n무슨 요일이에요? = What day is it? (fixed set)\n어떤 음악 좋아해요? = What kind of music? (open choice)\n\n무슨: selecting from a known/limited set.\n어떤: asking about characteristics or preferences.\n\n무슨 색? = What color? (from a set)\n어떤 색? = What kind of color? (describe it)"
         ,funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
         {type:"teach",trg:"언제",src:"when",pos:"noun",gender:null,phonetic:"eon-je",note:"언제: when.\n언제요?: 'When?' (polite, standalone).\n\nFull question word set:\n어디, 누구, 뭐, 왜, 어떻게, 어떤, 언제.",example:"A: 언제 와요? B: 내일 와요.",exampleSrc:"A: When are you coming? B: Tomorrow.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
-        {type:"mc",q:"이 사람은 누구예요? This question asks:",opts:["Where is this person?","Who is this person?","What is this person doing?","When is this person coming?"],ans:"Who is this person?",hint:"누구 = who"},
+        {type:"mc",q:"이 사람은 누구예요? This question asks:",opts:["Where is this person?","Who is this person?","What is this person doing?","When is this person coming?"],ans:"Who is this person?",hint:"누구 = ___"},
         {type:"mc",q:"왜 한국어를 배워요? means:",opts:["How do you learn Korean?","What do you learn?","Why do you learn Korean?","When do you learn Korean?"],ans:"Why do you learn Korean?",hint:"왜 = why"},
         {type:"mc",q:"어떻게 가요? means:",opts:["Where do you go?","Why do you go?","When do you go?","How do you get there?"],ans:"How do you get there?",hint:"어떻게 = how"},
         {type:"mc",q:"'Who is here?' uses which form?",opts:["누구 있어요?","누가 있어요?","누구를 있어요?","누구는 있어요?"],ans:"누가 있어요?",hint:"누구 as subject becomes 누가 (누구 + 이/가)"},
@@ -367,7 +367,7 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
         {type:"fb",opts:["어떤","어떻게","무슨","뭐"],hint:"Asking about kind/type preference. Same root as 어떻게.",s:"___ 영화 좋아해요?\n(What kind of movie do you like?)",a:"어떤"},
         {type:"match",pairs:[{trg:"누구",src:"who"},{trg:"왜",src:"why"},{trg:"어떻게",src:"how"},{trg:"어떤",src:"what kind of"}]},
         {type:"match",pairs:[{trg:"뭐",src:"what"},{trg:"어디",src:"where"},{trg:"언제",src:"when"},{trg:"누구예요?",src:"Who is it?"}]},
-        {type:"mc",q:"Korean questions compared to English:",opts:["Move the question word to the front","Flip subject and verb","Keep the same word order","Always add 요 at the start"],ans:"Keep the same word order",hint:"Korean swaps the unknown word for a question word, in place"},
+        {type:"mc",q:"Korean questions compared to English:",opts:["Move the question word to the front","Flip subject and verb","Keep the same word order","Always add 요 at the start"],ans:"Keep the same word order",hint:"Korean swaps the unknown ___ for a question ___, in place"},
         {type:"mc",q:"뭐 vs 무엇:",opts:["뭐 is formal, 무엇 is casual","They are unrelated words","뭐 is casual/spoken, 무엇 is formal","뭐 is old Korean, 무엇 is modern"],ans:"뭐 is casual/spoken, 무엇 is formal",hint:"Daily speech uses 뭐"},
         {type:"drag_fill",hint:"A: Who is this person? B: It's my teacher.",s:"A: {1} 사람은 {2}예요? B: 제 선생님이에요.",blanks:{"1":"이","2":"누구"},pool:["이","그","누구","뭐","왜"]},
         {type:"drag_fill",hint:"A asks WHY (reason), then HOW (method).",s:"A: {1} 한국어를 배워요? B: 한국 음악이 좋아요. A: {2} 배워요? B: 학교에서 배워요.",blanks:{"1":"왜","2":"어떻게"},pool:["왜","어떻게","뭐","어디","누구"]}
@@ -382,9 +382,9 @@ export default {n:2,lang:"ko",srcLang:"en",track:"v2",title:"저는 학생이에
         {type:"mc",q:"선생님 = 선생 + 님. 님 means:",opts:["Teacher (person)","Student (person)","Honorific suffix","Friend (person)"],ans:"Honorific suffix",hint:"님 elevates any title"},
         {type:"mc",q:"Which correctly uses 도?",opts:["저는도 학생이에요","저도 학생이에요","저가도 학생이에요","저이도 학생이에요"],ans:"저도 학생이에요",hint:"도 REPLACES 는, never stacks"},
         {type:"mc",q:"Something far from both speaker and listener is called:",opts:["이것","그것","저것","여기"],ans:"저것",hint:"Far from BOTH = 저"},
-        {type:"mc",q:"'Where is the pharmacy?'",opts:["약국이 뭐예요?","약국이 어디에 있어요?","약국에 있어요.","약국이 있어요?"],ans:"약국이 어디에 있어요?",hint:"어디 = where, 있어요 = is"},
+        {type:"mc",q:"'Where is the pharmacy?'",opts:["약국이 뭐예요?","약국이 어디에 있어요?","약국에 있어요.","약국이 있어요?"],ans:"약국이 어디에 있어요?",hint:"어디 = where, ___ = is"},
         {type:"mc",q:"관 appears in 도서관 AND 경찰관. It means:",opts:["Study / learning","Building / official hall","Room / chamber","Member / person"],ans:"Building / official hall",hint:"관 = building/official hall in both words"},
-        {type:"mc",q:"A female speaker saying 오빠가 있어요 has:",opts:["A younger brother","An older sister","An older brother","A male friend"],ans:"An older brother",hint:"오빠 = older brother, used by female speakers"},
+        {type:"mc",q:"A female speaker saying 오빠가 있어요 has:",opts:["A younger brother","An older sister","An older brother","A male friend"],ans:"An older brother",hint:"오빠 = ___ ___, used by female speakers"},
         {type:"fb",opts:["에","는","이","가"],hint:"Location: at the café",s:"지금 카페___있어요.\n(Location: at the café)",a:"에"},
         {type:"fb",opts:["몰라요","모르어요","알아요","없어요"],hint:"모르다 is 르-irregular. The 르 doubles to ㄹㄹ before -아/어.",s:"저는 ___.\n(I don't know)",a:"몰라요"},
         {type:"fb",opts:["도","는","이","가"],hint:"Also-there = 도 replaces the particle",s:"커피도 있어요. 차___ 있어요.\n(Tea is ALSO there)",a:"도"},

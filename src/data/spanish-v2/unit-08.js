@@ -127,7 +127,7 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
           {trg:"la bufanda verde",src:"the green scarf"}
         ]},
         {type:"fb",opts:["oscuro","oscura","claro","clara"],hint:"When modifying a color, this word means the darker shade.",s:"¿Tiene esta camisa en azul {1}?",a:"oscuro"},
-        {type:"mc",q:"El sombrero ___ es bonito. (light green)",opts:["verde claro","claro verde","verde clara","verdo claro"],ans:"verde claro",hint:"The shade word follows the color. Verde does not change for gender."},
+        {type:"mc",q:"El sombrero ___ es bonito. (light green)",opts:["verde claro","claro verde","verde clara","verdo claro"],ans:"verde claro",hint:"The shade word follows the color. ___ does not change for gender."},
         {type:"drag_fill",hint:"Match articles and colors to each noun's gender and number.",s:"Llevo {1} zapatos {2} y {3} camisa {4}.",blanks:{"1":"los","2":"negros","3":"una","4":"blanca"},pool:["los","negros","una","blanca","el","negro","la","blanco"]},
         {type:"mc",q:"Mi hermana lleva unas faldas ___. (red, plural)",opts:["rojas","roja","rojos","rojo"],ans:"rojas",hint:"Faldas is feminine plural. Match the color ending to it."}
   ]},
