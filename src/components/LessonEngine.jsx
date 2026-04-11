@@ -2487,17 +2487,18 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             </div>;
           })()}
 
-          {/* Fun Info — COMPOUND chip style (same as Korean morpheme bubbles) */}
-          {st.funInfo && (()=>{
+          {/* Fun Info / Fun Fact — COMPOUND chip style (same as Korean morpheme bubbles) */}
+          {(st.funInfo || st.funFact) && (()=>{
+            const funText = st.funInfo || st.funFact;
             // Parse compound parts: "Flug (flight) + Zeug (stuff/thing)" => [{morph:"Flug",gloss:"flight"},{morph:"Zeug",gloss:"stuff/thing"}]
             // Strip any prefix like "A compound noun:", "Another compound:", "Compound:" etc.
-            const compMatch = st.funInfo.match(/^(?:.*?compound[^:]*:\s*)?([A-Za-zÀ-ÿ]+\s*\([^)]+\)(?:\s*\+\s*[A-Za-zÀ-ÿ]+\s*\([^)]+\))+)/);
+            const compMatch = funText.match(/^(?:.*?compound[^:]*:\s*)?([A-Za-zÀ-ÿ]+\s*\([^)]+\)(?:\s*\+\s*[A-Za-zÀ-ÿ]+\s*\([^)]+\))+)/);
             const parts = compMatch ? compMatch[1].split(/\s*\+\s*/).map(p => {
               const m = p.trim().match(/^([^\s(]+)\s*\(([^)]+)\)/);
               return m ? {morph:m[1],gloss:m[2]} : {morph:p.trim(),gloss:""};
             }) : null;
             // Rest of the text after the compound decomposition
-            const restText = parts ? st.funInfo.replace(compMatch[0],"").replace(/^\.\s*/,"").trim() : st.funInfo;
+            const restText = parts ? funText.replace(compMatch[0],"").replace(/^\.\s*/,"").trim() : null;
             return <div style={{...compBubble, padding:"18px 20px 16px", marginBottom:16}}>
               <div style={glossArc}/>
               <div style={{position:"relative",zIndex:2}}>
@@ -2526,8 +2527,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 </div>}
                 {/* Extra context text below the chips */}
                 {restText && <div style={{fontSize:13,color:dk?"rgba(200,190,255,0.7)":"var(--gray-500)",fontWeight:500,lineHeight:1.6,fontFamily:"'Nunito','system-ui',sans-serif"}}>{restText}</div>}
-                {/* Non-compound funInfo: plain text */}
-                {!parts && <div style={{fontSize:14,lineHeight:1.7,fontWeight:500,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A"}}>{st.funInfo}</div>}
+                {/* Non-compound fun info: plain text */}
+                {!parts && <div style={{fontSize:14,lineHeight:1.7,fontWeight:500,color:dk?"rgba(220,210,255,0.85)":"#3A1F8A"}}>{funText}</div>}
               </div>
             </div>;
           })()}
