@@ -1,0 +1,408 @@
+// Unit 5 — 우리 가족
+// Family, Particles Named & Adjectives
+
+export default {n:5,lang:"ko",srcLang:"en",track:"v2",title:"우리 가족",sub:"Family, Particles Named & Adjectives",icon:"👨‍👩‍👧‍👦",level:"A1.2",color:"#2ECC71",lessons:[
+  {id:"kou5l1",title:"Family Tree",icon:"🌳",xp:20,board:true,steps:[
+        {type:"intro",title:"Full Family Tree",desc:"Full family vocabulary from grandparents down.",goals:["Learn full family tree","Decompose grandparent compound words","Master formal vs casual split"]},
+        {type:"teach",trg:"할아버지",src:"grandfather",pos:"part",gender:null,phonetic:"ha-ra-beo-ji",note:"COMPOUND: 할 (grand) + 아버지 (father).\n'Grand-father' = grandfather.\n",example:"A: 할아버지가 건강하세요? B: 네, 아주 건강하세요.",exampleSrc:"A: Is grandfather healthy? B: Yes, very healthy.",deepDive:{
+          title:"할아버지",
+          text:"할 is a prefix meaning 'grand'  -  used only for grandparents.\n건강하세요: honorific 'is healthy' (you use this for elders)."
+        ,funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."}},
+        {type:"teach",trg:"할머니",src:"grandmother",pos:"part",gender:null,phonetic:"hal-meo-ni",note:"COMPOUND: 할 (grand) + 머니 (mother form).\nSame prefix as the grandfather word.\n",example:"A: 할머니가 요리를 잘 해요? B: 네, 아주 잘 해요!",exampleSrc:"A: Does grandmother cook well? B: Yes, very well!",deepDive:{title:"할머니",text:"잘 해요: does well.\n잘: well/good. 잘 먹어요 (eats well), 잘 자요 (sleeps well).",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."}},
+        {type:"teach",trg:"아버지 / 아빠",src:"father / dad",pos:"intj",gender:null,phonetic:"a-beo-ji / a-ppa",note:"아버지: formal (father).\n아빠: casual (dad).\n",example:"A: 아버지는 뭐 하세요? B: 우리 아버지는 회사원이에요.",exampleSrc:"A: What does your father do? B: My father is an office worker.",deepDive:{
+          title:"Using 아버지 / 아빠",
+          text:"Use 아버지 when talking ABOUT someone's father.\nUse 아빠 casually about your own dad.\n\n우리 아빠 (my dad)  -  note 우리 not 나의."
+        ,funFact:"Korean has rich exclamations that express subtle emotions. Tone and context determine the exact feeling."}},
+        {type:"mc",q:"할머니 means:",opts:["grandfather","grandmother","father","mother"],ans:"grandmother",hint:"할아버지 is grandfather. The female equivalent is..."},
+        {type:"teach",trg:"어머니 / 엄마",src:"mother / mom",pos:"intj",gender:null,phonetic:"eo-meo-ni / eom-ma",note:"어머니: formal (mother).\n엄마: casual (mom).\n",example:"A: 엄마가 요리를 잘 해요? B: 네, 우리 엄마가 아주 잘 해요.",exampleSrc:"A: Does your mom cook well? B: Yes, my mom is very good.",deepDive:{title:"Using 어머니 / 엄마",text:"Same formal/casual pattern as 아버지/아빠.\n\n어머니, 아버지 = respectful\n엄마, 아빠 = intimate",funFact:"Korean has rich exclamations that express subtle emotions. Tone and context determine the exact feeling."}},
+        {type:"teach",trg:"남동생",src:"younger brother",pos:"noun",gender:null,phonetic:"nam-dong-saeng",note:"남동생: younger brother.\n남 (male) + 동생 (younger sibling).",example:"A: 남동생이 있어요? B: 네, 남동생이 한 명 있어요.",exampleSrc:"A: Do you have a younger brother? B: Yes, I have one younger brother.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"teach",trg:"여동생",src:"younger sister",pos:"noun",gender:null,phonetic:"yeo-dong-saeng",note:"여동생: younger sister.\n여 (female) + 동생 (younger sibling).",example:"A: 여동생이 뭐 해요? B: 여동생이 대학생이에요.",exampleSrc:"A: What does your younger sister do? B: My younger sister is a college student.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"teach",trg:"남편",src:"husband",pos:"noun",gender:null,phonetic:"nam-pyeon",note:"남편: husband.\n남 (male) + 편 (companion/side).",example:"A: 남편이 어디에 가요? B: 남편이 회사에 가요.",exampleSrc:"A: Where is your husband going? B: My husband is going to the office.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"teach",trg:"아내",src:"wife",pos:"noun",gender:null,phonetic:"a-nae",note:"아내: wife.\nFormal/neutral term. The Konglish word for 'wife' is also common.",example:"A: 아내가 요리를 잘해요? B: 네, 아주 잘해요!",exampleSrc:"A: Does your wife cook well? B: Yes, very well!",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"mc",q:"남동생 means:",opts:["mother (parent)","younger brother","husband (spouse)","older brother"],ans:"younger brother",hint:"남 (male) + 동생 (younger sibling). A compound word."},
+        {type:"mc",q:"할아버지 decomposes into:",opts:["할 (grand) + 아버지 (father)","하 (do) + 아버지 (father)","할아 (grandfather) + 버지 (man)","All one piece"],ans:"할 (grand) + 아버지 (father)",hint:"할 = grand prefix, same as 할머니"},
+        {type:"mc",q:"When talking to your friend about their father (formal), you say:",opts:["아빠","아버지","아버지님","부친"],ans:"아버지",hint:"... = formal, 아빠 = casual for your own dad"},
+        {type:"mc",q:"여동생 = 여 + 동생. What is the gender prefix?",opts:["동","생","여","동생"],ans:"여",hint:"여 = female. Compare: 남 = male."},
+        {type:"mc",q:"Which sibling term changes based on the SPEAKER's gender?",opts:["남동생","여동생","형/오빠","동생"],ans:"형/오빠",hint:"Older sibling terms depend on who is speaking"},
+        {type:"fb",opts:["할머니","할아버지","어머니","아내"],hint:"할 (grand) + 머니 (mother) = grandmother",s:"___가 건강하세요.\n(Grandmother is healthy)",a:"할머니"},
+        {type:"fb",opts:["한 명","일 명","하나 명","일 분"],hint:"People counter: 명. Native number 하나→한 before counter",s:"저는 여동생이 ___ 있어요.\n(I have 1 younger sister  -  use counter)",a:"한 명"},
+        {type:"match",pairs:[{trg:"할아버지",src:"grandfather"},{trg:"할머니",src:"grandmother"},{trg:"아버지",src:"father (formal)"},{trg:"어머니",src:"mother (formal)"}]},
+        {type:"match",pairs:[{trg:"아빠",src:"dad (casual)"},{trg:"엄마",src:"mom (casual)"},{trg:"남동생",src:"younger brother"},{trg:"여동생",src:"younger sister"}]},
+        {type:"drag_fill",hint:"My father is a doctor. My mother is a teacher.",s:"우리 {1}는 의사예요. 우리 {2}는 선생님이에요.",blanks:{"1":"아버지","2":"어머니"},pool:["아버지","어머니","할아버지","남동생"]},
+        {type:"mc",q:"아내 means:",opts:["Grandmother","Daughter","Wife","Mother"],ans:"Wife",hint:"남편 is the husband. What is the opposite family term?"},
+        {type:"mc",q:"'My grandfather' in Korean (using Korean collectivism):",opts:["나의 할아버지","내 할아버지","우리 할아버지","저의 할아버지"],ans:"우리 할아버지",hint:"Koreans say 우리 (our) even for individual family members"}
+  ]},
+  {id:"kou5l2",title:"Sibling Terms",icon:"👫",xp:20,board:true,steps:[
+        {type:"intro",title:"Speaker Gender Determines the Word",desc:"형 / 오빠\n→ older brother (male/female speaker)\n\nYOUR gender picks the word.",goals:["Master all four older sibling terms","Understand why the speaker's gender matters","Use these terms outside the family too"]},
+        {type:"teach",trg:"형",src:"older brother (male speaker)",pos:"noun",gender:null,phonetic:"hyeong",note:"형: used by MALE speakers for their older brother.\n\n형!  -  very common address term between brothers.",example:"A: 형이 있어요? B: 네, 형이 두 명 있어요.",exampleSrc:"A: Do you have an older brother? B: Yes, I have two older brothers.",deepDive:{title:"Using 형",text:"Also used for older male friends (male speaker).",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
+        {type:"teach",trg:"오빠",src:"older brother (female speaker)",pos:"noun",gender:null,phonetic:"o-ppa",note:"오빠: used by FEMALE speakers for their older brother.\n\nAlso used for: an older boyfriend.",example:"A: 오빠가 뭐 해요? B: 오빠가 대학생이에요. 멋있어요!",exampleSrc:"A: What does your older brother do? B: He is a college student. So cool!",deepDive:{
+          title:"Using 오빠",
+          text:"• An older boyfriend\n• A close older male friend (female speaker)\n• Female fans calling male K-pop idols\n\n오빠!: The most common word shouted at K-pop concerts."
+        ,funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
+        {type:"teach",trg:"누나",src:"older sister (male speaker)",pos:"noun",gender:null,phonetic:"nu-na",note:"누나: used by MALE speakers for their older sister.\n\nAlso used for older female friends (male speaker).",example:"A: 누나가 있어요? B: 네, 누나가 한 명 있어요. 아주 예뻐요.",exampleSrc:"A: Do you have an older sister? B: Yes, I have one. She is very pretty.",deepDive:{title:"Using 누나",text:"누나!  -  affectionate address term.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
+        {type:"mc",q:"오빠 means:",opts:["older sister","younger brother","younger sister","older brother"],ans:"older brother",hint:"A FEMALE speaker uses this word for an older male sibling or friend."},
+        {type:"teach",trg:"언니",src:"older sister (female speaker)",pos:"noun",gender:null,phonetic:"eon-ni",note:"언니: used by FEMALE speakers for their older sister.\n\nAlso used for older female friends (female speaker).",example:"A: 언니가 요리를 잘 해요? B: 네, 아주 잘 해요!",exampleSrc:"A: Does your older sister cook well? B: Yes, very well!",deepDive:{title:"Using 언니",text:"언니!  -  what women call their older female friends,\nolder female colleagues, even familiar older customers.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
+        {type:"tip",title:"🎯 The Complete Older Sibling Grid",deepDive:{
+          title:"Memory Tricks for 형/누나/오빠/언니",
+          text:"Male speaker:\n형\n→ older brother\n누나\n→ older sister\n\nFemale speaker:\n오빠\n→ older brother\n언니\n→ older sister\n\nMemory trick:\n• As a MALE: 형/누나 (both start rough-sounding)\n• As a FEMALE: 오빠/언니 (both flow softly)\n\nBeyond family:\nThese terms extend to close friends, colleagues,\nand even strangers you feel close to.\n형, 오빠, 누나, 언니 = 'building 정 (deep bond)'"
+        },text:"The four words for 'older sibling' organized by\nSPEAKER gender × SIBLING gender:\n\n         | older BROTHER | older SISTER\n---------+---------------+-------------"},
+        {type:"mc",q:"A female says '오빠가 있어요.' She has:",opts:["A younger brother","An older brother","An older sister","A younger sister"],ans:"An older brother",hint:"오빠 = older brother, said by FEMALE speakers"},
+        {type:"mc",q:"A male wants to say 'I have an older sister':",opts:["오빠가 있어요","언니가 있어요","누나가 있어요","형이 있어요"],ans:"누나가 있어요",hint:"MALE speaker + older sister = 누나"},
+        {type:"mc",q:"Female fans at a K-pop concert shout:",opts:["형!","누나!","오빠!","언니!"],ans:"오빠!",hint:"Female fans → male idol = 오빠"},
+        {type:"mc",q:"Two male friends. The younger one addresses the older one as:",opts:["오빠","언니","형","누나"],ans:"형",hint:"Male speaker + older male friend = 형"},
+        {type:"fb",opts:["누나","언니","오빠","형"],hint:"Male speaker + older sister",s:"저는 남자예요. ___ 이 있어요.\n(I have an older sister)",a:"누나"},
+        {type:"fb",opts:["오빠","형","누나","언니"],hint:"Female speaker + older brother",s:"저는 여자예요. ___ 가 있어요.\n(I have an older brother)",a:"오빠"},
+        {type:"fb",opts:["언니","누나","오빠","형"],hint:"Female speaker + older sister",s:"저는 여자예요. ___ 가 있어요.\n(I have an older sister)",a:"언니"},
+        {type:"match",pairs:[{trg:"형",src:"older bro (male speaker)"},{trg:"오빠",src:"older bro (female speaker)"},{trg:"누나",src:"older sis (male speaker)"},{trg:"언니",src:"older sis (female speaker)"}]},
+        {type:"drag_fill",hint:"Female speaker: I have an older brother AND an older sister",s:"저는 여자예요. {1}이 있고 {2}도 있어요.",blanks:{"1":"오빠","2":"언니"},pool:["오빠","형","언니","누나"]},
+        {type:"mc",q:"These sibling terms can be used for:",opts:["Blood relatives only","Close friends and older peers","Strangers of any age","Only colleagues at work"],ans:"Close friends and older peers",hint:"Korean social bonds extend family terms to close relationships"}
+  ]},
+  {id:"kou5l3",title:"우리 and 의",icon:"🏠",xp:20,board:true,steps:[
+        {type:"intro",title:"My House = Our House",desc:"우리\n→ our (but means 'my')\n\nKorean collectivism in one word.",goals:["Use 우리 for family and close possessions","Use 의 as a possessive marker","Understand Korean collectivism through language"]},
+        {type:"teach",trg:"우리",src:"our / my (for family and close things)",pos:"noun",gender:null,phonetic:"u-ri",note:"우리: 'our'  -  but used where English says 'my':\n\n우리 엄마: my mom",example:"A: 우리 집에 올래요? B: 네, 좋아요! 우리 집이 어디예요?",exampleSrc:"A: Want to come to my house? B: Yes, sure! Where is your house?",deepDive:{
+          title:"우리 in Korean Culture",
+          text:"우리 집: my house\n우리 나라: my/our country\n우리 학교: my/our school\n우리 회사: my/our company\n\n나의 엄마 sounds unnatural in Korean.\nUse 우리 엄마 instead."
+        ,funFact:"A Konglish loanword adapted from English. Korean has borrowed many modern and tech words."}},
+        {type:"teach",trg:"의",src:"'s / of (possessive)",pos:"part",gender:null,phonetic:"ui (often 'e')",note:"의: possessive particle.\n\n엄마의 이름: mom's name",example:"A: 엄마의 이름이 뭐예요? B: 우리 엄마의 이름은 수진이에요.",exampleSrc:"A: What is your mom's name? B: My mom's name is Sujin.",deepDive:{
+          title:"의",
+          text:"한국의 음식: Korea's food\n아버지의 직업: father's job\n\n의 is often dropped in casual speech:\n엄마 이름 (without 의) is equally natural."
+        ,funFact:"Korean particles attach to nouns to show their role in the sentence. The particle, not word order, determines meaning."}},
+        {type:"teach",trg:"제 / 내",src:"my (formal / casual)",pos:"intj",gender:null,phonetic:"je / nae",note:"제: formal/polite 'my' (저 → 제 + 의).\n내: casual 'my' (나 → 내 + 의).\n",example:"A: 이름이 뭐예요? B: 제 이름은 민준이에요.",exampleSrc:"A: What is your name? B: My name is Minjun.",deepDive:{
+          title:"Using 제 / 내",
+          text:"제 이름: my name (polite)\n내 이름: my name (casual)\n\n우리 is used for family.\n제/내 is used for personal items, names, etc."
+        ,funFact:"Korean has rich exclamations that express subtle emotions. Tone and context determine the exact feeling."}},
+        {type:"mc",q:"의 means:",opts:["'s","our","my","and"],ans:"'s",hint:"This possessive particle shows ownership between nouns."},
+        {type:"tip",title:"🏠 우리 집 vs 내 방: Korean Collectivism",deepDive:{
+          title:"Full Comparison",
+          text:"내 방 = my room  -  private space uses 내\nThis reflects Korean collectivist culture: family is shared.\n\n제/내 (my) is used for:\n• Personal items: 제 가방, 내 책\n• Characteristics: 제 이름, 내 생각\n\nThe logic: family and community are SHARED.\n'My house' belongs to everyone in it.\n'My mom' raised the whole family.\nSo 우리 is more natural.\n\n나의 엄마 sounds cold, even selfish."
+        },text:"Korean uses 우리 (our) where English uses 'my':\n\n우리 집 = our house (not 내 집)  -  even for YOUR own house\n우리 엄마 = our mom  -  even if talking about YOUR mom\n우리 나라 = our country = Korea"},
+        {type:"mc",q:"'My mom cooks well' - correct Korean:",opts:["우리 엄마가 잘 해요","나의 엄마가 잘 해요","내 엄마를 잘 해요","저의 엄마가 잘 해요"],ans:"우리 엄마가 잘 해요",hint:"Family = 우리, not 나의 or 저의"},
+        {type:"mc",q:"의 is used for:",opts:["Object marking","Topic marking","Possession (X's Y)","Location"],ans:"Possession (X's Y)",hint:"엄마의 이름 = mom's name"},
+        {type:"mc",q:"우리 나라 means:",opts:["Our neighborhood","My country / Korea","Our family","Our school"],ans:"My country / Korea",hint:"나라 = country. Koreans say 우리 나라 to mean South Korea."},
+        {type:"mc",q:"'My bag' (personal item, polite):",opts:["우리 가방","제 가방","나의 가방","저의 가방"],ans:"제 가방",hint:"Personal items use 제 (polite) or 내 (casual), not 우리"},
+        {type:"fb",opts:["우리","제","내","나의"],hint:"In Korean, family members use a special possessive. Not 제 or 나의.",s:"___ 아버지는 의사예요.\n(My father is a doctor)",a:"우리"},
+        {type:"fb",opts:["제","우리","나의","내"],hint:"Personal item, polite context → 제",s:"이것은 ___ 가방이에요.\n(This is my bag  -  polite)",a:"제"},
+        {type:"fb",opts:["음식","학교","회사","엄마"],hint:"한국의 ... = Korea's food",s:"한국의 ___ 이/가 유명해요.\n(Korea's food is famous)",a:"음식"},
+        {type:"match",pairs:[{trg:"우리 엄마",src:"my mom (family)"},{trg:"제 이름",src:"my name (polite)"},{trg:"아버지의 직업",src:"father's job (possessive)"},{trg:"우리 나라",src:"my/our country"}]},
+        {type:"mc",q:"의 in casual speech is often:",opts:["Always required","Often dropped","Replaced with 은","Replaced with 이"],ans:"Often dropped",hint:"엄마 이름 (without 의) sounds perfectly natural"}
+  ]},
+  {id:"kou5l4.1",title:"Descriptive Verbs: Big, Small, Pretty",icon:"📏",xp:18,board:true,steps:[
+        {type:"intro",title:"크다 = to be big. 작다 = to be small.",desc:"크다\n→ to be big\n\nKorean adjectives conjugate like verbs.",goals:["Understand descriptive verbs","Conjugate크다, 작다, 예쁘다 in present polite","See the 맛있다/멋있다 compound pattern again"]},
+        {type:"teach",trg:"크다 → 커요",src:"to be big → is/am big",pos:"verb",gender:null,phonetic:"keu-da → keo-yo",note:"크다: to be big.\n크다 → 커요 (polite present).\nNo separate 'is' needed. Korean adjectives conjugate as verbs.",example:"A: 집이 커요? B: 네, 아주 커요!",exampleSrc:"A: Is the house big? B: Yes, very big!",deepDive:{
+          title:"Why 크다 Is Not an Adjective",
+          text:"English: 'big' (adjective) + 'is' (verb) = two words.\nKorean: 크다 = big AND to-be-big = one word.\n\n집이 커요 = The house is-big.\n✗ 작은 집이에요 (wrong)\n✓ 집이 커요 (correct)"
+        ,funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
+        {type:"teach",trg:"작다 → 작아요",src:"to be small → is small",pos:"verb",gender:null,phonetic:"jak-da → ja-ga-yo",note:"작다: to be small.\n작다 → 작아요 (polite present).\nOpposite of the big word. Same conjugation pattern.",example:"A: 강아지가 커요? B: 아니요, 아주 작아요.",exampleSrc:"A: Is the puppy big? B: No, very small.",deepDive:{title:"Before-Noun Form",text:"큰 집 means big house. 작은 집 means small house.\nThis modifier form gets a full lesson later.",funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
+        {type:"teach",trg:"예쁘다 → 예뻐요",src:"to be pretty → is pretty",pos:"verb",gender:null,phonetic:"ye-ppeu-da → ye-ppeo-yo",note:"예쁘다 → 예뻐요 (으-irregular).\nThe ㅡ drops before endings.\nFull pattern in a later lesson.",example:"A: 이 꽃이 예뻐요? B: 네, 아주 예뻐요!",exampleSrc:"A: Is this flower pretty? B: Yes, very pretty!",deepDive:{
+          title:"으-Irregular Preview",
+          text:"Same pattern for all ㅡ-stems:\n예쁘다 → 예뻐요 (pretty)\n나쁘다 → 나빠요 (bad)\n바쁘다 → 바빠요 (busy)\n\n예쁜 꽃 means pretty flower (modifier form)."
+        ,funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."}},
+        {type:"mc",q:"작다 → present polite form:",opts:["작요","작이에요","작아요","작어요"],ans:"작아요",hint:"작 + 아요 (ㅏ vowel → -아요)"},
+        {type:"teach",trg:"멋있다 → 멋있어요",src:"to be cool / stylish",pos:"verb",gender:null,phonetic:"meo-sit-da → meo-si-sseo-yo",note:"COMPOUND: 멋 (style) + 있다 (exist).\nLiterally: style-exists = cool/stylish.\nSame pattern as 맛있다 (delicious): noun + 있다.",example:"A: 오빠가 멋있어요? B: 네, 아주 멋있어요!",exampleSrc:"A: Is your older brother cool? B: Yes, very cool!",deepDive:{
+          title:"있다 Compound Pattern",
+          text:"맛 + 있다 = taste exists = delicious\n멋 + 있다 = style exists = cool/stylish\n\n멋있어요! = cool/stylish/impressive (all-purpose compliment)"
+        ,funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."}},
+        {type:"teach",trg:"귀엽다 → 귀여워요",src:"to be cute",pos:"verb",gender:null,phonetic:"gwi-yeop-da → gwi-yeo-wo-yo",note:"귀엽다 → 귀여워요 (ㅂ-irregular).\nㅂ changes to 워 before endings.\nFull pattern in a later lesson.",example:"A: 아기가 귀여워요? B: 네, 아주 귀여워요!",exampleSrc:"A: Is the baby cute? B: Yes, so cute!",deepDive:{
+          title:"ㅂ-Irregular Preview",
+          text:"Same pattern for all ㅂ-irregular adjectives:\n귀엽다 → 귀여워요 (cute)\n덥다 → 더워요 (hot)\n춥다 → 추워요 (cold)\n\n귀여운 아기 means cute baby (modifier form)."
+        ,funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."}},
+        {type:"tip",title:"📐 Korean Adjectives vs English Adjectives",deepDive:{
+          title:"Full Conjugation Preview",
+          text:"Korean calls them 형용사 = descriptive verbs, not adjectives.\n\n크다 conjugates through all tenses:\n크다 → 커요 = is big (present polite)\n컸어요 = was big (past  -  later)\n클 거예요 = will be big (future  -  )\n\nEvery ending for action verbs works for descriptive verbs too."
+        },text:"In English: 'big' (adjective) + 'is' (verb) = TWO words.\nIn Korean: 크다 = big AND to-be-big = ONE word, BOTH jobs.\n\nDescriptive verbs conjugate exactly like action verbs.\nSame endings. Same irregular patterns. Same train structure."},
+        {type:"mc",q:"Korean adjectives are different from English because:",opts:["Work like English adjectives","They are verbs and conjugate","Cannot be used before nouns","Only exist in dictionary form"],ans:"They are verbs and conjugate",hint:"크다 → 커요, like a verb"},
+        {type:"mc",q:"집이 커요 means:",opts:["The house exists","The house is going","The house is big","I go to the big house"],ans:"The house is big",hint:"크다 = to be big → 커요"},
+        {type:"mc",q:"'The puppy is cute' in Korean:",opts:["강아지가 귀엽다요","강아지가 귀여워요","강아지는 귀엽어요","강아지가 귀엽이에요"],ans:"강아지가 귀여워요",hint:"귀엽다: ㅂ-irregular. ㅂ becomes 우 before vowel endings."},
+        {type:"mc",q:"멋있어요 = 멋 + 있다. 멋 means:",opts:["Taste / flavor","Style / coolness","Smell / fragrance","Beauty / looks"],ans:"Style / coolness",hint:"Style + exists = cool/stylish"},
+        {type:"fb",opts:["예뻐요","예쁘어요","크아요","멋있어요"],hint:"예쁘다: ㅡ drops before vowel endings. What remains after ㅡ drops?",s:"이 꽃이 ___.\n(This flower is pretty)",a:"예뻐요"},
+        {type:"fb",opts:["커요","크아요","큰아요","크요"],hint:"크다: ㅡ drops before vowel endings. Apply the pattern.",s:"우리 집이 ___.\n(Our house is big)",a:"커요"},
+        {type:"fb",opts:["귀여워요","귀엽아요","귀여요","귀엽요"],hint:"귀엽다: ㅂ-irregular. ㅂ changes to 우 before vowel endings.",s:"이 강아지가 ___!\n(This puppy is so cute!)",a:"귀여워요"},
+        {type:"match",pairs:[{trg:"크다 → 커요",src:"to be big"},{trg:"작다 → 작아요",src:"to be small"},{trg:"예쁘다 → 예뻐요",src:"to be pretty"},{trg:"멋있다 → 멋있어요",src:"to be cool/stylish"}]},
+        {type:"drag_fill",hint:"The house is big. The puppy is cute. The flower is pretty.",s:"집이 {1}. 강아지가 {2}. 꽃이 {3}.",blanks:{"1":"커요","2":"귀여워요","3":"예뻐요"},pool:["커요","작아요","귀여워요","예뻐요","멋있어요"]},
+        {type:"mc",q:"Which is the correct polite form of 작다?",opts:["작요","작이에요","작아요","작어요"],ans:"작아요",hint:"작 + 아요 (ㅏ vowel in stem → -아요)"}
+  ]},
+  {id:"kou5l4.2",title:"Opposites: Good/Bad, Fast/Slow",icon:"⚖️",xp:20,board:true,steps:[
+        {type:"intro",title:"Opposite Pairs",desc:"Opposite pairs. Know one, learn the other twice as fast.",goals:["Learn opposite pairs like 많다/적다, 빠르다/느리다","Use 새 and 오래되다 for new and old","Complete the A1 color set"]},
+        {type:"teach",trg:"나쁘다 → 나빠요",src:"to be bad → is bad",pos:"verb",gender:null,phonetic:"na-ppeu-da → na-ppa-yo",note:"나쁘다 → 나빠요 (으-irregular).\n좋다 (good) ↔ 나쁘다 (bad).\nSame pattern: the stem vowel drops before endings.",example:"A: 이거 좋아요? B: 아니요, 나빠요.",exampleSrc:"A: Is this good? B: No, it is bad.",deepDive:{title:"으-Irregular Family",text:"나쁘다 → 나빠요 (bad)\n예쁘다 → 예뻐요 (pretty)\n바쁘다 → 바빠요 (busy)\n\nAll ㅡ-stems: the ㅡ drops before -아/어요.",funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."}},
+        {type:"teach",trg:"많다 → 많아요",src:"to be many / a lot",pos:"verb",gender:null,phonetic:"man-ta",note:"많다: to be many / a lot.\n많다 → 많아요 (regular).\n시간이 많아요 (I have lots of time).",example:"A: 사람이 많아요? B: 네, 아주 많아요!",exampleSrc:"A: Are there many people? B: Yes, very many!",deepDive:{
+          title:"많다 Patterns",
+          text:"사람이 많아요 = There are many people.\n돈이 많아요 = I have a lot of money.\n\n많이 (adverb form) = a lot: 많이 먹어요 (eat a lot)."
+        ,funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
+        {type:"teach",trg:"적다 → 적어요",src:"to be few / little",pos:"verb",gender:null,phonetic:"jeok-da",note:"적다: to be few / little.\n적다 → 적어요 (regular).\n많다 (many) ↔ 적다 (few).",example:"A: 돈이 많아요? B: 아니요, 돈이 적어요.",exampleSrc:"A: Do you have a lot of money? B: No, I have little money.",deepDive:{
+          title:"많다 vs 적다",
+          text:"사람이 적어요 = There are few people.\n시간이 적어요 = I have little time.\n\n적다 is less common in spoken Korean.\nOften replaced with 별로 없어요 (not really much)."
+        ,funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
+        {type:"mc",q:"많다 means:",opts:["to be many","to be few","to be big","to be small"],ans:"to be many",hint:"The opposite of 적다 (few). Describes quantity."},
+        {type:"teach",trg:"느리다 → 느려요",src:"to be slow",pos:"verb",gender:null,phonetic:"neu-ri-da",note:"느리다: to be slow.\n느리다 → 느려요 (regular).",example:"A: 이 버스가 빨라요? B: 아니요, 느려요.",exampleSrc:"A: Is this bus fast? B: No, it is slow.",deepDive:{
+          title:"느리다 vs 빠르다",
+          text:"인터넷이 느려요 = The internet is slow.\n버스가 느려요 = The bus is slow.\n\nOpposite: 빠르다 (fast).\n느리다 is regular; 빠르다 is 르-irregular."
+        ,funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
+        {type:"teach",trg:"빠르다 → 빨라요",src:"to be fast",pos:"verb",gender:null,phonetic:"ppa-reu-da",note:"빠르다 → 빨라요 (르-irregular).\n르 doubles to ㄹㄹ before endings.\n느리다 (slow) ↔ 빠르다 (fast).",example:"A: KTX가 빨라요? B: 네, 아주 빨라요!",exampleSrc:"A: Is the KTX fast? B: Yes, very fast!",deepDive:{
+          title:"르-Irregular Pattern",
+          text:"르 stem splits: 빠르 → 빨 + 라요.\n\nKTX가 빨라요 = The KTX is fast.\n시간이 빨라요 = Time passes fast.\n\nSame pattern: 모르다 → 몰라요 (don't know)."
+        ,funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."}},
+        {type:"mc",q:"나쁘다 → present polite form:",opts:["나쁘어요","나빠요","나쁘아요","나쁘요"],ans:"나빠요",hint:"으-irregular: ㅡ drops"},
+        {type:"teach",trg:"어렵다 → 어려워요",src:"to be difficult",pos:"verb",gender:null,phonetic:"eo-ryeop-da",note:"어렵다 → 어려워요 (ㅂ-irregular).\nㅂ changes to 워 before endings.\nFull pattern in a later lesson.",example:"A: 한국어가 어려워요? B: 네, 좀 어려워요. 하지만 재미있어요!",exampleSrc:"A: Is Korean difficult? B: Yes, a bit difficult. But interesting!",deepDive:{
+          title:"ㅂ-Irregular Preview",
+          text:"어렵다 → 어려워요: ㅂ becomes 우 before vowel endings.\n\n한국어가 어려워요 = Korean is difficult.\n이 문제가 어려워요 = This problem is difficult.\n\nSame pattern: 춥다 → 추워요, 덥다 → 더워요."
+        ,funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."}},
+        {type:"teach",trg:"쉽다 → 쉬워요",src:"to be easy",pos:"verb",gender:null,phonetic:"swip-da",note:"쉽다 → 쉬워요 (ㅂ-irregular).\nSame irregular pattern as the difficult word.\n어렵다 (difficult) ↔ 쉽다 (easy).",example:"A: 이거 어려워요? B: 아니요, 쉬워요!",exampleSrc:"A: Is this difficult? B: No, it is easy!",deepDive:{
+          title:"ㅂ-Irregular Pair",
+          text:"Both 어렵다 and 쉽다 are ㅂ-irregular.\n\n이거 쉬워요 = This is easy.\n한국어 발음이 쉬워요? = Is Korean pronunciation easy?\n\nLearning tip: opposites that share the same irregular pattern are easier to memorize together."
+        ,funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."}},
+        {type:"teach",trg:"바쁘다 → 바빠요",src:"to be busy → is busy",pos:"verb",gender:null,phonetic:"ba-ppeu-da → ba-ppa-yo",note:"바쁘다 → 바빠요 (으-irregular).\nSame pattern: the stem vowel drops before endings.",example:"A: 요즘 바빠요? B: 네, 아주 바빠요!",exampleSrc:"A: Are you busy lately? B: Yes, very busy!",deepDive:{
+          title:"으-Irregular Pattern",
+          text:"바쁘다 → 바쁘 + 아요 → ㅡ drops → 바빠요.\n\n요즘 너무 바빠요 = I am so busy these days.\n바쁜 사람 = busy person (modifier form).\n\nSame pattern: 슬프다 → 슬퍼요, 기쁘다 → 기뻐요."
+        ,funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."}},
+        {type:"mc",q:"쉽다 means:",opts:["to be easy","to be difficult","to be fast","to be slow"],ans:"to be easy",hint:"The opposite of 어렵다. Describes low difficulty."},
+        {type:"teach",trg:"싫다 → 싫어요",src:"to dislike / don't want",pos:"verb",gender:null,phonetic:"sil-ta → sil-eo-yo",note:"싫다: to dislike / do not want.\n싫다 → 싫어요.\n좋아요 (like) ↔ 싫어요 (dislike).",example:"A: 이거 좋아요? B: 아니요, 싫어요.",exampleSrc:"A: Do you like this? B: No, I don't like it.",deepDive:{
+          title:"Usage",
+          text:"밥 싫어요 = I do not want rice.\n이거 싫어요 = I do not like this.\n\n싫어요 can mean both 'I dislike it' and 'I do not want it.'"
+        ,funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
+        {type:"mc",q:"Which means \"I do not want rice\"?",opts:["밥 좋아요","밥 싫어요","밥 먹어요","밥 있어요"],ans:"밥 싫어요",hint:"싫다 = to dislike / do not want"},
+        {type:"teach",trg:"새",src:"new (modifier)",pos:"noun",gender:null,phonetic:"sae",note:"새: new  -  goes directly before nouns.\n새 옷 means new clothes. 새 친구 means new friend.",example:"A: 이거 새 책이에요? B: 네, 어제 샀어요.",exampleSrc:"A: Is this a new book? B: Yes, I bought it yesterday.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"teach",trg:"오래되다 → 오래됐어요",src:"to be old (things)",pos:"verb",gender:null,phonetic:"o-rae-doe-da",note:"오래되다: to be old (things, not people).\n오래됐어요 = it is old.\n새 (new) ↔ 오래되다 (old).",example:"A: 이 가방이 새 거예요? B: 아니요, 오래됐어요.",exampleSrc:"A: Is this bag new? B: No, it is old.",funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."},
+        {type:"teach",trg:"재미없다 → 재미없어요",src:"to be boring",pos:"verb",gender:null,phonetic:"jae-mi-eop-da",note:"COMPOUND: 재미 (fun) + 없다 (does not exist).\n'No fun exists' = boring.\n재미있다 (fun) ↔ 재미없다 (boring).",example:"A: 이 영화가 재미있어요? B: 아니요, 재미없어요.",exampleSrc:"A: Is this movie interesting? B: No, it is boring.",deepDive:{
+          title:"있다/없다 Compound Pattern",
+          text:"있다 compounds are positive: 맛있다 (delicious), 재미있다 (fun).\n없다 = negative: 맛없다 = tasteless, 재미없다 = boring.\n\n없다 negates the compound  -  same logic every time."
+        ,funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."}},
+        {type:"mc",q:"오래되다 means:",opts:["to be old (things)","to be new","to be big","to be expensive"],ans:"to be old (things)",hint:"Used for objects, not people. The opposite of 새 (new)."},
+        {type:"teach",trg:"빨간",src:"red",pos:"noun",gender:null,phonetic:"ppal-gan",note:"빨간: red (before nouns).\nFrom 빨갛다 (to be red).\n빨간 사과 = red apple.\n빨간색 = red color.",example:"A: 무슨 색 사과를 좋아해요? B: 빨간 사과를 좋아해요.",exampleSrc:"A: What color apple do you like? B: I like red apples.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"teach",trg:"파란",src:"blue",pos:"noun",gender:null,phonetic:"pa-ran",note:"파란: blue (before nouns).\nFrom 파랗다 (to be blue).\n파란 하늘 = blue sky.\n파란색 = blue color.",example:"A: 하늘이 예뻐요? B: 네, 파란 하늘이 아주 예뻐요!",exampleSrc:"A: Is the sky pretty? B: Yes, the blue sky is very pretty!",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"teach",trg:"하얀",src:"white",pos:"noun",gender:null,phonetic:"ha-yan",note:"하얀: white (before nouns).\nFrom 하얗다 (to be white).\n하얀 눈 = white snow.\n하얀색 = white color.",example:"A: 밖에 눈이 와요? B: 네, 하얀 눈이 와요!",exampleSrc:"A: Is it snowing outside? B: Yes, white snow is falling!",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"teach",trg:"검은",src:"black",pos:"noun",gender:null,phonetic:"geom-eun",note:"검은: black (before nouns).\nFrom 검다 (to be black).\n검은색 = black color.\n검은 머리 = black hair.",example:"A: 머리카락이 무슨 색이에요? B: 검은 머리카락이에요.",exampleSrc:"A: What color is your hair? B: It is black hair.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"teach",trg:"노란",src:"yellow",pos:"noun",gender:null,phonetic:"no-ran",note:"노란: yellow (before nouns).\nFrom 노랗다 (to be yellow).\n노란색 = yellow color.",example:"A: 이 꽃이 예뻐요? B: 네, 노란 꽃이 아주 예뻐요!",exampleSrc:"A: Are these flowers pretty? B: Yes, the yellow flowers are very pretty!",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"mc",q:"빨간 사과 means:",opts:["Red apple","Blue sky","White snow","Yellow flower"],ans:"Red apple",hint:"빨간 = red, 사과 = apple."},
+        {type:"match",pairs:[{trg:"빨간",src:"red"},{trg:"파란",src:"blue"},{trg:"하얀",src:"white"},{trg:"검은",src:"black"}]},
+        {type:"tip",title:"🎨 Colors  -  The Full A1 Set",deepDive:{
+          title:"Color System",
+          text:"-색 (色) = color suffix.\n\n빨간(색) = red\n주황색 = orange\n노란(색) = yellow\n초록(색) = green\n파란(색) = blue\n보라색 = purple\n분홍색 = pink\n하얀(색) = white\n검은(색) = black\n하늘색 = sky blue\n\nThe adjective forms (빨갛다, 파랗다, 노랗다, 하얗다)\nare ㅎ-irregular. Full conjugation in B1 U12."
+        },text:"Core five:\n빨간 = red, 파란 = blue, 노란 = yellow.\n하얀 = white, 검은 = black.\n\nMore colors:\n초록 = green, 하늘색 = sky blue.\n분홍색 = pink, 보라색 = purple."},
+        {type:"mc",q:"나쁘다 ↔ 좋다  -  they are:",opts:["Synonyms","Opposites","Unrelated","Same irregular pattern"],ans:"Opposites",hint:"좋다 = good, 나쁘다 = bad"},
+        {type:"mc",q:"'There are a lot of people'  -  correct:",opts:["사람이 많아요","사람이 적어요","사람이 없어요","사람이 많이요"],ans:"사람이 많아요",hint:"많다 → 많아요: there is a lot"},
+        {type:"mc",q:"'Korean is difficult'  -  correct form:",opts:["한국어가 어렵어요","한국어가 어려워요","한국어가 어렵아요","한국어가 어럽요"],ans:"한국어가 어려워요",hint:"어렵다 is ㅂ-irregular: 어렵다 → 어려워요"},
+        {type:"mc",q:"재미없다 = 재미 + 없다. It means:",opts:["Not funny-looking","Boring / no fun","Doesn't exist","Not a game"],ans:"Boring / no fun",hint:"재미 (fun/interest) + 없다 (doesn't exist) = boring"},
+        {type:"mc",q:"'New book' in Korean:",opts:["새로운 책이에요","새 책이에요","새다 책이에요","신 책이에요"],ans:"새 책이에요",hint:"새 goes directly before nouns: 새 책, 새 옷, 새 친구"},
+        {type:"fb",opts:["재미없어요","재미있어요","재미없다요","재미요"],hint:"재미없다: boring. 없다 → 없어요 (dark vowel ㅓ → 어요).",s:"이 영화가 ___.\n(This movie is boring)",a:"재미없어요"},
+        {type:"fb",opts:["바빠요","바쁘요","바빠다요","바쁘아요"],hint:"바쁘다: ㅡ drops. Look at the vowel BEFORE ㅡ: 바 has ㅏ (bright) → 아요.",s:"요즘 많이 ___.\n(I've been really busy lately)",a:"바빠요"},
+        {type:"match",pairs:[{trg:"많다 → 많아요",src:"many/a lot"},{trg:"적다 → 적어요",src:"few/little"},{trg:"느리다 → 느려요",src:"slow"},{trg:"빠르다 → 빨라요",src:"fast (preview)"}]},
+        {type:"match",pairs:[{trg:"좋다 → 좋아요",src:"good"},{trg:"나쁘다 → 나빠요",src:"bad"},{trg:"쉽다 → 쉬워요",src:"easy"},{trg:"어렵다 → 어려워요",src:"difficult"}]}
+  ]},
+  {id:"kou5l4.3",title:"Emotions and Properties",icon:"💭",xp:20,board:true,steps:[
+        {type:"intro",title:"How Things Feel",desc:"행복하다\n→ to be happy\n\nEmotions as verbs.",goals:["Express emotions with 행복하다, 슬프다, 무섭다","Describe properties with 깨끗하다, 편하다, 높다","Preview 으-irregular and ㅂ-irregular patterns"]},
+        {type:"teach",trg:"행복하다 → 행복해요",src:"to be happy",pos:"verb",gender:null,phonetic:"haeng-bok-ha-da",note:"행복하다: to be happy. 행복해요 (polite).\nCOMPOUND: 행 (luck) + 복 (blessing).\nOpposite: unhappy (same pattern with negative prefix).",example:"A: 지금 행복해요? B: 네, 가족하고 같이 있으면 행복해요.",exampleSrc:"A: Are you happy now? B: Yes, I'm happy when I'm with family.",deepDive:{title:"하다 Compound",text:"행복하다 is a 하다 verb: stem 행복 + 하다 gives 행복해요.\n\n불 (不) means not. 불 + 행복 gives 불행하다 (to be unhappy).",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."}},
+        {type:"teach",trg:"슬프다 → 슬퍼요",src:"to be sad",pos:"verb",gender:null,phonetic:"seul-peu-da",note:"슬프다: sad. 슬프다 → 슬퍼요.\n으-irregular: ㅡ drops before 어요.\n슬프다 ↔ 기쁘다 (glad)  -  same pattern.",example:"A: 이 영화가 재미있어요? B: 재미있어요. 하지만 좀 슬퍼요.",exampleSrc:"A: Is this movie interesting? B: It is interesting. But a bit sad.",deepDive:{
+          title:"Emotion Adjective Pairs",
+          text:"슬픈 영화 = sad movie (modifier form: 슬프다 → 슬픈).\n기쁜 소식 = happy news (기쁘다 → 기쁜).\n\nBoth are 으-irregulars: ㅡ drops before 어요.\n슬프 + 어요 → 슬퍼요. 기쁘 + 어요 → 기뻐요."
+        ,funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."}},
+        {type:"teach",trg:"중요하다 → 중요해요",src:"to be important",pos:"verb",gender:null,phonetic:"jung-yo-ha-da",note:"중요하다: important. 중요해요 (polite).\nCOMPOUND: 중 (heavy) + 요 (essential).\n건강이 중요해요 = Health is important.",example:"A: 건강이 중요해요? B: 네, 아주 중요해요!",exampleSrc:"A: Is health important? B: Yes, very important!",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."},
+        {type:"mc",q:"슬프다 means:",opts:["to be sad","to be happy","to be angry","to be tired"],ans:"to be sad",hint:"An emotion word. The opposite of 기쁘다 (happy)."},
+        {type:"mc",q:"슬프다 → present polite (으-irregular):",opts:["슬프어요","슬퍼요","슬파요","슬프아요"],ans:"슬퍼요",hint:"ㅡ drops: 슬프 : what ending attaches?"},
+        {type:"teach",trg:"깨끗하다 → 깨끗해요",src:"to be clean",pos:"verb",gender:null,phonetic:"kkae-kkeut-ha-da",note:"깨끗하다: clean. 깨끗해요 (polite).\n깨끗하다 ↔ 더럽다 (dirty).\n방이 깨끗해요 = The room is clean.",example:"A: 방이 깨끗해요? B: 네, 아주 깨끗해요!",exampleSrc:"A: Is the room clean? B: Yes, very clean!",deepDive:{title:"Opposite: 더럽다",text:"더럽다 (dirty) → 더러워요.\nㅂ-irregular, same pattern as 귀엽다 → 귀여워요.",funFact:"A 하다 verb — noun + 하다 (to do). This pattern creates hundreds of verbs from Sino-Korean nouns."}},
+        {type:"mc",q:"행복하다 → present polite:",opts:["행복이에요","행복해요","행복하어요","행복아요"],ans:"행복해요",hint:"하다 verb: 행복하다"},
+        {type:"teach",trg:"편하다 → 편해요",src:"to be comfortable",pos:"verb",gender:null,phonetic:"pyeon-ha-da",note:"편하다: comfortable / convenient.\n편 (便: convenience) + 하다.",example:"A: 이 의자가 편해요? B: 네, 아주 편해요.",exampleSrc:"A: Is this chair comfortable? B: Yes, very comfortable.",funFact:"Built from Chinese characters (Hanja). About 60% of Korean vocabulary has Hanja roots."},
+        {type:"teach",trg:"불편하다 → 불편해요",src:"to be uncomfortable",pos:"verb",gender:null,phonetic:"bul-pyeon-ha-da",note:"불편하다: uncomfortable / inconvenient.\n불 (不) means not. 불 + 편하다 (comfortable) gives the opposite.",example:"A: 지하철이 편해요? B: 아니요, 좀 불편해요.",exampleSrc:"A: Is the subway convenient? B: No, a bit inconvenient.",funFact:"Built from Chinese characters (Hanja). About 60% of Korean vocabulary has Hanja roots."},
+        {type:"teach",trg:"높다 → 높아요",src:"to be high / tall",pos:"verb",gender:null,phonetic:"nop-da",note:"높다: high / tall (things, not people).\n높다 → 높아요 (regular).",example:"A: 이 산이 높아요? B: 네, 아주 높아요!",exampleSrc:"A: Is this mountain high? B: Yes, very high!",deepDive:{
+          title:"높다 Usage",
+          text:"산이 높아요 = The mountain is high.\n건물이 높아요 = The building is tall.\n\nFor people: use 키가 크다 (tall) not 높다.\n높다 is for objects, mountains, buildings, prices."
+        ,funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
+        {type:"mc",q:"불편하다 means:",opts:["to be uncomfortable","to be comfortable","to be clean","to be important"],ans:"to be uncomfortable",hint:"불 is a negative prefix. 편하다 = comfortable. What does 불 + 편하다 mean?"},
+        {type:"teach",trg:"낮다 → 낮아요",src:"to be low / short",pos:"verb",gender:null,phonetic:"nat-da",note:"낮다: low / short.\n낮다 → 낮아요 (regular).\n높다 (high) ↔ 낮다 (low).",example:"A: 온도가 높아요? B: 아니요, 낮아요.",exampleSrc:"A: Is the temperature high? B: No, it is low.",deepDive:{
+          title:"낮다 vs 짧다",
+          text:"온도가 낮아요 = The temperature is low.\n가격이 낮아요 = The price is low.\n\n낮다 = low (height, level).\n짧다 = short (length, time)."
+        ,funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
+        {type:"teach",trg:"다르다 → 달라요",src:"to be different",pos:"verb",gender:null,phonetic:"da-reu-da",note:"다르다: different. 다르다 → 달라요.\n르-irregular, same as 모르다 → 몰라요.\n같다 (same) ↔ 다르다 (different).",example:"A: 한국하고 일본은 같아요? B: 아니요, 많이 달라요.",exampleSrc:"A: Are Korea and Japan the same? B: No, very different.",deepDive:{
+          title:"르-Irregular: 다르다",
+          text:"다르 → 달 + 라요 = 달라요 (same 르 split).\n\n이거 달라요 = This is different.\n한국어는 영어와 달라요 = Korean is different from English.\n\n같다 (same) is regular: 같아요."
+        ,funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."}},
+        {type:"mc",q:"산이 높아요 means:",opts:["The mountain is far","The mountain is high","The mountain is different","The mountain is close"],ans:"The mountain is high",hint:"높다 = high/tall → 높아요"},
+        {type:"teach",trg:"멀다 → 멀어요",src:"to be far",pos:"verb",gender:null,phonetic:"meol-da",note:"멀다: to be far. ㄹ-stem.\n멀다 → 멀어요 (regular).",example:"A: 학교가 멀어요? B: 아니요, 가까워요.",exampleSrc:"A: Is school far? B: No, it is close.",deepDive:{
+          title:"멀다 Usage",
+          text:"학교가 멀어요 = School is far.\n역이 멀어요? = Is the station far?\n\n멀다 (far) ↔ 가깝다 (close/near).\nㄹ-stem: ㄹ drops before ㄴ, ㅂ, ㅅ."
+        ,funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."}},
+        {type:"teach",trg:"가깝다 → 가까워요",src:"to be close / near",pos:"verb",gender:null,phonetic:"ga-kkap-da",note:"가깝다 → 가까워요 (ㅂ-irregular).\n멀다 (far) ↔ 가깝다 (close).",example:"A: 집이 멀어요? B: 아니요, 가까워요!",exampleSrc:"A: Is home far? B: No, it is close!",deepDive:{
+          title:"가깝다 Patterns",
+          text:"편의점이 가까워요 = The convenience store is close.\n집에서 가까워요 = It is close from home.\n\nㅂ-irregular: 가깝 → 가까우 + 어요 → 가까워요."
+        ,funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."}},
+        {type:"teach",trg:"무섭다 → 무서워요",src:"to be scary / to be afraid",pos:"verb",gender:null,phonetic:"mu-seop-da",note:"무섭다: scary / to be afraid.\n무섭다 → 무서워요 (ㅂ-irregular).",example:"A: 그 영화가 무서워요? B: 네, 아주 무서워요!",exampleSrc:"A: Is that movie scary? B: Yes, very scary!",deepDive:{
+          title:"Two Meanings",
+          text:"무서워요 can mean:\n① That thing is scary: 그 영화가 무서워요 = That movie is scary.\n② I am scared: 저는 무서워요 = I am scared."
+        ,funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."}},
+        {type:"teach",trg:"화나다 → 화나요",src:"to be angry / to get angry",pos:"verb",gender:null,phonetic:"hwa-na-da",note:"화나다: to be/get angry.\n화 (火 = fire) + 나다 (to come out).\n\n화나요 = angry (present).\n화났어요 = got angry (past).\n\nCOMPOUND: fire comes out = angry.",example:"A: 왜 화났어요? B: 약속을 안 지켰어요.",exampleSrc:"A: Why are you angry? B: They didn't keep the promise.",deepDive:{
+          title:"화 Expressions",
+          text:"화나다: to get angry (emotion arises).\n화내다: to express anger (at someone).\n화가 나다: anger comes (formal).\n\n왜 화났어요? = Why are you angry?\n화내지 마세요 = Please don't get angry.\n\nEmotion quartet:\n행복하다 = happy. 슬프다 = sad.\n무섭다 = scared. 화나다 = angry."
+        ,funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."}},
+        {type:"mc",q:"화나다 means:",opts:["to be angry","to be sad","to be scared","to be happy"],ans:"to be angry",hint:"화 (火) = fire. When fire comes out of you, what emotion is that?"},
+        {type:"mc",q:"가깝다 means:",opts:["to be close","to be far","to be high","to be low"],ans:"to be close",hint:"The opposite of 멀다 (far). Describes physical distance."},
+        {type:"mc",q:"행복 = 행 + 복. 행 means:",opts:["Luck/fortune","Happy","Sad","Family"],ans:"Luck/fortune",hint:"행 (幸) = luck/fortune. 복 (福) = blessing. 행복 = fortunate blessing = happiness."},
+        {type:"mc",q:"슬프다 → present (으-irregular):",opts:["슬프어요","슬퍼요","슬파요","슬프아요"],ans:"슬퍼요",hint:"ㅡ drops. 슬프"},
+        {type:"mc",q:"가깝다 → present (ㅂ-irregular):",opts:["가깝어요","가까워요","가깝아요","가까와요"],ans:"가까워요",hint:"가깝다: ㅂ-irregular. ㅂ becomes 우 before vowel endings. Apply the rule."},
+        {type:"match",pairs:[{trg:"행복하다",src:"happy"},{trg:"슬프다",src:"sad"},{trg:"화나다",src:"angry"},{trg:"무섭다",src:"scary"}]},
+        {type:"match",pairs:[{trg:"편하다",src:"comfortable"},{trg:"높다",src:"high"},{trg:"멀다",src:"far"},{trg:"가깝다",src:"close"}]},
+        {type:"teach",trg:"싫어하다 → 싫어해요",src:"to dislike / to hate",pos:"verb",gender:null,phonetic:"si-reo-ha-da",note:"싫어하다: to dislike/hate.\n좋아하다 (like) ↔ 싫어하다 (dislike).\n싫다 expresses feeling. 싫어하다 describes the action of disliking.",example:"A: 매운 음식을 좋아해요? B: 아니요, 싫어해요.",exampleSrc:"A: Do you like spicy food? B: No, I dislike it.",deepDive:{
+          title:"싫다 vs 싫어하다",
+          text:"싫다 → 싫어요: I do not like it (my feeling).\n싫어하다 → 싫어해요: to dislike (observable action).\n\n저는 매운 음식을 싫어해요 = I dislike spicy food.\n그 사람을 싫어해요 = I dislike that person."
+        ,funFact:"A 하다 verb — noun + 하다 (to do). This pattern creates hundreds of verbs from Sino-Korean nouns."}},
+        {type:"teach",trg:"아주",src:"very / really",pos:"adv",gender:null,phonetic:"a-ju",note:"아주: very, really.\nStronger than 좀.\nWeaker than 너무.\n\n아주 좋아요 = very good.\n아주 크다 = very big.",example:"A: 이 음식이 맛있어요? B: 네, 아주 맛있어요!",exampleSrc:"A: Is this food delicious? B: Yes, very delicious!",funFact:"Korean adverbs usually come right before the verb they modify. Position is flexible but proximity matters."},
+        {type:"teach",trg:"별로",src:"not really / not particularly",pos:"adv",gender:null,phonetic:"byeol-lo",note:"별로: not particularly.\nALWAYS with negative verb.\n\n별로 안 맛있어요.\n→ Not really tasty.\n별로예요.\n→ It's so-so / not great.",example:"A: 이거 좋아해요? B: 별로 안 좋아해요.",exampleSrc:"A: Do you like this? B: I don't really like it.",funFact:"Korean adverbs usually come right before the verb they modify. Position is flexible but proximity matters."},
+        {type:"teach",trg:"전혀",src:"not at all / absolutely not",pos:"adv",gender:null,phonetic:"jeon-hyeo",note:"전혀: not at all.\nALWAYS with negative verb.\nStrongest negative degree.\n\n전혀 안 매워요.\n→ Not spicy AT ALL.",example:"A: 한국어를 알아요? B: 아니요, 전혀 몰라요.",exampleSrc:"A: Do you know Korean? B: No, not at all.",funFact:"Korean adverbs usually come right before the verb they modify. Position is flexible but proximity matters."},
+        {type:"mc",q:"별로 안 좋아해요 means:",opts:["I don't really like it","I really like it","I don't like it at all","I like it a lot"],ans:"I don't really like it",hint:"별로 = not really. Mild negative. Always + negative verb."},
+        {type:"fb",opts:["전혀","별로","아주","좀"],hint:"Not at all. Strongest negative degree adverb.",s:"{1} 모르겠어요.\n(I don't understand AT ALL.)",a:"전혀"},
+        {type:"match",pairs:[{trg:"아주",src:"very (strong positive)"},{trg:"별로",src:"not really (mild negative)"},{trg:"전혀",src:"not at all (strong negative)"},{trg:"좀",src:"a bit / somewhat"}]}
+  ]},
+  {id:"kou5l5",title:"★ Particle Trio Named",icon:"⭐",xp:25,board:true,steps:[
+        {type:"intro",title:"★ You've Been Using These Since Day One",desc:"은/는, 이/가, 을/를\n→ topic, subject, object\n\nThe three core particles, named.",goals:["Name and distinguish 은/는, 이/가, 을/를","Understand topic vs subject vs object","Own the particle system permanently"]},
+        {type:"teach",trg:"은 / 는",src:"TOPIC marker",pos:"part",gender:null,phonetic:"eun / neun",note:"은/는: TOPIC marker.\n\n'As for X...'  -  sets what the sentence is about.",example:"A: 직업이 뭐예요? B: 저는 학생이에요.",exampleSrc:"A: What is your job? B: As for me, I am a student.",deepDive:{
+          title:"은 / 는",
+          text:"은 after consonant: 학생은, 밥은\n는 after vowel: 저는, 커피는\n\n저는 학생이에요:\n'As for me (topic)  -  I am a student.'\n\nUse 은/는 for: context, contrast, known info."
+        ,funFact:"Korean particles attach to nouns to show their role in the sentence. The particle, not word order, determines meaning."}},
+        {type:"teach",trg:"이 / 가",src:"SUBJECT marker",pos:"part",gender:null,phonetic:"i / ga",note:"이/가: SUBJECT marker.\n\nMarks the doer OR the thing the predicate describes.",example:"A: 뭐가 있어요? B: 커피가 있어요.",exampleSrc:"A: What is there? B: There is coffee.",deepDive:{
+          title:"이 / 가",
+          text:"Used for NEW information or EMPHASIS.\n\n이 after consonant: 학생이, 시간이\n가 after vowel: 커피가, 저가\n\n커피가 있어요:\n'Coffee (subject, new info)  -  exists.'"
+        ,funFact:"Korean particles attach to nouns to show their role in the sentence. The particle, not word order, determines meaning."}},
+        {type:"teach",trg:"을 / 를",src:"OBJECT marker",pos:"verb",gender:null,phonetic:"eul / reul",note:"을/를: OBJECT marker.\n\nMarks WHAT the verb acts on.",example:"A: 뭐를 먹어요? B: 밥을 먹어요.",exampleSrc:"A: What are you eating? B: I am eating rice.",deepDive:{
+          title:"을 / 를",
+          text:"을 after consonant: 밥을, 책을, 라면을\n를 after vowel: 커피를, 물을 ✗ → 물을 ✓ (물 ends in a consonant = consonant → 을)\n\n밥을 먹어요:\nRice (object)  -  eat."
+        ,funFact:"Korean particles attach to nouns to show their role in the sentence. The particle, not word order, determines meaning."}},
+        {type:"mc",q:"이 means:",opts:["TOPIC marker","OBJECT marker","SUBJECT marker","possessive marker"],ans:"SUBJECT marker",hint:"This particle marks the doer or existing thing. Pair: 이 (after consonant) / 가 (after vowel)."},
+        {type:"tip",title:"⭐ The Three Particles: Full System",deepDive:{
+          title:"Particles in Real Sentences",
+          text:"물이 있어요 = Water exists (new information)\n\n을/를 = OBJECT: 'verb does X'  -  marks what is acted upon\n커피를 마셔요 = I drink coffee\n\n→ As for me, I drink coffee. (저는 = topic, 커피를 = object)\n\n커피가 있어요.\n→ There is coffee. (커피가 = subject, new info)\n\n학교에서 공부해요.\n→ (I) study at school. (topic omitted  -  understood from context)\n→ '(I) study at school.'"
+        },text:"The three essential particles:\n\n은/는 = TOPIC: 'as for X...'  -  sets the subject of conversation\n저는 학생이에요 = As for me, I am a student\n\n이/가 = SUBJECT: 'X does/is'  -  marks the doer or new info"},
+        {type:"tip",title:"🧩 은/는 vs 이/가: The Hard Part",deepDive:{
+          title:"Full Comparison",
+          text:"물이 있어요 = Water exists (new info: there IS water)\n\nFeel it before you explain it. The instinct comes with practice.\n\n→ It's ME who is the student. (emphasis, subject)\n\n한국어는 재미있어요.\n→ As for Korean  -  it's interesting. (topic)\n\n한국어가 재미있어요.\n→ Korean is what's interesting. (focused subject  -  new info)\n\nFor beginners: default to 은/는 for 'I/me' in statements.\nUse 이/가 when presenting new information."
+        },text:"Topic (은/는) vs Subject (이/가)  -  the key distinction:\n\n은/는 = KNOWN information, contrast, or setting the topic\n저는 학생이에요 = As for me (topic), I am a student\n\n이/가 = NEW information, existence, or answering 'who/what'"},
+        {type:"mc",q:"은/는 marks the:",opts:["Object","Subject","Topic","Location"],ans:"Topic",hint:"저는 학생이에요. 은/는 sets the frame: 'as for me...'"},
+        {type:"mc",q:"저는 커피를 마셔요. What does 를 mark here?",opts:["Topic marker","Subject marker","Object marker","Location marker"],ans:"Object marker",hint:"커피 is what is being drunk."},
+        {type:"mc",q:"이/가 marks the:",opts:["Object (acted upon)","Topic (general context)","Subject (new info / doer)","Possessive (ownership)"],ans:"Subject (new info / doer)",hint:"New information or emphasis"},
+        {type:"mc",q:"'저는 커피를 마셔요.' Which particle marks the topic?",opts:["저는","커피를","마셔요","없음"],ans:"저는",hint:"는 = topic marker. ... = 'as for me...'"},
+        {type:"mc",q:"커피가 있어요: 가 marks:",opts:["The topic (old info)","The object","The subject (new info)","Direction"],ans:"The subject (new info)",hint:"이/가 marks the subject, often introducing new information"},
+        {type:"mc",q:"'I drink water'  -  correct particles:",opts:["저가 물는 마셔요","저는 물을 마셔요","저는 물는 마셔요","저를 물이 마셔요"],ans:"저는 물을 마셔요",hint:"Each word gets a different particle based on its role."},
+        {type:"fb",opts:["는","가","을","이"],hint:"Vowel ending or consonant ending?",s:"저___ 학생이에요. (topic  -  general statement)",a:"는"},
+        {type:"fb",opts:["가","는","를","이"],hint:"Vowel ending or consonant ending?",s:"커피___ 있어요. (coffee exists  -  subject/new info)",a:"가"},
+        {type:"fb",opts:["을","를","은","이"],hint:"Consonant or vowel ending?",s:"저는 밥___ 먹어요.\n(I eat rice  -  rice is object)",a:"을"},
+        {type:"match",pairs:[{trg:"은/는",src:"TOPIC: as for X"},{trg:"이/가",src:"SUBJECT: new info"},{trg:"을/를",src:"OBJECT: acted upon"},{trg:"도",src:"ALSO: replaces topic/subject"}]},
+        {type:"drag_fill",hint:"I (topic) study Korean (object). Korean (subject) is interesting.",s:"{1}는 한국어{2} 공부해요. 한국어{3} 재미있어요.",blanks:{"1":"저","2":"를","3":"가"},pool:["는","가","를","이","을"]},
+        {type:"mc",q:"제가 vs 저는: the difference is:",opts:["제가 is formal, 저는 is casual","제가: focus on ME; 저는: topic","They are completely identical","제가 is past; 저는 is present"],ans:"제가: focus on ME; 저는: topic",hint:"제가 emphasizes the person, 저는 sets them as topic"},
+        {type:"mc",q:"도 replaces 은/는 or 이/가. It means:",opts:["Not","Also / too","But","And"],ans:"Also / too",hint:"저도 = me too. 도 replaces 는 or 가 entirely."}
+  ]},
+  {id:"kou5l6",title:"Adjective + Noun",icon:"🏷️",xp:20,board:true,steps:[
+        {type:"intro",title:"Big House, Cute Dog, Pretty Flower",desc:"큰 집\n→ big house\n\nAdjectives change form before nouns.",goals:["Use adjective + noun patterns","Learn the modifier form through examples","Recognize the pattern without memorizing rules yet"]},
+        {type:"teach",trg:"큰 집",src:"big house",pos:"noun",gender:null,phonetic:"keun jip",note:"크다 (to be big) → 큰 (before a noun).\n\n크다 → 커요 (predicate)",example:"A: 어디에 살아요? B: 저는 큰 집에 살아요.",exampleSrc:"A: Where do you live? B: I live in a big house.",deepDive:{title:"Using 큰 집",text:"크다 → 큰 + noun (modifier)\n\n큰 집: big house\n큰 가방: big bag\n큰 목소리: loud voice (literally: big voice)",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
+        {type:"teach",trg:"작은 강아지",src:"small puppy",pos:"noun",gender:null,phonetic:"ja-geun gang-a-ji",note:"작다 (to be small) → 작은 (before a noun).\n\n작다 → 작아요 (predicate)",example:"A: 저 강아지를 봐요! B: 작은 강아지가 귀여워요!",exampleSrc:"A: Look at that puppy! B: The small puppy is cute!",deepDive:{title:"Using 작은 강아지",text:"작다 → 작은 + noun (modifier)\n\n작은 강아지: small puppy\n작은 가방: small bag\n작은 방: small room",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
+        {type:"teach",trg:"예쁜 꽃",src:"pretty flower",pos:"noun",gender:null,phonetic:"ye-ppeun kkot",note:"예쁘다 (to be pretty) → 예쁜 (before a noun).\n\n예쁘다 → 예뻐요 (predicate)",example:"A: 뭐를 사고 싶어요? B: 예쁜 꽃을 사고 싶어요.",exampleSrc:"A: What do you want to buy? B: I want to buy pretty flowers.",deepDive:{title:"Using 예쁜 꽃",text:"예쁘다 → 예쁜 + noun (modifier)\n\n예쁜 꽃: pretty flower\n예쁜 사람: pretty person",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
+        {type:"mc",q:"작은 강아지 means:",opts:["small puppy","big house","pretty flower","cute cat"],ans:"small puppy",hint:"작은 = small (modifier form). 강아지 = puppy. Adjective before noun."},
+        {type:"teach",trg:"맛있는 음식",src:"delicious food",pos:"noun",gender:null,phonetic:"ma-sin-neun eum-sik",note:"맛있다 → 맛있는 (before a noun).\n\n맛있다 ends in 있다 → use -는 before nouns (not -은/ㄴ).",example:"A: 뭐를 먹고 싶어요? B: 맛있는 음식을 먹고 싶어요!",exampleSrc:"A: What do you want to eat? B: I want to eat delicious food!",deepDive:{title:"Using 맛있는 음식",text:"맛있는 음식 ✓ (not 맛있은 음식)\n\n맛있는 음식: delicious food\n멋있는 사람: cool/stylish person\n재미있는 영화: interesting movie",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
+        {type:"tip",title:"🏷️ The Modifier Pattern: Preview",deepDive:{
+          title:"How Modifiers Transform Words",
+          text:"Verbs become modifiers with -는 (present) or -은 (past).\n\nThe full rules come in a later lesson.\nFor now: just RECOGNIZE these patterns.\n\nEnglish: adjective → adjective (same form)\n'big' → 'big house'\n\nKorean: adjective → modifier form → noun\n크다 → 큰 → 큰 집 (to be big → big [modifier] → big house)\n\nThe change is always predictable.\nYou'll see the pattern many times before U7."
+        },text:"Korean puts descriptions BEFORE the noun (like English adjectives):\n\n큰 집 = big house (큰 = big, modifying 집)\n맛있는 음식 = delicious food (맛있는 = delicious, modifying 음식)\n좋아하는 영화 = movie I like (-는 turns verb into modifier)"},
+        {type:"mc",q:"'Big house' in Korean:",opts:["크다 집","커요 집","큰 집","크는 집"],ans:"큰 집",hint:"크다 → 큰 (modifier form before nouns)"},
+        {type:"mc",q:"'Pretty flower' in Korean:",opts:["예뻐요 꽃","예쁘다 꽃","예쁜 꽃","예쁘는 꽃"],ans:"예쁜 꽃",hint:"예쁘다 → 예쁜 (modifier form)"},
+        {type:"mc",q:"'Delicious food' uses which modifier:",opts:["맛있는 음식","맛있은 음식","맛있어요 음식","맛있 음식"],ans:"맛있는 음식",hint:"있다 compounds use -는 before nouns"},
+        {type:"mc",q:"큰 목소리 literally means:",opts:["The mouth is big","Big voice","Loud talking","Deep voice"],ans:"Big voice",hint:"큰 = big (modifier), 목소리 = voice. 'Big voice' = loud voice."},
+        {type:"fb",opts:["작은","작다","작아요","작"],hint:"Adjective before a noun: stem + (으)ㄴ. What does 작다 become?",s:"___ 강아지가 귀여워요.\n(The small puppy is cute  -  modifier form)",a:"작은"},
+        {type:"fb",opts:["멋있는","멋있다","멋있어요","멋있은"],hint:"멋있다 → ... (있다 compound → -는 modifier)",s:"___ 사람을 좋아해요.\n(I like cool/stylish people)",a:"멋있는"},
+        {type:"fb",opts:["큰","커요","크다","크는"],hint:"크다 → 큰 (modifier before noun)",s:"저는 ___ 집에 살고 싶어요.\n(I want to live in a big house)",a:"큰"},
+        {type:"match",pairs:[{trg:"큰 집",src:"big house"},{trg:"작은 방",src:"small room"},{trg:"예쁜 꽃",src:"pretty flower"},{trg:"맛있는 음식",src:"delicious food"}]},
+        {type:"drag_fill",hint:"The small puppy went to the pretty person.",s:"{1} 강아지가 {2} 사람한테 갔어요.",blanks:{"1":"작은","2":"예쁜"},pool:["큰","작은","예쁜","맛있는"]},
+        {type:"mc",q:"재미있는 영화 = 재미있다 + 는 + 영화. 재미있다 means:",opts:["Delicious","Beautiful","Interesting/fun","Stylish"],ans:"Interesting/fun",hint:"재미 (fun/interest) + 있다 (exists) = interesting"}
+  ]},
+  {id:"kou5l7",title:"정 Culture",icon:"❤️",xp:20,board:true,steps:[
+        {type:"intro",title:"What Holds Korean Families  -  and Society  -  Together",desc:"정\n→ deep bond (no English equivalent)\n\nThe heart of Korean culture.",goals:["Understand 정 as a cultural concept","Know how age hierarchy works in families","Use 몇 살이에요? and 연세가 어떻게 되세요?"]},
+        {type:"teach",trg:"정",src:"deep relational bond (no translation)",pos:"noun",gender:null,phonetic:"jeong",note:"정 = accumulated warmth between people who share life.\nDeeper than love, loyalty, or friendship.\nBuilt through: eating together, shared hardship, small daily kindnesses over years.",example:"A: 한국 생활이 어때요? B: 좋아요. 벌써 정이 들었어요.",exampleSrc:"A: How is life in Korea? B: Good. I have already grown attached.",deepDive:{
+          title:"Using 정",
+          text:"정이 들다.\n→ Jeong has formed. (you've bonded deeply)\n\n정이 없다.\n→ No jeong. (worst thing to say about someone)\n\n우리 엄마, 우리 집, 우리 나라.\n→ All said 우리 (our) because everything is shared.\n\njeong has entered (you've bonded deeply)\n정이 없다: no jeong  -  the worst thing to say about someone\n\n우리 엄마, 우리 집, 우리 나라:\nAll reflect 정  -  we share everything together."
+        ,funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."}},
+        {type:"teach",trg:"나이",src:"age",pos:"noun",gender:null,phonetic:"na-i",note:"나이: age.\nAsking age is NORMAL in Korea (social hierarchy).",example:"A: 나이가 어떻게 되세요? B: 스물다섯 살이에요.",exampleSrc:"A: How old are you? (polite) B: I am 25 years old.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"teach",trg:"몇 살이에요?",src:"How old are you?",pos:"intj",gender:null,phonetic:"myeot sal-i-e-yo",note:"몇 살: how many years old.\n몇 means how many.\n살 is the counter for age.\nMore casual than the formal age question.",example:"A: 몇 살이에요? B: 스물셋이에요.",exampleSrc:"A: How old are you? B: I am 23.",funFact:"Korean has rich exclamations that express subtle emotions. Tone and context determine the exact feeling."},
+        {type:"teach",trg:"연세가 어떻게 되세요?",src:"How old are you? (honorific)",pos:"part",gender:null,phonetic:"yeon-se-ga eo-tteo-ke doe-se-yo?",note:"연세: respectful word for 'age' (used for elders).\n나이 → 연세 (honorific upgrade).\n",example:"A: 연세가 어떻게 되세요? B: 일흔 살이에요.",exampleSrc:"A: How old are you? (honorific) B: I am 70 years old.",deepDive:{title:"Full Pattern",text:"어떻게 되세요?: respectful 'how is it?'\n\nRule: NEVER ask an elder's age with 몇 살이에요.\nAlways use 연세가 어떻게 되세요?",funFact:"Korean particles attach to nouns to show their role in the sentence. The particle, not word order, determines meaning."}},
+        {type:"mc",q:"나이 means:",opts:["deep relational bond","How old are you?","age","name"],ans:"age",hint:"Koreans ask this early to determine speech level. Essential social info."},
+        {type:"tip",title:"🧓 Age Hierarchy: How It Works",deepDive:{
+          title:"Practical Rules for Age-Based Speech",
+          text:"• Address terms change (형, 오빠, 선생님, 씨...)\n• Who eats first, who speaks first, who pays\n\nPractical rules:\n\n1. Ask age early  -  Koreans ask quickly, it's not rude.\n   But USE the right question by context:\n   몇 살이에요? = peers / casual\n   연세가 어떻게 되세요? = elders / formal\n\n2. If they're older: use -요 endings always.\n   If younger: you can use casual speech .\n\n3. The honorific system (존댓말 / 반말) emerges from this.\n   You'll learn it fully in later lessons.\n\n정 + age hierarchy = Korean social fabric."
+        },text:"Korean society runs on age hierarchy.\nEvery relationship has a clear elder/younger structure.\n\nWhy it matters linguistically:\n• Speech level changes based on age"},
+        {type:"mc",q:"정 is best described as:",opts:["Romantic love only","Deep bond from shared time","A financial obligation","Professional respect"],ans:"Deep bond from shared time",hint:"정 is built through shared experience, not just affection"},
+        {type:"mc",q:"몇 살이에요? is used with:",opts:["Elders and superiors only","Peers and casual contexts","Formal meetings and work","Never appropriate to ask"],ans:"Peers and casual contexts",hint:"Use 연세가 어떻게 되세요? for elders"},
+        {type:"mc",q:"Age in Korean uses which number system?",opts:["Sino-Korean (일, 이, 삼...)","Native Korean (하나, 둘, 셋...)","Either one","Depends on the number"],ans:"Native Korean (하나, 둘, 셋...)",hint:"살 counter uses native Korean: 스물 살, 서른 살"},
+        {type:"mc",q:"정이 없다 means:",opts:["I don't have time","No deep bond (negative)","I'm not old enough","I'm not Korean born"],ans:"No deep bond (negative)",hint:"정이 없다 is a harsh criticism of someone's character"},
+        {type:"fb",opts:["다섯","오","다섯이","오이"],hint:"25 = 스물(20) + ...(5). Native Korean numbers.",s:"저는 스물___ 살이에요.\n(I am 25 years old)",a:"다섯"},
+        {type:"mc",q:"When asking an elder's age politely, the honorific word for 나이 (age) is:",opts:["연세","살","몇","나이"],ans:"연세",hint:"Elders get the respectful word for age."},
+        {type:"match",pairs:[{trg:"정",src:"deep bond (untranslatable)"},{trg:"정이 들다",src:"jeong has entered / bonded deeply"},{trg:"나이",src:"age (plain)"},{trg:"연세",src:"age (honorific, for elders)"}]},
+        {type:"drag_fill",hint:"I am 23 years old. How old are you?",s:"저는 {1} 살이에요. {2} 살이에요?",blanks:{"1":"스물셋","2":"몇"},pool:["스물셋","이십삼","몇","언제"]},
+        {type:"mc",q:"Koreans ask age early in conversations because:",opts:["It is rude elsewhere","Age sets speech level/terms","They are curious about you","It is a legal requirement"],ans:"Age sets speech level/terms",hint:"Age → 형/오빠/언니 etc. → speech level → entire social framework"},
+        {type:"teach",trg:"마음",src:"heart / mind / feelings",pos:"noun",gender:null,phonetic:"ma-eum",note:"마음: heart/mind/feelings.\n\nPure Korean word (not Sino-Korean).",example:"A: 그 사람이 어때요? B: 마음이 따뜻해요.",exampleSrc:"A: What is that person like? B: They are warm-hearted.",deepDive:{
+          title:"마음 in Korean Culture",
+          text:"마음이 따뜻해요: warm-hearted.\n마음이 아파요: my heart hurts.\n마음에 들다: to like (lit: enter the heart).\n\n정 (deep bond) lives in the 마음.\n한국인의 마음: the Korean heart."
+        ,funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."}}
+  ]},
+  {id:"kou5l7b",title:"감정 더 배우기 (More Emotions)",icon:"😊",xp:18,board:true,steps:[
+        {type:"intro",title:"Expanding Your Emotion Vocabulary",desc:"지루하다 → to be bored\n놀라다 → to be surprised\n신나다 → to be excited\n\nBeyond happy/sad/angry.",goals:["Learn 6 more emotion words","Use them in natural sentences","Express how you feel about situations"]},
+        {type:"teach",trg:"지루하다 → 지루해요",src:"to be bored / boring",pos:"verb",gender:null,phonetic:"ji-ru-ha-da",note:"지루하다: bored/boring.\n지루해요: am bored / is boring.\n하다 verb: 지루 + 하다.",example:"A: 이 수업이 어때요? B: 좀 지루해요.",exampleSrc:"A: How is this class? B: It's a bit boring.",funFact:"A 하다 verb — noun + 하다 (to do). This pattern creates hundreds of verbs from Sino-Korean nouns."},
+        {type:"teach",trg:"놀라다 → 놀라요",src:"to be surprised",pos:"verb",gender:null,phonetic:"nol-la-da",note:"놀라다: to be surprised.\n놀랐어요: was surprised (past).\n깜짝 놀라다: to be startled.",example:"A: 생일 파티에 놀랐어요? B: 네, 정말 놀랐어요!",exampleSrc:"A: Were you surprised at the birthday party? B: Yes, I was really surprised!",funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."},
+        {type:"teach",trg:"신나다 → 신나요",src:"to be excited / thrilled",pos:"verb",gender:null,phonetic:"sin-na-da",note:"신나다: to be excited/thrilled.\n신나요: am excited.\n신나는 음악: exciting music.",example:"A: 내일 여행이에요! B: 정말 신나요!",exampleSrc:"A: Tomorrow is the trip! B: I'm so excited!",funFact:"Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood."},
+        {type:"mc",q:"수업이 지루해요 means:",opts:["The class is boring","The class is exciting","The class is scary","The class is fun"],ans:"The class is boring",hint:"지루하다 = bored/boring. Opposite of exciting."},
+        {type:"teach",trg:"자랑스럽다 → 자랑스러워요",src:"to be proud",pos:"verb",gender:null,phonetic:"ja-rang-seu-reop-da",note:"자랑스럽다: to be proud.\nㅂ-irregular: ㅂ → 워.\n자랑스럽다 → 자랑스러워요.\n자랑하다: to brag/boast.",example:"A: 시험에 합격했어요! B: 정말 자랑스러워요!",exampleSrc:"A: I passed the exam! B: I'm really proud!",funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."},
+        {type:"teach",trg:"부끄럽다 → 부끄러워요",src:"to be embarrassed / shy",pos:"verb",gender:null,phonetic:"bu-kkeu-reop-da",note:"부끄럽다: embarrassed/shy.\nㅂ-irregular: ㅂ → 워.\n부끄럽다 → 부끄러워요.",example:"A: 왜 얼굴이 빨개요? B: 부끄러워요...",exampleSrc:"A: Why is your face red? B: I'm embarrassed...",funFact:"An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them."},
+        {type:"teach",trg:"실망하다 → 실망해요",src:"to be disappointed",pos:"verb",gender:null,phonetic:"sil-mang-ha-da",note:"실망하다: to be disappointed.\nCOMPOUND: 실(lose/失) + 망(hope/望).\nLose-hope = disappointment.",example:"A: 시험 결과가 나빴어요. B: 실망했어요?",exampleSrc:"A: The exam results were bad. B: Were you disappointed?",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."},
+        {type:"mc",q:"신나요 means:",opts:["I'm excited","I'm bored","I'm angry","I'm scared"],ans:"I'm excited",hint:"신나다 = excited/thrilled. Used for positive excitement."},
+        {type:"mc",q:"자랑스럽다 and 부끄럽다 are both:",opts:["ㅂ-irregular verbs","Regular verbs","하다 verbs","으-irregular verbs"],ans:"ㅂ-irregular verbs",hint:"Both end in ㅂ다 and change: ㅂ → 워"},
+        {type:"fb",opts:["신나","지루해","놀라","슬퍼"],hint:"Positive emotion for looking forward to something",s:"내일 여행이에요! 정말 ___요!\n(Tomorrow is the trip! I'm so excited!)",a:"신나"},
+        {type:"fb",opts:["자랑스러워","부끄러워","실망해","지루해"],hint:"The positive feeling when you achieve something",s:"시험에 합격해서 정말 ___요.\n(I passed the exam, so I'm really proud.)",a:"자랑스러워"},
+        {type:"match",pairs:[{trg:"지루하다",src:"bored/boring"},{trg:"놀라다",src:"surprised"},{trg:"신나다",src:"excited"},{trg:"자랑스럽다",src:"proud"}]},
+        {type:"match",pairs:[{trg:"부끄럽다",src:"embarrassed"},{trg:"실망하다",src:"disappointed"},{trg:"행복하다",src:"happy"},{trg:"슬프다",src:"sad"}]},
+        {type:"drag_fill",hint:"I'm excited about passing. But my friend failed, so they're disappointed.",s:"시험에 합격해서 {1}. 하지만 친구는 떨어져서 {2}.",blanks:{"1":"신나요","2":"실망했어요"},pool:["신나요","실망했어요","지루해요","놀랐어요"]},
+        {type:"mc",q:"부끄러워요 means:",opts:["I'm embarrassed","I'm bored","I'm excited","I'm proud"],ans:"I'm embarrassed",hint:"부끄럽다 = embarrassed/shy. ㅂ-irregular → 부끄러워요"},
+        {type:"mc",q:"실망 is a Sino-Korean compound meaning:",opts:["lose + hope","fail + test","lose + face","sad + feeling"],ans:"lose + hope",hint:"실(失) = lose, 망(望) = hope. Losing hope = disappointment"},
+        {type:"fb",opts:["놀랐","신났","지루했","실망했"],hint:"깜짝 = sudden surprise. Which emotion word?",s:"깜짝 ___어요!\n(I was startled!)",a:"놀랐"}
+  ]},
+  {id:"kou5l7c",title:"색깔 더 배우기 (More Colors)",icon:"🎨",xp:20,board:true,steps:[
+        {type:"intro",title:"Expanding Your Color Palette",desc:"초록색 / 주황색 / 갈색\n\nSix new colors plus the 색 pattern.",goals:["Learn 6 new color words","Understand the 색 (color) suffix pattern","Describe things using colors","Combine colors with objects you already know"]},
+        {type:"tip",title:"Korean Color System",deepDive:{
+          title:"Which Type to Use?",
+          text:"The 5 basic colors (빨간, 파란, etc.) have special adjective forms from ㅎ-irregular verbs.\n\nOther colors use the 색 noun pattern:\n초록색 가방 = green bag\n분홍색 꽃 = pink flower\n\nYou can also say 빨간색, 파란색, etc. Both forms work for the basic 5."
+        },text:"Korean has TWO types of color words:\n\n1. Pure Korean adjective colors:\n빨갛다 → 빨간 (red)\n파랗다 → 파란 (blue)\n하얗다 → 하얀 (white)\n검다 → 검은 (black)\n노랗다 → 노란 (yellow)\n\n2. Color NOUN + 색 (color):\n초록 + 색 = 초록색 (green)\n분홍 + 색 = 분홍색 (pink)\n\nGroup 1 goes directly before nouns.\nGroup 2 needs 의 or 색 before nouns."},
+        {type:"teach",trg:"색 / 색깔",src:"color",pos:"intj",gender:null,phonetic:"saek / saek-kkal",note:"색: color (in compounds).\n색깔: color (standalone word).\n무슨 색?: What color?",example:"A: 무슨 색을 좋아해요? B: 초록색을 좋아해요.",exampleSrc:"A: What color do you like? B: I like green.",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."},
+        {type:"teach",trg:"초록색 / 초록",src:"green",pos:"intj",gender:null,phonetic:"cho-rok-saek",note:"초록색: green (color).\n초록: green (short form).\n초록색 나무 = green tree.\n초록 사과 = green apple.",example:"A: 나무가 예뻐요! B: 네, 초록색 나무가 정말 예뻐요.",exampleSrc:"A: The trees are pretty! B: Yes, the green trees are really pretty.",funFact:"Korean has rich exclamations that express subtle emotions. Tone and context determine the exact feeling."},
+        {type:"teach",trg:"주황색",src:"orange (color)",pos:"noun",gender:null,phonetic:"ju-hwang-saek",note:"주황색: orange color.\nSINO-KOREAN: 주(vermillion) + 황(yellow).\nBetween red and yellow = orange.",example:"A: 저 꽃이 무슨 색이에요? B: 주황색이에요.",exampleSrc:"A: What color is that flower? B: It's orange.",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."},
+        {type:"teach",trg:"갈색",src:"brown",pos:"noun",gender:null,phonetic:"gal-saek",note:"갈색: brown.\nSINO-KOREAN: 갈(brown/autumn) + 색.\n갈색 머리 = brown hair.\n갈색 가방 = brown bag.",example:"A: 가방이 무슨 색이에요? B: 갈색이에요.",exampleSrc:"A: What color is the bag? B: It's brown.",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."},
+        {type:"mc",q:"초록색 means:",opts:["green","orange","brown","pink"],ans:"green",hint:"Think of trees and grass. 초록 is a nature color."},
+        {type:"teach",trg:"분홍색",src:"pink",pos:"noun",gender:null,phonetic:"bun-hong-saek",note:"분홍색: pink.\nSINO-KOREAN: 분(powder) + 홍(red).\nPowder-red = pink.",example:"A: 이 치마 예뻐요? B: 네! 분홍색이 잘 어울려요.",exampleSrc:"A: Is this skirt pretty? B: Yes! Pink suits you well.",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."},
+        {type:"teach",trg:"보라색",src:"purple",pos:"noun",gender:null,phonetic:"bo-ra-saek",note:"보라색: purple.\n보라 + 색.\n보라색 꽃 = purple flower.",example:"A: 무슨 색 모자를 살 거예요? B: 보라색 모자요.",exampleSrc:"A: What color hat will you buy? B: A purple hat.",funFact:"Korean nouns don't have articles or plural markers. Context tells you if it's one or many."},
+        {type:"teach",trg:"회색",src:"grey",pos:"noun",gender:null,phonetic:"hoe-saek",note:"회색: grey.\nSINO-KOREAN: 회(ash/灰) + 색.\nAsh-color = grey.\n회색 하늘 = grey sky.",example:"A: 오늘 하늘이 무슨 색이에요? B: 회색이에요. 비가 올 것 같아요.",exampleSrc:"A: What color is the sky today? B: It's grey. I think it will rain.",funFact:"Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families."},
+        {type:"mc",q:"갈색 가방 means:",opts:["brown bag","green bag","grey bag","orange bag"],ans:"brown bag",hint:"갈색 = a color associated with earth and autumn leaves."},
+        {type:"mc",q:"분홍색 is made from which two characters?",opts:["분 (powder) + 홍 (red)","분 (minute) + 홍 (wide)","분 (part) + 홍 (flood)","분 (anger) + 홍 (red)"],ans:"분 (powder) + 홍 (red)",hint:"Powder-red creates a lighter, softer shade of red."},
+        {type:"fb",opts:["초록색","갈색","회색","보라색"],hint:"Trees and leaves are this color in spring and summer.",s:"나무가 ___이에요.\n(The tree is green.)",a:"초록색"},
+        {type:"fb",opts:["회색","파란색","갈색","주황색"],hint:"회 means ash. What color is ash?",s:"하늘이 ___이에요. 비가 와요.\n(The sky is grey. It's raining.)",a:"회색"},
+        {type:"match",pairs:[{trg:"초록색",src:"green"},{trg:"주황색",src:"orange"},{trg:"갈색",src:"brown"},{trg:"분홍색",src:"pink"}]},
+        {type:"match",pairs:[{trg:"보라색",src:"purple"},{trg:"회색",src:"grey"},{trg:"빨간",src:"red"},{trg:"노란",src:"yellow"}]},
+        {type:"mc",q:"무슨 색을 좋아해요?\nWhich is a correct answer?",opts:["보라색을 좋아해요","보라색을 좋아하다","보라색 좋아","보라색은 색이에요"],ans:"보라색을 좋아해요",hint:"Answer needs the polite 해요 ending with the object particle 을."},
+        {type:"fb",opts:["보라","분홍","회","갈"],hint:"This color is between red and blue.",s:"___색 꽃이 예뻐요.\n(The purple flower is pretty.)",a:"보라"},
+        {type:"drag_fill",hint:"Apples are typically this color, and bananas are this color.",s:"저는 {1} 사과와 {2} 바나나를 좋아해요.",blanks:{"1":"빨간","2":"노란"},pool:["빨간","노란","회색","보라색","초록색"]},
+        {type:"mc",q:"Which color uses the 분 (powder) + 홍 (red) pattern?",opts:["분홍색 (pink)","주황색 (orange)","갈색 (brown)","회색 (grey)"],ans:"분홍색 (pink)",hint:"Powder mixed with red makes a softer, lighter red."},
+        {type:"drag_fill",hint:"Sky color, tree color, flower color.",s:"하늘이 {1}이에요. 나무는 {2}이에요. 꽃은 {3}이에요.",blanks:{"1":"파란색","2":"초록색","3":"분홍색"},pool:["파란색","초록색","분홍색","갈색","회색","주황색"]},
+        {type:"fb",opts:["갈","회","보라","초록"],hint:"This color sounds like autumn. 갈 = brown/autumn.",s:"___색 고양이가 있어요.\n(There is a brown cat.)",a:"갈"}
+  ]},
+  {id:"kou5l8",title:"Review and Quiz",icon:"📝",xp:30,board:true,steps:[
+        {type:"intro",title:"Review & Quiz",desc:"Review: family, adjectives, particles, modifiers, culture.",goals:["Verify particle system mastery","Test family vocabulary","Confirm adjective verb understanding"]},
+        {type:"teach",trg:"Review Summary",src:"What you now own",pos:"part",gender:null,phonetic:"",note:"Full family tree from grandparents to youngest siblings.\nSibling words change based on your gender.\nThree particles now named: topic, subject, object.",example:"A: 가족이 커요? B: 네, 우리 가족은 커요. 엄마가 예뻐요.",exampleSrc:"A: Is your family big? B: Yes, my family is big. Mom is pretty.",deepDive:{
+          title:"Adjectives, Modifiers, and 우리",
+          text:"ADJECTIVES ARE VERBS: 크다→커요, 작다→작아요.\nMODIFIER FORM: 큰 집, 작은 방, 예쁜 꽃.\n우리: my/our for family + close things."
+        ,funFact:"Korean particles attach to nouns to show their role in the sentence. The particle, not word order, determines meaning."}},
+        {type:"mc",q:"은/는 vs 이/가 vs 을/를  -  in order:",opts:["Topic, Object, Subject","Topic, Subject, Object","Subject, Topic, Object","Object, Subject, Topic"],ans:"Topic, Subject, Object",hint:"은/는 = topic, 이/가 = subject, 을/를 = object"},
+        {type:"mc",q:"할머니 decomposes into:",opts:["할 (grand) + 어머니 (mother)","하 (do) + 머니 (money)","할머 (old) + 니 (person)","할 (big) + 머니 (lady)"],ans:"할 (grand) + 어머니 (mother)",hint:"Same 할 prefix as 할아버지."},
+        {type:"mc",q:"In Korean, adjectives:",opts:["Work like English adjectives","Are verbs that conjugate","Cannot modify nouns at all","Only exist in formal speech"],ans:"Are verbs that conjugate",hint:"크다 → 커요, exactly like an action verb"},
+        {type:"mc",q:"우리 엄마 means:",opts:["Our mothers (plural)","My mom","Their mom","Your mom"],ans:"My mom",hint:"Korean collectivism: 우리 is used for family members"},
+        {type:"mc",q:"멋있다 = 멋 + 있다. 멋 means:",opts:["Taste / flavor","Style / coolness","Smell / scent","Age / years"],ans:"Style / coolness",hint:"Style + exists = cool/stylish"},
+        {type:"mc",q:"'Pretty flower'  -  correct modifier form:",opts:["예쁘다 꽃","예뻐요 꽃","예쁜 꽃","예쁘는 꽃"],ans:"예쁜 꽃",hint:"예쁘다 → 예쁜 (modifier form before nouns)"},
+        {type:"mc",q:"Asking an elderly person's age  -  correct form:",opts:["몇 살이에요?","나이가 얼마예요?","연세가 어떻게 되세요?","몇 년이에요?"],ans:"연세가 어떻게 되세요?",hint:"연세 = honorific word for age"},
+        {type:"fb",opts:["는","를","가","이"],hint:"First blank: 저 (vowel ending) + topic marker",s:"저___ 커피를 마셔요. 커피___ 맛있어요.\n(I ___ drink coffee. Coffee ___ is delicious.)",a:"는"},
+        {type:"fb",opts:["를","을","는","가"],hint:"Consonant or vowel ending?",s:"저는 커피___ 마셔요.\n(I drink coffee.)",a:"를"},
+        {type:"fb",opts:["작은","작다","작아요","작"],hint:"Consonant stem + 은 makes the modifier form. What does 작다 become?",s:"___ 강아지가 귀여워요.\n(The small puppy is cute)",a:"작은"},
+        {type:"match",pairs:[{trg:"은/는",src:"topic marker"},{trg:"이/가",src:"subject marker"},{trg:"을/를",src:"object marker"},{trg:"의",src:"possessive ('s)"}]},
+        {type:"match",pairs:[{trg:"크다 → 커요",src:"to be big"},{trg:"작다 → 작아요",src:"to be small"},{trg:"예쁘다 → 예뻐요",src:"to be pretty"},{trg:"귀엽다 → 귀여워요",src:"to be cute"}]},
+        {type:"drag_fill",hint:"I (topic) study Korean (object). Korean (subject/new info) is interesting.",s:"{1}는 한국어{2} 공부해요. 한국어{3} 재미있어요.",blanks:{"1":"저","2":"를","3":"가"},pool:["저","를","가","는","이"]},
+        {type:"mc",q:"정이 들다 means:",opts:["To feel hunger","Deep bond has formed","To become family","To get older"],ans:"Deep bond has formed",hint:"정이 들다 = jeong has entered = you've bonded deeply"}
+  ]}
+]};

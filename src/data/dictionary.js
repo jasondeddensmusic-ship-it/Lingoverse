@@ -8,7 +8,7 @@
 
 import { ARTICLE_SYSTEMS } from './vocabulary.js';
 import dutchUnits from './units-dutch-v2.js';
-import koreanUnits from './units-korean.js';
+import koreanUnits from './units-korean-v2.js';
 import germanUnits from './units-german.js';
 import germanV2Units from './units-german-v2.js';
 import frenchUnits from './units-french-v2.js';

@@ -15,12 +15,12 @@ const path = require('path');
 const lang = process.argv[2];
 const dryRun = process.argv.includes('--dry-run');
 
-if (!lang || !['nl','fr','es'].includes(lang)) {
-  console.error('Usage: node scripts/enrich_funfacts.cjs <nl|fr|es> [--dry-run]');
+if (!lang || !['nl','fr','es','ko'].includes(lang)) {
+  console.error('Usage: node scripts/enrich_funfacts.cjs <nl|fr|es|ko> [--dry-run]');
   process.exit(1);
 }
 
-const dirMap = { nl: 'dutch-v2', fr: 'french-v2', es: 'spanish-v2' };
+const dirMap = { nl: 'dutch-v2', fr: 'french-v2', es: 'spanish-v2', ko: 'korean-v2' };
 const dir = path.resolve(__dirname, '..', 'src', 'data', dirMap[lang]);
 
 // ── Dutch compound patterns ──
@@ -276,7 +276,82 @@ function levenshtein(a, b) {
 }
 
 // ── Main ──
-const generators = { nl: generateDutchFunFact, fr: generateFrenchFunFact, es: generateSpanishFunFact };
+// ── Korean funFact generator ──
+function generateKoreanFunFact(trg, src, note, pos) {
+  const w = (trg || '').trim();
+  const en = (src || '').toLowerCase().trim();
+  const n = (note || '').toLowerCase();
+
+  // If note already has COMPOUND/SINO-KOREAN → use that as the fun fact basis
+  if (n.includes('compound') || n.includes('sino-korean')) {
+    return `Korean builds words by combining meaning blocks. Understanding the parts unlocks entire word families.`;
+  }
+
+  // Loanwords from English
+  if (n.includes('from english') || n.includes('english')) {
+    return `A Konglish loanword adapted from English. Korean has borrowed many modern and tech words.`;
+  }
+
+  // Hanja-based words
+  if (n.includes('hanja') || n.includes('sino') || n.match(/[/\(][\u4e00-\u9fff]/)) {
+    return `Built from Chinese characters (Hanja). About 60% of Korean vocabulary has Hanja roots.`;
+  }
+
+  // Grammar particles
+  if (pos === 'part' || n.includes('particle') || n.includes('marker')) {
+    return `Korean particles attach to nouns to show their role in the sentence. The particle, not word order, determines meaning.`;
+  }
+
+  // Verbs
+  if (pos === 'verb') {
+    if (n.includes('irregular')) return `An irregular verb. Korean has about 7 irregular patterns, but they follow consistent rules once you learn them.`;
+    if (n.includes('하다')) return `A 하다 verb — noun + 하다 (to do). This pattern creates hundreds of verbs from Sino-Korean nouns.`;
+    return `Korean verbs always come at the end of the sentence. The ending changes for politeness, tense, and mood.`;
+  }
+
+  // Adjectives (Korean treats them like verbs)
+  if (pos === 'adj') {
+    return `Korean adjectives conjugate like verbs. They change form for tense, politeness, and sentence position.`;
+  }
+
+  // Nouns
+  if (pos === 'noun') {
+    return `Korean nouns don't have articles or plural markers. Context tells you if it's one or many.`;
+  }
+
+  // Adverbs
+  if (pos === 'adv') {
+    return `Korean adverbs usually come right before the verb they modify. Position is flexible but proximity matters.`;
+  }
+
+  // Conjunctions/connectors
+  if (pos === 'conj') {
+    return `Korean sentence connectors often replace what English does with conjunctions. They link ideas across sentences.`;
+  }
+
+  // Interjections/exclamations
+  if (pos === 'intj') {
+    if (en.includes('hello') || en.includes('goodbye') || en.includes('hi') || en.includes('bye')) {
+      return `Korean greetings change based on the age and status of the person you're talking to. Politeness levels matter.`;
+    }
+    return `Korean has rich exclamations that express subtle emotions. Tone and context determine the exact feeling.`;
+  }
+
+  // Pronouns
+  if (pos === 'pron') {
+    return `Korean often drops pronouns entirely when context makes the meaning clear. Using too many pronouns sounds unnatural.`;
+  }
+
+  // Numbers
+  if (pos === 'num') {
+    return `Korean has TWO number systems: native Korean (하나, 둘, 셋) for counting and Sino-Korean (일, 이, 삼) for dates and money.`;
+  }
+
+  // Default
+  return `Korean is a language isolate with its own unique grammar system. Subject-Object-Verb order and agglutinative endings.`;
+}
+
+const generators = { nl: generateDutchFunFact, fr: generateFrenchFunFact, es: generateSpanishFunFact, ko: generateKoreanFunFact };
 const generate = generators[lang];
 
 const files = fs.readdirSync(dir).filter(f => /^unit-\d+\.js$/.test(f)).sort();

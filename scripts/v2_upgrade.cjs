@@ -24,8 +24,8 @@ const path = require('path');
 const lang = process.argv[2];
 const dryRun = process.argv.includes('--dry-run');
 
-if (!lang || !['nl','fr','es'].includes(lang)) {
-  console.error('Usage: node scripts/v2_upgrade.cjs <nl|fr|es> [--dry-run]');
+if (!lang || !['nl','fr','es','ko'].includes(lang)) {
+  console.error('Usage: node scripts/v2_upgrade.cjs <nl|fr|es|ko> [--dry-run]');
   process.exit(1);
 }
 
@@ -54,6 +54,14 @@ const LANG_CONFIG = {
     genderSystem: 'm_f',
     outDir: 'spanish-v2',
     levelDistribution: { A1: [1,8], A2: [9,16], B1: [17,24], B2: [25,30] }
+  },
+  ko: {
+    file: 'units-korean.js',
+    langCode: 'ko',
+    langName: 'Korean',
+    genderSystem: 'none', // Korean has no grammatical gender
+    outDir: 'korean-v2',
+    levelDistribution: { A1: [1,6], A2: [7,10], B1: [11,20], B2: [21,30] }
   }
 };
 
