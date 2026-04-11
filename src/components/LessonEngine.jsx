@@ -2532,14 +2532,50 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             </div>;
           })()}
 
-          {/* Note section — purple-bar card (matches board-mode). Notes are source-language metalanguage (PP61), so no universalHl */}
-          {st.note && <div className="meta-text" style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderLeft:"3px solid var(--purple-accent)",borderRadius:16,padding:"14px 18px",marginBottom:16}}>
-              {(st.note||"").split(/\\n|\n/).map((line,li)=>{
-                if(!line.trim()) return <div key={li} style={{height:6}}/>;
-                if(line.startsWith("•")) return <div key={li} style={{fontSize:15,color:"var(--gray-600)",padding:"3px 0 3px 4px",display:"flex",gap:8,lineHeight:1.7,fontFamily:"'Nunito','system-ui',sans-serif",fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700,flexShrink:0}}>&#8226;</span><span>{line.slice(1).trim()}</span></div>;
-                return <div key={li} style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.75,fontWeight:500,fontFamily:"'Nunito','system-ui',sans-serif"}}>{line}</div>;
-              })}
-          </div>}
+          {/* Note section — compound bubble + purple-bar note card */}
+          {st.note && (()=>{
+            const noteLines2 = (st.note||"").split(/\\n|\n/);
+            const compLines2 = [];
+            const plainLines2 = [];
+            noteLines2.forEach(line => {
+              if(line.trim().startsWith("COMPOUND:")||line.trim().startsWith("SINO-KOREAN COMPOUND:")||line.trim().startsWith("SINO-KOREAN:")) compLines2.push(line);
+              else plainLines2.push(line);
+            });
+            return <div style={{display:"flex",flexDirection:"column",gap:12,marginBottom:14}}>
+              {compLines2.length>0 && <div style={{...compBubble, padding:"18px 20px 16px"}}>
+                <div style={glossArc}/>
+                <div style={{position:"relative",zIndex:2}}>
+                  <div style={{fontSize:10,fontWeight:800,color:"var(--purple-accent-text)",textTransform:"uppercase",letterSpacing:2.5,marginBottom:10,display:"flex",alignItems:"center",gap:6,fontFamily:"'Nunito','system-ui',sans-serif"}}>
+                    <AppIcon name="lightbulb" size={16}/>{t("le_compound",baseLang)||"Compound"}
+                  </div>
+                  {compLines2.map((line,li)=>{
+                    const cleaned=line.replace(/^(COMPOUND|SINO-KOREAN COMPOUND|SINO-KOREAN):\s*/,"").replace(/\.\s*$/,"").trim();
+                    if(!cleaned) return null;
+                    const parts2=cleaned.split(/\s*\+\s*/);
+                    return <div key={li} style={{display:"flex",flexWrap:"wrap",alignItems:"center",gap:8,justifyContent:"center",padding:"6px 0"}}>
+                      {parts2.map((part,pi)=>{
+                        const m2=part.match(/^([^\s(]+)\s*\(([^)]+)\)/);
+                        return <React.Fragment key={pi}>
+                          {pi>0&&<span style={{color:dk?"rgba(123,94,232,0.35)":"rgba(160,140,230,0.4)",fontSize:13,fontWeight:800}}>+</span>}
+                          <div style={{background:dk?"rgba(30,28,50,0.5)":"rgba(255,255,255,0.7)",borderRadius:14,padding:"10px 16px",border:dk?"1px solid rgba(123,94,232,0.2)":"1px solid rgba(200,190,240,0.5)",textAlign:"center",minWidth:60}}>
+                            <div className="trg-text" style={{fontSize:18,fontWeight:800,color:dk?"rgba(230,225,245,0.95)":"#2D2B55",lineHeight:1.2}}>{m2?m2[1]:part}</div>
+                            {m2&&<div style={{fontSize:11,fontWeight:600,color:dk?"rgba(200,190,255,0.6)":"var(--gray-400)",marginTop:3}}>{m2[2]}</div>}
+                          </div>
+                        </React.Fragment>;
+                      })}
+                    </div>;
+                  })}
+                </div>
+              </div>}
+              {plainLines2.filter(l=>l.trim()).length>0 && <div className="meta-text" style={{background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderLeft:"3px solid var(--purple-accent)",borderRadius:16,padding:"14px 18px"}}>
+                {plainLines2.map((line,li)=>{
+                  if(!line.trim()) return <div key={li} style={{height:6}}/>;
+                  if(line.startsWith("•")) return <div key={li} style={{fontSize:15,color:"var(--gray-600)",padding:"3px 0 3px 4px",display:"flex",gap:8,lineHeight:1.7,fontFamily:"'Nunito','system-ui',sans-serif",fontWeight:500}}><span style={{color:"var(--purple-accent-text)",fontWeight:700,flexShrink:0}}>&#8226;</span><span>{line.slice(1).trim()}</span></div>;
+                  return <div key={li} style={{fontSize:15,color:"var(--gray-600)",lineHeight:1.75,fontWeight:500,fontFamily:"'Nunito','system-ui',sans-serif"}}>{line}</div>;
+                })}
+              </div>}
+            </div>;
+          })()}
 
           <div style={{display:"flex",justifyContent:"center",alignItems:"center",gap:10,marginTop:4}}>
             {si>0&&<NavArrow onClick={goBack} isBack/>}
