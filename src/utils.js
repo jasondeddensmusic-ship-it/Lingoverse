@@ -4,12 +4,12 @@
 import { LEVEL_XP } from './data/vocabulary.js';
 import { LANGUAGES, LANG_META } from './data/metadata.js';
 import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH } from './data/foundations.js';
-import dutchUnits from './data/units-dutch.js';
+import dutchUnits from './data/units-dutch-v2.js';
 import koreanUnits from './data/units-korean.js';
 import germanUnits from './data/units-german.js';
 import germanV2Units from './data/units-german-v2.js';
-import frenchUnits from './data/units-french.js';
-import spanishUnits from './data/units-spanish.js';
+import frenchUnits from './data/units-french-v2.js';
+import spanishUnits from './data/units-spanish-v2.js';
 import otherUnits from './data/units-other.js';
 import { UNITS_GERMAN_V2_AR } from './data/units-german-v2-ar.js';
 
