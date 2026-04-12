@@ -6,6 +6,7 @@ import { LANGUAGES, LANG_META } from './data/metadata.js';
 import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH } from './data/foundations.js';
 import dutchUnits from './data/units-dutch.js';
 import koreanUnits from './data/units-korean.js';
+import koreanV2Units from './data/units-korean-v2.js';
 import germanUnits from './data/units-german.js';
 import germanV2Units from './data/units-german-v2.js';
 import frenchUnits from './data/units-french.js';
@@ -506,7 +507,7 @@ const xpCurr = xp=>LEVEL_XP[getLevel(xp)-1]||0;
 
 
 // ── Unit Assembly & Normalization ──
-const _RAW_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...germanV2Units, ...UNITS_GERMAN_V2_AR, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
+const _RAW_UNITS = [...dutchUnits, ...koreanUnits, ...koreanV2Units, ...germanUnits, ...germanV2Units, ...UNITS_GERMAN_V2_AR, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
 // ── FIELD NORMALIZATION: support both legacy nl/en AND new trg/src ──
 // After migration, old field names can be removed. Until then, both coexist.
 function _normStep(st){
