@@ -274,13 +274,13 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 | Language | Format | Units | Lessons | Steps | Teach Cards | Status |
 |----------|--------|-------|---------|-------|-------------|--------|
-| Korean | v2 (new) | 30 | 330 | 6,953 | 1,266 | **V2 UPGRADED** (2026-04-12). Per-unit files in `korean-v2/`. POS tagged, 1,266 funFacts generated, hanja/deepDive preserved. |
-| Dutch | v2 (new) | 30 | 261 | ~5,825 | 1,233 | **V2 UPGRADED** (2026-04-12). Per-unit files in `dutch-v2/`. POS/gender tagged, 347 cognate→funFact migrated, 886 funFacts generated, 22 COMPOUND breakdowns. |
+| Korean | v2 (format only) | 30 | 330 | 6,953 | 1,266 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS, funFact. **CONTENT REHAUL NEEDED:** ~2-3K more teach cards for TOPIK coverage. |
+| Dutch | v2 (format only) | 30 | 261 | ~5,825 | 1,233 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS/gender, cognate→funFact. **CONTENT REHAUL NEEDED:** NT2 word list gap analysis + ~2-3K new cards. |
 | German v1 | v1 (old) | 30 | 259 | ~4,941 | ~1,297 | Being replaced by v2. |
-| German v2 | v2 (new) | 36 | 558 | ~11,000 | 5,148 | **PERFECT.** All validations PASS. 125 COMPOUND breakdowns added (2026-04-12). |
-| German v2 (AR) | v2 (new) | 36 | 558 | ~11,000 | ~5,148 | **COMPLETE.** ~6,800 Arabic fixes + 170 bidi punctuation fixes (2026-04-10). |
-| French | v2 (new) | 30 | 258 | ~4,781 | 1,092 | **V2 UPGRADED** (2026-04-12). Per-unit files in `french-v2/`. POS/gender tagged, 1,085 funFacts generated. |
-| Spanish | v2 (new) | 30 | 258 | ~4,739 | 1,262 | **V2 UPGRADED** (2026-04-12). Per-unit files in `spanish-v2/`. POS/gender tagged, 1,254 funFacts generated. |
+| German v2 | v2 (COMPLETE) | 36 | 558 | ~11,000 | 5,148 | **PERFECT.** All validations PASS. THE GOLD STANDARD. 125 COMPOUND breakdowns. |
+| German v2 (AR) | v2 (COMPLETE) | 36 | 558 | ~11,000 | ~5,148 | **COMPLETE.** ~6,800 Arabic fixes + 170 bidi punctuation fixes (2026-04-10). |
+| French | v2 (format only) | 30 | 258 | ~4,781 | 1,092 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS/gender, funFact. **CONTENT REHAUL NEEDED:** DELF word list + ~2.5-3.5K new cards. |
+| Spanish | v2 (format only) | 30 | 258 | ~4,739 | 1,262 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS/gender, funFact. **CONTENT REHAUL NEEDED:** DELE word list + ~2.5-3.5K new cards. |
 | Arabic | skeleton | 5 | 29 | — | — | Deferred until new format established. |
 
 ### German v2 Rehaul Progress
@@ -408,7 +408,7 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 17. **Enable `AUDIO_ENABLED`** — Flip gate in `src/audio.jsx`.
 
 ### Phase 5: V1→V2 Language Upgrades
-18. ~~**Dutch** → **French** → **Spanish** → **Korean**~~ — **ALL DONE** (2026-04-12). All 4 upgraded to V2 format with per-unit files, POS/gender, funFact, compound breakdowns.
+18. **Dutch** → **French** → **Spanish** → **Korean** — **FORMAT MIGRATED** (2026-04-12). V2 file structure done (per-unit files, POS/gender, funFact, compounds). **CONTENT REHAUL STILL NEEDED:** official word list mapping, ~2-3K new teach cards per language, grammar module creation, quiz interleaving, PP55/PP57/PP58 completeness. See `docs/SESSION_HANDOFF_2026-04-12.md` for full pipeline.
 20. **Dutch grammar teacher-board rewrite** — Current content is mock/placeholder.
 
 ### Phase 6: Premium Visual Overhaul
@@ -446,7 +446,8 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-09.md`** — **Latest handoff.** Flashcard UI redesign (teach-card style, reveal mechanic), 691 generic quiz hints replaced with word-specific guidance, PP8 zero violations. All validators PASS.
+- **`docs/SESSION_HANDOFF_2026-04-12.md`** — **Latest handoff.** V2 format migration for NL/FR/ES/KO (format only — NOT content rehaul). Full pipeline for bringing each language to German-v2-level quality. Engine fixes (compound bubbles, funFact display). 1,755 PP8 hint fixes. **READ THIS FIRST for V2 rehaul work.**
+- **`docs/SESSION_HANDOFF_2026-04-09.md`** — Previous. Flashcard UI redesign, 691 quiz hint fixes, PP8 zero violations.
 - **`docs/SESSION_HANDOFF_2026-04-08b.md`** — Previous. Deep audit (~150 fixes, 52 files), FSRS spaced repetition engine (working, UI needs redesign), competitor benchmark, learning science analysis.
 - **`docs/SESSION_HANDOFF_2026-04-08.md`** — Previous. ~6,800 Arabic fixes, CEFR B2 Arabic complete, German Foundations rewrite, RTL bidi fix.
 - **`docs/SESSION_HANDOFF_2026-04-07d.md`** — Previous. Quiz interleaving, PP8/PP43/PP64 all PASS, Arabic dialogue fixed.
