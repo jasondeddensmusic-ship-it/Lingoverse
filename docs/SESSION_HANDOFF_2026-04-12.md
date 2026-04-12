@@ -72,28 +72,34 @@
 ## Next Session Priorities
 
 ### Korean Phase 3: New Content Build
-The enrichment of existing V1 cards is DONE. Now the real content work begins:
+V1 enrichment + A2 gap content DONE. B1/B2 gap content is next.
 
-1. **A2 gap content** — 386 new teach cards for missing TOPIK A words
-   - Top priorities: 187 nouns (몸, 생활, 하늘, 춤, 한복), 59 verbs (나오다, 넣다, 웃다), 27 adjectives
-   - These go into new lessons within units 7-13 (existing units get expanded + 3 new A2 units)
+1. ~~**A2 gap content**~~ — **DONE.** 316 new teach cards in 18 lessons (3 units: 31-33). All TOPIK A words covered. Zero new PP8 violations.
 
-2. **B1 gap content** — 887 new teach cards for TOPIK B1 words
-   - High-frequency missing: 경우, 소리, 인간, 시대, 세계
-   - Existing units 11-20 get expanded + 2 new B1 units
+2. **B1 gap content** — **1,118 missing B1 CEFR words** (noun 560, verb 325, adv 108, adj 74)
+   - ~56 lessons needed at 20 words/lesson
+   - High-frequency first: 가격, 가능하다, 감정, 개발하다, 결정, 경험, 계획, 관계, 교육, etc.
+   - Deploy 4 Opus agents at a time, 5 lessons per agent batch = ~3 agent rounds
+   - Target: units 34-39 (6 new B1 units)
 
-3. **B2 expansion** — ~2,000 new teach cards (top frequency TOPIK B2)
-   - Formal suffix verbs (위하다, 의하다, 관하다, 통하다)
-   - Abstract nouns (방법, 내용, 의미, 부분, 활동)
-   - ~48 new grammar constructs
-   - Existing units 21-30 expanded + 5 new B2 units
+3. **B2 expansion** — **~2,000+ missing B2 CEFR words**
+   - Even larger gap. Formal suffix verbs, abstract nouns, academic vocabulary
+   - Deploy in multiple sessions, ~400 words per session
+   - Target: units 40-45+ (variable based on content)
 
-4. **PP8 fix** — 824 pre-existing hint/visual leak violations
-   - Run after new content exists (new hints may fix some leaks)
+4. **PP8 fix** — 824 pre-existing hint/visual leak violations in units 1-30
+   - Run after new content exists (some fixes needed regardless)
 
 5. **Grammar module** — `src/data/grammar/korean.js`
    - A1-B2 entries with teacher-board quality
-   - Particle tables, honorific level tables, conjugation patterns
+
+### Korean V2 Current Totals
+| Metric | Count |
+|--------|-------|
+| Units | 33 (30 enriched + 3 new A2) |
+| Teach cards | 1,652 (1,336 enriched + 316 new) |
+| Total CEFR target | 5,670 |
+| Gap remaining | ~3,000 (B1 + B2) |
 
 ### Agent Strategy for Content Build
 - Opus agents for creative content (max 4 at a time, Rule B7)
