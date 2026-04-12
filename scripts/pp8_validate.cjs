@@ -4,7 +4,24 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE = path.join(__dirname, '..', 'src', 'data', 'german-v2');
+// Accept --lang parameter (default: german)
+const langArg = process.argv.find(a => a.startsWith('--lang='));
+const LANG = langArg ? langArg.split('=')[1] : 'german';
+const BASE = path.join(__dirname, '..', 'src', 'data', `${LANG}-v2`);
+
+if (!fs.existsSync(BASE)) {
+  console.error(`ERROR: Directory not found: ${BASE}`);
+  process.exit(1);
+}
+
+// Auto-detect unit count from directory
+const unitFiles = fs.readdirSync(BASE).filter(f => /^unit-\d+\.js$/.test(f)).sort();
+const UNIT_COUNT = unitFiles.length;
+if (UNIT_COUNT === 0) {
+  console.error(`ERROR: No unit files found in ${BASE}`);
+  process.exit(1);
+}
+console.log(`PP8 Validator — ${LANG} v2 (${UNIT_COUNT} units)\n`);
 
 const SKIP_WORDS = new Set([
   'the','is','a','an','it','to','of','in','on','at','for','and','or','but','not',
@@ -62,8 +79,14 @@ function extractA(objText) {
 
 function getWords(str) {
   if (!str) return [];
+  // For Korean: split on spaces, keep Hangul; for Latin: keep letters + accented chars
+  if (LANG === 'korean') {
+    return str.toLowerCase()
+      .split(/\s+/)
+      .filter(w => w.length >= 2 && /[\uAC00-\uD7AF\u1100-\u11FF\u3130-\u318F]/.test(w));
+  }
   return str.toLowerCase()
-    .replace(/[^a-zäöüß\s]/gi, ' ')
+    .replace(/[^a-zà-öø-ÿäöüßéèêëçñ\s]/gi, ' ')
     .split(/\s+/)
     .filter(w => w.length >= 3 && !SKIP_WORDS.has(w));
 }
@@ -142,7 +165,7 @@ function extractLessons(fileText) {
 const allViolations = [];
 const unitSummaries = [];
 
-for (let u = 1; u <= 36; u++) {
+for (let u = 1; u <= UNIT_COUNT; u++) {
   const unitNum = String(u).padStart(2, '0');
   const filePath = path.join(BASE, `unit-${unitNum}.js`);
 
@@ -282,7 +305,7 @@ console.log('            PP8 GRAND SUMMARY');
 console.log('========================================');
 const totalMC = unitSummaries.reduce((s, u) => s + u.mcCount, 0);
 const totalFB = unitSummaries.reduce((s, u) => s + u.fbCount, 0);
-console.log(`Units checked : 36`);
+console.log(`Units checked : ${UNIT_COUNT}`);
 console.log(`Total mc steps: ${totalMC}`);
 console.log(`Total fb steps: ${totalFB}`);
 console.log(`Total quiz    : ${totalMC + totalFB}`);
@@ -307,5 +330,5 @@ if (failingUnits.length > 0) {
   }
   console.log('\nRESULT: PP8 FAIL');
 } else {
-  console.log('\nRESULT: ALL 36 UNITS PASS PP8 -- ZERO VIOLATIONS');
+  console.log(`\nRESULT: ALL ${UNIT_COUNT} UNITS PASS PP8 -- ZERO VIOLATIONS`);
 }
