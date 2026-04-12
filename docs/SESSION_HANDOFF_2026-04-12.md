@@ -96,12 +96,15 @@ V1 enrichment + A2 gap content DONE. B1/B2 gap content is next.
 ### Korean V2 Current Totals
 | Metric | Count |
 |--------|-------|
-| Units | 37 (30 enriched + 3 A2 gap + 4 B1 gap) |
-| Teach cards | 2,052 (1,336 enriched + 316 A2 + 400 B1) |
+| Units | 41 (30 enriched + 3 A2 gap + 8 B1 gap) |
+| Teach cards | 2,472 (1,336 enriched + 316 A2 + 820 B1) |
+| Lessons (new) | 58 new lessons across 11 new units |
 | Total CEFR target | 5,670 |
-| B1 remaining | ~718 words (1,118 total - 400 done) |
+| B1 remaining | ~398 words (1,118 total - 820 done) |
 | B2 remaining | ~2,000 words |
-| Gap remaining | ~2,718 (B1 rest + B2) |
+| Gap remaining | ~2,398 (B1 rest + B2) |
+| Build status | PASS (270 modules) |
+| PP8 (pre-existing) | 824 violations (from v1, needs cleanup) |
 
 ### Agent Strategy for Content Build
 - Opus agents for creative content (max 4 at a time, Rule B7)
