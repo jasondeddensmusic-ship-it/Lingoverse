@@ -148,7 +148,7 @@ export default {n:23,lang:"nl",srcLang:"en",track:"v2",title:"Als Ik Kon...",sub
         {type:"mc",q:"'Ze had willen studeren, maar het geld was op.' The regret is about:",opts:["A wrong decision","An unfulfilled desire","A moral failing","A missed appointment"],ans:"An unfulfilled desire",hint:"Past ___ prevented by circumstances: had + modal infinitive"},
         {type:"fb",opts:["hadden","hebben","zijn","waren"],hint:"Plural past of the auxiliary: we ___ + modal + infinitive",s:"We ___ kunnen winnen, maar we maakten te veel fouten.",a:"hadden"},
         {type:"drag_fill",hint:"Expressing regret about a past action you failed to do",s:"Ik had {1} bellen. Je had {2} kunnen zwijgen.",blanks:{"1":"moeten","2":"beter"},pool:["moeten","beter","kunnen","willen"]},
-        {type:"mc",q:"In a subordinate clause: '...dat ik had moeten bellen.' The word order is:",opts:["moeten had bellen","had bellen moeten","had moeten bellen","bellen had moeten"],ans:"had moeten bellen",hint:"___ + modal + infinitive at the end"},
+        {type:"mc",q:"In a subordinate clause with a past modal, what is the correct order of: (bellen, moeten, had)?",opts:["moeten had bellen","had bellen moeten","had moeten bellen","bellen had moeten"],ans:"had moeten bellen",hint:"Auxiliary + modal + infinitive: the auxiliary comes first"},
         {type:"fb",opts:["willen","kunnen","moeten","mogen"],hint:"Had ___ reizen: unfulfilled past desire",s:"Ik had ___ reizen, maar het geld was op.",a:"willen"},
         {type:"mc",q:"'Achteraf is het makkelijk praten' means:",opts:["It's easy to talk about it","In hindsight it's easy to talk","It's hard to look back","The past is complicated"],ans:"In hindsight it's easy to talk",hint:"Achteraf = in hindsight, looking back"}
   ]},

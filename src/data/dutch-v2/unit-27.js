@@ -137,7 +137,7 @@ export default {n:27,lang:"nl",srcLang:"en",track:"v2",title:"Gevorderde Gesprek
         {type:"mc",q:"How do Dutch people typically answer a business phone call?",opts:["Hello?","Yes?","With their last name: 'Met Jansen.'","What do you want?"],ans:"With their last name: 'Met Jansen.'",hint:"Dutch phone etiquette: ___ first"},
         {type:"fb",opts:["spreek","bel","praat","zie"],hint:"Met wie _____ ik? Standard phone opening",s:"Met wie _____ ik? U spreekt met De Vries.",a:"spreek"},
         {type:"match",pairs:[{trg:"doorverbinden",src:"to transfer/connect"},{trg:"terugbellen",src:"to call back"},{trg:"herhalen",src:"to repeat"},{trg:"in bespreking",src:"in a meeting"}]},
-        {type:"mc",q:"'Mag ik u doorverbinden?' The separable verb is:",opts:["magverbinden","doorverbinden","uitverbinden","oververbinden"],ans:"doorverbinden",hint:"Door + verbinden = to connect through"},
+        {type:"mc",q:"In 'Mag ik u _____?', which separable verb meaning 'to transfer/connect' belongs?",opts:["magverbinden","doorverbinden","uitverbinden","oververbinden"],ans:"doorverbinden",hint:"Think 'door' (through) + verbinden (connect): to put through to another line"},
         {type:"fb",opts:["terugbellen","doorverbinden","herhalen","spreken"],hint:"Terug + bellen: return a phone call",s:"Zij is niet aanwezig. Kan zij u _____?",a:"terugbellen"},
         {type:"mc",q:"'Een ogenblik' is more formal than:",opts:["Een seconde","Een momentje","Een minuut","Een uur"],ans:"Een momentje",hint:"Ogenblik = moment (formal). ___ = moment (casual)."},
         {type:"fb",opts:["herhalen","zeggen","vertellen","schrijven"],hint:"Nog een keer zeggen: say it again",s:"Kunt u dat _____? Ik heb het niet goed gehoord.",a:"herhalen"},

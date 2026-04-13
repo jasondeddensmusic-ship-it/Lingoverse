@@ -49,7 +49,7 @@ export default {n:20,lang:"nl",srcLang:"en",track:"v2",title:"B1 Klaar!",sub:"Di
           {trg:"Kun je me even helpen?",src:"Neutral/informal"},
           {trg:"Help even!",src:"Very informal"}
         ]},
-        {type:"mc",q:"In a formal Dutch email, you would use:",opts:["Jij/je","U","Jullie","Men"],ans:"U",hint:"U = formal you, always in business Dutch"},
+        {type:"mc",q:"Which second-person pronoun is correct in formal Dutch writing?",opts:["Jij/je (informal)","U (formal)","Jullie (plural)","Men (impersonal)"],ans:"U (formal)",hint:"This polite pronoun is always used in professional correspondence and with strangers"},
         {type:"fb",opts:["u","je","jij","jullie"],hint:"Formal you in a polite request",s:"Zou ___ zo vriendelijk willen zijn om mij te helpen?",a:"u"},
         {type:"mc",q:"'Kunt u mij helpen?' is which register?",opts:["Very informal","Neutral","Polite/formal","Very formal (government)"],ans:"Polite/formal",hint:"Kunt + u = ___ but not extremely ___"},
         {type:"drag_fill",hint:"Would YOU (formal) be so kind as to CLOSE the window?",s:"Zou {1} zo vriendelijk willen zijn om het raam te {2}?",blanks:{"1":"u","2":"sluiten"},pool:["u","sluiten","je","openen"]},
@@ -73,7 +73,7 @@ export default {n:20,lang:"nl",srcLang:"en",track:"v2",title:"B1 Klaar!",sub:"Di
         {type:"fb",opts:["Hoewel","Omdat","Doordat","Zodra"],hint:"ALTHOUGH many employees are satisfied",s:"___ veel werknemers tevreden zijn, zijn er ook nadelen.",a:"Hoewel"},
         {type:"mc",q:"'Sommige mensen voelen zich eenzaam.' What does 'eenzaam' mean?",opts:["Happy","Busy","Lonely","Tired"],ans:"Lonely",hint:"A feeling of isolation when working from home"},
         {type:"fb",opts:["werkt","werken","werkend","gewerkt"],hint:"meer dan de helft = singular subject",s:"Volgens het CBS ___ meer dan de helft thuis.",a:"werkt"},
-        {type:"mc",q:"The article uses indirect speech: 'De minister verklaarde dat...' This is:",opts:["A direct quote","Reported speech with 'dat'","A question","A command"],ans:"Reported speech with 'dat'",hint:"verklaarde dat = declared that (indirect ___)"},
+        {type:"mc",q:"The article uses indirect speech: 'De minister verklaarde dat...' This is:",opts:["A direct quote","Reported speech with 'dat'","A question","A command"],ans:"Reported speech with 'dat'",hint:"This conjunction introduces what was said without direct quotation marks"},
         {type:"drag_fill",hint:"Although... there are also disadvantages.",s:"{1} veel werknemers tevreden zijn, zijn er ook {2}.",blanks:{"1":"Hoewel","2":"nadelen"},pool:["Hoewel","nadelen","Omdat","voordelen"]},
         {type:"fb",opts:["werkende","gewerkte","werkend","werkde"],hint:"A verb form ending in -d(e) used as an adjective before a noun",s:"De ___ bevolking werkt minstens een dag thuis.",a:"werkende"},
         {type:"match",pairs:[{trg:"het thuiswerken",src:"working from home"},{trg:"de werk-privebalans",src:"work-life balance"},{trg:"de werksfeer",src:"work atmosphere"},{trg:"de maatregelen",src:"the measures"}]},

@@ -134,12 +134,12 @@ export default {n:28,lang:"nl",srcLang:"en",track:"v2",title:"Literatuur & Uitdr
         {type:"match",pairs:[{trg:"de roman",src:"the novel"},{trg:"het gedicht",src:"the poem"},{trg:"het personage",src:"the character"},{trg:"het thema",src:"the theme"}]},
         {type:"mc",q:"'De Grote Drie' of Dutch literature are:",opts:["Three bookstores","Reve, Mulisch, Hermans","Three genres","Three poems"],ans:"Reve, Mulisch, Hermans",hint:"The three most important 20th-century Dutch authors"},
         {type:"fb",opts:["thema","personage","titel","einde"],hint:"Het centrale onderwerp: the core subject",s:"Wat is het _____ van het boek? Eenzaamheid en identiteit.",a:"thema"},
-        {type:"mc",q:"'Het gedicht' takes which article?",opts:["de","het","een","geen"],ans:"het",hint:"Literary nouns like gedicht, verhaal: which article do they share?"},
+        {type:"mc",q:"The noun 'gedicht' (poem) takes which article?",opts:["de","het","een","geen"],ans:"het",hint:"Literary nouns like gedicht and verhaal share a common article"},
         {type:"fb",opts:["personage","thema","stijl","dichter"],hint:"Het hoofd___: the central figure in a story",s:"Wie is het hoofd_____ van de roman?",a:"personage"},
         {type:"drag_fill",hint:"Reve wrote the NOVEL. Marsman wrote the POEM.",s:"Gerard Reve schreef de {1} 'De avonden'. Hendrik Marsman schreef het {2} 'Herinnering aan Holland'.",blanks:{"1":"roman","2":"gedicht"},pool:["roman","gedicht","personage","thema"]},
         {type:"mc",q:"Common themes in Dutch literature include:",opts:["Only romance","War, identity, and loneliness","Only comedy","Only children's stories"],ans:"War, identity, and loneliness",hint:"Post-___ Dutch literature is often dark and reflective"},
         {type:"fb",opts:["roman","gedicht","film","toneelstuk"],hint:"A long prose fiction work (de ___)",s:"'De avonden' van Gerard Reve is een beroemde _____.",a:"roman"},
-        {type:"mc",q:"'Het personage' takes which article?",opts:["de","het","een","geen"],ans:"het",hint:"These literary nouns all share which article?"},
+        {type:"mc",q:"The noun 'personage' (character) takes which article?",opts:["de","het","een","geen"],ans:"het",hint:"These literary nouns all share a common article"},
         {type:"mc",q:"Hendrik Marsman is known as a Dutch:",opts:["Novelist","Painter","Poet","Politician"],ans:"Poet",hint:"Herinnering aan Holland is a famous gedicht"}
   ]},
   {id:"v2u28l7",title:"Boekbespreking",icon:"📝",xp:20,board:true,steps:[

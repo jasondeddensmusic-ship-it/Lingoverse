@@ -28,7 +28,7 @@ export default {n:18,lang:"nl",srcLang:"en",track:"v2",title:"Hij Zei Dat...",su
         {type:"tip",title:"📐 Tense Backshift",text:"When the reporting verb is PAST (zei, vertelde),\nthe tense in the dat-clause shifts BACK:\n\nPresent → Imperfectum:\n'Ik ben moe.' → dat hij moe WAS.\n'Ik heb honger.' → dat hij honger HAD.\n'Ik werk hier.' → dat hij daar WERKTE.\n\nThe logic: what WAS present at the time\nis now in the past (because we're reporting it later).\n\nIf the reporting verb is PRESENT, no shift:\nHij zegt dat hij moe is. (present → present)\n\nOnly shift when reporting in the PAST:\nHij zei dat hij moe was. (past reporting → shift)"},
         {type:"mc",q:"'Ik ben moe.' → Hij zei dat hij moe ___.",opts:["is","was","ben","werd"],ans:"was",hint:"Present → imperfectum (tense backshift)"},
         {type:"fb",opts:["had","heb","heeft","hebben"],hint:"heb → had (backshift)",s:"'Ik heb honger.' → Zij zei dat zij honger ___.",a:"had"},
-        {type:"mc",q:"In 'Hij zei dat hij moe was', why is 'was' at the end?",opts:["It's always at the end","'Dat' starts a subordinate clause","It's past perfect","Random order"],ans:"'Dat' starts a subordinate clause",hint:"dat/omdat/als → verb to end"},
+        {type:"mc",q:"In 'Hij zei dat hij moe was', why is 'was' at the end?",opts:["It's always at the end","'Dat' starts a subordinate clause","It's past perfect","Random order"],ans:"'Dat' starts a subordinate clause",hint:"This connecting word triggers verb-final word order in Dutch grammar"},
         {type:"drag_fill",hint:"gaan → gingen, regent → regende",s:"'Wij gaan morgen.' → Zij zei dat ze morgen {1}. 'Het regent.' → Hij vertelde dat het {2}.",blanks:{"1":"gingen","2":"regende"},pool:["gingen","regende","gaan","regent"]},
         {type:"match",pairs:[
           {trg:"Hij zei dat hij moe was.",src:"He said he was tired."},
@@ -37,7 +37,7 @@ export default {n:18,lang:"nl",srcLang:"en",track:"v2",title:"Hij Zei Dat...",su
           {trg:"Ze zei dat het regende.",src:"She said it was raining."}
         ]},
         {type:"fb",opts:["werkte","werkt","werk","werkde"],hint:"Backshift the present tense of 'werken'",s:"'Ik werk in Amsterdam.' → Hij zei dat hij in Amsterdam ___.",a:"werkte"},
-        {type:"mc",q:"Pronoun change: 'Ik ga weg.' → Hij zei dat ___ wegging.",opts:["ik","hij","jij","we"],ans:"hij",hint:"In indirect speech, first person becomes third person"},
+        {type:"mc",q:"Someone said: 'Ik ga weg.' When reported, 'ik' changes to:",opts:["ik","hij","jij","we"],ans:"hij",hint:"In indirect speech, first person becomes third person"},
         {type:"fb",opts:["kwam","komt","komen","kwamen"],hint:"komt → kwam (present to imperfectum)",s:"'Ze komt morgen.' → Hij zei dat ze morgen ___.",a:"kwam"},
         {type:"drag_fill",hint:"heb → had, gaan → gingen",s:"'Ik heb honger.' → Hij zei dat hij honger {1}. 'We gaan morgen.' → Zij zei dat ze morgen {2}.",blanks:{"1":"had","2":"gingen"},pool:["had","gingen","heb","gaan"]},
         {type:"mc",q:"'Hij zegt dat hij moe is.' Why is there NO tense shift here?",opts:["The reporting verb is present tense","It is a question","There is always a shift","It is past perfect"],ans:"The reporting verb is present tense",hint:"Shift only when ___ in the past"},
@@ -75,7 +75,7 @@ export default {n:18,lang:"nl",srcLang:"en",track:"v2",title:"Hij Zei Dat...",su
   {id:"v2u18l4",title:"De Tijd Verschuift",icon:"📐",xp:20,board:true,steps:[
         {type:"intro",title:"De Tijd Verschuift",desc:"The full tense backshift system. What happens to the perfect tense and the future tense in indirect speech? Present → imperfectum you already know. Now: perfect → past perfect, and zullen → zou.",goals:["Perfect → plusquamperfectum in indirect speech","Future (zullen) → zou/zouden","Complete backshift system","Practice all patterns together"]},
         {type:"tip",title:"📐 Full Tense Backshift",text:"When reporting in the PAST (hij zei dat...):\n\nPresent → Imperfectum:\n'Ik ben moe.' → dat hij moe was.\n'Ik werk hier.' → dat hij daar werkte.\n\nPerfect → Plusquamperfectum (Past Perfect):\n'Ik heb gegeten.' → dat hij had gegeten.\n'Ik ben geweest.' → dat hij was geweest.\n\nFuture (zullen) → zou/zouden:\n'Ik zal komen.' → dat hij zou komen.\n'Wij zullen helpen.' → dat zij zouden helpen.\n\nSummary:\nben/heb → was/had\nheb gedaan → had gedaan\nzal doen → zou doen\n\nPast perfect (had gedaan) stays the same:\n'Ik had al gegeten.' → dat hij al had gegeten.\n(Can't shift further back!)"},
-        {type:"mc",q:"'Ik heb gegeten.' → Hij zei dat hij had ___.",opts:["gegeten","eten","at","gegeet"],ans:"gegeten",hint:"Backshift the compound tense: what is the PP of 'eten'?"},
+        {type:"mc",q:"'I have eaten' reported in the past: 'hij zei dat hij had ___.' Which form completes it?",opts:["gegeten","eten","at","gegeet"],ans:"gegeten",hint:"Use the past participle of 'eten' in the past perfect"},
         {type:"fb",opts:["zou","zal","zullen","kan"],hint:"zal → zou (future → conditional)",s:"'Ik zal komen.' → Hij zei dat hij ___ komen.",a:"zou"},
         {type:"mc",q:"'Ik ben naar Parijs geweest.' → Zij zei dat zij naar Parijs ___ geweest.",opts:["was","is","ben","had"],ans:"was",hint:"ben geweest → was geweest"},
         {type:"drag_fill",hint:"zullen → zouden, heb → had",s:"'Wij zullen helpen.' → Zij zei dat zij {1} helpen. 'Ik heb het gedaan.' → Hij zei dat hij het {2} gedaan.",blanks:{"1":"zouden","2":"had"},pool:["zouden","had","zullen","heb"]},
@@ -154,7 +154,7 @@ export default {n:18,lang:"nl",srcLang:"en",track:"v2",title:"Hij Zei Dat...",su
         {type:"mc",q:"'Naar aanleiding van uw e-mail'  -  which register?",opts:["Very informal","Formal","Neutral","Slang"],ans:"Formal",hint:"Which register is this: business letters, official communication?"},
         {type:"fb",opts:["Geachte","Beste","Hoi","Lieve"],hint:"The highest register for letter openings",s:"___ heer De Vries, (formal email opening)",a:"Geachte"},
         {type:"match",pairs:[{trg:"Geachte heer/mevrouw",src:"Dear Sir/Madam (formal)"},{trg:"Met vriendelijke groet",src:"Kind regards (formal)"},{trg:"Hoi",src:"Hi (informal)"},{trg:"Groetjes",src:"Regards (informal)"}]},
-        {type:"mc",q:"In a formal email, 'u' is used instead of:",opts:["wij","zij","jij/je","hij"],ans:"jij/je",hint:"u = polite register, jij = casual register"},
+        {type:"mc",q:"In a formal email, 'u' is used instead of:",opts:["wij","zij","jij/je","hij"],ans:"jij/je",hint:"Think about which pronoun is used in casual, informal conversation"},
         {type:"fb",opts:["weten","zien","horen","komen"],hint:"'Laten ___' = to inform or let someone know",s:"Kunt u mij laten ___ wanneer u beschikbaar bent?",a:"weten"},
         {type:"mc",q:"'Groetjes' is a diminutive of 'groeten'. It sounds:",opts:["very formal","warm and informal","rude","old-fashioned"],ans:"warm and informal",hint:"The -je diminutive makes it friendlier"},
         {type:"fb",opts:["Naar","Met","Bij","Van"],hint:"A stiff phrase meaning 'with regard to' (business register)",s:"___ aanleiding van ons gesprek wil ik u informeren.",a:"Naar"},
