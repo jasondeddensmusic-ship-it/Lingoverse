@@ -120,7 +120,7 @@ export default {n:6,lang:"es",srcLang:"en",track:"v2",title:"La Casa",sub:"Home,
         {type:"fb",opts:["abierta","cerrada","grande","pequeña"],hint:"Asking if the door is in the open state.",s:"¿Está {1} la puerta?",a:"abierta"},
         {type:"mc",q:"Translate: 'There is a blue rug under the desk.'",opts:["Hay una alfombra azul debajo del escritorio","Está una alfombra azul debajo del escritorio","Hay una alfombra azul sobre el escritorio","Una alfombra está debajo"],ans:"Hay una alfombra azul debajo del escritorio",hint:"Something exists (___) under (___ de + el = ___) the desk."},
         {type:"fb",opts:["es","está","hay","tiene"],hint:"A permanent quality of the room. Use ser.",s:"El dormitorio {1} pequeño pero cómodo.",a:"es"},
-        {type:"mc",q:"'La ventana está abierta' means:",opts:["The window is open","The window is closed","The window is big","The window is new"],ans:"The window is open",hint:"Abierta describes a temporary state of the window."}
+        {type:"mc",q:"'La ventana está abierta' means:",opts:["The window is open","The window is closed","The window is big","The window is new"],ans:"The window is open",hint:"Estar signals a changeable condition. Abierta ends in -a to agree with la ventana."}
   ]},
   {id:"esp6l7",title:"Las Tareas del Hogar",icon:"🧹",xp:15,board:true,steps:[
         {type:"intro",title:"Las Tareas del Hogar",desc:"Learn household chores and talk about obligations.",goals:["Name 6 household chores","Use tener que + infinitive","Talk about who does what"]},

@@ -138,7 +138,7 @@ export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores"
         {type:"mc",q:"Which colors do NOT change for gender?",opts:["Rojo and blanco","Azul and verde","Amarillo and negro","Blanco and negro"],ans:"Azul and verde",hint:"Colors ending in -e or a consonant stay the same."},
         {type:"match",pairs:[{trg:"naranja",src:"orange"},{trg:"rosa",src:"pink"},{trg:"morado/a",src:"purple"},{trg:"marrón",src:"brown"},{trg:"gris",src:"gray"}]},
         {type:"fb",opts:["color","día","nombre","año"],hint:"You are asking about the visual appearance.",s:"¿De qué {1} es tu casa?",a:"color"},
-        {type:"mc",q:"'El libro rojo' means:",opts:["The red book","The red flower","The big book","The open book"],ans:"The red book",hint:"Libro = book, and the color follows the noun."},
+        {type:"mc",q:"'El libro rojo' means:",opts:["The red book","The red flower","The big book","The open book"],ans:"The red book",hint:"Rojo is the adjective here. El signals a masculine noun."},
         {type:"fb",opts:["rosas","rosa","rojas","rojo"],hint:"Pink flowers, feminine plural. This color adds -s for plural.",s:"Las flores son {1}.",a:"rosas"},
         {type:"mc",q:"How do you say 'the brown table'?",opts:["la mesa marrón","la mesa marrona","el mesa marrón","la mesa marrono"],ans:"la mesa marrón",hint:"___ does not change for gender."},
         {type:"fb",opts:["azul","verde","rojo","negro"],hint:"The sky shares its color with the sea on a clear day.",s:"El cielo es {1}.",a:"azul"}
@@ -205,7 +205,7 @@ export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores"
         {type:"fb",opts:["martes","enero","rojo","diez"],hint:"A day of the week, plural because it repeats weekly.",s:"La clase es los {1} a las diez.",a:"martes"},
         {type:"mc",q:"'Son las siete y cuarto de la mañana' means:",opts:["It's 7:15 AM","It's 7:30 AM","It's 7:45 AM","It's 7:00 AM"],ans:"It's 7:15 AM",hint:"Cuarto = quarter = 15 minutes."},
         {type:"fb",opts:["roja","rojo","rojos","rojas"],hint:"Flor is feminine singular. Match the color.",s:"La flor es {1} y amarilla.",a:"roja"},
-        {type:"mc",q:"'Hoy es el primero de enero' means:",opts:["Today is January first","Today is the first Monday","Today is in January","Today is the beginning"],ans:"Today is January first",hint:"Primero = first. Only the 1st of the month uses an ordinal."},
+        {type:"mc",q:"'Hoy es el primero de enero' means:",opts:["Today is January first","Today is the first Monday","Today is in January","Today is the beginning"],ans:"Today is January first",hint:"Enero is the month that starts the year. Primero is used for the 1st of a month, not numbers like dos or tres."},
         {type:"drag_fill",hint:"Complete the schedule: day + time + time of day.",s:"La clase es el {1} a las {2} de la {3}.",blanks:{"1":"lunes","2":"tres","3":"tarde"},pool:["lunes","tres","tarde","martes","dos","mañana"]},
         {type:"mc",q:"How many days are in 'febrero'?",opts:["28 (usually)","30","31","29"],ans:"28 (usually)",hint:"The shortest month of the year."},
         {type:"match",pairs:[{trg:"rojo",src:"red"},{trg:"azul",src:"blue"},{trg:"verde",src:"green"},{trg:"blanco",src:"white"},{trg:"morado",src:"purple"},{trg:"gris",src:"gray"}]},
