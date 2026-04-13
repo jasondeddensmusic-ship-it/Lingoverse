@@ -92,7 +92,7 @@ const LESSON_10 = {
     // --- Quiz block 2 ---
     {type:"mc",
      q:"'구경하러 왔어요'는 무슨 뜻이에요?",
-     opts:["사러 왔어요","먹으러 왔어요","공부하러 왔어요","보러 왔어요"],
+     opts:["보러 왔어요","사러 왔어요","먹으러 왔어요","공부하러 왔어요"],
      ans:"보러 왔어요",
      hint:"This means you came just to browse and look around, not to make a purchase."},
 

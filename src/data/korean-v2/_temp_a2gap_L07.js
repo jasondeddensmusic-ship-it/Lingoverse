@@ -34,7 +34,7 @@ const LESSON_7 = {
     // --- Quiz block 1 ---
     {type:"mc",
      q:"'치맥'은 무엇과 무엇이에요?",
-     opts:["치즈와 맥주","치킨과 막걸리","치킨과 맥주","초콜릿과 맥주"],
+     opts:["치킨과 맥주","치즈와 맥주","치킨과 막걸리","초콜릿과 맥주"],
      ans:"치킨과 맥주",
      hint:"A compound of two beloved Korean evening snack items: fried poultry and a barley drink."},
 

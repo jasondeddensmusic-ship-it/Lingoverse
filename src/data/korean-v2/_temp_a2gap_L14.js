@@ -108,6 +108,13 @@ const LESSON_14 = {
      hint:"Libraries are valued for their silence, which makes them ideal for studying.",
      sSrc:"This library is very {1}. It's good for studying."},
 
+    {type:"match", pairs:[
+      {trg:"밝다", src:"to be bright"},
+      {trg:"조용하다", src:"to be quiet"},
+      {trg:"복잡하다", src:"to be complicated"},
+      {trg:"아름답다", src:"to be beautiful"}
+    ]},
+
     // ── Teach 10: 유명하다 ──
     {type:"teach", trg:"유명하다", src:"to be famous", pos:"adj", gender:null,
      note:"Sino-Korean: 有名 (have name) + 하다.\nLiterally 'to have a name,' meaning well-known.",

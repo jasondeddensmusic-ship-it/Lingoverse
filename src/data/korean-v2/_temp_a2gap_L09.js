@@ -46,7 +46,7 @@ const LESSON_9 = {
     // --- Quiz block 1 ---
     {type:"mc",
      q:"'공책'에서 '공'은 무슨 뜻이에요?",
-     opts:["좋은","빈, 비어 있는","큰","새로운"],
+     opts:["빈, 비어 있는","좋은","큰","새로운"],
      ans:"빈, 비어 있는",
      hint:"Think about what a brand new notebook looks like: pages with nothing written on them yet."},
 

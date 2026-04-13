@@ -33,8 +33,12 @@ npm run build                 # Production build (validates compilation)
 | `vocabulary.js` | TEXT_KEYS, VOCAB, LEXEMES, MEANINGS, GRAMMAR, LANG_FAMILIES, ARTICLE_COLORS |
 | `dictionary.js` | WORD_DB builder, POS_COLORS, GENDER_COLORS, GRAMMAR_PACKS, pluggable POS taggers |
 | `korean-conjugation.js` | conjugateVerb(), 7 irregular types, ~20 endings, phonology rules |
-| `units-dutch.js` | 30 Dutch v2 units (old format, `nl`/`en` fields) |
-| `units-korean.js` | 30 Korean units (old format, `nl`/`en` fields) |
+| `units-dutch.js` | 30 Dutch v1 units (legacy, kept for reference) |
+| `units-dutch-v2.js` | Re-exports from 4 per-level files (active import) |
+| `dutch-v2/unit-01.js` ... `unit-30.js` | **30 per-unit files.** V2 format with trg/src, POS, gender, funFact. |
+| `units-korean.js` | 30 Korean v1 units (legacy, kept for reference) |
+| `units-korean-v2.js` | Re-exports from 4 per-level files (active import) |
+| `korean-v2/unit-01.js` ... `unit-30.js` | **30 per-unit files.** V2 format with trg/src, POS, funFact, hanja preserved. |
 | `units-german.js` | 30 German v1 units (old format, being replaced by v2) |
 | `units-german-v2.js` | Re-exports from 4 per-level files (14 lines, DO NOT read) |
 | `german-v2/unit-01.js` ... `unit-36.js` | **36 per-unit files, ~250 lines each.** Agents read THESE. |
@@ -42,8 +46,12 @@ npm run build                 # Production build (validates compilation)
 | `units-german-v2-a2.js` | Imports unit-07 through unit-12 (wrapper only) |
 | `units-german-v2-b1.js` | Imports unit-13 through unit-24 (wrapper only) |
 | `units-german-v2-b2.js` | Imports unit-25 through unit-36 (wrapper only) |
-| `units-french.js` | 30 French units (1.85MB, minified. Use grep, never full-read) |
-| `units-spanish.js` | 30 Spanish units (old format) |
+| `units-french.js` | 30 French v1 units (legacy, kept for reference) |
+| `units-french-v2.js` | Re-exports from 4 per-level files (active import) |
+| `french-v2/unit-01.js` ... `unit-30.js` | **30 per-unit files.** V2 format with trg/src, POS, gender, funFact. |
+| `units-spanish.js` | 30 Spanish v1 units (legacy, kept for reference) |
+| `units-spanish-v2.js` | Re-exports from 4 per-level files (active import) |
+| `spanish-v2/unit-01.js` ... `unit-30.js` | **30 per-unit files.** V2 format with trg/src, POS, gender, funFact. |
 | `units-other.js` | Arabic skeletons (5 units) |
 
 ### Engine (split into modules)
@@ -266,13 +274,13 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 | Language | Format | Units | Lessons | Steps | Teach Cards | Status |
 |----------|--------|-------|---------|-------|-------------|--------|
-| Korean | v1 (old) | 30 | 330 | 6,953 | ~1,367 | Production-ready. Most audited. Pending rehaul. |
-| Dutch | v2 (old) | 30 | 261 | ~5,825 | ~1,300 | Production-ready. Pending rehaul. |
+| Korean | v2 (format only) | 30 | 330 | 6,953 | 1,266 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS, funFact. **CONTENT REHAUL NEEDED:** ~2-3K more teach cards for TOPIK coverage. |
+| Dutch | v2 (format only) | 30 | 261 | ~5,825 | 1,233 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS/gender, cognate→funFact. **CONTENT REHAUL NEEDED:** NT2 word list gap analysis + ~2-3K new cards. |
 | German v1 | v1 (old) | 30 | 259 | ~4,941 | ~1,297 | Being replaced by v2. |
-| German v2 | v2 (new) | 36 | 558 | ~11,000 | 5,148 | **PERFECT.** 189 lessons split for PP64. All validations PASS: PP8 (0/2849), PP43, PP48, PP52, PP59, PP61, PP64 (99.9%). Automated validators in `scripts/`. |
-| German v2 (AR) | v2 (new) | 36 | 558 | ~11,000 | ~5,148 | **COMPLETE.** ~6,800 Arabic fixes applied (2026-04-08). Zero English in learner-facing fields. Contextual hints, natural register. CEFR B2 trAr gap (1,821 entries). |
-| French | v1 (old) | 30 | 258 | ~4,781 | ~1,077 | Production-ready. Pending rehaul. |
-| Spanish | v1 (old) | 30 | 258 | ~4,739 | ~1,062 | Production-ready. Pending rehaul. |
+| German v2 | v2 (COMPLETE) | 36 | 558 | ~11,000 | 5,148 | **PERFECT.** All validations PASS. THE GOLD STANDARD. 125 COMPOUND breakdowns. |
+| German v2 (AR) | v2 (COMPLETE) | 36 | 558 | ~11,000 | ~5,148 | **COMPLETE.** ~6,800 Arabic fixes + 170 bidi punctuation fixes (2026-04-10). |
+| French | v2 (format only) | 30 | 258 | ~4,781 | 1,092 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS/gender, funFact. **CONTENT REHAUL NEEDED:** DELF word list + ~2.5-3.5K new cards. |
+| Spanish | v2 (format only) | 30 | 258 | ~4,739 | 1,262 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS/gender, funFact. **CONTENT REHAUL NEEDED:** DELE word list + ~2.5-3.5K new cards. |
 | Arabic | skeleton | 5 | 29 | — | — | Deferred until new format established. |
 
 ### German v2 Rehaul Progress
@@ -353,10 +361,12 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 25. ~~**Arabic content quality audit**~~ — **RESOLVED** (2026-04-08). ~6,800 fixes across all 36 AR unit files: 748 broken mixed-language fields, 854 match pair translations, 2,170 native speaker review fixes, 1,285 contextual hint rewrites, 1,609 MC opts/ans translations. Zero English remaining in learner-facing fields. See `docs/SESSION_HANDOFF_2026-04-08.md`.
 26. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537). CefrReferencePage shows English for Arabic users on B2 words.
 27. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing for back-navigation and lesson re-entry scenarios.
+28. ~~**Dutch/French/Spanish V2 upgrade**~~ — **RESOLVED** (2026-04-12). All 3 languages upgraded to V2 format with per-unit files, POS/gender tags, funFact fields. Dutch: 347 cognates preserved as funFact + 22 COMPOUND breakdowns. French: 1,092 cards tagged. Spanish: 1,262 cards tagged. Imports updated in `utils.js` and `dictionary.js`.
+29. ~~**German compound bubbles**~~ — **RESOLVED** (2026-04-12). 125 COMPOUND breakdowns added to German v2 noun teach cards. LessonEngine compound bubble renderer displays them as interactive chip bubbles.
 
 ---
 
-## Next Priorities (updated 2026-04-06)
+## Next Priorities (updated 2026-04-12)
 
 > Full work plan: `docs/PHASE1_WORKPLAN.md`. Latest handoff: `docs/SESSION_HANDOFF_2026-04-07c.md`.
 
@@ -398,8 +408,8 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 17. **Enable `AUDIO_ENABLED`** — Flip gate in `src/audio.jsx`.
 
 ### Phase 5: V1→V2 Language Upgrades
-18. **Korean** (most audited) → **Dutch** → **French** → **Spanish** — v1 → v2 format.
-19. **Dutch grammar teacher-board rewrite** — Current content is mock/placeholder.
+18. **Dutch** → **French** → **Spanish** → **Korean** — **FORMAT MIGRATED** (2026-04-12). V2 file structure done (per-unit files, POS/gender, funFact, compounds). **CONTENT REHAUL STILL NEEDED:** official word list mapping, ~2-3K new teach cards per language, grammar module creation, quiz interleaving, PP55/PP57/PP58 completeness. See `docs/SESSION_HANDOFF_2026-04-12.md` for full pipeline.
+20. **Dutch grammar teacher-board rewrite** — Current content is mock/placeholder.
 
 ### Phase 6: Premium Visual Overhaul
 20. **Design session with owner** — Benchmark apps, icon system, music/soundtrack, animations.
@@ -436,7 +446,8 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-09.md`** — **Latest handoff.** Flashcard UI redesign (teach-card style, reveal mechanic), 691 generic quiz hints replaced with word-specific guidance, PP8 zero violations. All validators PASS.
+- **`docs/SESSION_HANDOFF_2026-04-12.md`** — **Latest handoff.** V2 format migration for NL/FR/ES/KO (format only — NOT content rehaul). Full pipeline for bringing each language to German-v2-level quality. Engine fixes (compound bubbles, funFact display). 1,755 PP8 hint fixes. **READ THIS FIRST for V2 rehaul work.**
+- **`docs/SESSION_HANDOFF_2026-04-09.md`** — Previous. Flashcard UI redesign, 691 quiz hint fixes, PP8 zero violations.
 - **`docs/SESSION_HANDOFF_2026-04-08b.md`** — Previous. Deep audit (~150 fixes, 52 files), FSRS spaced repetition engine (working, UI needs redesign), competitor benchmark, learning science analysis.
 - **`docs/SESSION_HANDOFF_2026-04-08.md`** — Previous. ~6,800 Arabic fixes, CEFR B2 Arabic complete, German Foundations rewrite, RTL bidi fix.
 - **`docs/SESSION_HANDOFF_2026-04-07d.md`** — Previous. Quiz interleaving, PP8/PP43/PP64 all PASS, Arabic dialogue fixed.

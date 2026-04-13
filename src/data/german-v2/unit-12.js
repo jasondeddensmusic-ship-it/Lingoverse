@@ -6,9 +6,6 @@ const UNIT_12 =
 // ─── U12 L1: Im Literaturcafé ───
 {id:"deu_r12l1",title:"Im Literaturcafé",icon:"☕",xp:15,board:true,steps:[
 {type:"intro",title:"Im Literaturcafé",desc:"Six months in Germany. Verumius meets Yilmaz at a Berlin Literaturcafé for coffee and Kuchen. For the first time, they talk not as teacher and student, but as friends.",goals:["Express opinions and thoughts","Talk about experiences and ideas","Use abstract nouns in conversation"]},
-{type:"story",speaker:"narrator",mood:"warm",art:"de-literaturcafe",trg:"Ein Literaturcafé in Prenzlauer Berg. Bücherregale an den Wänden, freiliegende Backsteine, warmes Nachmittagslicht. Yilmaz sitzt am Fenster mit einem Milchkaffee. Sie trägt keine Brille heute. Verumius kommt herein und lächelt.",src:"A literary café in Prenzlauer Berg. Bookshelves on the walls, exposed brick, warm afternoon light. Yilmaz sits at the window with a milky coffee. She is not wearing glasses today. Verumius walks in and smiles."},
-{type:"story",speaker:"verumius",mood:"happy",trg:"Yilmaz! Schön, dich hier zu sehen. Sechs Monate in Deutschland. Ich kann es kaum glauben.",src:"Yilmaz! Nice to see you here. Six months in Germany. I can barely believe it."},
-{type:"story",speaker:"yilmaz",mood:"curious",trg:"Sechs Monate! Und du sprichst schon so gut. Ich habe eine Frage: Was denkst du über deine Zeit hier? Ehrlich.",src:"Six months! And you already speak so well. I have a question: What do you think about your time here? Honestly."},
 {type:"teach",trg:"die Meinung",
   pos:"noun",
   gender:"f",src:"the opinion",note:"Feminine noun. Plural: die Meinungen.",example:"A: Was ist deine Meinung?\nB: Meiner Meinung nach ist Berlin toll.",exampleSrc:"A: What is your opinion?\nB: In my opinion, Berlin is great.",funFact:"'Meiner Meinung nach' (in my opinion) is one of the most used phrases in German debates. Germans love a well-structured opinion. The noun comes from 'meinen' (to think/mean)."},
@@ -33,7 +30,6 @@ const UNIT_12 =
   pos:"noun",
   gender:"f",src:"the person",note:"Feminine noun. Plural: die Personen. Always feminine, even for men.",example:"A: Wer ist diese Person?\nB: Das ist eine wichtige Person.",exampleSrc:"A: Who is this person?\nB: That is an important person.",funFact:"Grammatical gender and real gender are different things. 'Die Person' is feminine even when talking about a man. 'Das Mädchen' (the girl) is NEUTER. German grammar follows word endings, not biology."},
 {type:"mc",q:"All these nouns share something. Which article do they use: die Meinung, die Idee, die Geschichte, die Erfahrung?",opts:["der (masculine)","das (neuter)","ein (indefinite)","die (feminine)"],ans:"die (feminine)",hint:"Look at the article that appears before each noun."},
-{type:"story",speaker:"verumius",mood:"reflective",trg:"Ich denke, diese sechs Monate waren die beste Erfahrung meines Lebens. Ich hoffe, dass es so weitergeht.",src:"I think these six months were the best experience of my life. I hope it continues like this."},
 {type:"teach",trg:"die Nachricht",
   pos:"noun",
   gender:"f",src:"the news / message",note:"Feminine noun. Plural: die Nachrichten. TV news: die Nachrichten.",example:"A: Hast du die Nachricht gelesen?\nB: Ja, das sind gute Nachrichten!",exampleSrc:"A: Did you read the message?\nB: Yes, that is good news!",funFact:"'Nachricht' literally means 'something to direct yourself after' (nach + richten). The plural 'Nachrichten' is used for TV news. 'Die Tagesschau' is Germany's most watched Nachrichtensendung (news program)."},
@@ -49,6 +45,7 @@ const UNIT_12 =
 {type:"teach",trg:"denken",
   pos:"verb",
   gender:null,src:"to think",note:"Irregular past, but regular present: ich denke, du denkst.",example:"A: Was denkst du?\nB: Ich denke, das ist eine gute Idee.",exampleSrc:"A: What do you think?\nB: I think that is a good idea.",funFact:"'Denken' and English 'think' come from the same root. And remember 'Danke' (thank you)? Same family! Thinking and thanking were once the same concept: keeping something in mind."},
+{type:"match",pairs:[{trg:"das Interview",src:"the interview"},{trg:"schön",src:"beautiful / nice"},{trg:"hoffen",src:"to hope"},{trg:"denken",src:"to think"}]},
 {type:"teach",trg:"meinen",
   pos:"verb",
   gender:null,src:"to mean / to think (opinion)",note:"Used for personal opinions: 'Ich meine, dass...'",example:"A: Was meinst du damit?\nB: Ich meine, wir sollten gehen.",exampleSrc:"A: What do you mean by that?\nB: I mean, we should go.",funFact:"'Meinen' and 'die Meinung' are a family. But careful: 'meinen' is softer than 'denken.' 'Ich denke' = I think (after reflection). 'Ich meine' = I reckon/believe (more casual opinion)."},
@@ -60,14 +57,12 @@ const UNIT_12 =
 {type:"mc",q:"Which sentence correctly uses 'meinen' to express an opinion?",opts:["Ich meine, das Café ist schön.","Ich meine nach Berlin.","Ich meine einen Kaffee.","Ich meine um drei Uhr."],ans:"Ich meine, das Café ist schön.",hint:"This verb introduces a personal opinion or belief."},
 {type:"match",pairs:[{trg:"die Meinung",src:"the opinion"},{trg:"die Erfahrung",src:"the experience"},{trg:"die Nachricht",src:"the news/message"},{trg:"hoffen",src:"to hope"},{trg:"denken",src:"to think"},{trg:"meinen",src:"to mean/think (opinion)"}]},
 {type:"drag_fill",s:"Ich {1}, dass du eine gute {2} hast. {3} Meinung nach ist das eine tolle {4}.",blanks:{"1":"denke","2":"Idee","3":"Meiner","4":"Erfahrung"},pool:["denke","Idee","Meiner","Erfahrung","hoffe","Geschichte","Seiner","Qualität"],hint:"Build a sentence combining thinking, ideas, opinions, and experiences.",sSrc:"I think that you have a good idea. In my opinion that is a great experience."},
-{type:"story",speaker:"yilmaz",mood:"warm",art:"de-literaturcafe-goodbye",trg:"Verumius, du hast dich verändert. Am Anfang warst du nervös und unsicher. Jetzt sitzt du hier und redest über Meinungen und Erfahrungen. Auf Deutsch. Ich bin stolz auf dich.",src:"Verumius, you have changed. In the beginning you were nervous and insecure. Now you sit here and talk about opinions and experiences. In German. I am proud of you."},
 {type:"fb",s:"Ich habe morgen ein {1} für den neuen Job.",a:"Interview",opts:["Interview","Erfahrung","Meinung","Nachricht"],hint:"A formal meeting where someone asks you questions about a position.",sSrc:"I have an interview tomorrow for the new job."}
 ]}
 ,
 
 {id:"deu_r12l2",title:"Papierkram",icon:"📄",xp:15,board:true,steps:[
 {type:"intro",title:"Papierkram",desc:"Work, admin, and tech vocabulary for everyday German life. From job applications to passwords, this is the language of getting things done.",goals:["Learn 16 work/admin/tech nouns","Use time adverbs: schon, noch, erst, gerade","Talk about office life and digital tools"]},
-{type:"story",speaker:"narrator",mood:"focused",art:"de-apartment-desk",trg:"Verumius sitzt an seinem Schreibtisch. Um ihn herum: Stifte, Post-its, ein offener Laptop. Sein Lebenslauf liegt daneben. Er muss eine Bewerbung schreiben. Die Kaffeemaschine rattert leise.",src:"Verumius sits at his desk. Around him: pens, post-its, an open laptop. His resume lies beside them. He has to write a job application. The coffee machine rattles softly."},
 {type:"teach",trg:"die Bewerbung",
   pos:"noun",
   gender:"f",src:"application (job)",phonetic:"beh-VEHR-boong",example:"A: Hast du die Bewerbung schon geschickt?\nB: Nein, ich schreibe sie heute Abend.",exampleSrc:"A: Have you already sent the application?\nB: No, I'm writing it tonight.",note:"From 'bewerben' (to apply). Always die.",funFact:"Germans often include a professional photo with job applications. It is still common practice."},
@@ -79,6 +74,7 @@ const UNIT_12 =
 {type:"teach",trg:"das Gehalt",
   pos:"noun",
   gender:"n",src:"salary",phonetic:"geh-HALT",example:"A: Bist du zufrieden mit dem Gehalt?\nB: Ja, es ist ganz okay.",exampleSrc:"A: Are you happy with the salary?\nB: Yes, it's quite okay.",note:"Always das. Plural: die Gehälter.",funFact:"In Germany, talking about your salary with colleagues is considered very impolite. Many people never share the number."},
+{type:"match",pairs:[{trg:"die Ausbildung",src:"training, apprenticeship"},{trg:"das B\u00fcro",src:"office"},{trg:"das Projekt",src:"the project"},{trg:"das Gehalt",src:"salary"}]},
 {type:"teach",trg:"der Vertrag",
   pos:"noun",
   gender:"m",src:"contract",phonetic:"fehr-TRAHK",example:"A: Hast du den Vertrag schon unterschrieben?\nB: Noch nicht, ich lese ihn erst morgen.",exampleSrc:"A: Have you already signed the contract?\nB: Not yet, I'll read it tomorrow first.",note:"Always der. Plural: die Vertr\u00e4ge.",funFact:"Germans love contracts. Even a gym membership comes with a detailed Vertrag, often with a long cancellation period."},
@@ -148,14 +144,11 @@ const UNIT_12 =
 {type:"match",pairs:[{trg:"die Mail",src:"email"},{trg:"der Link",src:"link"},{trg:"die Datei",src:"file (digital)"},{trg:"die Homepage",src:"homepage"},{trg:"das Mobiltelefon",src:"mobile phone"}]},
 {type:"teach",trg:"geduldig",
   pos:"adj",
-  gender:null,src:"patient (adjective)",note:"Geduld (patience) + -ig. Sei geduldig! = Be patient!",example:"A: Wann kommt das Ergebnis?\nB: Nächste Woche. Sei geduldig!\nA: Ich versuche es!",exampleSrc:"A: When does the result come?\nB: Next week. Be patient!\nA: I'm trying!",funFact:"Geduld comes from 'dulden' (to endure). A patient person is one who can endure waiting. The medical 'Patient' shares the same Latin root."},
-{type:"story",speaker:"verumius",mood:"determined",art:"de-apartment-desk-night",trg:"Fertig. Die Bewerbung ist geschickt. Das Passwort ist gespeichert. Jetzt brauche ich nur noch Geduld. Und vielleicht noch einen Kaffee.",src:"Done. The application is sent. The password is saved. Now I just need patience. And maybe one more coffee."}
-]},
+  gender:null,src:"patient (adjective)",note:"Geduld (patience) + -ig. Sei geduldig! = Be patient!",example:"A: Wann kommt das Ergebnis?\nB: Nächste Woche. Sei geduldig!\nA: Ich versuche es!",exampleSrc:"A: When does the result come?\nB: Next week. Be patient!\nA: I'm trying!",funFact:"Geduld comes from 'dulden' (to endure). A patient person is one who can endure waiting. The medical 'Patient' shares the same Latin root."}]},
 
 // U12 L3: Rückblick - Story dev + grammar (conjunctions + adverb categories)
 {id:"deu_r12l4",title:"Rückblick",icon:"\uD83D\uDD19",xp:15,board:true,steps:[
 {type:"intro",title:"Rückblick",desc:"Verumius spreads his German documents across the kitchen table: Mietvertrag, Krankenversicherung, Steuernummer, Anmeldung, GEZ. Six months in Germany. Time to connect the dots.",goals:["Learn 12 new vocabulary words for daily life","Master coordinating conjunctions (ADUSO)","Categorize adverbs by time, place, and manner"]},
-{type:"story",speaker:"narrator",mood:"reflective",art:"de-kitchen-documents",trg:"Verumius sitzt am Küchentisch. Vor ihm liegen Papiere: der Mietvertrag, die Krankenversicherung, die Steuernummer, die Anmeldung, der GEZ-Brief. Er nimmt einen Stift und macht Notizen.",src:"Verumius sits at the kitchen table. In front of him lie papers: the rental contract, the health insurance, the tax number, the registration, the GEZ letter. He picks up a pen and makes notes."},
 {type:"teach",trg:"der Kontakt",
   pos:"noun",
   gender:"m",src:"the contact",note:"Masculine noun. Plural: die Kontakte. Used for people and connections.",example:"A: Hast du den Kontakt von der Vermieterin?\nB: Ja, ich habe ihre Nummer.",exampleSrc:"A: Do you have the landlady's contact?\nB: Yes, I have her number.",funFact:"Germans distinguish 'Kontakt' (a connection you maintain) from 'Bekanntschaft' (an acquaintance). Having someone's number makes them a Kontakt."},
@@ -211,9 +204,7 @@ const UNIT_12 =
 {type:"mc",q:"Was ist 'die Adresse'?",opts:["the letter","the contract","the receipt","the address"],ans:"the address",hint:"This feminine noun is needed for registration, banks, and official forms."},
 {type:"mc",q:"'Das Gymnasium führt zum Abitur.' Was ist ein Gymnasium?",opts:["an academic school","a professional sports gym","a hospital","a harbor"],ans:"an academic school",hint:"Germany has three secondary tracks. This one is the most demanding and leads to the Abitur, qualifying for university."},
 {type:"mc",q:"'Der Hamburger Hafen ist riesig.' What does 'Hafen' mean?",opts:["airport","harbor","bridge","island"],ans:"harbor",hint:"Hamburg's famous one is the third largest in Europe."},
-{type:"match",pairs:[{trg:"der Kontakt",src:"contact"},{trg:"der Stift",src:"pen"},{trg:"die Notiz",src:"note"},{trg:"der Zettel",src:"slip of paper"},{trg:"die Zahl",src:"number"},{trg:"reden",src:"to talk"}]},
-{type:"story",speaker:"narrator",mood:"thoughtful",art:"de-kitchen-documents-2",trg:"Verumius schaut auf seine Notizen und rechnet. Er hat Kontakte, aber er braucht mehr Kenntnisse. Er hat einen Mietvertrag, aber er braucht auch einen Kredit. Er spricht gut Deutsch, aber er versteht nicht alles.",src:"Verumius looks at his notes and calculates. He has contacts, but he needs more knowledge. He has a rental contract, but he also needs a loan. He speaks good German, but he doesn't understand everything."}
-]},
+{type:"match",pairs:[{trg:"der Kontakt",src:"contact"},{trg:"der Stift",src:"pen"},{trg:"die Notiz",src:"note"},{trg:"der Zettel",src:"slip of paper"},{trg:"die Zahl",src:"number"},{trg:"reden",src:"to talk"}]}]},
 
 // ─── U12 L4b: Rückblick: Verbindungen ───
 {id:"deu_r12l5",title:"Rückblick: Verbindungen",icon:"🔗",xp:15,board:true,steps:[
@@ -233,14 +224,12 @@ const UNIT_12 =
 {type:"mc",q:"'Verumius hat keinen Kredit, sondern er hat Ersparnisse.' Is this correct?",opts:["No, 'aber' fits better after a negative","Yes, it corrects the negative 'keinen Kredit' with the real situation","No, 'denn' is needed for giving a reason","No, 'und' simply adds without correcting"],ans:"Yes, it corrects the negative 'keinen Kredit' with the real situation",hint:"Does the second clause properly follow the ADUSO rule for replacing a negated statement with the accurate fact?"},
 {type:"fb",s:"Ich verstehe die Mitarbeiterin nicht, {1} sie redet schnell.",a:["denn"],opts:["denn","und","oder","sondern"],hint:"The second clause gives the REASON why she is hard to understand.",sSrc:"I do not understand the colleague because she speaks quickly."},
 {type:"match",pairs:[{trg:"und",src:"and"},{trg:"oder",src:"or"},{trg:"aber",src:"but"},{trg:"denn",src:"because"},{trg:"sondern",src:"but rather"},{trg:"das Stück",src:"piece"}]},
-{type:"story",speaker:"verumius",mood:"reflective",art:"de-kitchen-evening",trg:"Mietvertrag, Krankenversicherung, Steuernummer. Ich habe das alles allein gemacht. Auf Deutsch. Vor sechs Monaten konnte ich nicht mal Brot bestellen.",src:"Rental contract, health insurance, tax number. I did all of that alone. In German. Six months ago I could not even order bread."},{type:"fb",s:"Ich komme später, {1} ich muss noch arbeiten.",a:"denn",opts:["denn","weil","dass","ob"],hint:"Which connector keeps the verb in second position?"}
+{type:"fb",s:"Ich komme später, {1} ich muss noch arbeiten.",a:"denn",opts:["denn","weil","dass","ob"],hint:"Which connector keeps the verb in second position?"}
 ]}
 ,
 
 {id:"deu_r12l6",title:"Was wäre wenn?",icon:"📐",xp:20,board:true,steps:[
 {type:"intro",title:"Was wäre wenn?",desc:"Verumius and Hildi sit in a café, daydreaming about what they would do if they could. Time to master imperatives with separable and irregular verbs, revisit ob-clauses, and sharpen your Konjunktiv II. Plus: subordinate clause word order under pressure.",goals:["Form imperatives with separable and irregular verbs","Combine ob with new vocabulary","Use Konjunktiv II in wishes and hypotheticals","Master subordinate clause word order with all conjunctions"]},
-{type:"story",speaker:"narrator",mood:"reflective",art:"de-cafe-daydream",trg:"Im Café am Gendarmenmarkt. Draußen regnet es. Verumius und Hildi trinken Kaffee und planen das nächste Halbjahr. Aber die Pläne werden schnell zu Träumen.",src:"In the café at Gendarmenmarkt. Outside it is raining. Verumius and Hildi drink coffee and plan the next half-year. But the plans quickly turn to dreams."},
-{type:"story",speaker:"hildi",mood:"bossy",trg:"Steh auf, Verumius! Hör auf zu träumen! Wir müssen planen, nicht träumen. Oder... was würdest du tun, wenn du alles schaffen könntest?",src:"Get up, Verumius! Stop dreaming! We need to plan, not dream. Or... what would you do if you could accomplish anything?"},
 {type:"teach",trg:"lassen",
   pos:"verb",
   gender:null,src:"to let / to leave",note:"Irregular: ich lasse, du lässt, er lässt. Stem change a to ä.",example:"A: Lass mich in Ruhe!\nB: Okay, ich lasse dich allein.",exampleSrc:"A: Leave me alone!\nB: Okay, I'll leave you alone.",funFact:"'Lassen' is a chameleon verb. 'Lass uns gehen' = let's go. 'Ich lasse es reparieren' = I'm having it repaired. 'Lass das!' = Stop that! One verb, three completely different uses."},
@@ -308,14 +297,11 @@ const UNIT_12 =
 {type:"drag_fill",s:"Ich glaube, {1} sie alles gut {2}, {3} sie sich immer {4}.",blanks:{"1":"dass","2":"schafft","3":"weil","4":"vorbereitet"},pool:["dass","schafft","weil","vorbereitet","ob","bereitet vor"],hint:"Both clauses need verb-last order. The separable verb 'vorbereiten' stays together in a subordinate clause.",sSrc:"I believe that she does everything well because she always prepares herself."},
 {type:"fb",s:"Steh {1}! Wir müssen alles vorbereiten.",a:["auf"],opts:["auf","an","vor","zu dunkel"],hint:"Complete this separable imperative. The verb means 'to get up.'",sSrc:"Get up! We have to prepare everything."},
 {type:"mc",q:"'Wenn ich es versuchen könnte, ___ ich es sofort tun.' What fills the blank?",opts:["wäre","hätte","müsste","würde"],ans:"würde",hint:"The main clause of a wenn-Konjunktiv II needs the general 'would' form with an infinitive."},
-{type:"match",pairs:[{trg:"lassen",src:"to let / to leave"},{trg:"schaffen",src:"to manage"},{trg:"versuchen",src:"to try"},{trg:"vorbereiten",src:"to prepare"},{trg:"wählen",src:"to choose / to vote"},{trg:"prüfen",src:"to test"},{trg:"planen",src:"to plan"},{trg:"sparen",src:"to save (money)"}]},
-{type:"story",speaker:"hildi",mood:"playful",art:"de-cafe-rain",trg:"Du träumst schon wieder. Aber weißt du was? Manchmal werden Träume wahr. Lass uns einen Plan machen. Einen richtigen.",src:"You are dreaming again. But you know what? Sometimes dreams come true. Let us make a plan. A real one."}
-]}
+{type:"match",pairs:[{trg:"lassen",src:"to let / to leave"},{trg:"schaffen",src:"to manage"},{trg:"versuchen",src:"to try"},{trg:"vorbereiten",src:"to prepare"},{trg:"wählen",src:"to choose / to vote"},{trg:"prüfen",src:"to test"},{trg:"planen",src:"to plan"},{trg:"sparen",src:"to save (money)"}]}]}
 ,
 
 {id:"deu_r12l8",title:"Gefühle",icon:"💭",xp:15,board:true,steps:[
 {type:"intro",title:"Gefühle",desc:"Dreams, wishes, and everything in between. Learn 16 important nouns for emotions and abstract concepts.",goals:["Learn 16 new nouns","Review grammar from lessons 1-4","Use abstract concepts in context"]},
-{type:"story",speaker:"narrator",mood:"tender",art:"de-park-bench-sunset",trg:"Tiergarten, später Nachmittag. Die Sonne steht tief. Verumius sitzt auf einer Bank und schaut den Joggern zu. Er denkt an seine Träume, seine Wünsche, seine Ängste. Sechs Monate. Wie fühlt sich das an?",src:"Tiergarten, late afternoon. The sun hangs low. Verumius sits on a bench and watches the joggers. He thinks about his dreams, his wishes, his fears. Six months. What does that feel like?"},
 {type:"teach",trg:"der Traum",
   pos:"noun",src:"dream",gender:"m",note:"Plural: die Träume. Umlaut im Plural.",funFact:"Deutsche sagen 'Traumjob' für ihren perfekten Beruf.",example:"A: Hattest du letzte Nacht einen Traum?\nB: Ja, ich habe von meinem Urlaub geträumt.",exampleSrc:"A: Did you have a dream last night?\nB: Yes, I dreamed about my vacation."},
 {type:"teach",trg:"der Wunsch",
@@ -360,16 +346,11 @@ const UNIT_12 =
 {type:"drag_fill",s:"Ich weiß nicht, ob er seinen {1} erreichen kann, aber sein {2} ist groß.",blanks:{"1":"Traum","2":"Wunsch"},pool:["Traum","Wunsch","Rest","Titel","Spaß"],hint:"First something you have at night, then something you hope for.",sSrc:"I do not know whether he can reach his dream, but his wish is great."},
 {type:"mc",q:"Welcher Satz benutzt 'die Reihe' richtig?",opts:["Die Reihe ist sehr müde.","Ich esse eine Reihe.","Er kauft die Reihe.","Du bist an der Reihe."],ans:"Du bist an der Reihe.",hint:"This word is often used when you are waiting for something."},
 {type:"drag_fill",s:"Er hat viel {1} bei der Arbeit, aber am Abend macht ihm Kochen großen {2}.",blanks:{"1":"Stress","2":"Spaß"},pool:["Stress","Spaß","Liebe","Ruhe","Lüge"],hint:"First something negative at work, then something positive in the evening.",sSrc:"He has a lot of stress at work, but in the evening cooking gives him great fun."},
-{type:"match",pairs:[{trg:"der Traum",src:"dream"},{trg:"die Ruhe",src:"peace"},{trg:"die Lüge",src:"lie"},{trg:"der Vorschlag",src:"suggestion"},{trg:"die Sache",src:"thing"}]},
-{type:"story",speaker:"verumius",mood:"peaceful",art:"de-park-bench-dusk",trg:"Träume, Wünsche, Ziele. Vor sechs Monaten hatte ich nur eins: ankommen. Jetzt habe ich so viele. Das ist ein gutes Zeichen.",src:"Dreams, wishes, goals. Six months ago I had only one: to arrive. Now I have so many. That is a good sign."}
-]},
+{type:"match",pairs:[{trg:"der Traum",src:"dream"},{trg:"die Ruhe",src:"peace"},{trg:"die Lüge",src:"lie"},{trg:"der Vorschlag",src:"suggestion"},{trg:"die Sache",src:"thing"}]}]},
 
 // U12 L6: KD lacht. Story climax. Bürgeramt scene. Heavy A2 grammar review.
 {id:"deu_r12l9",title:"KD lacht",icon:"\uD83D\uDE10",xp:20,board:true,steps:[
 {type:"intro",title:"KD lacht",desc:"Back at the Bürgeramt. This time Verumius has ALL the right documents. KD processes everything smoothly. And then something impossible happens...",goals:["Review all A2 grammar in multi-construct sentences","Learn 10 new vocabulary words","Witness the impossible: KD smiles"]},
-{type:"story",speaker:"narrator",mood:"confident",art:"de-buergeramt-desk",trg:"Bürgeramt, Zimmer 4. KD sitzt hinter ihrem Schreibtisch. Verumius legt einen perfekten Stapel Dokumente auf den Tisch. Alles ist da. Alles ist richtig.",src:"Bürgeramt, Room 4. KD sits behind her desk. Verumius places a perfect stack of documents on the table. Everything is there. Everything is correct."},
-{type:"story",speaker:"kd",mood:"neutral",trg:"Personalausweis. Meldebescheinigung. Gehaltsnachweis. Krankenversicherung. Alles vollständig. Das ist... ungewöhnlich.",src:"ID card. Registration certificate. Proof of income. Health insurance. Everything complete. That is... unusual."},
-{type:"story",speaker:"narrator",mood:"surprised",trg:"KD tippt schnell auf ihrem Laptop. Der Service ist schnell und effizient. Dann schaut sie aus dem Fenster und sagt trocken: 'Bei dem Wetter braucht man keine Erlaubnis zum Weinen. Das macht der Regen schon.' Ihre Lippe zuckt. War das ein Lächeln?",src:"KD types quickly on her laptop. The service is fast and efficient. Then she looks out the window and says dryly: 'With this weather, you don't need permission to cry. The rain does it for you.' Her lip twitches. Was that a smile?"},
 {type:"teach",trg:"die Erlaubnis",
   pos:"noun",
   gender:"f",src:"the permission",note:"Feminine noun. Plural: die Erlaubnisse. From 'erlauben' (to allow).",example:"A: Hast du die Erlaubnis bekommen?\nB: Ja, ich habe die Erlaubnis gestern bekommen.",exampleSrc:"A: Did you get the permission?\nB: Yes, I got the permission yesterday.",funFact:"Germans need an 'Erlaubnis' for surprisingly many things: building a fence, cutting down a tree, even owning certain dog breeds. Bureaucracy is a national sport."},
@@ -415,7 +396,6 @@ const UNIT_12 =
 {type:"fb",s:"Wenn ich ein Tablet {1}, würde ich die Webseite öffnen.",a:["hätte"],opts:["hätte","habe","hatte","hat"],hint:"This is an unreal condition. The 'wenn' clause needs Konjunktiv II of 'haben.'",sSrc:"If I had a tablet, I would open the website."},
 {type:"mc",q:"'Stell den Laptop auf den Tisch!' What grammar is used here?",opts:["Konjunktiv II polite request form","Perfekt narration of a past event","Imperative with Wechselpräposition","Passive voice descriptive instruction"],ans:"Imperative with Wechselpräposition",hint:"'Stell!' is a command form. 'Auf den Tisch' shows direction (accusative)."},
 {type:"drag_fill",s:"Die Chefin sagte, {1} der Service besser {2} {3}, wenn alle Mitarbeiter pünktlich {4}.",blanks:{"1":"dass","2":"sein","3":"würde","4":"kämen"},pool:["dass","sein","würde","kämen","weil","haben","konnte","kommen"],hint:"A reporting conjunction introduces this subordinate clause. The subjunctive helper and infinitive go to the clause end.",sSrc:"The boss said that the service would be better if all employees came punctually."},
-{type:"story",speaker:"narrator",mood:"warm",trg:"KD stempelt das letzte Dokument. Sie schaut Verumius an. 'Sie haben alles richtig gemacht. Das passiert selten.' Dann, ganz leise: 'Kommen Sie gut nach Hause.' War das... Freundlichkeit?",src:"KD stamps the last document. She looks at Verumius. 'You did everything right. That rarely happens.' Then, very quietly: 'Get home safely.' Was that... friendliness?"},
 {type:"match",pairs:[{trg:"die Erlaubnis",src:"the permission"},{trg:"die Ermäßigung",src:"the discount"},{trg:"der Bescheid",src:"the notice"},{trg:"das Paar",src:"the pair/couple"},{trg:"die Webseite",src:"the website"},{trg:"der Laptop",src:"the laptop"},{trg:"das Tablet",src:"the tablet"},{trg:"der Service",src:"the service"},{trg:"der Babysitter",src:"the babysitter"},{trg:"die Chefin",src:"the female boss"}]}
 ]}
 ,
@@ -423,7 +403,6 @@ const UNIT_12 =
 // U12 L7: Noch mehr Wörter - Remaining A2 verbs and adjectives
 {id:"deu_r12l10",title:"Verben für den Alltag",icon:"\uD83D\uDCDA",xp:10,board:true,steps:[
 {type:"intro",title:"Noch mehr Wörter",desc:"Twenty more verbs that Germans use every day at work, in emails, and in difficult conversations. Master these and your A2 vocabulary is nearly complete.",goals:["Learn 20 essential A2 verbs","Use reflexive verbs with sich","Practice formal and informal register"]},
-{type:"story",speaker:"narrator",mood:"montage",art:"de-montage-flashback",trg:"Sechs Monate in Bildern. Verumius am Pfandautomaten, zum ersten Mal die Flaschen richtig sortiert. Am Telefon mit der Versicherung, zum ersten Mal kein Schweißausbruch. An der Mülltonne, zum ersten Mal ohne Hildis Zettel.",src:"Six months in pictures. Verumius at the bottle deposit machine, sorting the bottles correctly for the first time. On the phone with the insurance company, no sweat for the first time. At the bins, for the first time without Hildi's note."},
 
 // ─── Group 1: Office & Work Verbs ───
 {type:"teach",trg:"ändern",
@@ -526,6 +505,7 @@ const UNIT_12 =
 {type:"teach",trg:"schriftlich",
   pos:"adj",
   gender:null,src:"written / in writing",example:"A: Bitte bestätigen Sie schriftlich.\nB: Ich schicke Ihnen eine Mail.",exampleSrc:"A: Please confirm in writing.\nB: I will send you an email.",note:"From Schrift (writing/font). Mündlich = oral, schriftlich = written.",funFact:"German bureaucracy loves the word 'schriftlich.' Nothing is official until it is schriftlich."},
+{type:"match",pairs:[{trg:"ganz",src:"whole / quite / entirely"},{trg:"preiswert",src:"affordable / good value"},{trg:"privat",src:"private"},{trg:"schriftlich",src:"written / in writing"}]},
 {type:"teach",trg:"stressig",
   pos:"adj",
   gender:null,src:"stressful",example:"A: Wie war dein Tag?\nB: Sehr stressig! Ich brauche Ruhe.",exampleSrc:"A: How was your day?\nB: Very stressful! I need rest.",note:"Stress + -ig ending. Colloquial but widely used.",funFact:"'Stressig' entered German from English stress. The -ig suffix makes it an adjective, following the same pattern as sonnig, windig."},
@@ -543,7 +523,6 @@ const UNIT_12 =
 {type:"teach",trg:"einverstanden",
   pos:"adj",
   gender:null,src:"agreed / in agreement",example:"A: Treffen wir uns um drei?\nB: Einverstanden!\nA: Super, bis dann!",exampleSrc:"A: Shall we meet at three?\nB: Agreed!\nA: Great, see you then!",note:"Ein + verstanden (understood). 'Ich bin einverstanden' = I agree. Very formal.",funFact:"On contracts: 'Hiermit erkläre ich mich einverstanden' (I hereby declare my agreement). The most German sentence ever written."},
-{type:"story",speaker:"verumius",mood:"proud",art:"de-montage-pfand",trg:"Bewerben, beenden, sich beschweren, kündigen. Vor sechs Monaten waren das nur Wörter im Wörterbuch. Jetzt sind es Werkzeuge. Meine Werkzeuge.",src:"Apply, finish, complain, quit. Six months ago those were just words in a dictionary. Now they are tools. My tools."},
 {type:"mc",q:"Was bedeutet 'eintragen'?",opts:["agreed / in agreement","to register / to enter (data)","stressful","private"],ans:"to register / to enter (data)",hint:"Ein- (in/into) + tragen (to carry). To carry information into a form or list."},
 {type:"fb",s:"Hast du das {1}e Buch gelesen?",a:["ganz"],opts:["einverstanden","ganz","preiswert","privat"],hint:"An adjective meaning 'entire' or 'complete'. Rhymes with 'Tanz'.",sSrc:"Did you read the whole book?"},
 {type:"mc",q:"Was bedeutet 'schrecklich'?",opts:["to lie (tell an untruth)","private","terrible / dreadful","affordable / good value"],ans:"terrible / dreadful",hint:"From Schreck (fright/shock). The -lich suffix makes it an adjective."},
@@ -555,7 +534,6 @@ const UNIT_12 =
 
 {id:"deu_r12l12",title:"Das letzte Kapitel",icon:"📖",xp:15,board:true,steps:[
 {type:"intro",title:"Das letzte Kapitel",desc:"Twenty new words to close out the unit: everyday life, school, and more.",goals:["Learn 20 new nouns and adjectives","Talk about school and everyday life","Consolidate vocabulary"]},
-{type:"story",speaker:"narrator",mood:"quiet",art:"de-stairwell-evening",trg:"Abends im Treppenhaus. Verumius geht die Stufen hoch. Aus der zweiten Etage kommt Musik. Aus der dritten Etage riecht es nach Essen. Oben, bei Hildi, brennt Licht. Das Haus lebt.",src:"Evening in the stairwell. Verumius walks up the steps. From the second floor comes music. From the third floor it smells like food. Upstairs, at Hildi's place, the light is on. The building lives."},
 {type:"teach",trg:"das Fach",
   pos:"noun",
   gender:"n",src:"subject / compartment",phonetic:"fakh",example:"A: Welches Fach magst du am liebsten?\nB: Ich mag Mathe, das ist mein bestes Fach.",exampleSrc:"A: Which subject do you like best?\nB: I like maths, that's my best subject.",note:"Neuter. Plural: Fächer. Means both a school subject and a compartment.",funFact:"In Germany, students often have 12 or more Fächer on their timetable."},
@@ -654,14 +632,10 @@ const UNIT_12 =
 {type:"mc",q:"Lisa ist 16 und geht aufs Gymnasium. Wie nennt man sie?",opts:["eine Schülerin","eine Studentin","eine Rentnerin","eine Kollegin"],ans:"eine Schülerin",hint:"Someone who attends a school, not a university."},
 {type:"fb",s:"Was hast du {1} heute Abend vor?",a:"eigentlich",opts:["eigentlich","aktuell","echt","endlich"],hint:"Softens the question, means 'actually' or 'by the way'.",sSrc:"What are you actually planning for this evening?"},
 {type:"drag_fill",s:"Die {1} bekommt immer gute {2} in jedem {3}.",blanks:{"1":"Schülerin","2":"Noten","3":"Fach"},pool:["Schülerin","Noten","Fach","Seite","Studentin"],hint:"A school student gets good grades in every subject.",sSrc:"The female student always gets good grades in every subject."},
-{type:"match",pairs:[{trg:"aktuell",src:"current"},{trg:"echt",src:"real / genuine"},{trg:"eigentlich",src:"actually"},{trg:"die Note",src:"grade"},{trg:"die Tasse",src:"cup"}]},
-{type:"story",speaker:"narrator",mood:"warm",art:"de-stairwell-night",trg:"Verumius öffnet seine Wohnungstür. Er hört Hildi oben lachen. Er hört den Fernseher des Nachbarn. Er hört die Stadt. Er gehört hierher.",src:"Verumius opens his apartment door. He hears Hildi laughing upstairs. He hears the neighbor's television. He hears the city. He belongs here."}
-]},
+{type:"match",pairs:[{trg:"aktuell",src:"current"},{trg:"echt",src:"real / genuine"},{trg:"eigentlich",src:"actually"},{trg:"die Note",src:"grade"},{trg:"die Tasse",src:"cup"}]}]},
 
 {id:"deu_r12l14",title:"Die große Prüfung",icon:"✅",xp:30,board:true,steps:[
 {type:"intro",title:"Die große Prüfung",desc:"Six months in Germany. Six units of grammar. Twenty-five constructs. This is the A2 capstone quiz. No new vocabulary, no hints from Hildi. Just you and the language.",goals:["Test ALL 25 A2 grammar constructs","Combine multiple constructs in single sentences","Prove you are ready for B1"]},
-{type:"story",speaker:"narrator",mood:"tense",art:"de-buergeramt-cactus",trg:"Bürgeramt. Letzter Besuch. KD sitzt hinter ihrem Schreibtisch. Der Kaktus auf dem Fensterbrett hat eine winzige Blüte. 'Sie brauchen heute nichts', sagt KD. 'Ich brauche etwas von Ihnen. Unterschreiben Sie hier.' Es ist ein Zeugnis. A2 bestanden.",src:"Buergeramt. Last visit. KD sits behind her desk. The cactus on the windowsill has a tiny blossom. 'You don't need anything today,' says KD. 'I need something from you. Sign here.' It is a certificate. A2 passed."},
-{type:"story",speaker:"kd",mood:"dry",trg:"Der Kaktus. Er hat geblüht. Zum ersten Mal seit ich hier arbeite. Vielleicht liegt es am Frühling. Vielleicht auch nicht.",src:"The cactus. It bloomed. For the first time since I have been working here. Maybe it is the spring. Maybe not."},
 
 // 1. Perfekt haben + subordinate word order (multi)
 {type:"fb",s:"Ich glaube, dass er das Buch schon {1} hat.",a:["gelesen"],opts:["gelesen","lesen","liest","las"],hint:"Perfekt in a dass-clause: the auxiliary goes to the very end.",sSrc:"I believe that he has already read the book."},
@@ -745,15 +719,11 @@ const UNIT_12 =
 {type:"mc",q:"Hildi says to Verumius: 'Leg ___ Mantel auf ___ Stuhl!' Which pair is correct?",opts:["deinen ... den","deinem ... dem","dein ... der","deiner ... dem"],ans:"deinen ... den",hint:"Legen is movement (accusative for both the object and the Wechselpräposition)."},
 
 // 28. Grand finale: ob + reflexive + comparative + Perfekt (quad construct)
-{type:"drag_fill",s:"Verumius fragt sich, ob er {1} schneller verbessert {2} als {3} anderen Studenten.",blanks:{"1":"sich","2":"habe","3":"die"},pool:["sich","mir","mich","habe","bin","hat","die","den","der"],hint:"Sich verbessern uses the acc reflexive pronoun. In Perfekt, the auxiliary matches the subject. Plural article for comparison.",sSrc:"Verumius wonders whether he has improved himself faster than the other students."},
-{type:"story",speaker:"verumius",mood:"confident",art:"de-buergeramt-exit",trg:"Ich gehe durch die Tür. Der Kaktus hat geblüht. KD hat gelacht. Und ich habe bestanden. Alles gleichzeitig. Berlin, du bist verrückt. Ich mag dich.",src:"I walk through the door. The cactus bloomed. KD laughed. And I passed. All at the same time. Berlin, you are crazy. I like you."}
-]}
+{type:"drag_fill",s:"Verumius fragt sich, ob er {1} schneller verbessert {2} als {3} anderen Studenten.",blanks:{"1":"sich","2":"habe","3":"die"},pool:["sich","mir","mich","habe","bin","hat","die","den","der"],hint:"Sich verbessern uses the acc reflexive pronoun. In Perfekt, the auxiliary matches the subject. Plural article for comparison.",sSrc:"Verumius wonders whether he has improved himself faster than the other students."}]}
 ,
 
 {id:"deu_r12l15",title:"Ich will bleiben",icon:"🎉",xp:20,board:true,steps:[
 {type:"intro",title:"Ich will bleiben",desc:"Six months in Germany. Group chat celebration. Verumius has decided: he wants to stay. Time to learn the final vocabulary batch.",goals:["Personality and opinion adjectives","Essential adverbs and particles","The A2 finale: bridge to B1"]},
-{type:"story",speaker:"narrator",mood:"happy",art:"de-couch-phone",trg:"Verumius sitzt auf dem Sofa. Das Handy leuchtet. Lukas: 'Sechs Monate! Wahnsinn!' Mia: 'Du bist jetzt fast ein Berliner.' Yilmaz: 'Ich bin stolz auf dich.' Unter der Tür: ein Zettel von Hildi. 'Gut gemacht. H.'",src:"Verumius sits on the sofa. The phone glows. Lukas: 'Six months! Crazy!' Mia: 'You are almost a Berliner now.' Yilmaz: 'I am proud of you.' Under the door: a note from Hildi. 'Well done. H.'"},
-{type:"story",speaker:"lukas",mood:"excited",art:"de-phone-chat",trg:"Alter, erinnerst du dich an den ersten Tag? Du hast den falschen Zug genommen und mich um drei Uhr morgens angerufen. Und jetzt? Jetzt kennst du Berlin besser als ich!",src:"Dude, do you remember the first day? You took the wrong train and called me at three in the morning. And now? Now you know Berlin better than I do!"},
 {type:"teach",trg:"freundlich",
   pos:"adj",
   gender:null,src:"friendly",note:"Freund (friend) + -lich. Ein freundlicher Mensch.",example:"A: Die Leute hier sind sehr freundlich.\nB: Ja, besonders die Nachbarn.",exampleSrc:"A: The people here are very friendly.\nB: Yes, especially the neighbors.",funFact:"Freundlich comes from Freund (friend). The -lich suffix turns nouns into adjectives, like English -ly."},
@@ -833,6 +803,7 @@ const UNIT_12 =
 {type:"teach",trg:"klappen",
   pos:"verb",
   gender:null,src:"to work out / to succeed",example:"A: Hat alles geklappt?\nB: Ja, es hat super geklappt!\nA: Das freut mich!",exampleSrc:"A: Did everything work out?\nB: Yes, it worked out great!\nA: I am glad!",note:"Regular: es klappt. Very common in everyday speech. 'Hat geklappt!' = It worked!",funFact:"'Klappt's?' is a casual way to ask 'Is it working?' Used constantly in offices and kitchens."},
+{type:"match",pairs:[{trg:"die Zitrone",src:"the lemon"},{trg:"sich erinnern",src:"to remember"},{trg:"erreichen",src:"to reach / to achieve"},{trg:"klappen",src:"to work out / to succeed"}]},
 {type:"teach",trg:"kontrollieren",
   pos:"verb",
   gender:null,src:"to check / to control",example:"A: Kontrollierst du bitte die Liste?\nB: Ja, ich kontrolliere sie sofort.",exampleSrc:"A: Can you check the list?\nB: Yes, I will check it right away.",note:"Regular: ich kontrolliere. From French 'contrôler.' Used for checking documents, tickets, etc.",funFact:"Ticket controllers (Kontrolleure) on German trains and buses are famous for their thoroughness."},
@@ -843,8 +814,6 @@ const UNIT_12 =
 {type:"fb",s:"Wie viel Geld {1} du pro Monat aus?",a:["gibst"],opts:["gibst","gehst","nimmst","sparst"],hint:"Which form of the separable verb 'ausgeben' fits the du-form?",sSrc:"How much money do you spend per month?"},
 {type:"mc",q:"'Erinnerst du dich an den ersten Tag?' What does 'sich erinnern' mean?",opts:["to forget","to remember","to arrive","to celebrate"],ans:"to remember",hint:"'Sich erinnern an' is reflexive. Verumius is recalling something from the past. What mental action is that?"},
 {type:"match",pairs:[{trg:"sich erinnern",src:"to remember"},{trg:"erreichen",src:"to achieve"},{trg:"klappen",src:"to work out"},{trg:"ausgeben",src:"to spend"},{trg:"einige",src:"some"},{trg:"überall",src:"everywhere"},{trg:"kontrollieren",src:"to check"},{trg:"zum Beispiel",src:"for example"}]},
-{type:"story",speaker:"mia",mood:"sincere",art:"de-phone-mia",trg:"Weißt du, was mich am meisten beeindruckt? Nicht dein Deutsch. Sondern dass du geblieben bist. Dass du es jeden Tag wieder versucht hast. Das ist echte Stärke.",src:"You know what impresses me the most? Not your German. But that you stayed. That you tried again every day. That is real strength."},
-{type:"story",speaker:"narrator",mood:"happy",art:"de-couch-night",trg:"Verumius legt das Handy hin. Sechs Monate. Eine Wohnung. Freunde. Eine Sprache, die langsam seine wird. Er denkt an die Ankunft am Flughafen. Den falschen Zug. Die 14-seitige Hausordnung. Den Müll. Den Arzt. Den Lauftreff. Die Deutsche Bahn. Den Glühwein. Und jetzt: KD hat gelacht. Alles ist möglich. Er will bleiben.",src:"Verumius puts down the phone. Six months. An apartment. Friends. A language that is slowly becoming his. He thinks about arriving at the airport. The wrong train. The 14-page house rules. The trash. The doctor. The running club. Deutsche Bahn. The Glühwein. And now: KD laughed. Anything is possible. He wants to stay."},
 {type:"tip",title:"A2 Complete: Verumius Belongs",text:"Unit 12 is the end of A2.\n\nVerumius can now:\n1. Talk about the past (Perfekt, Prateritum modals)\n2. Express opinions (Ich denke, dass...)\n3. Compare things (besser als, am besten)\n4. Describe people and objects (adjective declension)\n5. Navigate German bureaucracy\n6. Have real conversations with friends\n\nBut A2 is just daily communication.\nB1 is where adventure begins.\n\n'Ich will bleiben. Das bedeutet: einen Job.'",deepDive:"A2 covered 612 Goethe words and 25 grammar constructs. Verumius has grown from tourist to resident. The next challenge: professional German, job applications, and deeper cultural integration."},
 {type:"mc",q:"What has Verumius decided at the end of this chapter?",opts:["He wants to go home","He wants to move to Munich","He wants to stay in Germany","He wants to become a teacher"],ans:"He wants to stay in Germany",hint:"'Ich will bleiben.' The verb 'bleiben' is key. Think about what this requires."},{type:"fb",s:"Meine Großmutter kann sich noch gut an den Krieg {1}.",a:"erinnern",opts:["erinnern","erreichen","klappen","kontrollieren"],hint:"Which reflexive verb means to recall a memory?"},{type:"mc",q:"Was ist ein Ehepartner?",opts:["a colleague","a neighbor","a friend","a spouse"],ans:"a spouse",hint:"This word combines Ehe (marriage) with Partner."},
 {type:"mc",q:"Möchtest du ___ im Tee?",opts:["Zitrone","Tasse","Geldbörse","Erfahrung"],ans:"Zitrone",hint:"A sour yellow fruit often added to hot drinks."}

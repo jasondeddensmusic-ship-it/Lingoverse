@@ -40,7 +40,7 @@ const LESSON_8 = {
     // --- Quiz block 1 ---
     {type:"mc",
      q:"한국의 초등학교는 몇 학년까지 있어요?",
-     opts:["4학년","5학년","6학년","3학년"],
+     opts:["6학년","5학년","4학년","3학년"],
      ans:"6학년",
      hint:"This is the first level of schooling. It runs from grade one through the last single-digit grade before seven."},
 

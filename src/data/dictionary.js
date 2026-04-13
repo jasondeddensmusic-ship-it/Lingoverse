@@ -7,12 +7,12 @@
 //   - Clickable word dictionary (lookupWord)
 
 import { ARTICLE_SYSTEMS } from './vocabulary.js';
-import dutchUnits from './units-dutch.js';
-import koreanUnits from './units-korean.js';
+import dutchUnits from './units-dutch-v2.js';
+import koreanUnits from './units-korean-v2.js';
 import germanUnits from './units-german.js';
 import germanV2Units from './units-german-v2.js';
-import frenchUnits from './units-french.js';
-import spanishUnits from './units-spanish.js';
+import frenchUnits from './units-french-v2.js';
+import spanishUnits from './units-spanish-v2.js';
 import otherUnits from './units-other.js';
 
 // Function word lists (Source #1, highest priority for POS accuracy)

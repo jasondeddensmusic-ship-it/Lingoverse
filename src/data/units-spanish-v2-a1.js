@@ -1,0 +1,10 @@
+import UNIT_1 from './spanish-v2/unit-01.js';
+import UNIT_2 from './spanish-v2/unit-02.js';
+import UNIT_3 from './spanish-v2/unit-03.js';
+import UNIT_4 from './spanish-v2/unit-04.js';
+import UNIT_5 from './spanish-v2/unit-05.js';
+import UNIT_6 from './spanish-v2/unit-06.js';
+import UNIT_7 from './spanish-v2/unit-07.js';
+import UNIT_8 from './spanish-v2/unit-08.js';
+
+export default [UNIT_1, UNIT_2, UNIT_3, UNIT_4, UNIT_5, UNIT_6, UNIT_7, UNIT_8];
