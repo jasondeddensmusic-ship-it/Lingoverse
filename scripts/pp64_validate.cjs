@@ -22,27 +22,73 @@ const fs   = require('fs');
 const path = require('path');
 const vm   = require('vm');
 
-const BASE = path.join(__dirname, '..', 'src', 'data', 'german-v2');
-const OUT  = path.join(__dirname, '_pp64_results_v2.txt');
+// Accept --lang parameter (default: german)
+const langArg = process.argv.find(a => a.startsWith('--lang='));
+const LANG = langArg ? langArg.split('=')[1] : 'german';
+const BASE = path.join(__dirname, '..', 'src', 'data', `${LANG}-v2`);
+const OUT  = path.join(__dirname, `_pp64_results_${LANG}.txt`);
 
-// ─── Exempt list ─────────────────────────────────────────────────────────────
-const EXEMPT = new Set([
-  // Articles
-  'der','die','das','den','dem','des','ein','eine','einen','einem','einer','eines',
-  // Pronouns
-  'ich','du','er','sie','es','wir','ihr','mich','dich','sich','uns','euch',
-  'mir','dir','ihm','ihnen','man',
-  // Conjunctions / particles
-  'und','oder','aber','denn','doch','auch','noch','schon','mal','ja','nein',
-  'oh','so','da','wo','ab','ob','nun','halt','bloß','eben','wohl',
-  // Short prepositions
-  'zu','in','an','auf','um','am','im','vom','zum','zur','bei','mit','von',
-  'aus','nach','seit','bis','für','über','unter','vor','hinter','neben','zwischen',
-  // Common adverbs that appear everywhere
-  'sehr','nicht','kein','keine','keinen','keinem','keiner',
-  // Formal address forms that aren't vocab
-  'sie',
-]);
+if (!fs.existsSync(BASE)) {
+  console.error(`ERROR: Directory not found: ${BASE}`);
+  process.exit(1);
+}
+
+// Auto-detect unit count from directory
+const unitFiles = fs.readdirSync(BASE).filter(f => /^unit-\d+\.js$/.test(f)).sort();
+const UNIT_COUNT = unitFiles.length;
+if (UNIT_COUNT === 0) {
+  console.error(`ERROR: No unit files found in ${BASE}`);
+  process.exit(1);
+}
+console.log(`PP64 Validator — ${LANG} v2 (${UNIT_COUNT} units)\n`);
+
+// ─── Exempt lists per language ────────────────────────────────────────────────
+const EXEMPT_LISTS = {
+  german: [
+    'der','die','das','den','dem','des','ein','eine','einen','einem','einer','eines',
+    'ich','du','er','sie','es','wir','ihr','mich','dich','sich','uns','euch',
+    'mir','dir','ihm','ihnen','man',
+    'und','oder','aber','denn','doch','auch','noch','schon','mal','ja','nein',
+    'oh','so','da','wo','ab','ob','nun','halt','bloß','eben','wohl',
+    'zu','in','an','auf','um','am','im','vom','zum','zur','bei','mit','von',
+    'aus','nach','seit','bis','für','über','unter','vor','hinter','neben','zwischen',
+    'sehr','nicht','kein','keine','keinen','keinem','keiner','sie',
+  ],
+  korean: [
+    '은','는','이','가','을','를','의','에','에서','도','와','과','로','으로',
+    '부터','까지','한테','에게','께','서','요','네','죠','지','고',
+    '하다','이다','있다','없다','되다','않다',
+    '그','이','저','것','수','때','더','안','못','잘','좀',
+  ],
+  dutch: [
+    'de','het','een',
+    'ik','jij','je','hij','zij','ze','het','wij','we','jullie','u',
+    'mij','me','hem','haar','ons','hen','hun',
+    'en','of','maar','want','dus','dat','als','om','ook','nog','al','wel','niet',
+    'ja','nee','er','zo','dan','toch','eens','even','hoor',
+    'in','op','aan','van','met','voor','naar','bij','uit','tot','over','door',
+    'om','na','te','tegen','onder','tussen',
+    'niet','geen','zeer','heel','erg',
+  ],
+  french: [
+    'le','la','les','un','une','des','du','de','au','aux',
+    'je','tu','il','elle','on','nous','vous','ils','elles',
+    'me','te','se','lui','leur','en','y','moi','toi','soi',
+    'et','ou','mais','donc','car','ni','que','qui','ne','pas',
+    'oui','non','si','aussi','encore','bien','très','plus','moins',
+    'à','de','en','dans','sur','sous','avec','pour','par','sans','vers','chez',
+    'ce','cette','ces','est','sont','fait',
+  ],
+  spanish: [
+    'el','la','los','las','un','una','unos','unas','del','al',
+    'yo','tú','él','ella','usted','nosotros','vosotros','ellos','ellas','ustedes',
+    'me','te','se','le','les','lo','la','nos','os',
+    'y','o','pero','porque','que','si','no','sí','también','ya','muy','más','menos',
+    'a','de','en','con','por','para','sin','sobre','entre','hasta','desde','hacia',
+    'es','son','está','hay','este','esta','ese','esa',
+  ],
+};
+const EXEMPT = new Set(EXEMPT_LISTS[LANG] || EXEMPT_LISTS.german);
 
 // ─── Load unit file ───────────────────────────────────────────────────────────
 function loadUnit(n) {
@@ -140,7 +186,14 @@ function canonical(trg) {
   const stems  = contentTokens.map(t => t.slice(0, Math.max(4, Math.floor(t.length * 0.65))));
 
   // Root words: remove common German prefixes (ver-, be-, ge-, er-, ent-, hin-, her-, vor-, nach-, auf-, aus-)
-  const PREFIXES = ['ver','be','ge','er','ent','hin','her','vor','nach','auf','aus','ab','un','über','um','ein','an'];
+  const PREFIX_LISTS = {
+    german: ['ver','be','ge','er','ent','hin','her','vor','nach','auf','aus','ab','un','über','um','ein','an'],
+    dutch: ['ver','be','ge','her','ont','voor','uit','aan','op','af','in','om','mee','door','over'],
+    french: ['re','dé','pré','sur','sous','en','em','im','in','mal','mé','trans'],
+    spanish: ['re','des','pre','sobre','sub','en','em','im','in','mal','trans'],
+    korean: [], // Korean uses suffixes/particles, not prefixes
+  };
+  const PREFIXES = PREFIX_LISTS[LANG] || PREFIX_LISTS.german;
   const roots = [];
   for (const t of contentTokens) {
     if (t.length >= 6) {
@@ -302,7 +355,7 @@ function main() {
   let grandTested  = 0;
   let grandUntested = 0;
 
-  for (let n = 1; n <= 36; n++) {
+  for (let n = 1; n <= UNIT_COUNT; n++) {
     const unit = loadUnit(n);
     if (!unit) { log(`=== UNIT ${String(n).padStart(2,'0')} === (LOAD ERROR)`); continue; }
 

@@ -1,3 +1,6 @@
+// Korean V2 B2 Units (21-30)
+// Re-exports from per-unit files
+
 import UNIT_21 from './korean-v2/unit-21.js';
 import UNIT_22 from './korean-v2/unit-22.js';
 import UNIT_23 from './korean-v2/unit-23.js';
@@ -9,4 +12,17 @@ import UNIT_28 from './korean-v2/unit-28.js';
 import UNIT_29 from './korean-v2/unit-29.js';
 import UNIT_30 from './korean-v2/unit-30.js';
 
-export default [UNIT_21, UNIT_22, UNIT_23, UNIT_24, UNIT_25, UNIT_26, UNIT_27, UNIT_28, UNIT_29, UNIT_30];
+const KOREAN_V2_B2 = [
+  UNIT_21,
+  UNIT_22,
+  UNIT_23,
+  UNIT_24,
+  UNIT_25,
+  UNIT_26,
+  UNIT_27,
+  UNIT_28,
+  UNIT_29,
+  UNIT_30,
+];
+
+export default KOREAN_V2_B2;

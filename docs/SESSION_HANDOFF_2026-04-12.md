@@ -1,236 +1,128 @@
-# Session Handoff — 2026-04-12
+# Session Handoff — 2026-04-12 (V2 Rehaul Infrastructure + Korean Enrichment)
 
-## What Was Done This Session
+## What Was Done
 
-### Format Migration (DONE — pushed to main)
-All 4 V1 languages (Dutch, French, Spanish, Korean) got V2 **format** upgrades:
-- Field renames: `nl`→`trg`, `en`→`src`, `exampleEn`→`exampleSrc`
-- Per-unit file splits: `{lang}-v2/unit-NN.js` (30 files each)
-- Per-level wrapper files + main re-export
-- POS tags assigned heuristically (verb, noun, adj, etc.)
-- Gender assigned (Dutch de/het, French m/f, Spanish m/f, Korean n/a)
-- `funFact` field generated (cognate connections, etymology, POS-contextual)
-- `kind`, `cognate`, `fRef` V1 fields removed
-- Dutch: 347 cognate objects → funFact text + 22 compound breakdowns
-- Korean: `hanja` and `deepDive` fields preserved
-- PP8 hint leak fix: 1,755 leaks auto-fixed
-- PP43 density: 3 Korean over-dense lessons trimmed
-- Imports updated in `utils.js` and `dictionary.js`
+### 1. Multi-Language Validator Infrastructure
+- `scripts/pp8_validate.cjs` — generalized with `--lang=` parameter, auto-detects unit count, language-aware word extraction (Korean Hangul support), accent-aware Latin matching for French/Spanish
+- `scripts/pp64_validate.cjs` — generalized with `--lang=` parameter, per-language exempt word lists (Korean particles, Dutch de/het, French articles, Spanish articles), per-language compound prefix lists
+- Both validators default to `--lang=german` for backward compatibility
+- Verified: German still PASSES both validators (PP8: 0 violations, PP64: 99.9%)
 
-### Engine Fixes (DONE — pushed to main)
-- `_origTrg` renderer now parses `COMPOUND:` from `st.note` → chip bubbles
-- `_origTrg` renderer now shows `st.funFact` in candy Fun Fact bubble
-- German v2: 125 compound breakdowns added to `note` field
-- AR bidi punctuation: 170 fixes
+### 2. Korean V2 Concept Catalogue
+- `docs/korean/KOREAN_V2_CONCEPT_CATALOGUE.md` — PP56-compliant unit count analysis
+- 40 units total (6 A1 + 7 A2 + 12 B1 + 15 B2), concept-driven from:
+  - 5,670 CEFR vocabulary words (from `src/data/cefr-reference/korean.js`)
+  - 135 grammar constructs (113 taught, ~50 new needed for B2)
+  - 84 communicative functions (A1:20, A2:20, B1:22, B2:22)
+- TOPIK gap: 3,273 new teach cards needed (316 A-level + 887 B1 + ~2,000 B2)
+- Korean FSI Category IV justifies more units than German (40 vs 36)
 
-### What Was NOT Done — The Real V2 Rehaul
+### 3. Korean POS Tagging (PP59 — COMPLETE)
+- `scripts/korean_pos_autotag.cjs` — auto-tagger using kind field + Korean morphology rules
+- All 1,328 teach cards tagged: noun 680, verb 236, part 222, intj 120, pron 38, aux 16, num 9, adv 6, adj 1
+- Korean `gender:null` on all cards (no grammatical gender)
+- Build PASSES
 
-**CRITICAL: The format migration is only ~10% of a true V2 upgrade.** German v2 went from ~1,297 to 5,148 teach cards through a multi-phase content rehaul. The other 4 languages still have their original V1 content in V2 wrappers. Here's what each language needs:
+### 4. Korean FunFact Enrichment (PP — COMPLETE, quality mixed)
+- `scripts/korean_funfact_autogen.cjs` — 6-tier rule system
+- All 1,336 teach cards have funFact: hanja etymology (472), grammar patterns (283), loanwords (32), cultural (14), compounds (35), fallback (500)
+- Quality: hanja etymologies excellent, fallback tier needs refinement in future pass
+- Build PASSES
 
----
+### 5. Korean Per-Unit File Split (COMPLETE)
+- `scripts/split_korean_units.cjs` — splits 9,153-line monolith into 30 per-unit files
+- `src/data/korean-v2/unit-01.js` through `unit-30.js` (~250-385 lines each)
+- Wrapper files: `units-korean-v2.js`, `units-korean-v2-a1.js` through `b2.js`
+- Wired into `src/utils.js` UNITS assembly (201 modules now, up from 166)
+- All files have `track:"v2"`, `srcLang:"en"`
+- V1 monolith (`units-korean.js`) untouched — both v1 and v2 coexist
+- Build PASSES
 
-## The Complete V2 Rehaul Pipeline (Per Language)
-
-Reference: German v2 took ~3 weeks of intensive agent work. See `CLAUDE.md` section "German v2 Rehaul Progress" for the full history.
-
-### Phase 0: Official Word Lists + Grammar Inventory
-**Goal:** Establish what MUST be taught.
-
-1. **Obtain official exam word lists:**
-   - Dutch: NT2 Staatsexamen word list (A2-B2), Inburgering vocabulary
-   - French: DELF/DALF word lists (A1-B2), FLE référentiel
-   - Spanish: DELE word lists (A1-B2), Plan Curricular del Instituto Cervantes (PCIC)
-   - Korean: TOPIK word lists (levels 1-4), already partially done (see `docs/korean/`)
-
-2. **Grammar construct inventory per CEFR level:**
-   - List ALL grammar constructs required at each level
-   - Map each to existing units or mark as gap
-   - German had 118 constructs → all mapped
-
-3. **V1 salvage analysis:**
-   - Audit existing V1 content for reusable teach cards, verb tables, tip cards
-   - Don't rebuild from scratch — Rule F.2: "Salvage everything, throw away nothing"
-
-### Phase 1: Curriculum Design
-**Goal:** Design the unit structure before writing content.
-
-1. **CEFR distribution:** Decide unit count per level based on concept catalogue (PP56)
-   - German: 6-6-12-12 (A1-A2-B1-B2 = 36 units)
-   - Other languages may need different distributions based on FSI difficulty
-
-2. **Concept-to-unit mapping:** Each unit covers specific vocab themes + grammar constructs
-   - No cramming (PP54), no padding
-   - B1+B2 ≥ A1+A2 units (PP51)
-
-3. **Story arc design:** (optional but recommended)
-   - Verumius protagonist adapted per language culture
-   - Scene breakdowns per unit
-
-### Phase 2: Content Build (A1 → A2 → B1 → B2)
-**Goal:** Write the actual teach cards, quiz steps, tips, verb tables.
-
-**Per CEFR level, in order:**
-
-1. **Vocab mapping:** Map every official word list entry to a unit + lesson
-2. **Teach card writing:** Every word gets: `trg`, `src`, `pos`, `gender`, `note` (~100 chars), `example` (A/B dialogue), `exampleSrc`, `funFact` (etymology/cultural)
-3. **Grammar tips:** Explain constructs at the right level
-4. **Verb tables:** Conjugation grids for key verbs
-5. **Quiz interleaving:** mc/fb/match/drag_fill quizzes between teach card groups
-   - Max 6 consecutive teach cards before a quiz
-   - Every teach card must be tested (PP64)
-6. **Lesson design:** Each lesson 15-32 steps, intro + teach + quiz + review
-7. **Density enforcement:** PP43 during build, not after
-
-### Phase 3: Validation
-**Goal:** Zero violations across all checks.
-
-Run in this order (PP53 audit checklist):
-1. ✅ PP43 density (max 32 steps per lesson)
-2. ✅ PP8 anti-leak (all 5 types: visual, script, hint, pattern, position)
-3. PP52 teach-before-use (every quiz word traces to prior teach card)
-4. PP48 step types (fb = single blank, drag_fill = multi-blank)
-5. PP59 pos/gender on every teach card
-6. PP61 metalanguage in source language (English for EN-source courses)
-7. PP64 teach-then-test (every teach card quizzed)
-8. PP55 vocab completeness (every official exam word has a teach card)
-9. PP57 grammar completeness (every grammar construct taught + practiced)
-10. PP22c no em-dashes
-
-### Phase 4: Post-Build Polish
-- Quiz translations (sSrc fields on fb/drag_fill)
-- Compound breakdowns for compound-heavy words
-- Story cards (if story system enabled)
+### 6. Migration Script
+- `scripts/migrate_v1_to_v2.cjs` — field rename utility (nl→trg, en→src) for all v1 languages
+- NOT yet applied — `_normStep()` in utils.js handles both formats transparently
+- Available when mechanical rename is needed
 
 ---
 
-## Current State Per Language
+## Validator Status
 
-### Dutch (30 units, 1,233 teach cards)
-- **Format:** V2 ✅ (per-unit files, POS, gender, funFact)
-- **Official word list coverage:** NOT CHECKED. NT2/Inburgering word lists not mapped.
-- **Grammar constructs:** NOT AUDITED. Dutch grammar module exists (`src/data/grammar/dutch.js`) but is MOCK quality (see memory: `feedback_dutch_grammar_mock.md`).
-- **Estimated gap:** ~2,000-3,000 teach cards need to be ADDED to reach German-level completeness.
-- **Estimated work:** Major. Dutch is owner's native language — quality bar is highest.
-- **Key note:** 347 cognate connections preserved from V1. These are valuable.
-
-### French (30 units, 1,092 teach cards)
-- **Format:** V2 ✅
-- **Official word list coverage:** NOT CHECKED. DELF/DALF lists not mapped.
-- **Grammar constructs:** NOT AUDITED. No French grammar module exists.
-- **Estimated gap:** ~2,500-3,500 teach cards needed.
-- **Key note:** French is the largest V1 file (2.22 MB). Content is decent but missing B1/B2 depth.
-
-### Spanish (30 units, 1,262 teach cards)
-- **Format:** V2 ✅
-- **Official word list coverage:** NOT CHECKED. DELE/PCIC lists not mapped.
-- **Grammar constructs:** NOT AUDITED. No Spanish grammar module exists.
-- **Estimated gap:** ~2,500-3,500 teach cards needed.
-- **Key note:** Similar structure to French. Good A1/A2, thin B1/B2.
-
-### Korean (30 units, 1,266 teach cards)
-- **Format:** V2 ✅
-- **Official word list coverage:** PARTIALLY DONE. TOPIK coverage report exists at `docs/korean/TOPIK_COVERAGE.md` (if it exists — check).
-- **Grammar constructs:** NOT FULLY AUDITED. Korean has complex honorific/politeness system.
-- **Estimated gap:** ~2,000-3,000 teach cards needed.
-- **Key note:** Most audited V1 language. Has hanja field (18 cards), rich deepDive content (523 cards). Korean conjugation engine exists (`src/data/korean-conjugation.js`).
-
-### German v2 (36 units, 5,148 teach cards) — THE TEMPLATE
-- **Format:** V2 ✅ PERFECT
-- **Word list coverage:** PP55 99.8% (Goethe-Wortliste 3,303 lemmas)
-- **Grammar constructs:** PP57 PASS (118 constructs, all taught + practiced)
-- **Validation:** ALL PASS — PP8 (0/3,482), PP43 (0), PP48 (0), PP52 (PASS), PP59 (PASS), PP61 (PASS), PP64 (99.9%)
-- **Story:** 36 episodes, 144 scene breakdowns
-- **This is the gold standard.** Every other language should match this quality.
+| Check | German v2 | Korean v2 |
+|-------|-----------|-----------|
+| Build | **PASS** | **PASS** |
+| PP8 | **PASS** (0/3,482) | **FAIL** (824 violations, pre-existing from v1) |
+| PP59 pos/gender | **PASS** | **PASS** (1,328 cards tagged) |
+| PP64 | **99.9%** | Not yet run (needs validation) |
 
 ---
 
-## Agent Strategy for V2 Rehaul
+## Files Changed (73 total)
 
-### Rule B.7: MAX 4 agents at a time. NEVER MORE.
-### Rule B.14: Sonnet for validation + translation. Opus ONLY for creative content.
-### Rule B.8: Every content agent MUST include `docs/agents/AGENT_CONTENT_RULES.md` in full.
-### Rule C.3: Sequential content + parallel validators.
-
-### Recommended Approach: One Language at a Time
-
-1. **Start with Dutch** (owner's native language, highest priority)
-2. Then French (Romance template)
-3. Then Spanish (shares Romance structure with French)
-4. Korean last (most different, already most audited)
-
-### Per-Language Agent Workflow
-
-**Step 1: Word list acquisition** (1 research agent)
-- Fetch official CEFR word lists for the target language
-- Cross-reference against existing teach cards
-- Report gaps: words present in exam list but missing from curriculum
-
-**Step 2: Grammar inventory** (1 research agent)
-- List all grammar constructs per CEFR level
-- Cross-reference against existing tip cards and verb tables
-- Report gaps: constructs not yet taught
-
-**Step 3: Curriculum redesign** (main session)
-- Decide unit count and distribution
-- Map words and grammar to units
-- Design lesson blueprints
-
-**Step 4: Content build** (2 Opus agents, sequential, 1 unit at a time)
-- Agent 1: Write new teach cards + quizzes for gaps in one unit
-- Agent 2: Review + validate that unit
-- Rule B.4: Max 20 new vocab words per agent lesson
-
-**Step 5: Validation** (2 Sonnet validators, parallel)
-- PP8 scan + PP52 + PP64 + PP43 + PP48
-
-**Step 6: Push to main** after each CEFR level passes validation
+| Category | Files | Changes |
+|----------|-------|---------|
+| Validators | 2 | Generalized for multi-language |
+| Scripts | 4 | POS tagger, funFact generator, unit splitter, migration tool |
+| Korean v2 units | 30 | Per-unit files from monolith split |
+| Korean v2 wrappers | 5 | Per-level imports + main re-export |
+| Utils | 1 | Korean v2 wired into UNITS assembly |
+| Docs | 2 | Concept catalogue + this handoff |
 
 ---
 
-## Scripts Available
+## Next Session Priorities
 
-| Script | Purpose |
-|--------|---------|
-| `scripts/v2_upgrade.cjs` | Format migration (nl→trg, split files). Already run. |
-| `scripts/enrich_funfacts.cjs` | Generate funFact for teach cards missing them. |
-| `scripts/enrich_german_compounds.cjs` | Add COMPOUND breakdowns to German nouns. |
-| `scripts/enrich_dutch_compounds.cjs` | Add COMPOUND breakdowns to Dutch nouns. |
-| `scripts/fix_compound_placement.cjs` | Move COMPOUND from funFact to note field. |
-| `scripts/fix_ar_bidi_punct.cjs` | Fix Arabic RTL punctuation. |
-| `scripts/validate_all.cjs` | Universal PP8/PP43/PP48/PP64 validator for any language. |
-| `scripts/pp8_validate.cjs` | German-specific PP8 validator (more thorough). |
-| `scripts/pp64_validate.cjs` | German-specific PP64 validator. |
+### Korean Phase 3: New Content Build
+V1 enrichment + A2 gap content DONE. B1/B2 gap content is next.
+
+1. ~~**A2 gap content**~~ — **DONE.** 316 new teach cards in 18 lessons (3 units: 31-33). All TOPIK A words covered. Zero new PP8 violations.
+
+2. **B1 gap content** — **1,118 missing B1 CEFR words** (noun 560, verb 325, adv 108, adj 74)
+   - ~56 lessons needed at 20 words/lesson
+   - High-frequency first: 가격, 가능하다, 감정, 개발하다, 결정, 경험, 계획, 관계, 교육, etc.
+   - Deploy 4 Opus agents at a time, 5 lessons per agent batch = ~3 agent rounds
+   - Target: units 34-39 (6 new B1 units)
+
+3. **B2 expansion** — **~2,000+ missing B2 CEFR words**
+   - Even larger gap. Formal suffix verbs, abstract nouns, academic vocabulary
+   - Deploy in multiple sessions, ~400 words per session
+   - Target: units 40-45+ (variable based on content)
+
+4. **PP8 fix** — 824 pre-existing hint/visual leak violations in units 1-30
+   - Run after new content exists (some fixes needed regardless)
+
+5. **Grammar module** — `src/data/grammar/korean.js`
+   - A1-B2 entries with teacher-board quality
+
+### Korean V2 Current Totals
+| Metric | Count |
+|--------|-------|
+| Units | 41 (30 enriched + 3 A2 gap + 8 B1 gap) |
+| Teach cards | 2,472 (1,336 enriched + 316 A2 + 820 B1) |
+| Lessons (new) | 58 new lessons across 11 new units |
+| Total CEFR target | 5,670 |
+| B1 remaining | ~398 words (1,118 total - 820 done) |
+| B2 remaining | ~2,000 words |
+| Gap remaining | ~2,398 (B1 rest + B2) |
+| Build status | PASS (270 modules) |
+| PP8 (pre-existing) | 824 violations (from v1, needs cleanup) |
+
+### Agent Strategy for Content Build
+- Opus agents for creative content (max 4 at a time, Rule B7)
+- Each agent: 1 unit, ~4K token input budget
+- Each gets: `AGENT_CONTENT_RULES.md` + `FORMAT_TEMPLATE.js` + unit blueprint + TOPIK gap words
+- Agents write to temp files → main session merges + validates
+- Sonnet agents for PP8/PP52/PP64 validation in parallel
+
+### After Korean: Dutch → French → Spanish
+Same pipeline: concept catalogue → V1 enrichment → per-unit split → new content → validation.
+Scripts created this session are reusable for all languages.
 
 ---
 
-## Key Files to Read First
+## Key Decisions Made
 
-1. `CLAUDE.md` — All rules, all pipeline principles, all agent rules
-2. `docs/agents/AGENT_CONTENT_RULES.md` — Mandatory for every content agent
-3. `docs/agents/FORMAT_TEMPLATE.js` — Step type format reference
-4. `docs/vision/VERUMLINGUA_REHAUL_VISION.md` — Platform vision (supersedes CLAUDE.md on conflicts)
-5. This handoff document
-
----
-
-## What the Next Agent Must Do
-
-1. **Read this handoff + CLAUDE.md in full.** No shortcuts.
-2. **Pick one language** (Dutch recommended first).
-3. **Acquire the official word list** for that language's CEFR levels.
-4. **Run a gap analysis** against existing teach cards.
-5. **Design the curriculum expansion** (how many new units, where do new words go).
-6. **Build content systematically** — one CEFR level at a time, push after each.
-7. **Validate everything** with the automated scripts + manual spot checks.
-8. **Repeat for next language.**
-
-This is NOT a one-session job. Each language is ~1-2 full sessions of intensive agent work. German took ~3 weeks. With the pipeline now established, the others should be faster but still substantial.
-
----
-
-## Session Stats
-- Commits pushed: 8
-- Total teach cards across platform: ~9,901 (German 5,148 + Dutch 1,233 + French 1,092 + Spanish 1,262 + Korean 1,266)
-- PP8 fixes applied: 1,755 + 170 (AR bidi)
-- Engine fixes: compound bubble renderer + funFact bubble for V2 cards
-- New scripts: 3 (validate_all.cjs, fix_pp48.cjs, fix_compound_placement.cjs)
+1. **V1 field rename deferred** — `_normStep()` handles both nl/en and trg/src transparently. No need for mechanical rename before enrichment.
+2. **V1 coexistence** — Both v1 monolith and v2 per-unit files load into UNITS simultaneously. V2 has `track:"v2"`, V1 has `track:"v1"`. Engine handles both.
+3. **Unit count = 40** — Concept-driven from TOPIK word lists + grammar inventory + communicative functions. FSI Category IV justifies more than German's 36.
+4. **FunFact quality tradeoff** — Generated first pass covers 100% of cards but ~37% are fallback quality. Better to have the field exist (for card layout) and refine later than block on perfection.
+5. **Reusable tooling** — POS tagger, funFact generator, and unit splitter scripts are parameterizable for Dutch/French/Spanish.

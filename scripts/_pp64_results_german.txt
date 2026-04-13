@@ -1,0 +1,117 @@
+
+=== UNIT 01 ===
+Teach: 173 | Tested: 172 | Untested: 1 | Coverage: 99.4%
+  Untested [deu_r01l5]: "ich / du / er / sie / es" (src: "I / you / he / she / it")
+
+=== UNIT 02 ===
+Teach: 206 | Tested: 206 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 03 ===
+Teach: 149 | Tested: 149 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 04 ===
+Teach: 101 | Tested: 99 | Untested: 2 | Coverage: 98.0%
+  Untested [deu_r4l9b]: "das Ei" (src: "the egg")
+  Untested [deu_r4l9b]: "das Öl" (src: "the oil")
+
+=== UNIT 05 ===
+Teach: 66 | Tested: 66 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 06 ===
+Teach: 212 | Tested: 211 | Untested: 1 | Coverage: 99.5%
+  Untested [deu_r6l15]: "die CD" (src: "the CD")
+
+=== UNIT 07 ===
+Teach: 66 | Tested: 66 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 08 ===
+Teach: 104 | Tested: 104 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 09 ===
+Teach: 122 | Tested: 122 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 10 ===
+Teach: 88 | Tested: 88 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 11 ===
+Teach: 101 | Tested: 101 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 12 ===
+Teach: 165 | Tested: 165 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 13 ===
+Teach: 162 | Tested: 162 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 14 ===
+Teach: 170 | Tested: 170 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 15 ===
+Teach: 160 | Tested: 160 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 16 ===
+Teach: 171 | Tested: 171 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 17 ===
+Teach: 168 | Tested: 168 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 18 ===
+Teach: 131 | Tested: 131 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 19 ===
+Teach: 117 | Tested: 117 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 20 ===
+Teach: 147 | Tested: 147 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 21 ===
+Teach: 124 | Tested: 123 | Untested: 1 | Coverage: 99.2%
+  Untested [deu_r21l6b]: "übrigens" (src: "by the way")
+
+=== UNIT 22 ===
+Teach: 145 | Tested: 145 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 23 ===
+Teach: 205 | Tested: 205 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 24 ===
+Teach: 123 | Tested: 123 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 25 ===
+Teach: 159 | Tested: 159 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 26 ===
+Teach: 153 | Tested: 153 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 27 ===
+Teach: 161 | Tested: 161 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 28 ===
+Teach: 160 | Tested: 160 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 29 ===
+Teach: 161 | Tested: 161 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 30 ===
+Teach: 159 | Tested: 159 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 31 ===
+Teach: 148 | Tested: 148 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 32 ===
+Teach: 140 | Tested: 140 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 33 ===
+Teach: 139 | Tested: 139 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 34 ===
+Teach: 147 | Tested: 147 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 35 ===
+Teach: 136 | Tested: 135 | Untested: 1 | Coverage: 99.3%
+  Untested [deu_r35l7]: "auf diese Weise" (src: "in this way, thus")
+
+=== UNIT 36 ===
+Teach: 109 | Tested: 109 | Untested: 0 | Coverage: 100.0%
+
+────────────────────────────────────────────────────────────
+GRAND TOTAL: 5148 teach | 5142 tested | 6 untested | 99.9% coverage
