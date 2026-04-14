@@ -25,4 +25,9 @@ import UNIT_52 from './french-v2/unit-52.js';
 import UNIT_53 from './french-v2/unit-53.js';
 import UNIT_54 from './french-v2/unit-54.js';
 
-export default [UNIT_25, UNIT_26, UNIT_27, UNIT_28, UNIT_29, UNIT_30, UNIT_39, UNIT_40, UNIT_41, UNIT_42, UNIT_43, UNIT_44, UNIT_45, UNIT_46, UNIT_47, UNIT_48, UNIT_49, UNIT_50, UNIT_51, UNIT_52, UNIT_53, UNIT_54];
+import UNIT_55 from './french-v2/unit-55.js';
+import UNIT_56 from './french-v2/unit-56.js';
+import UNIT_57 from './french-v2/unit-57.js';
+import UNIT_58 from './french-v2/unit-58.js';
+
+export default [UNIT_25, UNIT_26, UNIT_27, UNIT_28, UNIT_29, UNIT_30, UNIT_39, UNIT_40, UNIT_41, UNIT_42, UNIT_43, UNIT_44, UNIT_45, UNIT_46, UNIT_47, UNIT_48, UNIT_49, UNIT_50, UNIT_51, UNIT_52, UNIT_53, UNIT_54, UNIT_55, UNIT_56, UNIT_57, UNIT_58];
