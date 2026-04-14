@@ -143,7 +143,7 @@ export default {n:27,lang:"es",srcLang:"en",track:"v2",title:"La Nominalización
         {type:"mc",q:"___ que la educación temprana mejora los resultados.",opts:["Se ha demostrado","Ha demostrado","Demostró se","Se demostrado ha"],ans:"Se ha demostrado",hint:"Se + auxiliary ha + past participle for established findings."},
         {type:"mc",q:"El artículo ___ en una revista internacional.",opts:["fue publicado","se publicó","publicó fue","fue publicando"],ans:"fue publicado",hint:"Use ser + past participle for a specific publication event."},
         {type:"fb",opts:["recomienda","recomiendan","recomiende","recomendó"],hint:"Impersonal se uses third person singular for recommendations.",s:"Se {1} que los estudiantes lean el texto completo.",a:"recomienda"},
-        {type:"fb",opts:["observa","observan","observó","observando"],hint:"Present tense se pasiva for current observations.",s:"Se {1} que hay una correlación entre las variables.",a:"observa"},
+        {type:"fb",opts:["observa","observan","observó","observando"],hint:"Impersonal se in present tense. The clause after que describes a current finding.",s:"Se {1} que hay una correlación entre las variables.",a:"observa"},
         {type:"mc",q:"Which is the se pasiva form of 'consideran esto importante'?",opts:["Se considera importante","Esto se consideran importante","Se consideran importante esto","Importante se considera"],ans:"Se considera importante",hint:"Se + third person singular for impersonal passive."},
         {type:"match",pairs:[
           {trg:"se considera que",src:"it is considered that"},

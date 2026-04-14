@@ -94,7 +94,7 @@ export default {n:19,lang:"nl",srcLang:"en",track:"v2",title:"Nederland & De Wer
           {trg:"gebakken (past PP)",src:"fried (completed)"},
           {trg:"groeiend (present PP)",src:"growing (ongoing)"}
         ]},
-        {type:"mc",q:"'Een gebakken ei' vs 'een groeiend probleem'. Which uses a past participle?",opts:["Een groeiend probleem","Een gebakken ei","Both","Neither"],ans:"Een gebakken ei",hint:"The past participle of 'bakken' (completed action)"},
+        {type:"mc",q:"'___ ei' vs 'een groeiend probleem'. Which phrase uses a past participle as an adjective?",opts:["Een groeiend probleem","Een gebakken ei","Both","Neither"],ans:"Een gebakken ei",hint:"Think about which verb describes a completed cooking action"},
         {type:"tr",mk:"v2u19_closed_door",dir:"produce"}
   ]},
   {id:"v2u19l5",title:"Samengestelde Woorden",icon:"🔗",xp:15,board:true,steps:[
@@ -115,7 +115,7 @@ export default {n:19,lang:"nl",srcLang:"en",track:"v2",title:"Nederland & De Wer
         {type:"mc",q:"'Het dorpsplein' uses which linking sound?",opts:["-e-","-en-","-s-","No linking sound"],ans:"-s-",hint:"dorp + s + plein"},
         {type:"match",pairs:[{trg:"zon + ne + bril",src:"sunglasses"},{trg:"huis + arts",src:"GP"},{trg:"fiets + en + stalling",src:"bicycle parking"},{trg:"koffie + zet + apparaat",src:"coffee maker"}]},
         {type:"fb",opts:["huisarts","tandarts","zonnebril","fietsenstalling"],hint:"huis + arts = house-doctor",s:"Ik ga morgen naar de ___. (GP)",a:"huisarts"},
-        {type:"mc",q:"A 3-part compound: koffie + zet + apparaat. The article is:",opts:["de (from koffie)","het (from apparaat)","de (from zet)","No article"],ans:"het (from apparaat)",hint:"Last word determines gender: het ___"},
+        {type:"mc",q:"A 3-part compound: koffie + zet + apparaat. The article is:",opts:["de (from koffie)","het (from apparaat)","de (from zet)","No article"],ans:"het (from apparaat)",hint:"In Dutch compounds, the rightmost word's article determines the whole word"},
         {type:"tr",mk:"v2u19_sunglasses",dir:"produce"}
   ]},
   {id:"v2u19l6",title:"Ver-, Be-, Ont-",icon:"📐",xp:20,board:true,steps:[

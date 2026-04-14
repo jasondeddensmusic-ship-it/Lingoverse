@@ -16,7 +16,7 @@ export default {n:24,lang:"nl",srcLang:"en",track:"v2",title:"Academisch Nederla
         {type:"mc",q:"'Het onderzoek toont aan dat...' What is 'onderzoek'?",opts:["the experiment","the research","the theory","the method"],ans:"the research",hint:"Onderzoeken = to ___"},
         {type:"fb",opts:["conclusie","hypothese","methode","theorie"],hint:"The final finding: what did you conclude?",s:"Wat is de ___ van het onderzoek? (conclusion)",a:"conclusie"},
         {type:"match",pairs:[{trg:"het onderzoek",src:"the research"},{trg:"de hypothese",src:"the hypothesis"},{trg:"de methode",src:"the method"},{trg:"de conclusie",src:"the conclusion"}]},
-        {type:"mc",q:"Which is a het-word?",opts:["de hypothese","het onderzoek","de methode","de conclusie"],ans:"het onderzoek",hint:"Only one of these uses 'het'"},
+        {type:"mc",q:"Which is a het-word?",opts:["de hypothese","het onderzoek","de methode","de conclusie"],ans:"het onderzoek",hint:"This neuter noun is what a scientist conducts to test a theory"},
         {type:"fb",opts:["conclusie","hypothese","inleiding","bibliografie"],hint:"Which verb means to pull/draw, as in reaching a judgment?",s:"Een ___ trekken over de resultaten. (conclusion)",a:"conclusie"},
         {type:"mc",q:"'De inleiding' is NOT used for:",opts:["Introducing a topic","Introducing a person","Starting an essay","The first section of a paper"],ans:"Introducing a person",hint:"For people, use 'voorstellen'"},
         {type:"drag_fill",hint:"Introduction first, bibliography at the end.",s:"De {1} beschrijft de onderzoeksvraag. De {2} staat achteraan.",blanks:{"1":"inleiding","2":"bibliografie"},pool:["inleiding","bibliografie","conclusie","hypothese"]},

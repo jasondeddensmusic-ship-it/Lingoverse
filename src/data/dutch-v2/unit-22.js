@@ -104,7 +104,7 @@ export default {n:22,lang:"nl",srcLang:"en",track:"v2",title:"Nieuws & Media",su
           {trg:"Er zou meer moeten worden gedaan.",src:"More should be done."}
         ]},
         {type:"fb",opts:["ging","gaat","ga","gegaan"],hint:"Past tense of gaan, irregular verb",s:"'Ik ga morgen.' → Hij zei dat hij morgen ___.",a:"ging"},
-        {type:"mc",q:"'Ze vroeg of het rapport klaar was.' What word introduces the indirect question?",opts:["dat","of","wat","als"],ans:"of",hint:"Which conjunction introduces indirect yes/no questions?"},
+        {type:"mc",q:"In Dutch, indirect yes/no questions like 'She asked whether...' are introduced by:",opts:["dat","of","wat","als"],ans:"of",hint:"Which conjunction introduces indirect yes/no questions?"},
         {type:"drag_fill",hint:"The journalist asked WHETHER. More SHOULD be done.",s:"De journalist {1} of de minister zou reageren. Er {2} meer moeten worden gedaan.",blanks:{"1":"vroeg","2":"zou"},pool:["vroeg","zou","zei","moet"]},
         {type:"fb",opts:["was","is","wordt","werd"],hint:"Tense shifts back: zijn in past tense",s:"'Het is een probleem.' → De expert zei dat het een probleem ___.",a:"was"}
   ]},
@@ -118,7 +118,7 @@ export default {n:22,lang:"nl",srcLang:"en",track:"v2",title:"Nieuws & Media",su
         {type:"fb",opts:["werden","werd","zijn","is"],hint:"Plural past passive: de regels _____ gepresenteerd",s:"De regels ___ gepresenteerd door commissaris Jansen.",a:"werden"},
         {type:"mc",q:"'Er moet meer worden gedaan om nepnieuws te bestrijden.' This is:",opts:["A direct quote from Jansen","Indirect speech","The journalist's opinion","A headline"],ans:"A direct quote from Jansen",hint:"Inside quotation marks: 'Er moet meer worden gedaan...' zei ___"},
         {type:"fb",opts:["werd","wordt","is","zijn"],hint:"It was also reported (past passive)",s:"Er ___ ook gemeld dat bedrijven hoge boetes kunnen krijgen.",a:"werd"},
-        {type:"mc",q:"'Techbedrijven worden verplicht om misleidende content te verwijderen.' The passive subject is:",opts:["De commissaris","Misleidende content","Techbedrijven","De regels"],ans:"Techbedrijven",hint:"Tech companies are required (they receive the obligation)"},
+        {type:"mc",q:"In the sentence '___ worden verplicht om misleidende content te verwijderen', what is the passive subject?",opts:["De commissaris","Misleidende content","Techbedrijven","De regels"],ans:"Techbedrijven",hint:"Tech companies are required (they receive the obligation)"},
         {type:"drag_fill",hint:"He warned that enforcement will be difficult.",s:"Hij {1} dat de handhaving lastig zal {2}.",blanks:{"1":"waarschuwde","2":"zijn"},pool:["waarschuwde","zijn","meldde","worden"]},
         {type:"fb",opts:["kracht","start","regel","wet"],hint:"Van ___ worden = to take effect (power/force)",s:"De nieuwe wetgeving wordt naar verwachting volgend jaar van ___.",a:"kracht"},
         {type:"match",pairs:[

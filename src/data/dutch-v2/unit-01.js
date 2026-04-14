@@ -62,7 +62,7 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"mc",q:"'Wij ___ blij.', Fill in:",opts:["ben","bent","is","zijn"],ans:"zijn",hint:"Which form of '___' fits wij?"},
         {type:"mc",q:"Which pronoun uses 'is'?",opts:["ik","jij","hij","wij"],ans:"hij",hint:"Third person singular"},
         {type:"fb",opts:["zijn","bent","is","ben"],hint:"Plural 'you'",s:"Jullie ___ laat!",a:"zijn"},
-        {type:"mc",q:"In a question, 'jij bent' becomes:",opts:["Bent jij?","Ben jij?","Is jij?","Zijn jij?"],ans:"Ben jij?",hint:"The -t drops when jij follows the verb"},
+        {type:"mc",q:"In a question, 'jij bent' becomes:",opts:["Bent jij?","Ben jij?","Is jij?","Zijn jij?"],ans:"Ben jij?",hint:"Inversion causes the -t to disappear from the verb form"},
         {type:"match",pairs:[{trg:"ik ben",src:"I am"},{trg:"hij is",src:"he is"},{trg:"wij zijn",src:"we are"},{trg:"jij bent",src:"you are"}]},
         {type:"mc",q:"'Zij ___ mijn buren.' (They ___ my neighbours)",opts:["is","bent","zijn","ben"],ans:"zijn",hint:"zij (they) takes the same form as wij"}
   ]},
@@ -103,7 +103,7 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"fb",opts:["De","Het","Een","Geen"],hint:"Remember which article 'vrouw' used in the teach card",s:"___ vrouw is aardig.",a:"De"},
         {type:"mc",q:"'Een' is used for:",opts:["Only de-words","Only het-words","Both de and het words","Plural nouns"],ans:"Both de and het words",hint:"Een never changes!"},
         {type:"match",pairs:[{trg:"de man",src:"the man"},{trg:"het huis",src:"the house"},{trg:"de kat",src:"the cat"},{trg:"het kind",src:"the child"}]},
-        {type:"mc",q:"Words ending in -je (like broodje, meisje) always use:",opts:["de","het","een","geen"],ans:"het",hint:"Het broodje, het meisje, het kopje..."}
+        {type:"mc",q:"Words ending in -je (like broodje, meisje) always use:",opts:["de","het","een","geen"],ans:"het",hint:"All diminutives share the same article, regardless of the base noun"}
   ]},
   {id:"v2u1l5",title:"Hebben: To Have (Complete)",icon:"✋",xp:20,board:true,steps:[
         {type:"intro",title:"Hebben: To Have",desc:"Your second essential verb, all forms at once. After this lesson you know zijn AND hebben, the two verbs that power 60% of daily Dutch.",goals:["Every form of hebben","The -t drop rule in questions","Mini review of L1–L4"]},
@@ -132,7 +132,7 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"teach",trg:"zij hebben",src:"they have",pos:"verb",gender:null,phonetic:"zay HEB-bun",note:"Same as wij: hebben.\nThe plural always uses the full form.",example:"A: Zij hebben een groot huis.\nB: Echt? Waar wonen zij?\nA: In Amsterdam.",exampleSrc:"A: They have a big house.\nB: Really? Where do they live?\nA: In Amsterdam.",funFact:"zij + hebben: Dutch verb conjugation follows regular patterns once you learn the stem."},
         {type:"tip",title:"🔁 Quick Review: Zijn + Hebben",text:"ZIJN (to be): ben, bent, is, zijn\nHEBBEN (to have): heb, hebt, heeft, hebben\n\n• Ik ben student. = I am a student.\n• Ik heb een kat. = I have a cat.\n• Ben jij blij? = Are you happy?\n• Hij is groot. = He is tall."},
         {type:"mc",q:"'Ik heb een boek' means:",opts:["I am a book","I have a book","I want a book","I see a book"],ans:"I have a book",hint:"Heb = have"},
-        {type:"mc",q:"In a question, 'jij hebt' becomes:",opts:["Hebt jij?","Heb jij?","Heeft jij?","Hebben jij?"],ans:"Heb jij?",hint:"The -t drops when jij follows the verb"},
+        {type:"mc",q:"In a question, 'jij hebt' becomes:",opts:["Hebt jij?","Heb jij?","Heeft jij?","Hebben jij?"],ans:"Heb jij?",hint:"Inversion causes the -t to disappear from the verb form"},
         {type:"mc",q:"'Wij hebben honger' means:",opts:["We are hungry","We have a dog","We are home","We have money"],ans:"We are hungry",hint:"Dutch says 'have hunger' not 'are hungry'"},
         {type:"fb",opts:["heeft","hebt","heb","hebben"],hint:"hij/zij uses which form?",s:"Hij ___ een kat.",a:"heeft"},
         {type:"mc",q:"How do you say 'goodbye' formally?",opts:["Doei","Hallo","Tot ziens","Dag dag"],ans:"Tot ziens",hint:"From Lesson 1"},
@@ -235,7 +235,7 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"mc",q:"'Wij ___ blij.', Fill in the verb (to be):",opts:["ben","bent","is","zijn"],ans:"zijn",hint:"Which form of 'to be' fits plural subjects?"},
         {type:"fb",opts:["Waar","Wie","Wat","Hoe"],hint:"Asking for a location",s:"___ is het station?",a:"Waar"},
         {type:"mc",q:"Which noun uses 'het'?",opts:["man","vrouw","kind","kat"],ans:"kind",hint:"One of the het-words from L4"},
-        {type:"mc",q:"In a question, 'jij hebt' becomes:",opts:["Hebt jij?","Heb jij?","Heeft jij?","Hebben jij?"],ans:"Heb jij?",hint:"The -t drops when jij follows"},
+        {type:"mc",q:"In a question, 'jij hebt' becomes:",opts:["Hebt jij?","Heb jij?","Heeft jij?","Hebben jij?"],ans:"Heb jij?",hint:"Inversion causes the -t to disappear from the verb form"},
         {type:"fb",opts:["Sorry","Hallo","Dank je","Dag"],hint:"Excusing yourself before speaking",s:"___, ik spreek een beetje Nederlands.",a:"Sorry"},
         {type:"verb_table",title:"Zijn: to be",note:"4 forms: ben, bent, is, zijn.",groups:[
           {

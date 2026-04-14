@@ -19,7 +19,7 @@ export default {n:15,lang:"nl",srcLang:"en",track:"v2",title:"Opleiding & Toekom
         {type:"fb",opts:["geslaagd","gezakt","gehaald","gedaan"],hint:"She PASSED",s:"Zij is ___ voor haar examen!",a:"geslaagd"},
         {type:"drag_fill",hint:"I'm doing an internship. I got my diploma.",s:"Ik doe {1} bij een bedrijf. Ik heb mijn {2} gehaald.",blanks:{"1":"stage","2":"diploma"},pool:["stage","diploma","examen","cursus"]},
         {type:"fb",opts:["docent","student","leerling","stage"],hint:"The teacher/lecturer at university level",s:"De ___ geeft les aan de universiteit.",a:"docent"},
-        {type:"mc",q:"Which word describes the final test before graduating?",opts:["de stage","het examen","de opleiding","de docent"],ans:"het examen",hint:"Het-word, cognate with English 'exam'"},
+        {type:"mc",q:"Which word describes the final test before graduating?",opts:["de stage","het examen","de opleiding","de docent"],ans:"het examen",hint:"This neuter-gender Latin loanword means the final assessment"},
         {type:"tr",mk:"v2u15_study_at_uni",dir:"produce"}
   ]},
   {id:"v2u15l2",title:"Het Nederlandse Systeem",icon:"🏫",xp:15,board:true,steps:[
@@ -69,7 +69,7 @@ export default {n:15,lang:"nl",srcLang:"en",track:"v2",title:"Opleiding & Toekom
           {trg:"in plaats van te werken",src:"instead of working"},
           {trg:"om mee te doen",src:"in order to participate"}
         ]},
-        {type:"mc",q:"'Zonder op te letten' uses a separable verb. Which part is the prefix?",opts:["op","te","letten","zonder"],ans:"op",hint:"Op|letten is separable: te goes between"},
+        {type:"mc",q:"'Zonder ___ te letten' uses a separable verb. Which part fills the blank as the prefix?",opts:["op","te","letten","zonder"],ans:"op",hint:"The prefix of opletten appears between 'te' and the verb stem"},
         {type:"tr",mk:"v2u15_in_order_to_learn",dir:"produce"}
   ]},
   {id:"v2u15l4",title:"Proberen Te...",icon:"📐",xp:20,board:true,steps:[

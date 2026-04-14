@@ -128,7 +128,7 @@ export default {n:5,lang:"nl",srcLang:"en",track:"v2",title:"Mijn Familie & Thui
         {type:"fb",opts:["dicht","doen","open","uit"],hint:"Close the door!",s:"Doe de deur ___!",a:"dicht"},
         {type:"mc",q:"'Stofzuigen' literally means:",opts:["dust-sucking","floor-cleaning","room-sweeping","carpet-washing"],ans:"dust-sucking",hint:"stof = dust, zuigen = to suck"},
         {type:"fb",opts:["maakt","schoonmaakt","maken","schoon"],hint:"In main clause: verb in pos 2, prefix at end",s:"Hij ___ elke dag de woonkamer schoon.",a:"maakt"},
-        {type:"mc",q:"'Ik maak het raam open.'  -  which part is the prefix?",opts:["ik","maak","het raam","open"],ans:"open",hint:"Which part separates from this verb?"},
+        {type:"mc",q:"Which part separates from 'make-___' and moves to the end: 'Ik maak het raam ___'?",opts:["ik","maak","het raam","open"],ans:"open",hint:"Think about what word completes the verb and moves to the end in a main clause"},
         {type:"tr",mk:"u5_tidy_room",dir:"produce"},
         {type:"tr",mk:"u5_clean_kitchen",dir:"produce"}
   ]},
@@ -239,12 +239,12 @@ export default {n:5,lang:"nl",srcLang:"en",track:"v2",title:"Mijn Familie & Thui
   {id:"v2u5l8",title:"Unit 5 Review",icon:"🔄",xp:20,board:true,steps:[
         {type:"intro",title:"Unit 5: Alles Samen",desc:"Family, house, reflexive verbs, adjective agreement, separable verbs, birthdays, visiting  -  all of Unit 5 mixed together. The scenario: a family birthday gathering at oma's house.",goals:["Family vocabulary","All possessives (mijn through hun)","Reflexive verbs in context","Adjective -e rule","Separable verbs","Birthday and visiting culture"]},
         {type:"tip",title:"📋 What You Know Now",text:"After Unit 5 you can:\n\n• Name all family members\n• Use ALL possessives (mijn, jouw, zijn, haar, uw, ons/onze, jullie, hun)\n• Describe your morning with reflexive verbs\n• Add -e to adjectives correctly (and know the ONE exception)\n• Use separable verbs (split in main clause, whole with modals)\n• Survive a Dutch birthday\n• Visit someone's home politely\n• Use 'gezellig' and 'lekker' like a local\n\nThat's a full family life in Dutch. Let's test it."},
-        {type:"mc",q:"'Ons huis' but 'onze tuin'  -  because:",opts:["huis is a het-word, tuin is a de-word","huis is bigger","tuin is plural","there's no rule, it's random"],ans:"huis is a het-word, tuin is a de-word",hint:"ons + het-___, onze + de-___"},
+        {type:"mc",q:"'Ons huis' but 'onze tuin'  -  because:",opts:["huis is a het-word, tuin is a de-word","huis is bigger","tuin is plural","there's no rule, it's random"],ans:"huis is a het-word, tuin is a de-word",hint:"The possessive pronoun changes depending on the article of the noun"},
         {type:"fb",opts:["Hun","Haar","Zijn","Onze"],hint:"Their children...",s:"___ kinderen zijn jarig. (their)",a:"Hun"},
         {type:"mc",q:"'Een groot huis'  -  no -e because:",opts:["groot never changes","it's after the noun","een + het-word = no -e","huis is special"],ans:"een + het-word = no -e",hint:"The one adjective exception"},
         {type:"match",pairs:[{trg:"de vader",src:"father"},{trg:"de dochter",src:"daughter"},{trg:"de broer",src:"brother"},{trg:"het kind",src:"child"}]},
         {type:"fb",opts:["me","mij","zich","je"],hint:"I feel MYSELF good",s:"Ik voel ___ goed.",a:"me"},
-        {type:"mc",q:"In 'Ik kleed me aan', which part is the separable prefix?",opts:["ik","kleed","me","aan"],ans:"aan",hint:"___kleden splits: kleed...___"},
+        {type:"mc",q:"In 'Ik kleed me ___', what fills the blank as the separable prefix?",opts:["ik","kleed","me","aan"],ans:"aan",hint:"The prefix of this verb separates in main clauses and moves to the end"},
         {type:"drag_fill",hint:"De-word: -e. Een + het-word: no -e.",s:"De {1} keuken. Een {2} huis.",blanks:{"1":"nieuwe","2":"oud"},pool:["nieuwe","oud","nieuw","oude"]},
         {type:"mc",q:"At a Dutch birthday, the birthday person:",opts:["receives cake from guests","brings their own cake","doesn't eat cake","buys cake for the office"],ans:"brings their own cake",hint:"YOU provide YOUR ___"},
         {type:"fb",opts:["Gefeliciteerd","Goedemiddag","Bedankt","Alsjeblieft"],hint:"Happy birthday / Congratulations!",s:"___ met je verjaardag!",a:"Gefeliciteerd"},
