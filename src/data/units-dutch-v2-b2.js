@@ -24,4 +24,9 @@ import UNIT_48 from './dutch-v2/unit-48.js';
 import UNIT_49 from './dutch-v2/unit-49.js';
 import UNIT_50 from './dutch-v2/unit-50.js';
 
-export default [UNIT_21, UNIT_22, UNIT_23, UNIT_24, UNIT_25, UNIT_26, UNIT_27, UNIT_28, UNIT_29, UNIT_30, UNIT_39, UNIT_40, UNIT_41, UNIT_42, UNIT_43, UNIT_44, UNIT_45, UNIT_46, UNIT_47, UNIT_48, UNIT_49, UNIT_50];
+import UNIT_51 from './dutch-v2/unit-51.js';
+import UNIT_52 from './dutch-v2/unit-52.js';
+import UNIT_53 from './dutch-v2/unit-53.js';
+import UNIT_54 from './dutch-v2/unit-54.js';
+
+export default [UNIT_21, UNIT_22, UNIT_23, UNIT_24, UNIT_25, UNIT_26, UNIT_27, UNIT_28, UNIT_29, UNIT_30, UNIT_39, UNIT_40, UNIT_41, UNIT_42, UNIT_43, UNIT_44, UNIT_45, UNIT_46, UNIT_47, UNIT_48, UNIT_49, UNIT_50, UNIT_51, UNIT_52, UNIT_53, UNIT_54];
