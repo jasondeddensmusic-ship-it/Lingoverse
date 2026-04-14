@@ -40,4 +40,9 @@ import UNIT_64 from './french-v2/unit-64.js';
 import UNIT_65 from './french-v2/unit-65.js';
 import UNIT_66 from './french-v2/unit-66.js';
 
-export default [UNIT_25, UNIT_26, UNIT_27, UNIT_28, UNIT_29, UNIT_30, UNIT_39, UNIT_40, UNIT_41, UNIT_42, UNIT_43, UNIT_44, UNIT_45, UNIT_46, UNIT_47, UNIT_48, UNIT_49, UNIT_50, UNIT_51, UNIT_52, UNIT_53, UNIT_54, UNIT_55, UNIT_56, UNIT_57, UNIT_58, UNIT_59, UNIT_60, UNIT_61, UNIT_62, UNIT_63, UNIT_64, UNIT_65, UNIT_66];
+import UNIT_67 from './french-v2/unit-67.js';
+import UNIT_68 from './french-v2/unit-68.js';
+import UNIT_69 from './french-v2/unit-69.js';
+import UNIT_70 from './french-v2/unit-70.js';
+
+export default [UNIT_25, UNIT_26, UNIT_27, UNIT_28, UNIT_29, UNIT_30, UNIT_39, UNIT_40, UNIT_41, UNIT_42, UNIT_43, UNIT_44, UNIT_45, UNIT_46, UNIT_47, UNIT_48, UNIT_49, UNIT_50, UNIT_51, UNIT_52, UNIT_53, UNIT_54, UNIT_55, UNIT_56, UNIT_57, UNIT_58, UNIT_59, UNIT_60, UNIT_61, UNIT_62, UNIT_63, UNIT_64, UNIT_65, UNIT_66, UNIT_67, UNIT_68, UNIT_69, UNIT_70];
