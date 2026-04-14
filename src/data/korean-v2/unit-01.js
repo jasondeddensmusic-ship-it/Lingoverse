@@ -100,7 +100,7 @@ const UNIT_1 =
  {type:"mc",q:"The -요 at the end of 이에요 shows that you are being:",opts:["Casual","Polite","Angry","Formal-written"],ans:"Polite",hint:"The ending -요 signals a specific speech register you learned about."},
  {type:"mc",q:"Which marker goes after 저 to mean 'as for me'?",opts:["은","는","이","가"],ans:"는",hint:"Does the word end in a vowel or consonant?"},
  {type:"mc",q:"In casual speech, Koreans often drop 저는. So '사라예요' by itself means:",opts:["Sara is here","I am Sara","Where is Sara?","Sara says hello"],ans:"I am Sara",hint:"When 저는 is dropped, context tells you who is speaking."},
- {type:"mc",q:"저는 학생이에요. What is the verb in this sentence?",opts:["저","는","학생","이에요"],ans:"이에요",hint:"The verb is at the END of the sentence. What comes last?"},
+ {type:"mc",q:"What is the predicate that completes an identity statement like '저는 학생___'?",opts:["저","는","학생","이에요"],ans:"이에요",hint:"The verb is at the END of the sentence. What comes last?"},
  {type:"fb",s:"___는 학생이에요.\n(I am a student.)",a:"저",opts:["저","이","가","는"],hint:"The polite word for 'I' goes here."},
  {type:"match",pairs:[{nl:"저",en:"I / me (polite)"},{nl:"는 / 은",en:"topic marker"},{nl:"이에요",en:"am/is (after consonant)"},{nl:"예요",en:"am/is (after vowel)"}]},
  {type:"mc",q:"Korean has how many speech levels?",opts:["2","4","7","10"],ans:"7",hint:"Korean has multiple levels of politeness, each with its own verb endings."},
@@ -122,11 +122,11 @@ const UNIT_1 =
 
   {type:"tip",title:"🚂 The Train Metaphor",text:"Think of every Korean verb as a TRAIN:\n\n🚂 STEM = the engine (carries the meaning)\n🚃 ENDING = the car that snaps on\n\n가다 → 가요 (go, politely)\n먹다 → 먹어요 (eat, politely)\n하다 → 해요 (do, politely)",deepDive:{title:"Why This Is Better Than Memorising",text:"Right now you only have ONE car: -요 (the politeness car).\nSoon you'll add more cars:\n🚃 Past tense car: -었/았어요\n🚃 Future car: -(으)ㄹ 거예요\n🚃 Request car: -(으)세요\n\nSame engine. Different cars. That's Korean.\n\nWithout the engine:\n먹어요, 가요, 해요 = memorised chunks.\n\nWith the engine:\nSTEM → ENDING = infinite verbs.\n\nYou just saw 하다 attaches to nouns:\n산책하다 (take a walk) → 산책해요\n전화하다 (phone someone) → 전화해요\n사랑하다 (to love) → 사랑해요\n\nYou can now form verbs you've NEVER SEEN.\nThat's the difference between memorising and generating."}},
 
-  {type:"mc",q:"What is the stem of 먹다?",opts:["먹다","먹어","먹","다"],ans:"먹",hint:"Strip -다 from the dictionary form. What remains is the stem."},
+  {type:"mc",q:"Which part of the verb 'to eat' remains after stripping the dictionary suffix?",opts:["먹다","먹어","먹","다"],ans:"먹",hint:"Strip -다 from the dictionary form. What remains is the stem."},
 
-  {type:"mc",q:"What is the stem of 가다?",opts:["가다","가요","가","요"],ans:"가",hint:"Strip the dictionary suffix to find the stem."},
+  {type:"mc",q:"Which part of the verb 'to go' remains after stripping the dictionary suffix?",opts:["가다","가요","가","요"],ans:"가",hint:"Strip the dictionary suffix to find the stem."},
 
-  {type:"mc",q:"하다 → 해요. The -요 signals:",opts:["Past tense","Politeness (해요체)","A question","Future"],ans:"Politeness (해요체)",hint:"-요 at the end = polite speech (해요체). You're in this register from day one."},
+  {type:"mc",q:"하다 → 해요. The -요 signals:",opts:["Past tense","Politeness (해요체)","A question","Future"],ans:"Politeness (해요체)",hint:"The ending on polite verbs signals a specific speech register used in daily conversation."},
 
   {type:"mc",q:"공부 (study) + 하다 = ?",opts:["공부요","공부가요","공부해요","공부어요"],ans:"공부해요",hint:"Noun + 하다 compounds always conjugate one way."},
 
@@ -136,7 +136,7 @@ const UNIT_1 =
 
   {type:"teach",kind:"phrase",nl:"있다 → 있어요",en:"to exist / to have → exists (polite)",pos:"verb",gender:null,funFact:"Both have dark vowels → always -어요.",phonetic:"it-da → i-sseo-yo",example:"A: 커피 있어요? B: 네, 있어요! A: 감사합니다!",exampleEn:"A: Is there coffee? B: Yes, there is! A: Thank you!",note:"Drop the suffix to find the stem.\n\n있다\n→ stem: 있\n→ polite present: 있어요\n→ there is / I have (polite).",deepDive:{title:"Conjugating 있다",text:"없다 → stem: 없\n없 + 어요 = 없어요 (don't have / don't exist) ✓\n\nBoth have dark vowels → always -어요."}},
 
-  {type:"mc",q:"있다 → stem is:",opts:["있다","있어","있","어요"],ans:"있",hint:"Strip -다 from 있다. The stem is 있."},
+  {type:"mc",q:"Remove the dictionary suffix from the existence verb. What bare stem remains?",opts:["있다","있어","있","어요"],ans:"있",hint:"The dictionary form ends in -다. What is left after removing it?"},
 
   {type:"mc",q:"Which of these is NOT a 하다 verb?",opts:["공부하다","운동하다","가다","요리하다"],ans:"가다",hint:"... = to go. It is its own verb. 공부/운동/요리 all attach 하다."},
 
@@ -148,7 +148,7 @@ const UNIT_1 =
 
   {type:"mc",q:"You want to say 'I exercise' (운동). Which is correct?",opts:["운동요","운동어요","운동해요","운동가요"],ans:"운동해요",hint:"This is a 하다 compound. One rule, always."},
 
-  {type:"mc",q:"The stem of 이에요/예요 is:",opts:["이에","이","이에요","예"],ans:"이",hint:"The copula follows the same stem + ending logic."},
+  {type:"mc",q:"What is the base form of the copula before the polite ending is added?",opts:["이에","이","이에요","예"],ans:"이",hint:"The copula follows the same stem + ending logic."},
 
   {type:"tip",title:"🎯 What You Can Now Do",text:"With just STEM + ENDING you can now:\n\n✅ Form ANY regular verb in polite present tense\n✅ Understand that -요 = polite register (해요체)\n✅ Generate 하다 verbs you've never seen before",deepDive:{title:"Think Like a Polyglot",text:"✅ Analyse every verb you encounter: stem? ending? what does each part do?\n\n\nThis is how a polyglot thinks.\nNot: 'I memorised this phrase.'\nBut: 'I see stem 먹, I know what it means, I know what -어요 does, I can build this form myself.'\n\nThe rule for -아요 vs -어요 comes next.\nFor now: the engine is running. 🚂"}},
  ]},
@@ -203,7 +203,7 @@ const UNIT_1 =
  {type:"mc",q:"네 is often used in Korean conversation as a filler meaning:",opts:["Yes, I agree","I'm listening / go on","Really? / oh?","Of course / sure"],ans:"I'm listening / go on",hint:"Koreans say 네 constantly to show they're paying attention"},
  {type:"fb",s:"학생이에요? 아니요, 학생이 ___.\n(No, I am NOT a student.)",a:"아니에요",opts:["이에요","예요","아니에요","네"],hint:"What is the negative form of the copula 이에요/예요?"},
  {type:"match",pairs:[{nl:"아니에요",en:"to not be (am/is/are not)"},{nl:"이에요",en:"am / is (after consonant)"},{nl:"예요",en:"am / is (after vowel)"},{nl:"감사합니다",en:"thank you (formal)"}]},
- {type:"mc",q:"Both 감사합니다 and 안녕하세요 share the same verb root. What is it?",opts:["가다 (to go)","하다 (to do)","오다 (to come)","있다 (to exist)"],ans:"하다 (to do)",hint:"감사+합니다 and 안녕+하세요 both use 하다"},
+ {type:"mc",q:"Both 감사합니다 and 안녕하세요 share the same verb root. What is it?",opts:["가다 (to go)","하다 (to do)","오다 (to come)","있다 (to exist)"],ans:"하다 (to do)",hint:"Both phrases are noun + verb compounds. What action verb do they share?"},
  ]},
 
  // ═══ L4b: 안 / 아니에요 / 지 않아요  -  Negation ═══
@@ -225,7 +225,7 @@ const UNIT_1 =
  {type:"match",pairs:[{nl:"안 가요",en:"Not going (choice)"},{nl:"아니에요",en:"Is not (for nouns)"},{nl:"가지 않아요",en:"Do not go (formal)"},{nl:"아니요",en:"No (standalone)"}]},
  {type:"mc",q:"저는 학생이 아니에요  -  what particle comes before 아니에요?",opts:["은/는","이/가","을/를","에"],ans:"이/가",hint:"The noun before 아니에요 takes ... (subject marker)"},
  {type:"tip",title:"🇰🇷 Real Talk: When Do Koreans Use Each?",text:"Daily conversation (90% of the time):\n안 가요, 안 먹어요, 안 알아요.\n→ Short, fast, natural.\n\nFormal writing, presentations, polite emphasis:",deepDive:{title:"Negation in Formal vs Casual Registers",text:"가지 않아요, 먹지 않아요.\n→ More explicit and considered.\n\nFor noun 'is not'  -  always:\n아니에요 (no casual shortcut for this one)\n\n⚡ Start with: 안 + verb for everything. You'll see 지 않아요 later when formal endings are taught."}},
- {type:"mc",q:"Same meaning as 안 먹어요:",opts:["먹어요","먹지 않아요","먹지 못해요","아니에요"],ans:"먹지 않아요",hint:"안 verb = verb + 지 않아요. Same meaning."},
+ {type:"mc",q:"Same meaning as 안 먹어요:",opts:["먹어요","먹지 않아요","먹지 못해요","아니에요"],ans:"먹지 않아요",hint:"Two ways to negate a verb: short form (before verb) and long form (after stem)."},
  ]},
 
 
@@ -271,7 +271,7 @@ const UNIT_1 =
  {type:"tip",title:"🧱 국 = Country (LEGO Piece #1)",text:"국 (國) = country. Your first Sino-Korean morpheme:\n\n한국 = Korea (한 = Korean + 국 = country)\n미국 = America (미 = beautiful + 국 = country)\n중국 = China (중 = middle + 국 = country)",deepDive:{title:"국 = Country (LEGO Piece #1)",text:"영국 = England (영 = English + 국 = country)\n\nOne morpheme, four countries. This is the LEGO Principle.\n\n외국 = foreign country (외 = outside)\n\nONE piece, many words. Korean is LEGO."}},
  {type:"fb",s:"저는 ___ 사람이에요.\n(I am a Korean person.)",a:"한국",opts:["한국","미국","일본","중국"],hint:"한 + 국 (country). Which country is this language from?"},
  {type:"fb",s:"저는 미국 ___이에요.\n(I am an American person.)",a:"사람",opts:["사람","나라","국가","학생"],hint:"This native Korean word means an individual human being."},
- {type:"mc",q:"How do you say 'I am Japanese'?",opts:["저는 일본 사람이에요","저는 중국 사람이에요","저는 한국 사람이에요","저는 미국 사람이에요"],ans:"저는 일본 사람이에요",hint:"Japan = 일본"},
+ {type:"mc",q:"How do you say 'I am Japanese'?",opts:["저는 일본 사람이에요","저는 중국 사람이에요","저는 한국 사람이에요","저는 미국 사람이에요"],ans:"저는 일본 사람이에요",hint:"The person is not Korean or Chinese. Think of the third East Asian country."},
  {type:"match",pairs:[{nl:"한국",en:"Korea"},{nl:"미국",en:"America"},{nl:"일본",en:"Japan"},{nl:"중국",en:"China"}]},
  {type:"mc",q:"Korean names put the family name:",opts:["Last","First","In the middle","It varies"],ans:"First",hint:"Korean convention."},
  {type:"mc",q:"Which three family names cover about 45% of all Koreans?",opts:["김, 이, 박","최, 정, 강","서, 윤, 조","한, 미, 중"],ans:"김, 이, 박",hint:"Kim, Lee, Park are the big three"},
@@ -297,7 +297,7 @@ const UNIT_1 =
  {type:"mc",q:"Someone says 죄송합니다 after stepping on your foot. You say:",opts:["죄송합니다","감사합니다","괜찮아요","안녕히 가세요"],ans:"괜찮아요",hint:"It's okay! (accepting the apology)"},
  {type:"fb",s:"안녕하세요! ___ 반갑습니다!\n(Nice to meet you!)",a:"만나서",opts:["만나서","감사","이름이","죄송"],hint:"... = having met"},
  {type:"mc",q:"A waiter says 잠시만요 when you enter a restaurant. This means:",opts:["Welcome!","Just a moment","Thank you","Goodbye!"],ans:"Just a moment",hint:"잠시만요: please wait a moment"},
- {type:"mc",q:"죄송합니다 uses the same compound pattern as 감사합니다. Both use:",opts:["있다 (to exist)","하다 (to do)","가다 (to go)","이다 (to be)"],ans:"하다 (to do)",hint:"Both follow the pattern: noun + 하다 = verb. 감사 + 하다, 죄송 + 하다."},
+ {type:"mc",q:"죄송합니다 uses the same compound pattern as 감사합니다. Both use:",opts:["있다 (to exist)","하다 (to do)","가다 (to go)","이다 (to be)"],ans:"하다 (to do)",hint:"This verb root is found in both expressions of gratitude and apology."},
  {type:"match",pairs:[{nl:"만나서 반갑습니다",en:"nice to meet you"},{nl:"이름이 뭐예요?",en:"what's your name?"},{nl:"죄송합니다",en:"I'm sorry"},{nl:"괜찮아요",en:"it's okay"}]},
  {type:"fb",s:"You need the waiter to wait. You say: ___",a:"잠시만요",opts:["잠시만요","감사합니다","죄송합니다","안녕하세요"],hint:"Just a moment, please"},
  {type:"mc",q:"How does 괜찮아요 function when offered food you don't want?",opts:["It means yes please definitely","It means no thanks politely","It is a formal greeting only","It expresses strong dislike"],ans:"It means no thanks politely",hint:"괜찮아요 can politely decline offers"},
@@ -327,7 +327,7 @@ const UNIT_1 =
  {type:"fb",s:"___ 번호가 뭐예요?\n(What's your phone number?)",a:"핸드폰",opts:["핸드폰","바이트","에어컨","서비스"],hint:"Korean uses 'hand' + 'phone' for this device."},
  {type:"match",pairs:[{nl:"에어컨",en:"air conditioner"},{nl:"파이팅",en:"encouragement"},{nl:"서비스",en:"not 'service' but 'freebie'"},{nl:"바이트",en:"not 'byte' but 'part-time job'"}]},
  {type:"tip",title:"🌏 Why False Friends Exist",text:"False friends happen because Korean borrowed the English SOUND but changed the MEANING.\n\nEnglish does this too:\n• 'Angst' in English means worry (German: deep existential dread)\n• 'Kindergarten' in English means preschool (German: literally 'children garden')\n\nEvery language reshapes borrowed words.\nKorean is no different. Just be aware of the traps!"},
- {type:"mc",q:"Which of these is NOT a false friend (meaning matches English)?",opts:["서비스 (service)","바이트 (byte)","커피 (coffee)","파이팅 (fighting)"],ans:"커피 (coffee)",hint:"커피 actually means coffee. The others have shifted meanings."},
+ {type:"mc",q:"Which of these is NOT a false friend (meaning matches English)?",opts:["서비스 (service)","바이트 (byte)","커피 (coffee)","파이팅 (fighting)"],ans:"커피 (coffee)",hint:"One word keeps its English meaning exactly. The rest are false friends."},
  ]},
 
  // ═══ L9: First Meeting Dialogue ═══
@@ -366,7 +366,7 @@ const UNIT_1 =
  {type:"mc",q:"한국 = 한 + 국. What does 국 mean?",opts:["Language","People","Country","Hello"],ans:"Country",hint:"한국, 미국, 중국 all end in 국. What do they all have in common?"},
  {type:"fb",s:"저는 학생___.\n(I am a student.)",a:"이에요",opts:["이에요","예요","아니에요","입니다"],hint:"Vowel ending or consonant ending?"},
  {type:"match",pairs:[{nl:"안녕하세요",en:"hello"},{nl:"감사합니다",en:"thank you"},{nl:"죄송합니다",en:"I'm sorry"},{nl:"네",en:"yes"}]},
- {type:"mc",q:"'Goodbye' to someone leaving:",opts:["안녕히 계세요","안녕히 가세요","안녕하세요","만나서 반갑습니다"],ans:"안녕히 가세요",hint:"They GO → 가세요 (go in peace)"},
+ {type:"mc",q:"'Goodbye' to someone leaving:",opts:["안녕히 계세요","안녕히 가세요","안녕하세요","만나서 반갑습니다"],ans:"안녕히 가세요",hint:"The other person is leaving. You wish them peace as they depart."},
   {type:"mc",q:"저는 밥을 먹어요. The verb 먹어요 goes:",opts:["First","After the subject","At the END","Before the object"],ans:"At the END",hint:"SOV: Subject Object Verb. Verb always last."},
   {type:"fb",s:"A: ___이 뭐예요? B: 제 이름은 민수예요.\n(What is your name?)",a:"이름",opts:["이름","저는","어디","뭐"],hint:"The question asks for a name."},
   {type:"mc",q:"Someone points at an object and asks 이것은 뭐예요? They want to know:",opts:["Where it is","What it is","Whose it is","How much it costs"],ans:"What it is",hint:"뭐 = what. 이것 = this thing."},
@@ -377,7 +377,7 @@ const UNIT_1 =
  {type:"mc",q:"In the dictionary, all Korean verbs end in:",opts:["-요","-세요","-다","-하"],ans:"-다",hint:"Dictionary form: always ..."},
  {type:"fb",s:"Someone bumps into you and says 죄송합니다. You say: ___",a:"괜찮아요",opts:["괜찮아요","감사합니다","안녕하세요","만나서 반갑습니다"],hint:"When someone apologizes, you reassure them that no harm was done."},
  {type:"match",pairs:[{nl:"커피",en:"coffee"},{nl:"택시",en:"taxi"},{nl:"핸드폰",en:"cellphone"},{nl:"바이트",en:"part-time job"}]},
-  {type:"mc",q:"김민수: which is the family name?",opts:["민수","김","민","수"],ans:"김",hint:"Korean: family name FIRST, given name second."},
+  {type:"mc",q:"In a three-syllable Korean name, is the family name the first or last syllable group?",opts:["민수","김","민","수"],ans:"김",hint:"Korean: family name FIRST, given name second."},
  {type:"mc",q:"A Korean asks your age within 5 minutes. This is:",opts:["Rude in Korean culture","Normal in Korean culture","Only for close friends","A workplace question"],ans:"Normal in Korean culture",hint:"Age determines speech level, so Koreans ask early"},
  ]},
  ]};

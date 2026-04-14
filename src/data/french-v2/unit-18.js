@@ -9,7 +9,7 @@ export default {n:18,lang:"fr",srcLang:"en",track:"v2",title:"Les pronoms relati
         {type:"teach",trg:"La voiture qui est rouge est à moi.",src:"The car that is red is mine.",pos:"noun",gender:"f",phonetic:"lah vwah-TEWR kee ay ROOZH",note:"Qui for things = which/that.\nLa voiture qui est rouge (that IS red).\nQui = subject of 'est rouge'.",example:"A: Quelle voiture est à toi?\nB: La voiture qui est rouge est à moi.\nA: Elle est belle!",exampleSrc:"A: Which car is yours?\nB: The car that is red is mine.\nA: It's beautiful!",funFact:"Feminine noun. Words ending in -tion, -sion, -ure are usually feminine."},
         {type:"mc",q:"'La fille ___ chante est ma soeur.' (subject)",opts:["Que","Qui","Dont","Où"],ans:"Qui",hint:"The girl WHO sings. She is the subject of 'sings'."},
         {type:"fb",opts:["qui","que","dont","où"],hint:"The cat that is sleeping. Subject of the relative clause.",s:"Le chat {1} dort sur le canapé est à Marie. (subject)",a:"qui"},
-        {type:"mc",q:"After 'qui', the next word is usually:",opts:["A noun","A verb","Another pronoun","A preposition"],ans:"A verb",hint:"Qui replaces the subject, so the ___ follows directly."},
+        {type:"mc",q:"After 'qui', the next word is usually:",opts:["A noun","A verb","Another pronoun","A preposition"],ans:"A verb",hint:"When a pronoun already fills the subject role, what comes next in the clause?"},
         {type:"fb",opts:["qui","que","dont","où"],hint:"The students who study a lot succeed. Subject of 'study'.",s:"Les étudiants {1} étudient beaucoup réussissent. (subject)",a:"qui"},
         {type:"match",pairs:[
           {trg:"L'homme qui parle",src:"The man who speaks"},
@@ -29,7 +29,7 @@ export default {n:18,lang:"fr",srcLang:"en",track:"v2",title:"Les pronoms relati
         ]},
         {type:"mc",q:"'C'est Marie ___ m'a dit ça.' (subject: told me)",opts:["Que","Qui","Dont","Où"],ans:"Qui",hint:"It's Marie WHO told me. Marie = subject of 'told'."},
         {type:"fb",opts:["qui","que","dont","où"],hint:"I'm looking for someone who speaks English.",s:"Je cherche quelqu'un {1} parle anglais. (subject)",a:"qui"},
-        {type:"mc",q:"Quick test: does the relative clause need a subject after the pronoun?",opts:["Yes, always","No, qui IS the subject","Sometimes","Only with people"],ans:"No, qui IS the subject",hint:"Qui replaces the subject, so the ___ follows directly."},
+        {type:"mc",q:"Quick test: does the relative clause need a separate subject noun after this pronoun?",opts:["Yes, always","No, qui IS the subject","Sometimes","Only with people"],ans:"No, qui IS the subject",hint:"This pronoun already fills the grammatical role, so no extra noun is needed."},
         {type:"fb",opts:["qui","que","dont","où"],hint:"There's the bus that goes to the station.",s:"Voilà le bus {1} va à la gare. (subject: goes)",a:"qui"}
   ]},
   {id:"fre18l2",title:"Que (objet direct)",icon:"🎯",xp:15,board:true,steps:[
@@ -109,7 +109,7 @@ export default {n:18,lang:"fr",srcLang:"en",track:"v2",title:"Les pronoms relati
         ]},
         {type:"mc",q:"Can 'quand' replace 'où' for time?",opts:["Yes, always","No, in relative clauses use où, not quand","Sometimes","Only in formal French"],ans:"No, in relative clauses use où, not quand",hint:"Le jour OÙ (not le jour ___). ___ is for questions/conjunctions."},
         {type:"fb",opts:["où","qui","que","dont"],hint:"The street where he lives. Place.",s:"La rue {1} il habite est calme. (place)",a:"où"},
-        {type:"mc",q:"D'où = from where. 'La ville ___ je viens.'",opts:["Où","D'où","De où","Dont"],ans:"D'où",hint:"The city FROM WHERE I come. De fuses with the location-marking pronoun."},
+        {type:"mc",q:"'La ville ___ je viens.' Which pronoun expresses 'the city I come FROM'?",opts:["Où","D'où","De où","Dont"],ans:"D'où",hint:"When venir needs 'de' and you're replacing a place, two elements fuse into one."},
         {type:"fb",opts:["où","qui","que","dont"],hint:"The evening when we met. Time expression.",s:"C'est le soir {1} nous nous sommes rencontrés. (time)",a:"où"}
   ]},
   {id:"fre18l5",title:"Quel pronom choisir?",icon:"🧭",xp:15,board:true,steps:[

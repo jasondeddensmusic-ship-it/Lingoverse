@@ -115,12 +115,12 @@ export default {n:9,lang:"fr",srcLang:"en",track:"v2",title:"Le passé composé"
         {type:"match",pairs:[{trg:"je n'ai pas mangé",src:"I didn't eat"},{trg:"tu n'as pas vu",src:"you didn't see"},{trg:"il n'a pas dit",src:"he didn't say"},{trg:"nous n'avons pas lu",src:"we didn't read"}]},
         {type:"mc",q:"'Ils n'ont pas aimé le film' means:",opts:["They loved the film","They didn't like the film","They haven't seen the film","They like films"],ans:"They didn't like the film",hint:"N'ont pas + participle = didn't + verb."},
         {type:"fb",opts:["mangé","manger","mange","mangeais"],hint:"We didn't eat pizza. The past participle of manger.",s:"Nous n'avons pas {1} de pizza. (to eat)",a:"mangé"},
-        {type:"mc",q:"In spoken French, which part of negation is often dropped?",opts:["Pas","Ne","The participle","Avoir"],ans:"Ne",hint:"J'ai pas mangé is very common in casual speech."},
+        {type:"mc",q:"In casual spoken French, which piece of the two-part frame is commonly omitted?",opts:["Pas","Ne","The participle","Avoir"],ans:"Ne",hint:"Informally, 'J'ai pas mangé' replaces the full form. One piece disappears."},
         {type:"fb",opts:["a","ai","as","ont"],hint:"She didn't understand. Elle + which form of avoir?",s:"Elle n'{1} pas compris la question.",a:"a"},
         {type:"match",pairs:[{trg:"je n'ai pas bu",src:"I didn't drink"},{trg:"elle n'a pas écrit",src:"she didn't write"},{trg:"ils n'ont pas fait",src:"they didn't do"},{trg:"vous n'avez pas pris",src:"you didn't take"}]},
         {type:"mc",q:"After 'pas', articles change. 'Je n'ai pas mangé DE pain' uses 'de' because:",opts:["Pain is masculine","Negation changes articles to de","De sounds better","It is a question"],ans:"Negation changes articles to de",hint:"Same rule as present tense: after pas, un/une/du/de la become de."},
         {type:"fb",opts:["avez","avons","ont","as"],hint:"You (formal) didn't travel? Vous + which form?",s:"Vous n'{1} pas voyagé cet été?",a:"avez"},
-        {type:"mc",q:"Which sentence is grammatically correct?",opts:["Je n'ai mangé pas","Je ne pas ai mangé","Je n'ai pas mangé","Je pas n'ai mangé"],ans:"Je n'ai pas mangé",hint:"ne/n' before avoir, pas after avoir. Fixed order."}
+        {type:"mc",q:"Which sentence is grammatically correct?",opts:["Je n'ai mangé pas","Je ne pas ai mangé","Je n'ai pas mangé","Je pas n'ai mangé"],ans:"Je n'ai pas mangé",hint:"The auxiliary verb sits between the two pieces of the negative frame."}
   ]},
   {id:"fre9l7",title:"Questions au passé",icon:"❓",xp:15,board:true,steps:[
         {type:"intro",title:"Questions au passé composé",desc:"Ask about the past: Did you eat? What did you do? Where did you go? The question patterns from present tense work the same way with passé composé.",goals:["Form yes/no questions about the past","Use question words with passé composé","Ask and answer fluently about past events"]},
@@ -164,7 +164,7 @@ export default {n:9,lang:"fr",srcLang:"en",track:"v2",title:"Le passé composé"
         {type:"match",pairs:[{trg:"hier",src:"yesterday"},{trg:"la semaine dernière",src:"last week"},{trg:"il y a un mois",src:"a month ago"},{trg:"avant-hier",src:"day before yesterday"}]},
         {type:"mc",q:"'Vous n'avez pas voyagé cet été?' expects:",opts:["A location","A yes or no answer","A time","A name"],ans:"A yes or no answer",hint:"Est-ce que (even without the words) + negation = expecting ___/no."},
         {type:"fb",opts:["Qu'","Où","Quand","Comment"],hint:"What did you visit? The question word for 'what'.",s:"{1} est-ce que vous avez visité?",a:"Qu'"},
-        {type:"mc",q:"Which shows correct negation?",opts:["Je n'ai pas bu","Je ne pas ai bu","Je n'ai bu pas","Pas je n'ai bu"],ans:"Je n'ai pas bu",hint:"ne/n' before avoir, pas after avoir. Always this order."},
+        {type:"mc",q:"Which shows correct negation?",opts:["Je n'ai pas bu","Je ne pas ai bu","Je n'ai bu pas","Pas je n'ai bu"],ans:"Je n'ai pas bu",hint:"The auxiliary verb must sit between the two negative elements."},
         {type:"fb",opts:["dansé","danser","dansée","dansés"],hint:"They danced. Regular -er past participle. With avoir: no agreement.",s:"Elles ont {1} toute la nuit. (to dance)",a:"dansé"}
   ]}
 ]};

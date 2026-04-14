@@ -24,7 +24,7 @@ export default {n:2,lang:"fr",srcLang:"en",track:"v2",title:"Je me présente",su
         {type:"mc",q:"A man from the United States says:",opts:["Je suis américaine","Je suis américain","Je suis amérique","Je suis états-unien"],ans:"Je suis américain",hint:"Masculine nationality: no extra -e at the end."},
         {type:"fb",opts:["venez","êtes","allez","avez"],hint:"Where do you come from? Formal you form of venir.",s:"D'où {1}-vous? Je suis de Paris.",a:"venez"},
         {type:"mc",q:"In French, 'je suis anglaise' tells you the speaker is:",opts:["A man from England","A woman from England","Anyone from England","A French person"],ans:"A woman from England",hint:"The -e ending on anglaise signals feminine gender."},
-        {type:"mc",q:"'Suisse' (Swiss) in feminine is:",opts:["Suissesse","Suissaine","Suisse","Suissée"],ans:"Suisse",hint:"Already ends in -e, so it stays the same for both genders."}
+        {type:"mc",q:"Which form of the nationality 'Swiss' is used for both genders?",opts:["Suissesse","Suissaine","Suisse","Suissée"],ans:"Suisse",hint:"This nationality already ends in -e, so no extra letter is added for either gender."}
   ]},
   {id:"fre2l2",title:"Les langues",icon:"💬",xp:15,board:true,steps:[
         {type:"intro",title:"Les langues",desc:"Learn to talk about the languages you speak. In multilingual Europe, this is an everyday conversation topic.",goals:["Name 5 major languages","Say what languages you speak","Use parler (to speak) basics"]},
@@ -67,7 +67,7 @@ export default {n:2,lang:"fr",srcLang:"en",track:"v2",title:"Je me présente",su
         {type:"match",pairs:[{trg:"trois",src:"three"},{trg:"sept",src:"seven"},{trg:"cinq",src:"five"},{trg:"huit",src:"eight"}]},
         {type:"mc",q:"Before a vowel, 'six' is pronounced:",opts:["SEES","SEEZ","SEE","SEEKZ"],ans:"SEEZ",hint:"Liaison: the silent X wakes up as a Z before vowels."},
         {type:"fb",opts:["cinq","six","trois","deux"],hint:"4 + ? = 9. Which number completes the equation?",s:"Quatre plus {1} font neuf.",a:"cinq"},
-        {type:"mc",q:"'Sept' has a silent letter. Which one?",opts:["S","E","P","T"],ans:"P",hint:"The letter between the E and T is not pronounced."},
+        {type:"mc",q:"In the spelling of seven in French (S-E-?-T), which hidden letter is written but not spoken?",opts:["The first (S)","The second (E)","The third (P)","The last (T)"],ans:"The third (P)",hint:"Of the four letters in the word, the one in the middle of the consonants is mute."},,
         {type:"mc",q:"'Un' becomes 'une' when counting:",opts:["Always","Before feminine nouns","Before vowels","Never"],ans:"Before feminine nouns",hint:"Gender agreement: un frère, une soeur."},
         {type:"fb",opts:["sept","six","huit","cinq"],hint:"10 minus 3 equals this number.",s:"Dix moins trois font {1}.",a:"sept"},
         {type:"mc",q:"The French R in 'quatre' is produced:",opts:["With the tongue tip","At the back of the throat","With the lips","Between the teeth"],ans:"At the back of the throat",hint:"The uvular R is a distinctive French sound."}

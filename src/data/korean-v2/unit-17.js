@@ -46,7 +46,7 @@ const UNIT_17 =
 {type:"match",pairs:[{nl:"열다 → 열리다",en:"open → be opened"},{nl:"잡다 → 잡히다",en:"catch → be caught"},{nl:"보다 → 보이다",en:"see → be seen"},{nl:"듣다 → 들리다",en:"hear → be heard"}]},
 {type:"fb",s:"이 제품이 한국에서 많이 {1}.\n(This product is ___ a lot in Korea.)",a:"팔려요",opts:["팔려요","팔아요","파는데","팔거든요"],hint:"The product isn't selling itself actively. It's being sold. Which passive form?"},
 {type:"drag_fill",s:"문이 {1}. 범인이 {2}.\n(The door was ___. The criminal was ___.)",blanks:{"1":"열렸어요","2":"잡혔어요"},pool:["열렸어요","잡혔어요","보였어요","들렸어요","팔렸어요"],hint:"Both sentences use passive voice. What happened to the door? To the criminal?"},
-{type:"mc",q:"Which is NOT a passive suffix?",opts:["-서 (and so)","이 (see → be seen)","히 (catch → be caught)","리 (open → be opened)"],ans:"-서 (and so)",hint:"-서 is a connector (because/and so). The passive suffixes are -이, -히, -리, -기."},
+{type:"mc",q:"Which is NOT a passive suffix?",opts:["-서 (and so)","이 (see → be seen)","히 (catch → be caught)","리 (open → be opened)"],ans:"-서 (and so)",hint:"Not all Korean connectors mark passive. The passive voice uses specific suffixes."},
 
 {type:"teach",nl:"끊기다",en:"to be cut off, disconnected",pos:"verb",gender:null,funFact:"Passive of 끊다 (to cut).",phonetic:"kkeun-gi-da",example:"A: 여보세요? 아까 전화가 끊겼어요. B: 네, 지하철이라서 끊겼나 봐요. A: 다시 연결됐네요. 뭐라고 하셨어요? B: 회의 시간이 바뀌었다고 했어요. A: 아, 알겠어요. 감사합니다.",exampleEn:"A: Hello? The call got cut off earlier. B: Yes, I think it dropped because of the subway. A: We're connected again. What were you saying? B: I said the meeting time changed. A: Ah, I see. Thank you.",note:"Passive of 끊다 (to cut).\n전화가 끊겼어요 = The call was cut off.\nSuffix: -기.",kind:"verb"},
 {type:"fb",s:"전화가 갑자기 {1}.\n(The phone call was suddenly ___.)",a:"끊겼어요",opts:["끊겼어요","끊었어요","끊어요","끊기세요"],hint:"The call was disconnected. Which passive form?"},
@@ -184,11 +184,11 @@ const UNIT_17 =
 {type:"fb",s:"한류 덕분에 한국 드라마가 전 세계에 {1}.\n(Thanks to Hallyu, Korean dramas became ___ worldwide.)",a:"알려졌어요",opts:["알려졌어요","알렸어요","알았어요","알려요"],hint:"Korean dramas became known. Passive."},
 {type:"drag_fill",s:"예전에는 한국 방송이 한국에서{1} 안 {2}. 지금은 전 세계 {3}가 봐요.\n(Korean broadcasts used to only be watched in Korea. Now viewers worldwide watch.)",blanks:{"1":"밖에","2":"봤어요","3":"시청자"},pool:["밖에","봤어요","시청자","만","봐요","방송"],hint:"Only watched in Korea (emphatic limitation + negative). Viewers worldwide."},
 
-{type:"fb",s:"이 기사는 기자에 {1} 작성되었어요.\n(This article was written by a journalist.)",a:["의해"],opts:["의해","대해","의하면","관해"],hint:"에 의해(서) = by (agent in passive). The journalist is the agent."},
-{type:"mc",q:"TV를 보다가 잠이 들었어요.\n(I fell asleep while watching TV.)",opts:["-다가 (interrupted action)","-(으)면서 (simultaneous)","-고 (sequential)","-아/어서 (cause)"],ans:"-다가 (interrupted action)",hint:"-다가: was doing X then switched/changed to Y. Watching then fell asleep."},
+{type:"fb",s:"이 기사는 기자에 {1} 작성되었어요.\n(This article was written by a journalist.)",a:["의해"],opts:["의해","대해","의하면","관해"],hint:"The passive agent marker shows who performed the action. The journalist acted."},
+{type:"mc",q:"TV를 보다가 잠이 들었어요.\n(I fell asleep while watching TV.)",opts:["-다가 (interrupted action)","-(으)면서 (simultaneous)","-고 (sequential)","-아/어서 (cause)"],ans:"-다가 (interrupted action)",hint:"The action-switch connector: was doing one thing, then switched to another."},
 {type:"drag_fill",s:"한국에는 김치{1} 없으면 식사가 {2}.\n(In Korea, if there is nothing but kimchi, the meal is not complete.)",blanks:{"1":"밖에","2":"안 돼요"},pool:["밖에","안 돼요","만","못 해요","뿐","없어요"],hint:"Nothing but kimchi. Emphatic limitation particle + negative = if there is only kimchi."},
 {type:"match",pairs:[{nl:"에 의해",en:"by (passive agent)"},{nl:"-다가",en:"while doing, then..."},{nl:"밖에 + neg",en:"nothing but / only"},{nl:"-이/히/리/기",en:"passive suffix"}]},
-{type:"mc",q:"이 건물은 유명한 건축가에 의해 설계되었어요.\n(This building was designed by a famous architect.)",opts:["에 의해 (passive agent)","에 대해 (about)","에 의하면 (according to)","에 관해 (regarding)"],ans:"에 의해 (passive agent)",hint:"에 의해 marks the agent in a passive sentence: designed BY the architect."},
+{type:"mc",q:"이 건물은 유명한 건축가에 의해 설계되었어요.\n(This building was designed by a famous architect.)",opts:["에 의해 (passive agent)","에 대해 (about)","에 의하면 (according to)","에 관해 (regarding)"],ans:"에 의해 (passive agent)",hint:"The passive agent marker shows who performed the action: designed by a person."},
 {type:"fb",s:"공부하{1} 친구한테 전화가 왔어요.\n(While studying, I got a call from a friend.)",a:["다가"],opts:["다가","면서","고","서"],hint:"Studying was interrupted by the phone call. Which connector shows a sudden switch?"},
 ]},
 
@@ -245,10 +245,10 @@ const UNIT_17 =
 {type:"fb",s:"이 뉴스에 의하면 경제가 {1} 있어요.\n(According to this news, the economy is improving.)",a:["좋아지고"],opts:["좋아지고","좋아해서","좋아하면","좋아져도"],hint:"에 의하면 (according to) + -아/어지다 (become) + -고 있다 (progressive)."},
 {type:"mc",q:"최근 한국에서 1인 가구가 많아지고 있어요.\n(Recently in Korea, single-person households are increasing.)",opts:["-아/어지다 + -고 있다","-게 되다 + -는 편이다","-기로 하다 + -고 있다","-나 보다 + -는데"],ans:"-아/어지다 + -고 있다",hint:"많아지다 (become many) + progressive: ongoing societal change."},
 {type:"drag_fill",s:"이 법은 국회에 {1} 만들어{2}.\n(This law was made by the National Assembly.)",blanks:{"1":"의해","2":"졌어요"},pool:["의해","졌어요","대해","져요","의하면","지고"],hint:"에 의해 (by agent) + passive -어지다: was made by."},
-{type:"mc",q:"뉴스를 보다가 중요한 소식을 들었어요.\n(While watching the news, I heard important information.)",opts:["-다가 (action interrupted)","-(으)면서 (simultaneous)","-고 (and then)","-아/어서 (because)"],ans:"-다가 (action interrupted)",hint:"-다가: watching was interrupted by hearing something important."},
+{type:"mc",q:"뉴스를 보다가 중요한 소식을 들었어요.\n(While watching the news, I heard important information.)",opts:["-다가 (action interrupted)","-(으)면서 (simultaneous)","-고 (and then)","-아/어서 (because)"],ans:"-다가 (action interrupted)",hint:"The action-interruption connector: was doing X when Y happened and interrupted it."},
 {type:"fb",s:"한국에서는 교육{1} 중요한 것은 없어요.\n(In Korea, nothing is as important as education.)",a:["밖에"],opts:["밖에","만큼","보다","처럼"],hint:"Nothing is as important as education. Which particle shows emphatic limitation?"},
 {type:"match",pairs:[{nl:"에 의해 만들어졌어요",en:"was made by"},{nl:"에 의하면",en:"according to"},{nl:"에 대해",en:"about / regarding"},{nl:"에 관해",en:"concerning"}]},
-{type:"mc",q:"전문가에 의하면 내년에 경제가 좋아질 거라고 해요.\n(According to experts, the economy will improve next year.)",opts:["에 의하면 + -(으)ㄹ 거라고 하다","에 의해 + -(으)ㄹ 거라고 하다","에 대해 + -겠다고 하다","에 의하면 + -겠다고 하다"],ans:"에 의하면 + -(으)ㄹ 거라고 하다",hint:"According to (에 의하면) + reported future statement."},
+{type:"mc",q:"전문가에 의하면 내년에 경제가 좋아질 거라고 해요.\n(According to experts, the economy will improve next year.)",opts:["에 의하면 + -(으)ㄹ 거라고 하다","에 의해 + -(으)ㄹ 거라고 하다","에 대해 + -겠다고 하다","에 의하면 + -겠다고 하다"],ans:"에 의하면 + -(으)ㄹ 거라고 하다",hint:"Citation form + reported future: according to a source, something will happen."},
 ]},
 
 // ── L8: 한국 사회 변화 (Social Changes) ──
@@ -276,12 +276,12 @@ const UNIT_17 =
 {type:"drag_fill",s:"한국이 예전에 {1}. 한강의 기적으로 {2}. 지금은 한류에 의해 문화가 전 세계에 {3}.\n(Korea used to be poor. Through the miracle, it grew. Now culture is known worldwide.)",blanks:{"1":"가난했었어요","2":"성장했어요","3":"알려졌어요"},pool:["가난했었어요","성장했어요","알려졌어요","가난해요","성장하는데","알렸어요"],hint:"Used to be poor (discontinued). Grew (simple past). Is known (passive)."},
 
 {type:"fb",s:"요즘 한국 사회가 빠르게 {1} 있어요.\n(Korean society is changing rapidly these days.)",a:["변하고"],opts:["변하고","변해서","변하면","변하는데"],hint:"-고 있다 progressive: ongoing societal change."},
-{type:"mc",q:"한국은 짧은 시간에 경제가 발전했었어요.\n(Korea developed economically in a short time (remote past).)",opts:["-았/었었 (remote past)","-았/었 (simple past)","-고 있었다 (past progressive)","-겠 (future)"],ans:"-았/었었 (remote past)",hint:"Double past -았/었었: the rapid development happened in the distant past."},
+{type:"mc",q:"한국은 짧은 시간에 경제가 발전했었어요.\n(Korea developed economically in a short time (remote past).)",opts:["-았/었었 (remote past)","-았/었 (simple past)","-고 있었다 (past progressive)","-겠 (future)"],ans:"-았/었었 (remote past)",hint:"The remote past form emphasizes distance from now. Something happened long ago."},
 {type:"drag_fill",s:"한국 문화가 세계에 {1} 사람들이 한국에 관심을 {2} 됐어요.\n(Korean culture spread worldwide and people came to be interested in Korea.)",blanks:{"1":"알려지면서","2":"갖게"},pool:["알려지면서","갖게","알려져서","갖고","알려지고","갖기로"],hint:"Passive (알려지다, become known) + -(으)면서 (while/as) + -게 되다 (came to)."},
-{type:"mc",q:"저출산 문제에 의해 한국 인구가 줄어들고 있어요.\n(Due to the low birth rate issue, the Korean population is decreasing.)",opts:["에 의해 + -고 있다","에 대해 + -게 되다","때문에 + -고 있다","에 의하면 + -는 편이다"],ans:"에 의해 + -고 있다",hint:"에 의해 (due to/by) + progressive: ongoing decrease caused by the issue."},
+{type:"mc",q:"저출산 문제에 의해 한국 인구가 줄어들고 있어요.\n(Due to the low birth rate issue, the Korean population is decreasing.)",opts:["에 의해 + -고 있다","에 대해 + -게 되다","때문에 + -고 있다","에 의하면 + -는 편이다"],ans:"에 의해 + -고 있다",hint:"Passive agent marker + progressive: the issue is currently causing an ongoing decrease."},
 {type:"fb",s:"예전에는 대가족이 많았{1} 지금은 핵가족이 많아요.\n(Before there were many large families but now nuclear families are common.)",a:["었는데"],opts:["었는데","어서","으면","어도"],hint:"-았/었었- (remote past, many large families used to exist) + -는데 (contrast with now)."},
 {type:"match",pairs:[{nl:"저출산",en:"low birth rate"},{nl:"고령화",en:"aging society"},{nl:"핵가족",en:"nuclear family"},{nl:"1인 가구",en:"single-person household"}]},
-{type:"mc",q:"한류에 의해 한국어를 배우는 외국인이 많아지고 있어요.\n(Due to the Korean Wave, foreigners learning Korean are increasing.)",opts:["에 의해 + -아/어지다 + -고 있다","에 대해 + -게 되다 + -는 편이다","때문에 + -아/어지다 + -고 있다","에 의하면 + -아/어지다 + -나 보다"],ans:"에 의해 + -아/어지다 + -고 있다",hint:"에 의해 (cause) + becoming more + progressive: three constructs."},
+{type:"mc",q:"한류에 의해 한국어를 배우는 외국인이 많아지고 있어요.\n(Due to the Korean Wave, foreigners learning Korean are increasing.)",opts:["에 의해 + -아/어지다 + -고 있다","에 대해 + -게 되다 + -는 편이다","때문에 + -아/어지다 + -고 있다","에 의하면 + -아/어지다 + -나 보다"],ans:"에 의해 + -아/어지다 + -고 있다",hint:"Passive cause + change-of-state + progressive: three forms describing an ongoing trend."},
 ]},
 
 // ── L9: 복습 + 퀴즈 ──
@@ -300,10 +300,10 @@ const UNIT_17 =
 {type:"mc",q:"소리를 낮춰요 uses 낮추다, which is:",opts:["Causative of 낮다 (make lower)","Passive of 낮다 (be lowered)","Active voice","Honorific form"],ans:"Causative of 낮다 (make lower)",hint:"낮추다 = make low/lower (causative). You're causing the volume to decrease."},
 {type:"drag_fill",s:"한국이 예전에 가난{1}. 한강의 기적으로 크게 {2}.\n(Korea used to be poor___. Through the Miracle on the Han River, it greatly ___.)",blanks:{"1":"했었어요","2":"발전했어요"},pool:["했었어요","발전했어요","해요","발전하는데","했어요"],hint:"Korea used to be poor. Through the Miracle on the Han River, it greatly developed."},
 
-{type:"mc",q:"TV를 보다가 잠이 들었어요.\n(I fell asleep while watching TV.)",opts:["-다가","-(으)면서","-고","-아/어서"],ans:"-다가",hint:"-다가 = was doing X then Y happened. Action interrupted or changed."},
-{type:"fb",s:"이 영화는 실화에 {1} 만들어졌어요.\n(This movie was based on a true story.)",a:["의해"],opts:["의해","대해","의하면","관해"],hint:"에 의해 = by (passive agent). Based on / made by."},
+{type:"mc",q:"TV를 보다가 잠이 들었어요.\n(I fell asleep while watching TV.)",opts:["-다가","-(으)면서","-고","-아/어서"],ans:"-다가",hint:"The interruption/switch connector: one action was in progress when a change occurred."},
+{type:"fb",s:"이 영화는 실화에 {1} 만들어졌어요.\n(This movie was based on a true story.)",a:["의해"],opts:["의해","대해","의하면","관해"],hint:"Passive agent marker: who performed the action or made the thing."},
 {type:"drag_fill",s:"시간이 {1} 없어서 커피{2} 마셨어요.\n(I only had time to drink coffee (nothing but coffee).)",blanks:{"1":"없어서","2":"밖에"},pool:["없어서","밖에","있어서","만","없는데","뿐"],hint:"Emphatic limitation + negative verb: only coffee, nothing else."},
-{type:"mc",q:"어릴 때 매일 축구를 했었는데 지금은 못 해요.\n(I used to play soccer every day as a child but now I cannot.)",opts:["-았/었었 (remote past) + -는데","-았/었 (simple past) + -지만","-고 있었다 (past prog) + -는데","-겠 + -는데"],ans:"-았/었었 (remote past) + -는데",hint:"Double past for discontinued habit + -는데 contrast with present."},
+{type:"mc",q:"어릴 때 매일 축구를 했었는데 지금은 못 해요.\n(I used to play soccer every day as a child but now I cannot.)",opts:["-았/었었 (remote past) + -는데","-았/었 (simple past) + -지만","-고 있었다 (past prog) + -는데","-겠 + -는데"],ans:"-았/었었 (remote past) + -는데",hint:"Remote past showing a discontinued habit, contrasted with the current situation."},
 {type:"match",pairs:[{nl:"보다가",en:"while watching, then..."},{nl:"에 의해",en:"by (passive agent)"},{nl:"밖에 없어요",en:"there is only / nothing but"},{nl:"-았/었었-",en:"remote/discontinued past"}]},
 {type:"fb",s:"뉴스에 의하면 내일 비가 {1} 해요.\n(According to the news, it is supposed to rain tomorrow.)",a:["온다고"],opts:["온다고","오냐고","오라고","오자고"],hint:"에 의하면 (according to) + -다고 하다 (reported statement)."},
 {type:"mc",q:"공부하다가 배가 고파서 라면을 끓여 먹었어요.\n(While studying, I got hungry so I boiled and ate ramen.)",opts:["-다가 + -아/어서 + -아/어 먹다","-다가 + -니까 + -게 되다","-(으)면서 + -아/어서 + -아/어 보다","-고 + -때문에 + -기로 하다"],ans:"-다가 + -아/어서 + -아/어 먹다",hint:"Interrupted action + cause + eating: three patterns combined."},

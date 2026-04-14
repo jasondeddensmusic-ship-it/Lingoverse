@@ -51,7 +51,7 @@ const UNIT_11 =
   {type:"drag_fill",s:"{1}로 서울에서 부산까지 가요. {2}에서 {3}를 샀어요.\n(I go from Seoul to Busan by ___. I bought a ___ at the ___.)",blanks:{"1":"KTX","2":"기차역","3":"표"},pool:["KTX","비행기","기차역","공항","표","짐"],hint:"Think: bullet train, station, and what you buy there."},
   {type:"mc",q:"창가 좌석 means:",opts:["Aisle seat","Window seat","First class seat","Standing ticket"],ans:"Window seat",hint:"창가 = by the window. 좌석 = seat. Window seat."},
 
-{type:"mc",q:"KTX로 부산에 가고 있는데 경치가 정말 좋아요.\n(I am going to Busan by KTX and the scenery is really beautiful.)",opts:["-로 + -고 있다 + -는데","-로 + -게 되다 + -지만","-으로 + -아/어 보다 + -네요","-로 + -고 있다 + -거든요"],ans:"-로 + -고 있다 + -는데",hint:"-로 (by means of) + progressive + background: three constructs."},
+{type:"mc",q:"KTX로 부산에 가고 있는데 경치가 정말 좋아요.\n(I am going to Busan by KTX and the scenery is really beautiful.)",opts:["-로 + -고 있다 + -는데","-로 + -게 되다 + -지만","-으로 + -아/어 보다 + -네요","-로 + -고 있다 + -거든요"],ans:"-로 + -고 있다 + -는데",hint:"This sentence uses three grammar forms: method, ongoing action, and background."},
 ]},
 
 // ═══ L3: -아/어 봤어요 (Experiential) ═══
@@ -74,7 +74,7 @@ const UNIT_11 =
   {type:"fb",s:"불고기를 먹어 봤어요? 네, 정말 ___.\n(Have you tried bulgogi? Yes, it was really delicious.)",a:"맛있었어요",opts:["맛있었어요","맛있어요","맛있을 거예요","맛없어요"],hint:"Past tense: it WAS delicious (after trying it)."},
   {type:"mc",q:"Which question asks about life experience?",opts:["어제 뭐 먹었어요?","한국 음식을 먹어 봤어요?","오늘 뭐 먹을 거예요?","지금 뭐 먹어요?"],ans:"한국 음식을 먹어 봤어요?",hint:"-어 봤어요 = the experiential pattern. Asks about any-time experience."},
 
-{type:"fb",s:"제주도에서 말을 타 {1}?\n(Have you tried riding a horse in Jeju?)",a:["봤어요"],opts:["봤어요","보고 있어요","볼 거예요","봐요"],hint:"-아/어 보다 past: 타 봤어요 = have you tried riding?"},
+{type:"fb",s:"제주도에서 말을 타 {1}?\n(Have you tried riding a horse in Jeju?)",a:["봤어요"],opts:["봤어요","보고 있어요","볼 거예요","봐요"],hint:"Express trying an experience in the past using the experiential ending."},
 {type:"mc",q:"한국 음식을 많이 먹어 봤는데 비빔밥이 제일 맛있었어요.\n(I tried many Korean foods and bibimbap was the most delicious.)",opts:["-아/어 보다 + -는데 + 제일","-아/어 보다 + -지만 + 가장","-게 되다 + -는데 + 더","-기로 하다 + -거든요 + 제일"],ans:"-아/어 보다 + -는데 + 제일",hint:"Experience + background + superlative: past experience leading to judgment."},
 {type:"drag_fill",s:"한복을 {1} 봤는데 정말 {2}.\n(I tried wearing hanbok and it was really pretty.)",blanks:{"1":"입어","2":"예뻤어요"},pool:["입어","예뻤어요","입고","예쁘게","입는","예뻐요"],hint:"-아/어 보다 (tried doing) + -는데 (and/but)."},
 ]},
@@ -123,7 +123,7 @@ const UNIT_11 =
   {type:"fb",s:"한라산에 올라___봤어요?\n(Have you tried climbing Hallasan?)",a:"가",opts:["가","간","갈","가고"],hint:"올라가다 (to climb up) → 올라가 봤어요."},
   {type:"mc",q:"A: 제주도 바다가 어때요? B: 정말 예뻐요! 어때요 means:",opts:["Where is it?","How is it?","When did you go?","What is it?"],ans:"How is it?",hint:"어때요 = how is it? Asking for opinion/impression."},
 
-{type:"fb",s:"제주도에 가{1} 비행기를 탔어요.\n(I took a plane to go to Jeju.)",a:["려고"],opts:["려고","면","서","는데"],hint:"-(으)려고 = in order to. Purpose for taking the plane."},
+{type:"fb",s:"제주도에 가{1} 비행기를 탔어요.\n(I took a plane to go to Jeju.)",a:["려고"],opts:["려고","면","서","는데"],hint:"State the purpose of boarding the aircraft using the purpose connector."},
 {type:"mc",q:"해녀 체험을 해 봤는데 정말 신기했어요.\n(I tried the haenyeo experience and it was really amazing.)",opts:["-아/어 보다 + -는데","-고 있다 + -지만","-게 되다 + -거든요","-기로 하다 + -네요"],ans:"-아/어 보다 + -는데",hint:"Tried (experience) + background/result."},
 {type:"match",pairs:[{nl:"비행기로 갔어요",en:"went by plane"},{nl:"배로 갔어요",en:"went by boat"},{nl:"버스로 갔어요",en:"went by bus"},{nl:"택시로 갔어요",en:"went by taxi"}]},
 ]},
@@ -143,9 +143,9 @@ const UNIT_11 =
   {type:"mc",q:"Which is correct for 'after eating'?",opts:["먹은 후에","먹는 후에","먹을 후에","먹고 후에"],ans:"먹은 후에",hint:"'After doing' uses the PAST modifier form. Consonant stems add 은."},
   {type:"fb",s:"표를 {1} 후에 기차를 기다렸어요.\n(After buying the ticket, I waited for the train.)",a:"산",opts:["산","사는","살","사"],hint:"사다 → 산 후에. Vowel stem: add ㄴ 후에."},
   {type:"match",pairs:[{nl:"먹은 후에",en:"after eating"},{nl:"도착한 후에",en:"after arriving"},{nl:"본 후에",en:"after seeing"},{nl:"만난 후에",en:"after meeting"}]},
-  {type:"mc",q:"점심을 먹은 후에 커피를 마셨어요. -고 나서 version:",opts:["점심을 먹고 나서 커피를 마셨어요","점심을 먹는데 커피를 마셨어요","점심을 먹으면 커피를 마셨어요","점심을 먹어서 커피를 마셨어요"],ans:"점심을 먹고 나서 커피를 마셨어요",hint:"-고 나서 and -(으)ㄴ 후에 both mean 'after doing.' -고 나서 is more casual."},
+  {type:"mc",q:"점심을 먹은 후에 커피를 마셨어요. -고 나서 version:",opts:["점심을 먹고 나서 커피를 마셨어요","점심을 먹는데 커피를 마셨어요","점심을 먹으면 커피를 마셨어요","점심을 먹어서 커피를 마셨어요"],ans:"점심을 먹고 나서 커피를 마셨어요",hint:"Use the casual 'after doing' connector. Lunch first, then coffee."},
   {type:"fb",s:"한국에 {1} 후에 한국어를 공부하기 시작했어요.\n(After coming to Korea, I started studying Korean.)",a:"온",opts:["온","오는","올","와"],hint:"오다 → 온 후에. Vowel stem: add ㄴ."},
-  {type:"mc",q:"'After checking in, I rested in the room.'\nWhich grammar fits?",opts:["체크인한 후에 방에서 쉬었어요","체크인하고 있는 방에서 쉬었어요","체크인하면 방에서 쉬었어요","체크인하는데 방에서 쉬었어요"],ans:"체크인한 후에 방에서 쉬었어요",hint:"-(으)ㄴ 후에 for 'after doing.' 체크인하다 → 체크인한 후에."},
+  {type:"mc",q:"'After checking in, I rested in the room.'\nWhich grammar fits?",opts:["체크인한 후에 방에서 쉬었어요","체크인하고 있는 방에서 쉬었어요","체크인하면 방에서 쉬었어요","체크인하는데 방에서 쉬었어요"],ans:"체크인한 후에 방에서 쉬었어요",hint:"After completing the registration process, rest in the room."},
   {type:"drag_fill",s:"비행기에서 {1} 후에 짐을 {2} 택시를 {3}.\n(After getting off the plane, I picked up luggage and took a taxi.)",blanks:{"1":"내린","2":"찾고","3":"탔어요"},pool:["내린","찾고","탔어요","내리는","찾은","타요"],hint:"내리다 → 내린 후에. Then 찾고 (picked up and) 탔어요 (took)."},
   {type:"fb",s:"여행을 끝{1} 후에 사진을 정리했어요.\n(After finishing the trip, I organized photos.)",a:"낸",opts:["낸","내는","내고","났"],hint:"끝내다 → 끝낸 후에. 내다 vowel stem: add ㄴ."},
   {type:"drag_fill",s:"KTX에서 {1} 후에 {2}한테 전화{3}.\n(After getting off the KTX, I called my friend.)",blanks:{"1":"내린","2":"친구","3":"했어요"},pool:["내린","친구","했어요","내리는","한테서","해요"],hint:"After getting off: 내린 후에. Called my friend: 친구한테 전화했어요."},
@@ -171,8 +171,8 @@ const UNIT_11 =
   {type:"drag_fill",s:"한국 음식을 {1} 식당에 {2}. 도착한 후에 메뉴를 {3}.\n(I went to a restaurant to eat Korean food. After arriving, I looked at the menu.)",blanks:{"1":"먹으러","2":"갔어요","3":"봤어요"},pool:["먹으러","갔어요","봤어요","먹어서","가요","보러"],hint:"Went to eat: 먹으러 갔어요. After arriving: 도착한 후에. Looked at: 봤어요."},
   {type:"drag_fill",s:"친구가 한국에 {1} 왔어요. 공항에서 내리{2} 저한테 전화{3}.\n(My friend came to Korea to travel. After getting off at the airport, they called me.)",blanks:{"1":"여행하러","2":"고 나서","3":"했어요"},pool:["여행하러","고 나서","했어요","여행해서","은 후에","해요"],hint:"Came to travel: 여행하러 왔어요. And then: -고 나서. Called me: 전화했어요."},
 
-{type:"fb",s:"점심을 {1} 식당에 갔어요.\n(I went to a restaurant to eat lunch.)",a:["먹으러"],opts:["먹으러","먹고","먹어서","먹으면"],hint:"-(으)러 가다 = go to do. 먹다 → 먹으러 가다."},
-{type:"mc",q:"친구를 만나러 카페에 가고 있어요.\n(I am going to a cafe to meet a friend.)",opts:["-(으)러 가다 + -고 있다","-(으)러 오다 + -고 있다","-(으)려고 + -고 있다","-(으)ㄹ 줄 알다 + -고 있다"],ans:"-(으)러 가다 + -고 있다",hint:"Purpose movement (-(으)러 가다) + progressive (-고 있다)."},
+{type:"fb",s:"점심을 {1} 식당에 갔어요.\n(I went to a restaurant to eat lunch.)",a:["먹으러"],opts:["먹으러","먹고","먹어서","먹으면"],hint:"Combine going somewhere with a purpose using the movement-purpose connector."},
+{type:"mc",q:"친구를 만나러 카페에 가고 있어요.\n(I am going to a cafe to meet a friend.)",opts:["-(으)러 가다 + -고 있다","-(으)러 오다 + -고 있다","-(으)려고 + -고 있다","-(으)ㄹ 줄 알다 + -고 있다"],ans:"-(으)러 가다 + -고 있다",hint:"Going to do something + currently in the middle of doing it."},
 {type:"drag_fill",s:"한국어를 {1} 학원에 {2}.\n(I go to an academy to learn Korean.)",blanks:{"1":"배우러","2":"다녀요"},pool:["배우러","다녀요","배우려고","가요","배우면","다니는데"],hint:"-(으)러 = purpose with movement verb. 배우다 → 배우러."},
 {type:"match",pairs:[{nl:"먹으러 가요",en:"go to eat"},{nl:"공부하러 가요",en:"go to study"},{nl:"운동하러 가요",en:"go to exercise"},{nl:"쇼핑하러 가요",en:"go to shop"}]},
 {type:"mc",q:"서울에서 부산까지 맛집을 찾으러 갔는데 줄이 너무 길었어요.\n(I went to find a famous restaurant from Seoul to Busan but the line was too long.)",opts:["-(으)러 가다 + -는데","-(으)러 가다 + -아/어서","-(으)려고 + -지만","-(으)러 오다 + -거든요"],ans:"-(으)러 가다 + -는데",hint:"Purpose movement + contrast: went for a purpose but encountered a problem."},
@@ -223,7 +223,7 @@ const UNIT_11 =
   {type:"mc",q:"걸어서 10분 정도 걸려요 means:",opts:["It takes about 10 minutes walking","The walk is 10 minutes away","I walked for 10 minutes","I can walk in 10 minutes"],ans:"It takes about 10 minutes walking",hint:"걸어서 = by walking. 10분 정도 = about 10 min. 걸려요 = it takes."},
 
 {type:"fb",s:"실례합니다, 서울역에 어떻게 {1}?\n(Excuse me, how do I get to Seoul Station?)",a:["가요"],opts:["가요","갔어요","갈 거예요","가고 있어요"],hint:"Asking for directions: present tense question form."},
-{type:"mc",q:"지하철로 가면 30분 걸리는데 버스로 가면 1시간 걸려요.\n(If you go by subway it takes 30 minutes but by bus it takes an hour.)",opts:["-로 + -(으)면 + -는데","-로 + -아/어서 + -지만","-으로 + -(으)면 + -거든요","-로 + -(으)니까 + -네요"],ans:"-로 + -(으)면 + -는데",hint:"-로 (by means of) + conditional + contrast: comparing transport options."},
+{type:"mc",q:"지하철로 가면 30분 걸리는데 버스로 가면 1시간 걸려요.\n(If you go by subway it takes 30 minutes but by bus it takes an hour.)",opts:["-로 + -(으)면 + -는데","-로 + -아/어서 + -지만","-으로 + -(으)면 + -거든요","-로 + -(으)니까 + -네요"],ans:"-로 + -(으)면 + -는데",hint:"Combine method of transport with a conditional and contrast for two ways to travel."},
 {type:"drag_fill",s:"여행 중에 길을 {1} 지도 앱을 {2}.\n(While traveling, I lost my way so I used a map app.)",blanks:{"1":"잃어버려서","2":"사용했어요"},pool:["잃어버려서","사용했어요","잃어버리면","사용해요","잃어버리는데","사용하고"],hint:"-아/어서 (cause) connecting two events during travel."},
 {type:"match",pairs:[{nl:"어떻게 가요?",en:"How do I get there?"},{nl:"얼마나 걸려요?",en:"How long does it take?"},{nl:"어디에서 내려요?",en:"Where do I get off?"},{nl:"몇 번 버스예요?",en:"What number bus is it?"}]},
 ]},
@@ -243,13 +243,13 @@ const UNIT_11 =
   {type:"drag_fill",s:"한국 사람들은 {1} 여행을 많이 해요. {2}에 가 봤어요? {3}가 많아요.\n(Koreans travel ___ a lot. Have you been to ___? There are many ___.)",blanks:{"1":"국내","2":"제주도","3":"관광지"},pool:["국내","해외","제주도","부산","관광지","숙소"],hint:"Think: inside the country, famous island, sightseeing places."},
 
 {type:"mc",q:"한국에서는 신발을 벗고 집에 들어가야 해요.\n(In Korea, you must take off your shoes before entering a house.)",opts:["-고 + -아/어야 하다","-아/어서 + -게 되다","-고 + -아/어도 되다","-지만 + -아/어야 하다"],ans:"-고 + -아/어야 하다",hint:"Two actions in sequence + a 'must' obligation. Which two patterns?"},
-{type:"fb",s:"한국 음식을 {1} 봤는데 정말 매웠어요.\n(I tried Korean food and it was really spicy.)",a:["먹어"],opts:["먹어","먹고","먹기","먹을"],hint:"-아/어 보다: tried eating. Past: 먹어 봤는데."},
+{type:"fb",s:"한국 음식을 {1} 봤는데 정말 매웠어요.\n(I tried Korean food and it was really spicy.)",a:["먹어"],opts:["먹어","먹고","먹기","먹을"],hint:"The experiential ending means 'try doing.' Combine with 봤는데 for past experience."},
 {type:"drag_fill",s:"한국에서 {1} 찜질방에 가 {2}.\n(When traveling in Korea, you should try going to a jjimjilbang.)",blanks:{"1":"여행할 때","2":"보세요"},pool:["여행할 때","보세요","여행하면","봐요","여행해서","봤어요"],hint:"-(으)ㄹ 때 (when) + -아/어 보다 (try) + -세요 (polite suggestion)."},
 {type:"mc",q:"찜질방에서 계란을 먹으면서 이야기하는 것이 한국 문화예요.\n(Eating eggs while talking at a jjimjilbang is Korean culture.)\nWhat does 먹으면서 이야기하는 mean here?",opts:["Eating and talking at the same time","Eating and then talking","Eating because of talking","Eating instead of talking"],ans:"Eating and talking at the same time",hint:"먹으면서 = while eating. Two actions happening simultaneously."},
-{type:"fb",s:"한국 사람들은 여행할 때 맛집을 {1} 가는 편이에요.\n(Korean people tend to look up famous restaurants when traveling.)",a:["찾아"],opts:["찾아","찾고","찾으면","찾는"],hint:"찾아 가다 = seek out and go. + -는 편이다 (tendency)."},
+{type:"fb",s:"한국 사람들은 여행할 때 맛집을 {1} 가는 편이에요.\n(Korean people tend to look up famous restaurants when traveling.)",a:["찾아"],opts:["찾아","찾고","찾으면","찾는"],hint:"Express the habit of going somewhere to find something, as a general tendency."},
 {type:"match",pairs:[{nl:"찜질방",en:"Korean bathhouse / sauna"},{nl:"노래방",en:"singing room / karaoke"},{nl:"PC방",en:"internet cafe"},{nl:"한옥",en:"traditional Korean house"}]},
-{type:"mc",q:"KTX로 부산에 갔는데 해운대가 정말 아름다웠어요.\n(I went to Busan by KTX and Haeundae was really beautiful.)",opts:["-로 + -는데","-로 + -아/어서","-로 + -지만","-로 + -거든요"],ans:"-로 + -는데",hint:"-로 (by means of) + -는데 (background/and): transport + narrative flow."},
-{type:"fb",s:"한국에서 택시를 타{1} 기사님이 친절했어요.\n(When I took a taxi in Korea, the driver was kind.)",a:["는데"],opts:["는데","서","면","지만"],hint:"-는데 for narrative background: setting up the taxi scene before the main point."},
+{type:"mc",q:"KTX로 부산에 갔는데 해운대가 정말 아름다웠어요.\n(I went to Busan by KTX and Haeundae was really beautiful.)",opts:["-로 + -는데","-로 + -아/어서","-로 + -지만","-로 + -거든요"],ans:"-로 + -는데",hint:"Combine method of transport with a background connector to set context."},
+{type:"fb",s:"한국에서 택시를 타{1} 기사님이 친절했어요.\n(When I took a taxi in Korea, the driver was kind.)",a:["는데"],opts:["는데","서","면","지만"],hint:"The background connector sets the scene before the main point is made."},
 {type:"drag_fill",s:"제주도에 {1} 봤는데 다시 {2} 싶어요.\n(I have been to Jeju and want to go again.)",blanks:{"1":"가","2":"가고"},pool:["가","가고","간","가는","가서","갈"],hint:"-아/어 보다 (have been/tried) + -고 싶다 (want to): experience + desire."},
 ]},
 
@@ -268,14 +268,14 @@ const UNIT_11 =
   {type:"fb",s:"하늘이 ___.\n(The sky is blue.)",a:"파래요",opts:["파래요","파랗아요","파라요","파란해요"],hint:"파랗다 is ㅎ-irregular. ㅎ drops before 아요 and the vowels merge."},
   {type:"fb",s:"눈이 ___.\n(The snow is white.)",a:"하얘요",opts:["하얘요","하얗아요","하야요","하얀해요"],hint:"하얗다 is ㅎ-irregular. ㅎ drops before 아요 and the vowels merge."},
   {type:"tip",title:"🎨 ㅎ-Irregular Modifier Forms",text:"Modifier form: ㅎ drops + ㄴ\n\n노랗다 → 노란 (yellow + noun)\n빨갛다 → 빨간 (red + noun)\n까맣다 → 까만 (black + noun)\n하얗다 → 하얀 (white + noun)\n파랗다 → 파란 (blue + noun)",deepDive:{title:"Color Modifiers in Action",text:"노란 꽃: yellow flower.\n빨간 사과: red apple.\n까만 고양이: black cat.\n하얀 구름: white cloud.\n파란 바다: blue sea.\n\nAll ㅎ-irregulars follow this:\nstem without ㅎ + ㄴ = modifier."}},
-  {type:"mc",q:"'Red apple' in Korean:",opts:["빨갛 사과","빨간 사과","빨개 사과","빨개요 사과"],ans:"빨간 사과",hint:"ㅎ-irregular modifier: 빨갛다 → 빨간 + noun."},
+  {type:"mc",q:"'Red apple' in Korean:",opts:["빨갛 사과","빨간 사과","빨개 사과","빨개요 사과"],ans:"빨간 사과",hint:"The irregular adjective drops its final consonant before the modifier ending -ㄴ."},
   {type:"fb",s:"___고양이가 귀여워요.\n(The black cat is cute.)",a:"까만",opts:["까만","까매","까맣","까매요"],hint:"까맣다 ㅎ-irregular modifier: ㅎ drops, add ㄴ. What's the modifier form?"},
   {type:"match",pairs:[{nl:"노란",en:"yellow (modifier)"},{nl:"빨간",en:"red (modifier)"},{nl:"까만",en:"black (modifier)"},{nl:"파란",en:"blue (modifier)"}]},
   {type:"drag_fill",s:"{1} 하늘에 {2} 구름이 있어요. {3} 꽃이 예뻐요.\n(In the ___ sky, there are ___ clouds. The ___ flowers are pretty.)",blanks:{"1":"파란","2":"하얀","3":"노란"},pool:["파란","빨간","하얀","까만","노란","초록"],hint:"All ㅎ-irregular modifiers: sky, cloud, and flower colors."},
   {type:"mc",q:"까맣다 → 까매요, 노랗다 → 노래요.\nWhat happens to ㅎ in these words?",opts:["ㅎ drops before vowel endings","ㅎ changes to ㄹ","ㅎ stays the same","ㅎ becomes ㅂ"],ans:"ㅎ drops before vowel endings",hint:"In ㅎ-irregular adjectives, the ㅎ disappears when a vowel ending follows."},
 
 {type:"fb",s:"날씨가 {1} 산책하기 좋아요.\n(The weather is cool so it is nice for a walk.)",a:["선선해서"],opts:["선선해서","선선하면","선선한데","선선해도"],hint:"Cool weather, so good for walking. 선선하다 is regular 하다: stem + -아/어서 for cause."},
-{type:"mc",q:"이 노란 꽃이 정말 예쁘네요!\n(This yellow flower is really pretty!)",opts:["노랗다 → 노란 (ㅎ-irregular modifier)","노랗다 → 노랗은 (regular)","노랗다 → 노라은 (ㄹ drop)","노랗다 → 노래은 (vowel shift)"],ans:"노랗다 → 노란 (ㅎ-irregular modifier)",hint:"ㅎ-irregular adjectives: 노랗다 → 노란 (ㅎ drops, ㄴ modifier). Same as 빨갛다 → 빨간."},
+{type:"mc",q:"이 노란 꽃이 정말 예쁘네요!\n(This yellow flower is really pretty!)",opts:["노랗다 → 노란 (ㅎ-irregular modifier)","노랗다 → 노랗은 (regular)","노랗다 → 노라은 (ㄹ drop)","노랗다 → 노래은 (vowel shift)"],ans:"노랗다 → 노란 (ㅎ-irregular modifier)",hint:"Color adjectives of this irregular class drop the final consonant when adding a modifier."},
 ]},
 
 // ═══ L10: 복습 + 퀴즈 ═══
@@ -284,7 +284,7 @@ const UNIT_11 =
   {type:"mc",q:"제주도에 가 봤어요? asks about:",opts:["Future plans","Life experience","Current action","Past specific event"],ans:"Life experience",hint:"-아/어 봤어요 = experiential. Have you ever...?"},
   {type:"mc",q:"지금 비가 오고 있어요 means:",opts:["It rained","It will rain","It is raining right now","It might rain"],ans:"It is raining right now",hint:"-고 있다 = progressive. Happening now."},
   {type:"mc",q:"한국어를 읽을 줄 알아요 means:",opts:["I can read Korean (possible)","I know how to read Korean (skill)","I am reading Korean","I want to read Korean"],ans:"I know how to read Korean (skill)",hint:"줄 알다 = know how to. Learned skill."},
-  {type:"mc",q:"노랗다 → modifier form:",opts:["노랗은","노란","노래","노래요"],ans:"노란",hint:"ㅎ-irregular modifier: ㅎ drops + ㄴ. 노란 + noun."},
+  {type:"mc",q:"노랗다 → modifier form:",opts:["노랗은","노란","노래","노래요"],ans:"노란",hint:"This yellow color adjective follows the ㅎ-irregular modifier pattern."},
   {type:"fb",s:"설악산에 가___봤어요?\n(Have you been to Seoraksan?)",a:"아",opts:["아","어","해","고"],hint:"가다 has a bright vowel stem (ㅏ). Which vowel connects bright stems to 보다?"},
   {type:"fb",s:"지금 뭐 하___있어요?\n(What are you doing now?)",a:"고",opts:["고","어","아","는"],hint:"What are you doing now? Progressive: which particle links the stem to 있다?"},
   {type:"fb",s:"수영할 줄 ___?\n(Do you know how to swim?)",a:"알아요",opts:["알아요","몰라요","있어요","봤어요"],hint:"Asking about ability. 줄 알다 = know how to."},
@@ -297,7 +297,7 @@ const UNIT_11 =
   {type:"mc",q:"버스로 30분쯤 걸려요 means:",opts:["It takes about 30 minutes by bus","The bus costs 30 won","I rode the bus for 30 minutes","The bus stop is 30 minutes away"],ans:"It takes about 30 minutes by bus",hint:"버스로 = by bus. 쯤 = about. 걸려요 = it takes (duration)."},
   {type:"mc",q:"Which is ㅎ-irregular?",opts:["먹다","가다","크다","하얗다"],ans:"하얗다",hint:"ㅎ-irregulars are mostly color adjectives ending in ㅎ."},
 
-{type:"mc",q:"버스로 서울에서 부산까지 4시간 반 걸렸어요.\n(It took 4 and a half hours from Seoul to Busan by bus.)",opts:["-로 + 에서...까지 + 걸리다","-를 + 에서...까지 + 타다","-로 + 부터...까지 + 걸리다","-로 + 에서...까지 + 가다"],ans:"-로 + 에서...까지 + 걸리다",hint:"-로 (by means of) + 에서...까지 (from...to) + 걸리다 (takes time)."},
+{type:"mc",q:"버스로 서울에서 부산까지 4시간 반 걸렸어요.\n(It took 4 and a half hours from Seoul to Busan by bus.)",opts:["-로 + 에서...까지 + 걸리다","-를 + 에서...까지 + 타다","-로 + 부터...까지 + 걸리다","-로 + 에서...까지 + 가다"],ans:"-로 + 에서...까지 + 걸리다",hint:"Combine transport method, distance range, and duration verb in one sentence."},
 {type:"fb",s:"한국에 와 {1} 한국 문화를 많이 배웠어요.\n(Since coming to Korea, I have learned a lot about Korean culture.)",a:["서"],opts:["서","면","는데","도"],hint:"-아/어서 (since/because): reason for learning about culture."},
 {type:"drag_fill",s:"제주도에 {1} 봤는데 다음에는 경주에 {2} 싶어요.\n(I have visited Jeju but next time I want to go to Gyeongju.)",blanks:{"1":"가","2":"가고"},pool:["가","가고","간","가려고","가서","가기"],hint:"-아/어 보다 (experienced) + -고 싶다 (want to): comparing travel experiences."},
 {type:"match",pairs:[{nl:"KTX로 2시간 걸려요",en:"Takes 2 hours by KTX"},{nl:"비행기로 1시간 걸려요",en:"Takes 1 hour by plane"},{nl:"버스로 4시간 걸려요",en:"Takes 4 hours by bus"},{nl:"지하철로 30분 걸려요",en:"Takes 30 minutes by subway"}]},

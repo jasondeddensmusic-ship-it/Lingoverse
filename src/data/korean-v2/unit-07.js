@@ -56,7 +56,7 @@ const UNIT_7 =
   {type:"match",pairs:[{nl:"갔어요",en:"went"},{nl:"먹었어요",en:"ate"},{nl:"했어요",en:"did"},{nl:"봤어요",en:"saw/watched"}]},
   {type:"drag_fill",s:"어제 영화를 {1}. 팝콘을 {2}. 재미있었어요!",blanks:{"1":"봤어요","2":"먹었어요"},pool:["봤어요","먹었어요","봐요","먹어요","했어요"],hint:"Yesterday I watched a movie. I ate popcorn. It was fun!"},
   {type:"tip",title:"👂 합쇼체 Past  -  Just Recognize",text:"합쇼체 past tense  -  just recognize, do not memorize yet:\n\n갔습니다 = went (formal)\n먹었습니다 = ate (formal)\n했습니다 = did (formal)\n왔습니다 = came (formal)\n\nYou will hear these in news, speeches, announcements.",deepDive:{title:"Why Two Speech Levels?",text:"For now: see -습니다/-었습니다? That is 합쇼체 past.\n\n해요체 (polite casual): 했어요\n합쇼체 (polite formal): 했습니다\n\nBoth are polite. The difference:\n해요체: conversations, daily life, most situations\n합쇼체: presentations, news, speeches, service industry\n\nA barista says: 감사합니다 (합쇼체)\nYour friend says: 고마워요 (해요체)\n\nYou're building 해요체 first because it covers 90% of daily life."}},
-  {type:"mc",q:"먹었습니다 is the ___ form of 먹었어요:",opts:["반말 (casual speech)","합쇼체 (formal polite)","해요체 (polite casual)","사투리 (regional dialect)"],ans:"합쇼체 (formal polite)",hint:"합쇼체: -습니다/-ㅂ니다 endings. Formal but polite."},
+  {type:"mc",q:"먹었습니다 is the ___ form of 먹었어요:",opts:["반말 (casual speech)","합쇼체 (formal polite)","해요체 (polite casual)","사투리 (regional dialect)"],ans:"합쇼체 (formal polite)",hint:"The formal speech level is used in public announcements and professional settings."},
   {type:"mc",q:"'It was fun'  -  재미있다 → past tense:",opts:["재미있었어요","재미있았어요","재미있해요","재미있어요"],ans:"재미있었어요",hint:"있다: dark vowel → 었어요. 재미있 + 었어요."},
 ]},
 
@@ -153,7 +153,7 @@ const UNIT_7 =
   {type:"tip",title:"📋 Negative Past  -  Complete Map",text:"Four ways to negate in past tense:\n\n안 + past: 안 먹었어요 = did not eat (by choice)\n못 + past: 못 갔어요 = could not go (inability)\n-지 않았어요: 먹지 않았어요 = did not eat (formal/emphatic)",deepDive:{title:"Full Achievement List",text:"-지 못했어요: 가지 못했어요 = could not go (formal/emphatic)\n\nExamples:\n안 먹었어요 = 먹지 않았어요 (didn't eat)\n못 먹었어요 = 먹지 못했어요 (couldn't eat)\n\nShort forms: casual, spoken Korean.\nLong forms: slightly more formal, written Korean.\nMeaning is identical within each pair."}},
   {type:"mc",q:"'I didn't go' (by choice)  -  short form:",opts:["안 갔어요","못 갔어요","가지 않았어요","안 가요"],ans:"안 갔어요",hint:"안 = by choice. 안 + past"},
   {type:"mc",q:"'I couldn't go' (unable)  -  short form:",opts:["안 갔어요","못 갔어요","가지 못했어요","못 가요"],ans:"못 갔어요",hint:"못 = unable. 못 + past"},
-  {type:"mc",q:"'I didn't study'  -  long form:",opts:["공부 안 했어요","공부하지 않았어요","공부를 못했어요","공부하지 못했어요"],ans:"공부하지 않았어요",hint:"Long form: stem + 지 않았어요. 공부하 + 지 않았어요."},
+  {type:"mc",q:"'I didn't study'  -  long form:",opts:["공부 안 했어요","공부하지 않았어요","공부를 못했어요","공부하지 못했어요"],ans:"공부하지 않았어요",hint:"Use the long-form past negation: attach the negative ending after the verb stem."},
   {type:"tip",title:"📖 Preview: -아/어서 (because / so)",text:"You'll see -아/어서 in the next exercises. Just read it as 'because' or 'so':\n\n아파서 = because (I'm) sick\n비가 와서 = because it rained\n바빠서 = because (I'm) busy\n\nThe full lesson on -아/어서 comes later. For now: just recognise it.",deepDive:{title:"Why Korean Explains Reasons First",text:"Korean naturally explains WHY before WHAT happened:\n\n아파서 못 갔어요.\n= Because (I was) sick, couldn't go.\n\n비가 와서 못 나갔어요.\n= Because it rained, couldn't go out.\n\nPattern: [reason]-아/어서 + [result].\n\nYou don't need to produce this yet.\nJust read it when you see it."}},
   {type:"mc",q:"아파서 학교에 ___.\n(I was sick so I couldn't go to school.)",opts:["안 갔어요","못 갔어요","가지 않았어요","안 갈 거예요"],ans:"못 갔어요",hint:"Sick = unable (못). Not a choice."},
   {type:"mc",q:"배가 안 고파서 ___.\n(I wasn't hungry so I didn't eat.)",opts:["못 먹었어요","안 먹었어요","먹지 못했어요","먹을 수 없었어요"],ans:"안 먹었어요",hint:"Not hungry = choice not to eat (안)."},
@@ -163,7 +163,7 @@ const UNIT_7 =
   {type:"fb",s:"어제 ___ 먹었어요. 배가 안 고팠어요.\n(I didn't eat yesterday. I wasn't hungry.)",a:"안",opts:["안","못","잘","많이"],hint:"Not hungry = chose not to eat = 안."},
   {type:"match",pairs:[{nl:"안 갔어요",en:"didn't go (choice)"},{nl:"못 갔어요",en:"couldn't go (unable)"},{nl:"가지 않았어요",en:"didn't go (long form)"},{nl:"가지 못했어요",en:"couldn't go (long form)"}]},
   {type:"drag_fill",s:"어제 비가 와서 학교에 {1} 갔어요. 집에서 공부{2} 않았어요. 텔레비전을 {3}.",blanks:{"1":"못","2":"하지","3":"봤어요"},pool:["못","안","하지","하고","봤어요","봐요"],hint:"It rained so I couldn't go to school. I didn't study at home. I watched TV."},
-  {type:"mc",q:"Which pair has the same meaning?",opts:["안 먹었어요 / 못 먹었어요","안 갔어요 / 가지 않았어요","못 했어요 / 하지 않았어요","안 갔어요 / 가지 못했어요"],ans:"안 갔어요 / 가지 않았어요",hint:"Short 안 + past = long -지 않았어요. Same meaning, different form."},
+  {type:"mc",q:"Which pair has the same meaning?",opts:["안 먹었어요 / 못 먹었어요","안 갔어요 / 가지 않았어요","못 했어요 / 하지 않았어요","안 갔어요 / 가지 못했어요"],ans:"안 갔어요 / 가지 않았어요",hint:"The short negation 안 and the long negation form are interchangeable for the same sentence."},
   {type:"mc",q:"다리를 다쳐서 ___ 걸었어요.\n(I hurt my leg so I couldn't walk.)",opts:["안","못","잘","많이"],ans:"못",hint:"Injury = inability = 못."},
 ]},
 
@@ -183,7 +183,7 @@ const UNIT_7 =
   {type:"mc",q:"배가 고파___ 밥을 먹었어요.\n(I was hungry so I ate.)",opts:["-고","-서","-지만","-에"],ans:"-서",hint:"-아/어서: because. 고프(다) + 아서 = 고파서."},
   {type:"mc",q:"일어나서 밥을 ___. Which is correct?",opts:["먹었어요","먹어요","먹서요","먹고요"],ans:"먹었어요",hint:"With -아/어서, tense only on the LAST verb."},
   {type:"mc",q:"주말 = 주 + 말. 말 means:",opts:["Words","Horse","End","Week"],ans:"End",hint:"말 (末) = end. 주말 = week-end = weekend."},
-  {type:"mc",q:"Which -아/어서 sentence has a tense error?",opts:["일어나서 밥 먹었어요","일어났어서 밥 먹었어요","밥 먹고 커피 마셨어요","집에 가서 쉬었어요"],ans:"일어났어서 밥 먹었어요",hint:"-아/어서: tense ONLY on the last verb. 일어났어서 is wrong."},
+  {type:"mc",q:"Which -아/어서 sentence has a tense error?",opts:["일어나서 밥 먹었어요","일어났어서 밥 먹었어요","밥 먹고 커피 마셨어요","집에 가서 쉬었어요"],ans:"일어났어서 밥 먹었어요",hint:"The sequential connector -아/어서 never takes tense. Only the final verb is tensed."},
   {type:"fb",s:"일찍 일어나___ 운동했어요.\n(I woke up early and exercised.)",a:"서",opts:["서","고","지만","는"],hint:"Natural sequence: woke up → exercised. -아/어서."},
   {type:"fb",s:"방을 청소___  한국어를 공부했어요.\n(I cleaned my room and studied Korean.)",a:"하고",opts:["하고","해서","하지만","하면"],hint:"-고: and/and then. Two parallel activities."},
   {type:"fb",s:"피곤___  집에서 쉬었어요.\n(I was tired so I rested at home.)",a:"해서",opts:["해서","하고","하지만","하면"],hint:"Being tired caused resting. Which connector shows cause → result?"},
@@ -235,7 +235,7 @@ const UNIT_7 =
   {type:"drag_fill",s:"어제 친구를 {1}. 같이 카페에 {2}. 커피를 {3}. {4}!",blanks:{"1":"만났어요","2":"갔어요","3":"마셨어요","4":"재미있었어요"},pool:["만났어요","갔어요","마셨어요","재미있었어요","먹었어요","봤어요"],hint:"Yesterday I met a friend. We went to a café together. We drank coffee. It was fun!"},
   {type:"drag_fill",s:"토요일에 찜질방에 {1}. 삶은 계란을 {2}. 일요일에 집에서 {3}.",blanks:{"1":"갔어요","2":"먹었어요","3":"쉬었어요"},pool:["갔어요","먹었어요","쉬었어요","봤어요","했어요","왔어요"],hint:"Saturday went to jjimjilbang. Ate boiled eggs. Sunday rested at home."},
   {type:"tip",title:"🎉 Past Tense Mastered",text:"What you can do now:\n\n✅ Talk about the past (았/었/했어요)\n✅ Use time words to anchor events\n✅ Handle ㄷ and ㅂ irregular verbs",deepDive:{title:"Skills Unlocked and What Comes Next",text:"✅ Negate in the past (안/못 + past)\n✅ Chain events with -고 and -아/어서\n\n✅ Recognize verb modifiers (먹는 음식)\n\nNext you will learn:\n건강 (health) vocabulary\nConditional: -(으)면 (if)\n-아/어야 하다 (must/have to)\nCultural anchor: Korean healthcare system\n\nYou're building real Korean now. 화이팅! (You can do it!)"}},
-  {type:"mc",q:"You've mastered past tense. Your past tense formula is:",opts:["stem + 요","stem + 았/었/했 + 어요","stem + 겠어요","stem + ㅂ니다"],ans:"stem + 았/었/했 + 어요",hint:"Past = stem + [tense car: 았/었/했] + 어요."},
+  {type:"mc",q:"You've mastered past tense. Your past tense formula is:",opts:["stem + 요","stem + 았/었/했 + 어요","stem + 겠어요","stem + ㅂ니다"],ans:"stem + 았/었/했 + 어요",hint:"The past tense uses three possible endings depending on the vowel harmony of the stem."},
 ]},
 
 ]};
