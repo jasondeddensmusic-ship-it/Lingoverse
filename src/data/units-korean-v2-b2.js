@@ -23,6 +23,10 @@ import UNIT_54 from './korean-v2/unit-54.js';
 import UNIT_55 from './korean-v2/unit-55.js';
 import UNIT_56 from './korean-v2/unit-56.js';
 import UNIT_57 from './korean-v2/unit-57.js';
+import UNIT_58 from './korean-v2/unit-58.js';
+import UNIT_59 from './korean-v2/unit-59.js';
+import UNIT_60 from './korean-v2/unit-60.js';
+import UNIT_61 from './korean-v2/unit-61.js';
 
 const KOREAN_V2_B2 = [
   UNIT_21, UNIT_22, UNIT_23, UNIT_24, UNIT_25,
@@ -30,6 +34,7 @@ const KOREAN_V2_B2 = [
   UNIT_46, UNIT_47, UNIT_48, UNIT_49,
   UNIT_50, UNIT_51, UNIT_52, UNIT_53,
   UNIT_54, UNIT_55, UNIT_56, UNIT_57,
+  UNIT_58, UNIT_59, UNIT_60, UNIT_61,
 ];
 
 export default KOREAN_V2_B2;
