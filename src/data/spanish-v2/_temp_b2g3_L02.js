@@ -1,0 +1,50 @@
+// Spanish B2 Gap Batch 3 - Lesson 2: Business & Commerce
+// 20 teach cards + quizzes, max 30 steps
+
+const LESSON_2 = {id:"esv2_b2g3_l2", title:"Negocios y comercio", icon:"📊", xp:15, board:true, steps:[
+  {type:"intro", title:"Negocios y comercio", desc:"Learn essential business vocabulary for discussing trade, competition, and the corporate world in Spanish.", goals:["Learn 15+ business and commerce terms","Discuss international trade","Talk about corporate structures"]},
+
+  {type:"teach", trg:"el comercio exterior", src:"foreign trade", pos:"noun", gender:"m", note:"Comercio (trade) + exterior (foreign).\nRefers to imports and exports between countries.", example:"A: España depende mucho del comercio exterior.\nB: Sí, sobre todo con la Unión Europea.", exampleSrc:"A: Spain depends a lot on foreign trade.\nB: Yes, especially with the European Union.", funFact:"Spain's top trade partners are France, Germany, and Portugal. Over 60% of trade is within the EU."},
+
+  {type:"teach", trg:"la contratación", src:"the hiring / contracting", pos:"noun", gender:"f", note:"From contratar (to hire). The process of bringing someone on board.", example:"A: La contratación de personal se ha paralizado.\nB: Es por los recortes presupuestarios.", exampleSrc:"A: The hiring of staff has been frozen.\nB: It's because of the budget cuts.", funFact:"In Spain, contratos temporales (temporary contracts) are extremely common, a major topic of labour reform debates."},
+
+  {type:"teach", trg:"la competitividad", src:"competitiveness", pos:"noun", gender:"f", note:"From competir (to compete). Ability to compete effectively.\nEnds in -idad, a very productive suffix.", example:"A: ¿Cómo mejorar la competitividad de la empresa?\nB: Invirtiendo en innovación y formación.", exampleSrc:"A: How to improve the company's competitiveness?\nB: By investing in innovation and training.", funFact:"The -idad suffix creates abstract feminine nouns from adjectives: competitivo > competitividad, like English -ity."},
+
+  {type:"teach", trg:"la agencia de publicidad", src:"the advertising agency", pos:"noun", gender:"f", note:"Agencia (agency) + de publicidad (of advertising).\nA company that creates ads and campaigns.", example:"A: Trabajan con una agencia de publicidad muy conocida.\nB: ¿Cuál? ¿La de la campaña del verano?", exampleSrc:"A: They work with a very well-known advertising agency.\nB: Which one? The one from the summer campaign?", funFact:"Madrid's Gran Vía was once called the 'Spanish Broadway' partly due to its massive advertising billboards."},
+
+  {type:"teach", trg:"el distribuidor", src:"the distributor", pos:"noun", gender:"m", note:"Male form. Female: la distribuidora.\nAlso used for vending machines in some regions.", example:"A: Somos el distribuidor oficial de esta marca en España.\nB: ¿Desde cuándo tenéis el contrato?", exampleSrc:"A: We are the official distributor of this brand in Spain.\nB: Since when have you had the contract?", funFact:"From Latin distribuere (to divide up). In film, la distribuidora is the company that releases movies."},
+
+  {type:"teach", trg:"el convenio colectivo", src:"the collective agreement", pos:"noun", gender:"m", note:"A negotiated labour agreement between employers and unions.\nConvenio = agreement, colectivo = collective.", example:"A: El convenio colectivo establece treinta días de vacaciones.\nB: Es uno de los mejores del sector.", exampleSrc:"A: The collective agreement establishes thirty days of holiday.\nB: It's one of the best in the sector.", funFact:"Spanish labour law heavily relies on convenios colectivos. They cover wages, hours, and conditions for entire industries."},
+
+  {type:"mc", q:"¿Qué establece un convenio colectivo?", opts:["Las condiciones laborales de un sector","El precio de los productos","Los horarios de los autobuses","Las notas de los estudiantes"], ans:"Las condiciones laborales de un sector", hint:"This is a labour agreement negotiated between workers and employers."},
+
+  {type:"teach", trg:"el asociado", src:"the associate / partner", pos:"noun", gender:"m", note:"Male form. Female: la asociada.\nFrom asociar (to associate).", example:"A: Te presento a mi asociado, el señor García.\nB: Encantado. He oído hablar mucho de usted.", exampleSrc:"A: Let me introduce my business partner, Mr. García.\nB: Pleased to meet you. I've heard a lot about you.", funFact:"Asociado can mean business partner or a member of an association. In law firms, it means junior partner."},
+
+  {type:"teach", trg:"la contraprestación", src:"the consideration / compensation", pos:"noun", gender:"f", note:"Legal/business term. Something given in return for a service.\nContra (against) + prestación (provision).", example:"A: ¿Cuál es la contraprestación por el servicio?\nB: Quinientos euros mensuales.", exampleSrc:"A: What is the compensation for the service?\nB: Five hundred euros monthly.", funFact:"In contract law, contraprestación is essential: every valid contract needs mutual obligations. No free lunches."},
+
+  {type:"teach", trg:"la conveniencia", src:"the convenience / suitability", pos:"noun", gender:"f", note:"From conveniente (convenient).\nOften used in formal discussions about what is appropriate.", example:"A: Debatimos la conveniencia de abrir una nueva sede.\nB: Yo creo que es pronto para expandirse.", exampleSrc:"A: We debated the suitability of opening a new office.\nB: I think it's too soon to expand.", funFact:"Conveniencia in Spanish leans more toward 'suitability' than the English 'convenience store' meaning."},
+
+  {type:"fb", s:"La empresa ha mejorado su {1} gracias a la inversión en tecnología.", a:["competitividad"], opts:["competitividad","contratación","conveniencia","contraprestación"], hint:"The ability to compete effectively in the market.", sSrc:"The company has improved its {1} thanks to investment in technology."},
+
+  {type:"teach", trg:"la coproducción", src:"the co-production", pos:"noun", gender:"f", note:"Co- (together) + producción (production).\nTwo or more parties producing something together.", example:"A: La película es una coproducción hispano-francesa.\nB: Por eso tiene actores de ambos países.", exampleSrc:"A: The film is a Spanish-French co-production.\nB: That's why it has actors from both countries.", funFact:"Spain and France frequently co-produce films. The prefix co- works the same in Spanish as in English."},
+
+  {type:"teach", trg:"el conglomerado", src:"the conglomerate", pos:"noun", gender:"m", note:"A large corporation made up of many smaller companies.\nAlso used in geology for a type of rock.", example:"A: Ese conglomerado controla periódicos, radios y televisiones.\nB: Tienen demasiado poder mediático.", exampleSrc:"A: That conglomerate controls newspapers, radio, and TV stations.\nB: They have too much media power.", funFact:"From Latin conglomerare (to roll together). The geological and business meanings both suggest things clumped together."},
+
+  {type:"teach", trg:"el desempeño", src:"the performance (at work)", pos:"noun", gender:"m", note:"From desempeñar (to carry out, to perform).\nUsed for job performance evaluations.", example:"A: Tu desempeño este trimestre ha sido excelente.\nB: Gracias, he trabajado muy duro.", exampleSrc:"A: Your performance this quarter has been excellent.\nB: Thank you, I've worked very hard.", funFact:"Desempeñar literally means 'to un-pawn' (des- + empeñar). It evolved from redeeming pledges to fulfilling duties."},
+
+  {type:"mc", q:"¿Qué es un conglomerado empresarial?", opts:["Una empresa pequeña familiar","Un grupo de empresas bajo una misma corporación","Una tienda de barrio","Un sindicato de trabajadores"], ans:"Un grupo de empresas bajo una misma corporación", hint:"Think of many companies rolled together under one corporate umbrella."},
+
+  {type:"teach", trg:"la dotación", src:"the allocation / staffing", pos:"noun", gender:"f", note:"From dotar (to provide, to equip).\nCan mean funding allocation or the staff assigned.", example:"A: La dotación presupuestaria para educación ha aumentado.\nB: Ya era hora, hacía falta más inversión.", exampleSrc:"A: The budget allocation for education has increased.\nB: It was about time, more investment was needed.", funFact:"In the Navy, la dotación refers to the crew of a ship. The word always implies 'providing what is needed'."},
+
+  {type:"teach", trg:"efectuar", src:"to carry out / to make (formal)", pos:"verb", gender:null, note:"Formal synonym of hacer or realizar.\nCommon in business and legal language.", example:"A: ¿Cuándo van a efectuar el pago?\nB: Lo efectuaremos antes del viernes.", exampleSrc:"A: When will you make the payment?\nB: We will make it before Friday.", funFact:"From Latin effectuare. It sounds very formal in everyday speech but is standard in contracts and official documents."},
+
+  {type:"fb", s:"Es necesario {1} los cambios antes de fin de mes.", a:["efectuar"], opts:["efectuar","asociar","distribuir","contratar"], hint:"A formal way to say 'carry out' or 'make happen' in business contexts.", sSrc:"It is necessary to {1} the changes before the end of the month."},
+
+  {type:"match", pairs:[{trg:"comercio exterior", src:"foreign trade"},{trg:"contratación", src:"hiring"},{trg:"distribuidor", src:"distributor"},{trg:"desempeño", src:"job performance"},{trg:"dotación", src:"allocation / staffing"}]},
+
+  {type:"mc", q:"'La contratación de personal se ha paralizado.' ¿Qué significa?", opts:["Han dejado de contratar empleados","Han subido los sueldos","Han abierto nuevas oficinas","Han firmado un convenio"], ans:"Han dejado de contratar empleados", hint:"Paralizar means to freeze or stop. The hiring process has been halted."},
+
+  {type:"fb", s:"La {1} entre España y Francia ha dado muy buenos resultados.", a:["coproducción"], opts:["coproducción","competitividad","contratación","conveniencia"], hint:"When two countries produce something together, like a film.", sSrc:"The {1} between Spain and France has given very good results."}
+]};
+
+export default LESSON_2;

@@ -1,0 +1,46 @@
+// Spanish B2 Gap Batch 3 - Lesson 19: Cultural Spain
+// 15 teach cards + quizzes, max 30 steps
+
+const LESSON_19 = {id:"esv2_b2g3_l19", title:"España cultural", icon:"🎭", xp:15, board:true, steps:[
+  {type:"intro", title:"España cultural", desc:"Explore vocabulary tied to Spanish culture, traditions, and artistic heritage. From flamenco to chocolate, dive into the soul of Spain.", goals:["Learn 15 cultural vocabulary terms","Discuss Spanish traditions","Express cultural knowledge"]},
+
+  {type:"teach", trg:"la banderilla", src:"the banderilla (bullfighting dart)", pos:"noun", gender:"f", note:"Decorated barbed darts used in bullfighting.\nAlso: a tapa of pickled vegetables on a skewer.", example:"A: En San Sebastián las banderillas son un pincho típico.\nB: ¡Sí! De pepinillos, aceitunas y guindillas.", exampleSrc:"A: In San Sebastián, banderillas are a typical pintxo.\nB: Yes! With pickled gherkins, olives, and chili peppers.", funFact:"The tapa meaning came from the resemblance: vegetables on a skewer look like the colourful darts. Most Spaniards know only the food version."},
+
+  {type:"teach", trg:"el duende", src:"the duende (artistic spirit / goblin)", pos:"noun", gender:"m", note:"Double meaning: a mischievous goblin, or the magical quality in flamenco and art.\nTener duende = to have that special artistic fire.", example:"A: Esa bailaora tiene mucho duende.\nB: Se nota, cuando baila todo se para.", exampleSrc:"A: That flamenco dancer has a lot of duende.\nB: You can tell, when she dances everything stops.", funFact:"Lorca defined duende as a dark, mysterious power that everyone senses but no philosopher explains. It's uniquely Spanish."},
+
+  {type:"teach", trg:"la chocolatería", src:"the chocolate shop / hot chocolate cafe", pos:"noun", gender:"f", note:"A shop specializing in chocolate, especially hot chocolate.\nFamous: Chocolatería San Ginés in Madrid.", example:"A: ¿Vamos a la chocolatería después del teatro?\nB: Perfecto, unos churros con chocolate caliente.", exampleSrc:"A: Shall we go to the chocolate shop after the theatre?\nB: Perfect, some churros with hot chocolate.", funFact:"Spain was the first European country to drink chocolate, brought from Mexico in the 1500s. Chocolaterías are a living tradition."},
+
+  {type:"teach", trg:"el cancionero", src:"the songbook / song collection", pos:"noun", gender:"m", note:"A collection of songs or poems.\nEl Cancionero de Baena is a famous medieval anthology.", example:"A: Encontré un cancionero antiguo de canciones populares.\nB: Esas melodías son parte de nuestra historia.", exampleSrc:"A: I found an old songbook of folk songs.\nB: Those melodies are part of our history.", funFact:"Medieval cancioneros preserved Spanish poetry for centuries. The Cancionero de Palacio (1500s) contains music still performed today."},
+
+  {type:"teach", trg:"el bautismo", src:"baptism", pos:"noun", gender:"m", note:"The religious ceremony or a figurative first experience.\nBautismo de fuego = baptism of fire.", example:"A: El bautismo del bebé será el domingo en la catedral.\nB: Toda la familia estará presente.", exampleSrc:"A: The baby's baptism will be on Sunday at the cathedral.\nB: The whole family will be present.", funFact:"Bautismo de fuego means your first intense experience in a new role. Soldiers and professionals both use this expression."},
+
+  {type:"teach", trg:"la armónica", src:"the harmonica", pos:"noun", gender:"f", note:"A small wind instrument played by mouth.\nAlso called the mouth organ.", example:"A: Mi abuelo toca la armónica de maravilla.\nB: Es un instrumento más difícil de lo que parece.", exampleSrc:"A: My grandfather plays the harmonica wonderfully.\nB: It's a harder instrument than it seems.", funFact:"The armónica arrived in Spain in the 1800s. It became popular in folk music and is still associated with rural Spanish traditions."},
+
+  {type:"mc", q:"¿Qué significa 'tener duende' en el contexto del flamenco?", opts:["Tener una cualidad artística mágica e inexplicable","Ser un buen cantante","Tener un fantasma en casa","Ser muy simpático"], ans:"Tener una cualidad artística mágica e inexplicable", hint:"A mysterious, dark artistic power that captivates audiences. Lorca wrote about it."},
+
+  {type:"teach", trg:"el dolmen", src:"the dolmen (ancient stone monument)", pos:"noun", gender:"m", note:"A prehistoric stone structure, like a portal tomb.\nAbundant in northern Spain.", example:"A: Hay un dolmen impresionante cerca de Antequera.\nB: Tiene más de cinco mil años de antigüedad.", exampleSrc:"A: There's an impressive dolmen near Antequera.\nB: It's more than five thousand years old.", funFact:"The Dolmenes de Antequera in Malaga are a UNESCO World Heritage Site. Spain has over 1,500 dolmens, mostly in Galicia and Andalusia."},
+
+  {type:"teach", trg:"la década", src:"the decade", pos:"noun", gender:"f", note:"A period of ten years.\nLa década de los noventa = the nineties.", example:"A: La última década ha transformado completamente la tecnología.\nB: Hace diez años no existían estas aplicaciones.", exampleSrc:"A: The last decade has completely transformed technology.\nB: Ten years ago these apps didn't exist.", funFact:"From Greek deka (ten). Década vs decenio: both mean decade, but década is far more common in everyday speech."},
+
+  {type:"teach", trg:"la décima", src:"the décima (poetic form) / tenth", pos:"noun", gender:"f", note:"A ten-line Spanish verse form with specific rhyme.\nAlso: one tenth of something.", example:"A: La décima es una forma poética muy difícil de dominar.\nB: Diez versos con rima consonante, todo un reto.", exampleSrc:"A: The décima is a very difficult poetic form to master.\nB: Ten verses with consonant rhyme, quite a challenge.", funFact:"The décima espinela, named after Vicente Espinel, has been the backbone of Spanish and Latin American oral poetry since the 1500s."},
+
+  {type:"fb", s:"La bailaora cautivó al público con su {1} inigualable.", a:["duende"], opts:["duende","bautismo","dolmen","cancionero"], hint:"That mysterious, magical artistic quality unique to flamenco and Spanish art.", sSrc:"The flamenco dancer captivated the audience with her incomparable {1}."},
+
+  {type:"teach", trg:"el apocalipsis", src:"the apocalypse", pos:"noun", gender:"m", note:"Uses el despite ending in -is. Invariable in plural.\nAlso: any catastrophic event.", example:"A: El cambio climático parece un apocalipsis a cámara lenta.\nB: Aún estamos a tiempo de actuar.", exampleSrc:"A: Climate change seems like an apocalypse in slow motion.\nB: We're still in time to act.", funFact:"From Greek apokalypsis (uncovering, revelation). Originally meant divine revelation, not destruction. The destructive meaning came later."},
+
+  {type:"teach", trg:"la bofetada", src:"the slap (in the face)", pos:"noun", gender:"f", note:"A sharp slap to the face. Also figurative: a shock.\nUna bofetada de realidad = a reality check.", example:"A: La derrota fue una bofetada para todo el equipo.\nB: A veces hace falta perder para reaccionar.", exampleSrc:"A: The defeat was a slap in the face for the whole team.\nB: Sometimes you need to lose in order to react.", funFact:"Bofetada comes from bofete (puffed cheek). The image of a cheek puffing out from impact became the name for the slap itself."},
+
+  {type:"teach", trg:"el ciego", src:"the blind person", pos:"noun", gender:"m", note:"Male form. Female: la ciega.\nAlso adjective: estar ciego = to be blind.", example:"A: La ONCE ayuda a las personas ciegas en España.\nB: Su labor social es admirable.", exampleSrc:"A: The ONCE helps blind people in Spain.\nB: Their social work is admirable.", funFact:"ONCE (Organización Nacional de Ciegos Españoles) runs Spain's famous daily lottery. Its street vendors are a national institution."},
+
+  {type:"mc", q:"¿Qué es un dolmen?", opts:["Un monumento megalítico de piedra prehistórico","Un tipo de baile tradicional","Un instrumento musical antiguo","Un plato típico del norte de España"], ans:"Un monumento megalítico de piedra prehistórico", hint:"These ancient stone structures were built thousands of years ago as tombs or monuments."},
+
+  {type:"match", pairs:[{trg:"banderilla", src:"bullfighting dart / tapa skewer"},{trg:"duende", src:"artistic spirit"},{trg:"chocolatería", src:"chocolate cafe"},{trg:"bautismo", src:"baptism"},{trg:"dolmen", src:"ancient stone monument"}]},
+
+  {type:"fb", s:"Después del teatro fuimos a una {1} a tomar churros.", a:["chocolatería"], opts:["chocolatería","carpintería","armónica","décima"], hint:"A cafe specializing in hot chocolate, a Spanish tradition.", sSrc:"After the theatre we went to a {1} to have churros."},
+
+  {type:"mc", q:"'Bautismo de fuego' se usa para describir...", opts:["La primera experiencia intensa en algo nuevo","Un ritual religioso con agua bendita","Un incendio forestal","Una ceremonia militar"], ans:"La primera experiencia intensa en algo nuevo", hint:"A figurative expression for your first challenging experience in a new role or situation."},
+
+  {type:"fb", s:"La derrota fue una {1} de realidad para el equipo.", a:["bofetada"], opts:["bofetada","banderilla","décima","década"], hint:"A figurative slap that forces you to face reality and wake up.", sSrc:"The defeat was a reality {1} for the team."}
+]};
+
+export default LESSON_19;
