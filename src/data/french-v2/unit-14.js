@@ -18,7 +18,7 @@ export default {n:14,lang:"fr",srcLang:"en",track:"v2",title:"Le futur",sub:"Fut
         {type:"mc",q:"'On va manger.' Why is manger in the infinitive?",opts:["Because it's the past","Because aller is already conjugated","Because it's a question","Because of negation"],ans:"Because aller is already conjugated",hint:"Only one verb gets ___. The action verb stays in base form."},
         {type:"fb",opts:["allons","allez","vont","vais"],hint:"We're going to move in March. Nous + aller.",s:"Nous {1} déménager en mars. (going to)",a:"allons"},
         {type:"match",pairs:[{trg:"Je vais manger",src:"I'm going to eat"},{trg:"Elle va chanter",src:"She's going to sing"},{trg:"Ils vont dormir",src:"They're going to sleep"},{trg:"Vous allez voir",src:"You're going to see"}]},
-        {type:"mc",q:"Negative futur proche: 'Il ___ travailler.'",opts:["ne va pas","ne pas va","pas ne va","va ne pas"],ans:"ne va pas",hint:"Ne goes before aller, pas goes after aller, before the infinitive."},
+        {type:"mc",q:"Negative futur proche: 'Il ___ travailler.'",opts:["ne va pas","ne pas va","pas ne va","va ne pas"],ans:"ne va pas",hint:"The two negative elements wrap around the conjugated verb, not the infinitive."},
         {type:"fb",opts:["va","vais","vas","vont"],hint:"She's going to have a baby! Third person singular of aller.",s:"Elle {1} avoir un bébé! (going to)",a:"va"},
         {type:"mc",q:"Which expresses an immediate action?",opts:["J'ai mangé","Je mangeais","Je vais manger","Je mangerai"],ans:"Je vais manger",hint:"Going to eat = something about to happen very soon."}
   ]},
@@ -122,7 +122,7 @@ export default {n:14,lang:"fr",srcLang:"en",track:"v2",title:"Le futur",sub:"Fut
           {trg:"En 2030, il y aura...",src:"prediction (simple)"}
         ]},
         {type:"mc",q:"'Cet été, nous ___ en Espagne.' (voyager, vacation plan)",opts:["Allons voyager","Voyagerons","Avons voyagé","Voyagions"],ans:"Allons voyager",hint:"Summer vacation plan = near-ish, concrete = futur proche."},
-        {type:"fb",opts:["pense","pensera","ira","va aller"],hint:"I think everything will go well. Main verb present, prediction future.",s:"Je {1} que tout ___ bien. (penser, aller, futur simple)",a:["pense","ira"]},
+        {type:"fb",opts:["pense","pensera","ira","va aller"],hint:"The main clause uses present tense; the prediction about the future uses futur simple.",s:"Je {1} que tout ___ bien. (think / go: present + futur simple)",a:["pense","ira"]},
         {type:"mc",q:"At a New Year's party, resolutions use:",opts:["Futur proche only","Futur simple typically","Passé composé","Present"],ans:"Futur simple typically",hint:"I will exercise more, I will eat better = formal resolutions."},
         {type:"fb",opts:["va","verra","a regardé","regardait"],hint:"Tonight, we're going to watch a film. Immediate plan.",s:"Ce soir, on {1} regarder un film. (going to)",a:"va"},
         {type:"match",pairs:[{trg:"Je vais partir",src:"I'm leaving (soon)"},{trg:"Je partirai",src:"I will leave (someday)"},{trg:"On va manger",src:"We're eating (now-ish)"},{trg:"On mangera",src:"We'll eat (later/formal)"}]},

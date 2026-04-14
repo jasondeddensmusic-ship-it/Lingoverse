@@ -184,7 +184,7 @@ export default {n:21,lang:"fr",srcLang:"en",track:"v2",title:"Le Gérondif",sub:
           {trg:"sans manger",src:"without eating"},
           {trg:"avant de manger",src:"before eating"}
         ]},
-        {type:"mc",q:"'Des nouvelles choquantes' vs 'des nouvelles choquant l'opinion'. In which does the participle agree?",opts:["Des nouvelles choquantes (adjective)","Des nouvelles choquant l'opinion (verbal)","Both agree","Neither agrees"],ans:"Des nouvelles choquantes (adjective)",hint:"The version with a complement describes an action, while the version without describes a quality."},
+        {type:"mc",q:"'Nouvelles choquantes' vs 'nouvelles choquant l'opinion'. In which does the participle agree?",opts:["Des nouvelles choquantes (adjective)","Des nouvelles choquant l'opinion (verbal)","Both agree","Neither agrees"],ans:"Des nouvelles choquantes (adjective)",hint:"When a participle has no complement, it changes its ending. With a complement, it stays fixed."},
         {type:"fb",opts:["étant","être","été","est"],hint:"The irregular participle of être follows tout en for concession.",s:"Tout en {1} d'accord, je préfère une autre solution.",a:["étant"]},
         {type:"mc",q:"Complete: 'Après _____ ses valises, elle est partie à l'aéroport.'",opts:["avoir fait","faire","en faisant","faisant"],ans:"avoir fait",hint:"The compound infinitive follows après for a completed action before the main event."},
         {type:"drag_fill",hint:"He went out without doing something: preposition plus infinitive base form.",s:"Il est sorti {1} {2} son parapluie.",blanks:{"1":"sans","2":"prendre"},pool:["sans","prendre","en","pris","avant","de"]},

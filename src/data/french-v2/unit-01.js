@@ -51,7 +51,7 @@ export default {n:1,lang:"fr",srcLang:"en",track:"v2",title:"Bienvenue!",sub:"Gr
         {type:"mc",q:"A shopkeeper says 'Bonne journée!' as you leave. This means:",opts:["Come back soon","Have a nice day","Goodbye forever","Good morning"],ans:"Have a nice day",hint:"Bonne = good. Journée = the span of the day."},
         {type:"mc",q:"'Bonne soirée' is used when parting in the:",opts:["Morning","Afternoon","Evening","At bedtime"],ans:"Evening",hint:"Soirée refers to the later part of the day, after work."},
         {type:"fb",opts:["soirée","journée","nuit","matinée"],hint:"Evening farewell wish when you will see them tomorrow.",s:"Bonne {1}! À demain.",a:"soirée"},
-        {type:"mc",q:"The casual short form of 'à plus tard' is:",opts:["À tard","À plus","Au revoir","Salut plus"],ans:"À plus",hint:"Drop 'tard' for the casual version. Written as A+ in texts."},
+        {type:"mc",q:"Texting shorthand 'A+' expands to which farewell phrase?",opts:["À tard","À plus","Au revoir","Salut plus"],ans:"À plus",hint:"Drop the time word for the casual version."},
         {type:"mc",q:"'Bonne journée' uses 'bonne' (not 'bon') because:",opts:["It sounds better","la journée is feminine","It is more polite","Random choice"],ans:"la journée is feminine",hint:"The adjective matches the noun's gender. Agreement Web!"}
   ]},
   {id:"fre1l3",title:"Comment ça va?",icon:"🗣️",xp:15,board:true,steps:[

@@ -35,12 +35,12 @@ const UNIT_14 =
 {type:"tip",title:"Conjugation Pattern",text:"Stem + 아/어야 해요/돼요\n\n가다 → 가야 해요 (must go)\n먹다 → 먹어야 해요 (must eat)\n하다 → 해야 해요 (must do)\n오다 → 와야 해요 (must come)\n공부하다 → 공부해야 해요 (must study)\n\nPast: 했어야 했어요 (should have done)\nNegative: 안 해도 돼요 (don't have to)"},
 {type:"mc",q:"내일까지 보고서를 내야 해요 means:",opts:["I must submit the report by tomorrow","I want to submit the report","I submitted the report","I might submit the report"],ans:"I must submit the report by tomorrow",hint:"-아/어야 하다 = must. 까지 = by (deadline)."},
 {type:"fb",s:"9시까지 출근{1} 돼요.\n(I must ___ to work by 9.)",a:"해야",opts:["해야","하면","하거든","하는데"],hint:"Express obligation. 하다 verb, bright vowel pattern."},
-{type:"mc",q:"먹다 + -아/어야 해요 = ?",opts:["먹어야 해요","먹아야 해요","먹야 해요","먹해야 해요"],ans:"먹어야 해요",hint:"먹 has dark vowel ㅓ. Dark → 어야. 먹어야 해요."},
+{type:"mc",q:"먹다 + -아/어야 해요 = ?",opts:["먹어야 해요","먹아야 해요","먹야 해요","먹해야 해요"],ans:"먹어야 해요",hint:"Dark vowel stems use 어야 before the obligation ending. The eating verb has dark vowel ㅓ."},
 {type:"fb",s:"회의에 {1} 해요. 중요한 회의예요.\n(I must ___ to the meeting. It's an important meeting.)",a:"가야",opts:["가야","가면","가는데","가거든"],hint:"Express necessity. 가다 is a bright-vowel verb."},
-{type:"mc",q:"-아/어야 하다 vs -아/어야 되다:",opts:["Both mean 'must.' 되다 is more common in speech.","They have different meanings","하다 is casual, 되다 is formal","Only 하다 is correct"],ans:"Both mean 'must.' 되다 is more common in speech.",hint:"가야 해요 = 가야 돼요. Same meaning. 되다 version is more conversational."},
+{type:"mc",q:"-아/어야 하다 vs -아/어야 되다:",opts:["Both mean 'must.' 되다 is more common in speech.","They have different meanings","하다 is casual, 되다 is formal","Only 하다 is correct"],ans:"Both mean 'must.' 되다 is more common in speech.",hint:"Two obligation forms exist. One uses a helping verb more common in spoken Korean."},
 {type:"teach",nl:"제출하다",en:"to submit",pos:"verb",gender:null,funFact:"Sino-Korean compound: 제(present/提) + 출(go out/出)",phonetic:"je-chul-ha-da",note:"COMPOUND: 제(present/提) + 출(go out/出).\nPresent-outward = submit.",kind:"verb"},
 {type:"fb",s:"보고서를 내일까지 {1} 해요.\n(I must ___ the report by tomorrow.)",a:"제출해야",opts:["제출해야","제출하면","제출하는데","제출하거든"],hint:"I must submit the report by tomorrow. -아/어야 하다 for obligation."},
-{type:"mc",q:"오다 + -아/어야 = ?",opts:["와야","오아야","오어야","올야"],ans:"와야",hint:"오 + 아 contracts to 와. 와야 해요 = must come."},
+{type:"mc",q:"오다 + -아/어야 = ?",opts:["와야","오아야","오어야","올야"],ans:"와야",hint:"The 'come' verb has a bright vowel. Which obligation form results from vowel contraction?"},
 {type:"drag_fill",s:"마감이에요. 오늘까지 {1} 해요. 그래서 {2}해야 돼요.\n(It's the deadline. I must ___ by today. So I must work ___.)",blanks:{"1":"끝내야","2":"야근"},pool:["끝내야","야근","출근","퇴근","회의"],hint:"It's the deadline. I must finish today. So I must work overtime."},
 {type:"match",pairs:[{nl:"가야 해요",en:"must go"},{nl:"먹어야 해요",en:"must eat"},{nl:"해야 해요",en:"must do"},{nl:"와야 해요",en:"must come"}]},
 {type:"mc",q:"한국어를 매일 공부해야 돼요. Why use 돼요 instead of 해요?",opts:["Both are correct. 돼요 is more conversational.","돼요 is the only correct form","해요 is wrong here","돼요 is more formal"],ans:"Both are correct. 돼요 is more conversational.",hint:"-아/어야 하다 and -아/어야 되다 are interchangeable. 되다 is used more in speech."},
@@ -72,7 +72,7 @@ const UNIT_14 =
 {type:"fb",s:"오늘 일찍 퇴근{1} 돼요? 약속이 있거든요.\n(May I leave work early___ today? You see, I have an appointment.)",a:"해도",opts:["해도","하면","해야","해서"],hint:"May I leave work early today? You see, I have an appointment. Permission + reason."},
 
 {type:"fb",s:"도서관에서 큰 소리로 {1} 안 돼요.\n(You must not talk loudly in the library.)",a:["이야기하면"],opts:["이야기하면","이야기해서","이야기하는데","이야기해도"],hint:"-(으)면 안 되다 = must not. Condition + prohibition."},
-{type:"mc",q:"여기서 사진을 찍어도 돼요?\n(May I take photos here?)",opts:["-아/어도 되다 (permission)","-(으)면 안 되다 (prohibition)","-아/어야 하다 (obligation)","-(으)ㄹ 수 있다 (ability)"],ans:"-아/어도 되다 (permission)",hint:"-아/어도 되다 = it is okay to, may. Asking for permission."},
+{type:"mc",q:"여기서 사진을 찍어도 돼요?\n(May I take photos here?)",opts:["-아/어도 되다 (permission)","-(으)면 안 되다 (prohibition)","-아/어야 하다 (obligation)","-(으)ㄹ 수 있다 (ability)"],ans:"-아/어도 되다 (permission)",hint:"The permission pattern combines a concessive ending with a 'be okay' expression."},
 {type:"drag_fill",s:"이 약을 하루에 세 번 {1} 해요. 네 번 먹으면 {2}.\n(You must take this medicine three times a day. Taking it four times is not allowed.)",blanks:{"1":"먹어야","2":"안 돼요"},pool:["먹어야","안 돼요","먹으면","못 해요","먹어도","안 해요"],hint:"Obligation (-아/어야 하다) vs prohibition (-(으)면 안 되다)."},
 {type:"mc",q:"회사에서 개인 전화를 해도 돼요? 아니요, 하면 안 돼요.\n(May I make personal calls at work? No, you must not.)",opts:["-아/어도 되다 vs -(으)면 안 되다","-아/어야 하다 vs -게 되다","-(으)ㄹ 수 있다 vs 못","-고 싶다 vs -기로 하다"],ans:"-아/어도 되다 vs -(으)면 안 되다",hint:"Permission question answered with prohibition: the permission/prohibition pair."},
 {type:"match",pairs:[{nl:"찍어도 돼요",en:"may take (photos)"},{nl:"찍으면 안 돼요",en:"must not take"},{nl:"찍어야 해요",en:"must take"},{nl:"찍으려고 해요",en:"intend to take"}]},
@@ -96,11 +96,11 @@ const UNIT_14 =
 {type:"fb",s:"승진{1} 열심히 일해요.\n(I work hard ___ get promoted.)",a:"하려고",opts:["하려고","하면서","하는데","해야"],hint:"I work hard in order to get promoted."},
 {type:"mc",q:"마감까지 끝내려고 야근했어요 means:",opts:["I worked overtime to finish by the deadline","I worked overtime because of the deadline","I must finish by the deadline","I don't want to work overtime"],ans:"I worked overtime to finish by the deadline",hint:"-(으)려고 = in order to. Purpose: finish by deadline."},
 
-{type:"fb",s:"한국어를 배우{1} 한국에 왔어요.\n(I came to Korea to learn Korean.)",a:["려고"],opts:["려고","면","서","는데"],hint:"-(으)려고 = in order to, intending to. 배우다 → 배우려고."},
-{type:"mc",q:"건강해지려고 매일 운동하고 있어요.\n(I am exercising every day in order to get healthy.)",opts:["-(으)려고 + -고 있다","-(으)려면 + -아/어야 하다","-기 위해서 + -게 되다","-(으)러 + -고 있다"],ans:"-(으)려고 + -고 있다",hint:"Purpose (-(으)려고) + progressive (-고 있다): working toward a goal."},
+{type:"fb",s:"한국어를 배우{1} 한국에 왔어요.\n(I came to Korea to learn Korean.)",a:["려고"],opts:["려고","면","서","는데"],hint:"The purpose connector expresses intention. Apply it to the learning verb."},
+{type:"mc",q:"건강해지려고 매일 운동하고 있어요.\n(I am exercising every day in order to get healthy.)",opts:["-(으)려고 + -고 있다","-(으)려면 + -아/어야 하다","-기 위해서 + -게 되다","-(으)러 + -고 있다"],ans:"-(으)려고 + -고 있다",hint:"Combine purpose-intention with the progressive to show actively working toward something."},
 {type:"drag_fill",s:"승진하{1} 열심히 {2} 있어요.\n(I am working hard in order to get promoted.)",blanks:{"1":"려고","2":"일하고"},pool:["려고","일하고","려면","일해야","러","일하게"],hint:"-(으)려고 (in order to) + -고 있다 (progressive)."},
 {type:"match",pairs:[{nl:"배우려고",en:"in order to learn"},{nl:"배우려면",en:"if you want to learn"},{nl:"배우러",en:"went to learn (with 가다)"},{nl:"배우기 위해서",en:"in order to learn (formal)"}]},
-{type:"mc",q:"맛있는 음식을 먹으려고 1시간 동안 기다렸어요.\n(I waited for 1 hour in order to eat delicious food.)",opts:["-(으)려고 (purpose)","-(으)려면 (condition)","-(으)러 (with movement)","-기 위해서 (formal)"],ans:"-(으)려고 (purpose)",hint:"-(으)려고 states the purpose/intention behind waiting."},
+{type:"mc",q:"맛있는 음식을 먹으려고 1시간 동안 기다렸어요.\n(I waited for 1 hour in order to eat delicious food.)",opts:["-(으)려고 (purpose)","-(으)려면 (condition)","-(으)러 (with movement)","-기 위해서 (formal)"],ans:"-(으)려고 (purpose)",hint:"The purpose/intention connector explains why someone is waiting."},
 ]},
 
 // ── L4b: -(으)려면 (If You Want To) ──
@@ -113,7 +113,7 @@ const UNIT_14 =
   {type:"teach",kind:"phrase",nl:"건강하려면",en:"if you want to be healthy",pos:"intj",gender:null,funFact:"Set phrases are the fastest way to sound natural. Koreans use fixed expressions constantly.",example:"A: 요즘 피곳해요. B: 건강하려면 운동해야 돼요. A: 시간이 없어요. B: 아침에 일찍 일어나려면 일찍 자세요. A: 오늘부터 해 볼게요.",exampleEn:"A: I am tired these days. B: If you want to be healthy, you must exercise. A: I have no time. B: If you want to wake up early, go to bed early. A: I will try starting today.",note:"건강하다 → 건강하려면.\n하다 verbs: stem + 려면."},
   {type:"mc",q:"살을 빼려면 뭘 해야 돼요? This question asks:",opts:["What should I do if I want to lose weight?","Why did I gain weight?","How much weight did I lose?","When did I start dieting?"],ans:"What should I do if I want to lose weight?",hint:"-(으)려면 = if you want to. 살을 빼다 = lose weight."},
   {type:"fb",s:"좋은 회사에 들어가{1} 자격증이 필요해요.\n(If you want to get into a good company, you need certifications.)",a:"려면",opts:["려면","려고","면서","고"],hint:"들어가다 → 들어가려면. If you want to enter."},
-  {type:"mc",q:"Which means 'if you want to learn quickly'?",opts:["빨리 배우려면","빨리 배워서","빨리 배우면서","빨리 배우는데"],ans:"빨리 배우려면",hint:"배우다 → 배우려면. If you want to learn."},
+  {type:"mc",q:"Which means 'if you want to learn quickly'?",opts:["빨리 배우려면","빨리 배워서","빨리 배우면서","빨리 배우는데"],ans:"빨리 배우려면",hint:"The conditional-purpose form: if you want to learn, you must... Apply it to the learning verb."},
   {type:"match",pairs:[{nl:"가려면",en:"if you want to go"},{nl:"먹으려면",en:"if you want to eat"},{nl:"하려면",en:"if you want to do"},{nl:"알려면",en:"if you want to know"}]},
   {type:"fb",s:"한국에서 일하{1} 비자가 있어야 돼요.\n(If you want to work in Korea, you need a visa.)",a:"려면",opts:["려면","면서","려고","는데"],hint:"일하다 → 일하려면. If you want to work."},
   {type:"mc",q:"회의에 참석하려면 미리 준비해야 돼요 means:",opts:["If you want to attend the meeting, prepare in advance","I attended the meeting because I prepared","After attending the meeting, I prepared","While preparing, I attended the meeting"],ans:"If you want to attend the meeting, prepare in advance",hint:"-(으)려면 = if you want to. 참석하다 = attend."},
@@ -122,8 +122,8 @@ const UNIT_14 =
   {type:"drag_fill",s:"{1} 매일 열심히 {2}. 포기하지 {3}.\n(If you want to succeed, work hard every day. Don't give up.)",blanks:{"1":"성공하려면","2":"노력하세요","3":"마세요"},pool:["성공하려면","노력하세요","마세요","성공해서","노력하고","않아요"],hint:"If you want to succeed: 성공하려면. Work hard: 노력하세요. Don't: -지 마세요."},
   {type:"drag_fill",s:"좋은 {1} 받{2} 야근도 {3} 돼요.\n(If you want to get a good evaluation, you have to work overtime too.)",blanks:{"1":"평가를","2":"으려면","3":"해야"},pool:["평가를","으려면","해야","평가는","으면","하고"],hint:"Good evaluation: 좋은 평가를. If you want to receive: 받으려면. Must also overtime: 야근도 해야 돼요."},
 
-{type:"fb",s:"한국어를 잘하{1} 매일 연습해야 해요.\n(If you want to speak Korean well, you must practice every day.)",a:["려면"],opts:["려면","려고","면","서"],hint:"-(으)려면 = if you want to. 하다 → 하려면. Combines purpose with condition."},
-{type:"mc",q:"좋은 성적을 받으려면 열심히 공부해야 해요.\n(If you want to get good grades, you must study hard.)",opts:["-(으)려면 + -아/어야 하다","-(으)려고 + -고 있다","-(으)면 + -게 되다","-(으)러 + -아/어야 하다"],ans:"-(으)려면 + -아/어야 하다",hint:"-(으)려면 (if you want to) + obligation (-아/어야 하다): classic career advice pattern."},
+{type:"fb",s:"한국어를 잘하{1} 매일 연습해야 해요.\n(If you want to speak Korean well, you must practice every day.)",a:["려면"],opts:["려면","려고","면","서"],hint:"If-you-want-to conditional: apply this form to complete the sentence structure."},
+{type:"mc",q:"좋은 성적을 받으려면 열심히 공부해야 해요.\n(If you want to get good grades, you must study hard.)",opts:["-(으)려면 + -아/어야 하다","-(으)려고 + -고 있다","-(으)면 + -게 되다","-(으)러 + -아/어야 하다"],ans:"-(으)려면 + -아/어야 하다",hint:"Combine the conditional-purpose form with an obligation expression for career guidance."},
 {type:"drag_fill",s:"건강하{1} 매일 운동을 {2} 해요.\n(If you want to be healthy, you must exercise every day.)",blanks:{"1":"려면","2":"해야"},pool:["려면","해야","려고","하게","면","하고"],hint:"-(으)려면 (if you want to) + -아/어야 하다 (must)."},
 {type:"mc",q:"한국 회사에서 일하려면 한국어를 잘해야 하는데 쉽지 않아요.\n(If you want to work at a Korean company, you must speak Korean well, which is not easy.)",opts:["-(으)려면 + -아/어야 하다 + -는데","-(으)려면 + -게 되다 + -지만","-(으)려고 + -아/어야 하다 + -거든요","-(으)면 + -게 되다 + -는데"],ans:"-(으)려면 + -아/어야 하다 + -는데",hint:"Conditional purpose + obligation + contrast: three constructs combined."},
 ]},
@@ -147,7 +147,7 @@ const UNIT_14 =
 {type:"fb",s:"상사가 소주를 주면 {1} 받아야 해요. 한국 문화예요.\n(When the boss offers soju, you must receive it ___. Korean culture.)",a:"두 손으로",opts:["두 손으로","한 손으로","빨리","천천히"],hint:"Think about traditional Korean etiquette for receiving drinks from a senior."},
 
 {type:"mc",q:"한국 회사에서는 회식에 참석해야 하는 분위기예요.\n(At Korean companies, there is a culture of attending company dinners.)",opts:["-아/어야 하다 (obligation)","-아/어도 되다 (permission)","-(으)면 안 되다 (prohibition)","-게 되다 (natural change)"],ans:"-아/어야 하다 (obligation)",hint:"Cultural expectation expressed as obligation: you should attend."},
-{type:"fb",s:"상사가 같이 가{1} 해서 거절하기 어려워요.\n(The boss told me to go together so it is hard to refuse.)",a:["라고"],opts:["라고","자고","다고","냐고"],hint:"-(으)라고 하다 = reported command. Boss commanded attendance."},
+{type:"fb",s:"상사가 같이 가{1} 해서 거절하기 어려워요.\n(The boss told me to go together so it is hard to refuse.)",a:["라고"],opts:["라고","자고","다고","냐고"],hint:"Report a command someone received at work using the reported speech form for commands."},
 {type:"drag_fill",s:"회식에서는 {1} 먼저 {2} 해요.\n(At company dinners, you must pour for the senior first.)",blanks:{"1":"선배에게","2":"따라 줘야"},pool:["선배에게","따라 줘야","선배가","따라 주면","선배를","따라 줘도"],hint:"-아/어 주다 (do for someone) + -아/어야 하다 (must): cultural obligation."},
 {type:"match",pairs:[{nl:"회식",en:"company dinner"},{nl:"야근",en:"overtime work"},{nl:"마감",en:"deadline"},{nl:"상사",en:"boss / superior"}]},
 {type:"mc",q:"회식에 안 가도 되는데 분위기가 좀 불편해질 수 있어요.\n(You do not have to go to the dinner but the atmosphere might become uncomfortable.)",opts:["-아/어도 되다 + -는데 + -아/어지다","-(으)면 안 되다 + -지만 + -게 되다","-아/어야 하다 + -거든요 + -아/어지다","-아/어도 되다 + -지만 + -나 보다"],ans:"-아/어도 되다 + -는데 + -아/어지다",hint:"Permission + contrast + state change: technically okay but socially risky."},
@@ -172,7 +172,7 @@ const UNIT_14 =
 {type:"mc",q:"A: 이 자료를 복사해도 돼요? B: 네, 해도 돼요.\n(A: May I copy this document? B: Yes, you may.)",opts:["-아/어도 되다","-(으)면 안 되다","-아/어야 하다","-(으)려고 하다"],ans:"-아/어도 되다",hint:"Which pattern is used for both asking and granting permission?"},
 {type:"drag_fill",s:"회의 시간에 {1} 안 돼요. 조용히 {2} 해요.\n(You must not be late to meeting time. You must arrive quietly.)",blanks:{"1":"늦으면","2":"도착해야"},pool:["늦으면","도착해야","늦어도","도착하면","늦는데","도착하려고"],hint:"Prohibition (-(으)면 안 되다) + obligation (-아/어야 하다)."},
 {type:"mc",q:"부장님이 내일까지 준비하라고 하셨어요.\n(The department head told us to prepare by tomorrow.)",opts:["-(으)라고 하다 + -(으)시-","-자고 하다 + -(으)시-","-냐고 하다 + -(으)시-","-다고 하다 + -(으)시-"],ans:"-(으)라고 하다 + -(으)시-",hint:"Reported command from superior with honorific."},
-{type:"fb",s:"이번 달에 매출을 올리{1} 야근하고 있어요.\n(I am working overtime in order to increase sales this month.)",a:["려고"],opts:["려고","면","서","는데"],hint:"-(으)려고 (in order to) + -고 있다 (progressive): working toward goal."},
+{type:"fb",s:"이번 달에 매출을 올리{1} 야근하고 있어요.\n(I am working overtime in order to increase sales this month.)",a:["려고"],opts:["려고","면","서","는데"],hint:"Purpose-intention combined with ongoing action: actively working toward a goal."},
 {type:"match",pairs:[{nl:"보고서를 제출해야 해요",en:"must submit the report"},{nl:"이메일을 보내도 돼요?",en:"may I send an email?"},{nl:"지각하면 안 돼요",en:"must not be late"},{nl:"승진하려고 노력해요",en:"trying to get promoted"}]},
 {type:"mc",q:"프로젝트를 끝내려면 팀원들이 다 같이 해야 돼요.\n(If we want to finish the project, all team members must work together.)",opts:["-(으)려면 + -아/어야 되다","-(으)려고 + -고 있다","-(으)면 + -게 되다","-기 위해서 + -고 싶다"],ans:"-(으)려면 + -아/어야 되다",hint:"Conditional purpose + obligation: standard workplace directive."},
 {type:"fb",s:"다음 주에 출장을 가{1} 해서 오늘 준비하고 있어요.\n(I have to go on a business trip next week so I am preparing today.)",a:["야"],opts:["야","도","면","려고"],hint:"-아/어야 하다 (obligation) + -아/어서 (so) + -고 있다 (progressive)."},
@@ -196,11 +196,11 @@ const UNIT_14 =
 {type:"mc",q:"음식물 반입 금지. 반입 means:",opts:["Bringing in","Taking out","Eating","Buying"],ans:"Bringing in",hint:"반(carry/搬) + 입(enter/入) = carry-in. No bringing in food."},
 
 {type:"fb",s:"학교에서 교복을 {1} 해요.\n(You must wear a uniform at school.)",a:["입어야"],opts:["입어야","입으면","입어도","입으려고"],hint:"-아/어야 하다 for school rules."},
-{type:"mc",q:"수업 중에 핸드폰을 사용하면 안 돼요.\n(You must not use your phone during class.)",opts:["-(으)면 안 되다","-아/어야 하다","-아/어도 되다","-(으)려면"],ans:"-(으)면 안 되다",hint:"-(으)면 안 되다 = prohibition. School rule against phone use."},
+{type:"mc",q:"수업 중에 핸드폰을 사용하면 안 돼요.\n(You must not use your phone during class.)",opts:["-(으)면 안 되다","-아/어야 하다","-아/어도 되다","-(으)려면"],ans:"-(으)면 안 되다",hint:"School rule: using the prohibition form, express what is not allowed."},
 {type:"drag_fill",s:"학생들은 숙제를 {1} 하고 시험 전에 {2} 해요.\n(Students must do homework and must review before exams.)",blanks:{"1":"매일 해야","2":"복습해야"},pool:["매일 해야","복습해야","매일 하면","복습하면","매일 해도","복습해도"],hint:"Double -아/어야 하다: two obligations listed together."},
 {type:"match",pairs:[{nl:"교복을 입어야 해요",en:"must wear uniform"},{nl:"뛰면 안 돼요",en:"must not run"},{nl:"질문해도 돼요",en:"may ask questions"},{nl:"열심히 하려고 해요",en:"intend to work hard"}]},
 {type:"mc",q:"도서관에서 음식을 먹으면 안 되는데 물은 마셔도 돼요.\n(You must not eat food in the library but you may drink water.)",opts:["-(으)면 안 되다 + -는데 + -아/어도 되다","-(으)면 안 되다 + -지만 + -아/어야 하다","-아/어야 하다 + -는데 + -(으)면 안 되다","-아/어도 되다 + -거든요 + -(으)면 안 되다"],ans:"-(으)면 안 되다 + -는데 + -아/어도 되다",hint:"Prohibition + contrast + permission: the full permission spectrum in one sentence."},
-{type:"fb",s:"시험을 잘 보{1} 매일 복습해야 해요.\n(If you want to do well on the exam, you must review every day.)",a:["려면"],opts:["려면","려고","면","서"],hint:"-(으)려면 = if you want to. Purpose-condition + obligation."},
+{type:"fb",s:"시험을 잘 보{1} 매일 복습해야 해요.\n(If you want to do well on the exam, you must review every day.)",a:["려면"],opts:["려면","려고","면","서"],hint:"The conditional-purpose form combined with obligation: the classic 'if you want X, you must Y' pattern."},
 ]},
 
 // ── L8: 한국 직장 생활 (Korean Work Life) ──
@@ -224,8 +224,8 @@ const UNIT_14 =
 {type:"mc",q:"신입 사원은 먼저 인사를 해야 하고 선배에게 커피를 타 줘야 해요.\n(New employees must greet first and make coffee for seniors.)",opts:["-아/어야 하다 + -아/어 주다","-게 되다 + -아/어 주다","-아/어도 되다 + -고 싶다","-(으)면 안 되다 + -기로 하다"],ans:"-아/어야 하다 + -아/어 주다",hint:"Obligation + benefactive: must do something for others."},
 {type:"fb",s:"점심시간에는 자유롭게 {1} 돼요.\n(During lunch time, you may move around freely.)",a:["다녀도"],opts:["다녀도","다녀야","다니면","다니려고"],hint:"-아/어도 되다 (permission): allowed to go around freely during lunch."},
 {type:"match",pairs:[{nl:"야근",en:"overtime work"},{nl:"출근",en:"going to work"},{nl:"회의",en:"meeting"},{nl:"퇴근",en:"leaving work / clocking out"}]},
-{type:"mc",q:"한국 직장에서는 팀워크가 중요하기 때문에 같이 일하는 것을 좋아해요.\n(At Korean workplaces, teamwork is important so they value working together.)",opts:["-기 때문에 (reason)","-는데 (background)","-거든요 (explain)","-(으)니까 (since)"],ans:"-기 때문에 (reason)",hint:"-기 때문에 states the reason formally: because teamwork is important."},
-{type:"fb",s:"이번 프로젝트를 성공시키{1} 다 같이 노력합시다.\n(In order to make this project succeed, let us all work hard together.)",a:["려면"],opts:["려면","려고","면","기 위해"],hint:"-(으)려면 + -(으)ㅂ시다: conditional purpose + formal proposal."},
+{type:"mc",q:"한국 직장에서는 팀워크가 중요하기 때문에 같이 일하는 것을 좋아해요.\n(At Korean workplaces, teamwork is important so they value working together.)",opts:["-기 때문에 (reason)","-는데 (background)","-거든요 (explain)","-(으)니까 (since)"],ans:"-기 때문에 (reason)",hint:"The formal reason connector nominalizes the verb. Teamwork is important, so..."},
+{type:"fb",s:"이번 프로젝트를 성공시키{1} 다 같이 노력합시다.\n(In order to make this project succeed, let us all work hard together.)",a:["려면"],opts:["려면","려고","면","기 위해"],hint:"Combine conditional-purpose with the formal proposal ending for a group suggestion."},
 ]},
 
 // ── L9: 복습 + 퀴즈 ──
@@ -245,8 +245,8 @@ const UNIT_14 =
 {type:"drag_fill",s:"한국에서 회식에 {1} 해요. 하지만 요즘은 안 {2} 돼요.\n(In Korea, you must ___ to company dinners. But these days, it's OK not to ___.)",blanks:{"1":"가야","2":"가도"},pool:["가야","가도","가면","가려고","가는데"],hint:"In Korea you must go to 회식. But these days it's OK not to go."},
 {type:"mc",q:"금지 means:",opts:["Prohibited/forbidden","Allowed/permitted","Required/mandatory","Optional/voluntary"],ans:"Prohibited/forbidden",hint:"금(forbid) + 지(stop) = prohibition."},
 
-{type:"mc",q:"내일까지 이 일을 끝내야 해요.\n(I must finish this work by tomorrow.)",opts:["-아/어야 하다","-(으)면 안 되다","-아/어도 되다","-(으)려고 하다"],ans:"-아/어야 하다",hint:"-아/어야 하다 = obligation. Must finish by the deadline."},
-{type:"fb",s:"여기서 사진을 {1} 안 돼요.\n(You must not take pictures here.)",a:["찍으면"],opts:["찍으면","찍어서","찍는데","찍어도"],hint:"-(으)면 안 되다 = must not. 찍다 → 찍으면 안 되다."},
+{type:"mc",q:"내일까지 이 일을 끝내야 해요.\n(I must finish this work by tomorrow.)",opts:["-아/어야 하다","-(으)면 안 되다","-아/어도 되다","-(으)려고 하다"],ans:"-아/어야 하다",hint:"Express obligation: must complete before the deadline using the obligation structure."},
+{type:"fb",s:"여기서 사진을 {1} 안 돼요.\n(You must not take pictures here.)",a:["찍으면"],opts:["찍으면","찍어서","찍는데","찍어도"],hint:"The photography prohibition uses a conditional negation. Apply it to the photographing verb."},
 {type:"drag_fill",s:"한국어를 잘하{1} 매일 {2} 해요.\n(If you want to speak Korean well, you must practice every day.)",blanks:{"1":"려면","2":"연습해야"},pool:["려면","연습해야","려고","연습하게","면","연습하고"],hint:"-(으)려면 (if you want to) + -아/어야 하다 (must)."},
 {type:"match",pairs:[{nl:"해야 해요",en:"must do"},{nl:"하면 안 돼요",en:"must not do"},{nl:"해도 돼요",en:"may do / is okay to do"},{nl:"하려고 해요",en:"intending to do"}]},
 {type:"mc",q:"아무리 힘들어도 포기하면 안 돼요. 계속 하려고 노력해야 해요.\n(No matter how hard it is, you must not give up. You must try to keep going.)",opts:["-아/어도 + -(으)면 안 되다 + -(으)려고 + -아/어야 하다","-아/어도 + -게 되다 + -(으)려면 + -고 싶다","-(으)면 + -(으)면 안 되다 + -(으)려고 + -게 되다","-아/어도 + -(으)면 안 되다 + -(으)러 + -고 있다"],ans:"-아/어도 + -(으)면 안 되다 + -(으)려고 + -아/어야 하다",hint:"Four constructs: concession + prohibition + purpose + obligation."},

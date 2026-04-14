@@ -12,7 +12,7 @@ const UNIT_18 =
 {type:"tip",title:"-기: Making Verbs into Nouns",text:"Verb stem + -기 = noun form\n\n먹다 → 먹기 (eating)\n가다 → 가기 (going)\n요리하다 → 요리하기 (cooking)\n\nCommon patterns:\n-기 좋다 = good for doing\n-기 싫다 = hate doing\n-기 쉽다 = easy to do\n-기 어렵다 = hard to do\n-기로 하다 = decide to (U12!)",deepDive:"-기 vs -는 것:\n\nBoth turn verbs into nouns.\n\n-기: more abstract, fixed expressions\n요리하기 쉬워요 = Cooking is easy.\n\n-는 것: more concrete, specific\n요리하는 것을 좋아해요 = I like the act of cooking.\n\nMany patterns ONLY use -기:\n-기 시작하다 (start doing)\n-기 전에 (before doing)\n-기로 하다 (decide to)\n-기 위해서 (in order to)"},
 {type:"mc",q:"한국어 배우기가 재미있어요 means:",opts:["Learning Korean is fun","I learned Korean","Korean learns me","I want to learn Korean"],ans:"Learning Korean is fun",hint:"-기 turns 배우다 into the noun 배우기. It is the subject here."},
 {type:"fb",s:"한국 음식 만들{1} 어려워요?\n(Is making Korean food difficult?)",a:"기가",opts:["기가","기를","기에","기로"],hint:"The nominalized verb is the sentence subject. Which particle marks subjects?"},
-{type:"mc",q:"Which pattern ONLY uses -기 (not -는 것)?",opts:["-기 전에 (before doing)","-기를 좋아하다 (like doing)","Both accept either","Neither uses -기"],ans:"-기 전에 (before doing)",hint:"Fixed grammatical expressions like 전에, 시작하다, and 위해서 require one specific form."},
+{type:"mc",q:"Which pattern ONLY uses -기 (not -는 것)?",opts:["-기 전에 (before doing)","-기를 좋아하다 (like doing)","Both accept either","Neither uses -기"],ans:"-기 전에 (before doing)",hint:"Some grammar patterns are fixed with one specific nominalizer and cannot swap to the other."},
 {type:"fb",s:"먹{1} 전에 손을 씻어야 해요.\n(Before eating, you must wash your hands.)",a:"기",opts:["기","는 것","을","어서"],hint:"The pattern 'before doing' uses a fixed nominalization form attached to the stem."},
 {type:"mc",q:"운동하기 시작했어요 means:",opts:["I started exercising","I'm exercising","I want to exercise","Exercise started me"],ans:"I started exercising",hint:"시작하다 = to start. The past tense -했어요 tells you the starting already happened."},
 {type:"teach",nl:"-기 위해서",en:"in order to (formal)",pos:"part",gender:null,funFact:"Korean particles attach after nouns to mark their role. No equivalent in English.",phonetic:"-gi wi-hae-seo",example:"A: 왜 매일 운동해요?\nB: 건강해지기 위해서 운동해요.\nA: 한국어도 열심히 공부하죠?\nB: 네, 한국에서 일하기 위해서요.\nA: 목표가 있으면 좋겠어요.",exampleEn:"A: Why do you exercise every day?\nB: I exercise in order to get healthy.\nA: You study Korean hard too, right?\nB: Yes, in order to work in Korea.\nA: It is nice to have goals.",note:"Verb stem + -기 위해서.\nMore formal than -(으)려고.\n건강을 위해서 = for health.",kind:"grammar"},
@@ -27,12 +27,12 @@ const UNIT_18 =
 {type:"drag_fill",s:"매운 음식 먹{1} 싫은데, 건강을 {2} 조금씩 먹{3} 시작했어요.\n(I hate eating spicy food, but for my health I started eating little by little.)",blanks:{"1":"기가","2":"위해서","3":"기"},pool:["기가","위해서","기","기를","위해","기로"],hint:"Three -기 patterns: hate doing (-기가 싫다), for the sake of (위해서), start doing (-기 시작하다)."},
 {type:"mc",q:"살기 좋은 도시 means:",opts:["A city that's good to live in","A living city","A city that lives well","I like living in the city"],ans:"A city that's good to live in",hint:"살기 = living (nominalized). 좋은 = good (modifier). Together they describe the city."},
 
-{type:"fb",s:"한국에서는 {1} 문화가 중요해요.\n(In Korea, eating culture is important.)",a:["음식"],opts:["음식","먹기","먹는","먹을"],hint:"Food vocabulary: 음식 문화 = food culture."},
-{type:"mc",q:"매운 음식을 잘 먹는 편이에요.\n(I tend to eat spicy food well.)",opts:["-는 편이다","-고 있다","-게 되다","-기로 하다"],ans:"-는 편이다",hint:"-는 편이다 = tendency. Statement about general eating habits."},
+{type:"fb",s:"한국에서는 {1} 문화가 중요해요.\n(In Korea, eating culture is important.)",a:["음식"],opts:["음식","먹기","먹는","먹을"],hint:"The compound noun combining 'food' and 'culture' is the answer."},
+{type:"mc",q:"매운 음식을 잘 먹는 편이에요.\n(I tend to eat spicy food well.)",opts:["-는 편이다","-고 있다","-게 되다","-기로 하다"],ans:"-는 편이다",hint:"Describe eating tendencies as a general lean rather than an absolute statement."},
 {type:"drag_fill",s:"한국 음식 중에서 비빔밥이 {1} 유명하고 김치찌개가 {2} 인기가 있어요.\n(Among Korean food, bibimbap is the most famous and kimchi stew is also popular.)",blanks:{"1":"제일","2":"제일"},pool:["제일","제일","더","더","가장","가장"],hint:"Superlative 제일/가장 used for ranking Korean foods."},
 {type:"match",pairs:[{nl:"비빔밥",en:"mixed rice bowl"},{nl:"김치찌개",en:"kimchi stew"},{nl:"불고기",en:"grilled marinated beef"},{nl:"떡볶이",en:"spicy rice cakes"}]},
-{type:"mc",q:"한국 사람들은 밥을 같이 먹으면서 이야기하는 것을 좋아해요.\n(Korean people like talking while eating together.)",opts:["-(으)면서 + -는 것","-고 + -기","-아/어서 + -는 것","-는데 + -기"],ans:"-(으)면서 + -는 것",hint:"Simultaneous action (-(으)면서) + nominalization (-는 것)."},
-{type:"fb",s:"한국 음식을 {1} 위해서 요리 수업을 듣고 있어요.\n(I am taking cooking classes in order to learn Korean food.)",a:["배우기"],opts:["배우기","배우는","배울","배운"],hint:"-기 위해서 = in order to. 배우다 → 배우기 위해서."},
+{type:"mc",q:"한국 사람들은 밥을 같이 먹으면서 이야기하는 것을 좋아해요.\n(Korean people like talking while eating together.)",opts:["-(으)면서 + -는 것","-고 + -기","-아/어서 + -는 것","-는데 + -기"],ans:"-(으)면서 + -는 것",hint:"Two grammar forms: doing two things at once, and turning a verb into a noun."},
+{type:"fb",s:"한국 음식을 {1} 위해서 요리 수업을 듣고 있어요.\n(I am taking cooking classes in order to learn Korean food.)",a:["배우기"],opts:["배우기","배우는","배울","배운"],hint:"State the purpose of an activity using the purpose nominalizer."},
 ]},
 
 // ── L2: 음식 어휘 확장 (21 steps) ──
@@ -59,7 +59,7 @@ const UNIT_18 =
 {type:"mc",q:"떡볶이 먹는 것을 좋아하는데, 찌개도 자주 시켜요 combines:",opts:["Three: -는 것 + modifier (좋아하는) + -는데 (contrast)","Only -는 것","Only -는데","Two patterns"],ans:"Three: -는 것 + modifier (좋아하는) + -는데 (contrast)",hint:"Eating (nominalization) + that I like (modifier) + but/and (contrast connector). Three layers."},
 
 {type:"fb",s:"요리하{1} 쉽지 않지만 재미있어요.\n(Cooking is not easy but it is fun.)",a:["기는"],opts:["기는","는 것은","기가","는 것이"],hint:"-기 nominalizes the verb: 요리하기 = cooking (as noun)."},
-{type:"mc",q:"한국어를 배우기 시작한 지 1년이 됐어요.\n(It has been 1 year since I started learning Korean.)",opts:["-기 (nominal) + -ㄴ 지","-는 것 + -(으)ㄴ 후에","-기 (nominal) + -기 전에","-는 것 + -다가"],ans:"-기 (nominal) + -ㄴ 지",hint:"-기 nominalizes the verb for 시작하다 + -ㄴ 지 (since): duration pattern."},
+{type:"mc",q:"한국어를 배우기 시작한 지 1년이 됐어요.\n(It has been 1 year since I started learning Korean.)",opts:["-기 (nominal) + -ㄴ 지","-는 것 + -(으)ㄴ 후에","-기 (nominal) + -기 전에","-는 것 + -다가"],ans:"-기 (nominal) + -ㄴ 지",hint:"Express how long it has been since starting something. Use two special forms."},
 {type:"match",pairs:[{nl:"요리하기",en:"cooking (nominalized)"},{nl:"요리하는 것",en:"cooking (the act of)"},{nl:"요리한 음식",en:"food that was cooked"},{nl:"요리할 재료",en:"ingredients to cook"}]},
 ]},
 
@@ -76,7 +76,7 @@ const UNIT_18 =
 {type:"mc",q:"내일 할 것이 많아요 means:",opts:["I have a lot to do tomorrow","I did a lot yesterday","I'm doing a lot now","I don't have anything to do"],ans:"I have a lot to do tomorrow",hint:"할 = future modifier of 하다. 것 = thing. 많아요 = there are many."},
 {type:"fb",s:"제가 좋아하{1} 것은 요리하는 것이에요.\n(The thing I like is cooking.)",a:"는",opts:["는","은","ㄴ","을"],hint:"Liking is an ongoing state. Which modifier form marks present actions?"},
 {type:"tip",title:"것 to 거 in Speech",text:"In casual spoken Korean:\n\n것 → 거\n것이 → 게\n것을 → 걸\n\n먹는 것을 좋아해요 → 먹는 걸 좋아해요\n재미있는 것이 없어요 → 재미있는 게 없어요\n\nWritten: 것. Spoken: 거."},
-{type:"mc",q:"먹는 걸 좋아해요 = 먹는 것을 좋아해요. 걸 is:",opts:["것을 shortened (casual speech)","A different word","More formal","Past tense of 것"],ans:"것을 shortened (casual speech)",hint:"것을 contracts to 걸. One of the most common contractions in spoken Korean."},
+{type:"mc",q:"먹는 걸 좋아해요 = 먹는 것을 좋아해요. 걸 is:",opts:["것을 shortened (casual speech)","A different word","More formal","Past tense of 것"],ans:"것을 shortened (casual speech)",hint:"This object-form of the nominalizer contracts in casual speech. Which form results?"},
 {type:"fb",s:"삼겹살 굽{1} 것을 좋아해요.\n(I like grilling pork belly.)",a:"는",opts:["는","은","ㄴ","을"],hint:"Grilling is a present/habitual action. Which suffix makes a present-tense modifier?"},
 {type:"drag_fill",s:"제가 {1} 것은 한국 음식 먹{2} 거예요.\n(The thing I like is eating Korean food.)",blanks:{"1":"좋아하는","2":"는"},pool:["좋아하는","는","좋아한","은","좋아할"],hint:"The thing I like (ongoing) is eating (ongoing). Both need present modifiers."},
 {type:"match",pairs:[{nl:"먹는 것",en:"eating (present)"},{nl:"먹은 것",en:"what was eaten (past)"},{nl:"먹을 것",en:"what to eat (future)"},{nl:"먹기",en:"eating (abstract)"}]},
@@ -107,7 +107,7 @@ const UNIT_18 =
 {type:"mc",q:"혼밥 was traditionally considered:",opts:["Socially awkward/taboo (but now accepted)","Very normal","Only for foreigners","A type of cooking"],ans:"Socially awkward/taboo (but now accepted)",hint:"Korean culture valued communal eating. Solo dining was unusual until recently."},
 {type:"fb",s:"밤에 {1}으로 치킨을 시켜요.\n(At night I order chicken as a late-night snack.)",a:"야식",opts:["야식","혼밥","먹방","맛집"],hint:"밤 = night. 야(night) + 식(food). Which word means nighttime food?"},
 {type:"match",pairs:[{nl:"먹방",en:"eating broadcast"},{nl:"혼밥",en:"eating alone"},{nl:"야식",en:"late night snack"},{nl:"맛집",en:"famous restaurant"}]},
-{type:"mc",q:"한국에서 배달 음식 1위는:",opts:["치킨 (fried chicken)","피자","햄버거","중국 음식"],ans:"치킨 (fried chicken)",hint:"치맥 (치킨+맥주) is practically a national pastime."},
+{type:"mc",q:"한국에서 배달 음식 1위는:",opts:["치킨 (fried chicken)","피자","햄버거","중국 음식"],ans:"치킨 (fried chicken)",hint:"A famous Korean food combo: crispy poultry plus a fermented beverage."},
 {type:"fb",s:"먹는 {1}을 좋아해요. 그래서 먹방을 자주 봐요.\n(I like eating. So I often watch mukbang.)",a:"것",opts:["것","기","데","거"],hint:"I like the act of eating. -는 + what turns the clause into a noun?"},
 {type:"drag_fill",s:"맛있는 {1}을 찾기가 {2}. 리뷰를 봐야 해요.\n(Finding a famous restaurant is ___. You have to read reviews.)",blanks:{"1":"맛집","2":"어려워요"},pool:["맛집","어려워요","쉬워요","배달","재미있어요"],hint:"Finding a great restaurant is not easy. -기가 어렵다 = hard to do."},
 {type:"fb",s:"야식 시키{1} 전에 뭐 먹고 싶은지 정하세요.\n(Before ordering a late-night snack, decide what you want.)",a:"기",opts:["기","는","은","어"],hint:"Before ordering. Which suffix combines with 전에 to mean 'before doing'?"},
@@ -118,7 +118,7 @@ const UNIT_18 =
 {type:"mc",q:"야식으로 시킨 음식이 건강에 안 좋다는 것을 알아요 combines:",opts:["Four: modifier (시킨) + -는 것 + -다는 것 (fact clause) + 알다","Three","Two","One"],ans:"Four: modifier (시킨) + -는 것 + -다는 것 (fact clause) + 알다",hint:"Ordered (past modifier). Nominalization. That it is bad (reported fact). I know. Four layers."},
 
 {type:"mc",q:"맛집을 찾기 위해서 인터넷에서 검색해 봤어요.\n(I searched online in order to find a famous restaurant.)",opts:["-기 위해서 + -아/어 보다","-(으)려고 + -아/어 보다","-기 위해서 + -게 되다","-(으)려면 + -아/어야 하다"],ans:"-기 위해서 + -아/어 보다",hint:"Formal purpose + tried doing: searched in order to find."},
-{type:"fb",s:"한국에서는 줄을 서서 {1} 식당이 맛있는 식당이에요.\n(In Korea, a restaurant where you line up to eat is a good restaurant.)",a:["먹는"],opts:["먹는","먹은","먹을","먹기"],hint:"Present noun modifier -는: 먹는 식당 = restaurant where one eats."},
+{type:"fb",s:"한국에서는 줄을 서서 {1} 식당이 맛있는 식당이에요.\n(In Korea, a restaurant where you line up to eat is a good restaurant.)",a:["먹는"],opts:["먹는","먹은","먹을","먹기"],hint:"Use the present tense modifier to describe the kind of place by what happens there."},
 ]},
 
 // ── L5: ★ 관형형 HARVEST (21 steps) ──
@@ -141,10 +141,10 @@ const UNIT_18 =
 {type:"fb",s:"제가 {1} 나라는 한국이에요.\n(The country I want to live in is Korea.)",a:"살고 싶은",opts:["살고 싶은","살고 싶는","사는","살은"],hint:"-고 싶다 acts like an adjective for modifiers. Adjectives take -(으)ㄴ."},
 {type:"mc",q:"레시피에 나오는 재료를 살 거예요 combines:",opts:["Present modifier (나오는) + future modifier (살)","Only present","Only future","Past + present"],ans:"Present modifier (나오는) + future modifier (살)",hint:"Ingredients that appear (ongoing) in the recipe. I will buy (future plan). Two modifiers."},
 {type:"fb",s:"내일 {1} 재료를 오늘 사야 해요.\n(I need to buy ingredients to use tomorrow today.)",a:"쓸",opts:["쓸","쓰는","쓴","쓰기"],hint:"Tomorrow = future. 쓰다 future modifier: vowel stem + ㄹ = 쓸."},
-{type:"mc",q:"맛있는 음식을 만들기 위해서 레시피를 찾아요 combines:",opts:["Three: modifier (맛있는) + -기 위해서 + object","Two","One","Four"],ans:"Three: modifier (맛있는) + -기 위해서 + object",hint:"Delicious (modifier). In order to make (-기 위해서). I search for recipes. Three grammar layers."},
+{type:"mc",q:"맛있는 음식을 만들기 위해서 레시피를 찾아요 combines:",opts:["Three: modifier (맛있는) + -기 위해서 + object","Two","One","Four"],ans:"Three: modifier (맛있는) + -기 위해서 + object",hint:"Combine a taste modifier, formal purpose, and searching in one sentence."},
 {type:"drag_fill",s:"어제 {1} 레시피로 오늘 요리하{2} 것이 재미있을 거예요.\n(Cooking today with the recipe I found yesterday will be fun.)",blanks:{"1":"찾은","2":"는"},pool:["찾은","는","찾는","은","을"],hint:"Found yesterday = past modifier. Cooking today = present ongoing action. -는 것 nominalization."},
 
-{type:"mc",q:"어제 읽은 책이 정말 재미있었어요.\n(The book I read yesterday was really interesting.)",opts:["읽은 (past modifier)","읽는 (present modifier)","읽을 (future modifier)","읽기 (nominalizer)"],ans:"읽은 (past modifier)",hint:"Past modifier -(으)ㄴ: 읽다 → 읽은. The book that was read."},
+{type:"mc",q:"어제 읽은 책이 정말 재미있었어요.\n(The book I read yesterday was really interesting.)",opts:["읽은 (past modifier)","읽는 (present modifier)","읽을 (future modifier)","읽기 (nominalizer)"],ans:"읽은 (past modifier)",hint:"Apply the past tense modifier to describe a book that has already been read."},
 ]},
 
 // ── L6: 관형형 연습 (21 steps) ──
@@ -165,12 +165,12 @@ const UNIT_18 =
 {type:"fb",s:"어제 만{1} 요리가 맛있더라고요.\n(The dish I made yesterday was tasty, I found.)",a:"든",opts:["든","드는","들","들은"],hint:"만들다 past modifier. ㄹ drops before ㄴ. 만들 + ㄴ = 만든."},
 {type:"mc",q:"젓가락으로 먹기 어려운 음식이 뭐예요? combines:",opts:["-기 어렵다 (hard to do) + modifier + question","Only -기","Only modifier","Past tense question"],ans:"-기 어렵다 (hard to do) + modifier + question",hint:"먹기 어려운 = hard to eat (nominalization + adjective modifier). Multi-pattern."},
 {type:"drag_fill",s:"맛있{1} 음식을 먹{2} 기분이 {3}.\n(When I eat delicious food, my mood gets better.)",blanks:{"1":"는","2":"으면","3":"좋아져요"},pool:["는","으면","좋아져요","은","으면서","좋아해요"],hint:"Delicious = present modifier. If/when = conditional. Gets better = -아/어지다."},
-{type:"mc",q:"남은 재료로 만든 요리 has how many modifiers?",opts:["Two: 남은 (leftover) + 만든 (made)","One","Three","Zero"],ans:"Two: 남은 (leftover) + 만든 (made)",hint:"남은 modifies 재료. 만든 modifies 요리. Both past modifiers."},
+{type:"mc",q:"남은 재료로 만든 요리 has how many modifiers?",opts:["Two: 남은 (leftover) + 만든 (made)","One","Three","Zero"],ans:"Two: 남은 (leftover) + 만든 (made)",hint:"Two past modifiers: one describes leftover ingredients, one describes a cooked dish."},
 {type:"fb",s:"젓가락으로 먹{1} 어려운 음식이 많아요.\n(There are many foods hard to eat with chopsticks.)",a:"기",opts:["기","는","은","을"],hint:"Hard to eat with chopsticks. Which nominalizing suffix pairs with 어렵다?"},
 {type:"mc",q:"오늘 남은 음식으로 내일 먹을 반찬을 만들 거예요 combines:",opts:["Three: past modifier (남은) + future modifier (먹을) + future plan (거예요)","Two","One","Four"],ans:"Three: past modifier (남은) + future modifier (먹을) + future plan (거예요)",hint:"Leftover (past). Side dishes to eat (future). Will make (future plan). Three layers."},
 {type:"drag_fill",s:"제가 {1} 음식 중에 가장 만들{2} 어려운 것은 찌개예요.\n(Among the foods I like, the hardest one to make is stew.)",blanks:{"1":"좋아하는","2":"기"},pool:["좋아하는","기","좋아한","는 것","좋아할"],hint:"Foods I like = present modifier. Hard to make = -기 어렵다. Two grammar patterns."},
 
-{type:"fb",s:"내일 {1} 음식을 미리 준비해야 해요.\n(I must prepare the food to eat tomorrow in advance.)",a:["먹을"],opts:["먹을","먹는","먹은","먹기"],hint:"Future modifier -(으)ㄹ: 먹다 → 먹을. The food that will be eaten."},
+{type:"fb",s:"내일 {1} 음식을 미리 준비해야 해요.\n(I must prepare the food to eat tomorrow in advance.)",a:["먹을"],opts:["먹을","먹는","먹은","먹기"],hint:"Apply the future modifier to the eating verb when describing planned food."},
 {type:"drag_fill",s:"어제 {1} 식당이 오늘 {2} 식당보다 맛있었어요.\n(The restaurant I went to yesterday was tastier than the one I went to today.)",blanks:{"1":"간","2":"간"},pool:["간","간","가는","가는","갈","갈"],hint:"Past modifier for both: 가다 → 간. The restaurant that was visited."},
 ]},
 
@@ -194,11 +194,11 @@ const UNIT_18 =
 {type:"drag_fill",s:"의사가 야식 먹지 {1} 했는데, 친구가 치킨 시키{2} 해서 고민이에요.\n(The doctor told me not to eat late-night snacks, but my friend suggested ordering chicken, so I'm torn.)",blanks:{"1":"말라고","2":"자고"},pool:["말라고","자고","다고","냐고","먹으라고"],hint:"Doctor's negative command (-지 말라고) vs friend's suggestion (-자고). Conflicting advice."},
 {type:"mc",q:"주문한 음식이 맛있었다고 했어요 combines:",opts:["Past modifier (주문한) + reported statement (-다고)","Only modifier","Only reported speech","Only past tense"],ans:"Past modifier (주문한) + reported statement (-다고)",hint:"Food that was ordered (past modifier) + they said it was delicious (reported statement)."},
 {type:"fb",s:"친구가 매운 것 많이 먹{1} 했어요.\n(My friend told me to eat a lot of spicy things.)",a:"으라고",opts:["으라고","자고","다고","냐고"],hint:"A command in reported speech. Telling someone to eat = -(으)라고."},
-{type:"mc",q:"삼겹살 구워서 반찬이랑 같이 먹자고 하는 것이 한국 문화예요 combines:",opts:["Four: ㅂ-irregular (구워서) + -자고 + -는 것 + 이다","Three","Two","One"],ans:"Four: ㅂ-irregular (구워서) + -자고 + -는 것 + 이다",hint:"Grilling (ㅂ-irregular). Suggesting eating together (-자고). The act of (-는 것). Is Korean culture (이다). Four layers."},
+{type:"mc",q:"삼겹살 구워서 반찬이랑 같이 먹자고 하는 것이 한국 문화예요 combines:",opts:["Four: ㅂ-irregular (구워서) + -자고 + -는 것 + 이다","Three","Two","One"],ans:"Four: ㅂ-irregular (구워서) + -자고 + -는 것 + 이다",hint:"Count the layers: grilling verb (consonant change) + group suggestion + verb-to-noun + linking verb."},
 {type:"drag_fill",s:"의사가 야식을 줄이{1} 했는데, 친구가 치킨 시키{2} 해요.\n(The doctor told me to reduce late-night snacks, but my friend suggests ordering chicken.)",blanks:{"1":"라고","2":"자고"},pool:["라고","자고","다고","냐고","는데"],hint:"Doctor commands (-(으)라고). Friend suggests (-자고). Two kinds of reported speech."},
 
-{type:"mc",q:"엄마가 맛있는 음식을 많이 만들어 주시라고 할머니께 부탁했어요.\n(Mom asked grandma to make a lot of delicious food.)",opts:["-(으)라고 하다 (command/request)","-자고 하다 (suggestion)","-다고 하다 (statement)","-냐고 하다 (question)"],ans:"-(으)라고 하다 (command/request)",hint:"-(으)라고: reported request/command. Mom asked grandma to make food."},
-{type:"fb",s:"친구가 이 식당이 맛있{1} 추천했어요.\n(My friend recommended this restaurant saying it was delicious.)",a:["다고"],opts:["다고","라고","냐고","자고"],hint:"-다고 하다 = reported statement. Friend said: it is delicious."},
+{type:"mc",q:"엄마가 맛있는 음식을 많이 만들어 주시라고 할머니께 부탁했어요.\n(Mom asked grandma to make a lot of delicious food.)",opts:["-(으)라고 하다 (command/request)","-자고 하다 (suggestion)","-다고 하다 (statement)","-냐고 하다 (question)"],ans:"-(으)라고 하다 (command/request)",hint:"Reported speech for requests uses a different ending than for statements."},
+{type:"fb",s:"친구가 이 식당이 맛있{1} 추천했어요.\n(My friend recommended this restaurant saying it was delicious.)",a:["다고"],opts:["다고","라고","냐고","자고"],hint:"Report what someone said about the food using the statement quotation pattern."},
 ]},
 
 // ── L8: 음식 대화 (21 steps) ──
@@ -208,7 +208,7 @@ const UNIT_18 =
 {type:"teach",nl:"싱겁다",en:"to be bland",pos:"verb",gender:null,funFact:"Opposite: 짜다 (salty).",phonetic:"sing-geop-da",example:"A: 이 국 맛이 어때요?\nB: 좀 싱거워요. 소금을 넣을까요?\nA: 네, 좀 싱거운 것 같아요.\nB: 양념을 더 넣으면 맛있어질 거예요.\nA: 이제 괜찮아요. 싱겁지 않아요!",exampleEn:"A: How does this soup taste?\nB: It is a bit bland. Shall I add salt?\nA: Yes, it seems a little bland.\nB: If we add more seasoning it will get tasty.\nA: Now it is fine. It is not bland!",note:"싱겁다 → 싱거워요 (ㅂ-irregular).\nOpposite: 짜다 (salty).\n양념이 싱겁다 = seasoning is bland.",kind:"word"},
 {type:"mc",q:"먹는 것을 좋아하는 편이에요. How many grammar points?",opts:["Three: -는 것 + 좋아하는 (modifier) + 편이에요 (tendency)","One","Two","Four"],ans:"Three: -는 것 + 좋아하는 (modifier) + 편이에요 (tendency)",hint:"Nominalization + modifier + tendency expression. Three layers."},
 {type:"fb",s:"제가 가장 좋아하{1} 음식은 떡볶이예요.\n(The food I like most is tteokbokki.)",a:"는",opts:["는","은","ㄴ","을"],hint:"Liking is an ongoing state. Which modifier marks present tense verbs?"},
-{type:"mc",q:"어제 먹은 삼겹살이 맛있었거든요 has two grammar layers:",opts:["먹은 (past modifier) + -거든요 (you see, giving new info)","Only past tense","Only -거든요","Only the modifier"],ans:"먹은 (past modifier) + -거든요 (you see, giving new info)",hint:"Past modifier describes the meat. -거든요 explains why."},
+{type:"mc",q:"어제 먹은 삼겹살이 맛있었거든요 has two grammar layers:",opts:["먹은 (past modifier) + -거든요 (you see, giving new info)","Only past tense","Only -거든요","Only the modifier"],ans:"먹은 (past modifier) + -거든요 (you see, giving new info)",hint:"A past description combined with an explanatory background reason ending."},
 {type:"drag_fill",s:"맛있{1} 것 추천해 주세요. 매운 것 말고 안 매운 {2}요.\n(Please recommend something delicious. Not spicy, something not spicy.)",blanks:{"1":"는","2":"거"},pool:["는","거","은","기","것을"],hint:"Something delicious (verb-like modifier). Something not spicy (거 = casual 것)."},
 {type:"fb",s:"한국 음식 만들{1} 어렵지만 재미있어요.\n(Making Korean food is difficult but fun.)",a:"기가",opts:["기가","기를","기에","는 것"],hint:"Making Korean food is the subject. -기 + subject marker 가."},
 {type:"mc",q:"배달시킬 거예요 vs 배달시킨 거예요:",opts:["Will order delivery vs already ordered delivery","Both future","Both past","Same meaning"],ans:"Will order delivery vs already ordered delivery",hint:"시킬 (future modifier) vs 시킨 (past modifier). 거 = 것."},
@@ -219,13 +219,13 @@ const UNIT_18 =
 {type:"mc",q:"매운 것을 잘 먹는 사람이 부러워요 combines:",opts:["Modifier (매운) + -는 것 + modifier (먹는) + adjective","Only one modifier","Only nominalization","Two patterns total"],ans:"Modifier (매운) + -는 것 + modifier (먹는) + adjective",hint:"Spicy (adj modifier) things that eat well (verb modifier) person. Layered modifiers."},
 {type:"fb",s:"맛집에 도착하{1} 바로 주문했어요.\n(As soon as I arrived at the famous restaurant, I ordered right away.)",a:"자마자",opts:["자마자","고 나서","ㄴ 후에","면서"],hint:"Arrived and IMMEDIATELY ordered. Which connector shows instant sequence?"},
 {type:"drag_fill",s:"매{1} 음식을 먹{2} 위해서 물을 많이 {3}.\n(In order to eat spicy food, I prepare a lot of water.)",blanks:{"1":"운","2":"기","3":"준비해요"},pool:["운","기","준비해요","는","는 것","마셔요"],hint:"Spicy = adj modifier. In order to eat = -기 위해서. Prepare = action."},
-{type:"mc",q:"맛집에서 주문한 매운 찌개가 싱거웠다고요? has how many layers?",opts:["Four: past modifier + adj modifier + ㅂ-irregular + reported surprise","Three","Two","One"],ans:"Four: past modifier + adj modifier + ㅂ-irregular + reported surprise",hint:"주문한, 매운, 싱거웠 (ㅂ-irregular past), -다고요 (really?). Four grammar layers."},
+{type:"mc",q:"맛집에서 주문한 매운 찌개가 싱거웠다고요? has how many layers?",opts:["Four: past modifier + adj modifier + ㅂ-irregular + reported surprise","Three","Two","One"],ans:"Four: past modifier + adj modifier + ㅂ-irregular + reported surprise",hint:"Count four layers: what was ordered (modifier) + spicy (adj modifier) + bland past (consonant-change adj) + surprised disbelief ending."},
 {type:"fb",s:"매운 음식 먹{1} 좋아해요. 땀이 나요.\n(I like eating spicy food. I sweat.)",a:"는 것을",opts:["는 것을","기를","은 것을","는 것이"],hint:"I like the act of eating. -는 것 + object particle 을."},
-{type:"mc",q:"싱거운 찌개에 양념을 넣은 후에 맛이 좋아졌어요 combines:",opts:["Three: ㅂ-irregular (싱거운) + past modifier (넣은) + -아/어졌어요 (became)","Two","One","Four"],ans:"Three: ㅂ-irregular (싱거운) + past modifier (넣은) + -아/어졌어요 (became)",hint:"Bland (ㅂ-irregular modifier). After adding (past modifier). Became better (-아/어지다 past). Three grammar layers."},
+{type:"mc",q:"싱거운 찌개에 양념을 넣은 후에 맛이 좋아졌어요 combines:",opts:["Three: ㅂ-irregular (싱거운) + past modifier (넣은) + -아/어졌어요 (became)","Two","One","Four"],ans:"Three: ㅂ-irregular (싱거운) + past modifier (넣은) + -아/어졌어요 (became)",hint:"Bland adjective modifier (consonant-change) + what was added (past modifier) + became tasty (change of state). Three layers."},
 {type:"drag_fill",s:"매{1} 음식을 먹{2} 전에 물을 준비하는 {3} 중요해요.\n(Preparing water before eating spicy food is important.)",blanks:{"1":"운","2":"기","3":"것이"},pool:["운","기","것이","는","것을","은"],hint:"Spicy = adj modifier. Before eating = -기 전에. The act of preparing = -는 것. Three patterns."},
 
 {type:"fb",s:"A: 뭘 주문할까요? B: 비빔밥을 {1} 볼까요?\n(A: What shall we order? B: Shall we try bibimbap?)",a:["먹어"],opts:["먹어","먹고","먹기","먹을"],hint:"-아/어 보다 (try) + -(으)ㄹ까요 (suggestion): shall we try eating?"},
-{type:"mc",q:"이 김치는 어머니가 직접 담그신 김치예요.\n(This kimchi is kimchi that mother personally made.)",opts:["담그시다 + -(으)ㄴ (past modifier + honorific)","담그다 + -는 (present modifier)","담그시다 + -(으)ㄹ (future modifier)","담그다 + -기 (nominalizer)"],ans:"담그시다 + -(으)ㄴ (past modifier + honorific)",hint:"Past modifier + honorific: 담그시다 → 담그신. Kimchi that mother made."},
+{type:"mc",q:"이 김치는 어머니가 직접 담그신 김치예요.\n(This kimchi is kimchi that mother personally made.)",opts:["담그시다 + -(으)ㄴ (past modifier + honorific)","담그다 + -는 (present modifier)","담그시다 + -(으)ㄹ (future modifier)","담그다 + -기 (nominalizer)"],ans:"담그시다 + -(으)ㄴ (past modifier + honorific)",hint:"Honorific past modifier for making kimchi: the verb with honorific -(으)신 form."},
 {type:"match",pairs:[{nl:"매운 음식",en:"spicy food"},{nl:"달콤한 음식",en:"sweet food"},{nl:"싱거운 음식",en:"bland food"},{nl:"짠 음식",en:"salty food"}]},
 ]},
 
@@ -246,14 +246,14 @@ const UNIT_18 =
 {type:"mc",q:"배달시킨 음식이 왔어요. 시킨 is:",opts:["Past modifier (food that was ordered)","Present modifier","Future modifier","Passive form"],ans:"Past modifier (food that was ordered)",hint:"시키다 + past modifier -(으)ㄴ = 시킨. The ordering is completed."},
 {type:"drag_fill",s:"한국에서 {1} 음식을 골라 보세요. {2} 것을 추천해요.\n(Choose food you want to eat in Korea. I recommend spicy things.)",blanks:{"1":"먹고 싶은","2":"매운"},pool:["먹고 싶은","매운","먹는","맛있은","싶는"],hint:"Want to eat = -고 싶은 (adjective-like modifier). Spicy = 매운 (adjective modifier)."},
 {type:"fb",s:"맛집에서 주문{1} 음식이 싱거웠어요.\n(The food I ordered at the famous restaurant was bland.)",a:"한",opts:["한","하는","할","하기"],hint:"I ordered = completed action. 주문하다 past modifier: 하 + ㄴ = 한."},
-{type:"mc",q:"양념을 넣기 전에 재료를 볶는 것이 중요해요 combines:",opts:["Three: -기 전에 + -는 것 + 중요하다","Two patterns","One pattern","Four patterns"],ans:"Three: -기 전에 + -는 것 + 중요하다",hint:"Before adding (-기 전에). Stir-frying (-는 것). Is important. Three patterns."},
+{type:"mc",q:"양념을 넣기 전에 재료를 볶는 것이 중요해요 combines:",opts:["Three: -기 전에 + -는 것 + 중요하다","Two patterns","One pattern","Four patterns"],ans:"Three: -기 전에 + -는 것 + 중요하다",hint:"Three grammar forms: before-doing + present nominalization + importance expression."},
 {type:"drag_fill",s:"어제 {1} 맛집에서 {2} 떡볶이가 매{3} 못 먹었어요. 다음에는 안 매운 걸 {4} 거예요.\n(The tteokbokki I ordered at the restaurant I went to yesterday was too spicy so I couldn't eat it. Next time I'll order something not spicy.)",blanks:{"1":"간","2":"시킨","3":"워서","4":"시킬"},pool:["간","시킨","워서","시킬","가는","시키는","우면","시켜"],hint:"Went (past: 간). Ordered (past: 시킨). Because spicy (ㅂ-irregular: 매워서). Will order (future: 시킬). Four patterns."},
 {type:"fb",s:"냉면 먹{1} 좋은 계절은 여름이에요.\n(The good season for eating cold noodles is summer.)",a:"기",opts:["기","는","은","을"],hint:"Good for eating cold noodles. Which suffix turns 먹다 into a noun here?"},
-{type:"mc",q:"아침에 먹을 반찬을 어제 만들어 놓은 것이 남아 있어요 combines:",opts:["Four: future mod (먹을) + past mod (만들어 놓은) + -는 것 + -아 있다","Three","Two","One"],ans:"Four: future mod (먹을) + past mod (만들어 놓은) + -는 것 + -아 있다",hint:"Side dishes to eat (future). Prepared in advance (past). What remains (-는 것). Still there (-아 있다). Four layers."},
+{type:"mc",q:"아침에 먹을 반찬을 어제 만들어 놓은 것이 남아 있어요 combines:",opts:["Four: future mod (먹을) + past mod (만들어 놓은) + -는 것 + -아 있다","Three","Two","One"],ans:"Four: future mod (먹을) + past mod (만들어 놓은) + -는 것 + -아 있다",hint:"Four modifiers: future-plan, prepared-in-advance, leftover, and another. Count them."},
 {type:"drag_fill",s:"친구가 {1} 맛집에서 {2} 음식이 매{3} 못 먹었{4} 했어요.\n(My friend said the food at the restaurant I recommended was too spicy and they could not eat it.)",blanks:{"1":"추천한","2":"시킨","3":"워서","4":"다고"},pool:["추천한","시킨","워서","다고","추천하는","시키는","우니까","라고"],hint:"Recommended (past mod). Ordered (past mod). Because spicy (ㅂ-irregular). Said (다고). Four patterns."},
 
-{type:"mc",q:"한국 음식을 먹기 위해서 한국에 왔어요.\n(I came to Korea in order to eat Korean food.)",opts:["-기 위해서","-(으)려고","-(으)러","-(으)려면"],ans:"-기 위해서",hint:"-기 위해서 = formal purpose. Came for the purpose of eating."},
-{type:"fb",s:"어제 {1} 비빔밥이 정말 맛있었어요.\n(The bibimbap I ate yesterday was really delicious.)",a:["먹은"],opts:["먹은","먹는","먹을","먹기"],hint:"Past modifier -(으)ㄴ: 먹다 → 먹은. The bibimbap that was eaten."},
+{type:"mc",q:"한국 음식을 먹기 위해서 한국에 왔어요.\n(I came to Korea in order to eat Korean food.)",opts:["-기 위해서","-(으)려고","-(으)러","-(으)려면"],ans:"-기 위해서",hint:"Formal purpose expression: came to this place with the goal of doing something."},
+{type:"fb",s:"어제 {1} 비빔밥이 정말 맛있었어요.\n(The bibimbap I ate yesterday was really delicious.)",a:["먹은"],opts:["먹은","먹는","먹을","먹기"],hint:"Yesterday's bibimbap: use the past tense modifier form of the eating verb."},
 {type:"drag_fill",s:"한국 음식을 배우{1} 위해서 요리 학원에 {2} 있어요.\n(I am attending a cooking academy in order to learn Korean food.)",blanks:{"1":"기","2":"다니고"},pool:["기","다니고","는","다녀서","게","다니면"],hint:"-기 위해서 (purpose) + -고 있다 (progressive)."},
 ]},
 

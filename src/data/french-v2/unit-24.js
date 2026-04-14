@@ -13,7 +13,7 @@ export default {n:24,lang:"fr",srcLang:"en",track:"v2",title:"Bilan B1",sub:"B1 
         {type:"fb",opts:["ait","a","avait","aura"],hint:"Avoir takes a special form after emotions",s:"Je suis content qu'elle {1} réussi son examen.",a:["ait"]},
         {type:"mc",q:"Complete: Bien qu'il ___ fatigué, il continue de travailler.",opts:["soit","est","serait","était"],ans:"soit",hint:"Bien que always requires a particular mood"},
         {type:"drag_fill",hint:"Two irregular forms needed after il est possible que",s:"Il est possible que Marie {1} malade et qu'elle ne {2} pas venir.",blanks:{"1":"soit","2":"puisse"},pool:["soit","puisse","est","peut","serait","pourrait"]},
-        {type:"mc",q:"Quel verbe est au subjonctif dans cette phrase: Je souhaite qu'ils aient plus de temps.",opts:["aient","souhaite","temps","plus"],ans:"aient",hint:"Look for the verb that follows the trigger expression"},
+        {type:"mc",q:"In 'Je souhaite qu'ils ___ plus de temps', which form of avoir belongs in the blank?",opts:["aient","ont","auraient","avaient"],ans:"aient",hint:"Souhaiter is a trigger. Avoir has an irregular stem in this mood."},
         {type:"fb",opts:["saches","sais","sauras","savais"],hint:"Savoir has an irregular stem in this mood",s:"Il est nécessaire que tu {1} la vérité.",a:["saches"]},
         {type:"mc",q:"Choisissez la forme correcte: Avant qu'il ___, dis-lui au revoir.",opts:["parte","part","partira","partait"],ans:"parte",hint:"Avant que triggers the same mood as il faut que"},
         {type:"drag_fill",hint:"Both verbs need the mood triggered by vouloir que",s:"Je veux que vous {1} attentifs et que vous {2} les instructions.",blanks:{"1":"soyez","2":"suiviez"},pool:["soyez","suiviez","êtes","suivez","serez","suivrez"]},

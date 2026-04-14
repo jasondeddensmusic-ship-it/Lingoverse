@@ -42,7 +42,7 @@ const UNIT_3 =
   {type:"match",pairs:[{nl:"백",en:"100"},{nl:"천",en:"1,000"},{nl:"만",en:"10,000"},{nl:"십만",en:"100,000"}]},
   {type:"drag_fill",s:"이 가방은 {1}오백 원이에요. (₩12,500)",blanks:{"1":"만이천"},pool:["만이천","이만","천이백","십이백"],hint:"12,500 = 만(10,000) + 이천(2,000) + 오백(500)"},
   {type:"mc",q:"'My phone number is 010-9876-5432' starts with:",opts:["공일공","영일영","일공일","십일공"],ans:"공일공",hint:"Phone numbers use 공 for zero"},
-  {type:"mc",q:"₩100,000 in Korean is:",opts:["만 원","십만 원","백만 원","천만 원"],ans:"십만 원",hint:"100,000 = 10 × 만(10,000) = 십만"},
+  {type:"mc",q:"₩100,000 in Korean is:",opts:["만 원","십만 원","백만 원","천만 원"],ans:"십만 원",hint:"This is 10 times the unit for ten-thousand. Think in terms of Korean number units."},
 ]},
 
 // ═══ L3: Native Korean 하나-열 ═══
@@ -56,13 +56,13 @@ const UNIT_3 =
   {type:"mc",q:"'3 o'clock' uses which number?",opts:["삼 시","셋 시","세 시","삼시"],ans:"세 시",hint:"Hours use NATIVE numbers, and 셋 contracts to 세 before counters"},
   {type:"mc",q:"'March 15th' uses which number system?",opts:["Native Korean","Sino-Korean","Both mixed","Either works"],ans:"Sino-Korean",hint:"Dates always use ...: 삼월 십오일"},
   {type:"mc",q:"Which four native numbers contract before counters?",opts:["하나, 둘, 셋, 다섯","하나, 둘, 셋, 넷","둘, 셋, 넷, 다섯","하나, 셋, 다섯, 여섯"],ans:"하나, 둘, 셋, 넷",hint:"Only the first four: 하나→한, 둘→두, 셋→세, 넷→네"},
-  {type:"mc",q:"'5 people' in Korean:",opts:["다섯 명","다선 명","오 명","다섯명"],ans:"다섯 명",hint:"다섯 (5) does NOT contract. No change needed."},
+  {type:"mc",q:"'5 people' in Korean:",opts:["다섯 명","다선 명","오 명","다섯명"],ans:"다섯 명",hint:"Only the first few native numbers contract before counters. Five is not one of them."},
   {type:"fb",s:"커피 ___ 잔 주세요. (2 cups of coffee) (둘 contracts to 두 before counters)",a:"두",opts:["둘","두","이","이십"],hint:"둘 contracts to 두 before counters"},
   {type:"fb",s:"지금 ___ 시예요.\n(It's 7 o'clock)",a:"일곱",opts:["일곱","칠","일","여섯"],hint:"Hours use NATIVE Korean. 7"},
   {type:"fb",s:"사과 ___ 개 주세요. (3 apples) (셋 contracts to 세 before counters)",a:"세",opts:["셋","세","삼","세이"],hint:"셋 contracts to 세 before counters"},
   {type:"match",pairs:[{nl:"하나→한",en:"1 (contracts before counter)"},{nl:"둘→두",en:"2 (contracts before counter)"},{nl:"셋→세",en:"3 (contracts before counter)"},{nl:"넷→네",en:"4 (contracts before counter)"}]},
   {type:"drag_fill",s:"지금 {1} 시 {2} 분이에요.",blanks:{"1":"세","2":"삼십"},pool:["세","셋","삼","삼십","서른","열"],hint:"3:30  -  native for hours, Sino-Korean for minutes"},
-  {type:"mc",q:"Which counter phrase is WRONG?",opts:["사과 세 개","커피 두 잔","사람 하나 명","시간 한 시간"],ans:"사람 하나 명",hint:"하나 contracts to 한 before counters: 한 명, not 하나 명"},
+  {type:"mc",q:"Which counter phrase is WRONG?",opts:["사과 세 개","커피 두 잔","사람 하나 명","시간 한 시간"],ans:"사람 하나 명",hint:"People as a group of one use a contracted number form before the counter."},
 ]},
 
 // ═══ L4: Counters ═══
@@ -77,7 +77,7 @@ const UNIT_3 =
   {type:"mc",q:"'3 apples' in Korean:",opts:["사과 삼 개","사과 세 개","세 사과 개","사과 셋"],ans:"사과 세 개",hint:"Noun + native number (contracted) + counter"},
   {type:"mc",q:"'2 cups of coffee':",opts:["커피 이 잔","커피 두 잔","두 커피 잔","커피 둘 잔"],ans:"커피 두 잔",hint:"둘 → 두 before counter"},
   {type:"mc",q:"The POLITE counter for people is:",opts:["개","명","분","마리"],ans:"분",hint:"분 is the honorific version of 명"},
-  {type:"mc",q:"'5 dogs' in Korean:",opts:["강아지 다선 마리","강아지 다섯 마리","강아지 오 마리","다섯 강아지"],ans:"강아지 다섯 마리",hint:"Animals use 마리. 5 = 다섯 (no contraction needed)"},
+  {type:"mc",q:"'5 dogs' in Korean:",opts:["강아지 다선 마리","강아지 다섯 마리","강아지 오 마리","다섯 강아지"],ans:"강아지 다섯 마리",hint:"Count the dogs with the counter for small animals and the native number for five."},
   {type:"fb",s:"고양이 ___ 마리가 있어요. (one cat)",a:"한",opts:["한","하나","일","하"],hint:"하나 contracts to 한 before counters"},
   {type:"fb",s:"손님이 ___ 분이에요. (2 guests  -  polite)",a:"두",opts:["두","이","둘","한"],hint:"Polite counter for people = 분, 2 = 두"},
   {type:"fb",s:"책 세 ___ 주세요. (3 books  -  use the right counter)",a:"권",opts:["권","개","명","장"],hint:"Books use 권 (not 개)"},
@@ -110,7 +110,7 @@ const UNIT_3 =
   {type:"mc",q:"분 means:",opts:["What time is it?","minute","AM","hour"],ans:"minute",hint:"시 = hour. What is the smaller unit of time?"},
   {type:"teach",kind:"word",nl:"반",en:"half (past)",pos:"noun",gender:null,funFact:"Used instead of '삼십 분' in conversation.",phonetic:"ban",example:"A: 지금 몇 시예요? B: 두 시 반이에요.",exampleEn:"A: What time is it now? B: It's 2:30.",note:"반: half.\n두 시 반: 2:30 (two-thirty).\n세 시 반: 3:30 (three-thirty).",deepDive:{title:"Using 반",text:"Used instead of '삼십 분' in conversation.\n두 시 반 = 두 시 삼십 분 (same meaning, 반 is faster)."}},
   {type:"mc",q:"'3 o'clock' in Korean:",opts:["삼 시","셋 시","세 시","삼시"],ans:"세 시",hint:"Hours use NATIVE Korean. 셋 → 세 before counter"},
-  {type:"mc",q:"'3:30' in Korean:",opts:["삼 시 삼십 분","세 시 삼십 분","세 시 서른 분","삼 시 반"],ans:"세 시 삼십 분",hint:"Native hours (세) + Sino minutes (삼십)"},
+  {type:"mc",q:"'3:30' in Korean:",opts:["삼 시 삼십 분","세 시 삼십 분","세 시 서른 분","삼 시 반"],ans:"세 시 삼십 분",hint:"Hours use native Korean numbers. Minutes use Sino-Korean. Three + thirty."},
   {type:"mc",q:"오후 means:",opts:["Before noon","After noon","Exactly noon","Morning"],ans:"After noon",hint:"오 (noon) + 후 (after) = PM"},
   {type:"mc",q:"두 시 반 as a time:",opts:["2:15","2:30","2:45","12:30"],ans:"2:30",hint:"반 = half past = :30"},
   {type:"fb",s:"오전 ___ 시예요.\n(It's 10 AM)",a:"열",opts:["열","십","일곱","아홉"],hint:"10 o'clock: hours use NATIVE Korean. 10 = 열"},
@@ -135,7 +135,7 @@ const UNIT_3 =
   {type:"mc",q:"이천오백 원 in won:",opts:["₩250","₩2,500","₩25,000","₩250,000"],ans:"₩2,500",hint:"이(2) × 천(1,000) + 오(5) × 백(100) = 2,500"},
   {type:"mc",q:"삼만 원 in won:",opts:["₩3,000","₩300","₩30,000","₩300,000"],ans:"₩30,000",hint:"삼(3) × 만(10,000) = 30,000"},
   {type:"mc",q:"The ₩50,000 bill features:",opts:["Modern Seoul skyline","King Sejong the Great","Shin Saimdang","Cherry blossom painting"],ans:"Shin Saimdang",hint:"신사임당: famous artist and calligrapher. King Sejong is on the ₩10,000 bill."},
-  {type:"mc",q:"You want to pay by card. You say:",opts:["영수증 주세요","카드로 해 주세요","현금이 없어요","얼마예요?"],ans:"카드로 해 주세요",hint:"카드 = card, 로 = by means of, 해 주세요 = please do"},
+  {type:"mc",q:"You want to pay by card. You say:",opts:["영수증 주세요","카드로 해 주세요","현금이 없어요","얼마예요?"],ans:"카드로 해 주세요",hint:"Ask the cashier to process the payment using a specific method."},
   {type:"fb",s:"이 책은 ___ 원이에요.\n(This book is ___ won. ₩15,000)",a:"만오천",opts:["만오천","십오천","오만","천오"],hint:"15,000 = 만(10,000) + 오천(5,000)"},
   {type:"fb",s:"___이 있어요?\n(Is there a discount?)",a:"할인",opts:["할인","거스름돈","영수증","카드"],hint:"할 (cut) + 인 (price) = discount"},
   {type:"match",pairs:[{nl:"얼마예요?",en:"How much is it?"},{nl:"영수증",en:"receipt"},{nl:"할인",en:"discount"},{nl:"거스름돈",en:"change (money back)"}]},
@@ -152,14 +152,14 @@ const UNIT_3 =
   {type:"mc",q:"In Korean, the standard word order is:",opts:["Subject  -  Verb  -  Object","Object  -  Subject  -  Verb","Subject  -  Object  -  Verb","Verb  -  Subject  -  Object"],ans:"Subject  -  Object  -  Verb",hint:"The verb always goes last in Korean sentences."},
   {type:"tip",title:"⭐ Why SOV Feels Natural After Two Units",text:"Every Korean sentence you know ends with a verb:\n\n저는 학생이에요 = I am a student (verb last)\n커피를 마셔요 = I drink coffee (verb last)\n학교에 가요 = I go to school (verb last)",deepDive:{title:"The Verb-Last Rule and Why It Sticks",text:"SOV = Subject-Object-Verb. The verb ALWAYS goes last.\nThe middle is flexible. The end is fixed.\n\n저도 몰라요 → ...몰라요 (last)\n\nYour brain already knows SOV.\nThis lesson just gave your brain a name for it.\n\nKey takeaway: NEVER move the verb.\nEven in a sentence with 10 elements,\nthe verb is the caboose."}},
   {type:"mc",q:"In Korean, where does the verb go?",opts:["First","Middle","Last","It varies"],ans:"Last",hint:"SOV = verb at the END, always"},
-  {type:"mc",q:"저는 학생이에요. The verb is:",opts:["저는","학생","이에요","저"],ans:"이에요",hint:"The verb is always the final element"},
+  {type:"mc",q:"In '저는 학생___', what copula verb links the subject to the noun?",opts:["저는","학생","이에요","저"],ans:"이에요",hint:"The verb is always the final element"},
   {type:"mc",q:"Which sentence shows correct SOV order?",opts:["마셔요 저는 커피를","저는 마셔요 커피를","저는 커피를 마셔요","커피를 마셔요 저는"],ans:"저는 커피를 마셔요",hint:"Subject first, object middle, verb LAST"},
   {type:"mc",q:"Korean SOV vs English SVO: what's different?",opts:["Korean has no subject","Verb is in the middle in Korean","Verb comes last in Korean","Objects come first in Korean"],ans:"Verb comes last in Korean",hint:"English: I DRINK coffee. Korean: I coffee DRINK."},
   {type:"fb",s:"저는 밥을 ___.\n(I eat rice  -  put the verb last)",a:"먹어요",opts:["먹어요","있어요","가요","이에요"],hint:"Verb = last. 밥을 먹다 = to eat rice"},
   {type:"fb",s:"어제 저는 도서관에서 책을 ___.\n(Yesterday I ___ a book at the library.)",a:"읽었어요",opts:["읽었어요","도서관","어제","책을"],hint:"The verb (read) goes last in this SOV sentence"},
   {type:"match",pairs:[{nl:"S",en:"subject (first)"},{nl:"O",en:"object (middle)"},{nl:"V",en:"verb (always LAST)"},{nl:"SOV",en:"Korean word order"}]},
   {type:"drag_fill",s:"{1} {2}를 {3}.",blanks:{"1":"저는","2":"커피","3":"마셔요"},pool:["커피","마셔요","저는","학교"],hint:"I drink coffee  -  object comes before verb"},
-  {type:"mc",q:"어제 저는 학교에서 점심을 먹었어요. The verb is:",opts:["어제","저는","점심을","먹었어요"],ans:"먹었어요",hint:"Verb = last word. Always."},
+  {type:"mc",q:"What is the main predicate (final verb) in '어제 저는 학교에서 점심을 ___'?",opts:["어제","저는","점심을","먹었어요"],ans:"먹었어요",hint:"Verb = last word. Always."},
   {type:"mc",q:"Korean word order is flexible EXCEPT:",opts:["The verb can move anywhere","The verb must be last","The subject must be first","Particles can be dropped"],ans:"The verb must be last",hint:"SOV: the verb always goes at the end"},
 ]},
 
@@ -173,7 +173,7 @@ const UNIT_3 =
 
   {type:"teach",kind:"phrase",nl:"합쇼체 (hapjyo-che)",en:"Formal polite  -  the -습니다/ㅂ니다 register",pos:"intj",gender:null,funFact:"Stem ends in vowel + ㅂ니다: 가다 → 갑니다.",phonetic:"hap-syo-che",example:"A: 처음 뵙겠습니다. B: 네, 반갑습니다.",exampleEn:"A: Nice to meet you (formal). B: Yes, nice to meet you.",note:"합쇼체 = the formal, stiff register.\nYou've already heard it  -  you just didn't know the name.\n\n처음 뵙겠습니다: memorize as a set formal phrase. -겠 is taught in a later lesson.",deepDive:{title:"Using 합쇼체 (hapjyo-che)",text:"감사합니다 () = 하다 → 합니다 form\n안녕히 가세요 → formal version: 안녕히 가십시오\n\nFORMATION:\nStem ends in vowel + ㅂ니다: 가다 → 갑니다\nStem ends in consonant + 습니다: 먹다 → 먹습니다\n\nWHEN to use:\n• Job interviews\n• Meeting clients / senior strangers\n• Official broadcasts and announcements\n• Military, airlines, formal ceremonies\n\n⚡ You don't need to produce this yet. Just recognise it."}},
 
-  {type:"mc",q:"감사합니다  -  the -ㅂ니다 ending signals:",opts:["해요체","합쇼체 (formal)","반말","A question"],ans:"합쇼체 (formal)",hint:"합니다/ㅂ니다/습니다 = 합쇼체. The formal register."},
+  {type:"mc",q:"감사합니다  -  the -ㅂ니다 ending signals:",opts:["해요체","합쇼체 (formal)","반말","A question"],ans:"합쇼체 (formal)",hint:"These verb endings belong to a formal speech level used in public or on TV."},
 
   {type:"mc",q:"Meeting a Korean colleague for the first time, you use:",opts:["반말 (casual)","해요체 or 합쇼체","Only 합쇼체","English instead"],ans:"해요체 or 합쇼체",hint:"Both polite registers are appropriate for first meetings"},
 
