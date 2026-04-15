@@ -5,5 +5,6 @@ import UNIT_04 from './japanese-v2/unit-04.js';
 import UNIT_05 from './japanese-v2/unit-05.js';
 import UNIT_06 from './japanese-v2/unit-06.js';
 import UNIT_07 from './japanese-v2/unit-07.js';
+import UNIT_08 from './japanese-v2/unit-08.js';
 
-export default [UNIT_01, UNIT_02, UNIT_03, UNIT_04, UNIT_05, UNIT_06, UNIT_07];
+export default [UNIT_01, UNIT_02, UNIT_03, UNIT_04, UNIT_05, UNIT_06, UNIT_07, UNIT_08];
