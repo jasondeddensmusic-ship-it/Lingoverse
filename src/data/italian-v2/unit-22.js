@@ -81,7 +81,7 @@ const UNIT_22 = {
       {type:"fb", s:"C'e una {1} di Caravaggio al museo.",
        a:["mostra"],
        opts:["mostra","galleria","scultura","opera"],
-       hint:"A temporary display of artworks. From 'mostrare' (to show). You go to see one at a museum.",
+       hint:"A temporary display of artworks at a museum or gallery. From 'to show' in Italian. These can last weeks or months.",
        sSrc:"There is a Caravaggio {1} at the museum."},
 
       {type:"mc", q:"What are the three meanings of 'galleria' in Italian?",
@@ -152,7 +152,7 @@ const UNIT_22 = {
       {type:"mc", q:"What is 'la canzone' in Italian?",
        opts:["A song","A concert","A dance","An instrument"],
        ans:"A song",
-       hint:"From Latin 'cantio' (singing). 'Cantare una canzone' means to sing a song. The Festival di Sanremo is Italy's biggest song contest."},
+       hint:"From Latin 'cantio' (singing). 'Cantare' means to sing. The Festival di Sanremo is Italy's biggest music competition."},
 
       {type:"fb", s:"Suoni qualche {1}?",
        a:["strumento"],
@@ -171,7 +171,7 @@ const UNIT_22 = {
       {type:"mc", q:"What is a 'cantautore'?",
        opts:["A singer-songwriter","A classical composer","A music teacher","A concert pianist"],
        ans:"A singer-songwriter",
-       hint:"A compound word: cantante (singer) + autore (author). This tradition is deeply respected in Italy as a form of poetry."},
+       hint:"A compound word combining the performer and the creator into one role. This tradition is deeply respected in Italy as a form of poetry."},
 
       {type:"fb", s:"Amo la musica di Puccini. E un grande {1}.",
        a:["compositore"],
@@ -187,7 +187,7 @@ const UNIT_22 = {
       {type:"fb", s:"Che bella {1}! Non riesco a togliermela dalla testa.",
        a:["melodia"],
        opts:["melodia","canzone","opera","scultura"],
-       hint:"A tune that you cannot stop humming. From Greek 'melodia.' It refers specifically to the tune or musical line.",
+       hint:"A tune that you cannot stop humming. From Greek roots meaning 'song.' It refers specifically to the musical line, not the lyrics.",
        sSrc:"What a beautiful {1}! I cannot get it out of my head."},
 
       {type:"mc", q:"What was 'Viva Verdi!' secretly used for?",

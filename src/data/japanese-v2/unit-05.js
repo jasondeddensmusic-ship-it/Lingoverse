@@ -200,7 +200,7 @@ const UNIT_05 = {
   {type:"match", pairs:[{trg:"たべる",src:"to eat"},{trg:"のむ",src:"to drink"},{trg:"おなかがすいた",src:"I am hungry"},{trg:"のどがかわいた",src:"I am thirsty"}]},
 
   {type:"mc", q:"のみもの means:", opts:["food","drink","fruit","vegetable"], ans:"drink",
-   hint:"Nomu (drink) + mono (thing) = ?"},
+   hint:"Nomu (the consuming-liquid verb) + mono (thing) = ?"},
 
   {type:"fb", s:"___がすいた！\n(I am hungry!)", a:"おなか", opts:["おなか","のど","あたま","て"], sSrc:"I am hungry!",
    hint:"The body part that empties when you need to eat."},

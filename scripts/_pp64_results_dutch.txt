@@ -1,0 +1,186 @@
+
+=== UNIT 01 ===
+Teach: 67 | Tested: 64 | Untested: 3 | Coverage: 95.5%
+  Untested [v2u1l2]: "hij is" (src: "he is")
+  Untested [v2u1l2]: "zij is" (src: "she is")
+  Untested [v2u1l6]: "misschien" (src: "maybe / perhaps")
+
+=== UNIT 02 ===
+Teach: 59 | Tested: 57 | Untested: 2 | Coverage: 96.6%
+  Untested [v2u2l5]: "de student" (src: "the student")
+  Untested [v2u2l6]: "het land" (src: "the country")
+
+=== UNIT 03 ===
+Teach: 70 | Tested: 62 | Untested: 8 | Coverage: 88.6%
+  Untested [v2u3l3]: "'s middags" (src: "in the afternoon")
+  Untested [v2u3l5]: "de dag" (src: "the day")
+  Untested [v2u3l5]: "vandaag" (src: "today")
+  Untested [v2u3l6]: "april" (src: "April")
+  Untested [v2u3l6]: "juni" (src: "June")
+  Untested [v2u3l6]: "juli" (src: "July")
+  Untested [v2u3l6]: "augustus" (src: "August")
+  Untested [v2u3l7]: "vroeg" (src: "early")
+
+=== UNIT 04 ===
+Teach: 65 | Tested: 60 | Untested: 5 | Coverage: 92.3%
+  Untested [v2u4l1]: "het ei" (src: "the egg")
+  Untested [v2u4l3]: "jij kunt" (src: "you can")
+  Untested [v2u4l6]: "boterhammen" (src: "sandwiches")
+  Untested [v2u4l7]: "de cent" (src: "the cent")
+  Untested [v2u4l7]: "de winkel" (src: "the shop / store")
+
+=== UNIT 05 ===
+Teach: 79 | Tested: 79 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 06 ===
+Teach: 80 | Tested: 78 | Untested: 2 | Coverage: 97.5%
+  Untested [v2u6l6]: "brengen" (src: "to bring")
+  Untested [v2u6l8b]: "de kleding" (src: "the clothing")
+
+=== UNIT 07 ===
+Teach: 54 | Tested: 52 | Untested: 2 | Coverage: 96.3%
+  Untested [v2u7l1]: "vandaag" (src: "today")
+  Untested [v2u7l4]: "genomen" (src: "taken / took")
+
+=== UNIT 08 ===
+Teach: 82 | Tested: 80 | Untested: 2 | Coverage: 97.6%
+  Untested [v2u8l4]: "stop!" (src: "stop!")
+  Untested [v2u8l8b]: "de vis" (src: "the fish")
+
+=== UNIT 09 ===
+Teach: 57 | Tested: 53 | Untested: 4 | Coverage: 93.0%
+  Untested [v2u9l1]: "het bos" (src: "the forest")
+  Untested [v2u9l4]: "weten" (src: "to know (a fact)")
+  Untested [v2u9l8c]: "de metro" (src: "the subway / metro")
+  Untested [v2u9l8c]: "de luchthaven" (src: "the airport")
+
+=== UNIT 10 ===
+Teach: 73 | Tested: 71 | Untested: 2 | Coverage: 97.3%
+  Untested [v2u10l3]: "zag / zagen" (src: "saw")
+  Untested [v2u10l3]: "stond / stonden" (src: "stood")
+
+=== UNIT 11 ===
+Teach: 44 | Tested: 43 | Untested: 1 | Coverage: 97.7%
+  Untested [v2u11l5]: "het cv" (src: "the CV / resume")
+
+=== UNIT 12 ===
+Teach: 37 | Tested: 37 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 13 ===
+Teach: 30 | Tested: 30 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 14 ===
+Teach: 20 | Tested: 20 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 15 ===
+Teach: 29 | Tested: 29 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 16 ===
+Teach: 18 | Tested: 18 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 17 ===
+Teach: 30 | Tested: 30 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 18 ===
+Teach: 17 | Tested: 17 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 19 ===
+Teach: 35 | Tested: 34 | Untested: 1 | Coverage: 97.1%
+  Untested [v2u19l6]: "beschrijven" (src: "to describe")
+
+=== UNIT 20 ===
+Teach: 17 | Tested: 17 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 21 ===
+Teach: 22 | Tested: 22 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 22 ===
+Teach: 18 | Tested: 18 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 23 ===
+Teach: 33 | Tested: 31 | Untested: 2 | Coverage: 93.9%
+  Untested [v2u23l2]: "de teleurstelling" (src: "disappointment")
+  Untested [v2u23l4]: "het zij zo" (src: "so be it")
+
+=== UNIT 24 ===
+Teach: 34 | Tested: 34 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 25 ===
+Teach: 27 | Tested: 27 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 26 ===
+Teach: 31 | Tested: 31 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 27 ===
+Teach: 28 | Tested: 28 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 28 ===
+Teach: 32 | Tested: 32 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 29 ===
+Teach: 25 | Tested: 25 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 30 ===
+Teach: 20 | Tested: 20 | Untested: 0 | Coverage: 100.0%
+=== UNIT 31 === (LOAD ERROR)
+=== UNIT 32 === (LOAD ERROR)
+=== UNIT 33 === (LOAD ERROR)
+=== UNIT 34 === (LOAD ERROR)
+=== UNIT 35 === (LOAD ERROR)
+=== UNIT 36 === (LOAD ERROR)
+=== UNIT 37 === (LOAD ERROR)
+=== UNIT 38 === (LOAD ERROR)
+=== UNIT 39 === (LOAD ERROR)
+=== UNIT 40 === (LOAD ERROR)
+=== UNIT 41 === (LOAD ERROR)
+=== UNIT 42 === (LOAD ERROR)
+=== UNIT 43 === (LOAD ERROR)
+=== UNIT 44 === (LOAD ERROR)
+=== UNIT 45 === (LOAD ERROR)
+=== UNIT 46 === (LOAD ERROR)
+=== UNIT 47 === (LOAD ERROR)
+=== UNIT 48 === (LOAD ERROR)
+=== UNIT 49 === (LOAD ERROR)
+=== UNIT 50 === (LOAD ERROR)
+=== UNIT 51 === (LOAD ERROR)
+=== UNIT 52 === (LOAD ERROR)
+=== UNIT 53 === (LOAD ERROR)
+=== UNIT 54 === (LOAD ERROR)
+=== UNIT 55 === (LOAD ERROR)
+=== UNIT 56 === (LOAD ERROR)
+=== UNIT 57 === (LOAD ERROR)
+=== UNIT 58 === (LOAD ERROR)
+=== UNIT 59 === (LOAD ERROR)
+=== UNIT 60 === (LOAD ERROR)
+=== UNIT 61 === (LOAD ERROR)
+=== UNIT 62 === (LOAD ERROR)
+=== UNIT 63 === (LOAD ERROR)
+=== UNIT 64 === (LOAD ERROR)
+=== UNIT 65 === (LOAD ERROR)
+=== UNIT 66 === (LOAD ERROR)
+=== UNIT 67 === (LOAD ERROR)
+=== UNIT 68 === (LOAD ERROR)
+=== UNIT 69 === (LOAD ERROR)
+=== UNIT 70 === (LOAD ERROR)
+=== UNIT 71 === (LOAD ERROR)
+=== UNIT 72 === (LOAD ERROR)
+=== UNIT 73 === (LOAD ERROR)
+=== UNIT 74 === (LOAD ERROR)
+=== UNIT 75 === (LOAD ERROR)
+=== UNIT 76 === (LOAD ERROR)
+=== UNIT 77 === (LOAD ERROR)
+=== UNIT 78 === (LOAD ERROR)
+=== UNIT 79 === (LOAD ERROR)
+=== UNIT 80 === (LOAD ERROR)
+=== UNIT 81 === (LOAD ERROR)
+=== UNIT 82 === (LOAD ERROR)
+=== UNIT 83 === (LOAD ERROR)
+=== UNIT 84 === (LOAD ERROR)
+=== UNIT 85 === (LOAD ERROR)
+=== UNIT 86 === (LOAD ERROR)
+=== UNIT 87 === (LOAD ERROR)
+=== UNIT 88 === (LOAD ERROR)
+=== UNIT 89 === (LOAD ERROR)
+
+────────────────────────────────────────────────────────────
+GRAND TOTAL: 1233 teach | 1199 tested | 34 untested | 97.2% coverage

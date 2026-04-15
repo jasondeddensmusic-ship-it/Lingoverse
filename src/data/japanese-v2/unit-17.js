@@ -74,7 +74,7 @@ const UNIT_17 = {
    funFact:"作られる is essential for describing history and origins. Japanese historical sites often have signs saying 'this was built in year X.' The passive voice is the default for historical descriptions, just as in English museum labels. 作 also appears in 作品 (artwork) and 作家 (author)."},
 
   {type:"mc", q:"ともだちにたのまれた means:", opts:["I asked my friend","My friend was asked","I was asked by my friend","I will ask my friend"], ans:"I was asked by my friend",
-   hint:"The passive form means the speaker received the request. に marks the person who asked."},
+   hint:"The passive form shows the speaker was on the receiving end. に marks the agent who made the request."},
 
   {type:"match", pairs:[{trg:"ほめられる",src:"to be praised"},{trg:"えらばれる",src:"to be chosen"},{trg:"しかられる",src:"to be scolded"},{trg:"しょうたいされる",src:"to be invited"}]},
 
@@ -153,7 +153,7 @@ const UNIT_17 = {
    funFact:"恥ずかしい covers a wider emotional range than English 'embarrassed.' It includes shyness, modesty, and social shame. The related noun 恥 (haji, shame) is central to Japanese culture. Ruth Benedict's famous book described Japan as a 'shame culture' as opposed to a 'guilt culture.'"},
 
   {type:"mc", q:"さいふをぬすまれた means:", opts:["I stole a wallet","Someone found my wallet","I had my wallet stolen","I lost my wallet"], ans:"I had my wallet stolen",
-   hint:"The passive of ぬすむ (steal) with さいふを shows the wallet was taken from the speaker."},
+   hint:"The passive of ぬすむ (steal) with さいふを shows the item was taken from the speaker."},
 
   {type:"match", pairs:[{trg:"あめにふられる",src:"to get rained on"},{trg:"なかれる",src:"to have someone cry on you"},{trg:"さわがれる",src:"to be disturbed by noise"},{trg:"ぬすまれる",src:"to have something stolen"}]},
 

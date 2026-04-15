@@ -39,7 +39,7 @@ const UNIT_19 = {
    funFact:"曲がる is the standard verb for giving directions. Combined with と (automatic result conditional), it forms the classic direction pattern: まがると...があります (when you turn, there is...). The kanji 曲 also means 'song/tune' (曲 kyoku), from the idea of bending/curving musical notes."},
 
   {type:"mc", q:"このボタンをおすとドアがあきます means:", opts:["Push this button or the door opens","If you want, push the button","When you push this button, the door opens","Push the button and close the door"], ans:"When you push this button, the door opens",
-   hint:"と expresses an automatic result: pushing the button naturally causes the door to open."},
+   hint:"と expresses an automatic result: one action naturally triggers the next."},
 
   {type:"teach", trg:"さむい", src:"cold (weather/air)", pos:"adj", gender:null,
    note:"い-adjective for cold temperatures. Opposite: あつい (hot).\nKanji: 寒い. Applies to weather, not objects.",
@@ -84,7 +84,7 @@ const UNIT_19 = {
   {type:"match", pairs:[{trg:"たら",src:"if/when (flexible)"},{trg:"と",src:"when (automatic result)"},{trg:"さむい",src:"cold (weather)"},{trg:"はるになる",src:"spring comes"}]},
 
   {type:"mc", q:"しごとがおわったらのみにいきましょう means:", opts:["Work ended so I drank","When work finishes, let us go for drinks","If we drink, work will end","Work ends automatically"], ans:"When work finishes, let us go for drinks",
-   hint:"たら + しましょう is the pattern for 'when X happens, let us do Y.'"},
+   hint:"たら + しましょう is the pattern for suggesting an activity after a condition is met."},
 ]},
 
 // ═══ L2: ば・なら (Logical & Contextual If) ═══

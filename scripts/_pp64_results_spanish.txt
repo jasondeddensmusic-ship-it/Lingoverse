@@ -1,0 +1,173 @@
+
+=== UNIT 01 ===
+Teach: 50 | Tested: 48 | Untested: 2 | Coverage: 96.0%
+  Untested [esp1l5]: "¿Y tú?" (src: "And you?")
+  Untested [esp1l6]: "Él / Ella" (src: "He / She")
+
+=== UNIT 02 ===
+Teach: 48 | Tested: 48 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 03 ===
+Teach: 63 | Tested: 63 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 04 ===
+Teach: 44 | Tested: 43 | Untested: 1 | Coverage: 97.7%
+  Untested [esp4l3]: "el té" (src: "the tea")
+
+=== UNIT 05 ===
+Teach: 58 | Tested: 56 | Untested: 2 | Coverage: 96.6%
+  Untested [esp5l8c]: "solo / sola" (src: "lonely, alone")
+  Untested [esp5l8b]: "el codo" (src: "elbow")
+
+=== UNIT 06 ===
+Teach: 36 | Tested: 36 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 07 ===
+Teach: 56 | Tested: 55 | Untested: 1 | Coverage: 98.2%
+  Untested [esp7l8b]: "el este" (src: "the east")
+
+=== UNIT 08 ===
+Teach: 45 | Tested: 45 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 09 ===
+Teach: 39 | Tested: 39 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 10 ===
+Teach: 33 | Tested: 33 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 11 ===
+Teach: 48 | Tested: 46 | Untested: 2 | Coverage: 95.8%
+  Untested [esp11l8b]: "la mascota" (src: "the pet")
+  Untested [esp11l8b]: "el oso" (src: "the bear")
+
+=== UNIT 12 ===
+Teach: 46 | Tested: 44 | Untested: 2 | Coverage: 95.7%
+  Untested [esp12l8b]: "el farmacéutico / la farmacéutica" (src: "the pharmacist")
+  Untested [esp12l8b]: "el cantante / la cantante" (src: "the singer")
+
+=== UNIT 13 ===
+Teach: 41 | Tested: 37 | Untested: 4 | Coverage: 90.2%
+  Untested [esp13l2]: "No me olvides" (src: "Don't forget me")
+  Untested [esp13l6]: "me lo / te lo" (src: "it to me / it to you")
+  Untested [esp13l7]: "¿Se lo enseño?" (src: "Shall I show it to you?")
+  Untested [esp13l8b]: "el hospital" (src: "the hospital")
+
+=== UNIT 14 ===
+Teach: 58 | Tested: 58 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 15 ===
+Teach: 46 | Tested: 44 | Untested: 2 | Coverage: 95.7%
+  Untested [esp15l8b]: "el aeropuerto" (src: "the airport")
+  Untested [esp15l8b]: "la llegada" (src: "the arrival")
+
+=== UNIT 16 ===
+Teach: 60 | Tested: 60 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 17 ===
+Teach: 27 | Tested: 27 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 18 ===
+Teach: 28 | Tested: 25 | Untested: 3 | Coverage: 89.3%
+  Untested [esp18l1]: "seas" (src: "(that you) be (ser, informal)")
+  Untested [esp18l4]: "prefiera" (src: "(that I/he/she) prefer")
+  Untested [esp18l5]: "oiga" (src: "(that I/he/she) hear")
+
+=== UNIT 19 ===
+Teach: 23 | Tested: 22 | Untested: 1 | Coverage: 95.7%
+  Untested [esp19l1]: "la película" (src: "the movie / the film")
+
+=== UNIT 20 ===
+Teach: 45 | Tested: 45 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 21 ===
+Teach: 36 | Tested: 36 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 22 ===
+Teach: 35 | Tested: 35 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 23 ===
+Teach: 32 | Tested: 32 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 24 ===
+Teach: 56 | Tested: 56 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 25 ===
+Teach: 36 | Tested: 36 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 26 ===
+Teach: 31 | Tested: 31 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 27 ===
+Teach: 39 | Tested: 39 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 28 ===
+Teach: 35 | Tested: 35 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 29 ===
+Teach: 39 | Tested: 39 | Untested: 0 | Coverage: 100.0%
+
+=== UNIT 30 ===
+Teach: 29 | Tested: 29 | Untested: 0 | Coverage: 100.0%
+=== UNIT 31 === (LOAD ERROR)
+=== UNIT 32 === (LOAD ERROR)
+=== UNIT 33 === (LOAD ERROR)
+=== UNIT 34 === (LOAD ERROR)
+=== UNIT 35 === (LOAD ERROR)
+=== UNIT 36 === (LOAD ERROR)
+=== UNIT 37 === (LOAD ERROR)
+=== UNIT 38 === (LOAD ERROR)
+=== UNIT 39 === (LOAD ERROR)
+=== UNIT 40 === (LOAD ERROR)
+=== UNIT 41 === (LOAD ERROR)
+=== UNIT 42 === (LOAD ERROR)
+=== UNIT 43 === (LOAD ERROR)
+=== UNIT 44 === (LOAD ERROR)
+=== UNIT 45 === (LOAD ERROR)
+=== UNIT 46 === (LOAD ERROR)
+=== UNIT 47 === (LOAD ERROR)
+=== UNIT 48 === (LOAD ERROR)
+=== UNIT 49 === (LOAD ERROR)
+=== UNIT 50 === (LOAD ERROR)
+=== UNIT 51 === (LOAD ERROR)
+=== UNIT 52 === (LOAD ERROR)
+=== UNIT 53 === (LOAD ERROR)
+=== UNIT 54 === (LOAD ERROR)
+=== UNIT 55 === (LOAD ERROR)
+=== UNIT 56 === (LOAD ERROR)
+=== UNIT 57 === (LOAD ERROR)
+=== UNIT 58 === (LOAD ERROR)
+=== UNIT 59 === (LOAD ERROR)
+=== UNIT 60 === (LOAD ERROR)
+=== UNIT 61 === (LOAD ERROR)
+=== UNIT 62 === (LOAD ERROR)
+=== UNIT 63 === (LOAD ERROR)
+=== UNIT 64 === (LOAD ERROR)
+=== UNIT 65 === (LOAD ERROR)
+=== UNIT 66 === (LOAD ERROR)
+=== UNIT 67 === (LOAD ERROR)
+=== UNIT 68 === (LOAD ERROR)
+=== UNIT 69 === (LOAD ERROR)
+=== UNIT 70 === (LOAD ERROR)
+=== UNIT 71 === (LOAD ERROR)
+=== UNIT 72 === (LOAD ERROR)
+=== UNIT 73 === (LOAD ERROR)
+=== UNIT 74 === (LOAD ERROR)
+=== UNIT 75 === (LOAD ERROR)
+=== UNIT 76 === (LOAD ERROR)
+=== UNIT 77 === (LOAD ERROR)
+=== UNIT 78 === (LOAD ERROR)
+=== UNIT 79 === (LOAD ERROR)
+=== UNIT 80 === (LOAD ERROR)
+=== UNIT 81 === (LOAD ERROR)
+=== UNIT 82 === (LOAD ERROR)
+=== UNIT 83 === (LOAD ERROR)
+=== UNIT 84 === (LOAD ERROR)
+=== UNIT 85 === (LOAD ERROR)
+=== UNIT 86 === (LOAD ERROR)
+=== UNIT 87 === (LOAD ERROR)
+=== UNIT 88 === (LOAD ERROR)
+=== UNIT 89 === (LOAD ERROR)
+=== UNIT 90 === (LOAD ERROR)
+
+────────────────────────────────────────────────────────────
+GRAND TOTAL: 1262 teach | 1242 tested | 20 untested | 98.4% coverage

@@ -87,7 +87,7 @@ const UNIT_03 = {
       {type:"mc", q:"Come si dice 'mother' in italiano?",
        opts:["La madre","La sorella","La nonna","La zia"],
        ans:"La madre",
-       hint:"Think of the word 'maternal' in English. Both share a Latin root starting with 'matr-.'"},
+       hint:"Think of the English word 'maternal.' Both words share a Latin root starting with 'matr-.'"},
 
       {type:"mc", q:"Come si dice 'brother' in italiano?",
        opts:["Il cugino","Il nonno","Il fratello","Il padre"],
@@ -285,7 +285,7 @@ const UNIT_03 = {
       {type:"mc", q:"How do you say 'my mother' in Italian?",
        opts:["Mia madre","La mia madre","Il mio madre","Mio madre"],
        ans:"Mia madre",
-       hint:"With singular family members, the article is dropped. And 'madre' is feminine, so use the feminine possessive."},
+       hint:"With singular family members, the article is dropped. The word is feminine, so use the feminine possessive."},
 
       {type:"fb", s:"{1} fratello si chiama Marco.",
        a:["Mio"],
@@ -296,7 +296,7 @@ const UNIT_03 = {
       {type:"mc", q:"Which sentence is correct?",
        opts:["Tua sorella e alta","La tua sorella e alta","Il tuo sorella e alta","Tuo sorella e alta"],
        ans:"Tua sorella e alta",
-       hint:"Singular family member: drop the article. 'Sorella' is feminine, so the possessive must be feminine too."},
+       hint:"Singular family member: drop the article. The noun is feminine, so the possessive must match that gender."},
 
       {type:"fb", s:"{1} padre e di Roma.",
        a:["Tuo"],

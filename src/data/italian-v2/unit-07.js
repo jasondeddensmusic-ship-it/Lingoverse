@@ -93,7 +93,7 @@ const UNIT_07 = {
       {type:"mc", q:"What does 'il dolce' literally mean?",
        opts:["The sweet","The plate","The first","The end"],
        ans:"The sweet",
-       hint:"This word is both a noun (dessert) and an adjective. Think of 'la dolce vita' (the sweet life)."},
+       hint:"This word is both a noun (dessert) and an adjective. It describes a sugary taste, opposite of 'amaro.'"},
 
       {type:"fb", s:"Qual e il {1} del giorno?",
        a:["piatto"],
