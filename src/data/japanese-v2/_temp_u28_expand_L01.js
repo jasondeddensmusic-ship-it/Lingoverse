@@ -24,7 +24,7 @@ const LESSON_3 = {
      exampleSrc:"A: We will present the survey results.\nB: What results were obtained?",
      funFact:"結果 uses 結 (tie/bind) and 果 (fruit/result). Results are the fruit of your work. In academic writing, けっか appears in a fixed structure: 調査の結果、...ことがわかった (As a result of investigation, it was found that...). The word pairs with many verbs: けっかをだす (produce results), けっかをまつ (await results)."},
 
-    {type:"mc", q:"とかんがえられる is used in academic writing to:", opts:["Present claims with intellectual caution","Make strong definitive statements","Express personal feelings","Ask questions to the reader"], ans:"Present claims with intellectual caution",
+    {type:"mc", q:"とかんがえられる is used in academic writing to:", opts:["Make strong definitive statements","Express personal feelings","Ask questions to the reader","Present claims with intellectual caution"], ans:"Present claims with intellectual caution",
      hint:"The passive of think creates distance between the writer and the assertion."},
 
     {type:"teach", trg:"〜ことがわかった", src:"it was found that ~ / it became clear that ~", pos:"part", gender:null,
@@ -54,7 +54,7 @@ const LESSON_3 = {
      exampleSrc:"A: We repeated the experiment many times.\nB: Was reproducibility confirmed?",
      funFact:"実験 uses 実 (real/true) and 験 (test/experience). A real test. Japanese universities have a strong じっけん culture, especially in science and engineering. Laboratory work (じっけんじっしゅう) is a core part of undergraduate education. The phrase さいげんせい (reproducibility) is a fundamental scientific value."},
 
-    {type:"mc", q:"...ことがわかった is used in academic papers to:", opts:["Report a discovery from research","Ask a question","Make a hypothesis","Describe a method"], ans:"Report a discovery from research",
+    {type:"mc", q:"...ことがわかった is used in academic papers to:", opts:["Ask a question","Make a hypothesis","Report a discovery from research","Describe a method"], ans:"Report a discovery from research",
      hint:"This pattern presents what became understood as a result of investigation."},
 
     {type:"teach", trg:"さいげんせい", src:"reproducibility", pos:"noun", gender:null,
@@ -75,7 +75,7 @@ const LESSON_3 = {
     {type:"match", pairs:[{trg:"とかんがえられる",src:"it is thought that"},{trg:"とおもわれる",src:"it appears that"},{trg:"ことがわかった",src:"it was found that"},{trg:"あきらかにする",src:"to clarify/reveal"}]},
 
     {type:"mc", q:"にもとづく in academic writing signals that a claim:", opts:["Rests on evidence or a specific foundation","Is purely speculative","Was overturned by new data","Contradicts previous findings"], ans:"Rests on evidence or a specific foundation",
-     hint:"基 means base/foundation, indicating the argument is grounded on something."},
+     hint:"基 means base/f..., indicating the argument is grounded on something."},
 
     {type:"match", pairs:[{trg:"じっけん",src:"experiment"},{trg:"さいげんせい",src:"reproducibility"},{trg:"かせつ",src:"hypothesis"},{trg:"にもとづく",src:"based on"}]},
   ]

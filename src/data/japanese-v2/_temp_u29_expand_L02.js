@@ -24,8 +24,8 @@ const LESSON_4 = {
      exampleSrc:"A: The volume of government bond issuance keeps increasing.\nB: I am worried about the burden on future generations.",
      funFact:"国債 uses 国 (country) and 債 (debt). Japanese government bonds are unique: about half are held by the にちぎん itself, and most of the rest by domestic institutions. This means Japan borrows mainly from itself, which is why the huge debt has not caused a crisis (yet). The phrase しょうらいのせだいへのふたん (burden on future generations) is a common concern."},
 
-    {type:"mc", q:"ざいせいあかじ means:", opts:["The government spends more than it collects in revenue","The economy is growing rapidly","Tax revenues are increasing","The trade balance is positive"], ans:"The government spends more than it collects in revenue",
-     hint:"ざいせい is government finance, and あかじ means a deficit or shortfall."},
+    {type:"mc", q:"ざいせいあかじ means:", opts:["The economy is growing rapidly","Tax revenues are increasing","The trade balance is positive","The government spends more than it collects in revenue"], ans:"The government spends more than it collects in revenue",
+     hint:"ざいせい is g... finance, and あかじ means a deficit or shortfall."},
 
     {type:"teach", trg:"こよう", src:"employment", pos:"noun", gender:null,
      note:"Kanji: 雇用. こようする = to employ.\nこようじょうきょう = employment situation.",
@@ -54,7 +54,7 @@ const LESSON_4 = {
      exampleSrc:"A: The labor force is shrinking due to aging.\nB: Demand for foreign workers is increasing.",
      funFact:"労働力 is Japan's most pressing economic challenge. The working-age population is shrinking by about 500,000 people per year. Solutions being tried include raising the retirement age, increasing women's labor participation, accepting more foreign workers, and automation. The phrase ろうどうりょくぶそく (labor shortage) defines Japan's economic reality."},
 
-    {type:"mc", q:"ゆうこうきゅうじんばいりつ above 1.0 means:", opts:["More jobs available than people looking for work","More jobseekers than positions available","The economy is in recession","Wages are falling"], ans:"More jobs available than people looking for work",
+    {type:"mc", q:"ゆうこうきゅうじんばいりつ above 1.0 means:", opts:["More jobseekers than positions available","More jobs available than people looking for work","The economy is in recession","Wages are falling"], ans:"More jobs available than people looking for work",
      hint:"The ratio compares openings to applicants. Above 1.0 means openings exceed seekers."},
 
     {type:"teach", trg:"こうれいか", src:"aging (of population)", pos:"noun", gender:null,

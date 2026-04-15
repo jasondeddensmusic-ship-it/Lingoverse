@@ -1,4 +1,5 @@
 // Japanese V2 Unit 29 — けいざい (Economy)
+import EXP_L3 from './_temp_u29_expand_L01.js';import EXP_L4 from './_temp_u29_expand_L02.js';import EXP_L5 from './_temp_u29_expand_L03.js';
 // Level: B2.2 — JLPT N2 aligned.
 // けいき, インフレ, かぶしき, ゆにゅう, ゆしゅつ, しじょう, とうし.
 
@@ -135,5 +136,6 @@ const UNIT_29 = {
   {type:"match", pairs:[{trg:"せきゆ",src:"petroleum"},{trg:"きぎょう",src:"enterprise"},{trg:"ふどうさん",src:"real estate"},{trg:"ぶっか",src:"prices (general)"}]},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_29;

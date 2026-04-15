@@ -1,4 +1,5 @@
 // Japanese V2 Unit 25 — ビジネス (Business Japanese)
+import EXP_L3 from './_temp_u25_expand_L01.js';import EXP_L4 from './_temp_u25_expand_L02.js';import EXP_L5 from './_temp_u25_expand_L03.js';
 // Level: B2.1 — JLPT N2 aligned.
 // かいぎ, しりょう, ていあん, ほうこく, けいやく, のうき, keigo in business.
 
@@ -141,5 +142,6 @@ const UNIT_25 = {
    hint:"ほう (法) relates to law, む (務) to duty, and ぶ (部) to section within a company."},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_25;

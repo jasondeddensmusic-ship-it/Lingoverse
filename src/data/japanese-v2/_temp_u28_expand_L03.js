@@ -59,7 +59,7 @@ const LESSON_5 = {
      exampleSrc:"A: Do you know about this matter? (respectful)\nB: Yes, I am aware. (humble)",
      funFact:"ぞんじる (存じる) is the humble form of しる (know). The respectful form asking someone else is ごぞんじ (ご存知). This pair is tricky because the honorific prefix ご stays when asking others, but drops when talking about yourself. ぞんじません (I don't know, humble) is the polite alternative to the blunt しりません."},
 
-    {type:"mc", q:"When talking about your own boss to an outside client, you should use:", opts:["Humble forms (おる, もうす) for your boss","Respectful forms (いらっしゃる, おっしゃる) for your boss","Casual forms (いる, いう) for your boss","Ultra-polite forms for your boss"], ans:"Humble forms (おる, もうす) for your boss",
+    {type:"mc", q:"When talking about your own boss to an outside client, you should use:", opts:["Respectful forms (いらっしゃる, おっしゃる) for your boss","Casual forms (いる, いう) for your boss","Humble forms (おる, もうす) for your boss","Ultra-polite forms for your boss"], ans:"Humble forms (おる, もうす) for your boss",
      hint:"In-group members are humbled when speaking to out-group people, regardless of rank."},
 
     {type:"teach", trg:"タメぐち", src:"casual/informal speech (among equals)", pos:"noun", gender:null,
@@ -74,7 +74,7 @@ const LESSON_5 = {
     {type:"match", pairs:[{trg:"かしこまりました",src:"understood (ultra-polite)"},{trg:"おそれいります",src:"I am sorry to trouble you"},{trg:"めしあがる",src:"to eat (respectful)"},{trg:"いただく",src:"to eat (humble)"}]},
 
     {type:"mc", q:"タメぐち means:", opts:["Casual speech used between equals or close friends","Formal business language","Written academic style","Polite speech for strangers"], ans:"Casual speech used between equals or close friends",
-     hint:"タメ means equal, and ぐち means mouth/speech: the way equals talk."},
+     hint:"タメ means equal, and ぐち means mouth/s...: the way e... talk."},
 
     {type:"match", pairs:[{trg:"いらっしゃる",src:"to be/come (respectful)"},{trg:"おる",src:"to be (humble)"},{trg:"まいる",src:"to come (humble)"},{trg:"ぞんじる",src:"to know (humble)"}]},
   ]

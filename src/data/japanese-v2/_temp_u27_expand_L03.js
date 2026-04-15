@@ -24,8 +24,8 @@ const LESSON_5 = {
      exampleSrc:"A: The goal is zero emissions by 2050.\nB: Can it be achieved in about thirty years?",
      funFact:"目標 uses 目 (eye) and 標 (mark/sign). A goal is literally a mark you keep your eye on. Japan's 2050 carbon neutrality もくひょう was announced in 2020. Breaking large goals into smaller milestones uses ちゅうかんもくひょう (intermediate targets). The related word たっせい (achievement) pairs with もくひょう: もくひょうをたっせいする (to achieve a goal)."},
 
-    {type:"mc", q:"きせいかんわ means:", opts:["Relaxing rules and restrictions","Tightening regulations","Creating new laws","Enforcing penalties"], ans:"Relaxing rules and restrictions",
-     hint:"かんわ means easing or relaxing, so combined with きせい it means loosening controls."},
+    {type:"mc", q:"きせいかんわ means:", opts:["Tightening regulations","Relaxing rules and restrictions","Creating new laws","Enforcing penalties"], ans:"Relaxing rules and restrictions",
+     hint:"かんわ means easing or r..., so combined with きせい it means loosening controls."},
 
     {type:"teach", trg:"たっせい", src:"achievement / accomplishment", pos:"noun", gender:null,
      note:"Kanji: 達成. たっせいする = to achieve/accomplish.\nもくひょうたっせい = goal achievement.",

@@ -82,7 +82,7 @@ const LESSON_4 = {
     {type:"match", pairs:[{trg:"そうだんさせる",src:"let consult"},{trg:"ほうこくしょ",src:"report"},{trg:"ぶちょう",src:"department head"},{trg:"きゅうじつ",src:"holiday"}]},
 
     {type:"mc", q:"きゅうにかいしゃにこさせられた means:", opts:["I suddenly went to the office","I was suddenly made to come to the office","I made someone come to my company","I decided to visit the office"], ans:"I was suddenly made to come to the office",
-     hint:"Causative-passive of くる (irregular: こさせられる). The speaker had no choice but to come."},
+     hint:"Causative-passive of くる (irregular: こさせられる). The speaker had no choice but to c...."},
   ]
 };
 export default LESSON_4;

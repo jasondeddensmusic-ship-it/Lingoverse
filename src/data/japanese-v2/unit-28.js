@@ -1,4 +1,5 @@
 // Japanese V2 Unit 28 — ぶんたい (Written vs Spoken)
+import EXP_L3 from './_temp_u28_expand_L01.js';import EXP_L4 from './_temp_u28_expand_L02.js';import EXP_L5 from './_temp_u28_expand_L03.js';
 // Level: B2.2 — JLPT N2 aligned.
 // である, において, および, 述べる, 論じる, sentence-final particles.
 
@@ -126,5 +127,6 @@ const UNIT_28 = {
   {type:"match", pairs:[{trg:"〜んだ / 〜のだ",src:"it is that (explanatory)"},{trg:"〜っけ",src:"was it? (recall)"},{trg:"かきことば",src:"written language"},{trg:"である",src:"to be (written)"}]},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_28;

@@ -76,7 +76,7 @@ const LESSON_5 = {
     {type:"match", pairs:[{trg:"おめにかかる",src:"to meet (hum.)"},{trg:"ぞんじません",src:"I do not know (hum.)"},{trg:"おっしゃる / もうす",src:"say (hon. / hum.)"},{trg:"めしあがる / いただく",src:"eat (hon. / hum.)"}]},
 
     {type:"mc", q:"When meeting someone important for the first time, you say:", opts:["あえてうれしいです (neutral)","おめにかかれてうれしいです (humble)","いらっしゃってうれしいです (honorific)","みてうれしいです (casual)"], ans:"おめにかかれてうれしいです (humble)",
-     hint:"You humble YOUR action of meeting. The humble verb for 'to meet' replaces あう."},
+     hint:"You h... YOUR action of meeting. The h... verb for 'to meet' replaces あう."},
   ]
 };
 export default LESSON_5;

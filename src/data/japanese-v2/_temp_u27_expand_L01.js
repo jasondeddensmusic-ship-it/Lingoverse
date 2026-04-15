@@ -24,7 +24,7 @@ const LESSON_3 = {
      exampleSrc:"A: There is a target to reduce CO2 emission volume.\nB: To zero by 2050, right?",
      funFact:"排出量 is a three-part compound: 排 (expel) + 出 (exit) + 量 (amount). Japan is the world's fifth-largest CO2 emitter. The phrase はいしゅつりょうさくげん (emission reduction) appears in every environmental policy document. りょう as a suffix creates many measurement words: 生産量 (production volume), 消費量 (consumption volume)."},
 
-    {type:"mc", q:"さいせいかのうエネルギー includes:", opts:["Solar and wind power","Nuclear power only","Fossil fuels like coal","Natural gas pipelines"], ans:"Solar and wind power",
+    {type:"mc", q:"さいせいかのうエネルギー includes:", opts:["Nuclear power only","Fossil fuels like coal","Solar and wind power","Natural gas pipelines"], ans:"Solar and wind power",
      hint:"さいせい means regeneration and かのう means possible: energy that regenerates itself."},
 
     {type:"teach", trg:"たいようこう", src:"solar power / sunlight", pos:"noun", gender:null,
@@ -54,8 +54,8 @@ const LESSON_3 = {
      exampleSrc:"A: Safety inspections are required for restart.\nB: The consent of residents is also needed.",
      funFact:"再稼働 became a politically charged word after 2011. Every nuclear plant restart requires 原子力規制委員会 (Nuclear Regulation Authority) approval plus local government consent. The process is slow and contentious. As of the mid-2020s, only about a third of Japan's reactors have been approved for さいかどう."},
 
-    {type:"mc", q:"Why is げんしりょく especially sensitive in Japan?", opts:["Japan experienced both atomic bombings and a nuclear disaster","Nuclear plants are common everywhere","Japan has no nuclear history","Nuclear power is too expensive"], ans:"Japan experienced both atomic bombings and a nuclear disaster",
-     hint:"Japan's unique historical experiences with atomic weapons and Fukushima shape this debate."},
+    {type:"mc", q:"Why is げんしりょく especially sensitive in Japan?", opts:["Nuclear plants are common everywhere","Japan has no nuclear history","Nuclear power is too expensive","Japan experienced both atomic bombings and a nuclear disaster"], ans:"Japan experienced both atomic bombings and a nuclear disaster",
+     hint:"J...'s unique historical experiences with a... weapons and Fukushima shape this debate."},
 
     {type:"teach", trg:"じゅうみん", src:"residents / inhabitants", pos:"noun", gender:null,
      note:"Kanji: 住民. ちいきじゅうみん = local residents.\nじゅうみんとうひょう = residents' referendum.",

@@ -82,7 +82,7 @@ const LESSON_3 = {
     {type:"match", pairs:[{trg:"あいにく",src:"unfortunately"},{trg:"せきをはずす",src:"to be away from seat"},{trg:"でんごん",src:"message"},{trg:"おりかえし",src:"callback"}]},
 
     {type:"mc", q:"When an outsider asks about your boss, you say:", opts:["しゃちょうはいらっしゃいません (honorific)","しゃちょうはおりません (humble)","しゃちょうはいません (neutral)","しゃちょうさまはおでかけです (super-honorific)"], ans:"しゃちょうはおりません (humble)",
-     hint:"Uchi-soto rule: when speaking to outsiders, humble your own people, even your boss."},
+     hint:"Uchi-soto rule: when speaking to outsiders, h... your own people, even your boss."},
   ]
 };
 export default LESSON_3;

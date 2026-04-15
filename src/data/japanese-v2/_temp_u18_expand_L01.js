@@ -76,7 +76,7 @@ const LESSON_3 = {
     {type:"match", pairs:[{trg:"ねさせる",src:"put to sleep"},{trg:"もたせる",src:"make carry"},{trg:"しゅうかん",src:"habit"},{trg:"てづくり",src:"handmade"}]},
 
     {type:"mc", q:"させてあげる expresses:", opts:["Being forced to do something","Letting someone do something as a favor","Making someone angry","Asking for permission"], ans:"Letting someone do something as a favor",
-     hint:"Causative + あげる (to give) = causing someone to do something as a kindness to them."},
+     hint:"Causative + あげる (to give) = causing s... to do s... as a kindness to them."},
   ]
 };
 export default LESSON_3;

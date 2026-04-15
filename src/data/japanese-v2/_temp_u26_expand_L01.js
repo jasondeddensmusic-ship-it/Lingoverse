@@ -24,7 +24,7 @@ const LESSON_3 = {
      exampleSrc:"A: The police arrested the suspect.\nB: Where was the arrest made?",
      funFact:"逮捕 uses two rare kanji: 逮 (catch up to) and 捕 (seize). In headlines, たいほ often appears without particles: 容疑者逮捕 (Suspect Arrested). This telegraphic style is unique to headlines. Full sentence: ようぎしゃがたいほされた. Headline: ようぎしゃたいほ. The particle が and the passive される are both dropped."},
 
-    {type:"mc", q:"How does the headline ようぎしゃたいほ differ from the full sentence ようぎしゃがたいほされた?", opts:["The headline drops the particle and passive marker","The headline uses past tense only","They have different meanings","The headline adds emphasis"], ans:"The headline drops the particle and passive marker",
+    {type:"mc", q:"How does the headline ようぎしゃたいほ differ from the full sentence ようぎしゃがたいほされた?", opts:["The headline uses past tense only","They have different meanings","The headline adds emphasis","The headline drops the particle and passive marker"], ans:"The headline drops the particle and passive marker",
      hint:"Headlines compress by removing grammatical particles and verb conjugations."},
 
     {type:"teach", trg:"ひがい", src:"damage / harm", pos:"noun", gender:null,
@@ -54,8 +54,8 @@ const LESSON_3 = {
      exampleSrc:"A: Breaking news. A large earthquake has occurred.\nB: Is there a risk of tsunami?",
      funFact:"速報 appears as a red banner on Japanese TV news. NHK's red そくほう banner causes immediate attention across the nation. The word combines 速 (speed) and 報 (report). During earthquakes, そくほう can arrive before the shaking thanks to Japan's advanced seismic detection network."},
 
-    {type:"mc", q:"きんきゅうじたいせんげん means:", opts:["A formal declaration that conditions require exceptional measures","An earthquake early warning","A press conference announcement","A criminal investigation report"], ans:"A formal declaration that conditions require exceptional measures",
-     hint:"きんきゅう (emergency) + じたい (situation) + せんげん (declaration) form a compound for official crisis responses."},
+    {type:"mc", q:"きんきゅうじたいせんげん means:", opts:["An earthquake early warning","A formal declaration that conditions require exceptional measures","A press conference announcement","A criminal investigation report"], ans:"A formal declaration that conditions require exceptional measures",
+     hint:"きんきゅう (emergency) + じたい (situation) + せんげん (d...) form a compound for official crisis responses."},
 
     {type:"teach", trg:"はっせい", src:"occurrence / outbreak", pos:"noun", gender:null,
      note:"Kanji: 発生. はっせいする = to occur/break out.\nじこがはっせい = an accident occurred.",

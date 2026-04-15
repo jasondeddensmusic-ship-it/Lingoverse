@@ -25,7 +25,7 @@ const LESSON_4 = {
      funFact:"多様性 has expanded beyond biology into corporate culture. ダイバーシティ (diversity, the English loanword) is used for workplace diversity, while たようせい covers biological diversity. Japan hosted the COP10 biodiversity conference in Nagoya in 2010, producing the Aichi Targets for global biodiversity conservation."},
 
     {type:"mc", q:"じぞくかのうなかいはつ translates to:", opts:["Development that can continue without depleting resources","Rapid industrial growth","Traditional farming methods","Economic expansion plans"], ans:"Development that can continue without depleting resources",
-     hint:"じぞく means to continue/sustain, and かのう means possible."},
+     hint:"じぞく means to c.../sustain, and かのう means possible."},
 
     {type:"teach", trg:"ほぜん", src:"conservation / preservation", pos:"noun", gender:null,
      note:"Kanji: 保全. ほぜんする = to conserve/preserve.\nかんきょうほぜん = environmental conservation.",
@@ -54,8 +54,8 @@ const LESSON_4 = {
      exampleSrc:"A: The energy problem is one of Japan's biggest challenges.\nB: It will take time to solve.",
      funFact:"課題 uses 課 (assign/impose) and 題 (topic). Unlike もんだい (problem), かだい implies an assigned task you must tackle. Students have 課題 (homework/assignments), companies have 経営課題 (management challenges), and nations have 政策課題 (policy challenges). It carries a sense of duty and active engagement."},
 
-    {type:"mc", q:"もったいない expresses:", opts:["A feeling that waste is regrettable","Excitement about new things","A desire to buy more","Indifference to the environment"], ans:"A feeling that waste is regrettable",
-     hint:"This uniquely Japanese concept links wastefulness to a feeling of shame or loss."},
+    {type:"mc", q:"もったいない expresses:", opts:["Excitement about new things","A desire to buy more","Indifference to the environment","A feeling that waste is regrettable"], ans:"A feeling that waste is regrettable",
+     hint:"This uniquely Japanese concept links wastefulness to a f... of shame or loss."},
 
     {type:"teach", trg:"とりくむ", src:"to tackle / to work on / to engage with", pos:"verb", gender:null,
      note:"Kanji: 取り組む. Group 1 verb. とりくみ = initiative/effort.\nかだいにとりくむ = to tackle a challenge.",
@@ -74,7 +74,7 @@ const LESSON_4 = {
 
     {type:"match", pairs:[{trg:"じぞくかのう",src:"sustainable"},{trg:"せいたいけい",src:"ecosystem"},{trg:"たようせい",src:"diversity"},{trg:"ほぜん",src:"conservation"}]},
 
-    {type:"mc", q:"かだい differs from もんだい in that かだい:", opts:["Implies an assigned task requiring active engagement","Is a less serious concern","Only applies to academic settings","Is always about the environment"], ans:"Implies an assigned task requiring active engagement",
+    {type:"mc", q:"かだい differs from もんだい in that かだい:", opts:["Is a less serious concern","Only applies to academic settings","Implies an assigned task requiring active engagement","Is always about the environment"], ans:"Implies an assigned task requiring active engagement",
      hint:"課 means assign/impose, giving this word a sense of duty beyond just 'problem.'"},
 
     {type:"match", pairs:[{trg:"はいき",src:"waste/discarding"},{trg:"かだい",src:"challenge to address"},{trg:"とりくむ",src:"to tackle"},{trg:"しょうひしゃ",src:"consumer"}]},

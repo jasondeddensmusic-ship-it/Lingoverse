@@ -24,8 +24,8 @@ const LESSON_5 = {
      exampleSrc:"A: Several factors are necessary for success.\nB: For example, what kind of factors?",
      funFact:"要素 uses 要 (essential) and 素 (element). Commentators break complex events into their ようそ to make them understandable. The word appears in every analytical discussion: けいざいてきようそ (economic factors), しゃかいてきようそ (social factors), しんりてきようそ (psychological factors)."},
 
-    {type:"mc", q:"はいけいにある means:", opts:["To exist as the underlying context","To be in the foreground","To be irrelevant","To be well-known"], ans:"To exist as the underlying context",
-     hint:"はいけい is the scenery behind an event, and にある means to exist there."},
+    {type:"mc", q:"はいけいにある means:", opts:["To be in the foreground","To be irrelevant","To be well-known","To exist as the underlying context"], ans:"To exist as the underlying context",
+     hint:"はいけい is the scenery behind an event, and にある means to e... there."},
 
     {type:"teach", trg:"みとおし", src:"outlook / forecast / prospect", pos:"noun", gender:null,
      note:"Kanji: 見通し. みとおしがあかるい = the outlook is bright.\nみとおしがくらい = the outlook is dim.",

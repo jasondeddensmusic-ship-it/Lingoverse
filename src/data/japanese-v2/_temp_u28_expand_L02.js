@@ -24,7 +24,7 @@ const LESSON_4 = {
      exampleSrc:"A: It was a landscape as if from a dream.\nB: It must have been truly beautiful.",
      funFact:"あたかも heightens the vividness of a comparison. While よう by itself means 'like,' あたかも...ようだ means 'just exactly as if.' It appears in literary descriptions, travel writing, and poetic prose. The kanji 恰 (fitting/just right) suggests a perfect match between the comparison and reality."},
 
-    {type:"mc", q:"ごとく is the literary equivalent of:", opts:["よう or みたい (like/as if)","から (because)","ので (since)","けど (but)"], ans:"よう or みたい (like/as if)",
+    {type:"mc", q:"ごとく is the literary equivalent of:", opts:["から (because)","ので (since)","よう or みたい (like/as if)","けど (but)"], ans:"よう or みたい (like/as if)",
      hint:"This classical form creates elevated comparisons in the same way よう does casually."},
 
     {type:"teach", trg:"えがく", src:"to depict / to portray / to draw", pos:"verb", gender:null,
@@ -54,7 +54,7 @@ const LESSON_4 = {
      exampleSrc:"A: Cherry blossoms make you feel the pathos of things.\nB: Because they are beautiful, it is sad when they fall.",
      funFact:"もののあわれ was defined by Edo-period scholar Motoori Norinaga as the emotional core of Japanese literature. It is the catch in the breath when you see cherry blossoms, knowing they will fall. It permeates The Tale of Genji, haiku, and modern literature alike. This aesthetic values not happiness but the awareness that beauty is fleeting."},
 
-    {type:"mc", q:"せつない describes:", opts:["A bittersweet ache that mixes beauty and sadness","Pure happiness","Intense anger","Calm indifference"], ans:"A bittersweet ache that mixes beauty and sadness",
+    {type:"mc", q:"せつない describes:", opts:["Pure happiness","A bittersweet ache that mixes beauty and sadness","Intense anger","Calm indifference"], ans:"A bittersweet ache that mixes beauty and sadness",
      hint:"This uniquely Japanese emotion combines longing and tenderness with a touch of pain."},
 
     {type:"teach", trg:"はかない", src:"fleeting / transient / ephemeral", pos:"adj", gender:null,
