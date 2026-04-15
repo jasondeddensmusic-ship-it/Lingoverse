@@ -1,5 +1,6 @@
 // Japanese V2 Unit 11 — て-けい (て-form)
 // Level: A2.1 — JLPT N4 aligned.
+import JEXP_11_L1 from './_temp_u11_expand_L01.js';import JEXP_11_L2 from './_temp_u11_expand_L02.js';import JEXP_11_L3 from './_temp_u11_expand_L03.js';
 // て-form formation, requests, ongoing actions, permission.
 
 const UNIT_11 = {
