@@ -1,5 +1,6 @@
 // Italian V2 Unit 02 — Numbers, Days & Time (A1.1)
 // CILS/CELI A1 aligned.
+import EXP_02_L1 from './_temp_u02_expand_L01.js';import EXP_02_L2 from './_temp_u02_expand_L02.js';import EXP_02_L3 from './_temp_u02_expand_L03.js';
 
 const UNIT_02 = {
   n:2, lang:"it", srcLang:"en", track:"v2",
@@ -191,6 +192,7 @@ const UNIT_02 = {
        hint:"You are leaving in the morning of the next day. The day that comes after today.",
        sSrc:"I leave {1} morning early."},
     ]},
+    EXP_02_L1, EXP_02_L2, EXP_02_L3,
   ]
 };
 

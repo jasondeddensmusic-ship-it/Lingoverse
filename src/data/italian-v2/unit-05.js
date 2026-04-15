@@ -1,5 +1,6 @@
 // Italian V2 Unit 05 — A casa (At Home) (A1.2)
 // CILS/CELI A1 aligned. Rooms, furniture, location expressions.
+import EXP_05_L1 from './_temp_u05_expand_L01.js';import EXP_05_L2 from './_temp_u05_expand_L02.js';import EXP_05_L3 from './_temp_u05_expand_L03.js';
 
 const UNIT_05 = {
   n:5, lang:"it", srcLang:"en", track:"v2",
@@ -288,7 +289,8 @@ const UNIT_05 = {
        opts:["It starts with s + consonant (sp)","It starts with a vowel","It is feminine","It is plural"],
        ans:"It starts with s + consonant (sp)",
        hint:"The special masculine article 'lo' is used before z, s+consonant, gn, ps, and x."}
-    ]}
+    ]},
+    EXP_05_L1, EXP_05_L2, EXP_05_L3,
   ]
 };
 export default UNIT_05;
