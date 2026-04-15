@@ -1,5 +1,6 @@
 // Japanese V2 Unit 04 — いくらですか (How much is it?)
 // Level: A1.1 — JLPT N5 aligned.
+import JEXP_04_L1 from './_temp_u04_expand_L01.js';import JEXP_04_L2 from './_temp_u04_expand_L02.js';import JEXP_04_L3 from './_temp_u04_expand_L03.js';import JEXP_04_L4 from './_temp_u04_expand_L04.js';
 // Shopping, colors, i-adj vs na-adj intro, numbers 100-10000, counters.
 
 const UNIT_04 = {

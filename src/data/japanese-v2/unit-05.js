@@ -1,5 +1,6 @@
 // Japanese V2 Unit 05 — たべもの (Food & Drink)
 // Level: A1.2 — JLPT N5 aligned.
+import JEXP_05_L1 from './_temp_u05_expand_L01.js';import JEXP_05_L2 from './_temp_u05_expand_L02.js';import JEXP_05_L3 from './_temp_u05_expand_L03.js';
 // Food vocabulary, drinks, eating verbs, taste adjectives, suki/kirai.
 
 const UNIT_05 = {
