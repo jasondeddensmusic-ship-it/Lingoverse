@@ -18,6 +18,8 @@ function CountryFlag({code:rawCode,size=56,variant}){
     de: mkSvg("0 0 9 6",W,H,<><rect width="9" height="2" fill="#000"/><rect y="2" width="9" height="2" fill="#DD0000"/><rect y="4" width="9" height="2" fill="#FFCC00"/></>),
     es: mkSvg("0 0 9 6",W,H,<><rect width="9" height="1.5" fill="#AA151B"/><rect y="1.5" width="9" height="3" fill="#F1BF00"/><rect y="4.5" width="9" height="1.5" fill="#AA151B"/></>),
     ro: mkSvg("0 0 9 6",W,H,<><rect width="3" height="6" fill="#002B7F"/><rect x="3" width="3" height="6" fill="#FCD116"/><rect x="6" width="3" height="6" fill="#CE1126"/></>),
+    it: mkSvg("0 0 9 6",W,H,<><rect width="3" height="6" fill="#008C45"/><rect x="3" width="3" height="6" fill="#FFF"/><rect x="6" width="3" height="6" fill="#CD212A"/></>),
+    pt: mkSvg("0 0 900 600",W,H,<><rect width="360" height="600" fill="#006600"/><rect x="360" width="540" height="600" fill="#FF0000"/><circle cx="360" cy="300" r="120" fill="#FFCC00"/><circle cx="360" cy="300" r="95" fill="#003399"/><circle cx="360" cy="300" r="75" fill="#FFF"/></>),
     ru: mkSvg("0 0 9 6",W,H,<><rect width="9" height="2" fill="#FFF"/><rect y="2" width="9" height="2" fill="#0039A6"/><rect y="4" width="9" height="2" fill="#D52B1E"/></>),
     // ── Simple emblems on solid backgrounds ──
     ja: mkSvg("0 0 900 600",W,H,<><rect width="900" height="600" fill="#FFF"/><circle cx="450" cy="300" r="180" fill="#BC002D"/></>),

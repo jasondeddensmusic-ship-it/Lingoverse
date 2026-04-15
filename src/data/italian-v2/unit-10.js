@@ -1,0 +1,313 @@
+// Italian V2 Unit 10 — I viaggi (Travel) (A2.2)
+// CILS/CELI A2 aligned. Travel vocabulary, hotels, transport.
+
+const UNIT_10 = {
+  n:10, lang:"it", srcLang:"en", track:"v2",
+  title:"I viaggi", sub:"Travel",
+  icon:"\u2708\uFE0F", level:"A2.2", color:"#7B5EE8",
+  lessons:[
+    {id:"itv2_u10l1", title:"Preparare il viaggio", icon:"\uD83E\uDDF3", xp:15, board:true, steps:[
+      {type:"intro", title:"Preparare il viaggio",
+       desc:"Learn essential Italian vocabulary for planning and preparing a trip. These words will help you book travel and pack for your journey.",
+       goals:["Name essential travel items","Talk about bookings and reservations","Discuss travel plans in Italian"]},
+
+      {type:"teach", trg:"il viaggio", src:"the trip / journey", pos:"noun", gender:"m",
+       note:"Masculine. From Latin 'viaticum' (travel provisions).\nPlural: i viaggi. 'Buon viaggio!' = Have a good trip!",
+       example:"A: Dove vai in viaggio?\nB: Vado in Sicilia per una settimana.",
+       exampleSrc:"A: Where are you going on a trip?\nB: I am going to Sicily for a week.",
+       funFact:"From Latin 'viaticum' (provisions for a journey), from 'via' (road). English 'voyage' comes from the same Latin root through French. In ancient Rome, soldiers received 'viaticum' (money and supplies) before a march."},
+
+      {type:"teach", trg:"la valigia", src:"the suitcase", pos:"noun", gender:"f",
+       note:"Feminine. Plural: le valigie.\n'Fare la valigia' = to pack (one's suitcase).",
+       example:"A: Hai fatto la valigia?\nB: Non ancora. Parto domani!",
+       exampleSrc:"A: Have you packed?\nB: Not yet. I leave tomorrow!",
+       funFact:"Origin uncertain, possibly from Arabic 'walihah' (bag) via medieval trade routes. 'Fare la valigia' (to make the suitcase) means to pack. Italian airports lost the most luggage in Europe in 2019, earning a humorous reputation."},
+
+      {type:"teach", trg:"il passaporto", src:"the passport", pos:"noun", gender:"m",
+       note:"Masculine. From French 'passeport' (pass the port/gate).\nEU citizens can travel with just an ID card.",
+       example:"A: Hai il passaporto?\nB: Si, e anche il biglietto.",
+       exampleSrc:"A: Do you have the passport?\nB: Yes, and also the ticket.",
+       funFact:"'Passe' (pass) + 'port' (gate/harbor). Originally, documents that allowed you to pass through a city gate or port. Italian passports are burgundy red, the standard EU color. Within Europe, Italians often use their ID card ('carta d'identita') instead."},
+
+      {type:"teach", trg:"il biglietto", src:"the ticket", pos:"noun", gender:"m",
+       note:"Masculine. Diminutive of 'biglietto' from French 'billet.'\n'Biglietto di andata e ritorno' = round-trip ticket.",
+       example:"A: Dove compro il biglietto?\nB: Online o alla biglietteria.",
+       exampleSrc:"A: Where do I buy the ticket?\nB: Online or at the ticket office.",
+       funFact:"From French 'billet' (note, ticket). 'Biglietto di sola andata' means one-way ticket. 'Andata e ritorno' means round trip. In Italy, train tickets must be validated ('convalidare') before boarding, or you risk a fine."},
+
+      {type:"teach", trg:"la prenotazione", src:"the reservation / booking", pos:"noun", gender:"f",
+       note:"Feminine. From 'prenotare' (to book in advance).\n'Confermare la prenotazione' = to confirm the booking.",
+       example:"A: Ha una prenotazione?\nB: Si, a nome Bianchi.",
+       exampleSrc:"A: Do you have a reservation?\nB: Yes, under the name Bianchi.",
+       funFact:"From 'pre-' (before) + 'notare' (to note). Literally 'pre-noting.' Italian hotels, restaurants, and trains all use this word. Online booking has made 'prenotazione online' one of the most common phrases in Italian travel."},
+
+      {type:"teach", trg:"l'albergo", src:"the hotel", pos:"noun", gender:"m",
+       note:"Masculine. From Germanic 'haribarig' (army lodging).\nSynonym: l'hotel (also used, masculine).",
+       example:"A: L'albergo e in centro?\nB: Si, vicino alla stazione.",
+       exampleSrc:"A: Is the hotel in the center?\nB: Yes, near the station.",
+       funFact:"From Germanic 'haribarig' (army camp, lodging), which also gave French 'auberge' (inn). Italians use both 'albergo' (native word) and 'hotel' (French loan). 'Albergo' tends to sound more traditional, 'hotel' more modern or international."},
+
+      {type:"teach", trg:"partire", src:"to leave / to depart", pos:"verb", gender:null,
+       note:"Regular -ire verb. Present: parto, parti, parte.\nUses 'essere' in passato prossimo: sono partito/a.",
+       example:"A: A che ora parti?\nB: Parto alle sei di mattina.",
+       exampleSrc:"A: What time are you leaving?\nB: I am leaving at six in the morning.",
+       funFact:"From Latin 'partire' (to divide, separate), because departing is separating yourself from a place. English 'depart' comes from the French version. 'Partire' takes 'essere' in the past tense because it expresses movement."},
+
+      {type:"teach", trg:"arrivare", src:"to arrive", pos:"verb", gender:null,
+       note:"Regular -are verb. Present: arrivo, arrivi, arriva.\nUses 'essere' in passato prossimo: sono arrivato/a.",
+       example:"A: A che ora arrivi?\nB: Arrivo verso le dieci.",
+       exampleSrc:"A: What time do you arrive?\nB: I arrive around ten.",
+       funFact:"From Latin 'ad ripam' (to the riverbank), because ships arrived at the bank. The same origin gave French 'arriver' and English 'arrive.' Like 'partire,' this verb uses 'essere' in the past tense."},
+
+      // Quiz steps
+      {type:"mc", q:"What does 'fare la valigia' mean?",
+       opts:["To pack (a suitcase)","To buy a suitcase","To carry a bag","To check luggage"],
+       ans:"To pack (a suitcase)",
+       hint:"'Fare' (to make/do) + 'la valigia' (the suitcase). The expression means preparing your luggage for travel."},
+
+      {type:"fb", s:"Hai il {1}? E anche il biglietto?",
+       a:["passaporto"],
+       opts:["passaporto","viaggio","albergo","valigia"],
+       hint:"This official document identifies you when crossing borders. EU citizens sometimes use an ID card instead.",
+       sSrc:"Do you have the {1}? And also the ticket?"},
+
+      {type:"match", pairs:[
+        {trg:"il viaggio", src:"the trip"},
+        {trg:"la valigia", src:"the suitcase"},
+        {trg:"il biglietto", src:"the ticket"},
+        {trg:"la prenotazione", src:"the reservation"},
+        {trg:"l'albergo", src:"the hotel"}
+      ]},
+
+      {type:"mc", q:"Why must you 'convalidare' a train ticket in Italy?",
+       opts:["To stamp the date and time before boarding","To get a discount","To choose your seat","To cancel it"],
+       ans:"To stamp the date and time before boarding",
+       hint:"Without this stamp, your ticket is not valid and you risk a fine from the conductor."},
+
+      {type:"fb", s:"A che ora {1}?",
+       a:["parti"],
+       opts:["parti","arrivi","compri","prenoti"],
+       hint:"Someone is asking when you will leave. This is the 'tu' form of the verb meaning 'to depart.'",
+       sSrc:"What time are you {1}?"},
+
+      {type:"mc", q:"What is the origin of 'arrivare'?",
+       opts:["Latin 'ad ripam' (to the riverbank)","Latin 'arrivus' (arrival)","Greek 'arrivis' (to come)","Arabic 'arriv' (to reach)"],
+       ans:"Latin 'ad ripam' (to the riverbank)",
+       hint:"Ships would reach the bank of a river. The word literally described reaching the shore after a voyage."},
+
+      {type:"fb", s:"Ha una {1}? A nome Bianchi.",
+       a:["prenotazione"],
+       opts:["prenotazione","valigia","camera","chiave"],
+       hint:"The hotel is asking if you booked in advance. From 'pre-' (before) + 'notare' (to note).",
+       sSrc:"Do you have a {1}? Under the name Bianchi."},
+
+      {type:"mc", q:"What is the difference between 'albergo' and 'hotel'?",
+       opts:["Albergo is the Italian word, hotel is a French loan","Albergo is cheaper","Hotel is bigger","They are different things"],
+       ans:"Albergo is the Italian word, hotel is a French loan",
+       hint:"Both mean the same thing. One is the native Italian word (Germanic origin), the other borrowed from French."}
+    ]},
+
+    {id:"itv2_u10l2", title:"In albergo", icon:"\uD83C\uDFE8", xp:15, board:true, steps:[
+      {type:"intro", title:"In albergo",
+       desc:"Learn the vocabulary you need for checking into and staying at an Italian hotel. From room types to breakfast options, these words are essential for travelers.",
+       goals:["Check in at an Italian hotel","Describe room types and preferences","Handle common hotel situations"]},
+
+      {type:"teach", trg:"la camera", src:"the room (hotel)", pos:"noun", gender:"f",
+       note:"Feminine. From Latin 'camera' (vaulted room).\n'Camera d'albergo' = hotel room.",
+       example:"A: Avete una camera libera?\nB: Si, al terzo piano.",
+       exampleSrc:"A: Do you have a free room?\nB: Yes, on the third floor.",
+       funFact:"From Latin 'camera' (arched/vaulted room), from Greek 'kamara' (vault). The same root gave English 'camera' (the dark chamber), 'chamber,' and 'comrade' (roommate). In Italian, 'camera' is specifically a bedroom or hotel room."},
+
+      {type:"teach", trg:"singola", src:"single (room)", pos:"adj", gender:null,
+       note:"Adj (feminine form, agreeing with 'camera'). Masculine: singolo.\n'Camera singola' = single room.",
+       example:"A: Vorrei una camera singola.\nB: Per quante notti?",
+       exampleSrc:"A: I would like a single room.\nB: For how many nights?",
+       funFact:"From Latin 'singulus' (one at a time). English 'single' comes from the same root. In Italian hotels, a 'singola' has one single bed. If traveling alone but wanting a bigger bed, ask for a 'camera uso singola' (double room for single use)."},
+
+      {type:"teach", trg:"doppia", src:"double (room)", pos:"adj", gender:null,
+       note:"Adj (feminine form). Masculine: doppio.\n'Camera doppia' = double room (two single beds or one double).",
+       example:"A: Preferisce doppia o matrimoniale?\nB: Matrimoniale, per favore.",
+       exampleSrc:"A: Do you prefer double or matrimonial?\nB: Matrimonial, please.",
+       funFact:"'Doppia' (two separate beds) is different from 'matrimoniale' (one large bed for couples). This distinction catches many tourists off guard. Always specify 'matrimoniale' if you want a king/queen bed, not 'doppia.'"},
+
+      {type:"teach", trg:"la colazione", src:"the breakfast", pos:"noun", gender:"f",
+       note:"Feminine. From Latin 'collatio' (a bringing together).\n'Colazione inclusa' = breakfast included.",
+       example:"A: La colazione e inclusa?\nB: Si, dalle sette alle dieci.",
+       exampleSrc:"A: Is breakfast included?\nB: Yes, from seven to ten.",
+       funFact:"Italian hotel breakfast is typically 'continental': espresso, cornetto (croissant), juice, and fruit. Do not expect eggs, bacon, or large American-style breakfasts at standard Italian hotels. Some upscale hotels now offer international options."},
+
+      {type:"teach", trg:"la chiave", src:"the key", pos:"noun", gender:"f",
+       note:"Feminine. From Latin 'clavis' (key).\nPlural: le chiavi. Modern hotels use 'la tessera' (key card).",
+       example:"A: Ecco la chiave della camera.\nB: Grazie. A che piano e?",
+       exampleSrc:"A: Here is the room key.\nB: Thanks. What floor is it on?",
+       funFact:"From Latin 'clavis' (key), which also gave English 'clef' (music), 'clavicle' (collarbone, shaped like a small key), and 'conclave' (locked room, where popes are elected). Many Italian hotels now use electronic 'tessere' (cards) instead."},
+
+      {type:"teach", trg:"il piano", src:"the floor / level", pos:"noun", gender:"m",
+       note:"Masculine. 'Primo piano' = first floor (UK) / second floor (US).\nGround floor = 'piano terra.'",
+       example:"A: A che piano e la camera?\nB: Al quarto piano. C'e l'ascensore.",
+       exampleSrc:"A: What floor is the room on?\nB: On the fourth floor. There is an elevator.",
+       funFact:"Italian floor numbering follows the European system: 'piano terra' (ground floor) is floor 0, 'primo piano' (first floor) is one level up. This means the Italian 'primo piano' equals the American 'second floor.' The difference confuses many visitors."},
+
+      {type:"teach", trg:"la vista", src:"the view", pos:"noun", gender:"f",
+       note:"Feminine. From Latin 'visus' (sight). Past participle of 'vedere' (to see).\n'Con vista mare' = with sea view.",
+       example:"A: La camera ha la vista?\nB: Si, vista sul mare.",
+       exampleSrc:"A: Does the room have a view?\nB: Yes, a sea view.",
+       funFact:"'Vista' comes from 'vedere' (to see). 'Bella vista' (beautiful view) is a common place name across Italy. A room 'con vista' costs more, but in Italian coastal towns, the sea view is often worth the extra euros."},
+
+      {type:"teach", trg:"disponibile", src:"available", pos:"adj", gender:null,
+       note:"Adj. Same form for masculine and feminine (-e ending).\nFrom Latin 'disponibilis' (arrangeable).",
+       example:"A: E disponibile una camera doppia?\nB: Mi dispiace, siamo al completo.",
+       exampleSrc:"A: Is a double room available?\nB: I am sorry, we are fully booked.",
+       funFact:"From Latin 'disponere' (to arrange). 'Al completo' means fully booked. During high season (July-August) and holidays, Italian hotels fill up fast. Booking in advance ('prenotare in anticipo') is strongly recommended."},
+
+      // Quiz steps
+      {type:"mc", q:"What is the difference between 'doppia' and 'matrimoniale'?",
+       opts:["Doppia has two beds, matrimoniale has one large bed","Doppia is bigger","Matrimoniale is for families","They are the same"],
+       ans:"Doppia has two beds, matrimoniale has one large bed",
+       hint:"One has two separate single beds. The other has one large bed for a couple. Specify when booking."},
+
+      {type:"fb", s:"La {1} e inclusa?",
+       a:["colazione"],
+       opts:["colazione","chiave","camera","vista"],
+       hint:"You want to know if the morning meal is part of the hotel price. Italian hotels serve espresso and cornetti.",
+       sSrc:"Is {1} included?"},
+
+      {type:"match", pairs:[
+        {trg:"la camera", src:"the room"},
+        {trg:"la chiave", src:"the key"},
+        {trg:"il piano", src:"the floor"},
+        {trg:"la vista", src:"the view"},
+        {trg:"disponibile", src:"available"}
+      ]},
+
+      {type:"mc", q:"What is 'piano terra' in an Italian building?",
+       opts:["The ground floor","The first floor","The basement","The rooftop"],
+       ans:"The ground floor",
+       hint:"Literally 'earth floor.' Italian 'primo piano' is one level above this, different from American numbering."},
+
+      {type:"fb", s:"Vorrei una camera {1}.",
+       a:["singola"],
+       opts:["singola","doppia","matrimoniale","libera"],
+       hint:"You are traveling alone and need a room with one bed for one person.",
+       sSrc:"I would like a {1} room."},
+
+      {type:"mc", q:"What does 'disponibile' mean?",
+       opts:["Available","Comfortable","Expensive","Reserved"],
+       ans:"Available",
+       hint:"From Latin 'disponere' (to arrange). You ask if a room is free for your dates."},
+
+      {type:"fb", s:"Ecco la {1} della camera.",
+       a:["chiave"],
+       opts:["chiave","vista","colazione","porta"],
+       hint:"This metal object (or electronic card) opens your room door. From Latin 'clavis.'",
+       sSrc:"Here is the room {1}."},
+
+      {type:"mc", q:"What is typical Italian hotel breakfast?",
+       opts:["Espresso, cornetto, juice, fruit","Eggs, bacon, toast","Pancakes and syrup","Cereal and milk"],
+       ans:"Espresso, cornetto, juice, fruit",
+       hint:"Italian breakfasts are 'continental' style: coffee, a pastry, and some fruit. Not a full cooked meal."}
+    ]},
+
+    {id:"itv2_u10l3", title:"Alla stazione e in aeroporto", icon:"\uD83D\ude86", xp:15, board:true, steps:[
+      {type:"intro", title:"Alla stazione e in aeroporto",
+       desc:"Learn vocabulary for navigating train stations and airports in Italy. Trains are the backbone of Italian travel, and these words will help you get around.",
+       goals:["Navigate a train station confidently","Understand departure and arrival information","Handle delays and connections"]},
+
+      {type:"teach", trg:"l'aeroporto", src:"the airport", pos:"noun", gender:"m",
+       note:"Masculine. From 'aero' (air) + 'porto' (port).\nMajor airports: Fiumicino (Rome), Malpensa (Milan).",
+       example:"A: Come arrivi all'aeroporto?\nB: Con il treno, c'e il collegamento diretto.",
+       exampleSrc:"A: How do you get to the airport?\nB: By train, there is a direct connection.",
+       funFact:"Rome's main airport is named after Leonardo da Vinci (Fiumicino). Milan's Malpensa literally means 'bad thought' in Italian, from the idea that the marshy area was an unpleasant place to be. Italy has over 40 airports."},
+
+      {type:"teach", trg:"il volo", src:"the flight", pos:"noun", gender:"m",
+       note:"Masculine. From Latin 'volare' (to fly).\nPlural: i voli. 'Volo diretto' = direct flight.",
+       example:"A: A che ora e il volo?\nB: Alle quattordici e trenta.",
+       exampleSrc:"A: What time is the flight?\nB: At fourteen thirty.",
+       funFact:"From Latin 'volare' (to fly). Italy uses the 24-hour clock for official times. '14:30' is said 'quattordici e trenta,' not '2:30 PM.' Airports and train stations always use 24-hour format. Everyday speech uses both."},
+
+      {type:"teach", trg:"il binario", src:"the platform / track", pos:"noun", gender:"m",
+       note:"Masculine. From Latin 'binarius' (consisting of two).\n'Il treno parte dal binario 3' = The train leaves from platform 3.",
+       example:"A: Da che binario parte il treno?\nB: Dal binario cinque.",
+       exampleSrc:"A: From which platform does the train leave?\nB: From platform five.",
+       funFact:"From Latin 'binarius' (in pairs), because train tracks come in pairs of rails. Italian train stations display 'binario' numbers on electronic boards. Platforms can change at the last minute, so always check the 'tabellone' (departure board)."},
+
+      {type:"teach", trg:"l'orario", src:"the timetable / schedule", pos:"noun", gender:"m",
+       note:"Masculine. From Latin 'hora' (hour).\n'Orario di partenza' = departure time.",
+       example:"A: Hai controllato l'orario?\nB: Si, il prossimo treno e alle undici.",
+       exampleSrc:"A: Have you checked the timetable?\nB: Yes, the next train is at eleven.",
+       funFact:"From Latin 'hora' (hour). 'Orario' means both 'timetable' and 'schedule.' Italian trains run on a published orario that you can check at trenitalia.com or italotreno.it. The electronic 'tabellone' in stations shows real-time orario updates."},
+
+      {type:"teach", trg:"la coincidenza", src:"the connection (transfer)", pos:"noun", gender:"f",
+       note:"Feminine. Also means 'coincidence' in everyday language.\nTrain context: your connecting train.",
+       example:"A: C'e una coincidenza a Bologna?\nB: Si, devi cambiare treno.",
+       exampleSrc:"A: Is there a connection at Bologna?\nB: Yes, you need to change trains.",
+       funFact:"'Coincidenza' means both 'connection' (trains) and 'coincidence.' The double meaning exists because a connecting train 'coincides' with your arrival. Bologna is Italy's biggest rail hub, where many connections converge."},
+
+      {type:"teach", trg:"il ritardo", src:"the delay", pos:"noun", gender:"m",
+       note:"Masculine. From Latin 'retardare' (to slow down).\n'In ritardo' = late/delayed. 'In orario' = on time.",
+       example:"A: Il treno e in ritardo?\nB: Si, venti minuti di ritardo.",
+       exampleSrc:"A: Is the train delayed?\nB: Yes, twenty minutes delayed.",
+       funFact:"From Latin 'retardare' (to make slow). Italian trains have improved significantly, but delays still happen. Regional trains are more often delayed than high-speed ones. The phrase 'in ritardo' is used for any lateness, not just trains."},
+
+      {type:"teach", trg:"la partenza", src:"the departure", pos:"noun", gender:"f",
+       note:"Feminine. From 'partire' (to leave).\n'Tabellone delle partenze' = departure board.",
+       example:"A: Dov'e il tabellone delle partenze?\nB: Davanti all'ingresso principale.",
+       exampleSrc:"A: Where is the departure board?\nB: In front of the main entrance.",
+       funFact:"From 'partire' (to leave). Every Italian train station has a 'tabellone delle partenze' (departure board) and 'tabellone degli arrivi' (arrivals board). Yellow boards in stations show departures, white boards show arrivals."},
+
+      {type:"teach", trg:"l'arrivo", src:"the arrival", pos:"noun", gender:"m",
+       note:"Masculine. From 'arrivare' (to arrive).\nPlural: gli arrivi. 'Ora di arrivo' = arrival time.",
+       example:"A: Qual e l'ora di arrivo?\nB: Arrivo previsto alle quindici.",
+       exampleSrc:"A: What is the arrival time?\nB: Expected arrival at fifteen hundred.",
+       funFact:"From 'arrivare' (to arrive). In train stations, arrival information appears on white boards, while departures appear on yellow boards. At airports, 'arrivi' has its own terminal area separate from 'partenze' (departures)."},
+
+      // Quiz steps
+      {type:"mc", q:"What does 'il binario' mean at a train station?",
+       opts:["The platform / track","The ticket office","The waiting room","The exit"],
+       ans:"The platform / track",
+       hint:"From Latin 'binarius' (in pairs). Trains run on paired rails. Check the board for the correct number."},
+
+      {type:"fb", s:"Il treno e in {1}. Venti minuti.",
+       a:["ritardo"],
+       opts:["ritardo","orario","arrivo","partenza"],
+       hint:"The train is not on time. It will arrive later than scheduled. Twenty extra minutes of waiting.",
+       sSrc:"The train is {1}. Twenty minutes."},
+
+      {type:"match", pairs:[
+        {trg:"l'aeroporto", src:"the airport"},
+        {trg:"il volo", src:"the flight"},
+        {trg:"il binario", src:"the platform"},
+        {trg:"la coincidenza", src:"the connection"},
+        {trg:"il ritardo", src:"the delay"}
+      ]},
+
+      {type:"mc", q:"What color are departure boards in Italian train stations?",
+       opts:["Yellow","White","Blue","Green"],
+       ans:"Yellow",
+       hint:"Departures use this warm color, while arrivals use white. This system helps you find info quickly."},
+
+      {type:"fb", s:"A che ora e il {1}?",
+       a:["volo"],
+       opts:["volo","treno","binario","orario"],
+       hint:"You need to know when your plane departs. This word means a journey through the air.",
+       sSrc:"What time is the {1}?"},
+
+      {type:"mc", q:"What does 'la coincidenza' mean in a train context?",
+       opts:["A connecting train","A coincidence","A ticket","A delay"],
+       ans:"A connecting train",
+       hint:"You arrive on one train and need to catch another. This word describes where two services meet."},
+
+      {type:"fb", s:"Dov'e il tabellone delle {1}?",
+       a:["partenze"],
+       opts:["partenze","arrivi","coincidenze","biglietti"],
+       hint:"You want to find out when and where trains are leaving. This is the board showing outgoing trains.",
+       sSrc:"Where is the {1} board?"},
+
+      {type:"mc", q:"Why does Italy use the 24-hour clock at airports and stations?",
+       opts:["To avoid AM/PM confusion in official schedules","It is a law","Only airports use it","They do not use it"],
+       ans:"To avoid AM/PM confusion in official schedules",
+       hint:"14:30 is clear and unambiguous. In everyday speech, Italians use both 12-hour and 24-hour time."}
+    ]}
+  ]
+};
+export default UNIT_10;
