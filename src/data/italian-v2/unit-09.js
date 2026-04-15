@@ -1,5 +1,6 @@
 // Italian V2 Unit 09 — Il corpo e la salute (Body & Health) (A2.1)
 // CILS/CELI A2 aligned. Body parts, health vocabulary, doctor visits.
+import EXP_09_L1 from './_temp_u09_expand_L01.js';import EXP_09_L2 from './_temp_u09_expand_L02.js';import EXP_09_L3 from './_temp_u09_expand_L03.js';
 
 const UNIT_09 = {
   n:9, lang:"it", srcLang:"en", track:"v2",
@@ -307,7 +308,8 @@ const UNIT_09 = {
        opts:["The -isc- pattern (guarisco)","Regular -ire (guaro)","Irregular (guado)","The -are pattern (guaro)"],
        ans:"The -isc- pattern (guarisco)",
        hint:"Like 'capire' (capisco) and 'finire' (finisco), this verb adds -isc- in most present tense forms."}
-    ]}
+    ]},
+    EXP_09_L1, EXP_09_L2, EXP_09_L3,
   ]
 };
 export default UNIT_09;
