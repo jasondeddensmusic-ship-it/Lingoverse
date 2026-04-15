@@ -1,5 +1,6 @@
 // Italian V2 Unit 12 — Essere al passato (Past with essere) (A2.2)
 // CILS/CELI A2 aligned. Passato prossimo with essere, movement verbs, agreement.
+import EXP_12_L1 from './_temp_u12_expand_L01.js';import EXP_12_L2 from './_temp_u12_expand_L02.js';import EXP_12_L3 from './_temp_u12_expand_L03.js';
 
 const UNIT_12 = {
   n:12, lang:"it", srcLang:"en", track:"v2",
@@ -297,7 +298,8 @@ const UNIT_12 = {
        opts:["Only when ALL subjects are female","For any plural group","For mixed groups","For formal speech"],
        ans:"Only when ALL subjects are female",
        hint:"Even one male in the group switches the ending to -i. The -e ending requires every person to be female."}
-    ]}
+    ]},
+    EXP_12_L1, EXP_12_L2, EXP_12_L3,
   ]
 };
 export default UNIT_12;
