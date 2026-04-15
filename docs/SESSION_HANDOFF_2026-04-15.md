@@ -16,7 +16,7 @@
 
 **You push to main after every language milestone.** Create PR, merge, verify. The owner wants to see progress live on lingoverse.nl, not sitting on a branch.
 
-**Codebase: 117,430 lines of code, 1,589 files, 1,613 modules.**
+**Codebase: ~420,000+ lines of code, 1,768+ files, 1,613 build modules.**
 
 ---
 
