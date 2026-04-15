@@ -382,7 +382,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 ## Next Priorities (updated 2026-04-15)
 
-> Latest handoff: `docs/SESSION_HANDOFF_2026-04-15b.md`. Italian + Japanese launch: 1,014 new cards, 7 languages live. Previous: `docs/SESSION_HANDOFF_2026-04-15.md`.
+> Latest handoff: `docs/SESSION_HANDOFF_2026-04-15c.md`. 7 languages live, 22,500+ cards. Italian 1,129 + Japanese 892 with A1+A2 density expanded. Language selector cleaned to only show real content.
 
 ### Phase 1: German EN→DE Polish (DONE)
 1. ~~CEFR → Progress Tracker~~ — **DONE.** Progress panel, per-level bars, filter toggles, learned checkmarks.
@@ -460,8 +460,9 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-15b.md`** — **LATEST HANDOFF.** Italian + Japanese launch: 1,014 new cards, 49 units, 184 grammar entries. 7 languages live. B2 content in progress. **READ THIS FIRST.**
-- **`docs/SESSION_HANDOFF_2026-04-15.md`** — Previous. V2 content rehaul: 20,269 teach cards, 338 units. Content build workflow.
+- **`docs/SESSION_HANDOFF_2026-04-15c.md`** — **LATEST HANDOFF.** 7 languages live, 22,500+ cards. Italian 1,129 + Japanese 892. A1+A2 density expanded. Language selector cleaned. Exact next-agent instructions. **READ THIS FIRST.**
+- **`docs/SESSION_HANDOFF_2026-04-15b.md`** — Previous. Italian + Japanese launch details.
+- **`docs/SESSION_HANDOFF_2026-04-15.md`** — Previous. V2 content rehaul: 20,269 teach cards. Content build workflow.
 - **`docs/SESSION_HANDOFF_2026-04-12.md`** — Previous. V2 format migration + first Korean content batches.
 - **`docs/SESSION_HANDOFF_2026-04-09.md`** — Previous. Flashcard UI redesign, 691 quiz hint fixes, PP8 zero violations.
 - **`docs/SESSION_HANDOFF_2026-04-08b.md`** — Previous. Deep audit (~150 fixes, 52 files), FSRS spaced repetition engine (working, UI needs redesign), competitor benchmark, learning science analysis.
