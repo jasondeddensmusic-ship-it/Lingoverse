@@ -63,7 +63,7 @@ function Onboarding({onComplete}){
         <p style={{color:"var(--gray-400)",marginBottom:24,fontSize:14,fontFamily:"'Nunito',sans-serif"}}>{t("ob_choose_target",baseSel)}</p>
 
         <div style={{display:"flex",gap:10,flexWrap:"wrap",justifyContent:"center",maxWidth:460,margin:"0 auto 28px"}}>
-          {LANGUAGES.filter(l=>l.code!==baseSel).map(l=>(
+          {LANGUAGES.filter(l=>l.code!==baseSel&&(baseSel!=="ar"||l.code==="de")).map(l=>(
             <div key={l.code} className={`lang-card ${targetSel===l.code?"active":""}`} onClick={()=>setTargetSel(l.code)} style={{cursor:"pointer"}}>
               <CountryFlag code={l.code} size={32} variant="plain"/><div className="name">{l.name}</div><div className="native">{l.native}</div>
             </div>
