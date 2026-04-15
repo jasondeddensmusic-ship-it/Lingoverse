@@ -1,5 +1,6 @@
 // Italian V2 Unit 11 — Il passato (Past Tense Introduction) (A2.2)
 // CILS/CELI A2 aligned. Passato prossimo with avere, irregular participles, time expressions.
+import EXP_11_L1 from './_temp_u11_expand_L01.js';import EXP_11_L2 from './_temp_u11_expand_L02.js';import EXP_11_L3 from './_temp_u11_expand_L03.js';
 
 const UNIT_11 = {
   n:11, lang:"it", srcLang:"en", track:"v2",
@@ -299,7 +300,8 @@ const UNIT_11 = {
        opts:["Last year","Next year","This year","Every year"],
        ans:"Last year",
        hint:"'Scorso' means past/last, from 'scorrere' (to flow by). The year that already flowed past."}
-    ]}
+    ]},
+    EXP_11_L1, EXP_11_L2, EXP_11_L3,
   ]
 };
 export default UNIT_11;
