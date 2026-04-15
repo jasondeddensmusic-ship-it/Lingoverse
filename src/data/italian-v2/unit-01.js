@@ -1,5 +1,8 @@
 // Italian V2 Unit 01 — Greetings & Basics (A1.1)
 // First Italian content unit. CILS/CELI A1 aligned.
+import EXP_L1 from './_temp_u01_expand_L01.js';
+import EXP_L2 from './_temp_u01_expand_L02.js';
+import EXP_L3 from './_temp_u01_expand_L03.js';
 
 const UNIT_01 = {
   n:1, lang:"it", srcLang:"en", track:"v2",
@@ -242,6 +245,7 @@ const UNIT_01 = {
        ans:"a little",
        hint:"This is a shortened form of 'poco.' The apostrophe marks the dropped letters."},
     ]},
+    EXP_L1, EXP_L2, EXP_L3,
   ]
 };
 

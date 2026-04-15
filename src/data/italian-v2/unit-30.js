@@ -148,7 +148,7 @@ const UNIT_30 = {
        q:"'Se ___ studiato di piu, avrei superato l'esame.' Quale forma e corretta?",
        opts:["avessi","avrei","avevo","ho"],
        ans:"avessi",
-       hint:"This is a type 3 hypothetical about the past. The 'se' clause requires the congiuntivo trapassato: avessi + past participle."},
+       hint:"This is a type 3 hypothetical about the past. The 'se' clause requires the congiuntivo trapassato: imperfect subjunctive of the auxiliary plus the past participle."},
 
       {type:"teach", trg:"sarei andato", src:"I would have gone", pos:"verb", gender:null,
        note:"Condizionale passato of 'andare' (takes essere).\n'Sarei andato/a' shows gender agreement.",

@@ -1,5 +1,6 @@
 // Italian V2 Unit 03 — La famiglia (Family & People) (A1.1)
 // CILS/CELI A1 aligned. Family members, describing people, possessives.
+import EXP_03_L1 from './_temp_u03_expand_L01.js';import EXP_03_L2 from './_temp_u03_expand_L02.js';import EXP_03_L3 from './_temp_u03_expand_L03.js';
 
 const UNIT_03 = {
   n:3, lang:"it", srcLang:"en", track:"v2",
@@ -327,7 +328,8 @@ const UNIT_03 = {
        opts:["With plurals or modified nouns","Always","Never","Only with masculine nouns"],
        ans:"With plurals or modified nouns",
        hint:"The no-article rule has exceptions. When the family word is plural or has an adjective, the article returns."}
-    ]}
+    ]},
+    EXP_03_L1, EXP_03_L2, EXP_03_L3,
   ]
 };
 export default UNIT_03;

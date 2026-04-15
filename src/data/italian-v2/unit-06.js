@@ -1,5 +1,6 @@
 // Italian V2 Unit 06 — In citta (In the City) (A1.2)
 // CILS/CELI A1 aligned. Places, directions, transport.
+import EXP_06_L1 from './_temp_u06_expand_L01.js';import EXP_06_L2 from './_temp_u06_expand_L02.js';import EXP_06_L3 from './_temp_u06_expand_L03.js';
 
 const UNIT_06 = {
   n:6, lang:"it", srcLang:"en", track:"v2",
@@ -301,7 +302,8 @@ const UNIT_06 = {
        opts:["It is a foreign loan word","It is feminine","It ends in -s","It is irregular"],
        ans:"It is a foreign loan word",
        hint:"Words borrowed from other languages keep their original form in both singular and plural."}
-    ]}
+    ]},
+    EXP_06_L1, EXP_06_L2, EXP_06_L3,
   ]
 };
 export default UNIT_06;

@@ -1,5 +1,6 @@
 // Italian V2 Unit 04 — Al bar (At the Bar/Cafe) (A1.1)
 // CILS/CELI A1 aligned. Food, drink, ordering, articles.
+import EXP_04_L1 from './_temp_u04_expand_L01.js';import EXP_04_L2 from './_temp_u04_expand_L02.js';import EXP_04_L3 from './_temp_u04_expand_L03.js';
 
 const UNIT_04 = {
   n:4, lang:"it", srcLang:"en", track:"v2",
@@ -216,7 +217,8 @@ const UNIT_04 = {
        opts:["Only when you ask for it","After the main course","Automatically after dessert","At a set time"],
        ans:"Only when you ask for it",
        hint:"Italian dining culture considers it rude to rush customers. You must take the initiative."}
-    ]}
+    ]},
+    EXP_04_L1, EXP_04_L2, EXP_04_L3,
   ]
 };
 export default UNIT_04;
