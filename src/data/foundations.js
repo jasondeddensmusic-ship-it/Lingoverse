@@ -1624,6 +1624,8 @@ export const FOUNDATIONS_BY_LANG = {
       ]},
   ]},
   // ── Russian Foundations (Pipeline Step 2 — placeholder) ──
+  it:{name:"Italian Foundations",icon:"🇮🇹",sections:[]},
+  pt:{name:"Portuguese Foundations",icon:"🇧🇷",sections:[]},
   ru:{name:"Russian Foundations",icon:"🇷🇺",sections:[
     {id:"ru_cyrillic",title:"The Russian Alphabet (Кириллица)",icon:"🔤",desc:"33 letters: 10 vowels, 21 consonants, plus the soft sign (ь) and hard sign (ъ).",
       items:[
@@ -3125,6 +3127,8 @@ export const FK_PLAYTHROUGH = {
         ]},
       ]},
   ]},
+  it:{name:"Italian Foundations Play",icon:"🇮🇹",blueprint:"latin_simple",stages:[]},
+  pt:{name:"Portuguese Foundations Play",icon:"🇧🇷",blueprint:"latin_simple",stages:[]},
   ro:{name:"Romanian Foundations Play",icon:"🇷🇴",blueprint:"latin_simple",stages:[]},
   ru:{name:"Russian Script Play",icon:"🇷🇺",blueprint:"cyrillic",stages:[]},
 };

@@ -7,6 +7,9 @@ import { useBottomSheet, useSwipe } from '../hooks.js';
 import { DUTCH_GRAMMAR } from '../data/grammar/dutch.js';
 import { GERMAN_GRAMMAR } from '../data/grammar/german.js';
 import { GERMAN_GRAMMAR_AR } from '../data/grammar/german-ar.js';
+import { KOREAN_GRAMMAR } from '../data/grammar/korean.js';
+import { FRENCH_GRAMMAR } from '../data/grammar/french.js';
+import { SPANISH_GRAMMAR } from '../data/grammar/spanish.js';
 
 /* ── All-purple brand palette ── */
 const P="#7B5EE8";
@@ -37,7 +40,7 @@ function GrammarPage({lang,baseLang="en"}){
 
   const isMobile=typeof window!=="undefined"&&window.innerWidth<600;
 
-  const GRAMMAR_REFS={nl:DUTCH_GRAMMAR,de:baseLang==="ar"?GERMAN_GRAMMAR_AR:GERMAN_GRAMMAR};
+  const GRAMMAR_REFS={nl:DUTCH_GRAMMAR,de:baseLang==="ar"?GERMAN_GRAMMAR_AR:GERMAN_GRAMMAR,ko:KOREAN_GRAMMAR,fr:FRENCH_GRAMMAR,es:SPANISH_GRAMMAR};
   const grammarData=GRAMMAR_REFS[lang]||{};
   const noGrammarYet=!GRAMMAR_REFS[lang];
 
