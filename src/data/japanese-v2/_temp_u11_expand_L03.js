@@ -70,7 +70,7 @@ const LESSON_5 = {id:"jav2_u11l5", title:"ておく・てはいけない", icon:
    funFact:"はしってはいけません is heard constantly in Japanese schools. Other common school rules: ろうかをはしってはいけません (no running in hallways), おかしをたべてはいけません (no eating snacks). These rule-stating patterns are deeply familiar to every Japanese person."},
 
   {type:"fb", s:"レストランをよやく___おきました。\n(I made a restaurant reservation in advance.)", a:"して", opts:["して","しって","すって","させて"], sSrc:"I made a restaurant reservation in advance.",
-   hint:"よやくする is a する-verb. The て-form of する is して."},
+   hint:"よやくする is a する compound verb. Form the て-form of its base verb."},
 
   {type:"match", pairs:[{trg:"ておく",src:"do in advance"},{trg:"てはいけない",src:"must not do"},{trg:"とく",src:"do in advance (casual)"},{trg:"ちゃだめ",src:"must not (casual)"}]},
 
@@ -80,7 +80,7 @@ const LESSON_5 = {id:"jav2_u11l5", title:"ておく・てはいけない", icon:
    hint:"The casual contraction replaces ておく with とく."},
 
   {type:"fb", s:"この えに___てはいけません。\n(You must not touch this painting.)", a:"さわっ", opts:["さわっ","さわり","さわる","さわい"], sSrc:"You must not touch this painting.",
-   hint:"さわる is a Group 1 verb with る ending. It becomes さわって."},
+   hint:"This Group 1 verb ends in る. Apply the る-ending て-form rule: る becomes って."},
 
   {type:"tip", title:"The Four て-form Compounds",
    text:"ている = ongoing action / state\nたべている (is eating)\n\nてしまう = completion / regret\nたべてしまった (ate it all, oops)\n\nてみる = try doing\nたべてみた (tried eating it)\n\nておく = do in advance\nかっておく (buy in advance)\n\nProhibition pattern:\nてはいけない = must not do\nたべてはいけない (must not eat)",

@@ -127,18 +127,27 @@ xmark_red:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAB
 };
 
 
+// ── TARGET LANGUAGES (learnable) ──
+// Only languages with real lesson content are listed here.
+// Languages without content are kept in _ALL_LANGUAGES below for future use.
 export const LANGUAGES = [
-  { code: "fr", name: "French", flag: "🇫🇷", native: "Français", greeting: "Bonjour!", welcomeBack: "Bonjour, bon retour!" },
-  { code: "nl", name: "Dutch", flag: "🇳🇱", native: "Nederlands", greeting: "Hallo!", welcomeBack: "Hallo, welkom terug!" },
-  { code: "en", name: "English", flag: "🇺🇸", native: "English", greeting: "Hello!", welcomeBack: "Hello, welcome back!" },
   { code: "de", name: "German", flag: "🇩🇪", native: "Deutsch", greeting: "Hallo!", welcomeBack: "Hallo, willkommen zurück!" },
+  { code: "fr", name: "French", flag: "🇫🇷", native: "Français", greeting: "Bonjour!", welcomeBack: "Bonjour, bon retour!" },
+  { code: "es", name: "Spanish", flag: "🇪🇸", native: "Español", greeting: "¡Hola!", welcomeBack: "¡Hola, bienvenido de vuelta!" },
+  { code: "nl", name: "Dutch", flag: "🇳🇱", native: "Nederlands", greeting: "Hallo!", welcomeBack: "Hallo, welkom terug!" },
+  { code: "ko", name: "Korean", flag: "🇰🇷", native: "한국어", greeting: "안녕하세요!", welcomeBack: "안녕하세요, 다시 오신 것을 환영합니다!" },
+  { code: "it", name: "Italian", flag: "🇮🇹", native: "Italiano", greeting: "Ciao!", welcomeBack: "Ciao, bentornato!" },
+  { code: "ja", name: "Japanese", flag: "🇯🇵", native: "日本語", greeting: "こんにちは!", welcomeBack: "こんにちは、おかえりなさい！" },
+];
+
+// ── ALL LANGUAGES (including future / no content yet) ──
+// Re-add to LANGUAGES above once real content is built.
+export const _ALL_LANGUAGES = [
+  ...LANGUAGES,
+  { code: "en", name: "English", flag: "🇺🇸", native: "English", greeting: "Hello!", welcomeBack: "Hello, welcome back!" },
   { code: "ar", name: "Arabic", flag: "🇸🇾", native: "العربية", greeting: "!مرحبا", welcomeBack: "!مرحبا، أهلا بعودتك", rtl: true },
   { code: "ro", name: "Romanian", flag: "🇷🇴", native: "Română", greeting: "Bună!", welcomeBack: "Bună, bine ai revenit!" },
-  { code: "es", name: "Spanish", flag: "🇪🇸", native: "Español", greeting: "¡Hola!", welcomeBack: "¡Hola, bienvenido de vuelta!" },
-  { code: "ko", name: "Korean", flag: "🇰🇷", native: "한국어", greeting: "안녕하세요!", welcomeBack: "안녕하세요, 다시 오신 것을 환영합니다!" },
   { code: "zh", name: "Chinese", flag: "🇨🇳", native: "中文", greeting: "你好!", welcomeBack: "你好，欢迎回来！" },
-  { code: "ja", name: "Japanese", flag: "🇯🇵", native: "日本語", greeting: "こんにちは!", welcomeBack: "こんにちは、おかえりなさい！" },
-  { code: "it", name: "Italian", flag: "🇮🇹", native: "Italiano", greeting: "Ciao!", welcomeBack: "Ciao, bentornato!" },
   { code: "pt", name: "Portuguese", flag: "🇧🇷", native: "Português", greeting: "Olá!", welcomeBack: "Olá, bem-vindo de volta!" },
   { code: "ru", name: "Russian", flag: "🇷🇺", native: "Русский", greeting: "Привет!", welcomeBack: "Привет, с возвращением!" },
 ];
