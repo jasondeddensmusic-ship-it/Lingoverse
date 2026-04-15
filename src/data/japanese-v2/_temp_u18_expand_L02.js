@@ -1,4 +1,4 @@
-// Unit 18 Expansion — Lesson 4: しょくばのしえき (Workplace Causative)
+// Unit 18 Expansion. Lesson 4: しょくばのしえき (Workplace Causative)
 const LESSON_4 = {
   id:"jav2_u18l4", title:"しょくばのしえき", icon:"💼", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_4 = {
      exampleSrc:"A: The department head is in a meeting now.\nB: Then I will come back later.",
      funFact:"部長 is a significant title in Japanese corporate hierarchy. The typical ladder: 社員 (employee) to 主任 (chief) to 係長 (section chief) to 課長 (manager) to 部長 (department head) to 取締役 (director). Buchou holds real power and is often the highest rank that interacts directly with regular staff."},
 
-    {type:"fb", s:"まずじょうしに___てください。\n(First, please let me consult my supervisor.)", a:"そうだんさせ", opts:["そうだんさせ","そうだんして","そうだんし","そうだんされ"], sSrc:"First, please let me consult my supervisor.",
+    {type:"fb", s:"まずじょうしに{1}てください。\n(First, please let me consult my supervisor.)", a:"そうだんさせ", opts:["そうだんさせ","そうだんして","そうだんし","そうだんされ"], sSrc:"First, please let me consult my supervisor.",
      hint:"The causative て-form of そうだんする (to consult). させる + て = permission request."},
 
     {type:"teach", trg:"きゅうじつ", src:"holiday / day off", pos:"noun", gender:null,
@@ -76,7 +76,7 @@ const LESSON_4 = {
 
     {type:"match", pairs:[{trg:"かかせる",src:"make write"},{trg:"しらべさせる",src:"make research"},{trg:"こさせる",src:"make come"},{trg:"ていしゅつさせる",src:"make submit"}]},
 
-    {type:"fb", s:"わたしがせつめい___いただきます。\n(I will explain. - humble)", a:"させて", opts:["させて","して","されて","しまして"], sSrc:"I will explain.",
+    {type:"fb", s:"わたしがせつめい{1}いただきます。\n(I will explain. - humble)", a:"させて", opts:["させて","して","されて","しまして"], sSrc:"I will explain.",
      hint:"The humble business formula: causative て-form + いただく. Very polite self-announcement."},
 
     {type:"match", pairs:[{trg:"そうだんさせる",src:"let consult"},{trg:"ほうこくしょ",src:"report"},{trg:"ぶちょう",src:"department head"},{trg:"きゅうじつ",src:"holiday"}]},

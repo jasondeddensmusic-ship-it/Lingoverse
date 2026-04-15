@@ -1,4 +1,4 @@
-// Unit 03 Expansion — Lesson 6: Personality & Character Traits
+// Unit 03 Expansion. Lesson 6: Personality & Character Traits
 // Theme: Personality adjectives, character descriptions, essere vs stare
 
 const LESSON_6 = {

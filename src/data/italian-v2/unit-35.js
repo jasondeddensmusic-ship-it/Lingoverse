@@ -1,5 +1,5 @@
-// Italian V2 Unit 35 — L'innovazione (Innovation & Future)
-// Level: B2.4 — CILS/CELI B2 aligned.
+// Italian V2 Unit 35. L'innovazione (Innovation & Future)
+// Level: B2.4. CILS/CELI B2 aligned.
 
 const UNIT_35 = {
   n:35, lang:"it", srcLang:"en", track:"v2",
@@ -34,7 +34,7 @@ const UNIT_35 = {
        note:"Masculine plural noun. Singular: il dato.\n'Analisi dei dati' = data analysis. 'Protezione dei dati' = data protection.",
        example:"A: I dati sono il petrolio del ventunesimo secolo.\nB: Chi controlla i dati, controlla il futuro.",
        exampleSrc:"A: Data is the oil of the twenty-first century.\nB: Whoever controls the data, controls the future.",
-       funFact:"The GDPR is known in Italian as 'RGPD' (Regolamento Generale sulla Protezione dei Dati), though many Italians still use the English acronym. Italy's privacy authority, the Garante, is one of Europe's most active data protection regulators."},
+       funFact:"Italians call it 'GDPR' using the English acronym, even though the Italian name is 'Regolamento Generale sulla Protezione dei Dati.' Italy's privacy authority, the Garante, is one of Europe's most active data protection regulators."},
 
       {type:"teach", trg:"la rete", src:"the network / the internet", pos:"noun", gender:"f",
        note:"Feminine noun. 'La rete' = the internet (colloquial).\n'Rete neurale' = neural network. 'In rete' = online.",
@@ -122,7 +122,14 @@ const UNIT_35 = {
        q:"Che cosa significa 'navigare in rete'?",
        opts:["Usare un programma di grafica","Guardare la televisione via satellite","Usare Internet per cercare informazioni","Aggiornare il software del telefono"],
        ans:"Usare Internet per cercare informazioni",
-       hint:"'La rete' means the i.... 'Navigare' uses a sailing metaphor for moving through web pages and content."}
+       hint:"'La rete' means the i.... 'Navigare' uses a sailing metaphor for moving through web pages and content."},
+
+      {type:"fb",
+       s:"Tutti i nostri documenti aziendali sono salvati nel {1} per accedervi ovunque.",
+       a:["cloud"],
+       opts:["cloud","prototipo","brevetto","algoritmo"],
+       hint:"Remote storage accessed via the internet. An English loanword that the Accademia della Crusca has tried to replace with Italian equivalents.",
+       sSrc:"All our company documents are saved in the {1} for access from anywhere."}
     ]},
 
     // ─── Lesson 2: Startup e futuro del lavoro ───
@@ -141,7 +148,7 @@ const UNIT_35 = {
        note:"Masculine noun. Feminine: l'imprenditrice.\n'Spirito imprenditoriale' = entrepreneurial spirit.",
        example:"A: L'imprenditrice ha trasformato una piccola idea in un'azienda globale.\nB: E un esempio di determinazione e visione.",
        exampleSrc:"A: The entrepreneur transformed a small idea into a global company.\nB: She is an example of determination and vision.",
-       funFact:"Italy's economy is built on small and medium enterprises, making 'l'imprenditore' a respected social figure. The Italian word predates the French 'entrepreneur' and comes directly from Latin 'imprehendere' (to undertake)."},
+       funFact:"Italy's economy is built on small and medium enterprises (PMI), making 'l'imprenditore' a respected social figure. The word comes from 'imprendere' (to undertake), from Latin 'in + prehendere' (to seize), sharing the same root as French 'entrepreneur.'"},
 
       {type:"teach", trg:"il finanziamento", src:"the funding / financing", pos:"noun", gender:"m",
        note:"Masculine noun. Plural: i finanziamenti.\n'Finanziamento a fondo perduto' = non-repayable grant.",
@@ -239,9 +246,22 @@ const UNIT_35 = {
 
       {type:"mc",
        q:"Perche 'smart working' e un pseudo-anglicismo?",
-       opts:["Perche non esiste in nessuna lingua","Perche e un termine tedesco","Perche in inglese si dice 'remote work', non 'smart working'","Perche significa lavoro intelligente in italiano"],
+       opts:["Perche non esiste in nessuna lingua ufficialmente riconosciuta","Perche in origine era un termine commerciale di derivazione tedesca","Perche in inglese si dice 'remote work', non 'smart working'","Perche in italiano significa letteralmente lavoro intelligente e produttivo"],
        ans:"Perche in inglese si dice 'remote work', non 'smart working'",
-       hint:"Though it sounds English, native English speakers do not use this term. It was coined in Italy and looks like English but is not used abroad."}
+       hint:"Though it sounds English, native English speakers do not use this term. It was coined in Italy and looks like English but is not used abroad."},
+
+      {type:"mc",
+       q:"Come si chiama una persona che fonda e gestisce un'impresa, assumendosi rischi e responsabilita?",
+       opts:["Il dipendente","Il mediatore","Il commissario","L'imprenditore"],
+       ans:"L'imprenditore",
+       hint:"This figure is central to the Italian economy dominated by small and medium businesses. The feminine form is 'l'imprenditrice.'"},
+
+      {type:"fb",
+       s:"Il {1} esisteva gia dal 2004 in Italia, ma la pandemia lo ha reso popolare.",
+       a:["telelavoro"],
+       opts:["telelavoro","prototipo","brevetto","finanziamento"],
+       hint:"The formal legal term for remote work, regulated in Italy since 2004. Distinct from the newer 'smart working' in Italian law.",
+       sSrc:"{1} already existed in Italy since 2004, but the pandemic made it popular."}
     ]}
   ]
 };

@@ -1,7 +1,7 @@
-// Japanese V2 Unit 19 — じょうけん (Conditionals)
+// Japanese V2 Unit 19. じょうけん (Conditionals)
 import EXP_L3 from './_temp_u19_expand_L01.js';import EXP_L4 from './_temp_u19_expand_L02.js';import EXP_L5 from './_temp_u19_expand_L03.js';
-// Level: B1.1 — JLPT N3 aligned.
-// たら, ば, と, なら — four conditional forms.
+// Level: B1.1. JLPT N3 aligned.
+// たら, ば, と, なら. four conditional forms.
 
 const UNIT_19 = {
   n:19, lang:"ja", srcLang:"en", track:"v2",
@@ -54,7 +54,7 @@ const UNIT_19 = {
    exampleSrc:"A: When spring comes, cherry blossoms bloom.\nB: It must be beautiful.",
    funFact:"Seasonal vocabulary is deeply embedded in Japanese. Each season has iconic imagery: spring (sakura), summer (fireworks), autumn (red leaves), winter (snow). The phrase haru ni naru to (when spring comes) begins countless poems and songs. Japan's intense awareness of seasons shapes food, fashion, and greetings."},
 
-  {type:"fb", s:"あめがふっ___うちにいます。\n(If it rains, I will stay home.)", a:"たら", opts:["たら","と","ば","なら"], sSrc:"If it rains, I will stay home.",
+  {type:"fb", s:"あめがふっ{1}うちにいます。\n(If it rains, I will stay home.)", a:"たら", opts:["たら","と","ば","なら"], sSrc:"If it rains, I will stay home.",
    hint:"The most versatile conditional, formed by adding this to the past tense (た-form)."},
 
   {type:"teach", trg:"さく", src:"to bloom (flowers)", pos:"verb", gender:null,
@@ -79,7 +79,7 @@ const UNIT_19 = {
 
   {type:"match", pairs:[{trg:"おす",src:"to push/press"},{trg:"まがる",src:"to turn"},{trg:"さく",src:"to bloom"},{trg:"おわる",src:"to end"}]},
 
-  {type:"fb", s:"みぎにまがる___えきがあります。\n(When you turn right, there is a station.)", a:"と", opts:["と","たら","ば","なら"], sSrc:"When you turn right, there is a station.",
+  {type:"fb", s:"みぎにまがる{1}えきがあります。\n(When you turn right, there is a station.)", a:"と", opts:["と","たら","ば","なら"], sSrc:"When you turn right, there is a station.",
    hint:"The conditional for automatic/factual results. Turning right naturally leads to the station."},
 
   {type:"match", pairs:[{trg:"たら",src:"if/when (flexible)"},{trg:"と",src:"when (automatic result)"},{trg:"さむい",src:"cold (weather)"},{trg:"はるになる",src:"spring comes"}]},
@@ -138,7 +138,7 @@ const UNIT_19 = {
    deepDive:{title:"Choosing the Right Conditional",
     text:"Each conditional has a 'personality':\n\nたら: The generalist. Works everywhere. Safe default.\nと: The scientist. Only for facts and automatic results.\nば: The logician. Clean if-then. Great with adjectives.\nなら: The advisor. Responds to context and gives recommendations.\n\nOverlap is huge. Many sentences work with 2 or 3 conditionals. But each adds a slightly different nuance. Native speakers choose instinctively based on what they want to emphasize: the timing (たら), the automaticity (と), the logic (ば), or the context (なら)."}},
 
-  {type:"fb", s:"にほん___、きょうとがおすすめです。\n(If it is Japan you are talking about, I recommend Kyoto.)", a:"なら", opts:["なら","たら","と","ば"], sSrc:"If it is Japan you are talking about, I recommend Kyoto.",
+  {type:"fb", s:"にほん{1}、きょうとがおすすめです。\n(If it is Japan you are talking about, I recommend Kyoto.)", a:"なら", opts:["なら","たら","と","ば"], sSrc:"If it is Japan you are talking about, I recommend Kyoto.",
    hint:"The contextual conditional that picks up on what was just mentioned."},
 
   {type:"teach", trg:"さがす", src:"to search / to look for", pos:"verb", gender:null,
@@ -158,7 +158,7 @@ const UNIT_19 = {
 
   {type:"match", pairs:[{trg:"ば",src:"if (logical)"},{trg:"なら",src:"if (contextual)"},{trg:"ごうかくする",src:"to pass (exam)"},{trg:"おすすめ",src:"recommendation"}]},
 
-  {type:"fb", s:"べんきょう___ごうかくできますよ。\n(If you study, you can pass.)", a:"すれば", opts:["すれば","したら","すると","するなら"], sSrc:"If you study, you can pass.",
+  {type:"fb", s:"べんきょう{1}ごうかくできますよ。\n(If you study, you can pass.)", a:"すれば", opts:["すれば","したら","すると","するなら"], sSrc:"If you study, you can pass.",
    hint:"The ば conditional of する. Expresses a logical if-then relationship."},
 
   {type:"match", pairs:[{trg:"やすければ",src:"if it is cheap"},{trg:"ちかければ",src:"if it is close"},{trg:"さがす",src:"to search"},{trg:"れんらくする",src:"to contact"}]},

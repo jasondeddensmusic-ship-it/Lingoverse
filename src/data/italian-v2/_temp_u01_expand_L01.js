@@ -1,4 +1,4 @@
-// Unit 01 Expansion — Lesson 3: Formal Introductions
+// Unit 01 Expansion. Lesson 3: Formal Introductions
 // Theme: Presenting yourself formally, titles, professions, nationality
 
 const LESSON_3 = {

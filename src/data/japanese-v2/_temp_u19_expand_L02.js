@@ -1,4 +1,4 @@
-// Unit 19 Expansion — Lesson 4: ばのつかいかた (Mastering ば)
+// Unit 19 Expansion. Lesson 4: ばのつかいかた (Mastering ば)
 const LESSON_4 = {
   id:"jav2_u19l4", title:"ばのつかいかた", icon:"🔗", xp:15, board:true,
   steps:[
@@ -45,7 +45,7 @@ const LESSON_4 = {
      exampleSrc:"A: If it is delicious, I want to go again.\nB: I am sure it will be delicious.",
      funFact:"おいしければ shows how ば works beautifully with sensory adjectives. Japanese food culture revolves around taste judgments: おいしければまたくる (if tasty, I will come back) is the highest praise for a restaurant. Online reviews often use this ば pattern to describe conditional recommendations."},
 
-    {type:"fb", s:"にほんごがじょうずになりたいです。どう___いいですか？\n(I want to improve my Japanese. What should I do?)", a:"すれば", opts:["すれば","したら","すると","するなら"], sSrc:"What should I do?",
+    {type:"fb", s:"にほんごがじょうずになりたいです。どう{1}いいですか？\n(I want to improve my Japanese. What should I do?)", a:"すれば", opts:["すれば","したら","すると","するなら"], sSrc:"What should I do?",
      hint:"The ば conditional of する combined with いい for seeking advice."},
 
     {type:"teach", trg:"なければ", src:"if there is not / if (one) does not have", pos:"adj", gender:null,
@@ -69,7 +69,7 @@ const LESSON_4 = {
      exampleSrc:"A: I must write the report by tomorrow.\nB: Please do your best.",
      funFact:"なければならない is how Japanese expresses obligation. It is a triple-layer construction: the verb negative (かかない), the ば conditional (かかなければ), and ならない (will not do). The result: 'if I do not write, it will not do' = 'I must write.' Shorter versions exist: なきゃ (casual), なくてはいけない (formal alternative)."},
 
-    {type:"fb", s:"あしたまでにレポートをかか___なりません。\n(I must write the report by tomorrow.)", a:"なければ", opts:["なければ","ないと","なくて","ないで"], sSrc:"I must write the report by tomorrow.",
+    {type:"fb", s:"あしたまでにレポートをかか{1}なりません。\n(I must write the report by tomorrow.)", a:"なければ", opts:["なければ","ないと","なくて","ないで"], sSrc:"I must write the report by tomorrow.",
      hint:"The ば-form of ない, combined with ならない to express obligation (must do)."},
 
     {type:"tip", title:"ば in Proverbs, Advice, and Obligation",

@@ -1,4 +1,4 @@
-// Unit 24 Expansion — Lesson 3: しかし・けれども (Formal Contrast Connectors)
+// Unit 24 Expansion. Lesson 3: しかし・けれども (Formal Contrast Connectors)
 const LESSON_3 = {
   id:"jav2_u24l3", title:"しかし・けれども", icon:"⚔️", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_3 = {
      exampleSrc:"A: What are the advantages of this plan?\nB: The biggest advantage is the low cost.",
      funFact:"利点 uses 利 (profit) and 点 (point). Japanese business presentations always include a りてんとけってん (merits and demerits) analysis. The loanword メリット/デメリット is increasingly common in spoken Japanese, but りてん/けってん remain standard in formal writing. Balanced analysis is valued over one-sided arguments."},
 
-    {type:"fb", s:"けいざいはかいふくしています。___、かだいものこっています。\n(The economy is recovering. Nevertheless, challenges remain.)", a:"しかしながら", opts:["しかしながら","しかし","でも","だから"], sSrc:"The economy is recovering. Nevertheless, challenges remain.",
+    {type:"fb", s:"けいざいはかいふくしています。{1}、かだいものこっています。\n(The economy is recovering. Nevertheless, challenges remain.)", a:"しかしながら", opts:["しかしながら","しかし","でも","だから"], sSrc:"The economy is recovering. Nevertheless, challenges remain.",
      hint:"The very formal connector used in official speeches and academic papers."},
 
     {type:"teach", trg:"〜ものの", src:"although ~ / despite the fact that ~", pos:"conj", gender:null,
@@ -73,7 +73,7 @@ const LESSON_3 = {
 
     {type:"match", pairs:[{trg:"かいふく",src:"recovery"},{trg:"かだい",src:"challenge/issue"},{trg:"りてん",src:"advantage"},{trg:"ものの",src:"although (literary)"}]},
 
-    {type:"fb", s:"にほんごをべんきょうしている___、まだうまくはなせません。\n(Although I am studying Japanese, I still cannot speak well.)", a:"ものの", opts:["ものの","けれど","しかし","だが"], sSrc:"Although I am studying Japanese, I still cannot speak well.",
+    {type:"fb", s:"にほんごをべんきょうしている{1}、まだうまくはなせません。\n(Although I am studying Japanese, I still cannot speak well.)", a:"ものの", opts:["ものの","けれど","しかし","だが"], sSrc:"Although I am studying Japanese, I still cannot speak well.",
      hint:"The literary clause-internal connector meaning 'although' or 'despite the fact that.'"},
 
     {type:"mc", q:"けれども, けれど, and けど are:", opts:["Three different meanings","The same word at different formality levels","Only used in writing","Only used in questions"], ans:"The same word at different formality levels",

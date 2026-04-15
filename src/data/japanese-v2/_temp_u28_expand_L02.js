@@ -1,4 +1,4 @@
-// Unit 28 Expansion — Lesson 4: Literary Expressions
+// Unit 28 Expansion. Lesson 4: Literary Expressions
 const LESSON_4 = {
   id:"jav2_u28l4", title:"ぶんがくてきひょうげん", icon:"📕", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_4 = {
      exampleSrc:"A: She is the pillar of her family.\nB: Everyone relies on her.",
      funFact:"大黒柱 originally refers to the central structural pillar in a traditional Japanese house. The name combines 大黒 (Daikoku, the god of wealth and household) with 柱 (pillar). Metaphorically, the たいこくちゅう is the person who holds everything together. In older usage, it meant the father; modern usage applies it to anyone who is the backbone of a group."},
 
-    {type:"fb", s:"あたかもゆめの___けしきだった。\n(It was a landscape as if from a dream.)", a:"ような", opts:["ような","ごとく","みたいな","らしい"], sSrc:"It was a landscape as if from a dream.",
+    {type:"fb", s:"あたかもゆめの{1}けしきだった。\n(It was a landscape as if from a dream.)", a:"ような", opts:["ような","ごとく","みたいな","らしい"], sSrc:"It was a landscape as if from a dream.",
      hint:"The comparison particle that naturally follows あたかも in a standard literary simile."},
 
     {type:"teach", trg:"せつない", src:"painfully tender / bittersweet / heartaching", pos:"adj", gender:null,
@@ -69,12 +69,12 @@ const LESSON_4 = {
      exampleSrc:"A: The Tale of the Heike sings of impermanence.\nB: Yes, the famous opening about impermanence.",
      funFact:"無常 is a Buddhist philosophical concept meaning nothing stays the same. It became a defining aesthetic of Japanese literature. The Tale of the Heike opens with it. Yoshida Kenko's Tsurezuregusa explores it. Modern authors like Kawabata Yasunari embed it in their work. Understanding むじょう unlocks much of Japanese literary sensibility."},
 
-    {type:"fb", s:"このしょうせつはせんごのにほんを___いる。\n(This novel depicts postwar Japan.)", a:"えがいて", opts:["えがいて","かいて","のべて","ろんじて"], sSrc:"This novel depicts postwar Japan.",
+    {type:"fb", s:"このしょうせつはせんごのにほんを{1}いる。\n(This novel depicts postwar Japan.)", a:"えがいて", opts:["えがいて","かいて","のべて","ろんじて"], sSrc:"This novel depicts postwar Japan.",
      hint:"The verb for artistic or literary portrayal, not physical drawing."},
 
     {type:"match", pairs:[{trg:"ごとく",src:"like (literary)"},{trg:"いわば",src:"so to speak"},{trg:"あたかも",src:"as if (literary)"},{trg:"えがく",src:"to depict"}]},
 
-    {type:"fb", s:"さくらは___をかんじさせますね。\n(Cherry blossoms make you feel the pathos of things.)", a:"もののあわれ", opts:["もののあわれ","むじょう","せつない","はかない"], sSrc:"Cherry blossoms make you feel the pathos of things.",
+    {type:"fb", s:"さくらは{1}をかんじさせますね。\n(Cherry blossoms make you feel the pathos of things.)", a:"もののあわれ", opts:["もののあわれ","むじょう","せつない","はかない"], sSrc:"Cherry blossoms make you feel the pathos of things.",
      hint:"The classical aesthetic concept about sensitivity to beauty and transience."},
 
     {type:"match", pairs:[{trg:"せつない",src:"bittersweet/heartaching"},{trg:"はかない",src:"fleeting"},{trg:"むじょう",src:"impermanence"},{trg:"もののあわれ",src:"pathos of things"}]},

@@ -1,4 +1,4 @@
-// Unit 30 Expansion — Lesson 5: Doppi congiuntivi e registri
+// Unit 30 Expansion. Lesson 5: Doppi congiuntivi e registri
 const LESSON_5 = {
   id:"itv2_u30l5", title:"Doppi congiuntivi e registri", icon:"🎯", xp:15, board:true,
   steps:[

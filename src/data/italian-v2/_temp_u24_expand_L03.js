@@ -1,4 +1,4 @@
-// Unit 24 Expansion — Lesson 6: Condizioni nella vita quotidiana
+// Unit 24 Expansion. Lesson 6: Condizioni nella vita quotidiana
 const LESSON_6 = {
   id:"itv2_u24l6", title:"Condizioni nella vita quotidiana", icon:"🏠", xp:15, board:true,
   steps:[

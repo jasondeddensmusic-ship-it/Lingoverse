@@ -1,4 +1,4 @@
-// Unit 23 Expansion — Lesson 4: ことのパターン (Advanced こと Patterns)
+// Unit 23 Expansion. Lesson 4: ことのパターン (Advanced こと Patterns)
 const LESSON_4 = {
   id:"jav2_u23l4", title:"ことのパターン", icon:"🔑", xp:15, board:true,
   steps:[
@@ -45,7 +45,7 @@ const LESSON_4 = {
      exampleSrc:"A: It is important to develop good habits.\nB: For example, what kind of habits?",
      funFact:"習慣 combines 習 (learn through practice) and 慣 (become accustomed). Japanese culture values しゅうかん deeply: early rising (早起き), bathing at night (入浴), and seasonal cleaning (大掃除, year-end cleaning). The phrase せいかつしゅうかんびょう (lifestyle disease) shows how seriously habits are taken as health determinants."},
 
-    {type:"fb", s:"まいにちうんどうする___にしています。\n(I make it a practice to exercise every day.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"I make it a practice to exercise every day.",
+    {type:"fb", s:"まいにちうんどうする{1}にしています。\n(I make it a practice to exercise every day.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"I make it a practice to exercise every day.",
      hint:"The nominalizer in the fixed pattern expressing an ongoing habitual decision."},
 
     {type:"teach", trg:"〜ないことにしている", src:"I make it a practice NOT to ~", pos:"part", gender:null,
@@ -71,7 +71,7 @@ const LESSON_4 = {
 
     {type:"match", pairs:[{trg:"たことがある",src:"have experienced"},{trg:"ことにしている",src:"make it a practice"},{trg:"ことになっている",src:"it is the rule"},{trg:"ということ",src:"the fact that"}]},
 
-    {type:"fb", s:"このかいしゃではスーツをきる___になっています。\n(At this company, the rule is to wear suits.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"At this company, the rule is to wear suits.",
+    {type:"fb", s:"このかいしゃではスーツをきる{1}になっています。\n(At this company, the rule is to wear suits.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"At this company, the rule is to wear suits.",
      hint:"The nominalizer in the fixed pattern expressing an established rule or norm."},
 
     {type:"match", pairs:[{trg:"しゅうかん",src:"habit/custom"},{trg:"けいけん",src:"experience"},{trg:"ルール",src:"rule"},{trg:"ということは",src:"that means"}]},

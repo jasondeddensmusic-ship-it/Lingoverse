@@ -1,4 +1,4 @@
-// Unit 13 Expansion L5 — Cultural Experiences in Japan
+// Unit 13 Expansion L5. Cultural Experiences in Japan
 // Experience pattern with cultural activities and seasonal events.
 
 const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", xp:15, board:true, steps:[
@@ -45,7 +45,7 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
    exampleSrc:"A: Have you been to a fireworks festival?\nB: Yes, I saw the Sumida River fireworks. It was amazing!",
    funFact:"花火 literally means 'flower fire,' beautifully describing how fireworks bloom in the sky. Japan's fireworks festivals are summer highlights. The Sumida River festival in Tokyo dates back to 1733. Spectators shout 'tamaya!' and 'kagiya!' (names of historic fireworks makers) as fireworks burst."},
 
-  {type:"fb", s:"さどうを___したことがありますか？\n(Have you experienced tea ceremony before?)", a:"たいけん", opts:["たいけん","けいけん","べんきょう","れんしゅう"], sSrc:"Have you experienced tea ceremony before?",
+  {type:"fb", s:"さどうを{1}したことがありますか？\n(Have you experienced tea ceremony before?)", a:"たいけん", opts:["たいけん","けいけん","べんきょう","れんしゅう"], sSrc:"Have you experienced tea ceremony before?",
    hint:"The word for a hands-on, physical experience of trying something."},
 
   {type:"teach", trg:"おせちりょうり", src:"New Year's cuisine", pos:"noun", gender:null,
@@ -69,7 +69,7 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
    exampleSrc:"A: Have you gone autumn leaf viewing before?\nB: Yes, the autumn leaves in Kyoto were truly beautiful.",
    funFact:"紅葉 uses the kanji for 'crimson leaves.' もみじがり (autumn leaf hunting) is as beloved as はなみ (cherry blossom viewing). Kyoto, Nikko, and Hakone are top spots. The season runs from October to December, moving from north to south, opposite to the cherry blossom front."},
 
-  {type:"fb", s:"にほんで___をかったことがありますか？\n(Have you bought souvenirs in Japan?)", a:"おみやげ", opts:["おみやげ","おかし","きもの","おちゃ"], sSrc:"Have you bought souvenirs in Japan?",
+  {type:"fb", s:"にほんで{1}をかったことがありますか？\n(Have you bought souvenirs in Japan?)", a:"おみやげ", opts:["おみやげ","おかし","きもの","おちゃ"], sSrc:"Have you bought souvenirs in Japan?",
    hint:"The gifts you buy during travel for friends and coworkers."},
 
   {type:"match", pairs:[{trg:"きもの",src:"kimono"},{trg:"はなみ",src:"cherry blossom viewing"},{trg:"さどう",src:"tea ceremony"},{trg:"ゆかた",src:"summer kimono"}]},
@@ -79,7 +79,7 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
   {type:"mc", q:"おみやげ is:", opts:["A type of food","A gift bought during travel","A festival event","A traditional dance"], ans:"A gift bought during travel",
    hint:"A deeply ingrained Japanese social obligation: you must return from any trip with something for those who stayed behind."},
 
-  {type:"fb", s:"きょうとで___をしたことがありますか？\n(Have you done cherry blossom viewing in Kyoto?)", a:"はなみ", opts:["はなみ","はなび","はなし","はなや"], sSrc:"Have you done cherry blossom viewing in Kyoto?",
+  {type:"fb", s:"きょうとで{1}をしたことがありますか？\n(Have you done cherry blossom viewing in Kyoto?)", a:"はなみ", opts:["はなみ","はなび","はなし","はなや"], sSrc:"Have you done cherry blossom viewing in Kyoto?",
    hint:"The spring tradition of viewing cherry blossoms under the trees."},
 
   {type:"tip", title:"Japanese Seasonal Experiences",

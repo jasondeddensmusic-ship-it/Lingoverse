@@ -1,4 +1,4 @@
-// Italian V2 Unit 11 Expansion — Lesson 4: Altri participi irregolari (More Irregular Participles)
+// Italian V2 Unit 11 Expansion. Lesson 4: Altri participi irregolari (More Irregular Participles)
 // Expands past tense unit with additional high-frequency irregular past participles.
 
 const LESSON_4 = {id:"itv2_u11l4", title:"Altri participi irregolari", icon:"\uD83D\uDD11", xp:15, board:true, steps:[

@@ -1,4 +1,4 @@
-// Italian V2 Unit 12 Expansion — Lesson 6: Il fine settimana (Weekend Recap)
+// Italian V2 Unit 12 Expansion. Lesson 6: Il fine settimana (Weekend Recap)
 // Expands essere past tense unit with weekend recap combining avere + essere verbs.
 
 const LESSON_6 = {id:"itv2_u12l6", title:"Il fine settimana", icon:"\uD83C\uDF1F", xp:15, board:true, steps:[

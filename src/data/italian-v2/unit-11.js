@@ -1,4 +1,4 @@
-// Italian V2 Unit 11 — Il passato (Past Tense Introduction) (A2.2)
+// Italian V2 Unit 11. Il passato (Past Tense Introduction) (A2.2)
 // CILS/CELI A2 aligned. Passato prossimo with avere, irregular participles, time expressions.
 import EXP_11_L1 from './_temp_u11_expand_L01.js';import EXP_11_L2 from './_temp_u11_expand_L02.js';import EXP_11_L3 from './_temp_u11_expand_L03.js';
 

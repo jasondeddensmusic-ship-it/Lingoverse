@@ -1,4 +1,4 @@
-// Unit 27 Expansion — Lesson 3: Climate & Energy
+// Unit 27 Expansion. Lesson 3: Climate & Energy
 const LESSON_3 = {
   id:"jav2_u27l3", title:"きこうとエネルギー", icon:"⚡", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_3 = {
      exampleSrc:"A: We need to reduce costs.\nB: Where do we cut from?",
      funFact:"削減 uses 削 (shave/scrape) and 減 (decrease). It implies active, deliberate reduction, not natural decline. The word is harsh in connotation: you are scraping something away. In policy debates, さくげんもくひょう (reduction targets) for emissions, budgets, and military spending are always contentious."},
 
-    {type:"fb", s:"CO2の___をさくげんするもくひょうがあります。\n(There is a target to reduce CO2 emission volume.)", a:"はいしゅつりょう", opts:["はいしゅつりょう","たいきおせん","ちきゅうおんだんか","さいせいかのう"], sSrc:"There is a target to reduce CO2 emission volume.",
+    {type:"fb", s:"CO2の{1}をさくげんするもくひょうがあります。\n(There is a target to reduce CO2 emission volume.)", a:"はいしゅつりょう", opts:["はいしゅつりょう","たいきおせん","ちきゅうおんだんか","さいせいかのう"], sSrc:"There is a target to reduce CO2 emission volume.",
      hint:"The compound noun for the amount of substances expelled, measured in tons or units."},
 
     {type:"teach", trg:"げんしりょく", src:"nuclear power / atomic energy", pos:"noun", gender:null,
@@ -63,12 +63,12 @@ const LESSON_3 = {
      exampleSrc:"A: Residents' safety is the top priority.\nB: Exactly right.",
      funFact:"住民 uses 住 (live/dwell) and 民 (people). In environmental policy, じゅうみん consent is crucial. Japan has a strong tradition of じゅうみんうんどう (residents' movements) where local communities organize against unwanted developments. These movements successfully blocked pollution in the 1960s-70s and continue to shape local policy."},
 
-    {type:"fb", s:"げんしりょくはつでんしょの___についてぎろんがつづいています。\n(Debate continues about restarting nuclear power plants.)", a:"さいかどう", opts:["さいかどう","さくげん","はいしゅつ","さいせい"], sSrc:"Debate continues about restarting nuclear power plants.",
+    {type:"fb", s:"げんしりょくはつでんしょの{1}についてぎろんがつづいています。\n(Debate continues about restarting nuclear power plants.)", a:"さいかどう", opts:["さいかどう","さくげん","はいしゅつ","さいせい"], sSrc:"Debate continues about restarting nuclear power plants.",
      hint:"The noun for putting something back into operation after it was shut down."},
 
     {type:"match", pairs:[{trg:"きこうへんどう",src:"climate change"},{trg:"さいせいかのうエネルギー",src:"renewable energy"},{trg:"はいしゅつりょう",src:"emission volume"},{trg:"たいようこう",src:"solar power"}]},
 
-    {type:"fb", s:"コストを___するひつようがあります。\n(We need to reduce costs.)", a:"さくげん", opts:["さくげん","さいかどう","かくだい","はいしゅつ"], sSrc:"We need to reduce costs.",
+    {type:"fb", s:"コストを{1}するひつようがあります。\n(We need to reduce costs.)", a:"さくげん", opts:["さくげん","さいかどう","かくだい","はいしゅつ"], sSrc:"We need to reduce costs.",
      hint:"The verb-noun meaning to shave down or cut back an amount."},
 
     {type:"match", pairs:[{trg:"げんしりょく",src:"nuclear power"},{trg:"さいかどう",src:"restart"},{trg:"じゅうみん",src:"residents"},{trg:"さくげん",src:"reduction"}]},

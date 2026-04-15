@@ -1,4 +1,4 @@
-// Italian V2 Unit 11 Expansion — Lesson 5: Le espressioni di tempo al passato (Past Time Expressions Extended)
+// Italian V2 Unit 11 Expansion. Lesson 5: Le espressioni di tempo al passato (Past Time Expressions Extended)
 // Expands past tense unit with more time expressions and narrative connectors.
 
 const LESSON_5 = {id:"itv2_u11l5", title:"Le espressioni di tempo", icon:"\u231A", xp:15, board:true, steps:[

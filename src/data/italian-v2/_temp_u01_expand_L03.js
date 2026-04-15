@@ -1,4 +1,4 @@
-// Unit 01 Expansion — Lesson 5: Social Situations
+// Unit 01 Expansion. Lesson 5: Social Situations
 // Theme: Inviting, accepting, refusing, thanking in social contexts
 
 const LESSON_5 = {

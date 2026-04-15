@@ -1,4 +1,4 @@
-// Unit 06 Expansion — Lesson 6: Weather & Seasons in the City
+// Unit 06 Expansion. Lesson 6: Weather & Seasons in the City
 // Theme: Weather vocabulary, climate descriptions, seasonal activities
 
 const LESSON_6 = {

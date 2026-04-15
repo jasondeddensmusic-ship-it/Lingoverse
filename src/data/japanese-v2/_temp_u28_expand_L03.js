@@ -1,4 +1,4 @@
-// Unit 28 Expansion — Lesson 5: Register Differences
+// Unit 28 Expansion. Lesson 5: Register Differences
 const LESSON_5 = {
   id:"jav2_u28l5", title:"けいごとくだけたひょうげん", icon:"🔄", xp:15, board:true,
   steps:[
@@ -44,7 +44,7 @@ const LESSON_5 = {
      deepDive:{title:"Reading Social Cues for Register",
       text:"Choosing the right register depends on multiple factors:\n\nAge difference: Speak up to elders, speak casually to peers or younger.\n\nSocial distance: Strangers get polite, close friends get casual.\n\nIn-group vs out-group: Humble about your company to outsiders, polite within the company.\n\nFormality of setting: Meeting room gets keigo, after-work drinks get casual.\n\nPower dynamic: Customer always gets the highest register.\n\nJapanese people constantly adjust their register mid-conversation. Moving from keigo to casual can signal growing closeness. Switching from casual to keigo can signal displeasure or distance."}},
 
-    {type:"fb", s:"しゃちょうは___ますか？\n(Is the president in?)", a:"いらっしゃい", opts:["いらっしゃい","おり","い","おいでになり"], sSrc:"Is the president in?",
+    {type:"fb", s:"しゃちょうは{1}ますか？\n(Is the president in?)", a:"いらっしゃい", opts:["いらっしゃい","おり","い","おいでになり"], sSrc:"Is the president in?",
      hint:"The respectful form of いる, used when asking about someone of high status."},
 
     {type:"teach", trg:"くる / まいる / いらっしゃる", src:"to come (plain / humble / respectful)", pos:"verb", gender:null,
@@ -68,7 +68,7 @@ const LESSON_5 = {
      exampleSrc:"A: You can speak casually to me now.\nB: OK, I will do that.",
      funFact:"タメ comes from dice games where a tie is タメ (equal). タメぐち is speech between equals: no keigo, no です/ます. The shift from polite to タメぐち is a social milestone in Japanese relationships. Being offered タメぐち means the other person considers you a friend, not just an acquaintance. Some people never switch."},
 
-    {type:"fb", s:"ごぜんじゅうじに___。\n(I will come at 10 AM.)", a:"まいります", opts:["まいります","いらっしゃいます","きます","おこしになります"], sSrc:"I will come at 10 AM.",
+    {type:"fb", s:"ごぜんじゅうじに{1}。\n(I will come at 10 AM.)", a:"まいります", opts:["まいります","いらっしゃいます","きます","おこしになります"], sSrc:"I will come at 10 AM.",
      hint:"The humble form of くる, used when describing your own action of going or coming."},
 
     {type:"match", pairs:[{trg:"かしこまりました",src:"understood (ultra-polite)"},{trg:"おそれいります",src:"I am sorry to trouble you"},{trg:"めしあがる",src:"to eat (respectful)"},{trg:"いただく",src:"to eat (humble)"}]},

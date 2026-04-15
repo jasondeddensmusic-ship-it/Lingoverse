@@ -1,4 +1,4 @@
-// Unit 20 Expansion — Lesson 5: けいごのペア (Keigo Verb Pairs)
+// Unit 20 Expansion. Lesson 5: けいごのペア (Keigo Verb Pairs)
 const LESSON_5 = {
   id:"jav2_u20l5", title:"けいごのペア", icon:"🔄", xp:15, board:true,
   steps:[
@@ -45,7 +45,7 @@ const LESSON_5 = {
      exampleSrc:"A: Please help yourself. (honorific for their eating)\nB: I will partake. (humble for my eating)",
      funFact:"This exchange is the perfect keigo pair in action. The host says めしあがってください (please eat, honorific for the guest), and the guest responds いただきます (I will humbly receive/eat). Both speakers correctly apply keigo to the right person: honorific for the other, humble for themselves."},
 
-    {type:"fb", s:"あしたお___してもよろしいでしょうか？\n(May I visit you tomorrow? - humble)", a:"うかがい", opts:["うかがい","いき","まいり","たずね"], sSrc:"May I visit you tomorrow?",
+    {type:"fb", s:"あしたお{1}してもよろしいでしょうか？\n(May I visit you tomorrow? - humble)", a:"うかがい", opts:["うかがい","いき","まいり","たずね"], sSrc:"May I visit you tomorrow?",
      hint:"The humble verb that covers visiting, asking, and hearing. Uses the お + stem + する pattern."},
 
     {type:"teach", trg:"おめにかかる", src:"to meet (humble)", pos:"verb", gender:null,
@@ -70,7 +70,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"ごぞんじ",src:"to know (hon.)"},{trg:"ぞんじる",src:"to know (hum.)"},{trg:"うかがう",src:"to visit/ask (hum.)"},{trg:"さしあげる",src:"to give (hum.)"}]},
 
-    {type:"fb", s:"もうしわけございません。___ません。\n(I am sorry. I do not know. - humble)", a:"ぞんじ", opts:["ぞんじ","しり","わかり","おぼえ"], sSrc:"I am sorry. I do not know.",
+    {type:"fb", s:"もうしわけございません。{1}ません。\n(I am sorry. I do not know. - humble)", a:"ぞんじ", opts:["ぞんじ","しり","わかり","おぼえ"], sSrc:"I am sorry. I do not know.",
      hint:"The humble form of しる (to know) in its negative. More polite than しりません."},
 
     {type:"match", pairs:[{trg:"おめにかかる",src:"to meet (hum.)"},{trg:"ぞんじません",src:"I do not know (hum.)"},{trg:"おっしゃる / もうす",src:"say (hon. / hum.)"},{trg:"めしあがる / いただく",src:"eat (hon. / hum.)"}]},

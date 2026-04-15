@@ -1,4 +1,4 @@
-// Unit 25 Expansion — Lesson 4: I mercati finanziari
+// Unit 25 Expansion. Lesson 4: I mercati finanziari
 const LESSON_4 = {
   id:"itv2_u25l4", title:"I mercati finanziari", icon:"📊", xp:15, board:true,
   steps:[

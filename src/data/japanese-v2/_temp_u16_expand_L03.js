@@ -1,4 +1,4 @@
-// Unit 16 Expansion L5 — Promises & Commitments
+// Unit 16 Expansion L5. Promises & Commitments
 // Making promises, expressing determination, talking about resolutions.
 
 const LESSON_5 = {id:"jav2_u16l5", title:"やくそくときめる", icon:"🤞", xp:15, board:true, steps:[
@@ -45,7 +45,7 @@ const LESSON_5 = {id:"jav2_u16l5", title:"やくそくときめる", icon:"🤞"
    exampleSrc:"A: What is your goal for this year?\nB: It is to pass JLPT N3.",
    funFact:"目標 combines 目 (eye) and 標 (mark/sign). It implies something you can see and aim for. Japanese schools emphasize もくひょうをたてる (goal-setting) from elementary school. Class goals are displayed on the wall, and personal goals are written in journals. This habit continues into adult life."},
 
-  {type:"fb", s:"まいにちうんどうする___にしました。\n(I have decided to exercise every day.)", a:"こと", opts:["こと","つもり","ため","はず"], sSrc:"I have decided to exercise every day.",
+  {type:"fb", s:"まいにちうんどうする{1}にしました。\n(I have decided to exercise every day.)", a:"こと", opts:["こと","つもり","ため","はず"], sSrc:"I have decided to exercise every day.",
    hint:"The nominalizer that turns a verb into 'the act of' before にする (decide)."},
 
   {type:"teach", trg:"つづける", src:"to continue", pos:"verb", gender:null,
@@ -75,7 +75,7 @@ const LESSON_5 = {id:"jav2_u16l5", title:"やくそくときめる", icon:"🤞"
    exampleSrc:"A: Challenging new things is wonderful.\nB: You are right. I am scared, but I will try.",
    funFact:"挑戦 combines 挑 (challenge/provoke) and 戦 (battle/war). It implies bravery in facing difficulty. ちょうせんすること is celebrated in Japanese culture: even failure is respected if the effort was genuine. TV shows love the ちょうせん format where people attempt difficult feats."},
 
-  {type:"fb", s:"にほんごのべんきょうを___ますか？\n(Will you continue studying Japanese?)", a:"つづけ", opts:["つづけ","やめ","はじめ","おわり"], sSrc:"Will you continue studying Japanese?",
+  {type:"fb", s:"にほんごのべんきょうを{1}ますか？\n(Will you continue studying Japanese?)", a:"つづけ", opts:["つづけ","やめ","はじめ","おわり"], sSrc:"Will you continue studying Japanese?",
    hint:"The verb meaning 'to continue' in its stem form before ます."},
 
   {type:"match", pairs:[{trg:"かならず",src:"without fail"},{trg:"ことにする",src:"decide to (personal)"},{trg:"ことになる",src:"it is decided (external)"},{trg:"もくひょう",src:"goal"}]},
@@ -85,7 +85,7 @@ const LESSON_5 = {id:"jav2_u16l5", title:"やくそくときめる", icon:"🤞"
   {type:"mc", q:"おうえんしています means:", opts:["I am giving up","I am confused","I am cheering you on","I am worried"], ans:"I am cheering you on",
    hint:"A supportive phrase meaning 'I am in your corner/I support you.'"},
 
-  {type:"fb", s:"タバコを___ことにしました。\n(I have decided to quit smoking.)", a:"やめる", opts:["やめる","つづける","はじめる","する"], sSrc:"I have decided to quit smoking.",
+  {type:"fb", s:"タバコを{1}ことにしました。\n(I have decided to quit smoking.)", a:"やめる", opts:["やめる","つづける","はじめる","する"], sSrc:"I have decided to quit smoking.",
    hint:"The verb meaning 'to quit/stop' in dictionary form before ことにする."},
 
   {type:"tip", title:"Promises, Decisions, and Goals",

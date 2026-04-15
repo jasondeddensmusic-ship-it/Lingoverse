@@ -1,4 +1,4 @@
-// Unit 26 Expansion — Lesson 5: News Commentary
+// Unit 26 Expansion. Lesson 5: News Commentary
 const LESSON_5 = {
   id:"jav2_u26l5", title:"ニュースかいせつ", icon:"🎙️", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_5 = {
      exampleSrc:"A: There will likely be a short-term effect.\nB: How about in the long term?",
      funFact:"The てき suffix converts nouns into adjectives. たんき (short period) becomes たんきてき (short-term). This pattern is incredibly productive: けいざいてき (economic), しゃかいてき (social), こくさいてき (international). Commentators layer these freely: たんきてきけいざいてきえいきょう (short-term economic impact)."},
 
-    {type:"fb", s:"けいざいの___はあかるいですか？\n(Is the economic outlook bright?)", a:"みとおし", opts:["みとおし","はいけい","ようそ","かいせつ"], sSrc:"Is the economic outlook bright?",
+    {type:"fb", s:"けいざいの{1}はあかるいですか？\n(Is the economic outlook bright?)", a:"みとおし", opts:["みとおし","はいけい","ようそ","かいせつ"], sSrc:"Is the economic outlook bright?",
      hint:"The noun for seeing into the future, used for forecasts and predictions."},
 
     {type:"teach", trg:"げんいん", src:"cause / reason", pos:"noun", gender:null,
@@ -69,12 +69,12 @@ const LESSON_5 = {
      exampleSrc:"A: More proactive measures are needed.\nB: Specifically, what should be done?",
      funFact:"積極的 uses 積 (accumulate) and 極 (extreme). Being proactive means pushing to the extreme of accumulation. It is the word commentators use when arguing the government or companies should do more. The opposite しょうきょくてき (消極的, passive) implies reluctance and half-measures."},
 
-    {type:"fb", s:"せいふは___なたいおうをしめしています。\n(The government is showing a cautious response.)", a:"しんちょう", opts:["しんちょう","せっきょくてき","たんきてき","ちょうきてき"], sSrc:"The government is showing a cautious response.",
+    {type:"fb", s:"せいふは{1}なたいおうをしめしています。\n(The government is showing a cautious response.)", a:"しんちょう", opts:["しんちょう","せっきょくてき","たんきてき","ちょうきてき"], sSrc:"The government is showing a cautious response.",
      hint:"The adjective meaning careful and deliberate, implying slow but thoughtful action."},
 
     {type:"match", pairs:[{trg:"かいせつ",src:"commentary"},{trg:"はいけい",src:"background"},{trg:"ようそ",src:"factor"},{trg:"みとおし",src:"outlook"}]},
 
-    {type:"fb", s:"じこの___はまだちょうさちゅうです。\n(The cause of the accident is still under investigation.)", a:"げんいん", opts:["げんいん","はいけい","ようそ","けっか"], sSrc:"The cause of the accident is still under investigation.",
+    {type:"fb", s:"じこの{1}はまだちょうさちゅうです。\n(The cause of the accident is still under investigation.)", a:"げんいん", opts:["げんいん","はいけい","ようそ","けっか"], sSrc:"The cause of the accident is still under investigation.",
      hint:"The noun for the origin or source that produced an event or outcome."},
 
     {type:"match", pairs:[{trg:"げんいん",src:"cause"},{trg:"ちょうさ",src:"investigation"},{trg:"しんちょう",src:"cautious"},{trg:"せっきょくてき",src:"proactive"}]},

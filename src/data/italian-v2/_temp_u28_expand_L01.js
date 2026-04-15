@@ -1,4 +1,4 @@
-// Unit 28 Expansion — Lesson 4: I movimenti letterari
+// Unit 28 Expansion. Lesson 4: I movimenti letterari
 const LESSON_4 = {
   id:"itv2_u28l4", title:"I movimenti letterari", icon:"🎨", xp:15, board:true,
   steps:[

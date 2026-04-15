@@ -1,4 +1,4 @@
-// Unit 22 Expansion — Lesson 5: Tradizioni regionali
+// Unit 22 Expansion. Lesson 5: Tradizioni regionali
 const LESSON_5 = {
   id:"itv2_u22l5", title:"Tradizioni regionali", icon:"🗺️", xp:15, board:true,
   steps:[

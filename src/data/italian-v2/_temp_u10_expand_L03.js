@@ -1,4 +1,4 @@
-// Italian V2 Unit 10 Expansion — Lesson 6: Fare il turista (Sightseeing & Tourist Phrases)
+// Italian V2 Unit 10 Expansion. Lesson 6: Fare il turista (Sightseeing & Tourist Phrases)
 // Expands travel unit with sightseeing vocabulary and tourist interactions.
 
 const LESSON_6 = {id:"itv2_u10l6", title:"Fare il turista", icon:"\uD83D\uDCF8", xp:15, board:true, steps:[

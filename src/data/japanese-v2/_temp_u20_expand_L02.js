@@ -1,4 +1,4 @@
-// Unit 20 Expansion — Lesson 4: メールのけいご (Keigo in Emails)
+// Unit 20 Expansion. Lesson 4: メールのけいご (Keigo in Emails)
 const LESSON_4 = {
   id:"jav2_u20l4", title:"メールのけいご", icon:"📧", xp:15, board:true,
   steps:[
@@ -45,7 +45,7 @@ const LESSON_4 = {
      exampleSrc:"A: Excuse me, could you tell me your name?\nB: My name is Yamada.",
      funFact:"おそれいります literally means 'I enter into fear/awe.' It is one of the most refined keigo expressions. Used before requests (sorry to trouble you, but...) and after receiving help (I am in awe of your kindness). Its elegance makes it a favorite of service professionals and business communicators."},
 
-    {type:"fb", s:"しりょうをおおくり___でしょうか？\n(Could you possibly send the materials?)", a:"いただけます", opts:["いただけます","ください","します","もらいます"], sSrc:"Could you possibly send the materials?",
+    {type:"fb", s:"しりょうをおおくり{1}でしょうか？\n(Could you possibly send the materials?)", a:"いただけます", opts:["いただけます","ください","します","もらいます"], sSrc:"Could you possibly send the materials?",
      hint:"The most polite request form: humble 'receive' in potential form + でしょうか."},
 
     {type:"teach", trg:"しょうちいたしました", src:"understood / acknowledged (humble)", pos:"verb", gender:null,
@@ -75,7 +75,7 @@ const LESSON_4 = {
      exampleSrc:"A: I am sorry to trouble you when busy, but please reply.\nB: I will reply within today.",
      funFact:"返答 combines 返 (return) and 答 (answer). The ご prefix makes it honorific (for the other person's reply). When referring to YOUR reply, use the humble form: へんとういたします (I will reply). This honorific/humble distinction in the SAME word is a hallmark of advanced keigo."},
 
-    {type:"fb", s:"___いたしました。\n(Understood. - humble)", a:"しょうち", opts:["しょうち","りかい","わかり","なっとく"], sSrc:"Understood.",
+    {type:"fb", s:"{1}いたしました。\n(Understood. - humble)", a:"しょうち", opts:["しょうち","りかい","わかり","なっとく"], sSrc:"Understood.",
      hint:"The most formal business acknowledgment. Combines 承 (accept) and 知 (know) with humble いたす."},
 
     {type:"tip", title:"Business Email Template",

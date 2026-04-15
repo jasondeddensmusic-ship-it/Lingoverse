@@ -1,4 +1,4 @@
-// Italian V2 Unit 07 Expansion — Lesson 4: Il vino italiano (Italian Wine)
+// Italian V2 Unit 07 Expansion. Lesson 4: Il vino italiano (Italian Wine)
 // Expands restaurant unit with wine vocabulary and ordering.
 
 const LESSON_4 = {id:"itv2_u7l4", title:"Il vino italiano", icon:"\uD83C\uDF77", xp:15, board:true, steps:[

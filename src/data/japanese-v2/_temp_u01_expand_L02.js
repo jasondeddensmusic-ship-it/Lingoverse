@@ -1,4 +1,4 @@
-// Unit 01 Expansion L04 — Polite Responses & Reactions
+// Unit 01 Expansion L04. Polite Responses & Reactions
 const LESSON_4 = {
   id:"jav2_u1l4", title:"あいづちとへんじ", icon:"💬", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_4 = {
      exampleSrc:"A: I got married!\nB: Congratulations!",
      funFact:"From medetai (auspicious/worthy of celebration). The 'o' prefix and 'gozaimasu' ending add layers of politeness. At New Year, it combines with akemashite to form Japan's most important greeting."},
 
-    {type:"fb", s:"たいへんな話を聞いたとき、___と言います。",
+    {type:"fb", s:"たいへんな話を聞いたとき、{1}と言います。",
      a:["たいへんですね"],
      opts:["たいへんですね","すごい","おめでとう","なるほど"],
      hint:"The sympathetic response you give when someone shares a difficult situation.",
@@ -110,7 +110,7 @@ const LESSON_4 = {
       {trg:"だいじょうぶですか", src:"Are you okay?"}
     ]},
 
-    {type:"fb", s:"いいニュースを聞いたとき、___と言います。",
+    {type:"fb", s:"いいニュースを聞いたとき、{1}と言います。",
      a:["よかったですね"],
      opts:["よかったですね","ざんねんですね","たいへんですね","まじですか"],
      hint:"The warm response when someone shares happy news with you.",

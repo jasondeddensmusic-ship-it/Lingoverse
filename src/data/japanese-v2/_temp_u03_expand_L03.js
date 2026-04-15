@@ -1,4 +1,4 @@
-// Unit 03 Expansion L05 — Body Parts & Physical Description
+// Unit 03 Expansion L05. Body Parts & Physical Description
 const LESSON_5 = {
   id:"jav2_u3l5", title:"からだ", icon:"🫀", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_5 = {
      exampleSrc:"A: Let's wash our hands.\nB: Yes, I'll use soap.",
      funFact:"手 is in hundreds of expressions: jouzu (skillful = upper hand), heta (unskillful = lower hand), tegami (letter = hand-paper), tetsudau (help = hand-accompany). Japanese culture values 'te-shigoto' (handwork/craftsmanship) enormously."},
 
-    {type:"fb", s:"___をあらいましょう。",
+    {type:"fb", s:"{1}をあらいましょう。",
      a:["て"],
      opts:["て","あし","あたま","め"],
      hint:"The body part you wash frequently, especially before eating.",
@@ -104,7 +104,7 @@ const LESSON_5 = {
       {trg:"せなか", src:"back"}
     ]},
 
-    {type:"fb", s:"___がいたいです。くすりをのみましょう。",
+    {type:"fb", s:"{1}がいたいです。くすりをのみましょう。",
      a:["あたま"],
      opts:["あたま","て","あし","ゆび"],
      hint:"The body part associated with headaches, where you might take medicine.",

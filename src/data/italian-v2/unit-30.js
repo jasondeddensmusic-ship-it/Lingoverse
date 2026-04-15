@@ -1,4 +1,4 @@
-// Italian V2 Unit 30 — Il congiuntivo avanzato (B2.2)
+// Italian V2 Unit 30. Il congiuntivo avanzato (B2.2)
 import EXP_L4 from './_temp_u30_expand_L01.js';import EXP_L5 from './_temp_u30_expand_L02.js';import EXP_L6 from './_temp_u30_expand_L03.js';
 // CILS B2 aligned. Advanced subjunctive, hypothetical periods, concessive conjunctions.
 
@@ -36,7 +36,7 @@ const UNIT_30 = {
        funFact:"Italian pop music is full of 'se potessi' phrases. The hypothetical condition structure appears in countless song lyrics because it expresses longing, regret, and dreams, the emotional core of Italian music."},
 
       {type:"mc",
-       q:"Qual e la forma corretta: 'Se io ___ piu tempo, viaggerei'?",
+       q:"Qual e la forma corretta: 'Se io {1} piu tempo, viaggerei'?",
        opts:["avessi","avrei","avevo","ho"],
        ans:"avessi",
        hint:"After 'se' in a hypothetical condition (type 2), Italian requires the imperfect subjunctive, not the conditional or indicative."},
@@ -90,7 +90,7 @@ const UNIT_30 = {
        note:"Essere is completely irregular. Avere and potere follow the regular -ERE pattern (-essi, -essi, -esse, -essimo, -este, -essero)."},
 
       {type:"mc",
-       q:"'Pensavo che Maria ___ a Parigi.' Quale forma e corretta?",
+       q:"'Pensavo che Maria {1} a Parigi.' Quale forma e corretta?",
        opts:["era","fosse","e","sia"],
        ans:"fosse",
        hint:"The main verb 'pensavo' is past tense, so the subjunctive clause needs the imperfect subjunctive of 'essere,' not the indicative."},
@@ -146,7 +146,7 @@ const UNIT_30 = {
        funFact:"'Con il senno di poi' (with the wisdom of afterwards) is Italy's equivalent of 'hindsight is 20/20.' The condizionale passato is the tense of regret, used for all the roads not taken."},
 
       {type:"mc",
-       q:"'Se ___ studiato di piu, avrei superato l'esame.' Quale forma e corretta?",
+       q:"'Se {1} studiato di piu, avrei superato l'esame.' Quale forma e corretta?",
        opts:["avessi","avrei","avevo","ho"],
        ans:"avessi",
        hint:"This is a type 3 hypothetical about the past. The 'se' clause requires the congiuntivo trapassato: imperfect subjunctive of the auxiliary plus the past participle."},
@@ -260,7 +260,7 @@ const UNIT_30 = {
        funFact:"'Prima che' always takes the subjunctive because it refers to an event that has not yet occurred (and might not). 'Dopo che' (after), by contrast, takes the indicative because the event has already happened. Logic drives the grammar."},
 
       {type:"mc",
-       q:"'Verra alla festa, a meno che non ___ troppo stanco.' Quale forma e corretta?",
+       q:"'Verra alla festa, a meno che non {1} troppo stanco.' Quale forma e corretta?",
        opts:["e","sia","sara","sta"],
        ans:"sia",
        hint:"After 'a meno che non,' Italian requires the present subjunctive. The present subjunctive of 'essere' for lui/lei is needed here."},

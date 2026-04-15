@@ -1,4 +1,4 @@
-// Unit 05 Expansion L04 — Ordering at a Restaurant
+// Unit 05 Expansion L04. Ordering at a Restaurant
 const LESSON_4 = {
   id:"jav2_u5l4", title:"レストランで", icon:"🍽️", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_4 = {
      exampleSrc:"A: Bon appetit!\nB: Bon appetit! Please eat.",
      funFact:"Itadakimasu (from itadaku, to humbly receive) thanks everyone involved: the cook, the farmer, and the life of the animal or plant. It is said with hands pressed together. Not saying it before eating is considered very rude."},
 
-    {type:"fb", s:"たべるまえに、___と言います。",
+    {type:"fb", s:"たべるまえに、{1}と言います。",
      a:["いただきます"],
      opts:["いただきます","ごちそうさま","おいしい","ありがとう"],
      hint:"The phrase said before every meal, hands pressed together, giving thanks.",
@@ -104,7 +104,7 @@ const LESSON_4 = {
       {trg:"おかんじょう", src:"The bill"}
     ]},
 
-    {type:"fb", s:"___をおねがいします。(The bill, please.)",
+    {type:"fb", s:"{1}をおねがいします。(The bill, please.)",
      a:["おかんじょう"],
      opts:["おかんじょう","おかわり","メニュー","おすすめ"],
      hint:"The polite word for the restaurant bill or check.",

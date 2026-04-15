@@ -1,4 +1,4 @@
-// Unit 17 Expansion — Lesson 5: うけみとニュース (Passive in News and Reporting)
+// Unit 17 Expansion. Lesson 5: うけみとニュース (Passive in News and Reporting)
 const LESSON_5 = {
   id:"jav2_u17l5", title:"うけみとニュース", icon:"📰", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_5 = {
      exampleSrc:"A: An accident was reported on TV.\nB: Where did it happen?",
      funFact:"伝えられる is the news reporter's passive. The kanji 伝 means 'transmit/convey' and appears in 伝統 (tradition, literally 'transmitted customs') and 伝説 (legend, 'transmitted story'). News anchors use つたえられている (is being reported) for developing stories."},
 
-    {type:"fb", s:"あたらしいビルが___います。\n(A new building is being built.)", a:"たてられて", opts:["たてられて","たてて","たって","たてさせて"], sSrc:"A new building is being built.",
+    {type:"fb", s:"あたらしいビルが{1}います。\n(A new building is being built.)", a:"たてられて", opts:["たてられて","たてて","たって","たてさせて"], sSrc:"A new building is being built.",
      hint:"The passive て-form of たてる (to build). Group 2 passive: stem + られる."},
 
     {type:"teach", trg:"かんせいする", src:"to be completed / to finish (construction)", pos:"verb", gender:null,
@@ -76,7 +76,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"はっぴょうされる",src:"to be announced"},{trg:"たてられる",src:"to be built"},{trg:"ひらかれる",src:"to be held"},{trg:"みつけられる",src:"to be discovered"}]},
 
-    {type:"fb", s:"そつぎょうしきが___ました。\n(The graduation ceremony was held.)", a:"おこなわれ", opts:["おこなわれ","おこなって","おこない","おこなえ"], sSrc:"The graduation ceremony was held.",
+    {type:"fb", s:"そつぎょうしきが{1}ました。\n(The graduation ceremony was held.)", a:"おこなわれ", opts:["おこなわれ","おこなって","おこない","おこなえ"], sSrc:"The graduation ceremony was held.",
      hint:"The formal passive of おこなう (to carry out). Group 1: あ-row + れる."},
 
     {type:"match", pairs:[{trg:"つたえられる",src:"to be reported"},{trg:"おこなわれる",src:"to be carried out"},{trg:"けいかく",src:"plan"},{trg:"かんせいする",src:"to be completed"}]},

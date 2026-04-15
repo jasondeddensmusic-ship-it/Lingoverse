@@ -1,4 +1,4 @@
-// Unit 30 Expansion — Lesson 6: Il congiuntivo trapassato e il passato
+// Unit 30 Expansion. Lesson 6: Il congiuntivo trapassato e il passato
 const LESSON_6 = {
   id:"itv2_u30l6", title:"Il congiuntivo trapassato", icon:"⏳", xp:15, board:true,
   steps:[
@@ -35,7 +35,7 @@ const LESSON_6 = {
      funFact:"'Prima che' always takes the subjunctive, whether in present or past contexts. The logic is the same: at the moment of the main action, the subordinate event has not yet happened. This 'not yet' quality is what the subjunctive captures perfectly."},
 
     {type:"mc",
-     q:"'Magari ___ venuto alla festa!' Quale forma esprime il rimpianto?",
+     q:"'Magari {1} venuto alla festa!' Quale forma esprime il rimpianto?",
      opts:["fossi","sono","ero","saro"],
      ans:"fossi",
      hint:"A wish about the past that can never be fulfilled. 'Magari' plus the past subjunctive of essere (with past participle) expresses irreversible regret."},

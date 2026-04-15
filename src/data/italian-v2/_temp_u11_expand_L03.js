@@ -1,4 +1,4 @@
-// Italian V2 Unit 11 Expansion — Lesson 6: Raccontare una storia (Telling a Story)
+// Italian V2 Unit 11 Expansion. Lesson 6: Raccontare una storia (Telling a Story)
 // Expands past tense unit with storytelling practice combining past tense + time expressions.
 
 const LESSON_6 = {id:"itv2_u11l6", title:"Raccontare una storia", icon:"\uD83D\uDCD6", xp:15, board:true, steps:[

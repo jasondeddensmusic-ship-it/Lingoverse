@@ -1,6 +1,6 @@
-// Japanese V2 Unit 26 — ニュース (News & Media)
+// Japanese V2 Unit 26. ニュース (News & Media)
 import EXP_L3 from './_temp_u26_expand_L01.js';import EXP_L4 from './_temp_u26_expand_L02.js';import EXP_L5 from './_temp_u26_expand_L03.js';
-// Level: B2.1 — JLPT N2 aligned.
+// Level: B2.1. JLPT N2 aligned.
 // ほうどう, きじ, とくしゅう, しゃせつ, せいさく, こっかい, formal expressions.
 
 const UNIT_26 = {
@@ -48,7 +48,7 @@ const UNIT_26 = {
    exampleSrc:"A: A major incident occurred last night.\nB: Are there any injuries?",
    funFact:"事件 is the standard news word for incidents, especially negative ones. It contrasts with 事故 (jiko, accident, unintentional). A car crash is じこ, a robbery is じけん. The famous phrase 事件は会議室で起きてるんじゃない (the incident is not happening in the meeting room) comes from a popular police drama."},
 
-  {type:"fb", s:"こんげつのざっしにかんきょうもんだいの___があります。\n(This month's magazine has a special feature on environmental issues.)", a:"とくしゅう", opts:["とくしゅう","しゃせつ","きじ","ほうどう"], sSrc:"This month's magazine has a special feature on environmental issues.",
+  {type:"fb", s:"こんげつのざっしにかんきょうもんだいの{1}があります。\n(This month's magazine has a special feature on environmental issues.)", a:"とくしゅう", opts:["とくしゅう","しゃせつ","きじ","ほうどう"], sSrc:"This month's magazine has a special feature on environmental issues.",
    hint:"The media term for a dedicated, in-depth coverage of a single topic."},
 
   {type:"teach", trg:"ざっし", src:"magazine", pos:"noun", gender:null,
@@ -62,7 +62,7 @@ const UNIT_26 = {
 
   {type:"match", pairs:[{trg:"ほうどう",src:"news reporting"},{trg:"きじ",src:"article"},{trg:"とくしゅう",src:"special feature"},{trg:"しゃせつ",src:"editorial"}]},
 
-  {type:"fb", s:"このじけんについての___をみましたか？\n(Did you see the reporting on this incident?)", a:"ほうどう", opts:["ほうどう","きじ","しゃせつ","とくしゅう"], sSrc:"Did you see the reporting on this incident?",
+  {type:"fb", s:"このじけんについての{1}をみましたか？\n(Did you see the reporting on this incident?)", a:"ほうどう", opts:["ほうどう","きじ","しゃせつ","とくしゅう"], sSrc:"Did you see the reporting on this incident?",
    hint:"The general term for news coverage or reporting on a topic."},
 
   {type:"match", pairs:[{trg:"じけん",src:"incident"},{trg:"ざっし",src:"magazine"},{trg:"ほうどう",src:"coverage"},{trg:"きじ",src:"article"}]},
@@ -107,7 +107,7 @@ const UNIT_26 = {
    exampleSrc:"A: The prime minister held a press conference.\nB: What did he talk about?",
    funFact:"記者会見 literally means 'journalist meeting.' Japanese press conferences follow strict protocols. Reporters often ask pre-arranged questions. The 記者クラブ system means only club members attend official government conferences. This has been called one of the most closed press systems among democracies."},
 
-  {type:"fb", s:"せいふはあたらしいかんきょう___をはっぴょうしました。\n(The government announced a new environmental policy.)", a:"せいさく", opts:["せいさく","ほうあん","ほうどう","きじ"], sSrc:"The government announced a new environmental policy.",
+  {type:"fb", s:"せいふはあたらしいかんきょう{1}をはっぴょうしました。\n(The government announced a new environmental policy.)", a:"せいさく", opts:["せいさく","ほうあん","ほうどう","きじ"], sSrc:"The government announced a new environmental policy.",
    hint:"The noun for a government's plan or strategy on a particular issue."},
 
   {type:"teach", trg:"さんせい", src:"agreement / approval / being in favor", pos:"noun", gender:null,
@@ -121,7 +121,7 @@ const UNIT_26 = {
 
   {type:"match", pairs:[{trg:"せいさく",src:"policy"},{trg:"こっかい",src:"parliament"},{trg:"はっぴょう",src:"announcement"},{trg:"ほうあん",src:"bill (legislative)"}]},
 
-  {type:"fb", s:"しゅしょうが___をひらきました。\n(The prime minister held a press conference.)", a:"きしゃかいけん", opts:["きしゃかいけん","はっぴょう","こっかい","ほうどう"], sSrc:"The prime minister held a press conference.",
+  {type:"fb", s:"しゅしょうが{1}をひらきました。\n(The prime minister held a press conference.)", a:"きしゃかいけん", opts:["きしゃかいけん","はっぴょう","こっかい","ほうどう"], sSrc:"The prime minister held a press conference.",
    hint:"The compound noun for a formal event where officials answer journalists' questions."},
 
   {type:"match", pairs:[{trg:"きしゃかいけん",src:"press conference"},{trg:"さんせい",src:"agreement"},{trg:"じけん",src:"incident"},{trg:"せいさく",src:"policy"}]},

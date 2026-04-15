@@ -1,4 +1,4 @@
-// Unit 26 Expansion — Lesson 4: Il sistema giudiziario
+// Unit 26 Expansion. Lesson 4: Il sistema giudiziario
 const LESSON_4 = {
   id:"itv2_u26l4", title:"Il sistema giudiziario", icon:"🏛️", xp:15, board:true,
   steps:[

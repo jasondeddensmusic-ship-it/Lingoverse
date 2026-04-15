@@ -1,4 +1,4 @@
-// Unit 18 Expansion — Lesson 4: Climate Action
+// Unit 18 Expansion. Lesson 4: Climate Action
 const LESSON_4 = {
   id:"itv2_u18l4", title:"Azioni per il clima", icon:"🌱", xp:15, board:true,
   steps:[

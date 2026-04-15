@@ -1,4 +1,4 @@
-// Unit 20 Expansion — Lesson 3: でんわのけいご (Keigo on the Phone)
+// Unit 20 Expansion. Lesson 3: でんわのけいご (Keigo on the Phone)
 const LESSON_3 = {
   id:"jav2_u20l3", title:"でんわのけいご", icon:"📞", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_3 = {
      exampleSrc:"A: May I leave a message?\nB: Yes, please go ahead.",
      funFact:"伝言 combines 伝 (convey) and 言 (word). Leaving messages (dengon) is still common in Japanese offices despite email. The phrase おねがいできますか (could I ask?) is more polite than おねがいします because it frames the request as a question, giving the listener the option to decline."},
 
-    {type:"fb", s:"あいにく___をはずしております。\n(Unfortunately, they are away from their seat.)", a:"せき", opts:["せき","かいぎ","でんわ","おきゃく"], sSrc:"Unfortunately, they are away from their seat.",
+    {type:"fb", s:"あいにく{1}をはずしております。\n(Unfortunately, they are away from their seat.)", a:"せき", opts:["せき","かいぎ","でんわ","おきゃく"], sSrc:"Unfortunately, they are away from their seat.",
      hint:"The word for 'seat' or 'desk' in the set phrase meaning someone has stepped away."},
 
     {type:"teach", trg:"おりかえし", src:"returning (a call) / callback", pos:"noun", gender:null,
@@ -76,7 +76,7 @@ const LESSON_3 = {
 
     {type:"match", pairs:[{trg:"おでんわありがとうございます",src:"thank you for calling"},{trg:"おせわになっております",src:"thank you for your support"},{trg:"しょうしょうおまちください",src:"please wait a moment"},{trg:"おつなぎします",src:"I will transfer you"}]},
 
-    {type:"fb", s:"もどりましたら___れんらくいたします。\n(I will have them call you back when they return.)", a:"おりかえし", opts:["おりかえし","おでんわ","でんごん","おへんじ"], sSrc:"I will have them call you back when they return.",
+    {type:"fb", s:"もどりましたら{1}れんらくいたします。\n(I will have them call you back when they return.)", a:"おりかえし", opts:["おりかえし","おでんわ","でんごん","おへんじ"], sSrc:"I will have them call you back when they return.",
      hint:"The word meaning 'callback' or 'returning (a call).' Literally: fold back."},
 
     {type:"match", pairs:[{trg:"あいにく",src:"unfortunately"},{trg:"せきをはずす",src:"to be away from seat"},{trg:"でんごん",src:"message"},{trg:"おりかえし",src:"callback"}]},

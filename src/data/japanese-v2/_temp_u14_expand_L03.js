@@ -1,4 +1,4 @@
-// Unit 14 Expansion L5 — Debates and Strong Opinions
+// Unit 14 Expansion L5. Debates and Strong Opinions
 // Expressing strong views, making arguments, persuading.
 
 const LESSON_5 = {id:"jav2_u14l5", title:"つよいいけん", icon:"🗣️", xp:15, board:true, steps:[
@@ -45,7 +45,7 @@ const LESSON_5 = {id:"jav2_u14l5", title:"つよいいけん", icon:"🗣️", x
    exampleSrc:"A: How is life in Japan?\nB: Overall, I think it is very good.",
    funFact:"ぜんたいてきに is the go-to phrase for giving balanced overall assessments. The てきに suffix turns many nouns into adverbs: きほんてきに (basically), こじんてきに (personally), いっぱんてきに (generally). Learning this suffix pattern expands your vocabulary rapidly."},
 
-  {type:"fb", s:"あしたまでにレポートをかか___なりません。\n(I must write the report by tomorrow.)", a:"なければ", opts:["なければ","なくて","ないで","なかった"], sSrc:"I must write the report by tomorrow.",
+  {type:"fb", s:"あしたまでにレポートをかか{1}なりません。\n(I must write the report by tomorrow.)", a:"なければ", opts:["なければ","なくて","ないで","なかった"], sSrc:"I must write the report by tomorrow.",
    hint:"The conditional form of ない that combines with ならない to mean 'must.'"},
 
   {type:"teach", trg:"こじんてきに", src:"personally / in my personal opinion", pos:"adv", gender:null,
@@ -75,7 +75,7 @@ const LESSON_5 = {id:"jav2_u14l5", title:"つよいいけん", icon:"🗣️", x
    exampleSrc:"A: I gotta go now.\nB: What, already? Stay a bit longer.",
    funFact:"なきゃ is the ultra-casual form of なければならない. Most Japanese people never say the full form in daily speech. いかなきゃ (gotta go), やらなきゃ (gotta do it), ねなきゃ (gotta sleep) are heard constantly. Manga and anime use this form almost exclusively."},
 
-  {type:"fb", s:"___、ラーメンがすきです。\n(I especially like ramen.)", a:"とくに", opts:["とくに","たしかに","もちろん","ぜったい"], sSrc:"I especially like ramen.",
+  {type:"fb", s:"{1}、ラーメンがすきです。\n(I especially like ramen.)", a:"とくに", opts:["とくに","たしかに","もちろん","ぜったい"], sSrc:"I especially like ramen.",
    hint:"The adverb meaning 'especially' that highlights one specific thing."},
 
   {type:"match", pairs:[{trg:"のに",src:"although (frustrated)"},{trg:"けど",src:"but (neutral)"},{trg:"なければならない",src:"must do"},{trg:"べき",src:"should / ought to"}]},
@@ -85,7 +85,7 @@ const LESSON_5 = {id:"jav2_u14l5", title:"つよいいけん", icon:"🗣️", x
   {type:"mc", q:"こじんてきに is used to:", opts:["State a fact","Disagree strongly","Preface a personal opinion","Ask a question"], ans:"Preface a personal opinion",
    hint:"This adverb signals that what follows is your p... view, not universal truth."},
 
-  {type:"fb", s:"かんきょうのことをかんがえる___だとおもいます。\n(I think we should think about the environment.)", a:"べき", opts:["べき","ほう","つもり","こと"], sSrc:"I think we should think about the environment.",
+  {type:"fb", s:"かんきょうのことをかんがえる{1}だとおもいます。\n(I think we should think about the environment.)", a:"べき", opts:["べき","ほう","つもり","こと"], sSrc:"I think we should think about the environment.",
    hint:"The pattern expressing moral or logical obligation, stronger than 'better to.'"},
 
   {type:"tip", title:"Building Strong Arguments",

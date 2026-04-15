@@ -1,4 +1,4 @@
-// Italian V2 Unit 08 Expansion — Lesson 4: Contrattare e restituire (Haggling & Returns)
+// Italian V2 Unit 08 Expansion. Lesson 4: Contrattare e restituire (Haggling & Returns)
 // Expands shopping unit with bargaining, returns, exchanges.
 
 const LESSON_4 = {id:"itv2_u8l4", title:"Contrattare e restituire", icon:"\uD83E\uDD1D", xp:15, board:true, steps:[

@@ -1,4 +1,4 @@
-// Unit 03 Expansion L06 — Clothes & What Are You Wearing?
+// Unit 03 Expansion L06. Clothes & What Are You Wearing?
 const LESSON_6 = {
   id:"jav2_u3l6", title:"ふく", icon:"👕", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_6 = {
      exampleSrc:"A: It's cold. Let's wear coats.\nB: Yes, let's do that.",
      funFact:"Japan's fashion industry in Tokyo rivals Paris, Milan, and New York. Harajuku street fashion is world-famous for creative layering and bold coat choices. Japanese brands like Uniqlo revolutionized affordable, high-quality outerwear."},
 
-    {type:"fb", s:"いえにはいるとき、___をぬぎます。",
+    {type:"fb", s:"いえにはいるとき、{1}をぬぎます。",
      a:["くつ"],
      opts:["くつ","ぼうし","コート","くつした"],
      hint:"The footwear item you must remove before entering a Japanese home.",
@@ -110,7 +110,7 @@ const LESSON_6 = {
       {trg:"ぬぐ", src:"take off"}
     ]},
 
-    {type:"fb", s:"ぼうしを___ましょう。",
+    {type:"fb", s:"ぼうしを{1}ましょう。",
      a:["かぶり"],
      opts:["かぶり","はき","き","かけ"],
      hint:"The specific 'wear' verb for items placed on your head.",

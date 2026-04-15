@@ -1,4 +1,4 @@
-// Unit 27 Expansion — Lesson 4: Sustainability
+// Unit 27 Expansion. Lesson 4: Sustainability
 const LESSON_4 = {
   id:"jav2_u27l4", title:"じぞくかのうせい", icon:"♻️", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_4 = {
      exampleSrc:"A: There are many endangered species in Japan.\nB: The crested ibis and Iriomote cat are famous.",
      funFact:"絶滅危惧種 is a four-part compound: 絶滅 (extinction) + 危惧 (apprehension) + 種 (species). Japan's most famous conservation success is the トキ (crested ibis). Once extinct in Japan, birds from China were bred in captivity and reintroduced. The トキ recovery program is a national symbol of conservation hope."},
 
-    {type:"fb", s:"せいぶつ___のほぜんがじゅうようです。\n(Conservation of biodiversity is important.)", a:"たようせい", opts:["たようせい","せいたいけい","かんきょう","じぞくかのう"], sSrc:"Conservation of biodiversity is important.",
+    {type:"fb", s:"せいぶつ{1}のほぜんがじゅうようです。\n(Conservation of biodiversity is important.)", a:"たようせい", opts:["たようせい","せいたいけい","かんきょう","じぞくかのう"], sSrc:"Conservation of biodiversity is important.",
      hint:"The noun meaning variety and range of different types, applied to living things."},
 
     {type:"teach", trg:"はいき", src:"waste / discarding", pos:"noun", gender:null,
@@ -63,7 +63,7 @@ const LESSON_4 = {
      exampleSrc:"A: Companies tackling environmental issues are increasing.\nB: Consumer awareness is also changing.",
      funFact:"取り組む literally means 'to grab and engage.' It comes from sumo wrestling: 取組 (torikumi) is a sumo bout where wrestlers grapple. The metaphor of wrestling with a problem is vivid. In business and policy language, とりくみ (initiatives/efforts) appears constantly: 環境への取り組み (environmental initiatives)."},
 
-    {type:"fb", s:"かんきょうもんだいに___きぎょうがふえています。\n(Companies tackling environmental issues are increasing.)", a:"とりくむ", opts:["とりくむ","さくげんする","ほぜんする","はいきする"], sSrc:"Companies tackling environmental issues are increasing.",
+    {type:"fb", s:"かんきょうもんだいに{1}きぎょうがふえています。\n(Companies tackling environmental issues are increasing.)", a:"とりくむ", opts:["とりくむ","さくげんする","ほぜんする","はいきする"], sSrc:"Companies tackling environmental issues are increasing.",
      hint:"The verb meaning to grapple with or actively engage a problem, from sumo wrestling."},
 
     {type:"teach", trg:"しょうひしゃ", src:"consumer", pos:"noun", gender:null,

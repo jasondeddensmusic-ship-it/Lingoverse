@@ -1,4 +1,4 @@
-// Unit 06 Expansion — Lesson 4: City Services & Buildings
+// Unit 06 Expansion. Lesson 4: City Services & Buildings
 // Theme: Post office, bank, police, government buildings, services
 
 const LESSON_4 = {

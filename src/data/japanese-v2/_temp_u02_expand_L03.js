@@ -1,4 +1,4 @@
-// Unit 02 Expansion L05 — Age, Birthday & Personal Details
+// Unit 02 Expansion L05. Age, Birthday & Personal Details
 const LESSON_5 = {
   id:"jav2_u2l5", title:"ねんれいとたんじょうび", icon:"🎂", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_5 = {
      exampleSrc:"A: May has Golden Week.\nB: Are you going somewhere?",
      funFact:"Golden Week (late April to early May) strings together several national holidays. Everyone travels simultaneously, making trains, airports, and tourist spots incredibly crowded. Prices spike and hotels sell out months in advance."},
 
-    {type:"fb", s:"わたしの___はろくがつです。",
+    {type:"fb", s:"わたしの{1}はろくがつです。",
      a:["たんじょうび"],
      opts:["たんじょうび","なまえ","しゅみ","しごと"],
      hint:"The compound word for the annual celebration of when you were born.",
@@ -104,7 +104,7 @@ const LESSON_5 = {
       {trg:"ついたち", src:"1st of the month"}
     ]},
 
-    {type:"fb", s:"わたしは にじゅう___です。",
+    {type:"fb", s:"わたしは にじゅう{1}です。",
      a:["さい"],
      opts:["さい","にん","にち","ねん"],
      hint:"The counter specifically for a person's age.",

@@ -1,4 +1,4 @@
-// Unit 19 Expansion — Lesson 3: たらのせかい (The World of たら)
+// Unit 19 Expansion. Lesson 3: たらのせかい (The World of たら)
 const LESSON_3 = {
   id:"jav2_u19l3", title:"たらのせかい", icon:"🌧️", xp:15, board:true,
   steps:[
@@ -45,7 +45,7 @@ const LESSON_3 = {
      exampleSrc:"A: When I turned on the TV, an interesting show was on.\nB: What show was it?",
      funFact:"つけたら + discovery is a daily pattern. Turning on the TV and discovering something interesting, turning on the light and seeing something unexpected. This sequential discovery sense of たら makes Japanese storytelling feel like a chain of small reveals, each one uncovered by the previous action."},
 
-    {type:"fb", s:"もっとじかんがあっ___いいのに。\n(I wish I had more time.)", a:"たら", opts:["たら","と","ば","なら"], sSrc:"I wish I had more time.",
+    {type:"fb", s:"もっとじかんがあっ{1}いいのに。\n(I wish I had more time.)", a:"たら", opts:["たら","と","ば","なら"], sSrc:"I wish I had more time.",
      hint:"The conditional used with いいのに to express unfulfilled wishes. The most versatile one."},
 
     {type:"teach", trg:"みつけたら", src:"if/when you find", pos:"verb", gender:null,
@@ -69,7 +69,7 @@ const LESSON_3 = {
      exampleSrc:"A: I will try looking for a new job.\nB: I am cheering you on!",
      funFact:"てみる (to try doing) is one of the most useful verb combinations. It turns any action into a tentative attempt: たべてみる (try eating), きいてみる (try asking), いってみる (try going). The combination with さがす creates 'I will give searching a try,' which sounds less committed and more natural than a firm declaration."},
 
-    {type:"fb", s:"いいレストランをみつけ___おしえてください。\n(If you find a good restaurant, please tell me.)", a:"たら", opts:["たら","と","ば","なら"], sSrc:"If you find a good restaurant, please tell me.",
+    {type:"fb", s:"いいレストランをみつけ{1}おしえてください。\n(If you find a good restaurant, please tell me.)", a:"たら", opts:["たら","と","ば","なら"], sSrc:"If you find a good restaurant, please tell me.",
      hint:"The conditional that works with requests and commands. The most flexible conditional."},
 
     {type:"tip", title:"Special Uses of たら",

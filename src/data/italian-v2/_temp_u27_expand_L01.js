@@ -1,4 +1,4 @@
-// Unit 27 Expansion — Lesson 4: La ricerca avanzata
+// Unit 27 Expansion. Lesson 4: La ricerca avanzata
 const LESSON_4 = {
   id:"itv2_u27l4", title:"La ricerca avanzata", icon:"🔎", xp:15, board:true,
   steps:[

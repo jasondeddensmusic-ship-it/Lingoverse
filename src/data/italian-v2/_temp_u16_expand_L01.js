@@ -1,4 +1,4 @@
-// Unit 16 Expansion — Lesson 4: Specialist Vocabulary
+// Unit 16 Expansion. Lesson 4: Specialist Vocabulary
 const LESSON_4 = {
   id:"itv2_u16l4", title:"Gli specialisti", icon:"🔬", xp:15, board:true,
   steps:[

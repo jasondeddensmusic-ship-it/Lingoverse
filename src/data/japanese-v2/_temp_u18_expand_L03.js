@@ -1,4 +1,4 @@
-// Unit 18 Expansion — Lesson 5: しえきうけみれんしゅう (Causative-Passive Extended Practice)
+// Unit 18 Expansion. Lesson 5: しえきうけみれんしゅう (Causative-Passive Extended Practice)
 const LESSON_5 = {
   id:"jav2_u18l5", title:"しえきうけみれんしゅう", icon:"🔄", xp:15, board:true,
   steps:[
@@ -45,7 +45,7 @@ const LESSON_5 = {
      exampleSrc:"A: I am made to clean every day.\nB: Do you dislike it?",
      funFact:"掃除させられる is a universal student experience in Japan. Japanese schools have no janitors for classrooms. Students clean their own school (souji no jikan, cleaning time) every day. While this builds responsibility, the causative-passive form captures the feeling of it being imposed. This system is admired worldwide as character-building."},
 
-    {type:"fb", s:"じぶんがわるくないのに___ました。\n(I was made to apologize even though it was not my fault.)", a:"あやまらされ", opts:["あやまらされ","あやまって","あやまり","あやまられ"], sSrc:"I was made to apologize even though it was not my fault.",
+    {type:"fb", s:"じぶんがわるくないのに{1}ました。\n(I was made to apologize even though it was not my fault.)", a:"あやまらされ", opts:["あやまらされ","あやまって","あやまり","あやまられ"], sSrc:"I was made to apologize even though it was not my fault.",
      hint:"The short causative-passive of あやまる (to apologize). Group 1: あ-row + される."},
 
     {type:"teach", trg:"ならわされる", src:"to be made to learn/practice (short form)", pos:"verb", gender:null,
@@ -70,7 +70,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"うたわされる",src:"be made to sing"},{trg:"あやまらされる",src:"be made to apologize"},{trg:"はしらされる",src:"be made to run"},{trg:"ならわされる",src:"be made to learn"}]},
 
-    {type:"fb", s:"がっこうでかんじをたくさん___ました。\n(I was made to memorize lots of kanji at school.)", a:"おぼえさせられ", opts:["おぼえさせられ","おぼえて","おぼえられ","おぼえさせて"], sSrc:"I was made to memorize lots of kanji at school.",
+    {type:"fb", s:"がっこうでかんじをたくさん{1}ました。\n(I was made to memorize lots of kanji at school.)", a:"おぼえさせられ", opts:["おぼえさせられ","おぼえて","おぼえられ","おぼえさせて"], sSrc:"I was made to memorize lots of kanji at school.",
      hint:"Full causative-passive of おぼえる (Group 2). Group 2 verbs must use させられる, not the short form."},
 
     {type:"match", pairs:[{trg:"おぼえさせられる",src:"be made to memorize"},{trg:"そうじさせられる",src:"be made to clean"},{trg:"くやしい",src:"frustrating"},{trg:"ぶかつ",src:"club activities"}]},

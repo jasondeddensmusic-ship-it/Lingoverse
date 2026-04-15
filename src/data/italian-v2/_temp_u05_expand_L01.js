@@ -1,4 +1,4 @@
-// Unit 05 Expansion — Lesson 4: Household Activities
+// Unit 05 Expansion. Lesson 4: Household Activities
 // Theme: Daily chores, household verbs, domestic life
 
 const LESSON_4 = {

@@ -1,4 +1,4 @@
-// Unit 26 Expansion — Lesson 3: Headline Grammar
+// Unit 26 Expansion. Lesson 3: Headline Grammar
 const LESSON_3 = {
   id:"jav2_u26l3", title:"みだしのぶんぽう", icon:"📋", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_3 = {
      exampleSrc:"A: Countermeasures are needed before the problem expands.\nB: I agree. Let us act quickly.",
      funFact:"拡大 uses 拡 (expand) and 大 (big). This word became ubiquitous during the COVID pandemic: かんせんかくだい (infection spread) appeared in every news broadcast. The opposite is しゅくしょう (縮小, reduction/contraction). Headlines often pair かくだい with a topic: ひがいかくだい, えんやすかくだい."},
 
-    {type:"fb", s:"たいふうによる___がかくだいしています。\n(Damage from the typhoon is spreading.)", a:"ひがい", opts:["ひがい","はんめい","たいほ","じけん"], sSrc:"Damage from the typhoon is spreading.",
+    {type:"fb", s:"たいふうによる{1}がかくだいしています。\n(Damage from the typhoon is spreading.)", a:"ひがい", opts:["ひがい","はんめい","たいほ","じけん"], sSrc:"Damage from the typhoon is spreading.",
      hint:"The noun for harm or damage suffered, often paired with a natural disaster."},
 
     {type:"teach", trg:"きんきゅう", src:"emergency / urgent", pos:"noun", gender:null,
@@ -63,7 +63,7 @@ const LESSON_3 = {
      exampleSrc:"A: A large typhoon has formed.\nB: Let us prepare for evacuation.",
      funFact:"発生 uses 発 (emit/start) and 生 (life/birth). In news, はっせい is the standard verb for the start of disasters, diseases, and incidents. Headlines abbreviate: たいふうはっせい (Typhoon Formed). The word implies something springing into existence, carrying a sense of sudden, sometimes dangerous, emergence."},
 
-    {type:"fb", s:"___です。おおきなじしんがはっせいしました。\n(Breaking news. A large earthquake has occurred.)", a:"そくほう", opts:["そくほう","きんきゅう","はんめい","ほうどう"], sSrc:"Breaking news. A large earthquake has occurred.",
+    {type:"fb", s:"{1}です。おおきなじしんがはっせいしました。\n(Breaking news. A large earthquake has occurred.)", a:"そくほう", opts:["そくほう","きんきゅう","はんめい","ほうどう"], sSrc:"Breaking news. A large earthquake has occurred.",
      hint:"The two-kanji compound meaning a fast report, used for immediate news flashes."},
 
     {type:"match", pairs:[{trg:"はんめい",src:"becoming clear"},{trg:"ようぎしゃ",src:"suspect"},{trg:"たいほ",src:"arrest"},{trg:"ひがい",src:"damage"}]},

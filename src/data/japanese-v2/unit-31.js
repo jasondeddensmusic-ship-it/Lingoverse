@@ -1,5 +1,5 @@
-// Japanese V2 Unit 31 — ほうりつ (Law & Legal System)
-// Level: B2.3 — JLPT N2/N1 aligned.
+// Japanese V2 Unit 31. ほうりつ (Law & Legal System)
+// Level: B2.3. JLPT N2/N1 aligned.
 // ほう, けんぽう, さいばん, べんごし, はんけつ, けんり, ぎむ.
 
 const UNIT_31 = {
@@ -77,6 +77,12 @@ const UNIT_31 = {
    hint:"The adjective meaning 'low,' describing something that is small in degree or level."},
 
   {type:"match", pairs:[{trg:"ほうりつ",src:"law"},{trg:"けんぽう",src:"constitution"},{trg:"はんざい",src:"crime"},{trg:"しこう",src:"enforcement"}]},
+
+  {type:"mc", q:"ほうりつをまもる means:", opts:["to break the law","to create a law","to obey the law","to study the law"], ans:"to obey the law",
+   hint:"まもる means 'to protect' or 'to follow,' so this phrase means acting in accordance with the rules."},
+
+  {type:"fb", s:"あたらしい{1}がこっかいでかけつされました。", a:"ほうりつ", opts:["ほうりつ","けんぽう","さいばん","はんざい"], sSrc:"A new law was passed in the National Diet.",
+   hint:"The general term for a rule enacted by parliament that citizens must follow."},
 ]},
 
 // ═══ L2: Court Proceedings & Justice ═══
@@ -157,6 +163,12 @@ const UNIT_31 = {
 
   {type:"mc", q:"Japan's criminal conviction rate is approximately:", opts:["50%","75%","Over 99%","90%"], ans:"Over 99%",
    hint:"Japanese prosecutors are extremely selective, only pursuing cases they are confident of winning."},
+
+  {type:"mc", q:"けいばつ means:", opts:["evidence","prosecution","verdict","punishment"], ans:"punishment",
+   hint:"The compound of two kanji both relating to penalties, including death by hanging and imprisonment."},
+
+  {type:"mc", q:"こくさいじょうやく means:", opts:["international treaty","international law","international trade","international court"], ans:"international treaty",
+   hint:"じょうやく is the word for a formal agreement between nations, requiring Diet ratification."},
 ]},
 
 ]};

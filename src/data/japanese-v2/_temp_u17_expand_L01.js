@@ -1,4 +1,4 @@
-// Unit 17 Expansion — Lesson 3: にちじょうのうけみ (Passive in Daily Life)
+// Unit 17 Expansion. Lesson 3: にちじょうのうけみ (Passive in Daily Life)
 const LESSON_3 = {
   id:"jav2_u17l3", title:"にちじょうのうけみ", icon:"🏠", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_3 = {
      exampleSrc:"A: I was late for the meeting.\nB: Are you okay?",
      funFact:"遅れる is distinct from おそい (slow). Being late in Japan carries more social weight than in many cultures. Trains that are even one minute late trigger apology announcements. Workers arriving late must apologize formally. The phrase おくれてすみません (sorry for being late) is used daily."},
 
-    {type:"fb", s:"ともだちにカラオケに___ました。\n(I was invited to karaoke by a friend.)", a:"さそわれ", opts:["さそわれ","さそって","さそい","さそう"], sSrc:"I was invited to karaoke by a friend.",
+    {type:"fb", s:"ともだちにカラオケに{1}ました。\n(I was invited to karaoke by a friend.)", a:"さそわれ", opts:["さそわれ","さそって","さそい","さそう"], sSrc:"I was invited to karaoke by a friend.",
      hint:"The passive form of さそう (to invite casually). Group 1: あ-row + れる."},
 
     {type:"teach", trg:"しつもんされる", src:"to be asked a question", pos:"verb", gender:null,
@@ -76,7 +76,7 @@ const LESSON_3 = {
 
     {type:"match", pairs:[{trg:"きかれる",src:"to be asked"},{trg:"いわれる",src:"to be told"},{trg:"とられる",src:"to have taken"},{trg:"みられる",src:"to be seen"}]},
 
-    {type:"fb", s:"まんいんでんしゃで___ました。\n(I was pushed on a packed train.)", a:"おされ", opts:["おされ","おして","おし","おさえ"], sSrc:"I was pushed on a packed train.",
+    {type:"fb", s:"まんいんでんしゃで{1}ました。\n(I was pushed on a packed train.)", a:"おされ", opts:["おされ","おして","おし","おさえ"], sSrc:"I was pushed on a packed train.",
      hint:"The passive form of おす (to push). Group 1: あ-row + れる."},
 
     {type:"match", pairs:[{trg:"おこられる",src:"to be scolded"},{trg:"さそわれる",src:"to be invited"},{trg:"しつもんされる",src:"to be asked a question"},{trg:"おされる",src:"to be pushed"}]},

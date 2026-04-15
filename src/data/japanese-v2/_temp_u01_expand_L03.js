@@ -1,4 +1,4 @@
-// Unit 01 Expansion L05 — Meeting People & Introductions
+// Unit 01 Expansion L05. Meeting People & Introductions
 const LESSON_5 = {
   id:"jav2_u1l5", title:"しょうかい", icon:"🤝", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_5 = {
      exampleSrc:"A: Please treat me well.\nB: Likewise, please treat me well.",
      funFact:"Kochira (this side/direction, meaning 'I/we') + koso (emphasis particle). It deflects the courtesy back: 'No, it is WE who should be saying that.' This back-and-forth of humility is a core feature of Japanese politeness."},
 
-    {type:"fb", s:"しょうかいのあと、___おねがいします。",
+    {type:"fb", s:"しょうかいのあと、{1}おねがいします。",
      a:["よろしく"],
      opts:["よろしく","ありがとう","すみません","さようなら"],
      hint:"The phrase that expresses hope for a good relationship, always used after introducing yourself.",
@@ -104,7 +104,7 @@ const LESSON_5 = {
       {trg:"りょこう", src:"travel"}
     ]},
 
-    {type:"fb", s:"おきゃく___、こちらへどうぞ。",
+    {type:"fb", s:"おきゃく{1}、こちらへどうぞ。",
      a:["さま"],
      opts:["さま","さん","くん","ちゃん"],
      hint:"The most respectful name suffix, used for customers and honored guests.",

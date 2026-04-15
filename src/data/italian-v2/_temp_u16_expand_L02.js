@@ -1,4 +1,4 @@
-// Unit 16 Expansion — Lesson 5: The Pharmacy and Mental Health
+// Unit 16 Expansion. Lesson 5: The Pharmacy and Mental Health
 const LESSON_5 = {
   id:"itv2_u16l5", title:"In farmacia e la salute mentale", icon:"💊", xp:15, board:true,
   steps:[

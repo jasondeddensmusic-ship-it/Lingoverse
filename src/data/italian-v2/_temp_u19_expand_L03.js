@@ -1,4 +1,4 @@
-// Unit 19 Expansion — Lesson 6: Verbi emotivi
+// Unit 19 Expansion. Lesson 6: Verbi emotivi
 const LESSON_6 = {
   id:"itv2_u19l6", title:"Verbi emotivi", icon:"🫀", xp:15, board:true,
   steps:[

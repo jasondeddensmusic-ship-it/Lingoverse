@@ -1,4 +1,4 @@
-// Unit 25 Expansion — Lesson 5: Il sistema bancario
+// Unit 25 Expansion. Lesson 5: Il sistema bancario
 const LESSON_5 = {
   id:"itv2_u25l5", title:"Il sistema bancario", icon:"🏦", xp:15, board:true,
   steps:[

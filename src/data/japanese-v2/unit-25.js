@@ -1,6 +1,6 @@
-// Japanese V2 Unit 25 — ビジネス (Business Japanese)
+// Japanese V2 Unit 25. ビジネス (Business Japanese)
 import EXP_L3 from './_temp_u25_expand_L01.js';import EXP_L4 from './_temp_u25_expand_L02.js';import EXP_L5 from './_temp_u25_expand_L03.js';
-// Level: B2.1 — JLPT N2 aligned.
+// Level: B2.1. JLPT N2 aligned.
 // かいぎ, しりょう, ていあん, ほうこく, けいやく, のうき, keigo in business.
 
 const UNIT_25 = {
@@ -53,7 +53,7 @@ const UNIT_25 = {
    exampleSrc:"A: Are you ready for tomorrow's presentation?\nB: Yes, both the materials and slides are complete.",
    funFact:"Japanese loves to shorten loanwords. プレゼンテーション becomes プレゼン, コンビニエンスストア becomes コンビニ, パーソナルコンピューター becomes パソコン. These abbreviations follow a pattern: keep 3-4 syllables from each component word. This shortening is so systematic it has a name: 略語 (ryakugo)."},
 
-  {type:"fb", s:"あたらしいプロジェクトの___をしたいのですが。\n(I would like to make a proposal for a new project.)", a:"ていあん", opts:["ていあん","ほうこく","しりょう","かいぎ"], sSrc:"I would like to make a proposal for a new project.",
+  {type:"fb", s:"あたらしいプロジェクトの{1}をしたいのですが。\n(I would like to make a proposal for a new project.)", a:"ていあん", opts:["ていあん","ほうこく","しりょう","かいぎ"], sSrc:"I would like to make a proposal for a new project.",
    hint:"The business noun meaning a formal suggestion or plan submitted for consideration."},
 
   {type:"teach", trg:"ていしゅつ", src:"submission", pos:"noun", gender:null,
@@ -67,7 +67,7 @@ const UNIT_25 = {
 
   {type:"match", pairs:[{trg:"かいぎ",src:"meeting"},{trg:"しりょう",src:"materials"},{trg:"ていあん",src:"proposal"},{trg:"ほうこく",src:"report"}]},
 
-  {type:"fb", s:"しゅうかん___をていしゅつしてください。\n(Please submit the weekly report.)", a:"ほうこく", opts:["ほうこく","ていあん","しりょう","プレゼン"], sSrc:"Please submit the weekly report.",
+  {type:"fb", s:"しゅうかん{1}をていしゅつしてください。\n(Please submit the weekly report.)", a:"ほうこく", opts:["ほうこく","ていあん","しりょう","プレゼン"], sSrc:"Please submit the weekly report.",
    hint:"The business noun for a formal account of what has happened or been accomplished."},
 ]},
 
@@ -121,7 +121,7 @@ const UNIT_25 = {
    exampleSrc:"A: Did you get the department head's approval?\nB: Not yet. I plan to ask tomorrow.",
    funFact:"承認 uses 承 (accept/receive) and 認 (recognize). Japanese organizations often require multiple levels of しょうにん before anything proceeds. This approval culture is called 稟議 (ringi), where a proposal circulates through various managers who stamp it with their seal. It can be slow but ensures consensus."},
 
-  {type:"fb", s:"のうきは___までにおねがいします。\n(The delivery date is by the end of March, please.)", a:"さんがつまつ", opts:["さんがつまつ","かいぎ","ほうこく","ていあん"], sSrc:"The delivery date is by the end of March, please.",
+  {type:"fb", s:"のうきは{1}までにおねがいします。\n(The delivery date is by the end of March, please.)", a:"さんがつまつ", opts:["さんがつまつ","かいぎ","ほうこく","ていあん"], sSrc:"The delivery date is by the end of March, please.",
    hint:"The Japanese phrase for 'end of March,' combining the month with the word for end."},
 
   {type:"teach", trg:"さんがつまつ", src:"end of March", pos:"noun", gender:null,
@@ -135,7 +135,7 @@ const UNIT_25 = {
 
   {type:"match", pairs:[{trg:"けいやく",src:"contract"},{trg:"のうき",src:"delivery date"},{trg:"いたします",src:"will do (humble)"},{trg:"しょうにん",src:"approval"}]},
 
-  {type:"fb", s:"すぐにかくにん___。\n(I will confirm it right away.)", a:"いたします", opts:["いたします","します","なさいます","ください"], sSrc:"I will confirm it right away.",
+  {type:"fb", s:"すぐにかくにん{1}。\n(I will confirm it right away.)", a:"いたします", opts:["いたします","します","なさいます","ください"], sSrc:"I will confirm it right away.",
    hint:"The humble keigo form of します, used when your action serves the listener."},
 
   {type:"mc", q:"ほうむぶ means:", opts:["Sales department","Accounting department","Legal department","Human resources"], ans:"Legal department",

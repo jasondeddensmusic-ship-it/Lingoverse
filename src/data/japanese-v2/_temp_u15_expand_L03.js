@@ -1,4 +1,4 @@
-// Unit 15 Expansion L5 — Asking for Help & Polite Requests
+// Unit 15 Expansion L5. Asking for Help & Polite Requests
 // Polite direction requests, emergency phrases, helpful expressions.
 
 const LESSON_5 = {id:"jav2_u15l5", title:"おねがいとたすけ", icon:"🙏", xp:15, board:true, steps:[
@@ -45,7 +45,7 @@ const LESSON_5 = {id:"jav2_u15l5", title:"おねがいとたすけ", icon:"🙏"
    exampleSrc:"A: Could you please take me to the station?\nB: Yes, let us go together.",
    funFact:"つれていく is for taking people somewhere. For things, use もっていく (to take/bring). This distinction is important: ともだちをつれていく (take a friend), かばんをもっていく (take a bag). Using the wrong one sounds very unnatural."},
 
-  {type:"fb", s:"みちを___ていただけますか？\n(Could you please tell me the way?)", a:"おしえ", opts:["おしえ","おしえる","おしえた","おしえない"], sSrc:"Could you please tell me the way?",
+  {type:"fb", s:"みちを{1}ていただけますか？\n(Could you please tell me the way?)", a:"おしえ", opts:["おしえ","おしえる","おしえた","おしえない"], sSrc:"Could you please tell me the way?",
    hint:"Group 2 verb stem (drop る) + ていただけますか for a very polite request."},
 
   {type:"teach", trg:"こまる", src:"to be troubled / to be in difficulty", pos:"verb", gender:null,
@@ -75,7 +75,7 @@ const LESSON_5 = {id:"jav2_u15l5", title:"おねがいとたすけ", icon:"🙏"
    exampleSrc:"A: Are you okay?\nB: Yes, I am fine. Thank you.",
    funFact:"大丈夫 is one of the most versatile words in modern Japanese. It means 'okay/fine,' can decline offers (だいじょうぶです = no thank you), and asks about well-being (だいじょうぶ？ = you okay?). The kanji 大丈夫 originally meant 'great strong man,' implying reliability."},
 
-  {type:"fb", s:"___ていただけますか？\n(Could you help me?)", a:"たすけ", opts:["たすけ","たすける","たすけた","たすけない"], sSrc:"Could you help me?",
+  {type:"fb", s:"{1}ていただけますか？\n(Could you help me?)", a:"たすけ", opts:["たすけ","たすける","たすけた","たすけない"], sSrc:"Could you help me?",
    hint:"Group 2 verb stem (drop る) before the polite request pattern."},
 
   {type:"match", pairs:[{trg:"すみません",src:"excuse me"},{trg:"おしえる",src:"to tell/teach"},{trg:"みせる",src:"to show"},{trg:"つれていく",src:"to take someone"}]},
@@ -85,7 +85,7 @@ const LESSON_5 = {id:"jav2_u15l5", title:"おねがいとたすけ", icon:"🙏"
   {type:"mc", q:"こうばん is:", opts:["A train station","A convenience store","A local police box","A hospital"], ans:"A local police box",
    hint:"Small neighborhood p... posts found throughout Japan, great for asking directions."},
 
-  {type:"fb", s:"けいたいの___をみせてください。\n(Please show me the map on your phone.)", a:"ちず", opts:["ちず","でんわ","しゃしん","メール"], sSrc:"Please show me the map on your phone.",
+  {type:"fb", s:"けいたいの{1}をみせてください。\n(Please show me the map on your phone.)", a:"ちず", opts:["ちず","でんわ","しゃしん","メール"], sSrc:"Please show me the map on your phone.",
    hint:"The word for a diagram showing streets, landmarks, and locations."},
 
   {type:"tip", title:"Asking for Help in Japan",

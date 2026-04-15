@@ -1,4 +1,4 @@
-// Unit 29 Expansion — Lesson 3: Financial Terms
+// Unit 29 Expansion. Lesson 3: Financial Terms
 const LESSON_3 = {
   id:"jav2_u29l3", title:"きんゆうようご", icon:"🏦", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_3 = {
      exampleSrc:"A: Financial markets have become unstable.\nB: Investors are becoming cautious.",
      funFact:"金融 combines 金 (money) and 融 (melt/fuse). Money melting and flowing through the system. Japan's きんゆう system includes megabanks (三菱UFJ, 三井住友, みずほ), regional banks, credit unions, and securities firms. The 金融庁 (Financial Services Agency) oversees the entire system."},
 
-    {type:"fb", s:"にちぎんが___をひきあげました。\n(The Bank of Japan raised interest rates.)", a:"きんり", opts:["きんり","えんやす","ぶっか","かぶしき"], sSrc:"The Bank of Japan raised interest rates.",
+    {type:"fb", s:"にちぎんが{1}をひきあげました。\n(The Bank of Japan raised interest rates.)", a:"きんり", opts:["きんり","えんやす","ぶっか","かぶしき"], sSrc:"The Bank of Japan raised interest rates.",
      hint:"The noun for the percentage charged or earned on money, controlled by central banks."},
 
     {type:"teach", trg:"かわせ", src:"foreign exchange / currency exchange", pos:"noun", gender:null,
@@ -63,12 +63,12 @@ const LESSON_3 = {
      exampleSrc:"A: The global situation is unstable.\nB: Risks for investment are increasing.",
      funFact:"不安定 is the negation of 安定 (stable). 安 means peaceful/cheap and 定 means fixed. Something that is not peacefully fixed. In financial news, ふあんてい describes volatile markets, uncertain political situations, and unpredictable economic conditions. The related noun ふあん (anxiety/unease) captures the emotional side of instability."},
 
-    {type:"fb", s:"きんゆう___がふあんていになっています。\n(Financial markets have become unstable.)", a:"しじょう", opts:["しじょう","きかん","せいさく","きんり"], sSrc:"Financial markets have become unstable.",
+    {type:"fb", s:"きんゆう{1}がふあんていになっています。\n(Financial markets have become unstable.)", a:"しじょう", opts:["しじょう","きかん","せいさく","きんり"], sSrc:"Financial markets have become unstable.",
      hint:"The word for a marketplace of trading, read with the on-yomi for abstract markets."},
 
     {type:"match", pairs:[{trg:"きんり",src:"interest rate"},{trg:"にちぎん",src:"Bank of Japan"},{trg:"えんやす",src:"weak yen"},{trg:"えんだか",src:"strong yen"}]},
 
-    {type:"fb", s:"えんやすで___ひんのかかくがあがっています。\n(Import prices are rising due to the weak yen.)", a:"ゆにゅう", opts:["ゆにゅう","ゆしゅつ","きんゆう","かわせ"], sSrc:"Import prices are rising due to the weak yen.",
+    {type:"fb", s:"えんやすで{1}ひんのかかくがあがっています。\n(Import prices are rising due to the weak yen.)", a:"ゆにゅう", opts:["ゆにゅう","ゆしゅつ","きんゆう","かわせ"], sSrc:"Import prices are rising due to the weak yen.",
      hint:"The noun for bringing goods into the country from abroad."},
 
     {type:"match", pairs:[{trg:"きんゆう",src:"finance"},{trg:"かわせ",src:"foreign exchange"},{trg:"ローン",src:"loan"},{trg:"ふあんてい",src:"unstable"}]},

@@ -1,4 +1,4 @@
-// Unit 21 Expansion — Lesson 4: しゃかいもんだい (Social Issues)
+// Unit 21 Expansion. Lesson 4: しゃかいもんだい (Social Issues)
 const LESSON_4 = {
   id:"jav2_u21l4", title:"しゃかいもんだい", icon:"⚖️", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_4 = {
      exampleSrc:"A: What countermeasures exist for the aging population?\nB: Enhancing medical care and welfare.",
      funFact:"対策 literally means 'plan against.' Every major issue in Japan gets an official たいさく. There are COVID対策, disaster対策, crime対策, and even heat stroke対策. The word reflects the Japanese preference for systematic, planned responses to problems rather than ad hoc reactions."},
 
-    {type:"fb", s:"こどもの___がしゃかいもんだいになっています。\n(Child poverty has become a social issue.)", a:"ひんこん", opts:["ひんこん","はんざい","さべつ","きけん"], sSrc:"Child poverty has become a social issue.",
+    {type:"fb", s:"こどもの{1}がしゃかいもんだいになっています。\n(Child poverty has become a social issue.)", a:"ひんこん", opts:["ひんこん","はんざい","さべつ","きけん"], sSrc:"Child poverty has become a social issue.",
      hint:"The word for a state of being extremely poor and lacking basic necessities."},
 
     {type:"teach", trg:"けいさつ", src:"police", pos:"noun", gender:null,
@@ -79,7 +79,7 @@ const LESSON_4 = {
 
     {type:"match", pairs:[{trg:"さべつ",src:"discrimination"},{trg:"きけん",src:"danger"},{trg:"たいさく",src:"countermeasure"},{trg:"けいさつ",src:"police"}]},
 
-    {type:"fb", s:"はんざい___のためにカメラがせっちされています。\n(Cameras are installed for crime prevention.)", a:"ぼうし", opts:["ぼうし","ちょうさ","たいさく","あんぜん"], sSrc:"Cameras are installed for crime prevention.",
+    {type:"fb", s:"はんざい{1}のためにカメラがせっちされています。\n(Cameras are installed for crime prevention.)", a:"ぼうし", opts:["ぼうし","ちょうさ","たいさく","あんぜん"], sSrc:"Cameras are installed for crime prevention.",
      hint:"The word meaning 'prevention' that combines stopping and defending against something."},
 
     {type:"mc", q:"さべつ means:", opts:["safety","prevention","discrimination","investigation"], ans:"discrimination",

@@ -1,4 +1,4 @@
-// Unit 17 Expansion — Lesson 4: Social Media
+// Unit 17 Expansion. Lesson 4: Social Media
 const LESSON_4 = {
   id:"itv2_u17l4", title:"I social media", icon:"📲", xp:15, board:true,
   steps:[

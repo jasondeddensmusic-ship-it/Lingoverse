@@ -1,5 +1,5 @@
-// Japanese V2 Unit 04 — いくらですか (How much is it?)
-// Level: A1.1 — JLPT N5 aligned.
+// Japanese V2 Unit 04. いくらですか (How much is it?)
+// Level: A1.1. JLPT N5 aligned.
 import JEXP_04_L1 from './_temp_u04_expand_L01.js';import JEXP_04_L2 from './_temp_u04_expand_L02.js';import JEXP_04_L3 from './_temp_u04_expand_L03.js';import JEXP_04_L4 from './_temp_u04_expand_L04.js';
 // Shopping, colors, i-adj vs na-adj intro, numbers 100-10000, counters.
 
@@ -54,7 +54,7 @@ const UNIT_04 = {
    exampleSrc:"A: This phone is small, isn't it?\nB: But it is convenient!",
    funFact:"The kanji 小 looks like something being divided into small pieces. Shou/ko/chii = small appears in shougakkou (小学校, elementary school = small learning school) and kozutsumi (小包, small package)."},
 
-  {type:"fb", s:"これは___ですか？", a:"いくら", opts:["いくら","なん","だれ","どこ"], sSrc:"How much is this?",
+  {type:"fb", s:"これは{1}ですか？", a:"いくら", opts:["いくら","なん","だれ","どこ"], sSrc:"How much is this?",
    hint:"The question word specifically for asking about price."},
 
   {type:"teach", trg:"あか", src:"red", pos:"noun", gender:null,
@@ -100,7 +100,7 @@ const UNIT_04 = {
 
   {type:"match", pairs:[{trg:"みどり",src:"green"},{trg:"きいろ",src:"yellow"},{trg:"たかい",src:"expensive"},{trg:"やすい",src:"cheap"}]},
 
-  {type:"fb", s:"この かばんは ___い です。\n(This bag is expensive.)", a:"たか", opts:["たか","やす","おおき","ちいさ"], sSrc:"This bag is expensive.",
+  {type:"fb", s:"この かばんは {1}い です。\n(This bag is expensive.)", a:"たか", opts:["たか","やす","おおき","ちいさ"], sSrc:"This bag is expensive.",
    hint:"The i-adjective meaning expensive or high."},
 
   {type:"mc", q:"Which is the correct pair of opposites?", opts:["たかい / ちいさい","おおきい / やすい","たかい / やすい","あかい / あおい"], ans:"たかい / やすい",
@@ -174,7 +174,7 @@ const UNIT_04 = {
    exampleSrc:"A: Please give me this red umbrella.\nB: Yes, that is 300 yen.",
    funFact:"Kudasai literally means 'please lower/hand down to me.' It comes from kudasaru (to bestow from above). When shopping, you point and say 'kore wo kudasai' (this, please) and it works everywhere."},
 
-  {type:"fb", s:"ペンを さん___ ください。\n(Three pens, please.)", a:"ぼん", opts:["ぼん","こ","まい","えん"], sSrc:"Three pens, please.",
+  {type:"fb", s:"ペンを さん{1} ください。\n(Three pens, please.)", a:"ぼん", opts:["ぼん","こ","まい","えん"], sSrc:"Three pens, please.",
    hint:"The long-object counter with the sound change for the number three."},
 
   {type:"teach", trg:"さんびゃく", src:"three hundred (300)", pos:"num", gender:null,
@@ -192,7 +192,7 @@ const UNIT_04 = {
   {type:"mc", q:"いっぽん is the counter reading for:", opts:["One flat object","One small object","One long object","One yen"], ans:"One long object",
    hint:"Pon/bon/hon is the l...-o... counter. Ippon = one l... thing."},
 
-  {type:"fb", s:"この とけいは ___えん です。\n(This watch is 10,000 yen.)", a:"いちまん", opts:["いちまん","じゅう","ひゃく","せん"], sSrc:"This watch is 10,000 yen.",
+  {type:"fb", s:"この とけいは {1}えん です。\n(This watch is 10,000 yen.)", a:"いちまん", opts:["いちまん","じゅう","ひゃく","せん"], sSrc:"This watch is 10,000 yen.",
    hint:"The unit for ten thousand in Japanese."},
 
   {type:"match", pairs:[{trg:"ひゃく",src:"100"},{trg:"せん",src:"1,000"},{trg:"まん",src:"10,000"},{trg:"さんびゃく",src:"300"}]},
@@ -205,7 +205,7 @@ const UNIT_04 = {
   {type:"mc", q:"さんぜん means:", opts:["3,000","30,000","30","300"], ans:"3,000",
    hint:"Sen becomes zen after san. San + sen = sanzen."},
 
-  {type:"fb", s:"りんごを ___こ ください。\n(Five apples, please.)", a:"ご", opts:["ご","さん","に","ろっ"], sSrc:"Five apples, please.",
+  {type:"fb", s:"りんごを {1}こ ください。\n(Five apples, please.)", a:"ご", opts:["ご","さん","に","ろっ"], sSrc:"Five apples, please.",
    hint:"The number that comes before ko for five small items."},
 
   {type:"mc", q:"You want to buy 2 bottles of water. Which is correct?", opts:["みずをにまいください","みずをにほんください","みずをにこください","ふたつのみずをください"], ans:"みずをにほんください",

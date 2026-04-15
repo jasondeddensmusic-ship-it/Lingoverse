@@ -1,4 +1,4 @@
-// Unit 16 Expansion L4 — Appointments & Time Management
+// Unit 16 Expansion L4. Appointments & Time Management
 // Scheduling, time expressions, being on time.
 
 const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15, board:true, steps:[
@@ -45,7 +45,7 @@ const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15
    exampleSrc:"A: Did you make a restaurant reservation?\nB: Yes, I reserved for two at six.",
    funFact:"Reservations are taken very seriously in Japan. No-shows (ドタキャン, last-minute cancellation) are considered extremely rude and some restaurants charge cancellation fees. When making a reservation, you will be asked: なんめいさま (how many people), なんじ (what time), and おなまえ (your name)."},
 
-  {type:"fb", s:"きんようび___にレポートをだしてください。\n(Please submit the report by Friday.)", a:"まで", opts:["まで","ごろ","から","より"], sSrc:"Please submit the report by Friday.",
+  {type:"fb", s:"きんようび{1}にレポートをだしてください。\n(Please submit the report by Friday.)", a:"まで", opts:["まで","ごろ","から","より"], sSrc:"Please submit the report by Friday.",
    hint:"The particle marking a deadline that something must be completed before."},
 
   {type:"teach", trg:"キャンセルする", src:"to cancel", pos:"verb", gender:null,
@@ -75,7 +75,7 @@ const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15
    exampleSrc:"A: Will the meeting start on time?\nB: Yes, it will start at ten.",
    funFact:"時間通り reflects Japan's obsession with punctuality. Trains run 時間通り (on schedule), meetings start 時間通り, and deliveries arrive 時間通り. This reliability is a source of national pride. When something does not run on time, it is noteworthy enough to make the news."},
 
-  {type:"fb", s:"よやくを___したいんですが。\n(I would like to confirm my reservation.)", a:"かくにん", opts:["かくにん","キャンセル","よやく","へんこう"], sSrc:"I would like to confirm my reservation.",
+  {type:"fb", s:"よやくを{1}したいんですが。\n(I would like to confirm my reservation.)", a:"かくにん", opts:["かくにん","キャンセル","よやく","へんこう"], sSrc:"I would like to confirm my reservation.",
    hint:"The word meaning 'to verify/confirm' something is correct."},
 
   {type:"match", pairs:[{trg:"まちあわせ",src:"meeting up"},{trg:"ごろ",src:"around (time)"},{trg:"までに",src:"by (deadline)"},{trg:"おくれる",src:"be late"}]},
@@ -85,7 +85,7 @@ const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15
   {type:"mc", q:"までに vs まで: きんようびまでにだす means:", opts:["Submit on Friday","Submit until Friday","Submit by Friday (deadline)","Submit after Friday"], ans:"Submit by Friday (deadline)",
    hint:"までに marks a d... by which something must be completed."},
 
-  {type:"fb", s:"なんじ___につきますか？\n(Around what time will you arrive?)", a:"ごろ", opts:["ごろ","まで","から","ぐらい"], sSrc:"Around what time will you arrive?",
+  {type:"fb", s:"なんじ{1}につきますか？\n(Around what time will you arrive?)", a:"ごろ", opts:["ごろ","まで","から","ぐらい"], sSrc:"Around what time will you arrive?",
    hint:"The particle for approximate clock times, meaning 'around.'"},
 
   {type:"tip", title:"Scheduling Vocabulary",

@@ -1,4 +1,4 @@
-// Italian V2 Unit 08 Expansion — Lesson 5: Lo shopping online (Online Shopping)
+// Italian V2 Unit 08 Expansion. Lesson 5: Lo shopping online (Online Shopping)
 // Expands shopping unit with online shopping, delivery, and digital commerce.
 
 const LESSON_5 = {id:"itv2_u8l5", title:"Lo shopping online", icon:"\uD83D\uDCBB", xp:15, board:true, steps:[

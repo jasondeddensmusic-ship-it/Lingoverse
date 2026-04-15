@@ -1,4 +1,4 @@
-// Unit 12 Expansion L3 — Sports & Hobbies Abilities
+// Unit 12 Expansion L3. Sports & Hobbies Abilities
 // Potential form with sports, hobbies, and physical skills.
 
 const LESSON_3 = {id:"jav2_u12l3", title:"スポーツとしゅみ", icon:"⚽", xp:15, board:true, steps:[
@@ -45,7 +45,7 @@ const LESSON_3 = {id:"jav2_u12l3", title:"スポーツとしゅみ", icon:"⚽",
    exampleSrc:"A: I am bad at cooking, so I always eat out.\nB: If you practice, you will get good at it.",
    funFact:"へた is safe for describing yourself but can be offensive about others. For others, use あまりじょうずじゃない (not very skilled) or もうすこしれんしゅうがひつよう (needs a bit more practice). The kanji 下手 literally means 'lower hand,' opposite of 上手 (upper hand)."},
 
-  {type:"fb", s:"ピアノが___ますか？\n(Can you play piano?)", a:"ひけ", opts:["ひけ","ひき","ひいて","ひく"], sSrc:"Can you play piano?",
+  {type:"fb", s:"ピアノが{1}ますか？\n(Can you play piano?)", a:"ひけ", opts:["ひけ","ひき","ひいて","ひく"], sSrc:"Can you play piano?",
    hint:"Potential form of ひく. Change く (u-row) to け (e-row)."},
 
   {type:"teach", trg:"スキー", src:"skiing", pos:"noun", gender:null,
@@ -69,7 +69,7 @@ const LESSON_3 = {id:"jav2_u12l3", title:"スポーツとしゅみ", icon:"⚽",
    exampleSrc:"A: You are good at dancing. You can really dance.\nB: I have been learning since childhood.",
    funFact:"おどる covers all styles of dance. Traditional Japanese dance (にほんぶよう) is an art form requiring years of training. Bon-odori (Bon Festival dance) is a community event where anyone can join in. Modern dance culture thrives in Tokyo's clubs and studios."},
 
-  {type:"fb", s:"りょうりが___なので、れんしゅうしたいです。\n(I am bad at cooking, so I want to practice.)", a:"へた", opts:["へた","じょうず","すき","きらい"], sSrc:"I am bad at cooking, so I want to practice.",
+  {type:"fb", s:"りょうりが{1}なので、れんしゅうしたいです。\n(I am bad at cooking, so I want to practice.)", a:"へた", opts:["へた","じょうず","すき","きらい"], sSrc:"I am bad at cooking, so I want to practice.",
    hint:"The な-adjective meaning 'unskilled' or 'bad at' something."},
 
   {type:"match", pairs:[{trg:"およげる",src:"can swim"},{trg:"はしれる",src:"can run"},{trg:"ひける",src:"can play (instrument)"},{trg:"うたえる",src:"can sing"}]},
@@ -79,7 +79,7 @@ const LESSON_3 = {id:"jav2_u12l3", title:"スポーツとしゅみ", icon:"⚽",
   {type:"mc", q:"おどれますか means:", opts:["Do you dance often?","Can you dance?","Do you like dancing?","Will you dance?"], ans:"Can you dance?",
    hint:"The potential form + ますか asks about ability."},
 
-  {type:"fb", s:"カラオケでにほんのうたが___ますか？\n(Can you sing Japanese songs at karaoke?)", a:"うたえ", opts:["うたえ","うたい","うたって","うたう"], sSrc:"Can you sing Japanese songs at karaoke?",
+  {type:"fb", s:"カラオケでにほんのうたが{1}ますか？\n(Can you sing Japanese songs at karaoke?)", a:"うたえ", opts:["うたえ","うたい","うたって","うたう"], sSrc:"Can you sing Japanese songs at karaoke?",
    hint:"Potential of うたう. Change う (u-row) to え (e-row), add る."},
 
   {type:"tip", title:"できる vs Potential Form",

@@ -1,4 +1,4 @@
-// Unit 28 Expansion — Lesson 5: Grandi autori italiani
+// Unit 28 Expansion. Lesson 5: Grandi autori italiani
 const LESSON_5 = {
   id:"itv2_u28l5", title:"Grandi autori italiani", icon:"✒️", xp:15, board:true,
   steps:[

@@ -1,4 +1,4 @@
-// Unit 27 Expansion — Lesson 6: Tecnologia e societa
+// Unit 27 Expansion. Lesson 6: Tecnologia e societa
 const LESSON_6 = {
   id:"itv2_u27l6", title:"Tecnologia e societa", icon:"⚙️", xp:15, board:true,
   steps:[

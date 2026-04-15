@@ -1,4 +1,4 @@
-// Unit 18 Expansion — Lesson 3: にちじょうのしえき (Causative in Daily Life)
+// Unit 18 Expansion. Lesson 3: にちじょうのしえき (Causative in Daily Life)
 const LESSON_3 = {
   id:"jav2_u18l3", title:"にちじょうのしえき", icon:"👨‍👩‍👧", xp:15, board:true,
   steps:[
@@ -45,7 +45,7 @@ const LESSON_3 = {
      exampleSrc:"A: I had the child carry a lunch box.\nB: Is it homemade?",
      funFact:"持たせる often describes parents preparing things for children to bring. Making a child carry a bento (obentou wo motaseru) is a daily morning ritual. Japanese bento culture is elaborate, with parents creating character-themed lunches (キャラ弁, kyaraben). Forgetting to make the bento is a parent's nightmare."},
 
-    {type:"fb", s:"あかちゃんにくすりを___のはたいへんです。\n(Making a baby take medicine is tough.)", a:"のませる", opts:["のませる","のんで","のみ","のまれる"], sSrc:"Making a baby take medicine is tough.",
+    {type:"fb", s:"あかちゃんにくすりを{1}のはたいへんです。\n(Making a baby take medicine is tough.)", a:"のませる", opts:["のませる","のんで","のみ","のまれる"], sSrc:"Making a baby take medicine is tough.",
      hint:"The causative form of のむ (to drink). Group 1: あ-row + せる."},
 
     {type:"teach", trg:"しゅうかん", src:"habit / custom", pos:"noun", gender:null,
@@ -70,7 +70,7 @@ const LESSON_3 = {
 
     {type:"match", pairs:[{trg:"よませる",src:"make/let read"},{trg:"かたづけさせる",src:"make tidy up"},{trg:"のませる",src:"make drink/give medicine"},{trg:"おきさせる",src:"make wake up"}]},
 
-    {type:"fb", s:"こどもにおべんとうを___ました。\n(I had the child carry a lunch box.)", a:"もたせ", opts:["もたせ","もって","もち","もたれ"], sSrc:"I had the child carry a lunch box.",
+    {type:"fb", s:"こどもにおべんとうを{1}ました。\n(I had the child carry a lunch box.)", a:"もたせ", opts:["もたせ","もって","もち","もたれ"], sSrc:"I had the child carry a lunch box.",
      hint:"The causative form of もつ (to hold/carry). Group 1: あ-row + せる."},
 
     {type:"match", pairs:[{trg:"ねさせる",src:"put to sleep"},{trg:"もたせる",src:"make carry"},{trg:"しゅうかん",src:"habit"},{trg:"てづくり",src:"handmade"}]},

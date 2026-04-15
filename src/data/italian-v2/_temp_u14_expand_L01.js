@@ -1,4 +1,4 @@
-// Unit 14 Expansion — Lesson 4: The Job Interview
+// Unit 14 Expansion. Lesson 4: The Job Interview
 const LESSON_4 = {
   id:"itv2_u14l4", title:"Il colloquio di lavoro", icon:"🎯", xp:15, board:true,
   steps:[

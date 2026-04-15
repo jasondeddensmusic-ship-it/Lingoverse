@@ -1,5 +1,5 @@
-// Italian V2 Unit 34 — Le relazioni internazionali (International Relations)
-// Level: B2.3 — CILS/CELI B2 aligned.
+// Italian V2 Unit 34. Le relazioni internazionali (International Relations)
+// Level: B2.3. CILS/CELI B2 aligned.
 
 const UNIT_34 = {
   n:34, lang:"it", srcLang:"en", track:"v2",
@@ -93,7 +93,7 @@ const UNIT_34 = {
 
       {type:"mc",
        q:"Che cos'e la 'sovranita nazionale'?",
-       opts:["L'obbligo di seguire le leggi europee","Il diritto di un paese di governare se stesso","La capacita di imporre sanzioni","Il numero di ambasciate di un paese"],
+       opts:["L'obbligo costituzionale di seguire le direttive e leggi europee","Il diritto di un paese di governare se stesso","La capacita giuridica di imporre sanzioni ad altri stati","Il numero complessivo di ambasciate di un paese nel mondo"],
        ans:"Il diritto di un paese di governare se stesso",
        hint:"The right of a nation to make its own decisions and govern its own territory without external interference."},
 
@@ -122,7 +122,27 @@ const UNIT_34 = {
        q:"Quale articolo della Costituzione italiana ripudia la guerra come strumento di aggressione?",
        opts:["Articolo 1","Articolo 21","Articolo 11","Articolo 48"],
        ans:"Articolo 11",
-       hint:"This constitutional article explicitly rejects war as an instrument of offense against other nations' freedom."}
+       hint:"This constitutional article explicitly rejects war as an instrument of offense against other nations' freedom."},
+
+      {type:"fb",
+       s:"Un {1} armato tra due nazioni richiede una risposta diplomatica immediata.",
+       a:["conflitto"],
+       opts:["conflitto","trattato","negoziato","accordo"],
+       hint:"Armed confrontation or dispute between two opposing sides. Can be resolved through diplomacy or escalate to war.",
+       sSrc:"An armed {1} between two nations requires an immediate diplomatic response."},
+
+      {type:"mc",
+       q:"Che ruolo svolge un mediatore in una disputa internazionale?",
+       opts:["Decide in modo vincolante chi ha ragione e chi ha torto","Impone sanzioni economiche alla parte ritenuta piu debole","Firma il trattato di pace in rappresentanza dei governi coinvolti","Facilita il dialogo tra le parti come terzo neutrale"],
+       ans:"Facilita il dialogo tra le parti come terzo neutrale",
+       hint:"An unbiased go-between who helps disputing sides communicate and find common ground, without imposing a solution."},
+
+      {type:"fb",
+       s:"L'Italia sostiene il {1} nelle organizzazioni internazionali come ONU e G20.",
+       a:["multilateralismo"],
+       opts:["multilateralismo","unilateralismo","bilateralismo","relativismo"],
+       hint:"The principle that global problems are best solved through cooperation among many nations rather than by any single country acting alone.",
+       sSrc:"Italy supports {1} in international organizations like the UN and G20."}
     ]},
 
     // ─── Lesson 2: L'Unione Europea e le istituzioni ───
@@ -212,7 +232,7 @@ const UNIT_34 = {
 
       {type:"mc",
        q:"Che cosa sono i 'fondi di coesione' dell'UE?",
-       opts:["Sanzioni contro paesi inadempienti","Denaro per ridurre le disparita regionali","Contributi per il bilancio militare","Premi per i paesi piu virtuosi"],
+       opts:["Sanzioni economiche contro paesi inadempienti","Denaro per ridurre le disparita regionali","Contributi obbligatori per il bilancio militare","Premi finanziari per i paesi piu virtuosi"],
        ans:"Denaro per ridurre le disparita regionali",
        hint:"These EU funds flow to poorer regions to help them develop. Southern Italy is one of the major beneficiaries."},
 
@@ -241,7 +261,33 @@ const UNIT_34 = {
        q:"Quanti stati membri ha l'Unione Europea?",
        opts:["Ventiquattro","Venticinque","Ventisette","Trenta"],
        ans:"Ventisette",
-       hint:"After the UK left in 2020, this number went down by one from twenty-eight. Count from the original six founders."}
+       hint:"After the UK left in 2020, this number went down by one from twenty-eight. Count from the original six founders."},
+
+      {type:"mc",
+       q:"Cosa descrive il termine 'integrazione europea'?",
+       opts:["La traduzione simultanea di leggi in tutte le lingue ufficiali dell'UE","Il sistema bancario comune che unifica la politica monetaria dell'eurozona","La politica di accoglienza dei migranti che regola i flussi tra Stati membri","Il processo attraverso cui i paesi europei si uniscono piu strettamente"],
+       ans:"Il processo attraverso cui i paesi europei si uniscono piu strettamente",
+       hint:"An ongoing process: countries deepening economic and political bonds over decades. Italy was among the first to embrace it in 1957."},
+
+      {type:"fb",
+       s:"La {1} garantisce che le decisioni vengano prese al livello di governo piu appropriato.",
+       a:["sussidiarieta"],
+       opts:["sussidiarieta","coesione","sovranita","mediazione"],
+       hint:"An EU and Catholic social teaching principle: central authorities should act only when local or national levels cannot handle matters effectively.",
+       sSrc:"{1} ensures that decisions are taken at the most appropriate level of government."},
+
+      {type:"mc",
+       q:"Qual e l'effetto pratico del diritto di veto nel Consiglio dell'UE?",
+       opts:["Permette a un singolo paese di bloccare una decisione","Consente a un paese di accelerare il processo decisionale","Obbliga la Commissione europea a rifare la sua proposta","Aumenta il peso del voto nel parlamento europeo"],
+       ans:"Permette a un singolo paese di bloccare una decisione",
+       hint:"When unanimity is required, one dissenting nation can stop the whole council. Many want to remove this power for foreign policy votes."},
+
+      {type:"fb",
+       s:"I ministri stanno {1} un nuovo accordo commerciale con il Canada.",
+       a:["negoziando"],
+       opts:["negoziando","ratificando","mediando","sanzionando"],
+       hint:"The gerund form of the verb meaning to hold talks and work toward an agreement between parties. From Latin 'negotium' (business).",
+       sSrc:"The ministers are {1} a new trade agreement with Canada."}
     ]}
   ]
 };

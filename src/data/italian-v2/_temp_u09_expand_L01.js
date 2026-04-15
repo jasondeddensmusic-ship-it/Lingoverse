@@ -1,4 +1,4 @@
-// Italian V2 Unit 09 Expansion — Lesson 4: In farmacia (At the Pharmacy)
+// Italian V2 Unit 09 Expansion. Lesson 4: In farmacia (At the Pharmacy)
 // Expands health unit with pharmacy visits, common medicines, and over-the-counter products.
 
 const LESSON_4 = {id:"itv2_u9l4", title:"In farmacia", icon:"\uD83D\uDC8A", xp:15, board:true, steps:[

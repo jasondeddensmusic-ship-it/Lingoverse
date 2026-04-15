@@ -1,4 +1,4 @@
-// Unit 22 Expansion — Lesson 6: La letteratura e il teatro
+// Unit 22 Expansion. Lesson 6: La letteratura e il teatro
 const LESSON_6 = {
   id:"itv2_u22l6", title:"La letteratura e il teatro", icon:"📖", xp:15, board:true,
   steps:[
@@ -16,7 +16,7 @@ const LESSON_6 = {
      note:"Feminine. From Greek 'poiesis' (creation).\n'Scrivere poesie' = to write poems. 'Poeta' = poet.",
      example:"A: La poesia italiana e tra le piu belle del mondo.\nB: Dante e il padre della lingua italiana.",
      exampleSrc:"A: Italian poetry is among the most beautiful in the world.\nB: Dante is the father of the Italian language.",
-     funFact:"Italian poetry begins with Dante's 'Divina Commedia' (1320), considered one of the greatest works of world literature. Petrarca invented the sonnet form that Shakespeare later adopted. Italian poetry is still alive: poetry festivals draw large crowds, and poets like Eugenio Montale won the Nobel Prize (1975)."},
+     funFact:"Italian poetry begins with Dante's 'Divina Commedia' (1320), considered one of the greatest works of world literature. Petrarca perfected the sonnet form (invented by Giacomo da Lentini) that Shakespeare later adopted. Italian poetry is still alive: poetry festivals draw large crowds, and poets like Eugenio Montale won the Nobel Prize (1975)."},
 
     {type:"teach", trg:"lo scrittore", src:"the writer / author", pos:"noun", gender:"m",
      note:"Masculine. Feminine: la scrittrice. From 'scrivere' (to write).\n'Scrittore di romanzi' = novelist.",

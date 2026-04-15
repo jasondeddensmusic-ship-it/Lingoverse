@@ -1,4 +1,4 @@
-// Unit 15 Expansion — Lesson 4: Rental Contracts and Bureaucracy
+// Unit 15 Expansion. Lesson 4: Rental Contracts and Bureaucracy
 const LESSON_4 = {
   id:"itv2_u15l4", title:"Il contratto d'affitto", icon:"📋", xp:15, board:true,
   steps:[

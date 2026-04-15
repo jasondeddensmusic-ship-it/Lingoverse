@@ -1,5 +1,5 @@
-// Japanese V2 Unit 33 — ぶんがく (Literature & Poetry)
-// Level: B2.4 — JLPT N2/N1 aligned.
+// Japanese V2 Unit 33. ぶんがく (Literature & Poetry)
+// Level: B2.4. JLPT N2/N1 aligned.
 // さっか, しょうせつ, し, ひょうげん, ものがたり, こてん, ひゆ.
 
 const UNIT_33 = {
@@ -105,7 +105,7 @@ const UNIT_33 = {
 
   {type:"teach", trg:"ふくせん", src:"foreshadowing / plot setup", pos:"noun", gender:null,
    note:"Kanji: 伏線. ふくせんをはる = to plant foreshadowing.\nふくせんかいしゅう = resolving foreshadowing.",
-   example:"A: さいしょのしょうにあったふくせんがさいごにかいしゅうされました。\nB: みごとなすとーりーてりんぐですね。",
+   example:"A: さいしょのしょうにあったふくせんがさいごにかいしゅうされました。\nB: みごとなストーリーテリングですね。",
    exampleSrc:"A: The foreshadowing in the first chapter was resolved at the end.\nB: That is splendid storytelling.",
    funFact:"伏線 uses 伏 (lie hidden/prostrate) and 線 (line/thread). Foreshadowing is a 'hidden thread' running through the story. In manga and anime culture, ふくせんかいしゅう (resolving foreshadowing) is extremely valued. Fans eagerly discuss how early plot details connect to later revelations. Oda Eiichiro's One Piece is famous for ふくせん planted decades earlier."},
 
@@ -113,7 +113,7 @@ const UNIT_33 = {
    hint:"はる means 'to stretch/set up,' and ふくせん means the hidden threads of plot."},
 
   {type:"teach", trg:"てんかい", src:"development / unfolding (of a plot)", pos:"noun", gender:null,
-   note:"Kanji: 展開. てんかいする = to develop / to unfold.\nすとーりーのてんかい = plot development.",
+   note:"Kanji: 展開. てんかいする = to develop / to unfold.\nストーリーのてんかい = plot development.",
    example:"A: こうはんのてんかいはよそうがいでした。\nB: どんでんがえしがすばらしかったですね。",
    exampleSrc:"A: The development in the latter half was unexpected.\nB: The plot twist was wonderful.",
    funFact:"展開 uses 展 (exhibit/spread) and 開 (open). A story 'spreads open.' Japanese narrative structure often follows きしょうてんけつ (起承転結): introduction (起), development (承), twist (転), and conclusion (結). This four-part structure comes from Chinese poetry but has been adapted for all forms of Japanese storytelling."},
@@ -163,6 +163,9 @@ const UNIT_33 = {
 
   {type:"mc", q:"きしょうてんけつ describes:", opts:["a type of poem","a literary award","the four-part narrative structure","a writing style"], ans:"the four-part narrative structure",
    hint:"This compound describes a classical story arc: introduction, development, twist, and conclusion."},
+
+  {type:"mc", q:"ひひょう means:", opts:["summary","translation","biography","criticism/review"], ans:"criticism/review",
+   hint:"The compound of two kanji both meaning 'to evaluate or comment,' used in literary analysis."},
 ]},
 
 ]};

@@ -1,4 +1,4 @@
-// Unit 25 Expansion — Lesson 4: Negotiation Language
+// Unit 25 Expansion. Lesson 4: Negotiation Language
 const LESSON_4 = {
   id:"jav2_u25l4", title:"こうしょうのことば", icon:"💬", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_4 = {
      exampleSrc:"A: We can concede on this point.\nB: Then let us also yield on another point.",
      funFact:"譲る is a rich verb. In negotiation, it means to concede. On trains, it means to give up your seat. In business succession, it means to hand over leadership. The compound 譲り合い (mutual yielding) captures a core Japanese social value: harmony through reciprocal concession."},
 
-    {type:"fb", s:"りょうしゃの___てんをさがしましょう。\n(Let us find a compromise point for both sides.)", a:"だきょう", opts:["だきょう","こうしょう","じょうけん","けいやく"], sSrc:"Let us find a compromise point for both sides.",
+    {type:"fb", s:"りょうしゃの{1}てんをさがしましょう。\n(Let us find a compromise point for both sides.)", a:"だきょう", opts:["だきょう","こうしょう","じょうけん","けいやく"], sSrc:"Let us find a compromise point for both sides.",
      hint:"The noun for a middle ground where both sides give something up."},
 
     {type:"teach", trg:"けんとう", src:"consideration / examination", pos:"noun", gender:null,
@@ -68,7 +68,7 @@ const LESSON_4 = {
     {type:"mc", q:"When a Japanese business partner says けんとうさせていただきます, the most likely real meaning is:", opts:["They are enthusiastic about the idea","They need time to get excited","They have already accepted","They will probably decline"], ans:"They will probably decline",
      hint:"Without まえむき (positive) attached, this phrase is often a gentle way to signal no."},
 
-    {type:"fb", s:"このてんについては___ことができます。\n(We can concede on this point.)", a:"ゆずる", opts:["ゆずる","けんとう","だきょう","こうしょう"], sSrc:"We can concede on this point.",
+    {type:"fb", s:"このてんについては{1}ことができます。\n(We can concede on this point.)", a:"ゆずる", opts:["ゆずる","けんとう","だきょう","こうしょう"], sSrc:"We can concede on this point.",
      hint:"The verb meaning to give way or yield ground in a negotiation."},
 
     {type:"teach", trg:"ぜんしょ", src:"doing one's best / handling favorably", pos:"noun", gender:null,
@@ -79,7 +79,7 @@ const LESSON_4 = {
 
     {type:"match", pairs:[{trg:"こうしょう",src:"negotiation"},{trg:"じょうけん",src:"conditions"},{trg:"だきょう",src:"compromise"},{trg:"けんとう",src:"consideration"}]},
 
-    {type:"fb", s:"ごていあんについて、___にけんとういたします。\n(Regarding your proposal, we will consider it positively.)", a:"まえむき", opts:["まえむき","むずかしい","ぜんしょ","だきょう"], sSrc:"Regarding your proposal, we will consider it positively.",
+    {type:"fb", s:"ごていあんについて、{1}にけんとういたします。\n(Regarding your proposal, we will consider it positively.)", a:"まえむき", opts:["まえむき","むずかしい","ぜんしょ","だきょう"], sSrc:"Regarding your proposal, we will consider it positively.",
      hint:"The adjective meaning forward-facing, signaling genuine openness."},
 
     {type:"match", pairs:[{trg:"ゆずる",src:"to yield/concede"},{trg:"まえむき",src:"positive/constructive"},{trg:"ぜんしょ",src:"handling favorably"},{trg:"とりひきさき",src:"business partner"}]},

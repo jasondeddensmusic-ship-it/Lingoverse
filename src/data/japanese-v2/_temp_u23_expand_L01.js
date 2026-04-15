@@ -1,4 +1,4 @@
-// Unit 23 Expansion — Lesson 3: のとことの使い分け (Practical の vs こと Drills)
+// Unit 23 Expansion. Lesson 3: のとことの使い分け (Practical の vs こと Drills)
 const LESSON_3 = {
   id:"jav2_u23l3", title:"のとことの使い分け", icon:"🎯", xp:15, board:true,
   steps:[
@@ -45,7 +45,7 @@ const LESSON_3 = {
      exampleSrc:"A: I am bad at cooking.\nB: If you practice, you will get better.",
      funFact:"へた (下手) literally means 'lower hand,' contrasting with じょうず (上手, upper hand). In this pattern, both の and こと work because skill assessment can be either concrete or abstract. However, の sounds more natural in casual conversation: りょうりするのがへた (casual) vs りょうりすることがへた (stiff)."},
 
-    {type:"fb", s:"となりのへやでだれかがうたっている___をききました。\n(I heard someone singing in the next room.)", a:"の", opts:["の","こと","を","が"], sSrc:"I heard someone singing in the next room.",
+    {type:"fb", s:"となりのへやでだれかがうたっている{1}をききました。\n(I heard someone singing in the next room.)", a:"の", opts:["の","こと","を","が"], sSrc:"I heard someone singing in the next room.",
      hint:"The nominalizer required with perception verbs like 'hear' for direct sensory events."},
 
     {type:"teach", trg:"〜のがにがて", src:"to find ~ difficult / to be not good with ~", pos:"part", gender:null,
@@ -73,7 +73,7 @@ const LESSON_3 = {
 
     {type:"match", pairs:[{trg:"のがへた",src:"bad at doing"},{trg:"のがにがて",src:"not good with"},{trg:"のがたのしみ",src:"looking forward to"},{trg:"ことはできない",src:"cannot do"}]},
 
-    {type:"fb", s:"まいにちれんしゅうする___がだいじです。\n(It is important to practice every day.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"It is important to practice every day.",
+    {type:"fb", s:"まいにちれんしゅうする{1}がだいじです。\n(It is important to practice every day.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"It is important to practice every day.",
      hint:"The abstract nominalizer used when stating a general truth or principle."},
 
     {type:"mc", q:"にがて differs from へた because:", opts:["にがて is more formal","にがて means you find it uncomfortable, へた means you lack skill","They mean exactly the same thing","にがて is only for sports"], ans:"にがて means you find it uncomfortable, へた means you lack skill",

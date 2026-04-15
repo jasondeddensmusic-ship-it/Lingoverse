@@ -1,4 +1,4 @@
-// Unit 04 Expansion L03 — More Adjectives (i-adj & na-adj)
+// Unit 04 Expansion L03. More Adjectives (i-adj & na-adj)
 const LESSON_3 = {
   id:"jav2_u4l3", title:"もっとけいようし", icon:"✨", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_3 = {
      exampleSrc:"A: It's a quiet town.\nB: Yes, it's very easy to live in.",
      funFact:"Shizuka represents the Japanese aesthetic value of tranquility. Shizuka na mori (quiet forest), shizuka na yoru (quiet night). Japanese temples and gardens are designed around shizukesa (quietness). Noise in these spaces is considered deeply disrespectful."},
 
-    {type:"fb", s:"___なまちですね。(It's a quiet town.)",
+    {type:"fb", s:"{1}なまちですね。(It's a quiet town.)",
      a:["しずか"],
      opts:["しずか","しずかい","しずかな","きれい"],
      hint:"The na-adjective base form that means 'quiet.' Before desu, use the base form without na.",
@@ -109,7 +109,7 @@ const LESSON_3 = {
       {trg:"ゆうめい", src:"famous"}
     ]},
 
-    {type:"fb", s:"ふじさんは せかいで ___です。",
+    {type:"fb", s:"ふじさんは せかいで {1}です。",
      a:["ゆうめい"],
      opts:["ゆうめい","しずか","べんり","たいせつ"],
      hint:"The na-adjective meaning 'famous' or 'well-known.'",

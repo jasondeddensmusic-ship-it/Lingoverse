@@ -1,4 +1,4 @@
-// Unit 03 Expansion L03 — More Everyday Objects & Classroom Items
+// Unit 03 Expansion L03. More Everyday Objects & Classroom Items
 const LESSON_3 = {
   id:"jav2_u3l3", title:"きょうしつのもの", icon:"📚", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_3 = {
      exampleSrc:"A: Please close the door.\nB: Yes.",
      funFact:"Japan has three types of 'doors': doa (Western-style hinged), fusuma (opaque sliding), and shouji (paper sliding screens). Traditional homes use sliding doors exclusively because they save space and allow flexible room layouts."},
 
-    {type:"fb", s:"___のうえにペンがあります。",
+    {type:"fb", s:"{1}のうえにペンがあります。",
      a:["つくえ"],
      opts:["つくえ","いす","まど","ドア"],
      hint:"The furniture piece you write on, where objects are placed 'on top.'",
@@ -104,7 +104,7 @@ const LESSON_3 = {
       {trg:"ドア", src:"door"}
     ]},
 
-    {type:"fb", s:"___をいちまいください。",
+    {type:"fb", s:"{1}をいちまいください。",
      a:["かみ"],
      opts:["かみ","ペン","ほん","かぎ"],
      hint:"The flat material you write on, counted with the mai counter.",

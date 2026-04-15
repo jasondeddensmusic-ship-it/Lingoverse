@@ -1,4 +1,4 @@
-// Unit 04 Expansion L05 — More Colors & Describing Appearance
+// Unit 04 Expansion L05. More Colors & Describing Appearance
 const LESSON_5 = {
   id:"jav2_u4l5", title:"いろいろないろ", icon:"🎨", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_5 = {
      exampleSrc:"A: I want a silver phone.\nB: How about this silver one?",
      funFact:"Silver is prominent in Japanese culture: Ginkakuji (Silver Pavilion, never actually covered in silver), ginkou (bank = silver + go), and the famous Ginza district (silver + seat) in Tokyo, named after a silver coin mint located there in the 1600s."},
 
-    {type:"fb", s:"なに___がすきですか？",
+    {type:"fb", s:"なに{1}がすきですか？",
      a:["いろ"],
      opts:["いろ","ほん","もの","ところ"],
      hint:"The general word for color, used in the question 'what color do you like?'",
@@ -98,7 +98,7 @@ const LESSON_5 = {
       {trg:"きんいろ", src:"gold (color)"}
     ]},
 
-    {type:"fb", s:"このドレスは___ですね！",
+    {type:"fb", s:"このドレスは{1}ですね！",
      a:["すてき"],
      opts:["すてき","まずい","わるい","ふるい"],
      hint:"The na-adjective meaning 'lovely/wonderful,' used as a warm compliment.",

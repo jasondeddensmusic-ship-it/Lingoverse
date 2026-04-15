@@ -1,4 +1,4 @@
-// Unit 22 Expansion — Lesson 3: フォーマルなやりもらい (Formal Giving & Receiving)
+// Unit 22 Expansion. Lesson 3: フォーマルなやりもらい (Formal Giving & Receiving)
 const LESSON_3 = {
   id:"jav2_u22l3", title:"フォーマルなやりもらい", icon:"👔", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_3 = {
      exampleSrc:"A: It is just a small token, but please accept it.\nB: Thank you for going out of your way.",
      funFact:"きもち has two uses: emotions (気持ちがいい = feels good) and the gift-giving phrase ほんのきもちです (it is merely a token of my feelings). This phrase downplays the gift's value, which is essential Japanese etiquette. Even expensive gifts are presented as 'just a small thing.' This modesty is called 謙遜 (kenson)."},
 
-    {type:"fb", s:"おきゃくさまからおみやげを___ました。\n(We received a gift from the customer. - humble)", a:"いただき", opts:["いただき","もらい","くれ","さしあげ"], sSrc:"We received a gift from the customer.",
+    {type:"fb", s:"おきゃくさまからおみやげを{1}ました。\n(We received a gift from the customer. - humble)", a:"いただき", opts:["いただき","もらい","くれ","さしあげ"], sSrc:"We received a gift from the customer.",
      hint:"The humble form of receiving, used when the giver is someone of higher status."},
 
     {type:"teach", trg:"うけとる", src:"to receive / to accept (physically)", pos:"verb", gender:null,
@@ -73,7 +73,7 @@ const LESSON_3 = {
 
     {type:"match", pairs:[{trg:"おくりもの",src:"gift (formal)"},{trg:"きもち",src:"feelings/token"},{trg:"うけとる",src:"to receive (physically)"},{trg:"もうしあげる",src:"to say (humble)"}]},
 
-    {type:"fb", s:"ほんの___ですが、どうぞおうけとりください。\n(It is just a small token, but please accept it.)", a:"きもち", opts:["きもち","おれい","おくりもの","プレゼント"], sSrc:"It is just a small token, but please accept it.",
+    {type:"fb", s:"ほんの{1}ですが、どうぞおうけとりください。\n(It is just a small token, but please accept it.)", a:"きもち", opts:["きもち","おれい","おくりもの","プレゼント"], sSrc:"It is just a small token, but please accept it.",
      hint:"The word that means 'feelings' but in gift-giving means 'a modest token of gratitude.'"},
 
     {type:"mc", q:"くださる is the honorific form of:", opts:["あげる","もらう","くれる","おくる"], ans:"くれる",

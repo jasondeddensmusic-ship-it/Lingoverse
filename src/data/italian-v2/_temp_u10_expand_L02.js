@@ -1,4 +1,4 @@
-// Italian V2 Unit 10 Expansion — Lesson 5: Problemi in albergo (Hotel Problems)
+// Italian V2 Unit 10 Expansion. Lesson 5: Problemi in albergo (Hotel Problems)
 // Expands travel unit with hotel complaints, problems, and solutions.
 
 const LESSON_5 = {id:"itv2_u10l5", title:"Problemi in albergo", icon:"\uD83D\uDEAA", xp:15, board:true, steps:[

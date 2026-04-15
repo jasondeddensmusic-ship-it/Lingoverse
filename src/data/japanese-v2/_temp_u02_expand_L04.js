@@ -1,4 +1,4 @@
-// Unit 02 Expansion L06 — Describing Yourself & Others
+// Unit 02 Expansion L06. Describing Yourself & Others
 const LESSON_6 = {
   id:"jav2_u2l6", title:"じぶんのこと", icon:"🪞", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_6 = {
      exampleSrc:"A: What sports do you like?\nB: I like soccer.",
      funFact:"In self-introductions, saying what you like (suki na mono) is common. Japanese culture values knowing people's preferences. Conversation starter: 'suki na tabemono wa nan desu ka?' (What food do you like?) works in any social setting."},
 
-    {type:"fb", s:"とうきょう___すんでいます。",
+    {type:"fb", s:"とうきょう{1}すんでいます。",
      a:["に"],
      opts:["に","で","を","が"],
      hint:"The particle used with sunde imasu to indicate the place where you reside.",
@@ -98,7 +98,7 @@ const LESSON_6 = {
       {trg:"しゅっしん", src:"hometown"}
     ]},
 
-    {type:"fb", s:"にほんごを___しています。",
+    {type:"fb", s:"にほんごを{1}しています。",
      a:["べんきょう"],
      opts:["べんきょう","けっこん","しゅっしん","はたらき"],
      hint:"The noun meaning 'study' that combines with shite imasu to express ongoing learning.",

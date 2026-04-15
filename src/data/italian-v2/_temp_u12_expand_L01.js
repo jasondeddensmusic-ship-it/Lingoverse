@@ -1,4 +1,4 @@
-// Italian V2 Unit 12 Expansion — Lesson 4: I verbi riflessivi al passato (Reflexive Verbs in Past)
+// Italian V2 Unit 12 Expansion. Lesson 4: I verbi riflessivi al passato (Reflexive Verbs in Past)
 // Expands essere past tense unit with reflexive verbs in passato prossimo.
 
 const LESSON_4 = {id:"itv2_u12l4", title:"I verbi riflessivi al passato", icon:"\uD83E\uDE9E", xp:15, board:true, steps:[
@@ -92,7 +92,7 @@ const LESSON_4 = {id:"itv2_u12l4", title:"I verbi riflessivi al passato", icon:"
   {type:"mc", q:"What is the difference between 'svegliarsi' and 'alzarsi'?",
    opts:["Svegliarsi = become conscious, alzarsi = physically get out of bed","They are the same","Alzarsi is formal","Svegliarsi is past only"],
    ans:"Svegliarsi = become conscious, alzarsi = physically get out of bed",
-   hint:"You can be awake (sveglio) but still lying down. The second verb means raising yourself to a standing position — swinging your legs to the floor."},
+   hint:"You can be awake (sveglio) but still lying down. The second verb means raising yourself to a standing position. swinging your legs to the floor."},
 
   {type:"fb", s:"Ti sei {1} le mani prima di mangiare?",
    a:["lavato"],

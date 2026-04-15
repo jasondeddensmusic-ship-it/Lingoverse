@@ -1,4 +1,4 @@
-// Unit 04 Expansion L06 — More Counters & Practical Counting
+// Unit 04 Expansion L06. More Counters & Practical Counting
 const LESSON_6 = {
   id:"jav2_u4l6", title:"もっとかぞえよう", icon:"🔢", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_6 = {
      exampleSrc:"A: Where are you two going?\nB: We're going to a restaurant.",
      funFact:"Futari often implies a romantic couple. 'Futari de' (just the two of us) has a romantic nuance. The phrase 'futari-kiri' (only two people, no one else) is common in love songs and drama. Asking 'futari de?' at a restaurant means 'table for two?'"},
 
-    {type:"fb", s:"___ですか？(How many people?)",
+    {type:"fb", s:"{1}ですか？(How many people?)",
      a:["なんにん"],
      opts:["なんにん","なんこ","なんまい","なんぼん"],
      hint:"The question form using the people counter.",
@@ -104,7 +104,7 @@ const LESSON_6 = {
       {trg:"さつ", src:"counter: books"}
     ]},
 
-    {type:"fb", s:"コーヒーを___おねがいします。",
+    {type:"fb", s:"コーヒーを{1}おねがいします。",
      a:["いっぱい"],
      opts:["いっぱい","いっこ","いちまい","いっさつ"],
      hint:"The counter for one cup of a beverage, with the sound change for 'one.'",

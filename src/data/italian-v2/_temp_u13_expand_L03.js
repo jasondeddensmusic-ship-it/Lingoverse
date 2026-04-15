@@ -1,4 +1,4 @@
-// Unit 13 Expansion — Lesson 6: The Subjunctive in Opinions and Beliefs
+// Unit 13 Expansion. Lesson 6: The Subjunctive in Opinions and Beliefs
 const LESSON_6 = {
   id:"itv2_u13l6", title:"Secondo me...", icon:"💬", xp:15, board:true,
   steps:[

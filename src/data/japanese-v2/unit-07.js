@@ -1,5 +1,5 @@
-// Japanese V2 Unit 07 — じかん (Time & Daily Routine)
-// Level: A1.2 — JLPT N5 aligned.
+// Japanese V2 Unit 07. じかん (Time & Daily Routine)
+// Level: A1.2. JLPT N5 aligned.
 // Telling time, daily routine verbs, time particles ni/kara/made.
 
 const UNIT_07 = {
@@ -59,7 +59,7 @@ const UNIT_07 = {
    exampleSrc:"A: What time is it?\nB: It is 7:30.",
    funFact:"半 shows a line cutting something in two, meaning 'half.' Han is the easiest way to say 30 minutes: roku-ji han (6:30). You can also say roku-ji sanjuppun (6 hours 30 minutes), but han is much more natural in conversation."},
 
-  {type:"fb", s:"いま、___ですか？\n(What time is it now?)", a:"なんじ", opts:["なんじ","いくら","なんにん","どこ"], sSrc:"What time is it now?",
+  {type:"fb", s:"いま、{1}ですか？\n(What time is it now?)", a:"なんじ", opts:["なんじ","いくら","なんにん","どこ"], sSrc:"What time is it now?",
    hint:"The question word that combines 'what' with the hour counter."},
 
   {type:"teach", trg:"に", src:"at (time particle)", pos:"part", gender:null,
@@ -87,7 +87,7 @@ const UNIT_07 = {
 
   {type:"match", pairs:[{trg:"に",src:"at (time)"},{trg:"から",src:"from"},{trg:"まで",src:"until"},{trg:"なんじ",src:"what time?"}]},
 
-  {type:"fb", s:"くじ___ごじまでです。\n(From 9 to 5.)", a:"から", opts:["から","まで","に","で"], sSrc:"From 9 to 5.",
+  {type:"fb", s:"くじ{1}ごじまでです。\n(From 9 to 5.)", a:"から", opts:["から","まで","に","で"], sSrc:"From 9 to 5.",
    hint:"The particle that marks the starting point of a time range."},
 
   {type:"mc", q:"しちじはん means:", opts:["7 AM","7 minutes","7:30","7 PM"], ans:"7:30",
@@ -144,7 +144,7 @@ const UNIT_07 = {
    exampleSrc:"A: What do you do every day?\nB: I study Japanese.",
    funFact:"Mai (every) combines with time words to make frequency expressions: mai-nichi (every day), mai-asa (every morning), mai-ban (every evening), mai-shuu (every week), mai-tsuki (every month), mai-toshi (every year). All are adverbs needing no particle."},
 
-  {type:"fb", s:"まいあさろくじに___ます。\n(I wake up at 6 every morning.)", a:"おき", opts:["おき","ね","いき","たべ"], sSrc:"I wake up at 6 every morning.",
+  {type:"fb", s:"まいあさろくじに{1}ます。\n(I wake up at 6 every morning.)", a:"おき", opts:["おき","ね","いき","たべ"], sSrc:"I wake up at 6 every morning.",
    hint:"The polite stem of the verb for rising from bed."},
 
   {type:"teach", trg:"まいあさ", src:"every morning", pos:"adv", gender:null,
@@ -174,7 +174,7 @@ const UNIT_07 = {
    exampleSrc:"A: What time do you go to school?\nB: I go at 8.",
    funFact:"学校 combines 学 (learning) and 校 (school building). Japanese school years start in April (not September) because cherry blossoms symbolize new beginnings. Students clean their own classrooms, eat lunch together, and often join after-school clubs called bukatsu."},
 
-  {type:"fb", s:"まいにちにほんごを___します。\n(I study Japanese every day.)", a:"べんきょう", opts:["べんきょう","しごと","がっこう","じかん"], sSrc:"I study Japanese every day.",
+  {type:"fb", s:"まいにちにほんごを{1}します。\n(I study Japanese every day.)", a:"べんきょう", opts:["べんきょう","しごと","がっこう","じかん"], sSrc:"I study Japanese every day.",
    hint:"The noun part of the suru-verb meaning 'to study.'"},
 
   {type:"match", pairs:[{trg:"おきる",src:"to wake up"},{trg:"ねる",src:"to sleep"},{trg:"いく",src:"to go"},{trg:"かえる",src:"to go home"}]},
@@ -184,7 +184,7 @@ const UNIT_07 = {
   {type:"mc", q:"かえる specifically means:", opts:["to go anywhere","to come here","to return home","to leave"], ans:"to return home",
    hint:"This verb is about returning to your base or h..., not going to a new place."},
 
-  {type:"fb", s:"なんじにうちに___ますか？\n(What time do you go home?)", a:"かえり", opts:["かえり","いき","おき","ね"], sSrc:"What time do you go home?",
+  {type:"fb", s:"なんじにうちに{1}ますか？\n(What time do you go home?)", a:"かえり", opts:["かえり","いき","おき","ね"], sSrc:"What time do you go home?",
    hint:"The polite stem of the verb specifically for returning to your home base."},
 
   {type:"tip", title:"A Typical Japanese Day",

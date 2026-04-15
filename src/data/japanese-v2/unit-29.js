@@ -1,6 +1,6 @@
-// Japanese V2 Unit 29 — けいざい (Economy)
+// Japanese V2 Unit 29. けいざい (Economy)
 import EXP_L3 from './_temp_u29_expand_L01.js';import EXP_L4 from './_temp_u29_expand_L02.js';import EXP_L5 from './_temp_u29_expand_L03.js';
-// Level: B2.2 — JLPT N2 aligned.
+// Level: B2.2. JLPT N2 aligned.
 // けいき, インフレ, かぶしき, ゆにゅう, ゆしゅつ, しじょう, とうし.
 
 const UNIT_29 = {
@@ -48,7 +48,7 @@ const UNIT_29 = {
    exampleSrc:"A: Haven't prices been rising recently?\nB: Yes, food prices especially have gone up.",
    funFact:"物価 uses 物 (things) and 価 (value/price). While ねだん refers to one item's price, ぶっか means the general price level across goods. The Consumer Price Index is しょうひしゃぶっかしすう in Japanese. Japan's famously stable ぶっか during the deflation era meant 100-yen shops thrived for decades."},
 
-  {type:"fb", s:"___でぶっかがあがっています。\n(Prices are rising due to inflation.)", a:"インフレ", opts:["インフレ","デフレ","けいき","けいざい"], sSrc:"Prices are rising due to inflation.",
+  {type:"fb", s:"{1}でぶっかがあがっています。\n(Prices are rising due to inflation.)", a:"インフレ", opts:["インフレ","デフレ","けいき","けいざい"], sSrc:"Prices are rising due to inflation.",
    hint:"The loanword for the economic phenomenon where prices rise across the board."},
 
   {type:"teach", trg:"しつぎょう", src:"unemployment", pos:"noun", gender:null,
@@ -62,7 +62,7 @@ const UNIT_29 = {
 
   {type:"match", pairs:[{trg:"けいざい",src:"economy"},{trg:"けいき",src:"economic conditions"},{trg:"インフレ",src:"inflation"},{trg:"かぶしき",src:"stock/shares"}]},
 
-  {type:"fb", s:"___りつがさんパーセントにさがりました。\n(The unemployment rate has fallen to 3%.)", a:"しつぎょう", opts:["しつぎょう","しゅうにゅう","けいざい","ぶっか"], sSrc:"The unemployment rate has fallen to 3%.",
+  {type:"fb", s:"{1}りつがさんパーセントにさがりました。\n(The unemployment rate has fallen to 3%.)", a:"しつぎょう", opts:["しつぎょう","しゅうにゅう","けいざい","ぶっか"], sSrc:"The unemployment rate has fallen to 3%.",
    hint:"The noun meaning the state of losing one's job, combined with りつ (rate)."},
 
   {type:"match", pairs:[{trg:"ぶっか",src:"prices (general)"},{trg:"しつぎょう",src:"unemployment"},{trg:"けいき",src:"business climate"},{trg:"インフレ",src:"inflation"}]},
@@ -107,7 +107,7 @@ const UNIT_29 = {
    exampleSrc:"A: Oil prices are surging.\nB: I am worried about gasoline costs.",
    funFact:"石油 literally means 'stone oil,' reflecting the ancient observation of oil seeping from rocks. Japan has almost no domestic oil production. The 1973 oil crisis (オイルショック) devastated Japan's economy and permanently shaped its energy policy. It drove Japan to diversify energy sources and improve efficiency."},
 
-  {type:"fb", s:"にほんはエネルギーのおおくを___にたよっています。\n(Japan relies on imports for much of its energy.)", a:"ゆにゅう", opts:["ゆにゅう","ゆしゅつ","しじょう","とうし"], sSrc:"Japan relies on imports for much of its energy.",
+  {type:"fb", s:"にほんはエネルギーのおおくを{1}にたよっています。\n(Japan relies on imports for much of its energy.)", a:"ゆにゅう", opts:["ゆにゅう","ゆしゅつ","しじょう","とうし"], sSrc:"Japan relies on imports for much of its energy.",
    hint:"The noun for bringing goods into a country from abroad."},
 
   {type:"teach", trg:"きぎょう", src:"enterprise / company", pos:"noun", gender:null,
@@ -125,12 +125,12 @@ const UNIT_29 = {
    exampleSrc:"A: Real estate prices in Tokyo are very high.\nB: Compared to rural areas, they are many times different.",
    funFact:"不動産 literally means 'immovable property,' the same logic as English 'real estate' (from Latin 'res,' thing). Japan's 1980s bubble saw Tokyo land prices reach absurd heights. At the peak, the Imperial Palace grounds were theoretically worth more than all of California. The bubble's burst defined Japan's economic trajectory for decades."},
 
-  {type:"fb", s:"かれは___にとうししています。\n(He invests in real estate.)", a:"ふどうさん", opts:["ふどうさん","かぶしき","せきゆ","しじょう"], sSrc:"He invests in real estate.",
+  {type:"fb", s:"かれは{1}にとうししています。\n(He invests in real estate.)", a:"ふどうさん", opts:["ふどうさん","かぶしき","せきゆ","しじょう"], sSrc:"He invests in real estate.",
    hint:"The two-word compound meaning property that does not move: land and buildings."},
 
   {type:"match", pairs:[{trg:"ゆにゅう",src:"import"},{trg:"ゆしゅつ",src:"export"},{trg:"しじょう",src:"market (financial)"},{trg:"とうし",src:"investment"}]},
 
-  {type:"fb", s:"にほんの___ゆしゅつはせかいトップクラスです。\n(Japan's automobile exports are world-class.)", a:"じどうしゃ", opts:["じどうしゃ","でんしゃ","ひこうき","ふね"], sSrc:"Japan's automobile exports are world-class.",
+  {type:"fb", s:"にほんの{1}ゆしゅつはせかいトップクラスです。\n(Japan's automobile exports are world-class.)", a:"じどうしゃ", opts:["じどうしゃ","でんしゃ","ひこうき","ふね"], sSrc:"Japan's automobile exports are world-class.",
    hint:"The compound noun for a self-moving vehicle, Japan's most famous export product."},
 
   {type:"match", pairs:[{trg:"せきゆ",src:"petroleum"},{trg:"きぎょう",src:"enterprise"},{trg:"ふどうさん",src:"real estate"},{trg:"ぶっか",src:"prices (general)"}]},

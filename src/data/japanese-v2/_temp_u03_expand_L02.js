@@ -1,4 +1,4 @@
-// Unit 03 Expansion L04 — Kono/Sono/Ano + Location Words
+// Unit 03 Expansion L04. Kono/Sono/Ano + Location Words
 const LESSON_4 = {
   id:"jav2_u3l4", title:"この・その・あの", icon:"👉", xp:15, board:true,
   steps:[
@@ -57,8 +57,8 @@ const LESSON_4 = {
      exampleSrc:"A: Is it cold outside?\nB: Yes, please wear a coat.",
      funFact:"外 (soto/gai/ge) means outside and also foreign. Gaijin (外人, outside-person) means foreigner. Gaikoku (外国, outside-country) means foreign country. The concept of inside (uchi) vs outside (soto) is fundamental to Japanese social psychology."},
 
-    {type:"fb", s:"かばんの___にほんがあります。",
-     a:["なか"],
+    {type:"fb", s:"かばんの{1}にほんがあります。\n(There is a book inside the bag.)",
+     a:"なか",
      opts:["なか","うえ","した","そと"],
      hint:"The location word meaning 'inside' that describes what is within a container.",
      sSrc:"There is a book inside the bag."},
@@ -104,8 +104,8 @@ const LESSON_4 = {
       {trg:"そと", src:"outside"}
     ]},
 
-    {type:"fb", s:"___ひとはだれですか？",
-     a:["あの"],
+    {type:"fb", s:"{1}ひとはだれですか？\n(Who is that person over there?)",
+     a:"あの",
      opts:["あの","あれ","あそこ","あり"],
      hint:"The demonstrative used before a noun to mean 'that person over there.'",
      sSrc:"Who is that person (over there)?"},

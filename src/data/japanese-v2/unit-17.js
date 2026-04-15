@@ -1,6 +1,6 @@
-// Japanese V2 Unit 17 — うけみ (Passive Voice)
+// Japanese V2 Unit 17. うけみ (Passive Voice)
 import EXP_L3 from './_temp_u17_expand_L01.js';import EXP_L4 from './_temp_u17_expand_L02.js';import EXP_L5 from './_temp_u17_expand_L03.js';
-// Level: B1.1 — JLPT N3 aligned.
+// Level: B1.1. JLPT N3 aligned.
 // Passive formation (られる/あれる), direct passive, adversity passive.
 
 const UNIT_17 = {
@@ -59,7 +59,7 @@ const UNIT_17 = {
    deepDive:{title:"Why Japanese Loves Passive",
     text:"English avoids passive ('mistakes were made' sounds evasive), but Japanese embraces it. Passive naturally puts the experiencer first, which fits Japanese communication style. Saying 'I was praised' feels more humble than 'the teacher praised me.' The passive also avoids directly naming the agent when it is obvious or when naming them would be impolite."}},
 
-  {type:"fb", s:"リーダーに___ました。\n(I was chosen as the leader.)", a:"えらばれ", opts:["えらばれ","えらんで","えらび","えらぶ"], sSrc:"I was chosen as the leader.",
+  {type:"fb", s:"リーダーに{1}ました。\n(I was chosen as the leader.)", a:"えらばれ", opts:["えらばれ","えらんで","えらび","えらぶ"], sSrc:"I was chosen as the leader.",
    hint:"The passive form of えらぶ (to choose). Group 1 passive: あ-row + れる."},
 
   {type:"teach", trg:"たのまれる", src:"to be asked (a favor) / to be requested", pos:"verb", gender:null,
@@ -81,7 +81,7 @@ const UNIT_17 = {
 
   {type:"match", pairs:[{trg:"よばれる",src:"to be called"},{trg:"たのまれる",src:"to be asked"},{trg:"つくられる",src:"to be made"},{trg:"される",src:"passive of する"}]},
 
-  {type:"fb", s:"パーティーに___されました。\n(I was invited to a party.)", a:"しょうたい", opts:["しょうたい","しょうかい","れんらく","あんない"], sSrc:"I was invited to a party.",
+  {type:"fb", s:"パーティーに{1}されました。\n(I was invited to a party.)", a:"しょうたい", opts:["しょうたい","しょうかい","れんらく","あんない"], sSrc:"I was invited to a party.",
    hint:"The する-verb meaning 'to invite' formally. 招 (beckon) + 待 (wait)."},
 
   {type:"mc", q:"How do you form the passive of a Group 2 verb like たべる?", opts:["たべされる","たべれる","たべられる","たべさせる"], ans:"たべられる",
@@ -138,7 +138,7 @@ const UNIT_17 = {
    deepDive:{title:"The Suffering Passive",
     text:"Linguists call this the 'suffering passive' or 'indirect passive.' It exists only in Japanese (and a few related languages). The speaker is not the grammatical object of the verb. Instead, the speaker is affected by the entire event.\n\nPattern: [experiencer] は [agent] に [verb-passive]\nわたしは あめに ふられた。\n(I [topic] rain [agent] was-fallen-on.)\n\nThis construction is very productive. Almost any verb can be put into adversity passive to express that you were inconvenienced."}},
 
-  {type:"fb", s:"でんしゃであしを___ました。\n(I had my foot stepped on in the train.)", a:"ふまれ", opts:["ふまれ","ふんで","ふみ","ふまえ"], sSrc:"I had my foot stepped on in the train.",
+  {type:"fb", s:"でんしゃであしを{1}ました。\n(I had my foot stepped on in the train.)", a:"ふまれ", opts:["ふまれ","ふんで","ふみ","ふまえ"], sSrc:"I had my foot stepped on in the train.",
    hint:"The passive form of ふむ (to step on). Group 1 passive: あ-row + れる."},
 
   {type:"teach", trg:"わらわれる", src:"to be laughed at", pos:"verb", gender:null,
@@ -158,7 +158,7 @@ const UNIT_17 = {
 
   {type:"match", pairs:[{trg:"あめにふられる",src:"to get rained on"},{trg:"なかれる",src:"to have someone cry on you"},{trg:"さわがれる",src:"to be disturbed by noise"},{trg:"ぬすまれる",src:"to have something stolen"}]},
 
-  {type:"fb", s:"はつおんを___てはずかしかったです。\n(I was laughed at for my pronunciation and was embarrassed.)", a:"わらわれ", opts:["わらわれ","わらって","わらい","わらった"], sSrc:"I was laughed at for my pronunciation and was embarrassed.",
+  {type:"fb", s:"はつおんを{1}てはずかしかったです。\n(I was laughed at for my pronunciation and was embarrassed.)", a:"わらわれ", opts:["わらわれ","わらって","わらい","わらった"], sSrc:"I was laughed at for my pronunciation and was embarrassed.",
    hint:"The passive て-form of わらう (to laugh). Group 1 passive: わらう → わらわれる."},
 
   {type:"match", pairs:[{trg:"ふまれる",src:"to be stepped on"},{trg:"わらわれる",src:"to be laughed at"},{trg:"しなれる",src:"to suffer someone's death"},{trg:"はずかしい",src:"embarrassing"}]},

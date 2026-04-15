@@ -1,4 +1,4 @@
-// Unit 26 Expansion — Lesson 4: Editorial Vocabulary
+// Unit 26 Expansion. Lesson 4: Editorial Vocabulary
 const LESSON_4 = {
   id:"jav2_u26l4", title:"ろんぴょうのことば", icon:"🖊️", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_4 = {
      exampleSrc:"A: This argument lacks persuasiveness.\nB: More data is needed.",
      funFact:"説得力 combines 説得 (persuasion) and 力 (power). Japanese values evidence-based persuasion over emotional appeals in formal contexts. The phrase せっとくりょくのある (persuasive) is a high compliment for an argument. Adding りょく (power) to nouns is productive: 想像力 (imagination), 集中力 (concentration), 表現力 (expressiveness)."},
 
-    {type:"fb", s:"ちょしゃはかんきょうほごのじゅうようせいを___しています。\n(The author asserts the importance of environmental protection.)", a:"しゅちょう", opts:["しゅちょう","ひはん","えいきょう","ほうどう"], sSrc:"The author asserts the importance of environmental protection.",
+    {type:"fb", s:"ちょしゃはかんきょうほごのじゅうようせいを{1}しています。\n(The author asserts the importance of environmental protection.)", a:"しゅちょう", opts:["しゅちょう","ひはん","えいきょう","ほうどう"], sSrc:"The author asserts the importance of environmental protection.",
      hint:"The noun for formally stating and defending a position or thesis."},
 
     {type:"teach", trg:"こんきょ", src:"grounds / basis / evidence", pos:"noun", gender:null,
@@ -63,12 +63,12 @@ const LESSON_4 = {
      exampleSrc:"A: Public opinion is divided on this issue.\nB: It is about half in favor and half against.",
      funFact:"世論 has two accepted readings: よろん and せろん. Historically, せろん was standard, but よろん has become more common in modern usage. NHK uses both. よろんちょうさ (opinion polls) drive political coverage. Japan's major newspapers and broadcasters conduct regular polls, and the results often lead the news."},
 
-    {type:"fb", s:"わかいひとのしんぶんばなれの___がつづいています。\n(The trend of young people moving away from newspapers continues.)", a:"けいこう", opts:["けいこう","どうこう","えいきょう","よろん"], sSrc:"The trend of young people moving away from newspapers continues.",
+    {type:"fb", s:"わかいひとのしんぶんばなれの{1}がつづいています。\n(The trend of young people moving away from newspapers continues.)", a:"けいこう", opts:["けいこう","どうこう","えいきょう","よろん"], sSrc:"The trend of young people moving away from newspapers continues.",
      hint:"The noun for an established tendency or pattern that has been observed over time."},
 
     {type:"match", pairs:[{trg:"ひはん",src:"criticism"},{trg:"えいきょう",src:"influence"},{trg:"どうこう",src:"trend (ongoing)"},{trg:"しゅちょう",src:"assertion"}]},
 
-    {type:"fb", s:"このせいさくはけいざいにおおきな___をあたえるでしょう。\n(This policy will have a major impact on the economy.)", a:"えいきょう", opts:["えいきょう","ひはん","よろん","こんきょ"], sSrc:"This policy will have a major impact on the economy.",
+    {type:"fb", s:"このせいさくはけいざいにおおきな{1}をあたえるでしょう。\n(This policy will have a major impact on the economy.)", a:"えいきょう", opts:["えいきょう","ひはん","よろん","こんきょ"], sSrc:"This policy will have a major impact on the economy.",
      hint:"The noun for the shadow-and-echo effect one thing has on another."},
 
     {type:"match", pairs:[{trg:"せっとくりょく",src:"persuasiveness"},{trg:"こんきょ",src:"evidence/grounds"},{trg:"けいこう",src:"tendency"},{trg:"よろん",src:"public opinion"}]},

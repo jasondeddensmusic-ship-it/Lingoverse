@@ -1,4 +1,4 @@
-// Unit 02 Expansion — Lesson 5: Daily Routine & Schedule
+// Unit 02 Expansion. Lesson 5: Daily Routine & Schedule
 // Theme: Time expressions in context, daily activities, frequency
 
 const LESSON_5 = {

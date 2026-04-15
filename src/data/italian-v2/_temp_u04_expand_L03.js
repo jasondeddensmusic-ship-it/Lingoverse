@@ -1,4 +1,4 @@
-// Unit 04 Expansion — Lesson 5: Shopping for Food
+// Unit 04 Expansion. Lesson 5: Shopping for Food
 // Theme: Grocery shopping, quantities, market vocabulary
 
 const LESSON_5 = {

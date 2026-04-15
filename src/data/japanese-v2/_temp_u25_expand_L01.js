@@ -1,4 +1,4 @@
-// Unit 25 Expansion — Lesson 3: Meeting Protocol
+// Unit 25 Expansion. Lesson 3: Meeting Protocol
 const LESSON_3 = {
   id:"jav2_u25l3", title:"かいぎのマナー", icon:"🤝", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_3 = {
      exampleSrc:"A: Who is in charge of this project?\nB: Yamada is in charge.",
      funFact:"担当 uses 担 (carry/shoulder) and 当 (hit/apply). Being たんとう means you carry the responsibility on your shoulders. In Japanese companies, every task has a clear たんとうしゃ. Business cards often list the person's たんとう area. When calling a company, asking for the たんとうしゃ of a specific matter gets you to the right person."},
 
-    {type:"fb", s:"きょうのかいぎの___はだれですか？\n(Who is chairing today's meeting?)", a:"しかい", opts:["しかい","ぎだい","ぎじろく","たんとう"], sSrc:"Who is chairing today's meeting?",
+    {type:"fb", s:"きょうのかいぎの{1}はだれですか？\n(Who is chairing today's meeting?)", a:"しかい", opts:["しかい","ぎだい","ぎじろく","たんとう"], sSrc:"Who is chairing today's meeting?",
      hint:"The role of the person who runs and manages the flow of a meeting."},
 
     {type:"teach", trg:"けつろん", src:"conclusion / decision", pos:"noun", gender:null,
@@ -69,7 +69,7 @@ const LESSON_3 = {
      exampleSrc:"A: There is a regular meeting every Monday.\nB: From what time?",
      funFact:"Japanese companies love ていれいかいぎ. Weekly team meetings, monthly department meetings, quarterly reviews. The regularity ensures information flow, but critics say excessive meetings reduce productivity. Some companies have introduced かいぎなしデー (no-meeting days) to give employees uninterrupted work time."},
 
-    {type:"fb", s:"あたらしいていあんを___することになりました。\n(It was decided to adopt the new proposal.)", a:"さいよう", opts:["さいよう","しょうにん","ほうこく","ぎじろく"], sSrc:"It was decided to adopt the new proposal.",
+    {type:"fb", s:"あたらしいていあんを{1}することになりました。\n(It was decided to adopt the new proposal.)", a:"さいよう", opts:["さいよう","しょうにん","ほうこく","ぎじろく"], sSrc:"It was decided to adopt the new proposal.",
      hint:"The verb-noun meaning to select something for use, applied to plans and people alike."},
 
     {type:"match", pairs:[{trg:"ぎじろく",src:"meeting minutes"},{trg:"しかい",src:"facilitator"},{trg:"ぎだい",src:"agenda item"},{trg:"けつろん",src:"conclusion"}]},

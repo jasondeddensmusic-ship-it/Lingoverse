@@ -1,4 +1,4 @@
-// Unit 19 Expansion — Lesson 4: Il vocabolario delle relazioni
+// Unit 19 Expansion. Lesson 4: Il vocabolario delle relazioni
 const LESSON_4 = {
   id:"itv2_u19l4", title:"Il vocabolario delle relazioni", icon:"💞", xp:15, board:true,
   steps:[

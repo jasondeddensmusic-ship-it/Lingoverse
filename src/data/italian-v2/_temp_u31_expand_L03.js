@@ -1,4 +1,4 @@
-// Unit 31 Expansion — Lesson 6: La propaganda e la persuasione
+// Unit 31 Expansion. Lesson 6: La propaganda e la persuasione
 const LESSON_6 = {
   id:"itv2_u31l6", title:"La propaganda e la persuasione", icon:"📢", xp:15, board:true,
   steps:[

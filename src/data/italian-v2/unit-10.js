@@ -1,4 +1,4 @@
-// Italian V2 Unit 10 — I viaggi (Travel) (A2.2)
+// Italian V2 Unit 10. I viaggi (Travel) (A2.2)
 // CILS/CELI A2 aligned. Travel vocabulary, hotels, transport.
 import EXP_10_L1 from './_temp_u10_expand_L01.js';import EXP_10_L2 from './_temp_u10_expand_L02.js';import EXP_10_L3 from './_temp_u10_expand_L03.js';
 

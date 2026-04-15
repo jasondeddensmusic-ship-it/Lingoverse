@@ -1,4 +1,4 @@
-// Unit 21 Expansion — Lesson 6: Il condizionale passato
+// Unit 21 Expansion. Lesson 6: Il condizionale passato
 const LESSON_6 = {
   id:"itv2_u21l6", title:"Il condizionale passato", icon:"⏳", xp:15, board:true,
   steps:[

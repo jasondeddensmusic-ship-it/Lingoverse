@@ -1,4 +1,4 @@
-// Unit 14 Expansion — Lesson 5: Workplace Culture
+// Unit 14 Expansion. Lesson 5: Workplace Culture
 const LESSON_5 = {
   id:"itv2_u14l5", title:"La cultura aziendale", icon:"🤝", xp:15, board:true,
   steps:[

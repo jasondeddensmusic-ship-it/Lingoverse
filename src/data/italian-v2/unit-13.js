@@ -1,4 +1,4 @@
-// Italian V2 Unit 13 — Il congiuntivo (The Subjunctive) (B1.1)
+// Italian V2 Unit 13. Il congiuntivo (The Subjunctive) (B1.1)
 import EXP_L4 from './_temp_u13_expand_L01.js';import EXP_L5 from './_temp_u13_expand_L02.js';import EXP_L6 from './_temp_u13_expand_L03.js';
 // CILS/CELI B1 aligned. Subjunctive triggers, regular and irregular forms.
 
@@ -133,7 +133,7 @@ const UNIT_13 = {
       {type:"mc", q:"Why does 'spero che' require the subjunctive?",
        opts:["Because it is a direct command to someone","Because the action happened in the recent past","Because 'sperare' conjugates in an irregular way","Because hope implies uncertainty about the outcome"],
        ans:"Because hope implies uncertainty about the outcome",
-       hint:"The subjunctive marks subjectivity. 'Sperare' expresses a wish whose fulfillment is not guaranteed — it sits alongside doubt and opinion verbs."}
+       hint:"The subjunctive marks subjectivity. 'Sperare' expresses a wish whose fulfillment is not guaranteed. it sits alongside doubt and opinion verbs."}
     ]},
 
     {id:"itv2_u13l2", title:"Che scriva, che dorma", icon:"✍️", xp:15, board:true, steps:[
