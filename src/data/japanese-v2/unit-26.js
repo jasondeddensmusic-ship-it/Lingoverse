@@ -32,8 +32,8 @@ const UNIT_26 = {
    exampleSrc:"A: This month's magazine has a special feature on environmental issues.\nB: I would like to read it.",
    funFact:"特集 combines 特 (special) and 集 (gather/collect). Japanese magazines love とくしゅう issues. Fashion magazines have seasonal とくしゅう, news magazines have topical ones. TV networks run とくしゅう番組 (special feature programs) on holidays, often 3-4 hours long."},
 
-  {type:"mc", q:"ほうどうきかん means:", opts:["A newspaper article","A news organization","A television program","A press conference"], ans:"A news organization",
-   hint:"ほうどう (reporting) + きかん (institution/organization) combines into a term for media outlets."},
+  {type:"mc", q:"ほうどうきかん means:", opts:["A newspaper article","An entity dedicated to covering events","A television program","A press conference"], ans:"An entity dedicated to covering events",
+   hint:"ほうどう (reporting) + きかん (institution) form a compound for bodies producing journalism."},
 
   {type:"teach", trg:"しゃせつ", src:"editorial / opinion column", pos:"noun", gender:null,
    note:"Kanji: 社説. 社 (company/newspaper) + 説 (opinion/theory).\nThe newspaper's official stance on an issue.",
@@ -56,8 +56,8 @@ const UNIT_26 = {
    exampleSrc:"A: I buy this magazine every month.\nB: What kind of magazine is it?",
    funFact:"雑誌 uses 雑 (miscellaneous) and 誌 (journal), reflecting how magazines cover varied topics. Japan's magazine industry is enormous. Convenience stores devote entire aisles to ざっし. The category of 漫画雑誌 (manga magazines) like Weekly Shonen Jump sells millions weekly."},
 
-  {type:"mc", q:"しゃせつ is:", opts:["A news reporter","A newspaper's editorial opinion","A magazine subscription","A breaking news alert"], ans:"A newspaper's editorial opinion",
-   hint:"The kanji 社 (company) + 説 (opinion) reveals this is the newspaper's official stance."},
+  {type:"mc", q:"しゃせつ is:", opts:["A news reporter","The official stance published by a paper","A magazine subscription","A breaking news alert"], ans:"The official stance published by a paper",
+   hint:"社 (company) + 説 (theory) combine to mean the publication's formal position on an issue."},
 
   {type:"match", pairs:[{trg:"ほうどう",src:"news reporting"},{trg:"きじ",src:"article"},{trg:"とくしゅう",src:"special feature"},{trg:"しゃせつ",src:"editorial"}]},
 
@@ -91,8 +91,8 @@ const UNIT_26 = {
    exampleSrc:"A: I heard there will be an announcement at tomorrow's press conference.\nB: I wonder what the content will be.",
    funFact:"発表 uses 発 (emit/start) and 表 (surface/express). This word bridges business and media: students give はっぴょう in class, companies はっぴょう products, governments はっぴょう policies. The related 記者会見 (kisha kaiken, press conference) is where officials make formal はっぴょう to the media."},
 
-  {type:"mc", q:"こっかいであたらしいほうあんがしんぎされている means:", opts:["Parliament rejected the new bill","A new bill is being deliberated in parliament","Parliament announced a new law","The parliament building is new"], ans:"A new bill is being deliberated in parliament",
-   hint:"しんぎされている is the passive progressive form, meaning something is being discussed."},
+  {type:"mc", q:"こっかいであたらしいほうあんがしんぎされている means:", opts:["The legislature rejected the proposed law","A proposed law is now under examination in the legislature","The legislature announced a passed law","The legislature complex was recently built"], ans:"A proposed law is now under examination in the legislature",
+   hint:"しんぎされている is the passive progressive, showing an ongoing deliberation process."},
 
   {type:"teach", trg:"ほうあん", src:"bill / legislative proposal", pos:"noun", gender:null,
    note:"Kanji: 法案. 法 (law) + 案 (proposal).\nほうあんをかけつする = to pass a bill into law.",
