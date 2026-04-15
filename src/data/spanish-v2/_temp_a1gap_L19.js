@@ -46,7 +46,7 @@ const LESSON_19 = {
      q:"\u00bfQué es el aperitivo en España?",
      opts:["Pre-meal drinks and snacks","The main course","Dessert","Breakfast"],
      ans:"Pre-meal drinks and snacks",
-     hint:"This is a social ritual, usually before Sunday lunch, involving small dishes and drinks at a bar."},
+     hint:"This is a social ritual, usually before Sunday lunch, involving small dishes and d... at a bar."},
 
     {type:"teach", trg:"la alimentación", src:"diet, nutrition", pos:"noun", gender:"f",
      note:"Feminine noun. Alimentación equilibrada = balanced diet.\nAlso: grocery section.",

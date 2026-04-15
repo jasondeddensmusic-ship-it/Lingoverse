@@ -84,7 +84,7 @@ const LESSON_16 = {id:"nlv2_b2gB_l16", title:"Kunst en Cultuur", icon:"\u{1F3A8}
 {type:"mc", q:"'Een handkus' is:",
  opts:["A high five","A formal hand kiss greeting","A handshake","A wave"],
  ans:"A formal hand kiss greeting",
- hint:"An old-fashioned, aristocratic greeting gesture"},
+ hint:"An old-fashioned, aristocratic g... gesture"},
 
 {type:"fb", s:"Er is {1} invloed in Zuid-Limburg.",
  a:["Keltische"], opts:["Keltische","Nederlandse","Franse","Duitse"],

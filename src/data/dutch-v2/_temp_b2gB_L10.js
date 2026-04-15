@@ -72,7 +72,7 @@ const LESSON_10 = {id:"nlv2_b2gB_l10", title:"Samenstellingen en Structuren", ic
 {type:"mc", q:"The article of a Dutch compound comes from:",
  opts:["The first word","The last word","Always 'de'","Always 'het'"],
  ans:"The last word",
- hint:"The head noun (last word) determines the gender: de stad > de kennisstad"},
+ hint:"The head noun (l... w...) determines the gender: de stad > de kennisstad"},
 
 {type:"fb", s:"Het document ligt in de {1}.",
  a:["kluis"], opts:["kluis","kluif","knelpunt","kennisstad"],
@@ -89,7 +89,7 @@ const LESSON_10 = {id:"nlv2_b2gB_l10", title:"Samenstellingen en Structuren", ic
 {type:"mc", q:"'Een krachtmeting' is:",
  opts:["A gym workout","A trial of strength or showdown","A measurement tool","A physics experiment"],
  ans:"A trial of strength or showdown",
- hint:"Kracht (strength) + meting (measurement). Used for decisive confrontations."},
+ hint:"Kracht (s...) + meting (measurement). Used for decisive confrontations."},
 
 {type:"fb", s:"{1} is een stad gebouwd rond universiteiten en onderzoek.",
  a:["Een kennisstad"], opts:["Een kennisstad","Een industriestad","Een knelpunt","Een krachtmeting"],

@@ -106,7 +106,7 @@ const LESSON_15 = {
     {type:"mc", q:"Wat betekent 'eerdergenoemd'?",
      opts:["later genoemd","eerder gestopt","eerder vermeld","eerder begonnen"],
      ans:"eerder vermeld",
-     hint:"A compound: eerder (earlier) + genoemd (named). Something that was mentioned before."},
+     hint:"A compound: e... (earlier) + genoemd (named). Something that was mentioned before."},
     {type:"fb", s:"Ze {1} met die zanger.", a:["dwepen"],
      opts:["dwepen","dolen","denderen","droppen"],
      hint:"A verb meaning to idolize or be excessively devoted, with a slightly mocking tone.",

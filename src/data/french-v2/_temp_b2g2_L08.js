@@ -139,7 +139,7 @@ const LESSON_8 = {
      q:"Que signifie 'encastrer' ?",
      opts:["integrer dans une surface","peindre un mur","demolir un batiment","eclairer une piece"],
      ans:"integrer dans une surface",
-     hint:"To fit something flush into a wall or surface. Think of built-in appliances."},
+     hint:"To fit something flush into a wall or s.... Think of built-in appliances."},
 
     {type:"fb",
      s:"Le {1} de cette montre ancienne est en argent massif.",

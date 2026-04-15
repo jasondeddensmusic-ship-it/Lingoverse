@@ -57,7 +57,7 @@ const LESSON_18 = {id:"nlv2_b2gB_l18", title:"Sport en Vrije Tijd", icon:"\u{26B
 {type:"mc", q:"Korfbal is bijzonder omdat:",
  opts:["It's played on ice","Men and women play together on one team","It uses no ball","Only the Dutch play it"],
  ans:"Men and women play together on one team",
- hint:"One of the few team sports with mixed-gender teams"},
+ hint:"One of the few t... sports with mixed-gender teams"},
 
 {type:"fb", s:"Zullen we een {1} nemen in de zee?",
  a:["duik"], opts:["duik","kampplaats","krokusvakantie","korfbal"],
@@ -84,7 +84,7 @@ const LESSON_18 = {id:"nlv2_b2gB_l18", title:"Sport en Vrije Tijd", icon:"\u{26B
 {type:"mc", q:"'Hink-stap-springen' beschrijft:",
  opts:["A children's game","The triple jump in athletics","A dance move","A way of walking"],
  ans:"The triple jump in athletics",
- hint:"Hop, step, jump. The three phases of this track and field event."},
+ hint:"Hop, step, j.... The three phases of this track and field event."},
 
 {type:"fb", s:"De {1} trekt zich terug, we hebben een probleem.",
  a:["hoofdsponsor"], opts:["hoofdsponsor","hoofdact","hobbyschrijver","kampplaats"],

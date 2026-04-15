@@ -40,7 +40,7 @@ const LESSON_1 = {
      q:"Wat betekent 'de huizenprijs'?",
      opts:["De prijs van woningen","De prijs van meubels","De huurkosten per maand","De verkoopprijs van grond"],
      ans:"De prijs van woningen",
-     hint:"Think about the compound: huizen means houses, and prijs means price."},
+     hint:"Think about the compound: huizen means houses, and p... means price."},
 
     {type:"teach", trg:"de huizenruil", src:"the house swap", pos:"noun", gender:"c",
      note:"Compound: huizen (houses) + ruil (swap, exchange).\nPopular for holiday exchanges.",

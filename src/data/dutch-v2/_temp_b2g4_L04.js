@@ -107,7 +107,7 @@ const LESSON_4 = {
     {type:"mc", q:"What does 'drijfveer' literally mean?",
      opts:["driving wheel","driving spring","driving wind","driving horse"],
      ans:"driving spring",
-     hint:"Compound: drijf (drive) + veer (spring, like a clock spring)."},
+     hint:"Compound: drijf (drive) + veer (s..., like a clock s...)."},
     {type:"fb", s:"De {1} onder het personeel is zorgwekkend.", a:["demotivatie"],
      opts:["demotivatie","euforie","gastvrijheid","eerzucht"],
      hint:"The state of being unmotivated, the opposite of motivation.",
@@ -133,7 +133,7 @@ const LESSON_4 = {
     {type:"mc", q:"What does 'gastvrijheid' literally translate to?",
      opts:["guest freedom","guest friendship","guest house","guest gift"],
      ans:"guest freedom",
-     hint:"Compound: gast (guest) + vrijheid (freedom)."},
+     hint:"Compound: gast (g...) + vrijheid (f...)."},
     {type:"match", pairs:[
       {trg:"gave", src:"gift/talent"},
       {trg:"euforie", src:"euphoria"},

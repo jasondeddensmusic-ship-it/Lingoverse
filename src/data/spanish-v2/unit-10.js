@@ -11,10 +11,10 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
         {type:"teach",trg:"fueron",src:"they were / they went",pos:"verb",gender:null,phonetic:"FWEH-ron",note:"Third person plural. Also used for ustedes.",example:"A: ¿Fueron tus padres a la fiesta?\nB: Sí, fueron los primeros en llegar.\nA: ¡Fueron muy puntuales!",exampleSrc:"A: Did your parents go to the party?\nB: Yes, they were the first to arrive.\nA: They were very punctual!",funFact:"Spanish verbs encode the subject in their ending, so pronouns are often dropped."},
         {type:"tip",title:"Ser and ir: same past, different meaning",text:"Ser (to be) and ir (to go) share identical past tense forms:\n\nyo fui, tú fuiste, él/ella fue, nosotros fuimos, ellos fueron\n\nHow to tell them apart:\n- Ir uses 'a' + place: Fui al cine (I went to the cinema)\n- Ser describes identity: Fue un buen día (It was a good day)\n\nContext always makes the meaning clear."},
         {type:"mc",q:"Ayer yo ___ al supermercado. (ir)",opts:["fui","fue","fuiste","fueron"],ans:"fui",hint:"First person singular, the speaker went somewhere"},
-        {type:"mc",q:"La fiesta ___ muy divertida. (ser)",opts:["fue","fui","fuimos","fueron"],ans:"fue",hint:"Third person singular describing the party"},
+        {type:"mc",q:"La fiesta ___ muy divertida. (ser)",opts:["fui","fue","fuimos","fueron"],ans:"fue",hint:"Third person singular describing the party"},
         {type:"fb",opts:["fuimos","fueron","fui","fue"],hint:"First person plural, we went to the beach",s:"Nosotros {1} a la playa el sábado.",a:"fuimos"},
         {type:"fb",opts:["fuiste","fue","fui","fueron"],hint:"Asking 'you' informally about going somewhere",s:"¿Tú {1} al concierto anoche?",a:"fuiste"},
-        {type:"mc",q:"Mis abuelos ___ profesores. (ser, past)",opts:["fueron","fuimos","fue","fui"],ans:"fueron",hint:"Third person plural describing what they were"},
+        {type:"mc",q:"Mis abuelos ___ profesores. (ser, past)",opts:["fue","fuimos","fueron","fui"],ans:"fueron",hint:"Third person plural describing what they were"},
         {type:"fb",opts:["fue","fui","fueron","fuimos"],hint:"Third person singular describing an identity",s:"Ella {1} la mejor estudiante de la clase.",a:"fue"},
         {type:"match",pairs:[
           {trg:"Fui al cine",src:"I went to the cinema"},
@@ -23,7 +23,7 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
           {trg:"Fueron mis amigos",src:"They were my friends"},
           {trg:"¿Fuiste tú?",src:"Was it you?"}
         ]},
-        {type:"mc",q:"Which sentence uses 'ir' (to go), not 'ser' (to be)?",opts:["Fui al mercado","Fue increíble","Fueron buenos estudiantes","Fue mi cumpleaños"],ans:"Fui al mercado",hint:"Look for movement toward a place with 'a'"},
+        {type:"mc",q:"Which sentence uses 'ir' (to go), not 'ser' (to be)?",opts:["Fue mi cumpleaños","Fue increíble","Fueron buenos estudiantes","Fui al mercado"],ans:"Fui al mercado",hint:"Look for movement toward a place with 'a'"},
         {type:"fb",opts:["fue","fui","fuiste","fueron"],hint:"Third person, describing what the trip was like",s:"El viaje {1} fantástico.",a:"fue"},
         {type:"drag_fill",hint:"First 'I went', then 'it was' describing the day",s:"Ayer {1} al parque y {2} un día perfecto.",blanks:{"1":"fui","2":"fue"},pool:["fui","fue","fuimos","fueron"]},
         {type:"mc",q:"Ellos ___ a México el año pasado.",opts:["fueron","fuimos","fue","fui"],ans:"fueron",hint:"Third person plural, they traveled somewhere"},
@@ -50,7 +50,7 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
         ],label:"Irregular stem: hic- (hiz- for él/ella)"},
         {type:"mc",q:"Ayer yo ___ mucho trabajo. (tener)",opts:["tuve","tuvo","tuviste","tuvieron"],ans:"tuve",hint:"First person singular past of tener"},
         {type:"fb",opts:["hizo","hice","hiciste","hicieron"],hint:"Third person singular past of hacer",s:"Ella {1} una fiesta el viernes.",a:"hizo"},
-        {type:"mc",q:"¿Qué ___ tú el fin de semana? (hacer)",opts:["hiciste","hicieron","hice","hizo"],ans:"hiciste",hint:"Asking 'you' informally what you did"},
+        {type:"mc",q:"¿Qué ___ tú el fin de semana? (hacer)",opts:["hicieron","hiciste","hice","hizo"],ans:"hiciste",hint:"Asking 'you' informally what you did"},
         {type:"fb",opts:["tuvimos","tuvieron","tuvo","tuve"],hint:"First person plural, we had to wait",s:"Nosotros {1} que esperar dos horas.",a:"tuvimos"},
         {type:"match",pairs:[
           {trg:"Tuve suerte",src:"I had luck"},
@@ -59,10 +59,10 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
           {trg:"¿Qué hiciste?",src:"What did you do?"},
           {trg:"Tuvo un problema",src:"He/she had a problem"}
         ]},
-        {type:"mc",q:"Los niños ___ un dibujo para su madre. (hacer)",opts:["hicieron","hicimos","hizo","hice"],ans:"hicieron",hint:"Third person plural, the children made something"},
+        {type:"mc",q:"Los niños ___ un dibujo para su madre. (hacer)",opts:["hizo","hicimos","hicieron","hice"],ans:"hicieron",hint:"Third person plural, the children made something"},
         {type:"fb",opts:["tuvo","tuve","tuvimos","tuvieron"],hint:"Third person singular, describing grandfather's life",s:"Mi abuelo {1} una vida muy interesante.",a:"tuvo"},
         {type:"drag_fill",hint:"First blank: weather (hacer), second: what I did",s:"Ayer {1} mucho frío y no {2} nada especial.",blanks:{"1":"hizo","2":"hice"},pool:["hizo","hice","tuve","tuvo"]},
-        {type:"mc",q:"Mis padres ___ tres hijos. (tener, past)",opts:["tuvieron","tuvimos","tuvo","tuve"],ans:"tuvieron",hint:"Third person plural, they had children"},
+        {type:"mc",q:"Mis padres ___ tres hijos. (tener, past)",opts:["tuve","tuvimos","tuvo","tuvieron"],ans:"tuvieron",hint:"Third person plural, they had children"},
         {type:"fb",opts:["hiciste","hizo","hice","hicieron"],hint:"Second person singular, asking what you prepared",s:"¿Qué {1} tú para la cena anoche? (hacer)",a:"hiciste"}
   ]},
   {id:"esp10l3",title:"Estuve en casa",icon:"🏠",xp:15,board:true,steps:[
@@ -81,7 +81,7 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
         ],label:"Irregular stem: pud-"},
         {type:"mc",q:"Ayer yo ___ en la oficina hasta las nueve. (estar)",opts:["estuve","estuvo","estuvimos","estuvieron"],ans:"estuve",hint:"First person singular, describing where you were"},
         {type:"fb",opts:["pudo","pude","pudimos","pudieron"],hint:"Third person singular, she was unable to come",s:"Ella no {1} venir a la fiesta. (poder)",a:"pudo"},
-        {type:"mc",q:"Nosotros ___ en Madrid la semana pasada. (estar)",opts:["estuvimos","estuvieron","estuvo","estuve"],ans:"estuvimos",hint:"First person plural, where we were located"},
+        {type:"mc",q:"Nosotros ___ en Madrid la semana pasada. (estar)",opts:["estuvieron","estuvimos","estuvo","estuve"],ans:"estuvimos",hint:"First person plural, where we were located"},
         {type:"fb",opts:["pudiste","pudo","pude","pudieron"],hint:"Asking 'you' informally if you managed to do something",s:"¿Tú {1} encontrar las llaves? (poder)",a:"pudiste"},
         {type:"match",pairs:[
           {trg:"Estuve enfermo",src:"I was sick"},
@@ -90,10 +90,10 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
           {trg:"¿Pudiste llamar?",src:"Were you able to call?"},
           {trg:"Estuvieron aquí",src:"They were here"}
         ]},
-        {type:"mc",q:"Los estudiantes no ___ terminar el examen. (poder)",opts:["pudieron","pudimos","pudo","pude"],ans:"pudieron",hint:"Third person plural, the students couldn't finish"},
+        {type:"mc",q:"Los estudiantes no ___ terminar el examen. (poder)",opts:["pudo","pudimos","pudieron","pude"],ans:"pudieron",hint:"Third person plural, the students couldn't finish"},
         {type:"drag_fill",hint:"First: where I was (estar), second: what I couldn't do (poder)",s:"Ayer {1} en casa porque no {2} salir.",blanks:{"1":"estuve","2":"pude"},pool:["estuve","estuvo","pude","pudo"]},
         {type:"fb",opts:["estuvo","estuve","estuvimos","estuvieron"],hint:"Third person singular, describing the boss's state",s:"Mi jefe {1} muy contento con el resultado.",a:"estuvo"},
-        {type:"mc",q:"¿Tú ___ hablar con el director? (poder)",opts:["pudiste","pudo","pude","pudieron"],ans:"pudiste",hint:"Second person singular, asking if you managed something"},
+        {type:"mc",q:"¿Tú ___ hablar con el director? (poder)",opts:["pudieron","pudo","pude","pudiste"],ans:"pudiste",hint:"Second person singular, asking if you managed something"},
         {type:"fb",opts:["estuvieron","estuvimos","estuvo","estuve"],hint:"Third person plural, the tourists were at a location",s:"Los turistas {1} en el hotel toda la tarde. (estar)",a:"estuvieron"}
   ]},
   {id:"esp10l4",title:"Puse la mesa",icon:"🍽️",xp:15,board:true,steps:[
@@ -111,7 +111,7 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
         {type:"tip",title:"Meaning shifts in the past",text:"Some verbs change meaning in the pretérito:\n\nsaber: normally 'to know' but in past = 'found out, discovered'\n- Supe la respuesta = I found out the answer\n\npoder: normally 'to be able' but in past = 'managed to' or 'failed to'\n- Pude hacerlo = I managed to do it\n- No pude hacerlo = I failed to do it\n\nThese shifts happen because the pretérito marks completed actions."},
         {type:"mc",q:"¿Dónde ___ tú el libro? (poner)",opts:["pusiste","pusieron","puse","puso"],ans:"pusiste",hint:"Second person singular, asking where you placed it"},
         {type:"fb",opts:["supe","supo","supimos","supieron"],hint:"First person singular, I discovered the news",s:"Yo {1} la noticia esta mañana. (saber)",a:"supe"},
-        {type:"mc",q:"Ella ___ las flores en un vaso. (poner)",opts:["puso","puse","pusieron","pusimos"],ans:"puso",hint:"Third person singular, she placed something"},
+        {type:"mc",q:"Ella ___ las flores en un vaso. (poner)",opts:["puse","puso","pusieron","pusimos"],ans:"puso",hint:"Third person singular, she placed something"},
         {type:"fb",opts:["supimos","supieron","supo","supe"],hint:"First person plural, we didn't find out until yesterday",s:"Nosotros no {1} nada hasta ayer. (saber)",a:"supimos"},
         {type:"match",pairs:[
           {trg:"Puse la mesa",src:"I set the table"},
@@ -120,10 +120,10 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
           {trg:"¿Supiste?",src:"Did you find out?"},
           {trg:"Pusieron música",src:"They put on music"}
         ]},
-        {type:"mc",q:"Los vecinos ___ la música muy alta. (poner)",opts:["pusieron","pusimos","puso","puse"],ans:"pusieron",hint:"Third person plural, the neighbors did something with music"},
+        {type:"mc",q:"Los vecinos ___ la música muy alta. (poner)",opts:["puso","pusimos","pusieron","puse"],ans:"pusieron",hint:"Third person plural, the neighbors did something with music"},
         {type:"fb",opts:["supiste","supo","supe","supieron"],hint:"Asking someone when they discovered something personal",s:"¿Cuándo {1} tú que ibas a ser padre?",a:"supiste"},
         {type:"drag_fill",hint:"First: she placed (poner), second: he discovered (saber)",s:"Ella {1} los platos en la mesa y él {2} la noticia.",blanks:{"1":"puso","2":"supo"},pool:["puso","supo","puse","supe"]},
-        {type:"mc",q:"Yo ___ mi abrigo en la silla. (poner)",opts:["puse","puso","pusiste","pusieron"],ans:"puse",hint:"First person singular, I placed my coat somewhere"},
+        {type:"mc",q:"Yo ___ mi abrigo en la silla. (poner)",opts:["pusieron","puso","pusiste","puse"],ans:"puse",hint:"First person singular, I placed my coat somewhere"},
         {type:"fb",opts:["supieron","supimos","supo","supe"],hint:"Third person plural, everyone eventually found out",s:"Todos {1} la verdad al final. (saber)",a:"supieron"},
         {type:"mc",q:"Ella ___ las fotos en el álbum. (poner)",opts:["puso","puse","pusimos","pusieron"],ans:"puso",hint:"Third person singular, she placed photos somewhere"}
   ]},
@@ -147,7 +147,7 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
         ],label:"Two i-stem verbs"},
         {type:"mc",q:"¿Qué ___ el profesor? (decir)",opts:["dijo","dije","dijiste","dijeron"],ans:"dijo",hint:"Third person singular, what the teacher said"},
         {type:"fb",opts:["quise","quiso","quisimos","quisieron"],hint:"First person singular, I refused to buy it",s:"Yo no {1} comprar ese coche tan caro. (querer)",a:"quise"},
-        {type:"mc",q:"Mis amigos me ___ la verdad. (decir)",opts:["dijeron","dijimos","dijo","dije"],ans:"dijeron",hint:"Third person plural, what friends told you"},
+        {type:"mc",q:"Mis amigos me ___ la verdad. (decir)",opts:["dijimos","dijeron","dijo","dije"],ans:"dijeron",hint:"Third person plural, what friends told you"},
         {type:"fb",opts:["quiso","quise","quisiste","quisieron"],hint:"Third person singular, she wanted/tried to change",s:"Ella {1} cambiar de trabajo. (querer)",a:"quiso"},
         {type:"match",pairs:[
           {trg:"Dije que sí",src:"I said yes"},
@@ -156,11 +156,11 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
           {trg:"Quisimos ayudar",src:"We tried to help"},
           {trg:"Dijiste la verdad",src:"You told the truth"}
         ]},
-        {type:"mc",q:"Nosotros ___ invitarlos pero no pudimos. (querer)",opts:["quisimos","quisieron","quiso","quise"],ans:"quisimos",hint:"First person plural, we tried but couldn't"},
+        {type:"mc",q:"Nosotros ___ invitarlos pero no pudimos. (querer)",opts:["quiso","quisieron","quisimos","quise"],ans:"quisimos",hint:"First person plural, we tried but couldn't"},
         {type:"fb",opts:["dijiste","dijo","dije","dijeron"],hint:"Asking the listener what they said",s:"¿Qué {1} tú? No te escuché. (decir)",a:"dijiste"},
         {type:"drag_fill",hint:"She said (decir) that she refused (querer)",s:"Ella {1} que no {2} participar.",blanks:{"1":"dijo","2":"quiso"},pool:["dijo","quiso","dije","quise"]},
         {type:"fb",opts:["dijiste","dijo","dije","dijeron"],hint:"Second person singular, asking if you said goodbye",s:"¿Tú les {1} adiós a tus amigos? (decir)",a:"dijiste"},
-        {type:"mc",q:"Nadie ___ ayudarme con la mudanza. (querer)",opts:["quiso","quise","quisimos","quisieron"],ans:"quiso",hint:"Third person singular, nobody wanted to help"}
+        {type:"mc",q:"Nadie ___ ayudarme con la mudanza. (querer)",opts:["quisieron","quise","quisimos","quiso"],ans:"quiso",hint:"Third person singular, nobody wanted to help"}
   ]},
   {id:"esp10l6",title:"Vine temprano",icon:"🎁",xp:15,board:true,steps:[
         {type:"intro",title:"Vine temprano",desc:"Three more essential irregular verbs: venir (to come), dar (to give), and traer (to bring). Each has its own pattern.",goals:["Conjugate venir in pretérito (vine, viniste, vino...)","Conjugate dar in pretérito (di, diste, dio...)","Conjugate traer in pretérito (traje, trajiste, trajo...)"]},
@@ -173,7 +173,7 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
         {type:"tip",title:"Dar: a unique irregular",text:"Dar (to give) is special:\n\ndi, diste, dio, dimos, dieron\n\nIt's an -ar verb but uses -er/-ir endings in the past.\nNo accent marks on any form (di, dio).\nVery short forms, easy to memorize!"},
         {type:"mc",q:"¿A qué hora ___ tú a la oficina? (venir)",opts:["viniste","vino","vine","vinieron"],ans:"viniste",hint:"Second person singular, asking when you arrived"},
         {type:"fb",opts:["dio","di","dimos","dieron"],hint:"Third person singular, grandmother gave something",s:"Mi abuela me {1} un regalo increíble. (dar)",a:"dio"},
-        {type:"mc",q:"Nosotros ___ la comida para la fiesta. (traer)",opts:["trajimos","trajeron","trajo","traje"],ans:"trajimos",hint:"First person plural, we brought the food"},
+        {type:"mc",q:"Nosotros ___ la comida para la fiesta. (traer)",opts:["trajeron","trajimos","trajo","traje"],ans:"trajimos",hint:"First person plural, we brought the food"},
         {type:"fb",opts:["vino","vine","vinimos","vinieron"],hint:"Third person singular, asking who arrived",s:"¿Quién {1} a la reunión ayer? (venir)",a:"vino"},
         {type:"match",pairs:[
           {trg:"Vine temprano",src:"I came early"},
@@ -182,10 +182,10 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
           {trg:"¿Viniste solo?",src:"Did you come alone?"},
           {trg:"Di mi opinión",src:"I gave my opinion"}
         ]},
-        {type:"mc",q:"Ellos ___ muchas cosas a la fiesta. (traer)",opts:["trajeron","trajimos","trajo","traje"],ans:"trajeron",hint:"Third person plural, they brought many things"},
+        {type:"mc",q:"Ellos ___ muchas cosas a la fiesta. (traer)",opts:["trajo","trajimos","trajeron","traje"],ans:"trajeron",hint:"Third person plural, they brought many things"},
         {type:"fb",opts:["di","dio","dimos","dieron"],hint:"First person singular, I gave a hug",s:"Le {1} un abrazo cuando la vi. (dar)",a:"di"},
         {type:"drag_fill",hint:"He came (venir) and brought (traer) something",s:"Él {1} temprano y {2} un pastel delicioso.",blanks:{"1":"vino","2":"trajo"},pool:["vino","trajo","vine","traje"]},
-        {type:"mc",q:"Nosotros le ___ un consejo muy bueno. (dar)",opts:["dimos","dieron","dio","di"],ans:"dimos",hint:"First person plural, we gave advice"},
+        {type:"mc",q:"Nosotros le ___ un consejo muy bueno. (dar)",opts:["di","dieron","dio","dimos"],ans:"dimos",hint:"First person plural, we gave advice"},
         {type:"fb",opts:["viniste","vino","vine","vinieron"],hint:"Second person singular, asking how you traveled here",s:"¿Tú {1} en coche o en autobús? (venir)",a:"viniste"}
   ]},
   {id:"esp10l7",title:"Un día especial",icon:"📝",xp:15,board:true,steps:[
@@ -196,10 +196,10 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
         {type:"teach",trg:"por eso",src:"that's why / because of that",pos:"conj",gender:null,phonetic:"por EH-so",note:"Useful connector for explaining reasons in a narrative.",example:"A: ¿Por qué no viniste ayer?\nB: Estuve enfermo, por eso no vine.\nA: ¡Qué pena! ¿Ya estás mejor?\nB: Sí, gracias.",exampleSrc:"A: Why didn't you come yesterday?\nB: I was sick, that's why I didn't come.\nA: What a shame! Are you better now?\nB: Yes, thank you.",funFact:"Spanish conjunctions are essential for building longer sentences and expressing complex ideas."},
         {type:"mc",q:"Ayer me levanté temprano y ___ al trabajo en bicicleta. (ir)",opts:["fui","fue","fuiste","fueron"],ans:"fui",hint:"First person singular, the speaker traveled somewhere"},
         {type:"fb",opts:["hizo","hice","hicieron","hicimos"],hint:"Third person singular, she prepared the meal",s:"María compró los ingredientes y {1} la cena. (hacer)",a:"hizo"},
-        {type:"mc",q:"Primero ___ en el parque y luego comimos en un restaurante. (estar, nosotros)",opts:["estuvimos","estuvieron","estuvo","estuve"],ans:"estuvimos",hint:"First person plural, we were at a location first"},
+        {type:"mc",q:"Primero ___ en el parque y luego comimos en un restaurante. (estar, nosotros)",opts:["estuvieron","estuvimos","estuvo","estuve"],ans:"estuvimos",hint:"First person plural, we were at a location first"},
         {type:"fb",opts:["vinieron","vinimos","vino","vine"],hint:"Third person plural, they arrived at the party",s:"Ellos {1} a la fiesta pero no {1} quedarse mucho tiempo.",a:"vinieron"},
         {type:"drag_fill",hint:"First I made (hacer) the food, then I placed (poner) it",s:"Primero {1} la comida y luego la {2} en la mesa.",blanks:{"1":"hice","2":"puse"},pool:["hice","puse","hizo","puso"]},
-        {type:"mc",q:"Mi amigo me ___ un secreto y yo no ___ nada a nadie.",opts:["dijo / dije","dijo / dijo","dije / dijo","dijeron / dijimos"],ans:"dijo / dije",hint:"He told me, then I told nobody. Third then first person."},
+        {type:"mc",q:"Mi amigo me ___ un secreto y yo no ___ nada a nadie.",opts:["dije / dijo","dijo / dijo","dijo / dije","dijeron / dijimos"],ans:"dijo / dije",hint:"He told me, then I told nobody. Third then first person."},
         {type:"fb",opts:["pude","pudo","pudimos","pudieron"],hint:"First person singular, I was unable to go",s:"No {1} ir al cine porque tuve mucho trabajo. (poder)",a:"pude"},
         {type:"match",pairs:[
           {trg:"Hice la tarea",src:"I did the homework"},
@@ -210,7 +210,7 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
           {trg:"Puse la mesa",src:"I set the table"}
         ]},
         {type:"drag_fill",hint:"I came home, made dinner, then put on the TV",s:"Ayer {1} a casa, {2} la cena y luego {3} la tele.",blanks:{"1":"vine","2":"hice","3":"puse"},pool:["vine","hice","puse","fui","dije","tuve"]},
-        {type:"mc",q:"¿Qué ___ tus padres cuando lo ___? (decir / saber)",opts:["dijeron / supieron","dijimos / supimos","dijo / supo","dije / supe"],ans:"dijeron / supieron",hint:"Both third person plural: what they said when they found out"},
+        {type:"mc",q:"¿Qué ___ tus padres cuando lo ___? (decir / saber)",opts:["dije / supe","dijimos / supimos","dijo / supo","dijeron / supieron"],ans:"dijeron / supieron",hint:"Both third person plural: what they said when they found out"},
         {type:"fb",opts:["dio","di","dimos","dieron"],hint:"Third person singular, the teacher gave us something",s:"El profesor nos {1} un ejercicio muy difícil. (dar)",a:"dio"},
         {type:"mc",q:"Mis amigos ___ a mi casa y ___ pizza. (venir / traer)",opts:["vinieron / trajeron","vinimos / trajimos","vino / trajo","vine / traje"],ans:"vinieron / trajeron",hint:"Both third person plural: friends came and brought food"},
         {type:"fb",opts:["estuve","estuvo","estuvimos","estuvieron"],hint:"First person singular, I was in a certain state",s:"Anoche {1} muy cansada, por eso no pude salir. (estar)",a:"estuve"}
@@ -220,13 +220,13 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
         {type:"tip",title:"Three irregular families",text:"Group 1: u-stem verbs (same endings: -e, -iste, -o, -imos, -ieron)\ntener: tuv-\nestar: estuv-\npoder: pud-\nponer: pus-\nsaber: sup-\n\nGroup 2: i-stem / j-stem verbs\ndecir: dij- (dijeron, not dijieron)\nquerer: quis-\nvenir: vin-\ntraer: traj- (trajeron, not trajieron)\n\nGroup 3: unique verbs\nser/ir: fui, fuiste, fue, fuimos, fueron\ndar: di, diste, dio, dimos, dieron"},
         {type:"mc",q:"Ayer yo ___ una carta muy larga. (hacer)",opts:["hice","hizo","hiciste","hicieron"],ans:"hice",hint:"First person singular, the speaker created something"},
         {type:"fb",opts:["dijo","dije","dijeron","dijiste"],hint:"Third person singular, she communicated something",s:"Ella {1} que no pudo venir. (decir)",a:"dijo"},
-        {type:"mc",q:"Nosotros no ___ dormir por el ruido. (poder)",opts:["pudimos","pudieron","pudo","pude"],ans:"pudimos",hint:"First person plural, we were unable to sleep"},
+        {type:"mc",q:"Nosotros no ___ dormir por el ruido. (poder)",opts:["pudieron","pudimos","pudo","pude"],ans:"pudimos",hint:"First person plural, we were unable to sleep"},
         {type:"fb",opts:["fuiste","fue","fui","fueron"],hint:"Second person singular, asking about going somewhere",s:"¿Tú {1} al concierto el sábado? (ir)",a:"fuiste"},
         {type:"match",pairs:[{trg:"tuve",src:"I had"},{trg:"hizo",src:"he/she did"},{trg:"dijeron",src:"they said"},{trg:"pude",src:"I could"},{trg:"vine",src:"I came"},{trg:"dio",src:"he/she gave"}]},
-        {type:"mc",q:"Mis abuelos ___ a España en 1960. (venir)",opts:["vinieron","vinimos","vino","vine"],ans:"vinieron",hint:"Third person plural, grandparents came somewhere"},
+        {type:"mc",q:"Mis abuelos ___ a España en 1960. (venir)",opts:["vino","vinimos","vinieron","vine"],ans:"vinieron",hint:"Third person plural, grandparents came somewhere"},
         {type:"fb",opts:["trajo","traje","trajimos","trajeron"],hint:"Third person singular, asking who brought something",s:"¿Quién {1} este pastel? ¡Está delicioso! (traer)",a:"trajo"},
         {type:"drag_fill",hint:"She was (estar) at home and refused (querer) to go out",s:"Ella {1} en casa todo el día y no {2} salir.",blanks:{"1":"estuvo","2":"quiso"},pool:["estuvo","quiso","estuve","quise"]},
-        {type:"mc",q:"¿Cuándo ___ tú la noticia? (saber)",opts:["supiste","supo","supe","supieron"],ans:"supiste",hint:"Second person singular, when did you find out"},
+        {type:"mc",q:"¿Cuándo ___ tú la noticia? (saber)",opts:["supieron","supo","supe","supiste"],ans:"supiste",hint:"Second person singular, when did you find out"},
         {type:"fb",opts:["dieron","dimos","dio","di"],hint:"Third person plural, the children gave something",s:"Los niños le {1} muchos besos a la abuela. (dar)",a:"dieron"},
         {type:"drag_fill",hint:"First person: I went, I made, I set. Three different irregular verbs.",s:"Primero {1} al mercado, luego {2} la comida y después {3} la mesa.",blanks:{"1":"fui","2":"hice","3":"puse"},pool:["fui","hice","puse","fue","hizo","puso"]},
         {type:"mc",q:"La fiesta ___ increíble. Todos ___ muy contentos. (ser / estar)",opts:["fue / estuvieron","fue / estuvimos","fui / estuve","fueron / estuvimos"],ans:"fue / estuvieron",hint:"The party was (third singular) and everyone was (third plural)"},
@@ -239,6 +239,6 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
           {trg:"Estuve ocupado",src:"I was busy"}
         ]},
         {type:"drag_fill",hint:"I saw (ver, regular) a friend. He told me he got a new job.",s:"Ayer {1} a mi amigo Pedro. Me {2} que {3} un nuevo trabajo.",blanks:{"1":"vi","2":"dijo","3":"tuvo"},pool:["vi","dijo","tuvo","vine","dije","tuve"]},
-        {type:"mc",q:"Nosotros les ___ un regalo y ellos nos ___ las gracias. (dar / dar)",opts:["dimos / dieron","dieron / dimos","dio / di","di / dio"],ans:"dimos / dieron",hint:"We gave (first plural) and they gave (third plural)"}
+        {type:"mc",q:"Nosotros les ___ un regalo y ellos nos ___ las gracias. (dar / dar)",opts:["dieron / dimos","dimos / dieron","dio / di","di / dio"],ans:"dimos / dieron",hint:"We gave (first plural) and they gave (third plural)"}
   ]}
 ]};

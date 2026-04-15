@@ -44,7 +44,7 @@ const LESSON_2 = {
      q:"Wat is een 'darmontsteking'?",
      opts:["Een ontsteking in de darmen","Een probleem met de huid","Een type hoofdpijn","Een allergie"],
      ans:"Een ontsteking in de darmen",
-     hint:"Break the compound into its parts: darm (intestine) + ontsteking (inflammation)."},
+     hint:"Break the compound into its parts: darm (intestine) + o... (inflammation)."},
     {type:"teach", trg:"de indicatie", src:"the indication", pos:"noun", gender:"c",
      note:"De-word. From Latin 'indicatio'.\nMedical: reason for treatment. General: sign, pointer.",
      example:"A: Is er een indicatie voor deze operatie?\nB: Ja, de arts ziet voldoende reden.\nA: Wordt het vergoed door de verzekering?\nB: Met een indicatie wel, ja.",

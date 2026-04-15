@@ -97,7 +97,7 @@ const LESSON_17 = {id:"frv2_b2g9_l17", title:"Noms Composés", icon:"🔗", xp:1
    sSrc:"The plural of coffre-fort is {1}."},
 
   {type:"mc", q:"Un amuse-bouche et un amuse-gueule sont:", opts:["Complètement différents","Le même concept, gueule est plus familier","L'un est salé, l'autre sucré","L'un est chaud, l'autre froid"], ans:"Le même concept, gueule est plus familier",
-   hint:"Both mean appetizer snacks. Gueule (mouth, informal) vs bouche (mouth, polite)."},
+   hint:"Both mean appetizer snacks. G... (mouth, informal) vs bouche (mouth, polite)."},
 
   {type:"fb", s:"C'est un véritable {1} comptable.", a:["tour de passe-passe"], opts:["tour de passe-passe","tour de garde-chasse","tour de compte-gouttes","tour de café-tabac"],
    hint:"A magic trick, figuratively. Making money disappear like a magician.",
@@ -111,7 +111,7 @@ const LESSON_17 = {id:"frv2_b2g9_l17", title:"Noms Composés", icon:"🔗", xp:1
   ]},
 
   {type:"mc", q:"Pourquoi dit-on 'des gardes-chasse' et non 'des garde-chasse'?", opts:["Parce que c'est un verbe","Parce que garde désigne une personne","Parce que chasse est féminin","Parce que c'est une exception"], ans:"Parce que garde désigne une personne",
-   hint:"When garde means a person (not the action of guarding), it takes the plural."},
+   hint:"When g... means a person (not the action of guarding), it takes the plural."},
 
   {type:"fb", s:"Sans {1}, vous ne pouvez pas entrer dans la zone.", a:["laissez-passer"], opts:["laissez-passer","guet-apens","pied-de-biche","passe-passe"],
    hint:"An official permit. An imperative compound meaning 'let pass'.",

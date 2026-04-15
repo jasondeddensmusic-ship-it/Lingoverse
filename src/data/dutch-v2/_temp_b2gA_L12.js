@@ -60,7 +60,7 @@ const LESSON_12 = {id:"nlv2_b2gA_l12", title:"Emoties & Innerlijk Leven", icon:"
   {type:"mc", q:"Wat is een goed gespreksonderwerp op een feestje?",
    opts:["a topic of conversation","a type of game","a drink recipe","a music playlist"],
    ans:"a topic of conversation",
-   hint:"Gesprek (conversation) + onderwerp (subject). What people talk about."},
+   hint:"Gesprek (c...) + onderwerp (subject). What people talk about."},
 
   {type:"fb", s:"Ken je het {1} 'Wie het laatst lacht, lacht het best'?",
    a:["gezegde"], opts:["gezegde","gespreksonderwerp","gemoedstoestand","geluksbeleving"],
@@ -79,7 +79,7 @@ const LESSON_12 = {id:"nlv2_b2gA_l12", title:"Emoties & Innerlijk Leven", icon:"
   {type:"mc", q:"De geldlust van sommige bankiers is schokkend. Wat is 'geldlust'?",
    opts:["greed for money","a bank fee","a salary increase","financial planning"],
    ans:"greed for money",
-   hint:"Geld (money) + lust (desire/craving). An excessive appetite for wealth."},
+   hint:"Geld (m...) + lust (desire/craving). An excessive appetite for wealth."},
 
   {type:"fb", s:"In Nederland is de {1} erg veranderd: minder kerk, meer spiritualiteit.",
    a:["geloofsbeleving"], opts:["geloofsbeleving","geluksbeleving","gemoedstoestand","geldlust"],

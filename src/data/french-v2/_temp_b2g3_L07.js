@@ -33,7 +33,7 @@ const LESSON_7 = {
      q:"Comment appelle-t-on une petite bouchée servie avant le repas ?",
      opts:["un amuse-gueule","un crustacé","un arrivage","un filet"],
      ans:"un amuse-gueule",
-     hint:"Literally, this compound word means to amuse or entertain the mouth."},
+     hint:"Literally, this compound word means to a... or entertain the mouth."},
 
     {type:"teach", trg:"un filet", src:"a fillet, a net", pos:"noun", gender:"m",
      note:"Masculine noun. A boneless piece of meat or fish, or a thin net.",

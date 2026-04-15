@@ -54,7 +54,7 @@ const LESSON_11 = {
      s:"De monteur bracht honderd euro {1} voor de reparatie.",
      a:["in rekening"],
      opts:["in rekening","in ruil","in omloop","in acht"],
-     hint:"This expression means to charge or invoice someone for a cost. In + rekening (account/bill) + brengen.",
+     hint:"This expression means to charge or invoice someone for a cost. In + r... (account/bill) + brengen.",
      sSrc:"The mechanic charged one hundred euros for the repair. (... bracht ... {1})"},
     {type:"teach", trg:"in samenwerking met", src:"in collaboration with", pos:"prep", gender:null,
      note:"Fixed expression. In + samenwerking (collaboration) + met (with).\nUsed on posters, credits, and official documents.",

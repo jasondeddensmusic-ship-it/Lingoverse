@@ -60,7 +60,7 @@ const LESSON_19 = {id:"nlv2_b2gA_l19", title:"Uiterlijk & Lichaam", icon:"\u{1F9
   {type:"mc", q:"Je moet je kinderen niet als kasplanten opvoeden. Wat is een 'kasplant'?",
    opts:["an overprotected person, like a greenhouse plant","a wild child","a talented child","a plant in a window box"],
    ans:"an overprotected person, like a greenhouse plant",
-   hint:"Kas (greenhouse) + plant. Someone who is too sheltered to handle the real world."},
+   hint:"Kas (g...) + p.... Someone who is too sheltered to handle the real world."},
 
   {type:"fb", s:"Het slachtoffer had een ernstige {1}.",
    a:["hoofdwond"], opts:["hoofdwond","handpalm","haarlok","hendel"],
@@ -79,7 +79,7 @@ const LESSON_19 = {id:"nlv2_b2gA_l19", title:"Uiterlijk & Lichaam", icon:"\u{1F9
   {type:"mc", q:"Wie zijn de kanshebbers voor de verkiezing? Wat is een 'kanshebber'?",
    opts:["someone with a good chance of winning","someone who lost","a voter","a campaign manager"],
    ans:"someone with a good chance of winning",
-   hint:"Kans (chance) + hebber (haver). A person who has a real shot at success."},
+   hint:"Kans (c...) + hebber (haver). A person who has a real shot at success."},
 
   {type:"fb", s:"Trek aan de {1} om de machine te starten.",
    a:["hendel"], opts:["hendel","handpalm","haarlok","kasplant"],

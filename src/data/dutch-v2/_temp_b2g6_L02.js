@@ -40,7 +40,7 @@ const LESSON_2 = {
      q:"Wat is een 'hulpkreet'?",
      opts:["Een noodkreet om hulp","Een hulpmiddel voor het gehoor","Een organisatie voor noodhulp","Een eerste hulp cursus"],
      ans:"Een noodkreet om hulp",
-     hint:"Break the compound: hulp means help, kreet means a shout or cry."},
+     hint:"Break the compound: h... means help, kreet means a shout or cry."},
 
     {type:"teach", trg:"de hulpvrager", src:"the help-seeker, the person asking for help", pos:"noun", gender:"c",
      note:"Compound: hulp (help) + vrager (asker).\nUsed in social work and healthcare contexts.",

@@ -33,7 +33,7 @@ const LESSON_6 = {
      q:"Que désigne 'la blogosphère' ?",
      opts:["L'ensemble des blogs sur Internet","Un type de réseau social","Une application de messagerie","Un moteur de recherche"],
      ans:"L'ensemble des blogs sur Internet",
-     hint:"A compound of 'blog' and 'atmosphère', describing the collective world of online blogs."},
+     hint:"A compound of 'blog' and 'atmosphère', describing the collective world of online b...."},
 
     {type:"teach", trg:"un humoriste", src:"a comedian, a humorist", pos:"noun", gender:"m",
      note:"Masculine noun. A person who performs comedy. Feminine: une humoriste.",

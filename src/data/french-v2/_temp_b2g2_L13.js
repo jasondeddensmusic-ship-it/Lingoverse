@@ -39,7 +39,7 @@ const LESSON_13 = {
      q:"Comment appelle-t-on une petite bouchee servie avant le repas ?",
      opts:["un amuse-gueule","une bearnaise","un cafe-creme","un chausson"],
      ans:"un amuse-gueule",
-     hint:"A small savory bite to 'amuse' your mouth before the main meal."},
+     hint:"A small savory bite to 'a...' your mouth before the main meal."},
 
     {type:"teach", trg:"le cannelloni", src:"the cannelloni", pos:"noun", gender:"m",
      note:"Masculine noun. Italian rolled pasta tubes filled with meat or cheese.",
@@ -69,7 +69,7 @@ const LESSON_13 = {
      s:"On se retrouve au {1} pour un cafe avant le travail ?",
      a:["cafe-tabac"],
      opts:["cafe-tabac","cafe-creme","creperie","cannelloni"],
-     hint:"A typically French establishment combining a cafe with a tobacconist's shop.",
+     hint:"A typically French establishment combining a c... with a tobacconist's shop.",
      sSrc:"Shall we meet at the {1} for a coffee before work?"},
 
     {type:"teach", trg:"le baisemain", src:"the hand-kissing", pos:"noun", gender:"m",

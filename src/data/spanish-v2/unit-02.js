@@ -12,7 +12,7 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
         {type:"teach",trg:"el hijo",src:"the son",pos:"noun",gender:"m",phonetic:"el EE-hoh",note:"The H is silent in Spanish. Hijos (plural) = children.",example:"A: ¿Cuántos hijos tienes?\nB: Tengo un hijo.",exampleSrc:"A: How many children do you have?\nB: I have one son.",funFact:"Masculine noun. Spanish words ending in -o are usually masculine."},
         {type:"teach",trg:"la hija",src:"the daughter",pos:"noun",gender:"f",phonetic:"la EE-hah",note:"Feminine of hijo. Silent H. The -a marks feminine.",example:"A: ¿Tienes hijas?\nB: Sí, tengo una hija.",exampleSrc:"A: Do you have daughters?\nB: Yes, I have one daughter.",funFact:"Feminine noun. Spanish words ending in -a are usually feminine."},
         {type:"mc",q:"What does 'la madre' mean?",opts:["the mother","the father","the sister","the daughter"],ans:"the mother",hint:"Think of the feminine parent."},
-        {type:"mc",q:"Which article goes with 'hermano'?",opts:["el","la","un","los"],ans:"el",hint:"Hermano ends in -o, a masculine ending."},
+        {type:"mc",q:"Which article goes with 'hermano'?",opts:["la","el","un","los"],ans:"el",hint:"Hermano ends in -o, a masculine ending."},
         {type:"fb",opts:["padre","madre","hija","hermana"],hint:"Carlos is male and a parent figure.",s:"Mi {1} se llama Carlos.",a:"padre"},
         {type:"match",pairs:[
           {trg:"el padre",src:"the father"},
@@ -22,12 +22,12 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
           {trg:"el hijo",src:"the son"},
           {trg:"la hija",src:"the daughter"}
         ]},
-        {type:"mc",q:"How do you say 'the daughter' in Spanish?",opts:["la hija","el hijo","la hermana","la madre"],ans:"la hija",hint:"Feminine form of the word for son."},
+        {type:"mc",q:"How do you say 'the daughter' in Spanish?",opts:["la hermana","el hijo","la hija","la madre"],ans:"la hija",hint:"Feminine form of the word for son."},
         {type:"fb",opts:["hermano","hermana","padre","hijo"],hint:"Ana is female, and she is a sibling.",s:"Tengo una {1}. Se llama Ana.",a:"hermana"},
-        {type:"mc",q:"What is the feminine form of 'el hijo'?",opts:["la hija","la madre","la hermana","la prima"],ans:"la hija",hint:"Change the -o ending to -a for feminine."},
+        {type:"mc",q:"What is the feminine form of 'el hijo'?",opts:["la prima","la madre","la hermana","la hija"],ans:"la hija",hint:"Change the -o ending to -a for feminine."},
         {type:"mc",q:"'El hermano' means...",opts:["the brother","the sister","the father","the cousin"],ans:"the brother",hint:"A male sibling, not a parent."},
         {type:"fb",opts:["madre","padre","hijo","hermano"],hint:"A female parent who is very nice.",s:"Ella es mi {1}. Es muy simpática.",a:"madre"},
-        {type:"mc",q:"Which word means 'the son'?",opts:["el hijo","el padre","el hermano","el abuelo"],ans:"el hijo",hint:"A male child of a parent."}
+        {type:"mc",q:"Which word means 'the son'?",opts:["el padre","el hijo","el hermano","el abuelo"],ans:"el hijo",hint:"A male child of a parent."}
   ]},
   {id:"esp2l2",title:"La Familia Grande",icon:"👵",xp:15,board:true,steps:[
         {type:"intro",title:"La Familia Grande",desc:"Meet the extended family: grandparents, aunts, uncles, and cousins.",goals:["Learn abuelo/a, tío/a, primo/a","Use el/la correctly","Describe your extended family"]},
@@ -39,7 +39,7 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
         {type:"teach",trg:"la prima",src:"the cousin (female)",pos:"noun",gender:"f",phonetic:"la PREE-mah",note:"Female cousin. Change -o to -a for the feminine form.",example:"A: ¿Quién es tu prima?\nB: Mi prima se llama Lucía.",exampleSrc:"A: Who is your cousin?\nB: My cousin's name is Lucía.",funFact:"Feminine noun. Spanish words ending in -a are usually feminine."},
         {type:"tip",title:"Gender Pairs in Family Words",text:"Most Spanish family words come in masculine/feminine pairs:\n\n- el abuelo / la abuela\n- el tío / la tía\n- el primo / la prima\n\nThe pattern: -o = masculine, -a = feminine.",icon:"💡"},
         {type:"mc",q:"What does 'la abuela' mean?",opts:["the grandmother","the grandfather","the aunt","the mother"],ans:"the grandmother",hint:"The feminine form of the grandparent word."},
-        {type:"mc",q:"How do you say 'the uncle' in Spanish?",opts:["el tío","el primo","el abuelo","el padre"],ans:"el tío",hint:"A male sibling of your parent."},
+        {type:"mc",q:"How do you say 'the uncle' in Spanish?",opts:["el primo","el tío","el abuelo","el padre"],ans:"el tío",hint:"A male sibling of your parent."},
         {type:"fb",opts:["tía","prima","abuela","hermana"],hint:"Your parent's sister is your...",s:"Mi {1} se llama Carmen. Es la hermana de mi madre.",a:"tía"},
         {type:"match",pairs:[
           {trg:"el abuelo",src:"the grandfather"},
@@ -49,12 +49,12 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
           {trg:"el primo",src:"the cousin (male)"},
           {trg:"la prima",src:"the cousin (female)"}
         ]},
-        {type:"mc",q:"Which is the feminine form of 'el primo'?",opts:["la prima","la tía","la abuela","la madre"],ans:"la prima",hint:"Change the -o ending to show feminine."},
+        {type:"mc",q:"Which is the feminine form of 'el primo'?",opts:["la abuela","la tía","la prima","la madre"],ans:"la prima",hint:"Change the -o ending to show feminine."},
         {type:"fb",opts:["abuelo","tío","primo","padre"],hint:"Your mother's father is your...",s:"Mi {1} Pedro es el padre de mi madre.",a:"abuelo"},
-        {type:"mc",q:"'Los abuelos' means...",opts:["the grandparents","the uncles","the cousins","the parents"],ans:"the grandparents",hint:"The plural of abuelo/abuela together."},
+        {type:"mc",q:"'Los abuelos' means...",opts:["the parents","the uncles","the cousins","the grandparents"],ans:"the grandparents",hint:"The plural of abuelo/abuela together."},
         {type:"mc",q:"What does 'el primo' mean?",opts:["the cousin (male)","the uncle","the brother","the nephew"],ans:"the cousin (male)",hint:"A child of your aunt or uncle."},
         {type:"fb",opts:["prima","tía","abuela","hermana"],hint:"Your uncle's daughter is your female...",s:"Tengo una {1} que vive en Sevilla. Es la hija de mi tío.",a:"prima"},
-        {type:"mc",q:"How do you say 'the aunt' in Spanish?",opts:["la tía","la prima","la abuela","la madre"],ans:"la tía",hint:"The feminine form of tío, with accent."}
+        {type:"mc",q:"How do you say 'the aunt' in Spanish?",opts:["la prima","la tía","la abuela","la madre"],ans:"la tía",hint:"The feminine form of tío, with accent."}
   ]},
   {id:"esp2l3",title:"Mi Familia",icon:"❤️",xp:15,board:true,steps:[
         {type:"intro",title:"Mi Familia",desc:"Learn to say my, your, his/her to talk about your own family.",goals:["Learn possessives: mi, tu, su","Say 'Mi madre se llama...'","Ask about someone's family"]},
@@ -65,16 +65,16 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
         {type:"teach",trg:"se llama",src:"is called / his/her name is",pos:"intj",gender:null,phonetic:"seh YAH-mah",note:"Literally 'calls himself/herself'. Very common for names.",example:"A: ¿Cómo se llama tu primo?\nB: Se llama Carlos.",exampleSrc:"A: What is your cousin's name?\nB: His name is Carlos.",funFact:"Spanish is the fourth most spoken language worldwide, with 500+ million native speakers."},
         {type:"teach",trg:"mis",src:"my (plural)",pos:"noun",gender:null,phonetic:"mees",note:"Mis = my (plural). Used with plural nouns: mis padres, mis primos.",example:"A: ¿Tienes hermanos?\nB: Sí, mis hermanos se llaman Pedro y Ana.",exampleSrc:"A: Do you have siblings?\nB: Yes, my siblings are called Pedro and Ana.",funFact:"Spanish nouns are either masculine or feminine. The ending usually gives it away."},
         {type:"mc",q:"How do you say 'my mother' in Spanish?",opts:["mi madre","su madre","tu madre","mis madre"],ans:"mi madre",hint:"The possessive for first person singular."},
-        {type:"mc",q:"'Tu hermano' means...",opts:["your brother","my brother","his brother","our brother"],ans:"your brother",hint:"Tu (no accent) is the informal possessive."},
+        {type:"mc",q:"'Tu hermano' means...",opts:["my brother","your brother","his brother","our brother"],ans:"your brother",hint:"Tu (no accent) is the informal possessive."},
         {type:"fb",opts:["Mi","Tu","Su","Mis"],hint:"I am talking about my own father.",s:"{1} padre se llama Roberto.",a:"Mi"},
-        {type:"mc",q:"Which possessive means 'his' or 'her'?",opts:["su","mi","tu","mis"],ans:"su",hint:"The third-person possessive in Spanish."},
+        {type:"mc",q:"Which possessive means 'his' or 'her'?",opts:["tu","mi","su","mis"],ans:"su",hint:"The third-person possessive in Spanish."},
         {type:"fb",opts:["tu","mi","su","mis"],hint:"I am asking YOU about YOUR grandmother.",s:"¿Cómo se llama {1} abuela?",a:"tu"},
         {type:"match",pairs:[{trg:"mi padre",src:"my father"},{trg:"tu madre",src:"your mother"},{trg:"su hermano",src:"his/her brother"},{trg:"mis primos",src:"my cousins"},{trg:"tu abuelo",src:"your grandfather"}]},
-        {type:"mc",q:"How do you say 'my siblings' (plural)?",opts:["mis hermanos","mi hermanos","mis hermano","su hermanos"],ans:"mis hermanos",hint:"Plural possessive plus plural noun."},
+        {type:"mc",q:"How do you say 'my siblings' (plural)?",opts:["su hermanos","mi hermanos","mis hermano","mis hermanos"],ans:"mis hermanos",hint:"Plural possessive plus plural noun."},
         {type:"fb",opts:["Su","Mi","Tu","Mis"],hint:"Talking about someone else's daughter.",s:"{1} hija se llama Sofía.",a:"Su"},
         {type:"mc",q:"What does 'Mi abuela se llama Rosa' mean?",opts:["My grandmother's name is Rosa","Your grandmother's name is Rosa","His grandmother's name is Rosa","My grandfather's name is Rosa"],ans:"My grandmother's name is Rosa",hint:"Mi = my, abuela = ___, se llama = is called."},
         {type:"fb",opts:["se","mi","es","su"],hint:"This is the reflexive pronoun used when asking someone's name.",s:"¿Cómo {1} llama tu tía?",a:"se"},
-        {type:"mc",q:"'Mis padres' means...",opts:["my parents","my father","your parents","his parents"],ans:"my parents",hint:"Mis is the plural possessive for 'my'."},
+        {type:"mc",q:"'Mis padres' means...",opts:["my father","my parents","your parents","his parents"],ans:"my parents",hint:"Mis is the plural possessive for 'my'."},
         {type:"fb",opts:["Mis","Mi","Tu","Su"],hint:"I am talking about my own sisters, plural.",s:"{1} hermanas se llaman Ana y Lucía.",a:"Mis"}
   ]},
   {id:"esp2l4",title:"Los Números",icon:"🔢",xp:15,board:true,steps:[
@@ -92,10 +92,10 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
         {type:"teach",trg:"nueve",src:"nine",pos:"noun",gender:null,phonetic:"NWEH-beh",note:"Nueve = 9. The v sounds like a soft b in Spanish.",example:"A: ¿Cuántos años tiene tu primo?\nB: Tiene nueve años.",exampleSrc:"A: How old is your cousin?\nB: He is nine years old.",funFact:"Spanish nouns are either masculine or feminine. The ending usually gives it away."},
         {type:"teach",trg:"diez",src:"ten",pos:"noun",gender:null,phonetic:"dee-EHS",note:"Diez = 10. Two letters for one sound at the end: z.",example:"A: ¿Cuántos hijos tiene tu tía?\nB: Tiene diez hijos.",exampleSrc:"A: How many children does your aunt have?\nB: She has ten children.",funFact:"Spanish nouns are either masculine or feminine. The ending usually gives it away."},
         {type:"mc",q:"What number is 'cinco'?",opts:["5","3","7","9"],ans:"5",hint:"Count on your hand: all five fingers."},
-        {type:"mc",q:"How do you say '8' in Spanish?",opts:["ocho","seis","nueve","cuatro"],ans:"ocho",hint:"Starts with 'o' and has a 'ch' sound."},
+        {type:"mc",q:"How do you say '8' in Spanish?",opts:["seis","ocho","nueve","cuatro"],ans:"ocho",hint:"Starts with 'o' and has a 'ch' sound."},
         {type:"fb",opts:["tres","dos","cuatro","cinco"],hint:"Count the names listed after the number.",s:"Tengo {1} hermanos: Pedro, Ana y Luis.",a:"tres"},
         {type:"match",pairs:[{trg:"uno",src:"1"},{trg:"cuatro",src:"4"},{trg:"siete",src:"7"},{trg:"diez",src:"10"},{trg:"cero",src:"0"}]},
-        {type:"mc",q:"What is 'nueve' in English?",opts:["nine","new","seven","five"],ans:"nine",hint:"One less than diez (ten)."},
+        {type:"mc",q:"What is 'nueve' in English?",opts:["seven","new","nine","five"],ans:"nine",hint:"One less than diez (ten)."},
         {type:"fb",opts:["seis","tres","ocho","uno"],hint:"The number that comes after cinco.",s:"Mi abuela tiene {1} hijos.",a:"seis"}
   ]},
   {id:"esp2l5",title:"¿Cómo Es?",icon:"📏",xp:15,board:true,steps:[
@@ -110,12 +110,12 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
         {type:"teach",trg:"joven",src:"young",pos:"adj",gender:null,phonetic:"HOH-ben",note:"Joven = young. Same form for masculine and feminine.",example:"A: ¿Tu tía es joven?\nB: Sí, mi tía es muy joven.",exampleSrc:"A: Is your aunt young?\nB: Yes, my aunt is very young.",funFact:"Spanish adjectives agree in gender and number. Most change -o/-a for gender and add -s for plural."},
         {type:"teach",trg:"viejo",src:"old (masculine)",pos:"noun",gender:"f",phonetic:"bee-EH-hoh",note:"Viejo = old (male). Vieja = old (female). The v sounds like a soft b.",example:"A: ¿Tu abuelo es viejo?\nB: Sí, mi abuelo es viejo.",exampleSrc:"A: Is your grandfather old?\nB: Yes, my grandfather is old.",funFact:"Spanish nouns are either masculine or feminine. The ending usually gives it away."},
         {type:"mc",q:"How do you say 'My mother is tall'?",opts:["Mi madre es alta","Mi madre es alto","Mi madre es grande","Mi madre es bajo"],ans:"Mi madre es alta",hint:"___ is feminine, so the adjective needs -a."},
-        {type:"mc",q:"Which adjective does NOT change for gender?",opts:["grande","alto","bajo","pequeño"],ans:"grande",hint:"Adjectives ending in -e stay the same."},
+        {type:"mc",q:"Which adjective does NOT change for gender?",opts:["alto","grande","bajo","pequeño"],ans:"grande",hint:"Adjectives ending in -e stay the same."},
         {type:"fb",opts:["alto","alta","grandes","baja"],hint:"Your brother is male, so use the -o form.",s:"Mi hermano es muy {1}.",a:"alto"},
         {type:"match",pairs:[{trg:"alto",src:"tall (masc.)"},{trg:"baja",src:"short (fem.)"},{trg:"grande",src:"big"},{trg:"joven",src:"young"},{trg:"viejo",src:"old (masc.)"}]},
-        {type:"mc",q:"'Mi abuela es vieja' means...",opts:["My grandmother is old","My grandfather is old","My grandmother is young","My grandmother is tall"],ans:"My grandmother is old",hint:"Abuela = ___, vieja = ___ (feminine)."},
+        {type:"mc",q:"'Mi abuela es vieja' means...",opts:["My grandmother is young","My grandfather is old","My grandmother is old","My grandmother is tall"],ans:"My grandmother is old",hint:"Abuela = ___, vieja = ___ (feminine)."},
         {type:"fb",opts:["joven","vieja","alto","grande"],hint:"25 years old is not old, it is...",s:"Mi tía es {1}. Tiene 25 años.",a:"joven"},
-        {type:"mc",q:"Which is correct: 'Mi padre es ___'?",opts:["bajo","baja","bajas","bajos"],ans:"bajo",hint:"Padre is masculine singular, so use the -o form."},
+        {type:"mc",q:"Which is correct: 'Mi padre es ___'?",opts:["bajos","baja","bajas","bajo"],ans:"bajo",hint:"Padre is masculine singular, so use the -o form."},
         {type:"fb",opts:["grande","pequeña","alto","joven"],hint:"Six siblings means a big family.",s:"Mi familia es muy {1}. Tengo seis hermanos.",a:"grande"}
   ]},
   {id:"esp2l6",title:"Pelo y Ojos",icon:"👁️",xp:15,board:true,steps:[
@@ -129,12 +129,12 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
         {type:"teach",trg:"tiene el pelo",src:"has (the) hair",pos:"adj",gender:null,phonetic:"tee-EH-neh el PEH-loh",note:"Use tiene + el pelo + adjective to describe someone's hair.",example:"A: ¿Cómo es tu hermana?\nB: Tiene el pelo largo y rubio.",exampleSrc:"A: What does your sister look like?\nB: She has long blond hair.",funFact:"Spanish adjectives agree in gender and number. Most change -o/-a for gender and add -s for plural."},
         {type:"tip",title:"Describing Appearance with Tiene",text:"Use 'tiene' (has) for physical features:\n\n- Tiene el pelo negro. (has black hair)\n- Tiene los ojos marrones. (has brown eyes)\n\nUse 'es' (is) for general traits:\n- Es moreno. (He is dark-haired.)\n- Es alta. (She is tall.)",icon:"💡"},
         {type:"mc",q:"How do you say 'She has brown eyes'?",opts:["Tiene los ojos marrones","Es los ojos marrones","Tiene el pelo marrón","Su ojos son marrones"],ans:"Tiene los ojos marrones",hint:"Use ___ + los ___ + the color word."},
-        {type:"mc",q:"What does 'morena' describe?",opts:["a dark-haired woman","a blond woman","brown eyes","black hair"],ans:"a dark-haired woman",hint:"The -a ending tells you it is feminine."},
+        {type:"mc",q:"What does 'morena' describe?",opts:["a blond woman","a dark-haired woman","brown eyes","black hair"],ans:"a dark-haired woman",hint:"The -a ending tells you it is feminine."},
         {type:"fb",opts:["negro","ojos","moreno","tiene"],hint:"A very dark hair color, not brown.",s:"Mi padre tiene el pelo {1}.",a:"negro"},
         {type:"match",pairs:[{trg:"el pelo",src:"the hair"},{trg:"los ojos",src:"the eyes"},{trg:"rubio",src:"blond"},{trg:"moreno",src:"dark-haired"},{trg:"marrón",src:"brown"},{trg:"negro",src:"black"}]},
-        {type:"mc",q:"'Mi hermana es rubia' means...",opts:["My sister is blond","My sister is brunette","My brother is blond","My sister has brown eyes"],ans:"My sister is blond",hint:"Rubia is the feminine form of rubio."},
+        {type:"mc",q:"'Mi hermana es rubia' means...",opts:["My brother is blond","My sister is brunette","My sister is blond","My sister has brown eyes"],ans:"My sister is blond",hint:"Rubia is the feminine form of rubio."},
         {type:"fb",opts:["ojos","pelo","hermano","padre"],hint:"The body part on your face used for seeing.",s:"Mi madre tiene los {1} marrones.",a:"ojos"},
-        {type:"mc",q:"Which describes dark hair on a man?",opts:["moreno","morena","rubio","negro"],ans:"moreno",hint:"The masculine -o ending for dark-haired."},
+        {type:"mc",q:"Which describes dark hair on a man?",opts:["negro","morena","rubio","moreno"],ans:"moreno",hint:"The masculine -o ending for dark-haired."},
         {type:"fb",opts:["rubio","moreno","negro","alto"],hint:"Light or golden hair describes someone who is...",s:"Mi primo es {1}. Tiene el pelo amarillo.",a:"rubio"},
         {type:"mc",q:"How do you ask 'What color are your eyes?'",opts:["¿De qué color son tus ojos?","¿Cómo son tus ojos?","¿Tienes ojos?","¿Cuántos ojos tienes?"],ans:"¿De qué color son tus ojos?",hint:"Literally: Of what ___ are your eyes?"}
   ]},
@@ -147,23 +147,23 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
         {type:"teach",trg:"tengo ... años",src:"I am ... years old",pos:"intj",gender:null,phonetic:"TEHN-goh ... AH-nyohs",note:"Spanish uses tener (to have) for age, not ser (to be). Literally: I have X years.",example:"A: ¿Cuántos años tienes?\nB: Tengo ocho años.",exampleSrc:"A: How old are you?\nB: I am eight years old.",funFact:"Spanish is the fourth most spoken language worldwide, with 500+ million native speakers."},
         {type:"teach",trg:"¿Cuántos años tienes?",src:"How old are you?",pos:"intj",gender:null,phonetic:"KWAHN-tohs AH-nyohs tee-EH-nehs",note:"Literally: How many years do you have? ¿Cuántos = how many.",example:"A: ¿Cuántos años tienes?\nB: Tengo nueve años. ¿Y tú?",exampleSrc:"A: How old are you?\nB: I am nine years old. And you?",funFact:"Spanish is the fourth most spoken language worldwide, with 500+ million native speakers."},
         {type:"mc",q:"How do you say 'I have' in Spanish?",opts:["tengo","tienes","tiene","tener"],ans:"tengo",hint:"The yo (I) form of tener is irregular."},
-        {type:"mc",q:"How do you say 'I am 10 years old'?",opts:["Tengo diez años","Soy diez años","Es diez años","Tiene diez años"],ans:"Tengo diez años",hint:"Spanish uses 'to have' for age, not 'to be'."},
+        {type:"mc",q:"How do you say 'I am 10 years old'?",opts:["Soy diez años","Tengo diez años","Es diez años","Tiene diez años"],ans:"Tengo diez años",hint:"Spanish uses 'to have' for age, not 'to be'."},
         {type:"fb",opts:["tiene","tengo","tienes","tener"],hint:"Third person singular: he/she has.",s:"Mi madre {1} cuatro hermanos.",a:"tiene"},
-        {type:"mc",q:"'¿Cuántos años tienes?' asks about...",opts:["your age","your name","your family","your height"],ans:"your age",hint:"Años means years. The question asks how many."},
+        {type:"mc",q:"'¿Cuántos años tienes?' asks about...",opts:["your family","your name","your age","your height"],ans:"your age",hint:"Años means years. The question asks how many."},
         {type:"fb",opts:["tienes","tengo","tiene","tener"],hint:"Asking YOU (informal) how many siblings.",s:"¿Cuántos hermanos {1}?",a:"tienes"},
         {type:"match",pairs:[{trg:"tengo",src:"I have"},{trg:"tienes",src:"you have"},{trg:"tiene",src:"he/she has"},{trg:"tengo cinco años",src:"I am 5 years old"},{trg:"¿Cuántos años?",src:"How old?"}]},
-        {type:"mc",q:"Which is correct? 'Mi abuelo ___ ocho hijos.'",opts:["tiene","tengo","tienes","tener"],ans:"tiene",hint:"Mi abuelo is third person: he."},
+        {type:"mc",q:"Which is correct? 'Mi abuelo ___ ocho hijos.'",opts:["tener","tengo","tienes","tiene"],ans:"tiene",hint:"Mi abuelo is third person: he."},
         {type:"fb",opts:["Tengo","Tienes","Tiene","Tener"],hint:"I am saying what I have. First person.",s:"{1} tres primos en Madrid.",a:"Tengo"},
         {type:"mc",q:"'Mi prima tiene siete años' means...",opts:["My cousin is 7 years old","My cousin has 7 brothers","My cousin is 7 feet tall","My cousin has 7 eyes"],ans:"My cousin is 7 years old",hint:"Tiene + años = expressing age in Spanish."},
         {type:"fb",opts:["tiene","tengo","tienes","tener"],hint:"Asking about HER age, third person singular.",s:"¿Cuántos años {1} tu abuela?",a:"tiene"},
-        {type:"mc",q:"How would you say 'You have two sisters'?",opts:["Tienes dos hermanas","Tengo dos hermanas","Tiene dos hermanas","Tener dos hermanas"],ans:"Tienes dos hermanas",hint:"Addressing someone informally: tú form."}
+        {type:"mc",q:"How would you say 'You have two sisters'?",opts:["Tengo dos hermanas","Tienes dos hermanas","Tiene dos hermanas","Tener dos hermanas"],ans:"Tienes dos hermanas",hint:"Addressing someone informally: tú form."}
   ]},
   {id:"esp2l8",title:"¡Describe Tu Familia!",icon:"🏠",xp:20,board:true,steps:[
         {type:"intro",title:"¡Describe Tu Familia!",desc:"Put it all together. Describe your family using everything from this unit.",goals:["Combine family vocabulary with possessives","Use ser and tener for descriptions","Practice numbers and adjective agreement"]},
         {type:"tip",title:"Describing People: Full Toolkit",text:"You now have these tools:\n\n- Family words: padre, madre, hermano, abuelo, tío, primo...\n- Possessives: mi, tu, su, mis\n- Ser + adjective: es alto, es joven, es grande\n- Tener + feature: tiene el pelo negro, tiene los ojos marrones\n- Tener + age: tiene diez años\n- Numbers: cero to diez",icon:"🧰"},
         {type:"mc",q:"How do you say 'My father is tall and dark-haired'?",opts:["Mi padre es alto y moreno","Mi padre tiene alto y moreno","Mi padre es alta y morena","Su padre es alto y morena"],ans:"Mi padre es alto y moreno",hint:"Use es for traits. ___ is masculine: -o endings."},
         {type:"fb",opts:["tiene","es","tengo","tienes"],hint:"For physical features like hair, use the verb 'to have'.",s:"Mi hermana {1} el pelo rubio.",a:"tiene"},
-        {type:"mc",q:"Which sentence is correct?",opts:["Mi abuela es vieja","Mi abuela es viejo","Mi abuela es viejas","Mi abuela tiene vieja"],ans:"Mi abuela es vieja",hint:"___ is feminine singular. Match the adjective."},
+        {type:"mc",q:"Which sentence is correct?",opts:["Mi abuela es viejo","Mi abuela es vieja","Mi abuela es viejas","Mi abuela tiene vieja"],ans:"Mi abuela es vieja",hint:"___ is feminine singular. Match the adjective."},
         {type:"fb",opts:["alto","alta","grande","tiene"],hint:"Tío is masculine. Choose the masculine adjective for height.",s:"Mi tío es {1} y tiene los ojos marrones.",a:"alto"},
         {type:"match",pairs:[
           {trg:"Mi madre es alta",src:"My mother is tall"},
@@ -172,14 +172,14 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
           {trg:"Mi prima es joven",src:"My cousin is young"},
           {trg:"Tiene cinco años",src:"He/she is 5 years old"}
         ]},
-        {type:"mc",q:"'Mi primo tiene ocho años y es bajo' means...",opts:["My cousin is 8 years old and is short","My cousin has 8 brothers and is tall","My cousin is 8 years old and is blond","My cousin has 8 years and is big"],ans:"My cousin is 8 years old and is short",hint:"Tiene + años = age. Bajo = ___ in height."},
+        {type:"mc",q:"'Mi primo tiene ocho años y es bajo' means...",opts:["My cousin is 8 years old and is blond","My cousin has 8 brothers and is tall","My cousin is 8 years old and is short","My cousin has 8 years and is big"],ans:"My cousin is 8 years old and is short",hint:"Tiene + años = age. Bajo = ___ in height."},
         {type:"fb",opts:["dos","tres","cuatro","uno"],hint:"Count the names: María and Sofía.",s:"Tengo {1} hermanas: María y Sofía.",a:"dos"},
-        {type:"mc",q:"How do you ask 'How old is your grandmother?'",opts:["¿Cuántos años tiene tu abuela?","¿Cómo es tu abuela?","¿Cuántos hermanos tiene tu abuela?","¿Tienes abuela?"],ans:"¿Cuántos años tiene tu abuela?",hint:"Use the age question pattern with '___' for her."},
+        {type:"mc",q:"How do you ask 'How old is your grandmother?'",opts:["¿Tienes abuela?","¿Cómo es tu abuela?","¿Cuántos hermanos tiene tu abuela?","¿Cuántos años tiene tu abuela?"],ans:"¿Cuántos años tiene tu abuela?",hint:"Use the age question pattern with '___' for her."},
         {type:"fb",opts:["abuelo","tío","primo","hermano"],hint:"Your father's father is your grand...",s:"Mi {1} se llama Pedro. Es el padre de mi padre.",a:"abuelo"},
         {type:"mc",q:"Which is correct? 'Mi madre es ___.'",opts:["morena","moreno","morenos","morenas"],ans:"morena",hint:"Madre is feminine singular. Use the -a form."},
         {type:"drag_fill",hint:"Describe a tall female sibling with brown eyes.",s:"Mi {1} es {2} y tiene los ojos {3}.",blanks:{"1":"hermana","2":"alta","3":"marrones"},pool:["hermana","alta","marrones","hermano","bajo","negro"]},
         {type:"fb",opts:["grande","pequeña","alto","joven"],hint:"Six siblings means a large, not small, family.",s:"Mi familia es {1}. Tengo seis hermanos.",a:"grande"},
-        {type:"mc",q:"How do you say 'His aunt is young'?",opts:["Su tía es joven","Mi tía es joven","Su tío es joven","Su tía tiene joven"],ans:"Su tía es joven",hint:"Su = his/her. ___ = aunt. Use es for traits."},
+        {type:"mc",q:"How do you say 'His aunt is young'?",opts:["Mi tía es joven","Su tía es joven","Su tío es joven","Su tía tiene joven"],ans:"Su tía es joven",hint:"Su = his/her. ___ = aunt. Use es for traits."},
         {type:"match",pairs:[
           {trg:"el padre",src:"the father"},
           {trg:"la abuela",src:"the grandmother"},
@@ -189,6 +189,6 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
           {trg:"la hermana",src:"the sister"}
         ]},
         {type:"fb",opts:["hijos","años","hermanos","ojos"],hint:"Asking how many children your uncle has.",s:"¿Cuántos {1} tiene tu tío?",a:"hijos"},
-        {type:"mc",q:"Complete: 'Mi abuelo tiene ___ años.'",opts:["diez","alto","rubio","grande"],ans:"diez",hint:"Age uses a number with años."}
+        {type:"mc",q:"Complete: 'Mi abuelo tiene ___ años.'",opts:["rubio","alto","diez","grande"],ans:"diez",hint:"Age uses a number with años."}
   ]}
 ]};

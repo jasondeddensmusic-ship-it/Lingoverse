@@ -84,7 +84,7 @@ const LESSON_15 = {
     {type:"mc", q:"What does 'grensverleggend' literally mean?",
      opts:["border controlling","boundary moving","limit setting","ground breaking"],
      ans:"boundary moving",
-     hint:"Grens (border/boundary) + verleggend (moving/shifting). Pushing limits."},
+     hint:"Grens (border/b...) + verleggend (m.../shifting). Pushing limits."},
     {type:"fb", s:"De buren maakten een {1} kabaal.", a:["heidens"],
      opts:["heidens","heikel","halftijds","harmonisch"],
      hint:"Used as an intensifier meaning enormous or tremendous. Originally meant 'pagan'.",

@@ -79,7 +79,7 @@ const LESSON_2 = {id:"nlv2_b2gA_l2", title:"Gezondheid & Welzijn", icon:"\u{1F3E
   {type:"mc", q:"Er is een tekort aan personeel in de hulpverleningssector. Wat is dat?",
    opts:["the aid services sector","the healthcare sector","the education sector","the technology sector"],
    ans:"the aid services sector",
-   hint:"Hulpverlening (aid provision) + sector. Think social work and emergency services."},
+   hint:"Hulpverlening (a... provision) + s.... Think social work and emergency s...."},
 
   {type:"fb", s:"De {1} veroorzaakt buikpijn en koorts.",
    a:["darmontsteking"], opts:["darmontsteking","infectie","insuline","campagne"],

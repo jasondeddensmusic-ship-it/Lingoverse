@@ -60,7 +60,7 @@ const LESSON_18 = {id:"nlv2_b2gA_l18", title:"Verbanden & Structuur", icon:"\u{1
   {type:"mc", q:"De gokverslaafde verloor alles. Wat is een 'gokverslaafde'?",
    opts:["someone addicted to gambling","a casino owner","a lottery winner","a professional poker player"],
    ans:"someone addicted to gambling",
-   hint:"Gok (gamble) + verslaafde (addict). Someone who cannot stop gambling."},
+   hint:"Gok (gamble) + verslaafde (addict). S... who cannot stop g...."},
 
   {type:"fb", s:"{1} stonden vroeger in elk cafe.",
    a:["Gokautomaten"], opts:["Gokautomaten","Graffiti","Holdings","Dwarsverbindingen"],
@@ -79,7 +79,7 @@ const LESSON_18 = {id:"nlv2_b2gA_l18", title:"Verbanden & Structuur", icon:"\u{1
   {type:"mc", q:"Is graffiti kunst of vandalisme? Wat is 'graffiti'?",
    opts:["drawings or text sprayed on walls","a type of sculpture","a painting technique","a music genre"],
    ans:"drawings or text sprayed on walls",
-   hint:"From Italian. Street art that is sprayed or painted on public surfaces."},
+   hint:"From Italian. Street art that is s... or painted on public surfaces."},
 
   {type:"fb", s:"De {1} bezit vijf dochterondernemingen.",
    a:["holding"], opts:["holding","graffiti","dwarsverbinding","gokautomaat"],

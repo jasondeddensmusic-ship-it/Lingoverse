@@ -39,7 +39,7 @@ const LESSON_10 = {
      q:"Wat is een 'gokautomaat'?",
      opts:["Een machine waarop je kunt gokken","Een automaat die eten verkoopt","Een robot die kaarten deelt","Een machine die geld wisselt"],
      ans:"Een machine waarop je kunt gokken",
-     hint:"Gok (gamble) + automaat (machine). Where do you put coins in and hope for a win?"},
+     hint:"Gok (gamble) + automaat (m...). Where do you put coins in and hope for a win?"},
     {type:"teach", trg:"de inslag", src:"the impact, the strike, the character", pos:"noun", gender:"c",
      note:"De-word. In + slag (strike/blow).\nLiteral: impact point. Figurative: character/nature.",
      example:"A: De film heeft een psychologische inslag.\nB: Is het een thriller?\nA: Meer een drama. Het gaat over verlies.\nB: Klinkt zwaar maar interessant.",
@@ -92,7 +92,7 @@ const LESSON_10 = {
      q:"Wat betekent 'jatten' in informeel Nederlands?",
      opts:["Stelen","Rennen","Liegen","Slapen"],
      ans:"Stelen",
-     hint:"This is a very informal, slang verb. In formal Dutch you would say 'stelen'. What does a thief do?"},
+     hint:"This is a very informal, slang verb. In formal Dutch you would say 's...'. What does a thief do?"},
     {type:"fb",
      s:"De politie werd {1} nadat de buren verdachte geluiden hoorden.",
      a:["ingeschakeld"],
@@ -103,7 +103,7 @@ const LESSON_10 = {
      q:"Wat is een 'geluksbeleving'?",
      opts:["De persoonlijke ervaring van geluk","Een type loterij","Een geluksbrenger","Een feestdag"],
      ans:"De persoonlijke ervaring van geluk",
-     hint:"Break the compound: geluk (happiness) + beleving (experience). What does this describe?"}
+     hint:"Break the compound: g... (happiness) + beleving (experience). What does this describe?"}
   ]
 };
 export default LESSON_10;

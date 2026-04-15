@@ -79,7 +79,7 @@ const LESSON_6 = {id:"nlv2_b2gA_l6", title:"Informatie & Digitaal", icon:"\u{1F4
   {type:"mc", q:"De informatiestroom binnen het bedrijf moet beter. Wat is een 'informatiestroom'?",
    opts:["the flow of information","a type of computer","a news channel","an email system"],
    ans:"the flow of information",
-   hint:"Stroom means stream or flow. How information moves through an organization."},
+   hint:"Stroom means stream or f.... How i... moves through an organization."},
 
   {type:"fb", s:"Heb je het {1} al ingevuld voor de cursus?",
    a:["inschrijvingsformulier"], opts:["inschrijvingsformulier","informatiesysteem","internettoegang","inloggegevens"],

@@ -67,7 +67,7 @@ const LESSON_9 = {id:"nlv2_b2gB_l9", title:"Verborgen Werkwoorden", icon:"\u{1F4
 {type:"mc", q:"'De klus klaren' betekent:",
  opts:["To start a job","To quit a job","To get the job done","To find a job"],
  ans:"To get the job done",
- hint:"Klaren means to handle or manage. When the job is done, you've 'cleared' it."},
+ hint:"Klaren means to handle or manage. When the j... is d..., you've 'cleared' it."},
 
 {type:"fb", s:"Er {1} een risico aan dit voorstel.",
  a:["kleeft"], opts:["kleeft","koerst","knaagt","kakeldt"],

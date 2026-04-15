@@ -118,7 +118,7 @@ const LESSON_16 = {id:"frv2_b2g9_l16", title:"Adjectifs Avancés", icon:"🎯", 
   ]},
 
   {type:"mc", q:"Originel et original sont:", opts:["Des synonymes parfaits","Originel = des origines, original = créatif","Le même mot avec deux orthographes","Des antonymes"], ans:"Originel = des origines, original = créatif",
-   hint:"Originel relates to origins and beginnings. Original relates to creativity and uniqueness."},
+   hint:"O... relates to origins and beginnings. O... relates to creativity and uniqueness."},
 
   {type:"fb", s:"Le versement {1} met fin à la dette.", a:["libératoire"], opts:["libératoire","patrimonial","physiologique","phosphorescent"],
    hint:"A payment that liberates you from an obligation. Clears the debt.",

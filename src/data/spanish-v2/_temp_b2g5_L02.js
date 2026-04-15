@@ -32,7 +32,7 @@ const LESSON_2 = {id:"esv2_b2g5_l2",title:"Negocios y comercio",icon:"💼",xp:1
  exampleSrc:"A: When is the collective agreement renewed?\nB: Negotiations start next month.",
  funFact:"Spain has one of Europe's highest rates of collective bargaining coverage, around 80%."},
 
-{type:"mc",q:"¿Qué es la facturación de una empresa?",opts:["El total de ingresos por ventas","El número de empleados","La lista de proveedores","El horario de trabajo"],ans:"El total de ingresos por ventas",hint:"Think about the total revenue a company brings in from selling goods or services."},
+{type:"mc",q:"¿Qué es la facturación de una empresa?",opts:["El total de ingresos por ventas","El número de empleados","La lista de proveedores","El horario de trabajo"],ans:"El total de ingresos por ventas",hint:"Think about the t... revenue a company brings in from selling goods or services."},
 
 {type:"teach",trg:"el autoservicio",src:"the self-service (shop)",pos:"noun",gender:"m",
  note:"Masculine noun. A shop where customers serve themselves.\nCompound: auto + servicio.",

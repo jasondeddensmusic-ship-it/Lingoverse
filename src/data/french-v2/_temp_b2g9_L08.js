@@ -104,7 +104,7 @@ const LESSON_8 = {id:"frv2_b2g9_l8", title:"Droit et Justice", icon:"⚖️", xp
    funFact:"Pharaonique (pharaonic) in French means grandiose or megalomaniac: un projet pharaonique."},
 
   {type:"mc", q:"Un paraphe est:", opts:["Une signature complète","Des initiales sur un document","Un tampon officiel","Un sceau royal"], ans:"Des initiales sur un document",
-   hint:"A simplified form of your signature, placed on each page of a legal document."},
+   hint:"A simplified form of your signature, placed on each page of a legal d...."},
 
   {type:"fb", s:"Les soldats sont tombés dans un {1}.", a:["guet-apens"], opts:["guet-apens","passe-passe","parachute","paraphe"],
    hint:"A premeditated attack where the enemy lies in wait. An ambush.",

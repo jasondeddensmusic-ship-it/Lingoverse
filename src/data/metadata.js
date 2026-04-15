@@ -138,6 +138,8 @@ export const LANGUAGES = [
   { code: "ko", name: "Korean", flag: "🇰🇷", native: "한국어", greeting: "안녕하세요!", welcomeBack: "안녕하세요, 다시 오신 것을 환영합니다!" },
   { code: "zh", name: "Chinese", flag: "🇨🇳", native: "中文", greeting: "你好!", welcomeBack: "你好，欢迎回来！" },
   { code: "ja", name: "Japanese", flag: "🇯🇵", native: "日本語", greeting: "こんにちは!", welcomeBack: "こんにちは、おかえりなさい！" },
+  { code: "it", name: "Italian", flag: "🇮🇹", native: "Italiano", greeting: "Ciao!", welcomeBack: "Ciao, bentornato!" },
+  { code: "pt", name: "Portuguese", flag: "🇧🇷", native: "Português", greeting: "Olá!", welcomeBack: "Olá, bem-vindo de volta!" },
   { code: "ru", name: "Russian", flag: "🇷🇺", native: "Русский", greeting: "Привет!", welcomeBack: "Привет, с возвращением!" },
 ];
 

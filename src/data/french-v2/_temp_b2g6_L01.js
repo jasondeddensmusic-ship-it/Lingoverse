@@ -33,7 +33,7 @@ const LESSON_1 = {
      q:"Que signifie 'un abonné' ?",
      opts:["Un inscrit à un service","Un employé d'une entreprise","Un visiteur occasionnel","Un propriétaire"],
      ans:"Un inscrit à un service",
-     hint:"Someone who pays regularly to receive a service, magazine, or digital content."},
+     hint:"Someone who pays regularly to receive a s..., magazine, or digital content."},
 
     {type:"teach", trg:"s'absenter", src:"to be absent, to leave temporarily", pos:"verb", gender:null,
      note:"Reflexive verb. To step out or be away from a place briefly.",

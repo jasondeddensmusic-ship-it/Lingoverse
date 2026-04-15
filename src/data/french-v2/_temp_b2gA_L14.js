@@ -115,7 +115,7 @@ const LESSON_14 = {
      q:"Quel terme designe les reserves d'eau souterraines ?",
      opts:["la nappe phreatique","la biodiversite","l'erosion","le reboisement"],
      ans:"la nappe phreatique",
-     hint:"Underground water reserves. 'Nappe' means layer. Weather reports monitor their levels."}
+     hint:"Underground water reserves. 'N...' means layer. Weather reports monitor their levels."}
   ]
 };
 export default LESSON_14;

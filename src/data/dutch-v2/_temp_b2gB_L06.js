@@ -84,7 +84,7 @@ const LESSON_6 = {id:"nlv2_b2gB_l6", title:"Koken en Smaak", icon:"\u{1F373}", x
 {type:"mc", q:"'Dubbel-zoute drop' is:",
  opts:["Very sweet liquorice","Double-salt liquorice","Chocolate-covered liquorice","Liquorice-flavored ice cream"],
  ans:"Double-salt liquorice",
- hint:"The extreme version of the Dutch national candy, with extra salt"},
+ hint:"The extreme version of the Dutch national candy, with extra s..."},
 
 {type:"fb", s:"De Nederlandse {1} is sterk beinvloed door Indonesie.",
  a:["kookcultuur"], opts:["kookcultuur","kooktraditie","koffieautomaat","kebab"],

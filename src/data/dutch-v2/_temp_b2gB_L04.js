@@ -57,7 +57,7 @@ const LESSON_4 = {id:"nlv2_b2gB_l4", title:"Kinderen en Gezin", icon:"\u{1F476}"
 {type:"mc", q:"'Het knuffeldier' is:",
  opts:["A pet you can hug","A stuffed animal","A teddy bear brand","A zoo animal"],
  ans:"A stuffed animal",
- hint:"Knuffel (cuddle) + dier (animal). The toy children sleep with."},
+ hint:"Knuffel (cuddle) + dier (a...). The toy children sleep with."},
 
 {type:"fb", s:"De kinderen willen vanmiddag {1}.",
  a:["knutselen"], opts:["knutselen","knuffelen","kroost","kleuterdagverblijf"],

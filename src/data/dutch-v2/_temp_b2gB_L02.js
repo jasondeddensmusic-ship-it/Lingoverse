@@ -57,7 +57,7 @@ const LESSON_2 = {id:"nlv2_b2gB_l2", title:"Jeugd en Opvoeding", icon:"\u{1F9D2}
 {type:"mc", q:"'De kinderrechter' is:",
  opts:["A teacher of children","A juvenile judge","A children's doctor","A youth worker"],
  ans:"A juvenile judge",
- hint:"Rechter means judge. This one specializes in cases involving minors."},
+ hint:"Rechter means j.... This one specializes in cases involving minors."},
 
 {type:"fb", s:"De zaak komt voor de {1}.",
  a:["jeugdrechtbank"], opts:["jeugdrechtbank","jeugdclub","kleuterschool","jongedame"],

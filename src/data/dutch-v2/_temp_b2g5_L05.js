@@ -62,7 +62,7 @@ const LESSON_5 = {
     {type:"mc", q:"Wat is 'het grondwater'?",
      opts:["regenwater","water onder de grond","rivierwater","leidingwater"],
      ans:"water onder de grond",
-     hint:"Grond means ground or soil. This water is literally underground."},
+     hint:"G... means ground or soil. This w... is literally underground."},
     {type:"fb", s:"Welke {1} verbouwen ze hier?", a:["gewassen"],
      opts:["gewassen","grondwater","fruitsoorten","grootten"],
      hint:"The plural of 'gewas'. Refers to agricultural crops that are cultivated.",

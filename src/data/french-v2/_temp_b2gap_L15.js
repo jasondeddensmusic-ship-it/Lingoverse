@@ -145,7 +145,7 @@ const LESSON_15 = {
      s:"Il porte un {1} gris elegant pour la reunion.",
      a:["complet"],
      opts:["complet","boulet","bonus","clivage"],
-     hint:"A men's suit (jacket + trousers). Short for 'complet-veston', more formal than 'costume'.",
+     hint:"A men's suit (jacket + trousers). Short for 'c...-veston', more formal than 'costume'.",
      sSrc:"He wears an elegant grey {1} for the meeting."}
   ]
 };

@@ -111,7 +111,7 @@ const LESSON_14 = {
     {type:"mc", q:"'Anno 2026' implies:",
      opts:["exactly in 2026","in this day and age things should be different","a historical date","a future prediction"],
      ans:"in this day and age things should be different",
-     hint:"The Latin word 'anno' in Dutch always implies contrast with how things were."},
+     hint:"The Latin word 'anno' in Dutch always implies contrast with how t... were."},
     {type:"fb", s:"De nieuwe campagne gaf de verkoop een {1}.", a:["boost"],
      opts:["boost","blog","air","aai"],
      hint:"An English loanword meaning a sudden increase or improvement.",

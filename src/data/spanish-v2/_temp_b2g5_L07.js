@@ -32,7 +32,7 @@ const LESSON_7 = {id:"esv2_b2g5_l7",title:"Gobierno e instituciones",icon:"🏛�
  exampleSrc:"A: The empress ruled with a firm hand for thirty years.\nB: It was an era of stability.",
  funFact:"Isabel of Portugal, wife of Carlos V, served as regent of Spain while the emperor was abroad."},
 
-{type:"mc",q:"¿Qué es la descentralización?",opts:["Distribuir el poder lejos de una autoridad central","Concentrar el poder en un solo lugar","Crear nuevas leyes nacionales","Disolver el parlamento"],ans:"Distribuir el poder lejos de una autoridad central",hint:"The opposite of bringing everything under one central authority."},
+{type:"mc",q:"¿Qué es la descentralización?",opts:["Distribuir el poder lejos de una autoridad central","Concentrar el poder en un solo lugar","Crear nuevas leyes nacionales","Disolver el parlamento"],ans:"Distribuir el poder lejos de una autoridad central",hint:"The opposite of bringing everything under one c... authority."},
 
 {type:"teach",trg:"el entrevistador",src:"the interviewer",pos:"noun",gender:"m",
  note:"Masculine noun. The person who conducts an interview.\nFeminine: la entrevistadora.",

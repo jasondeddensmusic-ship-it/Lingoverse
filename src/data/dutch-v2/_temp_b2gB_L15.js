@@ -67,7 +67,7 @@ const LESSON_15 = {id:"nlv2_b2gB_l15", title:"Handel en Ondernemen", icon:"\u{1F
 {type:"mc", q:"'De kompaan' kan zowel ... als ... betekenen.",
  opts:["Friend and enemy","Companion and accomplice","King and servant","Buyer and seller"],
  ans:"Companion and accomplice",
- hint:"Originally positive (French companion), now often used for partners in crime"},
+ hint:"Originally positive (French c...), now often used for partners in crime"},
 
 {type:"fb", s:"Heb je {1} in het buitenland?",
  a:["handelscontacten"], opts:["handelscontacten","jackpots","jukeboxen","klerken"],

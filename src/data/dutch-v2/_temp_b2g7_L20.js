@@ -24,7 +24,7 @@ const LESSON_20 = {
      q:"Wat betekent 'generatiearmoede'?",
      opts:["Armoede die van generatie op generatie wordt doorgegeven","Armoede onder ouderen","Een generatie zonder geld","Armoede in een specifiek jaar"],
      ans:"Armoede die van generatie op generatie wordt doorgegeven",
-     hint:"Generatie (generation) + armoede (poverty). This sociological concept describes poverty that is inherited."},
+     hint:"G... (generation) + a... (poverty). This sociological concept describes poverty that is inherited."},
     {type:"teach", trg:"de hobbyist", src:"the hobbyist", pos:"noun", gender:"c",
      note:"De-word. Hobby + -ist.\nSomeone who pursues an activity as a leisure pastime.",
      example:"A: Als hobbyist mag je geen geld verdienen met je werk.\nB: Waarom niet?\nA: Dan word je een ondernemer en moet je belasting betalen.\nB: De grens is tweehonderd euro per maand.",
@@ -100,7 +100,7 @@ const LESSON_20 = {
      q:"Wat betekent 'huis-tuin-en-keukenwoord'?",
      opts:["Een heel alledaags, gewoon woord","Een woord dat met eten te maken heeft","Een woord uit de bouwsector","Een dialectwoord"],
      ans:"Een heel alledaags, gewoon woord",
-     hint:"Huis (house) + tuin (garden) + keuken (kitchen) creates an expression meaning ordinary, everyday. Add 'woord' and you get?"},
+     hint:"Huis (house) + tuin (garden) + keuken (kitchen) creates an expression meaning ordinary, everyday. Add 'w...' and you get?"},
     {type:"match", pairs:[
       {trg:"de generatiearmoede", src:"generational poverty"},
       {trg:"de hobbyvereniging", src:"hobby association"},

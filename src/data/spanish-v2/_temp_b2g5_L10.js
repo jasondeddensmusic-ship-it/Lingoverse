@@ -32,7 +32,7 @@ const LESSON_10 = {id:"esv2_b2g5_l10",title:"Engaño y justicia",icon:"⚖️",x
  exampleSrc:"A: Saying it was a disaster is an exaggeration.\nB: Well, it wasn't perfect but not that bad either.",
  funFact:"Spaniards are known for expressive exaggeration. 'Es la leche' and 'mola mazo' are everyday hyperboles."},
 
-{type:"mc",q:"¿Qué es una fechoría?",opts:["Una acción malvada o criminal","Una celebración festiva","Un documento legal","Un tipo de castigo"],ans:"Una acción malvada o criminal",hint:"A word for a wicked deed or criminal act, often used in the plural."},
+{type:"mc",q:"¿Qué es una fechoría?",opts:["Una acción malvada o criminal","Una celebración festiva","Un documento legal","Un tipo de castigo"],ans:"Una acción malvada o criminal",hint:"A word for a wicked deed or c... act, often used in the plural."},
 
 {type:"teach",trg:"fulminar",src:"to strike down / to annihilate",pos:"verb",gender:null,
  note:"Regular -ar verb. To destroy with force, like lightning.\nFigurative: to glare at someone.",

@@ -94,7 +94,7 @@ const LESSON_13 = {id:"frv2_b2gC_l13", title:"Conflits et émotions fortes", ico
 {type:"fb",
  s:"Il faut {1} aux détails pour éviter les erreurs coûteuses.",
  a:["prêter attention"], opts:["prêter attention","faire confiance","trouver prétexte","être modéré"],
- hint:"To lend your focus to something. More formal than 'faire attention.'",
+ hint:"To lend your focus to something. More formal than 'faire a....'",
  sSrc:"You must {1} to details to avoid costly mistakes."},
 
 {type:"drag_fill",
@@ -107,7 +107,7 @@ const LESSON_13 = {id:"frv2_b2gC_l13", title:"Conflits et émotions fortes", ico
  q:"Quelle est la métaphore française pour 'to pay attention' ?",
  opts:["Prêter (lend) attention","Donner (give) attention","Acheter (buy) attention","Vendre (sell) attention"],
  ans:"Prêter (lend) attention",
- hint:"French uses a different verb than English. You 'lend' your focus rather than 'pay' for it."}
+ hint:"French uses a different verb than English. You 'l...' your focus rather than 'pay' for it."}
 
 ]};
 export default LESSON_13;

@@ -24,12 +24,12 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
           title:"Why name these now?",
           text:"Research shows that learners do better when they have a mental roadmap of the language's structure, even before they master each piece.\n\nYou do NOT need to memorize this list! Each system will be formally taught in its own unit with full explanations and practice.\n\nFor now, just know: Dutch is a well-organized language. Every pattern you learn connects to other patterns. The grammar is very regular compared to English, with fewer exceptions.\n\nGood news for English speakers: Dutch is the CLOSEST major language to English. You will recognize many words!"
         },text:"Dutch has a few key systems you will meet throughout this course:\n\n1. Verb conjugation: verbs change by person (stam + ending). Coming in Unit 3.\n2. de/het articles: every noun is 'de' or 'het'. You will start learning these in Lesson 4.\n3. Word order: the verb is ALWAYS second (V2 rule). You just saw this!\n4. Negation: niet (not) and geen (no/none). Coming in Lesson 9.\n5. Separable verbs: some verbs split in two. Coming in Unit 5.\n6. Plurals: -en or -s endings. Unit 4.\n7. Diminutives: -je makes things small/cute. Unit 4.\n8. Adjective agreement: adjectives sometimes add -e. Unit 5."},
-        {type:"mc",q:"It's 9 AM. You enter a bakery. You say:",opts:["Goedenavond","Goedemorgen","Goedemiddag","Doei"],ans:"Goedemorgen",hint:"Morning greeting"},
-        {type:"mc",q:"Leaving a business meeting, you say:",opts:["Doei!","Hoi!","Tot ziens.","Hey!"],ans:"Tot ziens.",hint:"The formal goodbye"},
+        {type:"mc",q:"It's 9 AM. You enter a bakery. You say:",opts:["Goedemorgen","Goedenavond","Goedemiddag","Doei"],ans:"Goedemorgen",hint:"Morning greeting"},
+        {type:"mc",q:"Leaving a business meeting, you say:",opts:["Doei!","Tot ziens.","Hoi!","Hey!"],ans:"Tot ziens.",hint:"The formal goodbye"},
         {type:"mc",q:"'Dag' can be used as:",opts:["Only hello","Only goodbye","Both hello AND goodbye","Only formal"],ans:"Both hello AND goodbye",hint:"The Swiss army knife"},
         {type:"fb",opts:["Doei","Meneer","Sorry","Hallo"],hint:"Casual goodbye to a friend",s:"___! Tot morgen!",a:"Doei"},
         {type:"match",pairs:[{trg:"hallo",src:"hello"},{trg:"dag",src:"hello/goodbye"},{trg:"tot ziens",src:"goodbye (formal)"},{trg:"doei",src:"bye! (casual)"}]},
-        {type:"mc",q:"What does 'tot ziens' literally mean?",opts:["Good day","Until seeing","See you later","Hello again"],ans:"Until seeing",hint:"Tot = ___"}
+        {type:"mc",q:"What does 'tot ziens' literally mean?",opts:["Good day","Hello again","See you later","Until seeing"],ans:"Until seeing",hint:"Tot = ___"}
   ]},
   {id:"v2u1l2",title:"Zijn: To Be (Complete)",icon:"🧑",xp:20,board:true,steps:[
         {type:"intro",title:"Zijn: To Be",desc:"The most important verb in Dutch. You'll learn ALL forms of 'zijn' in one go, because you need them all from day one.",goals:["All 7 subject pronouns","Every form of zijn","Say 'I am', 'you are', 'we are'..."]},
@@ -59,12 +59,12 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"teach",trg:"jullie zijn",src:"you all are",pos:"verb",gender:null,phonetic:"YUL-lee zayn",note:"'Jullie' = you (plural). Also uses 'zijn'.\nNo separate formal plural  -  'u' covers both.",example:"A: Jullie zijn laat!\nB: De tijd gaat snel!\nA: Goed punt.",exampleSrc:"A: You all are late!\nB: Time goes fast!\nA: Good point.",funFact:"Dutch verbs follow the stem + ending pattern. Find the stem, add the right ending."},
         {type:"teach",trg:"zij zijn",src:"they are",pos:"verb",gender:null,phonetic:"zay zayn",note:"Same word as 'she'  -  context makes it clear.\nShort form: 'ze zijn'.",example:"A: Zij zijn mijn buren.\nB: Dat klinkt leuk! Mag ik mee?\nA: Goed punt.",exampleSrc:"A: They are my neighbours.\nB: That sounds fun! Can I come along?\nA: Good point.",funFact:"zij + zijn: Dutch verb conjugation follows regular patterns once you learn the stem."},
         {type:"tip",title:"🔑 Pattern: Only 4 Forms",text:"Despite 9 pronouns, zijn only has 4 forms:\n\nben → only ik (I)\nbent → jij (you) and u (you, formal)\nis → hij (he), zij (she), het (it)\nzijn → wij (we), jullie (you all), zij (they)\n\nCompare English: am, are, is, also just 3 forms!\nDutch adds one more (ben ≠ bent) but the logic is identical."},
-        {type:"mc",q:"'Wij ___ blij.', Fill in:",opts:["ben","bent","is","zijn"],ans:"zijn",hint:"Which form of '___' fits wij?"},
-        {type:"mc",q:"Which pronoun uses 'is'?",opts:["ik","jij","hij","wij"],ans:"hij",hint:"Third person singular"},
+        {type:"mc",q:"'Wij ___ blij.', Fill in:",opts:["zijn","bent","is","ben"],ans:"zijn",hint:"Which form of '___' fits wij?"},
+        {type:"mc",q:"Which pronoun uses 'is'?",opts:["ik","hij","jij","wij"],ans:"hij",hint:"Third person singular"},
         {type:"fb",opts:["zijn","bent","is","ben"],hint:"Plural 'you'",s:"Jullie ___ laat!",a:"zijn"},
-        {type:"mc",q:"In a question, 'jij bent' becomes:",opts:["Bent jij?","Ben jij?","Is jij?","Zijn jij?"],ans:"Ben jij?",hint:"Inversion causes the -t to disappear from the verb form"},
+        {type:"mc",q:"In a question, 'jij bent' becomes:",opts:["Bent jij?","Is jij?","Ben jij?","Zijn jij?"],ans:"Ben jij?",hint:"Inversion causes the -t to disappear from the verb form"},
         {type:"match",pairs:[{trg:"ik ben",src:"I am"},{trg:"hij is",src:"he is"},{trg:"wij zijn",src:"we are"},{trg:"jij bent",src:"you are"}]},
-        {type:"mc",q:"'Zij ___ mijn buren.' (They ___ my neighbours)",opts:["is","bent","zijn","ben"],ans:"zijn",hint:"zij (they) takes the same form as wij"}
+        {type:"mc",q:"'Zij ___ mijn buren.' (They ___ my neighbours)",opts:["is","bent","ben","zijn"],ans:"zijn",hint:"zij (they) takes the same form as wij"}
   ]},
   {id:"v2u1l3",title:"Wie? Wat? Waar?",icon:"❓",xp:20,board:true,steps:[
         {type:"intro",title:"Question Words",desc:"Six words that unlock hundreds of questions. Plus the one rule you need: Dutch flips the verb in questions.",goals:["6 question words","Question word order","Form real questions"]},
@@ -79,12 +79,12 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"teach",trg:"wanneer",src:"when",pos:"noun",gender:null,phonetic:"vah-NEER",note:"Two syllables: wan-NEER. Stress on second.",example:"A: Wanneer kom je?\nB: Goede vraag! Laat me even denken.\nA: Goed punt.",exampleSrc:"A: When are you coming?\nB: Good question! Let me think.\nA: Good point.",funFact:"Dutch and English are the closest major language pair in the world. Many words share common roots."},
         {type:"teach",trg:"waarom",src:"why",pos:"noun",gender:null,phonetic:"vahr-OM",note:"Waar + om = 'where about.'\nStress on second: vahr-OM.",example:"A: Waarom niet?\nB: Goede vraag! Laat me even denken.\nA: Goed punt.",exampleSrc:"A: Why not?\nB: Good question! Let me think.\nA: Good point.",funFact:"Dutch and English are the closest major language pair in the world. Many words share common roots."},
         {type:"tip",title:"🗣️ Your Survival Questions",text:"Memorize these 5, they'll save you daily:\n\nWat is dat? = What is that?\nWaar is het toilet? = Where is the toilet?\nHoe heet je? = What's your name?\nWanneer vertrekt de trein? = When does the train leave?\nWaarom niet? = Why not?\n\nNotice: verb ALWAYS comes right after the question word."},
-        {type:"mc",q:"'Waar is het station?' means:",opts:["What is the station?","Who is at the station?","Where is the station?","How is the station?"],ans:"Where is the station?",hint:"Waar = where"},
+        {type:"mc",q:"'Waar is het station?' means:",opts:["Where is the station?","Who is at the station?","What is the station?","How is the station?"],ans:"Where is the station?",hint:"Waar = w..."},
         {type:"mc",q:"'Hoe heet je?' literally means:",opts:["What is your name?","How are you called?","Where are you from?","Who are you?"],ans:"How are you called?",hint:"Hoe = how"},
         {type:"fb",opts:["Wie","Wat","Waar","Hoe"],hint:"Asking about a person",s:"___ is dat?",a:"Wie"},
-        {type:"mc",q:"In Dutch questions, the verb comes:",opts:["At the end","Right after the question word","After everything","Before the question word"],ans:"Right after the question word",hint:"___ ___ → VERB → subject"},
+        {type:"mc",q:"In Dutch questions, the verb comes:",opts:["At the end","After everything","Right after the question word","Before the question word"],ans:"Right after the question word",hint:"___ ___ → VERB → subject"},
         {type:"match",pairs:[{trg:"wie",src:"who"},{trg:"wat",src:"what"},{trg:"waar",src:"where"},{trg:"waarom",src:"why"}]},
-        {type:"mc",q:"'Wanneer kom je?' means:",opts:["Where are you going?","When are you coming?","Why are you coming?","How are you coming?"],ans:"When are you coming?",hint:"Wanneer = when"}
+        {type:"mc",q:"'Wanneer kom je?' means:",opts:["Where are you going?","How are you coming?","Why are you coming?","When are you coming?"],ans:"When are you coming?",hint:"Wanneer = when"}
   ]},
   {id:"v2u1l4",title:"De, Het & Een",icon:"📦",xp:20,board:true,steps:[
         {type:"intro",title:"De, Het & Een: Dutch Articles",desc:"Dutch has TWO words for 'the': de and het. No reliable rule  -  you learn them with each word.",goals:["Know de vs het","Use een (a/an)","Learn 6 nouns with their articles","Accept: memorize, don't overthink"]},
@@ -98,12 +98,12 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"teach",trg:"het huis",src:"the house",pos:"noun",gender:"n",phonetic:"hut howss",note:"The 'ui' is a uniquely Dutch sound  -  round your lips!\nDoesn't exist in English.",example:"A: Het huis is mooi.\nB: Wat een mooi huis!\nA: Dat is zo.",exampleSrc:"A: The house is beautiful.\nB: What a nice house!\nA: That's true.",funFact:"Germanic cousin of English 'house', German 'Haus'."},
         {type:"teach",trg:"een boek",src:"a book",pos:"noun",gender:null,phonetic:"un book",note:"'Een' = a/an for ALL nouns.\nIt NEVER changes. That's the good news!",example:"A: Ik lees een boek.\nB: O, interessant!\nA: Ja, vind je niet?",exampleSrc:"A: I'm reading a book.\nB: Oh, interesting!\nA: Yes, don't you think?",funFact:"Germanic cousin of English 'book', German 'Buch'."},
         {type:"teach",trg:"de kat",src:"the cat",pos:"noun",gender:"c",phonetic:"duh kaht",note:"A de-word. Most animals use 'de'.\nException: 'het paard' (the horse).",example:"A: De kat slaapt.\nB: O, interessant!\nA: Ja, vind je niet?",exampleSrc:"A: The cat sleeps.\nB: Oh, interesting!\nA: Yes, don't you think?",funFact:"Germanic cousin of English 'cat', German 'Katze'."},
-        {type:"mc",q:"Which article goes with 'huis'?",opts:["de","het","een","geen"],ans:"het",hint:"Think back to the teach cards for house"},
-        {type:"mc",q:"All plural nouns use:",opts:["de","het","een","No article"],ans:"de",hint:"De mannen, de huizen, de katten..."},
+        {type:"mc",q:"Which article goes with 'huis'?",opts:["het","de","een","geen"],ans:"het",hint:"Think back to the teach cards for house"},
+        {type:"mc",q:"All plural nouns use:",opts:["het","de","een","No article"],ans:"de",hint:"De mannen, de huizen, de katten..."},
         {type:"fb",opts:["De","Het","Een","Geen"],hint:"Remember which article 'vrouw' used in the teach card",s:"___ vrouw is aardig.",a:"De"},
         {type:"mc",q:"'Een' is used for:",opts:["Only de-words","Only het-words","Both de and het words","Plural nouns"],ans:"Both de and het words",hint:"Een never changes!"},
         {type:"match",pairs:[{trg:"de man",src:"the man"},{trg:"het huis",src:"the house"},{trg:"de kat",src:"the cat"},{trg:"het kind",src:"the child"}]},
-        {type:"mc",q:"Words ending in -je (like broodje, meisje) always use:",opts:["de","het","een","geen"],ans:"het",hint:"All diminutives share the same article, regardless of the base noun"}
+        {type:"mc",q:"Words ending in -je (like broodje, meisje) always use:",opts:["de","geen","een","het"],ans:"het",hint:"All diminutives share the same article, regardless of the base noun"}
   ]},
   {id:"v2u1l5",title:"Hebben: To Have (Complete)",icon:"✋",xp:20,board:true,steps:[
         {type:"intro",title:"Hebben: To Have",desc:"Your second essential verb, all forms at once. After this lesson you know zijn AND hebben, the two verbs that power 60% of daily Dutch.",goals:["Every form of hebben","The -t drop rule in questions","Mini review of L1–L4"]},
@@ -131,12 +131,12 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"teach",trg:"wij hebben",src:"we have",pos:"verb",gender:null,phonetic:"vay HEB-bun",also:"'honger hebben' = to be hungry (lit: to have hunger)",note:"Dutch says 'have hunger' not 'are hungry'.\nSame for thirst: 'Ik heb dorst.'\nLike French and German!",example:"A: Wij hebben honger!\nB: Ik ook. Zullen we eten?\nA: Ja, graag!",exampleSrc:"A: We are hungry!\nB: Me too. Shall we eat?\nA: Yes, please!",funFact:"Connected to German through their shared West Germanic ancestry."},
         {type:"teach",trg:"zij hebben",src:"they have",pos:"verb",gender:null,phonetic:"zay HEB-bun",note:"Same as wij: hebben.\nThe plural always uses the full form.",example:"A: Zij hebben een groot huis.\nB: Echt? Waar wonen zij?\nA: In Amsterdam.",exampleSrc:"A: They have a big house.\nB: Really? Where do they live?\nA: In Amsterdam.",funFact:"zij + hebben: Dutch verb conjugation follows regular patterns once you learn the stem."},
         {type:"tip",title:"🔁 Quick Review: Zijn + Hebben",text:"ZIJN (to be): ben, bent, is, zijn\nHEBBEN (to have): heb, hebt, heeft, hebben\n\n• Ik ben student. = I am a student.\n• Ik heb een kat. = I have a cat.\n• Ben jij blij? = Are you happy?\n• Hij is groot. = He is tall."},
-        {type:"mc",q:"'Ik heb een boek' means:",opts:["I am a book","I have a book","I want a book","I see a book"],ans:"I have a book",hint:"Heb = have"},
+        {type:"mc",q:"'Ik heb een boek' means:",opts:["I have a book","I am a book","I want a book","I see a book"],ans:"I have a book",hint:"Heb = have"},
         {type:"mc",q:"In a question, 'jij hebt' becomes:",opts:["Hebt jij?","Heb jij?","Heeft jij?","Hebben jij?"],ans:"Heb jij?",hint:"Inversion causes the -t to disappear from the verb form"},
-        {type:"mc",q:"'Wij hebben honger' means:",opts:["We are hungry","We have a dog","We are home","We have money"],ans:"We are hungry",hint:"Dutch says 'have hunger' not 'are hungry'"},
+        {type:"mc",q:"'Wij hebben honger' means:",opts:["We are home","We have a dog","We are hungry","We have money"],ans:"We are hungry",hint:"Dutch says 'have hunger' not 'are h...'"},
         {type:"fb",opts:["heeft","hebt","heb","hebben"],hint:"hij/zij uses which form?",s:"Hij ___ een kat.",a:"heeft"},
-        {type:"mc",q:"How do you say 'goodbye' formally?",opts:["Doei","Hallo","Tot ziens","Dag dag"],ans:"Tot ziens",hint:"From Lesson 1"},
-        {type:"mc",q:"'Waar is het station?', 'waar' means:",opts:["what","who","where","when"],ans:"where",hint:"From Lesson 3"},
+        {type:"mc",q:"How do you say 'goodbye' formally?",opts:["Doei","Hallo","Dag dag","Tot ziens"],ans:"Tot ziens",hint:"From Lesson 1"},
+        {type:"mc",q:"'Waar is het station?', 'waar' means:",opts:["where","who","what","when"],ans:"where",hint:"From Lesson 3"},
         {type:"match",pairs:[{trg:"ik heb",src:"I have"},{trg:"wij hebben",src:"we have"},{trg:"hij heeft",src:"he has"},{trg:"jij hebt",src:"you have"}]}
   ]},
   {id:"v2u1l6",title:"Ja, Nee & Alsjeblieft",icon:"🙏",xp:20,board:true,steps:[
@@ -155,12 +155,12 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"tip",title:"🔑 The je/u Pattern",text:"• alsjeblieft / alstublieft = please\n• dank je / dank u = thank you\n• hoe heet je / hoe heet u = what's your name\n• hoe gaat het met je / met u = how are you\n\n'je' ↔ 'u' is the ONLY switch. Works for ANY phrase."},
         {type:"teach",trg:"sorry",src:"sorry",pos:"intj",gender:null,phonetic:"SOR-ee",note:"Borrowed from English  -  same meaning.\n'Pardon' also works (slightly more formal).",example:"A: Sorry, waar is het station?\nB: Het station is daar, links.\nA: Dank je!",exampleSrc:"A: Sorry, where is the station?\nB: The station is there, on the left.\nA: Thanks!",funFact:"A borrowed word — related to English 'sorry'."},
         {type:"teach",trg:"graag",src:"gladly / please",pos:"adv",gender:null,phonetic:"hrahg",also:"'ik wil graag' = I would like",note:"Incredibly versatile:\nja, graag = yes please\ngraag gedaan = you're welcome\nik wil graag... = I would like...",example:"A: Dank je voor de hulp!\nB: Graag gedaan!\nA: Je bent heel aardig.",exampleSrc:"A: Thanks for the help!\nB: You're welcome!\nA: You are very kind.",funFact:"Common in everyday Dutch. Position in the sentence follows the V2 rule: verb stays second."},
-        {type:"mc",q:"A waiter hands you coffee. You say:",opts:["Alsjeblieft","Dank je wel","Sorry","Graag"],ans:"Dank je wel",hint:"They gave you something: you thank them"},
+        {type:"mc",q:"A waiter hands you coffee. You say:",opts:["Dank je wel","Alsjeblieft","Sorry","Graag"],ans:"Dank je wel",hint:"They gave you something: you thank them"},
         {type:"mc",q:"You hand a friend their book back. You say:",opts:["Dank je","Alsjeblieft","Sorry","Nee"],ans:"Alsjeblieft",hint:"You're handing something over"},
         {type:"fb",opts:["alsjeblieft","sorry","dank je","graag"],hint:"Ordering politely",s:"Een koffie, ___.",a:["alsjeblieft","alstublieft"]},
-        {type:"mc",q:"The formal version of 'dank je' is:",opts:["Dank hij","Dank u","Dank wij","Dank ze"],ans:"Dank u",hint:"je ↔ u is the switch"},
+        {type:"mc",q:"The formal version of 'dank je' is:",opts:["Dank hij","Dank wij","Dank u","Dank ze"],ans:"Dank u",hint:"je ↔ u is the switch"},
         {type:"match",pairs:[{trg:"ja, graag",src:"yes, please"},{trg:"nee, dank je",src:"no, thank you"},{trg:"alsjeblieft",src:"please / here you go"},{trg:"sorry",src:"sorry"}]},
-        {type:"mc",q:"'Graag gedaan' means:",opts:["Sorry about that","You're welcome","Yes please","See you later"],ans:"You're welcome",hint:"Literally: gladly done"}
+        {type:"mc",q:"'Graag gedaan' means:",opts:["Sorry about that","See you later","Yes please","You're welcome"],ans:"You're welcome",hint:"Literally: gladly done"}
   ]},
   {id:"v2u1l7",title:"Numbers 1–10",icon:"🔢",xp:20,board:true,steps:[
         {type:"intro",title:"Numbers 1–10",desc:"Dutch numbers 1–10 are your everyday toolkit, prices, times, addresses, phone numbers. Most are recognizable if you speak English or German.",goals:["Count 1–10 in Dutch","Recognize numbers in context","Spot the Germanic cousins"]},
@@ -176,12 +176,12 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"teach",trg:"negen",src:"nine",pos:"verb",gender:null,phonetic:"NAY-gun",note:"The 'g' has the Dutch throat sound.",example:"Negen maanden.",exampleSrc:"Nine months.",funFact:"Germanic cousin of English 'nine', German 'neun'."},
         {type:"teach",trg:"tien",src:"ten",pos:"verb",gender:null,phonetic:"teen",note:"Sounds like English 'teen'.",example:"Tien minuten.",exampleSrc:"Ten minutes.",funFact:"Germanic cousin of English 'ten', German 'zehn'."},
         {type:"tip",title:"💰 Numbers in Real Life",text:"You'll use these instantly:\n\nDat is drie euro vijftig. = That's €3.50.\nTwee koffie, alsjeblieft. = Two coffees, please.\nHet is vijf uur. = It's five o'clock.\nNummer acht. = Number eight.\n\nDutch people use numbers constantly!"},
-        {type:"mc",q:"How do you say 'five' in Dutch?",opts:["vier","vijf","zes","drie"],ans:"vijf",hint:"Contains the 'ij' diphthong"},
-        {type:"mc",q:"'Acht uur' means:",opts:["Six o'clock","Eight o'clock","Ten o'clock","Four o'clock"],ans:"Eight o'clock",hint:"Acht = eight"},
+        {type:"mc",q:"How do you say 'five' in Dutch?",opts:["vijf","vier","zes","drie"],ans:"vijf",hint:"Contains the 'ij' diphthong"},
+        {type:"mc",q:"'Acht uur' means:",opts:["Six o'clock","Eight o'clock","Ten o'clock","Four o'clock"],ans:"Eight o'clock",hint:"Acht = e..."},
         {type:"fb",opts:["Twee","Tien","Zes","Vijf"],hint:"Count in order",s:"Eén, ___, drie, vier...",a:"Twee"},
-        {type:"mc",q:"Which number sounds like English 'fear'?",opts:["vijf","vier","drie","zes"],ans:"vier",hint:"Sounds like English 'fear' without the R"},
+        {type:"mc",q:"Which number sounds like English 'fear'?",opts:["vijf","drie","vier","zes"],ans:"vier",hint:"Sounds like English 'fear' without the R"},
         {type:"match",pairs:[{trg:"drie",src:"three"},{trg:"zeven",src:"seven"},{trg:"negen",src:"nine"},{trg:"tien",src:"ten"}]},
-        {type:"mc",q:"'Een' as a number is pronounced differently than 'een' as:",opts:["a verb","a name","an article (a/an)","an adjective"],ans:"an article (a/an)",hint:"Number = stressed, ___ = unstressed"}
+        {type:"mc",q:"'Een' as a number is pronounced differently than 'een' as:",opts:["a verb","a name","an adjective","an article (a/an)"],ans:"an article (a/an)",hint:"Number = stressed, ___ = unstressed"}
   ]},
   {id:"v2u1l8",title:"Introducing Yourself",icon:"🙋",xp:20,board:true,steps:[
         {type:"intro",title:"Introducing Yourself",desc:"Put it all together, you'll learn to introduce yourself in Dutch with a natural mini-conversation. This is where L1–L7 click into place.",goals:["Say your name","Say where you're from","Ask someone's name","Have a real mini-conversation"]},
@@ -202,12 +202,12 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
           title:"Model conversation",
           text:"A: Hallo! Ik heet Jan. Hoe heet jij?\n→ Hi! I'm Jan. What's your name?\n\nB: Ik heet Sophie. Aangenaam!\n→ I'm Sophie. Nice to meet you!\n\nA: Waar kom je vandaan?\n→ Where are you from?\n\nB: Ik kom uit België. En jij?\n→ I'm from Belgium. And you?\n\nA: Ik kom uit Nederland. Ik woon in Utrecht.\n→ I'm from the Netherlands. I live in Utrecht.\n\nB: Leuk! Ik woon in Antwerpen.\n→ Nice! I live in Antwerp.\n\nYou know every word here. You are ready."
         },text:"You know every word you need for a natural Dutch introduction: name, origin, residence. Tap below to see a full model conversation."},
-        {type:"mc",q:"Someone asks 'Hoe heet je?', you reply:",opts:["Ik kom uit...","Ik heet...","Ik woon in...","Ik ben..."],ans:"Ik heet...",hint:"They asked your name"},
+        {type:"mc",q:"Someone asks 'Hoe heet je?', you reply:",opts:["Ik heet...","Ik kom uit...","Ik woon in...","Ik ben..."],ans:"Ik heet...",hint:"They asked your name"},
         {type:"mc",q:"'Waar kom je vandaan?' asks about your:",opts:["Your full name","Your origin","Your profession","Your family"],ans:"Your origin",hint:"Waar = where, vandaan = from"},
         {type:"fb",opts:["spreek","heet","woon","kom"],hint:"What do you do with a language?",s:"Ik ___ een beetje Nederlands.",a:"spreek"},
         {type:"mc",q:"'En jij?' is used to:",opts:["End a conversation","Ask someone to repeat","Bounce the question back","Say goodbye"],ans:"Bounce the question back",hint:"How to ask 'and you?' ___"},
         {type:"match",pairs:[{trg:"ik heet",src:"my name is"},{trg:"ik kom uit",src:"I come from"},{trg:"ik woon in",src:"I live in"},{trg:"aangenaam",src:"nice to meet you"}]},
-        {type:"mc",q:"Dutch people react to 'ik spreek een beetje Nederlands' by:",opts:["Being offended","Appreciating the effort","Ignoring you","Correcting your grammar"],ans:"Appreciating the effort",hint:"They love it when foreigners try!"}
+        {type:"mc",q:"Dutch people react to 'ik spreek een beetje Nederlands' by:",opts:["Being offended","Correcting your grammar","Ignoring you","Appreciating the effort"],ans:"Appreciating the effort",hint:"They love it when foreigners try!"}
   ]},
   {id:"v2u1l9",title:"Niet & Geen: Saying No",icon:"🚫",xp:20,board:true,steps:[
         {type:"intro",title:"Niet & Geen",desc:"Dutch has TWO words for negation: 'niet' (not) and 'geen' (no/not a). One simple rule covers 90% of cases.",goals:["niet = not (for verbs, adjectives, adverbs)","geen = not a / no (replaces een)","Place negation correctly","Stop mixing them up"]},
@@ -221,21 +221,21 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"teach",trg:"ik heb geen...",src:"I don't have (a)...",pos:"verb",gender:null,phonetic:"ik hep gayn",note:"'Geen' goes where 'een' would go.\ngeen tijd, geen geld, geen probleem!",example:"A: Heb je tijd?\nB: Sorry, ik heb geen tijd.\nA: Dat is jammer.",exampleSrc:"A: Do you have time?\nB: Sorry, I don't have time.\nA: That's a shame.",funFact:"Dutch verbs follow the stem + ending pattern. Find the stem, add the right ending."},
         {type:"teach",trg:"dat is geen probleem",src:"that's no problem",pos:"intj",gender:null,phonetic:"daht is gayn pro-BLAYM",note:"One of the most useful Dutch phrases.\nYou'll say this ten times a day.",example:"A: Sorry, ik ben laat!\nB: Dat is geen probleem!\nA: Dank je, je bent aardig.",exampleSrc:"A: Sorry, I'm late!\nB: That's no problem!\nA: Thanks, you're kind.",funFact:"Dutch and English are the closest major language pair in the world. Many words share common roots."},
         {type:"tip",title:"🔁 Niet & Geen with Zijn + Hebben",text:"ZIJN + niet:\nIk ben niet Nederlands. = I'm not Dutch.\nHij is niet hier. = He is not here.\n\nHEBBEN + geen:\nIk heb geen geld. = I have no money.\nWij hebben geen kinderen. = We don't have children.\n\nPattern: zijn pairs with 'niet', hebben pairs with 'geen'."},
-        {type:"mc",q:"'Ik heb ___ auto.' (I don't have a car.)",opts:["niet","geen","nee","ja"],ans:"geen",hint:"Would the positive use 'een'? Ik heb een auto → ..."},
-        {type:"mc",q:"'Hij is ___ groot.' (He is not tall.)",opts:["niet","geen","nee","un"],ans:"niet",hint:"Negating an adjective"},
+        {type:"mc",q:"'Ik heb ___ auto.' (I don't have a car.)",opts:["geen","niet","nee","ja"],ans:"geen",hint:"Would the positive use 'een'? Ik heb een auto → ..."},
+        {type:"mc",q:"'Hij is ___ groot.' (He is not tall.)",opts:["geen","niet","nee","un"],ans:"niet",hint:"Negating an adjective"},
         {type:"fb",opts:["geen","niet","nee","de"],hint:"No problem! (negating a noun)",s:"Dat is ___ probleem!",a:"geen"},
-        {type:"mc",q:"Which sentence is CORRECT?",opts:["Ik niet woon in Amsterdam.","Ik woon niet in Amsterdam.","Niet ik woon in Amsterdam.","Ik woon in niet Amsterdam."],ans:"Ik woon niet in Amsterdam.",hint:"Verb stays in position 2, ___ comes after"},
-        {type:"mc",q:"'Wij hebben geen kinderen' means:",opts:["We have children","We don't have children","We like children","We want children"],ans:"We don't have children",hint:"Geen = no / not any"},
+        {type:"mc",q:"Which sentence is CORRECT?",opts:["Ik niet woon in Amsterdam.","Niet ik woon in Amsterdam.","Ik woon niet in Amsterdam.","Ik woon in niet Amsterdam."],ans:"Ik woon niet in Amsterdam.",hint:"Verb stays in position 2, ___ comes after"},
+        {type:"mc",q:"'Wij hebben geen kinderen' means:",opts:["We have children","We want children","We like children","We don't have children"],ans:"We don't have children",hint:"Geen = no / not any"},
         {type:"match",pairs:[{trg:"niet",src:"not (verbs/adjectives)"},{trg:"geen",src:"no / not a (nouns)"},{trg:"geen probleem",src:"no problem"},{trg:"niet hier",src:"not here"}]}
   ]},
   {id:"v2u1l10",title:"Unit 1 Review",icon:"🔄",xp:25,board:true,steps:[
         {type:"intro",title:"Unit 1: Everything Together",desc:"Time to prove you own this. No new words, just L1–L9 mixed together. If you nail this, you're ready for Unit 2.",goals:["Greetings & goodbyes","All forms of zijn & hebben","Questions, articles, negation","Polite phrases & introductions"]},
         {type:"tip",title:"📋 What You Know Now",text:"After 9 lessons you can:\n\n• Greet anyone (formal + casual)\n• Say goodbye four different ways\n• Say all forms of zijn and hebben\n• Ask who, what, where, how, when, why\n• Use de, het, and een correctly\n• Be polite (alsjeblieft, dank je)\n• Count to ten\n• Introduce yourself naturally\n• Say 'no' with niet and geen\n\nThat's a LOT for Unit 1. Let's test it."},
-        {type:"mc",q:"It's 3 PM. You enter a shop. You say:",opts:["Goedemorgen","Goedemiddag","Goedenavond","Doei"],ans:"Goedemiddag",hint:"Afternoon greeting"},
-        {type:"mc",q:"'Wij ___ blij.', Fill in the verb (to be):",opts:["ben","bent","is","zijn"],ans:"zijn",hint:"Which form of 'to be' fits plural subjects?"},
+        {type:"mc",q:"It's 3 PM. You enter a shop. You say:",opts:["Goedemiddag","Goedemorgen","Goedenavond","Doei"],ans:"Goedemiddag",hint:"Afternoon greeting"},
+        {type:"mc",q:"'Wij ___ blij.', Fill in the verb (to be):",opts:["ben","zijn","is","bent"],ans:"zijn",hint:"Which form of 'to be' fits plural subjects?"},
         {type:"fb",opts:["Waar","Wie","Wat","Hoe"],hint:"Asking for a location",s:"___ is het station?",a:"Waar"},
         {type:"mc",q:"Which noun uses 'het'?",opts:["man","vrouw","kind","kat"],ans:"kind",hint:"One of the het-words from L4"},
-        {type:"mc",q:"In a question, 'jij hebt' becomes:",opts:["Hebt jij?","Heb jij?","Heeft jij?","Hebben jij?"],ans:"Heb jij?",hint:"Inversion causes the -t to disappear from the verb form"},
+        {type:"mc",q:"In a question, 'jij hebt' becomes:",opts:["Hebt jij?","Hebben jij?","Heeft jij?","Heb jij?"],ans:"Heb jij?",hint:"Inversion causes the -t to disappear from the verb form"},
         {type:"fb",opts:["Sorry","Hallo","Dank je","Dag"],hint:"Excusing yourself before speaking",s:"___, ik spreek een beetje Nederlands.",a:"Sorry"},
         {type:"verb_table",title:"Zijn: to be",note:"4 forms: ben, bent, is, zijn.",groups:[
           {
@@ -253,14 +253,14 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
           {label:"He / She / It",rows:[{pronoun:"hij / zij / het",form:"heeft",src:"he / she / it has"}]},
           {label:"Plural",rows:[{pronoun:"wij / jullie / zij",form:"hebben",src:"we / you all / they have"}]}
         ],label:"Review"},
-        {type:"mc",q:"'Zij ___ een huis.' (They ___ a house.)",opts:["is","bent","heeft","hebben"],ans:"hebben",hint:"Which form of 'to have' fits plural subjects?"},
+        {type:"mc",q:"'Zij ___ een huis.' (They ___ a house.)",opts:["hebben","bent","heeft","is"],ans:"hebben",hint:"Which form of 'to have' fits plural subjects?"},
         {type:"mc",q:"You hand someone their change. You say:",opts:["Dank je","Alsjeblieft","Sorry","Dag"],ans:"Alsjeblieft",hint:"'Here you go!'"},
-        {type:"mc",q:"'Ik heb ___ geld.' (I don't have money.)",opts:["niet","geen","nee","een"],ans:"geen",hint:"Negating a noun: would use 'een' in positive?"},
+        {type:"mc",q:"'Ik heb ___ geld.' (I don't have money.)",opts:["niet","nee","geen","een"],ans:"geen",hint:"Negating a noun: would use 'een' in positive?"},
         {type:"fb",opts:["kom","ben","heb","heet"],hint:"Stating where you're from",s:"Ik ___ uit Nederland.",a:"kom"},
-        {type:"mc",q:"How do you say 'seven' in Dutch?",opts:["zes","zeven","negen","vijf"],ans:"zeven",hint:"Sounds like 'ZAY-vun'"},
+        {type:"mc",q:"How do you say 'seven' in Dutch?",opts:["zes","vijf","negen","zeven"],ans:"zeven",hint:"Sounds like 'ZAY-vun'"},
         {type:"match",pairs:[{trg:"hoe heet je?",src:"what's your name?"},{trg:"waar woon je?",src:"where do you live?"},{trg:"geen probleem",src:"no problem"},{trg:"dank je wel",src:"thank you very much"}]},
-        {type:"mc",q:"'Aangenaam' is used when:",opts:["Saying goodbye","Meeting someone","Ordering food","Apologizing"],ans:"Meeting someone",hint:"Nice to meet you"},
-        {type:"mc",q:"Which greeting uses the Dutch throat 'g' sound?",opts:["goedemorgen","alsjeblieft","tot ziens","aangenaam"],ans:"goedemorgen",hint:"Goede... starts with 'g'"},
+        {type:"mc",q:"'Aangenaam' is used when:",opts:["Meeting someone","Saying goodbye","Ordering food","Apologizing"],ans:"Meeting someone",hint:"Nice to meet you"},
+        {type:"mc",q:"Which greeting uses the Dutch throat 'g' sound?",opts:["alsjeblieft","goedemorgen","tot ziens","aangenaam"],ans:"goedemorgen",hint:"Goede... starts with 'g'"},
         {type:"mc",q:"Which is CORRECT?",opts:["Ik ben niet student.","Ik niet ben student.","Ik ben geen student.","Ik geen ben student."],ans:"Ik ben geen student.",hint:"___ has an implied 'een': so use ___"}
   ]}
 ]};

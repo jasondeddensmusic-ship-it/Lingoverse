@@ -60,7 +60,7 @@ const LESSON_16 = {id:"nlv2_b2gA_l16", title:"Natuur & Milieu", icon:"\u{1F33F}"
   {type:"mc", q:"Irrigatie is essentieel voor de landbouw. Wat is 'irrigatie'?",
    opts:["artificial water supply for crops","a type of fertilizer","a harvesting technique","a soil treatment"],
    ans:"artificial water supply for crops",
-   hint:"From Latin 'irrigatio'. Bringing water to fields where it doesn't rain enough."},
+   hint:"From Latin 'irrigatio'. Bringing w... to fields where it doesn't rain enough."},
 
   {type:"fb", s:"De opzegtermijn is drie {1}.",
    a:["kalendermaanden"], opts:["kalendermaanden","kalenderjaren","jaargetijden","hectares"],
@@ -79,7 +79,7 @@ const LESSON_16 = {id:"nlv2_b2gA_l16", title:"Natuur & Milieu", icon:"\u{1F33F}"
   {type:"mc", q:"Het kalenderjaar loopt van januari tot december. Wat is een 'kalenderjaar'?",
    opts:["a year from January 1st to December 31st","a school year","a fiscal quarter","a leap year"],
    ans:"a year from January 1st to December 31st",
-   hint:"Kalender + jaar. The standard twelve-month year as on the calendar."},
+   hint:"Kalender + jaar. The standard twelve-month y... as on the calendar."},
 
   {type:"fb", s:"{1} is essentieel voor de landbouw in droge gebieden.",
    a:["Irrigatie"], opts:["Irrigatie","Hectare","Kalendermaand","Fruitsoort"],

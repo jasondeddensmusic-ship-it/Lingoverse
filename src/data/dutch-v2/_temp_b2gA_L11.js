@@ -60,7 +60,7 @@ const LESSON_11 = {id:"nlv2_b2gA_l11", title:"Geschiedenis & Macht", icon:"\u{1F
   {type:"mc", q:"De historicus presenteerde zijn nieuwe boek. Wat is een 'historicus'?",
    opts:["someone who studies and writes about history","a history teacher","a museum guide","a politician"],
    ans:"someone who studies and writes about history",
-   hint:"From Latin. The academic who researches and publishes about the past."},
+   hint:"From Latin. The academic who researches and publishes a... the past."},
 
   {type:"fb", s:"Willem van Oranje was een grote {1}.",
    a:["hervormer"], opts:["hervormer","keizer","historicus","grootmacht"],

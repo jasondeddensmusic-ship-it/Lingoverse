@@ -82,7 +82,7 @@ const LESSON_8 = {
      q:"Wat betekent 'in groepsverband'?",
      opts:["Als onderdeel van een groep, samen","Alleen en onafhankelijk","In een groot gebouw","Op afstand"],
      ans:"Als onderdeel van een groep, samen",
-     hint:"'Groep' means group and 'verband' means context or connection. Together they describe doing something collectively."},
+     hint:"'G...' means group and 'verband' means context or connection. Together they describe doing something collectively."},
 
     {type:"match", pairs:[
       {trg:"hieraan", src:"to this"},

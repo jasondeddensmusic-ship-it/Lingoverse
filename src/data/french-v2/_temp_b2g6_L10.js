@@ -133,7 +133,7 @@ const LESSON_10 = {
      q:"Quel mot désigne le lever du soleil le matin ?",
      opts:["le lever","le dixième","le complet","le curieux"],
      ans:"le lever",
-     hint:"A noun formed from the verb 'lever' (to raise). Think of the sun coming up."},
+     hint:"A noun formed from the verb 'l...' (to raise). Think of the sun coming up."},
 
     {type:"fb",
      s:"Le voyage s'est déroulé sans {1}, tout était parfait.",

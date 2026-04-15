@@ -68,7 +68,7 @@ const LESSON_13 = {
     {type:"mc", q:"Quelle est la difference entre 'amuse-gueule' et 'amuse-bouche'?",
      opts:["Amuse-bouche est plus elegant","Amuse-gueule est plus elegant","Ils sont identiques","Amuse-bouche est plus gros"],
      ans:"Amuse-bouche est plus elegant",
-     hint:"Gueule is informal for mouth, while bouche is the polite term"},
+     hint:"Gueule is informal for mouth, while b... is the polite term"},
 
     {type:"fb", s:"Le {1} est la specialite de la Bretagne.",
      a:["creperie"], opts:["creperie","cafe-creme","porcelet","binocle"],

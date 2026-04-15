@@ -34,7 +34,7 @@ const LESSON_2 = {
      q:"Waar vind je de kinderafdeling in een ziekenhuis?",
      opts:["Op een verdieping speciaal voor kinderen","In de apotheek","Bij de hoofdingang","In de kantine"],
      ans:"Op een verdieping speciaal voor kinderen",
-     hint:"A 'kinderafdeling' is a department (afdeling) dedicated to children (kinderen) within a larger institution."},
+     hint:"A 'kinderafdeling' is a department (afdeling) dedicated to children (k...) within a larger institution."},
 
     {type:"teach", trg:"de kinderrechter", src:"the juvenile court judge", pos:"noun", gender:"c",
      note:"Common gender (de). Kinder (children's) + rechter (judge).\nA judge specialising in youth cases.",

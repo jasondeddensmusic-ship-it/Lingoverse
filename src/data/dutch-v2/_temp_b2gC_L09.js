@@ -34,7 +34,7 @@ const LESSON_9 = {
      q:"In Nederland ga je eerst naar de huisarts voordat je:",
      opts:["Naar de apotheek gaat","Een specialist kunt zien","Naar de supermarkt gaat","Een recept kunt lezen"],
      ans:"Een specialist kunt zien",
-     hint:"The Dutch GP serves as a gatekeeper. You need their referral to see a specialist."},
+     hint:"The Dutch GP serves as a gatekeeper. You need their referral to see a s...."},
 
     {type:"teach", trg:"de kinderpsychiatrie", src:"child psychiatry", pos:"noun", gender:"c",
      note:"Common gender (de). Kinder (children's) + psychiatrie (psychiatry).\nA medical specialisation.",

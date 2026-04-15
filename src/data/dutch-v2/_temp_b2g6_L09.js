@@ -103,7 +103,7 @@ const LESSON_9 = {
      q:"Wat is een 'gokautomaat'?",
      opts:["Een machine om op te gokken","Een automaat voor eten","Een pinautomaat","Een koffieautomaat"],
      ans:"Een machine om op te gokken",
-     hint:"Compound of 'gok' (gamble) and 'automaat' (machine). Found in bars and arcades."}
+     hint:"Compound of 'gok' (gamble) and 'automaat' (m...). Found in bars and arcades."}
   ]
 };
 export default LESSON_9;

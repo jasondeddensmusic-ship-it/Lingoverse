@@ -46,7 +46,7 @@ const LESSON_11 = {
      q:"\u00bfQué es una bodega?",
      opts:["A winery or wine cellar","A bookshop","A clothing store","A pharmacy"],
      ans:"A winery or wine cellar",
-     hint:"This word is related to storing and making wine. La Rioja is famous for these establishments."},
+     hint:"This word is related to storing and making w.... La Rioja is famous for these establishments."},
 
     {type:"teach", trg:"el artículo", src:"the article, item", pos:"noun", gender:"m",
      note:"Masculine noun. Artículo = product item or newspaper article.\nAlso: grammar article (el, la).",

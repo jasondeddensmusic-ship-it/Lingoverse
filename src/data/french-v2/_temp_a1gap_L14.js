@@ -145,7 +145,7 @@ const LESSON_14 = {
      q:"Que signifie 'au bout de la rue' ?",
      opts:["at the end of the street","in the middle of the street","above the street","around the street"],
      ans:"at the end of the street",
-     hint:"'Le bout' means the tip or end. This phrase points to the farthest point of a street."},
+     hint:"'Le bout' means the tip or e.... This phrase points to the farthest point of a s...."},
 
     {type:"fb",
      s:"Tu vois les montagnes {1} ? Elles sont couvertes de neige.",

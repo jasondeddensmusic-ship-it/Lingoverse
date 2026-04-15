@@ -116,7 +116,7 @@ const LESSON_20 = {
      s:"Wij {1} uw genereuze bijdrage in dank.",
      a:["aanvaarden"],
      opts:["aanvaarden","aannemen","accepteren","ontvangen"],
-     hint:"A formal verb meaning to accept. Part of the fixed expression 'in dank aanvaarden'.",
+     hint:"A formal verb meaning to accept. Part of the fixed expression 'in dank a...'.",
      sSrc:"We {1} your generous contribution with gratitude."},
 
     {type:"mc",

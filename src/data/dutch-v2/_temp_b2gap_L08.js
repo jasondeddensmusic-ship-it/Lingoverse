@@ -112,7 +112,7 @@ const LESSON_8 = {
     {type:"mc", q:"'De Belastingdienst' is the Dutch equivalent of:",
      opts:["the police","the tax authority","the health service","the court system"],
      ans:"the tax authority",
-     hint:"'Belasting' means tax, 'dienst' means service/authority."},
+     hint:"'Belasting' means t..., 'dienst' means service/a...."},
     {type:"mc", q:"'Afbakenen' means:",
      opts:["to celebrate","to demarcate","to abandon","to finance"],
      ans:"to demarcate",

@@ -60,7 +60,7 @@ const LESSON_15 = {id:"nlv2_b2gA_l15", title:"Intentie & Actie", icon:"\u{1F3AF}
   {type:"mc", q:"Het festival heeft een internationale inslag. Wat is 'inslag'?",
    opts:["character, approach","impact crater","entrance fee","ticket price"],
    ans:"character, approach",
-   hint:"The nature or character of something. What kind of 'flavour' it has."},
+   hint:"The nature or c... of something. What kind of 'flavour' it has."},
 
   {type:"fb", s:"Ik heb een {1} van het interview gezien op televisie.",
    a:["fragment"], opts:["fragment","item","intentie","inzet"],

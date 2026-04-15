@@ -111,7 +111,7 @@ const LESSON_11 = {
     {type:"mc", q:"'Pinnen' in Dutch daily life means:",
      opts:["to pin something on a board","to withdraw money or pay by card","to clean dishes","to swim"],
      ans:"to withdraw money or pay by card",
-     hint:"The most common way to pay in the cashless Netherlands."},
+     hint:"The most common way to p... in the cashless Netherlands."},
     {type:"fb", s:"Zullen we vanavond een {1} bestellen?", a:["afhaalmaaltijd"],
      opts:["afhaalmaaltijd","afwasborstel","avondmaal","badlaken"],
      hint:"The compound noun for a meal you pick up or have delivered.",

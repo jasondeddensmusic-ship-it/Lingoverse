@@ -121,7 +121,7 @@ const LESSON_12 = {
      s:"Pour l'aperitif, j'ai prepare des {1} au fromage et aux herbes.",
      a:["amuse-gueules"],
      opts:["amuse-gueules","cassolettes","cochonnailles","crustaces"],
-     hint:"Small snacks that 'amuse the mouth' before the main meal begins.",
+     hint:"Small snacks that 'a... the mouth' before the main meal begins.",
      sSrc:"For the aperitif, I prepared cheese and herb {1}."}
   ]
 };

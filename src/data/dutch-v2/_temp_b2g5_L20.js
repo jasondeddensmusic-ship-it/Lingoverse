@@ -82,7 +82,7 @@ const LESSON_20 = {
     {type:"mc", q:"At B2 level, what is the best strategy for unknown Dutch compounds?",
      opts:["look up every word","break from right to left, main noun is last","guess from English","skip them"],
      ans:"break from right to left, main noun is last",
-     hint:"The LAST element is always the core meaning. Everything before modifies it."}
+     hint:"The L... element is always the core meaning. Everything before modifies it."}
   ]
 };
 export default LESSON_20;

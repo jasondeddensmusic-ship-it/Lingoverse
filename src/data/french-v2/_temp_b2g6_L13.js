@@ -33,7 +33,7 @@ const LESSON_13 = {
      q:"Que fait un 'galeriste' ?",
      opts:["Il gère une galerie d'art","Il répare des galeries souterraines","Il vend des gâteaux","Il construit des galeries marchandes"],
      ans:"Il gère une galerie d'art",
-     hint:"A person in the art world who owns or runs a space where artwork is displayed and sold."},
+     hint:"A person in the a... world who owns or runs a space where artwork is displayed and sold."},
 
     {type:"teach", trg:"le laissez-passer", src:"the pass, the permit", pos:"noun", gender:"m",
      note:"Masculine compound noun. An official document granting access. Invariable in plural.",
@@ -139,7 +139,7 @@ const LESSON_13 = {
      s:"Les {1} sont servis avant le repas pour ouvrir l'appétit.",
      a:["amuse-gueules"],
      opts:["amuse-gueules","crêperies","béarnaises","cabinets"],
-     hint:"Small bite-sized snacks served before a meal. Literally means 'amuse the mouth'.",
+     hint:"Small bite-sized snacks served before a meal. Literally means 'a... the mouth'.",
      sSrc:"The {1} are served before the meal to whet the appetite."}
   ]
 };

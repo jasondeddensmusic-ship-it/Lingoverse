@@ -60,7 +60,7 @@ const LESSON_9 = {id:"nlv2_b2gA_l9", title:"Financien & Administratie", icon:"\u
   {type:"mc", q:"Wat is uw burgerservicenummer? Wat is het 'burgerservicenummer'?",
    opts:["the Dutch citizen service number, like a social security number","a phone number for government services","a bank account number","a postal code"],
    ans:"the Dutch citizen service number, like a social security number",
-   hint:"Burger (citizen) + service + nummer. A unique ID number for every Dutch resident."},
+   hint:"Burger (c...) + s... + nummer. A unique ID n... for every D... resident."},
 
   {type:"fb", s:"Het hotel heeft uitstekende {1}.",
    a:["faciliteiten"], opts:["faciliteiten","incassokosten","inzage","incassomachtiging"],
@@ -79,7 +79,7 @@ const LESSON_9 = {id:"nlv2_b2gA_l9", title:"Financien & Administratie", icon:"\u
   {type:"mc", q:"U heeft recht op inzage in uw dossier. Wat is 'inzage'?",
    opts:["the right to view or inspect documents","a type of insurance","a medical procedure","a court hearing"],
    ans:"the right to view or inspect documents",
-   hint:"From inzien (to look into). The formal right to examine records or files."},
+   hint:"From inzien (to look into). The formal r... to examine records or files."},
 
   {type:"fb", s:"Steeds meer huishoudens hebben een {1} door stijgende kosten.",
    a:["inkomensprobleem"], opts:["inkomensprobleem","incassokosten","burgerservicenummer","inzage"],

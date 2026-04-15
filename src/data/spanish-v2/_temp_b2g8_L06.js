@@ -105,6 +105,6 @@ const LESSON_6 = {id:"esv2_b2g8_l6",title:"Industria y fabricación",icon:"🏭"
 {type:"mc",q:"¿Qué sufijo español crea sustantivos que significan 'contenedor de algo'?",
  opts:["-ero (llavero, monedero)","-ción (finalización)","-miento (mejoramiento)","-ura (dureza)"],
  ans:"-ero (llavero, monedero)",
- hint:"Think about llave > llavero, moneda > monedero. What ending do they share?"}
+ hint:"Think about llave > l..., moneda > m.... What ending do they share?"}
 ]};
 export default LESSON_6;

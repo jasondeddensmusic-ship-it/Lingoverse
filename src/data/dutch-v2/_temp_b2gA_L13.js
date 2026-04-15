@@ -60,7 +60,7 @@ const LESSON_13 = {id:"nlv2_b2gA_l13", title:"Technologie & Innovatie", icon:"\u
   {type:"mc", q:"We zoeken een ervaren informaticus. Wat is een 'informaticus'?",
    opts:["a computer scientist","an information desk worker","a librarian","a journalist"],
    ans:"a computer scientist",
-   hint:"From informatica (computer science). Someone who works with computers professionally."},
+   hint:"From informatica (c... science). Someone who works with computers professionally."},
 
   {type:"fb", s:"{1} is een van de grootste bedreigingen van deze tijd.",
    a:["Cyberoorlog"], opts:["Cyberoorlog","Helium","Dynamiek","Helikopter"],
@@ -79,7 +79,7 @@ const LESSON_13 = {id:"nlv2_b2gA_l13", title:"Technologie & Innovatie", icon:"\u
   {type:"mc", q:"Helium wordt gebruikt voor ballonnen en MRI-scanners. Wat is 'helium'?",
    opts:["a chemical element, a light gas","a type of fuel","a metal alloy","a medical instrument"],
    ans:"a chemical element, a light gas",
-   hint:"Named after the Greek sun god Helios. The gas that makes balloons float."},
+   hint:"Named after the Greek sun god Helios. The g... that makes balloons float."},
 
   {type:"fb", s:"Nederlandse {1} zijn wereldberoemd op het gebied van watermanagement.",
    a:["ingenieurs"], opts:["ingenieurs","informatici","helikopters","dynamieken"],

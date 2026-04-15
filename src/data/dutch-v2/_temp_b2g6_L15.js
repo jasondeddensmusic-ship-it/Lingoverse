@@ -103,7 +103,7 @@ const LESSON_15 = {
      q:"Wat is 'huiswerkbegeleiding'?",
      opts:["Bijles en ondersteuning bij het huiswerk","Een boek met uitleg","Een schoolvak","Een ouderavond"],
      ans:"Bijles en ondersteuning bij het huiswerk",
-     hint:"'Huiswerk' is homework and 'begeleiding' is guidance. Extra support for students outside school hours."}
+     hint:"'H...' is homework and 'begeleiding' is guidance. Extra support for students outside school hours."}
   ]
 };
 export default LESSON_15;

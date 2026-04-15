@@ -78,7 +78,7 @@ const LESSON_4 = {id:"esv2_b2g4_l4",title:"Emociones y carácter",icon:"💭",xp
  exampleSrc:"A: The move was exhausting.\nB: I need an entire weekend to recover.",
  funFact:"From Latin extenuare (to thin out). Being 'thinned out' by effort became meaning 'exhausted'."},
 
-{type:"mc",q:"Si alguien actúa 'sin escrúpulos', significa que:",opts:["No tiene moral ni remordimientos","Es muy tímido","Tiene mucha energía","Se esfuerza mucho"],ans:"No tiene moral ni remordimientos",hint:"Think about someone who has no moral doubts about their actions."},
+{type:"mc",q:"Si alguien actúa 'sin escrúpulos', significa que:",opts:["No tiene moral ni remordimientos","Es muy tímido","Tiene mucha energía","Se esfuerza mucho"],ans:"No tiene moral ni remordimientos",hint:"Think about someone who has no m... doubts about their actions."},
 
 {type:"teach",trg:"el elogio",src:"the praise / compliment",pos:"noun",gender:"m",
  note:"Masculine noun. Words of admiration or approval.\nVerb: elogiar. Plural: elogios.",

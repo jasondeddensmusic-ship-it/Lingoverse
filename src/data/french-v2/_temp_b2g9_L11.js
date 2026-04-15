@@ -88,7 +88,7 @@ const LESSON_11 = {id:"frv2_b2g9_l11", title:"Famille et Relations", icon:"👨�
    funFact:"As a preposition, pendant means 'during'. As a noun, it means 'matching counterpart'."},
 
   {type:"fb", s:"Nous l'avons fait {1}, sans aide.", a:["nous-mêmes"], opts:["nous-mêmes","la nôtre","l'oral","le pendant"],
-   hint:"The emphatic pronoun meaning 'we ourselves'. Adds emphasis to nous.",
+   hint:"The emphatic pronoun meaning 'we ourselves'. Adds emphasis to n....",
    sSrc:"We did it {1}, without help."},
 
   {type:"teach", trg:"autour de soi", src:"around oneself", pos:"adv", gender:null,
@@ -104,7 +104,7 @@ const LESSON_11 = {id:"frv2_b2g9_l11", title:"Famille et Relations", icon:"👨�
    funFact:"This expression dates from merchant culture: no goods without payment, no payment without goods."},
 
   {type:"mc", q:"'Le pire' est le superlatif de:", opts:["Bon","Mauvais","Grand","Petit"], ans:"Mauvais",
-   hint:"Mauvais > pire > le pire. The worst, superlative of bad."},
+   hint:"M... > pire > le pire. The worst, superlative of bad."},
 
   {type:"fb", s:"La {1} des adolescents est un problème social majeur.", a:["déscolarisation"], opts:["déscolarisation","intériorisation","adolescence","main-d'oeuvre"],
    hint:"When young people leave the education system. Dé- (undo) + schooling.",

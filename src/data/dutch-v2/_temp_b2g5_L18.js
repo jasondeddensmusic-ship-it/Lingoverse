@@ -62,7 +62,7 @@ const LESSON_18 = {
     {type:"mc", q:"Wat is een 'genotmiddel'?",
      opts:["een medicijn","een voedingssupplement","een genot veroorzakende stof zoals alcohol","een muziekinstrument"],
      ans:"een genot veroorzakende stof zoals alcohol",
-     hint:"Genot (pleasure) + middel (substance). The official term for intoxicants."},
+     hint:"G... (pleasure) + middel (substance). The official term for intoxicants."},
     {type:"fb", s:"De wegen slibben {1} tijdens de spits.", a:["dicht"],
      opts:["dicht","open","vol","leeg"],
      hint:"The separable prefix from 'dichtslibben'. Think of a canal clogging up.",

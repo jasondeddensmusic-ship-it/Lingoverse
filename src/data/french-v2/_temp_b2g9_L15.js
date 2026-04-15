@@ -61,7 +61,7 @@ const LESSON_15 = {id:"frv2_b2g9_l15", title:"Vie Professionnelle", icon:"👔",
    funFact:"Interro is clipped from interrogation. French students clip many words: prof, bac, fac, resto."},
 
   {type:"mc", q:"La différence entre confrère et collègue est:", opts:["Aucune différence","Confrère implique la même profession, collègue le même lieu","Collègue est plus formel","Confrère est péjoratif"], ans:"Confrère implique la même profession, collègue le même lieu",
-   hint:"A confrère shares your profession. A colleague shares your workplace."},
+   hint:"A c... shares your p.... A colleague shares your workplace."},
 
   {type:"teach", trg:"la micro-entreprise", src:"micro-enterprise", pos:"noun", gender:"f",
    note:"A one-person or very small business.\nSimplified French business status.",
@@ -98,7 +98,7 @@ const LESSON_15 = {id:"frv2_b2g9_l15", title:"Vie Professionnelle", icon:"👔",
    funFact:"Grillage is also the wire mesh used in chicken coops. Very practical word."},
 
   {type:"mc", q:"Une interro est:", opts:["Un interrogatoire de police","Un test scolaire court","Une interview journalistique","Un questionnaire médical"], ans:"Un test scolaire court",
-   hint:"Student slang for interrogation (school test). Clipped word."},
+   hint:"Student slang for interrogation (school t...). Clipped word."},
 
   {type:"fb", s:"Le financement {1} a permis de lancer le projet.", a:["participatif"], opts:["participatif","patrimonial","paternaliste","paroissial"],
    hint:"Crowdfunding. Where many people participate financially in a project.",

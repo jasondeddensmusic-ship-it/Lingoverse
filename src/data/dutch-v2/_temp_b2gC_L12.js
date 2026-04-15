@@ -77,7 +77,7 @@ const LESSON_12 = {
      q:"Wat is 'kansarmoede'?",
      opts:["Armoede door luiheid","Armoede door gebrek aan kansen en mogelijkheden","Armoede in een arm land","Tijdelijke armoede"],
      ans:"Armoede door gebrek aan kansen en mogelijkheden",
-     hint:"Kans (opportunity) + armoede (poverty). Not just lack of money, but lack of chances."},
+     hint:"Kans (opportunity) + a... (poverty). Not just lack of money, but lack of chances."},
 
     {type:"fb",
      s:"Mijn buurman {1} zijn eigen groenten in de achtertuin.",

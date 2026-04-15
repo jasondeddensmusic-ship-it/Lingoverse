@@ -117,7 +117,7 @@ const LESSON_12 = {
      q:"Wat is de letterlijke betekenis van 'belangenverstrengeling'?",
      opts:["Verstrengeling van belangen","Versterking van belangen","Vermindering van belangen","Verspreiding van belangen"],
      ans:"Verstrengeling van belangen",
-     hint:"Break the compound: belangen (interests) + verstrengeling (entanglement). When interests become tangled together."},
+     hint:"Break the compound: b... (interests) + v... (entanglement). When interests become tangled together."},
     {type:"fb",
      s:"Van {1} lijkt het een rustig dorp, maar er is veel te doen.",
      a:["buitenaf"],
@@ -128,7 +128,7 @@ const LESSON_12 = {
      q:"Welk woord betekent 'de moed hebben om iets te doen' in informeel Nederlands?",
      opts:["Courage","Chagrijn","Blazer","Bijval"],
      ans:"Courage",
-     hint:"A French loanword that Dutch uses informally and slightly humorously. Think of 'gathering your courage'."},
+     hint:"A French loanword that Dutch uses informally and slightly humorously. Think of 'gathering your c...'."},
     {type:"match", pairs:[
       {trg:"buurten", src:"to visit neighbors"},
       {trg:"buitensporig", src:"excessive"},

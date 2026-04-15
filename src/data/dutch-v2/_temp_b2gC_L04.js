@@ -103,7 +103,7 @@ const LESSON_4 = {
      q:"De kruidnagel dankt zijn naam aan:",
      opts:["De kleur van de bloem","De smaak van het kruid","De vorm die lijkt op een nagel","De plaats waar het groeit"],
      ans:"De vorm die lijkt op een nagel",
-     hint:"Kruid (spice) + nagel (nail). The dried bud looks like a small nail."},
+     hint:"Kruid (spice) + n... (nail). The dried bud looks like a small nail."},
 
     {type:"fb",
      s:"Het {1} van de politie werkt nauw samen met de gemeente.",

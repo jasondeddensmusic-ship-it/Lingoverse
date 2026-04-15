@@ -78,7 +78,7 @@ const LESSON_1 = {id:"nlv2_b2gA_l1", title:"Maatschappij & Beleid", icon:"\u{1F3
   {type:"mc", q:"Je hebt een indicatie nodig voor thuiszorg. Wat is een 'indicatie'?",
    opts:["an official assessment of care needs","a type of insurance","a hospital department","a medical prescription"],
    ans:"an official assessment of care needs",
-   hint:"An official determination that you qualify for a certain level of care."},
+   hint:"An o... determination that you qualify for a certain level of c...."},
 
   {type:"fb", s:"Het {1} is de afgelopen jaren strenger geworden.",
    a:["inburgeringsbeleid"], opts:["inburgeringsbeleid","inburgeringstraject","bevolkingssamenstelling","indicatie"],

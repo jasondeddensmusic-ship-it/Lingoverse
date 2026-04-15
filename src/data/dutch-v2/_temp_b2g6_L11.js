@@ -40,7 +40,7 @@ const LESSON_11 = {
      q:"Wat is een 'hotelketen'?",
      opts:["Een groep hotels onder hetzelfde merk","Een ketting die in een hotel hangt","De keuken van een hotel","Een hotelboekingswebsite"],
      ans:"Een groep hotels onder hetzelfde merk",
-     hint:"A 'keten' is a chain. Combined with 'hotel', it describes multiple hotels operating under one brand."},
+     hint:"A 'keten' is a chain. Combined with 'hotel', it describes multiple h... operating under one brand."},
 
     {type:"teach", trg:"de hoofdwond", src:"the head wound", pos:"noun", gender:"c",
      note:"Compound: hoofd (head) + wond (wound).\nA medical term for an injury to the head.",
