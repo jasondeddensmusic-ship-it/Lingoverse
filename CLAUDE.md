@@ -52,7 +52,16 @@ npm run build                 # Production build (validates compilation)
 | `units-spanish.js` | 30 Spanish v1 units (legacy, kept for reference) |
 | `units-spanish-v2.js` | Re-exports from 4 per-level files (active import) |
 | `spanish-v2/unit-01.js` ... `unit-30.js` | **30 per-unit files.** V2 format with trg/src, POS, gender, funFact. |
+| `units-italian-v2.js` | Re-exports from 4 per-level files (active import) |
+| `italian-v2/unit-01.js` ... `unit-26.js` | **26 per-unit files.** V2 format. A1+A2+B1 complete, B2 in progress. |
+| `units-japanese-v2.js` | Re-exports from 3 per-level files (active import) |
+| `japanese-v2/unit-01.js` ... `unit-23.js` | **23 per-unit files.** V2 format. A1+A2+B1 complete. |
 | `units-other.js` | Arabic skeletons (5 units) |
+| `grammar/korean.js` | 47 grammar entries, TOPIK aligned A1-B2 |
+| `grammar/french.js` | 52 grammar entries, DELF aligned A1-B2 |
+| `grammar/spanish.js` | 53 grammar entries, DELE aligned A1-B2 |
+| `grammar/italian.js` | 12 grammar entries, CILS aligned A1-B2 |
+| `grammar/japanese.js` | 20 grammar entries, JLPT aligned A1-B2 |
 
 ### Engine (split into modules)
 | File | Lines | Contents |
@@ -274,16 +283,19 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 | Language | Format | Units | Teach Cards | Status |
 |----------|--------|-------|-------------|--------|
-| Korean | v2 (COMPLETE) | 69 | 5,166 | **V2 REHAUL DONE** (2026-04-15). 100%+ of German benchmark. TOPIK A+B1 complete, B2 6 batches. PP8 hint/visual: 0. |
-| Dutch | v2 (COMPLETE) | 89 | 5,106 | **V2 REHAUL DONE** (2026-04-15). 99% of German. NT2 A1+B1+B2 complete. PP8: 0. |
-| French | v2 (COMPLETE) | 90 | 5,036 | **V2 REHAUL DONE** (2026-04-15). 98% of German. DELF A1+B1+B2 complete. PP8: 0. |
-| Spanish | v2 (96%) | 90 | 4,961 | **V2 REHAUL 96%** (2026-04-15). 187 cards short of German. Needs 1 more batch. PP8: 0. |
+| Korean | v2 (COMPLETE) | 69 | 5,166 | **V2 REHAUL DONE** (2026-04-15). 100%+ of German benchmark. Grammar: 47 entries. |
+| Dutch | v2 (COMPLETE) | 89 | 5,106 | **V2 REHAUL DONE** (2026-04-15). 99% of German. |
+| French | v2 (COMPLETE) | 90 | 5,036 | **V2 REHAUL DONE** (2026-04-15). 98% of German. Grammar: 52 entries. |
+| Spanish | v2 (COMPLETE) | 92 | 5,124 | **V2 REHAUL DONE** (2026-04-15). 100% of German. Grammar: 53 entries. |
+| Italian | v2 (A1-B2) | 26 | 607 | **NEW** (2026-04-15). A1+A2+B1 complete. B2 in progress. Grammar: 12 entries. |
+| Japanese | v2 (A1-B1) | 23 | 407 | **NEW** (2026-04-15). A1+A2+B1 complete. B2 in progress. Grammar: 20 entries. |
 | German v1 | v1 (old) | 30 | ~1,297 | Being replaced by v2. |
 | German v2 | v2 (COMPLETE) | 36 | 5,148 | **PERFECT.** All validations PASS. THE GOLD STANDARD. |
 | German v2 (AR) | v2 (COMPLETE) | 36 | ~5,148 | **COMPLETE.** Arabic source language variant. |
 | Arabic | skeleton | 5 | — | Deferred until new format established. |
 
-**Grand Total: 20,269 teach cards across 338 units (4 languages). 1,613 modules. Build passes.**
+**Grand Total: ~22,290 teach cards across 387 units (7 languages). Build passes.**
+**Grammar modules: 184 entries across 6 languages (Korean 47, French 52, Spanish 53, Italian 12, Japanese 20).**
 
 ### German v2 Rehaul Progress
 - **Phase 0** (DONE): Goethe word lists (3,303 lemmas), grammar inventory (118 constructs), v1 salvage analysis.
@@ -370,7 +382,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 ## Next Priorities (updated 2026-04-15)
 
-> Latest handoff: `docs/SESSION_HANDOFF_2026-04-15.md`. V2 content rehaul workflow: same doc, "Content Build Workflow" section.
+> Latest handoff: `docs/SESSION_HANDOFF_2026-04-15b.md`. Italian + Japanese launch: 1,014 new cards, 7 languages live. Previous: `docs/SESSION_HANDOFF_2026-04-15.md`.
 
 ### Phase 1: German EN→DE Polish (DONE)
 1. ~~CEFR → Progress Tracker~~ — **DONE.** Progress panel, per-level bars, filter toggles, learned checkmarks.
@@ -448,7 +460,8 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-15.md`** — **LATEST HANDOFF.** V2 content rehaul COMPLETE: 20,269 teach cards, 338 units. Exact workflow for deploying content agents. What each language got. Validation status. What the next agent must do. **READ THIS FIRST.**
+- **`docs/SESSION_HANDOFF_2026-04-15b.md`** — **LATEST HANDOFF.** Italian + Japanese launch: 1,014 new cards, 49 units, 184 grammar entries. 7 languages live. B2 content in progress. **READ THIS FIRST.**
+- **`docs/SESSION_HANDOFF_2026-04-15.md`** — Previous. V2 content rehaul: 20,269 teach cards, 338 units. Content build workflow.
 - **`docs/SESSION_HANDOFF_2026-04-12.md`** — Previous. V2 format migration + first Korean content batches.
 - **`docs/SESSION_HANDOFF_2026-04-09.md`** — Previous. Flashcard UI redesign, 691 quiz hint fixes, PP8 zero violations.
 - **`docs/SESSION_HANDOFF_2026-04-08b.md`** — Previous. Deep audit (~150 fixes, 52 files), FSRS spaced repetition engine (working, UI needs redesign), competitor benchmark, learning science analysis.
