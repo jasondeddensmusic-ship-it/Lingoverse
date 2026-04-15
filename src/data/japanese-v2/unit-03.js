@@ -1,5 +1,6 @@
 // Japanese V2 Unit 03 — これはなんですか (What is this?)
 // Level: A1.1 — JLPT N5 aligned.
+import JEXP_03_L1 from './_temp_u03_expand_L01.js';import JEXP_03_L2 from './_temp_u03_expand_L02.js';import JEXP_03_L3 from './_temp_u03_expand_L03.js';import JEXP_03_L4 from './_temp_u03_expand_L04.js';
 // Demonstratives, common objects, nan desu ka, no particle, numbers 1-10.
 
 const UNIT_03 = {
