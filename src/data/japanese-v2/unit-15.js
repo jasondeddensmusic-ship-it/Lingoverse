@@ -1,5 +1,6 @@
 // Japanese V2 Unit 15 — ほうこう (Directions & Movement)
 // Level: A2.2 — JLPT N4 aligned.
+import JEXP_15_L1 from './_temp_u15_expand_L01.js';import JEXP_15_L2 from './_temp_u15_expand_L02.js';import JEXP_15_L3 from './_temp_u15_expand_L03.js';
 // Directions, before/after, while doing, transport vocabulary.
 
 const UNIT_15 = {
