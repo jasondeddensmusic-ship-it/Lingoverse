@@ -25,7 +25,7 @@ const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:
    funFact:"突き当たり literally means 'the place you bump into.' It vividly describes reaching the end of a road where you cannot go forward. In a country of narrow, winding streets like Japan, dead ends are common and つきあたり is an essential direction word."},
 
   {type:"mc", q:"つぎのかどをみぎにまがってください means:", opts:["Turn left at this corner","Turn right at the next corner","Go straight past the corner","Stop at the corner"], ans:"Turn right at the next corner",
-   hint:"かど is a corner, and つぎの means 'the next one.'"},
+   hint:"かど is a c..., and つぎの means 'the n... one.'"},
 
   {type:"teach", trg:"コンビニ", src:"convenience store", pos:"noun", gender:null,
    note:"From English 'convenience (store).' The most useful landmark in Japan.\nOpen 24/7.",

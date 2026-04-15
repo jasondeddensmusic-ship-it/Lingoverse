@@ -38,7 +38,7 @@ const UNIT_08 = {
    exampleSrc:"A: Where is the bank?\nB: It is next to the post office.",
    funFact:"銀行 literally means 'silver-going,' from the Chinese term for money exchange. Japanese bank ATMs famously close at night and on weekends at some locations. Convenience store ATMs (at 7-Eleven, etc.) have become the go-to for 24-hour cash access."},
 
-  {type:"mc", q:"えき means:", opts:["hospital","bank","train station","post office"], ans:"train station",
+  {type:"mc", q:"えき means:", opts:["train station","bank","hospital","post office"], ans:"train station",
    hint:"Japan's most essential transport hub, found in every town."},
 
   {type:"teach", trg:"こうえん", src:"park", pos:"noun", gender:null,
@@ -123,8 +123,8 @@ const UNIT_08 = {
    exampleSrc:"A: Where are the children?\nB: They are playing outside.",
    funFact:"外 shows a crescent moon outside a box, representing 'outside/foreign.' It appears in gaikoku (foreign country), gaijin (foreigner, casual), sotogawa (outer side). The concept of soto (outside) is central to Japanese uchi-soto social thinking."},
 
-  {type:"mc", q:"つくえのうえ means:", opts:["under the desk","on top of the desk","next to the desk","inside the desk"], ans:"on top of the desk",
-   hint:"Tsukue (desk) + no (possessive) + the word meaning 'above/on top.'"},
+  {type:"mc", q:"つくえのうえ means:", opts:["on top of the desk","under the desk","next to the desk","inside the desk"], ans:"on top of the desk",
+   hint:"Tsukue (d...) + no (possessive) + the word meaning 'above/on t....'"},
 
   {type:"teach", trg:"まえ", src:"in front of / before", pos:"noun", gender:null,
    note:"Used for both space (in front of) and time (before).\nKanji: 前.",
@@ -159,8 +159,8 @@ const UNIT_08 = {
    exampleSrc:"A: Where is the post office?\nB: It is between the bank and the station.",
    funFact:"間 shows sunlight coming through a gate, representing the space between things. It appears in jikan (time = hour-between), ningen (human being = person-between), and aida (between). The concept of ma (space/gap) is central to Japanese aesthetics."},
 
-  {type:"mc", q:"えきのまえ means:", opts:["inside the station","behind the station","in front of the station","near the station"], ans:"in front of the station",
-   hint:"Mae is the position word meaning 'before' or 'in front of.'"},
+  {type:"mc", q:"えきのまえ means:", opts:["inside the station","in front of the station","behind the station","near the station"], ans:"in front of the station",
+   hint:"Mae is the position word meaning 'before' or 'in f... of.'"},
 
   {type:"match", pairs:[{trg:"うえ",src:"above"},{trg:"した",src:"below"},{trg:"なか",src:"inside"},{trg:"そと",src:"outside"}]},
 
@@ -169,7 +169,7 @@ const UNIT_08 = {
   {type:"fb", s:"ぎんこうの___にゆうびんきょくがあります。\n(The post office is next to the bank.)", a:"となり", opts:["となり","うえ","した","なか"], sSrc:"The post office is next to the bank.",
    hint:"The location word for things immediately adjacent to each other."},
 
-  {type:"mc", q:"Which pattern is correct for 'between A and B'?", opts:["A の B のあいだ","A と B のあいだ","A に B のあいだ","A は B のあいだ"], ans:"A と B のあいだ",
+  {type:"mc", q:"Which pattern is correct for 'between A and B'?", opts:["A の B のあいだ","A に B のあいだ","A と B のあいだ","A は B のあいだ"], ans:"A と B のあいだ",
    hint:"The particle connecting two items before aida is the one meaning 'and.'"},
 
   {type:"tip", title:"Location Pattern",
@@ -177,8 +177,8 @@ const UNIT_08 = {
    deepDive:{title:"Word order flexibility",
     text:"Japanese word order is flexible as long as the verb stays at the end:\n\nつくえのうえに ほんが あります。= On the desk, there is a book.\nほんは つくえのうえに あります。= The book is on the desk.\n\nBoth are correct. The first emphasizes WHERE. The second emphasizes WHAT. The particle changes (ga vs wa) signal the emphasis shift."}},
 
-  {type:"mc", q:"かばんのなかにあります means:", opts:["It is on the bag","It is near the bag","It is inside the bag","It is behind the bag"], ans:"It is inside the bag",
-   hint:"Naka means the interior or inside of something."},
+  {type:"mc", q:"かばんのなかにあります means:", opts:["It is on the bag","It is near the bag","It is behind the bag","It is inside the bag"], ans:"It is inside the bag",
+   hint:"Naka means the interior or i... of something."},
 ]},
 
 ]};

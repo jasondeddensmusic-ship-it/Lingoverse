@@ -1,4 +1,5 @@
 // Japanese V2 Unit 22 — やりもらい (Giving & Receiving)
+import EXP_L3 from './_temp_u22_expand_L01.js';import EXP_L4 from './_temp_u22_expand_L02.js';import EXP_L5 from './_temp_u22_expand_L03.js';
 // Level: B1.2 — JLPT N3 aligned.
 // あげる/もらう/くれる, て-form favors, polite forms.
 
@@ -38,7 +39,7 @@ const UNIT_22 = {
    exampleSrc:"A: What would you like for a Christmas present?\nB: I want a book.",
    funFact:"Gift-giving (贈り物, okurimono) is deeply ritualized in Japan. Ochugen (mid-year) and oseibo (year-end) gifts are exchanged between business contacts and social connections. Gifts are often wrapped beautifully and presented with both hands. Refusing a gift outright is considered very rude."},
 
-  {type:"mc", q:"ともだちがほんをくれた means:", opts:["I gave a book to my friend","My friend gave me a book","My friend wants a book","I received a book for my friend"], ans:"My friend gave me a book",
+  {type:"mc", q:"ともだちがほんをくれた means:", opts:["My friend gave me a book","I gave a book to my friend","My friend wants a book","I received a book for my friend"], ans:"My friend gave me a book",
    hint:"くれる means someone offered something TO the speaker. The giver's kindness is implied."},
 
   {type:"teach", trg:"おくる", src:"to send / to give (a gift)", pos:"verb", gender:null,
@@ -73,7 +74,7 @@ const UNIT_22 = {
    exampleSrc:"A: I will have an interview next week.\nB: Do your best.",
    funFact:"受ける is a versatile verb meaning to receive, undergo, or take on. しけんをうける (take an exam), めんせつをうける (have an interview), ちりょうをうける (receive treatment). In slang, うける means 'that is hilarious,' short for ウケる (it gets a good reception/laugh)."},
 
-  {type:"mc", q:"Which verb do you use when YOUR MOTHER gives YOU something?", opts:["あげる","もらう","くれる","おくる"], ans:"くれる",
+  {type:"mc", q:"Which verb do you use when YOUR MOTHER gives YOU something?", opts:["あげる","くれる","もらう","おくる"], ans:"くれる",
    hint:"When someone gives TO the speaker or the speaker's in-group, this verb expresses their kindness."},
 
   {type:"match", pairs:[{trg:"あげる",src:"to give (away from me)"},{trg:"もらう",src:"to receive"},{trg:"くれる",src:"to give (to me)"},{trg:"プレゼント",src:"present/gift"}]},
@@ -83,7 +84,7 @@ const UNIT_22 = {
   {type:"fb", s:"ともだちがほんを___ました。\n(My friend gave me a book.)", a:"くれ", opts:["くれ","あげ","もらい","おくり"], sSrc:"My friend gave me a book.",
    hint:"The verb for when someone else gives something TO the speaker. Implies gratitude."},
 
-  {type:"mc", q:"おみやげ is:", opts:["a greeting card","a souvenir brought back from a trip","a birthday cake","a business card"], ans:"a souvenir brought back from a trip",
+  {type:"mc", q:"おみやげ is:", opts:["a greeting card","a birthday cake","a souvenir brought back from a trip","a business card"], ans:"a souvenir brought back from a trip",
    hint:"Local specialty gifts that travelers purchase while away and share with friends and coworkers."},
 ]},
 
@@ -111,7 +112,7 @@ const UNIT_22 = {
    exampleSrc:"A: My older brother helped me with homework.\nB: What a kind older brother.",
    funFact:"てくれる is the most emotionally expressive favor verb. It inherently says 'they did this for me and I am grateful.' Japanese speakers use てくれる constantly in daily conversation. Saying ともだちがてつだってくれた (my friend helped me) feels warm and appreciative in a way that plain てつだった (helped) does not."},
 
-  {type:"mc", q:"ともだちにくうこうまでおくってもらった means:", opts:["I drove my friend to the airport","I had my friend drive me to the airport","My friend asked me to drive","I will drive to the airport"], ans:"I had my friend drive me to the airport",
+  {type:"mc", q:"ともだちにくうこうまでおくってもらった means:", opts:["I had my friend drive me to the airport","I drove my friend to the airport","My friend asked me to drive","I will drive to the airport"], ans:"I had my friend drive me to the airport",
    hint:"てもらう means having someone do a favor for you. The receiver is the subject."},
 
   {type:"teach", trg:"〜ていただく", src:"to have someone do ~ (humble/polite)", pos:"part", gender:null,
@@ -166,5 +167,6 @@ const UNIT_22 = {
    hint:"This is the formal potential question form of ていただく, used to ask someone to do a favor."},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_22;

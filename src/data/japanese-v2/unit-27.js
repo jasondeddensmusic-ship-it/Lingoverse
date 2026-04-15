@@ -96,7 +96,7 @@ const UNIT_27 = {
    exampleSrc:"A: Japan is a country with few natural resources.\nB: That is why recycling is important.",
    funFact:"資源 uses 資 (resources/capital) and 源 (source/origin). Japan imports nearly all its oil, gas, and minerals. This resource scarcity shaped its history: the pursuit of resources was a driver of expansion in the early 20th century. Today, Japan leads in resource efficiency and recycling technology."},
 
-  {type:"mc", q:"せいかつスタイルをかえざるをえない means:", opts:["We want to change our lifestyle","We should change our lifestyle","We have no choice but to change our lifestyle","We decided to change our lifestyle"], ans:"We have no choice but to change our lifestyle",
+  {type:"mc", q:"せいかつスタイルをかえざるをえない means:", opts:["We have no choice but to change our lifestyle","We should change our lifestyle","We want to change our lifestyle","We decided to change our lifestyle"], ans:"We have no choice but to change our lifestyle",
    hint:"ざるを得ない expresses that something is unavoidable, even if the speaker is reluctant."},
 
   {type:"teach", trg:"たいさく", src:"countermeasure / measure", pos:"noun", gender:null,
@@ -114,7 +114,7 @@ const UNIT_27 = {
   {type:"fb", s:"こうじょうをへいさ___をえません。\n(We have no choice but to close the factory.)", a:"せざる", opts:["せざる","しざる","さざる","すざる"], sSrc:"We have no choice but to close the factory.",
    hint:"する becomes an irregular form in this classical negative pattern. Think: せ + ざる."},
 
-  {type:"mc", q:"Which pattern expresses reluctant, unavoidable obligation?", opts:["べき","たほうがいい","ざるを得ない","ことにする"], ans:"ざるを得ない",
+  {type:"mc", q:"Which pattern expresses reluctant, unavoidable obligation?", opts:["べき","ざるを得ない","たほうがいい","ことにする"], ans:"ざるを得ない",
    hint:"This pattern uses classical grammar to convey that the speaker has no alternative."},
 
   {type:"match", pairs:[{trg:"〜ざるを得ない",src:"have no choice but to"},{trg:"しげん",src:"resources"},{trg:"たいさく",src:"countermeasure"},{trg:"きゅうむ",src:"urgent task"}]},

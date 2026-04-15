@@ -55,7 +55,7 @@ const LESSON_5 = {id:"jav2_u11l5", title:"ておく・てはいけない", icon:
    funFact:"In casual speech, ておく contracts to とく, and でおく contracts to どく. かっておく becomes かっとく, よんでおく becomes よんどく. This contraction is universal in informal conversation. Knowing it helps you understand fast casual speech."},
 
   {type:"mc", q:"しゃしんをとってはいけません means:", opts:["Please take a photo","You must not take photos","I took a photo","I want to take a photo"], ans:"You must not take photos",
-   hint:"てはいけません is the prohibition pattern meaning 'must not do.'"},
+   hint:"てはいけません is the prohibition pattern meaning 'm... not do.'"},
 
   {type:"teach", trg:"しらべておく", src:"look up / research in advance", pos:"verb", gender:null,
    note:"しらべる (to research) + ておく. Prepare by researching beforehand.\nGroup 2: drop る, add ておく.",

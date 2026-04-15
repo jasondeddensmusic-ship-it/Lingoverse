@@ -25,7 +25,7 @@ const LESSON_5 = {id:"jav2_u15l5", title:"おねがいとたすけ", icon:"🙏"
    funFact:"おしえる covers a wider range than English 'teach.' It includes teaching (school), telling (information), and showing (directions). みちをおしえる (show the way) is the standard phrase for asking directions. おしえてください is sufficient in most situations."},
 
   {type:"mc", q:"みちをおしえていただけますか is:", opts:["A casual request","A very polite request for directions","A command","A complaint"], ans:"A very polite request for directions",
-   hint:"ていただけますか is the most polite request form, suitable for strangers."},
+   hint:"ていただけますか is the most p... r... form, suitable for strangers."},
 
   {type:"teach", trg:"ちず", src:"map", pos:"noun", gender:null,
    note:"Paper or digital map. ちずをみる = to look at a map.\nKanji: 地図.",
@@ -83,7 +83,7 @@ const LESSON_5 = {id:"jav2_u15l5", title:"おねがいとたすけ", icon:"🙏"
   {type:"match", pairs:[{trg:"こまる",src:"be in difficulty"},{trg:"たすける",src:"to help"},{trg:"けいさつ",src:"police"},{trg:"だいじょうぶ",src:"okay/fine"}]},
 
   {type:"mc", q:"こうばん is:", opts:["A train station","A convenience store","A local police box","A hospital"], ans:"A local police box",
-   hint:"Small neighborhood police posts found throughout Japan, great for asking directions."},
+   hint:"Small neighborhood p... posts found throughout Japan, great for asking directions."},
 
   {type:"fb", s:"けいたいの___をみせてください。\n(Please show me the map on your phone.)", a:"ちず", opts:["ちず","でんわ","しゃしん","メール"], sSrc:"Please show me the map on your phone.",
    hint:"The word for a diagram showing streets, landmarks, and locations."},

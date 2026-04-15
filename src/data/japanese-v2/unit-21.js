@@ -1,4 +1,5 @@
 // Japanese V2 Unit 21 — しゃかい (Society & News)
+import EXP_L3 from './_temp_u21_expand_L01.js';import EXP_L4 from './_temp_u21_expand_L02.js';import EXP_L5 from './_temp_u21_expand_L03.js';
 // Level: B1.2 — JLPT N3 aligned.
 // News vocabulary, opinion expressions, society topics.
 
@@ -44,7 +45,7 @@ const UNIT_21 = {
    exampleSrc:"A: There is an election next month.\nB: Will you go to vote?",
    funFact:"選挙 combines 選 (choose) and 挙 (raise/nominate). Japanese elections use a unique system: voters write candidates' names by hand on ballots. Voter turnout has been declining, especially among young people. Campaign trucks with speakers drive through neighborhoods, and candidates bow deeply at intersections."},
 
-  {type:"mc", q:"じけん means:", opts:["weather","accident","incident/crime","economy"], ans:"incident/crime",
+  {type:"mc", q:"じけん means:", opts:["incident/crime","accident","weather","economy"], ans:"incident/crime",
    hint:"This word covers crimes, notable events, and legal cases. Think detective stories."},
 
   {type:"teach", trg:"けいざい", src:"economy / economics", pos:"noun", gender:null,
@@ -124,7 +125,7 @@ const UNIT_21 = {
    exampleSrc:"A: It is important to protect the environment.\nB: I think so too.",
    funFact:"環境 combines 環 (ring/cycle) and 境 (boundary), meaning 'surrounding conditions.' Environmental awareness has grown significantly in Japan. Garbage separation (ゴミの分別, gomi no bunbetsu) is extremely detailed, with some cities having over 30 categories. Japan's recycling culture is among the world's most rigorous."},
 
-  {type:"mc", q:"かんきょうもんだいについてどうおもいますか means:", opts:["What caused environmental problems?","What do you think regarding environmental problems?","Environmental problems are solved","I do not think about the environment"], ans:"What do you think regarding environmental problems?",
+  {type:"mc", q:"かんきょうもんだいについてどうおもいますか means:", opts:["What do you think regarding environmental problems?","What caused environmental problems?","Environmental problems are solved","I do not think about the environment"], ans:"What do you think regarding environmental problems?",
    hint:"について connects to the topic being discussed. どうおもいますか asks for an opinion."},
 
   {type:"teach", trg:"もんだい", src:"problem / question", pos:"noun", gender:null,
@@ -176,5 +177,6 @@ const UNIT_21 = {
    hint:"The kanji mean 'untie' and 'decide,' describing the process of resolving a problem."},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_21;

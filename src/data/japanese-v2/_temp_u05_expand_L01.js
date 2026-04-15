@@ -114,7 +114,7 @@ const LESSON_3 = {
      hint:"Missionaries brought this frying technique to Japan in the 1500s."},
 
     {type:"mc", q:"としこしそば is eaten on:", opts:["New Year's Day","Valentine's Day","New Year's Eve","Christmas"], ans:"New Year's Eve",
-     hint:"This tradition symbolizes cutting ties with the departing year."},
+     hint:"This tradition symbolizes cutting ties with the departing y...."},
   ]
 };
 export default LESSON_3;

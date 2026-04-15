@@ -39,7 +39,7 @@ const UNIT_16 = {
    exampleSrc:"A: What do you want for your birthday?\nB: I want a new phone.",
    funFact:"ほしい is only for wanting THINGS, not actions. For actions, use たい. 'I want water' = みずがほしい. 'I want to drink' = のみたい. Also, ほしい is only used for your own desires. For someone else wanting something, use ほしがっている."},
 
-  {type:"mc", q:"にほんにいくつもりです means:", opts:["I went to Japan","I want to go to Japan","I intend to go to Japan","I should go to Japan"], ans:"I intend to go to Japan",
+  {type:"mc", q:"にほんにいくつもりです means:", opts:["I intend to go to Japan","I want to go to Japan","I went to Japan","I should go to Japan"], ans:"I intend to go to Japan",
    hint:"つもり expresses a firm personal intention or plan."},
 
   {type:"teach", trg:"なつやすみ", src:"summer vacation", pos:"noun", gender:null,
@@ -69,8 +69,8 @@ const UNIT_16 = {
    exampleSrc:"A: I want a new car.\nB: What kind of car do you want?",
    funFact:"新しい is read あたらしい, but the kanji 新 is read しん in compounds: しんぶん (newspaper), しんかんせん (bullet train, 'new trunk line'). The word was originally あらたしい in Old Japanese, but the sounds swapped over centuries through a process called metathesis."},
 
-  {type:"mc", q:"あたらしいけいたいがほしい means:", opts:["I want to use a phone","I have a new phone","I want a new phone","I bought a new phone"], ans:"I want a new phone",
-   hint:"ほしい expresses wanting a THING. The particle が marks what you want."},
+  {type:"mc", q:"あたらしいけいたいがほしい means:", opts:["I want to use a phone","I want a new phone","I have a new phone","I bought a new phone"], ans:"I want a new phone",
+   hint:"ほしい expresses wanting a THING. The particle が marks what you w...."},
 
   {type:"match", pairs:[{trg:"つもり",src:"intend to"},{trg:"よてい",src:"plan/schedule"},{trg:"たい",src:"want to do"},{trg:"ほしい",src:"want (thing)"}]},
 
@@ -79,7 +79,7 @@ const UNIT_16 = {
 
   {type:"match", pairs:[{trg:"なつやすみ",src:"summer vacation"},{trg:"けっこんする",src:"to marry"},{trg:"きめる",src:"to decide"},{trg:"あたらしい",src:"new"}]},
 
-  {type:"mc", q:"The difference between たい and ほしい is:", opts:["たい is polite, ほしい is casual","たい is for actions, ほしい is for things","たい is past, ほしい is present","No difference"], ans:"たい is for actions, ほしい is for things",
+  {type:"mc", q:"The difference between たい and ほしい is:", opts:["たい is polite, ほしい is casual","たい is past, ほしい is present","たい is for actions, ほしい is for things","No difference"], ans:"たい is for actions, ほしい is for things",
    hint:"One attaches to verbs (want to DO), the other takes nouns (want a THING)."},
 ]},
 
@@ -113,7 +113,7 @@ const UNIT_16 = {
    exampleSrc:"A: I am studying in order to become a teacher.\nB: That is wonderful.",
    funFact:"なる (to become) is one of the most versatile verbs. With nouns: いしゃになる (become a doctor). With adjectives: おおきくなる (become big), しずかになる (become quiet). The pattern shows transformation and is essential for discussing life changes."},
 
-  {type:"mc", q:"にほんごをべんきょうするために means:", opts:["Instead of studying Japanese","After studying Japanese","In order to study Japanese","Because I studied Japanese"], ans:"In order to study Japanese",
+  {type:"mc", q:"にほんごをべんきょうするために means:", opts:["In order to study Japanese","After studying Japanese","Instead of studying Japanese","Because I studied Japanese"], ans:"In order to study Japanese",
    hint:"ために expresses the PURPOSE of doing something."},
 
   {type:"teach", trg:"がんばる", src:"to do one's best / to persevere", pos:"verb", gender:null,
@@ -149,7 +149,7 @@ const UNIT_16 = {
    exampleSrc:"A: What is needed for the Japanese exam?\nB: A lot of practice is needed.",
    funFact:"必要 combines 必 (certainly/must) and 要 (need/essential). The kanji 必 shows a heart pierced by certainty. ひつようない (not necessary) is a useful negative. In business Japanese, ひつよう appears constantly in planning and requirements documents."},
 
-  {type:"mc", q:"がんばって means:", opts:["good luck","I am sorry","thank you","do your best"], ans:"do your best",
+  {type:"mc", q:"がんばって means:", opts:["good luck","do your best","thank you","I am sorry"], ans:"do your best",
    hint:"The most common encouragement phrase in Japanese, said before challenges."},
 
   {type:"match", pairs:[{trg:"ために",src:"in order to"},{trg:"ゆめ",src:"dream"},{trg:"しょうらい",src:"future"},{trg:"になる",src:"to become"}]},
@@ -159,8 +159,8 @@ const UNIT_16 = {
   {type:"fb", s:"___はなんですか？\n(What is your dream?)", a:"ゆめ", opts:["ゆめ","しごと","なまえ","しゅみ"], sSrc:"What is your dream?",
    hint:"The word for both sleeping dreams and life aspirations."},
 
-  {type:"mc", q:"そつぎょうしたあとでなにをするつもりですか means:", opts:["What did you do before graduating?","What do you intend to do after graduating?","Why did you graduate?","When will you graduate?"], ans:"What do you intend to do after graduating?",
-   hint:"This combines あとで (after), つもり (intend), and a question about future plans."},
+  {type:"mc", q:"そつぎょうしたあとでなにをするつもりですか means:", opts:["What did you do before graduating?","Why did you graduate?","What do you intend to do after graduating?","When will you graduate?"], ans:"What do you intend to do after graduating?",
+   hint:"This combines あとで (a...), つもり (i...), and a question about future plans."},
 
   {type:"tip", title:"Talking About Your Future",
    text:"Intention: dictionary form + つもり\nにほんにいくつもりです。(I intend to go to Japan.)\n\nPlan: よてい + がある / dictionary form + よていです\nあしたよていがあります。(I have plans tomorrow.)\n\nDesire: verb stem + たい / noun + がほしい\nいきたいです。(I want to go.)\nくるまがほしい。(I want a car.)\n\nPurpose: dictionary form + ために\nべんきょうするためにとしょかんにいく。(I go to the library in order to study.)",

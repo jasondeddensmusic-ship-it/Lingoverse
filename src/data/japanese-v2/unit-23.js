@@ -1,4 +1,5 @@
 // Japanese V2 Unit 23 — めいしか (Nominalization)
+import EXP_L3 from './_temp_u23_expand_L01.js';import EXP_L4 from './_temp_u23_expand_L02.js';import EXP_L5 from './_temp_u23_expand_L03.js';
 // Level: B1.3 — JLPT N3 aligned.
 // こと vs の, ことがある, ことにする, のがすき, のを忘れる.
 
@@ -73,7 +74,7 @@ const UNIT_23 = {
    exampleSrc:"A: I am being transferred.\nB: Where are you being transferred to?",
    funFact:"転勤 is a defining feature of Japanese corporate culture. Companies regularly relocate employees to different cities, sometimes with only weeks of notice. This practice, called tenkin, can separate families for years. The 'tenkin widow' (tenkin mibojin) refers to a spouse left behind."},
 
-  {type:"mc", q:"でんきをけすのをわすれた means:", opts:["I forgot to turn off the lights","I remembered to turn off the lights","I turned off the lights","I want to turn off the lights"], ans:"I forgot to turn off the lights",
+  {type:"mc", q:"でんきをけすのをわすれた means:", opts:["I remembered to turn off the lights","I forgot to turn off the lights","I turned off the lights","I want to turn off the lights"], ans:"I forgot to turn off the lights",
    hint:"のをわすれる is the pattern for forgetting to do a specific action."},
 
   {type:"match", pairs:[{trg:"ことにする",src:"to decide to"},{trg:"ことになる",src:"it has been decided"},{trg:"のをわすれる",src:"to forget to do"},{trg:"のがすき",src:"to like doing"}]},
@@ -83,7 +84,7 @@ const UNIT_23 = {
 
   {type:"match", pairs:[{trg:"わすれる",src:"to forget"},{trg:"てんきん",src:"job transfer"},{trg:"こと",src:"nominalizer (abstract)"},{trg:"の",src:"nominalizer (concrete)"}]},
 
-  {type:"mc", q:"Which nominalizer MUST be used with perception verbs like みる and きく?", opts:["こと","の","もの","ところ"], ans:"の",
+  {type:"mc", q:"Which nominalizer MUST be used with perception verbs like みる and きく?", opts:["こと","もの","の","ところ"], ans:"の",
    hint:"When you see or hear an action happening, the concrete, immediate nominalizer is required."},
 ]},
 
@@ -105,7 +106,7 @@ const UNIT_23 = {
    exampleSrc:"A: You can borrow books at this library.\nB: Do you need a card?",
    funFact:"ことができる is the formal/written equivalent of the potential verb form. かける (can write) is casual, かくことができる is formal. Signs, announcements, and written rules prefer ことができる. In conversation, the potential form is more natural."},
 
-  {type:"mc", q:"あさごはんをたべないことがある means:", opts:["I have never eaten breakfast","I sometimes skip breakfast","I cannot eat breakfast","I always eat breakfast"], ans:"I sometimes skip breakfast",
+  {type:"mc", q:"あさごはんをたべないことがある means:", opts:["I sometimes skip breakfast","I have never eaten breakfast","I cannot eat breakfast","I always eat breakfast"], ans:"I sometimes skip breakfast",
    hint:"Dictionary form (not past) + ことがある describes something that occasionally happens."},
 
   {type:"teach", trg:"〜ことはない", src:"there is no need to ~ / it will not happen that ~", pos:"part", gender:null,
@@ -157,9 +158,10 @@ const UNIT_23 = {
 
   {type:"match", pairs:[{trg:"しんぱい",src:"worry"},{trg:"あんしん",src:"relief"},{trg:"かりる",src:"to borrow"},{trg:"ないことはない",src:"it's not that I can't"}]},
 
-  {type:"mc", q:"ことにする vs ことになる: what is the difference?", opts:["Both mean the same thing","ことにする is a personal decision, ことになる is decided externally","ことにする is past, ことになる is future","ことにする is casual, ことになる is formal"], ans:"ことにする is a personal decision, ことになる is decided externally",
-   hint:"One pattern has the speaker making the decision, the other frames it as something that happened."},
+  {type:"mc", q:"ことにする vs ことになる: what is the difference?", opts:["Both mean the same thing","ことにする is past, ことになる is future","ことにする is a personal decision, ことになる is decided externally","ことにする is casual, ことになる is formal"], ans:"ことにする is a personal decision, ことになる is decided externally",
+   hint:"One pattern has the speaker making the d..., the other frames it as something that happened."},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_23;

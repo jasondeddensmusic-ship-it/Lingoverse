@@ -1,4 +1,5 @@
 // Japanese V2 Unit 17 — うけみ (Passive Voice)
+import EXP_L3 from './_temp_u17_expand_L01.js';import EXP_L4 from './_temp_u17_expand_L02.js';import EXP_L5 from './_temp_u17_expand_L03.js';
 // Level: B1.1 — JLPT N3 aligned.
 // Passive formation (られる/あれる), direct passive, adversity passive.
 
@@ -38,7 +39,7 @@ const UNIT_17 = {
    exampleSrc:"A: I was invited to a party.\nB: Who were you invited by?",
    funFact:"招待 combines 招 (beckon) and 待 (wait). Formal invitations in Japan are taken seriously. Declining an invitation requires careful politeness. Wedding invitations include a return postcard (返信はがき) where guests circle 出席 (attend) or 欠席 (decline)."},
 
-  {type:"mc", q:"せんせいにほめられた means:", opts:["I praised the teacher","The teacher was praised","I was praised by the teacher","I will praise the teacher"], ans:"I was praised by the teacher",
+  {type:"mc", q:"せんせいにほめられた means:", opts:["I was praised by the teacher","The teacher was praised","I praised the teacher","I will praise the teacher"], ans:"I was praised by the teacher",
    hint:"The passive られた shows the speaker received the action. に marks who did it."},
 
   {type:"teach", trg:"しかられる", src:"to be scolded", pos:"verb", gender:null,
@@ -73,7 +74,7 @@ const UNIT_17 = {
    exampleSrc:"A: When was this temple built?\nB: It was built about 500 years ago.",
    funFact:"作られる is essential for describing history and origins. Japanese historical sites often have signs saying 'this was built in year X.' The passive voice is the default for historical descriptions, just as in English museum labels. 作 also appears in 作品 (artwork) and 作家 (author)."},
 
-  {type:"mc", q:"ともだちにたのまれた means:", opts:["I asked my friend","My friend was asked","I was asked by my friend","I will ask my friend"], ans:"I was asked by my friend",
+  {type:"mc", q:"ともだちにたのまれた means:", opts:["I asked my friend","I was asked by my friend","My friend was asked","I will ask my friend"], ans:"I was asked by my friend",
    hint:"The passive form shows the speaker was on the receiving end. に marks the agent who made the request."},
 
   {type:"match", pairs:[{trg:"ほめられる",src:"to be praised"},{trg:"えらばれる",src:"to be chosen"},{trg:"しかられる",src:"to be scolded"},{trg:"しょうたいされる",src:"to be invited"}]},
@@ -83,7 +84,7 @@ const UNIT_17 = {
   {type:"fb", s:"パーティーに___されました。\n(I was invited to a party.)", a:"しょうたい", opts:["しょうたい","しょうかい","れんらく","あんない"], sSrc:"I was invited to a party.",
    hint:"The する-verb meaning 'to invite' formally. 招 (beckon) + 待 (wait)."},
 
-  {type:"mc", q:"How do you form the passive of a Group 2 verb like たべる?", opts:["たべられる","たべれる","たべされる","たべさせる"], ans:"たべられる",
+  {type:"mc", q:"How do you form the passive of a Group 2 verb like たべる?", opts:["たべされる","たべれる","たべられる","たべさせる"], ans:"たべられる",
    hint:"Group 2 verbs drop る and add られる for the passive."},
 ]},
 
@@ -111,7 +112,7 @@ const UNIT_17 = {
    exampleSrc:"A: My father died on me when I was young.\nB: That must have been painful.",
    funFact:"しなれる is one of the most emotionally powerful uses of adversity passive. It expresses not just that someone died, but that their death deeply affected and burdened the speaker. This construction has no English equivalent. It shows how Japanese grammar encodes emotional impact directly into verb forms."},
 
-  {type:"mc", q:"あめにふられた expresses:", opts:["I made it rain","It rained and I enjoyed it","It rained and I was negatively affected","I predicted rain"], ans:"It rained and I was negatively affected",
+  {type:"mc", q:"あめにふられた expresses:", opts:["It rained and I was negatively affected","It rained and I enjoyed it","I made it rain","I predicted rain"], ans:"It rained and I was negatively affected",
    hint:"The adversity passive shows the speaker suffered because of the rain."},
 
   {type:"teach", trg:"さわがれる", src:"to be disturbed by noise", pos:"verb", gender:null,
@@ -152,7 +153,7 @@ const UNIT_17 = {
    exampleSrc:"A: I was embarrassed in front of everyone.\nB: It is okay.",
    funFact:"恥ずかしい covers a wider emotional range than English 'embarrassed.' It includes shyness, modesty, and social shame. The related noun 恥 (haji, shame) is central to Japanese culture. Ruth Benedict's famous book described Japan as a 'shame culture' as opposed to a 'guilt culture.'"},
 
-  {type:"mc", q:"さいふをぬすまれた means:", opts:["I stole a wallet","Someone found my wallet","I had my wallet stolen","I lost my wallet"], ans:"I had my wallet stolen",
+  {type:"mc", q:"さいふをぬすまれた means:", opts:["I stole a wallet","I had my wallet stolen","Someone found my wallet","I lost my wallet"], ans:"I had my wallet stolen",
    hint:"The passive of ぬすむ (steal) with さいふを shows the item was taken from the speaker."},
 
   {type:"match", pairs:[{trg:"あめにふられる",src:"to get rained on"},{trg:"なかれる",src:"to have someone cry on you"},{trg:"さわがれる",src:"to be disturbed by noise"},{trg:"ぬすまれる",src:"to have something stolen"}]},
@@ -166,5 +167,6 @@ const UNIT_17 = {
    hint:"Adversity passive uses intransitive verbs where the speaker is not the direct object but suffers from the event."},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_17;

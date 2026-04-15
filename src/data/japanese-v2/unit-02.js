@@ -46,7 +46,7 @@ const UNIT_02 = {
    funFact:"From kanji 学 (study) + 生 (person/life). Same 生 appears in sensei (先生, 'born before' = teacher). Daigakusei adds 大学 (university) in front."},
 
   {type:"mc", q:"わたしはがくせいです means:", opts:["I am a student","You are a student","I have a student","I like students"], ans:"I am a student",
-   hint:"Break it down: watashi (I) + wa (topic) + gakusei (student) + desu (am)."},
+   hint:"Break it down: watashi (I) + wa (topic) + gakusei (s...) + desu (am)."},
 
   {type:"teach", trg:"せんせい", src:"teacher / professor", pos:"noun", gender:null,
    note:"Used for teachers, professors, doctors, lawyers. A title of respect.\nKanji: 先生.",
@@ -78,8 +78,8 @@ const UNIT_02 = {
    exampleSrc:"A: What is your job?\nB: I am an engineer.",
    funFact:"仕 (serve) + 事 (thing/matter). Work is literally 'a thing you serve.' Adding お (o-shigoto) makes it polite, used when asking about someone else's job."},
 
-  {type:"mc", q:"おしごとはなんですか means:", opts:["What is your job?","Where do you work?","Do you like work?","Are you working?"], ans:"What is your job?",
-   hint:"O-shigoto (polite job) + wa (topic) + nan desu ka (what is it?)."},
+  {type:"mc", q:"おしごとはなんですか means:", opts:["Do you like work?","Where do you work?","What is your job?","Are you working?"], ans:"What is your job?",
+   hint:"O-shigoto (polite j...) + wa (topic) + nan desu ka (what is it?)."},
 
   {type:"teach", trg:"いしゃ", src:"doctor / physician", pos:"noun", gender:null,
    note:"Medical doctor. Also addressed as sensei in Japanese.\nKanji: 医者.",
@@ -92,7 +92,7 @@ const UNIT_02 = {
   {type:"fb", s:"いいえ、いしゃ___。がくせいです。", a:"じゃありません", opts:["じゃありません","です","ですか","ません"], sSrc:"No, I am not a doctor. I am a student.",
    hint:"The negative copula that denies an identity."},
 
-  {type:"mc", q:"Which sentence means 'I am not a company employee'?", opts:["わたしはかいしゃいんです","わたしはかいしゃいんじゃありません","かいしゃいんですか","わたしのかいしゃいん"], ans:"わたしはかいしゃいんじゃありません",
+  {type:"mc", q:"Which sentence means 'I am not a company employee'?", opts:["わたしはかいしゃいんです","わたしのかいしゃいん","かいしゃいんですか","わたしはかいしゃいんじゃありません"], ans:"わたしはかいしゃいんじゃありません",
    hint:"Look for the negative copula attached to the occupation word."},
 
   {type:"match", pairs:[{trg:"がくせい",src:"student"},{trg:"せんせい",src:"teacher"},{trg:"かいしゃいん",src:"office worker"},{trg:"いしゃ",src:"doctor"}]},
@@ -136,8 +136,8 @@ const UNIT_02 = {
    exampleSrc:"A: Are you from England?\nB: No, I am from America.",
    funFact:"Japan first learned about England through Portuguese missionaries who called it 'Ingles.' That is why the Japanese name sounds nothing like 'England' or 'Britain.'"},
 
-  {type:"mc", q:"にほんじん means:", opts:["Japan","Japanese person","Japanese language","Japanese food"], ans:"Japanese person",
-   hint:"にほん (Japan) + じん (person). The suffix that creates nationalities."},
+  {type:"mc", q:"にほんじん means:", opts:["Japanese person","Japan","Japanese language","Japanese food"], ans:"Japanese person",
+   hint:"にほん (Japan) + じん (p...). The suffix that creates nationalities."},
 
   {type:"teach", trg:"フランス", src:"France", pos:"noun", gender:null,
    note:"French person: フランスじん. French language: フランスご.\nWritten in katakana.",
@@ -178,10 +178,10 @@ const UNIT_02 = {
    exampleSrc:"A: Are you a lawyer?\nB: Yes, I work in Tokyo.",
    funFact:"弁 (speak) + 護 (protect) + 士 (professional). A lawyer is literally a 'speaking-protecting professional.' Japan's bar exam pass rate is only about 25%, making it one of the hardest in the world."},
 
-  {type:"mc", q:"にほんご means:", opts:["Japanese person","Japanese food","Japanese language","Japan"], ans:"Japanese language",
-   hint:"にほん (Japan) + ご (language). The suffix for languages."},
+  {type:"mc", q:"にほんご means:", opts:["Japanese person","Japanese language","Japanese food","Japan"], ans:"Japanese language",
+   hint:"にほん (Japan) + ご (l...). The suffix for languages."},
 
-  {type:"mc", q:"イギリスからです means:", opts:["I am British","I am from England","I speak English","I like England"], ans:"I am from England",
+  {type:"mc", q:"イギリスからです means:", opts:["I am British","I speak English","I am from England","I like England"], ans:"I am from England",
    hint:"Place + kara + desu = 'I am from (place).'"},
 
   {type:"match", pairs:[{trg:"にほん",src:"Japan"},{trg:"アメリカ",src:"America"},{trg:"イギリス",src:"England"},{trg:"フランス",src:"France"}]},
@@ -191,7 +191,7 @@ const UNIT_02 = {
 
   {type:"match", pairs:[{trg:"にほんじん",src:"Japanese person"},{trg:"にほんご",src:"Japanese language"},{trg:"べんごし",src:"lawyer"},{trg:"エンジニア",src:"engineer"}]},
 
-  {type:"mc", q:"How do you say 'I am Chinese'?", opts:["わたしはちゅうごくごです","わたしはちゅうごくからです","わたしはちゅうごくじんです","ちゅうごくじゃありません"], ans:"わたしはちゅうごくじんです",
+  {type:"mc", q:"How do you say 'I am Chinese'?", opts:["わたしはちゅうごくごです","わたしはちゅうごくからです","ちゅうごくじゃありません","わたしはちゅうごくじんです"], ans:"わたしはちゅうごくじんです",
    hint:"Country + jin + desu for stating nationality."},
 
   {type:"tip", title:"Three Suffixes, Endless Words",
@@ -199,7 +199,7 @@ const UNIT_02 = {
    deepDive:{title:"Katakana vs Hiragana countries",
     text:"Japanese-origin country names use kanji/hiragana:\nにほん, ちゅうごく\n\nForeign country names use katakana:\nアメリカ, イギリス, フランス\n\nBut the suffixes (じん, ご, から) are always hiragana."}},
 
-  {type:"mc", q:"Which is NOT a real suffix pattern?", opts:["にほんじん","にほんご","にほんから","にほんを"], ans:"にほんを",
+  {type:"mc", q:"Which is NOT a real suffix pattern?", opts:["にほんを","にほんご","にほんから","にほんじん"], ans:"にほんを",
    hint:"を is an object particle, not used for country identity patterns."},
 ]},
 

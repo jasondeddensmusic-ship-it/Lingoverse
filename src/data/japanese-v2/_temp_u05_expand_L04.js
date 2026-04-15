@@ -31,7 +31,7 @@ const LESSON_6 = {
      funFact:"Beer came from Dutch traders (bier, not English 'beer'). Japan's big four: Asahi, Kirin, Sapporo, Suntory. The first glass is almost always beer at social gatherings (toriaezu biiru = beer for now). It is poured for others, never yourself."},
 
     {type:"mc", q:"コンビニ is short for:", opts:["Combination","Convenience store","Community center","Company office"], ans:"Convenience store",
-     hint:"A shortened loanword from 'convenience store.'"},
+     hint:"A shortened loanword from 'c... s....'"},
 
     {type:"teach", trg:"おさけ", src:"alcohol / sake / rice wine", pos:"noun", gender:null,
      note:"General word for alcohol AND specifically Japanese rice wine.\nKanji: お酒.",
@@ -88,7 +88,7 @@ const LESSON_6 = {
      funFact:"This is the phrase you will hear most at a konbini checkout when buying food. Staff will microwave your bento perfectly. They also ask about chopsticks: ohashi wa otsuke shimasu ka (shall I include chopsticks?). The service detail is remarkable."},
 
     {type:"mc", q:"じどうはんばいき are special in Japan because:", opts:["They are very expensive","There are about 5 million of them","They only sell drinks","They require membership"], ans:"There are about 5 million of them",
-     hint:"Japan has an incredibly high density of these machines, about one per 23 people."},
+     hint:"Japan has an incredibly high density of these machines, a... one per 23 people."},
 
     {type:"match", pairs:[
       {trg:"コンビニ", src:"convenience store"},

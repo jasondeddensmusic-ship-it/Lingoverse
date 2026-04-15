@@ -25,7 +25,7 @@ const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15
    funFact:"までに (by) and まで (until) are commonly confused. ごじまで (until 5) means the action continues until 5. ごじまでに (by 5) means it must be done before the 5 o'clock deadline. This distinction matters greatly in work: 'work until 5' vs 'finish by 5' are very different instructions."},
 
   {type:"mc", q:"さんじごろ means:", opts:["Exactly at 3","Around 3 o'clock","Before 3","After 3"], ans:"Around 3 o'clock",
-   hint:"ごろ makes a time approximate, meaning 'around' that time."},
+   hint:"ごろ makes a time approximate, meaning 'a...' that time."},
 
   {type:"teach", trg:"おくれる", src:"to be late", pos:"verb", gender:null,
    note:"Group 2 verb. おくれます = will be late. おくれてすみません = sorry for being late.\nKanji: 遅れる.",
@@ -61,7 +61,7 @@ const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15
    funFact:"確認 combines 確 (certain) and 認 (recognize). Confirming details is extremely important in Japanese business and daily life. Hotels, restaurants, and services often call to confirm reservations. The phrase かくにんさせてください (let me confirm) is heard constantly in customer service."},
 
   {type:"mc", q:"じゅっぷんおくれます means:", opts:["I will arrive 10 minutes early","I will be 10 minutes late","I will wait 10 minutes","I canceled 10 minutes ago"], ans:"I will be 10 minutes late",
-   hint:"おくれる means to be late, and じゅっぷん is 10 minutes."},
+   hint:"おくれる means to be l..., and じゅっぷん is 10 m...."},
 
   {type:"teach", trg:"ひにち", src:"date / day", pos:"noun", gender:null,
    note:"ひ (day) + にち (day). Used for scheduling specific dates.\nKanji: 日にち.",
@@ -83,7 +83,7 @@ const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15
   {type:"match", pairs:[{trg:"よやく",src:"reservation"},{trg:"キャンセルする",src:"to cancel"},{trg:"かくにんする",src:"to confirm"},{trg:"じかんどおり",src:"on time"}]},
 
   {type:"mc", q:"までに vs まで: きんようびまでにだす means:", opts:["Submit on Friday","Submit until Friday","Submit by Friday (deadline)","Submit after Friday"], ans:"Submit by Friday (deadline)",
-   hint:"までに marks a deadline by which something must be completed."},
+   hint:"までに marks a d... by which something must be completed."},
 
   {type:"fb", s:"なんじ___につきますか？\n(Around what time will you arrive?)", a:"ごろ", opts:["ごろ","まで","から","ぐらい"], sSrc:"Around what time will you arrive?",
    hint:"The particle for approximate clock times, meaning 'around.'"},

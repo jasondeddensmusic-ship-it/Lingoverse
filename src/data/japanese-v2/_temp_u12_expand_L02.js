@@ -25,7 +25,7 @@ const LESSON_4 = {id:"jav2_u12l4", title:"しごとのスキル", icon:"💼", x
    funFact:"Japanese curry (カレー) is not Indian-style but a uniquely Japanese comfort food. It is the most popular home-cooked dish in Japan, made with curry roux blocks. Asking どんなりょうりができますか is a common getting-to-know-you question in Japan."},
 
   {type:"mc", q:"うんてんができますか means:", opts:["Do you have a car?","Can you drive?","Do you like driving?","Did you drive?"], ans:"Can you drive?",
-   hint:"うんてん (driving) + ができますか asks about the ability to drive."},
+   hint:"うんてん (driving) + ができますか asks about the ability to d...."},
 
   {type:"teach", trg:"やくせる", src:"can translate", pos:"verb", gender:null,
    note:"やくす (to translate) Group 1: す becomes せる.\nやくす becomes やくせる. Kanji: 訳す.",
@@ -61,7 +61,7 @@ const LESSON_4 = {id:"jav2_u12l4", title:"しごとのスキル", icon:"💼", x
    funFact:"はこぶ uses the kanji 運ぶ, the same 運 in うんてん (driving) and うんどう (exercise/movement). It covers carrying, transporting, and moving things. Delivery services (たくはいびん) literally 'carry to your home' and are incredibly efficient in Japan."},
 
   {type:"mc", q:"パソコンがなおせますか means:", opts:["Can you use the computer?","Can you buy a computer?","Can you fix the computer?","Do you have a computer?"], ans:"Can you fix the computer?",
-   hint:"なおせる is the potential form of なおす (to fix/repair)."},
+   hint:"なおせる is the potential form of なおす (to f.../repair)."},
 
   {type:"teach", trg:"ペラペラ", src:"fluent / fluently", pos:"adv", gender:null,
    note:"Onomatopoeia for smooth, fluent speech. にほんごがペラペラ = fluent in Japanese.\nVery casual, friendly word.",

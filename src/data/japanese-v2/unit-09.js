@@ -38,8 +38,8 @@ const UNIT_09 = {
    exampleSrc:"A: Your change is 100 yen.\nB: Thank you very much.",
    funFact:"Otsuri literally comes from 'tsuri' meaning to fish up or hook back, as in getting money fished back to you. In Japan, cashiers place your change on a small tray rather than in your hand. This is considered more hygienic and polite."},
 
-  {type:"mc", q:"てんいん means:", opts:["customer","shop clerk","manager","friend"], ans:"shop clerk",
-   hint:"The compound of 'shop' + 'member' describing the person who works there."},
+  {type:"mc", q:"てんいん means:", opts:["shop clerk","customer","manager","friend"], ans:"shop clerk",
+   hint:"The compound of 's...' + 'member' describing the person who works there."},
 
   {type:"teach", trg:"レシート", src:"receipt", pos:"noun", gender:null,
    note:"Loanword from English 'receipt.' Written in katakana. Given at most shops.",
@@ -80,7 +80,7 @@ const UNIT_09 = {
    exampleSrc:"A: What does this shop sell?\nB: It sells Japanese tea.",
    funFact:"売 shows a gentleman (士) above a child/person (儿) offering something at a stand. Urimono means 'things for sale.' Uriage (sales revenue) is a key business word. The passive form ureru (to sell well) is used to describe popular products."},
 
-  {type:"mc", q:"これをください means:", opts:["How much is this?","Where is this?","This one, please","What is this?"], ans:"This one, please",
+  {type:"mc", q:"これをください means:", opts:["How much is this?","This one, please","Where is this?","What is this?"], ans:"This one, please",
    hint:"The phrase you say while pointing at something you want to purchase."},
 
   {type:"match", pairs:[{trg:"みせ",src:"shop"},{trg:"てんいん",src:"shop clerk"},{trg:"おかね",src:"money"},{trg:"おつり",src:"change"}]},
@@ -90,8 +90,8 @@ const UNIT_09 = {
   {type:"fb", s:"このほんは___ですか？\n(How much is this book?)", a:"いくら", opts:["いくら","なに","どこ","だれ"], sSrc:"How much is this book?",
    hint:"The question word specifically for asking about price."},
 
-  {type:"mc", q:"ふくろはいりますか means:", opts:["Do you need a receipt?","Do you need a bag?","Do you have money?","Is it expensive?"], ans:"Do you need a bag?",
-   hint:"Fukuro is the word for a bag or sack that shops offer at checkout."},
+  {type:"mc", q:"ふくろはいりますか means:", opts:["Do you need a receipt?","Do you have money?","Do you need a bag?","Is it expensive?"], ans:"Do you need a bag?",
+   hint:"Fukuro is the word for a b... or sack that shops offer at checkout."},
 
   {type:"tip", title:"Shopping Survival Phrases",
    text:"Essential phrases at any Japanese shop:\n\nいらっしゃいませ！ = Welcome! (clerk says this)\nこれをください。 = This one, please.\nいくらですか？ = How much?\nレシートをください。 = Receipt, please.\nふくろはいりますか？ = Do you need a bag? (clerk asks)\nありがとうございます。 = Thank you very much.",
@@ -123,7 +123,7 @@ const UNIT_09 = {
    exampleSrc:"A: What did you give your friend?\nB: I gave chocolate.",
    funFact:"上げる literally means 'to raise up.' Giving is conceptualized as raising something toward the other person. Japan has a rich gift-giving culture: ochuugen (mid-year gifts) and oseibo (year-end gifts) are formal occasions. The wrapping matters as much as the gift."},
 
-  {type:"mc", q:"はらう means:", opts:["to give","to receive","to pay","to sell"], ans:"to pay",
+  {type:"mc", q:"はらう means:", opts:["to pay","to receive","to give","to sell"], ans:"to pay",
    hint:"The action of clearing a debt, originally meaning 'to sweep away.'"},
 
   {type:"teach", trg:"もうすこし", src:"a little more", pos:"adv", gender:null,
@@ -160,7 +160,7 @@ const UNIT_09 = {
    funFact:"Betsu-betsu (literally 'separate-separate') is essential at restaurants with friends. Japanese dining culture traditionally uses warikan (splitting equally) rather than paying for exactly what you ordered. Saying betsu-betsu is perfectly acceptable at casual restaurants."},
 
   {type:"mc", q:"もうすこしやすく means:", opts:["much more expensive","a little cheaper","very cheap","too expensive"], ans:"a little cheaper",
-   hint:"Mou sukoshi (a little more) + yasuku (cheaply) = a gentle discount request."},
+   hint:"Mou sukoshi (a l... more) + yasuku (cheaply) = a gentle discount request."},
 
   {type:"teach", trg:"いっしょに", src:"together", pos:"adv", gender:null,
    note:"Often used with verbs: いっしょにたべましょう (let's eat together).\nKanji: 一緒に.",
@@ -187,7 +187,7 @@ const UNIT_09 = {
   {type:"fb", s:"ともだちにチョコレートを___ました。\n(I gave chocolate to my friend.)", a:"あげ", opts:["あげ","もらい","はらい","かい"], sSrc:"I gave chocolate to my friend.",
    hint:"The polite stem of the verb for giving something to another person."},
 
-  {type:"mc", q:"ちょうどいい means:", opts:["too much","not enough","just right","very expensive"], ans:"just right",
+  {type:"mc", q:"ちょうどいい means:", opts:["too much","not enough","very expensive","just right"], ans:"just right",
    hint:"The combination of 'exactly' and 'good' expressing perfect fit."},
 
   {type:"tip", title:"Giving and Receiving in Japanese",

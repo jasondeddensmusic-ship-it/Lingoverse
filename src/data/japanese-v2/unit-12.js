@@ -39,7 +39,7 @@ const UNIT_12 = {
    exampleSrc:"A: Can you speak English?\nB: Yes, I can.",
    funFact:"Notice the particle change: はなす uses を (nihongo wo hanasu = speak Japanese), but the potential form uses が (nihongo ga hanaseru = can speak Japanese). This を to が switch in potential sentences is a classic grammar point tested on JLPT N4."},
 
-  {type:"mc", q:"にほんごができます means:", opts:["I study Japanese","I like Japanese","I can do Japanese","I am Japanese"], ans:"I can do Japanese",
+  {type:"mc", q:"にほんごができます means:", opts:["I can do Japanese","I like Japanese","I study Japanese","I am Japanese"], ans:"I can do Japanese",
    hint:"できる expresses ability or possibility with a noun."},
 
   {type:"teach", trg:"いける", src:"can go", pos:"verb", gender:null,
@@ -57,7 +57,7 @@ const UNIT_12 = {
   {type:"fb", s:"かんじが___ますか？\n(Can you read kanji?)", a:"よめ", opts:["よめ","よみ","よんで","よむ"], sSrc:"Can you read kanji?",
    hint:"The potential form of よむ. Change the む (u-row) to め (e-row), then add る."},
 
-  {type:"mc", q:"What is the potential form of たべる?", opts:["たべられる","たべれる","たべできる","たべける"], ans:"たべられる",
+  {type:"mc", q:"What is the potential form of たべる?", opts:["たべれる","たべられる","たべできる","たべける"], ans:"たべられる",
    hint:"Group 2 verbs drop る and add られる. Do not drop the ら."},
 
   {type:"match", pairs:[{trg:"できる",src:"can do"},{trg:"たべられる",src:"can eat"},{trg:"よめる",src:"can read"},{trg:"はなせる",src:"can speak"}]},
@@ -98,8 +98,8 @@ const UNIT_12 = {
    exampleSrc:"A: Can you already read hiragana?\nB: Yes, I can already read it!",
    funFact:"Combining もう with the potential form is a great way to celebrate language learning milestones. もうはなせます (I can already speak it), もうわかります (I can already understand it). Japanese teachers love hearing these from students."},
 
-  {type:"mc", q:"もうたべました means:", opts:["I am still eating","I have not eaten yet","I already ate","I want to eat"], ans:"I already ate",
-   hint:"もう with past tense means the action is completed: 'already.'"},
+  {type:"mc", q:"もうたべました means:", opts:["I already ate","I have not eaten yet","I am still eating","I want to eat"], ans:"I already ate",
+   hint:"もう with past tense means the action is completed: 'a....'"},
 
   {type:"teach", trg:"まだわかりません", src:"I do not understand yet", pos:"verb", gender:null,
    note:"まだ + negative = not yet. わかりません = do not understand.\nExpresses current inability with hope of future understanding.",
@@ -129,7 +129,7 @@ const UNIT_12 = {
    funFact:"かける is a useful example of how potential forms work in real life. Many Japanese learners can read (よめる) kanji before they can write (かける) them. The potential form naturally expresses these different skill levels."},
 
   {type:"mc", q:"まだです means:", opts:["already done","not yet","I can do it","I cannot"], ans:"not yet",
-   hint:"A short, polite answer to 'have you done X yet?' questions."},
+   hint:"A short, polite answer to 'have you done X y...?' questions."},
 
   {type:"match", pairs:[{trg:"もう",src:"already"},{trg:"まだ",src:"not yet / still"},{trg:"もういちど",src:"one more time"},{trg:"まだです",src:"not yet (short)"}]},
 
@@ -138,8 +138,8 @@ const UNIT_12 = {
 
   {type:"match", pairs:[{trg:"できる",src:"can do"},{trg:"よめる",src:"can read"},{trg:"かける",src:"can write"},{trg:"はなせる",src:"can speak"}]},
 
-  {type:"mc", q:"まだかけません means:", opts:["I can already write","I cannot write yet","I wrote already","I do not like writing"], ans:"I cannot write yet",
-   hint:"まだ with negative potential form means the ability has not developed yet."},
+  {type:"mc", q:"まだかけません means:", opts:["I can already write","I wrote already","I cannot write yet","I do not like writing"], ans:"I cannot write yet",
+   hint:"まだ with negative potential form means the ability has not developed y...."},
 
   {type:"tip", title:"もう vs まだ Quick Guide",
    text:"もう + past tense = already did\nもうたべました。(I already ate.)\n\nまだ + negative = not yet\nまだたべていません。(I have not eaten yet.)\n\nまだ + positive = still doing\nまだたべています。(I am still eating.)\n\nShort answers:\nもう? > はい、もう[past]。/ いいえ、まだです。",

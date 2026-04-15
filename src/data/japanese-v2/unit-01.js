@@ -91,7 +91,7 @@ const UNIT_01 = {
        hint:"This greeting is used in the morning, roughly until 10 AM. It comes from the word for 'early.'"},
 
       {type:"mc", q:"'ありがとうございます' means:",
-       opts:["Thank you","Excuse me","Goodbye","Good morning"],
+       opts:["Excuse me","Thank you","Goodbye","Good morning"],
        ans:"Thank you",
        hint:"This is the polite form of expressing gratitude. The casual version drops gozaimasu."},
 
@@ -109,7 +109,7 @@ const UNIT_01 = {
       ]},
 
       {type:"mc", q:"誰かに「ありがとう」と言われたら、何と言いますか？",
-       opts:["どういたしまして","すみません","さようなら","はい"],
+       opts:["さようなら","すみません","どういたしまして","はい"],
        ans:"どういたしまして",
        hint:"The standard response to thanks. It literally means 'what have I done?' (implying it was nothing)."},
 

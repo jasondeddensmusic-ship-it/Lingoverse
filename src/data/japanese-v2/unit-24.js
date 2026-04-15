@@ -1,4 +1,5 @@
 // Japanese V2 Unit 24 — つなぎ (Advanced Connectors)
+import EXP_L3 from './_temp_u24_expand_L01.js';import EXP_L4 from './_temp_u24_expand_L02.js';import EXP_L5 from './_temp_u24_expand_L03.js';
 // Level: B1.3 — JLPT N3 aligned.
 // にもかかわらず, 一方で, したがって, つまり, ところが, そのうえ.
 
@@ -32,7 +33,7 @@ const UNIT_24 = {
    exampleSrc:"A: I thought yesterday would have nice weather. However, it suddenly rained.\nB: What a shame.",
    funFact:"ところが uses ところ (place/point) plus が (but). It literally means 'at that point, but...' The surprise element is what separates it from しかし (neutral contrast). ところが always introduces something the speaker did not expect or that contradicts the setup."},
 
-  {type:"mc", q:"あめにもかかわらず、しあいはおこなわれた means:", opts:["Because of the rain, the match was cancelled","Despite the rain, the match was held","After the rain, the match started","The match was rained out"], ans:"Despite the rain, the match was held",
+  {type:"mc", q:"あめにもかかわらず、しあいはおこなわれた means:", opts:["Despite the rain, the match was held","Because of the rain, the match was cancelled","After the rain, the match started","The match was rained out"], ans:"Despite the rain, the match was held",
    hint:"This connector expresses that something happened even though a contrary condition existed."},
 
   {type:"tip", title:"Formal vs Casual Connectors",
@@ -88,7 +89,7 @@ const UNIT_24 = {
    exampleSrc:"A: Cities are convenient. On the other hand, there is little nature.\nB: Indeed, both have good points.",
    funFact:"一方 literally means 'one direction.' When you say いっぽうで, you are pivoting to look in a different direction at the same issue. Unlike ところが (surprise contrast), いっぽうで is neutral: it simply presents the other side. News articles love this word for balanced reporting."},
 
-  {type:"mc", q:"つまり is used to:", opts:["Add a new unrelated point","Rephrase or summarize what was just said","Express surprise at a contrast","Signal the end of a discussion"], ans:"Rephrase or summarize what was just said",
+  {type:"mc", q:"つまり is used to:", opts:["Rephrase or summarize what was just said","Add a new unrelated point","Express surprise at a contrast","Signal the end of a discussion"], ans:"Rephrase or summarize what was just said",
    hint:"This connector packs information down into a clearer or simpler restatement."},
 
   {type:"teach", trg:"よさん", src:"budget", pos:"noun", gender:null,
@@ -123,5 +124,6 @@ const UNIT_24 = {
   {type:"match", pairs:[{trg:"みなおし",src:"review"},{trg:"ねだん",src:"price"},{trg:"いりょう",src:"medical care"},{trg:"こうれいか",src:"aging population"}]},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_24;

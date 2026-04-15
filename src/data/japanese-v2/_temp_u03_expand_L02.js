@@ -31,7 +31,7 @@ const LESSON_4 = {
      funFact:"Dono completes the full set: kono (this), sono (that), ano (that far), dono (which). This four-part pattern repeats across dozens of Japanese words: koko/soko/asoko/doko (here/there/over there/where)."},
 
     {type:"mc", q:"この is different from これ because:", opts:["Kono is more polite","Kono must be followed by a noun","Kono is past tense","Kono is for questions"], ans:"Kono must be followed by a noun",
-     hint:"One is a standalone pronoun, the other is an adjective that modifies a noun."},
+     hint:"One demonstrative works independently; the other always attaches before a second word to modify it."},
 
     {type:"teach", trg:"うえ", src:"on top / above", pos:"noun", gender:null,
      note:"Location word. Pattern: X の うえ に = on top of X.\nKanji: 上.",
@@ -88,7 +88,7 @@ const LESSON_4 = {
      funFact:"間 (aida/kan/ma) is one of the most philosophical kanji. Ma (space/gap/pause) is a key concept in Japanese aesthetics. The space between notes in music, the pause in conversation, the gap in architecture: ma gives meaning to emptiness."},
 
     {type:"mc", q:"つくえのしたに means:", opts:["On the desk","Under the desk","Next to the desk","Behind the desk"], ans:"Under the desk",
-     hint:"Shita is the location word for 'below/under.'"},
+     hint:"Shita is the location word for 'below/u....'"},
 
     {type:"match", pairs:[
       {trg:"この", src:"this (+ noun)"},
@@ -114,7 +114,7 @@ const LESSON_4 = {
      hint:"All four must use the same form: the noun-modifying adjectival form."},
 
     {type:"mc", q:"えきのまえに means:", opts:["Inside the station","Behind the station","In front of the station","Next to the station"], ans:"In front of the station",
-     hint:"Mae covers both 'in front of' (space) and 'before' (time)."},
+     hint:"Mae covers both 'in f... of' (space) and 'before' (time)."},
   ]
 };
 export default LESSON_4;

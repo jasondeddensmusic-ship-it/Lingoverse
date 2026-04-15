@@ -111,7 +111,7 @@ const LESSON_4 = {
      sSrc:"By card, please."},
 
     {type:"mc", q:"At a Japanese register, you should:", opts:["Hand money directly to the cashier","Place money on the small tray","Drop coins on the counter","Hold money up to show"], ans:"Place money on the small tray",
-     hint:"A small tray (kanetsubo) sits on the counter for hygienic money exchange."},
+     hint:"A s... t... (kanetsubo) sits on the counter for hygienic m... exchange."},
 
     {type:"mc", q:"サイズ in Japan compared to Western sizes:", opts:["Run larger","Run smaller","Are the same","Vary by brand only"], ans:"Run smaller",
      hint:"A Japanese L often corresponds to a Western M."},

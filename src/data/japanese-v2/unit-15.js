@@ -39,7 +39,7 @@ const UNIT_15 = {
    exampleSrc:"A: Please turn right at the traffic light.\nB: Yes, right.",
    funFact:"曲がる also means 'to bend' or 'to curve.' A まがったみち is a winding road. The kanji 曲 represents something curved or bent. In music, 曲 (kyoku) means a musical piece or tune, showing its range of meanings."},
 
-  {type:"mc", q:"みぎにまがってください means:", opts:["Please go straight","Please turn right","Please turn left","Please stop"], ans:"Please turn right",
+  {type:"mc", q:"みぎにまがってください means:", opts:["Please turn right","Please go straight","Please turn left","Please stop"], ans:"Please turn right",
    hint:"Migi is the direction word for the hand most people write with."},
 
   {type:"teach", trg:"わたる", src:"to cross", pos:"verb", gender:null,
@@ -75,7 +75,7 @@ const UNIT_15 = {
    exampleSrc:"A: Where is the bus stop/platform?\nB: It is in front of the station.",
    funFact:"のりば is a general term for any boarding area: バスのりば (bus stop), タクシーのりば (taxi stand), ふねのりば (boat dock). The ば suffix meaning 'place' appears in many words: にわ (garden), あそびば (playground), いちば (market)."},
 
-  {type:"mc", q:"のりかえ means:", opts:["a ticket","a platform","a transfer","an exit"], ans:"a transfer",
+  {type:"mc", q:"のりかえ means:", opts:["a ticket","a transfer","a platform","an exit"], ans:"a transfer",
    hint:"The noun for changing from one train or bus line to another."},
 
   {type:"match", pairs:[{trg:"みぎ",src:"right"},{trg:"ひだり",src:"left"},{trg:"まっすぐ",src:"straight"},{trg:"まがる",src:"to turn"}]},
@@ -113,8 +113,8 @@ const UNIT_15 = {
    exampleSrc:"A: I study while listening to music.\nB: Can you concentrate?",
    funFact:"ながら requires the verb stem (remove ます from the polite form): たべ+ながら, のみ+ながら, あるき+ながら. The main action comes at the end of the sentence, and the ながら action is secondary. Walking while talking: はなしながらあるく."},
 
-  {type:"mc", q:"ねるまえに means:", opts:["after sleeping","while sleeping","before sleeping","I want to sleep"], ans:"before sleeping",
-   hint:"Dictionary form + まえに = before performing the action."},
+  {type:"mc", q:"ねるまえに means:", opts:["before sleeping","while sleeping","after sleeping","I want to sleep"], ans:"before sleeping",
+   hint:"Dictionary form + まえに = b... performing the action."},
 
   {type:"teach", trg:"はをみがく", src:"to brush teeth", pos:"verb", gender:null,
    note:"は (teeth) + を + みがく (to polish/brush). A daily routine verb.\nKanji: 歯を磨く.",
@@ -149,7 +149,7 @@ const UNIT_15 = {
    exampleSrc:"A: I will contact you after arriving at the station.\nB: Please do.",
    funFact:"着く also means 'to stick to' or 'to be attached.' The kanji 着 appears in 着る (to wear, for upper body), 着物 (kimono, literally 'thing to wear'), and 到着 (touchard/arrival). At train stations, 到着 is displayed on departure boards."},
 
-  {type:"mc", q:"おんがくをききながらべんきょうする means:", opts:["Study then listen to music","Study before listening to music","Study while listening to music","Study instead of listening to music"], ans:"Study while listening to music",
+  {type:"mc", q:"おんがくをききながらべんきょうする means:", opts:["Study then listen to music","Study while listening to music","Study before listening to music","Study instead of listening to music"], ans:"Study while listening to music",
    hint:"ながら connects two actions happening at the same time."},
 
   {type:"match", pairs:[{trg:"まえに",src:"before"},{trg:"あとで",src:"after"},{trg:"ながら",src:"while"},{trg:"あるく",src:"to walk"}]},
@@ -160,7 +160,7 @@ const UNIT_15 = {
    hint:"The pattern for doing two things simultaneously, attached to the verb stem."},
 
   {type:"mc", q:"でかけるまえにまどをしめる means:", opts:["Close windows after going out","Open windows before going out","Close windows before going out","Close windows while going out"], ans:"Close windows before going out",
-   hint:"Dictionary form + まえに means 'before doing' the action."},
+   hint:"Dictionary form + まえに means 'b... doing' the action."},
 
   {type:"tip", title:"Time Sequence Patterns",
    text:"Before: dictionary form + まえに\nねるまえに (before sleeping)\nたべるまえに (before eating)\n\nAfter: た-form + あとで\nねたあとで (after sleeping)\nたべたあとで (after eating)\n\nWhile: verb stem + ながら\nたべながら (while eating)\nあるきながら (while walking)\n\nThe main action goes at the end of the sentence.",

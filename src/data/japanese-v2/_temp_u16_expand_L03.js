@@ -60,7 +60,7 @@ const LESSON_5 = {id:"jav2_u16l5", title:"やくそくときめる", icon:"🤞"
    exampleSrc:"A: I have decided to quit smoking.\nB: That is wonderful! I am cheering you on.",
    funFact:"やめる has two kanji: 辞める (resign from a position/job) and 止める (stop an action/habit). タバコをやめる (quit smoking), しごとをやめる (quit a job), and ゲームをやめる (stop playing games) are common life decisions. Once announced, social pressure helps maintain the commitment."},
 
-  {type:"mc", q:"ことにした vs ことになった: which is a personal decision?", opts:["ことになった","Both are the same","ことにした","Neither"], ans:"ことにした",
+  {type:"mc", q:"Which pattern expresses that you personally made a choice (not that circumstances decided for you)?", opts:["ことになった","Both are the same","ことにした","Neither"], ans:"ことにした",
    hint:"にする = you decide. になる = it becomes decided (by external factors)."},
 
   {type:"teach", trg:"おうえんする", src:"to cheer on / to support", pos:"verb", gender:null,
