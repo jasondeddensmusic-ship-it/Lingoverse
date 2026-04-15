@@ -342,7 +342,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 - **PP49 CEFR labels** (2026-04-07): 17 quiz fields referencing A1/A2/B1/B2 replaced with "fortgeschritten" or "Goethe-Prüfung".
 - **Arabic per-bubble fix** (2026-04-07): Dialogue regex `/[AB]:\s/` → `/[ABأب]:\s/` in all 4 teach card renderers. 3,767 Arabic dialogue examples now render as per-turn bubbles.
 - **Arabic unit split sync** (2026-04-07): AR units synced from 369→558 lessons matching EN structure. `scripts/sync_ar_splits.cjs`.
-- **Arabic content audit NEEDED** (2026-04-07): Native Arabic speaker reports translations feel unnatural/textbook-stiff. Full audit of Arabic metalanguage (notes, funFacts, exampleSrc, grammar explanations) required. See `docs/SESSION_HANDOFF_2026-04-07d.md`.
+- **Arabic content audit NEEDED** (2026-04-07): Native Arabic speaker reports translations feel unnatural/textbook-stiff. Full audit of Arabic metalanguage (notes, funFacts, exampleSrc, grammar explanations) required. See `docs/archive/SESSION_HANDOFF_2026-04-07d.md`.
 - **Flashcard UI redesign** (2026-04-09): Complete rewrite. Reveal mechanic (not flip), teach-card style matching LessonEngine exactly. Article colors, POS/gender badges, dialogue bubbles, fun facts, notes. Dead flip CSS removed. Browse + Review tabs.
 - **691 generic quiz hints fixed** (2026-04-09): All "Think about the meaning..." / "Which word fits..." hints replaced with word-specific guidance (etymology, cognates, compound breakdowns). PP8 zero violations.
 - **Storage polyfill** (2026-04-09): `window.storage` localStorage fallback in main.jsx for environments without native storage API.
@@ -372,7 +372,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 22. ~~Cases grammar pack empty~~ — **RESOLVED.** colorMap filled with preposition/article/pronoun mappings. Case-specific colors pending data model.
 23. ~~Arabic A1+A2 [AR] markers~~ — **RESOLVED.** Zero markers remain in A1+A2 content.
 24. ~~**VocabularyPage WORD_DB**~~ — **RESOLVED** (2026-04-08). Arabic enrichment pass in dictionary.js imports AR units and stores `.ar`, `.noteAr`, `.funFactAr`, `.exampleAr` on German entries. LessonEngine, VocabularyPage, and Flashcards all use baseLang-aware helpers.
-25. ~~**Arabic content quality audit**~~ — **RESOLVED** (2026-04-08). ~6,800 fixes across all 36 AR unit files: 748 broken mixed-language fields, 854 match pair translations, 2,170 native speaker review fixes, 1,285 contextual hint rewrites, 1,609 MC opts/ans translations. Zero English remaining in learner-facing fields. See `docs/SESSION_HANDOFF_2026-04-08.md`.
+25. ~~**Arabic content quality audit**~~ — **RESOLVED** (2026-04-08). ~6,800 fixes across all 36 AR unit files: 748 broken mixed-language fields, 854 match pair translations, 2,170 native speaker review fixes, 1,285 contextual hint rewrites, 1,609 MC opts/ans translations. Zero English remaining in learner-facing fields. See `docs/archive/SESSION_HANDOFF_2026-04-08.md`.
 26. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537). CefrReferencePage shows English for Arabic users on B2 words.
 27. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing for back-navigation and lesson re-entry scenarios.
 28. ~~**Dutch/French/Spanish V2 upgrade**~~ — **RESOLVED** (2026-04-12). All 3 languages upgraded to V2 format with per-unit files, POS/gender tags, funFact fields. Dutch: 347 cognates preserved as funFact + 22 COMPOUND breakdowns. French: 1,092 cards tagged. Spanish: 1,262 cards tagged. Imports updated in `utils.js` and `dictionary.js`.
@@ -422,7 +422,7 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 17. **Enable `AUDIO_ENABLED`** — Flip gate in `src/audio.jsx`.
 
 ### Phase 5: V1→V2 Language Upgrades
-18. **Dutch** → **French** → **Spanish** → **Korean** — **FORMAT MIGRATED** (2026-04-12). V2 file structure done (per-unit files, POS/gender, funFact, compounds). **CONTENT REHAUL STILL NEEDED:** official word list mapping, ~2-3K new teach cards per language, grammar module creation, quiz interleaving, PP55/PP57/PP58 completeness. See `docs/SESSION_HANDOFF_2026-04-12.md` for full pipeline.
+18. **Dutch** → **French** → **Spanish** → **Korean** — **FORMAT MIGRATED** (2026-04-12). V2 file structure done (per-unit files, POS/gender, funFact, compounds). **CONTENT REHAUL STILL NEEDED:** official word list mapping, ~2-3K new teach cards per language, grammar module creation, quiz interleaving, PP55/PP57/PP58 completeness. See `docs/archive/SESSION_HANDOFF_2026-04-12.md` for full pipeline.
 20. **Dutch grammar teacher-board rewrite** — Current content is mock/placeholder.
 
 ### Phase 6: Premium Visual Overhaul
@@ -460,20 +460,11 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-15c.md`** — **LATEST HANDOFF.** 7 languages live, 22,500+ cards. Italian 1,129 + Japanese 892. A1+A2 density expanded. Language selector cleaned. Exact next-agent instructions. **READ THIS FIRST.**
-- **`docs/SESSION_HANDOFF_2026-04-15b.md`** — Previous. Italian + Japanese launch details.
-- **`docs/SESSION_HANDOFF_2026-04-15.md`** — Previous. V2 content rehaul: 20,269 teach cards. Content build workflow.
-- **`docs/SESSION_HANDOFF_2026-04-12.md`** — Previous. V2 format migration + first Korean content batches.
-- **`docs/SESSION_HANDOFF_2026-04-09.md`** — Previous. Flashcard UI redesign, 691 quiz hint fixes, PP8 zero violations.
-- **`docs/SESSION_HANDOFF_2026-04-08b.md`** — Previous. Deep audit (~150 fixes, 52 files), FSRS spaced repetition engine (working, UI needs redesign), competitor benchmark, learning science analysis.
-- **`docs/SESSION_HANDOFF_2026-04-08.md`** — Previous. ~6,800 Arabic fixes, CEFR B2 Arabic complete, German Foundations rewrite, RTL bidi fix.
-- **`docs/SESSION_HANDOFF_2026-04-07d.md`** — Previous. Quiz interleaving, PP8/PP43/PP64 all PASS, Arabic dialogue fixed.
-- **`docs/SESSION_HANDOFF_2026-04-07c.md`** — Previous. Plumbing fixed, breathers live.
-- **`docs/SESSION_HANDOFF_2026-04-05.md`** — Previous. Phase 1.5A complete.
-- **`docs/PHASE1_WORKPLAN.md`** — Phase 1 work plan (DONE). Phase 2 preview.
+- **`docs/SESSION_HANDOFF_2026-04-15c.md`** — **LATEST HANDOFF.** 7 languages live, 22,500+ cards. Exact next-agent instructions. **READ THIS FIRST.**
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
 - **`docs/BUILD_STATUS.md`** — Full build history per language.
 - **`docs/PRODUCT_PLAN.md`** — Business model, monetization, premium features roadmap.
+- **`docs/archive/`** — All previous session handoffs (2026-04-04 through 2026-04-15b). Historical reference only.
 
 ### Tier 2.5: Agent Infrastructure
 - **`docs/agents/AGENT_CONTENT_RULES.md`** — Linguistic expert persona + all content rules. Copy into EVERY content agent prompt.
@@ -493,11 +484,11 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Check `docs/SESSION_HANDOFF_2026-04-09.md` for latest context.
-3. Check `docs/PHASE1_WORKPLAN.md` for current work plan.
-4. Check memory files (`~/.claude/projects/.../memory/`).
-5. Before audits: follow Rule A (grep actual code, never trust docs alone).
-6. Before content: re-read Pipeline Rules above.
+2. Read `docs/SESSION_HANDOFF_2026-04-15c.md` for latest context and exact next-agent instructions.
+3. Check memory files (`~/.claude/projects/.../memory/`).
+4. Before audits: follow Rule A (grep actual code, never trust docs alone).
+5. Before content: re-read Pipeline Rules above.
+6. Run `npm run build` to verify codebase compiles before making changes.
 
 ---
 
