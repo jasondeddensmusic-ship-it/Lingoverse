@@ -1,5 +1,5 @@
-// Japanese V2 Unit 03 — これはなんですか (What is this?)
-// Level: A1.1 — JLPT N5 aligned.
+// Japanese V2 Unit 03. これはなんですか (What is this?)
+// Level: A1.1. JLPT N5 aligned.
 import JEXP_03_L1 from './_temp_u03_expand_L01.js';import JEXP_03_L2 from './_temp_u03_expand_L02.js';import JEXP_03_L3 from './_temp_u03_expand_L03.js';import JEXP_03_L4 from './_temp_u03_expand_L04.js';
 // Demonstratives, common objects, nan desu ka, no particle, numbers 1-10.
 
@@ -60,7 +60,7 @@ const UNIT_03 = {
    exampleSrc:"A: Do you have an umbrella?\nB: Yes, I do.",
    funFact:"Japan sells about 130 million umbrellas per year. Transparent vinyl umbrellas (biniru-gasa) are everywhere at convenience stores. Umbrella theft is so common it is practically a cultural joke."},
 
-  {type:"fb", s:"___はなんですか？", a:"これ", opts:["これ","です","なん","は"], sSrc:"What is this?",
+  {type:"fb", s:"{1}はなんですか？", a:"これ", opts:["これ","です","なん","は"], sSrc:"What is this?",
    hint:"The demonstrative for 'this thing near me.'"},
 
   {type:"teach", trg:"とけい", src:"watch / clock", pos:"noun", gender:null,
@@ -94,7 +94,7 @@ const UNIT_03 = {
 
   {type:"match", pairs:[{trg:"ほん",src:"book"},{trg:"かばん",src:"bag"},{trg:"かさ",src:"umbrella"},{trg:"けいたい",src:"cellphone"}]},
 
-  {type:"fb", s:"あれは___ですか？\n(What is that over there?)", a:"なん", opts:["なん","これ","だれ","どこ"], sSrc:"What is that over there?",
+  {type:"fb", s:"あれは{1}ですか？\n(What is that over there?)", a:"なん", opts:["なん","これ","だれ","どこ"], sSrc:"What is that over there?",
    hint:"The question word for 'what' that pairs with desu ka."},
 
   {type:"mc", q:"かぎ means:", opts:["bag","clock","key","umbrella"], ans:"key",
@@ -172,7 +172,7 @@ const UNIT_03 = {
    exampleSrc:"A: I will travel in July.\nB: That sounds nice!",
    funFact:"Like four, seven has a secondary reading (shichi) that is sometimes avoided because it sounds like variations of 'death' words. Nana is the safe, clear choice in most contexts."},
 
-  {type:"fb", s:"だれ___かばんですか？", a:"の", opts:["の","は","が","を"], sSrc:"Whose bag is it?",
+  {type:"fb", s:"だれ{1}かばんですか？", a:"の", opts:["の","は","が","を"], sSrc:"Whose bag is it?",
    hint:"The possession particle that connects 'who' to 'bag.'"},
 
   {type:"teach", trg:"はち", src:"eight (8)", pos:"num", gender:null,
@@ -200,7 +200,7 @@ const UNIT_03 = {
   {type:"mc", q:"Which number is considered the luckiest in Japan?", opts:["よん","じゅう","はち","ご"], ans:"はち",
    hint:"Its kanji 八 symbolizes spreading prosperity."},
 
-  {type:"fb", s:"これはせんせい___かさです。", a:"の", opts:["の","は","が","を"], sSrc:"This is the teacher's umbrella.",
+  {type:"fb", s:"これはせんせい{1}かさです。", a:"の", opts:["の","は","が","を"], sSrc:"This is the teacher's umbrella.",
    hint:"The possession particle connecting owner to object."},
 
   {type:"mc", q:"What is 'my cellphone' in Japanese?", opts:["けいたいのわたし","わたしはけいたいです","これのけいたい","わたしのけいたい"], ans:"わたしのけいたい",

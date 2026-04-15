@@ -1,4 +1,4 @@
-// Unit 15 Expansion — Lesson 6: Household Problems
+// Unit 15 Expansion. Lesson 6: Household Problems
 const LESSON_6 = {
   id:"itv2_u15l6", title:"Problemi in casa", icon:"🔧", xp:15, board:true,
   steps:[

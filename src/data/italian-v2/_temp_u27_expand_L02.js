@@ -1,4 +1,4 @@
-// Unit 27 Expansion — Lesson 5: Le grandi scoperte
+// Unit 27 Expansion. Lesson 5: Le grandi scoperte
 const LESSON_5 = {
   id:"itv2_u27l5", title:"Le grandi scoperte", icon:"🌟", xp:15, board:true,
   steps:[
@@ -22,7 +22,7 @@ const LESSON_5 = {
      note:"Feminine noun. Plural: le particelle.\n'Particella subatomica' = subatomic particle.\n'Fisica delle particelle' = particle physics.",
      example:"A: I fisici italiani studiano le particelle al CERN.\nB: L'Italia e uno dei principali contribuenti al laboratorio.",
      exampleSrc:"A: Italian physicists study particles at CERN.\nB: Italy is one of the main contributors to the laboratory.",
-     funFact:"The 'fermione' (fermion) is named after Enrico Fermi, the Italian physicist who built the first nuclear reactor in 1942. Fermi's work at CERN's predecessor earned him the nickname 'il papa della fisica' (the pope of physics)."},
+     funFact:"The 'fermione' (fermion) is named after Enrico Fermi, the Italian physicist who built the first nuclear reactor in Chicago in 1942. His colleagues called him 'il papa della fisica' (the pope of physics) for his authoritative grasp of all branches of the discipline."},
 
     {type:"teach", trg:"il vaccino", src:"the vaccine", pos:"noun", gender:"m",
      note:"Masculine noun. Plural: i vaccini.\n'Vaccinazione' = vaccination. 'Vaccinare' (verb) = to vaccinate.",

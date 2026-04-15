@@ -1,5 +1,5 @@
-// Japanese V2 Unit 32 — いがく (Medicine & Health Science)
-// Level: B2.4 — JLPT N2/N1 aligned.
+// Japanese V2 Unit 32. いがく (Medicine & Health Science)
+// Level: B2.4. JLPT N2/N1 aligned.
 // しんさつ, しょうじょう, しゅじゅつ, くすり, けんこうしんだん, よぼう, ちりょう.
 
 const UNIT_32 = {
@@ -83,6 +83,9 @@ const UNIT_32 = {
    hint:"The noun meaning 'prevention,' acting before something bad happens."},
 
   {type:"match", pairs:[{trg:"よぼう",src:"prevention"},{trg:"ふくさよう",src:"side effect"},{trg:"けんこうしんだん",src:"health checkup"},{trg:"しょうじょう",src:"symptoms"}]},
+
+  {type:"mc", q:"ちりょうする means:", opts:["to diagnose","to prescribe","to treat medically","to operate"], ans:"to treat medically",
+   hint:"The verb form of the noun that uses two kanji both meaning 'to heal.'"},
 ]},
 
 // ═══ L2: Research & Scientific Terminology ═══
@@ -163,6 +166,21 @@ const UNIT_32 = {
 
   {type:"mc", q:"Which Japanese scientist won the Nobel Prize for iPS cell research?", opts:["Honjo Tasuku","Omura Satoshi","Yamanaka Shinya","Akasaki Isamu"], ans:"Yamanaka Shinya",
    hint:"This Kyoto University professor discovered how to reprogram adult cells into stem cells in 2006."},
+
+  {type:"mc", q:"りんしょうしけん means:", opts:["laboratory experiment","computer simulation","field study","clinical trial"], ans:"clinical trial",
+   hint:"りんしょう means 'facing the bedside,' so this compound describes a test conducted directly with patients."},
+
+  {type:"mc", q:"めんえきりょく refers to:", opts:["immune strength","blood pressure","lung capacity","bone density"], ans:"immune strength",
+   hint:"めんえき refers to the body's defense system. The second part りょく means power or capacity."},
+
+  {type:"fb", s:"いでんし{1}はしょうらいおおくのびょうきをなおせるかもしれません。\n(Gene therapy may be able to cure many diseases in the future.)", a:"ちりょう", opts:["ちりょう","けんきゅう","しんさつ","よぼう"], sSrc:"Gene therapy may be able to cure many diseases in the future.",
+   hint:"The noun for medical treatment, combining two kanji that both mean 'to heal.'"},
+
+  {type:"mc", q:"かんせんする means:", opts:["to vaccinate","to become infected","to recover","to disinfect"], ans:"to become infected",
+   hint:"The verb form of かんせん, which combines 'stain' with 'feel,' describing how illness spreads to the body."},
+
+  {type:"fb", s:"ウイルスの{1}をふせぐためにマスクをつけましょう。", a:"かんせん", opts:["かんせん","ちりょう","めんえき","いでんし"], sSrc:"Let's wear masks to prevent virus infection.",
+   hint:"The noun describing how a pathogen spreads from one person to another."},
 ]},
 
 ]};

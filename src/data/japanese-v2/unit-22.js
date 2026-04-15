@@ -1,6 +1,6 @@
-// Japanese V2 Unit 22 — やりもらい (Giving & Receiving)
+// Japanese V2 Unit 22. やりもらい (Giving & Receiving)
 import EXP_L3 from './_temp_u22_expand_L01.js';import EXP_L4 from './_temp_u22_expand_L02.js';import EXP_L5 from './_temp_u22_expand_L03.js';
-// Level: B1.2 — JLPT N3 aligned.
+// Level: B1.2. JLPT N3 aligned.
 // あげる/もらう/くれる, て-form favors, polite forms.
 
 const UNIT_22 = {
@@ -59,7 +59,7 @@ const UNIT_22 = {
    deepDive:{title:"Why Three Verbs for Giving?",
     text:"English has 'give' and 'receive.' Japanese has three verbs because direction relative to the speaker matters.\n\nImagine yourself at the center of a circle:\n- あげる: arrows going OUT from you (you give, or others give to each other)\n- くれる: arrows coming IN toward you (others give to you)\n- もらう: you PULL something in (you receive)\n\nくれる and もらう describe the same event from different angles:\nともだちがくれた (friend gave to me, emphasizes friend's kindness)\nわたしがもらった (I received from friend, emphasizes my receiving)\n\nThis system encodes social awareness and gratitude into the grammar itself."}},
 
-  {type:"fb", s:"たんじょうびにともだち___プレゼントをもらいました。\n(I received a present from my friend for my birthday.)", a:"から", opts:["から","に","を","で"], sSrc:"I received a present from my friend for my birthday.",
+  {type:"fb", s:"たんじょうびにともだち{1}プレゼントをもらいました。\n(I received a present from my friend for my birthday.)", a:"から", opts:["から","に","を","で"], sSrc:"I received a present from my friend for my birthday.",
    hint:"The particle marking the source/origin when receiving something from someone."},
 
   {type:"teach", trg:"わたす", src:"to hand over / to deliver", pos:"verb", gender:null,
@@ -81,7 +81,7 @@ const UNIT_22 = {
 
   {type:"match", pairs:[{trg:"おくる",src:"to send/give"},{trg:"おみやげ",src:"souvenir"},{trg:"わたす",src:"to hand over"},{trg:"うける",src:"to receive (formal)"}]},
 
-  {type:"fb", s:"ともだちがほんを___ました。\n(My friend gave me a book.)", a:"くれ", opts:["くれ","あげ","もらい","おくり"], sSrc:"My friend gave me a book.",
+  {type:"fb", s:"ともだちがほんを{1}ました。\n(My friend gave me a book.)", a:"くれ", opts:["くれ","あげ","もらい","おくり"], sSrc:"My friend gave me a book.",
    hint:"The verb for when someone else gives something TO the speaker. Implies gratitude."},
 
   {type:"mc", q:"おみやげ is:", opts:["a greeting card","a birthday cake","a souvenir brought back from a trip","a business card"], ans:"a souvenir brought back from a trip",
@@ -138,7 +138,7 @@ const UNIT_22 = {
    deepDive:{title:"Choosing the Right Favor Verb",
     text:"The three favor verbs encode different perspectives:\n\nてあげる: focuses on YOUR act of giving. Use when telling others about your kindness. Avoid using it directly to the person (sounds boastful).\n\nてもらう/ていただく: focuses on the benefit YOU received. Use when you want to acknowledge receiving help. Most natural for requests.\n\nてくれる/てくださる: focuses on the OTHER PERSON's kindness. Use when you want to praise someone's thoughtfulness. Most emotionally warm.\n\nExamples describing the same event:\nにもつをもってあげた (I carried it for them. My action.)\nにもつをもってもらった (I had them carry it. My benefit.)\nにもつをもってくれた (They carried it for me. Their kindness.)"}},
 
-  {type:"fb", s:"せんせいにすいせんじょうをかいて___ました。\n(I had the teacher write a recommendation letter for me. - polite)", a:"いただき", opts:["いただき","もらい","くれ","あげ"], sSrc:"I had the teacher write a recommendation letter for me.",
+  {type:"fb", s:"せんせいにすいせんじょうをかいて{1}ました。\n(I had the teacher write a recommendation letter for me. - polite)", a:"いただき", opts:["いただき","もらい","くれ","あげ"], sSrc:"I had the teacher write a recommendation letter for me.",
    hint:"The polite/humble version of てもらう, used when the favor-doer is a superior."},
 
   {type:"teach", trg:"なおす", src:"to fix / to repair / to correct", pos:"verb", gender:null,
@@ -158,7 +158,7 @@ const UNIT_22 = {
 
   {type:"match", pairs:[{trg:"てあげる",src:"do for someone"},{trg:"てもらう",src:"have someone do"},{trg:"てくれる",src:"someone does for me"},{trg:"ていただく",src:"have someone do (polite)"}]},
 
-  {type:"fb", s:"みちを___いただけますか？\n(Could you kindly tell me the way?)", a:"おしえて", opts:["おしえて","おしえ","おしえる","おしえた"], sSrc:"Could you kindly tell me the way?",
+  {type:"fb", s:"みちを{1}いただけますか？\n(Could you kindly tell me the way?)", a:"おしえて", opts:["おしえて","おしえ","おしえる","おしえた"], sSrc:"Could you kindly tell me the way?",
    hint:"The て-form of the verb meaning 'to teach/tell.' Combined with いただけますか for a polite request."},
 
   {type:"match", pairs:[{trg:"てくださる",src:"someone does for me (hon.)"},{trg:"おしえる",src:"to teach/tell"},{trg:"なおす",src:"to fix/correct"},{trg:"てつだう",src:"to help"}]},

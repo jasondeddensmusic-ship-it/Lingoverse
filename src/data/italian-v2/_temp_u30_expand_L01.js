@@ -1,4 +1,4 @@
-// Unit 30 Expansion — Lesson 4: Il congiuntivo nelle relative
+// Unit 30 Expansion. Lesson 4: Il congiuntivo nelle relative
 const LESSON_4 = {
   id:"itv2_u30l4", title:"Il congiuntivo nelle relative", icon:"🔗", xp:15, board:true,
   steps:[
@@ -29,7 +29,7 @@ const LESSON_4 = {
      funFact:"Negative expressions naturally pair with the subjunctive because they describe a void, something that does not exist. 'Non conosco nessuno che parli finlandese' (I do not know anyone who speaks Finnish) uses the subjunctive because the person is absent from your world."},
 
     {type:"mc",
-     q:"'Cerco un appartamento che ___ due camere da letto.' Quale forma e corretta?",
+     q:"'Cerco un appartamento che {1} due camere da letto.' Quale forma e corretta?",
      opts:["ha","abbia","avra","aveva"],
      ans:"abbia",
      hint:"You have not found the apartment yet. The subjunctive is needed because the antecedent (the apartment) is desired but unknown."},

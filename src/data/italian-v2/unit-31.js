@@ -1,4 +1,4 @@
-// Italian V2 Unit 31 — I media avanzati (B2.3)
+// Italian V2 Unit 31. I media avanzati (B2.3)
 import EXP_L4 from './_temp_u31_expand_L01.js';import EXP_L5 from './_temp_u31_expand_L02.js';import EXP_L6 from './_temp_u31_expand_L03.js';
 // CILS B2 aligned. Advanced media, journalism, digital communication vocabulary.
 

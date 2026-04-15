@@ -1,4 +1,4 @@
-// Unit 18 Expansion — Lesson 6: Green Energy
+// Unit 18 Expansion. Lesson 6: Green Energy
 const LESSON_6 = {
   id:"itv2_u18l6", title:"L'energia verde", icon:"⚡", xp:15, board:true,
   steps:[

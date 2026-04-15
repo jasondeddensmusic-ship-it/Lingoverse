@@ -1,5 +1,5 @@
-// Japanese V2 Unit 05 — たべもの (Food & Drink)
-// Level: A1.2 — JLPT N5 aligned.
+// Japanese V2 Unit 05. たべもの (Food & Drink)
+// Level: A1.2. JLPT N5 aligned.
 import JEXP_05_L1 from './_temp_u05_expand_L01.js';import JEXP_05_L2 from './_temp_u05_expand_L02.js';import JEXP_05_L3 from './_temp_u05_expand_L03.js';
 // Food vocabulary, drinks, eating verbs, taste adjectives, suki/kirai.
 
@@ -60,7 +60,7 @@ const UNIT_05 = {
    exampleSrc:"A: Do you like fruit?\nB: Yes, I like apples.",
    funFact:"Fruit in Japan is often luxury-priced. A single muskmelon can cost over 10,000 yen (70 USD). Perfectly shaped fruits are given as formal gifts. Department stores have entire floors dedicated to premium fruit."},
 
-  {type:"fb", s:"にほんの___がすきです。\n(I like Japanese food.)", a:"たべもの", opts:["たべもの","のみもの","くだもの","やさい"], sSrc:"I like Japanese food.",
+  {type:"fb", s:"にほんの{1}がすきです。\n(I like Japanese food.)", a:"たべもの", opts:["たべもの","のみもの","くだもの","やさい"], sSrc:"I like Japanese food.",
    hint:"The general compound word meaning 'things to eat.'"},
 
   {type:"teach", trg:"たまご", src:"egg", pos:"noun", gender:null,
@@ -106,7 +106,7 @@ const UNIT_05 = {
 
   {type:"match", pairs:[{trg:"みず",src:"water"},{trg:"おちゃ",src:"tea"},{trg:"ぎゅうにゅう",src:"milk"},{trg:"コーヒー",src:"coffee"}]},
 
-  {type:"fb", s:"___をください。\n(Water, please.)", a:"みず", opts:["みず","おちゃ","にく","パン"], sSrc:"Water, please.",
+  {type:"fb", s:"{1}をください。\n(Water, please.)", a:"みず", opts:["みず","おちゃ","にく","パン"], sSrc:"Water, please.",
    hint:"The basic word for cold drinking water."},
 
   {type:"mc", q:"パン came to Japanese from which language?", opts:["English","French","Portuguese","Spanish"], ans:"Portuguese",
@@ -161,7 +161,7 @@ const UNIT_05 = {
    exampleSrc:"A: Do you dislike vegetables?\nB: No, I like them!",
    funFact:"Saying kirai directly about someone's cooking is very rude. Japanese people prefer nigate (not good with) or chotto... (a little...). Daikirai (big + dislike = hate) is the nuclear option and mostly used by children or in dramatic situations."},
 
-  {type:"fb", s:"おすしが___です。\n(I like sushi.)", a:"すき", opts:["すき","きらい","おいしい","まずい"], sSrc:"I like sushi.",
+  {type:"fb", s:"おすしが{1}です。\n(I like sushi.)", a:"すき", opts:["すき","きらい","おいしい","まずい"], sSrc:"I like sushi.",
    hint:"The na-adjective meaning 'fond of' that uses ga, not wo."},
 
   {type:"teach", trg:"のみもの", src:"drink / beverage", pos:"noun", gender:null,
@@ -193,7 +193,7 @@ const UNIT_05 = {
    deepDive:{title:"Why ga instead of wo?",
     text:"In 'sushi ga suki desu,' sushi is technically the subject, not the object. The sentence literally means 'sushi is liked (by me).'\n\nThis is a common pattern with feelings and abilities:\nえいごが わかります。(English is understandable / I understand English.)\nおんがくが すきです。(Music is liked / I like music.)"}},
 
-  {type:"fb", s:"みずを___ます。\n(I drink water.)", a:"のみ", opts:["のみ","たべ","すき","きらい"], sSrc:"I drink water.",
+  {type:"fb", s:"みずを{1}ます。\n(I drink water.)", a:"のみ", opts:["のみ","たべ","すき","きらい"], sSrc:"I drink water.",
    hint:"The polite stem of the verb meaning 'to drink.'"},
 
   {type:"match", pairs:[{trg:"おいしい",src:"delicious"},{trg:"まずい",src:"bad-tasting"},{trg:"すき",src:"like"},{trg:"きらい",src:"dislike"}]},
@@ -203,7 +203,7 @@ const UNIT_05 = {
   {type:"mc", q:"のみもの means:", opts:["food","vegetable","fruit","drink"], ans:"drink",
    hint:"Nomu (the consuming-liquid verb) + mono (thing) = ?"},
 
-  {type:"fb", s:"___がすいた！\n(I am hungry!)", a:"おなか", opts:["おなか","のど","あたま","て"], sSrc:"I am hungry!",
+  {type:"fb", s:"{1}がすいた！\n(I am hungry!)", a:"おなか", opts:["おなか","のど","あたま","て"], sSrc:"I am hungry!",
    hint:"The body part that empties when you need to eat."},
 ]},
 

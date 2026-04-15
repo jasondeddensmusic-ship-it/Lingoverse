@@ -1,4 +1,4 @@
-// Unit 12 Expansion L4 — Workplace & Language Abilities
+// Unit 12 Expansion L4. Workplace & Language Abilities
 // Potential form in professional and linguistic contexts.
 
 const LESSON_4 = {id:"jav2_u12l4", title:"しごとのスキル", icon:"💼", xp:15, board:true, steps:[
@@ -45,7 +45,7 @@ const LESSON_4 = {id:"jav2_u12l4", title:"しごとのスキル", icon:"💼", x
    exampleSrc:"A: I can have simple conversations in Japanese.\nB: Amazing! How long have you studied?",
    funFact:"会話 combines 会 (meet) and 話 (talk). えいかいわ (English conversation) schools are big business in Japan. にちじょうかいわ (daily conversation) is the most practical language skill. The JLPT does not test speaking, so many learners study かいわ separately."},
 
-  {type:"fb", s:"にほんごでかんたんな___ができます。\n(I can have simple conversations in Japanese.)", a:"かいわ", opts:["かいわ","かんじ","ぶんぽう","さくぶん"], sSrc:"I can have simple conversations in Japanese.",
+  {type:"fb", s:"にほんごでかんたんな{1}ができます。\n(I can have simple conversations in Japanese.)", a:"かいわ", opts:["かいわ","かんじ","ぶんぽう","さくぶん"], sSrc:"I can have simple conversations in Japanese.",
    hint:"The word for a back-and-forth exchange of words between people."},
 
   {type:"teach", trg:"なおせる", src:"can fix / can correct", pos:"verb", gender:null,
@@ -69,7 +69,7 @@ const LESSON_4 = {id:"jav2_u12l4", title:"しごとのスキル", icon:"💼", x
    exampleSrc:"A: You are fluent in Japanese!\nB: No, not at all. I am still studying.",
    funFact:"ペラペラ is an onomatopoeia imitating the sound of pages flipping smoothly or speech flowing without stopping. It is always a compliment. Other language-related onomatopoeia: カタコト (broken/halting speech), ボソボソ (mumbling), ハキハキ (speaking clearly)."},
 
-  {type:"fb", s:"にほんごが___ですね！\n(You are fluent in Japanese!)", a:"ペラペラ", opts:["ペラペラ","ペコペコ","パラパラ","ボロボロ"], sSrc:"You are fluent in Japanese!",
+  {type:"fb", s:"にほんごが{1}ですね！\n(You are fluent in Japanese!)", a:"ペラペラ", opts:["ペラペラ","ペコペコ","パラパラ","ボロボロ"], sSrc:"You are fluent in Japanese!",
    hint:"The onomatopoeia for smooth, fluent language ability."},
 
   {type:"match", pairs:[{trg:"うんてんできる",src:"can drive"},{trg:"りょうりができる",src:"can cook"},{trg:"やくせる",src:"can translate"},{trg:"なおせる",src:"can fix"}]},
@@ -79,7 +79,7 @@ const LESSON_4 = {id:"jav2_u12l4", title:"しごとのスキル", icon:"💼", x
   {type:"mc", q:"つたえられる is the potential form of:", opts:["つたわる","つたえる","つたう","つたえない"], ans:"つたえる",
    hint:"Group 2 verbs form the potential by dropping る and adding られる."},
 
-  {type:"fb", s:"このにもつをひとりで___ますか？\n(Can you carry this luggage alone?)", a:"はこべ", opts:["はこべ","はこび","はこんで","はこぶ"], sSrc:"Can you carry this luggage alone?",
+  {type:"fb", s:"このにもつをひとりで{1}ますか？\n(Can you carry this luggage alone?)", a:"はこべ", opts:["はこべ","はこび","はこんで","はこぶ"], sSrc:"Can you carry this luggage alone?",
    hint:"Potential of はこぶ. Change ぶ (u-row) to べ (e-row), add る."},
 
   {type:"tip", title:"Talking About Your Skills",

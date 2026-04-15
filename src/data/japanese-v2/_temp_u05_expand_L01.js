@@ -1,4 +1,4 @@
-// Unit 05 Expansion L03 — Japanese Cuisine Vocabulary
+// Unit 05 Expansion L03. Japanese Cuisine Vocabulary
 const LESSON_3 = {
   id:"jav2_u5l3", title:"にほんりょうり", icon:"🍣", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_3 = {
      exampleSrc:"A: Do you have miso soup for breakfast?\nB: Yes, I have it every day.",
      funFact:"味噌 (miso, fermented soybean paste) + 汁 (shiru, soup/broth). Miso soup is so fundamental that 'miso soup's flavor' is said to be the taste of home. Everyone's mother makes it slightly differently. It is served at breakfast, lunch, and dinner."},
 
-    {type:"fb", s:"にほんで いちばん にんきの めんは ___です。",
+    {type:"fb", s:"にほんで いちばん にんきの めんは {1}です。",
      a:["ラーメン"],
      opts:["ラーメン","パスタ","うどん","パン"],
      hint:"This Chinese-origin noodle soup is Japan's most popular comfort food.",
@@ -104,7 +104,7 @@ const LESSON_3 = {
       {trg:"おべんとう", src:"bento / packed lunch"}
     ]},
 
-    {type:"fb", s:"あさごはんに___をのみます。",
+    {type:"fb", s:"あさごはんに{1}をのみます。",
      a:["みそしる"],
      opts:["みそしる","ラーメン","カレー","しょうゆ"],
      hint:"The fermented soybean soup served with almost every Japanese meal.",

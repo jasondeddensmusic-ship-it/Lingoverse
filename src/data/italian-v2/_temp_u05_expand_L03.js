@@ -1,4 +1,4 @@
-// Unit 05 Expansion — Lesson 6: Home Appliances & Utilities
+// Unit 05 Expansion. Lesson 6: Home Appliances & Utilities
 // Theme: Appliances, electronics, utilities in the home
 
 const LESSON_6 = {
@@ -108,7 +108,7 @@ const LESSON_6 = {
     {type:"mc", q:"What is 'il cellulare' in Italian?",
      opts:["A mobile phone","A cell (prison)","A small room","A tablet"],
      ans:"A mobile phone",
-     hint:"Named after the cellular network. Italians also use the English loanword for the touchscreen handheld device — both terms are interchangeable."},
+     hint:"Named after the cellular network. Italians also use the English loanword for the touchscreen handheld device. both terms are interchangeable."},
 
     {type:"fb", s:"Il computer e sulla {1}.",
      a:["scrivania"],

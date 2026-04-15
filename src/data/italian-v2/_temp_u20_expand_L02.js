@@ -1,4 +1,4 @@
-// Unit 20 Expansion — Lesson 5: Esami e valutazioni
+// Unit 20 Expansion. Lesson 5: Esami e valutazioni
 const LESSON_5 = {
   id:"itv2_u20l5", title:"Esami e valutazioni", icon:"📝", xp:15, board:true,
   steps:[

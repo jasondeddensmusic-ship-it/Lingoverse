@@ -1,6 +1,6 @@
-// Japanese V2 Unit 18 — しえき (Causative)
+// Japanese V2 Unit 18. しえき (Causative)
 import EXP_L3 from './_temp_u18_expand_L01.js';import EXP_L4 from './_temp_u18_expand_L02.js';import EXP_L5 from './_temp_u18_expand_L03.js';
-// Level: B1.1 — JLPT N3 aligned.
+// Level: B1.1. JLPT N3 aligned.
 // Causative formation (させる/あせる), make/let, causative-passive.
 
 const UNIT_18 = {
@@ -59,7 +59,7 @@ const UNIT_18 = {
    deepDive:{title:"Make vs. Let in Japanese",
     text:"Japanese causative covers both 'make' and 'let.' Context tells you which:\n\nMake (compulsion): こどもにやさいをたべさせる (make child eat veggies). The child does not want to.\n\nLet (permission): いかせてください (please let me go). The speaker wants to go.\n\nThe てあげる (do as a favor) and てくれる (do for me) patterns can clarify:\nたべさせてあげる = let someone eat (as a favor, permission).\nたべさせる alone is ambiguous, relying on context."}},
 
-  {type:"fb", s:"びょうきなので___てください。\n(I am sick, so please let me rest.)", a:"やすませ", opts:["やすませ","やすんで","やすみ","やすまれ"], sSrc:"I am sick, so please let me rest.",
+  {type:"fb", s:"びょうきなので{1}てください。\n(I am sick, so please let me rest.)", a:"やすませ", opts:["やすませ","やすんで","やすみ","やすまれ"], sSrc:"I am sick, so please let me rest.",
    hint:"The causative て-form of やすむ (to rest). Causative + てください asks for permission."},
 
   {type:"teach", trg:"てつだわせる", src:"to make someone help", pos:"verb", gender:null,
@@ -81,7 +81,7 @@ const UNIT_18 = {
 
   {type:"match", pairs:[{trg:"てつだわせる",src:"make help"},{trg:"はしらせる",src:"make run"},{trg:"させる",src:"causative of する"},{trg:"こさせる",src:"causative of くる"}]},
 
-  {type:"fb", s:"コーチがせんしゅを___ています。\n(The coach is making the athletes run.)", a:"はしらせ", opts:["はしらせ","はしって","はしり","はしられ"], sSrc:"The coach is making the athletes run.",
+  {type:"fb", s:"コーチがせんしゅを{1}ています。\n(The coach is making the athletes run.)", a:"はしらせ", opts:["はしらせ","はしって","はしり","はしられ"], sSrc:"The coach is making the athletes run.",
    hint:"The causative form of はしる (to run). Group 1: あ-row + せる."},
 
   {type:"mc", q:"How do you form the causative of する?", opts:["される","させられる","させる","すせる"], ans:"させる",
@@ -138,7 +138,7 @@ const UNIT_18 = {
    deepDive:{title:"Why the Short Form Exists",
     text:"The full causative-passive for Group 1 verbs creates tongue-twisting strings: またせられる (7 syllables). The short form またされる (5 syllables) is much easier to say.\n\nThe short form merges the causative せ into the passive され, creating あされる. This only works for Group 1 verbs. Group 2 verbs must use the full させられる.\n\nIn writing, both forms are acceptable. In speech, using the long form for Group 1 verbs sounds unnatural and overly formal."}},
 
-  {type:"fb", s:"2じかんも___ました。\n(I was made to wait for two whole hours.)", a:"まだされ", opts:["まだされ","またせて","まって","またされ"], sSrc:"I was made to wait for two whole hours.",
+  {type:"fb", s:"2じかんも{1}ました。\n(I was made to wait for two whole hours.)", a:"まだされ", opts:["まだされ","またせて","まって","またされ"], sSrc:"I was made to wait for two whole hours.",
    hint:"Short causative-passive of まつ. Group 1 shortcut: あ-row + される."},
 
   {type:"teach", trg:"やらされる", src:"to be made to do (short form)", pos:"verb", gender:null,
@@ -158,7 +158,7 @@ const UNIT_18 = {
 
   {type:"match", pairs:[{trg:"たべさせられる",src:"be made to eat"},{trg:"まだされる",src:"be made to wait"},{trg:"のまされる",src:"be made to drink"},{trg:"かわされる",src:"be made to buy"}]},
 
-  {type:"fb", s:"つまらないしごとを___います。\n(I am being made to do boring work.)", a:"やらされて", opts:["やらされて","やって","やらせて","やられて"], sSrc:"I am being made to do boring work.",
+  {type:"fb", s:"つまらないしごとを{1}います。\n(I am being made to do boring work.)", a:"やらされて", opts:["やらされて","やって","やらせて","やられて"], sSrc:"I am being made to do boring work.",
    hint:"The short causative-passive て-form of やる (to do). Expresses being forced."},
 
   {type:"match", pairs:[{trg:"やらされる",src:"be made to do"},{trg:"ざんぎょう",src:"overtime"},{trg:"がまんする",src:"to endure"},{trg:"させられる",src:"causative-passive of する"}]},

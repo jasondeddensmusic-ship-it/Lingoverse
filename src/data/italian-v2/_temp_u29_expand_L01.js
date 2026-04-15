@@ -1,4 +1,4 @@
-// Unit 29 Expansion — Lesson 4: Il pensiero cognitivo
+// Unit 29 Expansion. Lesson 4: Il pensiero cognitivo
 const LESSON_4 = {
   id:"itv2_u29l4", title:"Il pensiero cognitivo", icon:"🧩", xp:15, board:true,
   steps:[

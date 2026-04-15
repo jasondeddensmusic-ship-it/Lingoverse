@@ -1,4 +1,4 @@
-// Unit 23 Expansion — Lesson 4: Le istituzioni
+// Unit 23 Expansion. Lesson 4: Le istituzioni
 const LESSON_4 = {
   id:"itv2_u23l4", title:"Le istituzioni", icon:"🏛️", xp:15, board:true,
   steps:[

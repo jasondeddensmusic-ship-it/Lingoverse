@@ -1,4 +1,4 @@
-// Unit 32 Expansion — Lesson 5: La migrazione e l'accoglienza
+// Unit 32 Expansion. Lesson 5: La migrazione e l'accoglienza
 const LESSON_5 = {
   id:"itv2_u32l5", title:"La migrazione e l'accoglienza", icon:"🚢", xp:15, board:true,
   steps:[

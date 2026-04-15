@@ -1,4 +1,4 @@
-// Italian V2 Unit 12 Expansion — Lesson 5: Racconti di viaggio (Travel Narratives)
+// Italian V2 Unit 12 Expansion. Lesson 5: Racconti di viaggio (Travel Narratives)
 // Expands essere past tense unit with travel storytelling using movement verbs.
 
 const LESSON_5 = {id:"itv2_u12l5", title:"Racconti di viaggio", icon:"\uD83C\uDF0D", xp:15, board:true, steps:[

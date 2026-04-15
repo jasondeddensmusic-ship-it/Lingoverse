@@ -1,4 +1,4 @@
-// Italian V2 Unit 09 Expansion — Lesson 6: Pronto soccorso (First Aid & Emergencies)
+// Italian V2 Unit 09 Expansion. Lesson 6: Pronto soccorso (First Aid & Emergencies)
 // Expands health unit with emergency vocabulary, first aid, and body parts detail.
 
 const LESSON_6 = {id:"itv2_u9l6", title:"Pronto soccorso", icon:"\uD83D\uDE91", xp:15, board:true, steps:[

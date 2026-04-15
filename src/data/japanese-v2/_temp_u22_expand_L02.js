@@ -1,4 +1,4 @@
-// Unit 22 Expansion — Lesson 4: おかえし (Reciprocity & Return Gifts)
+// Unit 22 Expansion. Lesson 4: おかえし (Reciprocity & Return Gifts)
 const LESSON_4 = {
   id:"jav2_u22l4", title:"おかえし", icon:"🎀", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_4 = {
      exampleSrc:"A: What is the amount for a wedding cash gift?\nB: 30,000 yen is standard.",
      funFact:"金額 matters enormously in Japanese gift-giving. Wedding cash gifts (ご祝儀, goshuugi) follow strict rules: odd numbers only (10,000, 30,000, 50,000 yen), because even numbers can be divided (symbolizing separation). New, crisp bills must be used. The amount depends on your relationship to the couple. Getting the 金額 wrong is a social error."},
 
-    {type:"fb", s:"おいわいの___をおくらなければなりません。\n(I must send a return gift for the congratulatory gift.)", a:"おかえし", opts:["おかえし","おれい","おちゅうげん","おせいぼ"], sSrc:"I must send a return gift for the congratulatory gift.",
+    {type:"fb", s:"おいわいの{1}をおくらなければなりません。\n(I must send a return gift for the congratulatory gift.)", a:"おかえし", opts:["おかえし","おれい","おちゅうげん","おせいぼ"], sSrc:"I must send a return gift for the congratulatory gift.",
      hint:"The specific word for a reciprocal gift given in response to receiving one."},
 
     {type:"teach", trg:"おいわい", src:"celebration / congratulatory gift", pos:"noun", gender:null,
@@ -73,7 +73,7 @@ const LESSON_4 = {
 
     {type:"match", pairs:[{trg:"つつむ",src:"to wrap"},{trg:"のし",src:"decorative gift strip"},{trg:"きんがく",src:"amount of money"},{trg:"おいわい",src:"celebration/gift"}]},
 
-    {type:"fb", s:"きれいに___いただけますか？\n(Could you wrap it beautifully please?)", a:"つつんで", opts:["つつんで","おくって","わたして","あげて"], sSrc:"Could you wrap it beautifully please?",
+    {type:"fb", s:"きれいに{1}いただけますか？\n(Could you wrap it beautifully please?)", a:"つつんで", opts:["つつんで","おくって","わたして","あげて"], sSrc:"Could you wrap it beautifully please?",
      hint:"The te-form of the verb meaning 'to wrap,' combined with いただけますか for politeness."},
 
     {type:"mc", q:"のし is:", opts:["a type of candy","a decorative paper strip on formal gifts","a greeting card","a cash envelope"], ans:"a decorative paper strip on formal gifts",

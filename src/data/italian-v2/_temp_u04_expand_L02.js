@@ -1,4 +1,4 @@
-// Unit 04 Expansion — Lesson 4: At the Restaurant
+// Unit 04 Expansion. Lesson 4: At the Restaurant
 // Theme: Restaurant vocabulary, ordering a full meal, restaurant etiquette
 
 const LESSON_4 = {

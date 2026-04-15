@@ -1,5 +1,5 @@
-// Japanese V2 Unit 15 — ほうこう (Directions & Movement)
-// Level: A2.2 — JLPT N4 aligned.
+// Japanese V2 Unit 15. ほうこう (Directions & Movement)
+// Level: A2.2. JLPT N4 aligned.
 import JEXP_15_L1 from './_temp_u15_expand_L01.js';import JEXP_15_L2 from './_temp_u15_expand_L02.js';import JEXP_15_L3 from './_temp_u15_expand_L03.js';
 // Directions, before/after, while doing, transport vocabulary.
 
@@ -54,7 +54,7 @@ const UNIT_15 = {
    exampleSrc:"A: Cross at the traffic light and go straight.\nB: Thank you.",
    funFact:"Japanese traffic lights use the word あお (blue) for the green light, even though modern lights are green. This is because historically, Japanese used あお for both blue and green. The 'green' light is still officially called あおしんごう (blue signal)."},
 
-  {type:"fb", s:"つぎのかどを___にまがってください。\n(Please turn left at the next corner.)", a:"ひだり", opts:["ひだり","みぎ","まっすぐ","うしろ"], sSrc:"Please turn left at the next corner.",
+  {type:"fb", s:"つぎのかどを{1}にまがってください。\n(Please turn left at the next corner.)", a:"ひだり", opts:["ひだり","みぎ","まっすぐ","うしろ"], sSrc:"Please turn left at the next corner.",
    hint:"The direction word for the opposite side of right."},
 
   {type:"teach", trg:"きっぷ", src:"ticket", pos:"noun", gender:null,
@@ -82,7 +82,7 @@ const UNIT_15 = {
 
   {type:"match", pairs:[{trg:"わたる",src:"to cross"},{trg:"きっぷ",src:"ticket"},{trg:"のりかえ",src:"transfer"},{trg:"のりば",src:"platform"}]},
 
-  {type:"fb", s:"このはしを___ください。\n(Please cross this bridge.)", a:"わたって", opts:["わたって","まがって","あるいて","のって"], sSrc:"Please cross this bridge.",
+  {type:"fb", s:"このはしを{1}ください。\n(Please cross this bridge.)", a:"わたって", opts:["わたって","まがって","あるいて","のって"], sSrc:"Please cross this bridge.",
    hint:"The て-form of the verb meaning 'to cross' roads, bridges, etc."},
 
   {type:"mc", q:"しんごう means:", opts:["corner","bridge","traffic light","station"], ans:"traffic light",
@@ -134,7 +134,7 @@ const UNIT_15 = {
    exampleSrc:"A: Let us talk while walking to the station.\nB: Sounds good.",
    funFact:"歩く shows the kanji 歩 (step), which depicts two feet alternating. Walking culture is strong in Japan: most people walk 7,000-10,000 steps daily. あるきスマホ (walking while looking at your phone) has become a social issue, with warning signs in many stations."},
 
-  {type:"fb", s:"ごはんをたべた___でさんぽします。\n(I take a walk after eating.)", a:"あと", opts:["あと","まえ","あいだ","とき"], sSrc:"I take a walk after eating.",
+  {type:"fb", s:"ごはんをたべた{1}でさんぽします。\n(I take a walk after eating.)", a:"あと", opts:["あと","まえ","あいだ","とき"], sSrc:"I take a walk after eating.",
    hint:"The word meaning 'after' that follows the た-form."},
 
   {type:"teach", trg:"でかける", src:"to go out / to leave", pos:"verb", gender:null,
@@ -156,7 +156,7 @@ const UNIT_15 = {
 
   {type:"match", pairs:[{trg:"はをみがく",src:"brush teeth"},{trg:"シャワーをあびる",src:"take a shower"},{trg:"でかける",src:"go out"},{trg:"つく",src:"to arrive"}]},
 
-  {type:"fb", s:"おんがくをきき___べんきょうします。\n(I study while listening to music.)", a:"ながら", opts:["ながら","まえに","あとで","あいだ"], sSrc:"I study while listening to music.",
+  {type:"fb", s:"おんがくをきき{1}べんきょうします。\n(I study while listening to music.)", a:"ながら", opts:["ながら","まえに","あとで","あいだ"], sSrc:"I study while listening to music.",
    hint:"The pattern for doing two things simultaneously, attached to the verb stem."},
 
   {type:"mc", q:"でかけるまえにまどをしめる means:", opts:["Close windows after going out","Open windows before going out","Close windows before going out","Close windows while going out"], ans:"Close windows before going out",

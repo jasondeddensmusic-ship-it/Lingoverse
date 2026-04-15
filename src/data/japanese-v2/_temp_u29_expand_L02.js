@@ -1,4 +1,4 @@
-// Unit 29 Expansion — Lesson 4: Economic Policy
+// Unit 29 Expansion. Lesson 4: Economic Policy
 const LESSON_4 = {
   id:"jav2_u29l4", title:"けいざいせいさく", icon:"🏛️", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_4 = {
      exampleSrc:"A: There are many openings but not enough talent.\nB: Japan's labor shortage is serious.",
      funFact:"求人 literally means 'seeking people.' The ゆうこうきゅうじんばいりつ (effective job openings-to-applicants ratio) is a key economic indicator. When it exceeds 1.0, there are more jobs than applicants. Japan's ratio has been above 1.0 for years due to demographic decline. Hello Work (ハローワーク), the public employment office, processes millions of きゅうじん annually."},
 
-    {type:"fb", s:"しょうひぜいが___パーセントになりました。\n(The consumption tax became 10%.)", a:"じゅっ", opts:["じゅっ","ご","はち","さん"], sSrc:"The consumption tax became 10%.",
+    {type:"fb", s:"しょうひぜいが{1}パーセントになりました。\n(The consumption tax became 10%.)", a:"じゅっ", opts:["じゅっ","ご","はち","さん"], sSrc:"The consumption tax became 10%.",
      hint:"The number 10 in Japanese, read with the abbreviated form before パーセント."},
 
     {type:"teach", trg:"けいきしげき", src:"economic stimulus", pos:"noun", gender:null,
@@ -63,12 +63,12 @@ const LESSON_4 = {
      exampleSrc:"A: Japan is the country where aging is most advanced in the world.\nB: Social security costs keep increasing.",
      funFact:"高齢化 is Japan's defining demographic challenge. About 30% of the population is over 65, the highest ratio globally. The combined term しょうしこうれいか (少子高齢化, few children + aging) describes the dual problem. Japan is a living laboratory for how societies handle demographic decline: robot caregivers, empty rural villages, and a shrinking tax base."},
 
-    {type:"fb", s:"こうれいかで___がへっています。\n(The labor force is shrinking due to aging.)", a:"ろうどうりょく", opts:["ろうどうりょく","きゅうじん","こよう","けいき"], sSrc:"The labor force is shrinking due to aging.",
+    {type:"fb", s:"こうれいかで{1}がへっています。\n(The labor force is shrinking due to aging.)", a:"ろうどうりょく", opts:["ろうどうりょく","きゅうじん","こよう","けいき"], sSrc:"The labor force is shrinking due to aging.",
      hint:"The compound noun for the human power available for work in an economy."},
 
     {type:"match", pairs:[{trg:"ざいせい",src:"government finances"},{trg:"ぜいきん",src:"tax"},{trg:"こくさい",src:"government bonds"},{trg:"こよう",src:"employment"}]},
 
-    {type:"fb", s:"せいふは___さくをはっぴょうしました。\n(The government announced economic stimulus measures.)", a:"けいきしげき", opts:["けいきしげき","けいざいせいさく","ざいせいけんぜん","きんゆうかんわ"], sSrc:"The government announced economic stimulus measures.",
+    {type:"fb", s:"せいふは{1}さくをはっぴょうしました。\n(The government announced economic stimulus measures.)", a:"けいきしげき", opts:["けいきしげき","けいざいせいさく","ざいせいけんぜん","きんゆうかんわ"], sSrc:"The government announced economic stimulus measures.",
      hint:"The two-word compound for boosting economic conditions through active intervention."},
 
     {type:"match", pairs:[{trg:"きゅうじん",src:"job opening"},{trg:"けいきしげき",src:"economic stimulus"},{trg:"ろうどうりょく",src:"labor force"},{trg:"こうれいか",src:"aging population"}]},

@@ -1,4 +1,4 @@
-// Unit 32 Expansion — Lesson 4: Le relazioni internazionali
+// Unit 32 Expansion. Lesson 4: Le relazioni internazionali
 const LESSON_4 = {
   id:"itv2_u32l4", title:"Le relazioni internazionali", icon:"🤝", xp:15, board:true,
   steps:[

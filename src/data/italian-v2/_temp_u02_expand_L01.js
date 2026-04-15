@@ -1,4 +1,4 @@
-// Unit 02 Expansion — Lesson 3: Telling Time
+// Unit 02 Expansion. Lesson 3: Telling Time
 // Theme: Clock time, hours, minutes, time-related expressions
 
 const LESSON_3 = {

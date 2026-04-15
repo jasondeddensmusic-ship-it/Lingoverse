@@ -1,4 +1,4 @@
-// Japanese V2 Unit 01 — Greetings & Basics (A1.1)
+// Japanese V2 Unit 01. Greetings & Basics (A1.1)
 // First Japanese content unit. JLPT N5 aligned.
 import JEXP_01_L1 from './_temp_u01_expand_L01.js';import JEXP_01_L2 from './_temp_u01_expand_L02.js';import JEXP_01_L3 from './_temp_u01_expand_L03.js';import JEXP_01_L4 from './_temp_u01_expand_L04.js';
 

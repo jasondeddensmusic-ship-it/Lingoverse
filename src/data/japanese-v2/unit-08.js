@@ -1,5 +1,5 @@
-// Japanese V2 Unit 08 — ばしょ (Places & Location)
-// Level: A1.3 — JLPT N5 aligned.
+// Japanese V2 Unit 08. ばしょ (Places & Location)
+// Level: A1.3. JLPT N5 aligned.
 // Places, location words, arimasu vs imasu.
 
 const UNIT_08 = {
@@ -59,7 +59,7 @@ const UNIT_08 = {
    exampleSrc:"A: Is there a convenience store nearby?\nB: Yes, there is one in front of the station.",
    funFact:"Arimasu is one of the two existence verbs. It handles everything that cannot move on its own: books, buildings, mountains, trees, events. Even abstract things use arimasu: jikan ga arimasu (I have time), mondai ga arimasu (there is a problem)."},
 
-  {type:"fb", s:"えきは___ですか？\n(Where is the station?)", a:"どこ", opts:["どこ","なに","だれ","いくら"], sSrc:"Where is the station?",
+  {type:"fb", s:"えきは{1}ですか？\n(Where is the station?)", a:"どこ", opts:["どこ","なに","だれ","いくら"], sSrc:"Where is the station?",
    hint:"The question word asking about location or place."},
 
   {type:"teach", trg:"います", src:"to exist / there is (animate)", pos:"verb", gender:null,
@@ -81,7 +81,7 @@ const UNIT_08 = {
 
   {type:"match", pairs:[{trg:"こうえん",src:"park"},{trg:"デパート",src:"department store"},{trg:"あります",src:"exists (object)"},{trg:"います",src:"exists (person)"}]},
 
-  {type:"fb", s:"こうえんにこどもが___。\n(There are children in the park.)", a:"います", opts:["います","あります","いきます","きます"], sSrc:"There are children in the park.",
+  {type:"fb", s:"こうえんにこどもが{1}。\n(There are children in the park.)", a:"います", opts:["います","あります","いきます","きます"], sSrc:"There are children in the park.",
    hint:"Children are living things that move, so use the animate existence verb."},
 
   {type:"mc", q:"ゆうびんきょく means:", opts:["bank","hospital","post office","school"], ans:"post office",
@@ -91,6 +91,9 @@ const UNIT_08 = {
    text:"あります (arimasu) = inanimate things:\nほんがあります。(There is a book.)\nえきがあります。(There is a station.)\n\nいます (imasu) = animate things:\nひとがいます。(There is a person.)\nねこがいます。(There is a cat.)\n\nPattern: [place] に [thing] が あります/います。",
    deepDive:{title:"Edge cases",
     text:"Tricky cases for the arimasu/imasu split:\n\nPlants: あります (they do not move)\nFish in a tank: います (they swim)\nFish on a plate: あります (it is food now)\nRobots: あります (machines)\nTaxi: あります (it is a vehicle, even with a driver)\n\nWhen in doubt: can it walk away on its own? If yes, imasu. If no, arimasu."}},
+
+  {type:"mc", q:"デパート means:", opts:["convenience store","supermarket","bookshop","department store"], ans:"department store",
+   hint:"A katakana loanword from English, known for luxury goods and the famous basement food halls."},
 ]},
 
 // ═══ L2: うえとした (Above & Below) ═══
@@ -144,7 +147,7 @@ const UNIT_08 = {
    exampleSrc:"A: What is next to the bank?\nB: There is a post office.",
    funFact:"隣 is a complex kanji meaning 'neighboring.' Tonari no Totoro (My Neighbor Totoro) is one of the most famous uses. In Japanese apartments, your tonari (neighbor) relationship is important. It is customary to greet new neighbors with a small gift."},
 
-  {type:"fb", s:"ねこはテーブルの___にいます。\n(The cat is under the table.)", a:"した", opts:["した","うえ","なか","まえ"], sSrc:"The cat is under the table.",
+  {type:"fb", s:"ねこはテーブルの{1}にいます。\n(The cat is under the table.)", a:"した", opts:["した","うえ","なか","まえ"], sSrc:"The cat is under the table.",
    hint:"The location word meaning 'below' or 'underneath.'"},
 
   {type:"teach", trg:"ちかく", src:"near / nearby", pos:"noun", gender:null,
@@ -166,7 +169,7 @@ const UNIT_08 = {
 
   {type:"match", pairs:[{trg:"まえ",src:"in front of"},{trg:"うしろ",src:"behind"},{trg:"となり",src:"next to"},{trg:"ちかく",src:"near"}]},
 
-  {type:"fb", s:"ぎんこうの___にゆうびんきょくがあります。\n(The post office is next to the bank.)", a:"となり", opts:["となり","うえ","した","なか"], sSrc:"The post office is next to the bank.",
+  {type:"fb", s:"ぎんこうの{1}にゆうびんきょくがあります。\n(The post office is next to the bank.)", a:"となり", opts:["となり","うえ","した","なか"], sSrc:"The post office is next to the bank.",
    hint:"The location word for things immediately adjacent to each other."},
 
   {type:"mc", q:"Which pattern is correct for 'between A and B'?", opts:["A の B のあいだ","A に B のあいだ","A と B のあいだ","A は B のあいだ"], ans:"A と B のあいだ",

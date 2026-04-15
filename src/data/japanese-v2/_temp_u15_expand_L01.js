@@ -1,4 +1,4 @@
-// Unit 15 Expansion L3 — Detailed Navigation
+// Unit 15 Expansion L3. Detailed Navigation
 // Complex directions, landmarks, asking for help.
 
 const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:"📍", xp:15, board:true, steps:[
@@ -45,7 +45,7 @@ const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:
    exampleSrc:"A: The restaurant is across from the station.\nB: On the opposite side of the street in front of the station?",
    funFact:"向かい comes from 向く (to face). It describes things on opposite sides, typically of a street. むかいのいえ (the house across the street) is how Japanese people often describe their neighbors. Japan's block-based address system makes relative positions (next to, across from) crucial."},
 
-  {type:"fb", s:"コンビニの___にゆうびんきょくがあります。\n(There is a post office next to the convenience store.)", a:"となり", opts:["となり","まえ","うしろ","うえ"], sSrc:"There is a post office next to the convenience store.",
+  {type:"fb", s:"コンビニの{1}にゆうびんきょくがあります。\n(There is a post office next to the convenience store.)", a:"となり", opts:["となり","まえ","うしろ","うえ"], sSrc:"There is a post office next to the convenience store.",
    hint:"The word for 'adjacent/next door' for things side by side."},
 
   {type:"teach", trg:"あいだ", src:"between / in between", pos:"noun", gender:null,
@@ -75,7 +75,7 @@ const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:
    exampleSrc:"A: Is there a convenience store nearby?\nB: Yes, there is one at that corner.",
    funFact:"近く is the noun form of 近い (close). このちかくに... (around here, is there a...) is one of the most practical travel phrases. Japanese people are generally very helpful when asked for directions, often walking with you partway to your destination."},
 
-  {type:"fb", s:"すみません、___になってしまいました。\n(Excuse me, I have gotten lost.)", a:"まいご", opts:["まいご","まよい","まえ","まがり"], sSrc:"Excuse me, I have gotten lost.",
+  {type:"fb", s:"すみません、{1}になってしまいました。\n(Excuse me, I have gotten lost.)", a:"まいご", opts:["まいご","まよい","まえ","まがり"], sSrc:"Excuse me, I have gotten lost.",
    hint:"The word for a person who has lost their way."},
 
   {type:"match", pairs:[{trg:"かど",src:"corner"},{trg:"こうさてん",src:"intersection"},{trg:"つきあたり",src:"dead end"},{trg:"コンビニ",src:"convenience store"}]},
@@ -85,7 +85,7 @@ const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:
   {type:"mc", q:"なにかめじるしはありますか means:", opts:["What is the address?","Is there a landmark?","Where is the station?","How far is it?"], ans:"Is there a landmark?",
    hint:"めじるし is a visual reference point used for navigation."},
 
-  {type:"fb", s:"レストランはえきの___にあります。\n(The restaurant is across from the station.)", a:"むかい", opts:["むかい","となり","ちかく","うしろ"], sSrc:"The restaurant is across from the station.",
+  {type:"fb", s:"レストランはえきの{1}にあります。\n(The restaurant is across from the station.)", a:"むかい", opts:["むかい","となり","ちかく","うしろ"], sSrc:"The restaurant is across from the station.",
    hint:"The positional word for things on the opposite side, facing each other."},
 
   {type:"tip", title:"Giving Detailed Directions",

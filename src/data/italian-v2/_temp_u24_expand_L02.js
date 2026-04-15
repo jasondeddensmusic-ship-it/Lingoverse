@@ -1,4 +1,4 @@
-// Unit 24 Expansion — Lesson 5: Il tipo 3 e le condizioni miste
+// Unit 24 Expansion. Lesson 5: Il tipo 3 e le condizioni miste
 const LESSON_5 = {
   id:"itv2_u24l5", title:"Il tipo 3 e le condizioni miste", icon:"🔗", xp:15, board:true,
   steps:[

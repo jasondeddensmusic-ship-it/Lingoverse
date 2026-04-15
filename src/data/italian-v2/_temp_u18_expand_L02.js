@@ -1,4 +1,4 @@
-// Unit 18 Expansion — Lesson 5: Sustainability and Recycling Culture
+// Unit 18 Expansion. Lesson 5: Sustainability and Recycling Culture
 const LESSON_5 = {
   id:"itv2_u18l5", title:"Vita sostenibile", icon:"♻️", xp:15, board:true,
   steps:[

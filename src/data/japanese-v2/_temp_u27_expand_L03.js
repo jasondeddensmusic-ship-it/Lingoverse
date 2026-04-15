@@ -1,4 +1,4 @@
-// Unit 27 Expansion — Lesson 5: Environmental Policy
+// Unit 27 Expansion. Lesson 5: Environmental Policy
 const LESSON_5 = {
   id:"jav2_u27l5", title:"かんきょうせいさく", icon:"📜", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_5 = {
      exampleSrc:"A: Environmental education is indispensable for a sustainable society.\nB: Education from childhood is important.",
      funFact:"不可欠 is a formal three-character compound: not + possible + lacking. You cannot lack it. This word is a step above ひつよう (necessary). Editorials and policy papers use ふかけつ to signal absolute necessity. The similar ぜったいにひつよう (absolutely necessary) is less formal. ふかけつ belongs to written and formal spoken Japanese."},
 
-    {type:"fb", s:"もくひょうの___にはこくさいきょうりょくがふかけつです。\n(International cooperation is essential for achieving the goal.)", a:"たっせい", opts:["たっせい","きせい","さくげん","もくひょう"], sSrc:"International cooperation is essential for achieving the goal.",
+    {type:"fb", s:"もくひょうの{1}にはこくさいきょうりょくがふかけつです。\n(International cooperation is essential for achieving the goal.)", a:"たっせい", opts:["たっせい","きせい","さくげん","もくひょう"], sSrc:"International cooperation is essential for achieving the goal.",
      hint:"The noun meaning to reach and accomplish a set objective."},
 
     {type:"teach", trg:"こくさいきょうりょく", src:"international cooperation", pos:"noun", gender:null,
@@ -63,12 +63,12 @@ const LESSON_5 = {
      exampleSrc:"A: Energy-saving technology is Japan's specialty.\nB: It is being exported worldwide.",
      funFact:"Japan is a global leader in しょうエネ technology. After the oil crises of the 1970s, Japan invested heavily in energy efficiency. The result: Japan's GDP-per-unit-of-energy is among the best in the world. The government runs a Top Runner program where the most efficient appliance sets the standard that all manufacturers must meet within a few years."},
 
-    {type:"fb", s:"にほんのぎじゅつはかんきょうほごに___できます。\n(Japanese technology can contribute to environmental protection.)", a:"こうけん", opts:["こうけん","きせい","たっせい","さくげん"], sSrc:"Japanese technology can contribute to environmental protection.",
+    {type:"fb", s:"にほんのぎじゅつはかんきょうほごに{1}できます。\n(Japanese technology can contribute to environmental protection.)", a:"こうけん", opts:["こうけん","きせい","たっせい","さくげん"], sSrc:"Japanese technology can contribute to environmental protection.",
      hint:"The noun meaning offering tribute or making a meaningful positive impact."},
 
     {type:"match", pairs:[{trg:"きせい",src:"regulation"},{trg:"じょうやく",src:"treaty"},{trg:"もくひょう",src:"goal/target"},{trg:"たっせい",src:"achievement"}]},
 
-    {type:"fb", s:"かんきょうきょういくはじぞくかのうなしゃかいに___です。\n(Environmental education is indispensable for a sustainable society.)", a:"ふかけつ", opts:["ふかけつ","ひつよう","じゅうよう","かのう"], sSrc:"Environmental education is indispensable for a sustainable society.",
+    {type:"fb", s:"かんきょうきょういくはじぞくかのうなしゃかいに{1}です。\n(Environmental education is indispensable for a sustainable society.)", a:"ふかけつ", opts:["ふかけつ","ひつよう","じゅうよう","かのう"], sSrc:"Environmental education is indispensable for a sustainable society.",
      hint:"The formal adjective meaning something that absolutely cannot be absent."},
 
     {type:"match", pairs:[{trg:"こくさいきょうりょく",src:"international cooperation"},{trg:"こうけん",src:"contribution"},{trg:"しょうエネ",src:"energy saving"},{trg:"ふかけつ",src:"indispensable"}]},

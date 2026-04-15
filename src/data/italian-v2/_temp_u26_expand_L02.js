@@ -1,4 +1,4 @@
-// Unit 26 Expansion — Lesson 5: I diritti civili
+// Unit 26 Expansion. Lesson 5: I diritti civili
 const LESSON_5 = {
   id:"itv2_u26l5", title:"I diritti civili", icon:"✊", xp:15, board:true,
   steps:[

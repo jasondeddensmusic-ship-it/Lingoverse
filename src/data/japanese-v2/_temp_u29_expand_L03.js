@@ -1,4 +1,4 @@
-// Unit 29 Expansion — Lesson 5: Trade & Global Economy
+// Unit 29 Expansion. Lesson 5: Trade & Global Economy
 const LESSON_5 = {
   id:"jav2_u29l5", title:"ぼうえきとせかいけいざい", icon:"🌐", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_5 = {
      exampleSrc:"A: Markets are in turmoil due to rapid yen depreciation.\nB: How are investors responding?",
      funFact:"混乱 uses 混 (mix/confuse) and 乱 (disorder). It describes situations where normal order breaks down. Financial markets experience こんらん during crises. Supply chains experience こんらん during disruptions. The related word パニック (panic) is used for more extreme cases. Good leaders are praised for こんらんをおさめる (restoring order from chaos)."},
 
-    {type:"fb", s:"パンデミックで___がこんらんしました。\n(The pandemic disrupted supply chains.)", a:"サプライチェーン", opts:["サプライチェーン","ぼうえき","しじょう","きんゆう"], sSrc:"The pandemic disrupted supply chains.",
+    {type:"fb", s:"パンデミックで{1}がこんらんしました。\n(The pandemic disrupted supply chains.)", a:"サプライチェーン", opts:["サプライチェーン","ぼうえき","しじょう","きんゆう"], sSrc:"The pandemic disrupted supply chains.",
      hint:"The English loanword for the network of production and distribution steps."},
 
     {type:"teach", trg:"グローバルか", src:"globalization", pos:"noun", gender:null,
@@ -69,7 +69,7 @@ const LESSON_5 = {
      exampleSrc:"A: The semiconductor shortage became a global problem.\nB: It also affected car production.",
      funFact:"半導体 literally means 'half-conductor,' a material that partly conducts electricity. Japan dominated はんどうたい production in the 1980s with over 50% global market share. That share fell dramatically due to competition from South Korea and Taiwan. Japan is now investing heavily to rebuild its はんどうたい industry with the TSMC factory in Kumamoto."},
 
-    {type:"fb", s:"にほんきぎょうの___をたかめるひつようがあります。\n(We need to strengthen the competitiveness of Japanese companies.)", a:"きょうそうりょく", opts:["きょうそうりょく","えいきょう","ぼうえき","サプライチェーン"], sSrc:"We need to strengthen the competitiveness of Japanese companies.",
+    {type:"fb", s:"にほんきぎょうの{1}をたかめるひつようがあります。\n(We need to strengthen the competitiveness of Japanese companies.)", a:"きょうそうりょく", opts:["きょうそうりょく","えいきょう","ぼうえき","サプライチェーン"], sSrc:"We need to strengthen the competitiveness of Japanese companies.",
      hint:"The compound noun combining competition with power, measuring market strength."},
 
     {type:"match", pairs:[{trg:"ぼうえき",src:"trade"},{trg:"きょうてい",src:"agreement/pact"},{trg:"かんぜい",src:"tariff"},{trg:"サプライチェーン",src:"supply chain"}]},

@@ -1,4 +1,4 @@
-// Unit 25 Expansion — Lesson 6: Indicatori economici
+// Unit 25 Expansion. Lesson 6: Indicatori economici
 const LESSON_6 = {
   id:"itv2_u25l6", title:"Indicatori economici", icon:"📉", xp:15, board:true,
   steps:[

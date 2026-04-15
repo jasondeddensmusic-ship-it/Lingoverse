@@ -1,4 +1,4 @@
-// Unit 01 Expansion L06 — Parting Phrases & Farewells
+// Unit 01 Expansion L06. Parting Phrases & Farewells
 const LESSON_6 = {
   id:"jav2_u1l6", title:"わかれのことば", icon:"👋", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_6 = {
      exampleSrc:"A: I have an exam tomorrow.\nB: Do your best!",
      funFact:"Ganbaru (to persist/endure) is a core Japanese value. Ganbatte is said before exams, sports games, work projects, and any challenge. Some critics note it can pressure people to overwork. Still, it remains one of the most encouraging things you can say."},
 
-    {type:"fb", s:"びょうきのひとに、___と言います。",
+    {type:"fb", s:"びょうきのひとに、{1}と言います。",
      a:["おだいじに"],
      opts:["おだいじに","がんばって","きをつけて","おめでとう"],
      hint:"The farewell specifically for someone who is unwell, wishing them good health.",
@@ -110,7 +110,7 @@ const LESSON_6 = {
       {trg:"おげんきで", src:"Stay well"}
     ]},
 
-    {type:"fb", s:"12月に言う特別なあいさつは___です。",
+    {type:"fb", s:"12月に言う特別なあいさつは{1}です。",
      a:["よいおとしを"],
      opts:["よいおとしを","あけましておめでとう","おげんきで","さようなら"],
      hint:"The seasonal farewell used exclusively in late December before the new year arrives.",

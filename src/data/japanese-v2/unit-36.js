@@ -1,5 +1,5 @@
-// Japanese V2 Unit 36 — そうかつ (Comprehensive Review)
-// Level: B2.4 — JLPT N2/N1 aligned.
+// Japanese V2 Unit 36. そうかつ (Comprehensive Review)
+// Level: B2.4. JLPT N2/N1 aligned.
 // Cross-domain review: philosophy, law, medicine, literature, international relations, technology.
 
 const UNIT_36 = {
@@ -80,6 +80,9 @@ const UNIT_36 = {
 
   {type:"mc", q:"にもかかわらず expresses:", opts:["cause and effect","addition","concession (despite)","time sequence"], ans:"concession (despite)",
    hint:"This connector introduces an unexpected result that contradicts what came before."},
+
+  {type:"mc", q:"じじつにもとづく means:", opts:["unrelated to facts","contrary to facts","in spite of facts","based on facts"], ans:"based on facts",
+   hint:"もとづく means 'to be grounded in,' and じじつ is the word for 'facts.'"},
 ]},
 
 // ═══ L2: Cross-Domain Synthesis & Exam Preparation ═══
@@ -160,6 +163,21 @@ const UNIT_36 = {
 
   {type:"mc", q:"Which pair of connectors shows contrast vs. cause-effect?", opts:["すなわち / むしろ","したがって / すなわち","いっぽう / したがって","むしろ / いわゆる"], ans:"いっぽう / したがって",
    hint:"One means 'on the other hand' (contrast) and the other means 'therefore' (logical consequence)."},
+
+  {type:"mc", q:"こうしきなけんかいをしめす means:", opts:["to hide an official view","to request an official view","to change an official view","to express an official view"], ans:"to express an official view",
+   hint:"しめす means 'to show' or 'to indicate,' and けんかい is a considered, formal opinion."},
+
+  {type:"fb", s:"このほうりつはすべてのこくみんに{1}されます。\n(This law applies to all citizens.)", a:"てきよう", opts:["てきよう","はいけい","とうごう","ちくせき"], sSrc:"This law applies to all citizens.",
+   hint:"The noun meaning 'application,' used when a law or rule is put into effect for a specific case."},
+
+  {type:"mc", q:"いりょうとテクノロジーのとうごう means:", opts:["integration of medicine and technology","competition between medicine and technology","difference between medicine and technology","history of medicine and technology"], ans:"integration of medicine and technology",
+   hint:"とうごう combines 'unite' and 'combine,' describing the merging of two domains into a unified whole."},
+
+  {type:"mc", q:"ちしきのちくせき means:", opts:["loss of knowledge","accumulation of knowledge","testing of knowledge","transfer of knowledge"], ans:"accumulation of knowledge",
+   hint:"ちくせき combines two kanji both meaning 'to store/pile up,' and ちしき means knowledge."},
+
+  {type:"mc", q:"きょうようがある describes a person who:", opts:["is highly specialized in one field","has a university degree","is well-educated and broadly cultured","works in academia"], ans:"is well-educated and broadly cultured",
+   hint:"きょうよう refers to breadth of cultural and intellectual knowledge, not just one field of expertise."},
 
   {type:"tip", title:"B2 Completion: Your Japanese Toolkit",
    text:"Congratulations on reaching the end of B2. You now have vocabulary across six major domains:\n\n1. てつがく: そんざい, がいねん, ろんり, ほんしつ, かち\n2. ほうりつ: けんぽう, さいばん, けんり, ぎむ, はんけつ\n3. いがく: しんさつ, ちりょう, しゅじゅつ, めんえき, いでんし\n4. ぶんがく: さっか, しょうせつ, し, ひゆ, むじょう\n5. こくさいかんけい: がいこう, ふんそう, こうしょう, じょうやく\n6. じょうほうしゃかい: じんこうちのう, プライバシー, サイバーこうげき\n\nPlus formal connectors: すなわち, いっぽう, したがって, にもかかわらず",

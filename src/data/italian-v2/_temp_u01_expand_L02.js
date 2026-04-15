@@ -1,4 +1,4 @@
-// Unit 01 Expansion — Lesson 4: Polite Phrases
+// Unit 01 Expansion. Lesson 4: Polite Phrases
 // Theme: Essential courtesy expressions for daily interactions
 
 const LESSON_4 = {

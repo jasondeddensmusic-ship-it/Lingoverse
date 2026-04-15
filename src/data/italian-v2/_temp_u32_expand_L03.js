@@ -1,4 +1,4 @@
-// Unit 32 Expansion — Lesson 6: Lo scambio culturale e il futuro
+// Unit 32 Expansion. Lesson 6: Lo scambio culturale e il futuro
 const LESSON_6 = {
   id:"itv2_u32l6", title:"Lo scambio culturale e il futuro", icon:"🌐", xp:15, board:true,
   steps:[

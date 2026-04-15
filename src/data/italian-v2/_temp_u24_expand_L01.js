@@ -1,4 +1,4 @@
-// Unit 24 Expansion — Lesson 4: Il periodo ipotetico di tipo 2
+// Unit 24 Expansion. Lesson 4: Il periodo ipotetico di tipo 2
 const LESSON_4 = {
   id:"itv2_u24l4", title:"Esercizi: tipo 1 e 2", icon:"🔄", xp:15, board:true,
   steps:[

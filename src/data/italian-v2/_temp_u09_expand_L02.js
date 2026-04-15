@@ -1,4 +1,4 @@
-// Italian V2 Unit 09 Expansion — Lesson 5: I sintomi (Symptoms in Detail)
+// Italian V2 Unit 09 Expansion. Lesson 5: I sintomi (Symptoms in Detail)
 // Expands health unit with detailed symptoms, describing pain, and body sensations.
 
 const LESSON_5 = {id:"itv2_u9l5", title:"I sintomi", icon:"\uD83E\uDE7A", xp:15, board:true, steps:[

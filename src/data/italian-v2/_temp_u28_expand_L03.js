@@ -1,4 +1,4 @@
-// Unit 28 Expansion — Lesson 6: L'analisi del testo
+// Unit 28 Expansion. Lesson 6: L'analisi del testo
 const LESSON_6 = {
   id:"itv2_u28l6", title:"L'analisi del testo", icon:"🔍", xp:15, board:true,
   steps:[

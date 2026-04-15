@@ -1,4 +1,4 @@
-// Unit 28 Expansion — Lesson 3: Academic Writing Style
+// Unit 28 Expansion. Lesson 3: Academic Writing Style
 const LESSON_3 = {
   id:"jav2_u28l3", title:"がくじゅつぶん", icon:"🎓", xp:15, board:true,
   steps:[
@@ -39,7 +39,7 @@ const LESSON_3 = {
      exampleSrc:"A: This research aims to clarify the impact of climate change.\nB: That is important research.",
      funFact:"明らかにする is the go-to verb for stating research objectives. It appears in the introduction of nearly every Japanese academic paper. The related passive あきらかにされた (has been clarified) is used when citing previous research. The nominal form 解明 (kaimei, elucidation) is even more formal and appears in hard science papers."},
 
-    {type:"fb", s:"このけいこうはこんごもつづく___。\n(It appears that this trend will continue going forward.)", a:"とおもわれる", opts:["とおもわれる","とかんがえられる","ことがわかった","である"], sSrc:"It appears that this trend will continue going forward.",
+    {type:"fb", s:"このけいこうはこんごもつづく{1}。\n(It appears that this trend will continue going forward.)", a:"とおもわれる", opts:["とおもわれる","とかんがえられる","ことがわかった","である"], sSrc:"It appears that this trend will continue going forward.",
      hint:"The passive hedging form based on おもう, expressing a tentative observation."},
 
     {type:"teach", trg:"〜にもとづく", src:"based on ~ / on the basis of ~", pos:"part", gender:null,
@@ -63,7 +63,7 @@ const LESSON_3 = {
      exampleSrc:"A: This experiment is considered to have reproducibility.\nB: Did other researchers also confirm it?",
      funFact:"再現性 is a cornerstone of scientific credibility. Japan, like the global scientific community, has faced さいげんせいの危機 (reproducibility crisis), where published results cannot be replicated. The 2014 STAP cell controversy, involving fabricated data at RIKEN, brought さいげんせい into mainstream Japanese vocabulary."},
 
-    {type:"fb", s:"このけつろんはじっけんデータに___いる。\n(This conclusion is based on experimental data.)", a:"もとづいて", opts:["もとづいて","したがって","おいて","よって"], sSrc:"This conclusion is based on experimental data.",
+    {type:"fb", s:"このけつろんはじっけんデータに{1}いる。\n(This conclusion is based on experimental data.)", a:"もとづいて", opts:["もとづいて","したがって","おいて","よって"], sSrc:"This conclusion is based on experimental data.",
      hint:"The te-form of the verb meaning to be founded on or grounded in something."},
 
     {type:"teach", trg:"かせつ", src:"hypothesis", pos:"noun", gender:null,

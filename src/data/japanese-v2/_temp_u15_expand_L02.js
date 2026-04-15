@@ -1,4 +1,4 @@
-// Unit 15 Expansion L4 — Transportation
+// Unit 15 Expansion L4. Transportation
 // Trains, buses, taxis, and getting around.
 
 const LESSON_4 = {id:"jav2_u15l4", title:"こうつう", icon:"🚃", xp:15, board:true, steps:[
@@ -45,7 +45,7 @@ const LESSON_4 = {id:"jav2_u15l4", title:"こうつう", icon:"🚃", xp:15, boa
    exampleSrc:"A: Where is the nearest bus stop?\nB: It is at that intersection.",
    funFact:"Japanese buses are punctual (though not as precise as trains). Many city buses have flat fares; rural buses charge by distance. You enter from the back and exit from the front, paying when you leave. IC cards work on almost all buses. バスていの listing shows all routes and times."},
 
-  {type:"fb", s:"しぶやで___ます。\n(I will get off at Shibuya.)", a:"おり", opts:["おり","のり","おち","でき"], sSrc:"I will get off at Shibuya.",
+  {type:"fb", s:"しぶやで{1}ます。\n(I will get off at Shibuya.)", a:"おり", opts:["おり","のり","おち","でき"], sSrc:"I will get off at Shibuya.",
    hint:"The verb meaning 'to get off/alight from' a vehicle. Group 2, so stem ends in り."},
 
   {type:"teach", trg:"タクシーのりば", src:"taxi stand", pos:"noun", gender:null,
@@ -75,7 +75,7 @@ const LESSON_4 = {id:"jav2_u15l4", title:"こうつう", icon:"🚃", xp:15, boa
    exampleSrc:"A: How much is the fare?\nB: It is 200 yen.",
    funFact:"料金 combines 料 (fee/charge) and 金 (money). Train fares are distance-based, displayed on large maps above ticket machines. IC cards automatically calculate fares. If you are short, fare adjustment machines (のりこしせいさんき) at exits let you pay the difference."},
 
-  {type:"fb", s:"くうこう___どのくらいかかりますか？\n(How long does it take to the airport?)", a:"まで", opts:["まで","から","へ","に"], sSrc:"How long does it take to the airport?",
+  {type:"fb", s:"くうこう{1}どのくらいかかりますか？\n(How long does it take to the airport?)", a:"まで", opts:["まで","から","へ","に"], sSrc:"How long does it take to the airport?",
    hint:"The particle marking the destination or endpoint."},
 
   {type:"match", pairs:[{trg:"えき",src:"station"},{trg:"ろせん",src:"route/line"},{trg:"かいさつぐち",src:"ticket gate"},{trg:"つぎ",src:"next"}]},
@@ -85,7 +85,7 @@ const LESSON_4 = {id:"jav2_u15l4", title:"こうつう", icon:"🚃", xp:15, boa
   {type:"mc", q:"かいさつぐち is:", opts:["A platform","A ticket gate","A ticket machine","An exit sign"], ans:"A ticket gate",
    hint:"The g... you pass through by tapping your IC card or inserting your t...."},
 
-  {type:"fb", s:"___でまちあわせしましょう。\n(Let us meet at the north exit.)", a:"きたぐち", opts:["きたぐち","みなみぐち","にしぐち","ひがしぐち"], sSrc:"Let us meet at the north exit.",
+  {type:"fb", s:"{1}でまちあわせしましょう。\n(Let us meet at the north exit.)", a:"きたぐち", opts:["きたぐち","みなみぐち","にしぐち","ひがしぐち"], sSrc:"Let us meet at the north exit.",
    hint:"The exit named after the direction that is the opposite of south."},
 
   {type:"tip", title:"Transportation Essentials",

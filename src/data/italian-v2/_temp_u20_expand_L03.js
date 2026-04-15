@@ -1,4 +1,4 @@
-// Unit 20 Expansion — Lesson 6: Borse di studio e carriera
+// Unit 20 Expansion. Lesson 6: Borse di studio e carriera
 const LESSON_6 = {
   id:"itv2_u20l6", title:"Borse di studio e carriera", icon:"💼", xp:15, board:true,
   steps:[

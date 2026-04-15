@@ -1,4 +1,4 @@
-// Unit 13 Expansion — Lesson 4: More Subjunctive Triggers
+// Unit 13 Expansion. Lesson 4: More Subjunctive Triggers
 const LESSON_4 = {
   id:"itv2_u13l4", title:"Sembra che...", icon:"🔑", xp:15, board:true,
   steps:[

@@ -1,4 +1,4 @@
-// Unit 14 Expansion — Lesson 6: Professional Communication
+// Unit 14 Expansion. Lesson 6: Professional Communication
 const LESSON_6 = {
   id:"itv2_u14l6", title:"Email e comunicazione", icon:"📧", xp:15, board:true,
   steps:[

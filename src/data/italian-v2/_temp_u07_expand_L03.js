@@ -1,4 +1,4 @@
-// Italian V2 Unit 07 Expansion — Lesson 6: Allergie e dieta (Allergies & Dietary Needs)
+// Italian V2 Unit 07 Expansion. Lesson 6: Allergie e dieta (Allergies & Dietary Needs)
 // Expands restaurant unit with dietary restrictions, allergies, food intolerances.
 
 const LESSON_6 = {id:"itv2_u7l6", title:"Allergie e dieta", icon:"\u26A0\uFE0F", xp:15, board:true, steps:[

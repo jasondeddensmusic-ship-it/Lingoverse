@@ -1,4 +1,4 @@
-// Unit 25 Expansion — Lesson 5: Advanced Keigo in Business
+// Unit 25 Expansion. Lesson 5: Advanced Keigo in Business
 const LESSON_5 = {
   id:"jav2_u25l5", title:"じっせんけいご", icon:"🎩", xp:15, board:true,
   steps:[
@@ -44,7 +44,7 @@ const LESSON_5 = {
      deepDive:{title:"Email Keigo Patterns",
       text:"Japanese business emails follow strict keigo formulas:\n\nOpening: おせわになっております (Thank you for your continued support)\nRequest: おいそがしいところおそれいりますが (I am sorry to trouble you when you are busy, but...)\nClosing: よろしくおねがいいたします (Respectfully requesting your cooperation)\nAttachment: しりょうをてんぷいたします (I humbly attach the materials)\n\nThese phrases are near-mandatory. Omitting the opening おせわになっております in a business email is considered rude."}},
 
-    {type:"fb", s:"ごちゅうもんを___。\n(I will take your order.)", a:"うけたまわります", opts:["うけたまわります","いただきます","もうします","おっしゃいます"], sSrc:"I will take your order.",
+    {type:"fb", s:"ごちゅうもんを{1}。\n(I will take your order.)", a:"うけたまわります", opts:["うけたまわります","いただきます","もうします","おっしゃいます"], sSrc:"I will take your order.",
      hint:"The ultra-humble verb for receiving or hearing, used in service contexts."},
 
     {type:"teach", trg:"おせわになる", src:"to receive care/support (set phrase)", pos:"verb", gender:null,
@@ -68,7 +68,7 @@ const LESSON_5 = {
      exampleSrc:"A: Please come at 10 AM tomorrow.\nB: Understood.",
      funFact:"承知いたしました is the business upgrade of わかりました. The politeness ladder goes: わかった (casual) < わかりました (polite) < かしこまりました (very polite) < 承知いたしました (formal business). Each step up adds both formality and humility. Using the right level for the right situation is the mark of a true keigo master."},
 
-    {type:"fb", s:"いつも___になっております。\n(Thank you always for your support.)", a:"おせわ", opts:["おせわ","ごらん","はいけん","おねがい"], sSrc:"Thank you always for your support.",
+    {type:"fb", s:"いつも{1}になっております。\n(Thank you always for your support.)", a:"おせわ", opts:["おせわ","ごらん","はいけん","おねがい"], sSrc:"Thank you always for your support.",
      hint:"The set phrase using care/assistance that opens nearly every business email."},
 
     {type:"match", pairs:[{trg:"おっしゃる",src:"to say (respectful)"},{trg:"もうしあげる",src:"to say (humble)"},{trg:"ごらんになる",src:"to see (respectful)"},{trg:"はいけんする",src:"to see (humble)"}]},

@@ -1,4 +1,4 @@
-// Unit 11 Expansion L3 — Compound て-form (connecting actions)
+// Unit 11 Expansion L3. Compound て-form (connecting actions)
 // て-form chains, てから, sequential actions.
 
 const LESSON_3 = {id:"jav2_u11l3", title:"アクションをつなげよう", icon:"⛓️", xp:15, board:true, steps:[
@@ -39,7 +39,7 @@ const LESSON_3 = {id:"jav2_u11l3", title:"アクションをつなげよう", ic
    exampleSrc:"A: I leave the house early in the morning and walk to the station.\nB: How many minutes does it take?",
    funFact:"でる is one of the most versatile verbs. It means to exit, to leave, to appear, to attend, and to submit. でかける (to go out) is a compound using で. The kanji 出 depicts a sprout coming out of the ground."},
 
-  {type:"fb", s:"てをあらって___ごはんをたべます。\n(I eat after washing my hands.)", a:"から", opts:["から","まで","けど","のに"], sSrc:"I eat after washing my hands.",
+  {type:"fb", s:"てをあらって{1}ごはんをたべます。\n(I eat after washing my hands.)", a:"から", opts:["から","まで","けど","のに"], sSrc:"I eat after washing my hands.",
    hint:"The particle added after て-form to mean 'after doing, then...'"},
 
   {type:"teach", trg:"かえって", src:"return home (て-form)", pos:"verb", gender:null,
@@ -69,7 +69,7 @@ const LESSON_3 = {id:"jav2_u11l3", title:"アクションをつなげよう", ic
    exampleSrc:"A: After school ends, I hang out with friends and go home.\nB: That sounds fun.",
    funFact:"あそぶ covers 'to play' for children but also 'to hang out' or 'to have fun' for adults. あそびにいく means 'to go hang out' or 'to go visit someone for fun.' It does not sound childish when adults use it. The noun あそび means leisure or entertainment."},
 
-  {type:"fb", s:"いえに___、ごはんをつくります。\n(I return home and cook dinner.)", a:"かえって", opts:["かえって","かえて","かえりて","かえるて"], sSrc:"I return home and cook dinner.",
+  {type:"fb", s:"いえに{1}、ごはんをつくります。\n(I return home and cook dinner.)", a:"かえって", opts:["かえって","かえて","かえりて","かえるて"], sSrc:"I return home and cook dinner.",
    hint:"かえる (return) is Group 1 with る ending, so る becomes って."},
 
   {type:"match", pairs:[{trg:"おきて",src:"wake up (て)"},{trg:"あらって",src:"wash (て)"},{trg:"きがえて",src:"change clothes (て)"},{trg:"でて",src:"leave (て)"}]},
@@ -79,7 +79,7 @@ const LESSON_3 = {id:"jav2_u11l3", title:"アクションをつなげよう", ic
   {type:"mc", q:"Which sentence correctly uses てから?", opts:["ねるてからおきます","ねてからおきます","ねたてからおきます","ねますてからおきます"], ans:"ねてからおきます",
    hint:"てから attaches directly after the て-form. No extra endings needed."},
 
-  {type:"fb", s:"ともだちと___、いえにかえります。\n(I hang out with friends and go home.)", a:"あそんで", opts:["あそんで","あそびて","あそって","あそぶて"], sSrc:"I hang out with friends and go home.",
+  {type:"fb", s:"ともだちと{1}、いえにかえります。\n(I hang out with friends and go home.)", a:"あそんで", opts:["あそんで","あそびて","あそって","あそぶて"], sSrc:"I hang out with friends and go home.",
    hint:"あそぶ is a ぶ-ending Group 1 verb. The ぶ group changes to んで."},
 
   {type:"tip", title:"て-form Chains vs てから",

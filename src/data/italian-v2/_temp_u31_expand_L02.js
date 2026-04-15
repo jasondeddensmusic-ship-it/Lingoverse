@@ -1,4 +1,4 @@
-// Unit 31 Expansion — Lesson 5: La critica dei media
+// Unit 31 Expansion. Lesson 5: La critica dei media
 const LESSON_5 = {
   id:"itv2_u31l5", title:"La critica dei media", icon:"🔎", xp:15, board:true,
   steps:[

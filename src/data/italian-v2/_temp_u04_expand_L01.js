@@ -1,4 +1,4 @@
-// Unit 04 Expansion — Lesson 3: Italian Meals & Food Culture
+// Unit 04 Expansion. Lesson 3: Italian Meals & Food Culture
 // Theme: Meal structure, Italian food culture, tastes & preferences
 
 const LESSON_3 = {

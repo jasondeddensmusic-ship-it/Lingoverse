@@ -1,5 +1,5 @@
-// Japanese V2 Unit 35 — じょうほうしゃかい (Information Society)
-// Level: B2.4 — JLPT N2/N1 aligned.
+// Japanese V2 Unit 35. じょうほうしゃかい (Information Society)
+// Level: B2.4. JLPT N2/N1 aligned.
 // じんこうちのう, プライバシー, サイバー, デジタル, こじんじょうほう, フェイクニュース, ビッグデータ.
 
 const UNIT_35 = {
@@ -18,7 +18,7 @@ const UNIT_35 = {
    note:"Kanji: 人工知能. Abbreviated as AI (エーアイ).\nじんこうちのうがくかい = AI society/conference.",
    example:"A: じんこうちのうがわたしたちのせいかつをおおきくかえつつあります。\nB: りんりてきなもんだいもかんがえなければなりませんね。",
    exampleSrc:"A: Artificial intelligence is greatly changing our lives.\nB: We must also consider the ethical issues.",
-   funFact:"人工知能 breaks down as 人工 (artificial/man-made) and 知能 (intelligence). Japan has been a leader in robotics and AI research since the 1970s. The Fifth Generation Computer project (1982-1992) was one of the world's first major AI initiatives. Today, Japan's AI strategy focuses on Society 5.0 (そさいえてぃ5.0), a vision where AI and IoT solve social challenges like aging population and labor shortages."},
+   funFact:"人工知能 breaks down as 人工 (artificial/man-made) and 知能 (intelligence). Japan has been a leader in robotics and AI research since the 1970s. The Fifth Generation Computer project (1982-1992) was one of the world's first major AI initiatives. Today, Japan's AI strategy focuses on Society 5.0 (ソサエティ5.0), a vision where AI and IoT solve social challenges like aging population and labor shortages."},
 
   {type:"teach", trg:"プライバシー", src:"privacy", pos:"noun", gender:null,
    note:"Loanword from English. こじんのプライバシー = personal privacy.\nプライバシーほご = privacy protection.",
@@ -77,6 +77,18 @@ const UNIT_35 = {
    hint:"The progressive auxiliary meaning 'in the process of,' used with the stem form of verbs."},
 
   {type:"match", pairs:[{trg:"サイバーこうげき",src:"cyberattack"},{trg:"アルゴリズム",src:"algorithm"},{trg:"じどうか",src:"automation"},{trg:"こじんじょうほう",src:"personal data"}]},
+
+  {type:"mc", q:"アルゴリズムのバイアス means:", opts:["algorithmic speed","algorithmic update","algorithmic bias","algorithmic encryption"], ans:"algorithmic bias",
+   hint:"バイアス is a loanword meaning 'bias' or 'prejudice,' describing unfair patterns in automated decision-making."},
+
+  {type:"mc", q:"フェイクニュースをみわける means:", opts:["to spread fake news","to create fake news","to report fake news","to distinguish fake news"], ans:"to distinguish fake news",
+   hint:"みわける means 'to tell apart' or 'to identify correctly,' a critical information literacy skill."},
+
+  {type:"mc", q:"じどうか is especially important in Japan because:", opts:["Japan faces a declining population and labor shortage","Japan has too many workers and wants to reduce employment","Japan wants to export automation technology to other countries","Japan has low wages and needs machines to boost productivity"], ans:"Japan faces a declining population and labor shortage",
+   hint:"Think about the country's demographic trend: fewer young workers entering the workforce each year, more elderly needing care."},
+
+  {type:"fb", s:"こうじょうの{1}がすすんで、ロボットがおおくのさぎょうをおこなっています。", a:"じどうか", opts:["じどうか","デジタルか","こうぎょうか","きかいか"], sSrc:"Factory automation has progressed, and robots perform many operations.",
+   hint:"The process of making things run by themselves without human intervention. Uses kanji for 'self' + 'move' + 'change.'"},
 ]},
 
 // ═══ L2: Digital Society & Future Technology ═══
@@ -148,6 +160,18 @@ const UNIT_35 = {
    hint:"The compound meaning 'information gap' or 'digital divide,' describing unequal technology access."},
 
   {type:"match", pairs:[{trg:"IoT",src:"Internet of Things"},{trg:"じょうほうかくさ",src:"digital divide"},{trg:"スマートシティ",src:"smart city"},{trg:"とくいてん",src:"singularity"}]},
+
+  {type:"mc", q:"Japan has a positive cultural view of ロボット partly because of:", opts:["large government subsidies for robot research programs","widespread public fear of labor shortages and aging","the manga character てつわんアトム (Astro Boy)","the influence of World War II military technology history"], ans:"the manga character てつわんアトム (Astro Boy)",
+   hint:"Tezuka Osamu's 1950s comic series depicted a friendly child-like robot, shaping positive public attitudes for decades."},
+
+  {type:"mc", q:"でんしけっさい means:", opts:["digital banking","internet transfer","online shopping","electronic payment"], ans:"electronic payment",
+   hint:"でんし (electronic) plus けっさい (settlement/payment), covering QR codes, IC cards, and mobile pay."},
+
+  {type:"fb", s:"にほんかくちでスマート{1}のけいかくがすすんでいます。\n(Smart city plans are progressing throughout Japan.)", a:"シティ", opts:["シティ", "センター","タウン","ゾーン"], sSrc:"Smart city plans are progressing throughout Japan.",
+   hint:"The second part of the English loanword compound meaning an intelligent, technology-integrated urban area."},
+
+  {type:"mc", q:"とくいてん refers to:", opts:["the technological singularity","a government policy goal","a type of AI program","a data privacy law"], ans:"the technological singularity",
+   hint:"The kanji compound for 'special anomalous point,' also expressed as the loanword シンギュラリティ."},
 ]},
 
 ]};

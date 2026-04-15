@@ -1,4 +1,4 @@
-// Unit 21 Expansion — Lesson 4: Richieste gentili
+// Unit 21 Expansion. Lesson 4: Richieste gentili
 const LESSON_4 = {
   id:"itv2_u21l4", title:"Richieste gentili", icon:"🙏", xp:15, board:true,
   steps:[

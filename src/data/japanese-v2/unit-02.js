@@ -1,5 +1,5 @@
-// Japanese V2 Unit 02 — わたしは... (I am...)
-// Level: A1.1 — JLPT N5 aligned.
+// Japanese V2 Unit 02. わたしは... (I am...)
+// Level: A1.1. JLPT N5 aligned.
 import JEXP_02_L1 from './_temp_u02_expand_L01.js';import JEXP_02_L2 from './_temp_u02_expand_L02.js';import JEXP_02_L3 from './_temp_u02_expand_L03.js';import JEXP_02_L4 from './_temp_u02_expand_L04.js';
 // Self-introduction, countries, occupations, desu/ja arimasen, wa particle.
 
@@ -60,7 +60,7 @@ const UNIT_02 = {
    exampleSrc:"A: What is your job?\nB: I am an office worker.",
    funFact:"会社 (kaisha, company) + 員 (in, member). Japan's salaryman culture made this one of the most common self-descriptions. About 90% of Japanese workers are kaishain."},
 
-  {type:"fb", s:"わたし___がくせいです。", a:"は", opts:["は","が","を","に"], sSrc:"I am a student.",
+  {type:"fb", s:"わたし{1}がくせいです。", a:"は", opts:["は","が","を","に"], sSrc:"I am a student.",
    hint:"The topic particle that marks 'as for me' comes after watashi."},
 
   {type:"teach", trg:"じゃありません", src:"am not / is not (polite)", pos:"aux", gender:null,
@@ -89,7 +89,7 @@ const UNIT_02 = {
 
   {type:"match", pairs:[{trg:"わたし",src:"I / me"},{trg:"です",src:"am / is"},{trg:"じゃありません",src:"am not / is not"},{trg:"は",src:"topic particle"}]},
 
-  {type:"fb", s:"いいえ、いしゃ___。がくせいです。", a:"じゃありません", opts:["じゃありません","です","ですか","ません"], sSrc:"No, I am not a doctor. I am a student.",
+  {type:"fb", s:"いいえ、いしゃ{1}。がくせいです。", a:"じゃありません", opts:["じゃありません","です","ですか","ません"], sSrc:"No, I am not a doctor. I am a student.",
    hint:"The negative copula that denies an identity."},
 
   {type:"mc", q:"Which sentence means 'I am not a company employee'?", opts:["わたしはかいしゃいんです","わたしのかいしゃいん","かいしゃいんですか","わたしはかいしゃいんじゃありません"], ans:"わたしはかいしゃいんじゃありません",
@@ -157,7 +157,7 @@ const UNIT_02 = {
    exampleSrc:"A: Where are you from?\nB: I am from England.",
    funFact:"Kara covers both physical and abstract 'from.' You can say Tokyo kara (from Tokyo) or getsu-youbi kara (from Monday). One particle, many uses."},
 
-  {type:"fb", s:"わたしはフランス___です。", a:"じん", opts:["じん","ご","から","の"], sSrc:"I am a French person.",
+  {type:"fb", s:"わたしはフランス{1}です。", a:"じん", opts:["じん","ご","から","の"], sSrc:"I am a French person.",
    hint:"The suffix meaning 'person' that creates nationalities."},
 
   {type:"teach", trg:"にほんご", src:"Japanese language", pos:"noun", gender:null,
@@ -186,7 +186,7 @@ const UNIT_02 = {
 
   {type:"match", pairs:[{trg:"にほん",src:"Japan"},{trg:"アメリカ",src:"America"},{trg:"イギリス",src:"England"},{trg:"フランス",src:"France"}]},
 
-  {type:"fb", s:"アメリカ___です。", a:"から", opts:["から","じん","ご","は"], sSrc:"I am from America.",
+  {type:"fb", s:"アメリカ{1}です。", a:"から", opts:["から","じん","ご","は"], sSrc:"I am from America.",
    hint:"The particle meaning 'from' that indicates origin."},
 
   {type:"match", pairs:[{trg:"にほんじん",src:"Japanese person"},{trg:"にほんご",src:"Japanese language"},{trg:"べんごし",src:"lawyer"},{trg:"エンジニア",src:"engineer"}]},

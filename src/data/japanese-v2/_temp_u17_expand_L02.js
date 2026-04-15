@@ -1,4 +1,4 @@
-// Unit 17 Expansion — Lesson 4: ふりがいのうけみ (Adversity Passive Practice)
+// Unit 17 Expansion. Lesson 4: ふりがいのうけみ (Adversity Passive Practice)
 const LESSON_4 = {
   id:"jav2_u17l4", title:"ふりがいのうけみ", icon:"😣", xp:15, board:true,
   steps:[
@@ -45,7 +45,7 @@ const LESSON_4 = {
      exampleSrc:"A: My colleague went home before me and my workload increased.\nB: That is unfortunate.",
      funFact:"This is a classic workplace adversity passive. Japanese work culture often involves not leaving before your seniors. When a colleague leaves early (saki ni kaeru), the remaining person inherits extra work. The passive perfectly captures this resentment: 'I was left-behind-ed.'"},
 
-    {type:"fb", s:"あたらしいシャツをコーヒーで___ました。\n(I had my new shirt stained with coffee.)", a:"よごされ", opts:["よごされ","よごして","よごし","よごれ"], sSrc:"I had my new shirt stained with coffee.",
+    {type:"fb", s:"あたらしいシャツをコーヒーで{1}ました。\n(I had my new shirt stained with coffee.)", a:"よごされ", opts:["よごされ","よごして","よごし","よごれ"], sSrc:"I had my new shirt stained with coffee.",
      hint:"The passive form of よごす (to make dirty). Group 1: あ-row + れる."},
 
     {type:"teach", trg:"となり", src:"next to / neighbor / adjacent", pos:"noun", gender:null,
@@ -69,7 +69,7 @@ const LESSON_4 = {
      exampleSrc:"A: Despite the trouble of making it, they would not eat it.\nB: That is unfortunate.",
      funFact:"のに adds an emotional punch of disappointment or frustration. It signals: 'given situation A, outcome B should not have happened.' Combined with passive, it creates powerful complaint sentences: がんばったのにしかられた (despite trying hard, I was scolded). It is the grammar of unfairness."},
 
-    {type:"fb", s:"ともだちにかしたほんを___ました。\n(I had a book I lent to a friend lost.)", a:"なくされ", opts:["なくされ","なくして","なくし","なくなり"], sSrc:"I had a book I lent to a friend lost.",
+    {type:"fb", s:"ともだちにかしたほんを{1}ました。\n(I had a book I lent to a friend lost.)", a:"なくされ", opts:["なくされ","なくして","なくし","なくなり"], sSrc:"I had a book I lent to a friend lost.",
      hint:"The passive form of なくす (to lose something). Group 1: あ-row + れる."},
 
     {type:"tip", title:"Adversity Passive with Possessions",

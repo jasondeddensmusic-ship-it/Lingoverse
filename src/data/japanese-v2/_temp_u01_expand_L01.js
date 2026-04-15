@@ -1,4 +1,4 @@
-// Unit 01 Expansion L03 — Greeting Variations (seasonal, workplace, texting)
+// Unit 01 Expansion L03. Greeting Variations (seasonal, workplace, texting)
 const LESSON_3 = {
   id:"jav2_u1l3", title:"いろいろなあいさつ", icon:"🌸", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_3 = {
      exampleSrc:"A: I'm heading out!\nB: Have a good trip! Be careful.",
      funFact:"Literally 'I will go and come back.' This daily ritual of ittekimasu/itterasshai is deeply embedded in Japanese family life. Even adults living alone sometimes say it to their empty apartment out of habit."},
 
-    {type:"fb", s:"会社を出るとき、___と言います。",
+    {type:"fb", s:"会社を出るとき、{1}と言います。",
      a:["おさきにしつれいします"],
      opts:["おさきにしつれいします","おはようございます","いってきます","おやすみなさい"],
      hint:"The phrase you say when leaving the office before your coworkers. It contains an apology for departing first.",
@@ -103,7 +103,7 @@ const LESSON_3 = {
       {trg:"おかえりなさい", src:"Welcome back"}
     ]},
 
-    {type:"fb", s:"でんわに出るとき、___と言います。",
+    {type:"fb", s:"でんわに出るとき、{1}と言います。",
      a:["もしもし"],
      opts:["もしもし","こんにちは","おはよう","ただいま"],
      hint:"The special greeting used exclusively when answering the telephone.",

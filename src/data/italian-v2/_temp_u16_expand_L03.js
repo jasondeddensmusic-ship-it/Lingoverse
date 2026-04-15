@@ -1,4 +1,4 @@
-// Unit 16 Expansion — Lesson 6: Health Insurance
+// Unit 16 Expansion. Lesson 6: Health Insurance
 const LESSON_6 = {
   id:"itv2_u16l6", title:"L'assicurazione sanitaria", icon:"🏥", xp:15, board:true,
   steps:[

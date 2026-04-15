@@ -1,4 +1,4 @@
-// Unit 15 Expansion — Lesson 5: Furniture and Neighbors
+// Unit 15 Expansion. Lesson 5: Furniture and Neighbors
 const LESSON_5 = {
   id:"itv2_u15l5", title:"Mobili e vicini", icon:"🪑", xp:15, board:true,
   steps:[

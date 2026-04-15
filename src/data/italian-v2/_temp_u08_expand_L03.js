@@ -1,4 +1,4 @@
-// Italian V2 Unit 08 Expansion — Lesson 6: Taglie e misure (Sizes & Measurements)
+// Italian V2 Unit 08 Expansion. Lesson 6: Taglie e misure (Sizes & Measurements)
 // Expands shopping unit with detailed size vocabulary, fitting, and fabric care.
 
 const LESSON_6 = {id:"itv2_u8l6", title:"Taglie e misure", icon:"\uD83D\uDCCF", xp:15, board:true, steps:[

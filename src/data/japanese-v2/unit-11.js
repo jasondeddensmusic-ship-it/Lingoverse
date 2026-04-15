@@ -1,5 +1,5 @@
-// Japanese V2 Unit 11 — て-けい (て-form)
-// Level: A2.1 — JLPT N4 aligned.
+// Japanese V2 Unit 11. て-けい (て-form)
+// Level: A2.1. JLPT N4 aligned.
 import JEXP_11_L1 from './_temp_u11_expand_L01.js';import JEXP_11_L2 from './_temp_u11_expand_L02.js';import JEXP_11_L3 from './_temp_u11_expand_L03.js';
 // て-form formation, requests, ongoing actions, permission.
 
@@ -60,7 +60,7 @@ const UNIT_11 = {
    exampleSrc:"A: Please come again tomorrow.\nB: Of course!",
    funFact:"くる is the second and final irregular verb. Its て-form is きて, its past is きた, its negative is こない. Each form uses a different vowel from the く row: ku, ki, ko. This vowel alternation is unique to this verb."},
 
-  {type:"fb", s:"みずを___ください。\n(Please drink water.)", a:"のんで", opts:["のんで","のみて","のむて","のって"], sSrc:"Please drink some water.",
+  {type:"fb", s:"みずを{1}ください。\n(Please drink water.)", a:"のんで", opts:["のんで","のみて","のむて","のって"], sSrc:"Please drink some water.",
    hint:"のむ is a む-ending Group 1 verb. The む/ぶ/ぬ group becomes んで."},
 
   {type:"mc", q:"What is the て-form of まつ (to wait)?", opts:["まちて","まって","まつて","まいて"], ans:"まって",
@@ -75,7 +75,7 @@ const UNIT_11 = {
 
   {type:"match", pairs:[{trg:"はなして",src:"speak (て)"},{trg:"して",src:"do (て)"},{trg:"きて",src:"come (て)"},{trg:"たべて",src:"eat (て)"}]},
 
-  {type:"fb", s:"なまえを___ください。\n(Please write your name.)", a:"かいて", opts:["かいて","かって","かきて","かくて"], sSrc:"Please write your name.",
+  {type:"fb", s:"なまえを{1}ください。\n(Please write your name.)", a:"かいて", opts:["かいて","かって","かきて","かくて"], sSrc:"Please write your name.",
    hint:"かく is a く-ending Group 1 verb. The く ending changes to いて."},
 
   {type:"mc", q:"What is the て-form of する?", opts:["すって","すて","して","されて"], ans:"して",
@@ -127,7 +127,7 @@ const UNIT_11 = {
    exampleSrc:"A: Please sit here.\nB: Thank you.",
    funFact:"すわる is a Group 1 verb even though it ends in る. The key test: if the vowel before る is not -i or -e, it is Group 1. すわる has -a before る, so it is Group 1. This is the trickiest part of verb classification for learners."},
 
-  {type:"fb", s:"いまほんを___います。\n(I am reading a book now.)", a:"よんで", opts:["よんで","よみて","よって","よむて"], sSrc:"I am reading a book now.",
+  {type:"fb", s:"いまほんを{1}います。\n(I am reading a book now.)", a:"よんで", opts:["よんで","よみて","よって","よむて"], sSrc:"I am reading a book now.",
    hint:"よむ is a む-ending verb. The む group changes to んで in て-form."},
 
   {type:"teach", trg:"しゃしんをとる", src:"to take a photo", pos:"verb", gender:null,
@@ -147,7 +147,7 @@ const UNIT_11 = {
 
   {type:"match", pairs:[{trg:"たべてください",src:"please eat"},{trg:"たべています",src:"is eating"},{trg:"たべてもいいですか",src:"may I eat?"},{trg:"のんでください",src:"please drink"}]},
 
-  {type:"fb", s:"___をとってもいいですか？\n(May I take a photo?)", a:"しゃしん", opts:["しゃしん","えいが","テレビ","おんがく"], sSrc:"May I take a photo?",
+  {type:"fb", s:"{1}をとってもいいですか？\n(May I take a photo?)", a:"しゃしん", opts:["しゃしん","えいが","テレビ","おんがく"], sSrc:"May I take a photo?",
    hint:"The word for a picture captured by a camera."},
 
   {type:"match", pairs:[{trg:"よんでいます",src:"is reading"},{trg:"みています",src:"is watching"},{trg:"たっています",src:"is standing"},{trg:"すわってください",src:"please sit"}]},

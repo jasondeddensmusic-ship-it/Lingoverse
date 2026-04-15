@@ -1,4 +1,4 @@
-// Unit 02 Expansion L03 — More Occupations & Describing Work
+// Unit 02 Expansion L03. More Occupations & Describing Work
 const LESSON_3 = {
   id:"jav2_u2l3", title:"いろいろなしごと", icon:"💼", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_3 = {
      exampleSrc:"A: I want to become a hairdresser.\nB: That's nice. Are you fashionable?",
      funFact:"美 (beauty) + 容 (appearance) + 師 (expert). Japan has about 250,000 beauty salons, more than convenience stores. Harajuku in Tokyo is the fashion capital where many top stylists work. Hair magazines are bestsellers."},
 
-    {type:"fb", s:"わたしはびょういんで___。",
+    {type:"fb", s:"わたしはびょういんで{1}。",
      a:["はたらいています"],
      opts:["はたらいています","すんでいます","たべています","べんきょうしています"],
      hint:"The phrase meaning 'I am working at' that describes your workplace.",
@@ -98,7 +98,7 @@ const LESSON_3 = {
       {trg:"びようし", src:"hairdresser"}
     ]},
 
-    {type:"fb", s:"ITの___ではたらいています。",
+    {type:"fb", s:"ITの{1}ではたらいています。",
      a:["かいしゃ"],
      opts:["かいしゃ","がっこう","びょういん","えき"],
      hint:"The general word for a business organization or corporation.",

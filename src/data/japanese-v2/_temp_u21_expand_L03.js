@@ -1,4 +1,4 @@
-// Unit 21 Expansion — Lesson 5: よろん (Public Opinion & Debate)
+// Unit 21 Expansion. Lesson 5: よろん (Public Opinion & Debate)
 const LESSON_5 = {
   id:"jav2_u21l5", title:"よろん", icon:"🗣️", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_5 = {
      exampleSrc:"A: They are appealing the importance of environmental issues.\nB: I hope it reaches many people.",
      funFact:"訴える spans a wide range: legal (裁判に訴える, take to court), emotional (平和を訴える, appeal for peace), and physical (痛みを訴える, complain of pain). The kanji 訴 combines 言 (speak) and 斥 (reject/push), suggesting speech that pushes for change."},
 
-    {type:"fb", s:"せいふのたいおうに___があつまっています。\n(Criticism is gathering toward the government's response.)", a:"ひはん", opts:["ひはん","しじ","よろん","ぎろん"], sSrc:"Criticism is gathering toward the government's response.",
+    {type:"fb", s:"せいふのたいおうに{1}があつまっています。\n(Criticism is gathering toward the government's response.)", a:"ひはん", opts:["ひはん","しじ","よろん","ぎろん"], sSrc:"Criticism is gathering toward the government's response.",
      hint:"The word for formal critique or negative evaluation of an action or policy."},
 
     {type:"teach", trg:"きょうみ", src:"interest / curiosity", pos:"noun", gender:null,
@@ -79,7 +79,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"せいさく",src:"policy"},{trg:"こくみん",src:"citizens"},{trg:"きょうみ",src:"interest"},{trg:"いしき",src:"awareness"}]},
 
-    {type:"fb", s:"かんきょうもんだいのじゅうようせいを___います。\n(They are appealing the importance of environmental issues.)", a:"うったえて", opts:["うったえて","つたえて","しじして","ひはんして"], sSrc:"They are appealing the importance of environmental issues.",
+    {type:"fb", s:"かんきょうもんだいのじゅうようせいを{1}います。\n(They are appealing the importance of environmental issues.)", a:"うったえて", opts:["うったえて","つたえて","しじして","ひはんして"], sSrc:"They are appealing the importance of environmental issues.",
      hint:"The te-form of the verb meaning 'to appeal' or 'to make a passionate claim.'"},
 
     {type:"mc", q:"いしき in かんきょういしき means:", opts:["problem","prevention","awareness","investigation"], ans:"awareness",

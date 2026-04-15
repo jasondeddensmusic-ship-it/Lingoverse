@@ -1,4 +1,4 @@
-// Unit 03 Expansion — Lesson 4: Extended Family & Relationships
+// Unit 03 Expansion. Lesson 4: Extended Family & Relationships
 // Theme: Extended family, relationships, marital status
 
 const LESSON_4 = {

@@ -1,4 +1,4 @@
-// Unit 21 Expansion — Lesson 5: Situazioni ipotetiche
+// Unit 21 Expansion. Lesson 5: Situazioni ipotetiche
 const LESSON_5 = {
   id:"itv2_u21l5", title:"Situazioni ipotetiche", icon:"🌟", xp:15, board:true,
   steps:[

@@ -1,4 +1,4 @@
-// Unit 11 Expansion L5 — ておく and て-form review
+// Unit 11 Expansion L5. ておく and て-form review
 // Preparation with ておく, prohibition with てはいけない, comprehensive review.
 
 const LESSON_5 = {id:"jav2_u11l5", title:"ておく・てはいけない", icon:"📦", xp:15, board:true, steps:[
@@ -39,7 +39,7 @@ const LESSON_5 = {id:"jav2_u11l5", title:"ておく・てはいけない", icon:
    exampleSrc:"A: You must not enter this room.\nB: Why?\nA: Because it is dangerous.",
    funFact:"きんし (禁止, prohibition) signs are common in Japan: さつえいきんし (no photography), きんえん (no smoking), たちいりきんし (no entry). The てはいけない pattern is the spoken version of these written prohibitions."},
 
-  {type:"fb", s:"ここでたばこをすって___いけません。\n(You must not smoke here.)", a:"は", opts:["は","を","が","に"], sSrc:"You must not smoke here.",
+  {type:"fb", s:"ここでたばこをすって{1}いけません。\n(You must not smoke here.)", a:"は", opts:["は","を","が","に"], sSrc:"You must not smoke here.",
    hint:"The topic particle that comes between て-form and いけない in the prohibition pattern."},
 
   {type:"teach", trg:"さわってはいけない", src:"must not touch", pos:"verb", gender:null,
@@ -69,7 +69,7 @@ const LESSON_5 = {id:"jav2_u11l5", title:"ておく・てはいけない", icon:
    exampleSrc:"A: You must not run around the pool.\nB: I will walk.",
    funFact:"はしってはいけません is heard constantly in Japanese schools. Other common school rules: ろうかをはしってはいけません (no running in hallways), おかしをたべてはいけません (no eating snacks). These rule-stating patterns are deeply familiar to every Japanese person."},
 
-  {type:"fb", s:"レストランをよやく___おきました。\n(I made a restaurant reservation in advance.)", a:"して", opts:["して","しって","すって","させて"], sSrc:"I made a restaurant reservation in advance.",
+  {type:"fb", s:"レストランをよやく{1}おきました。\n(I made a restaurant reservation in advance.)", a:"して", opts:["して","しって","すって","させて"], sSrc:"I made a restaurant reservation in advance.",
    hint:"よやくする is a する compound verb. Form the て-form of its base verb."},
 
   {type:"match", pairs:[{trg:"ておく",src:"do in advance"},{trg:"てはいけない",src:"must not do"},{trg:"とく",src:"do in advance (casual)"},{trg:"ちゃだめ",src:"must not (casual)"}]},
@@ -79,7 +79,7 @@ const LESSON_5 = {id:"jav2_u11l5", title:"ておく・てはいけない", icon:
   {type:"mc", q:"かっとく is the casual form of:", opts:["かっている","かってみる","かっておく","かってしまう"], ans:"かっておく",
    hint:"The casual contraction replaces ておく with とく."},
 
-  {type:"fb", s:"この えに___てはいけません。\n(You must not touch this painting.)", a:"さわっ", opts:["さわっ","さわり","さわる","さわい"], sSrc:"You must not touch this painting.",
+  {type:"fb", s:"この えに{1}てはいけません。\n(You must not touch this painting.)", a:"さわっ", opts:["さわっ","さわり","さわる","さわい"], sSrc:"You must not touch this painting.",
    hint:"This Group 1 verb ends in る. Apply the る-ending て-form rule: る becomes って."},
 
   {type:"tip", title:"The Four て-form Compounds",

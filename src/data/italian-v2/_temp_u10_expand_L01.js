@@ -1,4 +1,4 @@
-// Italian V2 Unit 10 Expansion — Lesson 4: All'aeroporto (At the Airport)
+// Italian V2 Unit 10 Expansion. Lesson 4: All'aeroporto (At the Airport)
 // Expands travel unit with detailed airport vocabulary and procedures.
 
 const LESSON_4 = {id:"itv2_u10l4", title:"All'aeroporto", icon:"\u2708\uFE0F", xp:15, board:true, steps:[

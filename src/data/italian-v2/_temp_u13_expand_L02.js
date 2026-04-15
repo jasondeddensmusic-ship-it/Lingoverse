@@ -1,4 +1,4 @@
-// Unit 13 Expansion — Lesson 5: Irregular Subjunctive Deep Dive
+// Unit 13 Expansion. Lesson 5: Irregular Subjunctive Deep Dive
 const LESSON_5 = {
   id:"itv2_u13l5", title:"Che stia, che voglia", icon:"🌀", xp:15, board:true,
   steps:[

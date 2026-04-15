@@ -1,4 +1,4 @@
-// Unit 05 Expansion L05 — Cooking Verbs & Kitchen Words
+// Unit 05 Expansion L05. Cooking Verbs & Kitchen Words
 const LESSON_5 = {
   id:"jav2_u5l5", title:"りょうり", icon:"🔪", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_5 = {
      exampleSrc:"A: Let's steam the fish.\nB: Healthy and good.",
      funFact:"Mushimono (steamed dishes) are valued for preserving natural flavors. Chawanmushi (steamed egg custard) is a beloved side dish. Mushigyouza (steamed dumplings) pair perfectly with soy sauce and vinegar. The gentle heat of steaming is considered the most refined cooking method."},
 
-    {type:"fb", s:"にくを___ましょう。",
+    {type:"fb", s:"にくを{1}ましょう。",
      a:["やき"],
      opts:["やき","にみ","むし","きり"],
      hint:"The polite stem of the verb for grilling, baking, or pan-frying.",
@@ -98,7 +98,7 @@ const LESSON_5 = {
       {trg:"ほうちょう", src:"kitchen knife"}
     ]},
 
-    {type:"fb", s:"てんぷらを___ましょう。",
+    {type:"fb", s:"てんぷらを{1}ましょう。",
      a:["あげ"],
      opts:["あげ","やき","にみ","むし"],
      hint:"The specific verb for cooking food submerged in hot oil.",

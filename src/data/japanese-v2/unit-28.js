@@ -1,6 +1,6 @@
-// Japanese V2 Unit 28 — ぶんたい (Written vs Spoken)
+// Japanese V2 Unit 28. ぶんたい (Written vs Spoken)
 import EXP_L3 from './_temp_u28_expand_L01.js';import EXP_L4 from './_temp_u28_expand_L02.js';import EXP_L5 from './_temp_u28_expand_L03.js';
-// Level: B2.2 — JLPT N2 aligned.
+// Level: B2.2. JLPT N2 aligned.
 // である, において, および, 述べる, 論じる, sentence-final particles.
 
 const UNIT_28 = {
@@ -48,7 +48,7 @@ const UNIT_28 = {
    exampleSrc:"A: This book discusses economic inequality.\nB: I would like to read it.",
    funFact:"論じる uses 論 (argument/theory), the same kanji in 論文 (ronbun, academic paper), 議論 (giron, debate), and 理論 (riron, theory). Japanese academic culture values structured argument: thesis, evidence, conclusion. ろんじる implies rigorous, evidence-based discussion, not casual chat."},
 
-  {type:"fb", s:"このけんきゅうはとうきょうだいがく___おこなわれた。\n(This research was conducted at Tokyo University.)", a:"において", opts:["において","では","のなかで","にとって"], sSrc:"This research was conducted at Tokyo University.",
+  {type:"fb", s:"このけんきゅうはとうきょうだいがく{1}おこなわれた。\n(This research was conducted at Tokyo University.)", a:"において", opts:["において","では","のなかで","にとって"], sSrc:"This research was conducted at Tokyo University.",
    hint:"The formal particle replacing で for location, used in academic and official contexts."},
 
   {type:"teach", trg:"ろんぶん", src:"academic paper / thesis", pos:"noun", gender:null,
@@ -62,7 +62,7 @@ const UNIT_28 = {
 
   {type:"match", pairs:[{trg:"である",src:"to be (written)"},{trg:"において",src:"in/at (formal)"},{trg:"および",src:"and (formal)"},{trg:"のべる",src:"to state"}]},
 
-  {type:"fb", s:"いけんを___ている。\n(The author states an opinion.)", a:"のべ", opts:["のべ","ろんじ","かき","はなし"], sSrc:"The author states an opinion.",
+  {type:"fb", s:"いけんを{1}ている。\n(The author states an opinion.)", a:"のべ", opts:["のべ","ろんじ","かき","はなし"], sSrc:"The author states an opinion.",
    hint:"The formal verb meaning to express or state views, common in academic writing."},
 
   {type:"match", pairs:[{trg:"ろんじる",src:"to discuss (academic)"},{trg:"ろんぶん",src:"academic paper"},{trg:"において",src:"in/at (formal)"},{trg:"および",src:"and (formal)"}]},
@@ -107,7 +107,7 @@ const UNIT_28 = {
    exampleSrc:"A: What was the name of that restaurant again?\nB: I think it was 'Sakura.'",
    funFact:"っけ is the particle of fuzzy memory. It signals 'I knew this but cannot quite recall.' なんだっけ (what was it?) is one of the most common casual phrases. It only works in casual speech. The polite equivalent would be a full question: なんでしたっけ or なんというなまえでしたか."},
 
-  {type:"fb", s:"あしたはやすみだ___？\n(Tomorrow is a day off, right?)", a:"よね", opts:["よね","ぞ","さ","っけ"], sSrc:"Tomorrow is a day off, right?",
+  {type:"fb", s:"あしたはやすみだ{1}？\n(Tomorrow is a day off, right?)", a:"よね", opts:["よね","ぞ","さ","っけ"], sSrc:"Tomorrow is a day off, right?",
    hint:"The combined particle that asserts something while seeking the listener's confirmation."},
 
   {type:"teach", trg:"かきことば", src:"written language", pos:"noun", gender:null,
@@ -121,7 +121,7 @@ const UNIT_28 = {
 
   {type:"match", pairs:[{trg:"よね",src:"right? (confirm)"},{trg:"さ",src:"you know (filler)"},{trg:"ぞ",src:"I tell you! (strong)"},{trg:"っけ",src:"was it? (recall)"}]},
 
-  {type:"fb", s:"でんしゃがとまった___。\n(The thing is, the train stopped.)", a:"んだ", opts:["んだ","よね","ぞ","さ"], sSrc:"The thing is, the train stopped.",
+  {type:"fb", s:"でんしゃがとまった{1}。\n(The thing is, the train stopped.)", a:"んだ", opts:["んだ","よね","ぞ","さ"], sSrc:"The thing is, the train stopped.",
    hint:"The casual explanatory ending that wraps a statement in 'the reason/situation is...'"},
 
   {type:"match", pairs:[{trg:"〜んだ / 〜のだ",src:"it is that (explanatory)"},{trg:"〜っけ",src:"was it? (recall)"},{trg:"かきことば",src:"written language"},{trg:"である",src:"to be (written)"}]},

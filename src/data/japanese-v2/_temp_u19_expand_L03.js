@@ -1,4 +1,4 @@
-// Unit 19 Expansion — Lesson 5: じょうけんとビジネス (Conditionals in Business)
+// Unit 19 Expansion. Lesson 5: じょうけんとビジネス (Conditionals in Business)
 const LESSON_5 = {
   id:"jav2_u19l5", title:"じょうけんとビジネス", icon:"🏢", xp:15, board:true,
   steps:[
@@ -45,7 +45,7 @@ const LESSON_5 = {
      exampleSrc:"A: I have a new proposal.\nB: Please do tell us.",
      funFact:"提案 is the lifeblood of Japanese business meetings. Every project begins with a teian (proposal), which is presented formally and then discussed (検討). The kanji 案 (idea) also appears in 案内 (guidance) and 案件 (matter/case). Presenting a good teian is a skill valued highly in Japanese companies."},
 
-    {type:"fb", s:"もしごつごうがわる___れんらくしてください。\n(If it is inconvenient, please contact me.)", a:"ければ", opts:["ければ","かったら","いと","いなら"], sSrc:"If it is inconvenient, please contact me.",
+    {type:"fb", s:"もしごつごうがわる{1}れんらくしてください。\n(If it is inconvenient, please contact me.)", a:"ければ", opts:["ければ","かったら","いと","いなら"], sSrc:"If it is inconvenient, please contact me.",
      hint:"The ば conditional of a negative い-adjective. わるい becomes わるければ."},
 
     {type:"teach", trg:"きげん", src:"deadline / time limit / due date", pos:"noun", gender:null,
@@ -69,7 +69,7 @@ const LESSON_5 = {
      exampleSrc:"A: How about waiting and seeing for a bit?\nB: You are right. Let us wait a little more.",
      funFact:"様子を見る is a quintessentially Japanese approach to decision-making. Rather than acting immediately, observing the situation (yousu wo miru) is considered wise. It reflects the value of caution and patience. Doctors also use this phrase: もうすこしようすをみましょう (let us observe the condition a bit longer)."},
 
-    {type:"fb", s:"もんだいがあった___はすぐれんらくしてください。\n(In case there are problems, please contact us immediately.)", a:"ばあい", opts:["ばあい","とき","たら","ので"], sSrc:"In case there are problems, please contact us immediately.",
+    {type:"fb", s:"もんだいがあった{1}はすぐれんらくしてください。\n(In case there are problems, please contact us immediately.)", a:"ばあい", opts:["ばあい","とき","たら","ので"], sSrc:"In case there are problems, please contact us immediately.",
      hint:"The formal noun meaning 'in case of' or 'in the event of.' Used in business documents and contracts."},
 
     {type:"tip", title:"Conditionals in Business Japanese",

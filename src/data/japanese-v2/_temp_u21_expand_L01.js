@@ -1,4 +1,4 @@
-// Unit 21 Expansion — Lesson 3: ほうどうのことば (Media Language)
+// Unit 21 Expansion. Lesson 3: ほうどうのことば (Media Language)
 const LESSON_3 = {
   id:"jav2_u21l3", title:"ほうどうのことば", icon:"📡", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_3 = {
      exampleSrc:"A: The results of the opinion poll are out.\nB: What were the results?",
      funFact:"調査 appears constantly in Japanese news. よろんちょうさ (public opinion surveys) are conducted frequently by major newspapers. The two kanji 調 (tune/investigate) and 査 (inspect) together suggest a thorough, methodical examination. Japan is known for meticulous data collection."},
 
-    {type:"fb", s:"おもしろい___をよみました。\n(I read an interesting article.)", a:"きじ", opts:["きじ","しんぶん","ほうどう","ざっし"], sSrc:"I read an interesting article.",
+    {type:"fb", s:"おもしろい{1}をよみました。\n(I read an interesting article.)", a:"きじ", opts:["きじ","しんぶん","ほうどう","ざっし"], sSrc:"I read an interesting article.",
      hint:"The word for a specific written news story or report in a publication."},
 
     {type:"teach", trg:"はっぴょうする", src:"to announce / to present / to publish", pos:"verb", gender:null,
@@ -79,7 +79,7 @@ const LESSON_3 = {
 
     {type:"match", pairs:[{trg:"はんたい",src:"opposition"},{trg:"さんせい",src:"agreement"},{trg:"ちょうさ",src:"investigation"},{trg:"はっぴょうする",src:"to announce"}]},
 
-    {type:"fb", s:"せいふがあたらしいたいさくを___しました。\n(The government announced new countermeasures.)", a:"はっぴょう", opts:["はっぴょう","ちょうさ","ほうどう","はんたい"], sSrc:"The government announced new countermeasures.",
+    {type:"fb", s:"せいふがあたらしいたいさくを{1}しました。\n(The government announced new countermeasures.)", a:"はっぴょう", opts:["はっぴょう","ちょうさ","ほうどう","はんたい"], sSrc:"The government announced new countermeasures.",
      hint:"The word for making an official public statement or presenting results."},
 
     {type:"mc", q:"えいきょう means:", opts:["investigation","influence/impact","announcement","agreement"], ans:"influence/impact",

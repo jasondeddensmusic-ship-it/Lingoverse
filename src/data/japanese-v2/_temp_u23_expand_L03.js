@@ -1,4 +1,4 @@
-// Unit 23 Expansion — Lesson 5: めいしかとけいしき (Nominalization in Formal Writing)
+// Unit 23 Expansion. Lesson 5: めいしかとけいしき (Nominalization in Formal Writing)
 const LESSON_5 = {
   id:"jav2_u23l5", title:"めいしかとけいしき", icon:"✍️", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_5 = {
      exampleSrc:"A: The project succeeded.\nB: Congratulations. Thanks to everyone's effort.",
      funFact:"成功 combines 成 (become/accomplish) and 功 (achievement/merit). Japanese success culture values group effort over individual achievement. Saying みんなのおかげで (thanks to everyone) after せいこう is socially expected. Taking sole credit is considered arrogant. The collective framing (チームのせいこう, team success) is always preferred."},
 
-    {type:"fb", s:"いまからしゅっぱつする___です。\n(I am just about to leave now.)", a:"ところ", opts:["ところ","こと","もの","はず"], sSrc:"I am just about to leave now.",
+    {type:"fb", s:"いまからしゅっぱつする{1}です。\n(I am just about to leave now.)", a:"ところ", opts:["ところ","こと","もの","はず"], sSrc:"I am just about to leave now.",
      hint:"The word marking a temporal point. With dictionary form, it means 'about to start.'"},
 
     {type:"teach", trg:"〜ないことだ", src:"the thing is to NOT ~ / you should NOT ~", pos:"part", gender:null,
@@ -73,7 +73,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"しっぱい",src:"failure"},{trg:"せいこう",src:"success"},{trg:"おもいで",src:"memory"},{trg:"あせる",src:"to rush/panic"}]},
 
-    {type:"fb", s:"ひとはだれでもしっぱいする___です。\n(It is natural for anyone to make mistakes.)", a:"もの", opts:["もの","こと","ところ","はず"], sSrc:"It is natural for anyone to make mistakes.",
+    {type:"fb", s:"ひとはだれでもしっぱいする{1}です。\n(It is natural for anyone to make mistakes.)", a:"もの", opts:["もの","こと","ところ","はず"], sSrc:"It is natural for anyone to make mistakes.",
      hint:"The nominalizer expressing a general truth or natural tendency of human nature."},
 
     {type:"mc", q:"しゅっぱつするところだ means:", opts:["I should depart","I used to depart","I am about to depart","Departing is natural"], ans:"I am about to depart",

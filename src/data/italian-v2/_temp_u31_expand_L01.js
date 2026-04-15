@@ -1,4 +1,4 @@
-// Unit 31 Expansion — Lesson 4: L'etica del giornalismo
+// Unit 31 Expansion. Lesson 4: L'etica del giornalismo
 const LESSON_4 = {
   id:"itv2_u31l4", title:"L'etica del giornalismo", icon:"⚖️", xp:15, board:true,
   steps:[

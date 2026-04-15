@@ -1,4 +1,4 @@
-// Unit 16 Expansion L3 — Scheduling & Invitations
+// Unit 16 Expansion L3. Scheduling & Invitations
 // Making appointments, inviting people, accepting/declining.
 
 const LESSON_3 = {id:"jav2_u16l3", title:"やくそくとさそい", icon:"📅", xp:15, board:true, steps:[
@@ -45,7 +45,7 @@ const LESSON_3 = {id:"jav2_u16l3", title:"やくそくとさそい", icon:"📅"
    exampleSrc:"A: Would you like to have a barbecue on Sunday?\nB: Absolutely! I am looking forward to it.",
    funFact:"ぜひ is the enthusiastic 'yes' to invitations. It conveys genuine excitement and eagerness. The full phrase ぜひおねがいします (by all means, please) is used in both social and business contexts. When recommending something, ぜひ + command: ぜひたべてみてください (you absolutely must try eating this)."},
 
-  {type:"fb", s:"どようびは___がいいですか？\n(Is Saturday convenient for you?)", a:"つごう", opts:["つごう","よてい","やくそく","じかん"], sSrc:"Is Saturday convenient for you?",
+  {type:"fb", s:"どようびは{1}がいいですか？\n(Is Saturday convenient for you?)", a:"つごう", opts:["つごう","よてい","やくそく","じかん"], sSrc:"Is Saturday convenient for you?",
    hint:"The polite word for scheduling availability/convenience."},
 
   {type:"teach", trg:"ざんねんですが", src:"unfortunately / I am sorry but", pos:"part", gender:null,
@@ -75,7 +75,7 @@ const LESSON_3 = {id:"jav2_u16l3", title:"やくそくとさそい", icon:"📅"
    exampleSrc:"A: Are you free this Saturday?\nB: Yes, I am free. Is something happening?",
    funFact:"暇 can be positive (free time available) or slightly negative (bored/idle). ひまですか is casual but widely used among friends. In business, あいていますか or つごうはいかがですか are more appropriate. Saying ひまです about yourself is fine; saying it about someone else's job can be rude."},
 
-  {type:"fb", s:"___ですが、どようびはよていがあります。\n(Unfortunately, I have plans on Saturday.)", a:"ざんねん", opts:["ざんねん","たのしみ","だいじょうぶ","すみません"], sSrc:"Unfortunately, I have plans on Saturday.",
+  {type:"fb", s:"{1}ですが、どようびはよていがあります。\n(Unfortunately, I have plans on Saturday.)", a:"ざんねん", opts:["ざんねん","たのしみ","だいじょうぶ","すみません"], sSrc:"Unfortunately, I have plans on Saturday.",
    hint:"The word meaning 'regrettable' used before explaining why you must decline."},
 
   {type:"match", pairs:[{trg:"やくそく",src:"promise/appointment"},{trg:"ませんか",src:"would you like to?"},{trg:"ましょう",src:"let us"},{trg:"ぜひ",src:"absolutely"}]},
@@ -85,7 +85,7 @@ const LESSON_3 = {id:"jav2_u16l3", title:"やくそくとさそい", icon:"📅"
   {type:"mc", q:"ざんねんですが is used to:", opts:["Accept enthusiastically","Politely decline","Ask a question","Express surprise"], ans:"Politely decline",
    hint:"This phrase expresses regret before giving a reason for declining."},
 
-  {type:"fb", s:"らいしゅうの パーティーを___にしています。\n(I am looking forward to next week's party.)", a:"たのしみ", opts:["たのしみ","たのしい","たのしく","たのしむ"], sSrc:"I am looking forward to next week's party.",
+  {type:"fb", s:"らいしゅうの パーティーを{1}にしています。\n(I am looking forward to next week's party.)", a:"たのしみ", opts:["たのしみ","たのしい","たのしく","たのしむ"], sSrc:"I am looking forward to next week's party.",
    hint:"The noun form meaning 'enjoyment/anticipation' used with にしている."},
 
   {type:"tip", title:"Invitations: Making, Accepting, Declining",

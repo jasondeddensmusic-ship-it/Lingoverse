@@ -1,4 +1,4 @@
-// Unit 24 Expansion — Lesson 5: エッセイのつなぎ (Essay & Presentation Connectors)
+// Unit 24 Expansion. Lesson 5: エッセイのつなぎ (Essay & Presentation Connectors)
 const LESSON_5 = {
   id:"jav2_u24l5", title:"エッセイのつなぎ", icon:"📄", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_5 = {
      exampleSrc:"A: The urban population is increasing. Meanwhile, the rural population is decreasing.\nB: That is a challenge for Japan.",
      funFact:"一方 without で is the written variant preferred in essays and news. It frames two sides of a coin: A is happening; meanwhile, B is also happening. News articles use 一方 to present balanced reporting. It can also introduce yourself pivoting to the other side of your own argument: 'I support X. 一方, I understand the concerns about Y.'"},
 
-    {type:"fb", s:"にほんのたべものはおいしいです。___、おすしがだいすきです。\n(Japanese food is delicious. Especially, I love sushi.)", a:"とくに", opts:["とくに","たとえば","ようするに","さらに"], sSrc:"Japanese food is delicious. Especially, I love sushi.",
+    {type:"fb", s:"にほんのたべものはおいしいです。{1}、おすしがだいすきです。\n(Japanese food is delicious. Especially, I love sushi.)", a:"とくに", opts:["とくに","たとえば","ようするに","さらに"], sSrc:"Japanese food is delicious. Especially, I love sushi.",
      hint:"The adverb that highlights one item as particularly noteworthy from a group."},
 
     {type:"teach", trg:"いじょう", src:"that is all / the above / more than", pos:"noun", gender:null,
@@ -73,7 +73,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"とくに",src:"especially"},{trg:"ようするに",src:"in short"},{trg:"いっぽう",src:"on the one hand"},{trg:"いじょう",src:"that is all"}]},
 
-    {type:"fb", s:"___でわたしのはっぴょうをおわります。\n(With that, I conclude my presentation.)", a:"いじょう", opts:["いじょう","まとめ","さいごに","ようするに"], sSrc:"With that, I conclude my presentation.",
+    {type:"fb", s:"{1}でわたしのはっぴょうをおわります。\n(With that, I conclude my presentation.)", a:"いじょう", opts:["いじょう","まとめ","さいごに","ようするに"], sSrc:"With that, I conclude my presentation.",
      hint:"The word meaning 'the above' that professionally signals the end of a report."},
 
     {type:"mc", q:"いっぽう is different from しかし because:", opts:["They mean the same thing","いっぽう presents a parallel view, しかし contradicts","いっぽう is casual, しかし is formal","いっぽう is only for spoken Japanese"], ans:"いっぽう presents a parallel view, しかし contradicts",

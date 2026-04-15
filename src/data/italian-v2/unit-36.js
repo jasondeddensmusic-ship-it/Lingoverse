@@ -1,5 +1,5 @@
-// Italian V2 Unit 36 — Esame finale (Comprehensive Review)
-// Level: B2.4 — CILS/CELI B2 aligned.
+// Italian V2 Unit 36. Esame finale (Comprehensive Review)
+// Level: B2.4. CILS/CELI B2 aligned.
 
 const UNIT_36 = {
   n:36, lang:"it", srcLang:"en", track:"v2",
@@ -93,7 +93,7 @@ const UNIT_36 = {
 
       {type:"mc",
        q:"Qual e la differenza tra 'coerenza' e 'coesione' in un testo?",
-       opts:["Sono la stessa cosa","La coerenza riguarda la logica delle idee, la coesione i legami linguistici","La coesione e piu importante della coerenza","La coerenza riguarda la grammatica, la coesione il lessico"],
+       opts:["Sono concetti identici e perfettamente intercambiabili nella scrittura","La coerenza riguarda la logica delle idee, la coesione i legami linguistici","La coesione ha un ruolo piu importante e fondamentale della coerenza","La coerenza riguarda la correttezza grammaticale, la coesione la scelta lessicale"],
        ans:"La coerenza riguarda la logica delle idee, la coesione i legami linguistici",
        hint:"One concerns whether your ideas flow in a consistent, non-contradictory way. The other concerns the words and devices that link your sentences together."},
 
@@ -122,7 +122,20 @@ const UNIT_36 = {
        q:"Quale connettivo introduce una concessione e richiede il congiuntivo?",
        opts:["Pertanto","Inoltre","Benche","Di conseguenza"],
        ans:"Benche",
-       hint:"This word means 'although' and must be followed by the subjunctive mood. It introduces a concession before the main point."}
+       hint:"This word means 'although' and must be followed by the subjunctive mood. It introduces a concession before the main point."},
+
+      {type:"fb",
+       s:"'Stare per partire' e una {1} verbale che esprime il futuro imminente.",
+       a:["perifrasi"],
+       opts:["perifrasi","concordanza","coerenza","locuzione"],
+       hint:"Using multiple words to express something a single word could say. From Greek roots meaning 'speaking around' something.",
+       sSrc:"'Stare per partire' is a verbal {1} expressing the imminent future."},
+
+      {type:"mc",
+       q:"In un saggio accademico, che cosa rende solida l'argomentazione?",
+       opts:["L'uso di molte citazioni in lingue straniere","L'assenza di connettivi per un testo piu diretto","La lunghezza del testo e il numero di paragrafi","Ogni tesi supportata da prove ed esempi concreti"],
+       ans:"Ogni tesi supportata da prove ed esempi concreti",
+       hint:"Structured reasoning where each claim is backed by evidence. The Italian academic tradition values this over mere assertion."}
     ]},
 
     // ─── Lesson 2: Produzione scritta e orale ───
@@ -135,7 +148,7 @@ const UNIT_36 = {
        note:"Masculine noun. Plural: i saggi.\n'Saggio breve' = short essay (a standard Italian exam format). Also means 'wise man.'",
        example:"A: Il saggio deve avere un'introduzione, uno sviluppo e una conclusione.\nB: Non dimenticare la bibliografia alla fine.",
        exampleSrc:"A: The essay must have an introduction, a development, and a conclusion.\nB: Do not forget the bibliography at the end.",
-       funFact:"'Saggio' has a beautiful double meaning: 'wise person' and 'essay/treatise.' Both derive from Latin 'sapere' (to know/to taste). A saggio is literally a 'tasting' of knowledge, a sampling of wisdom."},
+       funFact:"'Saggio' has a double meaning: 'wise person' (from Latin 'sapiens') and 'essay/test' (from Latin 'exagium', a weighing or trial). Though different in origin, Italians enjoy the connection: a wise person is one who has weighed and tested ideas."},
 
       {type:"teach", trg:"l'introduzione", src:"the introduction", pos:"noun", gender:"f",
        note:"Feminine noun. The opening section of a text or speech.\n'In introduzione' = in the introduction.",
@@ -206,7 +219,7 @@ const UNIT_36 = {
 
       {type:"mc",
        q:"Quale espressione e la piu formale per introdurre un'opinione personale?",
-       opts:["Per me","A mio avviso","Secondo me","Io penso"],
+       opts:["Per me (orale)","A mio avviso","Secondo me (neutro)","Io penso che"],
        ans:"A mio avviso",
        hint:"The most formal option among these four ways to express a personal opinion. Used in academic essays and official documents."},
 
@@ -239,9 +252,22 @@ const UNIT_36 = {
 
       {type:"mc",
        q:"Che cosa significa 'capacita di sintesi'?",
-       opts:["L'abilita di scrivere testi molto lunghi","La conoscenza di molte lingue straniere","L'abilita di riassumere le idee in modo chiaro e conciso","La capacita di parlare velocemente"],
+       opts:["L'abilita di scrivere testi molto lunghi e dettagliati","La conoscenza approfondita di molte lingue straniere diverse","L'abilita di riassumere le idee in modo chiaro e conciso","La capacita di parlare molto velocemente senza esitazioni"],
        ans:"L'abilita di riassumere le idee in modo chiaro e conciso",
-       hint:"The ability to take complex information and present it in a clear, condensed form. From Greek 'synthesis' (putting together)."}
+       hint:"The ability to take complex information and present it in a clear, condensed form. From Greek 'synthesis' (putting together)."},
+
+      {type:"fb",
+       s:"'A mio avviso' e una {1} avverbiale tipica del registro formale.",
+       a:["locuzione"],
+       opts:["locuzione","perifrasi","concordanza","tesi"],
+       hint:"A fixed multi-word expression that functions as a single grammatical unit. Mastering these marks the shift to fluency.",
+       sSrc:"'A mio avviso' is an adverbial {1} typical of the formal register."},
+
+      {type:"mc",
+       q:"Come si chiama l'insieme delle parole che compongono una lingua o che una persona conosce?",
+       opts:["La grammatica","La morfologia","La sintassi","Il lessico"],
+       ans:"Il lessico",
+       hint:"The full stock of words in a language. At B2 level, a learner controls around 4,000 to 5,000 items from this total store."}
     ]}
   ]
 };

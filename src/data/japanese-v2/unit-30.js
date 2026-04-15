@@ -1,5 +1,5 @@
-// Japanese V2 Unit 30 — てつがく (Philosophy & Abstract Thought)
-// Level: B2.3 — JLPT N2/N1 aligned.
+// Japanese V2 Unit 30. てつがく (Philosophy & Abstract Thought)
+// Level: B2.3. JLPT N2/N1 aligned.
 // そんざい, がいねん, ろんり, しゅかん, きゃっかん, ほんしつ, かち.
 
 const UNIT_30 = {
@@ -24,7 +24,7 @@ const UNIT_30 = {
    note:"Kanji: 存在. そんざいする = to exist.\nそんざいかん = sense of presence/existence.",
    example:"A: じんせいのいみやそんざいのもくてきについてかんがえたことはありますか？\nB: はい、だれでもいちどはかんがえますよね。",
    exampleSrc:"A: Have you ever thought about the meaning of life or the purpose of existence?\nB: Yes, everyone thinks about it at least once.",
-   funFact:"存在 combines 存 (preserve/exist) and 在 (be located). In Japanese philosophy, そんざい became central when Heidegger's 'Sein' (Being) was translated. The existentialist movement in postwar Japan produced major thinkers like Nishida Kitaro, who attempted to bridge Western and Eastern concepts of being."},
+   funFact:"存在 combines 存 (preserve/exist) and 在 (be located). In Japanese philosophy, そんざい became central when Heidegger's 'Sein' (Being) was translated. The philosopher Nishida Kitaro (1870-1945) of the Kyoto School attempted to bridge Western and Eastern concepts of being through his idea of 'absolute nothingness.'"},
 
   {type:"teach", trg:"がいねん", src:"concept / notion", pos:"noun", gender:null,
    note:"Kanji: 概念. がいねんてき = conceptual.\nちゅうしょうてきながいねん = abstract concept.",
@@ -101,6 +101,18 @@ const UNIT_30 = {
    hint:"The noun meaning 'consciousness' or 'awareness,' used when talking about social awareness."},
 
   {type:"match", pairs:[{trg:"てつがく",src:"philosophy"},{trg:"そんざい",src:"existence"},{trg:"ほんしつ",src:"essence"},{trg:"いしき",src:"consciousness"}]},
+
+  {type:"mc", q:"てつがく was coined in Japan to translate which concept?", opts:["science","history","mathematics","philosophy"], ans:"philosophy",
+   hint:"Meiji-era scholar Nishi Amane created this kanji compound in 1874 to name a Western academic discipline."},
+
+  {type:"fb", s:"このがいねんはことばでせつめいするのが{1}。\n(This concept is difficult to explain in words.)", a:"むずかしい", opts:["むずかしい","やさしい","たのしい","おもしろい"], sSrc:"This concept is difficult to explain in words.",
+   hint:"The i-adjective meaning 'difficult' or 'hard.'"},
+
+  {type:"mc", q:"ぜったい and そうたい are opposites. ぜったい means:", opts:["absolute","temporary","relative","conditional"], ans:"absolute",
+   hint:"Something that stands alone without comparison, severing all paired reference points."},
+
+  {type:"mc", q:"そうたいてき describes something that:", opts:["exists on its own","exists only in relation to something else","stands absolutely fixed","is philosophically certain"], ans:"exists only in relation to something else",
+   hint:"The kanji uses 'mutual' and 'face each other,' suggesting a paired or comparative existence."},
 ]},
 
 // ═══ L2: Philosophical Arguments & Debate ═══
@@ -190,6 +202,12 @@ const UNIT_30 = {
 
   {type:"fb", s:"まず、じゆうの{1}をかくにんしましょう。\n(First, let us confirm the definition of freedom.)", a:"ていぎ", opts:["ていぎ","しんり","がいねん","ほんしつ"], sSrc:"First, let us confirm the definition of freedom.",
    hint:"The noun meaning 'definition,' the act of fixing the precise meaning of a term."},
+
+  {type:"mc", q:"ぜんてい means:", opts:["conclusion","counterargument","definition","premise"], ans:"premise",
+   hint:"The starting assumption you 'put forward before' building a logical argument."},
+
+  {type:"mc", q:"どうとく refers to:", opts:["morality and ethics","formal logic","the legal system","abstract art"], ans:"morality and ethics",
+   hint:"The word combining 'way/path' and 'virtue,' also the name of a school subject in Japan."},
 ]},
 
 ]};

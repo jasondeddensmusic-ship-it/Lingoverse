@@ -1,4 +1,4 @@
-// Unit 17 Expansion — Lesson 5: Streaming and Digital Literacy
+// Unit 17 Expansion. Lesson 5: Streaming and Digital Literacy
 const LESSON_5 = {
   id:"itv2_u17l5", title:"Streaming e alfabetizzazione digitale", icon:"🎬", xp:15, board:true,
   steps:[

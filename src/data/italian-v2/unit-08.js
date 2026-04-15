@@ -1,4 +1,4 @@
-// Italian V2 Unit 08 — Lo shopping (Shopping & Clothes) (A2.1)
+// Italian V2 Unit 08. Lo shopping (Shopping & Clothes) (A2.1)
 // CILS/CELI A2 aligned. Clothing, shopping vocabulary, colors and patterns.
 import EXP_08_L1 from './_temp_u08_expand_L01.js';import EXP_08_L2 from './_temp_u08_expand_L02.js';import EXP_08_L3 from './_temp_u08_expand_L03.js';
 

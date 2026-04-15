@@ -1,5 +1,5 @@
-// Japanese V2 Unit 14 — いけん (Opinions)
-// Level: A2.2 — JLPT N4 aligned.
+// Japanese V2 Unit 14. いけん (Opinions)
+// Level: A2.2. JLPT N4 aligned.
 import JEXP_14_L1 from './_temp_u14_expand_L01.js';import JEXP_14_L2 from './_temp_u14_expand_L02.js';import JEXP_14_L3 from './_temp_u14_expand_L03.js';
 // と思う, と言う, でしょう, かもしれない.
 
@@ -54,7 +54,7 @@ const UNIT_14 = {
    exampleSrc:"A: Do you think Japanese is easy?\nB: I think the pronunciation is easy.",
    funFact:"簡単 has an interesting grammatical note: as a な-adjective, it needs だ before と in the opinion pattern. So it is かんたんだとおもう, not かんたんとおもう. This だ insertion for な-adjectives and nouns is a common JLPT N4 test point."},
 
-  {type:"fb", s:"にほんごはおもしろい___おもいます。\n(I think Japanese is interesting.)", a:"と", opts:["と","を","が","に"], sSrc:"I think Japanese is interesting.",
+  {type:"fb", s:"にほんごはおもしろい{1}おもいます。\n(I think Japanese is interesting.)", a:"と", opts:["と","を","が","に"], sSrc:"I think Japanese is interesting.",
    hint:"The quotation particle that marks the content of a thought or statement."},
 
   {type:"teach", trg:"ただしい", src:"correct / right", pos:"adj", gender:null,
@@ -74,7 +74,7 @@ const UNIT_14 = {
 
   {type:"match", pairs:[{trg:"とおもう",src:"I think"},{trg:"という",src:"is called / said"},{trg:"むずかしい",src:"difficult"},{trg:"かんたん",src:"easy"}]},
 
-  {type:"fb", s:"せんせいはなん___いいましたか？\n(What did the teacher say?)", a:"と", opts:["と","を","に","で"], sSrc:"What did the teacher say?",
+  {type:"fb", s:"せんせいはなん{1}いいましたか？\n(What did the teacher say?)", a:"と", opts:["と","を","に","で"], sSrc:"What did the teacher say?",
    hint:"The particle that connects quoted speech to the verb of saying."},
 
   {type:"match", pairs:[{trg:"ただしい",src:"correct"},{trg:"ちがう",src:"different / wrong"},{trg:"おもう",src:"to think"},{trg:"いう",src:"to say"}]},
@@ -128,7 +128,7 @@ const UNIT_14 = {
    exampleSrc:"A: I am sure it will be fine.\nB: Thank you. I hope so.",
    funFact:"きっと carries emotional warmth that たぶん lacks. Saying きっとうまくいく (it will surely go well) is encouraging, while たぶんうまくいく (it will probably go well) sounds less committed. Use きっと when you want to reassure someone."},
 
-  {type:"fb", s:"あしたゆきがふる___。\n(It might snow tomorrow.)", a:"かもしれません", opts:["かもしれません","でしょう","です","ました"], sSrc:"It might snow tomorrow.",
+  {type:"fb", s:"あしたゆきがふる{1}。\n(It might snow tomorrow.)", a:"かもしれません", opts:["かもしれません","でしょう","です","ました"], sSrc:"It might snow tomorrow.",
    hint:"The pattern expressing possibility ('cannot be known whether'), polite form."},
 
   {type:"teach", trg:"てんき", src:"weather", pos:"noun", gender:null,
@@ -150,7 +150,7 @@ const UNIT_14 = {
 
   {type:"match", pairs:[{trg:"ぜったい",src:"definitely"},{trg:"きっと",src:"surely"},{trg:"てんき",src:"weather"},{trg:"あめ",src:"rain"}]},
 
-  {type:"fb", s:"___あしたはいいてんきだとおもいます。\n(I think tomorrow will probably be nice weather.)", a:"たぶん", opts:["たぶん","ぜったい","いつも","きのう"], sSrc:"I think tomorrow will probably be nice weather.",
+  {type:"fb", s:"{1}あしたはいいてんきだとおもいます。\n(I think tomorrow will probably be nice weather.)", a:"たぶん", opts:["たぶん","ぜったい","いつも","きのう"], sSrc:"I think tomorrow will probably be nice weather.",
    hint:"The adverb meaning 'probably' placed at the start of a sentence."},
 
   {type:"mc", q:"きっとだいじょうぶですよ means:", opts:["It is probably fine","It is definitely not fine","I am sure it will be fine","Maybe it is fine"], ans:"I am sure it will be fine",

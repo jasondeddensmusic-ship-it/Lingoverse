@@ -1,4 +1,4 @@
-// Unit 26 Expansion — Lesson 6: Contratti e normativa
+// Unit 26 Expansion. Lesson 6: Contratti e normativa
 const LESSON_6 = {
   id:"itv2_u26l6", title:"Contratti e normativa", icon:"📝", xp:15, board:true,
   steps:[

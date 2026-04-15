@@ -1,5 +1,5 @@
-// Japanese V2 Unit 34 — こくさいかんけい (International Relations)
-// Level: B2.4 — JLPT N2/N1 aligned.
+// Japanese V2 Unit 34. こくさいかんけい (International Relations)
+// Level: B2.4. JLPT N2/N1 aligned.
 // がいこう, こくれん, じょうやく, ふんそう, きょうりょく, えんじょ, あんぜんほしょう.
 
 const UNIT_34 = {
@@ -77,6 +77,15 @@ const UNIT_34 = {
    hint:"The noun meaning 'cooperation,' working together with others toward a shared goal."},
 
   {type:"match", pairs:[{trg:"しゅけん",src:"sovereignty"},{trg:"あんぜんほしょう",src:"security"},{trg:"こくさいかんけい",src:"international relations"},{trg:"きょうりょく",src:"cooperation"}]},
+
+  {type:"mc", q:"こくれん stands for:", opts:["the G7 group","the World Bank","the United Nations","the Asian Development Bank"], ans:"the United Nations",
+   hint:"This abbreviation shortens 国際連合, the international body founded after World War II."},
+
+  {type:"mc", q:"しゅけん means:", opts:["military power","citizenship","taxation","sovereignty"], ans:"sovereignty",
+   hint:"The compound of 'master/main' and 'authority,' the supreme power of a nation over itself."},
+
+  {type:"mc", q:"あんぜんほしょう refers to:", opts:["national/collective security","economic security","food security","financial security"], ans:"national/collective security",
+   hint:"This four-kanji compound is abbreviated as あんぽ, and anchors Japan's defense alliance with the US."},
 ]},
 
 // ═══ L2: Global Challenges & Japan's Role ═══
@@ -154,6 +163,18 @@ const UNIT_34 = {
    hint:"The noun meaning 'negotiation,' the process of discussing and bargaining."},
 
   {type:"match", pairs:[{trg:"たいし",src:"ambassador"},{trg:"さみっと",src:"summit"},{trg:"こうしょう",src:"negotiation"},{trg:"かいさい",src:"hosting (event)"}]},
+
+  {type:"mc", q:"きこうへんどう means:", opts:["nuclear crisis","natural disaster","climate change","economic downturn"], ans:"climate change",
+   hint:"This compound uses 気候 (climate) plus the word for 'change/fluctuation,' related to the Kyoto Protocol."},
+
+  {type:"mc", q:"さみっと refers to:", opts:["a trade agreement","a UN resolution","a diplomatic crisis","an international summit meeting"], ans:"an international summit meeting",
+   hint:"A loanword from English, this event brings world leaders together, such as the G7."},
+
+  {type:"fb", s:"このじょうやくにさんかする{1}がふえています。\n(More countries are joining this treaty.)", a:"くに", opts:["くに","だんたい","かい","きかん"], sSrc:"More countries are joining this treaty.",
+   hint:"The common noun for a nation or country."},
+
+  {type:"mc", q:"かいさいする means:", opts:["to hold/host an event","to attend an event","to cancel an event","to broadcast an event"], ans:"to hold/host an event",
+   hint:"The verb combining 'open' and 'sponsor,' used when a city or country organizes a major international event."},
 ]},
 
 ]};

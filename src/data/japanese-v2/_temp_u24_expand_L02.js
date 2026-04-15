@@ -1,4 +1,4 @@
-// Unit 24 Expansion — Lesson 4: それに・さらに・そこで (Addition & Action Connectors)
+// Unit 24 Expansion. Lesson 4: それに・さらに・そこで (Addition & Action Connectors)
 const LESSON_4 = {
   id:"jav2_u24l4", title:"それに・さらに・そこで", icon:"📎", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_4 = {
      exampleSrc:"A: That was a good judgment.\nB: I considered the situation carefully and decided.",
      funFact:"判断 combines 判 (judge, stamp) and 断 (sever/decide). Making a はんだん means cutting through ambiguity to reach a conclusion. Japanese business culture values careful はんだん over quick decisions. The phrase じしゅてきはんだん (autonomous judgment) is prized in workers, but only within the boundaries set by group consensus."},
 
-    {type:"fb", s:"でんしゃがおくれていました。___、タクシーでいくことにしました。\n(The train was delayed. And so, I decided to go by taxi.)", a:"そこで", opts:["そこで","そのため","それに","さらに"], sSrc:"The train was delayed. And so, I decided to go by taxi.",
+    {type:"fb", s:"でんしゃがおくれていました。{1}、タクシーでいくことにしました。\n(The train was delayed. And so, I decided to go by taxi.)", a:"そこで", opts:["そこで","そのため","それに","さらに"], sSrc:"The train was delayed. And so, I decided to go by taxi.",
      hint:"The connector that links a situation to the concrete action taken in response."},
 
     {type:"teach", trg:"〜だけでなく", src:"not only ~ (but also)", pos:"conj", gender:null,
@@ -73,7 +73,7 @@ const LESSON_4 = {
 
     {type:"match", pairs:[{trg:"うりあげ",src:"sales/revenue"},{trg:"せいちょう",src:"growth"},{trg:"はんだん",src:"judgment"},{trg:"じょうきょう",src:"situation"}]},
 
-    {type:"fb", s:"きょうはどうろがこんでいます。___、おくれるかもしれません。\n(The roads are congested today. For that reason, I might be late.)", a:"そのため", opts:["そのため","そこで","それに","つまり"], sSrc:"The roads are congested today. For that reason, I might be late.",
+    {type:"fb", s:"きょうはどうろがこんでいます。{1}、おくれるかもしれません。\n(The roads are congested today. For that reason, I might be late.)", a:"そのため", opts:["そのため","そこで","それに","つまり"], sSrc:"The roads are congested today. For that reason, I might be late.",
      hint:"The polite formal connector expressing cause and effect, more neutral than したがって."},
 
     {type:"mc", q:"だけでなく means:", opts:["Not only","Only if","Nothing but","Even though"], ans:"Not only",

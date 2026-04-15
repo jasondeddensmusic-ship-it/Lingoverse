@@ -1,4 +1,4 @@
-// Unit 23 Expansion — Lesson 6: L'immigrazione e l'integrazione
+// Unit 23 Expansion. Lesson 6: L'immigrazione e l'integrazione
 const LESSON_6 = {
   id:"itv2_u23l6", title:"L'immigrazione e l'integrazione", icon:"🌍", xp:15, board:true,
   steps:[

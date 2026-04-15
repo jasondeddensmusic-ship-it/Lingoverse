@@ -1,5 +1,5 @@
-// Italian V2 Unit 33 — La filosofia (Philosophy)
-// Level: B2.3 — CILS/CELI B2 aligned.
+// Italian V2 Unit 33. La filosofia (Philosophy)
+// Level: B2.3. CILS/CELI B2 aligned.
 
 const UNIT_33 = {
   n:33, lang:"it", srcLang:"en", track:"v2",
@@ -64,7 +64,7 @@ const UNIT_33 = {
        note:"Masculine noun. Plural: i dubbi.\n'Mettere in dubbio' = to question / to cast doubt on. 'Senza dubbio' = without doubt.",
        example:"A: Il dubbio e il punto di partenza della filosofia.\nB: Chi non dubita, non pensa veramente.",
        exampleSrc:"A: Doubt is the starting point of philosophy.\nB: Those who do not doubt do not truly think.",
-       funFact:"Descartes' 'dubito ergo cogito' (I doubt therefore I think) was written in Latin but profoundly influenced Italian philosophy. Italian thinkers like Giambattista Vico developed alternative approaches to certainty."},
+       funFact:"Descartes' method of systematic doubt ('cogito ergo sum' = I think therefore I am) profoundly influenced Italian philosophy. Italian thinkers like Giambattista Vico challenged Cartesian rationalism with alternative approaches to knowledge and certainty."},
 
       {type:"fb",
        s:"Socrate diceva che il vero sapere inizia dal {1}.",
@@ -93,7 +93,7 @@ const UNIT_33 = {
 
       {type:"mc",
        q:"In filosofia, cos'e un paradosso?",
-       opts:["Una domanda senza risposta","Una contraddizione apparente che rivela una verita","Un ragionamento sempre falso","Un argomento basato su fatti concreti"],
+       opts:["Una domanda priva di risposta possibile","Una contraddizione apparente che rivela una verita","Un ragionamento che porta sempre a conclusioni false","Un argomento che si fonda esclusivamente su fatti concreti"],
        ans:"Una contraddizione apparente che rivela una verita",
        hint:"It seems to contradict itself on the surface, yet it uncovers something true. Greek roots mean 'against opinion.'"},
 
@@ -101,7 +101,7 @@ const UNIT_33 = {
        note:"Masculine noun. Plural: i principi.\n'In principio' = in the beginning. 'Per principio' = on principle.",
        example:"A: Quali sono i principi fondamentali della democrazia?\nB: Liberta, uguaglianza e partecipazione.",
        exampleSrc:"A: What are the fundamental principles of democracy?\nB: Freedom, equality, and participation.",
-       funFact:"'Principio' holds both temporal (beginning) and moral (guiding rule) meanings. Machiavelli's 'Il Principe' plays on the related word 'principe' (prince), connecting political power with foundational principles."},
+       funFact:"'Principio' holds both temporal (beginning) and moral (guiding rule) meanings. Both 'principio' and 'principe' (prince) come from Latin 'princeps' (first, chief), but in Italian they have distinct meanings: 'principio' is a concept, 'principe' is a ruler."},
 
       {type:"teach", trg:"l'esistenza", src:"existence", pos:"noun", gender:"f",
        note:"Feminine noun. From 'esistere' (to exist).\n'Mettere in discussione l'esistenza di' = to question the existence of.",
@@ -126,9 +126,15 @@ const UNIT_33 = {
 
       {type:"mc",
        q:"Che differenza c'e tra 'etica' e 'morale' in italiano?",
-       opts:["Sono esattamente sinonimi senza differenza","L'etica riguarda la religione, la morale la politica","L'etica e la disciplina filosofica, la morale e la condotta pratica","La morale e piu antica dell'etica"],
+       opts:["Sono termini perfettamente sinonimi e intercambiabili","L'etica appartiene alla sfera religiosa, la morale a quella politica","L'etica e la disciplina filosofica, la morale e la condotta pratica","La morale e un concetto piu antico e originario dell'etica"],
        ans:"L'etica e la disciplina filosofica, la morale e la condotta pratica",
-       hint:"One is the academic discipline studying right and wrong. The other refers to everyday behavior and practical moral conduct."}
+       hint:"One is the academic discipline studying right and wrong. The other refers to everyday behavior and practical moral conduct."},
+
+      {type:"mc",
+       q:"Che cos'e un'ipotesi in filosofia e nella scienza?",
+       opts:["Una conclusione definitiva e verificata sperimentalmente","Una regola grammaticale che governa la struttura del linguaggio","Un errore di ragionamento che invalida l'intero argomento","Una premessa iniziale non ancora dimostrata"],
+       ans:"Una premessa iniziale non ancora dimostrata",
+       hint:"From Greek roots meaning 'placed under.' It guides research but still needs evidence to become a proven claim."}
     ]},
 
     // ─── Lesson 2: Grandi pensatori e correnti filosofiche ───
@@ -232,7 +238,7 @@ const UNIT_33 = {
        note:"Masculine noun (compound). The philosophical concept of freedom of choice.\n'Credere nel libero arbitrio' = to believe in free will.",
        example:"A: Il libero arbitrio esiste davvero?\nB: I neuroscienziati mettono in dubbio la nostra liberta di scelta.",
        exampleSrc:"A: Does free will truly exist?\nB: Neuroscientists question our freedom of choice.",
-       funFact:"The debate on 'libero arbitrio' was central to Italian Renaissance theology. Erasmus and Luther argued fiercely about it, and Italian humanists took various positions between divine predetermination and human freedom."},
+       funFact:"The debate on 'libero arbitrio' was central to Renaissance theology. Erasmus wrote 'De libero arbitrio' (1524) defending free will, while Luther's reply denied it. Italian humanists like Pico della Mirandola championed human freedom of choice as the defining trait of humanity."},
 
       {type:"match", pairs:[
         {trg:"pensatore", src:"thinker"},
@@ -253,7 +259,20 @@ const UNIT_33 = {
        q:"Chi ha scritto i 'Quaderni del carcere', opera fondamentale della filosofia politica italiana?",
        opts:["Machiavelli","Beccaria","Gramsci","Croce"],
        ans:"Gramsci",
-       hint:"This thinker wrote his most important work while imprisoned by Mussolini. His concept of cultural hegemony became world-famous."}
+       hint:"This thinker wrote his most important work while imprisoned by Mussolini. His concept of cultural hegemony became world-famous."},
+
+      {type:"fb",
+       s:"Il professore {1} che la democrazia moderna sia in crisi profonda.",
+       a:["sostiene"],
+       opts:["sostiene","confuta","dubita","riflette"],
+       hint:"An irregular verb meaning to argue a position or defend a claim. Used when presenting an academic thesis.",
+       sSrc:"The professor {1} that modern democracy is in deep crisis."},
+
+      {type:"mc",
+       q:"Quando si chiede una 'riflessione profonda', cosa si richiede?",
+       opts:["Una risposta rapida e diretta","Un'analisi superficiale del problema","Una citazione da un filosofo famoso","Una considerazione meditata e attenta"],
+       ans:"Una considerazione meditata e attenta",
+       hint:"Deeper than a quick thought. This noun describes the kind of careful, sustained thinking a complex topic demands."}
     ]}
   ]
 };

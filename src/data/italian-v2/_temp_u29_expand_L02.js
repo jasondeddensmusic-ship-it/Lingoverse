@@ -1,4 +1,4 @@
-// Unit 29 Expansion — Lesson 5: L'intelligenza emotiva
+// Unit 29 Expansion. Lesson 5: L'intelligenza emotiva
 const LESSON_5 = {
   id:"itv2_u29l5", title:"L'intelligenza emotiva", icon:"💗", xp:15, board:true,
   steps:[

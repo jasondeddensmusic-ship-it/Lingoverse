@@ -1,4 +1,4 @@
-// Unit 22 Expansion — Lesson 5: やりもらいの使い分け (Choosing the Right Giving Verb)
+// Unit 22 Expansion. Lesson 5: やりもらいの使い分け (Choosing the Right Giving Verb)
 const LESSON_5 = {
   id:"jav2_u22l5", title:"やりもらいの使い分け", icon:"🧩", xp:15, board:true,
   steps:[
@@ -51,7 +51,7 @@ const LESSON_5 = {
      exampleSrc:"A: Would you take on this project?\nB: Yes, I would be happy to take it on.",
      funFact:"引き受ける combines 引く (pull) and 受ける (receive), creating the image of pulling a responsibility toward yourself. よろこんで (with pleasure) is the standard acceptance phrase in business. This contrasts with ことわる (refuse): Japanese work culture makes ひきうける the default, with refusal requiring careful navigation."},
 
-    {type:"fb", s:"このしょるいをかくにんして___か？\n(Could you kindly check this document?)", a:"いただけません", opts:["いただけません","もらえません","くれません","あげません"], sSrc:"Could you kindly check this document?",
+    {type:"fb", s:"このしょるいをかくにんして{1}か？\n(Could you kindly check this document?)", a:"いただけません", opts:["いただけません","もらえません","くれません","あげません"], sSrc:"Could you kindly check this document?",
      hint:"The most polite negative question request form, using the humble receiving verb."},
 
     {type:"teach", trg:"きをつかう", src:"to be considerate / to take care (socially)", pos:"verb", gender:null,
@@ -73,7 +73,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"かくにんする",src:"to confirm"},{trg:"そうだんする",src:"to consult"},{trg:"ひきうける",src:"to take on"},{trg:"きをつかう",src:"to be considerate"}]},
 
-    {type:"fb", s:"___をおかけしてすみません。\n(I am sorry for causing you trouble.)", a:"めいわく", opts:["めいわく","きもち","おれい","おかえし"], sSrc:"I am sorry for causing you trouble.",
+    {type:"fb", s:"{1}をおかけしてすみません。\n(I am sorry for causing you trouble.)", a:"めいわく", opts:["めいわく","きもち","おれい","おかえし"], sSrc:"I am sorry for causing you trouble.",
      hint:"The word for nuisance or bother, used in one of Japan's most common apology patterns."},
 
     {type:"mc", q:"きをつかう means:", opts:["to be careful","to be considerate of others","to be annoyed","to pay money"], ans:"to be considerate of others",

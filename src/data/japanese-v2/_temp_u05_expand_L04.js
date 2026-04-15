@@ -1,4 +1,4 @@
-// Unit 05 Expansion L06 — Drinks, Snacks & Convenience Store Culture
+// Unit 05 Expansion L06. Drinks, Snacks & Convenience Store Culture
 const LESSON_6 = {
   id:"jav2_u5l6", title:"コンビニとおやつ", icon:"🏪", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_6 = {
      exampleSrc:"A: Convenience store rice balls are delicious.\nB: Yes, cheap and tasty.",
      funFact:"Konbini onigiri are an engineering marvel. The packaging keeps the nori (seaweed) separate from the rice until you open it, so it stays crispy. The pull-tab opening system was designed by packaging engineers. Over 100 yen for a satisfying snack."},
 
-    {type:"fb", s:"のどがかわいた。___がある。",
+    {type:"fb", s:"のどがかわいた。{1}がある。",
      a:["じどうはんばいき"],
      opts:["じどうはんばいき","コンビニ","レストラン","がっこう"],
      hint:"The automatic drink-selling machines found on almost every Japanese street corner.",
@@ -104,7 +104,7 @@ const LESSON_6 = {
       {trg:"だんご", src:"rice dumplings"}
     ]},
 
-    {type:"fb", s:"バレンタインに___をあげます。",
+    {type:"fb", s:"バレンタインに{1}をあげます。",
      a:["チョコ"],
      opts:["チョコ","せんべい","だんご","おにぎり"],
      hint:"The sweet treat given on February 14th in Japan, usually handmade for someone special.",

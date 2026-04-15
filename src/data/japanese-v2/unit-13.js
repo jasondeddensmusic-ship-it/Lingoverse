@@ -1,5 +1,5 @@
-// Japanese V2 Unit 13 — けいけん (Experience)
-// Level: A2.1 — JLPT N4 aligned.
+// Japanese V2 Unit 13. けいけん (Experience)
+// Level: A2.1. JLPT N4 aligned.
 import JEXP_13_L1 from './_temp_u13_expand_L01.js';import JEXP_13_L2 from './_temp_u13_expand_L02.js';import JEXP_13_L3 from './_temp_u13_expand_L03.js';
 // たことがある, ことがない, travel vocabulary.
 
@@ -54,7 +54,7 @@ const UNIT_13 = {
    exampleSrc:"A: Have you climbed a mountain before?\nB: Yes, I climbed Mt. Fuji.",
    funFact:"登る uses the kanji 登, which shows feet climbing upward. Fuji-san ni noboru (to climb Mt. Fuji) is on many Japanese people's bucket lists. The official climbing season is July to September. Over 300,000 people climb it every year."},
 
-  {type:"fb", s:"ふじさんにのぼった___がありますか？\n(Have you climbed Mt. Fuji before?)", a:"こと", opts:["こと","もの","ひと","とき"], sSrc:"Have you climbed Mt. Fuji before?",
+  {type:"fb", s:"ふじさんにのぼった{1}がありますか？\n(Have you climbed Mt. Fuji before?)", a:"こと", opts:["こと","もの","ひと","とき"], sSrc:"Have you climbed Mt. Fuji before?",
    hint:"The word meaning 'thing/matter' that turns verbs into noun phrases."},
 
   {type:"teach", trg:"うみ", src:"sea / ocean", pos:"noun", gender:null,
@@ -74,7 +74,7 @@ const UNIT_13 = {
 
   {type:"match", pairs:[{trg:"りょこう",src:"travel"},{trg:"けいけん",src:"experience"},{trg:"はじめて",src:"first time"},{trg:"うみ",src:"sea"}]},
 
-  {type:"fb", s:"にほんは___ですか？\n(Is this your first time in Japan?)", a:"はじめて", opts:["はじめて","いちど","むかし","はじめ"], sSrc:"Is this your first time in Japan?",
+  {type:"fb", s:"にほんは{1}ですか？\n(Is this your first time in Japan?)", a:"はじめて", opts:["はじめて","いちど","むかし","はじめ"], sSrc:"Is this your first time in Japan?",
    hint:"The adverb meaning 'for the first time.'"},
 
   {type:"match", pairs:[{trg:"のぼる",src:"to climb"},{trg:"くに",src:"country"},{trg:"たことがある",src:"have done before"},{trg:"たことがない",src:"have never done"}]},
@@ -134,7 +134,7 @@ const UNIT_13 = {
    exampleSrc:"A: Have you ridden an airplane before?\nB: Yes, many times.",
    funFact:"飛行機 is a beautifully literal compound: 'fly-go-machine.' Japan's two major airlines are JAL and ANA. Domestic flights are common for reaching distant islands like Okinawa or Hokkaido. Narita and Haneda are Tokyo's two international airports."},
 
-  {type:"fb", s:"おんせんにはいった___がありますか？\n(Have you bathed in a hot spring before?)", a:"こと", opts:["こと","もの","ひと","ところ"], sSrc:"Have you bathed in a hot spring before?",
+  {type:"fb", s:"おんせんにはいった{1}がありますか？\n(Have you bathed in a hot spring before?)", a:"こと", opts:["こと","もの","ひと","ところ"], sSrc:"Have you bathed in a hot spring before?",
    hint:"The nominalizer that turns a verb phrase into 'the experience of...'"},
 
   {type:"teach", trg:"しゃしん", src:"photograph / photo", pos:"noun", gender:null,
@@ -156,7 +156,7 @@ const UNIT_13 = {
 
   {type:"match", pairs:[{trg:"でんしゃ",src:"train"},{trg:"ひこうき",src:"airplane"},{trg:"しゃしん",src:"photo"},{trg:"なんども",src:"many times"}]},
 
-  {type:"fb", s:"にほんに___もいきました。\n(I have been to Japan many times.)", a:"なんど", opts:["なんど","いちど","はじめて","まだ"], sSrc:"I have been to Japan many times.",
+  {type:"fb", s:"にほんに{1}もいきました。\n(I have been to Japan many times.)", a:"なんど", opts:["なんど","いちど","はじめて","まだ"], sSrc:"I have been to Japan many times.",
    hint:"The counter-based word meaning 'how many times' that with も means 'many times.'"},
 
   {type:"mc", q:"おんせんにはいったことがない means:", opts:["I bathed in a hot spring","I want a hot spring","I have never bathed in a hot spring","I like hot springs"], ans:"I have never bathed in a hot spring",

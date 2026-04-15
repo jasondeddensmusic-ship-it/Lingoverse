@@ -1,5 +1,5 @@
-// Japanese V2 Unit 16 — けいかく (Plans & Intentions)
-// Level: A2.2 — JLPT N4 aligned.
+// Japanese V2 Unit 16. けいかく (Plans & Intentions)
+// Level: A2.2. JLPT N4 aligned.
 import JEXP_16_L1 from './_temp_u16_expand_L01.js';import JEXP_16_L2 from './_temp_u16_expand_L02.js';import JEXP_16_L3 from './_temp_u16_expand_L03.js';
 // つもり, よてい, たい vs ほしい, ために.
 
@@ -54,7 +54,7 @@ const UNIT_16 = {
    exampleSrc:"A: When do you intend to get married?\nB: I have not decided yet.",
    funFact:"結婚 combines 結 (tie/bind) and 婚 (marriage). Japanese weddings blend traditions: Shinto ceremonies at shrines, Western-style chapel weddings, and grand reception parties. The average cost of a Japanese wedding is remarkably high, often exceeding several million yen."},
 
-  {type:"fb", s:"すしが___たいです。\n(I want to eat sushi.)", a:"たべ", opts:["たべ","たべる","たべて","たべた"], sSrc:"I want to eat sushi.",
+  {type:"fb", s:"すしが{1}たいです。\n(I want to eat sushi.)", a:"たべ", opts:["たべ","たべる","たべて","たべた"], sSrc:"I want to eat sushi.",
    hint:"たい attaches to the verb stem (masu-form minus masu)."},
 
   {type:"teach", trg:"きめる", src:"to decide", pos:"verb", gender:null,
@@ -74,7 +74,7 @@ const UNIT_16 = {
 
   {type:"match", pairs:[{trg:"つもり",src:"intend to"},{trg:"よてい",src:"plan/schedule"},{trg:"たい",src:"want to do"},{trg:"ほしい",src:"want (thing)"}]},
 
-  {type:"fb", s:"あした___がありますか？\n(Do you have plans tomorrow?)", a:"よてい", opts:["よてい","つもり","けいかく","しごと"], sSrc:"Do you have plans tomorrow?",
+  {type:"fb", s:"あした{1}がありますか？\n(Do you have plans tomorrow?)", a:"よてい", opts:["よてい","つもり","けいかく","しごと"], sSrc:"Do you have plans tomorrow?",
    hint:"The noun for a concrete plan or scheduled event."},
 
   {type:"match", pairs:[{trg:"なつやすみ",src:"summer vacation"},{trg:"けっこんする",src:"to marry"},{trg:"きめる",src:"to decide"},{trg:"あたらしい",src:"new"}]},
@@ -128,7 +128,7 @@ const UNIT_16 = {
    exampleSrc:"A: I practice piano every day.\nB: Do you want to become skilled?\nA: Yes, I am doing my best for the concert.",
    funFact:"練習 combines 練 (refine/knead) and 習 (learn/practice). The Japanese approach to mastery emphasizes repetitive practice. The concept of 'renshu' extends beyond skills to include spiritual and mental training. Martial arts dojos are called renshujo (practice places)."},
 
-  {type:"fb", s:"いしゃになる___にべんきょうしています。\n(I am studying in order to become a doctor.)", a:"ため", opts:["ため","つもり","こと","まえ"], sSrc:"I am studying in order to become a doctor.",
+  {type:"fb", s:"いしゃになる{1}にべんきょうしています。\n(I am studying in order to become a doctor.)", a:"ため", opts:["ため","つもり","こと","まえ"], sSrc:"I am studying in order to become a doctor.",
    hint:"The word meaning 'for the purpose of' or 'in order to.'"},
 
   {type:"teach", trg:"しけん", src:"exam / test", pos:"noun", gender:null,
@@ -156,7 +156,7 @@ const UNIT_16 = {
 
   {type:"match", pairs:[{trg:"がんばる",src:"do one's best"},{trg:"れんしゅうする",src:"to practice"},{trg:"しけん",src:"exam"},{trg:"そつぎょうする",src:"to graduate"}]},
 
-  {type:"fb", s:"___はなんですか？\n(What is your dream?)", a:"ゆめ", opts:["ゆめ","しごと","なまえ","しゅみ"], sSrc:"What is your dream?",
+  {type:"fb", s:"{1}はなんですか？\n(What is your dream?)", a:"ゆめ", opts:["ゆめ","しごと","なまえ","しゅみ"], sSrc:"What is your dream?",
    hint:"The word for both sleeping dreams and life aspirations."},
 
   {type:"mc", q:"そつぎょうしたあとでなにをするつもりですか means:", opts:["What did you do before graduating?","Why did you graduate?","What do you intend to do after graduating?","When will you graduate?"], ans:"What do you intend to do after graduating?",

@@ -1,4 +1,4 @@
-// Unit 03 Expansion — Lesson 5: Physical Descriptions & Colors
+// Unit 03 Expansion. Lesson 5: Physical Descriptions & Colors
 // Theme: Hair, eyes, height details, colors for describing people
 
 const LESSON_5 = {

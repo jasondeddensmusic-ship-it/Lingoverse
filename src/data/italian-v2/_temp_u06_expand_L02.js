@@ -1,4 +1,4 @@
-// Unit 06 Expansion — Lesson 5: Buying Tickets & Getting Around
+// Unit 06 Expansion. Lesson 5: Buying Tickets & Getting Around
 // Theme: Tickets, schedules, transport phrases, practical navigation
 
 const LESSON_5 = {

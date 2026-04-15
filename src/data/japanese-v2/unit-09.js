@@ -1,5 +1,5 @@
-// Japanese V2 Unit 09 — かいもの (Shopping)
-// Level: A1.3 — JLPT N5 aligned.
+// Japanese V2 Unit 09. かいもの (Shopping)
+// Level: A1.3. JLPT N5 aligned.
 // Shopping vocabulary, transactional verbs, useful shopping phrases.
 
 const UNIT_09 = {
@@ -59,7 +59,7 @@ const UNIT_09 = {
    exampleSrc:"A: This one, please.\nB: Yes, that is 300 yen.",
    funFact:"Kore (this) + wo (object particle) + kudasai (please give). This three-word phrase will get you through almost any shopping situation in Japan. Point, say 'kore wo kudasai,' and you are done. Works at restaurants, convenience stores, markets, everywhere."},
 
-  {type:"fb", s:"___をください。\n(This one, please.)", a:"これ", opts:["これ","あれ","どれ","それ"], sSrc:"This one, please.",
+  {type:"fb", s:"{1}をください。\n(This one, please.)", a:"これ", opts:["これ","あれ","どれ","それ"], sSrc:"This one, please.",
    hint:"The demonstrative pronoun for something close to the speaker."},
 
   {type:"teach", trg:"いくらですか", src:"how much is it?", pos:"verb", gender:null,
@@ -87,7 +87,7 @@ const UNIT_09 = {
 
   {type:"match", pairs:[{trg:"レシート",src:"receipt"},{trg:"ふくろ",src:"bag"},{trg:"かう",src:"to buy"},{trg:"うる",src:"to sell"}]},
 
-  {type:"fb", s:"このほんは___ですか？\n(How much is this book?)", a:"いくら", opts:["いくら","なに","どこ","だれ"], sSrc:"How much is this book?",
+  {type:"fb", s:"このほんは{1}ですか？\n(How much is this book?)", a:"いくら", opts:["いくら","なに","どこ","だれ"], sSrc:"How much is this book?",
    hint:"The question word specifically for asking about price."},
 
   {type:"mc", q:"ふくろはいりますか means:", opts:["Do you need a receipt?","Do you have money?","Do you need a bag?","Is it expensive?"], ans:"Do you need a bag?",
@@ -138,7 +138,7 @@ const UNIT_09 = {
    exampleSrc:"A: Can it be a little cheaper?\nB: OK, 2,000 yen is fine.",
    funFact:"Bargaining is not common in Japanese shops, supermarkets, or department stores. However, it is expected at flea markets (furima), electronics shops in Akihabara, and some tourist areas. Always ask gently and be ready to accept the answer gracefully."},
 
-  {type:"fb", s:"カードで___えますか？\n(Can I pay by card?)", a:"はら", opts:["はら","もら","あげ","かえ"], sSrc:"Can I pay by card?",
+  {type:"fb", s:"カードで{1}えますか？\n(Can I pay by card?)", a:"はら", opts:["はら","もら","あげ","かえ"], sSrc:"Can I pay by card?",
    hint:"The stem of the verb meaning 'to pay' or 'to sweep away a debt.'"},
 
   {type:"teach", trg:"たかすぎる", src:"too expensive", pos:"adj", gender:null,
@@ -174,7 +174,7 @@ const UNIT_09 = {
    exampleSrc:"A: How much is everything?\nB: 3,000 yen.",
    funFact:"全 (zen, complete/whole) + 部 (bu, part/section). Zenbu paradoxically combines 'whole' and 'part' to mean 'all parts = everything.' It is the go-to word when asking for a total: zenbu de (in total), zenbu tabeta (ate everything)."},
 
-  {type:"fb", s:"___でいくらですか？\n(How much is everything?)", a:"ぜんぶ", opts:["ぜんぶ","すこし","いっしょ","べつべつ"], sSrc:"How much is everything?",
+  {type:"fb", s:"{1}でいくらですか？\n(How much is everything?)", a:"ぜんぶ", opts:["ぜんぶ","すこし","いっしょ","べつべつ"], sSrc:"How much is everything?",
    hint:"The word meaning 'all' or 'total' when asking about the complete price."},
 
   {type:"match", pairs:[{trg:"はらう",src:"to pay"},{trg:"もらう",src:"to receive"},{trg:"あげる",src:"to give"},{trg:"かう",src:"to buy"}]},
@@ -184,7 +184,7 @@ const UNIT_09 = {
   {type:"mc", q:"あげる is used when:", opts:["I receive something","Someone gives to me","I give to someone","I buy something"], ans:"I give to someone",
    hint:"The direction of this verb flows from the speaker outward to others."},
 
-  {type:"fb", s:"ともだちにチョコレートを___ました。\n(I gave chocolate to my friend.)", a:"あげ", opts:["あげ","もらい","はらい","かい"], sSrc:"I gave chocolate to my friend.",
+  {type:"fb", s:"ともだちにチョコレートを{1}ました。\n(I gave chocolate to my friend.)", a:"あげ", opts:["あげ","もらい","はらい","かい"], sSrc:"I gave chocolate to my friend.",
    hint:"The polite stem of the verb for giving something to another person."},
 
   {type:"mc", q:"ちょうどいい means:", opts:["too much","not enough","very expensive","just right"], ans:"just right",
@@ -194,6 +194,12 @@ const UNIT_09 = {
    text:"Japanese has THREE giving/receiving verbs:\n\nあげる = I give to you/them\nくれる = You/they give to ME\nもらう = I receive from you/them\n\nThe direction and social status matter:\nI give UP to superiors: さしあげる\nI give to equals/juniors: あげる\nSomeone gives DOWN to me: くださる\nSomeone gives to me: くれる",
    deepDive:{title:"Why three verbs?",
     text:"English uses 'give' for all directions. Japanese tracks WHO gives to WHOM:\n\nわたしが ともだちに あげる。(I give to friend.)\nともだちが わたしに くれる。(Friend gives to me.)\nわたしが ともだちに もらう。(I receive from friend.)\n\nThis three-way system reflects the Japanese focus on social relationships and the direction of favors. In-group vs out-group also matters."}},
+
+  {type:"mc", q:"おかんじょうはべつべつでおねがいします means:", opts:["Separate checks, please.","Can we share one bill?","All together, please.","Which is cheaper?"], ans:"Separate checks, please.",
+   hint:"べつべつ means 'each part on its own,' the opposite of combining into one."},
+
+  {type:"mc", q:"いっしょに means:", opts:["separately","together","later","quickly"], ans:"together",
+   hint:"This adverb combines the kanji for 'one' and 'thread,' meaning bound as one."},
 ]},
 
 ]};

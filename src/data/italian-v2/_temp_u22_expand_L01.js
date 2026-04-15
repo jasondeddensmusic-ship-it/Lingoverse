@@ -1,4 +1,4 @@
-// Unit 22 Expansion — Lesson 4: Le feste italiane
+// Unit 22 Expansion. Lesson 4: Le feste italiane
 const LESSON_4 = {
   id:"itv2_u22l4", title:"Le feste italiane", icon:"🎉", xp:15, board:true,
   steps:[

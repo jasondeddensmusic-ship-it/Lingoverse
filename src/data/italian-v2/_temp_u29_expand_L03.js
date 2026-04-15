@@ -1,4 +1,4 @@
-// Unit 29 Expansion — Lesson 6: Terapia e crescita personale
+// Unit 29 Expansion. Lesson 6: Terapia e crescita personale
 const LESSON_6 = {
   id:"itv2_u29l6", title:"Terapia e crescita personale", icon:"🌿", xp:15, board:true,
   steps:[

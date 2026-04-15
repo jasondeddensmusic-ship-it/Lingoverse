@@ -1,6 +1,6 @@
-// Japanese V2 Unit 23 — めいしか (Nominalization)
+// Japanese V2 Unit 23. めいしか (Nominalization)
 import EXP_L3 from './_temp_u23_expand_L01.js';import EXP_L4 from './_temp_u23_expand_L02.js';import EXP_L5 from './_temp_u23_expand_L03.js';
-// Level: B1.3 — JLPT N3 aligned.
+// Level: B1.3. JLPT N3 aligned.
 // こと vs の, ことがある, ことにする, のがすき, のを忘れる.
 
 const UNIT_23 = {
@@ -53,7 +53,7 @@ const UNIT_23 = {
    exampleSrc:"A: Do you like drawing?\nB: Yes, I love it. I often draw on weekends.",
    funFact:"すき is technically a na-adjective, not a verb. So 'I like swimming' is およぐのがすきだ, not およぐのをすきだ. The subject particle が marks what you like. In casual speech, が often becomes は for contrast: およぐのはすきだけど... (I like swimming, but...)."},
 
-  {type:"fb", s:"ピアノをひく___がじょうずですね。\n(You are good at playing piano.)", a:"の", opts:["の","こと","を","が"], sSrc:"You are good at playing piano.",
+  {type:"fb", s:"ピアノをひく{1}がじょうずですね。\n(You are good at playing piano.)", a:"の", opts:["の","こと","を","が"], sSrc:"You are good at playing piano.",
    hint:"The nominalizer preferred in casual, concrete contexts with adjectives like じょうず."},
 
   {type:"teach", trg:"〜のをわすれる", src:"to forget to do ~", pos:"part", gender:null,
@@ -79,7 +79,7 @@ const UNIT_23 = {
 
   {type:"match", pairs:[{trg:"ことにする",src:"to decide to"},{trg:"ことになる",src:"it has been decided"},{trg:"のをわすれる",src:"to forget to do"},{trg:"のがすき",src:"to like doing"}]},
 
-  {type:"fb", s:"らいねんにほんにいく___にしました。\n(I decided to go to Japan next year.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"I decided to go to Japan next year.",
+  {type:"fb", s:"らいねんにほんにいく{1}にしました。\n(I decided to go to Japan next year.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"I decided to go to Japan next year.",
    hint:"The nominalizer required in the fixed pattern meaning 'to decide to do.'"},
 
   {type:"match", pairs:[{trg:"わすれる",src:"to forget"},{trg:"てんきん",src:"job transfer"},{trg:"こと",src:"nominalizer (abstract)"},{trg:"の",src:"nominalizer (concrete)"}]},
@@ -127,7 +127,7 @@ const UNIT_23 = {
    exampleSrc:"A: I have decided not to eat sweets.\nB: A diet? Good luck.",
    funFact:"ないことにする is the negative decision pattern. It pairs with ないことになる (it was decided not to). Japanese speakers sometimes use ことにする about past events they want to reframe: なかったことにする (to pretend it never happened, lit. to make it a matter of not having been)."},
 
-  {type:"fb", s:"このとしょかんではほんをかりる___ができます。\n(You can borrow books at this library.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"You can borrow books at this library.",
+  {type:"fb", s:"このとしょかんではほんをかりる{1}ができます。\n(You can borrow books at this library.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"You can borrow books at this library.",
    hint:"The nominalizer used in the formal ability pattern meaning 'can do.'"},
 
   {type:"teach", trg:"〜ないことはない", src:"it is not that I cannot ~ / I can, somewhat", pos:"part", gender:null,
@@ -153,7 +153,7 @@ const UNIT_23 = {
 
   {type:"match", pairs:[{trg:"ことがある (dict.)",src:"it sometimes happens"},{trg:"ことができる",src:"to be able to (formal)"},{trg:"ことはない",src:"no need to / won't happen"},{trg:"ないことにする",src:"decide not to"}]},
 
-  {type:"fb", s:"しんぱいする___はありませんよ。\n(There is nothing to worry about.)", a:"こと", opts:["こと","の","もの","ほう"], sSrc:"There is nothing to worry about.",
+  {type:"fb", s:"しんぱいする{1}はありませんよ。\n(There is nothing to worry about.)", a:"こと", opts:["こと","の","もの","ほう"], sSrc:"There is nothing to worry about.",
    hint:"The nominalizer in the reassurance pattern 'there is no need to.'"},
 
   {type:"match", pairs:[{trg:"しんぱい",src:"worry"},{trg:"あんしん",src:"relief"},{trg:"かりる",src:"to borrow"},{trg:"ないことはない",src:"it's not that I can't"}]},

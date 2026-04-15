@@ -1,4 +1,4 @@
-// Unit 17 Expansion — Lesson 6: Fake News and Critical Thinking
+// Unit 17 Expansion. Lesson 6: Fake News and Critical Thinking
 const LESSON_6 = {
   id:"itv2_u17l6", title:"Le fake news", icon:"🔍", xp:15, board:true,
   steps:[

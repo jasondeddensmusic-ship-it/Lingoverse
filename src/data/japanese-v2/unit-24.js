@@ -1,6 +1,6 @@
-// Japanese V2 Unit 24 — つなぎ (Advanced Connectors)
+// Japanese V2 Unit 24. つなぎ (Advanced Connectors)
 import EXP_L3 from './_temp_u24_expand_L01.js';import EXP_L4 from './_temp_u24_expand_L02.js';import EXP_L5 from './_temp_u24_expand_L03.js';
-// Level: B1.3 — JLPT N3 aligned.
+// Level: B1.3. JLPT N3 aligned.
 // にもかかわらず, 一方で, したがって, つまり, ところが, そのうえ.
 
 const UNIT_24 = {
@@ -53,7 +53,7 @@ const UNIT_24 = {
    exampleSrc:"A: Japan's medical system is very excellent.\nB: Anyone can go to the hospital.",
    funFact:"Japan's universal healthcare system covers everyone and keeps costs low. The kanji 医 originally depicted an arrow (矢) in a container, representing a medicine box. The system is called 国民皆保険 (kokumin kai hoken), meaning 'insurance for all citizens.'"},
 
-  {type:"fb", s:"___、いりょうサービスのじゅようがたかまっています。\n(Therefore, the demand for medical services is increasing.)", a:"したがって", opts:["したがって","ところが","でも","それに"], sSrc:"Therefore, the demand for medical services is increasing.",
+  {type:"fb", s:"{1}、いりょうサービスのじゅようがたかまっています。\n(Therefore, the demand for medical services is increasing.)", a:"したがって", opts:["したがって","ところが","でも","それに"], sSrc:"Therefore, the demand for medical services is increasing.",
    hint:"The formal connector that draws a logical conclusion from a preceding statement."},
 
   {type:"mc", q:"ところが signals:", opts:["An expected result","An unexpected contrast or surprise","A formal conclusion","An addition to a list"], ans:"An unexpected contrast or surprise",
@@ -61,7 +61,7 @@ const UNIT_24 = {
 
   {type:"match", pairs:[{trg:"にもかかわらず",src:"despite"},{trg:"したがって",src:"therefore"},{trg:"ところが",src:"however (unexpected)"},{trg:"こうれいか",src:"aging population"}]},
 
-  {type:"fb", s:"あめ___、おおくのひとがきました。\n(Despite the rain, many people came.)", a:"にもかかわらず", opts:["にもかかわらず","だから","ところが","したがって"], sSrc:"Despite the rain, many people came.",
+  {type:"fb", s:"あめ{1}、おおくのひとがきました。\n(Despite the rain, many people came.)", a:"にもかかわらず", opts:["にもかかわらず","だから","ところが","したがって"], sSrc:"Despite the rain, many people came.",
    hint:"The very formal concessive connector meaning 'in spite of.'"},
 ]},
 
@@ -104,7 +104,7 @@ const UNIT_24 = {
    exampleSrc:"A: A schedule review is necessary.\nB: Let's discuss it at tomorrow's meeting.",
    funFact:"見直す breaks into 見 (look) + 直す (fix/redo). Japanese has many compound verbs with 直す: やり直す (redo), 書き直す (rewrite), 作り直す (remake). This pattern of 'verb + 直す' is one of the most productive in Japanese and appears constantly in business settings."},
 
-  {type:"fb", s:"このレストランはおいしいです。___、ねだんもやすいです。\n(This restaurant is delicious. Moreover, the prices are cheap.)", a:"そのうえ", opts:["そのうえ","ところが","つまり","にもかかわらず"], sSrc:"This restaurant is delicious. Moreover, the prices are cheap.",
+  {type:"fb", s:"このレストランはおいしいです。{1}、ねだんもやすいです。\n(This restaurant is delicious. Moreover, the prices are cheap.)", a:"そのうえ", opts:["そのうえ","ところが","つまり","にもかかわらず"], sSrc:"This restaurant is delicious. Moreover, the prices are cheap.",
    hint:"The connector that adds a further supporting point on top of what was said."},
 
   {type:"teach", trg:"ねだん", src:"price", pos:"noun", gender:null,
@@ -118,7 +118,7 @@ const UNIT_24 = {
 
   {type:"match", pairs:[{trg:"つまり",src:"in other words"},{trg:"そのうえ",src:"moreover"},{trg:"いっぽうで",src:"on the other hand"},{trg:"よさん",src:"budget"}]},
 
-  {type:"fb", s:"よさんオーバーで、スケジュールもおくれています。___、みなおしがひつようです。\n(Over budget and behind schedule. In other words, a review is necessary.)", a:"つまり", opts:["つまり","そのうえ","ところが","したがって"], sSrc:"Over budget and behind schedule. In other words, a review is necessary.",
+  {type:"fb", s:"よさんオーバーで、スケジュールもおくれています。{1}、みなおしがひつようです。\n(Over budget and behind schedule. In other words, a review is necessary.)", a:"つまり", opts:["つまり","そのうえ","ところが","したがって"], sSrc:"Over budget and behind schedule. In other words, a review is necessary.",
    hint:"The connector that rephrases or summarizes the preceding information into a bottom line."},
 
   {type:"match", pairs:[{trg:"みなおし",src:"review"},{trg:"ねだん",src:"price"},{trg:"いりょう",src:"medical care"},{trg:"こうれいか",src:"aging population"}]},

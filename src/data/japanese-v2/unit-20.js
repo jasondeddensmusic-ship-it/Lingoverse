@@ -1,6 +1,6 @@
-// Japanese V2 Unit 20 — けいご (Polite Language)
+// Japanese V2 Unit 20. けいご (Polite Language)
 import EXP_L3 from './_temp_u20_expand_L01.js';import EXP_L4 from './_temp_u20_expand_L02.js';import EXP_L5 from './_temp_u20_expand_L03.js';
-// Level: B1.2 — JLPT N3 aligned.
+// Level: B1.2. JLPT N3 aligned.
 // 尊敬語 (sonkeigo), 謙譲語 (kenjougo), お/ご patterns.
 
 const UNIT_20 = {
@@ -59,7 +59,7 @@ const UNIT_20 = {
    deepDive:{title:"When to Use Sonkeigo",
     text:"Sonkeigo is used when talking ABOUT or TO someone of higher social status:\n\nCustomers (in any service setting)\nBosses and senior colleagues\nTeachers and professors\nElders you respect\nClients and business partners\n\nCommon mistakes: using sonkeigo for your own actions (never do this), mixing up sonkeigo and kenjougo, and forgetting that keigo changes based on in-group vs. out-group. When talking to an outsider about your boss, you use humble forms for your boss because they are in your in-group."}},
 
-  {type:"fb", s:"せんせいはなんと___ましたか？\n(What did the teacher say? - honorific)", a:"おっしゃい", opts:["おっしゃい","いい","はなし","もうし"], sSrc:"What did the teacher say?",
+  {type:"fb", s:"せんせいはなんと{1}ましたか？\n(What did the teacher say? - honorific)", a:"おっしゃい", opts:["おっしゃい","いい","はなし","もうし"], sSrc:"What did the teacher say?",
    hint:"The polite (masu) form of the honorific verb for 'to say.'"},
 
   {type:"teach", trg:"なさる", src:"to do (honorific)", pos:"verb", gender:null,
@@ -81,7 +81,7 @@ const UNIT_20 = {
 
   {type:"match", pairs:[{trg:"なさる",src:"to do (hon.)"},{trg:"くださる",src:"to give (hon.)"},{trg:"おやすみになる",src:"to rest (hon.)"},{trg:"およみになる",src:"to read (hon.)"}]},
 
-  {type:"fb", s:"どうぞ___てください。\n(Please help yourself to eat/drink.)", a:"めしあがっ", opts:["めしあがっ","たべ","のん","いただい"], sSrc:"Please help yourself to eat/drink.",
+  {type:"fb", s:"どうぞ{1}てください。\n(Please help yourself to eat/drink.)", a:"めしあがっ", opts:["めしあがっ","たべ","のん","いただい"], sSrc:"Please help yourself to eat/drink.",
    hint:"The honorific て-form of the verb meaning 'to eat/drink' in elevated speech."},
 
   {type:"mc", q:"When do you use sonkeigo?", opts:["For your own actions","For actions of your family","For actions of someone you respect","For actions of your pet"], ans:"For actions of someone you respect",
@@ -138,7 +138,7 @@ const UNIT_20 = {
    deepDive:{title:"The In-Group / Out-Group Rule",
     text:"Japanese keigo follows an in-group (uchi) vs. out-group (soto) divide:\n\nWhen talking to an outsider about your boss:\nUse HUMBLE for your boss (because they are in your group).\n'Our president will go' = しゃちょうがまいります (not いらっしゃいます).\n\nWhen talking to your boss:\nUse HONORIFIC for them, HUMBLE for yourself.\n'I will go' = まいります. 'Will you go?' = いらっしゃいますか？\n\nThis confuses many learners. The rule is: humble your entire in-group when speaking to outsiders."}},
 
-  {type:"fb", s:"はじめまして。たなかと___ます。\n(Nice to meet you. I am called Tanaka. - humble)", a:"もうし", opts:["もうし","いい","おっしゃい","はなし"], sSrc:"Nice to meet you. I am called Tanaka.",
+  {type:"fb", s:"はじめまして。たなかと{1}ます。\n(Nice to meet you. I am called Tanaka. - humble)", a:"もうし", opts:["もうし","いい","おっしゃい","はなし"], sSrc:"Nice to meet you. I am called Tanaka.",
    hint:"The humble verb for 'to say/to be called' in its polite (masu) form."},
 
   {type:"teach", trg:"はいけんする", src:"to look / to see (humble)", pos:"verb", gender:null,
@@ -160,7 +160,7 @@ const UNIT_20 = {
 
   {type:"match", pairs:[{trg:"はいけんする",src:"to see (hum.)"},{trg:"いたす",src:"to do (hum.)"},{trg:"おまちする",src:"to wait (hum.)"},{trg:"おもちする",src:"to carry (hum.)"}]},
 
-  {type:"fb", s:"しりょうを___してもよろしいですか？\n(May I look at the materials? - humble)", a:"はいけん", opts:["はいけん","ごらん","けんがく","けんとう"], sSrc:"May I look at the materials?",
+  {type:"fb", s:"しりょうを{1}してもよろしいですか？\n(May I look at the materials? - humble)", a:"はいけん", opts:["はいけん","ごらん","けんがく","けんとう"], sSrc:"May I look at the materials?",
    hint:"The humble する-verb for 'to see/look at.' Combines 拝 (worship) and 見 (see)."},
 
   {type:"mc", q:"When talking to an outsider about your boss going somewhere, you use:", opts:["いらっしゃいます (honorific)","いきます (neutral)","まいります (humble)","いかれます (passive)"], ans:"まいります (humble)",

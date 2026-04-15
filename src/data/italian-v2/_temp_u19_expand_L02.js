@@ -1,4 +1,4 @@
-// Unit 19 Expansion — Lesson 5: Esprimere i sentimenti
+// Unit 19 Expansion. Lesson 5: Esprimere i sentimenti
 const LESSON_5 = {
   id:"itv2_u19l5", title:"Esprimere i sentimenti", icon:"💬", xp:15, board:true,
   steps:[

@@ -1,4 +1,4 @@
-// Unit 23 Expansion — Lesson 5: I movimenti sociali
+// Unit 23 Expansion. Lesson 5: I movimenti sociali
 const LESSON_5 = {
   id:"itv2_u23l5", title:"I movimenti sociali", icon:"✊", xp:15, board:true,
   steps:[

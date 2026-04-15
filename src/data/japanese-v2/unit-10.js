@@ -1,5 +1,5 @@
-// Japanese V2 Unit 10 — てんき (Weather & Seasons)
-// Level: A1.3 — JLPT N5 aligned.
+// Japanese V2 Unit 10. てんき (Weather & Seasons)
+// Level: A1.3. JLPT N5 aligned.
 // Weather vocabulary, seasons, temperature adjectives, months/days.
 
 const UNIT_10 = {
@@ -65,7 +65,7 @@ const UNIT_10 = {
    exampleSrc:"A: Is it cold today?\nB: Yes, it is very cold.",
    funFact:"寒い (samui) is specifically for air temperature/weather. For cold drinks or objects, use tsumetai (冷たい). Saying 'samui' about a drink sounds odd. This hot/cold split by weather vs touch is similar to the atsui distinction."},
 
-  {type:"fb", s:"きょうは___がふっています。\n(It is raining today.)", a:"あめ", opts:["あめ","ゆき","かぜ","はれ"], sSrc:"It is raining today.",
+  {type:"fb", s:"きょうは{1}がふっています。\n(It is raining today.)", a:"あめ", opts:["あめ","ゆき","かぜ","はれ"], sSrc:"It is raining today.",
    hint:"The precipitation type that falls as liquid water."},
 
   {type:"teach", trg:"すずしい", src:"cool / refreshing", pos:"adj", gender:null,
@@ -87,7 +87,7 @@ const UNIT_10 = {
 
   {type:"match", pairs:[{trg:"あつい",src:"hot"},{trg:"さむい",src:"cold"},{trg:"すずしい",src:"cool"},{trg:"あたたかい",src:"warm"}]},
 
-  {type:"fb", s:"きょうの___はどうですか？\n(How is the weather today?)", a:"てんき", opts:["てんき","じかん","たべもの","ばしょ"], sSrc:"How is the weather today?",
+  {type:"fb", s:"きょうの{1}はどうですか？\n(How is the weather today?)", a:"てんき", opts:["てんき","じかん","たべもの","ばしょ"], sSrc:"How is the weather today?",
    hint:"The general word for atmospheric conditions combining 'sky' and 'spirit.'"},
 
   {type:"mc", q:"Which word describes pleasant autumn coolness?", opts:["さむい","あつい","すずしい","あたたかい"], ans:"すずしい",
@@ -97,6 +97,9 @@ const UNIT_10 = {
    text:"Japanese has paired temperature words:\n\nHot weather: あつい (unpleasant heat)\nWarm weather: あたたかい (pleasant warmth)\n\nCold weather: さむい (unpleasant cold)\nCool weather: すずしい (pleasant coolness)\n\nFor objects/drinks, different words:\nHot drink: あつい (熱い, different kanji)\nCold drink: つめたい",
    deepDive:{title:"Weather and Japanese culture",
     text:"Japanese people constantly discuss the weather because Japan has four very distinct seasons, each with its own cultural events:\n\nはる (spring): cherry blossoms, new school year\nなつ (summer): festivals, fireworks, humid heat\nあき (autumn): moon viewing, fall colors\nふゆ (winter): hot springs, New Year\n\nSeasonal awareness (kisetsukan) is deeply embedded in food, fashion, greetings, and daily life."}},
+
+  {type:"mc", q:"あたたかい describes:", opts:["unpleasant heat","refreshing coolness","cold weather","pleasant warmth"], ans:"pleasant warmth",
+   hint:"This i-adjective has a positive feeling, associated with spring and gentle sunlight."},
 ]},
 
 // ═══ L2: しき (The Four Seasons) ═══
@@ -144,7 +147,7 @@ const UNIT_10 = {
    exampleSrc:"A: What day of the month is it?\nB: It is the 15th.",
    funFact:"Days 1-10 use mostly native Japanese readings that must be memorized: tsuitachi (1st), futsuka (2nd), mikka (3rd), yokka (4th), itsuka (5th), muika (6th), nanoka (7th), youka (8th), kokonoka (9th), tooka (10th). After 10, it becomes regular: juu-ichi-nichi, etc."},
 
-  {type:"fb", s:"たんじょうびは___がつですか？\n(What month is your birthday?)", a:"なん", opts:["なん","いち","さん","しち"], sSrc:"What month is your birthday?",
+  {type:"fb", s:"たんじょうびは{1}がつですか？\n(What month is your birthday?)", a:"なん", opts:["なん","いち","さん","しち"], sSrc:"What month is your birthday?",
    hint:"The question word that replaces the number to ask 'which month?'"},
 
   {type:"teach", trg:"さくら", src:"cherry blossom(s)", pos:"noun", gender:null,
@@ -178,7 +181,7 @@ const UNIT_10 = {
 
   {type:"match", pairs:[{trg:"さくら",src:"cherry blossom"},{trg:"はなみ",src:"flower viewing"},{trg:"まつり",src:"festival"},{trg:"おしょうがつ",src:"New Year"}]},
 
-  {type:"fb", s:"___がさいていますよ！\n(The cherry blossoms are blooming!)", a:"さくら", opts:["さくら","はなみ","はる","まつり"], sSrc:"The cherry blossoms are blooming!",
+  {type:"fb", s:"{1}がさいていますよ！\n(The cherry blossoms are blooming!)", a:"さくら", opts:["さくら","はなみ","はる","まつり"], sSrc:"The cherry blossoms are blooming!",
    hint:"Japan's iconic spring flower whose bloom is tracked nationally."},
 
   {type:"mc", q:"いちがつ means:", opts:["one day","Monday","January","first year"], ans:"January",

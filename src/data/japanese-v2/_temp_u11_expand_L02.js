@@ -1,4 +1,4 @@
-// Unit 11 Expansion L4 — てしまう and てみる
+// Unit 11 Expansion L4. てしまう and てみる
 // Completion/regret with てしまう, trying with てみる.
 
 const LESSON_4 = {id:"jav2_u11l4", title:"てしまう・てみる", icon:"😱", xp:15, board:true, steps:[
@@ -39,7 +39,7 @@ const LESSON_4 = {id:"jav2_u11l4", title:"てしまう・てみる", icon:"😱"
    exampleSrc:"A: Have you tried eating natto?\nB: Yes, I tried it. It was delicious!",
    funFact:"みる here is not literally 'to see' but 'to see what happens.' たべてみる means 'eat it and see (how it is).' This pattern is essential for encouraging someone to try new things. やってみて (try doing it!) is encouraging, while やってみよう (let me try) is self-motivating."},
 
-  {type:"fb", s:"なっとうをたべて___ましたか？\n(Have you tried eating natto?)", a:"み", opts:["み","しまい","い","おき"], sSrc:"Have you tried eating natto?",
+  {type:"fb", s:"なっとうをたべて{1}ましたか？\n(Have you tried eating natto?)", a:"み", opts:["み","しまい","い","おき"], sSrc:"Have you tried eating natto?",
    hint:"The verb meaning 'see/look' that, after て-form, means 'try doing.'"},
 
   {type:"teach", trg:"きいてみる", src:"try asking / try listening", pos:"verb", gender:null,
@@ -69,7 +69,7 @@ const LESSON_4 = {id:"jav2_u11l4", title:"てしまう・てみる", icon:"😱"
    exampleSrc:"A: This game is fun. Try it!\nB: Okay, I will try it!",
    funFact:"やってみて is the casual equivalent of やってみてください. It is warm and encouraging without being pushy. Parents say it to children, friends say it to each other, and coaches say it to athletes. The spirit is 'give it a shot and see what happens.'"},
 
-  {type:"fb", s:"かぎをなくして___ました。\n(I ended up losing my key.)", a:"しまい", opts:["しまい","み","おき","い"], sSrc:"I ended up losing my key.",
+  {type:"fb", s:"かぎをなくして{1}ました。\n(I ended up losing my key.)", a:"しまい", opts:["しまい","み","おき","い"], sSrc:"I ended up losing my key.",
    hint:"The verb meaning 'to put away/finish' that adds regret or completion."},
 
   {type:"match", pairs:[{trg:"てしまう",src:"end up doing (regret)"},{trg:"てみる",src:"try doing"},{trg:"ちゃった",src:"ended up (casual)"},{trg:"やってみて",src:"try it!"}]},
@@ -79,7 +79,7 @@ const LESSON_4 = {id:"jav2_u11l4", title:"てしまう・てみる", icon:"😱"
   {type:"mc", q:"たべちゃった is the casual form of:", opts:["たべてみた","たべてしまった","たべている","たべておいた"], ans:"たべてしまった",
    hint:"In casual speech, てしまった contracts by removing しま and changing to ちゃった."},
 
-  {type:"fb", s:"このアプリをつかって___ください。\n(Please try using this app.)", a:"みて", opts:["みて","しまって","おいて","いて"], sSrc:"Please try using this app.",
+  {type:"fb", s:"このアプリをつかって{1}ください。\n(Please try using this app.)", a:"みて", opts:["みて","しまって","おいて","いて"], sSrc:"Please try using this app.",
    hint:"The compound meaning 'try doing' uses the て-form of みる (to see)."},
 
   {type:"tip", title:"てしまう vs てみる",

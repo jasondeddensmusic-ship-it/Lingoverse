@@ -1,4 +1,4 @@
-// Unit 05 Expansion — Lesson 5: Prepositions of Place
+// Unit 05 Expansion. Lesson 5: Prepositions of Place
 // Theme: Location prepositions, spatial relationships, describing layouts
 
 const LESSON_5 = {
@@ -128,7 +128,7 @@ const LESSON_5 = {
     {type:"mc", q:"How do you say 'in the wardrobe' using an articulated preposition?",
      opts:["Nell'armadio","In l'armadio","Nel armadio","N'armadio"],
      ans:"Nell'armadio",
-     hint:"'In' combines with the elided masculine article before a vowel. The result fuses the two words into one — never keep them separate in Italian."}
+     hint:"'In' combines with the elided masculine article before a vowel. The result fuses the two words into one. never keep them separate in Italian."}
   ]
 };
 export default LESSON_5;

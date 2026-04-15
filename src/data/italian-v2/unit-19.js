@@ -1,4 +1,4 @@
-// Italian V2 Unit 19 — I sentimenti (Emotions & Relationships) (B1.3)
+// Italian V2 Unit 19. I sentimenti (Emotions & Relationships) (B1.3)
 import EXP_L4 from './_temp_u19_expand_L01.js';import EXP_L5 from './_temp_u19_expand_L02.js';import EXP_L6 from './_temp_u19_expand_L03.js';
 // CILS/CELI B1 aligned. Emotions, relationships, expressing feelings.
 
@@ -93,7 +93,7 @@ const UNIT_19 = {
       {type:"mc", q:"Which suffix turns 'triste' into 'tristezza'?",
        opts:["-mente","-zione","-ezza","-ismo"],
        ans:"-ezza",
-       hint:"This suffix builds abstract nouns from adjectives. Compare: bello > bell___, dolce > dolc___. A highly productive Italian pattern."},
+       hint:"This suffix builds abstract nouns from adjectives. Compare: bello > bell{1}, dolce > dolc{1}. A highly productive Italian pattern."},
 
       {type:"fb", s:"Ho l'{1} per l'esame di domani.",
        a:["ansia"],

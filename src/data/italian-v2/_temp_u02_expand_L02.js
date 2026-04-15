@@ -1,4 +1,4 @@
-// Unit 02 Expansion — Lesson 4: Months & Seasons
+// Unit 02 Expansion. Lesson 4: Months & Seasons
 // Theme: Months of the year, seasons, dates, weather basics
 
 const LESSON_4 = {

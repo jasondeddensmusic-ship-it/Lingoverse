@@ -1,6 +1,6 @@
-// Japanese V2 Unit 27 — かんきょう (Environment)
+// Japanese V2 Unit 27. かんきょう (Environment)
 import EXP_L3 from './_temp_u27_expand_L01.js';import EXP_L4 from './_temp_u27_expand_L02.js';import EXP_L5 from './_temp_u27_expand_L03.js';
-// Level: B2.1 — JLPT N2 aligned.
+// Level: B2.1. JLPT N2 aligned.
 // ちきゅうおんだんか, たいきおせん, リサイクル, ～べき, ～ざるを得ない.
 
 const UNIT_27 = {
@@ -48,7 +48,7 @@ const UNIT_27 = {
    exampleSrc:"A: Is Japan's recycling rate high?\nB: Yes, the PET bottle recycling rate is about 90%.",
    funFact:"Japan's recycling system is famously detailed. Garbage is sorted into burnable, non-burnable, plastic, PET bottles, cans, glass, and more. Some municipalities have over 30 categories. Garbage day rules are strict, and putting trash out on the wrong day is a serious social faux pas in residential areas."},
 
-  {type:"fb", s:"プラスチックのしようをへらす___です。\n(We should reduce the use of plastic.)", a:"べき", opts:["べき","ほう","こと","もの"], sSrc:"We should reduce the use of plastic.",
+  {type:"fb", s:"プラスチックのしようをへらす{1}です。\n(We should reduce the use of plastic.)", a:"べき", opts:["べき","ほう","こと","もの"], sSrc:"We should reduce the use of plastic.",
    hint:"The grammar pattern expressing moral obligation, stronger than 'had better.'"},
 
   {type:"teach", trg:"はいきガス", src:"exhaust gas / emissions", pos:"noun", gender:null,
@@ -62,7 +62,7 @@ const UNIT_27 = {
 
   {type:"match", pairs:[{trg:"かんきょう",src:"environment"},{trg:"ちきゅうおんだんか",src:"global warming"},{trg:"たいきおせん",src:"air pollution"},{trg:"リサイクル",src:"recycling"}]},
 
-  {type:"fb", s:"このちいきでは___がもんだいになっています。\n(Air pollution has become a problem in this area.)", a:"たいきおせん", opts:["たいきおせん","ちきゅうおんだんか","リサイクル","かんきょう"], sSrc:"Air pollution has become a problem in this area.",
+  {type:"fb", s:"このちいきでは{1}がもんだいになっています。\n(Air pollution has become a problem in this area.)", a:"たいきおせん", opts:["たいきおせん","ちきゅうおんだんか","リサイクル","かんきょう"], sSrc:"Air pollution has become a problem in this area.",
    hint:"The compound noun combining 'atmosphere' and 'contamination.'"},
 
   {type:"match", pairs:[{trg:"〜べき",src:"should/ought to"},{trg:"はいきガス",src:"exhaust gas"},{trg:"リサイクル",src:"recycling"},{trg:"かんきょうもんだい",src:"environmental issue"}]},
@@ -112,7 +112,7 @@ const UNIT_27 = {
    exampleSrc:"A: Environmental protection is an urgent task for all humanity.\nB: Each person's actions are important.",
    funFact:"急務 is a formal word you will encounter in editorials, policy papers, and speeches. It elevates a simple 'urgent' into something that demands action. The 務 kanji (duty) also appears in 事務 (office work), 義務 (obligation), and 公務員 (public servant)."},
 
-  {type:"fb", s:"こうじょうをへいさ___をえません。\n(We have no choice but to close the factory.)", a:"せざる", opts:["せざる","しざる","さざる","すざる"], sSrc:"We have no choice but to close the factory.",
+  {type:"fb", s:"こうじょうをへいさ{1}をえません。\n(We have no choice but to close the factory.)", a:"せざる", opts:["せざる","しざる","さざる","すざる"], sSrc:"We have no choice but to close the factory.",
    hint:"する becomes an irregular form in this classical negative pattern. Think: せ + ざる."},
 
   {type:"mc", q:"Which pattern expresses reluctant, unavoidable obligation?", opts:["べき","ざるを得ない","たほうがいい","ことにする"], ans:"ざるを得ない",
@@ -120,7 +120,7 @@ const UNIT_27 = {
 
   {type:"match", pairs:[{trg:"〜ざるを得ない",src:"have no choice but to"},{trg:"しげん",src:"resources"},{trg:"たいさく",src:"countermeasure"},{trg:"きゅうむ",src:"urgent task"}]},
 
-  {type:"fb", s:"かんきょうほごはぜんじんるいの___です。\n(Environmental protection is an urgent task for all humanity.)", a:"きゅうむ", opts:["きゅうむ","たいさく","もんだい","せいさく"], sSrc:"Environmental protection is an urgent task for all humanity.",
+  {type:"fb", s:"かんきょうほごはぜんじんるいの{1}です。\n(Environmental protection is an urgent task for all humanity.)", a:"きゅうむ", opts:["きゅうむ","たいさく","もんだい","せいさく"], sSrc:"Environmental protection is an urgent task for all humanity.",
    hint:"The formal noun meaning a pressing duty that demands immediate action."},
 
   {type:"match", pairs:[{trg:"せいかつスタイル",src:"lifestyle"},{trg:"べき",src:"should"},{trg:"ちきゅうおんだんか",src:"global warming"},{trg:"かんきょうほご",src:"environmental protection"}]},

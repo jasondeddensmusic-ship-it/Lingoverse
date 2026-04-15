@@ -1,4 +1,4 @@
-// Unit 14 Expansion L4 — Expressing Preferences
+// Unit 14 Expansion L4. Expressing Preferences
 // Comparing things, stating preferences, giving reasons.
 
 const LESSON_4 = {id:"jav2_u14l4", title:"すきなもの", icon:"❤️", xp:15, board:true, steps:[
@@ -45,7 +45,7 @@ const LESSON_4 = {id:"jav2_u14l4", title:"すきなもの", icon:"❤️", xp:15
    exampleSrc:"A: Because it is raining, I do not want to go out.\nB: Me neither. Let us stay home.",
    funFact:"ので sounds more objective and polite than から. In business Japanese, ので is strongly preferred. から can sound blunt or like an excuse. The grammatical difference: から follows plain forms directly, while ので needs な after nouns and な-adjectives (しずかなので, not しずかので)."},
 
-  {type:"fb", s:"コーヒー___おちゃのほうがすきです。\n(I like tea more than coffee.)", a:"より", opts:["より","まで","から","ので"], sSrc:"I like tea more than coffee.",
+  {type:"fb", s:"コーヒー{1}おちゃのほうがすきです。\n(I like tea more than coffee.)", a:"より", opts:["より","まで","から","ので"], sSrc:"I like tea more than coffee.",
    hint:"The comparison particle meaning 'more than' or 'compared to.'"},
 
   {type:"teach", trg:"にがて", src:"not good with / weak point", pos:"adj", gender:null,
@@ -75,7 +75,7 @@ const LESSON_4 = {id:"jav2_u14l4", title:"すきなもの", icon:"❤️", xp:15
    exampleSrc:"A: Meat or fish, which do you like?\nB: If I had to choose, I like fish more.",
    funFact:"どちらかというと is the polite, non-committal way to state a preference. It avoids appearing too decisive or opinionated. Literally 'if one were to say one or the other,' it beautifully captures the Japanese tendency to qualify statements and avoid absolutes."},
 
-  {type:"fb", s:"にほんりょうりで___がいちばんすきですか？\n(What Japanese food do you like the most?)", a:"なに", opts:["なに","どこ","だれ","いつ"], sSrc:"What Japanese food do you like the most?",
+  {type:"fb", s:"にほんりょうりで{1}がいちばんすきですか？\n(What Japanese food do you like the most?)", a:"なに", opts:["なに","どこ","だれ","いつ"], sSrc:"What Japanese food do you like the most?",
    hint:"The question word for 'what' used with いちばん for superlatives."},
 
   {type:"match", pairs:[{trg:"より",src:"more than"},{trg:"のほうが",src:"(this one) is more"},{trg:"いちばん",src:"the most"},{trg:"どちら",src:"which of two"}]},
@@ -85,7 +85,7 @@ const LESSON_4 = {id:"jav2_u14l4", title:"すきなもの", icon:"❤️", xp:15
   {type:"mc", q:"どちらかというと means:", opts:["Definitely","If I had to choose","I do not know","I disagree"], ans:"If I had to choose",
    hint:"A hedging phrase used before stating a mild preference."},
 
-  {type:"fb", s:"あめがふっている___、でかけたくないです。\n(Because it is raining, I do not want to go out.)", a:"ので", opts:["ので","から","のに","けど"], sSrc:"Because it is raining, I do not want to go out.",
+  {type:"fb", s:"あめがふっている{1}、でかけたくないです。\n(Because it is raining, I do not want to go out.)", a:"ので", opts:["ので","から","のに","けど"], sSrc:"Because it is raining, I do not want to go out.",
    hint:"The polite, softer version of 'because' preferred in formal speech."},
 
   {type:"tip", title:"Comparisons and Preferences",

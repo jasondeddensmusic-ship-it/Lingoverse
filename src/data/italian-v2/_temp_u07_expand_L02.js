@@ -1,4 +1,4 @@
-// Italian V2 Unit 07 Expansion — Lesson 5: Piatti regionali (Regional Dishes)
+// Italian V2 Unit 07 Expansion. Lesson 5: Piatti regionali (Regional Dishes)
 // Expands restaurant unit with Italian regional cuisine vocabulary.
 
 const LESSON_5 = {id:"itv2_u7l5", title:"Piatti regionali", icon:"\uD83C\uDDEE\uD83C\uDDF9", xp:15, board:true, steps:[

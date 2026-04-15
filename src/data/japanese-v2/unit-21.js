@@ -1,6 +1,6 @@
-// Japanese V2 Unit 21 — しゃかい (Society & News)
+// Japanese V2 Unit 21. しゃかい (Society & News)
 import EXP_L3 from './_temp_u21_expand_L01.js';import EXP_L4 from './_temp_u21_expand_L02.js';import EXP_L5 from './_temp_u21_expand_L03.js';
-// Level: B1.2 — JLPT N3 aligned.
+// Level: B1.2. JLPT N3 aligned.
 // News vocabulary, opinion expressions, society topics.
 
 const UNIT_21 = {
@@ -60,7 +60,7 @@ const UNIT_21 = {
    exampleSrc:"A: There was an earthquake last night.\nB: Were you okay?",
    funFact:"地震 literally means 'earth-shake.' Japan experiences over 1,500 noticeable earthquakes per year. The seismic intensity scale (震度, shindo) runs from 0 to 7 and is unique to Japan. Earthquake early warning systems send alerts to phones seconds before shaking arrives. Every building in Japan is designed with seismic resistance."},
 
-  {type:"fb", s:"にほんは___がおおいくにです。\n(Japan is a country with many disasters.)", a:"さいがい", opts:["さいがい","じけん","せんきょ","けいざい"], sSrc:"Japan is a country with many disasters.",
+  {type:"fb", s:"にほんは{1}がおおいくにです。\n(Japan is a country with many disasters.)", a:"さいがい", opts:["さいがい","じけん","せんきょ","けいざい"], sSrc:"Japan is a country with many disasters.",
    hint:"The word for natural or man-made disasters, including earthquakes and typhoons."},
 
   {type:"teach", trg:"たいふう", src:"typhoon", pos:"noun", gender:null,
@@ -88,7 +88,7 @@ const UNIT_21 = {
 
   {type:"match", pairs:[{trg:"せんきょ",src:"election"},{trg:"けいざい",src:"economy"},{trg:"じしん",src:"earthquake"},{trg:"たいふう",src:"typhoon"}]},
 
-  {type:"fb", s:"らいげつ___があります。\n(There is an election next month.)", a:"せんきょ", opts:["せんきょ","じけん","さいがい","けいざい"], sSrc:"There is an election next month.",
+  {type:"fb", s:"らいげつ{1}があります。\n(There is an election next month.)", a:"せんきょ", opts:["せんきょ","じけん","さいがい","けいざい"], sSrc:"There is an election next month.",
    hint:"The word for a democratic voting event where citizens choose representatives."},
 
   {type:"mc", q:"けいざい means:", opts:["politics","education","economy","culture"], ans:"economy",
@@ -146,7 +146,7 @@ const UNIT_21 = {
    exampleSrc:"A: Please share your opinions.\nB: I think environmental problems are the most important.",
    funFact:"意見 literally means 'thought-view.' In Japanese culture, directly stating opinions (iken wo iu) requires social awareness. Meetings often use the phrase 'please share your iken,' but responses are carefully framed. Starting with 'I think...' (to omoimasu) softens the opinion."},
 
-  {type:"fb", s:"ニュース___あしたゆきがふるそうです。\n(According to the news, it will snow tomorrow.)", a:"によると", opts:["によると","について","にたいして","のために"], sSrc:"According to the news, it will snow tomorrow.",
+  {type:"fb", s:"ニュース{1}あしたゆきがふるそうです。\n(According to the news, it will snow tomorrow.)", a:"によると", opts:["によると","について","にたいして","のために"], sSrc:"According to the news, it will snow tomorrow.",
    hint:"The attribution phrase meaning 'according to' a source of information."},
 
   {type:"teach", trg:"せいふ", src:"government", pos:"noun", gender:null,
@@ -168,7 +168,7 @@ const UNIT_21 = {
 
   {type:"match", pairs:[{trg:"かんきょう",src:"environment"},{trg:"もんだい",src:"problem"},{trg:"かいけつする",src:"to solve"},{trg:"いけん",src:"opinion"}]},
 
-  {type:"fb", s:"せいふのたいおう___ふまんがあります。\n(There is dissatisfaction toward the government's response.)", a:"にたいして", opts:["にたいして","について","によると","のために"], sSrc:"There is dissatisfaction toward the government's response.",
+  {type:"fb", s:"せいふのたいおう{1}ふまんがあります。\n(There is dissatisfaction toward the government's response.)", a:"にたいして", opts:["にたいして","について","によると","のために"], sSrc:"There is dissatisfaction toward the government's response.",
    hint:"The phrase expressing an attitude or stance directed toward something."},
 
   {type:"match", pairs:[{trg:"せいふ",src:"government"},{trg:"しゃかい",src:"society"},{trg:"とうひょうする",src:"to vote"},{trg:"けいざい",src:"economy"}]},

@@ -1,4 +1,4 @@
-// Unit 02 Expansion L04 — More Countries, Languages & Where Are You From?
+// Unit 02 Expansion L04. More Countries, Languages & Where Are You From?
 const LESSON_4 = {
   id:"jav2_u2l4", title:"せかいのくに", icon:"🌐", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_4 = {
      exampleSrc:"A: What languages do you speak?\nB: I speak English and Japanese.",
      funFact:"話 combines 言 (words) + 舌 (tongue). Speaking is literally 'tongue-words.' Hanasu covers both 'speak a language' and 'talk/chat.' The polite form hanashimasu is used in formal introductions about language ability."},
 
-    {type:"fb", s:"えいごを___ますか？",
+    {type:"fb", s:"えいごを{1}ますか？",
      a:["はなし"],
      opts:["はなし","たべ","のみ","よみ"],
      hint:"The polite stem of the verb meaning 'to speak' or 'to talk.'",
@@ -110,7 +110,7 @@ const LESSON_4 = {
       {trg:"イタリア", src:"Italy"}
     ]},
 
-    {type:"fb", s:"にほんごが___ですね！",
+    {type:"fb", s:"にほんごが{1}ですね！",
      a:["ぺらぺら"],
      opts:["ぺらぺら","すこし","まずい","たかい"],
      hint:"The onomatopoeia word that describes smooth, flowing speech.",

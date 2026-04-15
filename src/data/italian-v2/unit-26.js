@@ -1,4 +1,4 @@
-// Italian V2 Unit 26 — Il diritto (B2.1)
+// Italian V2 Unit 26. Il diritto (B2.1)
 import EXP_L4 from './_temp_u26_expand_L01.js';import EXP_L5 from './_temp_u26_expand_L02.js';import EXP_L6 from './_temp_u26_expand_L03.js';
 // CILS B2 aligned. Law, justice, and rights vocabulary.
 

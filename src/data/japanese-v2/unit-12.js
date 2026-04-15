@@ -1,5 +1,5 @@
-// Japanese V2 Unit 12 — かのう (Ability & Potential)
-// Level: A2.1 — JLPT N4 aligned.
+// Japanese V2 Unit 12. かのう (Ability & Potential)
+// Level: A2.1. JLPT N4 aligned.
 import JEXP_12_L1 from './_temp_u12_expand_L01.js';import JEXP_12_L2 from './_temp_u12_expand_L02.js';import JEXP_12_L3 from './_temp_u12_expand_L03.js';
 // Potential form, koto ga dekiru, mou/mada.
 
@@ -54,7 +54,7 @@ const UNIT_12 = {
    exampleSrc:"A: You can study Japanese with this app.\nB: That is convenient.",
    funFact:"こと turns a verb into a noun (nominalization). So たべることができる literally means 'the act of eating is possible.' This pattern sounds more formal and is preferred in written Japanese, announcements, and official contexts."},
 
-  {type:"fb", s:"かんじが___ますか？\n(Can you read kanji?)", a:"よめ", opts:["よめ","よみ","よんで","よむ"], sSrc:"Can you read kanji?",
+  {type:"fb", s:"かんじが{1}ますか？\n(Can you read kanji?)", a:"よめ", opts:["よめ","よみ","よんで","よむ"], sSrc:"Can you read kanji?",
    hint:"The potential form of よむ. Change the む (u-row) to め (e-row), then add る."},
 
   {type:"mc", q:"What is the potential form of たべる?", opts:["たべれる","たべられる","たべできる","たべける"], ans:"たべられる",
@@ -67,7 +67,7 @@ const UNIT_12 = {
    deepDive:{title:"The を vs が switch",
     text:"In regular sentences, the object takes を:\nすしをたべる。(I eat sushi.)\n\nIn potential sentences, the object often takes が:\nすしがたべられる。(I can eat sushi.)\n\nWhy? The potential form describes a state of ability, not a direct action on an object. The subject 'possesses' the ability, and the thing becomes more like a topic of that ability. In casual speech, を is increasingly used with potential forms too."}},
 
-  {type:"fb", s:"えいごが___ますか？\n(Can you speak English?)", a:"はなせ", opts:["はなせ","はなし","はなして","はなす"], sSrc:"Can you speak English?",
+  {type:"fb", s:"えいごが{1}ますか？\n(Can you speak English?)", a:"はなせ", opts:["はなせ","はなし","はなして","はなす"], sSrc:"Can you speak English?",
    hint:"Potential form of はなす. Change す (u-row) to せ (e-row)."},
 
   {type:"mc", q:"ことができる is:", opts:["more casual than potential form","the same as potential form","more formal than potential form","only for Group 2 verbs"], ans:"more formal than potential form",
@@ -113,7 +113,7 @@ const UNIT_12 = {
    exampleSrc:"A: Is the report done?\nB: Not yet. I will submit it by tomorrow.",
    funFact:"まだです is the go-to short answer when someone asks if something is done. It is polite, concise, and avoids the awkwardness of a full negative sentence. In restaurants, when asked if you have decided your order: まだです (not yet)."},
 
-  {type:"fb", s:"いいえ、___たべていません。\n(No, I have not eaten yet.)", a:"まだ", opts:["まだ","もう","いま","まえに"], sSrc:"No, I have not eaten yet.",
+  {type:"fb", s:"いいえ、{1}たべていません。\n(No, I have not eaten yet.)", a:"まだ", opts:["まだ","もう","いま","まえに"], sSrc:"No, I have not eaten yet.",
    hint:"The word meaning 'not yet' that pairs with negative verbs."},
 
   {type:"teach", trg:"もういちど", src:"one more time", pos:"adv", gender:null,
@@ -133,7 +133,7 @@ const UNIT_12 = {
 
   {type:"match", pairs:[{trg:"もう",src:"already"},{trg:"まだ",src:"not yet / still"},{trg:"もういちど",src:"one more time"},{trg:"まだです",src:"not yet (short)"}]},
 
-  {type:"fb", s:"___いちどおねがいします。\n(One more time, please.)", a:"もう", opts:["もう","まだ","また","いつも"], sSrc:"One more time, please.",
+  {type:"fb", s:"{1}いちどおねがいします。\n(One more time, please.)", a:"もう", opts:["もう","まだ","また","いつも"], sSrc:"One more time, please.",
    hint:"The word meaning 'more/another' when combined with counters."},
 
   {type:"match", pairs:[{trg:"できる",src:"can do"},{trg:"よめる",src:"can read"},{trg:"かける",src:"can write"},{trg:"はなせる",src:"can speak"}]},

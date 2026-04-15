@@ -1,5 +1,5 @@
-// Japanese V2 Unit 06 — かぞく (Family)
-// Level: A1.2 — JLPT N5 aligned.
+// Japanese V2 Unit 06. かぞく (Family)
+// Level: A1.2. JLPT N5 aligned.
 // Family members, humble vs honorific forms, counting people.
 
 const UNIT_06 = {
@@ -76,7 +76,7 @@ const UNIT_06 = {
    exampleSrc:"A: Is your older sister also studying Japanese?\nB: No, she is studying English.",
    funFact:"Like oniisan, oneesan is used for young women in general. At restaurants, you might hear a customer call a waitress 'oneesan' to get her attention. This is considered casual but not rude."},
 
-  {type:"fb", s:"___はだいがくせいです。\n(My older brother is a university student.)", a:"あに", opts:["あに","おにいさん","ちち","あね"], sSrc:"My older brother is a university student.",
+  {type:"fb", s:"{1}はだいがくせいです。\n(My older brother is a university student.)", a:"あに", opts:["あに","おにいさん","ちち","あね"], sSrc:"My older brother is a university student.",
    hint:"The humble form for your own older brother."},
 
   {type:"teach", trg:"いもうと", src:"younger sister", pos:"noun", gender:null,
@@ -141,7 +141,7 @@ const UNIT_06 = {
    exampleSrc:"A: Do you have siblings?\nB: Yes, I have one older brother.",
    funFact:"Japanese splits existence into two verbs: imasu for living things that can move on their own (people, animals, fish, insects) and arimasu for inanimate objects (books, buildings, trees). Plants use arimasu because they do not move."},
 
-  {type:"fb", s:"かぞくは___ですか？\n(How many people in your family?)", a:"なんにん", opts:["なんにん","さんにん","ひとり","ふたり"], sSrc:"How many people in your family?",
+  {type:"fb", s:"かぞくは{1}ですか？\n(How many people in your family?)", a:"なんにん", opts:["なんにん","さんにん","ひとり","ふたり"], sSrc:"How many people in your family?",
    hint:"The question word combining 'what' with the people counter."},
 
   {type:"teach", trg:"きょうだい", src:"siblings / brothers and sisters", pos:"noun", gender:null,
@@ -177,7 +177,7 @@ const UNIT_06 = {
    exampleSrc:"A: Where does your grandmother live?\nB: She lives in Osaka.",
    funFact:"Same vowel-length trap: obaasan (long aa) means grandmother/old lady. Obasan (short a) means aunt/middle-aged woman. Mixing these up is a classic and embarrassing mistake. Pay attention to long vs short vowels."},
 
-  {type:"fb", s:"きょうだいが___か？\n(Do you have siblings?)", a:"います", opts:["います","あります","です","ます"], sSrc:"Do you have siblings?",
+  {type:"fb", s:"きょうだいが{1}か？\n(Do you have siblings?)", a:"います", opts:["います","あります","です","ます"], sSrc:"Do you have siblings?",
    hint:"The existence verb for living things like people."},
 
   {type:"match", pairs:[{trg:"ひとり",src:"one person"},{trg:"ふたり",src:"two people"},{trg:"さんにん",src:"three people"},{trg:"よにん",src:"four people"}]},
@@ -187,11 +187,14 @@ const UNIT_06 = {
   {type:"mc", q:"います is used for:", opts:["books and buildings","weather and time","people and animals","food and drink"], ans:"people and animals",
    hint:"This verb describes existence specifically for living, moving beings."},
 
-  {type:"fb", s:"かぞくは___です。\n(My family is five people.)", a:"ごにん", opts:["ごにん","いつつ","ごこ","ごまい"], sSrc:"My family is five people.",
+  {type:"fb", s:"かぞくは{1}です。\n(My family is five people.)", a:"ごにん", opts:["ごにん","いつつ","ごこ","ごまい"], sSrc:"My family is five people.",
    hint:"The people counter for five: number + nin."},
 
   {type:"mc", q:"おばあさん means:", opts:["aunt","mother","younger sister","grandmother"], ans:"grandmother",
    hint:"The word with long aa vowel, using the honorific o- prefix."},
+
+  {type:"mc", q:"おじいさん means:", opts:["grandfather","uncle","father","older brother"], ans:"grandfather",
+   hint:"The honorific form with a long vowel, for someone's elderly male relative."},
 ]},
 
 ]};

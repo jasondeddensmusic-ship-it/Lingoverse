@@ -1,4 +1,4 @@
-// Unit 04 Expansion L04 — Shopping Phrases & At the Store
+// Unit 04 Expansion L04. Shopping Phrases & At the Store
 const LESSON_4 = {
   id:"jav2_u4l4", title:"おかいものフレーズ", icon:"🏬", xp:15, board:true,
   steps:[
@@ -57,7 +57,7 @@ const LESSON_4 = {
      exampleSrc:"A: Where is the register?\nB: Over there.",
      funFact:"At Japanese registers, you place money on a small tray (kanetsubo), not hand it directly to the cashier. The cashier counts change aloud and returns it on the tray. This ritualized exchange avoids direct hand contact and is considered more hygienic."},
 
-    {type:"fb", s:"このくつを___もいいですか？",
+    {type:"fb", s:"このくつを{1}もいいですか？",
      a:["ためして"],
      opts:["ためして","みせて","かって","はいって"],
      hint:"The te-form of the verb 'to try' used when asking permission to try something on.",
@@ -104,7 +104,7 @@ const LESSON_4 = {
       {trg:"カード", src:"card"}
     ]},
 
-    {type:"fb", s:"___でおねがいします。",
+    {type:"fb", s:"{1}でおねがいします。",
      a:["カード"],
      opts:["カード","げんきん","レジ","ふくろ"],
      hint:"The payment method using a plastic credit or debit card.",
