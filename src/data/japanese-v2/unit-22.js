@@ -84,7 +84,7 @@ const UNIT_22 = {
    hint:"The verb for when someone else gives something TO the speaker. Implies gratitude."},
 
   {type:"mc", q:"おみやげ is:", opts:["a greeting card","a souvenir brought back from a trip","a birthday cake","a business card"], ans:"a souvenir brought back from a trip",
-   hint:"Local specialty gifts that travelers purchase on trips and share with friends and coworkers."},
+   hint:"Local specialty gifts that travelers purchase while away and share with friends and coworkers."},
 ]},
 
 // ═══ L2: てあげる・てもらう・てくれる (Favors) ═══

@@ -156,7 +156,7 @@ const UNIT_11 = {
       {type:"mc", q:"What is the past participle of 'fare'?",
        opts:["Fatto","Farato","Fato","Ferito"],
        ans:"Fatto",
-       hint:"This is completely irregular. 'Ho fatto' = I did/made. One of the most common Italian verb forms."},
+       hint:"This is completely irregular. From 'fare' (to do/make). One of the most common Italian verb forms."},
 
       {type:"fb", s:"Cosa ha {1} il dottore?",
        a:["detto"],

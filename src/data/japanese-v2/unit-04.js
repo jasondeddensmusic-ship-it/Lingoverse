@@ -102,7 +102,7 @@ const UNIT_04 = {
   {type:"fb", s:"この かばんは ___い です。\n(This bag is expensive.)", a:"たか", opts:["たか","やす","おおき","ちいさ"], sSrc:"This bag is expensive.",
    hint:"The i-adjective meaning expensive or high."},
 
-  {type:"mc", q:"Which is the correct pair of opposites?", opts:["たかい / ちいさい","おおきい / やすい","たかい / やすい","あかい / あおい"], ans:"たかい / やすい",
+  {type:"mc", q:"Which is the correct pair of opposites?", opts:["たかい / やすい","おおきい / やすい","たかい / ちいさい","あかい / あおい"], ans:"たかい / やすい",
    hint:"One means expensive, the other means cheap."},
 
   {type:"tip", title:"I-Adjectives: A Quick Intro",
@@ -110,7 +110,7 @@ const UNIT_04 = {
    deepDive:{title:"Na-adjectives preview",
     text:"Na-adjectives need な before a noun:\nべんり + な + かばん = convenient bag\nきれい + な + とけい = beautiful watch\n\nYou will learn na-adjectives properly in a later unit. For now, just notice that some descriptive words need な and some do not."}},
 
-  {type:"mc", q:"あかいかさ means:", opts:["red umbrella","big umbrella","expensive umbrella","old umbrella"], ans:"red umbrella",
+  {type:"mc", q:"あかいかさ means:", opts:["big umbrella","red umbrella","expensive umbrella","old umbrella"], ans:"red umbrella",
    hint:"Akai is the i-adjective form of aka (red)."},
 ]},
 
@@ -188,7 +188,7 @@ const UNIT_04 = {
    exampleSrc:"A: How much is this watch?\nB: It is 5,000 yen.",
    funFact:"The 5,000-yen bill features Tsuda Umeko, a pioneering educator who studied in America at age 6 in 1871 and later founded Tsuda University. She replaced the previous male portrait in the 2024 redesign."},
 
-  {type:"mc", q:"いっぽん is the counter reading for:", opts:["One flat object","One small object","One long object","One yen"], ans:"One long object",
+  {type:"mc", q:"いっぽん is the counter reading for:", opts:["One flat object","One long object","One small object","One yen"], ans:"One long object",
    hint:"Pon/bon/hon is the long-object counter. Ippon = one long thing."},
 
   {type:"fb", s:"この とけいは ___えん です。\n(This watch is 10,000 yen.)", a:"いちまん", opts:["いちまん","じゅう","ひゃく","せん"], sSrc:"This watch is 10,000 yen.",
@@ -198,10 +198,10 @@ const UNIT_04 = {
 
   {type:"match", pairs:[{trg:"こ",src:"counter: small objects"},{trg:"まい",src:"counter: flat objects"},{trg:"ほん",src:"counter: long objects"},{trg:"ください",src:"please (give me)"}]},
 
-  {type:"mc", q:"How do you say 'two flat objects' (like two tickets)?", opts:["にこ","にまい","にほん","にえん"], ans:"にまい",
+  {type:"mc", q:"How do you say 'two flat objects' (like two tickets)?", opts:["にこ","にほん","にまい","にえん"], ans:"にまい",
    hint:"Flat things use the mai counter. No sound changes with two."},
 
-  {type:"mc", q:"さんぜん means:", opts:["300","30,000","30","3,000"], ans:"3,000",
+  {type:"mc", q:"さんぜん means:", opts:["3,000","30,000","30","300"], ans:"3,000",
    hint:"Sen becomes zen after san. San + sen = sanzen."},
 
   {type:"fb", s:"りんごを ___こ ください。\n(Five apples, please.)", a:"ご", opts:["ご","さん","に","ろっ"], sSrc:"Five apples, please.",

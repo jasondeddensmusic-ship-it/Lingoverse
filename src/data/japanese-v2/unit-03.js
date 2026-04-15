@@ -38,7 +38,7 @@ const UNIT_03 = {
    exampleSrc:"A: What is this?\nB: It is a cellphone.",
    funFact:"Nan and nani are the same word. Nan appears before desu, de, and counters (nan-nin, nan-ji). Nani appears elsewhere (nani wo, nani ga). The change is purely for smoother pronunciation."},
 
-  {type:"mc", q:"これ refers to something:", opts:["Near the speaker","Near the listener","Far from both","Unknown location"], ans:"Near the speaker",
+  {type:"mc", q:"これ refers to something:", opts:["Near the listener","Near the speaker","Far from both","Unknown location"], ans:"Near the speaker",
    hint:"Ko- words are always about what is close to the person speaking."},
 
   {type:"teach", trg:"ほん", src:"book", pos:"noun", gender:null,
@@ -96,12 +96,12 @@ const UNIT_03 = {
   {type:"fb", s:"あれは___ですか？\n(What is that over there?)", a:"なん", opts:["なん","これ","だれ","どこ"], sSrc:"What is that over there?",
    hint:"The question word for 'what' that pairs with desu ka."},
 
-  {type:"mc", q:"かぎ means:", opts:["bag","key","clock","umbrella"], ans:"key",
+  {type:"mc", q:"かぎ means:", opts:["bag","clock","umbrella","key"], ans:"key",
    hint:"A small metal object that opens locks."},
 
   {type:"match", pairs:[{trg:"とけい",src:"watch / clock"},{trg:"めがね",src:"glasses"},{trg:"かぎ",src:"key"},{trg:"かさ",src:"umbrella"}]},
 
-  {type:"mc", q:"これはめがねです means:", opts:["These are glasses","Those are glasses","Where are the glasses?","I want glasses"], ans:"These are glasses",
+  {type:"mc", q:"これはめがねです means:", opts:["Where are the glasses?","Those are glasses","These are glasses","I want glasses"], ans:"These are glasses",
    hint:"Kore (this) + wa (topic) + megane (glasses) + desu (is)."},
 ]},
 
@@ -123,7 +123,7 @@ const UNIT_03 = {
    exampleSrc:"A: Whose cellphone is that?\nB: It is the teacher's.",
    funFact:"Dare follows the same ko-so-a-do pattern. Ko-re (this thing), so-re (that thing), a-re (that far thing), do-re (which thing). Da-re is the 'who' version of this pattern."},
 
-  {type:"mc", q:"わたしのほん means:", opts:["my book","I am a book","this book","a book"], ans:"my book",
+  {type:"mc", q:"わたしのほん means:", opts:["I am a book","this book","my book","a book"], ans:"my book",
    hint:"Watashi (I) + no (possession) + hon (book)."},
 
   {type:"teach", trg:"いち", src:"one (1)", pos:"num", gender:null,
@@ -196,7 +196,7 @@ const UNIT_03 = {
 
   {type:"match", pairs:[{trg:"ろく",src:"six"},{trg:"なな",src:"seven"},{trg:"はち",src:"eight"},{trg:"きゅう",src:"nine"},{trg:"じゅう",src:"ten"}]},
 
-  {type:"mc", q:"Which number is considered the luckiest in Japan?", opts:["よん","ご","なな","はち"], ans:"はち",
+  {type:"mc", q:"Which number is considered the luckiest in Japan?", opts:["よん","はち","なな","ご"], ans:"はち",
    hint:"Its kanji 八 symbolizes spreading prosperity."},
 
   {type:"fb", s:"これはせんせい___かさです。", a:"の", opts:["の","は","が","を"], sSrc:"This is the teacher's umbrella.",

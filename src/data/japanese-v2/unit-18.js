@@ -74,7 +74,7 @@ const UNIT_18 = {
    funFact:"走らせる is heard constantly in sports contexts. Japanese school sports (bukatsu) are famous for rigorous training. Coaches making athletes run laps is a staple of sports anime and real school life. The word also applies to vehicles: kuruma wo hashiraseru (to drive a car)."},
 
   {type:"mc", q:"やすませてください means:", opts:["Please rest yourself","Please let me rest","You must rest","I rested"], ans:"Please let me rest",
-   hint:"Causative + てください is a polite way to ask permission: 'please cause me to rest.'"},
+   hint:"Causative + てください is how you ask someone to allow you to do something."},
 
   {type:"match", pairs:[{trg:"たべさせる",src:"make/let eat"},{trg:"またせる",src:"make wait"},{trg:"やすませる",src:"let rest"},{trg:"いかせる",src:"make/let go"}]},
 

@@ -187,7 +187,7 @@ const UNIT_19 = {
       {type:"fb", s:"Perche {1} sempre?",
        a:["litigate"],
        opts:["litigate","fidate","riconciliate","sentite"],
-       hint:"This verb means to quarrel or argue. It gave English 'litigate.' Here it is in the voi form.",
+       hint:"This verb means to quarrel or have a dispute. It gave English a legal term. Here it is in the voi form.",
        sSrc:"Why do you always {1}?"},
 
       {type:"mc", q:"What is the informal way to say 'to reconcile' in Italian?",

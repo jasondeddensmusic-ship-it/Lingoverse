@@ -84,7 +84,7 @@ const UNIT_20 = {
    hint:"The honorific て-form of the verb meaning 'to eat/drink' in elevated speech."},
 
   {type:"mc", q:"When do you use sonkeigo?", opts:["For your own actions","For actions of someone you respect","For actions of your family","For actions of your pet"], ans:"For actions of someone you respect",
-   hint:"Sonkeigo elevates OTHER people's actions to show respect, never your own."},
+   hint:"Sonkeigo elevates what OTHER people do, honoring their status. Never for yourself."},
 ]},
 
 // ═══ L2: けんじょうご (Humble Language) ═══
@@ -118,7 +118,7 @@ const UNIT_20 = {
    funFact:"おる is the humble of いる. On business phone calls, you say おります for your own team members: 'Tanaka wa ima orimasen' (Tanaka is not in, humble). This is a key point: you use humble forms for your own company's people when speaking to outsiders, because your team is your in-group."},
 
   {type:"mc", q:"いただきます before a meal means:", opts:["It looks delicious","Thank you for cooking","I humbly receive this food","Please eat"], ans:"I humbly receive this food",
-   hint:"This humble verb means 'to receive' in an elevated way, expressing gratitude for the meal."},
+   hint:"The humble verb used before meals, expressing deep gratitude for what you are about to consume."},
 
   {type:"teach", trg:"〜お + stem + する", src:"humble verb pattern", pos:"part", gender:null,
    note:"Productive humble pattern: お + verb masu-stem + する.\nおもちする = to carry (humble). おつたえする = to convey (humble).",
@@ -153,7 +153,7 @@ const UNIT_20 = {
    funFact:"いたす is the humble of する and appears in one of the most common Japanese phrases: よろしくおねがいいたします (humble version of よろしくおねがいします). In business emails and conversations, いたす replaces する in virtually every context: かくにんいたします (I will confirm), れんらくいたします (I will contact)."},
 
   {type:"mc", q:"おにもつをおもちします means:", opts:["Please carry your luggage","Your luggage is heavy","I will carry your luggage (humble)","Carry your own luggage"], ans:"I will carry your luggage (humble)",
-   hint:"The お + stem + する pattern lowers your action to show respect to the other person."},
+   hint:"The お + stem + する pattern lowers the speaker's action to honor the listener."},
 
   {type:"match", pairs:[{trg:"まいる",src:"to go/come (hum.)"},{trg:"いただく",src:"to receive/eat (hum.)"},{trg:"もうす",src:"to say (hum.)"},{trg:"おる",src:"to be (hum.)"}]},
 

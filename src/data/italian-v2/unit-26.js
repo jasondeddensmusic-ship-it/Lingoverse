@@ -1,0 +1,350 @@
+// Italian V2 Unit 26 — Il diritto (B2.1)
+// CILS B2 aligned. Law, justice, and rights vocabulary.
+
+const UNIT_26 = {
+  n:26, lang:"it", srcLang:"en", track:"v2",
+  title:"Il diritto", sub:"Law & Justice",
+  icon:"⚖️", level:"B2.1", color:"#7B5EE8",
+  lessons:[
+    // ─── Lesson 1: In tribunale ───
+    {id:"itv2_u26l1", title:"In tribunale", icon:"🏛️", xp:15, board:true, steps:[
+      {type:"intro", title:"In tribunale",
+       desc:"Learn essential legal vocabulary for courts, trials, and the Italian justice system. These terms appear frequently in news and public discourse.",
+       goals:["Name key roles in the Italian legal system","Describe court proceedings and outcomes","Understand legal terminology in news reports"]},
+
+      {type:"teach", trg:"il tribunale", src:"the court / courthouse", pos:"noun", gender:"m",
+       note:"Masculine noun. The building and the institution.\nPlural: i tribunali. 'Tribunale civile/penale' = civil/criminal court.",
+       example:"A: Devo andare al tribunale domani.\nB: Per quale motivo?\nA: Una causa civile.",
+       exampleSrc:"A: I have to go to the courthouse tomorrow.\nB: For what reason?\nA: A civil case.",
+       funFact:"From Latin 'tribunal,' the raised platform where Roman magistrates sat to administer justice. Italian courthouses are often grand neoclassical buildings reflecting the solemnity of law."},
+
+      {type:"teach", trg:"il processo", src:"the trial", pos:"noun", gender:"m",
+       note:"Masculine noun. Plural: i processi.\nAlso means 'process' in general. 'Processo penale' = criminal trial.",
+       example:"A: Il processo durera almeno sei mesi.\nB: La giustizia italiana e molto lenta.",
+       exampleSrc:"A: The trial will last at least six months.\nB: Italian justice is very slow.",
+       funFact:"Italy's court system is notoriously slow. The average civil trial takes over 500 days. The European Court of Human Rights has repeatedly condemned Italy for violating the right to a speedy trial."},
+
+      {type:"teach", trg:"il giudice", src:"the judge", pos:"noun", gender:"m",
+       note:"Masculine/feminine noun. 'La giudice' for a female judge is\nincreasingly common, though 'il giudice' is still used for both.",
+       example:"A: Il giudice ha rinviato l'udienza.\nB: A quando?\nA: Al mese prossimo.",
+       exampleSrc:"A: The judge postponed the hearing.\nB: Until when?\nA: Next month.",
+       funFact:"Italian judges are career magistrates who enter the profession through a national competitive exam after law school. They do not need to practice as lawyers first, unlike in many other countries."},
+
+      {type:"teach", trg:"l'avvocato", src:"the lawyer", pos:"noun", gender:"m",
+       note:"Masculine noun. Feminine: l'avvocata/l'avvocatessa.\nPlural: gli avvocati. Title abbreviated as 'Avv.'",
+       example:"A: Hai bisogno di un avvocato?\nB: Si, per una questione contrattuale.",
+       exampleSrc:"A: Do you need a lawyer?\nB: Yes, for a contractual matter.",
+       funFact:"Italy has one of the highest ratios of lawyers per capita in Europe, with over 240,000 registered avvocati. The title 'Avvocato' is used as an honorific, much like 'Dottore' for graduates."},
+
+      {type:"teach", trg:"la sentenza", src:"the sentence / judgment", pos:"noun", gender:"f",
+       note:"Feminine noun. The court's official decision.\n'Sentenza di condanna' = conviction. 'Sentenza di assoluzione' = acquittal.",
+       example:"A: La sentenza sara pronunciata venerdi.\nB: Speriamo in un esito positivo.",
+       exampleSrc:"A: The sentence will be pronounced on Friday.\nB: Let us hope for a positive outcome.",
+       funFact:"In Italian law, sentences must include a detailed written explanation of the judge's reasoning ('motivazione'). This can take weeks or months to write, delaying the final outcome."},
+
+      {type:"mc",
+       q:"Chi presiede un processo e pronuncia la sentenza?",
+       opts:["Il giudice","L'avvocato","Il testimone","Il querelante"],
+       ans:"Il giudice",
+       hint:"This person sits at the front of the courtroom and makes the final decision. A career magistrate in the Italian system."},
+
+      {type:"teach", trg:"l'appello", src:"the appeal", pos:"noun", gender:"m",
+       note:"Masculine noun. 'Fare appello' or 'ricorrere in appello' = to appeal.\n'Corte d'appello' = court of appeal.",
+       example:"A: L'imputato ha fatto appello.\nB: Il caso andra alla Corte d'appello.",
+       exampleSrc:"A: The defendant appealed.\nB: The case will go to the Court of Appeal.",
+       funFact:"Italy's justice system has three levels: Tribunale (first instance), Corte d'appello (appeal), and Corte di Cassazione (supreme court). Cases can bounce between levels for years."},
+
+      {type:"teach", trg:"il reato", src:"the crime / criminal offense", pos:"noun", gender:"m",
+       note:"Masculine noun. Plural: i reati.\n'Commettere un reato' = to commit a crime. 'Reato penale' = criminal offense.",
+       example:"A: E stato accusato di un reato grave.\nB: Rischia fino a dieci anni di carcere.",
+       exampleSrc:"A: He was accused of a serious crime.\nB: He faces up to ten years in prison.",
+       funFact:"Italian criminal law distinguishes between 'delitti' (serious crimes like murder or robbery) and 'contravvenzioni' (minor offenses like traffic violations). 'Reato' covers both categories."},
+
+      {type:"teach", trg:"accusare", src:"to accuse / to charge", pos:"verb", gender:null,
+       note:"Regular -are verb. Io accuso, tu accusi.\n'L'accusato' / 'l'imputato' = the accused/defendant.",
+       example:"A: Lo hanno accusato di frode.\nB: Ma lui si dichiara innocente.",
+       exampleSrc:"A: They accused him of fraud.\nB: But he declares himself innocent.",
+       funFact:"In Italian, the public prosecutor ('pubblico ministero' or PM) brings charges. Unlike some systems, Italian PMs are part of the magistracy, not the government, ensuring their independence."},
+
+      {type:"fb",
+       s:"La {1} del tribunale sara pronunciata domani mattina.",
+       a:["sentenza"],
+       opts:["sentenza","processo","appello","avvocato"],
+       hint:"The court's official decision or judgment. Pronounced by the judge at the end of a trial.",
+       sSrc:"The court's {1} will be pronounced tomorrow morning."},
+
+      {type:"teach", trg:"difendere", src:"to defend", pos:"verb", gender:null,
+       note:"Irregular -ere verb. Io difendo, tu difendi.\nPassato prossimo: ho difeso. 'La difesa' (noun) = the defense.",
+       example:"A: Chi difende l'imputato?\nB: L'avvocato Rossi, un penalista famoso.",
+       exampleSrc:"A: Who is defending the accused?\nB: Lawyer Rossi, a famous criminal attorney.",
+       funFact:"The participle 'difeso' is irregular (not 'difenduto'). 'Legittima difesa' (legitimate defense/self-defense) is a frequent topic in Italian legal and political debates."},
+
+      {type:"teach", trg:"condannare", src:"to convict / to sentence", pos:"verb", gender:null,
+       note:"Regular -are verb. Io condanno, tu condanni.\n'Condannare a' + punishment: 'condannato a tre anni' = sentenced to three years.",
+       example:"A: L'imputato e stato condannato a cinque anni.\nB: Fara appello sicuramente.",
+       exampleSrc:"A: The defendant was sentenced to five years.\nB: He will certainly appeal.",
+       funFact:"Italy abolished the death penalty in 1889, one of the first European countries to do so. The constitution of 1948 formally prohibits it. Maximum prison sentences top out at 30 years, with 'ergastolo' (life) for the worst crimes."},
+
+      {type:"teach", trg:"assolvere", src:"to acquit", pos:"verb", gender:null,
+       note:"Irregular -ere verb. Io assolvo, tu assolvi.\nPassato prossimo: ho assolto. Opposite of condannare.",
+       example:"A: L'imputato e stato assolto per mancanza di prove.\nB: Era chiaro fin dall'inizio.",
+       exampleSrc:"A: The defendant was acquitted for lack of evidence.\nB: It was clear from the beginning.",
+       funFact:"Italian acquittals come in two forms: 'assolto perche il fatto non sussiste' (acquitted because the fact does not exist) and 'assolto per non aver commesso il fatto' (acquitted for not having committed the act). The distinction matters for civil lawsuits."},
+
+      {type:"mc",
+       q:"Qual e il contrario di 'condannare'?",
+       opts:["Assolvere","Accusare","Difendere","Ricorrere"],
+       ans:"Assolvere",
+       hint:"When a court finds the defendant not guilty, it does the opposite of convicting. It releases them from the charges."},
+
+      {type:"match", pairs:[
+        {trg:"tribunale", src:"court"},
+        {trg:"processo", src:"trial"},
+        {trg:"sentenza", src:"sentence/judgment"},
+        {trg:"reato", src:"crime"},
+        {trg:"appello", src:"appeal"}
+      ]},
+
+      {type:"fb",
+       s:"L'imputato e stato {1} di frode fiscale.",
+       a:["accusato"],
+       opts:["accusato","assolto","condannato","difeso"],
+       hint:"The defendant faces formal charges. The prosecution has officially said he committed this crime.",
+       sSrc:"The defendant was {1} of tax fraud."},
+
+      {type:"mc",
+       q:"Dove si svolge un processo penale?",
+       opts:["In tribunale","In parlamento","In questura","In prefettura"],
+       ans:"In tribunale",
+       hint:"The building where judges preside over cases and sentences are pronounced. The seat of judicial power."}
+    ]},
+
+    // ─── Lesson 2: Diritti e costituzione ───
+    {id:"itv2_u26l2", title:"Diritti e costituzione", icon:"📜", xp:15, board:true, steps:[
+      {type:"intro", title:"Diritti e costituzione",
+       desc:"Learn about constitutional rights, legal principles, and the foundations of the Italian legal system. Vocabulary essential for understanding political and social debates.",
+       goals:["Discuss fundamental rights and freedoms","Understand constitutional vocabulary","Describe legal principles and precedents"]},
+
+      {type:"teach", trg:"il diritto", src:"the right / the law (as a discipline)", pos:"noun", gender:"m",
+       note:"Masculine noun. Dual meaning: 'un diritto' = a right;\n'il diritto' = the law (academic field). 'Facolta di diritto' = law school.",
+       example:"A: Studiare e un diritto di tutti.\nB: E anche un dovere, secondo me.",
+       exampleSrc:"A: Studying is everyone's right.\nB: And also a duty, in my opinion.",
+       funFact:"Italian distinguishes 'diritto' (a right/the law as a discipline) from 'legge' (a specific law/statute). A lawyer studies 'il diritto' but must know individual 'leggi.'"},
+
+      {type:"teach", trg:"la costituzione", src:"the constitution", pos:"noun", gender:"f",
+       note:"Feminine noun. 'La Costituzione italiana' = the Italian Constitution.\nCapitalized when referring to the specific document.",
+       example:"A: La Costituzione italiana e del 1948.\nB: E una delle piu belle del mondo.",
+       exampleSrc:"A: The Italian Constitution dates from 1948.\nB: It is one of the most beautiful in the world.",
+       funFact:"The Italian Constitution was written in 1947 by an assembly that included communists, Christian democrats, and liberals working together. Article 1 famously declares: 'L'Italia e una Repubblica fondata sul lavoro' (Italy is a Republic founded on labor)."},
+
+      {type:"teach", trg:"l'emendamento", src:"the amendment", pos:"noun", gender:"m",
+       note:"Masculine noun. A proposed change to a law or the constitution.\nPlural: gli emendamenti.",
+       example:"A: Hanno proposto un emendamento alla legge.\nB: Cambiera molto il testo originale.",
+       exampleSrc:"A: They proposed an amendment to the law.\nB: It will change the original text a lot.",
+       funFact:"Unlike the US Constitution, Italy's does not use numbered amendments. Changes are incorporated directly into the text. Modifying the constitution requires two parliamentary votes and can trigger a referendum."},
+
+      {type:"teach", trg:"la giurisprudenza", src:"the jurisprudence / case law", pos:"noun", gender:"f",
+       note:"Feminine noun. The body of court decisions that guide future rulings.\nAlso the name of the law degree: 'laurea in giurisprudenza.'",
+       example:"A: La giurisprudenza su questo tema e chiara.\nB: Le sentenze precedenti confermano la nostra posizione.",
+       exampleSrc:"A: The case law on this topic is clear.\nB: Previous rulings confirm our position.",
+       funFact:"Italy uses a civil law system based on written codes, not common law precedent. However, 'giurisprudenza' (accumulated court rulings) still carries significant persuasive weight in practice."},
+
+      {type:"teach", trg:"il precedente", src:"the precedent", pos:"noun", gender:"m",
+       note:"Masculine noun. A prior court decision used as a reference.\n'Creare un precedente' = to set a precedent.",
+       example:"A: Questa sentenza crea un precedente importante.\nB: Influenzera tutti i casi futuri.",
+       exampleSrc:"A: This ruling sets an important precedent.\nB: It will influence all future cases.",
+       funFact:"In Italy's civil law system, precedents are technically not binding (unlike English common law). But in practice, the Corte di Cassazione's rulings are followed almost universally by lower courts."},
+
+      {type:"mc",
+       q:"Come si chiama il documento fondamentale che definisce i diritti dei cittadini italiani?",
+       opts:["La Costituzione","Il codice civile","La giurisprudenza","Il tribunale"],
+       ans:"La Costituzione",
+       hint:"Written in 1948, this fundamental document establishes the republic and all citizens' basic rights."},
+
+      {type:"teach", trg:"la legge", src:"the law (a specific statute)", pos:"noun", gender:"f",
+       note:"Feminine noun. Plural: le leggi.\n'Approvare una legge' = to pass a law. 'Violare la legge' = to break the law.",
+       example:"A: Il parlamento ha approvato una nuova legge.\nB: Entrera in vigore il mese prossimo.",
+       exampleSrc:"A: Parliament passed a new law.\nB: It will come into effect next month.",
+       funFact:"Italy produces an enormous number of laws. There are estimated to be over 150,000 active statutes, compared to about 3,000 in the UK. This legislative density contributes to the famous Italian bureaucracy."},
+
+      {type:"teach", trg:"il dovere", src:"the duty / obligation", pos:"noun", gender:"m",
+       note:"Masculine noun. Plural: i doveri.\nThe counterpart of 'diritto' (right). Also a modal verb: 'dovere' (must/to have to).",
+       example:"A: Votare e un dovere civico.\nB: Purtroppo molti non lo fanno.",
+       exampleSrc:"A: Voting is a civic duty.\nB: Unfortunately many do not do it.",
+       funFact:"The Italian Constitution pairs rights with duties. Article 2 speaks of 'doveri inderogabili di solidarieta politica, economica e sociale' (inescapable duties of political, economic, and social solidarity)."},
+
+      {type:"teach", trg:"la liberta", src:"the freedom / liberty", pos:"noun", gender:"f",
+       note:"Feminine noun. Invariable (accented ending, no plural change).\n'Liberta di stampa' = freedom of the press.",
+       example:"A: La liberta di espressione e un diritto fondamentale.\nB: Sancito dalla Costituzione.",
+       exampleSrc:"A: Freedom of expression is a fundamental right.\nB: Enshrined by the Constitution.",
+       funFact:"The Italian Constitution guarantees numerous liberties in Articles 13-21: personal freedom, home privacy, correspondence secrecy, freedom of movement, assembly, religion, press, and thought."},
+
+      {type:"fb",
+       s:"La {1} su questo tema e chiara: le sentenze precedenti lo confermano.",
+       a:["giurisprudenza"],
+       opts:["giurisprudenza","costituzione","liberta","legge"],
+       hint:"The accumulated body of court decisions that guides how similar cases should be decided in the future.",
+       sSrc:"The {1} on this topic is clear: previous rulings confirm it."},
+
+      {type:"teach", trg:"ricorrere", src:"to appeal / to resort to", pos:"verb", gender:null,
+       note:"Irregular -ere verb. Io ricorro, tu ricorri.\nPassato prossimo: ho ricorso. 'Il ricorso' (noun) = appeal/recourse.",
+       example:"A: Abbiamo deciso di ricorrere in Cassazione.\nB: E l'ultima possibilita.",
+       exampleSrc:"A: We decided to appeal to the Supreme Court.\nB: It is the last possibility.",
+       funFact:"'Ricorrere in Cassazione' is the final appeal in the Italian system. The Corte di Cassazione does not re-examine facts; it only checks whether the law was applied correctly."},
+
+      {type:"teach", trg:"la pena", src:"the penalty / punishment", pos:"noun", gender:"f",
+       note:"Feminine noun. Plural: le pene.\n'Pena detentiva' = prison sentence. 'Pena di morte' = death penalty.",
+       example:"A: La pena massima per questo reato e sei anni.\nB: Il giudice ha dato quattro anni.",
+       exampleSrc:"A: The maximum penalty for this crime is six years.\nB: The judge gave four years.",
+       funFact:"'Pena' also means 'sorrow' or 'pity' in everyday Italian. 'Mi fa pena' means 'I feel sorry for him/her.' The legal and emotional meanings share the Latin root 'poena' (punishment, suffering)."},
+
+      {type:"teach", trg:"la prova", src:"the evidence / proof", pos:"noun", gender:"f",
+       note:"Feminine noun. Plural: le prove.\n'Prove insufficienti' = insufficient evidence. Also means 'test/exam.'",
+       example:"A: Le prove sono schiaccianti.\nB: L'avvocato non potra negare i fatti.",
+       exampleSrc:"A: The evidence is overwhelming.\nB: The lawyer will not be able to deny the facts.",
+       funFact:"In Italian criminal law, the burden of proof lies with the prosecution ('l'onere della prova'). The principle 'in dubio pro reo' (when in doubt, favor the accused) is fundamental."},
+
+      {type:"mc",
+       q:"Qual e il contrario di 'diritto' nel senso civico?",
+       opts:["Dovere","Liberta","Legge","Reato"],
+       ans:"Dovere",
+       hint:"If a 'diritto' is something you are entitled to, this word is something you are obligated to do. Rights come with these."},
+
+      {type:"match", pairs:[
+        {trg:"diritto", src:"right"},
+        {trg:"legge", src:"law (statute)"},
+        {trg:"liberta", src:"freedom"},
+        {trg:"dovere", src:"duty"},
+        {trg:"prova", src:"evidence"}
+      ]},
+
+      {type:"fb",
+       s:"La {1} di morte e stata abolita in Italia nel 1889.",
+       a:["pena"],
+       opts:["pena","prova","legge","sentenza"],
+       hint:"The word for punishment or penalty. Combined with 'di morte' it describes the ultimate sanction.",
+       sSrc:"The death {1} was abolished in Italy in 1889."},
+
+      {type:"mc",
+       q:"Che significa 'ricorrere in Cassazione'?",
+       opts:["Fare l'ultimo appello alla Corte Suprema","Andare in tribunale per la prima volta","Assumere un nuovo avvocato","Raccogliere nuove prove"],
+       ans:"Fare l'ultimo appello alla Corte Suprema",
+       hint:"The Corte di Cassazione is the highest court. 'Ricorrere' means to appeal. This is the final step in the judicial process."}
+    ]},
+
+    // ─── Lesson 3: Crimini e indagini ───
+    {id:"itv2_u26l3", title:"Crimini e indagini", icon:"🔍", xp:15, board:true, steps:[
+      {type:"intro", title:"Crimini e indagini",
+       desc:"Learn vocabulary for crimes, investigations, and law enforcement. Understand the terms used in crime reporting and detective fiction.",
+       goals:["Describe different types of crimes","Discuss police investigations and procedures","Understand crime-related news vocabulary"]},
+
+      {type:"teach", trg:"l'indagine", src:"the investigation", pos:"noun", gender:"f",
+       note:"Feminine noun. Plural: le indagini.\n'Indagine penale' = criminal investigation. 'Indagine di mercato' = market research.",
+       example:"A: Le indagini sono ancora in corso.\nB: La polizia sta cercando nuove prove.",
+       exampleSrc:"A: The investigation is still ongoing.\nB: The police are looking for new evidence.",
+       funFact:"In Italy, criminal investigations are led by the 'pubblico ministero' (public prosecutor), not the police. The PM directs the investigation and decides whether to bring charges."},
+
+      {type:"teach", trg:"il sospetto", src:"the suspect / suspicion", pos:"noun", gender:"m",
+       note:"Masculine noun. Dual meaning: person and feeling.\n'Un sospetto' = a suspect. 'Ho un sospetto' = I have a suspicion.",
+       example:"A: Il principale sospetto e stato arrestato.\nB: Aveva un movente chiaro.",
+       exampleSrc:"A: The main suspect was arrested.\nB: He had a clear motive.",
+       funFact:"Italian legal terminology uses 'indagato' (person under investigation) before formal charges and 'imputato' (defendant) after. 'Sospetto' is the informal, non-legal term."},
+
+      {type:"teach", trg:"la testimonianza", src:"the testimony / witness statement", pos:"noun", gender:"f",
+       note:"Feminine noun. 'Rendere testimonianza' = to give testimony.\n'Il/la testimone' = the witness.",
+       example:"A: La sua testimonianza e stata decisiva.\nB: Ha descritto tutto nei dettagli.",
+       exampleSrc:"A: His testimony was decisive.\nB: He described everything in detail.",
+       funFact:"In Italian courts, witnesses swear 'di dire la verita, tutta la verita, nient'altro che la verita' (to tell the truth, the whole truth, nothing but the truth), the same formula used in many legal systems worldwide."},
+
+      {type:"teach", trg:"il furto", src:"the theft", pos:"noun", gender:"m",
+       note:"Masculine noun. Plural: i furti.\n'Furto con scasso' = burglary (theft with break-in). 'Furto d'identita' = identity theft.",
+       example:"A: C'e stato un furto nel negozio.\nB: Hanno rubato gioielli per migliaia di euro.",
+       exampleSrc:"A: There was a theft at the shop.\nB: They stole jewelry worth thousands of euros.",
+       funFact:"Italy distinguishes between 'furto' (theft, taking without violence), 'rapina' (robbery, with violence or threat), and 'truffa' (fraud, through deception). Each carries different penalties."},
+
+      {type:"teach", trg:"la frode", src:"the fraud", pos:"noun", gender:"f",
+       note:"Feminine noun. 'Frode fiscale' = tax fraud.\n'Frode informatica' = cyber fraud.",
+       example:"A: E stato accusato di frode fiscale.\nB: Rischia una condanna pesante.",
+       exampleSrc:"A: He was accused of tax fraud.\nB: He faces a heavy sentence.",
+       funFact:"Tax evasion ('evasione fiscale') is a major issue in Italy, with estimates suggesting it costs the state over 100 billion euros annually. Fighting frode fiscale is a constant government priority."},
+
+      {type:"mc",
+       q:"Come si chiama l'atto di rubare senza violenza?",
+       opts:["Furto","Rapina","Frode","Reato"],
+       ans:"Furto",
+       hint:"Taking someone's property without using force or threats. Different from robbery, which involves violence."},
+
+      {type:"teach", trg:"l'arresto", src:"the arrest", pos:"noun", gender:"m",
+       note:"Masculine noun. 'Essere in stato di arresto' = to be under arrest.\n'Mandato di arresto' = arrest warrant.",
+       example:"A: L'arresto e avvenuto stamattina alle sei.\nB: Lo hanno preso a casa sua.",
+       exampleSrc:"A: The arrest took place this morning at six.\nB: They caught him at his home.",
+       funFact:"In Italy, a person can be held for up to 48 hours before a judge must validate the arrest. The judge then has another 48 hours to decide on pre-trial detention or release."},
+
+      {type:"teach", trg:"il carcere", src:"the prison / jail", pos:"noun", gender:"m",
+       note:"Masculine noun. Plural: le carceri (irregular, feminine plural).\n'Andare in carcere' = to go to prison.",
+       example:"A: E stato condannato a tre anni di carcere.\nB: Scontera la pena a Rebibbia.",
+       exampleSrc:"A: He was sentenced to three years in prison.\nB: He will serve the sentence at Rebibbia.",
+       funFact:"Italian prisons are chronically overcrowded, often at 120% capacity. The Corte Europea dei Diritti dell'Uomo has fined Italy multiple times for inhumane conditions. 'Carcere' becomes feminine in the plural: 'le carceri.'"},
+
+      {type:"teach", trg:"la vittima", src:"the victim", pos:"noun", gender:"f",
+       note:"Feminine noun, used for all genders.\nPlural: le vittime. 'La vittima del reato' = the victim of the crime.",
+       example:"A: La vittima ha sporto denuncia.\nB: Le indagini partiranno subito.",
+       exampleSrc:"A: The victim filed a complaint.\nB: The investigation will start immediately.",
+       funFact:"In Italian law, the victim ('persona offesa') has significant rights during the trial, including the ability to join the prosecution as a 'parte civile' (civil party) to claim damages directly."},
+
+      {type:"fb",
+       s:"Il principale {1} e stato identificato grazie alle telecamere.",
+       a:["sospetto"],
+       opts:["sospetto","giudice","avvocato","testimone"],
+       hint:"The person believed to have committed the crime. Identified but not yet formally charged.",
+       sSrc:"The main {1} was identified thanks to the security cameras."},
+
+      {type:"teach", trg:"la denuncia", src:"the complaint / report (to police)", pos:"noun", gender:"f",
+       note:"Feminine noun. 'Sporgere denuncia' = to file a complaint/report.\n'Denunciare' (verb) = to report to authorities.",
+       example:"A: Hai sporto denuncia alla polizia?\nB: Si, subito dopo il furto.",
+       exampleSrc:"A: Did you file a report with the police?\nB: Yes, right after the theft.",
+       funFact:"In Italy, many crimes require the victim to file a 'denuncia' before the police can investigate. For some serious crimes ('reati procedibili d'ufficio'), police act automatically without waiting for a complaint."},
+
+      {type:"teach", trg:"il movente", src:"the motive", pos:"noun", gender:"m",
+       note:"Masculine noun. The reason behind a crime.\n'Movente economico' = financial motive.",
+       example:"A: Qual era il movente dell'omicidio?\nB: Probabilmente la gelosia.",
+       exampleSrc:"A: What was the motive for the murder?\nB: Probably jealousy.",
+       funFact:"Italian crime fiction ('il giallo,' named after the yellow covers of Mondadori mystery novels) is a beloved genre. Classic gialli always revolve around uncovering the movente."},
+
+      {type:"teach", trg:"l'alibi", src:"the alibi", pos:"noun", gender:"m",
+       note:"Masculine noun. Invariable (no plural change).\nFrom Latin 'alibi' = elsewhere.",
+       example:"A: L'accusato ha un alibi solido.\nB: Tre testimoni confermano che era altrove.",
+       exampleSrc:"A: The accused has a solid alibi.\nB: Three witnesses confirm he was elsewhere.",
+       funFact:"'Alibi' is one of many Latin legal terms that entered all European languages unchanged. In Latin it simply means 'in another place.' Italian courts accept alibi evidence at any stage of proceedings."},
+
+      {type:"mc",
+       q:"Come si chiama il genere letterario italiano di storie poliziesche?",
+       opts:["Il giallo","Il rosso","Il nero","Il bianco"],
+       ans:"Il giallo",
+       hint:"Named after the color of famous mystery novel covers published by Mondadori. A color that means 'yellow.'"},
+
+      {type:"match", pairs:[
+        {trg:"indagine", src:"investigation"},
+        {trg:"testimonianza", src:"testimony"},
+        {trg:"furto", src:"theft"},
+        {trg:"arresto", src:"arrest"},
+        {trg:"denuncia", src:"police report"}
+      ]},
+
+      {type:"fb",
+       s:"La {1} ha sporto {2} alla polizia dopo la rapina.",
+       a:["vittima"],
+       opts:["vittima","frode","denuncia","indagine"],
+       hint:"The person who suffered from the crime. The one who goes to the police to report what happened.",
+       sSrc:"The {1} filed a complaint with the police after the robbery."},
+
+      {type:"mc",
+       q:"Qual e la differenza tra 'furto' e 'rapina'?",
+       opts:["La rapina implica violenza o minaccia, il furto no","Il furto e piu grave della rapina","La rapina riguarda solo le banche","Non c'e differenza"],
+       ans:"La rapina implica violenza o minaccia, il furto no",
+       hint:"One involves taking property without confrontation. The other involves force or threats against the victim."}
+    ]}
+  ]
+};
+
+export default UNIT_26;

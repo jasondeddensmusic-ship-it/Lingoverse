@@ -125,7 +125,7 @@ const UNIT_21 = {
    funFact:"環境 combines 環 (ring/cycle) and 境 (boundary), meaning 'surrounding conditions.' Environmental awareness has grown significantly in Japan. Garbage separation (ゴミの分別, gomi no bunbetsu) is extremely detailed, with some cities having over 30 categories. Japan's recycling culture is among the world's most rigorous."},
 
   {type:"mc", q:"かんきょうもんだいについてどうおもいますか means:", opts:["What caused environmental problems?","What do you think regarding environmental problems?","Environmental problems are solved","I do not think about the environment"], ans:"What do you think regarding environmental problems?",
-   hint:"について means 'regarding/about' a topic. どうおもいますか asks for an opinion."},
+   hint:"について connects to the topic being discussed. どうおもいますか asks for an opinion."},
 
   {type:"teach", trg:"もんだい", src:"problem / question", pos:"noun", gender:null,
    note:"Kanji: 問題. Both 'problem' (social issue) and 'question' (exam question).\nもん (ask) + だい (topic).",
@@ -161,7 +161,7 @@ const UNIT_21 = {
    funFact:"社会 combines 社 (shrine/company) and 会 (meeting/gathering). It is a relatively modern word, coined in the Meiji era to translate the Western concept of 'society.' しゃかいじん (shakaijin, society person) means a working adult, a term with no English equivalent. Graduating students 'become shakaijin' when they start working."},
 
   {type:"mc", q:"〜にたいして expresses:", opts:["a reason for something","an attitude or stance toward something","a time when something happened","a way to do something"], ans:"an attitude or stance toward something",
-   hint:"This grammar point shows a directed attitude, opinion, or action toward a topic."},
+   hint:"This grammar point shows a directed position or opinion aimed at a specific issue."},
 
   {type:"match", pairs:[{trg:"について",src:"regarding/about"},{trg:"にたいして",src:"toward/against"},{trg:"によると",src:"according to"},{trg:"そうです",src:"I heard that"}]},
 
