@@ -1,5 +1,6 @@
 import JAPANESE_V2_A1 from './units-japanese-v2-a1.js';
 import JAPANESE_V2_A2 from './units-japanese-v2-a2.js';
 import JAPANESE_V2_B1 from './units-japanese-v2-b1.js';
+import JAPANESE_V2_B2 from './units-japanese-v2-b2.js';
 
-export default [...JAPANESE_V2_A1, ...JAPANESE_V2_A2, ...JAPANESE_V2_B1];
+export default [...JAPANESE_V2_A1, ...JAPANESE_V2_A2, ...JAPANESE_V2_B1, ...JAPANESE_V2_B2];
