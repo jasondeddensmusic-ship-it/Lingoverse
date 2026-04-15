@@ -83,7 +83,7 @@ const LESSON_5 = {id:"jav2_u14l5", title:"つよいいけん", icon:"🗣️", x
   {type:"match", pairs:[{trg:"もちろん",src:"of course"},{trg:"こじんてきに",src:"personally"},{trg:"たいせつ",src:"important"},{trg:"とくに",src:"especially"}]},
 
   {type:"mc", q:"こじんてきに is used to:", opts:["State a fact","Disagree strongly","Preface a personal opinion","Ask a question"], ans:"Preface a personal opinion",
-   hint:"This adverb signals that what follows is your personal view, not universal truth."},
+   hint:"This adverb signals that what follows is your p... view, not universal truth."},
 
   {type:"fb", s:"かんきょうのことをかんがえる___だとおもいます。\n(I think we should think about the environment.)", a:"べき", opts:["べき","ほう","つもり","こと"], sSrc:"I think we should think about the environment.",
    hint:"The pattern expressing moral or logical obligation, stronger than 'better to.'"},

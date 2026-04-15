@@ -38,7 +38,7 @@ const UNIT_07 = {
    exampleSrc:"A: What time is it?\nB: It is 9:10.",
    funFact:"分 means both 'minute' and 'to divide/understand.' The sound alternates between fun and pun depending on the preceding number. This rendaku (sound change) follows the same pattern as other counters: numbers ending in certain sounds trigger voicing."},
 
-  {type:"mc", q:"なんじですか means:", opts:["Where is it?","What time is it?","How many?","Who is it?"], ans:"What time is it?",
+  {type:"mc", q:"なんじですか means:", opts:["What time is it?","Where is it?","How many?","Who is it?"], ans:"What time is it?",
    hint:"Nan (what) + ji (hour) = a question about the clock."},
 
   {type:"teach", trg:"ごぜん", src:"AM / morning", pos:"noun", gender:null,
@@ -90,7 +90,7 @@ const UNIT_07 = {
   {type:"fb", s:"くじ___ごじまでです。\n(From 9 to 5.)", a:"から", opts:["から","まで","に","で"], sSrc:"From 9 to 5.",
    hint:"The particle that marks the starting point of a time range."},
 
-  {type:"mc", q:"しちじはん means:", opts:["7 AM","7:30","7 minutes","7 PM"], ans:"7:30",
+  {type:"mc", q:"しちじはん means:", opts:["7 AM","7 minutes","7:30","7 PM"], ans:"7:30",
    hint:"Shichi-ji (7 o'clock) + han (half)."},
 
   {type:"tip", title:"Time Particle Rules",
@@ -123,7 +123,7 @@ const UNIT_07 = {
    exampleSrc:"A: Do you go to school?\nB: Yes, I go every day.",
    funFact:"行 shows a crossroads, representing travel/going. Iku has an irregular te-form: itte (not iite). This is one of only two u-verbs with an irregular te-form (the other is kuru becoming kite). Pattern: place + ni + ikimasu."},
 
-  {type:"mc", q:"おきる means:", opts:["to sleep","to eat","to wake up","to go"], ans:"to wake up",
+  {type:"mc", q:"おきる means:", opts:["to wake up","to eat","to sleep","to go"], ans:"to wake up",
    hint:"This ru-verb describes the action of rising from bed in the morning."},
 
   {type:"teach", trg:"かえる", src:"to return / to go home", pos:"verb", gender:null,
@@ -159,8 +159,8 @@ const UNIT_07 = {
    exampleSrc:"A: What do you do every evening?\nB: I watch TV.",
    funFact:"Ban and yoru both mean night/evening. Ban is used more in compounds (konban = tonight, maiban = every night) while yoru stands alone more often. Konbanwa (good evening) uses kon (this) + ban (evening) + wa (topic particle)."},
 
-  {type:"mc", q:"べんきょうする is what type of verb?", opts:["A ru-verb","A u-verb","A suru-verb","An irregular verb"], ans:"A suru-verb",
-   hint:"This verb is made by adding suru to a noun meaning 'study/effort.'"},
+  {type:"mc", q:"べんきょうする is what type of verb?", opts:["A ru-verb","A suru-verb","A u-verb","An irregular verb"], ans:"A suru-verb",
+   hint:"This v... is made by adding s... to a noun meaning 'study/effort.'"},
 
   {type:"teach", trg:"しごと", src:"work / job", pos:"noun", gender:null,
    note:"Can become a verb: しごとをする (to work). Very common word.\nKanji: 仕事.",
@@ -181,8 +181,8 @@ const UNIT_07 = {
 
   {type:"match", pairs:[{trg:"まいにち",src:"every day"},{trg:"まいあさ",src:"every morning"},{trg:"まいばん",src:"every evening"},{trg:"しごと",src:"work"}]},
 
-  {type:"mc", q:"かえる specifically means:", opts:["to go anywhere","to return home","to come here","to leave"], ans:"to return home",
-   hint:"This verb is about returning to your base or home, not going to a new place."},
+  {type:"mc", q:"かえる specifically means:", opts:["to go anywhere","to come here","to return home","to leave"], ans:"to return home",
+   hint:"This verb is about returning to your base or h..., not going to a new place."},
 
   {type:"fb", s:"なんじにうちに___ますか？\n(What time do you go home?)", a:"かえり", opts:["かえり","いき","おき","ね"], sSrc:"What time do you go home?",
    hint:"The polite stem of the verb specifically for returning to your home base."},
@@ -192,7 +192,7 @@ const UNIT_07 = {
    deepDive:{title:"Japanese daily life patterns",
     text:"Japanese daily schedules tend to be very regular. Many people wake up early and commute long distances by train.\n\nKey cultural patterns:\nAsa-gohan (morning rice = breakfast) is often simple: rice, miso soup, pickles, fish.\nBento (packed lunch) is an art form, especially for school children.\nOfuro (bath) before bed is a daily ritual, not just hygiene."}},
 
-  {type:"mc", q:"Which sentence means 'I go to school at 8'?", opts:["はちじにねます","はちじにがっこうにいきます","はちじにかえります","はちじにたべます"], ans:"はちじにがっこうにいきます",
+  {type:"mc", q:"Which sentence means 'I go to school at 8'?", opts:["はちじにねます","はちじにたべます","はちじにかえります","はちじにがっこうにいきます"], ans:"はちじにがっこうにいきます",
    hint:"Hachi-ji ni (at 8) + gakkou ni (to school) + ikimasu (go)."},
 ]},
 

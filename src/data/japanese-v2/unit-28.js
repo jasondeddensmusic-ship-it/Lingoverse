@@ -1,4 +1,5 @@
 // Japanese V2 Unit 28 — ぶんたい (Written vs Spoken)
+import EXP_L3 from './_temp_u28_expand_L01.js';import EXP_L4 from './_temp_u28_expand_L02.js';import EXP_L5 from './_temp_u28_expand_L03.js';
 // Level: B2.2 — JLPT N2 aligned.
 // である, において, および, 述べる, 論じる, sentence-final particles.
 
@@ -32,7 +33,7 @@ const UNIT_28 = {
    exampleSrc:"A: Please fill in the attendees' names and addresses.\nB: Understood.",
    funFact:"及び comes from the verb 及ぶ (to reach/extend to). In legal and official documents, および is the standard 'and.' Contracts, regulations, and government forms use it exclusively. In everyday speech, using および would sound comically formal, like saying 'henceforth' in casual English."},
 
-  {type:"mc", q:"である is the formal/written equivalent of:", opts:["ている","です/だ","ではない","でした"], ans:"です/だ",
+  {type:"mc", q:"である is the formal/written equivalent of:", opts:["です/だ","ている","ではない","でした"], ans:"です/だ",
    hint:"This copula replaces the everyday forms of 'to be' in academic and official writing."},
 
   {type:"teach", trg:"のべる", src:"to state / to describe", pos:"verb", gender:null,
@@ -56,7 +57,7 @@ const UNIT_28 = {
    exampleSrc:"A: Have you decided on your graduation thesis topic?\nB: I plan to write about environmental issues.",
    funFact:"論文 culture is intense in Japanese universities. The そつろん (abbreviation of 卒業論文) is a rite of passage for graduating students. Some companies still ask job applicants about their そつろん topic in interviews, even decades after graduation. The kanji 文 appears in 文化 (culture), 文学 (literature), and 文明 (civilization)."},
 
-  {type:"mc", q:"および is the formal equivalent of:", opts:["しかし","または","と (and)","でも"], ans:"と (and)",
+  {type:"mc", q:"および is the formal equivalent of:", opts:["しかし","と (and)","または","でも"], ans:"と (and)",
    hint:"This connector joins items or clauses in official documents, replacing the everyday conjunction."},
 
   {type:"match", pairs:[{trg:"である",src:"to be (written)"},{trg:"において",src:"in/at (formal)"},{trg:"および",src:"and (formal)"},{trg:"のべる",src:"to state"}]},
@@ -91,7 +92,7 @@ const UNIT_28 = {
    exampleSrc:"A: Right, I'm going to do my best!\nB: I'm cheering for you!",
    funFact:"ぞ is one of the most masculine-coded particles in Japanese. Anime heroes use it constantly: いくぞ！(let's go!), やるぞ！(I'll do it!). In real life, it appears in self-motivation and casual male speech. Women rarely use ぞ, and doing so in formal settings would be very jarring."},
 
-  {type:"mc", q:"よね combines which two functions?", opts:["Question and denial","Assertion and seeking agreement","Surprise and doubt","Command and request"], ans:"Assertion and seeking agreement",
+  {type:"mc", q:"よね combines which two functions?", opts:["Assertion and seeking agreement","Question and denial","Surprise and doubt","Command and request"], ans:"Assertion and seeking agreement",
    hint:"This particle merges よ (I'm telling you) with ね (right?/agree?)."},
 
   {type:"teach", trg:"〜んだ / 〜のだ", src:"(explanatory) it is that ~ / the thing is ~", pos:"part", gender:null,
@@ -126,5 +127,6 @@ const UNIT_28 = {
   {type:"match", pairs:[{trg:"〜んだ / 〜のだ",src:"it is that (explanatory)"},{trg:"〜っけ",src:"was it? (recall)"},{trg:"かきことば",src:"written language"},{trg:"である",src:"to be (written)"}]},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_28;

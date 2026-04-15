@@ -25,7 +25,7 @@ const LESSON_4 = {id:"jav2_u15l4", title:"こうつう", icon:"🚃", xp:15, boa
    funFact:"改札口 literally means 'reform-inspect-gate.' Modern gates read IC cards in milliseconds. The satisfying beep of touching your Suica or Pasmo card is a daily Tokyo sound. If your balance is too low, the gates close with a different tone and you must add funds at a nearby machine."},
 
   {type:"mc", q:"どのろせんにのればいいですか means:", opts:["Which exit should I use?","Which line should I take?","How much is the ticket?","When does the train come?"], ans:"Which line should I take?",
-   hint:"ろせん means 'route/line' and のる means 'to ride.'"},
+   hint:"ろせん means 'route/l...' and のる means 'to ride.'"},
 
   {type:"teach", trg:"つぎ", src:"next", pos:"noun", gender:null,
    note:"つぎのえき = next station. つぎのでんしゃ = next train.\nKanji: 次.",
@@ -83,7 +83,7 @@ const LESSON_4 = {id:"jav2_u15l4", title:"こうつう", icon:"🚃", xp:15, boa
   {type:"match", pairs:[{trg:"おりる",src:"get off"},{trg:"バスてい",src:"bus stop"},{trg:"きたぐち",src:"north exit"},{trg:"りょうきん",src:"fare"}]},
 
   {type:"mc", q:"かいさつぐち is:", opts:["A platform","A ticket gate","A ticket machine","An exit sign"], ans:"A ticket gate",
-   hint:"The gate you pass through by tapping your IC card or inserting your ticket."},
+   hint:"The g... you pass through by tapping your IC card or inserting your t...."},
 
   {type:"fb", s:"___でまちあわせしましょう。\n(Let us meet at the north exit.)", a:"きたぐち", opts:["きたぐち","みなみぐち","にしぐち","ひがしぐち"], sSrc:"Let us meet at the north exit.",
    hint:"The exit named after the direction that is the opposite of south."},

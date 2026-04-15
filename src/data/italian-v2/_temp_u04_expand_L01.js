@@ -108,7 +108,7 @@ const LESSON_3 = {
     {type:"mc", q:"How do you say 'I like spaghetti' in Italian?",
      opts:["Mi piacciono gli spaghetti","Mi piace gli spaghetti","Io piaccio gli spaghetti","Mi piace lo spaghetti"],
      ans:"Mi piacciono gli spaghetti",
-     hint:"Spaghetti is plural, so the verb must be plural too. The thing liked is the grammatical subject."},
+     hint:"S... is plural, so the verb must be plural too. The thing liked is the grammatical subject."},
 
     {type:"fb", s:"La pizza e {1}!",
      a:["buonissima"],
@@ -130,7 +130,7 @@ const LESSON_3 = {
     {type:"mc", q:"What does 'la frutta' refer to?",
      opts:["Fruit as a collective category","A single fruit","A fruit salad","A dessert"],
      ans:"Fruit as a collective category",
-     hint:"This feminine noun is collective (singular form for all fruit). A single item is 'un frutto.'"}
+     hint:"This feminine noun uses a singular form to describe a whole group. To refer to one individual piece, Italians switch to 'un frutto.'"}
   ]
 };
 export default LESSON_3;

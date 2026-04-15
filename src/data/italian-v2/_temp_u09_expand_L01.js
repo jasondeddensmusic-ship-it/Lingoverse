@@ -89,7 +89,7 @@ const LESSON_4 = {id:"itv2_u9l4", title:"In farmacia", icon:"\uD83D\uDC8A", xp:1
   {type:"mc", q:"What does 'farmaco da banco' mean?",
    opts:["Over-the-counter medicine","Prescription medicine","Expired medicine","Generic medicine"],
    ans:"Over-the-counter medicine",
-   hint:"'Da banco' means from the counter. You can buy it without a doctor's prescription."},
+   hint:"'Da banco' means from the c.... You can buy it without a doctor's prescription."},
 
   {type:"fb", s:"Ha qualcosa per la tosse? Un {1}, per favore.",
    a:["sciroppo"],
@@ -111,7 +111,7 @@ const LESSON_4 = {id:"itv2_u9l4", title:"In farmacia", icon:"\uD83D\uDC8A", xp:1
   {type:"mc", q:"What is Tachipirina in Italy?",
    opts:["A popular brand of paracetamol (like Tylenol)","An antibiotic","A cough syrup","A vitamin supplement"],
    ans:"A popular brand of paracetamol (like Tylenol)",
-   hint:"Italy's most common painkiller/fever reducer. Ask for it by brand or as 'paracetamolo.'"},
+   hint:"Italy's most common over-the-counter fever reducer. In pharmacies you can ask for it by the commercial name or by the generic active ingredient name."},
 
   {type:"fb", s:"Che fattore di protezione vuole per la {1} solare?",
    a:["crema"],

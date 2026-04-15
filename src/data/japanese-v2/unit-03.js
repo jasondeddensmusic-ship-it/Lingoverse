@@ -39,7 +39,7 @@ const UNIT_03 = {
    exampleSrc:"A: What is this?\nB: It is a cellphone.",
    funFact:"Nan and nani are the same word. Nan appears before desu, de, and counters (nan-nin, nan-ji). Nani appears elsewhere (nani wo, nani ga). The change is purely for smoother pronunciation."},
 
-  {type:"mc", q:"これ refers to something:", opts:["Near the listener","Near the speaker","Far from both","Unknown location"], ans:"Near the speaker",
+  {type:"mc", q:"これ refers to something:", opts:["Near the speaker","Near the listener","Far from both","Unknown location"], ans:"Near the speaker",
    hint:"Ko- words are always about what is close to the person speaking."},
 
   {type:"teach", trg:"ほん", src:"book", pos:"noun", gender:null,
@@ -82,7 +82,7 @@ const UNIT_03 = {
    funFact:"From Portuguese 'megane' brought by missionaries in the 1500s. 眼 (eye) + 鏡 (mirror). Japan has one of the highest rates of glasses-wearing in the world, especially among young people."},
 
   {type:"mc", q:"それ refers to something:", opts:["Near the speaker","Near the listener","Far from both","In the past"], ans:"Near the listener",
-   hint:"So- words relate to the listener's area or what the listener just mentioned."},
+   hint:"So- words relate to the l...'s area or what the l... just mentioned."},
 
   {type:"match", pairs:[{trg:"これ",src:"this (near me)"},{trg:"それ",src:"that (near you)"},{trg:"あれ",src:"that over there"},{trg:"なんですか",src:"what is it?"}]},
 
@@ -97,13 +97,13 @@ const UNIT_03 = {
   {type:"fb", s:"あれは___ですか？\n(What is that over there?)", a:"なん", opts:["なん","これ","だれ","どこ"], sSrc:"What is that over there?",
    hint:"The question word for 'what' that pairs with desu ka."},
 
-  {type:"mc", q:"かぎ means:", opts:["bag","clock","umbrella","key"], ans:"key",
+  {type:"mc", q:"かぎ means:", opts:["bag","clock","key","umbrella"], ans:"key",
    hint:"A small metal object that opens locks."},
 
   {type:"match", pairs:[{trg:"とけい",src:"watch / clock"},{trg:"めがね",src:"glasses"},{trg:"かぎ",src:"key"},{trg:"かさ",src:"umbrella"}]},
 
-  {type:"mc", q:"これはめがねです means:", opts:["Where are the glasses?","Those are glasses","These are glasses","I want glasses"], ans:"These are glasses",
-   hint:"Kore (this) + wa (topic) + megane (glasses) + desu (is)."},
+  {type:"mc", q:"これはめがねです means:", opts:["Where are the glasses?","Those are glasses","I want glasses","These are glasses"], ans:"These are glasses",
+   hint:"Kore (this) + wa (topic) + megane (g...) + desu (is)."},
 ]},
 
 // ═══ L2: わたしの... (Possession & Numbers) ═══
@@ -124,8 +124,8 @@ const UNIT_03 = {
    exampleSrc:"A: Whose cellphone is that?\nB: It is the teacher's.",
    funFact:"Dare follows the same ko-so-a-do pattern. Ko-re (this thing), so-re (that thing), a-re (that far thing), do-re (which thing). Da-re is the 'who' version of this pattern."},
 
-  {type:"mc", q:"わたしのほん means:", opts:["I am a book","this book","my book","a book"], ans:"my book",
-   hint:"Watashi (I) + no (possession) + hon (book)."},
+  {type:"mc", q:"わたしのほん means:", opts:["my book","this book","I am a book","a book"], ans:"my book",
+   hint:"Watashi (I) + no (possession) + hon (b...)."},
 
   {type:"teach", trg:"いち", src:"one (1)", pos:"num", gender:null,
    note:"The first number. Also read ひとつ (hitotsu) in native Japanese counting.",
@@ -151,7 +151,7 @@ const UNIT_03 = {
    exampleSrc:"A: We are a family of four.\nB: How lively!",
    funFact:"Shi (四) sounds like shi (死, death). Hotels and hospitals often skip room 4 and floor 4. Phone numbers and license plates avoid 4. Most people say 'yon' to dodge the unlucky sound."},
 
-  {type:"mc", q:"The number よん is preferred over し because:", opts:["Shi means death","Yon is easier to say","Shi is informal","Yon sounds modern"], ans:"Shi means death",
+  {type:"mc", q:"The number よん is preferred over し because:", opts:["Yon is easier to say","Shi means death","Shi is informal","Yon sounds modern"], ans:"Shi means death",
    hint:"Japanese culture has a strong association between the sound and an unlucky meaning."},
 
   {type:"teach", trg:"ご", src:"five (5)", pos:"num", gender:null,
@@ -197,13 +197,13 @@ const UNIT_03 = {
 
   {type:"match", pairs:[{trg:"ろく",src:"six"},{trg:"なな",src:"seven"},{trg:"はち",src:"eight"},{trg:"きゅう",src:"nine"},{trg:"じゅう",src:"ten"}]},
 
-  {type:"mc", q:"Which number is considered the luckiest in Japan?", opts:["よん","はち","なな","ご"], ans:"はち",
+  {type:"mc", q:"Which number is considered the luckiest in Japan?", opts:["よん","じゅう","はち","ご"], ans:"はち",
    hint:"Its kanji 八 symbolizes spreading prosperity."},
 
   {type:"fb", s:"これはせんせい___かさです。", a:"の", opts:["の","は","が","を"], sSrc:"This is the teacher's umbrella.",
    hint:"The possession particle connecting owner to object."},
 
-  {type:"mc", q:"What is 'my cellphone' in Japanese?", opts:["わたしのけいたい","わたしはけいたい","これのけいたい","けいたいのわたし"], ans:"わたしのけいたい",
+  {type:"mc", q:"What is 'my cellphone' in Japanese?", opts:["けいたいのわたし","わたしはけいたいです","これのけいたい","わたしのけいたい"], ans:"わたしのけいたい",
    hint:"Person + no + object = person's object."},
 
   {type:"tip", title:"Numbers: Two Systems",
@@ -211,7 +211,7 @@ const UNIT_03 = {
    deepDive:{title:"Unlucky numbers",
     text:"Four (し/shi) sounds like 死 (death).\nNine (く/ku) sounds like 苦 (suffering).\n\nHotels, hospitals, and apartments often skip floors 4, 9, 13, and 42.\n42 = shi-ni = 'to die.'\n\nMany people use yon (not shi) and kyuu (not ku) to avoid these sounds."}},
 
-  {type:"mc", q:"じゅうに means:", opts:["2","10","12","20"], ans:"12",
+  {type:"mc", q:"じゅうに means:", opts:["12","100","2","20"], ans:"12",
    hint:"Juu (ten) + ni (two) = twelve."},
 ]},
 

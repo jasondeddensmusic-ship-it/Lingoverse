@@ -25,7 +25,7 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
    funFact:"茶道 combines 茶 (tea) and 道 (way/path). Tea ceremony is not just about drinking tea but about mindfulness, aesthetics, and respect. The four principles are wa (harmony), kei (respect), sei (purity), and jaku (tranquility). A single ceremony can take up to four hours."},
 
   {type:"mc", q:"はなみをしたことがありますか means:", opts:["Do you like flowers?","Have you gone flower shopping?","Have you done cherry blossom viewing?","Will you go see flowers?"], ans:"Have you done cherry blossom viewing?",
-   hint:"はなみ is the springtime tradition of viewing cherry blossoms."},
+   hint:"はなみ is the springtime tradition of v... c... blossoms."},
 
   {type:"teach", trg:"たいけん", src:"hands-on experience", pos:"noun", gender:null,
    note:"たいけんする = to experience (hands-on). More active than けいけん.\nKanji: 体験.",
@@ -61,7 +61,7 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
    funFact:"Omiyage culture is a deeply ingrained social obligation. When traveling, you are expected to buy treats for coworkers and friends. Train stations have entire floors dedicated to omiyage. Regional specialties (めいぶつ) are the standard choice. Forgetting omiyage can cause social awkwardness."},
 
   {type:"mc", q:"はなび literally means:", opts:["sky light","big sound","flower fire","star rain"], ans:"flower fire",
-   hint:"はな (flower) + び/ひ (fire), describing how fireworks bloom like flowers."},
+   hint:"はな (f...) + び/ひ (f...), describing how fireworks bloom like flowers."},
 
   {type:"teach", trg:"もみじ", src:"autumn leaves / maple", pos:"noun", gender:null,
    note:"The autumn equivalent of はなみ. もみじがり = autumn leaf viewing.\nKanji: 紅葉.",
@@ -77,7 +77,7 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
   {type:"match", pairs:[{trg:"はなび",src:"fireworks"},{trg:"おせちりょうり",src:"New Year food"},{trg:"おみやげ",src:"souvenir"},{trg:"もみじ",src:"autumn leaves"}]},
 
   {type:"mc", q:"おみやげ is:", opts:["A type of food","A gift bought during travel","A festival event","A traditional dance"], ans:"A gift bought during travel",
-   hint:"The social custom of buying gifts for others when you travel."},
+   hint:"A deeply ingrained Japanese social obligation: you must return from any trip with something for those who stayed behind."},
 
   {type:"fb", s:"きょうとで___をしたことがありますか？\n(Have you done cherry blossom viewing in Kyoto?)", a:"はなみ", opts:["はなみ","はなび","はなし","はなや"], sSrc:"Have you done cherry blossom viewing in Kyoto?",
    hint:"The spring tradition of viewing cherry blossoms under the trees."},

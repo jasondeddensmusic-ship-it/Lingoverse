@@ -38,7 +38,7 @@ const UNIT_10 = {
    exampleSrc:"A: It is raining.\nB: Let's bring an umbrella.",
    funFact:"雨 is a pictograph of rain drops falling from clouds. Japan receives about 1,700mm of rain per year, twice the world average. The Japanese language has dozens of words for rain: kosame (light rain), ooame (heavy rain), kirisame (misty rain), samidare (early summer rain)."},
 
-  {type:"mc", q:"てんき means:", opts:["temperature","cloud","weather","wind"], ans:"weather",
+  {type:"mc", q:"てんき means:", opts:["weather","cloud","temperature","wind"], ans:"weather",
    hint:"The compound of 'heaven/sky' + 'spirit/air' meaning the general atmospheric condition."},
 
   {type:"teach", trg:"ゆき", src:"snow", pos:"noun", gender:null,
@@ -80,8 +80,8 @@ const UNIT_10 = {
    exampleSrc:"A: Spring is warm, isn't it.\nB: Yes, the cherry blossoms bloom too.",
    funFact:"Two kanji for atatakai: 暖かい for weather/air and 温かい for warm objects or warm-hearted feelings. Atatakai spring days signal hanami (cherry blossom viewing) season, one of Japan's most beloved cultural events."},
 
-  {type:"mc", q:"さむい specifically describes:", opts:["cold weather","cold drinks","cold food","cold personality"], ans:"cold weather",
-   hint:"This i-adjective is specifically for air temperature, not for touching cold objects."},
+  {type:"mc", q:"さむい specifically describes:", opts:["cold drinks","cold weather","cold food","cold personality"], ans:"cold weather",
+   hint:"This i-adjective is specifically for air temperature, not for touching c... objects."},
 
   {type:"match", pairs:[{trg:"はれ",src:"sunny"},{trg:"くもり",src:"cloudy"},{trg:"あめ",src:"rain"},{trg:"ゆき",src:"snow"}]},
 
@@ -129,7 +129,7 @@ const UNIT_10 = {
    exampleSrc:"A: Where do you want to go in winter?\nB: I want to go to Hokkaido.",
    funFact:"冬 depicts ice crystals forming, representing the freezing season. Winter in Japan means oshogatsu (New Year), the biggest holiday. Families eat osechi-ryouri (traditional New Year foods), visit shrines (hatsumoude), and send nengajou (New Year postcards)."},
 
-  {type:"mc", q:"はる means:", opts:["summer","autumn","winter","spring"], ans:"spring",
+  {type:"mc", q:"はる means:", opts:["spring","autumn","winter","summer"], ans:"spring",
    hint:"The season of cherry blossoms and new beginnings in Japan."},
 
   {type:"teach", trg:"〜がつ", src:"month (counter)", pos:"part", gender:null,
@@ -159,7 +159,7 @@ const UNIT_10 = {
    exampleSrc:"A: Shall we go flower viewing on Sunday?\nB: Sounds great! Let's go.",
    funFact:"花 (hana, flower) + 見 (mi, viewing). Hanami involves picnicking under cherry trees with friends, family, or coworkers. People arrive early to claim spots with blue tarps. Food, drinks, and singing are common. Some companies assign junior employees to hold spots all day."},
 
-  {type:"mc", q:"さくら means:", opts:["rain","snow","cherry blossom","autumn leaf"], ans:"cherry blossom",
+  {type:"mc", q:"さくら means:", opts:["rain","cherry blossom","snow","autumn leaf"], ans:"cherry blossom",
    hint:"Japan's national flower whose brief blooming season is celebrated every spring."},
 
   {type:"teach", trg:"まつり", src:"festival", pos:"noun", gender:null,
@@ -181,7 +181,7 @@ const UNIT_10 = {
   {type:"fb", s:"___がさいていますよ！\n(The cherry blossoms are blooming!)", a:"さくら", opts:["さくら","はなみ","はる","まつり"], sSrc:"The cherry blossoms are blooming!",
    hint:"Japan's iconic spring flower whose bloom is tracked nationally."},
 
-  {type:"mc", q:"いちがつ means:", opts:["January","Monday","one day","first year"], ans:"January",
+  {type:"mc", q:"いちがつ means:", opts:["one day","Monday","January","first year"], ans:"January",
    hint:"Ichi (one) + gatsu (month) = the first month of the year."},
 
   {type:"mc", q:"おしょうがつ is celebrated in:", opts:["spring","summer","autumn","winter"], ans:"winter",

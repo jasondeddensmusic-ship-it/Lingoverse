@@ -1,4 +1,5 @@
 // Italian V2 Unit 17 — I media e la tecnologia (Media & Technology) (B1.2)
+import EXP_L4 from './_temp_u17_expand_L01.js';import EXP_L5 from './_temp_u17_expand_L02.js';import EXP_L6 from './_temp_u17_expand_L03.js';
 // CILS/CELI B1 aligned. Media, tech devices, internet vocabulary.
 
 const UNIT_17 = {
@@ -61,9 +62,9 @@ const UNIT_17 = {
 
       // Quiz steps
       {type:"mc", q:"What is 'il telegiornale'?",
-       opts:["The TV news / newscast","The newspaper","The magazine","The radio show"],
-       ans:"The TV news / newscast",
-       hint:"Combine 'tele-' (television) with 'giornale' (newspaper/journal). Abbreviated as TG. The 8 PM edition is most popular."},
+       opts:["The TV broadcast of the giornale","The printed daily newspaper delivered to homes","The monthly magazine supplement","The morning radio program"],
+       ans:"The TV broadcast of the giornale",
+       hint:"A compound noun: 'tele-' means television and the second half is a daily publication. Abbreviated as TG."},
 
       {type:"fb", s:"Hai letto il {1} stamattina?",
        a:["giornale"],
@@ -80,9 +81,9 @@ const UNIT_17 = {
       ]},
 
       {type:"mc", q:"What is 'la cronaca nera'?",
-       opts:["Crime news","Evening news","Sports news","Celebrity gossip"],
+       opts:["Evening news","Crime news","Sports news","Celebrity gossip"],
        ans:"Crime news",
-       hint:"'Nera' means 'black.' Italian journalism uses colors for sections: black for crime, pink for gossip."},
+       hint:"'Nera' means 'black.' Italian journalism uses colors for sections: black for c..., pink for gossip."},
 
       {type:"fb", s:"Il {1} ha intervistato il sindaco.",
        a:["giornalista"],
@@ -91,9 +92,9 @@ const UNIT_17 = {
        sSrc:"The {1} interviewed the mayor."},
 
       {type:"mc", q:"How is Italian 'notizia' different from English 'news'?",
-       opts:["It is countable: una notizia, le notizie","It is always plural","It is uncountable","It only means bad news"],
-       ans:"It is countable: una notizia, le notizie",
-       hint:"In English, 'news' cannot be counted. In Italian, you can say 'una notizia' (one piece of news) and 'due notizie' (two pieces of news)."},
+       opts:["It is uncountable like English 'news'","It is always used in the plural form","It is countable: una notizia, due notizie","It only refers to negative news events"],
+       ans:"It is countable: una notizia, due notizie",
+       hint:"In English, 'news' cannot be counted. In Italian you can attach a singular or plural article: 'una' (one) or 'le' (the, plural)."},
 
       {type:"fb", s:"L'{1} di oggi critica il governo.",
        a:["editoriale"],
@@ -102,9 +103,9 @@ const UNIT_17 = {
        sSrc:"Today's {1} criticizes the government."},
 
       {type:"mc", q:"What does 'l'articolo' mean in a newspaper context?",
-       opts:["A written article / piece","A grammar article","A product for sale","An interview"],
+       opts:["An interview","A grammar article","A product for sale","A written article / piece"],
        ans:"A written article / piece",
-       hint:"From Latin 'articulus' (small section). In a newspaper, it is a written text on a specific topic."}
+       hint:"From Latin 'articulus' (small section). In a newspaper, it is a w... text on a specific topic."}
     ]},
 
     {id:"itv2_u17l2", title:"La tecnologia", icon:"💻", xp:15, board:true, steps:[
@@ -162,7 +163,7 @@ const UNIT_17 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'scaricare' mean in technology?",
-       opts:["To download","To upload","To charge","To delete"],
+       opts:["To download","To upload files to a server","To charge","To delete"],
        ans:"To download",
        hint:"Literally 'to unload.' The opposite of 'caricare.' You bring data from the internet to your device."},
 
@@ -181,9 +182,9 @@ const UNIT_17 = {
       ]},
 
       {type:"mc", q:"What does 'caricare' mean?",
-       opts:["To upload or to charge","Only to upload","Only to charge","To delete"],
-       ans:"To upload or to charge",
-       hint:"This verb means 'to load' in all senses: charge a battery, upload a file, load a truck. Context determines meaning."},
+       opts:["Only to upload a file to a remote server","To upload or to charge a battery","Only to charge a device","To delete something permanently"],
+       ans:"To upload or to charge a battery",
+       hint:"This verb means 'to load' in all its senses. It works for sending a file, powering a device, or loading a truck. Context decides."},
 
       {type:"fb", s:"C'e un {1} del sistema. Installalo.",
        a:["aggiornamento"],
@@ -192,9 +193,9 @@ const UNIT_17 = {
        sSrc:"There is a system {1}. Install it."},
 
       {type:"mc", q:"What is 'il portatile' in Italian?",
-       opts:["A laptop computer","A portable radio","A tablet","A portable charger"],
-       ans:"A laptop computer",
-       hint:"Short for 'computer portatile.' The desktop computer is called 'il fisso' (the fixed one)."},
+       opts:["A tablet device","A portable radio receiver","A laptop computer you carry","A portable external battery charger"],
+       ans:"A laptop computer you carry",
+       hint:"Short for 'portatile' (portable). The stationary desk version is called 'il fisso' (the fixed one)."},
 
       {type:"fb", s:"Ho scaricato un'{1} nuova per le foto.",
        a:["applicazione"],
@@ -203,9 +204,9 @@ const UNIT_17 = {
        sSrc:"I downloaded a new {1} for photos."},
 
       {type:"mc", q:"What has been a major tech issue in Italy?",
-       opts:["The digital divide between north and south","Too many smartphones","No television stations","Keyboards without accents"],
-       ans:"The digital divide between north and south",
-       hint:"Rural areas, especially in the south, historically had slower internet connections. Italy invested in fiber optics to close this gap."}
+       opts:["Keyboards lacking accent keys for typing","An overload of smartphones causing infrastructure strain","A complete absence of TV channels in remote areas","The connectivity gap dividing north from south"],
+       ans:"The connectivity gap dividing north from south",
+       hint:"Rural areas historically had slower internet access. Fiber optics investment after 2020 aimed to close the digital divide."}
     ]},
 
     {id:"itv2_u17l3", title:"Online", icon:"🌐", xp:15, board:true, steps:[
@@ -265,7 +266,7 @@ const UNIT_17 = {
       {type:"mc", q:"What does 'la rete' mean in a technology context?",
        opts:["The internet / network","The screen","The keyboard","The password"],
        ans:"The internet / network",
-       hint:"Literally 'the net.' 'Navigare in rete' means to browse the internet. The same word also means a physical net."},
+       hint:"Literally 'the net.' 'Navigare in rete' means to browse the i.... The same word also means a physical net."},
 
       {type:"fb", s:"Ho dimenticato la {1} del mio account.",
        a:["password"],
@@ -282,9 +283,9 @@ const UNIT_17 = {
       ]},
 
       {type:"mc", q:"What is 'googlare' in Italian?",
-       opts:["An Italianized verb meaning to Google / search online","A type of pasta","A computer brand","An Italian search engine"],
-       ans:"An Italianized verb meaning to Google / search online",
-       hint:"English verbs are adapted to Italian by adding -are: click > cliccare, chat > chattare, Google > this verb."},
+       opts:["A type of pasta dish","An Italianized action word meaning to Google / search online","A popular computer brand name","A well-known Italian search engine"],
+       ans:"An Italianized action word meaning to Google / search online",
+       hint:"English verbs are adapted by adding -are: click > cliccare, chat > chattare, tweet > twittare. The same pattern applies here."},
 
       {type:"fb", s:"Hai {1} le foto della vacanza sui social?",
        a:["postato"],
@@ -293,9 +294,9 @@ const UNIT_17 = {
        sSrc:"Did you {1} the vacation photos on social media?"},
 
       {type:"mc", q:"How do Italians say 'social media' in everyday speech?",
-       opts:["I social","I media sociali","Le reti sociali","I socialmedia"],
+       opts:["Le reti sociali","I media sociali","I social","I socialmedia"],
        ans:"I social",
-       hint:"The shortened form is universally understood. It is masculine plural. 'Sui social' means 'on social media.'"},
+       hint:"The shortened form is universally understood. It is masculine plural. 'Sui s...' means 'on s... media.'"},
 
       {type:"fb", s:"Hai {1} l'articolo sui social?",
        a:["condiviso"],
@@ -304,9 +305,9 @@ const UNIT_17 = {
        sSrc:"Did you {1} the article on social media?"},
 
       {type:"mc", q:"Why is 'la password' feminine in Italian?",
-       opts:["Because 'parola' (word) is feminine","Because all English words are feminine","Because passwords are secret","Because it ends in a consonant"],
+       opts:["Because it ends in a consonant sound","Because all English loanwords are feminine","Because passwords are always kept secret","Because 'parola' (word) is feminine"],
        ans:"Because 'parola' (word) is feminine",
-       hint:"Italian assigns gender to borrowed words based on their closest Italian equivalent. 'Password' relates to 'parola' (word), which is feminine."}
+       hint:"Italian assigns gender to English loans based on the nearest native equivalent. An access code takes its grammatical gender from whichever Italian noun it most resembles."}
     ]}
   ]
 };

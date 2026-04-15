@@ -31,7 +31,7 @@ const LESSON_5 = {
      funFact:"Japanese months are beautifully logical: ichi-gatsu (month 1), ni-gatsu (month 2), and so on. No need to memorize separate names. The old poetic names are still known: mutsuki (month of harmony) for January, kisaragi (changing clothes) for February."},
 
     {type:"mc", q:"Japanese months use:", opts:["Unique names like English","Number + gatsu","Animal names","Season names"], ans:"Number + gatsu",
-     hint:"Ichi-gatsu, ni-gatsu, san-gatsu: the logical number system."},
+     hint:"Ichi-g..., ni-g..., san-g...: the logical n... system."},
 
     {type:"teach", trg:"にがつ", src:"February", pos:"noun", gender:null,
      note:"Month 2. The shortest month. Has Valentine's Day, which works differently in Japan.\nKanji: 二月.",
@@ -88,7 +88,7 @@ const LESSON_5 = {
      funFact:"日 is one of the most versatile kanji: nichi (day), hi (sun/day), jitsu (in compounds). It appears in nihon (Japan), nichiyoubi (Sunday), mainichi (every day), and kyou (today, 今日). One kanji, countless readings."},
 
     {type:"mc", q:"しがつ is significant because:", opts:["Cherry blossoms bloom only then","The school year starts","It is the hottest month","New Year begins"], ans:"The school year starts",
-     hint:"Unlike most Western countries, Japan begins its academic year in this spring month."},
+     hint:"Unlike most Western countries, Japan begins its academic y... in this spring month."},
 
     {type:"match", pairs:[
       {trg:"いちがつ", src:"January"},

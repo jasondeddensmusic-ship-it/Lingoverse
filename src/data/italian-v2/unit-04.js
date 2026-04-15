@@ -87,7 +87,7 @@ const UNIT_04 = {
       ]},
 
       {type:"mc", q:"What is the correct plural of 'panino'?",
-       opts:["Panini","Paninos","Paninis","Panine"],
+       opts:["Paninos","Panini","Paninis","Panine"],
        ans:"Panini",
        hint:"Italian masculine nouns ending in -o form their plural by changing -o to -i. No English -s needed."},
 
@@ -98,7 +98,7 @@ const UNIT_04 = {
        sSrc:"I would like a {1} margherita."},
 
       {type:"mc", q:"Which of these is feminine?",
-       opts:["La birra","Il vino","Il panino","Il gelato"],
+       opts:["Il panino","Il vino","La birra","Il gelato"],
        ans:"La birra",
        hint:"Look at the article. The feminine singular definite article is 'la,' while masculine uses 'il.'"},
 
@@ -109,9 +109,9 @@ const UNIT_04 = {
        sSrc:"Still or {1} water?"},
 
       {type:"mc", q:"Why does 'acqua' use 'l'' instead of 'la'?",
-       opts:["It starts with a vowel","It is masculine","It is irregular","It is plural"],
+       opts:["It is plural","It is masculine","It is irregular","It starts with a vowel"],
        ans:"It starts with a vowel",
-       hint:"When a feminine noun begins with a vowel, the article 'la' contracts. The vowel of 'la' drops."}
+       hint:"When a feminine noun begins with a v..., the article 'la' contracts. The v... of 'la' drops."}
     ]},
 
     {id:"itv2_u4l2", title:"Vorrei ordinare", icon:"\ud83e\uddd1\u200d\ud83c\udf73", xp:15, board:true, steps:[
@@ -173,7 +173,7 @@ const UNIT_04 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'vorrei' mean?",
-       opts:["I would like","I want","I need","I can"],
+       opts:["I would like","I want (direct)","I need (necessary)","I can (ability)"],
        ans:"I would like",
        hint:"This is the conditional form of 'volere.' It softens the request compared to the direct 'I want.'"},
 
@@ -184,7 +184,7 @@ const UNIT_04 = {
        sSrc:"{1}, please."},
 
       {type:"mc", q:"Which article goes with 'zucchero'?",
-       opts:["Lo","Il","La","L'"],
+       opts:["Il","Lo","La","L'"],
        ans:"Lo",
        hint:"Words starting with z take a special masculine article. Not the regular 'il.'"},
 
@@ -203,7 +203,7 @@ const UNIT_04 = {
       ]},
 
       {type:"mc", q:"What happens if you order 'un latte' in Italy?",
-       opts:["You get a glass of plain milk","You get a coffee latte","You get a cappuccino","The waiter is confused"],
+       opts:["You get a cappuccino instead","You get the coffee-milk blend you expected","You get a glass of plain milk","The waiter does not understand you"],
        ans:"You get a glass of plain milk",
        hint:"In Italian, this word simply means the dairy drink. The coffee version needs 'caffe' added to it."},
 
@@ -214,7 +214,7 @@ const UNIT_04 = {
        sSrc:"Can I {1} a glass of water?"},
 
       {type:"mc", q:"In Italy, when does the waiter bring the bill?",
-       opts:["Only when you ask for it","After the main course","Automatically after dessert","At a set time"],
+       opts:["At a set time","After the main course","Automatically after dessert","Only when you ask for it"],
        ans:"Only when you ask for it",
        hint:"Italian dining culture considers it rude to rush customers. You must take the initiative."}
     ]},

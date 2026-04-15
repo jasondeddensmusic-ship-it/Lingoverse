@@ -119,7 +119,7 @@ const LESSON_4 = {
     {type:"mc", q:"What is 'i suoceri'?",
      opts:["The in-laws (parents)","The grandparents","The siblings","The cousins"],
      ans:"The in-laws (parents)",
-     hint:"The plural of 'suocero' (father-in-law). Together the pair means both parents of your spouse."},
+     hint:"The plural of 'suocero' (father-in-law). Together the pair means both p... of your spouse."},
 
     {type:"fb", s:"Quanti {1} hai?",
      a:["bambini"],
@@ -130,7 +130,7 @@ const LESSON_4 = {
     {type:"mc", q:"Why do Italians use 'single' instead of 'celibe'?",
      opts:["Celibe sounds too formal","Single is shorter","Celibe is incorrect","They mean different things"],
      ans:"Celibe sounds too formal",
-     hint:"The traditional Italian words feel bureaucratic. The English loanword took over in everyday conversation."}
+     hint:"The traditional Italian words feel overly official. The English loanword replaced them in everyday conversation."}
   ]
 };
 export default LESSON_4;

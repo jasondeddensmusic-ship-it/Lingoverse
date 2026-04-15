@@ -31,7 +31,7 @@ const LESSON_6 = {
      funFact:"東 (east) + 京 (capital). Tokyo literally means 'eastern capital,' named when the emperor moved from Kyoto (京都, capital city) in 1868. Tokyo has 23 special wards, each the size of a small city. Shibuya, Shinjuku, and Akihabara are world-famous districts."},
 
     {type:"mc", q:"すんでいます uses the te-imasu form because:", opts:["It happened in the past","Living is an ongoing state","It will happen tomorrow","It is a question"], ans:"Living is an ongoing state",
-     hint:"Te-imasu describes states that continue over time, not one-time actions."},
+     hint:"Te-imasu marks actions that began and keep happening, not single completed events."},
 
     {type:"teach", trg:"おおさか", src:"Osaka", pos:"noun", gender:null,
      note:"Japan's second city. Known for food, comedy, and a direct, friendly dialect.\nKanji: 大阪.",
@@ -108,7 +108,7 @@ const LESSON_6 = {
      hint:"The pattern uses shusshin (origin) + desu, not sunde imasu (currently living)."},
 
     {type:"mc", q:"だいがく literally means:", opts:["big building","big study","school house","exam place"], ans:"big study",
-     hint:"The two kanji are 大 (big) and 学 (learning/study)."},
+     hint:"The two kanji are 大 (b...) and 学 (learning/s...)."},
   ]
 };
 export default LESSON_6;

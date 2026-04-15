@@ -1,4 +1,5 @@
 // Italian V2 Unit 28 — La letteratura (B2.2)
+import EXP_L4 from './_temp_u28_expand_L01.js';import EXP_L5 from './_temp_u28_expand_L02.js';import EXP_L6 from './_temp_u28_expand_L03.js';
 // CILS B2 aligned. Literature, narrative forms, and literary analysis vocabulary.
 
 const UNIT_28 = {
@@ -69,7 +70,7 @@ const UNIT_28 = {
 
       {type:"mc",
        q:"Che differenza c'e tra un romanzo e un racconto?",
-       opts:["Il romanzo e piu lungo e complesso del racconto","Il racconto ha sempre un lieto fine","Il romanzo e sempre autobiografico","Non c'e differenza"],
+       opts:["Il racconto ha sempre un lieto fine","Il romanzo e piu lungo e complesso del racconto","Il romanzo e sempre autobiografico","Non c'e differenza"],
        ans:"Il romanzo e piu lungo e complesso del racconto",
        hint:"Length and complexity distinguish these two prose forms. One is a longer work with multiple storylines, the other is shorter and more concentrated."},
 
@@ -90,7 +91,7 @@ const UNIT_28 = {
 
       {type:"mc",
        q:"Quale forma letteraria ha inventato l'Italia?",
-       opts:["Il sonetto","Il romanzo","Il saggio","L'autobiografia"],
+       opts:["Il saggio","Il romanzo","Il sonetto","L'autobiografia"],
        ans:"Il sonetto",
        hint:"A fourteen-line poetic form invented in Sicily around 1230. It later spread to all of European literature, including Shakespeare's works."}
     ]},
@@ -164,7 +165,7 @@ const UNIT_28 = {
 
       {type:"mc",
        q:"Che cos'e l'ambientazione di un romanzo?",
-       opts:["Il luogo e il tempo in cui si svolge la storia","Il personaggio principale","La morale della storia","Lo stile di scrittura dell'autore"],
+       opts:["Il personaggio principale","Il luogo e il tempo in cui si svolge la storia","La morale della storia","Lo stile di scrittura dell'autore"],
        ans:"Il luogo e il tempo in cui si svolge la storia",
        hint:"Where and when the story takes place. The geographical location and historical period that form the backdrop of the narrative."},
 
@@ -185,7 +186,7 @@ const UNIT_28 = {
 
       {type:"mc",
        q:"Chi racconta la storia in un romanzo?",
-       opts:["Il narratore","Il personaggio","L'editore","Il poeta"],
+       opts:["L'editore","Il personaggio","Il narratore","Il poeta"],
        ans:"Il narratore",
        hint:"The voice that tells the story. Can be in first person, third person, or even second person as in Calvino's experiments."}
     ]},
@@ -259,7 +260,7 @@ const UNIT_28 = {
 
       {type:"mc",
        q:"Perche i romanzi polizieschi in Italia si chiamano 'gialli'?",
-       opts:["Per il colore delle copertine di una famosa collana Mondadori","Perche il primo autore si chiamava Gialli","Perche la paura fa diventare gialli","Per il colore della carta usata per stamparli"],
+       opts:["Perche il primo autore si chiamava Gialli","Per il colore delle copertine di una famosa collana Mondadori","Perche la paura fa diventare gialli","Per il colore della carta usata per stamparli"],
        ans:"Per il colore delle copertine di una famosa collana Mondadori",
        hint:"Named after the color of the covers used by a famous publisher's mystery series. A bright, warm color."},
 
@@ -280,7 +281,7 @@ const UNIT_28 = {
 
       {type:"mc",
        q:"Quanti italiani leggono almeno un libro all'anno?",
-       opts:["Circa il 40%","Circa l'80%","Meno del 10%","Il 100%"],
+       opts:["Meno del 10%","Circa l'80%","Circa il 40%","Il 100%"],
        ans:"Circa il 40%",
        hint:"Italy has one of the lowest reading rates in Western Europe. The percentage is well under half the population."}
     ]}

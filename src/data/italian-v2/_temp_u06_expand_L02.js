@@ -108,7 +108,7 @@ const LESSON_5 = {
     {type:"mc", q:"What clock system does Italy use officially?",
      opts:["24-hour clock","12-hour with AM/PM","Both equally","Depends on the region"],
      ans:"24-hour clock",
-     hint:"Train schedules, store hours, and appointments use this format. 14:30 instead of 2:30 PM."},
+     hint:"Train timetables, opening times, and appointments use this official format. You see '14:30' rather than '2:30 PM.'"},
 
     {type:"fb", s:"Da quale {1} parte il treno?",
      a:["binario"],
@@ -130,7 +130,7 @@ const LESSON_5 = {
     {type:"mc", q:"What does 'perdere la coincidenza' mean?",
      opts:["To miss the connection","To lose money","To find a coincidence","To catch the train"],
      ans:"To miss the connection",
-     hint:"In transport context, 'coincidenza' means a connecting service. 'Perdere' means to lose or miss."}
+     hint:"In transport context, 'coincidenza' means a connecting service. 'Perdere' means to lose or m...."}
   ]
 };
 export default LESSON_5;

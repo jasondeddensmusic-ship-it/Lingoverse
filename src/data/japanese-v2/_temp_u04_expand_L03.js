@@ -108,7 +108,7 @@ const LESSON_5 = {
      hint:"The author of the world's first novel took her name from this noble color."},
 
     {type:"mc", q:"ぎんいろ appears in ぎんざ (Ginza) because:", opts:["Silver mines were there","A silver coin mint was there","Silver temples stood there","Silver fish were sold there"], ans:"A silver coin mint was there",
-     hint:"Gin (silver) + za (seat/place) named after a 1600s minting operation."},
+     hint:"In the 1600s, the Tokugawa shogunate ran a precious-metal production facility in this Tokyo district."},
   ]
 };
 export default LESSON_5;

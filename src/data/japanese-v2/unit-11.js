@@ -63,7 +63,7 @@ const UNIT_11 = {
   {type:"fb", s:"みずを___ください。\n(Please drink water.)", a:"のんで", opts:["のんで","のみて","のむて","のって"], sSrc:"Please drink some water.",
    hint:"のむ is a む-ending Group 1 verb. The む/ぶ/ぬ group becomes んで."},
 
-  {type:"mc", q:"What is the て-form of まつ (to wait)?", opts:["まって","まちて","まつて","まいて"], ans:"まって",
+  {type:"mc", q:"What is the て-form of まつ (to wait)?", opts:["まちて","まって","まつて","まいて"], ans:"まって",
    hint:"つ-ending Group 1 verbs change つ to って with a double consonant."},
 
   {type:"tip", title:"て-form Sound Change Chart",
@@ -78,7 +78,7 @@ const UNIT_11 = {
   {type:"fb", s:"なまえを___ください。\n(Please write your name.)", a:"かいて", opts:["かいて","かって","かきて","かくて"], sSrc:"Please write your name.",
    hint:"かく is a く-ending Group 1 verb. The く ending changes to いて."},
 
-  {type:"mc", q:"What is the て-form of する?", opts:["して","すて","すって","されて"], ans:"して",
+  {type:"mc", q:"What is the て-form of する?", opts:["すって","すて","して","されて"], ans:"して",
    hint:"This is one of the two irregular verbs. It does not follow Group 1 or 2 rules."},
 ]},
 
@@ -106,7 +106,7 @@ const UNIT_11 = {
    exampleSrc:"A: May I take a photo?\nB: Yes, that is fine.",
    funFact:"The も in てもいい means 'even if.' So the literal meaning is 'even if I do X, is it good?' This indirect phrasing is typical of Japanese: rather than directly asking 'can I?', you frame it as 'would it be acceptable even if I did?'"},
 
-  {type:"mc", q:"How do you say 'please wait'?", opts:["まっています","まってください","まってもいい","まっている"], ans:"まってください",
+  {type:"mc", q:"How do you say 'please wait'?", opts:["まってください","まっています","まってもいい","まっている"], ans:"まってください",
    hint:"Combine the て-form of まつ with the word meaning 'please.'"},
 
   {type:"teach", trg:"よんでいます", src:"is reading", pos:"verb", gender:null,
@@ -142,7 +142,7 @@ const UNIT_11 = {
    exampleSrc:"A: Who is that person?\nB: The one standing in front of the station? That is Yamada.",
    funFact:"たっている shows the 'result state' use of ている: the person stood up (action) and is now standing (result). Many verbs work this way: すんでいる (is living/resides), しっている (knows), もっている (has/possesses)."},
 
-  {type:"mc", q:"しゃしんをとってもいいですか means:", opts:["I am taking a photo","Please take a photo","May I take a photo?","I took a photo"], ans:"May I take a photo?",
+  {type:"mc", q:"しゃしんをとってもいいですか means:", opts:["I am taking a photo","May I take a photo?","Please take a photo","I took a photo"], ans:"May I take a photo?",
    hint:"The てもいいですか pattern is used to ask for permission."},
 
   {type:"match", pairs:[{trg:"たべてください",src:"please eat"},{trg:"たべています",src:"is eating"},{trg:"たべてもいいですか",src:"may I eat?"},{trg:"のんでください",src:"please drink"}]},

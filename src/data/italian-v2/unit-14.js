@@ -1,4 +1,5 @@
 // Italian V2 Unit 14 — Il mondo del lavoro (Work & Career) (B1.1)
+import EXP_L4 from './_temp_u14_expand_L01.js';import EXP_L5 from './_temp_u14_expand_L02.js';import EXP_L6 from './_temp_u14_expand_L03.js';
 // CILS/CELI B1 aligned. Jobs, workplace vocabulary, career phrases.
 
 const UNIT_14 = {
@@ -85,7 +86,7 @@ const UNIT_14 = {
       ]},
 
       {type:"mc", q:"Which profession ends in -ista and has the same form for both genders?",
-       opts:["Il/la giornalista","Il/la medico","Il/la avvocato","Il/la cuoco"],
+       opts:["Il/la medico","Il/la giornalista","Il/la avvocato","Il/la cuoco"],
        ans:"Il/la giornalista",
        hint:"Words ending in -ista do not change for gender. Only the article changes. Think: dentista, pianista."},
 
@@ -96,7 +97,7 @@ const UNIT_14 = {
        sSrc:"I need a {1}. I do not feel well."},
 
       {type:"mc", q:"What does 'l'insegnante' mean?",
-       opts:["The teacher","The student","The principal","The tutor"],
+       opts:["The principal","The student","The teacher","The tutor"],
        ans:"The teacher",
        hint:"From 'insegnare' (to teach). This word has the same form for masculine and feminine."},
 
@@ -107,7 +108,7 @@ const UNIT_14 = {
        sSrc:"The {1} Bianchi designed this house."},
 
       {type:"mc", q:"What is the modern feminine form of 'avvocato'?",
-       opts:["Avvocata","Avvocatessa","Avvocatina","Avvocato"],
+       opts:["Avvocato","Avvocatessa","Avvocatina","Avvocata"],
        ans:"Avvocata",
        hint:"The Accademia della Crusca supports this direct feminine form. The older '-essa' suffix is now less preferred."}
     ]},
@@ -167,9 +168,9 @@ const UNIT_14 = {
 
       // Quiz steps
       {type:"mc", q:"What is 'il colloquio' in a work context?",
-       opts:["A job interview","A meeting room","A colleague","A contract"],
-       ans:"A job interview",
-       hint:"From Latin 'colloquium' (conversation). In a professional context, it is the formal conversation to evaluate a candidate."},
+       opts:["A job interview for candidates","A meeting room for conferences","A colleague at work","A signed contract"],
+       ans:"A job interview for candidates",
+       hint:"From Latin 'colloquium' (conversation). It is a formal meeting between employer and applicant."},
 
       {type:"fb", s:"Ho firmato il {1} a tempo indeterminato.",
        a:["contratto"],
@@ -186,7 +187,7 @@ const UNIT_14 = {
       ]},
 
       {type:"mc", q:"What does 'assumere' mean?",
-       opts:["To hire","To assume","To fire","To resign"],
+       opts:["To assume","To hire","To fire","To resign"],
        ans:"To hire",
        hint:"The opposite of 'licenziare.' When a company takes on a new employee, they use this verb."},
 
@@ -197,9 +198,9 @@ const UNIT_14 = {
        sSrc:"The company {1} twenty people."},
 
       {type:"mc", q:"What is special about Italian salaries?",
-       opts:["Workers receive a 13th month bonus in December","Salaries are paid weekly","There is no income tax","Salaries are always paid in cash"],
-       ans:"Workers receive a 13th month bonus in December",
-       hint:"This extra payment is called 'la tredicesima.' It is an extra full month's salary paid at the end of the year."},
+       opts:["There is no income tax at all","Salaries are paid every single week","Workers get a 13th month bonus in December","Salaries are always paid in physical cash"],
+       ans:"Workers get a 13th month bonus in December",
+       hint:"This extra payment is called 'la tredicesima.' An additional full-pay disbursement arrives at year's end, just before the holidays."},
 
       {type:"fb", s:"Il mio {1} e molto esigente ma giusto.",
        a:["capo"],
@@ -208,7 +209,7 @@ const UNIT_14 = {
        sSrc:"My {1} is very demanding but fair."},
 
       {type:"mc", q:"What is the plural of 'il collega'?",
-       opts:["I colleghi","I colleghe","I collegas","I collegi"],
+       opts:["I collegi (wrong spelling)","I colleghe (feminine plural)","I collegas (not Italian)","I colleghi"],
        ans:"I colleghi",
        hint:"Masculine nouns ending in -a often have irregular plurals. The masculine plural adds -hi to keep the hard 'g' sound."}
     ]},
@@ -293,7 +294,7 @@ const UNIT_14 = {
       ]},
 
       {type:"mc", q:"What does 'fare carriera' mean?",
-       opts:["To advance professionally","To change jobs","To work overtime","To take a break"],
+       opts:["To change jobs","To advance professionally","To work overtime","To take a break"],
        ans:"To advance professionally",
        hint:"'Fare' plus this noun means climbing the professional ladder, getting promotions and more responsibility."},
 
@@ -304,7 +305,7 @@ const UNIT_14 = {
        sSrc:"Did you send your {1} for the new job?"},
 
       {type:"mc", q:"What does 'dimettersi' mean?",
-       opts:["To resign","To be fired","To be promoted","To retire"],
+       opts:["To be promoted","To be fired","To resign","To retire"],
        ans:"To resign",
        hint:"This reflexive verb means to leave your job voluntarily. Literally 'to dismiss oneself.'"},
 
@@ -315,7 +316,7 @@ const UNIT_14 = {
        sSrc:"Congratulations on the {1}!"},
 
       {type:"mc", q:"What is the Italian word for 'internship'?",
-       opts:["Lo stage","Il lavoro","Il progetto","Il contratto"],
+       opts:["Il contratto","Il lavoro","Il progetto","Lo stage"],
        ans:"Lo stage",
        hint:"This word is borrowed from French and pronounced 'stazh.' The formal Italian alternative is 'tirocinio.'"}
     ]}

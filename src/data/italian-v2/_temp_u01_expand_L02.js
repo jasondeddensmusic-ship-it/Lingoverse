@@ -114,7 +114,7 @@ const LESSON_4 = {
     {type:"mc", q:"What does 'non c'e di che' literally mean?",
      opts:["There is nothing for which (to thank)","It is nothing","Do not worry","You are welcome"],
      ans:"There is nothing for which (to thank)",
-     hint:"Break it down: non (not) + c'e (there is) + di che (for which). A modest dismissal of thanks."},
+     hint:"A three-part expression: negation + existence verb + a relative phrase. Together it makes a modest, gracious dismissal of gratitude."},
 
     {type:"fb", s:"Oggi e il mio compleanno! Tanti {1}!",
      a:["auguri"],
@@ -127,11 +127,10 @@ const LESSON_4 = {
      ans:"Salute!",
      hint:"This word means 'health.' It works both as a sneeze response and as a drinking toast."},
 
-    {type:"fb", s:"{1} cin! Alla salute!",
-     a:["Cin"],
-     opts:["Cin","In","Buona","Tanti"],
-     hint:"This toasting expression is said while clinking glasses. It entered Italian from Chinese traders.",
-     sSrc:"{1} cin! To health!"},
+    {type:"mc", q:"What is the Italian toasting expression (like 'cheers') said while clinking glasses?",
+     opts:["Cin cin!","In in!","Buona buona!","Tanti tanti!"],
+     ans:"Cin cin!",
+     hint:"This expression entered Italian from Chinese traders via Portuguese sailors. Always maintain eye contact."},
 
     {type:"mc", q:"When is 'mi dispiace' used instead of 'scusa'?",
      opts:["For genuine apologies or sympathy","For small accidents","When passing someone","When ordering food"],

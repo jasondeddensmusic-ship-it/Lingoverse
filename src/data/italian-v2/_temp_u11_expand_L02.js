@@ -70,7 +70,7 @@ const LESSON_5 = {id:"itv2_u11l5", title:"Le espressioni di tempo", icon:"\u231A
   {type:"mc", q:"What is the difference between 'prima' and 'dopo'?",
    opts:["Prima means before, dopo means after","They are the same","Prima means now","Dopo means before"],
    ans:"Prima means before, dopo means after",
-   hint:"These are the basic time opposites. 'Prima di cena' (before dinner), 'dopo cena' (after dinner)."},
+   hint:"These are the basic time opposites. 'P... di cena' (b... dinner), 'd... cena' (a... dinner)."},
 
   {type:"fb", s:"E {1} cosa e successo?",
    a:["poi"],
@@ -89,7 +89,7 @@ const LESSON_5 = {id:"itv2_u11l5", title:"Le espressioni di tempo", icon:"\u231A
   {type:"mc", q:"What does 'C'era una volta' mean?",
    opts:["Once upon a time","There was a turn","It was one way","Once it was good"],
    ans:"Once upon a time",
-   hint:"This is how Italian fairy tales begin. 'Volta' means time/occurrence, not a physical turn."},
+   hint:"This is how Italian fairy tales begin. 'Volta' means t.../occurrence, not a physical turn."},
 
   {type:"fb", s:"{1} e arrivato il treno! Due ore di ritardo!",
    a:["Finalmente"],
@@ -105,13 +105,13 @@ const LESSON_5 = {id:"itv2_u11l5", title:"Le espressioni di tempo", icon:"\u231A
   {type:"fb", s:"Quando l'hai visto? L'{1} ieri.",
    a:["altro"],
    opts:["altro","ultimo","primo","anno"],
-   hint:"Not yesterday, but the day before. 'L'altro ieri' is a specific two-days-ago expression.",
+   hint:"Not yesterday, but two days ago. Italian has a single word for this, unlike English which needs three words.",
    sSrc:"When did you see him? The day before {1}."},
 
   {type:"mc", q:"What is the difference between 'intanto' and 'nel frattempo'?",
    opts:["Intanto is more colloquial, nel frattempo more formal","They have different meanings","Intanto is past only","Nel frattempo is future only"],
    ans:"Intanto is more colloquial, nel frattempo more formal",
-   hint:"Both mean 'meanwhile.' One is everyday speech, the other fits better in writing or formal narration."},
+   hint:"Both mean 'meanwhile.' One is everyday speech, the other fits better in writing or f... narration."},
 
   {type:"fb", s:"{1} ha iniziato a piovere.",
    a:["Improvvisamente"],

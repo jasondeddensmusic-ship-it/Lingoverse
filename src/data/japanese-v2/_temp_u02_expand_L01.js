@@ -108,7 +108,7 @@ const LESSON_3 = {
      hint:"This cooking-related word arrived with Dutch traders during the Edo period."},
 
     {type:"mc", q:"びようし works at:", opts:["A hospital","A school","A beauty salon","A police station"], ans:"A beauty salon",
-     hint:"The kanji contains 'beauty' and 'appearance.'"},
+     hint:"The kanji contains 'b...' and 'appearance.'"},
   ]
 };
 export default LESSON_3;

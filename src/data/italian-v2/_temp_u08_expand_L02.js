@@ -70,7 +70,7 @@ const LESSON_5 = {id:"itv2_u8l5", title:"Lo shopping online", icon:"\uD83D\uDCBB
   {type:"mc", q:"What does 'spedizione gratuita' mean?",
    opts:["Free shipping","Fast shipping","Express delivery","Standard shipping"],
    ans:"Free shipping",
-   hint:"'Gratuita' means free of charge. This is the shipping option that costs nothing."},
+   hint:"'Gratuita' means f... of charge. This is the s... option that costs nothing."},
 
   {type:"fb", s:"Ho messo la giacca nel {1}.",
    a:["carrello"],
@@ -111,7 +111,7 @@ const LESSON_5 = {id:"itv2_u8l5", title:"Lo shopping online", icon:"\uD83D\uDCBB
   {type:"mc", q:"What does 'Aggiungi al carrello' mean?",
    opts:["Add to cart","Remove from cart","Proceed to checkout","View cart"],
    ans:"Add to cart",
-   hint:"'Aggiungere' means to add. 'Carrello' is the cart. This is the main shopping button."},
+   hint:"'Aggiungere' means to a.... 'Carrello' is the c.... This is the main shopping button."},
 
   {type:"fb", s:"Hai un {1} sconto?",
    a:["codice"],

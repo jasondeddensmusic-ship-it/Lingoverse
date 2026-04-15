@@ -25,7 +25,7 @@ const LESSON_3 = {id:"jav2_u11l3", title:"アクションをつなげよう", ic
    funFact:"きがえる combines 着 (wear) and 替える (replace). Japanese schools require changing into indoor shoes (うわばき) and sometimes gym clothes. Many companies also have uniform changes. The concept of changing for different activities is deeply cultural."},
 
   {type:"mc", q:"おきて、シャワーをあびて、あさごはんをたべます describes:", opts:["Three separate days","A sequence of morning actions","Three different people","Three choices"], ans:"A sequence of morning actions",
-   hint:"て-form chains connect actions in the order they happen."},
+   hint:"て-form chains connect a... in the order they happen."},
 
   {type:"teach", trg:"〜てから", src:"after doing ~, then...", pos:"part", gender:null,
    note:"て-form + から = after doing X, then Y. Emphasizes that X finishes first.\nStronger ordering than て alone.",

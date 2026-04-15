@@ -61,7 +61,7 @@ const LESSON_3 = {id:"jav2_u12l3", title:"スポーツとしゅみ", icon:"⚽",
    funFact:"Japan's professional soccer league (J-League) started in 1993 and transformed the sport's popularity. Japan co-hosted the 2002 FIFA World Cup. サッカー comes from the English word 'soccer,' while most of the world says 'football.' The kanji term 蹴球 (kick-ball) exists but is rarely used."},
 
   {type:"mc", q:"テニスがじょうずですね means:", opts:["You like tennis","You play tennis often","You are good at tennis","You want to play tennis"], ans:"You are good at tennis",
-   hint:"じょうず is a な-adjective meaning 'skilled' or 'good at.'"},
+   hint:"じょうず is a な-adjective meaning 'skilled' or 'g... at.'"},
 
   {type:"teach", trg:"おどれる", src:"can dance", pos:"verb", gender:null,
    note:"Potential form of おどる (to dance). Group 1: る becomes れる.\nおどる becomes おどれる.",

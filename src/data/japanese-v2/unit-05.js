@@ -39,7 +39,7 @@ const UNIT_05 = {
    exampleSrc:"A: Do you like meat?\nB: Yes, I like chicken.",
    funFact:"The kanji 肉 is a pictograph of a piece of meat with visible sinews. Japan had a Buddhist-influenced ban on eating meat for over 1,000 years until the Meiji era (1868). Wagyu (Japanese beef) is now one of the most prized meats worldwide."},
 
-  {type:"mc", q:"ごはん means:", opts:["bread","cooked rice / meal","meat","vegetables"], ans:"cooked rice / meal",
+  {type:"mc", q:"ごはん means:", opts:["cooked rice / meal","bread","meat","vegetables"], ans:"cooked rice / meal",
    hint:"This word has a double meaning related to Japan's staple grain."},
 
   {type:"teach", trg:"さかな", src:"fish", pos:"noun", gender:null,
@@ -81,8 +81,8 @@ const UNIT_05 = {
    exampleSrc:"A: Will you have tea?\nB: Yes, please.",
    funFact:"Tea arrived in Japan from China around 800 AD. The 'o' prefix shows respect because tea was a precious luxury. Green tea (ryokucha) is the default. When Japanese people say 'ocha,' they always mean green tea, never black tea (koucha)."},
 
-  {type:"mc", q:"おちゃ usually refers to:", opts:["black tea","herbal tea","green tea","iced tea"], ans:"green tea",
-   hint:"Japan's default tea variety, served in almost every restaurant for free."},
+  {type:"mc", q:"おちゃ usually refers to:", opts:["black tea","green tea","herbal tea","iced tea"], ans:"green tea",
+   hint:"Japan's default t... variety, served in almost every restaurant for free."},
 
   {type:"teach", trg:"ぎゅうにゅう", src:"milk", pos:"noun", gender:null,
    note:"Literally 'cow + milk.' Also simply called ミルク (miruku) in casual speech.\nKanji: 牛乳.",
@@ -112,7 +112,7 @@ const UNIT_05 = {
   {type:"mc", q:"パン came to Japanese from which language?", opts:["English","French","Portuguese","Spanish"], ans:"Portuguese",
    hint:"Missionaries brought this word to Japan in the 1500s."},
 
-  {type:"mc", q:"Which word means 'fruit'?", opts:["やさい","くだもの","たべもの","たまご"], ans:"くだもの",
+  {type:"mc", q:"Which word means 'fruit'?", opts:["やさい","たまご","たべもの","くだもの"], ans:"くだもの",
    hint:"The compound literally means 'ripening thing.'"},
 ]},
 
@@ -140,7 +140,7 @@ const UNIT_05 = {
    exampleSrc:"A: Is this ramen delicious?\nB: Yes, it is very delicious!",
    funFact:"Saying oishii while eating is the best compliment to a Japanese cook. The word originally meant 'nice/good' in general. The TV show reaction of shouting 'oishii!' after the first bite is a real cultural practice, not just for cameras."},
 
-  {type:"mc", q:"たべる means:", opts:["to drink","to eat","to cook","to buy"], ans:"to eat",
+  {type:"mc", q:"たべる means:", opts:["to eat","to drink","to cook","to buy"], ans:"to eat",
    hint:"This ru-verb is specifically about consuming food, not liquids."},
 
   {type:"teach", trg:"まずい", src:"bad-tasting / gross", pos:"adj", gender:null,
@@ -182,7 +182,7 @@ const UNIT_05 = {
    exampleSrc:"A: I am thirsty!\nB: Let's drink water.",
    funFact:"Nodo (throat) + ga kawaita (became dry). Japanese expresses many physical states as body-part descriptions: onaka ga suita (belly emptied = hungry), atama ga itai (head hurts = headache), me ga sameta (eyes awakened = woke up)."},
 
-  {type:"mc", q:"おいしい means:", opts:["bad-tasting","hungry","delicious","thirsty"], ans:"delicious",
+  {type:"mc", q:"おいしい means:", opts:["bad-tasting","delicious","hungry","thirsty"], ans:"delicious",
    hint:"The most common compliment for food in Japanese."},
 
   {type:"mc", q:"Which particle goes before すき?", opts:["を","に","が","で"], ans:"が",
@@ -200,7 +200,7 @@ const UNIT_05 = {
 
   {type:"match", pairs:[{trg:"たべる",src:"to eat"},{trg:"のむ",src:"to drink"},{trg:"おなかがすいた",src:"I am hungry"},{trg:"のどがかわいた",src:"I am thirsty"}]},
 
-  {type:"mc", q:"のみもの means:", opts:["food","drink","fruit","vegetable"], ans:"drink",
+  {type:"mc", q:"のみもの means:", opts:["food","vegetable","fruit","drink"], ans:"drink",
    hint:"Nomu (the consuming-liquid verb) + mono (thing) = ?"},
 
   {type:"fb", s:"___がすいた！\n(I am hungry!)", a:"おなか", opts:["おなか","のど","あたま","て"], sSrc:"I am hungry!",

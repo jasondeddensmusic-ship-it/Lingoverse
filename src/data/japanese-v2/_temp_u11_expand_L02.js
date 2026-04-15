@@ -25,7 +25,7 @@ const LESSON_4 = {id:"jav2_u11l4", title:"てしまう・てみる", icon:"😱"
    funFact:"なくす means to lose an object (not a person or game). The てしまう ending makes it clear this was accidental and regrettable. For losing a game, use まける. For losing a person (death), use なくなる, a euphemism meaning 'to cease to exist.'"},
 
   {type:"mc", q:"ケーキをぜんぶたべてしまった expresses:", opts:["I want to eat cake","I ate all the cake (with regret/surprise)","I am eating cake now","I will eat cake later"], ans:"I ate all the cake (with regret/surprise)",
-   hint:"てしまう adds a feeling of 'oops' or 'unfortunately' to a completed action."},
+     hint:"てしまう marks completion that carries an emotional tone, like an accidental or unwanted outcome."},
 
   {type:"teach", trg:"〜ちゃった", src:"ended up doing ~ (casual)", pos:"part", gender:null,
    note:"Casual contraction of てしまった. Very common in speech.\nたべてしまった becomes たべちゃった.",
@@ -55,7 +55,7 @@ const LESSON_4 = {id:"jav2_u11l4", title:"てしまう・てみる", icon:"😱"
    funFact:"つかってみてください (please try using it) is the go-to phrase for product recommendations in Japan. Shop staff, friends, and online reviews all use this pattern. It is friendly and low-pressure, inviting the person to experience something rather than committing."},
 
   {type:"mc", q:"やってみましょう means:", opts:["Let us stop doing it","Let us try doing it","Let us finish doing it","Let us avoid doing it"], ans:"Let us try doing it",
-   hint:"てみる means 'try doing' and ましょう means 'let us.'"},
+   hint:"てみる means 't... d...' and ましょう means 'l... us.'"},
 
   {type:"teach", trg:"おちてしまった", src:"ended up falling / dropped", pos:"verb", gender:null,
    note:"おちる (to fall/drop) + てしまった.\nExpresses an unfortunate accident.",

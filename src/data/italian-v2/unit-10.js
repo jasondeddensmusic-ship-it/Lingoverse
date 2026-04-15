@@ -62,9 +62,9 @@ const UNIT_10 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'fare la valigia' mean?",
-       opts:["To pack (a suitcase)","To buy a suitcase","To carry a bag","To check luggage"],
+       opts:["To pack (a suitcase)","To buy one at the store","To carry a bag with you","To check luggage at the airport"],
        ans:"To pack (a suitcase)",
-       hint:"'Fare' (to make/do) + 'la valigia' (the suitcase). The expression means preparing your luggage for travel."},
+       hint:"'Fare' (to make/do) combines with a noun for luggage. Italians 'make' their luggage before departing."},
 
       {type:"fb", s:"Hai il {1}? E anche il biglietto?",
        a:["passaporto"],
@@ -81,9 +81,9 @@ const UNIT_10 = {
       ]},
 
       {type:"mc", q:"Why must you 'convalidare' a train ticket in Italy?",
-       opts:["To stamp the date and time before boarding","To get a discount","To choose your seat","To cancel it"],
+       opts:["To get a price discount on the fare","To stamp the date and time before boarding","To select or change your assigned seat","To cancel and refund the purchase"],
        ans:"To stamp the date and time before boarding",
-       hint:"Without this stamp, your ticket is not valid and you risk a fine from the conductor."},
+       hint:"Without this step, your ticket is not valid and you risk a fine from the conductor."},
 
       {type:"fb", s:"A che ora {1}?",
        a:["parti"],
@@ -92,7 +92,7 @@ const UNIT_10 = {
        sSrc:"What time are you {1}?"},
 
       {type:"mc", q:"What is the origin of 'arrivare'?",
-       opts:["Latin 'ad ripam' (to the riverbank)","Latin 'arrivus' (arrival)","Greek 'arrivis' (to come)","Arabic 'arriv' (to reach)"],
+       opts:["Greek 'arrivis' (supposedly to come)","Latin 'arrivus' (so-called arrival)","Latin 'ad ripam' (to the riverbank)","Arabic 'arriv' (allegedly to reach)"],
        ans:"Latin 'ad ripam' (to the riverbank)",
        hint:"Ships would reach the bank of a river. The word literally described reaching the shore after a voyage."},
 
@@ -103,9 +103,9 @@ const UNIT_10 = {
        sSrc:"Do you have a {1}? Under the name Bianchi."},
 
       {type:"mc", q:"What is the difference between 'albergo' and 'hotel'?",
-       opts:["Albergo is the Italian word, hotel is a French loan","Albergo is cheaper","Hotel is bigger","They are different things"],
+       opts:["They refer to entirely different buildings","Albergo is always the cheaper option","Hotel is always the bigger establishment","Albergo is the Italian word, hotel is a French loan"],
        ans:"Albergo is the Italian word, hotel is a French loan",
-       hint:"Both mean the same thing. One is the native Italian word (Germanic origin), the other borrowed from French."}
+       hint:"Both mean the same thing. One has Germanic roots and sounds traditional, the other arrived via a neighboring language's borrowing."}
     ]},
 
     {id:"itv2_u10l2", title:"In albergo", icon:"\uD83C\uDFE8", xp:15, board:true, steps:[
@@ -163,9 +163,9 @@ const UNIT_10 = {
 
       // Quiz steps
       {type:"mc", q:"What is the difference between 'doppia' and 'matrimoniale'?",
-       opts:["Doppia has two beds, matrimoniale has one large bed","Doppia is bigger","Matrimoniale is for families","They are the same"],
+       opts:["Doppia has two beds, matrimoniale has one large bed","Doppia is a bigger room overall","Matrimoniale is specifically for families","They are completely interchangeable terms"],
        ans:"Doppia has two beds, matrimoniale has one large bed",
-       hint:"One has two separate single beds. The other has one large bed for a couple. Specify when booking."},
+       hint:"One room type suits two people sleeping separately. The other suits a couple sharing. Always specify when booking."},
 
       {type:"fb", s:"La {1} e inclusa?",
        a:["colazione"],
@@ -182,9 +182,9 @@ const UNIT_10 = {
       ]},
 
       {type:"mc", q:"What is 'piano terra' in an Italian building?",
-       opts:["The ground floor","The first floor","The basement","The rooftop"],
+       opts:["The first floor (as in UK)","The ground floor","The basement below street level","The rooftop terrace"],
        ans:"The ground floor",
-       hint:"Literally 'earth floor.' Italian 'primo piano' is one level above this, different from American numbering."},
+       hint:"Literally 'earth level.' Italian 'primo piano' is one level above it, which confuses visitors from the US where the same word means the starting level."},
 
       {type:"fb", s:"Vorrei una camera {1}.",
        a:["singola"],
@@ -193,7 +193,7 @@ const UNIT_10 = {
        sSrc:"I would like a {1} room."},
 
       {type:"mc", q:"What does 'disponibile' mean?",
-       opts:["Available","Comfortable","Expensive","Reserved"],
+       opts:["Expensive","Comfortable","Available","Reserved"],
        ans:"Available",
        hint:"From Latin 'disponere' (to arrange). You ask if a room is free for your dates."},
 
@@ -204,9 +204,9 @@ const UNIT_10 = {
        sSrc:"Here is the room {1}."},
 
       {type:"mc", q:"What is typical Italian hotel breakfast?",
-       opts:["Espresso, cornetto, juice, fruit","Eggs, bacon, toast","Pancakes and syrup","Cereal and milk"],
+       opts:["Cereal and cold milk (British)","Eggs, bacon, toast (full English)","Pancakes and maple syrup (American)","Espresso, cornetto, juice, fruit"],
        ans:"Espresso, cornetto, juice, fruit",
-       hint:"Italian breakfasts are 'continental' style: coffee, a pastry, and some fruit. Not a full cooked meal."}
+       hint:"Italian mornings are light and quick: a strong coffee at the bar, a sweet pastry. Nothing cooked, nothing heavy."}
     ]},
 
     {id:"itv2_u10l3", title:"Alla stazione e in aeroporto", icon:"\uD83D\ude86", xp:15, board:true, steps:[
@@ -264,7 +264,7 @@ const UNIT_10 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'il binario' mean at a train station?",
-       opts:["The platform / track","The ticket office","The waiting room","The exit"],
+       opts:["The platform / track","The ticket office (biglietteria)","The waiting room (sala d'attesa)","The exit (uscita)"],
        ans:"The platform / track",
        hint:"From Latin 'binarius' (in pairs). Trains run on paired rails. Check the board for the correct number."},
 
@@ -283,9 +283,9 @@ const UNIT_10 = {
       ]},
 
       {type:"mc", q:"What color are departure boards in Italian train stations?",
-       opts:["Yellow","White","Blue","Green"],
+       opts:["White (like arrivals)","Yellow","Blue (like the trains)","Green (pharmacy color)"],
        ans:"Yellow",
-       hint:"Departures use this warm color, while arrivals use white. This system helps you find info quickly."},
+       hint:"Departures use this warm color, while arrivals use white. This contrast helps you find info quickly."},
 
       {type:"fb", s:"A che ora e il {1}?",
        a:["volo"],
@@ -294,9 +294,9 @@ const UNIT_10 = {
        sSrc:"What time is the {1}?"},
 
       {type:"mc", q:"What does 'la coincidenza' mean in a train context?",
-       opts:["A connecting train","A coincidence","A ticket","A delay"],
+       opts:["A ticket you need to validate","A happy coincidence on the journey","A connecting train","An unexpected delay at the station"],
        ans:"A connecting train",
-       hint:"You arrive on one train and need to catch another. This word describes where two services meet."},
+       hint:"You arrive on one service and need to board another. This word describes where two services meet."},
 
       {type:"fb", s:"Dov'e il tabellone delle {1}?",
        a:["partenze"],
@@ -305,7 +305,7 @@ const UNIT_10 = {
        sSrc:"Where is the {1} board?"},
 
       {type:"mc", q:"Why does Italy use the 24-hour clock at airports and stations?",
-       opts:["To avoid AM/PM confusion in official schedules","It is a law","Only airports use it","They do not use it"],
+       opts:["Italy does not actually use it","It is a specific national law","Only some airports use it","To avoid AM/PM confusion in official schedules"],
        ans:"To avoid AM/PM confusion in official schedules",
        hint:"14:30 is clear and unambiguous. In everyday speech, Italians use both 12-hour and 24-hour time."}
     ]},

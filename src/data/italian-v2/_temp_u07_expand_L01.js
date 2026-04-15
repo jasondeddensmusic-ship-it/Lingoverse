@@ -70,7 +70,7 @@ const LESSON_4 = {id:"itv2_u7l4", title:"Il vino italiano", icon:"\uD83C\uDF77",
   {type:"mc", q:"What does 'secco' mean when describing wine?",
    opts:["Dry","Sweet","Sparkling","Red"],
    ans:"Dry",
-   hint:"From Latin 'siccus' (dry). This describes wine with low residual sugar. Opposite of 'dolce.'"},
+   hint:"From Latin 'siccus' (d...). This describes wine with low residual sugar. Opposite of 'dolce.'"},
 
   {type:"fb", s:"Un bicchiere di vino {1}, per favore.",
    a:["rosso"],

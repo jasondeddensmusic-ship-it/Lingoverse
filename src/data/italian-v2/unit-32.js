@@ -1,4 +1,5 @@
 // Italian V2 Unit 32 — La globalizzazione (B2.3)
+import EXP_L4 from './_temp_u32_expand_L01.js';import EXP_L5 from './_temp_u32_expand_L02.js';import EXP_L6 from './_temp_u32_expand_L03.js';
 // CILS B2 aligned. Globalization, migration, identity, and international cooperation vocabulary.
 
 const UNIT_32 = {
@@ -69,7 +70,7 @@ const UNIT_32 = {
 
       {type:"mc",
        q:"Che cos'e il protezionismo economico?",
-       opts:["La politica di proteggere le industrie nazionali dalla concorrenza estera","Un accordo di cooperazione internazionale","La globalizzazione dei mercati finanziari","Un tipo di sviluppo sostenibile"],
+       opts:["Un accordo di cooperazione internazionale","La politica di proteggere le industrie nazionali dalla concorrenza estera","La globalizzazione dei mercati finanziari","Un tipo di sviluppo sostenibile"],
        ans:"La politica di proteggere le industrie nazionali dalla concorrenza estera",
        hint:"An economic policy that shields domestic producers from foreign competition through tariffs, quotas, or other barriers. The opposite of free trade."},
 
@@ -90,7 +91,7 @@ const UNIT_32 = {
 
       {type:"mc",
        q:"Perche molte aziende italiane hanno riportato la produzione in Italia dopo la pandemia?",
-       opts:["Perche le catene di fornitura globali si sono rivelate fragili","Perche la produzione in Italia e meno costosa","Perche la globalizzazione e finita","Perche lo richiede la legge europea"],
+       opts:["Perche la globalizzazione e finita","Perche la produzione in Italia e meno costosa","Perche le catene di fornitura globali si sono rivelate fragili","Perche lo richiede la legge europea"],
        ans:"Perche le catene di fornitura globali si sono rivelate fragili",
        hint:"The pandemic showed that relying on distant manufacturers creates risk. Disruptions in one part of the world can halt production everywhere."}
     ]},
@@ -158,7 +159,7 @@ const UNIT_32 = {
 
       {type:"mc",
        q:"Che cos'e il 'campanilismo' nella cultura italiana?",
-       opts:["La forte identificazione con la propria citta o paese","Il suono delle campane la domenica","Una forma di protesta politica","Un tipo di migrazione interna"],
+       opts:["Il suono delle campane la domenica","La forte identificazione con la propria citta o paese","Una forma di protesta politica","Un tipo di migrazione interna"],
        ans:"La forte identificazione con la propria citta o paese",
        hint:"Named after the 'campanile' (bell tower) that each Italian town has. It represents fierce local pride and loyalty to one's hometown."},
 
@@ -179,9 +180,9 @@ const UNIT_32 = {
 
       {type:"mc",
        q:"Perche Lampedusa e diventata un simbolo del dibattito sull'immigrazione?",
-       opts:["Perche e l'isola italiana piu vicina all'Africa, punto di arrivo di molti migranti","Perche e la citta piu grande della Sicilia","Perche ospita il parlamento europeo","Perche e la frontiera con la Francia"],
+       opts:["Perche ospita il parlamento europeo","Perche e la citta piu grande della Sicilia","Perche e l'isola italiana piu vicina all'Africa, punto di arrivo di molti migranti","Perche e la frontiera con la Francia"],
        ans:"Perche e l'isola italiana piu vicina all'Africa, punto di arrivo di molti migranti",
-       hint:"This small island is geographically closer to the African coast than to the Italian mainland, making it a natural landing point for Mediterranean crossings."}
+       hint:"This tiny island is much closer to Tunisia than to the Italian mainland, making it a natural landing point for boats crossing the Mediterranean."}
     ]},
 
     // ─── Lesson 3: Il futuro globale ───
@@ -253,7 +254,7 @@ const UNIT_32 = {
 
       {type:"mc",
        q:"Quanti siti patrimonio dell'umanita UNESCO ha l'Italia?",
-       opts:["Cinquantotto, il numero piu alto al mondo","Venti, il terzo al mondo","Cento, ma molti sono condivisi","Dieci, tutti nel centro storico di Roma"],
+       opts:["Venti, il terzo al mondo","Cinquantotto, il numero piu alto al mondo","Cento, ma molti sono condivisi","Dieci, tutti nel centro storico di Roma"],
        ans:"Cinquantotto, il numero piu alto al mondo",
        hint:"Italy holds the world record for this UNESCO designation. The sites range from ancient ruins to natural landscapes across the entire peninsula."},
 
@@ -274,7 +275,7 @@ const UNIT_32 = {
 
       {type:"mc",
        q:"Che cos'e il 'sovranismo' nel contesto politico italiano?",
-       opts:["Un movimento che vuole piu controllo nazionale su politiche europee e immigrazione","Un partito politico fondato nel 2020","Una teoria economica sulla globalizzazione","Un programma di scambio culturale"],
+       opts:["Una teoria economica sulla globalizzazione","Un partito politico fondato nel 2020","Un movimento che vuole piu controllo nazionale su politiche europee e immigrazione","Un programma di scambio culturale"],
        ans:"Un movimento che vuole piu controllo nazionale su politiche europee e immigrazione",
        hint:"A political movement advocating for more national control over decisions currently shared with the EU or international bodies. Related to 'sovranita' (sovereignty)."}
     ]}

@@ -44,7 +44,7 @@ const UNIT_06 = {
    exampleSrc:"A: My father is a doctor.\nB: Really? That is amazing!",
    funFact:"父 shows a hand holding a tool or weapon, representing a working man/protector. Chichi sounds formal and may feel stiff to beginners, but it is the correct way to refer to your father when speaking to teachers, coworkers, or strangers."},
 
-  {type:"mc", q:"When talking about YOUR mother to an outsider, you say:", opts:["おかあさん","はは","おねえさん","あね"], ans:"はは",
+  {type:"mc", q:"When talking about YOUR mother to an outsider, you say:", opts:["はは","おかあさん","おねえさん","あね"], ans:"はは",
    hint:"The humble form for your own mother when speaking to people outside your family."},
 
   {type:"tip", title:"Humble vs Honorific Family Words",
@@ -96,7 +96,7 @@ const UNIT_06 = {
   {type:"match", pairs:[{trg:"おかあさん",src:"(your) mother"},{trg:"おとうさん",src:"(your) father"},{trg:"いもうと",src:"younger sister"},{trg:"おとうと",src:"younger brother"}]},
 
   {type:"mc", q:"いもうと means:", opts:["older sister","younger sister","older brother","younger brother"], ans:"younger sister",
-   hint:"The younger female sibling whose kanji contains 'not yet grown.'"},
+   hint:"The y... female sibling whose kanji contains 'not yet grown.'"},
 
   {type:"mc", q:"How would you refer to someone else's older sister?", opts:["あね","はは","おねえさん","いもうと"], ans:"おねえさん",
    hint:"The honorific form with the o- prefix and -san suffix."},
@@ -126,7 +126,7 @@ const UNIT_06 = {
    exampleSrc:"A: Is your family three people?\nB: Yes, my father, mother, and me.",
    funFact:"From 3 onward, the pattern is simple: san-nin (3), yo-nin (4, uses yo not shi), go-nin (5), roku-nin (6), etc. The only tricky one is 4: yo-nin, because shi (the Chinese reading of 4) sounds like 死 (death) and is avoided."},
 
-  {type:"mc", q:"How do you say 'one person'?", opts:["いちにん","ひとり","いちり","ひとにん"], ans:"ひとり",
+  {type:"mc", q:"How do you say 'one person'?", opts:["ひとり","いちにん","いちり","ひとにん"], ans:"ひとり",
    hint:"This uses the native Japanese counting system, not the Chinese-origin numbers."},
 
   {type:"teach", trg:"なんにん", src:"how many people?", pos:"pron", gender:null,
@@ -184,13 +184,13 @@ const UNIT_06 = {
 
   {type:"match", pairs:[{trg:"かぞく",src:"family"},{trg:"きょうだい",src:"siblings"},{trg:"おじいさん",src:"grandfather"},{trg:"おばあさん",src:"grandmother"}]},
 
-  {type:"mc", q:"います is used for:", opts:["books and buildings","people and animals","weather and time","food and drink"], ans:"people and animals",
+  {type:"mc", q:"います is used for:", opts:["books and buildings","weather and time","people and animals","food and drink"], ans:"people and animals",
    hint:"This verb describes existence specifically for living, moving beings."},
 
   {type:"fb", s:"かぞくは___です。\n(My family is five people.)", a:"ごにん", opts:["ごにん","いつつ","ごこ","ごまい"], sSrc:"My family is five people.",
    hint:"The people counter for five: number + nin."},
 
-  {type:"mc", q:"おばあさん means:", opts:["aunt","grandmother","younger sister","mother"], ans:"grandmother",
+  {type:"mc", q:"おばあさん means:", opts:["aunt","mother","younger sister","grandmother"], ans:"grandmother",
    hint:"The word with long aa vowel, using the honorific o- prefix."},
 ]},
 

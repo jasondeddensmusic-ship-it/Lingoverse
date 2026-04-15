@@ -39,7 +39,7 @@ const UNIT_14 = {
    exampleSrc:"A: In Japanese, we say 'arigatou.'\nB: Ah, I know that.",
    funFact:"いう is one of the most frequently used verbs in Japanese. It appears in set phrases like そういう (that kind of), ああいう (that sort of), and the humble form もうす. The kanji 言 shows sound waves coming from a mouth."},
 
-  {type:"mc", q:"にほんごはむずかしいとおもいます means:", opts:["Japanese is definitely difficult","I am studying Japanese","I think Japanese is difficult","Japanese is easy"], ans:"I think Japanese is difficult",
+  {type:"mc", q:"にほんごはむずかしいとおもいます means:", opts:["I think Japanese is difficult","I am studying Japanese","Japanese is definitely difficult","Japanese is easy"], ans:"I think Japanese is difficult",
    hint:"The とおもいます pattern expresses a personal opinion or belief."},
 
   {type:"teach", trg:"むずかしい", src:"difficult", pos:"adj", gender:null,
@@ -69,8 +69,8 @@ const UNIT_14 = {
    exampleSrc:"A: Is this your bag?\nB: No, that is not mine. (Lit: it is different.)",
    funFact:"ちがう is the gentle Japanese way to say 'no, you are wrong.' Rather than directly saying 'wrong,' Japanese says 'it differs.' ちがいます is softer than いいえ and is used constantly in daily conversation. It can also genuinely mean 'to be different.'"},
 
-  {type:"mc", q:"せんせいはあしたテストがあるといいました means:", opts:["The teacher thought about a test","The teacher took a test","The teacher said there is a test tomorrow","The teacher likes tests"], ans:"The teacher said there is a test tomorrow",
-   hint:"The といいました pattern reports what someone said."},
+  {type:"mc", q:"せんせいはあしたテストがあるといいました means:", opts:["The teacher thought about a test","The teacher said there is a test tomorrow","The teacher took a test","The teacher likes tests"], ans:"The teacher said there is a test tomorrow",
+   hint:"The といいました pattern reports what someone s...."},
 
   {type:"match", pairs:[{trg:"とおもう",src:"I think"},{trg:"という",src:"is called / said"},{trg:"むずかしい",src:"difficult"},{trg:"かんたん",src:"easy"}]},
 
@@ -80,7 +80,7 @@ const UNIT_14 = {
   {type:"match", pairs:[{trg:"ただしい",src:"correct"},{trg:"ちがう",src:"different / wrong"},{trg:"おもう",src:"to think"},{trg:"いう",src:"to say"}]},
 
   {type:"mc", q:"ちがいます is a gentle way to say:", opts:["yes","thank you","no / that is wrong","I do not know"], ans:"no / that is wrong",
-   hint:"Literally meaning 'it differs,' this is used instead of directly saying 'wrong.'"},
+   hint:"Literally meaning 'it differs,' this is used instead of directly saying 'w....'"},
 ]},
 
 // ═══ L2: たぶん (Probably) ═══
@@ -107,7 +107,7 @@ const UNIT_14 = {
    exampleSrc:"A: I think it will probably rain.\nB: Then let us bring umbrellas.",
    funFact:"多分 literally means 'much part,' suggesting 'for the most part.' It sits in the middle of the certainty scale: きっと (surely, 90%) > たぶん (probably, 70%) > もしかしたら (perhaps, 40%). Using the right level of certainty is important in Japanese communication."},
 
-  {type:"mc", q:"あしたはあめでしょう means:", opts:["It rained yesterday","It is raining now","It will probably rain tomorrow","I want rain tomorrow"], ans:"It will probably rain tomorrow",
+  {type:"mc", q:"あしたはあめでしょう means:", opts:["It will probably rain tomorrow","It is raining now","It rained yesterday","I want rain tomorrow"], ans:"It will probably rain tomorrow",
    hint:"でしょう expresses probability, like an educated guess about the future."},
 
   {type:"teach", trg:"だろう", src:"probably (casual)", pos:"part", gender:null,

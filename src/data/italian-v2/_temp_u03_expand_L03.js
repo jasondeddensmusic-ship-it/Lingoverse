@@ -95,7 +95,7 @@ const LESSON_6 = {
     {type:"mc", q:"What is the literal meaning of 'coraggioso'?",
      opts:["From the heart","From the head","From strength","From the mind"],
      ans:"From the heart",
-     hint:"The root 'coraggio' comes from Latin 'cor' (heart). Bravery is literally a quality of the heart."},
+     hint:"The root 'coraggio' comes from Latin 'cor' (h...). Bravery is literally a quality of the h...."},
 
     {type:"fb", s:"Il professore e molto {1} con tutti.",
      a:["gentile"],
@@ -136,7 +136,7 @@ const LESSON_6 = {
     {type:"mc", q:"What does 'testardo' literally mean?",
      opts:["Hard-headed (from testa = head)","Strong-armed","Big-hearted","Quick-footed"],
      ans:"Hard-headed (from testa = head)",
-     hint:"This adjective for stubborn comes from the Italian word for head. Literally a person with a hard head."}
+     hint:"This adjective for stubborn derives from a noun meaning a part above the neck. The same word originally meant clay pot in Latin."}
   ]
 };
 export default LESSON_6;

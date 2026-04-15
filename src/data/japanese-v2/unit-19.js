@@ -1,4 +1,5 @@
 // Japanese V2 Unit 19 — じょうけん (Conditionals)
+import EXP_L3 from './_temp_u19_expand_L01.js';import EXP_L4 from './_temp_u19_expand_L02.js';import EXP_L5 from './_temp_u19_expand_L03.js';
 // Level: B1.1 — JLPT N3 aligned.
 // たら, ば, と, なら — four conditional forms.
 
@@ -38,7 +39,7 @@ const UNIT_19 = {
    exampleSrc:"A: When you turn right at the next corner, there is a station.\nB: Thank you.",
    funFact:"曲がる is the standard verb for giving directions. Combined with と (automatic result conditional), it forms the classic direction pattern: まがると...があります (when you turn, there is...). The kanji 曲 also means 'song/tune' (曲 kyoku), from the idea of bending/curving musical notes."},
 
-  {type:"mc", q:"このボタンをおすとドアがあきます means:", opts:["Push this button or the door opens","If you want, push the button","When you push this button, the door opens","Push the button and close the door"], ans:"When you push this button, the door opens",
+  {type:"mc", q:"このボタンをおすとドアがあきます means:", opts:["When you push this button, the door opens","If you want, push the button","Push this button or the door opens","Push the button and close the door"], ans:"When you push this button, the door opens",
    hint:"と expresses an automatic result: one action naturally triggers the next."},
 
   {type:"teach", trg:"さむい", src:"cold (weather/air)", pos:"adj", gender:null,
@@ -83,7 +84,7 @@ const UNIT_19 = {
 
   {type:"match", pairs:[{trg:"たら",src:"if/when (flexible)"},{trg:"と",src:"when (automatic result)"},{trg:"さむい",src:"cold (weather)"},{trg:"はるになる",src:"spring comes"}]},
 
-  {type:"mc", q:"しごとがおわったらのみにいきましょう means:", opts:["Work ended so I drank","When work finishes, let us go for drinks","If we drink, work will end","Work ends automatically"], ans:"When work finishes, let us go for drinks",
+  {type:"mc", q:"しごとがおわったらのみにいきましょう means:", opts:["Work ended so I drank","If we drink, work will end","When work finishes, let us go for drinks","Work ends automatically"], ans:"When work finishes, let us go for drinks",
    hint:"たら + しましょう is the pattern for suggesting an activity after a condition is met."},
 ]},
 
@@ -117,7 +118,7 @@ const UNIT_19 = {
    exampleSrc:"A: Do you have any recommendations?\nB: I recommend this ramen.",
    funFact:"おすすめ is one of the most useful words in Japan. Every restaurant has osusume (recommended dishes). Shop staff use it constantly. The pattern なら + おすすめ (if you are talking about X, I recommend Y) is a natural combination that Japanese people use daily."},
 
-  {type:"mc", q:"べんきょうすればごうかくできる means:", opts:["I studied and passed","If you study, you can pass","Studying is passing","You passed because you studied"], ans:"If you study, you can pass",
+  {type:"mc", q:"べんきょうすればごうかくできる means:", opts:["If you study, you can pass","I studied and passed","Studying is passing","You passed because you studied"], ans:"If you study, you can pass",
    hint:"ば presents a logical if-then condition: if the first part is true, the second follows."},
 
   {type:"teach", trg:"やすければ", src:"if it is cheap", pos:"adj", gender:null,
@@ -162,9 +163,10 @@ const UNIT_19 = {
 
   {type:"match", pairs:[{trg:"やすければ",src:"if it is cheap"},{trg:"ちかければ",src:"if it is close"},{trg:"さがす",src:"to search"},{trg:"れんらくする",src:"to contact"}]},
 
-  {type:"mc", q:"Which conditional CANNOT be followed by a request?", opts:["たら","と","ば","なら"], ans:"と",
+  {type:"mc", q:"Which conditional CANNOT be followed by a request?", opts:["たら","ば","と","なら"], ans:"と",
    hint:"This conditional only works with automatic, natural results, never with commands or requests."},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_19;

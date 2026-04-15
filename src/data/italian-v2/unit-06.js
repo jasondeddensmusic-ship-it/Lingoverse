@@ -81,7 +81,7 @@ const UNIT_06 = {
       ]},
 
       {type:"mc", q:"Which of these is masculine?",
-       opts:["Il parco","La farmacia","La stazione","La chiesa"],
+       opts:["La farmacia","Il parco","La stazione","La chiesa"],
        ans:"Il parco",
        hint:"Check the articles. Three use 'la' (feminine). One uses 'il' (masculine), ending in -o."},
 
@@ -92,7 +92,7 @@ const UNIT_06 = {
        sSrc:"I need to go to the {1}."},
 
       {type:"mc", q:"What does 'la farmacia' mean?",
-       opts:["The pharmacy","The farm","The factory","The restaurant"],
+       opts:["The factory","The farm","The pharmacy","The restaurant"],
        ans:"The pharmacy",
        hint:"From Greek 'pharmakon' (remedy). Look for the green cross sign in Italian streets."},
 
@@ -102,10 +102,10 @@ const UNIT_06 = {
        hint:"You want to eat dinner out. This is a formal place where meals are served.",
        sSrc:"Shall we go to the {1} tonight?"},
 
-      {type:"mc", q:"Is 'ospedale' masculine or feminine?",
-       opts:["Masculine","Feminine","Neutral","It changes"],
-       ans:"Masculine",
-       hint:"Despite ending in -e (which could be either gender), this word uses the masculine article. You must memorize its gender."}
+      {type:"mc", q:"What grammatical gender does 'ospedale' belong to?",
+       opts:["It changes by context","Feminine (like farmacia)","It has no gender","Masculine (like parco)"],
+       ans:"Masculine (like parco)",
+       hint:"Despite ending in -e (which could be either gender), this noun uses 'il' or 'l''. You must memorize gender for -e words."}
     ]},
 
     {id:"itv2_u6l2", title:"Le direzioni", icon:"\ud83e\udded", xp:15, board:true, steps:[
@@ -176,7 +176,7 @@ const UNIT_06 = {
       ]},
 
       {type:"mc", q:"What does 'vicino' mean?",
-       opts:["Near","Far","Straight","Right"],
+       opts:["Far","Near","Straight","Right"],
        ans:"Near",
        hint:"From Latin 'vicinus' (neighbor). English 'vicinity' shares this root, meaning the surrounding area."},
 
@@ -187,7 +187,7 @@ const UNIT_06 = {
        sSrc:"The pharmacy is {1}, past the square."},
 
       {type:"mc", q:"What is 'la piazza'?",
-       opts:["The square / plaza","The pizza","The piece","The street"],
+       opts:["The piece","The pizza","The square / plaza","The street"],
        ans:"The square / plaza",
        hint:"This is the social heart of every Italian town. People gather there. Not to be confused with a food word."},
 
@@ -198,9 +198,9 @@ const UNIT_06 = {
        sSrc:"The hospital is {1}. Take the bus."},
 
       {type:"mc", q:"What does 'la strada' mean?",
-       opts:["The street / road","The station","The square","The store"],
+       opts:["The store","The station","The square","The street / road"],
        ans:"The street / road",
-       hint:"From Latin 'strata' (paved road). English 'street' shares the same ancient root."}
+       hint:"From Latin 'strata' (paved r...). English 's...' shares the same ancient root."}
     ]},
 
     {id:"itv2_u6l3", title:"I mezzi di trasporto", icon:"\ud83d\ude8c", xp:15, board:true, steps:[
@@ -277,7 +277,7 @@ const UNIT_06 = {
       ]},
 
       {type:"mc", q:"What is the everyday Italian word for 'car'?",
-       opts:["La macchina","L'automobile","La vettura","Il veicolo"],
+       opts:["L'automobile","La macchina","La vettura","Il veicolo"],
        ans:"La macchina",
        hint:"This word literally means 'machine' but Italians use it universally for the four-wheeled vehicle."},
 
@@ -288,7 +288,7 @@ const UNIT_06 = {
        sSrc:"Shall we take a {1}? It's late."},
 
       {type:"mc", q:"Which of these is feminine?",
-       opts:["La bicicletta","Il treno","Il taxi","L'autobus"],
+       opts:["Il taxi","Il treno","La bicicletta","L'autobus"],
        ans:"La bicicletta",
        hint:"Check the articles. This two-wheeled vehicle uses the feminine article 'la.'"},
 
@@ -299,9 +299,9 @@ const UNIT_06 = {
        sSrc:"Where are you {1}?"},
 
       {type:"mc", q:"Why does 'autobus' not change in the plural?",
-       opts:["It is a foreign loan word","It is feminine","It ends in -s","It is irregular"],
+       opts:["It is irregular","It is feminine","It ends in -s","It is a foreign loan word"],
        ans:"It is a foreign loan word",
-       hint:"Words borrowed from other languages keep their original form in both singular and plural."}
+       hint:"Italian plural rules apply only to native vocabulary. Imports from French or English stay fixed in form."}
     ]},
     EXP_06_L1, EXP_06_L2, EXP_06_L3,
   ]

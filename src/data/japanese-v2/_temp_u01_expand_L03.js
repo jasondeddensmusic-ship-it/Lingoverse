@@ -82,7 +82,7 @@ const LESSON_5 = {
      funFact:"旅 (travel) + 行 (go). Japanese people are passionate travelers. Golden Week (early May) and Obon (mid-August) see massive domestic travel. The shinkansen (bullet train) was built largely to handle this travel demand."},
 
     {type:"mc", q:"めいし means:", opts:["greeting","hobby","business card","introduction"], ans:"business card",
-     hint:"A small card exchanged formally in Japanese business settings."},
+     hint:"A small c... exchanged formally in Japanese b... settings."},
 
     {type:"teach", trg:"おしごとはなんですか", src:"what is your job?", pos:"intj", gender:null,
      note:"Polite way to ask someone's occupation. The お makes shigoto more respectful.",

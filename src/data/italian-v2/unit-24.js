@@ -1,4 +1,5 @@
 // Italian V2 Unit 24 — Il periodo ipotetico (If-Clauses) (B1.4)
+import EXP_L4 from './_temp_u24_expand_L01.js';import EXP_L5 from './_temp_u24_expand_L02.js';import EXP_L6 from './_temp_u24_expand_L03.js';
 // CILS/CELI B1 aligned. Real and hypothetical conditions, common expressions.
 
 const UNIT_24 = {
@@ -54,7 +55,7 @@ const UNIT_24 = {
 
       // Quiz steps
       {type:"mc", q:"Which tenses are used in Type 1 if-clauses?",
-       opts:["Present + present or present + future","Subjunctive + conditional","Imperfect + conditional","Passato prossimo + future"],
+       opts:["Present + present or present + future","Subjunctive + conditional (for unreal events)","Imperfect subjunctive + conditional (hypothetical)","Passato prossimo + future (for completed actions)"],
        ans:"Present + present or present + future",
        hint:"Type 1 deals with real, possible conditions. Both verbs stay in the indicative mood. No subjunctive needed."},
 
@@ -73,9 +74,9 @@ const UNIT_24 = {
       ]},
 
       {type:"mc", q:"What is unusual about 'a meno che non'?",
-       opts:["The 'non' does not negate; it is an expletive remnant of Latin","The 'non' makes it negative","It uses the indicative","It means 'because'"],
+       opts:["The 'non' makes it a negative statement","The 'non' does not negate; it is an expletive remnant of Latin","It uses the indicative instead of subjunctive","It means 'because' in this context"],
        ans:"The 'non' does not negate; it is an expletive remnant of Latin",
-       hint:"'A meno che non piova' means 'unless it rains,' NOT 'unless it does not rain.' The 'non' is grammatically required but meaningless."},
+       hint:"'A meno che n... piova' means 'unless it rains,' NOT 'unless it does not rain.' The 'n...' is grammatically required but meaningless."},
 
       {type:"fb", s:"Se avro tempo, {1} alla festa.",
        a:["verro"],
@@ -84,20 +85,20 @@ const UNIT_24 = {
        sSrc:"If I have time, I {1} to the party."},
 
       {type:"mc", q:"Can Italian use the future tense after 'se'?",
-       opts:["Yes, unlike English, Italian allows 'se + future'","No, it must always be the present","Only with irregular verbs","Only in formal writing"],
+       opts:["Only with irregular and modal verbs in literary Italian","No, it must always use the present indicative tense","Yes, unlike English, Italian allows 'se + future'","Only in highly formal or archaic writing"],
        ans:"Yes, unlike English, Italian allows 'se + future'",
-       hint:"'Se piover' is correct Italian. 'If it will rain' is incorrect English. This is a key difference between the two languages."},
+       hint:"'Se piover' is correct I.... 'If it will rain' is incorrect E.... This is a key difference between the two languages."},
 
       {type:"fb", s:"Porta l'ombrello, {1} in cui piova.",
        a:["nel caso"],
        opts:["nel caso","a meno","se","perche"],
-       hint:"Just in case it rains. This formal conjunction is followed by the subjunctive. Everyday alternatives: 'caso mai' or 'se per caso.'",
+       hint:"This formal 'in the event that' conjunction always triggers the subjunctive. Bring the umbrella as a precaution.",
        sSrc:"Bring the umbrella, {1} it rains."},
 
       {type:"mc", q:"What is the difference between Pattern A and Pattern B?",
-       opts:["A (present+present) is general truth; B (present+future) is specific plan","There is no difference","A is formal, B is informal","A is written, B is spoken"],
+       opts:["A is only used in written Italian; B is spoken","There is actually no meaningful difference","A is considered formal; B is considered informal","A (present+present) is general truth; B (present+future) is specific plan"],
        ans:"A (present+present) is general truth; B (present+future) is specific plan",
-       hint:"'Se piove, resto a casa' is a general habit. 'Se piove, restero a casa' refers to a specific future situation."}
+       hint:"'Se piove, resto a casa' is a g... habit. 'Se piove, restero a casa' refers to a s... f... situation."}
     ]},
 
     {id:"itv2_u24l2", title:"Se fossi in te", icon:"🤔", xp:15, board:true, steps:[
@@ -161,9 +162,9 @@ const UNIT_24 = {
 
       // Quiz steps
       {type:"mc", q:"What tenses are used in Type 2 if-clauses?",
-       opts:["Imperfect subjunctive + conditional","Present + present","Future + future","Passato prossimo + conditional"],
+       opts:["Imperfect subjunctive + conditional","Present indicative + present indicative","Future tense + future tense","Passato prossimo + conditional mood"],
        ans:"Imperfect subjunctive + conditional",
-       hint:"Type 2 deals with hypothetical or unreal conditions. The 'se' clause uses the imperfect subjunctive. The main clause uses the conditional."},
+       hint:"Type 2 deals with hypothetical or unreal conditions. The 'se' clause uses the i... s.... The main clause uses the c...."},
 
       {type:"fb", s:"Se {1} ricco, viaggerei per il mondo.",
        a:["fossi"],
@@ -180,9 +181,9 @@ const UNIT_24 = {
       ]},
 
       {type:"mc", q:"Why is 'se fossi in te' always Type 2?",
-       opts:["You cannot actually be someone else, so it is inherently hypothetical","It is a fixed grammar rule with no reason","Type 1 does not use 'se'","Only 'fossi' can follow 'se'"],
+       opts:["It is an arbitrary fixed grammar rule with no logical reason","You cannot actually be someone else, so it is inherently hypothetical","Type 1 if-clauses never use the word 'se'","Only the word 'fossi' is ever allowed to follow 'se'"],
        ans:"You cannot actually be someone else, so it is inherently hypothetical",
-       hint:"Being in someone else's position is impossible, making it an unreal condition. This naturally requires the subjunctive + conditional."},
+       hint:"Being in s... e...'s position is impossible, making it an unreal condition. This naturally requires the subjunctive + conditional."},
 
       {type:"fb", s:"Se {1} piu tempo, leggerei di piu.",
        a:["avessi"],
@@ -191,9 +192,9 @@ const UNIT_24 = {
        sSrc:"If I {1} more time, I would read more."},
 
       {type:"mc", q:"What is the difference between Type 1 and Type 2?",
-       opts:["Type 1 is real/possible; Type 2 is hypothetical/unreal","Type 1 is past; Type 2 is future","Type 1 is formal; Type 2 is informal","There is no real difference"],
+       opts:["Type 1 is used in formal contexts; Type 2 is informal","Type 1 expresses the past; Type 2 expresses the future","Type 1 is real/possible; Type 2 is hypothetical/unreal","There is actually no real meaningful difference"],
        ans:"Type 1 is real/possible; Type 2 is hypothetical/unreal",
-       hint:"'Se piove, resto a casa' (real rain, real plan). 'Se fossi ricco, viaggerei' (not actually rich, just imagining)."},
+       hint:"'Se piove, resto a casa' (r... rain, r... plan). 'Se fossi ricco, viaggerei' (not actually rich, just imagining)."},
 
       {type:"fb", s:"Se tutti fossero gentili, il mondo {1} migliore.",
        a:["sarebbe"],
@@ -202,9 +203,9 @@ const UNIT_24 = {
        sSrc:"If everyone were kind, the world {1} better."},
 
       {type:"mc", q:"What is 'se potessi tornare indietro' expressing?",
-       opts:["A hypothetical wish about the past (if I could go back)","A real plan to return","A future event","A command"],
+       opts:["A direct command issued to someone else","A real and concrete plan to physically return to a place","A definite and fixed event scheduled for the future","A hypothetical wish about the past (if I could go back)"],
        ans:"A hypothetical wish about the past (if I could go back)",
-       hint:"You cannot actually turn back time. The imperfect subjunctive 'potessi' signals an impossible or hypothetical condition."}
+       hint:"You cannot actually turn b... time. The imperfect subjunctive 'potessi' signals an impossible or h... condition."}
     ]},
 
     {id:"itv2_u24l3", title:"Espressioni ipotetiche", icon:"💭", xp:15, board:true, steps:[
@@ -261,9 +262,9 @@ const UNIT_24 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'magari' mean when used as an exclamation?",
-       opts:["I wish! / If only!","Maybe","Never","Of course"],
+       opts:["I wish! / If only!","Maybe or perhaps","Never, not at all","Of course, certainly"],
        ans:"I wish! / If only!",
-       hint:"One of Italian's most versatile words, from Greek 'makari' (blessed). As an exclamation, it expresses a strong wish."},
+       hint:"One of Italian's most versatile words, from Greek 'makari' (blessed). As an exclamation, it expresses a strong w...."},
 
       {type:"fb", s:"Si comporta {1} fosse il capo.",
        a:["come se"],
@@ -280,9 +281,9 @@ const UNIT_24 = {
       ]},
 
       {type:"mc", q:"What is the most common mistake with Italian if-clauses?",
-       opts:["Using the conditional after 'se' (se sarei instead of se fossi)","Using the present tense","Forgetting 'se'","Using the future tense"],
+       opts:["Using the wrong present tense form","Using the conditional after 'se' (se sarei instead of se fossi)","Forgetting to write the word 'se'","Using an incorrect future tense form"],
        ans:"Using the conditional after 'se' (se sarei instead of se fossi)",
-       hint:"The 'se' clause takes the indicative or subjunctive, never the conditional. The conditional belongs only in the main clause."},
+       hint:"The 'se' clause takes the indicative or subjunctive, never the c.... The c... belongs only in the main clause."},
 
       {type:"fb", s:"Sbrigati, {1} perdiamo il treno!",
        a:["altrimenti"],
@@ -291,7 +292,7 @@ const UNIT_24 = {
        sSrc:"Hurry up, {1} we will miss the train!"},
 
       {type:"mc", q:"What does 'come se niente fosse' mean?",
-       opts:["As if nothing happened","As if everything changed","Because nothing happened","When nothing happens"],
+       opts:["Because nothing happened","As if everything changed","As if nothing happened","When nothing happens"],
        ans:"As if nothing happened",
        hint:"A very common expression. 'Come se' + imperfect subjunctive. Describes someone acting casually after something dramatic."},
 
@@ -302,9 +303,9 @@ const UNIT_24 = {
        sSrc:"I will help you, {1} that you help me tomorrow."},
 
       {type:"mc", q:"Which if-clause type will be introduced at B2 level?",
-       opts:["Type 3 (impossible/past conditions)","Type 1 (real conditions)","Type 2 (hypothetical)","There are no more types"],
+       opts:["There are no more types","Type 1 (real conditions)","Type 2 (hypothetical)","Type 3 (impossible/past conditions)"],
        ans:"Type 3 (impossible/past conditions)",
-       hint:"Type 3 uses the pluperfect subjunctive + past conditional for situations that cannot be changed (contrary-to-fact past)."}
+       hint:"Uses the pluperfect subjunctive plus a compound conditional for things that cannot be changed: 'Se avessi studiato, avrei passato.'"}
     ]}
   ]
 };

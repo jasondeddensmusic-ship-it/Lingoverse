@@ -1,4 +1,5 @@
 // Italian V2 Unit 13 — Il congiuntivo (The Subjunctive) (B1.1)
+import EXP_L4 from './_temp_u13_expand_L01.js';import EXP_L5 from './_temp_u13_expand_L02.js';import EXP_L6 from './_temp_u13_expand_L03.js';
 // CILS/CELI B1 aligned. Subjunctive triggers, regular and irregular forms.
 
 const UNIT_13 = {
@@ -89,7 +90,7 @@ const UNIT_13 = {
 
       // Quiz steps
       {type:"mc", q:"Which phrase triggers the subjunctive?",
-       opts:["Penso che","So che","Dico che","Vedo che"],
+       opts:["Penso che","So che (I know that)","Dico che (I say that)","Vedo che (I see that)"],
        ans:"Penso che",
        hint:"This verb expresses an opinion, not a certainty. Verbs of knowing use the indicative instead."},
 
@@ -108,7 +109,7 @@ const UNIT_13 = {
       ]},
 
       {type:"mc", q:"What is the subjunctive of 'parlare' for 'che tu'?",
-       opts:["parli","parla","parlare","parlato"],
+       opts:["parla","parli","parlare","parlato"],
        ans:"parli",
        hint:"Regular -are verbs take -i endings in the subjunctive. The io, tu, and lui/lei forms are all identical."},
 
@@ -119,9 +120,9 @@ const UNIT_13 = {
        sSrc:"It is important that you {1} Italian."},
 
       {type:"mc", q:"When do you use the subjunctive instead of the infinitive?",
-       opts:["When there are two different subjects","When the verb is in the past","When the sentence is negative","When the subject is plural"],
-       ans:"When there are two different subjects",
-       hint:"'Voglio venire' (same subject, infinitive) versus 'Voglio che tu venga' (different subjects)."},
+       opts:["When the sentence is in negative form","When the verb describes a past action only","When there are two different subjects involved","When the subject is a plural noun"],
+       ans:"When there are two different subjects involved",
+       hint:"'Voglio venire' (same person acts, infinitive) versus 'Voglio che tu venga' (person A wants person B to act)."},
 
       {type:"fb", s:"Voglio che tu {1} di piu.",
        a:["mangi"],
@@ -130,9 +131,9 @@ const UNIT_13 = {
        sSrc:"I want you to {1} more."},
 
       {type:"mc", q:"Why does 'spero che' require the subjunctive?",
-       opts:["Because hope implies uncertainty","Because it is in the past","Because 'sperare' is irregular","Because it is a command"],
-       ans:"Because hope implies uncertainty",
-       hint:"The subjunctive expresses doubt, opinion, or wishes. When you hope for something, the outcome is not certain."}
+       opts:["Because it is a direct command to someone","Because the action happened in the recent past","Because 'sperare' conjugates in an irregular way","Because hope implies uncertainty about the outcome"],
+       ans:"Because hope implies uncertainty about the outcome",
+       hint:"The subjunctive marks subjectivity. 'Sperare' expresses a wish whose fulfillment is not guaranteed — it sits alongside doubt and opinion verbs."}
     ]},
 
     {id:"itv2_u13l2", title:"Che scriva, che dorma", icon:"✍️", xp:15, board:true, steps:[
@@ -233,9 +234,9 @@ const UNIT_13 = {
       ]},
 
       {type:"mc", q:"Which -ire verb adds -isc- in the subjunctive?",
-       opts:["capire > capisca","dormire > dorma","partire > parta","sentire > senta"],
+       opts:["dormire > dorma","capire > capisca","partire > parta","sentire > senta"],
        ans:"capire > capisca",
-       hint:"The -isc- infix appears in both indicative (capisco) and subjunctive (capisca). Not all -ire verbs use it."},
+       hint:"The -isc- infix appears in both indicative (capisco) and subjunctive (c...). Not all -ire verbs use it."},
 
       {type:"fb", s:"Spero che il treno {1} alle nove.",
        a:["parta"],
@@ -244,7 +245,7 @@ const UNIT_13 = {
        sSrc:"I hope the train {1} at nine."},
 
       {type:"mc", q:"What ending do -ere and -ire subjunctive forms share for io/tu/lui?",
-       opts:["-a","-i","-e","-o"],
+       opts:["-e","-i","-a","-o"],
        ans:"-a",
        hint:"The -are verbs take -i, but -ere and -ire verbs both take this vowel. It is the reverse pattern."},
 
@@ -255,7 +256,7 @@ const UNIT_13 = {
        sSrc:"It is important that you {1} the lesson."},
 
       {type:"mc", q:"What does 'bisogna che' mean?",
-       opts:["It is necessary that","It is beautiful that","It is normal that","It is impossible that"],
+       opts:["It is impossible that","It is beautiful that","It is normal that","It is necessary that"],
        ans:"It is necessary that",
        hint:"This impersonal expression has no subject pronoun. It expresses necessity and always triggers the subjunctive."}
     ]},
@@ -358,7 +359,7 @@ const UNIT_13 = {
       ]},
 
       {type:"mc", q:"What is the subjunctive of 'andare' for 'che tu'?",
-       opts:["vada","anda","andare","vai"],
+       opts:["anda","vada","andare","vai"],
        ans:"vada",
        hint:"This verb has a completely different stem in the subjunctive. The stem comes from Latin 'vadere' (to go)."},
 
@@ -369,9 +370,9 @@ const UNIT_13 = {
        sSrc:"I hope the weather {1} nice tomorrow."},
 
       {type:"mc", q:"What does 'che io sappia' mean as a standalone phrase?",
-       opts:["As far as I know","I know everything","I don't know","I want to know"],
+       opts:["I don't know","I know everything","As far as I know","I want to know"],
        ans:"As far as I know",
-       hint:"This expression uses the subjunctive of 'sapere' to signal that your knowledge is not complete or certain."},
+       hint:"This expression uses the subjunctive of 'sapere' to signal limited certainty. It hedges a statement, not denies it."},
 
       {type:"fb", s:"Penso che {1} la verita.",
        a:["dica"],
@@ -380,7 +381,7 @@ const UNIT_13 = {
        sSrc:"I think he {1} the truth."},
 
       {type:"mc", q:"Which verb has the subjunctive form 'possa'?",
-       opts:["potere","possedere","posare","postare"],
+       opts:["postare","possedere","posare","potere"],
        ans:"potere",
        hint:"This modal verb means 'to be able to.' Its subjunctive stem changes to 'poss-' with a double s."}
     ]}

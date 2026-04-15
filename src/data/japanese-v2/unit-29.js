@@ -1,4 +1,5 @@
 // Japanese V2 Unit 29 — けいざい (Economy)
+import EXP_L3 from './_temp_u29_expand_L01.js';import EXP_L4 from './_temp_u29_expand_L02.js';import EXP_L5 from './_temp_u29_expand_L03.js';
 // Level: B2.2 — JLPT N2 aligned.
 // けいき, インフレ, かぶしき, ゆにゅう, ゆしゅつ, しじょう, とうし.
 
@@ -32,7 +33,7 @@ const UNIT_29 = {
    exampleSrc:"A: Prices are rising due to inflation.\nB: Life is getting tough.",
    funFact:"Japan experienced the opposite problem for decades: デフレ (deflation). From the 1990s to 2020s, prices barely rose. The Bank of Japan tried everything to create some inflation. This long deflationary period, called the 'lost decades' (失われた十年), made Japan unique among developed economies."},
 
-  {type:"mc", q:"けいきがわるい means:", opts:["The weather is bad","The business climate is unfavorable","Business is booming","The stock price fell"], ans:"The business climate is unfavorable",
+  {type:"mc", q:"けいきがわるい means:", opts:["The business climate is unfavorable","The weather is bad","Business is booming","The stock price fell"], ans:"The business climate is unfavorable",
    hint:"けいき refers to the overall atmosphere of commerce, and わるい means bad."},
 
   {type:"teach", trg:"かぶしき", src:"stock / shares", pos:"noun", gender:null,
@@ -56,7 +57,7 @@ const UNIT_29 = {
    exampleSrc:"A: The unemployment rate has fallen to 3%.\nB: That is evidence that the economy is recovering.",
    funFact:"失業 literally means 'losing one's occupation.' Japan's unemployment rate is historically low compared to other developed nations, usually 2-3%. However, this masks issues like 非正規雇用 (hiseiki koyou, non-regular employment), where many workers hold temporary or part-time positions with fewer benefits."},
 
-  {type:"mc", q:"かぶしきがいしゃ means:", opts:["A trading exchange","A financial index","A corporation (the standard Japanese form)","A shareholders' meeting"], ans:"A corporation (the standard Japanese form)",
+  {type:"mc", q:"かぶしきがいしゃ means:", opts:["A trading exchange","A corporation (the standard Japanese form)","A financial index","A shareholders' meeting"], ans:"A corporation (the standard Japanese form)",
    hint:"かぶしき + がいしゃ forms the term for the most common business entity type in Japan."},
 
   {type:"match", pairs:[{trg:"けいざい",src:"economy"},{trg:"けいき",src:"economic conditions"},{trg:"インフレ",src:"inflation"},{trg:"かぶしき",src:"stock/shares"}]},
@@ -91,7 +92,7 @@ const UNIT_29 = {
    exampleSrc:"A: Asian markets are growing rapidly.\nB: Japanese companies are also entering them.",
    funFact:"市場 has two completely different readings. しじょう means an abstract market (stock market, job market, real estate market). いちば means a physical marketplace where you buy fish or vegetables. 築地市場 (Tsukiji ichiba) was the famous fish market. The reading tells you which meaning is intended."},
 
-  {type:"mc", q:"ゆにゅう and ゆしゅつ share the kanji 輸. What does 輸 mean?", opts:["Money","Transport","Buy","Sell"], ans:"Transport",
+  {type:"mc", q:"ゆにゅう and ゆしゅつ share the kanji 輸. What does 輸 mean?", opts:["Transport","Money","Buy","Sell"], ans:"Transport",
    hint:"The shared kanji relates to the physical movement of goods. 入 = enter, 出 = exit."},
 
   {type:"teach", trg:"とうし", src:"investment", pos:"noun", gender:null,
@@ -135,5 +136,6 @@ const UNIT_29 = {
   {type:"match", pairs:[{trg:"せきゆ",src:"petroleum"},{trg:"きぎょう",src:"enterprise"},{trg:"ふどうさん",src:"real estate"},{trg:"ぶっか",src:"prices (general)"}]},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_29;

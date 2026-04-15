@@ -56,9 +56,9 @@ const UNIT_08 = {
 
       // Quiz steps
       {type:"mc", q:"Why is 'pantaloni' always plural in Italian?",
-       opts:["It refers to a garment with two legs","It is a foreign word","It is an exception","It can be singular too"],
+       opts:["It refers to a garment with two legs","It is a foreign word with no plural","It is a pure exception to all rules","It can also be singular in formal speech"],
        ans:"It refers to a garment with two legs",
-       hint:"Like English 'pants' or 'trousers,' this garment covers two legs. The singular form is rarely used."},
+       hint:"English uses the same plural-only convention for trousers and scissors. Think about the structure: two separate sections joined at the top."},
 
       {type:"fb", s:"Ti piace questa {1}?",
        a:["giacca"],
@@ -75,9 +75,9 @@ const UNIT_08 = {
       ]},
 
       {type:"mc", q:"What is the difference between 'camicia' and 'maglietta'?",
-       opts:["Camicia has buttons, maglietta does not","Camicia is bigger","Maglietta is for women","They are the same"],
+       opts:["Camicia is always bigger in size","Camicia has buttons, maglietta does not","Maglietta is exclusively for women","They are interchangeable words"],
        ans:"Camicia has buttons, maglietta does not",
-       hint:"One is formal with buttons (think office), the other is casual without buttons (think weekend)."},
+       hint:"One is formal with a front closure (think office), the other is casual and pulled over the head (think weekend)."},
 
       {type:"fb", s:"Devo comprare una {1} nuova.",
        a:["camicia"],
@@ -86,7 +86,7 @@ const UNIT_08 = {
        sSrc:"I need to buy a new {1}."},
 
       {type:"mc", q:"What is the difference between 'cappello' and 'capello'?",
-       opts:["Cappello = hat, capello = a hair","They mean the same thing","Cappello = hair, capello = hat","Both mean hat"],
+       opts:["Cappello = hair, capello = hat","They mean the exact same thing","Cappello = hat, capello = a hair","Both words mean hat only"],
        ans:"Cappello = hat, capello = a hair",
        hint:"The double 'p' version goes on your head. The single 'p' version grows on your head. Spelling matters."},
 
@@ -97,7 +97,7 @@ const UNIT_08 = {
        sSrc:"It is hot. I will wear the {1}."},
 
       {type:"mc", q:"What does 'le scarpe' mean?",
-       opts:["The shoes","The scarves","The skirts","The shirts"],
+       opts:["The shirts","The scarves","The skirts","The shoes"],
        ans:"The shoes",
        hint:"Italy is famous for handcrafting these. You wear them on your feet. Ferragamo is a famous brand."}
     ]},
@@ -159,7 +159,7 @@ const UNIT_08 = {
       {type:"mc", q:"How do you ask 'How much does it cost?' in Italian?",
        opts:["Quanto costa?","Quanto paga?","Quanto sconta?","Quanto prova?"],
        ans:"Quanto costa?",
-       hint:"The verb comes from Latin 'constare' (to stand at a price). Use 'costano' for plural items."},
+       hint:"Combine the 'how much?' question word with the pricing verb in third person singular. For multiple items, switch to plural."},
 
       {type:"fb", s:"Posso {1} questa gonna?",
        a:["provare"],
@@ -176,7 +176,7 @@ const UNIT_08 = {
       ]},
 
       {type:"mc", q:"When are the summer sales ('saldi') in Italy?",
-       opts:["July","May","September","December"],
+       opts:["May","July","September","December"],
        ans:"July",
        hint:"Sale periods are regulated by Italian law. The summer period starts at the beginning of this month."},
 
@@ -187,7 +187,7 @@ const UNIT_08 = {
        sSrc:"Can I {1} by card?"},
 
       {type:"mc", q:"Why must you keep your receipt ('scontrino') in Italy?",
-       opts:["It is required by law to fight tax evasion","It is a tradition","For returns only","It is optional"],
+       opts:["For returns only","It is a tradition","It is required by law to fight tax evasion","It is optional"],
        ans:"It is required by law to fight tax evasion",
        hint:"The financial police can check outside shops. Both you and the shop can be fined if you lack this."},
 
@@ -198,7 +198,7 @@ const UNIT_08 = {
        sSrc:"There is a {1} of twenty percent."},
 
       {type:"mc", q:"What does 'la taglia' refer to?",
-       opts:["Clothing size","Price tag","Fabric type","Brand name"],
+       opts:["Brand name","Price tag","Fabric type","Clothing size"],
        ans:"Clothing size",
        hint:"Italian numbering differs from US/UK. The staff will ask 'Che __ porta?' to find your fit."}
     ]},
@@ -277,9 +277,9 @@ const UNIT_08 = {
       ]},
 
       {type:"mc", q:"What does 'a tinta unita' mean?",
-       opts:["Solid color / plain","Checkered","Multicolored","Faded"],
+       opts:["Checkered","Solid color / plain","Multicolored","Faded"],
        ans:"Solid color / plain",
-       hint:"'Tinta' means color, 'unita' means unified. One single color with no pattern at all."},
+       hint:"'Tinta' means c..., 'unita' means unified. One single c... with no pattern at all."},
 
       {type:"fb", s:"Questi pantaloni sono troppo {1}.",
        a:["stretti"],
@@ -288,7 +288,7 @@ const UNIT_08 = {
        sSrc:"These trousers are too {1}."},
 
       {type:"mc", q:"Where does 'cotone' come from?",
-       opts:["Arabic 'qutn'","Latin 'cottus'","Greek 'koton'","French 'coton'"],
+       opts:["Greek 'koton'","Latin 'cottus'","Arabic 'qutn'","French 'coton'"],
        ans:"Arabic 'qutn'",
        hint:"This word entered Italian through medieval trade with the Arab world. The fiber was a major trade commodity."},
 
@@ -299,7 +299,7 @@ const UNIT_08 = {
        sSrc:"Are the shoes made of {1}?"},
 
       {type:"mc", q:"What is the opposite of 'stretto'?",
-       opts:["Largo","Grande","Lungo","Corto"],
+       opts:["Corto","Grande","Lungo","Largo"],
        ans:"Largo",
        hint:"If clothes are too tight, you need them wider and looser. This word means wide or loose."}
     ]},

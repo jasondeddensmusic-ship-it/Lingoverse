@@ -1,4 +1,5 @@
 // Italian V2 Unit 26 — Il diritto (B2.1)
+import EXP_L4 from './_temp_u26_expand_L01.js';import EXP_L5 from './_temp_u26_expand_L02.js';import EXP_L6 from './_temp_u26_expand_L03.js';
 // CILS B2 aligned. Law, justice, and rights vocabulary.
 
 const UNIT_26 = {
@@ -93,7 +94,7 @@ const UNIT_26 = {
 
       {type:"mc",
        q:"Qual e il contrario di 'condannare'?",
-       opts:["Assolvere","Accusare","Difendere","Ricorrere"],
+       opts:["Accusare","Assolvere","Difendere","Ricorrere"],
        ans:"Assolvere",
        hint:"When a court finds the defendant not guilty, it does the opposite of convicting. It releases them from the charges."},
 
@@ -114,7 +115,7 @@ const UNIT_26 = {
 
       {type:"mc",
        q:"Dove si svolge un processo penale?",
-       opts:["In tribunale","In parlamento","In questura","In prefettura"],
+       opts:["In questura","In parlamento","In tribunale","In prefettura"],
        ans:"In tribunale",
        hint:"The building where judges preside over cases and sentences are pronounced. The seat of judicial power."}
     ]},
@@ -206,7 +207,7 @@ const UNIT_26 = {
 
       {type:"mc",
        q:"Qual e il contrario di 'diritto' nel senso civico?",
-       opts:["Dovere","Liberta","Legge","Reato"],
+       opts:["Liberta","Dovere","Legge","Reato"],
        ans:"Dovere",
        hint:"If a 'diritto' is something you are entitled to, this word is something you are obligated to do. Rights come with these."},
 
@@ -222,14 +223,14 @@ const UNIT_26 = {
        s:"La {1} di morte e stata abolita in Italia nel 1889.",
        a:["pena"],
        opts:["pena","prova","legge","sentenza"],
-       hint:"The word for punishment or penalty. Combined with 'di morte' it describes the ultimate sanction.",
+       hint:"Combined with 'di morte' it names the ultimate sanction. This noun also means 'sorrow' in everyday Italian.",
        sSrc:"The death {1} was abolished in Italy in 1889."},
 
       {type:"mc",
        q:"Che significa 'ricorrere in Cassazione'?",
-       opts:["Fare l'ultimo appello alla Corte Suprema","Andare in tribunale per la prima volta","Assumere un nuovo avvocato","Raccogliere nuove prove"],
+       opts:["Assumere un nuovo avvocato","Andare in tribunale per la prima volta","Fare l'ultimo appello alla Corte Suprema","Raccogliere nuove prove"],
        ans:"Fare l'ultimo appello alla Corte Suprema",
-       hint:"The Corte di Cassazione is the highest court. 'Ricorrere' means to appeal. This is the final step in the judicial process."}
+       hint:"The C... di Cassazione is the highest court. 'Ricorrere' means to appeal. This is the final step in the judicial process."}
     ]},
 
     // ─── Lesson 3: Crimini e indagini ───
@@ -319,7 +320,7 @@ const UNIT_26 = {
 
       {type:"mc",
        q:"Come si chiama il genere letterario italiano di storie poliziesche?",
-       opts:["Il giallo","Il rosso","Il nero","Il bianco"],
+       opts:["Il rosso","Il giallo","Il nero","Il bianco"],
        ans:"Il giallo",
        hint:"Named after the color of famous mystery novel covers published by Mondadori. A color that means 'yellow.'"},
 
@@ -340,7 +341,7 @@ const UNIT_26 = {
 
       {type:"mc",
        q:"Qual e la differenza tra 'furto' e 'rapina'?",
-       opts:["La rapina implica violenza o minaccia, il furto no","Il furto e piu grave della rapina","La rapina riguarda solo le banche","Non c'e differenza"],
+       opts:["La rapina riguarda solo le banche","Il furto e piu grave della rapina","La rapina implica violenza o minaccia, il furto no","Non c'e differenza"],
        ans:"La rapina implica violenza o minaccia, il furto no",
        hint:"One involves taking property without confrontation. The other involves force or threats against the victim."}
     ]}

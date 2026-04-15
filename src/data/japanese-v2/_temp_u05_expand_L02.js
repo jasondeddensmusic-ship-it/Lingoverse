@@ -88,7 +88,7 @@ const LESSON_4 = {
      funFact:"Shoushou omachi kudasai (please wait just a little) is the standard restaurant holding phrase. Japanese service culture abhors making customers wait. If there is any delay, staff will apologize profusely and update you. Wait times are taken very seriously."},
 
     {type:"mc", q:"ごちそうさまでした literally relates to:", opts:["Delicious food","Running around to prepare food","A religious blessing","Paying the bill"], ans:"Running around to prepare food",
-     hint:"The kanji 馳走 originally meant 'galloping/running around' for meal preparation."},
+     hint:"The kanji 馳走 originally meant 'galloping/r... a...' for meal preparation."},
 
     {type:"match", pairs:[
       {trg:"メニュー", src:"menu"},
@@ -114,7 +114,7 @@ const LESSON_4 = {
      hint:"Japanese service culture includes excellent service in the price."},
 
     {type:"mc", q:"のみほうだい means:", opts:["No drinking allowed","All-you-can-drink","Drink menu","Last call"], ans:"All-you-can-drink",
-     hint:"Nomi (drink) + houdai (as much as you like) = unlimited drinks for a flat fee."},
+     hint:"Nomi (d...) + houdai (as much as you like) = unlimited drinks for a flat fee."},
   ]
 };
 export default LESSON_4;

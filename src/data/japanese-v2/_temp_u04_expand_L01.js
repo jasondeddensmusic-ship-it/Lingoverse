@@ -88,7 +88,7 @@ const LESSON_3 = {
      funFact:"大 (big) + 切 (cut/important). Taisetsu implies something you must protect carefully. Taisetsu na hito (precious person) is a tender way to describe loved ones. It carries more emotional weight than juuyou (important, more factual/dry)."},
 
     {type:"mc", q:"きれい is tricky because:", opts:["It is a na-adjective despite ending in い","It means both good and bad","It is always negative","It changes meaning with tone"], ans:"It is a na-adjective despite ending in い",
-     hint:"Most words ending in い are i-adjectives, but kirei is an exception."},
+     hint:"Kirei defies expectations. The い spelling looks familiar but the word follows a different grammar class."},
 
     {type:"tip", title:"I-Adjective vs Na-Adjective",
      text:"I-adjectives end in い and go directly before nouns:\nたかい かばん = expensive bag\nあたらしい くつ = new shoes\n\nNa-adjectives need な before nouns:\nきれいな はな = beautiful flower\nしずかな まち = quiet town\n\nBefore です, both work the same:\nたかいです / きれいです",

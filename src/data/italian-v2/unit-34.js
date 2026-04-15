@@ -1,0 +1,248 @@
+// Italian V2 Unit 34 — Le relazioni internazionali (International Relations)
+// Level: B2.3 — CILS/CELI B2 aligned.
+
+const UNIT_34 = {
+  n:34, lang:"it", srcLang:"en", track:"v2",
+  title:"Le relazioni internazionali", sub:"International Relations",
+  icon:"🌐", level:"B2.3", color:"#7B5EE8",
+  lessons:[
+    // ─── Lesson 1: La diplomazia ───
+    {id:"itv2_u34l1", title:"La diplomazia", icon:"🤝", xp:15, board:true, steps:[
+      {type:"intro", title:"La diplomazia",
+       desc:"Master the vocabulary of diplomacy, treaties, and international negotiations. These terms appear constantly in Italian news and political discourse about global affairs.",
+       goals:["Describe diplomatic processes and institutions","Discuss treaties, alliances, and negotiations","Understand Italian foreign policy vocabulary"]},
+
+      {type:"teach", trg:"la diplomazia", src:"diplomacy", pos:"noun", gender:"f",
+       note:"Feminine noun. The art of managing international relations.\n'Diplomazia culturale' = cultural diplomacy. 'Canali diplomatici' = diplomatic channels.",
+       example:"A: La diplomazia richiede pazienza e strategia.\nB: E spesso piu efficace della forza militare.",
+       exampleSrc:"A: Diplomacy requires patience and strategy.\nB: And it is often more effective than military force.",
+       funFact:"The word 'diplomazia' comes from Greek 'diploma' (a folded document). Diplomatic passports in Italian are called 'passaporti diplomatici' and grant special legal immunity abroad."},
+
+      {type:"teach", trg:"il trattato", src:"the treaty", pos:"noun", gender:"m",
+       note:"Masculine noun. Plural: i trattati.\n'Firmare un trattato' = to sign a treaty. 'Trattato di pace' = peace treaty.",
+       example:"A: I sei paesi hanno firmato il trattato a Roma nel 1957.\nB: E stato l'inizio della comunita europea.",
+       exampleSrc:"A: The six countries signed the treaty in Rome in 1957.\nB: It was the beginning of the European community.",
+       funFact:"The Treaty of Rome (1957), signed at the Campidoglio, created the European Economic Community. Italy was a founding member alongside France, Germany, Belgium, the Netherlands, and Luxembourg."},
+
+      {type:"teach", trg:"l'ambasciata", src:"the embassy", pos:"noun", gender:"f",
+       note:"Feminine noun. Plural: le ambasciate.\n'L'ambasciatore' / 'l'ambasciatrice' = the ambassador.",
+       example:"A: L'ambasciata italiana a Washington e molto attiva.\nB: Organizza eventi culturali ogni mese.",
+       exampleSrc:"A: The Italian embassy in Washington is very active.\nB: It organizes cultural events every month.",
+       funFact:"Italy maintains over 120 embassies worldwide plus an extensive network of consulates. Italian consulates abroad also serve the large Italian diaspora, estimated at over 6 million registered citizens living outside Italy."},
+
+      {type:"teach", trg:"il negoziato", src:"the negotiation", pos:"noun", gender:"m",
+       note:"Masculine noun. Plural: i negoziati.\n'Tavolo dei negoziati' = negotiating table. 'Negoziati di pace' = peace negotiations.",
+       example:"A: I negoziati sono durati sei mesi.\nB: Ma finalmente hanno raggiunto un accordo.",
+       exampleSrc:"A: The negotiations lasted six months.\nB: But they finally reached an agreement.",
+       funFact:"From Latin 'negotium' (business), literally 'not leisure' (nec + otium). Ancient Romans distinguished 'otium' (leisure, philosophy) from 'negotium' (business, practical affairs). Diplomacy fell under negotium."},
+
+      {type:"teach", trg:"l'alleanza", src:"the alliance", pos:"noun", gender:"f",
+       note:"Feminine noun. Plural: le alleanze.\n'Alleanza militare' = military alliance. 'Alleanza strategica' = strategic alliance.",
+       example:"A: L'Italia fa parte di diverse alleanze internazionali.\nB: La NATO e l'Unione Europea sono le principali.",
+       exampleSrc:"A: Italy is part of several international alliances.\nB: NATO and the European Union are the main ones.",
+       funFact:"Italy joined NATO in 1949, just four years after the end of World War II. The shift from defeated Axis power to Western alliance member was one of the most dramatic foreign policy pivots of the 20th century."},
+
+      {type:"mc",
+       q:"Come si chiama l'accordo formale firmato tra due o piu nazioni?",
+       opts:["Un trattato","Un negoziato","Un'ambasciata","Un'alleanza"],
+       ans:"Un trattato",
+       hint:"A formal written agreement between nations. The one signed in Rome in 1957 launched the European project."},
+
+      {type:"teach", trg:"la sovranita", src:"sovereignty", pos:"noun", gender:"f",
+       note:"Feminine noun. Invariable (accented ending).\n'Sovranita nazionale' = national sovereignty. 'Cedere sovranita' = to cede sovereignty.",
+       example:"A: L'integrazione europea limita la sovranita nazionale?\nB: Alcuni la vedono cosi, altri parlano di sovranita condivisa.",
+       exampleSrc:"A: Does European integration limit national sovereignty?\nB: Some see it that way, others speak of shared sovereignty.",
+       funFact:"The debate over 'sovranita' is at the heart of Italian Euroscepticism. Parties across the political spectrum argue whether pooling sovereignty in Brussels strengthens or weakens Italy's ability to govern itself."},
+
+      {type:"teach", trg:"la sanzione", src:"the sanction", pos:"noun", gender:"f",
+       note:"Feminine noun. Plural: le sanzioni.\n'Imporre sanzioni' = to impose sanctions. 'Sanzioni economiche' = economic sanctions.",
+       example:"A: Le sanzioni economiche hanno colpito duramente quel paese.\nB: Ma il governo non ha cambiato posizione.",
+       exampleSrc:"A: The economic sanctions hit that country hard.\nB: But the government did not change its position.",
+       funFact:"'Sanzione' in Italian has a dual meaning: a penalty/punishment (most common) but also formal ratification of a law (the monarch's 'sanzione regia' in historical usage). Context tells which is intended."},
+
+      {type:"teach", trg:"il conflitto", src:"the conflict", pos:"noun", gender:"m",
+       note:"Masculine noun. Plural: i conflitti.\n'Conflitto armato' = armed conflict. 'Risoluzione dei conflitti' = conflict resolution.",
+       example:"A: Il conflitto nel Medio Oriente continua senza tregua.\nB: La comunita internazionale cerca una soluzione diplomatica.",
+       exampleSrc:"A: The conflict in the Middle East continues without respite.\nB: The international community is seeking a diplomatic solution.",
+       funFact:"Article 11 of the Italian Constitution states that Italy 'rejects war as an instrument of aggression.' This clause has shaped decades of debate about Italian military participation in international operations."},
+
+      {type:"fb",
+       s:"L'Italia fa parte della NATO e di altre {1} internazionali.",
+       a:["alleanze"],
+       opts:["alleanze","sanzioni","ambasciate","sovranita"],
+       hint:"Groups of countries that agree to cooperate and defend each other. Military or strategic partnerships between nations.",
+       sSrc:"Italy is part of NATO and other international {1}."},
+
+      {type:"teach", trg:"la mediazione", src:"mediation", pos:"noun", gender:"f",
+       note:"Feminine noun. The process of resolving disputes through a neutral third party.\n'Il mediatore' / 'la mediatrice' = the mediator.",
+       example:"A: L'ONU ha proposto una mediazione tra le due parti.\nB: E l'unica via per evitare il conflitto.",
+       exampleSrc:"A: The UN proposed mediation between the two sides.\nB: It is the only way to avoid conflict.",
+       funFact:"Italy has historically played a mediation role in Mediterranean affairs, leveraging its geographic position and cultural ties. Italian is still one of the working languages of the Vatican's diplomatic service."},
+
+      {type:"teach", trg:"ratificare", src:"to ratify", pos:"verb", gender:null,
+       note:"Regular -are verb. Io ratifico, tu ratifichi.\n'Ratificare un trattato' = to ratify a treaty. 'La ratifica' (noun) = ratification.",
+       example:"A: Il parlamento deve ancora ratificare l'accordo.\nB: Senza la ratifica, il trattato non entra in vigore.",
+       exampleSrc:"A: Parliament still has to ratify the agreement.\nB: Without ratification, the treaty does not enter into force.",
+       funFact:"In Italy, international treaties are ratified by Parliament with an ordinary law. The Constitution requires ratification for treaties involving territory, finances, or international organizations."},
+
+      {type:"teach", trg:"la tregua", src:"the truce / ceasefire", pos:"noun", gender:"f",
+       note:"Feminine noun. A temporary halt to fighting.\n'Dichiarare una tregua' = to declare a truce.",
+       example:"A: Le due parti hanno accettato una tregua di trenta giorni.\nB: Speriamo che porti a negoziati di pace.",
+       exampleSrc:"A: The two sides accepted a thirty-day truce.\nB: Let us hope it leads to peace negotiations.",
+       funFact:"From Old French 'treve,' which itself came from Germanic roots. Medieval Italian city-states frequently negotiated tregue during their constant inter-city conflicts, often brokered by the Pope."},
+
+      {type:"mc",
+       q:"Che cos'e la 'sovranita nazionale'?",
+       opts:["L'obbligo di seguire le leggi europee","Il diritto di un paese di governare se stesso","La capacita di imporre sanzioni","Il numero di ambasciate di un paese"],
+       ans:"Il diritto di un paese di governare se stesso",
+       hint:"The right of a nation to make its own decisions and govern its own territory without external interference."},
+
+      {type:"teach", trg:"il multilateralismo", src:"multilateralism", pos:"noun", gender:"m",
+       note:"Masculine noun. Cooperation among three or more countries.\nOpposite: 'l'unilateralismo' (going it alone).",
+       example:"A: L'Italia sostiene il multilateralismo nelle relazioni internazionali.\nB: I problemi globali richiedono risposte collettive.",
+       exampleSrc:"A: Italy supports multilateralism in international relations.\nB: Global problems require collective responses.",
+       funFact:"Italy is a strong supporter of multilateral institutions: UN, EU, NATO, G7, G20. Rome hosted the G20 summit in 2021, emphasizing the Italian commitment to multilateral cooperation."},
+
+      {type:"match", pairs:[
+        {trg:"diplomazia", src:"diplomacy"},
+        {trg:"trattato", src:"treaty"},
+        {trg:"sanzione", src:"sanction"},
+        {trg:"tregua", src:"truce"},
+        {trg:"negoziato", src:"negotiation"}
+      ]},
+
+      {type:"fb",
+       s:"Il parlamento deve {1} il trattato prima che entri in vigore.",
+       a:["ratificare"],
+       opts:["ratificare","mediare","negoziare","sanzionare"],
+       hint:"The formal parliamentary approval that makes a treaty legally binding. Without this step, the agreement has no force.",
+       sSrc:"Parliament must {1} the treaty before it enters into force."},
+
+      {type:"mc",
+       q:"Quale articolo della Costituzione italiana ripudia la guerra come strumento di aggressione?",
+       opts:["Articolo 1","Articolo 21","Articolo 11","Articolo 48"],
+       ans:"Articolo 11",
+       hint:"This constitutional article explicitly rejects war as an instrument of offense against other nations' freedom."}
+    ]},
+
+    // ─── Lesson 2: L'Unione Europea e le istituzioni ───
+    {id:"itv2_u34l2", title:"L'Europa unita", icon:"🇪🇺", xp:15, board:true, steps:[
+      {type:"intro", title:"L'Unione Europea e le istituzioni",
+       desc:"Learn the vocabulary of European institutions, EU governance, and Italy's role in the European project. Essential for understanding Italian political news and debate.",
+       goals:["Name major EU institutions and their functions","Discuss European integration and Italian participation","Understand vocabulary of international governance"]},
+
+      {type:"teach", trg:"l'Unione Europea", src:"the European Union", pos:"noun", gender:"f",
+       note:"Feminine noun. Abbreviated UE (not EU in Italian).\n'Stato membro dell'UE' = EU member state.",
+       example:"A: L'Unione Europea ha ventisette stati membri.\nB: L'Italia e stata tra i fondatori nel 1957.",
+       exampleSrc:"A: The European Union has twenty-seven member states.\nB: Italy was among the founders in 1957.",
+       funFact:"Italy is a founding member of the EU and one of its largest economies. The Treaty of Rome, signed in the Campidoglio building in 1957, is considered the birth certificate of European integration."},
+
+      {type:"teach", trg:"il parlamento europeo", src:"the European Parliament", pos:"noun", gender:"m",
+       note:"Masculine noun. The directly elected legislative body of the EU.\nMembers are called 'eurodeputati' or 'europarlamentari.'",
+       example:"A: Il parlamento europeo ha sede a Strasburgo e a Bruxelles.\nB: Gli eurodeputati italiani sono settantasei.",
+       exampleSrc:"A: The European Parliament is based in Strasbourg and Brussels.\nB: The Italian MEPs number seventy-six.",
+       funFact:"Italy elects 76 Members of European Parliament, the third largest national delegation after Germany (96) and France (81). European elections traditionally have low turnout in Italy, around 55%."},
+
+      {type:"teach", trg:"la commissione", src:"the commission", pos:"noun", gender:"f",
+       note:"Feminine noun. 'La Commissione europea' = the European Commission.\n'Il commissario' = the commissioner.",
+       example:"A: La Commissione europea ha proposto nuove regole ambientali.\nB: Ogni stato membro dovra adattarsi.",
+       exampleSrc:"A: The European Commission proposed new environmental rules.\nB: Every member state will have to adapt.",
+       funFact:"Each EU member state nominates one commissioner. Italian commissioners have held influential portfolios including economy, trade, and competition. The Commission proposes EU legislation; it does not pass it."},
+
+      {type:"teach", trg:"la direttiva", src:"the directive", pos:"noun", gender:"f",
+       note:"Feminine noun. An EU law that member states must implement.\n'Recepire una direttiva' = to transpose a directive into national law.",
+       example:"A: L'Italia deve recepire la direttiva entro sei mesi.\nB: Il ritardo comportera sanzioni.",
+       exampleSrc:"A: Italy must transpose the directive within six months.\nB: The delay will result in sanctions.",
+       funFact:"Italy has historically been one of the slowest EU countries in transposing directives into national law, earning frequent infringement proceedings from the European Commission."},
+
+      {type:"teach", trg:"il regolamento", src:"the regulation", pos:"noun", gender:"m",
+       note:"Masculine noun. An EU law directly applicable in all member states.\nNo national transposition needed, unlike a direttiva.",
+       example:"A: Il nuovo regolamento sulla privacy e entrato subito in vigore.\nB: Senza bisogno di leggi nazionali di recepimento.",
+       exampleSrc:"A: The new privacy regulation entered into force immediately.\nB: Without the need for national transposition laws.",
+       funFact:"The key difference: a 'regolamento' applies directly (like the GDPR), while a 'direttiva' must be converted into national law. Italy's dual legal system makes this distinction very practical."},
+
+      {type:"mc",
+       q:"Qual e la differenza principale tra una direttiva e un regolamento dell'UE?",
+       opts:["Il regolamento si applica direttamente, la direttiva va recepita","La direttiva riguarda solo l'economia","La direttiva e piu importante del regolamento","Il regolamento e solo una raccomandazione"],
+       ans:"Il regolamento si applica direttamente, la direttiva va recepita",
+       hint:"One type of EU law applies automatically in all countries. The other must first be converted into each nation's own laws."},
+
+      {type:"teach", trg:"l'integrazione", src:"integration", pos:"noun", gender:"f",
+       note:"Feminine noun. 'Integrazione europea' = European integration.\n'Integrazione economica/politica' = economic/political integration.",
+       example:"A: L'integrazione europea e un processo ancora in corso.\nB: Alcuni vogliono piu integrazione, altri meno.",
+       exampleSrc:"A: European integration is a process still underway.\nB: Some want more integration, others less.",
+       funFact:"Italy's enthusiasm for European integration has fluctuated. In the 1990s, Italians were among the most pro-European citizens. Economic crises and migration debates have since created a more divided public opinion."},
+
+      {type:"teach", trg:"il vertice", src:"the summit", pos:"noun", gender:"m",
+       note:"Masculine noun. Plural: i vertici.\n'Vertice europeo' = European summit. Also means 'top/peak.'",
+       example:"A: Il vertice europeo si terra a Bruxelles la prossima settimana.\nB: I leader discuteranno della politica energetica.",
+       exampleSrc:"A: The European summit will be held in Brussels next week.\nB: The leaders will discuss energy policy.",
+       funFact:"The word 'vertice' literally means 'peak' or 'top.' A political summit is metaphorically a meeting at the top. EU summits are formally called 'Consigli europei' but Italians commonly say 'il vertice.'"},
+
+      {type:"teach", trg:"la sussidiarieta", src:"subsidiarity", pos:"noun", gender:"f",
+       note:"Feminine noun. The principle that decisions should be made at the lowest effective level.\n'Principio di sussidiarieta' = subsidiarity principle.",
+       example:"A: La sussidiarieta e un principio fondamentale dell'UE.\nB: Le decisioni vanno prese il piu vicino possibile ai cittadini.",
+       exampleSrc:"A: Subsidiarity is a fundamental EU principle.\nB: Decisions should be made as close to citizens as possible.",
+       funFact:"Subsidiarity has deep roots in Catholic social teaching, which influenced Italian politics heavily. The concept entered EU law with the Maastricht Treaty (1992) to balance centralization with local governance."},
+
+      {type:"fb",
+       s:"La Commissione europea ha proposto una nuova {1} sulla protezione dei dati.",
+       a:["direttiva"],
+       opts:["direttiva","sovranita","alleanza","sanzione"],
+       hint:"This type of EU law sets goals that each member state must achieve through its own national legislation.",
+       sSrc:"The European Commission proposed a new {1} on data protection."},
+
+      {type:"teach", trg:"il bilancio europeo", src:"the EU budget", pos:"noun", gender:"m",
+       note:"Masculine noun. The annual financial plan of the European Union.\n'Contributo al bilancio' = contribution to the budget.",
+       example:"A: Le trattative sul bilancio europeo sono sempre difficili.\nB: Ogni paese vuole ricevere piu di quanto versa.",
+       exampleSrc:"A: Negotiations on the EU budget are always difficult.\nB: Every country wants to receive more than it pays in.",
+       funFact:"Italy is the third-largest net contributor to the EU budget after Germany and France. Debates about 'quanto paghiamo a Bruxelles' (how much we pay Brussels) are a constant feature of Italian political discourse."},
+
+      {type:"teach", trg:"il diritto di veto", src:"the right of veto", pos:"noun", gender:"m",
+       note:"Masculine noun (compound). The power to block a decision.\n'Esercitare il diritto di veto' = to exercise the veto.",
+       example:"A: Un solo paese puo bloccare la decisione con il diritto di veto.\nB: Per questo molti chiedono di eliminarlo.",
+       exampleSrc:"A: A single country can block the decision with the right of veto.\nB: That is why many call for its elimination.",
+       funFact:"In the EU Council, unanimity is required for foreign policy and taxation decisions, giving each member state an effective veto. Italy has historically opposed eliminating this right in sensitive areas."},
+
+      {type:"teach", trg:"la coesione", src:"cohesion", pos:"noun", gender:"f",
+       note:"Feminine noun. Unity and solidarity within a group.\n'Fondi di coesione' = cohesion funds (EU regional development money).",
+       example:"A: I fondi di coesione aiutano le regioni piu povere.\nB: Il Mezzogiorno italiano ne beneficia molto.",
+       exampleSrc:"A: Cohesion funds help the poorest regions.\nB: Southern Italy benefits greatly from them.",
+       funFact:"Italy's southern regions (Mezzogiorno) are major recipients of EU cohesion funds, designed to reduce economic disparities. The north-south divide within Italy mirrors the broader EU divide between richer and poorer members."},
+
+      {type:"mc",
+       q:"Che cosa sono i 'fondi di coesione' dell'UE?",
+       opts:["Sanzioni contro paesi inadempienti","Denaro per ridurre le disparita regionali","Contributi per il bilancio militare","Premi per i paesi piu virtuosi"],
+       ans:"Denaro per ridurre le disparita regionali",
+       hint:"These EU funds flow to poorer regions to help them develop. Southern Italy is one of the major beneficiaries."},
+
+      {type:"match", pairs:[
+        {trg:"parlamento europeo", src:"European Parliament"},
+        {trg:"commissione", src:"commission"},
+        {trg:"direttiva", src:"directive"},
+        {trg:"vertice", src:"summit"},
+        {trg:"coesione", src:"cohesion"}
+      ]},
+
+      {type:"teach", trg:"negoziare", src:"to negotiate", pos:"verb", gender:null,
+       note:"Regular -are verb. Io negozio, tu negozi.\n'Negoziare un accordo' = to negotiate an agreement.",
+       example:"A: I ministri stanno negoziando un nuovo accordo commerciale.\nB: Le trattative potrebbero durare mesi.",
+       exampleSrc:"A: The ministers are negotiating a new trade agreement.\nB: The talks could last months.",
+       funFact:"'Negoziare' and 'il negozio' (shop) share the same Latin root 'negotium' (business). Both involve transactions, though at very different scales: one between nations, the other between customer and shopkeeper."},
+
+      {type:"fb",
+       s:"Al {1} europeo di Bruxelles, i leader hanno discusso la politica energetica.",
+       a:["vertice"],
+       opts:["vertice","parlamento","bilancio","regolamento"],
+       hint:"A high-level meeting of national leaders. Literally means 'peak' or 'top' in Italian.",
+       sSrc:"At the European {1} in Brussels, the leaders discussed energy policy."},
+
+      {type:"mc",
+       q:"Quanti stati membri ha l'Unione Europea?",
+       opts:["Ventiquattro","Venticinque","Ventisette","Trenta"],
+       ans:"Ventisette",
+       hint:"After the UK left in 2020, this number went down by one from twenty-eight. Count from the original six founders."}
+    ]}
+  ]
+};
+export default UNIT_34;

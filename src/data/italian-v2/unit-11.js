@@ -56,7 +56,7 @@ const UNIT_11 = {
       {type:"mc", q:"How do you form the passato prossimo of -are verbs?",
        opts:["avere + -ato","avere + -uto","essere + -ato","avere + -ito"],
        ans:"avere + -ato",
-       hint:"Remove -are and add -ato: mangiare becomes mangiato, parlare becomes parlato, lavorare becomes lavorato."},
+       hint:"Drop the infinitive ending and attach the first-conjugation suffix. All regular first-conjugation verbs follow this pattern."},
 
       {type:"fb", s:"{1} mangiato una pizza margherita.",
        a:["Ho"],
@@ -73,7 +73,7 @@ const UNIT_11 = {
       ]},
 
       {type:"mc", q:"Does the past participle change form with 'avere'?",
-       opts:["No, it stays the same regardless of subject","Yes, it matches the subject gender","Yes, it matches the subject number","It depends on the verb"],
+       opts:["Yes, it matches the subject gender","No, it stays the same regardless of subject","Yes, it matches the subject number always","Yes, but it depends on which verb you use"],
        ans:"No, it stays the same regardless of subject",
        hint:"With 'avere,' the participle is fixed: 'ho mangiato' for everyone, male or female, singular or plural."},
 
@@ -84,9 +84,9 @@ const UNIT_11 = {
        sSrc:"Maria {1} worked all day."},
 
       {type:"mc", q:"What ending does 'dormire' get in the past participle?",
-       opts:["-ito (dormito)","-ato (dormato)","-uto (dormuto)","-to (dormto)"],
+       opts:["-uto (dormuto, wrong)","-ato (dormato, wrong)","-ito (dormito)","-to (dormto, wrong)"],
        ans:"-ito (dormito)",
-       hint:"Verbs ending in -ire change to -ito in the past participle. The same pattern as 'finire > finito.'"},
+       hint:"Verbs in the third conjugation follow this pattern consistently. Think of 'finire' and 'capire' as examples."},
 
       {type:"fb", s:"I ragazzi {1} studiato tutta la sera.",
        a:["hanno"],
@@ -95,9 +95,9 @@ const UNIT_11 = {
        sSrc:"The kids {1} studied all evening."},
 
       {type:"mc", q:"Why is the passato prossimo called the 'near past'?",
-       opts:["It is used for recent past events in everyday speech","It describes the future","It is rarely used","It only works with avere"],
+       opts:["It only works with avere as helper","It somehow describes future events","It is archaic and rarely used today","It is used for recent past events in everyday speech"],
        ans:"It is used for recent past events in everyday speech",
-       hint:"'Prossimo' means 'near/next.' This tense is the standard conversational past tense in Italian."}
+       hint:"'Prossimo' means 'near/next.' This tense is the standard conversational form for completed actions in Italian, covering both 'I did' and 'I have done.'"}
     ]},
 
     {id:"itv2_u11l2", title:"Participi irregolari", icon:"\uD83D\uDD00", xp:15, board:true, steps:[
@@ -174,7 +174,7 @@ const UNIT_11 = {
       ]},
 
       {type:"mc", q:"What verb does 'preso' come from?",
-       opts:["Prendere (to take)","Premere (to press)","Pregare (to pray)","Promettere (to promise)"],
+       opts:["Premere (to press)","Prendere (to take)","Pregare (to pray)","Promettere (to promise)"],
        ans:"Prendere (to take)",
        hint:"From Latin 'prehensum' (seized). You use this for taking buses, coffee, decisions, and more."},
 
@@ -185,9 +185,9 @@ const UNIT_11 = {
        sSrc:"Did you {1} the movie last night?"},
 
       {type:"mc", q:"Why is 'letto' (read) potentially confusing?",
-       opts:["It is spelled the same as 'letto' (bed)","It sounds like 'latte'","It is regular","It has no past tense"],
+       opts:["It is regular","It sounds like 'latte'","It is spelled the same as 'letto' (bed)","It has no past tense"],
        ans:"It is spelled the same as 'letto' (bed)",
-       hint:"Two identical-looking words from different Latin origins. Context tells you if it means 'read' or 'bed.'"},
+       hint:"Two identical-looking words from different Latin origins. Context tells you if it means 'read' or 'b....'"},
 
       {type:"fb", s:"Hai {1} la finestra?",
        a:["aperto"],
@@ -196,7 +196,7 @@ const UNIT_11 = {
        sSrc:"Did you {1} the window?"},
 
       {type:"mc", q:"What is the past participle of 'chiedere'?",
-       opts:["Chiesto","Chieduto","Chiedato","Chiedito"],
+       opts:["Chiedito","Chieduto","Chiedato","Chiesto"],
        ans:"Chiesto",
        hint:"Completely irregular. From Latin 'quaesitum.' The same root gave English 'question' and 'quest.'"}
     ]},
@@ -258,7 +258,7 @@ const UNIT_11 = {
       {type:"mc", q:"Where does 'fa' go in a time expression meaning 'ago'?",
        opts:["After the time unit (due giorni FA)","Before the time unit","At the start of the sentence","Before the verb"],
        ans:"After the time unit (due giorni FA)",
-       hint:"The time unit comes first, then this little word: 'dieci minuti __', 'un'ora __', 'tre anni __'."},
+       hint:"The t... u... comes first, then this little word: 'dieci minuti __', 'un'ora __', 'tre anni __'."},
 
       {type:"fb", s:"Quando hai comprato la giacca? La settimana {1}.",
        a:["scorsa"],
@@ -275,20 +275,20 @@ const UNIT_11 = {
       ]},
 
       {type:"mc", q:"What is 'stamattina' a contraction of?",
-       opts:["Questa mattina","Sta mattina","Stamane mattina","Stai mattina"],
+       opts:["Sta mattina","Questa mattina","Stamane mattina","Stai mattina"],
        ans:"Questa mattina",
-       hint:"Italian contracts 'questa/o' with time words: questa + mattina, questa + sera, questa + notte."},
+       hint:"Italian contracts 'q.../o' with time words: q... + m..., q... + sera, q... + notte."},
 
-      {type:"fb", s:"No grazie, ho {1} mangiato.",
+      {type:"fb", s:"No grazie, ho {1} fatto colazione.",
        a:["gia"],
        opts:["gia","mai","ancora","sempre"],
-       hint:"You finished eating before this moment. This adverb goes between 'ho' and the participle.",
-       sSrc:"No thanks, I have {1} eaten."},
+       hint:"You finished breakfast before this moment. This adverb goes between 'ho' and the participle.",
+       sSrc:"No thanks, I have {1} had breakfast."},
 
       {type:"mc", q:"How do you say 'I have never seen' in Italian?",
-       opts:["Non ho mai visto","Ho mai visto","Non ho visto mai","Mai ho non visto"],
+       opts:["Non ho visto mai","Ho mai visto","Non ho mai visto","Mai ho non visto"],
        ans:"Non ho mai visto",
-       hint:"Italian uses double negatives. 'Non' before the verb, 'mai' between helper and participle."},
+       hint:"Italian uses double negatives. 'N...' before the verb, 'm...' between helper and participle."},
 
       {type:"fb", s:"Non ho {1} finito i compiti.",
        a:["ancora"],
@@ -297,9 +297,9 @@ const UNIT_11 = {
        sSrc:"I have not {1} finished my homework."},
 
       {type:"mc", q:"What does 'l'anno scorso' mean?",
-       opts:["Last year","Next year","This year","Every year"],
+       opts:["Every year","Next year","This year","Last year"],
        ans:"Last year",
-       hint:"'Scorso' means past/last, from 'scorrere' (to flow by). The year that already flowed past."}
+       hint:"'Scorso' comes from 'scorrere' (to flow, pass by). Think of the calendar page that already slipped away."}
     ]},
     EXP_11_L1, EXP_11_L2, EXP_11_L3,
   ]

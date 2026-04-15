@@ -31,7 +31,7 @@ const LESSON_6 = {
      funFact:"Japanese school uniforms (seifuku) with pleated skirts are iconic worldwide, influencing fashion and pop culture. The sailor-style uniform (sera-fuku) was adopted from European naval uniforms in the 1920s. Some schools still use this classic design."},
 
     {type:"mc", q:"ズボン comes from which language?", opts:["English","German","French","Portuguese"], ans:"French",
-     hint:"This clothing word entered Japanese from a French word for a type of undergarment."},
+     hint:"This clothing word entered Japanese from a F... word for a type of undergarment."},
 
     {type:"teach", trg:"くつ", src:"shoes", pos:"noun", gender:null,
      note:"General word for shoes. Types: スニーカー (sneakers), ブーツ (boots).\nKanji: 靴.",
@@ -117,7 +117,7 @@ const LESSON_6 = {
      sSrc:"Let's wear a hat."},
 
     {type:"mc", q:"くつした literally means:", opts:["Foot cover","Below shoes","Toe warmers","Indoor wear"], ans:"Below shoes",
-     hint:"Kutsu (shoes) + shita (below) = what goes under shoes."},
+     hint:"Kutsu (s...) + shita (b...) = what goes under s...."},
 
     {type:"mc", q:"How do you say 'I wear pants' in Japanese?", opts:["ズボンをきます","ズボンをはきます","ズボンをかぶります","ズボンをかけます"], ans:"ズボンをはきます",
      hint:"Lower body items require the haku verb, not kiru."},

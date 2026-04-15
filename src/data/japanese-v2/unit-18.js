@@ -1,4 +1,5 @@
 // Japanese V2 Unit 18 — しえき (Causative)
+import EXP_L3 from './_temp_u18_expand_L01.js';import EXP_L4 from './_temp_u18_expand_L02.js';import EXP_L5 from './_temp_u18_expand_L03.js';
 // Level: B1.1 — JLPT N3 aligned.
 // Causative formation (させる/あせる), make/let, causative-passive.
 
@@ -38,7 +39,7 @@ const UNIT_18 = {
    exampleSrc:"A: I am sorry for making you wait 30 minutes.\nB: Please do not worry.",
    funFact:"Punctuality is deeply valued in Japan. Making someone wait (matraseru) is considered quite rude. Trains apologize for delays of even 30 seconds. The casual form matasu and polite omatase shimashita appear constantly in daily life."},
 
-  {type:"mc", q:"こどもにやさいをたべさせる means:", opts:["The child ate vegetables","I eat vegetables with the child","I make the child eat vegetables","The child wants vegetables"], ans:"I make the child eat vegetables",
+  {type:"mc", q:"こどもにやさいをたべさせる means:", opts:["I make the child eat vegetables","I eat vegetables with the child","The child ate vegetables","The child wants vegetables"], ans:"I make the child eat vegetables",
    hint:"The causative させる means making or letting someone do something. に marks who is made to act."},
 
   {type:"teach", trg:"やすませる", src:"to let someone rest / to give a day off", pos:"verb", gender:null,
@@ -83,7 +84,7 @@ const UNIT_18 = {
   {type:"fb", s:"コーチがせんしゅを___ています。\n(The coach is making the athletes run.)", a:"はしらせ", opts:["はしらせ","はしって","はしり","はしられ"], sSrc:"The coach is making the athletes run.",
    hint:"The causative form of はしる (to run). Group 1: あ-row + せる."},
 
-  {type:"mc", q:"How do you form the causative of する?", opts:["される","させる","させられる","すせる"], ans:"させる",
+  {type:"mc", q:"How do you form the causative of する?", opts:["される","させられる","させる","すせる"], ans:"させる",
    hint:"する is irregular. Its causative is not formed by regular rules."},
 ]},
 
@@ -117,7 +118,7 @@ const UNIT_18 = {
    exampleSrc:"A: I was made to drink a lot at the drinking party.\nB: Are you okay?",
    funFact:"のまされる is a culturally loaded word. Japanese nomikai (drinking parties) have a strong social pressure to drink. Superiors pouring drinks for juniors creates an obligation to accept. The causative-passive perfectly captures this 'I had no choice but to drink' feeling."},
 
-  {type:"mc", q:"たべさせられた means:", opts:["I made someone eat","I let someone eat","I was made to eat","I wanted to eat"], ans:"I was made to eat",
+  {type:"mc", q:"たべさせられた means:", opts:["I was made to eat","I let someone eat","I made someone eat","I wanted to eat"], ans:"I was made to eat",
    hint:"The causative-passive always means the subject was forced to do the action unwillingly."},
 
   {type:"teach", trg:"かわされる", src:"to be made to buy (short form)", pos:"verb", gender:null,
@@ -162,9 +163,10 @@ const UNIT_18 = {
 
   {type:"match", pairs:[{trg:"やらされる",src:"be made to do"},{trg:"ざんぎょう",src:"overtime"},{trg:"がまんする",src:"to endure"},{trg:"させられる",src:"causative-passive of する"}]},
 
-  {type:"mc", q:"Which form is the short causative-passive of かく (to write)?", opts:["かかせられる","かかされる","かかれる","かかせる"], ans:"かかされる",
+  {type:"mc", q:"Which form is the short causative-passive of かく (to write)?", opts:["かかせられる","かかれる","かかされる","かかせる"], ans:"かかされる",
    hint:"Group 1 short form: change う to あ-row, then add される."},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_18;

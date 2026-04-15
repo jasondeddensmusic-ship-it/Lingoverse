@@ -73,7 +73,7 @@ const UNIT_05 = {
       ]},
 
       {type:"mc", q:"How do you say 'there are three bedrooms'?",
-       opts:["Ci sono tre camere","C'e tre camere","Ci sono tre bagni","C'e una camera"],
+       opts:["C'e tre camere","Ci sono tre camere","Ci sono tre bagni","C'e una camera"],
        ans:"Ci sono tre camere",
        hint:"For plural items, use the plural form. 'C'e' is only for singular things."},
 
@@ -84,7 +84,7 @@ const UNIT_05 = {
        sSrc:"{1} a cat in the garden."},
 
       {type:"mc", q:"Which room word is masculine?",
-       opts:["Il bagno","La cucina","La camera","La casa"],
+       opts:["La camera","La cucina","Il bagno","La casa"],
        ans:"Il bagno",
        hint:"Check the articles. Three of these use 'la' (feminine). One uses 'il' (masculine)."},
 
@@ -156,7 +156,7 @@ const UNIT_05 = {
 
       // Quiz steps
       {type:"mc", q:"Come si dice 'table' in italiano?",
-       opts:["Il tavolo","La sedia","Il letto","Il divano"],
+       opts:["Il tavolo","La sedia (chair)","Il letto (bed)","Il divano (sofa)"],
        ans:"Il tavolo",
        hint:"From Latin 'tabula' (board). English 'table' comes from the same root through French."},
 
@@ -175,18 +175,18 @@ const UNIT_05 = {
       ]},
 
       {type:"mc", q:"What does 'dove' mean?",
-       opts:["Where","When","Who","Why"],
+       opts:["When (time)","Where","Who (person)","Why (reason)"],
        ans:"Where",
        hint:"This question word asks about location. It often contracts to 'dov'e' before the verb 'is.'"},
 
       {type:"fb", s:"{1} il bagno?",
        a:["Dov'e"],
        opts:["Dov'e","Chi e","Come e","Quando e"],
-       hint:"You are asking about the location of something. Use the contracted form of 'dove' + 'e.'",
+       hint:"To ask about a place, combine the location question word with the verb 'is.' The result contracts.",
        sSrc:"{1} the bathroom?"},
 
       {type:"mc", q:"Which furniture word is feminine?",
-       opts:["La sedia","Il tavolo","Il letto","Il divano"],
+       opts:["Il letto","Il tavolo","La sedia","Il divano"],
        ans:"La sedia",
        hint:"Check the articles. Three use 'il' (masculine). One uses 'la' (feminine), related to 'sedere' (to sit)."},
 
@@ -197,7 +197,7 @@ const UNIT_05 = {
        sSrc:"I'm {1}, in the living room."},
 
       {type:"mc", q:"What word means 'there' (away from the speaker)?",
-       opts:["La (accented)","Qui","Dove","Casa"],
+       opts:["Casa (home/house)","Qui (short: here)","Dove (question word)","La (accented)"],
        ans:"La (accented)",
        hint:"Written with an accent to distinguish it from the feminine article. It indicates a distant location."}
     ]},
@@ -264,9 +264,9 @@ const UNIT_05 = {
       ]},
 
       {type:"mc", q:"Which article goes with 'armadio'?",
-       opts:["L' (masculine)","Il","La","Lo"],
+       opts:["Il (before consonant)","L' (masculine)","La (feminine form)","Lo (before z/gn/sp)"],
        ans:"L' (masculine)",
-       hint:"This masculine noun starts with a vowel. The masculine article 'il/lo' contracts before vowels."},
+       hint:"This noun begins with a vowel. Italian definite articles contract before vowel-starting nouns of one gender."},
 
       {type:"fb", s:"I vestiti sono nell'{1}.",
        a:["armadio"],
@@ -275,7 +275,7 @@ const UNIT_05 = {
        sSrc:"The clothes are in the {1}."},
 
       {type:"mc", q:"What does 'il quadro' mean?",
-       opts:["The painting","The table","The chair","The garden"],
+       opts:["The chair (sedia)","The table (tavolo)","The painting","The garden (giardino)"],
        ans:"The painting",
        hint:"From Latin 'quadrum' (square, frame). It refers to something framed and hung on the wall."},
 
@@ -286,9 +286,9 @@ const UNIT_05 = {
        sSrc:"There is a {1} next to the sofa."},
 
       {type:"mc", q:"Why does 'specchio' use the article 'lo'?",
-       opts:["It starts with s + consonant (sp)","It starts with a vowel","It is feminine","It is plural"],
+       opts:["It is plural","It starts with a vowel","It is feminine","It starts with s + consonant (sp)"],
        ans:"It starts with s + consonant (sp)",
-       hint:"The special masculine article 'lo' is used before z, s+consonant, gn, ps, and x."}
+       hint:"The word begins with a cluster that makes 'il' awkward to pronounce. Italian uses a different article to keep speech flowing smoothly."}
     ]},
     EXP_05_L1, EXP_05_L2, EXP_05_L3,
   ]

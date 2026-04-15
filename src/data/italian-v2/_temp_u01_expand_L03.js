@@ -114,7 +114,7 @@ const LESSON_5 = {
     {type:"mc", q:"What is the difference between 'giornata' and 'giorno'?",
      opts:["Giornata = the experience, giorno = calendar day","They are the same","Giornata is formal","Giorno is for evenings"],
      ans:"Giornata = the experience, giorno = calendar day",
-     hint:"When wishing someone a good day ahead, use the form that emphasizes the experience of the whole day."},
+     hint:"When wishing someone a good d... ahead, use the form that emphasizes the e... of the whole d...."},
 
     {type:"fb", s:"Non posso venire. Che {1}!",
      a:["peccato"],
@@ -127,16 +127,16 @@ const LESSON_5 = {
      ans:"Benvenute",
      hint:"Gender agreement applies even to greetings. All-female plural takes the -e ending."},
 
-    {type:"fb", s:"Ho vinto! {1}? Si, davvero!",
+    {type:"fb", s:"Ho vinto un milione! {1}? Non ci credo!",
      a:["Davvero"],
      opts:["Davvero","Magari","Peccato","Bello"],
      hint:"You are asking if something is true. This word literally means 'from truth.'",
-     sSrc:"I won! {1}? Yes, really!"},
+     sSrc:"I won a million! {1}? I can not believe it!"},
 
     {type:"mc", q:"What does 'a presto' mean?",
      opts:["See you soon","See you tomorrow","Goodbye forever","Good morning"],
      ans:"See you soon",
-     hint:"'Presto' means 'soon' or 'early.' Combined with 'a' (to/at), it becomes a farewell for the near future."}
+     hint:"'Presto' means 'early' or in the near future. Combined with 'a' (until), it becomes a farewell for the short term."}
   ]
 };
 export default LESSON_5;

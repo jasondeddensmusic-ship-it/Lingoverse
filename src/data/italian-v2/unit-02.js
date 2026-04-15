@@ -86,7 +86,7 @@ const UNIT_02 = {
       ]},
 
       {type:"mc", q:"Qual e il plurale di 'mille'?",
-       opts:["duemila","duemille","duecento","millioni"],
+       opts:["duemille","duemila","duecento","millioni"],
        ans:"duemila",
        hint:"This is an irregular plural. The ending changes from -e to -a when combined with other numbers."},
 
@@ -182,7 +182,7 @@ const UNIT_02 = {
       ]},
 
       {type:"mc", q:"Quale giorno della settimana e femminile?",
-       opts:["Domenica","Sabato","Lunedi","Venerdi"],
+       opts:["Sabato","Domenica","Lunedi","Venerdi"],
        ans:"Domenica",
        hint:"Six days use 'il' (masculine). Only one day uses 'la.' It is the day of the Lord."},
 

@@ -82,7 +82,7 @@ const LESSON_5 = {
      funFact:"包 (wrap) + 丁 (counter/just right). Japanese knives (wa-bocho) are single-beveled, giving extreme precision. Sakai city near Osaka has made knives for 600 years. Professional chefs worldwide seek Japanese knives. Some cost over 100,000 yen."},
 
     {type:"mc", q:"やく covers all EXCEPT:", opts:["Grilling","Baking","Deep-frying","Pan-frying"], ans:"Deep-frying",
-     hint:"Deep-frying has its own specific verb: ageru."},
+     hint:"D...-f... has its own specific verb: ageru."},
 
     {type:"match", pairs:[
       {trg:"きる", src:"to cut"},

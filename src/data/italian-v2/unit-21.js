@@ -1,4 +1,5 @@
 // Italian V2 Unit 21 — Il condizionale (The Conditional Mood) (B1.3)
+import EXP_L4 from './_temp_u21_expand_L01.js';import EXP_L5 from './_temp_u21_expand_L02.js';import EXP_L6 from './_temp_u21_expand_L03.js';
 // CILS/CELI B1 aligned. Conditional formation, irregular stems, usage patterns.
 
 const UNIT_21 = {
@@ -60,7 +61,7 @@ const UNIT_21 = {
 
       // Quiz steps
       {type:"mc", q:"What is the most polite way to order coffee in Italian?",
-       opts:["Vorrei un caffe","Voglio un caffe","Dammi un caffe","Prendo un caffe"],
+       opts:["Vorrei un caffe","Voglio un caffe, subito","Dammi un caffe adesso","Prendo un caffe, grazie"],
        ans:"Vorrei un caffe",
        hint:"The conditional of 'volere' softens the demand. 'Voglio' sounds too direct. This form is essential for polite interactions."},
 
@@ -79,9 +80,9 @@ const UNIT_21 = {
       ]},
 
       {type:"mc", q:"Which tense shares its irregular stems with the conditional?",
-       opts:["The future tense","The imperfect","The passato prossimo","The subjunctive"],
+       opts:["The imperfect","The future tense","The passato prossimo","The subjunctive"],
        ans:"The future tense",
-       hint:"Saro/sarei, avro/avrei, faro/farei. Once you know the future stems, the conditional stems are the same."},
+       hint:"Saro/sarei, avro/avrei, faro/farei. Once you know the f... stems, the conditional stems are the same."},
 
       {type:"fb", s:"{1} andare dal dottore.",
        a:["Dovrei"],
@@ -90,9 +91,9 @@ const UNIT_21 = {
        sSrc:"I {1} go to the doctor."},
 
       {type:"mc", q:"What does 'Cosa faresti al mio posto?' mean?",
-       opts:["What would you do in my place?","What did you do here?","What are you doing now?","What will you do later?"],
+       opts:["What are you doing here right now?","What did you do there yesterday?","What would you do in my place?","What will you do about it later?"],
        ans:"What would you do in my place?",
-       hint:"'Faresti' is the tu conditional of 'fare.' 'Al mio posto' means 'in my place.' This is a hypothetical question."},
+       hint:"'Faresti' is the tu conditional of 'fare.' 'Al mio posto' means 'in my p....' This is a hypothetical question."},
 
       {type:"fb", s:"{1} contento di venire alla festa.",
        a:["Sarei"],
@@ -101,9 +102,9 @@ const UNIT_21 = {
        sSrc:"I {1} happy to come to the party."},
 
       {type:"mc", q:"What is 'avrei bisogno di'?",
-       opts:["I would need (polite request)","I have a need","I will need","I had a need"],
+       opts:["I had a need at that time","I have a need right now","I will certainly need that","I would need (polite request)"],
        ans:"I would need (polite request)",
-       hint:"'Avrei' is the conditional of 'avere.' Combined with 'bisogno di,' it creates a very polite way to ask for something."}
+       hint:"'Avrei' is the conditional of 'avere.' Combined with 'bisogno di,' it creates a very p... way to ask for something."}
     ]},
 
     {id:"itv2_u21l2", title:"Parlerei, scriverei", icon:"📝", xp:15, board:true, steps:[
@@ -166,7 +167,7 @@ const UNIT_21 = {
 
       // Quiz steps
       {type:"mc", q:"What happens to -are verbs in the conditional?",
-       opts:["The -a changes to -e: parlare > parler-","Nothing changes","The -a changes to -i","The -a is dropped completely"],
+       opts:["The -a changes to -e: parlare > parler-","Nothing at all changes in the verb stem","The -a changes to an -i sound instead","The -a ending is simply dropped completely"],
        ans:"The -a changes to -e: parlare > parler-",
        hint:"This vowel shift is the key difference. -Ere and -ire verbs keep their stem vowel. Only -are verbs undergo this change."},
 
@@ -185,9 +186,9 @@ const UNIT_21 = {
       ]},
 
       {type:"mc", q:"Do -isc- verbs like 'finire' keep the -isc- in the conditional?",
-       opts:["No, the conditional is 'finirei' without -isc-","Yes, it is 'finiscirei'","Only in the plural forms","Only in the io form"],
+       opts:["Yes, all persons use 'finiscirei'","No, the conditional is 'finirei' without -isc-","Only in the plural forms of the verb","Only in the io form of the verb"],
        ans:"No, the conditional is 'finirei' without -isc-",
-       hint:"The conditional strips away all present tense quirks. The stem is simply the infinitive minus final -e."},
+       hint:"The c... strips away all present tense quirks. The stem is simply the infinitive minus final -e."},
 
       {type:"fb", s:"{1} restare a casa.",
        a:["Preferirei"],
@@ -196,7 +197,7 @@ const UNIT_21 = {
        sSrc:"I {1} to stay at home."},
 
       {type:"mc", q:"Which set of endings does the conditional use?",
-       opts:["-ei, -esti, -ebbe, -emmo, -este, -ebbero","-o, -i, -a, -iamo, -iate, -ino","-avo, -avi, -ava, -avamo, -avate, -avano","-o, -i, -e, -iamo, -ete, -ono"],
+       opts:["-avo, -avi, -ava, -avamo, -avate, -avano (imperfect)","-o, -i, -a, -iamo, -iate, -ino","-ei, -esti, -ebbe, -emmo, -este, -ebbero","-o, -i, -e, -iamo, -ete, -ono"],
        ans:"-ei, -esti, -ebbe, -emmo, -este, -ebbero",
        hint:"These endings are the same for all three conjugation classes. The double -bb in the third person forms is distinctive."},
 
@@ -207,9 +208,9 @@ const UNIT_21 = {
        sSrc:"Marco {1} gladly eat pizza."},
 
       {type:"mc", q:"Why do the future and conditional share irregular stems?",
-       opts:["Both evolved from the Latin infinitive plus forms of 'avere'","It is a coincidence","They were invented at the same time","Italian grammar always pairs two tenses"],
+       opts:["Italian grammar always links two tenses together","It is simply a coincidence in Italian","They were created at the same time by grammarians","Both evolved from the Latin infinitive plus forms of 'avere'"],
        ans:"Both evolved from the Latin infinitive plus forms of 'avere'",
-       hint:"The future used 'habeo' (I have) and the conditional used 'habebam' (I had). Same infinitive base, different 'avere' form."}
+       hint:"The future used 'habeo' (I have) and the conditional used 'habebam' (I had). Same i... base, different 'a...' form."}
     ]},
 
     {id:"itv2_u21l3", title:"Usi del condizionale", icon:"💬", xp:15, board:true, steps:[
@@ -266,9 +267,9 @@ const UNIT_21 = {
 
       // Quiz steps
       {type:"mc", q:"Which is more refined: 'vorrei' or 'mi piacerebbe'?",
-       opts:["'Mi piacerebbe' is more elegant","'Vorrei' is more elegant","They are identical","Neither is polite"],
+       opts:["'Mi piacerebbe' is more elegant","'Vorrei' is the more elegant choice","They are completely identical in register","Neither expression is considered polite"],
        ans:"'Mi piacerebbe' is more elegant",
-       hint:"'Mi piacerebbe' literally means 'it would please me.' It signals sophistication in formal writing and elegant speech."},
+       hint:"'Mi p...' literally means 'it would please me.' It signals sophistication in formal writing and e... speech."},
 
       {type:"fb", s:"{1} chiudere la finestra?",
        a:["Potresti"],
@@ -285,9 +286,9 @@ const UNIT_21 = {
       ]},
 
       {type:"mc", q:"What does the conditional mean in Italian journalism?",
-       opts:["Unconfirmed or reported information","A polite request from the journalist","A hypothetical event","The journalist's personal wish"],
-       ans:"Unconfirmed or reported information",
-       hint:"'Il presidente sarebbe in ospedale' means the president is reportedly there. The conditional signals unverified news."},
+       opts:["A polite request from the journalist","Unconfirmed or allegedly true information","A hypothetical future event","The journalist's personal wish"],
+       ans:"Unconfirmed or allegedly true information",
+       hint:"'Il presidente sarebbe in ospedale' signals the news is not yet certain. It is the Italian equivalent of 'sources say' or 'reportedly.'"},
 
       {type:"fb", s:"Al posto tuo, {1} l'offerta.",
        a:["accetterei"],
@@ -296,9 +297,9 @@ const UNIT_21 = {
        sSrc:"In your place, I {1} the offer."},
 
       {type:"mc", q:"When do you use 'potresti' versus 'potrebbe'?",
-       opts:["Potresti with tu (informal), potrebbe with Lei (formal)","Potresti in writing, potrebbe in speech","They are interchangeable","Potresti for questions, potrebbe for statements"],
+       opts:["They are interchangeable","Potresti in writing, potrebbe in speech","Potresti with tu (informal), potrebbe with Lei (formal)","Potresti for questions, potrebbe for statements"],
        ans:"Potresti with tu (informal), potrebbe with Lei (formal)",
-       hint:"The conditional follows the same tu/Lei distinction as all other verb forms. Match formality to the situation."},
+       hint:"Think of who you are addressing: a friend or a stranger. Italian respects the same two-tier system in every tense, including the conditional."},
 
       {type:"fb", s:"{1} meglio partire presto.",
        a:["Sarebbe"],
@@ -306,10 +307,10 @@ const UNIT_21 = {
        hint:"It would be better to leave early. This impersonal conditional of 'essere' softens the suggestion diplomatically.",
        sSrc:"It {1} better to leave early."},
 
-      {type:"mc", q:"What is the full conditional pattern for giving advice?",
-       opts:["Al posto tuo + conditional verb","Secondo me + indicative","Penso che + subjunctive","Bisogna + infinitive"],
+      {type:"mc", q:"What is the full pattern for giving advice without sounding preachy?",
+       opts:["Bisogna + an infinitive verb form","Secondo me + an indicative verb form","Penso che + a subjunctive verb form","Al posto tuo + conditional verb"],
        ans:"Al posto tuo + conditional verb",
-       hint:"'In your place, I would...' uses the conditional. It avoids sounding preachy while giving a clear opinion."}
+       hint:"'If I were in your situation...' introduces advice diplomatically. The structure uses a position expression followed by a hypothetical mood."}
     ]}
   ]
 };

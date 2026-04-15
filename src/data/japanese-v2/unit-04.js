@@ -39,7 +39,7 @@ const UNIT_04 = {
    exampleSrc:"A: Is this watch cheap?\nB: Yes, it is 1000 yen.",
    funFact:"安 means peace/safety. Cheap prices bring peace of mind. The same kanji appears in anzen (安全, safety) and anshin (安心, peace of mind). Yasui also means 'easy to do' as a suffix: tabe-yasui (easy to eat)."},
 
-  {type:"mc", q:"いくらですか means:", opts:["What is it?","Where is it?","How much is it?","How many?"], ans:"How much is it?",
+  {type:"mc", q:"いくらですか means:", opts:["How much is it?","Where is it?","What is it?","How many?"], ans:"How much is it?",
    hint:"The essential shopping question for asking about price."},
 
   {type:"teach", trg:"おおきい", src:"big / large", pos:"adj", gender:null,
@@ -75,7 +75,7 @@ const UNIT_04 = {
    exampleSrc:"A: How much are the white glasses?\nB: 1000 yen.",
    funFact:"White represents purity and mourning in Japan. Brides wear white (shiromuku) at Shinto weddings. Funeral envelopes are white. The contrast with Western culture where white means only celebration and black means mourning."},
 
-  {type:"mc", q:"あお traditionally covers:", opts:["Only blue","Only green","Blue and red","Blue and green"], ans:"Blue and green",
+  {type:"mc", q:"あお traditionally covers:", opts:["Only blue","Blue and green","Blue and red","Only green"], ans:"Blue and green",
    hint:"Japanese originally had just four basic color terms, and ao covered a wide range."},
 
   {type:"teach", trg:"くろ", src:"black", pos:"noun", gender:null,
@@ -103,7 +103,7 @@ const UNIT_04 = {
   {type:"fb", s:"この かばんは ___い です。\n(This bag is expensive.)", a:"たか", opts:["たか","やす","おおき","ちいさ"], sSrc:"This bag is expensive.",
    hint:"The i-adjective meaning expensive or high."},
 
-  {type:"mc", q:"Which is the correct pair of opposites?", opts:["たかい / やすい","おおきい / やすい","たかい / ちいさい","あかい / あおい"], ans:"たかい / やすい",
+  {type:"mc", q:"Which is the correct pair of opposites?", opts:["たかい / ちいさい","おおきい / やすい","たかい / やすい","あかい / あおい"], ans:"たかい / やすい",
    hint:"One means expensive, the other means cheap."},
 
   {type:"tip", title:"I-Adjectives: A Quick Intro",
@@ -111,8 +111,8 @@ const UNIT_04 = {
    deepDive:{title:"Na-adjectives preview",
     text:"Na-adjectives need な before a noun:\nべんり + な + かばん = convenient bag\nきれい + な + とけい = beautiful watch\n\nYou will learn na-adjectives properly in a later unit. For now, just notice that some descriptive words need な and some do not."}},
 
-  {type:"mc", q:"あかいかさ means:", opts:["big umbrella","red umbrella","expensive umbrella","old umbrella"], ans:"red umbrella",
-   hint:"Akai is the i-adjective form of aka (red)."},
+  {type:"mc", q:"あかいかさ means:", opts:["big umbrella","old umbrella","expensive umbrella","red umbrella"], ans:"red umbrella",
+   hint:"Akai is the i-adjective form of aka (r...)."},
 ]},
 
 // ═══ L2: すうじ (Numbers & Counters) ═══
@@ -139,8 +139,8 @@ const UNIT_04 = {
    exampleSrc:"A: How much is this watch?\nB: It is 10,000 yen.",
    funFact:"The 10,000-yen bill is the largest common banknote, worth roughly 65-70 USD. Japanese people often use ichiman (10,000) as a mental unit the way English speakers use 'a thousand.' Counting above 9,999 requires the man unit."},
 
-  {type:"mc", q:"にせんえん means:", opts:["200 yen","20,000 yen","2 yen","2,000 yen"], ans:"2,000 yen",
-   hint:"Ni (two) + sen (thousand) + en (yen)."},
+  {type:"mc", q:"にせんえん means:", opts:["2,000 yen","20,000 yen","2 yen","200 yen"], ans:"2,000 yen",
+   hint:"Ni (two) + sen (thousand) + en (y...)."},
 
   {type:"teach", trg:"こ", src:"(counter for small objects)", pos:"part", gender:null,
    note:"General counter for small, round, or compact items. Apples, eggs, erasers, etc.\nKanji: 個.",
@@ -160,7 +160,7 @@ const UNIT_04 = {
    exampleSrc:"A: Two pens, please.\nB: Two pens, right?",
    funFact:"This is the same kanji 本 as in hon (book), but used as a counter it means long thin things. Sound changes: ippon (1), nihon (2), sanbon (3), yonhon (4), gohon (5), roppon (6), nanahon (7), happon (8), kyuuhon (9), juppon (10)."},
 
-  {type:"mc", q:"Which counter would you use for a plate?", opts:["こ","ほん","えん","まい"], ans:"まい",
+  {type:"mc", q:"Which counter would you use for a plate?", opts:["かいすう","まい","えん","ほん"], ans:"まい",
    hint:"Plates are flat objects. The flat-object counter is the right choice."},
 
   {type:"tip", title:"Counter Sound Changes",
@@ -189,8 +189,8 @@ const UNIT_04 = {
    exampleSrc:"A: How much is this watch?\nB: It is 5,000 yen.",
    funFact:"The 5,000-yen bill features Tsuda Umeko, a pioneering educator who studied in America at age 6 in 1871 and later founded Tsuda University. She replaced the previous male portrait in the 2024 redesign."},
 
-  {type:"mc", q:"いっぽん is the counter reading for:", opts:["One flat object","One long object","One small object","One yen"], ans:"One long object",
-   hint:"Pon/bon/hon is the long-object counter. Ippon = one long thing."},
+  {type:"mc", q:"いっぽん is the counter reading for:", opts:["One flat object","One small object","One long object","One yen"], ans:"One long object",
+   hint:"Pon/bon/hon is the l...-o... counter. Ippon = one l... thing."},
 
   {type:"fb", s:"この とけいは ___えん です。\n(This watch is 10,000 yen.)", a:"いちまん", opts:["いちまん","じゅう","ひゃく","せん"], sSrc:"This watch is 10,000 yen.",
    hint:"The unit for ten thousand in Japanese."},
@@ -199,7 +199,7 @@ const UNIT_04 = {
 
   {type:"match", pairs:[{trg:"こ",src:"counter: small objects"},{trg:"まい",src:"counter: flat objects"},{trg:"ほん",src:"counter: long objects"},{trg:"ください",src:"please (give me)"}]},
 
-  {type:"mc", q:"How do you say 'two flat objects' (like two tickets)?", opts:["にこ","にほん","にまい","にえん"], ans:"にまい",
+  {type:"mc", q:"How do you say 'two flat objects' (like two tickets)?", opts:["にこ","にほん","にじゅう","にまい"], ans:"にまい",
    hint:"Flat things use the mai counter. No sound changes with two."},
 
   {type:"mc", q:"さんぜん means:", opts:["3,000","30,000","30","300"], ans:"3,000",
@@ -208,7 +208,7 @@ const UNIT_04 = {
   {type:"fb", s:"りんごを ___こ ください。\n(Five apples, please.)", a:"ご", opts:["ご","さん","に","ろっ"], sSrc:"Five apples, please.",
    hint:"The number that comes before ko for five small items."},
 
-  {type:"mc", q:"You want to buy 2 bottles of water. Which is correct?", opts:["みずをにまいください","みずをにこください","みずをにほんください","みずをにえんください"], ans:"みずをにほんください",
+  {type:"mc", q:"You want to buy 2 bottles of water. Which is correct?", opts:["みずをにまいください","みずをにほんください","みずをにこください","ふたつのみずをください"], ans:"みずをにほんください",
    hint:"Bottles are long, cylindrical objects. Use the matching counter."},
 
   {type:"tip", title:"Shopping Survival Kit",

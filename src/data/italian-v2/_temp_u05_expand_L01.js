@@ -78,7 +78,7 @@ const LESSON_4 = {
     {type:"mc", q:"What is the difference between 'cucinare' and 'cuocere'?",
      opts:["Cucinare = person cooks, cuocere = food cooks","They are identical","Cucinare is formal","Cuocere is for baking only"],
      ans:"Cucinare = person cooks, cuocere = food cooks",
-     hint:"Italian has two cooking verbs. One is for the human activity, the other for the physical process of heat on food."},
+     hint:"Italian has two cooking verbs. One is for the human activity, the other for the physical process of heat on f...."},
 
     {type:"fb", s:"Devo {1} la cucina.",
      a:["pulire"],
@@ -89,7 +89,7 @@ const LESSON_4 = {
     {type:"mc", q:"What does the -trice suffix create?",
      opts:["Feminine machine nouns","Masculine nouns","Verb forms","Adjectives"],
      ans:"Feminine machine nouns",
-     hint:"Lavare + -trice = lavatrice. This suffix turns verbs into the machines that do the action."},
+     hint:"Lavare + -trice = lavatrice. This suffix attaches to a verb stem to name the device performing the action."},
 
     {type:"fb", s:"Puoi {1} la tavola?",
      a:["apparecchiare"],
@@ -108,7 +108,7 @@ const LESSON_4 = {
     {type:"mc", q:"What is 'il pavimento'?",
      opts:["The floor","The pavement","The wall","The ceiling"],
      ans:"The floor",
-     hint:"From Latin 'pavimentum' (beaten surface). In Italian, this refers to indoor floors, not outdoor pavement."},
+     hint:"From Latin 'pavimentum' (beaten surface). In Italian, this word applies to indoor surfaces, not outdoor pavement."},
 
     {type:"fb", s:"I vestiti sono nell'{1}.",
      a:["armadio"],
@@ -130,7 +130,7 @@ const LESSON_4 = {
     {type:"mc", q:"Why is line-drying common in Italy?",
      opts:["Dryers are less common; line-drying is the cultural norm","Dryers are illegal","There is no electricity for dryers","Italians prefer wrinkled clothes"],
      ans:"Dryers are less common; line-drying is the cultural norm",
-     hint:"Small apartments and good weather make outdoor drying practical. Many Italian buildings have shared clotheslines."}
+     hint:"Small apartments and good weather make outdoor clothes hanging practical. Many Italian buildings have shared terraces with racks."}
   ]
 };
 export default LESSON_4;

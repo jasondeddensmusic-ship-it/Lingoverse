@@ -1,4 +1,5 @@
 // Japanese V2 Unit 25 — ビジネス (Business Japanese)
+import EXP_L3 from './_temp_u25_expand_L01.js';import EXP_L4 from './_temp_u25_expand_L02.js';import EXP_L5 from './_temp_u25_expand_L03.js';
 // Level: B2.1 — JLPT N2 aligned.
 // かいぎ, しりょう, ていあん, ほうこく, けいやく, のうき, keigo in business.
 
@@ -32,7 +33,7 @@ const UNIT_25 = {
    exampleSrc:"A: I would like to make a proposal for a new project.\nB: Then please present it at next week's meeting.",
    funFact:"提案 uses 提 (present/submit) and 案 (idea/plan). The 案 kanji appears in many planning words: きあん (draft), たいあん (alternative plan), げんあん (original plan). In Japanese business, proposals are rarely rejected directly. Instead, they are 'considered' (検討します, kentou shimasu), which sometimes means a polite no."},
 
-  {type:"mc", q:"しりょうをくばる means:", opts:["To prepare materials","To hand out materials to people","To discard materials","To request materials"], ans:"To hand out materials to people",
+  {type:"mc", q:"しりょうをくばる means:", opts:["To hand out materials to people","To prepare materials","To discard materials","To request materials"], ans:"To hand out materials to people",
    hint:"くばる means to pass something around to multiple recipients."},
 
   {type:"teach", trg:"ほうこく", src:"report", pos:"noun", gender:null,
@@ -61,7 +62,7 @@ const UNIT_25 = {
    exampleSrc:"A: When is the report submission deadline?\nB: Next Monday.",
    funFact:"提出 shares the 提 kanji with 提案 (proposal). Both involve presenting something to someone. In Japanese schools and offices, ていしゅつ is a daily word. Students submit homework (しゅくだいをていしゅつする), employees submit reports, and citizens submit forms at city hall."},
 
-  {type:"mc", q:"ほうれんそう in business stands for:", opts:["Report, Contact, Consult","Meeting, Materials, Proposal","Spinach, lettuce, carrots","Planning, Doing, Checking"], ans:"Report, Contact, Consult",
+  {type:"mc", q:"ほうれんそう in business stands for:", opts:["Meeting, Materials, Proposal","Report, Contact, Consult","Spinach, lettuce, carrots","Planning, Doing, Checking"], ans:"Report, Contact, Consult",
    hint:"This communication framework has three components: ほうこく, れんらく, そうだん."},
 
   {type:"match", pairs:[{trg:"かいぎ",src:"meeting"},{trg:"しりょう",src:"materials"},{trg:"ていあん",src:"proposal"},{trg:"ほうこく",src:"report"}]},
@@ -94,7 +95,7 @@ const UNIT_25 = {
    exampleSrc:"A: This contract requires legal department approval.\nB: Understood. I will circulate the documents.",
    funFact:"Japanese companies use 部 (bu, department) as their main organizational unit. Common ones: 営業部 (sales), 人事部 (HR), 経理部 (accounting), 総務部 (general affairs), 開発部 (development). The department you belong to often defines your identity more than your job title."},
 
-  {type:"mc", q:"けいやくをむすぶ means:", opts:["To break an agreement","To review an agreement","To formally enter into an agreement","To propose an agreement"], ans:"To formally enter into an agreement",
+  {type:"mc", q:"けいやくをむすぶ means:", opts:["To formally enter into an agreement","To review an agreement","To break an agreement","To propose an agreement"], ans:"To formally enter into an agreement",
    hint:"むすぶ means to tie or bind, used for establishing formal binding arrangements."},
 
   {type:"teach", trg:"かくにん", src:"confirmation / verification", pos:"noun", gender:null,
@@ -129,17 +130,18 @@ const UNIT_25 = {
    exampleSrc:"A: In Japan, the end of March is the end of the fiscal year.\nB: The new fiscal year starts in April.",
    funFact:"Japan's fiscal year runs April to March, unlike most Western countries (January to December). This means March is incredibly busy: companies close books, employees get transferred, and students graduate. The phrase 年度末 (nendo-matsu, fiscal year-end) is synonymous with chaos in Japanese offices."},
 
-  {type:"mc", q:"いたします is the keigo form of:", opts:["います","します","きます","みます"], ans:"します",
-   hint:"This humble verb is used when you perform an action that serves the listener."},
+  {type:"mc", q:"The keigo verb いたす is used in place of which everyday verb?", opts:["います","します","きます","みます"], ans:"します",
+   hint:"This humble verb replaces the plain verb for doing or performing an action."},
 
   {type:"match", pairs:[{trg:"けいやく",src:"contract"},{trg:"のうき",src:"delivery date"},{trg:"いたします",src:"will do (humble)"},{trg:"しょうにん",src:"approval"}]},
 
   {type:"fb", s:"すぐにかくにん___。\n(I will confirm it right away.)", a:"いたします", opts:["いたします","します","なさいます","ください"], sSrc:"I will confirm it right away.",
    hint:"The humble keigo form of します, used when your action serves the listener."},
 
-  {type:"mc", q:"ほうむぶ means:", opts:["Sales department","Legal department","Accounting department","Human resources"], ans:"Legal department",
+  {type:"mc", q:"ほうむぶ means:", opts:["Sales department","Accounting department","Legal department","Human resources"], ans:"Legal department",
    hint:"ほう (法) relates to law, む (務) to duty, and ぶ (部) to section within a company."},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_25;

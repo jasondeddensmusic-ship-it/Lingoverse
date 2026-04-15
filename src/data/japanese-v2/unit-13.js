@@ -39,7 +39,7 @@ const UNIT_13 = {
    exampleSrc:"A: Was it a good experience?\nB: Yes, it was a wonderful experience.",
    funFact:"経験 combines 経 (pass through) and 験 (test/proof). In job interviews, keiken is a key word: shigoto no keiken (work experience). The word also appears in the proverb keiken ni masaru sensei nashi (no teacher surpasses experience)."},
 
-  {type:"mc", q:"すしをたべたことがある means:", opts:["I want to eat sushi","I ate sushi yesterday","I have eaten sushi before","I am eating sushi"], ans:"I have eaten sushi before",
+  {type:"mc", q:"すしをたべたことがある means:", opts:["I have eaten sushi before","I ate sushi yesterday","I want to eat sushi","I am eating sushi"], ans:"I have eaten sushi before",
    hint:"The た-form + ことがある pattern describes a past life experience."},
 
   {type:"teach", trg:"はじめて", src:"for the first time", pos:"adv", gender:null,
@@ -79,8 +79,8 @@ const UNIT_13 = {
 
   {type:"match", pairs:[{trg:"のぼる",src:"to climb"},{trg:"くに",src:"country"},{trg:"たことがある",src:"have done before"},{trg:"たことがない",src:"have never done"}]},
 
-  {type:"mc", q:"のぼったことがない means:", opts:["I climbed before","I have never climbed","I want to climb","I am climbing"], ans:"I have never climbed",
-   hint:"た-form + ことがない is the negative experience pattern: never done."},
+  {type:"mc", q:"のぼったことがない means:", opts:["I climbed before","I want to climb","I have never climbed","I am climbing"], ans:"I have never climbed",
+   hint:"た-form + ことがない is the negative experience pattern: n... done."},
 ]},
 
 // ═══ L2: りょこうのはなし (Travel Stories) ═══
@@ -113,8 +113,8 @@ const UNIT_13 = {
    exampleSrc:"A: Have you been to a Japanese festival before?\nB: Yes, I went to a fireworks festival.",
    funFact:"Japan holds thousands of festivals yearly. Each neighborhood has its own matsuri, often with portable shrines (mikoshi) carried through streets. Summer festivals feature yukata (light kimono), festival food stalls (yatai), and spectacular fireworks (hanabi)."},
 
-  {type:"mc", q:"おてら and じんじゃ are:", opts:["both Buddhist","both Shinto","temple (Buddhist) and shrine (Shinto)","restaurant and hotel"], ans:"temple (Buddhist) and shrine (Shinto)",
-   hint:"One is for Buddhist worship, the other for Shinto worship."},
+  {type:"mc", q:"おてら and じんじゃ are:", opts:["temple (Buddhist) and shrine (Shinto)","both Shinto","both Buddhist","restaurant and hotel"], ans:"temple (Buddhist) and shrine (Shinto)",
+   hint:"One is for B... worship, the other for S... worship."},
 
   {type:"teach", trg:"のりもの", src:"vehicle / transportation", pos:"noun", gender:null,
    note:"General word for things you ride. のる (to ride) + もの (thing).\nKanji: 乗り物.",
@@ -149,7 +149,7 @@ const UNIT_13 = {
    exampleSrc:"A: Have you been to Japan before?\nB: Yes, many times.",
    funFact:"なんども is built from the counter ど (times): いちど (once), にど (twice), さんど (three times), なんど (how many times). Adding も creates emphasis: 'so many times that I have lost count.' It conveys genuine enthusiasm about repeated experience."},
 
-  {type:"mc", q:"ひこうき means:", opts:["bus","bicycle","airplane","boat"], ans:"airplane",
+  {type:"mc", q:"ひこうき means:", opts:["bus","airplane","bicycle","boat"], ans:"airplane",
    hint:"A compound meaning 'fly-go-machine' with the kanji for flight."},
 
   {type:"match", pairs:[{trg:"おてら",src:"temple"},{trg:"じんじゃ",src:"shrine"},{trg:"おんせん",src:"hot spring"},{trg:"おまつり",src:"festival"}]},
@@ -159,8 +159,8 @@ const UNIT_13 = {
   {type:"fb", s:"にほんに___もいきました。\n(I have been to Japan many times.)", a:"なんど", opts:["なんど","いちど","はじめて","まだ"], sSrc:"I have been to Japan many times.",
    hint:"The counter-based word meaning 'how many times' that with も means 'many times.'"},
 
-  {type:"mc", q:"おんせんにはいったことがない means:", opts:["I bathed in a hot spring","I have never bathed in a hot spring","I want a hot spring","I like hot springs"], ans:"I have never bathed in a hot spring",
-   hint:"た-form + ことがない = have never done the action before."},
+  {type:"mc", q:"おんせんにはいったことがない means:", opts:["I bathed in a hot spring","I want a hot spring","I have never bathed in a hot spring","I like hot springs"], ans:"I have never bathed in a hot spring",
+   hint:"た-form + ことがない = have n... done the action before."},
 ]},
 
 ]};

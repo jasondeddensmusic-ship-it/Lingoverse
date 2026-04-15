@@ -1,4 +1,5 @@
 // Japanese V2 Unit 26 — ニュース (News & Media)
+import EXP_L3 from './_temp_u26_expand_L01.js';import EXP_L4 from './_temp_u26_expand_L02.js';import EXP_L5 from './_temp_u26_expand_L03.js';
 // Level: B2.1 — JLPT N2 aligned.
 // ほうどう, きじ, とくしゅう, しゃせつ, せいさく, こっかい, formal expressions.
 
@@ -32,7 +33,7 @@ const UNIT_26 = {
    exampleSrc:"A: This month's magazine has a special feature on environmental issues.\nB: I would like to read it.",
    funFact:"特集 combines 特 (special) and 集 (gather/collect). Japanese magazines love とくしゅう issues. Fashion magazines have seasonal とくしゅう, news magazines have topical ones. TV networks run とくしゅう番組 (special feature programs) on holidays, often 3-4 hours long."},
 
-  {type:"mc", q:"ほうどうきかん means:", opts:["A newspaper article","An entity dedicated to covering events","A television program","A press conference"], ans:"An entity dedicated to covering events",
+  {type:"mc", q:"ほうどうきかん means:", opts:["An entity dedicated to covering events","A newspaper article","A television program","A press conference"], ans:"An entity dedicated to covering events",
    hint:"ほうどう (reporting) + きかん (institution) form a compound for bodies producing journalism."},
 
   {type:"teach", trg:"しゃせつ", src:"editorial / opinion column", pos:"noun", gender:null,
@@ -91,7 +92,7 @@ const UNIT_26 = {
    exampleSrc:"A: I heard there will be an announcement at tomorrow's press conference.\nB: I wonder what the content will be.",
    funFact:"発表 uses 発 (emit/start) and 表 (surface/express). This word bridges business and media: students give はっぴょう in class, companies はっぴょう products, governments はっぴょう policies. The related 記者会見 (kisha kaiken, press conference) is where officials make formal はっぴょう to the media."},
 
-  {type:"mc", q:"こっかいであたらしいほうあんがしんぎされている means:", opts:["The legislature rejected the proposed law","A proposed law is now under examination in the legislature","The legislature announced a passed law","The legislature complex was recently built"], ans:"A proposed law is now under examination in the legislature",
+  {type:"mc", q:"こっかいであたらしいほうあんがしんぎされている means:", opts:["A proposed law is now under examination in the legislature","The legislature rejected the proposed law","The legislature announced a passed law","The legislature complex was recently built"], ans:"A proposed law is now under examination in the legislature",
    hint:"しんぎされている is the passive progressive, showing an ongoing deliberation process."},
 
   {type:"teach", trg:"ほうあん", src:"bill / legislative proposal", pos:"noun", gender:null,
@@ -115,7 +116,7 @@ const UNIT_26 = {
    exampleSrc:"A: Do you agree with this plan?\nB: Yes, I am in favor.",
    funFact:"賛成 and はんたい (反対) are the yin and yang of Japanese debate. In meetings, votes are often taken with a show of hands: さんせいのかた？はんたいのかた？ (Those in favor? Those opposed?). The culture generally avoids direct はんたい, preferring softer expressions like ちょっとむずかしいかもしれません (it might be a little difficult)."},
 
-  {type:"mc", q:"ほうあん is different from ほうりつ because:", opts:["ほうあん is a bill not yet passed into law","ほうあん is an older law","They mean the same thing","ほうあん only applies to criminal law"], ans:"ほうあん is a bill not yet passed into law",
+  {type:"mc", q:"ほうあん is different from ほうりつ because:", opts:["ほうあん is an older law","ほうあん is a bill not yet passed into law","They mean the same thing","ほうあん only applies to criminal law"], ans:"ほうあん is a bill not yet passed into law",
    hint:"The 案 (proposal) kanji indicates this is still at the proposal stage."},
 
   {type:"match", pairs:[{trg:"せいさく",src:"policy"},{trg:"こっかい",src:"parliament"},{trg:"はっぴょう",src:"announcement"},{trg:"ほうあん",src:"bill (legislative)"}]},
@@ -126,5 +127,6 @@ const UNIT_26 = {
   {type:"match", pairs:[{trg:"きしゃかいけん",src:"press conference"},{trg:"さんせい",src:"agreement"},{trg:"じけん",src:"incident"},{trg:"せいさく",src:"policy"}]},
 ]},
 
+,EXP_L3,EXP_L4,EXP_L5
 ]};
 export default UNIT_26;

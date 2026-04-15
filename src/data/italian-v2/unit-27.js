@@ -1,4 +1,5 @@
 // Italian V2 Unit 27 — La scienza (B2.1)
+import EXP_L4 from './_temp_u27_expand_L01.js';import EXP_L5 from './_temp_u27_expand_L02.js';import EXP_L6 from './_temp_u27_expand_L03.js';
 // CILS B2 aligned. Science, research, and discovery vocabulary.
 
 const UNIT_27 = {
@@ -75,7 +76,7 @@ const UNIT_27 = {
 
       {type:"mc",
        q:"Che cosa protegge un brevetto?",
-       opts:["Un'invenzione o una tecnologia nuova","Un libro o un romanzo","Una teoria scientifica","Un metodo di insegnamento"],
+       opts:["Un libro o un romanzo","Un'invenzione o una tecnologia nuova","Una teoria scientifica","Un metodo di insegnamento"],
        ans:"Un'invenzione o una tecnologia nuova",
        hint:"This legal protection prevents others from copying your invention. Venice created the first system for this in 1474."},
 
@@ -96,7 +97,7 @@ const UNIT_27 = {
 
       {type:"mc",
        q:"Che differenza c'e tra un'ipotesi e una teoria?",
-       opts:["L'ipotesi e provvisoria, la teoria e supportata da molte prove","Sono la stessa cosa","La teoria viene prima dell'ipotesi","L'ipotesi e sempre vera"],
+       opts:["La teoria viene prima dell'ipotesi","Sono la stessa cosa","L'ipotesi e provvisoria, la teoria e supportata da molte prove","L'ipotesi e sempre vera"],
        ans:"L'ipotesi e provvisoria, la teoria e supportata da molte prove",
        hint:"One is a preliminary guess that needs testing. The other has been confirmed through extensive evidence and experiments over time."}
     ]},
@@ -170,7 +171,7 @@ const UNIT_27 = {
 
       {type:"mc",
        q:"Che cos'e un OGM?",
-       opts:["Un organismo geneticamente modificato","Un ospedale generale municipale","Un ordine giuridico mondiale","Un'organizzazione governativa militare"],
+       opts:["Un ospedale generale municipale","Un organismo geneticamente modificato","Un ordine giuridico mondiale","Un'organizzazione governativa militare"],
        ans:"Un organismo geneticamente modificato",
        hint:"An organism whose DNA has been altered in a laboratory. Italy strictly regulates these in agriculture."},
 
@@ -191,9 +192,9 @@ const UNIT_27 = {
 
       {type:"mc",
        q:"Perche il 'tessuto' biologico si chiama cosi?",
-       opts:["Perche le cellule sono intrecciate come i fili di un tessuto","Perche e stato scoperto da un sarto","Perche si trova solo nella pelle","Perche e morbido come la stoffa"],
+       opts:["Perche si trova solo nella pelle","Perche e stato scoperto da un sarto","Perche le cellule sono intrecciate come i fili di un tessuto","Perche e morbido come la stoffa"],
        ans:"Perche le cellule sono intrecciate come i fili di un tessuto",
-       hint:"The word comes from 'tessere' (to weave). Cells are organized together like threads in a piece of fabric."}
+       hint:"From 'tessere' (to weave). Cells in a tissue are woven together in structure, just as threads form fabric."}
     ]},
 
     // ─── Lesson 3: Progresso e innovazione ───
@@ -265,7 +266,7 @@ const UNIT_27 = {
 
       {type:"mc",
        q:"Che cos'e un comitato etico nella ricerca?",
-       opts:["Un organo che valuta se una ricerca rispetta principi morali","Un gruppo che finanzia gli esperimenti","Un laboratorio specializzato","Un team di ricercatori senior"],
+       opts:["Un gruppo che finanzia gli esperimenti","Un organo che valuta se una ricerca rispetta principi morali","Un laboratorio specializzato","Un team di ricercatori senior"],
        ans:"Un organo che valuta se una ricerca rispetta principi morali",
        hint:"A body that reviews research to ensure it follows moral principles and does not harm participants. Every major institution has one."},
 
@@ -286,7 +287,7 @@ const UNIT_27 = {
 
       {type:"mc",
        q:"Perche molti ricercatori italiani lavorano all'estero?",
-       opts:["Per la scarsita di posizioni e stipendi bassi in Italia","Perche preferiscono il clima di altri paesi","Perche la ricerca italiana e poco apprezzata","Perche le universita italiane sono chiuse"],
+       opts:["Perche la ricerca italiana e poco apprezzata","Perche preferiscono il clima di altri paesi","Per la scarsita di posizioni e stipendi bassi in Italia","Perche le universita italiane sono chiuse"],
        ans:"Per la scarsita di posizioni e stipendi bassi in Italia",
        hint:"Limited job openings and low pay push talented scientists to seek opportunities abroad. This phenomenon is called 'brain drain.'"}
     ]}

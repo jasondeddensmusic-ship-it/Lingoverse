@@ -62,7 +62,7 @@ const LESSON_4 = {id:"itv2_u12l4", title:"I verbi riflessivi al passato", icon:"
   {type:"mc", q:"Which helper verb do ALL reflexive verbs use in the past?",
    opts:["Essere","Avere","Stare","Fare"],
    ans:"Essere",
-   hint:"Every reflexive verb, without exception, takes essere in the passato prossimo. The participle must agree."},
+   hint:"Every reflexive verb, without exception, takes e... in the passato prossimo. The participle must agree."},
 
   {type:"fb", s:"Mi sono {1} alle sei di mattina.",
    a:["svegliato"],
@@ -81,7 +81,7 @@ const LESSON_4 = {id:"itv2_u12l4", title:"I verbi riflessivi al passato", icon:"
   {type:"mc", q:"A woman says she got dressed. Which is correct?",
    opts:["Mi sono vestita","Mi sono vestito","Mi ho vestita","Ho vestito"],
    ans:"Mi sono vestita",
-   hint:"Female speaker = -a ending. Reflexive = essere. First person = mi sono. Everything agrees."},
+   hint:"Female speaker = -a ending. Reflexive = essere. First person = mi s.... Everything agrees."},
 
   {type:"fb", s:"Ci siamo {1} moltissimo alla festa!",
    a:["divertiti"],
@@ -92,7 +92,7 @@ const LESSON_4 = {id:"itv2_u12l4", title:"I verbi riflessivi al passato", icon:"
   {type:"mc", q:"What is the difference between 'svegliarsi' and 'alzarsi'?",
    opts:["Svegliarsi = become conscious, alzarsi = physically get out of bed","They are the same","Alzarsi is formal","Svegliarsi is past only"],
    ans:"Svegliarsi = become conscious, alzarsi = physically get out of bed",
-   hint:"You can be awake (sveglio) but still lying in bed. Getting up (alzarsi) means leaving the bed."},
+   hint:"You can be awake (sveglio) but still lying down. The second verb means raising yourself to a standing position — swinging your legs to the floor."},
 
   {type:"fb", s:"Ti sei {1} le mani prima di mangiare?",
    a:["lavato"],
@@ -103,7 +103,7 @@ const LESSON_4 = {id:"itv2_u12l4", title:"I verbi riflessivi al passato", icon:"
   {type:"mc", q:"What makes 'incontrarsi' different from other reflexives?",
    opts:["It is reciprocal: two people do the action to each other","It is not reflexive","It uses avere","It has no past tense"],
    ans:"It is reciprocal: two people do the action to each other",
-   hint:"Like 'abbracciarsi' (hug each other), this verb implies mutual action between two or more people."},
+   hint:"Like 'abbracciarsi' (hug each o...), this verb implies mutual a... between two or more p...."},
 
   {type:"fb", s:"Mi sono {1} durante il film.",
    a:["addormentato"],
