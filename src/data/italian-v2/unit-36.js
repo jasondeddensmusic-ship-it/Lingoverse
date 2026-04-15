@@ -95,7 +95,7 @@ const UNIT_36 = {
        q:"Qual e la differenza tra 'coerenza' e 'coesione' in un testo?",
        opts:["Sono la stessa cosa","La coerenza riguarda la logica delle idee, la coesione i legami linguistici","La coesione e piu importante della coerenza","La coerenza riguarda la grammatica, la coesione il lessico"],
        ans:"La coerenza riguarda la logica delle idee, la coesione i legami linguistici",
-       hint:"One concerns whether your ideas are logically consistent. The other concerns the words and devices that connect your sentences together."},
+       hint:"One concerns whether your ideas flow in a consistent, non-contradictory way. The other concerns the words and devices that link your sentences together."},
 
       {type:"teach", trg:"l'argomentazione", src:"argumentation / reasoning", pos:"noun", gender:"f",
        note:"Feminine noun. The structured presentation of arguments.\n'Argomentazione solida' = solid argumentation.",

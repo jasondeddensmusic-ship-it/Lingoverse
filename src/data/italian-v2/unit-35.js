@@ -43,7 +43,7 @@ const UNIT_35 = {
        funFact:"Italian speakers use both 'la rete' (the net) and 'Internet' for the web. 'Navigare in rete' (to surf the net) uses the Italian naval metaphor, while 'andare online' borrows directly from English."},
 
       {type:"mc",
-       q:"Come si abbrevia 'intelligenza artificiale' in italiano?",
+       q:"Quale sigla usano gli esperti per questo campo tecnologico?",
        opts:["IA","AI","INT","INA"],
        ans:"IA",
        hint:"Italian uses its own word order: the noun comes first, then the adjective. The abbreviation follows the Italian order."},
