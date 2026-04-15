@@ -1,5 +1,6 @@
 // Italian V2 Unit 10 — I viaggi (Travel) (A2.2)
 // CILS/CELI A2 aligned. Travel vocabulary, hotels, transport.
+import EXP_10_L1 from './_temp_u10_expand_L01.js';import EXP_10_L2 from './_temp_u10_expand_L02.js';import EXP_10_L3 from './_temp_u10_expand_L03.js';
 
 const UNIT_10 = {
   n:10, lang:"it", srcLang:"en", track:"v2",
@@ -307,7 +308,8 @@ const UNIT_10 = {
        opts:["To avoid AM/PM confusion in official schedules","It is a law","Only airports use it","They do not use it"],
        ans:"To avoid AM/PM confusion in official schedules",
        hint:"14:30 is clear and unambiguous. In everyday speech, Italians use both 12-hour and 24-hour time."}
-    ]}
+    ]},
+    EXP_10_L1, EXP_10_L2, EXP_10_L3,
   ]
 };
 export default UNIT_10;
