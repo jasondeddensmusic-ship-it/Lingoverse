@@ -95,7 +95,7 @@ const LESSON_5 = {
     {type:"mc", q:"Which pattern do 'tenere,' 'venire,' and 'rimanere' share in the subjunctive?",
      opts:["They all add -sc- before the ending","They all double the final consonant","They all insert a -g- in the stem","They all drop the first syllable entirely"],
      ans:"They all insert a -g- in the stem",
-     hint:"Tenga, venga, rimanga: notice that each irregular stem gains an extra consonant. Noi/voi forms return to the regular stem."},
+     hint:"Tenga, venga, rimanga: notice that each irregular s... gains an extra consonant. Noi/voi forms return to the regular s...."},
 
     {type:"fb", s:"E importante che tu {1} con cura.",
      a:["scelga"],
@@ -117,7 +117,7 @@ const LESSON_5 = {
     {type:"mc", q:"What do 'proporre,' 'supporre,' and 'opporre' have in common in the subjunctive?",
      opts:["They are all regular -are verbs with standard endings","They all use the stem ending in -pong- plus subjunctive endings","They all have the same meaning in Italian","They are only used in written Italian, never in speech"],
      ans:"They all use the stem ending in -pong- plus subjunctive endings",
-     hint:"Proponga, supponga, opponga: all -porre compounds add '-ng-' to the stem in the subjunctive."}
+     hint:"Proponga, supponga, opponga: all -porre compounds add '-ng-' to the s... in the s...."}
   ]
 };
 export default LESSON_5;

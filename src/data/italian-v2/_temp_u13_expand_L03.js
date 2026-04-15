@@ -69,7 +69,7 @@ const LESSON_6 = {
     {type:"mc", q:"Why does 'non e vero che' take the subjunctive while 'e vero che' takes the indicative?",
      opts:["Because negative sentences always use the subjunctive","Because denying a truth introduces uncertainty about the situation","Because 'non' is a special subjunctive particle in Italian","Because the negative form is only used in formal writing"],
      ans:"Because denying a truth introduces uncertainty about the situation",
-     hint:"Affirming truth = certainty = indicative. Denying truth = doubt enters = subjunctive. Negation flips the mood."},
+     hint:"Affirming t... = certainty = indicative. D... t... = doubt enters = subjunctive. Negation flips the mood."},
 
     {type:"fb", s:"{1} piova, voglio uscire.",
      a:["Nonostante"],
@@ -99,7 +99,7 @@ const LESSON_6 = {
     {type:"mc", q:"When does 'perche' require the subjunctive?",
      opts:["When it is at the start of a question","When it means 'so that' (expressing purpose)","When it follows a past tense verb form","When the speaker is uncertain about the cause"],
      ans:"When it means 'so that' (expressing purpose)",
-     hint:"Cause (because) = indicative. Purpose (so that, replaceable with 'affinche') = subjunctive. Same word, different moods."},
+     hint:"Cause (because) = indicative. P... (so that, replaceable with 'affinche') = subjunctive. Same word, different moods."},
 
     {type:"fb", s:"{1} cosa tu faccia, ti appoggio.",
      a:["Qualunque"],

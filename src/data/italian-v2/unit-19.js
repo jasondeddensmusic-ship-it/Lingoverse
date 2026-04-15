@@ -1,4 +1,5 @@
 // Italian V2 Unit 19 — I sentimenti (Emotions & Relationships) (B1.3)
+import EXP_L4 from './_temp_u19_expand_L01.js';import EXP_L5 from './_temp_u19_expand_L02.js';import EXP_L6 from './_temp_u19_expand_L03.js';
 // CILS/CELI B1 aligned. Emotions, relationships, expressing feelings.
 
 const UNIT_19 = {

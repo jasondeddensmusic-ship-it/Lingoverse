@@ -94,7 +94,7 @@ const LESSON_4 = {
     {type:"mc", q:"Why does 'sono contento che' trigger the subjunctive?",
      opts:["Because it describes a past event that is already over","Because happiness is an emotion that colors reality with subjectivity","Because the adjective 'contento' is always followed by the subjunctive form","Because it always describes an imaginary or impossible situation"],
      ans:"Because happiness is an emotion that colors reality with subjectivity",
-     hint:"All emotions (fear, joy, sadness, surprise) filter reality through personal feeling. That subjectivity requires this verb mood."},
+     hint:"All emotions (fear, joy, sadness, surprise) filter r... through personal feeling. That s... requires this verb mood."},
 
     {type:"fb", s:"E {1} che il treno sia in ritardo.",
      a:["probabile"],

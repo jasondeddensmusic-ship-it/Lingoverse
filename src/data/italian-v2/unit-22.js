@@ -1,4 +1,5 @@
 // Italian V2 Unit 22 — La cultura italiana (Italian Culture) (B1.4)
+import EXP_L4 from './_temp_u22_expand_L01.js';import EXP_L5 from './_temp_u22_expand_L02.js';import EXP_L6 from './_temp_u22_expand_L03.js';
 // CILS/CELI B1 aligned. Arts, music, cinema vocabulary.
 
 const UNIT_22 = {

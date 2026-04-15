@@ -83,7 +83,7 @@ const LESSON_4 = {
     {type:"mc", q:"Where must Italian rental contracts be registered?",
      opts:["At the local police station","At the Agenzia delle Entrate (Revenue Agency)","At the city hall (Comune)","At the nearest bank branch"],
      ans:"At the Agenzia delle Entrate (Revenue Agency)",
-     hint:"This government agency handles tax matters. Registration must happen within 30 days of signing."},
+     hint:"This government a... handles tax matters. Registration must happen within 30 days of signing."},
 
     {type:"fb", s:"Devo mandare la disdetta per {1}.",
      a:["raccomandata"],
@@ -105,7 +105,7 @@ const LESSON_4 = {
     {type:"mc", q:"What is 'canone concordato'?",
      opts:["The highest possible market rent","Below-market rent with tax benefits for the landlord","A penalty fee for late rent payments","The monthly building maintenance fee"],
      ans:"Below-market rent with tax benefits for the landlord",
-     hint:"Landlords agree to charge less in exchange for tax advantages. Rates are set by agreements between associations and unions."}
+     hint:"Landlords agree to charge less in exchange for t... advantages. Rates are set by agreements between associations and unions."}
   ]
 };
 export default LESSON_4;
