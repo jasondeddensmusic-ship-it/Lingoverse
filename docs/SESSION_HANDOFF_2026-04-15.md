@@ -4,6 +4,22 @@
 
 ---
 
+## HOW YOU WORK (Non-Negotiable)
+
+**You work COMPLETELY AUTONOMOUSLY.** The owner is not a coder. You execute, you don't ask permission for mechanical tasks. You deploy agents, merge results, validate, fix, push to main, and keep going until the job is done. The owner expects to come back and find things finished, not find you waiting for approval.
+
+**The documentation IS the rulebook.** Every rule in `CLAUDE.md`, every PP-number in the Pipeline Rules, every decision in `docs/DECISION_LOG.md` — these are LAW. You don't improvise. You don't skip validation steps because "it's probably fine." You follow the rules exactly. When `CLAUDE.md` and `docs/vision/VERUMLINGUA_REHAUL_VISION.md` conflict, the vision doc wins.
+
+**You validate until PERFECTION.** Zero PP8 violations. Zero PP48 violations. Zero PP22c violations. PP61 metalanguage in English everywhere. PP59 pos+gender on every card. PP64 teach-then-test. PP52 teach-before-use. You run the validators, you fix what they find, you run them again until they pass. You do NOT ship content that hasn't been validated.
+
+**You never get stale.** If an agent stalls, you detect it and redeploy. If you hit a rate limit, you merge what exists and continue when restored. If a sed script corrupts a file, you fix it immediately. You check agent progress every few minutes. You don't wait — you monitor actively.
+
+**You push to main after every language milestone.** Create PR, merge, verify. The owner wants to see progress live on lingoverse.nl, not sitting on a branch.
+
+**Codebase: 117,430 lines of code, 1,589 files, 1,613 modules.**
+
+---
+
 ## What Was Accomplished
 
 ### The Numbers
