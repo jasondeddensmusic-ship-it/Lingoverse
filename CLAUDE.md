@@ -272,16 +272,18 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 > Full history: `docs/BUILD_STATUS.md`
 
-| Language | Format | Units | Lessons | Steps | Teach Cards | Status |
-|----------|--------|-------|---------|-------|-------------|--------|
-| Korean | v2 (format only) | 30 | 330 | 6,953 | 1,266 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS, funFact. **CONTENT REHAUL NEEDED:** ~2-3K more teach cards for TOPIK coverage. |
-| Dutch | v2 (format only) | 30 | 261 | ~5,825 | 1,233 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS/gender, cognate→funFact. **CONTENT REHAUL NEEDED:** NT2 word list gap analysis + ~2-3K new cards. |
-| German v1 | v1 (old) | 30 | 259 | ~4,941 | ~1,297 | Being replaced by v2. |
-| German v2 | v2 (COMPLETE) | 36 | 558 | ~11,000 | 5,148 | **PERFECT.** All validations PASS. THE GOLD STANDARD. 125 COMPOUND breakdowns. |
-| German v2 (AR) | v2 (COMPLETE) | 36 | 558 | ~11,000 | ~5,148 | **COMPLETE.** ~6,800 Arabic fixes + 170 bidi punctuation fixes (2026-04-10). |
-| French | v2 (format only) | 30 | 258 | ~4,781 | 1,092 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS/gender, funFact. **CONTENT REHAUL NEEDED:** DELF word list + ~2.5-3.5K new cards. |
-| Spanish | v2 (format only) | 30 | 258 | ~4,739 | 1,262 | **FORMAT MIGRATED** (2026-04-12). Per-unit files, POS/gender, funFact. **CONTENT REHAUL NEEDED:** DELE word list + ~2.5-3.5K new cards. |
-| Arabic | skeleton | 5 | 29 | — | — | Deferred until new format established. |
+| Language | Format | Units | Teach Cards | Status |
+|----------|--------|-------|-------------|--------|
+| Korean | v2 (COMPLETE) | 69 | 5,166 | **V2 REHAUL DONE** (2026-04-15). 100%+ of German benchmark. TOPIK A+B1 complete, B2 6 batches. PP8 hint/visual: 0. |
+| Dutch | v2 (COMPLETE) | 89 | 5,106 | **V2 REHAUL DONE** (2026-04-15). 99% of German. NT2 A1+B1+B2 complete. PP8: 0. |
+| French | v2 (COMPLETE) | 90 | 5,036 | **V2 REHAUL DONE** (2026-04-15). 98% of German. DELF A1+B1+B2 complete. PP8: 0. |
+| Spanish | v2 (96%) | 90 | 4,961 | **V2 REHAUL 96%** (2026-04-15). 187 cards short of German. Needs 1 more batch. PP8: 0. |
+| German v1 | v1 (old) | 30 | ~1,297 | Being replaced by v2. |
+| German v2 | v2 (COMPLETE) | 36 | 5,148 | **PERFECT.** All validations PASS. THE GOLD STANDARD. |
+| German v2 (AR) | v2 (COMPLETE) | 36 | ~5,148 | **COMPLETE.** Arabic source language variant. |
+| Arabic | skeleton | 5 | — | Deferred until new format established. |
+
+**Grand Total: 20,269 teach cards across 338 units (4 languages). 1,613 modules. Build passes.**
 
 ### German v2 Rehaul Progress
 - **Phase 0** (DONE): Goethe word lists (3,303 lemmas), grammar inventory (118 constructs), v1 salvage analysis.
@@ -366,9 +368,9 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 ---
 
-## Next Priorities (updated 2026-04-12)
+## Next Priorities (updated 2026-04-15)
 
-> Full work plan: `docs/PHASE1_WORKPLAN.md`. Latest handoff: `docs/SESSION_HANDOFF_2026-04-07c.md`.
+> Latest handoff: `docs/SESSION_HANDOFF_2026-04-15.md`. V2 content rehaul workflow: same doc, "Content Build Workflow" section.
 
 ### Phase 1: German EN→DE Polish (DONE)
 1. ~~CEFR → Progress Tracker~~ — **DONE.** Progress panel, per-level bars, filter toggles, learned checkmarks.
@@ -446,7 +448,8 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-12.md`** — **Latest handoff.** V2 format migration for NL/FR/ES/KO (format only — NOT content rehaul). Full pipeline for bringing each language to German-v2-level quality. Engine fixes (compound bubbles, funFact display). 1,755 PP8 hint fixes. **READ THIS FIRST for V2 rehaul work.**
+- **`docs/SESSION_HANDOFF_2026-04-15.md`** — **LATEST HANDOFF.** V2 content rehaul COMPLETE: 20,269 teach cards, 338 units. Exact workflow for deploying content agents. What each language got. Validation status. What the next agent must do. **READ THIS FIRST.**
+- **`docs/SESSION_HANDOFF_2026-04-12.md`** — Previous. V2 format migration + first Korean content batches.
 - **`docs/SESSION_HANDOFF_2026-04-09.md`** — Previous. Flashcard UI redesign, 691 quiz hint fixes, PP8 zero violations.
 - **`docs/SESSION_HANDOFF_2026-04-08b.md`** — Previous. Deep audit (~150 fixes, 52 files), FSRS spaced repetition engine (working, UI needs redesign), competitor benchmark, learning science analysis.
 - **`docs/SESSION_HANDOFF_2026-04-08.md`** — Previous. ~6,800 Arabic fixes, CEFR B2 Arabic complete, German Foundations rewrite, RTL bidi fix.
