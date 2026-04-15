@@ -1,5 +1,6 @@
 // Japanese V2 Unit 16 — けいかく (Plans & Intentions)
 // Level: A2.2 — JLPT N4 aligned.
+import JEXP_16_L1 from './_temp_u16_expand_L01.js';import JEXP_16_L2 from './_temp_u16_expand_L02.js';import JEXP_16_L3 from './_temp_u16_expand_L03.js';
 // つもり, よてい, たい vs ほしい, ために.
 
 const UNIT_16 = {
