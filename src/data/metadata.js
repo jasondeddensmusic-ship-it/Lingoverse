@@ -152,10 +152,17 @@ export const _ALL_LANGUAGES = [
   { code: "ru", name: "Russian", flag: "🇷🇺", native: "Русский", greeting: "Привет!", welcomeBack: "Привет, с возвращением!" },
 ];
 
-// ── BASE LANGUAGES (interface language) ──
+// ── BASE LANGUAGES (interface / source language) ──
+// Only languages with actual source-language content are listed.
+// Others kept in _ALL_BASE_LANGUAGES for when content is built.
 export const BASE_LANGUAGES = [
   {code:"en",name:"English",native:"English",flag:"🇬🇧"},
   {code:"ar",name:"Arabic",native:"العربية",flag:"🇸🇾",rtl:true},
+];
+
+// Future source languages (no content yet — re-add when built)
+export const _ALL_BASE_LANGUAGES = [
+  ...BASE_LANGUAGES,
   {code:"fr",name:"French",native:"Français",flag:"🇫🇷"},
   {code:"es",name:"Spanish",native:"Español",flag:"🇪🇸"},
   {code:"tr",name:"Turkish",native:"Türkçe",flag:"🇹🇷"},
