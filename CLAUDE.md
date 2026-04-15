@@ -281,153 +281,72 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 > Full history: `docs/BUILD_STATUS.md`
 
-| Language | Format | Units | Teach Cards | Status |
-|----------|--------|-------|-------------|--------|
-| Korean | v2 (COMPLETE) | 69 | 5,166 | **V2 REHAUL DONE** (2026-04-15). 100%+ of German benchmark. Grammar: 47 entries. |
-| Dutch | v2 (COMPLETE) | 89 | 5,106 | **V2 REHAUL DONE** (2026-04-15). 99% of German. |
-| French | v2 (COMPLETE) | 90 | 5,036 | **V2 REHAUL DONE** (2026-04-15). 98% of German. Grammar: 52 entries. |
-| Spanish | v2 (COMPLETE) | 92 | 5,124 | **V2 REHAUL DONE** (2026-04-15). 100% of German. Grammar: 53 entries. |
-| Italian | v2 (A1-B2) | 26 | 607 | **NEW** (2026-04-15). A1+A2+B1 complete. B2 in progress. Grammar: 12 entries. |
-| Japanese | v2 (A1-B1) | 23 | 407 | **NEW** (2026-04-15). A1+A2+B1 complete. B2 in progress. Grammar: 20 entries. |
-| German v1 | v1 (old) | 30 | ~1,297 | Being replaced by v2. |
-| German v2 | v2 (COMPLETE) | 36 | 5,148 | **PERFECT.** All validations PASS. THE GOLD STANDARD. |
-| German v2 (AR) | v2 (COMPLETE) | 36 | ~5,148 | **COMPLETE.** Arabic source language variant. |
-| Arabic | skeleton | 5 | — | Deferred until new format established. |
+| Language | Format | Units | Teach Cards | Grammar | Status |
+|----------|--------|-------|-------------|---------|--------|
+| German v2 | v2 | 36 | 5,148 | 58 entries | **GOLD STANDARD.** All PP checks PASS. |
+| German v2 (AR) | v2 | 36 | ~5,148 | 58 entries (AR) | Arabic source variant. B2 CEFR trAr gap (1,821). |
+| Korean | v2 | 69 | 5,166 | 47 entries | COMPLETE. 100%+ of German. |
+| Dutch | v2 | 89 | 5,106 | mock | COMPLETE. Grammar needs teacher-board rewrite. |
+| French | v2 | 90 | 5,036 | 52 entries | COMPLETE. 98% of German. |
+| Spanish | v2 | 92 | 5,124 | 53 entries | COMPLETE. 100% of German. |
+| Italian | v2 | 32 | 1,129 | 12 entries | NEW. A1+A2 expanded. B1+B2 thin — density expansion needed. |
+| Japanese | v2 | 29 | 892 | 20 entries | NEW. A1+A2 expanded. B1+B2 thin — density expansion needed. |
 
-**Grand Total: ~22,290 teach cards across 387 units (7 languages). Build passes.**
-**Grammar modules: 184 entries across 6 languages (Korean 47, French 52, Spanish 53, Italian 12, Japanese 20).**
+**Grand total: ~22,500+ teach cards across ~493 units (7 languages). Build passes.**
+**Grammar modules: 300 entries across 7 languages.**
 
-### German v2 Rehaul Progress
-- **Phase 0** (DONE): Goethe word lists (3,303 lemmas), grammar inventory (118 constructs), v1 salvage analysis.
-- **Phase 1** (DONE): Story arc validation (36 episodes PASS), 144 scene breakdowns.
-- **Phase 2** (DONE): A1+A2 vocab/grammar mapping, lesson design blueprints.
-- **Phase 3** (DONE): Cross-level allocation (6-6-12-12 distribution).
-- **A1 content** (DONE): 6 units, 44 lessons. Known gaps: 4 under-dense lessons, Goethe A1 list not fully verified.
-- **A2 content** (DONE): 6 units, 50 lessons, 1,382 steps. Fully audited: PP55 99.8%, PP52 PASS, PP8 PASS.
-- **PP8 scan** (2026-03-26): 66 violations fixed across all 12 units. PP8 PASS.
-- **Quiz translations** (2026-03-26): 573 fb+drag_fill steps have `sSrc` (complete English).
-- **Field rename** (2026-03-26): All `nl`→`trg`, `en`→`src`, `exampleEn`→`exampleSrc` done.
-- **V1 salvage** (2026-03-26): B2 mined (570 items from V1 U25-U30). B1 was built from scratch.
-- **B1 content** (DONE): 12 units (U13-U24), 99 lessons, ~2,500 steps. Metalanguage translated to English.
-- **B2 content** (DONE): 12 units (U25-U36), 96 lessons, ~2,640 steps. 1,844 vocab. Salvage-first. Intros translated, tips still pending.
-- **Metalanguage fix** (2026-03-26): PP61 added. All B1+B2 intros translated. B1 tips translated. B2 tips (~47) + A1/A2 strays (~10) still pending.
-- **Renderer fix** (2026-03-26): Note box changed from pink gradient to white + purple bar. Newlines collapsed.
-- **Density reduction** (2026-03-29): PP43 updated to 30-step cap (soft 32). PP64 added (teach-then-test). 52 lessons split across 20 units. 328→369 lessons, ~8,200→~9,350 steps. **ZERO lessons over 32 steps.** No content deletion — all splits only.
-- **Full validation** (2026-03-29): PP59 pos/gender (1,553 A1+A2 cards tagged), PP61 metalanguage (45+ B2 tips translated), PP8 anti-leak (205+ B2 violations fixed), PP52 teach-before-use (5 B2 fixes), PP48 fb blanks (0 violations). **ALL CHECKS PASS.**
-- **Foundations aesthetic** (2026-03-29): Reference mode aligned with lesson engine design system (compound bubbles, candy buttons, gloss arcs, proper fonts/radii).
-- **Arabic source language** (2026-03-29): Onboarding 2-step flow, srcLang filtering, RTL flags, A1 scaffolds (6 units). Generator script at `scripts/generate-arabic-units.cjs`.
-- **Arabic translation** (2026-03-30): A1+A2 (12 units) fully translated. A2-B2 scaffolds generated (36 total units). 19 B1/B2 units remain (~4,500 [AR] markers). PAUSED.
-- **Mobile optimization** (2026-03-30): Bottom nav (5 tabs), Verumius FAB, safe areas, swipe navigation, bottom sheets, responsive typography/grids, touch targets, button feedback. Old Nova chat replaced with Verumius full-page chat.
-- **Chat system** (2026-03-30): Nova killed (broken CORS). Verumius full-page chat via Cloudflare Workers. FAB opens floating panel on non-chat pages.
-- **Dictionary color system** (2026-03-30): Critical POS tag mismatch fixed. `aux_verb`, `modal_verb`, `conjunction_coord/sub`, `pronoun_dat/refl/rel/dem/indef` added to WORDTYPE_PACK + Gender pack colorMaps. GERMAN_FORM_INDEX wired into lookupWord() + universalHl(). WordBubble enriched with POS/gender/funFact. VocabularyPage: German Conjugation/Cases/Examples tabs added. Coverage: ~50% to ~90%.
-- **Dictionary 100% coverage** (2026-03-30): Layer 1 (unknown word fallback) + Layer 2 (proper noun detection). MiniWordPopup/WordBubble added to all 10+ renderers. Every word in every sentence now visible and tappable.
-- **GrammarPage/IdiomsPage generalized** (2026-03-30): Dutch data extracted to modules. Language-agnostic loading via GRAMMAR_REFS/IDIOM_REFS. "Coming soon" placeholder for unsupported languages.
-- **Word popup crash fix** (2026-03-31): Missing `LANG_DICT` import caused crash on any word click in teach cards. One-line fix.
-- **CEFR Reference redesign** (2026-03-31): All-purple level pills, muted gray translations, inline POS tags, clean flexbox layout. Removed 4-column grid.
-- **CEFR POS tag fix** (2026-03-31): 1,620 entries with `p:"other"` fixed to correct POS tags (noun, verb, adj, adv, etc.).
-- **German grammar module** (2026-04-02): 58 entries across A1 (16), A2 (13), B1 (16), B2 (13). All Goethe-Institut constructs. Zero em-dashes (PP22c). All entries have 3-5 sentence teacher-board quality explanations. 20 conjugation/declension tables (sein/haben, regular verbs, modals, articles, cases, adjective endings, passive, Konjunktiv, etc.).
-- **GrammarPage premium redesign** (2026-04-02): All-purple brand palette (NO per-level colors). Candy gloss dropdown pill for level selection. Scrollable tile grid of entry titles. Popup modal with NavArrow teach-card navigation. Table rendering, compound example bubbles, keyboard nav. Standalone `src/pages/GrammarPage.jsx` updated.
-- **GrammarPage v2 + teacher-board rewrite** (2026-04-03): Full redesign. Mobile bottom sheet (useBottomSheet + useSwipe), desktop glossy modal. Explanation-first layout. HTML table for pixel-perfect alignment. Full-width list cards (no emoji icons). All 58 entries rewritten: dense paragraphs → bold headings, short sentences, one idea per line, child-friendly. One bullet per item. 142 umlaut violations fixed. Muted purple translations (not teal). Portal rendering for .anim escape.
+### Build History (compact)
 
-- **Arabic B2 complete** (2026-04-06): Units 33-36 fully translated (2,649 [AR] markers). All 36 Arabic-source units now clean.
-- **Arabic grammar module** (2026-04-06): `src/data/grammar/german-ar.js` (58 entries, 2,205 lines). MSA explanations with Arabic-German contrastive hooks. GrammarPage auto-selects when baseLang=ar.
-- **Arabic idioms** (2026-04-06): srcAr/litAr/noteAr added to all 125 entries in idioms-german.js. Arabic proverb equivalents bridged. IdiomsPage wired for baseLang=ar.
-- **Arabic CEFR vocab** (2026-04-06): trAr field on 4,199 of 4,699 entries (A1: 677, A2: 723/1,223, B1: 2,799). CefrReferencePage wired with baseLang + RTL. 500 A2 entries remain.
-- **i18n + RTL polish** (2026-04-07): 50+ UI strings localized for Arabic (LearnPage, CefrReferencePage, IdiomsPage, GrammarPage, Profile). RTL isolation via CSS utility classes (trg-text, trg-inline, meta-text) — German punctuation displays correctly in RTL pages. 24 unit subtitles translated. Tip/deepDive noColor readability fix.
-- **Quiz interleaving** (2026-04-07): ~876 new mc/fb quiz steps interleaved across all 36 units. Max consecutive teach run reduced from 26 to ≤6. All lessons now have quizzes between teach card groups.
-- **PP8 zero violations** (2026-04-07): 696 total PP8 violations fixed across 3 passes. Automated validator `scripts/pp8_validate.cjs` confirms 0/2,849 quiz steps with leaks.
-- **PP64 lesson splits** (2026-04-07): 189 lessons split at natural thematic break points (369→558 lessons). 308 quiz steps added for untested teach cards. PP64 coverage: 99.9%. Automated validator `scripts/pp64_validate.cjs`.
-- **PP43 density restored** (2026-04-07): 87 over-dense lessons trimmed back to ≤32 steps after quiz interleaving. 218 excess quizzes removed.
-- **PP61 U32 metalanguage** (2026-04-07): 66 German-only teach.note fields in unit-32 translated to English. 11 additional in U5/U9/U10/U12/U17.
-- **PP49 CEFR labels** (2026-04-07): 17 quiz fields referencing A1/A2/B1/B2 replaced with "fortgeschritten" or "Goethe-Prüfung".
-- **Arabic per-bubble fix** (2026-04-07): Dialogue regex `/[AB]:\s/` → `/[ABأب]:\s/` in all 4 teach card renderers. 3,767 Arabic dialogue examples now render as per-turn bubbles.
-- **Arabic unit split sync** (2026-04-07): AR units synced from 369→558 lessons matching EN structure. `scripts/sync_ar_splits.cjs`.
-- **Arabic content audit NEEDED** (2026-04-07): Native Arabic speaker reports translations feel unnatural/textbook-stiff. Full audit of Arabic metalanguage (notes, funFacts, exampleSrc, grammar explanations) required. See `docs/archive/SESSION_HANDOFF_2026-04-07d.md`.
-- **Flashcard UI redesign** (2026-04-09): Complete rewrite. Reveal mechanic (not flip), teach-card style matching LessonEngine exactly. Article colors, POS/gender badges, dialogue bubbles, fun facts, notes. Dead flip CSS removed. Browse + Review tabs.
-- **691 generic quiz hints fixed** (2026-04-09): All "Think about the meaning..." / "Which word fits..." hints replaced with word-specific guidance (etymology, cognates, compound breakdowns). PP8 zero violations.
-- **Storage polyfill** (2026-04-09): `window.storage` localStorage fallback in main.jsx for environments without native storage API.
+German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STATUS.md`. Key milestones:
+- **Phases 0-3**: Goethe word lists, 116 grammar constructs, story arcs, 6-6-12-12 allocation
+- **A1+A2**: 12 units, 94 lessons. Fully audited.
+- **B1+B2**: 24 units, 195 lessons. V1 salvage + new content. All PP checks PASS.
+- **Density splits** (2026-04-07): 369→558 lessons. PP64 teach-then-test coverage added.
+- **Arabic source** (2026-04-06-08): All 36 units translated, ~6,800 fixes, grammar/idioms/CEFR Arabic.
+- **Mobile, dictionary, grammar, flashcards** (2026-03-30 - 2026-04-09): All features built and polished.
+- **V2 upgrades** (2026-04-12-15): Korean/Dutch/French/Spanish/Italian/Japanese all V2. 7 languages live.
 
 ### Known Blockers
-1. ~~41 lessons over 32-step cap~~ — **RESOLVED.** All 41 splits completed. Zero violations remain.
-2. ~~PP64 violations widespread~~ — **RESOLVED.** Quiz coverage added during splits.
-3. ~~B2 tips still in German~~ — **RESOLVED.** All 45+ tips translated to English (PP61 PASS).
-4. ~~A1/A2 stray intros~~ — **RESOLVED.** All intros translated.
-5. ~~B2 content not validated~~ — **RESOLVED.** PP8 (205+ fixes), PP52 (5 fixes), PP48 all PASS.
-6. ~~pos/gender fields missing~~ — **RESOLVED.** All 5,147 teach cards tagged (PP59 PASS).
-7. CEFR distribution imbalance — French/Spanish/Korean still template-based.
-8. ~~Arabic translation~~ — **RESOLVED.** All 36 units translated (A1+A2+B1+B2). Grammar (58 entries), idioms (125 entries), CEFR vocab (4,699/4,699). i18n + RTL polish complete (50+ strings, CSS utility classes). VocabularyPage WORD_DB word-meaning translations not yet Arabic — tracked as item 24.
-9. ~~Dictionary system POS colors~~ — **RESOLVED.** All POS tags now mapped. ~90% word coverage.
-10. ~~Dictionary: unknown word fallback~~ — **RESOLVED.** Unknown words now tappable with subtle style + "Not yet catalogued" popup.
-11. ~~Dictionary: proper noun detection~~ — **RESOLVED.** Capitalization heuristic detects names. Warm grey + "PROPER NOUN" badge.
-12. ~~GrammarPage~~ — **RESOLVED.** Generalized to load from `GRAMMAR_REFS[lang]`. Dutch data extracted to `src/data/grammar/dutch.js`. "Coming soon" for unsupported languages. Note: Dutch content is MOCK quality.
-13. ~~IdiomsPage~~ — **RESOLVED.** Generalized to load from `IDIOM_REFS[lang]`. Dutch idioms extracted with language-agnostic fields.
-14. ~~Mobile optimization~~ — **RESOLVED** (2026-03-30). Bottom nav, FAB, safe areas, swipe, bottom sheets.
-15. ~~German CEFR POS tags~~ — **RESOLVED.** All 1,620 `p:"other"` entries fixed with correct POS tags.
-16. ~~Word popup crash~~ — **RESOLVED.** Missing `LANG_DICT` import in LessonEngine.jsx. WordBubble + MiniWordPopup now work.
-17. ~~CEFR Reference visual design~~ — **RESOLVED.** All-purple level pills, muted translations, inline POS tags, clean layout.
-18. ~~CEFR data lemma quality~~ — **RESOLVED.** 779 entries normalized to clean headwords.
-19. ~~Lesson engine word coloring~~ — **RESOLVED** (2026-04-04). `grammarHl` default changed to false. Note text removed from `universalHl`. PR #99.
-20. ~~CEFR page is raw word list~~ — **RESOLVED.** Progress Tracker redesign: progress panel, per-level bars, filter toggles, learned checkmarks.
-21. ~~`verumlingua.jsx` is dead code~~ — **RESOLVED.** Deleted (6,010 lines). `App.jsx` is the real entry.
-22. ~~Cases grammar pack empty~~ — **RESOLVED.** colorMap filled with preposition/article/pronoun mappings. Case-specific colors pending data model.
-23. ~~Arabic A1+A2 [AR] markers~~ — **RESOLVED.** Zero markers remain in A1+A2 content.
-24. ~~**VocabularyPage WORD_DB**~~ — **RESOLVED** (2026-04-08). Arabic enrichment pass in dictionary.js imports AR units and stores `.ar`, `.noteAr`, `.funFactAr`, `.exampleAr` on German entries. LessonEngine, VocabularyPage, and Flashcards all use baseLang-aware helpers.
-25. ~~**Arabic content quality audit**~~ — **RESOLVED** (2026-04-08). ~6,800 fixes across all 36 AR unit files: 748 broken mixed-language fields, 854 match pair translations, 2,170 native speaker review fixes, 1,285 contextual hint rewrites, 1,609 MC opts/ans translations. Zero English remaining in learner-facing fields. See `docs/archive/SESSION_HANDOFF_2026-04-08.md`.
-26. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537). CefrReferencePage shows English for Arabic users on B2 words.
-27. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing for back-navigation and lesson re-entry scenarios.
-28. ~~**Dutch/French/Spanish V2 upgrade**~~ — **RESOLVED** (2026-04-12). All 3 languages upgraded to V2 format with per-unit files, POS/gender tags, funFact fields. Dutch: 347 cognates preserved as funFact + 22 COMPOUND breakdowns. French: 1,092 cards tagged. Spanish: 1,262 cards tagged. Imports updated in `utils.js` and `dictionary.js`.
-29. ~~**German compound bubbles**~~ — **RESOLVED** (2026-04-12). 125 COMPOUND breakdowns added to German v2 noun teach cards. LessonEngine compound bubble renderer displays them as interactive chip bubbles.
+1. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56).
+2. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537).
+3. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing.
+4. **Italian + Japanese thin** — B1+B2 units have ~20 cards each. Need density expansion (3 lessons per unit).
+
+> 25 previously tracked blockers have been resolved. See `docs/BUILD_STATUS.md` for full history.
 
 ---
 
 ## Next Priorities (updated 2026-04-15)
 
-> Latest handoff: `docs/SESSION_HANDOFF_2026-04-15c.md`. 7 languages live, 22,500+ cards. Italian 1,129 + Japanese 892 with A1+A2 density expanded. Language selector cleaned to only show real content.
+> Latest handoff: `docs/SESSION_HANDOFF_2026-04-15c.md`. 7 languages live, 22,500+ cards.
 
-### Phase 1: German EN→DE Polish (DONE)
-1. ~~CEFR → Progress Tracker~~ — **DONE.** Progress panel, per-level bars, filter toggles, learned checkmarks.
-2. ~~Delete `verumlingua.jsx`~~ — **DONE.** 6,010 lines removed.
-3. ~~Fill Cases grammar pack~~ — **DONE.** Preposition/article/pronoun colorMap.
-4. ~~Fix Arabic A1+A2 markers~~ — **DONE.** Already clean.
-5. ~~Document LessonEngine split roadmap~~ — **DONE.** See Refactoring Roadmap section below.
+### ACTIVE: Italian + Japanese Density Expansion
+1. **Italian B1+B2 density** — 20 units need 3 more lessons each (~1,200 new cards)
+2. **Japanese B1+B2 density** — 13 units need 3 more lessons each (~780 new cards)
+3. **Italian B2 completion** — Need units 33-36 (4 more units)
+4. **Japanese B2 completion** — Need units 30-36 (7 more units)
+5. **Full PP validation** — PP8/PP43/PP48/PP52/PP59/PP61/PP64/PP22c on both languages
+6. **Italian + Japanese CEFR reference data** — Create cefr-reference files
 
-### Phase 1.5A: Feature Polish (NEXT — do before Arabic)
-Make existing features actually work properly for German:
-6. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors.
-7. **Flashcards German v2** — Verify `VOCAB[lang]` maps correctly to German v2 `trg/src` data.
+### Feature Polish (deferred)
+7. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors.
 8. **Idioms page search/filter** — 45 entries with no way to filter by level or search.
-9. ~~**"Continue Learning" on home**~~ — **ALREADY DONE.** Home.jsx has Continue Learning card with progress tracking, resume prompt, and lesson count.
-10. **German Foundations** — "Coming soon" placeholder. Needs at least alphabet/basics content.
+9. **German Foundations** — "Coming soon" placeholder. Needs at least alphabet/basics content.
+10. **Arabic Foundations text** — Scope not yet defined.
+11. **Smooth transitions** — Page fadeUp works. Lesson completion celebrations still TODO.
 
-### Phase 1.5B: Grammar Visualization (POST-LAUNCH)
-The VL vision of full sentence breakdown with POS/gender colors inline. Deferred — not blocking launch:
-- Visual sentence analysis mode (see POS/gender on every word at a glance)
-- Cases pack with per-preposition case governance
-- Grammar toggle default behavior review
-- Sentence-level word-by-word breakdown display
+### Grammar Visualization (POST-LAUNCH)
+- Visual sentence analysis mode, cases pack, grammar toggle, word-by-word breakdown
 
-### Phase 2: Arabic Finishing Touches
-11. ~~**Arabic B1+B2 translation**~~ — **DONE.** All 36 units translated. Zero content [AR] markers.
-12. ~~**CEFR A2 gap**~~ — **PARTIAL.** 4,699 of 6,537 CEFR entries have trAr. All A1+A2+B1 complete. **B2 (1,821 entries) has no trAr yet.**
-13. ~~**Arabic UI localization**~~ — **DONE.** 50+ strings localized. RTL CSS utility classes in place.
-14. ~~**WORD_DB Arabic translations**~~ — **DONE** (2026-04-08). Arabic enrichment pass stores `.ar`/`.noteAr`/`.funFactAr`/`.exampleAr` on WORD_DB entries. UI helpers pick translation by baseLang.
-15. **Arabic Foundations text** — Scope not yet defined. Foundations mode ("coming soon") has no Arabic content.
+### Audio/TTS (deferred)
+12. **Google Cloud TTS integration** — Provider chosen, deferred until content phases done.
 
-### Phase 3: Navigation + Flow Redesign
-14. ~~**Home screen redesign**~~ — **DONE.** Continue Learning card, organized feature grid, progress stats.
-15. ~~**Smooth transitions**~~ — **PARTIAL** (2026-04-08). Page fadeUp animation on switch via `key={page}`. Lesson completion celebrations still TODO.
+### Content Quality
+13. **Dutch grammar teacher-board rewrite** — Current content is mock/placeholder.
+14. **CEFR B2 Arabic gap** — 1,821 B2 entries missing `trAr`.
 
-### Phase 4: Audio/TTS
-16. **Google Cloud TTS integration** — Provider chosen, deferred until content phases done.
-17. **Enable `AUDIO_ENABLED`** — Flip gate in `src/audio.jsx`.
-
-### Phase 5: V1→V2 Language Upgrades
-18. **Dutch** → **French** → **Spanish** → **Korean** — **FORMAT MIGRATED** (2026-04-12). V2 file structure done (per-unit files, POS/gender, funFact, compounds). **CONTENT REHAUL STILL NEEDED:** official word list mapping, ~2-3K new teach cards per language, grammar module creation, quiz interleaving, PP55/PP57/PP58 completeness. See `docs/archive/SESSION_HANDOFF_2026-04-12.md` for full pipeline.
-20. **Dutch grammar teacher-board rewrite** — Current content is mock/placeholder.
-
-### Phase 6: Premium Visual Overhaul
-20. **Design session with owner** — Benchmark apps, icon system, music/soundtrack, animations.
-16. **Full visual overhaul** — Icons, micro-animations, effects, music. Owner acknowledges prototype feel.
+### Premium Visual Overhaul (deferred)
+15. **Design session with owner** — Benchmark apps, icon system, music/soundtrack, animations.
 
 ---
 
@@ -460,24 +379,34 @@ The VL vision of full sentence breakdown with POS/gender colors inline. Deferred
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-15c.md`** — **LATEST HANDOFF.** 7 languages live, 22,500+ cards. Exact next-agent instructions. **READ THIS FIRST.**
+- **`docs/SESSION_HANDOFF_2026-04-15c.md`** — **LATEST HANDOFF.** 7 languages live, 22,500+ cards. Exact next-agent instructions.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
-- **`docs/BUILD_STATUS.md`** — Full build history per language.
+- **`docs/BUILD_STATUS.md`** — Full build history per language (updated 2026-04-15).
 - **`docs/PRODUCT_PLAN.md`** — Business model, monetization, premium features roadmap.
-- **`docs/archive/`** — All previous session handoffs (2026-04-04 through 2026-04-15b). Historical reference only.
 
 ### Tier 2.5: Agent Infrastructure
 - **`docs/agents/AGENT_CONTENT_RULES.md`** — Linguistic expert persona + all content rules. Copy into EVERY content agent prompt.
 - **`docs/agents/AGENT_STORY_RULES.md`** — Master playwright persona + story writing rules. Copy into EVERY story agent prompt.
 - **`docs/agents/AGENT_TRANSLATION_RULES.md`** — Translation + cultural adaptation rules for source-to-target pipelines.
 - **`docs/agents/FORMAT_TEMPLATE.js`** — 2KB format reference showing every step type. Agents read THIS, not 10K-line unit files.
+- **`docs/agents/RULES_RATIONALE.md`** — Why each Agent Deployment Rule exists.
 
-### Tier 3: Specialized (by subdirectory)
-- **`docs/vision/`** — Rehaul vision, visual/audio layer, German rehaul plan
-- **`docs/agents/`** — Content/story/translation rules, format template, rules rationale
-- **`docs/reference/`** — Dictionary, settings, word tags, foundations, language pipeline, concept registry
-- **`docs/german/`** — Scene breakdowns, communicative functions mapping
-- **`docs/korean/`** — B1 curriculum design, TOPIK coverage report
+### Tier 3: German-specific
+- **`docs/german/GRAMMAR_CONSTRUCT_INVENTORY.md`** — 116 grammar constructs (PP57 master reference).
+- **`docs/german/STORY_BIBLE.md`** — Characters, story arcs, comedy situations.
+- **`docs/german/episode-scene-breakdowns.md`** — 144-scene production bible (150KB). All art direction + Midjourney prompts.
+- **`docs/german/communicative-functions-mapping.md`** — 84 communicative functions mapped to units (PP58 reference).
+
+### Tier 3: Reusable reference
+- **`docs/reference/FK_DECISION_FRAMEWORK.md`** — 6-step framework for Foundations content design. Essential for new languages.
+- **`docs/reference/CURRICULUM_DESIGN_PATTERNS.md`** — Seed/harvest pedagogy, concept-driven unit counts, lesson templates. Extracted from Korean build.
+- **`docs/reference/DICTIONARY_EXPANSION_CHECKLIST.md`** — 6-item per-language dictionary expansion checklist.
+- **`docs/reference/WORD_TAG_TAXONOMY.md`** — POS tag definitions and taxonomy.
+- **`docs/reference/LANGUAGE_INTEGRATION_PIPELINE.md`** — Pipeline for adding a new language.
+- **`docs/reference/MARKET_ANALYSIS_2026.md`** — Language pair demand data + 7-target thesis.
+
+### Tier 4: Archive
+- **`docs/archive/`** — All previous session handoffs (2026-04-04 through 2026-04-15b) + superseded docs. Historical reference only.
 
 ---
 
