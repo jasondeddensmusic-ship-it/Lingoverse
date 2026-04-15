@@ -1,5 +1,6 @@
 // Italian V2 Unit 08 — Lo shopping (Shopping & Clothes) (A2.1)
 // CILS/CELI A2 aligned. Clothing, shopping vocabulary, colors and patterns.
+import EXP_08_L1 from './_temp_u08_expand_L01.js';import EXP_08_L2 from './_temp_u08_expand_L02.js';import EXP_08_L3 from './_temp_u08_expand_L03.js';
 
 const UNIT_08 = {
   n:8, lang:"it", srcLang:"en", track:"v2",
@@ -301,7 +302,8 @@ const UNIT_08 = {
        opts:["Largo","Grande","Lungo","Corto"],
        ans:"Largo",
        hint:"If clothes are too tight, you need them wider and looser. This word means wide or loose."}
-    ]}
+    ]},
+    EXP_08_L1, EXP_08_L2, EXP_08_L3,
   ]
 };
 export default UNIT_08;
