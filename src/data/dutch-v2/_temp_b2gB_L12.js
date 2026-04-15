@@ -67,7 +67,7 @@ const LESSON_12 = {id:"nlv2_b2gB_l12", title:"Gezondheid en Lichaam", icon:"\u{1
 {type:"mc", q:"'Knus' verschilt van 'gezellig' doordat het meer gaat over:",
  opts:["Social atmosphere","Physical warmth and comfort","Fun activities","Large groups"],
  ans:"Physical warmth and comfort",
- hint:"A warm blanket and a fireplace. Physical coziness rather than social warmth."},
+ hint:"A warm blanket and a fireplace. P... coziness rather than social w...."},
 
 {type:"fb", s:"De {1} doet belangrijk onderzoek naar hart- en vaatziekten.",
  a:["Hartstichting"], opts:["Hartstichting","Hobbyclub","Kennisstad","Industriestad"],
@@ -84,7 +84,7 @@ const LESSON_12 = {id:"nlv2_b2gB_l12", title:"Gezondheid en Lichaam", icon:"\u{1
 {type:"mc", q:"'Gokverslaafd' betekent:",
  opts:["Lucky at gambling","Addicted to gambling","Against gambling","Good at gambling"],
  ans:"Addicted to gambling",
- hint:"Gok (gamble) + verslaafd (addicted). A compulsive gambler."},
+ hint:"Gok (gamble) + verslaafd (a...). A compulsive gambler."},
 
 {type:"fb", s:"Het kind had een hevige {1} van bijna veertig graden.",
  a:["koortsaanval"], opts:["koortsaanval","inslaapprobleem","acne","knokkel"],

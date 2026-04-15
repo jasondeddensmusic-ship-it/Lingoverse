@@ -85,7 +85,7 @@ const LESSON_10 = {
      q:"Wat is een 'automatiek' in Nederland?",
      opts:["Een muur met vakjes waar je snacks uit kunt halen","Een wasserette","Een geldautomaat","Een parkeerautomaat"],
      ans:"Een muur met vakjes waar je snacks uit kunt halen",
-     hint:"Think of FEBO. A wall of small heated compartments where you insert coins to get hot snacks like croquettes."},
+     hint:"Think of FEBO. A wall of small heated compartments where you insert coins to get hot s... like croquettes."},
 
     {type:"fb",
      s:"Het {1} fuseerde met twee andere kerken tot een nieuwe organisatie.",

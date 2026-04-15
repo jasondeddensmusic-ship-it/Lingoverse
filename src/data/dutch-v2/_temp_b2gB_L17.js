@@ -57,7 +57,7 @@ const LESSON_17 = {id:"nlv2_b2gB_l17", title:"Recht en Bestuur", icon:"\u{2696}"
 {type:"mc", q:"'De aangeklaagde' is:",
  opts:["The judge","The lawyer","The accused person","The witness"],
  ans:"The accused person",
- hint:"From 'aanklagen' (to accuse). The person being accused in court."},
+ hint:"From 'aanklagen' (to accuse). The p... being a... in court."},
 
 {type:"fb", s:"Het {1} heeft meer agenten nodig.",
  a:["politiekorps"], opts:["politiekorps","dadergedrag","aandachtspunt","examenrooster"],

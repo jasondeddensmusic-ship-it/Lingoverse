@@ -60,7 +60,7 @@ const LESSON_5 = {id:"nlv2_b2gA_l5", title:"Kantoor & Werk", icon:"\u{1F3E2}", x
   {type:"mc", q:"De jobmarkt is heel krap. Wat betekent dat?",
    opts:["there are more jobs than job seekers","there are no jobs available","salaries are very low","companies are closing"],
    ans:"there are more jobs than job seekers",
-   hint:"A tight (krap) job market means demand for workers exceeds supply."},
+   hint:"A tight (krap) j... market means demand for workers exceeds supply."},
 
   {type:"fb", s:"Het {1} van de gemeente toont stijgende uitgaven voor jeugdzorg.",
    a:["jaarverslag"], opts:["jaarverslag","jaarsalaris","kantoorgebouw","jobmarkt"],

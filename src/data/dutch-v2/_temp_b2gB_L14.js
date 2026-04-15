@@ -57,7 +57,7 @@ const LESSON_14 = {id:"nlv2_b2gB_l14", title:"Maat en Ruimte", icon:"\u{1F4D0}",
 {type:"mc", q:"'Kortstondig' betekent:",
  opts:["Very long","Short-lived","Repeated","Important"],
  ans:"Short-lived",
- hint:"Kort (short) + stondig (from an old word for moment). Something that doesn't last."},
+ hint:"Kort (s...) + stondig (from an old word for moment). Something that doesn't last."},
 
 {type:"fb", s:"Kun je het {1} vertellen? We hebben weinig tijd.",
  a:["in alle kortheid"], opts:["in alle kortheid","kortgeleden","kortstondig","kubiek"],

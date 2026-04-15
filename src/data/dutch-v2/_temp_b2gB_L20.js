@@ -57,7 +57,7 @@ const LESSON_20 = {id:"nlv2_b2gB_l20", title:"Uitdrukkingen en Vaste Verbindinge
 {type:"mc", q:"'Een krachtterm' is een eufemisme voor:",
  opts:["A compliment","A swear word","A greeting","A farewell"],
  ans:"A swear word",
- hint:"Kracht (force) + term. A 'forceful word' people use when angry."},
+ hint:"Kracht (force) + term. A 'forceful w...' people use when angry."},
 
 {type:"fb", s:"De {1} in de herfst maakt het bos prachtig.",
  a:["kleurenwissel"], opts:["kleurenwissel","krachtterm","ingebruikname","jaarbasis"],
@@ -67,7 +67,7 @@ const LESSON_20 = {id:"nlv2_b2gB_l20", title:"Uitdrukkingen en Vaste Verbindinge
 {type:"mc", q:"'Op jaarbasis' betekent:",
  opts:["Once a year","On an annual basis","Every January","For one year only"],
  ans:"On an annual basis",
- hint:"Jaar (year) + basis. Calculated over the span of a year."},
+ hint:"Jaar (year) + b.... Calculated over the span of a year."},
 
 {type:"fb", s:"De {1} van het nieuwe ziekenhuis is volgende maand.",
  a:["ingebruikname"], opts:["ingebruikname","jaarbasis","kleurenwissel","denkwijs"],

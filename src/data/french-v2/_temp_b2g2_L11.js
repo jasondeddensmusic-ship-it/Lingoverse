@@ -139,7 +139,7 @@ const LESSON_11 = {
      q:"D'ou vient le mot 'cheptel' ?",
      opts:["du latin 'capitale' (tete de betail)","du grec 'cheptos' (troupeau)","du germanique 'schaf' (mouton)","du celte 'cept' (enclos)"],
      ans:"du latin 'capitale' (tete de betail)",
-     hint:"The same Latin root that gave us the English word 'capital'. Head of cattle."},
+     hint:"The same L... root that gave us the English word 'capital'. Head of cattle."},
 
     {type:"fb",
      s:"Il y a un nouvel {1} de fruits exotiques au marche ce matin.",

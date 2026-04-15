@@ -60,7 +60,7 @@ const LESSON_4 = {id:"nlv2_b2gA_l4", title:"Handel & Economie", icon:"\u{1F4B9}"
   {type:"mc", q:"De VOC had handelsposten over de hele wereld. Wat is een 'handelspost'?",
    opts:["a trading post","a post office","a military base","a customs office"],
    ans:"a trading post",
-   hint:"Handel (trade) + post (station/outpost). A place for conducting business abroad."},
+   hint:"Handel (trade) + p... (station/outpost). A place for conducting business abroad."},
 
   {type:"fb", s:"De afdeling {1} regelt alle bestellingen bij leveranciers.",
    a:["inkoop"], opts:["inkoop","commercie","investeerder","handelspost"],
@@ -79,7 +79,7 @@ const LESSON_4 = {id:"nlv2_b2gA_l4", title:"Handel & Economie", icon:"\u{1F4B9}"
   {type:"mc", q:"Het kapitalisme heeft voor- en nadelen. Wat is 'het kapitalisme'?",
    opts:["an economic system based on private ownership and profit","a political party","a type of government","a trade agreement"],
    ans:"an economic system based on private ownership and profit",
-   hint:"An -isme word describing the economic system most Western countries use."},
+   hint:"An -isme word describing the e... s... most Western countries use."},
 
   {type:"fb", s:"In de {1} draait alles om winst en omzet.",
    a:["commercie"], opts:["commercie","investeerder","inkoop","handelspost"],

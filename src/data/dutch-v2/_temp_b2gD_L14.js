@@ -85,7 +85,7 @@ const LESSON_14 = {
      q:"Wat is de Maeslantkering?",
      opts:["Een stormvloedkering die Rotterdam beschermt","Een brug over de Maas","Een museum in Rotterdam","Een haven voor schepen"],
      ans:"Een stormvloedkering die Rotterdam beschermt",
-     hint:"This is a massive engineering structure near Rotterdam. It closes automatically when water levels threaten the city."},
+     hint:"This is a massive engineering structure near R.... It closes automatically when water levels threaten the city."},
 
     {type:"fb",
      s:"Nederlandse tuinders {1} bloemen die over de hele wereld worden geexporteerd.",

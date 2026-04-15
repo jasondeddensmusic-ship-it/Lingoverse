@@ -14,7 +14,7 @@ const LESSON_14 = {id:"nlv2_b2g8_l14", title:"Sport en Vrije Tijd", icon:"\u{26B
 {type:"mc", q:"Wat is kaatsen?", opts:["Een Friese balsport","Een kaartspel","Een type zwemmen","Een danssoort"], ans:"Een Friese balsport", hint:"A traditional sport from Friesland played with a leather ball"},
 {type:"fb", s:"Ze willen die oude bomen {1} voor een nieuwe weg.", a:["kappen"], opts:["kappen","kampen","kantelen","kaatsen"], hint:"To chop down trees", sSrc:"They want to {1} those old trees for a new road."},
 {type:"match", pairs:[{trg:"joggen", src:"to jog"},{trg:"kampen", src:"to struggle"},{trg:"kantelen", src:"to tilt"},{trg:"kapen", src:"to hijack"}]},
-{type:"mc", q:"Wat betekent 'Kap ermee!' in spreektaal?", opts:["Stop ermee!","Knip het af!","Ga weg!","Doe het opnieuw!"], ans:"Stop ermee!", hint:"An informal way to tell someone to stop doing something"},
+{type:"mc", q:"Wat betekent 'Kap ermee!' in spreektaal?", opts:["Stop ermee!","Knip het af!","Ga weg!","Doe het opnieuw!"], ans:"Stop ermee!", hint:"An informal way to tell someone to s... doing something"},
 {type:"fb", s:"Wie is de {1} op het festival vanavond?", a:["hoofdact"], opts:["hoofdact","hobbyclub","jukebox","hoofdwond"], hint:"The main performer at a concert or festival", sSrc:"Who is the {1} at the festival tonight?"},
 {type:"drag_fill", s:"We {1} met veel problemen: {2} en hoge kosten.", blanks:{"1":"kampen","2":"personeelstekort"}, pool:["kampen","personeelstekort","joggen","overvloed"], hint:"Struggling with staff shortage and expenses."}
 ]};

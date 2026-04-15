@@ -61,7 +61,7 @@ const LESSON_2 = {id:"frv2_b2g5_l2", title:"Médias et communication", icon:"�
   {type:"mc", q:"Que désigne la blogosphère?",
    opts:["L'ensemble des blogs et blogueurs sur Internet","Un type de réseau social","Un logiciel de création de sites","Une émission de radio en ligne"],
    ans:"L'ensemble des blogs et blogueurs sur Internet",
-   hint:"Think of the collective world of all blogs and their authors online"},
+   hint:"Think of the collective world of all b... and their authors online"},
 
   {type:"fb", s:"La {1} de cette question est ambiguë, on pourrait la comprendre autrement.",
    a:["formulation"], opts:["formulation","exclamation","affirmation","diabolisation"],

@@ -39,7 +39,7 @@ const LESSON_7 = {
      q:"Wat is een 'internaat'?",
      opts:["Een school waar leerlingen ook wonen","Een ziekenhuis","Een kantoorgebouw","Een sportcentrum"],
      ans:"Een school waar leerlingen ook wonen",
-     hint:"From Latin 'internus' (internal). Students live inside the school. What is that called?"},
+     hint:"From Latin 'internus' (internal). Students live inside the s.... What is that called?"},
     {type:"teach", trg:"de irrigatie", src:"irrigation", pos:"noun", gender:"c",
      note:"De-word. From Latin 'irrigatio'.\nWater management for agriculture.",
      example:"A: Zonder irrigatie kan deze streek geen gewassen verbouwen.\nB: Het regent hier te weinig?\nA: Precies. Het irrigatiesysteem is cruciaal.\nB: Nederland helpt veel landen met watertechnologie.",

@@ -121,7 +121,7 @@ const LESSON_2 = {
      q:"Que signifie 'generationnel' ?",
      opts:["Relatif a une generation","Relatif a la genetique","Relatif au genre","Relatif a la geographie"],
      ans:"Relatif a une generation",
-     hint:"Built on 'generation' with the suffix -el, describing something that concerns a specific age group."}
+     hint:"Built on 'g...' with the suffix -el, describing something that concerns a specific age group."}
   ]
 };
 export default LESSON_2;

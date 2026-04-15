@@ -121,7 +121,7 @@ const LESSON_13 = {
      q:"Qui surveille les braconniers dans une propriete ?",
      opts:["un garde-chasse","un condamne","un assiste","un administrateur"],
      ans:"un garde-chasse",
-     hint:"A compound word: someone who guards (garde) the hunt (chasse) on an estate."}
+     hint:"A compound word: someone who guards (g...) the hunt (c...) on an estate."}
   ]
 };
 export default LESSON_13;

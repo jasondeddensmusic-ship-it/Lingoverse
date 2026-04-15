@@ -29,7 +29,7 @@ const LESSON_13 = {id:"esv2_b2g8_l13",title:"Psicología y conducta",icon:"🧠"
 {type:"mc",q:"Si alguien tiene 'maña' para la cocina, ¿qué significa?",
  opts:["Que cocina con habilidad natural","Que cocina muy mal","Que no le gusta cocinar","Que come mucho"],
  ans:"Que cocina con habilidad natural",
- hint:"A natural ability or knack for doing something well. Think of skillfulness."},
+ hint:"A n... ability or knack for doing something well. Think of skillfulness."},
 
 {type:"teach",trg:"incomprendido",src:"misunderstood",pos:"adj",gender:null,
  note:"Adjective. Not understood or appreciated by others.\nAlso used as a noun: el/la incomprendido/a.",

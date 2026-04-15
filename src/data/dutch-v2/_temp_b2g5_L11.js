@@ -62,7 +62,7 @@ const LESSON_11 = {
     {type:"mc", q:"Wat betekent 'herontdekken'?",
      opts:["ontdekken voor de eerste keer","opnieuw ontdekken","vergeten","verbergen"],
      ans:"opnieuw ontdekken",
-     hint:"The 'her-' prefix means 're-' or 'again'. Combined with 'ontdekken' (discover)."},
+     hint:"The 'her-' prefix means 're-' or 'again'. Combined with 'o...' (discover)."},
     {type:"fb", s:"De auteur heeft het hele boek {1}.", a:["herschreven"],
      opts:["herschreven","herontdekt","herleid","herschoold"],
      hint:"The past participle of 'herschrijven'. No 'ge-' because 'her-' is inseparable.",

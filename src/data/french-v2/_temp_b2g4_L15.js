@@ -39,7 +39,7 @@ const LESSON_15 = {
      q:"Quel mot designe une petite bouchee servie avant le repas ?",
      opts:["un amuse-gueule","une bearnaise","un cannelloni","une cagoule"],
      ans:"un amuse-gueule",
-     hint:"Literally means to amuse the mouth. A small bite before the main course."},
+     hint:"Literally means to a... the mouth. A small bite before the main course."},
 
     {type:"teach", trg:"un cafe-concert", src:"a cafe with live music", pos:"noun", gender:"m",
      note:"Masculine noun. A cafe where musicians perform.\nPopular in the 19th century.",

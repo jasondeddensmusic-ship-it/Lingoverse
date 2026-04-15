@@ -97,7 +97,7 @@ const LESSON_10 = {
     {type:"mc", q:"Wat is een 'buitengerechtelijke schikking'?",
      opts:["een rechtszaak","een schikking buiten de rechtbank","een strafproces","een hoger beroep"],
      ans:"een schikking buiten de rechtbank",
-     hint:"The prefix 'buiten-' means outside. 'Gerechtelijk' relates to the court."},
+     hint:"The prefix 'b...-' means outside. 'Gerechtelijk' relates to the court."},
     {type:"fb", s:"De politie heeft {1} gelegd op zijn bezittingen.", a:["beslag"],
      opts:["beslag","bestek","blijk","bedrijvigheid"],
      hint:"A het-word meaning seizure or confiscation. Used in legal contexts with 'leggen op'.",

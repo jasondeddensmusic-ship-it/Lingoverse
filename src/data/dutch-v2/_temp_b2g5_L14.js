@@ -76,7 +76,7 @@ const LESSON_14 = {
     {type:"mc", q:"In Dutch, 'de echo' commonly refers to:",
      opts:["a sound bouncing off walls","a medical ultrasound scan","a type of radio","a musical instrument"],
      ans:"a medical ultrasound scan",
-     hint:"Expecting parents say 'we gaan op echo' meaning they are going for the scan."},
+     hint:"Expecting parents say 'we gaan op echo' meaning they are going for the s...."},
     {type:"fb", s:"Wie staat {1} voor de lening?", a:["garant"],
      opts:["garant","expert","gelovige","heerser"],
      hint:"The person who vouches for someone financially. From French.",

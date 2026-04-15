@@ -116,7 +116,7 @@ const LESSON_12 = {
     {type:"mc", q:"The Dutch exercise guideline recommends:",
      opts:["30 minutes daily","150 minutes moderate per week","10,000 steps daily","1 hour of running daily"],
      ans:"150 minutes moderate per week",
-     hint:"The 'beweegnorm' sets a weekly target for moderate-intensity activity."},
+     hint:"The 'beweegnorm' sets a weekly target for m...-intensity activity."},
     {type:"fb", s:"De dokter wil een {1} laten doen.", a:["bloedonderzoek"],
      opts:["bloedonderzoek","billenoefening","borstoefening","binnenbrand"],
      hint:"The compound noun for a medical test involving blood samples.",

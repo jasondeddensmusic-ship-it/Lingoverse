@@ -139,7 +139,7 @@ const LESSON_15 = {
      q:"Quelle conjonction prend TOUJOURS le subjonctif ?",
      opts:["avant meme que","au point que","en sorte que","du fait de"],
      ans:"avant meme que",
-     hint:"Expressing 'even before' something happens. Time conjunctions with 'avant' need subjunctive."},
+     hint:"Expressing 'even before' something happens. Time conjunctions with 'a...' need subjunctive."},
 
     {type:"fb",
      s:"Il faut agir {1} tout soit pret pour la ceremonie.",

@@ -92,7 +92,7 @@ const LESSON_13 = {
     {type:"mc", q:"Wat is een 'dakakker'?",
      opts:["een boerderij","een tuin op het dak","een zolderkamer","een dakkapel"],
      ans:"een tuin op het dak",
-     hint:"A compound: dak (roof) + akker (field). Urban agriculture on top of a building."},
+     hint:"A compound: d... (roof) + akker (field). Urban agriculture on top of a building."},
     {type:"fb", s:"De bal ketste tegen de {1}.", a:["doelpaal"],
      opts:["doelpaal","deurklink","driekleur","dakakker"],
      hint:"The compound noun for the vertical posts of a football goal.",

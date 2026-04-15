@@ -145,7 +145,7 @@ const LESSON_11 = {
      s:"Ce vieux mur menace de {1} sous le poids du lierre.",
      a:["crouler"],
      opts:["crouler","carreler","astiquer","brosser"],
-     hint:"To crumble or collapse. Also used figuratively: 'crouler sous le travail'.",
+     hint:"To crumble or collapse. Also used figuratively: 'c... sous le travail'.",
      sSrc:"This old wall is threatening to {1} under the weight of the ivy."}
   ]
 };

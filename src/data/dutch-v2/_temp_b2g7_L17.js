@@ -98,7 +98,7 @@ const LESSON_17 = {
      q:"Wat is een 'hobbyschrijver'?",
      opts:["Iemand die schrijft als hobby, niet als beroep","Een professionele auteur","Een journalist","Een blogger"],
      ans:"Iemand die schrijft als hobby, niet als beroep",
-     hint:"Hobby + schrijver (writer). This person writes for pleasure, not for a living."}
+     hint:"H... + schrijver (writer). This person writes for pleasure, not for a living."}
   ]
 };
 export default LESSON_17;

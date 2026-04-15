@@ -82,7 +82,7 @@ const LESSON_15 = {
      q:"Comment commande-t-on un café avec du lait dans un café parisien ?",
      opts:["Un crème","Un latte","Un café au lait","Un cappuccino"],
      ans:"Un crème",
-     hint:"The shortened form of 'café-crème'. Just one word is enough in a Parisian café."},
+     hint:"The shortened form of 'café-c...'. Just one word is enough in a Parisian café."},
 
     {type:"teach", trg:"le banal", src:"the commonplace, the mundane", pos:"noun", gender:"m",
      note:"Noun/adjective. Something ordinary or unoriginal.\nPlural controversy: banals vs banaux.",

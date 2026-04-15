@@ -112,7 +112,7 @@ const LESSON_19 = {
     {type:"mc", q:"What does 'opgedost' mean?",
      opts:["undressed","dressed up","exhausted","confused"],
      ans:"dressed up",
-     hint:"From the informal verb 'dossen'. With the prefix 'op-', it means dressed fancily."},
+     hint:"From the informal verb 'dossen'. With the prefix 'op-', it means d... fancily."},
     {type:"fb", s:"Het kanaal is {1}.", a:["dichtgestort"],
      opts:["dichtgestort","dichtgeslibd","dichtgemaakt","dichtgebouwd"],
      hint:"Filled in with material. Past participle of 'dichtstorten'.",
@@ -138,7 +138,7 @@ const LESSON_19 = {
     {type:"mc", q:"What is a 'drugsopvangcentrum'?",
      opts:["a drug enforcement office","a pharmacy","a shelter for people with drug problems","a drug testing lab"],
      ans:"a shelter for people with drug problems",
-     hint:"Compound: drugs + opvang (reception/shelter) + centrum."},
+     hint:"Compound: drugs + opvang (reception/s...) + centrum."},
     {type:"match", pairs:[
       {trg:"bekloppen", src:"to tap-test"},
       {trg:"deblokkering", src:"unblocking"},

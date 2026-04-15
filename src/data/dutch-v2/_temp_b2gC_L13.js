@@ -77,7 +77,7 @@ const LESSON_13 = {
      q:"Een 'beleidsmens' is iemand die:",
      opts:["Altijd beleidsregels overtreedt","Denkt in regels, procedures en beleid","Beleid saboteert","Nooit naar vergaderingen gaat"],
      ans:"Denkt in regels, procedures en beleid",
-     hint:"Beleid (policy) + mens (person). Someone whose thinking revolves around policy and procedure."},
+     hint:"B... (policy) + mens (person). Someone whose thinking revolves around policy and procedure."},
 
     {type:"fb",
      s:"De politie is de {1} van de openbare orde.",

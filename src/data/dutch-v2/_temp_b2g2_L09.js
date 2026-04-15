@@ -122,7 +122,7 @@ const LESSON_9 = {
      q:"Wat is uniek aan Nederlands cabaret?",
      opts:["Een soloartiest met scherpe maatschappijkritiek en humor","Een groep clowns die slapstick doet","Een musical met dans en zang","Een toneelstuk met meerdere acteurs"],
      ans:"Een soloartiest met scherpe maatschappijkritiek en humor",
-     hint:"Dutch cabaret is a one-person show combining humor with sharp social commentary. It has no equivalent in English."},
+     hint:"Dutch cabaret is a one-person show combining h... with sharp social commentary. It has no equivalent in English."},
     {type:"fb",
      s:"De {1} van het contract moet zorgvuldig worden gecontroleerd.",
      a:["bewoording"],

@@ -57,7 +57,7 @@ const LESSON_5 = {id:"nlv2_b2gB_l5", title:"Koloniaal Verleden", icon:"\u{1F30D}
 {type:"mc", q:"'De VOC' was:",
  opts:["A Dutch airline","The Dutch East India Company","A type of ship","A colonial governor"],
  ans:"The Dutch East India Company",
- hint:"The famous trading company that started Dutch colonialism in Asia"},
+ hint:"The famous trading c... that started D... colonialism in Asia"},
 
 {type:"fb", s:"De {1} begon in de zeventiende eeuw met de VOC.",
  a:["kolonisatie"], opts:["kolonisatie","koffieplantage","kruidnagel","kompas"],
@@ -67,7 +67,7 @@ const LESSON_5 = {id:"nlv2_b2gB_l5", title:"Koloniaal Verleden", icon:"\u{1F30D}
 {type:"mc", q:"'De kruidnagel' is:",
  opts:["A type of ship","A trading route","A spice shaped like a nail","A colonial weapon"],
  ans:"A spice shaped like a nail",
- hint:"Kruid (spice) + nagel (nail). One of the precious spices from the East."},
+ hint:"Kruid (s...) + nagel (n...). One of the precious spices from the East."},
 
 {type:"fb", s:"De Nederlanders hadden overal {1} voor de specerijenhandel.",
  a:["handelsposten"], opts:["handelsposten","immigrantenstromen","katoenplantages","kruidnagels"],
@@ -84,7 +84,7 @@ const LESSON_5 = {id:"nlv2_b2gB_l5", title:"Koloniaal Verleden", icon:"\u{1F30D}
 {type:"mc", q:"'Java-koffie' dankt zijn naam aan:",
  opts:["A Dutch merchant named Java","The Indonesian island where Dutch plantations were","A type of coffee bean","The Java programming language"],
  ans:"The Indonesian island where Dutch plantations were",
- hint:"The Dutch grew coffee on this famous Indonesian island"},
+ hint:"The D... grew coffee on this famous I... i..."},
 
 {type:"fb", s:"Het {1} heeft diepe sporen nagelaten in de samenleving.",
  a:["kolonialisme"], opts:["kolonialisme","kompas","krantenpapier","kroost"],

@@ -89,7 +89,7 @@ const LESSON_11 = {id:"frv2_b2g5_l11", title:"Émotions et psychologie", icon:"�
   {type:"mc", q:"Que signifie 'quelle galère!' en français familier?",
    opts:["Quelle situation difficile!","Quel beau bateau!","Quelle bonne surprise!","Quel bon repas!"],
    ans:"Quelle situation difficile!",
-   hint:"Originally a slave ship: now means an awful, difficult situation"},
+   hint:"Originally a slave ship: now means an awful, difficult s..."},
 
   {type:"fb", s:"L'{1} du stress peut causer des problèmes de santé graves.",
    a:["intériorisation"], opts:["intériorisation","inanité","intégrisme","interaction"],

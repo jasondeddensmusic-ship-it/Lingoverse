@@ -107,7 +107,7 @@ const LESSON_15 = {
     {type:"mc", q:"What does 'drijfveer' literally translate to?",
      opts:["driving wheel","driving spring","driving force","driving gear"],
      ans:"driving spring",
-     hint:"Compound: drijven (to drive) + veer (spring, like in a clock)."},
+     hint:"Compound: drijven (to drive) + veer (s..., like in a clock)."},
     {type:"fb", s:"Na de overwinning heerste {1}.", a:["euforie"],
      opts:["euforie","extase","eerzucht","ethiek"],
      hint:"Intense collective joy after a victory. From Greek 'euphoria'.",

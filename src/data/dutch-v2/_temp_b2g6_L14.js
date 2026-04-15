@@ -83,7 +83,7 @@ const LESSON_14 = {
      q:"Wat is een 'aanspreekvorm'?",
      opts:["De manier waarop je iemand aanspreekt (u, je, gij)","Een soort telefoonformulier","Een type werkwoord","Een formele brief"],
      ans:"De manier waarop je iemand aanspreekt (u, je, gij)",
-     hint:"'Aanspreken' means to address someone. The 'vorm' (form) refers to whether you use u, je, or gij."},
+     hint:"'Aanspreken' means to address someone. The 'vorm' (form) refers to whether you use u, je, or g...."},
 
     {type:"match", pairs:[
       {trg:"gij", src:"thou (archaic you)"},

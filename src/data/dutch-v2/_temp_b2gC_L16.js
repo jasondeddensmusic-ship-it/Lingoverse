@@ -97,7 +97,7 @@ const LESSON_16 = {
      q:"'Op jaarbasis' betekent:",
      opts:["Per dag","Per maand","Per jaar","Per kwartaal"],
      ans:"Per jaar",
-     hint:"Jaar (year) + basis (basis). Calculated over the period of one year."},
+     hint:"J... (year) + basis (basis). Calculated over the period of one year."},
 
     {type:"fb",
      s:"De {1} van het nieuwe ziekenhuis is volgende maand.",

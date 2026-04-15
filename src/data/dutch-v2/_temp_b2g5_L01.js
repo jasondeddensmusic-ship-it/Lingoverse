@@ -62,7 +62,7 @@ const LESSON_1 = {
     {type:"mc", q:"Wat is 'de darmontsteking'?",
      opts:["een hartaanval","een ontsteking van de darmen","een huidaandoening","een oogziekte"],
      ans:"een ontsteking van de darmen",
-     hint:"Break the compound: darm (intestine) + ontsteking (inflammation)."},
+     hint:"Break the compound: darm (intestine) + o... (inflammation)."},
     {type:"fb", s:"De {1} in Nederland is duur maar van hoge kwaliteit.", a:["gezondheidszorg"],
      opts:["gezondheidszorg","gezondheidscampagne","gezondheidsklacht","darmontsteking"],
      hint:"The general term for the entire healthcare system.",

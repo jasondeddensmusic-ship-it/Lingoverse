@@ -34,7 +34,7 @@ const LESSON_12 = {
      q:"Wat is bijzonder aan korfbal?",
      opts:["Mannen en vrouwen spelen samen in hetzelfde team","Het wordt alleen binnenshuis gespeeld","Er zijn geen regels","Je mag alleen met je voeten spelen"],
      ans:"Mannen en vrouwen spelen samen in hetzelfde team",
-     hint:"This Dutch-invented sport stands out because of its inclusive team composition. Both genders compete together."},
+     hint:"This Dutch-invented sport stands out because of its inclusive t... composition. Both genders compete together."},
 
     {type:"teach", trg:"het kuiken", src:"the chick (baby chicken)", pos:"noun", gender:"n",
      note:"Neuter (het). Diminutive-like form.\n'Kuikentje' = little chick (term of endearment).",

@@ -57,7 +57,7 @@ const LESSON_7 = {id:"nlv2_b2gB_l7", title:"Kerk en Geloof", icon:"\u{26EA}", xp
 {type:"mc", q:"'Kerkelijk' betekent:",
  opts:["Beautiful","Church-related","Ancient","Musical"],
  ans:"Church-related",
- hint:"The adjective form of 'kerk' (church). Describes anything connected to the church."},
+ hint:"The adjective form of 'kerk' (c...). Describes anything connected to the c...."},
 
 {type:"fb", s:"Tot welk {1} behoort deze kerk?",
  a:["kerkgenootschap"], opts:["kerkgenootschap","kerkdienst","kerkruimte","kerktaal"],

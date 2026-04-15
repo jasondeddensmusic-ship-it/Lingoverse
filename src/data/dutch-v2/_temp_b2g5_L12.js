@@ -62,7 +62,7 @@ const LESSON_12 = {
     {type:"mc", q:"Wat is een 'examencommissie'?",
      opts:["een groep studenten","een commissie die examens bewaakt","een examenruimte","een type examen"],
      ans:"een commissie die examens bewaakt",
-     hint:"Examen + commissie. The body that oversees exam integrity at educational institutions."},
+     hint:"Examen + c.... The body that oversees exam integrity at educational institutions."},
     {type:"fb", s:"Heb je het {1} al gezien?", a:["examenrooster"],
      opts:["examenrooster","examencommissie","bachelorjaar","fragment"],
      hint:"The grid showing when each exam takes place. Compound with 'rooster' (schedule).",

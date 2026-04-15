@@ -57,7 +57,7 @@ const LESSON_14 = {id:"frv2_b2gC_l14", title:"Famille et relations", icon:"\u{1F
  q:"Comment dit-on 'great-grandparent' en français ?",
  opts:["l'arrière-grand-parent","le grand-parent","le beau-parent","le demi-parent"],
  ans:"l'arrière-grand-parent",
- hint:"Arrière means behind or back. Go one generation further back than grandparent."},
+ hint:"A... means behind or back. Go one generation further back than grandparent."},
 
 {type:"fb",
  s:"Laisse-la agir à sa {1}, elle sait ce qu'elle fait.",

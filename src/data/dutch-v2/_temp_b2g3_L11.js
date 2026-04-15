@@ -97,7 +97,7 @@ const LESSON_11 = {
     {type:"mc", q:"Wat is een 'driesprong'?",
      opts:["een drievoudige sprong","een kruispunt met drie wegen","een driehoek","een drietal"],
      ans:"een kruispunt met drie wegen",
-     hint:"A compound: drie (three) + sprong (jump). Where three roads come together."},
+     hint:"A compound: d... (three) + sprong (jump). Where three roads come together."},
     {type:"fb", s:"Durf jij van de hoge {1}?", a:["duikplank"],
      opts:["duikplank","driesprong","draaimolen","danspas"],
      hint:"A compound noun for the springy board at a swimming pool you jump from.",

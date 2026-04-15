@@ -60,7 +60,7 @@ const LESSON_8 = {id:"nlv2_b2gA_l8", title:"Identiteit & Samenleving", icon:"\u{
   {type:"mc", q:"Mag ik uw identiteitskaart zien? Wat is een 'identiteitskaart'?",
    opts:["an official identity document","a business card","a library card","a credit card"],
    ans:"an official identity document",
-   hint:"Identiteit (identity) + kaart (card). An official document proving who you are."},
+   hint:"Identiteit (i...) + kaart (card). An o... d... proving who you are."},
 
   {type:"fb", s:"De {1} van de arbeidsmarkt betekent minder vaste contracten.",
    a:["flexibilisering"], opts:["flexibilisering","industrialisatie","individualisering","keerzijde"],
@@ -79,7 +79,7 @@ const LESSON_8 = {id:"nlv2_b2gA_l8", title:"Identiteit & Samenleving", icon:"\u{
   {type:"mc", q:"De individualisering van de samenleving heeft grote gevolgen. Wat is 'individualisering'?",
    opts:["the process of society becoming more individualistic","a type of insurance","a form of government","a management strategy"],
    ans:"the process of society becoming more individualistic",
-   hint:"The -isering suffix marks an ongoing societal process. Individual + isering."},
+   hint:"The -isering suffix marks an ongoing societal p.... Individual + isering."},
 
   {type:"fb", s:"De {1} van Nederland begon in de negentiende eeuw.",
    a:["industrialisatie"], opts:["industrialisatie","individualisering","flexibilisering","keerzijde"],

@@ -88,7 +88,7 @@ const LESSON_20 = {
      q:"Quel objet sert a ouvrir des enveloppes ?",
      opts:["un coupe-papier","un grille-pain","un compte-goutte","un coffre-fort"],
      ans:"un coupe-papier",
-     hint:"A compound noun: the verb 'couper' (to cut) plus 'papier' (paper). An elegant desk tool."},
+     hint:"A compound noun: the verb 'couper' (to cut) plus 'p...' (paper). An elegant desk tool."},
 
     {type:"teach", trg:"un ex", src:"an ex-partner", pos:"noun", gender:"m",
      note:"Masculine or feminine noun. A former romantic partner.\nVery informal but universal.",

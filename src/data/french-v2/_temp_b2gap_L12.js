@@ -94,7 +94,7 @@ const LESSON_12 = {
      q:"Comment s'appelle le cote du lit ou l'on pose son livre ?",
      opts:["le chevet","le chevron","le cordon","le barillet"],
      ans:"le chevet",
-     hint:"'Livre de chevet' means your bedside book, your all-time favorite."},
+     hint:"'Livre de c...' means your bedside book, your all-time favorite."},
 
     {type:"teach", trg:"un abonn\u00e9", src:"a subscriber", pos:"noun", gender:"m",
      note:"Masculine noun. A person with a subscription. Feminine: une abonnee.",

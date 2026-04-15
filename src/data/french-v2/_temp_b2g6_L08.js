@@ -82,7 +82,7 @@ const LESSON_8 = {
      q:"Que signifie 'la galère' dans le langage courant ?",
      opts:["Une situation très difficile","Un bateau ancien","Une fête réussie","Un repas copieux"],
      ans:"Une situation très difficile",
-     hint:"Originally a slave ship. Now colloquially used for any painful, frustrating situation."},
+     hint:"Originally a slave ship. Now colloquially used for any painful, frustrating s...."},
 
     {type:"teach", trg:"le fédéralisme", src:"federalism", pos:"noun", gender:"m",
      note:"Masculine noun. A political system with power shared between central and regional governments.",

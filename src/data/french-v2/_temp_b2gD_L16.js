@@ -75,7 +75,7 @@ const LESSON_16 = {id:"frv2_b2gD_l16", title:"Travail et carrières", icon:"👔
    q:"Quelle expression signifie 'donner son attention avec soin'?",
    opts:["Prêter attention","Faire du business","Créer une micro-entreprise","Distribuer des flyers"],
    ans:"Prêter attention",
-   hint:"This expression literally means to 'lend' your attention to something, implying careful focus."},
+   hint:"This expression literally means to 'lend' your a... to something, implying careful focus."},
 
   {type:"match", pairs:[
     {trg:"mutualiste", src:"cooperative member"},

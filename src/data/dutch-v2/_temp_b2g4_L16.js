@@ -102,7 +102,7 @@ const LESSON_16 = {
     {type:"mc", q:"How does Dutch academia classify disciplines?",
      opts:["by color codes","by Greek letters: alfa, bèta, gamma","by numbers 1, 2, 3","by animal names"],
      ans:"by Greek letters: alfa, bèta, gamma",
-     hint:"Humanities, natural sciences, and social sciences each get a Greek letter."},
+     hint:"Humanities, natural sciences, and social sciences each get a G... letter."},
     {type:"fb", s:"De {1} van het proces moet omhoog.", a:["efficiëntie"],
      opts:["efficiëntie","evaluatievorm","examenafname","etnoloog"],
      hint:"How well something works with minimum waste. From Latin 'efficientia'.",
@@ -128,7 +128,7 @@ const LESSON_16 = {
     {type:"mc", q:"'Hij is meer een beleidsmens.' What is a 'beleidsmens'?",
      opts:["a practical person","a policy-focused person","a creative person","a technical person"],
      ans:"a policy-focused person",
-     hint:"Compound: beleid (policy) + mens (person). Works on strategy, not on the floor."},
+     hint:"Compound: beleid (p...) + mens (p...). Works on strategy, not on the floor."},
     {type:"match", pairs:[
       {trg:"definiëren", src:"to define"},
       {trg:"etnoloog", src:"ethnologist"},

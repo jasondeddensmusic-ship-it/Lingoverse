@@ -14,13 +14,13 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
         {type:"teach",trg:"el sombrero",src:"hat",pos:"noun",gender:"m",phonetic:"som-BRE-ro",note:"Masculine noun. You may recognize this word from English.",example:"A: ¡Qué bonito sombrero!\nB: Gracias, es nuevo.",exampleSrc:"A: What a nice hat!\nB: Thanks, it's new.",funFact:"Masculine noun. Spanish words ending in -o are usually masculine."},
         {type:"tip",title:"Llevar: To Wear",text:"In Spanish, llevar means both 'to wear' and 'to carry'.\nLlevo una camisa. = I wear/am wearing a shirt.\nLlevo una bolsa. = I carry/am carrying a bag.\nContext tells you which meaning applies."},
         {type:"mc",q:"¿Cómo se dice 'dress' en español?",opts:["el vestido","la falda","la camisa","el pantalón"],ans:"el vestido",hint:"Think of the word that sounds like 'vest' in English."},
-        {type:"mc",q:"¿Cuál es femenina: camisa, pantalón, vestido, abrigo?",opts:["la camisa","el pantalón","el vestido","el abrigo"],ans:"la camisa",hint:"Most words ending in -a are feminine in Spanish."},
+        {type:"mc",q:"¿Cuál es femenina: camisa, pantalón, vestido, abrigo?",opts:["el pantalón","la camisa","el vestido","el abrigo"],ans:"la camisa",hint:"Most words ending in -a are feminine in Spanish."},
         {type:"fb",opts:["zapatos","camisa","vestido","sombrero"],hint:"Which clothing item do you need for walking?",s:"Necesito {1} nuevos para caminar.",a:"zapatos"},
         {type:"fb",opts:["abrigo","falda","camisa","sombrero"],hint:"What heavy garment protects you from cold weather?",s:"Hace frío. Llevo mi {1}.",a:"abrigo"},
         {type:"match",pairs:[{trg:"la camisa",src:"shirt"},{trg:"el pantalón",src:"pants"},{trg:"el vestido",src:"dress"},{trg:"la falda",src:"skirt"},{trg:"los zapatos",src:"shoes"}]},
-        {type:"mc",q:"Mi hermana lleva una ___ roja muy bonita.",opts:["falda","pantalón","zapatos","sombrero"],ans:"falda",hint:"Which feminine clothing item matches 'una' and 'roja'?"},
+        {type:"mc",q:"Mi hermana lleva una ___ roja muy bonita.",opts:["zapatos","pantalón","falda","sombrero"],ans:"falda",hint:"Which feminine clothing item matches 'una' and 'roja'?"},
         {type:"fb",opts:["sombrero","falda","camisa","zapatos"],hint:"Which masculine item do you wear on your head?",s:"¿Te gusta mi {1} nuevo? Es de color negro.",a:"sombrero"},
-        {type:"mc",q:"'Llevo una chaqueta' means:",opts:["I'm wearing a jacket","I'm buying a jacket","I want a jacket","I like a jacket"],ans:"I'm wearing a jacket",hint:"Remember the verb llevar and its clothing meaning."},
+        {type:"mc",q:"'Llevo una chaqueta' means:",opts:["I like a jacket","I'm buying a jacket","I want a jacket","I'm wearing a jacket"],ans:"I'm wearing a jacket",hint:"Remember the verb llevar and its clothing meaning."},
         {type:"match",pairs:[{trg:"la chaqueta",src:"jacket"},{trg:"el abrigo",src:"coat"},{trg:"el sombrero",src:"hat"},{trg:"los zapatos",src:"shoes"},{trg:"el vestido",src:"dress"}]}
   ]},
   {id:"esp8l2",title:"La Ropa II",icon:"👕",xp:15,board:true,steps:[
@@ -36,13 +36,13 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
         {type:"tip",title:"Singular and Plural Clothing",text:"Some clothing items are usually plural:\nlos zapatos (shoes), los calcetines (socks)\nlos vaqueros (jeans), las zapatillas (sneakers)\nOthers are usually singular:\nel vestido (dress), la camisa (shirt)\nel cinturón (belt), el sombrero (hat)"},
         {type:"mc",q:"¿Cómo se dice 'sneakers' en español?",opts:["las zapatillas","los zapatos","los calcetines","los vaqueros"],ans:"las zapatillas",hint:"This word comes from zapato but with a diminutive ending."},
         {type:"fb",opts:["traje","camiseta","bufanda","calcetines"],hint:"Think about formal business attire for men.",s:"Para el trabajo formal, mi padre lleva un {1}.",a:"traje"},
-        {type:"mc",q:"¿Cuál llevas en los pies dentro de los zapatos?",opts:["los calcetines","la bufanda","el cinturón","la camiseta"],ans:"los calcetines",hint:"This item goes between your feet and your shoes."},
+        {type:"mc",q:"¿Cuál llevas en los pies dentro de los zapatos?",opts:["la bufanda","los calcetines","el cinturón","la camiseta"],ans:"los calcetines",hint:"This item goes between your feet and your shoes."},
         {type:"match",pairs:[{trg:"la camiseta",src:"t-shirt"},{trg:"los vaqueros",src:"jeans"},{trg:"la bufanda",src:"scarf"},{trg:"el cinturón",src:"belt"},{trg:"el traje",src:"suit"}]},
         {type:"fb",opts:["bufanda","camiseta","cinturón","traje"],hint:"Which item wraps around your neck for warmth?",s:"Hace frío. Necesito mi {1} para el cuello.",a:"bufanda"},
-        {type:"mc",q:"'Llevo una camiseta y vaqueros' describes:",opts:["casual clothing","formal clothing","winter clothing","swimwear"],ans:"casual clothing",hint:"Think about when you would wear these items together."},
+        {type:"mc",q:"'Llevo una camiseta y vaqueros' describes:",opts:["winter clothing","formal clothing","casual clothing","swimwear"],ans:"casual clothing",hint:"Think about when you would wear these items together."},
         {type:"fb",opts:["zapatillas","bufandas","camisetas","faldas"],hint:"Which comfortable shoes are good for exercise?",s:"Las {1} son cómodas para correr.",a:"zapatillas"},
         {type:"match",pairs:[{trg:"las zapatillas",src:"sneakers"},{trg:"los calcetines",src:"socks"},{trg:"la ropa interior",src:"underwear"},{trg:"la camiseta",src:"t-shirt"},{trg:"la bufanda",src:"scarf"}]},
-        {type:"mc",q:"Mi pantalón es grande. Necesito un ___.",opts:["cinturón","sombrero","calcetín","traje"],ans:"cinturón",hint:"What accessory holds your pants up when they are loose?"}
+        {type:"mc",q:"Mi pantalón es grande. Necesito un ___.",opts:["traje","sombrero","calcetín","cinturón"],ans:"cinturón",hint:"What accessory holds your pants up when they are loose?"}
   ]},
   {id:"esp8l3",title:"En la Tienda",icon:"🏪",xp:15,board:true,steps:[
         {type:"intro",title:"En la Tienda",desc:"Learn essential phrases for shopping in a Spanish-speaking store.",goals:["Ask prices and sizes","Try on clothing","Express opinions about fit and style"]},
@@ -57,12 +57,12 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
         {type:"tip",title:"Shopping Vocabulary",text:"Key shopping phrases:\n¿Cuánto cuesta? = How much does it cost?\n¿Tiene...? = Do you have...?\n¿Puedo probarme...? = Can I try on...?\nMe queda bien/mal = It fits me well/badly\nMe lo llevo = I'll take it\nEs muy caro/barato = It's very expensive/cheap"},
         {type:"mc",q:"You want to ask the price. You say:",opts:["¿Cuánto cuesta?","¿Tiene?","Me lo llevo","¿Qué talla?"],ans:"¿Cuánto cuesta?",hint:"Which phrase asks specifically about the cost of something?"},
         {type:"fb",opts:["probarme","comprar","llevar","queda"],hint:"Which reflexive verb means to try something on?",s:"¿Puedo {1} esta chaqueta?",a:"probarme"},
-        {type:"mc",q:"La camisa es perfecta. ___.",opts:["Me la llevo","Me lo llevo","Me queda mal","Es cara"],ans:"Me la llevo",hint:"Camisa is feminine, so which pronoun matches?"},
+        {type:"mc",q:"La camisa es perfecta. ___.",opts:["Me lo llevo","Me la llevo","Me queda mal","Es cara"],ans:"Me la llevo",hint:"Camisa is feminine, so which pronoun matches?"},
         {type:"fb",opts:["pequeño","bien","grande","mal"],hint:"If you need a bigger size, the current one is too what?",s:"El vestido me queda {1}. Necesito una talla más grande.",a:"pequeño"},
-        {type:"mc",q:"Este abrigo cuesta 500 euros. Es muy ___.",opts:["caro","barato","grande","bonito"],ans:"caro",hint:"Five hundred euros is a lot. What adjective describes the price?"},
+        {type:"mc",q:"Este abrigo cuesta 500 euros. Es muy ___.",opts:["grande","barato","caro","bonito"],ans:"caro",hint:"Five hundred euros is a lot. What adjective describes the price?"},
         {type:"match",pairs:[{trg:"¿Cuánto cuesta?",src:"How much?"},{trg:"Me lo llevo",src:"I'll take it"},{trg:"la talla",src:"the size"},{trg:"probarse",src:"to try on"},{trg:"barato",src:"cheap"}]},
         {type:"fb",opts:["Tiene","Cuesta","Queda","Lleva"],hint:"Which word asks if the store has something available?",s:"¿{1} esta falda en rojo?",a:"Tiene"},
-        {type:"mc",q:"¿Qué talla usas? Uso la talla ___.",opts:["mediana","barata","bonita","roja"],ans:"mediana",hint:"Think about clothing size labels: small, medium, large."},
+        {type:"mc",q:"¿Qué talla usas? Uso la talla ___.",opts:["roja","barata","bonita","mediana"],ans:"mediana",hint:"Think about clothing size labels: small, medium, large."},
         {type:"mc",q:"'Me queda bien' means:",opts:["It fits me well","I'll take it","It's cheap","I like it"],ans:"It fits me well",hint:"The verb quedar here refers to how clothing sits on you."}
   ]},
   {id:"esp8l4",title:"Los Números Grandes",icon:"💰",xp:15,board:true,steps:[
@@ -75,14 +75,14 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
         {type:"tip",title:"Hundreds in Spanish",text:"100 = cien (alone) / ciento (+ more numbers)\n200 = doscientos/as\n300 = trescientos/as\n400 = cuatrocientos/as\n500 = quinientos/as (irregular)\n600 = seiscientos/as\n700 = setecientos/as\n800 = ochocientos/as\n900 = novecientos/as\n1000 = mil\nHundreds agree in gender with the noun:\ndoscientos euros, doscientas personas"},
         {type:"mc",q:"¿Cómo se dice 500 en español?",opts:["quinientos","cincocientos","quientos","cincuentos"],ans:"quinientos",hint:"This is an irregular form that does not follow the pattern."},
         {type:"fb",opts:["trescientos","trecientos","trescien","tresientos"],hint:"Three hundred follows the regular pattern: tres + cientos.",s:"El abrigo cuesta {1} euros. (300)",a:"trescientos"},
-        {type:"mc",q:"How do you say exactly 100?",opts:["cien","ciento","un cien","una ciento"],ans:"cien",hint:"When the number stands alone at exactly 100, use the short form."},
-        {type:"mc",q:"Doscientas personas means:",opts:["200 people","200 men","2000 people","20 people"],ans:"200 people",hint:"The -as ending matches a feminine plural noun."},
+        {type:"mc",q:"How do you say exactly 100?",opts:["ciento","cien","un cien","una ciento"],ans:"cien",hint:"When the number stands alone at exactly 100, use the short form."},
+        {type:"mc",q:"Doscientas personas means:",opts:["2000 people","200 men","200 people","20 people"],ans:"200 people",hint:"The -as ending matches a feminine plural noun."},
         {type:"fb",opts:["mil","miel","un mil","miles"],hint:"The word for one thousand never takes an article before it.",s:"Este traje cuesta {1} euros. (1000)",a:"mil"},
         {type:"match",pairs:[{trg:"cien",src:"100"},{trg:"doscientos",src:"200"},{trg:"quinientos",src:"500"},{trg:"setecientos",src:"700"},{trg:"mil",src:"1000"}]},
-        {type:"mc",q:"Ciento uno means:",opts:["101","110","100","111"],ans:"101",hint:"Ciento is used before additional numbers after one hundred."},
+        {type:"mc",q:"Ciento uno means:",opts:["111","110","100","101"],ans:"101",hint:"Ciento is used before additional numbers after one hundred."},
         {type:"fb",opts:["cuatrocientos","quatrocientos","cuatroscientos","cuatrientos"],hint:"Four hundred: cuatro + cientos in their combined form.",s:"Los zapatos cuestan {1} euros. (400)",a:"cuatrocientos"},
         {type:"mc",q:"¿Cuánto cuestan las zapatillas? Cuestan ___ euros. (800)",opts:["ochocientos","ochoscientos","ocho cientos","ochicientos"],ans:"ochocientos",hint:"Eight hundred: ocho combined with cientos in one word."},
-        {type:"mc",q:"The jacket costs 150 euros. In Spanish:",opts:["ciento cincuenta euros","cien cincuenta euros","cincuenta cien euros","quince cero euros"],ans:"ciento cincuenta euros",hint:"When 100 is followed by more numbers, use the longer form."},
+        {type:"mc",q:"The jacket costs 150 euros. In Spanish:",opts:["cien cincuenta euros","ciento cincuenta euros","cincuenta cien euros","quince cero euros"],ans:"ciento cincuenta euros",hint:"When 100 is followed by more numbers, use the longer form."},
         {type:"fb",opts:["seiscientos","seicientos","seis cientos","seisciento"],hint:"Six hundred: seis combined with cientos in one word.",s:"Las zapatillas cuestan {1} euros. (600)",a:"seiscientos"}
   ]},
   {id:"esp8l5",title:"Los Demostrativos",icon:"👉",xp:15,board:true,steps:[
@@ -94,15 +94,15 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
         {type:"teach",trg:"estos / estas",src:"these (m/f)",pos:"intj",gender:null,phonetic:"ES-tos / ES-tas",note:"Plural of este/esta. Estos (m pl), estas (f pl).",example:"A: ¿Son nuevos estos zapatos?\nB: Sí, estos zapatos son nuevos.",exampleSrc:"A: Are these shoes new?\nB: Yes, these shoes are new.",funFact:"Spanish is the fourth most spoken language worldwide, with 500+ million native speakers."},
         {type:"teach",trg:"esos / esas",src:"those (m/f)",pos:"intj",gender:null,phonetic:"E-sos / E-sas",note:"Plural of ese/esa. Esos (m pl), esas (f pl).",example:"A: ¿Te gustan esas zapatillas?\nB: No, prefiero esos vaqueros.",exampleSrc:"A: Do you like those sneakers?\nB: No, I prefer those jeans.",funFact:"Spanish is the fourth most spoken language worldwide, with 500+ million native speakers."},
         {type:"mc",q:"You point to a shirt right next to you. You say:",opts:["esta camisa","esa camisa","aquella camisa","el camisa"],ans:"esta camisa",hint:"Which demonstrative is used for things close to the speaker?"},
-        {type:"mc",q:"Your friend holds a hat. You say 'I like that hat'. Which word?",opts:["ese sombrero","este sombrero","aquel sombrero","el sombrero"],ans:"ese sombrero",hint:"The hat is near the listener, not near you or far away."},
+        {type:"mc",q:"Your friend holds a hat. You say 'I like that hat'. Which word?",opts:["este sombrero","ese sombrero","aquel sombrero","el sombrero"],ans:"ese sombrero",hint:"The hat is near the listener, not near you or far away."},
         {type:"fb",opts:["aquel","este","ese","el"],hint:"The dress is far from both of you. Which demonstrative fits?",s:"¿Ves {1} vestido en la ventana? Está muy lejos.",a:"aquel"},
-        {type:"mc",q:"___ zapatos son muy bonitos. (near me)",opts:["Estos","Esos","Aquellos","Los"],ans:"Estos",hint:"The shoes are near the speaker. Use the plural near form."},
+        {type:"mc",q:"___ zapatos son muy bonitos. (near me)",opts:["Aquellos","Esos","Estos","Los"],ans:"Estos",hint:"The shoes are near the speaker. Use the plural near form."},
         {type:"fb",opts:["esos","estos","aquellos","los"],hint:"The socks are near the other person. Use medium distance plural.",s:"¿Cuánto cuestan {1} calcetines? (near the listener)",a:"esos"},
         {type:"match",pairs:[{trg:"este",src:"this (m)"},{trg:"esa",src:"that (f)"},{trg:"aquellos",src:"those over there (m)"},{trg:"estas",src:"these (f)"},{trg:"ese",src:"that (m)"}]},
-        {type:"mc",q:"'Aquellas faldas son baratas' means:",opts:["Those skirts over there are cheap","These skirts are cheap","Those skirts are expensive","That skirt over there is cheap"],ans:"Those skirts over there are cheap",hint:"Aquellas is the far feminine plural demonstrative."},
+        {type:"mc",q:"'Aquellas faldas son baratas' means:",opts:["That skirt over there is cheap","These skirts are cheap","Those skirts are expensive","Those skirts over there are cheap"],ans:"Those skirts over there are cheap",hint:"Aquellas is the far feminine plural demonstrative."},
         {type:"fb",opts:["esta","esa","aquella","la"],hint:"The t-shirt is right next to you. Camiseta is feminine.",s:"Me gusta {1} camiseta. (pointing to one right here)",a:"esta"},
         {type:"mc",q:"You see a coat in a faraway shop window. You say:",opts:["Mira aquel abrigo","Mira este abrigo","Mira ese abrigo","Mira el abrigo"],ans:"Mira aquel abrigo",hint:"The coat is far from both you and your companion."},
-        {type:"mc",q:"___ bufandas son muy caras. (those, medium distance)",opts:["Esas","Estas","Aquellas","Las"],ans:"Esas",hint:"Bufandas is feminine plural. The items are at medium distance."},
+        {type:"mc",q:"___ bufandas son muy caras. (those, medium distance)",opts:["Estas","Esas","Aquellas","Las"],ans:"Esas",hint:"Bufandas is feminine plural. The items are at medium distance."},
         {type:"fb",opts:["aquellas","estas","esas","las"],hint:"The sneakers are far away from both speakers. Feminine plural.",s:"Quiero {1} zapatillas, las que están allí lejos.",a:"aquellas"}
   ]},
   {id:"esp8l6",title:"Colores y Ropa",icon:"🎨",xp:15,board:true,steps:[
@@ -116,9 +116,9 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
         {type:"teach",trg:"oscuro",src:"dark (color)",pos:"noun",gender:null,phonetic:"os-KU-ro",note:"Oscuro follows the color: rojo oscuro, azul oscuro.",example:"A: ¿Tienes esta camisa en verde oscuro?\nB: Sí, un momento.",exampleSrc:"A: Do you have this shirt in dark green?\nB: Yes, one moment.",funFact:"Spanish nouns are either masculine or feminine. The ending usually gives it away."},
         {type:"mc",q:"La camisa ___. (white, feminine)",opts:["blanca","blanco","blancos","blancas"],ans:"blanca",hint:"Camisa is feminine singular. What ending matches?"},
         {type:"fb",opts:["negro","negra","negros","negras"],hint:"Pantalón is masculine singular. Match the adjective ending.",s:"Llevo el pantalón {1} y la camisa azul.",a:"negro"},
-        {type:"mc",q:"Los zapatos ___. (brown, plural)",opts:["marrones","marrón","marrónes","marrons"],ans:"marrones",hint:"Marrón takes -es in the plural. No accent change needed."},
+        {type:"mc",q:"Los zapatos ___. (brown, plural)",opts:["marrón","marrones","marrónes","marrons"],ans:"marrones",hint:"Marrón takes -es in the plural. No accent change needed."},
         {type:"fb",opts:["roja","rojo","rojas","rojos"],hint:"Falda is feminine singular. Match the color's ending.",s:"Me gusta la falda {1}. (red)",a:"roja"},
-        {type:"mc",q:"'Una camiseta rosa' is correct because:",opts:["Rosa doesn't change for gender","Rosa is always feminine","Camiseta is masculine","Rosa means pink only for girls"],ans:"Rosa doesn't change for gender",hint:"Some Spanish color words stay the same for all nouns."},
+        {type:"mc",q:"'Una camiseta rosa' is correct because:",opts:["Camiseta is masculine","Rosa is always feminine","Rosa doesn't change for gender","Rosa means pink only for girls"],ans:"Rosa doesn't change for gender",hint:"Some Spanish color words stay the same for all nouns."},
         {type:"match",pairs:[
           {trg:"la chaqueta negra",src:"the black jacket"},
           {trg:"el vestido rojo",src:"the red dress"},
@@ -127,7 +127,7 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
           {trg:"la bufanda verde",src:"the green scarf"}
         ]},
         {type:"fb",opts:["oscuro","oscura","claro","clara"],hint:"When modifying a color, this word means the darker shade.",s:"¿Tiene esta camisa en azul {1}?",a:"oscuro"},
-        {type:"mc",q:"El sombrero ___ es bonito. (light green)",opts:["verde claro","claro verde","verde clara","verdo claro"],ans:"verde claro",hint:"The shade word follows the color. ___ does not change for gender."},
+        {type:"mc",q:"El sombrero ___ es bonito. (light green)",opts:["verdo claro","claro verde","verde clara","verde claro"],ans:"verde claro",hint:"The shade word follows the color. ___ does not change for gender."},
         {type:"drag_fill",hint:"Match articles and colors to each noun's gender and number.",s:"Llevo {1} zapatos {2} y {3} camisa {4}.",blanks:{"1":"los","2":"negros","3":"una","4":"blanca"},pool:["los","negros","una","blanca","el","negro","la","blanco"]},
         {type:"mc",q:"Mi hermana lleva unas faldas ___. (red, plural)",opts:["rojas","roja","rojos","rojo"],ans:"rojas",hint:"Faldas is feminine plural. Match the color ending to it."}
   ]},
@@ -141,9 +141,9 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
         {type:"tip",title:"A Complete Shopping Conversation",text:"In a clothing store, you might:\n1. ¿Tiene...? (ask if they have something)\n2. ¿Puedo probarme...? (ask to try it on)\n3. Me queda bien/mal/grande/pequeño (comment on fit)\n4. ¿Tiene otra talla/color? (ask for alternatives)\n5. ¿Cuánto cuesta? (ask the price)\n6. Me lo/la llevo (decide to buy)\n7. ¿Puedo pagar con tarjeta? (ask about payment)"},
         {type:"mc",q:"You want to try on a jacket. You say:",opts:["¿Puedo probarme esta chaqueta?","¿Cuánto cuesta esta chaqueta?","Me llevo esta chaqueta.","¿Tiene otra chaqueta?"],ans:"¿Puedo probarme esta chaqueta?",hint:"Which phrase asks for permission to try clothing on?"},
         {type:"fb",opts:["grande","bien","bonita","cara"],hint:"You need a different size because this one does not fit properly.",s:"Esta falda me queda {1}. Necesito otra talla.",a:"grande"},
-        {type:"mc",q:"¿Cómo quiere pagar? ___.",opts:["Con tarjeta, por favor","Me lo llevo","Me queda bien","¿Cuánto cuesta?"],ans:"Con tarjeta, por favor",hint:"The clerk is asking about your payment method."},
+        {type:"mc",q:"¿Cómo quiere pagar? ___.",opts:["Me lo llevo","Con tarjeta, por favor","Me queda bien","¿Cuánto cuesta?"],ans:"Con tarjeta, por favor",hint:"The clerk is asking about your payment method."},
         {type:"fb",opts:["probador","zapato","cinturón","vestido"],hint:"Which room in a store is used to try on clothing?",s:"¿Dónde está el {1}? Quiero probarme esta camisa.",a:"probador"},
-        {type:"mc",q:"The pants fit perfectly. You say:",opts:["Me quedan bien","Me queda bien","Me queda mal","Me quedan mal"],ans:"Me quedan bien",hint:"Pantalones is plural, so the verb must match that form."},
+        {type:"mc",q:"The pants fit perfectly. You say:",opts:["Me queda mal","Me queda bien","Me quedan bien","Me quedan mal"],ans:"Me quedan bien",hint:"Pantalones is plural, so the verb must match that form."},
         {type:"drag_fill",hint:"Ask the clerk if they have an alternative size available.",s:"¿{1} esta camisa en {2} talla?",blanks:{"1":"Tiene","2":"otra"},pool:["Tiene","otra","Cuesta","esta","Cuánto","esa"]},
         {type:"match",pairs:[
           {trg:"el probador",src:"fitting room"},
@@ -152,7 +152,7 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
           {trg:"¿Tiene otra talla?",src:"Do you have another size?"},
           {trg:"Me lo llevo",src:"I'll take it"}
         ]},
-        {type:"mc",q:"Los zapatos cuestan doscientos euros. Son muy ___.",opts:["caros","baratos","grandes","bonitos"],ans:"caros",hint:"Two hundred euros for shoes is a high price."},
+        {type:"mc",q:"Los zapatos cuestan doscientos euros. Son muy ___.",opts:["bonitos","baratos","grandes","caros"],ans:"caros",hint:"Two hundred euros for shoes is a high price."},
         {type:"fb",opts:["lo","la","los","las"],hint:"Vestido is masculine singular. Which pronoun matches?",s:"Me gusta el vestido azul. Me {1} llevo.",a:"lo"},
         {type:"mc",q:"¿Puedo pagar ___? No tengo tarjeta.",opts:["en efectivo","con tarjeta","con zapatos","en probador"],ans:"en efectivo",hint:"If you don't have a card, what is the other way to pay?"},
         {type:"fb",opts:["quedan","queda","quedo","quedas"],hint:"The verb must agree with pantalones, which is plural.",s:"Estos pantalones me {1} muy bien. Me los llevo.",a:"quedan"}
@@ -163,9 +163,9 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
         {type:"mc",q:"¿Cuánto cuestan estos zapatos negros?",opts:["How much do these black shoes cost?","How much does this black shoe cost?","Do you have these black shoes?","I want these black shoes."],ans:"How much do these black shoes cost?",hint:"Cuestan is plural. Estos is the near plural demonstrative."},
         {type:"fb",opts:["este","esta","ese","aquel"],hint:"Vestido is masculine. The item is close to the speaker.",s:"Me gusta {1} vestido rojo. ¿Cuánto cuesta?",a:"este"},
         {type:"drag_fill",hint:"Match the demonstrative and color to the feminine noun falda.",s:"{1} falda {2} cuesta {3} euros.",blanks:{"1":"Esta","2":"blanca","3":"trescientos"},pool:["Esta","blanca","trescientos","Este","blanco","tres cientos"]},
-        {type:"mc",q:"You see a nice coat far away. You say: 'Mira ___ abrigo'.",opts:["aquel","este","ese","eso"],ans:"aquel",hint:"The coat is far from both you and your companion."},
+        {type:"mc",q:"You see a nice coat far away. You say: 'Mira ___ abrigo'.",opts:["este","aquel","ese","eso"],ans:"aquel",hint:"The coat is far from both you and your companion."},
         {type:"fb",opts:["baratos","caros","grandes","bonitos"],hint:"They only cost two euros. What does that make them?",s:"Estos calcetines son muy {1}. Solo cuestan dos euros.",a:"baratos"},
-        {type:"mc",q:"La camiseta me queda pequeña. Necesito ___.",opts:["otra talla","otro color","el probador","pagar"],ans:"otra talla",hint:"The shirt is too small, so you need a different what?"},
+        {type:"mc",q:"La camiseta me queda pequeña. Necesito ___.",opts:["el probador","otro color","otra talla","pagar"],ans:"otra talla",hint:"The shirt is too small, so you need a different what?"},
         {type:"drag_fill",hint:"Ask if you can try on a green jacket near the listener.",s:"¿{1} probarme {2} chaqueta {3}?",blanks:{"1":"Puedo","2":"esa","3":"verde"},pool:["Puedo","esa","verde","Puede","esta","verda"]},
         {type:"match",pairs:[
           {trg:"este sombrero",src:"this hat"},
@@ -175,11 +175,11 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
           {trg:"esos vaqueros",src:"those jeans"}
         ]},
         {type:"fb",opts:["quinientos","cincocientos","quincientos","quinento"],hint:"Remember, this number has an irregular form that starts with 'quin'.",s:"El traje cuesta {1} euros. (500)",a:"quinientos"},
-        {type:"mc",q:"You want to buy the skirt. It's feminine. You say:",opts:["Me la llevo","Me lo llevo","Me los llevo","Me las llevo"],ans:"Me la llevo",hint:"Falda is feminine singular. Match the pronoun accordingly."},
+        {type:"mc",q:"You want to buy the skirt. It's feminine. You say:",opts:["Me las llevo","Me lo llevo","Me los llevo","Me la llevo"],ans:"Me la llevo",hint:"Falda is feminine singular. Match the pronoun accordingly."},
         {type:"mc",q:"¿Cómo quiere pagar? No tengo efectivo. ___.",opts:["Con tarjeta, por favor","En efectivo, por favor","Me lo llevo","¿Cuánto cuesta?"],ans:"Con tarjeta, por favor",hint:"You don't have cash, so what is the alternative payment method?"},
         {type:"fb",opts:["blancas","blancos","blanca","blanco"],hint:"Zapatillas is feminine plural. Match the color ending.",s:"Esas zapatillas {1} son muy cómodas.",a:"blancas"},
         {type:"drag_fill",hint:"Pair each article and color with the correct noun gender.",s:"Llevo {1} camisa {2} y {3} pantalón {4}.",blanks:{"1":"una","2":"azul","3":"un","4":"negro"},pool:["una","azul","un","negro","una","roja","el","negra"]},
-        {type:"mc",q:"'Aquellas faldas rojas cuestan ochocientos euros' means:",opts:["Those red skirts over there cost 800 euros","These red skirts cost 800 euros","That red skirt costs 800 euros","Those red skirts over there cost 80 euros"],ans:"Those red skirts over there cost 800 euros",hint:"Aquellas is far plural feminine. Ochocientos is 800."},
+        {type:"mc",q:"'Aquellas faldas rojas cuestan ochocientos euros' means:",opts:["These red skirts cost 800 euros","Those red skirts over there cost 800 euros","That red skirt costs 800 euros","Those red skirts over there cost 80 euros"],ans:"Those red skirts over there cost 800 euros",hint:"Aquellas is far plural feminine. Ochocientos is 800."},
         {type:"match",pairs:[
           {trg:"¿Cuánto cuesta?",src:"How much does it cost?"},
           {trg:"Me queda grande",src:"It's too big on me"},
@@ -187,6 +187,6 @@ export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Sh
           {trg:"la talla mediana",src:"size medium"},
           {trg:"¿Tiene otra talla?",src:"Do you have another size?"}
         ]},
-        {type:"mc",q:"You see a beautiful dress in the store window. Complete: ¡Mira ___ vestido! ¡Es precioso!",opts:["ese","este","aquel","estos"],ans:"ese",hint:"The dress is at medium distance, in the window near where your friend is."}
+        {type:"mc",q:"You see a beautiful dress in the store window. Complete: ¡Mira ___ vestido! ¡Es precioso!",opts:["aquel","este","ese","estos"],ans:"ese",hint:"The dress is at medium distance, in the window near where your friend is."}
   ]}
 ]};

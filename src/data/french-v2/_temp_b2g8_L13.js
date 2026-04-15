@@ -106,7 +106,7 @@ const LESSON_13 = {
      s:"Les {1} étaient très populaires à Paris au XIXe siècle.",
      a:["cafés-concerts"],
      opts:["cafés-concerts","cafés-tabacs","cafés-crèmes","cafés-hôtels"],
-     hint:"Cafés with live musical entertainment. The ancestor of the modern cabaret.",
+     hint:"C... with live musical entertainment. The ancestor of the modern cabaret.",
      sSrc:"The {1} were very popular in Paris in the 19th century."},
 
     {type:"match", pairs:[

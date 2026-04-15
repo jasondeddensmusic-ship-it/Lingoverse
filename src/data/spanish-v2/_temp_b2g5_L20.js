@@ -58,7 +58,7 @@ const LESSON_20 = {id:"esv2_b2g5_l20",title:"Palabras para dominar",icon:"🎯",
  exampleSrc:"A: The ONCE helps blind people find employment.\nB: It is a very important organization in Spain.",
  funFact:"The ONCE (Organización Nacional de Ciegos) runs Spain's famous lottery and employs thousands."},
 
-{type:"fb",s:"Cuanto más practiques, {1} dominarás el idioma.",a:["más"],opts:["más","menos","como","nunca"],hint:"In the structure 'cuanto más X, ... Y', what word completes the comparison?",sSrc:"The more you practice, the {1} you will master the language."},
+{type:"fb",s:"Cuanto más practiques, {1} dominarás el idioma.",a:["más"],opts:["más","menos","como","nunca"],hint:"In the structure 'cuanto m... X, ... Y', what word completes the comparison?",sSrc:"The more you practice, the {1} you will master the language."},
 
 {type:"teach",trg:"frente",src:"in front / opposite",pos:"adv",gender:null,
  note:"Adverb/preposition. In front of or facing something.\nAlso noun: la frente (forehead), el frente (front line).",

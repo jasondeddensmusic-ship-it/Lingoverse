@@ -14,22 +14,36 @@ if (!fs.existsSync(BASE)) {
   process.exit(1);
 }
 
-// Auto-detect unit count from directory
+// Auto-detect unit count from directory AND temp lesson files
 const unitFiles = fs.readdirSync(BASE).filter(f => /^unit-\d+\.js$/.test(f)).sort();
+const tempFiles = fs.readdirSync(BASE).filter(f => f.startsWith('_temp') && f.endsWith('.js')).sort();
 const UNIT_COUNT = unitFiles.length;
 if (UNIT_COUNT === 0) {
   console.error(`ERROR: No unit files found in ${BASE}`);
   process.exit(1);
 }
-console.log(`PP8 Validator — ${LANG} v2 (${UNIT_COUNT} units)\n`);
+console.log(`PP8 Validator — ${LANG} v2 (${UNIT_COUNT} units, ${tempFiles.length} temp lessons)\n`);
 
 const SKIP_WORDS = new Set([
+  // English
   'the','is','a','an','it','to','of','in','on','at','for','and','or','but','not',
   'this','that','with','from','has','was','are','its','you','your','can','all',
   'been','have','will','one','two','each','very','when','they','more','than',
   'what','how','only','also','does','most','some','such','just','any','same',
   'into','over','much','many','who','had','did','own','may','way','both','use',
-  'her','him','she','out','as','by','do','if','me','my','no','so','up','us','we'
+  'her','him','she','out','as','by','do','if','me','my','no','so','up','us','we',
+  // Dutch function words
+  'het','een','van','met','die','dat','der','den','des','voor','naar','als','maar',
+  'ook','nog','wel','dan','per','bij','uit','aan','hoe','wat','wie','hun','hen',
+  'zij','wij','jij','mij','ons','zijn','haar','deze','dit','die','dat','ter','ten',
+  // French function words
+  'les','des','une','est','que','qui','dans','pour','sur','par','avec','sont','pas',
+  'plus','tout','mais','elle','ses','ces','aux','ont','fait','nos','vos','leur',
+  // Spanish function words
+  'los','las','del','una','por','con','sin','que','como','pero','mas','sus',
+  'sus','esto','esta','ese','esa','son','fue','muy','hay','ser','eso','ella',
+  // Korean function words (romanized patterns common in hints)
+  '이다','것','수','있다','하다','되다','않다'
 ]);
 
 function extractField(objText, fieldName) {
@@ -300,12 +314,77 @@ for (let u = 1; u <= UNIT_COUNT; u++) {
   }
 }
 
+// --- TEMP FILE SCANNING (V2 lesson files) ---
+if (tempFiles.length > 0) {
+  console.log(`\n--- Scanning ${tempFiles.length} temp lesson files ---`);
+  let tempHintLeaks = 0, tempVisualLeaks = 0, tempMC = 0, tempFB = 0;
+
+  for (const tf of tempFiles) {
+    const filePath = path.join(BASE, tf);
+    const fileText = fs.readFileSync(filePath, 'utf8');
+    const allBlocks = extractStepBlocks(fileText);
+
+    for (const block of allBlocks) {
+      if (block.type === 'mc') {
+        tempMC++;
+        const hint = extractField(block.text, 'hint');
+        const ans = extractField(block.text, 'ans');
+        const q = extractField(block.text, 'q');
+
+        if (hint && ans) {
+          const leaks = hintLeakCheck(hint, ans);
+          if (leaks.length > 0) {
+            tempHintLeaks++;
+            allViolations.push({
+              unit: tf, type: 'HINT_LEAK_MC',
+              detail: `hint="${hint.slice(0,60)}" leaks [${leaks.join(', ')}] from ans="${ans.slice(0,40)}"`
+            });
+          }
+        }
+        if (q && ans && visualLeakMC(q, ans)) {
+          tempVisualLeaks++;
+          allViolations.push({
+            unit: tf, type: 'VISUAL_LEAK_MC',
+            detail: `q="${q.slice(0,60)}" contains ans="${ans.slice(0,40)}"`
+          });
+        }
+      }
+      if (block.type === 'fb') {
+        tempFB++;
+        const hint = extractField(block.text, 'hint');
+        const s = extractField(block.text, 's');
+        const aArr = extractA(block.text);
+        const ans = aArr[0] || null;
+
+        if (hint && ans) {
+          const leaks = hintLeakCheck(hint, ans);
+          if (leaks.length > 0) {
+            tempHintLeaks++;
+            allViolations.push({
+              unit: tf, type: 'HINT_LEAK_FB',
+              detail: `hint="${hint.slice(0,60)}" leaks [${leaks.join(', ')}] from a[0]="${ans.slice(0,40)}"`
+            });
+          }
+        }
+        if (s && ans && visualLeakFB(s, ans)) {
+          tempVisualLeaks++;
+          allViolations.push({
+            unit: tf, type: 'VISUAL_LEAK_FB',
+            detail: `s="${s.slice(0,60)}" contains ans="${ans.slice(0,40)}"`
+          });
+        }
+      }
+    }
+  }
+  console.log(`Temp files: ${tempMC} mc, ${tempFB} fb. Hint leaks: ${tempHintLeaks}, Visual leaks: ${tempVisualLeaks}`);
+}
+
 console.log('\n========================================');
 console.log('            PP8 GRAND SUMMARY');
 console.log('========================================');
 const totalMC = unitSummaries.reduce((s, u) => s + u.mcCount, 0);
 const totalFB = unitSummaries.reduce((s, u) => s + u.fbCount, 0);
-console.log(`Units checked : ${UNIT_COUNT}`);
+console.log(`Units checked : ${UNIT_COUNT} + ${tempFiles.length} temp files`);
 console.log(`Total mc steps: ${totalMC}`);
 console.log(`Total fb steps: ${totalFB}`);
 console.log(`Total quiz    : ${totalMC + totalFB}`);

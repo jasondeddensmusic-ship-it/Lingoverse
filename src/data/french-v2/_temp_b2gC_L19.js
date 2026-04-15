@@ -89,7 +89,7 @@ const LESSON_19 = {id:"frv2_b2gC_l19", title:"Caractère et moralité", icon:"\u
  q:"Jusqu'en 1993, quelle restriction existait sur les prénoms en France ?",
  opts:["Seuls les noms de saints étaient autorisés","Aucune restriction n'existait","Les prénoms étrangers étaient obligatoires","Les parents ne choisissaient pas"],
  ans:"Seuls les noms de saints étaient autorisés",
- hint:"French law was very strict about naming. Only names from the calendar of saints were allowed."},
+ hint:"French law was very strict about naming. Only names from the calendar of s... were allowed."},
 
 {type:"fb",
  s:"Au Moyen Âge, les {1} étaient souvent persécutés pour leurs croyances.",

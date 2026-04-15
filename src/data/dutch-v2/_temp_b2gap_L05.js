@@ -112,7 +112,7 @@ const LESSON_5 = {
     {type:"mc", q:"What does 'aardverschuiving' literally mean?",
      opts:["earthquake","earth shift/landslide","ground collapse","soil erosion"],
      ans:"earth shift/landslide",
-     hint:"'Aard' means earth, 'verschuiving' means shift or slide."},
+     hint:"'Aard' means e..., 'verschuiving' means s... or slide."},
     {type:"mc", q:"Which word means 'dredging work'?",
      opts:["baggerwerk","bosbouw","boomwoning","biodiesel"],
      ans:"baggerwerk",

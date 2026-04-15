@@ -77,7 +77,7 @@ const LESSON_17 = {
      q:"Wat is een 'dakakker'?",
      opts:["Een boerderij met een groot dak","Een tuin op het dak van een gebouw","Een akker naast een dak","Een boomgaard op een heuvel"],
      ans:"Een tuin op het dak van een gebouw",
-     hint:"Dak (roof) + akker (field). Urban farming happening on top of buildings."},
+     hint:"D... (roof) + akker (field). Urban farming happening on top of buildings."},
 
     {type:"fb",
      s:"De Bijenkorf op de Dam is het beroemdste {1} van Nederland.",

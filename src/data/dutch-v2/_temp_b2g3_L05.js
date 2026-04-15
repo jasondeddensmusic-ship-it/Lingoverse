@@ -102,7 +102,7 @@ const LESSON_5 = {
     {type:"mc", q:"Wat is een 'vast dienstverband'?",
      opts:["een tijdelijk contract","een permanent contract","een stageplek","een bijbaan"],
      ans:"een permanent contract",
-     hint:"'Vast' means fixed or permanent. A 'dienstverband' is an employment relationship."},
+     hint:"'Vast' means fixed or p.... A 'dienstverband' is an employment relationship."},
     {type:"fb", s:"Ze {1} als schrijfster op haar twintigste.", a:["debuteerde"],
      opts:["debuteerde","deelnam","complimenteerde","domineerde"],
      hint:"A verb from French meaning to make one's first public appearance.",

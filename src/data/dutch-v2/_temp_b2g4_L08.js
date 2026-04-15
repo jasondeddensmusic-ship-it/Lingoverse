@@ -138,7 +138,7 @@ const LESSON_8 = {
     {type:"mc", q:"'De lucht is felblauw.' What does 'felblauw' mean?",
      opts:["dark blue","light blue","vivid blue","pale blue"],
      ans:"vivid blue",
-     hint:"'Fel' means bright or vivid. It intensifies the color."},
+     hint:"'Fel' means bright or v.... It intensifies the color."},
     {type:"match", pairs:[
       {trg:"canvas", src:"canvas"},
       {trg:"excentriek", src:"eccentric"},

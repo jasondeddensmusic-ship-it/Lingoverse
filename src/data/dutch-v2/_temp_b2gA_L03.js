@@ -60,7 +60,7 @@ const LESSON_3 = {id:"nlv2_b2gA_l3", title:"Jeugd & Opvoeding", icon:"\u{1F9D2}"
   {type:"mc", q:"De jeugdrechter kijkt naar de achtergrond van de dader. Wat is een 'jeugdrechter'?",
    opts:["a juvenile court judge","a youth worker","a school principal","a social worker"],
    ans:"a juvenile court judge",
-   hint:"A rechter (judge) who specializes in cases involving young people (jeugd)."},
+   hint:"A rechter (j...) who specializes in cases involving young people (jeugd)."},
 
   {type:"fb", s:"Hij is doorverwezen naar de {1} voor gedragsproblemen.",
    a:["jeugdpsychiatrie"], opts:["jeugdpsychiatrie","jeugdcriminaliteit","huiswerkbegeleiding","jeugdbeweging"],

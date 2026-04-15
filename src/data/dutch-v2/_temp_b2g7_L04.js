@@ -108,7 +108,7 @@ const LESSON_4 = {
      q:"Wat is een 'geloofsgenoot'?",
      opts:["Iemand met hetzelfde geloof","Een religieuze leider","Een kerkgebouw","Een gelovig kind"],
      ans:"Iemand met hetzelfde geloof",
-     hint:"Break this compound: geloof (faith) + genoot (fellow/companion). What does that give you?"}
+     hint:"Break this compound: g... (faith) + genoot (fellow/companion). What does that give you?"}
   ]
 };
 export default LESSON_4;

@@ -79,7 +79,7 @@ const LESSON_14 = {id:"nlv2_b2gA_l14", title:"Religie & Traditie", icon:"\u{26EA
   {type:"mc", q:"Hij is een echte kenner van Nederlandse kunst. Wat is een 'kenner'?",
    opts:["a connoisseur, someone with deep expertise","a collector","a salesperson","a critic"],
    ans:"a connoisseur, someone with deep expertise",
-   hint:"From kennen (to know). Someone who knows a subject inside and out."},
+   hint:"From kennen (to know). S... who knows a subject inside and out."},
 
   {type:"fb", s:"Johan Cruijff is een {1} voor miljoenen voetbalfans.",
    a:["idool"], opts:["idool","heilige","kenner","hervormer"],

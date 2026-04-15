@@ -112,7 +112,7 @@ const LESSON_20 = {
     {type:"mc", q:"What is the 'Camera Obscura' famous for in Dutch culture?",
      opts:["a painting by Rembrandt","a classic Dutch novel","a photography invention","a museum in Amsterdam"],
      ans:"a classic Dutch novel",
-     hint:"Written by Hildebrand (Nicolaas Beets) in 1839. Every Dutch student reads it."},
+     hint:"Written by Hildebrand (Nicolaas Beets) in 1839. Every D... student reads it."},
     {type:"fb", s:"Het {1} van de heilige werd gevonden.", a:["gebeente"],
      opts:["gebeente","gebouw","gebied","geheugen"],
      hint:"A literary/formal word for bones or skeletal remains.",

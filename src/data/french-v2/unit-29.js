@@ -11,9 +11,9 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"teach",trg:"Il ne faut pas vendre la peau de l'ours avant de l'avoir tué",src:"Don't count your chickens before they hatch (lit. Don't sell the bear's skin before killing it)",pos:"verb",gender:null,phonetic:"eel nuh foh pah VAHN-druh lah poh duh LOORS ah-VAHN duh lah-VWAHR tway",note:"Warns against premature celebration. Often shortened to: ne vends pas la peau de l'ours.",example:"A: J'ai déjà réservé un voyage avec la prime que je vais recevoir.\nB: Il ne faut pas vendre la peau de l'ours avant de l'avoir tué!",exampleSrc:"A: I already booked a trip with the bonus I'm going to get.\nB: Don't count your chickens before they hatch!",funFact:"French verbs change form for each person. The spoken forms are often simpler than the written ones."},
         {type:"tip",title:"Reading French proverbs",text:"French proverbs often use:\n\n1. The subjunctive future (qui vivra)\n2. Comparisons with animals/nature\n3. Medieval imagery (moines, ours)\n\nLiteral translation helps you memorize them. The imagery makes them stick."},
         {type:"mc",q:"Which proverb means 'don't judge by appearances'?",opts:["L'habit ne fait pas le moine","Qui vivra verra","Mieux vaut tard que jamais","Petit à petit, l'oiseau fait son nid"],ans:"L'habit ne fait pas le moine",hint:"Think about monks and their clothing"},
-        {type:"mc",q:"Your friend is worried about results that haven't arrived yet. Which proverb fits?",opts:["Qui vivra verra","Petit à petit, l'oiseau fait son nid","Mieux vaut tard que jamais","L'habit ne fait pas le moine"],ans:"Qui vivra verra",hint:"Express that the future will reveal the answer"},
+        {type:"mc",q:"Your friend is worried about results that haven't arrived yet. Which proverb fits?",opts:["Petit à petit, l'oiseau fait son nid","Qui vivra verra","Mieux vaut tard que jamais","L'habit ne fait pas le moine"],ans:"Qui vivra verra",hint:"Express that the future will reveal the answer"},
         {type:"fb",opts:["tard","tôt","bien","vite"],hint:"The word that means delayed or not on time",s:"Mieux vaut {1} que jamais.",a:["tard"]},
-        {type:"mc",q:"Someone finally starts learning an instrument at age 50. What would you say?",opts:["Mieux vaut tard que jamais","Qui vivra verra","Il ne faut pas vendre la peau de l'ours","L'habit ne fait pas le moine"],ans:"Mieux vaut tard que jamais",hint:"Encourage them despite the late start"},
+        {type:"mc",q:"Someone finally starts learning an instrument at age 50. What would you say?",opts:["Il ne faut pas vendre la peau de l'ours","Qui vivra verra","Mieux vaut tard que jamais","L'habit ne fait pas le moine"],ans:"Mieux vaut tard que jamais",hint:"Encourage them despite the late start"},
         {type:"fb",opts:["nid","vol","aile","chant"],hint:"Where a bird lives with its eggs",s:"Petit à petit, l'oiseau fait son {1}.",a:["nid"]},
         {type:"match",pairs:[
           {trg:"Qui vivra verra",src:"Time will tell"},
@@ -21,11 +21,11 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
           {trg:"Petit à petit",src:"Little by little"},
           {trg:"Mieux vaut tard que jamais",src:"Better late than never"}
         ]},
-        {type:"mc",q:"Your colleague brags about a promotion not yet confirmed. Which proverb applies?",opts:["Il ne faut pas vendre la peau de l'ours avant de l'avoir tué","Qui vivra verra","L'habit ne fait pas le moine","Mieux vaut tard que jamais"],ans:"Il ne faut pas vendre la peau de l'ours avant de l'avoir tué",hint:"About celebrating too early, with a bear in the image"},
+        {type:"mc",q:"Your colleague brags about a promotion not yet confirmed. Which proverb applies?",opts:["Mieux vaut tard que jamais","Qui vivra verra","L'habit ne fait pas le moine","Il ne faut pas vendre la peau de l'ours avant de l'avoir tué"],ans:"Il ne faut pas vendre la peau de l'ours avant de l'avoir tué",hint:"About celebrating too early, with a bear in the image"},
         {type:"fb",opts:["moine","roi","saint","prêtre"],hint:"A religious person living in a monastery",s:"L'habit ne fait pas le {1}.",a:["moine"]},
         {type:"mc",q:"What animal appears in the proverb about patience and steady effort?",opts:["Un oiseau","Un ours","Un moine","Un renard"],ans:"Un oiseau",hint:"A small creature that builds something piece by piece"},
         {type:"drag_fill",hint:"First the skin, then what you do to the bear",s:"Il ne faut pas vendre la {1} de l'ours avant de l'avoir {2}.",blanks:{"1":"peau","2":"tué"},pool:["peau","tué","vu","main"]},
-        {type:"mc",q:"What is the literal meaning of 'Qui vivra verra'?",opts:["Who will live will see","Who lives well sees well","Life is short","Living is seeing"],ans:"Who will live will see",hint:"Translate each word: qui=___, vivra=will ___, verra=will ___"},
+        {type:"mc",q:"What is the literal meaning of 'Qui vivra verra'?",opts:["Who lives well sees well","Who will live will see","Life is short","Living is seeing"],ans:"Who will live will see",hint:"Translate each word: qui=___, vivra=will ___, verra=will ___"},
         {type:"fb",opts:["Qui","Que","Quoi","Quel"],hint:"The relative pronoun meaning 'who' as a subject",s:"{1} vivra verra.",a:["Qui"]}
   ]},
   {id:"fre29l2",title:"Expressions culinaires",icon:"🍑",xp:15,board:true,steps:[
@@ -38,7 +38,7 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"tip",title:"Food in French idioms",text:"French food expressions reflect daily life:\n\n1. Fruits = emotions (pêche = energy, pommes = fainting)\n2. Cooking = social behavior (grain de sel = opinions)\n3. Dessert = extras (cerise sur le gâteau)\n\nMany have informal variants with different foods but same meaning."},
         {type:"mc",q:"Your friend looks exhausted. Which expression does NOT describe them?",opts:["avoir la pêche","tomber dans les pommes","raconter des salades","mettre son grain de sel"],ans:"avoir la pêche",hint:"Which one means being full of energy, the opposite of tired?"},
         {type:"fb",opts:["salades","pommes","pêches","cerises"],hint:"A leafy green dish, used here to mean made-up stories",s:"Elle raconte des {1}, ne la crois pas.",a:["salades"]},
-        {type:"mc",q:"Someone faints from the heat. Which expression fits?",opts:["tomber dans les pommes","avoir la pêche","raconter des salades","mettre son grain de sel"],ans:"tomber dans les pommes",hint:"Falling into a certain fruit means losing consciousness"},
+        {type:"mc",q:"Someone faints from the heat. Which expression fits?",opts:["avoir la pêche","tomber dans les pommes","raconter des salades","mettre son grain de sel"],ans:"tomber dans les pommes",hint:"Falling into a certain fruit means losing consciousness"},
         {type:"fb",opts:["sel","sucre","poivre","sable"],hint:"A white seasoning used in cooking",s:"Il met toujours son grain de {1} dans les discussions.",a:["sel"]},
         {type:"match",pairs:[
           {trg:"avoir la pêche",src:"to be full of energy"},
@@ -47,12 +47,12 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
           {trg:"mettre son grain de sel",src:"to put in one's two cents"},
           {trg:"la cerise sur le gâteau",src:"the cherry on top"}
         ]},
-        {type:"mc",q:"A bonus day off on top of a raise would be described as:",opts:["la cerise sur le gâteau","avoir la pêche","raconter des salades","tomber dans les pommes"],ans:"la cerise sur le gâteau",hint:"A small sweet fruit on top of a dessert"},
+        {type:"mc",q:"A bonus day off on top of a raise would be described as:",opts:["raconter des salades","avoir la pêche","la cerise sur le gâteau","tomber dans les pommes"],ans:"la cerise sur le gâteau",hint:"A small sweet fruit on top of a dessert"},
         {type:"fb",opts:["pêche","pomme","cerise","salade"],hint:"A fuzzy fruit associated with energy and good health",s:"Ce matin, j'ai la {1}! Je suis prêt pour tout.",a:["pêche"]},
-        {type:"mc",q:"Your coworker keeps giving unsolicited advice. You might say they always:",opts:["mettent leur grain de sel","racontent des salades","tombent dans les pommes","ont la pêche"],ans:"mettent leur grain de sel",hint:"Adding a small amount of a seasoning to something"},
+        {type:"mc",q:"Your coworker keeps giving unsolicited advice. You might say they always:",opts:["ont la pêche","racontent des salades","tombent dans les pommes","mettent leur grain de sel"],ans:"mettent leur grain de sel",hint:"Adding a small amount of a seasoning to something"},
         {type:"drag_fill",hint:"A small red fruit on top of a baked dessert",s:"C'est la {1} sur le {2}!",blanks:{"1":"cerise","2":"gâteau"},pool:["cerise","gâteau","pomme","sel"]},
         {type:"mc",q:"If someone \"raconte des salades\", they are:",opts:["Telling lies or tall tales","Making a salad recipe","Giving gardening advice","Ordering food at a restaurant"],ans:"Telling lies or tall tales",hint:"This food expression has nothing to do with actual cooking or eating."},
-        {type:"mc",q:"What is the literal meaning of 'tomber dans les pommes'?",opts:["To fall into the apples","To fall into the peaches","To fall into the salad","To fall into the cake"],ans:"To fall into the apples",hint:"The fruit is round, often red or green, grows on trees"}
+        {type:"mc",q:"What is the literal meaning of 'tomber dans les pommes'?",opts:["To fall into the peaches","To fall into the apples","To fall into the salad","To fall into the cake"],ans:"To fall into the apples",hint:"The fruit is round, often red or green, grows on trees"}
   ]},
   {id:"fre29l3",title:"Le corps en expressions",icon:"💪",xp:15,board:true,steps:[
         {type:"intro",title:"Le corps en expressions",desc:"The human body is a rich source of French idioms. Learn expressions using arms, eyes, hearts, and feet.",goals:["Learn 5 body-related idioms","Distinguish literal from figurative body references","Apply them in context"]},
@@ -64,7 +64,7 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"tip",title:"Body idioms across cultures",text:"Many French body idioms have English equivalents with DIFFERENT body parts:\n\n1. French eyes = English arm and leg (expensive)\n2. French feet = English nerves (annoying)\n3. French arm = English connections (influence)\n\nThe heart idiom is similar: generous in both cultures."},
         {type:"mc",q:"Your friend got a job through family connections. Which expression fits?",opts:["avoir le bras long","avoir le cœur sur la main","avoir la tête dans les nuages","casser les pieds"],ans:"avoir le bras long",hint:"The body part associated with reach and influence"},
         {type:"fb",opts:["yeux","bras","pieds","mains"],hint:"The organs you use to see, associated with high cost",s:"Ce sac coûte les {1} de la tête!",a:["yeux"]},
-        {type:"mc",q:"How would you describe a very generous person in French?",opts:["Elle a le cœur sur la main","Elle a le bras long","Elle a la tête dans les nuages","Elle casse les pieds"],ans:"Elle a le cœur sur la main",hint:"The organ of love placed on an open palm"},
+        {type:"mc",q:"How would you describe a very generous person in French?",opts:["Elle a le bras long","Elle a le cœur sur la main","Elle a la tête dans les nuages","Elle casse les pieds"],ans:"Elle a le cœur sur la main",hint:"The organ of love placed on an open palm"},
         {type:"fb",opts:["pieds","bras","yeux","mains"],hint:"What you stand and walk on, broken here means annoyed",s:"Arrête de me casser les {1}!",a:["pieds"]},
         {type:"match",pairs:[
           {trg:"avoir le bras long",src:"to have connections"},
@@ -73,9 +73,9 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
           {trg:"casser les pieds",src:"to annoy someone"},
           {trg:"la tête dans les nuages",src:"to be absent-minded"}
         ]},
-        {type:"mc",q:"A daydreamy student who forgets homework might be described as having:",opts:["la tête dans les nuages","le bras long","le cœur sur la main","les pieds cassés"],ans:"la tête dans les nuages",hint:"Their mind is floating somewhere high above"},
+        {type:"mc",q:"A daydreamy student who forgets homework might be described as having:",opts:["le cœur sur la main","le bras long","la tête dans les nuages","les pieds cassés"],ans:"la tête dans les nuages",hint:"Their mind is floating somewhere high above"},
         {type:"drag_fill",hint:"The organ of generosity placed on an open palm",s:"Il a le {1} sur la {2}, il aide toujours tout le monde.",blanks:{"1":"cœur","2":"main"},pool:["cœur","main","bras","tête"]},
-        {type:"mc",q:"Which expression means something is extremely expensive?",opts:["Ça coûte les yeux de la tête","Ça casse les pieds","Ça a le bras long","Ça a la tête dans les nuages"],ans:"Ça coûte les yeux de la tête",hint:"Losing a precious sense organ implies a high price"},
+        {type:"mc",q:"Which expression means something is extremely expensive?",opts:["Ça a la tête dans les nuages","Ça casse les pieds","Ça a le bras long","Ça coûte les yeux de la tête"],ans:"Ça coûte les yeux de la tête",hint:"Losing a precious sense organ implies a high price"},
         {type:"fb",opts:["bras","cœur","pied","doigt"],hint:"The limb that can reach far, symbolizing influence",s:"Elle a le {1} long, elle connaît beaucoup de monde.",a:["bras"]},
         {type:"fb",opts:["coûte","casse","prend","met"],hint:"The verb that goes with a body-part idiom about extreme expense.",s:"Ce restaurant est magnifique mais il {1} les yeux de la tête.",a:["coûte"]},
         {type:"mc",q:"Your neighbor's dog barks all night and it bothers you. The dog vous:",opts:["casse les pieds","coûte les yeux de la tête","a le bras long","a le cœur sur la main"],ans:"casse les pieds",hint:"Think about which expression means persistent annoyance"}
@@ -90,7 +90,7 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"tip",title:"Animals in French vs English idioms",text:"Same concept, different animals:\n\n1. FR poules avec des dents = EN pigs that fly\n2. FR chats à fouetter = EN fish to fry\n3. FR faim de loup = EN hungry as a horse\n\nFrench animals tend to be farm animals (poules, lapins). English uses a wider range."},
         {type:"mc",q:"Your date never showed up at the café. They:",opts:["vous ont posé un lapin","vous ont donné un loup","vous ont fouetté un chat","vous ont mouillé une poule"],ans:"vous ont posé un lapin",hint:"A small animal with long ears is involved in this missed meeting"},
         {type:"fb",opts:["loup","lapin","poule","chat"],hint:"A wild canine predator known for its appetite",s:"J'ai une faim de {1}, je pourrais manger n'importe quoi!",a:["loup"]},
-        {type:"mc",q:"Someone says 'quand les poules auront des dents.' What do they mean?",opts:["It will never happen","It will happen soon","They are very hungry","They are scared"],ans:"It will never happen",hint:"Chickens having teeth is biologically impossible"},
+        {type:"mc",q:"Someone says 'quand les poules auront des dents.' What do they mean?",opts:["It will happen soon","It will never happen","They are very hungry","They are scared"],ans:"It will never happen",hint:"Chickens having teeth is biologically impossible"},
         {type:"fb",opts:["mouillée","sèche","grande","folle"],hint:"The adjective meaning covered in water, making the chicken helpless",s:"Ne sois pas une poule {1}, essaie au moins!",a:["mouillée"]},
         {type:"match",pairs:[
           {trg:"poser un lapin",src:"to stand someone up"},
@@ -99,12 +99,12 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
           {trg:"une poule mouillée",src:"a coward"},
           {trg:"d'autres chats à fouetter",src:"other fish to fry"}
         ]},
-        {type:"mc",q:"Your colleague says she can't help because she has 'd'autres chats à fouetter.' She means:",opts:["She's busy with more important things","She doesn't like cats","She's scared","She's very hungry"],ans:"She's busy with more important things",hint:"Other tasks demand her attention right now"},
+        {type:"mc",q:"Your colleague says she can't help because she has 'd'autres chats à fouetter.' She means:",opts:["She's scared","She doesn't like cats","She's busy with more important things","She's very hungry"],ans:"She's busy with more important things",hint:"Other tasks demand her attention right now"},
         {type:"drag_fill",hint:"Farm birds gaining something they naturally lack",s:"Quand les {1} auront des {2}, il sera à l'heure!",blanks:{"1":"poules","2":"dents"},pool:["poules","dents","loups","lapins"]},
-        {type:"mc",q:"Which expression would you use to say you're extremely hungry?",opts:["J'ai une faim de loup","Je suis une poule mouillée","J'ai d'autres chats à fouetter","On m'a posé un lapin"],ans:"J'ai une faim de loup",hint:"A predatory animal associated with ravenous appetite"},
+        {type:"mc",q:"Which expression would you use to say you're extremely hungry?",opts:["On m'a posé un lapin","Je suis une poule mouillée","J'ai d'autres chats à fouetter","J'ai une faim de loup"],ans:"J'ai une faim de loup",hint:"A predatory animal associated with ravenous appetite"},
         {type:"fb",opts:["chats","lapins","poules","loups"],hint:"A common pet, but here it means tasks to handle",s:"J'ai d'autres {1} à fouetter en ce moment.",a:["chats"]},
         {type:"mc",q:"Someone described as \"une poule mouillée\" is:",opts:["A coward","A fast runner","A good swimmer","An early riser"],ans:"A coward",hint:"This farmyard animal expression describes someone who lacks courage."},
-        {type:"mc",q:"What does 'être une poule mouillée' literally mean?",opts:["To be a wet chicken","To be a hungry wolf","To be a lost rabbit","To be a wild cat"],ans:"To be a wet chicken",hint:"A farm bird drenched in water, looking pitiful and scared"}
+        {type:"mc",q:"What does 'être une poule mouillée' literally mean?",opts:["To be a hungry wolf","To be a wet chicken","To be a lost rabbit","To be a wild cat"],ans:"To be a wet chicken",hint:"A farm bird drenched in water, looking pitiful and scared"}
   ]},
   {id:"fre29l5",title:"Le registre littéraire",icon:"🎓",xp:15,board:true,steps:[
         {type:"intro",title:"Le registre littéraire",desc:"Elevate your written French with formal connectors and literary vocabulary used in essays, articles, and academic writing.",goals:["Learn 5 literary-register connectors","Distinguish formal from everyday equivalents","Use them in written French contexts"]},
@@ -116,12 +116,12 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"tip",title:"Formal vs everyday connectors",text:"Each literary word has a casual equivalent:\n\n1. néanmoins = quand même / pourtant\n2. nonobstant = malgré\n3. en l'occurrence = dans ce cas\n4. de surcroît = en plus\n5. au demeurant = d'ailleurs\n\nUse literary forms in essays, reports, and formal emails. Use casual forms in conversation."},
         {type:"mc",q:"Which word is the most formal way to say 'nevertheless'?",opts:["néanmoins","quand même","pourtant","mais"],ans:"néanmoins",hint:"This literary connector starts with 'né' and sounds elegant"},
         {type:"fb",opts:["Nonobstant","Néanmoins","Pourtant","Surtout"],hint:"A very formal word meaning 'despite', often used in legal texts",s:"{1} ces difficultés, nous avons terminé le projet.",a:["Nonobstant"]},
-        {type:"mc",q:"'En l'occurrence' is best translated as:",opts:["in this case","on the other hand","in conclusion","for example"],ans:"in this case",hint:"It specifies the particular situation being discussed"},
+        {type:"mc",q:"'En l'occurrence' is best translated as:",opts:["on the other hand","in this case","in conclusion","for example"],ans:"in this case",hint:"It specifies the particular situation being discussed"},
         {type:"fb",opts:["de surcroît","néanmoins","nonobstant","en l'occurrence"],hint:"A formal way to say 'moreover' or 'in addition'",s:"Il est compétent et, {1}, très motivé.",a:["de surcroît"]},
         {type:"match",pairs:[{trg:"néanmoins",src:"nevertheless"},{trg:"nonobstant",src:"notwithstanding"},{trg:"en l'occurrence",src:"in this case"},{trg:"de surcroît",src:"moreover"},{trg:"au demeurant",src:"for that matter"}]},
-        {type:"mc",q:"Which connector would fit in a formal essay to add an extra argument?",opts:["de surcroît","quand même","en fait","par contre"],ans:"de surcroît",hint:"The formal equivalent of 'en plus', adding weight to a point"},
+        {type:"mc",q:"Which connector would fit in a formal essay to add an extra argument?",opts:["en fait","quand même","de surcroît","par contre"],ans:"de surcroît",hint:"The formal equivalent of 'en plus', adding weight to a point"},
         {type:"drag_fill",hint:"First a concession, then an additional positive point",s:"{1}, le candidat a de l'expérience. {2}, il maîtrise trois langues.",blanks:{"1":"Néanmoins","2":"De surcroît"},pool:["Néanmoins","De surcroît","Pourtant","Malgré"]},
-        {type:"mc",q:"In casual speech, what is the everyday equivalent of 'au demeurant'?",opts:["d'ailleurs","néanmoins","nonobstant","en l'occurrence"],ans:"d'ailleurs",hint:"A common word meaning 'besides' or 'by the way'"},
+        {type:"mc",q:"In casual speech, what is the everyday equivalent of 'au demeurant'?",opts:["en l'occurrence","néanmoins","nonobstant","d'ailleurs"],ans:"d'ailleurs",hint:"A common word meaning 'besides' or 'by the way'"},
         {type:"fb",opts:["nonobstant","néanmoins","de surcroît","en l'occurrence"],hint:"A very formal literary word meaning \"despite this\" or \"notwithstanding\".",s:"Il a commis une erreur; {1}, il refuse de l'admettre.",a:["nonobstant"]},
         {type:"mc",q:"Which literary connector means \"moreover\" or \"in addition\"?",opts:["De surcroît","Nonobstant","Au demeurant","En l'occurrence"],ans:"De surcroît",hint:"This formal expression adds weight to an argument by introducing an additional point."},
         {type:"fb",opts:["En l'occurrence","Nonobstant","Au demeurant","De surcroît"],hint:"A phrase that specifies who or what applies in this particular case",s:"{1}, c'est le directeur qui a pris cette décision.",a:["En l'occurrence"]}
@@ -135,9 +135,9 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"teach",trg:"une hyperbole",src:"a hyperbole / exaggeration",pos:"noun",gender:"f",phonetic:"ee-pehr-BOL",note:"Deliberate exaggeration for emphasis. Very common in everyday speech too.",example:"A: 'Je meurs de faim!' C'est vrai?\nB: Non, c'est une hyperbole. Il exagère pour montrer qu'il a très faim.",exampleSrc:"A: 'I'm dying of hunger!' Is it true?\nB: No, it's a hyperbole. He exaggerates to show he's very hungry.",funFact:"Feminine noun. Words ending in -tion, -sion, -ure are usually feminine."},
         {type:"tip",title:"Spotting figures of style",text:"Key recognition clues:\n\n1. Metaphor: X IS Y (no comparison word)\n2. Simile: X is LIKE Y (avec 'comme')\n3. Litotes: negative form for positive meaning\n4. Euphemism: gentle word for harsh reality\n5. Hyperbole: extreme exaggeration\n\nFrench literature exams test all of these regularly."},
         {type:"mc",q:"'La vie est un long fleuve tranquille.' This is:",opts:["une métaphore","une comparaison","une litote","une hyperbole"],ans:"une métaphore",hint:"There is no comparison word like 'comme'. Life IS a river directly."},
-        {type:"mc",q:"'Elle chante comme un rossignol.' This is:",opts:["une comparaison","une métaphore","un euphémisme","une hyperbole"],ans:"une comparaison",hint:"The word 'comme' signals an explicit comparison"},
+        {type:"mc",q:"'Elle chante comme un rossignol.' This is:",opts:["une métaphore","une comparaison","un euphémisme","une hyperbole"],ans:"une comparaison",hint:"The word 'comme' signals an explicit comparison"},
         {type:"fb",opts:["litote","hyperbole","métaphore","comparaison"],hint:"Saying less to express more, using understatement",s:"Dire 'ce n'est pas mal' pour dire 'c'est excellent' est une {1}.",a:["litote"]},
-        {type:"mc",q:"'Il nous a quittés' instead of 'il est mort' is:",opts:["un euphémisme","une hyperbole","une litote","une métaphore"],ans:"un euphémisme",hint:"Softening a painful truth with gentler words"},
+        {type:"mc",q:"'Il nous a quittés' instead of 'il est mort' is:",opts:["une litote","une hyperbole","un euphémisme","une métaphore"],ans:"un euphémisme",hint:"Softening a painful truth with gentler words"},
         {type:"fb",opts:["hyperbole","litote","comparaison","métaphore"],hint:"Extreme exaggeration used for dramatic effect",s:"'Je t'ai attendu mille ans!' est une {1}.",a:["hyperbole"]},
         {type:"match",pairs:[
           {trg:"métaphore",src:"X is Y (direct)"},
@@ -146,11 +146,11 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
           {trg:"euphémisme",src:"soften harsh reality"},
           {trg:"hyperbole",src:"extreme exaggeration"}
         ]},
-        {type:"mc",q:"Which figure of style does 'Je meurs de soif' use?",opts:["une hyperbole","une litote","un euphémisme","une comparaison"],ans:"une hyperbole",hint:"You are not literally dying. This is a dramatic overstatement."},
+        {type:"mc",q:"Which figure of style does 'Je meurs de soif' use?",opts:["une comparaison","une litote","un euphémisme","une hyperbole"],ans:"une hyperbole",hint:"You are not literally dying. This is a dramatic overstatement."},
         {type:"drag_fill",hint:"The first has no comparison word, the second does",s:"Une {1} compare directement, une {2} utilise 'comme'.",blanks:{"1":"métaphore","2":"comparaison"},pool:["métaphore","comparaison","litote","hyperbole"]},
         {type:"fb",opts:["litote","hyperbole","métaphore","comparaison"],hint:"This figure of speech says less to mean more, using understatement.",s:"Dire \"il n'est pas très intelligent\" au lieu de \"il est bête\" est une {1}.",a:["litote"]},
         {type:"mc",q:"\"J'ai mille choses à faire\" is an example of:",opts:["Hyperbole","Litote","Métaphore","Euphémisme"],ans:"Hyperbole",hint:"This device uses extreme exaggeration for emphasis, not meant literally."},
-        {type:"mc",q:"In Corneille's 'Va, je ne te hais point' (Go, I do not hate you), meaning 'I love you', the figure is:",opts:["une litote","un euphémisme","une hyperbole","une métaphore"],ans:"une litote",hint:"Denying the negative to express a strong positive feeling"}
+        {type:"mc",q:"In Corneille's 'Va, je ne te hais point' (Go, I do not hate you), meaning 'I love you', the figure is:",opts:["un euphémisme","une litote","une hyperbole","une métaphore"],ans:"une litote",hint:"Denying the negative to express a strong positive feeling"}
   ]},
   {id:"fre29l7",title:"Voix littéraires",icon:"📖",xp:15,board:true,steps:[
         {type:"intro",title:"Voix littéraires",desc:"Explore famous quotes from French literature and the cultural references every educated French speaker knows.",goals:["Learn iconic French literary quotes","Understand their cultural significance","Connect literature to everyday expressions"]},
@@ -162,7 +162,7 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"tip",title:"French cultural literacy",text:"Every educated French speaker knows:\n\n1. Le Petit Prince (Saint-Exupéry, 1943)\n2. Descartes' cogito (1637)\n3. Sartre's existentialism\n4. The motto of the Republic\n5. Les Misérables, Le Petit Nicolas, Astérix\n\nQuoting these in conversation shows cultural fluency."},
         {type:"mc",q:"Which author wrote 'L'essentiel est invisible pour les yeux'?",opts:["Antoine de Saint-Exupéry","Jean-Paul Sartre","René Descartes","Victor Hugo"],ans:"Antoine de Saint-Exupéry",hint:"The author who was also a pilot and wrote about a boy on a small planet"},
         {type:"fb",opts:["donc","mais","car","puis"],hint:"A conjunction meaning 'therefore' or 'so'",s:"Je pense, {1} je suis.",a:["donc"]},
-        {type:"mc",q:"'L'enfer, c'est les autres' comes from which philosophical movement?",opts:["Existentialism","Romanticism","Classicism","Surrealism"],ans:"Existentialism",hint:"Sartre's philosophy about freedom, choice, and the human condition"},
+        {type:"mc",q:"'L'enfer, c'est les autres' comes from which philosophical movement?",opts:["Romanticism","Existentialism","Classicism","Surrealism"],ans:"Existentialism",hint:"Sartre's philosophy about freedom, choice, and the human condition"},
         {type:"fb",opts:["cœur","cerveau","nez","corps"],hint:"The organ associated with emotion and true understanding",s:"On ne voit bien qu'avec le {1}.",a:["cœur"]},
         {type:"match",pairs:[
           {trg:"L'essentiel est invisible pour les yeux",src:"Saint-Exupéry, Le Petit Prince"},
@@ -170,9 +170,9 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
           {trg:"L'enfer, c'est les autres",src:"Sartre, Huis Clos"},
           {trg:"Liberté, Égalité, Fraternité",src:"French national motto"}
         ]},
-        {type:"mc",q:"What does the fox teach the little prince?",opts:["On ne voit bien qu'avec le cœur","L'enfer, c'est les autres","Je pense, donc je suis","Liberté, Égalité, Fraternité"],ans:"On ne voit bien qu'avec le cœur",hint:"A lesson about seeing with something other than your eyes"},
+        {type:"mc",q:"What does the fox teach the little prince?",opts:["Je pense, donc je suis","L'enfer, c'est les autres","On ne voit bien qu'avec le cœur","Liberté, Égalité, Fraternité"],ans:"On ne voit bien qu'avec le cœur",hint:"A lesson about seeing with something other than your eyes"},
         {type:"drag_fill",hint:"The three values of the French Republic since 1789",s:"Liberté, {1}, {2}.",blanks:{"1":"Égalité","2":"Fraternité"},pool:["Égalité","Fraternité","Humanité","Solidarité"]},
-        {type:"mc",q:"Which quote is often misunderstood as simply hating people, but actually means the gaze of others defines us?",opts:["L'enfer, c'est les autres","Je pense, donc je suis","L'essentiel est invisible pour les yeux","Liberté, Égalité, Fraternité"],ans:"L'enfer, c'est les autres",hint:"From a play where three people are trapped in a room together forever"},
+        {type:"mc",q:"Which quote is often misunderstood as simply hating people, but actually means the gaze of others defines us?",opts:["Liberté, Égalité, Fraternité","Je pense, donc je suis","L'essentiel est invisible pour les yeux","L'enfer, c'est les autres"],ans:"L'enfer, c'est les autres",hint:"From a play where three people are trapped in a room together forever"},
         {type:"fb",opts:["yeux","mains","oreilles","pieds"],hint:"The organs of sight, which cannot see what truly matters",s:"L'essentiel est invisible pour les {1}.",a:["yeux"]},
         {type:"fb",opts:["coeur","esprit","temps","monde"],hint:"Saint-Exupéry's famous line about what we truly see with, not our eyes.",s:"\"On ne voit bien qu'avec le {1}\" est une citation du Petit Prince.",a:["coeur"]},
         {type:"mc",q:"'Liberté, Égalité, Fraternité' dates back to which historical event?",opts:["The French Revolution","World War I","The Napoleonic Wars","The Renaissance"],ans:"The French Revolution",hint:"The event of 1789 that transformed ___ society and government"}
@@ -182,11 +182,11 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"tip",title:"Your figurative French toolkit",text:"This unit covered 6 categories:\n\n1. Proverbs: timeless wisdom (Qui vivra verra...)\n2. Food idioms: everyday energy (avoir la pêche...)\n3. Body expressions: influence, cost, generosity\n4. Animal phrases: social situations\n5. Literary connectors: formal writing\n6. Figures of style: metaphor, simile, litotes..."},
         {type:"mc",q:"Your friend keeps giving opinions nobody asked for. They always:",opts:["mettent leur grain de sel","posent un lapin","ont la pêche","coûtent les yeux de la tête"],ans:"mettent leur grain de sel",hint:"Adding a cooking ingredient to a dish that does not need it"},
         {type:"fb",opts:["nid","vol","chant","œuf"],hint:"The structure a bird builds to raise its young",s:"Petit à petit, l'oiseau fait son {1}.",a:["nid"]},
-        {type:"mc",q:"Which expression means 'to stand someone up'?",opts:["poser un lapin","avoir une faim de loup","être une poule mouillée","casser les pieds"],ans:"poser un lapin",hint:"A small long-eared animal is placed down for someone"},
+        {type:"mc",q:"Which expression means 'to stand someone up'?",opts:["avoir une faim de loup","poser un lapin","être une poule mouillée","casser les pieds"],ans:"poser un lapin",hint:"A small long-eared animal is placed down for someone"},
         {type:"drag_fill",hint:"Generosity: an organ of feeling on an open palm",s:"Il a le {1} sur la {2}, il aide tout le monde.",blanks:{"1":"cœur","2":"main"},pool:["cœur","main","bras","pied"]},
-        {type:"mc",q:"'La vie est un voyage.' This sentence is:",opts:["une métaphore","une comparaison","une litote","un euphémisme"],ans:"une métaphore",hint:"Life IS a journey directly, with no comparison word"},
+        {type:"mc",q:"'La vie est un voyage.' This sentence is:",opts:["une litote","une comparaison","une métaphore","un euphémisme"],ans:"une métaphore",hint:"Life IS a journey directly, with no comparison word"},
         {type:"fb",opts:["Néanmoins","Surtout","Parce que","Donc"],hint:"A formal connector meaning 'nevertheless'",s:"{1}, le résultat n'a pas été parfait.",a:["Néanmoins"]},
-        {type:"mc",q:"Descartes' famous philosophical statement is:",opts:["Je pense, donc je suis","L'enfer, c'est les autres","L'essentiel est invisible pour les yeux","Liberté, Égalité, Fraternité"],ans:"Je pense, donc je suis",hint:"A statement connecting the act of thinking to proof of existence"},
+        {type:"mc",q:"Descartes' famous philosophical statement is:",opts:["Liberté, Égalité, Fraternité","L'enfer, c'est les autres","L'essentiel est invisible pour les yeux","Je pense, donc je suis"],ans:"Je pense, donc je suis",hint:"A statement connecting the act of thinking to proof of existence"},
         {type:"match",pairs:[
           {trg:"avoir la pêche",src:"to be full of energy"},
           {trg:"avoir le bras long",src:"to have connections"},
@@ -197,11 +197,11 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"fb",opts:["autres","amis","ennemis","voisins"],hint:"Sartre's word for the people around us whose gaze confines us",s:"L'enfer, c'est les {1}.",a:["autres"]},
         {type:"mc",q:"You want to say something is extremely expensive. You say it:",opts:["coûte les yeux de la tête","a le bras long","casse les pieds","a la tête dans les nuages"],ans:"coûte les yeux de la tête",hint:"Losing your organs of sight implies an enormous price"},
         {type:"drag_fill",hint:"Farm birds gaining something they will never naturally have",s:"Quand les {1} auront des {2}, il rangera sa chambre.",blanks:{"1":"poules","2":"dents"},pool:["poules","dents","loups","ailes"]},
-        {type:"mc",q:"'Elle raconte des salades' means she:",opts:["makes up stories","is cooking dinner","is very generous","has connections"],ans:"makes up stories",hint:"A leafy dish used figuratively for fabricated tales"},
+        {type:"mc",q:"'Elle raconte des salades' means she:",opts:["is cooking dinner","makes up stories","is very generous","has connections"],ans:"makes up stories",hint:"A leafy dish used figuratively for fabricated tales"},
         {type:"fb",opts:["surcroît","néanmoins","demeurant","occurrence"],hint:"A formal word meaning 'moreover' or 'in addition'",s:"De {1}, il parle trois langues couramment.",a:["surcroît"]},
-        {type:"mc",q:"'Ce n'est pas désagréable' meaning 'c'est très agréable' is:",opts:["une litote","une hyperbole","une métaphore","un euphémisme"],ans:"une litote",hint:"Saying the negative of bad to express something very positive"},
+        {type:"mc",q:"'Ce n'est pas désagréable' meaning 'c'est très agréable' is:",opts:["une métaphore","une hyperbole","une litote","un euphémisme"],ans:"une litote",hint:"Saying the negative of bad to express something very positive"},
         {type:"match",pairs:[{trg:"métaphore",src:"X is Y directly"},{trg:"comparaison",src:"X is like Y"},{trg:"litote",src:"understatement"},{trg:"hyperbole",src:"exaggeration"},{trg:"euphémisme",src:"softened reality"}]},
         {type:"drag_fill",hint:"The fox's lesson: what matters cannot be seen by your organs of sight",s:"L'essentiel est {1} pour les {2}.",blanks:{"1":"invisible","2":"yeux"},pool:["invisible","yeux","visible","mains"]},
-        {type:"mc",q:"Someone who always has their 'tête dans les nuages' is:",opts:["absent-minded and dreamy","very generous","extremely hungry","very influential"],ans:"absent-minded and dreamy",hint:"Their mind floats high above in the sky"}
+        {type:"mc",q:"Someone who always has their 'tête dans les nuages' is:",opts:["very influential","very generous","extremely hungry","absent-minded and dreamy"],ans:"absent-minded and dreamy",hint:"Their mind floats high above in the sky"}
   ]}
 ]};

@@ -107,7 +107,7 @@ const LESSON_9 = {id:"frv2_b2g5_l9", title:"Technologie et innovation", icon:"�
   {type:"mc", q:"Que signifie 'une inflexion de la politique'?",
    opts:["Un changement de direction subtil","Une explosion soudaine","Une connexion nouvelle","Un dérivé chimique"],
    ans:"Un changement de direction subtil",
-   hint:"A bend or shift, not a dramatic reversal but a noticeable change in direction"},
+   hint:"A bend or shift, not a dramatic reversal but a noticeable change in d..."},
 
   {type:"fb", s:"L'{1} de ce système est connue de tous, il faut une réforme.",
    a:["inefficacité"], opts:["inefficacité","inflexion","accélération","extrémité"],
