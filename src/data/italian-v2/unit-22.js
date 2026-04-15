@@ -1,0 +1,295 @@
+// Italian V2 Unit 22 — La cultura italiana (Italian Culture) (B1.4)
+// CILS/CELI B1 aligned. Arts, music, cinema vocabulary.
+
+const UNIT_22 = {
+  n:22, lang:"it", srcLang:"en", track:"v2",
+  title:"La cultura italiana", sub:"Arts, Music & Cinema",
+  icon:"🎭", level:"B1.4", color:"#7B5EE8",
+  lessons:[
+    {id:"itv2_u22l1", title:"Le arti", icon:"🎨", xp:15, board:true, steps:[
+      {type:"intro", title:"Le arti",
+       desc:"Discover the vocabulary of Italian visual arts. From Renaissance frescoes to modern galleries, Italy's artistic heritage is unmatched and deeply woven into everyday language.",
+       goals:["Name art forms and artistic works","Describe artworks and exhibitions","Discuss Italy's artistic heritage"]},
+
+      {type:"teach", trg:"l'opera", src:"the work (of art) / the opera", pos:"noun", gender:"f",
+       note:"Feminine. Plural: le opere. From Latin 'opera' (work).\n'Opera d'arte' = work of art. 'Opera lirica' = opera.",
+       example:"A: Quale opera preferisci?\nB: La Traviata di Verdi e la mia preferita.",
+       exampleSrc:"A: Which opera do you prefer?\nB: La Traviata by Verdi is my favorite.",
+       funFact:"'Opera' means both 'work' and the musical genre. Italy invented opera in Florence around 1600. The first opera is generally considered 'Dafne' by Jacopo Peri (1598). Italian opera vocabulary has become universal: soprano, alto, tenor, bass, libretto, bravo are all Italian words used worldwide."},
+
+      {type:"teach", trg:"l'affresco", src:"the fresco", pos:"noun", gender:"m",
+       note:"Masculine. From 'a fresco' (on fresh plaster).\nPainting done on wet plaster that becomes part of the wall.",
+       example:"A: L'affresco di Michelangelo e incredibile.\nB: La Cappella Sistina e un capolavoro.",
+       exampleSrc:"A: Michelangelo's fresco is incredible.\nB: The Sistine Chapel is a masterpiece.",
+       funFact:"'Affresco' literally means 'on fresh' because the painter works on wet (fresh) plaster. The pigment bonds with the wall as it dries, making frescoes extremely durable. Michelangelo painted the Sistine Chapel ceiling lying on his back on scaffolding for four years (1508-1512)."},
+
+      {type:"teach", trg:"la scultura", src:"the sculpture", pos:"noun", gender:"f",
+       note:"Feminine. From Latin 'sculptura' (carving).\n'Scolpire' = to sculpt. 'Scultore/scultrice' = sculptor.",
+       example:"A: Hai visto la scultura di Bernini?\nB: Si, il Ratto di Proserpina e magnifico.",
+       exampleSrc:"A: Have you seen Bernini's sculpture?\nB: Yes, the Rape of Proserpina is magnificent.",
+       funFact:"Italy has more UNESCO World Heritage sites than any other country, and many feature sculptures. Bernini's marble works are so lifelike that the 'skin' of his figures appears to yield under pressure. His ability to make cold stone look like soft flesh is considered one of art history's greatest achievements."},
+
+      {type:"teach", trg:"il capolavoro", src:"the masterpiece", pos:"noun", gender:"m",
+       note:"Masculine. Compound: 'capo' (head, chief) + 'lavoro' (work).\nLiterally 'head-work' = the finest piece.",
+       example:"A: Questo quadro e un vero capolavoro.\nB: L'artista ha lavorato cinque anni.",
+       exampleSrc:"A: This painting is a true masterpiece.\nB: The artist worked for five years.",
+       funFact:"'Capolavoro' literally means 'head-work' or 'chief work.' In medieval guilds, an apprentice had to create a 'capolavoro' (masterwork) to become a master craftsman. The word evolved to mean any supreme achievement. Today Italians use it loosely: even a great meal can be called 'un capolavoro!'"},
+
+      {type:"teach", trg:"la mostra", src:"the exhibition / show", pos:"noun", gender:"f",
+       note:"Feminine. From 'mostrare' (to show).\n'Mostra d'arte' = art exhibition. 'In mostra' = on display.",
+       example:"A: C'e una mostra di Caravaggio al museo.\nB: Andiamo sabato? Vorrei vederla.",
+       exampleSrc:"A: There is a Caravaggio exhibition at the museum.\nB: Shall we go Saturday? I would like to see it.",
+       funFact:"Italy hosts some of the world's most prestigious art events. The Venice Biennale (Biennale di Venezia) is the oldest international art exhibition, running since 1895. Italian museums charge modest fees compared to other countries, reflecting the belief that art belongs to everyone."},
+
+      {type:"teach", trg:"la galleria", src:"the gallery", pos:"noun", gender:"f",
+       note:"Feminine. From Medieval Latin 'galeria' (a long hall).\nAlso means 'tunnel' or 'shopping arcade.'",
+       example:"A: La Galleria degli Uffizi e fantastica.\nB: Bisogna prenotare in anticipo.",
+       exampleSrc:"A: The Uffizi Gallery is fantastic.\nB: You need to book in advance.",
+       funFact:"'Galleria' has three meanings in Italian: an art gallery (Galleria degli Uffizi), a covered shopping arcade (Galleria Vittorio Emanuele II in Milan), and a road tunnel (la galleria autostradale). All share the idea of a long enclosed space. The Uffizi in Florence holds the world's finest Renaissance collection."},
+
+      {type:"teach", trg:"il quadro", src:"the painting / picture", pos:"noun", gender:"m",
+       note:"Masculine. From Latin 'quadrus' (square, frame).\n'Dipingere un quadro' = to paint a picture.",
+       example:"A: Chi ha dipinto questo quadro?\nB: E di Botticelli. Si chiama La Primavera.",
+       exampleSrc:"A: Who painted this picture?\nB: It is by Botticelli. It is called La Primavera.",
+       funFact:"'Quadro' literally means 'square' or 'frame,' referring to the frame around a painting. 'Dipinto' is the more technical term for a painting as an artwork. In everyday speech, Italians use 'quadro' for any framed picture, even photographs on the wall."},
+
+      // Quiz steps
+      {type:"mc", q:"What does 'l'opera' mean in Italian?",
+       opts:["Both a work of art and the musical genre","Only the musical genre","Only a painting","A theater building"],
+       ans:"Both a work of art and the musical genre",
+       hint:"From Latin 'opera' (work). 'Opera d'arte' is a work of art, 'opera lirica' is the musical form. Italy invented the genre around 1600."},
+
+      {type:"fb", s:"L'{1} di Michelangelo nella Cappella Sistina e incredibile.",
+       a:["affresco"],
+       opts:["affresco","opera","scultura","quadro"],
+       hint:"This technique involves painting on wet plaster. The word literally means 'on fresh.' The result becomes part of the wall.",
+       sSrc:"Michelangelo's {1} in the Sistine Chapel is incredible."},
+
+      {type:"match", pairs:[
+        {trg:"l'opera", src:"the work / opera"},
+        {trg:"l'affresco", src:"the fresco"},
+        {trg:"la scultura", src:"the sculpture"},
+        {trg:"il capolavoro", src:"the masterpiece"},
+        {trg:"la mostra", src:"the exhibition"}
+      ]},
+
+      {type:"mc", q:"What does 'capolavoro' literally mean?",
+       opts:["Head-work (chief work)","Beautiful work","Hard work","First work"],
+       ans:"Head-work (chief work)",
+       hint:"Compound of 'capo' (head/chief) and 'lavoro' (work). Originally the test piece that made an apprentice a master craftsman."},
+
+      {type:"fb", s:"C'e una {1} di Caravaggio al museo.",
+       a:["mostra"],
+       opts:["mostra","galleria","scultura","opera"],
+       hint:"A temporary display of artworks. From 'mostrare' (to show). You go to see one at a museum.",
+       sSrc:"There is a Caravaggio {1} at the museum."},
+
+      {type:"mc", q:"What are the three meanings of 'galleria' in Italian?",
+       opts:["Art gallery, shopping arcade, and road tunnel","Only art gallery","Gallery and garden","Gallery and restaurant"],
+       ans:"Art gallery, shopping arcade, and road tunnel",
+       hint:"All share the idea of a long enclosed space. The Uffizi (art), Galleria Vittorio Emanuele (shopping), and highway tunnels."},
+
+      {type:"fb", s:"Chi ha dipinto questo {1}?",
+       a:["quadro"],
+       opts:["quadro","affresco","capolavoro","mostra"],
+       hint:"A framed painting on a wall. From Latin 'quadrus' (square), referring to the frame around the picture.",
+       sSrc:"Who painted this {1}?"},
+
+      {type:"mc", q:"Which Italian city hosts the oldest international art exhibition?",
+       opts:["Venice (the Biennale)","Rome","Florence","Milan"],
+       ans:"Venice (the Biennale)",
+       hint:"The Biennale di Venezia has been running since 1895. It covers art, architecture, cinema, dance, and music."}
+    ]},
+
+    {id:"itv2_u22l2", title:"La musica", icon:"🎵", xp:15, board:true, steps:[
+      {type:"intro", title:"La musica",
+       desc:"Explore Italian music vocabulary. From classical compositions to modern pop, music is central to Italian identity and has shaped musical language worldwide.",
+       goals:["Name musical terms and instruments","Discuss concerts and performances","Understand Italian music's global influence"]},
+
+      {type:"teach", trg:"la canzone", src:"the song", pos:"noun", gender:"f",
+       note:"Feminine. From Latin 'cantio' (singing).\n'Cantare una canzone' = to sing a song.",
+       example:"A: Qual e la tua canzone preferita?\nB: Mi piace molto 'Nel blu dipinto di blu.'",
+       exampleSrc:"A: What is your favorite song?\nB: I really like 'Nel blu dipinto di blu.'",
+       funFact:"'Nel blu dipinto di blu' (better known as 'Volare') by Domenico Modugno (1958) is the most famous Italian song worldwide. It won the first Grammy for Song of the Year. The Festival di Sanremo, Italy's annual song contest since 1951, remains the biggest music event in Italy and launched many international careers."},
+
+      {type:"teach", trg:"il cantante", src:"the singer", pos:"noun", gender:"m",
+       note:"Masculine. Feminine: la cantante (same form, different article).\nFrom 'cantare' (to sing).",
+       example:"A: Chi e il tuo cantante preferito?\nB: Adoro Laura Pausini.",
+       exampleSrc:"A: Who is your favorite singer?\nB: I love Laura Pausini.",
+       funFact:"Italian singers like Laura Pausini, Andrea Bocelli, and Eros Ramazzotti are global stars who sing in multiple languages. Italy has a unique tradition where popular singers are called 'cantautori' (singer-songwriters) and are respected as serious artists, not just entertainers."},
+
+      {type:"teach", trg:"il concerto", src:"the concert", pos:"noun", gender:"m",
+       note:"Masculine. From Latin 'concertare' (to compete, to cooperate).\n'Andare a un concerto' = to go to a concert.",
+       example:"A: Andiamo al concerto sabato sera?\nB: Si, ho gia i biglietti!",
+       exampleSrc:"A: Shall we go to the concert Saturday night?\nB: Yes, I already have the tickets!",
+       funFact:"'Concerto' entered English directly from Italian. In music, it specifically means a composition for a solo instrument with orchestra. In everyday Italian, it simply means any live music performance. Italy's open-air summer concerts in ancient Roman amphitheaters are world-famous."},
+
+      {type:"teach", trg:"lo strumento", src:"the instrument", pos:"noun", gender:"m",
+       note:"Masculine. From Latin 'instrumentum' (tool).\n'Suonare uno strumento' = to play an instrument.",
+       example:"A: Suoni qualche strumento?\nB: Suono il pianoforte e la chitarra.",
+       exampleSrc:"A: Do you play any instrument?\nB: I play the piano and the guitar.",
+       funFact:"Many instrument names come from Italian: pianoforte (soft-loud), violoncello (small large viola), piccolo (small). The piano was invented in Florence by Bartolomeo Cristofori around 1700. He called it 'clavicembalo col piano e forte' (harpsichord with soft and loud)."},
+
+      {type:"teach", trg:"la melodia", src:"the melody / tune", pos:"noun", gender:"f",
+       note:"Feminine. From Greek 'melodia' (singing, song).\n'Una bella melodia' = a beautiful melody.",
+       example:"A: Che bella melodia!\nB: Si, non riesco a togliermela dalla testa.",
+       exampleSrc:"A: What a beautiful melody!\nB: Yes, I cannot get it out of my head.",
+       funFact:"Music terminology is overwhelmingly Italian because Italy dominated European music for centuries. Tempo, allegro, andante, forte, piano, crescendo, diminuendo, staccato, legato, a cappella are all Italian words used in every language by every musician worldwide."},
+
+      {type:"teach", trg:"il compositore", src:"the composer", pos:"noun", gender:"m",
+       note:"Masculine. Feminine: la compositrice. From 'comporre' (to compose).\n'Verdi e un grande compositore' = Verdi is a great composer.",
+       example:"A: Chi e il tuo compositore preferito?\nB: Amo la musica di Puccini.",
+       exampleSrc:"A: Who is your favorite composer?\nB: I love Puccini's music.",
+       funFact:"Italy produced some of history's greatest composers: Vivaldi, Verdi, Puccini, Rossini, Donizetti, Bellini. Verdi's name became a political acronym during Italian unification: V.E.R.D.I. stood for 'Vittorio Emanuele Re D'Italia' (Victor Emmanuel King of Italy). Shouting 'Viva Verdi!' was secretly cheering for unification."},
+
+      {type:"teach", trg:"il cantautore", src:"the singer-songwriter", pos:"noun", gender:"m",
+       note:"Masculine. Feminine: la cantautrice.\nCompound: 'cantante' + 'autore' = singer + author.",
+       example:"A: De Andre era un grande cantautore.\nB: Le sue canzoni sono poesia.",
+       exampleSrc:"A: De Andre was a great singer-songwriter.\nB: His songs are poetry.",
+       funFact:"The 'cantautore' tradition is a cornerstone of Italian culture. Fabrizio De Andre, Lucio Dalla, Francesco De Gregori, and Lucio Battisti are revered as poets who sang. Their lyrics are studied in schools alongside classical literature. Italy treats its singer-songwriters with a seriousness rarely seen elsewhere."},
+
+      // Quiz steps
+      {type:"mc", q:"What is 'la canzone' in Italian?",
+       opts:["A song","A concert","A dance","An instrument"],
+       ans:"A song",
+       hint:"From Latin 'cantio' (singing). 'Cantare una canzone' means to sing a song. The Festival di Sanremo is Italy's biggest song contest."},
+
+      {type:"fb", s:"Suoni qualche {1}?",
+       a:["strumento"],
+       opts:["strumento","concerto","canzone","melodia"],
+       hint:"A physical device you play to make music. Many names for these come from Italian: pianoforte, violoncello, piccolo.",
+       sSrc:"Do you play any {1}?"},
+
+      {type:"match", pairs:[
+        {trg:"la canzone", src:"the song"},
+        {trg:"il cantante", src:"the singer"},
+        {trg:"il concerto", src:"the concert"},
+        {trg:"lo strumento", src:"the instrument"},
+        {trg:"la melodia", src:"the melody"}
+      ]},
+
+      {type:"mc", q:"What is a 'cantautore'?",
+       opts:["A singer-songwriter","A classical composer","A music teacher","A concert pianist"],
+       ans:"A singer-songwriter",
+       hint:"A compound word: cantante (singer) + autore (author). This tradition is deeply respected in Italy as a form of poetry."},
+
+      {type:"fb", s:"Amo la musica di Puccini. E un grande {1}.",
+       a:["compositore"],
+       opts:["compositore","cantante","cantautore","strumento"],
+       hint:"Puccini wrote operas like La Boheme and Tosca. He created musical works, not performed them. From 'comporre' (to compose).",
+       sSrc:"I love Puccini's music. He is a great {1}."},
+
+      {type:"mc", q:"Why is music terminology overwhelmingly Italian?",
+       opts:["Italy dominated European music for centuries","Italian is the easiest language","Musicians prefer Italian food","A treaty required it"],
+       ans:"Italy dominated European music for centuries",
+       hint:"From the Renaissance through the 18th century, Italian musicians and composers set the standard. Their terms became universal."},
+
+      {type:"fb", s:"Che bella {1}! Non riesco a togliermela dalla testa.",
+       a:["melodia"],
+       opts:["melodia","canzone","opera","scultura"],
+       hint:"A tune that you cannot stop humming. From Greek 'melodia.' It refers specifically to the tune or musical line.",
+       sSrc:"What a beautiful {1}! I cannot get it out of my head."},
+
+      {type:"mc", q:"What was 'Viva Verdi!' secretly used for?",
+       opts:["Cheering for Italian unification (V.E.R.D.I. = Vittorio Emanuele Re D'Italia)","Celebrating a new opera","Ordering food at a restaurant","Starting a music festival"],
+       ans:"Cheering for Italian unification (V.E.R.D.I. = Vittorio Emanuele Re D'Italia)",
+       hint:"The composer's name became an acronym for the future king. Shouting it in public was a coded political statement."}
+    ]},
+
+    {id:"itv2_u22l3", title:"Il cinema", icon:"🎬", xp:15, board:true, steps:[
+      {type:"intro", title:"Il cinema",
+       desc:"Learn Italian cinema vocabulary. Italy's film industry has produced some of cinema's greatest works and continues to shape global filmmaking culture.",
+       goals:["Name film roles and production terms","Discuss movies and film festivals","Understand Italy's cinematic heritage"]},
+
+      {type:"teach", trg:"il regista", src:"the director (film)", pos:"noun", gender:"m",
+       note:"Masculine. Feminine: la regista (same form, different article).\nFrom 'regia' (direction, staging).",
+       example:"A: Chi e il regista di questo film?\nB: Federico Fellini. E il suo capolavoro.",
+       exampleSrc:"A: Who is the director of this film?\nB: Federico Fellini. It is his masterpiece.",
+       funFact:"Italy produced legendary directors: Fellini, Visconti, De Sica, Antonioni, Pasolini, Bertolucci. Fellini's name became an English adjective: 'Felliniesque' means dreamlike, surreal, and extravagant. His film 'La Dolce Vita' (1960) gave the world the word 'paparazzi' (from a character named Paparazzo)."},
+
+      {type:"teach", trg:"l'attore", src:"the actor", pos:"noun", gender:"m",
+       note:"Masculine. Feminine: l'attrice. From Latin 'actor' (performer).\n'Attore protagonista' = lead actor.",
+       example:"A: L'attore e molto bravo.\nB: Si, merita un premio.",
+       exampleSrc:"A: The actor is very talented.\nB: Yes, he deserves an award.",
+       funFact:"Italian cinema has a rich tradition of character actors. Roberto Benigni won the Best Actor Oscar for 'La vita e bella' (Life is Beautiful, 1997), famously climbing over chairs to reach the stage. Sophia Loren was the first person to win an Oscar for a foreign-language performance (1962)."},
+
+      {type:"teach", trg:"la colonna sonora", src:"the soundtrack / film score", pos:"noun", gender:"f",
+       note:"Feminine. Literally 'sound column.'\n'La colonna sonora del film' = the film's soundtrack.",
+       example:"A: La colonna sonora e bellissima.\nB: E di Ennio Morricone.",
+       exampleSrc:"A: The soundtrack is beautiful.\nB: It is by Ennio Morricone.",
+       funFact:"Ennio Morricone composed over 500 film scores and is considered the greatest film composer of all time. His music for 'The Good, the Bad and the Ugly' and 'Cinema Paradiso' is instantly recognizable worldwide. He finally won an Oscar in 2016 for 'The Hateful Eight.'"},
+
+      {type:"teach", trg:"il cortometraggio", src:"the short film", pos:"noun", gender:"m",
+       note:"Masculine. Compound: 'corto' (short) + 'metraggio' (footage).\nOpposite: il lungometraggio (feature film).",
+       example:"A: Ha girato un cortometraggio per il festival.\nB: Quanto dura?",
+       exampleSrc:"A: He shot a short film for the festival.\nB: How long is it?",
+       funFact:"Many Italian directors started with short films. Italian film schools like the Centro Sperimentale di Cinematografia in Rome (founded 1935) are among Europe's oldest and most prestigious. Short films ('corti' for short) are a vital proving ground for new Italian talent."},
+
+      {type:"teach", trg:"il festival", src:"the festival", pos:"noun", gender:"m",
+       note:"Masculine. Invariable plural: i festival.\nBorrowed from English/French, but Italian film festivals are world-famous.",
+       example:"A: Hai visto i film del festival di Venezia?\nB: Si, quest'anno c'erano film incredibili.",
+       exampleSrc:"A: Did you see the films from the Venice festival?\nB: Yes, this year there were incredible films.",
+       funFact:"The Venice Film Festival (Mostra del Cinema di Venezia), founded in 1932, is the oldest film festival in the world, predating Cannes by seven years. Its top prize, the Leone d'Oro (Golden Lion), is one of cinema's most coveted awards."},
+
+      {type:"teach", trg:"girare", src:"to shoot (a film) / to turn", pos:"verb", gender:null,
+       note:"Regular -are verb. 'Girare un film' = to shoot a film.\nAlso: 'girare a destra' = to turn right.",
+       example:"A: Dove hanno girato il film?\nB: L'hanno girato a Roma, vicino al Colosseo.",
+       exampleSrc:"A: Where did they shoot the film?\nB: They shot it in Rome, near the Colosseum.",
+       funFact:"'Girare' literally means 'to turn,' referring to the turning of a film reel through the camera. The expression stuck even in the digital age. Cinecitta studios in Rome, built in 1937, is where most Italian films are made. It is often called 'the Hollywood on the Tiber.'"},
+
+      {type:"teach", trg:"la sceneggiatura", src:"the screenplay / script", pos:"noun", gender:"f",
+       note:"Feminine. From 'scena' (scene) + suffix.\n'Sceneggiatore' = screenwriter.",
+       example:"A: La sceneggiatura e originale o adattata?\nB: E adattata da un romanzo.",
+       exampleSrc:"A: Is the screenplay original or adapted?\nB: It is adapted from a novel.",
+       funFact:"Italian screenwriting has a rich tradition. Many Italian films are written by multiple writers collaborating, unlike Hollywood's single-writer model. The team approach produced masterpieces of neorealism. Cesare Zavattini, who wrote for De Sica, theorized that cinema should show ordinary people's real lives."},
+
+      // Quiz steps
+      {type:"mc", q:"What does 'il regista' mean?",
+       opts:["The film director","The actor","The screenwriter","The producer"],
+       ans:"The film director",
+       hint:"From 'regia' (direction). Fellini, Visconti, and De Sica are among Italy's greatest in this role."},
+
+      {type:"fb", s:"La {1} del film e di Ennio Morricone.",
+       a:["colonna sonora"],
+       opts:["colonna sonora","sceneggiatura","melodia","canzone"],
+       hint:"The music that accompanies a film. Literally 'sound column.' Morricone composed over 500 of these.",
+       sSrc:"The film's {1} is by Ennio Morricone."},
+
+      {type:"match", pairs:[
+        {trg:"il regista", src:"the director"},
+        {trg:"l'attore", src:"the actor"},
+        {trg:"la colonna sonora", src:"the soundtrack"},
+        {trg:"il cortometraggio", src:"the short film"},
+        {trg:"il festival", src:"the festival"}
+      ]},
+
+      {type:"mc", q:"Which is the oldest film festival in the world?",
+       opts:["Venice (1932)","Cannes (1946)","Berlin (1951)","Toronto (1976)"],
+       ans:"Venice (1932)",
+       hint:"The Mostra del Cinema di Venezia predates all others. Its top prize is the Leone d'Oro (Golden Lion)."},
+
+      {type:"fb", s:"Dove hanno {1} il film?",
+       a:["girato"],
+       opts:["girato","cantato","dipinto","scritto"],
+       hint:"Where did they shoot the film? This verb literally means 'to turn,' from the turning of a film reel through a camera.",
+       sSrc:"Where did they {1} the film?"},
+
+      {type:"mc", q:"What word did Fellini's 'La Dolce Vita' give to the world?",
+       opts:["Paparazzi","Bravo","Cinema","Diva"],
+       ans:"Paparazzi",
+       hint:"A character in the 1960 film was named Paparazzo, a pushy photographer. The plural became the universal word for celebrity photographers."},
+
+      {type:"fb", s:"La {1} e adattata da un romanzo.",
+       a:["sceneggiatura"],
+       opts:["sceneggiatura","colonna sonora","scultura","mostra"],
+       hint:"The written text of a film, adapted from a novel in this case. From 'scena' (scene).",
+       sSrc:"The {1} is adapted from a novel."},
+
+      {type:"mc", q:"What is Cinecitta?",
+       opts:["Rome's famous film studios","A film festival","A type of cinema ticket","A movie genre"],
+       ans:"Rome's famous film studios",
+       hint:"Built in 1937, these studios are where most Italian films are made. Often called 'the Hollywood on the Tiber.'"}
+    ]}
+  ]
+};
+export default UNIT_22;

@@ -7,5 +7,6 @@ import UNIT_18 from './italian-v2/unit-18.js';
 import UNIT_19 from './italian-v2/unit-19.js';
 import UNIT_20 from './italian-v2/unit-20.js';
 import UNIT_21 from './italian-v2/unit-21.js';
+import UNIT_22 from './italian-v2/unit-22.js';
 
-export default [UNIT_13, UNIT_14, UNIT_15, UNIT_16, UNIT_17, UNIT_18, UNIT_19, UNIT_20, UNIT_21];
+export default [UNIT_13, UNIT_14, UNIT_15, UNIT_16, UNIT_17, UNIT_18, UNIT_19, UNIT_20, UNIT_21, UNIT_22];
