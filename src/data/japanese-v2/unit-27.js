@@ -38,8 +38,8 @@ const UNIT_27 = {
    exampleSrc:"A: We should reduce the use of plastic.\nB: I agree. Let's bring our own bags.",
    funFact:"べき comes from classical Japanese べし, an auxiliary expressing obligation. It is stronger than ほうがいい (had better) but less forceful than a direct command. In modern Japanese, べき is common in opinions, editorials, and debates. するべき and すべき are both acceptable, though すべき sounds more formal."},
 
-  {type:"mc", q:"ちきゅうおんだんか breaks down as:", opts:["Earth + warming + -ification","Sky + pollution + problem","Nature + protection + law","Climate + change + report"], ans:"Earth + warming + -ification",
-   hint:"ちきゅう = earth, おんだん = warm, 化 = the suffix meaning a process of becoming."},
+  {type:"mc", q:"ちきゅうおんだんか breaks down as:", opts:["World + heating + change marker","Sky + pollution + problem","Nature + protection + law","Climate + change + report"], ans:"World + heating + change marker",
+   hint:"ちきゅう = the round body we live on, おんだん = warm, 化 = a morpheme meaning transformation."},
 
   {type:"teach", trg:"リサイクル", src:"recycling", pos:"noun", gender:null,
    note:"Loanword from English 'recycle.' リサイクルする = to recycle.\nリサイクルりつ = recycling rate.",
@@ -56,15 +56,15 @@ const UNIT_27 = {
    exampleSrc:"A: We need to reduce car exhaust emissions.\nB: It would be good if electric cars increase.",
    funFact:"排気 uses 排 (expel) and 気 (air/gas). Japan's car emission standards are among the world's strictest, partly because of the country's compact urban areas. The 車検 (shaken, vehicle inspection) system, mandatory every two years, includes emission testing. Old cars that cannot pass are scrapped."},
 
-  {type:"mc", q:"リサイクルりつ means:", opts:["Recycling center","Recycling rate","Recycling day","Recycling bin"], ans:"Recycling rate",
-   hint:"りつ (率) is the suffix meaning rate or ratio."},
+  {type:"mc", q:"リサイクルりつ means:", opts:["Recycling center","How much waste gets reprocessed, as a number","Recycling day","Recycling bin"], ans:"How much waste gets reprocessed, as a number",
+   hint:"りつ (率) is the suffix meaning a numerical proportion or ratio."},
 
   {type:"match", pairs:[{trg:"かんきょう",src:"environment"},{trg:"ちきゅうおんだんか",src:"global warming"},{trg:"たいきおせん",src:"air pollution"},{trg:"リサイクル",src:"recycling"}]},
 
   {type:"fb", s:"このちいきでは___がもんだいになっています。\n(Air pollution has become a problem in this area.)", a:"たいきおせん", opts:["たいきおせん","ちきゅうおんだんか","リサイクル","かんきょう"], sSrc:"Air pollution has become a problem in this area.",
    hint:"The compound noun combining 'atmosphere' and 'contamination.'"},
 
-  {type:"match", pairs:[{trg:"べき",src:"should/ought to"},{trg:"はいきガス",src:"exhaust gas"},{trg:"リサイクルりつ",src:"recycling rate"},{trg:"かんきょうもんだい",src:"environmental issue"}]},
+  {type:"match", pairs:[{trg:"〜べき",src:"should/ought to"},{trg:"はいきガス",src:"exhaust gas"},{trg:"リサイクル",src:"recycling"},{trg:"かんきょうもんだい",src:"environmental issue"}]},
 ]},
 
 // ═══ L2: Obligation & Inevitability ═══
@@ -117,7 +117,7 @@ const UNIT_27 = {
   {type:"mc", q:"Which pattern expresses reluctant, unavoidable obligation?", opts:["べき","たほうがいい","ざるを得ない","ことにする"], ans:"ざるを得ない",
    hint:"This pattern uses classical grammar to convey that the speaker has no alternative."},
 
-  {type:"match", pairs:[{trg:"ざるを得ない",src:"have no choice but to"},{trg:"しげん",src:"resources"},{trg:"たいさく",src:"countermeasure"},{trg:"きゅうむ",src:"urgent task"}]},
+  {type:"match", pairs:[{trg:"〜ざるを得ない",src:"have no choice but to"},{trg:"しげん",src:"resources"},{trg:"たいさく",src:"countermeasure"},{trg:"きゅうむ",src:"urgent task"}]},
 
   {type:"fb", s:"かんきょうほごはぜんじんるいの___です。\n(Environmental protection is an urgent task for all humanity.)", a:"きゅうむ", opts:["きゅうむ","たいさく","もんだい","せいさく"], sSrc:"Environmental protection is an urgent task for all humanity.",
    hint:"The formal noun meaning a pressing duty that demands immediate action."},

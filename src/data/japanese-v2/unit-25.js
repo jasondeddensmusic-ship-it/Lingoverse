@@ -32,8 +32,8 @@ const UNIT_25 = {
    exampleSrc:"A: I would like to make a proposal for a new project.\nB: Then please present it at next week's meeting.",
    funFact:"提案 uses 提 (present/submit) and 案 (idea/plan). The 案 kanji appears in many planning words: きあん (draft), たいあん (alternative plan), げんあん (original plan). In Japanese business, proposals are rarely rejected directly. Instead, they are 'considered' (検討します, kentou shimasu), which sometimes means a polite no."},
 
-  {type:"mc", q:"しりょうをくばる means:", opts:["To prepare materials","To distribute materials","To discard materials","To request materials"], ans:"To distribute materials",
-   hint:"くばる means to hand out or distribute to multiple people."},
+  {type:"mc", q:"しりょうをくばる means:", opts:["To prepare materials","To hand out materials to people","To discard materials","To request materials"], ans:"To hand out materials to people",
+   hint:"くばる means to pass something around to multiple recipients."},
 
   {type:"teach", trg:"ほうこく", src:"report", pos:"noun", gender:null,
    note:"Kanji: 報告. ほうこくする = to report.\nほうこくしょ = written report. Very common in business.",
@@ -94,8 +94,8 @@ const UNIT_25 = {
    exampleSrc:"A: This contract requires legal department approval.\nB: Understood. I will circulate the documents.",
    funFact:"Japanese companies use 部 (bu, department) as their main organizational unit. Common ones: 営業部 (sales), 人事部 (HR), 経理部 (accounting), 総務部 (general affairs), 開発部 (development). The department you belong to often defines your identity more than your job title."},
 
-  {type:"mc", q:"けいやくをむすぶ means:", opts:["To break a contract","To review a contract","To sign/conclude a contract","To propose a contract"], ans:"To sign/conclude a contract",
-   hint:"むすぶ means to tie or bind, and with contracts it means to formally enter into an agreement."},
+  {type:"mc", q:"けいやくをむすぶ means:", opts:["To break an agreement","To review an agreement","To formally enter into an agreement","To propose an agreement"], ans:"To formally enter into an agreement",
+   hint:"むすぶ means to tie or bind, used for establishing formal binding arrangements."},
 
   {type:"teach", trg:"かくにん", src:"confirmation / verification", pos:"noun", gender:null,
    note:"Kanji: 確認. かくにんする = to confirm/check.\nExtremely common in business and daily life.",
@@ -136,6 +136,9 @@ const UNIT_25 = {
 
   {type:"fb", s:"すぐにかくにん___。\n(I will confirm it right away.)", a:"いたします", opts:["いたします","します","なさいます","ください"], sSrc:"I will confirm it right away.",
    hint:"The humble keigo form of します, used when your action serves the listener."},
+
+  {type:"mc", q:"ほうむぶ means:", opts:["Sales department","Legal department","Accounting department","Human resources"], ans:"Legal department",
+   hint:"ほう (法) relates to law, む (務) to duty, and ぶ (部) to section within a company."},
 ]},
 
 ]};
