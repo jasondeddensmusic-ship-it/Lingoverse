@@ -98,7 +98,7 @@ const LESSON_5 = {
     {type:"mc", q:"What does 'Se avessi saputo' express?",
      opts:["A real future plan that is certain to happen","A present-tense question about current knowledge","Regret about acting without full information in the past","A formal greeting in business Italian"],
      ans:"Regret about acting without full information in the past",
-     hint:"'If I had known.' The universal lament. You cannot change the past, but the pluperfect subjunctive lets you imagine what might have been different."}
+     hint:"'If I had known.' The universal lament. You cannot change the p..., but the pluperfect subjunctive lets you imagine what might have been different."}
   ]
 };
 export default LESSON_5;

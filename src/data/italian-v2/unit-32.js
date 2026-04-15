@@ -1,4 +1,5 @@
 // Italian V2 Unit 32 — La globalizzazione (B2.3)
+import EXP_L4 from './_temp_u32_expand_L01.js';import EXP_L5 from './_temp_u32_expand_L02.js';import EXP_L6 from './_temp_u32_expand_L03.js';
 // CILS B2 aligned. Globalization, migration, identity, and international cooperation vocabulary.
 
 const UNIT_32 = {

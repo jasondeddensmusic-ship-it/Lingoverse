@@ -1,4 +1,5 @@
 // Italian V2 Unit 27 — La scienza (B2.1)
+import EXP_L4 from './_temp_u27_expand_L01.js';import EXP_L5 from './_temp_u27_expand_L02.js';import EXP_L6 from './_temp_u27_expand_L03.js';
 // CILS B2 aligned. Science, research, and discovery vocabulary.
 
 const UNIT_27 = {

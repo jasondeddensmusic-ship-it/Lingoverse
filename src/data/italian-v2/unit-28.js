@@ -1,4 +1,5 @@
 // Italian V2 Unit 28 — La letteratura (B2.2)
+import EXP_L4 from './_temp_u28_expand_L01.js';import EXP_L5 from './_temp_u28_expand_L02.js';import EXP_L6 from './_temp_u28_expand_L03.js';
 // CILS B2 aligned. Literature, narrative forms, and literary analysis vocabulary.
 
 const UNIT_28 = {
