@@ -87,7 +87,7 @@ const UNIT_25 = {
 
       {type:"mc",
        q:"Che cosa significa 'investire' nel contesto finanziario?",
-       opts:["Mettere denaro in un'attivita per ottenere un profitto","Spendere tutto il denaro","Chiedere un prestito alla banca","Pagare le tasse al governo"],
+       opts:["Spendere tutto il denaro","Mettere denaro in un'attivita per ottenere un profitto","Chiedere un prestito alla banca","Pagare le tasse al governo"],
        ans:"Mettere denaro in un'attivita per ottenere un profitto",
        hint:"This verb means putting your money into something with the expectation of gaining a return."},
 
@@ -120,7 +120,7 @@ const UNIT_25 = {
 
       {type:"mc",
        q:"Che cosa vuol dire 'quotare in borsa'?",
-       opts:["Rendere le azioni di una societa disponibili al pubblico","Chiudere un'azienda per fallimento","Risparmiare denaro in banca","Calcolare il bilancio annuale"],
+       opts:["Risparmiare denaro in banca","Chiudere un'azienda per fallimento","Rendere le azioni di una societa disponibili al pubblico","Calcolare il bilancio annuale"],
        ans:"Rendere le azioni di una societa disponibili al pubblico",
        hint:"When a company's shares become available for public trading on the stock exchange."}
     ]},
@@ -206,7 +206,7 @@ const UNIT_25 = {
 
       {type:"mc",
        q:"Come si chiama il totale delle vendite di un'azienda in un anno?",
-       opts:["Il fatturato","Il profitto","Il debito","Il bilancio"],
+       opts:["Il profitto","Il fatturato","Il debito","Il bilancio"],
        ans:"Il fatturato",
        hint:"This word comes from 'fattura' (invoice). It represents the total amount invoiced over a period."},
 
@@ -239,7 +239,7 @@ const UNIT_25 = {
 
       {type:"mc",
        q:"Che cos'e la 'concorrenza sleale'?",
-       opts:["Pratiche commerciali scorrette contro i rivali","Un tipo di investimento rischioso","Il commercio tra paesi diversi","La crescita economica lenta"],
+       opts:["Il commercio tra paesi diversi","Un tipo di investimento rischioso","Pratiche commerciali scorrette contro i rivali","La crescita economica lenta"],
        ans:"Pratiche commerciali scorrette contro i rivali",
        hint:"When businesses use dishonest or 'unfair' methods against their rivals. The adjective 'sleale' means disloyal/unfair."}
     ]},
@@ -319,7 +319,7 @@ const UNIT_25 = {
 
       {type:"mc",
        q:"Che cos'e la 'fuga dei cervelli'?",
-       opts:["Giovani qualificati che emigrano per trovare lavoro","Una riforma del sistema universitario","Un tipo di investimento estero","La crescita del settore tecnologico"],
+       opts:["Una riforma del sistema universitario","Giovani qualificati che emigrano per trovare lavoro","Un tipo di investimento estero","La crescita del settore tecnologico"],
        ans:"Giovani qualificati che emigrano per trovare lavoro",
        hint:"'Cervelli' means brains. When skilled young people leave their country to find work elsewhere, their country loses those 'brains.'"},
 
@@ -346,7 +346,7 @@ const UNIT_25 = {
 
       {type:"mc",
        q:"Che cos'e una privatizzazione?",
-       opts:["La vendita di beni statali a privati","L'aumento delle tasse per le imprese","La fusione di due aziende pubbliche","L'assunzione di nuovi dipendenti pubblici"],
+       opts:["La fusione di due aziende pubbliche","L'aumento delle tasse per le imprese","La vendita di beni statali a privati","L'assunzione di nuovi dipendenti pubblici"],
        ans:"La vendita di beni statali a privati",
        hint:"When the state sells its companies or assets to private buyers. The opposite of nationalization."}
     ]}

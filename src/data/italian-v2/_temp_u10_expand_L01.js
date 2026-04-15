@@ -70,7 +70,7 @@ const LESSON_4 = {id:"itv2_u10l4", title:"All'aeroporto", icon:"\u2708\uFE0F", x
   {type:"mc", q:"What does 'bagaglio a mano' mean?",
    opts:["Carry-on / hand luggage","Checked luggage","Lost luggage","Heavy luggage"],
    ans:"Carry-on / hand luggage",
-   hint:"'A mano' means by hand. This is the bag you carry with you onto the plane, not checked in."},
+   hint:"'A mano' means by h.... This is the bag you c... with you onto the plane, not checked in."},
 
   {type:"fb", s:"Mi mostri la {1} d'imbarco.",
    a:["carta"],
@@ -89,7 +89,7 @@ const LESSON_4 = {id:"itv2_u10l4", title:"All'aeroporto", icon:"\u2708\uFE0F", x
   {type:"mc", q:"What does the 'canale verde' at customs mean?",
    opts:["Nothing to declare","Something to declare","EU citizens only","Exit"],
    ans:"Nothing to declare",
-   hint:"Green = go through freely. Red = you have goods to declare. This system is standard in EU airports."},
+   hint:"Green = go through freely. Red = you have goods to d.... This system is standard in EU airports."},
 
   {type:"fb", s:"A che ora {1} il volo?",
    a:["decolla"],
@@ -100,7 +100,7 @@ const LESSON_4 = {id:"itv2_u10l4", title:"All'aeroporto", icon:"\u2708\uFE0F", x
   {type:"mc", q:"What does 'atterrare' literally mean?",
    opts:["To go to earth","To go up","To fly away","To stop"],
    ans:"To go to earth",
-   hint:"From 'a-' (to) + 'terra' (earth). The plane returns to the ground."},
+   hint:"From 'a-' (to) + 'terra' (e...). The plane returns to the ground."},
 
   {type:"fb", s:"Dov'e il {1} bagagli?",
    a:["ritiro"],

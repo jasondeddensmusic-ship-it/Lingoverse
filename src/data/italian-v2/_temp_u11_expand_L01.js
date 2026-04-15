@@ -70,7 +70,7 @@ const LESSON_4 = {id:"itv2_u11l4", title:"Altri participi irregolari", icon:"\uD
   {type:"mc", q:"What is the past participle of 'mettere'?",
    opts:["Messo","Mettuto","Mettato","Mettito"],
    ans:"Messo",
-   hint:"Completely irregular, from Latin 'missum.' One of the most used Italian verbs. 'Ho messo le chiavi qui.'"},
+   hint:"Completely irregular, from Latin 'missum.' One of the most used Italian verbs. 'Ho m... le chiavi qui.'"},
 
   {type:"fb", s:"Ho {1} il portafoglio!",
    a:["perso"],
@@ -100,7 +100,7 @@ const LESSON_4 = {id:"itv2_u11l4", title:"Altri participi irregolari", icon:"\uD
   {type:"mc", q:"Why does 'rimanere' use essere in the past tense?",
    opts:["It describes a state, not an action","It is regular","It is about money","It ends in -ere"],
    ans:"It describes a state, not an action",
-   hint:"Staying in a place is a state of being, not a transitive action. Like movement verbs, state verbs use essere."},
+   hint:"Staying in a place is a s... of being, not a transitive a.... Like movement verbs, s... verbs use essere."},
 
   {type:"fb", s:"Hai {1} all'email?",
    a:["risposto"],
@@ -113,10 +113,10 @@ const LESSON_4 = {id:"itv2_u11l4", title:"Altri participi irregolari", icon:"\uD
    ans:"Perso is everyday, perduto is literary/formal",
    hint:"Both are past participles of 'perdere.' One is spoken Italian, the other appears in book titles and poetry."},
 
-  {type:"fb", s:"Avete {1}? Ho scelto la pizza.",
+  {type:"fb", s:"Cameriere, abbiamo {1} e siamo pronti.",
    a:["scelto"],
    opts:["scelto","deciso","fatto","visto"],
    hint:"The waiter asks if you have picked your food. This is the past participle of 'scegliere' (to choose).",
-   sSrc:"Have you {1}? I chose the pizza."}
+   sSrc:"Waiter, we have {1} and we are ready."}
 ]};
 export default LESSON_4;

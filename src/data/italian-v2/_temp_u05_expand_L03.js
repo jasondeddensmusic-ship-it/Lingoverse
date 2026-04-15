@@ -89,7 +89,7 @@ const LESSON_6 = {
     {type:"mc", q:"What is 'la bolletta della luce'?",
      opts:["The electricity bill","A light bulb","A lamp","A candle"],
      ans:"The electricity bill",
-     hint:"'La luce' means both light and electricity. The 'bolletta' is the bill you pay for a utility."},
+     hint:"'La luce' means both light and e.... The 'bolletta' is the b... you pay for a utility."},
 
     {type:"fb", s:"{1} la TV quando esci.",
      a:["Spegni"],
@@ -108,7 +108,7 @@ const LESSON_6 = {
     {type:"mc", q:"What is 'il cellulare' in Italian?",
      opts:["A mobile phone","A cell (prison)","A small room","A tablet"],
      ans:"A mobile phone",
-     hint:"Named after the cellular network technology. Italy has one of the highest smartphone usage rates in Europe."},
+     hint:"Named after the cellular network. Italians also use the English loanword for the touchscreen handheld device — both terms are interchangeable."},
 
     {type:"fb", s:"Il computer e sulla {1}.",
      a:["scrivania"],

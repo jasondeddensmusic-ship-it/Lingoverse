@@ -84,7 +84,7 @@ const LESSON_5 = {
     {type:"mc", q:"How does Italian express 'never'?",
      opts:["Non + verb + mai","Mai alone before the verb","Non alone before the verb","Sempre with non"],
      ans:"Non + verb + mai",
-     hint:"Italian uses a double negative construction. Both 'non' before and 'mai' after the verb are required."},
+     hint:"Italian uses a double negative construction. Both 'n...' before and 'm...' after the v... are required."},
 
     {type:"fb", s:"Di {1} mi sveglio alle sette.",
      a:["solito"],
@@ -136,7 +136,7 @@ const LESSON_5 = {
     {type:"mc", q:"What does 'qualche volta' literally mean?",
      opts:["Some time(s)","Every time","No time","All times"],
      ans:"Some time(s)",
-     hint:"'Qualche' means 'some' and 'volta' means 'time.' Despite meaning some, 'qualche' always takes a singular noun."}
+     hint:"'Qualche' means 'some' and 'volta' means 't....' Despite meaning some, 'qualche' always takes a singular noun."}
   ]
 };
 export default LESSON_5;

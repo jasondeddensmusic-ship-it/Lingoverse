@@ -70,7 +70,7 @@ const LESSON_5 = {id:"itv2_u10l5", title:"Problemi in albergo", icon:"\uD83D\uDE
   {type:"mc", q:"How do you say 'it does not work' in Italian?",
    opts:["Non funziona","Non lavora","Non fa","Non va bene"],
    ans:"Non funziona",
-   hint:"'Funzionare' means to function or work (for devices). This is the universal phrase for anything broken."},
+   hint:"From Latin 'functio' (performance). Two words: a negation + a third-person verb meaning 'to operate.' Use it for any malfunctioning device or system."},
 
   {type:"fb", s:"La camera e molto {1}. C'e troppo rumore dalla strada.",
    a:["rumorosa"],
@@ -89,7 +89,7 @@ const LESSON_5 = {id:"itv2_u10l5", title:"Problemi in albergo", icon:"\uD83D\uDE
   {type:"mc", q:"What is the best approach for hotel complaints in Italy?",
    opts:["Be polite: start with 'Mi scusi' or 'Vorrei segnalare'","Shout loudly","Write an angry email","Refuse to pay"],
    ans:"Be polite: start with 'Mi scusi' or 'Vorrei segnalare'",
-   hint:"Italian hospitality responds well to courtesy. Politeness gets faster and better results than anger."},
+   hint:"Italian hospitality culture rewards courtesy. Opening with a respectful phrase rather than an aggressive demand gets much faster results from staff."},
 
   {type:"fb", s:"L'aria condizionata non {1}.",
    a:["funziona"],
@@ -111,7 +111,7 @@ const LESSON_5 = {id:"itv2_u10l5", title:"Problemi in albergo", icon:"\uD83D\uDE
   {type:"mc", q:"Why might older Italian buildings have limited heating?",
    opts:["Italian law regulates heating periods by date","Heating is too expensive","Italians prefer cold","Buildings have no boilers"],
    ans:"Italian law regulates heating periods by date",
-   hint:"Central heating only runs from mid-October to mid-April. Cold snaps outside these dates can be uncomfortable."},
+   hint:"In Italy, building warmth systems are only permitted to run from mid-October to mid-April by national statute. A cold snap outside this window is simply uncomfortable."},
 
   {type:"fb", s:"Non c'e acqua {1} nella doccia.",
    a:["calda"],

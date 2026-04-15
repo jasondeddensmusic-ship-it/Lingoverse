@@ -111,7 +111,7 @@ const LESSON_5 = {id:"itv2_u7l5", title:"Piatti regionali", icon:"\uD83C\uDDEE\u
   {type:"mc", q:"Where do the most expensive truffles come from?",
    opts:["Alba, Piedmont","Rome","Naples","Florence"],
    ans:"Alba, Piedmont",
-   hint:"White truffles from this Piedmont town can cost thousands of euros per kilo. Found by trained dogs."},
+   hint:"White truffles from this P... town can cost thousands of euros per kilo. Found by trained dogs."},
 
   {type:"fb", s:"Le tagliatelle al {1} cuociono da quattro ore.",
    a:["ragu"],

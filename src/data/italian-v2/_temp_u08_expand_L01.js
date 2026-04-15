@@ -70,7 +70,7 @@ const LESSON_4 = {id:"itv2_u8l4", title:"Contrattare e restituire", icon:"\uD83E
   {type:"mc", q:"Where is bargaining acceptable in Italy?",
    opts:["Open-air markets and flea markets","Supermarkets","Pharmacies","Department stores"],
    ans:"Open-air markets and flea markets",
-   hint:"Regular shops have fixed prices. Negotiating is normal at outdoor markets and secondhand stalls."},
+   hint:"Regular shops have fixed prices. Negotiating is normal at outdoor m... and secondhand stalls."},
 
   {type:"fb", s:"Costa cinquanta euro. {1} caro!",
    a:["Troppo"],
@@ -89,7 +89,7 @@ const LESSON_4 = {id:"itv2_u8l4", title:"Contrattare e restituire", icon:"\uD83E
   {type:"mc", q:"What does 'diritto di recesso' guarantee for online purchases?",
    opts:["14 days to return the item","30 days to return","Free shipping","A lifetime warranty"],
    ans:"14 days to return the item",
-   hint:"EU consumer law protects online shoppers. You have two weeks from delivery to send items back."},
+   hint:"EU consumer law protects online shoppers. You have two weeks from delivery to change your mind."},
 
   {type:"fb", s:"Vorrei {1} questa giacca.",
    a:["restituire"],
@@ -111,7 +111,7 @@ const LESSON_4 = {id:"itv2_u8l4", title:"Contrattare e restituire", icon:"\uD83E
   {type:"mc", q:"What is a 'camerino' in a shop?",
    opts:["A fitting room","A cashier","A warehouse","A display window"],
    ans:"A fitting room",
-   hint:"Diminutive of 'camera' (room). The small room where you try on clothes before buying."},
+   hint:"Diminutive of 'camera' (r...). The small r... where you try on clothes before buying."},
 
   {type:"fb", s:"Posso avere un {1}?",
    a:["rimborso"],

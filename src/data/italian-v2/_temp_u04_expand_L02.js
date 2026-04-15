@@ -84,7 +84,7 @@ const LESSON_4 = {
     {type:"mc", q:"What is 'il primo' in an Italian meal?",
      opts:["The first course (pasta/risotto)","The appetizer","The main course","The dessert"],
      ans:"The first course (pasta/risotto)",
-     hint:"This carb-based course is the heart of an Italian meal. It always comes after the antipasto."},
+     hint:"This carb-based c... is the heart of an Italian meal. It always comes after the antipasto."},
 
     {type:"fb", s:"Vorrei {1} un tavolo per due.",
      a:["prenotare"],
@@ -95,7 +95,7 @@ const LESSON_4 = {
     {type:"mc", q:"What is 'il coperto' on an Italian bill?",
      opts:["A per-person cover charge for bread and table","The tip","The service charge","Tax"],
      ans:"A per-person cover charge for bread and table",
-     hint:"Unique to Italy, this small fee covers your place setting and bread basket. It is not a tip."},
+     hint:"Unique to Italy, this small flat fee appears on every bill. It pays for your place setting and a basket of something baked. It is not a tip."},
 
     {type:"fb", s:"E come {1}? La bistecca, per favore.",
      a:["secondo"],
@@ -125,7 +125,7 @@ const LESSON_4 = {
     {type:"mc", q:"How should you get a waiter's attention in Italy?",
      opts:["Eye contact and 'scusi'","Snap your fingers","Wave your hand","Shout 'cameriere!'"],
      ans:"Eye contact and 'scusi'",
-     hint:"Italian dining etiquette values subtlety. A gentle 'excuse me' with eye contact is proper."},
+     hint:"Italian dining etiquette values subtlety. A gentle 'excuse me' with e... c... is proper."},
 
     {type:"fb", s:"Scusi, posso avere il {1}?",
      a:["menu"],
@@ -136,7 +136,7 @@ const LESSON_4 = {
     {type:"mc", q:"What does 'dolce' mean as an adjective?",
      opts:["Sweet","Dessert","Hot","Soft"],
      ans:"Sweet",
-     hint:"As a noun it means dessert. As an adjective it means sweet. 'La dolce vita' = the sweet life."}
+     hint:"'Dolce' is both a noun (dessert, something sugary to eat after a meal) and an adjective. 'La dolce vita' uses its adjectival sense."}
   ]
 };
 export default LESSON_4;

@@ -108,7 +108,7 @@ const LESSON_4 = {
     {type:"mc", q:"Why does English 'bankrupt' come from Italian?",
      opts:["Medieval Italian bankers' benches were broken when they failed","Banks were invented in Italy","English borrowed the word randomly","It comes from Latin"],
      ans:"Medieval Italian bankers' benches were broken when they failed",
-     hint:"'Banca rotta' (broken bench) described what happened to a failed money changer's workplace in the marketplace."},
+     hint:"'Banca rotta' (b... bench) described what happened to a f... money changer's workplace in the marketplace."},
 
     {type:"fb", s:"L'{1} di Bologna e la piu antica del mondo.",
      a:["universita"],
@@ -130,7 +130,7 @@ const LESSON_4 = {
     {type:"mc", q:"Where are all foreign embassies in Italy?",
      opts:["In Rome","In Milan","In each major city","In Florence"],
      ans:"In Rome",
-     hint:"As the capital, Rome hosts all embassies. Other cities have consulates for day-to-day services."}
+     hint:"Italy's capital hosts all foreign embassies. Other cities have consulates for day-to-day services."}
   ]
 };
 export default LESSON_4;

@@ -57,7 +57,7 @@ const UNIT_22 = {
       {type:"mc", q:"What does 'l'opera' mean in Italian?",
        opts:["Both a work of art and the musical genre","Only the musical genre","Only a painting","A theater building"],
        ans:"Both a work of art and the musical genre",
-       hint:"From Latin 'opera' (work). 'Opera d'arte' is a work of art, 'opera lirica' is the musical form. Italy invented the genre around 1600."},
+       hint:"From Latin 'opera' (labor, effort). Italy invented the lyric stage form around 1600 in Florence. The word covers both the product and the performance."},
 
       {type:"fb", s:"L'{1} di Michelangelo nella Cappella Sistina e incredibile.",
        a:["affresco"],
@@ -74,9 +74,9 @@ const UNIT_22 = {
       ]},
 
       {type:"mc", q:"What does 'capolavoro' literally mean?",
-       opts:["Head-work (chief work)","Beautiful work","Hard work","First work"],
+       opts:["Beautiful and refined work","Head-work (chief work)","Difficult and laborious work","A craftsman's first work"],
        ans:"Head-work (chief work)",
-       hint:"Compound of 'capo' (head/chief) and 'lavoro' (work). Originally the test piece that made an apprentice a master craftsman."},
+       hint:"Compound of 'capo' (h.../c...) and 'lavoro' (w...). Originally the test piece that made an apprentice a master craftsman."},
 
       {type:"fb", s:"C'e una {1} di Caravaggio al museo.",
        a:["mostra"],
@@ -85,9 +85,9 @@ const UNIT_22 = {
        sSrc:"There is a Caravaggio {1} at the museum."},
 
       {type:"mc", q:"What are the three meanings of 'galleria' in Italian?",
-       opts:["Art gallery, shopping arcade, and road tunnel","Only art gallery","Gallery and garden","Gallery and restaurant"],
+       opts:["Gallery and garden","Only art gallery","Art gallery, shopping arcade, and road tunnel","Gallery and restaurant"],
        ans:"Art gallery, shopping arcade, and road tunnel",
-       hint:"All share the idea of a long enclosed space. The Uffizi (art), Galleria Vittorio Emanuele (shopping), and highway tunnels."},
+       hint:"All three share the idea of a long enclosed space: one for paintings, one for shops, one for vehicles underground."},
 
       {type:"fb", s:"Chi ha dipinto questo {1}?",
        a:["quadro"],
@@ -96,9 +96,9 @@ const UNIT_22 = {
        sSrc:"Who painted this {1}?"},
 
       {type:"mc", q:"Which Italian city hosts the oldest international art exhibition?",
-       opts:["Venice (the Biennale)","Rome","Florence","Milan"],
+       opts:["Milan (the Triennale)","Rome (the Quadriennale)","Florence (the Biennale)","Venice (the Biennale)"],
        ans:"Venice (the Biennale)",
-       hint:"The Biennale di Venezia has been running since 1895. It covers art, architecture, cinema, dance, and music."}
+       hint:"The B... di Venezia has been running since 1895. It covers art, architecture, cinema, dance, and music."}
     ]},
 
     {id:"itv2_u22l2", title:"La musica", icon:"🎵", xp:15, board:true, steps:[
@@ -169,7 +169,7 @@ const UNIT_22 = {
       ]},
 
       {type:"mc", q:"What is a 'cantautore'?",
-       opts:["A singer-songwriter","A classical composer","A music teacher","A concert pianist"],
+       opts:["A classical composer","A singer-songwriter","A music teacher","A concert pianist"],
        ans:"A singer-songwriter",
        hint:"A compound word combining the performer and the creator into one role. This tradition is deeply respected in Italy as a form of poetry."},
 
@@ -180,9 +180,9 @@ const UNIT_22 = {
        sSrc:"I love Puccini's music. He is a great {1}."},
 
       {type:"mc", q:"Why is music terminology overwhelmingly Italian?",
-       opts:["Italy dominated European music for centuries","Italian is the easiest language","Musicians prefer Italian food","A treaty required it"],
+       opts:["Musicians prefer Italian food","Italian is the easiest language","Italy dominated European music for centuries","A treaty required it"],
        ans:"Italy dominated European music for centuries",
-       hint:"From the Renaissance through the 18th century, Italian musicians and composers set the standard. Their terms became universal."},
+       hint:"From the Renaissance through the 18th century, the peninsula set the global standard in composition and performance. The vocabulary followed the prestige."},
 
       {type:"fb", s:"Che bella {1}! Non riesco a togliermela dalla testa.",
        a:["melodia"],
@@ -191,7 +191,7 @@ const UNIT_22 = {
        sSrc:"What a beautiful {1}! I cannot get it out of my head."},
 
       {type:"mc", q:"What was 'Viva Verdi!' secretly used for?",
-       opts:["Cheering for Italian unification (V.E.R.D.I. = Vittorio Emanuele Re D'Italia)","Celebrating a new opera","Ordering food at a restaurant","Starting a music festival"],
+       opts:["Starting a music festival","Celebrating a new opera","Ordering food at a restaurant","Cheering for Italian unification (V.E.R.D.I. = Vittorio Emanuele Re D'Italia)"],
        ans:"Cheering for Italian unification (V.E.R.D.I. = Vittorio Emanuele Re D'Italia)",
        hint:"The composer's name became an acronym for the future king. Shouting it in public was a coded political statement."}
     ]},
@@ -264,7 +264,7 @@ const UNIT_22 = {
       ]},
 
       {type:"mc", q:"Which is the oldest film festival in the world?",
-       opts:["Venice (1932)","Cannes (1946)","Berlin (1951)","Toronto (1976)"],
+       opts:["Cannes (1946)","Venice (1932)","Berlin (1951)","Toronto (1976)"],
        ans:"Venice (1932)",
        hint:"The Mostra del Cinema di Venezia predates all others. Its top prize is the Leone d'Oro (Golden Lion)."},
 
@@ -275,7 +275,7 @@ const UNIT_22 = {
        sSrc:"Where did they {1} the film?"},
 
       {type:"mc", q:"What word did Fellini's 'La Dolce Vita' give to the world?",
-       opts:["Paparazzi","Bravo","Cinema","Diva"],
+       opts:["Cinema verité","Bravo performance","Paparazzi","Prima donna diva"],
        ans:"Paparazzi",
        hint:"A character in the 1960 film was named Paparazzo, a pushy photographer. The plural became the universal word for celebrity photographers."},
 
@@ -286,9 +286,9 @@ const UNIT_22 = {
        sSrc:"The {1} is adapted from a novel."},
 
       {type:"mc", q:"What is Cinecitta?",
-       opts:["Rome's famous film studios","A film festival","A type of cinema ticket","A movie genre"],
+       opts:["A neorealist movie genre","A prestigious film festival award","A type of Italian cinema ticket","Rome's famous film studios"],
        ans:"Rome's famous film studios",
-       hint:"Built in 1937, these studios are where most Italian films are made. Often called 'the Hollywood on the Tiber.'"}
+       hint:"Built in 1937 on the outskirts of the capital, it has hosted productions by Fellini, Zeffirelli, and many others. Often called 'the Hollywood on the Tiber.'"}
     ]}
   ]
 };

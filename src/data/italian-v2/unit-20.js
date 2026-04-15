@@ -74,7 +74,7 @@ const UNIT_20 = {
       ]},
 
       {type:"mc", q:"What does 'bocciare' mean in a school context?",
-       opts:["To fail / hold back a student","To promote a student","To teach a class","To take an exam"],
+       opts:["To promote a student","To fail / hold back a student","To teach a class","To take an exam"],
        ans:"To fail / hold back a student",
        hint:"From 'boccia' (ball in bocce). Being 'bocciato' means being knocked out and having to repeat the year."},
 
@@ -85,7 +85,7 @@ const UNIT_20 = {
        sSrc:"What {1} did you get in math?"},
 
       {type:"mc", q:"Which liceo teaches Latin and Ancient Greek?",
-       opts:["Liceo classico","Liceo scientifico","Liceo linguistico","Liceo artistico"],
+       opts:["Liceo linguistico","Liceo scientifico","Liceo classico","Liceo artistico"],
        ans:"Liceo classico",
        hint:"This is considered the most prestigious track. Italy is one of few countries still teaching classical languages in secondary school."},
 
@@ -96,9 +96,9 @@ const UNIT_20 = {
        sSrc:"I have {1} university for two years."},
 
       {type:"mc", q:"How do Italians say 'to take an exam'?",
-       opts:["Dare un esame","Prendere un esame","Fare un esame","Avere un esame"],
+       opts:["Avere un esame","Prendere un esame","Fare un esame","Dare un esame"],
        ans:"Dare un esame",
-       hint:"Italian uses 'dare' (to give), not 'prendere' (to take). You 'give' an exam, the opposite of the English expression."}
+       hint:"Italian uses 'd...' (to give), not 'prendere' (to take). You 'give' an exam, the opposite of the English expression."}
     ]},
 
     {id:"itv2_u20l2", title:"L'universita", icon:"🏛️", xp:15, board:true, steps:[
@@ -175,8 +175,8 @@ const UNIT_20 = {
       ]},
 
       {type:"mc", q:"What is special about the University of Bologna?",
-       opts:["It is the oldest continuously operating university in the world","It is the largest in Europe","It only teaches law","It was founded by the Pope"],
-       ans:"It is the oldest continuously operating university in the world",
+       opts:["It has the single largest campus building in all of Europe","It is the world's oldest still-running university","It exclusively teaches law and nothing else","It was personally founded by the Pope"],
+       ans:"It is the world's oldest still-running university",
        hint:"Founded in 1088, it predates Oxford and the Sorbonne. Italian academic tradition spans nearly a millennium."},
 
       {type:"fb", s:"Mi {1} a luglio, finalmente!",
@@ -186,9 +186,9 @@ const UNIT_20 = {
        sSrc:"I {1} in July, finally!"},
 
       {type:"mc", q:"What does 'fuga di cervelli' mean?",
-       opts:["Brain drain (researchers leaving Italy)","A university entrance exam","A graduation ceremony","A study technique"],
-       ans:"Brain drain (researchers leaving Italy)",
-       hint:"Literally 'flight of brains.' Italian researchers often move abroad for better funding. Connected to the low research investment."},
+       opts:["A traditional end-of-year graduation ceremony for graduates","A university entrance exam","Talented academics emigrating for better opportunities","A demanding and intensive study technique"],
+       ans:"Talented academics emigrating for better opportunities",
+       hint:"Literally 'flight of' the word for 'brains.' Italy's low research funding pushes many scholars abroad."},
 
       {type:"fb", s:"Ha vinto una {1} di studio.",
        a:["borsa"],
@@ -197,9 +197,9 @@ const UNIT_20 = {
        sSrc:"She won a {1} (scholarship)."},
 
       {type:"mc", q:"What happens at an Italian thesis defense?",
-       opts:["The student presents before a commission, family attends","Only the professor reads it","Students submit online only","There is no defense for bachelor's"],
-       ans:"The student presents before a commission, family attends",
-       hint:"Even the three-year bachelor's requires a formal defense. Family and friends celebrate afterward with the famous laurel wreath."}
+       opts:["There is no defense required for bachelor's degrees","Only the assigned professor reads and evaluates it","All students simply upload a digital copy online","The student defends it before a formal panel of examiners"],
+       ans:"The student defends it before a formal panel of examiners",
+       hint:"Even the three-year bachelor's requires this public presentation. Family and friends attend and celebrate afterward with a laurel wreath."}
     ]},
 
     {id:"itv2_u20l3", title:"Il professore", icon:"👨‍🏫", xp:15, board:true, steps:[
@@ -270,9 +270,9 @@ const UNIT_20 = {
       ]},
 
       {type:"mc", q:"What is unique about the Italian 'appello' system?",
-       opts:["Students get multiple exam dates to choose from","Exams are only oral","All exams happen on the same day","Students cannot retake exams"],
-       ans:"Students get multiple exam dates to choose from",
-       hint:"Each exam period offers 2-3 dates. Students choose when to take or retake the exam without penalty."},
+       opts:["All exams are conducted entirely in spoken form","Multiple dates are offered per session","All exams fall on the same fixed day","Students may not repeat a failed exam"],
+       ans:"Multiple dates are offered per session",
+       hint:"Each exam period gives 2-3 date options. Students choose when to take or retake the exam, with no penalty."},
 
       {type:"fb", s:"Hai completato l'{1}?",
        a:["iscrizione"],
@@ -281,9 +281,9 @@ const UNIT_20 = {
        sSrc:"Did you complete the {1}?"},
 
       {type:"mc", q:"Where does the word 'compagno' come from?",
-       opts:["Latin 'cum panis' (with bread)","Latin 'campus' (field)","Greek 'kompas' (compass)","Italian 'compito' (homework)"],
-       ans:"Latin 'cum panis' (with bread)",
-       hint:"A companion is someone you share bread with. In school, a 'compagno di classe' is someone you share the classroom with."},
+       opts:["Greek 'kompas' meaning a navigational compass","Latin 'campus' meaning open field","Latin 'cum panis' meaning with bread","Italian 'compito' meaning homework"],
+       ans:"Latin 'cum panis' meaning with bread",
+       hint:"A companion is someone you share a meal with. In school, a 'compagno di classe' shares the same room with you."},
 
       {type:"fb", s:"Quanti {1} segui questo semestre?",
        a:["corsi"],
@@ -292,9 +292,9 @@ const UNIT_20 = {
        sSrc:"How many {1} are you taking this semester?"},
 
       {type:"mc", q:"How are Italian university tuition fees calculated?",
-       opts:["Based on family income through the ISEE system","A flat rate for everyone","By the student's grades","By the field of study only"],
-       ans:"Based on family income through the ISEE system",
-       hint:"The income-based system makes higher education more accessible. Fees range from hundreds to a few thousand euros."}
+       opts:["By the field of study only","A flat rate for everyone","By the student's final grades","Scaled to household earnings via the ISEE declaration"],
+       ans:"Scaled to household earnings via the ISEE declaration",
+       hint:"Wealthier families pay more; lower-earning families pay very little. This makes higher education accessible to all."}
     ]}
   ]
 };

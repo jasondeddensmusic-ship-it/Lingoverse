@@ -70,7 +70,7 @@ const LESSON_6 = {id:"itv2_u11l6", title:"Raccontare una storia", icon:"\uD83D\u
   {type:"mc", q:"What does 'conoscere' mean in the past tense?",
    opts:["To meet someone for the first time","To know someone well","To recognize","To remember"],
    ans:"To meet someone for the first time",
-   hint:"'Ho conosciuto Marco ieri' means you met him for the first time. For running into someone you already know, use 'incontrare.'"},
+   hint:"'Ho conosciuto Marco ieri' means you met him for the f... t.... For running into s... you already know, use 'incontrare.'"},
 
   {type:"fb", s:"Com'e {1} il concerto?",
    a:["stato"],
@@ -111,7 +111,7 @@ const LESSON_6 = {id:"itv2_u11l6", title:"Raccontare una storia", icon:"\uD83D\u
   {type:"mc", q:"What is the literal meaning of 'raccontare'?",
    opts:["To recount (count again)","To sing again","To read again","To remember"],
    ans:"To recount (count again)",
-   hint:"From 'ri-' (again) + 'contare' (to count). Stories are events counted one by one."},
+   hint:"'Ri-' is a prefix meaning repetition, combined with a verb meaning to enumerate. Stories were originally events tallied one by one."},
 
   {type:"fb", s:"E stata un'esperienza {1}.",
    a:["indimenticabile"],

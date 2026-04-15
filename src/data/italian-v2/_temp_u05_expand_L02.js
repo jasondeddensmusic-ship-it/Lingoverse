@@ -87,7 +87,7 @@ const LESSON_5 = {
     {type:"mc", q:"What is the difference between 'su' and 'sopra'?",
      opts:["Su = touching, sopra = not touching","They are identical","Su = above, sopra = on","Sopra is informal"],
      ans:"Su = touching, sopra = not touching",
-     hint:"The cat ON the table (touching) uses 'su.' The lamp ABOVE the table (hanging, not touching) uses 'sopra.'"},
+     hint:"The cat ON the table (t...) uses 'su.' The lamp ABOVE the table (hanging, not t...) uses 's....'"},
 
     {type:"fb", s:"La farmacia e {1} al supermercato.",
      a:["accanto"],
@@ -106,7 +106,7 @@ const LESSON_5 = {
     {type:"mc", q:"Why are 'tra' and 'fra' interchangeable?",
      opts:["Italians choose whichever sounds better with surrounding words","Fra is formal","Tra is old Italian","They have slightly different meanings"],
      ans:"Italians choose whichever sounds better with surrounding words",
-     hint:"These two forms exist for phonetic variety. 'Tra tre' sounds bad, so use 'fra tre.' 'Fra fratelli' sounds bad, so use 'tra fratelli.'"},
+     hint:"These two forms exist for phonetic variety. 'Tra tre' s... bad, so use 'fra tre.' 'Fra fratelli' s... bad, so use 'tra fratelli.'"},
 
     {type:"fb", s:"I bambini sono {1}, in giardino.",
      a:["fuori"],
@@ -128,7 +128,7 @@ const LESSON_5 = {
     {type:"mc", q:"How do you say 'in the wardrobe' using an articulated preposition?",
      opts:["Nell'armadio","In l'armadio","Nel armadio","N'armadio"],
      ans:"Nell'armadio",
-     hint:"'In' + 'l'' (masculine before vowel) merge into 'nell'.' This contraction is mandatory."}
+     hint:"'In' combines with the elided masculine article before a vowel. The result fuses the two words into one — never keep them separate in Italian."}
   ]
 };
 export default LESSON_5;

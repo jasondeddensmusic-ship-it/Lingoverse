@@ -155,7 +155,7 @@ const LESSON_3 = {
     {type:"mc", q:"How do you state your profession in Italian?",
      opts:["Sono + profession (no article)","Sono un + profession","Ho + profession","Faccio il + profession"],
      ans:"Sono + profession (no article)",
-     hint:"With the verb essere, professions do not take an article. Just the verb directly before the job title."},
+     hint:"With essere, job titles stand alone without any determiner. English 'I am a doctor' loses its 'a' in Italian."},
 
     {type:"fb", s:"Qual e la Sua {1}?",
      a:["nazionalita"],

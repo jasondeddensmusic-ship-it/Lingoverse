@@ -89,7 +89,7 @@ const LESSON_6 = {
     {type:"mc", q:"What is the difference between 'fa freddo' and 'ho freddo'?",
      opts:["Fa freddo = weather is cold, ho freddo = I feel cold","They are the same","Fa freddo is formal","Ho freddo is about weather"],
      ans:"Fa freddo = weather is cold, ho freddo = I feel cold",
-     hint:"Italian uses different verbs: 'fare' for weather conditions, 'avere' for personal sensations."},
+     hint:"Italian uses different verbs: 'fare' for w... conditions, 'avere' for personal sensations."},
 
     {type:"fb", s:"{1} forte oggi. Hai l'ombrello?",
      a:["Piove"],
@@ -108,7 +108,7 @@ const LESSON_6 = {
     {type:"mc", q:"Where does the word 'ombrello' come from?",
      opts:["Ombra (shade/shadow)","Omero (Homer)","Ombra (ghost)","A French word"],
      ans:"Ombra (shade/shadow)",
-     hint:"Umbrellas were originally for sun protection. The diminutive -ello makes it 'little shade.'"},
+     hint:"Umbrellas were originally for sun protection. The diminutive -ello makes it 'little s....'"},
 
     {type:"fb", s:"Quanti {1} ci sono oggi?",
      a:["gradi"],

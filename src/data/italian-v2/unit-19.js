@@ -79,9 +79,9 @@ const UNIT_19 = {
       ]},
 
       {type:"mc", q:"How do you say 'I am afraid of spiders' in Italian?",
-       opts:["Ho paura dei ragni","Sono paura dei ragni","Faccio paura dei ragni","Sto paura dei ragni"],
+       opts:["Sono paura dei ragni","Ho paura dei ragni","Faccio paura dei ragni","Sto paura dei ragni"],
        ans:"Ho paura dei ragni",
-       hint:"Italian treats fear as something you 'have,' not something you 'are.' The pattern is avere + paura + di."},
+       hint:"Italian treats fear as something you 'have,' not something you 'are.' The pattern is avere + p... + di."},
 
       {type:"fb", s:"C'e molta {1} nei suoi occhi.",
        a:["tristezza"],
@@ -90,9 +90,9 @@ const UNIT_19 = {
        sSrc:"There is a lot of {1} in his eyes."},
 
       {type:"mc", q:"Which suffix turns 'triste' into 'tristezza'?",
-       opts:["-ezza","-zione","-mente","-ismo"],
+       opts:["-mente","-zione","-ezza","-ismo"],
        ans:"-ezza",
-       hint:"This suffix creates abstract nouns from adjectives. The same pattern gives 'bellezza' from 'bello' and 'dolcezza' from 'dolce.'"},
+       hint:"This suffix builds abstract nouns from adjectives. Compare: bello > bell___, dolce > dolc___. A highly productive Italian pattern."},
 
       {type:"fb", s:"Ho l'{1} per l'esame di domani.",
        a:["ansia"],
@@ -101,9 +101,9 @@ const UNIT_19 = {
        sSrc:"I have {1} about tomorrow's exam."},
 
       {type:"mc", q:"What does 'gioia mia' mean as a term of endearment?",
-       opts:["My joy / my treasure","My sadness","My fear","My anger"],
+       opts:["My anger","My sadness","My fear","My joy / my treasure"],
        ans:"My joy / my treasure",
-       hint:"This word means both 'joy' and 'jewel/treasure' in affectionate speech. Common in southern Italy."}
+       hint:"This word means both 'j...' and 'jewel/t...' in affectionate speech. Common in southern Italy."}
     ]},
 
     {id:"itv2_u19l2", title:"Le relazioni", icon:"💑", xp:15, board:true, steps:[
@@ -161,9 +161,9 @@ const UNIT_19 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'il fidanzato' mean?",
-       opts:["Boyfriend or fiance","Just a friend","Husband","Brother"],
-       ans:"Boyfriend or fiance",
-       hint:"This word comes from 'fiducia' (trust). Unlike English, it covers both the dating and engaged stages. Context clarifies."},
+       opts:["Boyfriend or fiance, depending on context","Just a platonic friend","A married husband","An older brother"],
+       ans:"Boyfriend or fiance, depending on context",
+       hint:"This word comes from 'fiducia' (trust). It covers both the dating and engaged stages. The situation clarifies which."},
 
       {type:"fb", s:"La {1} distrugge le relazioni.",
        a:["gelosia"],
@@ -180,7 +180,7 @@ const UNIT_19 = {
       ]},
 
       {type:"mc", q:"How do you say 'I trust you' in Italian?",
-       opts:["Mi fido di te","Ti fido","Fido te","Mi fido te"],
+       opts:["Ti fido","Mi fido di te","Fido te","Mi fido te"],
        ans:"Mi fido di te",
        hint:"This reflexive verb requires 'di' before the person. The verb shares its root with 'fede' (faith) and 'fiducia' (trust)."},
 
@@ -191,7 +191,7 @@ const UNIT_19 = {
        sSrc:"Why do you always {1}?"},
 
       {type:"mc", q:"What is the informal way to say 'to reconcile' in Italian?",
-       opts:["Fare pace","Fare guerra","Fare festa","Fare paura"],
+       opts:["Fare festa","Fare guerra","Fare pace","Fare paura"],
        ans:"Fare pace",
        hint:"This expression literally means 'to make peace.' It is the everyday alternative to the more formal 'riconciliarsi.'"},
 
@@ -202,9 +202,9 @@ const UNIT_19 = {
        sSrc:"I am {1} to meet you."},
 
       {type:"mc", q:"What pattern does Italian use for 'I am afraid of spiders'?",
-       opts:["Avere paura di (Ho paura dei ragni)","Essere paura di","Fare paura di","Stare paura di"],
-       ans:"Avere paura di (Ho paura dei ragni)",
-       hint:"Italian treats fear as something you 'have,' not something you 'are.' The verb is avere, followed by paura and di."}
+       opts:["Stare paura di + noun","Essere paura di + noun","Fare paura di + noun","Avere paura di + noun"],
+       ans:"Avere paura di + noun",
+       hint:"Italian treats fear as something you possess, not something you are. The structure uses 'to have' plus the Italian word for fright and the preposition 'di'."}
     ]},
 
     {id:"itv2_u19l3", title:"Parlare di emozioni", icon:"🗣️", xp:15, board:true, steps:[
@@ -261,9 +261,9 @@ const UNIT_19 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'delusione' actually mean in Italian?",
-       opts:["Disappointment","Delusion","Illusion","Solution"],
-       ans:"Disappointment",
-       hint:"This is a famous false friend. English 'delusion' translates to 'illusione' in Italian. This word means something let you down."},
+       opts:["A feeling of being let down","A mental delusion or false belief","A pleasant illusion or dream","A practical solution to a problem"],
+       ans:"A feeling of being let down",
+       hint:"This is a famous false friend. English 'delusion' translates to 'illusione' in Italian, not this word."},
 
       {type:"fb", s:"Non perdere la {1}.",
        a:["speranza"],
@@ -280,9 +280,9 @@ const UNIT_19 = {
       ]},
 
       {type:"mc", q:"What does 'arrabbiata' mean in 'penne all'arrabbiata'?",
-       opts:["Angry (referring to spicy chili)","Happy","Sad","Sweet"],
-       ans:"Angry (referring to spicy chili)",
-       hint:"The adjective from 'rabbia' (anger) also names a fiery pasta sauce. The chili peppers make it 'angry.'"},
+       opts:["Joyful and festive in a traditional Italian way","Furious, as chili makes the sauce fiery","Melancholy and very dark in color","Gentle and naturally sweet in flavor"],
+       ans:"Furious, as chili makes the sauce fiery",
+       hint:"From 'rabbia' (rage). The small hot peppers give this tomato pasta its intense, spicy bite."},
 
       {type:"fb", s:"Ho {1} di casa.",
        a:["nostalgia"],
@@ -291,9 +291,9 @@ const UNIT_19 = {
        sSrc:"I am {1} (homesick)."},
 
       {type:"mc", q:"What does 'emozionarsi' mean?",
-       opts:["To get emotional / be moved","To get angry","To get sick","To get confused"],
-       ans:"To get emotional / be moved",
-       hint:"This reflexive verb covers being moved by any strong feeling. 'Mi sono emozionato' can follow tears of joy or a touching speech."},
+       opts:["To fall ill quite suddenly","To grow intensely angry at someone","To be stirred by deep feeling","To become thoroughly and utterly confused"],
+       ans:"To be stirred by deep feeling",
+       hint:"This reflexive verb covers being moved by any strong sensation. 'Mi sono emozionato' fits tears of joy or a touching speech."},
 
       {type:"fb", s:"Non {1}, andra tutto bene.",
        a:["preoccuparti"],
@@ -302,9 +302,9 @@ const UNIT_19 = {
        sSrc:"Do not {1}, everything will be fine."},
 
       {type:"mc", q:"How does Italian emotional culture differ from some other cultures?",
-       opts:["Open emotional expression is valued as authentic","Hiding feelings is preferred","Only family shows emotions","Emotions are considered private"],
-       ans:"Open emotional expression is valued as authentic",
-       hint:"Italians tend to communicate feelings directly. Physical comfort and expressive language are normal in social interactions."}
+       opts:["Feelings are kept strictly private","Concealing emotions is strongly preferred","Only immediate family may show emotion","Expressing feelings openly is seen as genuine"],
+       ans:"Expressing feelings openly is seen as genuine",
+       hint:"Italian social bonds value emotional directness. 'Come stai?' expects a real answer. Physical warmth and expressive language are normal even with acquaintances."}
     ]}
   ]
 };

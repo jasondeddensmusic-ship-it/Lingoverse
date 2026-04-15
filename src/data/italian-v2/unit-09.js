@@ -64,7 +64,7 @@ const UNIT_09 = {
       {type:"mc", q:"Why is 'la mano' unusual in Italian?",
        opts:["It is feminine but ends in -o","It is masculine but ends in -a","It has no plural","It changes gender"],
        ans:"It is feminine but ends in -o",
-       hint:"Most Italian words ending in -o are masculine. This word for 'hand' kept its Latin feminine gender."},
+       hint:"Most Italian words ending in -o are masculine. This word for 'hand' kept its Latin f... gender."},
 
       {type:"fb", s:"Mi fa male la {1}.",
        a:["testa"],
@@ -81,7 +81,7 @@ const UNIT_09 = {
       ]},
 
       {type:"mc", q:"What is the irregular plural of 'il braccio'?",
-       opts:["Le braccia","I bracci","Le bracci","I braccia"],
+       opts:["I bracci","Le braccia","Le bracci","I braccia"],
        ans:"Le braccia",
        hint:"This word changes gender in the plural. Masculine singular becomes feminine plural. From Latin neuter."},
 
@@ -92,7 +92,7 @@ const UNIT_09 = {
        sSrc:"I have a {1}ache."},
 
       {type:"mc", q:"What does the expression 'in gamba' mean?",
-       opts:["Clever / capable","In pain","On the leg","Walking"],
+       opts:["On the leg","In pain","Clever / capable","Walking"],
        ans:"Clever / capable",
        hint:"This idiom uses the word for 'leg' but means something positive about someone's ability."},
 
@@ -103,7 +103,7 @@ const UNIT_09 = {
        sSrc:"My {1} hurts. I need to rest."},
 
       {type:"mc", q:"What does 'l'occhio' mean?",
-       opts:["The eye","The ear","The mouth","The nose"],
+       opts:["The nose","The ear","The mouth","The eye"],
        ans:"The eye",
        hint:"From Latin 'oculus.' Italians use this word as a warning: 'Occhio!' means 'Watch out!'"}
     ]},
@@ -163,9 +163,9 @@ const UNIT_09 = {
 
       // Quiz steps
       {type:"mc", q:"How do you say 'I have a headache' in Italian?",
-       opts:["Ho mal di testa","Ho la testa","Ho dolore","Sto testa"],
+       opts:["Ho mal di testa","Ho la testa (alone)","Ho dolore generico","Sto testa adesso"],
        ans:"Ho mal di testa",
-       hint:"Use the 'mal di...' pattern. 'Mal' (ache/pain) + 'di' (of) + body part. No article needed."},
+       hint:"Use a two-part pattern: pain-word + 'di' + body part. No article is needed in this construction."},
 
       {type:"fb", s:"Hai la {1}? Trentotto e mezzo.",
        a:["febbre"],
@@ -182,9 +182,9 @@ const UNIT_09 = {
       ]},
 
       {type:"mc", q:"What does 'stare male' mean?",
-       opts:["To feel ill","To be bad","To stay somewhere","To hurt someone"],
+       opts:["To be bad","To feel ill","To stay somewhere","To hurt someone"],
        ans:"To feel ill",
-       hint:"'Stare' is used for temporary physical states. The opposite is 'stare bene' (to feel well)."},
+       hint:"'Stare' is used for temporary physical states. The opposite is 'stare bene' (to f... well)."},
 
       {type:"fb", s:"Devo andare in {1}.",
        a:["farmacia"],
@@ -193,9 +193,9 @@ const UNIT_09 = {
        sSrc:"I need to go to the {1}."},
 
       {type:"mc", q:"Why do Italians fear 'colpo d'aria'?",
-       opts:["They believe cold drafts cause illness","It means a tornado","It is a medical term","It is a type of medicine"],
+       opts:["It is a serious medical term","It means a local tornado or windstorm","They believe cold drafts cause illness","It is a common type of herbal medicine"],
        ans:"They believe cold drafts cause illness",
-       hint:"Italian culture strongly links cold air exposure to getting sick. Drafts and wet hair are warned against."},
+       hint:"Italian culture strongly links air exposure to sickness. Wet hair and open windows are warned against."},
 
       {type:"fb", s:"Ho un brutto {1}. Bevi tanto e riposa.",
        a:["raffreddore"],
@@ -204,9 +204,9 @@ const UNIT_09 = {
        sSrc:"I have a bad {1}. Drink a lot and rest."},
 
       {type:"mc", q:"What is the 'mal di...' pattern in Italian?",
-       opts:["Pain/ache + body part","Bad + body part","My + body part","I feel + body part"],
+       opts:["I feel + body part (incorrect)","Bad + body part (incorrect)","My + body part (possessive)","Pain/ache + body part"],
        ans:"Pain/ache + body part",
-       hint:"'Mal' is a shortened form of 'male' (pain). Combine it with 'di' and the body part: testa, pancia, gola."}
+       hint:"'Mal' is a shortened form of 'male' (discomfort). Combine it with 'di' and a named location: testa, pancia, gola."}
     ]},
 
     {id:"itv2_u9l3", title:"Dal dottore", icon:"\uD83D\uDC68\u200D\u2695\uFE0F", xp:15, board:true, steps:[
@@ -264,9 +264,9 @@ const UNIT_09 = {
 
       // Quiz steps
       {type:"mc", q:"How do you say 'My shoulder hurts' in Italian?",
-       opts:["Mi fa male la spalla","Io male la spalla","Ho dolore spalla","La spalla e male"],
+       opts:["Mi fa male la spalla","Io male la spalla (wrong)","Ho dolore spalla (wrong)","La spalla e male (wrong)"],
        ans:"Mi fa male la spalla",
-       hint:"Use 'fare male' (to cause pain). The body part is the subject. 'Mi' means 'to me.'"},
+       hint:"The body part acts as the subject, and a pronoun shows who is affected. The verb expresses causing pain."},
 
       {type:"fb", s:"Ho {1} di un dottore.",
        a:["bisogno"],
@@ -283,9 +283,9 @@ const UNIT_09 = {
       ]},
 
       {type:"mc", q:"What is special about the word 'ricetta'?",
-       opts:["It means both prescription and recipe","It is irregular","It is masculine","It has no plural"],
+       opts:["It is grammatically irregular","It means both prescription and recipe","It is masculine (not feminine)","It has no plural form"],
        ans:"It means both prescription and recipe",
-       hint:"At the doctor, it is a medical document. In the kitchen, it is instructions for making a dish. Same word."},
+       hint:"Context determines the meaning. The doctor writes one. The cook follows one. Same Italian word for both."},
 
       {type:"fb", s:"Deve {1} e bere molto.",
        a:["riposare"],
@@ -294,9 +294,9 @@ const UNIT_09 = {
        sSrc:"You should {1} and drink a lot."},
 
       {type:"mc", q:"In Italy, who can be called 'dottore'?",
-       opts:["Anyone with a university degree","Only medical doctors","Only professors","Only surgeons"],
+       opts:["Only professors and educators","Only medical doctors exclusively","Anyone with a university degree","Only trained surgeons"],
        ans:"Anyone with a university degree",
-       hint:"This title is used much more broadly than in English. Lawyers, engineers, and more receive it."},
+       hint:"This title is used much more broadly than in English. Lawyers, engineers, and graduates can all receive it."},
 
       {type:"fb", s:"Vorrei prendere un {1}.",
        a:["appuntamento"],
@@ -305,9 +305,9 @@ const UNIT_09 = {
        sSrc:"I would like to make an {1}."},
 
       {type:"mc", q:"What pattern does 'guarire' follow in the present tense?",
-       opts:["The -isc- pattern (guarisco)","Regular -ire (guaro)","Irregular (guado)","The -are pattern (guaro)"],
+       opts:["The -are pattern (guaro)","Regular -ire no insert (guaro)","Fully irregular (guado)","The -isc- pattern (guarisco)"],
        ans:"The -isc- pattern (guarisco)",
-       hint:"Like 'capire' (capisco) and 'finire' (finisco), this verb adds -isc- in most present tense forms."}
+       hint:"Many -ire verbs insert an extra cluster between stem and ending in singular and 3rd plural forms. Capire does the same."}
     ]},
     EXP_09_L1, EXP_09_L2, EXP_09_L3,
   ]

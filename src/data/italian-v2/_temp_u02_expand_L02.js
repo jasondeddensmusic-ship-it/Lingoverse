@@ -124,7 +124,7 @@ const LESSON_4 = {
     {type:"mc", q:"What is special about 'Ferragosto'?",
      opts:["August 15th national holiday","A spring festival","New Year's Eve","A season name"],
      ans:"August 15th national holiday",
-     hint:"This mid-August date empties Italian cities as nearly everyone goes on vacation. Named after Emperor Augustus."},
+     hint:"This mid-summer date empties Italian cities as nearly everyone goes on vacation. Named after a Roman emperor."},
 
     {type:"fb", s:"Buon {1}! Tanti auguri!",
      a:["compleanno"],
@@ -135,7 +135,7 @@ const LESSON_4 = {
     {type:"mc", q:"Are Italian months capitalized?",
      opts:["No, they are lowercase","Yes, always","Only in formal writing","Only the first letter"],
      ans:"No, they are lowercase",
-     hint:"Unlike English, Italian months and days of the week are written in lowercase: gennaio, febbraio, marzo."}
+     hint:"Unlike English, Italian months and days of the week do not take a capital letter: gennaio, febbraio, marzo."}
   ]
 };
 export default LESSON_4;

@@ -78,7 +78,7 @@ const LESSON_5 = {
     {type:"mc", q:"Why is 'i capelli' always plural in Italian?",
      opts:["Italian treats hair as countable individual strands","It is an exception","It is a foreign word","It changes by region"],
      ans:"Italian treats hair as countable individual strands",
-     hint:"English treats 'hair' as a mass noun. Italian sees each strand as separate, hence the plural."},
+     hint:"English t... 'h...' as a mass noun. I... sees each strand as separate, hence the plural."},
 
     {type:"fb", s:"Ho i capelli {1} e gli occhi verdi.",
      a:["castani"],
@@ -113,13 +113,13 @@ const LESSON_5 = {
     {type:"fb", s:"Ha gli {1} verdi.",
      a:["occhi"],
      opts:["occhi","capelli","mani","denti"],
-     hint:"These are the organs of sight. Irregular plural of 'occhio.'",
+     hint:"These are the organs of sight. This noun has an unusual plural form that does not follow standard -io patterns.",
      sSrc:"She has green {1}."},
 
     {type:"mc", q:"Where does 'azzurro' come from?",
      opts:["Arabic (lapis lazuli stone)","Latin","Germanic","French"],
      ans:"Arabic (lapis lazuli stone)",
-     hint:"This light blue word entered Italian through the Arabic name for the blue gemstone used in pigments."},
+     hint:"This light blue word entered Italian through an A... borrowing, naming the mineral ground into blue pigment for Renaissance paintings."},
 
     {type:"fb", s:"Il nonno ha i capelli {1}.",
      a:["bianchi"],
@@ -130,7 +130,7 @@ const LESSON_5 = {
     {type:"mc", q:"What does 'sale e pepe' mean for hair?",
      opts:["Gray and white mixed (salt and pepper)","Blond","Red","Black"],
      ans:"Gray and white mixed (salt and pepper)",
-     hint:"This food metaphor describes hair that is a mix of dark and white strands, like a salt and pepper blend."}
+     hint:"This food metaphor describes a two-tone hair color: dark strands blended with lighter ones, like a well-known spice combination."}
   ]
 };
 export default LESSON_5;

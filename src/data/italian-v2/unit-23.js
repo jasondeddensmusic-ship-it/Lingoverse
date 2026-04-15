@@ -74,9 +74,9 @@ const UNIT_23 = {
       ]},
 
       {type:"mc", q:"Where does the word 'candidato' come from?",
-       opts:["Latin 'candidus' (white): Roman candidates wore white togas","Italian 'candela' (candle)","Greek 'kandidatos' (chosen one)","French 'candidat' (applicant)"],
+       opts:["Italian 'candela' (candle) for a bright personality","Latin 'candidus' (white): Roman candidates wore white togas","Greek 'kandidatos' (chosen one) in city assemblies","French 'candidat' (applicant) borrowed in medieval times"],
        ans:"Latin 'candidus' (white): Roman candidates wore white togas",
-       hint:"In ancient Rome, people running for office wore bright white to stand out. The word preserves this tradition."},
+       hint:"In ancient Rome, people running for office w... bright w... to stand out. The word preserves this tradition."},
 
       {type:"fb", s:"La nuova {1} entra in vigore domani.",
        a:["legge"],
@@ -85,9 +85,9 @@ const UNIT_23 = {
        sSrc:"The new {1} comes into effect tomorrow."},
 
       {type:"mc", q:"What does the Italian Constitution call voting?",
-       opts:["A civic duty (dovere civico)","A right only","A privilege","An obligation with fines"],
+       opts:["A privilege earned by tax payers","A guaranteed right only, nothing more","A civic duty (dovere civico)","A legal obligation with financial fines"],
        ans:"A civic duty (dovere civico)",
-       hint:"While not legally mandatory today, the Constitution frames voting as a duty. Historically, not voting could be noted on conduct certificates."},
+       hint:"While not legally mandatory today, the Constitution frames voting as a d.... Historically, not voting could be noted on conduct certificates."},
 
       {type:"fb", s:"Hai {1} alle ultime elezioni?",
        a:["votato"],
@@ -96,9 +96,9 @@ const UNIT_23 = {
        sSrc:"Did you {1} in the last elections?"},
 
       {type:"mc", q:"What is inscribed in every Italian courtroom?",
-       opts:["La legge e uguale per tutti (The law is equal for everyone)","Giustizia per tutti (Justice for all)","In nome del popolo (In the name of the people)","Verita e giustizia (Truth and justice)"],
+       opts:["Verita e giustizia (Truth and justice)","Giustizia per tutti (Justice for all)","In nome del popolo (In the name of the people)","La legge e uguale per tutti (The law is equal for everyone)"],
        ans:"La legge e uguale per tutti (The law is equal for everyone)",
-       hint:"This phrase reflects the constitutional principle of legal equality. It is displayed prominently in all courts."}
+       hint:"This constitutional phrase is displayed in all Italian courts. It establishes that no one's status shields them from justice."}
     ]},
 
     {id:"itv2_u23l2", title:"La societa civile", icon:"🤝", xp:15, board:true, steps:[
@@ -150,9 +150,9 @@ const UNIT_23 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'il cittadino' come from?",
-       opts:["Citta (city), reflecting ancient city-state citizenship","Citare (to cite)","Civile (civil)","Cittadella (citadel)"],
+       opts:["Citta (city), reflecting ancient city-state citizenship","Citare (to cite) in legal documents","Civile (civil) as an adjective form","Cittadella (citadel) the small fortified city"],
        ans:"Citta (city), reflecting ancient city-state citizenship",
-       hint:"Roman citizenship was originally tied to the city. 'Civis' (citizen) gave us 'civilization' and 'civil.'"},
+       hint:"Roman c... was originally tied to the c.... 'Civis' (citizen) gave us 'civilization' and 'civil.'"},
 
       {type:"fb", s:"Tutti hanno il {1} all'istruzione.",
        a:["diritto"],
@@ -169,9 +169,9 @@ const UNIT_23 = {
       ]},
 
       {type:"mc", q:"What does Article 3 of the Italian Constitution guarantee?",
-       opts:["Equality without distinction of sex, race, language, religion","Freedom of religion only","The right to bear arms","Free education for all"],
+       opts:["Freedom of religion as the sole focus","Equality without distinction of sex, race, language, religion","The right to bear arms and self-defense","Free public education for all Italian children"],
        ans:"Equality without distinction of sex, race, language, religion",
-       hint:"One of the most quoted constitutional articles. It also mandates the state to remove real obstacles to equality."},
+       hint:"One of the most quoted constitutional articles. It also mandates the state to remove real obstacles to e...."},
 
       {type:"fb", s:"L'{1} e un tema importante in Italia.",
        a:["immigrazione"],
@@ -180,9 +180,9 @@ const UNIT_23 = {
        sSrc:"{1} is an important topic in Italy."},
 
       {type:"mc", q:"What is a 'manifestazione' in civic life?",
-       opts:["A demonstration or public protest","A government meeting","A court trial","An election"],
+       opts:["A formal court hearing or trial","A closed session government meeting","A demonstration or public protest","A scheduled national election"],
        ans:"A demonstration or public protest",
-       hint:"Italy has a strong tradition of public protest. From 'manifestare' (to demonstrate). Often held in the main piazza."},
+       hint:"Italy has a strong tradition of p... p.... From 'manifestare' (to demonstrate). Often held in the main piazza."},
 
       {type:"fb", s:"C'e una {1} in piazza domani.",
        a:["manifestazione"],
@@ -191,7 +191,7 @@ const UNIT_23 = {
        sSrc:"There is a {1} in the square tomorrow."},
 
       {type:"mc", q:"How did Italy's role change regarding migration?",
-       opts:["From a country of emigration to one of immigration","It has always received immigrants","Italians never emigrated","It only sends emigrants"],
+       opts:["Italy has only ever sent emigrants abroad","It has always been a country receiving new arrivals","Italians have never emigrated in large numbers","From a country of emigration to one of immigration"],
        ans:"From a country of emigration to one of immigration",
        hint:"Millions of Italians emigrated to the Americas in the 1800s-1900s. The shift to receiving immigrants happened mainly after 1990."}
     ]},
@@ -245,7 +245,7 @@ const UNIT_23 = {
 
       // Quiz steps
       {type:"mc", q:"What makes Italian 'notizia' different from English 'news'?",
-       opts:["It is countable: una notizia, due notizie","It is always plural","It is uncountable","It only means good news"],
+       opts:["It is countable: una notizia, due notizie","It is always used only in the plural form of the noun","It is completely uncountable just like in English","It only refers to positive, upbeat good news"],
        ans:"It is countable: una notizia, due notizie",
        hint:"In English, 'news' cannot take a number. In Italian, you can count individual pieces of news."},
 
@@ -264,7 +264,7 @@ const UNIT_23 = {
       ]},
 
       {type:"mc", q:"What happens to opinion polls before Italian elections?",
-       opts:["They are banned for two weeks before voting","They are published more frequently","They are only shown on TV","Nothing changes"],
+       opts:["They are published more frequently than usual","They are banned for two weeks before voting","They are only permitted to be shown on TV","Nothing changes at all in Italy"],
        ans:"They are banned for two weeks before voting",
        hint:"The 'periodo di silenzio elettorale' prevents last-minute poll pressure on voters."},
 
@@ -275,9 +275,9 @@ const UNIT_23 = {
        sSrc:"How do you {1} about the news?"},
 
       {type:"mc", q:"Why must Italian journalists register with the Ordine dei Giornalisti?",
-       opts:["Italy treats journalism as a regulated profession like law","It is only for TV journalists","Registration is optional","To pay special taxes"],
+       opts:["Registration is completely optional in Italy","It is only required for broadcast TV journalists","Italy treats journalism as a regulated profession like law","To pay a separate professional income tax"],
        ans:"Italy treats journalism as a regulated profession like law",
-       hint:"Journalists pass a state exam and register professionally. This two-tier system distinguishes full-time and part-time journalists."},
+       hint:"There is a state exam and a two-tier register: full-time ('iscritto come titolare') and part-time ('collaboratore'). Similar to how doctors and notaries are certified."},
 
       {type:"fb", s:"Secondo i {1}, il partito e al 30%.",
        a:["sondaggi"],
@@ -286,9 +286,9 @@ const UNIT_23 = {
        sSrc:"According to the {1}, the party is at 30%."},
 
       {type:"mc", q:"What is 'la stampa' also known as in Italy?",
-       opts:["The name of a major Turin newspaper (since 1867)","A type of pasta","A printing technique only","A government office"],
+       opts:["A government press office","A traditional type of pasta shape","An old manual printing technique","The name of a major Turin newspaper (since 1867)"],
        ans:"The name of a major Turin newspaper (since 1867)",
-       hint:"One of Italy's oldest and most respected newspapers shares this generic word for 'the press.'"}
+       hint:"One of Italy's oldest and most respected dailies, founded in Piedmont's capital, shares its masthead with the Italian word for 'the press.'"}
     ]}
   ]
 };

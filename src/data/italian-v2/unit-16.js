@@ -80,7 +80,7 @@ const UNIT_16 = {
       ]},
 
       {type:"mc", q:"What does 'la ricetta' mean in a medical context?",
-       opts:["A prescription","A recipe","A receipt","A bill"],
+       opts:["A recipe","A prescription","A receipt","A bill"],
        ans:"A prescription",
        hint:"This word has two meanings: one medical (from the doctor) and one culinary (for cooking). Same word, different context."},
 
@@ -91,7 +91,7 @@ const UNIT_16 = {
        sSrc:"The {1} lasted a week in hospital."},
 
       {type:"mc", q:"Which Greek-origin words are invariable in Italian (same singular and plural)?",
-       opts:["la diagnosi, l'analisi, la crisi","il sintomo, il dottore, il medico","la terapia, la farmacia, la malattia","l'ospedale, il ricovero, l'intervento"],
+       opts:["la terapia, la farmacia, la malattia","il sintomo, il dottore, il medico","la diagnosi, l'analisi, la crisi","l'ospedale, il ricovero, l'intervento"],
        ans:"la diagnosi, l'analisi, la crisi",
        hint:"Feminine nouns of Greek origin ending in -i do not change in the plural. The article changes: la > le."},
 
@@ -102,9 +102,9 @@ const UNIT_16 = {
        sSrc:"What are the {1}? Fever, cough, and headache."},
 
       {type:"mc", q:"What color means 'immediate danger' in Italian ER triage?",
-       opts:["Red (rosso)","Yellow (giallo)","Green (verde)","White (bianco)"],
+       opts:["White (bianco)","Yellow (giallo)","Green (verde)","Red (rosso)"],
        ans:"Red (rosso)",
-       hint:"The triage system goes from most urgent to least: red, yellow, green, white. Red means life-threatening."}
+       hint:"The triage system goes from most urgent to least: r..., yellow, green, white. R... means life-threatening."}
     ]},
 
     {id:"itv2_u16l2", title:"Malattie e infortuni", icon:"🤕", xp:15, board:true, steps:[
@@ -181,7 +181,7 @@ const UNIT_16 = {
       ]},
 
       {type:"mc", q:"What temperature scale does Italy use for body temperature?",
-       opts:["Celsius (37 is normal)","Fahrenheit (98.6 is normal)","Kelvin","Rankine"],
+       opts:["Fahrenheit (98.6 is normal)","Celsius (37 is normal)","Kelvin","Rankine"],
        ans:"Celsius (37 is normal)",
        hint:"When an Italian says 'Ho trentotto e mezzo,' they mean 38.5 degrees on this scale."},
 
@@ -192,7 +192,7 @@ const UNIT_16 = {
        sSrc:"I have a throat {1}. It hurts."},
 
       {type:"mc", q:"What does 'il farmaco' mean?",
-       opts:["The medicine / drug","The pharmacy","The pharmacist","The farm"],
+       opts:["The pharmacist","The pharmacy","The medicine / drug","The farm"],
        ans:"The medicine / drug",
        hint:"From Greek 'pharmakon' (remedy). This is the medication itself, not the store where you buy it."},
 
@@ -203,9 +203,9 @@ const UNIT_16 = {
        sSrc:"Where do you feel the {1}?"},
 
       {type:"mc", q:"What is 'la ferita'?",
-       opts:["A wound / injury","A fever","A fracture","A prescription"],
+       opts:["A prescription","A fever","A fracture","A wound / injury"],
        ans:"A wound / injury",
-       hint:"From 'ferire' (to wound). It can be superficial (a scratch) or deep (needing stitches)."}
+       hint:"From 'ferire' (to w...). It can be superficial (a scratch) or deep (needing stitches)."}
     ]},
 
     {id:"itv2_u16l3", title:"Guarire e curarsi", icon:"💊", xp:15, board:true, steps:[
@@ -263,9 +263,9 @@ const UNIT_16 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'guarire' mean?",
-       opts:["To heal / to recover","To guard","To guarantee","To look"],
-       ans:"To heal / to recover",
-       hint:"This -ire verb (with -isc-) describes the process of getting well after illness or injury."},
+       opts:["To heal and recover fully","To guard a place","To make a guarantee","To look at something"],
+       ans:"To heal and recover fully",
+       hint:"This -ire verb (with -isc-) describes getting well again after illness or injury."},
 
       {type:"fb", s:"La situazione e {1}. Chiamiamo il dottore.",
        a:["peggiorata"],
@@ -293,9 +293,9 @@ const UNIT_16 = {
        sSrc:"The doctor {1} me antibiotics."},
 
       {type:"mc", q:"What does 'curarsi' mean?",
-       opts:["To take care of oneself","To be curious","To cure others","To run quickly"],
-       ans:"To take care of oneself",
-       hint:"The reflexive form of 'curare.' When you add '-si,' the action turns inward: you treat yourself."},
+       opts:["To cure other people","To become curious about things","To look after your own health","To run away quickly"],
+       ans:"To look after your own health",
+       hint:"The reflexive form of 'curare.' Adding '-si' turns the action inward: you treat yourself."},
 
       {type:"fb", s:"Come sta il {1}? Sta migliorando?",
        a:["paziente"],
@@ -304,9 +304,9 @@ const UNIT_16 = {
        sSrc:"How is the {1}? Is he improving?"},
 
       {type:"mc", q:"What do Italians say to wish someone a speedy recovery?",
-       opts:["Buona guarigione!","Buon appetito!","Buon viaggio!","Buona fortuna!"],
+       opts:["Buona fortuna!","Buon appetito!","Buon viaggio!","Buona guarigione!"],
        ans:"Buona guarigione!",
-       hint:"'Guarigione' means 'recovery' or 'healing.' This wish follows the Italian pattern of 'Buon/Buona + noun.'"}
+       hint:"'G...' means 'recovery' or 'healing.' This wish follows the Italian pattern of 'Buon/B... + noun.'"}
     ]}
   ]
 };

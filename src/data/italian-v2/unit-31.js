@@ -75,7 +75,7 @@ const UNIT_31 = {
 
       {type:"mc",
        q:"Che cos'e la 'cronaca nera'?",
-       opts:["La sezione del giornale dedicata ai crimini","Un tipo di censura governativa","Un editoriale pessimista","Un reportage fotografico in bianco e nero"],
+       opts:["Un tipo di censura governativa","La sezione del giornale dedicata ai crimini","Un editoriale pessimista","Un reportage fotografico in bianco e nero"],
        ans:"La sezione del giornale dedicata ai crimini",
        hint:"'Nera' means black. This newspaper section covers dark events: crime, accidents, and violence. A staple of Italian press."},
 
@@ -96,9 +96,9 @@ const UNIT_31 = {
 
       {type:"mc",
        q:"Perche l'Italia si colloca piu in basso del previsto nelle classifiche sulla liberta di stampa?",
-       opts:["Per la concentrazione dei media e le pressioni politiche","Perche non ci sono giornali in Italia","Perche i giornalisti italiani non sono qualificati","Perche gli italiani non leggono i giornali"],
+       opts:["Perche i giornalisti italiani non sono qualificati","Perche non ci sono giornali in Italia","Per la concentrazione dei media e le pressioni politiche","Perche gli italiani non leggono i giornali"],
        ans:"Per la concentrazione dei media e le pressioni politiche",
-       hint:"Media ownership concentrated in few hands and political pressure on newsrooms affect independence. Not about quality or readership."}
+       hint:"M... ownership concentrated in few hands and political pressure on newsrooms affect independence. Not about quality or readership."}
     ]},
 
     // ─── Lesson 2: Il mondo digitale ───
@@ -170,7 +170,7 @@ const UNIT_31 = {
 
       {type:"mc",
        q:"Quale paese europeo ha temporaneamente bloccato ChatGPT nel 2023?",
-       opts:["L'Italia","La Francia","La Germania","La Spagna"],
+       opts:["La Francia","L'Italia","La Germania","La Spagna"],
        ans:"L'Italia",
        hint:"The national privacy authority took action over data protection concerns, making this country the first in the EU to restrict the AI chatbot."},
 
@@ -191,7 +191,7 @@ const UNIT_31 = {
 
       {type:"mc",
        q:"Perche in Italia i 'creatori di contenuti' devono usare hashtag come '#adv'?",
-       opts:["Per indicare i contenuti sponsorizzati ai consumatori","Per aumentare le visualizzazioni","Per evitare la censura","Per rispettare l'algoritmo"],
+       opts:["Per evitare la censura","Per aumentare le visualizzazioni","Per indicare i contenuti sponsorizzati ai consumatori","Per rispettare l'algoritmo"],
        ans:"Per indicare i contenuti sponsorizzati ai consumatori",
        hint:"When content is paid for by a brand, transparency regulations require creators to label it. '#adv' stands for advertising."}
     ]},
@@ -259,7 +259,7 @@ const UNIT_31 = {
 
       {type:"mc",
        q:"Da dove viene originariamente la parola 'propaganda'?",
-       opts:["Dalla Chiesa Cattolica, che creo un organo per diffondere la fede","Dalla prima guerra mondiale","Dal mondo della pubblicita commerciale","Dalla rivoluzione francese"],
+       opts:["Dalla prima guerra mondiale","Dalla Chiesa Cattolica, che creo un organo per diffondere la fede","Dal mondo della pubblicita commerciale","Dalla rivoluzione francese"],
        ans:"Dalla Chiesa Cattolica, che creo un organo per diffondere la fede",
        hint:"The Vatican created an organization in 1622 to spread Catholicism worldwide. Its name gave us the modern term for organized information campaigns."},
 
@@ -280,7 +280,7 @@ const UNIT_31 = {
 
       {type:"mc",
        q:"Perche conviene leggere giornali con posizioni politiche diverse?",
-       opts:["Per avere una visione piu completa e ridurre il pregiudizio mediatico","Perche tutti i giornali mentono","Per trovare le notizie piu divertenti","Perche la legge lo richiede"],
+       opts:["Per trovare le notizie piu divertenti","Perche tutti i giornali mentono","Per avere una visione piu completa e ridurre il pregiudizio mediatico","Perche la legge lo richiede"],
        ans:"Per avere una visione piu completa e ridurre il pregiudizio mediatico",
        hint:"Every newspaper has some bias. Reading multiple perspectives gives you a fuller picture and helps counteract one-sided information."}
     ]}

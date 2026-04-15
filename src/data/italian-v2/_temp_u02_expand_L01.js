@@ -101,7 +101,7 @@ const LESSON_3 = {
     {type:"mc", q:"What is the gender of 'mezzanotte'?",
      opts:["Feminine","Masculine","Neutral","It varies"],
      ans:"Feminine",
-     hint:"Compound nouns take the gender of their last element. 'Notte' is feminine, so the compound is too."},
+     hint:"Compound nouns take the gender of their last element. 'Notte' is f..., so the compound is too."},
 
     {type:"fb", s:"Il treno parte alle sei {1}.",
      a:["in punto"],
@@ -120,7 +120,7 @@ const LESSON_3 = {
     {type:"mc", q:"How do you say 'quarter to eight'?",
      opts:["Le otto meno un quarto","Le otto e un quarto","Le sette e un quarto","Le otto meno mezza"],
      ans:"Le otto meno un quarto",
-     hint:"Subtract from the next hour. 'Meno' means minus. A quarter of an hour before eight."},
+     hint:"Subtract from the next hour. 'M...' means minus. A quarter of an hour before eight."},
 
     {type:"fb", s:"Mi sveglio {1} la mattina, alle sei.",
      a:["presto"],
@@ -131,7 +131,7 @@ const LESSON_3 = {
     {type:"mc", q:"What does 'il Mezzogiorno' mean when capitalized?",
      opts:["Southern Italy","Noon exactly","Midday meal","A city"],
      ans:"Southern Italy",
-     hint:"Capitalized, this word becomes a geographic term. It refers to the part of Italy facing the sun at its peak."},
+     hint:"Capitalized, this word becomes a geographic term. It refers to the part of I... facing the sun at its peak."},
 
     {type:"fb", s:"Cosa fai {1}?",
      a:["stasera"],
@@ -142,7 +142,7 @@ const LESSON_3 = {
     {type:"mc", q:"What does 'tardi' mean?",
      opts:["Late","Early","Soon","Always"],
      ans:"Late",
-     hint:"The opposite of 'presto.' 'Fare tardi' means to arrive late or to stay out late."}
+     hint:"The opposite of 'presto.' 'Fare tardi' describes someone who does not arrive on time or stays out past a reasonable hour."}
   ]
 };
 export default LESSON_3;

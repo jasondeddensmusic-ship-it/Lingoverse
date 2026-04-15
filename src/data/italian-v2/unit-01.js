@@ -105,7 +105,7 @@ const UNIT_01 = {
        hint:"This greeting is used from morning until early afternoon. It combines 'good' and 'day.'"},
 
       {type:"mc", q:"Quale saluto usi con gli amici?",
-       opts:["Arrivederci","Buonasera","Ciao","Come sta?"],
+       opts:["Arrivederci","Ciao","Buonasera","Come sta?"],
        ans:"Ciao",
        hint:"The most casual, universal Italian greeting. Works for both hello and goodbye with friends."},
 
@@ -116,7 +116,7 @@ const UNIT_01 = {
        sSrc:"Good morning! How {1} you? (formal)"},
 
       {type:"mc", q:"Cosa rispondi quando qualcuno dice 'grazie'?",
-       opts:["Scusa","Prego","Bene","Ciao"],
+       opts:["Scusa","Bene","Prego","Ciao"],
        ans:"Prego",
        hint:"The standard Italian response to thanks. Also used when offering something or inviting someone in."},
 
@@ -134,7 +134,7 @@ const UNIT_01 = {
       ]},
 
       {type:"mc", q:"'Buonanotte' si dice quando...",
-       opts:["vai a dormire","arrivi al lavoro","incontri un amico","ordini un caffe"],
+       opts:["ordini un caffe","arrivi al lavoro","incontri un amico","vai a dormire"],
        ans:"vai a dormire",
        hint:"This greeting involves nighttime. Think about when you would wish someone a good night."},
 
@@ -223,7 +223,7 @@ const UNIT_01 = {
        sSrc:"Where are you {1}?"},
 
       {type:"mc", q:"Quale frase e corretta per dire la tua professione?",
-       opts:["Sono insegnante","Sono un insegnante","Ho insegnante","Faccio l'insegnante"],
+       opts:["Sono un insegnante","Sono insegnante","Ho insegnante","Faccio l'insegnante"],
        ans:"Sono insegnante",
        hint:"In Italian, professions with essere do not use an article. Just verb + profession."},
 
@@ -241,7 +241,7 @@ const UNIT_01 = {
        sSrc:"I {1} Italian and a little French."},
 
       {type:"mc", q:"Cosa significa 'un po''?",
-       opts:["a little","a lot","very much","nothing"],
+       opts:["very much","a lot","a little","nothing"],
        ans:"a little",
        hint:"This is a shortened form of 'poco.' The apostrophe marks the dropped letters."},
     ]},

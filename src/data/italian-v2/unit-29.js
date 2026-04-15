@@ -69,7 +69,7 @@ const UNIT_29 = {
 
       {type:"mc",
        q:"Che cosa ha scoperto Giacomo Rizzolatti?",
-       opts:["I neuroni specchio","L'inconscio collettivo","La terapia cognitiva","Il test di intelligenza"],
+       opts:["L'inconscio collettivo","I neuroni specchio","La terapia cognitiva","Il test di intelligenza"],
        ans:"I neuroni specchio",
        hint:"Brain cells that fire both when we perform an action and when we watch someone else do it. They may explain our capacity for empathy."},
 
@@ -90,7 +90,7 @@ const UNIT_29 = {
 
       {type:"mc",
        q:"Che differenza c'e tra 'coscienza' come consapevolezza e 'coscienza' come senso morale?",
-       opts:["In italiano si usa la stessa parola per entrambi i significati","Sono due parole diverse in italiano","La coscienza morale si scrive diversamente","Non esiste differenza in nessuna lingua"],
+       opts:["La coscienza morale si scrive diversamente","Sono due parole diverse in italiano","In italiano si usa la stessa parola per entrambi i significati","Non esiste differenza in nessuna lingua"],
        ans:"In italiano si usa la stessa parola per entrambi i significati",
        hint:"Italian uses a single word where English has two separate ones. Context tells you whether awareness or moral sense is meant."}
     ]},
@@ -164,9 +164,9 @@ const UNIT_29 = {
 
       {type:"mc",
        q:"Quale legge italiana del 1978 chiuse tutti i manicomi?",
-       opts:["La Legge Basaglia","La Legge sulla Resilienza","La Legge sul Benessere","La Legge sull'Autostima"],
+       opts:["La Legge sulla Resilienza","La Legge Basaglia","La Legge sul Benessere","La Legge sull'Autostima"],
        ans:"La Legge Basaglia",
-       hint:"Named after psychiatrist Franco Basaglia, this revolutionary law made Italy the first country to close all psychiatric institutions."},
+       hint:"Named after psychiatrist Franco B..., this revolutionary law made Italy the first country to close all psychiatric institutions."},
 
       {type:"match", pairs:[
         {trg:"ansia", src:"anxiety"},
@@ -185,7 +185,7 @@ const UNIT_29 = {
 
       {type:"mc",
        q:"Che cos'e la 'consapevolezza di se'?",
-       opts:["La capacita di conoscere i propri pensieri e sentimenti","Un tipo di ansia sociale","Una tecnica di studio efficace","Un disturbo della personalita"],
+       opts:["Una tecnica di studio efficace","Un tipo di ansia sociale","La capacita di conoscere i propri pensieri e sentimenti","Un disturbo della personalita"],
        ans:"La capacita di conoscere i propri pensieri e sentimenti",
        hint:"Knowing and understanding your own thoughts, emotions, and motivations. The first step toward personal growth and change."}
     ]},
@@ -259,7 +259,7 @@ const UNIT_29 = {
 
       {type:"mc",
        q:"Perche la parola italiana 'influenza' significa anche una malattia?",
-       opts:["Perche nel Medioevo si credeva che le malattie fossero causate dall'influenza delle stelle","Perche i malati influenzano gli altri","Perche la parola fu inventata da un medico","Perche il virus fu scoperto in Italia"],
+       opts:["Perche i malati influenzano gli altri","Perche nel Medioevo si credeva che le malattie fossero causate dall'influenza delle stelle","Perche la parola fu inventata da un medico","Perche il virus fu scoperto in Italia"],
        ans:"Perche nel Medioevo si credeva che le malattie fossero causate dall'influenza delle stelle",
        hint:"Medieval Italian astrologers connected the stars to disease. They believed celestial bodies had a direct effect on human health."},
 
@@ -280,7 +280,7 @@ const UNIT_29 = {
 
       {type:"mc",
        q:"Che cos'e l'ascolto attivo?",
-       opts:["Ascoltare con attenzione, dando segnali di comprensione","Ascoltare solo quando si e interessati","Rispondere immediatamente senza pensare","Ignorare il linguaggio non verbale"],
+       opts:["Rispondere immediatamente senza pensare","Ascoltare solo quando si e interessati","Ascoltare con attenzione, dando segnali di comprensione","Ignorare il linguaggio non verbale"],
        ans:"Ascoltare con attenzione, dando segnali di comprensione",
        hint:"A communication technique where you fully concentrate on the speaker and show understanding. More than just hearing words."}
     ]}

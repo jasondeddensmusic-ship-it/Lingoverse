@@ -64,7 +64,7 @@ const UNIT_07 = {
       {type:"mc", q:"What is 'il primo' at an Italian restaurant?",
        opts:["The first course (pasta/risotto)","The appetizer","The main course","The dessert"],
        ans:"The first course (pasta/risotto)",
-       hint:"This is the course that comes after the antipasto. It is where you find pasta, risotto, and soup."},
+       hint:"This is the c... that comes after the antipasto. It is where you find p..., r..., and soup."},
 
       {type:"fb", s:"Posso vedere il {1}?",
        a:["menu"],
@@ -81,7 +81,7 @@ const UNIT_07 = {
       ]},
 
       {type:"mc", q:"What does 'il contorno' mean?",
-       opts:["The side dish","The main course","The bill","The menu"],
+       opts:["The main course","The side dish","The bill","The menu"],
        ans:"The side dish",
        hint:"In Italy, vegetables and salad do not come with the main course. You must request them separately."},
 
@@ -92,7 +92,7 @@ const UNIT_07 = {
        sSrc:"Are you ready to {1}?"},
 
       {type:"mc", q:"What does 'il dolce' literally mean?",
-       opts:["The sweet","The plate","The first","The end"],
+       opts:["The first","The plate","The sweet","The end"],
        ans:"The sweet",
        hint:"This word is both a noun (dessert) and an adjective. It describes a sugary taste, opposite of 'amaro.'"},
 
@@ -103,7 +103,7 @@ const UNIT_07 = {
        sSrc:"What is the {1} of the day?"},
 
       {type:"mc", q:"Which course at an Italian meal is typically meat or fish?",
-       opts:["Il secondo","Il primo","L'antipasto","Il contorno"],
+       opts:["Il contorno","Il primo","L'antipasto","Il secondo"],
        ans:"Il secondo",
        hint:"This comes after the pasta course. It is the protein-based main dish, served on its own plate."}
     ]},
@@ -182,9 +182,9 @@ const UNIT_07 = {
       ]},
 
       {type:"mc", q:"What is the 'coperto' in an Italian restaurant?",
-       opts:["A cover charge per person","The tip for the waiter","The tax on food","The price of dessert"],
+       opts:["The tip left for the waiter","A cover charge per person","The tax applied to food","The price of dessert alone"],
        ans:"A cover charge per person",
-       hint:"This is a standard charge of 1-3 euros added to your bill. It is not the same as a voluntary tip."},
+       hint:"This standard fee of 1-3 euros appears on your bill automatically. It is not the same as a voluntary tip."},
 
       {type:"fb", s:"Un {1} d'acqua, per favore.",
        a:["bicchiere"],
@@ -193,7 +193,7 @@ const UNIT_07 = {
        sSrc:"A {1} of water, please."},
 
       {type:"mc", q:"What does 'consigliare' mean?",
-       opts:["To recommend","To order","To reserve","To pay"],
+       opts:["To reserve (book ahead)","To order (from a menu)","To recommend","To pay (settle the bill)"],
        ans:"To recommend",
        hint:"From Latin 'consilium' (counsel). You use this verb to ask the waiter what dish is best today."},
 
@@ -204,7 +204,7 @@ const UNIT_07 = {
        sSrc:"Can you bring me a {1}?"},
 
       {type:"mc", q:"What will the waiter ask about water in Italy?",
-       opts:["Naturale o frizzante?","Calda o fredda?","Grande o piccola?","Dolce o amara?"],
+       opts:["Dolce o amara? (sweet/bitter)","Calda o fredda? (hot/cold)","Grande o piccola? (size)","Naturale o frizzante?"],
        ans:"Naturale o frizzante?",
        hint:"Italian restaurants serve bottled water. You choose between still or sparkling."}
     ]},
@@ -283,7 +283,7 @@ const UNIT_07 = {
       ]},
 
       {type:"mc", q:"What is the opposite of 'dolce' in describing taste?",
-       opts:["Amaro","Fresco","Cotto","Leggero"],
+       opts:["Fresco","Amaro","Cotto","Leggero"],
        ans:"Amaro",
        hint:"Sweet versus this taste. This word is also the name of a category of Italian herbal liqueurs."},
 
@@ -294,7 +294,7 @@ const UNIT_07 = {
        sSrc:"I would like something {1}."},
 
       {type:"mc", q:"What does 'saporito' mean?",
-       opts:["Tasty / flavorful","Soapy","Spicy","Salty"],
+       opts:["Spicy","Soapy","Tasty / flavorful","Salty"],
        ans:"Tasty / flavorful",
        hint:"From 'sapore' (flavor). English 'savor' shares this Latin root. It describes food with good taste."},
 
@@ -305,9 +305,9 @@ const UNIT_07 = {
        sSrc:"Is the fish {1}? It arrives every morning."},
 
       {type:"mc", q:"How do you say 'well done' for steak in Italian?",
-       opts:["Ben cotto","Ben crudo","Molto fresco","Molto piccante"],
+       opts:["Molto piccante","Ben crudo","Molto fresco","Ben cotto"],
        ans:"Ben cotto",
-       hint:"'Ben' means 'well.' The second word means 'cooked.' Together: thoroughly cooked."}
+       hint:"The adverb meaning 'thoroughly' combines with the past participle of 'cuocere.' No pink left inside."}
     ]},
     EXP_07_L1, EXP_07_L2, EXP_07_L3,
   ]

@@ -54,9 +54,9 @@ const UNIT_12 = {
 
       // Quiz steps
       {type:"mc", q:"Why does the past participle change with 'essere'?",
-       opts:["It must agree with the subject in gender and number","It is always irregular","It stays the same","It agrees with the object"],
+       opts:["It must agree with the subject in gender and number","It is always irregular regardless of the subject used","It stays the same no matter who the speaker is","It agrees with the direct object, not the subject"],
        ans:"It must agree with the subject in gender and number",
-       hint:"Male: -o, female: -a, male/mixed plural: -i, all-female plural: -e. The subject determines the ending."},
+       hint:"Male: -o, female: -a, male/mixed plural: -i, all-female plural: -e. The ending shifts based on who is doing the action."},
 
       {type:"fb", s:"Dove sei {1} ieri?",
        a:["andato"],
@@ -73,7 +73,7 @@ const UNIT_12 = {
       ]},
 
       {type:"mc", q:"Which helper verb does 'arrivare' use in the past?",
-       opts:["Essere","Avere","Stare","Fare"],
+       opts:["Avere","Essere","Stare","Fare"],
        ans:"Essere",
        hint:"Movement verbs with a destination use this helper. 'Sono arrivato' not 'ho arrivato.'"},
 
@@ -84,7 +84,7 @@ const UNIT_12 = {
        sSrc:"Marco {1} left for Rome."},
 
       {type:"mc", q:"A woman says 'I went to Rome.' Which is correct?",
-       opts:["Sono andata a Roma","Sono andato a Roma","Ho andata a Roma","Ho andato a Roma"],
+       opts:["Ho andata a Roma","Sono andato a Roma","Sono andata a Roma","Ho andato a Roma"],
        ans:"Sono andata a Roma",
        hint:"Female speaker, so the participle ends in -a. The verb uses essere, not avere."},
 
@@ -95,9 +95,9 @@ const UNIT_12 = {
        sSrc:"We {1} back last night."},
 
       {type:"mc", q:"What memory trick helps remember which verbs use essere?",
-       opts:["House model: entering, leaving, going up/down use essere","All irregular verbs use essere","Only andare uses essere","Verbs ending in -ire use essere"],
+       opts:["Only verbs ending in -ire automatically use essere","All Italian irregular verbs automatically use essere","Only 'andare' uses essere and absolutely no other Italian verbs do","House model: entering, leaving, going up/down use essere"],
        ans:"House model: entering, leaving, going up/down use essere",
-       hint:"Picture a house. Movement around it (enter, exit, arrive, depart, go up, come down) takes essere."}
+       hint:"Picture a building. Verbs describing movement around it (enter, exit, arrive, depart) take the same helper."}
     ]},
 
     {id:"itv2_u12l2", title:"Verbi di movimento", icon:"\uD83C\uDFC3", xp:15, board:true, steps:[
@@ -174,7 +174,7 @@ const UNIT_12 = {
       ]},
 
       {type:"mc", q:"What is the irregular past participle of 'scendere'?",
-       opts:["Sceso","Scenduto","Scendato","Scendito"],
+       opts:["Scenduto","Sceso","Scendato","Scendito"],
        ans:"Sceso",
        hint:"This participle is irregular, not following any standard pattern. From Latin 'descendere.'"},
 
@@ -185,7 +185,7 @@ const UNIT_12 = {
        sSrc:"Do you want to {1} tonight?"},
 
       {type:"mc", q:"What does 'salire sull'autobus' mean?",
-       opts:["To get on the bus","To drive the bus","To see the bus","To wait for the bus"],
+       opts:["To see the bus","To drive the bus","To get on the bus","To wait for the bus"],
        ans:"To get on the bus",
        hint:"This verb means to go up or to board. You climb aboard the vehicle."},
 
@@ -196,7 +196,7 @@ const UNIT_12 = {
        sSrc:"What time do you {1} home?"},
 
       {type:"mc", q:"What is the opposite of 'salire'?",
-       opts:["Scendere","Partire","Uscire","Tornare"],
+       opts:["Tornare","Partire","Uscire","Scendere"],
        ans:"Scendere",
        hint:"One means to go up, the other to go down. They form a natural pair, both using essere."}
     ]},
@@ -256,7 +256,7 @@ const UNIT_12 = {
       {type:"mc", q:"A woman says she went to the cinema. Which is correct?",
        opts:["Sono andata al cinema","Sono andato al cinema","Ho andata al cinema","Ha andato al cinema"],
        ans:"Sono andata al cinema",
-       hint:"Female speaker = -a ending. Movement verb = essere (not avere). First person = sono."},
+       hint:"Female speaker = -a ending. Movement verb = essere (not avere). First person = s...."},
 
       {type:"fb", s:"Marco e Luca sono {1} a scuola.",
        a:["andati"],
@@ -273,9 +273,9 @@ const UNIT_12 = {
       ]},
 
       {type:"mc", q:"Marco and Maria went to Rome. Which ending?",
-       opts:["Sono andati (masculine plural)","Sono andate (feminine plural)","Sono andato (masculine singular)","Sono andata (feminine singular)"],
+       opts:["Sono andate (feminine plural)","Sono andati (masculine plural)","Sono andato (masculine singular)","Sono andata (feminine singular)"],
        ans:"Sono andati (masculine plural)",
-       hint:"Mixed group (one male, one female) always uses the masculine plural ending. This is the Italian grammar rule."},
+       hint:"Mixed group (one male, one female) always uses the m... p... ending. This is the Italian grammar rule."},
 
       {type:"fb", s:"Dove sei {1}?",
        a:["nata"],
@@ -284,9 +284,9 @@ const UNIT_12 = {
        sSrc:"Where were you {1}?"},
 
       {type:"mc", q:"What is unusual about the past tense of 'essere'?",
-       opts:["It uses itself as its own helper verb","It uses avere","It has no past tense","It does not agree"],
+       opts:["It has no past tense form at all in Italian","It unexpectedly uses avere as its helper verb","It uses itself as its own helper verb","It does not agree with the subject gender"],
        ans:"It uses itself as its own helper verb",
-       hint:"'Sono stato' uses 'sono' (essere) + 'stato' (past participle of essere). Essere helps itself."},
+       hint:"'Sono stato' combines 'sono' (essere) + 'stato' (past participle of essere). This makes 'essere' both the auxiliary AND the word being put into the past."},
 
       {type:"fb", s:"Sono {1} a casa. Stavo male.",
        a:["rimasto"],
@@ -295,9 +295,9 @@ const UNIT_12 = {
        sSrc:"I {1} home. I felt ill."},
 
       {type:"mc", q:"When do you use the -e plural ending (andate)?",
-       opts:["Only when ALL subjects are female","For any plural group","For mixed groups","For formal speech"],
+       opts:["For formal or polite speech","For any plural group of people","For any mixed group with both genders","Only when ALL subjects are female"],
        ans:"Only when ALL subjects are female",
-       hint:"Even one male in the group switches the ending to -i. The -e ending requires every person to be female."}
+       hint:"Even one person of the opposite gender forces the ending to switch to -i. The -e ending requires complete uniformity in the group."}
     ]},
     EXP_12_L1, EXP_12_L2, EXP_12_L3,
   ]

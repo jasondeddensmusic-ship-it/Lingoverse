@@ -61,8 +61,8 @@ const UNIT_18 = {
 
       // Quiz steps
       {type:"mc", q:"What is 'l'inquinamento'?",
-       opts:["Pollution","Recycling","Energy","Waste"],
-       ans:"Pollution",
+       opts:["Pollution or contamination","Sorting and recycling materials","Renewable energy","Rubbish or waste"],
+       ans:"Pollution or contamination",
        hint:"From 'inquinare' (to pollute). Northern Italy's Po Valley has some of Europe's worst air quality."},
 
       {type:"fb", s:"Dobbiamo {1} l'ambiente.",
@@ -80,9 +80,9 @@ const UNIT_18 = {
       ]},
 
       {type:"mc", q:"What is 'la raccolta differenziata'?",
-       opts:["Sorted waste collection / recycling","A type of farming","A collection of art","A different opinion"],
-       ans:"Sorted waste collection / recycling",
-       hint:"This is the Italian system of separating waste into colored bins: blue for paper, yellow for plastic, brown for organic."},
+       opts:["A traditional method of rotating organic crops","Separated and sorted rubbish collection","An art gallery collection and curation system","A political difference of opinion on policy"],
+       ans:"Separated and sorted rubbish collection",
+       hint:"This is the Italian system of separating materials into colored bins: blue for paper, yellow for plastic, brown for organic."},
 
       {type:"fb", s:"L'Italia investe nell'energia {1}.",
        a:["rinnovabile"],
@@ -91,9 +91,9 @@ const UNIT_18 = {
        sSrc:"Italy invests in {1} energy."},
 
       {type:"mc", q:"What does 'riciclare' mean?",
-       opts:["To recycle","To refuse","To reduce","To reuse"],
-       ans:"To recycle",
-       hint:"From French 'recycler.' Italy has one of Europe's highest recycling rates. The noun is 'il riciclaggio.'"},
+       opts:["To reduce overall consumption of resources","To refuse something offered","To process used materials again","To reuse an old object"],
+       ans:"To process used materials again",
+       hint:"From French 'recycler.' Italy has one of Europe's highest rates of this. The noun is 'il riciclaggio.'"},
 
       {type:"fb", s:"Dove butto i {1}? Plastica o carta?",
        a:["rifiuti"],
@@ -102,9 +102,9 @@ const UNIT_18 = {
        sSrc:"Where do I throw the {1}? Plastic or paper?"},
 
       {type:"mc", q:"Which region of Italy has the worst air quality?",
-       opts:["The Po Valley (northern Italy)","Sicily","Sardinia","The Amalfi Coast"],
-       ans:"The Po Valley (northern Italy)",
-       hint:"The Alps trap pollution from industry and traffic. Milan regularly exceeds EU pollution limits."}
+       opts:["The coastal Amalfi region","The island of Sicily","The island of Sardinia","The Po Valley in the north"],
+       ans:"The Po Valley in the north",
+       hint:"The Alps trap pollution from industry and traffic in this flat basin. Milan regularly exceeds EU pollution limits."}
     ]},
 
     {id:"itv2_u18l2", title:"Il cambiamento climatico", icon:"🌡️", xp:15, board:true, steps:[
@@ -162,9 +162,9 @@ const UNIT_18 = {
 
       // Quiz steps
       {type:"mc", q:"What is 'l'effetto serra'?",
-       opts:["The greenhouse effect","The butterfly effect","The domino effect","The placebo effect"],
-       ans:"The greenhouse effect",
-       hint:"'Serra' means greenhouse (for plants). Gases trap heat like glass in a greenhouse. 'Gas serra' = greenhouse gases."},
+       opts:["The classic greenhouse gas warming effect","The butterfly effect in chaos theory","The domino chain reaction effect","The placebo effect in medicine"],
+       ans:"The classic greenhouse gas warming effect",
+       hint:"'Serra' means the structure used to grow plants in winter. Atmospheric CO2 traps heat the same way the glass roof does."},
 
       {type:"fb", s:"Dobbiamo ridurre le {1} di CO2.",
        a:["emissioni"],
@@ -181,8 +181,8 @@ const UNIT_18 = {
       ]},
 
       {type:"mc", q:"What is happening to Italian Alpine glaciers?",
-       opts:["They have lost over 60% of their volume since 1850","They are growing larger","They are unchanged","They have moved south"],
-       ans:"They have lost over 60% of their volume since 1850",
+       opts:["They are growing much larger each year","They have retreated dramatically since 1850","They remain completely unchanged so far","They are slowly shifting southward"],
+       ans:"They have retreated dramatically since 1850",
        hint:"The Marmolada glacier is nearly gone. Scientists predict many will disappear entirely within decades."},
 
       {type:"fb", s:"Lo {1} dei ghiacciai e accelerato.",
@@ -192,7 +192,7 @@ const UNIT_18 = {
        sSrc:"The {1} of glaciers has accelerated."},
 
       {type:"mc", q:"What is the past participle of 'ridurre'?",
-       opts:["Ridotto","Riduto","Ridurso","Riducito"],
+       opts:["Ridurso","Riduto","Ridotto","Riducito"],
        ans:"Ridotto",
        hint:"Like produrre > prodotto and tradurre > tradotto, this -durre verb follows the -otto pattern."},
 
@@ -203,9 +203,9 @@ const UNIT_18 = {
        sSrc:"The {1} is destroying the crops. It has not rained for months."},
 
       {type:"mc", q:"What is the 'MOSE' system?",
-       opts:["A barrier protecting Venice from floods","A recycling program in Rome","A solar energy project in Sicily","A water purification plant in Milan"],
-       ans:"A barrier protecting Venice from floods",
-       hint:"This engineering project protects Venice from 'acqua alta' (high water). It was completed after decades of construction."}
+       opts:["A water treatment facility in Milan","A city recycling scheme in Rome","A solar energy installation in Sicily","A flood barrier system in Venice"],
+       ans:"A flood barrier system in Venice",
+       hint:"This engineering project protects V... from 'acqua alta' (high water). Completed after decades of construction."},
     ]},
 
     {id:"itv2_u18l3", title:"Agire per il pianeta", icon:"♻️", xp:15, board:true, steps:[
@@ -263,9 +263,9 @@ const UNIT_18 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'sprecare' mean?",
-       opts:["To waste","To save","To recycle","To protect"],
-       ans:"To waste",
-       hint:"The opposite of 'risparmiare' (to save). Italy wastes about 65 kg of food per person per year."},
+       opts:["To use resources carelessly","To save or conserve something","To process used materials again","To shield from harm"],
+       ans:"To use resources carelessly",
+       hint:"The opposite of 'risparmiare' (to conserve). Italy loses about 65 kg of food per person per year this way."},
 
       {type:"fb", s:"Come possiamo {1} energia?",
        a:["risparmiare"],
@@ -282,9 +282,9 @@ const UNIT_18 = {
       ]},
 
       {type:"mc", q:"What is 'la raccolta differenziata'?",
-       opts:["Sorted waste collection (recycling)","A type of farming","A music collection","A different opinion"],
+       opts:["A type of farming","Sorted waste collection (recycling)","A music collection","A different opinion"],
        ans:"Sorted waste collection (recycling)",
-       hint:"Italians separate waste into colored bins. Rules vary by city. 'Dove lo butto?' is the eternal question."},
+       hint:"Italians separate w... into colored bins. Rules vary by city. 'Dove lo butto?' is the eternal question."},
 
       {type:"fb", s:"Avete installato i {1} solari sul tetto?",
        a:["pannelli"],
@@ -293,9 +293,9 @@ const UNIT_18 = {
        sSrc:"Did you install {1} on the roof?"},
 
       {type:"mc", q:"What does 'sensibilizzare' mean?",
-       opts:["To raise awareness","To be sensitive","To simplify","To sanitize"],
-       ans:"To raise awareness",
-       hint:"From 'sensibile' (aware). This verb means to make people aware of an important issue. Schools play a key role."},
+       opts:["To make something simpler","To feel sensitivity toward others","To raise public awareness","To clean and sanitize a surface"],
+       ans:"To raise public awareness",
+       hint:"From 'sensibile' (aware). This verb means to make people alert to an important issue. Schools play a key role."},
 
       {type:"fb", s:"Le fabbriche {1} il fiume.",
        a:["inquinano"],
@@ -304,9 +304,9 @@ const UNIT_18 = {
        sSrc:"The factories {1} the river."},
 
       {type:"mc", q:"What is 'l'impronta ecologica'?",
-       opts:["The ecological footprint","A fingerprint","An eco-friendly stamp","A recycling symbol"],
-       ans:"The ecological footprint",
-       hint:"'Impronta' means footprint or mark. This measures the environmental impact of a person's lifestyle."}
+       opts:["A government recycling symbol","A biometric fingerprint scan","An eco-friendly product stamp","A measure of environmental impact per person"],
+       ans:"A measure of environmental impact per person",
+       hint:"'Impronta' means any kind of mark or print. 'Ecologica' points to the natural world. It quantifies how much of the planet you consume."}
     ]}
   ]
 };

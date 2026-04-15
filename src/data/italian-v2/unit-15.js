@@ -61,9 +61,9 @@ const UNIT_15 = {
 
       // Quiz steps
       {type:"mc", q:"What is a 'bilocale'?",
-       opts:["A two-room apartment (living room + bedroom)","A two-story house","A house with two bathrooms","A two-car garage"],
+       opts:["A two-room apartment (living room + bedroom)","A two-story house with a garden","A house that has exactly two bathrooms","An apartment with a two-car underground garage"],
        ans:"A two-room apartment (living room + bedroom)",
-       hint:"Italian housing counts rooms, not bedrooms. 'Bi' means two, 'locale' means room. Kitchen and bathroom are not counted."},
+       hint:"Italian housing counts the number of locali. 'Bi' means 2, and the kitchen plus toilet facilities are excluded."},
 
       {type:"fb", s:"Quanto paghi di {1} al mese?",
        a:["affitto"],
@@ -80,7 +80,7 @@ const UNIT_15 = {
       ]},
 
       {type:"mc", q:"What does 'il proprietario' mean?",
-       opts:["The landlord / owner","The tenant","The neighbor","The real estate agent"],
+       opts:["The tenant","The landlord / owner","The neighbor","The real estate agent"],
        ans:"The landlord / owner",
        hint:"This person owns the property. From 'proprieta' (property). The feminine form is 'la proprietaria.'"},
 
@@ -91,9 +91,9 @@ const UNIT_15 = {
        sSrc:"The {1} upstairs is noisy."},
 
       {type:"mc", q:"How is a 'monolocale' different from a 'bilocale'?",
-       opts:["A monolocale has one room, a bilocale has two","A monolocale is cheaper","A monolocale has no bathroom","A bilocale has two bathrooms"],
-       ans:"A monolocale has one room, a bilocale has two",
-       hint:"'Mono' means one, 'bi' means two. The number refers to rooms, not bedrooms. Both have a bathroom."},
+       opts:["A monolocale has no bathroom at all","A monolocale is always cheaper to buy","A monolocale has one locale, a bilocale has two","A bilocale has two separate bathrooms"],
+       ans:"A monolocale has one locale, a bilocale has two",
+       hint:"'Mono' means one, 'bi' means two. Count the 'locali,' not the sleeping spaces. Both have a bathroom."},
 
       {type:"fb", s:"Abbiamo acceso un {1} di trent'anni per la casa.",
        a:["mutuo"],
@@ -102,7 +102,7 @@ const UNIT_15 = {
        sSrc:"We took out a thirty-year {1} for the house."},
 
       {type:"mc", q:"How much deposit is typically required when renting in Italy?",
-       opts:["1-3 months' rent","One week's rent","Half the annual rent","No deposit is required"],
+       opts:["No deposit is required","One week's rent","Half the annual rent","1-3 months' rent"],
        ans:"1-3 months' rent",
        hint:"The 'caparra' is paid upfront and returned when the tenant leaves, minus any damages."}
     ]},
@@ -162,7 +162,7 @@ const UNIT_15 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'arredato' mean when describing an apartment?",
-       opts:["Furnished","Empty","Renovated","Large"],
+       opts:["Furnished","Empty","Newly renovated and upgraded","Large"],
        ans:"Furnished",
        hint:"From 'arredamento' (furnishing). An 'appartamento arredato' comes with furniture included in the rent."},
 
@@ -181,9 +181,9 @@ const UNIT_15 = {
       ]},
 
       {type:"mc", q:"What is special about 'il riscaldamento centralizzato' in Italian buildings?",
-       opts:["It is turned on collectively by fixed dates","Each apartment controls it independently","It only works in summer","It uses solar power"],
+       opts:["Each apartment in the building controls it independently","It is turned on collectively by fixed dates","It runs only during summer months","It is powered entirely by solar panels"],
        ans:"It is turned on collectively by fixed dates",
-       hint:"The dates are set by law and vary by climate zone. Tenants cannot control it individually."},
+       hint:"The schedule is set by law and varies by climate zone. Tenants cannot adjust it individually."},
 
       {type:"fb", s:"Il {1} e in legno in tutta la casa.",
        a:["pavimento"],
@@ -192,9 +192,9 @@ const UNIT_15 = {
        sSrc:"The {1} is wooden throughout the house."},
 
       {type:"mc", q:"What are 'le spese condominiali'?",
-       opts:["Building maintenance fees","Utility bills","Mortgage payments","Renovation costs"],
-       ans:"Building maintenance fees",
-       hint:"These shared fees cover cleaning, elevator maintenance, lighting, and other common building expenses."},
+       opts:["Monthly mortgage payments to the bank","Personal utility bills for gas and electricity","Building maintenance fees for shared spaces","Costs for renovating your own apartment"],
+       ans:"Building maintenance fees for shared spaces",
+       hint:"Paid monthly alongside rent, these cover cleaning, elevator upkeep, and staircase lighting in the condominium."},
 
       {type:"fb", s:"L'appartamento e al quinto piano senza {1}.",
        a:["ascensore"],
@@ -203,9 +203,9 @@ const UNIT_15 = {
        sSrc:"The apartment is on the fifth floor without an {1}."},
 
       {type:"mc", q:"Why are dryers rare in Italian homes?",
-       opts:["Italians prefer to air-dry clothes on balconies","Dryers are banned by law","Electricity is free for dryers","Italian apartments are too large"],
-       ans:"Italians prefer to air-dry clothes on balconies",
-       hint:"Using a dryer is considered wasteful. Most Italians use drying racks or balcony lines instead."}
+       opts:["Italian apartments are structurally too small to fit one in","Italian law requires a special certified permit to purchase one","Electricity is free specifically for dryers","Italians prefer hanging laundry on balconies to save energy"],
+       ans:"Italians prefer hanging laundry on balconies to save energy",
+       hint:"Using a machine to tumble clothes is considered wasteful. Racks and balcony lines are the norm instead."}
     ]},
 
     {id:"itv2_u15l3", title:"Trasferirsi", icon:"📦", xp:15, board:true, steps:[
@@ -263,9 +263,9 @@ const UNIT_15 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'trasferirsi' mean?",
-       opts:["To move / relocate","To transfer money","To transform","To translate"],
-       ans:"To move / relocate",
-       hint:"This reflexive verb describes changing your place of residence. Literally, it means 'to carry oneself across.'"},
+       opts:["To move / relocate your life","To transfer money abroad","To transform into something new","To translate a foreign text"],
+       ans:"To move / relocate your life",
+       hint:"This reflexive verb describes changing your place of residence. Literally, 'to carry oneself across.'"},
 
       {type:"fb", s:"Vuoi {1} questo appartamento?",
        a:["affittare"],
@@ -282,9 +282,9 @@ const UNIT_15 = {
       ]},
 
       {type:"mc", q:"What is a 'coinquilino'?",
-       opts:["A roommate / flatmate","A neighbor","A landlord","A real estate agent"],
-       ans:"A roommate / flatmate",
-       hint:"'Con' means 'with' and 'inquilino' means 'tenant.' This person lives in the same apartment as you."},
+       opts:["A neighbor in the adjacent building","A person who shares your flat","A property owner or landlord","A licensed real estate agent"],
+       ans:"A person who shares your flat",
+       hint:"'Con' means 'with' and 'inquilino' means 'tenant.' Think of the co- prefix: you and another occupant split the same address."},
 
       {type:"fb", s:"La casa e da {1}. Serve un nuovo bagno.",
        a:["ristrutturare"],
@@ -293,9 +293,9 @@ const UNIT_15 = {
        sSrc:"The house needs {1}. It needs a new bathroom."},
 
       {type:"mc", q:"What is 'il piano terra' in an Italian building?",
-       opts:["The ground floor","The first floor","The basement","The rooftop"],
+       opts:["The basement","The first floor","The ground floor","The rooftop"],
        ans:"The ground floor",
-       hint:"'Terra' means ground. In Italy, the first floor ('primo piano') is one flight above this level."},
+       hint:"'Terra' means g.... In Italy, the first f... ('primo piano') is one flight above this level."},
 
       {type:"fb", s:"Il {1} e sabato. Puoi aiutarmi con le scatole?",
        a:["trasloco"],
@@ -304,9 +304,9 @@ const UNIT_15 = {
        sSrc:"The {1} is on Saturday. Can you help me with the boxes?"},
 
       {type:"mc", q:"What does 'l'agenzia immobiliare' charge in Italy?",
-       opts:["A commission from both parties","Only the landlord pays","Only the tenant pays","No commission is charged"],
-       ans:"A commission from both parties",
-       hint:"In Italy, both buyer and seller (or tenant and landlord) typically pay the real estate agency."}
+       opts:["No commission is ever charged by them","Only the property owner pays any fee","Only the incoming tenant or buyer pays","A fee collected from both sides of the deal"],
+       ans:"A fee collected from both sides of the deal",
+       hint:"In Italy, both buyer and seller, or tenant and landlord, each pay the real estate agency."}
     ]}
   ]
 };

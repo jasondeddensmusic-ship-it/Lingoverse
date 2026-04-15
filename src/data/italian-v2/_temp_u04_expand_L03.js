@@ -95,7 +95,7 @@ const LESSON_5 = {
     {type:"mc", q:"Does 'euro' change in the Italian plural?",
      opts:["No, it stays 'euro'","Yes, it becomes 'euri'","Yes, it becomes 'euros'","It depends on the number"],
      ans:"No, it stays 'euro'",
-     hint:"Unlike most Italian nouns, this currency word is invariable: 'un euro, cinque euro.'"},
+     hint:"Unlike most Italian nouns, this currency word is invariable: 'un e..., cinque e....'"},
 
     {type:"fb", s:"Devo {1} frutta e verdura.",
      a:["comprare"],
@@ -125,7 +125,7 @@ const LESSON_5 = {
     {type:"mc", q:"What does 'fresco' mean for food?",
      opts:["Fresh","Cold","Frozen","Cooked"],
      ans:"Fresh",
-     hint:"Freshness is paramount in Italian food culture. The same word is used for 'fresco' paintings on wet plaster."},
+     hint:"Italian food culture prizes produce that has just arrived. The same word describes paintings done on wet plaster ('affresco')."},
 
     {type:"fb", s:"Il pesce e {1}! Appena pescato.",
      a:["freschissimo"],

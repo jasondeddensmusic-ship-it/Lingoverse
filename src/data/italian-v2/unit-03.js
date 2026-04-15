@@ -91,7 +91,7 @@ const UNIT_03 = {
        hint:"Think of the English word 'maternal.' Both words share a Latin root starting with 'matr-.'"},
 
       {type:"mc", q:"Come si dice 'brother' in italiano?",
-       opts:["Il cugino","Il nonno","Il fratello","Il padre"],
+       opts:["Il cugino","Il fratello","Il nonno","Il padre"],
        ans:"Il fratello",
        hint:"Think of the English word 'fraternity,' which means a brotherhood. Same Latin root."},
 
@@ -116,7 +116,7 @@ const UNIT_03 = {
       ]},
 
       {type:"mc", q:"Which article goes with 'zio'?",
-       opts:["lo","il","la","i"],
+       opts:["la","il","lo","i"],
        ans:"lo",
        hint:"Words starting with z take a special masculine article, not the usual 'il.'"},
 
@@ -127,7 +127,7 @@ const UNIT_03 = {
        sSrc:"My {1} is named Giulia."},
 
       {type:"mc", q:"How do you say 'cousin (male)' in Italian?",
-       opts:["Il cugino","Lo zio","Il fratello","Il figlio"],
+       opts:["Il figlio","Lo zio","Il fratello","Il cugino"],
        ans:"Il cugino",
        hint:"From Latin 'consobrinus.' The English word 'cousin' comes from the same root through French."}
     ]},
@@ -191,7 +191,7 @@ const UNIT_03 = {
 
       // Quiz steps
       {type:"mc", q:"What does 'simpatico' mean?",
-       opts:["Likeable / nice","Sympathetic","Simple","Similar"],
+       opts:["Likeable / nice","Sympathetic to others","Simple and plain","Similar in looks"],
        ans:"Likeable / nice",
        hint:"This is a false friend. It does NOT mean what the English lookalike suggests. Think 'pleasant personality.'"},
 
@@ -202,7 +202,7 @@ const UNIT_03 = {
        sSrc:"My sister is very {1}."},
 
       {type:"mc", q:"Which adjective means 'old'?",
-       opts:["Vecchio","Basso","Grande","Giovane"],
+       opts:["Basso (short)","Vecchio","Grande (big)","Giovane (young)"],
        ans:"Vecchio",
        hint:"This word comes from Latin 'vetulus.' For people, the polite alternative is 'anziano.'"},
 
@@ -221,7 +221,7 @@ const UNIT_03 = {
       ]},
 
       {type:"mc", q:"What is the feminine form of 'bello'?",
-       opts:["Bella","Belle","Belli","Bello"],
+       opts:["Belli (masc. plural)","Belle (fem. plural)","Bella","Bello (masc. singular)"],
        ans:"Bella",
        hint:"Regular -o/-a pattern. Change the masculine ending to the standard feminine ending."},
 
@@ -232,7 +232,7 @@ const UNIT_03 = {
        sSrc:"Grandmother is very {1}!"},
 
       {type:"mc", q:"Where does 'grande' usually go to mean 'great' (quality)?",
-       opts:["Before the noun","After the noun","At the end of the sentence","It does not matter"],
+       opts:["It does not matter","After the noun","At the end of the sentence","Before the noun"],
        ans:"Before the noun",
        hint:"Position matters with this adjective. 'Un grande uomo' (great man) vs 'un uomo grande' (big man)."}
     ]},
@@ -295,7 +295,7 @@ const UNIT_03 = {
        sSrc:"{1} brother is named Marco."},
 
       {type:"mc", q:"Which sentence is correct?",
-       opts:["Tua sorella e alta","La tua sorella e alta","Il tuo sorella e alta","Tuo sorella e alta"],
+       opts:["La tua sorella e alta","Tua sorella e alta","Il tuo sorella e alta","Tuo sorella e alta"],
        ans:"Tua sorella e alta",
        hint:"Singular family member: drop the article. The noun is feminine, so the possessive must match that gender."},
 
@@ -314,9 +314,9 @@ const UNIT_03 = {
       ]},
 
       {type:"mc", q:"What does 'suo' mean?",
-       opts:["His, her, or your (formal)","My","Our","Their"],
+       opts:["Our","My","His, her, or your (formal)","Their"],
        ans:"His, her, or your (formal)",
-       hint:"This possessive does triple duty. It covers third person and formal second person."},
+       hint:"One Italian possessive covers multiple people. Think: it works for third-person singular AND polite address."},
 
       {type:"fb", s:"{1} madre e molto simpatica.",
        a:["Sua"],
@@ -325,7 +325,7 @@ const UNIT_03 = {
        sSrc:"{1} mother is very nice."},
 
       {type:"mc", q:"When do you keep the article with family possessives?",
-       opts:["With plurals or modified nouns","Always","Never","Only with masculine nouns"],
+       opts:["Only with masculine nouns","Always","Never","With plurals or modified nouns"],
        ans:"With plurals or modified nouns",
        hint:"The no-article rule has exceptions. When the family word is plural or has an adjective, the article returns."}
     ]},

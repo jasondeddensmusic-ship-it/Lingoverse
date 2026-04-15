@@ -90,7 +90,7 @@ const UNIT_30 = {
 
       {type:"mc",
        q:"'Pensavo che Maria ___ a Parigi.' Quale forma e corretta?",
-       opts:["fosse","era","e","sia"],
+       opts:["era","fosse","e","sia"],
        ans:"fosse",
        hint:"The main verb 'pensavo' is past tense, so the subjunctive clause needs the imperfect subjunctive of 'essere,' not the indicative."},
 
@@ -111,7 +111,7 @@ const UNIT_30 = {
 
       {type:"mc",
        q:"Perche il congiuntivo e considerato un indicatore di italiano colto?",
-       opts:["Perche molti parlanti lo evitano nell'italiano informale","Perche si usa solo nei documenti legali","Perche e stato inventato di recente","Perche e facile da usare"],
+       opts:["Perche e stato inventato di recente","Perche si usa solo nei documenti legali","Perche molti parlanti lo evitano nell'italiano informale","Perche e facile da usare"],
        ans:"Perche molti parlanti lo evitano nell'italiano informale",
        hint:"Many speakers replace it with the indicative in casual speech. Using it correctly signals education and careful language use."}
     ]},
@@ -171,7 +171,7 @@ const UNIT_30 = {
 
       {type:"mc",
        q:"Quale tipo di periodo ipotetico esprime un fatto impossibile nel passato?",
-       opts:["Tipo 3: se + congiuntivo trapassato, condizionale passato","Tipo 1: se + presente, futuro","Tipo 2: se + congiuntivo imperfetto, condizionale","Tutti i tipi esprimono fatti impossibili"],
+       opts:["Tipo 1: se + presente, futuro","Tipo 3: se + congiuntivo trapassato, condizionale passato","Tipo 2: se + congiuntivo imperfetto, condizionale","Tutti i tipi esprimono fatti impossibili"],
        ans:"Tipo 3: se + congiuntivo trapassato, condizionale passato",
        hint:"Only one type deals with things that can never change because they are in the past. It uses the most complex verb forms."},
 
@@ -192,7 +192,7 @@ const UNIT_30 = {
 
       {type:"mc",
        q:"Perche nell'italiano parlato il tipo 3 viene spesso semplificato con l'imperfetto indicativo?",
-       opts:["Perche il congiuntivo trapassato e percepito come troppo formale","Perche l'imperfetto indicativo e piu corretto","Perche il tipo 3 non esiste piu in italiano","Perche i grammatici lo raccomandano"],
+       opts:["Perche il tipo 3 non esiste piu in italiano","Perche l'imperfetto indicativo e piu corretto","Perche il congiuntivo trapassato e percepito come troppo formale","Perche i grammatici lo raccomandano"],
        ans:"Perche il congiuntivo trapassato e percepito come troppo formale",
        hint:"In casual speech, the complex subjunctive forms feel too formal. Speakers simplify: 'Se lo sapevo, non venivo' instead of 'Se lo avessi saputo, non sarei venuto.'"}
     ]},
@@ -260,7 +260,7 @@ const UNIT_30 = {
 
       {type:"mc",
        q:"'Verra alla festa, a meno che non ___ troppo stanco.' Quale forma e corretta?",
-       opts:["sia","e","sara","sta"],
+       opts:["e","sia","sara","sta"],
        ans:"sia",
        hint:"After 'a meno che non,' Italian requires the present subjunctive. The present subjunctive of 'essere' for lui/lei is needed here."},
 
@@ -281,9 +281,9 @@ const UNIT_30 = {
 
       {type:"mc",
        q:"Perche 'a meno che' richiede 'non' nella frase?",
-       opts:["E un 'non pleonastico' grammaticalmente obbligatorio ma non negativo","Per rendere la frase negativa","Per enfatizzare il dubbio","E opzionale e si puo omettere"],
+       opts:["Per enfatizzare il dubbio","Per rendere la frase negativa","E un 'non pleonastico' grammaticalmente obbligatorio ma non negativo","E opzionale e si puo omettere"],
        ans:"E un 'non pleonastico' grammaticalmente obbligatorio ma non negativo",
-       hint:"This 'non' is a quirk of Italian grammar. It looks like a negation but does not negate anything. It is required by the grammar but adds no negative meaning."}
+       hint:"This 'n...' is a quirk of Italian grammar. It looks like a negation but does not negate anything. It is required by the grammar but adds no negative meaning."}
     ]}
   ]
 };
