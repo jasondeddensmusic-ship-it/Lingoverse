@@ -1,4 +1,5 @@
 // Japanese V2 Unit 19. じょうけん (Conditionals)
+import BATCH6_L1 from './_batch6_u19_L01.js';
 import BATCH5_L02 from './_batch5_u19_L02.js';
 import BATCH5_L01 from './_batch5_u19_L01.js';
 import BATCH2_L02 from './_batch2_u19_L02.js';
@@ -176,5 +177,6 @@ const UNIT_19 = {
 ,BATCH2_L02
 ,BATCH5_L01
 ,BATCH5_L02
+,BATCH6_L1
 ]};
 export default UNIT_19;

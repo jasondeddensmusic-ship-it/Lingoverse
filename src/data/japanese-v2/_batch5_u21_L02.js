@@ -78,7 +78,7 @@ const BATCH5_L_2 = {
      hint:"The noun meaning countermeasure or policy solution, often paired with social problems."},
 
     {type:"mc", q:"きゅうむ describes:", opts:["A task that demands immediate action","A routine duty","A completed task","An optional project"], ans:"A task that demands immediate action",
-     hint:"This formal word combines 'urgent' with 'duty/task' to signal pressing need."}
+     hint:"This formal word combines 'urgent' with 'duty/t...' to signal pressing need."}
   ]
 };
 export default BATCH5_L_2;

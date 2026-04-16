@@ -115,7 +115,7 @@ const BATCH4_L_1 = {
 
     {type:"mc", q:"ていじ means:",
      opts:["regular work hours / quitting time","overtime","holiday","meeting time"], ans:"regular work hours / quitting time",
-     hint:"The official scheduled time when the workday ends."}
+     hint:"The official scheduled t... when the workday ends."}
   ]
 };
 export default BATCH4_L_1;

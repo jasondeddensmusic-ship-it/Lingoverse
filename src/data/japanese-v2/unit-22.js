@@ -1,4 +1,5 @@
 // Japanese V2 Unit 22. やりもらい (Giving & Receiving)
+import BATCH6_L1 from './_batch6_u22_L01.js';
 import BATCH5_L02 from './_batch5_u22_L02.js';
 import BATCH5_L01 from './_batch5_u22_L01.js';
 import BATCH2_L01 from './_batch2_u22_L01.js';
@@ -174,5 +175,6 @@ const UNIT_22 = {
 ,BATCH2_L01
 ,BATCH5_L01
 ,BATCH5_L02
+,BATCH6_L1
 ]};
 export default UNIT_22;

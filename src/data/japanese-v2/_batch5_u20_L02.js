@@ -86,7 +86,7 @@ const BATCH5_L_2 = {
      hint:"The honorific form of the word for telephone/phone call."},
 
     {type:"mc", q:"おつかれさまです is used:", opts:["As a general workplace greeting at any time","Only when someone is visibly tired","Only when leaving the office","Only to superiors"], ans:"As a general workplace greeting at any time",
-     hint:"This versatile phrase works as hello, goodbye, and acknowledgment in the workplace."}
+     hint:"This versatile phrase works as hello, goodbye, and acknowledgment in the w...."}
   ]
 };
 export default BATCH5_L_2;

@@ -78,7 +78,7 @@ const BATCH5_L_1 = {
      hint:"The pattern meaning 'making a conscious effort to,' using よう + に + する."},
 
     {type:"mc", q:"三日坊主 (みっかぼうず) describes:", opts:["Someone who cannot stick with new habits","A Buddhist monk","Someone who works three days a week","A three-day holiday"], ans:"Someone who cannot stick with new habits",
-     hint:"This idiom literally means 'three-day monk,' implying someone gives up a new practice after only three days."}
+     hint:"This idiom literally means 'three-day monk,' implying s... gives up a n... practice after only three days."}
   ]
 };
 export default BATCH5_L_1;

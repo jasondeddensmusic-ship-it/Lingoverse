@@ -78,7 +78,7 @@ const BATCH5_L_2 = {
      hint:"The compound meaning 'information source,' combining じょうほう with the kanji for origin/spring."},
 
     {type:"mc", q:"うのみにする literally comes from:", opts:["A cormorant swallowing fish whole","A person drinking water","A bird singing","A dog fetching"], ans:"A cormorant swallowing fish whole",
-     hint:"The metaphor compares uncritical acceptance to how cormorants gulp fish without chewing."}
+     hint:"The metaphor compares uncritical acceptance to how cormorants gulp f... without chewing."}
   ]
 };
 export default BATCH5_L_2;

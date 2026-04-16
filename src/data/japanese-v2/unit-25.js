@@ -1,4 +1,5 @@
 // Japanese V2 Unit 25. ビジネス (Business Japanese)
+import BATCH6_L1 from './_batch6_u25_L01.js';
 import BATCH5_L02 from './_batch5_u25_L02.js';
 import BATCH5_L01 from './_batch5_u25_L01.js';
 import BATCH2_L04 from './_batch2_u25_L04.js';
@@ -151,5 +152,6 @@ const UNIT_25 = {
 ,BATCH2_L04
 ,BATCH5_L01
 ,BATCH5_L02
+,BATCH6_L1
 ]};
 export default UNIT_25;

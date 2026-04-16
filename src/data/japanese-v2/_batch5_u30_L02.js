@@ -72,7 +72,7 @@ const BATCH5_L_2 = {
      hint:"The concept of balance and accord, using kanji for 'tune' and 'peace/Japan.'"},
 
     {type:"mc", q:"Prince Shotoku's constitution begins with:", opts:["Harmony is to be valued","Justice is supreme","The emperor is god","War is inevitable"], ans:"Harmony is to be valued",
-     hint:"The first article emphasizes the core Japanese value of わ (harmony/peace)."}
+     hint:"The first article emphasizes the core Japanese value of わ (h.../peace)."}
   ]
 };
 export default BATCH5_L_2;

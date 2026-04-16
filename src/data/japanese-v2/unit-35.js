@@ -1,4 +1,5 @@
 // Japanese V2 Unit 35. じょうほうしゃかい (Information Society)
+import BATCH6_L1 from './_batch6_u35_L01.js';
 import BATCH5_L02 from './_batch5_u35_L02.js';
 import BATCH5_L01 from './_batch5_u35_L01.js';
 import BATCH2_L02 from './_batch2_u35_L02.js';
@@ -182,5 +183,6 @@ const UNIT_35 = {
 ,BATCH2_L02
 ,BATCH5_L01
 ,BATCH5_L02
+,BATCH6_L1
 ]};
 export default UNIT_35;

@@ -1,4 +1,5 @@
 // Japanese V2 Unit 18. しえき (Causative)
+import BATCH6_L1 from './_batch6_u18_L01.js';
 import BATCH5_L02 from './_batch5_u18_L02.js';
 import BATCH5_L01 from './_batch5_u18_L01.js';
 import BATCH2_L02 from './_batch2_u18_L02.js';
@@ -176,5 +177,6 @@ const UNIT_18 = {
 ,BATCH2_L02
 ,BATCH5_L01
 ,BATCH5_L02
+,BATCH6_L1
 ]};
 export default UNIT_18;

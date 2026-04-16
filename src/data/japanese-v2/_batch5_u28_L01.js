@@ -78,7 +78,7 @@ const BATCH5_L_1 = {
      hint:"The emphasized causal pattern meaning 'precisely because,' using こそ for emphasis."},
 
     {type:"mc", q:"いかなる is the literary equivalent of:", opts:["どんな (what kind of / any)","いつ (when)","どこ (where)","なぜ (why)"], ans:"どんな (what kind of / any)",
-     hint:"This classical adjective replaces the everyday question word for 'what kind of' in formal writing."}
+     hint:"This classical adjective replaces the everyday question word for 'what k... of' in formal writing."}
   ]
 };
 export default BATCH5_L_1;

@@ -1,4 +1,5 @@
 // Japanese V2 Unit 23. めいしか (Nominalization)
+import BATCH6_L1 from './_batch6_u23_L01.js';
 import BATCH5_L02 from './_batch5_u23_L02.js';
 import BATCH5_L01 from './_batch5_u23_L01.js';
 import BATCH2_L04 from './_batch2_u23_L04.js';
@@ -171,5 +172,6 @@ const UNIT_23 = {
 ,BATCH2_L04
 ,BATCH5_L01
 ,BATCH5_L02
+,BATCH6_L1
 ]};
 export default UNIT_23;

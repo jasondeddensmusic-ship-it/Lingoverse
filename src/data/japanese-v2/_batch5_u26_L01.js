@@ -78,7 +78,7 @@ const BATCH5_L_1 = {
      hint:"The word for news reporting/coverage, combined with へんこう (bias) for 'biased reporting.'"},
 
     {type:"mc", q:"しゃせつ is:", opts:["A newspaper's official editorial opinion","A news article","A reporter's blog","A reader's letter"], ans:"A newspaper's official editorial opinion",
-     hint:"This combines しゃ (company) with せつ (opinion/theory) for the paper's institutional stance."}
+     hint:"This combines しゃ (company) with せつ (o.../theory) for the paper's institutional stance."}
   ]
 };
 export default BATCH5_L_1;

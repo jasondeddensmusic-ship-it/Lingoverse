@@ -78,7 +78,7 @@ const BATCH5_L_1 = {
      hint:"The connector that adds a surprising or impressive additional fact."},
 
     {type:"mc", q:"いじょうのことから is used to:", opts:["Introduce a conclusion based on previous points","Start a new topic","Express disagreement","Ask for clarification"], ans:"Introduce a conclusion based on previous points",
-     hint:"This formal phrase signals that everything before was evidence, and now the conclusion follows."}
+     hint:"This formal phrase signals that everything before was evidence, and now the c... follows."}
   ]
 };
 export default BATCH5_L_1;

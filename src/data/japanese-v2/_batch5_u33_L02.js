@@ -19,7 +19,7 @@ const BATCH5_L_2 = {
     {type:"mc", q:"じゅんぶんがく is contrasted with:", opts:["たいしゅうぶんがく (popular/genre fiction)","こてんぶんがく (classical literature)","がいこくぶんがく (foreign literature)","じどうぶんがく (children's literature)"], ans:"たいしゅうぶんがく (popular/genre fiction)", hint:"Japanese literature has a unique divide between 'pure' literary f... and p... entertainment f...."},
     {type:"match", pairs:[{trg:"ししょうせつ",src:"I-novel (autobiographical)"},{trg:"しゅだい",src:"theme/subject"},{trg:"ぶんたい",src:"writing style"},{trg:"こどく",src:"loneliness/isolation"}]},
     {type:"fb", s:"このさくひんはせんごにほんのしゃかいを{1}います。\n(This work depicts postwar Japanese society.)", a:"えがいて", opts:["えがいて","かいて","よんで","しって"], sSrc:"This work depicts postwar Japanese society.", hint:"The verb meaning to depict or portray, specifically used for literary and artistic description."},
-    {type:"mc", q:"Japan has how many Nobel Prize laureates in literature?", opts:["Two (Kawabata 1968, Oe 1994)","One","Three","Zero"], ans:"Two (Kawabata 1968, Oe 1994)", hint:"Kawabata Yasunari won in 1968 and Oe Kenzaburo won in 1994."}
+    {type:"mc", q:"Japan has how many Nobel Prize laureates in literature?", opts:["Two (Kawabata 1968, Oe 1994)","One","Three","Zero"], ans:"Two (Kawabata 1968, Oe 1994)", hint:"K... Yasunari won in 1968 and Oe Kenzaburo won in 1994."}
   ]
 };
 export default BATCH5_L_2;
