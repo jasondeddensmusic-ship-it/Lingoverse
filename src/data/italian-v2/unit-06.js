@@ -1,4 +1,6 @@
 // Italian V2 Unit 06. In citta (In the City) (A1.2)
+import BATCH2_L02 from './_batch2_u06_L02.js';
+import BATCH2_L01 from './_batch2_u06_L01.js';
 // CILS/CELI A1 aligned. Places, directions, transport.
 import EXP_06_L1 from './_temp_u06_expand_L01.js';import EXP_06_L2 from './_temp_u06_expand_L02.js';import EXP_06_L3 from './_temp_u06_expand_L03.js';
 

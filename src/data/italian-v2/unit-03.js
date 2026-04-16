@@ -1,4 +1,6 @@
 // Italian V2 Unit 03. La famiglia (Family & People) (A1.1)
+import BATCH2_L02 from './_batch2_u03_L02.js';
+import BATCH2_L01 from './_batch2_u03_L01.js';
 // CILS/CELI A1 aligned. Family members, describing people, possessives.
 import EXP_03_L1 from './_temp_u03_expand_L01.js';import EXP_03_L2 from './_temp_u03_expand_L02.js';import EXP_03_L3 from './_temp_u03_expand_L03.js';
 

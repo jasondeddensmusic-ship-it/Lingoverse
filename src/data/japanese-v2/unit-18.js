@@ -1,4 +1,6 @@
 // Japanese V2 Unit 18. しえき (Causative)
+import BATCH2_L02 from './_batch2_u18_L02.js';
+import BATCH2_L01 from './_batch2_u18_L01.js';
 import EXP_L3 from './_temp_u18_expand_L01.js';import EXP_L4 from './_temp_u18_expand_L02.js';import EXP_L5 from './_temp_u18_expand_L03.js';
 // Level: B1.1. JLPT N3 aligned.
 // Causative formation (させる/あせる), make/let, causative-passive.
@@ -168,5 +170,7 @@ const UNIT_18 = {
 ]},
 
 ,EXP_L3,EXP_L4,EXP_L5
+,BATCH2_L01
+,BATCH2_L02
 ]};
 export default UNIT_18;

@@ -1,4 +1,5 @@
 // Japanese V2 Unit 22. やりもらい (Giving & Receiving)
+import BATCH2_L01 from './_batch2_u22_L01.js';
 import EXP_L3 from './_temp_u22_expand_L01.js';import EXP_L4 from './_temp_u22_expand_L02.js';import EXP_L5 from './_temp_u22_expand_L03.js';
 // Level: B1.2. JLPT N3 aligned.
 // あげる/もらう/くれる, て-form favors, polite forms.
@@ -168,5 +169,6 @@ const UNIT_22 = {
 ]},
 
 ,EXP_L3,EXP_L4,EXP_L5
+,BATCH2_L01
 ]};
 export default UNIT_22;

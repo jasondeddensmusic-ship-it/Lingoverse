@@ -1,4 +1,6 @@
 // Italian V2 Unit 01. Greetings & Basics (A1.1)
+import BATCH2_L02 from './_batch2_u01_L02.js';
+import BATCH2_L01 from './_batch2_u01_L01.js';
 // First Italian content unit. CILS/CELI A1 aligned.
 import EXP_L1 from './_temp_u01_expand_L01.js';
 import EXP_L2 from './_temp_u01_expand_L02.js';

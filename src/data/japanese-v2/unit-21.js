@@ -1,4 +1,6 @@
 // Japanese V2 Unit 21. しゃかい (Society & News)
+import BATCH2_L02 from './_batch2_u21_L02.js';
+import BATCH2_L01 from './_batch2_u21_L01.js';
 import EXP_L3 from './_temp_u21_expand_L01.js';import EXP_L4 from './_temp_u21_expand_L02.js';import EXP_L5 from './_temp_u21_expand_L03.js';
 // Level: B1.2. JLPT N3 aligned.
 // News vocabulary, opinion expressions, society topics.
@@ -178,5 +180,7 @@ const UNIT_21 = {
 ]},
 
 ,EXP_L3,EXP_L4,EXP_L5
+,BATCH2_L01
+,BATCH2_L02
 ]};
 export default UNIT_21;
