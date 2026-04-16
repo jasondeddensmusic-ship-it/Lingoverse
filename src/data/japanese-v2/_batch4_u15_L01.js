@@ -1,0 +1,121 @@
+// Batch 4 — Unit 15 Lesson 1: At the Station & On the Train
+const BATCH4_L_1 = {
+  id:"jav2_u15l_b4_1", title:"えきとでんしゃ", icon:"🚃", xp:15, board:true,
+  steps:[
+    {type:"intro", title:"えきとでんしゃ",
+     desc:"Learn practical vocabulary for navigating train stations and riding trains. Japan's rail system is the best in the world, and these words help you use it confidently.",
+     goals:["Navigate station facilities","Understand train announcements","Handle delays and schedule changes"]},
+
+    {type:"teach", trg:"かいそく", src:"rapid train", pos:"noun", gender:null,
+     note:"Kanji: 快速. Pleasant + fast. Faster than local, skips some stops.",
+     example:"かいそくでしぶやにいきます。",
+     exampleSrc:"I go to Shibuya by rapid train.",
+     funFact:"Japanese train types from slowest to fastest: 各駅停車 (local), 快速 (rapid), 急行 (express), 特急 (limited express). Understanding these saves enormous time. A local train from Tokyo to Yokohama takes twice as long as a rapid."},
+
+    {type:"teach", trg:"きゅうこう", src:"express train", pos:"noun", gender:null,
+     note:"Kanji: 急行. Urgent + go. Faster than rapid, fewer stops.",
+     example:"きゅうこうにのりかえましょう。",
+     exampleSrc:"Let's transfer to the express.",
+     funFact:"Express trains (急行) can save 15-30 minutes on long routes. Some require extra tickets (特急券 tokkyuuken). The challenge is knowing which train to take. Station display boards show all types with color coding."},
+
+    {type:"teach", trg:"じこくひょう", src:"timetable / schedule", pos:"noun", gender:null,
+     note:"Kanji: 時刻表. Time + engrave + table. Train schedules.",
+     example:"じこくひょうをかくにんしてください。",
+     exampleSrc:"Please check the timetable.",
+     funFact:"Japan's train timetable (時刻表) is a 1,000-page book published monthly. Enthusiasts called 'tetsudou otaku' (train nerds) memorize entire schedules. The book has been published continuously since 1925."},
+
+    {type:"teach", trg:"おくれ", src:"delay", pos:"noun", gender:null,
+     note:"From おくれる (to be late). When trains run behind schedule.",
+     example:"じゅっぷんのおくれがでています。",
+     exampleSrc:"There is a 10-minute delay.",
+     funFact:"Japanese trains are so punctual that a 5-minute delay makes the news. When delays occur, the railway company issues 遅延証明書 (chien shoumeisho, delay certificates) so passengers can prove to employers why they were late."},
+
+    {type:"teach", trg:"うんてんみあわせ", src:"suspension of service", pos:"noun", gender:null,
+     note:"Kanji: 運転見合わせ. Operation + postponement. Trains stopped.",
+     example:"じしんでうんてんみあわせになりました。",
+     exampleSrc:"Service was suspended due to an earthquake.",
+     funFact:"Service suspension (unten miawase) usually happens during typhoons, earthquakes, or accidents. When Tokyo trains stop, millions of commuters are stranded. This phenomenon is called 帰宅難民 (kitaku nanmin, commute refugees)."},
+
+    {type:"teach", trg:"しゅうでん", src:"last train", pos:"noun", gender:null,
+     note:"Kanji: 終電. End + electricity. The last train of the night.",
+     example:"しゅうでんにまにあいませんでした。",
+     exampleSrc:"I didn't make it to the last train.",
+     funFact:"Missing the shuuden (usually around midnight-1AM) is a common Tokyo experience. Options include taxi (very expensive), manga cafes, capsule hotels, or karaoke until the first train (始発 shihatsu) at 5 AM. This is a rite of passage."},
+
+    {type:"teach", trg:"きっぷうりば", src:"ticket counter / ticket office", pos:"noun", gender:null,
+     note:"Kanji: 切符売り場. Ticket + selling + place.",
+     example:"きっぷうりばはどこですか？",
+     exampleSrc:"Where is the ticket counter?",
+     funFact:"Most people use IC cards now, but kippu uriba are still needed for special tickets, shinkansen, and long-distance travel. Automated ticket machines (券売機) handle most purchases and accept cash, IC cards, and credit cards."},
+
+    {type:"teach", trg:"じゆうせき", src:"unreserved seat", pos:"noun", gender:null,
+     note:"Kanji: 自由席. Free + seat. First-come-first-served seating.",
+     example:"じゆうせきでだいじょうぶです。",
+     exampleSrc:"Unreserved seats are fine.",
+     funFact:"Shinkansen offer 自由席 (unreserved) and 指定席 (reserved). Unreserved is cheaper but you might stand. Experienced travelers know which cars are unreserved and line up early. During holidays, unreserved cars can be standing-room only."},
+
+    {type:"teach", trg:"していせき", src:"reserved seat", pos:"noun", gender:null,
+     note:"Kanji: 指定席. Designate + seat. Pre-booked guaranteed seat.",
+     example:"していせきをよやくしました。",
+     exampleSrc:"I reserved a designated seat.",
+     funFact:"Reserved seats (指定席) guarantee a specific seat number. During peak travel (Golden Week, Obon, New Year), they sell out weeks in advance. The extra fee is worth it for peace of mind on long journeys."},
+
+    {type:"teach", trg:"せんろ", src:"railway track / rail line", pos:"noun", gender:null,
+     note:"Kanji: 線路. Line + road. The physical tracks.",
+     example:"せんろにものをおとさないでください。",
+     exampleSrc:"Please do not drop things on the tracks.",
+     funFact:"Senro (track) safety is taken extremely seriously. Platform doors (ホームドア) are being installed at major stations to prevent falls. Station announcements constantly remind passengers to stand behind the yellow line."},
+
+    {type:"teach", trg:"つうきん", src:"commuting (to work)", pos:"noun", gender:null,
+     note:"Kanji: 通勤. Pass through + serve. Daily work commute.",
+     example:"つうきんにいちじかんかかります。",
+     exampleSrc:"My commute takes one hour.",
+     funFact:"The average Tokyo commute is about 50 minutes one way. Some commuters travel 1.5-2 hours each way. 通勤ラッシュ (tsuukin rasshu, commuter rush) between 7:30-9:00 AM is one of the most intense human compression events on Earth."},
+
+    {type:"teach", trg:"てすうりょう", src:"handling fee / service charge", pos:"noun", gender:null,
+     note:"Kanji: 手数料. Hand + number + fee. Administrative charges.",
+     example:"てすうりょうがかかります。",
+     exampleSrc:"There is a handling fee.",
+     funFact:"Tesuuryou appears when changing or canceling tickets, using ATMs at certain times, or making bank transfers. Japanese are accustomed to small fees for services that might be free elsewhere. Knowing this word prevents surprises."},
+
+    {type:"teach", trg:"ゆうせんせき", src:"priority seat", pos:"noun", gender:null,
+     note:"Kanji: 優先席. Priority + seat. For elderly, pregnant, disabled.",
+     example:"ゆうせんせきはおとしよりにゆずってください。",
+     exampleSrc:"Please give priority seats to elderly people.",
+     funFact:"Priority seats (usually marked in a different color) are designated for elderly, pregnant women, people with disabilities, and those with injuries. Social pressure to give up these seats is strong. Phone use near priority seats is discouraged too."},
+
+    {type:"mc", q:"What is a しゅうでん?",
+     opts:["last train of the night","first train","express train","bullet train"], ans:"last train of the night",
+     hint:"Miss this one and you are stuck until early morning."},
+
+    {type:"fb", s:"じゅっぷんの{1}がでています。", a:"おくれ",
+     sSrc:"There is a 10-minute delay.",
+     opts:["おくれ","うんてん","かいそく","のりかえ"],
+     hint:"When a train arrives later than its scheduled time."},
+
+    {type:"match", pairs:[
+      {trg:"じゆうせき", src:"unreserved seat"},
+      {trg:"していせき", src:"reserved seat"},
+      {trg:"ゆうせんせき", src:"priority seat"},
+      {trg:"きっぷうりば", src:"ticket counter"}
+    ]},
+
+    {type:"mc", q:"Train types from slowest to fastest:",
+     opts:["local, rapid, express, limited express","express, rapid, local, limited","limited, express, rapid, local","rapid, local, express, limited"], ans:"local, rapid, express, limited express",
+     hint:"各駅停車, 快速, 急行, 特急 in speed order."},
+
+    {type:"fb", s:"{1}にいちじかんかかります。", a:"つうきん",
+     sSrc:"My commute takes one hour.",
+     opts:["つうきん","りょこう","さんぽ","かいもの"],
+     hint:"The daily journey from home to your workplace."},
+
+    {type:"mc", q:"What is a 遅延証明書?",
+     opts:["a delay certificate from the railway","a ticket refund","a schedule change notice","a lost item report"], ans:"a delay certificate from the railway",
+     hint:"Given to passengers so they can prove to employers why they were late."},
+
+    {type:"mc", q:"うんてんみあわせ means:",
+     opts:["suspension of train service","delay","schedule change","extra train"], ans:"suspension of train service",
+     hint:"When trains completely stop running on a line."}
+  ]
+};
+export default BATCH4_L_1;

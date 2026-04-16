@@ -1,4 +1,11 @@
 // Italian V2 Unit 02. Numbers, Days & Time (A1.1)
+import BATCH8_L1 from './_batch8_u02_L01.js';
+import BATCH7_L1 from './_batch7_u02_L01.js';
+import BATCH6_L1 from './_batch6_u02_L01.js';
+import BATCH4_L02 from './_batch4_u02_L02.js';
+import BATCH4_L01 from './_batch4_u02_L01.js';
+import BATCH2_L02 from './_batch2_u02_L02.js';
+import BATCH2_L01 from './_batch2_u02_L01.js';
 // CILS/CELI A1 aligned.
 import EXP_02_L1 from './_temp_u02_expand_L01.js';import EXP_02_L2 from './_temp_u02_expand_L02.js';import EXP_02_L3 from './_temp_u02_expand_L03.js';
 

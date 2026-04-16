@@ -1,4 +1,13 @@
 // Japanese V2 Unit 10. てんき (Weather & Seasons)
+import BATCH11_L1 from './_batch11_u10_L01.js';
+import BATCH10_L1 from './_batch10_u10_L01.js';
+import BATCH9_L1 from './_batch9_u10_L01.js';
+import BATCH7_L1 from './_batch7_u10_L01.js';
+import BATCH8_L1 from './_batch8_u10_L01.js';
+import BATCH6_L1 from './_batch6_u10_L01.js';
+import BATCH4_L02 from './_batch4_u10_L02.js';
+import BATCH4_L01 from './_batch4_u10_L01.js';
+import BATCH2_L1 from './_batch2_u10_L01.js';
 // Level: A1.3. JLPT N5 aligned.
 // Weather vocabulary, seasons, temperature adjectives, months/days.
 
@@ -196,5 +205,14 @@ const UNIT_10 = {
     text:"Before adopting numbered months, Japan used poetic names:\nむつき (January, month of harmony)\nきさらぎ (February, month of changing clothes)\nやよい (March, month of growing)\nうづき (April, deutzia flower month)\nさつき (May, rice-planting month)\nみなづき (June, month of water)\n\nThese old names still appear in literature, names, and traditional contexts. Yayoi and Satsuki are popular girls' names."}},
 ]},
 
+,BATCH2_L1
+,BATCH4_L01
+,BATCH4_L02
+,BATCH6_L1
+,BATCH8_L1
+,BATCH7_L1
+,BATCH9_L1
+,BATCH10_L1
+,BATCH11_L1
 ]};
 export default UNIT_10;

@@ -1,4 +1,14 @@
 // Japanese V2 Unit 36. そうかつ (Comprehensive Review)
+import BATCH11_L1 from './_batch11_u36_L01.js';
+import BATCH10_L1 from './_batch10_u36_L01.js';
+import BATCH9_L1 from './_batch9_u36_L01.js';
+import BATCH7_L1 from './_batch7_u36_L01.js';
+import BATCH8_L1 from './_batch8_u36_L01.js';
+import BATCH6_L1 from './_batch6_u36_L01.js';
+import BATCH5_L02 from './_batch5_u36_L02.js';
+import BATCH5_L01 from './_batch5_u36_L01.js';
+import BATCH2_L02 from './_batch2_u36_L02.js';
+import BATCH2_L01 from './_batch2_u36_L01.js';
 // Level: B2.4. JLPT N2/N1 aligned.
 // Cross-domain review: philosophy, law, medicine, literature, international relations, technology.
 
@@ -82,7 +92,7 @@ const UNIT_36 = {
    hint:"This connector introduces an unexpected result that contradicts what came before."},
 
   {type:"mc", q:"じじつにもとづく means:", opts:["unrelated to facts","contrary to facts","in spite of facts","based on facts"], ans:"based on facts",
-   hint:"もとづく means 'to be grounded in,' and じじつ is the word for 'facts.'"},
+   hint:"もとづく means 'to be grounded in,' and じじつ is the word for 'f....'"},
 ]},
 
 // ═══ L2: Cross-Domain Synthesis & Exam Preparation ═══
@@ -174,7 +184,7 @@ const UNIT_36 = {
    hint:"とうごう combines 'unite' and 'combine,' describing the merging of two domains into a unified whole."},
 
   {type:"mc", q:"ちしきのちくせき means:", opts:["loss of knowledge","accumulation of knowledge","testing of knowledge","transfer of knowledge"], ans:"accumulation of knowledge",
-   hint:"ちくせき combines two kanji both meaning 'to store/pile up,' and ちしき means knowledge."},
+   hint:"ちくせき combines two kanji both meaning 'to store/pile up,' and ちしき means k...."},
 
   {type:"mc", q:"きょうようがある describes a person who:", opts:["is highly specialized in one field","has a university degree","is well-educated and broadly cultured","works in academia"], ans:"is well-educated and broadly cultured",
    hint:"きょうよう refers to breadth of cultural and intellectual knowledge, not just one field of expertise."},
@@ -185,5 +195,15 @@ const UNIT_36 = {
     text:"B2 completion positions you well for JLPT N1 preparation. Key areas to continue developing:\n\nReading: Practice long-form texts (newspaper editorials, academic abstracts, literary criticism). Focus on understanding the author's しゅちょう (main argument) and logical structure.\n\nListening: Watch NHK news, academic lectures, and panel discussions. Train your ear for formal register and technical vocabulary.\n\nVocabulary: Continue expanding domain-specific vocabulary. JLPT N1 tests approximately 10,000 words. The B2 domains you have studied are heavily represented.\n\nGrammar: Master the formal patterns covered here (にもかかわらず, もとづく, かならずしも...ない) plus additional N1 grammar like ものの, にほかならない, をもって.\n\nThe key at this level is quantity of input. Read widely, listen daily, and review vocabulary systematically."}},
 ]},
 
+,BATCH2_L01
+,BATCH2_L02
+,BATCH5_L01
+,BATCH5_L02
+,BATCH6_L1
+,BATCH8_L1
+,BATCH7_L1
+,BATCH9_L1
+,BATCH10_L1
+,BATCH11_L1
 ]};
 export default UNIT_36;

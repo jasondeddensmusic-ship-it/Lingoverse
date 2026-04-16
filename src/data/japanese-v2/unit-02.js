@@ -1,4 +1,13 @@
 // Japanese V2 Unit 02. わたしは... (I am...)
+import BATCH11_L1 from './_batch11_u02_L01.js';
+import BATCH10_L1 from './_batch10_u02_L01.js';
+import BATCH9_L1 from './_batch9_u02_L01.js';
+import BATCH7_L1 from './_batch7_u02_L01.js';
+import BATCH8_L1 from './_batch8_u02_L01.js';
+import BATCH6_L1 from './_batch6_u02_L01.js';
+import BATCH4_L02 from './_batch4_u02_L02.js';
+import BATCH4_L01 from './_batch4_u02_L01.js';
+import BATCH3_L1 from './_batch3_u02_L01.js';
 // Level: A1.1. JLPT N5 aligned.
 import JEXP_02_L1 from './_temp_u02_expand_L01.js';import JEXP_02_L2 from './_temp_u02_expand_L02.js';import JEXP_02_L3 from './_temp_u02_expand_L03.js';import JEXP_02_L4 from './_temp_u02_expand_L04.js';
 // Self-introduction, countries, occupations, desu/ja arimasen, wa particle.
@@ -203,5 +212,14 @@ const UNIT_02 = {
    hint:"を is an object particle, not used for country identity patterns."},
 ]},
 
+,BATCH3_L1
+,BATCH4_L01
+,BATCH4_L02
+,BATCH6_L1
+,BATCH8_L1
+,BATCH7_L1
+,BATCH9_L1
+,BATCH10_L1
+,BATCH11_L1
 ]};
 export default UNIT_02;

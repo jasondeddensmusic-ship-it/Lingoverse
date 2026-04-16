@@ -1,4 +1,14 @@
 // Japanese V2 Unit 35. じょうほうしゃかい (Information Society)
+import BATCH11_L1 from './_batch11_u35_L01.js';
+import BATCH10_L1 from './_batch10_u35_L01.js';
+import BATCH9_L1 from './_batch9_u35_L01.js';
+import BATCH7_L1 from './_batch7_u35_L01.js';
+import BATCH8_L1 from './_batch8_u35_L01.js';
+import BATCH6_L1 from './_batch6_u35_L01.js';
+import BATCH5_L02 from './_batch5_u35_L02.js';
+import BATCH5_L01 from './_batch5_u35_L01.js';
+import BATCH2_L02 from './_batch2_u35_L02.js';
+import BATCH2_L01 from './_batch2_u35_L01.js';
 // Level: B2.4. JLPT N2/N1 aligned.
 // じんこうちのう, プライバシー, サイバー, デジタル, こじんじょうほう, フェイクニュース, ビッグデータ.
 
@@ -79,7 +89,7 @@ const UNIT_35 = {
   {type:"match", pairs:[{trg:"サイバーこうげき",src:"cyberattack"},{trg:"アルゴリズム",src:"algorithm"},{trg:"じどうか",src:"automation"},{trg:"こじんじょうほう",src:"personal data"}]},
 
   {type:"mc", q:"アルゴリズムのバイアス means:", opts:["algorithmic speed","algorithmic update","algorithmic bias","algorithmic encryption"], ans:"algorithmic bias",
-   hint:"バイアス is a loanword meaning 'bias' or 'prejudice,' describing unfair patterns in automated decision-making."},
+   hint:"バイアス is a loanword meaning 'b...' or 'prejudice,' describing unfair patterns in automated decision-making."},
 
   {type:"mc", q:"フェイクニュースをみわける means:", opts:["to spread fake news","to create fake news","to report fake news","to distinguish fake news"], ans:"to distinguish fake news",
    hint:"みわける means 'to tell apart' or 'to identify correctly,' a critical information literacy skill."},
@@ -165,7 +175,7 @@ const UNIT_35 = {
    hint:"Tezuka Osamu's 1950s comic series depicted a friendly child-like robot, shaping positive public attitudes for decades."},
 
   {type:"mc", q:"でんしけっさい means:", opts:["digital banking","internet transfer","online shopping","electronic payment"], ans:"electronic payment",
-   hint:"でんし (electronic) plus けっさい (settlement/payment), covering QR codes, IC cards, and mobile pay."},
+   hint:"でんし (e...) plus けっさい (settlement/p...), covering QR codes, IC cards, and mobile pay."},
 
   {type:"fb", s:"にほんかくちでスマート{1}のけいかくがすすんでいます。\n(Smart city plans are progressing throughout Japan.)", a:"シティ", opts:["シティ", "センター","タウン","ゾーン"], sSrc:"Smart city plans are progressing throughout Japan.",
    hint:"The second part of the English loanword compound meaning an intelligent, technology-integrated urban area."},
@@ -174,5 +184,15 @@ const UNIT_35 = {
    hint:"The kanji compound for 'special anomalous point,' also expressed as the loanword シンギュラリティ."},
 ]},
 
+,BATCH2_L01
+,BATCH2_L02
+,BATCH5_L01
+,BATCH5_L02
+,BATCH6_L1
+,BATCH8_L1
+,BATCH7_L1
+,BATCH9_L1
+,BATCH10_L1
+,BATCH11_L1
 ]};
 export default UNIT_35;

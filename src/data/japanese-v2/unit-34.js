@@ -1,4 +1,14 @@
 // Japanese V2 Unit 34. こくさいかんけい (International Relations)
+import BATCH11_L1 from './_batch11_u34_L01.js';
+import BATCH10_L1 from './_batch10_u34_L01.js';
+import BATCH9_L1 from './_batch9_u34_L01.js';
+import BATCH7_L1 from './_batch7_u34_L01.js';
+import BATCH8_L1 from './_batch8_u34_L01.js';
+import BATCH6_L1 from './_batch6_u34_L01.js';
+import BATCH5_L02 from './_batch5_u34_L02.js';
+import BATCH5_L01 from './_batch5_u34_L01.js';
+import BATCH2_L02 from './_batch2_u34_L02.js';
+import BATCH2_L01 from './_batch2_u34_L01.js';
 // Level: B2.4. JLPT N2/N1 aligned.
 // がいこう, こくれん, じょうやく, ふんそう, きょうりょく, えんじょ, あんぜんほしょう.
 
@@ -165,7 +175,7 @@ const UNIT_34 = {
   {type:"match", pairs:[{trg:"たいし",src:"ambassador"},{trg:"さみっと",src:"summit"},{trg:"こうしょう",src:"negotiation"},{trg:"かいさい",src:"hosting (event)"}]},
 
   {type:"mc", q:"きこうへんどう means:", opts:["nuclear crisis","natural disaster","climate change","economic downturn"], ans:"climate change",
-   hint:"This compound uses 気候 (climate) plus the word for 'change/fluctuation,' related to the Kyoto Protocol."},
+   hint:"This compound uses 気候 (c...) plus the word for 'c.../fluctuation,' related to the Kyoto Protocol."},
 
   {type:"mc", q:"さみっと refers to:", opts:["a trade agreement","a UN resolution","a diplomatic crisis","an international summit meeting"], ans:"an international summit meeting",
    hint:"A loanword from English, this event brings world leaders together, such as the G7."},
@@ -174,8 +184,18 @@ const UNIT_34 = {
    hint:"The common noun for a nation or country."},
 
   {type:"mc", q:"かいさいする means:", opts:["to hold/host an event","to attend an event","to cancel an event","to broadcast an event"], ans:"to hold/host an event",
-   hint:"The verb combining 'open' and 'sponsor,' used when a city or country organizes a major international event."},
+   hint:"The verb combining 'open' and 'sponsor,' used when a city or country organizes a major international e...."},
 ]},
 
+,BATCH2_L01
+,BATCH2_L02
+,BATCH5_L01
+,BATCH5_L02
+,BATCH6_L1
+,BATCH8_L1
+,BATCH7_L1
+,BATCH9_L1
+,BATCH10_L1
+,BATCH11_L1
 ]};
 export default UNIT_34;

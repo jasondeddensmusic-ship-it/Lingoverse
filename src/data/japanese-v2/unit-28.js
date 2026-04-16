@@ -1,4 +1,14 @@
 // Japanese V2 Unit 28. ぶんたい (Written vs Spoken)
+import BATCH11_L1 from './_batch11_u28_L01.js';
+import BATCH10_L1 from './_batch10_u28_L01.js';
+import BATCH9_L1 from './_batch9_u28_L01.js';
+import BATCH7_L1 from './_batch7_u28_L01.js';
+import BATCH8_L1 from './_batch8_u28_L01.js';
+import BATCH6_L1 from './_batch6_u28_L01.js';
+import BATCH5_L02 from './_batch5_u28_L02.js';
+import BATCH5_L01 from './_batch5_u28_L01.js';
+import BATCH2_L04 from './_batch2_u28_L04.js';
+import BATCH2_L03 from './_batch2_u28_L03.js';
 import EXP_L3 from './_temp_u28_expand_L01.js';import EXP_L4 from './_temp_u28_expand_L02.js';import EXP_L5 from './_temp_u28_expand_L03.js';
 // Level: B2.2. JLPT N2 aligned.
 // である, において, および, 述べる, 論じる, sentence-final particles.
@@ -128,5 +138,15 @@ const UNIT_28 = {
 ]},
 
 ,EXP_L3,EXP_L4,EXP_L5
+,BATCH2_L03
+,BATCH2_L04
+,BATCH5_L01
+,BATCH5_L02
+,BATCH6_L1
+,BATCH8_L1
+,BATCH7_L1
+,BATCH9_L1
+,BATCH10_L1
+,BATCH11_L1
 ]};
 export default UNIT_28;

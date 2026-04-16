@@ -1,4 +1,13 @@
 // Japanese V2 Unit 04. いくらですか (How much is it?)
+import BATCH11_L1 from './_batch11_u04_L01.js';
+import BATCH10_L1 from './_batch10_u04_L01.js';
+import BATCH9_L1 from './_batch9_u04_L01.js';
+import BATCH7_L1 from './_batch7_u04_L01.js';
+import BATCH8_L1 from './_batch8_u04_L01.js';
+import BATCH6_L1 from './_batch6_u04_L01.js';
+import BATCH4_L02 from './_batch4_u04_L02.js';
+import BATCH4_L01 from './_batch4_u04_L01.js';
+import BATCH3_L1 from './_batch3_u04_L01.js';
 // Level: A1.1. JLPT N5 aligned.
 import JEXP_04_L1 from './_temp_u04_expand_L01.js';import JEXP_04_L2 from './_temp_u04_expand_L02.js';import JEXP_04_L3 from './_temp_u04_expand_L03.js';import JEXP_04_L4 from './_temp_u04_expand_L04.js';
 // Shopping, colors, i-adj vs na-adj intro, numbers 100-10000, counters.
@@ -217,5 +226,14 @@ const UNIT_04 = {
     text:"At a convenience store (konbini), the cashier will say the total and you pay. No need for complex conversation.\n\nAt markets and department stores, you might hear:\nいらっしゃいませ！ (Welcome!)\nおいくらですか？ (How much? with polite お)\nまた おこしください (Please come again)\n\nJapan is still largely a cash society, though cashless payment is growing fast."}},
 ]},
 
+,BATCH3_L1
+,BATCH4_L01
+,BATCH4_L02
+,BATCH6_L1
+,BATCH8_L1
+,BATCH7_L1
+,BATCH9_L1
+,BATCH10_L1
+,BATCH11_L1
 ]};
 export default UNIT_04;
