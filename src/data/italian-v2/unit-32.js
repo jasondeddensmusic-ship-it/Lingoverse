@@ -1,4 +1,5 @@
 // Italian V2 Unit 32. La globalizzazione (B2.3)
+import BATCH6_L1 from './_batch6_u32_L01.js';
 import BATCH5_L02 from './_batch5_u32_L02.js';
 import BATCH5_L01 from './_batch5_u32_L01.js';
 import BATCH3_L02 from './_batch3_u32_L02.js';

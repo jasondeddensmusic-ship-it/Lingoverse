@@ -1,4 +1,5 @@
 // Italian V2 Unit 07. Al ristorante (At the Restaurant) (A2.1)
+import BATCH6_L1 from './_batch6_u07_L01.js';
 import BATCH4_L02 from './_batch4_u07_L02.js';
 import BATCH4_L01 from './_batch4_u07_L01.js';
 import BATCH3_L02 from './_batch3_u07_L02.js';

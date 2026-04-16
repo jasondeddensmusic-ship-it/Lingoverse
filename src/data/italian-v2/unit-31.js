@@ -1,4 +1,5 @@
 // Italian V2 Unit 31. I media avanzati (B2.3)
+import BATCH6_L1 from './_batch6_u31_L01.js';
 import BATCH5_L02 from './_batch5_u31_L02.js';
 import BATCH5_L01 from './_batch5_u31_L01.js';
 import BATCH3_L02 from './_batch3_u31_L02.js';
