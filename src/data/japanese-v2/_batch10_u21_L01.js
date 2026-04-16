@@ -56,7 +56,7 @@ const BATCH10_L1 = {
       {trg:"たぶんかきょうせい", src:"multicultural coexistence"}
     ]},
     {type:"mc", q:"What is Japan's biggest demographic challenge?", opts:["Simultaneous population aging and declining births","Too much immigration","Overpopulation","Youth unemployment"], ans:"Simultaneous population aging and declining births",
-     hint:"しょうしこうれいか (declining births + aging) is the combined crisis facing Japan."}
+     hint:"しょうしこうれいか (d... b... + a...) is the combined crisis facing Japan."}
   ]
 };
 export default BATCH10_L1;

@@ -68,7 +68,7 @@ const BATCH10_L1 = {
     ]},
 
     {type:"mc", q:"What is a ノートパソコン?", opts:["A laptop computer","A notebook for notes","A tablet device","A desktop computer"], ans:"A laptop computer",
-     hint:"ノート (notebook-sized) combined with パソコン (personal computer) gives you a portable computer."}
+     hint:"ノート (notebook-sized) combined with パソコン (personal c...) gives you a portable c...."}
   ]
 };
 export default BATCH10_L1;

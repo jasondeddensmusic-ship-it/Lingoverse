@@ -1,4 +1,5 @@
 // Japanese V2 Unit 16. けいかく (Plans & Intentions)
+import BATCH11_L1 from './_batch11_u16_L01.js';
 import BATCH10_L1 from './_batch10_u16_L01.js';
 import BATCH9_L1 from './_batch9_u16_L01.js';
 import BATCH7_L1 from './_batch7_u16_L01.js';
@@ -184,5 +185,6 @@ const UNIT_16 = {
 ,BATCH7_L1
 ,BATCH9_L1
 ,BATCH10_L1
+,BATCH11_L1
 ]};
 export default UNIT_16;
