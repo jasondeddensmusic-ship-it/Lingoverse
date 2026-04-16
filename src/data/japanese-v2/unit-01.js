@@ -1,4 +1,6 @@
 // Japanese V2 Unit 01. Greetings & Basics (A1.1)
+import BATCH10_L1 from './_batch10_u01_L01.js';
+import BATCH9_L1 from './_batch9_u01_L01.js';
 import BATCH7_L1 from './_batch7_u01_L01.js';
 import BATCH8_L1 from './_batch8_u01_L01.js';
 import BATCH6_L1 from './_batch6_u01_L01.js';

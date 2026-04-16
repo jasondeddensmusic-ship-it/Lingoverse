@@ -1,4 +1,6 @@
 // Japanese V2 Unit 13. けいけん (Experience)
+import BATCH10_L1 from './_batch10_u13_L01.js';
+import BATCH9_L1 from './_batch9_u13_L01.js';
 import BATCH7_L1 from './_batch7_u13_L01.js';
 import BATCH8_L1 from './_batch8_u13_L01.js';
 import BATCH6_L1 from './_batch6_u13_L01.js';
@@ -175,5 +177,7 @@ const UNIT_13 = {
 ,BATCH6_L1
 ,BATCH8_L1
 ,BATCH7_L1
+,BATCH9_L1
+,BATCH10_L1
 ]};
 export default UNIT_13;

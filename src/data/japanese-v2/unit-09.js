@@ -1,4 +1,6 @@
 // Japanese V2 Unit 09. かいもの (Shopping)
+import BATCH10_L1 from './_batch10_u09_L01.js';
+import BATCH9_L1 from './_batch9_u09_L01.js';
 import BATCH7_L1 from './_batch7_u09_L01.js';
 import BATCH8_L1 from './_batch8_u09_L01.js';
 import BATCH6_L1 from './_batch6_u09_L01.js';
@@ -214,5 +216,7 @@ const UNIT_09 = {
 ,BATCH6_L1
 ,BATCH8_L1
 ,BATCH7_L1
+,BATCH9_L1
+,BATCH10_L1
 ]};
 export default UNIT_09;
