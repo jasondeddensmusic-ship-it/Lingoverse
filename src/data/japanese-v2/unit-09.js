@@ -1,4 +1,5 @@
 // Japanese V2 Unit 09. かいもの (Shopping)
+import BATCH2_L1 from './_batch2_u09_L01.js';
 // Level: A1.3. JLPT N5 aligned.
 // Shopping vocabulary, transactional verbs, useful shopping phrases.
 
@@ -202,5 +203,6 @@ const UNIT_09 = {
    hint:"This adverb combines the kanji for 'one' and 'thread,' meaning bound as one."},
 ]},
 
+,BATCH2_L1
 ]};
 export default UNIT_09;

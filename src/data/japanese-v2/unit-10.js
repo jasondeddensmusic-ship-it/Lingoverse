@@ -1,4 +1,5 @@
 // Japanese V2 Unit 10. てんき (Weather & Seasons)
+import BATCH2_L1 from './_batch2_u10_L01.js';
 // Level: A1.3. JLPT N5 aligned.
 // Weather vocabulary, seasons, temperature adjectives, months/days.
 
@@ -196,5 +197,6 @@ const UNIT_10 = {
     text:"Before adopting numbered months, Japan used poetic names:\nむつき (January, month of harmony)\nきさらぎ (February, month of changing clothes)\nやよい (March, month of growing)\nうづき (April, deutzia flower month)\nさつき (May, rice-planting month)\nみなづき (June, month of water)\n\nThese old names still appear in literature, names, and traditional contexts. Yayoi and Satsuki are popular girls' names."}},
 ]},
 
+,BATCH2_L1
 ]};
 export default UNIT_10;

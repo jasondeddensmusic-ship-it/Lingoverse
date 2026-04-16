@@ -1,4 +1,5 @@
 // Japanese V2 Unit 12. かのう (Ability & Potential)
+import BATCH2_L1 from './_batch2_u12_L01.js';
 // Level: A2.1. JLPT N4 aligned.
 import JEXP_12_L1 from './_temp_u12_expand_L01.js';import JEXP_12_L2 from './_temp_u12_expand_L02.js';import JEXP_12_L3 from './_temp_u12_expand_L03.js';
 // Potential form, koto ga dekiru, mou/mada.
@@ -147,5 +148,6 @@ const UNIT_12 = {
     text:"When もう appears in a question, it often implies expectation:\nもうできましたか？(Are you done already? / Have you finished yet?)\nもうわかりましたか？(Do you understand now? / Have you figured it out?)\n\nThe speaker expects or hopes the answer is yes. If you want a neutral question without expectation, do not use もう."}},
 ]},
 
+,BATCH2_L1
 ]};
 export default UNIT_12;

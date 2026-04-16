@@ -79,7 +79,7 @@ const UNIT_35 = {
   {type:"match", pairs:[{trg:"サイバーこうげき",src:"cyberattack"},{trg:"アルゴリズム",src:"algorithm"},{trg:"じどうか",src:"automation"},{trg:"こじんじょうほう",src:"personal data"}]},
 
   {type:"mc", q:"アルゴリズムのバイアス means:", opts:["algorithmic speed","algorithmic update","algorithmic bias","algorithmic encryption"], ans:"algorithmic bias",
-   hint:"バイアス is a loanword meaning 'bias' or 'prejudice,' describing unfair patterns in automated decision-making."},
+   hint:"バイアス is a loanword meaning 'b...' or 'prejudice,' describing unfair patterns in automated decision-making."},
 
   {type:"mc", q:"フェイクニュースをみわける means:", opts:["to spread fake news","to create fake news","to report fake news","to distinguish fake news"], ans:"to distinguish fake news",
    hint:"みわける means 'to tell apart' or 'to identify correctly,' a critical information literacy skill."},
@@ -165,7 +165,7 @@ const UNIT_35 = {
    hint:"Tezuka Osamu's 1950s comic series depicted a friendly child-like robot, shaping positive public attitudes for decades."},
 
   {type:"mc", q:"でんしけっさい means:", opts:["digital banking","internet transfer","online shopping","electronic payment"], ans:"electronic payment",
-   hint:"でんし (electronic) plus けっさい (settlement/payment), covering QR codes, IC cards, and mobile pay."},
+   hint:"でんし (e...) plus けっさい (settlement/p...), covering QR codes, IC cards, and mobile pay."},
 
   {type:"fb", s:"にほんかくちでスマート{1}のけいかくがすすんでいます。\n(Smart city plans are progressing throughout Japan.)", a:"シティ", opts:["シティ", "センター","タウン","ゾーン"], sSrc:"Smart city plans are progressing throughout Japan.",
    hint:"The second part of the English loanword compound meaning an intelligent, technology-integrated urban area."},

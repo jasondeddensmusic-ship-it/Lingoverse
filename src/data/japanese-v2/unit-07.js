@@ -1,4 +1,5 @@
 // Japanese V2 Unit 07. じかん (Time & Daily Routine)
+import BATCH2_L1 from './_batch2_u07_L01.js';
 // Level: A1.2. JLPT N5 aligned.
 // Telling time, daily routine verbs, time particles ni/kara/made.
 
@@ -196,5 +197,6 @@ const UNIT_07 = {
    hint:"Hachi-ji ni (at 8) + gakkou ni (to school) + ikimasu (go)."},
 ]},
 
+,BATCH2_L1
 ]};
 export default UNIT_07;

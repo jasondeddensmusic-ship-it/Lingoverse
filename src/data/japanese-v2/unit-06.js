@@ -1,4 +1,5 @@
 // Japanese V2 Unit 06. かぞく (Family)
+import BATCH2_L1 from './_batch2_u06_L01.js';
 // Level: A1.2. JLPT N5 aligned.
 // Family members, humble vs honorific forms, counting people.
 
@@ -197,5 +198,6 @@ const UNIT_06 = {
    hint:"The honorific form with a long vowel, for someone's elderly male relative."},
 ]},
 
+,BATCH2_L1
 ]};
 export default UNIT_06;

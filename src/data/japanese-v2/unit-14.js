@@ -1,4 +1,5 @@
 // Japanese V2 Unit 14. いけん (Opinions)
+import BATCH2_L1 from './_batch2_u14_L01.js';
 // Level: A2.2. JLPT N4 aligned.
 import JEXP_14_L1 from './_temp_u14_expand_L01.js';import JEXP_14_L2 from './_temp_u14_expand_L02.js';import JEXP_14_L3 from './_temp_u14_expand_L03.js';
 // と思う, と言う, でしょう, かもしれない.
@@ -162,5 +163,6 @@ const UNIT_14 = {
     text:"You can combine adverbs with sentence-end patterns for nuance:\nたぶんあめでしょう。(It will probably rain.) -- mid certainty\nきっとだいじょうぶでしょう。(It will surely be fine.) -- high certainty\nたぶんいけるかもしれない。(Maybe I can probably go.) -- low certainty\n\nAvoid doubling the same level: ぜったいでしょう sounds contradictory. If you are absolutely sure, use ぜったい with a plain statement."}},
 ]},
 
+,BATCH2_L1
 ]};
 export default UNIT_14;

@@ -1,4 +1,5 @@
 // Japanese V2 Unit 08. ばしょ (Places & Location)
+import BATCH2_L1 from './_batch2_u08_L01.js';
 // Level: A1.3. JLPT N5 aligned.
 // Places, location words, arimasu vs imasu.
 
@@ -184,5 +185,6 @@ const UNIT_08 = {
    hint:"Naka means the interior or i... of something."},
 ]},
 
+,BATCH2_L1
 ]};
 export default UNIT_08;

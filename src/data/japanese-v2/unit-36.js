@@ -82,7 +82,7 @@ const UNIT_36 = {
    hint:"This connector introduces an unexpected result that contradicts what came before."},
 
   {type:"mc", q:"じじつにもとづく means:", opts:["unrelated to facts","contrary to facts","in spite of facts","based on facts"], ans:"based on facts",
-   hint:"もとづく means 'to be grounded in,' and じじつ is the word for 'facts.'"},
+   hint:"もとづく means 'to be grounded in,' and じじつ is the word for 'f....'"},
 ]},
 
 // ═══ L2: Cross-Domain Synthesis & Exam Preparation ═══
@@ -174,7 +174,7 @@ const UNIT_36 = {
    hint:"とうごう combines 'unite' and 'combine,' describing the merging of two domains into a unified whole."},
 
   {type:"mc", q:"ちしきのちくせき means:", opts:["loss of knowledge","accumulation of knowledge","testing of knowledge","transfer of knowledge"], ans:"accumulation of knowledge",
-   hint:"ちくせき combines two kanji both meaning 'to store/pile up,' and ちしき means knowledge."},
+   hint:"ちくせき combines two kanji both meaning 'to store/pile up,' and ちしき means k...."},
 
   {type:"mc", q:"きょうようがある describes a person who:", opts:["is highly specialized in one field","has a university degree","is well-educated and broadly cultured","works in academia"], ans:"is well-educated and broadly cultured",
    hint:"きょうよう refers to breadth of cultural and intellectual knowledge, not just one field of expertise."},

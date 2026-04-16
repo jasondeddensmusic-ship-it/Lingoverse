@@ -165,7 +165,7 @@ const UNIT_34 = {
   {type:"match", pairs:[{trg:"たいし",src:"ambassador"},{trg:"さみっと",src:"summit"},{trg:"こうしょう",src:"negotiation"},{trg:"かいさい",src:"hosting (event)"}]},
 
   {type:"mc", q:"きこうへんどう means:", opts:["nuclear crisis","natural disaster","climate change","economic downturn"], ans:"climate change",
-   hint:"This compound uses 気候 (climate) plus the word for 'change/fluctuation,' related to the Kyoto Protocol."},
+   hint:"This compound uses 気候 (c...) plus the word for 'c.../fluctuation,' related to the Kyoto Protocol."},
 
   {type:"mc", q:"さみっと refers to:", opts:["a trade agreement","a UN resolution","a diplomatic crisis","an international summit meeting"], ans:"an international summit meeting",
    hint:"A loanword from English, this event brings world leaders together, such as the G7."},
