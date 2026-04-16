@@ -25,7 +25,7 @@ const BATCH2_L_2 = {
      funFact:"ライトノベル is a wasei-eigo (Japanese-coined English) term. These short novels feature anime-style illustrations and target young adult readers. Major ライトノベル publishers include Kadokawa and ASCII Media Works. Successful series like ソードアートオンライン and このすば sell millions of copies and drive the anime industry. ラノベ is a significant cultural export."},
 
     {type:"mc", q:"ほんかくミステリー emphasizes:", opts:["Fair-play puzzle solving with clues available to the reader","Horror and supernatural elements","Romantic subplots","Historical accuracy"], ans:"Fair-play puzzle solving with clues available to the reader",
-     hint:"This subgenre focuses on logical deduction, giving readers all the clues needed to solve the mystery."},
+     hint:"This subgenre focuses on logical deduction, giving readers all the c... needed to solve the mystery."},
 
     {type:"teach", trg:"じょそう", src:"mood / atmosphere / overtone (literary)", pos:"noun", gender:null,
      note:"Kanji: 叙情. じょじょうてき = lyrical.\nさくひんのじょじょう = the lyricism of a work.",

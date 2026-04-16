@@ -124,7 +124,7 @@ const BATCH3_L_1 = {
 
     {type:"mc", q:"かぞくはなんにんですか means:", opts:["Do you have a family?","Who is your family?","Where does your family live?","How many people are in your family?"],
      ans:"How many people are in your family?",
-     hint:"Nannin means 'how many people.' Kazoku is family."},
+     hint:"Nannin means 'how many p....' Kazoku is f...."},
   ]
 };
 export default BATCH3_L_1;

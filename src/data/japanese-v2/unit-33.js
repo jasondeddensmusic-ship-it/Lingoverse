@@ -1,4 +1,6 @@
 // Japanese V2 Unit 33. ぶんがく (Literature & Poetry)
+import BATCH2_L02 from './_batch2_u33_L02.js';
+import BATCH2_L01 from './_batch2_u33_L01.js';
 // Level: B2.4. JLPT N2/N1 aligned.
 // さっか, しょうせつ, し, ひょうげん, ものがたり, こてん, ひゆ.
 
@@ -168,5 +170,7 @@ const UNIT_33 = {
    hint:"The compound of two kanji both meaning 'to evaluate or comment,' used in literary analysis."},
 ]},
 
+,BATCH2_L01
+,BATCH2_L02
 ]};
 export default UNIT_33;

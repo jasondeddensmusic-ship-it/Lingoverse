@@ -25,7 +25,7 @@ const BATCH2_L_4 = {
      funFact:"かつて is a literary time marker that evokes a distant, often nostalgic past. Unlike まえ (before) or いぜん (previously), かつて carries emotional weight. The phrase かつてない (never before/unprecedented) is powerful in news and literature: かつてないきぼの (on an unprecedented scale). It signals something historically unique."},
 
     {type:"mc", q:"あたかも is used for:", opts:["Literary comparisons, more formal than まるで","Casual everyday comparisons","Making direct statements","Asking polite questions"], ans:"Literary comparisons, more formal than まるで",
-     hint:"This adverb elevates similes to a literary register, creating vivid imagery in writing."},
+     hint:"This adverb elevates similes to a l... register, creating vivid imagery in writing."},
 
     {type:"teach", trg:"ひそか", src:"secret / quiet / private / hidden", pos:"adj", gender:null,
      note:"Kanji: 密か. ひそかにおもう = to secretly think.\nLiterary and emotional nuance.",

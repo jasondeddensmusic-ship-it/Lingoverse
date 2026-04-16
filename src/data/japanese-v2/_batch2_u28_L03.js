@@ -25,7 +25,7 @@ const BATCH2_L_3 = {
      funFact:"丁寧語 uses 丁寧 (polite/careful) and 語 (language). It is the foundation of polite Japanese: adding です and ます. While そんけいご and けんじょうご change the verb itself, ていねいご simply adds polite endings. Most Japanese learners master ていねいご first, then gradually add そんけいご and けんじょうご for professional and formal situations."},
 
     {type:"mc", q:"けんじょうご lowers:", opts:["the speaker's own actions","the listener's actions","the subject's actions","no one's actions"], ans:"the speaker's own actions",
-     hint:"This type of keigo expresses humility by making your own actions seem less important."},
+     hint:"This type of keigo expresses humility by making your own a... seem less important."},
 
     {type:"teach", trg:"おっしゃる", src:"to say (respectful keigo)", pos:"verb", gender:null,
      note:"Respectful form of いう. Used for the speech of superiors/clients.\nおっしゃるとおりです = as you say.",
@@ -67,7 +67,7 @@ const BATCH2_L_3 = {
      funFact:"ていただく adds humble nuance to てもらう (to receive the favor of). It frames the other person's action as a gift to you. This pattern is ubiquitous in formal Japanese: よんでいただけますか (could you read it for me?), きていただけると助かります (it would help if you could come). Mastering ていただく is a keigo milestone."},
 
     {type:"mc", q:"はいけんする is the humble form of:", opts:["みる (to see)","きく (to hear)","いう (to say)","する (to do)"], ans:"みる (to see)",
-     hint:"This humble verb literally means 'to see with worship,' lowering your act of looking."},
+     hint:"This humble verb literally means 'to s... with worship,' lowering your act of looking."},
 
     {type:"fb", s:"ひとつお{1}してもよろしいですか？\n(May I ask you one thing?)", a:"うかがい", opts:["うかがい","きき","たずね","しつもん"], sSrc:"May I ask you one thing?",
      hint:"The humble keigo verb replacing 'to ask,' showing deference to the listener."},

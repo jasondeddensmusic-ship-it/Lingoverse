@@ -1,4 +1,6 @@
 // Japanese V2 Unit 31. ほうりつ (Law & Legal System)
+import BATCH2_L02 from './_batch2_u31_L02.js';
+import BATCH2_L01 from './_batch2_u31_L01.js';
 // Level: B2.3. JLPT N2/N1 aligned.
 // ほう, けんぽう, さいばん, べんごし, はんけつ, けんり, ぎむ.
 
@@ -171,5 +173,7 @@ const UNIT_31 = {
    hint:"じょうやく is the word for a formal agreement between nations, requiring Diet ratification."},
 ]},
 
+,BATCH2_L01
+,BATCH2_L02
 ]};
 export default UNIT_31;

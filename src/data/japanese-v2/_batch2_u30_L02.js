@@ -25,7 +25,7 @@ const BATCH2_L_2 = {
      funFact:"正義 uses 正 (correct) and 義 (righteousness). In Japanese popular culture, せいぎのみかた (ally of justice) is a phrase associated with superhero anime and tokusatsu shows. Philosophically, the concept of せいぎ in Japan draws from both Confucian 義 (duty/righteousness) and Western natural law traditions."},
 
     {type:"mc", q:"だんじょびょうどう means:", opts:["Gender equality","Economic equality","Educational equality","Legal equality"], ans:"Gender equality",
-     hint:"だんじょ means 'male and female' combined with the word for equality."},
+     hint:"だんじょ means 'male and female' combined with the word for e...."},
 
     {type:"teach", trg:"じんけん", src:"human rights", pos:"noun", gender:null,
      note:"Kanji: 人権. きほんてきじんけん = fundamental human rights.\nじんけんしんがい = human rights violation.",
@@ -67,7 +67,7 @@ const BATCH2_L_2 = {
      funFact:"ジレンマ entered Japanese from the Greek 'dilemma' via English. Japanese philosophy and ethics courses use the famous 'trolley problem' (トロッコもんだい) to explore moral dilemmas. The Japanese approach to ジレンマ often seeks a 'third way' (だいさんのみち) that transcends the either/or choice, reflecting the cultural preference for harmony."},
 
     {type:"mc", q:"りょうしん means:", opts:["Conscience / moral sense","Intelligence","Social status","Legal knowledge"], ans:"Conscience / moral sense",
-     hint:"The compound of 'good' and 'heart,' describing your inner moral compass."},
+     hint:"The compound of 'good' and 'heart,' describing your inner m... compass."},
 
     {type:"fb", s:"しゃかい{1}はじだいとともにへんかします。\n(Social norms change with the times.)", a:"きはん", opts:["きはん","せいぎ","じんけん","びょうどう"], sSrc:"Social norms change with the times.",
      hint:"The noun meaning 'norm' or 'standard,' the unwritten rules that guide behavior."},

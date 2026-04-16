@@ -25,7 +25,7 @@ const BATCH2_L_4 = {
      funFact:"賃金 uses 賃 (wage/rent) and 金 (money). Japan's ちんぎん stagnation over the 'lost decades' has been a major economic concern. Real wages barely grew for 30 years, unlike most other developed nations. The government and businesses have recently been pushing for ちんあげ (wage increases), a term that dominates annual 'spring wage offensive' (春闘, しゅんとう) negotiations."},
 
     {type:"mc", q:"しゅうしんこよう describes:", opts:["Working at one company until retirement","Working part-time at multiple jobs","Self-employment","Government employment"], ans:"Working at one company until retirement",
-     hint:"This traditional system involves a company hiring you as a new graduate and keeping you for your entire career."},
+     hint:"This traditional system involves a c... hiring you as a new graduate and keeping you for your entire career."},
 
     {type:"teach", trg:"ざんぎょう", src:"overtime work", pos:"noun", gender:null,
      note:"Kanji: 残業. ざんぎょうする = to work overtime.\nサービスざんぎょう = unpaid overtime.",
@@ -61,7 +61,7 @@ const BATCH2_L_4 = {
      funFact:"働き方改革 is one of the most significant policy initiatives in recent Japanese history. The 2019 law addressed ざんぎょう caps, equal pay for equal work, and flexible work arrangements. The pandemic accelerated many reforms that had been slowly progressing. The phrase はたらきかた (how one works) has become a cultural buzzword."},
 
     {type:"mc", q:"ひせいきこよう includes:", opts:["Only full-time permanent employees","Part-time, contract, and dispatch workers","Only government workers","Self-employed entrepreneurs"], ans:"Part-time, contract, and dispatch workers",
-     hint:"Non-regular employment covers all workers who are not permanent full-time employees."},
+     hint:"Non-regular employment covers all w... who are not permanent full-t... employees."},
 
     {type:"teach", trg:"ふくりこうせい", src:"employee benefits / fringe benefits", pos:"noun", gender:null,
      note:"Kanji: 福利厚生. Includes health insurance, housing allowances, transport subsidies.\nCompany benefits beyond salary.",

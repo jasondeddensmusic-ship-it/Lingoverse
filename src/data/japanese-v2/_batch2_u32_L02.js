@@ -25,7 +25,7 @@ const BATCH2_L_2 = {
      funFact:"カウンセリング adoption in Japan has been slower than in Western countries due to cultural factors: the value of がまん (endurance), reluctance to share personal problems, and the perception that seeking help is weak. School カウンセラー have been deployed since 1995, and workplace Employee Assistance Programs (EAP) are growing."},
 
     {type:"mc", q:"こころのかぜ was used in Japan to:", opts:["Describe a physical illness","Destigmatize depression by comparing it to a common cold","Promote physical exercise","Name a new medication"], ans:"Destigmatize depression by comparing it to a common cold",
-     hint:"This metaphor frames depression as ordinary and treatable, reducing the stigma of mental illness."},
+     hint:"This metaphor frames d... as ordinary and treatable, reducing the stigma of mental illness."},
 
     {type:"teach", trg:"ストレス", src:"stress", pos:"noun", gender:null,
      note:"Loanword from English. ストレスかいしょう = stress relief.\nストレスチェック = stress check (mandatory workplace test).",
@@ -61,7 +61,7 @@ const BATCH2_L_2 = {
      funFact:"福祉 uses 福 (fortune/blessing) and 祉 (happiness). Japan's しゃかいふくし system covers healthcare, pensions, unemployment, and long-term care. The かいごほけん (long-term care insurance) system, introduced in 2000, was a world-first. As Japan's population ages, ふくし spending continues to grow, creating fiscal pressures."},
 
     {type:"mc", q:"ひきこもり refers to:", opts:["People who exercise excessively","People who withdraw from social life for extended periods","People who work too much","People who travel frequently"], ans:"People who withdraw from social life for extended periods",
-     hint:"This Japanese phenomenon involves staying in one's room, avoiding social contact for months or years."},
+     hint:"This Japanese phenomenon involves staying in one's room, avoiding s... contact for months or years."},
 
     {type:"fb", s:"にほんでは{1}よぼうたいさくがきょうかされています。\n(Suicide prevention measures are being strengthened in Japan.)", a:"じさつ", opts:["じさつ","びょうき","ストレス","うつ"], sSrc:"Suicide prevention measures are being strengthened in Japan.",
      hint:"The term for taking one's own life, a significant public health concern in Japan."},

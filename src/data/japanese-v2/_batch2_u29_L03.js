@@ -25,7 +25,7 @@ const BATCH2_L_3 = {
      funFact:"預金 uses 預 (entrust/deposit) and 金 (money). Japanese households historically have high よきん rates, preferring the safety of bank deposits over stock investments. The phrase タンスよきん (tansu deposits, keeping cash at home in a chest) describes the estimated billions of yen that Japanese people keep as physical cash outside the banking system."},
 
     {type:"mc", q:"きんゆうせいさく means:", opts:["Monetary policy","Tax collection","Trade regulation","Budget allocation"], ans:"Monetary policy",
-     hint:"きんゆう (finance) + せいさく (policy) describes government/central bank management of money supply."},
+     hint:"きんゆう (finance) + せいさく (p...) describes government/central bank management of money supply."},
 
     {type:"teach", trg:"かわせ", src:"currency exchange / foreign exchange", pos:"noun", gender:null,
      note:"Kanji: 為替. かわせレート = exchange rate.\nえんだか = strong yen. えんやす = weak yen.",
@@ -61,7 +61,7 @@ const BATCH2_L_3 = {
      funFact:"資産 uses 資 (resources/capital) and 産 (produce/property). Japan's household しさん exceeds 2,000 trillion yen, one of the largest pools of savings in the world. The government has been encouraging households to shift from よきん (deposits) to とうし (investment) through programs like NISA (少額投資非課税制度), a tax-free investment account."},
 
     {type:"mc", q:"えんやす means:", opts:["Yen appreciation (strong yen)","Yen depreciation (weak yen)","Stable yen","Digital yen"], ans:"Yen depreciation (weak yen)",
-     hint:"やす means 'cheap/low,' so えんやす describes the yen losing value against other currencies."},
+     hint:"やす means 'cheap/low,' so えんやす describes the y... losing value against other currencies."},
 
     {type:"fb", s:"にほんのしょうひ{1}はじゅうパーセントです。\n(Japan's consumption tax is 10%.)", a:"ぜい", opts:["ぜい","きん","りつ","ぜいきん"], sSrc:"Japan's consumption tax is 10%.",
      hint:"The word for 'tax,' part of the compound しょうひぜい (consumption tax)."},

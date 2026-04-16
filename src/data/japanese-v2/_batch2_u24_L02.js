@@ -82,7 +82,7 @@ const BATCH2_L_2 = {
     {type:"match", pairs:[{trg:"をはじめ",src:"starting with"},{trg:"をふまえて",src:"taking into account"},{trg:"いじょうのことから",src:"from the above"},{trg:"せっとくりょく",src:"persuasiveness"}]},
 
     {type:"mc", q:"をふまえて differs from にもとづいて because:", opts:["They are identical","をふまえて implies actively building upon past knowledge; にもとづいて simply states a foundation","をふまえて is casual; にもとづいて is formal","をふまえて is for negatives only"], ans:"をふまえて implies actively building upon past knowledge; にもとづいて simply states a foundation",
-     hint:"踏まえて (step upon) is more dynamic than 基づいて (be based on). One actively builds; the other simply references."},
+     hint:"踏まえて (step u...) is more dynamic than 基づいて (be based on). One a... builds; the other s... references."},
   ]
 };
 export default BATCH2_L_2;

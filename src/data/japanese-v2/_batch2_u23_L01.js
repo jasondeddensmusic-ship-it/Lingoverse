@@ -82,7 +82,7 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"けいけん",src:"experience"},{trg:"もくてき",src:"purpose"},{trg:"かち",src:"value/worth"},{trg:"えいきょう",src:"influence"}]},
 
     {type:"mc", q:"どりょくは裏切らない is a popular saying meaning:", opts:["Effort is useless","Effort does not betray (hard work always pays off)","Effort is betrayal","Only talent matters"], ans:"Effort does not betray (hard work always pays off)",
-     hint:"This beloved motivational phrase reflects Japan's cultural emphasis on effort over natural talent."},
+     hint:"This beloved motivational phrase reflects Japan's cultural emphasis on e... over natural talent."},
   ]
 };
 export default BATCH2_L_1;

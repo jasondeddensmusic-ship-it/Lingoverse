@@ -1,4 +1,6 @@
 // Japanese V2 Unit 35. じょうほうしゃかい (Information Society)
+import BATCH2_L02 from './_batch2_u35_L02.js';
+import BATCH2_L01 from './_batch2_u35_L01.js';
 // Level: B2.4. JLPT N2/N1 aligned.
 // じんこうちのう, プライバシー, サイバー, デジタル, こじんじょうほう, フェイクニュース, ビッグデータ.
 
@@ -174,5 +176,7 @@ const UNIT_35 = {
    hint:"The kanji compound for 'special anomalous point,' also expressed as the loanword シンギュラリティ."},
 ]},
 
+,BATCH2_L01
+,BATCH2_L02
 ]};
 export default UNIT_35;

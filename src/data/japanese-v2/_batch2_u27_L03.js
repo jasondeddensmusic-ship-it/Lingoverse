@@ -25,7 +25,7 @@ const BATCH2_L_3 = {
      funFact:"太陽光 uses 太陽 (sun) and 光 (light). Japan became one of the world's largest solar markets after Fukushima. The sight of たいようこうパネル on rooftops, in fields, and even floating on lakes has become common. Meガソーラー (mega-solar, large-scale solar farms) have transformed some rural landscapes, sparking both environmental benefits and local land-use debates."},
 
     {type:"mc", q:"げんぱつ is short for:", opts:["原子力発電所 (nuclear power plant)","原子番号 (atomic number)","原始林 (primeval forest)","原価計算 (cost accounting)"], ans:"原子力発電所 (nuclear power plant)",
-     hint:"This abbreviation combines the first kanji of each word in the full compound for a nuclear facility."},
+     hint:"This abbreviation combines the first kanji of each word in the full compound for a n... facility."},
 
     {type:"teach", trg:"ふうりょく", src:"wind power", pos:"noun", gender:null,
      note:"Kanji: 風力. ふうりょくはつでん = wind power generation.\nふうしゃ = windmill / wind turbine.",
@@ -61,7 +61,7 @@ const BATCH2_L_3 = {
      funFact:"削減 uses 削 (shave/cut) and 減 (decrease). In Japanese policy and business, さくげん is a key action word. Budget cuts (よさんさくげん), staff reductions (じんいんさくげん), and emissions reductions (はいしゅつさくげん) all use this term. The nuance is deliberate, planned reduction rather than passive decline."},
 
     {type:"mc", q:"しょうエネ is an abbreviation for:", opts:["省エネルギー (energy conservation)","消費エネルギー (consumed energy)","商業エネルギー (commercial energy)","小エネルギー (small energy)"], ans:"省エネルギー (energy conservation)",
-     hint:"The first kanji 省 means 'to conserve/save,' creating a compound about using less energy."},
+     hint:"The first kanji 省 means 'to conserve/save,' creating a compound about using less e...."},
 
     {type:"fb", s:"CO2はいしゅつりょうの{1}をめざしています。\n(Aiming to reduce CO2 emissions.)", a:"さくげん", opts:["さくげん","ぞうか","かくだい","けいぞく"], sSrc:"Aiming to reduce CO2 emissions.",
      hint:"The noun meaning 'reduction' or 'cutback,' the deliberate act of making something smaller."},

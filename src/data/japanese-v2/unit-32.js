@@ -1,4 +1,6 @@
 // Japanese V2 Unit 32. いがく (Medicine & Health Science)
+import BATCH2_L02 from './_batch2_u32_L02.js';
+import BATCH2_L01 from './_batch2_u32_L01.js';
 // Level: B2.4. JLPT N2/N1 aligned.
 // しんさつ, しょうじょう, しゅじゅつ, くすり, けんこうしんだん, よぼう, ちりょう.
 
@@ -183,5 +185,7 @@ const UNIT_32 = {
    hint:"The noun describing how a pathogen spreads from one person to another."},
 ]},
 
+,BATCH2_L01
+,BATCH2_L02
 ]};
 export default UNIT_32;

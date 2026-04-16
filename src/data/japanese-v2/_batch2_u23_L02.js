@@ -82,7 +82,7 @@ const BATCH2_L_2 = {
     {type:"match", pairs:[{trg:"つかいかた",src:"how to use"},{trg:"いきかた",src:"way of living"},{trg:"のにじかんがかかる",src:"takes time to do"},{trg:"みらい",src:"future"}]},
 
     {type:"mc", q:"いきかた is a profound word because:", opts:["It means 'walking style'","It refers to your life philosophy and how you choose to exist","It is a casual greeting","It describes physical exercise"], ans:"It refers to your life philosophy and how you choose to exist",
-     hint:"生き方 goes beyond 'lifestyle' to encompass values, philosophy, and existential choices."},
+     hint:"生き方 goes beyond 'lifestyle' to encompass values, p..., and existential choices."},
   ]
 };
 export default BATCH2_L_2;

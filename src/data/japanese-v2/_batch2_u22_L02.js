@@ -82,7 +82,7 @@ const BATCH2_L_2 = {
     {type:"match", pairs:[{trg:"ていただけないでしょうか",src:"would it be possible?"},{trg:"かねます",src:"cannot do (polite firm)"},{trg:"ようじ",src:"errand/something to do"},{trg:"きがすすまない",src:"not feel like doing"}]},
 
     {type:"mc", q:"せっかくですが functions as:", opts:["An enthusiastic acceptance","A gracious preface before declining","A formal greeting","A way to ask for more information"], ans:"A gracious preface before declining",
-     hint:"せっかく acknowledges the other's kind effort before the speaker gently turns down the offer."},
+     hint:"せっかく acknowledges the other's kind effort b... the speaker gently turns down the offer."},
   ]
 };
 export default BATCH2_L_2;

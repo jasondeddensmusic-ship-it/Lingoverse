@@ -1,4 +1,6 @@
 // Japanese V2 Unit 26. ニュース (News & Media)
+import BATCH2_L04 from './_batch2_u26_L04.js';
+import BATCH2_L03 from './_batch2_u26_L03.js';
 import EXP_L3 from './_temp_u26_expand_L01.js';import EXP_L4 from './_temp_u26_expand_L02.js';import EXP_L5 from './_temp_u26_expand_L03.js';
 // Level: B2.1. JLPT N2 aligned.
 // ほうどう, きじ, とくしゅう, しゃせつ, せいさく, こっかい, formal expressions.
@@ -128,5 +130,7 @@ const UNIT_26 = {
 ]},
 
 ,EXP_L3,EXP_L4,EXP_L5
+,BATCH2_L03
+,BATCH2_L04
 ]};
 export default UNIT_26;

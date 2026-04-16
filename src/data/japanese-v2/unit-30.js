@@ -1,4 +1,6 @@
 // Japanese V2 Unit 30. てつがく (Philosophy & Abstract Thought)
+import BATCH2_L02 from './_batch2_u30_L02.js';
+import BATCH2_L01 from './_batch2_u30_L01.js';
 // Level: B2.3. JLPT N2/N1 aligned.
 // そんざい, がいねん, ろんり, しゅかん, きゃっかん, ほんしつ, かち.
 
@@ -210,5 +212,7 @@ const UNIT_30 = {
    hint:"The word combining 'way/path' and 'virtue,' also the name of a school subject in Japan."},
 ]},
 
+,BATCH2_L01
+,BATCH2_L02
 ]};
 export default UNIT_30;

@@ -1,4 +1,6 @@
 // Japanese V2 Unit 24. つなぎ (Advanced Connectors)
+import BATCH2_L04 from './_batch2_u24_L04.js';
+import BATCH2_L03 from './_batch2_u24_L03.js';
 import EXP_L3 from './_temp_u24_expand_L01.js';import EXP_L4 from './_temp_u24_expand_L02.js';import EXP_L5 from './_temp_u24_expand_L03.js';
 // Level: B1.3. JLPT N3 aligned.
 // にもかかわらず, 一方で, したがって, つまり, ところが, そのうえ.
@@ -125,5 +127,7 @@ const UNIT_24 = {
 ]},
 
 ,EXP_L3,EXP_L4,EXP_L5
+,BATCH2_L03
+,BATCH2_L04
 ]};
 export default UNIT_24;

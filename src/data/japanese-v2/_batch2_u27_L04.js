@@ -80,7 +80,7 @@ const BATCH2_L_4 = {
     {type:"match", pairs:[{trg:"おせん",src:"pollution"},{trg:"はいすい",src:"wastewater"},{trg:"さとやま",src:"satoyama (rural landscape)"},{trg:"きょうせい",src:"coexistence"}]},
 
     {type:"mc", q:"さとやま is valued internationally as:", opts:["A model of sustainable human-nature coexistence","A type of Japanese garden","A farming technique","A nature reserve with no human activity"], ans:"A model of sustainable human-nature coexistence",
-     hint:"This landscape shows how humans and nature can thrive together through managed use."},
+     hint:"This landscape shows how humans and n... can thrive together through managed use."},
   ]
 };
 export default BATCH2_L_4;

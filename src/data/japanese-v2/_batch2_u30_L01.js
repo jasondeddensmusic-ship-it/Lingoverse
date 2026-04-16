@@ -25,7 +25,7 @@ const BATCH2_L_1 = {
      funFact:"理性 uses 理 (reason/principle) and 性 (nature/quality). In Kantian philosophy translated into Japanese, りせい represents 'Vernunft' (reason). The tension between りせい and かんじょう (emotion) is a universal theme, but Japanese culture often values a third path: ちょっかん (intuition), which transcends both reason and emotion."},
 
     {type:"mc", q:"こていかんねん means:", opts:["Fixed notion / preconception","Free thinking","New concept","Abstract theory"], ans:"Fixed notion / preconception",
-     hint:"こてい means 'fixed/rigid' combined with the word for notion, describing stubborn preconceptions."},
+     hint:"こてい means 'f.../rigid' combined with the word for n..., describing stubborn preconceptions."},
 
     {type:"teach", trg:"ぜんあく", src:"good and evil / right and wrong", pos:"noun", gender:null,
      note:"Kanji: 善悪. ぜんあくのはんだん = moral judgment.\nFrom Buddhist and Confucian traditions.",
@@ -67,7 +67,7 @@ const BATCH2_L_1 = {
      funFact:"無意識 uses 無 (without) and 意識 (consciousness). When Freud's works were translated into Japanese in the early 20th century, むいしき became a key term in Japanese intellectual discourse. The concept fascinated Japanese thinkers because it resonated with Zen Buddhist ideas about layers of awareness beneath conscious thought."},
 
     {type:"mc", q:"ちょっかん is valued in Japanese culture because:", opts:["It replaces the need for education","It represents knowledge gained through deep practice and experience","It is always more accurate than logic","It requires no effort to develop"], ans:"It represents knowledge gained through deep practice and experience",
-     hint:"Intuition in Japanese culture is not random but is developed through years of dedicated practice."},
+     hint:"Intuition in Japanese culture is not random but is developed t... years of dedicated p...."},
 
     {type:"fb", s:"へんけんをなくすためには{1}がじゅうようです。\n(Education is important for eliminating prejudice.)", a:"きょういく", opts:["きょういく","けいけん","ちょっかん","しんねん"], sSrc:"Education is important for eliminating prejudice.",
      hint:"The noun for the systematic process of teaching and learning."},

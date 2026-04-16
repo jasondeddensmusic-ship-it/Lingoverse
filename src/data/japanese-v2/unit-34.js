@@ -1,4 +1,6 @@
 // Japanese V2 Unit 34. こくさいかんけい (International Relations)
+import BATCH2_L02 from './_batch2_u34_L02.js';
+import BATCH2_L01 from './_batch2_u34_L01.js';
 // Level: B2.4. JLPT N2/N1 aligned.
 // がいこう, こくれん, じょうやく, ふんそう, きょうりょく, えんじょ, あんぜんほしょう.
 
@@ -177,5 +179,7 @@ const UNIT_34 = {
    hint:"The verb combining 'open' and 'sponsor,' used when a city or country organizes a major international e...."},
 ]},
 
+,BATCH2_L01
+,BATCH2_L02
 ]};
 export default UNIT_34;

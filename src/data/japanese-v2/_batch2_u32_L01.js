@@ -25,7 +25,7 @@ const BATCH2_L_1 = {
      funFact:"ワクチン entered Japanese from German, not English. Japan's ワクチン policy has been cautious: the country was slower than many Western nations to approve COVID vaccines, reflecting a cultural preference for thorough safety review. Japan has strong よぼうせっしゅ (vaccination) programs for children, though the HPV vaccine faced controversy due to reported side effects."},
 
     {type:"mc", q:"こうしゅうえいせい focuses on:", opts:["Individual medical treatment","Protecting community and population health","Pharmaceutical development","Hospital management"], ans:"Protecting community and population health",
-     hint:"This field deals with the health of the public as a whole, not individual patients."},
+     hint:"This field deals with the h... of the public as a whole, not individual patients."},
 
     {type:"teach", trg:"りゅうこう", src:"epidemic / trend / fashion", pos:"noun", gender:null,
      note:"Kanji: 流行. りゅうこうする = to spread/become popular.\nインフルエンザのりゅうこう = flu epidemic.",

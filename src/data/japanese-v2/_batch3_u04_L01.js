@@ -117,7 +117,7 @@ const BATCH3_L_1 = {
 
     {type:"mc", q:"いらっしゃいませ is said by:", opts:["The customer when entering","Store staff to greeting customers","The cashier when giving change","Both the customer and staff"],
      ans:"Store staff to greeting customers",
-     hint:"This welcome phrase is directed FROM staff TO customers. No reply is expected."},
+     hint:"This welcome phrase is directed FROM s... TO c.... No reply is expected."},
   ]
 };
 export default BATCH3_L_1;

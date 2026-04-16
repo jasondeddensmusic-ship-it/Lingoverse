@@ -61,7 +61,7 @@ const BATCH2_L_2 = {
      funFact:"賃貸 uses 賃 (rent/wage) and 貸 (lend). Japanese ちんたい culture has unique elements: しきけいきん (security deposit, refundable), れいきん (key money, non-refundable gift to landlord), and ちゅうかいてすうりょう (agent fee). The れいきん system is declining but still common, especially in Tokyo."},
 
     {type:"mc", q:"わかい is preferred in Japan because:", opts:["Courts are too expensive","Japanese culture values harmony over confrontation","Lawyers are not available","Laws do not allow lawsuits"], ans:"Japanese culture values harmony over confrontation",
-     hint:"The kanji 和 (harmony) in わかい reflects the cultural preference for peaceful resolution."},
+     hint:"The kanji 和 (h...) in わかい reflects the cultural preference for peaceful resolution."},
 
     {type:"fb", s:"このせいひんにはにねんかんの{1}がつきます。\n(This product comes with a two-year warranty.)", a:"ほしょう", opts:["ほしょう","けいやく","いはん","そしょう"], sSrc:"This product comes with a two-year warranty.",
      hint:"The noun meaning 'guarantee' or 'warranty,' a promise of quality or service."},
