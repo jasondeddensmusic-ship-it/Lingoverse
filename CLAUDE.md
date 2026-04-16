@@ -289,10 +289,10 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Dutch | v2 | 89 | 5,106 | mock | COMPLETE. Grammar needs teacher-board rewrite. |
 | French | v2 | 90 | 5,036 | 52 entries | COMPLETE. 98% of German. |
 | Spanish | v2 | 92 | 5,124 | 53 entries | COMPLETE. 100% of German. |
-| Italian | v2 | 32 | 1,129 | 12 entries | NEW. A1+A2 expanded. B1+B2 thin — density expansion needed. |
-| Japanese | v2 | 29 | 892 | 20 entries | NEW. A1+A2 expanded. B1+B2 thin — density expansion needed. |
+| Italian | v2 | 36 | 5,013 | 12 entries | DENSITY DONE. Needs: Foundations, dialogue scaling, grammar expansion. |
+| Japanese | v2 | 36 | 4,978 | 20 entries | DENSITY DONE. Needs: Foundations (CRITICAL), kanji in examples, grammar expansion. |
 
-**Grand total: ~22,500+ teach cards across ~493 units (7 languages). Build passes.**
+**Grand total: ~30,500+ teach cards across 7 languages (36 units each). Build passes.**
 **Grammar modules: 300 entries across 7 languages.**
 
 ### Build History (compact)
@@ -318,7 +318,7 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 
 ## Next Priorities (updated 2026-04-15)
 
-> Latest handoff: `docs/SESSION_HANDOFF_2026-04-15c.md`. 7 languages live, 22,500+ cards.
+> Latest handoff: `docs/SESSION_HANDOFF_2026-04-16.md`. 7 languages at ~5K each, 30,500+ cards total.
 
 ### ACTIVE: Italian + Japanese Density Expansion
 1. **Italian B1+B2 density** — 20 units need 3 more lessons each (~1,200 new cards)
@@ -379,7 +379,7 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-15c.md`** — **LATEST HANDOFF.** 7 languages live, 22,500+ cards. Exact next-agent instructions.
+- **`docs/SESSION_HANDOFF_2026-04-16.md`** — **LATEST HANDOFF.** 7 languages at ~5K each. Polish priorities + next language expansion plan.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
 - **`docs/BUILD_STATUS.md`** — Full build history per language (updated 2026-04-15).
 - **`docs/PRODUCT_PLAN.md`** — Business model, monetization, premium features roadmap.
@@ -413,7 +413,7 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Read `docs/SESSION_HANDOFF_2026-04-15c.md` for latest context and exact next-agent instructions.
+2. Read `docs/SESSION_HANDOFF_2026-04-16.md` for latest context and exact next-agent instructions.
 3. Check memory files (`~/.claude/projects/.../memory/`).
 4. Before audits: follow Rule A (grep actual code, never trust docs alone).
 5. Before content: re-read Pipeline Rules above.
