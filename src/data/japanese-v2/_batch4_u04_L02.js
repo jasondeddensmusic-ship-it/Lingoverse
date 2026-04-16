@@ -117,7 +117,7 @@ const BATCH4_L_2 = {
 
     {type:"mc", q:"What is the traditional Japanese name for brown?",
      opts:["tea-color (ちゃいろ)","earth-color","wood-color","mud-color"], ans:"tea-color (ちゃいろ)",
-     hint:"Named after the color of a beloved hot beverage in Japan."},
+     hint:"Named after the c... of a beloved hot beverage in Japan."},
 
     {type:"mc", q:"かっこいい is best translated as:",
      opts:["cool / good-looking","cute","strange","scary"], ans:"cool / good-looking",

@@ -74,7 +74,7 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"かたより",src:"bias/imbalance"},{trg:"きせい",src:"regulation"},{trg:"じりつがた",src:"autonomous"},{trg:"データしゅけん",src:"data sovereignty"}]},
 
     {type:"mc", q:"The main concern about じりつがたAI is:", opts:["It costs too much","Loss of human oversight and control","It is too slow","It uses too much electricity"], ans:"Loss of human oversight and control",
-     hint:"Autonomous systems that operate without human supervision raise fundamental ethical questions."},
+     hint:"Autonomous systems that operate without h... supervision raise fundamental ethical questions."},
   ]
 };
 export default BATCH2_L_1;

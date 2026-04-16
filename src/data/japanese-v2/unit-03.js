@@ -1,4 +1,6 @@
 // Japanese V2 Unit 03. これはなんですか (What is this?)
+import BATCH4_L02 from './_batch4_u03_L02.js';
+import BATCH4_L01 from './_batch4_u03_L01.js';
 import BATCH3_L1 from './_batch3_u03_L01.js';
 // Level: A1.1. JLPT N5 aligned.
 import JEXP_03_L1 from './_temp_u03_expand_L01.js';import JEXP_03_L2 from './_temp_u03_expand_L02.js';import JEXP_03_L3 from './_temp_u03_expand_L03.js';import JEXP_03_L4 from './_temp_u03_expand_L04.js';
@@ -217,5 +219,7 @@ const UNIT_03 = {
 ]},
 
 ,BATCH3_L1
+,BATCH4_L01
+,BATCH4_L02
 ]};
 export default UNIT_03;

@@ -1,4 +1,6 @@
 // Japanese V2 Unit 05. たべもの (Food & Drink)
+import BATCH4_L02 from './_batch4_u05_L02.js';
+import BATCH4_L01 from './_batch4_u05_L01.js';
 import BATCH3_L1 from './_batch3_u05_L01.js';
 // Level: A1.2. JLPT N5 aligned.
 import JEXP_05_L1 from './_temp_u05_expand_L01.js';import JEXP_05_L2 from './_temp_u05_expand_L02.js';import JEXP_05_L3 from './_temp_u05_expand_L03.js';
@@ -209,5 +211,7 @@ const UNIT_05 = {
 ]},
 
 ,BATCH3_L1
+,BATCH4_L01
+,BATCH4_L02
 ]};
 export default UNIT_05;

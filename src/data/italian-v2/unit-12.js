@@ -1,4 +1,6 @@
 // Italian V2 Unit 12. Essere al passato (Past with essere) (A2.2)
+import BATCH4_L02 from './_batch4_u12_L02.js';
+import BATCH4_L01 from './_batch4_u12_L01.js';
 import BATCH3_L02 from './_batch3_u12_L02.js';
 import BATCH3_L01 from './_batch3_u12_L01.js';
 // CILS/CELI A2 aligned. Passato prossimo with essere, movement verbs, agreement.

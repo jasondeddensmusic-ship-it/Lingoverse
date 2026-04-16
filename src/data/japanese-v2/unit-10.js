@@ -1,4 +1,6 @@
 // Japanese V2 Unit 10. てんき (Weather & Seasons)
+import BATCH4_L02 from './_batch4_u10_L02.js';
+import BATCH4_L01 from './_batch4_u10_L01.js';
 import BATCH2_L1 from './_batch2_u10_L01.js';
 // Level: A1.3. JLPT N5 aligned.
 // Weather vocabulary, seasons, temperature adjectives, months/days.
@@ -198,5 +200,7 @@ const UNIT_10 = {
 ]},
 
 ,BATCH2_L1
+,BATCH4_L01
+,BATCH4_L02
 ]};
 export default UNIT_10;

@@ -74,7 +74,7 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"かんじゃ",src:"patient"},{trg:"しぼうりつ",src:"mortality rate"},{trg:"げんいんきゅうめい",src:"cause investigation"},{trg:"しゅうだんめんえき",src:"herd immunity"}]},
 
     {type:"mc", q:"Japan's high life expectancy is attributed to:", opts:["Universal healthcare, diet, and public hygiene","Only advanced hospital technology","Warm climate throughout the country","Lack of stress in daily life"], ans:"Universal healthcare, diet, and public hygiene",
-     hint:"The combination of healthcare access, Japanese food culture, and strong hygiene practices."},
+     hint:"The combination of h... access, Japanese food culture, and strong h... practices."},
   ]
 };
 export default BATCH2_L_1;

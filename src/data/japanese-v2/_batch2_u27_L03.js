@@ -74,7 +74,7 @@ const BATCH2_L_3 = {
     {type:"match", pairs:[{trg:"でんりょく",src:"electric power"},{trg:"はいしゅつりょう",src:"emissions"},{trg:"しょうエネ",src:"energy conservation"},{trg:"さくげん",src:"reduction"}]},
 
     {type:"mc", q:"Japan's energy policy debate intensified after:", opts:["The 1995 Kobe earthquake","The 2011 Fukushima nuclear disaster","The 1973 oil crisis","The 2020 Olympics"], ans:"The 2011 Fukushima nuclear disaster",
-     hint:"This event led to the shutdown of all 54 nuclear reactors and a national rethinking of energy mix."},
+     hint:"This event led to the shutdown of all 54 n... reactors and a national rethinking of energy mix."},
   ]
 };
 export default BATCH2_L_3;

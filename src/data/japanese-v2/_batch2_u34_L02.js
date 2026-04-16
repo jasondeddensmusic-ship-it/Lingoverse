@@ -74,7 +74,7 @@ const BATCH2_L_2 = {
     {type:"match", pairs:[{trg:"ODA",src:"development assistance"},{trg:"にっちゅうかんけい",src:"Japan-China relations"},{trg:"しゅうだんてきじえいけん",src:"collective self-defense"},{trg:"けいざいけん",src:"economic zone"}]},
 
     {type:"mc", q:"Japan's ODA focuses especially on:", opts:["Military equipment","Infrastructure development and technical training","Direct cash payments","Agricultural subsidies"], ans:"Infrastructure development and technical training",
-     hint:"Japan's aid philosophy emphasizes teaching self-reliance through building systems and training people."},
+     hint:"Japan's aid philosophy emphasizes teaching self-reliance through building systems and t... people."},
   ]
 };
 export default BATCH2_L_2;

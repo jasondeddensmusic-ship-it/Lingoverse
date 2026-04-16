@@ -91,7 +91,7 @@ const BATCH2_L_2 = {
       text:"JLPT N1 requires approximately 10,000 vocabulary items and 200+ grammar patterns.\n\nYour B2 vocabulary covers the core academic and social vocabulary tested on N1. To continue:\n\n1. Vocabulary: Add 10-20 new words daily from N1 word lists.\n2. Grammar: Study the remaining N1 patterns (approximately 80-100 beyond what you have learned).\n3. Reading: Practice with full-length N1 reading sections. Focus on speed and accuracy.\n4. Listening: Train with NHK Radio News (slower pace) then TV news (natural speed).\n\nRemember: つみかさね. Consistent daily effort is the path to N1 ごうかく."}},
 
     {type:"mc", q:"The most important strategy for JLPT reading comprehension is:", opts:["Reading every word carefully from start to finish","First grasping the outline, then re-reading for details","Guessing all answers without reading","Only reading the questions, not the passages"], ans:"First grasping the outline, then re-reading for details",
-     hint:"がいようをつかむ (grasp the outline) first, then さいどく (re-read) for specific answers."},
+     hint:"がいようをつかむ (grasp the o...) f..., t... さいどく (re-read) for specific answers."},
   ]
 };
 export default BATCH2_L_2;

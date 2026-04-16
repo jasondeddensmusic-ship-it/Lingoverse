@@ -1,4 +1,6 @@
 // Japanese V2 Unit 11. て-けい (て-form)
+import BATCH4_L02 from './_batch4_u11_L02.js';
+import BATCH4_L01 from './_batch4_u11_L01.js';
 import BATCH2_L1 from './_batch2_u11_L01.js';
 // Level: A2.1. JLPT N4 aligned.
 import JEXP_11_L1 from './_temp_u11_expand_L01.js';import JEXP_11_L2 from './_temp_u11_expand_L02.js';import JEXP_11_L3 from './_temp_u11_expand_L03.js';
@@ -163,5 +165,7 @@ const UNIT_11 = {
 ]},
 
 ,BATCH2_L1
+,BATCH4_L01
+,BATCH4_L02
 ]};
 export default UNIT_11;

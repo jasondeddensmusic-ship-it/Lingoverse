@@ -1,4 +1,6 @@
 // Italian V2 Unit 05. A casa (At Home) (A1.2)
+import BATCH4_L02 from './_batch4_u05_L02.js';
+import BATCH4_L01 from './_batch4_u05_L01.js';
 import BATCH2_L02 from './_batch2_u05_L02.js';
 import BATCH2_L01 from './_batch2_u05_L01.js';
 // CILS/CELI A1 aligned. Rooms, furniture, location expressions.

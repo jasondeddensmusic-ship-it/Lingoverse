@@ -1,4 +1,6 @@
 // Japanese V2 Unit 14. いけん (Opinions)
+import BATCH4_L02 from './_batch4_u14_L02.js';
+import BATCH4_L01 from './_batch4_u14_L01.js';
 import BATCH2_L1 from './_batch2_u14_L01.js';
 // Level: A2.2. JLPT N4 aligned.
 import JEXP_14_L1 from './_temp_u14_expand_L01.js';import JEXP_14_L2 from './_temp_u14_expand_L02.js';import JEXP_14_L3 from './_temp_u14_expand_L03.js';
@@ -164,5 +166,7 @@ const UNIT_14 = {
 ]},
 
 ,BATCH2_L1
+,BATCH4_L01
+,BATCH4_L02
 ]};
 export default UNIT_14;

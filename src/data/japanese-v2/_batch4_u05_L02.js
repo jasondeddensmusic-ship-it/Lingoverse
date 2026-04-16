@@ -1,0 +1,127 @@
+// Batch 4 — Unit 05 Lesson 2: Restaurant & Ordering
+const BATCH4_L_2 = {
+  id:"jav2_u05l_b4_2", title:"レストラン", icon:"🍽️", xp:15, board:true,
+  steps:[
+    {type:"intro", title:"レストランで",
+     desc:"Learn essential vocabulary for eating out in Japan. From entering a restaurant to paying the bill, these phrases cover every step.",
+     goals:["Order food at a restaurant","Ask about the menu","Handle the bill and tipping customs"]},
+
+    {type:"teach", trg:"メニュー", src:"menu", pos:"noun", gender:null,
+     note:"From French/English 'menu.' Used in all types of restaurants.",
+     example:"メニューをみせてください。",
+     exampleSrc:"Please show me the menu.",
+     funFact:"Japanese restaurant menus often have plastic food models (食品サンプル) in display cases outside. This industry is worth billions of yen. The models are so realistic that tourists often try to touch them."},
+
+    {type:"teach", trg:"ちゅうもん", src:"order (at restaurant)", pos:"noun", gender:null,
+     note:"Kanji: 注文. Pour + sentence. Suru verb: ちゅうもんする.",
+     example:"ちゅうもんをおねがいします。",
+     exampleSrc:"I'd like to order, please.",
+     funFact:"In many Japanese restaurants, you press a button on the table to call the waiter. No flagging down staff or waiting to make eye contact. The button system is efficient and considered perfectly polite."},
+
+    {type:"teach", trg:"おすすめ", src:"recommendation", pos:"noun", gender:null,
+     note:"From すすめる (to recommend). The お adds politeness.",
+     example:"きょうのおすすめはなんですか？",
+     exampleSrc:"What is today's recommendation?",
+     funFact:"Asking 'osusume wa?' is the best way to order in Japan. Chefs take pride in their daily specials and seasonal ingredients. The osusume is often the freshest or most carefully prepared item."},
+
+    {type:"teach", trg:"ていしょく", src:"set meal", pos:"noun", gender:null,
+     note:"Kanji: 定食. Fixed + meal. A balanced meal with rice, soup, and sides.",
+     example:"やきざかなていしょくをおねがいします。",
+     exampleSrc:"I'll have the grilled fish set meal, please.",
+     funFact:"Teishoku is the standard Japanese lunch. It always includes rice, miso soup, a main dish, and pickled vegetables. It is designed to be nutritionally balanced. Most cost 700-1000 yen."},
+
+    {type:"teach", trg:"おかわり", src:"refill / second helping", pos:"noun", gender:null,
+     note:"From かわり (change/replacement) with polite お prefix.",
+     example:"ごはんのおかわりをおねがいします。",
+     exampleSrc:"A refill of rice, please.",
+     funFact:"Many restaurants offer free rice and miso soup refills (おかわり自由). The phrase 'okawari kudasai' is one of the most useful restaurant phrases. Some ramen shops even offer kaedama (noodle refills)."},
+
+    {type:"teach", trg:"おかんじょう", src:"the bill / check", pos:"noun", gender:null,
+     note:"Kanji: お勘定. Calculation. Also say おあいそ (informal) or チェック.",
+     example:"おかんじょうをおねがいします。",
+     exampleSrc:"The bill, please.",
+     funFact:"In Japan, the bill is usually placed face-down on the table or in a small tray. You pay at the register near the exit, not at the table. Splitting the bill (割り勘 warikan) is common among friends."},
+
+    {type:"teach", trg:"おはし", src:"chopsticks", pos:"noun", gender:null,
+     note:"Kanji: お箸. Hashi with polite お prefix. The standard eating utensils.",
+     example:"おはしのつかいかたをおしえてください。",
+     exampleSrc:"Please teach me how to use chopsticks.",
+     funFact:"Japanese chopstick etiquette has many rules: never stick them upright in rice (funeral ritual), never pass food chopstick-to-chopstick (another funeral association), never point with them. Breaking these rules is considered very bad manners."},
+
+    {type:"teach", trg:"おさら", src:"plate / dish", pos:"noun", gender:null,
+     note:"Kanji: お皿. Sara with polite prefix. Flat serving plate.",
+     example:"おさらをさげてください。",
+     exampleSrc:"Please clear the plates.",
+     funFact:"Japanese food presentation is an art. The saying 'you eat with your eyes first' (目で食べる) is taken literally. Plates are chosen to complement the food's colors and shapes. A meal might use 5 or more different plate styles."},
+
+    {type:"teach", trg:"おわん", src:"bowl (for soup/rice)", pos:"noun", gender:null,
+     note:"Kanji: お椀. A small deep bowl, usually lacquered wood.",
+     example:"おわんをもってスープをのみます。",
+     exampleSrc:"I hold the bowl and drink the soup.",
+     funFact:"Unlike Western soup bowls, Japanese owan are designed to be picked up and drunk from directly. No spoon needed for miso soup. Holding the bowl close to your mouth is proper etiquette, not rude."},
+
+    {type:"teach", trg:"なまもの", src:"raw food / uncooked food", pos:"noun", gender:null,
+     note:"Kanji: 生もの. Raw + thing. Includes sashimi and raw eggs.",
+     example:"なまものはだいじょうぶですか？",
+     exampleSrc:"Are you okay with raw food?",
+     funFact:"Japan's love of raw food extends beyond sushi. Raw egg over rice (卵かけご飯), raw horse meat (馬刺し), and even raw chicken (鶏刺し) in some regions. Japan's food safety standards make this possible."},
+
+    {type:"teach", trg:"アレルギー", src:"allergy", pos:"noun", gender:null,
+     note:"From German 'Allergie.' Important for dining out safely.",
+     example:"わたしはたまごアレルギーです。",
+     exampleSrc:"I have an egg allergy.",
+     funFact:"Japanese food labeling law requires marking 7 allergens (wheat, buckwheat, egg, milk, peanut, shrimp, crab) plus 21 recommended ones. Restaurant menus increasingly show allergy information in response to growing awareness."},
+
+    {type:"teach", trg:"べつべつ", src:"separately / split (the bill)", pos:"adv", gender:null,
+     note:"Kanji: 別々. Each + each. Used for separate checks or portions.",
+     example:"おかんじょうはべつべつでおねがいします。",
+     exampleSrc:"Separate checks, please.",
+     funFact:"Warikan (割り勘, splitting the bill) is the standard among friends in Japan. The concept of one person treating everyone is less common than in Western culture, especially among younger people."},
+
+    {type:"teach", trg:"もちかえり", src:"takeout / to-go", pos:"noun", gender:null,
+     note:"Kanji: 持ち帰り. Hold + return. Taking food home.",
+     example:"もちかえりでおねがいします。",
+     exampleSrc:"For takeout, please.",
+     funFact:"The Japanese tax system charges 8% for takeout but 10% for eat-in. This difference means many people order mochikaeri to save money. Convenience stores ask 'eat here or take out?' at every purchase."},
+
+    {type:"teach", trg:"まんぷく", src:"full (stomach)", pos:"adj", gender:null,
+     note:"Na-adjective. Kanji: 満腹. Full + belly.",
+     example:"もうまんぷくです。ごちそうさまでした。",
+     exampleSrc:"I'm already full. Thank you for the meal.",
+     funFact:"The Japanese eating principle is 'hara hachi bu' (腹八分), meaning eat until you are 80% full. This Okinawan practice is considered one of the secrets to Japanese longevity."},
+
+    {type:"mc", q:"What does ちゅうもん mean?",
+     opts:["order (at restaurant)","menu","bill","reservation"], ans:"order (at restaurant)",
+     hint:"What you do when you tell the waiter what you want to eat."},
+
+    {type:"fb", s:"{1}をおねがいします。", a:"おかんじょう",
+     sSrc:"The bill, please.",
+     opts:["おかんじょう","ちゅうもん","メニュー","おかわり"],
+     hint:"The word for the check or payment at a restaurant."},
+
+    {type:"match", pairs:[
+      {trg:"おはし", src:"chopsticks"},
+      {trg:"おさら", src:"plate"},
+      {trg:"おわん", src:"bowl"},
+      {trg:"メニュー", src:"menu"}
+    ]},
+
+    {type:"mc", q:"What is a ていしょく?",
+     opts:["a set meal with rice and sides","a single dish","a dessert","a drink"], ans:"a set meal with rice and sides",
+     hint:"A balanced Japanese m... combo that always includes r... and miso soup."},
+
+    {type:"fb", s:"ごはんの{1}をおねがいします。", a:"おかわり",
+     sSrc:"A refill of rice, please.",
+     opts:["おかわり","ちゅうもん","おすすめ","おかんじょう"],
+     hint:"The word for getting a second serving of something."},
+
+    {type:"mc", q:"アレルギー comes from which language?",
+     opts:["German","English","French","Dutch"], ans:"German",
+     hint:"Japan borrowed many medical terms from this European language."},
+
+    {type:"mc", q:"もちかえり means:",
+     opts:["takeout","delivery","reservation","waiting"], ans:"takeout",
+     hint:"Taking food home rather than eating at the restaurant."}
+  ]
+};
+export default BATCH4_L_2;

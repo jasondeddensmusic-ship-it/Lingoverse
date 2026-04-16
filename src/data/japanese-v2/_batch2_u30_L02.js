@@ -80,7 +80,7 @@ const BATCH2_L_2 = {
     {type:"match", pairs:[{trg:"さべつ",src:"discrimination"},{trg:"じゆういし",src:"free will"},{trg:"きはん",src:"norm"},{trg:"りょうしん",src:"conscience"}]},
 
     {type:"mc", q:"The Japanese approach to moral dilemmas often seeks:", opts:["The harshest punishment","A third way that transcends either/or choices","Complete avoidance of the issue","Majority rule decision"], ans:"A third way that transcends either/or choices",
-     hint:"Japanese culture often prefers harmony and synthesis over binary choices."},
+     hint:"Japanese culture often prefers harmony and synthesis over binary c...."},
   ]
 };
 export default BATCH2_L_2;

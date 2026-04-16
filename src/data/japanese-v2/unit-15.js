@@ -1,4 +1,6 @@
 // Japanese V2 Unit 15. ほうこう (Directions & Movement)
+import BATCH4_L02 from './_batch4_u15_L02.js';
+import BATCH4_L01 from './_batch4_u15_L01.js';
 import BATCH2_L1 from './_batch2_u15_L01.js';
 // Level: A2.2. JLPT N4 aligned.
 import JEXP_15_L1 from './_temp_u15_expand_L01.js';import JEXP_15_L2 from './_temp_u15_expand_L02.js';import JEXP_15_L3 from './_temp_u15_expand_L03.js';
@@ -170,5 +172,7 @@ const UNIT_15 = {
 ]},
 
 ,BATCH2_L1
+,BATCH4_L01
+,BATCH4_L02
 ]};
 export default UNIT_15;

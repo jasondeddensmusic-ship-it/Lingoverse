@@ -1,4 +1,6 @@
 // Japanese V2 Unit 16. けいかく (Plans & Intentions)
+import BATCH4_L02 from './_batch4_u16_L02.js';
+import BATCH4_L01 from './_batch4_u16_L01.js';
 import BATCH2_L1 from './_batch2_u16_L01.js';
 // Level: A2.2. JLPT N4 aligned.
 import JEXP_16_L1 from './_temp_u16_expand_L01.js';import JEXP_16_L2 from './_temp_u16_expand_L02.js';import JEXP_16_L3 from './_temp_u16_expand_L03.js';
@@ -170,5 +172,7 @@ const UNIT_16 = {
 ]},
 
 ,BATCH2_L1
+,BATCH4_L01
+,BATCH4_L02
 ]};
 export default UNIT_16;

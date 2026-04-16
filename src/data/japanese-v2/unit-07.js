@@ -1,4 +1,6 @@
 // Japanese V2 Unit 07. じかん (Time & Daily Routine)
+import BATCH4_L02 from './_batch4_u07_L02.js';
+import BATCH4_L01 from './_batch4_u07_L01.js';
 import BATCH2_L1 from './_batch2_u07_L01.js';
 // Level: A1.2. JLPT N5 aligned.
 // Telling time, daily routine verbs, time particles ni/kara/made.
@@ -198,5 +200,7 @@ const UNIT_07 = {
 ]},
 
 ,BATCH2_L1
+,BATCH4_L01
+,BATCH4_L02
 ]};
 export default UNIT_07;

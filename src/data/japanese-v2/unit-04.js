@@ -1,4 +1,6 @@
 // Japanese V2 Unit 04. いくらですか (How much is it?)
+import BATCH4_L02 from './_batch4_u04_L02.js';
+import BATCH4_L01 from './_batch4_u04_L01.js';
 import BATCH3_L1 from './_batch3_u04_L01.js';
 // Level: A1.1. JLPT N5 aligned.
 import JEXP_04_L1 from './_temp_u04_expand_L01.js';import JEXP_04_L2 from './_temp_u04_expand_L02.js';import JEXP_04_L3 from './_temp_u04_expand_L03.js';import JEXP_04_L4 from './_temp_u04_expand_L04.js';
@@ -219,5 +221,7 @@ const UNIT_04 = {
 ]},
 
 ,BATCH3_L1
+,BATCH4_L01
+,BATCH4_L02
 ]};
 export default UNIT_04;
