@@ -31,7 +31,7 @@ const BATCH2_L_2 = {
      funFact:"かんがえさせてください buys time and often signals reluctance. If someone says this after a simple request, they likely want to refuse but need time to find a polite way. However, it can also be genuine deliberation. Context and follow-up determine which. If no follow-up comes, it was a gentle no."},
 
     {type:"mc", q:"ちょっとむずかしいです in context usually means:", opts:["It is slightly difficult but possible","Definitely no (polite indirect refusal)","Please try harder","I need more information"], ans:"Definitely no (polite indirect refusal)",
-     hint:"This is the classic Japanese indirect refusal. ちょっと softens what is actually a firm no."},
+     hint:"This is the classic Japanese i... r.... ちょっと softens what is actually a firm no."},
 
     {type:"teach", trg:"もうしわけないのですが", src:"I am sorry but ~ (preface before refusing)", pos:"intj", gender:null,
      note:"もうしわけない (no excuse) + のですが (explanatory + but).\nSoftens the refusal that follows.",

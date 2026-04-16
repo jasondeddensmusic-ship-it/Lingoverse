@@ -1,4 +1,5 @@
 // Japanese V2 Unit 03. これはなんですか (What is this?)
+import BATCH3_L1 from './_batch3_u03_L01.js';
 // Level: A1.1. JLPT N5 aligned.
 import JEXP_03_L1 from './_temp_u03_expand_L01.js';import JEXP_03_L2 from './_temp_u03_expand_L02.js';import JEXP_03_L3 from './_temp_u03_expand_L03.js';import JEXP_03_L4 from './_temp_u03_expand_L04.js';
 // Demonstratives, common objects, nan desu ka, no particle, numbers 1-10.
@@ -215,5 +216,6 @@ const UNIT_03 = {
    hint:"Juu (ten) + ni (two) = twelve."},
 ]},
 
+,BATCH3_L1
 ]};
 export default UNIT_03;

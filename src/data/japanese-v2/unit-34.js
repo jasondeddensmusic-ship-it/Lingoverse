@@ -174,7 +174,7 @@ const UNIT_34 = {
    hint:"The common noun for a nation or country."},
 
   {type:"mc", q:"かいさいする means:", opts:["to hold/host an event","to attend an event","to cancel an event","to broadcast an event"], ans:"to hold/host an event",
-   hint:"The verb combining 'open' and 'sponsor,' used when a city or country organizes a major international event."},
+   hint:"The verb combining 'open' and 'sponsor,' used when a city or country organizes a major international e...."},
 ]},
 
 ]};

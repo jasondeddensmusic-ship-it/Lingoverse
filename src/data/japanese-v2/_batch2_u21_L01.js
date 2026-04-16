@@ -82,7 +82,7 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"へる",src:"to decrease"},{trg:"ふえる",src:"to increase"},{trg:"いみん",src:"immigration"},{trg:"しんこく",src:"serious/severe"}]},
 
     {type:"mc", q:"へる vs へらす: what is the difference?", opts:["They mean the same thing","へる = decrease naturally (intransitive); へらす = reduce deliberately (transitive)","へる is formal; へらす is casual","へる is past; へらす is present"], ans:"へる = decrease naturally (intransitive); へらす = reduce deliberately (transitive)",
-     hint:"Intransitive (it decreases by itself) vs. transitive (someone reduces it)."},
+     hint:"I... (it decreases by itself) vs. t... (someone reduces it)."},
   ]
 };
 export default BATCH2_L_1;

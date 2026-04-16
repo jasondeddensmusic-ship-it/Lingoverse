@@ -82,7 +82,7 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"すまない",src:"I feel bad/indebted"},{trg:"おかえしに",src:"in return"},{trg:"もうしわけない",src:"I have no excuse"},{trg:"ぎりチョコ",src:"obligation chocolate"}]},
 
     {type:"mc", q:"おかげさまでげんきです is notable because:", opts:["It is rude","It attributes your wellbeing to others, showing reflexive gratitude","It means you are sick","It is only used at funerals"], ans:"It attributes your wellbeing to others, showing reflexive gratitude",
-     hint:"Even answering 'how are you,' Japanese speakers thank the world/others for their wellbeing."},
+     hint:"Even answering 'how are you,' Japanese speakers thank the world/o... for their w...."},
   ]
 };
 export default BATCH2_L_1;

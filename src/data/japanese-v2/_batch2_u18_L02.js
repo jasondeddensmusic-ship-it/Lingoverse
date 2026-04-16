@@ -82,7 +82,7 @@ const BATCH2_L_2 = {
     {type:"match", pairs:[{trg:"こまらせる",src:"trouble someone"},{trg:"よろこばせる",src:"make happy"},{trg:"おこらせる",src:"make angry"},{trg:"かんどうてき",src:"moving/touching"}]},
 
     {type:"mc", q:"なかせる vs なかれる: what is the difference?", opts:["They mean the same thing","なかせる = make cry (causative); なかれる = be bothered by crying (adversity passive)","なかせる is polite; なかれる is casual","なかせる is past; なかれる is present"], ans:"なかせる = make cry (causative); なかれる = be bothered by crying (adversity passive)",
-     hint:"One form is causative (you cause the action); the other is adversity passive (you suffer from the action)."},
+     hint:"One form is c... (you cause the action); the other is a... p... (you suffer from the action)."},
   ]
 };
 export default BATCH2_L_2;

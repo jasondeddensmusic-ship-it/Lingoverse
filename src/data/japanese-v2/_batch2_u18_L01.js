@@ -82,7 +82,7 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"あそばせる",src:"let play"},{trg:"えらばせる",src:"let choose"},{trg:"りゅうがく",src:"study abroad"},{trg:"きょか",src:"permission"}]},
 
     {type:"mc", q:"やめさせる means:", opts:["to quit by oneself","to make someone quit / to fire","to ask to quit","to want to quit"], ans:"to make someone quit / to fire",
-     hint:"The causative of やめる. The subject forces or causes someone else to quit."},
+     hint:"The causative of やめる. The subject forces or causes s... else to q...."},
   ]
 };
 export default BATCH2_L_1;

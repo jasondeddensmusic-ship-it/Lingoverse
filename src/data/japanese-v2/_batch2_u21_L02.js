@@ -82,7 +82,7 @@ const BATCH2_L_2 = {
     {type:"match", pairs:[{trg:"テレワーク",src:"remote work"},{trg:"へんか",src:"change"},{trg:"かだい",src:"challenge"},{trg:"じんざい",src:"human resources"}]},
 
     {type:"mc", q:"テレワーク became widespread in Japan because of:", opts:["A new law in 2015","The 2020 Tokyo Olympics","The COVID-19 pandemic","A cultural tradition"], ans:"The COVID-19 pandemic",
-     hint:"Before the pandemic, remote work was rare in Japan's face-time work culture."},
+     hint:"Before the p..., remote work was rare in Japan's face-time work culture."},
   ]
 };
 export default BATCH2_L_2;

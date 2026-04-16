@@ -1,4 +1,5 @@
 // Japanese V2 Unit 05. たべもの (Food & Drink)
+import BATCH3_L1 from './_batch3_u05_L01.js';
 // Level: A1.2. JLPT N5 aligned.
 import JEXP_05_L1 from './_temp_u05_expand_L01.js';import JEXP_05_L2 from './_temp_u05_expand_L02.js';import JEXP_05_L3 from './_temp_u05_expand_L03.js';
 // Food vocabulary, drinks, eating verbs, taste adjectives, suki/kirai.
@@ -207,5 +208,6 @@ const UNIT_05 = {
    hint:"The body part that empties when you need to eat."},
 ]},
 
+,BATCH3_L1
 ]};
 export default UNIT_05;
