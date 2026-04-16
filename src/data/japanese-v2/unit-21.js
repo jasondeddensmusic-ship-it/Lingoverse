@@ -1,4 +1,6 @@
 // Japanese V2 Unit 21. しゃかい (Society & News)
+import BATCH5_L02 from './_batch5_u21_L02.js';
+import BATCH5_L01 from './_batch5_u21_L01.js';
 import BATCH2_L02 from './_batch2_u21_L02.js';
 import BATCH2_L01 from './_batch2_u21_L01.js';
 import EXP_L3 from './_temp_u21_expand_L01.js';import EXP_L4 from './_temp_u21_expand_L02.js';import EXP_L5 from './_temp_u21_expand_L03.js';
@@ -182,5 +184,7 @@ const UNIT_21 = {
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01
 ,BATCH2_L02
+,BATCH5_L01
+,BATCH5_L02
 ]};
 export default UNIT_21;

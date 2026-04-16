@@ -1,4 +1,6 @@
 // Japanese V2 Unit 32. いがく (Medicine & Health Science)
+import BATCH5_L02 from './_batch5_u32_L02.js';
+import BATCH5_L01 from './_batch5_u32_L01.js';
 import BATCH2_L02 from './_batch2_u32_L02.js';
 import BATCH2_L01 from './_batch2_u32_L01.js';
 // Level: B2.4. JLPT N2/N1 aligned.
@@ -187,5 +189,7 @@ const UNIT_32 = {
 
 ,BATCH2_L01
 ,BATCH2_L02
+,BATCH5_L01
+,BATCH5_L02
 ]};
 export default UNIT_32;

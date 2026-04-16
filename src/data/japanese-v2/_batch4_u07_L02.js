@@ -121,7 +121,7 @@ const BATCH4_L_2 = {
 
     {type:"mc", q:"はみがき means:",
      opts:["brushing teeth","washing face","combing hair","taking a bath"], ans:"brushing teeth",
-     hint:"Teeth + polishing, the hygiene act done after meals."}
+     hint:"T... + polishing, the hygiene act done after meals."}
   ]
 };
 export default BATCH4_L_2;

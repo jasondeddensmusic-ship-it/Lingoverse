@@ -1,4 +1,6 @@
 // Japanese V2 Unit 30. てつがく (Philosophy & Abstract Thought)
+import BATCH5_L02 from './_batch5_u30_L02.js';
+import BATCH5_L01 from './_batch5_u30_L01.js';
 import BATCH2_L02 from './_batch2_u30_L02.js';
 import BATCH2_L01 from './_batch2_u30_L01.js';
 // Level: B2.3. JLPT N2/N1 aligned.
@@ -214,5 +216,7 @@ const UNIT_30 = {
 
 ,BATCH2_L01
 ,BATCH2_L02
+,BATCH5_L01
+,BATCH5_L02
 ]};
 export default UNIT_30;

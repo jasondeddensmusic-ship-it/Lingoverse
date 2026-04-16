@@ -111,7 +111,7 @@ const BATCH4_L_1 = {
 
     {type:"mc", q:"What is 根回し (nemawashi)?",
      opts:["informal consensus-building before meetings","formal debate","written proposal","deadline extension"], ans:"informal consensus-building before meetings",
-     hint:"The pre-meeting process of building agreement through individual conversations."},
+     hint:"The pre-meeting process of b... agreement through individual conversations."},
 
     {type:"mc", q:"ていじ means:",
      opts:["regular work hours / quitting time","overtime","holiday","meeting time"], ans:"regular work hours / quitting time",
