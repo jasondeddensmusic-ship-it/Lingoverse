@@ -129,7 +129,7 @@ const BATCH3_U11_L1 = {
     {type:"mc", q:"Which pattern do speso, preso, and sceso share?",
      opts:["They all end in -ato like regular -are verbs","They all come from -endere verbs with -eso ending","They all have regular -uto endings","They all use essere as their auxiliary"],
      ans:"They all come from -endere verbs with -eso ending",
-     hint:"Spendere > speso, prendere > preso, scendere > sceso. The -endere to -eso pattern is a useful irregularity group to memorize."}
+     hint:"Spendere > speso, prendere > preso, scendere > sceso. The -e... to -eso pattern is a useful irregularity group to memorize."}
   ]
 };
 export default BATCH3_U11_L1;

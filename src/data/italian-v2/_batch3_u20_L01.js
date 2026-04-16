@@ -123,7 +123,7 @@ const BATCH3_U20_L1 = {
     {type:"mc", q:"Why is philosophy mandatory in Italian high schools?",
      opts:["It is required by the EU","Italy considers it essential to education","It was added recently due to budget cuts","Only private schools teach it"],
      ans:"Italy considers it essential to education",
-     hint:"Three years of mandatory philosophical study from ancient Greece to modern thought. Italy values critical thinking as a core educational goal, not an optional extra."}
+     hint:"Three years of mandatory philosophical study from ancient Greece to modern thought. I... values critical thinking as a core educational goal, not an optional extra."}
   ]
 };
 export default BATCH3_U20_L1;

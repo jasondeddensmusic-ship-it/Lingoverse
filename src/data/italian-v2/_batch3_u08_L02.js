@@ -129,7 +129,7 @@ const BATCH3_U08_L2 = {
     {type:"mc", q:"What is the difference between 'caro' and 'economico'?",
      opts:["Caro = new, economico = used","Caro = expensive, economico = inexpensive","They mean the same thing","Caro = small, economico = large"],
      ans:"Caro = expensive, economico = inexpensive",
-     hint:"They are opposites on the price scale. 'Caro' also means 'dear' (beloved). 'Economico' is a false friend meaning cheap, not 'economic.'"}
+     hint:"They are opposites on the price scale. 'C...' also means 'dear' (beloved). 'E...' is a false friend meaning cheap, not 'economic.'"}
   ]
 };
 export default BATCH3_U08_L2;

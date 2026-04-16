@@ -123,7 +123,7 @@ const BATCH3_U19_L2 = {
     {type:"mc", q:"What value does 'portare rispetto' teach Italian children?",
      opts:["To always agree with adults","To show respect, especially to elders and family","To never speak in public","To avoid all arguments"],
      ans:"To show respect, especially to elders and family",
-     hint:"Respect is a cornerstone of Italian upbringing. 'Con tutto il rispetto' politely precedes any disagreement."}
+     hint:"R... is a cornerstone of Italian upbringing. 'Con tutto il rispetto' politely precedes any disagreement."}
   ]
 };
 export default BATCH3_U19_L2;

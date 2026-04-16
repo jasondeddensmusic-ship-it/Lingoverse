@@ -117,7 +117,7 @@ const BATCH3_U24_L1 = {
     {type:"fb", s:"Porto un maglione, {1} faccia freddo.",
      a:["caso mai"],
      opts:["caso mai","sempre che","figurati se","ammesso che"],
-     hint:"Just in case. This informal expression replaces the formal 'nel caso in cui.' Very natural in spoken Italian.",
+     hint:"Just in case. This informal expression replaces the formal 'nel c... in cui.' Very natural in spoken Italian.",
      sSrc:"I will bring a sweater, {1} it gets cold."},
 
     {type:"mc", q:"What does 'Se non ti dispiace' literally ask?",

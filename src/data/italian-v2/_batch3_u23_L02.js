@@ -117,7 +117,7 @@ const BATCH3_U23_L2 = {
     {type:"mc", q:"Why did Italy take early action regarding ChatGPT?",
      opts:["To promote a rival Italian AI","The Italian Data Protection Authority raised privacy concerns","Italian law prohibits all AI technology","It was too popular with students"],
      ans:"The Italian Data Protection Authority raised privacy concerns",
-     hint:"The 'Garante per la Privacy' actively enforces GDPR rules. Italy was among the first countries to investigate AI services over personal data protection."}
+     hint:"The 'Garante per la P...' actively enforces GDPR rules. Italy was among the first countries to investigate AI services over personal d... p...."}
   ]
 };
 export default BATCH3_U23_L2;

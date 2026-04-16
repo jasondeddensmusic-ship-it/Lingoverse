@@ -117,7 +117,7 @@ const BATCH3_U22_L1 = {
     {type:"mc", q:"Why is switching football teams considered 'treason' in Italy?",
      opts:["It is actually perfectly normal","Fandom is inherited and lifelong, a core identity","A law prohibits changing teams","Teams charge switching fees"],
      ans:"Fandom is inherited and lifelong, a core identity",
-     hint:"Children inherit their father's team. 'Tifo' (fandom) is compared to a fever. Your team is part of who you are, not a casual preference."}
+     hint:"Children inherit their father's team. 'Tifo' (f...) is compared to a fever. Your team is part of who you are, not a casual preference."}
   ]
 };
 export default BATCH3_U22_L1;

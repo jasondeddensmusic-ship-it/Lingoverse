@@ -1,4 +1,6 @@
 // Italian V2 Unit 23. La politica e la societa (Politics & Society) (B1.4)
+import BATCH3_L02 from './_batch3_u23_L02.js';
+import BATCH3_L01 from './_batch3_u23_L01.js';
 import EXP_L4 from './_temp_u23_expand_L01.js';import EXP_L5 from './_temp_u23_expand_L02.js';import EXP_L6 from './_temp_u23_expand_L03.js';
 // CILS/CELI B1 aligned. Government, civic life, media vocabulary.
 

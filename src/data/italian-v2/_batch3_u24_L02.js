@@ -123,7 +123,7 @@ const BATCH3_U24_L2 = {
     {type:"mc", q:"What does 'farei meglio a partire presto' mean?",
      opts:["I absolutely must leave early","I had better leave early (self-advice)","I refuse to leave early","I will definitely leave early"],
      ans:"I had better leave early (self-advice)",
-     hint:"Softer than 'devo partire.' The conditional of 'fare' + 'meglio a' creates gentle self-advice rather than obligation."}
+     hint:"Softer than 'devo partire.' The conditional of 'fare' + 'meglio a' creates gentle s...-a... rather than obligation."}
   ]
 };
 export default BATCH3_U24_L2;

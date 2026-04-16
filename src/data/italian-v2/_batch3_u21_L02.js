@@ -123,7 +123,7 @@ const BATCH3_U21_L2 = {
     {type:"mc", q:"When would you use 'gradirei' instead of 'vorrei'?",
      opts:["In casual conversation with friends","In very formal situations (business, official letters)","They are completely interchangeable","Only when ordering food at restaurants"],
      ans:"In very formal situations (business, official letters)",
-     hint:"'Gradirei' conveys refined politeness beyond simple 'would like.' Used in business correspondence, formal inquiries, and upscale service contexts."}
+     hint:"'Gradirei' conveys refined politeness beyond simple 'would like.' Used in b... correspondence, f... inquiries, and upscale service contexts."}
   ]
 };
 export default BATCH3_U21_L2;

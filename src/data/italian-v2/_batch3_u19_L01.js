@@ -129,7 +129,7 @@ const BATCH3_U19_L1 = {
     {type:"mc", q:"What does the Italian proverb 'L'orgoglio precede la caduta' mean?",
      opts:["Pride comes before the fall","Pride makes you stronger","Pride is always positive","Proud people never fail"],
      ans:"Pride comes before the fall",
-     hint:"Excessive pride leads to downfall. Italian wisdom warns against 'troppo orgoglio' while valuing healthy pride in achievements."}
+     hint:"Excessive p... leads to downfall. Italian wisdom warns against 'troppo orgoglio' while valuing healthy p... in achievements."}
   ]
 };
 export default BATCH3_U19_L1;

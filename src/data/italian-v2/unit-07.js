@@ -1,4 +1,6 @@
 // Italian V2 Unit 07. Al ristorante (At the Restaurant) (A2.1)
+import BATCH3_L02 from './_batch3_u07_L02.js';
+import BATCH3_L01 from './_batch3_u07_L01.js';
 // CILS/CELI A2 aligned. Ordering food, restaurant phrases, food adjectives.
 import EXP_07_L1 from './_temp_u07_expand_L01.js';import EXP_07_L2 from './_temp_u07_expand_L02.js';import EXP_07_L3 from './_temp_u07_expand_L03.js';
 

@@ -129,7 +129,7 @@ const BATCH3_U11_L2 = {
     {type:"mc", q:"What tense does 'mentre' typically trigger in the background clause?",
      opts:["The passato prossimo (completed action)","The future tense (upcoming action)","The imperfect (ongoing background action)","The conditional (hypothetical action)"],
      ans:"The imperfect (ongoing background action)",
-     hint:"'Mentre dormivo, ha suonato il telefono.' The background action uses the ongoing tense, while the foreground event uses the completed tense."}
+     hint:"'Mentre dormivo, ha suonato il telefono.' The b... a... uses the o... tense, while the foreground event uses the completed tense."}
   ]
 };
 export default BATCH3_U11_L2;

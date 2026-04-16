@@ -123,7 +123,7 @@ const BATCH3_U12_L2 = {
     {type:"mc", q:"What does 'Basta!' mean as an exclamation?",
      opts:["Beautiful!","Enough! / Stop!","Help!","Please!"],
      ans:"Enough! / Stop!",
-     hint:"One of Italian's most powerful single words. Parents, teachers, and anyone who has had enough uses this constantly."}
+     hint:"One of Italian's most powerful single words. Parents, teachers, and anyone who has had e... uses this constantly."}
   ]
 };
 export default BATCH3_U12_L2;

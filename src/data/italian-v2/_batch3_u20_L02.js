@@ -123,7 +123,7 @@ const BATCH3_U20_L2 = {
     {type:"mc", q:"What does a '30 e lode' represent at Italian universities?",
      opts:["A failing grade with a warning","A perfectly average result","The maximum achievable score with honors","A grade only professors can give themselves"],
      ans:"The maximum achievable score with honors",
-     hint:"30 is already the top mark. Adding 'lode' (praise/honors) makes it the ultimate achievement. Students celebrate enthusiastically when they earn one."}
+     hint:"30 is already the top mark. Adding 'lode' (praise/h...) makes it the ultimate achievement. Students celebrate enthusiastically when they earn one."}
   ]
 };
 export default BATCH3_U20_L2;
