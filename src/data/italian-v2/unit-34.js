@@ -1,4 +1,6 @@
 // Italian V2 Unit 34. Le relazioni internazionali (International Relations)
+import BATCH3_L02 from './_batch3_u34_L02.js';
+import BATCH3_L01 from './_batch3_u34_L01.js';
 // Level: B2.3. CILS/CELI B2 aligned.
 
 const UNIT_34 = {

@@ -117,7 +117,7 @@ const BATCH2_U14_L1 = {
     {type:"mc", q:"What is the difference between 'tirocinio' and 'stage'?",
      opts:["They mean completely different things","Tirocinio is formal Italian, stage is a French loanword for the same concept","Tirocinio is paid, stage is always unpaid","Stage is only for students, tirocinio is only for graduates"],
      ans:"Tirocinio is formal Italian, stage is a French loanword for the same concept",
-     hint:"Both mean 'internship.' 'Tirocinio' is the proper Italian word from Greek roots. 'Stage' (pronounced 'stazh') comes from French."}
+     hint:"Both mean 'internship.' 'T...' is the proper I... word from Greek roots. 'S...' (pronounced 'stazh') comes from F...."}
   ]
 };
 export default BATCH2_U14_L1;

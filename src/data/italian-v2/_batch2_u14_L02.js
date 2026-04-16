@@ -117,7 +117,7 @@ const BATCH2_U14_L2 = {
     {type:"mc", q:"What is a 'colloquio di gruppo'?",
      opts:["A private meeting with the CEO only","A group interview with multiple candidates assessed together","A team building exercise for employees","A union meeting for all workers"],
      ans:"A group interview with multiple candidates assessed together",
-     hint:"'Di gruppo' means 'in a group.' Evaluators observe how candidates collaborate, lead, and communicate with each other."}
+     hint:"'Di gruppo' means 'in a g....' Evaluators observe how c... collaborate, lead, and communicate with each other."}
   ]
 };
 export default BATCH2_U14_L2;

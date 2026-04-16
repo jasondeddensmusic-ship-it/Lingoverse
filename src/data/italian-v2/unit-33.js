@@ -1,4 +1,6 @@
 // Italian V2 Unit 33. La filosofia (Philosophy)
+import BATCH3_L02 from './_batch3_u33_L02.js';
+import BATCH3_L01 from './_batch3_u33_L01.js';
 // Level: B2.3. CILS/CELI B2 aligned.
 
 const UNIT_33 = {

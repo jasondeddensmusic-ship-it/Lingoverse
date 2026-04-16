@@ -117,7 +117,7 @@ const BATCH2_U17_L1 = {
     {type:"mc", q:"What does 'itanglese' refer to?",
      opts:["A dialect spoken in southern Italy","The mix of Italian and English in modern Italian speech","An ancient Italian language form","A type of Italian hand gesture"],
      ans:"The mix of Italian and English in modern Italian speech",
-     hint:"Italian creators often blend the two languages, especially in tech and digital contexts. It is a characteristic of modern communication."}
+     hint:"I... creators often blend the two languages, especially in tech and digital contexts. It is a characteristic of m... communication."}
   ]
 };
 export default BATCH2_U17_L1;

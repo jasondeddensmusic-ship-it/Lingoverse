@@ -1,4 +1,6 @@
 // Italian V2 Unit 35. L'innovazione (Innovation & Future)
+import BATCH3_L02 from './_batch3_u35_L02.js';
+import BATCH3_L01 from './_batch3_u35_L01.js';
 // Level: B2.4. CILS/CELI B2 aligned.
 
 const UNIT_35 = {

@@ -1,4 +1,6 @@
 // Italian V2 Unit 25. L'economia (B2.1)
+import BATCH3_L02 from './_batch3_u25_L02.js';
+import BATCH3_L01 from './_batch3_u25_L01.js';
 import EXP_L4 from './_temp_u25_expand_L01.js';import EXP_L5 from './_temp_u25_expand_L02.js';import EXP_L6 from './_temp_u25_expand_L03.js';
 // CILS B2 aligned. Finance, business, and economic vocabulary.
 
