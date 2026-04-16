@@ -1,4 +1,5 @@
 // Italian V2 Unit 20. L'istruzione (Education) (B1.3)
+import BATCH8_L1 from './_batch8_u20_L01.js';
 import BATCH7_L1 from './_batch7_u20_L01.js';
 import BATCH6_L1 from './_batch6_u20_L01.js';
 import BATCH5_L02 from './_batch5_u20_L02.js';
