@@ -340,7 +340,7 @@ const UNIT_26 = {
       ]},
 
       {type:"fb",
-       s:"La {1} ha sporto {2} alla polizia dopo la rapina.",
+       s:"La {1} ha sporto denuncia alla polizia dopo la rapina.",
        a:["vittima"],
        opts:["vittima","frode","denuncia","indagine"],
        hint:"The person who suffered from the crime. The one who goes to the police to report what happened.",
