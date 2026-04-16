@@ -138,7 +138,7 @@ const BATCH4_U12_L2 = {
     {type:"mc", q:"Cosa significa 'laurearsi' letteralmente?",
      opts:["To crown oneself with laurel, referring to the ancient graduation wreath","To learn quickly","To leave university","To study hard"],
      ans:"To crown oneself with laurel, referring to the ancient graduation wreath",
-     hint:"Italian graduates still wear laurel wreaths, continuing a Roman tradition."}
+     hint:"Italian graduates still wear l... wreaths, continuing a Roman tradition."}
   ]
 };
 export default BATCH4_U12_L2;

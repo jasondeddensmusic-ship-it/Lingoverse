@@ -138,7 +138,7 @@ const BATCH4_U05_L2 = {
     {type:"mc", q:"Cos'e la 'raccolta differenziata'?",
      opts:["Sorted waste collection / recycling system","A type of Italian cooking","A museum collection","A traditional card game"],
      ans:"Sorted waste collection / recycling system",
-     hint:"Italian cities require separating trash into different bins for recycling."}
+     hint:"Italian cities require separating trash into different bins for r...."}
   ]
 };
 export default BATCH4_U05_L2;

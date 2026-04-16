@@ -138,7 +138,7 @@ const BATCH4_U06_L2 = {
     {type:"mc", q:"Come vanno gli italiani nel centro storico?",
      opts:["A piedi, because historic centers are often pedestrian zones","In autobus, because walking is uncommon","In macchina, because parking is easy","In metro, because every city has one"],
      ans:"A piedi, because historic centers are often pedestrian zones",
-     hint:"Italian old town centers restrict vehicle access to preserve their beauty."}
+     hint:"Italian old town c... restrict vehicle access to preserve their beauty."}
   ]
 };
 export default BATCH4_U06_L2;

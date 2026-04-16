@@ -138,7 +138,7 @@ const BATCH4_U12_L1 = {
     {type:"mc", q:"Cosa significa 'sono rimasto sorpreso'?",
      opts:["I was left surprised / I was surprised","I stayed at the surprise","I returned to be surprised","I surprised someone"],
      ans:"I was left surprised / I was surprised",
-     hint:"'Rimanere' with emotions means 'to be left in that emotional state.'"}
+     hint:"'Rimanere' with emotions means 'to be l... in that emotional state.'"}
   ]
 };
 export default BATCH4_U12_L1;

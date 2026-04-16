@@ -138,7 +138,7 @@ const BATCH4_U07_L2 = {
     {type:"mc", q:"Cos'e un 'ammazzacaffe'?",
      opts:["A digestif liqueur after coffee","A very strong coffee","A coffee-flavored cake","A coffee substitute"],
      ans:"A digestif liqueur after coffee",
-     hint:"Literally 'coffee killer,' this drink aids digestion after a heavy meal."}
+     hint:"Literally 'c... killer,' this drink aids digestion a... a heavy meal."}
   ]
 };
 export default BATCH4_U07_L2;

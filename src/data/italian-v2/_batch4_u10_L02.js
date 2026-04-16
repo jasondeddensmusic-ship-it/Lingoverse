@@ -132,7 +132,7 @@ const BATCH4_U10_L2 = {
     {type:"mc", q:"Cos'era il 'Grand Tour'?",
      opts:["A journey through Italy taken by European aristocrats for education","A modern tour bus company","An Italian TV show","A Renaissance art style"],
      ans:"A journey through Italy taken by European aristocrats for education",
-     hint:"18th-century English nobles traveled this Italian route as part of their education."}
+     hint:"18th-century English nobles traveled this Italian route as part of their e...."}
   ]
 };
 export default BATCH4_U10_L2;
