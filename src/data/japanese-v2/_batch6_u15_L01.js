@@ -93,7 +93,7 @@ const BATCH6_L1 = {
      hint:"The word meaning safety or safe, describing low crime and order."},
 
     {type:"mc", q:"やくしょ is the place to:", opts:["Register residence and get official documents","Borrow books","Report crimes","See art exhibitions"], ans:"Register residence and get official documents",
-     hint:"This government office handles official paperwork for residents."}
+     hint:"This government office handles o... paperwork for residents."}
   ]
 };
 export default BATCH6_L1;

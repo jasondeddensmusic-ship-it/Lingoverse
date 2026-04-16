@@ -93,7 +93,7 @@ const BATCH6_L1 = {
      hint:"The caring expression said to someone who is unwell."},
 
     {type:"mc", q:"かふんアレルギー is:", opts:["Pollen allergy (hay fever)","Food allergy","Drug allergy","Pet allergy"], ans:"Pollen allergy (hay fever)",
-     hint:"This seasonal allergy is extremely common in Japan during spring."}
+     hint:"This seasonal a... is extremely common in Japan during spring."}
   ]
 };
 export default BATCH6_L1;

@@ -87,7 +87,7 @@ const BATCH6_L1 = {
      hint:"The verb meaning to be connected or linked to something."},
 
     {type:"mc", q:"Japan faces an 'innovation dilemma' because:", opts:["It excels at incremental improvement but struggles with disruptive innovation","It has too many robots","It lacks internet access","Its population is too young"], ans:"It excels at incremental improvement but struggles with disruptive innovation",
-     hint:"Japan's strength in kaizen (improvement) does not always translate to radical new ideas."}
+     hint:"Japan's strength in kaizen (i...) does not always translate to radical new ideas."}
   ]
 };
 export default BATCH6_L1;

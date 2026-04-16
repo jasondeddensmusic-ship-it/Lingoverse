@@ -1,4 +1,6 @@
 // Japanese V2 Unit 05. たべもの (Food & Drink)
+import BATCH7_L1 from './_batch7_u05_L01.js';
+import BATCH8_L1 from './_batch8_u05_L01.js';
 import BATCH6_L1 from './_batch6_u05_L01.js';
 import BATCH4_L02 from './_batch4_u05_L02.js';
 import BATCH4_L01 from './_batch4_u05_L01.js';
@@ -215,5 +217,7 @@ const UNIT_05 = {
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1
+,BATCH8_L1
+,BATCH7_L1
 ]};
 export default UNIT_05;
