@@ -1702,7 +1702,105 @@ export const FOUNDATIONS_BY_LANG = {
           ]}},
       ]},
   ]},
-  it:{name:"Italian Foundations",icon:"🇮🇹",sections:[]},
+  it:{name:"Italian Foundations",icon:"🇮🇹",sections:[
+
+    // ─────────── 1. THE ITALIAN ALPHABET & VOWELS ───────────
+    {id:"it_alphabet",title:"L'Alfabeto e le Vocali",icon:"🔤",desc:"21 native letters plus 5 foreign letters (j, k, w, x, y). Italian is highly phonetic.",
+      items:[
+        {fk:"fk_alphabet_overview",title:"Italian letter grid",desc:"21 native letters. J, K, W, X, Y appear only in foreign loanwords. Spelling is almost perfectly phonetic.",
+          grid:{cols:7,headers:["","","","","","",""],rows:[
+            {label:"A-G",color:"#009246",cells:[{ch:"A",rom:"ah"},{ch:"B",rom:"bee"},{ch:"C",rom:"chee"},{ch:"D",rom:"dee"},{ch:"E",rom:"eh"},{ch:"F",rom:"EF-feh"},{ch:"G",rom:"jee"}]},
+            {label:"H-P",color:"#FFFFFF",cells:[{ch:"H",rom:"AHK-ka"},{ch:"I",rom:"ee"},{ch:"L",rom:"EL-leh"},{ch:"M",rom:"EM-meh"},{ch:"N",rom:"EN-neh"},{ch:"O",rom:"oh"},{ch:"P",rom:"pee"}]},
+            {label:"Q-Z",color:"#CE2B37",cells:[{ch:"Q",rom:"koo"},{ch:"R",rom:"ER-reh"},{ch:"S",rom:"ES-seh"},{ch:"T",rom:"tee"},{ch:"U",rom:"oo"},{ch:"V",rom:"vee"},{ch:"Z",rom:"DZEH-ta"}]},
+            {label:"Foreign",color:"#999999",cells:[{ch:"J",rom:"ee LOON-ga"},{ch:"K",rom:"KAP-pa"},{ch:"W",rom:"DOP-pya voo"},{ch:"X",rom:"eeks"},{ch:"Y",rom:"EEP-see-lon"},{ch:"",rom:""},{ch:"",rom:""}]},
+          ]}},
+        {fk:"fk_vowel_grid",title:"The five Italian vowels",desc:"Italian has 5 vowel letters but 7 vowel sounds. E and O each have an open and closed variant. A, I, U have one sound each.",
+          grid:{cols:3,headers:["Vowel","Sound","Examples"],rows:[
+            {label:"A",color:"#E85D75",cells:[{ch:"a",rom:"ah"},{ch:"Like English 'father', always the same",rom:""},{ch:"casa, mamma, banana",rom:""}]},
+            {label:"E (open)",color:"#F5A623",cells:[{ch:"e aperta",rom:"eh"},{ch:"Like English 'bed'",rom:""},{ch:"bello, terra, festa",rom:""}]},
+            {label:"E (closed)",color:"#F5A623",cells:[{ch:"e chiusa",rom:"ay"},{ch:"Like English 'day' but without the glide",rom:""},{ch:"sera, verde, mese",rom:""}]},
+            {label:"I",color:"#2ECDAB",cells:[{ch:"i",rom:"ee"},{ch:"Like English 'see', always crisp",rom:""},{ch:"vino, pizza, amici",rom:""}]},
+            {label:"O (open)",color:"#4A8FE7",cells:[{ch:"o aperta",rom:"aw"},{ch:"Like English 'or'",rom:""},{ch:"cosa, donna, morte",rom:""}]},
+            {label:"O (closed)",color:"#4A8FE7",cells:[{ch:"o chiusa",rom:"oh"},{ch:"Like English 'go' without the glide",rom:""},{ch:"nome, sole, voce",rom:""}]},
+            {label:"U",color:"#7B5EE8",cells:[{ch:"u",rom:"oo"},{ch:"Like English 'food', lips rounded",rom:""},{ch:"uno, luna, uva",rom:""}]},
+          ]}},
+        {fk:"fk_special_chars",title:"Accent marks in Italian",desc:"Grave accent (a, i, o, u) and acute accent (e only). Accents are written only on final-syllable stress words and a few short words.",
+          grid:{cols:3,headers:["Mark","When used","Examples"],rows:[
+            {label:"Grave (a, i, o, u)",color:"#E85D75",cells:[{ch:"a, i, o, u",rom:""},{ch:"Always grave on these vowels",rom:""},{ch:"citta, cosi, piu, andro",rom:""}]},
+            {label:"Grave (e)",color:"#F5A623",cells:[{ch:"e (open sound)",rom:""},{ch:"Open e: common in everyday words",rom:""},{ch:"e (is), caffe, cioe",rom:""}]},
+            {label:"Acute (e)",color:"#4A8FE7",cells:[{ch:"e (closed sound)",rom:""},{ch:"Closed e: why, because, neither",rom:""},{ch:"perche, affinche, ne",rom:""}]},
+            {label:"Meaning pairs",color:"#7B5EE8",cells:[{ch:"Accent changes meaning",rom:""},{ch:"Same spelling, different words",rom:""},{ch:"e/e (and/is), si/si (himself/yes), la/la (the/there)",rom:""}]},
+          ]}},
+      ]},
+
+    // ─────────── 2. CONSONANT RULES ───────────
+    {id:"it_consonants",title:"Consonant Rules",icon:"🗣️",desc:"C/G hard and soft rules, digraphs (CH, GH, SC, GN, GL), and double consonants",
+      items:[
+        {fk:"fk_spelling_rules",title:"C and G: two sounds each",desc:"C and G each have a hard and soft sound determined by the following vowel. CH and GH force hard sounds before e/i.",
+          grid:{cols:3,headers:["Combo","Sound","Examples"],rows:[
+            {label:"C + a, o, u",color:"#2ECDAB",cells:[{ch:"Hard C",rom:""},{ch:"K sound",rom:""},{ch:"casa, cosa, cuore",rom:""}]},
+            {label:"C + e, i",color:"#E85D75",cells:[{ch:"Soft C",rom:""},{ch:"CH as in church",rom:""},{ch:"cena, cinema, ciao",rom:""}]},
+            {label:"CH + e, i",color:"#4A8FE7",cells:[{ch:"CH",rom:""},{ch:"Forces hard K (H is silent)",rom:""},{ch:"che, chi, anche, chiave",rom:""}]},
+            {label:"G + a, o, u",color:"#2ECDAB",cells:[{ch:"Hard G",rom:""},{ch:"G as in go",rom:""},{ch:"gatto, gonna, gusto",rom:""}]},
+            {label:"G + e, i",color:"#E85D75",cells:[{ch:"Soft G",rom:""},{ch:"J as in jelly",rom:""},{ch:"gelato, giorno, gente",rom:""}]},
+            {label:"GH + e, i",color:"#4A8FE7",cells:[{ch:"GH",rom:""},{ch:"Forces hard G (H is silent)",rom:""},{ch:"spaghetti, ghetto, ghiaccio",rom:""}]},
+          ]}},
+        {fk:"fk_consonant_grid",title:"Special Italian digraphs",desc:"SC, GN, and GLI produce sounds that have no single-letter equivalent. These are among the trickiest Italian sounds for English speakers.",
+          grid:{cols:3,headers:["Digraph","Sound","Examples"],rows:[
+            {label:"SC + e, i",color:"#E85D75",cells:[{ch:"sce, sci",rom:""},{ch:"SH as in shoe",rom:""},{ch:"scena, sci, pesce, uscire",rom:""}]},
+            {label:"SCH + e, i",color:"#4A8FE7",cells:[{ch:"sche, schi",rom:""},{ch:"SK sound (forces hard)",rom:""},{ch:"schema, scherzare, fischio",rom:""}]},
+            {label:"GN",color:"#F5A623",cells:[{ch:"gn",rom:""},{ch:"NY as in canyon",rom:""},{ch:"gnocchi, lasagna, bagno, sogno",rom:""}]},
+            {label:"GLI",color:"#7B5EE8",cells:[{ch:"gli",rom:""},{ch:"LY as in million",rom:""},{ch:"figlio, moglie, aglio, famiglia",rom:""}]},
+          ]}},
+        {fk:"fk_consonant_grid",title:"Double consonants",desc:"Double consonants are CRITICAL in Italian. They are held longer (not repeated). Mixing them up changes meaning entirely!",
+          grid:{cols:3,headers:["Single","Double","Meaning change"],rows:[
+            {label:"p/pp",color:"#E85D75",cells:[{ch:"papa",rom:"single p"},{ch:"pappa",rom:"double pp"},{ch:"pope vs baby food",rom:""}]},
+            {label:"n/nn",color:"#F5A623",cells:[{ch:"nono",rom:"single n"},{ch:"nonno",rom:"double nn"},{ch:"ninth vs grandfather",rom:""}]},
+            {label:"l/ll",color:"#4A8FE7",cells:[{ch:"capello",rom:"single l"},{ch:"cappello",rom:"double pp"},{ch:"hair vs hat",rom:""}]},
+            {label:"t/tt",color:"#2ECDAB",cells:[{ch:"caro",rom:"single r"},{ch:"carro",rom:"double rr"},{ch:"dear vs cart",rom:""}]},
+            {label:"s/ss",color:"#7B5EE8",cells:[{ch:"casa",rom:"single s"},{ch:"cassa",rom:"double ss"},{ch:"house vs crate",rom:""}]},
+          ]}},
+        {fk:"fk_consonant_grid",title:"Silent H and other traps",desc:"H is ALWAYS silent in Italian. R is rolled/trilled. Z has two sounds (ts and dz).",
+          examples:["H is ALWAYS silent: hotel = o-TEL, hanno = AN-no","R is rolled/trilled, never the English R sound","Z can be voiceless (ts): pizza, grazie, stazione","Z can be voiced (dz): zero, zona, pranzo","S between vowels is often voiced (z sound): casa, rosa"]},
+      ]},
+
+    // ─────────── 3. STRESS & ACCENT MARKS ───────────
+    {id:"it_stress",title:"Stress and Accent Marks",icon:"📐",desc:"Most Italian words stress the second-to-last syllable. Accents appear only on final-syllable stress.",
+      items:[
+        {fk:"fk_stress_rules",title:"Default stress pattern",desc:"Most Italian words stress the penultimate (second-to-last) syllable. No accent mark is written because this is the default.",
+          grid:{cols:3,headers:["Pattern","Rule","Examples"],rows:[
+            {label:"Penultimate (most common)",color:"#2ECDAB",cells:[{ch:"Parole piane",rom:""},{ch:"Stress second-to-last syllable",rom:""},{ch:"ca-SA, ra-GAZ-zo, a-MI-co, par-LA-re",rom:""}]},
+            {label:"Final (written accent)",color:"#E85D75",cells:[{ch:"Parole tronche",rom:""},{ch:"Accent mark on final vowel",rom:""},{ch:"cit-TA, per-CHE, gio-VEN-TU, ca-FE",rom:""}]},
+            {label:"Third-to-last",color:"#F5A623",cells:[{ch:"Parole sdrucciole",rom:""},{ch:"No accent written (memorize these)",rom:""},{ch:"TA-vo-lo, NU-me-ro, TE-le-fo-no",rom:""}]},
+          ]}},
+        {fk:"fk_stress_rules",title:"Accent marks that distinguish meaning",desc:"Some short Italian words have identical spelling but different meanings. The accent mark is the only difference.",
+          grid:{cols:3,headers:["With accent","Without accent","Difference"],rows:[
+            {label:"e / e",color:"#E85D75",cells:[{ch:"e",rom:""},{ch:"e",rom:""},{ch:"is (verb) / and (conjunction)",rom:""}]},
+            {label:"si / si",color:"#F5A623",cells:[{ch:"si",rom:""},{ch:"si",rom:""},{ch:"yes / himself, herself",rom:""}]},
+            {label:"la / la",color:"#4A8FE7",cells:[{ch:"la",rom:""},{ch:"la",rom:""},{ch:"there / the (feminine article)",rom:""}]},
+            {label:"da / da",color:"#2ECDAB",cells:[{ch:"da",rom:""},{ch:"da",rom:""},{ch:"gives (verb) / from (preposition)",rom:""}]},
+            {label:"ne / ne",color:"#7B5EE8",cells:[{ch:"ne",rom:""},{ch:"ne",rom:""},{ch:"neither, nor / of it, some",rom:""}]},
+          ]}},
+      ]},
+
+    // ─────────── 4. SPELLING PATTERNS ───────────
+    {id:"it_spelling",title:"Spelling Patterns",icon:"📝",desc:"Gender, plurals, articles, and the apostrophe",
+      items:[
+        {fk:"fk_grammar_preview",title:"Gender and plural patterns",desc:"Italian nouns have masculine or feminine gender. Plurals change the final vowel, not by adding -s like English.",
+          grid:{cols:3,headers:["Pattern","Singular to Plural","Examples"],rows:[
+            {label:"Masc -o > -i",color:"#4A8FE7",cells:[{ch:"Masculine",rom:""},{ch:"-o becomes -i",rom:""},{ch:"ragazzo > ragazzi, libro > libri",rom:""}]},
+            {label:"Fem -a > -e",color:"#E85D75",cells:[{ch:"Feminine",rom:""},{ch:"-a becomes -e",rom:""},{ch:"ragazza > ragazze, casa > case",rom:""}]},
+            {label:"-e > -i (both)",color:"#F5A623",cells:[{ch:"Either gender",rom:""},{ch:"-e becomes -i",rom:""},{ch:"padre > padri, notte > notti",rom:""}]},
+          ]}},
+        {fk:"fk_grammar_preview",title:"The definite articles: il, lo, la, i, gli, le",desc:"Italian has six definite articles (English has just 'the'). The choice depends on gender AND the first letter(s) of the noun.",
+          grid:{cols:3,headers:["Article","Used with","Examples"],rows:[
+            {label:"il / i",color:"#4A8FE7",cells:[{ch:"il (sg), i (pl)",rom:""},{ch:"Masculine nouns starting with most consonants",rom:""},{ch:"il libro / i libri, il gatto / i gatti",rom:""}]},
+            {label:"lo / gli",color:"#2ECDAB",cells:[{ch:"lo (sg), gli (pl)",rom:""},{ch:"Masculine nouns starting with z, s+consonant, gn, ps, x",rom:""},{ch:"lo zio / gli zii, lo studente / gli studenti",rom:""}]},
+            {label:"la / le",color:"#E85D75",cells:[{ch:"la (sg), le (pl)",rom:""},{ch:"Feminine nouns",rom:""},{ch:"la casa / le case, la donna / le donne",rom:""}]},
+            {label:"l' (apostrophe)",color:"#F5A623",cells:[{ch:"l' (sg)",rom:""},{ch:"Before any vowel (masculine or feminine)",rom:""},{ch:"l'uomo, l'acqua, l'amico, l'amica",rom:""}]},
+          ]}},
+      ]},
+  ]},
   pt:{name:"Portuguese Foundations",icon:"🇧🇷",sections:[]},
   ru:{name:"Russian Foundations",icon:"🇷🇺",sections:[
     {id:"ru_cyrillic",title:"The Russian Alphabet (Кириллица)",icon:"🔤",desc:"33 letters: 10 vowels, 21 consonants, plus the soft sign (ь) and hard sign (ъ).",
@@ -3570,7 +3668,99 @@ export const FK_PLAYTHROUGH = {
         ]},
       ]},
   ]},
-  it:{name:"Italian Foundations Play",icon:"🇮🇹",blueprint:"latin_simple",stages:[]},
+  it:{name:"Italian Foundations Play",icon:"🇮🇹",blueprint:"latin_simple",stages:[
+    // ── STAGE 1: ORIENTATION ──
+    {id:"it_fp_s1",title:"The Italian Alphabet",desc:"21 native letters, 5 vowels, and why Italian is beautifully phonetic",icon:"🔤",
+      lessons:[
+        {id:"it_fp_s1_l1",title:"Alphabet & Vowels",icon:"🔤",xp:15,board:true,steps:[
+          {type:"intro",title:"Welcome to Italian Sounds!",desc:"Italian is one of the most phonetic languages in the world. Every letter has a consistent sound, and almost everything is pronounced as written. This lesson covers the alphabet and vowels.",goals:["Know Italian has 21 native letters + 5 foreign","Understand Italian vowels are pure sounds","Recognize that double consonants matter"]},
+          {type:"teach",kind:"info",nl:"L'alfabeto italiano",en:"The Italian alphabet",phonetic:"lal-fa-BEH-to ee-ta-LYA-no",example:"A: Quante lettere ha l'alfabeto italiano?\nB: Ventuno lettere native, piu cinque straniere.",exampleEn:"A: How many letters does the Italian alphabet have?\nB: Twenty-one native letters, plus five foreign ones.",note:"21 native letters: A through Z minus J, K, W, X, Y.\nJ, K, W, X, Y appear only in foreign loanwords.\nExamples: jeans, kiwi, weekend, taxi, yogurt."},
+          {type:"mc",q:"How many native letters does the Italian alphabet have?",opts:["21","26","23","28"],ans:"21",hint:"Five letters from the English alphabet are foreign in Italian."},
+          {type:"teach",kind:"info",nl:"Le vocali",en:"The five Italian vowels",phonetic:"leh vo-KA-lee",example:"A: Come suonano le vocali in italiano?\nB: Sempre uguali: A, E, I, O, U.",exampleEn:"A: How do Italian vowels sound?\nB: Always the same: A, E, I, O, U.",note:"A = AH (as in father). E = EH (as in bed).\nI = EE (as in see). O = OH (as in go).\nU = OO (as in food).\nUnlike English, they NEVER change quality."},
+          {type:"mc",q:"The vowel A in Italian always sounds like:",opts:["AH as in father","A as in cat","AY as in day","UH as in cut"],ans:"AH as in father",hint:"Italian vowels are pure and consistent. A is always AH."},
+          {type:"mc",q:"The vowel U in Italian always sounds like:",opts:["UH as in up","OO as in food","YOO as in use","AW as in awful"],ans:"OO as in food",hint:"Italian U is always a rounded OO sound."},
+          {type:"teach",kind:"info",nl:"E e O: due suoni",en:"E and O each have two sounds",phonetic:"eh / oh",example:"A: La E italiana ha un solo suono?\nB: No, due: aperta (EH) e chiusa (AY).",exampleEn:"A: Does Italian E have only one sound?\nB: No, two: open (EH) and closed (AY).",note:"Open E = EH (as in bed): bello, terra, festa.\nClosed E = AY (no glide): sera, verde, perche.\nOpen O = AW (as in or): cosa, donna, notte.\nClosed O = OH (pure): nome, sole, come.\nDo not worry about memorizing which is which yet."},
+          {type:"mc",q:"How many distinct vowel sounds does Italian have?",opts:["5","7","10","15"],ans:"7",hint:"Five vowel letters but E and O each have two variants."},
+          {type:"teach",kind:"info",nl:"Le doppie",en:"Double consonants: critical in Italian",phonetic:"leh DOP-pyeh",example:"A: 'Papa' e 'pappa' sono uguali?\nB: No! Papa = pope. Pappa = baby food.",exampleEn:"A: Are 'papa' and 'pappa' the same?\nB: No! Papa = pope. Pappa = baby food.",note:"Double consonants are HELD LONGER, not repeated.\npapa (pope) vs pappa (baby food).\nnono (ninth) vs nonno (grandfather).\nGetting doubles wrong changes meaning entirely."},
+          {type:"mc",q:"The difference between 'papa' (pope) and 'pappa' (baby food) is:",opts:["A longer P sound in pappa","Different vowels","Different stress","Different meaning of A"],ans:"A longer P sound in pappa",hint:"Double consonants are held longer. This changes the word."},
+          {type:"match",pairs:[{nl:"21",en:"Native Italian letters"},{nl:"J, K, W, X, Y",en:"Foreign letters only"},{nl:"A, E, I, O, U",en:"Five vowel letters"},{nl:"Double consonants",en:"Held longer, change meaning"}]},
+        ]},
+      ]},
+
+    // ── STAGE 2: ACCENT RULES ──
+    {id:"it_fp_s2",title:"Accent Rules",desc:"Grave and acute accents, when they are required, and meaning-changing pairs",icon:"📐",
+      lessons:[
+        {id:"it_fp_s2_l1",title:"Italian Accent Marks",icon:"📐",xp:15,board:true,steps:[
+          {type:"intro",title:"When accents appear in Italian",desc:"Most Italian words stress the second-to-last syllable and need no accent mark. Accents appear only when stress falls on the FINAL syllable, and on a few small words to distinguish meaning.",goals:["Know grave vs acute accent","Know when accents are required","Recognize meaning-changing accent pairs"]},
+          {type:"teach",kind:"info",nl:"Accento grave",en:"The grave accent: a, i, o, u",phonetic:"ak-CHEN-to GRA-veh",example:"A: Che accento ha 'citta'?\nB: Accento grave: citta. Sempre grave su a, i, o, u.",exampleEn:"A: What accent does 'citta' have?\nB: Grave accent: citta. Always grave on a, i, o, u.",note:"A, I, O, U always take the grave accent (slants left).\ncitta (city), cosi (so), piu (more), gioventu (youth).\nNever acute on these four vowels in standard Italian."},
+          {type:"mc",q:"Which accent mark do a, i, o, u always take in Italian?",opts:["Grave (slants left)","Acute (slants right)","Circumflex","No accent"],ans:"Grave (slants left)",hint:"These four vowels always use the grave accent in Italian."},
+          {type:"teach",kind:"info",nl:"E con accento",en:"The tricky E: grave or acute?",phonetic:"eh kon ak-CHEN-to",example:"A: 'E' con accento: grave o acuto?\nB: Dipende! 'E' (is) = grave. 'Perche' = acute.",exampleEn:"A: 'E' with accent: grave or acute?\nB: It depends! 'E' (is) = grave. 'Perche' = acute.",note:"E with grave (e) = open EH: e (is), caffe, cioe.\nE with acute (e) = closed AY: perche, affinche, ne.\nThe grave is more common in everyday words.\nWhen in doubt, grave is the safer guess."},
+          {type:"mc",q:"'Perche' (why/because) takes which accent on the E?",opts:["Grave (open E)","Acute (closed E)","No accent","Either one"],ans:"Acute (closed E)",hint:"Perche uses a closed E sound, so it gets the acute accent."},
+          {type:"teach",kind:"info",nl:"Quando serve l'accento",en:"When accents are REQUIRED",phonetic:"KWAN-do SER-veh",example:"A: Tutte le parole italiane hanno l'accento?\nB: No, solo quelle con accento sull'ultima sillaba.",exampleEn:"A: Do all Italian words have an accent mark?\nB: No, only those with stress on the final syllable.",note:"Accent marks are REQUIRED on:\n1. Final-syllable stress: citta, liberta, universita, caffe.\n2. Single-syllable meaning pairs: e (is) vs e (and).\nNO accent needed on most words because the default\nstress is penultimate (second-to-last)."},
+          {type:"mc",q:"Most Italian words stress which syllable?",opts:["The last syllable","The second-to-last syllable","The first syllable","It varies randomly"],ans:"The second-to-last syllable",hint:"The penultimate syllable is the default stress in Italian."},
+          {type:"mc",q:"'Citta' (city) needs an accent because:",opts:["Stress falls on the final syllable","It has double letters","It is a foreign word","All nouns need accents"],ans:"Stress falls on the final syllable",hint:"When stress is on the last syllable, Italian writes an accent."},
+          {type:"teach",kind:"info",nl:"Accenti che cambiano significato",en:"Accents that change meaning",phonetic:"",example:"A: 'E' e 'e' sono la stessa parola?\nB: No! 'E' = and. 'E' = is.",exampleEn:"A: Are 'e' and 'e' the same word?\nB: No! 'E' (no accent) = and. 'E' (accent) = is.",note:"e = and (conjunction). e = is (verb essere).\nsi = himself/herself. si = yes.\nla = the (article). la = there.\nda = from (preposition). da = gives (verb dare).\nThe accent is the ONLY difference!"},
+          {type:"mc",q:"'E' without accent means 'and'. What does 'e' with accent mean?",opts:["Also and","Is (verb)","He/she","Or"],ans:"Is (verb)",hint:"The accent changes this tiny word from a conjunction to a verb."},
+          {type:"mc",q:"'Si' without accent means 'himself'. What does 'si' with accent mean?",opts:["No","Yes","If","So"],ans:"Yes",hint:"Without accent = reflexive pronoun. With accent = affirmative."},
+          {type:"teach",kind:"info",nl:"Errori comuni",en:"Common accent mistakes by English speakers",phonetic:"",example:"A: Gli inglesi spesso dimenticano gli accenti?\nB: Si! E confondono 'perche' con 'perche'.",exampleEn:"A: Do English speakers often forget accents?\nB: Yes! And they confuse 'perche' with 'perche'.",note:"Common mistakes:\n1. Forgetting the accent on citta, perche, piu.\n2. Using acute when grave is needed (or vice versa).\n3. Adding accents where none belong (Italian does NOT\nmark stress on penultimate syllables)."},
+          {type:"match",pairs:[{nl:"e (grave)",en:"is (verb essere)"},{nl:"e (no accent)",en:"and (conjunction)"},{nl:"si (accent)",en:"yes"},{nl:"si (no accent)",en:"himself, herself"}]},
+        ]},
+      ]},
+
+    // ── STAGE 3: PRONUNCIATION TRAPS ──
+    {id:"it_fp_s3",title:"Pronunciation Traps",desc:"C/G rules, digraphs (SC, GN, GLI), double consonants, and silent H",icon:"⚡",
+      lessons:[
+        {id:"it_fp_s3_l1",title:"C and G Rules",icon:"⚡",xp:15,board:true,steps:[
+          {type:"intro",title:"The two faces of C and G",desc:"C and G each have two sounds: hard and soft. The vowel that follows determines which one you hear. CH and GH force the hard sound before e and i.",goals:["Know C + a/o/u = K, C + e/i = CH","Know G + a/o/u = hard G, G + e/i = J","Know CH and GH force hard sounds"]},
+          {type:"teach",kind:"info",nl:"C dura",en:"Hard C: before a, o, u",phonetic:"chee DOO-ra",example:"A: Come suona la C in 'casa'?\nB: Come K: CA-sa.",exampleEn:"A: How does C sound in 'casa'?\nB: Like K: CA-sa.",note:"C before A, O, U = K sound.\ncasa (house), cosa (thing), cuore (heart).\nAlso C before consonants: classe, clima."},
+          {type:"teach",kind:"info",nl:"C dolce",en:"Soft C: before e, i",phonetic:"chee DOL-cheh",example:"A: E in 'cena'?\nB: Come CH in 'church': CHE-na.",exampleEn:"A: And in 'cena'?\nB: Like CH in 'church': CHE-na.",note:"C before E, I = CH sound (as in church).\ncena (dinner), cinema (cinema), ciao (hello).\nThis is DIFFERENT from Spanish where C + e/i = S."},
+          {type:"mc",q:"C in 'cinema' sounds like:",opts:["K as in cat","CH as in church","S as in sun","SH as in shoe"],ans:"CH as in church",hint:"C before I in Italian always makes a CH sound."},
+          {type:"teach",kind:"info",nl:"CH: forzare il suono duro",en:"CH forces hard K before e/i",phonetic:"",example:"A: Perche 'che' si scrive con CH?\nB: Per mantenere il suono K prima di E.",exampleEn:"A: Why is 'che' spelled with CH?\nB: To keep the K sound before E.",note:"CH before E, I = hard K sound.\nche (what/that), chi (who), chiave (key), anche (also).\nThe H is SILENT. It just keeps C hard."},
+          {type:"mc",q:"CH in 'che' (what) sounds like:",opts:["CH as in church","K as in cat","SH as in shoe","H sound"],ans:"K as in cat",hint:"The H after C forces the hard K sound before E."},
+          {type:"teach",kind:"info",nl:"G dura e dolce",en:"G: hard before a/o/u, soft before e/i",phonetic:"",example:"A: 'Gatto' e 'gelato' iniziano con lo stesso suono?\nB: No! Gatto = G dura. Gelato = G dolce.",exampleEn:"A: Do 'gatto' and 'gelato' start with the same sound?\nB: No! Gatto = hard G. Gelato = soft G.",note:"G + a, o, u = hard G: gatto (cat), gonna (skirt).\nG + e, i = soft J: gelato (ice cream), giorno (day).\nGH + e, i = forces hard G: spaghetti, ghiaccio (ice)."},
+          {type:"mc",q:"G in 'gelato' sounds like:",opts:["G as in go","J as in jelly","H sound","Silent"],ans:"J as in jelly",hint:"G before E in Italian makes a soft J sound."},
+          {type:"mc",q:"GH in 'spaghetti' sounds like:",opts:["J as in jelly","Hard G as in go","SH sound","Silent"],ans:"Hard G as in go",hint:"GH forces the hard G sound before E, just like CH forces K."},
+          {type:"mc",q:"How do you spell the K sound before I in Italian?",opts:["CI","CHI","KI","GI"],ans:"CHI",hint:"C alone before I would make a CH sound. Add H to keep it hard."},
+          {type:"match",pairs:[{nl:"C + a/o/u (casa)",en:"K sound"},{nl:"C + e/i (cena)",en:"CH sound (church)"},{nl:"CH + e/i (che)",en:"K sound (H keeps it hard)"},{nl:"G + e/i (gelato)",en:"J sound (jelly)"}]},
+          {type:"tip",title:"The Italian C/G system vs Spanish",text:"In Spanish, soft C = S sound (cena = SEH-na).\nIn Italian, soft C = CH sound (cena = CHEH-na).\nIn Spanish, soft G = throaty H.\nIn Italian, soft G = J as in jelly.\nDo not mix them up if you know both languages!",icon:"💡"},
+        ]},
+        {id:"it_fp_s3_l2",title:"Digraphs & Double Consonants",icon:"🔊",xp:15,board:true,steps:[
+          {type:"intro",title:"Italian sounds with no English equivalent",desc:"SC, GN, GLI, and double consonants are the sounds that trip up English speakers most. Master these and your Italian will sound authentic.",goals:["Know SC + e/i = SH sound","Know GN = NY sound, GLI = LY sound","Understand double consonants are held longer"]},
+          {type:"teach",kind:"info",nl:"SC + e, i",en:"SC before e/i: the SH sound",phonetic:"sheh / shee",example:"A: Come si pronuncia 'scena'?\nB: SHEH-na. SC prima di E fa SH.",exampleEn:"A: How do you pronounce 'scena'?\nB: SHEH-na. SC before E makes SH.",note:"SC + e, i = SH as in shoe.\nscena (scene), sci (skiing), pesce (fish), uscire (to exit).\nSCH + e, i = SK sound: schema, scherzare (to joke)."},
+          {type:"mc",q:"SC in 'pesce' (fish) sounds like:",opts:["SK as in skip","SH as in shoe","S as in sun","CH as in church"],ans:"SH as in shoe",hint:"SC before E always makes the SH sound in Italian."},
+          {type:"teach",kind:"info",nl:"GN",en:"GN: the NY sound",phonetic:"nyah",example:"A: Come si dice 'gnocchi'?\nB: NYOK-kee. GN = NY come in 'canyon'.",exampleEn:"A: How do you say 'gnocchi'?\nB: NYOK-kee. GN = NY as in 'canyon'.",note:"GN = NY sound (as in canyon or onion).\ngnocchi (NYOK-kee), lasagna (la-ZA-nya),\nbagno (BA-nyo, bathroom), sogno (SO-nyo, dream).\nNever pronounce the G and N separately."},
+          {type:"mc",q:"GN in 'lasagna' sounds like:",opts:["G + N separately","NY as in canyon","N sound only","NG as in sing"],ans:"NY as in canyon",hint:"GN is always one blended sound: NY."},
+          {type:"teach",kind:"info",nl:"GLI",en:"GLI: the LY sound",phonetic:"lyee",example:"A: Come si pronuncia 'figlio'?\nB: FEE-lyo. GLI = LY come in 'million'.",exampleEn:"A: How do you pronounce 'figlio'?\nB: FEE-lyo. GLI = LY as in 'million'.",note:"GLI = LY sound (as in million or brilliant).\nfiglio (FEE-lyo, son), moglie (MO-lyeh, wife),\naglio (A-lyo, garlic), famiglia (fa-MEE-lya, family).\nException: negligenza, glicine (GL + vowel = normal GL)."},
+          {type:"mc",q:"GLI in 'famiglia' (family) sounds like:",opts:["GL as in glow","LY as in million","G + LI separately","Silent"],ans:"LY as in million",hint:"GLI produces a blended LY sound unique to Italian."},
+          {type:"teach",kind:"info",nl:"Le doppie",en:"Double consonants: hold them longer",phonetic:"leh DOP-pyeh",example:"A: Qual e la differenza tra 'pala' e 'palla'?\nB: Pala = shovel. Palla = ball. La doppia L e piu lunga.",exampleEn:"A: What is the difference between 'pala' and 'palla'?\nB: Pala = shovel. Palla = ball. The double L is held longer.",note:"Double consonants are HELD LONGER, not said twice.\nbello (BEL-lo), pizza (PEET-tsa), mamma (MAM-ma).\nMinimal pairs: pala/palla (shovel/ball),\ncasa/cassa (house/crate), papa/pappa (pope/baby food)."},
+          {type:"mc",q:"Double consonants in Italian are:",opts:["Said twice quickly","Held for a longer time","Exactly the same as single","Always silent"],ans:"Held for a longer time",hint:"Think of it as lingering on the sound, not repeating it."},
+          {type:"teach",kind:"info",nl:"H muta",en:"H is ALWAYS silent in Italian",phonetic:"AHK-ka MOO-ta",example:"A: Come si pronuncia 'hotel'?\nB: o-TEL. La H e sempre muta.",exampleEn:"A: How do you pronounce 'hotel'?\nB: o-TEL. The H is always silent.",note:"H is ALWAYS silent. No exceptions.\nhotel = o-TEL, hanno (they have) = AN-no.\nH exists to force hard C/G: che, chi, ghetto.\nIt also appears in verb forms: ho (I have), hai (you have)."},
+          {type:"mc",q:"The H in 'hanno' (they have) is:",opts:["Pronounced as in English","Always silent","Sometimes pronounced","A breathy sound"],ans:"Always silent",hint:"Italian H makes zero sound. It is purely a spelling device."},
+          {type:"teach",kind:"info",nl:"La R italiana",en:"R is rolled, not like English R",phonetic:"",example:"A: La R italiana e come quella inglese?\nB: No! E una vibrazione della lingua.",exampleEn:"A: Is the Italian R like the English R?\nB: No! It is a tongue vibration.",note:"Italian R is a tongue tap or trill against the ridge\nbehind the upper teeth. Never the English R.\nSingle R = quick tap. Double RR = longer trill.\ncaro (dear) vs carro (cart)."},
+          {type:"mc",q:"Italian R is produced by:",opts:["Curling the tongue back like English","Tapping or trilling the tongue against the upper ridge","Using the throat like French R","Keeping the tongue flat"],ans:"Tapping or trilling the tongue against the upper ridge",hint:"Italian R involves the tip of the tongue vibrating."},
+          {type:"match",pairs:[{nl:"SC + e/i (scena)",en:"SH sound (shoe)"},{nl:"GN (gnocchi)",en:"NY sound (canyon)"},{nl:"GLI (figlio)",en:"LY sound (million)"},{nl:"H (hotel)",en:"Always silent"}]},
+        ]},
+      ]},
+
+    // ── STAGE 4: SPELLING PATTERNS ──
+    {id:"it_fp_s4",title:"Spelling Patterns",desc:"Gender, plurals, articles, and the apostrophe",icon:"📝",
+      lessons:[
+        {id:"it_fp_s4_l1",title:"Gender, Plurals & Articles",icon:"📝",xp:15,board:true,steps:[
+          {type:"intro",title:"The building blocks of Italian grammar",desc:"Every Italian noun has a gender (masculine or feminine) and changes its ending for plural. The article must match in gender and number. Understanding these patterns is essential.",goals:["Know -o = masculine, -a = feminine pattern","Know plural endings: -o>-i, -a>-e, -e>-i","Know the six definite articles"]},
+          {type:"teach",kind:"info",nl:"Il genere",en:"Gender: masculine and feminine",phonetic:"eel JEH-neh-reh",example:"A: 'Libro' e maschile o femminile?\nB: Maschile. IL libro.",exampleEn:"A: Is 'libro' masculine or feminine?\nB: Masculine. THE book (il).",note:"Most words ending in -o are masculine: libro, gatto, vino.\nMost words ending in -a are feminine: casa, donna, pizza.\nWords ending in -e can be either: padre (m), notte (f).\nAlways learn the article WITH the noun!"},
+          {type:"mc",q:"A word ending in -o like 'libro' is usually:",opts:["Masculine","Feminine","Either one","Neutral"],ans:"Masculine",hint:"The -o ending is the most reliable masculine marker."},
+          {type:"mc",q:"A word ending in -a like 'casa' is usually:",opts:["Masculine","Feminine","Either one","Neutral"],ans:"Feminine",hint:"The -a ending is the most reliable feminine marker."},
+          {type:"teach",kind:"info",nl:"Il plurale",en:"Plural endings: change the vowel",phonetic:"eel ploo-RA-leh",example:"A: Come si fa il plurale di 'ragazzo'?\nB: Ragazzi. La O diventa I.",exampleEn:"A: How do you make the plural of 'ragazzo'?\nB: Ragazzi. The O becomes I.",note:"Masculine -o > -i: ragazzo > ragazzi, libro > libri.\nFeminine -a > -e: ragazza > ragazze, casa > case.\nEither -e > -i: padre > padri, notte > notti.\nItalian does NOT add -s for plural like English!"},
+          {type:"mc",q:"The plural of 'ragazza' (girl) is:",opts:["ragazzas","ragazze","ragazzi","ragazza"],ans:"ragazze",hint:"Feminine -a words change to -e in the plural."},
+          {type:"mc",q:"The plural of 'libro' (book) is:",opts:["libros","libre","libri","libroi"],ans:"libri",hint:"Masculine -o words change to -i in the plural."},
+          {type:"teach",kind:"info",nl:"Gli articoli determinativi",en:"The six definite articles",phonetic:"lyee ar-TEE-ko-lee",example:"A: In inglese c'e solo 'the'. E in italiano?\nB: Sei articoli! Il, lo, la, i, gli, le.",exampleEn:"A: In English there is only 'the'. And in Italian?\nB: Six articles! Il, lo, la, i, gli, le.",note:"il (masc sg, most consonants): il libro, il gatto.\nlo (masc sg, z/s+cons/gn/ps): lo zio, lo studente.\nla (fem sg): la casa, la donna.\ni (masc pl, most): i libri, i gatti.\ngli (masc pl, z/s+cons/gn/ps/vowels): gli zii, gli studenti.\nle (fem pl): le case, le donne."},
+          {type:"mc",q:"Which article goes with 'studente' (male student)?",opts:["il studente","lo studente","la studente","i studente"],ans:"lo studente",hint:"Words starting with s + consonant use 'lo' for masculine."},
+          {type:"teach",kind:"info",nl:"L'apostrofo",en:"The apostrophe before vowels",phonetic:"la-POS-tro-fo",example:"A: Si dice 'la amica' o 'l'amica'?\nB: L'amica. Si usa l'apostrofo prima di vocale.",exampleEn:"A: Do you say 'la amica' or 'l'amica'?\nB: L'amica. You use the apostrophe before a vowel.",note:"Before vowels, lo and la become l' (apostrophe).\nl'uomo (the man), l'acqua (the water),\nl'amico (the male friend), l'amica (the female friend).\nThis avoids two vowels crashing together."},
+          {type:"mc",q:"'L'uomo' uses an apostrophe because:",opts:["It is a foreign word","The noun starts with a vowel","It is masculine","All nouns use apostrophes"],ans:"The noun starts with a vowel",hint:"Lo + uomo would sound awkward. L'uomo flows better."},
+          {type:"match",pairs:[{nl:"-o ending (libro)",en:"Usually masculine"},{nl:"-a ending (casa)",en:"Usually feminine"},{nl:"-o > -i (libri)",en:"Masculine plural"},{nl:"-a > -e (case)",en:"Feminine plural"}]},
+        ]},
+      ]},
+  ]},
   pt:{name:"Portuguese Foundations Play",icon:"🇧🇷",blueprint:"latin_simple",stages:[]},
   ro:{name:"Romanian Foundations Play",icon:"🇷🇴",blueprint:"latin_simple",stages:[]},
   ru:{name:"Russian Script Play",icon:"🇷🇺",blueprint:"cyrillic",stages:[]},
@@ -3994,6 +4184,73 @@ export const FK_GATE_QUIZ = {
       C:"Stage 3: Study the two default stress rules and when accent marks appear.",
       D:"Stage 4: Practice C/QU/Z patterns, G/GU/GÜ patterns, and inverted punctuation.",
       E:"Stage 5: Review el/la gender, ser vs estar, verb groups, and tú vs usted.",
+    },
+  },
+  // ══════════════════════════════════════════════════════════════
+  // ITALIAN GATE QUIZ — Test out of Foundations
+  // 5 tasks (A-E), 33 items, maps to Italian Playthrough stages 1-4
+  // Anti-leak compliant: no answer in question stem, PP8 clean
+  // ══════════════════════════════════════════════════════════════
+  it:{
+    title:"Italian Foundations Gate Quiz",
+    desc:"Already know Italian pronunciation and spelling rules? Pass this quiz to skip Foundations.",
+    passCriteria:{AB:90,C:85,DE:80},
+    tasks:[
+      // ── Task A: Alphabet & Vowel Recognition (7 items) — maps to Stage 1 ──
+      {id:"gate_a",title:"Task A: Alphabet & Vowels",desc:"Identify Italian alphabet and vowel basics.",type:"mc",category:"AB",items:[
+        {q:"How many native letters does the Italian alphabet have?",opts:["21","26","23","28"],ans:"21"},
+        {q:"Which letters are NOT native to the Italian alphabet?",opts:["J, K, W, X, Y","A, E, I, O, U","Q, X, Z","B, D, F, G"],ans:"J, K, W, X, Y"},
+        {q:"How many distinct vowel sounds does Italian have?",opts:["5","7","10","3"],ans:"7"},
+        {q:"The vowel A in Italian always sounds like:",opts:["AH as in father","A as in cat","AY as in day"],ans:"AH as in father"},
+        {q:"The vowel U in Italian always sounds like:",opts:["UH as in up","OO as in food","YOO as in use"],ans:"OO as in food"},
+        {q:"E and O in Italian each have:",opts:["One sound only","Two sounds (open and closed)","Three sounds","No fixed sound"],ans:"Two sounds (open and closed)"},
+        {q:"Double consonants in Italian are:",opts:["Pronounced the same as single","Held for a longer time","Always silent","Said twice quickly"],ans:"Held for a longer time"},
+      ]},
+      // ── Task B: Accent Rules (7 items) — maps to Stage 2 ──
+      {id:"gate_b",title:"Task B: Accent Rules",desc:"Apply Italian accent mark rules.",type:"mc",category:"AB",items:[
+        {q:"Most Italian words stress which syllable?",opts:["The last syllable","The second-to-last syllable","The first syllable"],ans:"The second-to-last syllable"},
+        {q:"Accent marks in Italian are REQUIRED when:",opts:["Every word needs one","Stress falls on the final syllable","Stress falls on the first syllable"],ans:"Stress falls on the final syllable"},
+        {q:"A, I, O, U always take which accent in Italian?",opts:["Acute (slants right)","Grave (slants left)","Circumflex","No accent"],ans:"Grave (slants left)"},
+        {q:"'Perche' (why/because) takes which accent on E?",opts:["Grave","Acute","No accent","Either one"],ans:"Acute"},
+        {q:"'E' with no accent means:",opts:["Is (verb)","And (conjunction)","He/she","The"],ans:"And (conjunction)"},
+        {q:"'E' with a grave accent means:",opts:["And","Is (verb)","Or","But"],ans:"Is (verb)"},
+        {q:"'Si' with an accent means:",opts:["Himself","If","Yes","So"],ans:"Yes"},
+      ]},
+      // ── Task C: C/G Pronunciation Rules (8 items) — maps to Stage 3 ──
+      {id:"gate_c",title:"Task C: C and G Pronunciation",desc:"Apply hard/soft C and G rules.",type:"mc",category:"C",items:[
+        {q:"C before E in 'cena' (dinner) sounds like:",opts:["K as in cat","CH as in church","S as in sun","SH as in shoe"],ans:"CH as in church"},
+        {q:"C before A in 'casa' (house) sounds like:",opts:["CH as in church","K as in cat","S as in sun"],ans:"K as in cat"},
+        {q:"CH in 'che' (what) sounds like:",opts:["CH as in church","K as in cat","SH as in shoe"],ans:"K as in cat"},
+        {q:"G in 'gelato' sounds like:",opts:["G as in go","J as in jelly","H sound","Silent"],ans:"J as in jelly"},
+        {q:"GH in 'spaghetti' sounds like:",opts:["J as in jelly","Hard G as in go","SH sound","Silent"],ans:"Hard G as in go"},
+        {q:"SC in 'pesce' (fish) sounds like:",opts:["SK as in skip","SH as in shoe","S as in sun"],ans:"SH as in shoe"},
+        {q:"GN in 'gnocchi' sounds like:",opts:["G + N separately","NY as in canyon","NG as in sing"],ans:"NY as in canyon"},
+        {q:"GLI in 'figlio' (son) sounds like:",opts:["GL as in glow","LY as in million","G + LI separately"],ans:"LY as in million"},
+      ]},
+      // ── Task D: Double Consonants & Silent H (6 items) — maps to Stage 3 ──
+      {id:"gate_d",title:"Task D: Doubles, H, and R",desc:"Distinguish double consonants and know silent H.",type:"mc",category:"DE",items:[
+        {q:"'Papa' means 'pope'. 'Pappa' with double P means:",opts:["Father","Baby food","Grandfather","Paper"],ans:"Baby food"},
+        {q:"'Nono' means 'ninth'. 'Nonno' with double N means:",opts:["None","Grandfather","Number","Noon"],ans:"Grandfather"},
+        {q:"H in Italian is:",opts:["Pronounced like English H","Always silent","Sometimes silent","A breathy sound"],ans:"Always silent"},
+        {q:"Italian R is produced by:",opts:["Curling the tongue back","Tapping or trilling at the upper ridge","Using the throat","Keeping the tongue flat"],ans:"Tapping or trilling at the upper ridge"},
+        {q:"The difference between 'casa' (house) and 'cassa' (crate) is:",opts:["The S is held longer in cassa","Different vowels","Different stress","No difference"],ans:"The S is held longer in cassa"},
+        {q:"'Hanno' (they have) is pronounced:",opts:["HAN-no (H sounded)","AN-no (H silent)","HA-no","AH-no"],ans:"AN-no (H silent)"},
+      ]},
+      // ── Task E: Spelling Patterns (5 items) — maps to Stage 4 ──
+      {id:"gate_e",title:"Task E: Gender, Plurals & Articles",desc:"Apply Italian spelling and grammar patterns.",type:"mc",category:"DE",items:[
+        {q:"Most nouns ending in -o are:",opts:["Feminine","Masculine","Neutral"],ans:"Masculine"},
+        {q:"The plural of 'ragazzo' (boy) is:",opts:["ragazzos","ragazze","ragazzi","ragazza"],ans:"ragazzi"},
+        {q:"The plural of 'casa' (house) is:",opts:["casas","case","casi","casa"],ans:"case"},
+        {q:"Which article goes with 'zio' (uncle)?",opts:["il zio","lo zio","la zio"],ans:"lo zio"},
+        {q:"Before a vowel, 'lo' and 'la' become:",opts:["il","l' (apostrophe)","le","i"],ans:"l' (apostrophe)"},
+      ]},
+    ],
+    diagnosticRouting:{
+      A:"Stage 1: Review the Italian alphabet, vowel sounds, and double consonant basics.",
+      B:"Stage 2: Study grave vs acute accents, when they are required, and meaning-changing pairs.",
+      C:"Stage 3: Practice C/G hard and soft rules, CH/GH, and Italian digraphs (SC, GN, GLI).",
+      D:"Stage 3: Study double consonants, silent H, and the Italian R sound.",
+      E:"Stage 4: Review gender patterns, plural endings, and the six definite articles.",
     },
   },
   ja:{
