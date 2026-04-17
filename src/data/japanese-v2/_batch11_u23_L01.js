@@ -105,7 +105,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"「空気(くうき)を読(よ)む」はなんのことですか？",
      opts:["Reading the social atmosphere/situation","Literally reading the air quality","A breathing exercise","A weather forecasting method"],
      ans:"Reading the social atmosphere/situation",
-     hint:"This famous Japanese concept involves understanding unspoken social dynamics. It is essentially reading the 状況(じょうきょう)."}
+     hint:"This famous Japanese concept involves sensing unspoken interpersonal dynamics. It is essentially perceiving the 状況(じょうきょう)."}
   ]
 };
 export default BATCH11_L1;

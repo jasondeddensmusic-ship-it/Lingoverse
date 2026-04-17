@@ -82,7 +82,7 @@ const BATCH7_L1 = {
     {type:"mc", q:"源氏物語(げんじものがたり) is considered:",
      opts:["The world's first novel (written around 1010)","Japan's first haiku collection","A modern manga series","A historical textbook"],
      ans:"The world's first novel (written around 1010)",
-     hint:"Written by Murasaki Shikibu over 1,000 years ago, this is the world's earliest full-length novel."},
+     hint:"Authored by Murasaki Shikibu, this is the earliest known full-length prose narrative in any language."},
 
     {type:"match", pairs:[
       {trg:"俳句(はいく)", src:"17-syllable poem"},
@@ -101,7 +101,7 @@ const BATCH7_L1 = {
     {type:"mc", q:"四字熟語(よじじゅくご) are:",
      opts:["Four-character Chinese-origin idioms","Four-line poems","Four-word sentences","Four-part stories"],
      ans:"Four-character Chinese-origin idioms",
-     hint:"These compact expressions use exactly four kanji to convey complex ideas."},
+     hint:"These compact expressions pack a complex idea into a precise number of kanji characters from classical sources."},
 
     {type:"fb", s:"好(す)きな{1}は誰(だれ)ですか？村上春樹(むらかみはるき)が好(す)きです。",
      a:["作家(さっか)"],

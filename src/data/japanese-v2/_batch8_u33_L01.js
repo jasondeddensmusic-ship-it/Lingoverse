@@ -94,7 +94,7 @@ const BATCH8_L1 = {
      hint:"This traditional structure has four parts: introduction, development, turn, conclusion."},
 
     {type:"mc", q:"What is 余韻(よいん) in Japanese aesthetics?", opts:["The lingering emotional impression after an experience","The opening scene of a story","A type of poetry","A writing technique"], ans:"The lingering emotional impression after an experience",
-     hint:"Great art leaves this resonance that continues long after the experience ends."}
+     hint:"Great art leaves a resonance that keeps reverberating in the mind long after you have finished it."}
   ]
 };
 export default BATCH8_L1;

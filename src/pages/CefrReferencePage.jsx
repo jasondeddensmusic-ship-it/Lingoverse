@@ -9,8 +9,10 @@ import { KOREAN_CEFR } from '../data/cefr-reference/korean.js';
 import { DUTCH_CEFR } from '../data/cefr-reference/dutch.js';
 import { FRENCH_CEFR } from '../data/cefr-reference/french.js';
 import { SPANISH_CEFR } from '../data/cefr-reference/spanish.js';
+import { ITALIAN_CEFR } from '../data/cefr-reference/italian.js';
+import { JAPANESE_CEFR } from '../data/cefr-reference/japanese.js';
 
-const CEFR_REFS = { de: GERMAN_CEFR, ko: KOREAN_CEFR, nl: DUTCH_CEFR, fr: FRENCH_CEFR, es: SPANISH_CEFR };
+const CEFR_REFS = { de: GERMAN_CEFR, ko: KOREAN_CEFR, nl: DUTCH_CEFR, fr: FRENCH_CEFR, es: SPANISH_CEFR, it: ITALIAN_CEFR, ja: JAPANESE_CEFR };
 
 function CefrReferencePage({lang, baseLang="en", user}){
   const dk=document.documentElement.classList.contains("dark");

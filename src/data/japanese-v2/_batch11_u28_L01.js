@@ -105,7 +105,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"「やすい」の接尾辞(せつびじ)はどんな意味(いみ)ですか？",
      opts:["Easy to do","Cheap","Fast","Important"],
      ans:"Easy to do",
-     hint:"When attached to verb stems, this suffix creates adjectives meaning the action is easy to perform."}
+     hint:"When attached to verb stems, this suffix creates adjectives describing how effortlessly an action can be done."}
   ]
 };
 export default BATCH11_L1;

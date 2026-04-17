@@ -37,7 +37,7 @@ const BATCH8_L1 = {
      funFact:"相互理解(そうごりかい) is a cornerstone of Japan's 文化外交(ぶんかがいこう) (cultural diplomacy). JETプログラム (Japan Exchange and Teaching) brings thousands of foreigners to Japan annually. 日本語教育(にほんごきょういく) (Japanese language education) abroad promotes 相互理解(そうごりかい). Japan's ソフトパワー through anime, food, and culture builds international understanding."},
 
     {type:"mc", q:"What does 首脳会談(しゅのうかいだん) mean?", opts:["Summit meeting between heads of state","A military alliance","A trade agreement","A cultural exchange"], ans:"Summit meeting between heads of state",
-     hint:"首脳(しゅのう) means 'head brain' (leader), and 会談(かいだん) means talks/meeting."},
+     hint:"首脳(しゅのう) means 'head brain' (top leader), and 会談(かいだん) means high-level talks between nations."},
 
     {type:"teach", trg:"制裁(せいさい)", src:"sanctions / punitive measures", pos:"noun", gender:null,
      note:"経済制裁(けいざいせいさい) = economic sanctions.\n制裁(せいさい)を課(か)す = to impose sanctions.",

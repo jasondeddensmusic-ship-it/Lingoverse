@@ -105,7 +105,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"日本(にほん)の「同人誌(どうじんし)」は著作権(ちょさくけん)の観点(かんてん)からどうですか？",
      opts:["Exists in a legal gray zone mostly tolerated by publishers","Completely illegal","Fully protected by law","Does not exist anymore"],
      ans:"Exists in a legal gray zone mostly tolerated by publishers",
-     hint:"Fan-created comics based on existing works occupy an interesting legal position in Japan's content culture."}
+     hint:"Fan-created comics based on existing works occupy an ambiguous position that the industry has largely chosen to overlook."}
   ]
 };
 export default BATCH11_L1;
