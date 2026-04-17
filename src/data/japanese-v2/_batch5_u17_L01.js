@@ -58,7 +58,7 @@ const BATCH5_L_1 = {
 
     {type:"teach", trg:"イライラする", src:"to be irritated / to be frustrated", pos:"verb", gender:null,
      note:"Onomatopoeic する-verb. イライラしている = being irritated.\nDescribes a simmering frustration.",
-     example:"A: 電車(でんしゃ)が遅(おく)れてイライラします。\nB: しかたがないですね。\nA: 楽(たの)しみですね。\nB: はい、今(いま)からわくわくしています。",
+     example:"A: 電車(でんしゃ)が遅(おく)れてイライラします。\nB: 仕方(しかた)がないですね。\nA: 楽(たの)しみですね。\nB: はい、今(いま)からわくわくしています。",
      exampleSrc:"A: The train is late and I am irritated.\nB: It cannot be helped.\nA: That is exciting.\nB: Yes, I am already excited.",
      funFact:"イライラ is a gitaigo (mimetic word) describing the feeling of prickling frustration. Japanese is rich in these sound-symbolic words. イライラ suggests a scratching, prickling sensation. Related: むかむか (nauseous with anger), もやもや (vague unease), そわそわ (restless anxiety)."},
 
@@ -68,9 +68,9 @@ const BATCH5_L_1 = {
      exampleSrc:"A: Let us try not to cause trouble for the neighbors.\nB: Yes, we will be quiet at night.\nA: That is a nice memory.\nB: Yes, I will never forget it.",
      funFact:"迷惑(めいわく) is one of the most culturally loaded words in Japanese. Causing 迷惑(めいわく) to others is considered a serious social failing. Signs everywhere say ご迷惑(めいわく)をおかけします (we apologize for the inconvenience). The concept shapes behavior: quiet phone manners on trains, removing shoes indoors, and keeping personal space tidy."},
 
-    {type:"teach", trg:"しかたがない", src:"it cannot be helped / there is no choice", pos:"adj", gender:null,
+    {type:"teach", trg:"仕方(しかた)がない", src:"it cannot be helped / there is no choice", pos:"adj", gender:null,
      note:"Set expression. Also しょうがない (casual). Acceptance of unavoidable things.\nLiterally: there is no method/way.",
-     example:"A: 台風(たいふう)でイベントが中止(ちゅうし)になりました。しかたがないですね。\nB: そうですね。次(つぎ)の機会(きかい)を待(ま)ちましょう。\nA: どうでしたか？\nB: とても良(よ)かったです。",
+     example:"A: 台風(たいふう)でイベントが中止(ちゅうし)になりました。仕方(しかた)がないですね。\nB: そうですね。次(つぎ)の機会(きかい)を待(ま)ちましょう。\nA: どうでしたか？\nB: とても良(よ)かったです。",
      exampleSrc:"A: The event was cancelled due to a typhoon. It cannot be helped.\nB: That is right. Let us wait for the next opportunity.\nA: How was it?\nB: It was very good.",
      funFact:"しかたがない (or しょうがない) encapsulates a Japanese philosophical attitude: accepting what you cannot change. It is NOT fatalism but pragmatic acceptance. After natural disasters, Japanese people often say しかたがない and focus on rebuilding. The phrase appears in philosophy discussions as a distinctly Japanese approach to adversity."},
 
