@@ -310,7 +310,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | French | v2 | 90 | 5,036 | 52 entries | COMPLETE. 98% of German. |
 | Spanish | v2 | 92 | 5,124 | 53 entries | COMPLETE. 100% of German. |
 | Italian | v2 | 36 | 5,013 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. |
-| Japanese | v2 | 36 | 4,978 | 54 entries | POLISHED. Foundations (kana+kanji), kanji+furigana ALL cards, grammar (54), CEFR ref, dialogue scaling done. |
+| Japanese | v2 | 36 | 4,978 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, Foundations lock, notation tutorial, CEFR ref wired. |
 
 **Grand total: ~30,500+ teach cards across 7 languages. Build passes.**
 **Grammar modules: 365 entries across 7 languages (Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch mock).**
@@ -325,19 +325,20 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 - **Arabic source** (2026-04-06-08): All 36 units translated, ~6,800 fixes, grammar/idioms/CEFR Arabic.
 - **Mobile, dictionary, grammar, flashcards** (2026-03-30 - 2026-04-09): All features built and polished.
 - **V2 upgrades** (2026-04-12-15): Korean/Dutch/French/Spanish/Italian/Japanese all V2. 7 languages live.
+- **Japanese PP65 complete** (2026-04-17): All 348 batch files kanji+furigana. Full PP validation PASS. Beginner path audited.
 
 ### Known Blockers
 1. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56).
-3. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537).
+2. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537).
 4. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing.
 
 > 25 previously tracked blockers have been resolved. See `docs/BUILD_STATUS.md` for full history.
 
 ---
 
-## Next Priorities (updated 2026-04-15)
+## Next Priorities (updated 2026-04-17)
 
-> Latest handoff: `docs/SESSION_HANDOFF_2026-04-17.md`. Italian+Japanese fully polished. All 7 languages at ~5K teach cards.
+> Latest handoff: `docs/SESSION_HANDOFF_2026-04-17b.md`. Japanese PP65 complete. Full validation PASS.
 
 ### ACTIVE: Next Language Expansion
 1. **Chinese (Mandarin)** — 9.65M EN learners. HIGH effort (tones, hanzi, Foundations). Follow LANGUAGE_INTEGRATION_PIPELINE.
@@ -346,7 +347,7 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 
 ### Polish Remaining
 4. **A2 dialogue scaling** — Italian: 138 dialogues need 3+ turns. Japanese: 28 need 3+ turns.
-5. **Kanji+furigana in Japanese batch files** — The 4,375 teach cards in batch files still use pure hiragana. Need the same conversion as the 603 unit-file cards.
+5. **Italian PP8 hint leaks** — 7 remaining in batch files (common English words in hints).
 
 ### Feature Polish (deferred)
 7. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors.
@@ -399,10 +400,10 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-17.md`** — **LATEST HANDOFF.** Italian+Japanese polish complete. Density expansion needed (603 cards each, not 5K).
-- **`docs/SESSION_HANDOFF_2026-04-16.md`** — Previous handoff. 7 languages live.
-- **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
-- **`docs/BUILD_STATUS.md`** — Full build history per language (updated 2026-04-15).
+- **`docs/SESSION_HANDOFF_2026-04-17b.md`** — **LATEST HANDOFF.** Japanese PP65 complete. Full validation PASS. Next: A2 dialogue scaling, then new languages.
+- **`docs/SESSION_HANDOFF_2026-04-17.md`** — Previous handoff. Italian+Japanese polish complete.
+- **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic (D1-D124).
+- **`docs/BUILD_STATUS.md`** — Full build history per language (updated 2026-04-17).
 - **`docs/PRODUCT_PLAN.md`** — Business model, monetization, premium features roadmap.
 
 ### Tier 2.5: Agent Infrastructure
