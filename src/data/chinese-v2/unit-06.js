@@ -44,7 +44,7 @@ lessons:[
   text:"\u5E97 (di\u00E0n, store/shop) appears in dozens of place names:\n\n\u5546\u5E97 = commerce store (general shop)\n\u996D\u5E97 = food store (restaurant/hotel)\n\u4E66\u5E97 = book store (bookshop)\n\u836F\u5E97 = medicine store (pharmacy)\n\u9152\u5E97 = wine store (hotel)\n\u5496\u5561\u5E97 = coffee store (cafe)\n\u82B1\u5E97 = flower store (florist)\n\nKnowing \u5E97 unlocks this entire family of words. You will encounter many of these at A2 level."}},
 
 {type:"mc", q:"\u5B66\u6821(xu\u00E9xi\u00E0o) literally means:",
- opts:["big building","study building","reading place","children house"],
+ opts:["big building","reading place","children house","study building"],
  ans:"study building",
  hint:"Break the word into its two characters: \u5B66 (study) + \u6821 (school/building)."},
 
@@ -62,7 +62,7 @@ lessons:[
  sSrc:"I am going to the {1} to buy things."},
 
 {type:"mc", q:"\u4ED6(t\u0101)\u53BB(q\u00F9)\u533B\u9662(y\u012Byu\u00E0n)\u4E86(le)\u3002 Where did he go?",
- opts:["school","shop","hospital","restaurant"],
+ opts:["hospital","school","shop","restaurant"],
  ans:"hospital",
  hint:"\u533B means 'medical' and \u9662 means 'institution.' This is where you go when you are sick."},
 
@@ -73,7 +73,7 @@ lessons:[
  sSrc:"Shall we go to the {1} to eat?"},
 
 {type:"mc", q:"Which character means 'store/shop' and appears in \u5546\u5E97 and \u996D\u5E97?",
- opts:["\u5546(sh\u0101ng)","\u5E97(di\u00E0n)","\u996D(f\u00E0n)","\u9662(yu\u00E0n)"],
+ opts:["\u5546(sh\u0101ng)","\u996D(f\u00E0n)","\u5E97(di\u00E0n)","\u9662(yu\u00E0n)"],
  ans:"\u5E97(di\u00E0n)",
  hint:"This character is the second part of both words and means a place where goods or services are offered."},
 
@@ -132,7 +132,7 @@ lessons:[
   text:"English puts position words before the reference: 'in front OF the school.' Chinese puts them after: '\u5B66\u6821\u524D\u9762' (school front-face).\n\nThis is one of the biggest differences between English and Chinese word order for locations. The reference point comes first, then the position.\n\n\u5546\u5E97 + \u524D\u9762 = in front of the shop\n\u5B66\u6821 + \u540E\u9762 = behind the school\n\u533B\u9662 + \u65C1\u8FB9 = beside the hospital\n\nAlways: PLACE + POSITION."}},
 
 {type:"mc", q:"\u5B66\u6821(xu\u00E9xi\u00E0o)\u5728(z\u00E0i)\u54EA\u513F(n\u01CEr)\uFF1F What is this asking?",
- opts:["When is school?","Where is the school?","How is the school?","What school?"],
+ opts:["When is school?","How is the school?","Where is the school?","What school?"],
  ans:"Where is the school?",
  hint:"\u54EA\u513F is the question word for 'where' and \u5728 asks about location."},
 
@@ -162,7 +162,7 @@ lessons:[
  sSrc:"The shop is {1}, not far."},
 
 {type:"mc", q:"In Chinese, position words come:",
- opts:["Before the reference place","After the reference place","At the start of the sentence","Position does not matter"],
+ opts:["Before the reference place","At the start of the sentence","Position does not matter","After the reference place"],
  ans:"After the reference place",
  hint:"Chinese says '\u5B66\u6821\u524D\u9762' (school front-face), not 'front-face school.'"},
 
@@ -217,7 +217,7 @@ lessons:[
   text:"English 'takes' transport, French 'takes' it too (prendre), German 'drives' it (fahren). Chinese 'sits' it (\u5750).\n\nThe logic is physical: you sit in a car, sit on a bus, sit in a plane. Chinese describes the actual posture rather than the abstract concept of 'taking' transport.\n\nThis extends to other verbs too: \u9A91\u8F66 means 'ride a bike' (literally 'straddle a vehicle'), because you straddle a bicycle. Each transport verb describes the physical relationship between person and vehicle."}},
 
 {type:"mc", q:"\u4F60(n\u01D0)\u600E\u4E48(z\u011Bnme)\u53BB(q\u00F9)\u5B66\u6821(xu\u00E9xi\u00E0o)\uFF1F What is this asking?",
- opts:["When do you go to school?","Where is the school?","How do you get to school?","Why do you go to school?"],
+ opts:["How do you get to school?","When do you go to school?","Where is the school?","Why do you go to school?"],
  ans:"How do you get to school?",
  hint:"\u600E\u4E48 is the question word for 'how' or 'by what method.'"},
 
@@ -246,7 +246,7 @@ lessons:[
  sSrc:"Have you {1}?"},
 
 {type:"mc", q:"\u8D70(z\u01D2u) can mean both:",
- opts:["to eat and to drink","to walk and to leave","to sit and to stand","to come and to go"],
+ opts:["to eat and to drink","to sit and to stand","to walk and to leave","to come and to go"],
  ans:"to walk and to leave",
  hint:"This verb covers slow movement on foot AND the act of departing from a place."},
 
@@ -257,7 +257,7 @@ lessons:[
  sSrc:"He takes a car to the restaurant."},
 
 {type:"mc", q:"\u5230(d\u00E0o)\u4E86(le)\uFF01\u6211(w\u01D2)\u5728(z\u00E0i)\u5B66\u6821(xu\u00E9xi\u00E0o)\u91CC(l\u01D0)\u3002 What is the speaker saying?",
- opts:["I am leaving school","I arrived! I am at school.","I want to go to school","I cannot find school"],
+ opts:["I am leaving school","I want to go to school","I cannot find school","I arrived! I am at school."],
  ans:"I arrived! I am at school.",
  hint:"\u5230\u4E86 means 'arrived' and \u5728...\u91CC tells you the current location."}
 ]},
@@ -286,7 +286,7 @@ lessons:[
   text:"Here is a natural exchange combining everything from this unit:\n\nA: \u8BF7\u95EE\uFF0C\u533B\u9662\u5728\u54EA\u513F\uFF1F (Excuse me, where is the hospital?)\nB: \u5728\u5B66\u6821\u540E\u9762\u3002 (Behind the school.)\nA: \u8FDC\u5417\uFF1F (Is it far?)\nB: \u4E0D\u8FDC\uFF0C\u8D70\u8DEF\u4E94\u5206\u949F\u3002 (Not far, a five-minute walk.)\nA: \u600E\u4E48\u53BB\uFF1F (How do I get there?)\nB: \u4E00\u76F4\u8D70\uFF0C\u5B66\u6821\u540E\u9762\u5C31\u662F\u3002 (Go straight, it is right behind the school.)\n\nYou now have all the vocabulary needed for this conversation!"}},
 
 {type:"mc", q:"\u5B66\u6821(xu\u00E9xi\u00E0o)\u8FDC(yu\u01CEn)\u5417(ma)\uFF1F What is this asking?",
- opts:["Where is the school?","Is the school big?","Is the school far?","When does school start?"],
+ opts:["Where is the school?","Is the school far?","Is the school big?","When does school start?"],
  ans:"Is the school far?",
  hint:"\u8FDC means 'far' and \u5417 makes it a yes/no question about distance."},
 
@@ -335,7 +335,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u6211(w\u01D2)\u5750(zu\u00F2)\u8F66(ch\u0113)\u5230(d\u00E0o)\u4E86(le)\u5B66\u6821(xu\u00E9xi\u00E0o)\u3002 What happened?",
- opts:["I walked to school","I took a car and arrived at school","I am waiting for a car to school","I cannot get to school"],
+ opts:["I walked to school","I am waiting for a car to school","I took a car and arrived at school","I cannot get to school"],
  ans:"I took a car and arrived at school",
  hint:"\u5750\u8F66 = take a car. \u5230\u4E86 = arrived. The action is complete."},
 
@@ -346,7 +346,7 @@ lessons:[
  sSrc:"The shop is {1} the restaurant."},
 
 {type:"mc", q:"\u4F60(n\u01D0)\u53BB(q\u00F9)\u54EA\u513F(n\u01CEr)\uFF1F \u6211(w\u01D2)\u53BB(q\u00F9)\u996D\u5E97(f\u00E0ndi\u00E0n)\u3002 What is happening?",
- opts:["Someone is asking the time","Someone is asking directions and gets an answer","Someone is ordering food","Someone is at the hospital"],
+ opts:["Someone is asking the time","Someone is ordering food","Someone is at the hospital","Someone is asking directions and gets an answer"],
  ans:"Someone is asking directions and gets an answer",
  hint:"\u53BB\u54EA\u513F means 'going where' and the answer names a specific place."},
 

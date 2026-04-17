@@ -50,7 +50,7 @@ lessons:[
  funFact:"\u5348 originally meant 'the moment the sun is highest.' The Horse is the 7th zodiac animal and its hour is 11 AM to 1 PM, the 'noon horse hour.' This is why \u5348 means noon."},
 
 {type:"mc", q:"Where do time words go in a Chinese sentence?",
- opts:["At the end","Before the verb","After the noun","Anywhere is fine"],
+ opts:["At the end","After the noun","Before the verb","Anywhere is fine"],
  ans:"Before the verb",
  hint:"Chinese follows a strict pattern: Subject + Time + Verb. Time always precedes the action."},
 
@@ -69,7 +69,7 @@ lessons:[
  sSrc:"I am very good {1}!"},
 
 {type:"mc", q:"\u660E(m\u00EDng) is made of \u65E5(r\u00EC) and \u6708(yu\u00E8). What does \u660E literally mean?",
- opts:["dark","bright","big","old"],
+ opts:["bright","dark","big","old"],
  ans:"bright",
  hint:"Sun plus moon together create a word describing something full of light."},
 
@@ -80,7 +80,7 @@ lessons:[
  sSrc:"He ate rice {1}."},
 
 {type:"mc", q:"\u4E0A\u5348(sh\u00E0ngw\u01D4) literally means:",
- opts:["below noon","above noon","middle of noon","before the sun"],
+ opts:["below noon","middle of noon","before the sun","above noon"],
  ans:"above noon",
  hint:"\u4E0A means 'above' or 'upper,' and \u5348 means 'noon.' Put them together."},
 
@@ -91,7 +91,7 @@ lessons:[
  sSrc:"Is {1} 3 o'clock okay?"},
 
 {type:"mc", q:"\u6211(w\u01D2)\u660E\u5929(m\u00EDngti\u0101n)\u6765(l\u00E1i)\u3002 When is the speaker coming?",
- opts:["today","yesterday","tomorrow","this morning"],
+ opts:["today","yesterday","this morning","tomorrow"],
  ans:"tomorrow",
  hint:"\u660E\u5929 contains the character for 'bright' combined with 'day.'"}
 ]},
@@ -126,7 +126,7 @@ lessons:[
   text:"English has irregular time expressions: half past, quarter to, o'clock, noon, midnight. Chinese just uses numbers.\n\n3:15 = \u4E09\u70B9\u5341\u4E94\u5206 (three point fifteen divide)\n3:30 = \u4E09\u70B9\u4E09\u5341\u5206 (three point thirty divide)\n3:45 = \u4E09\u70B9\u56DB\u5341\u4E94\u5206 (three point forty-five divide)\n\nThere is no 'quarter past' or 'half past.' Just say the numbers. Chinese speakers find English time expressions surprisingly complicated."}},
 
 {type:"mc", q:"How do you say '5 o'clock' in Chinese?",
- opts:["\u4E94(w\u01D4)\u5206(f\u0113n)","\u4E94(w\u01D4)\u4E2A(g\u00E8)","\u4E94(w\u01D4)\u70B9(di\u01CEn)","\u4E94(w\u01D4)\u5C81(su\u00EC)"],
+ opts:["\u4E94(w\u01D4)\u5206(f\u0113n)","\u4E94(w\u01D4)\u70B9(di\u01CEn)","\u4E94(w\u01D4)\u4E2A(g\u00E8)","\u4E94(w\u01D4)\u5C81(su\u00EC)"],
  ans:"\u4E94(w\u01D4)\u70B9(di\u01CEn)",
  hint:"The word after the number means 'o'clock' or 'point' and is used for hours."},
 
@@ -137,7 +137,7 @@ lessons:[
  sSrc:"It is now {1} o'clock."},
 
 {type:"mc", q:"\u4E09(s\u0101n)\u70B9(di\u01CEn)\u4E8C\u5341(\u00E8rsh\u00ED)\u5206(f\u0113n) means:",
- opts:["3:02","3:20","3:12","2:30"],
+ opts:["3:02","3:12","2:30","3:20"],
  ans:"3:20",
  hint:"\u70B9 marks the hour (three) and \u5206 marks the minutes (twenty)."},
 
@@ -156,7 +156,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u4F60(n\u01D0)\u73B0\u5728(xi\u00E0nz\u00E0i)\u53BB(q\u00F9)\u5417(ma)\uFF1F What is this asking?",
- opts:["Where are you going?","Are you going now?","When did you go?","Who is going?"],
+ opts:["Where are you going?","When did you go?","Are you going now?","Who is going?"],
  ans:"Are you going now?",
  hint:"\u73B0\u5728 means 'now' and \u5417 makes it a yes/no question. The verb \u53BB means 'to go.'"},
 
@@ -167,7 +167,7 @@ lessons:[
  sSrc:"2:10 PM."},
 
 {type:"mc", q:"\u4E0A\u5348(sh\u00E0ngw\u01D4)\u4E5D(ji\u01D4)\u70B9(di\u01CEn) means:",
- opts:["9 PM","9 AM","9:00 minutes","9 days"],
+ opts:["9 PM","9:00 minutes","9 days","9 AM"],
  ans:"9 AM",
  hint:"\u4E0A\u5348 means 'morning (AM).' Combine it with the hour number and \u70B9."}
 ]},
@@ -214,7 +214,7 @@ lessons:[
   text:"\u5728 does double duty in Chinese:\n\n1. As a verb (to be at): \u6211\u5728\u5BB6\u3002 I am at home.\n2. As a preposition (at/in): \u6211\u5728\u5BB6\u91CC\u5403\u996D\u3002 I eat at home.\n\nWhen \u5728 is the only verb, it means 'to be located at.' When another verb follows, \u5728 works like a preposition showing where the action happens. Context makes the difference clear."}},
 
 {type:"mc", q:"\u6211(w\u01D2)\u53BB(q\u00F9)\u5B66\u6821(xu\u00E9xi\u00E0o)\u3002 What is the speaker doing?",
- opts:["Coming to school","Going to school","Returning from school","Studying at school"],
+ opts:["Coming to school","Returning from school","Studying at school","Going to school"],
  ans:"Going to school",
  hint:"The verb \u53BB means movement away from the speaker toward a destination."},
 
@@ -233,7 +233,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u4ED6(t\u0101)\u5728(z\u00E0i)\u5BB6(ji\u0101)\u91CC(l\u01D0)\u3002 What does this mean?",
- opts:["He is going home","He is at home","He returned home","He left home"],
+ opts:["He is going home","He returned home","He left home","He is at home"],
  ans:"He is at home",
  hint:"\u5728 indicates location. The sentence describes where someone currently is."},
 
@@ -244,7 +244,7 @@ lessons:[
  sSrc:"I {1} home at 5 PM."},
 
 {type:"mc", q:"\u4F60(n\u01D0)\u5728(z\u00E0i)\u54EA\u513F(n\u01CEr)\uFF1F What is this asking?",
- opts:["When are you leaving?","Where are you?","Who are you?","What do you want?"],
+ opts:["Where are you?","When are you leaving?","Who are you?","What do you want?"],
  ans:"Where are you?",
  hint:"\u5728 asks about location, and \u54EA\u513F means 'where.'"},
 
@@ -255,7 +255,7 @@ lessons:[
  sSrc:"He is at school (inside)."},
 
 {type:"mc", q:"Which verb means 'to return' or 'to go back'?",
- opts:["\u53BB(q\u00F9)","\u6765(l\u00E1i)","\u56DE(hu\u00ED)","\u5728(z\u00E0i)"],
+ opts:["\u53BB(q\u00F9)","\u56DE(hu\u00ED)","\u6765(l\u00E1i)","\u5728(z\u00E0i)"],
  ans:"\u56DE(hu\u00ED)",
  hint:"This verb specifically implies going back to a place you have been before, like home."}
 ]},
@@ -307,7 +307,7 @@ lessons:[
  sSrc:"I returned home yesterday."},
 
 {type:"mc", q:"How do you negate a completed action?",
- opts:["\u4E0D(b\u00F9) + verb + \u4E86(le)","\u6CA1(m\u00E9i) + verb (no \u4E86)","verb + \u4E0D(b\u00F9) + \u4E86(le)","\u4E86(le) + \u6CA1(m\u00E9i) + verb"],
+ opts:["\u4E0D(b\u00F9) + verb + \u4E86(le)","verb + \u4E0D(b\u00F9) + \u4E86(le)","\u6CA1(m\u00E9i) + verb (no \u4E86)","\u4E86(le) + \u6CA1(m\u00E9i) + verb"],
  ans:"\u6CA1(m\u00E9i) + verb (no \u4E86)",
  hint:"When negating past actions, use \u6CA1 and remove \u4E86 entirely. They never appear together."},
 
@@ -326,7 +326,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u5979(t\u0101)\u6CA1(m\u00E9i)\u6765(l\u00E1i)\u3002 What does this mean?",
- opts:["She will not come","She came","She did not come","She is coming"],
+ opts:["She will not come","She came","She is coming","She did not come"],
  ans:"She did not come",
  hint:"\u6CA1 negates a completed action. The absence of \u4E86 confirms the action did not happen."},
 
@@ -337,7 +337,7 @@ lessons:[
  sSrc:"I went to school this morning."},
 
 {type:"mc", q:"\u6211(w\u01D2)\u5403(ch\u012B)\u4E86(le)\u7C73\u996D(m\u01D0f\u00E0n)\u3002 What happened?",
- opts:["I am eating rice","I want to eat rice","I ate rice","I did not eat rice"],
+ opts:["I ate rice","I am eating rice","I want to eat rice","I did not eat rice"],
  ans:"I ate rice",
  hint:"The verb \u5403 (eat) is followed by \u4E86 (completed). The action is already done."},
 

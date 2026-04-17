@@ -71,7 +71,7 @@ lessons:[
  sSrc:"I {1} tea."},
 
 {type:"mc", q:"\u7C73\u996D(m\u01D0f\u00E0n) refers to:",
- opts:["raw rice grains","cooked rice","bread","noodles"],
+ opts:["cooked rice","noodles","bread","raw rice grains"],
  ans:"cooked rice",
  hint:"\u7C73 means rice grain and \u996D means meal. Together they refer to the prepared staple food."},
 
@@ -124,7 +124,7 @@ lessons:[
   text:"\u8981 has multiple uses beyond 'want':\n\n1. Want/need: \u6211\u8981\u8336 = I want tea\n2. Will (future): \u6211\u8981\u8D70\u4E86 = I am about to leave\n3. Should: \u4F60\u8981\u5403\u996D = You should eat\n4. Important: \u91CD\u8981 = important (zh\u00F2ngy\u00E0o)\n\nAt A1, focus on meaning 1 (want/need). The other meanings will come naturally at A2 and B1."}},
 
 {type:"mc", q:"Which word is a softer, more polite way to express a wish?",
- opts:["\u8981(y\u00E0o)","\u60F3(xi\u01CEng)","\u8BF7(q\u01D0ng)","\u559D(h\u0113)"],
+ opts:["\u559D(h\u0113)","\u60F3(xi\u01CEng)","\u8BF7(q\u01D0ng)","\u8981(y\u00E0o)"],
  ans:"\u60F3(xi\u01CEng)",
  hint:"One of the two 'want' words contains the heart radical and feels more like 'would like to.'"},
 
@@ -153,7 +153,7 @@ lessons:[
  funFact:"\u90FD refers back to a plural subject. \u4ED6\u4EEC\u90FD\u559D\u8336 means 'They ALL drink tea.' It summarizes the group. Unlike English 'all,' \u90FD always appears after the subject and before the verb."},
 
 {type:"mc", q:"\u8FD9(zh\u00E8)\u4E2A(g\u00E8)\u83DC(c\u00E0i)\u5F88(h\u011Bn)\u597D(h\u01CEo)\u5403(ch\u012B)! What does this mean?",
- opts:["This dish is terrible","This dish is very delicious","This dish is very big","This dish is very hot"],
+ opts:["This dish is very big","This dish is terrible","This dish is very hot","This dish is very delicious"],
  ans:"This dish is very delicious",
  hint:"\u5F88 means 'very' and \u597D\u5403 literally means 'good to eat.' What is the sentence praising?"},
 
@@ -219,7 +219,7 @@ lessons:[
   text:"In China, meals are shared. Dishes are ordered for the table, not per person. Everyone eats from shared plates using chopsticks.\n\nThe host usually orders for everyone and always orders too much food. Having leftover food shows generosity. An empty table suggests the host was stingy.\n\nTipping is not expected and can even be considered rude in mainland China. The price on the menu is what you pay."}},
 
 {type:"mc", q:"How do you ask 'May I?' in Chinese?",
- opts:["\u8C22\u8C22(xi\u00E8xie)?","\u53EF\u4EE5(k\u011By\u01D0)\u5417(ma)?","\u4F60\u597D(n\u01D0h\u01CEo)?","\u5BF9\u4E0D\u8D77(du\u00ECbuq\u01D0)?"],
+ opts:["\u4F60\u597D(n\u01D0h\u01CEo)?","\u5BF9\u4E0D\u8D77(du\u00ECbuq\u01D0)?","\u8C22\u8C22(xi\u00E8xie)?","\u53EF\u4EE5(k\u011By\u01D0)\u5417(ma)?"],
  ans:"\u53EF\u4EE5(k\u011By\u01D0)\u5417(ma)?",
  hint:"This two-character word means 'can/may.' Add \u5417 to make it a yes/no question."},
 
@@ -230,7 +230,7 @@ lessons:[
  sSrc:"I want one {1} of tea."},
 
 {type:"mc", q:"\u6211\u559D\u4E00\u70B9\u513F\u3002 What does this mean?",
- opts:["I drink a lot","I drink a little","I do not drink","I want to drink"],
+ opts:["I do not drink","I drink a lot","I want to drink","I drink a little"],
  ans:"I drink a little",
  hint:"\u4E00\u70B9\u513F means a small amount. The speaker is being modest about the quantity."},
 
@@ -249,7 +249,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u4F60(n\u01D0)\u8981(y\u00E0o)\u51E0(j\u01D0)\u676F(b\u0113i)\u6C34(shu\u01D0)? What is being asked?",
- opts:["Do you want water?","How many cups of water do you want?","Is the water good?","Where is the water?"],
+ opts:["How many cups of water do you want?","Is the water good?","Where is the water?","Do you want water?"],
  ans:"How many cups of water do you want?",
  hint:"\u51E0 asks 'how many' and \u676F is the measure word for cups. The question asks about quantity."},
 
@@ -260,7 +260,7 @@ lessons:[
  sSrc:"I want to eat {1} dishes."},
 
 {type:"mc", q:"Which measure word is correct? \u4E24_\u8336",
- opts:["\u4E2A(g\u00E8)","\u676F(b\u0113i)","\u5C81(su\u00EC)","\u70B9(di\u01CEn)"],
+ opts:["\u5C81(su\u00EC)","\u70B9(di\u01CEn)","\u676F(b\u0113i)","\u4E2A(g\u00E8)"],
  ans:"\u676F(b\u0113i)",
  hint:"Tea is a liquid served in cups. Which measure word counts cups of liquid?"},
 
@@ -305,7 +305,7 @@ lessons:[
  sSrc:"What do you want to eat? I want to eat {1}."},
 
 {type:"mc", q:"\u8BF7(q\u01D0ng)\u559D(h\u0113)\u8336(ch\u00E1)\u3002 This sentence is:",
- opts:["a question","a polite offer","a negative statement","a command"],
+ opts:["a command","a negative statement","a polite offer","a question"],
  ans:"a polite offer",
  hint:"\u8BF7 at the beginning turns the sentence into a courteous invitation, not a demand."},
 
@@ -327,7 +327,7 @@ lessons:[
  sSrc:"{1} I drink tea?"},
 
 {type:"mc", q:"\u4ED6(t\u0101)\u8981(y\u00E0o)\u4E24(li\u01CEng)\u676F(b\u0113i)\u6C34(shu\u01D0)\u3002 How many cups of water does he want?",
- opts:["one","two","three","five"],
+ opts:["five","two","one","three"],
  ans:"two",
  hint:"Look at the number before the measure word \u676F. \u4E24 is the form of 'two' used before measure words."},
 
@@ -357,7 +357,7 @@ lessons:[
  sSrc:"Dad drinks tea, I {1} drink tea."},
 
 {type:"mc", q:"\u8BF7(q\u01D0ng)\u5403(ch\u012B)\u7C73\u996D(m\u01D0f\u00E0n)\u3002 A host says this to you. They are:",
- opts:["asking your name","inviting you to eat","saying goodbye","apologizing"],
+ opts:["saying goodbye","apologizing","asking your name","inviting you to eat"],
  ans:"inviting you to eat",
  hint:"\u8BF7 makes any statement into a polite invitation. Combined with 'eat rice,' it is a warm welcome to a meal."}
 ]}

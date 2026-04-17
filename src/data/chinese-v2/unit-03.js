@@ -58,7 +58,7 @@ lessons:[
  funFact:"Both \u59D0 and \u59B9 contain the \u5973 (woman) radical, while \u54E5 and \u5F1F do not. Chinese characters often embed gender information directly in the writing system through their radicals."},
 
 {type:"mc", q:"Chinese has separate words for older and younger siblings. What is the word for 'older brother'?",
- opts:["\u59D0\u59D0(ji\u011Bjie)","\u5F1F\u5F1F(d\u00ECdi)","\u59B9\u59B9(m\u00E8imei)","\u54E5\u54E5(g\u0113ge)"],
+ opts:["\u54E5\u54E5(g\u0113ge)","\u5F1F\u5F1F(d\u00ECdi)","\u59B9\u59B9(m\u00E8imei)","\u59D0\u59D0(ji\u011Bjie)"],
  ans:"\u54E5\u54E5(g\u0113ge)",
  hint:"This word starts with a first-tone syllable and refers to a male sibling who is OLDER than you."},
 
@@ -160,7 +160,7 @@ lessons:[
  sSrc:"I have one older brother {1} one younger sister."},
 
 {type:"mc", q:"\u5979(t\u0101)\u6CA1(m\u00E9i)\u6709(y\u01D2u)\u5F1F\u5F1F(d\u00ECdi)\u3002 What does this mean?",
- opts:["She is a younger brother","She wants a younger brother","She has a younger brother","She does not have a younger brother"],
+ opts:["She has a younger brother","She does not have a younger brother","She is a younger brother","She wants a younger brother"],
  ans:"She does not have a younger brother",
  hint:"\u6CA1\u6709 is the negation of 'to have.' The sentence denies possession of something."},
 
@@ -311,7 +311,7 @@ lessons:[
  sSrc:"That person is my mom."},
 
 {type:"mc", q:"Which sentence is grammatically WRONG?",
- opts:["\u6211\u6CA1\u6709\u54E5\u54E5","\u6211\u4E0D\u6709\u54E5\u54E5","\u6211\u6709\u4E00\u4E2A\u54E5\u54E5","\u8FD9\u662F\u6211\u7684\u5988\u5988"],
+ opts:["\u6211\u6709\u4E00\u4E2A\u54E5\u54E5","\u8FD9\u662F\u6211\u7684\u5988\u5988","\u6211\u6CA1\u6709\u54E5\u54E5","\u6211\u4E0D\u6709\u54E5\u54E5"],
  ans:"\u6211\u4E0D\u6709\u54E5\u54E5",
  hint:"\u6709 is negated with a specific word. Using the wrong negation word is a classic error."},
 
