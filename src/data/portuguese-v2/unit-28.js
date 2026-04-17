@@ -1,1 +1,306 @@
-const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Unit 28", sub:"Coming soon", icon:"📚", level:"B2.1", color:"#7B5EE8", lessons:[{id:"ptv2_u28l1", title:"L1", icon:"📖", xp:15, board:true, steps:[{type:"intro", title:"Unit 28", desc:"Placeholder.", goals:["Coming soon"]},{type:"teach", trg:"olá", src:"hello", pos:"intj", gender:null, note:"Placeholder.", example:"A: Olá!\nB: Olá!", exampleSrc:"A: Hello!\nB: Hello!", funFact:"Placeholder."},{type:"mc", q:"olá means:", opts:["hello","goodbye","thanks","sorry"], ans:"hello", hint:"Portuguese greeting"}]}]}; export default UNIT_28;
+const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-estar", sub:"Health/Wellness", icon:"🏃", level:"B2.1", color:"#7B5EE8", lessons:[
+
+{id:"ptv2_u28l1", title:"Physical Health", icon:"💪", xp:15, board:true, steps:[
+{type:"intro", title:"Body and Wellness",
+ desc:"Health is a universal conversation topic. B2 Portuguese needs precise vocabulary for nutrition, exercise, and medical matters.",
+ goals:["Talk about physical health","Describe exercise habits","Use health vocabulary"]},
+
+{type:"teach", trg:"saúde", src:"health", pos:"noun", gender:"f",
+ note:"General wellbeing. 'Saúde!' is also the Portuguese 'cheers!' or 'bless you' after a sneeze.",
+ example:"A: A saúde é o que mais importa.\nB: Sem ela, nada funciona.",
+ exampleSrc:"A: Health is what matters most.\nB: Without it, nothing works.",
+ funFact:"Brazil's SUS (Sistema Único de Saúde) is one of the world's largest public health systems, serving over 200 million."},
+
+{type:"teach", trg:"exercício", src:"exercise", pos:"noun", gender:"m",
+ note:"Physical activity. 'Fazer exercício' = to exercise. Also means 'practice problem' in school.",
+ example:"A: O médico recomenda exercício diário.\nB: Vou tentar começar amanhã.",
+ exampleSrc:"A: The doctor recommends daily exercise.\nB: I'll try to start tomorrow.",
+ funFact:"Brazilian beaches host free outdoor gyms, called 'academias ao ar livre', funded by city governments."},
+
+{type:"teach", trg:"alimentação", src:"diet / nutrition habits", pos:"noun", gender:"f",
+ note:"Overall eating habits. Distinguish from 'dieta' (specific restrictive diet).",
+ example:"A: Uma boa alimentação muda tudo.\nB: Verdade, é a base de tudo.",
+ exampleSrc:"A: Good nutrition changes everything.\nB: True, it's the basis of everything.",
+ funFact:"The Brazilian Dietary Guidelines became famous worldwide for recommending real food over processed products."},
+
+{type:"teach", trg:"nutrição", src:"nutrition", pos:"noun", gender:"f",
+ note:"The science of food. A 'nutricionista' is a nutritionist. More technical than 'alimentação'.",
+ example:"A: Eu estudo nutrição na universidade.\nB: Que legal, é um campo crescente.",
+ exampleSrc:"A: I study nutrition at university.\nB: How cool, it's a growing field.",
+ funFact:"Brazil has more than 120,000 registered nutritionists, reflecting growing health awareness."},
+
+{type:"teach", trg:"dieta", src:"diet (restrictive)", pos:"noun", gender:"f",
+ note:"A specific eating plan, usually for weight or health. 'Estar de dieta' = to be on a diet.",
+ example:"A: Estou de dieta faz um mês.\nB: Está valendo a pena?",
+ exampleSrc:"A: I've been on a diet for a month.\nB: Is it worth it?",
+ funFact:"'Dieta do tipo sanguíneo' (blood type diet) was a Brazilian bestseller in the 2000s despite weak science."},
+
+{type:"teach", trg:"peso", src:"weight", pos:"noun", gender:"m",
+ note:"Body weight. 'Perder peso' = to lose weight. 'Ganhar peso' = to gain weight.",
+ example:"A: Eu perdi peso esse verão.\nB: Ficou ótimo, parabéns!",
+ exampleSrc:"A: I lost weight this summer.\nB: You look great, congrats!",
+ funFact:"Portuguese uses kilograms for body weight. A Brazilian would say '70 quilos', not '154 pounds'."},
+
+{type:"teach", trg:"academia", src:"gym", pos:"noun", gender:"f",
+ note:"Gym or fitness center. Also means 'academy' (academic institution).",
+ example:"A: Vou à academia três vezes por semana.\nB: Que disciplina!",
+ exampleSrc:"A: I go to the gym three times a week.\nB: What discipline!",
+ funFact:"Smart Fit, a Brazilian chain, became the largest gym network in Latin America in the 2010s."},
+
+{type:"teach", trg:"aparelho", src:"machine / equipment / device", pos:"noun", gender:"m",
+ note:"General word for a device. 'Aparelho de exercício' = exercise machine. Also electronic devices.",
+ example:"A: Esse aparelho trabalha as pernas.\nB: Vou testar depois.",
+ exampleSrc:"A: This machine works the legs.\nB: I'll try it later.",
+ funFact:"'Aparelho celular' is the formal Brazilian word for mobile phone, though 'celular' alone is more common."},
+
+{type:"tip", title:"Dieta vs Alimentação",
+ text:"Two similar but distinct words:\n\nalimentação = overall eating habits (always, everyone has one)\ndieta = a specific plan, usually restrictive\n\nExamples:\n\nTer uma alimentação saudável.\n(To have a healthy diet / eating habits)\n\nEstar de dieta.\n(To be ON a diet / following a plan)\n\nAll people have 'alimentação'. Only people actively restricting are 'de dieta'. English 'diet' blurs both meanings. Portuguese splits them.",
+ deepDive:{title:"Health Vocabulary Hierarchy",
+  text:"Portuguese health terms have layers of formality. 'Comida' is basic food. 'Alimentação' is the broader habit. 'Nutrição' is the scientific discipline. 'Dieta' is the medical or restrictive plan. Choose the right level: talking about your grandmother's cooking uses 'comida' or 'alimentação'. Seeing a specialist uses 'nutrição'. Following a weight-loss plan uses 'dieta'. Register matters."}},
+
+{type:"mc",
+ q:"Which word means 'gym'?",
+ opts:["saúde","academia","exercício","peso"],
+ ans:"academia",
+ hint:"Where you go to work out. Also means academic institution."},
+
+{type:"mc",
+ q:"What is the difference between 'alimentação' and 'dieta'?",
+ opts:["No difference","Alimentação is habits, dieta is restrictive","Dieta is habits, alimentação is restrictive","Alimentação is for kids only"],
+ ans:"Alimentação is habits, dieta is restrictive",
+ hint:"One is the everyday reality, the other is a deliberate plan."},
+
+{type:"fb",
+ s:"O médico disse que a {1} está em dia.",
+ a:["saúde"],
+ opts:["saúde","dieta","peso","nutrição"],
+ hint:"General wellbeing. The top-level health word.",
+ sSrc:"The doctor said my {1} is in good shape."},
+
+{type:"fb",
+ s:"Esse {1} trabalha os braços.",
+ a:["aparelho"],
+ opts:["aparelho","exercício","peso","preço"],
+ hint:"The machine or device used in a gym.",
+ sSrc:"This {1} works the arms."},
+
+{type:"match", pairs:[
+ {trg:"saúde", src:"health"},
+ {trg:"exercício", src:"exercise"},
+ {trg:"alimentação", src:"nutrition habits"},
+ {trg:"nutrição", src:"nutrition (science)"},
+ {trg:"dieta", src:"diet"},
+ {trg:"peso", src:"weight"},
+ {trg:"academia", src:"gym"}
+]},
+
+{type:"mc",
+ q:"Which verb pairs with 'peso'?",
+ opts:["perder peso","levar peso","pegar peso","virar peso"],
+ ans:"perder peso",
+ hint:"Think about what you do to weight when dieting."}
+]},
+
+{id:"ptv2_u28l2", title:"Treatment and Prevention", icon:"💊", xp:15, board:true, steps:[
+{type:"intro", title:"Care and Recovery",
+ desc:"Medical conversations at B2 include symptoms, treatments, and prevention. Learn how Brazilians discuss staying well and getting better.",
+ goals:["Describe symptoms","Talk about treatment","Discuss prevention strategies"]},
+
+{type:"teach", trg:"sintoma", src:"symptom", pos:"noun", gender:"m",
+ note:"A sign of illness. Masculine despite ending in -a (Greek origin, like 'programa').",
+ example:"A: O sintoma principal é a febre.\nB: Precisa de tratamento logo.",
+ exampleSrc:"A: The main symptom is fever.\nB: It needs treatment soon.",
+ funFact:"The ending -oma in medical terms (sintoma, carcinoma, linfoma) all come from Greek and stay masculine."},
+
+{type:"teach", trg:"tratamento", src:"treatment", pos:"noun", gender:"m",
+ note:"Medical care plan. 'Fazer tratamento' = to be under treatment. Also applies to dental or psychological care.",
+ example:"A: O tratamento vai durar seis meses.\nB: Paciência, o importante é melhorar.",
+ exampleSrc:"A: The treatment will last six months.\nB: Patience, what matters is getting better.",
+ funFact:"The Brazilian SUS provides free treatment for many conditions including cancer, HIV, and transplants."},
+
+{type:"teach", trg:"prevenção", src:"prevention", pos:"noun", gender:"f",
+ note:"Stopping problems before they start. 'Melhor prevenir que remediar' = better prevent than treat.",
+ example:"A: A prevenção é melhor que a cura.\nB: Sempre foi e sempre será.",
+ exampleSrc:"A: Prevention is better than cure.\nB: Always was and always will be.",
+ funFact:"Brazil's universal vaccination program, part of SUS, is considered one of the most successful in the world."},
+
+{type:"teach", trg:"stress", src:"stress", pos:"noun", gender:"m",
+ note:"Kept as English, sometimes spelled 'estresse'. Masculine. 'Estar com stress' = to be stressed.",
+ example:"A: O stress no trabalho está me matando.\nB: Precisa tirar férias.",
+ exampleSrc:"A: Work stress is killing me.\nB: You need to take a vacation.",
+ funFact:"'Síndrome de burnout' officially entered Brazilian occupational disease lists in 2022."},
+
+{type:"teach", trg:"mental", src:"mental", pos:"adj", gender:null,
+ note:"Adjective. Same form for masculine and feminine. 'Saúde mental' = mental health.",
+ example:"A: A saúde mental é tão importante quanto a física.\nB: Finalmente se fala disso.",
+ exampleSrc:"A: Mental health is as important as physical.\nB: Finally people talk about it.",
+ funFact:"'Janeiro Branco' is a Brazilian campaign dedicated to mental health awareness, launched in 2014."},
+
+{type:"teach", trg:"físico", src:"physical", pos:"adj", gender:null,
+ note:"Adjective. 'Físico' (masc) and 'física' (fem) for agreement. 'Atividade física' = physical activity.",
+ example:"A: A atividade física melhora o humor.\nB: Eu sinto a diferença.",
+ exampleSrc:"A: Physical activity improves mood.\nB: I feel the difference.",
+ funFact:"'Educação Física' is a required school subject in Brazil from elementary through high school."},
+
+{type:"teach", trg:"crônico", src:"chronic", pos:"adj", gender:null,
+ note:"Adjective describing long-lasting conditions. Feminine form: 'crônica'.",
+ example:"A: Ele tem uma dor crônica nas costas.\nB: Deve estar sofrendo muito.",
+ exampleSrc:"A: He has chronic back pain.\nB: He must be suffering a lot.",
+ funFact:"'Doenças crônicas não transmissíveis' (chronic non-communicable diseases) are Brazil's leading cause of death."},
+
+{type:"tip", title:"Stress vs Estresse",
+ text:"Portuguese has two spellings for this word:\n\nstress (English spelling, widely used in Brazil)\nestresse (Portuguese adaptation)\n\nBoth are masculine. Both pronounced the same. Newspapers prefer 'estresse'. Everyday speech uses both freely. The verb is 'estressar-se' (to get stressed): 'não se estresse' (don't stress).\n\nRelated words:\nestressado (stressed, person)\nestressante (stressful, thing)\nestresse crônico (chronic stress)",
+ deepDive:{title:"Mental Health in Brazil",
+  text:"Brazilian culture traditionally underplayed mental health. A strong person (pessoa forte) just pushed through. That is changing. 'Saúde mental' is now discussed openly. Therapy (terapia) is common among middle-class Brazilians. Phrases like 'estou no limite' (I'm at my limit) and 'não aguento mais' (I can't take anymore) used to be shameful. Today they are signals to seek help. Vocabulary reflects this shift."}},
+
+{type:"mc",
+ q:"What gender is 'sintoma'?",
+ opts:["masculine","feminine","neuter","varies"],
+ ans:"masculine",
+ hint:"Ends in -a but Greek origin. Same pattern as 'programa' and 'problema'."},
+
+{type:"mc",
+ q:"Which phrase means 'mental health'?",
+ opts:["saúde física","saúde mental","mental saúde","física saúde"],
+ ans:"saúde mental",
+ hint:"Noun first, adjective second. Standard Portuguese word order."},
+
+{type:"fb",
+ s:"O {1} contra o câncer vai demorar meses.",
+ a:["tratamento"],
+ opts:["tratamento","sintoma","stress","preço"],
+ hint:"The medical care plan to address an illness.",
+ sSrc:"{1} against cancer will take months."},
+
+{type:"fb",
+ s:"A {1} é sempre melhor que a cura.",
+ a:["prevenção"],
+ opts:["prevenção","nutrição","tratamento","saúde"],
+ hint:"Stopping problems before they happen.",
+ sSrc:"{1} is always better than cure."},
+
+{type:"match", pairs:[
+ {trg:"sintoma", src:"symptom"},
+ {trg:"tratamento", src:"treatment"},
+ {trg:"prevenção", src:"prevention"},
+ {trg:"stress", src:"stress"},
+ {trg:"mental", src:"mental"},
+ {trg:"físico", src:"physical"},
+ {trg:"crônico", src:"chronic"}
+]},
+
+{type:"mc",
+ q:"Which adjective describes a long-lasting illness?",
+ opts:["mental","físico","crônico","digital"],
+ ans:"crônico",
+ hint:"The opposite is 'agudo' (acute). Long duration."},
+
+{type:"drag_fill",
+ s:"A saúde {1} e a saúde {2} caminham juntas.",
+ blanks:{"1":"física","2":"mental"},
+ pool:["física","mental","crônica","digital"],
+ hint:"Body and mind. Two related but distinct health dimensions."}
+]},
+
+{id:"ptv2_u28l3", title:"Wellness Lifestyle", icon:"🧘", xp:15, board:true, steps:[
+{type:"intro", title:"Living Well",
+ desc:"Wellness extends beyond avoiding disease. Brazilians increasingly value mindful living, balance, and self-care. Learn the vocabulary of this modern lifestyle.",
+ goals:["Describe wellness activities","Talk about balance","Build positive lifestyle vocabulary"]},
+
+{type:"teach", trg:"bem-estar", src:"wellbeing", pos:"noun", gender:"m",
+ note:"Compound noun connected by hyphen. Literally 'well-being'. Masculine.",
+ example:"A: O bem-estar depende de muitas coisas.\nB: Corpo, mente e relações.",
+ exampleSrc:"A: Wellbeing depends on many things.\nB: Body, mind, and relationships.",
+ funFact:"'Bem-estar' replaced older terms like 'saúde geral' in Brazilian corporate wellness programs around 2015."},
+
+{type:"teach", trg:"meditação", src:"meditation", pos:"noun", gender:"f",
+ note:"The practice of mindfulness. 'Fazer meditação' = to meditate. From the verb 'meditar'.",
+ example:"A: A meditação me ajuda muito.\nB: Dá paz mesmo.",
+ exampleSrc:"A: Meditation helps me a lot.\nB: It really brings peace.",
+ funFact:"Brazilian apps like Meditar and Zen entered the top wellness app charts in the early 2020s."},
+
+{type:"teach", trg:"sono", src:"sleep", pos:"noun", gender:"m",
+ note:"The activity of sleeping. 'Dormir' is the verb. 'Ter sono' = to be sleepy.",
+ example:"A: O sono de qualidade é essencial.\nB: Durmo só seis horas, infelizmente.",
+ exampleSrc:"A: Quality sleep is essential.\nB: I only sleep six hours, unfortunately.",
+ funFact:"Brazilian sleep studies suggest a third of adults in São Paulo have chronic sleep issues, largely from work stress."},
+
+{type:"teach", trg:"descanso", src:"rest", pos:"noun", gender:"m",
+ note:"Rest or break. 'Dia de descanso' = day off. 'Descansar' is the verb.",
+ example:"A: Preciso de descanso, estou exausto.\nB: Tira um dia para você.",
+ exampleSrc:"A: I need rest, I'm exhausted.\nB: Take a day for yourself.",
+ funFact:"Sunday is traditionally 'dia de descanso' in Brazilian culture, though many retail workers lost this tradition."},
+
+{type:"teach", trg:"equilíbrio", src:"balance", pos:"noun", gender:"m",
+ note:"Physical or life balance. 'Equilíbrio entre trabalho e vida' = work-life balance.",
+ example:"A: O equilíbrio é a chave da felicidade.\nB: Mais fácil dizer que fazer.",
+ exampleSrc:"A: Balance is the key to happiness.\nB: Easier said than done.",
+ funFact:"The Portuguese 'equilíbrio' is cognate with English 'equilibrium' and appears in both physics and daily life."},
+
+{type:"teach", trg:"energia", src:"energy", pos:"noun", gender:"f",
+ note:"Physical energy and general vigor. Also electrical energy. 'Cheio de energia' = full of energy.",
+ example:"A: Onde você consegue tanta energia?\nB: Durmo bem e faço exercício.",
+ exampleSrc:"A: Where do you get so much energy?\nB: I sleep well and exercise.",
+ funFact:"Brazilians also use 'energia' spiritually: 'ter boa energia' (to have good vibes)."},
+
+{type:"teach", trg:"hábito", src:"habit", pos:"noun", gender:"m",
+ note:"A regular behavior. 'Criar um hábito' = to build a habit. 'Mau hábito' = bad habit.",
+ example:"A: Criar hábitos saudáveis leva tempo.\nB: Mas vale cada dia investido.",
+ exampleSrc:"A: Building healthy habits takes time.\nB: But worth every day invested.",
+ funFact:"James Clear's book 'Hábitos Atômicos' (Atomic Habits) was a Brazilian bestseller for over three years."},
+
+{type:"tip", title:"Compound Nouns with Hyphens",
+ text:"Portuguese uses hyphens in some compound nouns:\n\nbem-estar (wellbeing)\nfim-de-semana (weekend, old spelling) or fim de semana (new spelling)\nguarda-roupa (wardrobe)\nguarda-chuva (umbrella)\narco-íris (rainbow)\n\nThe 2009 Portuguese language reform removed many hyphens. Check both forms if unsure. 'Bem-estar' kept the hyphen because removing it creates two separate concepts ('well' and 'being') that blur meaning.",
+ deepDive:{title:"The Brazilian Wellness Movement",
+  text:"Wellness (bem-estar) as a formal concept arrived in Brazil around 2010 through yoga studios, corporate programs, and Instagram. Previously, 'estar bem' (feeling good) was enough. Today, 'bem-estar' carries holistic weight: mental health, physical fitness, nutrition, relationships, financial peace. The phrase 'busca pelo bem-estar' (pursuit of wellbeing) is now cliché in self-help books. B2 learners should know both the word and the cultural moment it represents."}},
+
+{type:"mc",
+ q:"How is 'bem-estar' written?",
+ opts:["bemestar","bem estar","bem-estar","bem'estar"],
+ ans:"bem-estar",
+ hint:"Compound noun kept together by a specific punctuation mark."},
+
+{type:"mc",
+ q:"Which word means 'rest'?",
+ opts:["sono","descanso","energia","hábito"],
+ ans:"descanso",
+ hint:"Taking a break. Not the same as sleeping."},
+
+{type:"fb",
+ s:"Encontrar {1} entre trabalho e vida pessoal é difícil.",
+ a:["equilíbrio"],
+ opts:["equilíbrio","energia","stress","descanso"],
+ hint:"The state where no side dominates the other.",
+ sSrc:"Finding {1} between work and personal life is hard."},
+
+{type:"fb",
+ s:"Criar bons {1} muda a vida inteira.",
+ a:["hábitos"],
+ opts:["hábitos","descansos","stress","preços"],
+ hint:"Regular behaviors repeated over time.",
+ sSrc:"Creating good {1} changes your whole life."},
+
+{type:"match", pairs:[
+ {trg:"bem-estar", src:"wellbeing"},
+ {trg:"meditação", src:"meditation"},
+ {trg:"sono", src:"sleep"},
+ {trg:"descanso", src:"rest"},
+ {trg:"equilíbrio", src:"balance"},
+ {trg:"energia", src:"energy"},
+ {trg:"hábito", src:"habit"}
+]},
+
+{type:"mc",
+ q:"What does 'ter boa energia' mean informally?",
+ opts:["to have electricity","to have good vibes","to exercise a lot","to sleep well"],
+ ans:"to have good vibes",
+ hint:"Brazilian speakers use this spiritually, not literally."},
+
+{type:"drag_fill",
+ s:"Bons {1} de {2} fazem toda a diferença.",
+ blanks:{"1":"hábitos","2":"sono"},
+ pool:["hábitos","sono","stress","preços"],
+ hint:"First blank: regular behaviors. Second blank: what you do at night."}
+]}
+
+]}; export default UNIT_28;
