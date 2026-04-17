@@ -333,6 +333,7 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 ### Known Blockers
 1. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56).
 2. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537).
+3. **V1 archival blocked** — `src/utils.js:518` still imports V1 (`units-dutch.js`, `units-korean.js`, `units-german.js`, `units-french.js`, `units-spanish.js`) alongside V2. Do NOT remove these imports or archive V1 files until the 43 gaps documented in `docs/V1_SALVAGE_STATUS.md` are added to V2. French V1 is 100% covered and safe to archive first.
 4. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing.
 
 > 25 previously tracked blockers have been resolved. See `docs/BUILD_STATUS.md` for full history.
