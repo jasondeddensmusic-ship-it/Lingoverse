@@ -21,6 +21,11 @@ const UNIT_01 = {
        desc:"Learn the essential Japanese greetings for different times of day and social situations.",
        goals:["Greet people at different times of day","Use basic polite expressions","Understand formality levels"]},
 
+      {type:"tip", title:"How to Read Japanese in This Course",
+       text:"Japanese uses three scripts: hiragana, katakana, and kanji.\n\nIn this course, kanji always appears with its reading in parentheses:\n\n先生(せんせい) = sensei (teacher)\n\nThe characters before the parentheses are kanji (meaning).\nThe hiragana inside ( ) tells you how to pronounce it.\n\nSome words mix kanji and hiragana:\n食(た)べる = taberu (to eat)\nThe kanji 食 is read た, and べる is the verb ending.\n\nGreetings like こんにちは are written in hiragana only, no kanji needed.",
+       deepDive:"You learned hiragana and katakana in Foundations. Now you will see kanji with furigana (readings) throughout every lesson.\n\nExamples you will see:\n- 天気(てんき) = tenki (weather) — both kanji have readings\n- お元気(げんき) = ogenki (well/healthy) — お is hiragana prefix, 元気 is kanji\n- 大(おお)きい = ookii (big) — kanji stem + hiragana ending\n\nYou do NOT need to memorize kanji right now. Just read the hiragana in parentheses. Over time, you will naturally start recognizing the kanji."},
+
+
       {type:"teach", trg:"こんにちは", src:"hello / good afternoon", pos:"intj", gender:null,
        note:"The most common Japanese greeting. Used roughly 10 AM to 6 PM.",
        example:"A: こんにちは!\nB: こんにちは! お元気(げんき)ですか?",
@@ -29,26 +34,26 @@ const UNIT_01 = {
 
       {type:"teach", trg:"おはようございます", src:"good morning (polite)", pos:"intj", gender:null,
        note:"Polite morning greeting. Casual version: おはよう (ohayou).\nUsed until about 10 AM.",
-       example:"A: おはようございます、先生(せんせい)!\nB: おはようございます。今日(きょう)もがんばりましょう。",
-       exampleSrc:"A: Good morning, teacher!\nB: Good morning. Let's do our best today too.",
+       example:"A: おはようございます!\nB: おはようございます!",
+       exampleSrc:"A: Good morning!\nB: Good morning!",
        funFact:"Comes from 'hayai' (early). Literally 'it is early.' In the entertainment industry, actors say ohayou gozaimasu at any hour when starting work, even at night."},
 
       {type:"teach", trg:"こんばんは", src:"good evening", pos:"intj", gender:null,
        note:"Evening greeting. Used after dark, roughly from 6 PM.",
-       example:"A: こんばんは。いい天気(てんき)ですね。\nB: そうですね。星(ほし)がきれいです。",
-       exampleSrc:"A: Good evening. Nice weather, isn't it?\nB: Yes, it is. The stars are beautiful.",
+       example:"A: こんばんは!\nB: こんばんは!",
+       exampleSrc:"A: Good evening!\nB: Good evening!",
        funFact:"Like konnichiwa, this is a fragment of a longer phrase: 'konban wa gokigen ikaga desu ka.' The 'wa' is the topic particle written with は, not わ."},
 
       {type:"teach", trg:"おやすみなさい", src:"good night", pos:"intj", gender:null,
        note:"Said when going to bed or parting late at night.\nCasual: おやすみ (oyasumi).",
-       example:"A: もう遅(おそ)いですね。おやすみなさい。\nB: おやすみなさい。また明日(あした)!",
-       exampleSrc:"A: It's late already. Good night.\nB: Good night. See you tomorrow!",
+       example:"A: おやすみなさい。\nB: おやすみなさい!",
+       exampleSrc:"A: Good night.\nB: Good night!",
        funFact:"Literally means 'please rest.' The verb yasumu means to rest. Adding nasai makes it a gentle command, like a parent telling a child to rest well."},
 
       {type:"teach", trg:"さようなら", src:"goodbye", pos:"intj", gender:null,
        note:"Formal goodbye. Implies you won't see the person for a while.\nFor casual partings, use じゃあね or またね.",
-       example:"A: 今日(きょう)はありがとうございました。\nB: こちらこそ。さようなら!",
-       exampleSrc:"A: Thank you for today.\nB: Likewise. Goodbye!",
+       example:"A: さようなら!\nB: さようなら! またね!",
+       exampleSrc:"A: Goodbye!\nB: Goodbye! See you!",
        funFact:"Means 'if that is so' or 'well then.' It carries a sense of finality. Japanese people rarely use it with close friends, preferring mata ne (see you) or ja ne (well then)."},
 {type:"match",pairs:[{trg:"おはようございます",src:"good morning (polite)"},{trg:"こんばんは",src:"good evening"},{trg:"おやすみなさい",src:"good night"},{trg:"さようなら",src:"goodbye"}]},
 
