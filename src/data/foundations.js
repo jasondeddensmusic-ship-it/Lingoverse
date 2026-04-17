@@ -1624,6 +1624,84 @@ export const FOUNDATIONS_BY_LANG = {
       ]},
   ]},
   // ── Russian Foundations (Pipeline Step 2 — placeholder) ──
+  ja:{name:"Japanese Foundations",icon:"🇯🇵",sections:[
+    {id:"ja_hiragana",title:"Hiragana Chart",icon:"あ",desc:"46 basic characters for native Japanese words and grammar",
+      items:[
+        {fk:"fk_hiragana_grid",title:"Basic hiragana grid",audio_id:null,
+          desc:"Every hiragana is a consonant + vowel. 5 vowels x 10 consonant rows (minus gaps) = 46 characters.",
+          grid:{cols:6,headers:["","a","i","u","e","o"],rows:[
+            {label:"Vowels",color:"#E85D75",cells:[{ch:"",rom:""},{ch:"あ",rom:"a"},{ch:"い",rom:"i"},{ch:"う",rom:"u"},{ch:"え",rom:"e"},{ch:"お",rom:"o"}]},
+            {label:"K",color:"#4A8FE7",cells:[{ch:"",rom:""},{ch:"か",rom:"ka"},{ch:"き",rom:"ki"},{ch:"く",rom:"ku"},{ch:"け",rom:"ke"},{ch:"こ",rom:"ko"}]},
+            {label:"S",color:"#4A8FE7",cells:[{ch:"",rom:""},{ch:"さ",rom:"sa"},{ch:"し",rom:"shi"},{ch:"す",rom:"su"},{ch:"せ",rom:"se"},{ch:"そ",rom:"so"}]},
+            {label:"T",color:"#4A8FE7",cells:[{ch:"",rom:""},{ch:"た",rom:"ta"},{ch:"ち",rom:"chi"},{ch:"つ",rom:"tsu"},{ch:"て",rom:"te"},{ch:"と",rom:"to"}]},
+            {label:"N",color:"#4A8FE7",cells:[{ch:"",rom:""},{ch:"な",rom:"na"},{ch:"に",rom:"ni"},{ch:"ぬ",rom:"nu"},{ch:"ね",rom:"ne"},{ch:"の",rom:"no"}]},
+            {label:"H",color:"#2ECDAB",cells:[{ch:"",rom:""},{ch:"は",rom:"ha"},{ch:"ひ",rom:"hi"},{ch:"ふ",rom:"fu"},{ch:"へ",rom:"he"},{ch:"ほ",rom:"ho"}]},
+            {label:"M",color:"#2ECDAB",cells:[{ch:"",rom:""},{ch:"ま",rom:"ma"},{ch:"み",rom:"mi"},{ch:"む",rom:"mu"},{ch:"め",rom:"me"},{ch:"も",rom:"mo"}]},
+            {label:"Y",color:"#F5A623",cells:[{ch:"",rom:""},{ch:"や",rom:"ya"},{ch:"",rom:""},{ch:"ゆ",rom:"yu"},{ch:"",rom:""},{ch:"よ",rom:"yo"}]},
+            {label:"R",color:"#F5A623",cells:[{ch:"",rom:""},{ch:"ら",rom:"ra"},{ch:"り",rom:"ri"},{ch:"る",rom:"ru"},{ch:"れ",rom:"re"},{ch:"ろ",rom:"ro"}]},
+            {label:"W/N",color:"#9B9B9B",cells:[{ch:"",rom:""},{ch:"わ",rom:"wa"},{ch:"",rom:""},{ch:"",rom:""},{ch:"",rom:""},{ch:"を",rom:"wo"}]},
+            {label:"",color:"#9B9B9B",cells:[{ch:"",rom:""},{ch:"ん",rom:"n"},{ch:"",rom:""},{ch:"",rom:""},{ch:"",rom:""},{ch:"",rom:""}]},
+          ]}},
+      ]},
+    {id:"ja_katakana",title:"Katakana Chart",icon:"カ",desc:"46 angular characters for foreign loanwords and emphasis",
+      items:[
+        {fk:"fk_katakana_grid",title:"Basic katakana grid",audio_id:null,
+          desc:"Same sounds as hiragana, angular shapes. Used for foreign words: コーヒー (coffee), テレビ (TV).",
+          grid:{cols:6,headers:["","a","i","u","e","o"],rows:[
+            {label:"Vowels",color:"#E85D75",cells:[{ch:"",rom:""},{ch:"ア",rom:"a"},{ch:"イ",rom:"i"},{ch:"ウ",rom:"u"},{ch:"エ",rom:"e"},{ch:"オ",rom:"o"}]},
+            {label:"K",color:"#4A8FE7",cells:[{ch:"",rom:""},{ch:"カ",rom:"ka"},{ch:"キ",rom:"ki"},{ch:"ク",rom:"ku"},{ch:"ケ",rom:"ke"},{ch:"コ",rom:"ko"}]},
+            {label:"S",color:"#4A8FE7",cells:[{ch:"",rom:""},{ch:"サ",rom:"sa"},{ch:"シ",rom:"shi"},{ch:"ス",rom:"su"},{ch:"セ",rom:"se"},{ch:"ソ",rom:"so"}]},
+            {label:"T",color:"#4A8FE7",cells:[{ch:"",rom:""},{ch:"タ",rom:"ta"},{ch:"チ",rom:"chi"},{ch:"ツ",rom:"tsu"},{ch:"テ",rom:"te"},{ch:"ト",rom:"to"}]},
+            {label:"N",color:"#4A8FE7",cells:[{ch:"",rom:""},{ch:"ナ",rom:"na"},{ch:"ニ",rom:"ni"},{ch:"ヌ",rom:"nu"},{ch:"ネ",rom:"ne"},{ch:"ノ",rom:"no"}]},
+            {label:"H",color:"#2ECDAB",cells:[{ch:"",rom:""},{ch:"ハ",rom:"ha"},{ch:"ヒ",rom:"hi"},{ch:"フ",rom:"fu"},{ch:"ヘ",rom:"he"},{ch:"ホ",rom:"ho"}]},
+            {label:"M",color:"#2ECDAB",cells:[{ch:"",rom:""},{ch:"マ",rom:"ma"},{ch:"ミ",rom:"mi"},{ch:"ム",rom:"mu"},{ch:"メ",rom:"me"},{ch:"モ",rom:"mo"}]},
+            {label:"Y",color:"#F5A623",cells:[{ch:"",rom:""},{ch:"ヤ",rom:"ya"},{ch:"",rom:""},{ch:"ユ",rom:"yu"},{ch:"",rom:""},{ch:"ヨ",rom:"yo"}]},
+            {label:"R",color:"#F5A623",cells:[{ch:"",rom:""},{ch:"ラ",rom:"ra"},{ch:"リ",rom:"ri"},{ch:"ル",rom:"ru"},{ch:"レ",rom:"re"},{ch:"ロ",rom:"ro"}]},
+            {label:"W/N",color:"#9B9B9B",cells:[{ch:"",rom:""},{ch:"ワ",rom:"wa"},{ch:"",rom:""},{ch:"",rom:""},{ch:"",rom:""},{ch:"ヲ",rom:"wo"}]},
+            {label:"",color:"#9B9B9B",cells:[{ch:"",rom:""},{ch:"ン",rom:"n"},{ch:"",rom:""},{ch:"",rom:""},{ch:"",rom:""},{ch:"",rom:""}]},
+          ]}},
+      ]},
+    {id:"ja_dakuten",title:"Voiced Sounds",icon:"゛",desc:"Dakuten (゛) and handakuten (゜) marks change consonants",
+      items:[
+        {fk:"fk_dakuten_grid",title:"Dakuten and handakuten chart",audio_id:null,
+          desc:"Add ゛ to voice a consonant (k→g, s→z, t→d, h→b). Add ゜ to the H-row only for p-sounds.",
+          grid:{cols:6,headers:["","a","i","u","e","o"],rows:[
+            {label:"G (K+゛)",color:"#4A8FE7",cells:[{ch:"",rom:""},{ch:"が",rom:"ga"},{ch:"ぎ",rom:"gi"},{ch:"ぐ",rom:"gu"},{ch:"げ",rom:"ge"},{ch:"ご",rom:"go"}]},
+            {label:"Z (S+゛)",color:"#4A8FE7",cells:[{ch:"",rom:""},{ch:"ざ",rom:"za"},{ch:"じ",rom:"ji"},{ch:"ず",rom:"zu"},{ch:"ぜ",rom:"ze"},{ch:"ぞ",rom:"zo"}]},
+            {label:"D (T+゛)",color:"#4A8FE7",cells:[{ch:"",rom:""},{ch:"だ",rom:"da"},{ch:"ぢ",rom:"(ji)"},{ch:"づ",rom:"(zu)"},{ch:"で",rom:"de"},{ch:"ど",rom:"do"}]},
+            {label:"B (H+゛)",color:"#2ECDAB",cells:[{ch:"",rom:""},{ch:"ば",rom:"ba"},{ch:"び",rom:"bi"},{ch:"ぶ",rom:"bu"},{ch:"べ",rom:"be"},{ch:"ぼ",rom:"bo"}]},
+            {label:"P (H+゜)",color:"#E85D75",cells:[{ch:"",rom:""},{ch:"ぱ",rom:"pa"},{ch:"ぴ",rom:"pi"},{ch:"ぷ",rom:"pu"},{ch:"ぺ",rom:"pe"},{ch:"ぽ",rom:"po"}]},
+          ]}},
+      ]},
+    {id:"ja_combo",title:"Combo Sounds",icon:"き���",desc:"Small ゃゅょ merge with i-column characters",
+      items:[
+        {fk:"fk_combo_grid",title:"Combination syllable chart",audio_id:null,
+          desc:"Attach small ゃ(ya), ゅ(yu), ょ(yo) to i-column characters. SIZE MATTERS: きや = ki-ya (2), きゃ = kya (1).",
+          grid:{cols:4,headers:["Base","+ ゃ","+ ゅ","+ ょ"],rows:[
+            {label:"K",color:"#4A8FE7",cells:[{ch:"き",rom:"ki"},{ch:"きゃ",rom:"kya"},{ch:"きゅ",rom:"kyu"},{ch:"きょ",rom:"kyo"}]},
+            {label:"S",color:"#4A8FE7",cells:[{ch:"し",rom:"shi"},{ch:"しゃ",rom:"sha"},{ch:"しゅ",rom:"shu"},{ch:"しょ",rom:"sho"}]},
+            {label:"T",color:"#4A8FE7",cells:[{ch:"ち",rom:"chi"},{ch:"ちゃ",rom:"cha"},{ch:"ちゅ",rom:"chu"},{ch:"ちょ",rom:"cho"}]},
+            {label:"N",color:"#2ECDAB",cells:[{ch:"に",rom:"ni"},{ch:"にゃ",rom:"nya"},{ch:"にゅ",rom:"nyu"},{ch:"にょ",rom:"nyo"}]},
+            {label:"H",color:"#2ECDAB",cells:[{ch:"ひ",rom:"hi"},{ch:"ひゃ",rom:"hya"},{ch:"ひゅ",rom:"hyu"},{ch:"ひょ",rom:"hyo"}]},
+            {label:"M",color:"#2ECDAB",cells:[{ch:"み",rom:"mi"},{ch:"みゃ",rom:"mya"},{ch:"みゅ",rom:"myu"},{ch:"みょ",rom:"myo"}]},
+            {label:"R",color:"#F5A623",cells:[{ch:"り",rom:"ri"},{ch:"りゃ",rom:"rya"},{ch:"りゅ",rom:"ryu"},{ch:"りょ",rom:"ryo"}]},
+          ]}},
+      ]},
+    {id:"ja_kanji_basics",title:"Kanji Basics",icon:"漢",desc:"Basic kanji awareness: readings, radicals, and furigana",
+      items:[
+        {fk:"fk_kanji_overview",title:"Kanji reading types",audio_id:null,
+          desc:"Each kanji has kun'yomi (native Japanese) and on'yomi (Chinese-derived) readings. Furigana show pronunciation.",
+          grid:{cols:4,headers:["Kanji","Meaning","Kun'yomi","On'yomi"],rows:[
+            {label:"",color:"#E85D75",cells:[{ch:"山",rom:""},{ch:"Mountain",rom:""},{ch:"やま yama",rom:"standalone"},{ch:"さん san",rom:"compounds"}]},
+            {label:"",color:"#4A8FE7",cells:[{ch:"水",rom:""},{ch:"Water",rom:""},{ch:"みず mizu",rom:"standalone"},{ch:"すい sui",rom:"compounds"}]},
+            {label:"",color:"#2ECDAB",cells:[{ch:"日",rom:""},{ch:"Sun/Day",rom:""},{ch:"ひ hi",rom:"standalone"},{ch:"にち nichi",rom:"compounds"}]},
+            {label:"",color:"#F5A623",cells:[{ch:"月",rom:""},{ch:"Moon/Month",rom:""},{ch:"つき tsuki",rom:"standalone"},{ch:"げつ getsu",rom:"compounds"}]},
+            {label:"",color:"#E85D75",cells:[{ch:"人",rom:""},{ch:"Person",rom:""},{ch:"ひと hito",rom:"standalone"},{ch:"じん jin",rom:"compounds"}]},
+            {label:"",color:"#4A8FE7",cells:[{ch:"大",rom:""},{ch:"Big",rom:""},{ch:"おおきい ookii",rom:"standalone"},{ch:"だい dai",rom:"compounds"}]},
+            {label:"",color:"#2ECDAB",cells:[{ch:"木",rom:""},{ch:"Tree",rom:""},{ch:"き ki",rom:"standalone"},{ch:"もく moku",rom:"compounds"}]},
+          ]}},
+      ]},
+  ]},
   it:{name:"Italian Foundations",icon:"🇮🇹",sections:[]},
   pt:{name:"Portuguese Foundations",icon:"🇧🇷",sections:[]},
   ru:{name:"Russian Foundations",icon:"🇷🇺",sections:[
@@ -2815,7 +2893,372 @@ export const FK_PLAYTHROUGH = {
         ]},
     ]},
   ]},
-  ja:{name:"Learn Kana & Kanji",icon:"🇯🇵",blueprint:"kana",stages:[]},
+  ja:{name:"Learn Kana & Kanji",icon:"🇯🇵",blueprint:"kana",stages:[
+// ── PHASE 0: Orientation (3 scripts overview) ──
+  {id:"ja_fp_p0",title:"Phase 0: Three Scripts",desc:"What Japanese writing is and why there are three scripts",icon:"\u{1F4DD}",
+    lessons:[
+      {id:"ja_fp_p0_l1",title:"The Three Scripts",icon:"\u{1F4DD}",xp:15,board:true,steps:[
+        {type:"intro",title:"Welcome to Japanese Writing!",desc:"Japanese uses THREE writing systems, all at the same time. This might seem overwhelming, but each one has a clear job. You will learn them one at a time, starting with the most important one.",goals:["Know the names of the 3 scripts","Understand what each script is used for","Know which one you will learn first"]},
+        {type:"teach",kind:"info",nl:"\u3072\u3089\u304C\u306A",en:"Hiragana",phonetic:"hee-rah-gah-nah",example:"\u3042\u3044\u3046\u3048\u304A",exampleEn:"a i u e o (the five hiragana vowels)",note:"Hiragana is the core script. It is used for native Japanese words, grammar particles, and verb endings. It has 46 basic characters. This is what you will learn first."},
+        {type:"teach",kind:"info",nl:"\u30AB\u30BF\u30AB\u30CA",en:"Katakana",phonetic:"kah-tah-kah-nah",example:"\u30A2\u30A4\u30A6\u30A8\u30AA",exampleEn:"a i u e o (the five katakana vowels)",note:"Katakana is used for foreign loanwords, emphasis, and sound effects. It also has 46 basic characters. The sounds are exactly the same as hiragana, just with different shapes. You will learn it after hiragana."},
+        {type:"teach",kind:"info",nl:"\u6F22\u5B57",en:"Kanji",phonetic:"kahn-jee",example:"\u5C71 \u5DDD \u65E5 \u6708",exampleEn:"mountain, river, sun, moon",note:"Kanji are Chinese characters adopted into Japanese. Each one carries meaning and has multiple possible readings. There are about 2,000 in daily use. You will build kanji awareness gradually after mastering hiragana and katakana."},
+        {type:"mc",q:"Which script is used for native Japanese words and grammar?",opts:["Katakana","Kanji","Hiragana","Romaji"],ans:"Hiragana",hint:"This is the core script with 46 characters"},
+        {type:"mc",q:"Which script is used for foreign loanwords like 'coffee' or 'computer'?",opts:["Hiragana","Katakana","Kanji","All three equally"],ans:"Katakana",hint:"Foreign words borrowed into Japanese use this script"},
+        {type:"mc",q:"How many basic hiragana characters are there?",opts:["26","100","2,000","46"],ans:"46",hint:"It is more than English letters but far fewer than kanji"},
+        {type:"tip",title:"All Three in One Sentence",text:"A real Japanese sentence often mixes all three scripts.\nFor example: \u6771\u4EAC\u30BF\u30EF\u30FC\u306F\u8D64\u3044 (Tokyo Tower is red)\n\u2022 \u6771\u4EAC = kanji (Tokyo)\n\u2022 \u30BF\u30EF\u30FC = katakana (Tower, a loanword)\n\u2022 \u306F\u8D64\u3044 = hiragana + kanji (is red)\nDon't worry about reading this yet. Just notice the visual mix.",icon:"\u{1F4A1}"},
+      ]},
+    ]},
+  // ── PHASE 1: Hiragana Vowels (5 vowels) ──
+  {id:"ja_fp_p1",title:"Phase 1: Hiragana Vowels",desc:"The 5 pure vowels that form the foundation of every hiragana character",icon:"\u3042",
+    lessons:[
+      {id:"ja_fp_p1_l1",title:"The Five Vowels",icon:"\u3042",xp:20,board:true,steps:[
+        {type:"intro",title:"Your First Five Characters",desc:"Every hiragana character is built from a consonant plus one of these 5 vowels. Learn these first and you unlock the entire system. Japanese vowels are pure and short, never sliding into another sound like English vowels often do.",goals:["Read and recognize all 5 hiragana vowels","Know the correct pronunciation for each","Understand that Japanese vowels are pure, not diphthongs"]},
+        {type:"teach",kind:"letter",nl:"\u3042",en:"A",img:"\u{1F4DD}",phonetic:"ah (as in father)",example:"\u3042\u304D (aki) = autumn",exampleEn:"The first character of the Japanese syllabary",note:"This is the very first hiragana. It has a crossbar and a swooping tail. Keep the sound short and open: 'ah', not 'ay'."},
+        {type:"teach",kind:"letter",nl:"\u3044",en:"I",img:"\u{1F4DD}",phonetic:"ee (as in meet)",example:"\u3044\u306C (inu) = dog",exampleEn:"Two curved strokes side by side",note:"Two separate strokes that curve slightly. The sound is a crisp 'ee', never 'eye' or 'ih'. Keep it short and pure."},
+        {type:"teach",kind:"letter",nl:"\u3046",en:"U",img:"\u{1F4DD}",phonetic:"oo (as in soon)",example:"\u3046\u307F (umi) = sea",exampleEn:"A single stroke with a small curve",note:"A compact character. The sound is 'oo' but with lips barely rounded. Much less lip rounding than English 'oo'. Keep it light."},
+        {type:"mc",q:"Which hiragana makes the 'ah' sound?",opts:["\u3044","\u3046","\u3042","\u3048"],ans:"\u3042",hint:"It is the first character of the syllabary with a swooping tail"},
+        {type:"mc",q:"Which hiragana makes the 'ee' sound?",opts:["\u3042","\u3046","\u304A","\u3044"],ans:"\u3044",hint:"Two curved strokes standing side by side"},
+        {type:"teach",kind:"letter",nl:"\u3048",en:"E",img:"\u{1F4DD}",phonetic:"eh (as in bed)",example:"\u3048\u304D (eki) = train station",exampleEn:"A character with horizontal and vertical strokes",note:"The sound is a clean 'eh', like in 'bed'. Never 'ee' and never a long 'ay'. Pure and short."},
+        {type:"teach",kind:"letter",nl:"\u304A",en:"O",img:"\u{1F4DD}",phonetic:"oh (as in go)",example:"\u304A\u304B\u3042\u3055\u3093 (okaasan) = mother",exampleEn:"A character with a cross and a swooping stroke",note:"The sound is a pure 'oh', without the 'w' glide that English speakers often add. Say 'oh' and stop. Do not let it slide into 'ow'."},
+        {type:"mc",q:"Which hiragana makes the 'oh' sound?",opts:["\u3042","\u3048","\u304A","\u3046"],ans:"\u304A",hint:"The last of the five vowels, with a cross and a swoop"},
+        {type:"mc",q:"Which hiragana makes the 'eh' sound?",opts:["\u3044","\u304A","\u3042","\u3048"],ans:"\u3048",hint:"The fourth vowel, sounds like the vowel in 'bed'"},
+        {type:"mc",q:"What is special about Japanese vowels compared to English?",opts:["They are always long","They slide into other sounds","They are pure and short, with no glide","They change depending on the word"],ans:"They are pure and short, with no glide",hint:"English vowels often slide, but Japanese vowels stay constant"},
+        {type:"tip",title:"The Vowel Foundation",text:"These 5 vowels are the backbone of Japanese.\nEvery single hiragana character is built from a consonant plus one of these vowels.\n\u2022 \u3042 (a), \u3044 (i), \u3046 (u), \u3048 (e), \u304A (o)\nMaster these and the rest of hiragana becomes a pattern.",icon:"\u{1F511}"},
+      ]},
+    ]},
+  // ── PHASE 2: Hiragana K-S-T-N Rows (2 lessons) ──
+  {id:"ja_fp_p2",title:"Phase 2: K-S-T-N Rows",desc:"Four consonant rows, each combining with the 5 vowels to make 20 new characters",icon:"\u304B",
+    lessons:[
+      // Lesson 1: K-row and S-row
+      {id:"ja_fp_p2_l1",title:"K-row and S-row",icon:"\u304B",xp:20,board:true,steps:[
+        {type:"intro",title:"Your First Consonant Rows",desc:"Now you add consonants to the vowels. The K-row adds a 'k' sound before each vowel. The S-row adds an 's' sound. One character in the S-row has a surprising pronunciation.",goals:["Read the 5 K-row characters","Read the 5 S-row characters","Know that \u3057 is 'shi', not 'si'"]},
+        {type:"teach",kind:"letter",nl:"\u304B",en:"KA",img:"\u{1F4DD}",phonetic:"kah",example:"\u304B\u3055 (kasa) = umbrella",exampleEn:"K + A = KA, the first character of the K-row",note:"Looks like it has a cross with a sweeping stroke. The 'k' sound is clean, not aspirated like English 'k' in 'kite'."},
+        {type:"teach",kind:"letter",nl:"\u304D",en:"KI",img:"\u{1F4DD}",phonetic:"kee",example:"\u304D\u3082\u306E (kimono) = kimono",exampleEn:"K + I = KI, the second character of the K-row",note:"Three horizontal-ish strokes. Keep the 'ee' pure and the 'k' clean."},
+        {type:"teach",kind:"letter",nl:"\u304F",en:"KU",img:"\u{1F4DD}",phonetic:"koo",example:"\u304F\u3082 (kumo) = cloud",exampleEn:"K + U = KU, a simple character with two strokes",note:"One of the simplest hiragana to write. Just two strokes forming an angle. Remember: lips barely rounded for 'u'."},
+        {type:"teach",kind:"letter",nl:"\u3051",en:"KE",img:"\u{1F4DD}",phonetic:"keh",example:"\u3051\u3080\u308A (kemuri) = smoke",exampleEn:"K + E = KE, the fourth character of the K-row",note:"Has a vertical line with branching strokes. The 'e' is a clean 'eh' sound."},
+        {type:"teach",kind:"letter",nl:"\u3053",en:"KO",img:"\u{1F4DD}",phonetic:"koh",example:"\u3053\u3053 (koko) = here",exampleEn:"K + O = KO, two horizontal strokes",note:"Two simple horizontal strokes, one above the other. Remember: pure 'oh', no glide."},
+        {type:"mc",q:"Read this character: \u304B",opts:["sa","ka","ta","na"],ans:"ka",hint:"This is the first character of the K-row"},
+        {type:"mc",q:"Read this character: \u3053",opts:["ko","ku","ke","ki"],ans:"ko",hint:"Two simple horizontal strokes stacked"},
+        {type:"teach",kind:"letter",nl:"\u3055",en:"SA",img:"\u{1F4DD}",phonetic:"sah",example:"\u3055\u304F\u3089 (sakura) = cherry blossom",exampleEn:"S + A = SA, the first character of the S-row",note:"Has a clean 's' sound, like English 's' in 'sun'. Three strokes curving together."},
+        {type:"teach",kind:"letter",nl:"\u3057",en:"SHI",img:"\u{1F4DD}",phonetic:"shee (NOT see)",example:"\u3057\u308D (shiro) = white",exampleEn:"S + I = SHI, a common trap for beginners",note:"This is 'shi', NOT 'si'. This is the most important exception in the S-row. The character looks like a swooping curve. Always say 'shee'."},
+        {type:"teach",kind:"letter",nl:"\u3059",en:"SU",img:"\u{1F4DD}",phonetic:"soo",example:"\u3059\u3057 (sushi) = sushi",exampleEn:"S + U = SU, a looping character",note:"A vertical stroke with a loop at the bottom. Clean 's' plus light 'oo'."},
+        {type:"teach",kind:"letter",nl:"\u305B",en:"SE",img:"\u{1F4DD}",phonetic:"seh",example:"\u305B\u304B\u3044 (sekai) = world",exampleEn:"S + E = SE, with angular strokes",note:"Clean 's' plus 'eh'. Straightforward pronunciation, no surprises here."},
+        {type:"teach",kind:"letter",nl:"\u305D",en:"SO",img:"\u{1F4DD}",phonetic:"soh",example:"\u305D\u3089 (sora) = sky",exampleEn:"S + O = SO, a curving character",note:"Clean 's' plus pure 'oh'. A flowing shape with a curve."},
+        {type:"mc",q:"Read this character: \u3057",opts:["si","chi","su","shi"],ans:"shi",hint:"This S-row character has a special pronunciation"},
+        {type:"mc",q:"Read this character: \u3059",opts:["sa","su","so","shi"],ans:"su",hint:"The S-row character with a loop at the bottom"},
+        {type:"mc",q:"Read this character: \u304D",opts:["ki","shi","chi","ni"],ans:"ki",hint:"This K-row character has three horizontal strokes"},
+        {type:"tip",title:"\u3057 is 'shi', Not 'si'",text:"The S-row mostly follows the pattern: sa, si, su, se, so.\nBut \u3057 breaks the pattern. It is 'shi', not 'si'.\nThis is not optional or regional. It is always 'shi'.\nWatch for two more exceptions like this in the T-row.",icon:"\u26A0\uFE0F"},
+      ]},
+      // Lesson 2: T-row and N-row
+      {id:"ja_fp_p2_l2",title:"T-row and N-row",icon:"\u305F",xp:20,board:true,steps:[
+        {type:"intro",title:"Two More Rows, Two More Traps",desc:"The T-row has TWO pronunciation exceptions. The N-row is perfectly regular. After this lesson you will know 30 hiragana characters.",goals:["Read the 5 T-row characters","Know that \u3061 is 'chi' and \u3064 is 'tsu'","Read the 5 N-row characters"]},
+        {type:"teach",kind:"letter",nl:"\u305F",en:"TA",img:"\u{1F4DD}",phonetic:"tah",example:"\u305F\u307E\u3054 (tamago) = egg",exampleEn:"T + A = TA, the first character of the T-row",note:"Clean 't' plus 'ah'. The 't' is dental, with the tongue touching behind the upper teeth. Not the same tongue position as English 't'."},
+        {type:"teach",kind:"letter",nl:"\u3061",en:"CHI",img:"\u{1F4DD}",phonetic:"chee (NOT tee)",example:"\u3061\u304B\u3089 (chikara) = power",exampleEn:"T + I = CHI, the first T-row exception",note:"This is 'chi', NOT 'ti'. Just like \u3057 is 'shi' instead of 'si', this character breaks the T-row pattern. Always 'chee', never 'tee'."},
+        {type:"teach",kind:"letter",nl:"\u3064",en:"TSU",img:"\u{1F4DD}",phonetic:"tsoo (NOT too)",example:"\u3064\u304D (tsuki) = moon",exampleEn:"T + U = TSU, the second T-row exception",note:"This is 'tsu', NOT 'tu'. The 'ts' sound does not exist at the start of English words, but think of 'cats' and you will hear it. Practice: cats-oo."},
+        {type:"teach",kind:"letter",nl:"\u3066",en:"TE",img:"\u{1F4DD}",phonetic:"teh",example:"\u3066\u304C\u307F (tegami) = letter",exampleEn:"T + E = TE, back to regular pronunciation",note:"Clean dental 't' plus 'eh'. No surprises here. Back to the regular pattern."},
+        {type:"teach",kind:"letter",nl:"\u3068",en:"TO",img:"\u{1F4DD}",phonetic:"toh",example:"\u3068\u3082\u3060\u3061 (tomodachi) = friend",exampleEn:"T + O = TO, the last of the T-row",note:"Clean dental 't' plus pure 'oh'. Regular pronunciation."},
+        {type:"mc",q:"Read this character: \u3061",opts:["ti","chi","shi","tsu"],ans:"chi",hint:"This T-row character has an unexpected pronunciation with a 'ch' sound"},
+        {type:"mc",q:"Read this character: \u3064",opts:["tu","su","tsu","chu"],ans:"tsu",hint:"This T-row character starts with a sound found in the English word 'cats'"},
+        {type:"mc",q:"Read this character: \u305F",opts:["ta","chi","tsu","na"],ans:"ta",hint:"The first character of the T-row, regular pronunciation"},
+        {type:"teach",kind:"letter",nl:"\u306A",en:"NA",img:"\u{1F4DD}",phonetic:"nah",example:"\u306A\u3064 (natsu) = summer",exampleEn:"N + A = NA, the first character of the N-row",note:"The N-row is perfectly regular. No exceptions, no traps. Clean 'n' plus each vowel."},
+        {type:"teach",kind:"letter",nl:"\u306B",en:"NI",img:"\u{1F4DD}",phonetic:"nee",example:"\u306B\u307B\u3093 (nihon) = Japan",exampleEn:"N + I = NI, used in the word for Japan",note:"Clean 'n' plus 'ee'. Appears in one of the most important words you will learn."},
+        {type:"teach",kind:"letter",nl:"\u306C",en:"NU",img:"\u{1F4DD}",phonetic:"noo",example:"\u3044\u306C (inu) = dog",exampleEn:"N + U = NU, a looping character",note:"A character with a distinctive loop. Clean 'n' plus light 'oo'."},
+        {type:"teach",kind:"letter",nl:"\u306D",en:"NE",img:"\u{1F4DD}",phonetic:"neh",example:"\u306D\u3053 (neko) = cat",exampleEn:"N + E = NE, used in the word for cat",note:"Clean 'n' plus 'eh'. Appears in another common word you will learn early."},
+        {type:"teach",kind:"letter",nl:"\u306E",en:"NO",img:"\u{1F4DD}",phonetic:"noh",example:"\u306E\u308A (nori) = seaweed",exampleEn:"N + O = NO, a simple looping character",note:"One of the most recognizable hiragana. A simple spiral shape. Also used as the possessive particle (like English 'of' or apostrophe-s)."},
+        {type:"mc",q:"Read this character: \u306D",opts:["ne","na","nu","no"],ans:"ne",hint:"The N-row character that appears in the word for cat"},
+        {type:"mc",q:"Read this character: \u306E",opts:["nu","no","na","ni"],ans:"no",hint:"A simple spiral shape, also used as a possessive particle"},
+        {type:"mc",q:"Which two T-row characters have irregular pronunciations?",opts:["\u305F and \u3066","\u3066 and \u3068","\u305F and \u3068","\u3061 and \u3064"],ans:"\u3061 and \u3064",hint:"One is 'chi' and the other is 'tsu'"},
+        {type:"tip",title:"Three Pronunciation Traps So Far",text:"Remember these three exceptions. They never change:\n\u2022 \u3057 = shi (NOT si)\n\u2022 \u3061 = chi (NOT ti)\n\u2022 \u3064 = tsu (NOT tu)\nEverything else in the rows you have learned so far is perfectly regular.",icon:"\u26A0\uFE0F"},
+      ]},
+    ]},
+  // ── PHASE 3: Hiragana H-M-Y-R-W-N Rows (2 lessons) ──
+  {id:"ja_fp_p3",title:"Phase 3: H-M-Y-R-W-N Rows",desc:"The remaining hiragana rows, completing all 46 basic characters",icon:"\u306F",
+    lessons:[
+      // Lesson 1: H-row and M-row
+      {id:"ja_fp_p3_l1",title:"H-row and M-row",icon:"\u306F",xp:20,board:true,steps:[
+        {type:"intro",title:"H-row Has a Surprise",desc:"The H-row has one pronunciation exception and one very important grammar note. The M-row is perfectly regular. After this lesson you are past the halfway mark.",goals:["Read the 5 H-row characters","Know that \u3075 is 'fu', not 'hu'","Know that \u306F as a particle is read 'wa'","Read the 5 M-row characters"]},
+        {type:"teach",kind:"letter",nl:"\u306F",en:"HA",img:"\u{1F4DD}",phonetic:"hah",example:"\u306F\u306A (hana) = flower",exampleEn:"H + A = HA, the first character of the H-row",note:"Clean 'h' plus 'ah'. Important: when \u306F is used as a grammar particle (topic marker), it is pronounced 'wa', not 'ha'. You will encounter this constantly. As a regular syllable in a word, it is always 'ha'."},
+        {type:"teach",kind:"letter",nl:"\u3072",en:"HI",img:"\u{1F4DD}",phonetic:"hee",example:"\u3072\u3068 (hito) = person",exampleEn:"H + I = HI, a flowing character",note:"Clean 'h' plus 'ee'. A graceful character with a long flowing stroke."},
+        {type:"teach",kind:"letter",nl:"\u3075",en:"FU",img:"\u{1F4DD}",phonetic:"foo (between f and h)",example:"\u3075\u3058 (fuji) = wisteria, also Mt. Fuji",exampleEn:"H + U = FU, not HU. A unique Japanese sound.",note:"This is 'fu', NOT 'hu'. But it is not exactly the English 'f' either. The Japanese 'f' is made by blowing air between both lips, not by biting the lower lip. It is softer, somewhere between 'f' and 'h'."},
+        {type:"teach",kind:"letter",nl:"\u3078",en:"HE",img:"\u{1F4DD}",phonetic:"heh",example:"\u3078\u3084 (heya) = room",exampleEn:"H + E = HE, a simple angular character",note:"Clean 'h' plus 'eh'. One of the simplest hiragana to recognize: just a single angled stroke like a mountain peak. Note: when used as the direction particle (meaning 'toward'), it is pronounced 'e', not 'he'."},
+        {type:"teach",kind:"letter",nl:"\u307B",en:"HO",img:"\u{1F4DD}",phonetic:"hoh",example:"\u307B\u3057 (hoshi) = star",exampleEn:"H + O = HO, a character with several strokes",note:"Clean 'h' plus pure 'oh'. A more complex character with multiple strokes."},
+        {type:"mc",q:"Read this character: \u3075",opts:["hu","fu","ku","pu"],ans:"fu",hint:"This H-row character has a unique sound between 'f' and 'h'"},
+        {type:"mc",q:"When \u306F is used as a topic-marking particle, how is it pronounced?",opts:["ha","ba","pa","wa"],ans:"wa",hint:"As a particle it changes pronunciation completely"},
+        {type:"mc",q:"Read this character: \u307B",opts:["ho","ha","hi","he"],ans:"ho",hint:"The last character of the H-row, with multiple strokes"},
+        {type:"teach",kind:"letter",nl:"\u307E",en:"MA",img:"\u{1F4DD}",phonetic:"mah",example:"\u307E\u3069 (mado) = window",exampleEn:"M + A = MA, the first character of the M-row",note:"The M-row is perfectly regular. No exceptions, no traps. Clean 'm' plus each vowel. This character has a slightly complex shape with a long horizontal stroke."},
+        {type:"teach",kind:"letter",nl:"\u307F",en:"MI",img:"\u{1F4DD}",phonetic:"mee",example:"\u307F\u305A (mizu) = water",exampleEn:"M + I = MI, a compact looping character",note:"Clean 'm' plus 'ee'. A compact character with distinctive loops."},
+        {type:"teach",kind:"letter",nl:"\u3080",en:"MU",img:"\u{1F4DD}",phonetic:"moo",example:"\u3080\u3057 (mushi) = insect",exampleEn:"M + U = MU, a character with a swooping tail",note:"Clean 'm' plus light 'oo'. Has a recognizable swooping tail at the end."},
+        {type:"teach",kind:"letter",nl:"\u3081",en:"ME",img:"\u{1F4DD}",phonetic:"meh",example:"\u3081 (me) = eye",exampleEn:"M + E = ME, a flowing two-stroke character",note:"Clean 'm' plus 'eh'. A flowing character. The word for 'eye' is just this one character."},
+        {type:"teach",kind:"letter",nl:"\u3082",en:"MO",img:"\u{1F4DD}",phonetic:"moh",example:"\u3082\u3082 (momo) = peach",exampleEn:"M + O = MO, a character with horizontal strokes",note:"Clean 'm' plus pure 'oh'. Also used as the particle meaning 'also' or 'too'."},
+        {type:"mc",q:"Read this character: \u307F",opts:["mi","mu","me","ma"],ans:"mi",hint:"The M-row character with distinctive loops"},
+        {type:"mc",q:"Read this character: \u3082",opts:["mu","ma","me","mo"],ans:"mo",hint:"The last M-row character, also used as a particle meaning 'also'"},
+        {type:"mc",q:"Read this character: \u3078",opts:["he","ho","ha","fu"],ans:"he",hint:"The simple angular character shaped like a mountain peak"},
+        {type:"tip",title:"Particle Pronunciation Changes",text:"Two H-row characters change pronunciation when used as particles:\n\u2022 \u306F = 'wa' (not 'ha') as the topic particle\n\u2022 \u3078 = 'e' (not 'he') as the direction particle\nAs regular syllables in words, they keep their normal sounds.\nYou will see these particles constantly once you start reading.",icon:"\u{1F4A1}"},
+      ]},
+      // Lesson 2: Y-row, R-row, W-row, and ん
+      {id:"ja_fp_p3_l2",title:"Y-R-W Rows and \u3093",icon:"\u3084",xp:25,board:true,steps:[
+        {type:"intro",title:"The Final Rows",desc:"The Y-row has only 3 characters. The R-row has 5 but with a unique sound. The W-row has only 2. And \u3093 stands alone as the only consonant without a vowel. After this lesson you know all 46 basic hiragana.",goals:["Read the 3 Y-row characters","Read the 5 R-row characters","Read the 2 W-row characters","Know that \u3093 is the only standalone consonant"]},
+        {type:"teach",kind:"letter",nl:"\u3084",en:"YA",img:"\u{1F4DD}",phonetic:"yah",example:"\u3084\u307E (yama) = mountain",exampleEn:"Y + A = YA, the first of only 3 Y-row characters",note:"The Y-row is short: only ya, yu, yo. There is no 'yi' or 'ye' in modern hiragana."},
+        {type:"teach",kind:"letter",nl:"\u3086",en:"YU",img:"\u{1F4DD}",phonetic:"yoo",example:"\u3086\u304D (yuki) = snow",exampleEn:"Y + U = YU, a compact two-stroke character",note:"Clean 'y' plus 'oo'. A compact character used in many common words."},
+        {type:"teach",kind:"letter",nl:"\u3088",en:"YO",img:"\u{1F4DD}",phonetic:"yoh",example:"\u3088\u308B (yoru) = night",exampleEn:"Y + O = YO, the last of the Y-row",note:"Clean 'y' plus pure 'oh'. Also commonly used in greetings."},
+        {type:"mc",q:"How many characters are in the Y-row?",opts:["2","3","4","5"],ans:"3",hint:"Some vowel combinations were dropped from modern Japanese"},
+        {type:"mc",q:"Read this character: \u3086",opts:["ya","yu","yo","yi"],ans:"yu",hint:"The middle character of the Y-row, used in the word for snow"},
+        {type:"teach",kind:"letter",nl:"\u3089",en:"RA",img:"\u{1F4DD}",phonetic:"rah (between r and l)",example:"\u3089\u3044\u306D\u3093 (rainen) = next year",exampleEn:"R + A = RA, with a uniquely Japanese 'r' sound",note:"The Japanese 'r' is completely different from the English 'r'. The tongue quickly taps the ridge behind the upper teeth, like a very fast 'd' or the 't' in the American pronunciation of 'butter'. It is also different from the English 'l'. It is its own sound."},
+        {type:"teach",kind:"letter",nl:"\u308A",en:"RI",img:"\u{1F4DD}",phonetic:"ree (between r and l)",example:"\u308A\u3093\u3054 (ringo) = apple",exampleEn:"R + I = RI, a flowing two-stroke character",note:"Same unique 'r' sound plus 'ee'. Two graceful strokes flowing downward."},
+        {type:"teach",kind:"letter",nl:"\u308B",en:"RU",img:"\u{1F4DD}",phonetic:"roo (between r and l)",example:"\u3055\u308B (saru) = monkey",exampleEn:"R + U = RU, a character with a looping tail",note:"Same unique 'r' sound plus 'oo'. Appears very frequently as a verb ending."},
+        {type:"teach",kind:"letter",nl:"\u308C",en:"RE",img:"\u{1F4DD}",phonetic:"reh (between r and l)",example:"\u308C\u3044 (rei) = zero",exampleEn:"R + E = RE, an angular character",note:"Same unique 'r' sound plus 'eh'. Keep the tongue tap light and quick."},
+        {type:"teach",kind:"letter",nl:"\u308D",en:"RO",img:"\u{1F4DD}",phonetic:"roh (between r and l)",example:"\u308D\u304F (roku) = six",exampleEn:"R + O = RO, a compact angular character",note:"Same unique 'r' sound plus pure 'oh'. The last of the R-row."},
+        {type:"mc",q:"The Japanese 'r' sound is best described as:",opts:["Exactly like English 'r'","Exactly like English 'l'","A quick tongue tap, between 'r' and 'l'","A rolled 'r' like in Spanish"],ans:"A quick tongue tap, between 'r' and 'l'",hint:"The tongue quickly taps the ridge behind the upper teeth"},
+        {type:"mc",q:"Read this character: \u308B",opts:["ru","ri","re","ro"],ans:"ru",hint:"The R-row character with a looping tail, common as a verb ending"},
+        {type:"teach",kind:"letter",nl:"\u308F",en:"WA",img:"\u{1F4DD}",phonetic:"wah",example:"\u308F\u305F\u3057 (watashi) = I, me",exampleEn:"W + A = WA, the first of only 2 W-row characters",note:"The W-row is the shortest: only 'wa' and 'wo'. There is no 'wi', 'wu', or 'we' in modern hiragana."},
+        {type:"teach",kind:"letter",nl:"\u3092",en:"WO (or O)",img:"\u{1F4DD}",phonetic:"oh (usually just 'o' in modern speech)",example:"\u3092 is the object-marking particle",exampleEn:"W + O = WO, but usually pronounced just 'o' today",note:"This character is almost exclusively used as the object-marking particle. In modern Japanese, most speakers pronounce it as plain 'o', identical to \u304A. You will see it constantly in sentences but rarely in regular words."},
+        {type:"mc",q:"Read this character: \u308F",opts:["wa","wo","ra","na"],ans:"wa",hint:"The W-row character used in the word for 'I' or 'me'"},
+        {type:"mc",q:"What is \u3092 mainly used for?",opts:["A greeting word","The object-marking particle","A question marker","A number"],ans:"The object-marking particle",hint:"You will see it in almost every Japanese sentence marking the object"},
+        {type:"teach",kind:"letter",nl:"\u3093",en:"N",img:"\u{1F4DD}",phonetic:"n (or m before certain sounds)",example:"\u306B\u307B\u3093 (nihon) = Japan",exampleEn:"The ONLY hiragana that is a consonant without a vowel",note:"This is the only hiragana character that represents a standalone consonant. No vowel is attached. It appears at the end of syllables, never at the beginning of a word. Its pronunciation shifts slightly depending on what comes after it: 'n' before 't' or 'd', 'm' before 'b' or 'p', 'ng' before 'k' or 'g'."},
+        {type:"mc",q:"What makes \u3093 unique among all hiragana?",opts:["It is the largest character","It is the only consonant that stands alone without a vowel","It is always silent","It can start any word"],ans:"It is the only consonant that stands alone without a vowel",hint:"Every other hiragana pairs a consonant with a vowel"},
+        {type:"mc",q:"Read this character: \u3093",opts:["nu","no","n","na"],ans:"n",hint:"This standalone character has no vowel attached to it"},
+        {type:"mc",q:"How many basic hiragana characters are there in total?",opts:["26","36","46","52"],ans:"46",hint:"You have now learned all of them across these lessons"},
+        {type:"tip",title:"All 46 Basic Hiragana Complete!",text:"You now know all 46 basic hiragana characters:\n\u2022 5 vowels: \u3042 \u3044 \u3046 \u3048 \u304A\n\u2022 K-row: \u304B \u304D \u304F \u3051 \u3053\n\u2022 S-row: \u3055 \u3057 \u3059 \u305B \u305D\n\u2022 T-row: \u305F \u3061 \u3064 \u3066 \u3068\n\u2022 N-row: \u306A \u306B \u306C \u306D \u306E\n\u2022 H-row: \u306F \u3072 \u3075 \u3078 \u307B\n\u2022 M-row: \u307E \u307F \u3080 \u3081 \u3082\n\u2022 Y-row: \u3084 \u3086 \u3088\n\u2022 R-row: \u3089 \u308A \u308B \u308C \u308D\n\u2022 W-row: \u308F \u3092\n\u2022 \u3093\nNext up: voiced sounds (dakuten) that double your reading power.",icon:"\u{1F389}"},
+      ]},
+    ]},
+  // ── PHASE 4: Dakuten + Handakuten (voiced and semi-voiced sounds) ──
+  {id:"ja_fp_p4",title:"Phase 4: Voiced Sounds",desc:"Dakuten and handakuten marks that change consonant sounds",icon:"が",
+    lessons:[
+      // ── Lesson 1: Dakuten (゛) — voiced consonants ──
+      {id:"ja_fp_p4_l1",title:"Dakuten: Voicing Mark",icon:"゛",xp:20,board:true,steps:[
+        {type:"intro",title:"The Two Little Strokes",desc:"Japanese has a clever shortcut: add two small strokes (゛ called dakuten) to a character and its consonant becomes voiced. K becomes G, S becomes Z, T becomes D. One mark, many new sounds.",goals:["Understand what dakuten (゛) does","Learn the K-row voiced: ga gi gu ge go","Learn the S-row voiced: za ji zu ze zo"]},
+        {type:"teach",kind:"info",nl:"゛ (dakuten)",en:"Voicing mark",phonetic:"",example:"か → が (ka → ga)",exampleEn:"Two small strokes in the upper-right corner voice the consonant",note:"Dakuten means 'muddy mark.' It turns unvoiced consonants into voiced ones. Think of it as 'switching on' the vocal cords. You already know the base characters, so this doubles your inventory."},
+        {type:"teach",kind:"letter",nl:"が",en:"GA",img:"📝",phonetic:"ga (as in garden)",example:"が",exampleEn:"Voiced version of か (ka)",note:"Add ゛ to か → が. The voicing mark turns k into g. The shape is identical to か, just with two small strokes added."},
+        {type:"teach",kind:"letter",nl:"ぎ",en:"GI",img:"📝",phonetic:"gi (as in give)",example:"ぎ",exampleEn:"Voiced version of き (ki)",note:"Add ゛ to き → ぎ. K-sound becomes g-sound."},
+        {type:"teach",kind:"letter",nl:"ぐ",en:"GU",img:"📝",phonetic:"gu (as in goo)",example:"ぐ",exampleEn:"Voiced version of く (ku)",note:"Add ゛ to く → ぐ."},
+        {type:"teach",kind:"letter",nl:"げ",en:"GE",img:"📝",phonetic:"ge (as in get)",example:"げ",exampleEn:"Voiced version of け (ke)",note:"Add ゛ to け → げ."},
+        {type:"teach",kind:"letter",nl:"ご",en:"GO",img:"📝",phonetic:"go (as in go)",example:"ご",exampleEn:"Voiced version of こ (ko)",note:"Add ゛ to こ → ご."},
+        {type:"mc",q:"What does adding ゛ (dakuten) to a character do?",opts:["Makes the sound longer","Voices the consonant","Changes the vowel","Removes the consonant"],ans:"Voices the consonant",hint:"Think about what happens to your throat when you say 'ka' vs 'ga'"},
+        {type:"mc",q:"What is the voiced version of か (ka)?",opts:["ぎ","ご","が","ぐ"],ans:"が",hint:"The vowel stays the same, only the consonant changes from k to g"},
+        {type:"mc",q:"Which reading is correct for ぐ?",opts:["gu","ku","zu","du"],ans:"gu",hint:"This is く with dakuten, so k becomes g"},
+        {type:"teach",kind:"letter",nl:"ざ",en:"ZA",img:"📝",phonetic:"za (as in pizza)",example:"ざ",exampleEn:"Voiced version of さ (sa)",note:"Add ゛ to さ → ざ. S-sound becomes z-sound."},
+        {type:"teach",kind:"letter",nl:"じ",en:"JI",img:"📝",phonetic:"ji (as in jeans)",example:"じ",exampleEn:"Voiced version of し (shi)",note:"Important: じ is pronounced 'ji', NOT 'zi'. This is a common trap. The base し (shi) already has an irregular sound, and its voiced version follows suit."},
+        {type:"teach",kind:"letter",nl:"ず",en:"ZU",img:"📝",phonetic:"zu (as in zoo)",example:"ず",exampleEn:"Voiced version of す (su)",note:"Add ゛ to す → ず. S becomes z."},
+        {type:"teach",kind:"letter",nl:"ぜ",en:"ZE",img:"📝",phonetic:"ze (as in zen)",example:"ぜ",exampleEn:"Voiced version of せ (se)",note:"Add ゛ to せ → ぜ."},
+        {type:"teach",kind:"letter",nl:"ぞ",en:"ZO",img:"📝",phonetic:"zo (as in zone)",example:"ぞ",exampleEn:"Voiced version of そ (so)",note:"Add ゛ to そ → ぞ."},
+        {type:"mc",q:"How is じ pronounced?",opts:["zi","si","ji","di"],ans:"ji",hint:"This one breaks the pattern. Think of し (shi) becoming voiced."},
+        {type:"mc",q:"What is the voiced version of せ (se)?",opts:["ぜ","ぞ","ざ","ず"],ans:"ぜ",hint:"The vowel 'e' stays the same, only s becomes z"},
+        {type:"teach",kind:"letter",nl:"だ",en:"DA",img:"📝",phonetic:"da (as in dark)",example:"だ",exampleEn:"Voiced version of た (ta)",note:"Add ゛ to た → だ. T-sound becomes d-sound."},
+        {type:"teach",kind:"letter",nl:"ぢ",en:"DI/JI",img:"📝",phonetic:"ji (same as じ in modern Japanese)",example:"ぢ",exampleEn:"Voiced version of ち (chi). Rarely used.",note:"ぢ exists but is almost never used. In modern Japanese, じ is used instead in nearly all cases. You will see ぢ only in a few compound words like はなぢ (nosebleed)."},
+        {type:"teach",kind:"letter",nl:"づ",en:"DU/ZU",img:"📝",phonetic:"zu (same as ず in modern Japanese)",example:"づ",exampleEn:"Voiced version of つ (tsu). Rarely used.",note:"Like ぢ, づ is almost never used. ず is the standard choice. You may see づ in つづく (to continue) and a few other compounds."},
+        {type:"teach",kind:"letter",nl:"で",en:"DE",img:"📝",phonetic:"de (as in desk)",example:"で",exampleEn:"Voiced version of て (te)",note:"Add ゛ to て → で. Very common character. で is also the particle meaning 'at' or 'by means of.'"},
+        {type:"teach",kind:"letter",nl:"ど",en:"DO",img:"📝",phonetic:"do (as in door)",example:"ど",exampleEn:"Voiced version of と (to)",note:"Add ゛ to と → ど."},
+        {type:"mc",q:"Which two characters are rarely used because じ and ず replace them?",opts:["だ and で","ぢ and づ","ど and だ","で and ど"],ans:"ぢ and づ",hint:"These are the voiced versions of ち and つ, but they have near-identical sounds to other characters"},
+        {type:"mc",q:"What is the reading of で?",opts:["de","te","ze","ge"],ans:"de",hint:"This is て with dakuten, so t becomes d"},
+        {type:"tip",title:"Dakuten Summary So Far",text:"Three rows get dakuten:\n- K-row: か→が, き→ぎ, く→ぐ, け→げ, こ→ご\n- S-row: さ→ざ, し→じ(ji!), す→ず, せ→ぜ, そ→ぞ\n- T-row: た→だ, ち→ぢ(rare), つ→づ(rare), て→で, と→ど",icon:"📋"},
+      ]},
+      // ── Lesson 2: Handakuten (゜) + B-row dakuten ──
+      {id:"ja_fp_p4_l2",title:"B-row and P-row",icon:"゜",xp:20,board:true,steps:[
+        {type:"intro",title:"H-row: Three Versions",desc:"The H-row is unique in Japanese: it has three forms. Add dakuten (゛) to get B-sounds. Add handakuten (゜, a small circle) to get P-sounds. No other row has this triple system.",goals:["Learn the H-row voiced with dakuten: ba bi bu be bo","Learn the H-row with handakuten: pa pi pu pe po","Understand that handakuten (゜) only applies to the H-row"]},
+        {type:"teach",kind:"letter",nl:"ば",en:"BA",img:"📝",phonetic:"ba (as in ball)",example:"ば",exampleEn:"Voiced version of は (ha)",note:"Add ゛ to は → ば. H-sound becomes b-sound. The H-row with dakuten gives B-sounds."},
+        {type:"teach",kind:"letter",nl:"び",en:"BI",img:"📝",phonetic:"bi (as in bee)",example:"び",exampleEn:"Voiced version of ひ (hi)",note:"Add ゛ to ひ → び."},
+        {type:"teach",kind:"letter",nl:"ぶ",en:"BU",img:"📝",phonetic:"bu (as in boo)",example:"ぶ",exampleEn:"Voiced version of ふ (fu)",note:"Add ゛ to ふ → ぶ."},
+        {type:"teach",kind:"letter",nl:"べ",en:"BE",img:"📝",phonetic:"be (as in bet)",example:"べ",exampleEn:"Voiced version of へ (he)",note:"Add ゛ to へ → べ."},
+        {type:"teach",kind:"letter",nl:"ぼ",en:"BO",img:"📝",phonetic:"bo (as in bone)",example:"ぼ",exampleEn:"Voiced version of ほ (ho)",note:"Add ゛ to ほ → ぼ."},
+        {type:"mc",q:"What is the reading of ぶ?",opts:["fu","pu","bu","hu"],ans:"bu",hint:"This is ふ with dakuten (two strokes), so h/f becomes b"},
+        {type:"mc",q:"Which character is the voiced version of へ (he)?",opts:["ぺ","べ","ぼ","ば"],ans:"べ",hint:"Dakuten on the H-row gives B-sounds, and the vowel stays 'e'"},
+        {type:"teach",kind:"info",nl:"゜ (handakuten)",en:"Semi-voicing mark (small circle)",phonetic:"",example:"は → ぱ (ha → pa)",exampleEn:"A small circle in the upper-right corner, ONLY for the H-row",note:"Handakuten means 'half-muddy mark.' It is a small circle (゜) that ONLY works on the H-row. It changes h-sounds to p-sounds. No other row uses this mark."},
+        {type:"teach",kind:"letter",nl:"ぱ",en:"PA",img:"📝",phonetic:"pa (as in park)",example:"ぱ",exampleEn:"H-row + handakuten = P-sound",note:"Add ゜ to は → ぱ. Small circle, not two strokes."},
+        {type:"teach",kind:"letter",nl:"ぴ",en:"PI",img:"📝",phonetic:"pi (as in pea)",example:"ぴ",exampleEn:"ひ + ゜ = ぴ",note:"Add ゜ to ひ → ぴ."},
+        {type:"teach",kind:"letter",nl:"ぷ",en:"PU",img:"📝",phonetic:"pu (as in poo)",example:"ぷ",exampleEn:"ふ + ゜ = ぷ",note:"Add ゜ to ふ → ぷ."},
+        {type:"teach",kind:"letter",nl:"ぺ",en:"PE",img:"📝",phonetic:"pe (as in pet)",example:"ぺ",exampleEn:"へ + ゜ = ぺ",note:"Add ゜ to へ → ぺ."},
+        {type:"teach",kind:"letter",nl:"ぽ",en:"PO",img:"📝",phonetic:"po (as in pole)",example:"ぽ",exampleEn:"ほ + ゜ = ぽ",note:"Add ゜ to ほ → ぽ."},
+        {type:"mc",q:"What mark turns H-sounds into P-sounds?",opts:["Handakuten (゜, small circle)","Dakuten (゛, two strokes)","No mark needed","A horizontal line"],ans:"Handakuten (゜, small circle)",hint:"This is the ONLY mark that uses a circle shape"},
+        {type:"mc",q:"Which row is the ONLY one that uses handakuten (゜)?",opts:["K-row","S-row","T-row","H-row"],ans:"H-row",hint:"Only one row has three versions: base, dakuten, and handakuten"},
+        {type:"mc",q:"How many versions does は have?",opts:["1: は","2: は and ば","3: は, ば, and ぱ","4: は, ば, ぱ, and ふぁ"],ans:"3: は, ば, and ぱ",hint:"Base form + dakuten + handakuten = three versions"},
+        {type:"tip",title:"The H-row Triple System",text:"The H-row is special. Three versions:\n- は(ha) ひ(hi) ふ(fu) へ(he) ほ(ho)\n- ば(ba) び(bi) ぶ(bu) べ(be) ぼ(bo)\n- ぱ(pa) ぴ(pi) ぷ(pu) ぺ(pe) ぽ(po)\nDakuten (゛) = B. Handakuten (゜) = P.",icon:"💡"},
+        {type:"match",pairs:[{trg:"が",src:"ga"},{trg:"じ",src:"ji"},{trg:"で",src:"de"},{trg:"ば",src:"ba"},{trg:"ぱ",src:"pa"}]},
+      ]},
+    ]},
+  // ── PHASE 5: Combo Sounds (small ゃ ゅ ょ) ──
+  {id:"ja_fp_p5",title:"Phase 5: Combo Sounds",desc:"Small ya, yu, yo combine with i-column characters for new syllables",icon:"きゃ",
+    lessons:[
+      {id:"ja_fp_p5_l1",title:"Combination Syllables",icon:"きゃ",xp:25,board:true,steps:[
+        {type:"intro",title:"Small Characters, Big Impact",desc:"Japanese creates new syllables by attaching a SMALL version of や(ya), ゆ(yu), or よ(yo) to characters from the i-column. The small character merges with the preceding sound into ONE syllable. Size matters here.",goals:["Understand how combo sounds work","Learn key combinations: kya, sha, cha, nya","Know the critical difference between big and small ya/yu/yo"]},
+        {type:"teach",kind:"info",nl:"ゃ ゅ ょ (small)",en:"Combination markers",phonetic:"",example:"き + ゃ = きゃ (kya)",exampleEn:"The small character combines with the i-column character",note:"ONLY i-column characters (those ending in 'i') can combine with small ya/yu/yo. The 'i' sound drops out and is replaced by the ya/yu/yo. Result: one syllable, not two."},
+        {type:"tip",title:"Size Matters",text:"This is critical:\n- きや = ki-ya (2 syllables, big や)\n- きゃ = kya (1 syllable, small ゃ)\nAlways check the SIZE of the second character.",icon:"⚠️"},
+        {type:"teach",kind:"letter",nl:"きゃ きゅ きょ",en:"KYA KYU KYO",img:"📝",phonetic:"kya, kyu, kyo",example:"きゃ きゅ きょ",exampleEn:"K-row combos: ki + small ya/yu/yo",note:"き(ki) drops the 'i' and merges with ya/yu/yo. Result: kya, kyu, kyo."},
+        {type:"teach",kind:"letter",nl:"しゃ しゅ しょ",en:"SHA SHU SHO",img:"📝",phonetic:"sha, shu, sho",example:"しゃ しゅ しょ",exampleEn:"S-row combos: shi + small ya/yu/yo",note:"し(shi) drops the 'i' and merges. Since し is already 'sh', the combos are sha, shu, sho. Very common in Japanese."},
+        {type:"mc",q:"How many syllables is きゃ?",opts:["2","1","3","4"],ans:"1",hint:"The small ゃ merges with き into a single syllable"},
+        {type:"mc",q:"How many syllables is きや (with BIG や)?",opts:["1","3","4","2"],ans:"2",hint:"Big や is a full character, so ki and ya are separate syllables"},
+        {type:"teach",kind:"letter",nl:"ちゃ ちゅ ちょ",en:"CHA CHU CHO",img:"📝",phonetic:"cha, chu, cho",example:"ちゃ ちゅ ちょ",exampleEn:"T-row combos: chi + small ya/yu/yo",note:"ち(chi) drops the 'i' and merges. Since ち is already 'ch', the combos are cha, chu, cho."},
+        {type:"teach",kind:"letter",nl:"にゃ にゅ にょ",en:"NYA NYU NYO",img:"📝",phonetic:"nya, nyu, nyo",example:"にゃ にゅ にょ",exampleEn:"N-row combos: ni + small ya/yu/yo",note:"に(ni) drops the 'i' and merges. にゃ (nya) appears in the word for 'cat meow.'"},
+        {type:"mc",q:"What is the reading of しゅ?",opts:["shi-yu","su","syu","shu"],ans:"shu",hint:"し (shi) combines with small ゅ. The 'i' drops and 'yu' merges in."},
+        {type:"mc",q:"What is the reading of ちょ?",opts:["chi-yo","tyo","ti-yo","cho"],ans:"cho",hint:"ち (chi) combines with small ょ. The 'i' drops and 'yo' merges in."},
+        {type:"teach",kind:"letter",nl:"ひゃ ひゅ ひょ",en:"HYA HYU HYO",img:"📝",phonetic:"hya, hyu, hyo",example:"ひゃ ひゅ ひょ",exampleEn:"H-row combos: hi + small ya/yu/yo",note:"ひ(hi) drops the 'i' and merges with ya/yu/yo."},
+        {type:"teach",kind:"letter",nl:"みゃ みゅ みょ",en:"MYA MYU MYO",img:"📝",phonetic:"mya, myu, myo",example:"みゃ みゅ みょ",exampleEn:"M-row combos: mi + small ya/yu/yo",note:"み(mi) drops the 'i' and merges."},
+        {type:"teach",kind:"letter",nl:"りゃ りゅ りょ",en:"RYA RYU RYO",img:"📝",phonetic:"rya, ryu, ryo",example:"りゃ りゅ りょ",exampleEn:"R-row combos: ri + small ya/yu/yo",note:"り(ri) drops the 'i' and merges. りょ appears in りょうり (cooking)."},
+        {type:"mc",q:"What is the reading of にゃ?",opts:["nya","ni-ya","na","ni"],ans:"nya",hint:"に (ni) drops the 'i' and merges with small ゃ"},
+        {type:"mc",q:"What is the reading of りゅ?",opts:["ri-yu","ryu","ru","ri"],ans:"ryu",hint:"り (ri) drops the 'i' and merges with small ゅ"},
+        {type:"teach",kind:"info",nl:"Dakuten combos",en:"Voiced characters also combine",phonetic:"",example:"ぎゃ(gya) じゃ(ja) びゃ(bya) ぴゃ(pya)",exampleEn:"Voiced and semi-voiced i-column characters work the same way",note:"The combo system works with dakuten and handakuten too:\n- ぎゃ(gya) ぎゅ(gyu) ぎょ(gyo)\n- じゃ(ja) じゅ(ju) じょ(jo)\n- びゃ(bya) びゅ(byu) びょ(byo)\n- ぴゃ(pya) ぴゅ(pyu) ぴょ(pyo)"},
+        {type:"mc",q:"What is the reading of じゃ?",opts:["zi-ya","jya","ja","ji-ya"],ans:"ja",hint:"じ (ji) combines with small ゃ. Very common in casual speech."},
+        {type:"mc",q:"What is the reading of ぎょ?",opts:["gi-yo","go","gi","gyo"],ans:"gyo",hint:"ぎ (gi) drops the 'i' and merges with small ょ"},
+        {type:"match",pairs:[{trg:"きゃ",src:"kya"},{trg:"しゅ",src:"shu"},{trg:"ちょ",src:"cho"},{trg:"にゃ",src:"nya"},{trg:"じゃ",src:"ja"}]},
+        {type:"tip",title:"Combo Sound Pattern",text:"The rule is always the same:\n1. Take an i-column character (ki, shi, chi, ni, hi, mi, ri, gi, ji, bi, pi)\n2. Drop the 'i'\n3. Add ya, yu, or yo\n4. Result: one syllable\nThe small size of ゃ ゅ ょ is the visual cue.",icon:"💡"},
+      ]},
+    ]},
+  // ── PHASE 6: Katakana Basic (angular script for foreign words) ──
+  {id:"ja_fp_p6",title:"Phase 6: Katakana Basic",desc:"The angular script used for foreign loanwords and emphasis",icon:"カ",
+    lessons:[
+      // ── Lesson 1: Vowels + K-S-T-N rows ──
+      {id:"ja_fp_p6_l1",title:"Katakana: First Half",icon:"ア",xp:25,board:true,steps:[
+        {type:"intro",title:"Same Sounds, New Shapes",desc:"Katakana represents the exact same sounds as hiragana, but with angular, straight-line shapes. It is used for foreign loanwords, emphasis, onomatopoeia, and scientific terms. You already know the sounds. Now learn the new shapes.",goals:["Learn katakana vowels: ア イ ウ エ オ","Learn katakana K-row: カ キ ク ケ コ","Learn katakana S-row and T-row","Spot confusing hiragana/katakana look-alikes"]},
+        {type:"teach",kind:"info",nl:"カタカナ",en:"Katakana",phonetic:"ka-ta-ka-na",example:"コーヒー (koohii = coffee)",exampleEn:"Katakana is used for words borrowed from other languages",note:"Katakana looks more angular and sharp compared to hiragana's curves. Both scripts cover the same sounds. Think of katakana as the 'print' version and hiragana as the 'cursive' version."},
+        {type:"teach",kind:"letter",nl:"ア",en:"A",img:"📝",phonetic:"a (as in father)",example:"ア",exampleEn:"Katakana version of あ",note:"ア looks nothing like あ. Memorize this fresh. Two strokes forming an angular shape."},
+        {type:"teach",kind:"letter",nl:"イ",en:"I",img:"📝",phonetic:"i (as in see)",example:"イ",exampleEn:"Katakana version of い",note:"イ has two strokes meeting at an angle. Somewhat similar to い, but sharper."},
+        {type:"teach",kind:"letter",nl:"ウ",en:"U",img:"📝",phonetic:"u (as in moon)",example:"ウ",exampleEn:"Katakana version of う",note:"ウ looks quite different from う. Angular top with a vertical stroke."},
+        {type:"teach",kind:"letter",nl:"エ",en:"E",img:"📝",phonetic:"e (as in bed)",example:"エ",exampleEn:"Katakana version of え",note:"エ looks like a capital I or H-shape. Completely different from え."},
+        {type:"teach",kind:"letter",nl:"オ",en:"O",img:"📝",phonetic:"o (as in go)",example:"オ",exampleEn:"Katakana version of お",note:"オ has a cross shape with a short tail. Don't confuse with ホ (ho) or カ (ka)."},
+        {type:"mc",q:"Which is the KATAKANA version of the vowel 'a'?",opts:["ア","あ","カ","ウ"],ans:"ア",hint:"Look for the angular shape, not the curvy hiragana form"},
+        {type:"mc",q:"Which is the KATAKANA version of the vowel 'u'?",opts:["う","フ","ウ","ク"],ans:"ウ",hint:"This vowel has an angular top with a vertical stroke below"},
+        {type:"teach",kind:"letter",nl:"カ キ ク ケ コ",en:"KA KI KU KE KO",img:"📝",phonetic:"ka, ki, ku, ke, ko",example:"カ キ ク ケ コ",exampleEn:"Katakana K-row",note:"カ looks somewhat like か without the curve. キ resembles き but straighter. ク is angular with two strokes. ケ is similar to け but simplified. コ is a simple open box."},
+        {type:"mc",q:"Which is the KATAKANA for 'ki'?",opts:["き","キ","ケ","カ"],ans:"キ",hint:"The katakana version is straighter and more angular than き"},
+        {type:"mc",q:"Which is the KATAKANA for 'ko'?",opts:["こ","ユ","ニ","コ"],ans:"コ",hint:"This one looks like a simple open box shape"},
+        {type:"teach",kind:"letter",nl:"サ シ ス セ ソ",en:"SA SHI SU SE SO",img:"📝",phonetic:"sa, shi, su, se, so",example:"サ シ ス セ ソ",exampleEn:"Katakana S-row",note:"Watch out: シ (shi) and ツ (tsu) are a classic confusion pair. シ has strokes going upper-left to lower-right. ソ (so) and ン (n) are another trap pair. Learn these carefully."},
+        {type:"teach",kind:"letter",nl:"タ チ ツ テ ト",en:"TA CHI TSU TE TO",img:"📝",phonetic:"ta, chi, tsu, te, to",example:"タ チ ツ テ ト",exampleEn:"Katakana T-row",note:"ツ (tsu) is the famous confusion partner of シ (shi). ツ has strokes going upper-right to lower-left. The direction of the small strokes is opposite."},
+        {type:"mc",q:"シ (shi) and ツ (tsu) look similar. How do you tell them apart?",opts:["シ has horizontal small strokes, ツ has vertical small strokes","They are identical","シ is bigger","ツ has a circle"],ans:"シ has horizontal small strokes, ツ has vertical small strokes",hint:"Look at the angle of the two small strokes in the upper part"},
+        {type:"teach",kind:"letter",nl:"ナ ニ ヌ ネ ノ",en:"NA NI NU NE NO",img:"📝",phonetic:"na, ni, nu, ne, no",example:"ナ ニ ヌ ネ ノ",exampleEn:"Katakana N-row",note:"ナ looks like the hiragana な simplified. ニ (ni) is just two horizontal lines. ノ (no) is a single diagonal stroke."},
+        {type:"mc",q:"Which katakana character is just two horizontal lines?",opts:["コ","フ","ニ","エ"],ans:"ニ",hint:"This is the katakana for 'ni', and it is the simplest two-stroke character"},
+        {type:"mc",q:"Which is the KATAKANA for 'no'?",opts:["ノ","め","フ","ク"],ans:"ノ",hint:"This one is a single diagonal stroke, very simple"},
+        {type:"tip",title:"Katakana Confusion Pairs",text:"Watch out for these easily confused pairs:\n- シ (shi) vs ツ (tsu): check small stroke direction\n- ソ (so) vs ン (n): stroke angle differs\n- ウ (u) vs ク (ku): ク has a more angular bend\n- コ (ko) vs ニ (ni): コ is open box, ニ is two lines",icon:"⚠️"},
+        {type:"match",pairs:[{trg:"ア",src:"a"},{trg:"カ",src:"ka"},{trg:"シ",src:"shi"},{trg:"ツ",src:"tsu"},{trg:"ニ",src:"ni"}]},
+      ]},
+      // ── Lesson 2: H-M-Y-R-W-N rows ──
+      {id:"ja_fp_p6_l2",title:"Katakana: Second Half",icon:"ハ",xp:25,board:true,steps:[
+        {type:"intro",title:"Completing the Set",desc:"The remaining katakana rows. After this lesson you will know all 46 basic katakana characters. Dakuten and handakuten work the same way as in hiragana.",goals:["Learn katakana H through N rows","Know that dakuten/handakuten apply the same way","Mix hiragana and katakana recognition"]},
+        {type:"teach",kind:"letter",nl:"ハ ヒ フ ヘ ホ",en:"HA HI FU HE HO",img:"📝",phonetic:"ha, hi, fu, he, ho",example:"ハ ヒ フ ヘ ホ",exampleEn:"Katakana H-row",note:"ハ looks like a wide V shape. フ (fu) is a simple angular curve. ヘ (he) looks identical to へ (hiragana). ホ looks like a cross with extra strokes."},
+        {type:"teach",kind:"letter",nl:"マ ミ ム メ モ",en:"MA MI MU ME MO",img:"📝",phonetic:"ma, mi, mu, me, mo",example:"マ ミ ム メ モ",exampleEn:"Katakana M-row",note:"マ (ma) looks like a checkmark. ム (mu) has an angular shape. メ (me) is a simple X-like shape."},
+        {type:"mc",q:"Which katakana character looks nearly identical to its hiragana version?",opts:["ハ (ha)","フ (fu)","ホ (ho)","ヘ (he)"],ans:"ヘ (he)",hint:"One katakana character kept the same shape as its hiragana counterpart"},
+        {type:"teach",kind:"letter",nl:"ヤ ユ ヨ",en:"YA YU YO",img:"📝",phonetic:"ya, yu, yo",example:"ヤ ユ ヨ",exampleEn:"Katakana Y-row (only 3 characters)",note:"ヤ (ya) is angular with two main strokes. ユ (yu) is compact. ヨ (yo) looks like three horizontal lines connected. Same as hiragana: only ya, yu, yo exist."},
+        {type:"teach",kind:"letter",nl:"ラ リ ル レ ロ",en:"RA RI RU RE RO",img:"📝",phonetic:"ra, ri, ru, re, ro",example:"ラ リ ル レ ロ",exampleEn:"Katakana R-row",note:"ラ (ra) looks like フ (fu) with an extra bend. リ (ri) is two short vertical strokes. ル (ru) looks like a small レ with a hook. ロ (ro) is a closed box (compare with コ which is open)."},
+        {type:"mc",q:"How is ロ (ro) different from コ (ko)?",opts:["ロ is a closed box, コ is open on one side","They are identical","ロ has a dot","コ is bigger"],ans:"ロ is a closed box, コ is open on one side",hint:"Look at whether the bottom is closed or open"},
+        {type:"teach",kind:"letter",nl:"ワ ヲ ン",en:"WA WO N",img:"📝",phonetic:"wa, wo, n",example:"ワ ヲ ン",exampleEn:"Katakana W-row + N",note:"ワ (wa) looks like ウ without the top mark. ヲ (wo) is rare in katakana. ン (n) is the standalone nasal. Watch out: ン looks like ソ (so) flipped."},
+        {type:"mc",q:"Which two katakana characters are easily confused?",opts:["ア and カ","ン (n) and ソ (so)","エ and オ","タ and テ"],ans:"ン (n) and ソ (so)",hint:"These two have very similar angular shapes with a slight directional difference"},
+        {type:"teach",kind:"info",nl:"Dakuten in katakana",en:"Same marks, same rules",phonetic:"",example:"カ→ガ(ga) サ→ザ(za) タ→ダ(da) ハ→バ(ba) ハ→パ(pa)",exampleEn:"Dakuten and handakuten apply to katakana the same way as hiragana",note:"Everything you learned about dakuten (゛) and handakuten (゜) applies to katakana.\n- K→G: ガ ギ グ ゲ ゴ\n- S→Z: ザ ジ ズ ゼ ゾ\n- T→D: ダ ヂ ヅ デ ド\n- H→B: バ ビ ブ ベ ボ\n- H→P: パ ピ プ ペ ポ"},
+        {type:"mc",q:"What is the katakana for 'ga'?",opts:["カ","ザ","ダ","ガ"],ans:"ガ",hint:"Take カ (ka) and add dakuten to voice the consonant"},
+        {type:"mc",q:"What is the katakana for 'pu'?",opts:["ブ","フ","ム","プ"],ans:"プ",hint:"Take フ (fu) and add handakuten (small circle) for the p-sound"},
+        {type:"tip",title:"Katakana vs Hiragana",text:"Key difference: purpose, not sound.\n- Hiragana: native Japanese words, grammar particles, verb endings\n- Katakana: foreign loanwords, emphasis, onomatopoeia, scientific terms\nBoth scripts have the exact same sounds. Katakana is angular, hiragana is curvy.",icon:"💡"},
+        {type:"match",pairs:[{trg:"ハ",src:"ha"},{trg:"ヤ",src:"ya"},{trg:"ル",src:"ru"},{trg:"ン",src:"n"},{trg:"ロ",src:"ro"}]},
+      ]},
+    ]},
+  // ── PHASE 7: Katakana Special (loanword extensions) ──
+  {id:"ja_fp_p7",title:"Phase 7: Katakana Special",desc:"Long vowels, double consonants, and extended sounds for foreign words",icon:"ー",
+    lessons:[
+      {id:"ja_fp_p7_l1",title:"Special Katakana Features",icon:"ー",xp:25,board:true,steps:[
+        {type:"intro",title:"Beyond the Basics",desc:"Katakana has extra features that hiragana does not use. The long vowel mark (ー), special foreign sound combinations, and the small ッ for double consonants. These are essential for reading loanwords.",goals:["Learn the long vowel mark ー","Learn special combos for foreign sounds (fa, fi, ti, di)","Understand small ッ for double consonants","Practice reading common loanwords"]},
+        {type:"teach",kind:"letter",nl:"ー",en:"Long vowel mark",img:"📝",phonetic:"(extends the previous vowel)",example:"コーヒー (koohii)",exampleEn:"The dash extends the vowel before it",note:"ー is a horizontal dash that stretches the previous vowel sound. コーヒー = ko-o-hi-i = coffee. This mark is used ONLY in katakana. Hiragana spells long vowels differently (by adding another vowel character)."},
+        {type:"mc",q:"What does ー do in katakana?",opts:["Separates words","Extends the previous vowel","Makes a pause","Indicates emphasis"],ans:"Extends the previous vowel",hint:"Think of it as stretching the sound that came before it"},
+        {type:"mc",q:"How is コーヒー (koohii) read?",opts:["ko-hi","ko-a-hi-a","koo-hii","kohi"],ans:"koo-hii",hint:"Each ー extends the vowel before it, so o becomes oo and i becomes ii"},
+        {type:"teach",kind:"letter",nl:"ッ (small tsu)",en:"Double consonant",img:"📝",phonetic:"(brief pause, doubles the next consonant)",example:"ベッド (beddo)",exampleEn:"Small ッ creates a double consonant (geminate)",note:"Small ッ is NOT pronounced as 'tsu'. It creates a brief stop before the next consonant, making it a double sound. ベッド = be-d-do = bed. Think of it as a tiny pause or 'catch' in your throat."},
+        {type:"mc",q:"How is ベッド read?",opts:["betudo","bedo","beddo","betdo"],ans:"beddo",hint:"The small ッ doubles the consonant that follows it"},
+        {type:"mc",q:"How is ロッカー read?",opts:["rokkaa","rokaa","rotukaa","rokukaa"],ans:"rokkaa",hint:"Small ッ doubles the 'k' sound, and ー extends the final 'a'"},
+        {type:"teach",kind:"info",nl:"Foreign sound combos",en:"Extended katakana for non-Japanese sounds",phonetic:"",example:"ファ(fa) フィ(fi) フェ(fe) フォ(fo)",exampleEn:"Combinations that represent sounds not native to Japanese",note:"Standard Japanese does not have 'f' sounds except for ふ (fu). To write foreign words with 'fa, fi, fe, fo', Japanese uses フ + small vowel characters:\n- ファ (fa), フィ (fi), フェ (fe), フォ (fo)\nThis is a modern extension."},
+        {type:"teach",kind:"letter",nl:"ファ フィ フェ フォ",en:"FA FI FE FO",img:"📝",phonetic:"fa, fi, fe, fo",example:"ファン (fan)",exampleEn:"フ + small ァ/ィ/ェ/ォ",note:"These use small versions of the vowel katakana characters. ファン (fan) = fa-n. You will see these in many English loanwords."},
+        {type:"mc",q:"How would you write 'fan' in katakana?",opts:["ハン","ファン","フアン","パン"],ans:"ファン",hint:"The 'fa' sound uses フ plus a small ァ, followed by ン for 'n'"},
+        {type:"teach",kind:"letter",nl:"ティ ディ",en:"TI DI",img:"📝",phonetic:"ti (as in team), di (as in deed)",example:"ティー (tii = tea), ディスク (disuku = disk)",exampleEn:"テ/デ + small ィ for sounds not in native Japanese",note:"Native Japanese has チ (chi) and ヂ (ji) for the i-column of T and D rows. But foreign words need 'ti' and 'di' sounds. So: テ + small ィ = ティ (ti). デ + small ィ = ディ (di)."},
+        {type:"mc",q:"How do you write the 'ti' sound (as in 'team') in katakana?",opts:["チ","ティ","テイ","ツィ"],ans:"ティ",hint:"テ plus a SMALL ィ gives the foreign 'ti' sound"},
+        {type:"teach",kind:"letter",nl:"ヴァ ヴィ ヴ ヴェ ヴォ",en:"VA VI VU VE VO",img:"📝",phonetic:"va, vi, vu, ve, vo",example:"ヴァイオリン (vaiorin = violin)",exampleEn:"ヴ (vu) + small vowels for v-sounds",note:"Japanese does not have a native 'v' sound. ヴ is ウ with dakuten, representing 'vu'. Combined with small vowels: ヴァ(va), ヴィ(vi), ヴェ(ve), ヴォ(vo). These are quite rare. Many Japanese speakers pronounce them as b-sounds instead."},
+        {type:"mc",q:"How is ヴ created?",opts:["ア + dakuten","ウ + dakuten","オ + dakuten","イ + dakuten"],ans:"ウ + dakuten",hint:"The v-sound character comes from adding dakuten to the 'u' vowel katakana"},
+        {type:"tip",title:"Reading Loanwords",text:"Common patterns in katakana loanwords:\n- ー extends vowels: ケーキ (keeki = cake)\n- ッ doubles consonants: カップ (kappu = cup)\n- Foreign combos: ファイル (fairu = file)\n- Long words: コンピューター (konpyuutaa = computer)",icon:"📖"},
+        {type:"teach",kind:"info",nl:"Common loanwords",en:"Practice reading these",phonetic:"",example:"テレビ (terebi = TV)\nコンピューター (konpyuutaa = computer)",exampleEn:"English words adapted into Japanese katakana",note:"Loanword tips:\n- テレビ = te-re-bi = television (TV)\n- コンピューター = ko-n-pyu-u-ta-a = computer\n- レストラン = re-su-to-ra-n = restaurant\n- チョコレート = cho-ko-re-e-to = chocolate"},
+        {type:"mc",q:"What does テレビ mean?",opts:["Telephone","Television (TV)","Taxi","Table"],ans:"Television (TV)",hint:"Sound it out: te-re-bi. Think of a shortened form of a familiar English word."},
+        {type:"mc",q:"How would you read チョコレート?",opts:["chokoreto (chocolate)","chikoreto","tiyokoreto","chokorato"],ans:"chokoreto (chocolate)",hint:"Break it down: チョ(cho) コ(ko) レ(re) ー(extends e) ト(to)"},
+        {type:"mc",q:"What does the small ッ do in カップ (kappu)?",opts:["Adds a 'tsu' sound","Makes the word louder","Indicates a question","Doubles the 'p' consonant"],ans:"Doubles the 'p' consonant",hint:"Small ッ always doubles the consonant that follows it"},
+        {type:"match",pairs:[{trg:"ー",src:"long vowel mark"},{trg:"ッ",src:"double consonant"},{trg:"ファ",src:"fa"},{trg:"ティ",src:"ti"},{trg:"テレビ",src:"TV"}]},
+      ]},
+    ]},
+  {id:"ja_fp_p8",title:"Phase 8: Kanji Awareness",desc:"Chinese characters in Japanese: what they are, how they work, and why you don't need to panic",icon:"漢",
+    lessons:[
+      // ── Lesson 1: What Are Kanji? ──
+      {id:"ja_fp_p8_l1",title:"What Are Kanji?",icon:"漢",xp:20,board:true,steps:[
+        {type:"intro",title:"The Third Script",desc:"You've learned hiragana and katakana. Now meet kanji: Chinese characters adopted into Japanese over 1,500 years ago. Each one carries meaning AND sound. This lesson explains how they work.",goals:["Understand what kanji are and where they came from","Learn the two reading types: on'yomi and kun'yomi","Know that VerumLingua always shows furigana"]},
+
+        {type:"teach",kind:"info",nl:"漢字",en:"Kanji (Chinese characters)",phonetic:"kan-ji",example:"山 川 日 月 水",exampleEn:"Mountain, river, sun, moon, water",note:"Kanji are logographs: each character represents a meaning, not just a sound. Japanese uses about 2,136 in daily life."},
+
+        {type:"teach",kind:"info",nl:"意味",en:"Meaning-based writing",phonetic:"i-mi",example:"山 means 'mountain' whether you say it in Japanese or Chinese",exampleEn:"The character carries meaning independent of pronunciation",note:"Unlike hiragana and katakana (which represent sounds), each kanji represents a concept. That is why the same character can have multiple pronunciations."},
+
+        {type:"mc",q:"What makes kanji different from hiragana and katakana?",opts:["Kanji represent meanings, not just sounds","Kanji are only used for foreign words","Kanji have fewer characters","Kanji are always read the same way"],ans:"Kanji represent meanings, not just sounds",hint:"Think about what each character carries beyond its pronunciation"},
+
+        {type:"teach",kind:"info",nl:"訓読み",en:"Kun'yomi (native Japanese reading)",phonetic:"kun-yo-mi",example:"山 = やま (yama) when used alone",exampleEn:"Mountain (standalone word)",note:"Kun'yomi is the original Japanese word attached to the kanji. Used when the kanji appears alone or with hiragana endings (okurigana)."},
+
+        {type:"teach",kind:"info",nl:"音読み",en:"On'yomi (Chinese-derived reading)",phonetic:"on-yo-mi",example:"山 = さん (san) in 富士山 (fujisan)",exampleEn:"San in Fujisan (Mt. Fuji)",note:"On'yomi came from Chinese pronunciation. Used mostly in compound words where two or more kanji sit together."},
+
+        {type:"mc",q:"Which reading type is used when a kanji stands alone as a word?",opts:["On'yomi (Chinese-derived)","Kun'yomi (native Japanese)","Romaji","Katakana"],ans:"Kun'yomi (native Japanese)",hint:"The native Japanese reading applies to standalone kanji words"},
+
+        {type:"mc",q:"Which reading type is typically used in compound words with multiple kanji?",opts:["Kun'yomi (native Japanese)","On'yomi (Chinese-derived)","Either one randomly","Neither"],ans:"On'yomi (Chinese-derived)",hint:"Compounds like 大学 use the Chinese-derived pronunciation"},
+
+        {type:"teach",kind:"letter",nl:"山",en:"Mountain",phonetic:"yama (kun) / san (on)",example:"山 = やま (yama, standalone)\n富士山 = ふじさん (fujisan, compound)",exampleEn:"Mountain (standalone) / Mt. Fuji (compound)",note:"Your first kanji. Alone it is 'yama'. Inside a compound it becomes 'san'. The shape shows three peaks."},
+
+        {type:"teach",kind:"letter",nl:"水",en:"Water",phonetic:"mizu (kun) / sui (on)",example:"水 = みず (mizu, standalone)\n水曜日 = すいようび (suiyoubi, Wednesday)",exampleEn:"Water (standalone) / Wednesday (lit. water-day)",note:"Alone: mizu. In the compound for Wednesday: sui. The character originally depicted flowing water."},
+
+        {type:"mc",q:"山 by itself is read as...",opts:["san","yama","zan","ka"],ans:"yama",hint:"Standalone kanji use the native Japanese reading"},
+
+        {type:"mc",q:"水 in the compound 水曜日 (Wednesday) is read as...",opts:["mizu","sui","mi","kawa"],ans:"sui",hint:"Compounds use the Chinese-derived reading"},
+
+        {type:"teach",kind:"info",nl:"ふりがな",en:"Furigana (reading aid)",phonetic:"fu-ri-ga-na",example:"大学(だいがく)",exampleEn:"University, with small hiragana above showing the reading",note:"Furigana are small hiragana printed above kanji to show pronunciation. In VerumLingua, ALL kanji always have furigana so you can read everything."},
+
+        {type:"tip",title:"No Panic Required",text:"You do NOT need to memorize kanji right now.\nVerumLingua shows furigana on every kanji.\nYou will learn them naturally through the lessons.\nFocus on recognizing the concept, not memorizing characters.",icon:""},
+
+        {type:"mc",q:"What are furigana?",opts:["Small hiragana above kanji showing pronunciation","A type of katakana","The Chinese name for kanji","Punctuation marks in Japanese"],ans:"Small hiragana above kanji showing pronunciation",hint:"They are the small reading guides placed over characters"},
+
+        {type:"mc",q:"How many kanji are used in daily Japanese life?",opts:["About 50","About 500","About 2,136","About 50,000"],ans:"About 2,136",hint:"The official jouyou kanji list has a specific number in the low thousands"},
+      ]},
+
+      // ── Lesson 2: Radicals and Reading Kanji ──
+      {id:"ja_fp_p8_l2",title:"Radicals and Basic Kanji",icon:"木",xp:20,board:true,steps:[
+        {type:"intro",title:"Building Blocks of Kanji",desc:"Kanji are not random squiggles. They are built from smaller parts called radicals. Learning radicals helps you guess meaning, remember characters, and look them up in dictionaries.",goals:["Understand what radicals (bushu) are","Recognize common radicals that hint at meaning","Meet 10 basic kanji with their meanings"]},
+
+        {type:"teach",kind:"info",nl:"部首",en:"Radicals (bushu)",phonetic:"bu-shu",example:"氵= water radical, found in 海 (sea), 池 (pond), 泳 (swim)",exampleEn:"The water radical appears in many water-related kanji",note:"Radicals are the building blocks of kanji. Most kanji contain one or more radicals. About 214 radicals exist, but a few dozen cover the majority of common kanji."},
+
+        {type:"teach",kind:"info",nl:"意味のヒント",en:"Radicals hint at meaning",phonetic:"i-mi no hin-to",example:"海 (sea) contains 氵(water)\n休 (rest) contains 人 (person) + 木 (tree)",exampleEn:"Sea has the water radical. Rest shows a person leaning on a tree.",note:"When you see a radical you recognize, you can often guess the general category of meaning. Water radical? Probably water-related. Tree radical? Probably plant-related."},
+
+        {type:"mc",q:"What are radicals in the context of kanji?",opts:["The building block components of kanji","A type of pronunciation guide","Grammar particles","Verb conjugation patterns"],ans:"The building block components of kanji",hint:"Think of them as the smaller parts that make up each character"},
+
+        {type:"mc",q:"If a kanji contains the water radical (氵), it probably relates to...",opts:["Fire or heat","Water or liquid","Wood or plants","Metal or money"],ans:"Water or liquid",hint:"Radicals hint at the category of meaning"},
+
+        {type:"teach",kind:"letter",nl:"人",en:"Person",phonetic:"hito (kun) / jin, nin (on)",example:"人 = ひと (hito)\n日本人 = にほんじん (nihonjin, Japanese person)",exampleEn:"Person (standalone) / Japanese person (compound)",note:"One of the most common kanji. As a radical inside other kanji, it appears as 亻on the left side."},
+
+        {type:"teach",kind:"letter",nl:"大",en:"Big",phonetic:"oo-kii (kun) / dai, tai (on)",example:"大きい = おおきい (ookii, big)\n大学 = だいがく (daigaku, university)",exampleEn:"Big (adjective) / University (lit. big-learning)",note:"A person with arms spread wide. Alone: ookii. In compounds: dai or tai."},
+
+        {type:"teach",kind:"letter",nl:"小",en:"Small",phonetic:"chii-sai (kun) / shou (on)",example:"小さい = ちいさい (chiisai, small)\n小学校 = しょうがっこう (shougakkou, elementary school)",exampleEn:"Small (adjective) / Elementary school (lit. small-learning-place)",note:"The opposite of 大. Three small strokes. Alone: chiisai. In compounds: shou."},
+
+        {type:"mc",q:"大学 (daigaku) literally means...",opts:["Big school","Small learning","Old university","New place"],ans:"Big school",hint:"大 means big and 学 relates to learning"},
+
+        {type:"teach",kind:"letter",nl:"日",en:"Sun / Day",phonetic:"hi, nichi (kun) / nichi, jitsu (on)",example:"日 = ひ (hi, sun)\n日曜日 = にちようび (nichiyoubi, Sunday)",exampleEn:"Sun (standalone) / Sunday (lit. sun-day)",note:"Originally a picture of the sun. Also means 'day'. One of the most frequent kanji in Japanese."},
+
+        {type:"teach",kind:"letter",nl:"月",en:"Moon / Month",phonetic:"tsuki (kun) / getsu, gatsu (on)",example:"月 = つき (tsuki, moon)\n月曜日 = げつようび (getsuyoubi, Monday)",exampleEn:"Moon (standalone) / Monday (lit. moon-day)",note:"Originally a crescent moon. Also means 'month'. January = 一月 (ichigatsu, lit. month-one)."},
+
+        {type:"mc",q:"月曜日 (getsuyoubi) means Monday. What does 月 represent here?",opts:["Sun","Moon","Star","Earth"],ans:"Moon",hint:"Think about which celestial body Monday is named after in many languages"},
+
+        {type:"teach",kind:"letter",nl:"火",en:"Fire",phonetic:"hi (kun) / ka (on)",example:"火 = ひ (hi, fire)\n火曜日 = かようび (kayoubi, Tuesday)",exampleEn:"Fire (standalone) / Tuesday (lit. fire-day)",note:"A picture of flames. As a radical it often appears as 灬 at the bottom of characters. Tuesday = fire-day."},
+
+        {type:"teach",kind:"letter",nl:"木",en:"Tree",phonetic:"ki (kun) / moku, boku (on)",example:"木 = き (ki, tree)\n木曜日 = もくようび (mokuyoubi, Thursday)",exampleEn:"Tree (standalone) / Thursday (lit. tree-day)",note:"A tree with branches above and roots below. Very common as a radical in plant-related kanji. Two trees = 林 (hayashi, grove). Three trees = 森 (mori, forest)."},
+
+        {type:"teach",kind:"letter",nl:"金",en:"Gold / Money",phonetic:"kane (kun) / kin (on)",example:"金 = かね (kane, money)\n金曜日 = きんようび (kinyoubi, Friday)",exampleEn:"Money (standalone) / Friday (lit. gold-day)",note:"Originally depicted gold nuggets. Today it means both gold and money. As a radical it appears in metal-related kanji."},
+
+        {type:"teach",kind:"letter",nl:"土",en:"Earth / Soil",phonetic:"tsuchi (kun) / do (on)",example:"土 = つち (tsuchi, earth)\n土曜日 = どようび (doyoubi, Saturday)",exampleEn:"Earth (standalone) / Saturday (lit. earth-day)",note:"A mound of earth on the ground. Saturday = earth-day. As a radical it appears in place-related kanji."},
+
+        {type:"mc",q:"The days of the week in Japanese use which set of kanji?",opts:["日 月 火 水 木 金 土","人 大 小 山 川 林 森","一 二 三 四 五 六 七","東 西 南 北 上 下 中"],ans:"日 月 火 水 木 金 土",hint:"Sun, moon, fire, water, tree, gold, earth correspond to the seven days"},
+
+        {type:"teach",kind:"letter",nl:"川",en:"River",phonetic:"kawa (kun) / sen (on)",example:"川 = かわ (kawa, river)\n小川 = おがわ (ogawa, stream/surname)",exampleEn:"River (standalone) / Small river or common surname",note:"Three flowing lines representing a river. One of the simplest kanji to recognize."},
+
+        {type:"mc",q:"Which kanji is a picture of three flowing lines?",opts:["山 (mountain)","川 (river)","水 (water)","火 (fire)"],ans:"川 (river)",hint:"Think of three parallel vertical strokes representing flowing water"},
+
+        {type:"mc",q:"林 (grove) is made of two 木 (tree). What does 森 (forest) contain?",opts:["Two trees","Three trees","Four trees","One big tree"],ans:"Three trees",hint:"More trees make a denser grouping"},
+
+        {type:"tip",title:"Kanji in VerumLingua",text:"Every kanji in the lessons comes with furigana.\nYou will learn kanji naturally as you study vocabulary.\nStart by recognizing meanings, not memorizing characters.\nRadicals are your friends: they reveal patterns.",icon:""},
+
+        {type:"tip",title:"Furigana in Real Japanese",text:"Furigana appear in children's books, textbooks, and manga.\nNewspapers use them for unusual readings and names.\nAs you get more advanced, you rely on them less.\nBut even native speakers encounter unfamiliar kanji.",icon:""},
+
+        {type:"mc",q:"Which radical would you expect to find in a kanji meaning 'pond'?",opts:["火 (fire)","氵(water)","木 (tree)","金 (metal)"],ans:"氵(water)",hint:"A pond is a body of water, so the water radical is logical"},
+      ]},
+    ]},
+  ]},
   zh:{name:"Learn Pinyin & Characters",icon:"🇨🇳",blueprint:"hanzi",stages:[]},
   fr:{name:"French Foundations Play",icon:"🇫🇷",blueprint:"latin_simple",stages:[
     // ══════════════════════════════════════════════════════════════
@@ -3552,6 +3995,80 @@ export const FK_GATE_QUIZ = {
       D:"Stage 4: Practice C/QU/Z patterns, G/GU/GÜ patterns, and inverted punctuation.",
       E:"Stage 5: Review el/la gender, ser vs estar, verb groups, and tú vs usted.",
     },
+  },
+  ja:{
+title:"Kana Gate Quiz",
+  desc:"Can you already read hiragana and katakana? Pass this quiz to skip Foundations.",
+  passCriteria:{AB:90,C:85,DE:80},
+  tasks:[
+    // ── Task A: Hiragana Recognition (10 items, category AB) ──
+    {id:"gate_a",title:"Task A: Hiragana Recognition",desc:"Identify the sound of each hiragana character.",type:"mc",category:"AB",items:[
+      {q:"What sound does き make?",opts:["ka","ki","ku"],ans:"ki"},
+      {q:"What sound does す make?",opts:["su","sa","shi"],ans:"su"},
+      {q:"What sound does ち make?",opts:["ti","chi","tsu"],ans:"chi"},
+      {q:"What sound does ふ make?",opts:["hu","fu","ho"],ans:"fu"},
+      {q:"What sound does を make?",opts:["wo","no","mo"],ans:"wo"},
+      {q:"What sound does ん make?",opts:["n","mu","nu"],ans:"n"},
+      {q:"What sound does め make?",opts:["mu","mo","me"],ans:"me"},
+      {q:"What sound does よ make?",opts:["ya","yu","yo"],ans:"yo"},
+      {q:"What sound does ぬ make?",opts:["na","nu","ne"],ans:"nu"},
+      {q:"What sound does ほ make?",opts:["ha","he","ho"],ans:"ho"},
+    ]},
+
+    // ── Task B: Katakana Recognition (10 items, category AB) ──
+    {id:"gate_b",title:"Task B: Katakana Recognition",desc:"Identify the sound of each katakana character.",type:"mc",category:"AB",items:[
+      {q:"What sound does ク make?",opts:["ku","ke","ka"],ans:"ku"},
+      {q:"What sound does シ make?",opts:["tsu","shi","so"],ans:"shi"},
+      {q:"What sound does テ make?",opts:["ta","te","to"],ans:"te"},
+      {q:"What sound does フ make?",opts:["ho","fu","he"],ans:"fu"},
+      {q:"What sound does ン make?",opts:["so","n","shi"],ans:"n"},
+      {q:"What sound does モ make?",opts:["mu","me","mo"],ans:"mo"},
+      {q:"What sound does ヨ make?",opts:["yo","ya","yu"],ans:"yo"},
+      {q:"What sound does ル make?",opts:["re","ri","ru"],ans:"ru"},
+      {q:"What sound does ワ make?",opts:["wa","wo","we"],ans:"wa"},
+      {q:"What sound does ヘ make?",opts:["he","ho","ha"],ans:"he"},
+    ]},
+
+    // ── Task C: Read Hiragana Words (8 items, category C) ──
+    {id:"gate_c",title:"Task C: Read Words",desc:"Read hiragana words and pick the correct romaji.",type:"mc",category:"C",items:[
+      {q:"How do you read きょう?",opts:["kiyou","kyou","kyuu","kiyo"],ans:"kyou"},
+      {q:"How do you read がっこう?",opts:["gakou","gatkou","gakkou","gakoou"],ans:"gakkou"},
+      {q:"How do you read おんがく?",opts:["onngaku","ogaku","ongaku","ounaku"],ans:"ongaku"},
+      {q:"How do you read しんぶん?",opts:["shinbun","sinbun","shimbun","shibun"],ans:"shinbun"},
+      {q:"How do you read りょうり?",opts:["riyouri","ryori","riyori","ryouri"],ans:"ryouri"},
+      {q:"How do you read びょういん?",opts:["biyouin","byouin","byouinn","biouin"],ans:"byouin"},
+      {q:"How do you read ちゅうごく?",opts:["tiuugoku","chugoku","chuugoku","chiugoku"],ans:"chuugoku"},
+      {q:"How do you read せんせい?",opts:["sensee","sennsei","sesei","sensei"],ans:"sensei"},
+    ]},
+
+    // ── Task D: Katakana Word Reading (8 items, category DE) ──
+    {id:"gate_d",title:"Task D: Katakana Words",desc:"Read katakana loanwords and pick the correct romaji.",type:"mc",category:"DE",items:[
+      {q:"How do you read コーヒー?",opts:["kohii","kouhii","koohii","kahii"],ans:"koohii"},
+      {q:"How do you read テレビ?",opts:["terebi","teribi","telebi","terubi"],ans:"terebi"},
+      {q:"How do you read コンピューター?",opts:["kompyuutaa","konpyutaa","konpiuutaa","konpyuutaa"],ans:"konpyuutaa"},
+      {q:"How do you read パン?",opts:["paan","pan","pen","pon"],ans:"pan"},
+      {q:"How do you read ベッド?",opts:["bedo","betto","beddo","beto"],ans:"beddo"},
+      {q:"How do you read チョコレート?",opts:["chokoreto","chokoreeto","tyokoreeto","chokoleto"],ans:"chokoreeto"},
+      {q:"How do you read アイスクリーム?",opts:["aiskurimu","aisukurimu","aisukremu","aisukuriimu"],ans:"aisukuriimu"},
+      {q:"How do you read レストラン?",opts:["resutorann","restoran","resutoran","resutran"],ans:"resutoran"},
+    ]},
+
+    // ── Task E: Script Identification (5 items, category DE) ──
+    {id:"gate_e",title:"Task E: Script Identification",desc:"Identify which writing system each word uses.",type:"mc",category:"DE",items:[
+      {q:"東京 uses which script?",opts:["Kanji","Hiragana","Katakana","Romaji"],ans:"Kanji"},
+      {q:"テレビ uses which script?",opts:["Hiragana","Katakana","Kanji","Romaji"],ans:"Katakana"},
+      {q:"おはよう uses which script?",opts:["Katakana","Kanji","Hiragana","Romaji"],ans:"Hiragana"},
+      {q:"サッカー uses which script?",opts:["Hiragana","Kanji","Romaji","Katakana"],ans:"Katakana"},
+      {q:"食べる uses which combination?",opts:["Kanji only","Hiragana only","Kanji + Hiragana","Katakana + Kanji"],ans:"Kanji + Hiragana"},
+    ]},
+  ],
+  diagnosticRouting:{
+    A:"Phase 1-3: You need more practice recognizing hiragana characters.",
+    B:"Phase 6-7: You need more practice recognizing katakana characters.",
+    C:"Phase 4-5: Practice reading dakuten, combo sounds, and long vowels.",
+    D:"Phase 7: Practice reading katakana specials, long vowels, and double consonants.",
+    E:"Phase 0: Review the three-script system and when each script is used.",
+  },
   },
 };
 
