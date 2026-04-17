@@ -235,11 +235,15 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  opts:["Grammar error in tradition","Russian uses impersonal constructions for states and feelings","To sound more formal","It's only in Moscow dialect"],
  ans:"Russian uses impersonal constructions for states and feelings",
  hint:"Think about how ___ says 'I'm cold' (мне холодно) — the pattern is consistent."}
+<<<<<<< HEAD
 ,
 
 {type:"match", pairs:[
   {trg:"ноль", src:"zero"}
 ]}]}
+=======
+]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_02;

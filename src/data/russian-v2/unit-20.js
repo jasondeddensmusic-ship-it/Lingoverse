@@ -155,6 +155,7 @@ const UNIT_20 = {n:20, lang:"ru", srcLang:"en", track:"v2", title:"Датель�
   {trg:"ей", src:"to her"},
   {trg:"нам", src:"to us"}
 ]}
+<<<<<<< HEAD
 ,
 
 {type:"match", pairs:[
@@ -165,6 +166,9 @@ const UNIT_20 = {n:20, lang:"ru", srcLang:"en", track:"v2", title:"Датель�
   {trg:"площадь → площади", src:"square → to square (f -ь)"},
   {trg:"друзьям", src:"to friends (pl DAT)"}
 ]}]}
+=======
+]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_20;

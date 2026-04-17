@@ -84,6 +84,7 @@ const UNIT_33 = {n:33, lang:"ru", srcLang:"en", track:"v2", title:"Формал�
   {trg:"согласно", src:"according to"},
   {trg:"таким образом", src:"thus"}
 ]}
+<<<<<<< HEAD
 ,
 
 {type:"match", pairs:[
@@ -93,6 +94,9 @@ const UNIT_33 = {n:33, lang:"ru", srcLang:"en", track:"v2", title:"Формал�
 {type:"match", pairs:[
   {trg:"необходимо", src:"it is necessary (formal)"}
 ]}]}
+=======
+]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_33;

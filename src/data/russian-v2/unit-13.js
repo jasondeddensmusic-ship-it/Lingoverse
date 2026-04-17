@@ -257,6 +257,7 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
   {trg:"обычно", src:"imperfective"},
   {trg:"только что", src:"perfective"}
 ]}
+<<<<<<< HEAD
 ,
 
 {type:"match", pairs:[
@@ -266,6 +267,9 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
   {trg:"в субботу", src:"on Saturday"},
   {trg:"до завтра", src:"until tomorrow"}
 ]}]}
+=======
+]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_13;

@@ -79,6 +79,7 @@ const UNIT_31 = {n:31, lang:"ru", srcLang:"en", track:"v2", title:"Истори�
   {trg:"император", src:"emperor"},
   {trg:"СССР", src:"USSR"}
 ]}
+<<<<<<< HEAD
 ,
 
 {type:"match", pairs:[
@@ -88,6 +89,9 @@ const UNIT_31 = {n:31, lang:"ru", srcLang:"en", track:"v2", title:"Истори�
 {type:"match", pairs:[
   {trg:"мир", src:"peace / world"}
 ]}]}
+=======
+]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_31;

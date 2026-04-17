@@ -270,6 +270,7 @@ const UNIT_08 = {n:8, lang:"ru", srcLang:"en", track:"v2", title:"В магаз�
   {trg:"платье", src:"dress"},
   {trg:"обувь", src:"footwear"}
 ]}
+<<<<<<< HEAD
 ,
 
 {type:"match", pairs:[
@@ -282,6 +283,9 @@ const UNIT_08 = {n:8, lang:"ru", srcLang:"en", track:"v2", title:"В магаз�
   {trg:"сколько стоит", src:"how much does it cost?"},
   {trg:"очень", src:"very / very much"}
 ]}]}
+=======
+]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_08;

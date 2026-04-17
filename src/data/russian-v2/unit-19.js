@@ -155,6 +155,7 @@ const UNIT_19 = {n:19, lang:"ru", srcLang:"en", track:"v2", title:"Родите�
   {trg:"матери (GEN)", src:"of mother"},
   {trg:"времени (GEN)", src:"of time"}
 ]}
+<<<<<<< HEAD
 ,
 
 {type:"match", pairs:[
@@ -166,6 +167,9 @@ const UNIT_19 = {n:19, lang:"ru", srcLang:"en", track:"v2", title:"Родите�
 {type:"match", pairs:[
   {trg:"у меня нет", src:"I don"}
 ]}]}
+=======
+]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_19;

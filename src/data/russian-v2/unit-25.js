@@ -78,6 +78,7 @@ const UNIT_25 = {n:25, lang:"ru", srcLang:"en", track:"v2", title:"Общест�
   {trg:"право", src:"right/law"},
   {trg:"ответственность", src:"responsibility"}
 ]}
+<<<<<<< HEAD
 ,
 
 {type:"match", pairs:[
@@ -87,6 +88,9 @@ const UNIT_25 = {n:25, lang:"ru", srcLang:"en", track:"v2", title:"Общест�
 {type:"match", pairs:[
   {trg:"проблема", src:"problem / issue"}
 ]}]}
+=======
+]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_25;

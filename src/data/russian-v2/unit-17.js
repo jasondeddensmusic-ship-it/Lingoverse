@@ -155,6 +155,7 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
   {trg:"о матери", src:"about mother"},
   {trg:"в здании", src:"in the building"}
 ]}
+<<<<<<< HEAD
 ,
 
 {type:"match", pairs:[
@@ -165,6 +166,9 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
   {trg:"окно → окне", src:"window → at window (n)"},
   {trg:"здание → здании", src:"building → in building (n)"}
 ]}]}
+=======
+]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_17;

@@ -84,6 +84,7 @@ const UNIT_29 = {n:29, lang:"ru", srcLang:"en", track:"v2", title:"СМИ и н�
   {trg:"журналист", src:"journalist"},
   {trg:"мнение", src:"opinion"}
 ]}
+<<<<<<< HEAD
 ,
 
 {type:"match", pairs:[
@@ -91,6 +92,9 @@ const UNIT_29 = {n:29, lang:"ru", srcLang:"en", track:"v2", title:"СМИ и н�
   {trg:"интернет", src:"internet"},
   {trg:"сообщение", src:"message / report"}
 ]}]}
+=======
+]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_29;
