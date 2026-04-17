@@ -290,7 +290,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | French | v2 | 90 | 5,036 | 52 entries | COMPLETE. 98% of German. |
 | Spanish | v2 | 92 | 5,124 | 53 entries | COMPLETE. 100% of German. |
 | Italian | v2 | 36 | 5,013 | 12 entries | DENSITY DONE. Needs: Foundations, dialogue scaling, grammar expansion. |
-| Japanese | v2 | 36 | 4,978 | 20 entries | DENSITY DONE. Needs: Foundations (CRITICAL), kanji in examples, grammar expansion. |
+| Japanese | v2 | 36 | 4,978 | 20 entries | DENSITY DONE. Needs: Foundations (CRITICAL), kanji+furigana on ALL cards (all levels), grammar expansion. |
 
 **Grand total: ~30,500+ teach cards across 7 languages (36 units each). Build passes.**
 **Grammar modules: 300 entries across 7 languages.**
@@ -310,7 +310,7 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 1. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56).
 2. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537).
 3. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing.
-4. **Italian + Japanese thin** — B1+B2 units have ~20 cards each. Need density expansion (3 lessons per unit).
+4. **Italian + Japanese polish needed** — Density done (~5K each). Japanese needs kanji+furigana on ALL cards (all levels, not B1+ only) + Foundations. Italian needs Foundations + grammar expansion.
 
 > 25 previously tracked blockers have been resolved. See `docs/BUILD_STATUS.md` for full history.
 

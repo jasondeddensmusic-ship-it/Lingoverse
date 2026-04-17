@@ -50,12 +50,18 @@ Japanese content is UNUSABLE for complete beginners. There is NO hiragana/kataka
 
 **Reference implementation**: Korean Foundations in `src/data/foundations.js` (FK_PLAYTHROUGH, FK_GATE_QUIZ). Copy the pattern for Japanese. The SCRIPT_BLUEPRINTS infrastructure for `kana` already exists in `src/data/metadata.js`.
 
-#### Priority 1B: Kanji in Japanese B1+ Examples
+#### Priority 1B: Kanji + Furigana on ALL Japanese Cards (ALL Levels)
 
-All 4,978 Japanese teach cards use pure hiragana in examples. B1+ should show kanji with furigana:
-- Add `exampleKanji` field to B1+ teach cards: `exampleKanji:"大学(だいがく)で哲学(てつがく)を専攻(せんこう)しました。"`
-- A1-A2 stays pure hiragana (learners haven't learned kanji yet)
-- The renderer can show hiragana by default with a toggle to reveal kanji+furigana
+**Design decision (owner-directed, 2026-04-17):** Japanese content must use kanji with furigana (ruby text) from A1 Unit 1 onward. NOT a B1+ upgrade. NOT a toggle. This is how real Japanese works: newspapers, children's books, and textbooks all show kanji with furigana for assisted reading. Pure hiragana is actually harder to read because word boundaries disappear.
+
+ALL 4,978 Japanese teach cards need their `example` and `exampleSrc` fields converted:
+- `example` uses kanji as primary text with inline furigana notation: `"大学(だいがく)で哲学(てつがく)を勉強(べんきょう)しました。"`
+- `trg` field stays as-is (single word, often already has kanji where appropriate)
+- Renderer must support ruby text display (furigana above kanji)
+- Learners absorb kanji naturally through exposure from day one, the way Japanese children do
+- Foundations still teaches hiragana/katakana so learners can READ the furigana
+
+This is a full pass across all 36 units (4,978 cards), not a partial upgrade. Scope: ~36 agent-processed files.
 
 #### Priority 1C: Dialogue CEFR Scaling
 
