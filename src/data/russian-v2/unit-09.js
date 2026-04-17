@@ -70,7 +70,7 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
 {type:"mc", q:"What gender is 'тело' (body)?",
  opts:["Masculine","Feminine","Neuter","Ambiguous"],
  ans:"Neuter",
- hint:"Ends in -о. Standard neuter ending."},
+ hint:"Ends in -о. Standard ___ ending."},
 
 {type:"mc", q:"How does Russian handle 'hand' vs 'arm'?",
  opts:["Has separate words for each","Uses 'рука' for both","Has three words","Uses English loanwords"],

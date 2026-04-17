@@ -69,7 +69,7 @@ const UNIT_23 = {n:23, lang:"ru", srcLang:"en", track:"v2", title:"Повели�
 {type:"mc", q:"Negative commands use which aspect?",
  opts:["Perfective","Imperfective","Both equally","Neither"],
  ans:"Imperfective",
- hint:"'Don't do X' = имперф. 'Не делай' (don't do) uses imperfective."},
+ hint:"'Don't do X' = имперф. 'Не делай' (don't do) uses ___."},
 
 {type:"fb", s:"A: {1}, пожалуйста, правду!\nB: Хорошо, скажу.",
  a:["Скажите"],

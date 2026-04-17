@@ -52,7 +52,7 @@ const UNIT_20 = {n:20, lang:"ru", srcLang:"en", track:"v2", title:"Датель�
 {type:"mc", q:"Which case after 'помочь' (to help)?",
  opts:["Nominative","Accusative","Dative","Instrumental"],
  ans:"Dative",
- hint:"Unlike English 'help someone' (direct object), Russian uses dative."},
+ hint:"Unlike English 'help someone' (direct object), Russian uses ___."},
 
 {type:"mc", q:"'I'm 30' in Russian:",
  opts:["Я 30","Я есть 30","Мне 30","Мной 30"],

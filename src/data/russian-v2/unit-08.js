@@ -69,7 +69,7 @@ const UNIT_08 = {n:8, lang:"ru", srcLang:"en", track:"v2", title:"В магаз�
 {type:"mc", q:"Why is 'деньги' (money) always plural?",
  opts:["It's a loanword","It's plurale tantum (plural only)","Old Slavic convention","Every currency is plural"],
  ans:"It's plurale tantum (plural only)",
- hint:"Russian has nouns that only exist in plural form — like English 'scissors.'"},
+ hint:"Russian has nouns that only exist in ___ form — like English 'scissors.'"},
 
 {type:"fb", s:"A: Сколько {1} яблоки?\nB: Пятьдесят рублей за килограмм.",
  a:["стоят"],
@@ -148,7 +148,7 @@ const UNIT_08 = {n:8, lang:"ru", srcLang:"en", track:"v2", title:"В магаз�
 {type:"mc", q:"If I do my grocery shopping every Saturday, which verb do I use?",
  opts:["покупаю (imperfective)","купил (perfective past)","куплю (perfective future)","купить (infinitive)"],
  ans:"покупаю (imperfective)",
- hint:"Regular, repeated actions take imperfective aspect."},
+ hint:"Regular, repeated actions take ___ aspect."},
 
 {type:"mc", q:"Which verb pair means 'to sell'?",
  opts:["покупать/купить","продавать/продать","платить/заплатить","давать/дать"],
@@ -249,7 +249,7 @@ const UNIT_08 = {n:8, lang:"ru", srcLang:"en", track:"v2", title:"В магаз�
 {type:"mc", q:"Why is 'платье' neuter despite being a dress (a traditionally feminine item)?",
  opts:["Grammatical category is based on ending","Russian has no gender","Dresses used to be worn by men","It's a loanword"],
  ans:"Grammatical category is based on ending",
- hint:"Russian noun gender is determined by WORD ENDING, not meaning. -е = neuter."},
+ hint:"Russian noun gender is determined by WORD ___, not meaning. -е = neuter."},
 
 {type:"fb", s:"A: Это платье мне {1}.\nB: Да, очень красивое.",
  a:["нравится"],

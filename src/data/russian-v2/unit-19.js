@@ -52,7 +52,7 @@ const UNIT_19 = {n:19, lang:"ru", srcLang:"en", track:"v2", title:"Родите�
 {type:"mc", q:"After 'нет' (no/not), which case?",
  opts:["Nominative","Accusative","Genitive","Dative"],
  ans:"Genitive",
- hint:"The 'absence' rule: what's missing goes to genitive."},
+ hint:"The 'absence' rule: what's missing goes to ___."},
 
 {type:"mc", q:"Which preposition does NOT take genitive?",
  opts:["из","от","для","к"],

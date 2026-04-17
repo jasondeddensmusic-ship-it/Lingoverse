@@ -63,7 +63,7 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
 {type:"mc", q:"What case comes after the preposition 'о' (about)?",
  opts:["Nominative","Genitive","Dative","Prepositional"],
  ans:"Prepositional",
- hint:"'О' always takes prepositional. Hence the name of the case."},
+ hint:"'О' always takes ___. Hence the name of the case."},
 
 {type:"fb", s:"A: Где твой телефон?\nB: На {1}.",
  a:["столе"],
@@ -140,7 +140,7 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
 {type:"mc", q:"'В ___ музее' — what preposition+noun combination?",
  opts:["в + nominative","в + accusative","в + prepositional","в + genitive"],
  ans:"в + prepositional",
- hint:"Location = в + prepositional case."},
+ hint:"Location = в + ___ case."},
 
 {type:"fb", s:"A: Где ты учишься?\nB: В {1}.",
  a:["университете"],

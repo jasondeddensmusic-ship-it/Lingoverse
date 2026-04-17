@@ -147,7 +147,7 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
 {type:"mc", q:"'Я беру такси каждый день' — which aspect?",
  opts:["Imperfective (habitual)","Perfective (one time)","Future","Past"],
  ans:"Imperfective (habitual)",
- hint:"'Каждый день' (every day) = habitual action = imperfective."},
+ hint:"'Каждый день' (every day) = ___ action = ___."},
 
 {type:"fb", s:"A: Что он {1} о погоде?\nB: Что завтра будет дождь.",
  a:["сказал"],
@@ -236,7 +236,7 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
 {type:"mc", q:"'Вчера я ___ интересную книгу' — which?",
  opts:["читаю","читал (imperf past)","прочитал (perf past)","буду читать"],
  ans:"прочитал (perf past)",
- hint:"Finished reading a specific book yesterday = completed = perfective past."},
+ hint:"Finished reading a specific book yesterday = completed = perfective ___."},
 
 {type:"fb", s:"Я обычно {1} кофе утром.",
  a:["пью"],

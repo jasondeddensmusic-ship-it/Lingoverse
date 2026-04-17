@@ -242,7 +242,7 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
 {type:"mc", q:"'I'm going north' in Russian uses which case?",
  opts:["Nominative","Genitive","Accusative (direction)","Dative"],
  ans:"Accusative (direction)",
- hint:"Motion to a place = accusative. Я еду на север (accusative)."},
+ hint:"Motion to a place = ___. Я еду на север (___)."},
 
 {type:"fb", s:"A: У тебя есть {1}?\nB: Да, в телефоне.",
  a:["карта"],

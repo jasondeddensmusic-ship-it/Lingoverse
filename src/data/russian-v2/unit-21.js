@@ -52,7 +52,7 @@ const UNIT_21 = {n:21, lang:"ru", srcLang:"en", track:"v2", title:"Творит�
 {type:"mc", q:"'I work as a doctor' — case for 'врач'?",
  opts:["Nominative","Accusative","Dative","Instrumental"],
  ans:"Instrumental",
- hint:"Profession-as-role uses instrumental case: 'работаю + inst.'"},
+ hint:"Profession-as-role uses ___ case: 'работаю + inst.'"},
 
 {type:"mc", q:"'Пишу ___ ручкой' — needs preposition?",
  opts:["с","без","к","no preposition"],

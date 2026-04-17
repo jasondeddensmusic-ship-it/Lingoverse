@@ -69,7 +69,7 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
 {type:"mc", q:"Why is 'кофе' sometimes a grammatical controversy?",
  opts:["It's a foreign loanword","It's officially masculine but many use it as neuter","It changes gender by region","It has three genders simultaneously"],
  ans:"It's officially masculine but many use it as neuter",
- hint:"The ending -е looks neuter, but tradition and dictionaries say masculine. Modern usage goes both ways."},
+ hint:"The ending -е looks ___, but tradition and dictionaries say ___. Modern usage goes both ways."},
 
 {type:"fb", s:"A: Хочешь {1}?\nB: Да, с лимоном, пожалуйста.",
  a:["чай"],

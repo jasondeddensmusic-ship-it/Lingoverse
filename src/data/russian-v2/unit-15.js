@@ -249,7 +249,7 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
 {type:"mc", q:"How is Russian conditional formed?",
  opts:["Special verb ending","Past tense + бы","Infinitive + would","Present + бы"],
  ans:"Past tense + бы",
- hint:"Simple! Just add the particle бы to the past tense form."},
+ hint:"Simple! Just add the particle бы to the ___ ___ form."},
 
 {type:"fb", s:"A: Что ты {1}, если выиграешь в лотерею?\nB: Купил бы дом.",
  a:["купил бы"],

@@ -69,7 +69,7 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
 {type:"mc", q:"The word 'мать' (mother) ends in -ь. How can you know it's feminine?",
  opts:["It always ends in -а","It refers to a female person","The -ь ending is always feminine","You can't — you must memorize"],
  ans:"It refers to a female person",
- hint:"Nouns ending in -ь are unpredictable in gender. But if the noun refers to a woman, it's clearly feminine."},
+ hint:"Nouns ending in -ь are unpredictable in gender. But if the noun ___ to a woman, it's clearly feminine."},
 
 {type:"fb", s:"A: Где ваша {1}?\nB: Моя мама на кухне.",
  a:["мама"],
@@ -151,7 +151,7 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
 {type:"mc", q:"Why is 'дядя' grammatically masculine?",
  opts:["It ends in -а","It ends in a soft consonant","It refers to a male person","It's neuter"],
  ans:"It refers to a male person",
- hint:"Semantic gender (male/female referent) overrides the normal -а/-я = feminine rule for kinship terms."},
+ hint:"Semantic gender (___/fe___ referent) overrides the normal -а/-я = feminine rule for kinship terms."},
 
 {type:"fb", s:"A: Это твоя {1}?\nB: Нет, это моя тётя.",
  a:["сестра"],

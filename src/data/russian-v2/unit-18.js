@@ -130,12 +130,12 @@ const UNIT_18 = {n:18, lang:"ru", srcLang:"en", track:"v2", title:"Вините�
 {type:"mc", q:"'I'm going to school' — школа in:",
  opts:["Nominative (школа)","Accusative (школу)","Prepositional (школе)","Genitive (школы)"],
  ans:"Accusative (школу)",
- hint:"Direction/motion toward = accusative."},
+ hint:"Direction/motion toward = ___."},
 
 {type:"mc", q:"'I'm at school' — школа in:",
  opts:["Nominative","Accusative","Prepositional","Dative"],
  ans:"Prepositional",
- hint:"Location = prepositional."},
+ hint:"Location = ___."},
 
 {type:"fb", s:"A: Куда ты едешь в отпуск?\nB: В {1}.",
  a:["Москву"],

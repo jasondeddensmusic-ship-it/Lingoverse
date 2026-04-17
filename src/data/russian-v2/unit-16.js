@@ -57,7 +57,7 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
 {type:"mc", q:"'I talk ABOUT my friend' — which case does друг take?",
  opts:["Nominative","Genitive","Dative","Prepositional"],
  ans:"Prepositional",
- hint:"'About' = О + prepositional case. The prepositional only appears after prepositions."},
+ hint:"'About' = О + ___ case. The ___ only appears after prepositions."},
 
 {type:"fb", s:"Анна — это {1} падеж.",
  a:["именительный"],
@@ -123,7 +123,7 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
 {type:"mc", q:"'I don't have a book' — what case?",
  opts:["Nominative","Accusative","Genitive","Dative"],
  ans:"Genitive",
- hint:"Absence/lacking = genitive. 'Нет книги' (not книга, not книгу)."},
+ hint:"Absence/lacking = ___. 'Нет книги' (not книга, not книгу)."},
 
 {type:"fb", s:"Я читаю интересную {1}.",
  a:["книгу"],
@@ -202,7 +202,7 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
 {type:"mc", q:"'Я иду К ___' — what case?",
  opts:["Nominative","Accusative","Dative","Prepositional"],
  ans:"Dative",
- hint:"К always takes dative. К + person's dative form."},
+ hint:"К always takes ___. К + person's ___ form."},
 
 {type:"mc", q:"Which preposition takes the instrumental?",
  opts:["в","к","с","из"],

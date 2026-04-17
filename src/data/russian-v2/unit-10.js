@@ -76,7 +76,7 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 {type:"mc", q:"What gender is 'врач' (doctor) when referring to a woman?",
  opts:["Feminine","Masculine","Neuter","Both"],
  ans:"Masculine",
- hint:"Врач is unusual: stays grammatically masculine even for women. No feminine form in formal Russian."},
+ hint:"Врач is unusual: stays grammatically ___ even for women. No feminine form in formal Russian."},
 
 {type:"fb", s:"A: Кем ты работаешь?\nB: Я {1}, работаю в IT-компании.",
  a:["программист"],

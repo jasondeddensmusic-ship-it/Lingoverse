@@ -64,7 +64,7 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
 {type:"mc", q:"Russian past tense conjugates for:",
  opts:["Person (я/ты/он)","Gender (m/f/n) and number","Tense only","Nothing"],
  ans:"Gender (m/f/n) and number",
- hint:"Unlike most languages with personal past, Russian uses gender-based endings."},
+ hint:"Unlike most languages with personal past, Russian uses ___-based endings."},
 
 {type:"fb", s:"A: Что ты делала вчера?\nB: Я {1} дома весь день.",
  a:["работала"],
@@ -148,7 +148,7 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
 {type:"mc", q:"'Yesterday I read a book all day' — which aspect?",
  opts:["Perfective (finished)","Imperfective (process)","Either","Neither"],
  ans:"Imperfective (process)",
- hint:"'Все день' (all day) = extended duration = process = imperfective."},
+ hint:"'Все день' (all day) = extended duration = ___ = ___."},
 
 {type:"mc", q:"'He already read the book' translates to:",
  opts:["Он читал книгу","Он прочитал книгу","Он будет читать книгу","Он прочитает книгу"],
@@ -243,7 +243,7 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
 {type:"mc", q:"Why does Russian need 'был/была' in past but omits 'to be' in present?",
  opts:["Grammar error","Historical evolution — Russian lost present 'быть'","Stylistic choice","Regional dialect"],
  ans:"Historical evolution — Russian lost present 'быть'",
- hint:"Present 'есть' is used rarely in modern Russian. Past preserves the full conjugation."},
+ hint:"___ 'есть' is used rarely in modern ___. Past preserves the full conjugation."},
 
 {type:"fb", s:"A: Где вы {1} вчера вечером?\nB: Мы были в театре.",
  a:["были"],

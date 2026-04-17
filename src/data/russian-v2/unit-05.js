@@ -236,7 +236,7 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
 {type:"mc", q:"What does 'среда' (Wednesday) literally mean?",
  opts:["Day five","Middle day","Market day","After Sunday"],
  ans:"Middle day",
- hint:"It's the middle of the week (Mon-Sun). The word also means 'medium' or 'environment' in Russian."},
+ hint:"It's the ___ of the week (Mon-Sun). The word also means 'medium' or 'environment' in Russian."},
 
 {type:"mc", q:"'Every day' in Russian is:",
  opts:["Всегда","Каждый день","Часто","Иногда"],
