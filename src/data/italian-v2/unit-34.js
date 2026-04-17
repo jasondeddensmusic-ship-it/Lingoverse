@@ -48,6 +48,7 @@ const UNIT_34 = {
        example:"A: L'Italia fa parte di diverse alleanze internazionali.\nB: La NATO e l'Unione Europea sono le principali.",
        exampleSrc:"A: Italy is part of several international alliances.\nB: NATO and the European Union are the main ones.",
        funFact:"Italy joined NATO in 1949, just four years after the end of World War II. The shift from defeated Axis power to Western alliance member was one of the most dramatic foreign policy pivots of the 20th century."},
+{type:"match",pairs:[{trg:"il trattato",src:"the treaty"},{trg:"l'ambasciata",src:"the embassy"},{trg:"il negoziato",src:"the negotiation"},{trg:"l'alleanza",src:"the alliance"}]},
 
       {type:"mc",
        q:"Come si chiama l'accordo formale firmato tra due o piu nazioni?",
@@ -187,6 +188,7 @@ const UNIT_34 = {
        example:"A: Il nuovo regolamento sulla privacy e entrato subito in vigore.\nB: Senza bisogno di leggi nazionali di recepimento.",
        exampleSrc:"A: The new privacy regulation entered into force immediately.\nB: Without the need for national transposition laws.",
        funFact:"The key difference: a 'regolamento' applies directly (like the GDPR), while a 'direttiva' must be converted into national law. Italy's dual legal system makes this distinction very practical."},
+{type:"match",pairs:[{trg:"il parlamento europeo",src:"the European Parliament"},{trg:"la commissione",src:"the commission"},{trg:"la direttiva",src:"the directive"},{trg:"il regolamento",src:"the regulation"}]},
 
       {type:"mc",
        q:"Qual e la differenza principale tra una direttiva e un regolamento dell'UE?",

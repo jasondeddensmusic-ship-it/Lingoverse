@@ -49,6 +49,7 @@ const UNIT_25 = {
        example:"A: Qual e il tasso di interesse?\nB: L'uno e mezzo per cento.",
        exampleSrc:"A: What is the interest rate?\nB: One and a half percent.",
        funFact:"'Tasso' also means 'badger' (the animal) and 'yew tree.' Three completely unrelated meanings from different Latin roots, all spelled identically in modern Italian."},
+{type:"match",pairs:[{trg:"l'azione",src:"the share / stock"},{trg:"la borsa",src:"the stock exchange"},{trg:"l'inflazione",src:"the inflation"},{trg:"il tasso",src:"the rate"}]},
 
       {type:"mc",
        q:"Come si chiama il mercato dove si comprano e vendono le azioni?",
@@ -168,6 +169,7 @@ const UNIT_25 = {
        example:"A: Le esportazioni italiane sono cresciute.\nB: Soprattutto nel settore alimentare.",
        exampleSrc:"A: Italian exports have grown.\nB: Especially in the food sector.",
        funFact:"Italy is the world's 8th largest exporter. 'Made in Italy' is a globally recognized brand, especially for fashion, food, machinery, and luxury cars. The phrase itself has legal protection."},
+{type:"match",pairs:[{trg:"la fusione",src:"the merger"},{trg:"il fallimento",src:"the bankruptcy / failure"},{trg:"la competitivita",src:"the competitiveness"},{trg:"l'esportazione",src:"the export"}]},
 
       {type:"mc",
        q:"Quando due aziende si uniscono, come si chiama questa operazione?",

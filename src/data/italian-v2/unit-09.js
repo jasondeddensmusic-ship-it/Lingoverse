@@ -48,6 +48,7 @@ const UNIT_09 = {
        example:"A: Andiamo a piedi?\nB: Si, e vicino.",
        exampleSrc:"A: Shall we walk?\nB: Yes, it is near.",
        funFact:"From Latin 'pes, pedis' (foot). The same root gave English 'pedestrian,' 'pedal,' 'pedicure,' and 'expedition' (freeing the feet). 'Andare a piedi' (go on foot) is among the most common Italian expressions."},
+{type:"match",pairs:[{trg:"il braccio",src:"the arm"},{trg:"la gamba",src:"the leg"},{trg:"la mano",src:"the hand"},{trg:"il piede",src:"the foot"}]},
 
       {type:"teach", trg:"lo stomaco", src:"the stomach", pos:"noun", gender:"m",
        note:"Masculine. From Greek 'stomachos' (gullet, stomach).\n'Mal di stomaco' = stomachache.",
@@ -149,6 +150,7 @@ const UNIT_09 = {
        example:"A: Hai preso la medicina?\nB: Si, due volte al giorno.",
        exampleSrc:"A: Did you take the medicine?\nB: Yes, twice a day.",
        funFact:"'Medicina' means both a specific drug and the medical field. Italy has a public healthcare system (SSN) that provides universal coverage. Italians can see a doctor ('medico di base') for free, though wait times vary by region."},
+{type:"match",pairs:[{trg:"la febbre",src:"the fever"},{trg:"la tosse",src:"the cough"},{trg:"il raffreddore",src:"the cold (illness)"},{trg:"la medicina",src:"the medicine"}]},
 
       {type:"teach", trg:"la farmacia", src:"the pharmacy", pos:"noun", gender:"f",
        note:"Feminine. From Greek 'pharmakon' (remedy).\nItalian pharmacists can give medical advice.",
@@ -250,6 +252,7 @@ const UNIT_09 = {
        example:"A: Devo vedere il dottore.\nB: Ha un appuntamento?",
        exampleSrc:"A: I need to see the doctor.\nB: Do you have an appointment?",
        funFact:"In Italy, 'dottore/dottoressa' is used for anyone with a university degree, not just medical doctors. Your lawyer, engineer, or professor can be called 'dottore.' For specifically medical doctors, 'medico' is the precise term."},
+{type:"match",pairs:[{trg:"ho bisogno di",src:"I need"},{trg:"la ricetta",src:"the prescription"},{trg:"l'appuntamento",src:"the appointment"},{trg:"il dottore",src:"the doctor"}]},
 
       {type:"teach", trg:"la visita", src:"the check-up / examination", pos:"noun", gender:"f",
        note:"Feminine. From Latin 'visitare' (to go to see).\n'Visita medica' = medical examination.",

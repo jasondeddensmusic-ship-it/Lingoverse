@@ -48,6 +48,7 @@ const UNIT_07 = {
        example:"A: Desidera un contorno?\nB: Si, un'insalata mista.",
        exampleSrc:"A: Would you like a side dish?\nB: Yes, a mixed salad.",
        funFact:"Side dishes must be ordered separately in Italy. They never come automatically with the main course. Common contorni include insalata mista (mixed salad), patate arrosto (roasted potatoes), and verdure grigliate (grilled vegetables)."},
+{type:"match",pairs:[{trg:"l'antipasto",src:"the appetizer / starter"},{trg:"il primo",src:"the first course"},{trg:"il secondo",src:"the second course / main"},{trg:"il contorno",src:"the side dish"}]},
 
       {type:"teach", trg:"il dolce", src:"the dessert", pos:"noun", gender:"m",
        note:"Masculine as a noun (the dessert). Also adjective meaning 'sweet.'\nFrom Latin 'dulcis' (sweet).",
@@ -149,6 +150,7 @@ const UNIT_07 = {
        example:"A: Un bicchiere d'acqua, per favore.\nB: Naturale o frizzante?",
        exampleSrc:"A: A glass of water, please.\nB: Still or sparkling?",
        funFact:"In Italy, you will always be asked 'naturale o frizzante?' (still or sparkling?) when ordering water. Tap water is safe but rarely served in restaurants. Italians strongly prefer bottled water at meals."},
+{type:"match",pairs:[{trg:"il cameriere",src:"the waiter"},{trg:"il conto",src:"the bill / check"},{trg:"la mancia",src:"the tip"},{trg:"il bicchiere",src:"the glass"}]},
 
       {type:"teach", trg:"la bottiglia", src:"the bottle", pos:"noun", gender:"f",
        note:"Feminine. From Latin 'butticula' (small cask).\nDouble -gli- sound: bot-TI-glia.",
@@ -250,6 +252,7 @@ const UNIT_07 = {
        example:"A: Questo vino e dolce?\nB: No, e secco.",
        exampleSrc:"A: Is this wine sweet?\nB: No, it is dry.",
        funFact:"'Dolce' as an adjective means 'sweet.' As a noun, it means 'dessert.' 'Dolcevita' is also the Italian word for a turtleneck sweater, inspired by the glamorous style of Fellini's film 'La Dolce Vita.'"},
+{type:"match",pairs:[{trg:"cotto",src:"cooked"},{trg:"crudo",src:"raw"},{trg:"piccante",src:"spicy / hot"},{trg:"dolce",src:"sweet"}]},
 
       {type:"teach", trg:"amaro", src:"bitter", pos:"adj", gender:null,
        note:"Adj. Feminine: amara. From Latin 'amarus' (bitter).\nAlso a type of Italian digestive liqueur.",

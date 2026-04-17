@@ -50,6 +50,7 @@ const UNIT_01 = {
        example:"A: 今日(きょう)はありがとうございました。\nB: こちらこそ。さようなら!",
        exampleSrc:"A: Thank you for today.\nB: Likewise. Goodbye!",
        funFact:"Means 'if that is so' or 'well then.' It carries a sense of finality. Japanese people rarely use it with close friends, preferring mata ne (see you) or ja ne (well then)."},
+{type:"match",pairs:[{trg:"おはようございます",src:"good morning (polite)"},{trg:"こんばんは",src:"good evening"},{trg:"おやすみなさい",src:"good night"},{trg:"さようなら",src:"goodbye"}]},
 
       {type:"teach", trg:"ありがとうございます", src:"thank you (polite)", pos:"intj", gender:null,
        note:"Polite thank you. Casual: ありがとう (arigatou).\nThe most important polite phrase.",
@@ -80,6 +81,7 @@ const UNIT_01 = {
        example:"A: コーヒーをお願(ねが)いします。\nB: はい、少々(しょうしょう)お待(ま)ちください。",
        exampleSrc:"A: Coffee, please.\nB: Yes, please wait a moment.",
        funFact:"Onegai shimasu comes from negau (to wish/pray). You are literally saying 'I humbly wish this of you.' In casual speech, just onegai is enough among friends."},
+{type:"match",pairs:[{trg:"すみません",src:"excuse me / sorry"},{trg:"はい",src:"yes"},{trg:"いいえ",src:"no"},{trg:"お願(ねが)いします",src:"please"}]},
 
       {type:"teach", trg:"はじめまして", src:"nice to meet you", pos:"intj", gender:null,
        note:"Said when meeting someone for the FIRST time only.\nLiterally: for the first time.",

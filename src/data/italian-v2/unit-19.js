@@ -48,6 +48,7 @@ const UNIT_19 = {
        example:"A: Che vergogna! Ho sbagliato il suo nome.\nB: Non preoccuparti, succede a tutti.",
        exampleSrc:"A: How embarrassing! I got his name wrong.\nB: Do not worry, it happens to everyone.",
        funFact:"'Vergognarsi' (to be ashamed) is reflexive in Italian. 'Mi vergogno' means 'I am ashamed.' Italian culture places strong emphasis on 'fare bella figura' (making a good impression), so vergogna carries real social weight."},
+{type:"match",pairs:[{trg:"la tristezza",src:"the sadness"},{trg:"la rabbia",src:"the anger / rage"},{trg:"la paura",src:"the fear"},{trg:"la vergogna",src:"the shame / embarrassment"}]},
 
       {type:"teach", trg:"mi sento", src:"I feel", pos:"verb", gender:null,
        note:"Reflexive: sentirsi. 'Mi sento bene' = I feel well.\n'Mi sento triste' = I feel sad. Followed by an adjective.",
@@ -148,6 +149,7 @@ const UNIT_19 = {
        example:"A: Vi siete riconciliati dopo la lite?\nB: Si, ci siamo riconciliati ieri sera.",
        exampleSrc:"A: Did you make up after the fight?\nB: Yes, we reconciled last night.",
        funFact:"'Riconciliarsi' is a reciprocal reflexive verb, meaning both parties do the action together. The prefix 'ri-' (again) + 'conciliare' (to bring together) literally means 'to bring together again.' The informal equivalent is 'fare pace' (to make peace)."},
+{type:"match",pairs:[{trg:"la coppia",src:"the couple / pair"},{trg:"la gelosia",src:"the jealousy"},{trg:"litigare",src:"to argue / to quarrel"},{trg:"riconciliarsi",src:"to reconcile / to make up"}]},
 
       {type:"teach", trg:"fidarsi", src:"to trust", pos:"verb", gender:null,
        note:"Reflexive -are verb. 'Fidarsi di' = to trust (someone).\nFrom 'fede' (faith). 'Mi fido di te' = I trust you.",
@@ -249,6 +251,7 @@ const UNIT_19 = {
        example:"A: Come posso consolarti?\nB: Basta che tu sia qui con me.",
        exampleSrc:"A: How can I comfort you?\nB: It is enough that you are here with me.",
        funFact:"'Consolare' shares its root with 'consolazione' (consolation). Italy has a football tournament called 'Coppa Italia' where losing semi-finalists play a 'finale di consolazione' (consolation final). The word carries warmth and empathy in Italian."},
+{type:"match",pairs:[{trg:"la speranza",src:"the hope"},{trg:"la nostalgia",src:"the nostalgia / homesickness"},{trg:"preoccuparsi",src:"to worry"},{trg:"consolare",src:"to console / to comfort"}]},
 
       {type:"teach", trg:"emozionarsi", src:"to get emotional / to be moved", pos:"verb", gender:null,
        note:"Reflexive -are verb. 'Mi emoziono facilmente' = I get emotional easily.\n'Emozionante' = exciting, moving.",

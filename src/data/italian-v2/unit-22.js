@@ -48,6 +48,7 @@ const UNIT_22 = {
        example:"A: C'e una mostra di Caravaggio al museo.\nB: Andiamo sabato? Vorrei vederla.",
        exampleSrc:"A: There is a Caravaggio exhibition at the museum.\nB: Shall we go Saturday? I would like to see it.",
        funFact:"Italy hosts some of the world's most prestigious art events. The Venice Biennale (Biennale di Venezia) is the oldest international art exhibition, running since 1895. Italian museums charge modest fees compared to other countries, reflecting the belief that art belongs to everyone."},
+{type:"match",pairs:[{trg:"l'affresco",src:"the fresco"},{trg:"la scultura",src:"the sculpture"},{trg:"il capolavoro",src:"the masterpiece"},{trg:"la mostra",src:"the exhibition / show"}]},
 
       {type:"teach", trg:"la galleria", src:"the gallery", pos:"noun", gender:"f",
        note:"Feminine. From Medieval Latin 'galeria' (a long hall).\nAlso means 'tunnel' or 'shopping arcade.'",
@@ -143,6 +144,7 @@ const UNIT_22 = {
        example:"A: Che bella melodia!\nB: Si, non riesco a togliermela dalla testa.",
        exampleSrc:"A: What a beautiful melody!\nB: Yes, I cannot get it out of my head.",
        funFact:"Music terminology is overwhelmingly Italian because Italy dominated European music for centuries. Tempo, allegro, andante, forte, piano, crescendo, diminuendo, staccato, legato, a cappella are all Italian words used in every language by every musician worldwide."},
+{type:"match",pairs:[{trg:"il cantante",src:"the singer"},{trg:"il concerto",src:"the concert"},{trg:"lo strumento",src:"the instrument"},{trg:"la melodia",src:"the melody / tune"}]},
 
       {type:"teach", trg:"il compositore", src:"the composer", pos:"noun", gender:"m",
        note:"Masculine. Feminine: la compositrice. From 'comporre' (to compose).\n'Verdi e un grande compositore' = Verdi is a great composer.",
@@ -238,6 +240,7 @@ const UNIT_22 = {
        example:"A: Hai visto i film del festival di Venezia?\nB: Si, quest'anno c'erano film incredibili.",
        exampleSrc:"A: Did you see the films from the Venice festival?\nB: Yes, this year there were incredible films.",
        funFact:"The Venice Film Festival (Mostra del Cinema di Venezia), founded in 1932, is the oldest film festival in the world, predating Cannes by seven years. Its top prize, the Leone d'Oro (Golden Lion), is one of cinema's most coveted awards."},
+{type:"match",pairs:[{trg:"l'attore",src:"the actor"},{trg:"la colonna sonora",src:"the soundtrack / film score"},{trg:"il cortometraggio",src:"the short film"},{trg:"il festival",src:"the festival"}]},
 
       {type:"teach", trg:"girare", src:"to shoot (a film) / to turn", pos:"verb", gender:null,
        note:"Regular -are verb. 'Girare un film' = to shoot a film.\nAlso: 'girare a destra' = to turn right.",

@@ -49,6 +49,7 @@ const UNIT_31 = {
        example:"A: La fonte ha chiesto di restare anonima.\nB: Il giornalista deve proteggere le sue fonti.",
        exampleSrc:"A: The source asked to remain anonymous.\nB: The journalist must protect his sources.",
        funFact:"'Fonte' also means 'spring' or 'fountain.' The metaphor is perfect: a source of information flows like water from a spring. Italian journalism ethics require at least two independent sources before publishing sensitive claims."},
+{type:"match",pairs:[{trg:"l'inchiesta",src:"the investigation / investigative report"},{trg:"la censura",src:"the censorship"},{trg:"la disinformazione",src:"the disinformation"},{trg:"la fonte",src:"the source"}]},
 
       {type:"mc",
        q:"Come si chiama un articolo in cui il direttore esprime la sua opinione?",

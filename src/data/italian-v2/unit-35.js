@@ -48,6 +48,7 @@ const UNIT_35 = {
        example:"A: Sei sempre connesso alla rete?\nB: Ormai e impossibile vivere senza internet.",
        exampleSrc:"A: Are you always connected to the internet?\nB: By now it is impossible to live without the internet.",
        funFact:"Italian speakers use both 'la rete' (the net) and 'Internet' for the web. 'Navigare in rete' (to surf the net) uses the Italian naval metaphor, while 'andare online' borrows directly from English."},
+{type:"match",pairs:[{trg:"l'algoritmo",src:"the algorithm"},{trg:"l'automazione",src:"automation"},{trg:"i dati",src:"the data"},{trg:"la rete",src:"the network / the internet"}]},
 
       {type:"mc",
        q:"Quale sigla usano gli esperti per questo campo tecnologico?",
@@ -174,6 +175,7 @@ const UNIT_35 = {
        example:"A: La sostenibilita deve guidare ogni decisione aziendale.\nB: Non si puo piu ignorare l'impatto ambientale.",
        exampleSrc:"A: Sustainability must guide every business decision.\nB: Environmental impact can no longer be ignored.",
        funFact:"Italy is a leader in the circular economy within the EU, recycling more industrial waste than any other European country. 'Economia circolare' and 'sostenibilita' are buzzwords in Italian corporate communication."},
+{type:"match",pairs:[{trg:"l'imprenditore",src:"the entrepreneur"},{trg:"il finanziamento",src:"the funding / financing"},{trg:"lo smart working",src:"remote work / working from home"},{trg:"la sostenibilita",src:"sustainability"}]},
 
       {type:"mc",
        q:"Che cos'e lo 'smart working' in italiano?",

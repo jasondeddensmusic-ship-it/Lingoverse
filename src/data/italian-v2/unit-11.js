@@ -52,6 +52,7 @@ const UNIT_11 = {
        example:"A: I ragazzi hanno studiato?\nB: Si, hanno studiato tutta la sera.",
        exampleSrc:"A: Did the kids study?\nB: Yes, they studied all evening.",
        funFact:"All six forms of avere: ho, hai, ha, abbiamo, avete, hanno. The participle NEVER changes with avere (usually). 'Ho mangiato' whether you are male or female. This is simpler than French, where past participles sometimes agree with objects."},
+{type:"match",pairs:[{trg:"hai parlato",src:"you spoke / you have spoken"},{trg:"ha lavorato",src:"he/she worked"},{trg:"abbiamo comprato",src:"we bought / we have bought"},{trg:"hanno studiato",src:"they studied"}]},
 
       {type:"teach", trg:"avete dormito", src:"you (plural) slept", pos:"verb", gender:null,
        note:"Passato prossimo of 'dormire.' Avete (you all have) + dormito (slept).\n-ire > -ito pattern.",
@@ -141,6 +142,7 @@ const UNIT_11 = {
        example:"A: Hai scritto l'email?\nB: Si, l'ho scritta stamattina.",
        exampleSrc:"A: Did you write the email?\nB: Yes, I wrote it this morning.",
        funFact:"From Latin 'scriptum' (written). English 'script,' 'scripture,' 'prescription,' and 'manuscript' (hand-written) all come from the same root. Notice 'scritta' in the answer: when a direct object pronoun precedes avere, the participle can agree."},
+{type:"match",pairs:[{trg:"detto",src:"said / told (past participle)"},{trg:"visto",src:"seen (past participle)"},{trg:"preso",src:"taken (past participle)"},{trg:"scritto",src:"written (past participle)"}]},
 
       {type:"teach", trg:"letto", src:"read (past participle)", pos:"verb", gender:null,
        note:"Irregular past participle of 'leggere' (to read).\n'Ho letto' = I read (past). Same spelling as 'il letto' (the bed)!",
@@ -242,6 +244,7 @@ const UNIT_11 = {
        example:"A: Hai fatto colazione stamattina?\nB: Si, ho mangiato un cornetto.",
        exampleSrc:"A: Did you have breakfast this morning?\nB: Yes, I ate a cornetto.",
        funFact:"Italian creates time contractions by combining 'questa/o' with the time word: stamattina (questa mattina), stasera (questa sera), stanotte (questa notte). These contractions are used far more than the full forms in everyday speech."},
+{type:"match",pairs:[{trg:"la settimana scorsa",src:"last week"},{trg:"l'anno scorso",src:"last year"},{trg:"fa",src:"ago"},{trg:"stamattina",src:"this morning"}]},
 
       {type:"teach", trg:"gia", src:"already", pos:"adv", gender:null,
        note:"Placed between avere and the participle. 'Ho gia mangiato' = I have already eaten.\nFrom Latin 'iam' (already, now).",

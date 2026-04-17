@@ -48,6 +48,7 @@ const UNIT_02 = {
        example:"A: Quante dita hai su una mano?\nB: Cinque!",
        exampleSrc:"A: How many fingers do you have on one hand?\nB: Five!",
        funFact:"The Italian word for 500 is 'cinquecento,' which is also the name for the 1500s (the century of the Renaissance). The famous Fiat 500 car is also called 'Cinquecento.'"},
+{type:"match",pairs:[{trg:"due",src:"two"},{trg:"tre",src:"three"},{trg:"quattro",src:"four"},{trg:"cinque",src:"five"}]},
 
       {type:"teach", trg:"dieci", src:"ten", pos:"num", gender:null,
        note:"Base for teens: undici (11), dodici (12), tredici (13), etc.",
@@ -138,6 +139,7 @@ const UNIT_02 = {
        example:"A: Finalmente venerdi!\nB: Si! Che programmi hai per il weekend?",
        exampleSrc:"A: Finally Friday!\nB: Yes! What plans do you have for the weekend?",
        funFact:"Italians say 'TGIF' as 'finalmente venerdi!' or use the English phrase. The Italian work week traditionally runs Monday to Friday, but many shops close on Monday mornings instead."},
+{type:"match",pairs:[{trg:"martedi",src:"Tuesday"},{trg:"mercoledi",src:"Wednesday"},{trg:"giovedi",src:"Thursday"},{trg:"venerdi",src:"Friday"}]},
 
       {type:"teach", trg:"sabato", src:"Saturday", pos:"noun", gender:"m",
        note:"From Hebrew 'Shabbat' (rest day). Different origin from other days.",
@@ -168,6 +170,7 @@ const UNIT_02 = {
        example:"A: Com'era il tempo ieri?\nB: Ieri pioveva tutto il giorno.",
        exampleSrc:"A: How was the weather yesterday?\nB: Yesterday it rained all day.",
        funFact:"'L'altro ieri' means 'the day before yesterday.' Like dopodomani, Italian compresses what English needs a full phrase for."},
+{type:"match",pairs:[{trg:"domenica",src:"Sunday"},{trg:"oggi",src:"today"},{trg:"domani",src:"tomorrow"},{trg:"ieri",src:"yesterday"}]},
 
       // Quiz steps
       {type:"mc", q:"Quale giorno viene da Venere (Venus)?",

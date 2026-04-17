@@ -48,6 +48,7 @@ const UNIT_14 = {
        example:"A: Devo chiamare il commercialista per le tasse.\nB: Il mio commercialista e molto efficiente.",
        exampleSrc:"A: I need to call the accountant for taxes.\nB: My accountant is very efficient.",
        funFact:"The Italian 'commercialista' does much more than a typical accountant. They handle tax planning, business consulting, and often serve as financial advisors. Every Italian family and business relies on a commercialista for navigating the complex tax system."},
+{type:"match",pairs:[{trg:"l'ingegnere",src:"the engineer"},{trg:"l'architetto",src:"the architect"},{trg:"il giornalista",src:"the journalist"},{trg:"il commercialista",src:"the accountant"}]},
 
       {type:"teach", trg:"il medico", src:"the doctor", pos:"noun", gender:"m",
        note:"Masculine. Feminine: la medica (emerging) or 'la dottoressa.'\nFrom Latin 'medicus' (physician).",
@@ -154,6 +155,7 @@ const UNIT_14 = {
        example:"A: L'azienda ha licenziato venti persone.\nB: Che brutta notizia!",
        exampleSrc:"A: The company fired twenty people.\nB: What terrible news!",
        funFact:"Italian labor law makes firing employees quite difficult compared to Anglo-Saxon countries. The 'Statuto dei Lavoratori' (Workers' Statute) of 1970 provides strong protections. Wrongful dismissal can lead to reinstatement. This is why permanent contracts are so valued."},
+{type:"match",pairs:[{trg:"il colloquio",src:"the job interview"},{trg:"lo stipendio",src:"the salary"},{trg:"il contratto",src:"the contract"},{trg:"licenziare",src:"to fire / to dismiss"}]},
 
       {type:"teach", trg:"assumere", src:"to hire", pos:"verb", gender:null,
        note:"Irregular -ere verb. Past participle: assunto.\n'Essere assunto' = to be hired.",
@@ -255,6 +257,7 @@ const UNIT_14 = {
        example:"A: Come va la carriera?\nB: Bene! Ho appena avuto una promozione.",
        exampleSrc:"A: How is your career going?\nB: Well! I just got a promotion.",
        funFact:"The expression 'fare carriera' (to make a career) implies climbing the professional ladder. Italian career paths are often influenced by personal connections ('le conoscenze'). The concept of 'raccomandazione' (recommendation through connections) is deeply embedded in Italian professional culture."},
+{type:"match",pairs:[{trg:"la scadenza",src:"the deadline"},{trg:"il progetto",src:"the project"},{trg:"l'obiettivo",src:"the goal / objective"},{trg:"la carriera",src:"the career"}]},
 
       {type:"teach", trg:"la promozione", src:"the promotion", pos:"noun", gender:"f",
        note:"Feminine. From Latin 'promotio' (advancement).\n'Ricevere una promozione' = to get a promotion.",

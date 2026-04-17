@@ -48,6 +48,7 @@ const UNIT_16 = {
        example:"A: Il ricovero e durato una settimana.\nB: Meno male che adesso sta meglio.",
        exampleSrc:"A: The hospitalization lasted a week.\nB: Thank goodness he is better now.",
        funFact:"Italian public hospitals provide free hospitalization for citizens and residents. The rooms may be shared (2-4 beds), but medical care is the same quality. Private clinics ('cliniche private') offer single rooms and shorter wait times but at personal cost."},
+{type:"match",pairs:[{trg:"la diagnosi",src:"the diagnosis"},{trg:"la terapia",src:"the therapy / treatment"},{trg:"l'intervento",src:"the surgery / operation"},{trg:"il ricovero",src:"the hospitalization"}]},
 
       {type:"teach", trg:"il pronto soccorso", src:"the emergency room", pos:"noun", gender:"m",
        note:"Masculine. Literally 'ready aid.' The ER in Italian hospitals.\n'Andare al pronto soccorso' = to go to the ER.",
@@ -149,6 +150,7 @@ const UNIT_16 = {
        example:"A: Hai la febbre?\nB: Si, trentotto e cinque.",
        exampleSrc:"A: Do you have a fever?\nB: Yes, thirty-eight point five.",
        funFact:"Italy uses Celsius. Normal body temperature is 36.5-37 degrees. Anything above 37.5 is considered a fever. Italians say the temperature as a number: 'Ho trentotto e mezzo' (I have 38.5). Above 39 degrees is considered high and warrants medical attention."},
+{type:"match",pairs:[{trg:"la frattura",src:"the fracture / break"},{trg:"l'infezione",src:"the infection"},{trg:"l'infiammazione",src:"the inflammation"},{trg:"la febbre",src:"the fever"}]},
 
       {type:"teach", trg:"la ferita", src:"the wound / injury", pos:"noun", gender:"f",
        note:"Feminine. From 'ferire' (to wound, to injure).\n'Ferita superficiale' = superficial wound. 'Ferita profonda' = deep wound.",
@@ -250,6 +252,7 @@ const UNIT_16 = {
        example:"A: Il dottore mi ha prescritto degli antibiotici.\nB: Per quanti giorni devi prenderli?",
        exampleSrc:"A: The doctor prescribed me antibiotics.\nB: For how many days do you have to take them?",
        funFact:"'Prescrivere' has the same Latin root as English 'prescribe.' The past participle is irregular: 'prescritto.' In Italian law, 'prescrizione' also means 'statute of limitations' (when a legal case expires). This dual meaning sometimes confuses learners."},
+{type:"match",pairs:[{trg:"peggiorare",src:"to worsen / to get worse"},{trg:"migliorare",src:"to improve / to get better"},{trg:"operare",src:"to operate (surgery)"},{trg:"prescrivere",src:"to prescribe"}]},
 
       {type:"teach", trg:"curare", src:"to treat / to cure", pos:"verb", gender:null,
        note:"Regular -are verb. 'Curarsi' (reflexive) = to take care of oneself.\nFrom Latin 'curare' (to take care of).",

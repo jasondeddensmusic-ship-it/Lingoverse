@@ -48,6 +48,7 @@ const UNIT_04 = {
        example:"A: Una birra, per favore.\nB: Piccola o grande?",
        exampleSrc:"A: A beer, please.\nB: Small or large?",
        funFact:"Italy is not traditionally a beer country, but craft beer ('birra artigianale') has exploded since 2010. Italy now has over 800 microbreweries, many in regions famous for wine."},
+{type:"match",pairs:[{trg:"il cappuccino",src:"the cappuccino"},{trg:"il cornetto",src:"the croissant"},{trg:"l'acqua",src:"the water"},{trg:"la birra",src:"the beer"}]},
 
       {type:"teach", trg:"il vino", src:"the wine", pos:"noun", gender:"m",
        note:"Masculine. Vino rosso (red), vino bianco (white).\nFrom Latin 'vinum.'",

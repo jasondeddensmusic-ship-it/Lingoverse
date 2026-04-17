@@ -48,6 +48,7 @@ const UNIT_10 = {
        example:"A: Ha una prenotazione?\nB: Si, a nome Bianchi.",
        exampleSrc:"A: Do you have a reservation?\nB: Yes, under the name Bianchi.",
        funFact:"From 'pre-' (before) + 'notare' (to note). Literally 'pre-noting.' Italian hotels, restaurants, and trains all use this word. Online booking has made 'prenotazione online' one of the most common phrases in Italian travel."},
+{type:"match",pairs:[{trg:"la valigia",src:"the suitcase"},{trg:"il passaporto",src:"the passport"},{trg:"il biglietto",src:"the ticket"},{trg:"la prenotazione",src:"the reservation / booking"}]},
 
       {type:"teach", trg:"l'albergo", src:"the hotel", pos:"noun", gender:"m",
        note:"Masculine. From Germanic 'haribarig' (army lodging).\nSynonym: l'hotel (also used, masculine).",
@@ -149,6 +150,7 @@ const UNIT_10 = {
        example:"A: Ecco la chiave della camera.\nB: Grazie. A che piano e?",
        exampleSrc:"A: Here is the room key.\nB: Thanks. What floor is it on?",
        funFact:"From Latin 'clavis' (key), which also gave English 'clef' (music), 'clavicle' (collarbone, shaped like a small key), and 'conclave' (locked room, where popes are elected). Many Italian hotels now use electronic 'tessere' (cards) instead."},
+{type:"match",pairs:[{trg:"singola",src:"single (room)"},{trg:"doppia",src:"double (room)"},{trg:"la colazione",src:"the breakfast"},{trg:"la chiave",src:"the key"}]},
 
       {type:"teach", trg:"il piano", src:"the floor / level", pos:"noun", gender:"m",
        note:"Masculine. 'Primo piano' = first floor (UK) / second floor (US).\nGround floor = 'piano terra.'",
@@ -250,6 +252,7 @@ const UNIT_10 = {
        example:"A: C'e una coincidenza a Bologna?\nB: Si, devi cambiare treno.",
        exampleSrc:"A: Is there a connection at Bologna?\nB: Yes, you need to change trains.",
        funFact:"'Coincidenza' means both 'connection' (trains) and 'coincidence.' The double meaning exists because a connecting train 'coincides' with your arrival. Bologna is Italy's biggest rail hub, where many connections converge."},
+{type:"match",pairs:[{trg:"il volo",src:"the flight"},{trg:"il binario",src:"the platform / track"},{trg:"l'orario",src:"the timetable / schedule"},{trg:"la coincidenza",src:"the connection (transfer)"}]},
 
       {type:"teach", trg:"il ritardo", src:"the delay", pos:"noun", gender:"m",
        note:"Masculine. From Latin 'retardare' (to slow down).\n'In ritardo' = late/delayed. 'In orario' = on time.",

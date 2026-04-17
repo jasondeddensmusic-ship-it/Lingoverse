@@ -48,6 +48,7 @@ const UNIT_24 = {
        example:"A: Vengo alla festa, a meno che non piova.\nB: Spero che non piova!",
        exampleSrc:"A: I will come to the party, unless it rains.\nB: I hope it does not rain!",
        funFact:"'A meno che non' uses a strange 'expletive non' that does not negate anything. 'A meno che non piova' means 'unless it rains,' not 'unless it does not rain.' This redundant 'non' exists in several Italian constructions and confuses even native speakers. It is a remnant of Latin syntax."},
+{type:"match",pairs:[{trg:"se piove",src:"if it rains"},{trg:"se studi, impari",src:"if you study, you learn"},{trg:"se avrai tempo",src:"if you will have time / if you have time"},{trg:"a meno che",src:"unless"}]},
 
       {type:"teach", trg:"nel caso in cui", src:"in case / in the event that", pos:"conj", gender:null,
        note:"Conjunction. Followed by the subjunctive.\n'Nel caso in cui piova' = in case it rains.",
@@ -142,6 +143,7 @@ const UNIT_24 = {
        example:"A: Se avessi tempo, imparerei il giapponese.\nB: Se avessi soldi, andrei in Giappone!",
        exampleSrc:"A: If I had time, I would learn Japanese.\nB: If I had money, I would go to Japan!",
        funFact:"Type 2 if-clauses are inherently wistful. They express what you would do if reality were different. Italian conversation loves building chains: 'Se avessi tempo e soldi, viaggerei. Se viaggiassi, imparerei le lingue. Se parlassi le lingue...' Each condition opens a new fantasy."},
+{type:"match",pairs:[{trg:"se avessi",src:"if I had / if you had"},{trg:"se potessi",src:"if I could"},{trg:"se fossi in te",src:"if I were you"},{trg:"se avessi tempo",src:"if I had time"}]},
 
       {type:"teach", trg:"sarebbe", src:"he/she/it would be", pos:"verb", gender:null,
        note:"Conditional of 'essere,' third person singular.\nUsed in the main clause of Type 2 if-clauses.",
@@ -249,6 +251,7 @@ const UNIT_24 = {
        example:"A: Ti aiuto, a patto che tu mi aiuti domani.\nB: D'accordo, e un patto giusto.",
        exampleSrc:"A: I will help you, on the condition that you help me tomorrow.\nB: Agreed, it is a fair deal.",
        funFact:"'A patto che' literally means 'at the pact that.' It sets a firm condition for cooperation. Like 'a meno che,' it always takes the subjunctive because the condition might not be met. In business Italian, 'a patto che' is used in negotiations and contracts."},
+{type:"match",pairs:[{trg:"se solo",src:"if only"},{trg:"nel caso",src:"in case / just in case"},{trg:"supponiamo che",src:"let us suppose that"},{trg:"a patto che",src:"on condition that / provided that"}]},
 
       {type:"teach", trg:"come se", src:"as if / as though", pos:"conj", gender:null,
        note:"Conjunction. 'Come se' + imperfect subjunctive.\n'Parla come se sapesse tutto' = He talks as if he knew everything.",

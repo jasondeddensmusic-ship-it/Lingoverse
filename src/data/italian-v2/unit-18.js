@@ -48,6 +48,7 @@ const UNIT_18 = {
        example:"A: L'Italia investe nell'energia rinnovabile?\nB: Si, soprattutto nel solare e nell'eolico.",
        exampleSrc:"A: Is Italy investing in renewable energy?\nB: Yes, especially in solar and wind.",
        funFact:"Italy is a European leader in solar energy, thanks to its geography and abundant sunshine. Southern Italy and Sicily have some of the highest solar potential in Europe. Geothermal energy ('energia geotermica') has been produced in Tuscany since 1904, making it the oldest geothermal power site in the world."},
+{type:"match",pairs:[{trg:"l'inquinamento",src:"the pollution"},{trg:"il riciclaggio",src:"the recycling"},{trg:"i rifiuti",src:"the waste / rubbish"},{trg:"l'energia rinnovabile",src:"renewable energy"}]},
 
       {type:"teach", trg:"sostenibile", src:"sustainable", pos:"adj", gender:null,
        note:"Adjective. Same form for masculine and feminine (-e ending).\n'Sviluppo sostenibile' = sustainable development.",
@@ -149,6 +150,7 @@ const UNIT_18 = {
        example:"A: La siccita sta distruggendo i raccolti.\nB: Non piove da tre mesi.",
        exampleSrc:"A: The drought is destroying the crops.\nB: It has not rained for three months.",
        funFact:"Italy's Po River, the country's longest, has experienced severe droughts in recent years, threatening agriculture in the Po Valley (Italy's breadbasket). Rice production, for which Italy is Europe's largest producer, is particularly affected. 'Siccita' is invariable: la siccita, le siccita."},
+{type:"match",pairs:[{trg:"l'effetto serra",src:"the greenhouse effect"},{trg:"le emissioni",src:"the emissions"},{trg:"la temperatura",src:"the temperature"},{trg:"la siccita",src:"the drought"}]},
 
       {type:"teach", trg:"lo scioglimento", src:"the melting", pos:"noun", gender:"m",
        note:"Masculine. From 'sciogliere' (to melt, to dissolve).\n'Lo scioglimento dei ghiacciai' = melting of glaciers.",
@@ -250,6 +252,7 @@ const UNIT_18 = {
        example:"A: Avete installato i pannelli solari?\nB: Si, risparmiamo molto sulla bolletta.",
        exampleSrc:"A: Did you install solar panels?\nB: Yes, we save a lot on the electricity bill.",
        funFact:"Italy was an early adopter of solar energy in Europe. The 'Conto Energia' incentive program (2005-2013) made Italy one of the world's largest solar markets. Southern Italy receives about 2,000 hours of sunshine per year, making solar panels highly efficient."},
+{type:"match",pairs:[{trg:"risparmiare",src:"to save (conserve/economize)"},{trg:"sensibilizzare",src:"to raise awareness"},{trg:"lo spreco",src:"the waste (act of wasting)"},{trg:"il pannello solare",src:"the solar panel"}]},
 
       {type:"teach", trg:"la raccolta differenziata", src:"sorted waste collection", pos:"noun", gender:"f",
        note:"Feminine. 'Raccolta' = collection. 'Differenziata' = sorted/differentiated.\nItaly's standard recycling system.",

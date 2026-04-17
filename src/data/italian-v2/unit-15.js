@@ -48,6 +48,7 @@ const UNIT_15 = {
        example:"A: Avete comprato casa?\nB: Si, abbiamo acceso un mutuo di trent'anni.",
        exampleSrc:"A: Did you buy a house?\nB: Yes, we took out a thirty-year mortgage.",
        funFact:"Home ownership in Italy is high: about 73% of Italians own their home. The expression 'accendere un mutuo' (literally 'to light a mortgage') reflects the idea of starting something that will burn for a long time. Italian mortgages can last up to 40 years."},
+{type:"match",pairs:[{trg:"il monolocale",src:"the studio apartment"},{trg:"il bilocale",src:"the one-bedroom apartment"},{trg:"l'affitto",src:"the rent"},{trg:"il mutuo",src:"the mortgage"}]},
 
       {type:"teach", trg:"il proprietario", src:"the landlord / owner", pos:"noun", gender:"m",
        note:"Masculine. Feminine: la proprietaria.\nFrom 'proprieta' (property). Also simply 'il padrone di casa.'",
@@ -149,6 +150,7 @@ const UNIT_15 = {
        example:"A: Il pavimento e in legno?\nB: Si, parquet in tutta la casa.",
        exampleSrc:"A: Is the floor wooden?\nB: Yes, parquet throughout the house.",
        funFact:"Italian homes traditionally favor tile ('piastrelle') or marble ('marmo') floors over carpet. Central and northern Italy prefer 'cotto' (terracotta tiles), while marble is common in the south. Wall-to-wall carpeting is extremely rare in Italian homes."},
+{type:"match",pairs:[{trg:"i mobili",src:"the furniture"},{trg:"gli elettrodomestici",src:"the household appliances"},{trg:"il riscaldamento",src:"the heating"},{trg:"il pavimento",src:"the floor"}]},
 
       {type:"teach", trg:"il balcone", src:"the balcony", pos:"noun", gender:"m",
        note:"Masculine. Plural: i balconi. From Germanic 'balko' (beam).\nLarger version: la terrazza (terrace).",
@@ -250,6 +252,7 @@ const UNIT_15 = {
        example:"A: Come sono i tuoi coinquilini?\nB: Simpatici, ma un po' disordinati.",
        exampleSrc:"A: How are your roommates?\nB: Nice, but a bit messy.",
        funFact:"Finding a good 'coinquilino' is a major life event for Italian students. University cities like Bologna, Padova, and Firenze have active online communities and bulletin boards for apartment sharing. Compatibility interviews are common before moving in."},
+{type:"match",pairs:[{trg:"affittare",src:"to rent (out/from)"},{trg:"ristrutturare",src:"to renovate / to remodel"},{trg:"condividere",src:"to share"},{trg:"il coinquilino",src:"the roommate / flatmate"}]},
 
       {type:"teach", trg:"il trasloco", src:"the move (relocation)", pos:"noun", gender:"m",
        note:"Masculine. 'Fare il trasloco' = to move (physically relocate).\nFrom 'traslocare' (to relocate).",

@@ -48,6 +48,7 @@ const UNIT_33 = {
        example:"A: La coscienza ci distingue dagli animali.\nB: Almeno, cosi credevano i filosofi antichi.",
        exampleSrc:"A: Consciousness distinguishes us from animals.\nB: At least, that is what the ancient philosophers believed.",
        funFact:"Italian uses one word for both 'consciousness' (awareness) and 'conscience' (moral sense), while English splits them. This ambiguity reflects centuries of debate about whether morality is inherent in awareness itself."},
+{type:"match",pairs:[{trg:"il concetto",src:"the concept / idea"},{trg:"l'etica",src:"ethics / moral philosophy"},{trg:"la ragione",src:"reason / rational thought"},{trg:"la coscienza",src:"consciousness / conscience"}]},
 
       {type:"mc",
        q:"Quale disciplina studia il bene e il male, il giusto e l'ingiusto?",
@@ -179,6 +180,7 @@ const UNIT_33 = {
        example:"A: Il relativismo sostiene che non esistono verita assolute.\nB: Ma allora come possiamo giudicare il bene e il male?",
        exampleSrc:"A: Relativism holds that absolute truths do not exist.\nB: But then how can we judge good and evil?",
        funFact:"The debate between relativismo and universalismo (universalism) is deeply felt in Italian intellectual life. Pope Benedict XVI famously warned against 'la dittatura del relativismo' (the dictatorship of relativism) in 2005."},
+{type:"match",pairs:[{trg:"la corrente",src:"the current / movement (intellectual)"},{trg:"l'illuminismo",src:"the Enlightenment"},{trg:"l'umanesimo",src:"humanism"},{trg:"il relativismo",src:"relativism"}]},
 
       {type:"mc",
        q:"Quale movimento filosofico ha messo l'essere umano al centro della cultura nel Rinascimento?",

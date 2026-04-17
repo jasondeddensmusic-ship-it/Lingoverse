@@ -48,6 +48,7 @@ const UNIT_23 = {
        example:"A: Chi e il candidato migliore?\nB: Dipende dalle tue priorita.",
        exampleSrc:"A: Who is the best candidate?\nB: It depends on your priorities.",
        funFact:"'Candidato' comes from Latin 'candidus' (white, bright). Roman candidates for office wore bright white togas to stand out in crowds. The word traveled through Italian into English and many other languages, preserving this ancient Roman political tradition."},
+{type:"match",pairs:[{trg:"il parlamento",src:"the parliament"},{trg:"l'elezione",src:"the election"},{trg:"il partito",src:"the (political) party"},{trg:"il candidato",src:"the candidate"}]},
 
       {type:"teach", trg:"la legge", src:"the law", pos:"noun", gender:"f",
        note:"Feminine. From Latin 'lex, legis' (law).\n'Approvare una legge' = to pass a law.",
@@ -143,6 +144,7 @@ const UNIT_23 = {
        example:"A: L'immigrazione e un tema importante in Italia.\nB: Si, ne parlano ogni giorno al telegiornale.",
        exampleSrc:"A: Immigration is an important topic in Italy.\nB: Yes, they talk about it every day on the news.",
        funFact:"Italy went from being a country of emigration (millions left for America and Argentina in the 1800s-1900s) to a country of immigration. This shift happened mainly after 1990. Italian words like 'extracomunitario' (non-EU citizen) and 'permesso di soggiorno' (residence permit) appear frequently in public debate."},
+{type:"match",pairs:[{trg:"il diritto",src:"the right / law (as a field)"},{trg:"il dovere",src:"the duty / obligation"},{trg:"l'uguaglianza",src:"the equality"},{trg:"l'immigrazione",src:"the immigration"}]},
 
       {type:"teach", trg:"la liberta", src:"the freedom / liberty", pos:"noun", gender:"f",
        note:"Feminine. Invariable: le liberta. From Latin 'libertas.'\n'Liberta di parola' = freedom of speech.",
@@ -238,6 +240,7 @@ const UNIT_23 = {
        example:"A: La stampa ha un ruolo importante nella democrazia.\nB: Senza dubbio. Informa i cittadini.",
        exampleSrc:"A: The press has an important role in democracy.\nB: Without a doubt. It informs the citizens.",
        funFact:"'La Stampa' is also the name of one of Italy's oldest and most respected newspapers, based in Turin since 1867. Italy's press freedom ranking has fluctuated over the years. The concentration of media ownership (particularly when a media mogul served as Prime Minister) sparked long debates about press independence."},
+{type:"match",pairs:[{trg:"il giornalista",src:"the journalist"},{trg:"l'intervista",src:"the interview"},{trg:"l'opinione pubblica",src:"the public opinion"},{trg:"la stampa",src:"the press / printing"}]},
 
       {type:"teach", trg:"il sondaggio", src:"the poll / survey", pos:"noun", gender:"m",
        note:"Masculine. From French 'sondage.' 'Sondaggio d'opinione' = opinion poll.\n'Secondo i sondaggi' = according to the polls.",
