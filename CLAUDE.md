@@ -311,10 +311,12 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Spanish | v2 | 92 | 5,124 | 53 entries | COMPLETE. 100% of German. |
 | Italian | v2 | 36 | 5,013 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. |
 | Japanese | v2 | 36 | 4,978 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, Foundations lock, notation tutorial, CEFR ref wired. |
-| Chinese | v2 | 45 | ~700+ | 53 entries | **NEW (2026-04-17).** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8 0/0, PP48 0/0. Foundations (pinyin, tones, radicals). Grammar HSK-aligned. Batch density pending. |
+| Chinese | v2 | 45 | 719 | 53 entries | **NEW (2026-04-17).** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8 0/0, PP48 0/0. |
+| Portuguese | v2 | 36 | 649+ | 50 entries | **NEW (2026-04-17).** Brazilian primary, EU notes. CEFR A1-B2. Nasal vowels, ser/estar, personal infinitive. PP8 0/0, PP48 0/0. |
+| Russian | v2 | 36 | ~50 (U1-2 done) | 2 entries (placeholder) | **NEW (2026-04-17).** Cyrillic, 6 cases, aspect pairs, TRKI framework. U1 (greetings), U2 (numbers/age) complete. U3-36 stubs. |
 
-**Grand total: ~31,200+ teach cards across 8 languages. Build passes.**
-**Grammar modules: 418 entries across 8 languages (Chinese 53, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch mock).**
+**Grand total: ~32,600+ teach cards across 10 languages. Build passes.**
+**Grammar modules: 470 entries across 10 languages (Chinese 53, Portuguese 50, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch mock, Russian 2 placeholder).**
 
 ### Build History (compact)
 
