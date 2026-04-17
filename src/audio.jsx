@@ -4,7 +4,7 @@ import React, { useState } from "react";
 // FEATURE FLAGS
 // ══════════════════════════════════════════════════════════════════
 const AUDIO_ENABLED = false; // Gate all audio playback. Set true when TTS is ready.
-const FOUNDATIONS_LOCK_ENABLED = false; // Gate unit locking behind Foundations. Set true to enforce. Manifesto P13.
+const FOUNDATIONS_LOCK_ENABLED = true; // Gate unit locking behind Foundations. Set true to enforce. Manifesto P13.
 let UI_SOUNDS_ENABLED = true; // Gate UI sound effects (clicks, chimes, confetti). Separate from TTS.
 try { const v = localStorage.getItem("vl_ui_sounds"); if (v !== null) UI_SOUNDS_ENABLED = v !== "false"; } catch(e) {}
 
