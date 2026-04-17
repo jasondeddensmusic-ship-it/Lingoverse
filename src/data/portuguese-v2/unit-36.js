@@ -219,6 +219,11 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
  opts:["goodbye","welcome","congratulations","sorry"],
  ans:"congratulations",
  hint:"A celebration word. You deserve this one right now."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"pronunciar", src:"to pronounce"},
+  {trg:"conversar", src:"to converse / to chat"}
+]}]}
 
 ]}; export default UNIT_36;

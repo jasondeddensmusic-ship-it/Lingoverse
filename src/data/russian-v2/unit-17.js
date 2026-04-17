@@ -155,7 +155,16 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
   {trg:"о матери", src:"about mother"},
   {trg:"в здании", src:"in the building"}
 ]}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"в магазине", src:"at the shop"},
+  {trg:"музей → музее", src:"museum → in museum (m)"},
+  {trg:"комната → комнате", src:"room → in room (f)"},
+  {trg:"площадь → площади", src:"square → on square (f)"},
+  {trg:"окно → окне", src:"window → at window (n)"},
+  {trg:"здание → здании", src:"building → in building (n)"}
+]}]}
 
 ]};
 export default UNIT_17;

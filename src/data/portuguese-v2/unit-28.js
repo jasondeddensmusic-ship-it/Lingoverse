@@ -255,10 +255,10 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
   text:"Wellness (bem-estar) as a formal concept arrived in Brazil around 2010 through yoga studios, corporate programs, and Instagram. Previously, 'estar bem' (feeling good) was enough. Today, 'bem-estar' carries holistic weight: mental health, physical fitness, nutrition, relationships, financial peace. The phrase 'busca pelo bem-estar' (pursuit of wellbeing) is now cliché in self-help books. B2 learners should know both the word and the cultural moment it represents."}},
 
 {type:"mc",
- q:"How is 'bem-estar' written?",
+ q:"How is the word for 'wellbeing' written?",
  opts:["bemestar","bem estar","bem-estar","bem'estar"],
  ans:"bem-estar",
- hint:"Compound noun kept together by a specific punctuation mark."},
+ hint:"Compound noun kept together by a hyphen in modern Portuguese."},
 
 {type:"mc",
  q:"Which word means 'rest'?",

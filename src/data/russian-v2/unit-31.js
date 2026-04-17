@@ -79,7 +79,15 @@ const UNIT_31 = {n:31, lang:"ru", srcLang:"en", track:"v2", title:"Истори�
   {trg:"император", src:"emperor"},
   {trg:"СССР", src:"USSR"}
 ]}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"правительство", src:"government"}
+]},
+
+{type:"match", pairs:[
+  {trg:"мир", src:"peace / world"}
+]}]}
 
 ]};
 export default UNIT_31;

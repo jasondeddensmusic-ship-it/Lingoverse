@@ -198,6 +198,11 @@ const UNIT_31 = {n:31, lang:"pt", srcLang:"en", track:"v2", title:"História e p
  {trg:"república", src:"republic"},
  {trg:"abolição", src:"abolition"}
 ]}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"independência", src:"independence"},
+  {trg:"escravidão", src:"slavery"}
+]}]}
 
 ]}; export default UNIT_31;

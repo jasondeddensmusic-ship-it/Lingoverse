@@ -161,7 +161,11 @@ const UNIT_24 = {n:24, lang:"ru", srcLang:"en", track:"v2", title:"Глагол�
   {trg:"выйти", src:"to exit"},
   {trg:"войти", src:"to enter"}
 ]}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"летать", src:"to fly (habitual)"}
+]}]}
 
 ]};
 export default UNIT_24;

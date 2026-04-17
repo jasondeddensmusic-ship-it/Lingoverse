@@ -56,7 +56,14 @@ const UNIT_22 = {
         {type:"fb", s:"Me passa a caneta, {1} favor.", a:"por", sSrc:"Pass me the pen, {1} favor.", opts:["por","de","com","em"], hint:"The most common politeness marker in Portuguese."},
         {type:"mc", q:"Most polite way to say 'wait a moment'?", opts:["Espera!","Espera aí!","Espera um momento, por favor.","Esperar!"], ans:"Espera um momento, por favor.", hint:"Full phrase with softener."},
         {type:"match", pairs:[{trg:"por favor", src:"please"},{trg:"dá pra", src:"could you"},{trg:"será que", src:"I wonder if"},{trg:"me faz um favor?", src:"do me a favor?"}]},
-        {type:"tip", title:"Command Softening Toolkit", text:"Brazilians rarely use bare imperatives with strangers. Stack softeners:\n1. Frame as question: Dá pra fechar a porta?\n2. Add por favor.\n3. Use será que...\n4. Add terms of endearment: meu amor, querida, moço(a).\n5. Use conditional forms: poderia, gostaria.\nCombine them: Será que poderia fechar a porta, por favor?", deepDive:"Brazilians interpret unsoftened imperatives as rude or bossy. A boss telling staff 'Traga o café!' (Bring the coffee!) sounds harsh. The normal version would be Você poderia trazer o café, por favor?"}
+        {type:"tip", title:"Command Softening Toolkit", text:"Brazilians rarely use bare imperatives with strangers. Stack softeners:\n1. Frame as question: Dá pra fechar a porta?\n2. Add por favor.\n3. Use será que...\n4. Add terms of endearment: meu amor, querida, moço(a).\n5. Use conditional forms: poderia, gostaria.\nCombine them: Será que poderia fechar a porta, por favor?", deepDive:"Brazilians interpret unsoftened imperatives as rude or bossy. A boss telling staff 'Traga o café!' (Bring the coffee!) sounds harsh. The normal version would be Você poderia trazer o café, por favor?"},
+{type:"match", pairs:[
+  {trg:"escuta!", src:"listen! (tu)"},
+  {trg:"não deixe!", src:"don"},
+  {trg:"calma!", src:"stay calm! / easy!"},
+  {trg:"faz favor", src:"please (soft form)"},
+  {trg:"meu amor", src:"my love / dear"}
+]}
       ]
     }
   ]

@@ -191,6 +191,12 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
  funFact:"Diga appears in headlines: 'Diga sim' (Say yes), 'Diga não' (Say no). Imperative and subjunctive share the form."},
 
 {type:"mc", q:"'Talvez ele esteja certo' uses the subjunctive because:", opts:["Talvez expresses uncertainty","Ele is singular","Certo is an adjective","It is a question"], ans:"Talvez expresses uncertainty", hint:"___ is a trigger for the subjunctive. ___ demands it."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"saiba", src:"know (subjunctive of saber)"},
+  {trg:"é preciso que", src:"it is necessary that"},
+  {trg:"peço que", src:"I ask / request that"}
+]}]}
 
 ]}; export default UNIT_16;

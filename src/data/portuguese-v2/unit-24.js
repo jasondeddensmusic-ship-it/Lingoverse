@@ -59,7 +59,18 @@ const UNIT_24 = {
         {type:"match", pairs:[{trg:"ônibus", src:"bus (BR)"},{trg:"autocarro", src:"bus (PT)"},{trg:"celular", src:"cell phone (BR)"},{trg:"trem", src:"train (BR)"}]},
         {type:"tip", title:"Main BR vs PT Differences", text:"GRAMMAR:\n- BR uses você for 'you', PT uses tu.\n- BR puts pronouns BEFORE verbs (me diz), PT after (diz-me).\n- BR uses the gerund (estou falando), PT uses estar a + infinitive (estou a falar).\nVOCABULARY:\n- bus: ônibus / autocarro\n- ice cream: sorvete / gelado\n- cell phone: celular / telemóvel\n- cup: xícara / chávena\nPRONUNCIATION:\n- BR pronounces all vowels clearly.\n- PT swallows unstressed vowels.\n- BR 'ti' sounds like 'chi', PT keeps hard 'ti'.", deepDive:"Brazilians and Portuguese understand each other, but with effort. Many Brazilians find Portuguese accents harder to follow than the reverse, because PT pronunciation reduces vowels more aggressively."},
         {type:"mc", q:"BR 'estou falando' in PT is:", opts:["estou falar","estou a falar","falo","falando"], ans:"estou a falar", hint:"Portugal uses estar a + infinitive for progressive."},
-        {type:"teach", trg:"sotaque", src:"accent", pos:"noun", gender:"m", note:"Word for accent, pronunciation style. Used a lot when comparing BR vs PT.", example:"A: Adoro o sotaque português.\nB: O brasileiro também é lindo.", exampleSrc:"A: I love the Portuguese accent.\nB: The Brazilian one is beautiful too.", funFact:"There's no single Brazilian or Portuguese accent. Brazil alone has around 16 distinct regional accents."}
+        {type:"teach", trg:"sotaque", src:"accent", pos:"noun", gender:"m", note:"Word for accent, pronunciation style. Used a lot when comparing BR vs PT.", example:"A: Adoro o sotaque português.\nB: O brasileiro também é lindo.", exampleSrc:"A: I love the Portuguese accent.\nB: The Brazilian one is beautiful too.", funFact:"There's no single Brazilian or Portuguese accent. Brazil alone has around 16 distinct regional accents."},
+{type:"match", pairs:[
+  {trg:"São Tomé e Príncipe", src:"São Tomé and Príncipe"},
+  {trg:"Macau", src:"Macau"},
+  {trg:"capoeira", src:"Afro-Brazilian martial art / dance"},
+  {trg:"feijoada", src:"black bean and pork stew"},
+  {trg:"lusófono", src:"Portuguese-speaking"},
+  {trg:"você", src:"you (BR casual)"}
+]},
+{type:"match", pairs:[
+  {trg:"sotaque", src:"accent"}
+]}
       ]
     }
   ]

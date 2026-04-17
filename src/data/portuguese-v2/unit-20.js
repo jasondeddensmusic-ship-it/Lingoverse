@@ -264,6 +264,12 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
  blanks:{"1":"passares","2":"estudares"},
  pool:["passares","estudares","passarmos","estudarmos"],
  hint:"Both blanks share the subject 'tu'. Use the -es ending twice."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"é melhor", src:"it is better"},
+  {trg:"é difícil", src:"it is difficult"},
+  {trg:"convém", src:"it is advisable"}
+]}]}
 
 ]}; export default UNIT_20;

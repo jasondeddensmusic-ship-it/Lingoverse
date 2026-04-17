@@ -239,6 +239,12 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
  opts:["weather","climate","season","storm"],
  ans:"season",
  hint:"This word refers to a period of the year, not the current conditions."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"o tempo", src:"the weather"},
+  {trg:"o clima", src:"the climate"},
+  {trg:"a estação", src:"the season"}
+]}]}
 
 ]}; export default UNIT_07;

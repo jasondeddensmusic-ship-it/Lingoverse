@@ -267,6 +267,10 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  opts:["before","afterwards","never","always"],
  ans:"afterwards",
  hint:"A sequencing word pointing to what comes later."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"a viagem", src:"the trip"}
+]}]}
 
 ]}; export default UNIT_12;

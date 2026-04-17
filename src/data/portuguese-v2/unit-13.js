@@ -281,6 +281,13 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
  funFact:"Portuguese says 'no ano passado' with the article no. Unlike English, the year is always 'the' in Portuguese time phrases."},
 
 {type:"mc", q:"'Vocês já foram ao Brasil?' is asking:", opts:["Have you all ever been to Brazil?","Are you going to Brazil?","Will you go to Brazil?","Do you go to Brazil?"], ans:"Have you all ever been to Brazil?", hint:"Já + preterite often translates as 'have ___' in English."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"a semana passada", src:"last week"},
+  {trg:"fiz", src:"I did / I made"},
+  {trg:"teve", src:"you / he / she had"},
+  {trg:"no ano passado", src:"last year"}
+]}]}
 
 ]}; export default UNIT_13;

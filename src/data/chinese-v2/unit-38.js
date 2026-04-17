@@ -205,7 +205,14 @@ lessons:[
  trg:"周末(zhōumò)早上(zǎoshang)，妈妈(māma)打扫(dǎsǎo)客厅(kètīng)，爸爸(bàba)整理(zhěnglǐ)书(shū)房(fáng)。小(xiǎo)明(Míng)打开(dǎkāi)窗户(chuānghu)，让(ràng)新鲜(xīnxiān)的(de)空气(kōngqì)进来(jìnlái)。家里(jiālǐ)又(yòu)干净(gānjìng)又(yòu)温暖(wēnnuǎn)。",
  src:"On Saturday morning, Mom cleans the living room while Dad tidies the study. Xiao Ming opens the windows to let fresh air in. The home is both clean and warm."}
 
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"电视(diànshì)", src:"television / TV"},
+  {trg:"冰箱(bīngxiāng)", src:"refrigerator / fridge"},
+  {trg:"关(guān)", src:"to close / to turn off"},
+  {trg:"开(kāi)", src:"to open / to turn on"}
+]}]}
 
 ]};
 

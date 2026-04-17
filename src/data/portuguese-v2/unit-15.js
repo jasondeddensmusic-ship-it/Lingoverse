@@ -272,6 +272,12 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 {type:"fb", s:"{1} possível falar com o gerente?", a:["Seria"], opts:["Seria","Era","Foi","É"], hint:"Polite hypothetical question: 'Would it be possible?'", sSrc:"{1} it be possible to speak with the manager?"},
 
 {type:"mc", q:"'Ela gostaria de dançar com você' means:", opts:["She liked to dance with you","She would like to dance with you","She likes dancing with you","She will dance with you"], ans:"She would like to dance with you", hint:"Gostaria is the polite 'would like'. Conditional mood."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"falarei", src:"I will speak"},
+  {trg:"direi", src:"I will say"},
+  {trg:"diria", src:"I / you / he / she would say"}
+]}]}
 
 ]}; export default UNIT_15;

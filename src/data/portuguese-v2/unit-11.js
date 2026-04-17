@@ -267,6 +267,10 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
  opts:["jogar","tocar","correr","ler"],
  ans:"tocar",
  hint:"Instruments require the touch/play verb, not the sports verb."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"assistir", src:"to watch"}
+]}]}
 
 ]}; export default UNIT_11;

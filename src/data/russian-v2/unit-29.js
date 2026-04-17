@@ -84,7 +84,13 @@ const UNIT_29 = {n:29, lang:"ru", srcLang:"en", track:"v2", title:"СМИ и н�
   {trg:"журналист", src:"journalist"},
   {trg:"мнение", src:"opinion"}
 ]}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"телевизор", src:"TV (device)"},
+  {trg:"интернет", src:"internet"},
+  {trg:"сообщение", src:"message / report"}
+]}]}
 
 ]};
 export default UNIT_29;

@@ -250,6 +250,10 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  opts:["bakery","shoe store","butcher","bookstore"],
  ans:"shoe store",
  hint:"This noun refers to footwear."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"o mercado", src:"the market"}
+]}]}
 
 ]}; export default UNIT_08;

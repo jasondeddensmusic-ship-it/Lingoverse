@@ -78,7 +78,15 @@ const UNIT_25 = {n:25, lang:"ru", srcLang:"en", track:"v2", title:"Общест�
   {trg:"право", src:"right/law"},
   {trg:"ответственность", src:"responsibility"}
 ]}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"равенство", src:"equality"}
+]},
+
+{type:"match", pairs:[
+  {trg:"проблема", src:"problem / issue"}
+]}]}
 
 ]};
 export default UNIT_25;

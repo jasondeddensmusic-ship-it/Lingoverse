@@ -249,7 +249,10 @@ const UNIT_05 = {
         {type: "fb", s: "Ele {1} bebe suco à tarde.", a: "sempre",
           sSrc: "He always drinks juice in the afternoon.",
           opts: ["sempre", "nunca", "cedo", "hoje"],
-          hint: "Every afternoon, without fail."}
+          hint: "Every afternoon, without fail."},
+{type:"match", pairs:[
+  {trg:"quanto", src:"how much"}
+]}
       ]
     }
   ]

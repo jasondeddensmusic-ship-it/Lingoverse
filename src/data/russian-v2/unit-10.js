@@ -250,11 +250,11 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
  ans:"All of the above",
  hint:"Short form adjective 'занят' is flexible in position. Short forms for temporary states."},
 
-{type:"fb", s:"A: Когда у тебя обед?\nB: В {1} часа, на час.",
+{type:"fb", s:"A: Когда у тебя обед?\nB: В {1} дня.",
  a:["час"],
  opts:["час","один","один час","три"],
- hint:"Lunch time using the special 'час' (alone) for '1 o'clock.'",
- sSrc:"A: When's your lunch?\nB: At 1 o'clock, for one hour."},
+ hint:"For 1 o'clock, Russian uses a special shortened form instead of 'один час.'",
+ sSrc:"A: When's your lunch?\nB: At 1 PM."},
 
 {type:"fb", s:"A: Ты будешь на {1}?\nB: Да, приду в три часа.",
  a:["встрече"],
@@ -269,7 +269,21 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
   {trg:"обед", src:"lunch"},
   {trg:"встреча", src:"meeting"}
 ]}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"офис", src:"office"},
+  {trg:"зарабатывать", src:"to earn"},
+  {trg:"редко", src:"rarely"},
+  {trg:"устал", src:"tired (m past)"},
+  {trg:"свободен", src:"free / available (m)"},
+  {trg:"опоздать", src:"to be late (perfective)"}
+]},
+
+{type:"match", pairs:[
+  {trg:"студент", src:"student (male)"},
+  {trg:"студентка", src:"student (female)"}
+]}]}
 
 ]};
 export default UNIT_10;

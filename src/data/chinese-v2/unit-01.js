@@ -78,11 +78,11 @@ lessons:[
  ans:"Different characters in writing",
  hint:"The pronunciation is identical. The distinction only exists in one form of the language."},
 
-{type:"fb", s:"A: {1}！\nB: 你好(nǐhǎo)！",
+{type:"fb", s:"A: {1}！\nB: Hello back! How are you?",
  a:["你好(nǐhǎo)"],
  opts:["你好(nǐhǎo)","再见(zàijiàn)","谢谢(xièxie)","好(hǎo)"],
- hint:"Person B responds with the same greeting. What did person A say first?",
- sSrc:"A: {1}!\nB: Hello!"},
+ hint:"The most common informal Chinese greeting — B greets back in English for clarity.",
+ sSrc:"A: {1}!\nB: Hello back! How are you?"},
 
 {type:"mc", q:"你好(nǐhǎo) can be used:",
  opts:["Only in the morning","Only in the afternoon","Only in the evening","Any time of day"],
@@ -266,11 +266,11 @@ lessons:[
  ans:"你(nǐ)叫(jiào)什么(shénme)名字(míngzi)？",
  hint:"This question uses the verb for 'to be called' plus the question word for 'what' plus the word for 'name.'"},
 
-{type:"fb", s:"我(wǒ){1}李明(Lǐ Míng)。你(nǐ)叫(jiào)什么(shénme)名字(míngzi)？",
+{type:"fb", s:"我(wǒ){1}李明(Lǐ Míng)。",
  a:["叫(jiào)"],
  opts:["叫(jiào)","是(shì)","好(hǎo)","不(bù)"],
  hint:"Which verb means 'to be called' and introduces a personal name?",
- sSrc:"My name is Li Ming. What is your name?"},
+ sSrc:"My name is Li Ming. (literally: I am-called Li Ming)"},
 
 {type:"match", pairs:[
   {trg:"你好(nǐhǎo)", src:"hello"},

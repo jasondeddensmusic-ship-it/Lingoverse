@@ -56,7 +56,11 @@ const UNIT_21 = {
         {type:"mc", q:"Translate: 'Would it be possible to pay by card?'", opts:["É possível pagar com cartão?","Seria possível pagar com cartão?","Pago com cartão?","Posso pagar com cartão?"], ans:"Seria possível pagar com cartão?", hint:"Use the conditional of ser for the softest form."},
         {type:"match", pairs:[{trg:"queria", src:"I would like"},{trg:"gostaria", src:"I would like (more formal)"},{trg:"poderia", src:"could you"},{trg:"por favor", src:"please"}]},
         {type:"tip", title:"The Brazilian Politeness Ladder", text:"From most casual to most polite:\n1. Quero (I want) - blunt, friends only\n2. Queria (I wanted / I'd like) - everyday soft\n3. Gostaria (I would like) - formal, restaurants\n4. Seria possível (would it be possible) - business, strangers\nAlways add por favor and obrigado/obrigada.", deepDive:"Brazilians use softer forms more readily than English speakers. What feels over-polite in English is just normal in Portuguese. When in doubt, go one step softer."},
-        {type:"mc", q:"In a formal email, which opener is best?", opts:["Quero saber...","Gostaria de saber...","Sei que...","Pergunto..."], ans:"Gostaria de saber...", hint:"Conditional politeness is expected in Brazilian business writing."}
+        {type:"mc", q:"In a formal email, which opener is best?", opts:["Quero saber...","Gostaria de saber...","Sei que...","Pergunto..."], ans:"Gostaria de saber...", hint:"Conditional politeness is expected in Brazilian business writing."},
+{type:"match", pairs:[
+  {trg:"se eu fizesse", src:"if I did / if I made"},
+  {trg:"você se importaria", src:"would you mind"}
+]}
       ]
     }
   ]

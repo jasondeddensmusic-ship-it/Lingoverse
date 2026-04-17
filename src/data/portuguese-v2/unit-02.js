@@ -16,7 +16,7 @@ const UNIT_02 = {n:2,lang:"pt",srcLang:"en",track:"v2",title:"Quantos anos você
     {type:"fb",opts:["zero","um","dois","três"],hint:"The first counting number after zero.",s:"Eu tenho {1} café.",sSrc:"I have one coffee.",a:"um"},
     {type:"fb",opts:["dois","três","quatro","cinco"],hint:"Comes right before cinco in the counting sequence.",s:"Eu tenho {1} cafés.",sSrc:"I have four coffees.",a:"quatro"},
     {type:"match",pairs:[{trg:"zero",src:"0"},{trg:"um",src:"1"},{trg:"dois",src:"2"},{trg:"três",src:"3"},{trg:"quatro",src:"4"},{trg:"cinco",src:"5"}]},
-    {type:"mc",q:"How do you say 'zero' in Portuguese?",opts:["um","zero","dois","cinco"],ans:"zero",hint:"The word looks identical to English."},
+    {type:"mc",q:"How do you say the number 0 in Portuguese?",opts:["um","zero","dois","cinco"],ans:"zero",hint:"The word is identical to English, borrowed from Arabic via Italian."},
     {type:"fb",opts:["cinco","três","dois","um"],hint:"The number right after quatro.",s:"Temos {1} cafés.",sSrc:"We have five coffees.",a:"cinco"},
     {type:"mc",q:"Dois mais um equals:",opts:["dois","três","quatro","cinco"],ans:"três",hint:"Add 2 plus 1."}
   ]},

@@ -216,7 +216,12 @@ lessons:[
  trg:"小(xiǎo)李(Lǐ)第一(dìyī)次(cì)使用(shǐyòng)新(xīn)机器(jīqì)，他(tā)按照(ànzhào)说明书(shuōmíngshū)仔细(zǐxì)操作(cāozuò)。首先(shǒuxiān)按(àn)开关(kāiguān)，接着(jiēzhe)选择(xuǎnzé)程序(chéngxù)，最后(zuìhòu)检查(jiǎnchá)结果(jiéguǒ)。整个(zhěnggè)过程(guòchéng)很(hěn)顺利(shùnlì)。",
  src:"Xiao Li used the new machine for the first time, following the instructions carefully. First he pressed the switch, next he selected the program, and finally he checked the result. The whole process went smoothly."}
 
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"过程(guòchéng)", src:"process / course"},
+  {trg:"仔细(zǐxì)", src:"careful / meticulous"}
+]}]}
 
 ]};
 

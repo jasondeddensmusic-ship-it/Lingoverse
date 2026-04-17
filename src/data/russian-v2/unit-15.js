@@ -251,11 +251,11 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  ans:"Past tense + бы",
  hint:"Simple! Just add the particle бы to the ___ ___ form."},
 
-{type:"fb", s:"A: Что ты {1}, если выиграешь в лотерею?\nB: Купил бы дом.",
- a:["купил бы"],
- opts:["купил бы","купишь","покупаешь","купил"],
+{type:"fb", s:"A: Что ты сделаешь, если выиграешь в лотерею?\nB: {1} дом.",
+ a:["Купил бы"],
+ opts:["Купил бы","Купишь","Покупаешь","Куплю"],
  hint:"Hypothetical 'would buy' = conditional. Past tense + бы.",
- sSrc:"A: What would you buy if you won the lottery?\nB: I would buy a house."},
+ sSrc:"A: What would you do if you won the lottery?\nB: Would buy a house."},
 
 {type:"fb", s:"A: {1} бы ты помочь мне с переводом?\nB: Конечно, давай.",
  a:["Мог"],
@@ -270,7 +270,12 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
   {trg:"если бы", src:"if (hypothetical)"},
   {trg:"жаль", src:"it's a pity"}
 ]}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"сделаю", src:"I will do (perfective future)"},
+  {trg:"хотеть", src:"to want (imperfective)"}
+]}]}
 
 ]};
 export default UNIT_15;
