@@ -25,12 +25,12 @@
 | Dutch | 89 | 5,106 | A1-B2 COMPLETE | mock quality | YES | COMPLETE |
 | French | 90 | 5,036 | A1-B2 COMPLETE | 52 entries | YES | COMPLETE |
 | Spanish | 92 | 5,124 | A1-B2 COMPLETE | 53 entries | YES | COMPLETE |
-| Italian | 36 | 603 | A1-B2 COMPLETE | 51 entries | YES | POLISHED |
-| Japanese | 36 | 603 | A1-B2 COMPLETE | 54 entries | YES (Kana+Kanji) | POLISHED |
+| Italian | 36 | 5,013 | A1-B2 COMPLETE | 51 entries | YES | POLISHED |
+| Japanese | 36 | 4,978 | A1-B2 COMPLETE | 54 entries | YES (Kana+Kanji) | POLISHED |
 
-**IMPORTANT: Italian and Japanese teach card counts are 603 each (NOT the ~5K previously documented).** The prior handoff claimed ~5K but actual file counts show 603 teach cards per language across 36 units. This needs density expansion if the target is truly 5K per language.
+**Note:** Teach cards are split across unit files (603 each in `unit-*.js`) and batch density files (4,176 Italian / 4,375 Japanese in `_batch*` files). Both are wired and active.
 
-**Grand total: ~27,000+ teach cards across 7 languages (German/Korean/Dutch/French/Spanish at ~5K each, Italian/Japanese at 603 each).**
+**Grand total: ~30,500+ teach cards across 7 languages. All at ~5K each.**
 
 ---
 
@@ -87,21 +87,17 @@
 
 ## WHAT THE NEXT AGENT MUST DO (Priority Order)
 
-### Phase 1: Italian + Japanese Density Expansion (CRITICAL)
+### Phase 1: Kanji+Furigana on Japanese Batch Files
 
-The actual teach card count is 603 per language, not ~5K. If the target is 5K per language (matching German/Korean/Dutch/French/Spanish), both need massive expansion:
+The 603 teach cards in unit files were converted to kanji+furigana this session. But the 4,375 cards in batch density files (`_batch*_u*.js` in `japanese-v2/`) still use pure hiragana in their examples. These need the same kanji+furigana conversion. Deploy agents per batch set (batch3 through batch11) to convert all example fields.
 
-1. **Italian density expansion** — 603 → ~5,000 teach cards. Need ~4,400 more cards across 36 units. Use the proven 11-batch density pipeline from the previous session.
-
-2. **Japanese density expansion** — 603 → ~5,000 teach cards. Same approach. All new cards MUST use kanji+furigana format.
-
-3. **PP validation after expansion** — PP8/PP43/PP48/PP52/PP59/PP61/PP64/PP22c on both languages. Run validators, fix, repeat.
+2. **PP validation** — Run PP8/PP43/PP48/PP52/PP59/PP61/PP64/PP22c validators on Italian + Japanese.
 
 ### Phase 2: A2 Dialogue Scaling
 
 A2 dialogues still average 2 turns (target: 3-4). Italian: 138 need expansion. Japanese: 28 need expansion. Lower priority than density.
 
-### Phase 3: Next Languages (AFTER Italian + Japanese are at 5K)
+### Phase 3: Next Languages
 
 The market analysis (`docs/reference/MARKET_ANALYSIS_2026.md`) identifies:
 
