@@ -340,18 +340,27 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 
 ---
 
-## Next Priorities (updated 2026-04-17)
+## Next Priorities (updated 2026-04-17c)
 
-> Latest handoff: `docs/SESSION_HANDOFF_2026-04-17b.md`. Japanese PP65 complete. Full validation PASS.
+> Chinese (45 units), Portuguese (36 units), Russian (36 units) all complete and merged (PR #175, #177, #178). V1 salvage audited (PR #179). 10 languages live.
 
-### ACTIVE: Next Language Expansion
-1. **Chinese (Mandarin)** — 9.65M EN learners. HIGH effort (tones, hanzi, Foundations). Follow LANGUAGE_INTEGRATION_PIPELINE.
-2. **Portuguese** — 7.33M learners + bidirectional with Spanish. MEDIUM effort (Romance, Latin script).
-3. **Russian** — 5.4M learners. MEDIUM-HIGH effort (Cyrillic, cases).
+### ACTIVE: V1 Salvage — fill 43 documented gaps then archive V1
+
+**Precise next-agent task:** Add 43 teach cards to V2 so V1 can be archived without content loss. All gaps listed verbatim in `docs/V1_SALVAGE_STATUS.md`.
+
+- **French V1 (0 gaps)** — SAFE TO ARCHIVE FIRST. Move `src/data/units-french.js` into `.claude/archive/v1-legacy/` and remove the import from `src/utils.js` lines 13 and 518.
+- **Korean V1 (2 gaps)** — Add `감동하다` (to be moved/touched) and `혼란스럽다` (to be confused) as teach cards in a B1 emotions lesson (candidate: `src/data/korean-v2/_temp_b1gap_L31.js` — Mental States and Emotions).
+- **Dutch V1 (8 gaps)** — B1 feelings: `gefrustreerd`, `verward`, `uitkijken naar`, `ongerust`, `gespannen`, `jaloers`, `de mislukking`, `België`. Add to an existing Dutch B1 feelings unit or create a small salvage unit.
+- **Spanish V1 (9 gaps)** — B1 feelings: `frustrado/a`, `decepcionado/a`, `impresionado/a`, `confundido/a`, `satisfecho/a`, `celoso/a`, `tener ganas de`, `seguro/a de sí mismo/a`, `tenso/a`. Unit-11/12 (imperfect scene lessons) are thematically adjacent.
+- **German V1 (24 gaps)** — Distribute: feelings (wütend, frustriert, zerstört, schlapp), colors (lila), clothing (der Gürtel), animals (der Löwe), travel (das Gepäck, das Ladegerät), professions (der Programmierer, der Feuerwehrmann, die Probezeit, die Gleitzeit), legal (das Bußgeld), compass (östlich), numbers (dreiunddreißig, neunundneunzig), B2 academic (bereuen, erörtern, die Erörterung), B2 idioms (Hals über Kopf, In Anlehnung an, Laut Angaben).
+
+Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs`.
+
+After each language's gaps are filled: move its `units-{lang}.js` to `.claude/archive/v1-legacy/`, drop imports from `src/utils.js` (lines 7/9/11/13/15 and `_RAW_UNITS` on line 518), rebuild, verify app still loads.
 
 ### Polish Remaining
-4. **A2 dialogue scaling** — Italian: 138 dialogues need 3+ turns. Japanese: 28 need 3+ turns.
-5. **Italian PP8 hint leaks** — 7 remaining in batch files (common English words in hints).
+1. **A2 dialogue scaling** — Italian: 138 dialogues need 3+ turns. Japanese: 28 need 3+ turns.
+2. **Italian PP8 hint leaks** — 7 remaining in batch files (common English words in hints).
 
 ### Feature Polish (deferred)
 7. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors.
