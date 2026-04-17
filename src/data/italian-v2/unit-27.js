@@ -49,6 +49,7 @@ const UNIT_27 = {
        example:"A: Questa scoperta cambiera la medicina moderna.\nB: Potrebbe salvare milioni di vite.",
        exampleSrc:"A: This discovery will change modern medicine.\nB: It could save millions of lives.",
        funFact:"Italian scientists have made landmark discoveries across centuries: Volta invented the battery, Marconi pioneered radio, and Rita Levi-Montalcini won the Nobel Prize for discovering nerve growth factor."},
+{type:"match",pairs:[{trg:"l'esperimento",src:"the experiment"},{trg:"l'ipotesi",src:"the hypothesis"},{trg:"la teoria",src:"the theory"},{trg:"la scoperta",src:"the discovery"}]},
 
       {type:"mc",
        q:"Come si chiama una spiegazione provvisoria che deve essere testata con esperimenti?",

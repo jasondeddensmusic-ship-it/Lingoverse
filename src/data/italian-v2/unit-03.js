@@ -48,6 +48,7 @@ const UNIT_03 = {
        example:"A: Quanti figli hai?\nB: Ho una figlia e un figlio.",
        exampleSrc:"A: How many children do you have?\nB: I have a daughter and a son.",
        funFact:"The classic -o/-a gender pattern (figlio/figlia, nonno/nonna) is the most regular pattern in Italian. When you see this pair, masculine is always -o and feminine is always -a."},
+{type:"match",pairs:[{trg:"la madre",src:"the mother"},{trg:"il padre",src:"the father"},{trg:"il figlio",src:"the son"},{trg:"la figlia",src:"the daughter"}]},
 
       {type:"teach", trg:"il fratello", src:"the brother", pos:"noun", gender:"m",
        note:"Masculine. Plural: i fratelli (also means 'siblings').\nFrom Latin 'frater.'",
@@ -78,6 +79,7 @@ const UNIT_03 = {
        example:"A: Chi e quello?\nB: E mio zio Roberto.",
        exampleSrc:"A: Who is that?\nB: That's my uncle Roberto.",
        funFact:"Words starting with z, s+consonant, gn, ps, or x take 'lo' instead of 'il.' This rule exists because 'il zio' would be awkward to pronounce. Italian loves smooth sounds."},
+{type:"match",pairs:[{trg:"la sorella",src:"the sister"},{trg:"il nonno",src:"the grandfather"},{trg:"la nonna",src:"the grandmother"},{trg:"lo zio",src:"the uncle"}]},
 
       {type:"teach", trg:"la zia", src:"the aunt", pos:"noun", gender:"f",
        note:"Feminine form of zio. Plural: le zie.\nArticle: la (regular feminine).",
@@ -177,6 +179,7 @@ const UNIT_03 = {
        example:"A: Come e tuo cugino?\nB: E molto bello!",
        exampleSrc:"A: What is your cousin like?\nB: He is very handsome!",
        funFact:"'Ciao bella!' or 'Ciao bello!' is a common casual greeting among friends in Italy. It is NOT romantic. Italians use 'bello/bella' as a friendly term of endearment like 'dear.'"},
+{type:"match",pairs:[{trg:"basso",src:"short (height)"},{trg:"giovane",src:"young"},{trg:"vecchio",src:"old"},{trg:"bello",src:"beautiful / handsome"}]},
 
       {type:"teach", trg:"simpatico", src:"likeable / nice", pos:"adj", gender:null,
        note:"Masculine: simpatico. Feminine: simpatica.\nFalse friend: does NOT mean 'sympathetic.'",
@@ -282,6 +285,7 @@ const UNIT_03 = {
        example:"A: Come si chiama suo figlio?\nB: Suo figlio si chiama Luca.",
        exampleSrc:"A: What is his/her son's name?\nB: His/Her son's name is Luca.",
        funFact:"'Suo' does triple duty: his, her, and formal your. This can cause ambiguity, so Italians often add 'di lui' (of him) or 'di lei' (of her) to clarify when needed."},
+{type:"match",pairs:[{trg:"mia",src:"my (feminine)"},{trg:"tuo",src:"your (masculine, informal)"},{trg:"tua",src:"your (feminine, informal)"},{trg:"suo",src:"his/her/your (masc, formal)"}]},
 
       {type:"teach", trg:"sua", src:"his/her/your (fem, formal)", pos:"adj", gender:null,
        note:"Feminine singular of 'suo.' Means his, her, or formal your.\nWith singular family: no article.",

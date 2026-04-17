@@ -53,6 +53,7 @@ const UNIT_02 = {
    example:"A: 学生(がくせい)ですか?\nB: はい、大学生(だいがくせい)です。",
    exampleSrc:"A: Are you a student?\nB: Yes, I am a university student.",
    funFact:"From kanji 学 (study) + 生 (person/life). Same 生 appears in sensei (先生, 'born before' = teacher). Daigakusei adds 大学 (university) in front."},
+{type:"match",pairs:[{trg:"です",src:"am / is / are (polite)"},{trg:"は",src:"(topic particle)"},{trg:"名前(なまえ)",src:"name"},{trg:"学生(がくせい)",src:"student"}]},
 
   {type:"mc", q:"わたしは学生(がくせい)です means:", opts:["I am a student","You are a student","I have a student","I like students"], ans:"I am a student",
    hint:"Break it down: watashi (I) + wa (topic) + gakusei (s...) + desu (am)."},

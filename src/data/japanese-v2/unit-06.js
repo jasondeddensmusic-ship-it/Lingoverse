@@ -52,6 +52,7 @@ const UNIT_06 = {
    example:"A: 父(ちち)は医者(いしゃ)です。\nB: そうですか! すごいですね。",
    exampleSrc:"A: My father is a doctor.\nB: Really? That is amazing!",
    funFact:"父 shows a hand holding a tool or weapon, representing a working man/protector. Chichi sounds formal and may feel stiff to beginners, but it is the correct way to refer to your father when speaking to teachers, coworkers, or strangers."},
+{type:"match",pairs:[{trg:"お母(かあ)さん",src:"mother (someone else's)"},{trg:"母(はは)",src:"mother (my own, humble)"},{trg:"お父(とう)さん",src:"father (someone else's)"},{trg:"父(ちち)",src:"father (my own, humble)"}]},
 
   {type:"mc", q:"When talking about YOUR mother to an outsider, you say:", opts:["母(はは)","お母(かあ)さん","お姉(ねえ)さん","姉(あね)"], ans:"母(はは)",
    hint:"The humble form for your own mother when speaking to people outside your family."},

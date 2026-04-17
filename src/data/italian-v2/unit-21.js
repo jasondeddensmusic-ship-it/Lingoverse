@@ -48,6 +48,7 @@ const UNIT_21 = {
        example:"A: Avrei una domanda.\nB: Certo, dimmi pure.",
        exampleSrc:"A: I would have a question.\nB: Of course, go ahead.",
        funFact:"'Avrei bisogno di' (I would need) is a very polite way to ask for something: 'Avrei bisogno di un'informazione' (I would need some information). Like 'essere,' 'avere' shares its conditional stem with the future: avro, avrai, avra (future) / avrei, avresti, avrebbe (conditional)."},
+{type:"match",pairs:[{trg:"potrei",src:"I could / I would be able to"},{trg:"dovrei",src:"I should / I ought to"},{trg:"sarei",src:"I would be"},{trg:"avrei",src:"I would have"}]},
 
       {type:"teach", trg:"farei", src:"I would do / I would make", pos:"verb", gender:null,
        note:"Conditional of 'fare' (to do/make). Irregular stem: far-.\n'Farei qualsiasi cosa' = I would do anything.",
@@ -148,6 +149,7 @@ const UNIT_21 = {
        example:"A: Preferirei restare a casa.\nB: Anch'io preferirei rilassarmi.",
        exampleSrc:"A: I would prefer to stay at home.\nB: I too would prefer to relax.",
        funFact:"'Preferirei' is extremely polite for expressing a preference. In a restaurant: 'Preferirei il pesce' (I would prefer the fish). At work: 'Preferirei lavorare da casa' (I would prefer to work from home). The conditional makes any preference sound diplomatic."},
+{type:"match",pairs:[{trg:"mangerebbe",src:"he/she would eat"},{trg:"scriverei",src:"I would write"},{trg:"partirei",src:"I would leave"},{trg:"preferirei",src:"I would prefer"}]},
 
       {type:"verb_table", title:"Condizionale presente: regolari",
        note:"The conditional endings are the same for all three conjugation classes. Note the -a to -e shift for -are verbs.",
@@ -254,6 +256,7 @@ const UNIT_21 = {
        example:"A: Cosa consiglierei per cena?\nB: Consiglierei il risotto ai funghi.",
        exampleSrc:"A: What would you recommend for dinner?\nB: I would recommend the mushroom risotto.",
        funFact:"'Consigliare' comes from Latin 'consilium' (advice, counsel). The English word 'counsel' shares this root. In Italian restaurants, 'Cosa mi consiglierebbe?' (What would you recommend to me?) is the elegant way to ask the waiter for suggestions."},
+{type:"match",pairs:[{trg:"potresti",src:"could you / you could"},{trg:"dovresti",src:"you should / you ought to"},{trg:"al posto tuo",src:"in your place / if I were you"},{trg:"consiglierei",src:"I would recommend / I would advise"}]},
 
       {type:"teach", trg:"desidererei", src:"I would wish / I would desire", pos:"verb", gender:null,
        note:"Conditional of 'desiderare.' Very formal, used in shops and services.\n'Desidererebbe qualcos'altro?' = Would you like anything else?",

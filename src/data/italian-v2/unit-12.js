@@ -52,6 +52,7 @@ const UNIT_12 = {
        example:"A: Perche sei venuto?\nB: Sono venuto per la festa.",
        exampleSrc:"A: Why did you come?\nB: I came for the party.",
        funFact:"'Venire' (to come) is the opposite of 'andare' (to go). 'Andare' goes away from the speaker, 'venire' comes toward the speaker. Both use essere. From Latin 'venire,' which also gave English 'venture,' 'advent,' and 'convention.'"},
+{type:"match",pairs:[{trg:"sei arrivato/a",src:"you arrived"},{trg:"e partito/a",src:"he/she left / departed"},{trg:"siamo tornati/e",src:"we returned / we came back"},{trg:"sono venuto/a",src:"I came"}]},
 
       {type:"teach", trg:"sono uscito/a", src:"I went out / I left", pos:"verb", gender:null,
        note:"Passato prossimo of 'uscire' with essere.\nIrregular present: esco, esci, esce.",
@@ -141,6 +142,7 @@ const UNIT_12 = {
        example:"A: Vuoi uscire stasera?\nB: Si, usciamo!",
        exampleSrc:"A: Do you want to go out tonight?\nB: Yes, let's go out!",
        funFact:"From Latin 'exire' (to go out). 'Uscire' covers going out socially ('uscire con gli amici'), leaving a building ('uscire di casa'), and exiting ('l'uscita' = the exit). The present tense stem changes to 'esc-' in four of six forms."},
+{type:"match",pairs:[{trg:"venire",src:"to come"},{trg:"partire",src:"to leave / depart"},{trg:"arrivare",src:"to arrive"},{trg:"uscire",src:"to go out / to exit"}]},
 
       {type:"teach", trg:"tornare", src:"to return / come back", pos:"verb", gender:null,
        note:"Regular -are verb. Present: torno, torni, torna.\nPast: sono tornato/a. Uses essere.",
@@ -246,6 +248,7 @@ const UNIT_12 = {
        example:"A: Dove sei nata?\nB: Sono nata a Firenze.",
        exampleSrc:"A: Where were you born?\nB: I was born in Florence.",
        funFact:"'Nascere' (to be born) always uses essere: 'sono nato/a' (I was born). This is one of the first questions Italians ask: 'Di dove sei?' or 'Dove sei nato/a?' Birth city is a core part of Italian identity. People strongly identify with their hometown."},
+{type:"match",pairs:[{trg:"andata",src:"went (feminine singular)"},{trg:"andati",src:"went (masculine/mixed plural)"},{trg:"andate",src:"went (all-feminine plural)"},{trg:"nata",src:"born (feminine)"}]},
 
       {type:"teach", trg:"stato/a", src:"been (past participle of essere)", pos:"verb", gender:null,
        note:"Irregular past participle of 'essere' (to be).\n'Sono stato/a' = I have been. Uses essere to form its own past!",

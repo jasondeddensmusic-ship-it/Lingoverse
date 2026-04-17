@@ -48,6 +48,7 @@ const UNIT_36 = {
        example:"A: Il condizionale si usa per esprimere desideri e ipotesi.\nB: 'Vorrei un caffe' e molto piu cortese di 'Voglio un caffe.'",
        exampleSrc:"A: The conditional is used to express wishes and hypotheses.\nB: 'Vorrei un caffe' is much more polite than 'Voglio un caffe.'",
        funFact:"The Italian conditional developed from Latin future-in-the-past forms. Modern Italian has two forms: condizionale presente ('vorrei' = I would like) and condizionale passato ('avrei voluto' = I would have liked)."},
+{type:"match",pairs:[{trg:"il registro",src:"the register (linguistic)"},{trg:"la perifrasi",src:"the periphrasis / roundabout expression"},{trg:"il congiuntivo",src:"the subjunctive (mood)"},{trg:"il condizionale",src:"the conditional (mood)"}]},
 
       {type:"mc",
        q:"Quale modo verbale esprime dubbio, desiderio o incertezza?",
@@ -180,6 +181,7 @@ const UNIT_36 = {
        example:"A: Ogni citazione deve avere una fonte chiara.\nB: Altrimenti rischi un'accusa di plagio.",
        exampleSrc:"A: Every citation must have a clear source.\nB: Otherwise you risk an accusation of plagiarism.",
        funFact:"Italian academic style uses footnotes more than parenthetical citations. The standard footnote format in Italian humanities is: author surname, title in italics, publisher, year, page number. Different from APA or MLA styles."},
+{type:"match",pairs:[{trg:"l'introduzione",src:"the introduction"},{trg:"la tesi",src:"the thesis / claim"},{trg:"la conclusione",src:"the conclusion"},{trg:"la citazione",src:"the quotation / citation"}]},
 
       {type:"mc",
        q:"Come si chiama la parte finale di un saggio dove si riassumono i risultati?",

@@ -49,6 +49,7 @@ const UNIT_26 = {
        example:"A: La sentenza sara pronunciata venerdi.\nB: Speriamo in un esito positivo.",
        exampleSrc:"A: The sentence will be pronounced on Friday.\nB: Let us hope for a positive outcome.",
        funFact:"In Italian law, sentences must include a detailed written explanation of the judge's reasoning ('motivazione'). This can take weeks or months to write, delaying the final outcome."},
+{type:"match",pairs:[{trg:"il processo",src:"the trial"},{trg:"il giudice",src:"the judge"},{trg:"l'avvocato",src:"the lawyer"},{trg:"la sentenza",src:"the sentence / judgment"}]},
 
       {type:"mc",
        q:"Chi presiede un processo e pronuncia la sentenza?",
@@ -162,6 +163,7 @@ const UNIT_26 = {
        example:"A: Questa sentenza crea un precedente importante.\nB: Influenzera tutti i casi futuri.",
        exampleSrc:"A: This ruling sets an important precedent.\nB: It will influence all future cases.",
        funFact:"In Italy's civil law system, precedents are technically not binding (unlike English common law). But in practice, the Corte di Cassazione's rulings are followed almost universally by lower courts."},
+{type:"match",pairs:[{trg:"la costituzione",src:"the constitution"},{trg:"l'emendamento",src:"the amendment"},{trg:"la giurisprudenza",src:"the jurisprudence / case law"},{trg:"il precedente",src:"the precedent"}]},
 
       {type:"mc",
        q:"Come si chiama il documento fondamentale che definisce i diritti dei cittadini italiani?",
@@ -275,6 +277,7 @@ const UNIT_26 = {
        example:"A: E stato accusato di frode fiscale.\nB: Rischia una condanna pesante.",
        exampleSrc:"A: He was accused of tax fraud.\nB: He faces a heavy sentence.",
        funFact:"Tax evasion ('evasione fiscale') is a major issue in Italy, with estimates suggesting it costs the state over 100 billion euros annually. Fighting frode fiscale is a constant government priority."},
+{type:"match",pairs:[{trg:"il sospetto",src:"the suspect / suspicion"},{trg:"la testimonianza",src:"the testimony / witness statement"},{trg:"il furto",src:"the theft"},{trg:"la frode",src:"the fraud"}]},
 
       {type:"mc",
        q:"Come si chiama l'atto di rubare senza violenza?",

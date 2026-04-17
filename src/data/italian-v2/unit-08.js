@@ -48,6 +48,7 @@ const UNIT_08 = {
        example:"A: Devo comprare una camicia nuova.\nB: Di che colore?",
        exampleSrc:"A: I need to buy a new shirt.\nB: What color?",
        funFact:"'Camicia' specifically means a button-up shirt. A casual T-shirt is 'maglietta.' The difference matters in Italian: wearing a 'camicia' signals formality, while a 'maglietta' is for leisure. The same Latin root gave French 'chemise.'"},
+{type:"match",pairs:[{trg:"i pantaloni",src:"the trousers / pants"},{trg:"la gonna",src:"the skirt"},{trg:"le scarpe",src:"the shoes"},{trg:"la camicia",src:"the shirt (button-up)"}]},
 
       {type:"teach", trg:"la maglietta", src:"the T-shirt", pos:"noun", gender:"f",
        note:"Feminine. Diminutive of 'maglia' (knitwear, jersey).\nInformal, no buttons.",
@@ -143,6 +144,7 @@ const UNIT_08 = {
        example:"A: C'e uno sconto?\nB: Si, sconto del venti per cento.",
        exampleSrc:"A: Is there a discount?\nB: Yes, twenty percent off.",
        funFact:"'Scontare' (to discount) comes from 'contare' (to count) with 's-' (removal prefix). Literally 'to count off.' In Italian markets, asking 'Mi fa uno sconto?' (Will you give me a discount?) is perfectly normal and expected."},
+{type:"match",pairs:[{trg:"provare",src:"to try on"},{trg:"costare",src:"to cost"},{trg:"i saldi",src:"the sales (discount period)"},{trg:"lo sconto",src:"the discount"}]},
 
       {type:"teach", trg:"pagare", src:"to pay", pos:"verb", gender:null,
        note:"Regular -are verb. Present: pago, paghi, paga.\n'Pago io!' = I will pay! (I am treating.)",
@@ -244,6 +246,7 @@ const UNIT_08 = {
        example:"A: Le scarpe sono di pelle?\nB: Si, pelle italiana di qualita.",
        exampleSrc:"A: Are the shoes leather?\nB: Yes, quality Italian leather.",
        funFact:"'Pelle' means both 'skin' and 'leather.' Florence is the historic center of Italian leather craft. The Santa Croce area has had leather workshops since the Renaissance. Italian leather goods are prized worldwide for their quality."},
+{type:"match",pairs:[{trg:"a quadri",src:"checkered / plaid"},{trg:"di cotone",src:"cotton / made of cotton"},{trg:"di lana",src:"wool / made of wool"},{trg:"di pelle",src:"leather / made of leather"}]},
 
       {type:"teach", trg:"a tinta unita", src:"solid color / plain", pos:"adj", gender:null,
        note:"Invariable expression. 'Tinta' = color/dye, 'unita' = unified.\nOne color, no pattern.",

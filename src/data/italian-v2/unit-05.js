@@ -48,6 +48,7 @@ const UNIT_05 = {
        example:"A: Dove guardiamo la TV?\nB: In salotto.",
        exampleSrc:"A: Where do we watch TV?\nB: In the living room.",
        funFact:"Italians also use 'il soggiorno' (from 'soggiornare,' to stay/dwell) for living room. The two words are interchangeable, but 'salotto' feels slightly more cozy and intimate."},
+{type:"match",pairs:[{trg:"la cucina",src:"the kitchen"},{trg:"la camera",src:"the bedroom"},{trg:"il bagno",src:"the bathroom"},{trg:"il salotto",src:"the living room"}]},
 
       {type:"teach", trg:"il giardino", src:"the garden", pos:"noun", gender:"m",
        note:"Masculine. From Frankish 'gard' (enclosure).\nPlural: i giardini. A shared root with English 'garden.'",
@@ -136,6 +137,7 @@ const UNIT_05 = {
        example:"A: Puoi aprire la finestra?\nB: Si, fa caldo!",
        exampleSrc:"A: Can you open the window?\nB: Yes, it's hot!",
        funFact:"'Defenestration' (throwing someone out a window) comes from Latin 'fenestra.' The most famous defenestration happened in Prague in 1618 and started the Thirty Years' War. Italians just say 'buttare dalla finestra.'"},
+{type:"match",pairs:[{trg:"la sedia",src:"the chair"},{trg:"il letto",src:"the bed"},{trg:"il divano",src:"the sofa / couch"},{trg:"la finestra",src:"the window"}]},
 
       {type:"teach", trg:"la porta", src:"the door", pos:"noun", gender:"f",
        note:"Feminine. From Latin 'porta' (gate, entrance).\nPlural: le porte. Related to English 'portal' and 'port.'",
@@ -243,6 +245,7 @@ const UNIT_05 = {
        example:"A: Dov'e il latte?\nB: Nel frigo, in cucina.",
        exampleSrc:"A: Where is the milk?\nB: In the fridge, in the kitchen.",
        funFact:"Italians almost always say 'il frigo' instead of the full 'frigorifero.' The Latin root 'frigus' (cold) also appears in English 'frigid' and 'refrigerator.' Same root, same meaning."},
+{type:"match",pairs:[{trg:"l'armadio",src:"the wardrobe / closet"},{trg:"la lampada",src:"the lamp"},{trg:"il tappeto",src:"the rug / carpet"},{trg:"il frigorifero",src:"the refrigerator"}]},
 
       {type:"teach", trg:"il quadro", src:"the painting / picture", pos:"noun", gender:"m",
        note:"Masculine. From Latin 'quadrum' (square, frame).\nPlural: i quadri.",

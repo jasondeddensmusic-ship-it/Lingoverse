@@ -48,6 +48,7 @@ const UNIT_06 = {
        example:"A: Andiamo al ristorante stasera?\nB: Si, ottima idea!",
        exampleSrc:"A: Shall we go to the restaurant tonight?\nB: Yes, great idea!",
        funFact:"The hierarchy of Italian eating places: ristorante (formal), trattoria (casual, family-run), osteria (originally a wine bar with food), bar (coffee and light snacks). Each has its own character and price range."},
+{type:"match",pairs:[{trg:"l'ospedale",src:"the hospital"},{trg:"la farmacia",src:"the pharmacy"},{trg:"il supermercato",src:"the supermarket"},{trg:"il ristorante",src:"the restaurant"}]},
 
       {type:"teach", trg:"il museo", src:"the museum", pos:"noun", gender:"m",
        note:"Masculine. From Greek 'mouseion' (temple of the Muses).\nPlural: i musei.",
@@ -149,6 +150,7 @@ const UNIT_06 = {
        example:"A: L'ospedale e lontano?\nB: Si, e abbastanza lontano. Prendi il bus.",
        exampleSrc:"A: Is the hospital far?\nB: Yes, it is quite far. Take the bus.",
        funFact:"From Latin 'longitanus' (distant), related to 'longus' (long). The connection between distance and length exists in many languages. Something far away is a 'long' way."},
+{type:"match",pairs:[{trg:"a destra",src:"to the right"},{trg:"a sinistra",src:"to the left"},{trg:"vicino",src:"near / close"},{trg:"lontano",src:"far"}]},
 
       {type:"teach", trg:"la strada", src:"the street / road", pos:"noun", gender:"f",
        note:"Feminine. From Latin 'strata' (paved road).\nAlso means 'way' in figurative sense.",
@@ -244,6 +246,7 @@ const UNIT_06 = {
        example:"A: Vai in bici al lavoro?\nB: Si, ogni giorno!",
        exampleSrc:"A: Do you cycle to work?\nB: Yes, every day!",
        funFact:"Italian cities are increasingly bike-friendly. Bologna, Ferrara, and Bolzano are among the most bicycle-friendly cities. 'Bici' is the standard shortened form, used far more than the full 'bicicletta.'"},
+{type:"match",pairs:[{trg:"il treno",src:"the train"},{trg:"il taxi",src:"the taxi"},{trg:"la macchina",src:"the car"},{trg:"la bicicletta",src:"the bicycle"}]},
 
       {type:"teach", trg:"la metropolitana", src:"the metro / subway", pos:"noun", gender:"f",
        note:"Feminine. Usually shortened to 'la metro.'\nFrom Greek 'metropolis' (mother city).",

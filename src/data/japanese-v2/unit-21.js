@@ -54,6 +54,7 @@ const UNIT_21 = {
    example:"A: 来月(らいげつ)選挙(せんきょ)があります。\nB: 投票(とうひょう)に行(い)きますか？",
    exampleSrc:"A: There is an election next month.\nB: Will you go to vote?",
    funFact:"選挙 combines 選 (choose) and 挙 (raise/nominate). Japanese elections use a unique system: voters write candidates' names by hand on ballots. Voter turnout has been declining, especially among young people. Campaign trucks with speakers drive through neighborhoods, and candidates bow deeply at intersections."},
+{type:"match",pairs:[{trg:"事件(じけん)",src:"incident / case / crime"},{trg:"事故(じこ)",src:"accident"},{trg:"災害(さいがい)",src:"disaster"},{trg:"選挙(せんきょ)",src:"election"}]},
 
   {type:"mc", q:"事件(じけん) means:", opts:["incident/crime","accident","weather","economy"], ans:"incident/crime",
    hint:"This word covers crimes, notable events, and legal cases. Think detective stories."},

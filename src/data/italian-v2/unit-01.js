@@ -50,6 +50,7 @@ const UNIT_01 = {
        example:"A: Vado a dormire. Buonanotte!\nB: Buonanotte! Sogni d'oro!",
        exampleSrc:"A: I'm going to sleep. Good night!\nB: Good night! Sweet dreams!",
        funFact:"'Sogni d'oro' (dreams of gold) is the Italian way to say 'sweet dreams.' Far more poetic than most languages."},
+{type:"match",pairs:[{trg:"buongiorno",src:"good morning / good day"},{trg:"buonasera",src:"good evening"},{trg:"arrivederci",src:"goodbye (formal)"},{trg:"buonanotte",src:"good night"}]},
 
       {type:"teach", trg:"come stai?", src:"how are you? (informal)", pos:"verb", gender:null,
        note:"Informal. Use with friends, family, peers.\nStai = you are (tu form of stare).",
@@ -80,6 +81,7 @@ const UNIT_01 = {
        example:"A: Grazie per l'aiuto!\nB: Prego, di niente!",
        exampleSrc:"A: Thanks for the help!\nB: You're welcome, it's nothing!",
        funFact:"Prego has at least 5 uses: you're welcome, please (offering), go ahead, after you, and come in. Context tells you which meaning applies."},
+{type:"match",pairs:[{trg:"come sta?",src:"how are you? (formal)"},{trg:"bene",src:"well / good"},{trg:"grazie",src:"thank you"},{trg:"prego",src:"you're welcome / please"}]},
 
       {type:"teach", trg:"per favore", src:"please", pos:"adv", gender:null,
        note:"Polite request word. Literally: per (for) + favore (favor).\nUsed when asking for something.",
@@ -186,6 +188,7 @@ const UNIT_01 = {
        example:"A: Parli italiano?\nB: Si, un po'!\nA: Bravissimo!",
        exampleSrc:"A: Do you speak Italian?\nB: Yes, a little!\nA: Very good!",
        funFact:"The accent on 'si' distinguishes it from the reflexive 'si' (oneself). Without the accent, 'si' means 'one/oneself': 'si dice' (one says / it is said)."},
+{type:"match",pairs:[{trg:"sono",src:"I am"},{trg:"italiano",src:"Italian (m.)"},{trg:"di dove sei?",src:"where are you from? (informal)"},{trg:"si",src:"yes"}]},
 
       {type:"teach", trg:"no", src:"no", pos:"part", gender:null,
        note:"Same as English. Can be softened: 'no, grazie' (no, thank you).",
@@ -216,6 +219,7 @@ const UNIT_01 = {
        example:"A: Cosa studi?\nB: Studio medicina all'universita.",
        exampleSrc:"A: What do you study?\nB: I study medicine at the university.",
        funFact:"Lo studio as a noun has multiple meanings: a study room, a professional office (studio medico = doctor's office), or an artist's studio. All from Latin 'studium' (eagerness)."},
+{type:"match",pairs:[{trg:"parlo",src:"I speak"},{trg:"un po'",src:"a little / a bit"},{trg:"lavoro",src:"I work / job"},{trg:"studio",src:"I study"}]},
 
       // Quiz steps
       {type:"mc", q:"Come si dice 'I am Italian'?",

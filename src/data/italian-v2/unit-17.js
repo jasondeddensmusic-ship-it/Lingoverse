@@ -48,6 +48,7 @@ const UNIT_17 = {
        example:"A: La cronaca locale parla del nuovo parco.\nB: Finalmente una buona notizia!",
        exampleSrc:"A: The local news is about the new park.\nB: Finally some good news!",
        funFact:"Italian newspapers have distinct sections: 'cronaca nera' (crime news, literally 'black chronicle'), 'cronaca rosa' (celebrity gossip, literally 'pink chronicle'), 'cronaca locale' (local news), and 'cronaca sportiva' (sports news). The color coding is unique to Italian journalism."},
+{type:"match",pairs:[{trg:"il telegiornale",src:"the TV news / newscast"},{trg:"l'articolo",src:"the article"},{trg:"la notizia",src:"the news (item) / piece of news"},{trg:"la cronaca",src:"the news report / chronicle"}]},
 
       {type:"teach", trg:"l'editoriale", src:"the editorial / opinion piece", pos:"noun", gender:"m",
        note:"Masculine. From 'editore' (editor, publisher).\nAn opinion article by the editor or a prominent writer.",
@@ -149,6 +150,7 @@ const UNIT_17 = {
        example:"A: Ho scaricato il film.\nB: Legalmente, spero!",
        exampleSrc:"A: I downloaded the movie.\nB: Legally, I hope!",
        funFact:"'Scaricare' literally means 'to unload' (as in unloading a truck). In tech, it means 'to download.' The opposite 'caricare' means both 'to upload' and 'to charge' (a battery). 'Caricare il telefono' = to charge the phone. 'Caricare un file' = to upload a file."},
+{type:"match",pairs:[{trg:"la tastiera",src:"the keyboard"},{trg:"l'applicazione",src:"the application / app"},{trg:"l'aggiornamento",src:"the update"},{trg:"scaricare",src:"to download"}]},
 
       {type:"teach", trg:"caricare", src:"to upload / to charge", pos:"verb", gender:null,
        note:"Regular -are verb. 'Caricare la batteria' = to charge the battery.\n'Caricare un video' = to upload a video.",
@@ -250,6 +252,7 @@ const UNIT_17 = {
        example:"A: Hai condiviso l'articolo?\nB: Si, l'ho condiviso sui social.",
        exampleSrc:"A: Did you share the article?\nB: Yes, I shared it on social media.",
        funFact:"'Condividere' was used long before social media existed. It means 'to share' in any context: sharing a meal, an apartment, or an opinion. Social media gave it a new digital meaning. The past participle 'condiviso' is irregular (not 'condividuto')."},
+{type:"match",pairs:[{trg:"la rete",src:"the network / the internet"},{trg:"la password",src:"the password"},{trg:"l'account",src:"the account"},{trg:"condividere",src:"to share (online)"}]},
 
       {type:"teach", trg:"postare", src:"to post (online)", pos:"verb", gender:null,
        note:"Regular -are verb. Adapted from English 'to post.'\n'Postare una foto' = to post a photo. Very informal.",

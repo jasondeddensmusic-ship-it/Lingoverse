@@ -48,6 +48,7 @@ const UNIT_13 = {
        example:"A: Voglio che tu venga alla festa.\nB: Va bene, vengo volentieri!",
        exampleSrc:"A: I want you to come to the party.\nB: All right, I'll gladly come!",
        funFact:"In English you say 'I want you to come' with an infinitive. In Italian, when the subject changes, you must use 'che' plus the subjunctive: 'Voglio che tu venga.' If the subject stays the same, use the infinitive: 'Voglio venire' (I want to come)."},
+{type:"match",pairs:[{trg:"penso che",src:"I think that"},{trg:"credo che",src:"I believe that"},{trg:"e importante che",src:"it is important that"},{trg:"voglio che",src:"I want that"}]},
 
       {type:"teach", trg:"spero che", src:"I hope that", pos:"verb", gender:null,
        note:"Subjunctive trigger. 'Sperare' (to hope) + 'che.'\nExpresses a wish about the future.",
@@ -177,6 +178,7 @@ const UNIT_13 = {
        example:"A: Credo che il treno parta alle nove.\nB: Spero che non parta in ritardo.",
        exampleSrc:"A: I believe the train leaves at nine.\nB: I hope it does not leave late.",
        funFact:"'Partire' versus 'andare': both can mean 'to leave,' but 'partire' emphasizes departure (leaving a place), while 'andare' emphasizes direction (going somewhere). The subjunctive of 'andare' is irregular: vada."},
+{type:"match",pairs:[{trg:"prenda",src:"(that) I/you/he take (subjunctive)"},{trg:"legga",src:"(that) I/you/he read (subjunctive)"},{trg:"dorma",src:"(that) I/you/he sleep (subjunctive)"},{trg:"parta",src:"(that) I/you/he leave (subjunctive)"}]},
 
       {type:"teach", trg:"finisca", src:"(that) I/you/he finish (subjunctive)", pos:"verb", gender:null,
        note:"Subjunctive of 'finire' (-ire with -isc-). Adds -isc- in singular.\nChe io finisca, che tu finisca, che lui finisca.",
@@ -302,6 +304,7 @@ const UNIT_13 = {
        example:"A: Penso che dica la verita.\nB: Spero che dica tutta la verita.",
        exampleSrc:"A: I think he is telling the truth.\nB: I hope he tells the whole truth.",
        funFact:"'Dire' comes from Latin 'dicere' (to say). The subjunctive keeps the Latin stem 'dic-.' Many Italian derivatives preserve it: dizione (diction), dizionario (dictionary), contraddire (to contradict). The -c- is always hard, like 'k.'"},
+{type:"match",pairs:[{trg:"abbia",src:"(that) I/you/he have (subjunctive)"},{trg:"faccia",src:"(that) I/you/he do/make (subjunctive)"},{trg:"vada",src:"(that) I/you/he go (subjunctive)"},{trg:"dica",src:"(that) I/you/he say (subjunctive)"}]},
 
       {type:"teach", trg:"possa", src:"(that) I/you/he can (subjunctive)", pos:"verb", gender:null,
        note:"Subjunctive of 'potere.' Irregular stem 'poss-'.\nChe io possa, che tu possa, che lui possa.",

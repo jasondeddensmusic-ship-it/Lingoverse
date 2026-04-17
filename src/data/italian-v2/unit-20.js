@@ -48,6 +48,7 @@ const UNIT_20 = {
        example:"A: Quando dai l'esame?\nB: L'esame e venerdi mattina.",
        exampleSrc:"A: When do you take the exam?\nB: The exam is Friday morning.",
        funFact:"In Italian you 'give' an exam ('dare un esame'), not 'take' it. At the end of high school, all students face the 'esame di maturita' (maturity exam), a grueling multi-day test that includes written essays and an oral examination by a commission."},
+{type:"match",pairs:[{trg:"il liceo",src:"the academic high school"},{trg:"la materia",src:"the (school) subject"},{trg:"il voto",src:"the grade / mark"},{trg:"l'esame",src:"the exam"}]},
 
       {type:"teach", trg:"frequentare", src:"to attend (school/classes)", pos:"verb", gender:null,
        note:"Regular -are verb. 'Frequentare la scuola' = to attend school.\nAlso: 'frequentare qualcuno' = to hang out with someone.",
@@ -143,6 +144,7 @@ const UNIT_20 = {
        example:"A: La sua ricerca e molto interessante.\nB: Si, studia i cambiamenti climatici.",
        exampleSrc:"A: His research is very interesting.\nB: Yes, he studies climate change.",
        funFact:"'Ricerca' comes from 'ri-' (again) + 'cercare' (to search), meaning 'to search thoroughly.' Italy invests less in research than many European countries, leading to 'fuga di cervelli' (brain drain), where talented researchers move abroad for better funding and opportunities."},
+{type:"match",pairs:[{trg:"la laurea",src:"the degree / diploma"},{trg:"la facolta",src:"the faculty / department"},{trg:"la tesi",src:"the thesis"},{trg:"la ricerca",src:"the research"}]},
 
       {type:"teach", trg:"iscriversi", src:"to enroll / to register", pos:"verb", gender:null,
        note:"Reflexive -ere verb. 'Iscriversi all'universita' = to enroll in university.\nPast participle: iscritto.",
@@ -244,6 +246,7 @@ const UNIT_20 = {
        example:"A: Quanti corsi segui questo semestre?\nB: Ne seguo cinque.",
        exampleSrc:"A: How many courses are you taking this semester?\nB: I am taking five.",
        funFact:"Italian university courses are structured differently from American ones. Many are full-year rather than semester-based. Attendance is often optional ('frequenza non obbligatoria'), meaning students can study independently and just show up for exams. This freedom surprises many international students."},
+{type:"match",pairs:[{trg:"il ricercatore",src:"the researcher"},{trg:"promuovere",src:"to promote / to pass (a student)"},{trg:"l'iscrizione",src:"the enrollment / registration"},{trg:"il corso",src:"the course / class"}]},
 
       {type:"teach", trg:"l'appello", src:"the exam session / call", pos:"noun", gender:"m",
        note:"Masculine. From 'appellare' (to call).\nItalian students get multiple exam dates per session to retake exams.",
