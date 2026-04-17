@@ -8,20 +8,20 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
 
   {type:"teach", trg:"きもの", src:"kimono (traditional garment)", pos:"noun", gender:null,
    note:"The traditional Japanese garment. きものをきる = to wear a kimono.\nKanji: 着物 (thing to wear).",
-   example:"A: きものをきたことがありますか？\nB: はい、きょうとでレンタルしてきました。",
-   exampleSrc:"A: Have you worn a kimono before?\nB: Yes, I rented one in Kyoto and wore it.",
+   example:"A: きものをきたことがありますか？\nB: はい、きょうとでレンタルしてきました。\nA: それはいいですね。\nB: はい、とても楽(たの)しかったです。",
+   exampleSrc:"A: Have you worn a kimono before?\nB: Yes, I rented one in Kyoto and wore it.\nA: That is nice.\nB: Yes, it was very fun.",
    funFact:"着物 literally means 'thing to wear' (着 = wear, 物 = thing). Kimono rental shops in Kyoto and Asakusa are hugely popular with tourists and Japanese people alike. A full kimono outfit includes the garment, obi belt, tabi socks, and geta sandals. Dressing properly requires skill."},
 
   {type:"teach", trg:"はなみ", src:"cherry blossom viewing", pos:"noun", gender:null,
    note:"はな (flower) + み (viewing). The springtime tradition of viewing cherry blossoms.\nKanji: 花見.",
-   example:"A: はなみをしたことがありますか？\nB: はい、うえのこうえんではなみをしました。とてもきれいでした。",
-   exampleSrc:"A: Have you done cherry blossom viewing before?\nB: Yes, I did hanami at Ueno Park. It was very beautiful.",
+   example:"A: はなみをしたことがありますか？\nB: はい、うえのこうえんではなみをしました。とてもきれいでした。\nA: そうですか。よかったですね。\nB: はい、いい経験(けいけん)でした。",
+   exampleSrc:"A: Have you done cherry blossom viewing before?\nB: Yes, I did hanami at Ueno Park. It was very beautiful.\nA: Is that so? That is good.\nB: Yes, it was a good experience.",
    funFact:"Hanami season (late March to mid-April) is a national event. Colleagues, families, and friends gather under cherry trees to eat, drink, and celebrate. Companies send junior employees early in the morning to claim spots with blue tarps. The sakura forecast (さくらよほう) is broadcast on national news."},
 
   {type:"teach", trg:"さどう", src:"tea ceremony", pos:"noun", gender:null,
    note:"The traditional art of preparing and serving matcha tea.\nKanji: 茶道 (way of tea).",
-   example:"A: さどうをたいけんしたことがありますか？\nB: いいえ、いちどやってみたいです。",
-   exampleSrc:"A: Have you experienced tea ceremony before?\nB: No, I want to try it once.",
+   example:"A: さどうをたいけんしたことがありますか？\nB: いいえ、いちどやってみたいです。\nA: また行(い)きたいですか？\nB: はい、ぜひ行(い)きたいです。",
+   exampleSrc:"A: Have you experienced tea ceremony before?\nB: No, I want to try it once.\nA: Do you want to go again?\nB: Yes, I definitely want to go.",
    funFact:"茶道 combines 茶 (tea) and 道 (way/path). Tea ceremony is not just about drinking tea but about mindfulness, aesthetics, and respect. The four principles are wa (harmony), kei (respect), sei (purity), and jaku (tranquility). A single ceremony can take up to four hours."},
 
   {type:"mc", q:"はなみをしたことがありますか means:", opts:["Do you like flowers?","Have you gone flower shopping?","Have you done cherry blossom viewing?","Will you go see flowers?"], ans:"Have you done cherry blossom viewing?",
@@ -29,20 +29,20 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
 
   {type:"teach", trg:"たいけん", src:"hands-on experience", pos:"noun", gender:null,
    note:"たいけんする = to experience (hands-on). More active than けいけん.\nKanji: 体験.",
-   example:"A: にほんでどんなたいけんをしましたか？\nB: おんせんとさどうをたいけんしました。",
-   exampleSrc:"A: What kind of experiences did you have in Japan?\nB: I experienced hot springs and tea ceremony.",
+   example:"A: にほんでどんなたいけんをしましたか？\nB: おんせんとさどうをたいけんしました。\nA: どのくらいかかりましたか？\nB: だいたい二時間(にじかん)ぐらいです。",
+   exampleSrc:"A: What kind of experiences did you have in Japan?\nB: I experienced hot springs and tea ceremony.\nA: How long did it take?\nB: About two hours.",
    funFact:"体験 combines 体 (body) and 験 (test/experience), emphasizing physical, hands-on experience. たいけんきょうしつ (experience class) and たいけんツアー (experience tour) are common tourist activities. The nuance differs from けいけん (general life experience): たいけん implies active participation."},
 
   {type:"teach", trg:"ゆかた", src:"yukata (light summer kimono)", pos:"noun", gender:null,
    note:"A casual, cotton kimono worn in summer and at hot spring resorts.\nKanji: 浴衣.",
-   example:"A: おまつりでゆかたをきたことがありますか？\nB: はい、とてもすずしくてきもちよかったです。",
-   exampleSrc:"A: Have you worn a yukata at a festival before?\nB: Yes, it was very cool and comfortable.",
+   example:"A: おまつりでゆかたをきたことがありますか？\nB: はい、とてもすずしくてきもちよかったです。\nA: 難(むずか)しかったですか？\nB: 最初(さいしょ)は難(むずか)しかったですが、慣(な)れました。",
+   exampleSrc:"A: Have you worn a yukata at a festival before?\nB: Yes, it was very cool and comfortable.\nA: Was it difficult?\nB: It was difficult at first, but I got used to it.",
    funFact:"浴衣 combines 浴 (bathe) and 衣 (clothing), as it was originally a bathrobe. Today, yukata are worn at summer festivals, fireworks displays, and ryokan (traditional inns). They are simpler and cheaper than formal kimono, making them accessible to everyone."},
 
   {type:"teach", trg:"はなび", src:"fireworks", pos:"noun", gender:null,
    note:"はな (flower) + び/ひ (fire) = 'flower fire.' Summer tradition.\nKanji: 花火. はなびたいかい = fireworks festival.",
-   example:"A: はなびたいかいにいったことがありますか？\nB: はい、すみだがわのはなびをみました。すごかったです！",
-   exampleSrc:"A: Have you been to a fireworks festival?\nB: Yes, I saw the Sumida River fireworks. It was amazing!",
+   example:"A: はなびたいかいにいったことがありますか？\nB: はい、すみだがわのはなびをみました。すごかったです！\nA: おすすめですか？\nB: はい、ぜひ試(ため)してみてください。",
+   exampleSrc:"A: Have you been to a fireworks festival?\nB: Yes, I saw the Sumida River fireworks. It was amazing!\nA: Do you recommend it?\nB: Yes, please try it.",
    funFact:"花火 literally means 'flower fire,' beautifully describing how fireworks bloom in the sky. Japan's fireworks festivals are summer highlights. The Sumida River festival in Tokyo dates back to 1733. Spectators shout 'tamaya!' and 'kagiya!' (names of historic fireworks makers) as fireworks burst."},
 
   {type:"fb", s:"さどうを{1}したことがありますか？\n(Have you experienced tea ceremony before?)", a:"たいけん", opts:["たいけん","けいけん","べんきょう","れんしゅう"], sSrc:"Have you experienced tea ceremony before?",
@@ -50,14 +50,14 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
 
   {type:"teach", trg:"おせちりょうり", src:"New Year's cuisine", pos:"noun", gender:null,
    note:"Special dishes eaten at New Year. Each dish has symbolic meaning.\nKanji: おせち料理.",
-   example:"A: おせちりょうりをたべたことがありますか？\nB: いいえ、でもいちどたべてみたいです。",
-   exampleSrc:"A: Have you eaten New Year's cuisine before?\nB: No, but I want to try it once.",
+   example:"A: おせちりょうりをたべたことがありますか？\nB: いいえ、でもいちどたべてみたいです。\nA: 一緒(いっしょ)に行(い)きませんか？\nB: いいですね。行(い)きましょう。",
+   exampleSrc:"A: Have you eaten New Year's cuisine before?\nB: No, but I want to try it once.\nA: Shall we go together?\nB: That sounds good. Let's go.",
    funFact:"Each osechi dish has meaning: kuromame (black beans) for health, kazunoko (herring roe) for fertility, ebi (shrimp) for longevity. Dishes are packed in jubako (stacked lacquer boxes). Modern families increasingly buy pre-made osechi from department stores rather than cooking every dish from scratch."},
 
   {type:"teach", trg:"おみやげ", src:"souvenir / gift from a trip", pos:"noun", gender:null,
    note:"Gifts bought during travel for friends, family, and coworkers.\nKanji: お土産.",
-   example:"A: にほんでおみやげをかったことがありますか？\nB: はい、おかしとストラップをかいました。",
-   exampleSrc:"A: Have you bought souvenirs in Japan?\nB: Yes, I bought sweets and phone straps.",
+   example:"A: にほんでおみやげをかったことがありますか？\nB: はい、おかしとストラップをかいました。\nA: どこがおすすめですか？\nB: 京都(きょうと)がおすすめです。",
+   exampleSrc:"A: Have you bought souvenirs in Japan?\nB: Yes, I bought sweets and phone straps.\nA: Where do you recommend?\nB: I recommend Kyoto.",
    funFact:"Omiyage culture is a deeply ingrained social obligation. When traveling, you are expected to buy treats for coworkers and friends. Train stations have entire floors dedicated to omiyage. Regional specialties (めいぶつ) are the standard choice. Forgetting omiyage can cause social awkwardness."},
 
   {type:"mc", q:"はなび literally means:", opts:["sky light","big sound","flower fire","star rain"], ans:"flower fire",
@@ -65,8 +65,8 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
 
   {type:"teach", trg:"もみじ", src:"autumn leaves / maple", pos:"noun", gender:null,
    note:"The autumn equivalent of はなみ. もみじがり = autumn leaf viewing.\nKanji: 紅葉.",
-   example:"A: もみじがりにいったことがありますか？\nB: はい、きょうとのもみじはほんとうにきれいでした。",
-   exampleSrc:"A: Have you gone autumn leaf viewing before?\nB: Yes, the autumn leaves in Kyoto were truly beautiful.",
+   example:"A: もみじがりにいったことがありますか？\nB: はい、きょうとのもみじはほんとうにきれいでした。\nA: 何(なに)が一番(いちばん)良(よ)かったですか？\nB: 食(た)べ物(もの)が一番(いちばん)おいしかったです。",
+   exampleSrc:"A: Have you gone autumn leaf viewing before?\nB: Yes, the autumn leaves in Kyoto were truly beautiful.\nA: What was the best part?\nB: The food was the most delicious.",
    funFact:"紅葉 uses the kanji for 'crimson leaves.' もみじがり (autumn leaf hunting) is as beloved as はなみ (cherry blossom viewing). Kyoto, Nikko, and Hakone are top spots. The season runs from October to December, moving from north to south, opposite to the cherry blossom front."},
 
   {type:"fb", s:"にほんで{1}をかったことがありますか？\n(Have you bought souvenirs in Japan?)", a:"おみやげ", opts:["おみやげ","おかし","きもの","おちゃ"], sSrc:"Have you bought souvenirs in Japan?",

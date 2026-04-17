@@ -8,20 +8,20 @@ const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:
 
   {type:"teach", trg:"かど", src:"corner", pos:"noun", gender:null,
    note:"The corner of a street or building. つぎのかど = the next corner.\nKanji: 角.",
-   example:"A: つぎのかどをみぎにまがってください。\nB: このかどですか？\nA: いいえ、つぎのかどです。",
-   exampleSrc:"A: Please turn right at the next corner.\nB: This corner?\nA: No, the next corner.",
+   example:"A: つぎのかどをみぎにまがってください。\nB: このかどですか？\nA: いいえ、つぎのかどです。\nB: わかりました。ありがとうございます。",
+   exampleSrc:"A: Please turn right at the next corner.\nB: This corner?\nA: No, the next corner.\nB: I understand. Thank you.",
    funFact:"角 also means 'angle' and 'horn.' In directions, かどをまがる (turn at the corner) is the most common phrase. Japanese streets are famously unnamed in many areas, so 'the second corner' or 'the corner by the convenience store' are typical direction landmarks."},
 
   {type:"teach", trg:"こうさてん", src:"intersection / crossroads", pos:"noun", gender:null,
    note:"Where two or more roads meet. Larger than a simple corner.\nKanji: 交差点.",
-   example:"A: おおきなこうさてんをわたってまっすぐいってください。\nB: しんごうのあるこうさてんですか？",
-   exampleSrc:"A: Cross the big intersection and go straight.\nB: The intersection with the traffic light?",
+   example:"A: おおきなこうさてんをわたってまっすぐいってください。\nB: しんごうのあるこうさてんですか？\nA: いつですか？\nB: 去年(きょねん)の夏(なつ)でした。",
+   exampleSrc:"A: Cross the big intersection and go straight.\nB: The intersection with the traffic light?\nA: When was it?\nB: It was last summer.",
    funFact:"交差点 combines 交 (intersect), 差 (difference/point), and 点 (point). Major intersections in Tokyo like Shibuya Scramble Crossing are famous worldwide. Japanese intersections often have names displayed on signs, which helps with navigation when street names are absent."},
 
   {type:"teach", trg:"つきあたり", src:"end of the road / dead end", pos:"noun", gender:null,
    note:"Where the road ends and you must turn. つきあたりをみぎ = turn right at the end.\nKanji: 突き当たり.",
-   example:"A: このみちのつきあたりをひだりにまがってください。\nB: わかりました。つきあたりをひだりですね。",
-   exampleSrc:"A: Turn left at the end of this road.\nB: Got it. Left at the dead end.",
+   example:"A: このみちのつきあたりをひだりにまがってください。\nB: わかりました。つきあたりをひだりですね。\nA: それはいいですね。\nB: はい、とても楽(たの)しかったです。",
+   exampleSrc:"A: Turn left at the end of this road.\nB: Got it. Left at the dead end.\nA: That is nice.\nB: Yes, it was very fun.",
    funFact:"突き当たり literally means 'the place you bump into.' It vividly describes reaching the end of a road where you cannot go forward. In a country of narrow, winding streets like Japan, dead ends are common and つきあたり is an essential direction word."},
 
   {type:"mc", q:"つぎのかどをみぎにまがってください means:", opts:["Turn left at this corner","Turn right at the next corner","Go straight past the corner","Stop at the corner"], ans:"Turn right at the next corner",
@@ -29,20 +29,20 @@ const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:
 
   {type:"teach", trg:"コンビニ", src:"convenience store", pos:"noun", gender:null,
    note:"From English 'convenience (store).' The most useful landmark in Japan.\nOpen 24/7.",
-   example:"A: コンビニのとなりにゆうびんきょくがあります。\nB: セブンイレブンのよこですか？",
-   exampleSrc:"A: There is a post office next to the convenience store.\nB: Next to the 7-Eleven?",
+   example:"A: コンビニのとなりにゆうびんきょくがあります。\nB: セブンイレブンのよこですか？\nA: そうですか。よかったですね。\nB: はい、いい経験(けいけん)でした。",
+   exampleSrc:"A: There is a post office next to the convenience store.\nB: Next to the 7-Eleven?\nA: Is that so? That is good.\nB: Yes, it was a good experience.",
    funFact:"Japan has over 56,000 convenience stores. They are everywhere, open 24 hours, and serve as ATMs, copy centers, ticket offices, bill payment points, and meal providers. When giving directions, コンビニ is the most reliable landmark because there is almost always one nearby."},
 
   {type:"teach", trg:"となり", src:"next to / beside", pos:"noun", gender:null,
    note:"Xのとなり = next to X. For things side by side.\nKanji: 隣.",
-   example:"A: ぎんこうはどこですか？\nB: ゆうびんきょくのとなりにあります。",
-   exampleSrc:"A: Where is the bank?\nB: It is next to the post office.",
+   example:"A: ぎんこうはどこですか？\nB: ゆうびんきょくのとなりにあります。\nA: また行(い)きたいですか？\nB: はい、ぜひ行(い)きたいです。",
+   exampleSrc:"A: Where is the bank?\nB: It is next to the post office.\nA: Do you want to go again?\nB: Yes, I definitely want to go.",
    funFact:"となり specifically means 'adjacent/next door.' It is for things directly beside each other. For 'near' but not adjacent, use ちかく. For 'across from,' use むかい. These precise spatial words are crucial because Japanese addresses do not follow a linear numbering system."},
 
   {type:"teach", trg:"むかい", src:"across from / opposite", pos:"noun", gender:null,
    note:"Xのむかい = across from X. For things facing each other.\nKanji: 向かい.",
-   example:"A: レストランはえきのむかいにあります。\nB: えきのまえのとおりのむかいがわですか？",
-   exampleSrc:"A: The restaurant is across from the station.\nB: On the opposite side of the street in front of the station?",
+   example:"A: レストランはえきのむかいにあります。\nB: えきのまえのとおりのむかいがわですか？\nA: どのくらいかかりましたか？\nB: だいたい二時間(にじかん)ぐらいです。",
+   exampleSrc:"A: The restaurant is across from the station.\nB: On the opposite side of the street in front of the station?\nA: How long did it take?\nB: About two hours.",
    funFact:"向かい comes from 向く (to face). It describes things on opposite sides, typically of a street. むかいのいえ (the house across the street) is how Japanese people often describe their neighbors. Japan's block-based address system makes relative positions (next to, across from) crucial."},
 
   {type:"fb", s:"コンビニの{1}にゆうびんきょくがあります。\n(There is a post office next to the convenience store.)", a:"となり", opts:["となり","まえ","うしろ","うえ"], sSrc:"There is a post office next to the convenience store.",
@@ -50,14 +50,14 @@ const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:
 
   {type:"teach", trg:"あいだ", src:"between / in between", pos:"noun", gender:null,
    note:"AとBのあいだ = between A and B. For things in the middle.\nKanji: 間.",
-   example:"A: としょかんはぎんこうとびょういんのあいだにあります。\nB: ああ、あのたてものですか。わかりました。",
-   exampleSrc:"A: The library is between the bank and the hospital.\nB: Ah, that building. I see.",
+   example:"A: としょかんはぎんこうとびょういんのあいだにあります。\nB: ああ、あのたてものですか。わかりました。\nA: 難(むずか)しかったですか？\nB: 最初(さいしょ)は難(むずか)しかったですが、慣(な)れました。",
+   exampleSrc:"A: The library is between the bank and the hospital.\nB: Ah, that building. I see.\nA: Was it difficult?\nB: It was difficult at first, but I got used to it.",
    funFact:"間 is one of the most versatile kanji in Japanese. As あいだ it means 'between/during.' As ま it means 'space/room/pause.' As かん it means 'interval.' 時間 (jikan, time), 人間 (ningen, human), 空間 (kuukan, space) all use this kanji."},
 
   {type:"teach", trg:"めじるし", src:"landmark / reference point", pos:"noun", gender:null,
    note:"め (eye) + じるし (mark). Something that catches your eye as a guide.\nKanji: 目印.",
-   example:"A: なにかめじるしはありますか？\nB: おおきなあかいたてものがめじるしです。",
-   exampleSrc:"A: Is there a landmark?\nB: A big red building is the landmark.",
+   example:"A: なにかめじるしはありますか？\nB: おおきなあかいたてものがめじるしです。\nA: おすすめですか？\nB: はい、ぜひ試(ため)してみてください。",
+   exampleSrc:"A: Is there a landmark?\nB: A big red building is the landmark.\nA: Do you recommend it?\nB: Yes, please try it.",
    funFact:"目印 literally means 'eye mark.' In a country where streets often lack names and addresses are block-based, landmarks are the primary navigation tool. なにかめじるしはありますか (Is there a landmark?) is the most useful direction question in Japan."},
 
   {type:"mc", q:"AとBのあいだ means:", opts:["next to A and B","in front of A and B","between A and B","behind A and B"], ans:"between A and B",
@@ -65,14 +65,14 @@ const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:
 
   {type:"teach", trg:"まいご", src:"lost (person)", pos:"noun", gender:null,
    note:"まいごになる = to get lost. Mainly used for people.\nKanji: 迷子.",
-   example:"A: すみません、まいごになってしまいました。\nB: どこにいきたいですか？",
-   exampleSrc:"A: Excuse me, I have gotten lost.\nB: Where do you want to go?",
+   example:"A: すみません、まいごになってしまいました。\nB: どこにいきたいですか？\nA: 一緒(いっしょ)に行(い)きませんか？\nB: いいですね。行(い)きましょう。",
+   exampleSrc:"A: Excuse me, I have gotten lost.\nB: Where do you want to go?\nA: Shall we go together?\nB: That sounds good. Let's go.",
    funFact:"迷子 combines 迷 (lost/bewildered) and 子 (child). While it originally referred to lost children, adults use まいごになった (got lost) casually too. In train stations, service counters (サービスカウンター) help lost travelers. Tokyo Station's complex layout is notorious for confusing even locals."},
 
   {type:"teach", trg:"ちかく", src:"nearby / close", pos:"noun", gender:null,
    note:"Xのちかく = near X. Broader than となり (next to).\nKanji: 近く.",
-   example:"A: このちかくにコンビニはありますか？\nB: はい、あのかどにあります。",
-   exampleSrc:"A: Is there a convenience store nearby?\nB: Yes, there is one at that corner.",
+   example:"A: このちかくにコンビニはありますか？\nB: はい、あのかどにあります。\nA: どこがおすすめですか？\nB: 京都(きょうと)がおすすめです。",
+   exampleSrc:"A: Is there a convenience store nearby?\nB: Yes, there is one at that corner.\nA: Where do you recommend?\nB: I recommend Kyoto.",
    funFact:"近く is the noun form of 近い (close). このちかくに... (around here, is there a...) is one of the most practical travel phrases. Japanese people are generally very helpful when asked for directions, often walking with you partway to your destination."},
 
   {type:"fb", s:"すみません、{1}になってしまいました。\n(Excuse me, I have gotten lost.)", a:"まいご", opts:["まいご","まよい","まえ","まがり"], sSrc:"Excuse me, I have gotten lost.",

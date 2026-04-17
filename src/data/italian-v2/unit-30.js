@@ -26,20 +26,20 @@ const UNIT_30 = {
 
       {type:"teach", trg:"se avessi", src:"if I had (subjunctive)", pos:"verb", gender:null,
        note:"Imperfect subjunctive of 'avere.' Used in hypothetical conditions.\nSe avessi, se avessi, se avesse, se avessimo, se aveste, se avessero.",
-       example:"A: Se avessi piu tempo, leggerei di piu.\nB: Anch'io. Il lavoro prende tutto.",
-       exampleSrc:"A: If I had more time, I would read more.\nB: Me too. Work takes everything.",
+       example:"A: Se avessi piu tempo, leggerei di piu.\nB: Anch'io. Il lavoro prende tutto.\nA: Ne vale la pena?\nB: Decisamente si, te lo consiglio.\nA: E un fenomeno recente?\nB: Non proprio, ha radici che risalgono a decenni fa.",
+       exampleSrc:"A: If I had more time, I would read more.\nB: Me too. Work takes everything.\nA: Is it worth it?\nB: Definitely yes, I recommend it.\nA: Is it a recent phenomenon?\nB: Not exactly, it has roots that go back decades.",
        funFact:"The subjunctive is a shibboleth of educated Italian. Using 'se avessi' correctly (instead of the common error 'se avrei') instantly marks someone as a careful speaker. Grammar purists wage constant battle over this."},
 
       {type:"teach", trg:"se fossi", src:"if I were (subjunctive)", pos:"verb", gender:null,
        note:"Imperfect subjunctive of 'essere.' Irregular but very common.\nSe fossi, se fossi, se fosse, se fossimo, se foste, se fossero.",
-       example:"A: Se fossi ricco, comprerei una casa al mare.\nB: Chi non lo farebbe?",
-       exampleSrc:"A: If I were rich, I would buy a house by the sea.\nB: Who would not?",
+       example:"A: Se fossi ricco, comprerei una casa al mare.\nB: Chi non lo farebbe?\nA: E anche la mia opinione.\nB: Bene, allora siamo d'accordo su questo punto.\nA: Possiamo approfondire questo aspetto?\nB: Certo, e un tema che merita una discussione piu ampia.",
+       exampleSrc:"A: If I were rich, I would buy a house by the sea.\nB: Who would not?\nA: That is my opinion too.\nB: Good, then we agree on this point.\nA: Can we explore this aspect further?\nB: Of course, it is a topic that deserves a broader discussion.",
        funFact:"'Se fossi in te' (if I were you) is one of the most common subjunctive phrases in spoken Italian. Even Italians who avoid the subjunctive in other contexts tend to use this one correctly."},
 
       {type:"teach", trg:"se potessi", src:"if I could (subjunctive)", pos:"verb", gender:null,
        note:"Imperfect subjunctive of 'potere.' Used to express hypothetical ability.\nSe potessi, se potessi, se potesse, se potessimo, se poteste, se potessero.",
-       example:"A: Se potessi tornare indietro, studierei medicina.\nB: Non e mai troppo tardi per cambiare.",
-       exampleSrc:"A: If I could go back, I would study medicine.\nB: It is never too late to change.",
+       example:"A: Se potessi tornare indietro, studierei medicina.\nB: Non e mai troppo tardi per cambiare.\nA: Dove lo hai scoperto?\nB: Su internet, in un articolo molto interessante.\nA: C'e qualcosa che mi sfugge?\nB: Forse il fatto che il contesto storico e molto complesso.",
+       exampleSrc:"A: If I could go back, I would study medicine.\nB: It is never too late to change.\nA: Where did you discover it?\nB: On the internet, in a very interesting article.\nA: Am I missing something?\nB: Perhaps the fact that the historical context is very complex.",
        funFact:"Italian pop music is full of 'se potessi' phrases. The hypothetical condition structure appears in countless song lyrics because it expresses longing, regret, and dreams, the emotional core of Italian music."},
 
       {type:"mc",
@@ -50,14 +50,14 @@ const UNIT_30 = {
 
       {type:"teach", trg:"se sapessi", src:"if I knew (subjunctive)", pos:"verb", gender:null,
        note:"Imperfect subjunctive of 'sapere.' Used for hypothetical knowledge.\nSe sapessi, se sapessi, se sapesse, se sapessimo, se sapeste, se sapessero.",
-       example:"A: Se sapessi parlare cinese, lavorerei a Pechino.\nB: Potresti sempre impararlo.",
-       exampleSrc:"A: If I knew how to speak Chinese, I would work in Beijing.\nB: You could always learn it.",
+       example:"A: Se sapessi parlare cinese, lavorerei a Pechino.\nB: Potresti sempre impararlo.\nA: E un buon segno.\nB: Si, sono ottimista per il futuro.\nA: Qual e la tua posizione in merito?\nB: Personalmente credo che serva un approccio piu equilibrato.",
+       exampleSrc:"A: If I knew how to speak Chinese, I would work in Beijing.\nB: You could always learn it.\nA: It is a good sign.\nB: Yes, I am optimistic about the future.\nA: What is your position on the matter?\nB: Personally I believe a more balanced approach is needed.",
        funFact:"'Se sapessi!' (if only you knew!) is a common exclamation used to hint at secret knowledge or unexpressed feelings. It leaves the sentence deliberately unfinished, creating dramatic suspense in conversation."},
 
       {type:"teach", trg:"volevo che", src:"I wanted (someone) to...", pos:"verb", gender:null,
        note:"'Volere' in the imperfect + 'che' triggers the congiuntivo imperfetto.\n'Volevo che venisse' = I wanted him/her to come.",
-       example:"A: Volevo che mi dicesse la verita.\nB: Ma ha preferito mentire.",
-       exampleSrc:"A: I wanted him to tell me the truth.\nB: But he preferred to lie.",
+       example:"A: Volevo che mi dicesse la verita.\nB: Ma ha preferito mentire.\nA: Che bello! Congratulazioni!\nB: Grazie mille, sono davvero contento.\nA: Credi che la situazione migliorera?\nB: Dipende dalle scelte che faremo nei prossimi mesi.",
+       exampleSrc:"A: I wanted him to tell me the truth.\nB: But he preferred to lie.\nA: How wonderful! Congratulations!\nB: Thank you so much, I am really happy.\nA: Do you think the situation will improve?\nB: It depends on the choices we make in the coming months.",
        funFact:"The sequence of tenses ('concordanza dei tempi') in Italian is stricter than in English. When the main verb is past, the subjunctive clause must use the imperfect subjunctive, not the present: 'Volevo che venisse,' never 'Volevo che venga.'"},
 
       {type:"fb",
@@ -136,20 +136,20 @@ const UNIT_30 = {
 
       {type:"teach", trg:"se avessi avuto", src:"if I had had (past subjunctive)", pos:"verb", gender:null,
        note:"Congiuntivo trapassato: auxiliary (avessi/fossi) + past participle.\nUsed in type 3 hypothetical sentences for past unreal conditions.",
-       example:"A: Se avessi avuto piu coraggio, avrei parlato.\nB: Non e mai facile dire la verita.",
-       exampleSrc:"A: If I had had more courage, I would have spoken.\nB: It is never easy to tell the truth.",
+       example:"A: Se avessi avuto piu coraggio, avrei parlato.\nB: Non e mai facile dire la verita.\nA: C'e qualcosa che posso fare?\nB: Grazie, per adesso va tutto bene.\nA: Come si confronta con altri paesi?\nB: L'Italia ha le sue specificita, ma il trend e simile in Europa.",
+       exampleSrc:"A: If I had had more courage, I would have spoken.\nB: It is never easy to tell the truth.\nA: Is there anything I can do?\nB: Thanks, for now everything is fine.\nA: How does it compare with other countries?\nB: Italy has its own specificities, but the trend is similar in Europe.",
        funFact:"The congiuntivo trapassato is formed with the imperfect subjunctive of avere or essere plus the past participle. Despite sounding complex, Italians use it constantly to express regret: 'Se solo avessi saputo!' (If only I had known!)"},
 
       {type:"teach", trg:"se fossi stato", src:"if I had been (past subjunctive)", pos:"verb", gender:null,
        note:"Congiuntivo trapassato of 'essere': se fossi stato/a.\nUsed with verbs that take essere in compound tenses.",
-       example:"A: Se fossi stata li, avrei capito tutto.\nB: Purtroppo non potevi sapere.",
-       exampleSrc:"A: If I had been there, I would have understood everything.\nB: Unfortunately you could not have known.",
+       example:"A: Se fossi stata li, avrei capito tutto.\nB: Purtroppo non potevi sapere.\nA: Quando e successo?\nB: La settimana scorsa, di giovedi.\nA: Quali sono le conseguenze a lungo termine?\nB: Difficile dirlo, ma il cambiamento sara significativo.",
+       exampleSrc:"A: If I had been there, I would have understood everything.\nB: Unfortunately you could not have known.\nA: When did it happen?\nB: Last week, on Thursday.\nA: What are the long-term consequences?\nB: Hard to say, but the change will be significant.",
        funFact:"Note the gender agreement: 'fossi stato' (masculine), 'fossi stata' (feminine). This agreement applies to all compound tenses with essere and is a feature that English completely lacks."},
 
       {type:"teach", trg:"avrei fatto", src:"I would have done", pos:"verb", gender:null,
        note:"Condizionale passato: condizionale of avere/essere + past participle.\nThe main clause partner of the congiuntivo trapassato in type 3.",
-       example:"A: Avrei fatto le cose diversamente.\nB: Con il senno di poi, tutti saremmo piu saggi.",
-       exampleSrc:"A: I would have done things differently.\nB: With hindsight, we would all be wiser.",
+       example:"A: Avrei fatto le cose diversamente.\nB: Con il senno di poi, tutti saremmo piu saggi.\nA: Chi altro lo sa?\nB: Per adesso solo noi due e la famiglia.\nA: Dobbiamo restare aggiornati su questo tema.\nB: Assolutamente, e in continua evoluzione.",
+       exampleSrc:"A: I would have done things differently.\nB: With hindsight, we would all be wiser.\nA: Who else knows?\nB: For now just the two of us and the family.\nA: We need to stay updated on this topic.\nB: Absolutely, it is constantly evolving.",
        funFact:"'Con il senno di poi' (with the wisdom of afterwards) is Italy's equivalent of 'hindsight is 20/20.' The condizionale passato is the tense of regret, used for all the roads not taken."},
 
       {type:"mc",
@@ -160,14 +160,14 @@ const UNIT_30 = {
 
       {type:"teach", trg:"sarei andato", src:"I would have gone", pos:"verb", gender:null,
        note:"Condizionale passato of 'andare' (takes essere).\n'Sarei andato/a' shows gender agreement.",
-       example:"A: Sarei andato volentieri alla festa.\nB: Perche non sei venuto?\nA: Ero malato.",
-       exampleSrc:"A: I would have gladly gone to the party.\nB: Why did you not come?\nA: I was ill.",
+       example:"A: Sarei andato volentieri alla festa.\nB: Perche non sei venuto?\nA: Ero malato.\nA: Lo faresti di nuovo?\nB: Assolutamente si, senza esitazione.\nA: Come vedi il futuro di questo ambito?\nB: Con cautela ottimistica, se si fanno le scelte giuste.",
+       exampleSrc:"A: I would have gladly gone to the party.\nB: Why did you not come?\nA: I was ill.\nA: Would you do it again?\nB: Absolutely yes, without hesitation.\nA: How do you see the future of this field?\nB: With cautious optimism, if the right choices are made.",
        funFact:"Verbs of motion (andare, venire, partire, tornare) take essere in compound tenses. This means the past participle must agree with the subject: 'sarei andato' (male speaker), 'sarei andata' (female speaker)."},
 
       {type:"teach", trg:"se non fosse stato per", src:"if it had not been for", pos:"verb", gender:null,
        note:"Fixed expression using congiuntivo trapassato.\nExpresses gratitude or acknowledges a decisive factor.",
-       example:"A: Se non fosse stato per il tuo aiuto, non ce l'avrei fatta.\nB: Non e stato niente, sono contento di aver aiutato.",
-       exampleSrc:"A: If it had not been for your help, I would not have made it.\nB: It was nothing, I am happy to have helped.",
+       example:"A: Se non fosse stato per il tuo aiuto, non ce l'avrei fatta.\nB: Non e stato niente, sono contento di aver aiutato.\nA: E costato molto?\nB: Meno di quanto pensassi, per fortuna.\nA: E una questione di cui si parla poco.\nB: Hai ragione, meriterebbe molta piu attenzione da parte dei media.",
+       exampleSrc:"A: If it had not been for your help, I would not have made it.\nB: It was nothing, I am happy to have helped.\nA: Did it cost a lot?\nB: Less than I thought, fortunately.\nA: It is an issue that is rarely discussed.\nB: You are right, it would deserve much more attention from the media.",
        funFact:"This expression is extremely common in Italian speeches, award acceptances, and heartfelt conversations. It elegantly combines the type 3 hypothetical with acknowledgment of someone's crucial role."},
 
       {type:"fb",
@@ -213,26 +213,26 @@ const UNIT_30 = {
 
       {type:"teach", trg:"benche", src:"although / even though", pos:"conj", gender:null,
        note:"Conjunction requiring the congiuntivo.\n'Benche sia stanco, continuo a lavorare.' = Although I am tired, I keep working.",
-       example:"A: Benche sia tardi, voglio finire questo capitolo.\nB: Non esagerare, domani e un altro giorno.",
-       exampleSrc:"A: Although it is late, I want to finish this chapter.\nB: Do not overdo it, tomorrow is another day.",
+       example:"A: Benche sia tardi, voglio finire questo capitolo.\nB: Non esagerare, domani e un altro giorno.\nA: Come hai saputo?\nB: Me l'ha detto un amico ieri sera.\nA: Vorrei capire meglio i dettagli.\nB: Posso mandarti un articolo che spiega tutto molto bene.",
+       exampleSrc:"A: Although it is late, I want to finish this chapter.\nB: Do not overdo it, tomorrow is another day.\nA: How did you find out?\nB: A friend told me last night.\nA: I would like to understand the details better.\nB: I can send you an article that explains everything very well.",
        funFact:"'Benche' is considered more formal and literary than 'anche se' (even if), which takes the indicative. Using 'benche' correctly with the subjunctive is a hallmark of refined Italian writing and speech."},
 
       {type:"teach", trg:"nonostante", src:"despite / in spite of", pos:"conj", gender:null,
        note:"Takes the congiuntivo when followed by a clause, or a noun directly.\n'Nonostante piova' (despite it raining) vs. 'Nonostante la pioggia' (despite the rain).",
-       example:"A: Nonostante faccia freddo, esco a correre.\nB: Sei molto disciplinato!",
-       exampleSrc:"A: Despite the cold, I go out running.\nB: You are very disciplined!",
+       example:"A: Nonostante faccia freddo, esco a correre.\nB: Sei molto disciplinato!\nA: Cosa ne pensi?\nB: Secondo me e un'ottima scelta.\nA: Che ruolo gioca la tecnologia in tutto questo?\nB: Fondamentale, sta trasformando completamente il settore.",
+       exampleSrc:"A: Despite the cold, I go out running.\nB: You are very disciplined!\nA: What do you think?\nB: In my opinion it is an excellent choice.\nA: What role does technology play in all this?\nB: A fundamental one, it is completely transforming the sector.",
        funFact:"'Nonostante' is interchangeable with 'malgrado' in most contexts. Both require the subjunctive when followed by a verb clause. In informal speech, many Italians mistakenly use the indicative, but the subjunctive remains the grammatically correct choice."},
 
       {type:"teach", trg:"purche", src:"provided that / as long as", pos:"conj", gender:null,
        note:"Conjunction always requiring the congiuntivo.\nExpresses a necessary condition. 'Purche tu venga' = provided that you come.",
-       example:"A: Puoi uscire, purche tu finisca i compiti.\nB: Li finiro in un'ora, prometto.",
-       exampleSrc:"A: You can go out, provided that you finish your homework.\nB: I will finish it in an hour, I promise.",
+       example:"A: Puoi uscire, purche tu finisca i compiti.\nB: Li finiro in un'ora, prometto.\nA: Pensi di continuare?\nB: Si, mi piace molto e voglio migliorare.\nA: Non avevo mai pensato a questo aspetto.\nB: E un punto di vista che molti trascurano, in effetti.",
+       exampleSrc:"A: You can go out, provided that you finish your homework.\nB: I will finish it in an hour, I promise.\nA: Do you plan to continue?\nB: Yes, I like it a lot and I want to improve.\nA: I had never thought about this aspect.\nB: It is a point of view that many overlook, in fact.",
        funFact:"'Purche' is a contraction of 'pur che' (even that, as long as that). It always implies a condition that must be met. In legal and contractual Italian, 'purche' appears frequently in clauses specifying terms and conditions."},
 
       {type:"teach", trg:"a meno che", src:"unless", pos:"conj", gender:null,
        note:"Conjunction requiring the congiuntivo + 'non.'\n'A meno che non piova' = unless it rains. The 'non' is grammatically required but does NOT negate.",
-       example:"A: Verra alla festa, a meno che non sia troppo stanco.\nB: Spero che venga, lo aspettiamo tutti.",
-       exampleSrc:"A: He will come to the party, unless he is too tired.\nB: I hope he comes, we are all waiting for him.",
+       example:"A: Verra alla festa, a meno che non sia troppo stanco.\nB: Spero che venga, lo aspettiamo tutti.\nA: E stato difficile?\nB: Un po', ma alla fine ne e valsa la pena.\nA: E un argomento che mi sta a cuore.\nB: Si vede, e bello avere questa passione.",
+       exampleSrc:"A: He will come to the party, unless he is too tired.\nB: I hope he comes, we are all waiting for him.\nA: Was it difficult?\nB: A little, but in the end it was worth it.\nA: It is a topic I care about deeply.\nB: One can tell, it is nice to have that passion.",
        funFact:"The 'non' after 'a meno che' confuses many learners because it looks negative but is not. This 'non pleonastico' (redundant non) is a feature of literary Italian that persists in several fixed expressions."},
 
       {type:"mc",
@@ -243,14 +243,14 @@ const UNIT_30 = {
 
       {type:"teach", trg:"affinche", src:"so that / in order that", pos:"conj", gender:null,
        note:"Conjunction of purpose, always with the congiuntivo.\n'Affinche tu capisca' = so that you understand. Synonym: 'perche' (with subjunctive).",
-       example:"A: Ti spiego di nuovo, affinche tu capisca bene.\nB: Grazie, questa volta ho capito.",
-       exampleSrc:"A: I will explain again, so that you understand well.\nB: Thank you, this time I understood.",
+       example:"A: Ti spiego di nuovo, affinche tu capisca bene.\nB: Grazie, questa volta ho capito.\nA: E la prima volta?\nB: No, l'ho fatto anche l'anno scorso.\nA: Mi piacerebbe saperne di piu.\nB: Con piacere, possiamo continuare la prossima volta.",
+       exampleSrc:"A: I will explain again, so that you understand well.\nB: Thank you, this time I understood.\nA: Is it the first time?\nB: No, I did it last year too.\nA: I would like to know more.\nB: With pleasure, we can continue next time.",
        funFact:"'Affinche' is formal. In everyday speech, Italians prefer 'cosi' or 'per fare in modo che.' However, 'affinche' remains essential in academic, legal, and journalistic Italian."},
 
       {type:"teach", trg:"sebbene", src:"although / even though", pos:"conj", gender:null,
        note:"Conjunction requiring the congiuntivo. Synonym of 'benche.'\n'Sebbene sia difficile' = although it is difficult.",
-       example:"A: Sebbene abbia studiato molto, l'esame era difficilissimo.\nB: I risultati usciranno la settimana prossima.",
-       exampleSrc:"A: Although I studied a lot, the exam was very difficult.\nB: The results will come out next week.",
+       example:"A: Sebbene abbia studiato molto, l'esame era difficilissimo.\nB: I risultati usciranno la settimana prossima.\nA: Come ti sei trovato?\nB: Molto bene, lo consiglio a tutti.\nA: C'e una soluzione realistica?\nB: Non semplice, ma con la collaborazione di tutti e possibile.",
+       exampleSrc:"A: Although I studied a lot, the exam was very difficult.\nB: The results will come out next week.\nA: How did you find it?\nB: Very well, I recommend it to everyone.\nA: Is there a realistic solution?\nB: Not simple, but with everyone's collaboration it is possible.",
        funFact:"'Sebbene' and 'benche' are fully interchangeable. Both come from constructions meaning 'even though it be.' Italian has an unusually rich supply of concessive conjunctions, all requiring the subjunctive."},
 
       {type:"fb",
@@ -262,8 +262,8 @@ const UNIT_30 = {
 
       {type:"teach", trg:"prima che", src:"before (with subjunctive)", pos:"conj", gender:null,
        note:"Takes the congiuntivo because the action has not yet happened.\n'Prima che arrivi' = before he/she arrives.",
-       example:"A: Finisci tutto prima che torni il capo.\nB: Sto facendo il possibile!",
-       exampleSrc:"A: Finish everything before the boss comes back.\nB: I am doing my best!",
+       example:"A: Finisci tutto prima che torni il capo.\nB: Sto facendo il possibile!\nA: Da quanto tempo?\nB: Da qualche mese ormai.\nA: Ne hai discusso con altri colleghi?\nB: Si, e il consenso generale e che serve un intervento strutturale.",
+       exampleSrc:"A: Finish everything before the boss comes back.\nB: I am doing my best!\nA: For how long?\nB: For a few months now.\nA: Have you discussed it with other colleagues?\nB: Yes, and the general consensus is that structural intervention is needed.",
        funFact:"'Prima che' always takes the subjunctive because it refers to an event that has not yet occurred (and might not). 'Dopo che' (after), by contrast, takes the indicative because the event has already happened. Logic drives the grammar."},
 
       {type:"mc",

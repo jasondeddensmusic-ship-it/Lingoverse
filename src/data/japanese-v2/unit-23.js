@@ -27,14 +27,14 @@ const UNIT_23 = {
 
   {type:"teach", trg:"こと", src:"(nominalizer) the act of / -ing", pos:"part", gender:null,
    note:"Turns a verb into a noun phrase. Abstract, conceptual.\n読(よ)むことが好(す)き = I like reading.",
-   example:"A: 日本語(にほんご)を話(はな)すことは難(むずか)しいですか？\nB: はい、でも楽(たの)しいです。",
-   exampleSrc:"A: Is speaking Japanese difficult?\nB: Yes, but it is fun.",
+   example:"A: 日本語(にほんご)を話(はな)すことは難(むずか)しいですか？\nB: はい、でも楽(たの)しいです。\nA: それはいいですね。\nB: はい、とても楽(たの)しかったです。",
+   exampleSrc:"A: Is speaking Japanese difficult?\nB: Yes, but it is fun.\nA: That is nice.\nB: Yes, it was very fun.",
    funFact:"こと literally means 'thing' or 'matter' in the abstract sense. It appears in dozens of set phrases: 言葉(ことば) (words, lit. 'word-things'), 仕事(しごと) (work, lit. 'serve-thing'). As a nominalizer, こと is preferred for general truths and abstract statements."},
 
   {type:"teach", trg:"の", src:"(nominalizer) the act of / -ing (concrete)", pos:"part", gender:null,
    note:"Also turns verbs into noun phrases. Preferred for sensory, concrete, or emotional contexts.\n歌(うた)うのが好(す)き = I like singing.",
-   example:"A: ピアノを弾(ひ)くのが上手(じょうず)ですね。\nB: ありがとうございます。毎日(まいにち)練習(れんしゅう)しています。",
-   exampleSrc:"A: You are good at playing piano.\nB: Thank you. I practice every day.",
+   example:"A: ピアノを弾(ひ)くのが上手(じょうず)ですね。\nB: ありがとうございます。毎日(まいにち)練習(れんしゅう)しています。\nA: そうですか。よかったですね。\nB: はい、いい経験(けいけん)でした。",
+   exampleSrc:"A: You are good at playing piano.\nB: Thank you. I practice every day.\nA: Is that so? That is good.\nB: Yes, it was a good experience.",
    funFact:"The nominalizer の evolved from the possessive particle の. In casual speech, の is more common and warmer than こと. Women and children historically used の more, though this gender difference is fading in modern Japanese. の feels closer and more personal."},
 
   {type:"tip", title:"こと vs の: When to Use Each",
@@ -44,8 +44,8 @@ const UNIT_23 = {
 
   {type:"teach", trg:"〜ことにする", src:"to decide to ~", pos:"part", gender:null,
    note:"Dictionary form + ことにする = make a decision.\n明日早(あしたはや)く起(お)きることにする = I will decide to wake up early.",
-   example:"A: 来年(らいねん)日本(にほん)に行(い)くことにしました。\nB: すごい！楽(たの)しみですね。",
-   exampleSrc:"A: I have decided to go to Japan next year.\nB: Amazing! How exciting.",
+   example:"A: 来年(らいねん)日本(にほん)に行(い)くことにしました。\nB: すごい！楽(たの)しみですね。\nA: また行(い)きたいですか？\nB: はい、ぜひ行(い)きたいです。",
+   exampleSrc:"A: I have decided to go to Japan next year.\nB: Amazing! How exciting.\nA: Do you want to go again?\nB: Yes, I definitely want to go.",
    funFact:"ことにする literally means 'to make it a matter of doing X.' The past form ことにした (decided) is very common. There is a subtle partner: ことになる (it has been decided, impersonally). Japanese speakers often prefer ことになりました over ことにしました to avoid sounding forceful."},
 
   {type:"mc", q:"日本(にほん)に行(い)くことにしました means:", opts:["I decided to go to Japan","Going to Japan is possible","I have been to Japan","Japan decided to go"], ans:"I decided to go to Japan",
@@ -53,14 +53,14 @@ const UNIT_23 = {
 
   {type:"teach", trg:"〜ことになる", src:"it has been decided that ~ / it turns out that ~", pos:"part", gender:null,
    note:"Dictionary form + ことになる = something was decided (not by the speaker).\nUsed for external decisions, company transfers, policy changes.",
-   example:"A: 来月(らいげつ)大阪(おおさか)に転勤(てんきん)することになりました。\nB: 寂(さび)しくなりますね。",
-   exampleSrc:"A: It has been decided that I will transfer to Osaka next month.\nB: We will miss you.",
+   example:"A: 来月(らいげつ)大阪(おおさか)に転勤(てんきん)することになりました。\nB: 寂(さび)しくなりますね。\nA: どのくらいかかりましたか？\nB: だいたい二時間(にじかん)ぐらいです。",
+   exampleSrc:"A: It has been decided that I will transfer to Osaka next month.\nB: We will miss you.\nA: How long did it take?\nB: About two hours.",
    funFact:"ことになる removes personal agency. 転勤(てんきん)することにした (I decided to transfer) vs. 転勤(てんきん)することになった (the transfer was decided for me). Japanese business culture favors ことになる because it frames decisions as collective or inevitable rather than individual will."},
 
   {type:"teach", trg:"〜のが好(す)き", src:"to like doing ~", pos:"part", gender:null,
    note:"Verb dictionary form + のが好(す)き = like doing.\nCasual and natural. こと version also OK.",
-   example:"A: 絵(え)を描(か)くのが好(す)きですか？\nB: はい、大好(だいす)きです。週末(しゅうまつ)によく描(か)きます。",
-   exampleSrc:"A: Do you like drawing?\nB: Yes, I love it. I often draw on weekends.",
+   example:"A: 絵(え)を描(か)くのが好(す)きですか？\nB: はい、大好(だいす)きです。週末(しゅうまつ)によく描(か)きます。\nA: 難(むずか)しかったですか？\nB: 最初(さいしょ)は難(むずか)しかったですが、慣(な)れました。",
+   exampleSrc:"A: Do you like drawing?\nB: Yes, I love it. I often draw on weekends.\nA: Was it difficult?\nB: It was difficult at first, but I got used to it.",
    funFact:"好(す)き is technically a na-adjective, not a verb. So 'I like swimming' is 泳(およ)ぐのが好(す)きだ, not 泳(およ)ぐのを好(す)きだ. The subject particle が marks what you like. In casual speech, が often becomes は for contrast: 泳(およ)ぐのは好(す)きだけど... (I like swimming, but...)."},
 
   {type:"fb", s:"ピアノを弾(ひ)く{1}が上手(じょうず)ですね。\n(You are good at playing piano.)", a:"の", opts:["の","こと","を","が"], sSrc:"You are good at playing piano.",
@@ -68,20 +68,20 @@ const UNIT_23 = {
 
   {type:"teach", trg:"〜のを忘(わす)れる", src:"to forget to do ~", pos:"part", gender:null,
    note:"Verb dictionary form + のを忘(わす)れる = forget to do.\n鍵(かぎ)をかけるのを忘(わす)れた = I forgot to lock the door.",
-   example:"A: 電気(でんき)を消(け)すのを忘(わす)れました。\nB: 大丈夫(だいじょうぶ)、私(わたし)が消(け)します。",
-   exampleSrc:"A: I forgot to turn off the lights.\nB: It is OK, I will turn them off.",
+   example:"A: 電気(でんき)を消(け)すのを忘(わす)れました。\nB: 大丈夫(だいじょうぶ)、私(わたし)が消(け)します。\nA: おすすめですか？\nB: はい、ぜひ試(ため)してみてください。",
+   exampleSrc:"A: I forgot to turn off the lights.\nB: It is OK, I will turn them off.\nA: Do you recommend it?\nB: Yes, please try it.",
    funFact:"忘(わす)れる takes の (not こと) because forgetting involves a concrete, specific action. You forgot to do something real and immediate. This is a natural test of the こと/の distinction: abstract concepts use こと, but specific missed actions use の."},
 
   {type:"teach", trg:"忘(わす)れる", src:"to forget", pos:"verb", gender:null,
    note:"Group 2 verb. Kanji: 忘れる. Takes を for objects.\n傘(かさ)を忘(わす)れた = I forgot my umbrella.",
-   example:"A: 財布(さいふ)を忘(わす)れてしまいました。\nB: 大変(たいへん)ですね。貸(か)しましょうか？",
-   exampleSrc:"A: I forgot my wallet.\nB: Oh no. Shall I lend you some?",
+   example:"A: 財布(さいふ)を忘(わす)れてしまいました。\nB: 大変(たいへん)ですね。貸(か)しましょうか？\nA: 一緒(いっしょ)に行(い)きませんか？\nB: いいですね。行(い)きましょう。",
+   exampleSrc:"A: I forgot my wallet.\nB: Oh no. Shall I lend you some?\nA: Shall we go together?\nB: That sounds good. Let's go.",
    funFact:"忘れる uses the kanji 忘 which combines 亡 (perish/lose) and 心 (heart), meaning 'the heart has lost it.' The related 忘年会(ぼうねんかい) (bounenkai, year-end party) literally means 'forget the year gathering,' a tradition of drinking to forget the year's troubles."},
 
   {type:"teach", trg:"転勤(てんきん)", src:"job transfer / relocation", pos:"noun", gender:null,
    note:"A company-ordered transfer to another office or city.\nKanji: 転勤. Very common in Japanese corporate life.",
-   example:"A: 転勤(てんきん)することになりました。\nB: どこに転勤(てんきん)ですか？",
-   exampleSrc:"A: I am being transferred.\nB: Where are you being transferred to?",
+   example:"A: 転勤(てんきん)することになりました。\nB: どこに転勤(てんきん)ですか？\nA: どこがおすすめですか？\nB: 京都(きょうと)がおすすめです。",
+   exampleSrc:"A: I am being transferred.\nB: Where are you being transferred to?\nA: Where do you recommend?\nB: I recommend Kyoto.",
    funFact:"転勤 is a defining feature of Japanese corporate culture. Companies regularly relocate employees to different cities, sometimes with only weeks of notice. This practice, called tenkin, can separate families for years. The 'tenkin widow' (tenkin mibojin) refers to a spouse left behind."},
 
   {type:"mc", q:"電気(でんき)を消(け)すのを忘(わす)れた means:", opts:["I remembered to turn off the lights","I forgot to turn off the lights","I turned off the lights","I want to turn off the lights"], ans:"I forgot to turn off the lights",
@@ -106,14 +106,14 @@ const UNIT_23 = {
 
   {type:"teach", trg:"〜ことがある", src:"it sometimes happens that ~ / there are times when ~", pos:"part", gender:null,
    note:"Dictionary form + ことがある = sometimes happens.\nDifferent from た + ことがある (experience). Present tense = occasional event.",
-   example:"A: 朝(あさ)ご飯(はん)を食(た)べないことがあります。\nB: 体(からだ)によくないですよ。",
-   exampleSrc:"A: There are times when I skip breakfast.\nB: That is not good for your health.",
+   example:"A: 朝(あさ)ご飯(はん)を食(た)べないことがあります。\nB: 体(からだ)によくないですよ。\nA: 何(なに)が一番(いちばん)良(よ)かったですか？\nB: 食(た)べ物(もの)が一番(いちばん)おいしかったです。",
+   exampleSrc:"A: There are times when I skip breakfast.\nB: That is not good for your health.\nA: What was the best part?\nB: The food was the most delicious.",
    funFact:"The dictionary form + ことがある is easily confused with the past form + ことがある (experience). Compare: 飲(の)むことがある (I sometimes drink) vs. 飲(の)んだことがある (I have drunk before). The tense of the verb before こと completely changes the meaning."},
 
   {type:"teach", trg:"〜ことができる", src:"to be able to ~ (formal)", pos:"part", gender:null,
    note:"Dictionary form + ことができる = can do (formal/written).\nMore formal than the potential form (e.g., 読(よ)める).",
-   example:"A: この図書館(としょかん)では本(ほん)を借(か)りることができます。\nB: カードは必要(ひつよう)ですか？",
-   exampleSrc:"A: You can borrow books at this library.\nB: Do you need a card?",
+   example:"A: この図書館(としょかん)では本(ほん)を借(か)りることができます。\nB: カードは必要(ひつよう)ですか？\nA: よく行(い)きますか？\nB: 月(つき)に一回(いっかい)ぐらい行(い)きます。",
+   exampleSrc:"A: You can borrow books at this library.\nB: Do you need a card?\nA: Do you go often?\nB: I go about once a month.",
    funFact:"ことができる is the formal/written equivalent of the potential verb form. 書(か)ける (can write) is casual, 書(か)くことができる is formal. Signs, announcements, and written rules prefer ことができる. In conversation, the potential form is more natural."},
 
   {type:"mc", q:"朝(あさ)ご飯(はん)を食(た)べないことがある means:", opts:["I sometimes skip breakfast","I have never eaten breakfast","I cannot eat breakfast","I always eat breakfast"], ans:"I sometimes skip breakfast",
@@ -121,20 +121,20 @@ const UNIT_23 = {
 
   {type:"teach", trg:"〜ことはない", src:"there is no need to ~ / it will not happen that ~", pos:"part", gender:null,
    note:"Dictionary form + ことはない = no need to worry about, will not happen.\n心配(しんぱい)することはない = no need to worry.",
-   example:"A: 試験(しけん)に落(お)ちることはないですか？\nB: 毎日(まいにち)勉強(べんきょう)していれば、大丈夫(だいじょうぶ)ですよ。",
-   exampleSrc:"A: Is there any chance of failing the exam?\nB: If you study every day, it will be fine.",
+   example:"A: 試験(しけん)に落(お)ちることはないですか？\nB: 毎日(まいにち)勉強(べんきょう)していれば、大丈夫(だいじょうぶ)ですよ。\nA: 誰(だれ)と行(い)きましたか？\nB: 友達(ともだち)と一緒(いっしょ)に行(い)きました。",
+   exampleSrc:"A: Is there any chance of failing the exam?\nB: If you study every day, it will be fine.\nA: Who did you go with?\nB: I went with a friend.",
    funFact:"ことはない is a reassurance pattern. It combines the nominalizer こと with the negative は...ない to say 'the matter of X does not exist.' It is softer than saying 'impossible' and functions like English 'there is no way that...' or 'you do not need to.'"},
 
   {type:"teach", trg:"心配(しんぱい)", src:"worry / concern", pos:"noun", gender:null,
    note:"心配(しんぱい)する = to worry. 心配(しんぱい)しないで = don't worry.\nKanji: 心配. 心(しん) (heart) + 配(ぱい) (distribute).",
-   example:"A: 心配(しんぱい)することはありませんよ。\nB: ありがとう、少(すこ)し安心(あんしん)しました。",
-   exampleSrc:"A: There is nothing to worry about.\nB: Thank you, I feel a little relieved.",
+   example:"A: 心配(しんぱい)することはありませんよ。\nB: ありがとう、少(すこ)し安心(あんしん)しました。\nA: それは大変(たいへん)でしたね。\nB: はい、でもいい勉強(べんきょう)になりました。",
+   exampleSrc:"A: There is nothing to worry about.\nB: Thank you, I feel a little relieved.\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
    funFact:"心配 literally means 'distributing the heart,' as if your heart is scattered in different directions from anxiety. The opposite is 安心(あんしん) (peaceful heart). Japanese people often say 心配(しんぱい)しないで (don't worry) as reassurance, though the culture values concern for others highly."},
 
   {type:"teach", trg:"〜ないことにする", src:"to decide not to ~", pos:"part", gender:null,
    note:"Negative form + ことにする = decide not to do.\n明日(あした)は飲(の)まないことにする = I will decide not to drink tomorrow.",
-   example:"A: 甘(あま)いものを食(た)べないことにしました。\nB: ダイエットですか？頑張(がんば)ってください。",
-   exampleSrc:"A: I have decided not to eat sweets.\nB: A diet? Good luck.",
+   example:"A: 甘(あま)いものを食(た)べないことにしました。\nB: ダイエットですか？頑張(がんば)ってください。\nA: 本当(ほんとう)ですか？すごいですね。\nB: ありがとうございます。頑張(がんば)りました。",
+   exampleSrc:"A: I have decided not to eat sweets.\nB: A diet? Good luck.\nA: Really? That is amazing.\nB: Thank you. I worked hard.",
    funFact:"ないことにする is the negative decision pattern. It pairs with ないことになる (it was decided not to). Japanese speakers sometimes use ことにする about past events they want to reframe: なかったことにする (to pretend it never happened, lit. to make it a matter of not having been)."},
 
   {type:"fb", s:"この図書館(としょかん)では本(ほん)を借(か)りる{1}ができます。\n(You can borrow books at this library.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"You can borrow books at this library.",
@@ -142,20 +142,20 @@ const UNIT_23 = {
 
   {type:"teach", trg:"〜ないことはない", src:"it is not that I cannot ~ / I can, somewhat", pos:"part", gender:null,
    note:"Double negative = weak positive. 分(わ)からないことはない = it is not that I don't understand.\nA hedging expression, very Japanese.",
-   example:"A: 辛(から)いものは食(た)べられますか？\nB: 食(た)べられないことはないですが、あまり得意(とくい)ではないです。",
-   exampleSrc:"A: Can you eat spicy food?\nB: It is not that I cannot, but I am not very good with it.",
+   example:"A: 辛(から)いものは食(た)べられますか？\nB: 食(た)べられないことはないですが、あまり得意(とくい)ではないです。\nA: 私(わたし)も興味(きょうみ)があります。\nB: じゃあ、今度(こんど)一緒(いっしょ)にどうですか？",
+   exampleSrc:"A: Can you eat spicy food?\nB: It is not that I cannot, but I am not very good with it.\nA: I am also interested.\nB: Then, how about doing it together next time?",
    funFact:"The double negative ないことはない is quintessentially Japanese. Rather than directly saying 'yes' or 'no,' it hedges: 'it is not that X is not the case.' This indirect style (aimai, ambiguity) is valued in Japanese communication. Saying できないことはない is softer than できます."},
 
   {type:"teach", trg:"借(か)りる", src:"to borrow / to rent", pos:"verb", gender:null,
    note:"Group 2 verb. Kanji: 借りる. 本(ほん)を借(か)りる = borrow a book.\nOpposite: 貸(か)す (to lend).",
-   example:"A: 友達(ともだち)に車(くるま)を借(か)りました。\nB: いつ返(かえ)しますか？",
-   exampleSrc:"A: I borrowed a car from my friend.\nB: When will you return it?",
+   example:"A: 友達(ともだち)に車(くるま)を借(か)りました。\nB: いつ返(かえ)しますか？\nA: どんな感(かん)じでしたか？\nB: 想像(そうぞう)していたよりずっと良(よ)かったです。",
+   exampleSrc:"A: I borrowed a car from my friend.\nB: When will you return it?\nA: What was it like?\nB: It was much better than I imagined.",
    funFact:"借りる and 貸(か)す (lend) are a pair that learners often confuse. A simple rule: 借(か)りる moves things toward you (borrow/rent), 貸(か)す moves things away from you (lend). The kanji 借 shows a person (亻) next to 昔 (past), perhaps suggesting a temporary arrangement."},
 
   {type:"teach", trg:"安心(あんしん)", src:"relief / peace of mind", pos:"noun", gender:null,
    note:"安心(あんしん)する = to feel relieved. Kanji: 安心.\n安(あん) (peace) + 心(しん) (heart). Opposite of 心配(しんぱい).",
-   example:"A: 試験(しけん)に受(う)かりました。\nB: よかった！安心(あんしん)しました。",
-   exampleSrc:"A: I passed the exam.\nB: Great! I am relieved.",
+   example:"A: 試験(しけん)に受(う)かりました。\nB: よかった！安心(あんしん)しました。\nA: 何(なに)を食(た)べましたか？\nB: 地元(じもと)の名物(めいぶつ)を食(た)べました。",
+   exampleSrc:"A: I passed the exam.\nB: Great! I am relieved.\nA: What did you eat?\nB: I ate the local specialty.",
    funFact:"安心 means 'peaceful heart,' the exact opposite of 心配 (worried/scattered heart). It often appears in product marketing: 安心安全(あんしんあんぜん) (safe and secure). The word captures the Japanese value of finding calm certainty in an uncertain world."},
 
   {type:"mc", q:"食(た)べられないことはない means:", opts:["I absolutely cannot eat it","I can eat it, to some extent","I have never eaten it","I love eating it"], ans:"I can eat it, to some extent",

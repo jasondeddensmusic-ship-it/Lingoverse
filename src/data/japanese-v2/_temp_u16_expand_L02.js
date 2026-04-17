@@ -8,20 +8,20 @@ const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15
 
   {type:"teach", trg:"まちあわせ", src:"meeting up / rendezvous", pos:"noun", gender:null,
    note:"まちあわせする = to meet up (at a planned spot).\nまちあわせばしょ = meeting spot. Kanji: 待ち合わせ.",
-   example:"A: まちあわせはなんじですか？\nB: ごごさんじにえきのまえでまちあわせしましょう。",
-   exampleSrc:"A: What time are we meeting?\nB: Let us meet at 3 PM in front of the station.",
+   example:"A: まちあわせはなんじですか？\nB: ごごさんじにえきのまえでまちあわせしましょう。\nA: いい思(おも)い出(で)ですね。\nB: はい、一生(いっしょう)忘(わす)れません。",
+   exampleSrc:"A: What time are we meeting?\nB: Let us meet at 3 PM in front of the station.\nA: That is a nice memory.\nB: Yes, I will never forget it.",
    funFact:"待ち合わせ combines 待つ (wait) and 合わせ (matching). Japan's meeting culture is precise: you name the exact spot, time, and exit. Famous meeting spots include Hachiko statue (Shibuya), the silver bell (Tokyo Station), and the big clock (Osaka Station). Being even 5 minutes late requires a message."},
 
   {type:"teach", trg:"〜ごろ", src:"around ~ (approximate time)", pos:"part", gender:null,
    note:"Time + ごろ = approximately that time.\nさんじごろ = around three o'clock.",
-   example:"A: なんじごろにつきますか？\nB: よじごろにつくとおもいます。",
-   exampleSrc:"A: Around what time will you arrive?\nB: I think I will arrive around four.",
+   example:"A: なんじごろにつきますか？\nB: よじごろにつくとおもいます。\nA: どうでしたか？\nB: とても良(よ)かったです。",
+   exampleSrc:"A: Around what time will you arrive?\nB: I think I will arrive around four.\nA: How was it?\nB: It was very good.",
    funFact:"ごろ softens time precision: さんじ (at 3) vs さんじごろ (around 3). It is appropriate for casual plans. For business meetings, precise times are expected. The similar word ぐらい (approximately) works for duration: さんじかんぐらい (about 3 hours). ごろ is for clock times only."},
 
   {type:"teach", trg:"〜までに", src:"by ~ (deadline)", pos:"part", gender:null,
    note:"Time/date + までに = by that deadline.\nDifferent from まで (until): までに emphasizes completion.",
-   example:"A: きんようびまでにレポートをだしてください。\nB: わかりました。もくようびにだします。",
-   exampleSrc:"A: Please submit the report by Friday.\nB: Understood. I will submit it on Thursday.",
+   example:"A: きんようびまでにレポートをだしてください。\nB: わかりました。もくようびにだします。\nA: いつですか？\nB: 去年(きょねん)の夏(なつ)でした。",
+   exampleSrc:"A: Please submit the report by Friday.\nB: Understood. I will submit it on Thursday.\nA: When was it?\nB: It was last summer.",
    funFact:"までに (by) and まで (until) are commonly confused. ごじまで (until 5) means the action continues until 5. ごじまでに (by 5) means it must be done before the 5 o'clock deadline. This distinction matters greatly in work: 'work until 5' vs 'finish by 5' are very different instructions."},
 
   {type:"mc", q:"さんじごろ means:", opts:["Exactly at 3","Around 3 o'clock","Before 3","After 3"], ans:"Around 3 o'clock",
@@ -29,20 +29,20 @@ const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15
 
   {type:"teach", trg:"おくれる", src:"to be late", pos:"verb", gender:null,
    note:"Group 2 verb. おくれます = will be late. おくれてすみません = sorry for being late.\nKanji: 遅れる.",
-   example:"A: すみません、じゅっぷんおくれます。\nB: だいじょうぶです。まっています。",
-   exampleSrc:"A: Sorry, I will be ten minutes late.\nB: That is okay. I will wait.",
+   example:"A: すみません、じゅっぷんおくれます。\nB: だいじょうぶです。まっています。\nA: それはいいですね。\nB: はい、とても楽(たの)しかったです。",
+   exampleSrc:"A: Sorry, I will be ten minutes late.\nB: That is okay. I will wait.\nA: That is nice.\nB: Yes, it was very fun.",
    funFact:"In Japan, even 5 minutes late requires a message or call. おくれてすみません (sorry for being late) is the standard apology. Trains that are even 1 minute late issue official delay certificates (ちえんしょうめいしょ) that passengers show their employers. Punctuality is deeply cultural."},
 
   {type:"teach", trg:"はやい", src:"early / fast", pos:"adj", gender:null,
    note:"い-adjective. はやくつく = arrive early. はやくおきる = wake up early.\nTwo kanji: 早い (early) and 速い (fast).",
-   example:"A: すこしはやくつきました。\nB: はやいですね！ちょっとまってください。",
-   exampleSrc:"A: I arrived a little early.\nB: You are early! Please wait a moment.",
+   example:"A: すこしはやくつきました。\nB: はやいですね！ちょっとまってください。\nA: そうですか。よかったですね。\nB: はい、いい経験(けいけん)でした。",
+   exampleSrc:"A: I arrived a little early.\nB: You are early! Please wait a moment.\nA: Is that so? That is good.\nB: Yes, it was a good experience.",
    funFact:"Japanese has two kanji for はやい: 早い (early in time) and 速い (fast in speed). Arriving early is generally appreciated in Japan. For job interviews, arriving 10 minutes early is standard. For social events, arriving exactly on time or 5 minutes late is normal."},
 
   {type:"teach", trg:"よやく", src:"reservation / booking", pos:"noun", gender:null,
    note:"よやくする = to make a reservation. よやくばんごう = reservation number.\nKanji: 予約.",
-   example:"A: レストランをよやくしましたか？\nB: はい、ろくじにふたりでよやくしました。",
-   exampleSrc:"A: Did you make a restaurant reservation?\nB: Yes, I reserved for two at six.",
+   example:"A: レストランをよやくしましたか？\nB: はい、ろくじにふたりでよやくしました。\nA: また行(い)きたいですか？\nB: はい、ぜひ行(い)きたいです。",
+   exampleSrc:"A: Did you make a restaurant reservation?\nB: Yes, I reserved for two at six.\nA: Do you want to go again?\nB: Yes, I definitely want to go.",
    funFact:"Reservations are taken very seriously in Japan. No-shows (ドタキャン, last-minute cancellation) are considered extremely rude and some restaurants charge cancellation fees. When making a reservation, you will be asked: なんめいさま (how many people), なんじ (what time), and おなまえ (your name)."},
 
   {type:"fb", s:"きんようび{1}にレポートをだしてください。\n(Please submit the report by Friday.)", a:"まで", opts:["まで","ごろ","から","より"], sSrc:"Please submit the report by Friday.",
@@ -50,14 +50,14 @@ const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15
 
   {type:"teach", trg:"キャンセルする", src:"to cancel", pos:"verb", gender:null,
    note:"From English 'cancel.' キャンセルりょうきん = cancellation fee.\nCommon loanword verb.",
-   example:"A: すみません、よやくをキャンセルしたいんですが...\nB: いつのよやくですか？",
-   exampleSrc:"A: Excuse me, I would like to cancel my reservation...\nB: Which reservation?",
+   example:"A: すみません、よやくをキャンセルしたいんですが...\nB: いつのよやくですか？\nA: どのくらいかかりましたか？\nB: だいたい二時間(にじかん)ぐらいです。",
+   exampleSrc:"A: Excuse me, I would like to cancel my reservation...\nB: Which reservation?\nA: How long did it take?\nB: About two hours.",
    funFact:"キャンセル is a loanword from English 'cancel.' In polite Japanese, よやくをとりけす is the native equivalent. Japan's cancellation culture is strict: many places charge fees for late cancellations. ドタキャン (last-minute cancellation, from 土壇場 = last moment + キャンセル) is a social sin."},
 
   {type:"teach", trg:"かくにんする", src:"to confirm / to verify", pos:"verb", gender:null,
    note:"かくにん = confirmation. A key scheduling word.\nKanji: 確認する.",
-   example:"A: よやくをかくにんしたいんですが。\nB: おなまえとよやくのひにちをおねがいします。",
-   exampleSrc:"A: I would like to confirm my reservation.\nB: Your name and reservation date, please.",
+   example:"A: よやくをかくにんしたいんですが。\nB: おなまえとよやくのひにちをおねがいします。\nA: 難(むずか)しかったですか？\nB: 最初(さいしょ)は難(むずか)しかったですが、慣(な)れました。",
+   exampleSrc:"A: I would like to confirm my reservation.\nB: Your name and reservation date, please.\nA: Was it difficult?\nB: It was difficult at first, but I got used to it.",
    funFact:"確認 combines 確 (certain) and 認 (recognize). Confirming details is extremely important in Japanese business and daily life. Hotels, restaurants, and services often call to confirm reservations. The phrase かくにんさせてください (let me confirm) is heard constantly in customer service."},
 
   {type:"mc", q:"じゅっぷんおくれます means:", opts:["I will arrive 10 minutes early","I will be 10 minutes late","I will wait 10 minutes","I canceled 10 minutes ago"], ans:"I will be 10 minutes late",
@@ -65,14 +65,14 @@ const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15
 
   {type:"teach", trg:"ひにち", src:"date / day", pos:"noun", gender:null,
    note:"ひ (day) + にち (day). Used for scheduling specific dates.\nKanji: 日にち.",
-   example:"A: ひにちがきまりましたか？\nB: はい、じゅうがつみっかにしましょう。",
-   exampleSrc:"A: Has the date been decided?\nB: Yes, let us make it October 3rd.",
+   example:"A: ひにちがきまりましたか？\nB: はい、じゅうがつみっかにしましょう。\nA: おすすめですか？\nB: はい、ぜひ試(ため)してみてください。",
+   exampleSrc:"A: Has the date been decided?\nB: Yes, let us make it October 3rd.\nA: Do you recommend it?\nB: Yes, please try it.",
    funFact:"ひにち is the general word for 'date' in scheduling contexts. Japanese dates use year-month-day order: 2026年4月15日. The traditional era system (令和, Reiwa) is still used alongside Western dates. Offices and forms often require both formats."},
 
   {type:"teach", trg:"じかんどおり", src:"on time / on schedule", pos:"adv", gender:null,
    note:"じかん (time) + どおり (as per). Punctuality expression.\nKanji: 時間通り.",
-   example:"A: かいぎはじかんどおりにはじまりますか？\nB: はい、じゅうじにはじまります。",
-   exampleSrc:"A: Will the meeting start on time?\nB: Yes, it will start at ten.",
+   example:"A: かいぎはじかんどおりにはじまりますか？\nB: はい、じゅうじにはじまります。\nA: 一緒(いっしょ)に行(い)きませんか？\nB: いいですね。行(い)きましょう。",
+   exampleSrc:"A: Will the meeting start on time?\nB: Yes, it will start at ten.\nA: Shall we go together?\nB: That sounds good. Let's go.",
    funFact:"時間通り reflects Japan's obsession with punctuality. Trains run 時間通り (on schedule), meetings start 時間通り, and deliveries arrive 時間通り. This reliability is a source of national pride. When something does not run on time, it is noteworthy enough to make the news."},
 
   {type:"fb", s:"よやくを{1}したいんですが。\n(I would like to confirm my reservation.)", a:"かくにん", opts:["かくにん","キャンセル","よやく","へんこう"], sSrc:"I would like to confirm my reservation.",

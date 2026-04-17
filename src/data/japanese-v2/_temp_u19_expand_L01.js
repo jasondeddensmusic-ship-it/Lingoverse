@@ -8,26 +8,26 @@ const LESSON_3 = {
 
     {type:"teach", trg:"あけたら", src:"when I opened (it)", pos:"verb", gender:null,
      note:"たら-form of あける (to open). Past discovery: when I opened it, I found...\nGroup 2: あけた + ら.",
-     example:"A: ドアをあけたらねこがいました。\nB: びっくりしましたか？",
-     exampleSrc:"A: When I opened the door, there was a cat.\nB: Were you surprised?",
+     example:"A: ドアをあけたらねこがいました。\nB: びっくりしましたか？\nA: よく行(い)きますか？\nB: 月(つき)に一回(いっかい)ぐらい行(い)きます。",
+     exampleSrc:"A: When I opened the door, there was a cat.\nB: Were you surprised?\nA: Do you go often?\nB: I go about once a month.",
      funFact:"たら for past discoveries is uniquely Japanese. It describes opening/arriving/doing something and finding an unexpected result. あけたら...いた (when I opened, there was...) creates a mini-narrative. This use of たら cannot be replaced by と, ば, or なら. It is exclusive to たら."},
 
     {type:"teach", trg:"かえったら", src:"when I got home / if I go home", pos:"verb", gender:null,
      note:"たら-form of かえる (to return home). Group 1: かえった + ら.\nPast or future depending on context.",
-     example:"A: いえにかえったらだれもいませんでした。\nB: さみしかったですか？",
-     exampleSrc:"A: When I got home, nobody was there.\nB: Were you lonely?",
+     example:"A: いえにかえったらだれもいませんでした。\nB: さみしかったですか？\nA: 誰(だれ)と行(い)きましたか？\nB: 友達(ともだち)と一緒(いっしょ)に行(い)きました。",
+     exampleSrc:"A: When I got home, nobody was there.\nB: Were you lonely?\nA: Who did you go with?\nB: I went with a friend.",
      funFact:"かえったら shows how たら works for both past and future. Past: かえったらだれもいなかった (when I got home, nobody was there). Future: かえったらでんわしてね (when you get home, call me). Context and tense of the main clause determine the meaning."},
 
     {type:"teach", trg:"〜たらいいのに", src:"I wish ~ would happen (if only ~)", pos:"part", gender:null,
      note:"たら + いい (good) + のに (despite). Expresses an unfulfilled wish.\nあめがやんだらいいのに = I wish the rain would stop.",
-     example:"A: もっとじかんがあったらいいのに。\nB: ほんとうにそうですね。",
-     exampleSrc:"A: I wish I had more time.\nB: I really think so too.",
+     example:"A: もっとじかんがあったらいいのに。\nB: ほんとうにそうですね。\nA: それは大変(たいへん)でしたね。\nB: はい、でもいい勉強(べんきょう)になりました。",
+     exampleSrc:"A: I wish I had more time.\nB: I really think so too.\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
      funFact:"たらいいのに is the grammar of wishful thinking. It combines the conditional (if it were so) with いい (good) and のに (but it is not). This creates a bittersweet expression of wanting something that is not the case. It is gentler than English 'I wish' and carries a sigh of resignation."},
 
     {type:"teach", trg:"〜たらどうですか", src:"how about ~? / why don't you ~?", pos:"part", gender:null,
      note:"たら + どうですか = polite suggestion.\nやすんだらどうですか = how about taking a rest?",
-     example:"A: あたまがいたいです。\nB: くすりをのんだらどうですか？",
-     exampleSrc:"A: I have a headache.\nB: How about taking some medicine?",
+     example:"A: あたまがいたいです。\nB: くすりをのんだらどうですか？\nA: 本当(ほんとう)ですか？すごいですね。\nB: ありがとうございます。頑張(がんば)りました。",
+     exampleSrc:"A: I have a headache.\nB: How about taking some medicine?\nA: Really? That is amazing.\nB: Thank you. I worked hard.",
      funFact:"たらどうですか is the polite suggestion pattern. It literally means 'if you did X, how would it be?' This indirect phrasing is very Japanese. Instead of directly telling someone to take medicine, you ask 'how about if you took medicine?' The indirectness softens the advice."},
 
     {type:"mc", q:"ドアをあけたらねこがいた uses たら for:", opts:["A future plan","A hypothetical wish","A past discovery","A polite suggestion"], ans:"A past discovery",
@@ -35,14 +35,14 @@ const LESSON_3 = {
 
     {type:"teach", trg:"やむ", src:"to stop (rain/snow/pain)", pos:"verb", gender:null,
      note:"Group 1 verb. あめがやむ = the rain stops.\nKanji: 止む. Only for natural phenomena or sensations.",
-     example:"A: あめがやんだらでかけましょう。\nB: いいですね。まちましょう。",
-     exampleSrc:"A: When the rain stops, let us go out.\nB: Sounds good. Let us wait.",
+     example:"A: あめがやんだらでかけましょう。\nB: いいですね。まちましょう。\nA: 私(わたし)も興味(きょうみ)があります。\nB: じゃあ、今度(こんど)一緒(いっしょ)にどうですか？",
+     exampleSrc:"A: When the rain stops, let us go out.\nB: Sounds good. Let us wait.\nA: I am also interested.\nB: Then, how about doing it together next time?",
      funFact:"止む is specifically for natural cessation: rain stopping, wind dying down, pain subsiding. It cannot be used for people stopping activities (that is やめる or とまる). Japanese weather vocabulary is rich because seasons and weather profoundly affect daily life. The expression 雨が止む (ame ga yamu) is said with relief."},
 
     {type:"teach", trg:"つけたら", src:"when I turned it on", pos:"verb", gender:null,
      note:"たら-form of つける (to turn on/attach). Group 2: つけた + ら.\nでんきをつけたら = when I turned the light on.",
-     example:"A: テレビをつけたらおもしろいばんぐみをやっていました。\nB: なんのばんぐみですか？",
-     exampleSrc:"A: When I turned on the TV, an interesting show was on.\nB: What show was it?",
+     example:"A: テレビをつけたらおもしろいばんぐみをやっていました。\nB: なんのばんぐみですか？\nA: どんな感(かん)じでしたか？\nB: 想像(そうぞう)していたよりずっと良(よ)かったです。",
+     exampleSrc:"A: When I turned on the TV, an interesting show was on.\nB: What show was it?\nA: What was it like?\nB: It was much better than I imagined.",
      funFact:"つけたら + discovery is a daily pattern. Turning on the TV and discovering something interesting, turning on the light and seeing something unexpected. This sequential discovery sense of たら makes Japanese storytelling feel like a chain of small reveals, each one uncovered by the previous action."},
 
     {type:"fb", s:"もっとじかんがあっ{1}いいのに。\n(I wish I had more time.)", a:"たら", opts:["たら","と","ば","なら"], sSrc:"I wish I had more time.",
@@ -50,14 +50,14 @@ const LESSON_3 = {
 
     {type:"teach", trg:"みつけたら", src:"if/when you find", pos:"verb", gender:null,
      note:"たら-form of みつける (to find). Group 2: みつけた + ら.\nいいみせをみつけたら = if you find a good shop.",
-     example:"A: いいレストランをみつけたらおしえてください。\nB: わかりました。さがしてみます。",
-     exampleSrc:"A: If you find a good restaurant, please tell me.\nB: Understood. I will try looking.",
+     example:"A: いいレストランをみつけたらおしえてください。\nB: わかりました。さがしてみます。\nA: 何(なに)を食(た)べましたか？\nB: 地元(じもと)の名物(めいぶつ)を食(た)べました。",
+     exampleSrc:"A: If you find a good restaurant, please tell me.\nB: Understood. I will try looking.\nA: What did you eat?\nB: I ate the local specialty.",
      funFact:"みつけたら + request is a practical everyday pattern. Japanese people frequently share recommendations: いいみせをみつけたらおしえて (if you find a good shop, let me know). This information-sharing culture connects to the concept of kuchikomi (word of mouth), which Japanese consumers trust deeply."},
 
     {type:"teach", trg:"ばんぐみ", src:"TV program / show", pos:"noun", gender:null,
      note:"ばん (number/turn) + ぐみ (group/set). Kanji: 番組.\nテレビばんぐみ = TV program.",
-     example:"A: すきなばんぐみはなんですか？\nB: りょうりのばんぐみがすきです。",
-     exampleSrc:"A: What is your favorite TV show?\nB: I like cooking programs.",
+     example:"A: すきなばんぐみはなんですか？\nB: りょうりのばんぐみがすきです。\nA: 楽(たの)しみですね。\nB: はい、今(いま)からわくわくしています。",
+     exampleSrc:"A: What is your favorite TV show?\nB: I like cooking programs.\nA: That is exciting.\nB: Yes, I am already excited.",
      funFact:"番組 is essential media vocabulary. Japanese TV has distinctive genres: variety shows (バラエティ), cooking programs (料理番組), quiz shows (クイズ番組), and news programs (ニュース番組). Japanese TV culture is unique, with elaborate food segments, travel features, and celebrity panel discussions."},
 
     {type:"mc", q:"くすりをのんだらどうですか means:", opts:["Did you take medicine?","How about taking some medicine?","Medicine is bad for you","You must take medicine"], ans:"How about taking some medicine?",
@@ -65,8 +65,8 @@ const LESSON_3 = {
 
     {type:"teach", trg:"さがしてみる", src:"to try looking for", pos:"verb", gender:null,
      note:"さがす (to search) + てみる (to try doing).\nてみる adds 'try' to any verb. Exploratory action.",
-     example:"A: あたらしいしごとをさがしてみます。\nB: おうえんしています！",
-     exampleSrc:"A: I will try looking for a new job.\nB: I am cheering you on!",
+     example:"A: あたらしいしごとをさがしてみます。\nB: おうえんしています！\nA: いい思(おも)い出(で)ですね。\nB: はい、一生(いっしょう)忘(わす)れません。",
+     exampleSrc:"A: I will try looking for a new job.\nB: I am cheering you on!\nA: That is a nice memory.\nB: Yes, I will never forget it.",
      funFact:"てみる (to try doing) is one of the most useful verb combinations. It turns any action into a tentative attempt: たべてみる (try eating), きいてみる (try asking), いってみる (try going). The combination with さがす creates 'I will give searching a try,' which sounds less committed and more natural than a firm declaration."},
 
     {type:"fb", s:"いいレストランをみつけ{1}おしえてください。\n(If you find a good restaurant, please tell me.)", a:"たら", opts:["たら","と","ば","なら"], sSrc:"If you find a good restaurant, please tell me.",
