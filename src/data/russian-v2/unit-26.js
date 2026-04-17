@@ -79,16 +79,7 @@ const UNIT_26 = {n:26, lang:"ru", srcLang:"en", track:"v2", title:"Наука и
   {trg:"открытие", src:"discovery"},
   {trg:"теория", src:"theory"}
 ]}
-<<<<<<< HEAD
-,
-
-{type:"match", pairs:[
-  {trg:"технология", src:"technology"},
-  {trg:"компьютер", src:"computer"}
-]}]}
-=======
 ]}
->>>>>>> origin/main
 
 ]};
 export default UNIT_26;

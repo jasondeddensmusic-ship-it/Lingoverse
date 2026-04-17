@@ -262,19 +262,11 @@ const UNIT_07 = {n:7, lang:"ru", srcLang:"en", track:"v2", title:"Погода",
  hint:"If cold weather is expected, and temperature is -20, which word?",
  sSrc:"A: What's the temperature?\nB: {1} twenty degrees."},
 
-<<<<<<< HEAD
-{type:"fb", s:"A: Какой прогноз на завтра?\nB: Завтра {1} снег.",
- a:["будет"],
- opts:["будет","есть","был","будут"],
- hint:"Forming the future with the proper form of 'быть' (to be) — singular phenomenon.",
- sSrc:"A: What's the forecast for tomorrow?\nB: Tomorrow it will snow."},
-=======
 {type:"fb", s:"A: Что будет завтра?\nB: Завтра {1} снег.",
  a:["будет"],
  opts:["будет","есть","был","будут"],
  hint:"Forming future: you need будет (will be) + phenomenon.",
  sSrc:"A: What will it be tomorrow?\nB: Tomorrow it will snow."},
->>>>>>> origin/main
 
 {type:"match", pairs:[
   {trg:"ясно", src:"clear"},
@@ -283,16 +275,7 @@ const UNIT_07 = {n:7, lang:"ru", srcLang:"en", track:"v2", title:"Погода",
   {trg:"ветрено", src:"windy"},
   {trg:"температура", src:"temperature"}
 ]}
-<<<<<<< HEAD
-,
-
-{type:"match", pairs:[
-  {trg:"жарко", src:"(it is) hot"},
-  {trg:"прохладно", src:"cool"}
-]}]}
-=======
 ]}
->>>>>>> origin/main
 
 ]};
 export default UNIT_07;

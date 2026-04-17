@@ -79,16 +79,7 @@ const UNIT_32 = {n:32, lang:"ru", srcLang:"en", track:"v2", title:"Природ�
   {trg:"экология", src:"ecology"},
   {trg:"климат", src:"climate"}
 ]}
-<<<<<<< HEAD
-,
-
-{type:"match", pairs:[
-  {trg:"река", src:"river"},
-  {trg:"океан", src:"ocean"}
-]}]}
-=======
 ]}
->>>>>>> origin/main
 
 ]};
 export default UNIT_32;
