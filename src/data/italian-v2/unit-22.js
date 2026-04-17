@@ -66,7 +66,7 @@ const UNIT_22 = {
       {type:"mc", q:"What does 'l'opera' mean in Italian?",
        opts:["Both a work of art and the musical genre","Only the musical genre","Only a painting","A theater building"],
        ans:"Both a work of art and the musical genre",
-       hint:"From Latin 'opera' (labor, effort). Italy invented the lyric stage form around 1600 in Florence. The word covers both the product and the performance."},
+       hint:"From Latin 'opera' (labor, effort). Italy invented the lyric stage form around 1600 in Florence. The word covers the creative product and the performance tradition."},
 
       {type:"fb", s:"L'{1} di Michelangelo nella Cappella Sistina e incredibile.",
        a:["affresco"],

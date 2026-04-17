@@ -61,11 +61,11 @@ const BATCH3_L_1 = {
      funFact:"'Senza che' takes the subjunctive because the action in the subordinate clause is negated (it did not happen). When the subjects are the same, Italian uses the infinitive instead: 'E uscito senza parlare' (He left without speaking)."},
 
     {type:"fb",
-     s:"{1} tu vada in vacanza, troverai italiani ovunque nel mondo.",
+     s:"{1} tu vada, porterai sempre la tua cultura con te.",
      a:["Ovunque"],
      opts:["Ovunque","Quando","Perche","Mentre"],
      hint:"An adverb meaning 'wherever.' It always requires the subjunctive because the place is indefinite and unknown.",
-     sSrc:"{1} you go on vacation, you will find Italians everywhere in the world."},
+     sSrc:"{1} you go, you will always carry your culture with you."},
 
     {type:"teach", trg:"supposto che", src:"supposing that", pos:"conj", gender:null,
      note:"Conjunction requiring the congiuntivo.\n'Supposto che piova' = supposing it rains. Similar to 'ammesso che.'",

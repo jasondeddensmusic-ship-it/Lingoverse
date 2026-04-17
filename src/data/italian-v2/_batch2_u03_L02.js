@@ -107,11 +107,11 @@ const BATCH2_U03_L2 = {
      ans:"Giocare = games/sports, suonare = instruments",
      hint:"Italian splits the English verb 'play' into two separate verbs based on what you are playing."},
 
-    {type:"fb", s:"A chi {1}? Assomiglio a mia madre.",
+    {type:"fb", s:"A chi {1}? Io? A mia madre.",
      a:["assomigli"],
      opts:["assomigli","aiuti","impari","guardi"],
      hint:"This verb asks who you resemble in appearance. A common question about family likeness.",
-     sSrc:"Who do you {1}? I look like my mother."},
+     sSrc:"Who do you {1}? Me? My mother."},
 
     {type:"match", pairs:[
       {trg:"mangiare", src:"to eat"},

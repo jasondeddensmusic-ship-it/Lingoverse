@@ -102,10 +102,10 @@ const BATCH4_U11_L1 = {
      ans:"Due giorni fa",
      hint:"In Italian, 'fa' (ago) comes after the time expression, not before."},
 
-    {type:"fb", s:"Ho {1} mangiato, non ho fame.",
+    {type:"fb", s:"Avete {1} deciso dove andare in vacanza?",
      a:["gia"], opts:["gia","ancora","appena","mai"],
-     hint:"You ate before and are not hungry because it is done already.",
-     sSrc:"I have {1} eaten, I am not hungry."},
+     hint:"Placed between the auxiliary and participle. Asks if a decision was made before now.",
+     sSrc:"Have you {1} decided where to go on vacation?"},
 
     {type:"match", pairs:[
       {trg:"ieri", src:"yesterday"},

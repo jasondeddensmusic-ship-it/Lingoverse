@@ -22,7 +22,7 @@ const BATCH5_L_1={id:"itv2_u13l_b5_1",title:"Sfumature del congiuntivo",icon:"\u
 {type:"mc",q:"Cosa significa 'pretendere' in italiano?",opts:["Esigere, richiedere","Fingere, simulare","Ripetere, rifare","Prestare, dare in prestito"],ans:"Esigere, richiedere",hint:"This is a famous false friend between Italian and English."},
 {type:"match",pairs:[{trg:"e vergognoso che",src:"it is shameful that"},{trg:"e inevitabile che",src:"it is inevitable that"},{trg:"impedire che",src:"to prevent that"},{trg:"bastare che",src:"it is enough that"},{trg:"negare che",src:"to deny that"}]},
 {type:"fb",s:"E {1} che non ci siano piu posti disponibili.",a:["assurdo"],opts:["assurdo","bello","sicuro","vero"],hint:"Expresses strong disapproval about the lack of available seats.",sSrc:"It is {1} that there are no more seats available."},
-{type:"mc",q:"Quale verbo significa 'impedire che qualcosa accada'?",opts:["Impedire","Permettere","Aiutare","Insistere"],ans:"Impedire",hint:"From Latin 'shackling the feet.' The opposite of allowing something.",},
+{type:"mc",q:"Quale verbo, dal latino 'shackle the feet,' significa vietare che qualcosa avvenga?",opts:["Impedire","Permettere","Aiutare","Insistere"],ans:"Impedire",hint:"From Latin 'shackling the feet.' The opposite of allowing something."},
 {type:"fb",s:"La legge {1} che tutti rispettino le regole.",a:["esige"],opts:["esige","vuole","dice","pensa"],hint:"A formal verb meaning 'to require' or 'to demand.' Used in legal contexts.",sSrc:"The law {1} that everyone respects the rules."},
 {type:"mc",q:"'Desiderare' e piu formale di quale verbo?",opts:["Volere","Sapere","Potere","Dovere"],ans:"Volere",hint:"Both mean wanting something, but this word is more literary. It comes from 'stars.'"},
 ]};export default BATCH5_L_1;

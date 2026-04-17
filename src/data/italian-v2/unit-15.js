@@ -317,7 +317,7 @@ const UNIT_15 = {
       {type:"mc", q:"What does 'l'agenzia immobiliare' charge in Italy?",
        opts:["No commission is ever charged by them","Only the property owner pays any fee","Only the incoming tenant or buyer pays","A fee collected from both sides of the deal"],
        ans:"A fee collected from both sides of the deal",
-       hint:"In Italy, both buyer and seller, or tenant and landlord, each pay the real estate agency."}
+       hint:"In Italy, the buyer AND the seller (or tenant and landlord) each pay the real estate agency."}
     ]}
   ]
 };

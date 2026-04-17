@@ -82,7 +82,7 @@ const BATCH7_L1 = {id:"itv2_u35l_b7_1", title:"La trasformazione digitale", icon
  exampleSrc:"A: The Italian digital ecosystem is growing.\nB: More investment in training is needed.",
  funFact:"Italy's digital ecosystem includes major players like Nexi (payments), engineering.it (IT services), and hundreds of innovative startups. Milan's 'Milano Digitale' initiative leads the transformation."},
 
-{type:"mc", q:"Come si abbrevia 'intelligenza artificiale' in italiano?",
+{type:"mc", q:"Qual e l'abbreviazione italiana per i sistemi che simulano le capacita cognitive umane?",
  opts:["IA","AI","IT","ID"],
  ans:"IA",
  hint:"Italian uses the Italian abbreviation, not the English one."},

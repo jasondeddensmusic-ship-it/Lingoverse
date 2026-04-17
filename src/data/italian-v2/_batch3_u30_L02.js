@@ -100,11 +100,11 @@ const BATCH3_L_2 = {
     ]},
 
     {type:"fb",
-     s:"{1} o non piaccia, l'intelligenza artificiale cambiera il mondo del lavoro.",
+     s:"{1} o non, il mondo sta cambiando e dobbiamo adattarci.",
      a:["Piaccia"],
      opts:["Piaccia","Piace","Piacere","Piaceva"],
-     hint:"The third-person present subjunctive of 'piacere.' Used in the expression meaning 'like it or not.'",
-     sSrc:"{1} or not, artificial intelligence will change the world of work."},
+     hint:"The third-person present subjunctive of 'piacere.' Complete the fixed expression meaning 'like it or not.'",
+     sSrc:"Like it or not, the world is changing and we must adapt."},
 
     {type:"mc",
      q:"Da quale lingua greca deriva la parola 'magari'?",

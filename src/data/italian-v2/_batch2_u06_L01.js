@@ -126,11 +126,11 @@ const BATCH2_U06_L1 = {
      ans:"The historic city center",
      hint:"Every Italian c... has one. It is where the main piazza, church, and shops are. Often pedestrian-only."},
 
-    {type:"fb", s:"In che {1} abiti? In via Garibaldi.",
+    {type:"fb", s:"In che {1} abiti?",
      a:["via"],
      opts:["via","piazza","palazzo","piano"],
      hint:"This word means 'street' and is used in Italian addresses. From Latin meaning 'road' or 'path.'",
-     sSrc:"On what {1} do you live? On Garibaldi street."},
+     sSrc:"On what {1} do you live?"},
 
     {type:"mc", q:"What does 'chiuso per ferie' mean on a shop?",
      opts:["Closed for holidays","Closed for lunch","Open all day","Under renovation"],
