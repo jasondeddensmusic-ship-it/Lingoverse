@@ -295,7 +295,7 @@ const UNIT_09 = {
       {type:"mc", q:"What is special about the word 'ricetta'?",
        opts:["It is grammatically irregular","It means both prescription and recipe","It is masculine (not feminine)","It has no plural form"],
        ans:"It means both prescription and recipe",
-       hint:"Context determines the meaning. The doctor writes one. The cook follows one. Same Italian word for both."},
+       hint:"Context determines the meaning. The doctor writes one, the cook follows one. Same Italian word, two meanings."},
 
       {type:"fb", s:"Deve {1} e bere molto.",
        a:["riposare"],

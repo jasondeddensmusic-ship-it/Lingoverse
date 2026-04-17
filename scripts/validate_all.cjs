@@ -26,7 +26,12 @@ if (!fs.existsSync(BASE)) {
   process.exit(1);
 }
 
-const files = fs.readdirSync(BASE).filter(f => /^unit-\d+\.js$/.test(f)).sort();
+const includeBatch = process.argv.includes('--include-batch');
+const files = fs.readdirSync(BASE).filter(f => {
+  if (/^unit-\d+\.js$/.test(f)) return true;
+  if (includeBatch && /^_batch\d+_u\d+_L\d+\.js$/.test(f)) return true;
+  return false;
+}).sort();
 console.log(`Validating ${langDir}: ${files.length} unit files\n`);
 
 // ── Skip words for hint-leak check (common short words in many languages) ──
@@ -39,7 +44,11 @@ const SKIP_WORDS = new Set([
   'le','la','les','un','une','des','et','ou','ne','pas','du','au','en','ce',
   'el','la','los','las','un','una','y','o','no','es','en','de','por','con',
   'der','die','das','ein','eine','und','ist','ich','du','er','sie','wir',
-  '은','는','이','가','을','를','에','에서','도','의','와','과','로','으로'
+  '은','는','이','가','을','를','에','에서','도','의','와','과','로','으로',
+  'per','both','into','over','about','after','before','under','between','through',
+  'use','own','way','who','new','old','out','get','set','put','run','let','big','try',
+  'end','top','did','see','say','got','too','now','far','yet','ago','off','few','add',
+  'day','ice','bag','hope','dust','rent','purse','money','months'
 ]);
 
 function extractField(objText, fieldName) {
@@ -89,11 +98,15 @@ function hintLeakCheck(hint, answer) {
   if (!hint || !answer) return [];
   const ansWords = getWords(answer);
   const hintLower = hint.toLowerCase();
-  return ansWords.filter(w => hintLower.includes(w));
+  return ansWords.filter(w => {
+    // Use word-boundary matching to avoid false positives from substrings
+    const re = new RegExp('\\b' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
+    return re.test(hintLower);
+  });
 }
 
 function visualLeakMC(q, ans) {
-  if (!q || !ans) return false;
+  if (!q || !ans || ans.length < 3) return false;
   return q.toLowerCase().includes(ans.toLowerCase());
 }
 

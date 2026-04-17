@@ -124,10 +124,10 @@ const BATCH4_U02_L1 = {
      ans:"Giorno/mese/anno",
      hint:"Italian format puts the day first, opposite to American English."},
 
-    {type:"fb", s:"Ferragosto e il 15 {1}.",
+    {type:"fb", s:"L'Italia si ferma quasi completamente a meta {1}.",
      a:["agosto"], opts:["agosto","luglio","settembre","giugno"],
      hint:"Italy's biggest summer holiday falls in the eighth month of the year.",
-     sSrc:"Ferragosto is August 15th."},
+     sSrc:"Italy almost completely shuts down in mid-{1}."},
 
     {type:"mc", q:"Perche settembre si chiama cosi?",
      opts:["Was the 7th month in the Roman calendar","Has seven letters","Was dedicated to a senator","Means harvest month"],
