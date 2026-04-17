@@ -73,7 +73,7 @@ lessons:[
 {type:"mc", q:"你(nǐ)需要(xūyào)请(qǐng)一(yí)个(gè)律师(lǜshī)。 What does this advise?",
  opts:["You need to hire a lawyer","You need to see a judge","The crime was illegal","The evidence is important"],
  ans:"You need to hire a lawyer",
- hint:"请 here means 'to hire' or 'to invite.' 律师 is the legal professional who represents you."},
+ hint:"请 here means 'to ___' or 'to invite.' 律师 is the legal professional who represents you."},
 
 {type:"fb", s:"{1}的(de)行为(xíngwéi)会(huì)受到(shòudào)惩罚(chéngfá)。",
  a:["违法(wéifǎ)"],
@@ -132,7 +132,7 @@ lessons:[
 {type:"mc", q:"法律(fǎlǜ)保障(bǎozhàng)公民(gōngmín)的(de)权利(quánlì)。 What does this mean?",
  opts:["The law safeguards citizens' rights","The judge announced the verdict","The lawyer found evidence","The crime rate decreased"],
  ans:"The law safeguards citizens' rights",
- hint:"保障 means 'to safeguard,' 公民 means 'citizen,' and 权利 means 'rights.'"},
+ hint:"保障 means 'to safeguard,' 公民 means 'citizen,' and 权利 means '___.'"},
 
 {type:"match", pairs:[
   {trg:"判决(pànjué)", src:"verdict"},

@@ -90,7 +90,7 @@ lessons:[
 {type:"mc", q:"人口(rénkǒu) literally translates as:",
  opts:["people mouths","many people","big family","human count"],
  ans:"people mouths",
- hint:"人 means person/people. The second character means 'mouth.' Think about ancient census methods."},
+ hint:"人 means person/___. The second character means 'mouth.' Think about ancient census methods."},
 
 {type:"fb", s:"{1}人(rén)喜欢(xǐhuan)吃(chī)米饭(mǐfàn)，北方(běifāng)人(rén)喜欢(xǐhuan)吃(chī)面条(miàntiáo)。",
  a:["南方(nánfāng)"],
@@ -170,7 +170,7 @@ lessons:[
 {type:"mc", q:"Why is the 黄河(Huánghé) called the Yellow River?",
  opts:["Because of gold deposits in the riverbed","Because of the yellow silt it carries","Because of yellow flowers along its banks","Because of a legend about a yellow dragon"],
  ans:"Because of the yellow silt it carries",
- hint:"The river flows through the Loess Plateau, picking up enormous amounts of fine yellow soil called silt."},
+ hint:"The river flows through the Loess Plateau, picking up enormous amounts of fine ___ soil called ___."},
 
 {type:"fb", s:"{1}为什么(wèishénme)是(shì)黄色(huángsè)的(de)？因为(yīnwèi)有(yǒu)很(hěn)多(duō)泥沙(níshā)。",
  a:["黄河(Huánghé)"],
@@ -269,7 +269,7 @@ lessons:[
 {type:"mc", q:"青藏(Qīngzàng)高原(gāoyuán)被(bèi)称为(chēngwéi)'世界屋脊(shìjiè wūjǐ).' What is the 'Roof of the World'?",
  opts:["The Gobi Desert","The North China Plain","The Qinghai-Tibet Plateau","The Yangtze River Delta"],
  ans:"The Qinghai-Tibet Plateau",
- hint:"This geographical feature is the highest and largest plateau on Earth, with an average elevation over 4,000 meters."},
+ hint:"This geographical feature is the highest and largest ___ on Earth, with an average elevation over 4,000 meters."},
 
 {type:"drag_fill", s:"{1}是(shì)亚洲(Yàzhōu)最(zuì)长(cháng)的(de)河(hé)，{2}被(bèi)称为(chēngwéi)'母亲河(mǔqīn hé)。'",
  blanks:{"1":"长江(Chángjiāng)","2":"黄河(Huánghé)"},
@@ -279,7 +279,7 @@ lessons:[
 {type:"mc", q:"城市(chéngshì) and 农村(nóngcūn) represent what contrast in Chinese society?",
  opts:["North versus south","Modern versus ancient","Urban versus rural","Mountain versus river"],
  ans:"Urban versus rural",
- hint:"One word combines 'wall/fortress' and 'market' for urban areas. The other combines 'agriculture' and 'village' for rural areas."},
+ hint:"One word combines 'wall/fortress' and 'market' for ___ areas. The other combines 'agriculture' and 'village' for ___ areas."},
 
 {type:"fb", s:"中国(Zhōngguó)的(de){1}从(cóng)热带(rèdài)到(dào)亚寒带(yà hándài)都(dōu)有(yǒu)。",
  a:["气候(qìhòu)"],

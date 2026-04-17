@@ -134,7 +134,7 @@ lessons:[
 {type:"mc", q:"\u5B66\u6821(xu\u00E9xi\u00E0o)\u5728(z\u00E0i)\u54EA\u513F(n\u01CEr)\uFF1F What is this asking?",
  opts:["When is school?","How is the school?","Where is the school?","What school?"],
  ans:"Where is the school?",
- hint:"\u54EA\u513F is the question word for 'where' and \u5728 asks about location."},
+ hint:"\u54EA\u513F is the question word for '___' and \u5728 asks about location."},
 
 {type:"match", pairs:[
   {trg:"\u54EA\u513F(n\u01CEr)", src:"where"},
@@ -153,7 +153,7 @@ lessons:[
 {type:"mc", q:"\u996D\u5E97(f\u00E0ndi\u00E0n)\u5728(z\u00E0i)\u5546\u5E97(sh\u0101ngdi\u00E0n)\u65C1\u8FB9(p\u00E1ngbi\u0101n)\u3002 Where is the restaurant?",
  opts:["In front of the shop","Behind the shop","Inside the shop","Next to the shop"],
  ans:"Next to the shop",
- hint:"\u65C1\u8FB9 means 'beside' or 'next to.' The restaurant is alongside the shop."},
+ hint:"\u65C1\u8FB9 means 'beside' or '___ to.' The restaurant is alongside the ___."},
 
 {type:"fb", s:"\u5546\u5E97(sh\u0101ngdi\u00E0n)\u5728(z\u00E0i){1}\uFF0C\u4E0D(b\u00F9)\u8FDC(yu\u01CEn)\u3002",
  a:["\u90A3\u513F(n\u00E0r)"],
@@ -237,7 +237,7 @@ lessons:[
 {type:"mc", q:"\u6211(w\u01D2)\u5750(zu\u00F2)\u8F66(ch\u0113)\u53BB(q\u00F9)\u533B\u9662(y\u012Byu\u00E0n)\u3002 How is the speaker getting to the hospital?",
  opts:["Walking","By car","By bicycle","Running"],
  ans:"By car",
- hint:"\u5750\u8F66 literally means 'sit car' and is the standard way to say 'take a car.'"},
+ hint:"\u5750\u8F66 literally means 'sit ___' and is the standard way to say 'take a ___.'"},
 
 {type:"fb", s:"\u4F60(n\u01D0){1}\u4E86(le)\u5417(ma)\uFF1F",
  a:["\u5230(d\u00E0o)"],
@@ -259,7 +259,7 @@ lessons:[
 {type:"mc", q:"\u5230(d\u00E0o)\u4E86(le)\uFF01\u6211(w\u01D2)\u5728(z\u00E0i)\u5B66\u6821(xu\u00E9xi\u00E0o)\u91CC(l\u01D0)\u3002 What is the speaker saying?",
  opts:["I am leaving school","I want to go to school","I cannot find school","I arrived! I am at school."],
  ans:"I arrived! I am at school.",
- hint:"\u5230\u4E86 means 'arrived' and \u5728...\u91CC tells you the current location."}
+ hint:"\u5230\u4E86 means '___' and \u5728...\u91CC tells you the current location."}
 ]},
 
 // === L4: Near and Far + Review ===
@@ -307,7 +307,7 @@ lessons:[
 {type:"mc", q:"\u4E0D(b\u00F9)\u8FDC(yu\u01CEn)\uFF0C\u8D70(z\u01D2u)\u8DEF(l\u00F9)\u5341(sh\u00ED)\u5206(f\u0113n)\u949F(zh\u014Dng)\u3002 What does this mean?",
  opts:["Very far, take a car","Not far, a ten-minute walk","Close by, five minutes","Too far to walk"],
  ans:"Not far, a ten-minute walk",
- hint:"\u4E0D\u8FDC = not far. \u8D70\u8DEF = walk. \u5341\u5206\u949F = ten minutes."},
+ hint:"\u4E0D\u8FDC = not far. \u8D70\u8DEF = ___. \u5341\u5206\u949F = ___ minutes."},
 
 {type:"fb", s:"\u5B66\u6821(xu\u00E9xi\u00E0o)\u4E0D(b\u00F9){1}\uFF0C\u8D70(z\u01D2u)\u8DEF(l\u00F9)\u53BB(q\u00F9)\u5427(ba)\u3002",
  a:["\u8FDC(yu\u01CEn)"],
@@ -318,7 +318,7 @@ lessons:[
 {type:"mc", q:"\u533B\u9662(y\u012Byu\u00E0n)\u5728(z\u00E0i)\u5B66\u6821(xu\u00E9xi\u00E0o)\u540E\u9762(h\u00F2umi\u00E0n)\u3002 Where is the hospital?",
  opts:["In front of the school","Next to the school","Behind the school","Inside the school"],
  ans:"Behind the school",
- hint:"\u540E\u9762 means 'behind' or 'at the back of.'"},
+ hint:"\u540E\u9762 means '___' or 'at the back of.'"},
 
 {type:"fb", s:"\u4F60(n\u01D0){1}\u53BB(q\u00F9)\u5546\u5E97(sh\u0101ngdi\u00E0n)\uFF1F",
  a:["\u600E\u4E48(z\u011Bnme)"],
@@ -337,7 +337,7 @@ lessons:[
 {type:"mc", q:"\u6211(w\u01D2)\u5750(zu\u00F2)\u8F66(ch\u0113)\u5230(d\u00E0o)\u4E86(le)\u5B66\u6821(xu\u00E9xi\u00E0o)\u3002 What happened?",
  opts:["I walked to school","I am waiting for a car to school","I took a car and arrived at school","I cannot get to school"],
  ans:"I took a car and arrived at school",
- hint:"\u5750\u8F66 = take a car. \u5230\u4E86 = arrived. The action is complete."},
+ hint:"\u5750\u8F66 = take a ___. \u5230\u4E86 = ___. The action is complete."},
 
 {type:"fb", s:"\u5546\u5E97(sh\u0101ngdi\u00E0n)\u5728(z\u00E0i)\u996D\u5E97(f\u00E0ndi\u00E0n){1}\u3002",
  a:["\u65C1\u8FB9(p\u00E1ngbi\u0101n)"],
@@ -348,7 +348,7 @@ lessons:[
 {type:"mc", q:"\u4F60(n\u01D0)\u53BB(q\u00F9)\u54EA\u513F(n\u01CEr)\uFF1F \u6211(w\u01D2)\u53BB(q\u00F9)\u996D\u5E97(f\u00E0ndi\u00E0n)\u3002 What is happening?",
  opts:["Someone is asking the time","Someone is ordering food","Someone is at the hospital","Someone is asking directions and gets an answer"],
  ans:"Someone is asking directions and gets an answer",
- hint:"\u53BB\u54EA\u513F means 'going where' and the answer names a specific place."},
+ hint:"\u53BB\u54EA\u513F means 'going where' and the ___ names a specific place."},
 
 {type:"match", pairs:[
   {trg:"\u54EA\u513F(n\u01CEr)", src:"where"},

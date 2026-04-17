@@ -59,7 +59,7 @@ lessons:[
 {type:"mc", q:"天气(tiānqì) is made up of which two concepts?",
  opts:["sky + air","fire + water","earth + rain","sun + cloud"],
  ans:"sky + air",
- hint:"The first character means sky or day, and the second means air or energy."},
+ hint:"The first character means ___ or day, and the second means ___ or energy."},
 
 {type:"match", pairs:[
   {trg:"天气(tiānqì)", src:"weather"},
@@ -283,7 +283,7 @@ lessons:[
 {type:"mc", q:"春天(chūntiān)比(bǐ)冬天(dōngtiān)暖和(nuǎnhuo)。 Translate this:",
  opts:["Spring is warmer than winter","Winter is warmer than spring","Spring and winter are warm","Spring is the warmest"],
  ans:"Spring is warmer than winter",
- hint:"The thing before 比 (spring) has MORE of the quality. The adjective at the end tells you what quality."},
+ hint:"The thing before 比 (___) has MORE of the quality. The adjective at the end tells you what quality."},
 
 {type:"match", pairs:[
   {trg:"春天(chūntiān)比(bǐ)冬天(dōngtiān)暖和(nuǎnhuo)", src:"Spring is warmer than winter"},

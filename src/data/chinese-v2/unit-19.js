@@ -275,7 +275,7 @@ lessons:[
 {type:"mc", q:"我(wǒ)给(gěi)你(nǐ)发(fā)了(le)一封(yīfēng)邮件(yóujiàn)。 What did I do?",
  opts:["Sent you an email","Received your email","Downloaded an email","Deleted an email"],
  ans:"Sent you an email",
- hint:"The verb 发 means to send, and 邮件 means email. The 了 indicates the action is completed."},
+ hint:"The verb 发 means to send, and 邮件 means ___. The 了 indicates the action is completed."},
 
 {type:"fb", s:"你(nǐ)可以(kěyǐ)在(zài)这个(zhège){1}上(shàng)找到(zhǎodào)很多(hěnduō)信息(xìnxī)。",
  a:["网站(wǎngzhàn)"],

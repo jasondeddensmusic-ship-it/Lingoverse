@@ -64,7 +64,7 @@ lessons:[
 {type:"mc", q:"这(zhè)个(ge)多少(duōshǎo)钱(qián)？ What is this question asking?",
  opts:["Where is this?","How much is this?","What is this?","Who sells this?"],
  ans:"How much is this?",
- hint:"多少 asks 'how much/many' and 钱 means 'money.' Together they form a price question."},
+ hint:"多少 asks 'how ___/many' and 钱 means 'money.' Together they form a price question."},
 
 {type:"match", pairs:[
   {trg:"钱(qián)", src:"money"},
@@ -83,7 +83,7 @@ lessons:[
 {type:"mc", q:"买(mǎi) and 卖(mài) differ only in:",
  opts:["Their tone","Their meaning is the same","Their radical","Their stroke count"],
  ans:"Their tone",
- hint:"One is third tone and one is fourth tone. This tiny difference changes buying into selling."},
+ hint:"One is third ___ and one is fourth ___. This tiny difference changes buying into selling."},
 
 {type:"fb", s:"这(zhè)个(ge)太(tài){1}了(le)！",
  a:["贵(guì)"],

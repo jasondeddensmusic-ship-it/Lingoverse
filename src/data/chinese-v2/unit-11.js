@@ -180,7 +180,7 @@ lessons:[
 {type:"mc", q:"Both characters in 游泳(yóuyǒng) contain the water radical 氵. Why?",
  opts:["It is a coincidence","Both characters relate to movement in water","The water radical means 'sport'","All sport words have the water radical"],
  ans:"Both characters relate to movement in water",
- hint:"Chinese radicals categorize meaning. The three-dot water radical appears in characters connected to water."}
+ hint:"Chinese radicals categorize meaning. The three-dot ___ radical appears in ___ connected to ___."}
 ]},
 
 // ─── L3: Expressing Preferences ───
@@ -297,7 +297,7 @@ lessons:[
 {type:"mc", q:"打篮球(dǎ lánqiú) uses 打, and 踢足球(tī zúqiú) uses 踢. 唱歌(chàng gē) uses 唱. What pattern do these follow?",
  opts:["Each sport has a random verb","The verb describes the primary physical action","The verb indicates the difficulty level","Older sports use different verbs"],
  ans:"The verb describes the primary physical action",
- hint:"打 = hit (hands), 踢 = kick (feet), 唱 = sing (voice). The verb matches the body part or action."},
+ hint:"打 = hit (hands), 踢 = kick (feet), 唱 = sing (voice). The ___ matches the body part or ___."},
 
 {type:"match", pairs:[
   {trg:"看(kàn)电影(diànyǐng)", src:"watch a movie"},

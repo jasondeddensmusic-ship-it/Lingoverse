@@ -159,7 +159,7 @@ lessons:[
 {type:"mc", q:"杯子(bēizi)被(bèi)打(dǎ)破(pò)了(le)。 What happened?",
  opts:["The cup was broken","The cup was repaired","The cup was given away","The cup was exchanged"],
  ans:"The cup was broken",
- hint:"被 marks the passive. 打破 means 'hit-broken.' What happened to the cup?"},
+ hint:"被 marks the passive. 打破 means 'hit-___.' What happened to the ___?"},
 
 {type:"drag_fill",
  s:"电脑(diànnǎo)坏(huài)了(le)，我(wǒ){1}它(tā)拿(ná)去(qù){2}了(le)。",
@@ -242,7 +242,7 @@ lessons:[
 {type:"mc", q:"她(tā)把(bǎ)衣服(yīfu)弄(nòng)脏(zāng)了(le)。 What happened?",
  opts:["She got her clothes dirty","She washed her clothes","She lost her clothes","She repaired her clothes"],
  ans:"She got her clothes dirty",
- hint:"弄 is the casual all-purpose verb. 脏 means 'dirty.' What did she do to the clothes?"},
+ hint:"弄 is the casual all-purpose verb. 脏 means '___.' What did ___ do to the ___?"},
 
 {type:"drag_fill",
  s:"他(tā)不(bù)小心(xiǎoxīn){1}手机(shǒujī){2}了(le)。",
@@ -253,7 +253,7 @@ lessons:[
 {type:"mc", q:"被(bèi) is more commonly associated with:",
  opts:["Unfortunate or negative events","Happy celebrations","Polite requests","Future plans"],
  ans:"Unfortunate or negative events",
- hint:"Historically this passive marker carried a sense of being subjected to something. What kind of events?"},
+ hint:"Historically this passive marker carried a sense of being subjected to something. What kind of ___?"},
 
 {type:"fb", s:"花瓶(huāpíng)被(bèi)猫(māo)打(dǎ){1}了(le)。",
  a:["破(pò)"],

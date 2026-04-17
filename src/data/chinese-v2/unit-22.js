@@ -53,7 +53,7 @@ lessons:[
 {type:"mc", q:"你(nǐ)的(de)专业(zhuānyè)是(shì)什么(shénme)？ This asks about your:",
  opts:["university major","favorite hobby","family background","daily schedule"],
  ans:"university major",
- hint:"专业 means your field of specialized study at university. It is the first question students ask each other."},
+ hint:"专业 means your field of specialized study at ___. It is the first question students ask each other."},
 
 {type:"match", pairs:[
   {trg:"大学(dàxué)", src:"university"},
@@ -199,7 +199,7 @@ lessons:[
 {type:"mc", q:"毕业(bìyè)以后(yǐhòu)你(nǐ)有(yǒu)什么(shénme)计划(jìhuà)？ This asks:",
  opts:["What are your plans after graduation?","When will you graduate?","Where did you study?","What is your major?"],
  ans:"What are your plans after graduation?",
- hint:"以后 means 'after,' and 计划 means 'plans.' The question asks about future intentions following graduation."},
+ hint:"以后 means 'after,' and 计划 means '___.' The question asks about future intentions following ___."},
 
 {type:"match", pairs:[
   {trg:"目标(mùbiāo)", src:"goal / target"},
@@ -235,7 +235,7 @@ lessons:[
 {type:"mc", q:"我(wǒ)计划(jìhuà)先(xiān)工作(gōngzuò)，然后(ránhòu)读(dú)研究生(yánjiūshēng)。 What is the plan?",
  opts:["Work first, then study for a master's degree","Study first, then find work","Work and study at the same time","Quit work and travel"],
  ans:"Work first, then study for a master's degree",
- hint:"先 means 'first,' and 然后 means 'then.' 研究生 means graduate student. The sentence describes a two-step plan."}
+ hint:"先 means '___,' and 然后 means '___.' 研究生 means graduate student. The sentence describes a two-step plan."}
 ]},
 
 // ─── L4: Unit 22 Review ───
@@ -255,7 +255,7 @@ lessons:[
 {type:"mc", q:"他(tā)有(yǒu)很(hěn)多(duō)工作(gōngzuò)经验(jīngyàn)。 This means he has:",
  opts:["A lot of work experience","Many jobs","A difficult work schedule","A long commute"],
  ans:"A lot of work experience",
- hint:"工作 means work, and 经验 means experience gained from direct participation. Together they describe professional background."},
+ hint:"工作 means ___, and 经验 means ___ gained from direct participation. Together they describe professional background."},
 
 {type:"fb", s:"她(tā)的(de){1}是(shì)英语(Yīngyǔ)教育(jiàoyù)。",
  a:["专业(zhuānyè)"],
@@ -266,7 +266,7 @@ lessons:[
 {type:"mc", q:"申请(shēnqǐng) is used when you want to:",
  opts:["Formally request or apply for something","Casually ask a question","Complain about something","Accept an offer"],
  ans:"Formally request or apply for something",
- hint:"This word combines 'state' and 'request.' It is used for formal applications to jobs, schools, and visa offices."},
+ hint:"This word combines 'state' and '___.' It is used for formal applications to jobs, schools, and visa offices."},
 
 {type:"fb", s:"现在(xiànzài)找(zhǎo)工作(gōngzuò)的(de){1}很(hěn)激烈(jīliè)。",
  a:["竞争(jìngzhēng)"],
@@ -291,7 +291,7 @@ lessons:[
 {type:"mc", q:"机会(jīhuì) literally combines which two ideas?",
  opts:["Trigger mechanism + meeting","Good + luck","Open + door","Hand + reach"],
  ans:"Trigger mechanism + meeting",
- hint:"机 originally meant the trigger of a crossbow, representing a critical moment. 会 means meeting or convergence."},
+ hint:"机 originally meant the ___ of a crossbow, representing a critical moment. 会 means ___ or convergence."},
 
 {type:"fb", s:"毕业(bìyè)以后(yǐhòu)你(nǐ)有(yǒu)什么(shénme){1}？",
  a:["计划(jìhuà)"],

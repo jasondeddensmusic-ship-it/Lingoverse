@@ -52,7 +52,7 @@ lessons:[
 {type:"mc", q:"锻炼(duànliàn) originally meant:",
  opts:["To forge and refine metal","To run and jump","To eat healthy food","To sleep well"],
  ans:"To forge and refine metal",
- hint:"Both characters in this word contain the metal radical. Think about what happens to metal in a furnace."},
+ hint:"Both characters in this word contain the ___ radical. Think about what happens to ___ in a furnace."},
 
 {type:"match", pairs:[
   {trg:"健康(jiànkāng)", src:"health / healthy"},
@@ -71,7 +71,7 @@ lessons:[
 {type:"mc", q:"健康(jiànkāng)的(de)饮食(yǐnshí)很(hěn)重要(zhòngyào)。 What does this mean?",
  opts:["A healthy diet is very important","Exercise is very healthy","Nutrition is not important","Symptoms are very serious"],
  ans:"A healthy diet is very important",
- hint:"健康 modifies 饮食 as an adjective here. 重要 means 'important.'"},
+ hint:"健康 modifies 饮食 as an adjective here. 重要 means '___.'"},
 
 {type:"fb", s:"我(wǒ)每(měi)天(tiān)都(dōu){1}。",
  a:["锻炼(duànliàn)"],
@@ -161,7 +161,7 @@ lessons:[
 {type:"mc", q:"心理(xīnlǐ)健康(jiànkāng)和(hé)身体(shēntǐ)健康(jiànkāng)一样(yíyàng)重要(zhòngyào)。 What is being said?",
  opts:["Mental health and physical health are equally important","Mental health is more important than physical health","The doctor treats both mind and body","Prevention is better than cure"],
  ans:"Mental health and physical health are equally important",
- hint:"一样重要 means 'equally important.' Two types of 健康 are being compared."}
+ hint:"一样重要 means '___ ___.' Two types of 健康 are being compared."}
 ]},
 
 // ─── L3: Weight, Diet, and Balance ───
@@ -215,7 +215,7 @@ lessons:[
 {type:"mc", q:"适当(shìdàng)的(de)锻炼(duànliàn)有(yǒu)助于(zhùyú)健康(jiànkāng)。 What is the advice?",
  opts:["Moderate exercise helps with health","Too much exercise is harmful","You should stop exercising","Diet is more important than exercise"],
  ans:"Moderate exercise helps with health",
- hint:"适当 means 'appropriate/moderate' and 有助于 means 'helps with.' What kind of exercise is being recommended?"},
+ hint:"适当 means 'appropriate/___' and 有助于 means '___ with.' What kind of ___ is being recommended?"},
 
 {type:"fb", s:"我(wǒ)最近(zuìjìn){1}增加(zēngjiā)了(le)。",
  a:["体重(tǐzhòng)"],

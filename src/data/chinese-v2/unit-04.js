@@ -73,7 +73,7 @@ lessons:[
 {type:"mc", q:"\u7C73\u996D(m\u01D0f\u00E0n) refers to:",
  opts:["cooked rice","noodles","bread","raw rice grains"],
  ans:"cooked rice",
- hint:"\u7C73 means rice grain and \u996D means meal. Together they refer to the prepared staple food."},
+ hint:"\u7C73 means ___ grain and \u996D means meal. Together they refer to the prepared staple food."},
 
 {type:"fb", s:"\u4F60(n\u01D0){1}\u4EC0\u4E48(sh\u00E9nme)? \u6211(w\u01D2)\u5403(ch\u012B)\u7C73\u996D(m\u01D0f\u00E0n)\u3002",
  a:["\u5403(ch\u012B)"],
@@ -180,7 +180,7 @@ lessons:[
 {type:"mc", q:"Where does \u4E5F(y\u011B) go in a Chinese sentence?",
  opts:["After the verb","Before the subject","At the end","Before the verb"],
  ans:"Before the verb",
- hint:"Chinese adverbs like \u4E5F and \u90FD have a fixed position. They always come between subject and verb."},
+ hint:"Chinese ad___s like \u4E5F and \u90FD have a fixed position. They always come between subject and ___."},
 
 {type:"fb", s:"{1}\u559D(h\u0113)\u8336(ch\u00E1)\u3002",
  a:["\u8BF7(q\u01D0ng)"],
@@ -251,7 +251,7 @@ lessons:[
 {type:"mc", q:"\u4F60(n\u01D0)\u8981(y\u00E0o)\u51E0(j\u01D0)\u676F(b\u0113i)\u6C34(shu\u01D0)? What is being asked?",
  opts:["How many cups of water do you want?","Is the water good?","Where is the water?","Do you want water?"],
  ans:"How many cups of water do you want?",
- hint:"\u51E0 asks 'how many' and \u676F is the measure word for cups. The question asks about quantity."},
+ hint:"\u51E0 asks 'how ___' and \u676F is the measure word for ___. The question asks about quantity."},
 
 {type:"fb", s:"\u6211(w\u01D2)\u60F3(xi\u01CEng)\u5403(ch\u012B){1}\u83DC(c\u00E0i)\u3002",
  a:["\u4E00\u70B9\u513F(y\u00ECdi\u01CEnr)"],
@@ -359,7 +359,7 @@ lessons:[
 {type:"mc", q:"\u8BF7(q\u01D0ng)\u5403(ch\u012B)\u7C73\u996D(m\u01D0f\u00E0n)\u3002 A host says this to you. They are:",
  opts:["saying goodbye","apologizing","asking your name","inviting you to eat"],
  ans:"inviting you to eat",
- hint:"\u8BF7 makes any statement into a polite invitation. Combined with 'eat rice,' it is a warm welcome to a meal."}
+ hint:"\u8BF7 makes any statement into a polite invitation. Combined with '___ rice,' it is a warm welcome to a meal."}
 ]}
 
 ]};

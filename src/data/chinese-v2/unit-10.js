@@ -148,7 +148,7 @@ lessons:[
 {type:"mc", q:"老师(lǎoshī) can be used to address:",
  opts:["Only primary school teachers","Only university professors","Teachers at all levels, plus experts as a sign of respect","Only female teachers"],
  ans:"Teachers at all levels, plus experts as a sign of respect",
- hint:"This title reflects deep Confucian respect and extends well beyond the classroom."},
+ hint:"This title reflects deep Confucian ___ and extends well beyond the classroom."},
 
 {type:"fb", s:"你(nǐ)今天(jīntiān)有(yǒu)几(jǐ)节(jié){1}？",
  a:["课(kè)"],
@@ -244,7 +244,7 @@ lessons:[
 {type:"mc", q:"教(jiāo) changes meaning based on tone. First tone means 'to teach.' What happens with fourth tone?",
  opts:["It means 'to learn'","It is used in compound words like 教室 (classroom)","It means 'to test'","It becomes a noun meaning 'education'"],
  ans:"It is used in compound words like 教室 (classroom)",
- hint:"The fourth-tone version appears in a compound word for the room where learning happens."},
+ hint:"The fourth-tone version appears in a ___ word for the room where learning happens."},
 
 {type:"fb", s:"王(Wáng)老师(lǎoshī){1}我们(wǒmen)中文(zhōngwén)。",
  a:["教(jiāo)"],
@@ -291,7 +291,7 @@ lessons:[
 {type:"mc", q:"Where does the time expression go in a Chinese sentence?",
  opts:["After the verb","At the end of the sentence","Before the verb","It does not matter"],
  ans:"Before the verb",
- hint:"Chinese has a strict rule about where time expressions go relative to the verb."},
+ hint:"Chinese has a strict rule about where time expressions go relative to the ___."},
 
 {type:"fb", s:"老师(lǎoshī){1}我们(wǒmen)写(xiě)中文(zhōngwén)。",
  a:["教(jiāo)"],

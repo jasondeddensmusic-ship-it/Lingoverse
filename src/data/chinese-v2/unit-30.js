@@ -171,7 +171,7 @@ lessons:[
 {type:"mc", q:"和谐(héxié)的(de)社会(shèhuì)需要(xūyào)每(měi)个(gè)人(rén)的(de)努力(nǔlì)。 What is the message?",
  opts:["A harmonious society needs everyone's effort","Contradictions are unavoidable","Fate determines everything","Philosophy is for scholars only"],
  ans:"A harmonious society needs everyone's effort",
- hint:"和谐 means 'harmonious' and 需要 means 'needs.' What kind of society is being discussed?"},
+ hint:"和谐 means '___' and 需要 means '___.' What kind of ___ is being discussed?"},
 
 {type:"fb", s:"我们(wǒmen)要(yào){1}地(de)看(kàn)问题(wèntí)。",
  a:["辩证(biànzhèng)"],

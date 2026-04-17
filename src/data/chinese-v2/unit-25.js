@@ -53,7 +53,7 @@ lessons:[
 {type:"mc", q:"权利(quánlì) and 权力(quánlì) sound identical. The difference is:",
  opts:["权利 means rights, 权力 means power","They are the same word","权利 is formal, 权力 is informal","权利 is old, 权力 is new"],
  ans:"权利 means rights, 权力 means power",
- hint:"The second character differs: 利 (benefit) versus 力 (force/power). Same pronunciation, very different meanings."},
+ hint:"The second character differs: 利 (benefit) versus 力 (force/___). Same pronunciation, very different meanings."},
 
 {type:"match", pairs:[
   {trg:"平等(píngděng)", src:"equality"},
@@ -120,7 +120,7 @@ lessons:[
 {type:"mc", q:"道德(dàodé) connects to which Chinese philosophical traditions?",
  opts:["Both Confucianism and Daoism","Only Confucianism","Only Daoism","Neither"],
  ans:"Both Confucianism and Daoism",
- hint:"道 is central to Daoism (the Way), and 德 (virtue) is central to Confucianism. The word bridges both traditions."},
+ hint:"道 is central to ___ (the Way), and 德 (virtue) is central to ___. The word bridges both traditions."},
 
 {type:"match", pairs:[
   {trg:"道德(dàodé)", src:"morality"},
@@ -198,7 +198,7 @@ lessons:[
 {type:"mc", q:"矛盾(máodùn) comes from a story about:",
  opts:["A merchant selling a spear and a shield","Two countries at war","A broken weapon","A philosophical debate"],
  ans:"A merchant selling a spear and a shield",
- hint:"矛 means spear and 盾 means shield. The merchant made impossible claims about both, creating a logical paradox."},
+ hint:"矛 means ___ and 盾 means ___. The ___ made impossible claims about both, creating a logical paradox."},
 
 {type:"match", pairs:[
   {trg:"自由(zìyóu)", src:"freedom"},

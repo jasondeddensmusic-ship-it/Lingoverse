@@ -233,7 +233,7 @@ const UNIT_02 = {
    q:"他(tā)三(sān)岁(suì)。 What does this mean?",
    opts:["He is three years old.","He has three.","He wants three.","He is three meters tall."],
    ans:"He is three years old.",
-   hint:"岁 is the measure word specifically for age, counting years of life."},
+   hint:"岁 is the measure word specifically for age, counting ___ of life."},
 
   {type:"match", pairs:[
     {trg:"几(jǐ)", src:"how many"},
@@ -299,11 +299,11 @@ const UNIT_02 = {
    hint:"两 appears before measure words and represents a specific small quantity."},
 
   {type:"fb",
-   s:"你(nǐ)几(jǐ){1}? 我(wǒ)八(bā){1}。",
+   s:"你(nǐ)几(jǐ){1}?",
    a:["岁(suì)"],
    opts:["岁(suì)","个(gè)","大(dà)","好(hǎo)"],
-   hint:"The measure word for years of age completes both the question and the answer.",
-   sSrc:"How old are you? I am eight years old."},
+   hint:"The measure word for years of age completes this 'how old' question.",
+   sSrc:"How many {1} are you? (How old are you?)"},
 
   {type:"mc",
    q:"她(tā)多(duō)大(dà)? 她(tā)六(liù)岁(suì)。How old is she?",

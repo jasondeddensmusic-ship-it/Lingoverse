@@ -48,7 +48,7 @@ lessons:[
 {type:"mc", q:"今天(jīntiān)特别(tèbié)热(rè)！ How is the weather?",
  opts:["A bit warm","Especially hot","Not very hot","Cool"],
  ans:"Especially hot",
- hint:"特别 means 'especially' or 'particularly,' indicating a strong degree. Combined with 热 (hot), it means extremely hot."},
+ hint:"特别 means '___' or 'particularly,' indicating a strong degree. Combined with 热 (___), it means extremely ___."},
 
 {type:"match", pairs:[
   {trg:"特别(tèbié)", src:"especially"},
@@ -157,7 +157,7 @@ lessons:[
 {type:"mc", q:"钱(qián)够(gòu)不(bu)够(gòu)？ What is being asked?",
  opts:["Do you have money?","Is there enough money?","How much money?","Where is the money?"],
  ans:"Is there enough money?",
- hint:"够 means 'enough' and the A-不-A pattern asks a yes/no question about sufficiency."},
+ hint:"够 means '___' and the A-不-A pattern asks a yes/no question about sufficiency."},
 
 {type:"fb", s:"这(zhè)个(gè)考试(kǎoshì)不(bù)难(nán)，很(hěn){1}。",
  a:["容易(róngyì)"],
@@ -209,7 +209,7 @@ lessons:[
 {type:"mc", q:"虽然(suīrán)贵(guì)，但是(dànshì)很(hěn)好(hǎo)。 What is the speaker's overall opinion?",
  opts:["It is too expensive","It is good despite the price","It is cheap and good","It is bad"],
  ans:"It is good despite the price",
- hint:"The real opinion follows 但是. The speaker acknowledges the price but emphasizes the quality."},
+ hint:"The real opinion follows 但是. The speaker acknowledges the ___ but emphasizes the quality."},
 
 {type:"fb", s:"{1}很(hěn)远(yuǎn)，但是(dànshì)很(hěn)好(hǎo)。",
  a:["虽然(suīrán)"],
@@ -336,7 +336,7 @@ lessons:[
 {type:"mc", q:"虽然(suīrán)容易(róngyì)，但是(dànshì)很(hěn)重要(zhòngyào)。 What is the main message?",
  opts:["It is easy and unimportant","It is difficult and important","It is easy but important","It is hard but unimportant"],
  ans:"It is easy but important",
- hint:"虽然 acknowledges the ease. The real point after 但是 is that it is important."},
+ hint:"虽然 acknowledges the ease. The real point after 但是 is that it is ___."},
 
 {type:"fb", s:"{1}，我(wǒ)还(hái)想(xiǎng)说(shuō)一(yí)件(jiàn)事(shì)。",
  a:["另外(lìngwài)"],

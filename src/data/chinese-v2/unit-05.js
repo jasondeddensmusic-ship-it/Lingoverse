@@ -52,7 +52,7 @@ lessons:[
 {type:"mc", q:"Where do time words go in a Chinese sentence?",
  opts:["At the end","After the noun","Before the verb","Anywhere is fine"],
  ans:"Before the verb",
- hint:"Chinese follows a strict pattern: Subject + Time + Verb. Time always precedes the action."},
+ hint:"Chinese follows a strict pattern: Subject + Time + ___. Time always precedes the action."},
 
 {type:"match", pairs:[
   {trg:"\u4ECA\u5929(j\u012Bnti\u0101n)", src:"today"},
@@ -246,7 +246,7 @@ lessons:[
 {type:"mc", q:"\u4F60(n\u01D0)\u5728(z\u00E0i)\u54EA\u513F(n\u01CEr)\uFF1F What is this asking?",
  opts:["Where are you?","When are you leaving?","Who are you?","What do you want?"],
  ans:"Where are you?",
- hint:"\u5728 asks about location, and \u54EA\u513F means 'where.'"},
+ hint:"\u5728 asks about location, and \u54EA\u513F means '___.'"},
 
 {type:"fb", s:"\u4ED6(t\u0101)\u5728(z\u00E0i)\u5B66\u6821(xu\u00E9xi\u00E0o){1}\u3002",
  a:["\u91CC(l\u01D0)"],

@@ -53,7 +53,7 @@ lessons:[
 {type:"mc", q:"商(shāng) originally referred to:",
  opts:["The Shang Dynasty, whose people were known as traders","A type of shop","A counting tool","A currency"],
  ans:"The Shang Dynasty, whose people were known as traders",
- hint:"After the Shang Dynasty fell, its people became known as merchants. The character became permanently associated with commerce."},
+ hint:"After the ___ ___ fell, its ___ became ___ as merchants. The character became permanently associated with commerce."},
 
 {type:"match", pairs:[
   {trg:"商业(shāngyè)", src:"business"},
@@ -72,7 +72,7 @@ lessons:[
 {type:"mc", q:"我们(wǒmen)下周(xiàzhōu)签(qiān)合同(hétong)。 What will happen next week?",
  opts:["A contract will be signed","A meeting will be canceled","A trade deal will fail","A market will open"],
  ans:"A contract will be signed",
- hint:"签 means to sign, and 合同 means contract. Both parties will formalize their agreement next week."},
+ hint:"签 means to sign, and 合同 means ___. Both parties will formalize their agreement next week."},
 
 {type:"fb", s:"现在(xiànzài)的(de){1}越来越(yuèláiyuè)注重(zhùzhòng)品质(pǐnzhì)。",
  a:["消费者(xiāofèizhě)"],
@@ -200,7 +200,7 @@ lessons:[
 {type:"mc", q:"品牌(pǐnpái) contains 品(pǐn), which depicts:",
  opts:["Three mouths, suggesting evaluation and discussion","Three boxes of products","Three coins","Three people"],
  ans:"Three mouths, suggesting evaluation and discussion",
- hint:"品 is a pictograph of three mouths. When people discuss and evaluate something, they establish its grade or quality."},
+ hint:"品 is a pictograph of ___ ___. When people discuss and evaluate something, they establish its grade or quality."},
 
 {type:"match", pairs:[
   {trg:"品牌(pǐnpái)", src:"brand"},
@@ -218,7 +218,7 @@ lessons:[
 {type:"mc", q:"管理(guǎnlǐ) uses 管(guǎn), which originally meant:",
  opts:["A bamboo pipe for channeling water","A wooden stick","A stone tablet","A metal sword"],
  ans:"A bamboo pipe for channeling water",
- hint:"管 depicted a pipe that directs water flow. Management similarly channels and directs resources."},
+ hint:"管 depicted a ___ that directs ___ flow. Management similarly channels and directs resources."},
 
 {type:"fb", s:"他(tā){1}这家(zhèjiā)公司(gōngsī)已经(yǐjīng)十年(shínián)了(le)。",
  a:["经营(jīngyíng)"],
@@ -235,7 +235,7 @@ lessons:[
 {type:"mc", q:"好(hǎo)的(de)管理(guǎnlǐ)对(duì)公司(gōngsī)很(hěn)重要(zhòngyào)。 Why?",
  opts:["Without good management, no strategy will work","Management is the only thing that matters","Management replaces competition","Management eliminates costs"],
  ans:"Without good management, no strategy will work",
- hint:"Even the best strategy needs organized execution. Management channels resources toward goals."}
+ hint:"Even the best ___ needs organized execution. ___ channels resources toward goals."}
 ]},
 
 // ─── L4: Unit 27 Review ───
@@ -302,7 +302,7 @@ lessons:[
 {type:"mc", q:"中国(Zhōngguó)市场(shìchǎng)有(yǒu)十四亿(shísìyì)消费者(xiāofèizhě)。 Why does this matter?",
  opts:["The enormous size makes it attractive for business","The number is decreasing","All consumers buy the same things","The market is fully saturated"],
  ans:"The enormous size makes it attractive for business",
- hint:"1.4 billion consumers represents an enormous potential customer base. Scale is the key advantage."}
+ hint:"1.4 billion consumers represents an ___ potential customer base. Scale is the key advantage."}
 ]}
 
 ]};

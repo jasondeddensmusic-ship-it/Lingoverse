@@ -71,7 +71,7 @@ lessons:[
 {type:"mc", q:"尽管(jǐnguǎn)困难(kùnnan)很(hěn)多(duō)，他们(tāmen)还是(háishi)成功(chénggōng)了(le)。 What is the relationship?",
  opts:["Concession: despite difficulties, they succeeded","Cause: difficulties caused success","Addition: difficulties and success","Summary: in short, they succeeded"],
  ans:"Concession: despite difficulties, they succeeded",
- hint:"尽管 introduces a concession. It acknowledges one thing but then states a contrasting outcome."},
+ hint:"尽管 introduces a ___. It acknowledges one thing but then states a contrasting outcome."},
 
 {type:"fb", s:"这(zhè)个(gè)计划(jìhuà)听(tīng)起来(qǐlái)很(hěn)好(hǎo)。{1}，执行(zhíxíng)起来(qǐlái)很(hěn)困难(kùnnan)。",
  a:["然而(ránér)"],
@@ -221,7 +221,7 @@ lessons:[
 {type:"mc", q:"学(xué)而(ér)不(bù)思(sī)则(zé)罔(wǎng)。 What is the structure?",
  opts:["Study and/but not think, then futile","Study or think, then succeed","Not study, not think, then wise","Think and study, then forget"],
  ans:"Study and/but not think, then futile",
- hint:"而 connects 'study' with 'not think,' and 则 shows the consequence of this combination."},
+ hint:"而 connects '___' with 'not ___,' and 则 shows the consequence of this combination."},
 
 {type:"fb", s:"这(zhè)就是(jiùshì)我(wǒ){1}说(shuō)的(de)问题(wèntí)。",
  a:["所(suǒ)"],

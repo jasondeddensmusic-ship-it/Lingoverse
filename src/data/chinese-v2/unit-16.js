@@ -225,7 +225,7 @@ lessons:[
 {type:"mc", q:"除了(chúle)小王(Xiǎo Wáng)以外(yǐwài)，大家(dàjiā)都(dōu)来(lái)了(le)。 What does this mean?",
  opts:["Everyone came, including Xiao Wang","Everyone came except Xiao Wang","Only Xiao Wang came","Nobody came besides Xiao Wang"],
  ans:"Everyone came except Xiao Wang",
- hint:"When 除了...以外 is followed by 都, it creates an exclusion. Everyone did something, but one person did not."},
+ hint:"When 除了...以外 is followed by 都, it creates an exclusion. ___ did something, but one person did not."},
 
 {type:"fb", s:"交通(jiāotōng)问题(wèntí){1}了(le)很(hěn)多(duō)人(rén)迟到(chídào)。",
  a:["导致(dǎozhì)"],

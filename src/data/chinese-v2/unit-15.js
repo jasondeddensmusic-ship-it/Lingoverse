@@ -53,7 +53,7 @@ lessons:[
 {type:"mc", q:"我(wǒ)觉得(juéde)很(hěn)好(hǎo)。 What is the speaker doing?",
  opts:["Asking a question","Giving a command","Sharing a personal opinion","Making a formal statement"],
  ans:"Sharing a personal opinion",
- hint:"觉得 introduces a casual, personal view. The speaker feels something is good."},
+ hint:"觉得 introduces a casual, ___ view. The speaker feels something is good."},
 
 {type:"match", pairs:[
   {trg:"觉得(juéde)", src:"to feel / to think"},
@@ -209,7 +209,7 @@ lessons:[
 {type:"mc", q:"你(nǐ)同意(tóngyì)还是(háishi)反对(fǎnduì)？ What is being asked?",
  opts:["Do you like it or not?","Do you agree or oppose?","Are you happy or sad?","Do you hope or fear?"],
  ans:"Do you agree or oppose?",
- hint:"同意 means 'agree' and 反对 means 'oppose.' The question asks you to pick a side."},
+ hint:"同意 means '___' and 反对 means '___.' The question asks you to pick a side."},
 
 {type:"match", pairs:[
   {trg:"同意(tóngyì)", src:"to agree"},
@@ -239,7 +239,7 @@ lessons:[
 {type:"mc", q:"What is the difference between 理解 and 懂?",
  opts:["They are exactly the same","理解 is deeper, 懂 is basic comprehension","懂 is more formal","理解 means 'to forget'"],
  ans:"理解 is deeper, 懂 is basic comprehension",
- hint:"One implies basic 'getting it,' while the other implies empathy and intellectual depth."},
+ hint:"One implies ___ 'getting it,' while the other implies empathy and intellectual depth."},
 
 {type:"fb", s:"我(wǒ){1}以后(yǐhòu)可以(kěyǐ)去(qù)中国(zhōngguó)。",
  a:["希望(xīwàng)"],
@@ -284,7 +284,7 @@ lessons:[
 {type:"mc", q:"她(tā)对(duì)结果(jiéguǒ)很(hěn)失望(shīwàng)，但是(dànshì)不(bù)后悔(hòuhuǐ)。 How does she feel?",
  opts:["Happy about the result","Disappointed but without regret","Angry and regretful","Satisfied and hopeful"],
  ans:"Disappointed but without regret",
- hint:"失望 is the emotion (disappointment). 不后悔 means she does not regret the decision itself."},
+ hint:"失望 is the emotion (disappointment). 不后悔 means she does not ___ the decision itself."},
 
 {type:"fb", s:"你(nǐ){1}我(wǒ)的(de)意思(yìsi)吗(ma)？",
  a:["理解(lǐjiě)"],

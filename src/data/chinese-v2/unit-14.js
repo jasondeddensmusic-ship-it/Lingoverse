@@ -137,7 +137,7 @@ lessons:[
 {type:"mc", q:"你(nǐ)记得(jìde)他(tā)吗(ma)？ What is this asking?",
  opts:["Do you know him?","Do you remember him?","Do you like him?","Do you see him?"],
  ans:"Do you remember him?",
- hint:"记得 means 'to remember.' The question asks whether someone is in your memory."},
+ hint:"记得 means 'to ___.' The question asks whether someone is in your memory."},
 
 {type:"match", pairs:[
   {trg:"记得(jìde)", src:"to remember"},
@@ -156,7 +156,7 @@ lessons:[
 {type:"mc", q:"这(zhè)个(gè)地方(dìfang)变(biàn)了(le)很(hěn)多(duō)。 What happened?",
  opts:["The place is the same","The place has changed a lot","The place is gone","The place is new"],
  ans:"The place has changed a lot",
- hint:"变了 means something transformed. 很多 means 'a lot.' The place is significantly different."},
+ hint:"变了 means something transformed. 很多 means 'a ___.' The ___ is significantly different."},
 
 {type:"fb", s:"我(wǒ)在(zài)北京(Běijīng){1}的(de)。",
  a:["长大(zhǎngdà)"],
@@ -167,7 +167,7 @@ lessons:[
 {type:"mc", q:"她(tā)下(xià)个(gè)月(yuè)搬(bān)家(jiā)。 What is she doing next month?",
  opts:["Buying a house","Moving house","Cleaning the house","Visiting home"],
  ans:"Moving house",
- hint:"搬家 means 'to move house.' The action is planned for next month."},
+ hint:"搬家 means 'to move ___.' The action is planned for next month."},
 
 {type:"fb", s:"这(zhè)是(shì)一(yí)个(gè)很(hěn)好(hǎo)的(de){1}。",
  a:["经历(jīnglì)"],
@@ -239,7 +239,7 @@ lessons:[
 {type:"mc", q:"你(nǐ)决定(juédìng)了(le)吗(ma)？ vs 你(nǐ)选择(xuǎnzé)了(le)吗(ma)？ What is the difference?",
  opts:["They mean the same thing","决定 is about resolving, 选择 is about picking from options","选择 is more formal","决定 is about regret"],
  ans:"决定 is about resolving, 选择 is about picking from options",
- hint:"决定 means making a firm resolution. 选择 means selecting one thing from multiple options."},
+ hint:"决定 means making a firm resolution. 选择 means selecting one thing from multiple ___."},
 
 {type:"fb", s:"我(wǒ)等(děng)了(le)很(hěn)长(cháng)时间(shíjiān)，他(tā){1}来(lái)了(le)。",
  a:["终于(zhōngyú)"],
@@ -276,7 +276,7 @@ lessons:[
 {type:"mc", q:"她(tā)忘(wàng)了(le)带(dài)书(shū)。 What happened?",
  opts:["She remembered her book","She forgot to bring her book","She decided to bring her book","She chose a book"],
  ans:"She forgot to bring her book",
- hint:"忘了 means 'forgot.' The object of forgetting is 带书 (to bring the book)."},
+ hint:"忘了 means '___.' The object of forgetting is 带书 (to ___ the ___)."},
 
 {type:"fb", s:"这(zhè)个(gè)地方(dìfang){1}了(le)很(hěn)多(duō)，我(wǒ)差不多(chàbuduō)不(bú)认识(rènshi)了(le)。",
  a:["变(biàn)"],
@@ -295,7 +295,7 @@ lessons:[
 {type:"mc", q:"我(wǒ)决定(juédìng)不(bù)后悔(hòuhuǐ)。 What is the speaker saying?",
  opts:["I decided to regret it","I decided not to regret it","I regret the decision","I cannot decide"],
  ans:"I decided not to regret it",
- hint:"决定 is the main verb (to decide), and 不后悔 (not regret) is what was decided."},
+ hint:"决定 is the main verb (to decide), and 不后悔 (not ___) is what was ___."},
 
 {type:"fb", s:"我(wǒ)在(zài)上海(Shànghǎi){1}的(de)。",
  a:["长大(zhǎngdà)"],
@@ -306,7 +306,7 @@ lessons:[
 {type:"mc", q:"他(tā)刚(gāng)搬(bān)到(dào)这儿(zhèr)。 When did he move here?",
  opts:["A long time ago","Just recently","Next month","He has not moved yet"],
  ans:"Just recently",
- hint:"刚 indicates something happened very recently. The move just took place."},
+ hint:"刚 indicates something happened very ___. The move just took place."},
 
 {type:"fb", s:"我(wǒ){1}来(lái)到(dào)了(le)中国(zhōngguó)！",
  a:["终于(zhōngyú)"],

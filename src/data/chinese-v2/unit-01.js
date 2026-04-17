@@ -177,7 +177,7 @@ lessons:[
 {type:"mc", q:"你(nǐ)叫(jiào)什么(shénme)名字(míngzi)？ What does this sentence ask?",
  opts:["Where are you from?","Are you a student?","How old are you?","What is your name?"],
  ans:"What is your name?",
- hint:"The question word 什么 means 'what,' and 名字 means 'name.' Put them together."},
+ hint:"The question word 什么 means 'what,' and 名字 means '___.' Put them together."},
 
 {type:"fb", s:"我(wǒ){1}大卫(Dàwèi)。",
  a:["叫(jiào)"],
@@ -242,7 +242,7 @@ lessons:[
 {type:"mc", q:"What does 对不起(duìbuqǐ) literally mean?",
  opts:["Cannot face (you)","Thank you very much","No relationship","You are good"],
  ans:"Cannot face (you)",
- hint:"对 means 'face/toward,' 不 means 'not,' and 起 means 'up/able to.' Combine them for the literal meaning."},
+ hint:"对 means '___/toward,' 不 means 'not,' and 起 means 'up/able to.' Combine them for the literal meaning."},
 
 {type:"mc", q:"Which phrase means 'you are welcome' in Chinese?",
  opts:["对不起(duìbuqǐ)","不(bú)客气(kèqi)","没关系(méi guānxi)","再见(zàijiàn)"],

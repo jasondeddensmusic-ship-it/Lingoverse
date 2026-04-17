@@ -78,7 +78,7 @@ lessons:[
 {type:"mc", q:"饺子(jiǎozi) are especially associated with Spring Festival because:",
  opts:["They are shaped like ancient gold ingots, symbolizing wealth","They are made from rice, the symbol of spring","They are the cheapest food available","They were invented during Spring Festival"],
  ans:"They are shaped like ancient gold ingots, symbolizing wealth",
- hint:"The crescent shape of these dumplings resembles something valuable from ancient China, and the name sounds like an old word for currency."},
+ hint:"The crescent shape of these dumplings resembles something valuable from ___ China, and the name sounds ___ an old word for currency."},
 
 {type:"fb", s:"春节(Chūnjié)一般(yībān){1}七天(qītiān)。",
  a:["放假(fàngjià)"],
@@ -126,7 +126,7 @@ lessons:[
 {type:"mc", q:"How does the Chinese 龙(lóng) differ from Western dragons?",
  opts:["Chinese dragons are benevolent and bring good luck","Chinese dragons breathe fire","Chinese dragons guard gold","Chinese dragons have wings"],
  ans:"Chinese dragons are benevolent and bring good luck",
- hint:"In Chinese culture, this creature is associated with water, rain, wisdom, and good fortune, not destruction."},
+ hint:"In ___ culture, this creature is associated with water, rain, wisdom, and ___ fortune, not destruction."},
 
 {type:"match", pairs:[
   {trg:"文化(wénhuà)", src:"culture"},
@@ -156,7 +156,7 @@ lessons:[
 {type:"mc", q:"我们(wǒmen)怎么(zěnme)庆祝(qìngzhù)你(nǐ)的(de)生日(shēngrì)？ This asks:",
  opts:["How shall we celebrate your birthday?","When is your birthday?","Where is the birthday party?","Do you want a birthday gift?"],
  ans:"How shall we celebrate your birthday?",
- hint:"怎么 asks 'how,' and 庆祝 means 'to celebrate.' The question is about the method of celebration."},
+ hint:"怎么 asks 'how,' and 庆祝 means 'to ___.' The question is about the method of celebration."},
 
 {type:"fb", s:"中国(Zhōngguó){1}有(yǒu)五千年(wǔqiānnián)的(de)历史(lìshǐ)。",
  a:["文化(wénhuà)"],
@@ -221,7 +221,7 @@ lessons:[
 {type:"mc", q:"热闹(rènao) describes:",
  opts:["A lively, energetic atmosphere","A quiet, peaceful atmosphere","A sad, lonely atmosphere","A dangerous, chaotic atmosphere"],
  ans:"A lively, energetic atmosphere",
- hint:"This word combines 'hot' and 'noisy.' In Chinese culture, this kind of atmosphere is always positive and festive."},
+ hint:"This word combines 'hot' and 'noisy.' In Chinese culture, this kind of ___ is always positive and festive."},
 
 {type:"fb", s:"我们(wǒmen)应该(yīnggāi){1}每个(měigè)国家(guójiā)的(de)传统(chuántǒng)。",
  a:["尊重(zūnzhòng)"],
@@ -232,7 +232,7 @@ lessons:[
 {type:"mc", q:"家(jiā)里(lǐ)来(lái)了(le)客人(kèrén)。 What happened?",
  opts:["Guests came to the house","The family went out","The house became empty","The guests left"],
  ans:"Guests came to the house",
- hint:"来了 means 'came.' 客人 means 'guests.' The sentence describes visitors arriving at someone's home."},
+ hint:"来了 means '___.' 客人 means '___.' The sentence describes visitors arriving at someone's home."},
 
 {type:"fb", s:"过年(guònián)的(de)时候(shíhou)，到处(dàochù)都(dōu)很(hěn){1}。",
  a:["热闹(rènao)"],
@@ -264,7 +264,7 @@ lessons:[
 {type:"mc", q:"红包(hóngbāo) are given during Spring Festival by:",
  opts:["Elders to younger family members","Children to their parents","Friends to strangers","Teachers to students"],
  ans:"Elders to younger family members",
- hint:"This is a traditional practice where the older generation passes money in red envelopes to the younger generation."},
+ hint:"This is a traditional practice where the older generation passes money in red envelopes to the ___ generation."},
 
 {type:"fb", s:"中秋节(Zhōngqiūjié)的(de)时候(shíhou)，我们(wǒmen)一起(yīqǐ)吃(chī){1}。",
  a:["月饼(yuèbǐng)"],
@@ -305,9 +305,9 @@ lessons:[
 {type:"mc", q:"春节(Chūnjié)放假(fàngjià)几天(jǐtiān)？ This asks:",
  opts:["How many days off for Spring Festival?","When is Spring Festival?","Where do you go for Spring Festival?","How do you celebrate Spring Festival?"],
  ans:"How many days off for Spring Festival?",
- hint:"几天 asks 'how many days,' and 放假 means 'to have holiday.' The question is about the length of the break."},
+ hint:"几天 asks 'how ___ ___,' and 放假 means 'to have holiday.' The question is about the length of the break."},
 
-{type:"fb", s:"每个(měigè)国家(guójiā)都(dōu)有(yǒu)自己(zìjǐ)的(de){1}和(hé){2}。",
+{type:"fb", s:"每个(měigè)国家(guójiā)都(dōu)有(yǒu)自己(zìjǐ)的(de){1}和(hé)传统(chuántǒng)。",
  a:["文化(wénhuà)"],
  opts:["文化(wénhuà)","龙(lóng)","客人(kèrén)","热闹(rènao)"],
  hint:"Every country has its own body of arts, beliefs, and practices. This word starts the pair.",

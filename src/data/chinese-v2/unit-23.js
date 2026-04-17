@@ -72,7 +72,7 @@ lessons:[
 {type:"mc", q:"你(nǐ)还(hái)看(kàn)报纸(bàozhǐ)吗(ma)？ 很少(hěnshǎo)了(le)。 What does this exchange tell us?",
  opts:["The person rarely reads newspapers anymore","The person reads newspapers every day","The person never reads anything","The person only reads newspapers"],
  ans:"The person rarely reads newspapers anymore",
- hint:"还 asks 'still,' and 很少了 means 'rarely now.' The 了 suggests a change from a previous habit."},
+ hint:"还 asks 'still,' and 很少了 means '___ now.' The 了 suggests a change from a previous habit."},
 
 {type:"fb", s:"很多(hěnduō)媒体(méitǐ)都(dōu){1}了(le)这件(zhèjiàn)事(shì)。",
  a:["报道(bàodào)"],
@@ -157,7 +157,7 @@ lessons:[
 {type:"mc", q:"你(nǐ)对(duì)这件(zhèjiàn)事(shì)有(yǒu)什么(shénme)意见(yìjiàn)？ This asks:",
  opts:["What is your opinion about this?","Did you hear about this?","Are you interested in this?","Did you report this?"],
  ans:"What is your opinion about this?",
- hint:"意见 means opinion or view. The question asks for your personal viewpoint on the matter."},
+ hint:"意见 means ___ or view. The question asks for your personal viewpoint on the matter."},
 
 {type:"fb", s:"这件(zhèjiàn)事(shì)引起(yǐnqǐ)了(le){1}的(de)关注(guānzhù)。",
  a:["公众(gōngzhòng)"],
@@ -199,7 +199,7 @@ lessons:[
 {type:"mc", q:"网络(wǎngluò)购物(gòuwù)是(shì)现在(xiànzài)的(de)趋势(qūshì)。 What is described as a trend?",
  opts:["Online shopping","Reading newspapers","Watching television","Listening to radio"],
  ans:"Online shopping",
- hint:"网络 means internet/online, and 购物 means shopping. The sentence describes the direction consumer behavior is heading."},
+ hint:"网络 means internet/___, and 购物 means ___. The sentence describes the direction consumer behavior is heading."},
 
 {type:"match", pairs:[
   {trg:"现象(xiànxiàng)", src:"phenomenon"},
@@ -255,7 +255,7 @@ lessons:[
 {type:"mc", q:"发生(fāshēng) can only be used with:",
  opts:["Events as the subject, never people","People as the subject, never events","Both people and events","Only weather phenomena"],
  ans:"Events as the subject, never people",
- hint:"This verb describes things that happen or occur. It takes events, incidents, and changes as its subject."},
+ hint:"This verb describes things that happen or occur. It takes ___, incidents, and changes as its ___."},
 
 {type:"fb", s:"每个(měigè)人(rén)对(duì)这件(zhèjiàn)事(shì)都(dōu)有(yǒu)不同(bùtóng)的(de){1}。",
  a:["意见(yìjiàn)"],
@@ -266,7 +266,7 @@ lessons:[
 {type:"mc", q:"这件(zhèjiàn)事(shì)引起(yǐnqǐ)了(le)公众(gōngzhòng)的(de)关注(guānzhù)。 What happened?",
  opts:["The event drew the public's attention","The public caused the event","The news was censored","A new trend appeared"],
  ans:"The event drew the public's attention",
- hint:"引起 means 'to cause' or 'to draw.' The sentence describes an event that attracted widespread public interest."},
+ hint:"引起 means 'to cause' or 'to draw.' The sentence describes an ___ that attracted widespread ___ interest."},
 
 {type:"fb", s:"他(tā)每天(měitiān)在(zài){1}上(shàng)看(kàn)新闻(xīnwén)。",
  a:["网络(wǎngluò)"],
@@ -291,7 +291,7 @@ lessons:[
 {type:"mc", q:"社会(shèhuì) originally referred to:",
  opts:["A gathering around the earth god","A government building","A marketplace","A school"],
  ans:"A gathering around the earth god",
- hint:"社 originally meant the god of the earth. 会 means gathering. The word captures the communal nature of living together."},
+ hint:"社 originally meant the ___ of the ___. 会 means ___. The word captures the communal nature of living together."},
 
 {type:"drag_fill",
  s:"最近(zuìjìn)网上(wǎngshàng){1}了(le)一个(yígè)新(xīn)的(de)社会(shèhuì){2}，很多(hěnduō)人(rén)都(dōu)在(zài){3}，每个(měigè)人(rén)都(dōu)有(yǒu)不同(bùtóng)的(de){4}。",
@@ -302,7 +302,7 @@ lessons:[
 {type:"mc", q:"趋势(qūshì) describes:",
  opts:["The direction or momentum of a development","A single news event","A fixed tradition","A personal habit"],
  ans:"The direction or momentum of a development",
- hint:"趋 means to hasten toward, and 势 means momentum or power. Together they describe where things are heading."}
+ hint:"趋 means to hasten toward, and 势 means ___ or power. Together they describe where things are heading."}
 ]}
 
 ]};

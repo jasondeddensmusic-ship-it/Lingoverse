@@ -53,7 +53,7 @@ lessons:[
 {type:"mc", q:"你(nǐ)身体(shēntǐ)好(hǎo)吗(ma)？ is asking about your:",
  opts:["Name","Age","Health","Family"],
  ans:"Health",
- hint:"身体 means both 'body' and 'health.' This question is about your physical well-being."},
+ hint:"身体 means both 'body' and '___.' This question is about your physical well-being."},
 
 {type:"match", pairs:[
   {trg:"头(tóu)", src:"head"},
@@ -72,7 +72,7 @@ lessons:[
 {type:"mc", q:"Which radical (月) appears in many body part characters?",
  opts:["The fire radical","The water radical","The flesh/body radical","The sun radical"],
  ans:"The flesh/body radical",
- hint:"This radical originally depicted meat or flesh. It appears on the left side of characters like 脚, 脸, and 脑."},
+ hint:"This ___ originally depicted meat or ___. It appears on the left side of characters like 脚, 脸, and 脑."},
 
 {type:"fb", s:"你(nǐ)的(de){1}很(hěn)大(dà)！",
  a:["眼睛(yǎnjing)"],
@@ -143,7 +143,7 @@ lessons:[
 {type:"mc", q:"我(wǒ)不(bù)舒服(shūfu)。 What is this person saying?",
  opts:["I am very happy","I do not feel well","I am hungry","I am busy"],
  ans:"I do not feel well",
- hint:"舒服 means comfortable or feeling well. Adding 不 before it negates the feeling."},
+ hint:"舒服 means comfortable or feeling ___. Adding 不 before it negates the feeling."},
 
 {type:"match", pairs:[
   {trg:"舒服(shūfu)", src:"comfortable"},
@@ -173,7 +173,7 @@ lessons:[
 {type:"mc", q:"他(tā)发烧(fāshāo)了(le)，三十九(sānshíjiǔ)度(dù)。 How serious is this fever?",
  opts:["No fever at all","A mild fever","A significant fever","Normal temperature"],
  ans:"A significant fever",
- hint:"Normal is 37 C. This reading is two degrees above normal, which indicates a notable fever."},
+ hint:"Normal is 37 C. This reading is two degrees above normal, which indicates a notable ___."},
 
 {type:"fb", s:"他(tā)没(méi)来(lái)，他(tā){1}了(le)。",
  a:["生病(shēngbìng)"],
@@ -245,7 +245,7 @@ lessons:[
 {type:"mc", q:"他(tā)每天(měitiān)七(qī)点(diǎn)起床(qǐchuáng)。 What does he do at 7?",
  opts:["He eats breakfast","He goes to school","He gets out of bed","He goes to sleep"],
  ans:"He gets out of bed",
- hint:"起 means 'to rise' and 床 means 'bed.' Rising from bed is the first action of the day."},
+ hint:"起 means 'to rise' and 床 means '___.' Rising from ___ is the first action of the day."},
 
 {type:"fb", s:"昨天(zuótiān)十二(shíèr)点(diǎn)才(cái){1}。",
  a:["睡觉(shuìjiào)"],

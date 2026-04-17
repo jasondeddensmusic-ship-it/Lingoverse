@@ -83,7 +83,7 @@ lessons:[
 {type:"mc", q:"独生子女(dúshēng zǐnǚ) literally translates as:",
  opts:["big family child","first born child","sole born children","young generation"],
  ans:"sole born children",
- hint:"独 means sole or only. 生 means born. 子女 means children (sons and daughters)."},
+ hint:"独 means ___ or only. 生 means ___. 子女 means ___ (sons and daughters)."},
 
 {type:"fb", s:"{1}是(shì)一(yí)个(gè)严重(yánzhòng)的(de)社会(shèhuì)问题(wèntí)。",
  a:["老龄化(lǎolínghuà)"],
@@ -139,7 +139,7 @@ lessons:[
 {type:"mc", q:"高铁(gāotiě) is short for:",
  opts:["高速铁路(gāosù tiělù) (high-speed railway)","高大铁路(gāodà tiělù) (tall railway)","高级铁路(gāojí tiělù) (advanced railway)","高等铁路(gāoděng tiělù) (higher railway)"],
  ans:"高速铁路(gāosù tiělù) (high-speed railway)",
- hint:"高 means high, and 铁 comes from the full word for railway. The missing part describes speed."},
+ hint:"高 means ___, and 铁 comes from the full word for ___. The missing part describes ___."},
 
 {type:"match", pairs:[
   {trg:"高铁(gāotiě)", src:"high-speed rail"},
@@ -207,7 +207,7 @@ lessons:[
 {type:"mc", q:"Which statement best describes China's payment technology?",
  opts:["China relies mainly on credit cards","China skipped credit cards and went from cash to mobile payments","China only accepts cash in most places","China uses the same payment systems as Europe"],
  ans:"China skipped credit cards and went from cash to mobile payments",
- hint:"Think about what made mobile payment adoption so rapid. The country did not go through a widespread credit card phase first."}
+ hint:"Think about what made ___ payment adoption so rapid. The country did not go through a widespread ___ card phase first."}
 ]},
 
 // ─── L3: Society and Change ───

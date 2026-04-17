@@ -59,7 +59,7 @@ lessons:[
 {type:"mc", q:"画(huà) can function as:",
  opts:["Both a verb (to paint) and a noun (painting)","Only a verb","Only a noun","Only an adjective"],
  ans:"Both a verb (to paint) and a noun (painting)",
- hint:"This character does double duty. 画画 means 'to draw a drawing,' using the same character as both verb and object."},
+ hint:"This character does double duty. 画画 means 'to draw a drawing,' using the same character as both ___ and object."},
 
 {type:"match", pairs:[
   {trg:"艺术(yìshù)", src:"art"},
@@ -139,7 +139,7 @@ lessons:[
 {type:"mc", q:"这首(zhèshǒu)歌曲(gēqǔ)很(hěn)好听(hǎotīng)。 What is being praised?",
  opts:["A song sounds nice","A painting looks nice","A story is interesting","A performance is exciting"],
  ans:"A song sounds nice",
- hint:"歌曲 means song, and 好听 literally means 'good to listen to.' The sentence praises a piece of music."},
+ hint:"歌曲 means ___, and 好听 literally means 'good to listen to.' The sentence praises a piece of music."},
 
 {type:"match", pairs:[
   {trg:"表演(biǎoyǎn)", src:"performance"},
@@ -159,7 +159,7 @@ lessons:[
 {type:"mc", q:"美(měi) originally combined the characters for:",
  opts:["Sheep and big","Sun and moon","Heart and eye","Mountain and water"],
  ans:"Sheep and big",
- hint:"In ancient China, a large, healthy sheep represented abundance and was considered an ideal of beauty."},
+ hint:"In ancient China, a large, healthy ___ represented abundance and was considered an ideal of beauty."},
 
 {type:"fb", s:"她(tā)一直(yīzhí)在(zài){1}新(xīn)的(de)歌曲(gēqǔ)。",
  a:["创作(chuàngzuò)"],
@@ -201,7 +201,7 @@ lessons:[
 {type:"mc", q:"这个(zhège)故事(gùshi)让(ràng)我(wǒ)很(hěn)感动(gǎndòng)。 The speaker was:",
  opts:["Emotionally moved by the story","Bored by the story","Confused by the story","Angry about the story"],
  ans:"Emotionally moved by the story",
- hint:"感动 means to be emotionally stirred or touched. 让我很感动 means 'it made me very moved.'"},
+ hint:"感动 means to be ___ stirred or touched. 让我很感动 means 'it made me very ___.'"},
 
 {type:"match", pairs:[
   {trg:"感动(gǎndòng)", src:"to be moved"},
@@ -220,7 +220,7 @@ lessons:[
 {type:"mc", q:"想象(xiǎngxiàng) contains 象(xiàng). Why does an 'elephant' appear in the word for 'imagination'?",
  opts:["Elephants became a metaphor for things that take form or shape","Elephants are very imaginative animals","The character was chosen at random","Elephants appear in many Chinese stories"],
  ans:"Elephants became a metaphor for things that take form or shape",
- hint:"As the largest visible animal in ancient China, the elephant became associated with form, image, and appearance."},
+ hint:"As the largest visible animal in ancient China, the elephant ___ associated with ___, image, and appearance."},
 
 {type:"fb", s:"这个(zhège)作者(zuòzhě)的(de){1}力(lì)很(hěn)丰富(fēngfù)。",
  a:["想象(xiǎngxiàng)"],
@@ -257,7 +257,7 @@ lessons:[
 {type:"mc", q:"中国(Zhōngguó)的(de)山水(shānshuǐ)画(huà)真(zhēn)美(měi)。 What is being praised?",
  opts:["Chinese landscape paintings","Chinese poetry","Chinese music","Chinese calligraphy"],
  ans:"Chinese landscape paintings",
- hint:"山水 means 'mountain and water,' which is the term for landscape. 画 means painting. The sentence praises their beauty."},
+ hint:"山水 means 'mountain and water,' which is the term for ___. 画 means painting. The sentence praises their beauty."},
 
 {type:"fb", s:"她(tā)是(shì)这本(zhèběn)书(shū)的(de){1}。",
  a:["作者(zuòzhě)"],
@@ -268,7 +268,7 @@ lessons:[
 {type:"mc", q:"创作(chuàngzuò) differs from 制作(zhìzuò) because:",
  opts:["创作 implies original artistic inspiration","创作 means mechanical production","They are exactly the same","创作 is only for music"],
  ans:"创作 implies original artistic inspiration",
- hint:"创 means to initiate or begin something new. This word is about original creation, not manufacturing."},
+ hint:"创 means to initiate or begin something new. This word is about ___ creation, not manufacturing."},
 
 {type:"fb", s:"这首(zhèshǒu){1}的(de)旋律(xuánlǜ)很(hěn)好听(hǎotīng)。",
  a:["歌曲(gēqǔ)"],
@@ -304,7 +304,7 @@ lessons:[
 {type:"mc", q:"昨天(zuótiān)的(de)表演(biǎoyǎn)非常(fēicháng)精彩(jīngcǎi)。 What was wonderful?",
  opts:["Yesterday's performance","Yesterday's meal","Yesterday's weather","Yesterday's news"],
  ans:"Yesterday's performance",
- hint:"表演 means a live show or performance. 精彩 means wonderful or spectacular. The sentence praises a show."}
+ hint:"表演 means a live show or ___. 精彩 means wonderful or spectacular. The sentence praises a show."}
 ]}
 
 ]};

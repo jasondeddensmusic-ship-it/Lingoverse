@@ -109,7 +109,7 @@ lessons:[
 {type:"mc", q:"水平(shuǐpíng) uses the metaphor of water because:",
  opts:["Water is clear and transparent","Water always finds its true level","Water flows quickly like speech","Water is necessary for life"],
  ans:"Water always finds its true level",
- hint:"A spirit level uses water to find the true horizontal. Similarly, your 水平 represents the true level your ability naturally settles at."}
+ hint:"A spirit ___ uses ___ to find the ___ horizontal. Similarly, your 水平 represents the ___ ___ your ability naturally settles at."}
 ]},
 
 // ─── L2: The Art of Communication ───
@@ -151,7 +151,7 @@ lessons:[
 {type:"mc", q:"理解(lǐjiě) goes deeper than 明白(míngbai) because:",
  opts:["理解 is more formal","理解 means surface clarity","理解 means untying the underlying logic","理解 only applies to grammar"],
  ans:"理解 means untying the underlying logic",
- hint:"理 means logic or principle, 解 means to untie or solve. The compound describes reaching the deep structure of meaning."},
+ hint:"理 ___ ___ or principle, 解 ___ to untie or solve. The compound describes reaching the deep structure of meaning."},
 
 {type:"match", pairs:[
   {trg:"交流(jiāoliú)", src:"to communicate"},

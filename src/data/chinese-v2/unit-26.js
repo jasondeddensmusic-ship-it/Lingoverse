@@ -59,7 +59,7 @@ lessons:[
 {type:"mc", q:"科技(kējì) is an abbreviation of:",
  opts:["科学技术 (science and technology)","科目技能 (subject skills)","科研技巧 (research techniques)","科室技工 (department technicians)"],
  ans:"科学技术 (science and technology)",
- hint:"科 comes from 科学 (science), and 技 comes from 技术 (technology). The compound combines both fields."},
+ hint:"科 comes from 科学 (___), and 技 comes from 技术 (___). The compound combines both fields."},
 
 {type:"match", pairs:[
   {trg:"科技(kējì)", src:"technology"},
@@ -81,7 +81,7 @@ lessons:[
  ans:"Numerical evidence",
  hint:"数 means number, and 据 means basis or evidence. Data is factual information in measurable form."},
 
-{type:"fb", s:"{1}数据(shùjù)已经(yǐjīng){2}了(le)这个(zhège)理论(lǐlùn)。",
+{type:"fb", s:"{1}数据(shùjù)已经(yǐjīng)证明(zhèngmíng)了(le)这个(zhège)理论(lǐlùn)。",
  a:["实验(shíyàn)"],
  opts:["实验(shíyàn)","科技(kējì)","发明(fāmíng)","方法(fāngfǎ)"],
  hint:"This type of data comes from controlled testing in a lab. It is the strongest form of scientific evidence.",
@@ -139,7 +139,7 @@ lessons:[
 {type:"mc", q:"你(nǐ)的(de)中文(Zhōngwén)进步(jìnbù)很(hěn)大(dà)！ This is:",
  opts:["A compliment about improvement","A criticism about mistakes","A question about plans","A suggestion about study"],
  ans:"A compliment about improvement",
- hint:"进步 means progress or improvement. 很大 means very big. Telling someone they have improved a lot is a warm compliment."},
+ hint:"进步 means progress or ___. 很大 means very big. Telling someone they have improved a lot is a warm ___."},
 
 {type:"fb", s:"学(xué)中文(Zhōngwén)的(de){1}虽然(suīrán)慢(màn)，但是(dànshì)很(hěn)有趣(yǒuqù)。",
  a:["过程(guòchéng)"],
@@ -187,7 +187,7 @@ lessons:[
 {type:"mc", q:"人工智能(réngōng zhìnéng) literally translates as:",
  opts:["Human-made wisdom and ability","Computer brain","Smart machine","Robot worker"],
  ans:"Human-made wisdom and ability",
- hint:"人工 = human-made (not natural). 智能 = wisdom + ability. Together they describe machine intelligence."},
+ hint:"人工 = ___-___ (not natural). 智能 = ___ + ___. Together they describe machine intelligence."},
 
 {type:"match", pairs:[
   {trg:"人工智能(réngōng zhìnéng)", src:"artificial intelligence"},
@@ -248,7 +248,7 @@ lessons:[
 {type:"mc", q:"过程(guòchéng) emphasizes:",
  opts:["The journey from start to finish","Only the final result","Only the beginning","The cost of something"],
  ans:"The journey from start to finish",
- hint:"过 means to pass through, and 程 means journey. The word describes the full progression of an experience."},
+ hint:"过 means to pass through, and 程 means ___. The word describes the full progression of an experience."},
 
 {type:"fb", s:"实验(shíyàn){1}已经(yǐjīng)证明(zhèngmíng)了(le)这个(zhège)理论(lǐlùn)是(shì)正确(zhèngquè)的(de)。",
  a:["数据(shùjù)"],
@@ -273,7 +273,7 @@ lessons:[
 {type:"mc", q:"系统(xìtǒng) originally involves the image of:",
  opts:["A silk thread connecting things","A stone wall","A flowing river","A growing tree"],
  ans:"A silk thread connecting things",
- hint:"系 originally depicted a silk thread. A system is things bound together, unified and connected."},
+ hint:"系 originally depicted a ___ ___. A system is ___ bound together, unified and connected."},
 
 {type:"drag_fill",
  s:"科学家(kēxuéjiā)用(yòng)新(xīn)的(de){1}做(zuò)了(le){2}，收集(shōují)了(le)很多(hěnduō){3}，{4}了(le)这个(zhège)理论(lǐlùn)是(shì)正确(zhèngquè)的(de)。",
@@ -284,7 +284,7 @@ lessons:[
 {type:"mc", q:"创新(chuàngxīn) shares the character 创(chuàng) with 创作(chuàngzuò). Both words share the idea of:",
  opts:["Bringing something new into existence","Destroying something old","Copying something","Analyzing something"],
  ans:"Bringing something new into existence",
- hint:"创 means to initiate or begin something new. Both 创新 and 创作 involve original creation."}
+ hint:"创 means to initiate or begin ___ new. Both 创新 and 创作 involve original creation."}
 ]}
 
 ]};

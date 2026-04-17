@@ -119,7 +119,7 @@ lessons:[
 {type:"mc", q:"What is the difference between 天气(tiānqì) and 气候(qìhòu)?",
  opts:["天气 = daily weather, 气候 = long-term climate","天气 = hot weather, 气候 = cold weather","They mean the same thing","天气 = good weather, 气候 = bad weather"],
  ans:"天气 = daily weather, 气候 = long-term climate",
- hint:"One describes what is happening outside today. The other describes the overall weather patterns of a region over time."},
+ hint:"One describes what is happening outside today. The other describes the overall ___ patterns of a region over time."},
 
 {type:"match", pairs:[
   {trg:"环境(huánjìng)", src:"environment"},
@@ -138,7 +138,7 @@ lessons:[
 {type:"mc", q:"污染(wūrǎn) contains the water radical because:",
  opts:["Pollution was historically linked to contaminated water","All environmental words have the water radical","It only refers to water pollution","The character was invented near a river"],
  ans:"Pollution was historically linked to contaminated water",
- hint:"The 氵radical in 污 connects the character to its original association with dirty or contaminated water."},
+ hint:"The 氵radical in 污 connects the character to its original association with dirty or ___ ___."},
 
 {type:"fb", s:"河(hé)里(lǐ)的(de){1}很(hěn)严重(yánzhòng)，鱼(yú)都(dōu)死(sǐ)了(le)。",
  a:["污染(wūrǎn)"],
@@ -149,7 +149,7 @@ lessons:[
 {type:"mc", q:"严重(yánzhòng) literally combines which two meanings?",
  opts:["strict + heavy","big + bad","very + serious","dark + difficult"],
  ans:"strict + heavy",
- hint:"The first character means strict or stern, and the second means heavy or weighty. Together they describe severity."}
+ hint:"The first character means ___ or stern, and the second means ___ or weighty. Together they describe severity."}
 ]},
 
 // ─── L3: Taking Action ───
@@ -196,7 +196,7 @@ lessons:[
 {type:"mc", q:"应该(yīnggāi) expresses:",
  opts:["Obligation or what one should do","Permission to do something","Ability to do something","A past completed action"],
  ans:"Obligation or what one should do",
- hint:"This auxiliary verb tells what is proper, expected, or advisable, similar to English 'should' or 'ought to.'"},
+ hint:"This auxiliary verb tells what is proper, expected, or advisable, similar to English '___' or 'ought to.'"},
 
 {type:"match", pairs:[
   {trg:"应该(yīnggāi)", src:"should"},
@@ -288,7 +288,7 @@ lessons:[
 {type:"mc", q:"动物(dòngwù) and 植物(zhíwù) both end in 物. What does 物 mean?",
  opts:["thing","life","nature","body"],
  ans:"thing",
- hint:"物 is a general classifier meaning 'thing' or 'matter.' It forms compounds with descriptive first characters."},
+ hint:"物 is a general classifier meaning '___' or 'matter.' It forms compounds with descriptive first characters."},
 
 {type:"fb", s:"大家(dàjiā)应该(yīnggāi){1}用电(yòngdiàn)，不要(búyào)浪费(làngfèi)。",
  a:["节约(jiéyuē)"],
