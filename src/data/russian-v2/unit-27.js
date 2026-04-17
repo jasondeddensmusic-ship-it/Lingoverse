@@ -79,16 +79,7 @@ const UNIT_27 = {n:27, lang:"ru", srcLang:"en", track:"v2", title:"Бизнес"
   {trg:"клиент", src:"customer"},
   {trg:"договор", src:"contract"}
 ]}
-<<<<<<< HEAD
-,
-
-{type:"match", pairs:[
-  {trg:"инвестировать", src:"to invest"},
-  {trg:"менеджер", src:"manager"}
-]}]}
-=======
 ]}
->>>>>>> origin/main
 
 ]};
 export default UNIT_27;

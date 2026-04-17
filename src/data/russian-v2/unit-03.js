@@ -71,19 +71,11 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
  ans:"It refers to a female person",
  hint:"Nouns ending in -ь are unpredictable in gender. But if the noun ___ to a woman, it's clearly feminine."},
 
-<<<<<<< HEAD
-{type:"fb", s:"A: Где ваша {1}?\nB: Она на кухне.",
- a:["мама"],
- opts:["мама","папа","сын","дочь"],
- hint:"Feminine possessive 'ваша' — which female family member?",
- sSrc:"A: Where is your mom?\nB: She's in the kitchen."},
-=======
 {type:"fb", s:"A: Где ваша {1}?\nB: Моя мама на кухне.",
  a:["мама"],
  opts:["мама","папа","сын","дочь"],
  hint:"The answer in B tells you which family member A is asking about. Match gender: 'ваша' is feminine.",
  sSrc:"A: Where is your {1}?\nB: My mom is in the kitchen."},
->>>>>>> origin/main
 
 {type:"match", pairs:[
   {trg:"папа", src:"dad"},
@@ -274,19 +266,7 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
   {trg:"моё письмо", src:"my letter"},
   {trg:"мои родители", src:"my parents"}
 ]}
-<<<<<<< HEAD
-,
-
-{type:"match", pairs:[
-  {trg:"отец", src:"father (formal)"},
-  {trg:"ребёнок", src:"child"},
-  {trg:"муж", src:"husband"},
-  {trg:"жена", src:"wife"},
-  {trg:"твой", src:"your (informal, m/f/n/pl)"}
-]}]}
-=======
 ]}
->>>>>>> origin/main
 
 ]};
 export default UNIT_03;

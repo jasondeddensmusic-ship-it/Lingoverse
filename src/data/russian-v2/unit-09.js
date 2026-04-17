@@ -172,19 +172,11 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
  hint:"He's in the hospital — what's his condition?",
  sSrc:"A: How is he today?\nB: Sick, in the hospital."},
 
-<<<<<<< HEAD
-{type:"fb", s:"A: У тебя что-то {1}?\nB: Очень голова.",
- a:["болит"],
- opts:["болит","болят","боль","больно"],
- hint:"Singular body part (голова) needs the singular 3rd-person verb form.",
- sSrc:"A: Does something hurt you?\nB: My head, a lot."},
-=======
 {type:"fb", s:"A: Что у тебя {1}?\nB: Очень болит голова.",
  a:["болит"],
  opts:["болит","болят","боль","больно"],
  hint:"Singular body part follows. Use the singular 3rd-person verb form.",
  sSrc:"A: What hurts?\nB: My head hurts very much."},
->>>>>>> origin/main
 
 {type:"match", pairs:[
   {trg:"болит", src:"hurts"},
@@ -288,27 +280,7 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
   {trg:"лекарство", src:"medicine"},
   {trg:"рецепт", src:"prescription"}
 ]}
-<<<<<<< HEAD
-,
-
-{type:"match", pairs:[
-  {trg:"рот", src:"mouth"},
-  {trg:"горло", src:"throat"},
-  {trg:"болеть", src:"to be sick / to hurt"},
-  {trg:"отдыхать", src:"to rest (imperfective)"},
-  {trg:"помочь", src:"to help (perfective)"}
-]},
-
-{type:"match", pairs:[
-  {trg:"тело", src:"body"},
-  {trg:"нос", src:"nose"},
-  {trg:"здоровый", src:"healthy (m)"},
-  {trg:"приём", src:"appointment / reception"},
-  {trg:"принимать", src:"to take (medicine)"}
-]}]}
-=======
 ]}
->>>>>>> origin/main
 
 ]};
 export default UNIT_09;

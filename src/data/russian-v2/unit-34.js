@@ -79,15 +79,7 @@ const UNIT_34 = {n:34, lang:"ru", srcLang:"en", track:"v2", title:"Геогра�
   {trg:"Сибирь", src:"Siberia"},
   {trg:"Урал", src:"Urals"}
 ]}
-<<<<<<< HEAD
-,
-
-{type:"match", pairs:[
-  {trg:"граница", src:"border"}
-]}]}
-=======
 ]}
->>>>>>> origin/main
 
 ]};
 export default UNIT_34;

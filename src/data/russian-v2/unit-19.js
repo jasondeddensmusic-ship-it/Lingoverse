@@ -155,21 +155,7 @@ const UNIT_19 = {n:19, lang:"ru", srcLang:"en", track:"v2", title:"Родите�
   {trg:"матери (GEN)", src:"of mother"},
   {trg:"времени (GEN)", src:"of time"}
 ]}
-<<<<<<< HEAD
-,
-
-{type:"match", pairs:[
-  {trg:"без сахара", src:"without sugar (GEN)"},
-  {trg:"мать → матери", src:"mother → of mother (f -ь)"},
-  {trg:"люди → людей", src:"people → of people (pl)"}
-]},
-
-{type:"match", pairs:[
-  {trg:"у меня нет", src:"I don"}
-]}]}
-=======
 ]}
->>>>>>> origin/main
 
 ]};
 export default UNIT_19;
