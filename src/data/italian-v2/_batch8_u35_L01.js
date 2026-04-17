@@ -95,6 +95,6 @@ const BATCH8_L1 = {id:"itv2_u35l_b8_1", title:"Lo spazio e le frontiere", icon:"
  q:"Who was Fibonacci and why is he important?",
  opts:["An Italian mathematician who transmitted Arabic mathematical knowledge to Europe","An Italian astronaut","A rocket engineer","A computer scientist"],
  ans:"An Italian mathematician who transmitted Arabic mathematical knowledge to Europe",
- hint:"His 'Liber Abaci' introduced Hindu-Arabic numerals to Europe. The sequence named after him appears everywhere in nature."}
+ hint:"His 'Liber Abaci' introduced the numeral system used worldwide today. The famous sequence named after him appears everywhere in nature."}
 ]};
 export default BATCH8_L1;

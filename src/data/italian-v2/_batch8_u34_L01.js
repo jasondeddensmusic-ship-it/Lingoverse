@@ -95,6 +95,6 @@ const BATCH8_L1 = {id:"itv2_u34l_b8_1", title:"Diplomazia e trattati", icon:"ðŸ¤
  q:"How does Italy promote its culture through embassies?",
  opts:["Through Settimana della Cucina Italiana (Italian Cuisine Week)","Through military parades","Through sports events","Through fashion shows only"],
  ans:"Through Settimana della Cucina Italiana (Italian Cuisine Week)",
- hint:"Italian embassies worldwide celebrate Italian food culture. Diplomacy through cuisine is a uniquely Italian approach."}
+ hint:"Embassies worldwide celebrate the country's food culture through an annual November event. Gastronomy as diplomacy is a uniquely national tradition."}
 ]};
 export default BATCH8_L1;
