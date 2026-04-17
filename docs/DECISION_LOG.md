@@ -900,3 +900,44 @@ export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LE
 **Rationale:** The CEFR Reference page showed "No data available" for Italian and Japanese learners despite having complete reference files (Italian: 1,140 vocab entries, 89 grammar constructs; Japanese: 977 vocab entries, 95 grammar constructs).
 
 **Status:** Fixed. PR #172 merged.
+
+---
+
+## D125: Chinese Concept-Driven Unit Count (PP56 Correction)
+**Date:** 2026-04-17 | **Category:** Curriculum | **Scope:** Chinese
+
+**Decision:** Chinese (Mandarin) expanded from template-based 36 units to concept-driven 45 units (6 A1 + 8 A2 + 15 B1 + 16 B2).
+
+**Rationale:** The initial Chinese build copied the 36-unit structure from German/Italian/Japanese without performing the concept-driven calculation required by PP56. Audit against HSK data revealed:
+
+- HSK cumulative words: HSK1 (150), HSK2 (300), HSK3 (600), HSK4 (1,200). NEW words per level: A1 (150), A2 (150), B1 (300), B2 (600).
+- Grammar patterns per level: A1 (20), A2 (20), B1 (40), B2 (60) = ~140 total.
+- FSI Category IV (4x harder than German Cat I).
+
+Concept-driven minimum:
+- A1: 6 units (matches current)
+- A2: 8 units (was 6) — HSK 2 vocab + interpersonal/home domains
+- B1: 15 units (was 12) — 600 new HSK 3 words + 40 grammar patterns
+- B2: 16 units (was 12) — 600 new HSK 4 words + 60 grammar patterns (literary register, chengyu, formal writing)
+
+**Added units:** 37 (Relationships), 38 (Home Life), 39 (Describing People), 40 (Directions/Instructions), 41 (Food Culture), 42 (Technology/AI), 43 (Sustainability), 44 (Workplace), 45 (Global Issues).
+
+**Precedent:** Korean (FSI Cat IV, same as Chinese) has 69 units. Chinese at 45 is still conservative but defensible given the lighter NEW word count per HSK level vs TOPIK.
+
+**Status:** In progress. Unit 37 agent writing. Stubs created for 38-45 pending agent completion.
+
+---
+
+## D126: Chinese Unit 1 PP63 Violation Fix (什么 Order)
+**Date:** 2026-04-17 | **Category:** Content | **Scope:** Chinese A1
+
+**Decision:** Reordered teach cards in Unit 1 Lesson 2 so 什么 (what) is taught BEFORE 叫 (to be called), since 叫's example sentence uses 什么.
+
+**Rationale:** A1 beginner-path audit flagged PP63 violation: the teach card for 叫 contained the example "你叫什么名字？" but 什么 had no prior teach card at that point. PP63 (Example Vocabulary Integrity) requires every content word in a teach card's example to be taught in a PRIOR teach card, be the trg of THIS card, or be an exempt function word. This is strictest at A1.
+
+**Fix:**
+- Swapped card order: 什么 now appears before 叫 in the teach sequence.
+- Rewrote 什么's example to use only taught vocabulary (是, 人) to avoid 叫 dependency: "你是什么人？我是美国人。"
+- 叫's example now correctly references 什么 which is a prior card.
+
+**Status:** Fixed. Build passes.

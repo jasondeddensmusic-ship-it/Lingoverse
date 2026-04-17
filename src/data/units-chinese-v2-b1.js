@@ -10,5 +10,8 @@ import UNIT_21 from './chinese-v2/unit-21.js';
 import UNIT_22 from './chinese-v2/unit-22.js';
 import UNIT_23 from './chinese-v2/unit-23.js';
 import UNIT_24 from './chinese-v2/unit-24.js';
+import UNIT_39 from './chinese-v2/unit-39.js';
+import UNIT_40 from './chinese-v2/unit-40.js';
+import UNIT_41 from './chinese-v2/unit-41.js';
 
-export default [UNIT_13, UNIT_14, UNIT_15, UNIT_16, UNIT_17, UNIT_18, UNIT_19, UNIT_20, UNIT_21, UNIT_22, UNIT_23, UNIT_24];
+export default [UNIT_13, UNIT_14, UNIT_15, UNIT_16, UNIT_17, UNIT_18, UNIT_19, UNIT_20, UNIT_21, UNIT_22, UNIT_23, UNIT_24, UNIT_39, UNIT_40, UNIT_41];

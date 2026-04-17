@@ -1828,6 +1828,133 @@ export const FOUNDATIONS_BY_LANG = {
       ]},
   ]},
   // ══════════════════════════════════════════════════════════════════
+  // RUSSIAN FOUNDATIONS (Cyrillic script)
+  // ══════════════════════════════════════════════════════════════════
+  ru:{name:"Russian Foundations",icon:"🇷🇺",sections:[
+    {id:"ru_cyrillic_same",title:"Cyrillic: Same as Latin",icon:"🔤",desc:"Letters that look like English and sound like English",
+      items:[
+        {fk:"fk_alphabet_overview",title:"Easy Cyrillic letters",audio_id:null,
+          desc:"Some Cyrillic letters look familiar AND make familiar sounds. Start here.",
+          grid:{cols:3,headers:["Cyrillic","Sound","Example"],rows:[
+            {label:"A",color:"#4A8FE7",cells:[{ch:"А а",rom:"a (father)"},{ch:"мама",rom:"mama (mom)"},{ch:"",rom:""}]},
+            {label:"K",color:"#4A8FE7",cells:[{ch:"К к",rom:"k (kite)"},{ch:"кот",rom:"kot (cat)"},{ch:"",rom:""}]},
+            {label:"M",color:"#4A8FE7",cells:[{ch:"М м",rom:"m (mom)"},{ch:"мама",rom:"mama"},{ch:"",rom:""}]},
+            {label:"O",color:"#4A8FE7",cells:[{ch:"О о",rom:"o (boat, stressed)"},{ch:"дом",rom:"dom (house)"},{ch:"",rom:""}]},
+            {label:"T",color:"#4A8FE7",cells:[{ch:"Т т",rom:"t (top)"},{ch:"тут",rom:"tut (here)"},{ch:"",rom:""}]},
+          ]}},
+      ]},
+    {id:"ru_cyrillic_false",title:"Cyrillic: False Friends",icon:"⚠️",desc:"Letters that LOOK like Latin but sound different",
+      items:[
+        {fk:"fk_latin_basics",title:"False friend letters",audio_id:null,
+          desc:"These letters trick English speakers. They look familiar but sound completely different.",
+          grid:{cols:3,headers:["Cyrillic","Actually Sounds Like","Example"],rows:[
+            {label:"В",color:"#E85D75",cells:[{ch:"В в",rom:"v (NOT b)"},{ch:"вода = voda",rom:"water"}]},
+            {label:"Н",color:"#E85D75",cells:[{ch:"Н н",rom:"n (NOT h)"},{ch:"Нет = Nyet",rom:"No"}]},
+            {label:"Р",color:"#E85D75",cells:[{ch:"Р р",rom:"r (NOT p, rolled)"},{ch:"рука = ruka",rom:"hand"}]},
+            {label:"С",color:"#E85D75",cells:[{ch:"С с",rom:"s (NOT c)"},{ch:"спасибо = spasibo",rom:"thank you"}]},
+            {label:"У",color:"#E85D75",cells:[{ch:"У у",rom:"u (NOT y)"},{ch:"уже = uzhe",rom:"already"}]},
+            {label:"Х",color:"#E85D75",cells:[{ch:"Х х",rom:"kh (NOT x)"},{ch:"хорошо = khorosho",rom:"good"}]},
+            {label:"Я",color:"#E85D75",cells:[{ch:"Я я",rom:"ya (NOT r backwards)"},{ch:"я = ya",rom:"I"}]},
+          ]}},
+      ]},
+    {id:"ru_cyrillic_new",title:"Cyrillic: Brand New",icon:"✨",desc:"Letters that don't exist in the Latin alphabet",
+      items:[
+        {fk:"fk_special_chars",title:"New Cyrillic letters",audio_id:null,
+          desc:"These letters represent sounds that English either doesn't have or writes differently.",
+          grid:{cols:3,headers:["Cyrillic","Sound","Example"],rows:[
+            {label:"Б",color:"#2ECDAB",cells:[{ch:"Б б",rom:"b (boy)"},{ch:"брат",rom:"brat (brother)"}]},
+            {label:"Г",color:"#2ECDAB",cells:[{ch:"Г г",rom:"g (go)"},{ch:"город",rom:"gorod (city)"}]},
+            {label:"Д",color:"#2ECDAB",cells:[{ch:"Д д",rom:"d (dog)"},{ch:"да",rom:"da (yes)"}]},
+            {label:"Ж",color:"#2ECDAB",cells:[{ch:"Ж ж",rom:"zh (pleasure)"},{ch:"жизнь",rom:"zhizn (life)"}]},
+            {label:"З",color:"#2ECDAB",cells:[{ch:"З з",rom:"z (zoo)"},{ch:"зима",rom:"zima (winter)"}]},
+            {label:"И",color:"#F5A623",cells:[{ch:"И и",rom:"ee (meet)"},{ch:"имя",rom:"imya (name)"}]},
+            {label:"Й",color:"#F5A623",cells:[{ch:"Й й",rom:"y (boy)"},{ch:"мой",rom:"moy (my)"}]},
+            {label:"Л",color:"#F5A623",cells:[{ch:"Л л",rom:"l (lip)"},{ch:"лето",rom:"leto (summer)"}]},
+            {label:"П",color:"#F5A623",cells:[{ch:"П п",rom:"p (pen)"},{ch:"папа",rom:"papa (dad)"}]},
+            {label:"Ф",color:"#9B7AE8",cells:[{ch:"Ф ф",rom:"f (fun)"},{ch:"фото",rom:"foto"}]},
+            {label:"Ц",color:"#9B7AE8",cells:[{ch:"Ц ц",rom:"ts (cats)"},{ch:"центр",rom:"tsentr (center)"}]},
+            {label:"Ч",color:"#9B7AE8",cells:[{ch:"Ч ч",rom:"ch (cheese)"},{ch:"чай",rom:"chai (tea)"}]},
+            {label:"Ш",color:"#9B7AE8",cells:[{ch:"Ш ш",rom:"sh (shut)"},{ch:"школа",rom:"shkola (school)"}]},
+            {label:"Щ",color:"#9B7AE8",cells:[{ch:"Щ щ",rom:"shch (fresh cheese)"},{ch:"борщ",rom:"borshch"}]},
+            {label:"Э",color:"#9B7AE8",cells:[{ch:"Э э",rom:"e (bed)"},{ch:"это",rom:"eto (this)"}]},
+            {label:"Ю",color:"#9B7AE8",cells:[{ch:"Ю ю",rom:"yu (you)"},{ch:"юг",rom:"yug (south)"}]},
+            {label:"Ы",color:"#9B7AE8",cells:[{ch:"Ы ы",rom:"y (hard i, no Eng equiv)"},{ch:"сыр",rom:"syr (cheese)"}]},
+          ]}},
+      ]},
+    {id:"ru_signs",title:"Soft and Hard Signs",icon:"🔇",desc:"Ь (soft sign) and Ъ (hard sign) — no sound of their own",
+      items:[
+        {fk:"fk_special_chars",title:"The two signs",audio_id:null,
+          desc:"Ь and Ъ have no sound themselves. They modify the preceding consonant. Ь makes it soft (palatalized), Ъ keeps it hard.",
+          examples:["SOFT SIGN (ь): palatalizes (softens) the preceding consonant. мать (mat', mother) vs мат (mat, coarse language).","HARD SIGN (ъ): keeps consonant hard before я/ю/е/ё. объявление (ob-yavleniye, announcement). Rare, mostly at morpheme boundaries.","Most learners focus on ь first — it appears much more often and creates meaningful distinctions.","Soft consonants are held with the middle of the tongue raised to the palate."]},
+      ]},
+    {id:"ru_vowel_reduction",title:"Vowel Reduction",icon:"🎯",desc:"Unstressed vowels change sound",
+      items:[
+        {fk:"fk_vowel_system",title:"О becomes А, Е becomes И",audio_id:null,
+          desc:"When Russian vowels are unstressed, they reduce to simpler sounds. Crucial for correct pronunciation.",
+          examples:["О when unstressed = /ɐ/ (close to А). молоко reads as 'ma-la-KO' (not 'mo-lo-ko').","Е when unstressed = /ɪ/ (close to И). телефон reads as 'ti-li-FON'.","Я and А unstressed also reduce to /ɐ/.","The stressed syllable keeps the full vowel sound; all others reduce.","THIS IS WHY STRESS MATTERS. Russian doesn't mark stress, but it changes everything about how the word sounds."]},
+      ]},
+  ]},
+
+  // ══════════════════════════════════════════════════════════════════
+  // PORTUGUESE FOUNDATIONS (Brazilian primary, European secondary)
+  // ══════════════════════════════════════════════════════════════════
+  pt:{name:"Portuguese Foundations",icon:"🇧🇷",sections:[
+    {id:"pt_alphabet",title:"The Portuguese Alphabet",icon:"🔤",desc:"26 Latin letters plus accented variants. K, W, Y used mostly in loanwords.",
+      items:[
+        {fk:"fk_alphabet_overview",title:"Portuguese alphabet",audio_id:null,
+          desc:"Portuguese uses the Latin alphabet. Some letters appear with diacritics: á é í ó ú (acute), â ê ô (circumflex), ã õ (tilde), à (grave), ç (cedilla). K, W, Y are used only in foreign words.",
+          grid:{cols:7,headers:["","","","","","",""],rows:[
+            {label:"Basic 1",color:"#4A8FE7",cells:[{ch:"A",rom:"a"},{ch:"B",rom:"bê"},{ch:"C",rom:"cê"},{ch:"D",rom:"dê"},{ch:"E",rom:"é"},{ch:"F",rom:"efe"},{ch:"G",rom:"gê"}]},
+            {label:"Basic 2",color:"#4A8FE7",cells:[{ch:"H",rom:"agá"},{ch:"I",rom:"i"},{ch:"J",rom:"jota"},{ch:"K",rom:"cá"},{ch:"L",rom:"ele"},{ch:"M",rom:"eme"},{ch:"N",rom:"ene"}]},
+            {label:"Basic 3",color:"#4A8FE7",cells:[{ch:"O",rom:"ó"},{ch:"P",rom:"pê"},{ch:"Q",rom:"quê"},{ch:"R",rom:"erre"},{ch:"S",rom:"esse"},{ch:"T",rom:"tê"},{ch:"U",rom:"u"}]},
+            {label:"Basic 4",color:"#4A8FE7",cells:[{ch:"V",rom:"vê"},{ch:"W",rom:"dáblio"},{ch:"X",rom:"xis"},{ch:"Y",rom:"ípsilon"},{ch:"Z",rom:"zê"},{ch:"",rom:""},{ch:"",rom:""}]},
+            {label:"Accented",color:"#E85D75",cells:[{ch:"á â ã à",rom:"A forms"},{ch:"é ê",rom:"E forms"},{ch:"í",rom:"I form"},{ch:"ó ô õ",rom:"O forms"},{ch:"ú",rom:"U form"},{ch:"ç",rom:"cedilla"},{ch:"",rom:""}]},
+          ]}},
+      ]},
+    {id:"pt_nasal_vowels",title:"Nasal Vowels",icon:"👃",desc:"Portuguese has nasal vowels unique among Romance languages. Marked with tilde (ã, õ) or before m/n.",
+      items:[
+        {fk:"fk_vowel_system",title:"Nasal vowel chart",audio_id:null,
+          desc:"Nasal vowels are made by letting air flow through the nose while saying the vowel. Portuguese marks them with a tilde or through -m/-n at end of syllable.",
+          grid:{cols:3,headers:["Sound","Example","Meaning"],rows:[
+            {label:"ã",color:"#E85D75",cells:[{ch:"ã",rom:"nasal a"},{ch:"maçã",rom:"apple"},{ch:"não",rom:"no"}]},
+            {label:"ão",color:"#E85D75",cells:[{ch:"ão",rom:"nasal aw"},{ch:"pão",rom:"bread"},{ch:"mão",rom:"hand"}]},
+            {label:"õe",color:"#E85D75",cells:[{ch:"õe",rom:"nasal oy"},{ch:"lições",rom:"lessons"},{ch:"põe",rom:"puts"}]},
+            {label:"em",color:"#4A8FE7",cells:[{ch:"em",rom:"nasal eng"},{ch:"sem",rom:"without"},{ch:"bem",rom:"well"}]},
+            {label:"im",color:"#4A8FE7",cells:[{ch:"im",rom:"nasal ing"},{ch:"sim",rom:"yes"},{ch:"fim",rom:"end"}]},
+            {label:"om",color:"#2ECDAB",cells:[{ch:"om",rom:"nasal ong"},{ch:"bom",rom:"good"},{ch:"som",rom:"sound"}]},
+            {label:"um",color:"#F5A623",cells:[{ch:"um",rom:"nasal oong"},{ch:"um",rom:"one/a"},{ch:"comum",rom:"common"}]},
+          ]}},
+      ]},
+    {id:"pt_pronunciation",title:"Pronunciation Traps",icon:"🔊",desc:"Tricky letter combinations and BR vs PT differences",
+      items:[
+        {fk:"fk_digraphs",title:"Digraphs and special sounds",audio_id:null,
+          desc:"Portuguese has several letter combinations that produce unexpected sounds. R sounds vary most between regions.",
+          grid:{cols:3,headers:["Spelling","Sound","Example"],rows:[
+            {label:"lh",color:"#2ECDAB",cells:[{ch:"lh",rom:"like Spanish ll /ʎ/"},{ch:"filho",rom:"son"},{ch:"milhão",rom:"million"}]},
+            {label:"nh",color:"#2ECDAB",cells:[{ch:"nh",rom:"like Spanish ñ /ɲ/"},{ch:"vinho",rom:"wine"},{ch:"senhor",rom:"sir"}]},
+            {label:"ch",color:"#E85D75",cells:[{ch:"ch",rom:"always 'sh' /ʃ/"},{ch:"chá",rom:"tea"},{ch:"chave",rom:"key"}]},
+            {label:"r (start)",color:"#F5A623",cells:[{ch:"r-",rom:"BR: guttural /ʁ/ or /h/"},{ch:"rato",rom:"mouse"},{ch:"rio",rom:"river"}]},
+            {label:"rr",color:"#F5A623",cells:[{ch:"rr",rom:"BR: guttural /ʁ/ or /h/"},{ch:"carro",rom:"car"},{ch:"terra",rom:"land"}]},
+            {label:"r (mid)",color:"#F5A623",cells:[{ch:"-r-",rom:"tap /ɾ/ like water"},{ch:"para",rom:"for"},{ch:"cara",rom:"face"}]},
+            {label:"ss",color:"#4A8FE7",cells:[{ch:"ss",rom:"always /s/ (not /z/)"},{ch:"passo",rom:"step"},{ch:"isso",rom:"this"}]},
+            {label:"ç",color:"#9B7AE8",cells:[{ch:"ç",rom:"always /s/ before a/o/u"},{ch:"começar",rom:"to start"},{ch:"açúcar",rom:"sugar"}]},
+          ]}},
+      ]},
+    {id:"pt_stress",title:"Word Stress and Accents",icon:"📍",desc:"Stress rules and when to write an accent mark",
+      items:[
+        {fk:"fk_stress_pattern",title:"Stress rules",audio_id:null,
+          desc:"Portuguese stress is usually penultimate (second-to-last syllable). Accents mark exceptions.",
+          examples:["DEFAULT STRESS: penultimate syllable. ca-SA (house), men-SA-gem (message).","LAST SYLLABLE if word ends in r, l, z, x, n, or nasal. a-MOR (love), na-TAL (Christmas), a-VIÃO (airplane).","ACCENT MARKS: written when stress breaks the default rule. rá-PI-do (fast), ár-VO-re (tree), PÁ-gi-na (page).","TILDE (~): marks nasal vowels AND stress. pão, mão, irmã, canção."]},
+      ]},
+    {id:"pt_br_vs_pt",title:"Brazilian vs European",icon:"🌎",desc:"Main differences between Brazilian and European Portuguese",
+      items:[
+        {fk:"fk_spelling_rules",title:"BR vs PT variations",audio_id:null,
+          desc:"Brazilian (BR) and European (PT) Portuguese are mutually intelligible but differ in pronunciation, vocabulary, and some grammar. This course teaches BR with PT notes where relevant.",
+          examples:["PRONUNCIATION: BR softer r (guttural), PT rolled r. BR 'di' often pronounced 'dji' (dia = 'djia'), PT keeps 'di'.","VOCABULARY: ônibus (BR) = autocarro (PT) (bus). celular (BR) = telemóvel (PT) (phone).","YOU: você universal in BR, tu is informal in PT.","GERUND: BR uses estar + gerund (estou comendo). PT uses estar a + infinitive (estou a comer).","This course primarily teaches Brazilian Portuguese with notes for European differences."]},
+      ]},
+  ]},
+
+  // ══════════════════════════════════════════════════════════════════
   // CHINESE (MANDARIN) FOUNDATIONS
   // ══════════════════════════════════════════════════════════════════
   zh:{name:"Chinese Foundations",icon:"🇨🇳",sections:[
@@ -3833,6 +3960,126 @@ export const FK_PLAYTHROUGH = {
   ro:{name:"Romanian Foundations Play",icon:"🇷🇴",blueprint:"latin_simple",stages:[]},
   ru:{name:"Russian Script Play",icon:"🇷🇺",blueprint:"cyrillic",stages:[]},
   // ══════════════════════════════════════════════════════════════════
+  // RUSSIAN PLAYTHROUGH (Cyrillic script)
+  // 4 phases: same-as-latin, false-friends, new-letters, signs+reduction
+  // ══════════════════════════════════════════════════════════════════
+  ru:{name:"Learn the Cyrillic Alphabet",icon:"🇷🇺",blueprint:"cyrillic",stages:[
+  {id:"ru_fp_p0",title:"Phase 0: Welcome to Russian",desc:"Orientation: what to expect",icon:"📝",
+    lessons:[
+      {id:"ru_fp_p0_l1",title:"Your Russian Journey",icon:"📝",xp:15,board:true,steps:[
+        {type:"intro",title:"Welcome to Russian!",desc:"Russian has 33 Cyrillic letters. Once you learn them, reading is phonetic. The real challenge is the 6-case grammar system and verb aspect pairs. But first: the alphabet.",goals:["Understand the Cyrillic alphabet has 33 letters","Know that reading Russian is phonetic once letters are learned","Preview the biggest challenges (cases, aspect)"]},
+        {type:"teach",kind:"info",nl:"Кириллица",en:"Cyrillic (named after St. Cyril)",phonetic:"kee-RIL-lee-tsa",example:"Привет! Как дела?",exampleEn:"Hello! How are you?",note:"Developed in the 9th century for Slavic languages. Named after Saint Cyril, who (with his brother Methodius) designed its predecessor. Today used for Russian, Ukrainian, Bulgarian, Serbian, and many others."},
+        {type:"teach",kind:"info",nl:"33 буквы",en:"33 letters",phonetic:"TRI-tsat' tri BUK-vy",example:"10 vowels + 21 consonants + 2 signs (ь ъ)",exampleEn:"The full alphabet has three groups",note:"The two 'signs' (soft ь and hard ъ) don't make sounds themselves. They modify neighboring consonants. More on that in Phase 3."},
+        {type:"mc",q:"How many letters are in the Cyrillic (Russian) alphabet?",opts:["26","30","33","40"],ans:"33",hint:"More than Latin, fewer than some other alphabets"},
+        {type:"mc",q:"The Cyrillic alphabet was developed for which language family?",opts:["Germanic","Romance","Slavic","Celtic"],ans:"Slavic",hint:"It was designed to write the Slavic languages of Eastern Europe"},
+      ]},
+    ]},
+  {id:"ru_fp_p1",title:"Phase 1: Letters That Match English",desc:"Start with 5 familiar friends",icon:"🔤",
+    lessons:[
+      {id:"ru_fp_p1_l1",title:"Easy Letters",icon:"🔤",xp:20,board:true,steps:[
+        {type:"intro",title:"Familiar Shapes, Familiar Sounds",desc:"Some Cyrillic letters look exactly like English letters AND make similar sounds. Master these 5 first.",goals:["Recognize А, К, М, О, Т","Read simple Russian words with these letters","Understand this is the foundation of Russian reading"]},
+        {type:"teach",kind:"info",nl:"А а",en:"A (as in father)",phonetic:"ah",example:"А = A in 'mama'",exampleEn:"Same shape, same sound",note:"Uppercase and lowercase forms. Stressed A is a full 'ah' sound. Unstressed A reduces slightly, but still close to 'ah'."},
+        {type:"teach",kind:"info",nl:"К к",en:"K (as in kite)",phonetic:"kah",example:"K = K in 'kite'",exampleEn:"Same shape, same sound",note:"Pronounced like English K. No surprises here."},
+        {type:"teach",kind:"info",nl:"М м",en:"M (as in mom)",phonetic:"em",example:"M = M in 'mom'",exampleEn:"Same shape, same sound",note:"Pronounced like English M. Used in many cognates: мама, музыка, министр."},
+        {type:"teach",kind:"info",nl:"О о",en:"O (as in boat, stressed)",phonetic:"oh",example:"O = O in 'boat' (when stressed)",exampleEn:"Stressed: 'oh'. Unstressed: reduces to 'ah'",note:"KEY: Russian O changes sound based on stress. Stressed O = 'oh'. Unstressed O = 'ah'. Example: молоко = 'ma-la-KO' (not 'mo-lo-ko')."},
+        {type:"teach",kind:"info",nl:"Т т",en:"T (as in top)",phonetic:"teh",example:"T = T in 'top'",exampleEn:"Same shape, same sound",note:"Pronounced like English T. Russian T is dental (tongue touches teeth) rather than alveolar (tongue on ridge), but the difference is subtle."},
+        {type:"mc",q:"Read this word: КОТ",opts:["kot (cat)","cat (literal)","kat","tok"],ans:"kot (cat)",hint:"K + stressed O + T. Remember: this uses only 'easy' letters from this lesson."},
+        {type:"mc",q:"Read this word: ТАМ",opts:["mat","tam (there)","mtam","aam"],ans:"tam (there)",hint:"T + A + M. A common word meaning 'there'."},
+        {type:"match",pairs:[{nl:"мама",en:"mama (mom)"},{nl:"том",en:"tom (volume/book)"},{nl:"атом",en:"atom"},{nl:"мак",en:"mak (poppy)"}]},
+      ]},
+    ]},
+  {id:"ru_fp_p2",title:"Phase 2: False Friends",desc:"Letters that LOOK like English but sound different",icon:"⚠️",
+    lessons:[
+      {id:"ru_fp_p2_l1",title:"The Tricky Ones",icon:"⚠️",xp:20,board:true,steps:[
+        {type:"intro",title:"Don't Be Fooled",desc:"These 7 letters have familiar shapes but completely different sounds. English speakers trip on these constantly. Master them now to avoid permanent bad habits.",goals:["Recognize В, Н, Р, С, У, Х, Я","Know what they actually sound like","Read Russian words without English assumptions"]},
+        {type:"teach",kind:"info",nl:"В в = V",en:"Not B!",phonetic:"veh",example:"вода (voda) = water",exampleEn:"Russian В is English V",note:"Looks like English B, sounds like English V. This is the #1 false friend. Water is ВОДА = 'voda'."},
+        {type:"teach",kind:"info",nl:"Н н = N",en:"Not H!",phonetic:"en",example:"нет (nyet) = no",exampleEn:"Russian Н is English N",note:"Looks like English H, sounds like English N. The famous 'nyet' (нет) starts with Н = N."},
+        {type:"teach",kind:"info",nl:"Р р = R (rolled)",en:"Not P!",phonetic:"er (rolled)",example:"рука (ruka) = hand",exampleEn:"Russian Р is a rolled R",note:"Looks like English P, sounds like Spanish rolled R. Takes practice. Some speakers use a tap; others trill."},
+        {type:"teach",kind:"info",nl:"С с = S",en:"Not C!",phonetic:"es",example:"спасибо (spasibo) = thank you",exampleEn:"Russian С is always English S",note:"Looks like English C, sounds like English S. Always S. Never K, never soft like Italian C."},
+        {type:"teach",kind:"info",nl:"У у = U",en:"Not Y!",phonetic:"oo",example:"утро (utro) = morning",exampleEn:"Russian У is 'oo' (boot)",note:"Looks like English Y (lowercase), sounds like 'oo' in boot. Quite different from English U (which has an 'ee-oo' glide in 'use')."},
+        {type:"teach",kind:"info",nl:"Х х = KH",en:"Not X!",phonetic:"khah",example:"хорошо (khorosho) = good/well",exampleEn:"Russian Х is guttural KH (German Bach)",note:"Looks like English X, sounds like the 'ch' in German 'Bach' or Scottish 'loch'. A strong aspirated H from the back of the throat."},
+        {type:"teach",kind:"info",nl:"Я я = YA",en:"Not R!",phonetic:"yah",example:"я (ya) = I",exampleEn:"Russian Я is 'yah'",note:"Looks like backwards R, sounds like 'yah'. The single letter Я means 'I' (the pronoun). Famous one-letter word."},
+        {type:"mc",q:"How does the Russian word 'ВОДА' sound?",opts:["boda","voda","woda","boada"],ans:"voda",hint:"В is NOT B. Remember: В = V."},
+        {type:"mc",q:"The Russian letter Н is equivalent to which English letter?",opts:["H","N","B","M"],ans:"N",hint:"Don't let the shape fool you. Н doesn't sound like English H."},
+        {type:"mc",q:"How is Russian Х pronounced?",opts:["Like English X (ks)","Like English H","Like a strong KH (German Bach)","Silent"],ans:"Like a strong KH (German Bach)",hint:"A throaty, aspirated sound from the back of the mouth"},
+        {type:"match",pairs:[{nl:"В",en:"V"},{nl:"Р",en:"R (rolled)"},{nl:"С",en:"S"},{nl:"Х",en:"KH"},{nl:"Я",en:"YA"}]},
+        {type:"tip",title:"Practice This Word: СПАСИБО",text:"Say: 's-p-a-s-i-b-o' — spasibo (thank you).\nС = S.\nП = P.\nА = A.\nС = S.\nИ = I (sounds like 'ee').\nБ = B.\nО = O.\nPut together: 'spah-SEE-boh' (stress on SEE).\nThis is your most important Russian word. Every beginner learns it first.",icon:"🙏"},
+      ]},
+    ]},
+  {id:"ru_fp_p3",title:"Phase 3: Signs and Vowel Reduction",desc:"Ь (soft sign), Ъ (hard sign), and unstressed vowels",icon:"🎯",
+    lessons:[
+      {id:"ru_fp_p3_l1",title:"The Two Signs",icon:"🔇",xp:15,board:true,steps:[
+        {type:"intro",title:"Silent but Important",desc:"Ь and Ъ don't have sounds. They modify neighboring consonants. Ь (soft sign) palatalizes. Ъ (hard sign) separates. You'll see Ь far more often.",goals:["Know Ь and Ъ have no sound","Understand palatalization (soft vs hard consonants)","Recognize words with Ь endings"]},
+        {type:"teach",kind:"info",nl:"Ь (soft sign)",en:"Makes preceding consonant soft (palatalized)",phonetic:"no sound itself",example:"мать (mat') = mother",exampleEn:"Compare with мат (mat) = coarse language",note:"Palatalization: raise the middle of your tongue toward the hard palate while pronouncing the consonant. Like adding a tiny 'y' sound without actually saying it. мать vs мат is a minimal pair."},
+        {type:"teach",kind:"info",nl:"Ъ (hard sign)",en:"Keeps consonant hard before soft vowels",phonetic:"no sound",example:"объявление (ob-yavleniye) = announcement",exampleEn:"Without Ъ, it would palatalize",note:"Rare. Appears mostly at morpheme boundaries (usually after prefixes ending in a consonant, before a soft vowel like я/ю/е)."},
+        {type:"mc",q:"Does the soft sign (ь) have its own sound?",opts:["Yes, like a weak i","No, it only modifies the preceding consonant","Yes, like a silent e","It depends on the word"],ans:"No, it only modifies the preceding consonant",hint:"The sign itself is silent; it palatalizes what comes before"},
+        {type:"mc",q:"The hard sign (ъ) is:",opts:["Very common at word endings","Rare, mostly at prefix boundaries","A vowel","Pronounced like a brief pause"],ans:"Rare, mostly at prefix boundaries",hint:"You'll encounter it much less often than the soft sign"},
+      ]},
+      {id:"ru_fp_p3_l2",title:"Unstressed Vowels Reduce",icon:"🎯",xp:15,board:true,steps:[
+        {type:"intro",title:"Why Spelling and Sound Differ",desc:"Russian is mostly phonetic. Main exception: unstressed vowels reduce. О becomes 'ah,' Е becomes 'ih.' Mark stress in your head — it changes how the word sounds.",goals:["Understand vowel reduction","Hear the difference between stressed and unstressed О/Е","Stop pronouncing spelling literally"]},
+        {type:"teach",kind:"info",nl:"Unstressed О → 'ah'",en:"Famous example: молоко (milk)",phonetic:"ma-la-KO (not mo-lo-ko)",example:"молоко = 'ma-la-KO'",exampleEn:"Only the stressed syllable keeps the O sound",note:"Only the STRESSED О stays 'oh'. All other O's in the word become 'ah.' This is why 'hello' Привет is actually 'pri-VYET' (the E is stressed, the И is 'ee')."},
+        {type:"teach",kind:"info",nl:"Unstressed Е → 'ih'",en:"Е when unstressed sounds like И",phonetic:"",example:"телефон = 'ti-li-FON'",exampleEn:"The stressed О stays 'oh'; the E's become 'ih'",note:"Same principle as О: the unstressed vowel reduces, the stressed one keeps its full quality. Getting stress right is the key to sounding natural."},
+        {type:"mc",q:"The word МОЛОКО (milk) is actually pronounced:",opts:["mo-lo-ko","ma-la-KO (stress on last syllable)","MO-lo-ko","molo-KO"],ans:"ma-la-KO (stress on last syllable)",hint:"Unstressed Os become 'ah' — only the stressed O stays 'oh'"},
+        {type:"mc",q:"Why do Russians often complain that English spelling is unpredictable?",opts:["Because English has more letters","Because Russian is much more phonetic than English","Because Russian has no vowel reduction","Because English has cases"],ans:"Because Russian is much more phonetic than English",hint:"Russian spelling predicts pronunciation (once you know stress and reduction)"},
+        {type:"tip",title:"Stress Is Not Marked",text:"Russian does NOT mark stress in writing. Learners must memorize which syllable is stressed.\nBeginner books sometimes add an accent: молокÓ.\nReal Russian text: молоко (unmarked).\nKey words to memorize stress:\nпривÉт (hello).\nспасÍбо (thank you).\nдо свидÁния (goodbye).\nThis is the hardest part of Russian pronunciation. Listen constantly.",icon:"📍"},
+      ]},
+    ]},
+  ]},
+
+  // ══════════════════════════════════════════════════════════════════
+  // PORTUGUESE PLAYTHROUGH (Brazilian primary)
+  // 4 phases: orientation, nasal vowels, pronunciation traps, stress
+  // ══════════════════════════════════════════════════════════════════
+  pt:{name:"Learn Portuguese Sounds",icon:"🇧🇷",blueprint:"latin_simple",stages:[
+  {id:"pt_fp_p0",title:"Phase 0: Welcome to Portuguese",desc:"Orientation to Portuguese writing and pronunciation",icon:"📝",
+    lessons:[
+      {id:"pt_fp_p0_l1",title:"Portuguese Overview",icon:"📝",xp:15,board:true,steps:[
+        {type:"intro",title:"Welcome to Portuguese!",desc:"Portuguese is spoken by 260+ million people across Brazil, Portugal, and parts of Africa. It shares ~30-40% vocabulary with English through Latin roots. The biggest challenges: nasal vowels (unique among Romance languages), ser vs estar (two 'to be' verbs), and regional pronunciation differences.",goals:["Understand the scope of Portuguese","Know the main regional differences (BR vs PT)","Prepare for nasal vowels"]},
+        {type:"teach",kind:"info",nl:"Brazilian vs European",en:"Two main varieties",phonetic:"",example:"BR: Oi, tudo bem?\nPT: Olá, como está?",exampleEn:"BR: Hi, all good?\nPT: Hello, how are you?",note:"This course teaches Brazilian Portuguese (spoken by ~220M) with notes for European Portuguese (~10M) where they differ significantly."},
+        {type:"teach",kind:"info",nl:"Cognates are your friend",en:"Shared vocabulary with English",phonetic:"",example:"importante, informação, universidade, família",exampleEn:"important, information, university, family",note:"~30-40% of Portuguese words are recognizable to English speakers through shared Latin roots."},
+        {type:"mc",q:"Portuguese shares many cognates with English because both come from:",opts:["Germanic roots","Latin roots","Greek roots","Celtic roots"],ans:"Latin roots",hint:"Portuguese is a Romance language descended from Latin spoken by Roman soldiers"},
+        {type:"mc",q:"The main variety of Portuguese taught here is:",opts:["Brazilian","European","Angolan","Mozambican"],ans:"Brazilian",hint:"The larger population variety with ~220 million speakers"},
+      ]},
+    ]},
+  {id:"pt_fp_p1",title:"Phase 1: Nasal Vowels",desc:"The defining feature of Portuguese pronunciation",icon:"👃",
+    lessons:[
+      {id:"pt_fp_p1_l1",title:"Nasal Vowels",icon:"👃",xp:20,board:true,steps:[
+        {type:"intro",title:"The Portuguese Nose",desc:"Nasal vowels are the #1 pronunciation challenge for English speakers. Air flows through your nose while you say the vowel. They're marked with a tilde (~) or by -m/-n at syllable end.",goals:["Recognize nasal vowel markers","Produce ã, ão, õe","Understand -m and -n as nasal markers"]},
+        {type:"teach",kind:"info",nl:"ã",en:"Nasal a",phonetic:"nasal 'ah'",example:"maçã (apple), irmã (sister), manhã (morning)",exampleEn:"Tilde over a makes it nasal",note:"Say 'ah' while lowering your soft palate to let air into your nose. Think 'anh' but shorter. The tongue stays in the same position as oral a."},
+        {type:"teach",kind:"info",nl:"ão",en:"Nasal 'aw'",phonetic:"nasal 'aw' glide",example:"não (no), mão (hand), pão (bread), coração (heart)",exampleEn:"Glides from nasal a to nasal u",note:"The most common nasal diphthong. English speakers often drop the nasality or add an ng sound. Keep it pure."},
+        {type:"teach",kind:"info",nl:"-m at word end",en:"Makes vowel nasal",phonetic:"",example:"sim (yes), bem (well), bom (good), um (one)",exampleEn:"Final m is silent but nasalizes vowel",note:"Portuguese -m at end of word is NOT pronounced as m. It only makes the preceding vowel nasal. 'Sim' is pronounced like English 'seeng' without the g."},
+        {type:"mc",q:"The tilde mark (~) on a vowel indicates:",opts:["Higher pitch","Longer duration","Nasal quality","Stressed syllable"],ans:"Nasal quality",hint:"Air flows through the nose when producing the vowel"},
+        {type:"mc",q:"In the word 'sim' (yes), the final m is:",opts:["Pronounced like English m","Silent, but makes vowel nasal","Pronounced like n","Always stressed"],ans:"Silent, but makes vowel nasal",hint:"Portuguese -m at word end is a nasality marker, not a consonant"},
+        {type:"match",pairs:[{nl:"pão",en:"bread"},{nl:"mão",en:"hand"},{nl:"sim",en:"yes"},{nl:"bom",en:"good"}]},
+      ]},
+    ]},
+  {id:"pt_fp_p2",title:"Phase 2: Tricky Sounds",desc:"Digraphs lh, nh, ch, and the Portuguese r",icon:"🔊",
+    lessons:[
+      {id:"pt_fp_p2_l1",title:"Digraphs and R Sounds",icon:"🔊",xp:20,board:true,steps:[
+        {type:"intro",title:"Beyond English Sounds",desc:"Portuguese has several sounds that don't exist in English: the palatal lh and nh (like Italian gli, Spanish ñ), and an r that varies dramatically by region.",goals:["Pronounce lh as palatal l","Pronounce nh as palatal n","Understand r variations (BR vs PT)"]},
+        {type:"teach",kind:"info",nl:"lh",en:"Palatal L",phonetic:"like Italian gli / Catalan ll",example:"filho (son), trabalho (work), milhão (million)",exampleEn:"Press tongue flat against hard palate, then release like 'lee-yuh' fused",note:"Not the same as English 'ly.' The tongue stays in one position. Think of the 'lli' in 'million' but more fluid."},
+        {type:"teach",kind:"info",nl:"nh",en:"Palatal N",phonetic:"like Spanish ñ",example:"senhor (sir), vinho (wine), banho (bath)",exampleEn:"Same position as lh but with n, like 'nee-yuh' fused",note:"Identical to Spanish ñ. English 'canyon' has a similar sound. Practice: manhã = 'mun-yah' with nasal ã."},
+        {type:"teach",kind:"info",nl:"r (beginning) and rr",en:"Guttural R in Brazilian",phonetic:"like English h or French r",example:"rato (mouse), carro (car), rio (river)",exampleEn:"In Brazil: usually a guttural h sound",note:"BRAZILIAN: r at start of word and rr in middle are pronounced like English 'h' (or a soft French r). 'Rio' sounds like 'HEE-oo.' EUROPEAN: trill or tap. This is one of the biggest BR-PT differences."},
+        {type:"teach",kind:"info",nl:"r (middle)",en:"Tapped R",phonetic:"like Spanish single r or English butter",example:"para (for), cara (face), hora (hour)",exampleEn:"Quick tap of tongue, like American English 'butter'",note:"When r appears between vowels, it's a quick tap, identical to Spanish single r or the tt in American 'butter.' This is consistent in both BR and PT."},
+        {type:"mc",q:"In Brazilian Portuguese, the initial r in 'rato' (mouse) sounds most like:",opts:["English r in 'red'","English h in 'hat'","Trilled r like Spanish","Silent"],ans:"English h in 'hat'",hint:"BR r is guttural, similar to English h or French r"},
+        {type:"mc",q:"The digraph 'nh' in Portuguese is equivalent to:",opts:["English 'nh' in 'inhale'","Spanish ñ","English 'ng' in 'sing'","Two separate sounds n+h"],ans:"Spanish ñ",hint:"Both are palatal nasals made with tongue on hard palate"},
+      ]},
+    ]},
+  {id:"pt_fp_p3",title:"Phase 3: Stress and Accents",desc:"When Portuguese marks stress and why",icon:"📍",
+    lessons:[
+      {id:"pt_fp_p3_l1",title:"Stress Rules",icon:"📍",xp:15,board:true,steps:[
+        {type:"intro",title:"Where the Emphasis Falls",desc:"Portuguese has clear stress rules. Default stress is on the second-to-last syllable. Accents mark exceptions.",goals:["Know the default stress position","Recognize when an accent changes stress","Distinguish acute, circumflex, and tilde"]},
+        {type:"teach",kind:"info",nl:"Default: Penultimate",en:"Stress on 2nd-to-last syllable",phonetic:"",example:"casa (CA-sa), mesa (ME-sa), amigo (a-MI-go)",exampleEn:"Most words stress the syllable before the last",note:"When a word ends in a vowel (a, e, o) or -s, default stress is penultimate. No accent mark needed."},
+        {type:"teach",kind:"info",nl:"Last syllable stress",en:"When word ends in r, l, z, x, u, i, or nasal",phonetic:"",example:"amor (a-MOR), natal (na-TAL), feliz (fe-LIZ), avião (a-vi-ÃO)",exampleEn:"Stress falls on the final syllable",note:"Certain endings shift stress to the last syllable automatically. No accent needed unless the stress breaks these rules."},
+        {type:"teach",kind:"info",nl:"Accented exceptions",en:"Accents mark stress breaks",phonetic:"",example:"rápido (RÁ-pi-do), página (PÁ-gi-na), árvore (ÁR-vo-re)",exampleEn:"Accent marks show unexpected stress position",note:"When stress falls outside the default position, an accent mark shows where. Acute (´) for most cases, circumflex (^) for closed vowels."},
+        {type:"mc",q:"Without an accent mark, 'casa' (house) is stressed on:",opts:["First syllable","Second-to-last","Last syllable","Both syllables equally"],ans:"Second-to-last",hint:"Portuguese default is penultimate when word ends in a vowel"},
+        {type:"mc",q:"Why does 'árvore' (tree) have an accent?",opts:["To mark plural","Because stress is on first syllable, not penultimate","To show it's foreign","Random spelling"],ans:"Because stress is on first syllable, not penultimate",hint:"The accent marks that stress breaks the default penultimate rule"},
+        {type:"tip",title:"BR vs PT Stress",text:"Stress rules are identical in Brazilian and European Portuguese.\nThe difference is how UNSTRESSED vowels are pronounced:\nBR: unstressed e becomes 'i' (de = 'dji').\nPT: unstressed e becomes schwa (de = 'duh').\nSame stress pattern, different vowel quality.",icon:"🌎"},
+      ]},
+    ]},
+  ]},
+
+  // ══════════════════════════════════════════════════════════════════
   // CHINESE (MANDARIN) PINYIN & TONES PLAYTHROUGH
   // 6 stages (Phase 0-5), ~12 lessons
   // Follows SCRIPT_BLUEPRINTS.hanzi: orientation > tones > pinyin_initials > pinyin_finals > basic_strokes > radical_awareness
@@ -4500,6 +4747,113 @@ title:"Kana Gate Quiz",
     E:"Phase 0: Review the three-script system and when each script is used.",
   },
   },
+  // ══════════════════════════════════════════════════════════════
+  // RUSSIAN GATE QUIZ — Test out of Cyrillic Foundations
+  // ══════════════════════════════════════════════════════════════
+  ru:{
+  title:"Cyrillic Gate Quiz",
+  desc:"Already read Cyrillic? Pass this quiz to skip Foundations.",
+  passCriteria:{AB:90,C:85,DE:80},
+  tasks:[
+    {id:"gate_a",title:"Task A: Same-as-Latin Letters",desc:"Read letters that look like English.",type:"mc",category:"AB",items:[
+      {q:"What sound does the Cyrillic letter 'А' make?",opts:["ah","ay","ee","oh"],ans:"ah"},
+      {q:"What sound does the Cyrillic letter 'М' make?",opts:["m","n","w","em"],ans:"m"},
+      {q:"What sound does the Cyrillic letter 'К' make?",opts:["k","hard g","kh","ch"],ans:"k"},
+      {q:"What sound does the Cyrillic letter 'Т' make?",opts:["t","d","ts","th"],ans:"t"},
+      {q:"How is МАМА (mama) read?",opts:["mama","nana","vava","tata"],ans:"mama"},
+    ]},
+    {id:"gate_b",title:"Task B: False Friends",desc:"Letters that look like English but sound different.",type:"mc",category:"AB",items:[
+      {q:"The Cyrillic letter 'В' actually sounds like:",opts:["b","v","w","p"],ans:"v"},
+      {q:"The Cyrillic letter 'Н' actually sounds like:",opts:["h","n","m","k"],ans:"n"},
+      {q:"The Cyrillic letter 'Р' actually sounds like:",opts:["p","English r","rolled/tapped r","b"],ans:"rolled/tapped r"},
+      {q:"The Cyrillic letter 'С' actually sounds like:",opts:["c (like ts)","s","k","sh"],ans:"s"},
+      {q:"The Cyrillic letter 'Х' actually sounds like:",opts:["x (ks)","h","kh (German Bach)","silent"],ans:"kh (German Bach)"},
+      {q:"The Cyrillic letter 'Я' actually sounds like:",opts:["r backwards","ya (like yacht)","a","wi"],ans:"ya (like yacht)"},
+      {q:"The Cyrillic letter 'У' actually sounds like:",opts:["y","oo","v","a"],ans:"oo"},
+      {q:"How is ВОДА (water) read?",opts:["boda","voda","woda","poda"],ans:"voda"},
+    ]},
+    {id:"gate_c",title:"Task C: New Letters",desc:"Letters that don't exist in the Latin alphabet.",type:"mc",category:"C",items:[
+      {q:"The Cyrillic letter 'Б' sounds like:",opts:["v","b","p","d"],ans:"b"},
+      {q:"The Cyrillic letter 'Ш' sounds like:",opts:["sh","ch","zh","s"],ans:"sh"},
+      {q:"The Cyrillic letter 'Ж' sounds like:",opts:["sh","zh (like pleasure)","j (like jam)","z"],ans:"zh (like pleasure)"},
+      {q:"The Cyrillic letter 'Ц' sounds like:",opts:["ts","s","tsh","c (like cat)"],ans:"ts"},
+      {q:"The Cyrillic letter 'Щ' sounds like:",opts:["sch (soft)","sh","ch","st"],ans:"sch (soft)"},
+      {q:"The Cyrillic letter 'Ч' sounds like:",opts:["sh","ch (like cheese)","ts","k"],ans:"ch (like cheese)"},
+      {q:"The Cyrillic letter 'Ю' sounds like:",opts:["yu (like you)","u","oo","yo"],ans:"yu (like you)"},
+      {q:"How is СПАСИБО (thank you) read?",opts:["spasibo (spah-SEE-boh)","cpacibo","spasivo","sparibo"],ans:"spasibo (spah-SEE-boh)"},
+    ]},
+    {id:"gate_d",title:"Task D: Signs and Reduction",desc:"Soft sign, hard sign, and vowel reduction.",type:"mc",category:"DE",items:[
+      {q:"The soft sign (Ь):",opts:["Has its own sound (like 'i')","Palatalizes the preceding consonant","Is always silent and marks nothing","Indicates stress"],ans:"Palatalizes the preceding consonant"},
+      {q:"The hard sign (Ъ) is:",opts:["Very common","Rare, mostly at prefix boundaries","Always stressed","A vowel"],ans:"Rare, mostly at prefix boundaries"},
+      {q:"In the word МОЛОКО (milk), an unstressed O reduces to:",opts:["oh","uh","ah","disappears"],ans:"ah"},
+      {q:"Russian spelling is:",opts:["Mostly unpredictable like English","Mostly phonetic (once you know stress)","Always exact","Random"],ans:"Mostly phonetic (once you know stress)"},
+    ]},
+    {id:"gate_e",title:"Task E: Read Short Words",desc:"Apply your letter knowledge.",type:"mc",category:"DE",items:[
+      {q:"Read ДА:",opts:["da (yes)","do","de","dya"],ans:"da (yes)"},
+      {q:"Read НЕТ:",opts:["het","net (no)","yet","not"],ans:"net (no)"},
+      {q:"Read ПРИВЕТ:",opts:["privet (hello)","pribet","priewet","prihvet"],ans:"privet (hello)"},
+      {q:"Read КАК ДЕЛА?:",opts:["kak dela? (how are you?)","pak deda?","how are you (literal)","khak ella"],ans:"kak dela? (how are you?)"},
+    ]},
+  ],
+  diagnosticRouting:{
+    A:"Phase 1: Review easy letters A, K, M, O, T.",
+    B:"Phase 2: Practice false friends B/Н/Р/С/У/Х/Я.",
+    C:"Phase 2-3: Study new letters Б/Ж/З/Ш/Щ/Ч/Ю/Ы.",
+    D:"Phase 3: Review soft/hard signs and vowel reduction.",
+    E:"Phase 0-3: Review entire Cyrillic system.",
+  },
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // PORTUGUESE GATE QUIZ — Test out of Portuguese Foundations
+  // ══════════════════════════════════════════════════════════════
+  pt:{
+  title:"Portuguese Sounds Gate Quiz",
+  desc:"Already comfortable with Portuguese pronunciation? Pass this quiz to skip Foundations.",
+  passCriteria:{AB:90,C:85,DE:80},
+  tasks:[
+    {id:"gate_a",title:"Task A: Nasal Vowels",desc:"Identify how nasal vowels are marked and pronounced.",type:"mc",category:"AB",items:[
+      {q:"The tilde (~) on ã indicates the vowel is:",opts:["Stressed","Nasal","Long","Accented"],ans:"Nasal"},
+      {q:"In 'pão' (bread), the 'ão' is pronounced:",opts:["Two separate vowels","A nasal 'aw' diphthong","Oral 'ow' like in 'cow'","Silent final n"],ans:"A nasal 'aw' diphthong"},
+      {q:"Final -m in 'sim' (yes) is:",opts:["Pronounced like English m","Silent but nasalizes the vowel","Silent with no effect","Pronounced like n"],ans:"Silent but nasalizes the vowel"},
+      {q:"Which word contains a nasal vowel?",opts:["casa","mesa","manhã","livro"],ans:"manhã"},
+      {q:"How many nasal vowel sounds exist in Portuguese?",opts:["2","3","5","7"],ans:"5"},
+    ]},
+    {id:"gate_b",title:"Task B: Digraphs",desc:"Identify Portuguese digraph sounds.",type:"mc",category:"AB",items:[
+      {q:"The digraph 'lh' in 'filho' (son) is equivalent to:",opts:["English 'ly'","Italian gli / palatal l","English 'sh'","Two letters l and h"],ans:"Italian gli / palatal l"},
+      {q:"The digraph 'nh' is like:",opts:["English 'nh'","English 'ng'","Spanish ñ","Greek π"],ans:"Spanish ñ"},
+      {q:"In Portuguese, 'ch' always sounds like:",opts:["English 'ch' in 'chair'","English 'sh' in 'ship'","English 'k' in 'school'","Silent"],ans:"English 'sh' in 'ship'"},
+      {q:"Which letter is ONLY used in foreign loanwords?",opts:["W","H","Q","J"],ans:"W"},
+    ]},
+    {id:"gate_c",title:"Task C: R Sounds and Accents",desc:"Distinguish R variations and accent marks.",type:"mc",category:"C",items:[
+      {q:"In Brazilian Portuguese, initial r in 'rato' sounds like:",opts:["English r","English h","Spanish rolled r","English w"],ans:"English h"},
+      {q:"In 'para' (for), the r between vowels is:",opts:["Guttural h","Rolled trill","Quick tap (like American 'butter')","Silent"],ans:"Quick tap (like American 'butter')"},
+      {q:"The acute accent (á é í ó ú) indicates:",opts:["Nasal vowel","Stressed syllable with open vowel","Silent letter","Long vowel"],ans:"Stressed syllable with open vowel"},
+      {q:"The circumflex (â ê ô) marks:",opts:["Nasal vowel","Closed vowel with stress","Grammatical gender","Plural marker"],ans:"Closed vowel with stress"},
+      {q:"Which is the difference between á and â?",opts:["No difference","á is open a, â is closed a","á is long, â is short","á is feminine, â is masculine"],ans:"á is open a, â is closed a"},
+    ]},
+    {id:"gate_d",title:"Task D: Stress Rules",desc:"Identify stress patterns in Portuguese words.",type:"mc",category:"DE",items:[
+      {q:"Without an accent, Portuguese stress defaults to:",opts:["First syllable","Second-to-last syllable","Last syllable","Middle syllable"],ans:"Second-to-last syllable"},
+      {q:"Why does 'árvore' have an accent?",opts:["It is plural","Stress breaks the default rule","It is a loanword","All vowels are nasal"],ans:"Stress breaks the default rule"},
+      {q:"Words ending in -r stress:",opts:["Second-to-last syllable","Last syllable","First syllable","Require an accent"],ans:"Last syllable"},
+      {q:"'Amor' (love) is stressed on:",opts:["a-","-mor","Both equally","It has an accent"],ans:"-mor"},
+    ]},
+    {id:"gate_e",title:"Task E: BR vs PT",desc:"Distinguish Brazilian from European Portuguese features.",type:"mc",category:"DE",items:[
+      {q:"Brazilian Portuguese uses which as default 'you'?",opts:["tu","você","senhor","vós"],ans:"você"},
+      {q:"'I am eating' in Brazilian Portuguese uses:",opts:["estou a comer","estou comendo","eu come","comendo estou"],ans:"estou comendo"},
+      {q:"In European Portuguese, 'I am eating' uses:",opts:["estou comendo","estou a comer","eu como","comido"],ans:"estou a comer"},
+      {q:"'Ônibus' (BR) is what in European Portuguese?",opts:["carro","autocarro","táxi","metrô"],ans:"autocarro"},
+    ]},
+  ],
+  diagnosticRouting:{
+    A:"Phase 1: Review nasal vowels and their markers.",
+    B:"Phase 2: Practice lh, nh, ch digraphs and r sounds.",
+    C:"Phase 2-3: Study r variations and accent marks.",
+    D:"Phase 3: Master Portuguese stress rules.",
+    E:"Phase 0: Review BR vs PT variety differences.",
+  },
+  },
+
   // ══════════════════════════════════════════════════════════════
   // CHINESE GATE QUIZ — Test out of Pinyin/Tones Foundations
   // ══════════════════════════════════════════════════════════════

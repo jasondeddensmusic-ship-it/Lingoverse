@@ -115,17 +115,17 @@ lessons:[
  exampleSrc:"A: Are you a student?\nB: Yes, I am a student.",
  funFact:"Chinese has no verb conjugation at all. 是 stays 是 whether the subject is I, you, he, she, or they. No am/is/are headaches. The same form works for past, present, and future."},
 
-{type:"teach", trg:"叫(jiào)", src:"to be called", pos:"verb", gender:null,
- note:"Fourth tone. Used to give or ask for names.\n我叫... = My name is... (literally: I am called...)",
- example:"A: 你(nǐ)叫(jiào)什么(shénme)名字(míngzi)？\nB: 我(wǒ)叫(jiào)小明(Xiǎomíng)。",
- exampleSrc:"A: What is your name?\nB: My name is Xiaoming.",
- funFact:"叫 also means 'to shout' or 'to call out.' When you say 我叫大卫, you are literally saying 'I am called David,' as if people shout your name to get your attention."},
-
 {type:"teach", trg:"什么(shénme)", src:"what", pos:"pron", gender:null,
  note:"Question word. Always stays in the same position as the answer.\nNo word order change for questions!",
- example:"A: 你(nǐ)叫(jiào)什么(shénme)名字(míngzi)？\nB: 我(wǒ)叫(jiào)丽萨(Lìsà)。",
- exampleSrc:"A: What is your name?\nB: My name is Lisa.",
- funFact:"Chinese questions keep the same word order as statements. 'You are called Lisa' becomes 'You are called what?' by swapping 'Lisa' with 什么. No rearranging needed."},
+ example:"A: 你(nǐ)是(shì)什么(shénme)人(rén)？\nB: 我(wǒ)是(shì)美国(Měiguó)人(rén)。",
+ exampleSrc:"A: What (kind of person) are you?\nB: I am American.",
+ funFact:"Chinese questions keep the same word order as statements. Swap the answer word with 什么 to make a question. No rearranging needed."},
+
+{type:"teach", trg:"叫(jiào)", src:"to be called", pos:"verb", gender:null,
+ note:"Fourth tone. Used to give or ask for names.\n我叫... = My name is... (literally: I am called...)",
+ example:"A: 你(nǐ)叫(jiào)什么(shénme)？\nB: 我(wǒ)叫(jiào)小明(Xiǎomíng)。",
+ exampleSrc:"A: What are you called?\nB: I am called Xiaoming.",
+ funFact:"叫 also means 'to shout' or 'to call out.' When you say 我叫大卫, you are literally saying 'I am called David,' as if people shout your name to get your attention."},
 
 {type:"teach", trg:"名字(míngzi)", src:"name", pos:"noun", gender:null,
  note:"A compound word: 名 (name/fame) + 字 (character/word).\nUsed for personal names.",
