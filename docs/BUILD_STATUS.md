@@ -1,7 +1,7 @@
 # Build Status & History
 
 > Detailed build history for all languages. CLAUDE.md has the compact summary.
-> Last updated: 2026-04-15.
+> Last updated: 2026-04-17.
 
 ---
 
@@ -15,11 +15,32 @@
 | Dutch | v2 | 89 | 5,106 | A1-B2 COMPLETE | mock quality | 99% of German |
 | French | v2 | 90 | 5,036 | A1-B2 COMPLETE | 52 entries | 98% of German |
 | Spanish | v2 | 92 | 5,124 | A1-B2 COMPLETE | 53 entries | 100% of German |
-| Italian | v2 | 32 | 1,129 | A1-B2 (thin B1+B2) | 12 entries | NEW, density expansion needed |
-| Japanese | v2 | 29 | 892 | A1-B2 (thin B1+B2) | 20 entries | NEW, density expansion needed |
+| Italian | v2 | 36 | 5,013 | A1-B2 COMPLETE | 51 entries | POLISHED. PP8 0 visual, 7 hint. |
+| Japanese | v2 | 36 | 4,978 | A1-B2 COMPLETE | 54 entries | POLISHED. PP65 COMPLETE. PP8: 0/0. |
 
-**Grand total: ~22,500+ teach cards across ~493 units, 7 languages.**
-**Grammar modules: 300 entries across 7 languages (German 58+58ar, Korean 47, French 52, Spanish 53, Italian 12, Japanese 20).**
+**Grand total: ~30,500+ teach cards across 7 languages. All at ~5K each.**
+**Grammar modules: 365 entries across 7 languages (German 58, Korean 47, French 52, Spanish 53, Italian 51, Japanese 54, Dutch mock).**
+
+### Japanese PP65 Kanji+Furigana (2026-04-17)
+- All 348 batch density files converted from pure hiragana to kanji+furigana
+- All 36 unit files already converted (previous session)
+- Total: ~4,978 teach cards with proper `漢字(ふりがな)` notation
+- Full PP validation: ZERO violations across all rules
+- Foundations lock enabled (D121)
+- Unit 1 notation tutorial added (D122)
+- CEFR reference page wired (D124)
+- Beginner path audited: zero-skill learner can learn properly
+
+### Italian PP8 Fixes (2026-04-17)
+- 5 hint leaks fixed in unit files
+- 13 visual leaks fixed in batch files (0 remain)
+- 7 hint leaks remain in batch files (common English words)
+
+### Validator Improvements (2026-04-17)
+- `--include-batch` flag for complete coverage
+- Word-boundary matching (was substring, caused 59 false positives)
+- Expanded SKIP_WORDS list
+- MC visual leak min-length check added
 
 ---
 

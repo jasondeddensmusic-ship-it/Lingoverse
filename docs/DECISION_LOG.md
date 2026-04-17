@@ -9,6 +9,10 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D124 | Italian + Japanese CEFR Reference Files Wired | Engine/Data | Italian, Japanese |
+| D123 | PP8 Validator Upgraded (Word-Boundary + Batch Support) | Infrastructure/Quality | All |
+| D122 | Japanese Unit 1 Notation Tutorial | Content/UX | Japanese |
+| D121 | Foundations Lock Enabled | Engine/UX | All |
 | D120 | Japanese Kanji+Furigana from A1 Day One (PP65) | Content/Architecture | Japanese |
 | D119 | German Curriculum Rehaul Planning: 36-Unit Plan + Story Bible | Architecture/Planning | German |
 | D118 | Grammar Legend + POS Color Polish: 10 Distinct Colors | Engine/UI | All |
@@ -845,6 +849,54 @@ export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LE
 
 **Rationale:** Owner-directed. Real Japanese text always shows kanji with furigana for assisted reading (children's books, textbooks, NHK Easy News). Pure hiragana removes word boundaries and is harder to read. Learners absorb kanji naturally through exposure from day one. The Foundations module teaches hiragana/katakana so learners can read the furigana.
 
-**Status:** Unit files converted (603 cards). Batch density files (~4,375 cards) still need conversion.
+**Status:** COMPLETE. All 348 batch files + 36 unit files converted (2026-04-17). Full PP validation: zero violations.
 
 **Pipeline rule:** PP65 in CLAUDE.md. Added to Audit Checklist as item 18.
+
+---
+
+## D121: Foundations Lock Enabled
+**Date:** 2026-04-17 | **Category:** Engine/UX | **Scope:** All languages
+
+**Decision:** `FOUNDATIONS_LOCK_ENABLED` set to `true` in `src/audio.jsx`. Learners MUST complete Foundations (or pass the gate quiz) before accessing Unit 1 content.
+
+**Rationale:** For Japanese and Korean, learners cannot read ANY content without knowing hiragana/katakana or Hangul. Allowing bypass means immediate confusion. For Latin-script languages, Foundations teach pronunciation/spelling rules that improve the learning experience. The gate quiz allows experienced learners to skip.
+
+**Status:** Deployed. PRs #171 merged.
+
+---
+
+## D122: Japanese Unit 1 Notation Tutorial
+**Date:** 2026-04-17 | **Category:** Content/UX | **Scope:** Japanese
+
+**Decision:** Added a "How to Read Japanese in This Course" tip card as the second step in Unit 1, Lesson 1 (after the intro, before the first teach card). Explains the `漢字(ふりがな)` notation with examples: `先生(せんせい)`, `食(た)べる`, `大(おお)きい`. Deep dive covers compound patterns.
+
+**Rationale:** Foundations teaches what furigana ARE (abstract concept), but Unit 1 is where learners first encounter the notation in actual lesson cards. Without a bridge, beginners must figure out the format by pattern-matching. This tip card bridges the gap.
+
+**Status:** Deployed. PR #171 merged.
+
+---
+
+## D123: PP8 Validator Upgraded — Word-Boundary Matching + Batch File Support
+**Date:** 2026-04-17 | **Category:** Infrastructure/Quality | **Scope:** All languages
+
+**Decision:** Three improvements to `scripts/validate_all.cjs`:
+1. `--include-batch` flag: Scans `_batch*` density files alongside `unit-*` files
+2. Word-boundary matching: Hint-leak check changed from substring (`includes`) to regex word-boundary (`\b...\b`). Eliminates false positives where "per" matches "newspaper".
+3. Expanded SKIP_WORDS: Common 3-letter English words (use, own, way, day, etc.) added to prevent false positives.
+4. MC visual leak length check: Answers shorter than 3 characters skipped (e.g., "IA").
+
+**Rationale:** Substring matching produced 59 false positives in Japanese batch files. Word-boundary matching reduced this to 17 real leaks, all fixable. Batch file support enables complete PP8 coverage across all density files.
+
+**Status:** Deployed. PR #170, #172 merged.
+
+---
+
+## D124: Italian + Japanese CEFR Reference Files Wired
+**Date:** 2026-04-17 | **Category:** Engine/Data | **Scope:** Italian, Japanese
+
+**Decision:** Italian and Japanese CEFR reference data files (`src/data/cefr-reference/italian.js`, `japanese.js`) were created in a previous session but never imported in `CefrReferencePage.jsx`. Now wired: `ITALIAN_CEFR` and `JAPANESE_CEFR` added to imports and `CEFR_REFS` map.
+
+**Rationale:** The CEFR Reference page showed "No data available" for Italian and Japanese learners despite having complete reference files (Italian: 1,140 vocab entries, 89 grammar constructs; Japanese: 977 vocab entries, 95 grammar constructs).
+
+**Status:** Fixed. PR #172 merged.
