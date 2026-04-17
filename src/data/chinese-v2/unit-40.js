@@ -200,7 +200,7 @@ lessons:[
 {type:"mc", q:"仔细(zǐxì) suggests being careful about:",
  opts:["safety","speed","fine details","social rules"],
  ans:"fine details",
- hint:"The second character 细 means 'fine' or 'slender.' Think of precision work, not physical danger."},
+ hint:"The second character 细 means '___' or 'slender.' Think of precision work, not physical danger."},
 
 {type:"fb", s:"操作(cāozuò)机器(jīqì)时(shí)，请(qǐng)一定(yídìng){1}安全(ānquán)。",
  a:["注意(zhùyì)"],

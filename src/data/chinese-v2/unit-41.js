@@ -82,7 +82,7 @@ lessons:[
 {type:"mc", q:"香 uniquely describes both:",
  opts:["sweet and sour","smell and taste","hot and cold","liquid and solid"],
  ans:"smell and taste",
- hint:"This character has no single English equivalent. It covers what you smell AND what you taste."},
+ hint:"This character has no single English equivalent. It covers what you ___ AND what you ___."},
 
 {type:"fb", s:"这(zhè)个(gè)汤(tāng)太(tài){1}了(le)，需要(xūyào)加(jiā)点(diǎn)水(shuǐ)。",
  a:["咸(xián)"],
