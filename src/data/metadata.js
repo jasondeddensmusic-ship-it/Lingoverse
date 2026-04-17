@@ -140,6 +140,7 @@ export const LANGUAGES = [
   { code: "ja", name: "Japanese", flag: "🇯🇵", native: "日本語", greeting: "こんにちは!", welcomeBack: "こんにちは、おかえりなさい！" },
   { code: "zh", name: "Chinese", flag: "🇨🇳", native: "中文", greeting: "你好!", welcomeBack: "你好，欢迎回来！" },
   { code: "pt", name: "Portuguese", flag: "🇧🇷", native: "Português", greeting: "Olá!", welcomeBack: "Olá, bem-vindo de volta!" },
+  { code: "ru", name: "Russian", flag: "🇷🇺", native: "Русский", greeting: "Привет!", welcomeBack: "Привет, с возвращением!" },
 ];
 
 // ── ALL LANGUAGES (including future / no content yet) ──
@@ -149,7 +150,6 @@ export const _ALL_LANGUAGES = [
   { code: "en", name: "English", flag: "🇺🇸", native: "English", greeting: "Hello!", welcomeBack: "Hello, welcome back!" },
   { code: "ar", name: "Arabic", flag: "🇸🇾", native: "العربية", greeting: "!مرحبا", welcomeBack: "!مرحبا، أهلا بعودتك", rtl: true },
   { code: "ro", name: "Romanian", flag: "🇷🇴", native: "Română", greeting: "Bună!", welcomeBack: "Bună, bine ai revenit!" },
-  { code: "ru", name: "Russian", flag: "🇷🇺", native: "Русский", greeting: "Привет!", welcomeBack: "Привет, с возвращением!" },
 ];
 
 // ── BASE LANGUAGES (interface / source language) ──
@@ -323,7 +323,7 @@ export const LANG_META = {
   ja: {scriptType:"kana",framework:"JLPT",levelMap:{N5:"A1",N4:"A2",N3:"B1"},ttsLocale:"ja-JP",specialRules:["hiragana","katakana","kanji","particles","keigo"]},
   zh: {scriptType:"hanzi",framework:"HSK",levelMap:{HSK1:"A1",HSK2:"A2",HSK3:"B1",HSK4:"B2"},ttsLocale:"zh-CN",specialRules:["tones","pinyin","radicals","measure_words","no_conjugation","aspect_particles","topic_comment","ba_bei_constructions","complement_system"]},
   pt: {scriptType:"latin",framework:"CEFR",levelMap:{A1:"A1",A2:"A2",B1:"B1",B2:"B2"},ttsLocale:"pt-BR",specialRules:["nasal_vowels","ão_diphthong","ser_estar","ter_haver","gendered_nouns","personal_infinitive","accents_áéíóú_âêô_ãõ","eu_você_tu_distinction"]},
-  ru: {scriptType:"cyrillic",framework:"CEFR",levelMap:{A1:"A1",A2:"A2",B1:"B1"},ttsLocale:"ru-RU",specialRules:["cyrillic","soft_hard_signs","cases","aspect","no_articles"]},
+  ru: {scriptType:"cyrillic",framework:"TRKI",levelMap:{TRKI1:"A1",TRKI2:"A2",TRKI3:"B1",TRKI4:"B2"},ttsLocale:"ru-RU",specialRules:["cyrillic_script","soft_hard_signs","6_cases","imperfective_perfective_aspect","no_articles","verb_aspect_pairs","stress_mobility","palatalization","vowel_reduction","gender_3_way"]},
 };
 
 // ── LANG_BLUEPRINT: Comprehensive linguistic design document per language (Batch 6) ──
@@ -433,7 +433,22 @@ export const LANG_BLUEPRINT = {
     coreConstructs: ["SVO word order","o/a gender system","ser vs estar (two 'to be' verbs)","verb conjugation (-ar/-er/-ir groups)","você vs tu","personal infinitive","subjunctive mood","contractions de/em/por + article"],
     functionWords: ["e (and)","ou (or)","mas (but)","também (also)","não (not)","sim (yes)","em (in/on)","de (of/from)","a (to)","com (with)","por (for/by)","para (for/to)","que (that/what)"]
   },
-  // TODO: Add blueprints for ro, en, ko, ja, ru as content is built
+  ru: {
+    scriptType: "cyrillic",
+    writingSystem: {type:"alphabetic",direction:"ltr",caseSystem:true,letters:["а-я","ё","й"],specialChars:["ь_soft_sign","ъ_hard_sign"]},
+    phonology: {vowelSystem:"stressed_vs_reduced",consonantNotes:"palatalized_vs_hard_pairs,voicing_assimilation,final_devoicing",stress:"mobile_unpredictable_marks_vowel_quality",traps:["ы_vs_и","soft_vs_hard_consonants","ш_vs_щ","vowel_reduction_o_to_a","unstressed_e"]},
+    morphology: {type:"highly_fusional_synthetic",noCases:6,cases:["nominative","accusative","genitive","dative","instrumental","prepositional"],verbAspect:"imperfective_perfective_pairs",gender:true,numberAgreement:true,adjAgreement:true,plurals:"case-dependent"},
+    grammarOrder: "SVO_flexible_due_to_cases",
+    genderSystem: {type:"masculine_feminine_neuter",markers:{m:"usually_consonant_final",f:"usually_а_я_final",n:"usually_о_е_final"},adjAgreement:true},
+    articleSystem: {definite:null,indefinite:null,notes:"Russian has NO articles. Definiteness from context, word order, or demonstratives (этот/тот)."},
+    formalitySystem: {levels:["informal_ты","formal_вы"],notes:"Ты for close friends/family. Вы (capitalized in formal writing: Вы) for strangers, elders, formal situations. Switching to ты requires mutual agreement."},
+    difficultyProfile: {forEnglish:"hard",hardest:["6_case_system","verb_aspect_pairs","mobile_stress","palatalization","gender_agreement","no_articles_removal"],easiest:["phonetic_spelling","consistent_alphabet","predictable_endings_per_case"]},
+    culturalContext: "Direct communication style. Deep respect for literature and intellectual discussion. Formal greetings vary by time of day. Tea culture. Dacha summer tradition. Matryoshka nested identity. Strong distinction between close and distant relationships.",
+    learningRisks: ["Ignoring cases","Wrong aspect choice (perfective vs imperfective)","Pronouncing soft and hard consonants identically","Stressing wrong syllable","Translating English articles","Skipping gender agreement"],
+    coreConstructs: ["6 cases (nominative, accusative, genitive, dative, instrumental, prepositional)","Verb aspect pairs (imperfective/perfective)","No articles","3-gender system","SVO but flexible","ты/вы formality","Palatalization (soft consonants)","Verbs of motion (unique prefixed system)"],
+    functionWords: ["и (and)","но (but)","или (or)","не (not)","да (yes)","нет (no)","в (in/at)","на (on/at)","из (from)","с (with/from)","у (at/has)","к (to/toward)","о (about)","по (along/on)","от (from)","для (for)","что (what/that)","как (how/as)","когда (when)","потому что (because)"]
+  },
+  // TODO: Add blueprints for ro, en, ko, ja as content is built
 };
 
 // ── CULTURE_PACKS: Per-language cultural data (Pipeline Step 3) ──
@@ -448,7 +463,8 @@ export const CULTURE_PACKS = {
   es: {food:["paella","tapas","tortilla_española","churros","gazpacho","jamón_ibérico","empanadas"],customs:["siesta","sobremesa","two_surnames","late_dinners_9pm","paseo_evening_walk","fiestas_patronales"],places:["Madrid","Barcelona","Sevilla","México_City","Buenos_Aires","Bogotá"],beginnerSituations:["ordering_tapas","asking_directions","introducing_yourself","at_mercado","café_con_leche"],politenessNotes:["Use 'usted' with strangers and elders","Use 'tú' with friends and children","In Latin America 'ustedes' replaces 'vosotros'","Say 'por favor' and 'gracias' always"],tabooOrPitfalls:["Don't confuse ser and estar","Don't use vosotros in Latin America","embarazada means pregnant not embarrassed","éxito means success not exit","sensible means sensitive not sensible"]},
   zh: {food:["饺子_jiǎozi","火锅_huǒguō","北京烤鸭_Běijīng_kǎoyā","小笼包_xiǎolóngbāo","月饼_yuèbǐng","豆腐_dòufu","炒饭_chǎofàn"],customs:["春节_Spring_Festival","中秋节_Mid_Autumn","红包_red_envelopes","茶文化_tea_culture","面子_mianzi_face","关系_guanxi_connections","筷子_chopsticks"],places:["北京_Beijing","上海_Shanghai","西安_Xian","成都_Chengdu","广州_Guangzhou","杭州_Hangzhou"],beginnerSituations:["ordering_tea","at_restaurant_with_chopsticks","introducing_yourself","bargaining_at_market","taking_a_taxi","using_WeChat"],politenessNotes:["Use 您 (nín) for formal 'you' with elders and strangers","Say 请 (qǐng, please) before requests","谢谢 (xièxie) for thank you, 不客气 (bú kèqi) for you're welcome"],tabooOrPitfalls:["Never give a clock as a gift (送钟 sounds like 送终, funeral)","4 is unlucky (四 sounds like 死, death)","Don't stick chopsticks upright in rice (funeral ritual)","Red is lucky, white and black are for funerals"]},
   pt: {food:["feijoada","pão_de_queijo","brigadeiro","açaí","pastel","coxinha","picanha","moqueca","bacalhau_Portugal","pastéis_de_nata_Portugal"],customs:["beijos_greeting","carnaval","futebol_culture","churrasco","jeito_brasileiro","saudade_concept","obrigado_masc_obrigada_fem","Festa_Junina"],places:["Rio_de_Janeiro","São_Paulo","Salvador","Lisboa","Porto","Recife","Fortaleza"],beginnerSituations:["ordering_at_café","at_padaria","greeting_with_beijos","introducing_yourself","asking_directions","buying_açaí"],politenessNotes:["Obrigado if you are male, obrigada if you are female","Use você in Brazil, tu in Portugal (informal)","Por favor/Se faz favor for please","Senhor/Senhora for respectful address"],tabooOrPitfalls:["embaraçada means pregnant (not embarrassed)","puxar means to pull (not to push)","esquisito means weird (not exquisite)","Don't confuse Brazilian and European Portuguese pronunciations","Don't assume Spanish speakers automatically understand Portuguese"]},
-  // TODO: Add culture packs for ro, en, ko, ja, ru as those languages are built
+  ru: {food:["борщ_borscht","пельмени_pelmeni","блины_bliny","каша_kasha","щи_cabbage_soup","пирожки_pirozhki","икра_caviar","оливье_olivier_salad","чай_с_вареньем_tea_with_jam"],customs:["баня_banya_sauna","дача_dacha","Новый_год_New_Year_primary","чаепитие_tea_time","матрёшка","Масленица_Maslenitsa","приметы_superstitions"],places:["Москва_Moscow","Санкт-Петербург_St_Petersburg","Казань_Kazan","Владивосток","Сочи_Sochi","Екатеринбург"],beginnerSituations:["заказ_в_кафе_ordering","знакомство_introduction","в_метро_in_metro","покупки_shopping","в_гостях_visiting_home"],politenessNotes:["Use вы (formal) with strangers, elders, professional settings","ты for close friends and family only","Greet by time of day: доброе утро, добрый день, добрый вечер","Patronymic names show respect: Иван Иванович"],tabooOrPitfalls:["Don't shake hands across a threshold (superstition)","Odd numbers of flowers for good occasions, even for funerals","Don't whistle indoors (said to whistle money away)","пока is informal goodbye, до свидания is formal","Always take off shoes when entering homes"]},
+  // TODO: Add culture packs for ro, en, ko, ja as those languages are built
 };
 
 // ── UNIT_TEMPLATES: Standard A1 survival unit structure (Pipeline Step 4) ──
@@ -627,6 +643,24 @@ export const LANG_TOKENIZER = {
       preposition: { match:["在","从","到","向","往","对","给","让","把","被","比","跟","用","为"], color:"#9B7AE8", dk:"#B8A8FA", label:"Preposition/Coverb" },
       conjunction: { match:["和","但是","因为","所以","如果","虽然","可是","而且","或者","不但","而"], color:"#F59E0B", dk:"#FCD34D", label:"Conjunction" },
       adverb:      { match:["也","都","就","才","又","还","很","太","真","非常","已经","正在","刚","常常","经常"], color:"#EC4899", dk:"#F472B6", label:"Adverb" },
+    }
+  },
+  ru: {
+    scriptRange: /[\u0400-\u04FF]/,
+    wordBoundary: "space",
+    articles: [],
+    grammarColors: {
+      case_nom:    { match:[], color:"#0091FF", dk:"#64B5F6", label:"Nominative (subject)" },
+      case_acc:    { match:[], color:"#D50000", dk:"#EF5350", label:"Accusative (direct obj)" },
+      case_gen:    { match:[], color:"#E8960A", dk:"#F5C040", label:"Genitive (possession/of)" },
+      case_dat:    { match:[], color:"#9B7AE8", dk:"#B8A8FA", label:"Dative (to/for)" },
+      case_instr:  { match:[], color:"#00BFA5", dk:"#64FFDA", label:"Instrumental (by/with)" },
+      case_prep:   { match:[], color:"#FF8F00", dk:"#FFB300", label:"Prepositional (about/in)" },
+      preposition: { match:["в","на","из","с","у","к","о","по","от","для","о","около","между","через","перед","за","над","под","до","после","без","про","при","среди","кроме"], color:"#2ECDA7", dk:"#50E0C0", label:"Preposition" },
+      conjunction: { match:["и","но","или","потому что","если","когда","что","как","чтобы","хотя","пока","что","который","чей","где","куда","откуда","зачем","почему","поэтому","значит"], color:"#9B7AE8", dk:"#B8A8FA", label:"Conjunction" },
+      pronoun:     { match:["я","ты","он","она","оно","мы","вы","они","меня","тебя","его","её","нас","вас","их","мне","тебе","ему","ей","нам","вам","им","мной","тобой","им","ею","нами","вами","ими","мой","твой","его","её","наш","ваш","их"], color:"#F59E0B", dk:"#FCD34D", label:"Pronoun" },
+      aspect_perf: { match:["сделать","написать","прочитать","сказать","купить","пойти","прийти","встать","спросить","ответить","закончить","начать","решить","увидеть","услышать"], color:"#EC4899", dk:"#F472B6", label:"Perfective verb" },
+      negation:    { match:["не","нет","ни","никогда","нигде","никто","ничто","ничего","никакой"], color:"#D50000", dk:"#EF5350", label:"Negation" },
     }
   },
   pt: {

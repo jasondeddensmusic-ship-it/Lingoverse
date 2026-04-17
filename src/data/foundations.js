@@ -1828,6 +1828,74 @@ export const FOUNDATIONS_BY_LANG = {
       ]},
   ]},
   // ══════════════════════════════════════════════════════════════════
+  // RUSSIAN FOUNDATIONS (Cyrillic script)
+  // ══════════════════════════════════════════════════════════════════
+  ru:{name:"Russian Foundations",icon:"🇷🇺",sections:[
+    {id:"ru_cyrillic_same",title:"Cyrillic: Same as Latin",icon:"🔤",desc:"Letters that look like English and sound like English",
+      items:[
+        {fk:"fk_alphabet_overview",title:"Easy Cyrillic letters",audio_id:null,
+          desc:"Some Cyrillic letters look familiar AND make familiar sounds. Start here.",
+          grid:{cols:3,headers:["Cyrillic","Sound","Example"],rows:[
+            {label:"A",color:"#4A8FE7",cells:[{ch:"А а",rom:"a (father)"},{ch:"мама",rom:"mama (mom)"},{ch:"",rom:""}]},
+            {label:"K",color:"#4A8FE7",cells:[{ch:"К к",rom:"k (kite)"},{ch:"кот",rom:"kot (cat)"},{ch:"",rom:""}]},
+            {label:"M",color:"#4A8FE7",cells:[{ch:"М м",rom:"m (mom)"},{ch:"мама",rom:"mama"},{ch:"",rom:""}]},
+            {label:"O",color:"#4A8FE7",cells:[{ch:"О о",rom:"o (boat, stressed)"},{ch:"дом",rom:"dom (house)"},{ch:"",rom:""}]},
+            {label:"T",color:"#4A8FE7",cells:[{ch:"Т т",rom:"t (top)"},{ch:"тут",rom:"tut (here)"},{ch:"",rom:""}]},
+          ]}},
+      ]},
+    {id:"ru_cyrillic_false",title:"Cyrillic: False Friends",icon:"⚠️",desc:"Letters that LOOK like Latin but sound different",
+      items:[
+        {fk:"fk_latin_basics",title:"False friend letters",audio_id:null,
+          desc:"These letters trick English speakers. They look familiar but sound completely different.",
+          grid:{cols:3,headers:["Cyrillic","Actually Sounds Like","Example"],rows:[
+            {label:"В",color:"#E85D75",cells:[{ch:"В в",rom:"v (NOT b)"},{ch:"вода = voda",rom:"water"}]},
+            {label:"Н",color:"#E85D75",cells:[{ch:"Н н",rom:"n (NOT h)"},{ch:"Нет = Nyet",rom:"No"}]},
+            {label:"Р",color:"#E85D75",cells:[{ch:"Р р",rom:"r (NOT p, rolled)"},{ch:"рука = ruka",rom:"hand"}]},
+            {label:"С",color:"#E85D75",cells:[{ch:"С с",rom:"s (NOT c)"},{ch:"спасибо = spasibo",rom:"thank you"}]},
+            {label:"У",color:"#E85D75",cells:[{ch:"У у",rom:"u (NOT y)"},{ch:"уже = uzhe",rom:"already"}]},
+            {label:"Х",color:"#E85D75",cells:[{ch:"Х х",rom:"kh (NOT x)"},{ch:"хорошо = khorosho",rom:"good"}]},
+            {label:"Я",color:"#E85D75",cells:[{ch:"Я я",rom:"ya (NOT r backwards)"},{ch:"я = ya",rom:"I"}]},
+          ]}},
+      ]},
+    {id:"ru_cyrillic_new",title:"Cyrillic: Brand New",icon:"✨",desc:"Letters that don't exist in the Latin alphabet",
+      items:[
+        {fk:"fk_special_chars",title:"New Cyrillic letters",audio_id:null,
+          desc:"These letters represent sounds that English either doesn't have or writes differently.",
+          grid:{cols:3,headers:["Cyrillic","Sound","Example"],rows:[
+            {label:"Б",color:"#2ECDAB",cells:[{ch:"Б б",rom:"b (boy)"},{ch:"брат",rom:"brat (brother)"}]},
+            {label:"Г",color:"#2ECDAB",cells:[{ch:"Г г",rom:"g (go)"},{ch:"город",rom:"gorod (city)"}]},
+            {label:"Д",color:"#2ECDAB",cells:[{ch:"Д д",rom:"d (dog)"},{ch:"да",rom:"da (yes)"}]},
+            {label:"Ж",color:"#2ECDAB",cells:[{ch:"Ж ж",rom:"zh (pleasure)"},{ch:"жизнь",rom:"zhizn (life)"}]},
+            {label:"З",color:"#2ECDAB",cells:[{ch:"З з",rom:"z (zoo)"},{ch:"зима",rom:"zima (winter)"}]},
+            {label:"И",color:"#F5A623",cells:[{ch:"И и",rom:"ee (meet)"},{ch:"имя",rom:"imya (name)"}]},
+            {label:"Й",color:"#F5A623",cells:[{ch:"Й й",rom:"y (boy)"},{ch:"мой",rom:"moy (my)"}]},
+            {label:"Л",color:"#F5A623",cells:[{ch:"Л л",rom:"l (lip)"},{ch:"лето",rom:"leto (summer)"}]},
+            {label:"П",color:"#F5A623",cells:[{ch:"П п",rom:"p (pen)"},{ch:"папа",rom:"papa (dad)"}]},
+            {label:"Ф",color:"#9B7AE8",cells:[{ch:"Ф ф",rom:"f (fun)"},{ch:"фото",rom:"foto"}]},
+            {label:"Ц",color:"#9B7AE8",cells:[{ch:"Ц ц",rom:"ts (cats)"},{ch:"центр",rom:"tsentr (center)"}]},
+            {label:"Ч",color:"#9B7AE8",cells:[{ch:"Ч ч",rom:"ch (cheese)"},{ch:"чай",rom:"chai (tea)"}]},
+            {label:"Ш",color:"#9B7AE8",cells:[{ch:"Ш ш",rom:"sh (shut)"},{ch:"школа",rom:"shkola (school)"}]},
+            {label:"Щ",color:"#9B7AE8",cells:[{ch:"Щ щ",rom:"shch (fresh cheese)"},{ch:"борщ",rom:"borshch"}]},
+            {label:"Э",color:"#9B7AE8",cells:[{ch:"Э э",rom:"e (bed)"},{ch:"это",rom:"eto (this)"}]},
+            {label:"Ю",color:"#9B7AE8",cells:[{ch:"Ю ю",rom:"yu (you)"},{ch:"юг",rom:"yug (south)"}]},
+            {label:"Ы",color:"#9B7AE8",cells:[{ch:"Ы ы",rom:"y (hard i, no Eng equiv)"},{ch:"сыр",rom:"syr (cheese)"}]},
+          ]}},
+      ]},
+    {id:"ru_signs",title:"Soft and Hard Signs",icon:"🔇",desc:"Ь (soft sign) and Ъ (hard sign) — no sound of their own",
+      items:[
+        {fk:"fk_special_chars",title:"The two signs",audio_id:null,
+          desc:"Ь and Ъ have no sound themselves. They modify the preceding consonant. Ь makes it soft (palatalized), Ъ keeps it hard.",
+          examples:["SOFT SIGN (ь): palatalizes (softens) the preceding consonant. мать (mat', mother) vs мат (mat, coarse language).","HARD SIGN (ъ): keeps consonant hard before я/ю/е/ё. объявление (ob-yavleniye, announcement). Rare, mostly at morpheme boundaries.","Most learners focus on ь first — it appears much more often and creates meaningful distinctions.","Soft consonants are held with the middle of the tongue raised to the palate."]},
+      ]},
+    {id:"ru_vowel_reduction",title:"Vowel Reduction",icon:"🎯",desc:"Unstressed vowels change sound",
+      items:[
+        {fk:"fk_vowel_system",title:"О becomes А, Е becomes И",audio_id:null,
+          desc:"When Russian vowels are unstressed, they reduce to simpler sounds. Crucial for correct pronunciation.",
+          examples:["О when unstressed = /ɐ/ (close to А). молоко reads as 'ma-la-KO' (not 'mo-lo-ko').","Е when unstressed = /ɪ/ (close to И). телефон reads as 'ti-li-FON'.","Я and А unstressed also reduce to /ɐ/.","The stressed syllable keeps the full vowel sound; all others reduce.","THIS IS WHY STRESS MATTERS. Russian doesn't mark stress, but it changes everything about how the word sounds."]},
+      ]},
+  ]},
+
+  // ══════════════════════════════════════════════════════════════════
   // PORTUGUESE FOUNDATIONS (Brazilian primary, European secondary)
   // ══════════════════════════════════════════════════════════════════
   pt:{name:"Portuguese Foundations",icon:"🇧🇷",sections:[
@@ -3892,6 +3960,73 @@ export const FK_PLAYTHROUGH = {
   ro:{name:"Romanian Foundations Play",icon:"🇷🇴",blueprint:"latin_simple",stages:[]},
   ru:{name:"Russian Script Play",icon:"🇷🇺",blueprint:"cyrillic",stages:[]},
   // ══════════════════════════════════════════════════════════════════
+  // RUSSIAN PLAYTHROUGH (Cyrillic script)
+  // 4 phases: same-as-latin, false-friends, new-letters, signs+reduction
+  // ══════════════════════════════════════════════════════════════════
+  ru:{name:"Learn the Cyrillic Alphabet",icon:"🇷🇺",blueprint:"cyrillic",stages:[
+  {id:"ru_fp_p0",title:"Phase 0: Welcome to Russian",desc:"Orientation: what to expect",icon:"📝",
+    lessons:[
+      {id:"ru_fp_p0_l1",title:"Your Russian Journey",icon:"📝",xp:15,board:true,steps:[
+        {type:"intro",title:"Welcome to Russian!",desc:"Russian has 33 Cyrillic letters. Once you learn them, reading is phonetic. The real challenge is the 6-case grammar system and verb aspect pairs. But first: the alphabet.",goals:["Understand the Cyrillic alphabet has 33 letters","Know that reading Russian is phonetic once letters are learned","Preview the biggest challenges (cases, aspect)"]},
+        {type:"teach",kind:"info",nl:"Кириллица",en:"Cyrillic (named after St. Cyril)",phonetic:"kee-RIL-lee-tsa",example:"Привет! Как дела?",exampleEn:"Hello! How are you?",note:"Developed in the 9th century for Slavic languages. Named after Saint Cyril, who (with his brother Methodius) designed its predecessor. Today used for Russian, Ukrainian, Bulgarian, Serbian, and many others."},
+        {type:"teach",kind:"info",nl:"33 буквы",en:"33 letters",phonetic:"TRI-tsat' tri BUK-vy",example:"10 vowels + 21 consonants + 2 signs (ь ъ)",exampleEn:"The full alphabet has three groups",note:"The two 'signs' (soft ь and hard ъ) don't make sounds themselves. They modify neighboring consonants. More on that in Phase 3."},
+        {type:"mc",q:"How many letters are in the Cyrillic (Russian) alphabet?",opts:["26","30","33","40"],ans:"33",hint:"More than Latin, fewer than some other alphabets"},
+        {type:"mc",q:"The Cyrillic alphabet was developed for which language family?",opts:["Germanic","Romance","Slavic","Celtic"],ans:"Slavic",hint:"It was designed to write the Slavic languages of Eastern Europe"},
+      ]},
+    ]},
+  {id:"ru_fp_p1",title:"Phase 1: Letters That Match English",desc:"Start with 5 familiar friends",icon:"🔤",
+    lessons:[
+      {id:"ru_fp_p1_l1",title:"Easy Letters",icon:"🔤",xp:20,board:true,steps:[
+        {type:"intro",title:"Familiar Shapes, Familiar Sounds",desc:"Some Cyrillic letters look exactly like English letters AND make similar sounds. Master these 5 first.",goals:["Recognize А, К, М, О, Т","Read simple Russian words with these letters","Understand this is the foundation of Russian reading"]},
+        {type:"teach",kind:"info",nl:"А а",en:"A (as in father)",phonetic:"ah",example:"А = A in 'mama'",exampleEn:"Same shape, same sound",note:"Uppercase and lowercase forms. Stressed A is a full 'ah' sound. Unstressed A reduces slightly, but still close to 'ah'."},
+        {type:"teach",kind:"info",nl:"К к",en:"K (as in kite)",phonetic:"kah",example:"K = K in 'kite'",exampleEn:"Same shape, same sound",note:"Pronounced like English K. No surprises here."},
+        {type:"teach",kind:"info",nl:"М м",en:"M (as in mom)",phonetic:"em",example:"M = M in 'mom'",exampleEn:"Same shape, same sound",note:"Pronounced like English M. Used in many cognates: мама, музыка, министр."},
+        {type:"teach",kind:"info",nl:"О о",en:"O (as in boat, stressed)",phonetic:"oh",example:"O = O in 'boat' (when stressed)",exampleEn:"Stressed: 'oh'. Unstressed: reduces to 'ah'",note:"KEY: Russian O changes sound based on stress. Stressed O = 'oh'. Unstressed O = 'ah'. Example: молоко = 'ma-la-KO' (not 'mo-lo-ko')."},
+        {type:"teach",kind:"info",nl:"Т т",en:"T (as in top)",phonetic:"teh",example:"T = T in 'top'",exampleEn:"Same shape, same sound",note:"Pronounced like English T. Russian T is dental (tongue touches teeth) rather than alveolar (tongue on ridge), but the difference is subtle."},
+        {type:"mc",q:"Read this word: КОТ",opts:["kot (cat)","cat (literal)","kat","tok"],ans:"kot (cat)",hint:"K + stressed O + T. Remember: this uses only 'easy' letters from this lesson."},
+        {type:"mc",q:"Read this word: ТАМ",opts:["mat","tam (there)","mtam","aam"],ans:"tam (there)",hint:"T + A + M. A common word meaning 'there'."},
+        {type:"match",pairs:[{nl:"мама",en:"mama (mom)"},{nl:"том",en:"tom (volume/book)"},{nl:"атом",en:"atom"},{nl:"мак",en:"mak (poppy)"}]},
+      ]},
+    ]},
+  {id:"ru_fp_p2",title:"Phase 2: False Friends",desc:"Letters that LOOK like English but sound different",icon:"⚠️",
+    lessons:[
+      {id:"ru_fp_p2_l1",title:"The Tricky Ones",icon:"⚠️",xp:20,board:true,steps:[
+        {type:"intro",title:"Don't Be Fooled",desc:"These 7 letters have familiar shapes but completely different sounds. English speakers trip on these constantly. Master them now to avoid permanent bad habits.",goals:["Recognize В, Н, Р, С, У, Х, Я","Know what they actually sound like","Read Russian words without English assumptions"]},
+        {type:"teach",kind:"info",nl:"В в = V",en:"Not B!",phonetic:"veh",example:"вода (voda) = water",exampleEn:"Russian В is English V",note:"Looks like English B, sounds like English V. This is the #1 false friend. Water is ВОДА = 'voda'."},
+        {type:"teach",kind:"info",nl:"Н н = N",en:"Not H!",phonetic:"en",example:"нет (nyet) = no",exampleEn:"Russian Н is English N",note:"Looks like English H, sounds like English N. The famous 'nyet' (нет) starts with Н = N."},
+        {type:"teach",kind:"info",nl:"Р р = R (rolled)",en:"Not P!",phonetic:"er (rolled)",example:"рука (ruka) = hand",exampleEn:"Russian Р is a rolled R",note:"Looks like English P, sounds like Spanish rolled R. Takes practice. Some speakers use a tap; others trill."},
+        {type:"teach",kind:"info",nl:"С с = S",en:"Not C!",phonetic:"es",example:"спасибо (spasibo) = thank you",exampleEn:"Russian С is always English S",note:"Looks like English C, sounds like English S. Always S. Never K, never soft like Italian C."},
+        {type:"teach",kind:"info",nl:"У у = U",en:"Not Y!",phonetic:"oo",example:"утро (utro) = morning",exampleEn:"Russian У is 'oo' (boot)",note:"Looks like English Y (lowercase), sounds like 'oo' in boot. Quite different from English U (which has an 'ee-oo' glide in 'use')."},
+        {type:"teach",kind:"info",nl:"Х х = KH",en:"Not X!",phonetic:"khah",example:"хорошо (khorosho) = good/well",exampleEn:"Russian Х is guttural KH (German Bach)",note:"Looks like English X, sounds like the 'ch' in German 'Bach' or Scottish 'loch'. A strong aspirated H from the back of the throat."},
+        {type:"teach",kind:"info",nl:"Я я = YA",en:"Not R!",phonetic:"yah",example:"я (ya) = I",exampleEn:"Russian Я is 'yah'",note:"Looks like backwards R, sounds like 'yah'. The single letter Я means 'I' (the pronoun). Famous one-letter word."},
+        {type:"mc",q:"How does the Russian word 'ВОДА' sound?",opts:["boda","voda","woda","boada"],ans:"voda",hint:"В is NOT B. Remember: В = V."},
+        {type:"mc",q:"The Russian letter Н is equivalent to which English letter?",opts:["H","N","B","M"],ans:"N",hint:"Don't let the shape fool you. Н doesn't sound like English H."},
+        {type:"mc",q:"How is Russian Х pronounced?",opts:["Like English X (ks)","Like English H","Like a strong KH (German Bach)","Silent"],ans:"Like a strong KH (German Bach)",hint:"A throaty, aspirated sound from the back of the mouth"},
+        {type:"match",pairs:[{nl:"В",en:"V"},{nl:"Р",en:"R (rolled)"},{nl:"С",en:"S"},{nl:"Х",en:"KH"},{nl:"Я",en:"YA"}]},
+        {type:"tip",title:"Practice This Word: СПАСИБО",text:"Say: 's-p-a-s-i-b-o' — spasibo (thank you).\nС = S.\nП = P.\nА = A.\nС = S.\nИ = I (sounds like 'ee').\nБ = B.\nО = O.\nPut together: 'spah-SEE-boh' (stress on SEE).\nThis is your most important Russian word. Every beginner learns it first.",icon:"🙏"},
+      ]},
+    ]},
+  {id:"ru_fp_p3",title:"Phase 3: Signs and Vowel Reduction",desc:"Ь (soft sign), Ъ (hard sign), and unstressed vowels",icon:"🎯",
+    lessons:[
+      {id:"ru_fp_p3_l1",title:"The Two Signs",icon:"🔇",xp:15,board:true,steps:[
+        {type:"intro",title:"Silent but Important",desc:"Ь and Ъ don't have sounds. They modify neighboring consonants. Ь (soft sign) palatalizes. Ъ (hard sign) separates. You'll see Ь far more often.",goals:["Know Ь and Ъ have no sound","Understand palatalization (soft vs hard consonants)","Recognize words with Ь endings"]},
+        {type:"teach",kind:"info",nl:"Ь (soft sign)",en:"Makes preceding consonant soft (palatalized)",phonetic:"no sound itself",example:"мать (mat') = mother",exampleEn:"Compare with мат (mat) = coarse language",note:"Palatalization: raise the middle of your tongue toward the hard palate while pronouncing the consonant. Like adding a tiny 'y' sound without actually saying it. мать vs мат is a minimal pair."},
+        {type:"teach",kind:"info",nl:"Ъ (hard sign)",en:"Keeps consonant hard before soft vowels",phonetic:"no sound",example:"объявление (ob-yavleniye) = announcement",exampleEn:"Without Ъ, it would palatalize",note:"Rare. Appears mostly at morpheme boundaries (usually after prefixes ending in a consonant, before a soft vowel like я/ю/е)."},
+        {type:"mc",q:"Does the soft sign (ь) have its own sound?",opts:["Yes, like a weak i","No, it only modifies the preceding consonant","Yes, like a silent e","It depends on the word"],ans:"No, it only modifies the preceding consonant",hint:"The sign itself is silent; it palatalizes what comes before"},
+        {type:"mc",q:"The hard sign (ъ) is:",opts:["Very common at word endings","Rare, mostly at prefix boundaries","A vowel","Pronounced like a brief pause"],ans:"Rare, mostly at prefix boundaries",hint:"You'll encounter it much less often than the soft sign"},
+      ]},
+      {id:"ru_fp_p3_l2",title:"Unstressed Vowels Reduce",icon:"🎯",xp:15,board:true,steps:[
+        {type:"intro",title:"Why Spelling and Sound Differ",desc:"Russian is mostly phonetic. Main exception: unstressed vowels reduce. О becomes 'ah,' Е becomes 'ih.' Mark stress in your head — it changes how the word sounds.",goals:["Understand vowel reduction","Hear the difference between stressed and unstressed О/Е","Stop pronouncing spelling literally"]},
+        {type:"teach",kind:"info",nl:"Unstressed О → 'ah'",en:"Famous example: молоко (milk)",phonetic:"ma-la-KO (not mo-lo-ko)",example:"молоко = 'ma-la-KO'",exampleEn:"Only the stressed syllable keeps the O sound",note:"Only the STRESSED О stays 'oh'. All other O's in the word become 'ah.' This is why 'hello' Привет is actually 'pri-VYET' (the E is stressed, the И is 'ee')."},
+        {type:"teach",kind:"info",nl:"Unstressed Е → 'ih'",en:"Е when unstressed sounds like И",phonetic:"",example:"телефон = 'ti-li-FON'",exampleEn:"The stressed О stays 'oh'; the E's become 'ih'",note:"Same principle as О: the unstressed vowel reduces, the stressed one keeps its full quality. Getting stress right is the key to sounding natural."},
+        {type:"mc",q:"The word МОЛОКО (milk) is actually pronounced:",opts:["mo-lo-ko","ma-la-KO (stress on last syllable)","MO-lo-ko","molo-KO"],ans:"ma-la-KO (stress on last syllable)",hint:"Unstressed Os become 'ah' — only the stressed O stays 'oh'"},
+        {type:"mc",q:"Why do Russians often complain that English spelling is unpredictable?",opts:["Because English has more letters","Because Russian is much more phonetic than English","Because Russian has no vowel reduction","Because English has cases"],ans:"Because Russian is much more phonetic than English",hint:"Russian spelling predicts pronunciation (once you know stress and reduction)"},
+        {type:"tip",title:"Stress Is Not Marked",text:"Russian does NOT mark stress in writing. Learners must memorize which syllable is stressed.\nBeginner books sometimes add an accent: молокÓ.\nReal Russian text: молоко (unmarked).\nKey words to memorize stress:\nпривÉт (hello).\nспасÍбо (thank you).\nдо свидÁния (goodbye).\nThis is the hardest part of Russian pronunciation. Listen constantly.",icon:"📍"},
+      ]},
+    ]},
+  ]},
+
+  // ══════════════════════════════════════════════════════════════════
   // PORTUGUESE PLAYTHROUGH (Brazilian primary)
   // 4 phases: orientation, nasal vowels, pronunciation traps, stress
   // ══════════════════════════════════════════════════════════════════
@@ -4612,6 +4747,63 @@ title:"Kana Gate Quiz",
     E:"Phase 0: Review the three-script system and when each script is used.",
   },
   },
+  // ══════════════════════════════════════════════════════════════
+  // RUSSIAN GATE QUIZ — Test out of Cyrillic Foundations
+  // ══════════════════════════════════════════════════════════════
+  ru:{
+  title:"Cyrillic Gate Quiz",
+  desc:"Already read Cyrillic? Pass this quiz to skip Foundations.",
+  passCriteria:{AB:90,C:85,DE:80},
+  tasks:[
+    {id:"gate_a",title:"Task A: Same-as-Latin Letters",desc:"Read letters that look like English.",type:"mc",category:"AB",items:[
+      {q:"What sound does the Cyrillic letter 'А' make?",opts:["ah","ay","ee","oh"],ans:"ah"},
+      {q:"What sound does the Cyrillic letter 'М' make?",opts:["m","n","w","em"],ans:"m"},
+      {q:"What sound does the Cyrillic letter 'К' make?",opts:["k","hard g","kh","ch"],ans:"k"},
+      {q:"What sound does the Cyrillic letter 'Т' make?",opts:["t","d","ts","th"],ans:"t"},
+      {q:"How is МАМА (mama) read?",opts:["mama","nana","vava","tata"],ans:"mama"},
+    ]},
+    {id:"gate_b",title:"Task B: False Friends",desc:"Letters that look like English but sound different.",type:"mc",category:"AB",items:[
+      {q:"The Cyrillic letter 'В' actually sounds like:",opts:["b","v","w","p"],ans:"v"},
+      {q:"The Cyrillic letter 'Н' actually sounds like:",opts:["h","n","m","k"],ans:"n"},
+      {q:"The Cyrillic letter 'Р' actually sounds like:",opts:["p","English r","rolled/tapped r","b"],ans:"rolled/tapped r"},
+      {q:"The Cyrillic letter 'С' actually sounds like:",opts:["c (like ts)","s","k","sh"],ans:"s"},
+      {q:"The Cyrillic letter 'Х' actually sounds like:",opts:["x (ks)","h","kh (German Bach)","silent"],ans:"kh (German Bach)"},
+      {q:"The Cyrillic letter 'Я' actually sounds like:",opts:["r backwards","ya (like yacht)","a","wi"],ans:"ya (like yacht)"},
+      {q:"The Cyrillic letter 'У' actually sounds like:",opts:["y","oo","v","a"],ans:"oo"},
+      {q:"How is ВОДА (water) read?",opts:["boda","voda","woda","poda"],ans:"voda"},
+    ]},
+    {id:"gate_c",title:"Task C: New Letters",desc:"Letters that don't exist in the Latin alphabet.",type:"mc",category:"C",items:[
+      {q:"The Cyrillic letter 'Б' sounds like:",opts:["v","b","p","d"],ans:"b"},
+      {q:"The Cyrillic letter 'Ш' sounds like:",opts:["sh","ch","zh","s"],ans:"sh"},
+      {q:"The Cyrillic letter 'Ж' sounds like:",opts:["sh","zh (like pleasure)","j (like jam)","z"],ans:"zh (like pleasure)"},
+      {q:"The Cyrillic letter 'Ц' sounds like:",opts:["ts","s","tsh","c (like cat)"],ans:"ts"},
+      {q:"The Cyrillic letter 'Щ' sounds like:",opts:["sch (soft)","sh","ch","st"],ans:"sch (soft)"},
+      {q:"The Cyrillic letter 'Ч' sounds like:",opts:["sh","ch (like cheese)","ts","k"],ans:"ch (like cheese)"},
+      {q:"The Cyrillic letter 'Ю' sounds like:",opts:["yu (like you)","u","oo","yo"],ans:"yu (like you)"},
+      {q:"How is СПАСИБО (thank you) read?",opts:["spasibo (spah-SEE-boh)","cpacibo","spasivo","sparibo"],ans:"spasibo (spah-SEE-boh)"},
+    ]},
+    {id:"gate_d",title:"Task D: Signs and Reduction",desc:"Soft sign, hard sign, and vowel reduction.",type:"mc",category:"DE",items:[
+      {q:"The soft sign (Ь):",opts:["Has its own sound (like 'i')","Palatalizes the preceding consonant","Is always silent and marks nothing","Indicates stress"],ans:"Palatalizes the preceding consonant"},
+      {q:"The hard sign (Ъ) is:",opts:["Very common","Rare, mostly at prefix boundaries","Always stressed","A vowel"],ans:"Rare, mostly at prefix boundaries"},
+      {q:"In the word МОЛОКО (milk), an unstressed O reduces to:",opts:["oh","uh","ah","disappears"],ans:"ah"},
+      {q:"Russian spelling is:",opts:["Mostly unpredictable like English","Mostly phonetic (once you know stress)","Always exact","Random"],ans:"Mostly phonetic (once you know stress)"},
+    ]},
+    {id:"gate_e",title:"Task E: Read Short Words",desc:"Apply your letter knowledge.",type:"mc",category:"DE",items:[
+      {q:"Read ДА:",opts:["da (yes)","do","de","dya"],ans:"da (yes)"},
+      {q:"Read НЕТ:",opts:["het","net (no)","yet","not"],ans:"net (no)"},
+      {q:"Read ПРИВЕТ:",opts:["privet (hello)","pribet","priewet","prihvet"],ans:"privet (hello)"},
+      {q:"Read КАК ДЕЛА?:",opts:["kak dela? (how are you?)","pak deda?","how are you (literal)","khak ella"],ans:"kak dela? (how are you?)"},
+    ]},
+  ],
+  diagnosticRouting:{
+    A:"Phase 1: Review easy letters A, K, M, O, T.",
+    B:"Phase 2: Practice false friends B/Н/Р/С/У/Х/Я.",
+    C:"Phase 2-3: Study new letters Б/Ж/З/Ш/Щ/Ч/Ю/Ы.",
+    D:"Phase 3: Review soft/hard signs and vowel reduction.",
+    E:"Phase 0-3: Review entire Cyrillic system.",
+  },
+  },
+
   // ══════════════════════════════════════════════════════════════
   // PORTUGUESE GATE QUIZ — Test out of Portuguese Foundations
   // ══════════════════════════════════════════════════════════════

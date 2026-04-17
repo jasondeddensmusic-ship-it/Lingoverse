@@ -14,6 +14,7 @@ import { ITALIAN_GRAMMAR } from '../data/grammar/italian.js';
 import { JAPANESE_GRAMMAR } from '../data/grammar/japanese.js';
 import { CHINESE_GRAMMAR } from '../data/grammar/chinese.js';
 import { PORTUGUESE_GRAMMAR } from '../data/grammar/portuguese.js';
+import { RUSSIAN_GRAMMAR } from '../data/grammar/russian.js';
 
 /* ── All-purple brand palette ── */
 const P="#7B5EE8";
@@ -44,7 +45,7 @@ function GrammarPage({lang,baseLang="en"}){
 
   const isMobile=typeof window!=="undefined"&&window.innerWidth<600;
 
-  const GRAMMAR_REFS={nl:DUTCH_GRAMMAR,de:baseLang==="ar"?GERMAN_GRAMMAR_AR:GERMAN_GRAMMAR,ko:KOREAN_GRAMMAR,fr:FRENCH_GRAMMAR,es:SPANISH_GRAMMAR,it:ITALIAN_GRAMMAR,ja:JAPANESE_GRAMMAR,zh:CHINESE_GRAMMAR,pt:PORTUGUESE_GRAMMAR};
+  const GRAMMAR_REFS={nl:DUTCH_GRAMMAR,de:baseLang==="ar"?GERMAN_GRAMMAR_AR:GERMAN_GRAMMAR,ko:KOREAN_GRAMMAR,fr:FRENCH_GRAMMAR,es:SPANISH_GRAMMAR,it:ITALIAN_GRAMMAR,ja:JAPANESE_GRAMMAR,zh:CHINESE_GRAMMAR,pt:PORTUGUESE_GRAMMAR,ru:RUSSIAN_GRAMMAR};
   const grammarData=GRAMMAR_REFS[lang]||{};
   const noGrammarYet=!GRAMMAR_REFS[lang];
 
