@@ -263,7 +263,18 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
   {trg:"направо", src:"to the right"},
   {trg:"прямо", src:"straight"}
 ]}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"перед", src:"in front of"},
+  {trg:"близко", src:"close / near"},
+  {trg:"быстро", src:"quickly"},
+  {trg:"медленно", src:"slowly"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_06;

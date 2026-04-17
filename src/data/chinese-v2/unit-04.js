@@ -75,11 +75,11 @@ lessons:[
  ans:"cooked rice",
  hint:"\u7C73 means ___ grain and \u996D means meal. Together they refer to the prepared staple food."},
 
-{type:"fb", s:"\u4F60(n\u01D0){1}\u4EC0\u4E48(sh\u00E9nme)? \u6211(w\u01D2)\u5403(ch\u012B)\u7C73\u996D(m\u01D0f\u00E0n)\u3002",
+{type:"fb", s:"\u4F60(n\u01D0){1}\u4EC0\u4E48(sh\u00E9nme)?",
  a:["\u5403(ch\u012B)"],
  opts:["\u5403(ch\u012B)","\u559D(h\u0113)","\u662F(sh\u00EC)","\u53EB(ji\u00E0o)"],
- hint:"The answer involves rice, which is a food. Which verb goes with solid foods?",
- sSrc:"What do you {1}? I eat rice."},
+ hint:"Which verb goes with solid foods — one that means 'to consume via chewing'?",
+ sSrc:"What do you {1}?"},
 
 {type:"mc", q:"\u83DC(c\u00E0i) can mean both:",
  opts:["water and tea","rice and noodles","vegetable and dish","meat and fish"],

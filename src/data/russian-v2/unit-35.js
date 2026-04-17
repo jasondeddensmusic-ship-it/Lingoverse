@@ -72,7 +72,12 @@ const UNIT_35 = {n:35, lang:"ru", srcLang:"en", track:"v2", title:"Фразео�
   {trg:"две капли воды", src:"identical"},
   {trg:"два зайца", src:"two at once"}
 ]}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"убить двух зайцев", src:"kill two rabbits (with one stone)"},
+  {trg:"кот в мешке", src:"cat in a bag (pig in a poke)"}
+]}]}
 
 ]};
 export default UNIT_35;

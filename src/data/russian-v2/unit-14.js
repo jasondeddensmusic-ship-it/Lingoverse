@@ -72,11 +72,19 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
  hint:"Speaker is female (note 'делала'). Past tense, feminine ending.",
  sSrc:"A: What did you do yesterday?\nB: I worked at home all day."},
 
+<<<<<<< HEAD
+{type:"fb", s:"A: Вы ходили на концерт?\nB: Да, мы {1} там вчера.",
+ a:["были"],
+ opts:["были","был","была","было"],
+ hint:"Plural subject (мы) needs the plural past-tense form of 'быть.'",
+ sSrc:"A: Did you go to the concert?\nB: Yes, we were there yesterday."},
+=======
 {type:"fb", s:"A: Вы были на концерте?\nB: Да, мы {1} вчера.",
  a:["были"],
  opts:["были","был","была","было"],
  hint:"We (plural) + past of быть = plural past.",
  sSrc:"A: Were you at the concert?\nB: Yes, we were there yesterday."},
+>>>>>>> origin/main
 
 {type:"match", pairs:[
   {trg:"работал", src:"worked (he)"},
@@ -245,11 +253,19 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
  ans:"Historical evolution — Russian lost present 'быть'",
  hint:"___ 'есть' is used rarely in modern ___. Past preserves the full conjugation."},
 
+<<<<<<< HEAD
+{type:"fb", s:"A: Где вы {1} вчера вечером?\nB: Мы ходили в театр.",
+ a:["были"],
+ opts:["были","был","была","было"],
+ hint:"Plural subject 'вы' needs the plural past form of 'быть.'",
+ sSrc:"A: Where were you yesterday evening?\nB: We went to the theater."},
+=======
 {type:"fb", s:"A: Где вы {1} вчера вечером?\nB: Мы были в театре.",
  a:["были"],
  opts:["были","был","была","было"],
  hint:"Plural subject 'вы/мы' = plural past.",
  sSrc:"A: Where were you yesterday evening?\nB: We were at the theater."},
+>>>>>>> origin/main
 
 {type:"fb", s:"A: У тебя {1} время вчера?\nB: К сожалению, нет.",
  a:["было"],
@@ -264,7 +280,18 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
   {trg:"были", src:"were (pl)"},
   {trg:"у меня было", src:"I had (neuter)"}
 ]}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"жил", src:"lived (he)"},
+  {trg:"смотрел", src:"was watching (imperfective)"},
+  {trg:"посмотрел", src:"watched (perfective)"},
+  {trg:"сказал", src:"said (perfective)"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_14;

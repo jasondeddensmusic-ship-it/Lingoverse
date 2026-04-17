@@ -74,5 +74,10 @@ const UNIT_01 = {n:1,lang:"pt",srcLang:"en",track:"v2",title:"Olá! Como vai?",s
     {type:"teach",trg:"tchau",src:"bye",pos:"intj",gender:null,note:"Casual goodbye. Borrowed from Italian ciao. Very common in Brazil.",example:"A: Tchau! Até amanhã!\nB: Tchau!",exampleSrc:"A: Bye! Until tomorrow!\nB: Bye!",funFact:"Brazilians often double it: 'Tchau tchau!' adds warmth and friendliness."},
     {type:"teach",trg:"até logo",src:"see you later",pos:"intj",gender:null,note:"Literally 'until soon'. Used when you expect to see the person again.",example:"A: Preciso ir. Até logo!\nB: Até logo!",exampleSrc:"A: I need to go. See you later!\nB: See you later!",funFact:"Até means 'until'. You can combine it with other words: até amanhã (see you tomorrow), até breve (see you soon)."},
     {type:"fb",opts:["tchau","olá","sim","obrigado"],hint:"Informal farewell, borrowed from Italian.",s:"{1}! Até amanhã!",sSrc:"Bye! See you tomorrow!",a:"Tchau"}
-  ]}
+  ,
+
+{type:"match", pairs:[
+  {trg:"tchau", src:"bye"},
+  {trg:"até logo", src:"see you later"}
+]}]}
 ]}; export default UNIT_01;

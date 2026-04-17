@@ -287,6 +287,10 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  opts:["trabalham","trabalhamos","trabalho","faz"],
  hint:"Third-person plural of trabalhar with 'eles'.",
  sSrc:"They {1} at a technology company."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"trabalhar", src:"to work"}
+]}]}
 
 ]}; export default UNIT_10;

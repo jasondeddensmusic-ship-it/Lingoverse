@@ -161,11 +161,11 @@ lessons:[
   {trg:"平原(píngyuán)", src:"plain"}
 ]},
 
-{type:"fb", s:"青藏(Qīngzàng){1}是(shì)世界(shìjiè)上(shàng)最(zuì)高(gāo)的(de)高原(gāoyuán)。",
+{type:"fb", s:"青藏(Qīngzàng){1}海拔(hǎibá)很(hěn)高(gāo)，在(zài)世界(shìjiè)上(shàng)很(hěn)有名(yǒumíng)。",
  a:["高原(gāoyuán)"],
  opts:["高原(gāoyuán)","平原(píngyuán)","沙漠(shāmò)","城市(chéngshì)"],
  hint:"An elevated flat expanse of land. 高 means high, 原 means plain.",
- sSrc:"The Qinghai-Tibet {1} is the highest plateau in the world."},
+ sSrc:"The Qinghai-Tibet {1} has high altitude and is world-famous."},
 
 {type:"mc", q:"Why is the 黄河(Huánghé) called the Yellow River?",
  opts:["Because of gold deposits in the riverbed","Because of the yellow silt it carries","Because of yellow flowers along its banks","Because of a legend about a yellow dragon"],

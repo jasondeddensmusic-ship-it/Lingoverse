@@ -156,7 +156,18 @@ const UNIT_18 = {n:18, lang:"ru", srcLang:"en", track:"v2", title:"Вините�
   {trg:"на работе", src:"at work (location)"},
   {trg:"в гости", src:"to visit"}
 ]}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"Я вижу книгу", src:"I see the book (ACC)"},
+  {trg:"Я знаю сестру", src:"I know (my) sister"},
+  {trg:"в парк", src:"to the park (motion)"},
+  {trg:"на концерт", src:"to a concert"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_18;

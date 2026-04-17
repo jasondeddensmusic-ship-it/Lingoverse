@@ -262,6 +262,12 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  opts:["Sou febre","Estou com febre","Dói febre","Compro febre"],
  ans:"Estou com febre",
  hint:"Brazilians commonly say they are 'with' a symptom rather than 'have' one."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"a boca", src:"the mouth"},
+  {trg:"sentir", src:"to feel"},
+  {trg:"doer", src:"to hurt"}
+]}]}
 
 ]}; export default UNIT_09;

@@ -155,7 +155,15 @@ const UNIT_21 = {n:21, lang:"ru", srcLang:"en", track:"v2", title:"Творит�
   {trg:"матерью", src:"with mother"},
   {trg:"мной", src:"with me"}
 ]}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"учителями", src:"with teachers (pl INS)"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_21;

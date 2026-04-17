@@ -263,6 +263,11 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
  funFact:"In Portuguese, weather uses 'fazer'. 'Faz frio' = it is cold. In the past, 'fazia frio' paints the full winter scene."},
 
 {type:"mc", q:"'A gente ia para a praia' in modern Brazilian Portuguese means:", opts:["We used to go to the beach","People used to go to the beach","I used to go to the beach","He used to go to the beach"], ans:"We used to go to the beach", hint:"A gente = we, in everyday Brazilian speech. Takes the same form as ele/ela."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"gostava", src:"I / he / she used to like"},
+  {trg:"éramos", src:"we were"}
+]}]}
 
 ]}; export default UNIT_14;

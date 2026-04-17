@@ -245,7 +245,11 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
  opts:["It means 'goodbye'","It does the work of both 'please' AND 'you're welcome'","It's only used with children","It's the same as Спасибо"],
  ans:"It does the work of both 'please' AND 'you're welcome'",
  hint:"This one word covers two English polite phrases."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"Вы", src:"you (formal or plural)"}
+]}]}
 
 ]};
 export default UNIT_01;

@@ -228,7 +228,19 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
   {trg:"к другу", src:"to a friend"},
   {trg:"с мамой", src:"with mom"}
 ]}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"для мамы", src:"for mom (GEN)"}
+]},
+
+{type:"match", pairs:[
+  {trg:"у меня нет", src:"I don"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_16;

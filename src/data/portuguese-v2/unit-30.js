@@ -151,7 +151,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
  q:"What does 'herança cultural' mean?",
  opts:["financial inheritance","cultural heritage","cultural event","family secret"],
  ans:"cultural heritage",
- hint:"What one generation passes to the next, in the cultural sense."},
+ hint:"What one generation passes to the next, in the ___ sense."},
 
 {type:"mc",
  q:"Which word means 'exhibition'?",
@@ -282,7 +282,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
  q:"What is special about the gender of 'personagem'?",
  opts:["Always masculine","Always feminine","Depends on character","Has no gender"],
  ans:"Always feminine",
- hint:"Greek origin. Even for male characters, use feminine article."},
+ hint:"Greek origin. Even for male characters, use ___ article."},
 
 {type:"drag_fill",
  s:"O {1} aplaudiu a {2} no final do espetáculo.",

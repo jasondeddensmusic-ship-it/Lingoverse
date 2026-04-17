@@ -262,7 +262,20 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
   {trg:"каждый день", src:"every day"},
   {trg:"обычно", src:"usually"}
 ]}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"неделя", src:"week"}
+]},
+
+{type:"match", pairs:[
+  {trg:"днём", src:"in the afternoon / during the day"},
+  {trg:"ночью", src:"at night"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_05;

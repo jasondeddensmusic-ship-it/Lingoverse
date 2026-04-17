@@ -263,7 +263,22 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
   {trg:"восток", src:"east"},
   {trg:"запад", src:"west"}
 ]}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"путешествие", src:"journey / trip"},
+  {trg:"направление", src:"direction"},
+  {trg:"заблудиться", src:"to get lost"}
+]},
+
+{type:"match", pairs:[
+  {trg:"быстро", src:"fast / quickly"},
+  {trg:"путь", src:"path / way"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_12;

@@ -167,7 +167,21 @@ const UNIT_22 = {n:22, lang:"ru", srcLang:"en", track:"v2", title:"Возвра�
   {trg:"возвращаться", src:"to return"},
   {trg:"кончаться", src:"to end"}
 ]}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"нравиться", src:"to be liked (please)"},
+  {trg:"находиться", src:"to be located"},
+  {trg:"кончиться", src:"to end (itself)"}
+]},
+
+{type:"match", pairs:[
+  {trg:"называться", src:"to be called (things)"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_22;

@@ -90,7 +90,15 @@ const UNIT_23 = {n:23, lang:"ru", srcLang:"en", track:"v2", title:"Повели�
   {trg:"давай", src:"let's (inf)"},
   {trg:"не говорите", src:"don't speak"}
 ]}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"скажи!", src:"tell! / say! (inf)"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_23;

@@ -245,7 +245,14 @@ lessons:[
  text:"Chinese culinary tradition recognizes 八大菜系 (bā dà càixì), the Eight Great Cuisines.\n川 (Sichuan): spicy-numbing.\n粤 (Cantonese): fresh and light.\n鲁 (Shandong): salty, hearty, northern.\n苏 (Jiangsu): sweet, refined.\nEach is tied to a region's climate, ingredients, and history.",
  deepDive:"The Eight Great Cuisines framework dates to the Qing dynasty. It formalizes what Chinese have always known: food is regional, tied to climate, soil, and tradition. A traveling Chinese diner can tell where dishes come from within a few bites."}
 
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"菜(cài)", src:"dish / cuisine / vegetable"},
+  {trg:"味道(wèidào)", src:"taste / flavor"},
+  {trg:"香(xiāng)", src:"fragrant / aromatic / tasty-smelling"},
+  {trg:"口味(kǒuwèi)", src:"taste preference / flavor profile"}
+]}]}
 
 ]};
 

@@ -79,7 +79,20 @@ const UNIT_30 = {n:30, lang:"ru", srcLang:"en", track:"v2", title:"Искусс�
   {trg:"писатель", src:"writer"},
   {trg:"балет", src:"ballet"}
 ]}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"культура", src:"culture"},
+  {trg:"театр", src:"theater"}
+]},
+
+{type:"match", pairs:[
+  {trg:"музыка", src:"music"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_30;

@@ -222,11 +222,11 @@ lessons:[
  ans:"Talking while walking",
  hint:"一边...一边 means two actions happen at the same time, simultaneously."},
 
-{type:"fb", s:"我(wǒ)一边(yìbiān)吃(chī)饭(fàn)，{1}看(kàn)电视(diànshì)。",
+{type:"fb", s:"他(tā)喜欢(xǐhuan){1}吃饭(chīfàn)看(kàn)电视(diànshì)的(de)方式(fāngshì)。",
  a:["一边(yìbiān)"],
  opts:["一边(yìbiān)","虽然(suīrán)","但是(dànshì)","另外(lìngwài)"],
- hint:"The second action in a simultaneous pattern needs the same word as the first.",
- sSrc:"I am eating {1} watching TV."},
+ hint:"The word paired with itself creates a 'while doing X, doing Y' simultaneous-action pattern in Chinese.",
+ sSrc:"He likes [the pattern that means] eating while watching TV."},
 
 {type:"match", pairs:[
   {trg:"虽然(suīrán)", src:"although"},

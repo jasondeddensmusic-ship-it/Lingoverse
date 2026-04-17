@@ -63,11 +63,11 @@ lessons:[
   {trg:"担心(dānxīn)", src:"to worry"}
 ]},
 
-{type:"fb", s:"A: 你(nǐ){1}这(zhè)个(gè)怎么样(zěnmeyàng)？\nB: 我(wǒ)觉得(juéde)不错(búcuò)。",
+{type:"fb", s:"A: 你(nǐ){1}这(zhè)个(gè)怎么样(zěnmeyàng)？\nB: 不错(búcuò)。",
  a:["觉得(juéde)"],
  opts:["觉得(juéde)","认为(rènwéi)","担心(dānxīn)","高兴(gāoxìng)"],
  hint:"The question asks for a casual opinion. Which opinion verb is soft and personal?",
- sSrc:"A: What do you {1} about this?\nB: I think it is pretty good."},
+ sSrc:"A: What do you {1} about this?\nB: Pretty good."},
 
 {type:"mc", q:"Which opinion word is more formal and assertive?",
  opts:["觉得(juéde)","认为(rènwéi)","担心(dānxīn)","高兴(gāoxìng)"],

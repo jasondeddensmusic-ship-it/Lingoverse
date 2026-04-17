@@ -125,7 +125,7 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  text:"For numbers 5 through 20, the noun ALWAYS takes the genitive plural.\n\nExamples:\nпять минут (five minutes, not минуты).\nшесть книг (six books, not книги).\nсемь дней (seven days).\nдесять рублей (ten rubles).\n\nThe genitive plural usually looks different from what you'd expect. Start by memorizing common ones: минут, книг, дней, лет, рублей, часов, минут, детей.",
  icon:"🔑"},
 
-{type:"mc", q:"Which number is followed by genitive PLURAL (like 'пять минут')?",
+{type:"mc", q:"Which number triggers the genitive PLURAL in the following noun?",
  opts:["один","два","три","пять"],
  ans:"пять",
  hint:"Numbers 5 and above take genitive plural. Numbers 2-4 take genitive singular."},
@@ -235,7 +235,15 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  opts:["Grammar error in tradition","Russian uses impersonal constructions for states and feelings","To sound more formal","It's only in Moscow dialect"],
  ans:"Russian uses impersonal constructions for states and feelings",
  hint:"Think about how ___ says 'I'm cold' (мне холодно) — the pattern is consistent."}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"ноль", src:"zero"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_02;

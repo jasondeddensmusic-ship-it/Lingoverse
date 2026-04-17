@@ -288,11 +288,11 @@ lessons:[
  ans:"short message",
  hint:"Break down the compound: 短 means short in length, and 信 means letter or message."},
 
-{type:"fb", s:"这个(zhège)软件(ruǎnjiàn){1}不(bu)方便(fāngbiàn)？",
+{type:"fb", s:"网上(wǎngshàng)买菜(mǎicài)很(hěn){1}。",
  a:["方便(fāngbiàn)"],
  opts:["方便(fāngbiàn)","简单(jiǎndān)","复杂(fùzá)","密码(mìmǎ)"],
- hint:"This is the first half of an A-not-A question. The same word appears before and after 不.",
- sSrc:"Is this software {1} or not?"},
+ hint:"The word meaning 'convenient' — easy and handy, especially when describing online services.",
+ sSrc:"Buying groceries online is very {1}."},
 
 {type:"match", pairs:[
   {trg:"发(fā)", src:"to send"},

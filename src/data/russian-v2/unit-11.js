@@ -275,7 +275,22 @@ const UNIT_11 = {n:11, lang:"ru", srcLang:"en", track:"v2", title:"Хобби", 
   {trg:"грустно", src:"sad"},
   {trg:"трудно", src:"difficult"}
 ]}
+<<<<<<< HEAD
+,
+
+{type:"match", pairs:[
+  {trg:"теннис", src:"tennis"},
+  {trg:"музыка", src:"music"},
+  {trg:"рисовать", src:"to draw"},
+  {trg:"танцевать", src:"to dance"}
+]},
+
+{type:"match", pairs:[
+  {trg:"плавать", src:"to swim (habitual)"}
+]}]}
+=======
 ]}
+>>>>>>> origin/main
 
 ]};
 export default UNIT_11;

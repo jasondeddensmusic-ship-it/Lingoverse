@@ -198,7 +198,14 @@ lessons:[
  trg:"周末(zhōumò)的(de)聚会(jùhuì)上(shang)，大家(dàjiā)一起(yìqǐ)祝(zhù)小(Xiǎo)王(Wáng)生日(shēngrì)快乐(kuàilè)。朋友们(péngyoumen)都(dōu)很(hěn)热情(rèqíng)，小(Xiǎo)王(Wáng)非常(fēicháng)感动(gǎndòng)。",
  src:"At the weekend gathering, everyone wished Xiao Wang a happy birthday together. The friends were all so warm, and Xiao Wang was very moved."}
 
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"聊天(liáotiān)", src:"to chat"},
+  {trg:"聊(liáo)", src:"to chat / to talk informally"},
+  {trg:"约(yuē)", src:"to make an appointment / to arrange"},
+  {trg:"打电话(dǎdiànhuà)", src:"to make a phone call"}
+]}]}
 
 ]};
 

@@ -189,7 +189,12 @@ lessons:[
  blanks:{"1":"举一反三(jǔyīfǎnsān)","2":"半途而废(bàntú'érfèi)"},
  pool:["举一反三(jǔyīfǎnsān)","半途而废(bàntú'érfèi)","马马虎虎(mǎmǎhūhū)","画蛇添足(huàshétiānzú)"],
  hint:"Good students can learn broadly from examples and do not quit before finishing."}
-]}
+,
+
+{type:"match", pairs:[
+  {trg:"成语(chéngyǔ)", src:"four-character idiom"},
+  {trg:"刻舟求剑(kèzhōuqiújiàn)", src:"to be inflexible / stuck in old ways"}
+]}]}
 
 ]};
 
