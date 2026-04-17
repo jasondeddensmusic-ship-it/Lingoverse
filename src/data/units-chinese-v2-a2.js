@@ -4,5 +4,7 @@ import UNIT_09 from './chinese-v2/unit-09.js';
 import UNIT_10 from './chinese-v2/unit-10.js';
 import UNIT_11 from './chinese-v2/unit-11.js';
 import UNIT_12 from './chinese-v2/unit-12.js';
+import UNIT_37 from './chinese-v2/unit-37.js';
+import UNIT_38 from './chinese-v2/unit-38.js';
 
-export default [UNIT_07, UNIT_08, UNIT_09, UNIT_10, UNIT_11, UNIT_12];
+export default [UNIT_07, UNIT_08, UNIT_09, UNIT_10, UNIT_11, UNIT_12, UNIT_37, UNIT_38];

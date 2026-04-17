@@ -311,9 +311,10 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Spanish | v2 | 92 | 5,124 | 53 entries | COMPLETE. 100% of German. |
 | Italian | v2 | 36 | 5,013 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. |
 | Japanese | v2 | 36 | 4,978 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, Foundations lock, notation tutorial, CEFR ref wired. |
+| Chinese | v2 | 45 | ~700+ | 53 entries | **NEW (2026-04-17).** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8 0/0, PP48 0/0. Foundations (pinyin, tones, radicals). Grammar HSK-aligned. Batch density pending. |
 
-**Grand total: ~30,500+ teach cards across 7 languages. Build passes.**
-**Grammar modules: 365 entries across 7 languages (Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch mock).**
+**Grand total: ~31,200+ teach cards across 8 languages. Build passes.**
+**Grammar modules: 418 entries across 8 languages (Chinese 53, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch mock).**
 
 ### Build History (compact)
 
