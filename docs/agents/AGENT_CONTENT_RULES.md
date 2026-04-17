@@ -109,6 +109,31 @@ Every word in a quiz MUST trace to a prior dedicated teach card. "Taught" means 
 - Your total input should be under 10K tokens. If you need more, the task is too broad.
 - NEVER read `src/verumlingua.jsx` or `src/components/LessonEngine.jsx` — you don't need engine code for content work.
 
+## Japanese-Specific Rules (PP65 — MANDATORY)
+
+When building Japanese content, ALL target-language text MUST use kanji with inline furigana:
+
+**Format:** `漢字(ふりがな)` — kanji followed by hiragana reading in parentheses.
+
+**What gets kanji:**
+- Nouns: `先生(せんせい)`, `大学(だいがく)`, `電車(でんしゃ)`
+- Verb stems: `食(た)べる`, `行(い)く`, `飲(の)む`, `書(か)く`
+- i-adjectives: `大(おお)きい`, `高(たか)い`, `新(あたら)しい`
+- na-adjectives: `元気(げんき)`, `静(しず)か`, `便利(べんり)`
+- Time/place words: `今日(きょう)`, `明日(あした)`, `東京(とうきょう)`
+
+**What stays hiragana:**
+- Particles: は, が, を, に, で, と, の, も, か, へ, から, まで
+- Grammatical endings: です, ます, ました, ません, でした
+- て-form endings: して, いて, って
+- こそあど words: これ, それ, あれ, どこ, ここ
+- Greetings (A1): こんにちは, おはようございます, さようなら
+
+**Applies to:** `trg`, `example`, `mc` q/opts, `fb` s/a/opts, `match` trg fields.
+**Does NOT apply to:** `src`, `exampleSrc`, `hint`, `note`, `funFact` (these are in English per PP61).
+
+This rule applies from A1 Unit 1 onward. No exceptions. Pure hiragana is WRONG for Japanese content.
+
 ## Output Rules
 
 - Write to temp files only. Never write to main unit files.
