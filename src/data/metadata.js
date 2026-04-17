@@ -139,6 +139,7 @@ export const LANGUAGES = [
   { code: "it", name: "Italian", flag: "🇮🇹", native: "Italiano", greeting: "Ciao!", welcomeBack: "Ciao, bentornato!" },
   { code: "ja", name: "Japanese", flag: "🇯🇵", native: "日本語", greeting: "こんにちは!", welcomeBack: "こんにちは、おかえりなさい！" },
   { code: "zh", name: "Chinese", flag: "🇨🇳", native: "中文", greeting: "你好!", welcomeBack: "你好，欢迎回来！" },
+  { code: "pt", name: "Portuguese", flag: "🇧🇷", native: "Português", greeting: "Olá!", welcomeBack: "Olá, bem-vindo de volta!" },
 ];
 
 // ── ALL LANGUAGES (including future / no content yet) ──
@@ -148,7 +149,6 @@ export const _ALL_LANGUAGES = [
   { code: "en", name: "English", flag: "🇺🇸", native: "English", greeting: "Hello!", welcomeBack: "Hello, welcome back!" },
   { code: "ar", name: "Arabic", flag: "🇸🇾", native: "العربية", greeting: "!مرحبا", welcomeBack: "!مرحبا، أهلا بعودتك", rtl: true },
   { code: "ro", name: "Romanian", flag: "🇷🇴", native: "Română", greeting: "Bună!", welcomeBack: "Bună, bine ai revenit!" },
-  { code: "pt", name: "Portuguese", flag: "🇧🇷", native: "Português", greeting: "Olá!", welcomeBack: "Olá, bem-vindo de volta!" },
   { code: "ru", name: "Russian", flag: "🇷🇺", native: "Русский", greeting: "Привет!", welcomeBack: "Привет, с возвращением!" },
 ];
 
@@ -322,6 +322,7 @@ export const LANG_META = {
   ko: {scriptType:"hangul",framework:"TOPIK",levelMap:{1:"A1",2:"A2",3:"B1",4:"B2"},ttsLocale:"ko-KR",specialRules:["hangul_assembly","particles","honorifics","verb_endings"]},
   ja: {scriptType:"kana",framework:"JLPT",levelMap:{N5:"A1",N4:"A2",N3:"B1"},ttsLocale:"ja-JP",specialRules:["hiragana","katakana","kanji","particles","keigo"]},
   zh: {scriptType:"hanzi",framework:"HSK",levelMap:{HSK1:"A1",HSK2:"A2",HSK3:"B1",HSK4:"B2"},ttsLocale:"zh-CN",specialRules:["tones","pinyin","radicals","measure_words","no_conjugation","aspect_particles","topic_comment","ba_bei_constructions","complement_system"]},
+  pt: {scriptType:"latin",framework:"CEFR",levelMap:{A1:"A1",A2:"A2",B1:"B1",B2:"B2"},ttsLocale:"pt-BR",specialRules:["nasal_vowels","ão_diphthong","ser_estar","ter_haver","gendered_nouns","personal_infinitive","accents_áéíóú_âêô_ãõ","eu_você_tu_distinction"]},
   ru: {scriptType:"cyrillic",framework:"CEFR",levelMap:{A1:"A1",A2:"A2",B1:"B1"},ttsLocale:"ru-RU",specialRules:["cyrillic","soft_hard_signs","cases","aspect","no_articles"]},
 };
 
@@ -416,6 +417,22 @@ export const LANG_BLUEPRINT = {
     coreConstructs: ["SVO word order","4 tones + neutral","Measure words with numbers","了/过/着 aspect particles","的/地/得 structural particles","把/被 constructions","Topic-comment structure"],
     functionWords: ["的(de, possessive/attributive)","了(le, completion)","在(zài, at/in)","是(shì, to be)","不(bù, not)","也(yě, also)","都(dōu, all)","和(hé, and)","但是(dànshì, but)","因为(yīnwèi, because)","所以(suǒyǐ, therefore)","如果(rúguǒ, if)"]
   },
+  pt: {
+    scriptType: "latin",
+    writingSystem: {type:"alphabetic",direction:"ltr",caseSystem:true,diacritics:["acute_á_é_í_ó_ú","circumflex_â_ê_ô","tilde_ã_õ","grave_à","cedilla_ç"]},
+    phonology: {vowelSystem:"oral_and_nasal_with_reduction",nasalVowels:["ã_ão_/ɐ̃w̃/","em_/ẽ/","im_/ĩ/","om_/õ/","um_/ũ/"],consonantNotes:"r_can_be_tap_or_guttural,lh_/ʎ/,nh_/ɲ/,ch_/ʃ/,final_l_becomes_w_in_BR",stress:"usually_penultimate_marked_otherwise",traps:["nasal_vowels","ão_diphthong","r_variations_BR_vs_PT","closed_vs_open_e_o","final_l_/w/_BR"]},
+    morphology: {type:"fusional",verbGroups:["ar_group1","er_group2","ir_group3","pôr_irregular"],personalInfinitive:true,gender:true,plurals:["-s","-es","-ões","-ães","-ais","irregular"],diminutive:"-inho/-zinho"},
+    grammarOrder: "SVO",
+    genderSystem: {type:"masculine_feminine",articles:{m:"o",f:"a"},adjInflection:true,adjPlacement:"usually_after_noun_some_before"},
+    articleSystem: {definite:["o","a","os","as"],indefinite:["um","uma","uns","umas"],contractions:["do_de_o","da_de_a","no_em_o","na_em_a","ao_a_o","à_a_a","pelo_por_o","pela_por_a"],notes:"Contractions are MANDATORY with prepositions + articles. de+o=do, em+a=na, por+o=pelo."},
+    formalitySystem: {levels:["informal_tu_PT","neutral_você_BR","formal_senhor_senhora"],notes:"Brazilian Portuguese mostly uses você (with 3rd person verb). European Portuguese preserves tu/você distinction. Senhor/Senhora for highest formality."},
+    serEstar: {ser:"permanent_identity_origin_profession_time_material",estar:"temporary_state_location_emotion_ongoing_action",overlap:"some_adjectives_change: ser chato (boring person) vs estar chato (being annoying right now)"},
+    difficultyProfile: {forEnglish:"moderate",hardest:["nasal_vowels","ser_vs_estar","subjunctive","personal_infinitive","ão_plurals","r_variations","gendered_nouns"],easiest:["30_40_pct_cognates","SVO_word_order","latin_script","shared_vocabulary","predictable_conjugation"]},
+    culturalContext: "Warm interpersonal style. Long greetings with kisses (beijos). Family-central. Rich regional differences (Brazil vs Portugal, Northeast vs South). Carnival, capoeira, samba, fado. Laid-back time culture (jeito brasileiro).",
+    learningRisks: ["Confusing ser and estar","Skipping nasal vowel training","Translating Spanish directly (false friends: embaraçada = pregnant, not embarrassed)","Ignoring contractions","BR vs PT pronunciation confusion","Forgetting personal infinitive"],
+    coreConstructs: ["SVO word order","o/a gender system","ser vs estar (two 'to be' verbs)","verb conjugation (-ar/-er/-ir groups)","você vs tu","personal infinitive","subjunctive mood","contractions de/em/por + article"],
+    functionWords: ["e (and)","ou (or)","mas (but)","também (also)","não (not)","sim (yes)","em (in/on)","de (of/from)","a (to)","com (with)","por (for/by)","para (for/to)","que (that/what)"]
+  },
   // TODO: Add blueprints for ro, en, ko, ja, ru as content is built
 };
 
@@ -430,6 +447,7 @@ export const CULTURE_PACKS = {
   // ── Spanish Culture Pack ──
   es: {food:["paella","tapas","tortilla_española","churros","gazpacho","jamón_ibérico","empanadas"],customs:["siesta","sobremesa","two_surnames","late_dinners_9pm","paseo_evening_walk","fiestas_patronales"],places:["Madrid","Barcelona","Sevilla","México_City","Buenos_Aires","Bogotá"],beginnerSituations:["ordering_tapas","asking_directions","introducing_yourself","at_mercado","café_con_leche"],politenessNotes:["Use 'usted' with strangers and elders","Use 'tú' with friends and children","In Latin America 'ustedes' replaces 'vosotros'","Say 'por favor' and 'gracias' always"],tabooOrPitfalls:["Don't confuse ser and estar","Don't use vosotros in Latin America","embarazada means pregnant not embarrassed","éxito means success not exit","sensible means sensitive not sensible"]},
   zh: {food:["饺子_jiǎozi","火锅_huǒguō","北京烤鸭_Běijīng_kǎoyā","小笼包_xiǎolóngbāo","月饼_yuèbǐng","豆腐_dòufu","炒饭_chǎofàn"],customs:["春节_Spring_Festival","中秋节_Mid_Autumn","红包_red_envelopes","茶文化_tea_culture","面子_mianzi_face","关系_guanxi_connections","筷子_chopsticks"],places:["北京_Beijing","上海_Shanghai","西安_Xian","成都_Chengdu","广州_Guangzhou","杭州_Hangzhou"],beginnerSituations:["ordering_tea","at_restaurant_with_chopsticks","introducing_yourself","bargaining_at_market","taking_a_taxi","using_WeChat"],politenessNotes:["Use 您 (nín) for formal 'you' with elders and strangers","Say 请 (qǐng, please) before requests","谢谢 (xièxie) for thank you, 不客气 (bú kèqi) for you're welcome"],tabooOrPitfalls:["Never give a clock as a gift (送钟 sounds like 送终, funeral)","4 is unlucky (四 sounds like 死, death)","Don't stick chopsticks upright in rice (funeral ritual)","Red is lucky, white and black are for funerals"]},
+  pt: {food:["feijoada","pão_de_queijo","brigadeiro","açaí","pastel","coxinha","picanha","moqueca","bacalhau_Portugal","pastéis_de_nata_Portugal"],customs:["beijos_greeting","carnaval","futebol_culture","churrasco","jeito_brasileiro","saudade_concept","obrigado_masc_obrigada_fem","Festa_Junina"],places:["Rio_de_Janeiro","São_Paulo","Salvador","Lisboa","Porto","Recife","Fortaleza"],beginnerSituations:["ordering_at_café","at_padaria","greeting_with_beijos","introducing_yourself","asking_directions","buying_açaí"],politenessNotes:["Obrigado if you are male, obrigada if you are female","Use você in Brazil, tu in Portugal (informal)","Por favor/Se faz favor for please","Senhor/Senhora for respectful address"],tabooOrPitfalls:["embaraçada means pregnant (not embarrassed)","puxar means to pull (not to push)","esquisito means weird (not exquisite)","Don't confuse Brazilian and European Portuguese pronunciations","Don't assume Spanish speakers automatically understand Portuguese"]},
   // TODO: Add culture packs for ro, en, ko, ja, ru as those languages are built
 };
 
@@ -609,6 +627,21 @@ export const LANG_TOKENIZER = {
       preposition: { match:["在","从","到","向","往","对","给","让","把","被","比","跟","用","为"], color:"#9B7AE8", dk:"#B8A8FA", label:"Preposition/Coverb" },
       conjunction: { match:["和","但是","因为","所以","如果","虽然","可是","而且","或者","不但","而"], color:"#F59E0B", dk:"#FCD34D", label:"Conjunction" },
       adverb:      { match:["也","都","就","才","又","还","很","太","真","非常","已经","正在","刚","常常","经常"], color:"#EC4899", dk:"#F472B6", label:"Adverb" },
+    }
+  },
+  pt: {
+    scriptRange: /[a-zA-Z\u00C0-\u024F]/,
+    wordBoundary: "space",
+    articles: ["o","a","os","as","um","uma","uns","umas","do","da","dos","das","no","na","nos","nas","ao","aos","à","às","pelo","pela","pelos","pelas"],
+    contractions: {"do":"de o","da":"de a","dos":"de os","das":"de as","no":"em o","na":"em a","nos":"em os","nas":"em as","ao":"a o","aos":"a os","à":"a a","às":"a as","pelo":"por o","pela":"por a","dum":"de um","duma":"de uma","num":"em um","numa":"em uma"},
+    grammarColors: {
+      article_o:   { match:["o","os"], color:"#0091FF", dk:"#64B5F6", label:"o/os (masc)" },
+      article_a:   { match:["a","as"], color:"#D50000", dk:"#EF5350", label:"a/as (fem)" },
+      article_um:  { match:["um","uma","uns","umas"], color:"#8D6E63", dk:"#BCAAA4", label:"Indefinite" },
+      contraction: { match:["do","da","dos","das","no","na","nos","nas","ao","aos","à","às","pelo","pela","pelos","pelas"], color:"#00BFA5", dk:"#64FFDA", label:"Contraction" },
+      preposition: { match:["de","em","a","com","por","para","sem","sobre","entre","até","desde","durante","contra","conforme","segundo"], color:"#2ECDA7", dk:"#50E0C0", label:"Preposition" },
+      conjunction: { match:["e","mas","ou","porque","que","quando","se","embora","enquanto","como","onde","nem","portanto","pois","mas_sim","contudo"], color:"#9B7AE8", dk:"#B8A8FA", label:"Conjunction" },
+      pronoun:     { match:["eu","tu","ele","ela","você","nós","vós","eles","elas","vocês","me","te","se","o","a","lhe","nos","vos","lhes","meu","minha","seu","sua","nosso","nossa"], color:"#F59E0B", dk:"#FCD34D", label:"Pronoun" },
     }
   }
 };

@@ -1828,6 +1828,65 @@ export const FOUNDATIONS_BY_LANG = {
       ]},
   ]},
   // ══════════════════════════════════════════════════════════════════
+  // PORTUGUESE FOUNDATIONS (Brazilian primary, European secondary)
+  // ══════════════════════════════════════════════════════════════════
+  pt:{name:"Portuguese Foundations",icon:"🇧🇷",sections:[
+    {id:"pt_alphabet",title:"The Portuguese Alphabet",icon:"🔤",desc:"26 Latin letters plus accented variants. K, W, Y used mostly in loanwords.",
+      items:[
+        {fk:"fk_alphabet_overview",title:"Portuguese alphabet",audio_id:null,
+          desc:"Portuguese uses the Latin alphabet. Some letters appear with diacritics: á é í ó ú (acute), â ê ô (circumflex), ã õ (tilde), à (grave), ç (cedilla). K, W, Y are used only in foreign words.",
+          grid:{cols:7,headers:["","","","","","",""],rows:[
+            {label:"Basic 1",color:"#4A8FE7",cells:[{ch:"A",rom:"a"},{ch:"B",rom:"bê"},{ch:"C",rom:"cê"},{ch:"D",rom:"dê"},{ch:"E",rom:"é"},{ch:"F",rom:"efe"},{ch:"G",rom:"gê"}]},
+            {label:"Basic 2",color:"#4A8FE7",cells:[{ch:"H",rom:"agá"},{ch:"I",rom:"i"},{ch:"J",rom:"jota"},{ch:"K",rom:"cá"},{ch:"L",rom:"ele"},{ch:"M",rom:"eme"},{ch:"N",rom:"ene"}]},
+            {label:"Basic 3",color:"#4A8FE7",cells:[{ch:"O",rom:"ó"},{ch:"P",rom:"pê"},{ch:"Q",rom:"quê"},{ch:"R",rom:"erre"},{ch:"S",rom:"esse"},{ch:"T",rom:"tê"},{ch:"U",rom:"u"}]},
+            {label:"Basic 4",color:"#4A8FE7",cells:[{ch:"V",rom:"vê"},{ch:"W",rom:"dáblio"},{ch:"X",rom:"xis"},{ch:"Y",rom:"ípsilon"},{ch:"Z",rom:"zê"},{ch:"",rom:""},{ch:"",rom:""}]},
+            {label:"Accented",color:"#E85D75",cells:[{ch:"á â ã à",rom:"A forms"},{ch:"é ê",rom:"E forms"},{ch:"í",rom:"I form"},{ch:"ó ô õ",rom:"O forms"},{ch:"ú",rom:"U form"},{ch:"ç",rom:"cedilla"},{ch:"",rom:""}]},
+          ]}},
+      ]},
+    {id:"pt_nasal_vowels",title:"Nasal Vowels",icon:"👃",desc:"Portuguese has nasal vowels unique among Romance languages. Marked with tilde (ã, õ) or before m/n.",
+      items:[
+        {fk:"fk_vowel_system",title:"Nasal vowel chart",audio_id:null,
+          desc:"Nasal vowels are made by letting air flow through the nose while saying the vowel. Portuguese marks them with a tilde or through -m/-n at end of syllable.",
+          grid:{cols:3,headers:["Sound","Example","Meaning"],rows:[
+            {label:"ã",color:"#E85D75",cells:[{ch:"ã",rom:"nasal a"},{ch:"maçã",rom:"apple"},{ch:"não",rom:"no"}]},
+            {label:"ão",color:"#E85D75",cells:[{ch:"ão",rom:"nasal aw"},{ch:"pão",rom:"bread"},{ch:"mão",rom:"hand"}]},
+            {label:"õe",color:"#E85D75",cells:[{ch:"õe",rom:"nasal oy"},{ch:"lições",rom:"lessons"},{ch:"põe",rom:"puts"}]},
+            {label:"em",color:"#4A8FE7",cells:[{ch:"em",rom:"nasal eng"},{ch:"sem",rom:"without"},{ch:"bem",rom:"well"}]},
+            {label:"im",color:"#4A8FE7",cells:[{ch:"im",rom:"nasal ing"},{ch:"sim",rom:"yes"},{ch:"fim",rom:"end"}]},
+            {label:"om",color:"#2ECDAB",cells:[{ch:"om",rom:"nasal ong"},{ch:"bom",rom:"good"},{ch:"som",rom:"sound"}]},
+            {label:"um",color:"#F5A623",cells:[{ch:"um",rom:"nasal oong"},{ch:"um",rom:"one/a"},{ch:"comum",rom:"common"}]},
+          ]}},
+      ]},
+    {id:"pt_pronunciation",title:"Pronunciation Traps",icon:"🔊",desc:"Tricky letter combinations and BR vs PT differences",
+      items:[
+        {fk:"fk_digraphs",title:"Digraphs and special sounds",audio_id:null,
+          desc:"Portuguese has several letter combinations that produce unexpected sounds. R sounds vary most between regions.",
+          grid:{cols:3,headers:["Spelling","Sound","Example"],rows:[
+            {label:"lh",color:"#2ECDAB",cells:[{ch:"lh",rom:"like Spanish ll /ʎ/"},{ch:"filho",rom:"son"},{ch:"milhão",rom:"million"}]},
+            {label:"nh",color:"#2ECDAB",cells:[{ch:"nh",rom:"like Spanish ñ /ɲ/"},{ch:"vinho",rom:"wine"},{ch:"senhor",rom:"sir"}]},
+            {label:"ch",color:"#E85D75",cells:[{ch:"ch",rom:"always 'sh' /ʃ/"},{ch:"chá",rom:"tea"},{ch:"chave",rom:"key"}]},
+            {label:"r (start)",color:"#F5A623",cells:[{ch:"r-",rom:"BR: guttural /ʁ/ or /h/"},{ch:"rato",rom:"mouse"},{ch:"rio",rom:"river"}]},
+            {label:"rr",color:"#F5A623",cells:[{ch:"rr",rom:"BR: guttural /ʁ/ or /h/"},{ch:"carro",rom:"car"},{ch:"terra",rom:"land"}]},
+            {label:"r (mid)",color:"#F5A623",cells:[{ch:"-r-",rom:"tap /ɾ/ like water"},{ch:"para",rom:"for"},{ch:"cara",rom:"face"}]},
+            {label:"ss",color:"#4A8FE7",cells:[{ch:"ss",rom:"always /s/ (not /z/)"},{ch:"passo",rom:"step"},{ch:"isso",rom:"this"}]},
+            {label:"ç",color:"#9B7AE8",cells:[{ch:"ç",rom:"always /s/ before a/o/u"},{ch:"começar",rom:"to start"},{ch:"açúcar",rom:"sugar"}]},
+          ]}},
+      ]},
+    {id:"pt_stress",title:"Word Stress and Accents",icon:"📍",desc:"Stress rules and when to write an accent mark",
+      items:[
+        {fk:"fk_stress_pattern",title:"Stress rules",audio_id:null,
+          desc:"Portuguese stress is usually penultimate (second-to-last syllable). Accents mark exceptions.",
+          examples:["DEFAULT STRESS: penultimate syllable. ca-SA (house), men-SA-gem (message).","LAST SYLLABLE if word ends in r, l, z, x, n, or nasal. a-MOR (love), na-TAL (Christmas), a-VIÃO (airplane).","ACCENT MARKS: written when stress breaks the default rule. rá-PI-do (fast), ár-VO-re (tree), PÁ-gi-na (page).","TILDE (~): marks nasal vowels AND stress. pão, mão, irmã, canção."]},
+      ]},
+    {id:"pt_br_vs_pt",title:"Brazilian vs European",icon:"🌎",desc:"Main differences between Brazilian and European Portuguese",
+      items:[
+        {fk:"fk_spelling_rules",title:"BR vs PT variations",audio_id:null,
+          desc:"Brazilian (BR) and European (PT) Portuguese are mutually intelligible but differ in pronunciation, vocabulary, and some grammar. This course teaches BR with PT notes where relevant.",
+          examples:["PRONUNCIATION: BR softer r (guttural), PT rolled r. BR 'di' often pronounced 'dji' (dia = 'djia'), PT keeps 'di'.","VOCABULARY: ônibus (BR) = autocarro (PT) (bus). celular (BR) = telemóvel (PT) (phone).","YOU: você universal in BR, tu is informal in PT.","GERUND: BR uses estar + gerund (estou comendo). PT uses estar a + infinitive (estou a comer).","This course primarily teaches Brazilian Portuguese with notes for European differences."]},
+      ]},
+  ]},
+
+  // ══════════════════════════════════════════════════════════════════
   // CHINESE (MANDARIN) FOUNDATIONS
   // ══════════════════════════════════════════════════════════════════
   zh:{name:"Chinese Foundations",icon:"🇨🇳",sections:[
@@ -3833,6 +3892,59 @@ export const FK_PLAYTHROUGH = {
   ro:{name:"Romanian Foundations Play",icon:"🇷🇴",blueprint:"latin_simple",stages:[]},
   ru:{name:"Russian Script Play",icon:"🇷🇺",blueprint:"cyrillic",stages:[]},
   // ══════════════════════════════════════════════════════════════════
+  // PORTUGUESE PLAYTHROUGH (Brazilian primary)
+  // 4 phases: orientation, nasal vowels, pronunciation traps, stress
+  // ══════════════════════════════════════════════════════════════════
+  pt:{name:"Learn Portuguese Sounds",icon:"🇧🇷",blueprint:"latin_simple",stages:[
+  {id:"pt_fp_p0",title:"Phase 0: Welcome to Portuguese",desc:"Orientation to Portuguese writing and pronunciation",icon:"📝",
+    lessons:[
+      {id:"pt_fp_p0_l1",title:"Portuguese Overview",icon:"📝",xp:15,board:true,steps:[
+        {type:"intro",title:"Welcome to Portuguese!",desc:"Portuguese is spoken by 260+ million people across Brazil, Portugal, and parts of Africa. It shares ~30-40% vocabulary with English through Latin roots. The biggest challenges: nasal vowels (unique among Romance languages), ser vs estar (two 'to be' verbs), and regional pronunciation differences.",goals:["Understand the scope of Portuguese","Know the main regional differences (BR vs PT)","Prepare for nasal vowels"]},
+        {type:"teach",kind:"info",nl:"Brazilian vs European",en:"Two main varieties",phonetic:"",example:"BR: Oi, tudo bem?\nPT: Olá, como está?",exampleEn:"BR: Hi, all good?\nPT: Hello, how are you?",note:"This course teaches Brazilian Portuguese (spoken by ~220M) with notes for European Portuguese (~10M) where they differ significantly."},
+        {type:"teach",kind:"info",nl:"Cognates are your friend",en:"Shared vocabulary with English",phonetic:"",example:"importante, informação, universidade, família",exampleEn:"important, information, university, family",note:"~30-40% of Portuguese words are recognizable to English speakers through shared Latin roots."},
+        {type:"mc",q:"Portuguese shares many cognates with English because both come from:",opts:["Germanic roots","Latin roots","Greek roots","Celtic roots"],ans:"Latin roots",hint:"Portuguese is a Romance language descended from Latin spoken by Roman soldiers"},
+        {type:"mc",q:"The main variety of Portuguese taught here is:",opts:["Brazilian","European","Angolan","Mozambican"],ans:"Brazilian",hint:"The larger population variety with ~220 million speakers"},
+      ]},
+    ]},
+  {id:"pt_fp_p1",title:"Phase 1: Nasal Vowels",desc:"The defining feature of Portuguese pronunciation",icon:"👃",
+    lessons:[
+      {id:"pt_fp_p1_l1",title:"Nasal Vowels",icon:"👃",xp:20,board:true,steps:[
+        {type:"intro",title:"The Portuguese Nose",desc:"Nasal vowels are the #1 pronunciation challenge for English speakers. Air flows through your nose while you say the vowel. They're marked with a tilde (~) or by -m/-n at syllable end.",goals:["Recognize nasal vowel markers","Produce ã, ão, õe","Understand -m and -n as nasal markers"]},
+        {type:"teach",kind:"info",nl:"ã",en:"Nasal a",phonetic:"nasal 'ah'",example:"maçã (apple), irmã (sister), manhã (morning)",exampleEn:"Tilde over a makes it nasal",note:"Say 'ah' while lowering your soft palate to let air into your nose. Think 'anh' but shorter. The tongue stays in the same position as oral a."},
+        {type:"teach",kind:"info",nl:"ão",en:"Nasal 'aw'",phonetic:"nasal 'aw' glide",example:"não (no), mão (hand), pão (bread), coração (heart)",exampleEn:"Glides from nasal a to nasal u",note:"The most common nasal diphthong. English speakers often drop the nasality or add an ng sound. Keep it pure."},
+        {type:"teach",kind:"info",nl:"-m at word end",en:"Makes vowel nasal",phonetic:"",example:"sim (yes), bem (well), bom (good), um (one)",exampleEn:"Final m is silent but nasalizes vowel",note:"Portuguese -m at end of word is NOT pronounced as m. It only makes the preceding vowel nasal. 'Sim' is pronounced like English 'seeng' without the g."},
+        {type:"mc",q:"The tilde mark (~) on a vowel indicates:",opts:["Higher pitch","Longer duration","Nasal quality","Stressed syllable"],ans:"Nasal quality",hint:"Air flows through the nose when producing the vowel"},
+        {type:"mc",q:"In the word 'sim' (yes), the final m is:",opts:["Pronounced like English m","Silent, but makes vowel nasal","Pronounced like n","Always stressed"],ans:"Silent, but makes vowel nasal",hint:"Portuguese -m at word end is a nasality marker, not a consonant"},
+        {type:"match",pairs:[{nl:"pão",en:"bread"},{nl:"mão",en:"hand"},{nl:"sim",en:"yes"},{nl:"bom",en:"good"}]},
+      ]},
+    ]},
+  {id:"pt_fp_p2",title:"Phase 2: Tricky Sounds",desc:"Digraphs lh, nh, ch, and the Portuguese r",icon:"🔊",
+    lessons:[
+      {id:"pt_fp_p2_l1",title:"Digraphs and R Sounds",icon:"🔊",xp:20,board:true,steps:[
+        {type:"intro",title:"Beyond English Sounds",desc:"Portuguese has several sounds that don't exist in English: the palatal lh and nh (like Italian gli, Spanish ñ), and an r that varies dramatically by region.",goals:["Pronounce lh as palatal l","Pronounce nh as palatal n","Understand r variations (BR vs PT)"]},
+        {type:"teach",kind:"info",nl:"lh",en:"Palatal L",phonetic:"like Italian gli / Catalan ll",example:"filho (son), trabalho (work), milhão (million)",exampleEn:"Press tongue flat against hard palate, then release like 'lee-yuh' fused",note:"Not the same as English 'ly.' The tongue stays in one position. Think of the 'lli' in 'million' but more fluid."},
+        {type:"teach",kind:"info",nl:"nh",en:"Palatal N",phonetic:"like Spanish ñ",example:"senhor (sir), vinho (wine), banho (bath)",exampleEn:"Same position as lh but with n, like 'nee-yuh' fused",note:"Identical to Spanish ñ. English 'canyon' has a similar sound. Practice: manhã = 'mun-yah' with nasal ã."},
+        {type:"teach",kind:"info",nl:"r (beginning) and rr",en:"Guttural R in Brazilian",phonetic:"like English h or French r",example:"rato (mouse), carro (car), rio (river)",exampleEn:"In Brazil: usually a guttural h sound",note:"BRAZILIAN: r at start of word and rr in middle are pronounced like English 'h' (or a soft French r). 'Rio' sounds like 'HEE-oo.' EUROPEAN: trill or tap. This is one of the biggest BR-PT differences."},
+        {type:"teach",kind:"info",nl:"r (middle)",en:"Tapped R",phonetic:"like Spanish single r or English butter",example:"para (for), cara (face), hora (hour)",exampleEn:"Quick tap of tongue, like American English 'butter'",note:"When r appears between vowels, it's a quick tap, identical to Spanish single r or the tt in American 'butter.' This is consistent in both BR and PT."},
+        {type:"mc",q:"In Brazilian Portuguese, the initial r in 'rato' (mouse) sounds most like:",opts:["English r in 'red'","English h in 'hat'","Trilled r like Spanish","Silent"],ans:"English h in 'hat'",hint:"BR r is guttural, similar to English h or French r"},
+        {type:"mc",q:"The digraph 'nh' in Portuguese is equivalent to:",opts:["English 'nh' in 'inhale'","Spanish ñ","English 'ng' in 'sing'","Two separate sounds n+h"],ans:"Spanish ñ",hint:"Both are palatal nasals made with tongue on hard palate"},
+      ]},
+    ]},
+  {id:"pt_fp_p3",title:"Phase 3: Stress and Accents",desc:"When Portuguese marks stress and why",icon:"📍",
+    lessons:[
+      {id:"pt_fp_p3_l1",title:"Stress Rules",icon:"📍",xp:15,board:true,steps:[
+        {type:"intro",title:"Where the Emphasis Falls",desc:"Portuguese has clear stress rules. Default stress is on the second-to-last syllable. Accents mark exceptions.",goals:["Know the default stress position","Recognize when an accent changes stress","Distinguish acute, circumflex, and tilde"]},
+        {type:"teach",kind:"info",nl:"Default: Penultimate",en:"Stress on 2nd-to-last syllable",phonetic:"",example:"casa (CA-sa), mesa (ME-sa), amigo (a-MI-go)",exampleEn:"Most words stress the syllable before the last",note:"When a word ends in a vowel (a, e, o) or -s, default stress is penultimate. No accent mark needed."},
+        {type:"teach",kind:"info",nl:"Last syllable stress",en:"When word ends in r, l, z, x, u, i, or nasal",phonetic:"",example:"amor (a-MOR), natal (na-TAL), feliz (fe-LIZ), avião (a-vi-ÃO)",exampleEn:"Stress falls on the final syllable",note:"Certain endings shift stress to the last syllable automatically. No accent needed unless the stress breaks these rules."},
+        {type:"teach",kind:"info",nl:"Accented exceptions",en:"Accents mark stress breaks",phonetic:"",example:"rápido (RÁ-pi-do), página (PÁ-gi-na), árvore (ÁR-vo-re)",exampleEn:"Accent marks show unexpected stress position",note:"When stress falls outside the default position, an accent mark shows where. Acute (´) for most cases, circumflex (^) for closed vowels."},
+        {type:"mc",q:"Without an accent mark, 'casa' (house) is stressed on:",opts:["First syllable","Second-to-last","Last syllable","Both syllables equally"],ans:"Second-to-last",hint:"Portuguese default is penultimate when word ends in a vowel"},
+        {type:"mc",q:"Why does 'árvore' (tree) have an accent?",opts:["To mark plural","Because stress is on first syllable, not penultimate","To show it's foreign","Random spelling"],ans:"Because stress is on first syllable, not penultimate",hint:"The accent marks that stress breaks the default penultimate rule"},
+        {type:"tip",title:"BR vs PT Stress",text:"Stress rules are identical in Brazilian and European Portuguese.\nThe difference is how UNSTRESSED vowels are pronounced:\nBR: unstressed e becomes 'i' (de = 'dji').\nPT: unstressed e becomes schwa (de = 'duh').\nSame stress pattern, different vowel quality.",icon:"🌎"},
+      ]},
+    ]},
+  ]},
+
+  // ══════════════════════════════════════════════════════════════════
   // CHINESE (MANDARIN) PINYIN & TONES PLAYTHROUGH
   // 6 stages (Phase 0-5), ~12 lessons
   // Follows SCRIPT_BLUEPRINTS.hanzi: orientation > tones > pinyin_initials > pinyin_finals > basic_strokes > radical_awareness
@@ -4500,6 +4612,56 @@ title:"Kana Gate Quiz",
     E:"Phase 0: Review the three-script system and when each script is used.",
   },
   },
+  // ══════════════════════════════════════════════════════════════
+  // PORTUGUESE GATE QUIZ — Test out of Portuguese Foundations
+  // ══════════════════════════════════════════════════════════════
+  pt:{
+  title:"Portuguese Sounds Gate Quiz",
+  desc:"Already comfortable with Portuguese pronunciation? Pass this quiz to skip Foundations.",
+  passCriteria:{AB:90,C:85,DE:80},
+  tasks:[
+    {id:"gate_a",title:"Task A: Nasal Vowels",desc:"Identify how nasal vowels are marked and pronounced.",type:"mc",category:"AB",items:[
+      {q:"The tilde (~) on ã indicates the vowel is:",opts:["Stressed","Nasal","Long","Accented"],ans:"Nasal"},
+      {q:"In 'pão' (bread), the 'ão' is pronounced:",opts:["Two separate vowels","A nasal 'aw' diphthong","Oral 'ow' like in 'cow'","Silent final n"],ans:"A nasal 'aw' diphthong"},
+      {q:"Final -m in 'sim' (yes) is:",opts:["Pronounced like English m","Silent but nasalizes the vowel","Silent with no effect","Pronounced like n"],ans:"Silent but nasalizes the vowel"},
+      {q:"Which word contains a nasal vowel?",opts:["casa","mesa","manhã","livro"],ans:"manhã"},
+      {q:"How many nasal vowel sounds exist in Portuguese?",opts:["2","3","5","7"],ans:"5"},
+    ]},
+    {id:"gate_b",title:"Task B: Digraphs",desc:"Identify Portuguese digraph sounds.",type:"mc",category:"AB",items:[
+      {q:"The digraph 'lh' in 'filho' (son) is equivalent to:",opts:["English 'ly'","Italian gli / palatal l","English 'sh'","Two letters l and h"],ans:"Italian gli / palatal l"},
+      {q:"The digraph 'nh' is like:",opts:["English 'nh'","English 'ng'","Spanish ñ","Greek π"],ans:"Spanish ñ"},
+      {q:"In Portuguese, 'ch' always sounds like:",opts:["English 'ch' in 'chair'","English 'sh' in 'ship'","English 'k' in 'school'","Silent"],ans:"English 'sh' in 'ship'"},
+      {q:"Which letter is ONLY used in foreign loanwords?",opts:["W","H","Q","J"],ans:"W"},
+    ]},
+    {id:"gate_c",title:"Task C: R Sounds and Accents",desc:"Distinguish R variations and accent marks.",type:"mc",category:"C",items:[
+      {q:"In Brazilian Portuguese, initial r in 'rato' sounds like:",opts:["English r","English h","Spanish rolled r","English w"],ans:"English h"},
+      {q:"In 'para' (for), the r between vowels is:",opts:["Guttural h","Rolled trill","Quick tap (like American 'butter')","Silent"],ans:"Quick tap (like American 'butter')"},
+      {q:"The acute accent (á é í ó ú) indicates:",opts:["Nasal vowel","Stressed syllable with open vowel","Silent letter","Long vowel"],ans:"Stressed syllable with open vowel"},
+      {q:"The circumflex (â ê ô) marks:",opts:["Nasal vowel","Closed vowel with stress","Grammatical gender","Plural marker"],ans:"Closed vowel with stress"},
+      {q:"Which is the difference between á and â?",opts:["No difference","á is open a, â is closed a","á is long, â is short","á is feminine, â is masculine"],ans:"á is open a, â is closed a"},
+    ]},
+    {id:"gate_d",title:"Task D: Stress Rules",desc:"Identify stress patterns in Portuguese words.",type:"mc",category:"DE",items:[
+      {q:"Without an accent, Portuguese stress defaults to:",opts:["First syllable","Second-to-last syllable","Last syllable","Middle syllable"],ans:"Second-to-last syllable"},
+      {q:"Why does 'árvore' have an accent?",opts:["It is plural","Stress breaks the default rule","It is a loanword","All vowels are nasal"],ans:"Stress breaks the default rule"},
+      {q:"Words ending in -r stress:",opts:["Second-to-last syllable","Last syllable","First syllable","Require an accent"],ans:"Last syllable"},
+      {q:"'Amor' (love) is stressed on:",opts:["a-","-mor","Both equally","It has an accent"],ans:"-mor"},
+    ]},
+    {id:"gate_e",title:"Task E: BR vs PT",desc:"Distinguish Brazilian from European Portuguese features.",type:"mc",category:"DE",items:[
+      {q:"Brazilian Portuguese uses which as default 'you'?",opts:["tu","você","senhor","vós"],ans:"você"},
+      {q:"'I am eating' in Brazilian Portuguese uses:",opts:["estou a comer","estou comendo","eu come","comendo estou"],ans:"estou comendo"},
+      {q:"In European Portuguese, 'I am eating' uses:",opts:["estou comendo","estou a comer","eu como","comido"],ans:"estou a comer"},
+      {q:"'Ônibus' (BR) is what in European Portuguese?",opts:["carro","autocarro","táxi","metrô"],ans:"autocarro"},
+    ]},
+  ],
+  diagnosticRouting:{
+    A:"Phase 1: Review nasal vowels and their markers.",
+    B:"Phase 2: Practice lh, nh, ch digraphs and r sounds.",
+    C:"Phase 2-3: Study r variations and accent marks.",
+    D:"Phase 3: Master Portuguese stress rules.",
+    E:"Phase 0: Review BR vs PT variety differences.",
+  },
+  },
+
   // ══════════════════════════════════════════════════════════════
   // CHINESE GATE QUIZ — Test out of Pinyin/Tones Foundations
   // ══════════════════════════════════════════════════════════════
