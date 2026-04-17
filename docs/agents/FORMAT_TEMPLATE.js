@@ -82,3 +82,27 @@
 
 ]}  // end lesson steps
 ]}  // end unit lessons
+
+// ═══ JAPANESE EXAMPLE (PP65 — kanji+furigana notation) ═══
+// ALL Japanese content MUST use this format. Pure hiragana is WRONG.
+// Unit wrapper:
+{n:1, lang:"ja", srcLang:"en", track:"v2", title:"はじめまして", sub:"Greetings & Self-Introduction",
+ icon:"🗾", level:"A1.1", color:"#7B5EE8",
+ lessons:[
+{id:"jav2_u1l1", title:"あいさつ", icon:"👋", xp:15, board:true, steps:[
+
+// TEACH — Japanese with kanji+furigana. trg and example use kanji(reading) notation.
+{type:"teach", trg:"先生(せんせい)", src:"teacher", pos:"noun", gender:null,
+ note:"Used for teachers, doctors, lawyers, and respected professionals.",
+ example:"A: 先生(せんせい)はどこですか？\nB: 先生(せんせい)は教室(きょうしつ)にいます。\nA: 何時(なんじ)に来(き)ますか？\nB: もうすぐ来(き)ると思(おも)います。",
+ exampleSrc:"A: Where is the teacher?\nB: The teacher is in the classroom.\nA: What time will they come?\nB: I think they will come soon.",
+ funFact:"Literally means 'born before' (先 = before, 生 = born/life). Shows deep respect for experience."},
+
+// Key rules:
+// - Nouns: kanji+furigana → 先生(せんせい), 大学(だいがく)
+// - Verb stems: kanji, endings hiragana → 食(た)べる, 行(い)く
+// - Particles: always hiragana → は, が, を, に, で
+// - Grammatical endings: always hiragana → です, ます, ました
+
+]}  // end lesson
+]}  // end unit

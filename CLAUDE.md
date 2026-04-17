@@ -53,15 +53,17 @@ npm run build                 # Production build (validates compilation)
 | `units-spanish-v2.js` | Re-exports from 4 per-level files (active import) |
 | `spanish-v2/unit-01.js` ... `unit-30.js` | **30 per-unit files.** V2 format with trg/src, POS, gender, funFact. |
 | `units-italian-v2.js` | Re-exports from 4 per-level files (active import) |
-| `italian-v2/unit-01.js` ... `unit-26.js` | **26 per-unit files.** V2 format. A1+A2+B1 complete, B2 in progress. |
-| `units-japanese-v2.js` | Re-exports from 3 per-level files (active import) |
-| `japanese-v2/unit-01.js` ... `unit-23.js` | **23 per-unit files.** V2 format. A1+A2+B1 complete. |
+| `italian-v2/unit-01.js` ... `unit-36.js` | **36 per-unit files.** V2 format with trg/src, POS, gender, funFact. |
+| `italian-v2/_batch*_u*_L*.js` | **~252 batch density files.** Imported into unit lessons arrays. Contains ~4,176 teach cards. |
+| `units-japanese-v2.js` | Re-exports from 4 per-level files (active import) |
+| `japanese-v2/unit-01.js` ... `unit-36.js` | **36 per-unit files.** V2 format with kanji+furigana (PP65). |
+| `japanese-v2/_batch*_u*_L*.js` | **~348 batch density files.** Imported into unit lessons arrays. Contains ~4,375 teach cards. **NOTE: batch files still use pure hiragana. Need PP65 conversion.** |
 | `units-other.js` | Arabic skeletons (5 units) |
 | `grammar/korean.js` | 47 grammar entries, TOPIK aligned A1-B2 |
 | `grammar/french.js` | 52 grammar entries, DELF aligned A1-B2 |
 | `grammar/spanish.js` | 53 grammar entries, DELE aligned A1-B2 |
-| `grammar/italian.js` | 12 grammar entries, CILS aligned A1-B2 |
-| `grammar/japanese.js` | 20 grammar entries, JLPT aligned A1-B2 |
+| `grammar/italian.js` | 51 grammar entries, CILS aligned A1-B2 |
+| `grammar/japanese.js` | 54 grammar entries, JLPT aligned A1-B2 |
 
 ### Engine (split into modules)
 | File | Lines | Contents |
@@ -106,17 +108,27 @@ Runs at module load on all steps. Copies `nl`↔`trg` and `en`↔`src` (and `exa
 
 ### Teach Cards (NEW format — all new content)
 ```js
+// German example:
 {type:"teach", trg:"Hallo", src:"Hello", pos:"intj", gender:null,
  note:"The most common informal greeting.",
  example:"A: Hallo! Wie geht's?\nB: Hallo! Gut, danke!",
  exampleSrc:"A: Hello! How's it going?\nB: Hello! Good, thanks!",
  funFact:"Only became common in German in the early 1900s."}
+
+// Japanese example (kanji+furigana notation — MANDATORY for all Japanese content):
+{type:"teach", trg:"先生(せんせい)", src:"teacher", pos:"noun", gender:null,
+ note:"Used for teachers, doctors, lawyers, and respected professionals.",
+ example:"A: 先生(せんせい)はどこですか？\nB: 先生(せんせい)は教室(きょうしつ)にいます。",
+ exampleSrc:"A: Where is the teacher?\nB: The teacher is in the classroom.",
+ funFact:"Literally means 'born before' (先 = before, 生 = born/life)."}
 ```
 - `trg` = target language word. `src` = source language translation.
 - `pos` = POS tag (verb, noun, adj, adv, prep, conj, pron, num, intj, part, aux). REQUIRED on new content.
 - `gender` = grammatical gender (m, f, n, pl, null). REQUIRED for nouns/articles in gendered languages.
 - `exampleSrc` replaces legacy `exampleEn`. Contains source-language translation of the example.
 - `funFact` = etymology, cultural note, or memory hook. REQUIRED on all new teach cards.
+
+**Japanese kanji+furigana notation (PP65):** ALL Japanese content uses kanji with inline furigana in parentheses: `漢字(ふりがな)`. Example: `大学(だいがく)で勉強(べんきょう)する`. Particles (は, が, を, に, で) and grammatical endings (です, ます) stay hiragana. Verb stems get kanji, conjugation stays hiragana: `食(た)べる`. This applies from A1 Unit 1 onward. See PP65 below.
 
 ### Legacy Teach Cards (old format — will be migrated)
 ```js
@@ -156,6 +168,14 @@ Runs at module load on all steps. Copies `nl`↔`trg` and `en`↔`src` (and `exa
 - **PP64**: Teach-then-test completeness. Every teach card must be tested by at least one quiz step in the same lesson or a later lesson in the same unit. Zero-coverage teach cards are violations.
 - **PP46**: B1+ lessons: 2+ constructs per example, 50%+ combo quizzes, 15+ steps minimum.
 - **PP63**: Example Vocabulary Integrity. Every content word in a teach card's `example` must be: (a) the `trg` of THIS card, (b) taught in a PRIOR teach card, or (c) an exempt function word. No untaught words in examples. Strictest at A1, relaxed at B2 for transparent cognates/compounds.
+
+### Japanese Kanji+Furigana Rule (PP65 — MANDATORY)
+ALL Japanese teach card content uses kanji with inline furigana: `漢字(ふりがな)`. This applies to `trg`, `example`, and all target-language text in quiz steps. From A1 Unit 1 onward, no exceptions. Pure hiragana is WRONG for Japanese content.
+- Content words (nouns, verb stems, adjectives): kanji+furigana. `先生(せんせい)`, `食(た)べる`, `大(おお)きい`
+- Particles: always hiragana. `は`, `が`, `を`, `に`, `で`, `と`, `の`, `も`, `か`
+- Grammatical endings: always hiragana. `です`, `ます`, `ました`, `ません`
+- Compound verbs: `勉強(べんきょう)する`, `散歩(さんぽ)する`
+- Rationale: This is how real Japanese works. Newspapers, textbooks, and children's books all use kanji with furigana. Pure hiragana makes word boundaries disappear and is harder to read. Owner-directed decision (D120, 2026-04-17).
 
 ### Metalanguage Rule (PP61 — CRITICAL)
 ALL explanatory text MUST be in the source language (English). Only target-language content (words being taught, example sentences, quiz questions) is in the target language. This applies to:
@@ -199,7 +219,7 @@ Five leak types. ALL must be zero:
 - **P60**: Story layers toggleable. Grammar depth adjustable. Platform is self-contained.
 
 ### Audit Checklist (PP53 — 17 items, ALL must PASS)
-1. CEFR distribution (PP51) | 2. PP8 all 5 leak types | 3. PP52 teach-before-use (full scan) | 4. PP48 step types | 5. PP49 no CEFR labels | 6. PP22c no em-dashes | 7. PP43 density (max 32 steps) | 8. board:true | 9. Sub-level consistency | 10. PP55 vocab completeness | 11. PP57 grammar completeness | 12. PP58 functions | 13. Synonym coverage | 14. PP56 unit count | 15. Exam readiness | 16. PP61 metalanguage in source language | **17. PP64 teach-then-test (every teach card quizzed)**
+1. CEFR distribution (PP51) | 2. PP8 all 5 leak types | 3. PP52 teach-before-use (full scan) | 4. PP48 step types | 5. PP49 no CEFR labels | 6. PP22c no em-dashes | 7. PP43 density (max 32 steps) | 8. board:true | 9. Sub-level consistency | 10. PP55 vocab completeness | 11. PP57 grammar completeness | 12. PP58 functions | 13. Synonym coverage | 14. PP56 unit count | 15. Exam readiness | 16. PP61 metalanguage in source language | **17. PP64 teach-then-test (every teach card quizzed)** | **18. PP65 Japanese kanji+furigana (all cards, all levels)**
 
 ### Engine Rules
 - **PP30**: No React hooks inside renderer blocks. EVER.

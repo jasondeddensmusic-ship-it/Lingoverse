@@ -9,6 +9,7 @@
 
 | D# | Title | Category | Scope |
 |----|-------|----------|-------|
+| D120 | Japanese Kanji+Furigana from A1 Day One (PP65) | Content/Architecture | Japanese |
 | D119 | German Curriculum Rehaul Planning: 36-Unit Plan + Story Bible | Architecture/Planning | German |
 | D118 | Grammar Legend + POS Color Polish: 10 Distinct Colors | Engine/UI | All |
 | D117 | Korean Deep Dictionary System: dictionary.js + Conjugation Engine | Engine/Architecture | Korean |
@@ -828,3 +829,22 @@ export const getCefrInfo=(levelId)=>CEFR_LEVELS.find(l=>l.id===levelId)||CEFR_LE
 - D34a-l and D35a-h use sub-letter notation for session-level fixes
 - D36-D40 in the session block overlap with D36-D40 in the main decision list (same decisions, cross-referenced)
 - Decisions D86+ live in CLAUDE.md only (agent protocol additions that don't require engine code)
+
+---
+
+## D120: Japanese Kanji+Furigana from A1 Day One (PP65)
+**Date:** 2026-04-17 | **Category:** Content/Architecture | **Scope:** Japanese
+
+**Decision:** ALL Japanese content uses kanji with inline furigana notation from A1 Unit 1 onward. Pure hiragana is incorrect for Japanese content. This applies to `trg`, `example`, and all target-language text.
+
+**Format:** `漢字(ふりがな)` inline. Example: `先生(せんせい)は教室(きょうしつ)にいます。`
+
+**What gets kanji:** Content words (nouns, verb stems, adjectives, adverbs with kanji forms).
+**What stays hiragana:** Particles, grammatical endings, conjugation suffixes, こそあど words.
+**Verb pattern:** Kanji stem + hiragana ending: `食(た)べる`, `行(い)く`, `飲(の)む`.
+
+**Rationale:** Owner-directed. Real Japanese text always shows kanji with furigana for assisted reading (children's books, textbooks, NHK Easy News). Pure hiragana removes word boundaries and is harder to read. Learners absorb kanji naturally through exposure from day one. The Foundations module teaches hiragana/katakana so learners can read the furigana.
+
+**Status:** Unit files converted (603 cards). Batch density files (~4,375 cards) still need conversion.
+
+**Pipeline rule:** PP65 in CLAUDE.md. Added to Audit Checklist as item 18.
