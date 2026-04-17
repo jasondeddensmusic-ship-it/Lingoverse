@@ -8,26 +8,26 @@ const LESSON_5 = {
 
     {type:"teach", trg:"ごぞんじ", src:"to know (honorific)", pos:"verb", gender:null,
      note:"Honorific of しる (to know). ごぞんじですか？ = Do you know?\nKanji: ご存知. Used for the other person's knowledge.",
-     example:"A: このレストランをごぞんじですか？\nB: はい、とてもゆうめいなみせです。",
-     exampleSrc:"A: Do you know this restaurant?\nB: Yes, it is a very famous place.",
+     example:"A: このレストランをごぞんじですか？\nB: はい、とてもゆうめいなみせです。\nA: 何(なに)を食(た)べましたか？\nB: 地元(じもと)の名物(めいぶつ)を食(た)べました。",
+     exampleSrc:"A: Do you know this restaurant?\nB: Yes, it is a very famous place.\nA: What did you eat?\nB: I ate the local specialty.",
      funFact:"ご存知 is the honorific for 'to know.' When asking if someone (of higher status) knows something, ごぞんじですか is the correct form. The humble counterpart is ぞんじる: ぞんじません (I do not know, humble). Note: しる has no standard て-form keigo. ごぞんじ is a standalone honorific form."},
 
     {type:"teach", trg:"ぞんじる", src:"to know (humble)", pos:"verb", gender:null,
      note:"Humble of しる (to know). ぞんじません = I do not know (humble).\nぞんじあげる = I know (of someone respected).",
-     example:"A: さいとうさまをごぞんじですか？\nB: はい、ぞんじあげております。",
-     exampleSrc:"A: Do you know Mr. Saitou?\nB: Yes, I know of him. (humble)",
+     example:"A: さいとうさまをごぞんじですか？\nB: はい、ぞんじあげております。\nA: 楽(たの)しみですね。\nB: はい、今(いま)からわくわくしています。",
+     exampleSrc:"A: Do you know Mr. Saitou?\nB: Yes, I know of him. (humble)\nA: That is exciting.\nB: Yes, I am already excited.",
      funFact:"ぞんじる is rarely used in the affirmative on its own. Instead, ぞんじあげる (know + raise, extra humble) is used: ぞんじあげております (I know of them, with great respect). The negative ぞんじません is more common and means 'I do not know' in humble speech. This asymmetry is unusual in keigo."},
 
     {type:"teach", trg:"おっしゃる", src:"to say (honorific, review)", pos:"verb", gender:null,
      note:"Honorific of いう. Pair: おっしゃる (hon.) / もうす (hum.).\nReviewing this essential pair for the comparison exercise.",
-     example:"A: しゃちょうがなんとおっしゃいましたか？\nB: らいしゅうまでにけんとうするとおっしゃいました。",
-     exampleSrc:"A: What did the president say?\nB: He said he would consider it by next week.",
+     example:"A: しゃちょうがなんとおっしゃいましたか？\nB: らいしゅうまでにけんとうするとおっしゃいました。\nA: いい思(おも)い出(で)ですね。\nB: はい、一生(いっしょう)忘(わす)れません。",
+     exampleSrc:"A: What did the president say?\nB: He said he would consider it by next week.\nA: That is a nice memory.\nB: Yes, I will never forget it.",
      funFact:"おっしゃる and もうす are the 'say' pair. This pair comes up constantly because reporting what others said (honorific) and what you said (humble) is a fundamental conversation skill. Mixing them up (using もうす for a superior's speech) is a serious keigo error."},
 
     {type:"teach", trg:"うかがう", src:"to visit / to ask / to hear (humble)", pos:"verb", gender:null,
      note:"Humble replacement for いく (visit), きく (ask/hear), and たずねる (visit).\nKanji: 伺う. Triple-function humble verb.",
-     example:"A: あしたおうかがいしてもよろしいでしょうか？\nB: はい、おまちしております。",
-     exampleSrc:"A: May I visit you tomorrow?\nB: Yes, I will be waiting.",
+     example:"A: あしたおうかがいしてもよろしいでしょうか？\nB: はい、おまちしております。\nA: どうでしたか？\nB: とても良(よ)かったです。",
+     exampleSrc:"A: May I visit you tomorrow?\nB: Yes, I will be waiting.\nA: How was it?\nB: It was very good.",
      funFact:"伺う is the humble mirror of いらっしゃる, but while いらっしゃる covers 3 verbs (be/go/come), うかがう covers different ones (visit/ask/listen). When visiting a client: おうかがいします (I will humbly visit). When asking a question: おうかがいしてもよろしいですか (may I humbly ask?)."},
 
     {type:"mc", q:"ごぞんじですか is used to ask:", opts:["Do I know?","Do you know? (honorific)","Does he know? (humble)","Did anyone know?"], ans:"Do you know? (honorific)",
@@ -35,14 +35,14 @@ const LESSON_5 = {
 
     {type:"teach", trg:"さしあげる", src:"to give (humble, to someone higher)", pos:"verb", gender:null,
      note:"Humble replacement for あげる (to give).\nPair: くださる (hon., give to me) / さしあげる (hum., give to them).",
-     example:"A: プレゼントをさしあげたいのですが。\nB: きっとよろこばれますよ。",
-     exampleSrc:"A: I would like to give a present.\nB: I am sure they will be pleased.",
+     example:"A: プレゼントをさしあげたいのですが。\nB: きっとよろこばれますよ。\nA: いつですか？\nB: 去年(きょねん)の夏(なつ)でした。",
+     exampleSrc:"A: I would like to give a present.\nB: I am sure they will be pleased.\nA: When was it?\nB: It was last summer.",
      funFact:"さしあげる is the humble giving verb. In standard speech: あげる (I give). In keigo: さしあげる (I humbly give upward). The kanji 差し上げる means 'to hold out and raise up,' as if physically elevating the gift to the recipient. This verb pair (くださる/さしあげる) is the keigo of gift-giving."},
 
     {type:"teach", trg:"めしあがる", src:"to eat/drink (honorific, review)", pos:"verb", gender:null,
      note:"Honorific of たべる/のむ. Pair: めしあがる (hon.) / いただく (hum.).\nReviewing for pair comparison.",
-     example:"A: どうぞめしあがってください。\nB: では、いただきます。",
-     exampleSrc:"A: Please help yourself. (honorific for their eating)\nB: I will partake. (humble for my eating)",
+     example:"A: どうぞめしあがってください。\nB: では、いただきます。\nA: それはいいですね。\nB: はい、とても楽(たの)しかったです。",
+     exampleSrc:"A: Please help yourself. (honorific for their eating)\nB: I will partake. (humble for my eating)\nA: That is nice.\nB: Yes, it was very fun.",
      funFact:"This exchange is the perfect keigo pair in action. The host says めしあがってください (please eat, honorific for the guest), and the guest responds いただきます (I will humbly receive/eat). Both speakers correctly apply keigo to the right person: honorific for the other, humble for themselves."},
 
     {type:"fb", s:"あしたお{1}してもよろしいでしょうか？\n(May I visit you tomorrow? - humble)", a:"うかがい", opts:["うかがい","いき","まいり","たずね"], sSrc:"May I visit you tomorrow?",
@@ -50,14 +50,14 @@ const LESSON_5 = {
 
     {type:"teach", trg:"おめにかかる", src:"to meet (humble)", pos:"verb", gender:null,
      note:"Humble replacement for あう (to meet). Literally: to be placed before your eyes.\nKanji: お目にかかる.",
-     example:"A: おめにかかれてうれしいです。\nB: こちらこそ。",
-     exampleSrc:"A: I am glad to meet you. (humble)\nB: Likewise.",
+     example:"A: おめにかかれてうれしいです。\nB: こちらこそ。\nA: そうですか。よかったですね。\nB: はい、いい経験(けいけん)でした。",
+     exampleSrc:"A: I am glad to meet you. (humble)\nB: Likewise.\nA: Is that so? That is good.\nB: Yes, it was a good experience.",
      funFact:"お目にかかる literally means 'to hang before your eye,' as if the humble speaker is merely placed in the honored person's line of sight. This beautiful metaphor reflects how kenjougo works: rather than 'I meet you,' it is 'I am placed before you.' The expression おめにかかれてうれしいです is the formal version of あえてうれしいです."},
 
     {type:"teach", trg:"ぞんじません", src:"I do not know (humble)", pos:"verb", gender:null,
      note:"Humble negative of しる (to know). ぞんじる + ません.\nMore polite than しりません.",
-     example:"A: このかたをごぞんじですか？\nB: もうしわけございません。ぞんじません。",
-     exampleSrc:"A: Do you know this person?\nB: I am sorry. I do not know them.",
+     example:"A: このかたをごぞんじですか？\nB: もうしわけございません。ぞんじません。\nA: また行(い)きたいですか？\nB: はい、ぜひ行(い)きたいです。",
+     exampleSrc:"A: Do you know this person?\nB: I am sorry. I do not know them.\nA: Do you want to go again?\nB: Yes, I definitely want to go.",
      funFact:"ぞんじません is the humble 'I do not know,' contrasting with しりません (neutral). Adding もうしわけございません (deepest apology) before admitting ignorance is standard business etiquette. Not knowing something a superior expects you to know requires the cushion of a humble apology."},
 
     {type:"mc", q:"The correct pair for eating is:", opts:["めしあがる (hon.) / いただく (hum.)","たべられる (hon.) / たべます (hum.)","おたべになる (hon.) / もうす (hum.)","くださる (hon.) / さしあげる (hum.)"], ans:"めしあがる (hon.) / いただく (hum.)",

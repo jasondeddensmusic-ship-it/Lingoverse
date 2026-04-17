@@ -8,26 +8,26 @@ const LESSON_3 = {
 
     {type:"teach", trg:"よませる", src:"to make/let someone read", pos:"verb", gender:null,
      note:"Causative of よむ (to read). Group 1: よむ to よま + せる.\nKanji: 読ませる.",
-     example:"A: こどもにまいにちほんをよませています。\nB: いいしゅうかんですね。",
-     exampleSrc:"A: I make my children read books every day.\nB: That is a good habit.",
+     example:"A: こどもにまいにちほんをよませています。\nB: いいしゅうかんですね。\nA: 難(むずか)しかったですか？\nB: 最初(さいしょ)は難(むずか)しかったですが、慣(な)れました。",
+     exampleSrc:"A: I make my children read books every day.\nB: That is a good habit.\nA: Was it difficult?\nB: It was difficult at first, but I got used to it.",
      funFact:"読ませる is a staple of Japanese parenting vocabulary. Encouraging reading (dokusho) is deeply valued in Japanese education. Summer reading assignments (natsu no dokusho) are standard in Japanese schools. The causative here implies positive guidance rather than punishment."},
 
     {type:"teach", trg:"かたづけさせる", src:"to make someone clean up/tidy", pos:"verb", gender:null,
      note:"Causative of かたづける (to tidy up). Group 2: かたづけ + させる.\nKanji: 片付けさせる.",
-     example:"A: こどもにへやをかたづけさせました。\nB: ちゃんとやりましたか？",
-     exampleSrc:"A: I made the children tidy their room.\nB: Did they do it properly?",
+     example:"A: こどもにへやをかたづけさせました。\nB: ちゃんとやりましたか？\nA: おすすめですか？\nB: はい、ぜひ試(ため)してみてください。",
+     exampleSrc:"A: I made the children tidy their room.\nB: Did they do it properly?\nA: Do you recommend it?\nB: Yes, please try it.",
      funFact:"片付ける combines 片 (one side/piece) and 付ける (attach/put), meaning to put things in order. Making children tidy up (katazukesaseru) is a universal parenting causative. Japanese schools have students clean classrooms themselves (souji no jikan), building responsibility from childhood."},
 
     {type:"teach", trg:"のませる", src:"to make/let someone drink / to give medicine", pos:"verb", gender:null,
      note:"Causative of のむ (to drink). Group 1: のむ to のま + せる.\nKanji: 飲ませる. Also used for giving medicine.",
-     example:"A: あかちゃんにくすりをのませるのはたいへんです。\nB: がんばってくださいね。",
-     exampleSrc:"A: Making a baby take medicine is tough.\nB: Keep trying your best.",
+     example:"A: あかちゃんにくすりをのませるのはたいへんです。\nB: がんばってくださいね。\nA: 一緒(いっしょ)に行(い)きませんか？\nB: いいですね。行(い)きましょう。",
+     exampleSrc:"A: Making a baby take medicine is tough.\nB: Keep trying your best.\nA: Shall we go together?\nB: That sounds good. Let's go.",
      funFact:"飲ませる covers both letting someone drink and making someone take medicine. Japanese pharmacies (薬局, yakkyoku) are found on nearly every block. Over-the-counter medicine culture is strong. Parents giving children medicine (kusuri wo nomaseru) is a common daily struggle."},
 
     {type:"teach", trg:"おきさせる", src:"to make someone wake up", pos:"verb", gender:null,
      note:"Causative of おきる (to wake up). Group 2: おき + させる.\nKanji: 起きさせる.",
-     example:"A: まいあさこどもをおきさせるのがたいへんです。\nB: わかります。うちもおなじです。",
-     exampleSrc:"A: Waking the children up every morning is tough.\nB: I understand. It is the same at our house.",
+     example:"A: まいあさこどもをおきさせるのがたいへんです。\nB: わかります。うちもおなじです。\nA: どこがおすすめですか？\nB: 京都(きょうと)がおすすめです。",
+     exampleSrc:"A: Waking the children up every morning is tough.\nB: I understand. It is the same at our house.\nA: Where do you recommend?\nB: I recommend Kyoto.",
      funFact:"起きさせる is the daily struggle of every parent. Japanese school starts early (often 8:00-8:30), requiring children to wake up around 6:30. The phrase maiasa okisaseru no ga taihen (waking them every morning is hard) is a bonding topic among parents. Alarm clocks in Japan range from gentle to absurdly loud."},
 
     {type:"mc", q:"こどもにほんをよませている means:", opts:["The child is reading to me","I am making the children read books","I read books for the children","The children want to read"], ans:"I am making the children read books",
@@ -35,14 +35,14 @@ const LESSON_3 = {
 
     {type:"teach", trg:"ねさせる", src:"to put someone to sleep / to let sleep", pos:"verb", gender:null,
      note:"Causative of ねる (to sleep). Group 2: ね + させる.\nKanji: 寝させる.",
-     example:"A: あかちゃんを9じまでにねさせたいです。\nB: おふろのあとがいいですよ。",
-     exampleSrc:"A: I want to put the baby to sleep by 9 o'clock.\nB: After the bath is a good time.",
+     example:"A: あかちゃんを9じまでにねさせたいです。\nB: おふろのあとがいいですよ。\nA: 何(なに)が一番(いちばん)良(よ)かったですか？\nB: 食(た)べ物(もの)が一番(いちばん)おいしかったです。",
+     exampleSrc:"A: I want to put the baby to sleep by 9 o'clock.\nB: After the bath is a good time.\nA: What was the best part?\nB: The food was the most delicious.",
      funFact:"寝させる is central to Japanese baby care. Japanese parents often co-sleep (川の字, kawa no ji, meaning the family sleeps in a row like the kanji 川). Bedtime routines (ねかしつけ, nekashitsuke) are a major parenting topic. Japan has an entire genre of children's bedtime stories (おやすみえほん)."},
 
     {type:"teach", trg:"もたせる", src:"to make someone carry / to let someone have", pos:"verb", gender:null,
      note:"Causative of もつ (to hold/carry). Group 1: もつ to もた + せる.\nKanji: 持たせる.",
-     example:"A: こどもにおべんとうをもたせました。\nB: てづくりですか？",
-     exampleSrc:"A: I had the child carry a lunch box.\nB: Is it homemade?",
+     example:"A: こどもにおべんとうをもたせました。\nB: てづくりですか？\nA: よく行(い)きますか？\nB: 月(つき)に一回(いっかい)ぐらい行(い)きます。",
+     exampleSrc:"A: I had the child carry a lunch box.\nB: Is it homemade?\nA: Do you go often?\nB: I go about once a month.",
      funFact:"持たせる often describes parents preparing things for children to bring. Making a child carry a bento (obentou wo motaseru) is a daily morning ritual. Japanese bento culture is elaborate, with parents creating character-themed lunches (キャラ弁, kyaraben). Forgetting to make the bento is a parent's nightmare."},
 
     {type:"fb", s:"あかちゃんにくすりを{1}のはたいへんです。\n(Making a baby take medicine is tough.)", a:"のませる", opts:["のませる","のんで","のみ","のまれる"], sSrc:"Making a baby take medicine is tough.",
@@ -50,14 +50,14 @@ const LESSON_3 = {
 
     {type:"teach", trg:"しゅうかん", src:"habit / custom", pos:"noun", gender:null,
      note:"Kanji: 習慣. 習 (learn/practice) + 慣 (accustom).\nいいしゅうかん = a good habit.",
-     example:"A: あさはやくおきるしゅうかんをつけたいです。\nB: すこしずつやりましょう。",
-     exampleSrc:"A: I want to develop the habit of waking up early.\nB: Let us do it little by little.",
+     example:"A: あさはやくおきるしゅうかんをつけたいです。\nB: すこしずつやりましょう。\nA: 誰(だれ)と行(い)きましたか？\nB: 友達(ともだち)と一緒(いっしょ)に行(い)きました。",
+     exampleSrc:"A: I want to develop the habit of waking up early.\nB: Let us do it little by little.\nA: Who did you go with?\nB: I went with a friend.",
      funFact:"習慣 covers both personal habits and cultural customs. Japanese life is full of daily habits (seikatsu shuukan): morning radio exercises (rajio taisou), tea time, evening baths. The phrase shuukan wo tsukeru (develop a habit) uses つける (to attach), as if physically sticking the habit to yourself."},
 
     {type:"teach", trg:"てづくり", src:"handmade / homemade", pos:"noun", gender:null,
      note:"て (hand) + づくり (making). Valued highly in Japanese culture.\nてづくりのおかし = homemade sweets.",
-     example:"A: これ、てづくりですか？\nB: はい、きのうつくりました。",
-     exampleSrc:"A: Is this handmade?\nB: Yes, I made it yesterday.",
+     example:"A: これ、てづくりですか？\nB: はい、きのうつくりました。\nA: それは大変(たいへん)でしたね。\nB: はい、でもいい勉強(べんきょう)になりました。",
+     exampleSrc:"A: Is this handmade?\nB: Yes, I made it yesterday.\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
      funFact:"手作り (tezukuri) carries strong positive connotations in Japan. Homemade gifts, chocolates (especially for Valentine's Day), and food are valued more than store-bought versions. A tezukuri bento shows love and effort. The word implies warmth, care, and personal investment."},
 
     {type:"mc", q:"こどもにへやをかたづけさせた means:", opts:["I tidied the child's room","The child tidied up by themselves","I made the child tidy their room","The room was already tidy"], ans:"I made the child tidy their room",

@@ -8,20 +8,20 @@ const LESSON_3 = {id:"jav2_u16l3", title:"やくそくとさそい", icon:"📅"
 
   {type:"teach", trg:"やくそく", src:"promise / appointment", pos:"noun", gender:null,
    note:"やくそくする = to make a promise/appointment.\nやくそくをまもる = to keep a promise. Kanji: 約束.",
-   example:"A: にちようびにやくそくがあります。\nB: なんのやくそくですか？\nA: ともだちとひるごはんをたべるやくそくです。",
-   exampleSrc:"A: I have an appointment on Sunday.\nB: What kind of appointment?\nA: A promise to eat lunch with a friend.",
+   example:"A: にちようびにやくそくがあります。\nB: なんのやくそくですか？\nA: ともだちとひるごはんをたべるやくそくです。\nB: たのしそうですね。",
+   exampleSrc:"A: I have an appointment on Sunday.\nB: What kind of appointment?\nA: A promise to eat lunch with a friend.\nB: That sounds fun.",
    funFact:"約束 combines 約 (promise/bind) and 束 (bundle/bind). In Japanese culture, keeping promises (やくそくをまもる) is considered fundamental. Children are taught from kindergarten: やくそくだよ！ (It is a promise!) accompanied by linking pinky fingers (ゆびきり)."},
 
   {type:"teach", trg:"〜ませんか", src:"would you like to ~ ? (invitation)", pos:"part", gender:null,
    note:"Polite negative question form used as an invitation.\nたべませんか = Would you like to eat?",
-   example:"A: いっしょにえいがをみませんか？\nB: いいですね。いきましょう！",
-   exampleSrc:"A: Would you like to watch a movie together?\nB: That sounds good. Let us go!",
+   example:"A: いっしょにえいがをみませんか？\nB: いいですね。いきましょう！\nA: 何(なに)が一番(いちばん)良(よ)かったですか？\nB: 食(た)べ物(もの)が一番(いちばん)おいしかったです。",
+   exampleSrc:"A: Would you like to watch a movie together?\nB: That sounds good. Let us go!\nA: What was the best part?\nB: The food was the most delicious.",
    funFact:"ませんか is a negative question ('will you not...?') that functions as a polite invitation. The logic: asking 'will you not join?' is more considerate than 'will you join?' because it gives the listener more room to decline. This indirect approach is characteristic of Japanese politeness."},
 
   {type:"teach", trg:"〜ましょう", src:"let us ~ / shall we ~", pos:"part", gender:null,
    note:"The volitional form in polite speech. Suggests doing something together.\nいきましょう = Let us go.",
-   example:"A: あしたのプランをたてましょう。\nB: いいですね。なにをしますか？",
-   exampleSrc:"A: Let us make plans for tomorrow.\nB: Good idea. What shall we do?",
+   example:"A: あしたのプランをたてましょう。\nB: いいですね。なにをしますか？\nA: よく行(い)きますか？\nB: 月(つき)に一回(いっかい)ぐらい行(い)きます。",
+   exampleSrc:"A: Let us make plans for tomorrow.\nB: Good idea. What shall we do?\nA: Do you go often?\nB: I go about once a month.",
    funFact:"ましょう is the polite volitional, expressing 'let us do' or 'I will do.' It is enthusiastic and proactive. The casual equivalent is よう/おう: いこう (let us go), たべよう (let us eat). ましょうか (shall I/shall we?) adds a question, useful for offering help."},
 
   {type:"mc", q:"いっしょにえいがをみませんか means:", opts:["I do not want to see a movie","Do you not like movies?","Would you like to watch a movie together?","I saw a movie alone"], ans:"Would you like to watch a movie together?",
@@ -29,20 +29,20 @@ const LESSON_3 = {id:"jav2_u16l3", title:"やくそくとさそい", icon:"📅"
 
   {type:"teach", trg:"あく", src:"to be free / to be available (time)", pos:"verb", gender:null,
    note:"Group 1 verb. あいていますか？ = Are you free?\nKanji: 空く. Used for scheduling.",
-   example:"A: どようびはあいていますか？\nB: ごぜんちゅうはあいています。",
-   exampleSrc:"A: Are you free on Saturday?\nB: I am free in the morning.",
+   example:"A: どようびはあいていますか？\nB: ごぜんちゅうはあいています。\nA: 誰(だれ)と行(い)きましたか？\nB: 友達(ともだち)と一緒(いっしょ)に行(い)きました。",
+   exampleSrc:"A: Are you free on Saturday?\nB: I am free in the morning.\nA: Who did you go with?\nB: I went with a friend.",
    funFact:"空く uses the kanji 空 (empty/sky). When your schedule is 'empty,' you are available. あいていますか is the standard way to check someone's availability. It also works for seats (このせきはあいていますか = Is this seat free?) and parking spots."},
 
   {type:"teach", trg:"つごう", src:"convenience / availability", pos:"noun", gender:null,
    note:"つごうがいい = convenient/available. つごうがわるい = inconvenient.\nKanji: 都合.",
-   example:"A: きんようびはつごうがいいですか？\nB: すみません、きんようびはつごうがわるいです。",
-   exampleSrc:"A: Is Friday convenient for you?\nB: Sorry, Friday is not convenient.",
+   example:"A: きんようびはつごうがいいですか？\nB: すみません、きんようびはつごうがわるいです。\nA: それは大変(たいへん)でしたね。\nB: はい、でもいい勉強(べんきょう)になりました。",
+   exampleSrc:"A: Is Friday convenient for you?\nB: Sorry, Friday is not convenient.\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
    funFact:"都合 is the polite way to discuss scheduling. つごうがわるい (inconvenient) is a diplomatic way to decline without giving a specific reason. In Japanese business culture, つごう is the standard framing for availability discussions. It sounds more professional than あいていますか."},
 
   {type:"teach", trg:"ぜひ", src:"by all means / definitely (enthusiastic yes)", pos:"adv", gender:null,
    note:"Used to enthusiastically accept an invitation or recommend something.\nStronger than はい alone.",
-   example:"A: にちようびにバーベキューをしませんか？\nB: ぜひ！たのしみにしています。",
-   exampleSrc:"A: Would you like to have a barbecue on Sunday?\nB: Absolutely! I am looking forward to it.",
+   example:"A: にちようびにバーベキューをしませんか？\nB: ぜひ！たのしみにしています。\nA: 本当(ほんとう)ですか？すごいですね。\nB: ありがとうございます。頑張(がんば)りました。",
+   exampleSrc:"A: Would you like to have a barbecue on Sunday?\nB: Absolutely! I am looking forward to it.\nA: Really? That is amazing.\nB: Thank you. I worked hard.",
    funFact:"ぜひ is the enthusiastic 'yes' to invitations. It conveys genuine excitement and eagerness. The full phrase ぜひおねがいします (by all means, please) is used in both social and business contexts. When recommending something, ぜひ + command: ぜひたべてみてください (you absolutely must try eating this)."},
 
   {type:"fb", s:"どようびは{1}がいいですか？\n(Is Saturday convenient for you?)", a:"つごう", opts:["つごう","よてい","やくそく","じかん"], sSrc:"Is Saturday convenient for you?",
@@ -50,14 +50,14 @@ const LESSON_3 = {id:"jav2_u16l3", title:"やくそくとさそい", icon:"📅"
 
   {type:"teach", trg:"ざんねんですが", src:"unfortunately / I am sorry but", pos:"part", gender:null,
    note:"ざんねん (regrettable) + ですが (but). Polite way to decline.\nKanji: 残念ですが.",
-   example:"A: どようびにカラオケにいきませんか？\nB: ざんねんですが、どようびはよていがあります。",
-   exampleSrc:"A: Would you like to go to karaoke on Saturday?\nB: Unfortunately, I have plans on Saturday.",
+   example:"A: どようびにカラオケにいきませんか？\nB: ざんねんですが、どようびはよていがあります。\nA: 私(わたし)も興味(きょうみ)があります。\nB: じゃあ、今度(こんど)一緒(いっしょ)にどうですか？",
+   exampleSrc:"A: Would you like to go to karaoke on Saturday?\nB: Unfortunately, I have plans on Saturday.\nA: I am also interested.\nB: Then, how about doing it together next time?",
    funFact:"ざんねんですが is the gold standard for polite declining. It expresses genuine regret before giving the reason. The pattern ざんねんですが + reason + counter-offer is ideal: ざんねんですが、どようびはだめです。にちようびはどうですか？ (Unfortunately Saturday does not work. How about Sunday?)"},
 
   {type:"teach", trg:"またこんど", src:"next time / some other time", pos:"adv", gender:null,
    note:"また (again) + こんど (this time/next time). A friendly rain check.\nSoftens a decline.",
-   example:"A: あしたひまですか？\nB: ごめん、あしたはむりです。またこんどね。",
-   exampleSrc:"A: Are you free tomorrow?\nB: Sorry, tomorrow is not possible. Next time, okay?",
+   example:"A: あしたひまですか？\nB: ごめん、あしたはむりです。またこんどね。\nA: どんな感(かん)じでしたか？\nB: 想像(そうぞう)していたよりずっと良(よ)かったです。",
+   exampleSrc:"A: Are you free tomorrow?\nB: Sorry, tomorrow is not possible. Next time, okay?\nA: What was it like?\nB: It was much better than I imagined.",
    funFact:"またこんど is the friendly 'let us do it another time.' It signals that the decline is about timing, not about the person or activity. In casual speech, またね (see you again) and またこんどね (next time, okay?) maintain warmth. In business, またのきかいに (on another occasion) is the formal version."},
 
   {type:"mc", q:"ぜひ when responding to an invitation means:", opts:["Maybe later","No thank you","Absolutely / I would love to","I am not sure"], ans:"Absolutely / I would love to",
@@ -65,14 +65,14 @@ const LESSON_3 = {id:"jav2_u16l3", title:"やくそくとさそい", icon:"📅"
 
   {type:"teach", trg:"たのしみにしている", src:"looking forward to", pos:"verb", gender:null,
    note:"たのしみ (enjoyment) + にしている (in the state of).\nA warm expression of anticipation.",
-   example:"A: らいしゅうのパーティーをたのしみにしています。\nB: わたしも！",
-   exampleSrc:"A: I am looking forward to next week's party.\nB: Me too!",
+   example:"A: らいしゅうのパーティーをたのしみにしています。\nB: わたしも！\nA: 何(なに)を食(た)べましたか？\nB: 地元(じもと)の名物(めいぶつ)を食(た)べました。",
+   exampleSrc:"A: I am looking forward to next week's party.\nB: Me too!\nA: What did you eat?\nB: I ate the local specialty.",
    funFact:"たのしみにしています is one of the most heartwarming phrases in Japanese. It shows genuine anticipation and makes the other person feel their event is valued. In business emails, it is a standard closing phrase. The casual version, たのしみ！ (looking forward to it!), is used among friends."},
 
   {type:"teach", trg:"ひま", src:"free time / not busy", pos:"adj", gender:null,
    note:"な-adjective. ひまですか？ = Are you free? (casual way to ask).\nKanji: 暇.",
-   example:"A: こんしゅうのどようびはひまですか？\nB: はい、ひまです。なにかありますか？",
-   exampleSrc:"A: Are you free this Saturday?\nB: Yes, I am free. Is something happening?",
+   example:"A: こんしゅうのどようびはひまですか？\nB: はい、ひまです。なにかありますか？\nA: 楽(たの)しみですね。\nB: はい、今(いま)からわくわくしています。",
+   exampleSrc:"A: Are you free this Saturday?\nB: Yes, I am free. Is something happening?\nA: That is exciting.\nB: Yes, I am already excited.",
    funFact:"暇 can be positive (free time available) or slightly negative (bored/idle). ひまですか is casual but widely used among friends. In business, あいていますか or つごうはいかがですか are more appropriate. Saying ひまです about yourself is fine; saying it about someone else's job can be rude."},
 
   {type:"fb", s:"{1}ですが、どようびはよていがあります。\n(Unfortunately, I have plans on Saturday.)", a:"ざんねん", opts:["ざんねん","たのしみ","だいじょうぶ","すみません"], sSrc:"Unfortunately, I have plans on Saturday.",

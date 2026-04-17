@@ -8,26 +8,26 @@ const LESSON_4 = {
 
     {type:"teach", trg:"いけば", src:"if (you) go", pos:"verb", gender:null,
      note:"ば-form of いく (to go). Group 1: いく to いけ + ば.\nUsed for logical conditions about going somewhere.",
-     example:"A: とうきょうにいけばスカイツリーがみえますよ。\nB: いってみたいです。",
-     exampleSrc:"A: If you go to Tokyo, you can see the Skytree.\nB: I would like to try going.",
+     example:"A: とうきょうにいけばスカイツリーがみえますよ。\nB: いってみたいです。\nA: どうでしたか？\nB: とても良(よ)かったです。",
+     exampleSrc:"A: If you go to Tokyo, you can see the Skytree.\nB: I would like to try going.\nA: How was it?\nB: It was very good.",
      funFact:"いけば is the ば-form of the essential verb いく. The ば conditional with いく creates clean advice: いけばわかる (if you go, you will understand). This pattern appears in the famous phrase 行けば分かるさ (if you go, you will see), a line from a popular song by Antonio Inoki."},
 
     {type:"teach", trg:"よめば", src:"if (you) read", pos:"verb", gender:null,
      note:"ば-form of よむ (to read). Group 1: よむ to よめ + ば.\nよめばわかる = if you read it, you will understand.",
-     example:"A: このほんをよめばにほんのぶんかがわかりますよ。\nB: かりてもいいですか？",
-     exampleSrc:"A: If you read this book, you will understand Japanese culture.\nB: May I borrow it?",
+     example:"A: このほんをよめばにほんのぶんかがわかりますよ。\nB: かりてもいいですか？\nA: いつですか？\nB: 去年(きょねん)の夏(なつ)でした。",
+     exampleSrc:"A: If you read this book, you will understand Japanese culture.\nB: May I borrow it?\nA: When was it?\nB: It was last summer.",
      funFact:"よめばわかる (if you read, you will understand) is a common phrase used by teachers, authors, and reviewers. The ば conditional implies a logical certainty: reading naturally leads to understanding. This clean cause-effect relationship is where ば excels over the other conditionals."},
 
     {type:"teach", trg:"たかければ", src:"if it is expensive", pos:"adj", gender:null,
      note:"ば-form of たかい (expensive/high). い-adjective: い to ければ.\nOpposite: やすければ (if cheap).",
-     example:"A: たかければかいません。\nB: セールをまちましょう。",
-     exampleSrc:"A: If it is expensive, I will not buy it.\nB: Let us wait for a sale.",
+     example:"A: たかければかいません。\nB: セールをまちましょう。\nA: それはいいですね。\nB: はい、とても楽(たの)しかったです。",
+     exampleSrc:"A: If it is expensive, I will not buy it.\nB: Let us wait for a sale.\nA: That is nice.\nB: Yes, it was very fun.",
      funFact:"Adjective ば-conditionals sound particularly natural in Japanese. たかければかわない (if expensive, will not buy), おいしければたべる (if delicious, will eat), とおければいかない (if far, will not go). These clean adjective conditions are where ば truly outshines たら in everyday speech."},
 
     {type:"teach", trg:"〜ばいい", src:"should ~ / it would be good to ~", pos:"part", gender:null,
      note:"ば + いい = advice pattern. どうすればいい？ = What should I do?\nなにをたべればいい？ = What should I eat?",
-     example:"A: にほんごがじょうずになりたいです。どうすればいいですか？\nB: まいにちれんしゅうすればいいですよ。",
-     exampleSrc:"A: I want to become good at Japanese. What should I do?\nB: You should practice every day.",
+     example:"A: にほんごがじょうずになりたいです。どうすればいいですか？\nB: まいにちれんしゅうすればいいですよ。\nA: そうですか。よかったですね。\nB: はい、いい経験(けいけん)でした。",
+     exampleSrc:"A: I want to become good at Japanese. What should I do?\nB: You should practice every day.\nA: Is that so? That is good.\nB: Yes, it was a good experience.",
      funFact:"ばいい is the essential advice pattern. どうすればいい (what should I do?) is one of the most frequently asked questions in Japanese. It literally means 'if I do how, would it be good?' The answer follows the same pattern: れんしゅうすればいい (if you practice, it will be good = you should practice)."},
 
     {type:"mc", q:"どうすればいいですか means:", opts:["What did you do?","What should I do?","How are you?","What happened?"], ans:"What should I do?",
@@ -35,14 +35,14 @@ const LESSON_4 = {
 
     {type:"teach", trg:"いそがばまわれ", src:"more haste, less speed (proverb)", pos:"noun", gender:null,
      note:"いそぐ (to hurry) ば + まわる (to go around) imperative.\nLiteral: if you hurry, take the detour.",
-     example:"A: しけんまであと1にちしかない！\nB: いそがばまわれ。おちついてべんきょうしましょう。",
-     exampleSrc:"A: There is only one day until the exam!\nB: Haste makes waste. Let us study calmly.",
+     example:"A: しけんまであと1にちしかない！\nB: いそがばまわれ。おちついてべんきょうしましょう。\nA: また行(い)きたいですか？\nB: はい、ぜひ行(い)きたいです。",
+     exampleSrc:"A: There is only one day until the exam!\nB: Haste makes waste. Let us study calmly.\nA: Do you want to go again?\nB: Yes, I definitely want to go.",
      funFact:"急がば回れ is one of Japan's most famous proverbs. It originated from Lake Biwa travel: rushing across the lake by boat was dangerous, so the safer detour on land was wiser despite being longer. ば appears in many Japanese proverbs because it conveys timeless logical truths perfectly."},
 
     {type:"teach", trg:"おいしければ", src:"if it is delicious", pos:"adj", gender:null,
      note:"ば-form of おいしい (delicious). い-adjective: い to ければ.\nNatural in food discussions.",
-     example:"A: おいしければまたいきたいです。\nB: きっとおいしいですよ。",
-     exampleSrc:"A: If it is delicious, I want to go again.\nB: I am sure it will be delicious.",
+     example:"A: おいしければまたいきたいです。\nB: きっとおいしいですよ。\nA: どのくらいかかりましたか？\nB: だいたい二時間(にじかん)ぐらいです。",
+     exampleSrc:"A: If it is delicious, I want to go again.\nB: I am sure it will be delicious.\nA: How long did it take?\nB: About two hours.",
      funFact:"おいしければ shows how ば works beautifully with sensory adjectives. Japanese food culture revolves around taste judgments: おいしければまたくる (if tasty, I will come back) is the highest praise for a restaurant. Online reviews often use this ば pattern to describe conditional recommendations."},
 
     {type:"fb", s:"にほんごがじょうずになりたいです。どう{1}いいですか？\n(I want to improve my Japanese. What should I do?)", a:"すれば", opts:["すれば","したら","すると","するなら"], sSrc:"What should I do?",
@@ -50,14 +50,14 @@ const LESSON_4 = {
 
     {type:"teach", trg:"なければ", src:"if there is not / if (one) does not have", pos:"adj", gender:null,
      note:"ば-form of ない (not exist). ない to なければ.\nじかんがなければ = if there is no time.",
-     example:"A: じかんがなければしかたないですね。\nB: そうですね。またこんどにしましょう。",
-     exampleSrc:"A: If there is no time, it cannot be helped.\nB: That is right. Let us do it another time.",
+     example:"A: じかんがなければしかたないですね。\nB: そうですね。またこんどにしましょう。\nA: 難(むずか)しかったですか？\nB: 最初(さいしょ)は難(むずか)しかったですが、慣(な)れました。",
+     exampleSrc:"A: If there is no time, it cannot be helped.\nB: That is right. Let us do it another time.\nA: Was it difficult?\nB: It was difficult at first, but I got used to it.",
      funFact:"なければ is extremely common because negative conditions arise constantly. なければならない (if not, it will not do = must do) is a grammar pattern built on this: たべなければならない (must eat). This double-negative construction is standard Japanese, not informal."},
 
     {type:"teach", trg:"れんしゅうする", src:"to practice", pos:"verb", gender:null,
      note:"する-verb. れんしゅう = practice/training.\nKanji: 練習する. 練 (polish/refine) + 習 (learn).",
-     example:"A: まいにちれんしゅうしていますか？\nB: はい、1じかんれんしゅうしています。",
-     exampleSrc:"A: Do you practice every day?\nB: Yes, I practice for one hour.",
+     example:"A: まいにちれんしゅうしていますか？\nB: はい、1じかんれんしゅうしています。\nA: おすすめですか？\nB: はい、ぜひ試(ため)してみてください。",
+     exampleSrc:"A: Do you practice every day?\nB: Yes, I practice for one hour.\nA: Do you recommend it?\nB: Yes, please try it.",
      funFact:"練習 is the Japanese path to mastery. The kanji 練 means 'polish/knead' and 習 means 'learn through practice.' Together they embody the concept of learning through repetition. Japanese education emphasizes renshuu heavily. The phrase 練習あるのみ (nothing but practice) reflects a deep cultural belief in effort over talent."},
 
     {type:"mc", q:"いそがばまわれ means:", opts:["If you rush, you will arrive first","Haste makes waste / more haste, less speed","Running is good exercise","Hurry up and go around"], ans:"Haste makes waste / more haste, less speed",
@@ -65,8 +65,8 @@ const LESSON_4 = {
 
     {type:"teach", trg:"〜なければならない", src:"must ~ / have to ~", pos:"part", gender:null,
      note:"なければ (if not) + ならない (it will not do).\nDouble negative: if you do not do it, it will not work = must do.",
-     example:"A: あしたまでにレポートをかかなければなりません。\nB: がんばってくださいね。",
-     exampleSrc:"A: I must write the report by tomorrow.\nB: Please do your best.",
+     example:"A: あしたまでにレポートをかかなければなりません。\nB: がんばってくださいね。\nA: 一緒(いっしょ)に行(い)きませんか？\nB: いいですね。行(い)きましょう。",
+     exampleSrc:"A: I must write the report by tomorrow.\nB: Please do your best.\nA: Shall we go together?\nB: That sounds good. Let's go.",
      funFact:"なければならない is how Japanese expresses obligation. It is a triple-layer construction: the verb negative (かかない), the ば conditional (かかなければ), and ならない (will not do). The result: 'if I do not write, it will not do' = 'I must write.' Shorter versions exist: なきゃ (casual), なくてはいけない (formal alternative)."},
 
     {type:"fb", s:"あしたまでにレポートをかか{1}なりません。\n(I must write the report by tomorrow.)", a:"なければ", opts:["なければ","ないと","なくて","ないで"], sSrc:"I must write the report by tomorrow.",

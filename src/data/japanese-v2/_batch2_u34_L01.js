@@ -8,20 +8,20 @@ const BATCH2_L_1 = {
 
     {type:"teach", trg:"ぐんしゅく", src:"disarmament / arms reduction", pos:"noun", gender:null,
      note:"Kanji: 軍縮. かくぐんしゅく = nuclear disarmament.\nぐんしゅくじょうやく = disarmament treaty.",
-     example:"A: かくぐんしゅくはせかいのあんぜんにふかけつです。\nB: にほんはそのすいしんやくをになっています。",
-     exampleSrc:"A: Nuclear disarmament is indispensable for world safety.\nB: Japan bears the role of promoting it.",
+     example:"A: かくぐんしゅくはせかいのあんぜんにふかけつです。\nB: にほんはそのすいしんやくをになっています。\nA: どのような方法(ほうほう)がありますか？\nB: いくつかの選択肢(せんたくし)があります。一番(いちばん)効果的(こうかてき)なのは実践(じっせん)です。\nA: 実践(じっせん)というのは、具体的(ぐたいてき)に何(なに)をすればいいですか？\nB: 毎日(まいにち)少(すこ)しずつ取(と)り組(く)むことが重要(じゅうよう)です。",
+     exampleSrc:"A: Nuclear disarmament is indispensable for world safety.\nB: Japan bears the role of promoting it.\nA: What kinds of methods are there?\nB: There are several options. The most effective is practice.\nA: What specifically should we do in practice?\nB: It is important to work on it a little each day.",
      funFact:"軍縮 uses 軍 (military) and 縮 (shrink/reduce). Japan's advocacy for ぐんしゅく is rooted in the Hiroshima and Nagasaki experiences. Every August, memorial ceremonies call for かくへいきはいぜつ (nuclear abolition). Japan annually submits nuclear disarmament resolutions to the UN General Assembly."},
 
     {type:"teach", trg:"へいわしゅぎ", src:"pacifism", pos:"noun", gender:null,
      note:"Kanji: 平和主義. にほんこくけんぽうだいきゅうじょう = Article 9.\nせんそうほうき = renunciation of war.",
-     example:"A: にほんのへいわしゅぎはけんぽうだいきゅうじょうにもとづいています。\nB: かいせいのぜひがぎろんされつづけていますね。",
-     exampleSrc:"A: Japan's pacifism is based on Article 9 of the Constitution.\nB: The pros and cons of revision continue to be debated.",
+     example:"A: にほんのへいわしゅぎはけんぽうだいきゅうじょうにもとづいています。\nB: かいせいのぜひがぎろんされつづけていますね。\nA: それはいつごろから始(はじ)まったのですか？\nB: 数年前(すうねんまえ)からですが、最近(さいきん)特(とく)に注目(ちゅうもく)されています。\nA: 今後(こんご)どうなると思(おも)いますか？\nB: さらに発展(はってん)すると予想(よそう)されています。",
+     exampleSrc:"A: Japan's pacifism is based on Article 9 of the Constitution.\nB: The pros and cons of revision continue to be debated.\nA: When did that start?\nB: It started a few years ago, but it has been getting particular attention recently.\nA: What do you think will happen going forward?\nB: It is expected to develop further.",
      funFact:"平和主義 uses 平和 (peace) and 主義 (principle/-ism). Article 9 renounces war and prohibits maintaining war potential. However, Japan maintains じえいたい (Self-Defense Forces) under the interpretation that self-defense is a sovereign right. The tension between へいわしゅぎ and security realities defines one of Japan's most fundamental political debates."},
 
     {type:"teach", trg:"じえいたい", src:"Self-Defense Forces (SDF)", pos:"noun", gender:null,
      note:"Kanji: 自衛隊. りくじょうじえいたい = Ground SDF.\nかいじょうじえいたい = Maritime SDF.",
-     example:"A: じえいたいはさいがいきゅうえんでもかつやくしています。\nB: にほんこくないだけでなくかいがいでもかつどうしていますね。",
-     exampleSrc:"A: The Self-Defense Forces are also active in disaster relief.\nB: They operate not only domestically but also overseas.",
+     example:"A: じえいたいはさいがいきゅうえんでもかつやくしています。\nB: にほんこくないだけでなくかいがいでもかつどうしていますね。\nA: 何(なに)か問題(もんだい)はありませんでしたか？\nB: いくつか課題(かだい)がありましたが、解決(かいけつ)しました。\nA: どのように解決(かいけつ)したのですか？\nB: チーム全体(ぜんたい)で話(はな)し合(あ)って、最善(さいぜん)の方法(ほうほう)を見(み)つけました。",
+     exampleSrc:"A: The Self-Defense Forces are also active in disaster relief.\nB: They operate not only domestically but also overseas.\nA: Were there any problems?\nB: There were some issues, but we resolved them.\nA: How did you resolve them?\nB: We discussed it as a whole team and found the best method.",
      funFact:"自衛隊 uses 自衛 (self-defense) and 隊 (corps/unit). Despite Article 9, Japan's SDF is one of the world's most capable military forces. The constitutional ambiguity has led to decades of debate. The SDF's role in さいがいきゅうえん (disaster relief) is widely appreciated, giving it strong public support despite the constitutional controversy."},
 
     {type:"mc", q:"けんぽうだいきゅうじょう is significant because:", opts:["It renounces war and prohibits maintaining war potential","It establishes the emperor as head of state","It guarantees freedom of speech","It sets the tax rate"], ans:"It renounces war and prohibits maintaining war potential",
@@ -29,20 +29,20 @@ const BATCH2_L_1 = {
 
     {type:"teach", trg:"PKO", src:"peacekeeping operations", pos:"noun", gender:null,
      note:"Pronounced ピーケーオー. こくれんPKO = UN peacekeeping.\nPKOきょうりょくほう = PKO Cooperation Law.",
-     example:"A: にほんはPKOにじえいたいをはけんしています。\nB: こくさいこうけんのいっかんですね。",
-     exampleSrc:"A: Japan dispatches SDF members to peacekeeping operations.\nB: It is part of its international contribution.",
+     example:"A: にほんはPKOにじえいたいをはけんしています。\nB: こくさいこうけんのいっかんですね。\nA: その点(てん)について、もう少(すこ)し説明(せつめい)していただけますか？\nB: もちろんです。重要(じゅうよう)なのは準備(じゅんび)と計画(けいかく)です。\nA: 準備(じゅんび)にはどのくらい時間(じかん)がかかりますか？\nB: 通常(つうじょう)、一週間(いっしゅうかん)から二週間(にしゅうかん)程度(ていど)です。",
+     exampleSrc:"A: Japan dispatches SDF members to peacekeeping operations.\nB: It is part of its international contribution.\nA: Could you explain that point a bit more?\nB: Of course. What is important is preparation and planning.\nA: How long does preparation take?\nB: Usually about one to two weeks.",
      funFact:"Japan's participation in PKO began in 1992 after the PKO Cooperation Law was enacted. The first deployment was to Cambodia. Japanese PKO participation is limited by strict rules of engagement, reflecting the tension between こくさいこうけん (international contribution) and へいわしゅぎ (pacifism). Engineering and medical support are the primary Japanese PKO roles."},
 
     {type:"teach", trg:"ばくだん", src:"bomb", pos:"noun", gender:null,
      note:"Kanji: 爆弾. げんしばくだん = atomic bomb (also: げんばく).\nばくだんテロ = bombing terrorism.",
-     example:"A: ひろしまとながさきにげんしばくだんがとうかされました。\nB: にどとくりかえしてはならないれきしです。",
-     exampleSrc:"A: Atomic bombs were dropped on Hiroshima and Nagasaki.\nB: It is a history that must never be repeated.",
+     example:"A: ひろしまとながさきにげんしばくだんがとうかされました。\nB: にどとくりかえしてはならないれきしです。\nA: それは素晴(すば)らしい結果(けっか)ですね。\nB: ありがとうございます。チーム全員(ぜんいん)の努力(どりょく)のおかげです。\nA: 今後(こんご)の目標(もくひょう)は何(なん)ですか？\nB: さらに品質(ひんしつ)を向上(こうじょう)させることです。",
+     exampleSrc:"A: Atomic bombs were dropped on Hiroshima and Nagasaki.\nB: It is a history that must never be repeated.\nA: That is an excellent result.\nB: Thank you. It is thanks to the effort of the whole team.\nA: What are the future goals?\nB: To further improve quality.",
      funFact:"爆弾 uses 爆 (explode) and 弾 (bullet/ball). げんばく (abbreviation of 原子爆弾) is deeply embedded in Japanese collective memory. The Hiroshima Peace Memorial (原爆ドーム, Genbaku Dome) is a UNESCO World Heritage Site. ひばくしゃ (atomic bomb survivors) have been tireless advocates for peace, sharing their testimonies worldwide."},
 
     {type:"teach", trg:"ひばくしゃ", src:"atomic bomb survivor / radiation-exposed person", pos:"noun", gender:null,
      note:"Kanji: 被爆者. ひばくしゃのしょうげん = survivor testimony.\nA uniquely Japanese term with global moral weight.",
-     example:"A: ひばくしゃのこえをせかいにつたえることがじゅうようです。\nB: こうれいかでしょうげんしゃがへっています。",
-     exampleSrc:"A: It is important to convey the voices of atomic bomb survivors to the world.\nB: Due to aging, the number of witnesses is decreasing.",
+     example:"A: ひばくしゃのこえをせかいにつたえることがじゅうようです。\nB: こうれいかでしょうげんしゃがへっています。\nA: 他(ほか)に何(なに)か気(き)をつけることはありますか？\nB: はい、期限(きげん)を守(まも)ることが一番(いちばん)大切(たいせつ)です。\nA: 期限(きげん)に間(ま)に合(あ)わない場合(ばあい)はどうしますか？\nB: 早(はや)めに上司(じょうし)に相談(そうだん)して、調整(ちょうせい)をお願(ねが)いします。",
+     exampleSrc:"A: It is important to convey the voices of atomic bomb survivors to the world.\nB: Due to aging, the number of witnesses is decreasing.\nA: Is there anything else to be careful about?\nB: Yes, meeting deadlines is the most important thing.\nA: What do you do if you cannot meet the deadline?\nB: Consult your supervisor early and ask for an adjustment.",
      funFact:"被爆者 uses 被 (receive/suffer), 爆 (explode), and 者 (person). The ひばくしゃ community has been central to Japan's peace advocacy. Their personal しょうげん (testimonies) are preserved in museums and archives. As surviving ひばくしゃ age, Japan is developing digital archives and training 'legacy successors' (でんしょうしゃ) to continue sharing their stories."},
 
     {type:"fb", s:"にほんはかくぐんしゅくの{1}やくをになっています。\n(Japan bears the role of promoting nuclear disarmament.)", a:"すいしん", opts:["すいしん","はんたい","きょひ","ちゅうし"], sSrc:"Japan bears the role of promoting nuclear disarmament.",
@@ -50,14 +50,14 @@ const BATCH2_L_1 = {
 
     {type:"teach", trg:"ていせんきょうてい", src:"ceasefire agreement / armistice", pos:"noun", gender:null,
      note:"Kanji: 停戦協定. ていせん (ceasefire) + きょうてい (agreement).\nUsed in news about conflicts.",
-     example:"A: りょうこくかんでていせんきょうていがむすばれました。\nB: へいわこうしょうへのだいいっぽですね。",
-     exampleSrc:"A: A ceasefire agreement was concluded between the two countries.\nB: It is the first step toward peace negotiations.",
+     example:"A: りょうこくかんでていせんきょうていがむすばれました。\nB: へいわこうしょうへのだいいっぽですね。\nA: その件(けん)について進捗(しんちょく)はありますか？\nB: はい、順調(じゅんちょう)に進(すす)んでいます。\nA: 完了(かんりょう)の見込(みこ)みはいつごろですか？\nB: 来月(らいげつ)の初(はじ)めには完了(かんりょう)できる予定(よてい)です。",
+     exampleSrc:"A: A ceasefire agreement was concluded between the two countries.\nB: It is the first step toward peace negotiations.\nA: Is there any progress on that matter?\nB: Yes, it is progressing smoothly.\nA: When is it expected to be completed?\nB: It is scheduled to be completed by the beginning of next month.",
      funFact:"停戦協定 uses 停戦 (ceasefire: 停 stop + 戦 war) and 協定 (agreement: 協 cooperate + 定 determine). In international news, ていせん (ceasefire) and ていせんきょうてい (ceasefire agreement) appear frequently. Japan, as a non-belligerent nation under its constitution, often supports ていせん efforts through diplomatic channels rather than military intervention."},
 
     {type:"teach", trg:"こくさいほう", src:"international law", pos:"noun", gender:null,
      note:"Kanji: 国際法. こくさいじんどうほう = international humanitarian law.\nこくさいほうをじゅんしゅする = to comply with international law.",
-     example:"A: こくさいほうはすべてのくにがまもるべきです。\nB: しかし、じっさいにはいはんがおこっています。",
-     exampleSrc:"A: All countries should comply with international law.\nB: However, violations actually occur.",
+     example:"A: こくさいほうはすべてのくにがまもるべきです。\nB: しかし、じっさいにはいはんがおこっています。\nA: 以前(いぜん)と比(くら)べてどう変(か)わりましたか？\nB: かなり改善(かいぜん)されました。効率(こうりつ)が上(あ)がりました。\nA: その改善(かいぜん)の要因(よういん)は何(なん)ですか？\nB: 新(あたら)しいシステムの導入(どうにゅう)が大(おお)きかったです。",
+     exampleSrc:"A: All countries should comply with international law.\nB: However, violations actually occur.\nA: How has it changed compared to before?\nB: It has improved considerably. Efficiency has increased.\nA: What was the cause of that improvement?\nB: The introduction of the new system was a big factor.",
      funFact:"国際法 uses 国際 (international) and 法 (law). Japan's postwar identity is closely tied to こくさいほう compliance. The country has been a strong advocate for the rule-based international order. Japanese legal scholars have contributed significantly to こくさいほう development, particularly in maritime law and environmental law."},
 
     {type:"mc", q:"ひばくしゃ refers to:", opts:["Atomic bomb survivors","War veterans","Peace activists","Government officials"], ans:"Atomic bomb survivors",

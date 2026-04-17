@@ -289,11 +289,11 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Dutch | v2 | 89 | 5,106 | mock | COMPLETE. Grammar needs teacher-board rewrite. |
 | French | v2 | 90 | 5,036 | 52 entries | COMPLETE. 98% of German. |
 | Spanish | v2 | 92 | 5,124 | 53 entries | COMPLETE. 100% of German. |
-| Italian | v2 | 36 | 5,013 | 12 entries | DENSITY DONE. Needs: Foundations, dialogue scaling, grammar expansion. |
-| Japanese | v2 | 36 | 4,978 | 20 entries | DENSITY DONE. Needs: Foundations (CRITICAL), kanji+furigana on ALL cards (all levels), grammar expansion. |
+| Italian | v2 | 36 | 603 | 51 entries | POLISHED. Foundations, grammar, interleaving, CEFR ref done. Needs density expansion to ~5K. |
+| Japanese | v2 | 36 | 603 | 54 entries | POLISHED. Foundations, kanji+furigana, grammar, CEFR ref done. Needs density expansion to ~5K. |
 
-**Grand total: ~30,500+ teach cards across 7 languages (36 units each). Build passes.**
-**Grammar modules: 300 entries across 7 languages.**
+**Grand total: ~27,000+ teach cards across 7 languages. Build passes.**
+**Grammar modules: 365 entries across 7 languages (Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch mock).**
 
 ### Build History (compact)
 
@@ -307,10 +307,10 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 - **V2 upgrades** (2026-04-12-15): Korean/Dutch/French/Spanish/Italian/Japanese all V2. 7 languages live.
 
 ### Known Blockers
-1. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56).
-2. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537).
-3. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing.
-4. **Italian + Japanese polish needed** — Density done (~5K each). Japanese needs kanji+furigana on ALL cards (all levels, not B1+ only) + Foundations. Italian needs Foundations + grammar expansion.
+1. **Italian + Japanese density gap** — Only 603 teach cards each (not ~5K). Need massive density expansion.
+2. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56).
+3. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537).
+4. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing.
 
 > 25 previously tracked blockers have been resolved. See `docs/BUILD_STATUS.md` for full history.
 
@@ -318,15 +318,13 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 
 ## Next Priorities (updated 2026-04-15)
 
-> Latest handoff: `docs/SESSION_HANDOFF_2026-04-16.md`. 7 languages at ~5K each, 30,500+ cards total.
+> Latest handoff: `docs/SESSION_HANDOFF_2026-04-17.md`. Italian+Japanese polished. Density expansion needed (603 each, not 5K).
 
 ### ACTIVE: Italian + Japanese Density Expansion
-1. **Italian B1+B2 density** — 20 units need 3 more lessons each (~1,200 new cards)
-2. **Japanese B1+B2 density** — 13 units need 3 more lessons each (~780 new cards)
-3. **Italian B2 completion** — Need units 33-36 (4 more units)
-4. **Japanese B2 completion** — Need units 30-36 (7 more units)
-5. **Full PP validation** — PP8/PP43/PP48/PP52/PP59/PP61/PP64/PP22c on both languages
-6. **Italian + Japanese CEFR reference data** — Create cefr-reference files
+1. **Italian density expansion** — 603 → ~5,000 teach cards. Use proven 11-batch density pipeline.
+2. **Japanese density expansion** — 603 → ~5,000 teach cards. ALL new cards MUST use kanji+furigana.
+3. **Full PP validation** — PP8/PP43/PP48/PP52/PP59/PP61/PP64/PP22c on both languages after expansion.
+4. **A2 dialogue scaling** — Italian: 138 dialogues need 3+ turns. Japanese: 28 need 3+ turns.
 
 ### Feature Polish (deferred)
 7. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors.
@@ -379,7 +377,8 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-16.md`** — **LATEST HANDOFF.** 7 languages at ~5K each. Polish priorities + next language expansion plan.
+- **`docs/SESSION_HANDOFF_2026-04-17.md`** — **LATEST HANDOFF.** Italian+Japanese polish complete. Density expansion needed (603 cards each, not 5K).
+- **`docs/SESSION_HANDOFF_2026-04-16.md`** — Previous handoff. 7 languages live.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic.
 - **`docs/BUILD_STATUS.md`** — Full build history per language (updated 2026-04-15).
 - **`docs/PRODUCT_PLAN.md`** — Business model, monetization, premium features roadmap.
@@ -413,7 +412,7 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Read `docs/SESSION_HANDOFF_2026-04-16.md` for latest context and exact next-agent instructions.
+2. Read `docs/SESSION_HANDOFF_2026-04-17.md` for latest context and exact next-agent instructions.
 3. Check memory files (`~/.claude/projects/.../memory/`).
 4. Before audits: follow Rule A (grep actual code, never trust docs alone).
 5. Before content: re-read Pipeline Rules above.
