@@ -138,6 +138,7 @@ export const LANGUAGES = [
   { code: "ko", name: "Korean", flag: "🇰🇷", native: "한국어", greeting: "안녕하세요!", welcomeBack: "안녕하세요, 다시 오신 것을 환영합니다!" },
   { code: "it", name: "Italian", flag: "🇮🇹", native: "Italiano", greeting: "Ciao!", welcomeBack: "Ciao, bentornato!" },
   { code: "ja", name: "Japanese", flag: "🇯🇵", native: "日本語", greeting: "こんにちは!", welcomeBack: "こんにちは、おかえりなさい！" },
+  { code: "zh", name: "Chinese", flag: "🇨🇳", native: "中文", greeting: "你好!", welcomeBack: "你好，欢迎回来！" },
 ];
 
 // ── ALL LANGUAGES (including future / no content yet) ──
@@ -147,7 +148,6 @@ export const _ALL_LANGUAGES = [
   { code: "en", name: "English", flag: "🇺🇸", native: "English", greeting: "Hello!", welcomeBack: "Hello, welcome back!" },
   { code: "ar", name: "Arabic", flag: "🇸🇾", native: "العربية", greeting: "!مرحبا", welcomeBack: "!مرحبا، أهلا بعودتك", rtl: true },
   { code: "ro", name: "Romanian", flag: "🇷🇴", native: "Română", greeting: "Bună!", welcomeBack: "Bună, bine ai revenit!" },
-  { code: "zh", name: "Chinese", flag: "🇨🇳", native: "中文", greeting: "你好!", welcomeBack: "你好，欢迎回来！" },
   { code: "pt", name: "Portuguese", flag: "🇧🇷", native: "Português", greeting: "Olá!", welcomeBack: "Olá, bem-vindo de volta!" },
   { code: "ru", name: "Russian", flag: "🇷🇺", native: "Русский", greeting: "Привет!", welcomeBack: "Привет, с возвращением!" },
 ];
@@ -321,7 +321,7 @@ export const LANG_META = {
   en: {scriptType:"latin",framework:"CEFR",levelMap:{A1:"A1",A2:"A2",B1:"B1",B2:"B2"},ttsLocale:"en-US",specialRules:["irregular_spelling","phrasal_verbs","articles"]},
   ko: {scriptType:"hangul",framework:"TOPIK",levelMap:{1:"A1",2:"A2",3:"B1",4:"B2"},ttsLocale:"ko-KR",specialRules:["hangul_assembly","particles","honorifics","verb_endings"]},
   ja: {scriptType:"kana",framework:"JLPT",levelMap:{N5:"A1",N4:"A2",N3:"B1"},ttsLocale:"ja-JP",specialRules:["hiragana","katakana","kanji","particles","keigo"]},
-  zh: {scriptType:"hanzi",framework:"HSK",levelMap:{HSK1:"A1",HSK2:"A2",HSK3:"B1"},ttsLocale:"zh-CN",specialRules:["tones","pinyin","radicals","measure_words","no_conjugation"]},
+  zh: {scriptType:"hanzi",framework:"HSK",levelMap:{HSK1:"A1",HSK2:"A2",HSK3:"B1",HSK4:"B2"},ttsLocale:"zh-CN",specialRules:["tones","pinyin","radicals","measure_words","no_conjugation","aspect_particles","topic_comment","ba_bei_constructions","complement_system"]},
   ru: {scriptType:"cyrillic",framework:"CEFR",levelMap:{A1:"A1",A2:"A2",B1:"B1"},ttsLocale:"ru-RU",specialRules:["cyrillic","soft_hard_signs","cases","aspect","no_articles"]},
 };
 
@@ -401,7 +401,22 @@ export const LANG_BLUEPRINT = {
     coreConstructs: ["SVO word order","el/la gender system","ser vs estar (two 'to be' verbs)","verb conjugation (-ar/-er/-ir groups)","tú vs usted formality","gustar-type backwards verbs"],
     functionWords: ["y (and)","o (or)","pero (but)","también (also)","no (not)","sí (yes)","en (in/on)","de (of/from)","a (to)","con (with)","por (for/by)","para (for/to)"]
   },
-  // TODO: Add blueprints for ro, en, ko, ja, zh, ru as content is built
+  zh: {
+    scriptType: "hanzi",
+    writingSystem: {type:"logographic",direction:"ltr",caseSystem:false,diacritics:["tone_marks_on_pinyin"]},
+    phonology: {vowelSystem:"tone_based_4_tones_plus_neutral",consonantNotes:"aspirated_unaspirated_pairs_retroflex_zh_ch_sh_r",stress:"tone_determines_meaning",traps:["zh_ch_sh_retroflex","j_q_x_palatal","u_vs_ü","tone_sandhi_3rd_tone","neutral_tone"]},
+    morphology: {type:"isolating",compounding:"very_productive",noConjugation:true,noInflection:true,measureWords:true,aspectMarkers:["了_le_completion","过_guo_experience","着_zhe_ongoing"]},
+    grammarOrder: "SVO_with_topic_comment",
+    genderSystem: {type:"none",articles:null,adjInflection:false},
+    articleSystem: {definite:null,indefinite:null,notes:"No articles. Definiteness from context, word order, or demonstratives (这/那)."},
+    formalitySystem: {levels:["informal_你","formal_您"],notes:"您 (nín) is formal 'you'. Less pervasive than Japanese keigo or Korean honorifics. Register conveyed through vocabulary choice and sentence structure."},
+    difficultyProfile: {forEnglish:"very_hard",hardest:["tones","hanzi_thousands","measure_words","aspect_system","complement_types","ba_bei_constructions"],easiest:["no_conjugation","no_gender","no_articles","SVO_base_order","no_plural_marking"]},
+    culturalContext: "Guanxi relationships. Mianzi (face). Tea culture. Food as social bonding. Collectivism. Modesty in self-expression. Red for luck.",
+    learningRisks: ["Tone deafness from L1 transfer","Reliance on pinyin without learning hanzi","Ignoring measure words","Confusing aspect particles 了/过/着","Translating English tenses directly"],
+    coreConstructs: ["SVO word order","4 tones + neutral","Measure words with numbers","了/过/着 aspect particles","的/地/得 structural particles","把/被 constructions","Topic-comment structure"],
+    functionWords: ["的(de, possessive/attributive)","了(le, completion)","在(zài, at/in)","是(shì, to be)","不(bù, not)","也(yě, also)","都(dōu, all)","和(hé, and)","但是(dànshì, but)","因为(yīnwèi, because)","所以(suǒyǐ, therefore)","如果(rúguǒ, if)"]
+  },
+  // TODO: Add blueprints for ro, en, ko, ja, ru as content is built
 };
 
 // ── CULTURE_PACKS: Per-language cultural data (Pipeline Step 3) ──
@@ -414,7 +429,8 @@ export const CULTURE_PACKS = {
   fr: {food:["croissant","baguette","crêpe","ratatouille","quiche"],customs:["la_bise","apéro","long_lunches","formal_vous"],places:["Paris","Lyon","Marseille","Bordeaux"],beginnerSituations:["ordering_at_boulangerie","café_terrace","asking_directions","introducing_yourself"],politenessNotes:["Always say 'Bonjour' before any interaction","Use 'vous' with strangers, 'tu' with friends/children"],tabooOrPitfalls:["Don't skip the greeting","Don't assume English is spoken","Tipping is included in the bill"]},
   // ── Spanish Culture Pack ──
   es: {food:["paella","tapas","tortilla_española","churros","gazpacho","jamón_ibérico","empanadas"],customs:["siesta","sobremesa","two_surnames","late_dinners_9pm","paseo_evening_walk","fiestas_patronales"],places:["Madrid","Barcelona","Sevilla","México_City","Buenos_Aires","Bogotá"],beginnerSituations:["ordering_tapas","asking_directions","introducing_yourself","at_mercado","café_con_leche"],politenessNotes:["Use 'usted' with strangers and elders","Use 'tú' with friends and children","In Latin America 'ustedes' replaces 'vosotros'","Say 'por favor' and 'gracias' always"],tabooOrPitfalls:["Don't confuse ser and estar","Don't use vosotros in Latin America","embarazada means pregnant not embarrassed","éxito means success not exit","sensible means sensitive not sensible"]},
-  // TODO: Add culture packs for ro, en, ko, ja, zh, ru as those languages are built
+  zh: {food:["饺子_jiǎozi","火锅_huǒguō","北京烤鸭_Běijīng_kǎoyā","小笼包_xiǎolóngbāo","月饼_yuèbǐng","豆腐_dòufu","炒饭_chǎofàn"],customs:["春节_Spring_Festival","中秋节_Mid_Autumn","红包_red_envelopes","茶文化_tea_culture","面子_mianzi_face","关系_guanxi_connections","筷子_chopsticks"],places:["北京_Beijing","上海_Shanghai","西安_Xian","成都_Chengdu","广州_Guangzhou","杭州_Hangzhou"],beginnerSituations:["ordering_tea","at_restaurant_with_chopsticks","introducing_yourself","bargaining_at_market","taking_a_taxi","using_WeChat"],politenessNotes:["Use 您 (nín) for formal 'you' with elders and strangers","Say 请 (qǐng, please) before requests","谢谢 (xièxie) for thank you, 不客气 (bú kèqi) for you're welcome"],tabooOrPitfalls:["Never give a clock as a gift (送钟 sounds like 送终, funeral)","4 is unlucky (四 sounds like 死, death)","Don't stick chopsticks upright in rice (funeral ritual)","Red is lucky, white and black are for funerals"]},
+  // TODO: Add culture packs for ro, en, ko, ja, ru as those languages are built
 };
 
 // ── UNIT_TEMPLATES: Standard A1 survival unit structure (Pipeline Step 4) ──
@@ -579,6 +595,20 @@ export const LANG_TOKENIZER = {
       preposition: { match:["a","de","en","con","por","para","sin","sobre","entre","hacia","hasta","desde","durante","según","contra","ante","bajo","tras"], color:"#2ECDA7", dk:"#50E0C0", label:"Preposition" },
       conjunction: { match:["y","e","pero","sino","o","u","porque","que","cuando","si","aunque","mientras","como","donde","ni","ya que","puesto que"], color:"#9B7AE8", dk:"#B8A8FA", label:"Conjunction" },
       pronoun:     { match:["yo","tú","él","ella","usted","nosotros","nosotras","vosotros","vosotras","ellos","ellas","ustedes","me","te","se","nos","os","lo","la","le","les"], color:"#F59E0B", dk:"#FCD34D", label:"Pronoun" },
+    }
+  },
+  zh: {
+    scriptRange: /[\u4E00-\u9FFF\u3400-\u4DBF]/,
+    wordBoundary: "none",
+    particles: ["的","了","在","是","不","也","都","和","但是","因为","所以","如果","就","才","又","还","很","太","吗","呢","吧","啊","把","被","给","让","对","从","到","向","往","比","跟"],
+    grammarColors: {
+      structural:  { match:["的","地","得"], color:"#0091FF", dk:"#64B5F6", label:"Structural particle" },
+      aspect:      { match:["了","过","着"], color:"#2ECDA7", dk:"#50E0C0", label:"Aspect particle" },
+      negation:    { match:["不","没","没有","别"], color:"#D50000", dk:"#EF5350", label:"Negation" },
+      question:    { match:["吗","呢","吧","啊"], color:"#E8960A", dk:"#F5C040", label:"Question/Modal particle" },
+      preposition: { match:["在","从","到","向","往","对","给","让","把","被","比","跟","用","为"], color:"#9B7AE8", dk:"#B8A8FA", label:"Preposition/Coverb" },
+      conjunction: { match:["和","但是","因为","所以","如果","虽然","可是","而且","或者","不但","而"], color:"#F59E0B", dk:"#FCD34D", label:"Conjunction" },
+      adverb:      { match:["也","都","就","才","又","还","很","太","真","非常","已经","正在","刚","常常","经常"], color:"#EC4899", dk:"#F472B6", label:"Adverb" },
     }
   }
 };

@@ -95,6 +95,6 @@ const BATCH8_L1 = {id:"itv2_u23l_b8_1", title:"Il sistema politico", icon:"ðŸ—³ï
  q:"What happened in the 1946 Italian referendum?",
  opts:["Italians voted to become a republic, abolishing the monarchy","Italy joined the EU","Women gained the right to vote","The constitution was written"],
  ans:"Italians voted to become a republic, abolishing the monarchy",
- hint:"This was the most important referendum in Italian history. The monarchy lost by about 54% to 46%."}
+ hint:"This was the most important referendum in Italian history. The old form of government lost by about 54% to 46%, creating the current state."}
 ]};
 export default BATCH8_L1;

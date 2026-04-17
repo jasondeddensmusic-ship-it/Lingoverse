@@ -1827,6 +1827,74 @@ export const FOUNDATIONS_BY_LANG = {
           examples:["книги /ˈknʲigʲɪ/ (books): ГИ not ГЫ","чашка /ˈtʃaʂkə/ (cup): ША not ШЯ","хорошие /xɐˈroʂɨjə/ (good, pl.): ШИ not ШЫ"]},
       ]},
   ]},
+  // ══════════════════════════════════════════════════════════════════
+  // CHINESE (MANDARIN) FOUNDATIONS
+  // ══════════════════════════════════════════════════════════════════
+  zh:{name:"Chinese Foundations",icon:"🇨🇳",sections:[
+    {id:"zh_tones",title:"The Four Tones",icon:"🎵",desc:"Mandarin has 4 tones + a neutral tone. Tones change meaning completely.",
+      items:[
+        {fk:"fk_tone_system",title:"Tone chart",audio_id:null,
+          desc:"Each syllable has a tone. The same pinyin with different tones means completely different things. ma can mean mother, hemp, horse, or scold.",
+          grid:{cols:4,headers:["Tone","Mark","Pattern","Example"],rows:[
+            {label:"1st",color:"#D50000",cells:[{ch:"1st",rom:""},{ch:"\u0304",rom:"macron"},{ch:"High flat",rom:"mmmm"},{ch:"m\u0101 (mother)",rom:""}]},
+            {label:"2nd",color:"#2ECDA7",cells:[{ch:"2nd",rom:""},{ch:"\u0301",rom:"acute"},{ch:"Rising",rom:"what?"},{ch:"m\u00E1 (hemp)",rom:""}]},
+            {label:"3rd",color:"#4A8FE7",cells:[{ch:"3rd",rom:""},{ch:"\u030C",rom:"caron"},{ch:"Dip then rise",rom:"well..."},{ch:"m\u01CE (horse)",rom:""}]},
+            {label:"4th",color:"#E8960A",cells:[{ch:"4th",rom:""},{ch:"\u0300",rom:"grave"},{ch:"Sharp falling",rom:"no!"},{ch:"m\u00E0 (scold)",rom:""}]},
+          ]}},
+      ]},
+    {id:"zh_pinyin_initials",title:"Pinyin Initials",icon:"🔤",desc:"21 initial consonants in Mandarin, grouped by articulation",
+      items:[
+        {fk:"fk_pinyin_initials",title:"Pinyin initials chart",audio_id:null,
+          desc:"Pinyin initials are the consonant sounds that begin a syllable. Some look like English but sound different. Pay special attention to the retroflex (zh, ch, sh, r) and palatal (j, q, x) groups.",
+          grid:{cols:5,headers:["Group","","","",""],rows:[
+            {label:"Labial",color:"#4A8FE7",cells:[{ch:"b",rom:"b as in 'ball'"},{ch:"p",rom:"p as in 'pan'"},{ch:"m",rom:"m as in 'mom'"},{ch:"f",rom:"f as in 'fun'"},{ch:"",rom:""}]},
+            {label:"Alveolar",color:"#4A8FE7",cells:[{ch:"d",rom:"d as in 'dog'"},{ch:"t",rom:"t as in 'top'"},{ch:"n",rom:"n as in 'no'"},{ch:"l",rom:"l as in 'let'"},{ch:"",rom:""}]},
+            {label:"Velar",color:"#2ECDAB",cells:[{ch:"g",rom:"g as in 'go'"},{ch:"k",rom:"k as in 'key'"},{ch:"h",rom:"h as in 'hat'"},{ch:"",rom:""},{ch:"",rom:""}]},
+            {label:"Palatal",color:"#E85D75",cells:[{ch:"j",rom:"j like 'jee'"},{ch:"q",rom:"q like 'chee'"},{ch:"x",rom:"x like 'shee'"},{ch:"",rom:""},{ch:"",rom:""}]},
+            {label:"Retroflex",color:"#F5A623",cells:[{ch:"zh",rom:"zh tongue curled"},{ch:"ch",rom:"ch tongue curled"},{ch:"sh",rom:"sh tongue curled"},{ch:"r",rom:"r tongue curled"},{ch:"",rom:""}]},
+            {label:"Dental",color:"#9B9B9B",cells:[{ch:"z",rom:"z as in 'adds'"},{ch:"c",rom:"c as in 'cats'"},{ch:"s",rom:"s as in 'sun'"},{ch:"",rom:""},{ch:"",rom:""}]},
+          ]}},
+      ]},
+    {id:"zh_pinyin_finals",title:"Pinyin Finals",icon:"🗣️",desc:"Simple and compound vowel sounds that complete each syllable",
+      items:[
+        {fk:"fk_pinyin_finals",title:"Pinyin finals chart",audio_id:null,
+          desc:"Finals are the vowel parts of a syllable. Simple finals are single vowels. Compound finals combine vowels. Nasal finals end with -n or -ng.",
+          grid:{cols:5,headers:["Type","","","",""],rows:[
+            {label:"Simple",color:"#4A8FE7",cells:[{ch:"a",rom:"ah"},{ch:"o",rom:"oh"},{ch:"e",rom:"uh"},{ch:"i",rom:"ee"},{ch:"u",rom:"oo"}]},
+            {label:"Special",color:"#E85D75",cells:[{ch:"\u00FC",rom:"like French u"},{ch:"er",rom:"arr"},{ch:"",rom:""},{ch:"",rom:""},{ch:"",rom:""}]},
+            {label:"Compound",color:"#2ECDAB",cells:[{ch:"ai",rom:"eye"},{ch:"ei",rom:"ay"},{ch:"ao",rom:"ow"},{ch:"ou",rom:"oh"},{ch:"",rom:""}]},
+            {label:"Nasal -n",color:"#F5A623",cells:[{ch:"an",rom:"ahn"},{ch:"en",rom:"uhn"},{ch:"in",rom:"een"},{ch:"un",rom:"wen"},{ch:"\u00FCn",rom:"u-en"}]},
+            {label:"Nasal -ng",color:"#F5A623",cells:[{ch:"ang",rom:"ahng"},{ch:"eng",rom:"uhng"},{ch:"ing",rom:"eeng"},{ch:"ong",rom:"oong"},{ch:"",rom:""}]},
+          ]}},
+      ]},
+    {id:"zh_radicals",title:"Common Radicals",icon:"⿱",desc:"Radicals are building blocks of Chinese characters. Learn 20 key radicals to decode new characters.",
+      items:[
+        {fk:"fk_logograph_intro",title:"Basic radicals",audio_id:null,
+          desc:"Every Chinese character is made of components called radicals. Knowing radicals helps you guess meaning and look up characters. Here are 20 of the most common.",
+          grid:{cols:4,headers:["Radical","Meaning","Example",""],rows:[
+            {label:"People",color:"#4A8FE7",cells:[{ch:"人/亻",rom:"person"},{ch:"大",rom:"big"},{ch:"你 (you)",rom:"亻+ you"},{ch:"",rom:""}]},
+            {label:"Nature",color:"#2ECDAB",cells:[{ch:"水/氵",rom:"water"},{ch:"火/灬",rom:"fire"},{ch:"河 (river)",rom:"氵+ can"},{ch:"",rom:""}]},
+            {label:"Body",color:"#E85D75",cells:[{ch:"口",rom:"mouth"},{ch:"手/扌",rom:"hand"},{ch:"吃 (eat)",rom:"口+ beg"},{ch:"",rom:""}]},
+            {label:"Nature",color:"#F5A623",cells:[{ch:"木",rom:"tree/wood"},{ch:"日",rom:"sun/day"},{ch:"明 (bright)",rom:"日+ moon"},{ch:"",rom:""}]},
+            {label:"Place",color:"#9B7AE8",cells:[{ch:"门/門",rom:"door/gate"},{ch:"土",rom:"earth"},{ch:"地 (ground)",rom:"土+ also"},{ch:"",rom:""}]},
+          ]}},
+      ]},
+    {id:"zh_strokes",title:"Basic Strokes",icon:"✍️",desc:"8 fundamental stroke types used to write all Chinese characters",
+      items:[
+        {fk:"fk_stroke_order",title:"Stroke types",audio_id:null,
+          desc:"Chinese characters are written with a fixed set of strokes in a specific order. Learning the 8 basic strokes makes writing logical and consistent.",
+          grid:{cols:4,headers:["Stroke","Name","Direction","Example"],rows:[
+            {label:"1",color:"#4A8FE7",cells:[{ch:"\u4E00",rom:"horizontal"},{ch:"h\u00E9ng",rom:""},{ch:"left to right",rom:""},{ch:"\u4E00 (one)",rom:""}]},
+            {label:"2",color:"#4A8FE7",cells:[{ch:"\u4E28",rom:"vertical"},{ch:"sh\u00F9",rom:""},{ch:"top to bottom",rom:""},{ch:"\u5341 (ten)",rom:""}]},
+            {label:"3",color:"#2ECDAB",cells:[{ch:"\u4E3F",rom:"left-falling"},{ch:"pi\u011B",rom:""},{ch:"top-right to bottom-left",rom:""},{ch:"\u4EBA (person)",rom:""}]},
+            {label:"4",color:"#2ECDAB",cells:[{ch:"\u4E36",rom:"dot"},{ch:"di\u01CEn",rom:""},{ch:"quick press",rom:""},{ch:"\u516D (six)",rom:""}]},
+            {label:"5",color:"#E85D75",cells:[{ch:"\u2E81",rom:"right-falling"},{ch:"n\u00E0",rom:""},{ch:"top-left to bottom-right",rom:""},{ch:"\u516B (eight)",rom:""}]},
+            {label:"6",color:"#E85D75",cells:[{ch:"\u30D5",rom:"turning"},{ch:"zh\u00E9",rom:""},{ch:"changes direction",rom:""},{ch:"\u53E3 (mouth)",rom:""}]},
+            {label:"7",color:"#F5A623",cells:[{ch:"\u2E80",rom:"hook"},{ch:"g\u014Du",rom:""},{ch:"ends with upward flick",rom:""},{ch:"\u4E86 (le)",rom:""}]},
+            {label:"8",color:"#F5A623",cells:[{ch:"~",rom:"rising"},{ch:"t\u00ED",rom:""},{ch:"bottom-left to top-right",rom:""},{ch:"\u6211 (I/me)",rom:""}]},
+          ]}},
+      ]},
+  ]},
 };
 
 
@@ -3764,6 +3832,111 @@ export const FK_PLAYTHROUGH = {
   pt:{name:"Portuguese Foundations Play",icon:"🇧🇷",blueprint:"latin_simple",stages:[]},
   ro:{name:"Romanian Foundations Play",icon:"🇷🇴",blueprint:"latin_simple",stages:[]},
   ru:{name:"Russian Script Play",icon:"🇷🇺",blueprint:"cyrillic",stages:[]},
+  // ══════════════════════════════════════════════════════════════════
+  // CHINESE (MANDARIN) PINYIN & TONES PLAYTHROUGH
+  // 6 stages (Phase 0-5), ~12 lessons
+  // Follows SCRIPT_BLUEPRINTS.hanzi: orientation > tones > pinyin_initials > pinyin_finals > basic_strokes > radical_awareness
+  // ══════════════════════════════════════════════════════════════════
+  zh:{name:"Learn Pinyin & Tones",icon:"🇨🇳",blueprint:"hanzi",stages:[
+  // ── PHASE 0: Orientation (Chinese writing overview) ──
+  {id:"zh_fp_p0",title:"Phase 0: Chinese Writing",desc:"What Chinese characters are and how pinyin helps you read them",icon:"📝",
+    lessons:[
+      {id:"zh_fp_p0_l1",title:"Characters and Pinyin",icon:"📝",xp:15,board:true,steps:[
+        {type:"intro",title:"Welcome to Chinese!",desc:"Chinese uses characters (hanzi) instead of an alphabet. Each character represents a syllable with meaning. Pinyin is the official romanization system that shows you how to pronounce characters. You will learn pinyin first, then start recognizing characters.",goals:["Know what hanzi (characters) are","Know what pinyin is and why it matters","Understand tones are essential in Chinese"]},
+        {type:"teach",kind:"info",nl:"汉字",en:"Hanzi (Chinese characters)",phonetic:"hahn-dzuh",example:"山 川 日 月",exampleEn:"mountain, river, sun, moon",note:"Chinese has no alphabet. Each character is a unit of meaning and sound. There are about 3,000 characters in daily use. You will learn them gradually alongside pinyin."},
+        {type:"teach",kind:"info",nl:"拼音",en:"Pinyin (romanization)",phonetic:"pin-yin",example:"ni hao = 你好",exampleEn:"Pinyin spells out the pronunciation using Latin letters",note:"Pinyin uses the Latin alphabet plus tone marks to show exactly how to pronounce each character. It is the standard system used in mainland China and taught worldwide. It is your bridge to reading Chinese."},
+        {type:"teach",kind:"info",nl:"声调",en:"Tones",phonetic:"sheng-diao",example:"ma ma ma ma = four different words",exampleEn:"Same syllable, four tones, four completely different meanings",note:"Mandarin has 4 main tones plus a neutral tone. The tone is as important as the consonant and vowel. Saying the wrong tone changes the meaning entirely. You will master tones in the next phase."},
+        {type:"mc",q:"What is pinyin?",opts:["A type of Chinese character","The romanization system for Chinese pronunciation","A Chinese dialect","A tone mark"],ans:"The romanization system for Chinese pronunciation",hint:"It uses Latin letters to spell out how characters sound"},
+        {type:"mc",q:"How many tones does Mandarin have?",opts:["2","3","4 main tones (plus neutral)","6"],ans:"4 main tones (plus neutral)",hint:"Four distinct pitch patterns, each changing the meaning of a syllable"},
+        {type:"mc",q:"Why are tones important in Chinese?",opts:["They are optional stylistic choices","They change the meaning of words completely","They only matter in formal speech","They are the same as English stress"],ans:"They change the meaning of words completely",hint:"The syllable 'ma' means mother, hemp, horse, or scold depending on tone"},
+        {type:"tip",title:"Tones Are Not Optional",text:"In English, changing your pitch expresses emotion: 'Really?' (surprised) vs 'Really.' (flat).\nIn Chinese, changing pitch changes the WORD itself.\nma with tone 1 = mother.\nma with tone 3 = horse.\nGetting tones right is not about sounding polished. It is about being understood.",icon:"🔑"},
+      ]},
+    ]},
+  // ── PHASE 1: The Four Tones ──
+  {id:"zh_fp_p1",title:"Phase 1: The Four Tones",desc:"Master the 4 tones that make Chinese Chinese",icon:"🎵",
+    lessons:[
+      {id:"zh_fp_p1_l1",title:"Tones 1 and 2",icon:"🎵",xp:20,board:true,steps:[
+        {type:"intro",title:"Your First Two Tones",desc:"Tone 1 is high and flat, like sustaining a musical note. Tone 2 rises, like asking a surprised 'What?' in English. These two are the easiest to distinguish.",goals:["Produce Tone 1 (high flat)","Produce Tone 2 (rising)","Distinguish Tone 1 from Tone 2"]},
+        {type:"teach",kind:"info",nl:"第一声",en:"Tone 1: High Flat",phonetic:"",example:"ma (tone 1) = mother",exampleEn:"Hold a high, steady pitch. Like singing one sustained note.",note:"Tone 1 mark: macron (straight line above the vowel).\nExample: m\u0101 (mother), t\u0101 (he/she), b\u0101 (eight).\nKeep the pitch HIGH and FLAT. Do not let it drop."},
+        {type:"teach",kind:"info",nl:"第二声",en:"Tone 2: Rising",phonetic:"",example:"ma (tone 2) = hemp/numb",exampleEn:"Start mid-pitch and rise, like asking 'What?' in surprise.",note:"Tone 2 mark: acute accent (rising line above the vowel).\nExample: m\u00E1 (hemp), sh\u00ED (ten), m\u00EDng (name).\nThink of the questioning 'Huh?' or 'What?' intonation."},
+        {type:"mc",q:"Tone 1 sounds like:",opts:["A questioning rise","A sharp drop","A high sustained note","A dipping then rising sound"],ans:"A high sustained note",hint:"Think of holding one steady note while singing"},
+        {type:"mc",q:"Tone 2 sounds like:",opts:["A falling pitch","A flat pitch","A rising pitch, like asking 'What?'","A dip then rise"],ans:"A rising pitch, like asking 'What?'",hint:"Think of your voice when you ask a surprised question"},
+        {type:"mc",q:"Which tone mark is a straight line above the vowel?",opts:["Tone 2","Tone 3","Tone 4","Tone 1"],ans:"Tone 1",hint:"This mark looks like a flat, level line, matching the flat pitch"},
+      ]},
+      {id:"zh_fp_p1_l2",title:"Tones 3 and 4",icon:"🎵",xp:20,board:true,steps:[
+        {type:"intro",title:"Tones 3 and 4",desc:"Tone 3 dips low then rises slightly. Tone 4 drops sharply, like a stern command. These two give English speakers the most trouble.",goals:["Produce Tone 3 (dip-rise)","Produce Tone 4 (falling)","Distinguish all 4 tones"]},
+        {type:"teach",kind:"info",nl:"第三声",en:"Tone 3: Dip-Rise",phonetic:"",example:"ma (tone 3) = horse",exampleEn:"Start mid, dip LOW, then rise slightly. The dip is the key.",note:"Tone 3 mark: caron (v-shape above the vowel).\nExample: m\u01CE (horse), n\u01D0 (you), h\u01CEo (good).\nThe dip is the defining feature. In connected speech, Tone 3 often stays low without rising."},
+        {type:"teach",kind:"info",nl:"第四声",en:"Tone 4: Falling",phonetic:"",example:"ma (tone 4) = scold",exampleEn:"Start high and drop sharply, like saying 'No!' firmly.",note:"Tone 4 mark: grave accent (falling line above the vowel).\nExample: m\u00E0 (scold), sh\u00EC (is), d\u00E0 (big).\nShort and decisive. Think of an angry 'No!' or a firm command."},
+        {type:"teach",kind:"info",nl:"轻声",en:"Neutral Tone",phonetic:"",example:"mama = mom (second ma is neutral)",exampleEn:"Short, light, unstressed. No tone mark in pinyin.",note:"The neutral tone is short and light. It has no tone mark.\nCommon in: particles (de, le, ma), repeated syllables (mama),\nand some suffixes (zi in haizi 'child')."},
+        {type:"mc",q:"Tone 3 sounds like:",opts:["High and flat","Rising","Dipping low then rising slightly","Sharply falling"],ans:"Dipping low then rising slightly",hint:"The pitch goes down into a valley then comes back up a little"},
+        {type:"mc",q:"Tone 4 sounds like:",opts:["A question","A command: sharp and falling","A sustained note","A gentle dip"],ans:"A command: sharp and falling",hint:"Think of firmly saying 'No!' or giving a stern order"},
+        {type:"mc",q:"Which word means 'horse'?",opts:["m\u0101","m\u00E1","m\u01CE","m\u00E0"],ans:"m\u01CE",hint:"This tone dips low. The caron mark looks like a small valley"},
+        {type:"mc",q:"Which word means 'mother'?",opts:["m\u01CE","m\u00E0","m\u00E1","m\u0101"],ans:"m\u0101",hint:"This tone is high and flat. The mark is a straight line"},
+        {type:"tip",title:"Tone Sandhi: Two Third Tones",text:"When two Tone 3 syllables appear together, the first one changes to Tone 2.\nExample: n\u01D0 h\u01CEo is actually pronounced n\u00ED h\u01CEo.\nThis is called tone sandhi. It is automatic and universal.\nYou do not need to memorize it as a rule. Just listen and imitate.",icon:"💡"},
+      ]},
+    ]},
+  // ── PHASE 2: Pinyin Initials ──
+  {id:"zh_fp_p2",title:"Phase 2: Pinyin Initials",desc:"21 consonant sounds at the beginning of Chinese syllables",icon:"🔤",
+    lessons:[
+      {id:"zh_fp_p2_l1",title:"Easy Initials (b p m f, d t n l, g k h)",icon:"🔤",xp:20,board:true,steps:[
+        {type:"intro",title:"Familiar Consonants",desc:"Many Chinese initials sound similar to English. But watch out for b/p, d/t, g/k: in Chinese, the difference is aspiration (a puff of air), not voicing.",goals:["Know the 12 'easy' initials","Understand aspiration vs voicing","Pronounce b/p, d/t, g/k correctly"]},
+        {type:"teach",kind:"info",nl:"b p m f",en:"Labial initials",phonetic:"",example:"ba pa ma fa",exampleEn:"b=ball, p=pan(with puff), m=mom, f=fun",note:"b is like English b but unaspirated (no puff of air).\np is like English p WITH a strong puff of air.\nm and f are the same as English."},
+        {type:"teach",kind:"info",nl:"d t n l",en:"Alveolar initials",phonetic:"",example:"da ta na la",exampleEn:"d=dog, t=top(with puff), n=no, l=let",note:"d is unaspirated (like 'dog' but softer).\nt has a strong puff of air (hold your hand in front of your mouth).\nn and l are the same as English."},
+        {type:"teach",kind:"info",nl:"g k h",en:"Velar initials",phonetic:"",example:"ga ka ha",exampleEn:"g=go, k=key(with puff), h=hat",note:"g is unaspirated (like 'go' but softer).\nk has a strong puff of air.\nh is like English h but slightly more guttural, from the back of the throat."},
+        {type:"mc",q:"What is the key difference between Chinese b and p?",opts:["Voicing (vibration)","Aspiration (puff of air)","Tongue position","Lip shape"],ans:"Aspiration (puff of air)",hint:"Hold your hand near your mouth. One consonant blows air, the other does not."},
+        {type:"mc",q:"How many 'easy' initial groups are there?",opts:["2 groups","3 groups (labial, alveolar, velar)","4 groups","5 groups"],ans:"3 groups (labial, alveolar, velar)",hint:"Grouped by where in the mouth the sound is made"},
+        {type:"match",pairs:[{nl:"b",en:"ball (no puff)"},{nl:"p",en:"pan (with puff)"},{nl:"d",en:"dog (no puff)"},{nl:"t",en:"top (with puff)"}]},
+      ]},
+      {id:"zh_fp_p2_l2",title:"Tricky Initials (j q x, zh ch sh r, z c s)",icon:"🔤",xp:20,board:true,steps:[
+        {type:"intro",title:"The Hard Sounds",desc:"These 9 initials have no direct English equivalents. The palatals (j, q, x) and retroflexes (zh, ch, sh, r) are the hardest sounds for English speakers.",goals:["Distinguish palatals from retroflexes from dentals","Know that j/q/x only pair with i and u-umlaut","Produce the retroflex zh/ch/sh/r sounds"]},
+        {type:"teach",kind:"info",nl:"j q x",en:"Palatal initials",phonetic:"",example:"ji qi xi",exampleEn:"j=jee, q=chee(with puff), x=shee",note:"These sounds are made with the tongue touching the hard palate.\nj is like 'jee' but softer.\nq is like 'chee' WITH a puff of air.\nx is like 'shee' with tongue flat.\nThey ONLY appear before i or u-umlaut. Never before a, o, u."},
+        {type:"teach",kind:"info",nl:"zh ch sh r",en:"Retroflex initials",phonetic:"",example:"zhi chi shi ri",exampleEn:"Tongue curled back, touching the roof of the mouth",note:"Curl your tongue tip back toward the roof of your mouth.\nzh is like English 'j' in 'judge' but with curled tongue.\nch is like English 'ch' in 'church' but with curled tongue + puff.\nsh is like English 'sh' but with curled tongue.\nr is unique: like a buzzy 'r' with curled tongue."},
+        {type:"teach",kind:"info",nl:"z c s",en:"Dental initials",phonetic:"",example:"zi ci si",exampleEn:"z=adds, c=cats(with puff), s=sun",note:"Tongue tip touches the back of your front teeth.\nz is like 'ds' in 'adds' (NOT English 'z' buzz).\nc is like 'ts' in 'cats' WITH a puff of air.\ns is just like English 's' in 'sun'."},
+        {type:"mc",q:"The palatals j, q, x can only appear before:",opts:["a and o","Any vowel","i and u-umlaut only","u and e"],ans:"i and u-umlaut only",hint:"These sounds require the tongue to be in a high front position"},
+        {type:"mc",q:"Retroflex sounds (zh, ch, sh, r) are made by:",opts:["Pressing lips together","Curling the tongue tip back","Pressing tongue against teeth","Opening the mouth wide"],ans:"Curling the tongue tip back",hint:"The tongue tip touches the roof of the mouth behind the ridge"},
+        {type:"match",pairs:[{nl:"j q x",en:"Palatal (tongue on hard palate)"},{nl:"zh ch sh r",en:"Retroflex (tongue curled back)"},{nl:"z c s",en:"Dental (tongue on teeth)"}]},
+      ]},
+    ]},
+  // ── PHASE 3: Pinyin Finals ──
+  {id:"zh_fp_p3",title:"Phase 3: Pinyin Finals",desc:"The vowel sounds that complete each Chinese syllable",icon:"🗣️",
+    lessons:[
+      {id:"zh_fp_p3_l1",title:"Simple and Compound Finals",icon:"🗣️",xp:20,board:true,steps:[
+        {type:"intro",title:"The Vowel System",desc:"Chinese has 6 simple finals (single vowels), compound finals (vowel combinations), and nasal finals (ending in -n or -ng). Together with initials and tones, these make every possible Chinese syllable.",goals:["Know the 6 simple finals","Know the key compound finals","Distinguish -n from -ng endings"]},
+        {type:"teach",kind:"info",nl:"a o e i u \u00FC",en:"The 6 simple finals",phonetic:"",example:"a o e i u \u00FC",exampleEn:"ah, oh, uh, ee, oo, \u00FC (French u)",note:"a = open 'ah' as in 'father'.\no = rounded 'oh' as in 'more'.\ne = unrounded 'uh' (NOT English 'ee').\ni = 'ee' as in 'see'.\nu = 'oo' as in 'moon'.\n\u00FC = like French 'u' or German '\u00FC'. Round lips, say 'ee'."},
+        {type:"teach",kind:"info",nl:"ai ei ao ou",en:"Compound finals",phonetic:"",example:"ai ei ao ou",exampleEn:"ai=eye, ei=ay, ao=ow, ou=oh",note:"ai sounds like 'eye'.\nei sounds like 'ay' in 'say'.\nao sounds like 'ow' in 'how'.\nou sounds like 'oh' in 'go'.\nThese are smooth glides, not two separate vowels."},
+        {type:"teach",kind:"info",nl:"-n vs -ng",en:"Nasal finals",phonetic:"",example:"an ang, en eng, in ing",exampleEn:"-n ends with tongue on ridge, -ng ends with back of tongue",note:"-n: tongue tip touches the ridge behind upper teeth. (an, en, in)\n-ng: back of tongue rises. Mouth stays open. (ang, eng, ing)\nThis distinction is critical. Many minimal pairs differ only by -n vs -ng."},
+        {type:"mc",q:"The pinyin 'e' sounds like:",opts:["'ee' as in 'see'","'ay' as in 'say'","'uh' (unrounded, mid-back vowel)","'eh' as in 'bed'"],ans:"'uh' (unrounded, mid-back vowel)",hint:"This is the trickiest simple final for English speakers. It is NOT the 'e' you expect."},
+        {type:"mc",q:"How do -n and -ng differ?",opts:["They sound the same","-n uses tongue tip, -ng uses back of tongue","Volume difference only","-n is nasal, -ng is not"],ans:"-n uses tongue tip, -ng uses back of tongue",hint:"Feel where your tongue is when you say 'an' vs 'ang'"},
+        {type:"match",pairs:[{nl:"ai",en:"eye"},{nl:"ei",en:"ay (say)"},{nl:"ao",en:"ow (how)"},{nl:"ou",en:"oh (go)"}]},
+      ]},
+    ]},
+  // ── PHASE 4: Basic Strokes ──
+  {id:"zh_fp_p4",title:"Phase 4: Writing Basics",desc:"The fundamental strokes and stroke order rules for Chinese characters",icon:"✍️",
+    lessons:[
+      {id:"zh_fp_p4_l1",title:"Eight Basic Strokes",icon:"✍️",xp:15,board:true,steps:[
+        {type:"intro",title:"How Characters Are Built",desc:"Every Chinese character, no matter how complex, is made from combinations of just 8 basic stroke types. Learning these strokes and the order rules makes writing logical.",goals:["Know the 8 basic stroke types","Understand top-to-bottom, left-to-right stroke order","Write simple characters using basic strokes"]},
+        {type:"teach",kind:"info",nl:"\u6A2A \u7AD6 \u6487 \u6346",en:"The Four Core Strokes",phonetic:"heng shu pie na",example:"\u4E00 (horizontal) \u4E28 (vertical) \u4E3F (left-falling) \u4E36 (dot/right-falling)",exampleEn:"These four strokes build 80% of all characters",note:"Horizontal (heng): left to right. Like writing a dash.\nVertical (shu): top to bottom. Like drawing a line down.\nLeft-falling (pie): top-right to bottom-left. A diagonal slash.\nDot/right-falling (na): top-left to bottom-right, or a quick press."},
+        {type:"teach",kind:"info",nl:"笔顺规则",en:"Stroke Order Rules",phonetic:"bi shun gui ze",example:"\u5341 = horizontal first, then vertical",exampleEn:"Top to bottom, left to right, outside before inside",note:"Rule 1: Top to bottom (\u4E09: three horizontals, top first).\nRule 2: Left to right (\u5DDD: three verticals, left first).\nRule 3: Horizontal before vertical (\u5341: horizontal then vertical).\nRule 4: Outside before inside (\u56DE: outer box first)."},
+        {type:"mc",q:"How many basic stroke types are there in Chinese?",opts:["4","6","8","12"],ans:"8",hint:"A classic mnemonic in Chinese calligraphy uses the character yong (forever) which contains all of them"},
+        {type:"mc",q:"When writing the character for 'ten' (\u5341), which stroke comes first?",opts:["The vertical stroke","The horizontal stroke","Either one","They are written simultaneously"],ans:"The horizontal stroke",hint:"The rule is: horizontal before vertical when they cross"},
+      ]},
+    ]},
+  // ── PHASE 5: Radical Awareness ──
+  {id:"zh_fp_p5",title:"Phase 5: Radicals",desc:"Learn to decode characters using their component parts",icon:"⿱",
+    lessons:[
+      {id:"zh_fp_p5_l1",title:"Character Building Blocks",icon:"⿱",xp:15,board:true,steps:[
+        {type:"intro",title:"Radicals: The DNA of Characters",desc:"Most characters are compounds made of smaller parts. The radical often hints at the meaning, while the other component hints at the pronunciation. Learning common radicals lets you guess meanings of new characters.",goals:["Know what a radical is","Recognize 10 high-frequency radicals","Use radicals to guess character meaning"]},
+        {type:"teach",kind:"info",nl:"亻(人)",en:"Person radical",phonetic:"ren",example:"\u4ED6 (he), \u4F60 (you), \u4F4F (live), \u4F5C (do/make)",exampleEn:"All have the 'person' radical on the left",note:"When 人 (person) appears as a radical on the left side of a character, it becomes a thin version: 亻.\nCharacters with 亻 often relate to people or human actions."},
+        {type:"teach",kind:"info",nl:"氵(水)",en:"Water radical",phonetic:"shui",example:"\u6CB3 (river), \u6D77 (sea), \u6C61 (lake), \u6D17 (wash)",exampleEn:"All have the 'water' radical on the left",note:"水 (water) becomes three drops 氵 when used as a radical.\nCharacters with 氵 almost always relate to water, liquids, or flowing."},
+        {type:"teach",kind:"info",nl:"口",en:"Mouth radical",phonetic:"kou",example:"\u5403 (eat), \u5582 (hey), \u5537 (oh), \u5473 (taste)",exampleEn:"All have the 'mouth' radical",note:"口 (mouth) keeps its shape as a radical.\nCharacters with 口 often relate to eating, speaking, or sounds."},
+        {type:"teach",kind:"info",nl:"木",en:"Tree/Wood radical",phonetic:"mu",example:"\u6797 (forest), \u684C (table), \u679C (fruit), \u6821 (school)",exampleEn:"All have the 'tree' radical",note:"木 (tree) appears in characters related to wood, trees, and things made of wood.\nTwo trees = 林 (forest/grove). Three trees = 森 (dense forest)."},
+        {type:"mc",q:"A character with 氵 on the left probably relates to:",opts:["Fire","People","Water","Metal"],ans:"Water",hint:"This radical is three drops, representing a liquid element"},
+        {type:"mc",q:"The radical 亻 is a simplified form of:",opts:["大 (big)","人 (person)","口 (mouth)","木 (tree)"],ans:"人 (person)",hint:"When this character appears as a component on the left, it becomes slimmer"},
+        {type:"mc",q:"Why are radicals useful for learners?",opts:["They tell you the exact pronunciation","They help guess meaning of unknown characters","They are required for typing","They replace pinyin"],ans:"They help guess meaning of unknown characters",hint:"The radical component often connects to the semantic field of the character"},
+        {type:"tip",title:"Semantic + Phonetic = Most Characters",text:"About 80% of Chinese characters are 'phono-semantic compounds'.\nOne part hints at meaning (the radical), the other hints at pronunciation.\nExample: 妈 (mother) = 女 (woman radical) + 马 (horse, gives the 'ma' sound).\nThis is NOT random. Once you know common radicals, you can decode thousands of characters.",icon:"🔑"},
+      ]},
+    ]},
+  ]},
 };
 
 // ══════════════════════════════════════════════════════════════════
@@ -4325,6 +4498,79 @@ title:"Kana Gate Quiz",
     C:"Phase 4-5: Practice reading dakuten, combo sounds, and long vowels.",
     D:"Phase 7: Practice reading katakana specials, long vowels, and double consonants.",
     E:"Phase 0: Review the three-script system and when each script is used.",
+  },
+  },
+  // ══════════════════════════════════════════════════════════════
+  // CHINESE GATE QUIZ — Test out of Pinyin/Tones Foundations
+  // ══════════════════════════════════════════════════════════════
+  zh:{
+  title:"Pinyin & Tones Gate Quiz",
+  desc:"Already know pinyin and tones? Pass this quiz to skip Foundations.",
+  passCriteria:{AB:90,C:85,DE:80},
+  tasks:[
+    // ── Task A: Tone Identification (10 items, category AB) ──
+    {id:"gate_a",title:"Task A: Tone Identification",desc:"Identify the correct tone for each pinyin syllable.",type:"mc",category:"AB",items:[
+      {q:"Which tone is marked with a straight line above the vowel ( \u0304 )?",opts:["Tone 2 (rising)","Tone 1 (high flat)","Tone 3 (dip-rise)","Tone 4 (falling)"],ans:"Tone 1 (high flat)"},
+      {q:"m\u01CE means 'horse'. What tone is this?",opts:["Tone 1","Tone 2","Tone 3","Tone 4"],ans:"Tone 3"},
+      {q:"sh\u00EC means 'is/yes'. What tone is this?",opts:["Tone 1","Tone 2","Tone 3","Tone 4"],ans:"Tone 4"},
+      {q:"m\u00E1 means 'hemp/numb'. What tone is this?",opts:["Tone 1","Tone 2","Tone 3","Tone 4"],ans:"Tone 2"},
+      {q:"When two Tone 3 syllables appear together, the first changes to:",opts:["Tone 1","Tone 2","Tone 4","It stays Tone 3"],ans:"Tone 2"},
+      {q:"b\u00F9 (not) before a Tone 4 word changes to:",opts:["Tone 1","Tone 2","Tone 3","It stays Tone 4"],ans:"Tone 2"},
+      {q:"The neutral tone is:",opts:["Always marked with a dot","Short, light, and has no mark","The same as Tone 1","Only used in questions"],ans:"Short, light, and has no mark"},
+      {q:"d\u0101 means 'hit'. What tone is this?",opts:["Tone 4","Tone 3","Tone 2","Tone 1"],ans:"Tone 1"},
+      {q:"Which tone drops sharply from high to low?",opts:["Tone 1","Tone 2","Tone 3","Tone 4"],ans:"Tone 4"},
+      {q:"Which tone starts mid, dips low, then rises slightly?",opts:["Tone 1","Tone 2","Tone 3","Tone 4"],ans:"Tone 3"},
+    ]},
+    // ── Task B: Pinyin Initial Recognition (10 items, category AB) ──
+    {id:"gate_b",title:"Task B: Pinyin Initials",desc:"Identify the correct pronunciation for each initial.",type:"mc",category:"AB",items:[
+      {q:"The initial 'q' in pinyin sounds like:",opts:["English 'k'","'ch' with a puff of air (palatal)","English 'q'","A click sound"],ans:"'ch' with a puff of air (palatal)"},
+      {q:"The initial 'x' in pinyin sounds like:",opts:["English 'x' (ks)","'sh' with tongue flat (palatal)","English 's'","A buzzing sound"],ans:"'sh' with tongue flat (palatal)"},
+      {q:"Retroflex initials (zh, ch, sh, r) are made by:",opts:["Pressing lips together","Curling the tongue tip backward","Pressing tongue on teeth","Blowing air through lips"],ans:"Curling the tongue tip backward"},
+      {q:"The difference between Chinese 'b' and 'p' is:",opts:["Voicing","Aspiration (puff of air)","Lip position","Volume"],ans:"Aspiration (puff of air)"},
+      {q:"'j', 'q', 'x' can only appear before which finals?",opts:["a, o, u","Any final","i and \u00FC only","e and o"],ans:"i and \u00FC only"},
+      {q:"The initial 'c' in pinyin sounds like:",opts:["English 'c' in 'cat'","'ts' in 'cats' with a puff","English 's'","English 'ch'"],ans:"'ts' in 'cats' with a puff"},
+      {q:"The initial 'z' in pinyin sounds like:",opts:["English 'z' (buzzing)","'ds' in 'adds' (no buzz)","English 'th'","English 'j'"],ans:"'ds' in 'adds' (no buzz)"},
+      {q:"Which group are the dental initials?",opts:["b p m f","j q x","zh ch sh r","z c s"],ans:"z c s"},
+      {q:"Which group are the palatal initials?",opts:["b p m f","j q x","zh ch sh r","z c s"],ans:"j q x"},
+      {q:"The initial 'r' in Chinese is closest to:",opts:["English 'r' in 'red'","A buzzy retroflex sound","French 'r'","English 'l'"],ans:"A buzzy retroflex sound"},
+    ]},
+    // ── Task C: Pinyin Finals (8 items, category C) ──
+    {id:"gate_c",title:"Task C: Pinyin Finals",desc:"Identify vowel sounds and nasal endings.",type:"mc",category:"C",items:[
+      {q:"The pinyin 'e' (alone) sounds like:",opts:["'ee' as in 'see'","'uh' (unrounded mid-back vowel)","'eh' as in 'bed'","'ay' as in 'say'"],ans:"'uh' (unrounded mid-back vowel)"},
+      {q:"'\u00FC' sounds like:",opts:["English 'oo'","French 'u' (lips rounded, say 'ee')","English 'uh'","English 'you'"],ans:"French 'u' (lips rounded, say 'ee')"},
+      {q:"How do -n and -ng endings differ?",opts:["They sound the same","-n uses tongue tip, -ng uses back of tongue","Only pitch differs","-n is louder"],ans:"-n uses tongue tip, -ng uses back of tongue"},
+      {q:"'ai' sounds like:",opts:["English 'eye'","English 'ay'","English 'ah'","English 'oi'"],ans:"English 'eye'"},
+      {q:"'ou' sounds like:",opts:["English 'oo'","English 'oh' (as in 'go')","English 'ow' (as in 'cow')","English 'oi'"],ans:"English 'oh' (as in 'go')"},
+      {q:"'ao' sounds like:",opts:["English 'ah'","English 'oh'","English 'ow' (as in 'cow')","English 'oo'"],ans:"English 'ow' (as in 'cow')"},
+      {q:"In 'ian', the actual pronunciation is closer to:",opts:["ee-an","ee-en","yan","yen"],ans:"ee-en"},
+      {q:"'iu' is actually short for:",opts:["ee-oo","ee-oh-oo (iou)","oo-ee","ih-uh"],ans:"ee-oh-oo (iou)"},
+    ]},
+    // ── Task D: Character/Radical Recognition (8 items, category DE) ──
+    {id:"gate_d",title:"Task D: Radical Recognition",desc:"Identify common radicals and their meanings.",type:"mc",category:"DE",items:[
+      {q:"The radical \u4ebb relates to:",opts:["Water","Person","Fire","Wood"],ans:"Person"},
+      {q:"The radical \u6C35 relates to:",opts:["Earth","Metal","Water","Sun"],ans:"Water"},
+      {q:"The radical \u53E3 relates to:",opts:["Hand","Mouth","Eye","Ear"],ans:"Mouth"},
+      {q:"The radical \u6728 relates to:",opts:["Fire","Metal","Stone","Tree/Wood"],ans:"Tree/Wood"},
+      {q:"In the character \u5987 (m\u0101, mother), which part is the radical?",opts:["\u5973 (woman)","马 (horse)","Both equally","Neither"],ans:"\u5973 (woman)"},
+      {q:"Characters with \u706B/\u706C radical usually relate to:",opts:["Water","Fire/Heat","Wind","Earth"],ans:"Fire/Heat"},
+      {q:"What percentage of characters are phono-semantic compounds?",opts:["About 20%","About 50%","About 80%","About 95%"],ans:"About 80%"},
+      {q:"In a phono-semantic compound, the radical typically hints at:",opts:["Pronunciation","Meaning","Tone","Stroke count"],ans:"Meaning"},
+    ]},
+    // ── Task E: Pinyin Reading (5 items, category DE) ──
+    {id:"gate_e",title:"Task E: Read Pinyin",desc:"Read pinyin words and identify correct meanings.",type:"mc",category:"DE",items:[
+      {q:"n\u01D0 h\u01CEo means:",opts:["Goodbye","Hello/You good","Thank you","Sorry"],ans:"Hello/You good"},
+      {q:"xi\u00E8xie means:",opts:["Hello","Sorry","Thank you","Goodbye"],ans:"Thank you"},
+      {q:"z\u00E0iji\u00E0n means:",opts:["Hello","Sorry","Good morning","Goodbye"],ans:"Goodbye"},
+      {q:"du\u00EC bu q\u01D0 means:",opts:["Thank you","Sorry","You're welcome","Hello"],ans:"Sorry"},
+      {q:"l\u01CEosh\u012B means:",opts:["Student","Doctor","Teacher","Friend"],ans:"Teacher"},
+    ]},
+  ],
+  diagnosticRouting:{
+    A:"Phase 1: Practice the four tones and tone marks.",
+    B:"Phase 2: Study the 21 pinyin initials, especially palatals and retroflexes.",
+    C:"Phase 3: Practice pinyin finals, especially compound and nasal finals.",
+    D:"Phase 5: Study common radicals and character composition.",
+    E:"Phase 0-1: Review basic Chinese concepts and start with pinyin and tones.",
   },
   },
 };

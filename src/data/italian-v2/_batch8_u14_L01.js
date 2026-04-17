@@ -95,6 +95,6 @@ const BATCH8_L1 = {id:"itv2_u14l_b8_1", title:"Comunicare al lavoro", icon:"📧
  q:"What became mandatory for Italian businesses in 2019?",
  opts:["Fattura elettronica (electronic invoicing)","Email communication","Overtime limits","Union membership"],
  ans:"Fattura elettronica (electronic invoicing)",
- hint:"'Fattura' means invoice. Italy digitized this process to combat tax evasion."}
+ hint:"Italy digitized its billing process in 2019 to combat tax evasion. This digital mandate applies to all businesses."}
 ]};
 export default BATCH8_L1;

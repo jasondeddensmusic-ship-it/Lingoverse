@@ -95,6 +95,6 @@ const BATCH8_L1 = {id:"itv2_u30l_b8_1", title:"Concessione e contrasto", icon:"â
  q:"What does 'l'eccezione conferma la regola' mean?",
  opts:["The exception proves the rule","Exceptions destroy rules","Rules have no exceptions","Exceptions are more important than rules"],
  ans:"The exception proves the rule",
- hint:"This common expression argues that the existence of exceptions actually validates the general rule they deviate from."}
+ hint:"This common expression argues that the existence of exceptions actually validates the general principle they deviate from."}
 ]};
 export default BATCH8_L1;

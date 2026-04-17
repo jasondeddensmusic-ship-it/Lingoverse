@@ -95,6 +95,6 @@ const BATCH8_L1 = {id:"itv2_u22l_b8_1", title:"Design e architettura", icon:"üè
  q:"What does 'a fresco' literally mean in art?",
  opts:["On fresh (wet plaster)","In cold weather","With fresh colors","Under fresh air"],
  ans:"On fresh (wet plaster)",
- hint:"The technique involves applying pigment to wet plaster. The paint bonds chemically with the wall as it dries."}
+ hint:"This painting technique involves applying pigment directly onto a freshly prepared surface. The paint bonds chemically as the surface dries."}
 ]};
 export default BATCH8_L1;
