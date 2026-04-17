@@ -244,7 +244,7 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
  q:"Which sentence means 'I fell in love with the city'?",
  opts:["Eu me apaixonei pela cidade.","Eu amei a cidade.","Eu me mudei pela cidade.","Eu me senti pela cidade."],
  ans:"Eu me apaixonei pela cidade.",
- hint:"Reflexive + 'por' + object. 'Pela' = por + a."},
+ hint:"Reflexive + 'por' + object. '___' = por + a."},
 
 {type:"match", pairs:[
  {trg:"chamar-se", src:"to be named"},

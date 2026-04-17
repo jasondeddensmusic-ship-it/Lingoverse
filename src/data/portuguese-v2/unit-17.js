@@ -251,7 +251,7 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
  q:"In Brazilian Portuguese, where does the pronoun 'me' usually go?",
  opts:["After the verb with a hyphen","Before the verb","At the end of the sentence","Between two verbs"],
  ans:"Before the verb",
- hint:"BR prefers pre-verb position. PT prefers post-verb."}
+ hint:"BR prefers pre-___ position. PT prefers post-___."}
 ]},
 
 {id:"ptv2_u17l4", title:"Double Pronouns", icon:"🔀", xp:15, board:true, steps:[
@@ -324,7 +324,7 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
  q:"Which is the most natural Brazilian way to say 'I told him the secret'?",
  opts:["Eu lho contei.","Eu lhe contei.","Eu contei-lho.","Eu disse ele."],
  ans:"Eu lhe contei.",
- hint:"Keep 'lhe' for the indirect object, drop the direct object because context is clear."},
+ hint:"Keep '___' for the indirect object, drop the direct object because context is clear."},
 
 {type:"match", pairs:[
  {trg:"me empresta", src:"lend me"},

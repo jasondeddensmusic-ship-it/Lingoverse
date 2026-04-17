@@ -52,7 +52,7 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
 
 {type:"fb", s:"Nós {1} com o professor depois da aula.", a:["falamos"], opts:["falamos","falei","falaram","falou"], hint:"Subject is nós, so use the first person plural preterite of falar.", sSrc:"We {1} with the teacher after class."},
 
-{type:"mc", q:"Which sentence uses the preterite correctly?", opts:["Ela falou comigo ontem","Ela fala comigo ontem","Ela falamos ontem","Ela falaram ontem"], ans:"Ela falou comigo ontem", hint:"Ela is third person singular. Match the subject to the correct past-tense ending."},
+{type:"mc", q:"Which sentence uses the preterite correctly?", opts:["Ela falou comigo ontem","Ela fala comigo ontem","Ela falamos ontem","Ela falaram ontem"], ans:"Ela falou comigo ontem", hint:"___ is third person singular. Match the subject to the correct past-tense ending."},
 
 {type:"fb", s:"Você {1} com a minha mãe na festa?", a:["falou"], opts:["falou","falei","falamos","falaram"], hint:"Você takes the same ending as ele or ela in the preterite.", sSrc:"Did you {1} with my mother at the party?"},
 
@@ -257,7 +257,7 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
 
 {type:"fb", s:"O que você {1} no final de semana?", a:["fez"], opts:["fez","fiz","fizemos","fizeram"], hint:"Você takes the third person singular of fazer in the preterite.", sSrc:"What did you {1} on the weekend?"},
 
-{type:"mc", q:"Which sentence is correct?", opts:["Nós fomos à praia ontem","Nós foi à praia ontem","Nós fui à praia ontem","Nós foram à praia ontem"], ans:"Nós fomos à praia ontem", hint:"Nós is first person plural. Use the -mos form of ir/ser."},
+{type:"mc", q:"Which sentence is correct?", opts:["Nós fomos à praia ontem","Nós foi à praia ontem","Nós fui à praia ontem","Nós foram à praia ontem"], ans:"Nós fomos à praia ontem", hint:"___ is first person plural. Use the -mos form of ir/ser."},
 
 {type:"fb", s:"Ontem eu {1} um problema com o carro.", a:["tive"], opts:["tive","teve","tivemos","tiveram"], hint:"Subject is eu, past tense of ter, irregular stem.", sSrc:"Yesterday I {1} a problem with the car."},
 
@@ -280,7 +280,7 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
  exampleSrc:"A: When did you get married?\nB: I got married last year.\nA: Congratulations!\nB: Thank you, it was beautiful.",
  funFact:"Portuguese says 'no ano passado' with the article no. Unlike English, the year is always 'the' in Portuguese time phrases."},
 
-{type:"mc", q:"'Vocês já foram ao Brasil?' is asking:", opts:["Have you all ever been to Brazil?","Are you going to Brazil?","Will you go to Brazil?","Do you go to Brazil?"], ans:"Have you all ever been to Brazil?", hint:"Já + preterite often translates as 'have ever' in English."}
+{type:"mc", q:"'Vocês já foram ao Brasil?' is asking:", opts:["Have you all ever been to Brazil?","Are you going to Brazil?","Will you go to Brazil?","Do you go to Brazil?"], ans:"Have you all ever been to Brazil?", hint:"Já + preterite often translates as 'have ___' in English."}
 ]}
 
 ]}; export default UNIT_13;

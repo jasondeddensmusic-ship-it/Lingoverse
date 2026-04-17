@@ -193,7 +193,7 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
  q:"What is 'custo-benefício'?",
  opts:["cost-benefit","profit margin","interest rate","sales target"],
  ans:"cost-benefit",
- hint:"A fixed expression pairing cost against value gained."},
+ hint:"A fixed expression pairing ___ against value gained."},
 
 {type:"drag_fill",
  s:"O {1} alto e a {2} feroz reduzem a margem de lucro.",
@@ -264,7 +264,7 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
  q:"What does 'chegar a um acordo' mean?",
  opts:["to arrive at the meeting","to reach an agreement","to sign a contract","to send a proposal"],
  ans:"to reach an agreement",
- hint:"Think literally: 'chegar' (arrive) + 'acordo' (agreement)."},
+ hint:"Think literally: 'chegar' (arrive) + 'acordo' (___)."},
 
 {type:"fb",
  s:"A {1} com o cliente é amanhã pela manhã.",

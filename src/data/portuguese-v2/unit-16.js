@@ -66,7 +66,7 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
 
 {type:"fb", s:"Espero que você {1} cedo amanhã.", a:["venha"], opts:["venha","vem","veio","virá"], hint:"Subjunctive after espero que. Use irregular form of vir.", sSrc:"I hope you {1} early tomorrow."},
 
-{type:"mc", q:"Which sentence uses the subjunctive correctly?", opts:["Quero que ela fala comigo","Quero que ela fale comigo","Quero que ela falou comigo","Quero que ela falará comigo"], ans:"Quero que ela fale comigo", hint:"Querer que is a trigger. The verb must be in the subjunctive."},
+{type:"mc", q:"Which sentence uses the subjunctive correctly?", opts:["Quero que ela fala comigo","Quero que ela fale comigo","Quero que ela falou comigo","Quero que ela falará comigo"], ans:"Quero que ela fale comigo", hint:"___rer ___ is a trigger. The verb must be in the subjunctive."},
 
 {type:"fb", s:"Espero que nós {1} a tempo.", a:["cheguemos"], opts:["cheguemos","chegamos","chegaremos","chegávamos"], hint:"Subjunctive of chegar for nós. Watch the spelling: c > qu before e.", sSrc:"I hope we {1} on time."},
 
@@ -87,7 +87,7 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
  exampleSrc:"A: I want her to know the truth.\nB: Are you going to tell her?\nA: I am, tonight.\nB: Be brave.",
  funFact:"Saber has one of the most unexpected subjunctive forms: saiba. It does not follow the eu-form rule. Memorize it."},
 
-{type:"mc", q:"Choose the correct subjunctive pair.", opts:["espero que ele venha","espero que ele vem","espero que ele veio","espero que ele virá"], ans:"espero que ele venha", hint:"Esperar que triggers the subjunctive. Venha is the irregular form."}
+{type:"mc", q:"Choose the correct subjunctive pair.", opts:["espero que ele venha","espero que ele vem","espero que ele veio","espero que ele virá"], ans:"espero que ele venha", hint:"Esperar ___ triggers the subjunctive. ___ is the irregular form."}
 ]},
 
 {id:"ptv2_u16l2", title:"Trigger Verbs: querer, esperar, duvidar", icon:"🔔", xp:15, board:true, steps:[
@@ -165,7 +165,7 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
 
 {type:"fb", s:"Espero que você {1} bem.", a:["esteja"], opts:["esteja","está","esteve","estará"], hint:"Esperar que + estar in subjunctive.", sSrc:"I hope you {1} well."},
 
-{type:"mc", q:"Which sentence correctly uses the subjunctive?", opts:["Quero que você estuda mais","Quero que você estude mais","Quero que você estudou mais","Quero que você estudará mais"], ans:"Quero que você estude mais", hint:"Querer que triggers the subjunctive. Flip -ar to -e."},
+{type:"mc", q:"Which sentence correctly uses the subjunctive?", opts:["Quero que você estuda mais","Quero que você estude mais","Quero que você estudou mais","Quero que você estudará mais"], ans:"Quero que você estude mais", hint:"___rer ___ triggers the subjunctive. Flip -ar to -e."},
 
 {type:"fb", s:"É importante que nós {1} cedo.", a:["cheguemos"], opts:["cheguemos","chegamos","chegaremos","chegávamos"], hint:"Impersonal trigger + subjunctive. First person plural of chegar. Spelling: c > qu before e.", sSrc:"It is important that we {1} early."},
 
@@ -180,7 +180,7 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
 
 {type:"fb", s:"Peço que vocês {1} em silêncio durante a prova.", a:["fiquem"], opts:["fiquem","ficam","ficaram","ficarão"], hint:"Peço que + subjunctive. Third person plural of ficar.", sSrc:"I ask that you all {1} silent during the exam."},
 
-{type:"mc", q:"When do you use the subjunctive?", opts:["When both verbs have the same subject","When two subjects are different and the trigger verb is emotion/doubt/wish","Only in questions","Only in the past"], ans:"When two subjects are different and the trigger verb is emotion/doubt/wish", hint:"Different subjects + trigger verb is the core rule."},
+{type:"mc", q:"When do you use the subjunctive?", opts:["When both verbs have the same subject","When two subjects are different and the trigger verb is emotion/doubt/wish","Only in questions","Only in the past"], ans:"When two subjects are different and the trigger verb is emotion/doubt/wish", hint:"___ ___ + ___ ___ is the core rule."},
 
 {type:"fb", s:"É preciso que ele {1} a verdade.", a:["diga"], opts:["diga","diz","disse","dirá"], hint:"Impersonal trigger + subjunctive. Dizer has an irregular subjunctive.", sSrc:"It is necessary that he {1} the truth."},
 
@@ -190,7 +190,7 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
  exampleSrc:"A: I want you to tell me the truth.\nB: I will tell you, wait.\nA: I am ready.\nB: Then let's go.",
  funFact:"Diga appears in headlines: 'Diga sim' (Say yes), 'Diga não' (Say no). Imperative and subjunctive share the form."},
 
-{type:"mc", q:"'Talvez ele esteja certo' uses the subjunctive because:", opts:["Talvez expresses uncertainty","Ele is singular","Certo is an adjective","It is a question"], ans:"Talvez expresses uncertainty", hint:"Talvez is a trigger for the subjunctive. Uncertainty demands it."}
+{type:"mc", q:"'Talvez ele esteja certo' uses the subjunctive because:", opts:["Talvez expresses uncertainty","Ele is singular","Certo is an adjective","It is a question"], ans:"Talvez expresses uncertainty", hint:"___ is a trigger for the subjunctive. ___ demands it."}
 ]}
 
 ]}; export default UNIT_16;

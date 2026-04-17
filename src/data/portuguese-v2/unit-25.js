@@ -250,7 +250,7 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
  q:"What does 'na minha opinião' mean?",
  opts:["in my head","in my opinion","in my way","in my house"],
  ans:"in my opinion",
- hint:"The most common B2 opinion phrase."},
+ hint:"The most common B2 ___ phrase."},
 
 {type:"fb",
  s:"A {1} profissional é importante em qualquer carreira.",

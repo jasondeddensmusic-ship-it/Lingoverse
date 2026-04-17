@@ -64,9 +64,9 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 
 {type:"fb", s:"Eles {1} chegar às oito da noite.", a:["vão"], opts:["vão","vai","vou","vamos"], hint:"Third person plural of ir. They + infinitive = they are going to.", sSrc:"They {1} arrive at eight at night."},
 
-{type:"mc", q:"Which sentence describes a future plan?", opts:["Eu vou para o médico amanhã","Eu fui para o médico ontem","Eu vou para o médico agora","Eu ia para o médico"], ans:"Eu vou para o médico amanhã", hint:"Vou + amanhã = future plan. Ontem and agora rule out the future."},
+{type:"mc", q:"Which sentence describes a future plan?", opts:["Eu vou para o médico amanhã","Eu fui para o médico ontem","Eu vou para o médico agora","Eu ia para o médico"], ans:"Eu vou para o médico amanhã", hint:"___ + amanhã = future plan. Ontem and agora rule out the future."},
 
-{type:"fb", s:"Ela {1} trabalhar no sábado.", a:["vai"], opts:["vai","vou","vamos","vão"], hint:"Ela is third person singular. Match with the vai form.", sSrc:"She {1} work on Saturday."},
+{type:"fb", s:"Ela {1} trabalhar no sábado.", a:["vai"], opts:["vai","vou","vamos","vão"], hint:"Ela is third person singular. Match with the ___ form.", sSrc:"She {1} work on Saturday."},
 
 {type:"match", pairs:[
   {trg:"eu vou estudar", src:"I am going to study"},

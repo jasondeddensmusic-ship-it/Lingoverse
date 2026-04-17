@@ -52,7 +52,7 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
 
 {type:"fb", s:"Quando era criança, eu {1} todo dia.", a:["estudava"], opts:["estudava","estudei","estudamos","estudavam"], hint:"Childhood habits call for the imperfect, not the preterite.", sSrc:"When I was a child, I {1} every day."},
 
-{type:"mc", q:"Which sentence describes a habit?", opts:["Ele estudava todo dia","Ele estudou ontem","Ele estuda agora","Ele vai estudar amanhã"], ans:"Ele estudava todo dia", hint:"Estudava is the imperfect, perfect for habits. Todo dia confirms repetition."},
+{type:"mc", q:"Which sentence describes a habit?", opts:["Ele estudava todo dia","Ele estudou ontem","Ele estuda agora","Ele vai estudar amanhã"], ans:"Ele estudava todo dia", hint:"___ is the imperfect, perfect for habits. ___ ___ confirms repetition."},
 
 {type:"fb", s:"Meus pais {1} perto da escola.", a:["moravam"], opts:["moravam","morava","morávamos","moraram"], hint:"Plural third person imperfect of morar.", sSrc:"My parents {1} near the school."},
 
@@ -73,7 +73,7 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
  exampleSrc:"A: Did you use to like chocolate as a child?\nB: I loved it! I ate it every day.\nA: Me too.\nB: I think there is no child who did not like it.",
  funFact:"Preferences, feelings, and tastes almost always go in the imperfect when describing the past. Gostar is a feelings verb, so expect imperfect."},
 
-{type:"mc", q:"Which sentence correctly uses the imperfect for a description?", opts:["Ela estudava francês naquela época","Ela estudou naquela época","Ela estuda naquela época","Ela vai estudar naquela época"], ans:"Ela estudava francês naquela época", hint:"Naquela época (in those days) signals an ongoing past state."}
+{type:"mc", q:"Which sentence correctly uses the imperfect for a description?", opts:["Ela estudava francês naquela época","Ela estudou naquela época","Ela estuda naquela época","Ela vai estudar naquela época"], ans:"Ela estudava francês naquela época", hint:"___ época (in those days) signals an ongoing past state."}
 ]},
 
 {id:"ptv2_u14l2", title:"-er and -ir Imperfect", icon:"🌙", xp:15, board:true, steps:[
@@ -145,7 +145,7 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
 
 {type:"fb", s:"Quando era criança, eu {1} muito doce.", a:["comia"], opts:["comia","comi","comíamos","comiam"], hint:"Subject is eu, childhood habit, -er imperfect form.", sSrc:"When I was a child, I {1} a lot of sweets."},
 
-{type:"mc", q:"Which sentence uses the imperfect correctly?", opts:["Eles saíam todo sábado","Eles saem todo sábado","Eles saíram todo sábado","Eles vão sair todo sábado"], ans:"Eles saíam todo sábado", hint:"Saíam is the plural imperfect. Habitual action every Saturday."},
+{type:"mc", q:"Which sentence uses the imperfect correctly?", opts:["Eles saíam todo sábado","Eles saem todo sábado","Eles saíram todo sábado","Eles vão sair todo sábado"], ans:"Eles saíam todo sábado", hint:"___ is the plural imperfect. Habitual action every Saturday."},
 
 {type:"fb", s:"Nós {1} cedo para ir à escola.", a:["dormíamos"], opts:["dormíamos","dormia","dormiam","dormimos"], hint:"First person plural imperfect of dormir. Accent on í.", sSrc:"We {1} early to go to school."},
 
@@ -160,7 +160,7 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
 
 {type:"fb", s:"{1} criança, eu tinha muitos amigos.", a:["Quando"], opts:["Quando","Enquanto","Depois","Antes"], hint:"Trigger phrase for an imperfect memory. 'When I was a child' starts with this word.", sSrc:"{1} I was a child, I had many friends."},
 
-{type:"mc", q:"Which is a habit in the past?", opts:["Ele costumava andar de bicicleta","Ele andou de bicicleta ontem","Ele anda de bicicleta","Ele vai andar de bicicleta"], ans:"Ele costumava andar de bicicleta", hint:"Costumava = used to. Marks a past habit explicitly."}
+{type:"mc", q:"Which is a habit in the past?", opts:["Ele costumava andar de bicicleta","Ele andou de bicicleta ontem","Ele anda de bicicleta","Ele vai andar de bicicleta"], ans:"Ele costumava andar de bicicleta", hint:"___ = used to. Marks a past habit explicitly."}
 ]},
 
 {id:"ptv2_u14l3", title:"Irregular Imperfects and Contrast", icon:"🎬", xp:15, board:true, steps:[
@@ -254,7 +254,7 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
 
 {type:"fb", s:"A casa {1} grande e bonita.", a:["era"], opts:["era","foi","é","vai ser"], hint:"Description of a past scene. Ser in imperfect.", sSrc:"The house {1} big and beautiful."},
 
-{type:"mc", q:"Which uses the imperfect for description?", opts:["Fazia sol e o céu estava azul","Fez sol e o céu ficou azul","Faz sol e o céu está azul","Vai fazer sol e o céu vai estar azul"], ans:"Fazia sol e o céu estava azul", hint:"Weather and past scenes use the imperfect. Fazia = was."},
+{type:"mc", q:"Which uses the imperfect for description?", opts:["Fazia sol e o céu estava azul","Fez sol e o céu ficou azul","Faz sol e o céu está azul","Vai fazer sol e o céu vai estar azul"], ans:"Fazia sol e o céu estava azul", hint:"Weather and past scenes use the imperfect. ___ = was."},
 
 {type:"teach", trg:"fazia sol", src:"it was sunny", pos:"verb", gender:null,
  note:"Weather expression in the imperfect.\nDescribes past weather scenes.",

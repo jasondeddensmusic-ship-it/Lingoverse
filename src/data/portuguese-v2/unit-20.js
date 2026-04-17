@@ -158,7 +158,7 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
  q:"Which sentence is correct?",
  opts:["Sem nós pedir, ele ajudou.","Sem nós pedirmos, ele ajudou.","Sem pedirmos nós, ele ajudou.","Sem pedir nós, ele ajudou."],
  ans:"Sem nós pedirmos, ele ajudou.",
- hint:"Subject 'nós' triggers the personal infinitive with the -mos ending."},
+ hint:"Subject '___' triggers the personal infinitive with the -mos ending."},
 
 {type:"drag_fill",
  s:"Para nós {1} cedo, é preciso vocês {2} tudo a tempo.",
@@ -223,7 +223,7 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
  q:"Choose the correct sentence:",
  opts:["É importante nós comer tudo.","É importante nós comermos tudo.","É importante nós comemos tudo.","É importante comemos tudo nós."],
  ans:"É importante nós comermos tudo.",
- hint:"After 'é importante', when the subject is explicit, use the personal infinitive."},
+ hint:"After 'é ___', when the subject is explicit, use the personal infinitive."},
 
 {type:"fb",
  s:"Convém vocês {1} agora mesmo.",
@@ -251,7 +251,7 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
  q:"Which sentence uses the personal infinitive correctly?",
  opts:["É bom nós estudar.","É bom nós estudarmos.","É bom estudares nós.","É bom estudamos nós."],
  ans:"É bom nós estudarmos.",
- hint:"Subject 'nós' takes the -mos ending on the infinitive."},
+ hint:"Subject '___' takes the -mos ending on the infinitive."},
 
 {type:"mc",
  q:"What is the main advantage of the personal infinitive over the subjunctive?",

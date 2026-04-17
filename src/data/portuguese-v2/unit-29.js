@@ -176,7 +176,7 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
  s:"Não acredite em tudo, muita coisa é {1}.",
  a:["fake news"],
  opts:["fake news","opinião","entrevista","debate"],
- hint:"False stories spreading as real news. Kept in English.",
+ hint:"False stories spreading as real ___. Kept in English.",
  sSrc:"Don't believe everything, a lot is {1}."},
 
 {type:"match", pairs:[

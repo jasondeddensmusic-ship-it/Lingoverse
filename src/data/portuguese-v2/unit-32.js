@@ -169,7 +169,7 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
  q:"What does 'clima' mean?",
  opts:["earth","climate / weather","environment","forest"],
  ans:"climate / weather",
- hint:"The long-term weather pattern of a region. Sounds like the English word."},
+ hint:"The long-term ___ pattern of a region. Sounds like the English word."},
 
 {type:"fb",
  s:"O {1} está mudando por causa das atividades humanas.",

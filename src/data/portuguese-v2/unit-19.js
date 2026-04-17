@@ -44,7 +44,7 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
  q:"How do you say 'hotter than'?",
  opts:["menos quente que","tão quente quanto","mais quente que","muito quente"],
  ans:"mais quente que",
- hint:"Superiority pattern: mais + adjective + que."},
+ hint:"Superiority pattern: ___ + adjective + ___."},
 
 {type:"mc",
  q:"Choose the comparison of equality:",
@@ -78,7 +78,7 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
  q:"Which sentence uses inferiority correctly?",
  opts:["Paulo é menos alto do que Ana.","Paulo é tão alto quanto Ana.","Paulo é mais alto que Ana.","Paulo menos alto Ana."],
  ans:"Paulo é menos alto do que Ana.",
- hint:"Inferiority: menos + adjective + que/do que."}
+ hint:"Inferiority: ___ + adjective + ___/do ___."}
 ]},
 
 {id:"ptv2_u19l2", title:"Irregular Comparatives", icon:"🌟", xp:15, board:true, steps:[
@@ -217,7 +217,7 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
  q:"How do you say 'the most beautiful city'?",
  opts:["a mais bonita cidade","a cidade mais bonita","a cidade maior bonita","a cidade muito bonita"],
  ans:"a cidade mais bonita",
- hint:"Article + noun + mais + adjective. Adjective usually follows the noun."},
+ hint:"Article + noun + ___ + adjective. Adjective usually follows the noun."},
 
 {type:"mc",
  q:"What does 'lindíssimo' mean?",
@@ -257,7 +257,7 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
  q:"Choose the correct superlative: 'Este é ___ café da cidade.'",
  opts:["mais melhor o","o mais melhor","o melhor","melhor o"],
  ans:"o melhor",
- hint:"Irregular superlative. Never combine 'mais' with 'melhor'."},
+ hint:"Irregular superlative. Never combine 'mais' with '___'."},
 
 {type:"drag_fill",
  s:"Essa música é {1} que aquela, mas aquela é {2} famosa do ano.",

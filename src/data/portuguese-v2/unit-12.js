@@ -163,7 +163,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
 {type:"mc", q:"Which sentence means 'I have a reservation at the hotel'?",
  opts:["Tenho uma mala no hotel","Tenho uma reserva no hotel","Tenho uma passagem no hotel","Tenho uma estação no hotel"],
  ans:"Tenho uma reserva no hotel",
- hint:"The word 'reserva' covers bookings for rooms or tables."}
+ hint:"The word '___' covers bookings for rooms or tables."}
 ]},
 
 {id:"ptv2_u12l3", title:"Verbos de viagem", icon:"🧳", xp:15, board:true, steps:[
