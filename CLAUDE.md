@@ -289,10 +289,10 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Dutch | v2 | 89 | 5,106 | mock | COMPLETE. Grammar needs teacher-board rewrite. |
 | French | v2 | 90 | 5,036 | 52 entries | COMPLETE. 98% of German. |
 | Spanish | v2 | 92 | 5,124 | 53 entries | COMPLETE. 100% of German. |
-| Italian | v2 | 36 | 603 | 51 entries | POLISHED. Foundations, grammar, interleaving, CEFR ref done. Needs density expansion to ~5K. |
-| Japanese | v2 | 36 | 603 | 54 entries | POLISHED. Foundations, kanji+furigana, grammar, CEFR ref done. Needs density expansion to ~5K. |
+| Italian | v2 | 36 | 5,013 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. |
+| Japanese | v2 | 36 | 4,978 | 54 entries | POLISHED. Foundations (kana+kanji), kanji+furigana ALL cards, grammar (54), CEFR ref, dialogue scaling done. |
 
-**Grand total: ~27,000+ teach cards across 7 languages. Build passes.**
+**Grand total: ~30,500+ teach cards across 7 languages. Build passes.**
 **Grammar modules: 365 entries across 7 languages (Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch mock).**
 
 ### Build History (compact)
@@ -307,8 +307,7 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 - **V2 upgrades** (2026-04-12-15): Korean/Dutch/French/Spanish/Italian/Japanese all V2. 7 languages live.
 
 ### Known Blockers
-1. **Italian + Japanese density gap** — Only 603 teach cards each (not ~5K). Need massive density expansion.
-2. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56).
+1. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56).
 3. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537).
 4. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing.
 
@@ -318,13 +317,16 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 
 ## Next Priorities (updated 2026-04-15)
 
-> Latest handoff: `docs/SESSION_HANDOFF_2026-04-17.md`. Italian+Japanese polished. Density expansion needed (603 each, not 5K).
+> Latest handoff: `docs/SESSION_HANDOFF_2026-04-17.md`. Italian+Japanese fully polished. All 7 languages at ~5K teach cards.
 
-### ACTIVE: Italian + Japanese Density Expansion
-1. **Italian density expansion** — 603 → ~5,000 teach cards. Use proven 11-batch density pipeline.
-2. **Japanese density expansion** — 603 → ~5,000 teach cards. ALL new cards MUST use kanji+furigana.
-3. **Full PP validation** — PP8/PP43/PP48/PP52/PP59/PP61/PP64/PP22c on both languages after expansion.
+### ACTIVE: Next Language Expansion
+1. **Chinese (Mandarin)** — 9.65M EN learners. HIGH effort (tones, hanzi, Foundations). Follow LANGUAGE_INTEGRATION_PIPELINE.
+2. **Portuguese** — 7.33M learners + bidirectional with Spanish. MEDIUM effort (Romance, Latin script).
+3. **Russian** — 5.4M learners. MEDIUM-HIGH effort (Cyrillic, cases).
+
+### Polish Remaining
 4. **A2 dialogue scaling** — Italian: 138 dialogues need 3+ turns. Japanese: 28 need 3+ turns.
+5. **Kanji+furigana in Japanese batch files** — The 4,375 teach cards in batch files still use pure hiragana. Need the same conversion as the 603 unit-file cards.
 
 ### Feature Polish (deferred)
 7. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors.
