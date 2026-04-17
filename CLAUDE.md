@@ -263,6 +263,8 @@ Five leak types. ALL must be zero:
 6. Cross-check official word lists DURING build. Zero gaps before merging.
 7. PP8 hint-leak scan before every commit. Takes 5 seconds.
 8. Verify lower-level vocab has teach cards before building higher levels.
+9. **MANDATORY: Run `npm run build` after EVERY merge-conflict resolution, before pushing.** Root cause of the 2026-04-17 build outage (PRs #178–#180 all failed CI) was 32 Russian unit files shipping with literal `<<<<<<< HEAD` / `=======` / `>>>>>>> origin/main` markers embedded in source. `git status` showed "clean" because the markers were committed. Only `npm run build` catches this. Also run `grep -rE '^(<<<<<<<|=======|>>>>>>>)' src/` after any conflict resolution — must return zero.
+10. **CI watch: after merging to main, run `gh run watch <id> --exit-status`** (or `gh run list --workflow="Build and Deploy to Mijndomein" --limit 1` to check). Do not declare work complete or write handoff text until main is green.
 
 ### Rule D: Edit Safety
 1. Use `\n` escape in JS strings, never literal newlines. Verify build after edits.
