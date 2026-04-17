@@ -58,7 +58,7 @@ const BATCH6_L1 = {
      funFact:"感動(かんどう) combines 感 (feel) and 動 (move). Being 感動(かんどう)した (deeply moved) by art, nature, or human kindness is valued in Japanese culture. The phrase 感動(かんどう)を与(あた)える (to give emotional impact) describes great art's purpose. Award speeches in Japan often begin with 感動(かんどう)しています (I am deeply moved)."},
 
     {type:"teach", trg:"想像(そうぞう)", src:"imagination / creativity", pos:"noun", gender:null,
-     note:"想像力(そうぞうりょく) = imagination/creativity power.\nNote: 創造(そうぞう) (to create) is a homophone — context distinguishes them.",
+     note:"想像力(そうぞうりょく) = imagination/creativity power.\nNote: 創造(そうぞう) (to create) is a homophone. Context distinguishes them.",
      example:"A: 子供(こども)の想像力(そうぞうりょく)は素晴(すば)らしいですね。\nB: 大人(おとな)も想像力(そうぞうりょく)を大切(たいせつ)にすべきです。\nA: その経験(けいけん)から何(なに)を学(まな)びましたか？\nB: 事前(じぜん)の準備(じゅんび)がいかに重要(じゅうよう)かを学(まな)びました。\nA: 具体的(ぐたいてき)にどんな準備(じゅんび)をすべきですか？\nB: まず情報収集(じょうほうしゅうしゅう)をして、それから計画(けいかく)を練(ね)ることが大事(だいじ)です。",
      exampleSrc:"A: Children's imagination is wonderful.\nB: Adults should also value creativity.\nA: What did you learn from that experience?\nB: I learned how important advance preparation is.\nA: What kind of preparation should be done specifically?\nB: First, gather information, then it is important to develop a plan.",
      funFact:"Japanese has two そうぞう: 想像(そうぞう) (imagination, to picture in one's mind) and 創造(そうぞう) (creation, to make something new). Both are essential to literature and art. Japan's creative industries (anime, manga, games, fashion) generate over $200 billion annually, making そうぞう a national economic asset."},

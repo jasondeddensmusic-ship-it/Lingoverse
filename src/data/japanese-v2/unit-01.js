@@ -23,7 +23,7 @@ const UNIT_01 = {
 
       {type:"tip", title:"How to Read Japanese in This Course",
        text:"Japanese uses three scripts: hiragana, katakana, and kanji.\n\nIn this course, kanji always appears with its reading in parentheses:\n\n先生(せんせい) = sensei (teacher)\n\nThe characters before the parentheses are kanji (meaning).\nThe hiragana inside ( ) tells you how to pronounce it.\n\nSome words mix kanji and hiragana:\n食(た)べる = taberu (to eat)\nThe kanji 食 is read た, and べる is the verb ending.\n\nGreetings like こんにちは are written in hiragana only, no kanji needed.",
-       deepDive:"You learned hiragana and katakana in Foundations. Now you will see kanji with furigana (readings) throughout every lesson.\n\nExamples you will see:\n- 天気(てんき) = tenki (weather) — both kanji have readings\n- お元気(げんき) = ogenki (well/healthy) — お is hiragana prefix, 元気 is kanji\n- 大(おお)きい = ookii (big) — kanji stem + hiragana ending\n\nYou do NOT need to memorize kanji right now. Just read the hiragana in parentheses. Over time, you will naturally start recognizing the kanji."},
+       deepDive:"You learned hiragana and katakana in Foundations. Now you will see kanji with furigana (readings) throughout every lesson.\n\nExamples you will see:\n- 天気(てんき) = tenki (weather): both kanji have readings\n- お元気(げんき) = ogenki (well/healthy): お is hiragana prefix, 元気 is kanji\n- 大(おお)きい = ookii (big): kanji stem + hiragana ending\n\nYou do NOT need to memorize kanji right now. Just read the hiragana in parentheses. Over time, you will naturally start recognizing the kanji."},
 
 
       {type:"teach", trg:"こんにちは", src:"hello / good afternoon", pos:"intj", gender:null,

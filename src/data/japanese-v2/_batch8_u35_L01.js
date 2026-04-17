@@ -37,7 +37,7 @@ const BATCH8_L1 = {
      funFact:"Japan's 個人情報保護法(こじんじょうほうほごほう) (APPI) was significantly strengthened in 2022, approaching EU GDPR standards. 個人情報(こじんじょうほう)の漏洩(ろうえい) (data breaches) at companies face heavy penalties and public apology press conferences. マイナンバー (individual number system) connects government services but privacy concerns persist."},
 
     {type:"mc", q:"What is Japan's approach to AI ethics regulation?", opts:["Soft law guidelines rather than strict legislation","No regulation at all","Stricter than the EU","Complete ban on AI development"], ans:"Soft law guidelines rather than strict legislation",
-     hint:"Japan prefers flexible guidelines over the EU's stricter regulatory approach."},
+     hint:"Japan favors flexible, non-binding principles over the EU's harder regulatory approach."},
 
     {type:"teach", trg:"ディープフェイク", src:"deepfake", pos:"noun", gender:null,
      note:"Loanword. ディープフェイク動画(どうが) = deepfake video.\n生成(せいせい)AIで作(つく)られる偽(にせ)の映像(えいぞう).",
@@ -94,7 +94,7 @@ const BATCH8_L1 = {
      hint:"This loanword describes the gap between those who can and cannot use digital technology."},
 
     {type:"mc", q:"What did Japan create in 2021 to address digital issues?", opts:["デジタル庁(ちょう) (Digital Agency)","AI police force","Robot army","Virtual government"], ans:"デジタル庁(ちょう) (Digital Agency)",
-     hint:"This new government agency coordinates Japan's digital transformation efforts."}
+     hint:"This new ministry-level body was created in 2021 to lead Japan's transformation into a digitalized society."}
   ]
 };
 export default BATCH8_L1;

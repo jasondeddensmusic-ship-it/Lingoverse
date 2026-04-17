@@ -22,7 +22,7 @@ const BATCH7_L1 = {
      note:"Na-adjective. Opposite of 静(しず)か.\nにぎやかな町(まち) = a lively town.",
      example:"A: 渋谷(しぶや)はにぎやかですね。\nB: はい、いつも人(ひと)が多(おお)いです。",
      exampleSrc:"A: Shibuya is lively, isn't it?\nB: Yes, there are always many people.",
-     funFact:"にぎやか (賑やか) originally described marketplaces full of noise and activity. In Japanese, being にぎやか is positive, suggesting energy, fun, and community. A にぎやかな家族(かぞく)のディナーは暖(あたた)かく楽(たの)しい場面(ばめん) — a warm, happy family dinner scene."},
+     funFact:"にぎやか (賑やか) originally described marketplaces full of noise and activity. In Japanese, being にぎやか is positive, suggesting energy, fun, and community. A にぎやかな家族(かぞく)のディナーは暖(あたた)かく楽(たの)しい場面(ばめん), meaning a warm, happy family dinner scene."},
 
     {type:"teach", trg:"やさしい人(ひと)", src:"kind person", pos:"noun", gender:null,
      note:"やさしい (kind/gentle) + 人(ひと) (person).\nHere やさしい means kind (優(やさ)しい), not easy.",

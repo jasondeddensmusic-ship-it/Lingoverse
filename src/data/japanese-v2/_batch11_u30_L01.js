@@ -105,7 +105,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"「的(てき)」の接尾辞(せつびじ)はどんな役割(やくわり)ですか？",
      opts:["Turns nouns into adjectives","Turns verbs into nouns","Makes words plural","Creates past tense"],
      ans:"Turns nouns into adjectives",
-     hint:"This suffix converts concept nouns into descriptive adjectives: 論理(ろんり) > 論理的(ろんりてき) (logical), 科学(かがく) > 科学的(かがくてき) (scientific)."}
+     hint:"This suffix transforms abstract concepts into descriptive modifiers: 論理(ろんり) > 論理的(ろんりてき) (logical), 科学(かがく) > 科学的(かがくてき) (scientific)."}
   ]
 };
 export default BATCH11_L1;

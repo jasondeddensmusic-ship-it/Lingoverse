@@ -112,7 +112,7 @@ const BATCH7_L1 = {
     {type:"mc", q:"Japan approved Level 4 autonomous driving in 2023 primarily for:",
      opts:["Rural areas where elderly face transportation challenges","Tokyo highway traffic","Racing competitions","Delivery drones"],
      ans:"Rural areas where elderly face transportation challenges",
-     hint:"The focus is solving mobility issues in areas with limited public transport and aging drivers."},
+     hint:"The focus is solving mobility problems for aging populations in places with limited public transport."},
 
     {type:"match", pairs:[
       {trg:"個人情報(こじんじょうほう)", src:"personal data"},

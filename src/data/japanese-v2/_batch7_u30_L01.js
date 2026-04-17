@@ -101,7 +101,7 @@ const BATCH7_L1 = {
     {type:"mc", q:"Japanese academic writing places the 結論(けつろん):",
      opts:["At the end (bottom-up structure)","At the beginning (top-down)","In the middle","Nowhere specific"],
      ans:"At the end (bottom-up structure)",
-     hint:"Following the 起承転結(きしょうてんけつ) structure, the conclusion comes after development and a twist."},
+     hint:"Following the 起承転結(きしょうてんけつ) pattern, the final part arrives only after development and a turn."},
 
     {type:"fb", s:"それは{1}的(てき)な意見(いけん)ですね。データも必要(ひつよう)です。",
      a:["主観(しゅかん)"],
