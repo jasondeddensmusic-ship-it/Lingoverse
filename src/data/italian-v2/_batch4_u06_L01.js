@@ -133,6 +133,6 @@ const BATCH4_U06_L1 = {
      opts:["An iconic Italian scooter made by Piaggio","A type of Italian bus","A high-speed train","A taxi service"],
      ans:"An iconic Italian scooter made by Piaggio",
      hint:"Its name means 'wasp' in I... and it was created in 1946."}
-  ,{type:"match",pairs:[{trg:"la fermata",src:"the stop (bus/tram)"},{trg:"la patente",src:"(review)"}]}]
+  ,{type:"match",pairs:[{trg:"la fermata",src:"the stop (bus/tram)"},{trg:"la patente",src:"the driver's license"}]}]
 };
 export default BATCH4_U06_L1;

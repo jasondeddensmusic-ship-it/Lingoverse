@@ -88,6 +88,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"目(め)からうろこ describes:", opts:["A sudden moment of understanding","Being unable to see","Crying with happiness","Feeling sleepy"], ans:"A sudden moment of understanding",
      hint:"This expression describes the revelation of seeing something clearly for the first time."}
-  ,{type:"match",pairs:[{trg:"ことわざ",src:"proverb / saying"},{trg:"石(いし)の上(うえ)にも三年(さんねん)",src:"patience pays off (sit on a stone for 3 years)"},{trg:"目(め)からうろこ",src:"(review)"},{trg:"耳(みみ)にたこができる",src:"to be sick of hearing something (calluses form on ears)"}]}]
+  ,{type:"match",pairs:[{trg:"ことわざ",src:"proverb / saying"},{trg:"石(いし)の上(うえ)にも三年(さんねん)",src:"patience pays off (sit on a stone for 3 years)"},{trg:"目(め)からうろこ",src:"scales falling from one's eyes (a revelation)"},{trg:"耳(みみ)にたこができる",src:"to be sick of hearing something (calluses form on ears)"}]}]
 };
 export default BATCH6_L1;

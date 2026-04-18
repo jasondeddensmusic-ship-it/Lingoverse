@@ -116,6 +116,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"思(おも)い出(で) means:",
      opts:["memory/remembrance","future plan","promise","dream"], ans:"memory/remembrance",
      hint:"Thoughts that come out when you reflect on the past."}
-  ,{type:"match",pairs:[{trg:"卒業(そつぎょう)",src:"graduation"},{trg:"引(ひ)っ越(こ)し",src:"moving (house)"},{trg:"思(おも)い出(で)",src:"memory / remembrance"},{trg:"成人式(せいじんしき)",src:"coming-of-age ceremony"},{trg:"お葬式(おそうしき)",src:"funeral"},{trg:"七五三(しちごさん)",src:"(review)"}]},{type:"match",pairs:[{trg:"約束(やくそく)",src:"promise / appointment"}]}]
+  ,{type:"match",pairs:[{trg:"卒業(そつぎょう)",src:"graduation"},{trg:"引(ひ)っ越(こ)し",src:"moving (house)"},{trg:"思(おも)い出(で)",src:"memory / remembrance"},{trg:"成人式(せいじんしき)",src:"coming-of-age ceremony"},{trg:"お葬式(おそうしき)",src:"funeral"},{trg:"七五三(しちごさん)",src:"Seven-Five-Three ceremony"}]},{type:"match",pairs:[{trg:"約束(やくそく)",src:"promise / appointment"}]}]
 };
 export default BATCH4_L_2;

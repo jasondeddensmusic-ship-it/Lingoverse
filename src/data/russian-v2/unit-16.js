@@ -228,7 +228,7 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
   {trg:"к другу", src:"to a friend"},
   {trg:"с мамой", src:"with mom"}
 ]}
-,{type:"match",pairs:[{trg:"у меня нет",src:"(review)"},{trg:"для мамы",src:"for mom (GEN)"}]}]}
+,{type:"match",pairs:[{trg:"у меня нет",src:"I don't have"},{trg:"для мамы",src:"for mom (GEN)"}]}]}
 
 ]};
 export default UNIT_16;

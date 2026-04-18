@@ -87,6 +87,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"お疲(つか)れ様(さま)です is used:", opts:["As a general workplace greeting at any time","Only when someone is visibly tired","Only when leaving the office","Only to superiors"], ans:"As a general workplace greeting at any time",
      hint:"This versatile phrase works as hello, goodbye, and acknowledgment in the w...."}
-  ,{type:"match",pairs:[{trg:"お疲(つか)れ様(さま)です",src:"thank you for your hard work (workplace greeting)"},{trg:"伝言(でんごん)をお願(ねが)いできますか",src:"may I leave a message? (phone)"},{trg:"検討(けんとう)させていただきます",src:"we will consider it (business polite decline)"},{trg:"折(お)り返(かえ)し",src:"return (phone call) / turning back"},{trg:"ご丁寧(ていねい)に",src:"(review)"},{trg:"幸(さいわ)い",src:"fortunate / happy / blessed"}]}]
+  ,{type:"match",pairs:[{trg:"お疲(つか)れ様(さま)です",src:"thank you for your hard work (workplace greeting)"},{trg:"伝言(でんごん)をお願(ねが)いできますか",src:"may I leave a message? (phone)"},{trg:"検討(けんとう)させていただきます",src:"we will consider it (business polite decline)"},{trg:"折(お)り返(かえ)し",src:"return (phone call) / turning back"},{trg:"ご丁寧(ていねい)に",src:"how kind of you / how polite (appreciating someone's politeness)"},{trg:"幸(さいわ)い",src:"fortunate / happy / blessed"}]}]
 };
 export default BATCH5_L_2;
