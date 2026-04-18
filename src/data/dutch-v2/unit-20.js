@@ -106,7 +106,7 @@ export default {n:20,lang:"nl",srcLang:"en",track:"v2",title:"B1 Klaar!",sub:"Di
         {type:"mc",q:"'Het product is beschadigd aangekomen.' What does 'beschadigd' mean?",opts:["Damaged","Lost","Late","Returned"],ans:"Damaged",hint:"be- + schade + -d: what does this adjective mean?"},
         {type:"drag_fill",hint:"I look forward to hearing. Would you be so kind?",s:"Ik {1} graag van u. {2} u zo vriendelijk willen zijn om te antwoorden?",blanks:{"1":"hoor","2":"Zou"},pool:["hoor","Zou","schrijf","Kunt"]},
         {type:"match",pairs:[{trg:"beschadigd",src:"damaged"},{trg:"vervangend product",src:"replacement product"},{trg:"mijn bestelling",src:"my order"},{trg:"op prijs stellen",src:"to appreciate"}]},
-        {type:"fb",opts:["Met","Van","Uit","Bij"],hint:"Kind regards = Met vriendelijke groet",s:"___ vriendelijke groet, Jan de Vries.",a:"Met"},
+        {type:"fb",opts:["Met","Van","Uit","Bij"],hint:"Dutch formal email closing: ___ vriendelijke groet (the opening word of 'Kind regards')",s:"___ vriendelijke groet, Jan de Vries.",a:"Met"},
         {type:"mc",q:"You use 'u' instead of 'jij' in a complaint email because:",opts:["The person is older","It is formal business writing","You are angry","The email is long"],ans:"It is formal business writing",hint:"___ register requires 'u'"},
         {type:"fb",opts:["Zou","Kunt","Wilt","Moet"],hint:"Would you be so kind as to...",s:"___ u zo vriendelijk willen zijn om een nieuw product te sturen?",a:"Zou"}
   ]},
@@ -192,5 +192,5 @@ export default {n:20,lang:"nl",srcLang:"en",track:"v2",title:"B1 Klaar!",sub:"Di
         {type:"match",pairs:[{trg:"het kopje",src:"little cup (het-word)"},{trg:"de vervuiling",src:"the pollution"},{trg:"gemiddeld",src:"on average"},{trg:"uiteindelijk",src:"eventually"}]},
         {type:"mc",q:"All Dutch diminutives become:",opts:["De-words","Het-words","Either de or het","No article needed"],ans:"Het-words",hint:"Diminutive of 'kop': always neuter article"},
         {type:"tip",title:"🔮 Wat Komt Er Hierna? (B2 Preview)",text:"At B2 you will learn:\n\n📖 Longer, more complex texts (newspaper editorials,\n   short stories, academic summaries)\n\n📐 More passive constructions (worden + past tenses)\n\n📐 Extended conditional (als...zou...hebben)\n\n📐 Subjunctive remnants (het zij zo, moge het lukken)\n\n📐 Academic register (wetenschappelijke teksten)\n\n📐 Idiomatic expressions (op de hoogte zijn,\n   aan de slag gaan, voor de hand liggen)\n\n📐 Nuanced opinion & argumentation\n\n📐 Literary Dutch (reading comprehension)\n\nBut that's for later.\nFor now: you are B1.\n\nJe hebt het gehaald. Gefeliciteerd! 🎉\n= You made it. Congratulations!\n\n🇳🇱 Tot ziens bij B2! 🇳🇱"}
-  ]}
+  ,{type:"match",pairs:[{trg:"het broodje",src:"the bread roll / sandwich"}]}]}
 ]};

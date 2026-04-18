@@ -149,7 +149,7 @@ export default {n:19,lang:"nl",srcLang:"en",track:"v2",title:"Nederland & De Wer
           text:"The Dutch are famous for tolerance:\nearly LGBTQ+ rights, legalized euthanasia,\ncoffee shops, the Red Light District.\n\nBut 'tolerance' in Dutch is more like:\n'gedogen' = to allow/tolerate without approving.\nIt's pragmatism more than idealism.\n\nAnd in recent decades, debates about immigration,\nidentity, and integration show that tolerance\nhas its limits and complexities.\n\nThe Netherlands is both very progressive\nand more complicated than the stereotype."
         },text:"1. Verjaardagen: Everyone sits in a CIRCLE.\nYou congratulate not just the birthday person,\nbut EVERYONE: 'Gefeliciteerd met je vader!'\n= Congratulations with your father! (on his birthday)\n\n2. Directheid: Dutch people say what they think.\n'Dat is niet zo'n goed idee.' = That's not a great idea.\nNot rude  -  just Dutch.\n\n3. Afspraken: Always make an appointment.\nDon't just 'drop by'. Even friends schedule visits.\n'Zullen we een keer afspreken?' = Shall we meet sometime?\n\n4. Gelijkheid: The Netherlands is very egalitarian.\nThe boss makes coffee. The intern gives opinions.\n'Iedereen is gelijk.' = Everyone is equal.\n\n5. Fiets: The bicycle is not transport  -  it's identity.\n'Geen fiets? Geen Nederlander.'\n= No bike? Not ___."},
         {type:"mc",q:"'Gezellig' can mean:",opts:["Cozy, fun, sociable, pleasant  -  depends on context","Only fun","Only cozy","Only warm"],ans:"Cozy, fun, sociable, pleasant  -  depends on context",hint:"The most untranslatable Dutch word"},
-        {type:"fb",opts:["Doe","Ben","Ga","Maak"],hint:"Just ACT normal",s:"___ maar normaal, dan doe je al gek genoeg.",a:"Doe"},
+        {type:"fb",opts:["Doe","Ben","Ga","Maak"],hint:"Dutch motto: act normal, that is already crazy enough",s:"___ maar normaal! (famous Dutch saying)",a:"Doe"},
         {type:"match",pairs:[{trg:"gezellig",src:"cozy/fun/sociable"},{trg:"nuchter",src:"down-to-earth"},{trg:"doe maar normaal",src:"just act normal"},{trg:"de verjaardag",src:"the birthday"}]},
         {type:"fb",opts:["gezellig","nuchter","normaal","groot"],hint:"The most untranslatable Dutch word: cozy/fun/sociable",s:"Wat een ___ feestje!",a:"gezellig"},
         {type:"mc",q:"'Nuchter' can mean both:",opts:["Happy and sad","Sober and pragmatic/down-to-earth","Fast and slow","Loud and quiet"],ans:"Sober and pragmatic/down-to-earth",hint:"Not drunk AND also a practical worldview"},
@@ -183,5 +183,5 @@ export default {n:19,lang:"nl",srcLang:"en",track:"v2",title:"Nederland & De Wer
         {type:"tr",mk:"v2u19_growing_problem",dir:"produce"},
         {type:"tr",mk:"v2u19_closed_door",dir:"produce"},
         {type:"tr",mk:"v2u19_sustainable",dir:"produce"}
-  ]}
+  ,{type:"match",pairs:[{trg:"beschrijven",src:"to describe"},{trg:"onthouden",src:"to remember"}]}]}
 ]};

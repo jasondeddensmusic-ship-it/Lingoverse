@@ -259,5 +259,5 @@ export default {n:5,lang:"nl",srcLang:"en",track:"v2",title:"Mijn Familie & Thui
         {type:"tr",mk:"u5_feel_good",dir:"produce"},
         {type:"tr",mk:"u5_happy_birthday",dir:"produce"},
         {type:"tr",mk:"u5_our_house_small",dir:"produce"}
-  ]}
+  ,{type:"match",pairs:[{trg:"de familie",src:"the family"},{trg:"elke",src:"every / each"},{trg:"zitten",src:"to sit"},{trg:"de kleur",src:"the color"},{trg:"bruin",src:"brown"},{trg:"nieuw",src:"new"},{trg:"de verjaardagskalender",src:"the birthday calendar"}]}]}
 ]};

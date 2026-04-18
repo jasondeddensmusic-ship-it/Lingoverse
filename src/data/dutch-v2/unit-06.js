@@ -262,5 +262,5 @@ export default {n:6,lang:"nl",srcLang:"en",track:"v2",title:"Onderweg",sub:"Tran
         {type:"tr",mk:"u6_cycle_work",dir:"produce"},
         {type:"tr",mk:"u6_where_station",dir:"produce"},
         {type:"tr",mk:"u6_im_lost",dir:"produce"}
-  ]}
+  ,{type:"match",pairs:[{trg:"van",src:"from / of"},{trg:"de buurt",src:"the neighborhood / area"},{trg:"brengen",src:"to bring"},{trg:"weten",src:"to know (a fact)"},{trg:"misschien",src:"maybe / perhaps"},{trg:"met",src:"with / by (transport)"},{trg:"de brug",src:"the bridge"},{trg:"dan",src:"then"}]}]}
 ]};

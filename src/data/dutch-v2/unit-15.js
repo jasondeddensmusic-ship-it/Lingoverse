@@ -119,7 +119,7 @@ export default {n:15,lang:"nl",srcLang:"en",track:"v2",title:"Opleiding & Toekom
         {type:"teach",trg:"moet worden gemaakt",src:"must be made",pos:"verb",gender:null,phonetic:"moot VOR-dun guh-MAHKT",note:"Three-verb cluster with passive (preview!):\nmoet (modal) + worden (passive aux) + genomen (PP).\nFull passive = Unit 16. For now: recognize the pattern.",example:"A: ...dat het besluit moet worden genomen.\nB: Misschien moet je naar de dokter.\nA: Dat is zo.",exampleSrc:"A: ...that the decision must be made.\nB: Maybe you should see a doctor.\nA: That's true.",funFact:"Dutch verbs follow the stem + ending pattern. Find the stem, add the right ending."},
         {type:"tip",title:"📐 Common Two-Verb Patterns",text:"In sub-clauses:\n\n...dat ik kan ZWEMMEN. (can swim)\n...dat hij wil WERKEN. (wants to work)\n...dat zij moet STUDEREN. (must study)\n...dat ik heb GEWERKT. (have worked)\n...dat hij is GEKOMEN. (has come)\n...dat we gaan ETEN. (are going to eat)\n...dat ik zit te LEZEN. (am reading)\n...dat ik probeer te BEGRIJPEN. (try to understand)\n\nAll follow: ...dat + subject + [stuff] + VERB CLUSTER.\n\nThe verb cluster is always at the END.\nThe conjugated verb comes first in the cluster,\nfollowed by infinitive(s) or past participle."},
         {type:"mc",q:"'...dat ik had willen komen.'  -  how many verbs in the cluster?",opts:["Three","Two","One","Four"],ans:"Three",hint:"had + willen + komen: how many verbs cluster at the end?"},
-        {type:"fb",opts:["had","heb","was","zou"],hint:"Had wanted to come",s:"...dat ik ___ willen komen.",a:"had"},
+        {type:"fb",opts:["had","heb","was","zou"],hint:"Past tense of 'hebben' used in a three-verb cluster: ___ willen komen",s:"...dat ik ___ willen komen.",a:"had"},
         {type:"mc",q:"The 'red order' (most common) puts verbs:",opts:["Infinitive first, auxiliary last","Auxiliary first, infinitive last","Random order","All verbs combined into one"],ans:"Auxiliary first, infinitive last",hint:"had willen komen = ___ → modal → ___"},
         {type:"match",pairs:[{trg:"kan zwemmen",src:"can swim"},{trg:"wil werken",src:"wants to work"},{trg:"heb gewerkt",src:"have worked"},{trg:"had willen komen",src:"had wanted to come"}]},
         {type:"drag_fill",hint:"I know that he HAD WANTED TO COME.",s:"Ik weet dat hij {1} willen {2}.",blanks:{"1":"had","2":"komen"},pool:["had","komen","is","gaan"]},
@@ -168,7 +168,7 @@ export default {n:15,lang:"nl",srcLang:"en",track:"v2",title:"Opleiding & Toekom
         {type:"fb",opts:["ligt","zit","staat","loopt"],hint:"The cat LIES sleeping",s:"De kat ___ te slapen. (lies  -  progressive)",a:"ligt"},
         {type:"mc",q:"'Ik laat mijn auto repareren.'  -  who repairs the car?",opts:["I do","Someone else does","The car repairs itself","Nobody"],ans:"Someone else does",hint:"Causative laten: having it done by ___"},
         {type:"drag_fill",hint:"Let's begin! I dropped my phone.",s:"{1} we beginnen! Ik heb mijn telefoon laten {2}.",blanks:{"1":"Laten","2":"vallen"},pool:["Laten","vallen","Gaan","zien"]},
-        {type:"fb",opts:["had","heb","was","zou"],hint:"Three-verb cluster: had willen komen",s:"...dat ik ___ willen komen.",a:"had"},
+        {type:"fb",opts:["had","heb","was","zou"],hint:"Three-verb cluster: past tense of 'hebben' + willen + komen",s:"...dat ik ___ willen komen.",a:"had"},
         {type:"mc",q:"A Dutch grade of 8 is considered:",opts:["Average","Barely passing","Good/excellent","Failing"],ans:"Good/excellent",hint:"8 = goed  -  very ___ in Dutch grading"},
         {type:"match",pairs:[{trg:"afstuderen",src:"to graduate"},{trg:"de stage",src:"internship"},{trg:"laten zien",src:"to show"},{trg:"laat maar",src:"never mind"}]},
         {type:"drag_fill",hint:"I try to understand. Instead of complaining, do something!",s:"Ik {1} het te begrijpen. {2} plaats van te klagen, doe iets!",blanks:{"1":"probeer","2":"In"},pool:["probeer","In","vergeet","Om"]},
@@ -179,5 +179,5 @@ export default {n:15,lang:"nl",srcLang:"en",track:"v2",title:"Opleiding & Toekom
         {type:"tr",mk:"v2u15_in_order_to_learn",dir:"produce"},
         {type:"tr",mk:"v2u15_trying_to_understand",dir:"produce"},
         {type:"tr",mk:"v2u15_lets_go",dir:"produce"}
-  ]}
+  ,{type:"match",pairs:[{trg:"slagen",src:"to pass (an exam) / succeed"}]},{type:"mc",q:"Which Dutch phrase expresses 'must be made'?",opts:["moet worden gemaakt","is worden gemaakt","moet gemaakt worden","heeft worden gemaakt"],ans:"moet worden gemaakt",hint:"Modal + passive auxiliary + past participle"}]}
 ]};

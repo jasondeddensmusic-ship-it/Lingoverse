@@ -114,7 +114,7 @@ export default {n:17,lang:"nl",srcLang:"en",track:"v2",title:"Een Nieuw Huis",su
         {type:"mc",q:"'Geachte heer/mevrouw' is used in:",opts:["Formal emails and letters","Casual emails","Text messages","Only government letters"],ans:"Formal emails and letters",hint:"___ opening = Geachte..."},
         {type:"fb",opts:["bewijs","uittreksel","contract","formulier"],hint:"Proof of registration",s:"Ik heb een ___ van inschrijving nodig.",a:"bewijs"},
         {type:"match",pairs:[{trg:"het uittreksel",src:"the extract"},{trg:"het bewijs",src:"the proof"},{trg:"de adreswijziging",src:"address change"},{trg:"Geachte heer/mevrouw",src:"Dear Sir/Madam"}]},
-        {type:"fb",opts:["Met","Van","Door","Bij"],hint:"Kind regards = Met vriendelijke groet",s:"___ vriendelijke groet, (closing a formal email)",a:"Met"},
+        {type:"fb",opts:["Met","Van","Door","Bij"],hint:"Dutch formal email closing: ___ vriendelijke groet (the first word of 'Kind regards')",s:"___ vriendelijke groet, (closing a formal email)",a:"Met"},
         {type:"mc",q:"When moving in NL, you must register within:",opts:["1 day","5 days","30 days","No deadline"],ans:"5 days",hint:"You must register at the gemeente within how many ___?"},
         {type:"fb",opts:["uittreksel","bewijs","contract","hypotheek"],hint:"An extract/certificate from the municipality",s:"Ik heb een ___ nodig van de gemeente.",a:"uittreksel"},
         {type:"drag_fill",hint:"Report an address change. Proof of registration.",s:"Ik moet een {1} doorgeven. Ik heb een bewijs van {2} nodig.",blanks:{"1":"adreswijziging","2":"inschrijving"},pool:["adreswijziging","inschrijving","verhuizing","registratie"]},
@@ -164,5 +164,5 @@ export default {n:17,lang:"nl",srcLang:"en",track:"v2",title:"Een Nieuw Huis",su
         {type:"tr",mk:"v2u17_house_i_live_in",dir:"produce"},
         {type:"tr",mk:"v2u17_colleague_i_work_with",dir:"produce"},
         {type:"tr",mk:"v2u17_we_are_moving",dir:"produce"}
-  ]}
+  ,{type:"match",pairs:[{trg:"de wijk",src:"the district / neighbourhood"}]}]}
 ]};
