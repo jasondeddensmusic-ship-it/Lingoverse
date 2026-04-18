@@ -74,8 +74,10 @@ _None currently._
 ### PP66-VALIDATOR — Implement filler-coverage check in `scripts/check_filler.cjs`
 - **acceptance:** Grep for `"(review)"`, `"(taught)"`, `"(TBD)"`, `"(see above)"` in all `src/data/*.js`. Zero matches required. Runs as pre-commit / pre-push hook.
 
-### QUEUE-GENERATOR — Build `scripts/generate_queue.cjs`
-- **acceptance:** Scans validator + PP63 audit + polish-matrix outputs; regenerates this file with current priorities.
+### ~~QUEUE-GENERATOR~~ — DONE 2026-04-19
+- `scripts/generate_queue.cjs` writes `docs/audits/queue_snapshot_<date>.md`.
+- Snapshot format: per-language summary table + prioritized derived items (P0 safety, P1/P2 by severity).
+- Does NOT overwrite this file — intentionally safe. Re-run: `node scripts/generate_queue.cjs`.
 
 ## P2 — Product features (requires UI work)
 
