@@ -164,10 +164,7 @@ const UNIT_10 =
   {type:"teach",kind:"word",nl:"전세",en:"lump sum deposit rental",pos:"noun",gender:null,funFact:"From hanja: 戰 (war/battle) + 世 (world/generation).",phonetic:"jeon-se",example:"A: 집이 전세예요, 월세예요? B: 전세로 살아요. A: 보증금이 많이 들었어요? B: 네, 많이 들었어요. 하지만 매달 돈 안 내요.",exampleEn:"A: Is your place jeonse or monthly rent? B: I live on a jeonse lease. A: Was the deposit a lot? B: Yes, it was a lot. But I don't pay anything monthly.",note:"전세: lump sum deposit (unique Korean rental system).\nYou deposit a large sum, pay no monthly rent."},
   {type:"teach",kind:"word",nl:"월세",en:"monthly rent",pos:"noun",gender:null,funFact:"Sino-Korean compound: 월 (month) + 세 (tax/payment)",phonetic:"wol-se",example:"A: 월세가 얼마예요? B: 오십만 원이에요.",exampleEn:"A: How much is the monthly rent? B: 500,000 won.",note:"월세: monthly rent.\nCOMPOUND: 월 (month) + 세 (tax/payment).\n전세 (deposit) ↔ 월세 (monthly rent)."},
   {type:"tip",title:"🏠 Korean Rental System",text:"전세 (jeonse):\n• Deposit: ₩100,000,000–500,000,000+ (huge!)\n• Monthly rent: ₩0 (none)\n• Landlord invests your deposit, earns interest",deepDive:{title:"전세 vs 월세: How Korean Renting Works",text:"• You get ALL your money back when you leave\n• Disappearing as interest rates change\n\n\n월세 (wolse):\n• Deposit: ₩5,000,000–30,000,000 (smaller)\n• Monthly rent: ₩500,000–1,500,000\n• More like Western renting\n• Becoming more common\n\n보증금: security deposit.\n계약: contract.\n집주인: landlord (집 + 주인: house + owner).\n부동산: real estate agency.\n\n부동산에 가다 = go to the real estate agency\n(How you find an apartment in Korea)"}},
-  {type:"mc",q:"은행 = 은 + 행. 은 means:",opts:["Gold","Silver","Money","Bank"],ans:"Silver",hint:"은 (銀) = silver. 은행 = silver business = bank."},
   {type:"mc",q:"전세 is unique because:",opts:["Monthly payments, small deposit","Government subsidized housing","Large deposit, no monthly rent","Rent paid yearly in advance"],ans:"Large deposit, no monthly rent",hint:"전세: huge deposit, zero rent. Get deposit back when you leave."},
-  {type:"mc",q:"우체국 = 우 + 체 + 국. 국 means:",opts:["Country","Send","Mail","Bureau/office"],ans:"Bureau/office",hint:"국 (局) = bureau. 우체국 = mail delivery bureau."},
-  {type:"mc",q:"월세 = 월 + 세. 월 means:",opts:["Month","Moon","Money","Rent"],ans:"Month",hint:"월 (月) = month. 월세 = monthly rent."},
   {type:"fb",s:"___에서 소포를 보냈어요.\n(I sent a package at the post office.)",a:"우체국",opts:["우체국","은행","세탁소","편의점"],hint:"... = post office."},
   {type:"fb",s:"전세가 비싸서 ___로 살아요.\n(Jeonse is expensive so I live with monthly rent.)",a:"월세",opts:["월세","전세","보증금","계약"],hint:"... = monthly rent."},
   {type:"match",pairs:[{nl:"은행",en:"bank"},{nl:"우체국",en:"post office"},{nl:"세탁소",en:"dry cleaners"},{nl:"전세",en:"lump sum deposit rental"}]},
@@ -181,9 +178,7 @@ const UNIT_10 =
   {type:"fb",s:"선생님___서 이메일을 받았어요.\n(Received email FROM the teacher.)",a:"한테",opts:["한테","에게","에","한"],hint:"From a person: ...한테서"},
   {type:"fb",s:"동생___선물을 줬어요.\n(Gave a present TO younger sibling.)",a:"한테",opts:["한테","한테서","에서","에게서"],hint:"TO a person: ...한테"},
 
-  {type:"mc",q:"보증금 means:",opts:["Security deposit","Monthly rent","Down payment","Interest"],ans:"Security deposit",hint:"보증금 = security deposit."},
   {type:"fb",s:"___에 가서 계좌를 만들었어요.\n(I went to the bank and opened an account.)",a:"은행",opts:["은행","우체국","세탁소","편의점"],hint:"... = bank. 계좌 = account."},
-  {type:"mc",q:"집주인 = 집 + 주인. 주인 means:",opts:["Renter","Owner","Neighbor","Builder"],ans:"Owner",hint:"주인 = owner. 집주인 = house owner = landlord."},
 
   {type:"teach",kind:"word",nl:"문제",en:"problem",pos:"noun",gender:null,funFact:"From hanja: 問 (ask) + 題 (topic). Question topic = problem.",phonetic:"mun-je",example:"문제가 있어요.",exampleEn:"There is a problem.",note:"문제: problem / question (on a test).\nCOMPOUND: 문 (ask) + 제 (topic)."},
   {type:"teach",kind:"word",nl:"질문",en:"question",pos:"noun",gender:null,funFact:"From hanja: 質 (quality) + 問 (ask). Quality asking = question.",phonetic:"jil-mun",example:"질문이 있어요.",exampleEn:"I have a question.",note:"질문: question (that you ask someone).\nCOMPOUND: 질 (query) + 문 (ask)."},

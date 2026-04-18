@@ -305,7 +305,7 @@ const UNIT_32 =
 {type:"fb",s:"Eine {1}e Gesellschaft investiert in Bildung.",a:["zukunftsorientiert"],opts:["einordnen","gleichstellen","zukunftsorientiert","identifizieren"],hint:"Zukunft (future) + orientiert (oriented). Focused on what lies ahead.",sSrc:"A future-oriented society invests in education."},
 {type:"mc",q:"Was bedeutet 'identifizieren'?",opts:["to sensitize, to raise awareness","to classify, to categorize","to identify (pinpoint)","to define"],ans:"to identify (pinpoint)",hint:"Sounds like its English equivalent. To determine exactly what or who something is."},
 {type:"fb",s:"{1} sagt, dass Berlin weltoffen ist.",a:["man"],opts:["der Begriff","umdenken","die Erkenntnis","man"],hint:"The impersonal pronoun for 'people in general'. NOT the English word for an adult male.",sSrc:"People say that Berlin is cosmopolitan."},
-{type:"mc",q:"Was bedeutet 'mancher'?",opts:["some, many a","concept, term","to assimilate","to classify, to categorize"],ans:"some, many a",hint:"An indefinite pronoun meaning 'quite a few' or 'many a'. Implies surprising quantity."}
+{type:"mc",q:"Was bedeutet 'mancher'?",opts:["some, many a","concept, term","to assimilate","to classify, to categorize"],ans:"some, many a",hint:"An indefinite pronoun. Implies a surprising quantity of people or items, not just a few."}
 ]}
 ]};
 

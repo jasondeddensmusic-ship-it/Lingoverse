@@ -172,11 +172,11 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
  hint:"He's in the hospital — what's his condition?",
  sSrc:"A: How is he today?\nB: Sick, in the hospital."},
 
-{type:"fb", s:"A: Что у тебя {1}?\nB: Очень болит голова.",
+{type:"fb", s:"A: Что у тебя {1}?\nB: Очень сильно, голова.",
  a:["болит"],
  opts:["болит","болят","боль","больно"],
- hint:"Singular body part follows. Use the singular 3rd-person verb form.",
- sSrc:"A: What hurts?\nB: My head hurts very much."},
+ hint:"Singular body part follows. Use the 3rd-person singular present of 'to hurt'.",
+ sSrc:"A: What hurts?\nB: Very much, my head."},
 
 {type:"match", pairs:[
   {trg:"болит", src:"hurts"},

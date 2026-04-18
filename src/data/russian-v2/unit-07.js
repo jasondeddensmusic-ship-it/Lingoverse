@@ -262,11 +262,11 @@ const UNIT_07 = {n:7, lang:"ru", srcLang:"en", track:"v2", title:"Погода",
  hint:"If cold weather is expected, and temperature is -20, which word?",
  sSrc:"A: What's the temperature?\nB: {1} twenty degrees."},
 
-{type:"fb", s:"A: Что будет завтра?\nB: Завтра {1} снег.",
+{type:"fb", s:"A: Какая погода завтра?\nB: Завтра {1} снег.",
  a:["будет"],
  opts:["будет","есть","был","будут"],
- hint:"Forming future: you need будет (will be) + phenomenon.",
- sSrc:"A: What will it be tomorrow?\nB: Tomorrow it will snow."},
+ hint:"Singular future of 'быть' (to be). Pair it with a singular noun to form a weather prediction.",
+ sSrc:"A: What is the weather tomorrow?\nB: Tomorrow there will be snow."},
 
 {type:"match", pairs:[
   {trg:"ясно", src:"clear"},

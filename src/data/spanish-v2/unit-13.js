@@ -16,7 +16,7 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
         {type:"mc",q:"¿Lees el periódico? Sí, ___ leo cada mañana.",opts:["los","la","lo","las"],ans:"lo",hint:"El periódico is masculine singular."},
         {type:"teach",trg:"¿Lo quieres?",src:"Do you want it?",pos:"verb",gender:null,phonetic:"lo KYEH-res",note:"The pronoun always goes before the conjugated verb.",example:"A: Tengo un café extra.\nB: ¿Lo quieres?\nA: Sí, lo quiero. Gracias.\nB: De nada.",exampleSrc:"A: I have an extra coffee.\nB: Do you want it?\nA: Yes, I want it. Thanks.\nB: You're welcome.",funFact:"Spanish verbs encode the subject in their ending, so pronouns are often dropped."},
         {type:"fb",opts:["lo","la","los","las"],hint:"The noun 'canción' is singular. Its gender determines the pronoun.",s:"¿Conoces la canción? Sí, {1} conozco muy bien.",a:"la"},
-        {type:"mc",q:"Necesito los documentos. ¿___ tienes?",opts:["Lo","La","Las","Los"],ans:"Los",hint:"The noun 'documentos' is plural. Match its gender and number for the pronoun."},
+        {type:"mc",q:"Necesito esos documentos. ¿___ tienes?",opts:["Lo","La","Las","Los"],ans:"Los",hint:"The noun 'documentos' is masculine plural. Match its gender and number for the pronoun."},
         {type:"match",pairs:[
           {trg:"el libro → lo",src:"the book → it (m.)"},
           {trg:"la carta → la",src:"the letter → it (f.)"},
@@ -24,7 +24,7 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
           {trg:"las llaves → las",src:"the keys → them (f.)"}
         ]},
         {type:"fb",opts:["lo","la","los","las"],hint:"The noun 'dirección' is singular. Identify its gender to pick the right pronoun.",s:"¿Tienes la dirección? No, no {1} tengo.",a:"la"},
-        {type:"mc",q:"Which pronoun replaces 'los platos'?",opts:["los","las","lo","la"],ans:"los",hint:"Think about gender and number of platos."},
+        {type:"mc",q:"Which direct-object pronoun replaces the plates (platos)?",opts:["los","las","lo","la"],ans:"los",hint:"Masculine plural noun. Match gender and number."},
         {type:"mc",q:"¿Preparaste la cena? Sí, ___ preparé hace una hora.",opts:["lo","la","las","los"],ans:"la",hint:"The noun 'cena' is singular. Its gender determines which direct object pronoun fits."},
         {type:"fb",opts:["Lo","La","Los","Las"],hint:"The noun 'niños' is plural. Match gender and number for the correct pronoun.",s:"¿Dónde están los niños? {1} veo en el parque.",a:"Los"}
   ]},
@@ -160,7 +160,7 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
   ]},
   {id:"esp13l8",title:"Repaso: Pronombres",icon:"🏆",xp:20,board:true,steps:[
         {type:"intro",title:"Repaso: Pronombres",desc:"Comprehensive review of all object pronouns: direct, indirect, a personal, placement, and double pronouns.",goals:["Review all pronoun types confidently","Handle pronoun replacement in various contexts","Master double pronoun combinations"]},
-        {type:"mc",q:"¿Tienes las entradas? Sí, ___ tengo.",opts:["las","los","la","lo"],ans:"las",hint:"Entradas is feminine plural."},
+        {type:"mc",q:"¿Tienes esas entradas? Sí, ___ tengo.",opts:["las","los","la","lo"],ans:"las",hint:"Entradas is feminine plural. Match gender and number."},
         {type:"mc",q:"¿___ ayudas con la maleta? (Will you help me?)",opts:["Te","Me","Le","Se"],ans:"Me",hint:"The speaker is asking for help."},
         {type:"fb",opts:["a","la","al","de"],hint:"When the direct object is a person, Spanish requires the personal marker before them.",s:"¿Conoces {1} la nueva directora?",a:"a"},
         {type:"mc",q:"¿Le compras un regalo a tu padre? Sí, ___ compro.",opts:["lo le","le lo","se lo","se le"],ans:"se lo",hint:"Le becomes se before lo."},
@@ -205,6 +205,6 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
         {type:"match",pairs:[{trg:"la fiebre",src:"fever"},{trg:"la tos",src:"cough"},{trg:"el resfriado",src:"cold"},{trg:"la alergia",src:"allergy"},{trg:"la receta",src:"prescription"}]},
         {type:"mc",q:"Which sentence correctly describes stomach pain?",opts:["Me duelo el estómago","Me duele el estómago","Me dolor el estómago","Me doliendo el estómago"],ans:"Me duele el estómago",hint:"The verb doler works like gustar: me ___ + the thing that hurts."},
         {type:"fb",opts:["receta","inyección","farmacia","alergia"],hint:"What does a doctor write so you can buy medication at the pharmacy?",s:"El médico me dio una {1} para los antibióticos.",a:"receta"},
-        {type:"mc",q:"'Estoy enfermo' vs 'Soy enfermo'. Which is correct for 'I'm sick today'?",opts:["Tengo enfermo","Soy enfermo","Estoy enfermo","Hago enfermo"],ans:"Estoy enfermo",hint:"Being sick today is a temporary condition. Temporary conditions use estar."}
+        {type:"mc",q:"Which option correctly expresses 'I'm sick today' (a temporary condition)?",opts:["Tengo enfermo","Soy enfermo","Estoy enfermo","Hago enfermo"],ans:"Estoy enfermo",hint:"Being sick today is a temporary condition. Temporary conditions use the verb for states, not identity."}
   ]}
 ]};

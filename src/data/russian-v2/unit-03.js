@@ -71,11 +71,11 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
  ans:"It refers to a female person",
  hint:"Nouns ending in -ь are unpredictable in gender. But if the noun ___ to a woman, it's clearly feminine."},
 
-{type:"fb", s:"A: Где ваша {1}?\nB: Моя мама на кухне.",
+{type:"fb", s:"A: Где ваша {1}?\nB: Она на кухне.",
  a:["мама"],
  opts:["мама","папа","сын","дочь"],
- hint:"The answer in B tells you which family member A is asking about. Match gender: 'ваша' is feminine.",
- sSrc:"A: Where is your {1}?\nB: My mom is in the kitchen."},
+ hint:"A feminine family member (gender cue: 'ваша'). B replies with 'она' (she), so it must be a female relative.",
+ sSrc:"A: Where is your {1}?\nB: She is in the kitchen."},
 
 {type:"match", pairs:[
   {trg:"папа", src:"dad"},

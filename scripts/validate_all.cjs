@@ -105,15 +105,29 @@ function hintLeakCheck(hint, answer) {
   });
 }
 
+// Build a word-boundary regex for an answer, so short tokens like "nos"
+// don't false-positive inside longer words like "nosotros". Multi-word
+// answers match the full phrase surrounded by non-word characters.
+function buildAnsBoundaryRegex(ans) {
+  const esc = ans.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Word boundary for Latin/CJK: require non-letter (or string edge) on both sides.
+  // \b works for ASCII; for CJK/Cyrillic we pad with a character class.
+  return new RegExp('(^|[^\\p{L}\\p{N}])' + esc + '($|[^\\p{L}\\p{N}])', 'iu');
+}
+
 function visualLeakMC(q, ans) {
   if (!q || !ans || ans.length < 3) return false;
-  return q.toLowerCase().includes(ans.toLowerCase());
+  try {
+    return buildAnsBoundaryRegex(ans).test(q);
+  } catch { return q.toLowerCase().includes(ans.toLowerCase()); }
 }
 
 function visualLeakFB(s, ans) {
   if (!s || !ans || ans.length < 3) return false;
-  const sClean = s.replace(/\{[0-9]+\}/g, '').toLowerCase();
-  return sClean.includes(ans.toLowerCase());
+  const sClean = s.replace(/\{[0-9]+\}/g, '');
+  try {
+    return buildAnsBoundaryRegex(ans).test(sClean);
+  } catch { return sClean.toLowerCase().includes(ans.toLowerCase()); }
 }
 
 function extractStepBlocks(fileText) {

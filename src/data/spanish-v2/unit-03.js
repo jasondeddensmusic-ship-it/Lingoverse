@@ -193,7 +193,7 @@ export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores"
         {type:"drag_fill",hint:"Camisa is feminine, pantalón is masculine. Each color must agree.",s:"Tengo una camisa {1} y un pantalón {2}.",blanks:{"1":"blanca","2":"negro"},pool:["blanca","negro","blanco","negra"]},
         {type:"fb",opts:["moradas","morado","morada","morados"],hint:"Uvas is feminine plural. This variable color needs -adas.",s:"Las uvas son {1}.",a:"moradas"},
         {type:"mc",q:"Which sentence is correct?",opts:["El gato negra duerme","El gato negro duerme","El gato negros duerme","El gato negroa duerme"],ans:"El gato negro duerme",hint:"___ is masculine singular. The color must match exactly."},
-        {type:"fb",opts:["azul","azula","azulo","azules"],hint:"This color stays the same for both masculine and feminine nouns.",s:"Mi coche es {1} y mi bicicleta es {1}.",a:"azul"},
+        {type:"fb",opts:["azul","azula","azulo","azules"],hint:"This color adjective stays the same for both masculine and feminine nouns.",s:"Mi coche es {1} y mi bicicleta también.",a:"azul"},
         {type:"mc",q:"How do you say 'the violet flowers'?",opts:["las flores violetas","las flores violeto","las flores violeta","las flores violetaas"],ans:"las flores violeta",hint:"Like naranja and rosa, this color from a noun stays invariable."}
   ]},
   {id:"esp3l8",title:"¡Todo Junto!",icon:"🧩",xp:20,board:true,steps:[

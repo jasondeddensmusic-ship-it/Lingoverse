@@ -141,7 +141,7 @@ export default {n:15,lang:"es",srcLang:"en",track:"v2",title:"Comparaciones",sub
           {trg:"Es tan bonito como",src:"It is as pretty as"},
           {trg:"Es el mejor de todos",src:"It is the best of all"}
         ]},
-        {type:"mc",q:"A: ¿Que ciudad es mejor para vivir? B: Creo que Valencia es ___ para vivir que Madrid.",opts:["buena","más buena","mejor","la mejor"],ans:"mejor",hint:"Better for living. Use the irregular comparative."},
+        {type:"mc",q:"A: ¿Qué ciudad ofrece más calidad de vida? B: Creo que Valencia es ___ para vivir que Madrid.",opts:["buena","más buena","mejor","la mejor"],ans:"mejor",hint:"Comparative of bueno is irregular. Never combine 'más' with the irregular form."},
         {type:"drag_fill",hint:"This hotel is the cheapest in the area. Superlative structure.",s:"Este hotel es {1} {2} {3} {4} la zona.",blanks:{"1":"el","2":"más","3":"barato","4":"de"},pool:["el","más","barato","de","que","como"]},
         {type:"fb",opts:["mejor","más buena","buena","peor"],hint:"My mother cooks better. Use the irregular comparative.",s:"Mi madre cocina {1} que mi padre.",a:["mejor"]},
         {type:"mc",q:"What does 'No hay nada peor que llegar tarde' mean?",opts:["Arriving late is as bad as leaving early","There is nothing better than arriving late","It is less bad to arrive late","There is nothing worse than arriving late"],ans:"There is nothing worse than arriving late",hint:"Peor = ___. Nada peor que = ___ ___ than."},

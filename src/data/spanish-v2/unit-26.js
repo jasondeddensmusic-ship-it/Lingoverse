@@ -67,7 +67,7 @@ export default {n:26,lang:"es",srcLang:"en",track:"v2",title:"Habría sido...",s
           {trg:"hubieran salido",src:"they had left (subj.)"},
           {trg:"hubierais dicho",src:"you all had said (subj.)"}
         ]},
-        {type:"mc",q:"In 'Si hubiera llovido, no habríamos salido', which part is subjunctive?",opts:["no habríamos salido","Neither part","Both parts","Si hubiera llovido"],ans:"Si hubiera llovido",hint:"The si clause always holds the subjunctive form."},
+        {type:"mc",q:"In a past counterfactual with a 'si' clause and a result clause, which half of the sentence carries the pluperfect subjunctive?",opts:["no habríamos salido","Neither part","Both parts","Si hubiera llovido"],ans:"Si hubiera llovido",hint:"In type-3 conditionals, the 'si' clause carries the pluperfect subjunctive; the result clause uses the conditional perfect."},
         {type:"fb",opts:["hubieras","hubiera","hubiéramos","habría"],hint:"Tú form of the subjunctive past perfect ends in -as.",s:"Si tú {1} venido, habrías disfrutado mucho.",a:"hubieras"},
         {type:"mc",q:"Which sentence uses the pluscuamperfecto de subjuntivo correctly?",opts:["Si hubiera sabido, te habría llamado","Si habría sabido, te hubiera llamado","Si he sabido, te llamaría","Si sé, te llamo"],ans:"Si hubiera sabido, te habría llamado",hint:"The si clause takes ___, the result clause takes ___."},
         {type:"mc",q:"The pluscuamperfecto de subjuntivo of 'escribir' for yo is:",opts:["habría escrito","hubiera escrito","hubiera escribido","he escrito"],ans:"hubiera escrito",hint:"Escribir has an irregular participle. The subjunctive form uses ___."}
@@ -94,7 +94,7 @@ export default {n:26,lang:"es",srcLang:"en",track:"v2",title:"Habría sido...",s
           {trg:"Si no hubiera llovido",src:"If it hadn't rained"}
         ]},
         {type:"fb",opts:["estado","ser","estando","estoy"],hint:"Past participle of estar. The result expresses a state.",s:"Si ella hubiera aceptado, yo habría {1} muy contento.",a:"estado"},
-        {type:"mc",q:"'Si hubieran invitado a Pedro, él habría traído su guitarra.' Who was NOT invited?",opts:["Pedro","The speaker","Both","We don't know"],ans:"Pedro",hint:"The si clause describes a past event that did not happen. Focus on who the si clause says was not invited."},
+        {type:"mc",q:"'Si hubieran invitado a X, él habría traído su guitarra.' In this past counterfactual, who was NOT invited?",opts:["Pedro","The speaker","Both","We don't know"],ans:"Pedro",hint:"The 'si' clause describes a past event that did NOT happen. The named person is the one who was not invited."},
         {type:"drag_fill",hint:"Both parts use nosotros forms. One subjunctive, one conditional.",s:"Si {1} sabido la dirección, no nos {2} perdido.",blanks:{"1":"hubiéramos","2":"habríamos"},pool:["hubiéramos","habríamos","hubieran","habrían"]},
         {type:"mc",q:"'Si hubieran comprado los billetes antes, habrían pagado menos.' Who would have paid less?",opts:["We","They","You (singular)","I"],ans:"They",hint:"Hubieran and habrían are both third person plural forms."}
   ]},

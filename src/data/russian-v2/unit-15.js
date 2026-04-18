@@ -251,11 +251,11 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  ans:"Past tense + бы",
  hint:"Simple! Just add the particle бы to the ___ ___ form."},
 
-{type:"fb", s:"A: Что ты {1}, если выиграешь в лотерею?\nB: Купил бы дом.",
+{type:"fb", s:"A: Что ты {1}, если выиграешь в лотерею?\nB: Большой дом у моря.",
  a:["купил бы"],
  opts:["купил бы","купишь","покупаешь","купил"],
- hint:"Hypothetical 'would buy' = conditional. Past tense + бы.",
- sSrc:"A: What would you buy if you won the lottery?\nB: I would buy a house."},
+ hint:"Hypothetical 'would buy' = conditional. Past tense masculine + the conditional particle.",
+ sSrc:"A: What would you buy if you won the lottery?\nB: A big house by the sea."},
 
 {type:"fb", s:"A: {1} бы ты помочь мне с переводом?\nB: Конечно, давай.",
  a:["Мог"],
