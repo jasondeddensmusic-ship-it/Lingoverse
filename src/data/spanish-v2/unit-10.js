@@ -197,7 +197,7 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
         {type:"mc",q:"Ayer me levanté temprano y ___ al trabajo en bicicleta. (ir)",opts:["fui","fue","fuiste","fueron"],ans:"fui",hint:"First person singular, the speaker traveled somewhere"},
         {type:"fb",opts:["hizo","hice","hicieron","hicimos"],hint:"Third person singular, she prepared the meal",s:"María compró los ingredientes y {1} la cena. (hacer)",a:"hizo"},
         {type:"mc",q:"Primero ___ en el parque y luego comimos en un restaurante. (estar, nosotros)",opts:["estuvieron","estuvimos","estuvo","estuve"],ans:"estuvimos",hint:"First person plural, we were at a location first"},
-        {type:"fb",opts:["vinieron","vinimos","vino","vine"],hint:"Third person plural, they arrived at the party",s:"Ellos {1} a la fiesta pero no {1} quedarse mucho tiempo.",a:"vinieron"},
+        {type:"fb",opts:["vinieron","vinimos","vino","vine"],hint:"Third-person plural preterite of 'venir'. Who arrived at the party?",s:"Ellos {1} a la fiesta pero no pudieron quedarse mucho tiempo.",a:"vinieron"},
         {type:"drag_fill",hint:"First I made (hacer) the food, then I placed (poner) it",s:"Primero {1} la comida y luego la {2} en la mesa.",blanks:{"1":"hice","2":"puse"},pool:["hice","puse","hizo","puso"]},
         {type:"mc",q:"Mi amigo me ___ un secreto y yo no ___ nada a nadie.",opts:["dije / dijo","dijo / dijo","dijo / dije","dijeron / dijimos"],ans:"dijo / dije",hint:"He told me, then I told nobody. Third then first person."},
         {type:"fb",opts:["pude","pudo","pudimos","pudieron"],hint:"First person singular, I was unable to go",s:"No {1} ir al cine porque tuve mucho trabajo. (poder)",a:"pude"},

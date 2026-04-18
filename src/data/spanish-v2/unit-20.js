@@ -130,7 +130,7 @@ export default {n:20,lang:"es",srcLang:"en",track:"v2",title:"Antes de Eso",sub:
         {type:"mc",q:"'Mi madre me pregunto que habia hecho en la escuela.' What is the original question?",opts:["¿Que haras en la escuela?","¿Que hiciste en la escuela?","¿Que hacias en la escuela?","¿Que has hecho en la escuela?"],ans:"¿Que has hecho en la escuela?",hint:"The pluscuamperfecto in reported speech came from a present perfect original."},
         {type:"drag_fill",hint:"The boss said that the project would be ready. Past reporting + conditional.",s:"El jefe {1} {2} el proyecto {3} listo para el viernes.",blanks:{"1":"dijo","2":"que","3":"estaria"},pool:["dijo","que","estaria","dice","si","estaba"]},
         {type:"fb",opts:["habia","ha","habias","habian"],hint:"Third person singular reporting about herself. Which imperfect haber form?",s:"Mi hermana me conto que {1} conocido a alguien especial.",a:["habia"]},
-        {type:"mc",q:"Direct: '¿Donde vives?' Reported: Pregunto ___ vivia.",opts:["donde","si","que","como"],ans:"donde",hint:"Wh-questions in reported speech keep the original question word."}
+        {type:"mc",q:"Direct: asking about someone's location. Reported: Pregunto ___ vivia.",opts:["donde","si","que","como"],ans:"donde",hint:"Wh-questions in reported speech keep the original question word. Location question word."}
   ]},
   {id:"esp20l6",title:"Cambio de Tiempos",icon:"🔄",xp:20,board:true,steps:[
         {type:"intro",title:"Concordancia de Tiempos",desc:"Master the tense shifts that happen in reported speech: present to imperfect, past to pluscuamperfecto, future to conditional.",goals:["Apply present to imperfect shift","Apply preterite to pluscuamperfecto shift","Apply future to conditional shift"]},
@@ -142,7 +142,7 @@ export default {n:20,lang:"es",srcLang:"en",track:"v2",title:"Antes de Eso",sub:
         {type:"mc",q:"Direct: 'Compre un coche nuevo.' Reported: Dijo que ___ un coche nuevo.",opts:["compraba","habia comprado","compro","ha comprado"],ans:"habia comprado",hint:"The preterite (simple past) shifts further back to the pluscuamperfecto."},
         {type:"fb",opts:["llegaria","llegaba","llego","habia llegado"],hint:"The future tense shifts to the conditional in reported speech.",s:"Direct: 'Llegare a las ocho.' Reported: Dijo que {1} a las ocho.",a:["llegaria"]},
         {type:"drag_fill",hint:"Third person plural reporting verb + present shifts to imperfect.",s:"Direct: 'Estamos contentos.' Reported: {1} que {2} {3}.",blanks:{"1":"Dijeron","2":"estaban","3":"contentos"},pool:["Dijeron","estaban","contentos","Dicen","estan","contento"]},
-        {type:"mc",q:"Direct: 'He terminado el trabajo.' Reported: Dijo que habia ___ el trabajo.",opts:["terminaba","terminar","terminado","termino"],ans:"terminado",hint:"The present perfect shifts to pluscuamperfecto, keeping the same participle."},
+        {type:"mc",q:"Direct-speech present perfect ('he __ el trabajo') becomes: Dijo que habia ___ el trabajo.",opts:["terminaba","terminar","terminado","termino"],ans:"terminado",hint:"The present perfect shifts to pluscuamperfecto, keeping the same participle form of the main verb."},
         {type:"fb",opts:["iria","iba","fue","va"],hint:"Future 'ire' becomes which tense in reported speech?",s:"Maria dijo que {1} al medico la semana siguiente.",a:["iria"]},
         {type:"mc",q:"Which tense stays the SAME in reported speech?",opts:["Indefinido","Presente","Futuro","Imperfecto"],ans:"Imperfecto",hint:"One past tense doesn't need to shift because it's already describing the past."},
         {type:"drag_fill",hint:"Indefinido shifts to pluscuamperfecto: auxiliary + participle.",s:"Pedro: 'Comi paella.' Reported: Pedro dijo que {1} {2} paella.",blanks:{"1":"habia","2":"comido"},pool:["habia","comido","ha","comer","como"]},
@@ -154,7 +154,7 @@ export default {n:20,lang:"es",srcLang:"en",track:"v2",title:"Antes de Eso",sub:
         ]},
         {type:"mc",q:"'Elena conto que sus padres habian vivido en Argentina.' What was Elena's original statement?",opts:["Mis padres vivieron en Argentina.","Mis padres vivian en Argentina.","Mis padres habian vivido en Argentina.","Mis padres viven en Argentina."],ans:"Mis padres vivieron en Argentina.",hint:"Pluscuamperfecto in reported speech comes from indefinido in direct speech."},
         {type:"fb",opts:["era","es","fue","seria"],hint:"Direct speech 'el examen es importante' shifts present to what tense?",s:"El profesor nos dijo que el examen {1} muy importante.",a:["era"]},
-        {type:"mc",q:"Direct: 'Hemos terminado.' Reported: Dijeron que habian ___.",opts:["terminar","terminado","terminaban","terminaron"],ans:"terminado",hint:"Present perfect shifts to pluscuamperfecto, keeping the same participle."},
+        {type:"mc",q:"Direct-speech plural present perfect: 'Hemos acabado.' Reported: Dijeron que habian ___.",opts:["terminar","terminado","terminaban","terminaron"],ans:"terminado",hint:"Present perfect shifts to pluscuamperfecto, keeping the same participle form. Synonymous with 'acabado.'"},
         {type:"fb",opts:["habia","ha","habias","habian"],hint:"Ana (third person singular) reporting her own past action with pluscuamperfecto.",s:"Ana dijo que {1} llamado tres veces pero nadie contesto.",a:["habia"]}
   ]},
   {id:"esp20l7",title:"Contando Historias",icon:"📚",xp:20,board:true,steps:[

@@ -44,7 +44,7 @@ export default {n:21,lang:"es",srcLang:"en",track:"v2",title:"En Las Noticias",s
           {trg:"fueron inaugurados",src:"were inaugurated (masc.)"}
         ]},
         {type:"drag_fill",hint:"Noticias is feminine plural. Match both the verb and the participle.",s:"Las noticias {1} {2} esta mañana.",blanks:{"1":"fueron","2":"publicadas"},pool:["fueron","fue","publicadas","publicados","publicada"]},
-        {type:"mc",q:"In 'Los premios fueron entregados por el rey', the participle is:",opts:["entregados","entregada","entregado","entregadas"],ans:"entregados",hint:"Los premios is masculine plural."},
+        {type:"mc",q:"In the passive 'Los premios fueron ___ por el rey', which participle form agrees with the subject?",opts:["entregados","entregada","entregado","entregadas"],ans:"entregados",hint:"Los premios is masculine plural. The participle in passive voice must agree in gender and number."},
         {type:"fb",opts:["confirmada","confirmado","confirmados","confirmadas"],hint:"La información is feminine singular.",s:"La información fue {1} por la policía.",a:"confirmada"},
         {type:"mc",q:"Why does the participle change form in passive voice?",opts:["It matches the agent doing the action","It matches the gender and number of the subject","It matches the tense of the sentence","It is always masculine singular"],ans:"It matches the gender and number of the subject",hint:"The participle behaves like an adjective, agreeing with what it describes."}
   ]},

@@ -448,7 +448,7 @@ const UNIT_23 =
 {type:"match",pairs:[{trg:"dasselbe",src:"the same (neuter)"},{trg:"mehrere",src:"several"},{trg:"je...desto",src:"the more...the more"},{trg:"sämtlich",src:"all/entire"}]},
 {type:"mc",q:"'Je mehr ich lerne, desto besser spreche ich.' Was bedeutet 'je...desto'?",opts:["the more...the more","either...or","neither...nor","not only...but also"],ans:"the more...the more",hint:"This paired conjunction expresses a proportional relationship between two things."},
 
-{type:"mc",q:"Er hat so viel gelernt! Was bedeutet 'so viel'?",opts:["too little","so much","nothing","something"],ans:"so much",hint:"An expression for a large quantity or amount. Two words that combine to mean 'this much.'"}
+{type:"mc",q:"Er hat so viel gelernt! Was bedeutet 'so viel'?",opts:["too little","so much","nothing","something"],ans:"so much",hint:"An intensified quantity expression. Combines 'so' with a quantity word to signal an impressive degree."}
 ]},
 
 // ─── L11: Verben und Feinschliff ───

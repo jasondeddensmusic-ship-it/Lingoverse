@@ -72,11 +72,11 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
  hint:"Speaker is female (note 'делала'). Past tense, feminine ending.",
  sSrc:"A: What did you do yesterday?\nB: I worked at home all day."},
 
-{type:"fb", s:"A: Вы были на концерте?\nB: Да, мы {1} вчера.",
+{type:"fb", s:"A: Вы ходили на концерт?\nB: Да, мы {1} там вчера.",
  a:["были"],
  opts:["были","был","была","было"],
- hint:"We (plural) + past of быть = plural past.",
- sSrc:"A: Were you at the concert?\nB: Yes, we were there yesterday."},
+ hint:"Plural subject 'мы' + past of 'быть' (to be). Pick the plural past form.",
+ sSrc:"A: Did you go to the concert?\nB: Yes, we were there yesterday."},
 
 {type:"match", pairs:[
   {trg:"работал", src:"worked (he)"},
@@ -245,11 +245,11 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
  ans:"Historical evolution — Russian lost present 'быть'",
  hint:"___ 'есть' is used rarely in modern ___. Past preserves the full conjugation."},
 
-{type:"fb", s:"A: Где вы {1} вчера вечером?\nB: Мы были в театре.",
+{type:"fb", s:"A: Где вы {1} вчера вечером?\nB: В театре, на премьере.",
  a:["были"],
  opts:["были","был","была","было"],
- hint:"Plural subject 'вы/мы' = plural past.",
- sSrc:"A: Where were you yesterday evening?\nB: We were at the theater."},
+ hint:"Plural subject 'вы' (you all) + past of 'быть'. Pick the plural past form.",
+ sSrc:"A: Where were you yesterday evening?\nB: At the theater, at a premiere."},
 
 {type:"fb", s:"A: У тебя {1} время вчера?\nB: К сожалению, нет.",
  a:["было"],
