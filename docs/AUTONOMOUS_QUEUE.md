@@ -48,8 +48,28 @@ _None currently._
 
 ## P1 — Infrastructure for autonomy
 
-### PP67-VALIDATOR — Implement production-mode minimum check in `scripts/validate_all.cjs`
-- **acceptance:** Each unit reports "production ratio" (fb/drag_fill with target-lang answer / total quiz). Flag units below 1 per 10 teach cards.
+### ~~PP67-VALIDATOR~~ — DONE 2026-04-19 (see `docs/audits/pp67_baseline_2026-04-19.md`)
+- Production-mode check implemented in `scripts/validate_all.cjs`.
+- Baseline: 243 unit-file violations across 7 languages. 4 langs PASS (Dutch/German/Korean/Spanish).
+- Remediation queued as PP67-REMEDIATION-\* below.
+
+### PP67-REMEDIATION-CHINESE — fix `chinese-v2/unit-41.js` (needs 3+ production, has 2)
+- **acceptance:** validator reports 0 PP67 flags for chinese-v2.
+
+### PP67-REMEDIATION-PORTUGUESE — fix `portuguese-v2/unit-09/22/23.js` (3 units, low teach counts)
+- **acceptance:** 0 PP67 flags for portuguese-v2.
+
+### PP67-REMEDIATION-RUSSIAN — fix russian-v2/unit-08/17/18/19/20/22/24/29/35.js (9 units)
+- **acceptance:** 0 PP67 flags for russian-v2.
+
+### PP67-REMEDIATION-FRENCH — fix french-v2/unit-02/11/12/14/26.js (5 units, some with 0 production)
+- **acceptance:** 0 PP67 flags for french-v2.
+
+### PP67-REMEDIATION-ITALIAN — large (104 flagged batch files); requires batch-file rewrites
+- **acceptance:** under-production count reduced by 50% in first pass; full clear in second pass.
+
+### PP67-REMEDIATION-JAPANESE — large (121 flagged batch files); PP65 kanji+furigana rules apply
+- **acceptance:** same ramp as Italian.
 
 ### PP66-VALIDATOR — Implement filler-coverage check in `scripts/check_filler.cjs`
 - **acceptance:** Grep for `"(review)"`, `"(taught)"`, `"(TBD)"`, `"(see above)"` in all `src/data/*.js`. Zero matches required. Runs as pre-commit / pre-push hook.

@@ -1,0 +1,10 @@
+# Agent Activity Log
+
+Each autonomous agent writes a start/end entry here so the owner has a single
+audit trail. Format: `YYYY-MM-DDTHH:MM:SSZ | agent-id | task | outcome`.
+
+## 2026-04-19 — Session: sad-cohen-32e111
+
+2026-04-19 | main | restored worktree build (npm install: ts-fsrs) | build green
+2026-04-19 | main | PP67-VALIDATOR implemented in scripts/validate_all.cjs | baseline captured, 243 unit-level violations across 7 languages
+2026-04-19 | main | PP67 baseline report written to docs/audits/pp67_baseline_2026-04-19.md | 4 langs PASS (Dutch/German/Korean/Spanish)

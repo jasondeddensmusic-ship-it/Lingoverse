@@ -175,15 +175,47 @@ function extractLessons(fileText) {
 }
 
 // ── Counters ──
-const totals = { mc: 0, fb: 0, teach: 0, lessons: 0 };
-const violations = { pp8_hint: 0, pp8_visual: 0, pp43: 0, pp48: 0, pp52: 0, pp64_untested: 0 };
+const totals = { mc: 0, fb: 0, teach: 0, lessons: 0, drag_fill: 0, match: 0, production: 0 };
+const violations = { pp8_hint: 0, pp8_visual: 0, pp43: 0, pp48: 0, pp52: 0, pp64_untested: 0, pp67_under: 0 };
 const pp8Fixes = []; // {file, original, fixed}
+
+// PP67 — Production-Mode Minimum check.
+// First pass: collect every teach `trg` across the whole language corpus so we
+// can tell a production-mode quiz (answer is target-lang) from a recognition
+// quiz (answer is source-lang / English). Done file-by-file to keep memory low.
+const ARTICLE_STRIP = /^(de|het|een|le|la|l'|les|un|une|el|los|las|der|die|das|ein|eine|il|i|gli|lo|uno|o|os|as|um|uma|ein|eine|-s|-es)\s+/i;
+function normalizeTrg(v) {
+  if (!v) return '';
+  return String(v).toLowerCase().replace(ARTICLE_STRIP, '').trim();
+}
+const allTrgs = new Set();
+for (const file of files) {
+  const content = fs.readFileSync(path.join(BASE, file), 'utf8');
+  // Accept either `trg:` (new format) or legacy `nl:` (Korean still uses this).
+  // Scope to teach-card blocks so we don't grab nl from match-pair subfields.
+  const teachRe = /\{\s*type\s*:\s*['"]teach['"][\s\S]*?\}/g;
+  let block;
+  while ((block = teachRe.exec(content)) !== null) {
+    const text = block[0];
+    const trgM = text.match(/\btrg\s*:\s*['"]([^'"]+)['"]/) || text.match(/\bnl\s*:\s*['"]([^'"]+)['"]/);
+    if (trgM) {
+      const bare = normalizeTrg(trgM[1]);
+      if (bare) allTrgs.add(bare);
+    }
+  }
+}
+
+// Per-unit aggregates so we can report PP67 violations at unit granularity.
+const perUnit = []; // { file, teach, production, ratio, pass }
 
 for (const file of files) {
   const filePath = path.join(BASE, file);
   let content = fs.readFileSync(filePath, 'utf8');
   const lessons = extractLessons(content);
   totals.lessons += lessons.length;
+
+  // PP67 per-unit counters.
+  let unitTeach = 0, unitProd = 0;
 
   // PP52: collect all taught words in this unit
   const taughtWords = new Set();
@@ -204,6 +236,7 @@ for (const file of files) {
     for (const step of steps) {
       if (step.type === 'teach') {
         totals.teach++;
+        unitTeach++;
         const trg = extractField(step.text, 'trg') || extractField(step.text, 'nl');
         if (trg) {
           taughtWords.add(trg.toLowerCase().replace(/^(de|het|een|le|la|l'|les|un|une|el|los|las|der|die|das|ein|eine)\s+/i, '').trim());
@@ -228,6 +261,10 @@ for (const file of files) {
         // Track quizzed words for PP64
         if (opts.length > 0) opts.forEach(o => quizzedWords.add(o));
         if (ans) quizzedWords.add(ans);
+
+        // PP67 spec lists only fb + drag_fill as production-mode. MC opts can
+        // still test recall, but the spec is strict — recognition does not
+        // count. Keep the mc here out of production count intentionally.
 
         // PP8: visual leak
         if (visualLeakMC(q, ans)) {
@@ -261,6 +298,12 @@ for (const file of files) {
 
         // Track quizzed words for PP64
         if (a.length > 0) a.forEach(w => quizzedWords.add(w));
+
+        // PP67: fb counts as production when the answer is a target-lang form.
+        if (a.length > 0 && allTrgs.has(normalizeTrg(a[0]))) {
+          totals.production++;
+          unitProd++;
+        }
 
         // PP48: check for multiple blanks
         if (s) {
@@ -298,6 +341,7 @@ for (const file of files) {
 
       // Match/drag_fill also contribute to PP64
       if (step.type === 'match') {
+        totals.match++;
         const pairsText = step.text.match(/pairs\s*:\s*\[([\s\S]*?)\]/);
         if (pairsText) {
           const trgRe = /trg\s*:\s*['"]([^'"]*)['"]/g;
@@ -310,7 +354,40 @@ for (const file of files) {
             quizzedWords.add(pm[1]);
           }
         }
+        // Match is retrieval-adjacent but not strict production per PP67 spec.
+        // Left out of production count intentionally.
       }
+
+      if (step.type === 'drag_fill') {
+        totals.drag_fill++;
+        // blanks:{1:"word",2:"word"} — extract every answer value and test
+        // whether at least one lands in the target-language corpus.
+        const blanksText = step.text.match(/blanks\s*:\s*\{([\s\S]*?)\}/);
+        let prodHit = false;
+        if (blanksText) {
+          const valRe = /['"]?\d+['"]?\s*:\s*['"]([^'"]+)['"]/g;
+          let bm;
+          while ((bm = valRe.exec(blanksText[1])) !== null) {
+            quizzedWords.add(bm[1]);
+            if (allTrgs.has(normalizeTrg(bm[1]))) prodHit = true;
+          }
+        }
+        if (prodHit) {
+          totals.production++;
+          unitProd++;
+        }
+      }
+    }
+  }
+
+  // PP67 per-unit ratio. A unit passes if production >= ceil(teach / 10).
+  if (unitTeach > 0) {
+    const required = Math.ceil(unitTeach / 10);
+    const pass = unitProd >= required;
+    perUnit.push({ file, teach: unitTeach, production: unitProd, required, pass });
+    if (!pass) {
+      violations.pp67_under++;
+      console.log(`  PP67 UNDER: ${file} has ${unitProd} production quizzes for ${unitTeach} teach cards (need ${required}+)`);
     }
   }
 
@@ -359,13 +436,17 @@ console.log(`  Lessons:  ${totals.lessons}`);
 console.log(`  Teach:    ${totals.teach}`);
 console.log(`  MC steps: ${totals.mc}`);
 console.log(`  FB steps: ${totals.fb}`);
-console.log(`  Total quiz: ${totals.mc + totals.fb}`);
+console.log(`  drag_fill: ${totals.drag_fill}`);
+console.log(`  match:     ${totals.match}`);
+console.log(`  Total quiz: ${totals.mc + totals.fb + totals.drag_fill + totals.match}`);
+console.log(`  Production-mode quiz: ${totals.production}`);
 console.log(`${'─'.repeat(50)}`);
 console.log(`  PP8  hint leaks:     ${violations.pp8_hint}${fixHints && violations.pp8_hint > 0 ? ' (FIXED)' : ''}`);
 console.log(`  PP8  visual leaks:   ${violations.pp8_visual}`);
 console.log(`  PP43 over-dense:     ${violations.pp43}`);
 console.log(`  PP48 multi-blank fb: ${violations.pp48}`);
 console.log(`  PP64 untested teach: ${violations.pp64_untested} / ${totals.teach}`);
+console.log(`  PP67 under-production units: ${violations.pp67_under} / ${perUnit.length}`);
 console.log(`${'─'.repeat(50)}`);
 const totalViol = violations.pp8_hint + violations.pp8_visual + violations.pp43 + violations.pp48;
 if (totalViol === 0) {
@@ -374,3 +455,15 @@ if (totalViol === 0) {
   console.log(`  RESULT: ${totalViol} critical violations found`);
 }
 console.log(`${'='.repeat(50)}\n`);
+
+// Emit machine-readable summary for the queue generator to consume.
+if (process.argv.includes('--json')) {
+  const out = {
+    lang: langDir,
+    files: files.length,
+    totals,
+    violations,
+    perUnit,
+  };
+  console.log('JSON_SUMMARY ' + JSON.stringify(out));
+}
