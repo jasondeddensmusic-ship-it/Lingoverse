@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What document do you need to own a car in Japan?", opts:["車庫(しゃこ)証明(しょうめい) (proof of parking space)","運転(うんてん)免許(めんきょ) only","パスポート","在留(ざいりゅう)カード"], ans:"車庫(しゃこ)証明(しょうめい) (proof of parking space)",
      hint:"Japanese cities require p... that you have a dedicated spot to park your vehicle."}
-  ]
+  ,{type:"match",pairs:[{trg:"役所(やくしょ)",src:"municipal office / city hall"},{trg:"体育館(たいいくかん)",src:"gymnasium / sports hall"},{trg:"消防署(しょうぼうしょ)",src:"fire station"},{trg:"駐車場(ちゅうしゃじょう)",src:"parking lot"},{trg:"大使館(たいしかん)",src:"embassy"}]}]
 };
 export default BATCH8_L1;

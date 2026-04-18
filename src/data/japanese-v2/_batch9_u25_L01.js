@@ -64,6 +64,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"Which word means trust relationship?", opts:["信頼関係(しんらいかんけい)","納得(なっとく)する","交渉(こうしょう)","交換(こうかん)する"], ans:"信頼関係(しんらいかんけい)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"申(もう)し込(こ)む",src:"to apply for"}]}]
 };
 export default BATCH9_L1;

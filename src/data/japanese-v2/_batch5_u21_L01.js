@@ -85,6 +85,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"Japanese opinions are typically softened with:", opts:["と思(おも)います (I think)","絶対(ぜったい)に (absolutely)","必(かなら)ず (certainly)","もちろん (of course)"], ans:"と思(おも)います (I think)",
      hint:"Even strong views are often hedged with this phrase to maintain conversational harmony."}
-  ]
+  ,{type:"match",pairs:[{trg:"世論(よろん)",src:"public opinion"},{trg:"意見(いけん)",src:"opinion / view"},{trg:"調査(ちょうさ)",src:"survey / investigation / research"},{trg:"支持(しじ)する",src:"to support / to back"},{trg:"議論(ぎろん)",src:"debate / discussion / argument"}]}]
 };
 export default BATCH5_L_1;

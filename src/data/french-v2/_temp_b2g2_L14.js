@@ -39,7 +39,7 @@ const LESSON_14 = {
      q:"Comment appelle-t-on le parent d'un grand-parent ?",
      opts:["un arriere-grand-parent","un grand-oncle","un beau-parent","un parrain"],
      ans:"un arriere-grand-parent",
-     hint:"Going back one more generation beyond grandparents. 'A...' means 'back' or 'behind'."},
+     hint:"One generation further back in your family tree. The prefix 'arrière-' signals 'behind' or 'back'."},
 
     {type:"teach", trg:"le defunt", src:"the deceased", pos:"noun", gender:"m",
      note:"Masculine noun. A dead person, used respectfully. Feminine: la defunte.",

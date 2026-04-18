@@ -175,7 +175,7 @@ const UNIT_20 = {
 
   {type:"mc", q:"When talking to an outsider about your boss going somewhere, you use:", opts:["いらっしゃいます (honorific)","行(い)きます (neutral)","参(まい)ります (humble)","行(い)かれます (passive)"], ans:"参(まい)ります (humble)",
    hint:"In the uchi-soto system, your boss's actions get lowered when you speak to outsiders."},
-]},
+{type:"match",pairs:[{trg:"ご覧(らん)にな��",src:"to look / to see (honorific)"},{trg:"お休(やす)みにな��",src:"to rest / to sleep (honorific)"},{trg:"〜お + stem + になる",src:"honorific verb pattern"},{trg:"なさる",src:"to do (honorific)"},{trg:"く��さる",src:"to give (honorific, to me/us)"},{trg:"いただく",src:"to receive / to eat (humble)"}]},{type:"match",pairs:[{trg:"申(���う)す",src:"to say / to be called (humble)"},{trg:"〜お + stem + する",src:"humble verb pattern"},{trg:"お待(ま)ちする",src:"to wait (humble)"},{trg:"拝見(はい���ん)する",src:"to look / to see (humble)"}]}]},
 
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01

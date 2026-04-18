@@ -253,6 +253,7 @@ const UNIT_28 =
 {type:"drag_fill",s:"수능{1} 잘 {2} 만큼 대학 {3}가 높아요. 한국{4} 경쟁 사회잖아요.\n(Proportional to CSAT score, university ranking rises. Korea is a competitive society, you know.)",blanks:{"1":"을","2":"본","3":"순위","4":"은"},pool:["을","본","순위","은","이","보는","수준","의"],hint:"Object. Past-proportional. Ranking. Topic + reminder."},
 {type:"drag_fill",s:"최종 복습: 정도로 = {1}. 만하다 = {2}. 만큼 = {3}. 다기보다 = {4}. 듯이 = {5}.\n(Extent. Worth. Proportional. Rather-than. As-if.)",blanks:{"1":"to the extent","2":"worth doing","3":"proportional","4":"rather than","5":"as if"},pool:["to the extent","worth doing","proportional","rather than","as if","because","since already","for a"],hint:"Match each pattern from this unit to its core meaning."},
 {type:"mc",q:"마찬가지로 + 이에 비해 + 반면에:\n이 세 가지는 TOPIK에서 어디에 쓰나요?\n(Where are these three used in TOPIK?)",opts:["쓰기 비교 문단에서 (In comparison writing paragraphs)","읽기에서만 (Only reading)","듣기에서만 (Only listening)","말하기에서만 (Only speaking)"],ans:"쓰기 비교 문단에서 (In comparison writing paragraphs)",hint:"마찬가지로, 이에 비해, 반면에: these formal connectors belong to which TOPIK task type?"},
+{type:"match",pairs:[{trg:"순위",src:"ranking / place"},{trg:"경쟁",src:"competition"},{trg:"기준",src:"standard / criteria"},{trg:"-(으)ㄹ 정도(로)",src:"to the extent that / so much that"},{trg:"-기에(는)",src:"for the purpose of / to (not suitable)"},{trg:"-듯(이)",src:"as if / as though / like"},{trg:"입시",src:"entrance examination (system)"}]}
 ]},
 ]};
 

@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["紅葉(こうよう)","花見(はなみ)","花火(はなび)","祭(まつ)り"],
      hint:"Autumn's version of cherry blossom viewing. Red and gold leaves are the attraction.",
      sSrc:"Kyoto's {1} is most beautiful in November."}
-  ]
+  ,{type:"match",pairs:[{trg:"虹(にじ)",src:"rainbow"},{trg:"お正月(おしょうがつ)",src:"New Year"}]}]
 };
 export default BATCH7_L1;

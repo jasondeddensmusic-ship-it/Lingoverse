@@ -82,7 +82,7 @@ const LESSON_5 = {
      q:"Que désigne 'une garderie' ?",
      opts:["Un lieu où on garde les enfants","Un magasin de jardinage","Une prison pour mineurs","Un refuge pour animaux"],
      ans:"Un lieu où on garde les enfants",
-     hint:"From 'garder' (to keep or watch). A place of care for very young children."},
+     hint:"A supervised facility for toddlers and young children while parents are at work. Also available after school hours."},
 
     {type:"teach", trg:"la griffe", src:"the claw, the brand signature", pos:"noun", gender:"f",
      note:"Feminine noun. An animal's claw, or a designer's signature label.",

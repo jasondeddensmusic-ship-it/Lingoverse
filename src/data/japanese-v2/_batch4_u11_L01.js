@@ -123,6 +123,6 @@ const BATCH4_L_1 = {
      sSrc:"I fixed the mistake.",
      opts:["直(なお)し","始(はじ)め","終(お)わり","続(つづ)け"],
      hint:"The verb for repairing or correcting something wrong."}
-  ]
+  ,{type:"match",pairs:[{trg:"続(つづ)ける",src:"to continue"},{trg:"始(はじ)める",src:"to begin / start (transitive)"},{trg:"終(お)わる",src:"to end / finish (intransitive)"},{trg:"てみる",src:"to try doing (te-form + miru)"},{trg:"てしまう",src:"to finish / end up doing (accidentally)"},{trg:"直(なお)す",src:"to fix / repair / redo"}]},{type:"match",pairs:[{trg:"過(す)ぎる",src:"too much / excessively"},{trg:"やすい",src:"easy to (suffix)"},{trg:"にくい",src:"hard to / difficult to (suffix)"},{trg:"かた",src:"way of doing / method (suffix)"}]}]
 };
 export default BATCH4_L_1;

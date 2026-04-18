@@ -107,7 +107,7 @@ const LESSON_3 = {id:"frv2_b2gC_l3", title:"Psychologie et comportement", icon:"
  q:"Quel suffixe français forme des noms de traits de caractère comme 'petitesse' ?",
  opts:["-esse","-tion","-ment","-eur"],
  ans:"-esse",
- hint:"The same ending as in finesse, sagesse, and tristesse. It creates abstract nouns from adjectives."}
+ hint:"A five-letter suffix that creates abstract feminine nouns from adjectives describing qualities and states of mind."}
 
 ]};
 export default LESSON_3;

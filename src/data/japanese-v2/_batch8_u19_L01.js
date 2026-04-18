@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is the most casual way to say 'must'?", opts:["なきゃ / なくちゃ","なければなりません","ないといけない","しなさい"], ans:"なきゃ / なくちゃ",
      hint:"This is the shortened form used between close friends in everyday speech."}
-  ]
+  ,{type:"match",pairs:[{trg:"塵(ちり)も積(つ)もれば山(やま)となる",src:"even dust, if piled up, becomes a mountain"},{trg:"なければならない",src:"must / have to (formal obligation)"},{trg:"すればするほど",src:"the more you do, the more..."},{trg:"喉元(のどもと)過(す)ぎれば熱(あつ)さを忘(わす)れる",src:"once past the throat, one forgets the heat"},{trg:"てもいい",src:"it is okay to / may / is allowed"},{trg:"ないとだめ",src:"must / have to (casual)"}]},{type:"match",pairs:[{trg:"猿(さる)も木(き)から落(お)ちる",src:"even monkeys fall from trees"}]}]
 };
 export default BATCH8_L1;

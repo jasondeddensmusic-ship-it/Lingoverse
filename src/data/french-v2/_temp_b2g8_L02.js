@@ -33,7 +33,7 @@ const LESSON_2 = {
      q:"Quel mot désigne une personne riche et privilégiée, souvent avec un ton critique ?",
      opts:["nanti","natif","migrant","modéré"],
      ans:"nanti",
-     hint:"From 'nantir' meaning to endow. This word always carries a critical undertone about wealth."},
+     hint:"A term for a wealthy, privileged person. In French it almost always carries a critical social edge when used."},
 
     {type:"teach", trg:"un modéré", src:"a moderate", pos:"noun", gender:"m",
      note:"Masculine noun. A person with centrist views.\nFeminine: une modérée.",

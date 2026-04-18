@@ -69,6 +69,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"How has てんしょく (changing jobs) changed in Japan?", opts:["Once taboo under lifetime employment, now normalized","Always been common","Still considered shameful","Only for managers"], ans:"Once taboo under lifetime employment, now normalized",
      hint:"Japanese work culture is shifting from しゅうしんこよう (l... e...) to more career mobility."}
-  ]
+  ,{type:"match",pairs:[{trg:"就職(しゅうしょく)する",src:"to get a job / to find employment"},{trg:"転職(てんしょく)する",src:"to change jobs"},{trg:"希望(きぼう)",src:"hope / wish / desire"},{trg:"可能性(かのうせい)",src:"possibility / potential"}]}]
 };
 export default BATCH9_L1;

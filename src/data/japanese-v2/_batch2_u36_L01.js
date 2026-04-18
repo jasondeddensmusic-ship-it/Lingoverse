@@ -81,6 +81,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"からといって...とは限(かぎ)らない means:", opts:["Just because X does not necessarily mean Y","Because of X, Y definitely follows","X and Y are the same","Neither X nor Y is true"], ans:"Just because X does not necessarily mean Y",
      hint:"This combined pattern warns against assuming a conclusion from a premise."},
-  ]
+  {type:"match",pairs:[{trg:"腑(ふ)に落(お)ちない",src:"to not be convinced / to not make sense"}]}]
 };
 export default BATCH2_L_1;

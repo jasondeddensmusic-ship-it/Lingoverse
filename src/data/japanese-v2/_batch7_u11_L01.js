@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["怪我(けが)","熱(ねつ)","咳(せき)","目眩(めまい)"],
      hint:"You hurt your leg and cannot walk. This noun means 'injury.'",
      sSrc:"I {1} my leg. I cannot walk."}
-  ]
+  ,{type:"match",pairs:[{trg:"お腹(なか)が痛(いた)い",src:"stomachache"},{trg:"具合(ぐあい)が悪(わる)い",src:"feeling unwell"}]}]
 };
 export default BATCH7_L1;

@@ -92,6 +92,6 @@ const BATCH2_L_2 = {
 
     {type:"mc", q:"The most important strategy for JLPT reading comprehension is:", opts:["Reading every word carefully from start to finish","First grasping the outline, then re-reading for details","Guessing all answers without reading","Only reading the questions, not the passages"], ans:"First grasping the outline, then re-reading for details",
      hint:"概要(がいよう)をつかむ (grasp the o...) f..., t... 再読(さいどく) (re-read) for specific answers."},
-  ]
+  {type:"match",pairs:[{trg:"再読(さいどく)",src:"re-reading / reading again"}]}]
 };
 export default BATCH2_L_2;

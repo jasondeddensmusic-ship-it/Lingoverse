@@ -122,6 +122,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"四角(しかく)い means:",
      opts:["square","round","triangle","oval"], ans:"square",
      hint:"A shape with four equal corners and straight sides."}
-  ]
+  ,{type:"match",pairs:[{trg:"大(おお)きい",src:"big / large"},{trg:"丸(まる)い",src:"round / circular"},{trg:"四角(しかく)い",src:"square / rectangular"},{trg:"革(かわ)",src:"leather"},{trg:"ガラス",src:"glass (material)"},{trg:"プラスチック",src:"plastic"}]}]
 };
 export default BATCH4_L_1;

@@ -107,7 +107,7 @@ const LESSON_18 = {id:"frv2_b2gC_l18", title:"Concepts abstraits", icon:"\u{1F4A
  q:"Cette règle n'a aucune logique. C'est un _____ complet.",
  opts:["non-sens","positivisme","anonymat","contrario"],
  ans:"non-sens",
- hint:"Something that makes absolutely no sense. Borrowed partly from English."}
+ hint:"A loanword from English for something logically incoherent or absurd, used both formally and casually in French."}
 
 ]};
 export default LESSON_18;

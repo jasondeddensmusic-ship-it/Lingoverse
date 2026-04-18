@@ -64,6 +64,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"Which word means vision of the future?", opts:["未来像(みらいぞう)","子育(こそだ)て支援(しえん)","スタートアップ","インバウンド"], ans:"未来像(みらいぞう)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"ソサエティ",src:"Society 5.0"}]}]
 };
 export default BATCH9_L1;

@@ -15,6 +15,6 @@ const BATCH9_L1 = {
     {type:"fb", s:"この{1}の美(うつく)しさに感動(かんどう)しました。\n(I was moved by the beauty of this scenery.)", a:"景色(けしき)", opts:["景色(けしき)","建物(たてもの)","人(ひと)","町(まち)"], sSrc:"I was moved by the beauty of this scenery.", hint:"This word refers to the natural landscape or view."},
     {type:"match", pairs:[{trg:"考(かんが)え方(かた)",src:"way of thinking"},{trg:"喜(よろこ)び",src:"joy"},{trg:"悲(かな)しみ",src:"sadness"},{trg:"強(つよ)さ",src:"strength"}]},
     {type:"mc", q:"What is もののあわれ?", opts:["The pathos of things, finding beauty in impermanence","A type of food","A martial art","A business strategy"], ans:"The pathos of things, finding beauty in impermanence", hint:"This Japanese aesthetic concept celebrates bittersweet emotions about the transient nature of life."}
-  ]
+  ,{type:"match",pairs:[{trg:"生(い)き方(かた)",src:"way of living / lifestyle"},{trg:"決(き)め方(かた)",src:"way of deciding / decision method"},{trg:"美(うつく)しさ",src:"beauty"},{trg:"面白(おもしろ)み",src:"charm / interesting quality"}]}]
 };
 export default BATCH9_L1;

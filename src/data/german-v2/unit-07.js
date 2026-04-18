@@ -225,7 +225,7 @@ const UNIT_7 =
 {type:"mc",q:"Plötzlich war mir schwindelig. Was bedeutet 'plötzlich'?",opts:["slowly","suddenly","hopefully","always"],ans:"suddenly",hint:"It describes something happening without warning."},
 {type:"drag_fill",s:"Gestern war ich {1}, aber heute bin ich wieder {2}.",blanks:{"1":"krank","2":"fit"},pool:["krank","fit","schwach","wach","gefährlich"],hint:"From illness yesterday to feeling good today.",sSrc:"Yesterday I was sick, but today I am fit again."},
 {type:"match",pairs:[{trg:"gesund", pos:"adj", gender:null,src:"healthy"},{trg:"schwach", pos:"adj", gender:null,src:"weak"},{trg:"gefährlich", pos:"adj", gender:null,src:"dangerous"},{trg:"furchtbar", pos:"adj", gender:null,src:"terrible"},{trg:"plötzlich", pos:"adv", gender:null,src:"suddenly"},{trg:"hoffentlich", pos:"adv", gender:null,src:"hopefully"}]},
-{type:"mc",q:"Was ist eine Krankschreibung?",opts:["Ein Rezept für Medizin","Eine Rechnung vom Krankenhaus","Ein Dokument vom Arzt für den Chef","Ein Brief an die Familie"],ans:"Ein Dokument vom Arzt für den Chef",hint:"It tells your employer why you cannot come to work."}]}
+{type:"mc",q:"Was ist eine Krankschreibung?",opts:["Ein Rezept für Medizin","Eine Rechnung vom Krankenhaus","Ein Dokument vom Arzt für den Chef","Ein Brief an die Familie"],ans:"Ein Dokument vom Arzt für den Chef",hint:"It tells your employer why you cannot come to work."},{type:"match",pairs:[{trg:"der Patient",src:"the patient (male)"},{trg:"stark",src:"strong"},{trg:"die Sprechstunde",src:"consultation hours"},{trg:"fallen",src:"to fall"},{trg:"schwanger",src:"pregnant"},{trg:"die Krankschreibung",src:"the sick note"},{trg:"fit",src:"fit"}]}]}
 ]};
 
 export default UNIT_7;

@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"戻(もど)る means:", opts:["To return to a previous place","To open something","To forget","To hand over"], ans:"To return to a previous place",
      hint:"This verb emphasizes physically going back to where you were."}
-  ]
+  ,{type:"match",pairs:[{trg:"触(さわ)る",src:"to touch"},{trg:"戻(もど)る",src:"to return / to go back"},{trg:"渡(わた)す",src:"to hand over / to pass"},{trg:"残(のこ)る",src:"to remain / to stay behind"},{trg:"覚(おぼ)える",src:"to memorize / to remember"}]}]
 };
 export default BATCH6_L1;

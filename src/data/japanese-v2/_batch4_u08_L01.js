@@ -116,6 +116,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What does 役所(やくしょ) mean?",
      opts:["government office","school","company","store"], ans:"government office",
      hint:"Where you handle official paperwork like address changes and permits."}
-  ]
+  ,{type:"match",pairs:[{trg:"建物(たてもの)",src:"building"},{trg:"役所(やくしょ)",src:"government office / city hall"},{trg:"玄関(げんかん)",src:"entrance / entryway"},{trg:"お風呂(ふろ)",src:"bathroom / bathtub"},{trg:"トイレ",src:"toilet / restroom"},{trg:"押(お)し入(い)れ",src:"Japanese closet"}]},{type:"match",pairs:[{trg:"庭(にわ)",src:"garden / yard"}]}]
 };
 export default BATCH4_L_1;

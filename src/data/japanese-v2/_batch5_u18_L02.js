@@ -93,6 +93,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"なさい is best described as:", opts:["A gentle command (softer than imperative)","A polite request","An extremely rude order","A question form"], ans:"A gentle command (softer than imperative)",
      hint:"This form is used by parents to children and teachers to students. Commanding but not harsh."}
-  ]
+  ,{type:"match",pairs:[{trg:"させてください",src:"please let me do / please allow me"},{trg:"させていただく",src:"to be allowed to do (humble)"},{trg:"〜てはいけない",src:"must not / it is forbidden to"},{trg:"従(したが)う",src:"to obey / to follow / to comply"},{trg:"〜なさい",src:"do ~ (gentle command)"},{trg:"許(ゆる)す",src:"to permit / to forgive / to allow"}]},{type:"match",pairs:[{trg:"不当(ふとう)",src:"unfair / unjust / improper"}]}]
 };
 export default BATCH5_L_2;

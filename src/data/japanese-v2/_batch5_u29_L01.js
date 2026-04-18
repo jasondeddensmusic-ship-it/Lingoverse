@@ -73,6 +73,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"Japan's households traditionally preferred:", opts:["Savings (貯金(ちょきん)) over investment (投資(とうし))","Investment over savings","Real estate only","Gold only"], ans:"Savings (貯金(ちょきん)) over investment (投資(とうし))",
      hint:"Risk-averse Japanese culture historically favored safe bank deposits."}
-  ]
+  ,{type:"match",pairs:[{trg:"物価(ぶっか)",src:"prices / commodity prices / cost of living"},{trg:"金利(きんり)",src:"interest rate"}]}]
 };
 export default BATCH5_L_1;

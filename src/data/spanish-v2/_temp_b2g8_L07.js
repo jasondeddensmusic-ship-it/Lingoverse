@@ -105,6 +105,6 @@ const LESSON_7 = {id:"esv2_b2g8_l7",title:"Cualidades y carácter",icon:"💎",x
 {type:"mc",q:"¿Qué sufijo español convierte adjetivos en sustantivos abstractos como maldad, bondad, crueldad?",
  opts:["-dad","-eza","-ción","-miento"],
  ans:"-dad",
- hint:"Malo becomes maldad, cruel becomes crueldad. What ending do they share?"}
+ hint:"This three-letter suffix turns adjectives into abstract feminine nouns. Malo, cruel, bueno all use it."}
 ]};
 export default LESSON_7;

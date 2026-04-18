@@ -116,6 +116,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"虫(むし) means:",
      opts:["insect","fish","bird","snake"], ans:"insect",
      hint:"Japanese children famously love to collect these small creatures."}
-  ]
+  ,{type:"match",pairs:[{trg:"動物(どうぶつ)",src:"animal"},{trg:"虫(むし)",src:"insect / bug"},{trg:"山(やま)",src:"mountain"},{trg:"川(かわ)",src:"river"},{trg:"森(もり)",src:"forest"},{trg:"花(はな)",src:"flower"}]},{type:"match",pairs:[{trg:"空(そら)",src:"sky"},{trg:"星(ほし)",src:"star"}]}]
 };
 export default BATCH4_L_1;

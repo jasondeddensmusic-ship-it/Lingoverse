@@ -259,6 +259,7 @@ const UNIT_27 =
 {type:"mc",q:"울어 봤자 소용없고, 빌려서라도 해결해야 해요.\n봤자 vs 서라도 in one sentence?\n(Crying is useless, must solve even if borrowing.)",opts:["Both show determination","Same meaning","Both show futility","봤자 (futile action) + 서라도 (determined action) .  contrast in one sentence"],ans:"봤자 (futile action) + 서라도 (determined action) .  contrast in one sentence",hint:"The first clause gives up; the second pushes through. Opposite stances side by side."},
 {type:"drag_fill",s:"속담: 가는 말이 {1}야 오는 말이 곱다. (Kind words beget kind words.)\n사자성어: 전화{2}복. (Disaster becomes blessing.)\n관용: {3}이 높다. (High standards.)",blanks:{"1":"고와","2":"위","3":"눈"},pool:["고와","위","눈","나빠","화","귀"],hint:"Must be nice. Become. Eye."},
 {type:"mc",q:"U27의 핵심 주제는?\n(Core theme of U27?)",opts:["속담, 사자성어, 관용 표현과 양보 패턴 (Proverbs, 4-char idioms, idioms & concession)","새로운 문법만 (Only new grammar)","발음 연습 (Pronunciation)","읽기만 (Reading only)"],ans:"속담, 사자성어, 관용 표현과 양보 패턴 (Proverbs, 4-char idioms, idioms & concession)",hint:"U27 spans four content areas: folk sayings, Sino-Korean four-character expressions, body-metaphor phrases, and yielding grammar patterns."},
+{type:"match",pairs:[{trg:"지혜",src:"wisdom"},{trg:"콩 심은 데 콩 나고 팥 심은 데 팥 난다",src:"Plant beans, beans grow; plant red beans, red beans grow"},{trg:"세 살 버릇 여든까지 간다",src:"Habits from age 3 last until 80"},{trg:"V-기는커녕",src:"let alone V-ing"},{trg:"-(ㄴ/는)다니 / -(이)라니",src:"I can't believe... / How could...!"},{trg:"-(ㄴ/는)다더니",src:"they said X, but (unexpected twist)"}]}
 ]},
 ]};
 

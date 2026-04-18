@@ -160,6 +160,7 @@ export default {n:4,lang:"es",srcLang:"en",track:"v2",title:"¡A Comer!",sub:"Fo
         {type:"mc",q:"Which expression uses 'tener' in Spanish but 'to be' in English?",opts:["Tengo un libro (I have a book)","Tengo hambre (I'm hungry)","Tengo que estudiar (I have to study)","Tengo pan (I have bread)"],ans:"Tengo hambre (I'm hungry)",hint:"In Spanish you 'have hunger', in English you 'are ___'."},
         {type:"drag_fill",hint:"Order a two-course meal: salad starter, meat main.",s:"De {1}, una {2} mixta. De {3}, {4} con patatas.",blanks:{"1":"primero","2":"ensalada","3":"segundo","4":"carne"},pool:["primero","ensalada","segundo","carne","postre","sopa"]},
         {type:"mc",q:"A friend says '¡Está riquísima!' about the paella. This means:",opts:["She's very rich","It's extremely expensive","It's absolutely delicious","It's very spicy"],ans:"It's absolutely delicious",hint:"Riquísima is the superlative of rico. Applied to food it shifts from 'rich' to a taste compliment."},
-        {type:"fb",opts:["pone","trae","quiero","gusta"],hint:"A polite way to order in Spain, meaning 'can you give me'.",s:"¿Me {1} un café, por favor?",a:"pone"}
+        {type:"fb",opts:["pone","trae","quiero","gusta"],hint:"A polite way to order in Spain, meaning 'can you give me'.",s:"¿Me {1} un café, por favor?",a:"pone"},
+        {type:"match",pairs:[{trg:"la verdura",src:"the vegetable"}]}
   ]}
 ]};

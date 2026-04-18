@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"Where does 一期一会(いちごいちえ) come from?", opts:["Tea ceremony philosophy","Martial arts tradition","Buddhist scripture","Modern business theory"], ans:"Tea ceremony philosophy",
      hint:"The great t... master Sen no Rikyu taught this principle of treasuring each gathering."}
-  ]
+  ,{type:"match",pairs:[{trg:"心機一転(しんきいってん)",src:"turning over a new leaf / fresh start"},{trg:"四捨五入(ししゃごにゅう)",src:"rounding off / rounding (numbers)"},{trg:"他力本願(たりきほんがん)",src:"relying on others / depending on external help"},{trg:"臥薪嘗胆(がしんしょうたん)",src:"enduring hardship to achieve a goal"},{trg:"融通無碍(ゆうずうむげ)",src:"flexibility / adaptability / versatility"},{trg:"真心一点(しんしんいってん)の",src:"with single-minded devotion"}]}]
 };
 export default BATCH8_L1;

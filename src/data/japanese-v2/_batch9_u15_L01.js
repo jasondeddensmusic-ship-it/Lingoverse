@@ -63,6 +63,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What is remarkable about the Shinkansen's safety record?", opts:["Zero passenger fatalities in 60+ years","It has never been late","It runs 24 hours a day","It is the cheapest train in Japan"], ans:"Zero passenger fatalities in 60+ years",
      hint:"Since launching in 1964, the bullet train has maintained a perfect safety record."}
-  ]
+  ,{type:"match",pairs:[{trg:"切符売(きっぷう)り場(ば)",src:"ticket counter / ticket office"},{trg:"地下鉄(ちかてつ)",src:"subway / metro"}]}]
 };
 export default BATCH9_L1;

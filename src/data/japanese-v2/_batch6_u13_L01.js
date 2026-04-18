@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"花粉(かふん)アレルギー is:", opts:["Pollen allergy (hay fever)","Food allergy","Drug allergy","Pet allergy"], ans:"Pollen allergy (hay fever)",
      hint:"This seasonal a... is extremely common in Japan during spring."}
-  ]
+  ,{type:"match",pairs:[{trg:"病院(びょういん)",src:"hospital"},{trg:"吐(は)く",src:"to vomit / to throw up"},{trg:"保険証(ほけんしょう)",src:"health insurance card"},{trg:"診察(しんさつ)",src:"medical examination / consultation"}]}]
 };
 export default BATCH6_L1;

@@ -79,6 +79,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"以上(いじょう)のことから is used to:", opts:["Introduce a conclusion based on previous points","Start a new topic","Express disagreement","Ask for clarification"], ans:"Introduce a conclusion based on previous points",
      hint:"This formal phrase signals that everything before was evidence, and now the c... follows."}
-  ]
+  ,{type:"match",pairs:[{trg:"言(い)い換(か)えれば",src:"in other words / to put it differently"},{trg:"手頃(てごろ)",src:"reasonable (price) / affordable / handy"},{trg:"以上(いじょう)のことから",src:"from the above / based on the foregoing"},{trg:"説得力(せっとくりょく)",src:"persuasiveness / convincing power"}]}]
 };
 export default BATCH5_L_1;

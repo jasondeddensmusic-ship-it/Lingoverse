@@ -56,7 +56,7 @@ const LESSON_15 = {id:"frv2_b2gD_l15", title:"Expressions et locutions", icon:"�
    s:"{1}, cette solution serait idéale, mais en pratique elle coûte trop cher.",
    a:["Dans l'absolu"],
    opts:["Dans l'absolu","Jusqu'au bout","C'est-à-dire","Là-dessus"],
-   hint:"This expression means 'in absolute terms' or 'theoretically, without real-world constraints'.",
+   hint:"A French expression for reasoning without practical constraints. The ideal case, divorced from reality.",
    sSrc:"{1}, this solution would be ideal, but in practice it costs too much."},
 
   {type:"teach", trg:"par suite de", src:"as a result of / following", pos:"prep", gender:null,

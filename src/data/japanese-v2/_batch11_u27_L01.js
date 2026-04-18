@@ -76,7 +76,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"「かならずしも」はどう使(つか)いますか？",
      opts:["Always with a negative verb to mean 'not necessarily'","With positive verbs to mean 'definitely'","As a greeting","To express certainty"],
      ans:"Always with a negative verb to mean 'not necessarily'",
-     hint:"This adverb is A... paired with a n... form. It softens absolute statements by introducing the possibility of exceptions."},
+     hint:"This word is always paired with a negative predicate. It softens absolute statements by introducing the possibility of exceptions."},
 
     {type:"fb", s:"地球(ちきゅう){1}は深刻(しんこく)な問題(もんだい)です。",
      a:["温暖化(おんだんか)"],
@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Generally / for the most part","Absolutely / definitely","Never / not at all","Suddenly / unexpectedly"],
      ans:"Generally / for the most part",
      hint:"This formal adverb acknowledges that something is mostly true while leaving room for minor imperfections."}
-  ]
+  ,{type:"match",pairs:[{trg:"かならずしも",src:"not necessarily / not always"},{trg:"再生可能(さいせいかのう)",src:"renewable (energy)"},{trg:"排出(はいしゅつ)",src:"emission / discharge"},{trg:"資源(しげん)",src:"resources"},{trg:"持続可能(じぞくかのう)",src:"sustainable"},{trg:"おおむね",src:"generally / for the most part"}]}]
 };
 export default BATCH11_L1;

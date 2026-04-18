@@ -75,7 +75,7 @@ const LESSON_2 = {id:"esv2_b2g8_l2",title:"Medios y comunicación",icon:"📡",x
 {type:"mc",q:"¿Qué significa 'comunicación empresarial'?",
  opts:["La comunicación profesional dentro y fuera de una empresa","El servicio de correos de una ciudad","Las noticias publicadas en un diario","La conversación entre amigos"],
  ans:"La comunicación profesional dentro y fuera de una empresa",
- hint:"Empresarial relates to 'e...' (company). What kind of communication happens in business?"},
+ hint:"The -ial suffix signals a corporate context. Think about formal messaging that flows inside and outside an organisation."},
 
 {type:"teach",trg:"la consideración",src:"the consideration",pos:"noun",gender:"f",
  note:"Feminine noun. Careful thought, or respect shown to others.\nTener en consideración = to take into account.",

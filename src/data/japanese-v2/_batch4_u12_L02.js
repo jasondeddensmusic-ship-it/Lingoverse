@@ -122,6 +122,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"自信(じしん) means:",
      opts:["self-confidence","earthquake","effort","ability"], ans:"self-confidence",
      hint:"S... + believe. Different kanji from the natural disaster word."}
-  ]
+  ,{type:"match",pairs:[{trg:"能力(のうりょく)",src:"ability / capability"},{trg:"得意(とくい)",src:"good at / strong point"},{trg:"経験(けいけん)",src:"experience"},{trg:"自信(じしん)",src:"self-confidence"},{trg:"成長(せいちょう)する",src:"to grow / develop"}]}]
 };
 export default BATCH4_L_2;

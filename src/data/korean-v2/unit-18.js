@@ -255,7 +255,7 @@ const UNIT_18 =
 {type:"mc",q:"한국 음식을 먹기 위해서 한국에 왔어요.\n(I came to Korea in order to eat Korean food.)",opts:["-(으)려면","-(으)려고","-(으)러","-기 위해서"],ans:"-기 위해서",hint:"Formal purpose expression: came to this place with the goal of doing something."},
 {type:"fb",s:"어제 {1} 비빔밥이 정말 맛있었어요.\n(The bibimbap I ate yesterday was really delicious.)",a:["먹은"],opts:["먹은","먹는","먹을","먹기"],hint:"Yesterday's bibimbap: use the past tense modifier form of the eating verb."},
 {type:"drag_fill",s:"한국 음식을 배우{1} 위해서 요리 학원에 {2} 있어요.\n(I am attending a cooking academy in order to learn Korean food.)",blanks:{"1":"기","2":"다니고"},pool:["기","다니고","는","다녀서","게","다니면"],hint:"-기 위해서 (purpose) + -고 있다 (progressive)."},
-]},
+{type:"match",pairs:[{trg:"요리하다",src:"to cook"},{trg:"굽다",src:"to grill, to roast"},{trg:"볶다",src:"to stir-fry"},{trg:"시키다",src:"to order (food/delivery)"},{trg:"레시피",src:"recipe"},{trg:"남다",src:"to remain, to be left over"}]},{type:"match",pairs:[{trg:"주문하다",src:"to order (at a restaurant)"},{trg:"맵다",src:"to be spicy"},{trg:"싱겁다",src:"to be bland"},{trg:"젓가락",src:"chopsticks"}]}]},
 
 ]};
 

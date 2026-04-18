@@ -105,7 +105,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"日本(にほん)の「働(はたら)き方(かた)改革(かいかく)」は何(なに)をめざしていますか？",
      opts:["Reducing overtime and improving work-life balance","Increasing production hours","Eliminating remote work","Raising retirement age"],
      ans:"Reducing overtime and improving work-life balance",
-     hint:"This reform movement addresses the serious problem of excessive 残業(ざんぎょう) in Japanese workplaces."}
-  ]
+     hint:"This Japanese policy movement aims to tackle excessive 残業(ざんぎょう) culture and create healthier employment conditions."}
+  ,{type:"match",pairs:[{trg:"お先(さき)に失礼(しつれい)します",src:"excuse me for leaving before you"},{trg:"お世話(せわ)になっております",src:"I am in your care (business)"},{trg:"経験(けいけん)",src:"experience"},{trg:"責任(せきにん)",src:"responsibility"},{trg:"残業(ざんぎょう)",src:"overtime work"},{trg:"名刺(めいし)",src:"business card"}]}]
 };
 export default BATCH11_L1;

@@ -93,6 +93,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"批評家(ひひょうか)から高(たか)く評価(ひょうか)されている means:", opts:["It is highly rated by critics","Critics are being evaluated","Critics gave a low rating","Someone evaluated the critics"], ans:"It is highly rated by critics",
      hint:"批評家(ひひょうか) (c...) + から (by) + 高(たか)く (h...) + 評価(ひょうか)されている (is being evaluated/r...)."}
-  ]
+  ,{type:"match",pairs:[{trg:"認(みと)められる",src:"to be recognized / to be acknowledged"},{trg:"信(しん)じられる",src:"to be believed / it is believable / I cannot believe it"},{trg:"疑(うたが)われる",src:"to be suspected / to be doubted"},{trg:"望(のぞ)まれる",src:"to be desired / to be wished for"},{trg:"明(あき)らかにされる",src:"to be made clear / to be revealed"},{trg:"才能(さいのう)",src:"talent / ability / gift"}]}]
 };
 export default BATCH5_L_2;

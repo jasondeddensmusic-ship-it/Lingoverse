@@ -64,6 +64,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Which word means Japanese diplomacy?", opts:["日本外交(にほんがいこう)","気候変動(きこうへんどう)","開発(かいはつ)","問題解決(もんだいかいけつ)"], ans:"日本外交(にほんがいこう)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"貿易協定(ぼうえききょうてい)",src:"trade agreement"}]}]
 };
 export default BATCH10_L1;

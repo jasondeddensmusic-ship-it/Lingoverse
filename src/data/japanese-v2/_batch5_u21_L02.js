@@ -79,6 +79,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"急務(きゅうむ) describes:", opts:["A task that demands immediate action","A routine duty","A completed task","An optional project"], ans:"A task that demands immediate action",
      hint:"This formal word combines 'urgent' with 'duty/t...' to signal pressing need."}
-  ]
+  ,{type:"match",pairs:[{trg:"格差(かくさ)",src:"gap / disparity / divide"},{trg:"充実(じゅうじつ)",src:"enrichment / enhancement / fulfillment"},{trg:"急務(きゅうむ)",src:"urgent task / pressing need"},{trg:"改革(かいかく)",src:"reform / restructuring"}]}]
 };
 export default BATCH5_L_2;

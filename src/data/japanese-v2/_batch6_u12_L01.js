@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"釣(つ)り means:", opts:["Fishing","Swimming","Running","Collecting"], ans:"Fishing",
      hint:"This hobby involves catching something from water using a rod."}
-  ]
+  ,{type:"match",pairs:[{trg:"釣(つ)る",src:"to fish / to angle"},{trg:"絵(え)を描(か)く",src:"to draw a picture"},{trg:"集(あつ)める",src:"to collect / to gather"},{trg:"負(ま)ける",src:"to lose (a game)"}]}]
 };
 export default BATCH6_L1;

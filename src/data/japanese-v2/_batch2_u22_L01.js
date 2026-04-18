@@ -83,6 +83,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"おかげさまで元気(げんき)です is notable because:", opts:["It is rude","It attributes your wellbeing to others, showing reflexive gratitude","It means you are sick","It is only used at funerals"], ans:"It attributes your wellbeing to others, showing reflexive gratitude",
      hint:"Even answering 'how are you,' Japanese speakers thank the world/o... for their w...."},
-  ]
+  {type:"match",pairs:[{trg:"気(き)を使(つか)う",src:"to be considerate / to use social care"}]}]
 };
 export default BATCH2_L_1;

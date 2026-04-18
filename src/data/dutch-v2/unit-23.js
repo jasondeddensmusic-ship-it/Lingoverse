@@ -84,7 +84,7 @@ export default {n:23,lang:"nl",srcLang:"en",track:"v2",title:"Als Ik Kon...",sub
         {type:"match",pairs:[{trg:"had geweten",src:"had known"},{trg:"was gegaan",src:"had gone"},{trg:"had gezegd",src:"had said"},{trg:"waren gebleven",src:"had stayed"}]},
         {type:"drag_fill",hint:"If I HAD left earlier, I would have arrived on time.",s:"Als ik eerder {1} vertrokken, zou ik op tijd {2} aangekomen.",blanks:{"1":"was","2":"zijn"},pool:["was","zijn","had","hebben"]},
         {type:"mc",q:"Type 2 uses simple past for unreality. Type 3 uses:",opts:["Present tense","Past perfect","Simple past","Future tense"],ans:"Past perfect",hint:"Type 3 = had + ___ participle in the als-clause"},
-        {type:"fb",opts:["Waren","Hadden","Hebben","Zijn"],hint:"Subject-verb switch: ___ we maar op tijd vertrokken",s:"___ we maar op tijd vertrokken, dan waren we niet te laat geweest.",a:"Waren"}
+        {type:"fb",opts:["Waren","Hadden","Hebben","Zijn"],hint:"Inverted conditional: drop 'als', put the auxiliary first",s:"___ we maar op tijd vertrokken! (inverted conditional  -  no als)",a:"Waren"}
   ]},
   {id:"v2u23l4",title:"Moge Het Lukken",icon:"📜",xp:20,board:true,steps:[
         {type:"intro",title:"Moge Het Lukken",desc:"Dutch technically has no subjunctive mood, but ancient remnants survive in fixed expressions. 'Moge', 'ware', 'het zij zo', 'als het ware'. These are fossil phrases every advanced learner should recognize.",goals:["Recognize subjunctive remnants in Dutch","Use 'moge' in wishes and formal toasts","Understand 'ware', 'het zij zo', 'als het ware'","Distinguish fossils from productive grammar"]},
@@ -196,5 +196,5 @@ export default {n:23,lang:"nl",srcLang:"en",track:"v2",title:"Als Ik Kon...",sub
         {type:"fb",opts:["Moge","Mag","Kan","Zal"],hint:"_____ het nieuwe jaar u geluk brengen: formal wish",s:"___ het nieuwe jaar je geluk brengen!",a:"Moge"},
         {type:"drag_fill",hint:"If only I WERE rich (present). If only I HAD paid attention (past).",s:"{1} ik maar rijk. {2} ik maar beter opgelet.",blanks:{"1":"Was","2":"Had"},pool:["Was","Had","Ben","Heb"]},
         {type:"mc",q:"'Ware het niet dat ik moest werken, zou ik meegaan.' In everyday Dutch:",opts:["Ware het niet dat...","Het zij zo dat...","Als het niet was dat...","Moge het niet dat..."],ans:"Als het niet was dat...",hint:"The subjunctive 'ware' is replaced by '___' + indicative"}
-  ]}
+  ,{type:"match",pairs:[{trg:"hypothetisch",src:"hypothetical"},{trg:"denkbeeldig",src:"imaginary / hypothetical"}]}]}
 ]};

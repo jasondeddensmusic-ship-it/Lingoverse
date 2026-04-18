@@ -122,6 +122,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What does 怪我(けが) mean?",
      opts:["injury/wound","illness","fever","allergy"], ans:"injury/wound",
      hint:"Physical damage to the body from accidents or sports."}
-  ]
+  ,{type:"match",pairs:[{trg:"病気(びょうき)",src:"illness / sickness"},{trg:"風邪(かぜ)",src:"cold (illness)"},{trg:"咳(せき)",src:"cough"},{trg:"喉(のど)が痛(いた)い",src:"to have a sore throat"},{trg:"怪我(けが)",src:"injury / wound"},{trg:"体調(たいちょう)",src:"physical condition"}]},{type:"match",pairs:[{trg:"アレルギー",src:"allergy"},{trg:"診察(しんさつ)",src:"medical examination / consultation"}]}]
 };
 export default BATCH4_L_1;

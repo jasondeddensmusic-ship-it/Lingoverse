@@ -79,6 +79,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"いかなる is the literary equivalent of:", opts:["どんな (what kind of / any)","いつ (when)","どこ (where)","なぜ (why)"], ans:"どんな (what kind of / any)",
      hint:"This classical adjective replaces the everyday question word for 'what k... of' in formal writing."}
-  ]
+  ,{type:"match",pairs:[{trg:"いかなる",src:"what kind of / any / whatever"},{trg:"〜ものの",src:"although / even though (literary)"},{trg:"わずか",src:"merely / only / a tiny amount"},{trg:"強靭(きょうじん)",src:"strong / tough / robust / tenacious"},{trg:"達成感(たっせいかん)",src:"sense of achievement / feeling of accomplishment"}]}]
 };
 export default BATCH5_L_1;

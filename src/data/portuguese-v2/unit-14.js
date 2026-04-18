@@ -73,7 +73,7 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
  exampleSrc:"A: Did you use to like chocolate as a child?\nB: I loved it! I ate it every day.\nA: Me too.\nB: I think there is no child who did not like it.",
  funFact:"Preferences, feelings, and tastes almost always go in the imperfect when describing the past. Gostar is a feelings verb, so expect imperfect."},
 
-{type:"mc", q:"Which sentence correctly uses the imperfect for a description?", opts:["Ela estudava francês naquela época","Ela estudou naquela época","Ela estuda naquela época","Ela vai estudar naquela época"], ans:"Ela estudava francês naquela época", hint:"___ época (in those days) signals an ongoing past state."}
+{type:"mc", q:"Which sentence correctly uses the imperfect for a description?", opts:["Ela estudava francês naquela época","Ela estudou naquela época","Ela estuda naquela época","Ela vai estudar naquela época"], ans:"Ela estudava francês naquela época", hint:"The time expression meaning 'in those days' signals a continuous background state, not a completed action."}
 ]},
 
 {id:"ptv2_u14l2", title:"-er and -ir Imperfect", icon:"🌙", xp:15, board:true, steps:[

@@ -174,7 +174,7 @@ const UNIT_22 = {
 
   {type:"mc", q:"ていただけますか is used to:", opts:["thank someone for a past favor","describe someone's habitual action","make a very polite request","refuse an offer politely"], ans:"make a very polite request",
    hint:"This is the formal potential question form of ていただく, used to ask someone to do a favor."},
-]},
+{type:"match",pairs:[{trg:"〜ていただく",src:"to have someone do ~ (humble/polite)"}]}]},
 
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01

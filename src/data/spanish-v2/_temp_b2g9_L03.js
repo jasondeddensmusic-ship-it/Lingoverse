@@ -37,7 +37,7 @@ const LESSON_3 = {id:"esv2_b2g9_l3", title:"Mercados y dinero", icon:"\u{1F4B0}"
   {type:"mc", q:"\u00bfQu\u00e9 es un monopolio?",
    opts:["Un mercado con muchos vendedores","Un acuerdo entre dos empresas","El control total de un mercado por una sola empresa","Un tipo de impuesto"],
    ans:"El control total de un mercado por una sola empresa",
-   hint:"Mono means one, single. Only one seller controls everything."},
+   hint:"Mono- means one or single. Think about a market where just one seller dominates with no rivals."},
 
   {type:"teach", trg:"la mercader\u00eda", src:"the merchandise; goods", pos:"noun", gender:"f",
    note:"From mercader (merchant).\nUsed more in Latin America; in Spain, 'mercanc\u00eda' is more common.",

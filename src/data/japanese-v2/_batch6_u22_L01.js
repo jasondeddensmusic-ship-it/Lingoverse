@@ -88,6 +88,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"つまらないものですが expresses:", opts:["Humble self-deprecation when giving a gift","Disappointment with a gift received","A request for better wrapping","Dislike of the gift"], ans:"Humble self-deprecation when giving a gift",
      hint:"Japanese culture values modesty when presenting gifts to others."}
-  ]
+  ,{type:"match",pairs:[{trg:"お中元(ちゅうげん)",src:"mid-year gift"},{trg:"お歳暮(せいぼ)",src:"year-end gift"},{trg:"熨斗(のし)",src:"decorative gift wrapping paper / gift marker"},{trg:"気持(きも)ち",src:"feeling / sentiment / thought"},{trg:"つまらないものですが",src:"this is a trifling thing, but... (humble gift phrase)"}]}]
 };
 export default BATCH6_L1;

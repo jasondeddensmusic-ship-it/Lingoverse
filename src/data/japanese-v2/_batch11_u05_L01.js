@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Naive or lenient","Angry","Careful","Expensive"],
      ans:"Naive or lenient",
      hint:"Besides describing sweet food, this adjective has a figurative meaning when used about people or situations."}
-  ]
+  ,{type:"match",pairs:[{trg:"朝(あさ)ごはん",src:"breakfast"},{trg:"昼(ひる)ごはん",src:"lunch"},{trg:"晩(ばん)ごはん",src:"dinner"},{trg:"メニュー",src:"menu"},{trg:"注文(ちゅうもん)",src:"order (at restaurant)"},{trg:"お勘定(かんじょう)",src:"the bill / check"}]}]
 };
 export default BATCH11_L1;

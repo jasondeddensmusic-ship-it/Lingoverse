@@ -64,6 +64,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"Which word means so-called?", opts:["いわゆる","ないし","けだし","ゆえに"], ans:"いわゆる",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"とはいえ",src:"that said"}]}]
 };
 export default BATCH9_L1;

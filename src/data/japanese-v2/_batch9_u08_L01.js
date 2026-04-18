@@ -69,6 +69,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What should you do first at a 神社(じんじゃ)?", opts:["Purify hands at the water basin","Ring the bell","Throw money","Draw a fortune slip"], ans:"Purify hands at the water basin",
      hint:"The 手水舎(てみずや) (purification b...) is where visitors cleanse before approaching the main hall."}
-  ]
+  ,{type:"match",pairs:[{trg:"建物(たてもの)",src:"building"},{trg:"大使館(たいしかん)",src:"embassy"}]}]
 };
 export default BATCH9_L1;

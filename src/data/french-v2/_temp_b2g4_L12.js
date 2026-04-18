@@ -36,10 +36,10 @@ const LESSON_12 = {
      funFact:"The Academie francaise suggests 'succes de librairie' instead. Nobody uses it."},
 
     {type:"mc",
-     q:"Quel mot designe une personne qui a un abonnement ?",
+     q:"Quel mot désigne une personne qui paie régulièrement pour accéder à un service ou une publication ?",
      opts:["un abonne","un administrateur","un confrere","un commercial"],
      ans:"un abonne",
-     hint:"From 'abonner', originally meaning to set a fixed price. Now means having a subscription."},
+     hint:"Someone who pays a recurring fee for access to a service, magazine, or streaming platform."},
 
     {type:"teach", trg:"un decorateur", src:"a decorator, an interior designer", pos:"noun", gender:"m",
      note:"Masculine noun. Someone who designs interiors. Feminine: decoratrice.",

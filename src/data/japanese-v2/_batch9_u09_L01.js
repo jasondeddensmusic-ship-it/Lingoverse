@@ -69,6 +69,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What should you do in a Japanese fitting room before trying on clothes?", opts:["Use a face cover to protect clothes from makeup","Take a selfie","Ask for a different size","Remove all accessories"], ans:"Use a face cover to protect clothes from makeup",
      hint:"Staff often hand you a フェイスカバー to prevent cosmetics from transferring to garments."}
-  ]
+  ,{type:"match",pairs:[{trg:"ジャケット",src:"jacket"},{trg:"スカート",src:"skirt"},{trg:"コート",src:"coat / overcoat"},{trg:"布(ぬの)",src:"cloth / fabric"}]}]
 };
 export default BATCH9_L1;

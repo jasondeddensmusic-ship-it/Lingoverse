@@ -33,7 +33,7 @@ const LESSON_11 = {
      q:"Quel appareil sert a griller des tranches de pain ?",
      opts:["le grille-pain","le coffre-fort","le coupe-papier","le compte-gouttes"],
      ans:"le grille-pain",
-     hint:"A compound noun: the verb 'griller' plus 'p...' (bread)."},
+     hint:"A compound kitchen noun built from a toasting action plus the food being toasted. Found on breakfast tables everywhere."},
 
     {type:"teach", trg:"le coupe-papier", src:"a letter opener", pos:"noun", gender:"m",
      note:"Masculine noun. A blade for opening envelopes.\nInvariable: des coupe-papier.",

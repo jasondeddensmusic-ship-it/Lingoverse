@@ -122,6 +122,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"むしろ means:",
      opts:["rather / on the contrary","for example","in the end","of course"], ans:"rather / on the contrary",
      hint:"Corrects or contrasts with what was just said or expected."}
-  ]
+  ,{type:"match",pairs:[{trg:"特(とく)に",src:"especially / particularly"},{trg:"まあまあ",src:"so-so / not bad"},{trg:"結構(けっこう)",src:"quite / fairly / enough"},{trg:"少(すこ)し",src:"a little / a bit"},{trg:"かなり",src:"quite / considerably"},{trg:"むしろ",src:"rather / instead"}]}]
 };
 export default BATCH4_L_2;

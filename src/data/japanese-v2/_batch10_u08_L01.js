@@ -55,7 +55,7 @@ const BATCH10_L1 = {
      funFact:"階段(かいだん) uses the kanji for floor (階) and step (段). Japanese homes often have steep, narrow 階段(かいだん) to save space. The famous 階段(かいだん) at Shinto shrines can number in the hundreds. 金比羅(こんぴら)さん in Kagawa has 1,368 stone 階段(かいだん) to the inner shrine."},
 
     {type:"mc", q:"Why are Japanese 浴室(よくしつ) and トイレ separate?", opts:["For hygiene, the bathing area is kept clean from toilet germs","Japanese homes are larger","It is a legal requirement","For decoration purposes"], ans:"For hygiene, the bathing area is kept clean from toilet germs",
-     hint:"Separating b... from toileting is a h... practice, especially since bath water is shared by the family."},
+     hint:"In Japanese homes, the bathing area is kept pristine because the whole family shares the same soak water."},
 
     {type:"fb", s:"{1}で靴(くつ)を脱(ぬ)いでください。\n(Please remove your shoes at the entrance.)", a:"玄関(げんかん)", opts:["玄関(げんかん)","廊下(ろうか)","和室(わしつ)","浴室(よくしつ)"], sSrc:"Please remove your shoes at the entrance.",
      hint:"This is the first area you enter in a Japanese home, where outdoor shoes are exchanged for slippers."},
@@ -69,6 +69,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"What is 押(お)し入(い)れ primarily used for?", opts:["Storing futon during the day","Hanging clothes","Keeping food","Storing books"], ans:"Storing futon during the day",
      hint:"These deep closets with sliding doors transform sleeping spaces into living areas."}
-  ]
+  ,{type:"match",pairs:[{trg:"廊下(ろうか)",src:"hallway / corridor"},{trg:"浴室(よくしつ)",src:"bathroom (bathing room)"},{trg:"軒下(のきした)",src:"under the eaves"},{trg:"階段(かいだん)",src:"stairs / staircase"}]}]
 };
 export default BATCH10_L1;

@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"事実(じじつ) means:", opts:["Fact or truth","Opinion","Guess","Feeling"], ans:"Fact or truth",
      hint:"This word describes verified reality, not speculation."}
-  ]
+  ,{type:"match",pairs:[{trg:"原因(げんいん)",src:"cause / origin (of a problem)"},{trg:"事実(じじつ)",src:"fact / truth / reality"},{trg:"意見(いけん)",src:"opinion / view"},{trg:"大切(たいせつ)",src:"important / precious / valuable"},{trg:"考(かんが)える",src:"to think / to consider"},{trg:"決(き)める",src:"to decide / to determine"}]}]
 };
 export default BATCH6_L1;

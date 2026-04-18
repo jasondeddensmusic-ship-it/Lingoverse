@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["特徴(とくちょう)","違(ちが)い","普通(ふつう)","珍(めずら)しい"],
      hint:"The standout feature of this product is its camera. This noun means 'characteristic.'",
      sSrc:"The {1} of this product is camera performance."}
-  ]
+  ,{type:"match",pairs:[{trg:"普通(ふつう)",src:"normal / ordinary / average"},{trg:"別(べつ)に",src:"not particularly / nothing special"}]}]
 };
 export default BATCH7_L1;

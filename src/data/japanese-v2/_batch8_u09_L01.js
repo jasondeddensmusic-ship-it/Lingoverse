@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is special about the Japanese word 着物(きもの)?", opts:["It originally meant any clothing, then narrowed to traditional garments","It means formal clothing only","It refers only to silk garments","It was borrowed from Chinese"], ans:"It originally meant any clothing, then narrowed to traditional garments",
      hint:"The kanji mean 'thing to wear,' a very general meaning."}
-  ]
+  ,{type:"match",pairs:[{trg:"ワンピース",src:"dress (one-piece)"},{trg:"上着(うわぎ)",src:"jacket / outer garment / top"},{trg:"眼鏡(めがね)",src:"glasses / eyeglasses"},{trg:"指輪(ゆびわ)",src:"ring (finger)"},{trg:"ベルト",src:"belt"},{trg:"試着(しちゃく)する",src:"to try on (clothes)"}]}]
 };
 export default BATCH8_L1;

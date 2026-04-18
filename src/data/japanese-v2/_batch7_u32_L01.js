@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["精神(せいしん)","診断(しんだん)","治療(ちりょう)","予防(よぼう)"],
      hint:"Mental health matters too, not just physical health.",
      sSrc:"{1} health is also important. Not just the body."}
-  ]
+  ,{type:"match",pairs:[{trg:"公的医療(こうてきいりょう)",src:"public healthcare / medical treatment"},{trg:"精神的(せいしんてき)",src:"mental / psychological"}]}]
 };
 export default BATCH7_L1;

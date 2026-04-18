@@ -241,6 +241,7 @@ export default {n:24,lang:"fr",srcLang:"en",track:"v2",title:"Bilan B1",sub:"B1 
         {type:"mc",q:"How do you say 'I sent my application' in French?",opts:["J'ai envoyé mon bureau","J'ai envoyé mon salaire","J'ai envoyé ma réunion","J'ai envoyé ma candidature"],ans:"J'ai envoyé ma candidature",hint:"The feminine noun for a job application starts with 'c'."},
         {type:"fb",opts:["bureau","rapport","projet","département"],hint:"The place where you sit and work every day.",s:"Mon {1} est au troisième étage, à gauche.",a:["bureau"]},
         {type:"drag_fill",hint:"The boss wants the document before the final day.",s:"Le {1} veut le {2} avant la {3}.",blanks:{"1":"chef","2":"rapport","3":"date limite"},pool:["chef","rapport","date limite","réunion"]},
-        {type:"mc",q:"Which phrase means 'to apply for a job'?",opts:["poser sa candidature","envoyer un courriel","finir le rapport","assister à la réunion"],ans:"poser sa candidature",hint:"This expression uses the feminine noun for application."}
+        {type:"mc",q:"Which phrase means 'to apply for a job'?",opts:["poser sa candidature","envoyer un courriel","finir le rapport","assister à la réunion"],ans:"poser sa candidature",hint:"This expression uses the feminine noun for application."},
+        {type:"match",pairs:[{trg:"la date limite",src:"the deadline"},{trg:"le/la collègue",src:"the colleague"}]}
   ]}
 ]};

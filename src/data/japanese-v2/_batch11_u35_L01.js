@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Anonymity is more valued than in Western social media","Real names are always required","Video content only","No social media use"],
      ans:"Anonymity is more valued than in Western social media",
      hint:"Japan's online culture places high value on this aspect, which is why Twitter/X has such a large Japanese user base."}
-  ]
+  ,{type:"match",pairs:[{trg:"データ",src:"data"},{trg:"クラウド",src:"cloud (computing)"},{trg:"アプリ",src:"application (software)"},{trg:"検索(けんさく)",src:"search (web/database)"},{trg:"投稿(とうこう)",src:"posting (online)"},{trg:"コンテンツ",src:"content (digital/media)"}]},{type:"match",pairs:[{trg:"フェイク",src:"fake (as in fake news)"}]}]
 };
 export default BATCH11_L1;

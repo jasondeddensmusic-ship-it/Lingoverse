@@ -345,7 +345,7 @@ const UNIT_20 =
 {type:"drag_fill",s:"처음에 한국어가 {1} 포기하지 {2} 잘하게 {3}.\n(At first Korean was hard but I did not give up and came to do well.)",blanks:{"1":"어려웠지만","2":"않아서","3":"됐어요"},pool:["어려웠지만","않아서","됐어요","어렵지만","않으면","돼요"],hint:"Past contrast (-지만) + negative reason (-지 않아서) + change result (-게 되다)."},
 {type:"match",pairs:[{nl:"열심히 공부합시다!",en:"Let us study hard! (formal)"},{nl:"포기하지 마세요",en:"Do not give up"},{nl:"잘할 수 있어요",en:"You can do well"},{nl:"축하해요!",en:"Congratulations!"}]},
 {type:"mc",q:"여러분, 정말 잘하셨습니다. 다음에 또 만납시다!\n(Everyone, you did really well. Let us meet again!)",opts:["-(으)시- + -(으)ㅂ시다","-(으)시- + -자","-겠- + -(으)ㅂ시다","-(으)시- + -(으)ㄹ까요"],ans:"-(으)시- + -(으)ㅂ시다",hint:"Honorific past for praising + formal proposal for the future."},
-]},
+{type:"match",pairs:[{trg:"문법",src:"grammar"},{trg:"구조",src:"structure, framework"},{trg:"동사",src:"verb"},{trg:"활용",src:"conjugation, inflection"},{trg:"-(으)ㄹ 뻔하다",src:"almost did / nearly happened"},{trg:"문장",src:"sentence"}]},{type:"match",pairs:[{trg:"-(ㄴ/는)다",src:"plain/narrative ending (writing form)"},{trg:"회화",src:"conversation"},{trg:"표현",src:"expression"},{trg:"대화",src:"dialogue, conversation"},{trg:"독해",src:"reading comprehension"},{trg:"존댓말",src:"polite/formal speech"},{trg:"사계절",src:"four seasons"},{trg:"평가",src:"evaluation, assessment"}]}]},
 
 ]};
 

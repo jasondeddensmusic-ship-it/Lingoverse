@@ -122,6 +122,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"こちらへどうぞ means:",
      opts:["this way please","that way please","go straight","turn around"], ans:"this way please",
      hint:"A polite invitation to follow someone in this direction."}
-  ]
+  ,{type:"match",pairs:[{trg:"隣(となり)",src:"next to / beside"},{trg:"近(ちか)く",src:"nearby / in the vicinity"},{trg:"周(まわ)り",src:"around / surroundings"},{trg:"手前(てまえ)",src:"this side of / in front of (closer)"},{trg:"端(はし)",src:"edge / end / bridge"},{trg:"こちら",src:"this way / this direction (polite)"}]},{type:"match",pairs:[{trg:"まっすぐ",src:"straight ahead"},{trg:"角(かど)",src:"(outside) corner / street corner"}]}]
 };
 export default BATCH4_L_2;

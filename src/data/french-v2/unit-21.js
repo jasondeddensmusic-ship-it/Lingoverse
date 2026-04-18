@@ -220,6 +220,7 @@ export default {n:21,lang:"fr",srcLang:"en",track:"v2",title:"Le Gérondif",sub:
         {type:"mc",q:"What does 'l'émission' mean?",opts:["the event","the newspaper","the broadcast / TV show","the opinion"],ans:"the broadcast / TV show",hint:"A program you watch on TV or listen to on the radio."},
         {type:"match",pairs:[{trg:"le journal",src:"the newspaper"},{trg:"l'opinion",src:"the opinion"},{trg:"la vidéo",src:"the video"},{trg:"l'événement",src:"the event"},{trg:"les informations",src:"the news"}]},
         {type:"fb",opts:["informations","publicités","articles","opinions"],hint:"The daily TV news program that reports current events.",s:"Tu as regardé les {1} ce soir ? Il y a eu un accident.",a:["informations"]},
-        {type:"drag_fill",hint:"The reporter wrote a text about something that happened.",s:"Le {1} a écrit un {2} sur l'{3} de ce week-end.",blanks:{"1":"journaliste","2":"article","3":"événement"},pool:["journaliste","article","événement","publicité"]}
+        {type:"drag_fill",hint:"The reporter wrote a text about something that happened.",s:"Le {1} a écrit un {2} sur l'{3} de ce week-end.",blanks:{"1":"journaliste","2":"article","3":"événement"},pool:["journaliste","article","événement","publicité"]},
+        {type:"match",pairs:[{trg:"une histoire intéressante",src:"an interesting story"},{trg:"une rue passante",src:"a busy street"},{trg:"les réseaux sociaux",src:"social media"}]}
   ]}
 ]};

@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["かならずしも","けっきょく","そもそも","さらに"],
      hint:"Expensive things are not ALWAYS good. This adverb means 'not necessarily.'",
      sSrc:"Expensive things are {1} good."}
-  ]
+  ,{type:"match",pairs:[{trg:"そのうえ",src:"on top of that / besides"}]}]
 };
 export default BATCH7_L1;

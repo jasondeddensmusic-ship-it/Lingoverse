@@ -306,7 +306,7 @@ const UNIT_9 =
   {type:"fb",s:"2호선에서 ___세요.\n(Transfer on line 2.)",a:"갈아타",opts:["갈아타","내려가","출발하","도착하"],hint:"Which verb means to switch/transfer vehicles?"},
   {type:"match",pairs:[{nl:"버스",en:"bus"},{nl:"지하철",en:"subway"},{nl:"비행기",en:"airplane"},{nl:"자전거",en:"bicycle"}]},
   {type:"drag_fill",s:"서울에서 부산까지 {1}로 가요. {2}에서 표를 사요. {3} 시간은 오전 9시예요. {4} 시간은 오후 12시예요.",blanks:{"1":"기차","2":"역","3":"출발","4":"도착"},pool:["기차","역","출발","도착","버스","공항","환승","정류장"],hint:"I go from Seoul to Busan by train. I buy a ticket at the station. Departure time is 9 AM. Arrival time is 12 PM."},
-]},
+{type:"match",pairs:[{trg:"-거나",src:"or (between verbs)"},{trg:"-아/어 보다",src:"to try doing"},{trg:"처럼",src:"like / as"},{trg:"ㄹ-불규칙",src:"ㄹ-irregular: ㄹ drops before ㄴ, ㅂ, ㅅ"},{trg:"만들다 / 열다 / 팔다",src:"to make / to open / to sell"},{trg:"으-불규칙",src:"으-irregular: ㅡ drops before vowel endings"}]},{type:"match",pairs:[{trg:"경찰관",src:"police officer"},{trg:"소방관",src:"firefighter"},{trg:"엔지니어",src:"engineer"},{trg:"약사",src:"pharmacist"},{trg:"택시",src:"taxi"},{trg:"다음 달",src:"next month"},{trg:"-(으)ㄹ 거예요",src:"will / going to"},{trg:"-(으)ㄹ까요?",src:"shall we? / should I?"},{trg:"-(으)ㄹ게요",src:"I will (promise to listener)"},{trg:"시간 있어요?",src:"do you have time?"},{trg:"-(으)ㄹ래요",src:"want to / would like to (casual preference)"},{trg:"선생님",src:"teacher"},{trg:"간호사",src:"nurse"},{trg:"요리사",src:"chef/cook"},{trg:"회사원",src:"office worker"},{trg:"기차",src:"train"},{trg:"출발",src:"departure"}]}]},
 
 ]};
 

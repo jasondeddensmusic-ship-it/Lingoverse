@@ -33,7 +33,7 @@ const UNIT_01 = {n:1,lang:"pt",srcLang:"en",track:"v2",title:"Olá! Como vai?",s
     {type:"fb",opts:["eu","ele","ela","você"],hint:"Pronoun for a woman or girl.",s:"{1} é professora.",sSrc:"She is a teacher.",a:"Ela"},
     {type:"fb",opts:["eu","você","ele","ela"],hint:"First-person singular pronoun.",s:"{1} falo português.",sSrc:"I speak Portuguese.",a:"Eu"},
     {type:"match",pairs:[{trg:"eu",src:"I"},{trg:"você",src:"you"},{trg:"ele",src:"he"},{trg:"ela",src:"she"}]},
-    {type:"mc",q:"What tiny change turns 'he' into 'she' in Portuguese?",opts:["Add s","Change -e to -a","Add -s to the end","Nothing"],ans:"Change -e to -a",hint:"Look at ele versus ela. Only the last vowel changes."},
+    {type:"mc",q:"What tiny change turns 'he' into 'she' in Portuguese?",opts:["Add s","Change -e to -a","Add -s to the end","Nothing"],ans:"Change -e to -a",hint:"Compare ele and ela side by side. The first three letters are identical. Only the final letter differs."},
     {type:"fb",opts:["eu","ela","ele","você"],hint:"You are asking the person in front of you directly.",s:"{1} fala inglês?",sSrc:"Do you speak English?",a:"Você"},
     {type:"mc",q:"Which pronoun is capitalized in English but not in Portuguese?",opts:["ele","ela","eu","você"],ans:"eu",hint:"In English this word is always uppercase. In Portuguese, only at sentence start."}
   ]},

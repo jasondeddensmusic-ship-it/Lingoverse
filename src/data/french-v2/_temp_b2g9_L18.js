@@ -98,7 +98,7 @@ const LESSON_18 = {id:"frv2_b2g9_l18", title:"Éducation et Savoir", icon:"📚"
    funFact:"Cursus is Latin and keeps its original form. Plural: des cursus (invariable)."},
 
   {type:"mc", q:"Bibliothèque et librairie en français sont:", opts:["Des synonymes","Bibliothèque = library, librairie = bookshop","Bibliothèque = bookshop, librairie = library","Le même mot"], ans:"Bibliothèque = library, librairie = bookshop",
-   hint:"A classic false friend. Libraries lend books, bookshops sell them."},
+   hint:"A classic false friend. One place lends books for free; the other sells them for money."},
 
   {type:"fb", s:"Une analyse {1} est nécessaire pour comprendre le problème.", a:["approfondie"], opts:["approfondie","interro","orale","phonétique"],
    hint:"In-depth, thorough. From approfondir, to make deeper.",

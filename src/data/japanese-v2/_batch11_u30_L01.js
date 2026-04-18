@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Turns nouns into adjectives","Turns verbs into nouns","Makes words plural","Creates past tense"],
      ans:"Turns nouns into adjectives",
      hint:"This suffix transforms abstract concepts into descriptive modifiers: 論理(ろんり) > 論理的(ろんりてき) (logical), 科学(かがく) > 科学的(かがくてき) (scientific)."}
-  ]
+  ,{type:"match",pairs:[{trg:"思考(しこう)",src:"thinking / thought process"},{trg:"論理(ろんり)",src:"logic / reasoning"},{trg:"矛盾(むじゅん)",src:"contradiction"},{trg:"哲学(てつがく)",src:"philosophy"},{trg:"価値観(かちかん)",src:"values / value system"}]}]
 };
 export default BATCH11_L1;

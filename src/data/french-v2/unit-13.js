@@ -196,5 +196,5 @@ export default {n:13,lang:"fr",srcLang:"en",track:"v2",title:"Les pronoms",sub:"
         {type:"fb",opts:["malade","fatigué","content","triste"],hint:"This adjective describes someone who is unwell or ill.",s:"Je suis {1}, j'ai de la fièvre et je tousse.",a:["malade"]},
         {type:"fb",opts:["pharmacie","boulangerie","bibliothèque","gare"],hint:"A store specifically dedicated to selling medicines.",s:"Il faut aller à la {1} pour acheter des médicaments.",a:["pharmacie"]},
         {type:"match",pairs:[{trg:"la fièvre",src:"the fever"},{trg:"la toux",src:"the cough"},{trg:"le rhume",src:"the cold"},{trg:"le médicament",src:"the medicine"},{trg:"l'allergie",src:"the allergy"}]}
-  ]}
+  ,{type:"match",pairs:[{trg:"la piqûre",src:"the injection/shot"}]}]}
 ]};

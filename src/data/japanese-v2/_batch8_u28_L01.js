@@ -101,6 +101,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does ざるをえない express?", opts:["Having no choice but to (reluctant obligation)","Wanting to do something","Being able to do something","Refusing to do something"], ans:"Having no choice but to (reluctant obligation)",
      hint:"This pattern combines classical negative ず with forced inevitability."}
-  ]
+  ,{type:"match",pairs:[{trg:"に伴(ともな)う",src:"accompanying / along with / as a result of"},{trg:"にすぎない",src:"merely / nothing more than / only"},{trg:"に際(さい)して",src:"on the occasion of / when / in doing"},{trg:"ざるをえない",src:"have no choice but to / cannot help but"},{trg:"にほかならない",src:"nothing other than / precisely because"},{trg:"一方(いっぽう)で",src:"on one hand / while (contrasting)"}]},{type:"match",pairs:[{trg:"を踏(ふ)まえて",src:"taking into account / based on / considering"}]}]
 };
 export default BATCH8_L1;

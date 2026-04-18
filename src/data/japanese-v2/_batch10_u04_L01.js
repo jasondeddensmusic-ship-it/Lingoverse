@@ -69,6 +69,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"How do you say 'one person' in Japanese?", opts:["1人(ひとり)","1人(いちにん)","1個(いっこ)","1つ(ひとつ)"], ans:"1人(ひとり)",
      hint:"The counter for people has special native Japanese readings for 1 and 2."}
-  ]
+  ,{type:"match",pairs:[{trg:"〜杯(はい)",src:"counter for cups/glasses/bowls"},{trg:"〜人(にん)",src:"counter for people"},{trg:"〜つ",src:"general counter (1-9)"}]}]
 };
 export default BATCH10_L1;

@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["ストレスチェック for employees","Free gym membership","Mandatory vacation","Daily exercise time"],
      ans:"ストレスチェック for employees",
      hint:"A legally required assessment to monitor employee mental health and prevent workplace stress disorders."}
-  ]
+  ,{type:"match",pairs:[{trg:"薬(くすり)",src:"medicine / drug"},{trg:"健康診断(けんこうしんだん)",src:"health checkup"},{trg:"免疫(めんえき)",src:"immunity / immune system"},{trg:"アレルギー",src:"allergy"},{trg:"体調(たいちょう)",src:"physical condition"}]}]
 };
 export default BATCH11_L1;

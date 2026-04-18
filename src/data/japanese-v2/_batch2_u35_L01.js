@@ -75,6 +75,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"The main concern about 自律型(じりつがた)AI is:", opts:["It costs too much","Loss of human oversight and control","It is too slow","It uses too much electricity"], ans:"Loss of human oversight and control",
      hint:"Autonomous systems that operate without h... supervision raise fundamental ethical questions."},
-  ]
+  {type:"match",pairs:[{trg:"主権者(しゅけんしゃ)",src:"sovereign / stakeholder / person in charge"}]}]
 };
 export default BATCH2_L_1;

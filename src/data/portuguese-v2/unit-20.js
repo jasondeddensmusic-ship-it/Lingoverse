@@ -50,7 +50,7 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
  q:"What is the ending for 'nós' in the personal infinitive?",
  opts:["-es","-mos","-em","-des"],
  ans:"-mos",
- hint:"Same ending as most first person plural forms in Portuguese."},
+ hint:"The nós personal infinitive ending is consistent across all three verb types (-ar, -er, -ir)."},
 
 {type:"fb",
  s:"É importante para nós {1} com honestidade.",

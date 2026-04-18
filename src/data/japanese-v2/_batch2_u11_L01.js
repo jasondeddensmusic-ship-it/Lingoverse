@@ -87,5 +87,5 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"この言葉(ことば)を{1}ください。\n(Please memorize this word.)", a:"覚(おぼ)えて", opts:["覚(おぼ)えて","教(おし)えて","見(み)せて","取(と)って"], sSrc:"Please memorize this word.",
    hint:"The て-form of the Group 2 verb meaning 'to memorize' or 'learn by heart.'"},
-]};
+{type:"match",pairs:[{trg:"入(はい)って",src:"enter (て-form)"}]}]};
 export default BATCH2_L_1;

@@ -127,7 +127,7 @@ const LESSON_10 = {
      s:"Les {1} sont délicieux, le chef s'est surpassé.",
      a:["amuse-gueules"],
      opts:["amuse-gueules","déchaînements","encombres","binocles"],
-     hint:"Small snacks served before a meal. Literally 'mouth amusers'.",
+     hint:"Bite-sized appetisers served before the main meal. The name literally refers to entertaining one's palate.",
      sSrc:"The {1} are delicious, the chef outdid himself."}
   ]
 };

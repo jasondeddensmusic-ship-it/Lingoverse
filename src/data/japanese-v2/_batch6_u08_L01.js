@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"A 通帳(つうちょう) is:", opts:["A physical bankbook that records transactions","A credit card","A train ticket","An ID card"], ans:"A physical bankbook that records transactions",
      hint:"This item is inserted into ATMs to print your banking r...."}
-  ]
+  ,{type:"match",pairs:[{trg:"送(おく)る",src:"to send"},{trg:"受(う)け取(と)る",src:"to receive / to accept"},{trg:"預(あず)ける",src:"to deposit / to entrust"},{trg:"下(お)ろす",src:"to withdraw (money) / to take down"},{trg:"窓口(まどぐち)",src:"service window / counter"},{trg:"通帳(つうちょう)",src:"bankbook / passbook"}]}]
 };
 export default BATCH6_L1;

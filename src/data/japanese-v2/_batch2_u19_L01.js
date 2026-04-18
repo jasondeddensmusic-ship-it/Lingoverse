@@ -83,6 +83,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"練習(れんしゅう)しないかぎり上手(じょうず)になりません means:", opts:["If you practice, you will improve","Unless you practice, you will not improve","Practicing is not necessary","You practiced and improved"], ans:"Unless you practice, you will not improve",
      hint:"ないかぎり sets a hard boundary: the result ONLY changes if the condition is met."},
-  ]
+  {type:"match",pairs:[{trg:"世界(せかい)旅行(りょこう)",src:"world travel / trip around the world"}]}]
 };
 export default BATCH2_L_1;

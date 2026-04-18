@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["偏向(へんこう)","信憑性(しんぴょうせい)","透明性(とうめいせい)","要約(ようやく)"],
      hint:"The article only shows one side. This noun means 'bias' or 'partiality.'",
      sSrc:"Is there no {1} in this article? It only shows one opinion."}
-  ]
+  ,{type:"match",pairs:[{trg:"要約(ようやく)",src:"summary / abstract"},{trg:"プロパガンダ",src:"propaganda"}]}]
 };
 export default BATCH7_L1;

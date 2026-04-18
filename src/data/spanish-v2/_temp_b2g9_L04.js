@@ -71,7 +71,7 @@ const LESSON_4 = {id:"esv2_b2g9_l4", title:"Poder y gobierno", icon:"\u{1F3DB}\u
   {type:"mc", q:"\u00bfQu\u00e9 es un mit\u00edn?",
    opts:["Una reuni\u00f3n de trabajo","Un acto pol\u00edtico con discursos","Una competici\u00f3n deportiva","Un tipo de examen"],
    ans:"Un acto pol\u00edtico con discursos",
-   hint:"This word comes from the English word 'meeting' but refers specifically to political events."},
+   hint:"Borrowed from English 'meeting' but narrowed in meaning. Think of rallies where candidates give speeches to supporters."},
 
   {type:"fb", s:"La {1} del gobierno fue cuestionada por la oposici\u00f3n.", a:["legitimidad"],
    opts:["legitimidad","imparcialidad","imposici\u00f3n","congregaci\u00f3n"],

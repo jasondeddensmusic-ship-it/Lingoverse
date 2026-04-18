@@ -145,7 +145,7 @@ const LESSON_19 = {
      s:"Il y a un petit {1} a ta chemise, on peut le recoudre.",
      a:["accroc"],
      opts:["accroc","crible","chassis","accordeon"],
-     hint:"A tear or snag in fabric. Also means a hitch or setback figuratively. From 'accrocher'.",
+     hint:"A small tear in clothing or fabric. Figuratively, it means a hitch or setback. 'Sans ___' means without a hitch.",
      sSrc:"There's a small {1} in your shirt, we can sew it up."}
   ]
 };

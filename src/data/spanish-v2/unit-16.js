@@ -227,5 +227,5 @@ export default {n:16,lang:"es",srcLang:"en",track:"v2",title:"Si Pudiera...",sub
         {type:"match",pairs:[{trg:"el correo electrónico",src:"email"},{trg:"la contraseña",src:"password"},{trg:"la pantalla",src:"screen"},{trg:"el cargador",src:"charger"},{trg:"la aplicación",src:"app"}]},
         {type:"fb",opts:["contraseña","pantalla","mensaje","foto"],hint:"What do you need to enter to log into your account?",s:"No recuerdo mi {1}. No puedo entrar en mi cuenta.",a:"contraseña"},
         {type:"drag_fill",hint:"I'm going to search for a restaurant on the internet.",s:"Voy a {1} un restaurante en {2}.",blanks:{"1":"buscar","2":"internet"},pool:["buscar","internet","descargar","mensaje"]}
-  ]}
+  ,{type:"match",pairs:[{trg:"pondría",src:"I would put"},{trg:"Trabajaría desde casa",src:"I would work from home"},{trg:"Yo cambiaría de estrategia",src:"I would change strategy"},{trg:"el teléfono móvil",src:"the mobile phone"},{trg:"la foto",src:"the photo"},{trg:"el internet",src:"the internet"}]}]}
 ]};

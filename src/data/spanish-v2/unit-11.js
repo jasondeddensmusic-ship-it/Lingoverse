@@ -256,5 +256,5 @@ export default {n:11,lang:"es",srcLang:"en",track:"v2",title:"Cuando Era Niño",
         {type:"match",pairs:[{trg:"el caballo",src:"horse"},{trg:"la vaca",src:"cow"},{trg:"el cerdo",src:"pig"},{trg:"la oveja",src:"sheep"},{trg:"la gallina",src:"hen"}]},
         {type:"fb",opts:["león","gato","conejo","pájaro"],hint:"The king of the jungle. You'd see this big cat behind glass at a zoo.",s:"En el zoológico vimos un {1} muy grande detrás del cristal.",a:"león"},
         {type:"mc",q:"What is the female form of 'el gato'?",opts:["el gata","la gato","la gata","la gatita"],ans:"la gata",hint:"For most animal names ending in -o, change the -o to -a for the feminine."}
-  ]}
+  ,{type:"match",pairs:[{trg:"de pequeño/a",src:"as a child / when little"},{trg:"el animal",src:"the animal"},{trg:"la mascota",src:"the pet"},{trg:"el conejo",src:"the rabbit"},{trg:"el zoológico",src:"the zoo"}]}]}
 ]};

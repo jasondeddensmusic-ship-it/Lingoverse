@@ -104,7 +104,7 @@ const LESSON_5 = {
      funFact:"From Greek 'autos' (self) + Latin 'mobilis' (movable). A self-moving vehicle. In daily Spanish, say 'coche'."},
 
     {type:"mc",
-     q:"\u00bfCuál es la palabra informal para 'bicicleta'?",
+     q:"¿Qué término coloquial se usa para la forma abreviada de ese vehículo de dos ruedas?",
      opts:["bici","bicla","bica","bice"],
      ans:"bici",
      hint:"Spanish often shortens long words. This is a simple two-syllable abbreviation."},

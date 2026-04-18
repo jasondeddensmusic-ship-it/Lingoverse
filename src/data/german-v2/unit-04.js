@@ -308,7 +308,7 @@ const UNIT_4 =
 {type:"mc",q:"Was bedeutet 'verkaufen'?",opts:["to sell","seventy (70)","one hundred (100)","the percent"],ans:"to sell",hint:"'Ver-' prefix + 'kaufen' (to buy) = the opposite transaction. A shop does this."},
 {type:"fb",s:"Ich möchte {1}, bitte.",a:["zahlen"],opts:["der Kilometer","der Schuh","zahlen","der Automat"],hint:"The verb for handing over money. Related to 'die Zahl' (the number).",sSrc:"I would like to pay, please."},
 {type:"mc",q:"Was bedeutet 'meist'?",opts:["mostly / most","the centimeter","the bag / pocket","the euro"],ans:"mostly / most",hint:"Superlative adverb from 'mehr' (more). 'Meistens' = most of the time. 'Am meisten' = the most."}
-]}
+,{type:"match",pairs:[{trg:"das Obst",src:"the fruit (collective)"},{trg:"ihn",src:"him, it (masculine accusative)"},{trg:"kalt",src:"cold"}]}]}
 ]};
 
 export default UNIT_4;

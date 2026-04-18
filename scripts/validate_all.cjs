@@ -73,17 +73,25 @@ function extractOpts(objText) {
 }
 
 function extractA(objText) {
-  const re = /\ba\s*:\s*\[([^\]]*)\]/s;
-  const m = objText.match(re);
-  if (!m) return [];
-  const inner = m[1];
-  const items = [];
-  const itemRe = /(['"])((?:\\.|(?!\1).)*)\1/g;
-  let im;
-  while ((im = itemRe.exec(inner)) !== null) {
-    items.push(im[2].replace(/\\n/g, '\n').replace(/\\'/g, "'").replace(/\\"/g, '"'));
+  // Support both `a:["x","y"]` (array) and `a:"x"` (string) forms.
+  const arrRe = /\ba\s*:\s*\[([^\]]*)\]/s;
+  const m = objText.match(arrRe);
+  if (m) {
+    const inner = m[1];
+    const items = [];
+    const itemRe = /(['"])((?:\\.|(?!\1).)*)\1/g;
+    let im;
+    while ((im = itemRe.exec(inner)) !== null) {
+      items.push(im[2].replace(/\\n/g, '\n').replace(/\\'/g, "'").replace(/\\"/g, '"'));
+    }
+    return items;
   }
-  return items;
+  const strRe = /\ba\s*:\s*(['"])((?:\\.|(?!\1).)*)\1/;
+  const sm = objText.match(strRe);
+  if (sm) {
+    return [sm[2].replace(/\\n/g, '\n').replace(/\\'/g, "'").replace(/\\"/g, '"')];
+  }
+  return [];
 }
 
 function getWords(str) {

@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does 寄(よ)り道(みち)する mean?", opts:["To stop by somewhere on the way","To get lost","To take a shortcut","To walk straight"], ans:"To stop by somewhere on the way",
      hint:"Parents often tell children not to do this when they should come straight home."}
-  ]
+  ,{type:"match",pairs:[{trg:"通(とお)り過(す)ぎる",src:"to pass by / to go past"},{trg:"飛(と)び乗(の)る",src:"to jump on (a departing vehicle)"},{trg:"突(つ)き当(あ)たる",src:"to reach the end / to come to a dead end"},{trg:"近道(ちかみち)",src:"shortcut"}]}]
 };
 export default BATCH8_L1;

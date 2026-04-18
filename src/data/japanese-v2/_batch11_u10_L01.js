@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["A rabbit making mochi","A man's face","A crab","A tree"],
      ans:"A rabbit making mochi",
      hint:"Japanese tradition sees a different figure in the moon than Western tradition does. It involves an animal and a traditional food."}
-  ]
+  ,{type:"match",pairs:[{trg:"自然(しぜん)",src:"nature"},{trg:"森(もり)",src:"forest"},{trg:"木(き)",src:"tree"},{trg:"石(いし)",src:"stone / rock"},{trg:"星(ほし)",src:"star"},{trg:"月(つき)",src:"moon"}]}]
 };
 export default BATCH11_L1;

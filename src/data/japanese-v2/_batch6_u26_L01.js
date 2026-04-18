@@ -88,6 +88,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"復興(ふっこう) describes:", opts:["Rebuilding and recovery after disaster","Preventing disasters","Predicting earthquakes","Evacuating to safety"], ans:"Rebuilding and recovery after disaster",
      hint:"This word refers to the long-term process of reconstruction."}
-  ]
+  ,{type:"match",pairs:[{trg:"災害(さいがい)",src:"disaster / calamity"},{trg:"警報(けいほう)",src:"warning / alert"},{trg:"緊急(きんきゅう)",src:"emergency / urgent"},{trg:"復興(ふっこう)",src:"reconstruction / recovery"},{trg:"備(そな)える",src:"to prepare (for) / to equip"}]}]
 };
 export default BATCH6_L1;

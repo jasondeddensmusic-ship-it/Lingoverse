@@ -20,6 +20,6 @@ const BATCH5_L_1 = {
     {type:"match", pairs:[{trg:"国民皆保険(こくみんかいほけん)",src:"universal health insurance"},{trg:"処方箋(しょほうせん)",src:"prescription"},{trg:"看護師(かんごし)",src:"nurse"},{trg:"救急車(きゅうきゅうしゃ)",src:"ambulance"}]},
     {type:"fb", s:"職場(しょくば)での{1}対策(たいさく)が重要(じゅうよう)になっています。\n(Mental health measures in the workplace are important.)", a:"メンタルヘルス", opts:["メンタルヘルス","健康(けんこう)","運動(うんどう)","栄養(えいよう)"], sSrc:"Mental health measures in the workplace are important.", hint:"The loanword from English for psychological well-being and care."},
     {type:"mc", q:"Japanese patients typically pay what percentage of medical costs?", opts:["30%","100%","0%","50%"], ans:"30%", hint:"Universal insurance covers 70% of costs, with patients paying the remainder."}
-  ]
+  ,{type:"match",pairs:[{trg:"予防医学(よぼういがく)",src:"preventive medicine"},{trg:"適応症(てきおうしょう)",src:"covered condition / applicable disease (for insurance)"},{trg:"お薬手帳(くすりてちょう)",src:"medicine notebook / prescription record book"}]}]
 };
 export default BATCH5_L_1;

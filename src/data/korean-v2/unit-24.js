@@ -268,6 +268,7 @@ const UNIT_24 =
 {type:"drag_fill",s:"먹{1}려던 참에 배달{2} 왔어요. 안 시켰{3}면 직접 만들걸!\n(Was just about to eat when delivery came. If I hadn't ordered, I should have made it myself!)",blanks:{"1":"으","2":"이","3":"으"},pool:["으","이","으","는","가","어","을","에"],hint:"About-to stem. Subject. Conditional."},
 {type:"mc",q:"ALL U24 patterns use -(으)ㄹ modifier EXCEPT?\n걸, 뻔하다, 텐데, 테니까, 까 봐, 까 말까...\nWhich pattern uses -았/었 instead?\n(Checking the tense markers.)",opts:["고 말다 uses past","All use -(으)ㄹ","-았/었더라면 uses PAST tense, not future -(으)ㄹ","려던 참이다 uses past"],ans:"-았/었더라면 uses PAST tense, not future -(으)ㄹ",hint:"The other patterns use -(으)ㄹ (prospective). Which one starts with -았/었 instead?"},
 {type:"drag_fill",s:"결국 포기하{1} 말았어요. 포기하{2}까 봐 걱정했{3}데 정말 포기했어요.\n(Ended up giving up. Was worried about giving up, and really did.)",blanks:{"1":"고","2":"ㄹ","3":"는"},pool:["고","ㄹ","는","어","을","은","다","에"],hint:"Ended-up. Future (worry). Hearsay/background."},
+{type:"match",pairs:[{trg:"돌이키다",src:"to turn back / reverse"},{trg:"-(으)ㄹ 테니(까)",src:"since I will... / because it will be..."},{trg:"-(으)ㄹ까 봐",src:"worried/afraid that might..."},{trg:"-(으)ㄹ까 말까",src:"whether to do or not (indecision)"}]}
 ]},
 
 ]};

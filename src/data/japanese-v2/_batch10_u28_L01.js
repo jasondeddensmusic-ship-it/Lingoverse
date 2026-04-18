@@ -64,6 +64,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Which word means correction?", opts:["訂正(ていせい)","前略(まえりゃく)","本文(ほんぶん)","送信(そうしん)する"], ans:"訂正(ていせい)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"記述(きじゅつ)",src:"description"}]}]
 };
 export default BATCH10_L1;

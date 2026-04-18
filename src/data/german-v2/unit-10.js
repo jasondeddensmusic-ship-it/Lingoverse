@@ -298,7 +298,7 @@ const UNIT_10 =
 {type:"match",pairs:[{trg:"wegen", pos:"prep", gender:null,src:"because of"},{trg:"außerhalb",src:"outside of"},{trg:"hinter", pos:"prep", gender:null,src:"behind"},{trg:"pro", pos:"prep", gender:null,src:"per"},{trg:"vorne",src:"at the front"},{trg:"dorther", pos:"adv", gender:null,src:"from there"}]},
 {type:"fb",s:"Ich {1} schon zwanzig Minuten auf den Zug.",a:"warte",opts:["warte","fahre","liefere","trage"],hint:"This verb means to wait. First person singular present tense.",sSrc:"I have been waiting twenty minutes for the train."},
 {type:"mc",q:"Which German word means 'building'?",opts:["Gebäude","Führerschein","Stadtrat","Umzug"],ans:"Gebäude",hint:"This neuter noun comes from the verb bauen (to build)."},
-{type:"fb",s:"Mein Bruder {1} jeden Morgen Zeitungen aus.",a:"trägt",opts:["trägt","wartet","kauft","fährt"],hint:"This separable verb means to deliver or carry out.",sSrc:"My brother delivers newspapers every morning."}]}
+{type:"fb",s:"Mein Bruder {1} jeden Morgen Zeitungen aus.",a:"trägt",opts:["trägt","wartet","kauft","fährt"],hint:"This separable verb means to deliver or carry out.",sSrc:"My brother delivers newspapers every morning."},{type:"match",pairs:[{trg:"raten",src:"to advise / to guess"},{trg:"au\u00dferhalb",src:"outside of"},{trg:"austragen",src:"to deliver, to carry out"},{trg:"das Geb\u00e4ude",src:"the building"},{trg:"der Ventilator",src:"the fan / the ventilator"},{trg:"zuletzt",src:"last, finally"}]}]}
 ]};
 
 export default UNIT_10;

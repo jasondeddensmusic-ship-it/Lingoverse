@@ -154,7 +154,7 @@ export default {n:22,lang:"nl",srcLang:"en",track:"v2",title:"Nieuws & Media",su
         {type:"fb",opts:["namen","nemen","neemt","genomen"],hint:"Past tense of nemen, strong verb",s:"Direct: 'We nemen maatregelen.' → De premier zei dat zij maatregelen ___.",a:"namen"},
         {type:"drag_fill",hint:"The PM was interviewed by the journalist (past passive).",s:"De premier {1} geinterviewd door de {2}.",blanks:{"1":"werd","2":"journalist"},pool:["werd","journalist","wordt","redactie"]},
         {type:"mc",q:"A news summary starts with a headline. Dutch headlines typically use:",opts:["Present tense","Past tense","Future tense","Passive voice only"],ans:"Present tense",hint:"Headlines describe events as if happening now"},
-        {type:"fb",opts:["eens","niet","ook","wel"],hint:"Het ermee ___ zijn = to agree",s:"'Ik ben het ermee eens.' → De premier zei dat hij het ermee ___ was.",a:"eens"}
+        {type:"fb",opts:["eens","niet","ook","wel"],hint:"The phrase 'het ermee ___ zijn' means to agree with something",s:"De premier zei dat hij het ermee ___ was. (reported speech: he agreed)",a:"eens"}
   ]},
   {id:"v2u22l7",title:"Het Nederlandse Medialandschap",icon:"🇳🇱",xp:20,board:true,steps:[
         {type:"intro",title:"Het Nederlandse Medialandschap",desc:"Understanding Dutch media means knowing the NOS, RTL, de Volkskrant, and NRC. The Netherlands has a unique public broadcasting system, a strong newspaper tradition, and very high digital media consumption.",goals:["NOS, RTL, NPO: public vs commercial broadcasting","Major newspapers: de Volkskrant, NRC, De Telegraaf, AD","Dutch press freedom tradition","Media consumption habits"]},
@@ -210,5 +210,5 @@ export default {n:22,lang:"nl",srcLang:"en",track:"v2",title:"Nieuws & Media",su
           {trg:"is geschreven (result passive)",src:"has been written"},
           {trg:"moet worden geschreven (modal passive)",src:"must be written"}
         ]}
-  ]}
+  ,{type:"match",pairs:[{trg:"publiceren",src:"to publish"},{trg:"rapporteren",src:"to report (formally)"},{trg:"de headline",src:"the headline"},{trg:"objectief",src:"objective / unbiased"}]}]}
 ]};

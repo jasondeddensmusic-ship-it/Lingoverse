@@ -262,6 +262,7 @@ const UNIT_25 =
 
 {type:"drag_fill",s:"건강{1} 안 좋아지{2} 통에 병원에 자주 가{3} 해요.\n(Health kept getting worse so I have to go to the hospital often.)",blanks:{"1":"이","2":"는","3":"야"},pool:["이","는","야","가","은","어","를","ㄹ"],hint:"Subject. Chaos cause. Obligation."},
 {type:"mc",q:"Multi-pattern: 미세먼지가 심하니만큼 마스크를 써야 해요.\nHow many grammar patterns from different levels?\n(Since fine dust is severe, you must wear a mask.)",opts:["4 patterns","1: only one pattern","2 patterns","3: 니만큼 + 아/어야 하다 + 이/가 "],ans:"3: 니만큼 + 아/어야 하다 + 이/가 ",hint:"Count the different grammar patterns in the sentence."},
+{type:"match",pairs:[{trg:"원인",src:"cause / reason"},{trg:"결과",src:"result / outcome"},{trg:"-(으)ㄴ/는 탓에",src:"because of (blame, negative)"},{trg:"-(이)라도",src:"at least / even if it's just"},{trg:"-(으)니만큼",src:"since / as much as (proportional reason)"}]}
 ]},
 
 ]};

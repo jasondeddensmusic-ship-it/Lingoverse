@@ -102,7 +102,7 @@ const BATCH11_L1 = {
      hint:"The event happens regardless of what the weather is. This particle dismisses a variable as irrelevant.",
      sSrc:"The event will be held regardless of weather."},
 
-    {type:"mc", q:"「において」はどの言葉(ことば)のフォーマルな形(かたち)ですか？",
+    {type:"mc", q:"「において」is the formal register equivalent of which particle?",
      opts:["で","に","を","と"],
      ans:"で",
      hint:"This formal particle replaces the common location/context particle used in everyday speech."}

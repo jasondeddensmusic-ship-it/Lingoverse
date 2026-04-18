@@ -176,7 +176,7 @@ const UNIT_33 = {
 
   {type:"mc", q:"批評(��ひょう) means:", opts:["summary","translation","biography","criticism/review"], ans:"criticism/review",
    hint:"The compound of two kanji both meaning 'to evaluate or comment,' used in literary analysis."},
-]},
+{type:"match",pairs:[{trg:"文学(ぶんがく)",src:"literature"},{trg:"作家(���っか)",src:"author / writer"},{trg:"小説(しょうせつ)",src:"novel / fiction"},{trg:"���現(��ょうげん)",src:"expression / way of expressing"},{trg:"視角(しかく)",src:"point of view / perspective (narrative)"},{trg:"作品(さく��ん)",src:"work (of art/literature)"}]}]},
 
 ,BATCH2_L01
 ,BATCH2_L02

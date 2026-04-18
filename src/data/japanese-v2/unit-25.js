@@ -150,7 +150,7 @@ const UNIT_25 = {
 
   {type:"mc", q:"法務部(ほうむぶ) means:", opts:["Sales department","Accounting department","Legal department","Human resources"], ans:"Legal department",
    hint:"法(ほう) (法) relates to law, 務(む) (務) to duty, and 部(ぶ) (部) to section within a company."},
-]},
+{type:"match",pairs:[{trg:"プレゼン",src:"presentation"},{trg:"提出(ていしゅつ)",src:"submission"},{trg:"法務部(ほうむぶ)",src:"legal department"},{trg:"確認(かくにん)",src:"confirmation / verification"}]}]},
 
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L03

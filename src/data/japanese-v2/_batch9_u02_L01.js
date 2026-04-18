@@ -69,6 +69,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What does 趣味(しゅみ)はなんですか mean?", opts:["What are your hobbies?","What is your name?","Where do you work?","How old are you?"], ans:"What are your hobbies?",
      hint:"趣味(しゅみ) refers to activities done for pleasure in one's free time."}
-  ]
+  ,{type:"match",pairs:[{trg:"大学生(だいがくせい)",src:"university student"},{trg:"住(す)んでいます",src:"I live in / I am living in"}]}]
 };
 export default BATCH9_L1;

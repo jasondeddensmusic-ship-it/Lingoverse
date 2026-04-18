@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"The pair 硬(かた)い / 柔(やわ)らかい means:", opts:["Hard / soft","Hot / cold","Deep / shallow","Wide / narrow"], ans:"Hard / soft",
      hint:"These opposite adjectives describe texture and firmness."}
-  ]
+  ,{type:"match",pairs:[{trg:"掃(は)く",src:"to sweep"},{trg:"拭(ふ)く",src:"to wipe"},{trg:"乾(かわ)かす",src:"to dry (something)"},{trg:"磨(みが)く",src:"to polish / to brush (teeth)"},{trg:"硬(かた)い",src:"hard / stiff / firm"},{trg:"柔(やわ)らかい",src:"soft / tender / gentle"}]}]
 };
 export default BATCH6_L1;

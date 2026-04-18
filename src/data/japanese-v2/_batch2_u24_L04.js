@@ -87,6 +87,6 @@ const BATCH2_L_4 = {
 
     {type:"mc", q:"にしても expresses:", opts:["Complete agreement","Concession before maintaining your main point","Strong disagreement","Uncertainty about the facts"], ans:"Concession before maintaining your main point",
      hint:"This pattern acknowledges the other side but still pushes back with your argument."},
-  ]
+  {type:"match",pairs:[{trg:"たとえ〜ても",src:"even if ~ / even though ~"},{trg:"〜にもかかわらず",src:"despite / in spite of (formal)"}]}]
 };
 export default BATCH2_L_4;

@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is special about Japanese 地下街(ちかがい)?", opts:["Elaborate underground shopping networks beneath stations","Museums built underground","Parking structures under buildings","Secret tunnels from World War II"], ans:"Elaborate underground shopping networks beneath stations",
      hint:"You can walk for kilometers u..., staying dry in rain and connected to s...."}
-  ]
+  ,{type:"match",pairs:[{trg:"目印(めじるし)",src:"landmark / sign / mark"},{trg:"踏切(ふみきり)",src:"railroad crossing"},{trg:"横断歩道(おうだんほどう)",src:"pedestrian crossing / crosswalk"},{trg:"駅近(えきちか)",src:"near the station / station area"},{trg:"地下街(ちかがい)",src:"underground shopping area"},{trg:"地図(ちず)",src:"map"}]},{type:"match",pairs:[{trg:"歩行者天国(ほこうしゃてんごく)",src:"pedestrian paradise (car-free zone)"}]}]
 };
 export default BATCH8_L1;

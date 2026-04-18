@@ -99,5 +99,5 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"{1}を飲(の)みましたか？\n(Did you take your medicine?)", a:"薬(くすり)", opts:["薬(くすり)","水(みず)","果物(くだもの)","ご飯(はん)"], sSrc:"Did you take your medicine?",
    hint:"The general word for medication, bought at a yakkyoku."},
-]};
+{type:"match",pairs:[{trg:"南(みなみ)",src:"south"}]}]};
 export default BATCH2_L_1;

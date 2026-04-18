@@ -145,7 +145,7 @@ const LESSON_9 = {
      q:"Quel adjectif signifie 'relatif au budget et aux finances' ?",
      opts:["budg\u00e9taire","bureaucratique","cantonal","collectiviste"],
      ans:"budg\u00e9taire",
-     hint:"A round-trip word: English borrowed 'budget' from French 'bougette', then French borrowed it back."},
+     hint:"An adjective relating to financial planning and allocation. The root noun is a round-trip word between French and English."},
 
     {type:"fb",
      s:"Ce processus est trop {1}, il faut le simplifier.",

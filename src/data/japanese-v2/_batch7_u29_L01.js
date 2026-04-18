@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["スタートアップ","フリーランス","貿易(ぼうえき)","金融(きんゆう)"],
      hint:"New innovative companies are growing in Japan, especially in Shibuya.",
      sSrc:"{1} are increasing in Japan too. Shibuya is the center."}
-  ]
+  ,{type:"match",pairs:[{trg:"フリーランス",src:"freelancer"}]}]
 };
 export default BATCH7_L1;

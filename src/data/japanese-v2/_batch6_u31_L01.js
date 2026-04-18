@@ -88,6 +88,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"Japan's criminal conviction rate is:", opts:["Over 99%","About 75%","About 50%","About 30%"], ans:"Over 99%",
      hint:"Once Japanese prosecutors decide to indict, conviction is almost certain."}
-  ]
+  ,{type:"match",pairs:[{trg:"犯人(はんにん)",src:"criminal / perpetrator"},{trg:"起訴(きそ)",src:"prosecution / indictment"},{trg:"罰金(ばっきん)",src:"fine / penalty payment"},{trg:"容疑者(ようぎしゃ)",src:"suspect"}]}]
 };
 export default BATCH6_L1;

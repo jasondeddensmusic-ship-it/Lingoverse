@@ -456,7 +456,7 @@ const UNIT_11 =
 {type:"fb",s:"Hildi ist {1}, oder?",a:["blond"],opts:["blond","verschieden","deutlich","der Witz"],hint:"A hair color adjective. Same word exists in English and French.",sSrc:"Hildi is blond, right?"},
 {type:"mc",q:"Was bedeutet 'einmal'?",opts:["lazy","strict","once / one time","to practice"],ans:"once / one time",hint:"Ein (one) + mal (instance). A single occurrence."},
 {type:"fb",s:"Das ist mir {1}!",a:["wurscht"],opts:["eigen","streng","wurscht","blond"],hint:"Bavarian slang from 'Wurst' (sausage). Means you could not care less.",sSrc:"I don't care!"}
-]}
+,{type:"match",pairs:[{trg:"das T-Shirt",src:"the t-shirt"},{trg:"der Flohmarkt",src:"the flea market"},{trg:"dumm",src:"dumb / stupid"},{trg:"der Witz",src:"the joke"}]}]}
 
 
 

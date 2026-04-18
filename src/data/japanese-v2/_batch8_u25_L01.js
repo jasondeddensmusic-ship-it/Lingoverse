@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does 破産(はさん) mean?", opts:["Bankruptcy / insolvency","Merger","Profit","Investment"], ans:"Bankruptcy / insolvency",
      hint:"The kanji literally mean 'broken production,' indicating a company can no longer operate."}
-  ]
+  ,{type:"match",pairs:[{trg:"財務(ざいむ)",src:"finance / financial affairs"},{trg:"金融(きんゆう)",src:"finance / financial services"},{trg:"株式(かぶしき)",src:"stock / shares / equity"},{trg:"競争力(きょうそうりょく)",src:"competitiveness"},{trg:"破産(はさん)",src:"bankruptcy / insolvency"}]}]
 };
 export default BATCH8_L1;

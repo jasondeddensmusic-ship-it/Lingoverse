@@ -100,7 +100,7 @@ const LESSON_5 = {
      q:"Quel adjectif signifie 'capable de provoquer un cancer' ?",
      opts:["canc\u00e9rig\u00e8ne","anatomique","atmosph\u00e9rique","analytique"],
      ans:"canc\u00e9rig\u00e8ne",
-     hint:"From 'cancer' plus a Greek suffix meaning 'producing'. A medical and environmental term."},
+     hint:"A medical adjective combining a Latin disease name with the Greek suffix -gène (producing). Classified by the IARC in Lyon."},
 
     {type:"teach", trg:"l'asym\u00e9trie", src:"the asymmetry", pos:"noun", gender:"f",
      note:"Feminine noun. Lack of symmetry or balance between two sides.",

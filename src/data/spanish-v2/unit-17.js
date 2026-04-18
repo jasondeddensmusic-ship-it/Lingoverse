@@ -195,7 +195,7 @@ export default {n:17,lang:"es",srcLang:"en",track:"v2",title:"Quiero Que...",sub
           {trg:"Es verdad que sabe",src:"It is true he knows (indicative)"},
           {trg:"Es posible que sepa",src:"It is possible he knows (subjunctive)"}
         ]},
-        {type:"mc",q:"In one sentence: 'Es necesario que estudies porque creo que el examen _____ difícil.'",opts:["es","sea","ser","fuera"],ans:"es",hint:"The impersonal judgment applies to 'estudies'. The second clause uses 'creo que', which signals positive belief. What mood does belief use?"},
+        {type:"mc",q:"Choose the correct form: 'Creo que el próximo examen _____ muy difícil.'",opts:["es","sea","ser","fuera"],ans:"es",hint:"'Creo que' signals positive belief. The indicative mood follows expressions of belief and certainty."},
         {type:"mc",q:"Which combination has the MOST subjunctive triggers?",opts:["Creo que + es verdad que + pienso que","Ojalá + me alegra que + dudo que","Es seguro que + es cierto que","Dudo que + creo que + es obvio que"],ans:"Ojalá + me alegra que + dudo que",hint:"Count: all three are subjunctive triggers. The other options mix in indicative triggers."}
-  ]}
+  ,{type:"match",pairs:[{trg:"trabajar",src:"to work"},{trg:"beber",src:"to drink"}]}]}
 ]};

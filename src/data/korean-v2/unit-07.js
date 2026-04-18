@@ -236,7 +236,7 @@ const UNIT_7 =
   {type:"drag_fill",s:"토요일에 찜질방에 {1}. 삶은 계란을 {2}. 일요일에 집에서 {3}.",blanks:{"1":"갔어요","2":"먹었어요","3":"쉬었어요"},pool:["갔어요","먹었어요","쉬었어요","봤어요","했어요","왔어요"],hint:"Saturday went to jjimjilbang. Ate boiled eggs. Sunday rested at home."},
   {type:"tip",title:"🎉 Past Tense Mastered",text:"What you can do now:\n\n✅ Talk about the past (았/었/했어요)\n✅ Use time words to anchor events\n✅ Handle ㄷ and ㅂ irregular verbs",deepDive:{title:"Skills Unlocked and What Comes Next",text:"✅ Negate in the past (안/못 + past)\n✅ Chain events with -고 and -아/어서\n\n✅ Recognize verb modifiers (먹는 음식)\n\nNext you will learn:\n건강 (health) vocabulary\nConditional: -(으)면 (if)\n-아/어야 하다 (must/have to)\nCultural anchor: Korean healthcare system\n\nYou're building real Korean now. 화이팅! (You can do it!)"}},
   {type:"mc",q:"You've mastered past tense. Your past tense formula is:",opts:["stem + 요","stem + 겠어요","stem + 았/었/했 + 어요","stem + ㅂ니다"],ans:"stem + 았/었/했 + 어요",hint:"The past tense inserts a tense marker between the verb base and the politeness ending. Three variants based on vowel harmony."},
-]},
+{type:"match",pairs:[{trg:"ㄷ-불규칙",src:"ㄷ-irregular: ㄷ becomes ㄹ"},{trg:"걷다 → 걸어요",src:"to walk → walks / walked"},{trg:"묻다 → 물어요",src:"to ask → asks / asked"},{trg:"ㅂ-불규칙",src:"ㅂ-irregular: ㅂ becomes 우"},{trg:"쉽다 → 쉬워요",src:"(review)"},{trg:"-지 않았어요",src:"did not (long form)"}]}]},
 
 ]};
 

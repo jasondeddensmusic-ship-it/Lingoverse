@@ -233,5 +233,5 @@ export default {n:20,lang:"es",srcLang:"en",track:"v2",title:"Antes de Eso",sub:
         {type:"fb",opts:["ley","multa","cuenta","factura"],hint:"An official rule that everyone in a country must follow.",s:"La nueva {1} prohíbe fumar en los parques públicos.",a:["ley"]},
         {type:"mc",q:"¿Me puede dar el ___, por favor? Lo necesito para la empresa.",opts:["recibo","sueldo","banco","interés"],ans:"recibo",hint:"A paper proving you paid for something."},
         {type:"match",pairs:[{trg:"el alquiler",src:"rent"},{trg:"los ahorros",src:"savings"},{trg:"el interés",src:"interest"},{trg:"la ley",src:"law"},{trg:"el sueldo",src:"salary"}]}
-  ]}
+  ,{type:"match",pairs:[{trg:"el participio pasado",src:"the past participle"},{trg:"roto",src:"broken"}]}]}
 ]};

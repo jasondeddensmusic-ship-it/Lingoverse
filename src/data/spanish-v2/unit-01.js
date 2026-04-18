@@ -167,5 +167,5 @@ export default {n:1,lang:"es",srcLang:"en",track:"v2",title:"¡Hola!",sub:"Greet
         {type:"drag_fill",hint:"Formal morning greeting to a woman.",s:"¡{1} días, {2}! ¿Cómo {3}?",blanks:{"1":"Buenos","2":"señora","3":"está"},pool:["Buenos","señora","está","Buenas","señor","estás"]},
         {type:"match",pairs:[{trg:"Yo soy",src:"I am"},{trg:"Tú eres",src:"You are"},{trg:"Él es",src:"He is"},{trg:"Ella es",src:"She is"}]},
         {type:"mc",q:"'Soy médica' tells you she is:",opts:["A nurse","A student","A male doctor","A female doctor"],ans:"A female doctor",hint:"The -a ending on the profession indicates feminine."}
-  ]}
+  ,{type:"match",pairs:[{trg:"Hasta pronto",src:"See you soon"},{trg:"Encantado / Encantada",src:"Delighted to meet you"},{trg:"Él / Ella",src:"He / She"}]}]}
 ]};

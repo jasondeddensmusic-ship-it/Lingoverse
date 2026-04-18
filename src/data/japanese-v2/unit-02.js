@@ -211,7 +211,7 @@ const UNIT_02 = {
 
   {type:"mc", q:"Which is NOT a real suffix pattern?", opts:["日本(にほん)を","日本語(にほんご)","日本(にほん)から","日本人(にほんじん)"], ans:"日本(にほん)を",
    hint:"を is an object particle, not used for country identity patterns."},
-]},
+{type:"match",pairs:[{trg:"仕事(しごと)",src:"job / work"}]}]},
 
 ,BATCH3_L1
 ,BATCH4_L01

@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["サイバー攻撃(こうげき)","テレワーク","自動化(じどうか)","キャッシュレス化(か)"],
      hint:"Attacks on corporate computer systems are increasing. Security is urgent.",
      sSrc:"{1} on companies are increasing. Security is urgent."}
-  ]
+  ,{type:"match",pairs:[{trg:"キャッシュレス化(か)",src:"going cashless / cashless transition"},{trg:"ブロックチェーン",src:"blockchain"}]}]
 };
 export default BATCH7_L1;

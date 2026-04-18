@@ -83,6 +83,6 @@ const BATCH2_L_2 = {
 
     {type:"mc", q:"せっかくですが functions as:", opts:["An enthusiastic acceptance","A gracious preface before declining","A formal greeting","A way to ask for more information"], ans:"A gracious preface before declining",
      hint:"せっかく acknowledges the other's kind effort b... the speaker gently turns down the offer."},
-  ]
+  {type:"match",pairs:[{trg:"申(もう)し訳(わけ)ないのですが",src:"I am sorry but ~ (preface before refusing)"}]}]
 };
 export default BATCH2_L_2;

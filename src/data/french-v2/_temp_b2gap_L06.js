@@ -45,7 +45,7 @@ const LESSON_6 = {
      q:"Comment s'appelle un petit en-cas servi avant le repas ?",
      opts:["Un amuse-gueule","Un chausson","Un biscuit","Un cognac"],
      ans:"Un amuse-gueule",
-     hint:"Literally 'mouth amuser'. Served before the main course to whet your appetite."},
+     hint:"A tiny bite-sized snack designed to entertain the palate before the main course arrives."},
 
     {type:"teach", trg:"bourguignon", src:"Burgundian, from Burgundy", pos:"adj", gender:null,
      note:"Adjective. From the Burgundy region. Famous in 'b\u0153uf bourguignon'.",

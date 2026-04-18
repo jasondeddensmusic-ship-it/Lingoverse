@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does 自己肯定感(じここうていかん) mean?", opts:["Self-esteem / self-affirmation","Self-discipline","Self-study","Self-employment"], ans:"Self-esteem / self-affirmation",
      hint:"International surveys show Japanese youth score lower on this measure than peers."}
-  ]
+  ,{type:"match",pairs:[{trg:"マインドフルネス",src:"mindfulness"},{trg:"療法(りょうほう)",src:"therapy / treatment method"},{trg:"自己肯定感(じここうていかん)",src:"self-esteem / self-affirmation"},{trg:"予防(よぼう)",src:"prevention"},{trg:"ウェルビーイング",src:"well-being"}]}]
 };
 export default BATCH8_L1;

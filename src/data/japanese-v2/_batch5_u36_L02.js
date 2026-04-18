@@ -21,6 +21,6 @@ const BATCH5_L_2 = {
     {type:"match", pairs:[{trg:"総合的(そうごうてき)",src:"comprehensive"},{trg:"克服(こくふく)",src:"overcome"},{trg:"基盤(きばん)",src:"foundation"},{trg:"発展(はってん)",src:"development/growth"}]},
     {type:"fb", s:"日本語(にほんご)の文法(ぶんぽう)を{1}的(てき)に学(まな)ぶことが大事(だいじ)です。\n(It is important to learn Japanese grammar systematically.)", a:"体系(たいけい)", opts:["体系(たいけい)","具体(ぐたい)","直接(ちょくせつ)","完全(かんぜん)"], sSrc:"It is important to learn Japanese grammar systematically.", hint:"The word for an organized system or framework, used as a な-adjective with 的(てき)."},
     {type:"mc", q:"Completing B2 means you can:", opts:["Read news, write essays, and discuss complex topics in Japanese","Only handle basic greetings","Read manga but not newspapers","Speak casually but not formally"], ans:"Read news, write essays, and discuss complex topics in Japanese", hint:"B2 is the advanced intermediate level enabling engagement with authentic J... content."}
-  ]
+  ,{type:"match",pairs:[{trg:"局面(きょくめん)",src:"phase / situation / aspect / scene"},{trg:"有機的(ゆうきてき)に",src:"organically / in an interconnected way"},{trg:"道標(しるべ)",src:"guide / guidepost / signpost"}]}]
 };
 export default BATCH5_L_2;

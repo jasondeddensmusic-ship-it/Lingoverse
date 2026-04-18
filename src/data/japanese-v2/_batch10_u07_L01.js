@@ -69,6 +69,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"What does a Japanese train station issue when trains are delayed?", opts:["遅延証明書(ちえんしょうめいしょ) (delay certificate)","お詫(わ)びの手紙(てがみ) (apology letter)","割引券(わりびきけん) (discount ticket)","領収書(りょうしゅうしょ) (receipt)"], ans:"遅延証明書(ちえんしょうめいしょ) (delay certificate)",
      hint:"Passengers use this document to prove to employers that the d... was not their fault."}
-  ]
+  ,{type:"match",pairs:[{trg:"20日(はつか)",src:"the 20th (of the month)"},{trg:"日(ひ)にち",src:"date / the day"},{trg:"再来週(さらいしゅう)",src:"the week after next"}]}]
 };
 export default BATCH10_L1;

@@ -201,5 +201,5 @@ export default {n:22,lang:"es",srcLang:"en",track:"v2",title:"Estoy Haciendo",su
         {type:"fb",opts:["durmiendo","dormiendo","dormando","durmando"],hint:"The irregular gerundio of dormir changes o to u.",s:"¡No hagas ruido! El bebé está {1}.",a:"durmiendo"},
         {type:"mc",q:"You are at a restaurant that is very slow. You tell the waiter: 'Llevamos cuarenta minutos...'",opts:["comiendo","saliendo","pagando","esperando"],ans:"esperando",hint:"You have been doing this for 40 minutes because the service is slow."},
         {type:"mc",q:"Which three constructions use the gerundio?",opts:["estar, seguir, llevar","ser, haber, tener","ir, venir, salir","poder, deber, querer"],ans:"estar, seguir, llevar",hint:"All three of these verbs combine with the -ando/-iendo form."}
-  ]}
+  ,{type:"match",pairs:[{trg:"Vivo en Madrid",src:"I live in Madrid"}]}]}
 ]};

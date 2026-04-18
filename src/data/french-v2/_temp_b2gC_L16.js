@@ -62,7 +62,7 @@ const LESSON_16 = {id:"frv2_b2gC_l16", title:"Histoire et patrimoine", icon:"\u{
 {type:"fb",
  s:"Les soldats sont tombés dans un {1} préparé par l'ennemi.",
  a:["guet-apens"], opts:["guet-apens","porte-à-faux","passe-passe","paraphe"],
- hint:"A planned surprise attack. From guetter (to watch) + with intent.",
+ hint:"A premeditated trap. The compound comes from a watching verb and a phrase meaning 'with intent'.",
  sSrc:"The soldiers fell into an {1} prepared by the enemy."},
 
 {type:"mc",

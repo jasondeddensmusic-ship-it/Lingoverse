@@ -57,6 +57,6 @@ const BATCH9_L1 = {
     ]},
     {type:"mc", q:"What year is called ボランティア元年 in Japan?", opts:["1995 (after the Kobe earthquake)","2011 (after the tsunami)","2020 (during COVID)","1964 (Tokyo Olympics)"], ans:"1995 (after the Kobe earthquake)",
      hint:"The devastating e... in K... triggered a massive volunteer movement that changed Japanese civic culture."}
-  ]
+  ,{type:"match",pairs:[{trg:"介護(かいご)",src:"nursing care / caregiving"},{trg:"一人暮(ひとりぐ)らし",src:"living alone"},{trg:"ボランティア",src:"volunteer / volunteering"},{trg:"ダイバーシティ",src:"diversity"}]}]
 };
 export default BATCH9_L1;

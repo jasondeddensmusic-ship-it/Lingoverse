@@ -122,6 +122,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"What does カートに入(い)れる mean?",
      opts:["add to shopping cart","remove from cart","buy now","save for later"], ans:"add to shopping cart",
      hint:"Placing an item in your virtual basket before checkout."}
-  ]
+  ,{type:"match",pairs:[{trg:"注文(ちゅうもん)する",src:"to order (online)"},{trg:"配達(はいたつ)",src:"delivery"},{trg:"荷物(にもつ)",src:"luggage / package"},{trg:"品物(しなもの)",src:"product / goods / item"},{trg:"サイズ",src:"size"},{trg:"レビュー",src:"review (product)"}]},{type:"match",pairs:[{trg:"カート",src:"shopping cart (online)"},{trg:"お届(とど)け先(さき)",src:"delivery address"},{trg:"代引(だいび)き",src:"cash on delivery (COD)"}]}]
 };
 export default BATCH4_L_2;

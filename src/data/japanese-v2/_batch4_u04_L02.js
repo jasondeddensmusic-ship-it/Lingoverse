@@ -122,6 +122,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"かっこいい is best translated as:",
      opts:["cool / good-looking","cute","strange","scary"], ans:"cool / good-looking",
      hint:"The masculine counterpart to kawaii, meaning stylish or admirable."}
-  ]
+  ,{type:"match",pairs:[{trg:"オレンジ",src:"orange (color)"},{trg:"黄色(きいろ)い",src:"yellow"},{trg:"白(しろ)",src:"white"},{trg:"黒(くろ)",src:"black"},{trg:"素敵(すてき)",src:"wonderful / lovely"},{trg:"かわいい",src:"cute / adorable"}]},{type:"match",pairs:[{trg:"かっこいい",src:"cool / good-looking"},{trg:"模様(もよう)",src:"pattern / design"}]}]
 };
 export default BATCH4_L_2;

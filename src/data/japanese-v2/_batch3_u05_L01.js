@@ -125,6 +125,6 @@ const BATCH3_L_1 = {
     {type:"mc", q:"ごちそうさまでした means:", opts:["Welcome to our store","Thank you for the meal (after eating)","Let's eat","Please wait"],
      ans:"Thank you for the meal (after eating)",
      hint:"This is the paired phrase said A... finishing a m.... The before-m... phrase is its counterpart."},
-  ]
+  {type:"match",pairs:[{trg:"レストラン",src:"restaurant"},{trg:"メニュー",src:"menu"},{trg:"注文(ちゅうもん)",src:"order (at a restaurant)"},{trg:"苦(にが)い",src:"bitter"},{trg:"アレルギー",src:"allergy"}]}]
 };
 export default BATCH3_L_1;

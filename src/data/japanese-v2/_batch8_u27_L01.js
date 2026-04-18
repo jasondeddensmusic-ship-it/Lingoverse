@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is Japan's carbon neutrality target year?", opts:["2050","2030","2040","2060"], ans:"2050",
      hint:"Japan pledged to achieve net-zero greenhouse gas emissions by this year."}
-  ]
+  ,{type:"match",pairs:[{trg:"太陽光(たいようこう)",src:"solar power / sunlight"},{trg:"原子力(げんしりょく)",src:"nuclear power / atomic energy"},{trg:"温室効果(おんしつこうか)ガス",src:"greenhouse gas"},{trg:"生態系(せいたいけい)",src:"ecosystem"},{trg:"資源(しげん)",src:"resources / natural resources"},{trg:"開発(かいはつ)",src:"development"}]},{type:"match",pairs:[{trg:"絶滅危惧種(ぜつめつきぐしゅ)",src:"endangered species"}]}]
 };
 export default BATCH8_L1;

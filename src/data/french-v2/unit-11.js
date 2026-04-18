@@ -196,5 +196,5 @@ export default {n:11,lang:"fr",srcLang:"en",track:"v2",title:"L'imparfait",sub:"
         {type:"match",pairs:[{trg:"le chien",src:"the dog"},{trg:"le chat",src:"the cat"},{trg:"le lapin",src:"the rabbit"},{trg:"la poule",src:"the chicken"},{trg:"le cheval",src:"the horse"}]},
         {type:"mc",q:"Comment dit-on 'bear' en francais ?",opts:["le lion","le loup","l'ours","le tigre"],ans:"l'ours",hint:"This masculine noun starts with a vowel and lives in forests."},
         {type:"fb",opts:["zoo","parc","marche","cinema"],hint:"A place specifically designed to house and display wild animals.",s:"On va au {1} pour voir les animaux sauvages.",a:["zoo"]}
-  ]}
+  ,{type:"match",pairs:[{trg:"le poisson",src:"the fish"},{trg:"le mouton",src:"the sheep"}]}]}
 ]};

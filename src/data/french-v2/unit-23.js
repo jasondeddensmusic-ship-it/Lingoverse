@@ -207,5 +207,5 @@ export default {n:23,lang:"fr",srcLang:"en",track:"v2",title:"Le Monde du Travai
         {type:"drag_fill",hint:"She believes in herself but also feels some nervousness.",s:"Elle est {1} pour l'entretien mais aussi un peu {2}.",blanks:{"1":"confiante","2":"anxieuse"},pool:["confiante","anxieuse","jalouse","reconnaissante"]},
         {type:"mc",q:"Which sentence uses 'tendu(e)' correctly?",opts:["Nous avons tendu le restaurant.","J'ai tendu mes vacances.","Elle est tendue pour ses amis.","L'ambiance est tendue au travail."],ans:"L'ambiance est tendue au travail.",hint:"This adjective describes a stressful or uncomfortable atmosphere."},
         {type:"mc",q:"How do you say 'I can't wait to see you' in French?",opts:["J'ai hâte de te voir.","Je regrette de te voir.","Je suis confus de te voir.","Je suis jaloux de te voir."],ans:"J'ai hâte de te voir.",hint:"Use the expression with 'a___' that expresses eager anticipation."}
-  ]}
+  ,{type:"match",pairs:[{trg:"impressionné(e)",src:"impressed"},{trg:"avoir hâte de",src:"to look forward to"},{trg:"tendu(e)",src:"tense / stressed"},{trg:"reconnaissant(e)",src:"grateful"},{trg:"anxieux / anxieuse",src:"anxious"}]}]}
 ]};

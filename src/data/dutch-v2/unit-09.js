@@ -27,7 +27,7 @@ export default {n:9,lang:"nl",srcLang:"en",track:"v2",title:"Vrije Tijd & Planne
         {type:"teach",trg:"samen",src:"together",pos:"verb",gender:null,phonetic:"SAH-mun",note:"Very common word.\n'Samen' makes everything warmer.\n'Zullen we samen gaan?' = Shall we go together?",example:"A: Wij gaan samen eten.\nB: Mmm, dat klinkt lekker!\nA: Dat is zo.",exampleSrc:"A: We're going to eat together.\nB: Mmm, that sounds delicious!\nA: That's true.",funFact:"Germanic cousin of English 'same', German 'zusammen'."},
         {type:"tip",title:"📐 Future with 'gaan'",text:"Subject + gaan + ... + infinitive (at end)\n\nIk ga morgen zwemmen. = I'm going to swim tomorrow.\nWij gaan volgende week op vakantie.\n= We're going on holiday next week.\nZij gaat vanavond koken.\n= She's going to cook tonight.\n\nThis is the casual/spoken future.\nDutch also has 'zullen' (shall/will)  -  next lesson.\nBut 'gaan + infinitive' covers 90% of future plans.\n\nNegation: Ik ga morgen niet zwemmen.\n= I'm not going to swim tomorrow.\n'Niet' goes before the infinitive.\n\nQuestion: Ga je morgen zwemmen?\n= Are you going to swim tomorrow?"},
         {type:"mc",q:"'Ik ga morgen zwemmen' is:",opts:["future (with gaan + infinitive)","present tense","past tense","imperative"],ans:"future (with gaan + infinitive)",hint:"Going to = ___ plans"},
-        {type:"fb",opts:["gaan","ga","gaat","gegaan"],hint:"We ARE GOING on holiday (wij = gaan)",s:"Wij ___ volgende week op vakantie.",a:"gaan"},
+        {type:"fb",opts:["gaan","ga","gaat","gegaan"],hint:"Wij takes the full infinitive form, not the -t form",s:"Wij ___ volgende week op vakantie.",a:"gaan"},
         {type:"match",pairs:[{trg:"volgende week",src:"next week"},{trg:"binnenkort",src:"soon"},{trg:"op vakantie",src:"on holiday"},{trg:"samen",src:"together"}]},
         {type:"drag_fill",hint:"She IS GOING TO cook tonight.",s:"Zij {1} vanavond {2}.",blanks:{"1":"gaat","2":"koken"},pool:["gaat","koken","ga","gekookt"]},
         {type:"fb",opts:["Ga","Gaat","Gaan","Ging"],hint:"Are you going to swim? (question: -t drops)",s:"___ je morgen zwemmen?",a:"Ga"},
@@ -129,7 +129,7 @@ export default {n:9,lang:"nl",srcLang:"en",track:"v2",title:"Vrije Tijd & Planne
         {type:"fb",opts:["graag","liever","het liefst","niet"],hint:"I like swimming, but I prefer walking",s:"Ik zwem ___, maar ik wandel liever.",a:"graag"},
         {type:"mc",q:"Koningsdag is on April 27 because:",opts:["It's the first day of spring","Orange tulips bloom in April","The Netherlands was founded that day","It's King Willem-Alexander's birthday"],ans:"It's King Willem-Alexander's birthday",hint:"The ___'s ___!"},
         {type:"drag_fill",hint:"I think THAT he sick IS.",s:"Ik denk {1} hij ziek {2}.",blanks:{"1":"dat","2":"is"},pool:["dat","is","omdat","ben"]},
-        {type:"fb",opts:["gaan","ga","zullen","moeten"],hint:"We ARE GOING on holiday (wij = gaan)",s:"Wij ___ volgende week op vakantie.",a:"gaan"},
+        {type:"fb",opts:["gaan","ga","zullen","moeten"],hint:"Wij takes the plural infinitive form, not the -t form",s:"Wij ___ volgende week op vakantie.",a:"gaan"},
         {type:"mc",q:"In 'Als het regent, blijf ik thuis'  -  'blijf' comes before 'ik' because:",opts:["The subordinate clause came first → inversion","It's a question","It's imperative","Dutch always does this"],ans:"The subordinate clause came first → inversion",hint:"___ ___ → verb-subject in main"},
         {type:"tr",mk:"u9v2_going_swimming",dir:"produce"},
         {type:"tr",mk:"u9v2_because_fun",dir:"produce"},
@@ -177,8 +177,8 @@ export default {n:9,lang:"nl",srcLang:"en",track:"v2",title:"Vrije Tijd & Planne
         {type:"mc",q:"'Een retourtje' means:",opts:["a single ticket","a return ticket","a platform number","a bus stop"],ans:"a return ticket",hint:"Retour = r.... The -tje makes it a diminutive noun."},
         {type:"fb",opts:["overstappen","uitstappen","instappen","vertrekken"],hint:"To change from one train to another. Over + stappen.",s:"Ik moet ___ in Utrecht.\n(I have to transfer in Utrecht.)",a:"overstappen"},
         {type:"mc",q:"'Het vliegtuig' is literally:",opts:["the air car","the sky machine","the fly-craft","the wing thing"],ans:"the fly-craft",hint:"Vlieg (___) + tuig (___/device). A device that flies."},
-        {type:"fb",opts:["station","halte","vliegtuig","kaartje"],hint:"The place where trains arrive and depart. Het-word.",s:"Hoe kom ik bij het ___?\n(How do I get to the station?)",a:"station"},
+        {type:"fb",opts:["station","halte","vliegtuig","kaartje"],hint:"The place where trains arrive and depart. Het-word.",s:"Hoe kom ik bij het ___?\n(How do I get there?)",a:"station"},
         {type:"match",pairs:[{trg:"de trein",src:"the train"},{trg:"de fiets",src:"the bicycle"},{trg:"het vliegtuig",src:"the airplane"},{trg:"de boot",src:"the boat"},{trg:"de halte",src:"the stop"}]},
         {type:"drag_fill",hint:"I take the train to the station and then the airplane to Spain.",s:"Ik neem de {1} naar het {2} en dan het {3} naar Spanje.",blanks:{"1":"trein","2":"station","3":"vliegtuig"},pool:["trein","station","vliegtuig","fiets"]}
-  ]}
+  ,{type:"match",pairs:[{trg:"het bos",src:"the forest"},{trg:"denken",src:"to think"},{trg:"weten",src:"to know (a fact)"},{trg:"dus",src:"so / therefore"},{trg:"de arts / de dokter",src:"the doctor"},{trg:"de politieagent",src:"the police officer"}]},{type:"match",pairs:[{trg:"de metro",src:"the subway / metro"},{trg:"de luchthaven",src:"the airport"},{trg:"het kaartje",src:"the ticket"}]}]}
 ]};

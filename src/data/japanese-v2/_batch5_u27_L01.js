@@ -73,6 +73,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"Japan imports what percentage of its energy resources?", opts:["Over 90%","About 50%","About 25%","Less than 10%"], ans:"Over 90%",
      hint:"Japan has minimal domestic fossil fuel reserves, making it heavily dependent on imports."}
-  ]
+  ,{type:"match",pairs:[{trg:"排出量(はいしゅつりょう)",src:"emissions volume / amount of emissions"},{trg:"移行(いこう)",src:"transition / shift / migration"}]}]
 };
 export default BATCH5_L_1;

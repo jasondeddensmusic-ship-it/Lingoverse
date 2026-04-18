@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["蘇(よみがえ)り","懐(なつ)かしくなり","感動(かんどう)し","戻(もど)り"],
      hint:"Old memories come vividly back to life. This literary verb means 'to revive.'",
      sSrc:"When I hear this song, old memories {1}."}
-  ]
+  ,{type:"match",pairs:[{trg:"大和言葉(やまとことば)",src:"native Japanese words (vs Chinese-origin)"},{trg:"蘇(よみがえ)る",src:"to revive / to come back to life"}]}]
 };
 export default BATCH7_L1;

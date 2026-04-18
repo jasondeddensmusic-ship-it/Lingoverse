@@ -107,7 +107,7 @@ const LESSON_15 = {id:"frv2_b2gC_l15", title:"Adverbes et locutions", icon:"\u{1
  q:"Quel suffixe transforme un adjectif en adverbe en français ?",
  opts:["-ment","-tion","-esse","-eur"],
  ans:"-ment",
- hint:"Like English -ly. Added to the feminine form of adjectives: lente > lentement."}
+ hint:"Like English -ly. Attach this four-letter suffix to the feminine form of an adjective to create an adverb."}
 
 ]};
 export default LESSON_15;

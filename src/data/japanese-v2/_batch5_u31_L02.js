@@ -20,6 +20,6 @@ const BATCH5_L_2 = {
     {type:"match", pairs:[{trg:"消費者(しょうひしゃ)",src:"consumer"},{trg:"敷金(しききん)",src:"security deposit"},{trg:"礼金(れいきん)",src:"key money (non-refundable)"},{trg:"解約(かいやく)",src:"contract cancellation"}]},
     {type:"fb", s:"困(こま)ったときは{1}に連絡(れんらく)してください。\n(When in trouble, please contact the consultation desk.)", a:"相談窓口(そうだんまどぐち)", opts:["相談窓口(そうだんまどぐち)","警察署(けいさつしょ)","病院(びょういん)","学校(がっこう)"], sSrc:"When in trouble, please contact the consultation desk.", hint:"The compound meaning consultation counter/helpline, available at government offices."},
     {type:"mc", q:"原状回復(げんじょうかいふく) means:", opts:["Returning a rental to its original condition when moving out","Renovating a rental for free","The landlord repairing damage","Getting a new apartment"], ans:"Returning a rental to its original condition when moving out", hint:"This legal term requires tenants to fix damage beyond normal wear when vacating."}
-  ]
+  ,{type:"match",pairs:[{trg:"クーリングオフ",src:"cooling-off period (contract cancellation right)"},{trg:"賃貸契約(ちんたいけいやく)",src:"rental contract / lease agreement"},{trg:"原状回復(げんじょうかいふく)",src:"restoration to original condition"}]}]
 };
 export default BATCH5_L_2;

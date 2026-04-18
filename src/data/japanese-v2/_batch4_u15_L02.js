@@ -122,6 +122,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"What is an 横断歩道(おうだんほどう)?",
      opts:["crosswalk","overpass","tunnel","sidewalk"], ans:"crosswalk",
      hint:"The striped area where pedestrians cross a road at an intersection."}
-  ]
+  ,{type:"match",pairs:[{trg:"交差点(こうさてん)",src:"intersection / crossroads"},{trg:"横断歩道(おうだんほどう)",src:"crosswalk / pedestrian crossing"},{trg:"通(とお)り",src:"street / avenue"},{trg:"橋(はし)",src:"bridge"},{trg:"目印(めじるし)",src:"landmark / sign to look for"},{trg:"突(つ)き当(あ)たり",src:"dead end / T-junction"}]},{type:"match",pairs:[{trg:"遠回(とおまわ)り",src:"detour / the long way around"},{trg:"地図(ちず)",src:"map"}]}]
 };
 export default BATCH4_L_2;

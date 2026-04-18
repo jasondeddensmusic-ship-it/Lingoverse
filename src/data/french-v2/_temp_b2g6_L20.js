@@ -33,7 +33,7 @@ const LESSON_20 = {
      q:"Que signifie 'la quintessence' ?",
      opts:["La forme la plus pure et parfaite","La cinquième partie","Un mélange de cinq éléments","Le résultat final"],
      ans:"La forme la plus pure et parfaite",
-     hint:"From medieval philosophy. The 'fifth essence' was believed to be the purest substance in the universe."},
+     hint:"From medieval philosophy. Beyond earth, air, fire, and water, there was a fifth, most elevated essence filling the heavens."},
 
     {type:"teach", trg:"la pérennité", src:"the permanence, the durability", pos:"noun", gender:"f",
      note:"Feminine noun. The quality of lasting indefinitely.",

@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Can sound dismissive, like 'whatever'","Always polite and formal","Only used in business","Expresses strong agreement"],
      ans:"Can sound dismissive, like 'whatever'",
      hint:"This word, especially among younger speakers, has become associated with a particular tone of indifference or concealed feelings."}
-  ]
+  ,{type:"match",pairs:[{trg:"意見(いけん)",src:"opinion"},{trg:"理由(りゆう)",src:"reason"},{trg:"ぜったい",src:"absolutely / definitely"},{trg:"べつに",src:"not particularly / not really"}]}]
 };
 export default BATCH11_L1;

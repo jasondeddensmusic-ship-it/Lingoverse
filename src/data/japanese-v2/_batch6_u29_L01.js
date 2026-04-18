@@ -88,6 +88,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"働(はたら)き方(かた)改革(かいかく) is:", opts:["Government reform of work culture and practices","A new type of job","A salary increase program","A retirement plan"], ans:"Government reform of work culture and practices",
      hint:"This 2019 law changed overtime limits and working conditions in Japan."}
-  ]
+  ,{type:"match",pairs:[{trg:"定年退職(ていねんたいしょく)",src:"mandatory retirement"},{trg:"人材(じんざい)",src:"human resources / talented personnel"},{trg:"働(はたら)き方(かた)",src:"work style / way of working"}]}]
 };
 export default BATCH6_L1;

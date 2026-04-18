@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Wearing white gloves","Wearing a suit","Wearing sunglasses","Wearing a hat"],
      ans:"Wearing white gloves",
      hint:"This is a famous detail about Japanese professional drivers that surprises many visitors."}
-  ]
+  ,{type:"match",pairs:[{trg:"仕事(しごと)",src:"work / job"},{trg:"先生(せんせい)",src:"teacher"},{trg:"医者(いしゃ)",src:"doctor"},{trg:"エンジニア",src:"engineer"},{trg:"店(みせ)",src:"shop / store"},{trg:"料理人(りょうりにん)",src:"cook / chef"}]}]
 };
 export default BATCH11_L1;

@@ -285,7 +285,7 @@ const UNIT_12 =
 {type:"mc",q:"한국 겨울이 더 추운 편이지만 스키를 탈 수 있어서 좋아요.\n(Korean winter tends to be colder but I can ski so I like it.)",opts:["-는 편이다 + -지만 + -(으)ㄹ 수 있다 + -아/어서","-는 편이다 + -는데 + -(으)ㄹ 줄 알다 + -니까","-게 되다 + -지만 + -(으)ㄹ 수 있다 + -때문에","-나 보다 + -는데 + -(으)ㄹ 줄 알다 + -아/어서"],ans:"-는 편이다 + -지만 + -(으)ㄹ 수 있다 + -아/어서",hint:"Four constructs: tendency + contrast + ability + reason."},
 {type:"match",pairs:[{nl:"더 추워요",en:"is colder"},{nl:"덜 더워요",en:"is less hot"},{nl:"제일 예뻐요",en:"is prettiest"},{nl:"가장 좋아해요",en:"like the most"}]},
 {type:"fb",s:"한국에 온 후에 취미가 {1}.\n(After coming to Korea, my hobbies changed.)",a:["바뀌었어요"],opts:["바뀌었어요","바뀌어요","바뀌고 있어요","바뀔 거예요"],hint:"-(으)ㄴ 후에 (after) + past tense: hobbies changed after the event."},
-]},
+{type:"match",pairs:[{trg:"즐기다",src:"to enjoy"},{trg:"-(으)ㄴ 적이 없다",src:"have never done"},{trg:"비슷하다",src:"to be similar"},{trg:"다르다",src:"to be different"},{trg:"전화하다",src:"to make a phone call"},{trg:"시작하다",src:"to start, to begin"}]},{type:"match",pairs:[{trg:"그만두다",src:"to quit, to stop"},{trg:"활발하다",src:"to be active, lively"},{trg:"내성적이다",src:"to be introverted"},{trg:"잇다",src:"to connect, to continue"}]}]},
 
 ]};
 

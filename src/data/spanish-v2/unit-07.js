@@ -158,11 +158,11 @@ export default {n:7,lang:"es",srcLang:"en",track:"v2",title:"¿Dónde Está?",su
         {type:"fb",opts:["Sigue","Sigues","Seguir","Sigo"],hint:"You need the tú command form, telling someone to continue.",s:"{1} todo recto y luego gira a la derecha.",a:"Sigue"},
         {type:"fb",opts:["Toma","Tomas","Tomar","Tomo"],hint:"You are telling a friend which bus to catch. Use the command form.",s:"{1} el autobús número 3.",a:"Toma"},
         {type:"match",pairs:[{trg:"gira",src:"turn"},{trg:"sigue",src:"continue"},{trg:"cruza",src:"cross"},{trg:"toma",src:"take"},{trg:"para",src:"stop"},{trg:"ven",src:"come"}]},
-        {type:"mc",q:"The tú imperative of venir is:",opts:["vienes","viene","ven","vengo"],ans:"ven",hint:"This verb has an irregular command form that is very short."},
+        {type:"mc",q:"Which option is the correct informal command for the movement verb meaning 'to come'?",opts:["vienes","viene","ven","vengo"],ans:"ven",hint:"This verb has an irregular command form that is very short."},
         {type:"drag_fill",hint:"First you go across the road, then you change direction.",s:"{1} la calle y {2} a la derecha.",blanks:{"1":"Cruza","2":"gira"},pool:["Cruza","gira","sigue","para"]},
         {type:"fb",opts:["Ven","Viene","Vienes","Vengo"],hint:"You are calling someone to come to where you are. Irregular command.",s:"¡{1} aquí! Quiero enseñarte algo.",a:"Ven"},
         {type:"mc",q:"Which is the correct set of directions? 'Sigue todo recto, gira a la izquierda, y el banco está en la esquina.'",opts:["Take the first street, turn right, the bank is on the left","Turn right, go straight, the bank is far","Cross the street, stop, the bank is behind you","Go straight, turn left, the bank is on the corner"],ans:"Go straight, turn left, the bank is on the corner",hint:"Translate each command in order: sigue, gira, esquina."},
-        {type:"mc",q:"What is the tú imperative of 'salir'?",opts:["sal","sale","sales","salir"],ans:"sal",hint:"Like ven from venir, this is an irregular short form."}
+        {type:"mc",q:"Which option is the correct informal command for the verb meaning 'to go out or leave'?",opts:["sal","sale","sales","salir"],ans:"sal",hint:"Like the command for 'come', this is an irregular short form."}
   ]},
   {id:"esp7l8b",title:"Las Direcciones Cardinales",icon:"🧭",xp:20,board:true,steps:[
         {type:"intro",title:"Las Direcciones Cardinales",desc:"Learn north, south, east, and west in Spanish. Use directions to talk about geography and location.",goals:["Learn the four cardinal directions","Use 'al norte de' pattern for relative location","Talk about Spanish-speaking countries and geography"]},

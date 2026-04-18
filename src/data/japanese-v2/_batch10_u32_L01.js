@@ -64,6 +64,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Which word means welfare?", opts:["福祉(ふくし)","セルフケア","うつ病(びょう)","マインドフルネス"], ans:"福祉(ふくし)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"心理士(しんりし)",src:"psychologist"}]}]
 };
 export default BATCH10_L1;

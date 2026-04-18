@@ -79,6 +79,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"ということだ can mean:", opts:["Both 'I heard that' and 'it means that'","Only 'I heard that'","Only 'it means that'","Neither"], ans:"Both 'I heard that' and 'it means that'",
      hint:"This versatile pattern serves as both hearsay reporting and logical clarification."}
-  ]
+  ,{type:"match",pairs:[{trg:"〜ということだ",src:"it means that ~ / I heard that ~ / that is to say"},{trg:"転勤(てんきん)",src:"job transfer / work relocation"},{trg:"日記(にっき)",src:"diary / journal"},{trg:"意外(いがい)",src:"unexpected / surprising / contrary to expectations"}]}]
 };
 export default BATCH5_L_2;

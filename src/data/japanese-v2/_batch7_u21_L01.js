@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["尊重(そんちょう)","防止(ぼうし)","協力(きょうりょく)","招待(しょうたい)"],
      hint:"A society that respects differences is needed. This verb means 'to respect.'",
      sSrc:"A society that {1} differences is needed."}
-  ]
+  ,{type:"match",pairs:[{trg:"公共(こうきょう)の場(ば)",src:"public spaces / public venues"},{trg:"防犯(ぼうはん)カメラ",src:"security camera"}]}]
 };
 export default BATCH7_L1;

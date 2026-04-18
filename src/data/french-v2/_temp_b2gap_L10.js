@@ -94,7 +94,7 @@ const LESSON_10 = {
      q:"Comment appelle-t-on une piece ou l'on range des objets inutilises ?",
      opts:["un d\u00e9barras","un barillet","un bo\u00eetier","un cordon"],
      ans:"un d\u00e9barras",
-     hint:"From the verb 'debarrasser' meaning to clear away. Also used in the expression 'bon debarras'."},
+     hint:"The cluttered back room every French home has. The same root gives the expression meaning 'good riddance'."},
 
     {type:"teach", trg:"carreler", src:"to tile", pos:"verb", gender:null,
      note:"Verb. To cover a floor or wall with tiles. Conjugates like 'appeler'.",

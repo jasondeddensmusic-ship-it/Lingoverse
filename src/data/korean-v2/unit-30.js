@@ -262,6 +262,7 @@ const UNIT_30 =
 {type:"drag_fill",s:"한국어{1} 대한 열정이 있{2}면 C1{3} 도달할 수 있어요. 포기하지 마{4}요!",blanks:{"1":"에","2":"으","3":"에","4":"세"},pool:["에","으","에","세","을","이","를","지"],hint:"Regarding. Conditional. Destination. Prohibition."},
 {type:"drag_fill",s:"지금까지 15가지 원인 패턴, 10개의 {1}, 10개의 {2}, 4개의 {3}을 배웠어요. 다음에는 {4} 수준을 목표로 합니다.",blanks:{"1":"속담","2":"사자성어","3":"격식 단계","4":"원어민"},pool:["속담","사자성어","격식 단계","원어민","관용어","한자어","문법","초보자"],hint:"Proverbs. Four-character idioms. Formality registers. What level comes next?"},
 {type:"mc",q:"학습자가 할 수 있는 것은?",opts:["사전이 필요 없다","모든 문학을 완벽히 이해한다","통역사로 일할 수 있다","뉴스를 읽고 에세이를 쓸 수 있다"],ans:"뉴스를 읽고 에세이를 쓸 수 있다",hint:"= upper intermediate. News and essays: yes."},
+{type:"match",pairs:[{trg:"-아/어다(가)",src:"do X and then (bring/take to another place)"},{trg:"-고 들다",src:"to begin to / to start (entering a state)"},{trg:"-아/어 죽겠다",src:"I'm dying of / so much that I could die"},{trg:"증가하다",src:"to increase"},{trg:"감소하다",src:"to decrease"},{trg:"비율",src:"ratio / percentage"},{trg:"추이",src:"trend / course of change"},{trg:"대책",src:"countermeasure / solution"},{trg:"본론",src:"body / main argument"}]}
 ]},
 ]};
 

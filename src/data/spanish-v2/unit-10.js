@@ -240,5 +240,5 @@ export default {n:10,lang:"es",srcLang:"en",track:"v2",title:"Historias",sub:"Pa
         ]},
         {type:"drag_fill",hint:"I saw (ver, regular) a friend. He told me he got a new job.",s:"Ayer {1} a mi amigo Pedro. Me {2} que {3} un nuevo trabajo.",blanks:{"1":"vi","2":"dijo","3":"tuvo"},pool:["vi","dijo","tuvo","vine","dije","tuve"]},
         {type:"mc",q:"Nosotros les ___ un regalo y ellos nos ___ las gracias. (dar / dar)",opts:["dieron / dimos","dimos / dieron","dio / di","di / dio"],ans:"dimos / dieron",hint:"We gave (first plural) and they gave (third plural)"}
-  ]}
+  ,{type:"match",pairs:[{trg:"el fin de semana pasado",src:"last weekend"},{trg:"primero... luego... después",src:"first... then... after that"},{trg:"por eso",src:"(review)"}]}]}
 ]};

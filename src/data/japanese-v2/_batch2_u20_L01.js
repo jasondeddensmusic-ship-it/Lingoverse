@@ -83,6 +83,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"おもてなし is best described as:", opts:["A type of food","Japanese hospitality and selfless service","A greeting phrase","A business title"], ans:"Japanese hospitality and selfless service",
      hint:"This cultural concept became world-famous during Japan's Olympic bid and represents anticipatory, heartfelt s...."},
-  ]
+  {type:"match",pairs:[{trg:"お荷物(にもつ)をお預(あず)かりします",src:"let me take your luggage (humble service)"}]}]
 };
 export default BATCH2_L_1;

@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["どちら","どれ","どこ","どの"],
      ans:"どちら",
      hint:"This word is specifically for choosing between two options. For three or more, you would use a different question word."}
-  ]
+  ,{type:"match",pairs:[{trg:"だれ",src:"who"},{trg:"いくつ",src:"how many / how old"}]}]
 };
 export default BATCH11_L1;

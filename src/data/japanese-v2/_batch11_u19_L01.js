@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["When presenting a balanced contrast","When agreeing strongly","When giving examples","When ending a conversation"],
      ans:"When presenting a balanced contrast",
      hint:"This connector shows both sides of an issue without taking a position. A is true, and B is also true."}
-  ]
+  ,{type:"match",pairs:[{trg:"だから",src:"therefore / so"},{trg:"しかし",src:"however / but"},{trg:"それに",src:"moreover / besides"},{trg:"一方(いっぽう)で",src:"on the other hand"}]}]
 };
 export default BATCH11_L1;

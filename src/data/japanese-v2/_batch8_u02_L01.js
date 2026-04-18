@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is the gender-neutral term for nurse in Japanese?", opts:["看護師(かんごし)","教師(きょうし)","会社員(かいしゃいん)","公務員(こうむいん)"], ans:"看護師(かんごし)",
      hint:"Japan changed this term in 2002 to remove the female-specific connotation."}
-  ]
+  ,{type:"match",pairs:[{trg:"エンジニア",src:"engineer"},{trg:"主婦(しゅふ)",src:"homemaker / housewife"},{trg:"結婚(けっこん)している",src:"to be married"},{trg:"住(す)んでいる",src:"to live (somewhere) / to reside"}]}]
 };
 export default BATCH8_L1;

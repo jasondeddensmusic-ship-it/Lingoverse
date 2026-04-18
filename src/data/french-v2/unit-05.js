@@ -242,5 +242,5 @@ export default {n:5,lang:"fr",srcLang:"en",track:"v2",title:"La routine quotidie
         {type:"mc",q:"In casual spoken French, which of the two parts of 'pas + X' is commonly omitted?",opts:["Ne","Pas","Both","Neither"],ans:"Ne",hint:"Informally, speakers keep only the word that carries the negative force."},
         {type:"mc",q:"'Prendre le petit déjeuner' means:",opts:["To take breakfast away","To have breakfast","To make breakfast","To skip breakfast"],ans:"To have breakfast",hint:"Prendre = to take/have. Used for meals."},
         {type:"fb",opts:["puis","enfin","avant","d'abord"],hint:"First I wake up, THEN I get up. The second sequencer.",s:"D'abord je me réveille, {1} je me lève.",a:"puis"}
-  ]}
+  ,{type:"match",pairs:[{trg:"le week-end",src:"the weekend"},{trg:"de ... à ...",src:"from ... to ..."},{trg:"novembre",src:"November"}]}]}
 ]};

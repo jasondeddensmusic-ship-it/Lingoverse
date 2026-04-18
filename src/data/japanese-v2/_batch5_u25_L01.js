@@ -79,6 +79,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"Guests in a Japanese meeting room should sit:", opts:["Farthest from the door (上座(かみざ))","Nearest the door (下座(しもざ))","Wherever they like","Next to the host"], ans:"Farthest from the door (上座(かみざ))",
      hint:"Japanese seating etiquette places honored guests at the seat of highest prestige."}
-  ]
+  ,{type:"match",pairs:[{trg:"挨拶(あいさつ)",src:"greeting / salutation"},{trg:"納期(のうき)",src:"delivery date / deadline"},{trg:"残業対策(ざんぎょうたいさく)",src:"overtime reduction measures"}]}]
 };
 export default BATCH5_L_1;

@@ -116,6 +116,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"目指(めざ)す means:",
      opts:["to aim for / aspire to","to give up","to remember","to forget"], ans:"to aim for / aspire to",
      hint:"Setting your sights on a long-term goal or aspiration."}
-  ]
+  ,{type:"match",pairs:[{trg:"将来(しょうらい)",src:"future / in the future"},{trg:"計画(けいかく)する",src:"to plan"},{trg:"決(き)める",src:"to decide"},{trg:"選(えら)ぶ",src:"to choose / select"},{trg:"間(ま)に合(あ)う",src:"to be in time / make it"},{trg:"遅(おく)れる",src:"to be late"}]},{type:"match",pairs:[{trg:"目指(めざ)す",src:"to aim for / aspire to"},{trg:"迷(まよ)う",src:"to be lost / to hesitate / be torn"}]}]
 };
 export default BATCH4_L_2;

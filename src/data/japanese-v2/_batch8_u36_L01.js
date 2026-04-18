@@ -101,6 +101,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is the most common essay debate structure in Japanese?", opts:["確(たし)かに...しかし (certainly...however)","まず...そして (first...then)","もちろん...だから (of course...therefore)","ところで...でも (by the way...but)"], ans:"確(たし)かに...しかし (certainly...however)",
      hint:"Conceding before countering shows intellectual honesty and is valued in academic writing."}
-  ]
+  ,{type:"match",pairs:[{trg:"言(い)わば",src:"so to speak / as it were"},{trg:"に限(かぎ)らず",src:"not limited to / not just"},{trg:"改(あらた)めて",src:"once again / anew / formally"},{trg:"ともかくとして",src:"setting that aside / regardless of"},{trg:"一見(いっけん)",src:"at first glance / seemingly / apparently"},{trg:"〜かねる",src:"to be unable to / to find it difficult to"}]},{type:"match",pairs:[{trg:"快(こころよ)く",src:"willingly / gladly / with pleasure"}]}]
 };
 export default BATCH8_L1;

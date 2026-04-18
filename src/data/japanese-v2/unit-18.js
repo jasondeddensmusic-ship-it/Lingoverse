@@ -175,7 +175,7 @@ const UNIT_18 = {
 
   {type:"mc", q:"Which form is the short causative-passive of 書(か)く (to write)?", opts:["書(か)かせられる","書(か)かれる","書(か)かされる","書(か)かせる"], ans:"書(か)かされる",
    hint:"Group 1 short form: change う to あ-row, then add される."},
-]},
+{type:"match",pairs:[{trg:"待(ま)つ",src:"to wait"}]}]},
 
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01

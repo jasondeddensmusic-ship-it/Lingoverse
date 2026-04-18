@@ -116,6 +116,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"虹(にじ) means:",
      opts:["rainbow","cloud","thunder","lightning"], ans:"rainbow",
      hint:"The colorful arc that appears in the sky after rain."}
-  ]
+  ,{type:"match",pairs:[{trg:"ハイキング",src:"hiking"},{trg:"釣(つ)り",src:"fishing"},{trg:"泳(およ)ぐ",src:"to swim"},{trg:"登(のぼ)る",src:"to climb"},{trg:"バーベキュー",src:"barbecue"},{trg:"虹(にじ)",src:"rainbow"}]}]
 };
 export default BATCH4_L_2;

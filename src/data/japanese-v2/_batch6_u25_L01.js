@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"採用(さいよう) covers:", opts:["Both hiring people and adopting plans","Only hiring people","Only adopting plans","Firing people"], ans:"Both hiring people and adopting plans",
      hint:"This versatile word is used for bringing in both new employees and new ideas."}
-  ]
+  ,{type:"match",pairs:[{trg:"判断(はんだん)",src:"judgment / decision / assessment"},{trg:"締(し)め切(き)り",src:"deadline"},{trg:"採用(さいよう)",src:"hiring / adoption (of a plan)"},{trg:"貢献(こうけん)",src:"contribution"}]}]
 };
 export default BATCH6_L1;

@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Last-minute cancellation","A type of dance","A card game","A morning exercise"],
      ans:"Last-minute cancellation",
      hint:"This slang word combines 'l... moment' with 'cancel' and describes something considered very rude in Japanese culture."}
-  ]
+  ,{type:"match",pairs:[{trg:"約束(やくそく)",src:"promise / appointment"},{trg:"つもり",src:"intention / plan to"},{trg:"準備(じゅんび)",src:"preparation"},{trg:"決(き)める",src:"to decide"},{trg:"変更(へんこう)",src:"change / modification"},{trg:"遅刻(ちこく)",src:"being late / tardiness"}]}]
 };
 export default BATCH11_L1;

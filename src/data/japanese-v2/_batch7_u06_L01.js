@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["甲虫(かぶとむし)","魚(さかな)","鳥(とり)","亀(かめ)"],
      hint:"Japanese children catch these large beetles in summer. They are kept as pets and even sold in shops.",
      sSrc:"Japanese children catch {1} in summer."}
-  ]
+  ,{type:"match",pairs:[{trg:"動物(どうぶつ)",src:"animal"},{trg:"飼(か)う",src:"to keep (a pet) / to raise"}]}]
 };
 export default BATCH7_L1;

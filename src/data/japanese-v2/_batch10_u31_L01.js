@@ -64,6 +64,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Which word means law?", opts:["法律(ほうりつ)","プライバシー","市民権(しみんけん)","平等(びょうどう)"], ans:"法律(ほうりつ)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"差別(さべつ)",src:"discrimination"}]}]
 };
 export default BATCH10_L1;

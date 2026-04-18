@@ -64,6 +64,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"Which word means literary style?", opts:["文体(ぶんたい)","批評(ひひょう)","短歌(たんか)","比喩(ひゆ)"], ans:"文体(ぶんたい)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"著作権(ちょさくけん)",src:"copyright"}]}]
 };
 export default BATCH9_L1;

@@ -138,6 +138,6 @@ const BATCH7_L1 = {
      opts:["難(むずか)しい","やさしい","上手(じょうず)","大(おお)きい"],
      hint:"The speaker admits kanji is challenging but still enjoys it. This i-adjective means 'difficult.'",
      sSrc:"Kanji is {1}, but it is fun."}
-  ]
+  ,{type:"match",pairs:[{trg:"見(み)てください",src:"please look"},{trg:"やさしい",src:"easy / kind"},{trg:"覚(おぼ)える",src:"to memorize / to remember"},{trg:"間違(まちが)える",src:"to make a mistake"},{trg:"繰(く)り返(かえ)す",src:"to repeat"}]}]
 };
 export default BATCH7_L1;

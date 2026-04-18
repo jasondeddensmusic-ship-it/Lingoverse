@@ -280,7 +280,7 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
   {trg:"лекарство", src:"medicine"},
   {trg:"рецепт", src:"prescription"}
 ]}
-]}
+,{type:"match",pairs:[{trg:"тело",src:"body"},{trg:"рот",src:"mouth"},{trg:"нос",src:"nose"},{trg:"горло",src:"throat"},{trg:"болеть",src:"to be sick / to hurt"},{trg:"здоровый",src:"healthy (m)"}]},{type:"match",pairs:[{trg:"отдыхать",src:"to rest (imperfective)"},{trg:"приём",src:"appointment / reception"},{trg:"принимать",src:"to take (medicine)"},{trg:"помочь",src:"to help (perfective)"}]}]}
 
 ]};
 export default UNIT_09;

@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["経験(けいけん)","後悔(こうかい)","失敗(しっぱい)","目標(もくひょう)"],
      hint:"Good and bad events alike are all valuable. This noun means 'experience.'",
      sSrc:"Good things and bad things are all {1}."}
-  ]
+  ,{type:"match",pairs:[{trg:"出産(しゅっさん)",src:"childbirth / giving birth"},{trg:"後悔(こうかい)",src:"regret"}]}]
 };
 export default BATCH7_L1;

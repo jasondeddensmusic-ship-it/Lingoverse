@@ -81,6 +81,6 @@ const BATCH2_L_3 = {
 
     {type:"mc", q:"ていただく expresses:", opts:["Giving a favor to someone","Humbly receiving a favor from someone","Commanding someone to do something","Refusing a request politely"], ans:"Humbly receiving a favor from someone",
      hint:"This pattern frames the other person's action as a gift to you, showing gratitude and humility."},
-  ]
+  {type:"match",pairs:[{trg:"〜ていただく",src:"to have someone do ~ for me (humble keigo)"}]}]
 };
 export default BATCH2_L_3;

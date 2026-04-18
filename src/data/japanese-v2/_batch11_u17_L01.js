@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["To rewrite (fixing mistakes)","To write quickly","To stop writing","To start writing"],
      ans:"To rewrite (fixing mistakes)",
      hint:"This compound combines 'write' with a verb meaning 'to fix/repair.' The result implies correcting through redoing."}
-  ]
+  ,{type:"match",pairs:[{trg:"〜出(だ)す",src:"to suddenly start ~ing"},{trg:"〜合(あ)う",src:"to do together / mutually"},{trg:"〜切(き)る",src:"to do completely / to the limit"},{trg:"〜かける",src:"to start doing / to be in the middle of"},{trg:"〜込(こ)む",src:"to go/put into deeply"},{trg:"〜忘(わす)れる",src:"to forget to do"}]}]
 };
 export default BATCH11_L1;

@@ -76,7 +76,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"「横(よこ)」と「隣(となり)」はどう違(ちが)いますか？",
      opts:["横(よこ) is for any side position, 隣(となり) is for adjacent similar things","They are exactly the same","横(よこ) is polite, 隣(となり) is casual","横(よこ) is for people, 隣(となり) is for places"],
      ans:"横(よこ) is for any side position, 隣(となり) is for adjacent similar things",
-     hint:"Think about a vase beside a lamp (s... p...) vs the house next door (a... s... item)."},
+     hint:"横(よこ) works for any lateral closeness (a cup near a bowl). 隣(となり) requires the two items to be comparable (the seat next to yours, the store next to yours)."},
 
     {type:"fb", s:"鍵(かぎ)はかばんの{1}にあります。",
      a:["中(なか)"],
@@ -94,7 +94,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"「奥(おく)」の意味(いみ)はなんですか？",
      opts:["The back / deep inside","The front","The side","The top"],
      ans:"The back / deep inside",
-     hint:"This word describes the deepest interior part of a space. It also appears in the word for 'wife' (奥(おく)さん)."},
+     hint:"This word describes the innermost, furthest-in part of a space. It also appears in 奥(おく)さん (another person's wife)."},
 
     {type:"fb", s:"信号(しんごう)の{1}を右(みぎ)に曲(ま)がってください。",
      a:["手前(てまえ)"],
@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Between A and B","Next to A and B","Far from A and B","Behind A and B"],
      ans:"Between A and B",
      hint:"This word describes the space separating two things, positioned in the middle."}
-  ]
+  ,{type:"match",pairs:[{trg:"周(まわ)り",src:"around / surroundings"},{trg:"間(あいだ)",src:"between (two things)"},{trg:"向(む)かい",src:"across from / opposite"},{trg:"奥(おく)",src:"the back / interior / deep inside"}]}]
 };
 export default BATCH11_L1;

@@ -196,5 +196,5 @@ export default {n:14,lang:"fr",srcLang:"en",track:"v2",title:"Le futur",sub:"Fut
         {type:"fb",opts:["nuages","étoiles","oiseaux","arbres"],hint:"Grey masses in the sky that indicate coming rain.",s:"Il y a des {1} gris dans le ciel, il va pleuvoir.",a:["nuages"]},
         {type:"match",pairs:[{trg:"la montagne",src:"the mountain"},{trg:"la forêt",src:"the forest"},{trg:"le lac",src:"the lake"},{trg:"la mer",src:"the sea"},{trg:"la fleur",src:"the flower"}]},
         {type:"mc",q:"What is the difference between 'la rivière' and 'le fleuve'?",opts:["la rivière is bigger than le fleuve","le fleuve flows to the sea, la rivière is a tributary","They mean the same thing","le fleuve is a small stream"],ans:"le fleuve flows to the sea, la rivière is a tributary",hint:"One ___ into the ocean while the other joins a larger body of water."}
-  ]}
+  ,{type:"match",pairs:[{trg:"le tonnerre",src:"the thunder"},{trg:"la rivière / le fleuve",src:"the river"}]}]}
 ]};

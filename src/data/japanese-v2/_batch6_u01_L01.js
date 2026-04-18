@@ -109,6 +109,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"お待(ま)たせしました is typically said by:", opts:["A server bringing your order","A customer receiving food","A friend saying goodbye","A student greeting a teacher"], ans:"A server bringing your order",
      hint:"This humble phrase is used by the person who made someone wait."}
-  ]
+  ,{type:"match",pairs:[{trg:"どうぞ",src:"please (offering) / go ahead"},{trg:"どういたしまして",src:"you are welcome"},{trg:"大丈夫(だいじょうぶ)",src:"okay / all right / fine"},{trg:"お疲(つか)れさまです",src:"thank you for your hard work"},{trg:"お待(ま)たせしました",src:"sorry to have kept you waiting"},{trg:"行(い)ってきます",src:"I am heading out (and will return)"}]}]
 };
 export default BATCH6_L1;

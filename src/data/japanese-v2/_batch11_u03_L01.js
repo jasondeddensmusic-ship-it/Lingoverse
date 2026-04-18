@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Purple","Gold","Red","White"],
      ans:"Purple",
      hint:"This color was reserved for the highest-ranking nobles in ancient Japan. Think about which color had the most prestige."}
-  ]
+  ,{type:"match",pairs:[{trg:"色(いろ)",src:"color"},{trg:"青(あお)い",src:"blue / green"},{trg:"ピンク",src:"pink"},{trg:"紫(むらさき)",src:"purple"},{trg:"オレンジ",src:"orange (color)"}]}]
 };
 export default BATCH11_L1;

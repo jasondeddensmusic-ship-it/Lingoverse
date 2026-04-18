@@ -93,5 +93,5 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"山(やま)でキャンプを{1}ことがありますか？\n(Have you ever camped in the mountains?)", a:"した", opts:["した","する","して","できる"], sSrc:"Have you ever camped in the mountains?",
    hint:"The た-form of する, needed before ことがある for experiences."},
-]};
+{type:"match",pairs:[{trg:"スキューバダイビング",src:"scuba diving"},{trg:"スノーボード",src:"snowboarding"},{trg:"有名(ゆうめい)",src:"famous / well-known"}]}]};
 export default BATCH2_L_1;

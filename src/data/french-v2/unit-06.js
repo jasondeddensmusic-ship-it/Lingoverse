@@ -161,5 +161,5 @@ export default {n:6,lang:"fr",srcLang:"en",track:"v2",title:"La maison",sub:"Hom
         {type:"match",pairs:[{trg:"dans",src:"in / inside"},{trg:"sur",src:"on top of"},{trg:"sous",src:"under"},{trg:"derrière",src:"behind"}]},
         {type:"mc",q:"'Je cherche un T3' means I'm looking for:",opts:["A three-floor house","Three apartments","A three-room apartment","A third-floor studio"],ans:"A three-room apartment",hint:"T + number = number of main ___s in French housing."},
         {type:"fb",opts:["derrière","dans","sur","chez"],hint:"The garden is BEHIND the house. At the back.",s:"Le jardin est {1} la maison.",a:"derrière"}
-  ]}
+  ,{type:"match",pairs:[{trg:"petit",src:"small / little"},{trg:"une pièce",src:"a room"}]}]}
 ]};

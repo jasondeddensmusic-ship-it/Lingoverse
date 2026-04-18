@@ -142,7 +142,7 @@ const LESSON_9 = {
     ]},
 
     {type:"mc",
-     q:"Comment dit-on 'application' de manière informelle en français ?",
+     q:"Quelle est la forme abrégée et familière utilisée pour désigner ce logiciel mobile ?",
      opts:["appli","asso","admin","appart"],
      ans:"appli",
      hint:"This casual abbreviation is the French equivalent of the English word 'app'."},

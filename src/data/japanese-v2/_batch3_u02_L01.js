@@ -125,6 +125,6 @@ const BATCH3_L_1 = {
     {type:"mc", q:"家族(かぞく)は何人(なんにん)ですか means:", opts:["Do you have a family?","Who is your family?","Where does your family live?","How many people are in your family?"],
      ans:"How many people are in your family?",
      hint:"Nannin means 'how many p....' Kazoku is f...."},
-  ]
+  {type:"match",pairs:[{trg:"スポーツ",src:"sport(s)"},{trg:"読書(どくしょ)",src:"reading (books)"},{trg:"映画(えいが)",src:"movie / film"}]}]
 };
 export default BATCH3_L_1;

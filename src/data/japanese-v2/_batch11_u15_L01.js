@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["A Japanese city bicycle with a basket","A motorcycle","A train pass for mothers","A special bus seat"],
      ans:"A Japanese city bicycle with a basket",
      hint:"This iconic J... b... type is associated with daily shopping trips and school commutes."}
-  ]
+  ,{type:"match",pairs:[{trg:"電車(でんしゃ)",src:"train"},{trg:"バス",src:"bus"},{trg:"地下鉄(ちかてつ)",src:"subway / metro"},{trg:"タクシー",src:"taxi"},{trg:"飛行機(ひこうき)",src:"airplane"},{trg:"停留所(ていりゅうじょ)",src:"bus stop / stopping place"}]}]
 };
 export default BATCH11_L1;

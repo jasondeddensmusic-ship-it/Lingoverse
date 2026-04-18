@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Heart pounding (excitement/nervousness)","Knocking on a door","Rain falling","Clock ticking"],
      ans:"Heart pounding (excitement/nervousness)",
      hint:"This doubled sound-word describes the physical sensation of your h... beating fast, from e... or nerves."}
-  ]
+  ,{type:"match",pairs:[{trg:"怖(こわ)い",src:"scary / afraid"},{trg:"悔(くや)しい",src:"frustrated / vexing"},{trg:"心配(しんぱい)",src:"worry / concern"},{trg:"びっくり",src:"surprised / startled"},{trg:"もったいない",src:"what a waste / too good to waste"}]}]
 };
 export default BATCH11_L1;

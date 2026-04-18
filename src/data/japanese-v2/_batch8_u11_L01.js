@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"Why do Japanese school students do 雑巾(ぞうきん)がけ?", opts:["To clean floors on hands and knees, building character","To practice calligraphy on the floor","To play a traditional game","To exercise during breaks"], ans:"To clean floors on hands and knees, building character",
      hint:"This traditional cleaning method is part of students cleaning their own classrooms."}
-  ]
+  ,{type:"match",pairs:[{trg:"零(こぼ)す",src:"to spill"},{trg:"濡(ぬ)らす",src:"to wet / to moisten / to dampen"},{trg:"磨(みが)く",src:"to polish / to brush / to scrub"},{trg:"乾(かわ)かす",src:"to dry (something)"},{trg:"混(ま)ぜる",src:"to mix / to stir / to blend"},{trg:"絞(しぼ)る",src:"to wring / to squeeze / to tighten"}]},{type:"match",pairs:[{trg:"箒(ほうき)",src:"broom"}]}]
 };
 export default BATCH8_L1;

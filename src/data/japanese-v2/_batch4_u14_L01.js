@@ -122,6 +122,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"Which adverb expresses the highest certainty?",
      opts:["必(かなら)ず","多分(たぶん)","もしかして","たいてい"], ans:"必(かなら)ず",
      hint:"An absolute guarantee with no room for doubt."}
-  ]
+  ,{type:"match",pairs:[{trg:"意味(いみ)",src:"meaning / sense"},{trg:"説明(せつめい)する",src:"to explain"},{trg:"例(たと)えば",src:"for example"},{trg:"結局(けっきょく)",src:"in the end / after all"},{trg:"つまり",src:"in other words / that is to say"},{trg:"もちろん",src:"of course / naturally"}]},{type:"match",pairs:[{trg:"実(じつ)は",src:"actually / to tell the truth"}]}]
 };
 export default BATCH4_L_1;

@@ -33,7 +33,7 @@ const LESSON_13 = {
      q:"Quel suffixe français exprime un superlatif emphatique, emprunté à l'italien ?",
      opts:["-issime","-esque","-ique","-isme"],
      ans:"-issime",
-     hint:"Think of 'rarissime', 'richissime', 'cultissime'. An emphatic way to say 'extremely'."},
+     hint:"A seven-letter suffix borrowed from Italian that creates an emphatic superlative. Very rare in French but very expressive."},
 
     {type:"teach", trg:"le médiéviste", src:"the medievalist", pos:"noun", gender:"m",
      note:"Masculine noun. A specialist in medieval history.\nFeminine: une médiéviste. Also adjective.",

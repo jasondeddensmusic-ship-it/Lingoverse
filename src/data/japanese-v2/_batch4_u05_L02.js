@@ -122,6 +122,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"持(も)ち帰(かえ)り means:",
      opts:["takeout","delivery","reservation","waiting"], ans:"takeout",
      hint:"Taking food home rather than eating at the restaurant."}
-  ]
+  ,{type:"match",pairs:[{trg:"注文(ちゅうもん)",src:"order (at restaurant)"},{trg:"お勧(すす)め",src:"recommendation"},{trg:"定食(ていしょく)",src:"set meal"},{trg:"生(なま)もの",src:"raw food / uncooked food"},{trg:"アレルギー",src:"allergy"},{trg:"別々(べつべつ)",src:"separately / split (the bill)"}]},{type:"match",pairs:[{trg:"持(も)ち帰(かえ)り",src:"takeout / to-go"},{trg:"満腹(まんぷく)",src:"full (stomach)"}]}]
 };
 export default BATCH4_L_2;

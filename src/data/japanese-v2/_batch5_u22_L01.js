@@ -79,6 +79,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"てあげる can sound condescending because:", opts:["It implies doing a favor from a superior position","It is always rude","It uses wrong grammar","It is too casual"], ans:"It implies doing a favor from a superior position",
      hint:"Saying 'I did X for you' can sound like you are placing yourself above the other person."}
-  ]
+  ,{type:"match",pairs:[{trg:"直(なお)す",src:"to fix / to correct / to repair"},{trg:"送(おく)る",src:"to see off / to send / to escort"},{trg:"親切(しんせつ)",src:"kind / helpful / friendly"},{trg:"役(やく)に立(た)つ",src:"to be useful / to be helpful"}]}]
 };
 export default BATCH5_L_1;

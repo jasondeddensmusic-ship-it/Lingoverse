@@ -208,5 +208,5 @@ export default {n:15,lang:"fr",srcLang:"en",track:"v2",title:"Comparatifs et sup
         {type:"fb",opts:["changer","prendre","acheter","partir"],hint:"This verb means to switch from one train to another.",s:"Je dois {1} de train à Lyon pour aller à Marseille.",a:["changer"]},
         {type:"fb",opts:["aéroport","arrêt","gare","métro"],hint:"This is where you go to catch a plane.",s:"L'{1} est à trente minutes en taxi du centre-ville.",a:["aéroport"]},
         {type:"match",pairs:[{trg:"le bus",src:"the bus"},{trg:"le train",src:"the train"},{trg:"l'avion",src:"the airplane"},{trg:"le vélo",src:"the bicycle"},{trg:"le bateau",src:"the boat"}]}
-  ]}
+  ,{type:"match",pairs:[{trg:"le taxi",src:"the taxi"},{trg:"la gare",src:"the train station"},{trg:"le départ",src:"the departure"}]}]}
 ]};

@@ -64,6 +64,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Which word means compliance?", opts:["コンプライアンス","デジタルデバイド","データ保護(ほご)","情報格差(じょうほうかくさ)"], ans:"コンプライアンス",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"フェイクニュース",src:"fake news"}]}]
 };
 export default BATCH10_L1;

@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"ぼんやりする means:", opts:["To be absent-minded or space out","To be excited","To be irritated","To feel refreshed"], ans:"To be absent-minded or space out",
      hint:"This word describes a foggy, unfocused mental state."}
-  ]
+  ,{type:"match",pairs:[{trg:"寂(さび)しい",src:"lonely / lonesome"},{trg:"恥(は)ずかしい",src:"embarrassed / ashamed"},{trg:"すっきりする",src:"to feel refreshed / to feel clear"},{trg:"ぼんやりする",src:"to be absent-minded / to space out"},{trg:"いらいらする",src:"to be irritated / to be agitated"}]}]
 };
 export default BATCH6_L1;

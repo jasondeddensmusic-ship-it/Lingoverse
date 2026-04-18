@@ -112,6 +112,6 @@ const BATCH11_L1 = {
      opts:["Both praise (as expected of a pro) and limits (even I am tired)","Only praise","Only criticism","Only surprise"],
      ans:"Both praise (as expected of a pro) and limits (even I am tired)",
      hint:"This versatile adverb can acknowledge someone's reputation positively or recognize that e... a capable person has l...."}
-  ]
+  ,{type:"match",pairs:[{trg:"〜ざるをえない",src:"cannot help but ~ / have no choice but to ~"},{trg:"〜にともなって",src:"along with ~ / accompanying ~"},{trg:"いわば",src:"so to speak / as it were"},{trg:"かえって",src:"on the contrary / rather"},{trg:"さすがに",src:"as expected / even (someone) must ~"},{trg:"いざ",src:"when it comes to the moment / when push comes to shove"}]}]
 };
 export default BATCH11_L1;

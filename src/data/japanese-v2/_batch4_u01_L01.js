@@ -127,6 +127,6 @@ const BATCH4_L_1 = {
      sSrc:"I study Japanese every day.",
      opts:["勉強(べんきょう)","練習(れんしゅう)","質問(しつもん)","宿題(しゅくだい)"],
      hint:"The general word for academic studying."}
-  ]
+  ,{type:"match",pairs:[{trg:"教室(きょうしつ)",src:"classroom"},{trg:"鉛筆(えんぴつ)",src:"pencil"},{trg:"覚(おぼ)える",src:"to memorize / remember"},{trg:"忘(わす)れる",src:"to forget"},{trg:"質問(しつもん)",src:"question"},{trg:"答(こた)え",src:"answer"}]}]
 };
 export default BATCH4_L_1;

@@ -87,6 +87,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"と conditional CANNOT be used for:", opts:["Requests and commands","Natural results","Giving directions","Habitual outcomes"], ans:"Requests and commands",
      hint:"This conditional only works for automatic, natural, or habitual consequences."}
-  ]
+  ,{type:"match",pairs:[{trg:"合格(ごうかく)",src:"passing (an exam) / success"},{trg:"塵(ちり)も積(つ)もれば山(やま)となる",src:"many a little makes a mickle (proverb)"},{trg:"勧(すす)める",src:"to recommend / to suggest / to advance"},{trg:"宝(たから)くじ",src:"lottery"},{trg:"実(みの)る",src:"to bear fruit / to ripen / (efforts) to pay off"}]}]
 };
 export default BATCH5_L_1;

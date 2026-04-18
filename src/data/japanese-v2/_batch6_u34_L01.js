@@ -82,6 +82,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"援助(えんじょ) in international context means:", opts:["Providing aid and assistance to other countries","Attacking enemies","Closing borders","Raising taxes"], ans:"Providing aid and assistance to other countries",
      hint:"Japan is known for its generous ODA program supporting developing nations."}
-  ]
+  ,{type:"match",pairs:[{trg:"難民(なんみん)",src:"refugee"},{trg:"脅威(きょうい)",src:"threat / menace"}]}]
 };
 export default BATCH6_L1;

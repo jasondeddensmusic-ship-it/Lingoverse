@@ -57,7 +57,7 @@ const LESSON_12 = {id:"frv2_b2gC_l12", title:"Gastronomie et traditions", icon:"
  q:"Quel est le nom français d'un petit apéritif servi avant le repas ?",
  opts:["un amuse-gueule","un petit-déjeuner","un plat du jour","un porcelet"],
  ans:"un amuse-gueule",
- hint:"Literally something that amuses the mouth. Small bites before the main meal."},
+ hint:"A bite-sized nibble served before the starter. The name refers to entertaining one's palate before eating."},
 
 {type:"fb",
  s:"Le {1} propose un boeuf bourguignon aujourd'hui.",

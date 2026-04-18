@@ -122,6 +122,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"ズボン comes from which language?",
      opts:["French","English","German","Dutch"], ans:"French",
      hint:"Borrowed from a word that originally meant petticoat."}
-  ]
+  ,{type:"match",pairs:[{trg:"服(ふく)",src:"clothes / clothing"},{trg:"スカート",src:"skirt"},{trg:"靴下(くつした)",src:"socks"},{trg:"帽子(ぼうし)",src:"hat / cap"},{trg:"ネクタイ",src:"necktie"},{trg:"脱(ぬ)ぐ",src:"to take off (clothing)"}]},{type:"match",pairs:[{trg:"似合(にあ)う",src:"to suit / to look good on"}]}]
 };
 export default BATCH4_L_2;

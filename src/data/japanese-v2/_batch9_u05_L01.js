@@ -69,6 +69,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What is 茶碗蒸(ちゃわんむ)し?", opts:["Steamed egg custard","Grilled chicken","Boiled rice","Cut vegetables"], ans:"Steamed egg custard",
      hint:"茶碗(ちゃわん) means tea cup and 蒸(む)し means s.... It is a savory dish."}
-  ]
+  ,{type:"match",pairs:[{trg:"焼(や)く",src:"to grill / to bake / to roast"},{trg:"煮(に)る",src:"to boil / to stew / to simmer"},{trg:"蒸(む)す",src:"to steam"},{trg:"切(き)る",src:"to cut / to chop"}]}]
 };
 export default BATCH9_L1;

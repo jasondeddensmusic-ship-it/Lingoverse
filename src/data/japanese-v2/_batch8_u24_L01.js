@@ -101,6 +101,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"Which is the most formal way to say 'in other words'?", opts:["すなわち","つまり","ようするに","結局(けっきょく)"], ans:"すなわち",
      hint:"This connector is primarily used in academic papers and very formal writing."}
-  ]
+  ,{type:"match",pairs:[{trg:"にもかかわらず",src:"despite / in spite of / nevertheless"},{trg:"例(たと)えば",src:"for example / for instance"},{trg:"もっとも",src:"however / although / that said"},{trg:"いずれにしても",src:"in any case / either way / regardless"}]}]
 };
 export default BATCH8_L1;

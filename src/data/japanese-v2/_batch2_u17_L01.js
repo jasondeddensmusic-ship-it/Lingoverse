@@ -83,6 +83,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"遭難(そうなん)する means:", opts:["to succeed","to be in distress","to celebrate","to travel"], ans:"to be in distress",
      hint:"This word describes a life-threatening situation, usually on a mountain or at sea."},
-  ]
+  {type:"match",pairs:[{trg:"遭難(そうなん)する",src:"to be in distress / to be shipwrecked"}]}]
 };
 export default BATCH2_L_1;

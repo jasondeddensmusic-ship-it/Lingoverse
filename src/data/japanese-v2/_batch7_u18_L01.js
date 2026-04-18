@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["協力(きょうりょく)","迷惑(めいわく)","残業(ざんぎょう)","有給(ゆうきゅう)"],
      hint:"This project needs everyone working together. This noun means 'cooperation.'",
      sSrc:"This project requires everyone's {1}."}
-  ]
+  ,{type:"match",pairs:[{trg:"有給(ゆうきゅう)",src:"paid leave / paid vacation"}]}]
 };
 export default BATCH7_L1;

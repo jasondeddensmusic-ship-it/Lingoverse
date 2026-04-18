@@ -93,5 +93,5 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"このアプリはとても{1}だと思(おも)います。\n(I think this app is very useful.)", a:"便利(べんり)", opts:["便利(べんり)","不便(ふべん)","難(むずか)しい","つまらない"], sSrc:"I think this app is very useful.",
    hint:"The な-adjective describing something that makes life easier and more c..."},
-]};
+{type:"match",pairs:[{trg:"そうですね",src:"that is right / I agree"},{trg:"気持(きも)ち",src:"feeling / mood"}]}]};
 export default BATCH2_L_1;

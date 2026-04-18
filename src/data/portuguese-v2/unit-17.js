@@ -48,10 +48,10 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
  funFact:"If even one person in the group is male, Portuguese switches to 'os'."},
 
 {type:"mc",
- q:"Which pronoun replaces 'o livro' in 'Eu comprei o livro'?",
+ q:"Select the masculine singular accusative clitic:",
  opts:["a","o","os","as"],
  ans:"o",
- hint:"Livro is masculine singular. Match that gender and number."},
+ hint:"Masculine singular nouns are replaced by the matching definite article used as a clitic."},
 
 {type:"mc",
  q:"Choose the correct pronoun: 'Eu ___ amo muito, mãe.'",

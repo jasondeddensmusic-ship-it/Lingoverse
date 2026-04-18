@@ -64,6 +64,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"Which word means headline?", opts:["見出(みだ)し","アンケート","社説(しゃせつ)","電波(でんぱ)"], ans:"見出(みだ)し",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"特集(とくしゅう)",src:"special feature"}]}]
 };
 export default BATCH9_L1;

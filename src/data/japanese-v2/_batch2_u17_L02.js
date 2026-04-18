@@ -67,7 +67,7 @@ const BATCH2_L_2 = {
      funFact:"悪質 is a strong descriptor used in news and warnings. Phone scams (電話詐欺) targeting elderly people are a major social issue in Japan. Police stations and banks display warnings about 悪質な詐欺 (malicious fraud). The word implies deliberate ill intent, not mere negligence."},
 
     {type:"mc", q:"約束(やくそく)を破(やぶ)られた expresses:", opts:["I broke a promise","Someone broke a promise to me","Promises are important","I kept my promise"], ans:"Someone broke a promise to me",
-     hint:"The passive puts the speaker as the victim. 破(やぶ)られる = having something broken on you."},
+     hint:"The passive voice here marks the speaker as the person who suffered the betrayal, not the one who acted."},
 
     {type:"tip", title:"Passive Complaints: Indirect Strategy",
      text:"Japanese complaint patterns avoid direct blame:\n\nDirect (blunt): あなたが無視(むし)した (you ignored me)\nPassive (natural): 無視(むし)された (I was ignored)\n\nDirect: あなたが嘘(うそ)をついた (you lied)\nPassive (natural): 嘘(うそ)をつかれた (I was lied to)\n\nThe passive shifts focus from 'you did wrong' to 'I was affected.' This is not weakness but social strategy. It preserves harmony while still expressing grievance.",
@@ -83,6 +83,6 @@ const BATCH2_L_2 = {
 
     {type:"mc", q:"邪魔(じゃま)される means:", opts:["to disturb someone","to be disturbed/interrupted","to invite someone","to be welcomed"], ans:"to be disturbed/interrupted",
      hint:"The passive of 邪魔(じゃま)する (to disturb). The speaker is on the receiving end of the disturbance."},
-  ]
+  {type:"match",pairs:[{trg:"悪質(あくしつ)",src:"malicious / vicious / nasty"}]}]
 };
 export default BATCH2_L_2;

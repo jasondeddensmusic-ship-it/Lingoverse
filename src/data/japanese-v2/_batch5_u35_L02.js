@@ -20,6 +20,6 @@ const BATCH5_L_2 = {
     {type:"match", pairs:[{trg:"自律型(じりつがた)",src:"autonomous"},{trg:"自動運転(じどううんてん)",src:"self-driving"},{trg:"著作権(ちょさくけん)",src:"copyright"},{trg:"透明性(とうめいせい)",src:"transparency"}]},
     {type:"fb", s:"AIと人間(にんげん)が{1}する社会(しゃかい)を目指(めざ)すべきです。\n(We should aim for a society where AI and humans coexist.)", a:"共存(きょうぞん)", opts:["共存(きょうぞん)","競争(きょうそう)","対立(たいりつ)","分離(ぶんり)"], sSrc:"We should aim for a society where AI and humans coexist.", hint:"The word for coexistence, using kanji for 'together' and 'exist.'"},
     {type:"mc", q:"AIが作(つく)った作品(さくひん)の著作権(ちょさくけん) is:", opts:["Currently unclear and debated globally","Clearly owned by the AI itself","Always owned by the user","Not a real concern"], ans:"Currently unclear and debated globally", hint:"Legal frameworks have not yet caught up with AI's creative capabilities."}
-  ]
+  ,{type:"match",pairs:[{trg:"シンギュラリティ",src:"technological singularity"},{trg:"学習(がくしゅう)データ",src:"training data / learning data"},{trg:"失業(しつぎょう)リスク",src:"unemployment risk"}]}]
 };
 export default BATCH5_L_2;

@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"Why is the 二千円(にせんえん)札(さつ) (2000 yen bill) special?", opts:["It is extremely rare and most people have never used one","It is the most common bill in Japan","It was discontinued in 2010","It features Mount Fuji"], ans:"It is extremely rare and most people have never used one",
      hint:"This bill was issued for a special occasion and mainly circulates in one region."}
-  ]
+  ,{type:"match",pairs:[{trg:"領収書(りょうしゅうしょ)",src:"receipt (formal/tax)"},{trg:"お財布(さいふ)",src:"wallet / purse"},{trg:"口座(こうざ)",src:"bank account"},{trg:"二千円(にせんえん)札(さつ)",src:"2000 yen bill"},{trg:"ポイントカード",src:"loyalty card / point card"},{trg:"振込(ふりこみ)",src:"bank transfer"}]}]
 };
 export default BATCH8_L1;

@@ -69,6 +69,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"What insect is considered the sound of summer in Japan?", opts:["蝉(せみ) (cicada)","蝶々(ちょうちょう) (butterfly)","蛍(ほたる) (firefly)","蜻蛉(とんぼ) (dragonfly)"], ans:"蝉(せみ) (cicada)",
      hint:"This insect's loud buzzing is used in every anime and movie to signal the summer season."}
-  ]
+  ,{type:"match",pairs:[{trg:"夏祭(なつまつ)り",src:"summer festival"},{trg:"雪(ゆき)",src:"snow"},{trg:"季節(きせつ)",src:"season"}]}]
 };
 export default BATCH10_L1;

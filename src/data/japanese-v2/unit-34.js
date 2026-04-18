@@ -185,7 +185,7 @@ const UNIT_34 = {
 
   {type:"mc", q:"開催(かいさい)する means:", opts:["to hold/host an event","to attend an event","to cancel an event","to broadcast an event"], ans:"to hold/host an event",
    hint:"The verb combining 'open' and 'sponsor,' used when a city or country organizes a major international e...."},
-]},
+{type:"match",pairs:[{trg:"条約(じょうやく)",src:"treaty / convention"}]}]},
 
 ,BATCH2_L01
 ,BATCH2_L02

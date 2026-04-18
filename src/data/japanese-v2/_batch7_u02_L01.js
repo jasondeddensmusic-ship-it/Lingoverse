@@ -132,6 +132,6 @@ const BATCH7_L1 = {
      opts:["にぎやか","静(しず)か","真面目(まじめ)","つまらない"],
      hint:"This na-adjective means lively and bustling, the opposite of quiet.",
      sSrc:"Shibuya is a {1} town. There are many people."}
-  ]
+  ,{type:"match",pairs:[{trg:"元気(げんき)",src:"energetic / healthy / well"},{trg:"やさしい人(ひと)",src:"kind person"},{trg:"髪(かみ)が長(なが)い",src:"long hair"}]}]
 };
 export default BATCH7_L1;

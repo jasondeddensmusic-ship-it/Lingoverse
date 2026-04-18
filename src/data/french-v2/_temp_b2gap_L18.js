@@ -151,7 +151,7 @@ const LESSON_18 = {
      s:"Je ne suis pas {1}, je ne peux pas predire ce qui va se passer.",
      a:["devin"],
      opts:["devin","centurion","ch\u00e2telain","charnier"],
-     hint:"A fortune-teller or seer. From Latin 'divinus' (divine). Related to 'deviner' (to guess).",
+     hint:"A person believed to predict the future. From Latin 'divinus' (divine). Common in the phrase 'je ne suis pas...'.",
      sSrc:"I'm not a {1}, I can't predict what's going to happen."}
   ]
 };

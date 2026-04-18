@@ -20,6 +20,6 @@ const BATCH5_L_2 = {
     {type:"match", pairs:[{trg:"私小説(ししょうせつ)",src:"I-novel (autobiographical)"},{trg:"主題(しゅだい)",src:"theme/subject"},{trg:"文体(ぶんたい)",src:"writing style"},{trg:"孤独(こどく)",src:"loneliness/isolation"}]},
     {type:"fb", s:"この作品(さくひん)は戦後(せんご)日本(にほん)の社会(しゃかい)を{1}います。\n(This work depicts postwar Japanese society.)", a:"描(えが)いて", opts:["描(えが)いて","書(か)いて","読(よ)んで","知(し)って"], sSrc:"This work depicts postwar Japanese society.", hint:"The verb meaning to depict or portray, specifically used for literary and artistic description."},
     {type:"mc", q:"Japan has how many Nobel Prize laureates in literature?", opts:["Two (Kawabata 1968, Oe 1994)","One","Three","Zero"], ans:"Two (Kawabata 1968, Oe 1994)", hint:"K... Yasunari won in 1968 and Oe Kenzaburo won in 1994."}
-  ]
+  ,{type:"match",pairs:[{trg:"純文学(じゅんぶんがく)",src:"pure literature / literary fiction"},{trg:"表現力(ひょうげんりょく)",src:"expressive power / ability to express"},{trg:"アイデンティティ",src:"identity"},{trg:"描(えが)く",src:"to depict / to portray / to describe (in art/literature)"}]}]
 };
 export default BATCH5_L_2;

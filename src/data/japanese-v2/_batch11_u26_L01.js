@@ -76,7 +76,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"日本(にほん)の新聞(しんぶん)の政治的(せいじてき)傾向(けいこう)について、正(ただ)しいのはどれですか？",
      opts:["Different papers have different political leanings","All papers are neutral","Papers don't cover politics","There is only one national paper"],
      ans:"Different papers have different political leanings",
-     hint:"Major newspapers like Asahi, Yomiuri, and Mainichi each have recognized p... positions, which readers are expected to understand."},
+     hint:"Asahi, Yomiuri, and Mainichi each have well-known editorial stances that educated readers are expected to recognize."},
 
     {type:"fb", s:"インターネットで{1}を集(あつ)めました。",
      a:["情報(じょうほう)"],
@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Exists in a legal gray zone mostly tolerated by publishers","Completely illegal","Fully protected by law","Does not exist anymore"],
      ans:"Exists in a legal gray zone mostly tolerated by publishers",
      hint:"Fan-created comics based on existing works occupy an ambiguous position that the industry has largely chosen to overlook."}
-  ]
+  ,{type:"match",pairs:[{trg:"記事(きじ)",src:"article (news/magazine)"},{trg:"主張(しゅちょう)",src:"claim / assertion / argument"},{trg:"信頼(しんらい)",src:"trust / reliability"},{trg:"影響力(えいきょうりょく)",src:"influence / clout"},{trg:"発信(はっしん)",src:"transmission / broadcasting / posting"},{trg:"透明性(とうめいせい)",src:"transparency"}]}]
 };
 export default BATCH11_L1;

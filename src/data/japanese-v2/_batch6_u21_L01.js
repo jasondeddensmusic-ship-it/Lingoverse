@@ -88,6 +88,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"集(あつ)まる describes:", opts:["People coming together in one place","One person leaving","Distributing items","Cleaning up"], ans:"People coming together in one place",
      hint:"This intransitive verb describes the act of gathering."}
-  ]
+  ,{type:"match",pairs:[{trg:"参加(さんか)",src:"participation"},{trg:"催(もよお)し",src:"event / gathering / function"},{trg:"役(やく)に立(た)つ",src:"to be useful / to be helpful"},{trg:"集(あつ)まる",src:"to gather / to assemble (intransitive)"}]}]
 };
 export default BATCH6_L1;

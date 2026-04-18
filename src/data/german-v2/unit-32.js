@@ -306,7 +306,7 @@ const UNIT_32 =
 {type:"mc",q:"Was bedeutet 'identifizieren'?",opts:["to sensitize, to raise awareness","to classify, to categorize","to identify (pinpoint)","to define"],ans:"to identify (pinpoint)",hint:"Sounds like its English equivalent. To determine exactly what or who something is."},
 {type:"fb",s:"{1} sagt, dass Berlin weltoffen ist.",a:["man"],opts:["der Begriff","umdenken","die Erkenntnis","man"],hint:"The impersonal pronoun for 'people in general'. NOT the English word for an adult male.",sSrc:"People say that Berlin is cosmopolitan."},
 {type:"mc",q:"Was bedeutet 'mancher'?",opts:["some, many a","concept, term","to assimilate","to classify, to categorize"],ans:"some, many a",hint:"An indefinite pronoun. Implies a surprising quantity of people or items, not just a few."}
-]}
+,{type:"match",pairs:[{trg:"die Vielfalt",src:"diversity, variety"},{trg:"multikulturell",src:"multicultural"},{trg:"vielf\u00e4ltig",src:"diverse, manifold"},{trg:"letztlich",src:"ultimately, in the end"},{trg:"die Interkulturalitaet",src:"interculturality"},{trg:"das Kulturgut",src:"cultural asset, cultural heritage"}]}]}
 ]};
 
 export default UNIT_32;

@@ -81,6 +81,6 @@ const BATCH2_L_3 = {
 
     {type:"mc", q:"Which practice is most fundamental to media literacy?", opts:["Believing the first source you find","Checking multiple sources to verify information","Only reading one trusted newspaper","Ignoring all news entirely"], ans:"Checking multiple sources to verify information",
      hint:"出典(しゅってん)を確認(かくにん)する (verifying s...) is the foundational skill of critical media consumption."},
-  ]
+  {type:"match",pairs:[{trg:"統計(とうけい)",src:"statistics"}]}]
 };
 export default BATCH2_L_3;

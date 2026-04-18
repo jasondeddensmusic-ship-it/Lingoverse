@@ -20,7 +20,7 @@ export default {n:5,lang:"es",srcLang:"en",track:"v2",title:"Mi Día",sub:"Daily
         {type:"fb",opts:["nos","me","se","te"],hint:"The reflexive pronoun for 'we' (nosotros).",s:"Nosotros {1} levantamos a las siete.",a:"nos"},
         {type:"mc",q:"'Se viste rápido' means:",opts:["We get dressed quickly","I get dressed quickly","You get dressed quickly","He/she gets dressed quickly"],ans:"He/she gets dressed quickly",hint:"'Se' is the third person reflexive pronoun."},
         {type:"fb",opts:["despierto","levanto","ducho","visto"],hint:"The first thing you do when the alarm rings.",s:"Me {1} a las siete todos los días.",a:"despierto"},
-        {type:"mc",q:"What pronoun goes with 'nosotros' in reflexive verbs?",opts:["nos","me","se","te"],ans:"nos",hint:"We + ourselves uses this reflexive pronoun."}
+        {type:"mc",q:"Which reflexive pronoun matches the first person plural subject?",opts:["nos","me","se","te"],ans:"nos",hint:"The plural form of 'we' acting on ourselves."}
   ]},
   {id:"esp5l2",title:"Verbos -ar",icon:"📝",xp:15,board:true,steps:[
         {type:"intro",title:"Verbos -ar",desc:"Master the present tense of regular -ar verbs.",goals:["Conjugate 6 regular -ar verbs","Use all person forms","Build sentences with -ar verbs"]},
@@ -225,5 +225,5 @@ export default {n:5,lang:"es",srcLang:"en",track:"v2",title:"Mi Día",sub:"Daily
         {type:"match",pairs:[{trg:"el pecho",src:"chest"},{trg:"la espalda",src:"back"},{trg:"el corazon",src:"heart"},{trg:"el estomago",src:"stomach"}]},
         {type:"drag_fill",hint:"My head hurts (singular) and my feet hurt (plural).",s:"Me duele {1} y me duelen {2}.",blanks:{"1":"la cabeza","2":"los pies"},pool:["la cabeza","los pies","el mano","las nariz"]},
         {type:"mc",q:"La muneca means:",opts:["only doll","only wrist","wrist AND doll","ankle"],ans:"wrist AND doll",hint:"Same word, two meanings. Context tells you which."}
-  ]}
+  ,{type:"match",pairs:[{trg:"estudiar",src:"to study"},{trg:"el codo",src:"elbow"},{trg:"la muneca",src:"wrist"},{trg:"escuchar",src:"to listen"}]}]}
 ]};

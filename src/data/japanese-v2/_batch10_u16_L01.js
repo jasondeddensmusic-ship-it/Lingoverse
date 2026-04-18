@@ -69,6 +69,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"What is the difference between 終(お)わる and 終(お)わらせる?", opts:["終(お)わる ends naturally, 終(お)わらせる means to make it end","They mean the same thing","終(お)わる is past tense of 終(お)わらせる","終(お)わらせる is more casual"], ans:"終(お)わる ends naturally, 終(お)わらせる means to make it end",
      hint:"The causative form adds the meaning of actively making or forcing something to happen."}
-  ]
+  ,{type:"match",pairs:[{trg:"延(の)ばす",src:"to extend / to postpone"},{trg:"後回(あとまわ)し",src:"putting off / postponing"},{trg:"進(すす)める",src:"to advance / to make progress"}]}]
 };
 export default BATCH10_L1;

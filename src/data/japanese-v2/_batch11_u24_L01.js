@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Commonly known terms or labels","Exact definitions","Personal opinions","Future plans"],
      ans:"Commonly known terms or labels",
      hint:"This word introduces t... that people c... use, sometimes with a hint of distance suggesting the label may be oversimplified."}
-  ]
+  ,{type:"match",pairs:[{trg:"また",src:"also / in addition / moreover"},{trg:"もっとも",src:"although / that said"},{trg:"いわゆる",src:"so-called / what is known as"},{trg:"そもそも",src:"in the first place / to begin with"}]}]
 };
 export default BATCH11_L1;

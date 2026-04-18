@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What limits Japan's PKO military activities abroad?", opts:["Constitutional constraints from Article 9","Lack of military equipment","International treaties","Budget limitations"], ans:"Constitutional constraints from Article 9",
      hint:"Japan's pacifist constitution restricts the use of force in international operations."}
-  ]
+  ,{type:"match",pairs:[{trg:"首脳(しゅのう)",src:"head of state / leader / chief"},{trg:"調停(ちょうてい)",src:"mediation / arbitration / adjustment"},{trg:"多国間協定(たこくかんきょうてい)",src:"multilateral agreement"},{trg:"相互理解(そうごりかい)",src:"mutual understanding"},{trg:"人道的援助(じんどうてきえんじょ)",src:"humanitarian aid"},{trg:"平和維持(へいわいじ)",src:"peacekeeping"}]},{type:"match",pairs:[{trg:"緊張(きんちょう)",src:"tension / strain"}]}]
 };
 export default BATCH8_L1;

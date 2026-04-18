@@ -264,7 +264,7 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
   {trg:"были", src:"were (pl)"},
   {trg:"у меня было", src:"I had (neuter)"}
 ]}
-]}
+,{type:"match",pairs:[{trg:"жил",src:"lived (he)"},{trg:"смотрел",src:"was watching (imperfective)"},{trg:"посмотрел",src:"watched (perfective)"},{trg:"сказал",src:"said (perfective)"}]}]}
 
 ]};
 export default UNIT_14;

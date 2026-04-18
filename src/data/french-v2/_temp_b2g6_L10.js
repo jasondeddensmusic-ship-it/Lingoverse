@@ -130,7 +130,7 @@ const LESSON_10 = {
     ]},
 
     {type:"mc",
-     q:"Quel mot désigne le lever du soleil le matin ?",
+     q:"Quel substantif masculin désigne le moment où le soleil apparaît à l'horizon le matin ?",
      opts:["le lever","le dixième","le complet","le curieux"],
      ans:"le lever",
      hint:"A noun formed from the verb 'l...' (to raise). Think of the sun coming up."},

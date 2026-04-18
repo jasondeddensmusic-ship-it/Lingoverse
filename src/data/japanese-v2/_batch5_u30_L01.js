@@ -79,6 +79,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"Japanese ethics draws from:", opts:["Buddhism, Confucianism, and Shinto simultaneously","Only Western philosophy","Only Buddhism","Only Confucianism"], ans:"Buddhism, Confucianism, and Shinto simultaneously",
      hint:"Japan's moral framework blends multiple philosophical and religious traditions."}
-  ]
+  ,{type:"match",pairs:[{trg:"公平性(こうへいせい)",src:"fairness / impartiality / equity"},{trg:"善悪(ぜんあく)",src:"good and evil / right and wrong"},{trg:"義理(ぎり)",src:"social obligation / duty / honor"}]}]
 };
 export default BATCH5_L_1;

@@ -93,6 +93,6 @@ const BATCH2_L_4 = {
 
     {type:"mc", q:"会(あ)うたびに means:", opts:["instead of meeting","before meeting","every time we meet","in order to meet"], ans:"every time we meet",
      hint:"たびに creates a recurring pattern: each t... the condition occurs, something happens."},
-  ]
+  {type:"match",pairs:[{trg:"〜ものではない",src:"one should not ~ / it is not done"},{trg:"寝不足(ねぶそく)",src:"lack of sleep / sleep deprivation"},{trg:"宝物(たからもの)",src:"treasure / prized possession"}]}]
 };
 export default BATCH2_L_4;

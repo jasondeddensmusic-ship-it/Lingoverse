@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["羨(うらや)ましい","悔(くや)しい","寂(さみ)しい","恥(は)ずかしい"],
      hint:"You openly wish you had the same good fortune. This i-adjective is lighter than English 'jealous.'",
      sSrc:"You went to Hawaii? {1}! I want to go too!"}
-  ]
+  ,{type:"match",pairs:[{trg:"仕方(しかた)がない",src:"it cannot be helped / nothing can be done"}]}]
 };
 export default BATCH7_L1;

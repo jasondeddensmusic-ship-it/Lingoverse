@@ -196,5 +196,5 @@ export default {n:21,lang:"es",srcLang:"en",track:"v2",title:"En Las Noticias",s
         {type:"fb",opts:["revisados","revisadas","revisado","revisar"],hint:"Los documentos is masculine plural.",s:"Los documentos fueron {1} por el juez.",a:"revisados"},
         {type:"mc",q:"Se pasiva vs se impersonal: 'Se necesitan enfermeras' vs 'Se puede entrar'. The difference is:",opts:["There is no difference","The first is present, the second is past","The first is formal, the second is informal","In the first, enfermeras is the subject the verb agrees with. In the second, there is no noun subject."],ans:"In the first, enfermeras is the subject the verb agrees with. In the second, there is no noun subject.",hint:"Se pasiva has a ___ the ___ ___ with. Se impersonal has no such ___."},
         {type:"mc",q:"Rewrite using se pasiva: 'Venden libros usados aquí.'",opts:["Se venden libros usados aquí","Se vende libros usados aquí","Libros usados son vendidos aquí","Aquí libros se vender"],ans:"Se venden libros usados aquí",hint:"___ is plural, so the verb must be ___ (plural) with se."}
-  ]}
+  ,{type:"match",pairs:[{trg:"El arquitecto diseñó el edificio",src:"The architect designed the building (active)"}]}]}
 ]};

@@ -69,6 +69,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What does 日本語(にほんご)がわかってきました mean?", opts:["I have gradually come to understand Japanese","I understood Japanese completely","I forgot Japanese","I started studying Japanese"], ans:"I have gradually come to understand Japanese",
      hint:"てくる expresses a gradual change approaching the present moment."}
-  ]
+  ,{type:"match",pairs:[{trg:"持(も)っている",src:"to have / to be holding"},{trg:"知(し)っている",src:"to know"},{trg:"〜ていく",src:"to go on doing / to start doing"}]}]
 };
 export default BATCH9_L1;

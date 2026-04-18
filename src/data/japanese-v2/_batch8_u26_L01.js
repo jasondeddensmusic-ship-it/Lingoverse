@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does マスコミ stand for?", opts:["Mass communication (abbreviated)","Master of commerce","Massive community","Marketing commission"], ans:"Mass communication (abbreviated)",
      hint:"This abbreviation covers newspapers, TV, radio, and other large-scale media."}
-  ]
+  ,{type:"match",pairs:[{trg:"取(と)り上(あ)げる",src:"to cover / to feature / to pick up (a topic)"},{trg:"世論(よろん)",src:"public opinion"},{trg:"番組(ばんぐみ)",src:"program / show (TV/radio)"},{trg:"時事(じじ)",src:"current affairs / current events"},{trg:"マスコミ",src:"mass media / mass communication"},{trg:"情報源(じょうほうげん)",src:"information source"}]}]
 };
 export default BATCH8_L1;

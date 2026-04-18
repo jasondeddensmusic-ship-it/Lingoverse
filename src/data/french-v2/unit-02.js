@@ -184,5 +184,5 @@ export default {n:2,lang:"fr",srcLang:"en",track:"v2",title:"Je me présente",su
         {type:"mc",q:"Which is NOT an avoir expression?",opts:["J'ai grand","J'ai froid","J'ai peur","J'ai faim"],ans:"J'ai grand",hint:"___ (tall/big) uses être, not avoir."},
         {type:"mc",q:"All French language names are:",opts:["Feminine","Masculine","Neutral","It depends"],ans:"Masculine",hint:"Le français, l'anglais, l'espagnol: all use le."},
         {type:"mc",q:"'On a' replaces which formal expression?",opts:["J'ai","Tu as","Nous avons","Ils ont"],ans:"Nous avons",hint:"On = casual we. It replaces the formal first person plural."}
-  ]}
+  ,{type:"match",pairs:[{trg:"un peu",src:"a little"},{trg:"zéro",src:"zero"}]}]}
 ]};

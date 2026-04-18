@@ -72,6 +72,6 @@ const BATCH9_L1 = {
 
     {type:"fb", s:"いらっしゃい！どうぞ。\n{1}。\n(Welcome! Please come in. Excuse me for intruding.)", a:"おじゃまします", opts:["おじゃまします","失礼(しつれい)します","お待(ま)たせしました","気(き)をつけて"], sSrc:"Welcome! Please come in.\nExcuse me for intruding.",
      hint:"This humble phrase acknowledges entering someone's home as a minor intrusion."}
-  ]
+  ,{type:"match",pairs:[{trg:"気(き)をつけて",src:"be careful / take care"}]}]
 };
 export default BATCH9_L1;

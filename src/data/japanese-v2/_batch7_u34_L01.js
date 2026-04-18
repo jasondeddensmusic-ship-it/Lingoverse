@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["軍縮(ぐんしゅく)","制裁(せいさい)","外交(がいこう)","主権(しゅけん)"],
      hint:"Nuclear arms reduction is a global goal. Hiroshima's experience gives this special urgency.",
      sSrc:"Nuclear {1} is a global goal. Hiroshima appeals for it."}
-  ]
+  ,{type:"match",pairs:[{trg:"多国籍(たこくせき)",src:"multinational"},{trg:"首脳会議(しゅのうかいぎ)",src:"summit meeting"}]}]
 };
 export default BATCH7_L1;
