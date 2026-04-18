@@ -123,6 +123,6 @@ const BATCH3_L_1 = {
      opts:["Utente base: puo comprendere frasi semplici e di uso quotidiano","Utente indipendente: puo interagire con parlanti nativi senza sforzo e argomentare su temi complessi","Utente avanzato: puo tradurre testi letterari e tenere conferenze accademiche","Madrelingua: nessuna differenza con un parlante nativo in qualsiasi contesto"],
      ans:"Utente indipendente: puo interagire con parlanti nativi senza sforzo e argomentare su temi complessi",
      hint:"B2 is the 'independent user' level. You can handle complex topics, argue positions, and interact fluently with native speakers."}
-  ]
+  ,{type:"match",pairs:[{trg:"il paragrafo",src:"the paragraph"},{trg:"il lessico specifico",src:"specialized vocabulary"},{trg:"in conclusione",src:"in conclusion"},{trg:"a tal proposito",src:"in this regard / on this matter"},{trg:"il quesito",src:"the question / item (on a test)"},{trg:"la competenza linguistica",src:"linguistic competence"}]}]
 };
 export default BATCH3_L_1;

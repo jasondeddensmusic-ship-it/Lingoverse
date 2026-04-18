@@ -102,5 +102,5 @@ const BATCH8_L1 = {id:"itv2_u02l_b8_1", title:"Gli orari", icon:"📋", xp:15, b
  opts:["It means both appointment and date","It is only used for doctors","It is always feminine","It only works with the 24-hour clock"],
  ans:"It means both appointment and date",
  hint:"Context determines whether you are going to the doctor or meeting someone special."}
-]};
+,{type:"match",pairs:[{trg:"puntuale",src:"punctual / on time"},{trg:"in anticipo",src:"early / ahead of time"},{trg:"quotidiano",src:"daily / everyday"}]},{type:"mc",q:"How do you say \"schedule / timetable\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'orario"],ans:"l'orario",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"appointment\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'appuntamento"],ans:"l'appuntamento",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

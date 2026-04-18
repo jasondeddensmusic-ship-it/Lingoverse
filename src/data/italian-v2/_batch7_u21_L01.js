@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u21l_b7_1", title:"Consigli e suggerimenti", icon:"\
  {trg:"insistere", src:"to insist"},
  {trg:"valutare", src:"to evaluate"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"fare attenzione",src:"to be careful / to pay attention"},{trg:"prendere in considerazione",src:"to take into consideration"}]}]};
 export default BATCH7_L1;

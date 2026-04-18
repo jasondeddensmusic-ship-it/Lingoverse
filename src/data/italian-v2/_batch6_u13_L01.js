@@ -137,5 +137,5 @@ const BATCH6_L1 = {id:"itv2_u13l_b6_1", title:"Verbi impersonali e congiuntivo",
  {trg:"impedire", src:"to prevent"},
  {trg:"ammettere", src:"to admit"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"conviene che",src:"it is advisable that"},{trg:"basta che",src:"as long as / provided that"},{trg:"dovunque",src:"wherever"},{trg:"pretendere",src:"to demand / to expect"}]}]};
 export default BATCH6_L1;

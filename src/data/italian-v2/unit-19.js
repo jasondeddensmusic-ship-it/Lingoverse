@@ -316,7 +316,7 @@ const UNIT_19 = {
        opts:["Feelings are kept strictly private","Concealing emotions is strongly preferred","Only immediate family may show emotion","Expressing feelings openly is seen as genuine"],
        ans:"Expressing feelings openly is seen as genuine",
        hint:"Italian social bonds value emotional directness. 'Come stai?' expects a real answer. Physical warmth and expressive language are normal even with acquaintances."}
-    ]}
+    ,{type:"match",pairs:[{trg:"mi sento",src:"I feel"},{trg:"emozionarsi",src:"to get emotional / to be moved"},{trg:"arrabbiato",src:"angry / upset"}]}]}
   ]
 };
 export default UNIT_19;

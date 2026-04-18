@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u16l_b6_1", title:"Il benessere mentale", icon:"\u{1
  {trg:"il riposo", src:"rest"},
  {trg:"la terapia", src:"therapy"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la preoccupazione",src:"the worry / concern"},{trg:"sfogare",src:"to vent / to let out"},{trg:"la pazienza",src:"the patience"},{trg:"esaurimento",src:"the burnout / exhaustion"}]}]};
 export default BATCH6_L1;

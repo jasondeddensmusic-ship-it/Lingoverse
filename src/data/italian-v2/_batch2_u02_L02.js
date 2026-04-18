@@ -142,6 +142,6 @@ const BATCH2_U02_L2 = {
      opts:["Giugno","Luglio","Agosto","Settembre"],
      ans:"Giugno",
      hint:"Named after Juno, goddess of marriage. Italian students finish around mid-month and start summer break."}
-  ]
+  ,{type:"match",pairs:[{trg:"novembre",src:"November"},{trg:"Pasqua",src:"Easter"},{trg:"la festa",src:"the holiday / party / celebration"},{trg:"la settimana",src:"the week"},{trg:"prossimo",src:"next / coming"}]},{type:"mc",q:"How do you say \"new year\" in Italian?",opts:["la finestra","il tavolo","l'anno nuovo","la bicicletta"],ans:"l'anno nuovo",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U02_L2;

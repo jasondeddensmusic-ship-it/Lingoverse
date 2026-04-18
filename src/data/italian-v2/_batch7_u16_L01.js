@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u16l_b7_1", title:"L'alimentazione", icon:"\u{1F957}
  {trg:"il digiuno", src:"fasting"},
  {trg:"il metabolismo", src:"metabolism"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"il calcio (minerale)",src:"calcium"},{trg:"il peso forma",src:"ideal weight"},{trg:"equilibrato",src:"balanced"}]},{type:"mc",q:"How do you say \"nutrition / diet\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'alimentazione"],ans:"l'alimentazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

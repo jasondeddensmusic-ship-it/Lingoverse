@@ -312,7 +312,7 @@ const UNIT_06 = {
        opts:["It is irregular","It is feminine","It ends in -s","It is a foreign loan word"],
        ans:"It is a foreign loan word",
        hint:"Italian plural rules apply only to native vocabulary. Imports from French or English stay fixed in form."}
-    ]},
+    ,{type:"match",pairs:[{trg:"la strada",src:"the street / road"},{trg:"la piazza",src:"the square / plaza"},{trg:"prendere",src:"to take (transport)"},{trg:"andare",src:"to go"}]}]},
     EXP_06_L1, EXP_06_L2, EXP_06_L3,
   ]
 };

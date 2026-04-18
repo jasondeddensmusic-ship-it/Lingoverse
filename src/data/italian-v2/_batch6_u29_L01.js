@@ -109,5 +109,5 @@ const BATCH6_L1 = {id:"itv2_u29l_b6_1", title:"I pregiudizi cognitivi", icon:"\u
  {trg:"la nostalgia", src:"nostalgia"},
  {trg:"il paradosso", src:"paradox"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la convinzione",src:"the conviction / belief"}]}]};
 export default BATCH6_L1;

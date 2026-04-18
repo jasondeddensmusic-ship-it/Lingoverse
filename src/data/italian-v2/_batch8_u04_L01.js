@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u04l_b8_1", title:"La colazione italiana", icon:"ðŸ¥
  opts:["Lo scontrino (the receipt)","La carta (the card)","Il menu","Il cornetto"],
  ans:"Lo scontrino (the receipt)",
  hint:"In many Italian bars, you pay first at the register and receive a small paper proof of payment."}
-]};
+,{type:"match",pairs:[{trg:"inzuppare",src:"to dunk / to dip"},{trg:"il bancone",src:"the counter (bar counter)"}]}]};
 export default BATCH8_L1;

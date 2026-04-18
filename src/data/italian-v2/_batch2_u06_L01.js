@@ -136,6 +136,6 @@ const BATCH2_U06_L1 = {
      opts:["Closed for holidays","Closed for lunch","Open all day","Under renovation"],
      ans:"Closed for holidays",
      hint:"A common August sign in Italy when businesses shut down for summer vacation."}
-  ]
+  ,{type:"match",pairs:[{trg:"chiuso",src:"closed"}]}]
 };
 export default BATCH2_U06_L1;

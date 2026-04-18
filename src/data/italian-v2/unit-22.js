@@ -300,7 +300,7 @@ const UNIT_22 = {
        opts:["A neorealist movie genre","A prestigious film festival award","A type of Italian cinema ticket","Rome's famous film studios"],
        ans:"Rome's famous film studios",
        hint:"Built in 1937 on the outskirts of the capital, it has hosted productions by Fellini, Zeffirelli, and many others. Often called 'the Hollywood on the Tiber.'"}
-    ]}
+    ,{type:"match",pairs:[{trg:"girare",src:"to shoot (a film) / to turn"}]}]}
   ]
 };
 export default UNIT_22;

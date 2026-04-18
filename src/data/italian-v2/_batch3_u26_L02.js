@@ -117,6 +117,6 @@ const BATCH3_L_2 = {
      opts:["Perche gli italiani litigano piu degli altri europei","Per la combinazione di alta litigiosita, scarsita di giudici e procedure complesse","Perche non esistono metodi alternativi di risoluzione delle dispute","Perche i tribunali italiani sono chiusi durante l'estate"],
      ans:"Per la combinazione di alta litigiosita, scarsita di giudici e procedure complesse",
      hint:"Multiple factors: many lawsuits filed, not enough judges, and complex procedures that slow everything down."}
-  ]
+  ,{type:"match",pairs:[{trg:"il codice civile",src:"the civil code"},{trg:"la proprieta",src:"the property / ownership"},{trg:"la presunzione di innocenza",src:"the presumption of innocence"},{trg:"la diffamazione",src:"the defamation / libel"},{trg:"il testimone",src:"the witness"}]}]
 };
 export default BATCH3_L_2;

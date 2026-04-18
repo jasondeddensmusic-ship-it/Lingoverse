@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u11l_b8_1", title:"Participi irregolari", icon:"🔀
  opts:["Separated waste collection (recycling)","Flower picking","Art collection","Selective memory"],
  ans:"Separated waste collection (recycling)",
  hint:"'Raccogliere' means to collect. Italy's r... system requires sorting w... into different bins."}
-]};
+,{type:"match",pairs:[{trg:"accadere",src:"to happen / to occur"},{trg:"scomparire",src:"to disappear / to vanish"},{trg:"rimanere",src:"to remain / to stay"},{trg:"spegnere",src:"to turn off / to extinguish"},{trg:"piangere",src:"to cry / to weep"}]}]};
 export default BATCH8_L1;

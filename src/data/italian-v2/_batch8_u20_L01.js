@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u20l_b8_1", title:"Scrivere all'universita", icon:"ð
  opts:["Study purse (a bag of money for education)","Study room","Study book","Study desk"],
  ans:"Study purse (a bag of money for education)",
  hint:"'Borsa' means purse or bag. The image is medieval: a patron providing money in a purse for a student."}
-]};
+,{type:"match",pairs:[{trg:"la ricerca",src:"the research"},{trg:"il tirocinio",src:"the internship"},{trg:"la borsa di studio",src:"the scholarship"}]},{type:"mc",q:"How do you say \"note\" in Italian?",opts:["la finestra","il tavolo","l'appunto","la bicicletta"],ans:"l'appunto",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

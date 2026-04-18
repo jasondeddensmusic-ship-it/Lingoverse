@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{
  {trg:"la dispensa", src:"course notes"},
  {trg:"la mensa", src:"cafeteria"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"iscriversi",src:"to enroll / to register"}]},{type:"mc",q:"How do you say \"exam period\" in Italian?",opts:["la sessione d'esami","la finestra","il tavolo","la bicicletta"],ans:"la sessione d'esami",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

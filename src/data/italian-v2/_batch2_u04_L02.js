@@ -136,6 +136,6 @@ const BATCH2_U04_L2 = {
      opts:["A bitter digestive liqueur","A type of coffee","A dessert","A salad"],
      ans:"A bitter digestive liqueur",
      hint:"Drunk after meals to aid digestion. Famous brands include Fernet-Branca and Averna. Intentionally b...."}
-  ]
+  ,{type:"match",pairs:[{trg:"la carta",src:"the card (credit/debit)"},{trg:"preferire",src:"to prefer"},{trg:"delizioso",src:"delicious"},{trg:"dolce",src:"sweet (taste)"},{trg:"amaro",src:"bitter"},{trg:"salato",src:"salty / savory"}]},{type:"match",pairs:[{trg:"abbastanza",src:"enough / quite"}]}]
 };
 export default BATCH2_U04_L2;

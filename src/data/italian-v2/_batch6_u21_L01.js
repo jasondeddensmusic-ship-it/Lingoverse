@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{27
  {trg:"rinunciare", src:"to give up"},
  {trg:"rimandare", src:"to postpone"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"bastare",src:"to be enough / to suffice"},{trg:"esagerare",src:"to exaggerate"},{trg:"accontentarsi",src:"to settle for / to be content with"},{trg:"giurare",src:"to swear / to vow"},{trg:"scommettere",src:"to bet"}]}]};
 export default BATCH6_L1;

@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u23l_b8_1", title:"Il sistema politico", icon:"ðŸ—³ï
  opts:["Italians voted to become a republic, abolishing the monarchy","Italy joined the EU","Women gained the right to vote","The constitution was written"],
  ans:"Italians voted to become a republic, abolishing the monarchy",
  hint:"This was the most important referendum in Italian history. The old form of government lost by about 54% to 46%, creating the current state."}
-]};
+,{type:"match",pairs:[{trg:"il parlamento",src:"the parliament"},{trg:"la scheda elettorale",src:"the ballot"},{trg:"la manifestazione",src:"the demonstration / protest"},{trg:"il dibattito",src:"the debate"},{trg:"il bilancio",src:"the budget / balance sheet"}]}]};
 export default BATCH8_L1;

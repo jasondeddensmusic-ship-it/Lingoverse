@@ -130,6 +130,6 @@ const BATCH3_U08_L2 = {
      opts:["Caro = new, economico = used","Caro = expensive, economico = inexpensive","They mean the same thing","Caro = small, economico = large"],
      ans:"Caro = expensive, economico = inexpensive",
      hint:"They are opposites on the price scale. 'C...' also means 'dear' (beloved). 'E...' is a false friend meaning cheap, not 'economic.'"}
-  ]
+  ,{type:"match",pairs:[{trg:"conveniente",src:"affordable / good value"},{trg:"la busta",src:"the bag / envelope"},{trg:"la fattura",src:"the invoice / formal receipt"},{trg:"incartare",src:"to wrap (a package)"}]}]
 };
 export default BATCH3_U08_L2;

@@ -118,6 +118,6 @@ const BATCH2_U14_L1 = {
      opts:["They mean completely different things","Tirocinio is formal Italian, stage is a French loanword for the same concept","Tirocinio is paid, stage is always unpaid","Stage is only for students, tirocinio is only for graduates"],
      ans:"Tirocinio is formal Italian, stage is a French loanword for the same concept",
      hint:"Both mean 'internship.' 'T...' is the proper I... word from Greek roots. 'S...' (pronounced 'stazh') comes from F...."}
-  ]
+  ,{type:"match",pairs:[{trg:"la retribuzione",src:"the pay / remuneration"},{trg:"il tirocinio",src:"the internship / traineeship"},{trg:"il beneficio aziendale",src:"the company benefit / perk"}]},{type:"mc",q:"How do you say \"agenda\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'ordine del giorno"],ans:"l'ordine del giorno",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U14_L1;

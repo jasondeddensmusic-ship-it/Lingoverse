@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u01l_b7_1", title:"Che tempo fa?", icon:"\u2601\uFE0
  {trg:"il temporale", src:"thunderstorm"},
  {trg:"la temperatura", src:"temperature"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"il vento",src:"the wind"},{trg:"la previsione",src:"the forecast"}]}]};
 export default BATCH7_L1;

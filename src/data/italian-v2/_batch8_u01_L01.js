@@ -102,5 +102,5 @@ const BATCH8_L1 = {id:"itv2_u01l_b8_1", title:"Signore e signora", icon:"🎩", 
  opts:["Congratulations!","I am sorry!","Excuse me!","Thank you!"],
  ans:"Congratulations!",
  hint:"It is related to the English word 'compliment' but used as an exclamation of praise."}
-]};
+,{type:"match",pairs:[{trg:"il signore",src:"the gentleman / Mr."},{trg:"accomodarsi",src:"to take a seat / make oneself comfortable"},{trg:"disturbare",src:"to disturb / to bother"},{trg:"augurare",src:"to wish"},{trg:"il complimento",src:"the compliment"}]}]};
 export default BATCH8_L1;

@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u19l_b7_1", title:"Interazioni sociali", icon:"\u{1F
  {trg:"il compromesso", src:"compromise"},
  {trg:"il pettegolezzo", src:"gossip"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"il consiglio",src:"the advice / council"},{trg:"il rancore",src:"resentment / grudge"}]},{type:"mc",q:"How do you say \"to agree\" in Italian?",opts:["la finestra","essere d'accordo","il tavolo","la bicicletta"],ans:"essere d'accordo",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

@@ -24,4 +24,4 @@ const BATCH5_L_1={id:"itv2_u33l_b5_1",title:"Filosofia occidentale",icon:"\u{1F4
 {type:"mc",q:"Chi scrisse 'La citta del Sole', la piu famosa utopia italiana?",opts:["Tommaso Campanella","Niccolo Machiavelli","Galileo Galilei","Giordano Bruno"],ans:"Tommaso Campanella",hint:"Written in a Neapolitan prison in 1602. An imagined ideal society."},
 {type:"fb",s:"Cesare Beccaria applico il {1} alla giustizia penale nel 1764.",a:["contrattualismo"],opts:["contrattualismo","solipsismo","olismo","decostruzionismo"],hint:"Social contract theory applied to crime and punishment. Influenced the world.",sSrc:"Cesare Beccaria applied {1} to criminal justice in 1764."},
 {type:"mc",q:"Cos'e il 'pensiero debole'?",opts:["Una filosofia postmoderna che rifiuta le verita assolute","Un pensiero poco sviluppato","Un tipo di meditazione","Una critica alla scienza"],ans:"Una filosofia postmoderna che rifiuta le verita assolute",hint:"Gianni Vattimo's concept (1983). Preferring multiple perspectives to absolute truths."},
-]};export default BATCH5_L_1;
+{type:"match",pairs:[{trg:"la maieutica",src:"maieutics (Socratic method)"}]}]};export default BATCH5_L_1;

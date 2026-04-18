@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u36l_b7_1", title:"Strategie per l'esame CILS B2", i
  {trg:"tenendo conto di", src:"taking into account"},
  {trg:"e opportuno che", src:"it is advisable that"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"a condizione che",src:"provided that / on condition that"},{trg:"e indubbio che",src:"it is undeniable that"},{trg:"si auspica che",src:"it is hoped that"}]}]};
 export default BATCH7_L1;

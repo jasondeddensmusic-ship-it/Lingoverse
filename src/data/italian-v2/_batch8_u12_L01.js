@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u12l_b8_1", title:"Movimenti e cambiamenti", icon:"ð
  opts:["Essere","Avere","Both equally","Neither"],
  ans:"Essere",
  hint:"These are state-change verbs. The subject changes state (gets better or worse), so they use the auxiliary for being."}
-]};
+,{type:"match",pairs:[{trg:"sorgere",src:"to rise / to arise"},{trg:"emigrare",src:"to emigrate"},{trg:"evaporare",src:"to evaporate"},{trg:"maturare",src:"to ripen / to mature"},{trg:"invecchiare",src:"to age / to grow old"}]}]};
 export default BATCH8_L1;

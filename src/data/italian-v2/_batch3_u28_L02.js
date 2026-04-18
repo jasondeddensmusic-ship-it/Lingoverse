@@ -117,6 +117,6 @@ const BATCH3_L_2 = {
      opts:["Perche l'autore ha denunciato l'editore per mancata pubblicazione","Perche i principali editori lo rifiutarono e divenne un capolavoro solo dopo la morte dell'autore","Perche l'autore lo pubblico a proprie spese e vinse il Nobel","Perche fu il primo romanzo italiano tradotto in giapponese"],
      ans:"Perche i principali editori lo rifiutarono e divenne un capolavoro solo dopo la morte dell'autore",
      hint:"Major publishers rejected it. Published after the author died, it became one of Italy's greatest novels. A cautionary tale for editors."}
-  ]
+  ,{type:"match",pairs:[{trg:"la casa editrice",src:"the publishing house"},{trg:"il premio letterario",src:"the literary prize"},{trg:"la ristampa",src:"the reprint"},{trg:"il bestseller",src:"the bestseller"},{trg:"la libreria",src:"the bookshop"},{trg:"la prefazione",src:"the preface / foreword"}]},{type:"mc",q:"How do you say \"anthology\" in Italian?",opts:["la finestra","l'antologia","il tavolo","la bicicletta"],ans:"l'antologia",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_2;

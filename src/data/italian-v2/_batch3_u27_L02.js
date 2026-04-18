@@ -117,6 +117,6 @@ const BATCH3_L_2 = {
      opts:["Ha causato una crisi energetica perche non funzionavano le pale eoliche","Ha colpito il fiume Po e le risaie del nord, minacciando la produzione di riso","Ha provocato un referendum sul nucleare come fonte alternativa","Ha costretto il governo a importare acqua dalla Francia"],
      ans:"Ha colpito il fiume Po e le risaie del nord, minacciando la produzione di riso",
      hint:"Italy's longest river nearly dried up, threatening the rice paddies that produce most of Europe's risotto rice."}
-  ]
+  ,{type:"match",pairs:[{trg:"la gravita",src:"gravity"},{trg:"la materia",src:"matter"},{trg:"il clima",src:"the climate"},{trg:"la velocita",src:"velocity / speed"},{trg:"il riciclaggio",src:"the recycling"},{trg:"la temperatura",src:"the temperature"}]},{type:"match",pairs:[{trg:"il riscaldamento globale",src:"global warming"}]}]
 };
 export default BATCH3_L_2;

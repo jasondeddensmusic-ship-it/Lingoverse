@@ -133,6 +133,6 @@ const BATCH4_U08_L1 = {
      opts:["A feared cold draft that Italians protect against with scarves","A fashion trend","A type of fabric","A summer breeze"],
      ans:"A feared cold draft that Italians protect against with scarves",
      hint:"Italian mothers are especially concerned about this invisible health threat."}
-  ]
+  ,{type:"match",pairs:[{trg:"la borsa",src:"the bag / purse"},{trg:"la cintura",src:"the belt"},{trg:"gli occhiali",src:"glasses / eyeglasses"}]},{type:"mc",q:"How do you say \"ring\" in Italian?",opts:["la finestra","il tavolo","l'anello","la bicicletta"],ans:"l'anello",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"watch / clock\" in Italian?",opts:["la finestra","l'orologio","il tavolo","la bicicletta"],ans:"l'orologio",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH4_U08_L1;

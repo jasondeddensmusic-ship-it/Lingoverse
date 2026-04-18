@@ -118,6 +118,6 @@ const BATCH3_U23_L1 = {
      opts:["Lombardia and Veneto","Toscana and Lazio","Sicilia, Sardegna, Trentino-Alto Adige, Valle d'Aosta, Friuli VG","Campania and Puglia"],
      ans:"Sicilia, Sardegna, Trentino-Alto Adige, Valle d'Aosta, Friuli VG",
      hint:"Five regions have greater self-governance due to geography, language minorities, or historical agreements. Islands and border regions predominate."}
-  ]
+  ,{type:"match",pairs:[{trg:"il presidente della Repubblica",src:"the President of the Republic"},{trg:"il primo ministro",src:"the prime minister"},{trg:"la tassa",src:"the tax"},{trg:"il welfare",src:"the welfare (state)"}]}]
 };
 export default BATCH3_U23_L1;

@@ -124,6 +124,6 @@ const BATCH3_U19_L2 = {
      opts:["To always agree with adults","To show respect, especially to elders and family","To never speak in public","To avoid all arguments"],
      ans:"To show respect, especially to elders and family",
      hint:"R... is a cornerstone of Italian upbringing. 'Con tutto il rispetto' politely precedes any disagreement."}
-  ]
+  ,{type:"match",pairs:[{trg:"la comprensione",src:"the understanding / comprehension"},{trg:"la pazienza",src:"the patience"},{trg:"litigare",src:"to argue / to quarrel"},{trg:"la convivenza",src:"the cohabitation / living together"}]}]
 };
 export default BATCH3_U19_L2;

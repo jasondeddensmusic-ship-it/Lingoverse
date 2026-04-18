@@ -139,6 +139,6 @@ const BATCH4_U04_L2 = {
      opts:["Economico","Caro","Gratis","A buon mercato"],
      ans:"Economico",
      hint:"This word implies good value without suggesting low quality."}
-  ]
+  ,{type:"match",pairs:[{trg:"il resto",src:"the change"},{trg:"la carta di credito",src:"the credit card"},{trg:"i contanti",src:"cash"},{trg:"costare",src:"to cost"},{trg:"il prezzo",src:"the price"},{trg:"offrire",src:"to treat / to offer (to pay for someone)"}]}]
 };
 export default BATCH4_U04_L2;

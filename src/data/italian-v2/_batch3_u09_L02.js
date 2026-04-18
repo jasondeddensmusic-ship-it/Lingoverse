@@ -130,6 +130,6 @@ const BATCH3_U09_L2 = {
      opts:["Yes, insurance is always required first","No, they treat everyone and bill later","Only EU citizens receive any treatment","Only children are treated without insurance"],
      ans:"No, they treat everyone and bill later",
      hint:"Italian ERs provide care to all people regardless of insurance or nationality. Billing is handled afterward."}
-  ]
+  ,{type:"match",pairs:[{trg:"svenire",src:"to faint / to pass out"},{trg:"la bruciatura",src:"the burn"},{trg:"respirare",src:"to breathe"},{trg:"cadere",src:"to fall"},{trg:"la stampella",src:"the crutch"}]},{type:"mc",q:"How do you say \"ambulance\" in Italian?",opts:["la finestra","il tavolo","l'ambulanza","la bicicletta"],ans:"l'ambulanza",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"insurance\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'assicurazione"],ans:"l'assicurazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_U09_L2;

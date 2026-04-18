@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u12l_b7_1", title:"Feste e tradizioni", icon:"\u{1F3
  {trg:"lo scherzo", src:"joke/prank"},
  {trg:"il patrono", src:"patron saint"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"il Ferragosto",src:"August holiday (Aug 15)"},{trg:"la processione",src:"the procession"},{trg:"i coriandoli",src:"confetti (paper)"},{trg:"il brindisi di mezzanotte",src:"midnight toast"}]},{type:"mc",q:"How do you say \"firework\" in Italian?",opts:["la finestra","il tavolo","il fuoco d'artificio","la bicicletta"],ans:"il fuoco d'artificio",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

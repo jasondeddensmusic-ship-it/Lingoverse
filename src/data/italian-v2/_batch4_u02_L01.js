@@ -133,6 +133,6 @@ const BATCH4_U02_L1 = {
      opts:["Was the 7th month in the Roman calendar","Has seven letters","Was dedicated to a senator","Means harvest month"],
      ans:"Was the 7th month in the Roman calendar",
      hint:"The prefix 'sette' in Italian means seven, from Latin 'septem.'"}
-  ]
+  ,{type:"match",pairs:[{trg:"febbraio",src:"February"},{trg:"maggio",src:"May"},{trg:"settembre",src:"September"},{trg:"la data",src:"the date"}]}]
 };
 export default BATCH4_U02_L1;

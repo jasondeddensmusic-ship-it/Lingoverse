@@ -109,5 +109,5 @@ const BATCH6_L1 = {id:"itv2_u31l_b6_1", title:"Il giornalismo", icon:"\u{1F4F0}"
  {trg:"la diffamazione", src:"defamation"},
  {trg:"l'imparzialita", src:"impartiality"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"smentire",src:"to deny / to debunk"}]}]};
 export default BATCH6_L1;

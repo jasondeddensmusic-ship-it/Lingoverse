@@ -136,6 +136,6 @@ const BATCH2_U03_L1 = {
      opts:["Vivere = live (exist), abitare = reside (address)","They are identical","Vivere is formal only","Abitare means to work"],
      ans:"Vivere = live (exist), abitare = reside (address)",
      hint:"One asks about your life in general, the other specifically about where you r.... Both translate to 'l....'"}
-  ]
+  ,{type:"match",pairs:[{trg:"il/la gemello/a",src:"the twin"}]},{type:"mc",q:"How do you say \"age\" in Italian?",opts:["la finestra","l'eta","il tavolo","la bicicletta"],ans:"l'eta",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"adult\" in Italian?",opts:["l'adulto","la finestra","il tavolo","la bicicletta"],ans:"l'adulto",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U03_L1;

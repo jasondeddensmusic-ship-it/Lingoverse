@@ -139,6 +139,6 @@ const BATCH4_U09_L1 = {
      opts:["Sentire means to hear/sense; sentirsi means to feel a personal state","They mean the same thing","Sentire is formal; sentirsi is informal","Sentirsi is past tense of sentire"],
      ans:"Sentire means to hear/sense; sentirsi means to feel a personal state",
      hint:"The reflexive form changes the meaning from external sensing to internal feeling."}
-  ]
+  ,{type:"match",pairs:[{trg:"dormire",src:"to sleep"},{trg:"la ricetta medica",src:"the prescription"},{trg:"guarire",src:"to heal / to recover"},{trg:"stare bene",src:"to feel well / to be fine"}]}]
 };
 export default BATCH4_U09_L1;

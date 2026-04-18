@@ -139,6 +139,6 @@ const BATCH4_U05_L2 = {
      opts:["Sorted waste collection / recycling system","A type of Italian cooking","A museum collection","A traditional card game"],
      ans:"Sorted waste collection / recycling system",
      hint:"Italian cities require separating trash into different bins for r...."}
-  ]
+  ,{type:"match",pairs:[{trg:"il bucato",src:"the laundry"},{trg:"la lavatrice",src:"the washing machine"},{trg:"pulito",src:"clean"},{trg:"ordinato",src:"tidy / organized"},{trg:"la spazzatura",src:"the garbage / trash"},{trg:"sistemare",src:"to tidy up / to fix / to arrange"}]},{type:"mc",q:"How do you say \"vacuum cleaner\" in Italian?",opts:["l'aspirapolvere","la finestra","il tavolo","la bicicletta"],ans:"l'aspirapolvere",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH4_U05_L2;

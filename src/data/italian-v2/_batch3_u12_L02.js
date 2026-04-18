@@ -124,6 +124,6 @@ const BATCH3_U12_L2 = {
      opts:["Beautiful!","Enough! / Stop!","Help!","Please!"],
      ans:"Enough! / Stop!",
      hint:"One of Italian's most powerful single words. Parents, teachers, and anyone who has had e... uses this constantly."}
-  ]
+  ,{type:"match",pairs:[{trg:"piacere",src:"to be pleasing / to like"},{trg:"bastare",src:"to be enough / to suffice"},{trg:"sembrare",src:"to seem / to appear"},{trg:"durare",src:"to last"},{trg:"costare",src:"to cost"},{trg:"dispiacere",src:"to be sorry / to displease"}]},{type:"match",pairs:[{trg:"mancare",src:"to be missing / to miss (someone)"}]}]
 };
 export default BATCH3_U12_L2;

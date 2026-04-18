@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u15l_b7_1", title:"Il quartiere", icon:"\u{1F3D8}\uF
  {trg:"il parco giochi", src:"playground"},
  {trg:"il distributore", src:"gas station"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la raccolta differenziata",src:"recycling / waste sorting"},{trg:"il vialetto",src:"the path / driveway"}]}]};
 export default BATCH7_L1;

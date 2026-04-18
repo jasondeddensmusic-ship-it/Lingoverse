@@ -111,6 +111,6 @@ const BATCH3_L_1 = {
      opts:["Per vietare l'uso dell'IA nelle chiese cattoliche di tutto il mondo","Per promuovere la vendita di prodotti tecnologici benedetti dal Papa","Per riflettere la posizione unica dell'Italia dove innovazione tecnologica e tradizione morale si incontrano","Per richiedere che tutti i robot vengano battezzati prima dell'uso"],
      ans:"Per riflettere la posizione unica dell'Italia dove innovazione tecnologica e tradizione morale si incontrano",
      hint:"Italy sits at a unique crossroads: cutting-edge technology meets centuries of moral philosophy. The Vatican's involvement reflects this distinctive cultural context."}
-  ]
+  ,{type:"match",pairs:[{trg:"il bias algoritmico",src:"algorithmic bias"},{trg:"la trasparenza",src:"transparency"},{trg:"la robotica",src:"robotics"}]},{type:"mc",q:"How do you say \"Internet of Things\" in Italian?",opts:["l'internet delle cose","la finestra","il tavolo","la bicicletta"],ans:"l'internet delle cose",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"planned obsolescence\" in Italian?",opts:["la finestra","il tavolo","l'obsolescenza programmata","la bicicletta"],ans:"l'obsolescenza programmata",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_1;

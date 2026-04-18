@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u08l_b8_1", title:"Tessuti e materiali", icon:"🧵"
  opts:["To sew","To cut","To wash","To iron"],
  ans:"To sew",
  hint:"You need a needle and thread for this activity. Grandmothers traditionally taught this skill."}
-]};
+,{type:"match",pairs:[{trg:"il tessuto",src:"the fabric / textile"},{trg:"cucire",src:"to sew"},{trg:"lo sconto",src:"the discount"},{trg:"il camerino",src:"the fitting room"}]}]};
 export default BATCH8_L1;

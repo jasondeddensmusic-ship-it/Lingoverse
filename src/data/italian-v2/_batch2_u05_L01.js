@@ -136,6 +136,6 @@ const BATCH2_U05_L1 = {
      opts:["About 70%","About 30%","About 50%","About 90%"],
      ans:"About 70%",
      hint:"One of the highest home ownership rates in Europe. Renting is common for young people in cities."}
-  ]
+  ,{type:"match",pairs:[{trg:"comodo",src:"comfortable / convenient"},{trg:"spazioso",src:"spacious"},{trg:"nuovo",src:"new"}]}]
 };
 export default BATCH2_U05_L1;

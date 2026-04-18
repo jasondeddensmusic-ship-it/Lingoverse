@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u24l_b6_1", title:"Rimpianti e occasioni mancate", i
  {trg:"pentirsi", src:"to repent"},
  {trg:"rassegnarsi", src:"to resign oneself"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"rimpiangere",src:"to regret / to miss deeply"},{trg:"ormai",src:"by now / at this point"},{trg:"riscattarsi",src:"to redeem oneself / to make amends"}]}]};
 export default BATCH6_L1;

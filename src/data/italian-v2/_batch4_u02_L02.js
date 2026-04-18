@@ -139,6 +139,6 @@ const BATCH4_U02_L2 = {
      opts:["Sometimes","Never","Always","Every day"],
      ans:"Sometimes",
      hint:"It sits between 'spesso' (often) and 'raramente' (rarely) in frequency."}
-  ]
+  ,{type:"match",pairs:[{trg:"il pomeriggio",src:"the afternoon"},{trg:"presto",src:"early / soon"},{trg:"spesso",src:"often"},{trg:"qualche volta",src:"sometimes"}]}]
 };
 export default BATCH4_U02_L2;

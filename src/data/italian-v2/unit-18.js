@@ -318,7 +318,7 @@ const UNIT_18 = {
        opts:["A government recycling symbol","A biometric fingerprint scan","An eco-friendly product stamp","A measure of environmental impact per person"],
        ans:"A measure of environmental impact per person",
        hint:"'Impronta' means any kind of mark or print. 'Ecologica' points to the natural world. It quantifies how much of the planet you consume."}
-    ]}
+    ,{type:"match",pairs:[{trg:"ridurre",src:"to reduce"}]}]}
   ]
 };
 export default UNIT_18;

@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u06l_b7_1", title:"Sport e tempo libero", icon:"\u26
  {trg:"la bicicletta", src:"bicycle"},
  {trg:"la partita", src:"match"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"nuotare",src:"to swim"},{trg:"correre",src:"to run"},{trg:"il tifoso",src:"the fan / supporter"}]}]};
 export default BATCH7_L1;

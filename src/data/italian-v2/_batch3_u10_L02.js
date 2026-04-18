@@ -124,6 +124,6 @@ const BATCH3_U10_L2 = {
      opts:["To collect taxes on tours","To ensure quality and historical accuracy","To limit the number of tourists","To protect hotel businesses"],
      ans:"To ensure quality and historical accuracy",
      hint:"Guides pass city-specific state exams. The profession is protected to guarantee visitors receive reliable, accurate information about Italy's rich heritage."}
-  ]
+  ,{type:"match",pairs:[{trg:"la torre",src:"the tower"},{trg:"la mappa",src:"the map"},{trg:"la cartolina",src:"the postcard"},{trg:"il souvenir",src:"the souvenir"},{trg:"il tramonto",src:"the sunset"}]}]
 };
 export default BATCH3_U10_L2;

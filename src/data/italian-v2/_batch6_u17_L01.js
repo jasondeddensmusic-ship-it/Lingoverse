@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u17l_b6_1", title:"La vita digitale", icon:"\u{1F4F1
  {trg:"la notifica", src:"notification"},
  {trg:"il motore di ricerca", src:"search engine"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"il collegamento",src:"the connection / link"},{trg:"la privacy",src:"the privacy"}]}]};
 export default BATCH6_L1;

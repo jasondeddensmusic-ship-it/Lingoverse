@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u16l_b8_1", title:"Salute mentale", icon:"🧘", xp:
  opts:["A skin rash or breakout","A vacation","A deep sleep","A type of exercise"],
  ans:"A skin rash or breakout",
  hint:"Italians believe that stress manifests physically. The same word for emotional release also describes a s... condition."}
-]};
+,{type:"match",pairs:[{trg:"sfogare",src:"to vent / to let out"},{trg:"la meditazione",src:"the meditation"}]}]};
 export default BATCH8_L1;

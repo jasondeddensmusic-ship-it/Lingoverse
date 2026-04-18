@@ -139,6 +139,6 @@ const BATCH4_U10_L1 = {
      opts:["It changes gender: il lenzuolo becomes le lenzuola","It stays the same: i lenzuoli","It adds -i: i lenzuoli","There is no plural form"],
      ans:"It changes gender: il lenzuolo becomes le lenzuola",
      hint:"This is one of Italian's rare g...-switching plurals."}
-  ]
+  ,{type:"match",pairs:[{trg:"la camera",src:"the room (hotel)"}]}]
 };
 export default BATCH4_U10_L1;

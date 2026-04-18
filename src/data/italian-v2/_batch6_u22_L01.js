@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u22l_b6_1", title:"Proverbi e modi di dire", icon:"\
  {trg:"chi va piano va lontano", src:"slow and steady wins"},
  {trg:"a caval donato...", src:"don't look a gift horse..."}
 ]}
-]};
+,{type:"match",pairs:[{trg:"non tutte le ciambelle riescono col buco",src:"not everything goes as planned"},{trg:"a caval donato non si guarda in bocca",src:"do not look a gift horse in the mouth"},{trg:"chi va piano va sano e va lontano",src:"slow and steady wins the race"}]},{type:"mc",q:"How do you say \"easier said than done\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","tra il dire e il fare c'e di mezzo il mare"],ans:"tra il dire e il fare c'e di mezzo il mare",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH6_L1;

@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u14l_b6_1", title:"La vita in ufficio", icon:"\u{1F4
  {trg:"promuovere", src:"to promote"},
  {trg:"lo sciopero", src:"strike"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la fotocopiatrice",src:"the photocopier"},{trg:"il fascicolo",src:"the dossier / folder"},{trg:"il sindacato",src:"the trade union"}]}]};
 export default BATCH6_L1;

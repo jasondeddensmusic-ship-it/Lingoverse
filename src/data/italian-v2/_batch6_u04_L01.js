@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u04l_b6_1", title:"La colazione al bar", icon:"\u{1F
  {trg:"la cassa", src:"cash register"},
  {trg:"il cucchiaino", src:"teaspoon"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la marmellata",src:"the jam / marmalade"},{trg:"inzuppare",src:"to dunk / to dip"},{trg:"il vassoio",src:"the tray"}]}]};
 export default BATCH6_L1;

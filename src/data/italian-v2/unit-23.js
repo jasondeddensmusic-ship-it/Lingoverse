@@ -300,7 +300,7 @@ const UNIT_23 = {
        opts:["A government press office","A traditional type of pasta shape","An old manual printing technique","The name of a major Turin newspaper (since 1867)"],
        ans:"The name of a major Turin newspaper (since 1867)",
        hint:"One of Italy's oldest and most respected dailies, founded in Piedmont's capital, shares its masthead with the Italian word for 'the press.'"}
-    ]}
+    ,{type:"match",pairs:[{trg:"votare",src:"to vote"},{trg:"informarsi",src:"to inform oneself / to stay informed"}]}]}
   ]
 };
 export default UNIT_23;

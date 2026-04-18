@@ -139,6 +139,6 @@ const BATCH4_U08_L2 = {
      opts:["Dire 'Buongiorno!' al commesso","Entrare in silenzio","Aspettare che il commesso parli","Toccare i vestiti immediatamente"],
      ans:"Dire 'Buongiorno!' al commesso",
      hint:"Greeting the shop assistant is basic Italian etiquette when entering a store."}
-  ]
+  ,{type:"match",pairs:[{trg:"il difetto",src:"the defect / flaw"},{trg:"rotto",src:"broken"},{trg:"stretto",src:"tight / narrow"},{trg:"largo",src:"wide / loose / big"},{trg:"il bottone",src:"the button"},{trg:"soddisfatto",src:"satisfied / happy (with purchase)"}]},{type:"match",pairs:[{trg:"lamentarsi",src:"to complain"},{trg:"accontentarsi",src:"to be satisfied with / to settle for"},{trg:"il commesso",src:"the shop assistant"}]}]
 };
 export default BATCH4_U08_L2;

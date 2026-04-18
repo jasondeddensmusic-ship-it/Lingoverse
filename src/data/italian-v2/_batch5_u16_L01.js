@@ -24,4 +24,4 @@ const BATCH5_L_1={id:"itv2_u16l_b5_1",title:"Salute mentale e benessere",icon:"\
 {type:"mc",q:"Quale legge ha chiuso i manicomi in Italia?",opts:["La legge Basaglia","La legge Merlin","La legge Fornero","La legge Biagi"],ans:"La legge Basaglia",hint:"Named after psychiatrist Franco B..., this 1978 law revolutionized mental health care."},
 {type:"fb",s:"La {1} affettiva puo essere trattata con la psicoterapia.",a:["dipendenza"],opts:["dipendenza","resilienza","mindfulness","depressione"],hint:"Unhealthy emotional attachment patterns. A growing topic in Italian psychology.",sSrc:"Emotional {1} can be treated with psychotherapy."},
 {type:"mc",q:"Cosa significa 'percorso terapeutico'?",opts:["L'intero cammino della terapia","Una singola seduta","Un farmaco specifico","Un test diagnostico"],ans:"L'intero cammino della terapia",hint:"Italians use the word 'path' to describe the full journey of therapy from start to completion."},
-]};export default BATCH5_L_1;
+{type:"match",pairs:[{trg:"la depressione post-partum",src:"postpartum depression"}]}]};export default BATCH5_L_1;

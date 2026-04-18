@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u26l_b6_1", title:"I diritti civili", icon:"\u{1F4DC
  {trg:"l'immunita", src:"immunity"},
  {trg:"la normativa", src:"regulation"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la giurisprudenza",src:"the jurisprudence / case law"}]}]};
 export default BATCH6_L1;

@@ -129,6 +129,6 @@ const BATCH3_L_2 = {
      opts:["Conoscere perfettamente tutte le regole grammaticali senza eccezione","Saper comunicare efficacemente adattando il registro al contesto","Avere un accento identico a quello di un madrelingua italiano","Memorizzare il maggior numero possibile di vocaboli specialistici"],
      ans:"Saper comunicare efficacemente adattando il registro al contesto",
      hint:"At B2, effective communication with appropriate register is the gold standard. Perfect grammar or native accent are not required. Adaptability is key."}
-  ]
+  ,{type:"match",pairs:[{trg:"il discorso",src:"the speech / address"},{trg:"il gesto",src:"the gesture"},{trg:"il dibattito",src:"the debate"},{trg:"a mio parere",src:"in my opinion (formal)"},{trg:"il proverbio",src:"the proverb / saying"},{trg:"in definitiva",src:"ultimately / when all is said and done"}]},{type:"mc",q:"How do you say \"I agree, but / granted, however\" in Italian?",opts:["d'accordo, pero","la finestra","il tavolo","la bicicletta"],ans:"d'accordo, pero",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_2;

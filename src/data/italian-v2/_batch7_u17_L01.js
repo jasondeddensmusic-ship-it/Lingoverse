@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u17l_b7_1", title:"Lo shopping online", icon:"\u{1F4
  {trg:"la garanzia", src:"warranty"},
  {trg:"il codice sconto", src:"discount code"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la spedizione",src:"the shipping"},{trg:"la recensione",src:"the review"}]}]};
 export default BATCH7_L1;

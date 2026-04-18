@@ -139,6 +139,6 @@ const BATCH4_U11_L2 = {
      opts:["Said and done (accomplished instantly)","He said something","The fact was told","A famous saying"],
      ans:"Said and done (accomplished instantly)",
      hint:"This expression combines two past participles to mean quick accomplishment."}
-  ]
+  ,{type:"match",pairs:[{trg:"aprire / aperto",src:"to open / opened, open"},{trg:"chiudere / chiuso",src:"to close / closed"},{trg:"perdere / perso",src:"to lose / lost"},{trg:"spendere / speso",src:"to spend (money) / spent"},{trg:"rispondere / risposto",src:"to answer / answered"},{trg:"scegliere / scelto",src:"to choose / chosen"}]},{type:"match",pairs:[{trg:"conoscere / conosciuto",src:"to know (person) / known, met"}]}]
 };
 export default BATCH4_U11_L2;

@@ -139,6 +139,6 @@ const BATCH4_U11_L1 = {
      opts:["A little while ago","A little later","A little bit","A few days"],
      ans:"A little while ago",
      hint:"'Poco' means 'a l...' and 'fa' means 'a...' in time expressions."}
-  ]
+  ,{type:"match",pairs:[{trg:"la settimana scorsa",src:"last week"},{trg:"ancora",src:"still / yet / again"},{trg:"appena",src:"just (now) / barely"},{trg:"succedere",src:"to happen / to occur"},{trg:"dimenticare",src:"to forget"},{trg:"raccontare",src:"to tell / to narrate"}]},{type:"mc",q:"How do you say \"last time\" in Italian?",opts:["la finestra","l'ultima volta","il tavolo","la bicicletta"],ans:"l'ultima volta",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"experience\" in Italian?",opts:["la finestra","l'esperienza","il tavolo","la bicicletta"],ans:"l'esperienza",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH4_U11_L1;

@@ -124,6 +124,6 @@ const BATCH3_U20_L2 = {
      opts:["A failing grade with a warning","A perfectly average result","The maximum achievable score with honors","A grade only professors can give themselves"],
      ans:"The maximum achievable score with honors",
      hint:"30 is already the top mark. Adding 'lode' (praise/h...) makes it the ultimate achievement. Students celebrate enthusiastically when they earn one."}
-  ]
+  ,{type:"mc",q:"How do you say \"exam period\" in Italian?",opts:["la sessione d'esami","la finestra","il tavolo","la bicicletta"],ans:"la sessione d'esami",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_U20_L2;

@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u25l_b6_1", title:"Il commercio internazionale", ico
  {trg:"la filiale", src:"branch office"},
  {trg:"il marchio", src:"brand"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la quotazione",src:"the stock price / listing"},{trg:"la burocrazia",src:"the bureaucracy / red tape"}]}]};
 export default BATCH6_L1;

@@ -133,6 +133,6 @@ const BATCH4_U01_L2 = {
      opts:["Buongiorno greets; buona giornata wishes a nice day ahead","They mean the same thing","Buona giornata is informal; buongiorno is formal","Buongiorno is for morning; buona giornata is for evening"],
      ans:"Buongiorno greets; buona giornata wishes a nice day ahead",
      hint:"One is for arriving, the other is for parting. Think about giorno vs g...."}
-  ]
+  ,{type:"match",pairs:[{trg:"grazie mille",src:"thanks a lot / a thousand thanks"},{trg:"scusa",src:"sorry / excuse me (informal)"}]}]
 };
 export default BATCH4_U01_L2;

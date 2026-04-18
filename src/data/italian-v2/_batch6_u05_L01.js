@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u05l_b6_1", title:"Le faccende domestiche", icon:"\u
  {trg:"la polvere", src:"dust"},
  {trg:"le faccende", src:"chores"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"lavare i piatti",src:"to wash the dishes"},{trg:"riordinare",src:"to tidy up / to put in order"}]}]};
 export default BATCH6_L1;

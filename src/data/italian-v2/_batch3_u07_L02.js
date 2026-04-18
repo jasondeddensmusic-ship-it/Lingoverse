@@ -130,6 +130,6 @@ const BATCH3_U07_L2 = {
      opts:["Toscana (Tuscany)","Calabria","Veneto","Lombardia (Lombardy)"],
      ans:"Calabria",
      hint:"This southern region hosts a chili pepper festival in Diamante. Their famous 'nduja sausage gets its intense heat from local peppers."}
-  ]
+  ,{type:"match",pairs:[{trg:"digerire",src:"to digest"}]}]
 };
 export default BATCH3_U07_L2;

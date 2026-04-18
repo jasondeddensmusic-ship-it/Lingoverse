@@ -139,6 +139,6 @@ const BATCH4_U07_L2 = {
      opts:["A digestif liqueur after coffee","A very strong coffee","A coffee-flavored cake","A coffee substitute"],
      ans:"A digestif liqueur after coffee",
      hint:"Literally 'c... killer,' this drink aids digestion a... a heavy meal."}
-  ]
+  ,{type:"match",pairs:[{trg:"il glutine",src:"gluten"},{trg:"il lattosio",src:"lactose"},{trg:"le arachidi",src:"peanuts"},{trg:"il grano",src:"wheat / grain"},{trg:"contenere",src:"to contain"},{trg:"fresco",src:"fresh"}]},{type:"match",pairs:[{trg:"digerire",src:"to digest"}]},{type:"mc",q:"How do you say \"allergy\" in Italian?",opts:["l'allergia","la finestra","il tavolo","la bicicletta"],ans:"l'allergia",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH4_U07_L2;

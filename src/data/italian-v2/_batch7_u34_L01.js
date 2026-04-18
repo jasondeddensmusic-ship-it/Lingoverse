@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u34l_b7_1", title:"L'Italia e l'Unione Europea", ico
  {trg:"la cooperazione", src:"cooperation"},
  {trg:"il sussidio", src:"subsidy"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la Commissione Europea",src:"the European Commission"},{trg:"la moneta unica",src:"the single currency"},{trg:"il fondo europeo",src:"the European fund"},{trg:"ratificare",src:"to ratify"}]},{type:"mc",q:"How do you say \"European Union\" in Italian?",opts:["la finestra","il tavolo","l'Unione Europea","la bicicletta"],ans:"l'Unione Europea",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

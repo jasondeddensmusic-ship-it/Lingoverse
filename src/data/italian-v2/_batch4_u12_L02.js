@@ -139,6 +139,6 @@ const BATCH4_U12_L2 = {
      opts:["To crown oneself with laurel, referring to the ancient graduation wreath","To learn quickly","To leave university","To study hard"],
      ans:"To crown oneself with laurel, referring to the ancient graduation wreath",
      hint:"Italian graduates still wear l... wreaths, continuing a Roman tradition."}
-  ]
+  ,{type:"match",pairs:[{trg:"svegliarsi / svegliato",src:"to wake up / woken up"},{trg:"lavarsi / lavato",src:"to wash oneself / washed"},{trg:"prepararsi / preparato",src:"to get ready / gotten ready"},{trg:"arrabbiarsi / arrabbiato",src:"to get angry / gotten angry"},{trg:"sentirsi / sentito",src:"to feel / felt"},{trg:"addormentarsi / addormentato",src:"to fall asleep / fallen asleep"}]},{type:"match",pairs:[{trg:"sposarsi / sposato",src:"to get married / married"},{trg:"trasferirsi / trasferito",src:"to move (relocate) / moved"},{trg:"abituarsi / abituato",src:"to get used to / used to"}]}]
 };
 export default BATCH4_U12_L2;

@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u09l_b6_1", title:"In farmacia e dal dottore", icon:
  {trg:"la ferita", src:"wound"},
  {trg:"il termometro", src:"thermometer"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la farmacia",src:"the pharmacy"},{trg:"il medico di base",src:"the family doctor / GP"}]}]};
 export default BATCH6_L1;

@@ -124,6 +124,6 @@ const BATCH3_U24_L1 = {
      opts:["If you do not pay","If you do not mind / if it does not displease you","If you are not busy","If you can come"],
      ans:"If you do not mind / if it does not displease you",
      hint:"A politeness formula that acknowledges the other person's comfort before making a request. Essential for smooth Italian interactions."}
-  ]
+  ,{type:"match",pairs:[{trg:"se non ti dispiace",src:"if you do not mind"},{trg:"se solo avessi",src:"if only I had"},{trg:"nel peggiore dei casi",src:"in the worst case"},{trg:"figurati se",src:"as if / there is no way that"}]}]
 };
 export default BATCH3_U24_L1;

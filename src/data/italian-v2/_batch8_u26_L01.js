@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u26l_b8_1", title:"Diritti e doveri", icon:"📜", x
  opts:["The extreme slowness of proceedings","Too few courts","Too many judges","Not enough laws"],
  ans:"The extreme slowness of proceedings",
  hint:"Cases can take years or even decades through the multi-level appeal system. 'Lentezza della giustizia' is a famous phrase."}
-]};
+,{type:"match",pairs:[{trg:"la Costituzione",src:"the Constitution"},{trg:"la pena",src:"the penalty / punishment"}]}]};
 export default BATCH8_L1;

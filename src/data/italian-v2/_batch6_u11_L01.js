@@ -137,5 +137,5 @@ const BATCH6_L1 = {id:"itv2_u11l_b6_1", title:"Participi irregolari", icon:"\u{1
  {trg:"stretto", src:"tightened"},
  {trg:"vinto", src:"won"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"spingere",src:"to push"},{trg:"tirare",src:"to pull / to throw"},{trg:"rompere",src:"to break"},{trg:"accendere",src:"to turn on / to light"},{trg:"spegnere",src:"to turn off / to extinguish"},{trg:"raccogliere",src:"to pick up / to collect"}]},{type:"match",pairs:[{trg:"nascondere",src:"to hide"},{trg:"ridere",src:"to laugh"},{trg:"correre",src:"to run"},{trg:"dipingere",src:"to paint"},{trg:"stringere",src:"to tighten / to squeeze"},{trg:"vincere",src:"to win"}]},{type:"match",pairs:[{trg:"proteggere",src:"to protect"},{trg:"distruggere",src:"to destroy"}]}]};
 export default BATCH6_L1;

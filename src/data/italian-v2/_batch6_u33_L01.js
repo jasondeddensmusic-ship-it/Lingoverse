@@ -109,5 +109,5 @@ const BATCH6_L1 = {id:"itv2_u33l_b6_1", title:"L'etica e la morale", icon:"\u{26
  {trg:"la solidarieta", src:"solidarity"},
  {trg:"il compromesso", src:"compromise"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"condannare",src:"to condemn / to sentence"}]}]};
 export default BATCH6_L1;

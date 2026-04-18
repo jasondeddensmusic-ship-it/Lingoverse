@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u08l_b6_1", title:"In banca", icon:"\u{1F3E6}", xp:1
  {trg:"il tasso", src:"rate"},
  {trg:"il risparmio", src:"savings"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"lo sportello automatico",src:"the ATM machine"},{trg:"lo scontrino",src:"the receipt"}]}]};
 export default BATCH6_L1;

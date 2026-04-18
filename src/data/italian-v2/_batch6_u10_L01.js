@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u10l_b6_1", title:"All'aeroporto", icon:"\u{2708}\u{
  {trg:"il fuso orario", src:"time zone"},
  {trg:"il nastro", src:"conveyor belt"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"il check-in",src:"the check-in"},{trg:"il controllo passaporti",src:"the passport control"},{trg:"il ritiro bagagli",src:"the baggage claim"},{trg:"il pilota",src:"the pilot"},{trg:"allacciare",src:"to fasten / to buckle"}]}]};
 export default BATCH6_L1;

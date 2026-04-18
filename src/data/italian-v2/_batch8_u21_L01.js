@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u21l_b8_1", title:"Desideri e cortesia", icon:"✨",
  opts:["Hope is the last to die (never give up)","Hope always dies first","Death brings hope","The last hope is the best"],
  ans:"Hope is the last to die (never give up)",
  hint:"Even when everything seems lost, hope persists. It echoes the Greek myth of Pandora's box."}
-]};
+,{type:"match",pairs:[{trg:"il sogno",src:"the dream"},{trg:"la proposta",src:"the proposal / suggestion"},{trg:"accontentarsi",src:"to settle for / to be content with"}]},{type:"mc",q:"How do you say \"aspiration / ambition\" in Italian?",opts:["l'aspirazione","la finestra","il tavolo","la bicicletta"],ans:"l'aspirazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

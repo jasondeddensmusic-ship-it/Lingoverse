@@ -292,7 +292,7 @@ const UNIT_31 = {
        opts:["Per trovare le notizie piu divertenti","Perche tutti i giornali mentono","Per avere una visione piu completa e ridurre il pregiudizio mediatico","Perche la legge lo richiede"],
        ans:"Per avere una visione piu completa e ridurre il pregiudizio mediatico",
        hint:"Every newspaper has some bias. Reading multiple perspectives gives you a fuller picture and helps counteract one-sided information."}
-    ]}
+    ,{type:"match",pairs:[{trg:"la redazione",src:"the editorial office / newsroom"},{trg:"la cronaca",src:"the news report / chronicle"},{trg:"la privacy",src:"the privacy"}]}]}
   ]
 };
 

@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u27l_b8_1", title:"Il metodo scientifico", icon:"ðŸ§
  opts:["20","5","50","100"],
  ans:"20",
  hint:"Italy has a strong scientific tradition. Volta, Marconi, Fermi, and Levi-Montalcini are among its most famous scientists."}
-]};
+,{type:"match",pairs:[{trg:"il microscopio",src:"the microscope"},{trg:"la formula",src:"the formula"},{trg:"il procedimento",src:"the procedure / process"},{trg:"il dato",src:"the data point / datum"}]}]};
 export default BATCH8_L1;

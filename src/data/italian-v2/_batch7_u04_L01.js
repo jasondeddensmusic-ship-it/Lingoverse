@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u04l_b7_1", title:"Frutta e spuntini", icon:"\u{1F34
  {trg:"la pera", src:"pear"},
  {trg:"la noce", src:"walnut"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"maturo",src:"ripe / mature"},{trg:"la macedonia",src:"the fruit salad"}]}]};
 export default BATCH7_L1;

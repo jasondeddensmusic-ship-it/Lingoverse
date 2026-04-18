@@ -354,7 +354,7 @@ const UNIT_26 = {
        opts:["La rapina riguarda solo le banche","Il furto e piu grave della rapina","La rapina implica violenza o minaccia, il furto no","Non c'e differenza"],
        ans:"La rapina implica violenza o minaccia, il furto no",
        hint:"One involves taking property without confrontation. The other involves force or threats against the victim."}
-    ]}
+    ,{type:"match",pairs:[{trg:"condannare",src:"to convict / to sentence"}]}]}
   ]
 };
 

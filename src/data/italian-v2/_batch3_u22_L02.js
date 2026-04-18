@@ -118,6 +118,6 @@ const BATCH3_U22_L2 = {
      opts:["Radio in the 1920s","Television in the 1950s-60s","Newspapers in the 1800s","The Catholic Church"],
      ans:"Television in the 1950s-60s",
      hint:"When Italy unified in 1861, only 2-3% spoke standard Italian. TV brought one common language into every home, something centuries of education had failed to achieve."}
-  ]
+  ,{type:"match",pairs:[{trg:"la Festa della Repubblica",src:"Republic Day"},{trg:"il presepe",src:"the nativity scene"},{trg:"il design",src:"the design"},{trg:"la processione",src:"the procession"}]}]
 };
 export default BATCH3_U22_L2;

@@ -139,6 +139,6 @@ const BATCH4_U05_L1 = {
      opts:["Arabic","Latin","Greek","German"],
      ans:"Arabic",
      hint:"This word entered Italian through centuries of Mediterranean trade."}
-  ]
+  ,{type:"match",pairs:[{trg:"la coperta",src:"the blanket"}]}]
 };
 export default BATCH4_U05_L1;

@@ -24,4 +24,4 @@ const BATCH5_L_1={id:"itv2_u19l_b5_1",title:"Intelligenza emotiva",icon:"\u{1F49
 {type:"mc",q:"Cosa significa 'smarrimento'?",opts:["Sentirsi perso e confuso","Sentirsi felice","Sentirsi arrabbiato","Sentirsi annoiato"],ans:"Sentirsi perso e confuso",hint:"From smarrire (to lose). Emotional confusion is literally 'losing yourself.'"},
 {type:"fb",s:"La {1} di Calvino e un concetto filosofico italiano.",a:["leggerezza"],opts:["leggerezza","amarezza","commozione","rassegnazione"],hint:"Emotional lightness and freedom from worry. Made famous by a writer's lecture.",sSrc:"Calvino's {1} is an Italian philosophical concept."},
 {type:"mc",q:"Quale emozione e piu diffusa e meno acuta dell'ansia?",opts:["L'inquietudine","L'euforia","La commozione","L'attaccamento"],ans:"L'inquietudine",hint:"A vague inner unease. One of Italian literature's most explored emotional states."},
-]};export default BATCH5_L_1;
+{type:"match",pairs:[{trg:"la gratitudine",src:"gratitude"}]}]};export default BATCH5_L_1;

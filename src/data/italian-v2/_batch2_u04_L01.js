@@ -136,6 +136,6 @@ const BATCH2_U04_L1 = {
      opts:["Anything else?","Hello?","Ready?","How are you?"],
      ans:"Anything else?",
      hint:"After taking your order, the server asks this one-word question to check if you need more items."}
-  ]
+  ,{type:"match",pairs:[{trg:"la minestra",src:"the soup"},{trg:"con",src:"with"}]}]
 };
 export default BATCH2_U04_L1;
