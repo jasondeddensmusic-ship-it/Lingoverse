@@ -1,6 +1,8 @@
 // Unit 35: Prüfung B2
 // Level: B2
 
+import GERMAN_SALVAGE_V1 from './_salvage_v1.js';
+
 const UNIT_35 =
 {n:35,lang:"de",srcLang:"en",track:"v2",title:"Prüfung B2",sub:"Die letzte Hürde",icon:"📝",level:"B2.2",color:"#7B5EE8",lessons:[
 {id:"deu_r35l1",title:"Pr\u00fcfungstag",icon:"\ud83d\udcdd",xp:15,board:true,steps:[
@@ -287,7 +289,8 @@ const UNIT_35 =
 {type:"mc",q:"Was bedeutet 'gegenüberstellen'?",opts:["to compare, to juxtapose","primarily, chiefly","complete, entire","grammatical"],ans:"to compare, to juxtapose",hint:"gegenüber (opposite/across from) + stellen (to place). To place things side by side for comparison."},
 {type:"fb",s:"Wie sagt man 'to look up (in a reference)' auf Deutsch? {1}",a:["nachschlagen"],opts:["nachschlagen","lueckenhaft","grammatikalisch","wörtlich"],hint:"nach- (after/following) + schlagen (to hit/open). To flip open a dictionary or reference book.",sSrc:"How do you say 'to look up (in a reference)' in German?"},
 {type:"mc",q:"Was bedeutet 'das Bewertungskriterium'?",opts:["faulty, erroneous","in my opinion (formal)","to look up (in a reference)","assessment criterion"],ans:"assessment criterion",hint:"Bewertung (evaluation) + Kriterium (from Greek: krinein, to judge). The standard by which exams are graded."}
-]}
+]},
+GERMAN_SALVAGE_V1
 ]};
 
 export default UNIT_35;

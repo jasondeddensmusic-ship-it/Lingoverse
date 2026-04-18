@@ -1,6 +1,8 @@
-# V1 Salvage Status (2026-04-17)
+# V1 Salvage Status (updated 2026-04-18 — COMPLETE)
 
-Audit of V1 legacy unit files against V2 rehaul content, to ensure no content is lost before V1 archival.
+**All five V1 files are archived.** Last updated 2026-04-18. See CLAUDE.md Known Blockers for the post-archival summary. This document preserves the original audit methodology for reference.
+
+Audit of V1 legacy unit files against V2 rehaul content, performed before V1 archival to ensure no content was lost.
 
 ## Method
 
@@ -8,17 +10,19 @@ Audit of V1 legacy unit files against V2 rehaul content, to ensure no content is
 2. **Smart matcher** (`scripts/check_v1_salvage_smart.cjs`): handles compound entries (`der Arzt / die Ärztin`), sentence content-word matching, comma-separated lists, trailing ellipsis, multi-language article stripping.
 3. **Deep base-form check**: manual verification of "missing" items against V2 using ripgrep.
 
-## Current State
+## Current State (2026-04-18 — COMPLETE)
 
-**V1 files are still imported in `src/utils.js` (line 518) alongside V2.** No content is currently lost. V1 must remain imported until the gaps below are filled.
+**All V1 files archived** to `.claude/archive/v1-legacy/`. Imports removed from `src/utils.js` and `src/data/dictionary.js`. Index bundle shrank 7 MB.
 
-| Language | V1 teach items | Smart-matcher coverage | Genuinely missing (base-form) | Status |
-|---|---|---|---|---|
-| Dutch | 1136 | 99.3% | 8 | Minor salvage pending |
-| Korean | 1187 | 99.8% | 2 | Minor salvage pending |
-| German | 1343 | 87.9% | ~24 | Moderate salvage pending |
-| French | 914 | 100.0% | 0 | **ARCHIVED 2026-04-18** → `.claude/archive/v1-legacy/units-french.js` |
-| Spanish | 1250 | 99.3% | 9 | Minor salvage pending |
+| Language | V1 teach items | Smart-matcher coverage (post-salvage) | Status |
+|---|---|---|---|
+| Dutch | 1136 | 100.0% | **ARCHIVED 2026-04-18** (8 gaps added to `dutch-v2/_temp_b1gap_L10.js` + `_L20.js`) |
+| Korean | 1187 | 100.0% | **ARCHIVED 2026-04-18** (2 gaps added to `korean-v2/_temp_b1gap_L12.js`) |
+| German | 1343 | 90.1% | **ARCHIVED 2026-04-18** (23 gaps added as new `german-v2/_salvage_v1.js` wired into Unit 35; 133 residual items are pedagogical pattern strings, not vocabulary) |
+| French | 914 | 100.0% | **ARCHIVED 2026-04-18** |
+| Spanish | 1250 | 100.0% | **ARCHIVED 2026-04-18** (9 gaps added to `spanish-v2/_temp_b1gap_L04.js`) |
+
+Checker upgrades shipped with archival: unicode-escape decoding (fixes Dutch "Belgi\\u00eb" vs "België") and Spanish `/a` gender-pair support (fixes "frustrado/a" matching "frustrado").
 
 Smart-matcher false positives (~138 for German) come from V1 using ASCII transliterations (`koennte`, `spaeter`, `naechste`), parenthetical grammar annotations (`gefahren (sein)`, `ist gelaufen`), formula placeholders (`Er/Sie wohnt in...`), comparative patterns (`gut - besser - am besten`), contractions with expansions (`am (an + dem)`), and declension-pattern strings (`der gute Kaffee`). These are either covered in V2 as standard content (proper umlaut forms, base verbs, contractions, grammar modules) or are pedagogical pattern strings that don't need direct teach cards in V2.
 

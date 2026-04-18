@@ -9,7 +9,6 @@
 import { ARTICLE_SYSTEMS } from './vocabulary.js';
 import dutchUnits from './units-dutch-v2.js';
 import koreanUnits from './units-korean-v2.js';
-import germanUnits from './units-german.js';
 import germanV2Units from './units-german-v2.js';
 import frenchUnits from './units-french-v2.js';
 import spanishUnits from './units-spanish-v2.js';
@@ -30,7 +29,7 @@ import { buildFormIndex, conjugateVerb, detectIrregType, getIrregInfo, nounWithP
 // German conjugation engine (Phase 1 of deep dictionary)
 import { conjugateVerb as conjugateGermanVerb, detectVerbType as detectGermanVerbType, getVerbInfo as getGermanVerbInfo, nounWithCases, buildFormIndex as buildGermanFormIndex, STRONG_VERBS as DE_STRONG_VERBS, MIXED_VERBS as DE_MIXED_VERBS, MODAL_VERBS as DE_MODAL_VERBS, AUXILIARY_VERBS as DE_AUXILIARY_VERBS } from './german-conjugation.js';
 
-const ALL_UNITS = [...dutchUnits, ...koreanUnits, ...germanUnits, ...germanV2Units, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
+const ALL_UNITS = [...dutchUnits, ...koreanUnits, ...germanV2Units, ...frenchUnits, ...spanishUnits, ...otherUnits].filter(u=>u&&u.lang);
 
 const FUNCTION_WORD_LISTS = {
   de: FUNCTION_WORDS_DE,

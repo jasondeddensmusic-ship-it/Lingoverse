@@ -335,7 +335,7 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 ### Known Blockers
 1. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56).
 2. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537).
-3. **V1 archival — French DONE (2026-04-18).** French V1 moved to `.claude/archive/v1-legacy/units-french.js`, imports removed from `src/utils.js`. Remaining V1 still imported (`units-dutch.js`, `units-korean.js`, `units-german.js`, `units-spanish.js`) alongside V2. Do NOT archive the rest until the 43 gaps documented in `docs/V1_SALVAGE_STATUS.md` are added to V2 (Korean 2, Dutch 8, Spanish 9, German 24).
+3. **V1 archival — COMPLETE (2026-04-18).** All five V1 unit files (French, Dutch, Korean, German, Spanish) moved to `.claude/archive/v1-legacy/`. Imports removed from `src/utils.js` and `src/data/dictionary.js`. 43 documented salvage gaps added to V2: Korean 2 → `korean-v2/_temp_b1gap_L12.js`, Dutch 8 → `dutch-v2/_temp_b1gap_L10.js` + `_temp_b1gap_L20.js`, Spanish 9 → `spanish-v2/_temp_b1gap_L04.js`, German 23 → new `german-v2/_salvage_v1.js` wired into Unit 35. Index bundle shrank 7 MB. Smart-matcher audit: Dutch/Korean/French/Spanish 100%, German 90.1% (residual 133 items are documented pedagogical pattern strings per V1_SALVAGE_STATUS.md, not teachable vocabulary).
 4. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing.
 
 > 25 previously tracked blockers have been resolved. See `docs/BUILD_STATUS.md` for full history.
@@ -346,19 +346,19 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 
 > Chinese (45 units), Portuguese (36 units), Russian (36 units) all complete and merged (PR #175, #177, #178). V1 salvage audited (PR #179). 10 languages live.
 
-### ACTIVE: V1 Salvage — fill 43 documented gaps then archive V1
+### COMPLETE: V1 Salvage (2026-04-18)
 
-**Precise next-agent task:** Add 43 teach cards to V2 so V1 can be archived without content loss. All gaps listed verbatim in `docs/V1_SALVAGE_STATUS.md`.
+All five V1 unit files (French, Dutch, Korean, German, Spanish) archived to `.claude/archive/v1-legacy/`. 43 documented gaps added to V2 before archival:
 
-- **French V1 — DONE (2026-04-18).** Archived to `.claude/archive/v1-legacy/units-french.js`; imports removed from `src/utils.js`. Salvage checkers updated to read from archive path. Build passes.
-- **Korean V1 (2 gaps)** — Add `감동하다` (to be moved/touched) and `혼란스럽다` (to be confused) as teach cards in a B1 emotions lesson (candidate: `src/data/korean-v2/_temp_b1gap_L31.js` — Mental States and Emotions).
-- **Dutch V1 (8 gaps)** — B1 feelings: `gefrustreerd`, `verward`, `uitkijken naar`, `ongerust`, `gespannen`, `jaloers`, `de mislukking`, `België`. Add to an existing Dutch B1 feelings unit or create a small salvage unit.
-- **Spanish V1 (9 gaps)** — B1 feelings: `frustrado/a`, `decepcionado/a`, `impresionado/a`, `confundido/a`, `satisfecho/a`, `celoso/a`, `tener ganas de`, `seguro/a de sí mismo/a`, `tenso/a`. Unit-11/12 (imperfect scene lessons) are thematically adjacent.
-- **German V1 (24 gaps)** — Distribute: feelings (wütend, frustriert, zerstört, schlapp), colors (lila), clothing (der Gürtel), animals (der Löwe), travel (das Gepäck, das Ladegerät), professions (der Programmierer, der Feuerwehrmann, die Probezeit, die Gleitzeit), legal (das Bußgeld), compass (östlich), numbers (dreiunddreißig, neunundneunzig), B2 academic (bereuen, erörtern, die Erörterung), B2 idioms (Hals über Kopf, In Anlehnung an, Laut Angaben).
+- **French V1 — ARCHIVED.** 914/914 covered. No gaps; archived directly.
+- **Korean V1 — ARCHIVED.** 2 gaps (감동하다, 혼란스럽다) added to `korean-v2/_temp_b1gap_L12.js`. Smart match: 1187/1187 = 100%.
+- **Dutch V1 — ARCHIVED.** 8 gaps (gefrustreerd, verward, ongerust, gespannen, jaloers, uitkijken naar, de mislukking, België) added to `dutch-v2/_temp_b1gap_L10.js` and `_temp_b1gap_L20.js`. Smart match: 1136/1136 = 100%.
+- **Spanish V1 — ARCHIVED.** 9 gaps (frustrado, decepcionado, impresionado, confundido, satisfecho, celoso, tener ganas de, seguro de sí mismo, tenso) added to `spanish-v2/_temp_b1gap_L04.js`. Smart match: 1250/1250 = 100%.
+- **German V1 — ARCHIVED.** 23 gaps (feelings, colors, clothing, animals, travel, professions, civic, numbers, B2 academic, B2 idioms) added as new lesson `german-v2/_salvage_v1.js` wired into Unit 35 "Prüfung B2". Smart match: 1210/1343 = 90.1%. Residual 133 items are documented pedagogical pattern strings (grammar annotations, formula placeholders like "Er/Sie wohnt in...", ASCII transliterations) per V1_SALVAGE_STATUS.md policy — not teachable vocabulary.
 
-Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs`.
+Impact: index bundle shrank 7 MB (47,557 KB → 40,439 KB) from dead-code elimination. Smart-matcher checker upgraded with unicode-escape decoding and Spanish `/a` gender-pair support so audits remain meaningful post-archival.
 
-After each language's gaps are filled: move its `units-{lang}.js` to `.claude/archive/v1-legacy/`, drop imports from `src/utils.js` (lines 7/9/11/13/15 and `_RAW_UNITS` on line 518), rebuild, verify app still loads.
+Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from `.claude/archive/v1-legacy/`).
 
 ### Polish Remaining
 1. **A2 dialogue scaling** — Italian: 138 dialogues need 3+ turns. Japanese: 28 need 3+ turns.

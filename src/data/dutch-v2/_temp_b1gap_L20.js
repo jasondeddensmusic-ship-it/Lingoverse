@@ -146,7 +146,39 @@ const LESSON_20 = {
      q:"Je bent mooi ___. Heb je een feestje?",
      opts:["aangekleed","afgeladen","afgelopen","aangetekend"],
      ans:"aangekleed",
-     hint:"Which word describes someone wearing nice clothes for an occasion?"}
+     hint:"Which word describes someone wearing nice clothes for an occasion?"},
+
+    // ── Salvage from v1 (mixed B1 gap words) ──
+    {type:"teach", trg:"jaloers", src:"jealous / envious", pos:"adj", gender:null,
+     note:"Adjective. Used with 'op' when naming the target: jaloers op iemand.",
+     example:"A: Ik ben jaloers op je nieuwe fiets.\nB: Dank je! Ik heb hem net gekocht.",
+     exampleSrc:"A: I am jealous of your new bike.\nB: Thanks! I just bought it.",
+     funFact:"From French 'jaloux.' Dutch 'jaloers op' mirrors English 'jealous of.' The noun is 'de jaloezie,' which also means a Venetian blind."},
+
+    {type:"teach", trg:"uitkijken naar", src:"to look forward to", pos:"verb", gender:null,
+     note:"Separable verb + preposition 'naar.' Expresses pleasant anticipation.",
+     example:"A: Ik kijk uit naar het weekend.\nB: Ik ook. Heb je plannen?",
+     exampleSrc:"A: I am looking forward to the weekend.\nB: Me too. Do you have plans?",
+     funFact:"Literally 'to look out toward.' A classic Dutch phrasal verb. The separable prefix 'uit-' detaches in main clauses: 'Ik kijk ernaar uit.'"},
+
+    {type:"teach", trg:"de mislukking", src:"the failure", pos:"noun", gender:"c",
+     note:"Common gender (de). Noun form of 'mislukken' (to fail).",
+     example:"A: Het project was een mislukking.\nB: Jammer. Wat is er misgegaan?",
+     exampleSrc:"A: The project was a failure.\nB: Too bad. What went wrong?",
+     funFact:"Mis- (wrongly) + lukken (to succeed). Dutch builds failure from 'wrongly succeeding.' The adjective is 'mislukt' (failed)."},
+
+    {type:"teach", trg:"België", src:"Belgium", pos:"noun", gender:null,
+     note:"Proper noun. Country name, no article.\nBelgian = Belgisch (adj), een Belg (noun).",
+     example:"A: Ga je naar België op vakantie?\nB: Ja, naar Brugge en Gent.",
+     exampleSrc:"A: Are you going to Belgium on holiday?\nB: Yes, to Bruges and Ghent.",
+     funFact:"Belgium shares Dutch as an official language in Flanders. Belgian Dutch has distinct vocabulary: 'tas' means cup in Flanders but bag in the Netherlands."},
+
+    {type:"match", pairs:[
+      {trg:"jaloers", src:"jealous"},
+      {trg:"uitkijken naar", src:"to look forward to"},
+      {trg:"de mislukking", src:"the failure"},
+      {trg:"België", src:"Belgium"}
+    ]}
   ]
 };
 export default LESSON_20;
