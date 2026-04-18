@@ -17,7 +17,7 @@ Audit of V1 legacy unit files against V2 rehaul content, to ensure no content is
 | Dutch | 1136 | 99.3% | 8 | Minor salvage pending |
 | Korean | 1187 | 99.8% | 2 | Minor salvage pending |
 | German | 1343 | 87.9% | ~24 | Moderate salvage pending |
-| French | 914 | 100.0% | 0 | **SAFE TO ARCHIVE** |
+| French | 914 | 100.0% | 0 | **ARCHIVED 2026-04-18** → `.claude/archive/v1-legacy/units-french.js` |
 | Spanish | 1250 | 99.3% | 9 | Minor salvage pending |
 
 Smart-matcher false positives (~138 for German) come from V1 using ASCII transliterations (`koennte`, `spaeter`, `naechste`), parenthetical grammar annotations (`gefahren (sein)`, `ist gelaufen`), formula placeholders (`Er/Sie wohnt in...`), comparative patterns (`gut - besser - am besten`), contractions with expansions (`am (an + dem)`), and declension-pattern strings (`der gute Kaffee`). These are either covered in V2 as standard content (proper umlaut forms, base verbs, contractions, grammar modules) or are pedagogical pattern strings that don't need direct teach cards in V2.
@@ -73,8 +73,8 @@ Target units: Distribute across existing topical units (feelings → unit with e
 
 ## Recommended Archival Order
 
-1. **French v1** — already 100% covered. Safe to move `src/data/units-french.js` to `.claude/archive/v1-legacy/` and remove its import from `src/utils.js` line 7-15 and `_RAW_UNITS` line 518.
-2. After salvage completes per language: archive that language's V1 file following the same pattern.
+1. **French v1** — ARCHIVED 2026-04-18. Moved to `.claude/archive/v1-legacy/units-french.js`; imports removed from `src/utils.js` (line 13 + `_RAW_UNITS` spread). Salvage checkers (`check_v1_salvage.cjs`, `check_v1_salvage_smart.cjs`) updated to read from archive path. Build passes. French still reports 914/914 = 100% in the audit.
+2. After salvage completes per language (Korean 2, Dutch 8, Spanish 9, German 24): archive that language's V1 file following the same pattern.
 
 ## Files Preserved
 

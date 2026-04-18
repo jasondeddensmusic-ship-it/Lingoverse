@@ -335,7 +335,7 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 ### Known Blockers
 1. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56).
 2. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537).
-3. **V1 archival blocked** — `src/utils.js:518` still imports V1 (`units-dutch.js`, `units-korean.js`, `units-german.js`, `units-french.js`, `units-spanish.js`) alongside V2. Do NOT remove these imports or archive V1 files until the 43 gaps documented in `docs/V1_SALVAGE_STATUS.md` are added to V2. French V1 is 100% covered and safe to archive first.
+3. **V1 archival — French DONE (2026-04-18).** French V1 moved to `.claude/archive/v1-legacy/units-french.js`, imports removed from `src/utils.js`. Remaining V1 still imported (`units-dutch.js`, `units-korean.js`, `units-german.js`, `units-spanish.js`) alongside V2. Do NOT archive the rest until the 43 gaps documented in `docs/V1_SALVAGE_STATUS.md` are added to V2 (Korean 2, Dutch 8, Spanish 9, German 24).
 4. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing.
 
 > 25 previously tracked blockers have been resolved. See `docs/BUILD_STATUS.md` for full history.
@@ -350,7 +350,7 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 
 **Precise next-agent task:** Add 43 teach cards to V2 so V1 can be archived without content loss. All gaps listed verbatim in `docs/V1_SALVAGE_STATUS.md`.
 
-- **French V1 (0 gaps)** — SAFE TO ARCHIVE FIRST. Move `src/data/units-french.js` into `.claude/archive/v1-legacy/` and remove the import from `src/utils.js` lines 13 and 518.
+- **French V1 — DONE (2026-04-18).** Archived to `.claude/archive/v1-legacy/units-french.js`; imports removed from `src/utils.js`. Salvage checkers updated to read from archive path. Build passes.
 - **Korean V1 (2 gaps)** — Add `감동하다` (to be moved/touched) and `혼란스럽다` (to be confused) as teach cards in a B1 emotions lesson (candidate: `src/data/korean-v2/_temp_b1gap_L31.js` — Mental States and Emotions).
 - **Dutch V1 (8 gaps)** — B1 feelings: `gefrustreerd`, `verward`, `uitkijken naar`, `ongerust`, `gespannen`, `jaloers`, `de mislukking`, `België`. Add to an existing Dutch B1 feelings unit or create a small salvage unit.
 - **Spanish V1 (9 gaps)** — B1 feelings: `frustrado/a`, `decepcionado/a`, `impresionado/a`, `confundido/a`, `satisfecho/a`, `celoso/a`, `tener ganas de`, `seguro/a de sí mismo/a`, `tenso/a`. Unit-11/12 (imperfect scene lessons) are thematically adjacent.

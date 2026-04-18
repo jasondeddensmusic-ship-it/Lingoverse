@@ -10,7 +10,6 @@ import koreanUnits from './data/units-korean.js';
 import koreanV2Units from './data/units-korean-v2.js';
 import germanUnits from './data/units-german.js';
 import germanV2Units from './data/units-german-v2.js';
-import frenchUnits from './data/units-french.js';
 import frenchV2Units from './data/units-french-v2.js';
 import spanishUnits from './data/units-spanish.js';
 import spanishV2Units from './data/units-spanish-v2.js';
@@ -515,7 +514,7 @@ const xpCurr = xp=>LEVEL_XP[getLevel(xp)-1]||0;
 
 
 // ── Unit Assembly & Normalization ──
-const _RAW_UNITS = [...dutchUnits, ...dutchV2Units, ...koreanUnits, ...koreanV2Units, ...germanUnits, ...germanV2Units, ...UNITS_GERMAN_V2_AR, ...frenchUnits, ...frenchV2Units, ...spanishUnits, ...spanishV2Units, ...italianV2Units, ...japaneseV2Units, ...chineseV2Units, ...portugueseV2Units, ...russianV2Units, ...otherUnits].filter(u=>u&&u.lang);
+const _RAW_UNITS = [...dutchUnits, ...dutchV2Units, ...koreanUnits, ...koreanV2Units, ...germanUnits, ...germanV2Units, ...UNITS_GERMAN_V2_AR, ...frenchV2Units, ...spanishUnits, ...spanishV2Units, ...italianV2Units, ...japaneseV2Units, ...chineseV2Units, ...portugueseV2Units, ...russianV2Units, ...otherUnits].filter(u=>u&&u.lang);
 // ── FIELD NORMALIZATION: support both legacy nl/en AND new trg/src ──
 // After migration, old field names can be removed. Until then, both coexist.
 function _normStep(st){
