@@ -251,7 +251,7 @@ const UNIT_14 =
 {type:"match",pairs:[{nl:"해야 해요",en:"must do"},{nl:"하면 안 돼요",en:"must not do"},{nl:"해도 돼요",en:"may do / is okay to do"},{nl:"하려고 해요",en:"intending to do"}]},
 {type:"mc",q:"아무리 힘들어도 포기하면 안 돼요. 계속 하려고 노력해야 해요.\n(No matter how hard it is, you must not give up. You must try to keep going.)",opts:["-아/어도 + -(으)면 안 되다 + -(으)러 + -고 있다","-아/어도 + -게 되다 + -(으)려면 + -고 싶다","-(으)면 + -(으)면 안 되다 + -(으)려고 + -게 되다","-아/어도 + -(으)면 안 되다 + -(으)려고 + -아/어야 하다"],ans:"-아/어도 + -(으)면 안 되다 + -(으)려고 + -아/어야 하다",hint:"Four constructs: concession + prohibition + purpose + obligation."},
 {type:"fb",s:"선배가 도와{1} 해서 감사했어요.\n(The senior helped me so I was grateful.)",a:["줘서"],opts:["줘서","주면","주는데","줘도"],hint:"-아/어 주다 past + -아/어서 (so): benefactive action leading to gratitude."},
-]},
+{type:"match",pairs:[{trg:"제출하다",src:"to submit"},{trg:"준비하다",src:"to prepare"},{trg:"분위기",src:"atmosphere, mood"},{trg:"허락",src:"permission, approval"}]}]},
 
 ]};
 

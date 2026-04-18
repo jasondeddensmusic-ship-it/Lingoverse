@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u28l_b8_1", title:"Generi e tecniche", icon:"📖", 
  opts:["Were unreliable, making readers doubt reality","Always told the truth","Spoke directly to the audience","Used only present tense"],
  ans:"Were unreliable, making readers doubt reality",
  hint:"Pirandello questioned the nature of truth and identity. His narrators cannot always be trusted."}
-]};
+,{type:"match",pairs:[{trg:"il capitolo",src:"the chapter"},{trg:"il narratore",src:"the narrator"},{trg:"la suspense",src:"the suspense"},{trg:"la poesia",src:"the poetry / poem"},{trg:"il lettore",src:"the reader"}]}]};
 export default BATCH8_L1;

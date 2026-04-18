@@ -266,7 +266,7 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
   {trg:"моё письмо", src:"my letter"},
   {trg:"мои родители", src:"my parents"}
 ]}
-]}
+,{type:"match",pairs:[{trg:"отец",src:"father (formal)"},{trg:"ребёнок",src:"child"},{trg:"муж",src:"husband"},{trg:"жена",src:"wife"},{trg:"твой",src:"your (informal, m/f/n/pl)"}]}]}
 
 ]};
 export default UNIT_03;

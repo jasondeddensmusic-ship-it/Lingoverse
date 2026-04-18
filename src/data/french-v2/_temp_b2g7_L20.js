@@ -112,7 +112,7 @@ const LESSON_20 = {
     ]},
 
     {type:"mc",
-     q:"Quel mot designe a la fois une arete de montagne et un os de poisson ?",
+     q:"Quel mot désigne à la fois une crête de montagne étroite et un petit os dans la chair d'un poisson ?",
      opts:["une arete","une cicatrice","un crible","un monticule"],
      ans:"une arete",
      hint:"A sharp edge. In geography it's a mountain ridge, in food it's a fish bone."},

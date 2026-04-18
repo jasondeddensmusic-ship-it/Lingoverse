@@ -215,5 +215,5 @@ export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores"
         {type:"drag_fill",hint:"Complete: day of week + date + month.",s:"Hoy es {1}, el {2} de {3}.",blanks:{"1":"jueves","2":"veinte","3":"septiembre"},pool:["jueves","veinte","septiembre","lunes","quince","marzo"]},
         {type:"fb",opts:["color","hora","día","nombre"],hint:"Asking about the visual appearance of the car.",s:"¿De qué {1} es tu coche?",a:"color"},
         {type:"mc",q:"Which is correct for 1:30 PM?",opts:["Son la una y media","Son las una y media","Es la una y cuarto","Es la una y media de la tarde"],ans:"Es la una y media de la tarde",hint:"1:00 is singular: es la una. Plus y ___ for :30."}
-  ]}
+  ,{type:"match",pairs:[{trg:"¿Cuándo es tu cumpleaños?",src:"When is your birthday?"},{trg:"el libro",src:"the book"}]}]}
 ]};

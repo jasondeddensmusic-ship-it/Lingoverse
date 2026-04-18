@@ -111,6 +111,6 @@ const BATCH3_L_2 = {
      opts:["Un servizio premium che offre notizie esclusive a pagamento","L'effetto per cui vediamo solo contenuti coerenti con le nostre opinioni preesistenti","Un gruppo chiuso di giornalisti che condividono informazioni riservate","La quantita massima di dati che un algoritmo puo elaborare"],
      ans:"L'effetto per cui vediamo solo contenuti coerenti con le nostre opinioni preesistenti",
      hint:"Algorithms show you content matching your existing views, creating a bubble where you never encounter different perspectives."}
-  ]
+  ,{type:"match",pairs:[{trg:"il diritto di replica",src:"the right of reply"},{trg:"il trolling",src:"trolling (online harassment)"},{trg:"la diffida",src:"the cease-and-desist letter / formal warning"}]},{type:"mc",q:"How do you say \"copyright\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","il diritto d'autore"],ans:"il diritto d'autore",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"hashtag\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'hashtag"],ans:"l'hashtag",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_2;

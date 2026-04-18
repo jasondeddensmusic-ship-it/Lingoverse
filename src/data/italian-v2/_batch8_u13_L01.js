@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u13l_b8_1", title:"Dubbi e incertezze", icon:"🤔",
  opts:["Maintaining a good external image","Saving money","Helping others","Telling the truth"],
  ans:"Maintaining a good external image",
  hint:"This is related to 'bella figura.' Even when things go wrong, the outward impression must be preserved."}
-]};
+,{type:"match",pairs:[{trg:"ammettere",src:"to admit / to acknowledge"},{trg:"la convinzione",src:"the belief / conviction"},{trg:"presumere",src:"to presume / to assume"}]},{type:"mc",q:"How do you say \"hypothesis\" in Italian?",opts:["l'ipotesi","la finestra","il tavolo","la bicicletta"],ans:"l'ipotesi",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"appearance / semblance\" in Italian?",opts:["la finestra","l'apparenza","il tavolo","la bicicletta"],ans:"l'apparenza",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

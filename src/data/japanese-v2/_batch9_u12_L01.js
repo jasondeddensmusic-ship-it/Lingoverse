@@ -69,6 +69,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"Which verb is used specifically for playing piano or guitar?", opts:["弾(ひ)く","叩(たた)く","吹(ふ)く","歌(うた)う"], ans:"弾(ひ)く",
      hint:"This verb is for string and keyboard instruments. Drums and wind instruments use different verbs."}
-  ]
+  ,{type:"match",pairs:[{trg:"運転(うんてん)する",src:"to drive"},{trg:"泳(およ)ぐ",src:"to swim"}]}]
 };
 export default BATCH9_L1;

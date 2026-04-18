@@ -64,7 +64,7 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 
 {type:"fb", s:"Eles {1} chegar às oito da noite.", a:["vão"], opts:["vão","vai","vou","vamos"], hint:"Third person plural of ir. They + infinitive = they are going to.", sSrc:"They {1} arrive at eight at night."},
 
-{type:"mc", q:"Which sentence describes a future plan?", opts:["Eu vou para o médico amanhã","Eu fui para o médico ontem","Eu vou para o médico agora","Eu ia para o médico"], ans:"Eu vou para o médico amanhã", hint:"___ + amanhã = future plan. Ontem and agora rule out the future."},
+{type:"mc", q:"Which sentence describes a future plan?", opts:["Eu vou para o médico amanhã","Eu fui para o médico ontem","Eu vou para o médico agora","Eu ia para o médico"], ans:"Eu vou para o médico amanhã", hint:"Look for the time expression that points forward, not backward or to the present moment. Only one option refers to tomorrow."},
 
 {type:"fb", s:"Ela {1} trabalhar no sábado.", a:["vai"], opts:["vai","vou","vamos","vão"], hint:"Ela is third person singular. Match with the ___ form.", sSrc:"She {1} work on Saturday."},
 
@@ -165,7 +165,7 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 
 {type:"fb", s:"Eu {1} comprar uma casa no próximo ano.", a:["pretendo"], opts:["pretendo","planejo","penso em","vou"], hint:"Strong personal intention, not necessarily with a fixed date.", sSrc:"I {1} to buy a house next year."},
 
-{type:"mc", q:"Which sentence uses the irregular future correctly?", opts:["Ele farei amanhã","Ele fará amanhã","Ele fazerá amanhã","Ele fez amanhã"], ans:"Ele fará amanhã", hint:"Fazer is irregular: farei, fará, faremos, farão. Drop the -ze-."},
+{type:"mc", q:"Which sentence uses the irregular future correctly?", opts:["Ele farei amanhã","Ele fará amanhã","Ele fazerá amanhã","Ele fez amanhã"], ans:"Ele fará amanhã", hint:"Fazer is irregular in the future: the -ze- drops and new endings attach directly to far-. The third person singular ends in -á."},
 
 {type:"fb", s:"Nós {1} na conferência no mês que vem.", a:["falaremos"], opts:["falaremos","falarei","falarão","falava"], hint:"First person plural future of falar.", sSrc:"We {1} at the conference next month."},
 

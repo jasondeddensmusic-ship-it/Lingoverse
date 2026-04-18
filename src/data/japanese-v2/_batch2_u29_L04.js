@@ -81,6 +81,6 @@ const BATCH2_L_4 = {
 
     {type:"mc", q:"過労死(かろうし) means:", opts:["Career change","Death from overwork","Retirement age","Minimum wage"], ans:"Death from overwork",
      hint:"This Japanese term shocked the world and became a driving force behind labor reform laws."},
-  ]
+  {type:"match",pairs:[{trg:"給料(きゅうりょう)",src:"salary / pay"}]}]
 };
 export default BATCH2_L_4;

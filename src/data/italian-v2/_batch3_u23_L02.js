@@ -118,6 +118,6 @@ const BATCH3_U23_L2 = {
      opts:["To promote a rival Italian AI","The Italian Data Protection Authority raised privacy concerns","Italian law prohibits all AI technology","It was too popular with students"],
      ans:"The Italian Data Protection Authority raised privacy concerns",
      hint:"The 'Garante per la P...' actively enforces GDPR rules. Italy was among the first countries to investigate AI services over personal d... p...."}
-  ]
+  ,{type:"match",pairs:[{trg:"i social",src:"social media"},{trg:"la fake news",src:"the fake news / misinformation"},{trg:"la propaganda",src:"the propaganda"},{trg:"il comunicato stampa",src:"the press release"},{trg:"influenzare",src:"to influence"}]}]
 };
 export default BATCH3_U23_L2;

@@ -64,6 +64,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Which word means carbon?", opts:["カーボン","リサイクル","絶滅危惧種(ぜつめつきぐしゅ)","砂漠化(さばくか)"], ans:"カーボン",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"地球温暖化(ちきゅうおんだんか)",src:"global warming"}]}]
 };
 export default BATCH10_L1;

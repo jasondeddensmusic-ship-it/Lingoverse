@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"How would you politely ask about someone's availability?", opts:["ご都合(つごう)はいかがですか","いま何時(なんじ)ですか","予約(よやく)しましたか","遅(おそ)くなりますか"], ans:"ご都合(つごう)はいかがですか",
      hint:"This phrase uses the honorific form of the word for convenience/availability."}
-  ]
+  ,{type:"match",pairs:[{trg:"遅(おそ)くなる",src:"to be late / to become late"},{trg:"早(はや)めに",src:"early / ahead of time"},{trg:"約(やく)",src:"approximately / about"},{trg:"掛(か)かる",src:"to take (time/money) / to cost"}]}]
 };
 export default BATCH8_L1;

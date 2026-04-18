@@ -79,6 +79,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"ぶっちゃけ signals:", opts:["The speaker is about to be unusually direct/honest","The speaker is joking","The speaker is uncertain","The speaker is being formal"], ans:"The speaker is about to be unusually direct/honest",
      hint:"This slang word warns that blunt honesty is coming, unusual in indirect Japanese culture."}
-  ]
+  ,{type:"match",pairs:[{trg:"まあ",src:"well / I guess / more or less"},{trg:"なんとかなる",src:"things will work out somehow"},{trg:"っていうか",src:"or rather / I mean / to put it differently"},{trg:"ぶっちゃけ",src:"honestly / to be blunt / frankly speaking"}]}]
 };
 export default BATCH5_L_2;

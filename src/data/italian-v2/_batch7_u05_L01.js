@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u05l_b7_1", title:"Attrezzi e fai-da-te", icon:"\u{1
  {trg:"la scala", src:"ladder"},
  {trg:"il fai-da-te", src:"DIY"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"aggiustare",src:"to fix / to repair"}]}]};
 export default BATCH7_L1;

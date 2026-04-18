@@ -177,7 +177,7 @@ export default {n:24,lang:"nl",srcLang:"en",track:"v2",title:"Academisch Nederla
         {type:"fb",opts:["af","in","op","uit"],hint:"This verb for graduating splits: ik studeer ___ (cf. ik sta op)",s:"Wanneer studeer je ___?",a:"af"},
         {type:"match",pairs:[{trg:"het onderzoek",src:"the research"},{trg:"de hypothese",src:"the hypothesis"},{trg:"de conclusie",src:"the conclusion"},{trg:"de samenvatting",src:"the summary"}]},
         {type:"mc",q:"'Desalniettemin zijn de conclusies waardevol.' 'Desalniettemin' means:",opts:["Nevertheless","Moreover","Therefore","In contrast"],ans:"Nevertheless",hint:"Despite limitations, the conclusions are valuable"},
-        {type:"fb",opts:["in Amsterdam","de leraar","het onderzoek","gisteren"],hint:"Cleft sentence emphasizing location: Het was daar dat...",s:"Het was ___ dat het congres plaatsvond. (in Amsterdam)",a:"in Amsterdam"},
+        {type:"fb",opts:["in Amsterdam","de leraar","het onderzoek","gisteren"],hint:"Cleft sentence: 'Het was ___ dat...' emphasizes a place, not a time or person",s:"Het was ___ dat het congres plaatsvond.",a:"in Amsterdam"},
         {type:"drag_fill",hint:"Academic writing project + formal test at university",s:"Ik schrijf mijn {1}. Het {2} is volgende week.",blanks:{"1":"scriptie","2":"tentamen"},pool:["scriptie","tentamen","onderzoek","bibliografie"]},
         {type:"mc",q:"All three participle types in order (ongoing, completed, obligation):",opts:["geschreven, werkende, te lezen","werkende, geschreven, te lezen","te lezen, werkende, geschreven","werkende, te lezen, geschreven"],ans:"werkende, geschreven, te lezen",hint:"Present PP, Past PP, te-construction"},
         {type:"fb",opts:["werkende","gewerkte","te werken","werkend"],hint:"Present participle as adjective: add -e before a noun",s:"De ___ bevolking groeit. (working, present participle)",a:"werkende"},
@@ -187,5 +187,5 @@ export default {n:24,lang:"nl",srcLang:"en",track:"v2",title:"Academisch Nederla
           {trg:"het geschreven boek",src:"the written book"},
           {trg:"het te verwachten resultaat",src:"the expected result"}
         ]}
-  ]}
+  ,{type:"match",pairs:[{trg:"het wetenschappelijk onderwijs",src:"scientific/academic education (WO)"},{trg:"de inleiding",src:"the introduction"}]}]}
 ]};

@@ -139,6 +139,6 @@ const BATCH4_U03_L2 = {
      opts:["How boring!","What a beard!","How annoying!","What a mess!"],
      ans:"How boring!",
      hint:"This colloquial expression uses the word for 'beard' in an unexpected way."}
-  ]
+  ,{type:"match",pairs:[{trg:"i capelli",src:"the hair (on head)"},{trg:"castano",src:"brown (hair/eyes)"},{trg:"la barba",src:"the beard"},{trg:"i baffi",src:"the mustache"},{trg:"giovane",src:"young"},{trg:"somigliare",src:"to look alike / to resemble"}]}]
 };
 export default BATCH4_U03_L2;

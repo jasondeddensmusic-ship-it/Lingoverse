@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u20l_b6_1", title:"La vita scolastica", icon:"\u{1F3
  {trg:"la lavagna", src:"blackboard"},
  {trg:"bocciare", src:"to fail/hold back"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la materia",src:"the subject (school)"},{trg:"la maturita",src:"the high school final exam"}]}]};
 export default BATCH6_L1;

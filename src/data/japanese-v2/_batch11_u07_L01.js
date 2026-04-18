@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["いつも > よく > ときどき > ぜんぜん","ときどき > いつも > よく > ぜんぜん","ぜんぜん > ときどき > よく > いつも","よく > いつも > ときどき > ぜんぜん"],
      ans:"いつも > よく > ときどき > ぜんぜん",
      hint:"Order from most frequent to least frequent: always, often, sometimes, never."}
-  ]
+  ,{type:"match",pairs:[{trg:"午前(ごぜん)",src:"AM / morning (time)"},{trg:"午後(ごご)",src:"PM / afternoon (time)"},{trg:"前(まえ)",src:"before / in front of"},{trg:"後(あと)",src:"after / later"},{trg:"間(あいだ)",src:"between / during"}]}]
 };
 export default BATCH11_L1;

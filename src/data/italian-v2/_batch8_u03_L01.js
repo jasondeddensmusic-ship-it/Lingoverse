@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u03l_b8_1", title:"Le feste in famiglia", icon:"🎂
  opts:["Look each person in the eyes","Close your eyes","Hold the glass with two hands","Say your name"],
  ans:"Look each person in the eyes",
  hint:"Not doing this is considered bad luck, similar to a superstition in many European countries."}
-]};
+,{type:"match",pairs:[{trg:"il compleanno",src:"the birthday"},{trg:"il matrimonio",src:"the wedding / marriage"},{trg:"il brindisi",src:"the toast (celebratory)"},{trg:"riunirsi",src:"to gather / to get together"},{trg:"sorprendere",src:"to surprise"}]}]};
 export default BATCH8_L1;

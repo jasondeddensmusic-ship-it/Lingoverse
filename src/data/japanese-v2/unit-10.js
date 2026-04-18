@@ -203,7 +203,7 @@ const UNIT_10 = {
    text:"Months are simply number + 月(がつ):\n一月(いちがつ) (January), 二月(にがつ) (February)\n三月(さんがつ) (March), 四月(しがつ) (April)\n五月(ごがつ) (May), 六月(ろくがつ) (June)\n七月(しちがつ) (July), 八月(はちがつ) (August)\n九月(くがつ) (September), 十月(じゅうがつ) (October)\n十一月(じゅういちがつ) (November), 十二月(じゅうにがつ) (December)\n\nIrregular readings: 4 = し (not yon), 7 = しち (not nana), 9 = く (not kyuu).",
    deepDive:{title:"Old Japanese month names",
     text:"Before adopting numbered months, Japan used poetic names:\nむつき (January, month of harmony)\nきさらぎ (February, month of changing clothes)\nやよい (March, month of growing)\nうづき (April, deutzia flower month)\nさつき (May, rice-planting month)\nみなづき (June, month of water)\n\nThese old names still appear in literature, names, and traditional contexts. Yayoi and Satsuki are popular girls' names."}},
-]},
+{type:"match",pairs:[{trg:"風(かぜ)",src:"wind"},{trg:"\u301C月(がつ)",src:"month (counter)"},{trg:"\u301C日(にち)",src:"day (counter)"}]}]},
 
 ,BATCH2_L1
 ,BATCH4_L01

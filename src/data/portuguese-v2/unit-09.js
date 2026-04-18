@@ -261,7 +261,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
 {type:"mc", q:"Which sentence means 'I have a fever'?",
  opts:["Sou febre","Estou com febre","Dói febre","Compro febre"],
  ans:"Estou com febre",
- hint:"Brazilians commonly say they are 'with' a symptom rather than 'have' one."}
+ hint:"Brazilian speech describes symptoms by saying you are 'with' them, not that you 'have' them."}
 ,
 
 {type:"match", pairs:[

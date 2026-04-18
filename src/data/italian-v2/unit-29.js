@@ -291,7 +291,7 @@ const UNIT_29 = {
        opts:["Rispondere immediatamente senza pensare","Ascoltare solo quando si e interessati","Ascoltare con attenzione, dando segnali di comprensione","Ignorare il linguaggio non verbale"],
        ans:"Ascoltare con attenzione, dando segnali di comprensione",
        hint:"A communication technique where you fully concentrate on the speaker and show understanding. More than just hearing words."}
-    ]}
+    ,{type:"match",pairs:[{trg:"la percezione",src:"the perception"},{trg:"lo stress",src:"the stress"},{trg:"la consapevolezza",src:"the awareness / mindfulness"},{trg:"il condizionamento",src:"the conditioning"}]},{type:"mc",q:"How do you say \"attachment\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'attaccamento"],ans:"l'attaccamento",hint:"Recall the Italian vocabulary word taught in this lesson."}]}
   ]
 };
 

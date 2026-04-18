@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"What must you do before entering a Japanese home?", opts:["Take off your shoes (靴(くつ)を脱(ぬ)ぐ)","Bow three times","Say a prayer","Wash your hands"], ans:"Take off your shoes (靴(くつ)を脱(ぬ)ぐ)",
      hint:"Japanese homes require removing footwear at the genkan (entryway)."}
-  ]
+  ,{type:"match",pairs:[{trg:"シャツ",src:"shirt"},{trg:"ズボン",src:"trousers / pants"},{trg:"着(き)てみる",src:"to try wearing"},{trg:"長(なが)い",src:"long"},{trg:"短(みじか)い",src:"short (length)"}]}]
 };
 export default BATCH6_L1;

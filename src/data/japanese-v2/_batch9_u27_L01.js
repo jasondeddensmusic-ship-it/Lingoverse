@@ -64,6 +64,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"Which word means sustainable?", opts:["持続可能(じぞくかのう)","省エネ(しょうエネ)","太陽光(たいようこう)","排出(はいしゅつ)"], ans:"持続可能(じぞくかのう)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"エコ",src:"eco-friendly"}]}]
 };
 export default BATCH9_L1;

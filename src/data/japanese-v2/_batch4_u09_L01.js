@@ -122,6 +122,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What does ポイントカード mean?",
      opts:["loyalty/points card","credit card","ID card","gift card"], ans:"loyalty/points card",
      hint:"Collect stamps or digital p... for rewards at chain stores."}
-  ]
+  ,{type:"match",pairs:[{trg:"コンビニ",src:"convenience store"},{trg:"スーパー",src:"supermarket"},{trg:"電気屋(でんきや)",src:"electronics store"},{trg:"花屋(はなや)",src:"flower shop / florist"},{trg:"現金(げんきん)",src:"cash"},{trg:"レシート",src:"receipt"}]},{type:"match",pairs:[{trg:"税込(ぜいこ)み",src:"tax included (price)"},{trg:"ポイントカード",src:"points card / loyalty card"}]}]
 };
 export default BATCH4_L_1;

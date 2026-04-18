@@ -24,4 +24,4 @@ const BATCH5_L_1={id:"itv2_u23l_b5_1",title:"Le istituzioni italiane",icon:"\u{1
 {type:"mc",q:"Cos'e il 'trasformismo' politico?",opts:["Politici che cambiano partito per convenienza","Una riforma costituzionale","Un tipo di elezione","Un partito politico"],ans:"Politici che cambiano partito per convenienza",hint:"A historic Italian political practice dating to 1882. Deputies switch parties for opportunistic reasons."},
 {type:"fb",s:"La legge della par {1} garantisce uguale tempo in TV a tutti i candidati.",a:["condicio"],opts:["condicio","fiducia","giunta","legge"],hint:"From Latin meaning 'equal condition.' Regulates media access during election campaigns.",sSrc:"The par {1} law guarantees equal TV time for all candidates."},
 {type:"mc",q:"Quante regioni italiane hanno uno statuto speciale di autonomia?",opts:["Cinque","Tre","Dieci","Venti"],ans:"Cinque",hint:"Islands and border regions with linguistic minorities have special autonomy."},
-]};export default BATCH5_L_1;
+{type:"match",pairs:[{trg:"la fiducia",src:"the confidence vote"}]}]};export default BATCH5_L_1;

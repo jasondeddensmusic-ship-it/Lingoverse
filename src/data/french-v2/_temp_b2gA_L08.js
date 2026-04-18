@@ -112,7 +112,7 @@ const LESSON_8 = {
     ]},
 
     {type:"mc",
-     q:"Quelle conjonction exige le subjonctif et signifie 'a condition que, pour peu que' ?",
+     q:"Quelle locution conjonctive à trois mots exige le subjonctif et exprime une condition minimale ?",
      opts:["pour peu que","pour le coup","pour de bon","pour le reste"],
      ans:"pour peu que",
      hint:"A conjunction followed by the subjunctive. Means 'if only' or 'provided that'."}

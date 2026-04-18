@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["尊重(そんちょう)","記載(きさい)","許可(きょか)","排出(はいしゅつ)"],
      hint:"Let us respect each other's opinions. This verb means 'to esteem' or 'to respect.'",
      sSrc:"Let us {1} each other's opinions."}
-  ]
+  ,{type:"match",pairs:[{trg:"ないし",src:"or / to (range)"},{trg:"情報開示(じょうほうかいじ)",src:"information disclosure"}]}]
 };
 export default BATCH7_L1;

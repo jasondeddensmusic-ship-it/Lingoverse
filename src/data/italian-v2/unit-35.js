@@ -271,7 +271,7 @@ const UNIT_35 = {
        opts:["telelavoro","prototipo","brevetto","finanziamento"],
        hint:"The formal legal term for remote work, regulated in Italy since 2004. Distinct from the newer 'smart working' in Italian law.",
        sSrc:"{1} already existed in Italy since 2004, but the pandemic made it popular."}
-    ]}
+    ,{type:"match",pairs:[{trg:"programmare",src:"to program / to code"},{trg:"la precarizzazione",src:"job precarity / casualization of work"}]}]}
   ]
 };
 export default UNIT_35;

@@ -195,5 +195,5 @@ export default {n:11,lang:"nl",srcLang:"en",track:"v2",title:"Op het Werk",sub:"
         {type:"tr",mk:"v2u11_had_already_eaten",dir:"produce"},
         {type:"tr",mk:"v2u11_applied_for_job",dir:"produce"},
         {type:"tr",mk:"v2u11_i_think_that",dir:"produce"}
-  ]}
+  ,{type:"match",pairs:[{trg:"het beroep",src:"the profession / job"},{trg:"de arts",src:"the doctor (physician)"},{trg:"de baan",src:"the job (position)"},{trg:"de e-mail",src:"the email"},{trg:"net",src:"just (a moment ago)"},{trg:"toen",src:"when (past) / then"}]},{type:"match",pairs:[{trg:"het salaris",src:"the salary"},{trg:"de collega",src:"the colleague"},{trg:"namelijk",src:"namely / you see / because"},{trg:"parttime",src:"part-time"}]}]}
 ]};

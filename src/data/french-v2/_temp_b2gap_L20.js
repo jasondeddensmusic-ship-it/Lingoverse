@@ -94,7 +94,7 @@ const LESSON_20 = {
      q:"Quel adjectif decrit une approche adaptee aux besoins de chaque individu ?",
      opts:["diff\u00e9renci\u00e9","appr\u00e9ciable","consommateur","contributeur"],
      ans:"diff\u00e9renci\u00e9",
-     hint:"Made distinct or specialized. Key term in French education: 'pedagogie differenciee'."},
+     hint:"Adapted to individual needs. The core concept in personalized teaching where each pupil gets a tailored approach."},
 
     {type:"teach", trg:"la connexion", src:"the connection", pos:"noun", gender:"f",
      note:"Feminine noun. A link between things, people, or networks.",

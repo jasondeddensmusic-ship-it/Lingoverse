@@ -81,6 +81,6 @@ const BATCH2_L_4 = {
 
     {type:"mc", q:"Japan strengthened online defamation laws after:", opts:["A corporate scandal","The death of a reality TV star due to cyberbullying","A government data breach","A newspaper lawsuit"], ans:"The death of a reality TV star due to cyberbullying",
      hint:"This tragic 2020 event led to legal reforms making online insults more harshly punishable."},
-  ]
+  {type:"match",pairs:[{trg:"番組(ばんぐみ)",src:"program / show (TV/radio)"}]}]
 };
 export default BATCH2_L_4;

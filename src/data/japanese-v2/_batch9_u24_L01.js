@@ -15,6 +15,6 @@ const BATCH9_L1 = {
     {type:"fb", s:"値段(ねだん)が安(やす)い。{1}、品質(ひんしつ)もいい。\n(Price is low. Furthermore, quality is good.)", a:"さらに", opts:["さらに","しかし","すなわち","もっとも"], sSrc:"Price is low. Furthermore, quality is good.", hint:"This connector adds additional supporting information with emphasis."},
     {type:"match", pairs:[{trg:"したがって",src:"therefore"},{trg:"むしろ",src:"rather"},{trg:"すなわち",src:"namely"},{trg:"ちなみに",src:"by the way"}]},
     {type:"mc", q:"What does もっとも do in an argument?", opts:["Adds a fair qualification or exception","Strengthens the main point","Changes the topic","Asks a question"], ans:"Adds a fair qualification or exception", hint:"This connector shows balanced thinking by acknowledging limitations."}
-  ]
+  ,{type:"match",pairs:[{trg:"一方(いっぽう)で",src:"on the other hand"},{trg:"もっとも",src:"however / to be fair"},{trg:"仮(かり)に",src:"suppose / hypothetically"}]}]
 };
 export default BATCH9_L1;

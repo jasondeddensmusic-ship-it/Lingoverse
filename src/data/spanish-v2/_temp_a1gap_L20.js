@@ -46,7 +46,7 @@ const LESSON_20 = {
      q:"\u00bfQué significa 'buscar una aguja en un pajar'?",
      opts:["To look for something nearly impossible to find","To sew in a barn","To buy needles at a farm","To find hay in a needle"],
      ans:"To look for something nearly impossible to find",
-     hint:"This idiom is about the difficulty of finding s... tiny in s... huge, identical to the English expression."},
+     hint:"Aguja = needle, pajar = haystack. What does hunting for a needle hidden in a pile of straw represent?"},
 
     {type:"teach", trg:"ahogar", src:"to drown, to suffocate", pos:"verb", gender:null,
      note:"Regular -ar verb (g > gu before e). Ahogo, ahogas...\nAhogarse = to drown (reflexive).",

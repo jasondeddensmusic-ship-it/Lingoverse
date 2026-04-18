@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does 応援(おうえん)しています express?", opts:["I am cheering you on / rooting for you","I am watching you","I am competing with you","I am worried about you"], ans:"I am cheering you on / rooting for you",
      hint:"This is one of the warmest supportive phrases in Japanese."}
-  ]
+  ,{type:"match",pairs:[{trg:"経験(けいけん)を積(つ)む",src:"to accumulate experience"},{trg:"後悔(こうかい)する",src:"to regret"},{trg:"きっかけ",src:"trigger / opportunity / catalyst"},{trg:"決(き)める",src:"to decide / to determine"},{trg:"応援(おうえん)する",src:"to support / to cheer on / to root for"}]}]
 };
 export default BATCH8_L1;

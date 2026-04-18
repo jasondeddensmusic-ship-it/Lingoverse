@@ -100,6 +100,6 @@ const BATCH11_L1 = {
      opts:["万(まん)","千(せん)","百(ひゃく)","十(じゅう)"],
      hint:"This is the 10,000-yen bill, the largest denomination in everyday use.",
      sSrc:"With a ten-thousand-yen bill, please."}
-  ]
+  ,{type:"match",pairs:[{trg:"十一(じゅういち)",src:"eleven"},{trg:"三十五(さんじゅうご)",src:"thirty-five"},{trg:"四十(よんじゅう)",src:"forty"},{trg:"九十九(きゅうじゅうきゅう)",src:"ninety-nine"},{trg:"千(せん)",src:"one thousand"}]}]
 };
 export default BATCH11_L1;

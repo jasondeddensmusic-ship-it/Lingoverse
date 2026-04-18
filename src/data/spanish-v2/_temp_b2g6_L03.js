@@ -26,7 +26,7 @@ const LESSON_3 = {id:"esv2_b2g6_l3",title:"Salud y cuerpo",icon:"🏥",xp:15,boa
  exampleSrc:"A: The tattoo reaches the dermis.\nB: That is why it is permanent.",
  funFact:"Greek derma (skin) gives us 'dermatólogo' (dermatologist) and 'dermatitis'."},
 
-{type:"mc",q:"¿Qué es la insulina?",opts:["Una hormona que regula el azúcar en sangre","Un tipo de hernia","Una capa de la piel","Un medicamento para el dolor"],ans:"Una hormona que regula el azúcar en sangre",hint:"Think about diabetes and blood sugar regulation."},
+{type:"mc",q:"¿Qué es la insulina?",opts:["Una hormona que regula el azúcar en sangre","Un tipo de hernia","Una capa de la piel","Un medicamento para el dolor"],ans:"Una hormona que regula el azúcar en sangre",hint:"People with diabetes depend on this substance to keep glucose levels stable."},
 
 {type:"teach",trg:"el glúteo",src:"the gluteus / buttock muscle",pos:"noun",gender:"m",
  note:"Masculine noun. The large muscle in the buttock.\nFrom Greek gloutos.",

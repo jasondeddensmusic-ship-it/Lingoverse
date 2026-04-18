@@ -75,10 +75,10 @@ const LESSON_4 = {
      hint:"This is the title for the head of a French high school",
      sSrc:"The {1} of the high school suspended three students."},
 
-    {type:"mc", q:"Comment prononce-t-on 'prompt' en francais?",
+    {type:"mc", q:"Quelle est la réalisation orale de l'adjectif 'prompt' en français standard ?",
      opts:["pron","prompt","promt","prom"],
      ans:"pron",
-     hint:"The final consonants -pt are silent in French pronunciation"},
+     hint:"The final letters -pt are silent: both the p and the t disappear when spoken aloud."},
 
     {type:"match", pairs:[
       {trg:"un decorateur", src:"a decorator"},

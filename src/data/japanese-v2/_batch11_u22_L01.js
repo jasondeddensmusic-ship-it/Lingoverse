@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Someone who anticipates others' needs","Someone who is selfish","Someone who is quiet","Someone who is strong"],
      ans:"Someone who anticipates others' needs",
      hint:"This describes a person who is socially attentive and considerate, proactively caring for those around them."}
-  ]
+  ,{type:"match",pairs:[{trg:"お願(ねが)い",src:"request / favor"},{trg:"頼(たの)む",src:"to request / to ask a favor"},{trg:"遠慮(えんりょ)",src:"restraint / holding back / hesitation"},{trg:"気(き)を使(つか)う",src:"to be considerate / attentive"}]}]
 };
 export default BATCH11_L1;

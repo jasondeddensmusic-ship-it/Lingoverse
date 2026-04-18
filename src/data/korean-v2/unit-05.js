@@ -225,7 +225,7 @@ const UNIT_5 =
   {type:"tip",title:"🧓 Age Hierarchy: How It Works",text:"Korean society runs on age hierarchy.\nEvery relationship has a clear elder/younger structure.\n\nWhy it matters linguistically:\n• Speech level changes based on age",deepDive:{title:"Practical Rules for Age-Based Speech",text:"• Address terms change (형, 오빠, 선생님, 씨...)\n• Who eats first, who speaks first, who pays\n\nPractical rules:\n\n1. Ask age early  -  Koreans ask quickly, it's not rude.\n   But USE the right question by context:\n   몇 살이에요? = peers / casual\n   연세가 어떻게 되세요? = elders / formal\n\n2. If they're older: use -요 endings always.\n   If younger: you can use casual speech .\n\n3. The honorific system (존댓말 / 반말) emerges from this.\n   You'll learn it fully in later lessons.\n\n정 + age hierarchy = Korean social fabric."}},
   {type:"mc",q:"정 is best described as:",opts:["Romantic love only","Deep bond from shared time","A financial obligation","Professional respect"],ans:"Deep bond from shared time",hint:"정 is built gradually through mutual experience over months and years, not just affection."},
   {type:"mc",q:"몇 살이에요? is used with:",opts:["Elders and superiors only","Formal meetings and work","Peers and casual contexts","Never appropriate to ask"],ans:"Peers and casual contexts",hint:"Use 연세가 어떻게 되세요? for elders"},
-  {type:"mc",q:"Age in Korean uses which number system?",opts:["Sino-Korean (일, 이, 삼...)","Depends on the number","Either one","Native Korean (하나, 둘, 셋...)"],ans:"Native Korean (하나, 둘, 셋...)",hint:"The 살 counter takes 하나, 둘, 셋-style numbers: 스물 살, 서른 살."},
+  {type:"mc",q:"Age in Korean uses which number system?",opts:["Sino-Korean (일, 이, 삼...)","Depends on the number","Either one","Native Korean (하나, 둘, 셋...)"],ans:"Native Korean (하나, 둘, 셋...)",hint:"The 살 counter always pairs with 하나, 둘, 셋-style numbers, never with 일, 이, 삼."},
   {type:"mc",q:"정이 없다 means:",opts:["No deep bond (negative)","I don't have time","I'm not old enough","I'm not Korean born"],ans:"No deep bond (negative)",hint:"정이 없다 is a harsh criticism of someone's character"},
   {type:"fb",s:"저는 스물___ 살이에요.\n(I am 25 years old)",a:"다섯",opts:["다섯","오","다섯이","오이"],hint:"25 = 스물(20) + ...(5). Native Korean numbers."},
   {type:"mc",q:"When asking an elder's age politely, the honorific word for 나이 (age) is:",opts:["살","연세","몇","나이"],ans:"연세",hint:"Elders get the respectful word for age."},
@@ -306,7 +306,7 @@ const UNIT_5 =
   {type:"match",pairs:[{nl:"크다 → 커요",en:"to be big"},{nl:"작다 → 작아요",en:"to be small"},{nl:"예쁘다 → 예뻐요",en:"to be pretty"},{nl:"귀엽다 → 귀여워요",en:"to be cute"}]},
   {type:"drag_fill",s:"{1}는 한국어{2} 공부해요. 한국어{3} 재미있어요.",blanks:{"1":"저","2":"를","3":"가"},pool:["저","를","가","는","이"],hint:"I (topic) study Korean (object). Korean (subject/new info) is interesting."},
   {type:"mc",q:"정이 들다 means:",opts:["To feel hunger","To get older","To become family","Deep bond has formed"],ans:"Deep bond has formed",hint:"정이 들다 = jeong has entered = you've bonded deeply"},
-]},
+{type:"match",pairs:[{trg:"남편",src:"husband"},{trg:"아내",src:"wife"},{trg:"싫다 → 싫어요",src:"(review)"},{trg:"오래되다 → 오래됐어요",src:"to be old (things)"},{trg:"중요하다 → 중요해요",src:"to be important"},{trg:"깨끗하다 → 깨끗해요",src:"to be clean"}]},{type:"match",pairs:[{trg:"낮다 → 낮아요",src:"to be low / short"},{trg:"다르다 → 달라요",src:"to be different"},{trg:"싫어하다 → 싫어해요",src:"to dislike / to hate"},{trg:"마음",src:"heart / mind / feelings"},{trg:"색 / 색깔",src:"color"},{trg:"Review Summary",src:"What you now own"}]}]},
 
 ]};
 

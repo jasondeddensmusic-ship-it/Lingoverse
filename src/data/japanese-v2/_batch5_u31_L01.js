@@ -73,6 +73,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"反省(はんせい) in Japanese culture means:", opts:["Genuine self-reflection and remorse","A simple apology","Legal punishment","Financial compensation"], ans:"Genuine self-reflection and remorse",
      hint:"This concept goes deeper than saying sorry; it requires visible introspection and change."}
-  ]
+  ,{type:"match",pairs:[{trg:"被告(ひこく)",src:"defendant / the accused"},{trg:"刑罰(けいばつ)",src:"punishment / penalty / criminal sanction"},{trg:"反省(はんせい)",src:"self-reflection / remorse / introspection"}]}]
 };
 export default BATCH5_L_1;

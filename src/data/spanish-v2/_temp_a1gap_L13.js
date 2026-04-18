@@ -43,7 +43,7 @@ const LESSON_13 = {
      funFact:"One of the first verbs every Spanish learner needs. '\u00bfMe puede ayudar?' (Can you help me?) opens doors everywhere."},
 
     {type:"mc",
-     q:"\u00bfCuántos apellidos tiene una persona española?",
+     q:"¿Cuántos nombres familiares hereda una persona en España?",
      opts:["Dos","Uno","Tres","Cuatro"],
      ans:"Dos",
      hint:"In Spain, children receive one surname from each parent, creating a pair."},

@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Master artists designated as Living National Treasures","Famous politicians","Olympic athletes","University professors"],
      ans:"Master artists designated as Living National Treasures",
      hint:"This designation recognizes individuals who preserve important traditional artistic techniques at the highest level."}
-  ]
+  ,{type:"match",pairs:[{trg:"表現力(ひょうげんりょく)",src:"expressive power / expressiveness"},{trg:"伝統芸能(でんとうげいのう)",src:"traditional performing arts"},{trg:"描(えが)く",src:"to depict / to draw / to portray"},{trg:"想像力(そうぞうりょく)",src:"imagination / creative power"},{trg:"芸術家(げいじゅつか)",src:"artist"}]}]
 };
 export default BATCH11_L1;

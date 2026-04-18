@@ -348,7 +348,7 @@ const UNIT_2 =
   {type:"match",pairs:[{nl:"학교",en:"school (study+teach)"},{nl:"도서관",en:"library (book+building)"},{nl:"병원",en:"hospital (illness+place)"},{nl:"교실",en:"classroom (teach+room)"}]},
   {type:"drag_fill",s:"저는 {1}에 있어요. {2}도 있어요.",blanks:{"1":"학교","2":"친구"},pool:["학교","카페","집","친구","선생님"],hint:"I'm at school. A friend is also here."},
   {type:"mc",q:"실 appears in 교실 and 화장실. It means:",opts:["Teach","Place","Study","Room"],ans:"Room",hint:"교실 = teach-room; 화장실 = bathroom = wash-room"},
-]},
+{type:"match",pairs:[{trg:"질문",src:"question"},{trg:"대답",src:"answer / reply"},{trg:"마시다",src:"to drink"},{trg:"배우다",src:"to learn"},{trg:"살다",src:"to live"},{trg:"서다",src:"to stand"}]},{type:"match",pairs:[{trg:"놀다",src:"to play / to hang out"},{trg:"지하철역",src:"subway station"},{trg:"남자",src:"man / male"},{trg:"엄마 / 어머니",src:"mom / mother"},{trg:"아빠 / 아버지",src:"dad / father"},{trg:"카페",src:"café"},{trg:"Review Summary",src:"What you now know"}]}]},
 
 ]};
 

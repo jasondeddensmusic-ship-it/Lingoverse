@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Easy to do","Cheap","Fast","Important"],
      ans:"Easy to do",
      hint:"When attached to verb stems, this suffix creates adjectives describing how effortlessly an action can be done."}
-  ]
+  ,{type:"match",pairs:[{trg:"である",src:"is / to be (written style)"},{trg:"くだけた",src:"casual / informal (style)"},{trg:"文末(ぶんまつ)",src:"sentence ending"},{trg:"形式(けいしき)",src:"form / format / formality"},{trg:"分(わ)かりやすい",src:"easy to understand / clear"}]}]
 };
 export default BATCH11_L1;

@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["お得(とく)","高(たか)い","安(やす)い","負(まか)ける"],
      hint:"This na-adjective means 'a good deal' or 'bargain.' The set price beats individual prices.",
      sSrc:"This set is a {1}. It is cheaper than buying separately."}
-  ]
+  ,{type:"match",pairs:[{trg:"領収書(りょうしゅうしょ)",src:"receipt (formal)"},{trg:"負(まか)ける",src:"to give a discount (informal)"}]}]
 };
 export default BATCH7_L1;

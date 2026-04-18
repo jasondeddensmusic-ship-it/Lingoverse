@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What happens at お宮参(みやまい)り?", opts:["A newborn baby visits a shrine for the first time","A student graduates from school","A couple gets married","Ancestors are honored"], ans:"A newborn baby visits a shrine for the first time",
      hint:"This ceremony introduces the newest family member to the local deity."}
-  ]
+  ,{type:"match",pairs:[{trg:"お宮参(みやまい)り",src:"first shrine visit (for newborns)"},{trg:"七五三(しちごさん)",src:"Seven-Five-Three festival"},{trg:"成人式(せいじんしき)",src:"coming-of-age ceremony"},{trg:"入学式(にゅうがくしき)",src:"entrance ceremony (school)"},{trg:"お葬式(そうしき)",src:"funeral"},{trg:"お年玉(としだま)",src:"New Year money gift (for children)"}]},{type:"match",pairs:[{trg:"記念日(きねんび)",src:"anniversary / memorial day"}]}]
 };
 export default BATCH8_L1;

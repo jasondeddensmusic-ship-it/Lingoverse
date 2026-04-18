@@ -118,6 +118,6 @@ const BATCH2_U15_L2 = {
      opts:["Nothing, it is just a suggestion","The waste collectors sort it for you","You can receive a fine from the municipality","Your neighbors will resort and fix the mistake"],
      ans:"You can receive a fine from the municipality",
      hint:"Italian waste collection schedules are strictly enforced. Wrong waste on the wrong day means potential 'sanzioni' (fines)."}
-  ]
+  ,{type:"match",pairs:[{trg:"la zona",src:"the area / zone"},{trg:"la scatola",src:"the box / cardboard box"},{trg:"il palazzo",src:"the building / apartment block"},{trg:"il mercato rionale",src:"the local neighborhood market"},{trg:"la raccolta dei rifiuti",src:"waste collection / garbage pickup"}]}]
 };
 export default BATCH2_U15_L2;

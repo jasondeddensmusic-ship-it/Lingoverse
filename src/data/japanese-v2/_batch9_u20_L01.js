@@ -57,6 +57,6 @@ const BATCH9_L1 = {
     ]},
     {type:"mc", q:"What does かしこまりました mean?", opts:["Certainly / I understand (very humble)","I am sorry","Please wait","Thank you"], ans:"Certainly / I understand (very humble)",
      hint:"This is the most formal response to a request, commonly heard in service settings."}
-  ]
+  ,{type:"match",pairs:[{trg:"おる",src:"to be / to exist (humble)"},{trg:"存(ぞん)じる",src:"to know (humble)"},{trg:"差(さ)し上(あ)げる",src:"to give (humble)"},{trg:"拝見(はいけん)する",src:"to look / to see (humble)"}]}]
 };
 export default BATCH9_L1;

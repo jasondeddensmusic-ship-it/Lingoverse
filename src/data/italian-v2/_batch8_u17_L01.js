@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u17l_b8_1", title:"La vita digitale", icon:"💻", x
  opts:["To bring to the current day","To make faster","To restart","To connect"],
  ans:"To bring to the current day",
  hint:"Break it down: 'a' (to) + 'giorno' (day). Bringing something up to the present day."}
-]};
+,{type:"match",pairs:[{trg:"il collegamento",src:"the connection / link"},{trg:"il file",src:"the file (digital)"},{trg:"il backup",src:"the backup"}]}]};
 export default BATCH8_L1;

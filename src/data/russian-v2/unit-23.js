@@ -90,7 +90,7 @@ const UNIT_23 = {n:23, lang:"ru", srcLang:"en", track:"v2", title:"Повели�
   {trg:"давай", src:"let's (inf)"},
   {trg:"не говорите", src:"don't speak"}
 ]}
-]}
+,{type:"match",pairs:[{trg:"скажи!",src:"tell! / say! (inf)"}]}]}
 
 ]};
 export default UNIT_23;

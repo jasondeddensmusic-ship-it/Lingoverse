@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is のし in gift culture?", opts:["Decorative wrapping paper with ornamental cord","A type of bow","A thank-you card","A receipt for the gift"], ans:"Decorative wrapping paper with ornamental cord",
      hint:"Different styles indicate celebrations versus condolences."}
-  ]
+  ,{type:"match",pairs:[{trg:"贈(おく)り物(もの)",src:"gift / present"},{trg:"のし",src:"decorative gift wrapping paper"},{trg:"包(つつ)む",src:"to wrap"},{trg:"気持(きも)ちを込(こ)める",src:"(review)"},{trg:"お礼(れい)を言(い)う",src:"to express gratitude / to say thank you"},{trg:"記念品(きねんひん)",src:"commemorative item / souvenir / memento"}]},{type:"match",pairs:[{trg:"つまらないものですが",src:"this is a small/trivial thing, but..."}]}]
 };
 export default BATCH8_L1;

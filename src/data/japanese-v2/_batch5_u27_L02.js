@@ -73,6 +73,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"Japan's recycling culture is driven partly by:", opts:["Being resource-poor and importing most raw materials","Having abundant natural resources","Government mandates only","Foreign pressure only"], ans:"Being resource-poor and importing most raw materials",
      hint:"Japan's scarcity of natural resources fostered a deep cultural value of not wasting."}
-  ]
+  ,{type:"match",pairs:[{trg:"保全(ほぜん)",src:"preservation / conservation"},{trg:"里山(さとやま)",src:"satoyama (managed rural landscape)"},{trg:"復活(ふっかつ)",src:"revival / restoration / resurrection"}]}]
 };
 export default BATCH5_L_2;

@@ -87,6 +87,6 @@ const BATCH2_L_3 = {
 
     {type:"mc", q:"Which connector would you use to add supporting examples?", opts:["ようするに","さらに","たとえば","ぎゃくに"], ans:"たとえば",
      hint:"This connector introduces concrete instances that illustrate or support a general statement."},
-  ]
+  {type:"match",pairs:[{trg:"発想(はっそう)",src:"idea / concept / way of thinking"}]}]
 };
 export default BATCH2_L_3;

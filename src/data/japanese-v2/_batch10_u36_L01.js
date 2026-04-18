@@ -64,6 +64,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Which word means outlook or prospect?", opts:["展望(てんぼう)","貢献(こうけん)する","振(ふ)り返(かえ)り","期待(きたい)"], ans:"展望(てんぼう)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"課題(かだい)",src:"challenge or task"}]}]
 };
 export default BATCH10_L1;

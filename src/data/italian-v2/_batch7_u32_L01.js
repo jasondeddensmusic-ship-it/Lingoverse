@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identita culturale", icon:"\u{1
  {trg:"l'integrazione", src:"integration"},
  {trg:"la globalizzazione", src:"globalization"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la tradizione",src:"tradition"}]}]};
 export default BATCH7_L1;

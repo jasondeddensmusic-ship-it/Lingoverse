@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u30l_b7_1", title:"Il registro formale", icon:"\u{1F
  {trg:"laddove", src:"whereas"},
  {trg:"in quanto", src:"since / as"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"occorre che",src:"it is necessary that"}]}]};
 export default BATCH7_L1;

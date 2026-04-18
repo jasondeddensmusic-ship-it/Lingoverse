@@ -122,6 +122,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What is a 鍋(なべ)?",
      opts:["pot / hot pot","knife","pan","bowl"], ans:"pot / hot pot",
      hint:"Both a cooking vessel and a popular winter group meal in Japan."}
-  ]
+  ,{type:"match",pairs:[{trg:"焼(や)く",src:"to grill / to bake / to roast"},{trg:"切(き)る",src:"to cut"},{trg:"鍋(なべ)",src:"pot / saucepan"},{trg:"フライパン",src:"frying pan"},{trg:"包丁(ほうちょう)",src:"kitchen knife"},{trg:"まな板(いた)",src:"cutting board"}]},{type:"match",pairs:[{trg:"味(あじ)",src:"flavor / taste"},{trg:"味噌(みそ)",src:"miso (fermented soybean paste)"}]}]
 };
 export default BATCH4_L_1;

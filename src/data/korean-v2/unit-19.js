@@ -274,7 +274,7 @@ const UNIT_19 =
 {type:"fb",s:"비가 오{1} 봐요. 사람들이 우산을 가지고 있어요.\n(It seems like it is raining. People have umbrellas.)",a:["나"],opts:["나","는","은가","을"],hint:"-나 보다 (evidence-based guess). Evidence: people with umbrellas."},
 {type:"match",pairs:[{nl:"-더라고요",en:"past experience retold"},{nl:"-잖아요",en:"you know (reminder)"},{nl:"-나 보다",en:"it seems (evidence)"},{nl:"-(으)ㄹ수록",en:"the more..."}]},
 {type:"drag_fill",s:"한국에서 {1} 살수록 {2}이 들{3}. 이제 떠나고 싶지 않아요.\n(The more I live in Korea, the more jeong forms, I found. Now I do not want to leave.)",blanks:{"1":"살면","2":"정","3":"더라고요"},pool:["살면","정","더라고요","사는데","관계","네요"],hint:"V면 V(으)ㄹ수록 (progressive) + 정이 들다 (attachment) + -더라고요 (realization). Final comprehensive question."},
-]},
+{type:"match",pairs:[{trg:"관계",src:"relationship, relation"},{trg:"사이",src:"relationship, between"}]}]},
 
 ]};
 

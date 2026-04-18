@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"役所(やくしょ) is the place to:", opts:["Register residence and get official documents","Borrow books","Report crimes","See art exhibitions"], ans:"Register residence and get official documents",
      hint:"This government office handles o... paperwork for residents."}
-  ]
+  ,{type:"match",pairs:[{trg:"大使館(たいしかん)",src:"embassy"},{trg:"体育館(たいいくかん)",src:"gymnasium / sports center"},{trg:"健康(けんこう)",src:"health"},{trg:"階段(かいだん)",src:"stairs / staircase"},{trg:"エレベーター",src:"elevator"}]}]
 };
 export default BATCH6_L1;

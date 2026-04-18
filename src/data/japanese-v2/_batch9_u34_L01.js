@@ -64,6 +64,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"Which word means conflict?", opts:["紛争(ふんそう)","協力(きょうりょく)","条約(じょうやく)","緊張(きんちょう)"], ans:"紛争(ふんそう)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"制裁(せいさい)",src:"sanctions"}]}]
 };
 export default BATCH9_L1;

@@ -116,6 +116,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What does 改札(かいさつ) mean?",
      opts:["ticket gate","ticket office","waiting room","exit"], ans:"ticket gate",
      hint:"The turnstile where you tap your IC card to enter the station."}
-  ]
+  ,{type:"match",pairs:[{trg:"乗(の)り換(か)え",src:"transfer (trains/buses)"},{trg:"改札(かいさつ)",src:"ticket gate / turnstile"},{trg:"ホーム",src:"platform (train station)"},{trg:"定期券(ていきけん)",src:"commuter pass"},{trg:"入国(にゅうこく)",src:"entry into a country / immigration"},{trg:"手荷物(てにもつ)",src:"hand luggage / carry-on"}]},{type:"match",pairs:[{trg:"観光(かんこう)",src:"sightseeing / tourism"}]}]
 };
 export default BATCH4_L_1;

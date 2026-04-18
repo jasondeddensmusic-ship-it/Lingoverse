@@ -57,6 +57,6 @@ const BATCH10_L1 = {
     ]},
     {type:"mc", q:"What does 工夫(くふう) represent in Japanese culture?", opts:["Finding clever solutions within constraints","Giving up on difficult tasks","Spending more money","Asking for help"], ans:"Finding clever solutions within constraints",
      hint:"This word captures the Japanese value of creative invention born from necessity."}
-  ]
+  ,{type:"match",pairs:[{trg:"困(こま)る",src:"to be troubled / to be at a loss"},{trg:"相談(そうだん)する",src:"to consult / to discuss"},{trg:"仕方(しかた)がない",src:"it cannot be helped / there is no choice"},{trg:"めどが立(た)つ",src:"to have a rough timeline / to see a way forward"}]}]
 };
 export default BATCH10_L1;

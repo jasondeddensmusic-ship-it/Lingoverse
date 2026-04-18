@@ -117,6 +117,6 @@ const BATCH3_L_1 = {
      opts:["Pirandello","Calvino","Svevo","Moravia"],
      ans:"Svevo",
      hint:"This author from Trieste, a friend of James Joyce, explored consciousness through innovative narrative techniques in his most famous novel."}
-  ]
+  ,{type:"match",pairs:[{trg:"la critica",src:"the criticism / critical analysis"},{trg:"la similitudine",src:"the simile"},{trg:"il flashback",src:"the flashback"},{trg:"la suspense",src:"the suspense"},{trg:"il monologo interiore",src:"the interior monologue"}]},{type:"mc",q:"How do you say \"antagonist\" in Italian?",opts:["l'antagonista","la finestra","il tavolo","la bicicletta"],ans:"l'antagonista",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_1;

@@ -222,7 +222,7 @@ const UNIT_03 = {
 
   {type:"mc", q:"十二(じゅうに) means:", opts:["12","100","2","20"], ans:"12",
    hint:"Juu (ten) + ni (two) = twelve."},
-]},
+{type:"match",pairs:[{trg:"誰(だれ)",src:"who"}]}]},
 
 ,BATCH3_L1
 ,BATCH4_L01

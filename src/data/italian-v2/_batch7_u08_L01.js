@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u08l_b7_1", title:"Gioielli e accessori", icon:"\u{1
  {trg:"il diamante", src:"diamond"},
  {trg:"il portafoglio", src:"wallet"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la borsa",src:"the handbag / purse"},{trg:"indossare",src:"to wear"}]}]};
 export default BATCH7_L1;

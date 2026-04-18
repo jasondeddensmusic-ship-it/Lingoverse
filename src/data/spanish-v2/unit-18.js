@@ -229,5 +229,5 @@ export default {n:18,lang:"es",srcLang:"en",track:"v2",title:"Es Importante Que.
         {type:"mc",q:"Which sentence needs INDICATIVE (not subjunctive)?",opts:["Dudo que sepa algo.","No creo que tenga razon.","Creo que tiene razon.","Es posible que venga."],ans:"Creo que tiene razon.",hint:"Positive belief (___ ___) uses indicative."},
         {type:"drag_fill",hint:"Three irregular subjunctive verbs: ser, haber, salir.",s:"No creo que {1} facil, pero espero que {2} una solucion y que todo {3} bien.",blanks:{"1":"sea","2":"haya","3":"salga"},pool:["sea","es","haya","hay","salga","sale"]},
         {type:"mc",q:"Te sugiero que ___ las maletas esta noche para que manana no ___ prisa.",opts:["hiciste / tuviste","haces / tienes","haras / tendras","hagas / tengas"],ans:"hagas / tengas",hint:"Both clauses need subjunctive: sugerir que + para que."}
-  ]}
+  ,{type:"match",pairs:[{trg:"prefiera",src:"(that I/he/she) prefer"},{trg:"oiga",src:"(that I/he/she) hear"}]}]}
 ]};

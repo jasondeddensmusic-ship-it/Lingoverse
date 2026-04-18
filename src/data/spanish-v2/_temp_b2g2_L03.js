@@ -120,7 +120,7 @@ const LESSON_3 = {id:"esv2_b2g2_l3",title:"Naturaleza y medio ambiente",icon:"�
 
 {type:"match",pairs:[{trg:"brisa",src:"breeze"},{trg:"arcilla",src:"clay"},{trg:"arado",src:"plow"},{trg:"aleta",src:"fin"},{trg:"camada",src:"litter (animals)"}]},
 
-{type:"mc",q:"¿Qué es una alimaña?",opts:["Un animal dañino o plaga","Un tipo de planta tropical","Una roca volcánica","Un instrumento de labranza"],ans:"Un animal dañino o plaga",hint:"Think about harmful animals that attack farms or livestock."}
+{type:"mc",q:"¿Qué es una alimaña?",opts:["Un animal dañino o plaga","Un tipo de planta tropical","Una roca volcánica","Un instrumento de labranza"],ans:"Un animal dañino o plaga",hint:"This noun describes a pest or vermin that causes damage in fields and farms."}
 ]};
 
 export default LESSON_3;

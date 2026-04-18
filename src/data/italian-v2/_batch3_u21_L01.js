@@ -118,6 +118,6 @@ const BATCH3_U21_L1 = {
      opts:["Refuse a drink firmly","Accept a drink invitation gracefully","Order aggressively at a bar","Complain about the drink quality"],
      ans:"Accept a drink invitation gracefully",
      hint:"'Volentieri' (gladly) combined with the conditional creates a playful, polite acceptance. Less direct than 'vorrei bere.' Very natural Italian."}
-  ]
+  ,{type:"match",pairs:[{trg:"viaggerei",src:"I would travel"},{trg:"terrei",src:"I would keep / I would hold"},{trg:"saprei",src:"I would know (how to)"},{trg:"starei",src:"I would stay / I would be"}]}]
 };
 export default BATCH3_U21_L1;

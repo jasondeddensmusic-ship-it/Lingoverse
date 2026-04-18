@@ -82,7 +82,7 @@ const BATCH2_L_2 = {
     {type:"match", pairs:[{trg:"使(つか)い方(かた)",src:"how to use"},{trg:"生(い)き方(かた)",src:"way of living"},{trg:"のに時間(じかん)がかかる",src:"takes time to do"},{trg:"未来(みらい)",src:"future"}]},
 
     {type:"mc", q:"生(い)き方(かた) is a profound word because:", opts:["It means 'walking style'","It refers to your life philosophy and how you choose to exist","It is a casual greeting","It describes physical exercise"], ans:"It refers to your life philosophy and how you choose to exist",
-     hint:"生(い)き方(かた) goes beyond 'lifestyle' to encompass values, p..., and existential choices."},
+     hint:"This profound term encompasses your values, principles, and fundamental approach to being in the world — far deeper than a mere routine or habit."},
   ]
 };
 export default BATCH2_L_2;

@@ -154,7 +154,7 @@ const UNIT_12 = {
    text:"もう + past tense = already did\nもう食(た)べました。(I already ate.)\n\nまだ + negative = not yet\nまだ食(た)べていません。(I have not eaten yet.)\n\nまだ + positive = still doing\nまだ食(た)べています。(I am still eating.)\n\nShort answers:\nもう? > はい、もう[past]。/ いいえ、まだです。",
    deepDive:{title:"もう in questions",
     text:"When もう appears in a question, it often implies expectation:\nもうできましたか? (Are you done already? / Have you finished yet?)\nもうわかりましたか? (Do you understand now? / Have you figured it out?)\n\nThe speaker expects or hopes the answer is yes. If you want a neutral question without expectation, do not use もう."}},
-]},
+{type:"match",pairs:[{trg:"行(い)ける",src:"can go"}]}]},
 
 ,BATCH2_L1
 ,BATCH4_L01

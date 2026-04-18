@@ -24,4 +24,4 @@ const BATCH5_L_1={id:"itv2_u27l_b5_1",title:"Metodo scientifico",icon:"\u{1F52C}
 {type:"mc",q:"Cos'e la falsificabilita secondo Popper?",opts:["La possibilita di dimostrare che una teoria e falsa","La capacita di falsificare i dati","Un errore nella ricerca","Una teoria sbagliata"],ans:"La possibilita di dimostrare che una teoria e falsa",hint:"If a claim cannot be tested and potentially proven wrong, it is not scientific."},
 {type:"fb",s:"Il ricercatore ha dichiarato un {1} di interessi.",a:["conflitto"],opts:["conflitto","comitato","principio","brevetto"],hint:"When personal interests could affect professional judgment. Must be declared.",sSrc:"The researcher declared a {1} of interest."},
 {type:"mc",q:"L'Italia e il maggiore produttore europeo di che tipo di prodotto?",opts:["Farmaci","Automobili","Software","Grano"],ans:"Farmaci",hint:"Both patented and generic medicines. Italy leads Europe in pharmaceutical manufacturing."},
-]};export default BATCH5_L_1;
+{type:"match",pairs:[{trg:"la peer review",src:"peer review"}]}]};export default BATCH5_L_1;

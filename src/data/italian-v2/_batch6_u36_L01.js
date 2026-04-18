@@ -109,5 +109,5 @@ const BATCH6_L1 = {id:"itv2_u36l_b6_1", title:"Pronti per il CILS B2", icon:"\u{
  {trg:"sintetizzare", src:"to summarize"},
  {trg:"controbattere", src:"to counter"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"a mio avviso",src:"in my opinion"},{trg:"a condizione che",src:"on condition that"},{trg:"evidenziare",src:"to highlight / to emphasize"},{trg:"conseguentemente",src:"consequently / as a result"}]},{type:"mc",q:"How do you say \"argumentation / reasoning\" in Italian?",opts:["la finestra","il tavolo","l'argomentazione","la bicicletta"],ans:"l'argomentazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH6_L1;

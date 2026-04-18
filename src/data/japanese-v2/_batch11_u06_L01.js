@@ -112,6 +112,6 @@ const BATCH11_L1 = {
      opts:["20th","8th","1st","14th"],
      ans:"20th",
      hint:"This is the last irregular date after the 10th. It uses an ancient word for twenty."}
-  ]
+  ,{type:"match",pairs:[{trg:"三日(みっか)",src:"the 3rd"},{trg:"六日(むいか)",src:"the 6th"},{trg:"八日(ようか)",src:"the 8th"},{trg:"九日(ここのか)",src:"the 9th"},{trg:"二十日(はつか)",src:"the 20th"},{trg:"誕生日(たんじょうび)",src:"birthday"}]}]
 };
 export default BATCH11_L1;

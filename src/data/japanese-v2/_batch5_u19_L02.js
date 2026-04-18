@@ -87,6 +87,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"もったいない best describes:", opts:["A feeling that something valuable should not be wasted","A feeling of anger","A feeling of happiness","A feeling of fear"], ans:"A feeling that something valuable should not be wasted",
      hint:"This Japanese concept respects the inherent value in resources and opportunities."}
-  ]
+  ,{type:"match",pairs:[{trg:"せっかく",src:"with effort / going to the trouble of / specially"},{trg:"後悔(こうかい)する",src:"to regret"},{trg:"残(のこ)す",src:"to leave behind / to leave remaining"},{trg:"取(と)り返(かえ)しがつかない",src:"irreversible / it cannot be undone"}]}]
 };
 export default BATCH5_L_2;

@@ -192,7 +192,7 @@ const UNIT_7 =
 {type:"fb",s:"Ich sollte mich nicht so {1}.",a:"aufregen",opts:["aufregen","aufgeregt","aufregt","aufzuregen"],hint:"After modal verbs, the infinitive follows.",sSrc:"I should not get so worked up."},
 {type:"mc",q:"Er hat dem Kind geholfen, weil es ___ hat.",opts:["geweint","weinen","geweinen","geweaint"],ans:"geweint",hint:"weinen is a regular verb: past participle ge...t."},
 {type:"drag_fill",s:"Wir {1} den Krankenwagen rufen, {2} der Unfall sehr schlimm {3}.",blanks:{1:"mussten",2:"weil",3:"war"},pool:["mussten","müssen","weil","dass","war","ist"],hint:"Präteritum of müssen, then weil sends the verb to the end.",sSrc:"We had to call the ambulance because the accident was very bad."},
-{type:"fb",s:"Pass auf dich {1}!",a:"auf",opts:["auf","an","aus","um"],hint:"Separable verb! Which prefix belongs here?",sSrc:"Take care of yourself!"},
+{type:"fb",s:"Fahr langsam und pass {1} im Verkehr!",a:"auf",opts:["auf","an","aus","um"],hint:"Separable verb for staying alert. Which prefix completes aufpassen?",sSrc:"Drive slowly and watch out in traffic!"},
 {type:"mc",q:"Die Gesundheit ___ den Menschen am wichtigsten.",opts:["hat","wird","ist","macht"],ans:"ist",hint:"Which verb describes a state or condition, not an action?"},
 {type:"drag_fill",s:"Er {1} sich endlich {2}, weil er manchmal zu viel {3} hat.",blanks:{1:"hat",2:"ausgeruht",3:"gearbeitet"},pool:["hat","ist","ausgeruht","ausruhen","gearbeitet","arbeiten"],hint:"Reflexive verb: which auxiliary? Then past participle forms for resting and working.",sSrc:"He finally rested because he had sometimes worked too much."},
 {type:"mc",q:"Der Zahnarzt hat ___ Mädchen gesagt, dass es keine Angst haben soll.",opts:["das","dem","der","den"],ans:"dem",hint:"sagen takes a dative object. Mädchen is neuter."},
@@ -225,7 +225,7 @@ const UNIT_7 =
 {type:"mc",q:"Plötzlich war mir schwindelig. Was bedeutet 'plötzlich'?",opts:["slowly","suddenly","hopefully","always"],ans:"suddenly",hint:"It describes something happening without warning."},
 {type:"drag_fill",s:"Gestern war ich {1}, aber heute bin ich wieder {2}.",blanks:{"1":"krank","2":"fit"},pool:["krank","fit","schwach","wach","gefährlich"],hint:"From illness yesterday to feeling good today.",sSrc:"Yesterday I was sick, but today I am fit again."},
 {type:"match",pairs:[{trg:"gesund", pos:"adj", gender:null,src:"healthy"},{trg:"schwach", pos:"adj", gender:null,src:"weak"},{trg:"gefährlich", pos:"adj", gender:null,src:"dangerous"},{trg:"furchtbar", pos:"adj", gender:null,src:"terrible"},{trg:"plötzlich", pos:"adv", gender:null,src:"suddenly"},{trg:"hoffentlich", pos:"adv", gender:null,src:"hopefully"}]},
-{type:"mc",q:"Was ist eine Krankschreibung?",opts:["Ein Rezept für Medizin","Eine Rechnung vom Krankenhaus","Ein Dokument vom Arzt für den Chef","Ein Brief an die Familie"],ans:"Ein Dokument vom Arzt für den Chef",hint:"It tells your employer why you cannot come to work."}]}
+{type:"mc",q:"Was ist eine Krankschreibung?",opts:["Ein Rezept für Medizin","Eine Rechnung vom Krankenhaus","Ein Dokument vom Arzt für den Chef","Ein Brief an die Familie"],ans:"Ein Dokument vom Arzt für den Chef",hint:"It tells your employer why you cannot come to work."},{type:"match",pairs:[{trg:"der Patient",src:"the patient (male)"},{trg:"stark",src:"strong"},{trg:"die Sprechstunde",src:"consultation hours"},{trg:"fallen",src:"to fall"},{trg:"schwanger",src:"pregnant"},{trg:"die Krankschreibung",src:"the sick note"},{trg:"fit",src:"fit"}]}]}
 ]};
 
 export default UNIT_7;

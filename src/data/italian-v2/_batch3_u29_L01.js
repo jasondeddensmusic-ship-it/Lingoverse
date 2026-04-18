@@ -117,6 +117,6 @@ const BATCH3_L_1 = {
      opts:["Perche forniscono trattamento gratuito per le tossicodipendenze e altre dipendenze","Perche sono gli unici centri autorizzati a vendere farmaci","Perche sostituiscono gli ospedali nelle zone rurali","Perche offrono diagnosi e ricovero per tutte le malattie mentali"],
      ans:"Perche forniscono trattamento gratuito per le tossicodipendenze e altre dipendenze",
      hint:"These public health centers offer free counseling, medication, and rehabilitation for substance addiction and other dependencies."}
-  ]
+  ,{type:"match",pairs:[{trg:"il disturbo",src:"the disorder"},{trg:"il questionario",src:"the questionnaire"},{trg:"il narcisismo",src:"narcissism"},{trg:"il campione",src:"the sample (research)"}]},{type:"mc",q:"How do you say \"collective unconscious\" in Italian?",opts:["la finestra","l'inconscio collettivo","il tavolo","la bicicletta"],ans:"l'inconscio collettivo",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_1;

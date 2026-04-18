@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u07l_b6_1", title:"In cucina", icon:"\u{1F373}", xp:
  {trg:"mescolare", src:"to stir"},
  {trg:"scolare", src:"to drain"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"il grembiule",src:"the apron"}]}]};
 export default BATCH6_L1;

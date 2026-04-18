@@ -120,6 +120,6 @@ const BATCH3_L_1 = {
     {type:"mc", q:"います is used for:", opts:["Books and pens","Boxes and wallets","Tables and chairs","Cats and people"],
      ans:"Cats and people",
      hint:"This existence verb is only for things that are alive and move on their own."},
-  ]
+  {type:"match",pairs:[{trg:"スマホ",src:"smartphone"},{trg:"辞書(じしょ)",src:"dictionary"},{trg:"箱(はこ)",src:"box"}]}]
 };
 export default BATCH3_L_1;

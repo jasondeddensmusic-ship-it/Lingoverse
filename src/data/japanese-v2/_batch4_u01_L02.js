@@ -122,6 +122,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"ごめんなさい is best translated as:",
      opts:["I'm sorry (apology)","excuse me","thank you","congratulations"], ans:"I'm sorry (apology)",
      hint:"A direct, emotional a... to someone you wronged."}
-  ]
+  ,{type:"match",pairs:[{trg:"ごめんなさい",src:"(review)"},{trg:"お願(ねが)いします",src:"please (request)"},{trg:"お疲(つか)れさまです",src:"good work / thanks for your effort"},{trg:"ただいま",src:"(review)"}]}]
 };
 export default BATCH4_L_2;

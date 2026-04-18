@@ -69,6 +69,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Why do Japanese store cashiers now ask 袋(ふくろ)はいりますか?", opts:["Plastic bags became paid since 2020","They want to sell bags","It is a traditional greeting","Bags are out of stock"], ans:"Plastic bags became paid since 2020",
      hint:"Japan's environmental policy changed to reduce the 30 billion p... b... used annually."}
-  ]
+  ,{type:"match",pairs:[{trg:"コンビニ",src:"convenience store"},{trg:"袋(ふくろ)",src:"bag / sack"},{trg:"支払(しはら)い",src:"payment"}]}]
 };
 export default BATCH10_L1;

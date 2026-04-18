@@ -61,7 +61,7 @@ const LESSON_16 = {id:"frv2_b2g5_l16", title:"Droits humains et éthique", icon:
   {type:"mc", q:"Que signifie 'agir impunément'?",
    opts:["Agir sans être puni","Agir avec prudence","Agir collectivement","Agir rapidement"],
    ans:"Agir sans être puni",
-   hint:"Doing something without facing any consequences or punishment"},
+   hint:"Acting freely without ever facing legal or social consequences for your actions."},
 
   {type:"fb", s:"Les bombardements {1} touchent les civils innocents.",
    a:["indiscriminés"], opts:["indiscriminés","insurmontables","industriels","indiscutables"],

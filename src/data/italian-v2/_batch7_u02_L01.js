@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u02l_b7_1", title:"Misure e numeri ordinali", icon:"
  {trg:"il chilometro", src:"kilometer"},
  {trg:"il centimetro", src:"centimeter"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"nono",src:"ninth"},{trg:"pesare",src:"to weigh"},{trg:"la meta",src:"the half"}]}]};
 export default BATCH7_L1;

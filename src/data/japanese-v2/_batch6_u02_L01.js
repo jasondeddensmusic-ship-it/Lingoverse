@@ -100,6 +100,6 @@ const BATCH6_L1 = {
 
     {type:"fb", s:"お仕事(しごと)は{1}ですか？\n(What is your job?)", a:"なん", opts:["なん","どこ","いくら","だれ"], sSrc:"What is your job?",
      hint:"The question word meaning 'what' that fits before ですか."}
-  ]
+  ,{type:"match",pairs:[{trg:"教師(きょうし)",src:"teacher (formal)"},{trg:"エンジニア",src:"engineer"},{trg:"働(はたら)く",src:"to work"}]}]
 };
 export default BATCH6_L1;

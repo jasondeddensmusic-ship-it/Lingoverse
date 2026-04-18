@@ -139,6 +139,6 @@ const BATCH4_U03_L1 = {
      opts:["Both nephew/niece and grandson/granddaughter","Only grandson","Only nephew","Brother-in-law"],
      ans:"Both nephew/niece and grandson/granddaughter",
      hint:"This Italian word is unusual because it has two quite different meanings."}
-  ]
+  ,{type:"match",pairs:[{trg:"il suocero",src:"the father-in-law"},{trg:"simpatico",src:"nice / likeable / fun"},{trg:"antipatico",src:"unpleasant / unlikeable"},{trg:"gentile",src:"kind / gentle / polite"},{trg:"affettuoso",src:"affectionate / loving"},{trg:"orgoglioso",src:"proud"}]},{type:"match",pairs:[{trg:"il carattere",src:"the character / personality"},{trg:"volersi bene",src:"to love each other / to care for each other"}]}]
 };
 export default BATCH4_U03_L1;

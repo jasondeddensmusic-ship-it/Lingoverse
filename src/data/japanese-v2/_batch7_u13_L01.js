@@ -139,6 +139,6 @@ const BATCH7_L1 = {
      opts:["感動(かんどう)","満足(まんぞく)","残念(ざんねん)","注意(ちゅうい)"],
      hint:"The movie deeply impressed and emotionally moved you. You even cried.",
      sSrc:"I was {1} by this movie. I cried."}
-  ]
+  ,{type:"match",pairs:[{trg:"旅館(りょかん)",src:"traditional Japanese inn"},{trg:"満足(まんぞく)",src:"satisfaction / satisfied"}]}]
 };
 export default BATCH7_L1;

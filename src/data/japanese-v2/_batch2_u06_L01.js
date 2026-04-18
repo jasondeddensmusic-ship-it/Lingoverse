@@ -102,5 +102,5 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"{1}は何人(なんにん)いますか？\n(How many cousins do you have?)", a:"いとこ", opts:["いとこ","兄弟(きょうだい)","子供(こども)","孫(まご)"], sSrc:"How many cousins do you have?",
    hint:"The gender-neutral word for a relative of your same generation but different parents."},
-]};
+{type:"match",pairs:[{trg:"子供(こども)",src:"child / children"},{trg:"六人(ろくにん)",src:"six people"},{trg:"七人(しちにん)",src:"seven people"},{trg:"にぎやか",src:"lively / bustling"}]}]};
 export default BATCH2_L_1;

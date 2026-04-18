@@ -19,6 +19,6 @@ const BATCH5_L_2 = {
     {type:"match", pairs:[{trg:"条約(じょうやく)",src:"treaty/convention"},{trg:"多国間(たこくかん)",src:"multilateral"},{trg:"相互理解(そうごりかい)",src:"mutual understanding"},{trg:"ソフトパワー",src:"soft power"}]},
     {type:"fb", s:"日本(にほん)は災害被災国(さいがいひさいこく)への{1}を行(おこな)っています。\n(Japan provides humanitarian aid to disaster-affected countries.)", a:"人道的支援(にんどうてきしえん)", opts:["人道的支援(にんどうてきしえん)","経済援助(けいざいえんじょ)","軍事支援(ぐんじしえん)","文化的援助(ぶんかてきえんじょ)"], sSrc:"Japan provides humanitarian aid to disaster-affected countries.", hint:"The compound meaning 'humanitarian support,' combining the word for humanity with support."},
     {type:"mc", q:"Japan joined the United Nations in:", opts:["1956","1945","1970","2000"], ans:"1956", hint:"Japan was admitted to the UN 11 years after World War II ended."}
-  ]
+  ,{type:"match",pairs:[{trg:"文化交流(ぶんかこうりゅう)",src:"cultural exchange"},{trg:"加盟国(かめいこく)",src:"member state / signatory nation"}]}]
 };
 export default BATCH5_L_2;

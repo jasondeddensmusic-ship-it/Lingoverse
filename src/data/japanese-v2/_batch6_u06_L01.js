@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"真面目(まじめ)な人(ひと) describes someone who is:", opts:["Serious and diligent","Funny and playful","Shy and quiet","Tall and strong"], ans:"Serious and diligent",
      hint:"This na-adjective describes someone reliable and hardworking."}
-  ]
+  ,{type:"match",pairs:[{trg:"背(せ)が高(たか)い",src:"tall (person)"},{trg:"背(せ)が低(ひく)い",src:"short (person)"},{trg:"真面目(まじめ)",src:"serious / diligent / earnest"},{trg:"元気(げんき)",src:"energetic / healthy / well"},{trg:"かっこいい",src:"cool / handsome / stylish"}]}]
 };
 export default BATCH6_L1;

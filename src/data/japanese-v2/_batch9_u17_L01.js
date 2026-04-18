@@ -69,6 +69,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What is おれおれさぎ?", opts:["A phone scam targeting elderly people","A type of theft","A traffic violation","A cybercrime"], ans:"A phone scam targeting elderly people",
      hint:"Scammers call pretending to be relatives, saying 'it's me, it's me' to trick victims."}
-  ]
+  ,{type:"match",pairs:[{trg:"巻(ま)き込(こ)まれる",src:"to get caught up in / to get involved"},{trg:"捕(つか)まる",src:"to be caught / to be arrested"},{trg:"意識(いしき)を失(うしな)う",src:"to lose consciousness"},{trg:"不審者(ふしんしゃ)",src:"suspicious person"}]}]
 };
 export default BATCH9_L1;

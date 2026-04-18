@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does 共生(きょうせい)社会(しゃかい) aim for?", opts:["A society where people of all backgrounds coexist harmoniously","A society focused only on economic growth","A society with strict rules","A society without technology"], ans:"A society where people of all backgrounds coexist harmoniously",
      hint:"This policy vision promotes inclusion of diverse p..., abilities, and cultures."}
-  ]
+  ,{type:"match",pairs:[{trg:"働(はたら)き方(かた)改革(かいかく)",src:"work-style reform"},{trg:"格差(かくさ)",src:"gap / disparity / inequality"},{trg:"ジェンダー",src:"gender"},{trg:"多様(たよう)",src:"diversity"},{trg:"ボランティア",src:"volunteer / volunteering"},{trg:"共生(きょうせい)社会(しゃかい)",src:"inclusive society / society of coexistence"}]},{type:"match",pairs:[{trg:"福祉(ふくし)",src:"welfare / social services"}]}]
 };
 export default BATCH8_L1;

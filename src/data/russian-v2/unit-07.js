@@ -275,7 +275,7 @@ const UNIT_07 = {n:7, lang:"ru", srcLang:"en", track:"v2", title:"Погода",
   {trg:"ветрено", src:"windy"},
   {trg:"температура", src:"temperature"}
 ]}
-]}
+,{type:"match",pairs:[{trg:"жарко",src:"(it is) hot"},{trg:"прохладно",src:"cool"}]}]}
 
 ]};
 export default UNIT_07;

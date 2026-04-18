@@ -139,6 +139,6 @@ const BATCH4_U12_L1 = {
      opts:["I was left surprised / I was surprised","I stayed at the surprise","I returned to be surprised","I surprised someone"],
      ans:"I was left surprised / I was surprised",
      hint:"'Rimanere' with emotions means 'to be l... in that emotional state.'"}
-  ]
+  ,{type:"match",pairs:[{trg:"salire / salito",src:"to go up, to climb / gone up"},{trg:"scendere / sceso",src:"to go down, to descend / gone down"},{trg:"morire / morto",src:"to die / dead, died"},{trg:"rimanere / rimasto",src:"to stay, to remain / stayed"},{trg:"succedere / successo",src:"to happen / happened"},{trg:"restare / restato",src:"to stay, to remain / stayed"}]},{type:"match",pairs:[{trg:"arrivare / arrivato",src:"to arrive / arrived"},{trg:"entrare / entrato",src:"to enter / entered"},{trg:"uscire / uscito",src:"to go out, to exit / gone out"}]}]
 };
 export default BATCH4_U12_L1;

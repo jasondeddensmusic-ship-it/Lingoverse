@@ -172,5 +172,5 @@ export default {n:10,lang:"fr",srcLang:"en",track:"v2",title:"Le passé composé
         {type:"fb",opts:["réveillés","réveillé","réveillée","réveillées"],hint:"The children woke up. Masculine plural: -és.",s:"Les enfants se sont {1} à six heures. (to wake up, masc. pl.)",a:"réveillés"},
         {type:"mc",q:"You now know passé composé with avoir AND être. What percentage of verbs use avoir?",opts:["About 10%","About 50%","About 90%","All of them"],ans:"About 90%",hint:"Être verbs are a small, memorizable group. The vast majority use the other helper."},
         {type:"fb",opts:["fait","faire","fais","faite"],hint:"I did my homework. Irregular participle of faire.",s:"Hier, j'ai {1} mes devoirs et je suis sorti. (to do)",a:"fait"}
-  ]}
+  ,{type:"match",pairs:[{trg:"tomber",src:"to fall (past: tombé)"}]}]}
 ]};

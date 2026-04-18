@@ -15,6 +15,6 @@ const BATCH10_L1 = {
     {type:"fb", s:"プロジェクトの{1}は順調(じゅんちょう)です。\n(Project progress is smooth.)", a:"進捗(しんちょく)", opts:["進捗(しんちょく)","結果(けっか)","実施(じっし)","対応(たいおう)"], sSrc:"Project progress is smooth.", hint:"This word refers to how far work has advanced toward completion."},
     {type:"match", pairs:[{trg:"実施(じっし)",src:"implementation"},{trg:"確認(かくにん)",src:"confirmation"},{trg:"運営(うんえい)",src:"management"},{trg:"対応(たいおう)",src:"response"}]},
     {type:"mc", q:"How many different meanings does 保証(ほしょう) have?", opts:["Three (guarantee, security, compensation)","One","Two","Four"], ans:"Three (guarantee, security, compensation)", hint:"Each meaning uses different kanji but sounds identical."}
-  ]
+  ,{type:"match",pairs:[{trg:"検討(けんとう)",src:"examination / consideration"},{trg:"判断(はんだん)",src:"judgment / decision"},{trg:"保証(ほしょう)",src:"guarantee / warranty"}]}]
 };
 export default BATCH10_L1;

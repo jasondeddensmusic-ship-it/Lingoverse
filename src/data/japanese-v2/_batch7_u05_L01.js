@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["味(あじ)","色(いろ)","形(かたち)","サイズ"],
      hint:"The cook is asking about how the food tastes. This noun means 'flavor.'",
      sSrc:"How is the {1}? Is it just right?"}
-  ]
+  ,{type:"match",pairs:[{trg:"台所(だいどころ)",src:"kitchen"},{trg:"レシピ",src:"recipe"}]}]
 };
 export default BATCH7_L1;

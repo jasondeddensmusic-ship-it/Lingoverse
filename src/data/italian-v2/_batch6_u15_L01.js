@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u15l_b6_1", title:"Problemi in casa", icon:"\u{1F527
  {trg:"la crepa", src:"crack"},
  {trg:"la muffa", src:"mold"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la presa",src:"the outlet / socket"},{trg:"aggiustare",src:"to fix / to adjust"}]}]};
 export default BATCH6_L1;

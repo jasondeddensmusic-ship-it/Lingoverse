@@ -93,5 +93,5 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"これは{1}ですか？\n(Is this cotton?)", a:"綿(めん)", opts:["綿(めん)","絹(きぬ)","革(かわ)","紙(かみ)"], sSrc:"Is this cotton?",
    hint:"The natural fabric most commonly used in everyday clothing."},
-]};
+{type:"match",pairs:[{trg:"黄色(きいろ)い",src:"yellow"},{trg:"サイズ",src:"size"}]}]};
 export default BATCH2_L_1;

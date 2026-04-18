@@ -318,7 +318,7 @@ const UNIT_07 = {
        opts:["Molto piccante","Ben crudo","Molto fresco","Ben cotto"],
        ans:"Ben cotto",
        hint:"The adverb meaning 'thoroughly' combines with the past participle of 'cuocere.' No pink left inside."}
-    ]},
+    ,{type:"match",pairs:[{trg:"prenotare",src:"to book / to reserve"},{trg:"saporito",src:"tasty / flavorful"}]}]},
     EXP_07_L1, EXP_07_L2, EXP_07_L3,
   ]
 };

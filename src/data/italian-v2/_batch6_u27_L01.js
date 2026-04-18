@@ -109,5 +109,5 @@ const BATCH6_L1 = {id:"itv2_u27l_b6_1", title:"La ricerca medica", icon:"\u{1F9E
  {trg:"la scoperta", src:"discovery"},
  {trg:"contagioso", src:"contagious"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"il campione",src:"the sample / specimen"},{trg:"la terapia genica",src:"the gene therapy"},{trg:"il protocollo",src:"the protocol"}]},{type:"mc",q:"How do you say \"efficacy / effectiveness\" in Italian?",opts:["la finestra","il tavolo","l'efficacia","la bicicletta"],ans:"l'efficacia",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH6_L1;

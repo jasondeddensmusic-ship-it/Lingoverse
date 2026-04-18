@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["虹(にじ)","星(ほし)","雲(くも)","風(かぜ)"],
      hint:"After rain, this colorful arc appears in the sky. Japanese tradition says it has seven colors.",
      sSrc:"After the rain, a {1} appeared."}
-  ]
+  ,{type:"match",pairs:[{trg:"緑(みどり)",src:"green"}]}]
 };
 export default BATCH7_L1;

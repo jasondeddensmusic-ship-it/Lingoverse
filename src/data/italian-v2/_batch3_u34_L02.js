@@ -111,6 +111,6 @@ const BATCH3_L_2 = {
      opts:["Sono tre sinonimi perfetti e intercambiabili in ogni contesto","Il profugo e generico, il rifugiato ha status giuridico internazionale, lo sfollato e interno al proprio paese","Il profugo viene dall'Africa, il rifugiato dal Medio Oriente, lo sfollato dall'Europa orientale","La differenza riguarda solo l'eta: profugo per adulti, rifugiato per famiglie, sfollato per minori"],
      ans:"Il profugo e generico, il rifugiato ha status giuridico internazionale, lo sfollato e interno al proprio paese",
      hint:"Three related but distinct terms: one is general, one has specific legal recognition under international law, and one refers to displacement within national borders."}
-  ]
+  ,{type:"match",pairs:[{trg:"il genocidio",src:"genocide"},{trg:"la zona di conflitto",src:"the conflict zone"},{trg:"le mine antiuomo",src:"antipersonnel landmines"},{trg:"la sicurezza collettiva",src:"collective security"}]}]
 };
 export default BATCH3_L_2;

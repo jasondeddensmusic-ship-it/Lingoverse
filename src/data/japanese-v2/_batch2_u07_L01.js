@@ -99,5 +99,5 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"よく映画(えいが)を{1}ますか？\n(Do you often watch movies?)", a:"見(み)", opts:["見(み)","行(い)き","食(た)べ","書(か)き"], sSrc:"Do you often watch movies?",
    hint:"The polite stem of the verb for seeing or watching."},
-]};
+{type:"match",pairs:[{trg:"〜時間(じかん)",src:"~ hour(s) (duration)"},{trg:"あまり",src:"not very much / not often"},{trg:"日曜日(にちようび)",src:"Sunday"}]}]};
 export default BATCH2_L_1;

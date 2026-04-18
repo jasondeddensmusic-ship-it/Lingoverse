@@ -118,6 +118,6 @@ const BATCH2_U16_L1 = {
      opts:["A private insurance card","An impegnativa (referral)","A signed letter from a family member","A direct appointment without any referral"],
      ans:"An impegnativa (referral)",
      hint:"The 'medico di base' writes this document to authorize a specialist visit. Without it, you pay the full private rate."}
-  ]
+  ,{type:"match",pairs:[{trg:"la circolazione",src:"the circulation (blood)"},{trg:"il reflusso",src:"acid reflux / heartburn"},{trg:"la visita di controllo",src:"the check-up / follow-up visit"}]}]
 };
 export default BATCH2_U16_L1;

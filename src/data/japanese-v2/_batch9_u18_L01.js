@@ -57,6 +57,6 @@ const BATCH9_L1 = {
     ]},
     {type:"mc", q:"What is サービスざんぎょう?", opts:["Unpaid overtime work","A service industry job","Overtime with bonus pay","Voluntary weekend work"], ans:"Unpaid overtime work",
      hint:"This practice, though technically illegal, involves working extra hours without compensation."}
-  ]
+  ,{type:"match",pairs:[{trg:"上司(じょうし)",src:"superior / boss"},{trg:"部下(ぶか)",src:"subordinate"},{trg:"同僚(どうりょう)",src:"colleague / coworker"},{trg:"有給(ゆうきゅう)",src:"paid leave / paid vacation"}]}]
 };
 export default BATCH9_L1;

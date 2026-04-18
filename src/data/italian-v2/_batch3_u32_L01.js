@@ -111,6 +111,6 @@ const BATCH3_L_1 = {
      opts:["Un modello che collega direttamente produttori locali e consumatori senza intermediari","Un tipo di contratto di lavoro a breve termine nel settore agricolo","Una catena di negozi che vende solo prodotti italiani Made in Italy","Una strategia di delocalizzazione per ridurre i costi di trasporto"],
      ans:"Un modello che collega direttamente produttori locali e consumatori senza intermediari",
      hint:"A short, direct connection between local producers and consumers. Farmers' markets and solidarity purchasing groups exemplify this trend."}
-  ]
+  ,{type:"match",pairs:[{trg:"il debito estero",src:"the foreign debt"},{trg:"la microfinanza",src:"microfinance"},{trg:"la zona franca",src:"the free trade zone"},{trg:"la crescita demografica",src:"population growth"}]},{type:"mc",q:"How do you say \"World Trade Organization\" in Italian?",opts:["la finestra","l'organizzazione mondiale del commercio","il tavolo","la bicicletta"],ans:"l'organizzazione mondiale del commercio",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_1;

@@ -116,6 +116,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What happens in December in Japan?",
      opts:["bonenkai (year-end parties)","cherry blossom viewing","school starts","golden week"], ans:"bonenkai (year-end parties)",
      hint:"P... to 'forget the y...' are a December tradition in Japan."}
-  ]
+  ,{type:"match",pairs:[{trg:"火曜日(かようび)",src:"Tuesday"},{trg:"木曜日(もくようび)",src:"Thursday"},{trg:"土曜日(どようび)",src:"Saturday"},{trg:"一月(いちがつ)",src:"January"},{trg:"八月(はちがつ)",src:"August"},{trg:"十二月(じゅうにがつ)",src:"December"}]},{type:"match",pairs:[{trg:"記念日(きねんび)",src:"anniversary / memorial day"}]}]
 };
 export default BATCH4_L_1;

@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["A laundry drying index","A cooking difficulty index","A shopping index","A sleep quality index"],
      ans:"A laundry drying index",
      hint:"Because most Japanese households dry clothes outside, the weather forecast includes a helpful rating about this daily chore."}
-  ]
+  ,{type:"match",pairs:[{trg:"洗(あら)う",src:"to wash"},{trg:"着替(きが)える",src:"to change clothes"},{trg:"掃除(そうじ)する",src:"to clean"},{trg:"洗濯(せんたく)する",src:"to do laundry"},{trg:"片付(かたづ)ける",src:"to tidy up / organize"},{trg:"出(で)かける",src:"to go out"}]},{type:"match",pairs:[{trg:"使(つか)う",src:"to use"}]}]
 };
 export default BATCH11_L1;

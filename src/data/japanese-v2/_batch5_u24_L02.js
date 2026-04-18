@@ -79,6 +79,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"にともなって describes:", opts:["Two things that change together (correlated)","Opposite changes","Unrelated events","Past and future"], ans:"Two things that change together (correlated)",
      hint:"伴う means 'to accompany,' so this pattern describes changes that go hand in hand."}
-  ]
+  ,{type:"match",pairs:[{trg:"たとえ〜ても",src:"even if ~ / no matter how ~"},{trg:"〜にともなって",src:"along with / accompanying / as ~ changes"},{trg:"賢明(けんめい)",src:"wise / sensible / prudent"},{trg:"判断(はんだん)",src:"judgment / decision / assessment"},{trg:"事態(じたい)",src:"situation / state of affairs / circumstances"}]}]
 };
 export default BATCH5_L_2;

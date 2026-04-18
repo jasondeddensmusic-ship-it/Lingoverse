@@ -214,5 +214,5 @@ export default {n:25,lang:"es",srcLang:"en",track:"v2",title:"Si Hubiera Sabido"
         {type:"mc",q:"Which is a correct past counterfactual?",opts:["Si tuviera dinero, viajé","Si tengo dinero, viajo","Si hubiera tenido dinero, habría viajado","Si tendría dinero, viajaría"],ans:"Si hubiera tenido dinero, habría viajado",hint:"Past counterfactuals: si + pluperfect subjunctive + conditional perfect."},
         {type:"drag_fill",hint:"I wish there were more people like you in the world.",s:"Ojalá {1} más personas {2} tú en el mundo.",blanks:{"1":"hubiera","2":"como"},pool:["hubiera","como","hay","así","habría"]},
         {type:"mc",q:"You want to express that learning Spanish is hard but you wish it were easier. You say:",opts:["Ojalá es más fácil","Ojalá sea más fácil","Ojalá será más fácil","Ojalá fuera más fácil"],ans:"Ojalá fuera más fácil",hint:"You know it is not easy and it will not change. Use imperfect subjunctive for this unlikely wish."}
-  ]}
+  ,{type:"match",pairs:[{trg:"estudiara",src:"I studied / I would study (subj.)"}]}]}
 ]};

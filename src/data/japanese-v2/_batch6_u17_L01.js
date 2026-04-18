@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"届(とど)ける can mean:", opts:["Both to deliver and to report","Only to deliver","Only to report","To steal"], ans:"Both to deliver and to report",
      hint:"This versatile verb covers physical delivery and official notification."}
-  ]
+  ,{type:"match",pairs:[{trg:"事件(じけん)",src:"incident / case / crime"},{trg:"無(な)くす",src:"to lose (an item)"},{trg:"倒(たお)れる",src:"to collapse / to fall down"},{trg:"救急車(きゅうきゅうしゃ)",src:"ambulance"},{trg:"捕(つか)まえる",src:"to catch / to capture"},{trg:"届(とど)ける",src:"to deliver / to report / to notify"}]}]
 };
 export default BATCH6_L1;

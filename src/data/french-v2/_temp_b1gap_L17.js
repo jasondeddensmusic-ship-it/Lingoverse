@@ -91,7 +91,7 @@ const LESSON_17 = {id:"frv2_b1gap_l17", title:"Sciences et technologie", icon:"\
  funFact:"Feux d'artifice (fireworks) literally means 'artificial fires.' Lac artificiel = man-made lake."},
 
 {type:"mc",
- q:"Quel mot désigne un appareil électronique ou mécanique ?",
+ q:"Quel mot générique s'applique à un outil électronique ou mécanique, des prothèses dentaires jusqu'aux caméras ?",
  opts:["un appareil","une application","un appel","une annexe"],
  ans:"un appareil",
  hint:"This versatile word covers cameras, dental braces, hearing aids, and any device."},

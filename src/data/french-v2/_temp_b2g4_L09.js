@@ -85,7 +85,7 @@ const LESSON_9 = {
      funFact:"'Collision frontale' is a head-on crash. Also used for direct confrontation in debates."},
 
     {type:"mc",
-     q:"Quel mot designe un dechainement soudain et violent ?",
+     q:"Quel mot évoque une libération soudaine et violente d'une force longtemps retenue ?",
      opts:["une detonation","une extremite","un explosif","un dechainement"],
      ans:"un dechainement",
      hint:"Literally means 'un-chaining'. Something that was held back is suddenly released."},

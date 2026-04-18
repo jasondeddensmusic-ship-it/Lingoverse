@@ -425,7 +425,7 @@ const UNIT_6 =
   {type:"match",pairs:[{nl:"에",en:"to/at (static or destination)"},{nl:"에서",en:"at (action location)"},{nl:"(으)로",en:"by/toward (means/direction)"},{nl:"을/를",en:"object marker"}]},
   {type:"drag_fill",s:"저는 버스{1} 공항{2} 가요. 공항{3} 두 시간 기다렸어요.",blanks:{"1":"로","2":"에","3":"에서"},pool:["로","에","에서","를","는"],hint:"I go to the airport by bus. I waited at the airport for 2 hours."},
   {type:"mc",q:"지금까지 배운 것으로 할 수 있는 것은?",opts:["회의에서 유창하게 말하기 (Speak fluently in meetings)","한국 소설 읽기 (Read Korean novels)","자막 없이 드라마 보기 (Watch dramas without subs)","기본 생활 한국어 (Handle survival Korean)"],ans:"기본 생활 한국어 (Handle survival Korean)",hint:"At this stage you can navigate, eat, shop, ask directions, and manage basic numbers."},
-]},
+{type:"match",pairs:[{trg:"기다리다",src:"to wait"},{trg:"찾다",src:"to find / to look for"},{trg:"(이)랑",src:"and / with (casual)"},{trg:"유턴",src:"U-turn"},{trg:"아래 / 밑",src:"below / under"},{trg:"뒤",src:"behind / back"}]},{type:"match",pairs:[{trg:"과거 시제 미리보기",src:"Adding the past tense car"},{trg:"앉다 → 앉아요",src:"to sit → sits"},{trg:"날씨",src:"weather"},{trg:"마다",src:"every / each"},{trg:"아주",src:"very / extremely"},{trg:"바람",src:"wind"}]},{type:"match",pairs:[{trg:"바다",src:"sea / ocean"},{trg:"재킷",src:"jacket"},{trg:"스웨터",src:"sweater"},{trg:"가방",src:"bag"},{trg:"T-money 카드",src:"T-money card"},{trg:"보통",src:"usually"}]},{type:"match",pairs:[{trg:"다시",src:"again"},{trg:"혼자",src:"alone"},{trg:"A1 Complete: Grammar Summary",src:"Everything covered through U6"}]}]},
 
 ]};
 

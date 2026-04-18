@@ -137,5 +137,5 @@ const BATCH6_L1 = {id:"itv2_u12l_b6_1", title:"Verbi di movimento", icon:"\u{1F3
  {trg:"tuffarsi", src:"to dive"},
  {trg:"arrampicarsi", src:"to climb"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"raggiungere",src:"to reach / to catch up with"},{trg:"strisciare",src:"to crawl / to drag"},{trg:"rotolare",src:"to roll"},{trg:"stendersi",src:"to lie down / to stretch out"}]}]};
 export default BATCH6_L1;

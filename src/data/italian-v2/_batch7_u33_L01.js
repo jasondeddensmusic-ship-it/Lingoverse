@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u33l_b7_1", title:"La logica e l'argomentazione", ic
  {trg:"l'analogia", src:"analogy"},
  {trg:"confutare", src:"to refute"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"sostenere",src:"to argue / to maintain / to support"},{trg:"oggettivo",src:"objective"}]}]};
 export default BATCH7_L1;

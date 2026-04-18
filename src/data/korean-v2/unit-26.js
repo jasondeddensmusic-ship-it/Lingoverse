@@ -266,6 +266,7 @@ const UNIT_26 =
 {type:"mc",q:"도착하는 대로 연락할게요.\n-는 대로 'as soon as'와 비슷한 표현은?\n(Will contact as soon as I arrive.)",opts:["-자마자 (as soon as)","-(으)면 (if)","-(으)ㄹ 때 (when)","-기 전에 (before)"],ans:"-자마자 (as soon as)",hint:"Which connector expresses zero-gap immediacy: the very instant one thing happens, the next follows?"},
 {type:"drag_fill",s:"겉{1}만 보면 달라 보이{2}만 속{3} 보면 비슷한 법이에요.\n(Looking outside seems different but inside, similar .  way of things.)",blanks:{"1":"으로","2":"지","3":"을"},pool:["으로","지","을","에서","고","이"],hint:"By-appearance. But. Object."},
 {type:"mc",q:"U26의 핵심 주제는?\n(Core theme of U26?)",opts:["새로운 어휘만 (Only vocabulary)","세대 차이와 습관/경향 패턴 (Generation gap and habit/tendency patterns)","발음 연습 (Pronunciation)","읽기만 (Reading only)"],ans:"세대 차이와 습관/경향 패턴 (Generation gap and habit/tendency patterns)",hint:"U26 = 세대 차이 vocabulary + recurring-action and inclination grammar."},
+{type:"match",pairs:[{trg:"-기/게 마련이다",src:"it's bound to / inevitable"},{trg:"-기 십상이다",src:"tend to (negative outcome likely)"}]},
 {type:"drag_fill",s:"최종: particles ({1}, {2}, {3}) support patterns.\n곤 했다, 마련이다, 법이다, 구나, 고 나면, 고 보면.\n(Subject. Topic. Every.)",blanks:{"1":"이/가","2":"은/는","3":"마다"},pool:["이/가","은/는","마다","을/를","에서","부터"],hint:"Which three particles appear most often supporting patterns? Think about marking roles in sentences."},
 ]},
 

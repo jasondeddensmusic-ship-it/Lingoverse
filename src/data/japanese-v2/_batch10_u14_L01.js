@@ -69,6 +69,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"What does 辞任(じにん)する mean in Japanese corporate culture?", opts:["Resigning to take responsibility for a failure","Getting promoted","Retiring early","Changing departments"], ans:"Resigning to take responsibility for a failure",
      hint:"This practice reflects the deep importance of 責任(せきにん) in Japanese leadership."}
-  ]
+  ,{type:"match",pairs:[{trg:"信(しん)じる",src:"to believe / to trust"},{trg:"公平(こうへい)",src:"fair / impartial"},{trg:"努力(どりょく)",src:"effort / hard work"}]}]
 };
 export default BATCH10_L1;

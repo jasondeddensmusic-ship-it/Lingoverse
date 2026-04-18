@@ -130,6 +130,6 @@ const BATCH3_U08_L1 = {
      opts:["They cannot afford irons","Wrinkles are part of 'sprezzatura' (studied casualness)","Linen is never sold in Italy","Italian linen does not wrinkle"],
      ans:"Wrinkles are part of 'sprezzatura' (studied casualness)",
      hint:"Over-ironing linen is considered fussy. The relaxed, slightly rumpled look is intentionally elegant in Italian fashion culture."}
-  ]
+  ,{type:"match",pairs:[{trg:"la misura",src:"the measurement / size"},{trg:"il camerino",src:"the fitting room"},{trg:"il numero",src:"the number / shoe size"},{trg:"la vetrina",src:"the shop window / display"},{trg:"il marchio",src:"the brand / label"}]}]
 };
 export default BATCH3_U08_L1;

@@ -38,7 +38,7 @@ const LESSON_8 = {id:"esv2_b2g3_l8", title:"Materiales y construcción", icon:"�
 
   {type:"fb", s:"La bandera está a media {1} en señal de duelo.", a:["asta"], opts:["asta","borda","calza","batiente"], hint:"The tall pole from which a flag flies, lowered halfway to show mourning.", sSrc:"The flag is at half {1} as a sign of mourning."},
 
-  {type:"mc", q:"¿Cuál es el significado original de 'amasijo'?", opts:["Una masa de pan","Un tipo de metal","Una herramienta antigua","Un edificio romano"], ans:"Una masa de pan", hint:"From amasar (to knead). Originally referred to a batch of dough being kneaded together."},
+  {type:"mc", q:"¿Cuál es el significado original de 'amasijo'?", opts:["Una masa de pan","Un tipo de metal","Una herramienta antigua","Un edificio romano"], ans:"Una masa de pan", hint:"The original meaning comes from bread-making. Think of kneading dough into a lump before it rises."},
 
   {type:"fb", s:"El {1} de calcio es un componente fundamental de los huesos.", a:["carbonato"], opts:["carbonato","amoníaco","acetato","cronómetro"], hint:"A chemical compound found in shells, chalk, and bones.", sSrc:"{1} of calcium is a fundamental component of bones."}
 ]};

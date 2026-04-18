@@ -88,6 +88,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"Japan's energy self-sufficiency is low because:", opts:["The country has few natural resources","It uses too much solar power","It exports all its energy","It has no nuclear power"], ans:"The country has few natural resources",
      hint:"Japan must import most of its fossil fuels and raw materials."}
-  ]
+  ,{type:"match",pairs:[{trg:"持続可能(じぞくかのう)",src:"sustainable"},{trg:"太陽光(たいようこう)",src:"solar power / sunlight"},{trg:"排出(はいしゅつ)",src:"emission / discharge"},{trg:"汚(よご)す",src:"to pollute / to dirty / to contaminate"}]}]
 };
 export default BATCH6_L1;

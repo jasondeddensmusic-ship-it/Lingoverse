@@ -139,6 +139,6 @@ const BATCH4_U07_L1 = {
      opts:["Over 450","About 50","Around 100","Exactly 200"],
      ans:"Over 450",
      hint:"Italy is one of the world's largest cheese producers with incredible variety."}
-  ]
+  ,{type:"match",pairs:[{trg:"la ricetta",src:"the recipe"},{trg:"la bruschetta",src:"the bruschetta"},{trg:"la porzione",src:"the portion / serving"},{trg:"prenotare",src:"to reserve / to book"}]}]
 };
 export default BATCH4_U07_L1;

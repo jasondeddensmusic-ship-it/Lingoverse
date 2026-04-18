@@ -72,7 +72,7 @@ const LESSON_12 = {
 
     {type:"fb", s:"Mon {1} a connu les deux guerres mondiales.",
      a:["arriere-grand-pere"], opts:["arriere-grand-pere","premier","pendant","oral"],
-     hint:"The family member two generations above your grandparents",
+     hint:"A male relative who is two steps up the family tree: your father's or mother's father's father.",
      sSrc:"My {1} experienced both world wars."},
 
     {type:"mc", q:"En France, le primaire correspond a quels ages?",

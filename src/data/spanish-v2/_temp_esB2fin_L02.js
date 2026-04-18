@@ -146,7 +146,7 @@ const LESSON_2 = {
       {trg:"el dispositivo", src:"the device"}
     ]},
 
-    {type:"mc", q:"¿Cuál es la abreviatura española de 'inteligencia artificial'?",
+    {type:"mc", q:"¿Cuál es el acrónimo en español para este campo tecnológico?",
      opts:["AI","IA","Int.Art.","I.A.R."],
      ans:"IA",
      hint:"Spanish reverses the English word order: the noun comes before the adjective."},

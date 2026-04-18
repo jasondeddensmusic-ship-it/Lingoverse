@@ -291,7 +291,7 @@ const UNIT_28 = {
        opts:["Meno del 10%","Circa l'80%","Circa il 40%","Il 100%"],
        ans:"Circa il 40%",
        hint:"Italy has one of the lowest reading rates in Western Europe. The percentage is well under half the population."}
-    ]}
+    ,{type:"match",pairs:[{trg:"la narrativa",src:"the fiction / narrative prose"},{trg:"il verso",src:"the verse / line of poetry"},{trg:"il colpo di scena",src:"the plot twist"},{trg:"il capitolo",src:"the chapter"}]}]}
   ]
 };
 

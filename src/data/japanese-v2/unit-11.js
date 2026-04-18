@@ -168,7 +168,7 @@ const UNIT_11 = {
    text:"1. Requests: て-form + くだ��い\n食(た)べてください。(Please eat.)\n来(き)てください。(Please come.)\n\n2. Ongoing actions: て-form + いる/います\n食(た)べています。(I am eating.)\n読(よ)んでいます。(I am reading.)\n\n3. Permission: て-form + もいいですか\n食(た)べてもいいですか? (May I eat?)\n撮(と)っ���もいいですか? (May I take it?)",
    deepDive:{title:"ている for states vs actions",
     text:"The ている form has two main uses:\n\nOngoing action: 今(いま)ご飯(は��)を食(た)べています。(I am eating dinner right now.)\nResultant state: 結婚(けっこん)しています。(I am married.)\n\nHow to tell the difference? Verbs describing instantaneous actions (like 'to marry,' 'to die,' 'to arrive') use ている for the resulting state. Verbs describing continuous actions (like 'to eat,' 'to read,' 'to run') use ている for the ongoing action."}},
-]},
+{type:"match",pairs:[{trg:"\u301Cてください",src:"please do ~"},{trg:"\u301Cている",src:"is doing ~ / ~ ing"},{trg:"\u301CてもいいですかQuestion",src:"may I ~? / is it okay to ~?"}]}]},
 
 ,BATCH2_L1
 ,BATCH4_L01

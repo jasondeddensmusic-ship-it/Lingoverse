@@ -100,7 +100,7 @@ export default {n:14,lang:"es",srcLang:"en",track:"v2",title:"Planes",sub:"Futur
         {type:"mc",q:"Marta ___ a la reunión mañana.",opts:["venirá","vendrá","venerá","vendré"],ans:"vendrá",hint:"Venir has an irregular stem in the future, and Marta is third person."},
         {type:"fb",opts:["saldremos","saliremos","saldré","saldrán"],hint:"We will leave. Use the irregular stem saldr- with the nosotros ending.",s:"Nosotros {1} a las ocho de la mañana.",a:"saldremos"},
         {type:"mc",q:"¿Dónde ___ usted las llaves?",opts:["ponerá","ponirá","pondrá","pondré"],ans:"pondrá",hint:"Poner has the same -dr- stem pattern. Usted is third person singular."},
-        {type:"fb",opts:["Tendrás","Tenerás","Tenirás","Tendrán"],hint:"Asking informal you. Tener becomes tendr- plus the tú ending.",s:"¿{1} tiempo para ayudarme?",a:"Tendrás"},
+        {type:"fb",opts:["Tendrás","Tenerás","Tenirás","Tendrán"],hint:"Informal tú form. This verb uses an irregular stem with a -d- insertion before the -r-.",s:"¿{1} tiempo para ayudarme?",a:"Tendrás"},
         {type:"teach",trg:"No tendré tiempo",src:"I will not have time",pos:"verb",gender:null,phonetic:"no ten-DREH TYEM-po",note:"Negation: just add no before the future verb, same as other tenses.",example:"A: ¿Vendrás al cine esta noche?\nB: No, no tendré tiempo. Tengo mucho trabajo.\nA: Otra vez será.",exampleSrc:"A: Will you come to the movies tonight?\nB: No, I will not have time. I have a lot of work.\nA: Another time then.",funFact:"Spanish verbs encode the subject in their ending, so pronouns are often dropped."},
         {type:"mc",q:"Ellos ___ de vacaciones en julio.",opts:["saliremos","salirán","saldré","saldrán"],ans:"saldrán",hint:"They will leave. Irregular stem ___- plus the third person plural ending."},
         {type:"drag_fill",hint:"I leave early (salir) and you come (venir) late.",s:"Yo {1} temprano y tú {2} tarde.",blanks:{"1":"saldré","2":"vendrás"},pool:["saldré","vendrás","saldrás","vendré"]},
@@ -128,7 +128,7 @@ export default {n:14,lang:"es",srcLang:"en",track:"v2",title:"Planes",sub:"Futur
         ],label:"Shortened stem + standard endings"},
         {type:"mc",q:"The future of 'hacer' (yo) is:",opts:["haré","haceré","haciré","hacré"],ans:"haré",hint:"The infinitive gets shortened drastically for this verb."},
         {type:"mc",q:"Ella no ___ venir a la cena.",opts:["poderá","podrá","podré","pueden"],ans:"podrá",hint:"Poder has a shortened stem ___- and ella is third person singular."},
-        {type:"fb",opts:["dirán","decirán","diré","dirás"],hint:"Your parents are third person plural. Decir becomes dir-.",s:"¿Qué {1} tus padres cuando se enteren?",a:"dirán"},
+        {type:"fb",opts:["dirán","decirán","diré","dirás"],hint:"Your parents = they, third person plural. Decir has a shortened stem in the future.",s:"¿Qué {1} tus padres cuando se enteren?",a:"dirán"},
         {type:"mc",q:"Nosotros ___ la respuesta pronto.",opts:["sabrán","saberemos","sabremos","sabré"],ans:"sabremos",hint:"We will know. Saber becomes sabr- plus the nosotros ending."},
         {type:"fb",opts:["haré","haceré","harás","hará"],hint:"I will make. First person singular with the shortened hacer stem.",s:"Yo {1} una tarta para tu cumpleaños.",a:"haré"},
         {type:"mc",q:"¿___ usted venir a las tres?",opts:["Podrán","Podré","Poderá","Podrá"],ans:"Podrá",hint:"Usted is conjugated like third person singular."},
@@ -230,5 +230,5 @@ export default {n:14,lang:"es",srcLang:"en",track:"v2",title:"Planes",sub:"Futur
         {type:"mc",q:"Which weather expression uses 'hay'?",opts:["Hay calor","Hay niebla","Hay viento","Hay sol"],ans:"Hay niebla",hint:"___ is used for atmospheric phenomena you can see: fog, storms, clouds."},
         {type:"fb",opts:["arco iris","relámpago","trueno","tormenta"],hint:"This colorful arc appears in the sky after rain.",s:"Después de la lluvia, vimos un {1} con todos los colores.",a:"arco iris"},
         {type:"drag_fill",hint:"In the mountain(s) there are many trees and beautiful flowers.",s:"En la {1} hay muchos {2} y {3} bonitas.",blanks:{"1":"montaña","2":"árboles","3":"flores"},pool:["montaña","árboles","flores","ríos"]}
-  ]}
+  ,{type:"match",pairs:[{trg:"el fin de semana",src:"the weekend"},{trg:"hablarás",src:"You will speak"},{trg:"hablará",src:"He/she will speak"},{trg:"hablarán",src:"They will speak"},{trg:"comerás",src:"You will eat"},{trg:"aprenderé",src:"I will learn"}]},{type:"match",pairs:[{trg:"El próximo año viajaré",src:"Next year I will travel"},{trg:"el mes que viene",src:"next month"},{trg:"¿Me ayudarás?",src:"Will you help me?"},{trg:"la nube",src:"the cloud"},{trg:"la tormenta",src:"the storm"},{trg:"el trueno",src:"the thunder"}]},{type:"match",pairs:[{trg:"el relámpago",src:"the lightning"},{trg:"la flor",src:"the flower"},{trg:"el árbol",src:"the tree"}]}]}
 ]};

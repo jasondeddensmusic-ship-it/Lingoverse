@@ -318,7 +318,7 @@ const UNIT_17 = {
        opts:["Because it ends in a consonant sound","Because all English loanwords are feminine","Because passwords are always kept secret","Because 'parola' (word) is feminine"],
        ans:"Because 'parola' (word) is feminine",
        hint:"Italian assigns gender to English loans based on the nearest native equivalent. An access code takes its grammatical gender from whichever Italian noun it most resembles."}
-    ]}
+    ,{type:"match",pairs:[{trg:"cercare su internet",src:"to search online"}]}]}
   ]
 };
 export default UNIT_17;

@@ -281,7 +281,7 @@ const UNIT_13 =
 {type:"mc",q:"이 드라마 정말 재미있네요! 누가 추천했어요?\n(This drama is really fun! Who recommended it?)",opts:["-는데요 (soft question)","-군요 (learned info)","-거든요 (explaining)","-네요 (direct observation)"],ans:"-네요 (direct observation)",hint:"Watching something live and reacting in the moment calls for the spontaneous real-time ending."},
 {type:"match",pairs:[{nl:"-자마자",en:"as soon as"},{nl:"-는데",en:"background / contrast"},{nl:"-거든요",en:"explaining reason"},{nl:"-네요",en:"surprise (direct)"}]},
 {type:"fb",s:"한국어를 {1} 수록 재미있는 것 같아요.\n(The more I study Korean, the more interesting it seems.)",a:["공부할"],opts:["공부할","공부하는","공부한","공부하기"],hint:"The 'the more X, the more Y' pattern uses a specific connector. Apply it to the studying verb."},
-]},
+{type:"match",pairs:[{trg:"아무",src:"any- / no- (prefix)"},{trg:"마르다",src:"to be dry, to be parched"}]}]},
 
 ]};
 

@@ -329,7 +329,7 @@ const UNIT_14 = {
        opts:["Il contratto","Il lavoro","Il progetto","Lo stage"],
        ans:"Lo stage",
        hint:"This word is borrowed from French and pronounced 'stazh.' The formal Italian alternative is 'tirocinio.'"}
-    ]}
+    ,{type:"match",pairs:[{trg:"dimettersi",src:"to resign"}]}]}
   ]
 };
 export default UNIT_14;

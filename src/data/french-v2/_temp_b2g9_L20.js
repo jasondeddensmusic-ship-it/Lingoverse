@@ -66,7 +66,7 @@ const LESSON_20 = {id:"frv2_b2g9_l20", title:"Synthèse et Révision", icon:"�
    sSrc:"{1} is a fundamental principle of the Republic."},
 
   {type:"mc", q:"Un confrère partage avec vous:", opts:["Le même bureau","La même famille","La même profession","Le même quartier"], ans:"La même profession",
-   hint:"Con- (with) + frère (brother). Professional brothers in the same field."},
+   hint:"The prefix con- means 'with' and frère means 'brother'. Think of two doctors or two lawyers sharing a field."},
 
   {type:"match", pairs:[
     {trg:"la mâchoire", src:"jaw"},

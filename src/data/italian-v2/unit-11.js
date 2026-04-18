@@ -310,7 +310,7 @@ const UNIT_11 = {
        opts:["Every year","Next year","This year","Last year"],
        ans:"Last year",
        hint:"'Scorso' comes from 'scorrere' (to flow, pass by). Think of the calendar page that already slipped away."}
-    ]},
+    ,{type:"match",pairs:[{trg:"avete dormito",src:"you (plural) slept"}]}]},
     EXP_11_L1, EXP_11_L2, EXP_11_L3,
   ]
 };

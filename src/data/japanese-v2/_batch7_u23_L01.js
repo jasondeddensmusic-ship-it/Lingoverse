@@ -121,6 +121,6 @@ const BATCH7_L1 = {
      opts:["知恵(ちえ)","空気(くうき)","本音(ほんね)","責任(せきにん)"],
      hint:"Let us all think hard together. This noun means 'wisdom' gained through experience.",
      sSrc:"Let us all squeeze out our {1}. Good ideas might emerge."}
-  ]
+  ,{type:"match",pairs:[{trg:"創造力(そうぞうりょく)",src:"creativity / imagination"}]}]
 };
 export default BATCH7_L1;

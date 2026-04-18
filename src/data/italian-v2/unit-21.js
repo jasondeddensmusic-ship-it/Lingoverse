@@ -321,7 +321,7 @@ const UNIT_21 = {
        opts:["Bisogna + an infinitive verb form","Secondo me + an indicative verb form","Penso che + a subjunctive verb form","Al posto tuo + conditional verb"],
        ans:"Al posto tuo + conditional verb",
        hint:"'If I were in your situation...' introduces advice diplomatically. The structure uses a position expression followed by a hypothetical mood."}
-    ]}
+    ,{type:"match",pairs:[{trg:"desidererei",src:"I would wish / I would desire"}]}]}
   ]
 };
 export default UNIT_21;

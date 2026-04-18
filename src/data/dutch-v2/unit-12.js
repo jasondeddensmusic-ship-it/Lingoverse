@@ -163,7 +163,7 @@ export default {n:12,lang:"nl",srcLang:"en",track:"v2",title:"Geld & Zaken",sub:
         {type:"mc",q:"'Zou je me willen helpen?' is:",opts:["A polite request using zou","A command","A hypothetical","A complaint"],ans:"A polite request using zou",hint:"___ + je + willen = ___ ___"},
         {type:"fb",opts:["was","ben","zou","had"],hint:"Hypothetical: als + imperfectum",s:"Als ik rijk ___, zou ik een huis kopen.",a:"was"},
         {type:"match",pairs:[{trg:"de rekening",src:"account / bill"},{trg:"sparen",src:"to save"},{trg:"de klacht",src:"the complaint"},{trg:"inschrijven",src:"to register"}]},
-        {type:"fb",opts:["zou","zal","kan","moet"],hint:"It COULD be that... = zou kunnen",s:"Het ___ kunnen dat hij ziek is. (might)",a:"zou"},
+        {type:"fb",opts:["zou","zal","kan","moet"],hint:"The conditional auxiliary expressing possibility: ___ kunnen = might",s:"Het ___ kunnen dat hij ziek is. (might)",a:"zou"},
         {type:"mc",q:"'De schuld' means:",opts:["The discount","The debt AND guilt/fault","The insurance","The salary"],ans:"The debt AND guilt/fault",hint:"Polysemy: d... + g..."},
         {type:"drag_fill",hint:"I would like to exchange this. It's broken.",s:"Ik {1} dit graag willen {2}. Het is {3}.",blanks:{"1":"zou","2":"ruilen","3":"kapot"},pool:["zou","ruilen","kapot","wil"]},
         {type:"fb",opts:["inschrijven","uitschrijven","tekenen","betalen"],hint:"To register at the municipality",s:"Ik moet me ___ bij de gemeente.",a:"inschrijven"},
@@ -177,5 +177,5 @@ export default {n:12,lang:"nl",srcLang:"en",track:"v2",title:"Geld & Zaken",sub:
         {type:"tr",mk:"v2u12_would_you_help",dir:"produce"},
         {type:"tr",mk:"v2u12_if_i_were_rich",dir:"produce"},
         {type:"tr",mk:"v2u12_register_gemeente",dir:"produce"}
-  ]}
+  ,{type:"match",pairs:[{trg:"de bankpas",src:"the debit card"},{trg:"geld opnemen",src:"to withdraw money"},{trg:"de lening",src:"the loan"},{trg:"het BSN-nummer",src:"the citizen service number"}]}]}
 ]};

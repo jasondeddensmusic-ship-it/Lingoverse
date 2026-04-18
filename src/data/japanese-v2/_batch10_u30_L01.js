@@ -64,6 +64,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Which word means tendency?", opts:["傾向(けいこう)","機能(きのう)する","仮説(かせつ)","客観的(きゃっかんてき)"], ans:"傾向(けいこう)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"主観的(しゅかんてき)",src:"subjective"}]}]
 };
 export default BATCH10_L1;

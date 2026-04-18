@@ -133,6 +133,6 @@ const BATCH4_U04_L1 = {
      opts:["Twice-cooked","Sweet bread","Little bite","Round cake"],
      ans:"Twice-cooked",
      hint:"The prefix 'bis-' means t..., and 'cotto' means c...."}
-  ]
+  ,{type:"match",pairs:[{trg:"il tiramisu",src:"the tiramisu"},{trg:"il cioccolato",src:"the chocolate"},{trg:"dolce",src:"sweet / dessert"},{trg:"amaro",src:"bitter"},{trg:"la fragola",src:"the strawberry"},{trg:"la pasticceria",src:"the pastry shop / bakery"}]},{type:"match",pairs:[{trg:"squisito",src:"delicious / exquisite"}]}]
 };
 export default BATCH4_U04_L1;

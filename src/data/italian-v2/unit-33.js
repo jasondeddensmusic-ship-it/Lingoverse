@@ -282,7 +282,7 @@ const UNIT_33 = {
        opts:["Una risposta rapida e diretta","Un'analisi superficiale del problema","Una citazione da un filosofo famoso","Una considerazione meditata e attenta"],
        ans:"Una considerazione meditata e attenta",
        hint:"Deeper than a quick thought. This noun describes the kind of careful, sustained thinking a complex topic demands."}
-    ]}
+    ,{type:"match",pairs:[{trg:"confutare",src:"to refute / to disprove"},{trg:"sostenere",src:"to argue / to maintain / to support"}]}]}
   ]
 };
 export default UNIT_33;

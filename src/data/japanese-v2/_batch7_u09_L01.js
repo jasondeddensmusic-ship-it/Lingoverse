@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["乾(かわ)き","汚(よご)れ","畳(たた)み","脱(ぬ)ぎ"],
      hint:"Because it is raining, the laundry will not become dry. This verb describes the drying process.",
      sSrc:"Because it is raining, the laundry will not {1}."}
-  ]
+  ,{type:"match",pairs:[{trg:"アクセサリー",src:"accessories / jewelry"},{trg:"試着室(しちゃくしつ)",src:"fitting room"}]}]
 };
 export default BATCH7_L1;

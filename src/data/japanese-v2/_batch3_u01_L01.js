@@ -123,6 +123,6 @@ const BATCH3_L_1 = {
     {type:"mc", q:"正解(せいかい) means:", opts:["question","correct answer","please wait","I understand"],
      ans:"correct answer",
      hint:"A teacher says this when a student gets something right."},
-  ]
+  {type:"match",pairs:[{trg:"どうも",src:"thanks / hello (casual catch-all)"},{trg:"ちょっと待(ま)ってください",src:"please wait a moment"},{trg:"お願(ねが)いします",src:"I humbly request / please (requesting a person)"}]}]
 };
 export default BATCH3_L_1;

@@ -261,7 +261,7 @@ const UNIT_21 =
 {type:"drag_fill",s:"경험{1} 풍부하{2} 열정적입니다. (cover letter)\n경험{3} 풍부하{4} 열정적이에요. (spoken)\n(Experienced and passionate. [formal vs casual])",blanks:{"1":"이","2":"며","3":"이","4":"고"},pool:["이","며","이","고","을","므로","가","어"],hint:"Subject. Written-and. Subject. Casual-and."},
 {type:"mc",q:"Transform: 바쁘니까 못 가요. (casual)\n→ 바쁘므로 참석이 어렵습니다. (formal)\nHow many elements changed?\n(Casual to formal register transformation.)",opts:["4 changes","1 change","2 changes","3: 니까→므로, 못 가요→참석이 어렵습니다, casual→합쇼체"],ans:"3: 니까→므로, 못 가요→참석이 어렵습니다, casual→합쇼체",hint:"Cause connector + vocabulary + speech level all change."},
 {type:"drag_fill",s:"Casual → Formal:\n-고 → {1}. -니까 → {2}. -려고 → {3}. -(으)로 → {4}.\n(Register transformation pairs.)",blanks:{"1":"-(으)며","2":"-(으)므로","3":"-고자","4":"-(으)로서"},pool:["-(으)며","-(으)므로","-고자","-(으)로서","-(으)면","-지만","-는데","-거든요"],hint:"And→written and. Because→written because. Intend→formal intent. Means→as-a-role."},
-]},
+{type:"match",pairs:[{trg:"구사하다",src:"to have command of (a language/skill)"},{trg:"풍부하다",src:"to be rich, abundant"},{trg:"뛰어나다",src:"to be outstanding, excellent"},{trg:"적합하다",src:"to be suitable, appropriate"},{trg:"자격",src:"qualification, credential"},{trg:"인재",src:"talented person, human resource"},{trg:"직장",src:"workplace"}]}]},
 
 ]};
 

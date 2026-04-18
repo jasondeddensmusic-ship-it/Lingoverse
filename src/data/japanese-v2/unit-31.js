@@ -179,7 +179,7 @@ const UNIT_31 = {
 
   {type:"mc", q:"国際条約(こくさいじょうやく) means:", opts:["international treaty","international law","international trade","international court"], ans:"international treaty",
    hint:"条約(じょうやく) is the word for a formal agreement between nations, requiring Diet ratification."},
-]},
+{type:"match",pairs:[{trg:"被告人(ひこくにん)",src:"defendant / the accused"}]}]},
 
 ,BATCH2_L01
 ,BATCH2_L02

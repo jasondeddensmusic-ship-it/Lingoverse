@@ -175,7 +175,7 @@ const UNIT_17 = {
 
   {type:"mc", q:"Which sentence uses ADVERSITY passive (not direct)?", opts:["褒(ほ)められた (was praised)","選(えら)ばれた (was chosen)","雨(あめ)に降(ふ)られた (got rained on)","招待(しょうたい)された (was invited)"], ans:"雨(あめ)に降(ふ)られた (got rained on)",
    hint:"Adversity passive uses intransitive verbs where the speaker is not the direct object but suffers from the event."},
-]},
+{type:"match",pairs:[{trg:"〜れる・〜られる",src:"passive suffix (is done / was done)"}]}]},
 
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01

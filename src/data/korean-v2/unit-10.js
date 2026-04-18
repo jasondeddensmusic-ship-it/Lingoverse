@@ -355,7 +355,7 @@ const UNIT_10 =
   {type:"fb",s:"네이버에서 ___했어요.\n(I searched on Naver.)",a:"검색",opts:["검색","사진","충전","메시지"],hint:"The Sino-Korean word for looking something up online."},
   {type:"match",pairs:[{nl:"컴퓨터",en:"computer"},{nl:"휴대폰",en:"cellphone"},{nl:"비밀번호",en:"password"},{nl:"충전기",en:"charger"}]},
   {type:"drag_fill",s:"카페에서 {1}를 연결하고 {2}로 {3}을 보내요. 그리고 네이버에서 맛집을 {4}해요.",blanks:{"1":"와이파이","2":"이메일","3":"사진","4":"검색"},pool:["와이파이","이메일","사진","검색","메시지","앱","비밀번호","충전기"],hint:"At the cafe I connect wifi and send photos by email. Then I search for restaurants on Naver."},
-]},
+{type:"match",pairs:[{trg:"일하다",src:"to work"},{trg:"자다 → 잤어요",src:"to sleep → slept"},{trg:"욕실",src:"bathroom (bathing)"},{trg:"신발을 벗다",src:"to take off shoes"},{trg:"온돌",src:"underfloor heating"},{trg:"의자",src:"chair"}]},{type:"match",pairs:[{trg:"침대",src:"bed"},{trg:"이에요/예요 → 이야/야",src:"am/is → am/is (casual)"},{trg:"후라이드",src:"fried (plain) chicken"},{trg:"벌써",src:"already (time flew)"},{trg:"이미",src:"already (completed)"},{trg:"천둥",src:"thunder"},{trg:"치킨",src:"Korean fried chicken"},{trg:"양념치킨",src:"seasoned fried chicken"},{trg:"들어가다 → 들어가요",src:"to enter / to go in"},{trg:"꽃",src:"flower"},{trg:"사진",src:"photo"}]}]},
 
 ]};
 

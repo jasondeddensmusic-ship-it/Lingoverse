@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u05l_b8_1", title:"Le faccende domestiche", icon:"ðŸ
  opts:["To dust","To make powder","To sweep","To vacuum"],
  ans:"To dust",
  hint:"'Polvere' means dust. 'Fare la polvere' is the act of removing dust from surfaces."}
-]};
+,{type:"match",pairs:[{trg:"la polvere",src:"the dust"},{trg:"il secchio",src:"the bucket"},{trg:"lo straccio",src:"the rag / mop cloth"}]}]};
 export default BATCH8_L1;

@@ -111,6 +111,6 @@ const BATCH3_L_1 = {
      opts:["Beccaria","Gentili","Machiavelli","Gramsci"],
      ans:"Gentili",
      hint:"This jurist wrote foundational texts on the laws of war before Grotius. He taught at Oxford and influenced British legal tradition."}
-  ]
+  ,{type:"match",pairs:[{trg:"il Consiglio di Sicurezza",src:"the Security Council"},{trg:"la missione di pace",src:"the peace mission"},{trg:"la cooperazione allo sviluppo",src:"development cooperation"}]},{type:"mc",q:"How do you say \"humanitarian aid\" in Italian?",opts:["la finestra","il tavolo","l'aiuto umanitario","la bicicletta"],ans:"l'aiuto umanitario",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_1;

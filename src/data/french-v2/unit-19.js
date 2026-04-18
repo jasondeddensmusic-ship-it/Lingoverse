@@ -254,6 +254,7 @@ export default {n:19,lang:"fr",srcLang:"en",track:"v2",title:"Le Plus-que-parfai
         {type:"match",pairs:[{trg:"le succès",src:"the success"},{trg:"l'échec",src:"the failure"},{trg:"le problème",src:"the problem"},{trg:"la solution",src:"the solution"},{trg:"le changement",src:"the change"}]},
         {type:"fb",opts:["solution","occasion","expérience","connaissance"],hint:"The answer that fixes or resolves a difficulty.",s:"On a trouvé une {1} au problème technique.",a:["solution"]},
         {type:"drag_fill",hint:"Her background and hard work helped her reach her aim.",s:"Grâce à son {1} et ses {2}, elle a atteint son {3}.",blanks:{"1":"expérience","2":"efforts","3":"objectif"},pool:["expérience","efforts","objectif","échec"]},
-        {type:"mc",q:"How do you say 'to solve a problem' in French?",opts:["avoir une occasion","trouver un succès","faire un changement","résoudre un problème"],ans:"résoudre un problème",hint:"The verb meaning to resolve or work out a difficulty."}
+        {type:"mc",q:"How do you say 'to solve a problem' in French?",opts:["avoir une occasion","trouver un succès","faire un changement","résoudre un problème"],ans:"résoudre un problème",hint:"The verb meaning to resolve or work out a difficulty."},
+        {type:"match",pairs:[{trg:"Nous étions arrivés",src:"We had arrived (masculine/mixed)"},{trg:"la connaissance",src:"the knowledge"}]}
   ]}
 ]};

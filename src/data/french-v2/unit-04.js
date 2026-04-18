@@ -183,5 +183,5 @@ export default {n:4,lang:"fr",srcLang:"en",track:"v2",title:"À table!",sub:"Foo
         {type:"mc",q:"'Ça fait quinze euros' means:",opts:["That comes to fifteen euros","Fifteen euros please","I have fifteen euros","Fifteen is a lot"],ans:"That comes to fifteen euros",hint:"Ça fait + price = the total amount."},
         {type:"mc",q:"In France, tipping at restaurants is:",opts:["Required at 15%","Included in the price","Considered rude","For takeout only"],ans:"Included in the price",hint:"Service compris: service charge is built into ___s."},
         {type:"mc",q:"'Aimer bien' is _____ than 'aimer':",opts:["Stronger","The same","Weaker","Only for food"],ans:"Weaker",hint:"Counterintuitive: adding bien reduces intensity."}
-  ]}
+  ,{type:"match",pairs:[{trg:"le thé",src:"the tea"},{trg:"le beurre",src:"the butter"},{trg:"le poisson",src:"the fish"},{trg:"Qu'est-ce que vous désirez?",src:"What would you like? (waiter asking)"}]}]}
 ]};

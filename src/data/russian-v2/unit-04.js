@@ -214,7 +214,7 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
  opts:["Winter food","Welcome for guests","Religious ceremony only","Breakfast"],
  ans:"Welcome for guests",
  hint:"An ancient Russian custom of hospitality — offering bread and salt to visitors."}
-]}
+,{type:"match",pairs:[{trg:"сок",src:"juice"},{trg:"мало",src:"a little / few"}]}]}
 
 ]};
 export default UNIT_04;

@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["励(はげ)ま","裏切(うらぎ)","頼(たよ)","許(ゆる)"],
      hint:"Friends cheered you up and you felt better. This verb means 'to encourage.'",
      sSrc:"I was {1} by friends and felt better."}
-  ]
+  ,{type:"match",pairs:[{trg:"付(つ)き合(あ)い",src:"association / social relationship / dating"}]}]
 };
 export default BATCH7_L1;

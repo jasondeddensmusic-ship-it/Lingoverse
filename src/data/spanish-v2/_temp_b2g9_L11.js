@@ -89,7 +89,7 @@ const LESSON_11 = {id:"esv2_b2g9_l11", title:"El mundo f\u00edsico", icon:"\u{1F
   {type:"mc", q:"\u00bfQu\u00e9 son los hidrocarburos?",
    opts:["Minerales encontrados en el agua","Compuestos qu\u00edmicos de hidr\u00f3geno y carbono","Tipos de plantas acu\u00e1ticas","Corrientes de agua subterr\u00e1nea"],
    ans:"Compuestos qu\u00edmicos de hidr\u00f3geno y carbono",
-   hint:"Hidro- relates to hydrogen, carburo to carbon. These compounds form the basis of petroleum and natural gas."},
+   hint:"The name combines roots for two elements. These organic compounds are the building blocks of petroleum and natural gas."},
 
   {type:"drag_fill", s:"El {1} mediterr\u00e1neo atrae millones de turistas. Un {2} de nieve cubr\u00eda las cumbres.",
    blanks:{"1":"litoral","2":"manto"},

@@ -100,6 +100,6 @@ const BATCH11_L1 = {
      opts:["International cooperation and development aid","Military defense","Trade regulation","Tax collection"],
      ans:"International cooperation and development aid",
      hint:"This Japanese government agency sends specialists and volunteers to developing countries for c... projects."}
-  ]
+  ,{type:"match",pairs:[{trg:"国連(こくれん)",src:"United Nations"},{trg:"紛争(ふんそう)",src:"conflict / dispute"},{trg:"人道的(じんどうてき)",src:"humanitarian"},{trg:"貿易(ぼうえき)",src:"trade / commerce"},{trg:"多文化(たぶんか)",src:"multicultural"}]}]
 };
 export default BATCH11_L1;

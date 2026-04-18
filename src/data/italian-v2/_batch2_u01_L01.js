@@ -136,6 +136,6 @@ const BATCH2_U01_L1 = {
      opts:["Salve","Ciao","Buonanotte","Arrivederci"],
      ans:"Salve",
      hint:"This 2,000-year-old Latin greeting sits perfectly between casual and formal. Use it with anyone."}
-  ]
+  ,{type:"match",pairs:[{trg:"buon pomeriggio",src:"good afternoon"},{trg:"come va?",src:"how is it going?"},{trg:"molto bene",src:"very well"}]}]
 };
 export default BATCH2_U01_L1;

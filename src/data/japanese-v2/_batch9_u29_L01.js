@@ -64,6 +64,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"Which word means employment rate?", opts:["雇用率(こようりつ)","景気後退(けいきこうたい)","デフレ","不況(ふきょう)"], ans:"雇用率(こようりつ)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"GDP",src:"gross domestic product"}]}]
 };
 export default BATCH9_L1;

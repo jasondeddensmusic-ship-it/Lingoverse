@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"明(あき)らか means:", opts:["Clear or obvious","Complex or complicated","Important or precious","Difficult or hard"], ans:"Clear or obvious",
      hint:"This adjective describes something that is plainly evident."}
-  ]
+  ,{type:"match",pairs:[{trg:"まとめる",src:"to summarize / to compile / to organize"},{trg:"述(の)べる",src:"to state / to express / to mention"},{trg:"基(もと)づく",src:"to be based on"},{trg:"明(あき)らか",src:"clear / obvious / evident"},{trg:"示(しめ)す",src:"to show / to indicate / to demonstrate"},{trg:"複雑(ふくざつ)",src:"complex / complicated"}]}]
 };
 export default BATCH6_L1;

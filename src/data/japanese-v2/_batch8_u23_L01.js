@@ -101,6 +101,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does the 力(りょく) suffix add to a noun?", opts:["Power or ability","Size or quantity","Feeling or emotion","Time or period"], ans:"Power or ability",
      hint:"影響力(えいきょうりょく) (influence p...), 想像力(そうぞうりょく) (imagination p...) all use this suffix."}
-  ]
+  ,{type:"match",pairs:[{trg:"実現(じつげん)する",src:"to realize / to make real / to achieve"},{trg:"原則(げんそく)",src:"principle / fundamental rule"},{trg:"見方(みかた)",src:"perspective / way of seeing / viewpoint"},{trg:"思考(しこう)",src:"thinking / thought process"},{trg:"貢献(こうけん)する",src:"to contribute"},{trg:"基準(きじゅん)",src:"standard / criterion / benchmark"}]}]
 };
 export default BATCH8_L1;

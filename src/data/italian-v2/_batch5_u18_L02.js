@@ -24,4 +24,4 @@ const BATCH5_L_2={id:"itv2_u18l_b5_2",title:"Politica ambientale e azione climat
 {type:"mc",q:"Quale paese ha installato per primo i contatori intelligenti su scala nazionale?",opts:["L'Italia","La Germania","La Francia","Il Regno Unito"],ans:"L'Italia",hint:"This country deployed 36 million smart meters starting in 2001, a world first."},
 {type:"fb",s:"La {1} giusta protegge i lavoratori durante il cambiamento verso l'energia pulita.",a:["transizione"],opts:["transizione","bonifica","comunita","emergenza"],hint:"Ensuring the green shift does not leave workers behind. A key EU policy concept.",sSrc:"The just {1} protects workers during the shift to clean energy."},
 {type:"mc",q:"Cos'e una comunita energetica?",opts:["Un gruppo di cittadini che produce e condivide energia rinnovabile","Un'azienda elettrica pubblica","Un parco eolico comunale","Una centrale nucleare locale"],ans:"Un gruppo di cittadini che produce e condivide energia rinnovabile",hint:"Neighbors sharing solar energy. A new concept enabled by EU directives."},
-]};export default BATCH5_L_2;
+{type:"match",pairs:[{trg:"la decarbonizzazione",src:"decarbonization"}]}]};export default BATCH5_L_2;

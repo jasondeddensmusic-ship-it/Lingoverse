@@ -69,6 +69,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"What is the casual contraction of なくてはいけません?", opts:["なくちゃ / なきゃ","ないで","なくて","なければ"], ans:"なくちゃ / なきゃ",
      hint:"These very common casual forms shorten the obligation pattern dramatically."}
-  ]
+  ,{type:"match",pairs:[{trg:"〜てもいいですか",src:"may I? / is it okay if?"},{trg:"〜てあげる",src:"to do for someone (giving)"}]}]
 };
 export default BATCH10_L1;

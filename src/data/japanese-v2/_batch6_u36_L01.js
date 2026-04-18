@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"勤(つと)める can mean all of the following EXCEPT:", opts:["To steal","To work at a company","To serve as a role","To strive/make effort"], ans:"To steal",
      hint:"This verb has three kanji forms covering employment, serving, and effort."}
-  ]
+  ,{type:"match",pairs:[{trg:"伴(ともな)う",src:"to accompany / to entail / to involve"},{trg:"訴(うった)える",src:"to appeal / to sue / to complain"},{trg:"幅(はば)",src:"width / range / scope"},{trg:"目立(めだ)つ",src:"to stand out / to be noticeable / to be conspicuous"},{trg:"雇(やと)う",src:"to employ / to hire"},{trg:"勤(つと)める",src:"to work (at) / to serve / to strive"}]}]
 };
 export default BATCH6_L1;

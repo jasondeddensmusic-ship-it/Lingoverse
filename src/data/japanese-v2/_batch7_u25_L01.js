@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["改善(かいぜん)","革新(かくしん)","競争(きょうそう)","投資(とうし)"],
      hint:"Small daily improvements lead to big results. This is Toyota's famous philosophy.",
      sSrc:"Daily {1} leads to great results."}
-  ]
+  ,{type:"match",pairs:[{trg:"マーケティング",src:"marketing"},{trg:"ブランド",src:"brand"}]}]
 };
 export default BATCH7_L1;

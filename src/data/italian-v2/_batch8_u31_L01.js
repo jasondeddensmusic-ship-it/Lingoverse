@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u31l_b8_1", title:"Il giornalismo", icon:"📰", xp:
  opts:["The right of reply (diritto di rettifica)","Free newspaper subscriptions","Access to newsrooms","Immunity from criticism"],
  ans:"The right of reply (diritto di rettifica)",
  hint:"If incorrect information is published about you, you can demand a correction with equal prominence."}
-]};
+,{type:"match",pairs:[{trg:"il titolo",src:"the headline / title"},{trg:"il palinsesto",src:"the programming schedule"},{trg:"il comunicato stampa",src:"the press release"}]},{type:"mc",q:"How do you say \"correspondent / reporter\" in Italian?",opts:["la finestra","l'inviato","il tavolo","la bicicletta"],ans:"l'inviato",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"interview\" in Italian?",opts:["l'intervista","la finestra","il tavolo","la bicicletta"],ans:"l'intervista",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

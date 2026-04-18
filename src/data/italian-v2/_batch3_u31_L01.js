@@ -111,6 +111,6 @@ const BATCH3_L_1 = {
      opts:["RAI e pubblica e finanziata dal canone e dalla pubblicita, Mediaset e privata e vive solo di pubblicita","RAI trasmette solo notizie e documentari, Mediaset solo film e intrattenimento","Non c'e differenza: sono entrambe aziende private in competizione","RAI opera solo online mentre Mediaset trasmette esclusivamente in televisione"],
      ans:"RAI e pubblica e finanziata dal canone e dalla pubblicita, Mediaset e privata e vive solo di pubblicita",
      hint:"One is the state broadcaster funded by license fees and ads. The other is a private company that relies entirely on advertising revenue."}
-  ]
+  ,{type:"match",pairs:[{trg:"il settimanale",src:"the weekly magazine"},{trg:"il servizio",src:"the report / news segment"},{trg:"la tiratura",src:"the circulation (newspapers)"},{trg:"il servizio pubblico",src:"the public broadcasting service"}]},{type:"mc",q:"How do you say \"subscription\" in Italian?",opts:["la finestra","l'abbonamento","il tavolo","la bicicletta"],ans:"l'abbonamento",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_1;

@@ -109,5 +109,5 @@ const BATCH6_L1 = {id:"itv2_u30l_b6_1", title:"Sfumature del congiuntivo", icon:
  {trg:"non che", src:"not that"},
  {trg:"magari", src:"if only / maybe"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"il superlativo relativo",src:"the relative superlative"},{trg:"per quanto",src:"however much / no matter how"},{trg:"si direbbe che",src:"one would say that / it seems that"},{trg:"caso mai",src:"just in case / if by any chance"},{trg:"affinche non",src:"so that ... not / lest"},{trg:"sia ... sia",src:"both ... and / whether ... or"}]}]};
 export default BATCH6_L1;

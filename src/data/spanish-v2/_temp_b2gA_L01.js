@@ -70,7 +70,7 @@ const LESSON_1 = {id:"esv2_b2gA_l1", title:"Medios de comunicación", icon:"📰
  funFact:"Spain abolished press censorship in 1978 with the new Constitution after Franco."},
 
 {type:"mc", q:"¿Qué hace un periodista de investigación?", opts:["Investiga y publica historias ocultas","Lee las noticias en televisión","Escribe novelas de ficción","Vende periódicos en la calle"], ans:"Investiga y publica historias ocultas",
- hint:"The key word is 'investigación' combined with journalism."},
+ hint:"This type of journalist goes beyond daily reporting to uncover hidden facts and expose wrongdoing."},
 
 {type:"fb", s:"Las agencias de prensa {1} las noticias a todos los medios.", a:["difunden"], opts:["difunden","censuran","redactan","titulan"],
  hint:"This verb means to spread or broadcast information widely.",

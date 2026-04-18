@@ -47,10 +47,10 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
  hint:"First person plural. Same form as the object pronoun."},
 
 {type:"mc",
- q:"Choose the reflexive for 'eles':",
+ q:"Which reflexive pronoun belongs with 'eles'?",
  opts:["te","nos","se","me"],
  ans:"se",
- hint:"Third person plural. One pronoun covers many subjects."},
+ hint:"Third person plural. One reflexive pronoun covers all third-person subjects."},
 
 {type:"fb",
  s:"Você {1} esqueceu da reunião outra vez?",

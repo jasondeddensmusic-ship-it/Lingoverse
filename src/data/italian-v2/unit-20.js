@@ -306,7 +306,7 @@ const UNIT_20 = {
        opts:["By the field of study only","A flat rate for everyone","By the student's final grades","Scaled to household earnings via the ISEE declaration"],
        ans:"Scaled to household earnings via the ISEE declaration",
        hint:"Wealthier families pay more; lower-earning families pay very little. This makes higher education accessible to all."}
-    ]}
+    ,{type:"match",pairs:[{trg:"frequentare",src:"to attend (school/classes)"},{trg:"bocciare",src:"to fail (a student) / to hold back"},{trg:"iscriversi",src:"to enroll / to register"}]}]}
   ]
 };
 export default UNIT_20;

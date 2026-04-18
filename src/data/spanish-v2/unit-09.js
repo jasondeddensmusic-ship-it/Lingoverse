@@ -191,5 +191,5 @@ export default {n:9,lang:"es",srcLang:"en",track:"v2",title:"¿Qué Pasó?",sub:
         {type:"mc",q:"Complete the story: El sábado visité el museo. ________ compré recuerdos. Finalmente cené en un restaurante.",opts:["Primero","Después","Ayer","Anoche"],ans:"Después",hint:"This word fits between 'first' and 'finally' in a sequence."},
         {type:"mc",q:"Which verb group has DIFFERENT past tense endings from the other two?",opts:["-IR verbs","-ER verbs","-AR verbs","All three are different"],ans:"-AR verbs",hint:"Remember: two of the three groups share identical past tense endings. Which one stands alone?"},
         {type:"fb",opts:["vimos","vieron","vi","vio"],hint:"Nosotros form of ver. Regular -ER pattern in the past: -imos.",s:"Anoche nosotros ________ una película en casa.",a:"vimos"}
-  ]}
+  ,{type:"match",pairs:[{trg:"cocinaron",src:"they cooked"},{trg:"vendieron",src:"they sold"}]}]}
 ]};

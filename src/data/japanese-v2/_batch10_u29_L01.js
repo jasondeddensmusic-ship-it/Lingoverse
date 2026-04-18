@@ -64,6 +64,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Which word means direct investment?", opts:["直接投資(ちょくせつとうし)","供給(きょうきゅう)","輸入(ゆにゅう)","需要(じゅよう)"], ans:"直接投資(ちょくせつとうし)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"市場価格(しじょうかかく)",src:"market price"}]}]
 };
 export default BATCH10_L1;

@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u18l_b6_1", title:"Disastri naturali e clima", icon:
  {trg:"la siccita", src:"drought"},
  {trg:"la scossa", src:"tremor"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"prevedere",src:"to forecast / to predict"}]}]};
 export default BATCH6_L1;

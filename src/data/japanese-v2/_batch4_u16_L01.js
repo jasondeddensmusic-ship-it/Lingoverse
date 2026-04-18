@@ -116,6 +116,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"定時(ていじ) means:",
      opts:["regular work hours / quitting time","overtime","holiday","meeting time"], ans:"regular work hours / quitting time",
      hint:"The official scheduled t... when the workday ends."}
-  ]
+  ,{type:"match",pairs:[{trg:"会社員(かいしゃいん)",src:"company employee"},{trg:"給料(きゅうりょう)",src:"salary / pay"},{trg:"残業(ざんぎょう)",src:"overtime work"},{trg:"会議(かいぎ)",src:"meeting"},{trg:"休憩(きゅうけい)",src:"break / rest period"},{trg:"定時(ていじ)",src:"regular hours / quitting time"}]},{type:"match",pairs:[{trg:"アルバイト",src:"part-time job"}]}]
 };
 export default BATCH4_L_1;

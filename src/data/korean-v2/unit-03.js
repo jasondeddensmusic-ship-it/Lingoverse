@@ -283,12 +283,12 @@ const UNIT_3 =
   {type:"mc",q:"수요일 = 수 + 요일. 수 means:",opts:["Moon","Fire","Water","Gold"],ans:"Water",hint:"수 = water. Water-day = Wednesday."},
   {type:"mc",q:"Which correctly says '2 people'?",opts:["둘 명","이 명","이분","두 명"],ans:"두 명",hint:"둘 → 두 before counter 명"},
   {type:"fb",s:"저는 책을 ___.\n(I read books  -  verb last)",a:"읽어요",opts:["읽어요","책을","저는","도서관"],hint:"SOV: verb goes at the end"},
-  {type:"fb",s:"오만 원은 ___원이에요. (50,000 won = ___ won in digits)",a:"50,000",opts:["50,000","5,000","500,000","5,000,000"],hint:"오(5) × 만(10,000)"},
+  {type:"fb",s:"오만 원은 ___원이에요. (Write the Arabic-numeral form of 오만 원.)",a:"50,000",opts:["50,000","5,000","500,000","5,000,000"],hint:"오(5) × 만(10,000). Multiply these two Sino-Korean number morphemes."},
   {type:"match",pairs:[{nl:"일",en:"1 (sino)"},{nl:"하나",en:"1 (native)"},{nl:"십",en:"10 (sino)"},{nl:"열",en:"10 (native)"}]},
   {type:"match",pairs:[{nl:"개",en:"general objects"},{nl:"명",en:"people"},{nl:"잔",en:"cups/drinks"},{nl:"마리",en:"animals"}]},
   {type:"drag_fill",s:"{1}에 {2}을 {3}.",blanks:{"1":"학교에서","2":"점심","3":"먹어요"},pool:["학교에서","점심","먹어요","저는","오늘"],hint:"SOV: eating lunch at school  -  verb last"},
   {type:"mc",q:"Dates use which number system?",opts:["Sino-Korean","Native Korean","Both mixed","Either one"],ans:"Sino-Korean",hint:"삼월 십오일 (March 15th)  -  all ..."},
-]},
+{type:"match",pairs:[{trg:"전화번호",src:"phone number"},{trg:"몇 시예요?",src:"What time is it?"},{trg:"올해",src:"this year"}]}]},
 
 ]};
 

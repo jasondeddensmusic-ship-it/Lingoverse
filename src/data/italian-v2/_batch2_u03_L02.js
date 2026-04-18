@@ -136,6 +136,6 @@ const BATCH2_U03_L2 = {
      opts:["To learn","To teach","To play","To read"],
      ans:"To learn",
      hint:"From Latin 'imparare' (to acquire). The opposite of 'dimenticare' (to forget). Think: acquiring knowledge."}
-  ]
+  ,{type:"match",pairs:[{trg:"guardare",src:"to watch / to look at"},{trg:"preparare",src:"to prepare"},{trg:"insegnare",src:"to teach"},{trg:"imparare",src:"to learn"},{trg:"volere bene",src:"to love (family/friends)"},{trg:"preoccuparsi",src:"to worry (reflexive)"}]},{type:"match",pairs:[{trg:"tanto",src:"so much / a lot"}]}]
 };
 export default BATCH2_U03_L2;

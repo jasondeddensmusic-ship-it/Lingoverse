@@ -20,6 +20,6 @@ const BATCH5_L_2 = {
     {type:"match", pairs:[{trg:"遺伝子(いでんし)",src:"gene"},{trg:"臓器移植(ぞうきいしょく)",src:"organ transplant"},{trg:"iPS細胞(さいぼう)",src:"iPS stem cells"},{trg:"再生医療(さいせいいりょう)",src:"regenerative medicine"}]},
     {type:"fb", s:"人間(にんげん)の{1}は守(まも)られなければならない。\n(Human dignity must be protected.)", a:"尊厳(そんげん)", opts:["尊厳(そんげん)","健康(けんこう)","自由(じゆう)","権利(けんり)"], sSrc:"Human dignity must be protected.", hint:"The word meaning dignity or sanctity, the cornerstone of bioethics."},
     {type:"mc", q:"インフォームドコンセント changed Japanese medicine by:", opts:["Shifting from paternalistic to shared decision-making","Making medicine more expensive","Reducing doctor visits","Eliminating traditional medicine"], ans:"Shifting from paternalistic to shared decision-making", hint:"Previously doctors often withheld diagnoses; now patients have the right to understand and decide."}
-  ]
+  ,{type:"match",pairs:[{trg:"インフォームドコンセント",src:"informed consent"},{trg:"難病(なんびょう)",src:"intractable disease / incurable illness"}]}]
 };
 export default BATCH5_L_2;

@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["運転免許(うんてんめんきょ)","時刻表(じこくひょう)","乗(の)り場(ば)","交差点(こうさてん)"],
      hint:"Japanese driving licenses are famously expensive and difficult to obtain. Driving school costs 200,000+ yen.",
      sSrc:"Japanese {1} is difficult to get."}
-  ]
+  ,{type:"match",pairs:[{trg:"時刻表(じこくひょう)",src:"timetable / schedule"}]}]
 };
 export default BATCH7_L1;

@@ -225,7 +225,7 @@ const UNIT_04 = {
        opts:["At a set time","After the main course","Automatically after dessert","Only when you ask for it"],
        ans:"Only when you ask for it",
        hint:"Italian dining culture considers it rude to rush customers. You must take the initiative."}
-    ]},
+    ,{type:"match",pairs:[{trg:"per favore",src:"please"}]}]},
     EXP_04_L1, EXP_04_L2, EXP_04_L3,
   ]
 };

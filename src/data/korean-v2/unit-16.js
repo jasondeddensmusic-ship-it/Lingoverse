@@ -242,7 +242,7 @@ const UNIT_16 =
 {type:"fb",s:"의사가 약을 꼭 {1} 하셨어요.\n(The doctor told me to make sure to take the medicine.)",a:["먹으라고"],opts:["먹으라고","먹다고","먹냐고","먹자고"],hint:"-(으)라고 하다 = reported command. Doctor commanded to take medicine."},
 {type:"drag_fill",s:"친구가 같이 {1} 해서 노래방에 {2}.\n(My friend suggested going together so we went to noraebang.)",blanks:{"1":"가자고","2":"갔어요"},pool:["가자고","갔어요","가라고","가요","가다고","갈 거예요"],hint:"-자고 하다 (suggestion) + -아/어서 (so): suggested and then went."},
 {type:"match",pairs:[{nl:"뭐 먹었냐고 했어요",en:"asked what I ate"},{nl:"빨리 오라고 했어요",en:"told me to come quickly"},{nl:"같이 가자고 했어요",en:"suggested going together"},{nl:"맛있다고 했어요",en:"said it was delicious"}]},
-]},
+{type:"match",pairs:[{trg:"전하다",src:"to relay, to pass on"},{trg:"물어보다",src:"to ask (a question)"},{trg:"참석하다",src:"to attend, to participate"},{trg:"공감하다",src:"to relate to, to empathize"},{trg:"전달하다",src:"to deliver, to convey"}]}]},
 
 ]};
 

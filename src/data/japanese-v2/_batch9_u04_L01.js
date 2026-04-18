@@ -69,6 +69,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What should you ask before ordering at a small Japanese restaurant?", opts:["クレジットカードは使(つか)えますか","お会計(かいけい)お願(ねが)いします","割(わり)勘(かん)にしましょう","おつりはいりません"], ans:"クレジットカードは使(つか)えますか",
      hint:"Many small Japanese restaurants only accept cash, so it is wise to check beforehand."}
-  ]
+  ,{type:"match",pairs:[{trg:"お金(かね)",src:"money"},{trg:"電子(でんし)マネー",src:"electronic money / e-money"}]}]
 };
 export default BATCH9_L1;

@@ -116,6 +116,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"運転見合(うんてんみあ)わせ means:",
      opts:["suspension of train service","delay","schedule change","extra train"], ans:"suspension of train service",
      hint:"When trains completely stop running on a line."}
-  ]
+  ,{type:"match",pairs:[{trg:"快速(かいそく)",src:"rapid train"},{trg:"急行(きゅうこう)",src:"express train"},{trg:"時刻表(じこくひょう)",src:"timetable / schedule"},{trg:"運転見合(うんてんみあ)わせ",src:"suspension of service"},{trg:"終電(しゅうでん)",src:"last train"},{trg:"線路(せんろ)",src:"railway track / rail line"}]},{type:"match",pairs:[{trg:"手数料(てすうりょう)",src:"handling fee / service charge"}]}]
 };
 export default BATCH4_L_1;

@@ -139,6 +139,6 @@ const BATCH4_U09_L2 = {
      opts:["Discussing blood test results with family and friends is culturally normal","Blood tests are public information","Doctors require it","It is a legal obligation"],
      ans:"Discussing blood test results with family and friends is culturally normal",
      hint:"Health is a communal concern in Italian culture, not a private matter."}
-  ]
+  ,{type:"match",pairs:[{trg:"la pressione",src:"blood pressure / pressure"},{trg:"la visita",src:"the examination / visit"},{trg:"la schiena",src:"the back (body)"},{trg:"respirare",src:"to breathe"}]}]
 };
 export default BATCH4_U09_L2;

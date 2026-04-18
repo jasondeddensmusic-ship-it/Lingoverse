@@ -269,7 +269,7 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
   {trg:"обед", src:"lunch"},
   {trg:"встреча", src:"meeting"}
 ]}
-]}
+,{type:"match",pairs:[{trg:"студент",src:"student (male)"},{trg:"студентка",src:"student (female)"},{trg:"офис",src:"office"},{trg:"зарабатывать",src:"to earn"},{trg:"редко",src:"rarely"},{trg:"устал",src:"tired (m past)"}]},{type:"match",pairs:[{trg:"свободен",src:"free / available (m)"},{trg:"опоздать",src:"to be late (perfective)"}]}]}
 
 ]};
 export default UNIT_10;

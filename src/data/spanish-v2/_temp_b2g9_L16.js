@@ -75,7 +75,7 @@ const LESSON_16 = {id:"esv2_b2g9_l16", title:"Estilo y apariencia", icon:"\u{1F4
 
   {type:"fb", s:"Su comportamiento fue {1}. Es un ejemplo para todos.", a:["mod\u00e9lico"],
    opts:["mod\u00e9lico","minimalista","monocromo","lacio"],
-   hint:"So good that it serves as a model for others to follow.",
+   hint:"This adjective describes behaviour so exemplary that others should aspire to imitate it.",
    sSrc:"Their behaviour was {1}. They are an example for everyone."},
 
   {type:"match", pairs:[

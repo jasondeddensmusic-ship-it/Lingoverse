@@ -295,5 +295,5 @@ export default {n:4,lang:"nl",srcLang:"en",track:"v2",title:"Eten & Drinken",sub
         {type:"tr",mk:"u4_want_coffee",dir:"produce"},
         {type:"tr",mk:"u4_how_much_cost",dir:"produce"},
         {type:"tr",mk:"u4_may_sit_here",dir:"produce"}
-  ]}
+  ,{type:"match",pairs:[{trg:"drinken",src:"to drink"},{trg:"zitten",src:"to sit"},{trg:"beginnen",src:"to begin / to start"},{trg:"de cent",src:"the cent"},{trg:"de winkel",src:"the shop / store"}]},{type:"match",pairs:[{trg:"met",src:"with"},{trg:"ook",src:"also / too"},{trg:"roken",src:"to smoke"},{trg:"op tijd",src:"on time"},{trg:"hoeveel",src:"how much / how many"}]},{type:"match",pairs:[{trg:"broden",src:"breads / loaves"},{trg:"boterhammen",src:"sandwiches"},{trg:"jij kunt",src:"you can"},{trg:"je hoeft niet",src:"you don't have to / you needn't"}]}]}
 ]};

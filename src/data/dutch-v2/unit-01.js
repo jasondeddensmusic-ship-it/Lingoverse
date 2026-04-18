@@ -262,5 +262,5 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"mc",q:"'Aangenaam' is used when:",opts:["Meeting someone","Saying goodbye","Ordering food","Apologizing"],ans:"Meeting someone",hint:"Nice to meet you"},
         {type:"mc",q:"Which greeting uses the Dutch throat 'g' sound?",opts:["alsjeblieft","goedemorgen","tot ziens","aangenaam"],ans:"goedemorgen",hint:"Goede... starts with 'g'"},
         {type:"mc",q:"Which is CORRECT?",opts:["Ik ben niet student.","Ik niet ben student.","Ik ben geen student.","Ik geen ben student."],ans:"Ik ben geen student.",hint:"___ has an implied 'een': so use ___"}
-  ]}
+  ,{type:"match",pairs:[{trg:"tot later",src:"see you later"},{trg:"een boek",src:"a book"},{trg:"acht",src:"eight"},{trg:"maar",src:"but"}]}]}
 ]};

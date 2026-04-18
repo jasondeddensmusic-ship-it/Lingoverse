@@ -76,7 +76,7 @@ const LESSON_12 = {
      s:"La comida estaba {1}, repetimos dos veces.",
      a:["buen\u00edsima"],
      opts:["buen\u00edsima","at\u00edpica","arisca","adaptable"],
-     hint:"The absolute superlative form of 'buena', meaning extremely good.",
+     hint:"Attach the '-ísima' suffix to the base of the adjective meaning 'good' (feminine). The result intensifies it to 'extremely good'.",
      sSrc:"The food was {1}, we had seconds twice."},
 
     {type:"teach", trg:"el aldeano", src:"the villager", pos:"noun", gender:"m",

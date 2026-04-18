@@ -139,6 +139,6 @@ const BATCH7_L1 = {
      opts:["眠(ねむ)い","寒(さむ)い","暑(あつ)い","痛(いた)い"],
      hint:"You did not sleep much last night, so today you feel drowsy. This i-adjective means 'sleepy.'",
      sSrc:"I did not sleep much last night, so today I am {1}."}
-  ]
+  ,{type:"match",pairs:[{trg:"歯(は)を磨(みが)く",src:"(review)"}]}]
 };
 export default BATCH7_L1;

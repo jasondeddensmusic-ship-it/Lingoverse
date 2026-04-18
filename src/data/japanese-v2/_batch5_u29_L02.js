@@ -73,6 +73,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"しゅうしんこよう describes:", opts:["Working at the same company from graduation to retirement","Freelance work","Government employment","Working multiple jobs"], ans:"Working at the same company from graduation to retirement",
      hint:"しゅうしん (whole life/lifetime) + こよう (employment) = the traditional Japanese career model."}
-  ]
+  ,{type:"match",pairs:[{trg:"働(はたら)き方(かた)改革(かいかく)",src:"work style reform"},{trg:"福利厚生(ふくりこうせい)",src:"employee benefits / welfare benefits"},{trg:"外国人労働者(がいこくじんろうどうしゃ)",src:"foreign worker"}]}]
 };
 export default BATCH5_L_2;

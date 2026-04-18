@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u07l_b7_1", title:"Le bevande e il galateo", icon:"\
  {trg:"la cannuccia", src:"straw"},
  {trg:"il ghiaccio", src:"ice"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"versare",src:"to pour"}]}]};
 export default BATCH7_L1;

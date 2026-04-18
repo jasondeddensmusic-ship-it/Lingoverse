@@ -136,6 +136,6 @@ const BATCH2_U02_L1 = {
      opts:["According to me","My second","I am second","Second time"],
      ans:"According to me",
      hint:"The ordinal 'secondo' has a third meaning beyond numbers and restaurant courses. It introduces an opinion."}
-  ]
+  ,{type:"match",pairs:[{trg:"ottanta",src:"eighty"},{trg:"secondo",src:"second"},{trg:"terzo",src:"third"},{trg:"il numero",src:"the number"},{trg:"mezzo",src:"half"}]}]
 };
 export default BATCH2_U02_L1;

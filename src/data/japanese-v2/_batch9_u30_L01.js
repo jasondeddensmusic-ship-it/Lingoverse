@@ -64,6 +64,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"Which word means perception?", opts:["知覚(ちかく)","存在(そんざい)","道徳(どうとく)","本質(ほんしつ)"], ans:"知覚(ちかく)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"観念(かんねん)",src:"concept"}]}]
 };
 export default BATCH9_L1;

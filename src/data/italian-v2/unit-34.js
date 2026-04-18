@@ -297,7 +297,7 @@ const UNIT_34 = {
        opts:["negoziando","ratificando","mediando","sanzionando"],
        hint:"The gerund form of the verb meaning to hold talks and work toward an agreement between parties. From Latin 'negotium' (business).",
        sSrc:"The ministers are {1} a new trade agreement with Canada."}
-    ]}
+    ,{type:"match",pairs:[{trg:"la sovranita",src:"sovereignty"},{trg:"la mediazione",src:"mediation"},{trg:"negoziare",src:"to negotiate"}]}]}
   ]
 };
 export default UNIT_34;

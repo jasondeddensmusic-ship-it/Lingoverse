@@ -319,7 +319,7 @@ const UNIT_17 =
 {type:"fb",s:"이 사건이 여러 매체에 의해 {1}.\n(This incident was ___ by multiple media outlets.)",a:"보도됐어요",opts:["보도됐어요","보도했어요","보도하면","보도할까요"],hint:"The incident was reported BY media. Passive with agent."},
 {type:"match",pairs:[{nl:"-다가",en:"while doing, then switched"},{nl:"N밖에 + neg",en:"nothing but (emphatic)"},{nl:"-았/었었",en:"used to (discontinued)"},{nl:"에 의해",en:"by (agent in passive)"}]},
 {type:"drag_fill",s:"한국 드라마를 보{1} 한국어에 관심이 생겼어요. 한국어{2} 공부 안 해요. 드라마를 보면 볼{3} 실력이 늘{4}.\n(While watching K-dramas, I got interested. I study nothing but Korean. The more I watch, the more my skills improve.)",blanks:{"1":"다가","2":"밖에","3":"수록","4":"더라고요"},pool:["다가","밖에","수록","더라고요","면서","만","거든요","네요"],hint:"Interrupted action + nothing but + the more + I found that. Four patterns."},
-]},
+{type:"match",pairs:[{trg:"끊기다",src:"to be cut off, disconnected"},{trg:"낮추다",src:"to lower, to reduce"},{trg:"높이다",src:"to raise, to increase"},{trg:"보도하다",src:"to report (news)"},{trg:"체포하다",src:"to arrest"},{trg:"개최하다",src:"to hold (an event)"}]},{type:"match",pairs:[{trg:"실시하다",src:"to implement, to carry out"},{trg:"인기를 얻다",src:"to gain popularity"},{trg:"출연하다",src:"to appear (on a show)"},{trg:"예전에",src:"in the past, before"},{trg:"시청자",src:"viewer, audience"}]}]},
 ]};
 
 export default UNIT_17;

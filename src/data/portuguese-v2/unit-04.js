@@ -175,7 +175,7 @@ const UNIT_04 = {
 
         {type: "mc", q: "Você ____ comer agora? (do you want to eat now)",
           opts: ["quero", "quer", "querer", "queres"], ans: "quer",
-          hint: "The você form of querer."},
+          hint: "The você form of this verb drops the final -er and loses the plural ending."},
 
         {type: "fb", s: "Um suco, {1}.", a: "por favor",
           sSrc: "A juice, please.",
@@ -226,9 +226,9 @@ const UNIT_04 = {
           opts: ["delicioso", "deliciosa", "delicios", "delicias"],
           hint: "Fruta is feminine, so the adjective must match."},
 
-        {type: "mc", q: "Você quer ____ pão? (bread)",
+        {type: "mc", q: "Select the definite article that matches masculine singular gender:",
           opts: ["a", "o", "um", "uma"], ans: "o",
-          hint: "Pão is masculine, so the definite article is..."},
+          hint: "Masculine singular nouns use the shorter definite article. Pão (bread) is masculine."},
 
         {type: "tr", mk: "Eu quero água, por favor.", dir: "trg2src"},
 

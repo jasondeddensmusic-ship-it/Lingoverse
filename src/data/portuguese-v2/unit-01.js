@@ -33,7 +33,7 @@ const UNIT_01 = {n:1,lang:"pt",srcLang:"en",track:"v2",title:"Olá! Como vai?",s
     {type:"fb",opts:["eu","ele","ela","você"],hint:"Pronoun for a woman or girl.",s:"{1} é professora.",sSrc:"She is a teacher.",a:"Ela"},
     {type:"fb",opts:["eu","você","ele","ela"],hint:"First-person singular pronoun.",s:"{1} falo português.",sSrc:"I speak Portuguese.",a:"Eu"},
     {type:"match",pairs:[{trg:"eu",src:"I"},{trg:"você",src:"you"},{trg:"ele",src:"he"},{trg:"ela",src:"she"}]},
-    {type:"mc",q:"What tiny change turns 'he' into 'she' in Portuguese?",opts:["Add s","Change -e to -a","Add -s to the end","Nothing"],ans:"Change -e to -a",hint:"Look at ele versus ela. Only the last vowel changes."},
+    {type:"mc",q:"What tiny change turns 'he' into 'she' in Portuguese?",opts:["Add s","Change -e to -a","Add -s to the end","Nothing"],ans:"Change -e to -a",hint:"Compare ele and ela side by side. The first three letters are identical. Only the final letter differs."},
     {type:"fb",opts:["eu","ela","ele","você"],hint:"You are asking the person in front of you directly.",s:"{1} fala inglês?",sSrc:"Do you speak English?",a:"Você"},
     {type:"mc",q:"Which pronoun is capitalized in English but not in Portuguese?",opts:["ele","ela","eu","você"],ans:"eu",hint:"In English this word is always uppercase. In Portuguese, only at sentence start."}
   ]},
@@ -67,7 +67,7 @@ const UNIT_01 = {n:1,lang:"pt",srcLang:"en",track:"v2",title:"Olá! Como vai?",s
     {type:"mc",q:"A woman saying 'thank you' says:",opts:["obrigado","obrigada","obrigados","obrigadas"],ans:"obrigada",hint:"The ending must match the speaker's gender. Feminine ending is -a."},
     {type:"mc",q:"A man saying 'thank you' says:",opts:["obrigada","obrigado","obrigadas","obrigados"],ans:"obrigado",hint:"Masculine ending is -o."},
     {type:"fb",opts:["sim","não","oi","olá"],hint:"The simple affirmative answer.",s:"{1}, eu falo português.",sSrc:"Yes, I speak Portuguese.",a:"Sim"},
-    {type:"fb",opts:["sim","não","oi","obrigado"],hint:"Negation word. Also means 'not' before a verb.",s:"{1}, eu não falo francês.",sSrc:"No, I do not speak French.",a:"Não"},
+    {type:"fb",opts:["sim","não","oi","obrigado"],hint:"Negation word. Use this to give a negative reply.",s:"{1}, eu falo inglês, mas nunca estudei francês.",sSrc:"No, I speak English, but I never studied French.",a:"Não"},
     {type:"fb",opts:["chamo","chama","chamar","chamamos"],hint:"First-person form of chamar, used for your own name.",s:"Eu me {1} Maria.",sSrc:"My name is Maria.",a:"chamo"},
     {type:"match",pairs:[{trg:"me chamo",src:"my name is"},{trg:"sim",src:"yes"},{trg:"não",src:"no"},{trg:"obrigado",src:"thank you (m)"},{trg:"obrigada",src:"thank you (f)"}]},
     {type:"mc",q:"Tchau is Portuguese for:",opts:["hello","good morning","bye","thanks"],ans:"bye",hint:"A short, casual farewell borrowed from Italian ciao."},

@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"誠実(せいじつ) describes someone who is:", opts:["Sincere and honest","Strict and harsh","Quiet and shy","Funny and entertaining"], ans:"Sincere and honest",
      hint:"This quality involves truthfulness and genuine behavior."}
-  ]
+  ,{type:"match",pairs:[{trg:"道徳(どうとく)",src:"morality / morals"},{trg:"公平(こうへい)",src:"fairness / impartiality"},{trg:"思(おも)いやり",src:"empathy / consideration / compassion"},{trg:"誠実(せいじつ)",src:"sincere / honest / faithful"},{trg:"許(ゆる)す",src:"to forgive / to permit"}]}]
 };
 export default BATCH6_L1;

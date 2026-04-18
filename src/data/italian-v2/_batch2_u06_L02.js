@@ -136,6 +136,6 @@ const BATCH2_U06_L2 = {
      opts:["The traffic light","The train station","The bus stop","The police station"],
      ans:"The traffic light",
      hint:"From Greek 'sema' (sign) + 'phoros' (carrying). A common landmark used when giving directions in Italian cities."}
-  ]
+  ,{type:"match",pairs:[{trg:"il problema",src:"the problem"},{trg:"cercare",src:"to look for / to search"},{trg:"la mappa",src:"the map"},{trg:"continuare",src:"to continue / to keep going"},{trg:"il semaforo",src:"the traffic light"}]},{type:"mc",q:"How do you say \"information\" in Italian?",opts:["l'informazione","la finestra","il tavolo","la bicicletta"],ans:"l'informazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U06_L2;

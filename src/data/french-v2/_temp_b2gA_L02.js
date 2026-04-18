@@ -88,7 +88,7 @@ const LESSON_2 = {
      q:"Quel mot designe la duree pendant laquelle un elu exerce ses fonctions ?",
      opts:["le mandat","le scrutin","le decret","l'amendement"],
      ans:"le mandat",
-     hint:"This word also means authorization or mandate. In politics, it refers to the time in office."},
+     hint:"The fixed term during which an elected official holds power. In France the presidential term lasts five years."},
 
     {type:"teach", trg:"le debat", src:"the debate", pos:"noun", gender:"m",
      note:"Masculine noun. A formal discussion of opposing views.",

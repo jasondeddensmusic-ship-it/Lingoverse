@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"The opposite of 薄(うす)い (thin/light) in terms of flavor is:", opts:["濃(こ)い (thick/rich)","甘(あま)い (sweet)","苦(にが)い (bitter)","酸(す)っぱい (sour)"], ans:"濃(こ)い (thick/rich)",
      hint:"This adjective describes a strong, concentrated flavor."}
-  ]
+  ,{type:"match",pairs:[{trg:"料理(りょうり)",src:"cooking / cuisine / dish"},{trg:"鍋(なべ)",src:"pot / pan / hot pot"},{trg:"皿(さら)",src:"plate / dish"},{trg:"箸(はし)",src:"chopsticks"},{trg:"薄(うす)い",src:"thin / light (color, flavor)"}]}]
 };
 export default BATCH6_L1;

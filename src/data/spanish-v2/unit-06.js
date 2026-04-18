@@ -162,5 +162,5 @@ export default {n:6,lang:"es",srcLang:"en",track:"v2",title:"La Casa",sub:"Home,
         {type:"mc",q:"Complete: 'La puerta ___ cerrada.'",opts:["es","está","hay","tiene"],ans:"está",hint:"Current state (closed). Conditions use ___ar."},
         {type:"mc",q:"Which uses estar (not ser)?",opts:["El jardín es bonito","Mi casa es grande","La puerta está cerrada","La cocina es pequeña"],ans:"La puerta está cerrada",hint:"Current state/condition = ___ar. Quality = ser."},
         {type:"fb",opts:["Hay","Está","Es","Tiene"],hint:"Asking if a bank EXISTS nearby.",s:"¿{1} un banco cerca de aquí?",a:"Hay"}
-  ]}
+  ,{type:"match",pairs:[{trg:"el armario",src:"the wardrobe / closet"},{trg:"vivir",src:"to live"},{trg:"leer",src:"to read"},{trg:"lejos",src:"far"}]}]}
 ]};

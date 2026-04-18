@@ -69,6 +69,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"When is 防災(ぼうさい)の日(ひ) (Disaster Prevention Day)?", opts:["September 1st","March 11th","January 17th","August 15th"], ans:"September 1st",
      hint:"This date commemorates the Great Kanto Earthquake of 1923."}
-  ]
+  ,{type:"match",pairs:[{trg:"津波(つなみ)",src:"tsunami"},{trg:"避難(ひなん)",src:"evacuation / taking refuge"},{trg:"警報(けいほう)",src:"warning / alert"},{trg:"復旧(ふっきゅう)",src:"recovery / restoration"}]}]
 };
 export default BATCH9_L1;

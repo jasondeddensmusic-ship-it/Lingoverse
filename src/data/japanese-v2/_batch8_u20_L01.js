@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is the formal apology hierarchy from casual to most formal?", opts:["ごめん, すみません, もうしわけありません, もうしわけございません","すみません, ごめん, もうしわけ, しつれい","もうしわけ, すみません, ごめん, しつれい","ごめん, しつれい, すみません, もうしわけ"], ans:"ごめん, すみません, もうしわけありません, もうしわけございません",
      hint:"Each level adds formality, from casual among friends to the most formal business apology."}
-  ]
+  ,{type:"match",pairs:[{trg:"はいけんする",src:"to see / to look (humble)"},{trg:"さしあげる",src:"to give (humble, to a superior)"},{trg:"おめにかかる",src:"to meet (humble)"},{trg:"ぞんじあげる",src:"to know (humble)"},{trg:"うかがう",src:"to ask / to visit / to listen (humble)"},{trg:"おいでになる",src:"to come / to go / to be (honorific)"}]}]
 };
 export default BATCH8_L1;

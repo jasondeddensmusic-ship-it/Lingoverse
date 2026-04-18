@@ -251,7 +251,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 {type:"mc", q:"How do you ask casually 'What do you do (for work)?'",
  opts:["Qual é o horário?","O que você faz?","Onde você trabalha?","Como você está?"],
  ans:"O que você faz?",
- hint:"The question uses the verb fazer (to do) with você."},
+ hint:"This is the standard casual way to ask someone about their profession or daily activity."},
 
 {type:"fb", s:"Eu {1} num hospital como enfermeira.",
  a:["trabalho"],
@@ -267,7 +267,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 {type:"fb", s:"O que a sua mãe {1}?",
  a:["faz"],
  opts:["faz","faço","fazem","trabalha"],
- hint:"Use the 3rd-person singular of fazer with 'a sua mãe'.",
+ hint:"The subject is 'a sua mãe'. Pick the third-person singular form of the irregular verb meaning 'to do'.",
  sSrc:"What does your mother {1}?"},
 
 {type:"match", pairs:[

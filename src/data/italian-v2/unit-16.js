@@ -318,7 +318,7 @@ const UNIT_16 = {
        opts:["Buona fortuna!","Buon appetito!","Buon viaggio!","Buona guarigione!"],
        ans:"Buona guarigione!",
        hint:"'G...' means 'recovery' or 'healing.' This wish follows the Italian pattern of 'Buon/B... + noun.'"}
-    ]}
+    ,{type:"match",pairs:[{trg:"la ferita",src:"the wound / injury"},{trg:"curare",src:"to treat / to cure"}]}]}
   ]
 };
 export default UNIT_16;

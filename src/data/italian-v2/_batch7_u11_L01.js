@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u11l_b7_1", title:"Ricordi d'infanzia", icon:"\u{1F9
  {trg:"il ricordo", src:"memory"},
  {trg:"la merenda", src:"snack"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la vacanza estiva",src:"summer holiday"}]}]};
 export default BATCH7_L1;

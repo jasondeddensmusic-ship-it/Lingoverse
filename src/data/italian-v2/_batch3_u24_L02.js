@@ -124,6 +124,6 @@ const BATCH3_U24_L2 = {
      opts:["I absolutely must leave early","I had better leave early (self-advice)","I refuse to leave early","I will definitely leave early"],
      ans:"I had better leave early (self-advice)",
      hint:"Softer than 'devo partire.' The conditional of 'fare' + 'meglio a' creates gentle s...-a... rather than obligation."}
-  ]
+  ,{type:"match",pairs:[{trg:"se Dio vuole",src:"God willing / hopefully"},{trg:"a pensarci bene",src:"come to think of it / on reflection"},{trg:"per quanto ne so",src:"as far as I know"}]},{type:"mc",q:"How do you say \"if not now, when?\" in Italian?",opts:["se non ora, quando?","la finestra","il tavolo","la bicicletta"],ans:"se non ora, quando?",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_U24_L2;

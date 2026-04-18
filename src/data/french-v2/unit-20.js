@@ -229,6 +229,7 @@ export default {n:20,lang:"fr",srcLang:"en",track:"v2",title:"Voix Passive & Dis
         {type:"match",pairs:[{trg:"l'impôt",src:"the tax"},{trg:"la banque",src:"the bank"},{trg:"la loi",src:"the law"},{trg:"le reçu",src:"the receipt"},{trg:"l'assurance",src:"the insurance"}]},
         {type:"fb",opts:["impôts","intérêts","économies","amendes"],hint:"Annual payment to the government based on your income.",s:"Tu as fait ta déclaration d'{1} cette année ?",a:["impôts"]},
         {type:"drag_fill",hint:"After signing the agreement, you got proof of payment from the financial institution.",s:"J'ai signé le {1} et j'ai reçu le {2} de la {3}.",blanks:{"1":"contrat","2":"reçu","3":"banque"},pool:["contrat","reçu","banque","amende"]},
-        {type:"mc",q:"How do you say 'to save money' in French?",opts:["recevoir une amende","payer des impôts","signer un contrat","faire des économies"],ans:"faire des économies",hint:"An expression using the plural of the word for savings."}
+        {type:"mc",q:"How do you say 'to save money' in French?",opts:["recevoir une amende","payer des impôts","signer un contrat","faire des économies"],ans:"faire des économies",hint:"An expression using the plural of the word for savings."},
+        {type:"match",pairs:[{trg:"les intérêts",src:"the interest (financial)"}]}
   ]}
 ]};

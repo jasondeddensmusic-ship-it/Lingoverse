@@ -139,6 +139,6 @@ const BATCH4_U06_L2 = {
      opts:["A piedi, because historic centers are often pedestrian zones","In autobus, because walking is uncommon","In macchina, because parking is easy","In metro, because every city has one"],
      ans:"A piedi, because historic centers are often pedestrian zones",
      hint:"Italian old town c... restrict vehicle access to preserve their beauty."}
-  ]
+  ,{type:"match",pairs:[{trg:"la piazza",src:"the square / plaza"},{trg:"il ponte",src:"the bridge"},{trg:"la strada",src:"the street / road"},{trg:"il marciapiede",src:"the sidewalk"},{trg:"perdersi",src:"to get lost"},{trg:"la cartina",src:"the map (small/folding)"}]},{type:"mc",q:"How do you say \"corner\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'angolo"],ans:"l'angolo",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH4_U06_L2;

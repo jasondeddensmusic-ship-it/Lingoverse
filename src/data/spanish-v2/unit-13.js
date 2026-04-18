@@ -10,9 +10,9 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
         {type:"teach",trg:"las",src:"them (feminine plural direct object)",pos:"noun",gender:"f",phonetic:"las",note:"Las replaces feminine plural nouns.",example:"A: ¿Tienes las entradas?\nB: Sí, las tengo aquí.\nA: Perfecto. ¿Las compraste ayer?\nB: Sí, las compré por internet.",exampleSrc:"A: Do you have the tickets?\nB: Yes, I have them here.\nA: Perfect. Did you buy them yesterday?\nB: Yes, I bought them online.",funFact:"Spanish nouns are either masculine or feminine. The ending usually gives it away."},
         {type:"tip",title:"Direct Object Pronouns: lo, la, los, las",text:"These pronouns replace the THING or PERSON receiving the action.\n\n- el libro → lo tengo (I have it)\n- la carta → la leo (I read it)\n- los zapatos → los compro (I buy them)\n- las flores → las quiero (I want them)\n\nThey go BEFORE the conjugated verb."},
         {type:"mc",q:"¿Tienes el pasaporte? Sí, ___ tengo.",opts:["lo","la","los","las"],ans:"lo",hint:"El pasaporte is masculine singular."},
-        {type:"mc",q:"¿Ves la película? Sí, ___ veo.",opts:["lo","la","los","las"],ans:"la",hint:"The noun 'película' is singular. Check its gender to pick the matching pronoun."},
-        {type:"fb",opts:["lo","la","los","las"],hint:"Churros is masculine plural.",s:"¿Quieres los churros? Sí, {1} quiero.",a:"los"},
-        {type:"fb",opts:["lo","la","los","las"],hint:"Manzanas is feminine plural.",s:"¿Compraste las manzanas? Sí, {1} compré.",a:"las"},
+        {type:"mc",q:"¿Ves esa serie? Sí, ___ veo.",opts:["lo","la","los","las"],ans:"la",hint:"The noun 'serie' is singular and feminine. Match the pronoun to its gender."},
+        {type:"fb",opts:["lo","la","los","las"],hint:"Churros is masculine plural. Match the pronoun to its gender and number.",s:"Pedimos churros y {1} comemos con chocolate.",a:"los"},
+        {type:"fb",opts:["lo","la","los","las"],hint:"Manzanas is feminine plural. Match the pronoun to its gender and number.",s:"Compré manzanas y {1} puse en la bolsa.",a:"las"},
         {type:"mc",q:"¿Lees el periódico? Sí, ___ leo cada mañana.",opts:["los","la","lo","las"],ans:"lo",hint:"El periódico is masculine singular."},
         {type:"teach",trg:"¿Lo quieres?",src:"Do you want it?",pos:"verb",gender:null,phonetic:"lo KYEH-res",note:"The pronoun always goes before the conjugated verb.",example:"A: Tengo un café extra.\nB: ¿Lo quieres?\nA: Sí, lo quiero. Gracias.\nB: De nada.",exampleSrc:"A: I have an extra coffee.\nB: Do you want it?\nA: Yes, I want it. Thanks.\nB: You're welcome.",funFact:"Spanish verbs encode the subject in their ending, so pronouns are often dropped."},
         {type:"fb",opts:["lo","la","los","las"],hint:"The noun 'canción' is singular. Its gender determines the pronoun.",s:"¿Conoces la canción? Sí, {1} conozco muy bien.",a:"la"},
@@ -25,8 +25,8 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
         ]},
         {type:"fb",opts:["lo","la","los","las"],hint:"The noun 'dirección' is singular. Identify its gender to pick the right pronoun.",s:"¿Tienes la dirección? No, no {1} tengo.",a:"la"},
         {type:"mc",q:"Which direct-object pronoun replaces the plates (platos)?",opts:["los","las","lo","la"],ans:"los",hint:"Masculine plural noun. Match gender and number."},
-        {type:"mc",q:"¿Preparaste la cena? Sí, ___ preparé hace una hora.",opts:["lo","la","las","los"],ans:"la",hint:"The noun 'cena' is singular. Its gender determines which direct object pronoun fits."},
-        {type:"fb",opts:["Lo","La","Los","Las"],hint:"The noun 'niños' is plural. Match gender and number for the correct pronoun.",s:"¿Dónde están los niños? {1} veo en el parque.",a:"Los"}
+        {type:"mc",q:"¿Preparaste esa cena? Sí, ___ preparé hace una hora.",opts:["lo","la","las","los"],ans:"la",hint:"The noun 'cena' is singular and feminine. Match the pronoun to its gender."},
+        {type:"fb",opts:["Lo","La","Los","Las"],hint:"Niños is masculine plural. Match gender and number for the correct pronoun.",s:"Vi a dos niños corriendo y {1} reconocí enseguida.",a:"Los"}
   ]},
   {id:"esp13l2",title:"¿Me ves?",icon:"👀",xp:15,board:true,steps:[
         {type:"intro",title:"¿Me ves?",desc:"Learn the direct object pronouns for people: me, te, nos. These refer to the speaker, listener, and group.",goals:["Use me/te/nos as direct object pronouns","Understand the difference from lo/la/los/las","Build natural sentences with person pronouns"]},
@@ -34,19 +34,19 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
         {type:"teach",trg:"te",src:"you (direct object, informal)",pos:"pron",gender:null,phonetic:"teh",note:"Te means 'you' as the object. Used with tú.",example:"A: Te llamo esta noche.\nB: Vale, te espero.\nA: ¿A qué hora te va bien?\nB: A las ocho, te llamo yo si no.",exampleSrc:"A: I'll call you tonight.\nB: Okay, I'll wait for you.\nA: What time works for you?\nB: At eight, I'll call you if not.",funFact:"Spanish usually drops subject pronouns because the verb ending tells you who's speaking."},
         {type:"teach",trg:"nos",src:"us (direct object, 1st person plural)",pos:"verb",gender:null,phonetic:"nos",note:"Nos means 'us' as the object of a verb.",example:"A: ¿Nos invitan a la fiesta?\nB: Sí, nos invitan a todos.\nA: ¡Qué bien! ¿Nos recogen?\nB: Sí, nos recogen a las nueve.",exampleSrc:"A: Are they inviting us to the party?\nB: Yes, they're inviting all of us.\nA: Great! Are they picking us up?\nB: Yes, they're picking us up at nine.",funFact:"Spanish verbs encode the subject in their ending, so pronouns are often dropped."},
         {type:"tip",title:"Person Pronouns vs Thing Pronouns",text:"Direct object pronouns for PEOPLE:\n- me (me)\n- te (you, informal)\n- nos (us)\n\nDirect object pronouns for THINGS or 3rd person:\n- lo/la (him/her/it)\n- los/las (them)\n\nAll go BEFORE the conjugated verb."},
-        {type:"mc",q:"Mi madre ___ llama todos los días. (calls me)",opts:["me","te","nos","lo"],ans:"me",hint:"The speaker is receiving the call."},
-        {type:"mc",q:"¿___ escuchas? Estoy hablando contigo. (Can you hear me?)",opts:["Te","Me","Nos","Lo"],ans:"Me",hint:"The speaker wants to be heard."},
+        {type:"mc",q:"Mi madre ___ llama todos los días. [She calls the speaker]",opts:["me","te","nos","lo"],ans:"me",hint:"The speaker is the one receiving the call. First person singular."},
+        {type:"mc",q:"¿___ escuchas? Estoy hablando contigo. [Can you hear the speaker?]",opts:["Te","Me","Nos","Lo"],ans:"Me",hint:"The speaker wants to be heard. First person singular object."},
         {type:"fb",opts:["me","te","nos","lo"],hint:"The whole group is being seen by the teacher.",s:"El profesor {1} ve en clase todos los días. (sees us)",a:"nos"},
         {type:"fb",opts:["me","te","nos","la"],hint:"The listener is the one being searched for.",s:"Tu hermana {1} busca. (is looking for you)",a:"te"},
         {type:"mc",q:"No ___ entienden cuando hablo rápido. (They don't understand us)",opts:["te","me","nos","los"],ans:"nos",hint:"A group of people is not being understood."},
         {type:"teach",trg:"No me olvides",src:"Don't forget me",pos:"verb",gender:null,phonetic:"no meh ol-BEE-des",note:"Me goes before the verb in negative commands too.",example:"A: Me voy de vacaciones mañana.\nB: ¡No me olvides!\nA: Nunca te olvido.\nB: Te echo de menos ya.",exampleSrc:"A: I'm going on vacation tomorrow.\nB: Don't forget me!\nA: I never forget you.\nB: I miss you already.",funFact:"Spanish verbs encode the subject in their ending, so pronouns are often dropped."},
         {type:"fb",opts:["me","te","nos","lo"],hint:"The speaker is being waited for.",s:"Mis amigos {1} esperan en la estación. (are waiting for me)",a:"me"},
         {type:"match",pairs:[{trg:"me",src:"me"},{trg:"te",src:"you (informal)"},{trg:"nos",src:"us"},{trg:"lo/la",src:"him/her/it"}]},
-        {type:"mc",q:"Ella siempre ___ ayuda con los deberes. (helps me)",opts:["les","te","nos","me"],ans:"me",hint:"First person singular receiving help."},
+        {type:"mc",q:"Ella siempre ___ ayuda con los deberes. [She helps the speaker]",opts:["les","te","nos","me"],ans:"me",hint:"The speaker is the one receiving help. First person singular."},
         {type:"drag_fill",hint:"I love you and you love me.",s:"{1} quiero mucho y sé que tú {2} quieres también.",blanks:{"1":"Te","2":"me"},pool:["Te","me","nos","lo"]},
         {type:"mc",q:"¿___ llevas al aeropuerto mañana? (Will you take us?)",opts:["Nos","Me","Te","Los"],ans:"Nos",hint:"A group is asking for a ride."},
         {type:"fb",opts:["me","te","nos","lo"],hint:"The speaker is being followed by the dog.",s:"El perro {1} sigue por toda la casa. (follows me)",a:"me"},
-        {type:"mc",q:"Los vecinos ___ saludan todas las mañanas. (greet us)",opts:["me","nos","les","los"],ans:"nos",hint:"The whole group receives the greeting every morning."}
+        {type:"mc",q:"Mis colegas ___ saludan todas las mañanas. [They greet the whole group]",opts:["me","nos","les","los"],ans:"nos",hint:"The whole group receives the greeting. First person plural."}
   ]},
   {id:"esp13l3",title:"Veo a María",icon:"👤",xp:15,board:true,steps:[
         {type:"intro",title:"Veo a María",desc:"In Spanish, when the direct object is a PERSON, you must add 'a' before them. This is called the 'a personal'.",goals:["Use 'a' before person direct objects","Distinguish person vs thing direct objects","Combine a personal with pronouns"]},
@@ -57,15 +57,15 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
         {type:"mc",q:"Which sentence is correct?",opts:["Veo a mi hermana","Veo mi hermana","Veo la mi hermana","A veo mi hermana"],ans:"Veo a mi hermana",hint:"People as direct objects need something extra before them."},
         {type:"mc",q:"Busco ___ mis llaves.",opts:["a","(nothing)","al","a las"],ans:"(nothing)",hint:"Are keys a person or a thing?"},
         {type:"fb",opts:["a","al","de","en"],hint:"The professor is a person, so you need a personal.",s:"¿Conoces {1} la profesora nueva?",a:"a"},
-        {type:"mc",q:"Escucho ___ mi abuela con atención.",opts:["la","al","a","de"],ans:"a",hint:"Abuela is a person receiving the action of listening."},
+        {type:"mc",q:"Which option belongs in the slot before person-type direct objects?",opts:["la","al","a","de"],ans:"a",hint:"People receiving the verb's action need the personal prepositional marker before them."},
         {type:"fb",opts:["a","el","al","un"],hint:"A book is a thing, not a person.",s:"Necesito {1} libro de español.",a:"el"},
         {type:"teach",trg:"¿A quién esperas?",src:"Who are you waiting for?",pos:"intj",gender:null,phonetic:"a kyen es-PEH-ras",note:"A quién = who (as object). Notice a personal in the question too.",example:"A: ¿A quién esperas?\nB: Espero a mi novio.\nA: ¿Siempre lo esperas aquí?\nB: Sí, lo espero todos los viernes.",exampleSrc:"A: Who are you waiting for?\nB: I'm waiting for my boyfriend.\nA: Do you always wait for him here?\nB: Yes, I wait for him every Friday.",funFact:"Spanish is the fourth most spoken language worldwide, with 500+ million native speakers."},
-        {type:"mc",q:"Quiero mucho ___ mi familia.",opts:["con","(nothing)","de","a"],ans:"a",hint:"Family members are people, and they receive the action of loving."},
+        {type:"mc",q:"Which option goes before the people you love in 'Quiero mucho ___ mis ___'?",opts:["con","(nothing)","de","a"],ans:"a",hint:"People receiving the verb's emotion need the personal prepositional marker before them."},
         {type:"match",pairs:[{trg:"Veo a Juan",src:"I see Juan"},{trg:"Veo el coche",src:"I see the car"},{trg:"Busco a mi hija",src:"I look for my daughter"},{trg:"Busco la tienda",src:"I look for the shop"}]},
         {type:"fb",opts:["a","al","los","de"],hint:"Friends are people receiving the invitation.",s:"Invito {1} todos mis amigos a la fiesta.",a:"a"},
         {type:"mc",q:"Leo ___ un libro interesante.",opts:["(nothing)","a","al","a un"],ans:"(nothing)",hint:"You are reading a thing, not a person."},
         {type:"drag_fill",hint:"Visit needs a personal for grandmother. Flowers are things.",s:"Visito {1} mi abuela y compro {2} flores para ella.",blanks:{"1":"a","2":"las"},pool:["a","las","al","lo"]},
-        {type:"mc",q:"¿___ quién llamas?",opts:["De","A","Con","Por"],ans:"A",hint:"Asking about a person as direct object uses a personal."},
+        {type:"mc",q:"¿___ quién conoces en ese edificio?",opts:["De","A","Con","Por"],ans:"A",hint:"Asking about a person as direct object uses the personal prepositional marker."},
         {type:"fb",opts:["a","al","los","de"],hint:"Children are people. Direct objects that are people need a personal.",s:"Escucho {1} mis hijos cuando me hablan.",a:"a"}
   ]},
   {id:"esp13l4",title:"Le doy el libro",icon:"🎁",xp:15,board:true,steps:[
@@ -78,7 +78,7 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
         {type:"mc",q:"¿___ escribes una carta a tus abuelos?",opts:["Le","Les","Los","Las"],ans:"Les",hint:"Your grandparents (plural) receive the letter."},
         {type:"fb",opts:["me","te","le","lo"],hint:"The speaker receives the money that is lent.",s:"Mi amigo {1} presta dinero cuando lo necesito.",a:"me"},
         {type:"fb",opts:["nos","les","me","los"],hint:"The group (us) receives the teaching.",s:"La profesora {1} enseña español a nosotros.",a:"nos"},
-        {type:"mc",q:"¿Qué ___ compras a tu novia para su cumpleaños?",opts:["lo","la","le","les"],ans:"le",hint:"Your girlfriend is the person receiving the gift."},
+        {type:"mc",q:"¿Qué ___ compras a tu novia para su fiesta?",opts:["lo","la","le","les"],ans:"le",hint:"Your girlfriend is the person receiving the gift."},
         {type:"teach",trg:"¿Me puedes ayudar?",src:"Can you help me?",pos:"intj",gender:null,phonetic:"meh PWEH-des a-yoo-DAR",note:"Ayudar takes a direct object in Spanish, but me/te work the same way.",example:"A: ¿Me puedes ayudar con la maleta?\nB: Claro, te ayudo ahora mismo.\nA: Gracias. ¿Te molesto?\nB: No, no me molestas nada.",exampleSrc:"A: Can you help me with the suitcase?\nB: Of course, I'll help you right now.\nA: Thanks. Am I bothering you?\nB: No, you're not bothering me at all.",funFact:"Spanish is the fourth most spoken language worldwide, with 500+ million native speakers."},
         {type:"match",pairs:[{trg:"Le doy",src:"I give (to) him/her"},{trg:"Les digo",src:"I tell them"},{trg:"Me escribe",src:"He/She writes to me"},{trg:"Te pregunto",src:"I ask you"}]},
         {type:"fb",opts:["les","le","los","nos"],hint:"The neighbors (plural) receive the greeting.",s:"Siempre {1} digo buenos días a mis vecinos.",a:"les"},
@@ -161,7 +161,7 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
   {id:"esp13l8",title:"Repaso: Pronombres",icon:"🏆",xp:20,board:true,steps:[
         {type:"intro",title:"Repaso: Pronombres",desc:"Comprehensive review of all object pronouns: direct, indirect, a personal, placement, and double pronouns.",goals:["Review all pronoun types confidently","Handle pronoun replacement in various contexts","Master double pronoun combinations"]},
         {type:"mc",q:"¿Tienes esas entradas? Sí, ___ tengo.",opts:["las","los","la","lo"],ans:"las",hint:"Entradas is feminine plural. Match gender and number."},
-        {type:"mc",q:"¿___ ayudas con la maleta? (Will you help me?)",opts:["Te","Me","Le","Se"],ans:"Me",hint:"The speaker is asking for help."},
+        {type:"mc",q:"¿___ ayudas con la maleta? [Speaker asks for help with luggage]",opts:["Te","Me","Le","Se"],ans:"Me",hint:"The speaker is asking for help. First person singular object."},
         {type:"fb",opts:["a","la","al","de"],hint:"When the direct object is a person, Spanish requires the personal marker before them.",s:"¿Conoces {1} la nueva directora?",a:"a"},
         {type:"mc",q:"¿Le compras un regalo a tu padre? Sí, ___ compro.",opts:["lo le","le lo","se lo","se le"],ans:"se lo",hint:"Le becomes se before lo."},
         {type:"fb",opts:["leyéndolo","leyendo lo","lo leyendo","leerlo"],hint:"Attach the pronoun to the gerund with an accent.",s:"Estoy {1} ahora. (reading it, m.)",a:"leyéndolo"},
@@ -173,10 +173,10 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
         {type:"fb",opts:["Me","Te","Se","Le"],hint:"The speaker wants to borrow something.",s:"¿{1} prestas tu bicicleta? (Will you lend it to me?)",a:"Me"},
         {type:"drag_fill",hint:"Le becomes se. La carta is feminine.",s:"¿Le das la carta a Elena? Sí, {1} {2} doy ahora.",blanks:{"1":"se","2":"la"},pool:["se","la","le","lo"]},
         {type:"mc",q:"Necesito ver___ antes de comprar. (to see them, m.)",opts:["las","los","lo","la"],ans:"los",hint:"Masculine plural pronoun attached to infinitive."},
-        {type:"mc",q:"Mi hermano siempre ___ pide dinero. (asks me for)",opts:["se","te","me","le"],ans:"me",hint:"The speaker is the one being asked."},
+        {type:"mc",q:"Mi hermano siempre ___ pide dinero. [Brother asks the speaker for it]",opts:["se","te","me","le"],ans:"me",hint:"The speaker is the one being asked. First person singular."},
         {type:"fb",opts:["regalárselo","regalar se lo","se lo regalar","regalarlo se"],hint:"Both pronouns attach to the infinitive.",s:"Quiero {1} para su cumpleaños. (to give it to her, m.)",a:"regalárselo"},
         {type:"drag_fill",hint:"Bring the flowers to me. Las flores is feminine.",s:"¿{1} puedes traer {2} flores? Son para mi madre.",blanks:{"1":"Me","2":"las"},pool:["Me","las","Se","le"]},
-        {type:"mc",q:"Visito ___ mis abuelos cada domingo.",opts:["con","(nothing)","de","a"],ans:"a",hint:"Grandparents are people. Direct objects that are people need something."},
+        {type:"mc",q:"Visito ___ mis [elders] el domingo. They receive the visit.",opts:["con","(nothing)","de","a"],ans:"a",hint:"Grandparents are people. People as direct objects need the personal prepositional marker."},
         {type:"mc",q:"¿Te lo explico otra vez? Sí, explíca___.",opts:["melo","me lo","selo","lo me"],ans:"melo",hint:"In positive commands, pronouns attach to the verb."}
   ]},
   {id:"esp13l8b",title:"La Salud",icon:"🏥",xp:15,board:true,steps:[
@@ -206,5 +206,5 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
         {type:"mc",q:"Which sentence correctly describes stomach pain?",opts:["Me duelo el estómago","Me duele el estómago","Me dolor el estómago","Me doliendo el estómago"],ans:"Me duele el estómago",hint:"The verb doler works like gustar: me ___ + the thing that hurts."},
         {type:"fb",opts:["receta","inyección","farmacia","alergia"],hint:"What does a doctor write so you can buy medication at the pharmacy?",s:"El médico me dio una {1} para los antibióticos.",a:"receta"},
         {type:"mc",q:"Which option correctly expresses 'I'm sick today' (a temporary condition)?",opts:["Tengo enfermo","Soy enfermo","Estoy enfermo","Hago enfermo"],ans:"Estoy enfermo",hint:"Being sick today is a temporary condition. Temporary conditions use the verb for states, not identity."}
-  ]}
+  ,{type:"match",pairs:[{trg:"verbo + infinitivo + pronombre",src:"pronoun attached to infinitive"},{trg:"la inyección",src:"the injection / shot"}]}]}
 ]};

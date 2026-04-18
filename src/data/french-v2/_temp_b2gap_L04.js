@@ -69,7 +69,7 @@ const LESSON_4 = {
      s:"Le minist\u00e8re a publi\u00e9 un {1} de presse ce matin.",
      a:["communiqu\u00e9"],
      opts:["communiqu\u00e9","audimat","anglicisme","archive"],
-     hint:"An official statement given to journalists. Think of 'communiquer'.",
+     hint:"An official statement issued by a government or institution for the press. French diplomacy invented this format.",
      sSrc:"The ministry published a press {1} this morning."},
 
     {type:"teach", trg:"chronologique", src:"chronological", pos:"adj", gender:null,

@@ -151,7 +151,7 @@ const LESSON_3 = {
      q:"Quel adjectif change de sens selon sa position ?",
      opts:["ancien","adorable","arrogant","absolu"],
      ans:"ancien",
-     hint:"Before the noun it means 'former', after the noun it means 'old' or 'ancient'."},
+     hint:"This adjective has two different meanings depending on whether it comes before or after the noun it modifies."},
 
     {type:"fb",
      s:"Le bébé est {1}, tout le monde l'adore !",

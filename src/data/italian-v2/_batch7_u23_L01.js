@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u23l_b7_1", title:"La partecipazione civica", icon:"
  {trg:"il bene comune", src:"common good"},
  {trg:"il senso civico", src:"civic sense"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la raccolta firme",src:"petition / signature collection"},{trg:"impegnarsi",src:"to commit / to get involved"}]},{type:"mc",q:"How do you say \"association / organization\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'associazione"],ans:"l'associazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

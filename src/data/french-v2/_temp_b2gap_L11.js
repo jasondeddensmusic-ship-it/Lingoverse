@@ -118,7 +118,7 @@ const LESSON_11 = {
      s:"Ce vin a tourne, il est devenu {1}.",
      a:["aigre"],
      opts:["aigre","douillet","broussailleux","distinct"],
-     hint:"A sharp, sour taste. Related to 'vinaigre' which literally means 'sour wine'.",
+     hint:"An adjective for a sharp, sharp-edged taste. Think of fermented wine that has turned unpleasant.",
      sSrc:"This wine has turned, it has become {1}."},
 
     {type:"teach", trg:"le contour", src:"the outline, the contour", pos:"noun", gender:"m",

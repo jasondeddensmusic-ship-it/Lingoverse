@@ -39,7 +39,7 @@ const LESSON_3 = {
      q:"Ou une affaire juridique peut-elle etre jugee en dernier recours en France ?",
      opts:["la Cour de cassation","le tribunal","la mairie","le Parlement"],
      ans:"la Cour de cassation",
-     hint:"France's highest court that reviews whether the law was correctly applied."},
+     hint:"France's supreme judicial body that verifies whether the law was correctly applied, without retrying the case."},
 
     {type:"teach", trg:"la cruaute", src:"the cruelty", pos:"noun", gender:"f",
      note:"Feminine noun. Deliberate causing of pain or suffering.",

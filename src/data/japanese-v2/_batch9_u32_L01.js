@@ -64,6 +64,6 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"Which word means immunity?", opts:["免疫(めんえき)","退院(たいいん)","手術(しゅじゅつ)","健康診断(けんこうしんだん)"], ans:"免疫(めんえき)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"予防(よぼう)",src:"prevention"}]}]
 };
 export default BATCH9_L1;

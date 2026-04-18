@@ -79,6 +79,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"うのみにする literally comes from:", opts:["A cormorant swallowing fish whole","A person drinking water","A bird singing","A dog fetching"], ans:"A cormorant swallowing fish whole",
      hint:"The metaphor compares uncritical acceptance to how cormorants gulp f... without chewing."}
-  ]
+  ,{type:"match",pairs:[{trg:"うのみにする",src:"to swallow whole / to believe uncritically"},{trg:"区別(くべつ)",src:"distinction / differentiation / telling apart"},{trg:"論争(ろんそう)",src:"controversy / debate / dispute"},{trg:"対立(たいりつ)",src:"confrontation / opposition / conflict"}]}]
 };
 export default BATCH5_L_2;

@@ -127,7 +127,7 @@ const LESSON_8 = {
      s:"Cette décision est un {1} économique, elle va coûter des millions.",
      a:["non-sens"],
      opts:["non-sens","intermède","modernisme","décimètre"],
-     hint:"Something that makes no sense. An absurdity. Borrowed from English into French.",
+     hint:"A loanword from English that describes a decision or statement that is logically absurd or incoherent.",
      sSrc:"This decision is economic {1}, it will cost millions."}
   ]
 };

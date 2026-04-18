@@ -118,6 +118,6 @@ const BATCH2_U16_L2 = {
      opts:["Strong coffee late at night","Chamomile tea and natural remedies","Heavy exercise right before bed","Watching exciting television programs"],
      ans:"Chamomile tea and natural remedies",
      hint:"'Camomilla,' herbal teas, and melatonin are tried first. Sleeping pills require a prescription and are a last resort."}
-  ]
+  ,{type:"match",pairs:[{trg:"la dieta",src:"the diet"}]}]
 };
 export default BATCH2_U16_L2;

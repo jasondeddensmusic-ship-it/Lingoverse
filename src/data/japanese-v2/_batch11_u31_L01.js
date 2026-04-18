@@ -76,7 +76,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"日本国民(にほんこくみん)の三大(さんだい)義務(ぎむ)は何(なん)ですか？",
      opts:["Education, work, and paying taxes","Voting, military service, and education","Work, voting, and recycling","Education, healthcare, and taxes"],
      ans:"Education, work, and paying taxes",
-     hint:"Japan's constitution specifies three obligations for citizens. Two are economic and one is educational."},
+     hint:"Japan's constitution lists three civic duties: school attendance for children, labor, and a financial contribution to the state."},
 
     {type:"fb", s:"すべての人(ひと)には平等(びょうどう)な{1}があります。",
      a:["権利(けんり)"],
@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Renunciation of war","Freedom of speech","Right to education","Right to work"],
      ans:"Renunciation of war",
      hint:"This is the most famous and most debated article of the Japanese constitution, establishing a unique military policy."}
-  ]
+  ,{type:"match",pairs:[{trg:"契約(けいやく)",src:"contract / agreement"},{trg:"罰金(ばっきん)",src:"fine (monetary penalty)"},{trg:"正当(せいとう)",src:"legitimate / justified / fair"},{trg:"損害賠償(そんがいばいしょう)",src:"compensation for damages"},{trg:"条例(じょうれい)",src:"ordinance / local regulation"},{trg:"憲法(けんぽう)",src:"constitution"}]}]
 };
 export default BATCH11_L1;

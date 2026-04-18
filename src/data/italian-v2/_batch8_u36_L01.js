@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u36l_b8_1", title:"Connettori e stile", icon:"🎯",
  opts:["The English term is considered more precise than the Italian 'riassunto'","Italian has no equivalent word","It is required by law","English is the only academic language"],
  ans:"The English term is considered more precise than the Italian 'riassunto'",
  hint:"Code-switching between I... and E... is standard in I... academia. E... terms carry specific academic weight."}
-]};
+,{type:"match",pairs:[{trg:"in conclusione",src:"in conclusion"},{trg:"a tal proposito",src:"in this regard / on this matter"},{trg:"per quanto riguarda",src:"as regards / concerning"}]},{type:"mc",q:"How do you say \"abstract\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'abstract"],ans:"l'abstract",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

@@ -122,6 +122,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"What does 調(しら)べる mean?",
      opts:["to look up","to write","to read","to forget"], ans:"to look up",
      hint:"To investigate or research something you do not know."}
-  ]
+  ,{type:"match",pairs:[{trg:"ボールペン",src:"ballpoint pen"},{trg:"のり",src:"glue"},{trg:"物差(ものさ)し",src:"ruler"},{trg:"封筒(ふうとう)",src:"envelope"},{trg:"切手(きって)",src:"postage stamp"},{trg:"ハンカチ",src:"handkerchief"}]},{type:"match",pairs:[{trg:"手帳(てちょう)",src:"planner / pocket diary"},{trg:"調(しら)べる",src:"to look up / investigate"}]}]
 };
 export default BATCH4_L_2;

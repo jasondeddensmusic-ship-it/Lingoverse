@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u32l_b8_1", title:"Migrazione e culture", icon:"🌏
  opts:["Living together as an unmarried couple","A cooking tradition","A political alliance","A religious ceremony"],
  ans:"Living together as an unmarried couple",
  hint:"Italy legally recognized civil unions in 2016. 'Convivenza' covers both cultural and romantic l... t...."}
-]};
+,{type:"match",pairs:[{trg:"il meticciato",src:"the cultural mixing / mestizaje"},{trg:"la seconda generazione",src:"the second generation"}]},{type:"mc",q:"How do you say \"immigration\" in Italian?",opts:["la finestra","il tavolo","l'immigrazione","la bicicletta"],ans:"l'immigrazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

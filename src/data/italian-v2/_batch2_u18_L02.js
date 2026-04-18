@@ -118,6 +118,6 @@ const BATCH2_U18_L2 = {
      opts:["About 1 square meter per second","About 2 square meters per second","About 10 square meters per second","About 50 square meters per second"],
      ans:"About 2 square meters per second",
      hint:"The ISPRA reports document this alarming rate of 'consumo di suolo.' Farmland and natural areas are converted to concrete."}
-  ]
+  ,{type:"match",pairs:[{trg:"la deforestazione",src:"deforestation"}]}]
 };
 export default BATCH2_U18_L2;

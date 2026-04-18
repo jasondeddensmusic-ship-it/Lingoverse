@@ -26,7 +26,7 @@ const LESSON_1 = {id:"esv2_b2g6_l1",title:"El mundo empresarial",icon:"💼",xp:
  exampleSrc:"A: Who is the executive director of the company?\nB: It is Carmen Ruiz, she has been in the role for two years.",
  funFact:"Spain uses CEO less often than Latin America. 'Consejero delegado' is the most formal equivalent."},
 
-{type:"mc",q:"¿Qué hace una agencia de publicidad?",opts:["Crea campañas y anuncios","Vende productos agrícolas","Gestiona el comercio exterior","Dirige hospitales"],ans:"Crea campañas y anuncios",hint:"Think about what advertising means. Creating campaigns and ads."},
+{type:"mc",q:"¿Qué hace una agencia de publicidad?",opts:["Crea campañas y anuncios","Vende productos agrícolas","Gestiona el comercio exterior","Dirige hospitales"],ans:"Crea campañas y anuncios",hint:"A publicidad agency produces promotional content and manages marketing campaigns."},
 
 {type:"teach",trg:"el jefe de producción",src:"the production manager",pos:"noun",gender:"m",
  note:"Masculine noun. The person in charge of production.\nFeminine: la jefa de producción.",

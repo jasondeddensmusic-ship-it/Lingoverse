@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is the Japanese emergency number for fire and ambulance?", opts:["119","110","911","999"], ans:"119",
      hint:"This is the reverse order of police calls. Fire and ambulance share this number."}
-  ]
+  ,{type:"match",pairs:[{trg:"警報(けいほう)",src:"warning / alert"},{trg:"揺(ゆ)れる",src:"to shake / to sway"},{trg:"雷(かみなり)",src:"thunder / lightning"},{trg:"虹(にじ)",src:"rainbow"},{trg:"防災(ぼうさい)",src:"disaster prevention / preparedness"},{trg:"緊急(きんきゅう)",src:"emergency / urgent"}]}]
 };
 export default BATCH8_L1;

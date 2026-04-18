@@ -81,6 +81,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"現象(げんしょう) means:", opts:["Belief system","Scientific law","Phenomenon","Hypothesis"], ans:"Phenomenon",
      hint:"The word for an observable event or occurrence, used in both science and philosophy."},
-  ]
+  {type:"match",pairs:[{trg:"観念(かんねん)",src:"notion / idea / mental concept"}]}]
 };
 export default BATCH2_L_1;

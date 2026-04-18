@@ -79,6 +79,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"ちょっとむずかしいですね in business likely means:", opts:["An indirect refusal (probably no)","A genuine statement of difficulty","A request for more time","An enthusiastic yes"], ans:"An indirect refusal (probably no)",
      hint:"Japanese business communication often uses softened language to decline without saying 'no' directly."}
-  ]
+  ,{type:"match",pairs:[{trg:"条件(じょうけん)",src:"condition / terms / requirements"},{trg:"要望(ようぼう)",src:"demand / request / requirement"},{trg:"折(お)り合(あ)い",src:"compromise / mutual concession / middle ground"},{trg:"譲(ゆず)る",src:"to yield / to concede / to give way"},{trg:"満足(まんぞく)",src:"satisfaction / being satisfied"}]}]
 };
 export default BATCH5_L_2;

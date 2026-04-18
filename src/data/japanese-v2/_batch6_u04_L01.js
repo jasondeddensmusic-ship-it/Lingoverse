@@ -100,6 +100,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"What does 握(にぎ)る mean?", opts:["To grip or squeeze","To cut","To pour","To heat"], ans:"To grip or squeeze",
      hint:"This verb is the origin of the word おにぎり (rice ball)."}
-  ]
+  ,{type:"match",pairs:[{trg:"お弁当(べんとう)",src:"boxed lunch / bento"},{trg:"温(あたた)める",src:"to heat up / to warm"},{trg:"お菓子(かし)",src:"sweets / snacks"},{trg:"飲(の)み物(もの)",src:"drink / beverage"},{trg:"握(にぎ)る",src:"to grip / to squeeze / to mold"},{trg:"ポイントカード",src:"point card / loyalty card"}]}]
 };
 export default BATCH6_L1;

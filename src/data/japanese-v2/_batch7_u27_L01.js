@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["処理(しょり)","保全(ほぜん)","排出(はいしゅつ)","汚染(おせん)"],
      hint:"Processing and disposing of plastic waste remains a challenge. This noun means 'processing.'",
      sSrc:"Plastic waste {1} is a challenge."}
-  ]
+  ,{type:"match",pairs:[{trg:"絶滅危惧種(ぜつめつきぐしゅ)",src:"endangered species"}]}]
 };
 export default BATCH7_L1;

@@ -195,7 +195,7 @@ const UNIT_4 =
   {type:"match",pairs:[{nl:"주세요",en:"please give me"},{nl:"좀 더",en:"a little more"},{nl:"계산",en:"bill/payment"},{nl:"포장이요",en:"to go/takeaway"}]},
   {type:"drag_fill",s:"{1}을 먹고 싶어요. {2}를 주세요.",blanks:{"1":"비빔밥","2":"물"},pool:["비빔밥","물","커피","사과"],hint:"I want to eat bibimbap. Please give me water."},
   {type:"mc",q:"빨리빨리 culture means Korean service is:",opts:["Slow and careful","Expensive","Formal and quiet","Fast and efficient"],ans:"Fast and efficient",hint:"Speed is valued in Korean service culture"},
-]},
+{type:"match",pairs:[{trg:"-(으)세요",src:"please do / polite request"},{trg:"뭐",src:"what"},{trg:"맛없다",src:"not tasty / bad-tasting"},{trg:"그리고",src:"and / and then"},{trg:"과일",src:"fruit"},{trg:"배",src:"pear"}]},{type:"match",pairs:[{trg:"채소",src:"vegetables"},{trg:"얼마예요?",src:"How much? (review)"},{trg:"사다 → 사요",src:"to buy → buys"},{trg:"국",src:"soup"},{trg:"음식",src:"food (general)"},{trg:"Review Summary",src:"What you now know"}]}]},
 
 ]};
 

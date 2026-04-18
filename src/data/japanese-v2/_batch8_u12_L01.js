@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is the Japanese term for entrance exams?", opts:["受験(じゅけん)","テスト","宿題(しゅくだい)","授業(じゅぎょう)"], ans:"受験(じゅけん)",
      hint:"These life-defining exams determine which high school or university you can attend."}
-  ]
+  ,{type:"match",pairs:[{trg:"理科(りか)",src:"science (general/elementary)"},{trg:"社会(しゃかい)",src:"social studies"},{trg:"体育(たいいく)",src:"physical education / PE"}]}]
 };
 export default BATCH8_L1;

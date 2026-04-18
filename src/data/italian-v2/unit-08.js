@@ -312,7 +312,7 @@ const UNIT_08 = {
        opts:["Corto","Grande","Lungo","Largo"],
        ans:"Largo",
        hint:"If clothes are too tight, you need them wider and looser. This word means wide or loose."}
-    ]},
+    ,{type:"match",pairs:[{trg:"a tinta unita",src:"solid color / plain"},{trg:"stretto",src:"tight / narrow"}]}]},
     EXP_08_L1, EXP_08_L2, EXP_08_L3,
   ]
 };

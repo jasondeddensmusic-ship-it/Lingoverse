@@ -100,6 +100,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"狭(せま)い describes:", opts:["Something narrow or cramped","Something wide or spacious","Something deep","Something tall"], ans:"Something narrow or cramped",
      hint:"This adjective is the opposite of 広(ひろ)い."}
-  ]
+  ,{type:"match",pairs:[{trg:"自然(しぜん)",src:"nature"},{trg:"浅(あさ)い",src:"shallow"},{trg:"狭(せま)い",src:"narrow / cramped"},{trg:"投(な)げる",src:"to throw"},{trg:"拾(ひろ)う",src:"to pick up"}]}]
 };
 export default BATCH6_L1;

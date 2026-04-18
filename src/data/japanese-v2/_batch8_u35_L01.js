@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What did Japan create in 2021 to address digital issues?", opts:["デジタル庁(ちょう) (Digital Agency)","AI police force","Robot army","Virtual government"], ans:"デジタル庁(ちょう) (Digital Agency)",
      hint:"This new ministry-level body was created in 2021 to lead Japan's transformation into a digitalized society."}
-  ]
+  ,{type:"match",pairs:[{trg:"アルゴリズム",src:"algorithm"},{trg:"倫理的問題(りんりてきもんだい)",src:"ethical issue / ethical problem"},{trg:"ディープフェイク",src:"deepfake"},{trg:"ブロックチェーン",src:"blockchain"},{trg:"送信(そうしん)する",src:"to transmit / to send (data/information)"},{trg:"クラウド",src:"cloud (computing)"}]},{type:"match",pairs:[{trg:"サステナビリティ",src:"sustainability"}]}]
 };
 export default BATCH8_L1;

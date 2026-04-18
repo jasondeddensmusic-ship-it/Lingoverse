@@ -118,6 +118,6 @@ const BATCH2_U18_L1 = {
      opts:["About 25%","About 50%","About 75%","About 91%"],
      ans:"About 91%",
      hint:"Nearly all Italian towns face some degree of flood or landslide risk. Prevention investment is a national priority."}
-  ]
+  ,{type:"match",pairs:[{trg:"la zona rossa",src:"the red zone (danger area)"}]}]
 };
 export default BATCH2_U18_L1;

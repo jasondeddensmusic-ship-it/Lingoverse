@@ -133,6 +133,6 @@ const BATCH4_U10_L2 = {
      opts:["A journey through Italy taken by European aristocrats for education","A modern tour bus company","An Italian TV show","A Renaissance art style"],
      ans:"A journey through Italy taken by European aristocrats for education",
      hint:"18th-century English nobles traveled this Italian route as part of their e...."}
-  ]
+  ,{type:"match",pairs:[{trg:"il monumento",src:"the monument"},{trg:"la guida turistica",src:"the tour guide / guidebook"},{trg:"la fotografia",src:"the photograph / photography"},{trg:"il souvenir",src:"the souvenir"},{trg:"godersi",src:"to enjoy (oneself)"},{trg:"scoprire",src:"to discover / to find out"}]},{type:"match",pairs:[{trg:"indimenticabile",src:"unforgettable"}]},{type:"mc",q:"How do you say \"itinerary / route\" in Italian?",opts:["la finestra","l'itinerario","il tavolo","la bicicletta"],ans:"l'itinerario",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH4_U10_L2;

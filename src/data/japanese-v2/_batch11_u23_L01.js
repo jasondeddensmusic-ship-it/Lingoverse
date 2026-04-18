@@ -76,7 +76,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"「原因(げんいん)」と「理由(りゆう)」はどう違(ちが)いますか？",
      opts:["原因(げんいん) is analytical cause, 理由(りゆう) is personal reason","They are exactly the same","原因(げんいん) is casual, 理由(りゆう) is formal","原因(げんいん) is for people, 理由(りゆう) is for events"],
      ans:"原因(げんいん) is analytical cause, 理由(りゆう) is personal reason",
-     hint:"One analyzes what caused something, the other asks why someone chose to do something. Think scientific vs p...."},
+     hint:"Think of the difference between diagnosing a broken machine and explaining a human decision."},
 
     {type:"fb", s:"環境(かんきょう)問題(もんだい)は生活(せいかつ)に{1}を与(あた)えています。",
      a:["影響(えいきょう)"],
@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Reading the social atmosphere/situation","Literally reading the air quality","A breathing exercise","A weather forecasting method"],
      ans:"Reading the social atmosphere/situation",
      hint:"This famous Japanese concept involves sensing unspoken interpersonal dynamics. It is essentially perceiving the 状況(じょうきょう)."}
-  ]
+  ,{type:"match",pairs:[{trg:"関係(かんけい)",src:"relationship / connection"},{trg:"事実(じじつ)",src:"fact / truth"},{trg:"方法(ほうほう)",src:"method / way"},{trg:"状況(じょうきょう)",src:"situation / circumstances"},{trg:"価値(かち)",src:"value / worth"},{trg:"傾向(けいこう)",src:"tendency / trend"}]}]
 };
 export default BATCH11_L1;

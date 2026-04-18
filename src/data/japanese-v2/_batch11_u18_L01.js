@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["Only with sleeping","With any action","With eating","With studying"],
      ans:"Only with sleeping",
      hint:"This onomatopoeic adverb is exclusively paired with one specific daily activity related to rest."}
-  ]
+  ,{type:"match",pairs:[{trg:"ゆっくり",src:"slowly / at a leisurely pace"},{trg:"ぴったり",src:"exactly / perfectly fitting"},{trg:"ぐっすり",src:"soundly (sleeping)"},{trg:"じっと",src:"still / motionlessly / intently"}]}]
 };
 export default BATCH11_L1;

@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does 円高(えんだか) mean for Japanese consumers?", opts:["Imported goods become cheaper","Exported goods become cheaper","No effect on prices","All goods become more expensive"], ans:"Imported goods become cheaper",
      hint:"When the yen is strong, buying foreign products costs fewer yen."}
-  ]
+  ,{type:"match",pairs:[{trg:"貿易(ぼうえき)",src:"trade / foreign trade"},{trg:"直接投資(ちょくせつとうし)",src:"foreign direct investment (FDI)"},{trg:"競争者(きょうそうしゃ)",src:"competitor"},{trg:"産業(さんぎょう)",src:"industry"},{trg:"インフラ",src:"infrastructure"},{trg:"経済(けいざい)成長(せいちょう)",src:"economic growth"}]}]
 };
 export default BATCH8_L1;

@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u09l_b7_1", title:"L'esercizio fisico", icon:"\u{1F3
  {trg:"la salute", src:"health"},
  {trg:"sudare", src:"to sweat"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la corsa",src:"the run / running"},{trg:"in forma",src:"in shape / fit"}]},{type:"mc",q:"How do you say \"exercise\" in Italian?",opts:["l'esercizio","la finestra","il tavolo","la bicicletta"],ans:"l'esercizio",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

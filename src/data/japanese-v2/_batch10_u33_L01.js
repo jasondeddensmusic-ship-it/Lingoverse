@@ -64,6 +64,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Which word means living national treasure?", opts:["人間国宝(にんげんこくほう)","生(い)け花(ばな)","能(のう)","茶道(さどう)"], ans:"人間国宝(にんげんこくほう)",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"浮世絵(うきよえ)",src:"ukiyo-e prints"}]}]
 };
 export default BATCH10_L1;

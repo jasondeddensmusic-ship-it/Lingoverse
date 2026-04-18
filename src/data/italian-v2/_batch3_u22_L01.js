@@ -118,6 +118,6 @@ const BATCH3_U22_L1 = {
      opts:["It is actually perfectly normal","Fandom is inherited and lifelong, a core identity","A law prohibits changing teams","Teams charge switching fees"],
      ans:"Fandom is inherited and lifelong, a core identity",
      hint:"Children inherit their father's team. 'Tifo' (f...) is compared to a fever. Your team is part of who you are, not a casual preference."}
-  ]
+  ,{type:"match",pairs:[{trg:"il piatto tipico",src:"the typical dish"},{trg:"la sagra",src:"the local food festival"},{trg:"il patrimonio culturale",src:"the cultural heritage"},{trg:"la tradizione",src:"the tradition"}]}]
 };
 export default BATCH3_U22_L1;

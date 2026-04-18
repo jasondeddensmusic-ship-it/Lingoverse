@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"Which pair means 'to grow up / to raise'?", opts:["育(そだ)つ / 育(そだ)てる","開(あ)く / 開(あ)ける","壊(こわ)れる / 壊(こわ)す","決(き)まる / 決(き)める"], ans:"育(そだ)つ / 育(そだ)てる",
      hint:"The intransitive form describes a child growing, the transitive describes raising a child."}
-  ]
+  ,{type:"match",pairs:[{trg:"点(つ)く",src:"to be attached / to turn on / intransitive"},{trg:"変(か)わる",src:"to change / intransitive"},{trg:"混(ま)ざる",src:"to be mixed / to mingle / intransitive"},{trg:"映(うつ)る",src:"to move / to transfer / to be reflected / intransitive"},{trg:"溜(た)まる",src:"to accumulate / to pile up / intransitive"}]}]
 };
 export default BATCH8_L1;

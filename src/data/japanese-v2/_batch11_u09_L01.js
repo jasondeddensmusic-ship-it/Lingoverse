@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["20% off","2% off","200 yen off","Half price"],
      ans:"20% off",
      hint:"二(に) means 'two' and 割(わり) means '10%.' So two units of 10% equals a specific percentage."}
-  ]
+  ,{type:"match",pairs:[{trg:"お会計(かいけい)",src:"payment / checkout"},{trg:"レジ",src:"register / checkout counter"},{trg:"カード",src:"card (credit/debit)"},{trg:"袋(ふくろ)",src:"bag"}]}]
 };
 export default BATCH11_L1;

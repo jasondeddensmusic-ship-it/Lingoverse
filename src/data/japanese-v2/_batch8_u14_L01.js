@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does しみじみ describe?", opts:["Deep, quiet, heartfelt contemplation","Loud excitement","Physical pain","Sudden surprise"], ans:"Deep, quiet, heartfelt contemplation",
      hint:"This word connects to Japanese aesthetic concepts of q... appreciation."}
-  ]
+  ,{type:"match",pairs:[{trg:"気持(きも)ち",src:"feeling / mood / sensation"},{trg:"懐(なつ)かしい",src:"nostalgic / brings back memories"},{trg:"恥(はずか)しい",src:"embarrassing / shy / ashamed"},{trg:"寂(さび)しい",src:"lonely / missing someone"},{trg:"うんざりする",src:"to be fed up / to be sick of"},{trg:"しみじみ",src:"deeply / keenly / with heartfelt emotion"}]}]
 };
 export default BATCH8_L1;

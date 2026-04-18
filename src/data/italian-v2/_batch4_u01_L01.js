@@ -132,6 +132,6 @@ const BATCH4_U01_L1 = {
      opts:["Piacere!","Figurati!","Meno male!","Che bello!"],
      ans:"Piacere!",
      hint:"This word means 'pleasure' and is standard when meeting someone new."}
-  ]
+  ,{type:"match",pairs:[{trg:"benissimo",src:"very well / great"},{trg:"per fortuna",src:"fortunately / luckily"}]}]
 };
 export default BATCH4_U01_L1;

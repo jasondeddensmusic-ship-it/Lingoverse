@@ -24,4 +24,4 @@ const BATCH5_L_1={id:"itv2_u20l_b5_1",title:"Il mondo accademico",icon:"\u{1F393
 {type:"mc",q:"Cos'e una tesi sperimentale?",opts:["Una tesi basata su ricerca originale","Una tesi scritta in inglese","Una tesi molto breve","Una tesi su un esperimento fallito"],ans:"Una tesi basata su ricerca originale",hint:"More valued than a literature review thesis. Often involves laboratory work."},
 {type:"fb",s:"Il piano di {1} deve essere approvato dalla facolta.",a:["studi"],opts:["studi","laurea","ricerca","esame"],hint:"The student's selected courses for their degree program.",sSrc:"The study {1} must be approved by the faculty."},
 {type:"mc",q:"Quale programma europeo permette di studiare in un altro paese?",opts:["Erasmus","Galileo","Leonardo","Michelangelo"],ans:"Erasmus",hint:"An EU student exchange program. Italian students are the third largest group."},
-]};export default BATCH5_L_1;
+{type:"match",pairs:[{trg:"la prova intermedia",src:"the midterm exam"}]}]};export default BATCH5_L_1;

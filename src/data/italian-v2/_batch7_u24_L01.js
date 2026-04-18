@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u24l_b7_1", title:"Condizioni e alternative", icon:"
  {trg:"qualora", src:"should / in the event"},
  {trg:"semmai", src:"if anything"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"eventualmente",src:"possibly / if need be"},{trg:"a condizione che",src:"on condition that"},{trg:"per quanto",src:"as much as / however much"}]}]};
 export default BATCH7_L1;

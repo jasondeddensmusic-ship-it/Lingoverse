@@ -19,6 +19,6 @@ const BATCH5_L_1 = {
     {type:"match", pairs:[{trg:"安全保障(あんぜんほしょう)",src:"national security"},{trg:"自衛隊(じえいたい)",src:"Self-Defense Forces"},{trg:"平和主義(へいわしゅぎ)",src:"pacifism"},{trg:"軍縮(ぐんしゅく)",src:"disarmament"}]},
     {type:"fb", s:"日本(にほん)は開発途上国(かいはつとじょうこく)への{1}に力(ちから)を入(い)れています。\n(Japan puts effort into aid to developing countries.)", a:"援助(えんじょ)", opts:["援助(えんじょ)","防衛(ぼうえい)","攻撃(こうげき)","貿易(ぼうえき)"], sSrc:"Japan puts effort into aid to developing countries.", hint:"The word for assistance or aid, especially international development support."},
     {type:"mc", q:"憲法(けんぽう)第九条(だいきゅうじょう) (Article 9):", opts:["Renounces war and prohibits maintaining military forces","Establishes the emperor's role","Defines citizens' rights","Sets election rules"], ans:"Renounces war and prohibits maintaining military forces", hint:"This famous article is the constitutional basis of Japan's pacifist identity."}
-  ]
+  ,{type:"match",pairs:[{trg:"紛争(ふんそう)",src:"conflict / dispute / strife"}]}]
 };
 export default BATCH5_L_1;

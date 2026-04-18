@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"運(はこ)ぶ means:", opts:["To carry or transport","To push","To pull","To ride"], ans:"To carry or transport",
      hint:"This verb describes moving objects from one place to another."}
-  ]
+  ,{type:"match",pairs:[{trg:"通勤(つうきん)",src:"commuting (to work)"},{trg:"切符(きっぷ)",src:"ticket"},{trg:"ホーム",src:"platform (train station)"},{trg:"混(こ)む",src:"to be crowded"},{trg:"運(はこ)ぶ",src:"to carry / to transport"},{trg:"回(まわ)す",src:"to turn / to spin / to rotate"}]}]
 };
 export default BATCH6_L1;

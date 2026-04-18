@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u13l_b7_1", title:"Speranze e dubbi", icon:"\u{1F4AD
  {trg:"senza che", src:"without"},
  {trg:"qualunque", src:"whatever"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"temere",src:"to fear / to be afraid"},{trg:"supporre",src:"to suppose / to assume"},{trg:"sperare",src:"to hope"},{trg:"augurarsi",src:"to wish / to hope for"},{trg:"a patto che",src:"on condition that / provided that"}]}]};
 export default BATCH7_L1;

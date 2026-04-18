@@ -57,6 +57,6 @@ const BATCH10_L1 = {
     ]},
     {type:"mc", q:"What does the kanji 躾 (しつけ) literally combine?", opts:["Body and beauty","Discipline and punishment","Child and teaching","Rule and obedience"], ans:"Body and beauty",
      hint:"The concept envisions making one's behavior and conduct aesthetically pleasing."}
-  ]
+  ,{type:"match",pairs:[{trg:"習(なら)い事(ごと)",src:"extracurricular lessons / after-school activities"},{trg:"躾(しつ)ける",src:"to discipline / to train (children)"},{trg:"保育園(ほいくえん)",src:"nursery school / daycare"},{trg:"学歴(がくれき)",src:"educational background"}]}]
 };
 export default BATCH10_L1;

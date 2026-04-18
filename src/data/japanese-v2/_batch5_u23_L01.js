@@ -79,6 +79,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"三日坊主(みっかぼうず) describes:", opts:["Someone who cannot stick with new habits","A Buddhist monk","Someone who works three days a week","A three-day holiday"], ans:"Someone who cannot stick with new habits",
      hint:"This idiom literally means 'three-day monk,' implying s... gives up a n... practice after only three days."}
-  ]
+  ,{type:"match",pairs:[{trg:"習慣(しゅうかん)",src:"habit / custom / practice"},{trg:"身(み)につける",src:"to acquire (a skill) / to learn / to master"},{trg:"一度(いちど)",src:"once / one time"},{trg:"とうとう",src:"finally / at last / in the end"}]}]
 };
 export default BATCH5_L_1;

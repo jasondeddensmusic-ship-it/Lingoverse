@@ -122,6 +122,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What does 電気(でんき) mean?",
      opts:["electricity / light","gas","water","heat"], ans:"electricity / light",
      hint:"Both the energy source and the lamp in your room."}
-  ]
+  ,{type:"match",pairs:[{trg:"テーブル",src:"table"},{trg:"扉(とびら)",src:"door"},{trg:"冷蔵庫(れいぞうこ)",src:"refrigerator"},{trg:"洗濯機(せんたくき)",src:"washing machine"},{trg:"電気(でんき)",src:"electricity / light"},{trg:"エアコン",src:"air conditioner"}]},{type:"match",pairs:[{trg:"カーテン",src:"curtain"}]}]
 };
 export default BATCH4_L_1;

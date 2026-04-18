@@ -209,5 +209,5 @@ export default {n:30,lang:"es",srcLang:"en",track:"v2",title:"Hacia el Futuro",s
         {type:"fb",opts:["fluidez","gramática","inmersión","perfección"],hint:"This quality describes smooth, natural communication ability.",s:"La {1} no significa perfección, sino comunicación natural.",a:"fluidez"},
         {type:"mc",q:"The best description of your Spanish level after this course:",opts:["Complete beginner","Confident communicator in most situations","Perfect native speaker","Unable to have a conversation"],ans:"Confident communicator in most situations",hint:"You can handle a wide range of topics with grammatical accuracy."},
         {type:"drag_fill",hint:"Keep learning to achieve fluency.",s:"Seguir {1} es la clave para alcanzar la {2}.",blanks:{"1":"aprendiendo","2":"fluidez"},pool:["aprendiendo","fluidez","dominio","inmersión"]}
-  ]}
+  ,{type:"match",pairs:[{trg:"la carta formal",src:"the formal letter"},{trg:"hubiera + participio",src:"had + past participle (subjunctive)"}]}]}
 ]};

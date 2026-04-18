@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u09l_b8_1", title:"Il pronto soccorso", icon:"🚑",
  opts:["They rarely put ice in drinks","They always want extra ice","They only use ice in summer","They crush all ice"],
  ans:"They rarely put ice in drinks",
  hint:"If you want ice in your drink in Italy, you need to specifically request it. The default is without."}
-]};
+,{type:"match",pairs:[{trg:"il pronto soccorso",src:"the emergency room / first aid"},{trg:"la bruciatura",src:"the burn"},{trg:"gonfiare",src:"to swell / to inflate"},{trg:"la stampella",src:"the crutch"}]}]};
 export default BATCH8_L1;

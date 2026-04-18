@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"孤独死(こどくし) is a social problem involving:", opts:["People dying alone without anyone noticing","Children being bullied","Traffic accidents","Natural disasters"], ans:"People dying alone without anyone noticing",
      hint:"This issue particularly affects elderly p... living a... in Japan."}
-  ]
+  ,{type:"match",pairs:[{trg:"メンタルヘルス",src:"mental health"},{trg:"うつ",src:"depression"},{trg:"カウンセリング",src:"counseling"},{trg:"気分(きぶん)",src:"mood / feeling / disposition"},{trg:"りらっくす",src:"to relax"},{trg:"自信(じしん)",src:"self-confidence / confidence in oneself"}]}]
 };
 export default BATCH6_L1;

@@ -301,7 +301,7 @@ const UNIT_11 =
 {type:"fb",s:"한국에 와 {1} 한국 문화를 많이 배웠어요.\n(Since coming to Korea, I have learned a lot about Korean culture.)",a:["서"],opts:["서","면","는데","도"],hint:"-아/어서 (since/because): reason for learning about culture."},
 {type:"drag_fill",s:"제주도에 {1} 봤는데 다음에는 경주에 {2} 싶어요.\n(I have visited Jeju but next time I want to go to Gyeongju.)",blanks:{"1":"가","2":"가고"},pool:["가","가고","간","가려고","가서","가기"],hint:"-아/어 보다 (experienced) + -고 싶다 (want to): comparing travel experiences."},
 {type:"match",pairs:[{nl:"KTX로 2시간 걸려요",en:"Takes 2 hours by KTX"},{nl:"비행기로 1시간 걸려요",en:"Takes 1 hour by plane"},{nl:"버스로 4시간 걸려요",en:"Takes 4 hours by bus"},{nl:"지하철로 30분 걸려요",en:"Takes 30 minutes by subway"}]},
-]},
+{type:"match",pairs:[{trg:"-로/-으로 (교통수단)",src:"by (transport method)"},{trg:"렌터카",src:"rental car"},{trg:"-(으)ㄴ 후에",src:"after doing"},{trg:"1박 2일",src:"1 night 2 days"},{trg:"ㅎ 불규칙",src:"ㅎ-irregular pattern"},{trg:"빨갛다",src:"to be red"}]},{type:"match",pairs:[{trg:"까맣다",src:"to be black"},{trg:"파랗다",src:"to be blue"}]}]},
 
 ]};
 

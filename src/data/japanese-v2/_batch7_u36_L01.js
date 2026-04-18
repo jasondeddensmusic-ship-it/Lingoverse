@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["災(わざわ)いを転(てん)じて福(ふく)となす","一寸(いっすん)先(さき)は闇(やみ)","猿(さる)も木(き)から落(お)ちる","口(くち)は災(わざわ)いの元(もと)"],
      hint:"Lost a job but found a better one. Turning disaster into good fortune.",
      sSrc:"Lost my job but found a good one. {1}."}
-  ]
+  ,{type:"match",pairs:[{trg:"能(のう)ある鷹(たか)は爪(つめ)を隠(かく)す",src:"a talented hawk hides its claws"},{trg:"泣(な)く子(こ)は育(そだ)つ",src:"a crying child grows up (healthy)"},{trg:"二度(にど)あることは三度(さんど)ある",src:"what happens twice will happen three times"}]}]
 };
 export default BATCH7_L1;

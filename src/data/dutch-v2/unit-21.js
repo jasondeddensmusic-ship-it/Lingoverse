@@ -234,5 +234,5 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
         {type:"mc",q:"Which is the correct unreal conditional?",opts:["Als het regent, blijf ik thuis.","Als het regende, zou ik thuisblijven.","Als het regent, zou ik thuisblijven.","Als het regende, blijf ik thuis."],ans:"Als het regende, zou ik thuisblijven.",hint:"Past tense ___-clause + ___ + infinitive"},
         {type:"drag_fill",hint:"Dear Mrs. De Vries, with regard to the vacancy...",s:"{1} mevrouw De Vries, met {2} tot de vacature schrijf ik u.",blanks:{"1":"Geachte","2":"betrekking"},pool:["Geachte","betrekking","Beste","aanleiding"]},
         {type:"mc",q:"'Tot slot' in an essay means:",opts:["In the beginning","In addition","Finally / to conclude","On the other hand"],ans:"Finally / to conclude",hint:"Tot slot wraps up the argument"}
-  ]}
+  ,{type:"match",pairs:[{trg:"desbetreffend",src:"in question / relevant / pertaining to that"}]}]}
 ]};

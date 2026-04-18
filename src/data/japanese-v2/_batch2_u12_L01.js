@@ -93,5 +93,5 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"日本語(にほんご)ができますか？{1}できます。\n(Can you do Japanese? Just a little.)", a:"少(すこ)しだけ", opts:["少(すこ)しだけ","たくさん","ぜんぜん","よく"], sSrc:"Can you do Japanese? Just a little.",
    hint:"The humble response combining 'a little' with 'only.'"},
-]};
+{type:"match",pairs:[{trg:"運動(うんどう)",src:"exercise / sports"},{trg:"自転車(じてんしゃ)",src:"bicycle"}]}]};
 export default BATCH2_L_1;

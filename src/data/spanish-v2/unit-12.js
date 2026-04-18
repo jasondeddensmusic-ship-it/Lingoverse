@@ -244,5 +244,5 @@ export default {n:12,lang:"es",srcLang:"en",track:"v2",title:"Cuéntame",sub:"In
         {type:"fb",opts:["bomberos","policías","médicos","conductores"],hint:"Which professionals put out fires?",s:"Los {1} llegaron muy rápido y apagaron el incendio.",a:"bomberos"},
         {type:"mc",q:"How do you say 'She is an engineer' in Spanish?",opts:["Es una ingeniera","Está ingeniera","Es ingeniera","Es el ingeniero"],ans:"Es ingeniera",hint:"Use ser for professions. No article needed. Use the feminine form."},
         {type:"drag_fill",hint:"Brother = masculine form (doctor). Sister = feminine form (lawyer).",s:"Mi hermano es {1} y mi hermana es {2}.",blanks:{"1":"médico","2":"abogada"},pool:["médico","abogada","médica","abogado"]}
-  ]}
+  ,{type:"match",pairs:[{trg:"Anoche llamé a mi madre.",src:"Last night I called my mother."},{trg:"Tomé el autobús.",src:"I took the bus."},{trg:"el policía / la policía",src:"the police officer"},{trg:"el conductor / la conductora",src:"the driver"},{trg:"el farmacéutico / la farmacéutica",src:"the pharmacist"},{trg:"el cantante / la cantante",src:"the singer"},{trg:"Cocinaba la cena cuando llegó mi hermano.",src:"I was cooking dinner when my brother arrived."},{trg:"el cocinero / la cocinera",src:"the chef / cook"},{trg:"el ingeniero / la ingeniera",src:"the engineer"},{trg:"el abogado / la abogada",src:"the lawyer"}]}]}
 ]};

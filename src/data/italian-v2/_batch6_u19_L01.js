@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u19l_b6_1", title:"Il carattere e la personalita", i
  {trg:"vanitoso", src:"vain"},
  {trg:"ostinato", src:"obstinate"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"orgoglioso",src:"proud"},{trg:"sensibile",src:"sensitive"}]}]};
 export default BATCH6_L1;

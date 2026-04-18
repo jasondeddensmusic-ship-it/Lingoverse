@@ -24,4 +24,4 @@ const BATCH5_L_1={id:"itv2_u28l_b5_1",title:"Analisi e critica letteraria",icon:
 {type:"mc",q:"Quale scrittore italiano era anche semiologo di fama mondiale?",opts:["Umberto Eco","Italo Calvino","Cesare Pavese","Elsa Morante"],ans:"Umberto Eco",hint:"His theoretical work in semiotics influenced literary criticism globally. Also a bestselling novelist."},
 {type:"fb",s:"Le {1} di Manzoni nei Promessi Sposi arricchiscono il racconto.",a:["digressioni"],opts:["digressioni","epifanie","metafore","allegorie"],hint:"Departures from the main narrative thread. A beloved technique in Italian literature.",sSrc:"Manzoni's {1} in The Betrothed enrich the story."},
 {type:"mc",q:"Chi sono le 'tre corone' della letteratura italiana?",opts:["Dante, Petrarca, Boccaccio","Manzoni, Verga, Pirandello","Calvino, Eco, Moravia","Leopardi, Foscolo, Alfieri"],ans:"Dante, Petrarca, Boccaccio",hint:"The three writers who defined the Italian literary canon 700 years ago."},
-]};export default BATCH5_L_1;
+{type:"match",pairs:[{trg:"la casa editrice indipendente",src:"the independent publishing house"}]}]};export default BATCH5_L_1;

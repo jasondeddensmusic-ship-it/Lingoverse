@@ -111,6 +111,6 @@ const BATCH3_L_2 = {
      opts:["Perche uno era monarchico e l'altro repubblicano","Perche Croce si oppose al fascismo mentre Gentile ne divenne il filosofo ufficiale","Perche uno era cattolico e l'altro ateo","Perche uno insegnava a Napoli e l'altro a Roma"],
      ans:"Perche Croce si oppose al fascismo mentre Gentile ne divenne il filosofo ufficiale",
      hint:"Both were Italian idealists, but one became the regime's intellectual champion while the other openly opposed it. Philosophy does not guarantee political alignment."}
-  ]
+  ,{type:"match",pairs:[{trg:"la contemplazione",src:"contemplation"},{trg:"il relativismo morale",src:"moral relativism"},{trg:"il giudizio",src:"judgment"},{trg:"la coscienza critica",src:"critical consciousness"},{trg:"la dialettica hegeliana",src:"Hegelian dialectics"},{trg:"la fenomenologia",src:"phenomenology"}]}]
 };
 export default BATCH3_L_2;

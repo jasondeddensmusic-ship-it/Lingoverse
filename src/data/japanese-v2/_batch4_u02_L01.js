@@ -122,6 +122,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"Which country name comes from Portuguese?",
      opts:["イギリス","ドイツ","中国(ちゅうごく)","韓国(かんこく)"], ans:"イギリス",
      hint:"Portugal was the first European nation to reach Japan."}
-  ]
+  ,{type:"match",pairs:[{trg:"オーストラリア",src:"Australia"},{trg:"インド",src:"India"},{trg:"日本人(にほんじん)",src:"Japanese person"},{trg:"日本語(にほんご)",src:"Japanese language"},{trg:"外国人(がいこくじん)",src:"foreigner"},{trg:"留学生(りゅうがくせい)",src:"exchange student / foreign student"}]},{type:"match",pairs:[{trg:"役(やく)に立(た)つ",src:"to be useful / helpful"}]}]
 };
 export default BATCH4_L_1;

@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u01l_b6_1", title:"All'ufficio postale", icon:"\u{1F
  {trg:"firmare", src:"to sign"},
  {trg:"compilare", src:"to fill out"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"aspettare",src:"to wait (for)"}]}]};
 export default BATCH6_L1;

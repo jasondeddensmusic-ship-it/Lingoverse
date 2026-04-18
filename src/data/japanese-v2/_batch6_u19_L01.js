@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"おすすめ means:", opts:["A recommendation","A problem","A complaint","An apology"], ans:"A recommendation",
      hint:"You see this word on menus and in shops when staff suggest their best items."}
-  ]
+  ,{type:"match",pairs:[{trg:"困(こま)る",src:"to be troubled / in difficulty"},{trg:"直(なお)す",src:"to fix / to repair / to correct"},{trg:"探(さが)す",src:"to search / to look for"},{trg:"選(えら)ぶ",src:"to choose / to select"},{trg:"慣(な)れる",src:"to get used to / to become accustomed"},{trg:"見(み)つける",src:"to find / to discover"}]}]
 };
 export default BATCH6_L1;

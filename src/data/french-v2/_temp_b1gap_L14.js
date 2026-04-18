@@ -136,7 +136,7 @@ const LESSON_14 = {id:"frv2_b1gap_l14", title:"Terroir et gastronomie", icon:"\u
 ]},
 
 {type:"mc",
- q:"Quel mot a le double sens d'un anniversaire de naissance et d'un anniversaire de mariage ?",
+ q:"Quel mot français couvre à la fois une célébration de naissance et une célébration de mariage, là où l'anglais utilise deux mots distincts ?",
  opts:["anniversaire","annales","assemblée","adoption"],
  ans:"anniversaire",
  hint:"One word covers both birthdays and wedding anniversaries in French. Context tells you which."}

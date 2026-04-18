@@ -122,6 +122,6 @@ const BATCH4_L_2 = {
     {type:"mc", q:"写真(しゃしん) means:",
      opts:["photograph","painting","drawing","film"], ans:"photograph",
      hint:"Literally 'copy truth,' capturing reality in an image."}
-  ]
+  ,{type:"match",pairs:[{trg:"趣味(しゅみ)",src:"hobby / interest"},{trg:"旅行(りょこう)",src:"travel / trip"},{trg:"運動(うんどう)",src:"exercise / sports"},{trg:"音楽(おんがく)",src:"music"},{trg:"ゲーム",src:"game / video game"},{trg:"カラオケ",src:"karaoke"}]},{type:"match",pairs:[{trg:"写真(しゃしん)",src:"photograph / photo"}]}]
 };
 export default BATCH4_L_2;

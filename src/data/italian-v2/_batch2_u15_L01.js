@@ -118,6 +118,6 @@ const BATCH2_U15_L1 = {
      opts:["The interior decoration and furnishing","The physical connection to the utility network","The legal registration of the property","The insurance policy for the building"],
      ans:"The physical connection to the utility network",
      hint:"From 'allacciare' (to connect). This hooks your property to gas, water, or electricity infrastructure. It can take weeks."}
-  ]
+  ,{type:"match",pairs:[{trg:"il riscaldamento autonomo",src:"independent heating"},{trg:"la ristrutturazione",src:"the renovation"}]},{type:"mc",q:"How do you say \"connection\" in Italian?",opts:["l'allacciamento","la finestra","il tavolo","la bicicletta"],ans:"l'allacciamento",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U15_L1;

@@ -24,4 +24,4 @@ const BATCH5_L_2={id:"itv2_u16l_b5_2",title:"Prevenzione e medicine alternative"
 {type:"mc",q:"Quale documento raccoglie tutta la storia medica di un paziente?",opts:["La cartella clinica","Il consenso informato","La ricetta medica","Il codice fiscale"],ans:"La cartella clinica",hint:"A complete record of health history, tests, and treatments. Now going digital."},
 {type:"fb",s:"Devi firmare il {1} informato prima dell'intervento.",a:["consenso"],opts:["consenso","fascicolo","check-up","percorso"],hint:"Legal agreement to treatment after being fully informed of risks and benefits.",sSrc:"You must sign the informed {1} before the surgery."},
 {type:"mc",q:"L'osteopatia e stata riconosciuta ufficialmente in Italia in quale anno?",opts:["2018","2005","1990","2022"],ans:"2018",hint:"Italy was relatively late to officially recognize this manual therapy profession."},
-]};export default BATCH5_L_2;
+{type:"match",pairs:[{trg:"la medicina preventiva",src:"preventive medicine"}]}]};export default BATCH5_L_2;

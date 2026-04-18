@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["2013","2020","2005","2018"],
      ans:"2013",
      hint:"Japanese cuisine was recognized by UNESCO as an Intangible Cultural Heritage in the early 2010s."}
-  ]
+  ,{type:"match",pairs:[{trg:"運動(うんどう)",src:"exercise / sports"},{trg:"映画(えいが)",src:"movie / film"},{trg:"音楽(おんがく)",src:"music"},{trg:"ゲーム",src:"game / video game"},{trg:"旅行(りょこう)",src:"travel / trip"}]}]
 };
 export default BATCH11_L1;

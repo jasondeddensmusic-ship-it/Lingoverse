@@ -111,6 +111,6 @@ const BATCH3_L_2 = {
      opts:["Da 'mageiros' (cuoco), per il piacere del buon cibo","Da 'makarios' (beato, felice), per esprimere un desiderio","Da 'magos' (mago), per il senso di meraviglia","Da 'magia' (magia), per il potere delle parole"],
      ans:"Da 'makarios' (beato, felice), per esprimere un desiderio",
      hint:"The Greek word for 'blessed' or 'happy.' The Italian word captures the longing for that blessed state."}
-  ]
+  ,{type:"match",pairs:[{trg:"che Dio ci aiuti",src:"may God help us"},{trg:"non sia mai",src:"God forbid / let it never be"},{trg:"che io sappia",src:"as far as I know / to my knowledge"},{trg:"vada come vada",src:"come what may"},{trg:"sappia",src:"(formal) know / be aware that"}]}]
 };
 export default BATCH3_L_2;

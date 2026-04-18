@@ -83,6 +83,6 @@ const BATCH2_L_2 = {
 
     {type:"mc", q:"泣(な)かせる vs 泣(な)かれる: what is the difference?", opts:["They mean the same thing","泣(な)かせる = make cry (causative); 泣(な)かれる = be bothered by crying (adversity passive)","泣(な)かせる is polite; 泣(な)かれる is casual","泣(な)かせる is past; 泣(な)かれる is present"], ans:"泣(な)かせる = make cry (causative); 泣(な)かれる = be bothered by crying (adversity passive)",
      hint:"One form is c... (you cause the action); the other is a... p... (you suffer from the action)."},
-  ]
+  {type:"match",pairs:[{trg:"泣(な)きそう",src:"about to cry / on the verge of tears"}]}]
 };
 export default BATCH2_L_2;

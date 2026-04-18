@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does Japan prefer before filing a 訴訟(そしょう) (lawsuit)?", opts:["Settlement, mediation, and reconciliation","Immediate court action","Public protests","International arbitration"], ans:"Settlement, mediation, and reconciliation",
      hint:"Japan is less litigious than many Western countries, preferring harmonious resolution."}
-  ]
+  ,{type:"match",pairs:[{trg:"弁護士(べんごし)",src:"lawyer / attorney"},{trg:"条約(じょうやく)",src:"treaty / convention"},{trg:"憲法(けんぽう)",src:"constitution"},{trg:"控訴(こうそ)",src:"appeal (legal) / prosecution"},{trg:"賠償(ばいしょう)",src:"compensation / reparation / damages"},{trg:"禁固(きんこ)",src:"prison / imprisonment"}]},{type:"match",pairs:[{trg:"著作権(ちょさくけん)",src:"copyright / intellectual property right"}]}]
 };
 export default BATCH8_L1;

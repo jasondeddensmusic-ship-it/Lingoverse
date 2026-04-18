@@ -30,7 +30,7 @@ const LESSON_20 = {
      funFact:"'Champ magnétique' is magnetic field. 'Bande magnétique' was the cassette tape. Both literal and figurative uses."},
 
     {type:"mc",
-     q:"Quel pronom insiste sur le fait que 'nous' avons agi par nous-mêmes ?",
+     q:"Quel pronom emphatique de la première personne du pluriel souligne que le groupe a agi sans aide extérieure ?",
      opts:["les nôtres","nous-mêmes","nous autres","entre nous"],
      ans:"nous-mêmes",
      hint:"A hyphenated emphatic pronoun. '-même' is added for emphasis, like English 'ourselves'."},

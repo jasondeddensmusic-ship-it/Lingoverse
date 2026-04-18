@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u14l_b8_1", title:"Comunicare al lavoro", icon:"📧
  opts:["Fattura elettronica (electronic invoicing)","Email communication","Overtime limits","Union membership"],
  ans:"Fattura elettronica (electronic invoicing)",
  hint:"Italy digitized its billing process in 2019 to combat tax evasion. This digital mandate applies to all businesses."}
-]};
+,{type:"match",pairs:[{trg:"la riunione",src:"the meeting"},{trg:"la sede",src:"the headquarters / office location"}]}]};
 export default BATCH8_L1;

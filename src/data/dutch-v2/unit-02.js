@@ -244,5 +244,5 @@ export default {n:2,lang:"nl",srcLang:"en",track:"v2",title:"Who Am I?",sub:"Kom
         {type:"mc",q:"'Zij woont in Parijs.' What does this mean?",opts:["She lives in Paris","They live in Paris","She comes from Paris","She speaks French"],ans:"She lives in Paris",hint:"Singular zij + woont = ___"},
         {type:"fb",opts:["spreek","spreekt","spreken","komt"],hint:"Ik + verb stem for speaking",s:"Ik ___ Nederlands en Engels.",a:"spreek"},
         {type:"mc",q:"'Er zijn veel mensen hier.' What is 'er' doing?",opts:["It means 'he'","It replaces 'there'","It means 'here'","It replaces 'they'"],ans:"It replaces 'there'",hint:"Think: ___ are many people here"}
-  ]}
+  ,{type:"match",pairs:[{trg:"Duitsland",src:"Germany"},{trg:"Frankrijk",src:"France"},{trg:"ook",src:"also / too"},{trg:"Engels",src:"English"},{trg:"Frans",src:"French"},{trg:"Duits",src:"German"}]},{type:"match",pairs:[{trg:"Amsterdam",src:"Amsterdam"},{trg:"Brussel",src:"Brussels"},{trg:"Vijf sleutelvragen",src:"Five key questions"},{trg:"de leraar",src:"the teacher"},{trg:"de vrouw",src:"the woman"},{trg:"het kind",src:"the child"}]},{type:"match",pairs:[{trg:"de stad",src:"the city"},{trg:"het land",src:"the country"},{trg:"de taal",src:"the language"},{trg:"de school",src:"the school"}]}]}
 ]};

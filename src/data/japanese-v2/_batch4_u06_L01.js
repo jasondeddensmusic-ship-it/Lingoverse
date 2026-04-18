@@ -122,6 +122,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What does 指(ゆび) mean?",
      opts:["finger","wrist","elbow","knee"], ans:"finger",
      hint:"The five digits at the end of your hand used for gripping."}
-  ]
+  ,{type:"match",pairs:[{trg:"体(からだ)",src:"body"},{trg:"顔(かお)",src:"face"},{trg:"歯(は)",src:"tooth"},{trg:"指(ゆび)",src:"finger"},{trg:"足(あし)",src:"leg / foot"},{trg:"お腹(なか)",src:"stomach / belly"}]},{type:"match",pairs:[{trg:"背中(せなか)",src:"back (body)"},{trg:"肩(かた)",src:"shoulder"}]}]
 };
 export default BATCH4_L_1;

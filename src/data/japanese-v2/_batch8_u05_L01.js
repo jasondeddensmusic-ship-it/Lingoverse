@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is a まないた?", opts:["A cutting board","A rice cooker","A ladle","A microwave"], ans:"A cutting board",
      hint:"Traditional Japanese versions are made from cypress wood for its antibacterial properties."}
-  ]
+  ,{type:"match",pairs:[{trg:"台所(だいどころ)",src:"kitchen"},{trg:"鍋(なべ)",src:"pot / pan / hot pot"},{trg:"包丁(ほうちょう)",src:"kitchen knife"},{trg:"まないた",src:"cutting board"},{trg:"おたま",src:"ladle"},{trg:"冷蔵庫(れいぞうこ)",src:"refrigerator"}]},{type:"match",pairs:[{trg:"電子(でんし)レンジ",src:"microwave oven"}]}]
 };
 export default BATCH8_L1;

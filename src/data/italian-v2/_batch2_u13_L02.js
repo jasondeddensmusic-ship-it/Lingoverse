@@ -118,6 +118,6 @@ const BATCH2_U13_L2 = {
      opts:["A conclusion based on proven facts","A hypothesis accepted for the sake of argument","A past event that is now completed","A direct quote from another person"],
      ans:"A hypothesis accepted for the sake of argument",
      hint:"From 'ammettere' (to admit). The speaker grants a point hypothetically, without fully accepting it as fact."}
-  ]
+  ,{type:"match",pairs:[{trg:"non penso che",src:"(review)"},{trg:"pare che",src:"it seems that / apparently"},{trg:"e meglio che",src:"it is better that"},{trg:"non e detto che",src:"(review)"},{trg:"ammesso che",src:"assuming that / granted that"}]}]
 };
 export default BATCH2_U13_L2;

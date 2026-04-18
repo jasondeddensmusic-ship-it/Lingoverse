@@ -82,7 +82,7 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"減(へ)る",src:"to decrease"},{trg:"増(ふ)える",src:"to increase"},{trg:"移民(いみん)",src:"immigration"},{trg:"深刻(しんこく)",src:"serious/severe"}]},
 
     {type:"mc", q:"減(へ)る vs 減(へ)らす: what is the difference?", opts:["They mean the same thing","減(へ)る = decrease naturally (intransitive); 減(へ)らす = reduce deliberately (transitive)","減(へ)る is formal; 減(へ)らす is casual","減(へ)る is past; 減(へ)らす is present"], ans:"減(へ)る = decrease naturally (intransitive); 減(へ)らす = reduce deliberately (transitive)",
-     hint:"I... (it decreases by itself) vs. t... (someone reduces it)."},
-  ]
+     hint:"One describes something happening by itself. The other describes a deliberate act by an agent. Same kanji, different ending."},
+  {type:"match",pairs:[{trg:"地域(ちいき)",src:"region / area / community"}]}]
 };
 export default BATCH2_L_1;

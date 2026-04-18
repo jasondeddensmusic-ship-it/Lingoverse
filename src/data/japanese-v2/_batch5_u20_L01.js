@@ -81,6 +81,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"お目(め)にかかる is humble for:", opts:["会(あ)う (to meet)","見(み)る (to see)","買(か)う (to buy)","かかる (to cost)"], ans:"会(あ)う (to meet)",
      hint:"This phrase literally means 'to come before your eyes,' humbling oneself before the other person."}
-  ]
+  ,{type:"match",pairs:[{trg:"お目(め)にかかる",src:"to meet (humble)"},{trg:"〜お + stem + する",src:"humble verb pattern"},{trg:"お口(くち)に合(あ)う",src:"(review)"},{trg:"いたす",src:"to do (humble)"}]}]
 };
 export default BATCH5_L_1;

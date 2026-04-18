@@ -291,10 +291,10 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
 ]},
 
 {type:"mc",
- q:"In formal Portuguese, which preposition goes with 'assistir'?",
+ q:"Which preposition follows 'to view' in the strict written register?",
  opts:["a","em","com","por"],
  ans:"a",
- hint:"Formal: assistir A um filme. Spoken Brazilian often drops it."},
+ hint:"Formal written: assistir + this preposition + object. In spoken Brazilian, it is often dropped."},
 
 {type:"drag_fill",
  s:"A {1} de hoje sobre a {2} chocou a todos.",

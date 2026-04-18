@@ -108,6 +108,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"父(ちち)に死(し)なれた expresses:", opts:["Grief that one's father passed away","Father killed someone","Father is alive","Father was born"], ans:"Grief that one's father passed away",
      hint:"The adversity passive of 死(し)ぬ (to die) expresses that someone's death affected the speaker deeply."}
-  ]
+  ,{type:"match",pairs:[{trg:"騒(さわ)がれる",src:"to be made noisy (by someone)"},{trg:"困(こま)る",src:"to be troubled / to be in difficulty"},{trg:"汚(よご)される",src:"to have something dirtied (by someone)"},{trg:"イライラする",src:"to be irritated / to be frustrated"},{trg:"迷惑(めいわく)",src:"nuisance / bother / annoyance"},{trg:"仕方(しかた)がない",src:"it cannot be helped / there is no choice"}]},{type:"match",pairs:[{trg:"驚(おどろ)かされる",src:"to be surprised / startled (by someone)"},{trg:"踏(ふ)みつけられる",src:"to have something stepped on"},{trg:"うんざりする",src:"to be fed up / to be sick of"}]}]
 };
 export default BATCH5_L_1;

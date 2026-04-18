@@ -79,6 +79,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"恩(おん) describes:", opts:["A moral debt of gratitude that should be repaid","A religious ritual","A type of music","A financial debt"], ans:"A moral debt of gratitude that should be repaid",
      hint:"This deep concept drives Japanese social reciprocity and sense of obligation."}
-  ]
+  ,{type:"match",pairs:[{trg:"恵(めぐ)まれる",src:"to be blessed with / to be fortunate to have"},{trg:"かしこまりました",src:"certainly / understood (formal acknowledgment)"},{trg:"お礼(れい)",src:"thanks / gratitude / expression of thanks"},{trg:"光栄(こうえい)",src:"honor / privilege"},{trg:"恩(おん)",src:"debt of gratitude / favor owed / grace"}]}]
 };
 export default BATCH5_L_2;

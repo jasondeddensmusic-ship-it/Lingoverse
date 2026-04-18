@@ -81,6 +81,6 @@ const BATCH2_L_4 = {
 
     {type:"mc", q:"自己紹介(じこしょうかい) in Japanese business typically includes:", opts:["Only your name","Your company name, department, then personal name","Your personal hobbies first","Your salary information"], ans:"Your company name, department, then personal name",
      hint:"In Japanese business culture, your organizational affiliation comes before your individual identity."},
-  ]
+  {type:"match",pairs:[{trg:"スライド",src:"slide (presentation)"}]}]
 };
 export default BATCH2_L_4;

@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u10l_b7_1", title:"La natura e le attivita all'apert
  {trg:"la scogliera", src:"cliff"},
  {trg:"il campeggio", src:"camping"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"la cascata",src:"the waterfall"}]}]};
 export default BATCH7_L1;

@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u06l_b8_1", title:"I servizi pubblici", icon:"🏤",
  opts:["Zona Traffico Limitato","Zona Turismo Locale","Zona Taxi Libero","Zona Trasporto Luglio"],
  ans:"Zona Traffico Limitato",
  hint:"It is a restricted traffic zone in historic city centers. Many tourists get fines for driving into it."}
-]};
+,{type:"match",pairs:[{trg:"il documento",src:"the document / ID"},{trg:"la questura",src:"the police headquarters"},{trg:"lo sportello",src:"the counter / window (service)"}]},{type:"mc",q:"How do you say \"post office\" in Italian?",opts:["l'ufficio postale","la finestra","il tavolo","la bicicletta"],ans:"l'ufficio postale",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

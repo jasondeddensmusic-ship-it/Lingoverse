@@ -77,7 +77,7 @@ export default {n:27,lang:"es",srcLang:"en",track:"v2",title:"La Nominalización
         {type:"drag_fill",hint:"Focus on what matters and what's essential.",s:"Lo {1} es centrarse en lo {2} y dejar lo demás para después.",blanks:{"1":"importante","2":"esencial"},pool:["importante","esencial","malo","interesante"]},
         {type:"mc",q:"Lo bueno ___ que el proyecto avanza.",opts:["son","está","ser","es"],ans:"es",hint:"With lo + adjective as subject, use the third person singular."},
         {type:"fb",opts:["esencial","bueno","interesante","malo"],hint:"Focus on the core, fundamental aspect.",s:"Centrémonos en lo {1} del problema.",a:"esencial"},
-        {type:"mc",q:"Lo difícil de esta investigación ___ encontrar datos fiables.",opts:["es","son","está","están"],ans:"es",hint:"Lo + adjective creates a singular abstract noun. Which ser/estar form agrees with a singular subject?"},
+        {type:"mc",q:"Lo difícil del proyecto ___ encontrar información precisa.",opts:["es","son","está","están"],ans:"es",hint:"Lo + adjective creates a singular abstract noun. Which ser/estar form agrees with a singular subject?"},
         {type:"fb",opts:["difícil","bueno","importante","malo"],hint:"This adjective describes something that requires great effort.",s:"Lo {1} es mantener la calma en momentos de crisis.",a:"difícil"}
   ]},
   {id:"esp27l4",title:"Sustantivos Abstractos",icon:"🔬",xp:15,board:true,steps:[
@@ -104,7 +104,7 @@ export default {n:27,lang:"es",srcLang:"en",track:"v2",title:"La Nominalización
         {type:"fb",opts:["contribución","conclusión","implementación","evaluación"],hint:"The noun describing what someone has given or added.",s:"Su {1} al campo de la medicina ha sido notable.",a:"contribución"},
         {type:"mc",q:"Academic style prefers which sentence structure?",opts:["Hicimos un análisis y...","Analizamos y vimos que...","Miramos los datos y...","El análisis reveló que..."],ans:"El análisis reveló que...",hint:"Formal writing uses abstract nouns as subjects, not personal verbs."},
         {type:"fb",opts:["implementación","evaluación","contribución","conclusión"],hint:"The noun form of putting a plan into action.",s:"La {1} del programa mejoró los resultados.",a:"implementación"},
-        {type:"mc",q:"La evaluación ___ los resultados demuestra avances.",opts:["de","a","con","por"],ans:"de",hint:"Abstract nouns connect to their objects with this preposition."}
+        {type:"mc",q:"La conclusión ___ los resultados muestra avances.",opts:["de","a","con","por"],ans:"de",hint:"Abstract nouns connect to their complement objects with this preposition."}
   ]},
   {id:"esp27l5",title:"Registro Formal",icon:"🎩",xp:15,board:true,steps:[
         {type:"intro",title:"Registro Formal",desc:"Learn to transform casual Spanish into academic register by using nominalization, impersonal constructions, and formal vocabulary.",goals:["Convert informal sentences to formal register","Recognize register differences","Choose appropriate register for context"]},

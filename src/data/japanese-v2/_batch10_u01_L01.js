@@ -66,6 +66,6 @@ const BATCH10_L1 = {
 
     {type:"fb", s:"{1}。おいしかったです。\n(Thank you for the meal. It was delicious.)", a:"ごちそうさまでした", opts:["ごちそうさまでした","いただきます","ありがとうございます","おめでとうございます"], sSrc:"Thank you for the meal. It was delicious.",
      hint:"This phrase expresses gratitude after finishing a meal, thanking the cook and the food itself."}
-  ]
+  ,{type:"match",pairs:[{trg:"お先(さき)に失礼(しつれい)します",src:"excuse me for leaving first"},{trg:"お変(かわ)りありませんか",src:"how have you been? (formal)"},{trg:"明(あ)けましておめでとうございます",src:"Happy New Year"}]}]
 };
 export default BATCH10_L1;

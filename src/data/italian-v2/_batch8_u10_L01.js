@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u10l_b8_1", title:"L'alloggio", icon:"🏨", xp:15, 
  opts:["All sold out / fully booked","Breakfast included","Late checkout available","Free cancellation"],
  ans:"All sold out / fully booked",
  hint:"'Esaurito' means exhausted or depleted. When everything is used up, there is nothing left to offer."}
-]};
+,{type:"match",pairs:[{trg:"la reception",src:"the front desk / reception"},{trg:"la coperta",src:"the blanket"}]}]};
 export default BATCH8_L1;

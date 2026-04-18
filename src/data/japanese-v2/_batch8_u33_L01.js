@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is 余韻(よいん) in Japanese aesthetics?", opts:["The lingering emotional impression after an experience","The opening scene of a story","A type of poetry","A writing technique"], ans:"The lingering emotional impression after an experience",
      hint:"Great art leaves a resonance that keeps reverberating in the mind long after you have finished it."}
-  ]
+  ,{type:"match",pairs:[{trg:"比喩(ひゆ)",src:"metaphor / figure of speech"},{trg:"主人公(しゅじんこう)",src:"protagonist / main character"},{trg:"行間(ぎょうかん)を読(よ)む",src:"to read between the lines"},{trg:"展開(てんかい)",src:"development / unfolding / progression (of a story)"},{trg:"抒情(じょじょう)",src:"lyricism / emotional expression / pathos"},{trg:"はいく",src:"haiku (17-syllable poem)"}]}]
 };
 export default BATCH8_L1;

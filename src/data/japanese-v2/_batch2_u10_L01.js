@@ -93,5 +93,5 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"明日(あした)雨(あめ)が{1}と思(おも)います。\n(I think it will rain tomorrow.)", a:"降(ふ)る", opts:["降(ふ)る","晴(は)れる","曇(くも)る","吹(ふ)く"], sSrc:"I think it will rain tomorrow.",
    hint:"The verb specifically for precipitation falling from the sky."},
-]};
+{type:"match",pairs:[{trg:"虹(にじ)",src:"rainbow"},{trg:"気温(きおん)",src:"air temperature"}]}]};
 export default BATCH2_L_1;

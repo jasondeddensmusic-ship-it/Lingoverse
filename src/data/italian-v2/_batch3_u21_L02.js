@@ -124,6 +124,6 @@ const BATCH3_U21_L2 = {
      opts:["In casual conversation with friends","In very formal situations (business, official letters)","They are completely interchangeable","Only when ordering food at restaurants"],
      ans:"In very formal situations (business, official letters)",
      hint:"'Gradirei' conveys refined politeness beyond simple 'would like.' Used in b... correspondence, f... inquiries, and upscale service contexts."}
-  ]
+  ,{type:"match",pairs:[{trg:"raccomanderei",src:"I would recommend"},{trg:"bisognerebbe",src:"it would be necessary / one should"},{trg:"sarebbe opportuno",src:"it would be appropriate / advisable"}]}]
 };
 export default BATCH3_U21_L2;

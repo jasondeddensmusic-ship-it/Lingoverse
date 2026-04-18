@@ -33,7 +33,7 @@ const LESSON_13 = {
      q:"Que fait un 'galeriste' ?",
      opts:["Il gère une galerie d'art","Il répare des galeries souterraines","Il vend des gâteaux","Il construit des galeries marchandes"],
      ans:"Il gère une galerie d'art",
-     hint:"A person in the a... world who owns or runs a space where artwork is displayed and sold."},
+     hint:"A professional who exhibits and sells contemporary works in a dedicated space. Think of Paris's Marais district."},
 
     {type:"teach", trg:"le laissez-passer", src:"the pass, the permit", pos:"noun", gender:"m",
      note:"Masculine compound noun. An official document granting access. Invariable in plural.",

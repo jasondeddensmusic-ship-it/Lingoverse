@@ -88,6 +88,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"描(えが)く in literary context means:", opts:["To depict or portray through writing","To physically draw a picture","To erase something","To read aloud"], ans:"To depict or portray through writing",
      hint:"In literature, this verb describes how an author represents subjects in w...."}
-  ]
+  ,{type:"match",pairs:[{trg:"描(えが)く",src:"to depict / to portray / to draw"},{trg:"背景(はいけい)",src:"background / setting / context"},{trg:"テーマ",src:"theme / subject"},{trg:"共感(きょうかん)",src:"empathy / sympathy / resonance"}]}]
 };
 export default BATCH6_L1;

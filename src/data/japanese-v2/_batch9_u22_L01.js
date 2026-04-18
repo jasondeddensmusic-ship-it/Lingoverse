@@ -15,6 +15,6 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}にビールを贈(おく)りました。\n(I sent beer as a mid-year gift.)", a:"お中元(おちゅうげん)", opts:["お中元(おちゅうげん)","お歳暮(おせいぼ)","手土産(てみやげ)","お返(かえ)し"], sSrc:"I sent beer as a mid-year gift.", hint:"This July seasonal gift is one of Japan's two major gift-giving occasions."},
     {type:"match", pairs:[{trg:"お返(かえ)し",src:"return gift"},{trg:"熨斗(のし)",src:"decorative paper"},{trg:"風呂敷(ふろしき)",src:"wrapping cloth"},{trg:"ご祝儀(ごしゅうぎ)",src:"wedding money"}]},
     {type:"mc", q:"What happens if you stop sending おちゅうげん?", opts:["It signals the relationship has cooled","Nothing, it is optional","The receiver gets offended","You receive a penalty"], ans:"It signals the relationship has cooled", hint:"These seasonal gifts maintain social bonds, so stopping them sends a strong message."}
-  ]
+  ,{type:"match",pairs:[{trg:"贈(おく)り物(もの)",src:"gift / present"},{trg:"お歳暮(おせいぼ)",src:"year-end gift (December)"},{trg:"手土産(てみやげ)",src:"gift brought when visiting"}]}]
 };
 export default BATCH9_L1;

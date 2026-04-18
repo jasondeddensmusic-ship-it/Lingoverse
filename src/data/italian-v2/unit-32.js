@@ -285,7 +285,7 @@ const UNIT_32 = {
        opts:["Una teoria economica sulla globalizzazione","Un partito politico fondato nel 2020","Un movimento che vuole piu controllo nazionale su politiche europee e immigrazione","Un programma di scambio culturale"],
        ans:"Un movimento che vuole piu controllo nazionale su politiche europee e immigrazione",
        hint:"A political movement advocating for more national control over decisions currently shared with the EU or international bodies. Related to 'sovranita' (sovereignty)."}
-    ]}
+    ,{type:"match",pairs:[{trg:"il commercio internazionale",src:"the international trade"},{trg:"la catena di fornitura",src:"the supply chain"},{trg:"il patrimonio culturale",src:"the cultural heritage"},{trg:"la cittadinanza globale",src:"the global citizenship"}]},{type:"mc",q:"How do you say \"welcome / reception\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'accoglienza"],ans:"l'accoglienza",hint:"Recall the Italian vocabulary word taught in this lesson."}]}
   ]
 };
 

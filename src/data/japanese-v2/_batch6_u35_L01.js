@@ -88,6 +88,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"Japan faces an 'innovation dilemma' because:", opts:["It excels at incremental improvement but struggles with disruptive innovation","It has too many robots","It lacks internet access","Its population is too young"], ans:"It excels at incremental improvement but struggles with disruptive innovation",
      hint:"Japan's strength in kaizen (i...) does not always translate to radical new ideas."}
-  ]
+  ,{type:"match",pairs:[{trg:"ビッグデータ",src:"big data"},{trg:"ロボット",src:"robot"},{trg:"セキュリティ",src:"security (cyber/digital)"},{trg:"仮想(かそう)",src:"virtual"},{trg:"繋(つな)がる",src:"to connect / to be linked"}]}]
 };
 export default BATCH6_L1;

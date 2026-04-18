@@ -130,7 +130,7 @@ const LESSON_2 = {id:"frv2_b2g9_l2", title:"Médias et Communication", icon:"�
   ]},
 
   {type:"mc", q:"Le mot 'confrère' implique que deux personnes:", opts:["Sont de la même famille","Travaillent dans la même profession","Habitent la même ville","Ont le même âge"], ans:"Travaillent dans la même profession",
-   hint:"Con- means 'with' and frère means 'brother'. Professional brothers."},
+   hint:"The prefix con- means 'with' and frère means 'brother'. Think of two doctors or two lawyers sharing a field."},
 
   {type:"fb", s:"Elle a plaidé {1} pour les droits des femmes.", a:["passionnément"], opts:["passionnément","partiellement","patiemment","poliment"],
    hint:"With great emotion and intensity. From the word for passion.",

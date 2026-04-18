@@ -25,4 +25,4 @@ const BATCH5_L_1={id:"itv2_u13l_b5_1",title:"Sfumature del congiuntivo",icon:"\u
 {type:"mc",q:"Quale verbo, dal latino 'shackle the feet,' significa vietare che qualcosa avvenga?",opts:["Impedire","Permettere","Aiutare","Insistere"],ans:"Impedire",hint:"From Latin 'shackling the feet.' The opposite of allowing something."},
 {type:"fb",s:"La legge {1} che tutti rispettino le regole.",a:["esige"],opts:["esige","vuole","dice","pensa"],hint:"A formal verb meaning 'to require' or 'to demand.' Used in legal contexts.",sSrc:"The law {1} that everyone respects the rules."},
 {type:"mc",q:"'Desiderare' e piu formale di quale verbo?",opts:["Volere","Sapere","Potere","Dovere"],ans:"Volere",hint:"Both mean wanting something, but this word is more literary. It comes from 'stars.'"},
-]};export default BATCH5_L_1;
+{type:"match",pairs:[{trg:"e fondamentale che",src:"it is essential that"},{trg:"e opportuno che",src:"it is appropriate that"},{trg:"e improbabile che",src:"it is unlikely that"},{trg:"pretendo che",src:"I demand that"},{trg:"supporre che",src:"to suppose that"},{trg:"desiderare che",src:"to desire that"}]}]};export default BATCH5_L_1;

@@ -79,6 +79,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"社説(しゃせつ) is:", opts:["A newspaper's official editorial opinion","A news article","A reporter's blog","A reader's letter"], ans:"A newspaper's official editorial opinion",
      hint:"This combines 社(しゃ) (company) with 説(せつ) (o.../theory) for the paper's institutional stance."}
-  ]
+  ,{type:"match",pairs:[{trg:"社説(しゃせつ)",src:"editorial (newspaper opinion piece)"},{trg:"媒体(ばいたい)",src:"media / medium (communication channel)"},{trg:"投稿(とうこう)",src:"contribution / submission (to a publication)"},{trg:"閲覧(えつらん)",src:"reading / perusal / browsing"},{trg:"偏向(へんこう)",src:"bias / partiality / leaning"}]}]
 };
 export default BATCH5_L_1;

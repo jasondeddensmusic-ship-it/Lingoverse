@@ -298,7 +298,7 @@ const UNIT_27 = {
        opts:["Perche la ricerca italiana e poco apprezzata","Perche preferiscono il clima di altri paesi","Per la scarsita di posizioni e stipendi bassi in Italia","Perche le universita italiane sono chiuse"],
        ans:"Per la scarsita di posizioni e stipendi bassi in Italia",
        hint:"Limited job openings and low pay push talented scientists to seek opportunities abroad. This phenomenon is called 'brain drain.'"}
-    ]}
+    ,{type:"match",pairs:[{trg:"la sperimentazione",src:"the experimentation / testing"}]}]}
   ]
 };
 

@@ -117,7 +117,7 @@ export default {n:11,lang:"es",srcLang:"en",track:"v2",title:"Cuando Era Niño",
         ],label:"ver (to see)"},
         {type:"tip",title:"Only 3 Irregulars. That is It.",text:"The imperfect is the friendliest Spanish tense:\n\n. ser → era, eras, era, éramos, eran\n. ir → iba, ibas, iba, íbamos, iban\n. ver → veía, veías, veía, veíamos, veían\n\nEvery other verb in Spanish, no matter how irregular in other tenses, is 100% regular in the imperfect. Tener → tenía. Hacer → hacía. Poder → podía. Decir → decía. All regular."},
         {type:"mc",q:"How do you say \"we used to go\" in Spanish?",opts:["íbamos","iban","ibas","iba"],ans:"íbamos",hint:"The nosotros form of ir in the imperfect has an accent."},
-        {type:"fb",opts:["era","fue","es","será"],hint:"Describing a physical characteristic in the past needs ser imperfect.",s:"Mi padre {1} muy alto cuando era joven.",a:"era"},
+        {type:"fb",opts:["era","fue","es","será"],hint:"Describing a physical characteristic in the past: use ser in the imperfect.",s:"Mi padre {1} muy alto antes de tener 30 años.",a:"era"},
         {type:"mc",q:"\"Veíamos películas los sábados\" means:",opts:["We watched a movie last Saturday","We used to watch movies on Saturdays","We watch movies on Saturdays","We will watch movies on Saturdays"],ans:"We used to watch movies on Saturdays",hint:"The imperfect veíamos describes a habitual Saturday activity."},
         {type:"fb",opts:["iba","fui","voy","iré"],hint:"A repeated Sunday visit in the past needs ir in the imperfect.",s:"Cada domingo {1} a casa de mis abuelos.",a:"iba"},
         {type:"drag_fill",hint:"Describing how a neighborhood was uses imperfect of ser and haber.",s:"Mi barrio {1} muy tranquilo y {2} muchos árboles.",blanks:{"1":"era","2":"había"},pool:["era","había","fue","hubo"]},
@@ -150,7 +150,7 @@ export default {n:11,lang:"es",srcLang:"en",track:"v2",title:"Cuando Era Niño",
         ]},
         {type:"mc",q:"Which sentence correctly describes a past scene?",opts:["Hace sol y hay niños en el parque","Hizo sol y hubo niños en el parque","Hacía sol y había niños en el parque","Hará sol y habrá niños en el parque"],ans:"Hacía sol y había niños en el parque",hint:"Scene descriptions use the imperfect to paint the background."},
         {type:"drag_fill",hint:"Describing a house's size and what it possessed both use the imperfect.",s:"La casa {1} pequeña pero {2} un jardín muy bonito.",blanks:{"1":"era","2":"tenía"},pool:["era","tenía","fue","tuvo"]},
-        {type:"fb",opts:["era","fue","es","estaba"],hint:"Describing a lasting characteristic of a place uses ser imperfect.",s:"Cuando era niño, mi barrio {1} muy tranquilo.",a:"era"},
+        {type:"fb",opts:["era","fue","es","estaba"],hint:"Describing a lasting characteristic of a place: use ser in the imperfect.",s:"Mi barrio de niño {1} muy tranquilo y verde.",a:"era"},
         {type:"mc",q:"\"Estaba nerviosa porque tenía un examen\" combines:",opts:["A habit and a description","Two permanent traits","Two completed actions","A temporary feeling (estaba) and a situation (tenía)"],ans:"A temporary feeling (estaba) and a situation (tenía)",hint:"Being nervous is a ___ state, and having an exam is a ___. Both use imperfect."}
   ]},
   {id:"esp11l6",title:"Acciones habituales",icon:"🔄",xp:15,board:true,steps:[
@@ -256,5 +256,5 @@ export default {n:11,lang:"es",srcLang:"en",track:"v2",title:"Cuando Era Niño",
         {type:"match",pairs:[{trg:"el caballo",src:"horse"},{trg:"la vaca",src:"cow"},{trg:"el cerdo",src:"pig"},{trg:"la oveja",src:"sheep"},{trg:"la gallina",src:"hen"}]},
         {type:"fb",opts:["león","gato","conejo","pájaro"],hint:"The king of the jungle. You'd see this big cat behind glass at a zoo.",s:"En el zoológico vimos un {1} muy grande detrás del cristal.",a:"león"},
         {type:"mc",q:"What is the female form of 'el gato'?",opts:["el gata","la gato","la gata","la gatita"],ans:"la gata",hint:"For most animal names ending in -o, change the -o to -a for the feminine."}
-  ]}
+  ,{type:"match",pairs:[{trg:"de pequeño/a",src:"as a child / when little"},{trg:"el animal",src:"the animal"},{trg:"la mascota",src:"the pet"},{trg:"el conejo",src:"the rabbit"},{trg:"el zoológico",src:"the zoo"}]}]}
 ]};

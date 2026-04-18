@@ -94,6 +94,6 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"あいにく is used to:", opts:["Deliver bad news politely","Express excitement","Make a request","Give directions"], ans:"Deliver bad news politely",
      hint:"This word softens unfortunate information for the listener."}
-  ]
+  ,{type:"match",pairs:[{trg:"少々(しょうしょう)",src:"a little / a moment (formal)"},{trg:"お客様(きゃくさま)",src:"customer / guest (honorific)"},{trg:"申(もう)し訳(わけ)ございません",src:"I am terribly sorry (most formal apology)"},{trg:"お持(も)ちする",src:"to bring (humble form)"},{trg:"ご利用(りよう)",src:"usage / use (honorific)"},{trg:"お買(か)い物(もの)",src:"shopping (honorific)"}]}]
 };
 export default BATCH6_L1;

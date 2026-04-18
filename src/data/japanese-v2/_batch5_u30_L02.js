@@ -73,6 +73,6 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"Prince Shotoku's constitution begins with:", opts:["Harmony is to be valued","Justice is supreme","The emperor is god","War is inevitable"], ans:"Harmony is to be valued",
      hint:"The first article emphasizes the core Japanese value of わ (h.../peace)."}
-  ]
+  ,{type:"match",pairs:[{trg:"間(ま)",src:"negative space / pause / interval"},{trg:"美意識(びいしき)",src:"aesthetic sense / sense of beauty"},{trg:"余白(よはく)",src:"blank space / margin / negative space (in art)"}]}]
 };
 export default BATCH5_L_2;

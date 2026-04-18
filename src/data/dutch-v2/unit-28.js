@@ -24,7 +24,7 @@ export default {n:28,lang:"nl",srcLang:"en",track:"v2",title:"Literatuur & Uitdr
         {type:"fb",opts:["appel","boom","kers","peer"],hint:"Which fruit in this Dutch proverb?",s:"Jouw dochter lijkt precies op jou. De _____ valt niet ver van de boom!",a:"appel"},
         {type:"drag_fill",hint:"After a trip: EAST west... After rejection: who laughs LAST...",s:"Na een lange reis: '{1} west, thuis best.' Na een afwijzing: 'Wie het {2} lacht, lacht het best.'",blanks:{"1":"Oost","2":"laatst"},pool:["Oost","laatst","niet","beter"]},
         {type:"mc",q:"Dutch people use proverbs:",opts:["Only in literature","Rarely in modern life","Only when speaking formally","Constantly in everyday speech"],ans:"Constantly in everyday speech",hint:"Proverbs are deeply embedded in daily Dutch"},
-        {type:"fb",opts:["laat","vroeg","snel","goed"],hint:"Beter ___ dan nooit: timing proverb",s:"Beter _____ dan nooit. Sorry dat ik te laat ben.",a:"laat"},
+        {type:"fb",opts:["laat","vroeg","snel","goed"],hint:"Dutch timing proverb: better this than never arriving at all",s:"Beter _____ dan nooit!",a:"laat"},
         {type:"mc",q:"'Oost west, thuis best' reflects the Dutch value of:",opts:["Home and comfort","Adventure","Speed","Ambition"],ans:"Home and comfort",hint:"There's no place like ___"}
   ]},
   {id:"v2u28l2",title:"Spreekwoorden II",icon:"💡",xp:20,board:true,steps:[
@@ -118,7 +118,7 @@ export default {n:28,lang:"nl",srcLang:"en",track:"v2",title:"Literatuur & Uitdr
         {type:"fb",opts:["metafoor","vergelijking","overdrijving","understatement"],hint:"Direct comparison without als: X IS Y",s:"'Het leven is een reis' is een _____ omdat er geen 'als' staat.",a:"metafoor"},
         {type:"drag_fill",hint:"AS strong as an ox = simile. Life is a stage = METAPHOR.",s:"'Zo sterk {1} een os' is een vergelijking. 'Het leven is een toneel' is een {2}.",blanks:{"1":"als","2":"metafoor"},pool:["als","metafoor","overdrijving","understatement"]},
         {type:"mc",q:"'Het valt wel mee' (it's not so bad) when something is actually GREAT is:",opts:["A metaphor","A hyperbole","A simile","An understatement"],ans:"An understatement",hint:"A rhetorical device: saying less than what is true"},
-        {type:"fb",opts:["als","en","of","maar"],hint:"Zo wit ___ sneeuw: the linking word in similes",s:"'Zo wit als sneeuw' is een vergelijking omdat er '_____' in staat.",a:"als"},
+        {type:"fb",opts:["als","en","of","maar"],hint:"The linking word in similes: 'zo... ___' creates a direct comparison",s:"Een vergelijking gebruikt de constructie 'zo + adjective + ___ + noun'.",a:"als"},
         {type:"mc",q:"'Doe maar normaal' reflects the Dutch attitude toward:",opts:["Hyperbole and exaggeration","Strict formal etiquette","Excessive politeness","Following fashion trends"],ans:"Hyperbole and exaggeration",hint:"Act normal = don't exaggerate (nuchterheid)"},
         {type:"mc",q:"'Het valt wel mee' is an example of understatement because:",opts:["It says more than reality","It says less than reality","It's a question","It's a metaphor"],ans:"It says less than reality",hint:"It's not so bad (when it's actually quite good)"}
   ]},

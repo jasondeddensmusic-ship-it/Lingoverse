@@ -106,6 +106,6 @@ const BATCH11_L1 = {
      opts:["家計簿(かけいぼ) (household ledger)","Stock trading","Cryptocurrency","Credit cards only"],
      ans:"家計簿(かけいぼ) (household ledger)",
      hint:"This method of tracking every expenditure was invented in 1904 and remains popular in Japanese financial culture."}
-  ]
+  ,{type:"match",pairs:[{trg:"景気(けいき)",src:"economy / business conditions"},{trg:"収入(しゅうにゅう)",src:"income / revenue"},{trg:"支出(ししゅつ)",src:"expenditure / spending"},{trg:"投資(とうし)",src:"investment"},{trg:"税金(ぜいきん)",src:"tax"},{trg:"貨幣(かへい)",src:"currency"}]}]
 };
 export default BATCH11_L1;

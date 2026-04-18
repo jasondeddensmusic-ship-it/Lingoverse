@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"When would you say ごぶさたしております?", opts:["When contacting someone after a long silence","When answering the phone","When arriving at work","When leaving home"], ans:"When contacting someone after a long silence",
      hint:"This formal phrase apologizes for the gap in communication."}
-  ]
+  ,{type:"match",pairs:[{trg:"おひさしぶりです",src:"it has been a long time"},{trg:"おげんきですか",src:"how are you?"},{trg:"よろしくおねがいします",src:"pleased to meet you / please treat me well"},{trg:"おせわになっております",src:"thank you for your continued support"},{trg:"ごぶさたしております",src:"I apologize for not being in touch"},{trg:"おそれいります",src:"I appreciate it / I am sorry to trouble you"}]}]
 };
 export default BATCH8_L1;

@@ -263,6 +263,7 @@ const UNIT_23 =
 
 {type:"drag_fill",s:"보도{1} 따르면 사고{2} 원인{3} 과속{4} 인한 것으로 나타났다.\n(According to reports, the accident cause was shown to be due to speeding.)",blanks:{"1":"에","2":"의","3":"이","4":"으로"},pool:["에","의","이","으로","를","가","는","에서"],hint:"According-to. Possessive. Subject. Formal cause."},
 {type:"mc",q:"Complete news sentence: ___에 따르면 청소년의 스마트폰 사용이 증가한 것으로 ___.\nFill both blanks.\n(According to ___, teen smartphone use was shown to have increased.)",opts:["전문가 + 모양이다","뉴스 + 보인다","기사 + 알려졌다","조사 + 나타났다 (survey + was revealed)"],ans:"조사 + 나타났다 (survey + was revealed)",hint:"조사 = systematic data collection. 나타났다 = the data showed. Which option pairs quantitative research with its matching result cliche?"},
+{type:"match",pairs:[{trg:"체포",src:"arrest"},{trg:"-다시피",src:"as (you know/see/heard)"},{trg:"-(으)ㄴ/는 모양이다",src:"it seems / it appears that"},{trg:"-(으)ㄴ/는 걸 보니(까)",src:"judging by / seeing that"},{trg:"-(ㄴ/는)다면서(요)?",src:"I heard that...? Is it true?"},{trg:"미세먼지",src:"fine dust / particulate matter"},{trg:"환경",src:"environment"}]}
 ]},
 
 ]};

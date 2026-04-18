@@ -108,13 +108,13 @@ export default {n:25,lang:"nl",srcLang:"en",track:"v2",title:"Op de Werkvloer",s
         ],label:"Present and Past Conditional"},
         {type:"mc",q:"'Hij had moeten werken' means:",opts:["He should have worked","He must work now","He has to work","He will have to work"],ans:"He should have worked",hint:"Had + moeten = past obligation"},
         {type:"mc",q:"'Zij zou kunnen komen' means:",opts:["She must come","She could/would be able to come","She has come","She came yesterday"],ans:"She could/would be able to come",hint:"Zou + kunnen = conditional ability"},
-        {type:"fb",opts:["had","heeft","zou","is"],hint:"Hij had moeten + infinitive (past obligation)",s:"Hij _____ moeten werken, maar hij bleef thuis.",a:"had"},
-        {type:"fb",opts:["had","is","zou","moet"],hint:"Zij had + modal + infinitive (past ability)",s:"Zij _____ eerder kunnen vertrekken.",a:"had"},
+        {type:"fb",opts:["had","heeft","zou","is"],hint:"Past obligation: the auxiliary that pairs with 'moeten' to express what should have happened",s:"Hij _____ moeten werken, maar hij bleef thuis.",a:"had"},
+        {type:"fb",opts:["had","is","zou","moet"],hint:"Past unrealized ability: which auxiliary combines with 'kunnen' here?",s:"Zij _____ eerder kunnen vertrekken.",a:"had"},
         {type:"mc",q:"In 'omdat hij had moeten werken', the verbs are at the:",opts:["Beginning","Middle","End","They're spread out"],ans:"End",hint:"In subordinate clauses, verbs go where?"},
         {type:"mc",q:"Which is preferred in daily speech?",opts:["Hij zou hebben moeten werken","Hij heeft moeten gewerkt","Hij zou moeten hebben gewerkt","Hij had moeten werken"],ans:"Hij had moeten werken",hint:"The simpler form wins in conversation"},
         {type:"drag_fill",hint:"She should have written the report (subordinate clause)",s:"...omdat zij het rapport {1} {2} {3}.",blanks:{"1":"had","2":"moeten","3":"schrijven"},pool:["had","moeten","schrijven","geschreven"]},
         {type:"mc",q:"'Wij zouden het eerder hebben moeten bespreken' means:",opts:["We should have discussed it earlier","We must discuss it now","We will discuss it later","We are discussing it"],ans:"We should have discussed it earlier",hint:"Zouden + hebben moeten = formal past conditional"},
-        {type:"fb",opts:["had","heb","zou","ben"],hint:"Past perfect in als-clause: als ik het ___ geweten",s:"Als ik het _____ geweten, was ik gekomen.",a:"had"},
+        {type:"fb",opts:["had","heb","zou","ben"],hint:"Past perfect in the als-clause: which form of 'hebben' combines with 'geweten'?",s:"Als ik het _____ geweten, was ik gekomen.",a:"had"},
         {type:"match",pairs:[{trg:"zou moeten werken",src:"should work"},{trg:"had moeten werken",src:"should have worked"},{trg:"zou kunnen komen",src:"could come"},{trg:"had kunnen komen",src:"could have come"}]},
         {type:"mc",q:"'Hij zou zijn gekomen als hij had gekund.' What happened?",opts:["He came","He didn't come","He's coming now","He will come"],ans:"He didn't come",hint:"Zou zijn gekomen = would have ___ (but ___'t)"},
         {type:"fb",opts:["hadden","hebben","zouden","zijn"],hint:"Wij _____ het eerder moeten bespreken (plural past)",s:"Wij _____ het eerder moeten bespreken.",a:"hadden"},
@@ -211,5 +211,5 @@ export default {n:25,lang:"nl",srcLang:"en",track:"v2",title:"Op de Werkvloer",s
         {type:"mc",q:"Dutch business emails are generally:",opts:["Long and very polite","Written in English","Full of pleasantries","Short and direct"],ans:"Short and direct",hint:"Dutch ___ness in writing"},
         {type:"mc",q:"...omdat hij het rapport had _____ schrijven.",opts:["moeten","moest","moet","gemoed"],ans:"moeten",hint:"...because he should have written (verb cluster at end)"},
         {type:"mc",q:"'Ik zie dat anders' is a softer way to say:",opts:["I agree completely","I disagree","I don't understand","I need more time"],ans:"I disagree",hint:"I see it DIFFERENTLY"}
-  ]}
+  ,{type:"match",pairs:[{trg:"ter kennisgeving",src:"for information / noted"}]}]}
 ]};

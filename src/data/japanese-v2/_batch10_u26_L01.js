@@ -64,6 +64,6 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"Which word means media literacy?", opts:["メディアリテラシー","情報源(じょうほうげん)","ファクトチェック","拡散(かくさん)"], ans:"メディアリテラシー",
      hint:"This term is essential vocabulary for this topic."}
-  ]
+  ,{type:"match",pairs:[{trg:"検証(けんしょう)する",src:"to verify"}]}]
 };
 export default BATCH10_L1;

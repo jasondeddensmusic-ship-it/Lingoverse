@@ -130,6 +130,6 @@ const BATCH3_U11_L1 = {
      opts:["They all end in -ato like regular -are verbs","They all come from -endere verbs with -eso ending","They all have regular -uto endings","They all use essere as their auxiliary"],
      ans:"They all come from -endere verbs with -eso ending",
      hint:"These three all belong to the same conjugation group. Their past participles follow an identical transformation from the infinitive stem."}
-  ]
+  ,{type:"match",pairs:[{trg:"speso",src:"spent (past participle)"},{trg:"rimasto",src:"stayed / remained (past participle)"},{trg:"conosciuto",src:"met / known (past participle)"},{trg:"offerto",src:"offered (past participle)"},{trg:"pianto",src:"cried / wept (past participle)"}]}]
 };
 export default BATCH3_U11_L1;

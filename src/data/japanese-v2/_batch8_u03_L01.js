@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does コピー機(き) mean?", opts:["Copy machine","Coffee maker","Computer","Calculator"], ans:"Copy machine",
      hint:"This compound word joins the loanword for 'c...' with the Japanese word for 'm....'"}
-  ]
+  ,{type:"match",pairs:[{trg:"ものさし",src:"ruler"},{trg:"黒板(こくばん)",src:"blackboard / chalkboard"},{trg:"棚(たな)に",src:"on the shelf"},{trg:"コピー機(き)",src:"copy machine / photocopier"},{trg:"ファイル",src:"file / folder / binder"}]}]
 };
 export default BATCH8_L1;

@@ -21,6 +21,6 @@ const BATCH5_L_1 = {
     {type:"match", pairs:[{trg:"序論(じょろん)",src:"introduction"},{trg:"本論(ほんろん)",src:"main body"},{trg:"結論(けつろん)",src:"conclusion"},{trg:"引用(いんよう)",src:"citation/quotation"}]},
     {type:"fb", s:"本論(ほんろん)では主張(しゅちょう)を論理的(ろんりてき)に{1}しましょう。\n(In the main body, develop the argument logically.)", a:"展開(てんかい)", opts:["展開(てんかい)","結論(けつろん)","引用(いんよう)","分析(ぶんせき)"], sSrc:"In the main body, develop the argument logically.", hint:"The verb meaning to develop/expand/unfold an argument systematically."},
     {type:"mc", q:"Japanese academic writing uses:", opts:["である style (not です/ます) for objectivity","です/ます style for politeness","Casual speech patterns","No fixed style"], ans:"である style (not です/ます) for objectivity", hint:"The formal written copula creates the objective tone required in academic Japanese."}
-  ]
+  ,{type:"match",pairs:[{trg:"論文(ろんぶん)",src:"academic paper / thesis / essay"},{trg:"多角的(たかくてき)",src:"multilateral / from multiple angles / multifaceted"}]}]
 };
 export default BATCH5_L_1;

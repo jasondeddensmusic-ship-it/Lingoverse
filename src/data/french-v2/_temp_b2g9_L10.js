@@ -61,7 +61,7 @@ const LESSON_10 = {id:"frv2_b2g9_l10", title:"Culture et Arts", icon:"🎨", xp:
    funFact:"The red diamond-shaped sign of the tabac is iconic in France. They also sell lottery tickets."},
 
   {type:"mc", q:"Un peplum est:", opts:["Un vêtement romain","Un film d'aventure dans l'Antiquité","Un plat méditerranéen","Un style de musique"], ans:"Un film d'aventure dans l'Antiquité",
-   hint:"Think gladiators and togas. Films set in ancient Greece or Rome."},
+   hint:"Think gladiators and togas. Cinematic epics set in ancient Greece or Rome."},
 
   {type:"teach", trg:"la crêperie", src:"creperie", pos:"noun", gender:"f",
    note:"From crêpe + -erie.\nA restaurant specializing in crepes.",

@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u22l_b7_1", title:"La musica e lo spettacolo", icon:
  {trg:"il pubblico", src:"audience"},
  {trg:"il palcoscenico", src:"stage"}
 ]}
-]};
+,{type:"match",pairs:[{trg:"il concerto",src:"the concert"},{trg:"il biglietto",src:"the ticket"}]}]};
 export default BATCH7_L1;

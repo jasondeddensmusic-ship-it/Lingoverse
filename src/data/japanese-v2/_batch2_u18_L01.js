@@ -83,6 +83,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"辞(や)めさせる means:", opts:["to quit by oneself","to make someone quit / to fire","to ask to quit","to want to quit"], ans:"to make someone quit / to fire",
      hint:"The causative of 辞(や)める. The subject forces or causes s... else to q...."},
-  ]
+  {type:"match",pairs:[{trg:"通(かよ)わせる",src:"to make someone commute / to send someone (to school)"}]}]
 };
 export default BATCH2_L_1;
