@@ -66,7 +66,7 @@ const UNIT_1 =
  // ── Step 12: MC — who says which (conceptual angle) ──
  {type:"mc",q:"가세요 in 안녕히 가세요 means 'please go.' You say this to someone who is:",opts:["Leaving","Staying behind","Arriving","Sleeping"],ans:"Leaving",hint:"가 = go. You wish the LEAVER to go in peace."},
  // ── Step 15: MC  -  when is 안녕 OK ──
- {type:"mc",q:"안녕 (casual) is appropriate when talking to:",opts:["Your boss","A close friend your age","A stranger on the street","Your friend's grandmother"],ans:"A close friend your age",hint:"안녕 is casual. Only safe with close friends your age or younger."},
+ {type:"mc",q:"안녕 (casual) is appropriate when talking to:",opts:["Your boss","A close friend your age","A stranger on the street","Your friend's grandmother"],ans:"A close friend your age",hint:"안녕 is casual. Safe only with peers you know well, typically your own generation or younger."},
  // ── Step 16: FB — greeting your teacher ──
  {type:"fb",s:"A student greets their teacher in the morning: ___",a:"안녕하세요",opts:["안녕","안녕하세요","안녕히 가세요","안녕히 계세요"],hint:"A teacher is senior. Use the polite, universal greeting."},
  // ── Step 17: Match — all four greetings ──
@@ -241,7 +241,7 @@ const UNIT_1 =
  {type:"fb",s:"이것은 ___예요?\n(Asking 'what')",a:"뭐",opts:["뭐","네","저","이것"],hint:"Which question word fills the blank to ask about the object?"},
  {type:"tip",title:"🗣️ Questions Without Question Words",text:"In Korean, any statement becomes a question by raising your voice:\n\n• 커피예요. (flat tone) = It's coffee.\n• 커피예요? (rising tone) = Is it coffee?\n\nNo extra words needed. No word order change.",deepDive:{title:"How Intonation Creates Questions",text:"Just raise your intonation at the end.\n\nThis is why L1 said: Korean questions sound like statements."}},
  {type:"mc",q:"커피예요? (with rising intonation) means:",opts:["It's coffee.","I want coffee.","Is it coffee?","Where is coffee?"],ans:"Is it coffee?",hint:"Rising intonation = question in Korean"},
- {type:"mc",q:"커피예요? 네, 맞아요! What does 맞아요 mean?",opts:["Thank you","Not at all","I don't know","That's right"],ans:"That's right",hint:"맞다 = to be correct/right. 네, 맞아요 confirms something is true."},
+ {type:"mc",q:"커피예요? 네, 맞아요! What does 맞아요 mean?",opts:["Thank you","Not at all","I don't know","That's right"],ans:"That's right",hint:"맞다 = to be correct. 네, 맞아요 affirms that a statement is accurate."},
  {type:"fb",s:"택시예요? 아니요, ___예요.\n(No, it's a bus.)",a:"버스",opts:["버스","택시","커피","호텔"],hint:"A bus is ... (Konglish!)"},
  {type:"teach",kind:"word",nl:"이거",en:"this (casual short form)",pos:"pron",gender:null,funFact:"Much more common in daily speech.",phonetic:"i-geo",example:"A: 이거 뭐예요? B: 아이스크림이에요!",exampleEn:"A: What's this? B: It's ice cream!",note:"이거 = casual short form of 이것.\nMuch more common in daily speech.\n이거 뭐예요? = What's this? (casual but polite)"},
  {type:"mc",q:"이거 is the short form of:",opts:["이것","그것","저것","무엇"],ans:"이것",hint:"이거  (this thing), just shorter"},
@@ -300,7 +300,7 @@ const UNIT_1 =
  {type:"mc",q:"죄송합니다 uses the same compound pattern as 감사합니다. Both use:",opts:["있다 (to exist)","가다 (to go)","하다 (to do)","이다 (to be)"],ans:"하다 (to do)",hint:"This verb root is found in both expressions of gratitude and apology."},
  {type:"match",pairs:[{nl:"만나서 반갑습니다",en:"nice to meet you"},{nl:"이름이 뭐예요?",en:"what's your name?"},{nl:"죄송합니다",en:"I'm sorry"},{nl:"괜찮아요",en:"it's okay"}]},
  {type:"fb",s:"You need the waiter to wait. You say: ___",a:"잠시만요",opts:["잠시만요","감사합니다","죄송합니다","안녕하세요"],hint:"Just a moment, please"},
- {type:"mc",q:"How does 괜찮아요 function when offered food you don't want?",opts:["It means yes please definitely","It expresses strong dislike","It is a formal greeting only","It means no thanks politely"],ans:"It means no thanks politely",hint:"괜찮아요 can politely decline offers"},
+ {type:"mc",q:"How does 괜찮아요 function when offered food you don't want?",opts:["It means yes please definitely","It expresses strong dislike","It is a formal greeting only","It means no thanks politely"],ans:"It means no thanks politely",hint:"괜찮아요 is a soft refusal in Korean culture. Literally 'it is okay,' used to decline without seeming rude."},
  {type:"match",pairs:[{nl:"잠시만요",en:"just a moment"},{nl:"괜찮아요",en:"it's okay / no thanks"},{nl:"감사합니다",en:"thank you (formal)"},{nl:"죄송합니다",en:"I'm sorry (formal)"}]},
  {type:"mc",q:"Put the first meeting in order: A) 만나서 반갑습니다 B) 안녕하세요 C) 저는 민수예요",opts:["B → C → A","A → B → C","C → A → B","B → A → C"],ans:"B → C → A",hint:"Hello → I am 민수 → Nice to meet you"},
  ]},
@@ -322,7 +322,7 @@ const UNIT_1 =
  {type:"fb",s:"오늘 ___가 있어요.\n(I have a part-time job today.)",a:"바이트",opts:["바이트","서비스","파이팅","에어컨"],hint:"This false friend comes from German 'Arbeit' (work)."},
  {type:"fb",s:"시험 ___!\n(Good luck on the exam!)",a:"파이팅",opts:["파이팅","서비스","감사합니다","안녕하세요"],hint:"This Konglish word sounds like a combat verb but means 'go for it!'"},
  {type:"match",pairs:[{nl:"서비스",en:"free bonus / freebie"},{nl:"핸드폰",en:"cellphone"},{nl:"바이트",en:"part-time job"},{nl:"파이팅",en:"you can do it!"}]},
- {type:"mc",q:"에어컨 is short for:",opts:["air condition","air conditioner","air container","air concert"],ans:"air conditioner",hint:"에어(air) + 컨(con) , clipped"},
+ {type:"mc",q:"에어컨 is short for:",opts:["air condition","air conditioner","air container","air concert"],ans:"air conditioner",hint:"에어 + 컨, a clipped Konglish borrowing of the English appliance name."},
  {type:"mc",q:"At a Korean restaurant, the owner brings an extra dish and says '서비스예요!' What should you do?",opts:["Pay for the dish","Ask for the check","Thank them (it's free)","Leave a small tip"],ans:"Thank them (it's free)",hint:"서비스 = freebie. Just say 감사합니다!"},
  {type:"fb",s:"___ 번호가 뭐예요?\n(What's your phone number?)",a:"핸드폰",opts:["핸드폰","바이트","에어컨","서비스"],hint:"Korean uses 'hand' + 'phone' for this device."},
  {type:"match",pairs:[{nl:"에어컨",en:"air conditioner"},{nl:"파이팅",en:"encouragement"},{nl:"서비스",en:"not 'service' but 'freebie'"},{nl:"바이트",en:"not 'byte' but 'part-time job'"}]},
@@ -373,7 +373,7 @@ const UNIT_1 =
  {type:"mc",q:"저는 의사가 아니에요. This means:",opts:["I am not a doctor","I am a doctor","I want to be a doctor","Where is the doctor?"],ans:"I am not a doctor",hint:"아니에요 = am not / is not"},
  {type:"fb",s:"미국 사람이에요? 아니요, ___ 사람이에요.\n(No, I'm Korean.)",a:"한국",opts:["한국","미국","일본","중국"],hint:"한 + 국. The country whose language you are studying."},
  {type:"match",pairs:[{nl:"만나서 반갑습니다",en:"nice to meet you"},{nl:"안녕히 가세요",en:"goodbye (to leaver)"},{nl:"안녕히 계세요",en:"goodbye (to stayer)"},{nl:"괜찮아요",en:"it's okay"}]},
-  {type:"mc",q:"해요체 is which type of speech?",opts:["Very formal","Polite everyday","Casual (no -요)","Written only"],ans:"Polite everyday",hint:"해요체 = the polite register you use with most people."},
+  {type:"mc",q:"해요체 is which type of speech?",opts:["Very formal","Polite everyday","Casual (no -요)","Written only"],ans:"Polite everyday",hint:"해요체 = the default speech level for daily conversation with strangers and acquaintances."},
  {type:"mc",q:"In the dictionary, all Korean verbs end in:",opts:["-요","-세요","-다","-하"],ans:"-다",hint:"Dictionary form: always ..."},
  {type:"fb",s:"Someone bumps into you and says 죄송합니다. You say: ___",a:"괜찮아요",opts:["괜찮아요","감사합니다","안녕하세요","만나서 반갑습니다"],hint:"When someone apologizes, you reassure them that no harm was done."},
  {type:"match",pairs:[{nl:"커피",en:"coffee"},{nl:"택시",en:"taxi"},{nl:"핸드폰",en:"cellphone"},{nl:"바이트",en:"part-time job"}]},

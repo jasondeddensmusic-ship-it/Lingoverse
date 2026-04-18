@@ -362,9 +362,8 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 
 ### Polish Remaining
 1. **A2 dialogue scaling** — Italian: 138 dialogues need 3+ turns. Japanese: 28 need 3+ turns.
-2. **Korean PP8 hint leaks — 729** (all in Korean v2 unit files). Validator upgraded to word-boundary matching (D123) caught real pedagogical leaks. Examples: hint "only safe with close friends your age or younger" for ans "A close friend your age" leaks "close" + "age." Too many for manual session cleanup. Need agent-based rewording to preserve hint quality (mechanical `___` substitution would degrade pedagogy). Run `node scripts/validate_all.cjs korean-v2 --include-batch 2>&1 | grep PP8-HINT` to enumerate.
 
-**Validator state (2026-04-18):** 9 of 10 languages PASS all critical checks (PP8/PP43/PP48). Korean the only outlier at 729 PP8-HINT. Previously reported Italian 7 PP8 leaks are stale — Italian now at 0.
+**Validator state (2026-04-18):** **All 10 languages PASS all critical checks (PP8/PP43/PP48).** Korean cleared its 729 PP8-HINT leaks via Sonnet agent swarms (one agent per unit file, 3-pass iteration each). Every hint reworded to preserve pedagogical guidance while removing answer-word overlaps.
 
 ### Feature Polish (deferred)
 7. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors.
