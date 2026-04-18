@@ -67,7 +67,7 @@ const UNIT_01 = {n:1,lang:"pt",srcLang:"en",track:"v2",title:"Olá! Como vai?",s
     {type:"mc",q:"A woman saying 'thank you' says:",opts:["obrigado","obrigada","obrigados","obrigadas"],ans:"obrigada",hint:"The ending must match the speaker's gender. Feminine ending is -a."},
     {type:"mc",q:"A man saying 'thank you' says:",opts:["obrigada","obrigado","obrigadas","obrigados"],ans:"obrigado",hint:"Masculine ending is -o."},
     {type:"fb",opts:["sim","não","oi","olá"],hint:"The simple affirmative answer.",s:"{1}, eu falo português.",sSrc:"Yes, I speak Portuguese.",a:"Sim"},
-    {type:"fb",opts:["sim","não","oi","obrigado"],hint:"Negation word. Also means 'not' before a verb.",s:"{1}, eu não falo francês.",sSrc:"No, I do not speak French.",a:"Não"},
+    {type:"fb",opts:["sim","não","oi","obrigado"],hint:"Negation word. Use this to give a negative reply.",s:"{1}, eu falo inglês, mas nunca estudei francês.",sSrc:"No, I speak English, but I never studied French.",a:"Não"},
     {type:"fb",opts:["chamo","chama","chamar","chamamos"],hint:"First-person form of chamar, used for your own name.",s:"Eu me {1} Maria.",sSrc:"My name is Maria.",a:"chamo"},
     {type:"match",pairs:[{trg:"me chamo",src:"my name is"},{trg:"sim",src:"yes"},{trg:"não",src:"no"},{trg:"obrigado",src:"thank you (m)"},{trg:"obrigada",src:"thank you (f)"}]},
     {type:"mc",q:"Tchau is Portuguese for:",opts:["hello","good morning","bye","thanks"],ans:"bye",hint:"A short, casual farewell borrowed from Italian ciao."},

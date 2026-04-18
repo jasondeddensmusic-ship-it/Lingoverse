@@ -91,7 +91,7 @@ export default {n:2,lang:"fr",srcLang:"en",track:"v2",title:"Je me présente",su
         {type:"fb",opts:["Onze","Dix","Neuf","Seize"],hint:"The number that starts the irregular 11-16 sequence.",s:"{1}, douze, treize, quatorze, quinze.",a:"Onze"},
         {type:"mc",q:"The GT in 'vingt' is:",opts:["Pronounced fully","Only T is pronounced","Pronounced as a K","Silent"],ans:"Silent",hint:"Vingt sounds like VAN. The final letters are not spoken."},
         {type:"mc",q:"'J'ai quinze ans' literally means:",opts:["I have fifteen years","I am fifteen years old","I have fifteen","Fifteen years old"],ans:"I have fifteen years",hint:"J'ai = I have. Ans = y.... French counts age differently."},
-        {type:"fb",opts:["dix","neuf","onze","cinq"],hint:"10 + ? = 20. What equals twenty?",s:"Dix plus {1} font vingt.",a:"dix"},
+        {type:"fb",opts:["dix","neuf","onze","cinq"],hint:"10 + ? = 20. Which word means ten?",s:"Je prends {1} livres de cette étagère.",a:"dix"},
         {type:"mc",q:"Which number starts the 'logical' pattern (dix + unit)?",opts:["Onze (11)","Dix-sept (17)","Seize (16)","Treize (13)"],ans:"Dix-sept (17)",hint:"From 17 onwards, the structure is transparent."},
         {type:"mc",q:"'Seize' (16) is the last number that is:",opts:["Even","Logical","Irregular","A teen number"],ans:"Irregular",hint:"After 16, the pattern switches to the transparent dix + unit."}
   ]},

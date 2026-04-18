@@ -11,8 +11,8 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
         {type:"tip",title:"Direct Object Pronouns: lo, la, los, las",text:"These pronouns replace the THING or PERSON receiving the action.\n\n- el libro → lo tengo (I have it)\n- la carta → la leo (I read it)\n- los zapatos → los compro (I buy them)\n- las flores → las quiero (I want them)\n\nThey go BEFORE the conjugated verb."},
         {type:"mc",q:"¿Tienes el pasaporte? Sí, ___ tengo.",opts:["lo","la","los","las"],ans:"lo",hint:"El pasaporte is masculine singular."},
         {type:"mc",q:"¿Ves esa serie? Sí, ___ veo.",opts:["lo","la","los","las"],ans:"la",hint:"The noun 'serie' is singular and feminine. Match the pronoun to its gender."},
-        {type:"fb",opts:["lo","la","los","las"],hint:"Churros is masculine plural.",s:"¿Quieres los churros? Sí, {1} quiero.",a:"los"},
-        {type:"fb",opts:["lo","la","los","las"],hint:"Manzanas is feminine plural.",s:"¿Compraste las manzanas? Sí, {1} compré.",a:"las"},
+        {type:"fb",opts:["lo","la","los","las"],hint:"Churros is masculine plural. Match the pronoun to its gender and number.",s:"Pedimos churros y {1} comemos con chocolate.",a:"los"},
+        {type:"fb",opts:["lo","la","los","las"],hint:"Manzanas is feminine plural. Match the pronoun to its gender and number.",s:"Compré manzanas y {1} puse en la bolsa.",a:"las"},
         {type:"mc",q:"¿Lees el periódico? Sí, ___ leo cada mañana.",opts:["los","la","lo","las"],ans:"lo",hint:"El periódico is masculine singular."},
         {type:"teach",trg:"¿Lo quieres?",src:"Do you want it?",pos:"verb",gender:null,phonetic:"lo KYEH-res",note:"The pronoun always goes before the conjugated verb.",example:"A: Tengo un café extra.\nB: ¿Lo quieres?\nA: Sí, lo quiero. Gracias.\nB: De nada.",exampleSrc:"A: I have an extra coffee.\nB: Do you want it?\nA: Yes, I want it. Thanks.\nB: You're welcome.",funFact:"Spanish verbs encode the subject in their ending, so pronouns are often dropped."},
         {type:"fb",opts:["lo","la","los","las"],hint:"The noun 'canción' is singular. Its gender determines the pronoun.",s:"¿Conoces la canción? Sí, {1} conozco muy bien.",a:"la"},
@@ -26,7 +26,7 @@ export default {n:13,lang:"es",srcLang:"en",track:"v2",title:"Los Pronombres",su
         {type:"fb",opts:["lo","la","los","las"],hint:"The noun 'dirección' is singular. Identify its gender to pick the right pronoun.",s:"¿Tienes la dirección? No, no {1} tengo.",a:"la"},
         {type:"mc",q:"Which direct-object pronoun replaces the plates (platos)?",opts:["los","las","lo","la"],ans:"los",hint:"Masculine plural noun. Match gender and number."},
         {type:"mc",q:"¿Preparaste esa cena? Sí, ___ preparé hace una hora.",opts:["lo","la","las","los"],ans:"la",hint:"The noun 'cena' is singular and feminine. Match the pronoun to its gender."},
-        {type:"fb",opts:["Lo","La","Los","Las"],hint:"The noun 'niños' is plural. Match gender and number for the correct pronoun.",s:"¿Dónde están los niños? {1} veo en el parque.",a:"Los"}
+        {type:"fb",opts:["Lo","La","Los","Las"],hint:"Niños is masculine plural. Match gender and number for the correct pronoun.",s:"Vi a dos niños corriendo y {1} reconocí enseguida.",a:"Los"}
   ]},
   {id:"esp13l2",title:"¿Me ves?",icon:"👀",xp:15,board:true,steps:[
         {type:"intro",title:"¿Me ves?",desc:"Learn the direct object pronouns for people: me, te, nos. These refer to the speaker, listener, and group.",goals:["Use me/te/nos as direct object pronouns","Understand the difference from lo/la/los/las","Build natural sentences with person pronouns"]},

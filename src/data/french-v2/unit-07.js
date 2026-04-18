@@ -93,7 +93,7 @@ export default {n:7,lang:"fr",srcLang:"en",track:"v2",title:"En ville",sub:"Dire
         {type:"fb",opts:["Prenez","Prends","Prend","Prennent"],hint:"Formal/vous command of prendre.",s:"{1} la deuxième rue à droite. (Take, formal)",a:"Prenez"},
         {type:"mc",q:"'Allons-y!' means:",opts:["Go away!","Let's go!","I'm going!","You go!"],ans:"Let's go!",hint:"Nous imperative = l...'s. Y = there."},
         {type:"match",pairs:[{trg:"Regarde!",src:"Look! (informal)"},{trg:"Regardez!",src:"Look! (formal)"},{trg:"Regardons!",src:"Let's look!"},{trg:"Ne regarde pas!",src:"Don't look!"}]},
-        {type:"fb",opts:["Continue","Continues","Continuez","Continuons"],hint:"Informal command: keep going straight. -er verbs: no -s in tu form.",s:"{1} tout droit! (Continue, informal)",a:"Continue"},
+        {type:"fb",opts:["Continue","Continues","Continuez","Continuons"],hint:"Informal command for tu form. -er verbs drop the -s in imperatives.",s:"{1} tout droit jusqu'au feu rouge!",a:"Continue"},
         {type:"mc",q:"The negative imperative 'Ne tournez pas' means:",opts:["Turn now","Turn left","Don't turn","Let's turn"],ans:"Don't turn",hint:"Ne...pas wraps around the verb in commands too."},
         {type:"fb",opts:["Allons","Allez","Allent","Va"],hint:"Nous form of aller, before -y.",s:"{1}-y! (Let's go)",a:"Allons"},
         {type:"match",pairs:[{trg:"Tournez!",src:"Turn! (formal)"},{trg:"Continuez!",src:"Continue!"},{trg:"Prenez!",src:"Take!"},{trg:"Allez!",src:"Go!"}]},

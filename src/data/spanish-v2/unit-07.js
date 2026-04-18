@@ -187,7 +187,7 @@ export default {n:7,lang:"es",srcLang:"en",track:"v2",title:"¿Dónde Está?",su
         {type:"mc",q:"How do you say 'Morocco is to the south of Spain'?",opts:["Marruecos está en sur de España","Marruecos está el sur de España","Marruecos está del sur de España","Marruecos está al sur de España"],ans:"Marruecos está al sur de España",hint:"The pattern is: al + direction + de + place name."},
         {type:"drag_fill",hint:"Both positions use the same pattern for relative location.",s:"Canadá está {1} norte de Estados Unidos y México está {2} sur.",blanks:{"1":"al","2":"al"},pool:["al","al","el","del"]},
         {type:"tip",title:"The Spanish-Speaking World",text:"Spanish is spoken across many regions:\n\nAmérica del Norte: México\nAmérica Central: Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, Panamá\nAmérica del Sur: Colombia, Venezuela, Ecuador, Perú, Bolivia, Chile, Argentina, Uruguay, Paraguay\nEuropa: España\nÁfrica: Guinea Ecuatorial",icon:"🌍"},
-        {type:"fb",opts:["sur","norte","este","oeste"],hint:"Argentina is at the bottom of the South American continent.",s:"Argentina está en el {1} de América del Sur.",a:"sur"},
+        {type:"fb",opts:["sur","norte","este","oeste"],hint:"Argentina is the southernmost major country of the continent.",s:"El Polo {1} se encuentra en el extremo del planeta.",a:"sur"},
         {type:"mc",q:"Which is correct? 'Barcelona está ___ de Madrid.'",opts:["al este","al norte","al sur","al oeste"],ans:"al este",hint:"Barcelona is on the Mediterranean coast, toward where the sun rises."},
         {type:"match",pairs:[
           {trg:"América del Norte",src:"North America"},

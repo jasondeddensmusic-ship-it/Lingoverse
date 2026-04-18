@@ -72,7 +72,7 @@ export default {n:1,lang:"fr",srcLang:"en",track:"v2",title:"Bienvenue!",sub:"Gr
         {type:"match",pairs:[{trg:"Très bien",src:"Very well"},{trg:"Comme ci, comme ça",src:"So-so"},{trg:"Pas mal",src:"Not bad"},{trg:"Ça va",src:"I'm fine / It's going"}]},
         {type:"mc",q:"'Ça va' is literally translated as:",opts:["I am well","How are you","Good day","It goes"],ans:"It goes",hint:"Ça = it/that. Va = ___."},
         {type:"mc",q:"'Pas mal' literally means:",opts:["Not bad","Very good","So-so","I am sick"],ans:"Not bad",hint:"Pas = not. Mal = b...."},
-        {type:"fb",opts:["ça va","très","je suis","comment"],hint:"Echo the question phrase back as an answer, adding bien.",s:"Ça va? Oui, {1} bien, merci.",a:"ça va"},
+        {type:"fb",opts:["ça va","très","je suis","comment"],hint:"Echo the greeting phrase back as a short answer, then add bien.",s:"— Bonjour! {1} bien? — Oui, merci!",a:"ça va"},
         {type:"mc",q:"Which response is the MOST positive?",opts:["Comme ci, comme ça","Très bien","Pas mal","Ça va"],ans:"Très bien",hint:"___ = very. ___ = well. The most upbeat response."},
         {type:"mc",q:"You meet a stranger. The correct way to ask how they are is:",opts:["Ça va?","T'es bien?","Comment allez-vous?","Salut!"],ans:"Comment allez-vous?",hint:"Strangers require the formal form of the question."},
         {type:"fb",opts:["vous","tu","toi","moi"],hint:"Formal how are you ends with this pronoun.",s:"Comment allez-{1}? Très bien, merci!",a:"vous"}

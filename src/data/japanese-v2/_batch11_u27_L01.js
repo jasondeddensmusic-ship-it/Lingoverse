@@ -76,7 +76,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"「かならずしも」はどう使(つか)いますか？",
      opts:["Always with a negative verb to mean 'not necessarily'","With positive verbs to mean 'definitely'","As a greeting","To express certainty"],
      ans:"Always with a negative verb to mean 'not necessarily'",
-     hint:"This word is always paired with a negative predicate. It softens absolute statements by introducing the possibility of exceptions."},
+     hint:"This adverb weakens absolute claims. It requires a specific grammatical polarity to make sense."},
 
     {type:"fb", s:"地球(ちきゅう){1}は深刻(しんこく)な問題(もんだい)です。",
      a:["温暖化(おんだんか)"],

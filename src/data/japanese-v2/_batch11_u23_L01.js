@@ -76,7 +76,7 @@ const BATCH11_L1 = {
     {type:"mc", q:"「原因(げんいん)」と「理由(りゆう)」はどう違(ちが)いますか？",
      opts:["原因(げんいん) is analytical cause, 理由(りゆう) is personal reason","They are exactly the same","原因(げんいん) is casual, 理由(りゆう) is formal","原因(げんいん) is for people, 理由(りゆう) is for events"],
      ans:"原因(げんいん) is analytical cause, 理由(りゆう) is personal reason",
-     hint:"One is scientific (why did the machine break?), the other is personal (why did you decide to quit?)."},
+     hint:"Think of the difference between diagnosing a broken machine and explaining a human decision."},
 
     {type:"fb", s:"環境(かんきょう)問題(もんだい)は生活(せいかつ)に{1}を与(あた)えています。",
      a:["影響(えいきょう)"],

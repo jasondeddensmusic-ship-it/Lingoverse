@@ -142,7 +142,7 @@ export default {n:17,lang:"fr",srcLang:"en",track:"v2",title:"Le subjonctif",sub
         {type:"mc",q:"'Je sais qu'elle ___ malade.' (être) Certainty:",opts:["Est","Soit","Serait","Fût"],ans:"Est",hint:"I know = certainty = indicative. Standard present tense."},
         {type:"fb",opts:["sache","sait","savait","saura"],hint:"I doubt he knows. Doubt = non-certainty = subjunctive.",s:"Je doute qu'il {1} la vérité. (savoir, subj.)",a:"sache"},
         {type:"mc",q:"'J'espère que tu ___ bien.' (aller) Espérer takes:",opts:["Subjunctive","Indicative","Conditional","Either"],ans:"Indicative",hint:"Espérer (to hope) is special: it takes the factual mood despite being a wish."},
-        {type:"fb",opts:["est","soit","serait","fût"],hint:"It's true that he is smart. Truth = certainty = indicative.",s:"Il est vrai qu'il {1} intelligent. (être, indicative)",a:"est"},
+        {type:"fb",opts:["est","soit","serait","fût"],hint:"A factual truth takes the indicative mood. Certainty = real mood.",s:"Il paraît que Marc {1} très compétent. (être, indicative)",a:"est"},
         {type:"match",pairs:[
           {trg:"je sais que + indicatif",src:"certainty"},
           {trg:"je doute que + subjonctif",src:"doubt"},

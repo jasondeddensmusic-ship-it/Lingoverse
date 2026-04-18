@@ -53,7 +53,7 @@ export default {n:8,lang:"fr",srcLang:"en",track:"v2",title:"Les courses",sub:"S
         {type:"mc",q:"Comment dit-on 'the purple dress'?",opts:["la robe violet","la robe violette","la robe rose","la robe orange"],ans:"la robe violette",hint:"Violet is a variable adjective and ___ is feminine."},
         {type:"fb",opts:["violet","violette","rose","orange"],hint:"Pull is masculine, so use the masculine form.",s:"Le pull est {1}. (purple, masculine)",a:"violet"},
         {type:"mc",q:"Comment dit-on 'the pink bag'?",opts:["le sac violet","le sac ros","le sac rose","le sac rouge"],ans:"le sac rose",hint:"This color never changes, no matter the gender of the noun."},
-        {type:"fb",opts:["orange","oranges","orangée","orangs"],hint:"This color adjective is invariable, even in the plural.",s:"Les chaussures sont {1}. (orange)",a:"orange"},
+        {type:"fb",opts:["orange","oranges","orangée","orangs"],hint:"This color adjective never changes form for gender or number.",s:"Ma veste préférée est {1}.",a:"orange"},
         {type:"mc",q:"La chemise est ___. (white, feminine)",opts:["blanches","blanc","blancs","blanche"],ans:"blanche",hint:"Chemise is feminine singular, so the adjective must agree."},
         {type:"fb",opts:["violet","violette","rose","orange"],hint:"When talking about a color as a noun, use the masculine form.",s:"Ma couleur préférée, c'est le {1}. (purple)",a:"violet"},
         {type:"match",pairs:[{trg:"rose",src:"pink"},{trg:"violet",src:"purple"},{trg:"orange",src:"orange"},{trg:"la couleur",src:"the color"}]},

@@ -63,7 +63,7 @@ const BATCH2_L_2 = {
     {type:"mc", q:"政冷経熱(せいれいけいねつ) describes Japan-China relations with:", opts:["Cold politics and hot economics coexisting","Complete diplomatic isolation","Perfect harmony in all areas","Military alliance"], ans:"Cold politics and hot economics coexisting",
      hint:"This phrase captures how political friction can coexist with strong trade relationships."},
 
-    {type:"fb", s:"日本(にほん)の{1}はアジアやアフリカの開発(かいはつ)に貢献(こうけん)しています。\n(Japan's ODA contributes to development in Asia and Africa.)", a:"ODA", opts:["ODA","GDP","PKO","SDF"], sSrc:"Japan's ODA contributes to development in Asia and Africa.",
+    {type:"fb", s:"日本(にほん)の{1}はアジアやアフリカの開発(かいはつ)に貢献(こうけん)しています。\n(Japan's foreign aid program contributes to development in Asia and Africa.)", a:"ODA", opts:["ODA","GDP","PKO","SDF"], sSrc:"Japan's foreign aid program contributes to development in Asia and Africa.",
      hint:"The abbreviation for Official Development Assistance, Japan's foreign aid program."},
 
     {type:"match", pairs:[{trg:"同盟(どうめい)",src:"alliance"},{trg:"多国間(たこくかん)",src:"multilateral"},{trg:"領土問題(りょうどもんだい)",src:"territorial dispute"},{trg:"経済制裁(けいざいせいさい)",src:"economic sanctions"}]},
