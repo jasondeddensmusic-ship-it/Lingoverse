@@ -306,7 +306,7 @@ const UNIT_5 =
   {type:"match",pairs:[{nl:"크다 → 커요",en:"to be big"},{nl:"작다 → 작아요",en:"to be small"},{nl:"예쁘다 → 예뻐요",en:"to be pretty"},{nl:"귀엽다 → 귀여워요",en:"to be cute"}]},
   {type:"drag_fill",s:"{1}는 한국어{2} 공부해요. 한국어{3} 재미있어요.",blanks:{"1":"저","2":"를","3":"가"},pool:["저","를","가","는","이"],hint:"I (topic) study Korean (object). Korean (subject/new info) is interesting."},
   {type:"mc",q:"정이 들다 means:",opts:["To feel hunger","To get older","To become family","Deep bond has formed"],ans:"Deep bond has formed",hint:"정이 들다 = jeong has entered = you've bonded deeply"},
-{type:"match",pairs:[{trg:"남편",src:"husband"},{trg:"아내",src:"wife"},{trg:"싫다 → 싫어요",src:"(review)"},{trg:"오래되다 → 오래됐어요",src:"to be old (things)"},{trg:"중요하다 → 중요해요",src:"to be important"},{trg:"깨끗하다 → 깨끗해요",src:"to be clean"}]},{type:"match",pairs:[{trg:"낮다 → 낮아요",src:"to be low / short"},{trg:"다르다 → 달라요",src:"to be different"},{trg:"싫어하다 → 싫어해요",src:"to dislike / to hate"},{trg:"마음",src:"heart / mind / feelings"},{trg:"색 / 색깔",src:"color"},{trg:"Review Summary",src:"What you now own"}]}]},
+{type:"match",pairs:[{trg:"남편",src:"husband"},{trg:"아내",src:"wife"},{trg:"싫다 → 싫어요",src:"to dislike / not want → polite form"},{trg:"오래되다 → 오래됐어요",src:"to be old (things)"},{trg:"중요하다 → 중요해요",src:"to be important"},{trg:"깨끗하다 → 깨끗해요",src:"to be clean"}]},{type:"match",pairs:[{trg:"낮다 → 낮아요",src:"to be low / short"},{trg:"다르다 → 달라요",src:"to be different"},{trg:"싫어하다 → 싫어해요",src:"to dislike / to hate"},{trg:"마음",src:"heart / mind / feelings"},{trg:"색 / 색깔",src:"color"},{trg:"Review Summary",src:"What you now own"}]}]},
 
 ]};
 

@@ -312,7 +312,7 @@ const UNIT_8 =
   {type:"match",pairs:[{nl:"아프다",en:"to be sick"},{nl:"약국",en:"pharmacy"},{nl:"주사",en:"shot"},{nl:"증상",en:"symptom"}]},
   {type:"drag_fill",s:"감기에 걸렸어요. {1}이 나고 {2}이 심해요. {3}에 가서 {4}을 받았어요.",blanks:{"1":"열","2":"기침","3":"병원","4":"진찰"},pool:["열","기침","병원","진찰","약국","두통","감기","주사"],hint:"I caught a cold. I have a fever and a bad cough. I went to the hospital and got an examination."},
   {type:"mc",q:"두통 is made of which Sino-Korean parts?",opts:["head + pain","head + medicine","sick + cold","pain + fever"],ans:"head + pain",hint:"두 (頭) + 통 (痛). Direct Sino-Korean compound naming the body region and the sensation."},
-{type:"match",pairs:[{trg:"코",src:"nose"},{trg:"입",src:"mouth"},{trg:"귀",src:"ear"},{trg:"팔",src:"arm"},{trg:"감기에 걸리다",src:"to catch a cold"},{trg:"살다 → 살면",src:"if (you) live"}]},{type:"match",pairs:[{trg:"-(으)ㄹ 수 없다",src:"cannot / is unable to"},{trg:"-아/어도 되다",src:"(review)"},{trg:"의사",src:"doctor"},{trg:"동물",src:"animal"},{trg:"새",src:"bird"},{trg:"소",src:"cow"}]},{type:"match",pairs:[{trg:"감기",src:"cold (illness)"},{trg:"두통",src:"headache"}]}]},
+{type:"match",pairs:[{trg:"코",src:"nose"},{trg:"입",src:"mouth"},{trg:"귀",src:"ear"},{trg:"팔",src:"arm"},{trg:"감기에 걸리다",src:"to catch a cold"},{trg:"살다 → 살면",src:"if (you) live"}]},{type:"match",pairs:[{trg:"-(으)ㄹ 수 없다",src:"cannot / is unable to"},{trg:"-아/어도 되다",src:"may / be allowed to"},{trg:"의사",src:"doctor"},{trg:"동물",src:"animal"},{trg:"새",src:"bird"},{trg:"소",src:"cow"}]},{type:"match",pairs:[{trg:"감기",src:"cold (illness)"},{trg:"두통",src:"headache"}]}]},
 
 ]};
 

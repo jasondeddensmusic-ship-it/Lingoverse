@@ -143,3 +143,44 @@ export function formatNextReview(card, rating) {
   if (d < 60) return "1 month";
   return Math.round(d / 30) + " mo";
 }
+
+// ─── Lesson-integration hook (2026-04-19) ───────────────────────
+//
+// Non-invasive hook LessonEngine (or any quiz step handler) can call on
+// every quiz outcome. One-liner: `recordQuizOutcome(lang, trg, correct)`.
+//
+// - If the word has no card yet, one is created.
+// - On CORRECT: the card is rated `Good` (normal advance).
+// - On WRONG:   the card is rated `Again` (reset interval, resurface soon).
+// - State is persisted to localStorage immediately.
+//
+// This is safe to call from anywhere — if localStorage is unavailable or
+// ts-fsrs throws, it silently no-ops. It never blocks the UI.
+//
+// Usage from a lesson step handler:
+//   import { recordQuizOutcome } from '../srs';
+//   ...
+//   recordQuizOutcome(currentLang, teachCardTrg, wasCorrect);
+export function recordQuizOutcome(lang, word, correct) {
+  if (!lang || !word) return;
+  try {
+    const key = String(word).toLowerCase().trim();
+    if (!key) return;
+    const cards = loadSrsData(lang);
+    const card = cards[key] || initCard();
+    const rating = correct ? Rating.Good : Rating.Again;
+    const { card: next } = reviewCard(card, rating);
+    cards[key] = next;
+    saveSrsData(lang, cards);
+  } catch (e) {
+    // Never let SRS bookkeeping block lesson flow.
+    console.warn("recordQuizOutcome failed:", e);
+  }
+}
+
+// Convenience: get the due queue for today-or-earlier, limited + sorted.
+// Callers (Home "Daily Review" tile, Flashcards) use this for the fetch.
+export function getDueToday(lang, limit = 20) {
+  const cards = loadSrsData(lang);
+  return getDueCards(cards).slice(0, limit);
+}

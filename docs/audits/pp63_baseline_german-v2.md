@@ -1,0 +1,833 @@
+# PP63/PP68 example-vocab integrity audit — german-v2
+
+- Files scanned: 36
+- Teach cards with untraceable example words: **2594**
+
+## unit-01.js (87 cards)
+- **Entschuldigung** → untaught in example: dann
+- **der Zug** → untaught in example: fährt
+- **der Bahnhof** → untaught in example: dort, drüben
+- **nach** → untaught in example: fährst
+- **Guten Tag** → untaught in example: Yilmaz, Freut
+- **Tschüss** → untaught in example: muss
+- **Auf Wiederhören** → untaught in example: schönen
+- **Bis morgen** → untaught in example: muss, Schlaf
+- **Bis später** → untaught in example: jetzt
+- **Es tut mir leid** → untaught in example: vergessen
+- **Gern geschehen** → untaught in example: super
+- **Nein** → untaught in example: leider
+- **vielleicht** → untaught in example: sicher
+- **genau** → untaught in example: fährt, dann
+- **Ich verstehe nicht** → untaught in example: fährt
+- **wiederholen** → untaught in example: Können, fährt
+- **gehen** → untaught in example: muss
+- **machen** → untaught in example: machst
+- **etwas** → untaught in example: essen
+- **was** → untaught in example: machst, lese
+- …and 67 more
+
+## unit-02.js (69 cards)
+- **die Straße** → untaught in example: heißt, diese
+- **der Platz** → untaught in example: drüben
+- **die Brücke** → untaught in example: viele
+- **wohin** → untaught in example: fährst
+- **die Stadt** → untaught in example: tolle, magst, liebsten
+- **das Kino** → untaught in example: läuft
+- **die S-Bahn** → untaught in example: kommt
+- **das Fahrrad** → untaught in example: jeden
+- **der Stadtplan** → untaught in example: herum
+- **müssen** → untaught in example: muss
+- **doch** → untaught in example: sprichst
+- **nach** → untaught in example: fährst
+- **essen** → untaught in example: isst
+- **arbeiten** → untaught in example: arbeitest
+- **sitzen** → untaught in example: sitzt
+- **liegen** → untaught in example: liegt
+- **nehmen** → untaught in example: nimmst
+- **die Sonne** → untaught in example: endlich
+- **abfahren** → untaught in example: fährt
+- **ankommen** → untaught in example: kommst
+- …and 49 more
+
+## unit-03.js (42 cards)
+- **das Zimmer** → untaught in example: viele
+- **kosten** → untaught in example: kostet
+- **die Schwester** → untaught in example: heißt
+- **das Kind** → untaught in example: viele, hast
+- **das Mädchen** → untaught in example: spielt
+- **der Junge** → untaught in example: heißt
+- **der Mann** → untaught in example: heißt
+- **die Großmutter** → untaught in example: kocht
+- **der Onkel** → untaught in example: Besuchst
+- **der Cousin** → untaught in example: kommt
+- **die Cousine** → untaught in example: studiert
+- **sein / seine** → untaught in example: nett
+- **die Oma** → untaught in example: kocht
+- **der Raum** → untaught in example: viele
+- **die Ordnung** → untaught in example: wichtig, muss
+- **einziehen** → untaught in example: ziehst
+- **umziehen** → untaught in example: nächste, zieht
+- **anziehen** → untaught in example: ziehst
+- **der Schrank** → untaught in example: steht
+- **der Computer** → untaught in example: steht
+- …and 22 more
+
+## unit-04.js (22 cards)
+- **der Verkäufer** → untaught in example: nett, hilft
+- **die Tomate** → untaught in example: frisch
+- **das Lebensmittel** → untaught in example: frisch
+- **das Pfund** → untaught in example: halbes
+- **halb / das Viertel / zirka** → untaught in example: genug
+- **die Stunde** → untaught in example: dauert
+- **was für ein / was für eine** → untaught in example: möchtest
+- **kriegen** → untaught in example: kriegst
+- **anbieten** → untaught in example: frisches
+- **billig** → untaught in example: schmeckt
+- **pro** → untaught in example: kostet
+- **der Tee** → untaught in example: Grünen
+- **der Wein** → untaught in example: mag
+- **das Ei** → untaught in example: möchtest, gekocht
+- **der Euro** → untaught in example: kostet
+- **einhundert** → untaught in example: kostet
+- **eintausend** → untaught in example: viele, diesem
+- **die Milliarde** → untaught in example: viele
+- **der Grad** → untaught in example: warm
+- **das Prozent** → untaught in example: gibt
+- …and 2 more
+
+## unit-05.js (23 cards)
+- **schön** → untaught in example: warm
+- **das Herz** → untaught in example: geht
+- **das Frühstück** → untaught in example: gibt
+- **der Abend** → untaught in example: machst
+- **essen** → untaught in example: isst
+- **die Suppe** → untaught in example: nimmst
+- **schmecken** → untaught in example: schmeckt
+- **wunderbar** → untaught in example: schmeckt, Wirklich
+- **schlecht** → untaught in example: geht
+- **leise** → untaught in example: still
+- **ruhig** → untaught in example: gemütlich
+- **bitter** → untaught in example: schmeckt
+- **salzig** → untaught in example: schmeckt
+- **müssen** → untaught in example: muss
+- **wollen** → untaught in example: willst
+- **lieb** → untaught in example: nett
+- **mögen** → untaught in example: mag
+- **riechen** → untaught in example: riecht
+- **mitbringen** → untaught in example: freue
+- **Ich hätte gern...** → untaught in example: hätten
+- …and 3 more
+
+## unit-06.js (73 cards)
+- **duschen** → untaught in example: jeden
+- **schlafen** → untaught in example: schläfst
+- **einschlafen** → untaught in example: schläfst
+- **früh** → untaught in example: fängt
+- **die Woche** → untaught in example: stressig
+- **das Wochenende** → untaught in example: machst
+- **gestern** → untaught in example: hast
+- **gerade** → untaught in example: machst
+- **der Nachmittag / der Vormittag** → untaught in example: machst
+- **der Januar / der Februar / der März** → untaught in example: wird, wärmer
+- **der April / der Mai / der Juni** → untaught in example: blühen
+- **der Frühling** → untaught in example: blühen, wird
+- **der Herbst** → untaught in example: bunt
+- **das Wetter** → untaught in example: regnet
+- **der Regen / regnen** → untaught in example: regnet
+- **leider** → untaught in example: muss
+- **der Arzt / die Ärztin** → untaught in example: muss
+- **das Medikament / die Tablette** → untaught in example: dieses
+- **die Verwaltung / der Beamte** → untaught in example: hilft
+- **der Lehrer / die Lehrerin** → untaught in example: streng, nett
+- …and 53 more
+
+## unit-07.js (41 cards)
+- **die Apotheke** → untaught in example: geöffnet
+- **husten** → untaught in example: schrecklich, diesen, muss
+- **das Krankenhaus** → untaught in example: muss
+- **nervös** → untaught in example: okay, freut
+- **schlimm** → untaught in example: geht, Wird
+- **der Hals** → untaught in example: fehlt, schlucken
+- **der Magen** → untaught in example: komisch
+- **der Rücken** → untaught in example: diese
+- **die Tablette** → untaught in example: diese, viele
+- **das Mittel** → untaught in example: dieses, täglich
+- **das Rezept** → untaught in example: diese
+- **die Creme** → untaught in example: diese
+- **der Patient** → untaught in example: wartet, viele
+- **stark** → untaught in example: ziemlich
+- **untersuchen** → untaught in example: geht
+- **endlich** → untaught in example: hast, gewartet
+- **dass** → untaught in example: gesagt, musst, weniger
+- **weil** → untaught in example: wird
+- **wenn** → untaught in example: nimmst, hast, froh
+- **als** → untaught in example: gesagt
+- …and 21 more
+
+## unit-08.js (63 cards)
+- **der Müll** → untaught in example: machst, welchen, gibt
+- **der Nachbar** → untaught in example: dritten, streng, kontrolliert
+- **die Nachbarin** → untaught in example: nett
+- **die Natur** → untaught in example: trennst, Plastik
+- **die Pflanze** → untaught in example: toll
+- **sauber** → untaught in example: geputzt
+- **schmutzig** → untaught in example: musst
+- **schädlich** → untaught in example: wirklich
+- **nützlich** → untaught in example: kompliziert, grüne
+- **die Tür** → untaught in example: klemmt, fester
+- **die Mülltrennung** → untaught in example: verschiedene, wirklich
+- **die Gabel** → untaught in example: liegt, nimm, diese
+- **das Messer** → untaught in example: hast
+- **der Teller** → untaught in example: viele
+- **der Topf** → untaught in example: kochst, gibt
+- **das Geschirr** → untaught in example: spült, gespült, voll, spül
+- **der Stuhl** → untaught in example: dieser, bequem
+- **das Fenster** → untaught in example: warm
+- **das Erdgeschoss** → untaught in example: welchem
+- **das Stockwerk** → untaught in example: viele, dritten
+- …and 43 more
+
+## unit-09.js (39 cards)
+- **die Mannschaft** → untaught in example: wird
+- **das Spiel** → untaught in example: geschossen
+- **spazieren** → untaught in example: machst, Kommst
+- **sportlich** → untaught in example: wirklich
+- **die Kultur** → untaught in example: gibt
+- **das Theater** → untaught in example: wird
+- **malen** → untaught in example: machst
+- **zeichnen** → untaught in example: geht
+- **sich interessieren** → untaught in example: fcr
+- **die Veranstaltung** → untaught in example: gibt
+- **sich ärgern** → untaught in example: ärgerst, ärgere
+- **ob** → untaught in example: kommt
+- **wahr** → untaught in example: kommt, spricht, fcher
+- **anders** → untaught in example: wirklich, fcr
+- **der Comic** → untaught in example: viele
+- **die Sendung** → untaught in example: schaue
+- **das Programm** → untaught in example: kommt
+- **chatten** → untaught in example: wem
+- **surfen** → untaught in example: machst
+- **die Kamera** → untaught in example: benutzt, wirklich
+- …and 19 more
+
+## unit-10.js (50 cards)
+- **der Fahrplan** → untaught in example: kommt
+- **der Verkehr** → untaught in example: fährt
+- **das Verkehrsmittel** → untaught in example: nimmst, mutig
+- **der Flug** → untaught in example: geht, muss
+- **buchen** → untaught in example: wird
+- **verpassen** → untaught in example: fährt
+- **der Fluss** → untaught in example: fließt
+- **die Landschaft** → untaught in example: grüne
+- **der Norden** → untaught in example: liegt
+- **der Süden** → untaught in example: gibt
+- **das Fundbüro** → untaught in example: verloren
+- **die Rolltreppe** → untaught in example: muss
+- **der Tourist / die Touristin** → untaught in example: ersten
+- **packen** → untaught in example: gepackt
+- **parken** → untaught in example: hast
+- **verreisen** → untaught in example: diesen
+- **liefern** → untaught in example: wird, geliefert, liefert
+- **direkt** → untaught in example: fährt
+- **offen** → untaught in example: gelassen
+- **voll** → untaught in example: gibt, diese, fcssen
+- …and 30 more
+
+## unit-11.js (54 cards)
+- **das Weihnachten** → untaught in example: machst
+- **schneien** → untaught in example: Hast
+- **die Wolke** → untaught in example: dunklen
+- **der Himmel** → untaught in example: leuchten
+- **die Rose** → untaught in example: rote
+- **der Ring** → untaught in example: goldene
+- **die Mütze** → untaught in example: rote
+- **der Stiefel** → untaught in example: trägst, schwarzen
+- **der Schirm** → untaught in example: regnet
+- **der Anzug** → untaught in example: trägst
+- **die Brille** → untaught in example: vergiss
+- **die Kette** → untaught in example: goldene
+- **das Parfüm** → untaught in example: riecht
+- **die Kosmetik** → untaught in example: gibt
+- **die Mode** → untaught in example: diese
+- **die Ferien** → untaught in example: machst
+- **der Flohmarkt** → untaught in example: gibt, größer
+- **schenken** → untaught in example: schenkst, ihrem
+- **wünschen** → untaught in example: wünschst
+- **der Schal** → untaught in example: wirklich, perfekt
+- …and 34 more
+
+## unit-12.js (69 cards)
+- **die Situation** → untaught in example: kompliziert
+- **die Person** → untaught in example: diese, wichtige
+- **das Interview** → untaught in example: schaffst
+- **hoffen** → untaught in example: wird
+- **denken** → untaught in example: denkst
+- **die Bewerbung** → untaught in example: geschickt
+- **das Projekt** → untaught in example: uft, geht
+- **das Gehalt** → untaught in example: okay
+- **das Zeugnis** → untaught in example: muss, kopieren
+- **das Blatt** → untaught in example: nimm
+- **die Datei** → untaught in example: geschickt
+- **herunterladen** → untaught in example: dauert
+- **die Mailbox** → untaught in example: gehört
+- **das Mobiltelefon** → untaught in example: liegt
+- **erst** → untaught in example: kommst, fährt
+- **geduldig** → untaught in example: kommt
+- **der Kredit** → untaught in example: gespart
+- **der Zettel** → untaught in example: steht
+- **das Stück** → untaught in example: viele
+- **reden** → untaught in example: redet
+- …and 49 more
+
+## unit-13.js (83 cards)
+- **der Lebenslauf** → untaught in example: üblich
+- **der Erfolg** → untaught in example: schaffst, kommt
+- **der Eindruck** → untaught in example: zählt
+- **die Vorbereitung** → untaught in example: gedauert
+- **korrekt** → untaught in example: Vielen
+- **erwarten** → untaught in example: diesem
+- **reagieren** → untaught in example: ernst
+- **beachten** → untaught in example: Vielen
+- **anfangs** → untaught in example: fühle
+- **die Fähigkeit** → untaught in example: technische
+- **das Abitur** → untaught in example: studiert
+- **der Lehrling** → untaught in example: viele, welchem
+- **die Lehrstelle** → untaught in example: viele
+- **der Praktikant** → untaught in example: fängt
+- **die Praktikantin** → untaught in example: wäre
+- **der Ingenieur** → untaught in example: welchem
+- **der Architekt** → untaught in example: dieses, viele
+- **die Architektin** → untaught in example: geändert, flach, geht
+- **die Mechanikerin** → untaught in example: repariert
+- **beruflich** → untaught in example: läuft
+- …and 63 more
+
+## unit-14.js (142 cards)
+- **der Betrieb** → untaught in example: gibt, diesen, wurde, gegründet, viele
+- **die Abteilung** → untaught in example: viele
+- **die Etage** → untaught in example: dritten
+- **der Gang** → untaught in example: gibt, viele
+- **die Kantine** → untaught in example: kostet
+- **die Garderobe** → untaught in example: nimm
+- **die Besprechung** → untaught in example: dauert
+- **die Konferenz** → untaught in example: viele
+- **einrichten** → untaught in example: wird, geliefert
+- **ordnen** → untaught in example: geordnet
+- **gemeinsam** → untaught in example: geht
+- **aufmerksam** → untaught in example: geht, wichtige
+- **ordentlich** → untaught in example: muss, kommt
+- **innen** → untaught in example: wurde
+- **miteinander** → untaught in example: geht
+- **der Bildschirm** → untaught in example: größeren, wäre
+- **der Monitor** → untaught in example: wurde, geliefert
+- **der Rechner** → untaught in example: gestartet, löst
+- **die Taste** → untaught in example: muss, diese
+- **das Kabel** → untaught in example: viele
+- …and 122 more
+
+## unit-15.js (82 cards)
+- **der Hafen** → untaught in example: riesige
+- **die Gegend** → untaught in example: dieser, viele
+- **das Gebiet** → untaught in example: fcrlich
+- **die Richtung** → untaught in example: muss
+- **die Strecke** → untaught in example: dauert
+- **die Station** → untaught in example: viele, muss, fccken
+- **die Metropole** → untaught in example: fcnchen, dfte
+- **die Nordsee** → untaught in example: liegt
+- **nahe** → untaught in example: liegt
+- **die U-Bahn** → untaught in example: fccken
+- **die F\u00e4hre** → untaught in example: extra
+- **die Eisenbahn** → untaught in example: viele, gibt
+- **die Ausfahrt** → untaught in example: fcssen
+- **der Fu\u00dfg\u00e4nger** → untaught in example: fcrfen
+- **die Fu\u00dfg\u00e4ngerin** → untaught in example: wartet
+- **die Fu\u00dfg\u00e4ngerzone** → untaught in example: viele, user
+- **die Radfahrerin** → untaught in example: viele
+- **die Zone** → untaught in example: kompliziert
+- **die Spur** → untaught in example: dcberholen
+- **der Hof** → untaught in example: udes
+- …and 62 more
+
+## unit-16.js (92 cards)
+- **der Konflikt** → untaught in example: dritten
+- **die Laune** → untaught in example: geklopft, verdirbt
+- **der Nerv** → untaught in example: geht
+- **die Sorge** → untaught in example: wird, sprich
+- **der Vorwurf** → untaught in example: fcrfe
+- **die Vorschrift** → untaught in example: wusste
+- **das Verbot** → untaught in example: ignoriert, bekommt
+- **still** → untaught in example: muss
+- **schweigen** → untaught in example: gesagt
+- **die Schuld** → untaught in example: geschrien
+- **schuldig** → untaught in example: sagt
+- **die Kritik** → untaught in example: konstruktive
+- **der Respekt** → untaught in example: muss, bedeutet
+- **die Geduld** → untaught in example: muss
+- **der Kompromiss** → untaught in example: fcssen
+- **die Stimme** → untaught in example: erhebt
+- **der Gedanke** → untaught in example: muss, diesen
+- **kritisieren** → untaught in example: fcll
+- **widersprechen** → untaught in example: widersprichst, hast
+- **behaupten** → untaught in example: behauptet
+- …and 72 more
+
+## unit-17.js (84 cards)
+- **der Karneval** → untaught in example: hepunkt
+- **die Freude** → untaught in example: fcrst, erlebt
+- **der Humor** → untaught in example: clever
+- **der Hut** → untaught in example: hast
+- **der Schmuck** → untaught in example: gilt, desto, nzt
+- **fr\u00f6hlich** → untaught in example: hliche
+- **wundersch\u00f6n** → untaught in example: fcme
+- **begeistert** → untaught in example: freut, strahlst
+- **gr\u00fc\u00dfen** → untaught in example: nes, dft
+- **der S\u00e4nger** → untaught in example: fchmter
+- **die S\u00e4ngerin** → untaught in example: fcrlich
+- **der Musiker** → untaught in example: dfend
+- **das Orchester** → untaught in example: gibt
+- **die Fl\u00f6te** → untaught in example: jedem
+- **das Publikum** → untaught in example: klatschen, gibt
+- **am\u00fcsieren** → untaught in example: freut
+- **l\u00e4cheln** → untaught in example: chelst
+- **der K\u00fcnstler** → untaught in example: diesen, fcnstlern
+- **die Figur** → untaught in example: erkenne
+- **die Puppe** → untaught in example: diese
+- …and 64 more
+
+## unit-18.js (78 cards)
+- **die Terrasse** → untaught in example: nimmt
+- **der Treffpunkt** → untaught in example: wartet
+- **der Wirt** → untaught in example: fcrze, fcben
+- **die Wirtin** → untaught in example: dft
+- **der Kellner** → untaught in example: bedient, fcben, muss
+- **die Kellnerin** → untaught in example: viele
+- **der Ober** → untaught in example: fcrlich
+- **das Trinkgeld** → untaught in example: gibt, weniger
+- **die Mahlzeit** → untaught in example: gibt
+- **durstig** → untaught in example: dfes
+- **satt** → untaught in example: gibt
+- **genie\u00dfen** → untaught in example: dft
+- **prost** → untaught in example: gibt
+- **die Pfanne** → untaught in example: schwarzen
+- **die T\u00fcte** → untaught in example: sagt, fcnchen
+- **der Pfeffer** → untaught in example: Schwarzer, gemahlen
+- **das Mehl** → untaught in example: bedeutet
+- **das Fett** → untaught in example: fcnder
+- **die Aprikose** → untaught in example: sagt
+- **roh** → untaught in example: muss
+- …and 58 more
+
+## unit-19.js (61 cards)
+- **die Behörde** → untaught in example: dritter
+- **das Amt** → untaught in example: muss, welchem
+- **der Antrag** → untaught in example: dieses
+- **die Unterlage** → untaught in example: diesem
+- **rechtzeitig** → untaught in example: halbe, gelernt
+- **zunächst** → untaught in example: muss
+- **vorläufig** → untaught in example: gilt, kommt
+- **sicher** → untaught in example: geprüft
+- **die Gebühr** → untaught in example: beträgt
+- **das Recht** → untaught in example: erfüllt
+- **die Migration** → untaught in example: migrieren
+- **der Migrant** → untaught in example: viele, diverse
+- **der Wohnsitz** → untaught in example: geht, gelernt
+- **verantwortlich** → untaught in example: diesen
+- **genehmigen** → untaught in example: genehmigt
+- **ausstellen** → untaught in example: wird
+- **verlängern** → untaught in example: muss, läuft
+- **anerkennen** → untaught in example: hängt, studiert
+- **enthalten** → untaught in example: enthält
+- **verpflichten** → untaught in example: gibt
+- …and 41 more
+
+## unit-20.js (79 cards)
+- **der Krankenwagen** → untaught in example: fcrzt
+- **der Patient** → untaught in example: wartet
+- **die Patientin** → untaught in example: geht, fchlt
+- **die Klinik** → untaught in example: rzte
+- **die Verletzung** → untaught in example: fcrzt
+- **behandeln** → untaught in example: fcller
+- **das Knie** → untaught in example: fchlpacks
+- **der Finger** → untaught in example: gebrochen, gequetscht
+- **der Muskel** → untaught in example: geht
+- **der Knochen** → untaught in example: gebrochen
+- **die Lippe** → untaught in example: nimm, diesen
+- **die Haut** → untaught in example: juckt
+- **der Atem** → untaught in example: fehlt
+- **bluten** → untaught in example: blutet, fccken
+- **brechen** → untaught in example: gebrochen
+- **frieren** → untaught in example: nimm
+- **blass** → untaught in example: Geht
+- **die Versichertenkarte** → untaught in example: muss
+- **die Zahlung** → untaught in example: muss
+- **die Mahnung** → untaught in example: musst
+- …and 59 more
+
+## unit-21.js (89 cards)
+- **die Grenze** → untaught in example: gibt
+- **die Mauer** → untaught in example: fiel
+- **die Freiheit** → untaught in example: bedeutet, fcrfen
+- **die Gesellschaft** → untaught in example: nkter
+- **historisch** → untaught in example: friedliche
+- **politisch** → untaught in example: geht
+- **national** → untaught in example: kompliziert, okay
+- **die Erinnerung** → untaught in example: kompliziert
+- **die Vergangenheit** → untaught in example: muss
+- **die Entwicklung** → untaught in example: entwickelt
+- **erleben** → untaught in example: hast, erlebt, Mia
+- **erfahren** → untaught in example: hlt
+- **der B\u00fcrger** → untaught in example: gek, mpft
+- **die B\u00fcrgerin** → untaught in example: bedeutet
+- **der Friede** → untaught in example: bedeutet
+- **der Kampf** → untaught in example: mpft
+- **die Wahl** → untaught in example: bedeutet
+- **der Politiker** → untaught in example: wichtiger, wurden
+- **die Politikerin** → untaught in example: viele, regierte
+- **sozial** → untaught in example: bedeutet, geht
+- …and 69 more
+
+## unit-22.js (77 cards)
+- **die Umwelt** → untaught in example: tust
+- **der Umweltschutz** → untaught in example: bedeutet, steht
+- **die Energie** → untaught in example: kommt
+- **die Luft** → untaught in example: viele
+- **der Boden** → untaught in example: fcse, muss
+- **die Erde** → untaught in example: liegt
+- **die Hitze** → untaught in example: unertr
+- **das System** → untaught in example: recycelt
+- **der Durchschnitt** → untaught in example: dieses
+- **extrem** → untaught in example: ungew, hnlich
+- **der Abfall** → untaught in example: kommt, fcrlich
+- **der Abfalleimer** → untaught in example: fcche
+- **die M\u00fcllabfuhr** → untaught in example: kommt
+- **das Holz** → untaught in example: dieser, Massives, kommt
+- **das Material** → untaught in example: welchem, recyceltem
+- **die Ware** → untaught in example: diese
+- **der H\u00e4ndler** → untaught in example: fcse
+- **der Export** → untaught in example: dfter
+- **der Import** → untaught in example: dfter
+- **die Industrie** → untaught in example: fcne
+- …and 57 more
+
+## unit-23.js (117 cards)
+- **das Wissen** → untaught in example: wird
+- **die Methode** → untaught in example: benutzt, bewährte
+- **die Regel** → untaught in example: viele
+- **das Kapitel** → untaught in example: liest
+- **der Inhalt** → untaught in example: hilft
+- **die Reihenfolge** → untaught in example: spart
+- **der Zusammenhang** → untaught in example: hilft
+- **verbessern** → untaught in example: hast
+- **erkennen** → untaught in example: erkennt, wird
+- **regelmäßig** → untaught in example: übst, lernt
+- **das Wörterbuch** → untaught in example: empfiehlst
+- **das Lexikon** → untaught in example: erklärt, steht
+- **die Zeile** → untaught in example: steht, muss
+- **die Grafik** → untaught in example: enthält
+- **die Darstellung** → untaught in example: hilft
+- **die Broschüre** → untaught in example: Steht
+- **der Punkt** → untaught in example: wichtigste
+- **die Aussprache** → untaught in example: hilft, wird
+- **das Alphabet** → untaught in example: viele, plus
+- **nachschlagen** → untaught in example: wichtigen, errätst
+- …and 97 more
+
+## unit-24.js (71 cards)
+- **der Alltag** → untaught in example: machst
+- **die Eile** → untaught in example: muss, hast
+- **das Ereignis** → untaught in example: wichtigste, verändert
+- **der Sinn** → untaught in example: gelernt
+- **die Tatsache** → untaught in example: wichtige, wichtigste
+- **der Zeitpunkt** → untaught in example: hast
+- **der Zustand** → untaught in example: welchem, sprichst
+- **verbringen** → untaught in example: hast
+- **gewöhnen** → untaught in example: gewöhnt
+- **alltäglich** → untaught in example: vieles
+- **die Entscheidung** → untaught in example: Bereust
+- **die Chance** → untaught in example: hast, genutzt, muss
+- **die Möglichkeit** → untaught in example: hast
+- **die Überraschung** → untaught in example: hast, gewusst
+- **der Zweifel** → untaught in example: viele
+- **der Zufall** → untaught in example: hast
+- **der Wert** → untaught in example: größten, wichtiger
+- **das Wunder** → untaught in example: gelernt, hast, fühlt
+- **der Schritt** → untaught in example: wichtigste
+- **beschlie\u00dfen** → untaught in example: willst, steht
+- …and 51 more
+
+## unit-25.js (93 cards)
+- **die Mensa** → untaught in example: gibt
+- **das Seminar** → untaught in example: viele, muss
+- **der Studiengang** → untaught in example: hast, hlt
+- **die Dozentin** → untaught in example: Schmidt, kompetent
+- **die Fakult\u00e4t** → untaught in example: viele
+- **die Immatrikulation** → untaught in example: gibt
+- **wissenschaftlich** → untaught in example: folgt, bedeutet
+- **grunds\u00e4tzlich** → untaught in example: gibt
+- **hinsichtlich** → untaught in example: gibt
+- **die Hypothese** → untaught in example: muss
+- **die Methode** → untaught in example: wurde
+- **das Ergebnis** → untaught in example: fcberraschend, fcbertrifft
+- **die Untersuchung** → untaught in example: befasst
+- **die Quelle** → untaught in example: viele, hast
+- **formulieren** → untaught in example: fcrdest, fcrde, muss
+- **interpretieren** → untaught in example: muss
+- **vergleichen** → untaught in example: verglichen
+- **forschen** → untaught in example: forscht
+- **der Zusammenhang** → untaught in example: welchem, steht, wird
+- **die Entwicklung** → untaught in example: stetige
+- …and 73 more
+
+## unit-26.js (95 cards)
+- **die Nachrichten** → untaught in example: wichtigste, wurde
+- **die Schlagzeile** → untaught in example: muss
+- **der Kommentar** → untaught in example: gibt, steht
+- **die Sendung** → untaught in example: erklärt
+- **die Massenmedien** → untaught in example: nutzt, grossen
+- **berichten** → untaught in example: live
+- **informieren** → untaught in example: hoere, muss
+- **glaubwürdig** → untaught in example: erkennt
+- **angeblich** → untaught in example: wird, muss
+- **offenbar** → untaught in example: gewusst, stärker
+- **die Pressefreiheit** → untaught in example: viele
+- **die Fake News** → untaught in example: erkennt, prüft
+- **die Propaganda** → untaught in example: dunkle
+- **die Manipulation** → untaught in example: schützt
+- **die Filterblase** → untaught in example: bricht, liest
+- **die Zensur** → untaught in example: verbietet
+- **die Medienkompetenz** → untaught in example: wird, wichtiger
+- **manipulieren** → untaught in example: muss
+- **verfaelschen** → untaught in example: verfaelscht, wurden
+- **verschleiern** → untaught in example: subtiler, luegen
+- …and 75 more
+
+## unit-27.js (93 cards)
+- **die Praesentation** → untaught in example: muss
+- **der Vortrag** → untaught in example: hält
+- **das Publikum** → untaught in example: gross
+- **die Folie** → untaught in example: viele, hast
+- **der Hauptteil** → untaught in example: kommt
+- **das Schlusswort** → untaught in example: sagst
+- **die Vorbereitung** → untaught in example: geht
+- **die Kernaussage** → untaught in example: präziser
+- **vortragen** → untaught in example: trägst
+- **das Flipchart** → untaught in example: steht
+- **das Handout** → untaught in example: fasst
+- **die Bildschirmpr\u00e4sentation** → untaught in example: schliesse
+- **das Diagramm** → untaught in example: visuell
+- **die \u00dcberleitung** → untaught in example: geuebt, verliert
+- **der \u00dcbergang** → untaught in example: wird, holprig
+- **der Zuh\u00f6rer** → untaught in example: viele
+- **die Zuh\u00f6rerin** → untaught in example: nickte, konnten
+- **der Moderator** → untaught in example: gibt
+- **die Moderatorin** → untaught in example: geführt
+- **ausf\u00fchrlich** → untaught in example: muss
+- …and 73 more
+
+## unit-28.js (70 cards)
+- **poetisch** → untaught in example: schoen
+- **zeitlos** → untaught in example: gilt
+- **überliefert** → untaught in example: wurden
+- **erzählen** → untaught in example: erzählt
+- **der Vers** → untaught in example: viele, schoensten
+- **die Strophe** → untaught in example: viele, stärkste, kommt
+- **die Lyrik** → untaught in example: emotionale
+- **die Prosa** → untaught in example: weniger
+- **der Roman** → untaught in example: liest
+- **die Gattung** → untaught in example: gehört
+- **die Epoche** → untaught in example: Fruebes
+- **lyrisch** → untaught in example: bedeutet, bezieht
+- **dichterisch** → untaught in example: genutzt, bedeutet, kuenstlerische
+- **der Kontext** → untaught in example: bedeutet, ändert
+- **das Motiv** → untaught in example: zieht
+- **das Symbol** → untaught in example: steht
+- **das Wortspiel** → untaught in example: Hast, bemerkt, gelungenes
+- **die Anspielung** → untaught in example: subtile
+- **offenbar** → untaught in example: stärker, bedeutet
+- **laut** → untaught in example: wem, liegt
+- …and 50 more
+
+## unit-29.js (78 cards)
+- **die Debatte** → untaught in example: lebhaft
+- **die Demokratie** → untaught in example: bedeutet
+- **die Partei** → untaught in example: fctzt, viele
+- **der Politiker** → untaught in example: vertritt
+- **die Politikerin** → untaught in example: fordert
+- **die Regierung** → untaught in example: viele
+- **die Opposition** → untaught in example: viele
+- **das Parlament** → untaught in example: viele
+- **der Bundestag** → untaught in example: hlten
+- **der Standpunkt** → untaught in example: fcrlich
+- **politisch** → untaught in example: betrifft
+- **demokratisch** → untaught in example: fcrde
+- **parlamentarisch** → untaught in example: wird
+- **kontrovers** → untaught in example: betrifft
+- **umstritten** → untaught in example: viele
+- **kritisieren** → untaught in example: hohen
+- **unterst\u00fctzen** → untaught in example: fctzt
+- **das Gegenargument** → untaught in example: widerlegt
+- **der Ausschuss** → untaught in example: fcft
+- **der Abgeordnete** → untaught in example: vertritt
+- …and 58 more
+
+## unit-30.js (73 cards)
+- **das Amt** → untaught in example: geht
+- **das Formular** → untaught in example: wird
+- **der Antrag** → untaught in example: läuft
+- **die Frist** → untaught in example: läuft, kostet
+- **die Verwaltung** → untaught in example: kuemmert
+- **die Verordnung** → untaught in example: stärker, kommt
+- **die Pflicht** → untaught in example: musst
+- **der Bürger** → untaught in example: hast
+- **amtlich** → untaught in example: trägt
+- **das Bürgeramt** → untaught in example: gezogen, musst
+- **das Rathaus** → untaught in example: gross, schoenste
+- **die Meldebescheinigung** → untaught in example: bekommst
+- **die Aufenthaltserlaubnis** → untaught in example: läuft, musst
+- **die Ausländerbehörde** → untaught in example: geht
+- **das Bussgeld** → untaught in example: guenstig, wird
+- **die Mahnung** → untaught in example: dritten, kommt
+- **die Beschwerde** → untaught in example: wem
+- **fristgerecht** → untaught in example: gewesen
+- **die Rechtslage** → untaught in example: lässt
+- **das Verfahren** → untaught in example: läuft
+- …and 53 more
+
+## unit-31.js (65 cards)
+- **der Gewinn** → untaught in example: berechnet
+- **der Verlust** → untaught in example: erheblich
+- **die Schulden** → untaught in example: hohe
+- **der Zinssatz** → untaught in example: erhoeht
+- **finanziell** → untaught in example: vieler
+- **oekonomisch** → untaught in example: bedeutet
+- **rentabel** → untaught in example: liegt, wird
+- **jährlich** → untaught in example: berechnet
+- **die Börse** → untaught in example: reagiert
+- **die Investition** → untaught in example: könnte
+- **der Konzern** → untaught in example: grosser
+- **das Unternehmen** → untaught in example: viele
+- **der Wettbewerb** → untaught in example: senkt
+- **der Marktanteil** → untaught in example: gross, vergrößern, wächst
+- **die Konjunktur** → untaught in example: erholt
+- **profitabel** → untaught in example: hohe
+- **wettbewerbsfaehig** → untaught in example: guenstiger
+- **börsennotiert** → untaught in example: bedeutet
+- **der Export** → untaught in example: wichtigster
+- **die Lohnsteuer** → untaught in example: zieht
+- …and 45 more
+
+## unit-32.js (78 cards)
+- **die Identit\u00e4t** → untaught in example: bedeutet, entwickelt
+- **das Bewusstsein** → untaught in example: entwickelt
+- **die Herkunft** → untaught in example: kommt
+- **die Tradition** → untaught in example: pflegt
+- **die Vielfalt** → untaught in example: bedeutet
+- **die Toleranz** → untaught in example: bedeutet
+- **die Wahrnehmung** → untaught in example: bewusstes
+- **die Zugeh\u00f6rigkeit** → untaught in example: fchlst
+- **gesellschaftlich** → untaught in example: nderungen
+- **multikulturell** → untaught in example: lebt
+- **interkulturell** → untaught in example: vielen
+- **tolerant** → untaught in example: kommt
+- **traditionell** → untaught in example: Kommt
+- **hinterfragen** → untaught in example: bedeutet
+- **die Anschauung** → untaught in example: gepr
+- **die Wertvorstellung** → untaught in example: hast
+- **die Menschenw\u00fcrde** → untaught in example: wichtigste
+- **eigenst\u00e4ndig** → untaught in example: ndiges
+- **weltoffen** → untaught in example: kommt
+- **vielf\u00e4ltig** → untaught in example: ltige
+- …and 58 more
+
+## unit-33.js (73 cards)
+- **das Heimweh** → untaught in example: vermisst, kommt
+- **die Sehnsucht** → untaught in example: schoen
+- **der Abschied** → untaught in example: fiel, wem
+- **die Vergangenheit** → untaught in example: noetig
+- **die Geborgenheit** → untaught in example: bedeutet, fühle
+- **die Verbundenheit** → untaught in example: kommt
+- **vertraut** → untaught in example: fühlt
+- **erinnern** → untaught in example: wichtigen
+- **das Fernweh** → untaught in example: sehnt
+- **die Nostalgie** → untaught in example: lässt, lächeln
+- **die Landschaft** → untaught in example: ihren
+- **die Atmosphäre** → untaught in example: fühlt
+- **die Umgebung** → untaught in example: praegt, wird
+- **das Andenken** → untaught in example: trägt, erzählt
+- **die Einsamkeit** → untaught in example: kommt, Gewaehlte
+- **die Entfremdung** → untaught in example: wird, kommt
+- **das Lebensgefühl** → untaught in example: verändert
+- **bodenständig** → untaught in example: bedeutet
+- **der Aufbruch** → untaught in example: bedeutet
+- **der Umzug** → untaught in example: verändert
+- …and 53 more
+
+## unit-34.js (74 cards)
+- **das Bundesland** → untaught in example: welchem, liegt, viele
+- **die Region** → untaught in example: magst, ihren
+- **der Wanderweg** → untaught in example: fchrt
+- **bereisen** → untaught in example: fehlt
+- **durchqueren** → untaught in example: viele
+- **herumkommen** → untaught in example: kommt
+- **landschaftlich** → untaught in example: hast
+- **idyllisch** → untaught in example: friedlich
+- **die Altstadt** → untaught in example: dft
+- **das Schloss** → untaught in example: fchmt
+- **die Stadtmauer** → untaught in example: geht
+- **das Wahrzeichen** → untaught in example: fcnster, fcrlich
+- **die Sehensw\u00fcrdigkeit** → untaught in example: viele
+- **der Weinberg** → untaught in example: fcgeln, liegt
+- **historisch** → untaught in example: fctzt
+- **eindrucksvoll** → untaught in example: fchlt
+- **missverstehen** → untaught in example: hast, ndnisse
+- **die Mundart** → untaught in example: bayerische
+- **der Muttersprachler** → untaught in example: wird
+- **der Dialekt** → untaught in example: spricht, chsisch
+- …and 54 more
+
+## unit-35.js (65 cards)
+- **der Pr\u00fcfungsteil** → untaught in example: viele
+- **das H\u00f6rverstehen** → untaught in example: fcbt
+- **das Leseverstehen** → untaught in example: kommt
+- **die Pr\u00fcfungsvorbereitung** → untaught in example: geholfen
+- **die Pr\u00fcfungsangst** → untaught in example: hilft
+- **markieren** → untaught in example: hilft, wichtigsten
+- **korrigieren** → untaught in example: korrigiert
+- **strukturieren** → untaught in example: halbe
+- **pr\u00fcfungsrelevant** → untaught in example: kommt
+- **rechtzeitig** → untaught in example: reduziert
+- **die Bewertung** → untaught in example: hlt
+- **das Kriterium** → untaught in example: welchen, wird
+- **der Ma\u00dfstab** → untaught in example: fcfer, hohen
+- **das L\u00f6sungsblatt** → untaught in example: dcbertrag, wird, fcbertrage
+- **die Mindmap** → untaught in example: hilft
+- **die Grammatik\u00fcbung** → untaught in example: fcbungen, fcben
+- **sortieren** → untaught in example: wichtigsten
+- **der Hauptteil** → untaught in example: viele
+- **der Schluss** → untaught in example: kommt
+- **das Fazit** → untaught in example: fctzlich
+- …and 45 more
+
+## unit-36.js (50 cards)
+- **der Lebensabschnitt** → untaught in example: verändert
+- **sich freuen** → untaught in example: freust
+- **staunen** → untaught in example: verändert
+- **aufrichtig** → untaught in example: bedeutet
+- **der Stolz** → untaught in example: geschafft
+- **aufblühen** → untaught in example: verändert
+- **gelassen** → untaught in example: voellig
+- **beginnen / anfangen** → untaught in example: fängt
+- **sich äußern / sagen** → untaught in example: willst
+- **verweilen / bleiben** → untaught in example: schoen
+- **die Umarmung** → untaught in example: geruehrt
+- **der Erfahrungsschatz** → untaught in example: grossen, erlebt, gelernt
+- **das Erinnerungsstück** → untaught in example: rotkorrigierte
+- **der Sinneswandel** → untaught in example: verändert
+- **die Reife** → untaught in example: entwickelt
+- **das Mitgefühl** → untaught in example: fühlt
+- **innehalten** → untaught in example: hielt
+- **loslassen** → untaught in example: liegt, unserer
+- **besonnen** → untaught in example: reagierte
+- **mutig** → untaught in example: warst, verrückt
+- …and 30 more
+

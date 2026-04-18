@@ -218,6 +218,12 @@ Five leak types. ALL must be zero:
 - **P59**: Every teach card gets POS tag + gender. Enables color system, sentence breakdown, grammar deep dives.
 - **P60**: Story layers toggleable. Grammar depth adjustable. Platform is self-contained.
 
+### Content Authenticity (2026-04-19)
+
+- **PP66 — No Filler Coverage.** Placeholder strings `"(review)"`, `"(taught)"`, `"(see above)"`, `"(TBD)"`, `"(review pair)"` are forbidden in any user-facing field (`src`, `en`, `exampleSrc`, `note`, `hint`, `funFact`, `text`, `desc`). Coverage added to satisfy PP64 must reuse the teach card's actual `src`/`en` translation. Detection: `scripts/check_filler.cjs` (grep pre-commit). Any match → build fails.
+- **PP67 — Production-Mode Minimum.** Every unit must have at least one production-mode quiz (`fb` or `drag_fill` where the answer is the target-language form) per 10 teach cards. Pure-recognition units (`mc` picking English translations only) fail this rule. Rationale: testing effect + output hypothesis — recognition does not build production fluency. Detection: `scripts/pp67_audit.cjs`.
+- **PP68 — Example-Vocab Integrity (automated).** Every content word ≥3 chars in a teach card's `example` field must be (a) the card's own `trg`, (b) taught in an earlier teach card in the same or a prior unit, (c) on the language's function-word list, or (d) a flagged transparent cognate. Validator: `scripts/pp63_audit.cjs` (the script name preserves continuity with PP63 which was the pre-automation principle). Lifts PP63 from aspiration to mechanical rule.
+
 ### Audit Checklist (PP53 — 17 items, ALL must PASS)
 1. CEFR distribution (PP51) | 2. PP8 all 5 leak types | 3. PP52 teach-before-use (full scan) | 4. PP48 step types | 5. PP49 no CEFR labels | 6. PP22c no em-dashes | 7. PP43 density (max 32 steps) | 8. board:true | 9. Sub-level consistency | 10. PP55 vocab completeness | 11. PP57 grammar completeness | 12. PP58 functions | 13. Synonym coverage | 14. PP56 unit count | 15. Exam readiness | 16. PP61 metalanguage in source language | **17. PP64 teach-then-test (every teach card quizzed)** | **18. PP65 Japanese kanji+furigana (all cards, all levels)**
 
@@ -253,6 +259,9 @@ Five leak types. ALL must be zero:
 12. **Every content agent prompt MUST state:** "Maximum 2 consecutive \\n in any text field."
 13. **Token budget per agent:** Validation agent (4 units) ~10K tokens input. Content agent (1 unit) ~4K tokens. Story agent (1 unit) ~5K tokens. If an agent needs >40K input tokens, redesign the task.
 14. **Sonnet for validation + translation. Opus ONLY for creative content** (new lessons, story writing). Sonnet is 80% cheaper. Never use Opus for mechanical tasks like PP8 scanning or field translation.
+15. **Genuine content, not validator theater (2026-04-19).** Agents assigned to fix validator violations must produce pedagogically genuine content. Forbidden patterns every agent prompt must explicitly prohibit: `src:"(review)"` or any filler placeholder (PP66); `___` substitution in hints that merely removes a leaked word without rewriting the guidance; match pairs whose `src` is merely "see above"; rewrites that introduce new filler. Violation = reject agent output, re-dispatch with stricter prompt.
+16. **Bounded retry (2026-04-19).** After 3 consecutive failures on the same task (agent edit → validator/build fails → revert), STOP. Write a summary to `docs/BLOCKED.md` with agent ID, task, failure modes observed, and suggested next approach. Move on to the next queue item. Do not loop.
+17. **Agents never self-validate (2026-04-19).** The author-agent that produces content cannot be the validator that approves it. Content flows through Rule G (dual-linguist) before merge. Validator agents are fresh spawns with non-identical prompts.
 
 ### Rule C: Build Process
 1. Validate density PER LESSON during build, not after.
@@ -265,6 +274,8 @@ Five leak types. ALL must be zero:
 8. Verify lower-level vocab has teach cards before building higher levels.
 9. **MANDATORY: Run `npm run build` after EVERY merge-conflict resolution, before pushing.** Root cause of the 2026-04-17 build outage (PRs #178–#180 all failed CI) was 32 Russian unit files shipping with literal `<<<<<<< HEAD` / `=======` / `>>>>>>> origin/main` markers embedded in source. `git status` showed "clean" because the markers were committed. Only `npm run build` catches this. Also run `grep -rE '^(<<<<<<<|=======|>>>>>>>)' src/` after any conflict resolution — must return zero.
 10. **CI watch: after merging to main, run `gh run watch <id> --exit-status`** (or `gh run list --workflow="Build and Deploy to Mijndomein" --limit 1` to check). Do not declare work complete or write handoff text until main is green.
+11. **Validator theater detection (2026-04-19).** Before every commit, grep for filler: `grep -rE '\(review\)|\(taught\)|\(TBD\)|\(see above\)' src/` — must return zero. Build fails otherwise via `scripts/check_filler.cjs`.
+12. **Idempotent auto-fix scripts (2026-04-19).** Every auto-fix script under `scripts/` must be idempotent: running it twice produces the same result as running it once. Before adding coverage, check if coverage already exists. Before injecting a rewrite, check if the content is already compliant. Applies to `pp64_fix.cjs`, `fix_korean_pp8*.cjs`, and any future `*_fix.cjs`.
 
 ### Rule D: Edit Safety
 1. Use `\n` escape in JS strings, never literal newlines. Verify build after edits.
@@ -275,12 +286,34 @@ Five leak types. ALL must be zero:
 1. Audit agents get FULL pipeline context. Agent without full rules = D109-class errors.
 2. Check STRUCTURE before CONTENT. First: CEFR distribution, unit sizing. Then: PP8, PP52, PP48.
 3. After adding new CEFR sub-levels, verify unit map in browser. Don't simplify `getCefrInfo()`.
+4. **Truth-source ranking (2026-04-19).** When sources disagree, this is the priority: (1) code/validator output — runtime truth; (2) this CLAUDE.md; (3) `docs/vision/` — strategic direction; (4) `docs/DECISION_LOG.md` — historical context; (5) `docs/plans/` — suggested roadmaps; (6) memory files — user preferences; (7) agent judgment — last resort. Higher beats lower. An agent never overrides code with its own reasoning.
 
 ### Rule F: Content Philosophy
 1. Opus + Sonnet co-write and cross-validate. Neither ships without the other's sign-off.
 2. Salvage v1 content. Check verb tables, tip cards, dialogues before writing from scratch.
 3. Build it right the first time. The audit is a safety net, not a cleanup crew.
 4. This is a real product. Every card, quiz, and lesson must be certification-grade.
+
+### Rule G: Dual Linguistic Validation (2026-04-19)
+
+Replaces "native-speaker review" as a bottleneck. The owner speaks 8+ languages but not all 10 the app teaches; human native-speaker gates would block autonomy. Two AI linguist agents take the role.
+
+1. **G1.** Any new language content (teach cards, examples, story dialogue, funFacts, tip deepDives) produced by one agent must be reviewed by a SECOND independent agent before merge.
+2. **G2.** The two validators run IN PARALLEL, cold, never sequentially. Both see the same content without seeing each other's output.
+3. **G3.** Validator A uses `docs/agents/LINGUIST_VALIDATOR_A.md` (grammar + accuracy + PP-rule compliance lens). Validator B uses `docs/agents/LINGUIST_VALIDATOR_B.md` (register + idiomaticity + native-feel lens). Both prompts include the complete PP ruleset and the cross-reading instruction: "Assume your sibling validator may catch what you miss; be conservative about approving."
+4. **G4.** If either flags issues, the original author-agent gets ONE revision turn. If either still flags after that revision, the content enters `docs/BLOCKED.md` with both linguist reports for owner review.
+5. **G5.** The author-agent and the two validator-agents are three distinct fresh spawns. Never reuse the author as validator (Rule B17).
+
+### Rule H: Autonomy Protocol (2026-04-19)
+
+1. **H1.** The single source of "what to do next" is `docs/AUTONOMOUS_QUEUE.md`. Items are pre-sorted by priority. An autonomous agent pops the top item, executes it, commits, pushes, watches CI, marks it DONE, and moves to the next.
+2. **H2.** Every queue item has: `id`, `priority`, `description`, `preconditions` (files exist, no active agent on target), `acceptance-criteria` (validator output, spot-check spec), and optional `STOPS-ON` (external dependency that blocks autonomy).
+3. **H3.** If an item has `STOPS-ON: <reason>`, move it to `docs/BLOCKED.md` and continue to the next item. Never wait on external input; skip.
+4. **H4.** The autonomous loop TERMINATES when: (a) the queue is empty, (b) every remaining queue item has a `STOPS-ON` blocker, (c) three consecutive items fail despite retries (per Rule B16), or (d) build goes red on main and doesn't recover within the bounded retry window.
+5. **H5.** Every agent spawned during an autonomous run writes a start/end entry to `docs/AGENT_ACTIVITY.log`: timestamp, agent-id, task, outcome. This gives the owner a single audit trail.
+6. **H6.** Agents MUST NOT spawn sub-agents recursively. Only the main session spawns agents.
+7. **H7.** Parallel agents MUST NOT edit the same file. The main session maintains a file-lock manifest for the duration of a batch — an agent attempting to edit a locked file aborts.
+8. **H8.** Before starting an autonomous loop, regenerate the queue: `node scripts/generate_queue.cjs`. This scans validator output, PP63/PP67 audits, and polish-matrix gaps to produce a fresh, prioritized queue.
 
 ---
 
@@ -474,3 +507,8 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 11. **Word cards: 2 bubbles + fun info + POS/gender tags.** No card ships without all of these.
 12. **Build it right the first time.** The audit is a safety net, not a cleanup crew.
 13. **Communicate warmly.** Flag problems gently, celebrate wins genuinely. The owner's passion drives this project — honor that with kindness, never clinical bluntness.
+14. **Validator green is the floor, not the ceiling.** Passing automated rule checks is necessary but not sufficient for certification-grade quality. Comprehensible input at i+1, retrieval variety, cultural depth, and pedagogical authenticity cannot be measured by scripts. Don't confuse a green validator with a finished product.
+15. **Retrieval beats recognition.** Testing effect (Roediger & Karpicke) and output hypothesis (Swain) are settled science: production-mode practice drives L2 retention far more than recognition. Every unit leans toward fb/drag_fill with target-language answers, not just mc with English options.
+16. **Don't game the metric.** Filler quiz coverage, `___` hint substitutions, `"(review)"` stand-in translations — any shortcut that passes a validator without improving learning outcomes undermines the whole system. The metric exists to measure learning; gaming it corrupts the signal.
+17. **Autonomy requires a queue.** Rules constrain; validators verify; the `docs/AUTONOMOUS_QUEUE.md` drives. An agent with only rules can't know what to do next. An agent with a queue runs until the queue is empty or every remaining item hits a documented external blocker.
+18. **Two linguist agents beat one.** Every content change by one agent is cross-read by a second, independently-prompted linguist agent before it merges. Native-speaker review is not a bottleneck we wait on — dual-AI-linguist validation is the production gate.

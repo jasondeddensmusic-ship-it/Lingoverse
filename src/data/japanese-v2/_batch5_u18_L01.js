@@ -93,6 +93,6 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"無理(むり)やり means:", opts:["By force / against one's will","Naturally / willingly","Carefully / gently","Politely / respectfully"], ans:"By force / against one's will",
      hint:"This adverb describes actions done without consent, often paired with causative-passive verbs."}
-  ,{type:"match",pairs:[{trg:"やらされる",src:"to be made to do (something unwanted)"},{trg:"新入社員(しんにゅうしゃいん)",src:"new employee / new hire"},{trg:"厳(きび)しい",src:"strict / harsh / severe"},{trg:"無理(むり)やり",src:"(review)"},{trg:"断(ことわ)る",src:"to refuse / to decline"},{trg:"我慢(がまん)させられる",src:"to be made to endure / to be forced to put up with"}]}]
+  ,{type:"match",pairs:[{trg:"やらされる",src:"to be made to do (something unwanted)"},{trg:"新入社員(しんにゅうしゃいん)",src:"new employee / new hire"},{trg:"厳(きび)しい",src:"strict / harsh / severe"},{trg:"無理(むり)やり",src:"by force / forcibly / against one's will"},{trg:"断(ことわ)る",src:"to refuse / to decline"},{trg:"我慢(がまん)させられる",src:"to be made to endure / to be forced to put up with"}]}]
 };
 export default BATCH5_L_1;

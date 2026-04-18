@@ -203,7 +203,7 @@ const UNIT_07 = {
 
   {type:"mc", q:"Which sentence means 'I go to school at 8'?", opts:["八時(はちじ)に寝(ね)ます","八時(はちじ)に食(た)べます","八時(はちじ)に帰(かえ)ります","八時(はちじ)に学校(がっこう)に行(い)きます"], ans:"八時(はちじ)に学校(がっこう)に行(い)きます",
    hint:"Hachi-ji ni (at 8) + gakkou ni (to school) + ikimasu (go)."},
-{type:"match",pairs:[{trg:"\u301C時(じ)",src:"(review)"},{trg:"\u301C分(ふん)/分(ぷん)",src:"minute(s)"}]}]},
+{type:"match",pairs:[{trg:"\u301C時(じ)",src:"o'clock (hour counter)"},{trg:"\u301C分(ふん)/分(ぷん)",src:"minute(s)"}]}]},
 
 ,BATCH2_L1
 ,BATCH4_L01

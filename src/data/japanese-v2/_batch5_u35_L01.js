@@ -20,6 +20,6 @@ const BATCH5_L_1 = {
     {type:"match", pairs:[{trg:"キャッシュレス",src:"cashless payment"},{trg:"テレワーク",src:"remote work"},{trg:"自動化(じどうか)",src:"automation"},{trg:"サイバーセキュリティ",src:"cybersecurity"}]},
     {type:"fb", s:"スマホの{1}率(りつ)は90%を超(こ)えています。\n(The smartphone adoption rate exceeds 90%.)", a:"普及(ふきゅう)", opts:["普及(ふきゅう)","販売(はんばい)","生産(せいさん)","輸入(ゆにゅう)"], sSrc:"The smartphone adoption rate exceeds 90%.", hint:"The word for spread/popularization, describing how technology becomes widely adopted."},
     {type:"mc", q:"マイナンバー is:", opts:["A 12-digit individual ID number for all residents","A phone number","A bank account number","A social media handle"], ans:"A 12-digit individual ID number for all residents", hint:"Japan's national identification system introduced in 2015."}
-  ,{type:"match",pairs:[{trg:"デジタルトランスフォーメーション",src:"digital transformation (DX)"},{trg:"ビッグデータ",src:"big data"},{trg:"マイナンバー",src:"(review)"}]}]
+  ,{type:"match",pairs:[{trg:"デジタルトランスフォーメーション",src:"digital transformation (DX)"},{trg:"ビッグデータ",src:"big data"},{trg:"マイナンバー",src:"My Number (Japan's national ID system)"}]}]
 };
 export default BATCH5_L_1;
