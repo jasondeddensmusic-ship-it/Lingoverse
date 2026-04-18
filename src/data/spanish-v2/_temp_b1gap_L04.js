@@ -134,6 +134,73 @@ const LESSON_4 = {
       {trg:"avaricia", src:"greed"},
       {trg:"burla", src:"mockery"},
       {trg:"amabilidad", src:"kindness"}
+    ]},
+
+    // ── Salvage from v1 (B1 feelings and states) ──
+    {type:"teach", trg:"frustrado", src:"frustrated", pos:"adj", gender:null,
+     note:"Adjective. Frustrado/frustrada.\nEstar frustrado = to feel frustrated.",
+     example:"A: Estoy frustrado con el tráfico.\nB: Sí, llevamos una hora aquí.",
+     exampleSrc:"A: I am frustrated with the traffic.\nB: Yes, we have been here for an hour.",
+     funFact:"From Latin 'frustratus' (deceived, thwarted). The noun is 'la frustración.' Pair with 'estar,' not 'ser,' since it describes a temporary state."},
+
+    {type:"teach", trg:"decepcionado", src:"disappointed", pos:"adj", gender:null,
+     note:"Adjective. Decepcionado/decepcionada.\nFalse friend warning: not 'deceived' in English.",
+     example:"A: Estoy decepcionado con los resultados.\nB: Lo siento, esperabas más.",
+     exampleSrc:"A: I am disappointed with the results.\nB: I am sorry, you were hoping for more.",
+     funFact:"Classic false friend. 'Decepción' means disappointment, not deception. The Spanish word for deception is 'engaño.' English speakers frequently mix these up."},
+
+    {type:"teach", trg:"impresionado", src:"impressed", pos:"adj", gender:null,
+     note:"Adjective. Impresionado/impresionada.\nEstar impresionado por = to be impressed by.",
+     example:"A: Estoy muy impresionado por tu trabajo.\nB: Muchas gracias, significa mucho.",
+     exampleSrc:"A: I am very impressed by your work.\nB: Thank you very much, it means a lot.",
+     funFact:"From 'impresión' (impression). Spanish also uses 'impresionado' for shock or emotional intensity, not only admiration. Context clarifies which meaning applies."},
+
+    {type:"teach", trg:"confundido", src:"confused", pos:"adj", gender:null,
+     note:"Adjective. Confundido/confundida.\nFrom 'confundir' (to confuse).",
+     example:"A: Estoy un poco confundida con las instrucciones.\nB: No te preocupes, te las explico.",
+     exampleSrc:"A: I am a bit confused by the instructions.\nB: Do not worry, I will explain them.",
+     funFact:"From Latin 'confundere' (to mix together, literally 'pour together'). Related to 'fundir' (to melt) and 'fundición' (foundry). Confusion is a mental melting-together."},
+
+    {type:"teach", trg:"satisfecho", src:"satisfied", pos:"adj", gender:null,
+     note:"Adjective. Satisfecho/satisfecha.\nIrregular past participle of 'satisfacer'.",
+     example:"A: ¿Estás satisfecho con la comida?\nB: Sí, estaba deliciosa, gracias.",
+     exampleSrc:"A: Are you satisfied with the food?\nB: Yes, it was delicious, thank you.",
+     funFact:"From Latin 'satisfactus' (done enough). 'Satisfacer' is irregular like 'hacer': yo satisfago, tú satisfaces. The opposite 'insatisfecho' follows the same pattern."},
+
+    {type:"teach", trg:"celoso", src:"jealous", pos:"adj", gender:null,
+     note:"Adjective. Celoso/celosa.\nEstar celoso de = to be jealous of.",
+     example:"A: Mi perro está celoso del gato nuevo.\nB: Dale tiempo, se van a acostumbrar.",
+     exampleSrc:"A: My dog is jealous of the new cat.\nB: Give him time, they will get used to each other.",
+     funFact:"From 'celos' (jealousy), which is always plural in Spanish: 'tener celos' (to have jealousy). Related to Greek 'zelos' (zeal). English 'zealous' and Spanish 'celoso' are cousins."},
+
+    {type:"teach", trg:"tener ganas de", src:"to feel like, to want to", pos:"verb", gender:null,
+     note:"Idiomatic phrase with 'tener' + infinitive or noun.\nExpresses desire or inclination.",
+     example:"A: Tengo ganas de ir al cine.\nB: Yo también, ¿vamos esta noche?",
+     exampleSrc:"A: I feel like going to the movies.\nB: Me too, shall we go tonight?",
+     funFact:"'Ganas' (from 'ganar,' to win) literally means something like 'earnings' or 'winnings' of desire. The phrase has no clean English equivalent. Spanish speakers use it constantly."},
+
+    {type:"teach", trg:"seguro de sí mismo", src:"self-confident", pos:"adj", gender:null,
+     note:"Adjectival phrase. Segura de sí misma for feminine.\nSí mismo/misma agrees with subject.",
+     example:"A: Habla con mucha seguridad en las reuniones.\nB: Sí, es una persona muy segura de sí misma.",
+     exampleSrc:"A: She speaks with confidence in meetings.\nB: Yes, she is a very self-confident person.",
+     funFact:"Literally 'sure of oneself.' The reflexive 'sí mismo' must agree with the subject: él es seguro de sí mismo, ella es segura de sí misma, ellos son seguros de sí mismos."},
+
+    {type:"teach", trg:"tenso", src:"tense", pos:"adj", gender:null,
+     note:"Adjective. Tenso/tensa.\nEstar tenso = to feel tense.",
+     example:"A: Estás muy tensa. ¿Qué pasa?\nB: Tengo una entrevista importante mañana.",
+     exampleSrc:"A: You are very tense. What is going on?\nB: I have an important interview tomorrow.",
+     funFact:"From Latin 'tensus,' past participle of 'tendere' (to stretch). The noun 'tensión' covers muscular tension, social tension, and even voltage (tensión eléctrica)."},
+
+    {type:"match", pairs:[
+      {trg:"frustrado", src:"frustrated"},
+      {trg:"decepcionado", src:"disappointed"},
+      {trg:"impresionado", src:"impressed"},
+      {trg:"confundido", src:"confused"},
+      {trg:"satisfecho", src:"satisfied"},
+      {trg:"celoso", src:"jealous"},
+      {trg:"tener ganas de", src:"to feel like"},
+      {trg:"seguro de sí mismo", src:"self-confident"},
+      {trg:"tenso", src:"tense"}
     ]}
   ]
 };

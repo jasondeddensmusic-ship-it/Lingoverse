@@ -65,8 +65,10 @@ function check(langCode, v1File, v2Paths) {
 
 // Language checks
 const base = 'src/data';
-check('Dutch',   `${base}/units-dutch.js`,   [`${base}/dutch-v2`]);
-check('Korean',  `${base}/units-korean.js`,  [`${base}/korean-v2`]);
-check('German',  `${base}/units-german.js`,  [`${base}/german-v2`]);
-check('French',  `.claude/archive/v1-legacy/units-french.js`, [`${base}/french-v2`]);
-check('Spanish', `${base}/units-spanish.js`, [`${base}/spanish-v2`]);
+const archive = '.claude/archive/v1-legacy';
+// All V1 files archived 2026-04-18. Checkers read from archive paths.
+check('Dutch',   `${archive}/units-dutch.js`,   [`${base}/dutch-v2`]);
+check('Korean',  `${archive}/units-korean.js`,  [`${base}/korean-v2`]);
+check('German',  `${archive}/units-german.js`,  [`${base}/german-v2`]);
+check('French',  `${archive}/units-french.js`,  [`${base}/french-v2`]);
+check('Spanish', `${archive}/units-spanish.js`, [`${base}/spanish-v2`]);

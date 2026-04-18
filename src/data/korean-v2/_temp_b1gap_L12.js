@@ -72,12 +72,26 @@ const LESSON_12 = {
      exampleSrc:"A: Who does the child resemble?\nB: The face resembles the father.\nA: What about personality?\nB: I think the personality resembles the mother.",
      funFact:"Koreans love the compliment 연예인 닮았어요 (you look like a celebrity)."},
 
+    {type:"teach", trg:"감동하다", src:"to be moved, to be touched", pos:"verb", gender:null,
+     note:"Sino-Korean. 감 (feel, 感) + 동 (move, 動).\nUsed for emotional responses to stories, films, kind acts.",
+     example:"A: 그 이야기를 듣고 감동했어요.\nB: 저도요. 정말 좋은 이야기예요.\nA: 마음이 따뜻해졌어요.\nB: 오래 기억에 남을 것 같아요.",
+     exampleSrc:"A: I was moved after hearing that story.\nB: Me too. It was a really good story.\nA: My heart felt warm.\nB: I think it will stay in memory for a long time.",
+     funFact:"From hanja 感動, literally 'feeling + movement.' The noun 감동 means 'deep impression,' as in 감동적인 연설 (a moving speech) or 큰 감동을 받다 (to be deeply moved)."},
+
+    {type:"teach", trg:"혼란스럽다", src:"to be confused, chaotic", pos:"adj", gender:null,
+     note:"Sino-Korean. 혼란 (confusion, 混亂) + -스럽다 (having the quality of).\nDescribes a muddled state of mind.",
+     example:"A: 머릿속이 혼란스러워요.\nB: 왜 그래요?\nA: 생각이 너무 많아서요.\nB: 잠시 쉬세요. 괜찮아질 거예요.",
+     exampleSrc:"A: My mind is confused.\nB: Why is that?\nA: Because I have too many thoughts.\nB: Take a break. You'll be okay.",
+     funFact:"The -스럽다 suffix turns nouns into adjectives: 사랑 (love) becomes 사랑스럽다 (lovable), 자연 (nature) becomes 자연스럽다 (natural). It means 'having the quality of.'"},
+
     // ── Quiz batch 2 ──
     {type:"match", pairs:[
       {trg:"고려하다", src:"to consider"},
       {trg:"깨다", src:"to wake up, break"},
       {trg:"깨지다", src:"to be broken"},
-      {trg:"닮다", src:"to resemble"}
+      {trg:"닮다", src:"to resemble"},
+      {trg:"감동하다", src:"to be moved"},
+      {trg:"혼란스럽다", src:"to be confused"}
     ]},
 
     {type:"mc",

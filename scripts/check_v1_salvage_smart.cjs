@@ -23,15 +23,30 @@ function extractTrgs(content) {
   return set;
 }
 
+// Decode JavaScript unicode escapes (\u00eb etc.) in a string, so "Belgi\u00eb"
+// captured from V1 source matches "België" in V2 source.
+function decodeUnicodeEscapes(s) {
+  return s.replace(/\\u([0-9a-fA-F]{4})/g, (_, h) => String.fromCharCode(parseInt(h, 16)));
+}
+
 // Smart match: handle compounds like "der Arzt / die Ärztin", "ellipsis...", multi-word entries
 function smartMatch(trg, v2Content) {
   const lowerV2 = v2Content.toLowerCase();
 
   // Strip trailing ellipsis
   let clean = trg.replace(/\.\.\.$/, '').replace(/^\s+|\s+$/g, '');
+  // Decode JS unicode escapes so encoding style does not cause false negatives
+  clean = decodeUnicodeEscapes(clean);
 
   // Try whole thing as substring
   if (lowerV2.includes(clean.toLowerCase())) return true;
+
+  // Spanish-style gender pair with slash+suffix: "frustrado/a", "seguro/a de sí mismo/a"
+  // Match if the base form (everything before the first /) is in V2.
+  if (/\/[a-záéíóúñ]{1,4}\b/i.test(clean)) {
+    const base = clean.replace(/\/[a-záéíóúñ]{1,4}\b/gi, '').trim();
+    if (base && lowerV2.includes(base.toLowerCase())) return true;
+  }
 
   // If contains " / ", check each part
   if (clean.includes(' / ')) {
@@ -88,8 +103,10 @@ function check(code, v1File, v2Paths) {
 }
 
 const base = 'src/data';
-check('Dutch',   `${base}/units-dutch.js`,   [`${base}/dutch-v2`]);
-check('Korean',  `${base}/units-korean.js`,  [`${base}/korean-v2`]);
-check('German',  `${base}/units-german.js`,  [`${base}/german-v2`]);
-check('French',  `.claude/archive/v1-legacy/units-french.js`, [`${base}/french-v2`]);
-check('Spanish', `${base}/units-spanish.js`, [`${base}/spanish-v2`]);
+const archive = '.claude/archive/v1-legacy';
+// All V1 files archived 2026-04-18. Checkers read from archive paths.
+check('Dutch',   `${archive}/units-dutch.js`,   [`${base}/dutch-v2`]);
+check('Korean',  `${archive}/units-korean.js`,  [`${base}/korean-v2`]);
+check('German',  `${archive}/units-german.js`,  [`${base}/german-v2`]);
+check('French',  `${archive}/units-french.js`,  [`${base}/french-v2`]);
+check('Spanish', `${archive}/units-spanish.js`, [`${base}/spanish-v2`]);

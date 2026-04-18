@@ -146,7 +146,39 @@ const LESSON_10 = {
      q:"De man was niet vriendelijk. Hij was ___ en onbeleefd.",
      opts:["bars","banaal","absurd","akkoord"],
      ans:"bars",
-     hint:"Which adjective describes someone who is gruff and unfriendly in manner?"}
+     hint:"Which adjective describes someone who is gruff and unfriendly in manner?"},
+
+    // ── Salvage from v1 (B1 feelings expansion) ──
+    {type:"teach", trg:"gefrustreerd", src:"frustrated", pos:"adj", gender:null,
+     note:"Adjective. Describes a blocked, irritated feeling when things do not work out.",
+     example:"A: Waarom kijk je zo boos?\nB: Ik ben gefrustreerd. De printer werkt weer niet.",
+     exampleSrc:"A: Why do you look so angry?\nB: I am frustrated. The printer is not working again.",
+     funFact:"French loanword via Latin 'frustrari' (to deceive, disappoint). Dutch keeps the double letters: gefrustreerd, not 'gefrustreert'."},
+
+    {type:"teach", trg:"verward", src:"confused", pos:"adj", gender:null,
+     note:"Adjective. Mental state of not understanding or being disoriented.",
+     example:"A: Ik ben helemaal verward.\nB: Wat is er? Kan ik je helpen?",
+     exampleSrc:"A: I am completely confused.\nB: What is it? Can I help you?",
+     funFact:"Past participle of 'verwarren' (to confuse/tangle). Literally 'tangled up.' Related to 'war' meaning tangle, not war (oorlog)."},
+
+    {type:"teach", trg:"ongerust", src:"worried / anxious", pos:"adj", gender:null,
+     note:"Adjective. On- (not) + gerust (at peace). Not at peace about something.",
+     example:"A: Ik ben ongerust over mijn moeder.\nB: Is er iets gebeurd?",
+     exampleSrc:"A: I am worried about my mother.\nB: Has something happened?",
+     funFact:"The prefix 'on-' negates, and 'gerust' means 'at ease.' So 'ongerust' literally means 'not at ease.' Used for worry about loved ones."},
+
+    {type:"teach", trg:"gespannen", src:"tense / strained", pos:"adj", gender:null,
+     note:"Adjective. Past participle of 'spannen' (to stretch). Describes tense nerves or muscles.",
+     example:"A: Je kijkt zo gespannen.\nB: Morgen heb ik een belangrijk examen.",
+     exampleSrc:"A: You look so tense.\nB: I have an important exam tomorrow.",
+     funFact:"Same root as English 'span.' Dutch uses 'gespannen' for physical tension (muscles) and mental tension (nerves before an exam)."},
+
+    {type:"match", pairs:[
+      {trg:"gefrustreerd", src:"frustrated"},
+      {trg:"verward", src:"confused"},
+      {trg:"ongerust", src:"worried"},
+      {trg:"gespannen", src:"tense"}
+    ]}
   ]
 };
 export default LESSON_10;
