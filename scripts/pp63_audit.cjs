@@ -5335,7 +5335,9 @@ const FUNCTION_WORDS = {
     // frozen formulas: "tudo bem", "muito prazer", "por favor", "aqui está".
     'bem','tudo','muito','prazer','favor','aqui','também','ali','lá','sim',
     // Possessives — function-word class in Portuguese grammar.
-    'meu','minha','meus','minhas','seu','sua','seus','suas','nosso','nossa','nossos','nossas']),
+    'meu','minha','meus','minhas','seu','sua','seus','suas','nosso','nossa','nossos','nossas',
+    // Oblique / stressed pronoun forms (after prepositions: para mim, com ele, sem nós, etc.)
+    'mim','ti','si','conosco','convosco']),
   'ru': new Set([
     // Core conjunctions / prepositions
     'и','или','но','если','что','потому','ведь','тоже','даже','лишь','хотя',

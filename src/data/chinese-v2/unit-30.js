@@ -191,6 +191,104 @@ lessons:[
  hint:"His calligraphy reached a high level of mastery through years of personal cultivation."}
 ]}
 
+,
+
+// ─── L3: Writing About Personal Significance ───
+{id:"zhv2_u30l3", title:"个人意义(gèrén yìyì)", icon:"💭", xp:15, board:true, steps:[
+{type:"intro", title:"Writing About Personal Significance",
+ desc:"Learn to write about meaningful experiences, memories, and values in Mandarin. Essential for HSK 5 autobiographical writing and personal reflections.",
+ goals:["Express what matters to you","Reflect on formative memories","Describe your personal values"]},
+
+{type:"teach", trg:"意义(yìyì)", src:"meaning / significance", pos:"noun", gender:null,
+ note:"意 = meaning/intention, 义 = righteousness/meaning.\nRefers to the deeper significance or purpose of something.",
+ example:"A: 这(zhè)段(duàn)经历(jīnglì)对(duì)你(nǐ)有(yǒu)什么(shénme)意义(yìyì)？\nB: 它(tā)让(ràng)我(wǒ)明白(míngbai)了(le)什么(shénme)最(zuì)重要(zhòngyào)。",
+ exampleSrc:"A: What significance does this experience hold for you?\nB: It made me understand what matters most.",
+ funFact:"意义 combines two characters meaning 'intention' and 'principle.' The phrase 有意义 (yǒu yìyì) means 'meaningful' and is the opposite of 没意思 (méi yìsi, meaningless). Note that 意思 (yìsi, meaning/idea) and 意义 (yìyì, significance) are related but 意义 carries greater philosophical weight."},
+
+{type:"teach", trg:"回忆(huíyì)", src:"memory / recollection", pos:"noun", gender:null,
+ note:"回 = return, 忆 = remember.\nThe act of returning to a past memory. Can also be a verb: to recall.",
+ example:"A: 这(zhè)段(duàn)经历(jīnglì)对(duì)你(nǐ)有(yǒu)什么(shénme)意义(yìyì)？\nB: 这(zhè)是(shì)我(wǒ)心(xīn)中(zhōng)最(zuì)重要(zhòngyào)的(de)回忆(huíyì)。",
+ exampleSrc:"A: What significance does this experience hold for you?\nB: This is the most important memory in my heart.",
+ funFact:"The verb 回忆 takes the meaning 'to look back' quite literally. 回 means 'to return,' so 回忆 is like mentally traveling back in time. The noun form means a memory or recollection. Compare 记忆(jìyì), which refers to memory as a cognitive ability or faculty."},
+
+{type:"teach", trg:"情感(qínggǎn)", src:"emotion (formal) / sentiment", pos:"noun", gender:null,
+ note:"情 = emotion/feeling, 感 = sense/feeling.\nA formal register word for emotion; more literary than 感觉(gǎnjué).",
+ example:"A: 写(xiě)作(zuò)能(néng)帮助(bāngzhù)你(nǐ)表达(biǎodá)复杂(fùzá)的(de)情感(qínggǎn)。\nB: 是(shì)的(de)，有些(yǒuxiē)情感(qínggǎn)很难(hěn nán)用(yòng)语言(yǔyán)说(shuō)清楚(qīngchǔ)。",
+ exampleSrc:"A: Writing can help you express complex emotions.\nB: Yes, some emotions are hard to put into words.",
+ funFact:"情感 appears in formal writing, psychology, and literature. In everyday speech, Chinese people more often say 感情(gǎnqíng, affection/feelings between people) for interpersonal feelings, or 心情(xīnqíng, mood) for current emotional state. 情感 is the most literary and abstract of the three."},
+
+{type:"teach", trg:"难忘(nánwàng)", src:"unforgettable", pos:"adj", gender:null,
+ note:"难 = difficult, 忘 = to forget.\nLiterally: difficult to forget. Used before or after a noun.",
+ example:"A: 那(nà)次(cì)旅行(lǚxíng)真(zhēn)的(de)很(hěn)难忘(nánwàng)。\nB: 是(shì)的(de)，这(zhè)段(duàn)经历(jīnglì)很(hěn)有(yǒu)意义(yìyì)，很(hěn)难忘(nánwàng)。",
+ exampleSrc:"A: That trip was truly unforgettable.\nB: Yes, this experience is very meaningful and hard to forget.",
+ funFact:"难忘 follows a productive Chinese pattern: 难 + verb = hard to do that action. So 难懂(nán dǒng) = hard to understand, 难学(nán xué) = hard to learn, 难忘(nánwàng) = hard to forget (unforgettable). This pattern lets you build new adjectives by combining 难 with any verb."},
+
+{type:"teach", trg:"感动(gǎndòng)", src:"to be moved (emotionally) / touching", pos:"verb", gender:null,
+ note:"感 = feel/sense, 动 = move.\nTo be emotionally moved by something. Can be used as adj: very touching.",
+ example:"A: 他(tā)的(de)故事(gùshi)让(ràng)我(wǒ)非常(fēicháng)感动(gǎndòng)。\nB: 真(zhēn)正(zhèng)的(de)情感(qínggǎn)最(zuì)容易(róngyì)让(ràng)人(rén)感动(gǎndòng)。",
+ exampleSrc:"A: His story moved me deeply.\nB: Genuine emotion is what most easily moves people.",
+ funFact:"感动 can be both a verb (to move someone emotionally) and an adjective (touching/moving). 感动了我 means 'moved me.' 很感动 means 'very touched.' In Chinese culture, being openly moved (感动) is seen as a mark of depth and empathy, not weakness."},
+
+{type:"teach", trg:"价值观(jiàzhíguān)", src:"value system / personal values", pos:"noun", gender:null,
+ note:"价值(jiàzhí) = value + 观(guān) = outlook/view.\nExtended from 价值(jiàzhí) taught earlier. Refers to one's philosophical outlook on what matters.",
+ example:"A: 你(nǐ)的(de)价值观(jiàzhíguān)是(shì)什么(shénme)？\nB: 我(wǒ)的(de)价值观(jiàzhíguān)受(shòu)了(le)家人(jiārén)很(hěn)大(dà)的(de)影响(yǐngxiǎng)。",
+ exampleSrc:"A: What are your values?\nB: My values were greatly influenced by my family.",
+ funFact:"In Chinese, 观 (outlook/view) is added to abstract nouns to form worldview compounds: 世界观(shìjièguān) = worldview, 人生观(rénshēngguān) = life outlook, 价值观(jiàzhíguān) = value system. This productive suffix turns a noun into a philosophical 'lens.' It is central vocabulary for HSK 5-6 autobiographical and opinion writing."},
+
+{type:"teach", trg:"塑造(sùzào)", src:"to shape / to mold (metaphorically)", pos:"verb", gender:null,
+ note:"塑 = sculpt/shape, 造 = create/build.\nLiterally: to sculpt and create. Used metaphorically for forming character or identity.",
+ example:"A: 是(shì)什么(shénme)经历(jīnglì)塑造(sùzào)了(le)你(nǐ)？\nB: 难忘(nánwàng)的(de)回忆(huíyì)和(hé)真(zhēn)实(shí)的(de)情感(qínggǎn)塑造(sùzào)了(le)我(wǒ)的(de)价值观(jiàzhíguān)。",
+ exampleSrc:"A: What experiences shaped you?\nB: Unforgettable memories and genuine emotions shaped my values.",
+ funFact:"塑造 literally refers to sculpting or modeling clay. Its metaphorical use (shaping character, identity, culture) became standard in modern Chinese. The related noun 塑造力(sùzàolì) means 'shaping power.' You will also see 塑造形象(sùzào xíngxiàng), to construct an image or persona."},
+
+{type:"tip", title:"Writing Personal Reflection in Chinese",
+ text:"HSK 5-6 writing tasks often ask you to reflect on formative experiences. Three key patterns:\n\n1. Stating significance:\n对(duì)我(wǒ)来说(láishuō)，这(zhè)段(duàn)经历(jīnglì)非常(fēicháng)有(yǒu)意义(yìyì)。\n(For me, this experience is very meaningful.)\n\n2. Expressing emotional impact:\n这(zhè)件(jiàn)事(shì)让(ràng)我(wǒ)深深地(shēn shēn de)感动(gǎndòng)。\n(This thing moved me deeply.)\n\n3. Connecting memory to values:\n那(nà)段(duàn)难忘(nánwàng)的(de)回忆(huíyì)塑造(sùzào)了(le)我(wǒ)的(de)价值观(jiàzhíguān)。\n(That unforgettable memory shaped my values.)",
+ deepDive:{title:"Emotional Vocabulary Register in Chinese",
+  text:"Chinese has a rich hierarchy of emotion words:\n\nCasual: 开心(kāixīn) happy, 难过(nánguò) sad, 生气(shēngqì) angry\nFormal: 喜悦(xǐyuè) joy, 悲伤(bēishāng) grief, 愤怒(fènnù) rage\nLiterary: 情感(qínggǎn) emotion, 感慨(gǎnkǎi) sigh with emotion, 触动(chùdòng) touch the heart\n\nFor autobiographical writing and personal essays, the formal and literary registers signal maturity. Mixing registers (casual conversation + literary reflection) is natural in Chinese personal writing and does not sound inconsistent."}},
+
+{type:"mc", q:"Which word means 'difficult to forget'?",
+ opts:["难忘(nánwàng)","回忆(huíyì)","感动(gǎndòng)","塑造(sùzào)"],
+ ans:"难忘(nánwàng)",
+ hint:"Break down the characters: 难 means 'difficult' and 忘 means 'to forget.'"},
+
+{type:"mc", q:"写(xiě)作(zuò)能(néng)帮助(bāngzhù)你(nǐ)表达(biǎodá)复杂(fùzá)的(de)___。 Which word completes the sentence?",
+ opts:["情感(qínggǎn)","价值观(jiàzhíguān)","意义(yìyì)","塑造(sùzào)"],
+ ans:"情感(qínggǎn)",
+ hint:"The sentence means 'Writing can help you express complex ___.' Which word refers to emotions or sentiments in an elevated register?"},
+
+{type:"fb", s:"那(nà)段(duàn){1}的(de)经历(jīnglì)对(duì)我(wǒ)来说(láishuō)很(hěn)有(yǒu)意义(yìyì)。",
+ a:["难忘(nánwàng)"],
+ opts:["难忘(nánwàng)","情感(qínggǎn)","塑造(sùzào)","回忆(huíyì)"],
+ hint:"Which adjective means 'unforgettable'? The 难 + verb pattern means 'hard to do.'",
+ sSrc:"That {1} experience is very meaningful to me."},
+
+{type:"fb", s:"是(shì)什么(shénme)经历(jīnglì){1}了(le)你(nǐ)的(de)价值观(jiàzhíguān)？",
+ a:["塑造(sùzào)"],
+ opts:["塑造(sùzào)","感动(gǎndòng)","回忆(huíyì)","情感(qínggǎn)"],
+ hint:"Which verb means 'to shape or mold'? Think of sculpting something from clay.",
+ sSrc:"What experiences {1} your value system?"},
+
+{type:"match", pairs:[
+  {trg:"意义(yìyì)", src:"meaning/significance"},
+  {trg:"回忆(huíyì)", src:"memory/recollection"},
+  {trg:"难忘(nánwàng)", src:"unforgettable"},
+  {trg:"感动(gǎndòng)", src:"to be moved emotionally"},
+  {trg:"价值观(jiàzhíguān)", src:"value system/personal values"},
+  {trg:"塑造(sùzào)", src:"to shape/mold"}
+]},
+
+{type:"fb", s:"他(tā)的(de)故事(gùshi)让(ràng)我(wǒ)非常(fēicháng){1}。",
+ a:["感动(gǎndòng)"],
+ opts:["感动(gǎndòng)","难忘(nánwàng)","塑造(sùzào)","意义(yìyì)"],
+ hint:"Which word means 'to be moved emotionally'? His story triggered this feeling in me.",
+ sSrc:"His story {1} me deeply."},
+
+{type:"mc", q:"价值观(jiàzhíguān) extends which word taught in Lesson 1 of this unit?",
+ opts:["价值(jiàzhí)","哲学(zhéxué)","道(dào)","智慧(zhìhuì)"],
+ ans:"价值(jiàzhí)",
+ hint:"The suffix 观(guān) meaning 'outlook' is added to a word meaning 'value' that you already learned."}
+]}
+
 ]};
 
 export default UNIT_30;
