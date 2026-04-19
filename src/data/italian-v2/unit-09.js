@@ -384,7 +384,7 @@ const UNIT_09 = {
 
       {type:"fb",
        opts:["prendere","fare","mettere","avere"],
-       hint:"'Prendere un appuntamento' is the standard Italian phrase. Which verb fills the gap?",
+       hint:"The verb for 'to take' in Italian is used in this collocation with appointments. Which verb fills the gap?",
        s:"Devo {1} un appuntamento dal dentista.",
        a:"prendere",
        sSrc:"I need to {1} an appointment with the dentist."},
@@ -392,7 +392,7 @@ const UNIT_09 = {
       {type:"mc", q:"'Vorrei fissare un appuntamento' is the polite way because:",
        opts:["'Vorrei' is past tense","'Vorrei' is conditional and sounds more courteous than 'voglio'","'Vorrei' is plural","'Fissare' means urgent"],
        ans:"'Vorrei' is conditional and sounds more courteous than 'voglio'",
-       hint:"In Italian, the conditional form is used to soften requests and show politeness."},
+       hint:"The -ei ending softens requests and is the standard Italian politeness marker in service interactions."},
 
       {type:"match", pairs:[
        {trg:"prendere un appuntamento", src:"to make an appointment"},

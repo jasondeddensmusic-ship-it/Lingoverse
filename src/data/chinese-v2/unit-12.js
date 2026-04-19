@@ -351,7 +351,7 @@ lessons:[
 {type:"mc", q:"火车站(huǒchēzhàn) is made of which three parts?",
  opts:["fire + car + stop","fly + machine + place","fire + machine + road","fire + iron + station"],
  ans:"fire + car + stop",
- hint:"You already know 火 (fire) and 车 (vehicle). 站 is the word for a stop or platform."},
+ hint:"You already know 火 and 车. 站 is the word for the platform or terminal."},
 
 {type:"match", pairs:[
   {trg:"火车站(huǒchēzhàn)", src:"train station"},
@@ -369,7 +369,7 @@ lessons:[
 {type:"mc", q:"那个房子(fángzi)很大。 What is being described?",
  opts:["The family is large","A room inside is large","The physical building is large","The home feels warm and big"],
  ans:"The physical building is large",
- hint:"房子 refers to the building structure, not the family or emotional home concept."},
+ hint:"房子 refers to a structure made of walls and a roof, not the family inside it."},
 
 {type:"fb", s:"火车站(huǒchēzhàn)离(lí)这(zhè)里(lǐ)很(hěn){1}，走(zǒu)路(lù)五(wǔ)分钟(fēnzhōng)就(jiù)到(dào)了(le)。",
  a:["近(jìn)"],

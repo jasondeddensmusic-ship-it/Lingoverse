@@ -508,7 +508,7 @@ lessons:[
 {type:"mc", q:"你有时间吗？ What is this question asking?",
  opts:["What time is it?","Are you on time?","Do you have free time?","How long does it take?"],
  ans:"Do you have free time?",
- hint:"时间 here means 'free time' or 'availability.' 有时间 = to be free, 没时间 = too busy."},
+ hint:"有 + this word = to be unoccupied. 没有 + this word = too occupied to help. The question asks about availability."},
 
 {type:"fb", s:"她(tā)每(měi)天(tiān){1}六(liù)点(diǎn)跑步(pǎobù)。",
  a:["早上(zǎoshang)"],
@@ -524,7 +524,7 @@ lessons:[
 {type:"fb", s:"我(wǒ)对(duì)不(bu)起(qǐ)，我(wǒ)没有(méiyǒu){1}。",
  a:["时间(shíjiān)"],
  opts:["时间(shíjiān)","晚上(wǎnshang)","早上(zǎoshang)","从(cóng)"],
- hint:"The speaker is apologizing because they are too busy. Which word means 'free time'?",
+ hint:"The speaker is apologizing for being unavailable. Which noun pairs with 有 to mean being unoccupied and with 没有 to mean being too busy?",
  sSrc:"Sorry, I do not have {1}."},
 
 {type:"match", pairs:[

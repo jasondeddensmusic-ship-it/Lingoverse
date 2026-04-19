@@ -400,7 +400,7 @@ lessons:[
 {type:"mc", q:"我可以进来吗？ What is the speaker asking for?",
  opts:["Asking if they are able to enter","Asking if they know the way in","Asking permission to enter","Asking when to enter"],
  ans:"Asking permission to enter",
- hint:"可以 specifically expresses permission — checking whether someone allows an action."},
+ hint:"可以 specifically asks whether an action is allowed by social rules or authority."},
 
 {type:"fb", s:"课(kè){1}了(le)，同学们(tóngxuémen)可以(kěyǐ)走(zǒu)了(le)。",
  a:["结束(jiéshù)"],

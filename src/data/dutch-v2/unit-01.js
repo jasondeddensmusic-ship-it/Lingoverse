@@ -277,7 +277,9 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"mc",q:"'Dat klopt' is used when:",opts:["Something sounds good","Something is correct","Something is a good choice","Something is funny"],ans:"Something is correct",hint:"From accounting: books that 'tally'"},
         {type:"fb",opts:["keuze","punt","geweldig","aardig"],hint:"Confirming a good decision",s:"Koffie? Dat is een goede ___!",a:"keuze"},
         {type:"mc",q:"'Je bent heel aardig' means:",opts:["You are very fast","You are very nice","You are very busy","You are very tall"],ans:"You are very nice",hint:"Aardig = n..."},
-        {type:"match",pairs:[{trg:"geweldig",src:"great/awesome"},{trg:"aardig",src:"nice/kind"},{trg:"snel",src:"fast/quickly"},{trg:"het punt",src:"the point"}]},
-        {type:"fb",opts:["geweldig","aardig","snel","klopt"],hint:"Strong approval: better than 'leuk'",s:"Je spreekt heel goed Nederlands! Dat is ___!",a:"geweldig"}
+        {type:"match",pairs:[{trg:"geweldig",src:"great/awesome"},{trg:"aardig",src:"nice/kind"},{trg:"snel",src:"fast/quickly"},{trg:"het punt",src:"the point"},{trg:"klinken",src:"to sound (auditory)"},{trg:"kloppen",src:"to be correct / to knock"}]},
+        {type:"fb",opts:["geweldig","aardig","snel","klopt"],hint:"Strong approval: better than 'leuk'",s:"Je spreekt heel goed Nederlands! Dat is ___!",a:"geweldig"},
+        {type:"fb",opts:["klinkt","is","wordt","heeft"],hint:"Use the verb for auditory impression: 'that ___ fun'. Third-person singular form.",s:"Zullen we morgen fietsen? Dat ___ leuk!",a:"klinkt"},
+        {type:"fb",opts:["klopt","werkt","past","gaat"],hint:"Used to confirm a fact. From the accounting verb meaning the books tally.",s:"Jij bent student, toch? Ja, dat ___!",a:"klopt"}
   ]}
 ]};

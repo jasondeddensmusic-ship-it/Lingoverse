@@ -448,7 +448,7 @@ lessons:[
 {type:"mc", q:"她(tā)正在(zhèngzài)笑(xiào)着(zhe)。 What is she doing?",
  opts:["She is crying","She is singing","She is smiling right now","She is dancing"],
  ans:"She is smiling right now",
- hint:"正在 marks an action happening now. 着 marks a sustained state. Together they show an ongoing smiling expression."},
+ hint:"正在 marks an action happening now. 着 marks a sustained state. Together they show an ongoing facial expression of amusement."},
 
 {type:"fb", s:"这(zhè)个(gè)笑话(xiàohua)很(hěn){1}，我(wǒ)一(yī)直(zhí)在(zài)笑(xiào)。",
  a:["好笑(hǎoxiào)"],
@@ -459,7 +459,7 @@ lessons:[
 {type:"mc", q:"哭 combines which elements?",
  opts:["Eye + water","Two mouths + dog (representing crying sounds)","Heart + eye","Mouth + tear"],
  ans:"Two mouths + dog (representing crying sounds)",
- hint:"The character encodes both the sound of crying (through the two 口 components) and an ancient reference to vocal grief."},
+ hint:"The character encodes both the sound (through the two 口 components) and an ancient reference to vocal grief."},
 
 {type:"match", pairs:[
   {trg:"笑(xiào)", src:"to laugh"},
