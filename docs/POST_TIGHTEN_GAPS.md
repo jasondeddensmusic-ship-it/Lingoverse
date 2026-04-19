@@ -55,6 +55,30 @@ German: 0. French: 1 (pre-existing). Chinese: 5 (pre-existing).
 - KO ㅎ-irregular (어떻다→어때요, 그렇다→그래요): requires full morphological
   analyzer. The `어때요` flags are likely genuine content gaps in any case.
 
+### Update 2026-04-19 (end of session) — Current state
+
+After continued content work (PP58-F14, PP58-F15) and whitelist refinement, the
+final violation counts with `--include-batch` flag are:
+
+| Language | After morphology fix | End of session | Notes |
+|----------|---------------------|----------------|-------|
+| Japanese (ja) | 177 | **0** | further whitelist tightening + tokenizer refinements |
+| Korean (ko)   | 850 | **61** | additional morphology matching + batch-file content edits |
+| Dutch (nl)    | 1306 | **198** | see NL-specific section below |
+
+Japanese `--include-batch` now at 0 violations — the combined improvements
+(`jaPreprocessExample`, `jaExpandForms`, plus ongoing whitelist entries) have
+fully resolved the A1-A2 scaffolding issues. Further gaps would be genuine
+content problems that should be addressed by rewriting example sentences.
+
+Korean `--include-batch` at 61: nearly all are in `_temp_*` gap-patch files
+(담배/잠깐/단어/볼펜/비디오/쓰레기/회장/확대하다/포함하다/혀/etc.) where the example
+uses an untaught inflection form. These are listed below as candidates for a
+future content-polish round — they don't block any validator and the core
+unit files are clean.
+
+Without `--include-batch` flag, all 10 languages report **0** PP63 violations.
+
 ---
 
 ---
