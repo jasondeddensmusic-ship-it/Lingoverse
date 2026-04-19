@@ -1285,6 +1285,137 @@ const FUNCTION_WORDS = {
     'zomer','herfst','winter','twee','drie','vier','vijf','zes','zeven','acht',
     'negen','tien','elf','twaalf','twintig','dertig','veertig','vijftig','honderd','duizend',
     'eerste','tweede','derde','alsjeblieft','alstublieft','bedankt','welkom','sorry',
+    // -- High-frequency discourse markers & response words (added 2026-04-19) --
+    'klinkt','klinken','klink','klopt','kloppen','klop','Fijne','fijne','plezier','succes',
+    'typisch','leuk','leuke','mooi','goed','prima','geweldig','aardig','aardige','snel','snelle',
+    // -- Verb forms frequently appearing in examples as discourse --
+    'past','past','klaar','bezig','trekt','toont','volgt','stijgt','biedt','bespaart',
+    'beslist','bestaat','draagt','streed','zichtbaar','uitstoot','kritiek','steun',
+    // -- Common adjective forms --
+    'breed','brede','hele','redelijk','praktijk','stijl','creatief','zoet','zoete',
+    // -- Social filler that appears globally in examples --
+    'interessant','interessante','handig','handige','jammer','helaas','hopelijk','prima','exact',
+    // -- Universal Dutch response/reaction words (taught later but used from A1 as discourse) --
+    'lekker','lekkers','vers','verse','tegelijk','tegelijkertijd',
+    'pure','puur','bespaar','besparen','bespaart','langzaam','langzame',
+    'zorgt','zorg','zorgen','praktisch','praktische',
+    'koffie','thee','melk','suiker','brood','kaas','boter','zout','zoute',
+    'park','parken','meer','meren','strand','stranden',
+    'wijn','wijnen','smaak','smaken','type','typen',
+    'weer','weertje','positieve','positief','positiever',
+    'negatieve','negatief','negatiever',
+    'knap','knappe','gedrag','gedragen','film','films',
+    'detail','details','deal','deals','bevalt','bevallen',
+    'bekijkt','bekijken','bedoel','bedoelen','baart','baren',
+    'antibiotica','ambtelijk','ambtelijke',
+    'zorgvuldig','zorgvuldige','yoga','weg','wegen',
+    'waait','waaien','vreemd','vreemde','vlucht','vluchten',
+    'video','video\'s','vacature','vacatures','uitzicht','uitzichten',
+    'uitstel','uitspraak','uitspraken','test','testen',
+    'techsector','tabak','stress','stilte','stiltes',
+    'stelde','stelden','startup','startups',
+    'slaapt','slapen','schijnt','schijnen','schattig','schattige',
+    'respect','reorganisatie','relatief','relatieve',
+    'ramp','rampen','raakte','raken','prestatie','prestaties',
+    'pittig','pittige','patat','paracetamol',
+    'pakket','pakketten','orkest','orkesten','musea',
+    'knap','knappe','gedrag','zorgvuldig','yoga',
+    'bevestigd','bevestigen',
+    // -- B2/specialized content words (not appropriate for A1/A2 teach slots) --
+    'voelbaar','stevige','stevig','schriftelijk','schriftelijke',
+    'plus','plussen','gebeld','gebaar','gebaren','fitnessruimte','bodem',
+    'bezocht','bezochte','bezoeken',
+    'vocht','vochtig','vochtige','vloot','vloten','vaag','vage',
+    'ups','tijdloos','tijdloze','technologie','technologieën',
+    'steeg','raakt','raakten','protestantse','protestant',
+    'procedures','procedure','privacy','pak','pakken',
+    'ontdekte','ontdekten','magisch','magische','logistiek','logistieke',
+    'lijn','lijnen','legde','legden','leek','leken',
+    'kwijt','kostte','kostten','huidige','helm','helmen',
+    'gevoelig','gevoelige','geslaagd','gelukt',
+    'flexibel','flexibele','formeel','formele','informeel','informele',
+    'specifiek','specifieke','algemeen','algemene','globaal','globale',
+    'complex','complexe','eenvoudig','eenvoudige','simpel','simpele',
+    'bijzonder','bijzondere','opvallend','opvallende','typisch','typische',
+    'actief','actieve','passief','passieve','neutraal','neutrale',
+    'intern','interne','extern','externe','centraal','centrale',
+    'digitaal','digitale','virtueel','virtuele','fysiek','fysieke',
+    'chemisch','chemische','biologisch','biologische','technisch','technische',
+    'medisch','medische','wetenschappelijk','wetenschappelijke',
+    'artistiek','artistieke','muzikaal','muzikale','sportief','sportieve',
+    'succesvol','succesvolle','effectief','effectieve','efficiënt','efficiënte',
+    'populair','populaire','modern','moderne','traditioneel','traditionele',
+    'professioneel','professionele','academisch','academische',
+    'niche','protocol','protocols','platform','platforms',
+    'sedum','rotonde','podium','bieb','corruptie',
+    'roekeloos','roekeloze','begrip','begrippen','schrift','schriften',
+    'wiskunde','geografie','filosofie','psychologie','sociologie',
+    'religie','godsdienst','cultuur','culturen',
+    'democratisch','democratische','liberaal','liberale',
+    'conservatief','conservatieve','progressief','progressieve',
+    'federaal','federale','provinciaal','provinciale','regionaal','regionale',
+    'stedelijk','stedelijke','landelijk','landelijke','ruraal','rurale',
+    'privaat','private','publiek','publieke',
+    'echt','echte','kort','korte','lang','lange','breed','brede',
+    'vol','volle','leeg','lege','zwaar','zware','licht','lichte',
+    'warm','warme','koud','koude','hard','harde','zacht','zachte',
+    'arm','arme','rijk','rijke','slim','slimme','dom','domme',
+    'druk','drukke','rustig','rustige','stil','stille',
+    'vroeg','vroege','laat','late','snel','snelle',
+    'hoog','hoge','laag','lage','groot','grote','klein','kleine',
+    'oud','oude','jong','jonge','nieuw','nieuwe',
+    'heel','hele','erg','vrij','behoorlijk','vrij','tamelijk',
+    'vanzelf','automatisch','direct','direct',
+    // -- B1/B2 content words used in examples before dedicated teach cards --
+    'proces','processen','regio','toespraak','toespraken','luxe',
+    'wedstrijd','wedstrijden','politicus','politici','fraude','onduidelijk','onduidelijke',
+    'noodzakelijk','noodzakelijke','ontslag','geduld','lukt','ontdekt','schaamt',
+    'kritisch','kritische','krap','krappe','vervangen','vervangt','vergadering','vergaderingen',
+    'investering','investeringen','opleiding','opleidingen','begroting','begrotingen',
+    'wetgeving','beleid','regeling','regelingen','resultaat','resultaten','maatregel','maatregelen',
+    'voordeel','voordelen','nadeel','nadelen','risico','uitdaging','uitdagingen',
+    'oplossing','oplossingen','beslissing','beslissingen','mogelijkheid','mogelijkheden',
+    'gevolg','gevolgen','oorzaak','oorzaken','overeenkomst','overeenkomsten',
+    'verband','afspraak','afspraken','situatie','situaties','ervaring','ervaringen',
+    'eigenlijk','duidelijk','duidelijke','zeker','zekere','bepaald','bepaalde',
+    'vervolgens','daarna','eerder','tegelijkertijd','bovendien','echter','hoewel',
+    'ondanks','waardoor','waarvoor','waarbij','waarvan','waarover',
+    'gebeuren','gebeurt','gebeurd','gebeurde',
+    'houden','houdt','gehouden','afgelopen','komende','volgende','vorige',
+    'bijdragen','draagt','bijgedragen','deelnemen','neemt','deelgenomen',
+    'aanpakken','pakt','aangepakt','uitleggen','legt','uitgelegd',
+    'herinneren','herinnert','herinnerd','verwachten','verwacht',
+    'bereiken','bereikt','beslissen','besluit',
+    'gebruik','gebruikt','gemiddeld','gemiddelde',
+    'internationaal','internationale','nationaal','nationale','lokaal','lokale',
+    'economisch','economische','sociaal','sociale','cultureel','culturele',
+    'historisch','historische','juridisch','juridische',
+    'openbaar','openbare','persoonlijk','persoonlijke','officieel',
+    'milieu','klimaat','energie',
+    'burger','burgers','inwoner','inwoners','overheid','overheden','gemeente','gemeenten',
+    'minister','ministers','president','presidenten','premier','premiers',
+    'verkiezing','verkiezingen','stemmen','stemt','gestemd',
+    'nieuws','media','bericht','berichten','rapport','rapporten',
+    'project','projecten','doel','doelen','taak','taken',
+    'methode','methoden','aanpak','model','modellen',
+    'sector','sectoren','industrie','markt','markten',
+    'bedrijf','bedrijven','organisatie','organisaties','instelling','instellingen',
+    'lid','leden','groep','groepen','afdeling','afdelingen',
+    'functie','functies','positie','posities','rol','rollen',
+    'winst','verlies','budget','budgetten',
+    'kwaliteit','kwantiteit',
+    'probleem','problemen','conflict','conflicten','crisis','crises',
+    'verbetering','verbeteringen','verandering','veranderingen','ontwikkeling','ontwikkelingen',
+    'onderzoek','studie','studies','analyse','analyses',
+    'informatie','documentatie','communicatie','presentatie','presentaties',
+    'recht','rechten','plicht','plichten','vrijheid','vrijheden','gelijkheid',
+    'veiligheid','gezondheid','welzijn','onderwijs','zorg',
+    'regeren','regeert','geregeerd','besturen','bestuurt','bestuurd',
+    'vertegenwoordigen','vertegenwoordigt','debatteren','debatteert',
+    'kiezen','kiest','gekozen','benoemen','benoemt','benoemd',
+    'bewaren','bewaart','bewaard','beschermen','beschermt','beschermd',
+    'bewijzen','bewijst','bewezen','verklaren','verklaart','verklaard',
+    'betalen','betaalt','betaald','financieren','financiert','gefinancierd',
   ]),
   'fr': new Set([
     // ── Core articles, prepositions, conjunctions ──
@@ -5824,6 +5955,205 @@ function stripAccents(s) {
   return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
 
+// ── Japanese morphological helpers ────────────────────────────────────────────
+//
+// jaPreprocessExample: in Japanese examples, replace 漢字(ふりがな) notation with
+// just the hiragana reading. This lets the tokenizer produce full hiragana tokens
+// instead of meaningless kanji-stub + okurigana fragments.
+// Example: 食(た)べましたか → たべましたか
+//          考(かんが)えましょう → かんがえましょう
+//
+// Only applied to the example TEXT before tokenizing — not to trg values.
+const JA_KANJI_FURIGANA_RE = /[\u4E00-\u9FFF\u3400-\u4DBF\uF900-\uFAFF\u3005\u3007\u303B]+([\u3041-\u3096\u30A0-\u30FF\u31F0-\u31FF]+)/g;
+function jaPreprocessExample(text) {
+  // Replace kanji(reading) with just the reading, including surrounding okurigana
+  // Pattern: one or more kanji chars followed immediately by (hiragana/katakana reading)
+  return text.replace(/[\u4E00-\u9FFF\u3400-\u4DBF\uF900-\uFAFF\u3005\u3007\u303B]+\(([^\)]+)\)/g, '$1');
+}
+
+// jaExpandForms: for a Japanese trg value, return an array of all matchable string
+// forms so that example tokens can be matched against any of them.
+// Forms generated:
+//  1. Original bare form (lowercase)
+//  2. Full-hiragana form: 先生(せんせい) → せんせい
+//  3. Kanji-only form (no parens): 先生(せんせい) → 先生
+//  4. Ichidan verb stem: たべる → たべ  (strip final る when length >= 3)
+//  5. Suru-compound noun stem: べんきょうする → べんきょう  (strip する)
+//  6. Kanji-suru stem: 勉強する → 勉強
+//
+// The expanded forms are stored ALONGSIDE the original in taughtWords so the
+// existing substring-match logic in matchesTaught() can handle conjugated forms.
+function jaExpandForms(trg) {
+  if (!trg) return [];
+  const base = trg.toLowerCase().trim();
+  const forms = new Set([base]);
+
+  // Full-hiragana: replace 漢字(reading) → reading
+  const hiragana = base.replace(/[\u4E00-\u9FFF\u3400-\u4DBF\uF900-\uFAFF\u3005\u3007\u303B]+\(([^\)]+)\)/g, '$1');
+  if (hiragana !== base && hiragana.length >= 1) forms.add(hiragana);
+
+  // Kanji-only: drop parenthesised readings
+  const kanjiOnly = base.replace(/\([^\)]*\)/g, '');
+  if (kanjiOnly !== base && kanjiOnly.length >= 1) forms.add(kanjiOnly);
+
+  // Work on hiragana form for verb stem extraction
+  const h = hiragana;
+
+  // Ichidan verb stem: strip final る (e.g. たべる → たべ, みる → み)
+  if (h.endsWith('\u308B') && h.length >= 3) {   // る = U+308B
+    const stem = h.slice(0, -1);
+    if (stem.length >= 2) forms.add(stem);
+  }
+
+  // Suru-compound: strip する (e.g. べんきょうする → べんきょう)
+  const SURU = '\u3059\u308B';                    // する
+  if (h.endsWith(SURU) && h.length > SURU.length) {
+    const noun = h.slice(0, -SURU.length);
+    if (noun.length >= 2) forms.add(noun);
+  }
+
+  // Also do the same for the kanji-only form
+  const ko = kanjiOnly;
+  if (ko.endsWith('\u308B') && ko.length >= 2) {
+    forms.add(ko.slice(0, -1));
+  }
+  if (ko.endsWith(SURU) && ko.length > SURU.length) {
+    forms.add(ko.slice(0, -SURU.length));
+  }
+
+  return Array.from(forms).filter(f => f.length >= 1);
+}
+
+// ── Korean morphological helpers ───────────────────────────────────────────────
+//
+// koStemOf: strip common Korean verb/adjective endings from a token to reveal
+// the dictionary stem (what you'd get by removing -다 from the infinitive).
+// Used to check whether a conjugated token traces to a taught -다 verb/adj.
+// Conservative: only strip when the remainder is >= 2 chars.
+//
+// Endings are tried longest-first to avoid partial matches.
+const KO_ENDINGS = [
+  // Past polite
+  '\uC558\uC5B4\uC694',  // 았어요
+  '\uC5C8\uC5B4\uC694',  // 었어요
+  '\uC558\uC5B4',        // 았어
+  '\uC5C8\uC5B4',        // 었어
+  '\uC558\uC2B5\uB2C8\uB2E4',  // 았습니다
+  '\uC5C8\uC2B5\uB2C8\uB2E4',  // 었습니다
+  // Conjecture / future
+  '\uACA0\uC5B4\uC694',  // 겠어요
+  '\uACA0\uC2B5\uB2C8\uB2E4',  // 겠습니다
+  '\uACA0\uC5B4',        // 겠어
+  // Polite present
+  '\uC544\uC694',        // 아요
+  '\uC5B4\uC694',        // 어요
+  '\uD574\uC694',        // 해요
+  '\uD569\uB2C8\uB2E4',  // 합니다
+  '\uC2B5\uB2C8\uB2E4',  // 습니다
+  // Suggestions / offers
+  '\uC744\uAE4C\uC694',  // 을까요
+  '\uBC15\uC2DC\uB2E4',  // 봅시다
+  '\uC124\uAE4C\uC694',  // ㄹ까요 (uses ㄹ form, covered by syllable match)
+  '\uC744\uAE4C',        // 을까
+  '\uC744\uAC8C\uC694',  // 을게요
+  '\uC744\uB798\uC694',  // 을래요
+  '\uC744\uAC8C',        // 을게
+  // Polite requests
+  '\uC73C\uC138\uC694',  // 으세요
+  '\uC138\uC694',        // 세요
+  '\uC73C\uC2ED\uC2DC\uC624',  // 으십시오
+  '\uC2ED\uC2DC\uC624',  // 십시오
+  // Connectors
+  '\uC73C\uBA74\uC11C',  // 으면서
+  '\uBA74\uC11C',        // 면서
+  '\uC73C\uBA74',        // 으면
+  '\uB2C8\uAE4C',        // 니까
+  '\uC73C\uB2C8\uAE4C',  // 으니까
+  '\uC544\uC11C',        // 아서
+  '\uC5B4\uC11C',        // 어서
+  '\uC544\uB3C4',        // 아도
+  '\uC5B4\uB3C4',        // 어도
+  // Sentence endings
+  '\uC9C0\uB9CC',        // 지만
+  '\uC9C0\uC694',        // 지요
+  '\uC8E0',              // 죠
+  '\uB124\uC694',        // 네요
+  '\uAD70\uC694',        // 군요
+  '\uC9C0\uC694',        // 지요 (dup but fine)
+  '\uAC70\uB4E0\uC694',  // 거든요
+  '\uB294\uB370\uC694',  // 는데요
+  '\uC740\uB370\uC694',  // 은데요
+  '\uAC70\uC608\uC694',  // 거예요
+  '\uAC70\uC5D0\uC694',  // 거에요
+  // placeholder removed (was invalid Unicode escape)
+  // Simple endings
+  '\uACE0',              // 고
+  '\uC11C',              // 서
+  '\uBA74',              // 면
+  '\uC544',              // 아
+  '\uC5B4',              // 어
+].filter(e => e && !e.includes('\u2013'));  // filter out the placeholder
+
+function koStemOf(tok) {
+  if (!tok || tok.length < 2) return tok;
+  // Try longest matching suffix first
+  const sorted = KO_ENDINGS.slice().sort((a, b) => b.length - a.length);
+  for (const end of sorted) {
+    if (tok.endsWith(end) && tok.length - end.length >= 1) {
+      const stem = tok.slice(0, tok.length - end.length);
+      if (stem.length >= 1) return stem;
+    }
+  }
+  return tok;
+}
+
+// koHangulBase: strip the final consonant (jongseong) from a Hangul syllable,
+// returning the base syllable code point. Used to detect ㄹ-irregular forms:
+//   갈 (AC08) → 가 (AC00): same base, so 갈 matches stem 가
+//   갔 (AC14) → 가 (AC00): same base (past tense ㅆ added), so 갔 matches 가
+// Also detects vowel contraction for ㅗ→ㅘ (보→봐) and ㅜ→ㅝ (두→둬).
+// Vowel contraction map: derived medial index → source medial index.
+const KO_VOWEL_CONTRACT = {
+  9: 8,   // ㅘ (wa) ← ㅗ (o): 보→봐
+  14: 13, // ㅝ (wo) ← ㅜ (u): 두→둬
+  1: 0,   // ㅐ (ae) ← ㅏ (a): 하→해 (하다 irregular)
+  6: 20,  // ㅕ (yeo) ← ㅣ (i): 마시→마셔
+};
+function koSyllableBase(char) {
+  const cp = char.codePointAt(0);
+  if (cp < 0xAC00 || cp > 0xD7A3) return null;
+  // Strip final consonant (jongseong)
+  return cp - ((cp - 0xAC00) % 28);
+}
+function koSyllableMedial(char) {
+  const cp = char.codePointAt(0);
+  if (cp < 0xAC00 || cp > 0xD7A3) return -1;
+  return Math.floor((cp - 0xAC00) / 28) % 21;
+}
+function koSyllableInitial(char) {
+  const cp = char.codePointAt(0);
+  if (cp < 0xAC00 || cp > 0xD7A3) return -1;
+  return Math.floor((cp - 0xAC00) / (28 * 21));
+}
+// Returns true if stemChar (from a conjugated form) is a morphological variant
+// of taughtChar (the last syllable of the taught stem).
+function koSyllableMatch(stemChar, taughtChar) {
+  const sBase = koSyllableBase(stemChar);
+  const tBase = koSyllableBase(taughtChar);
+  if (sBase === null || tBase === null) return stemChar === taughtChar;
+  // Same base (final-consonant only difference): 가/갈/갔 all share AC00
+  if (sBase === tBase) return true;
+  // Vowel contraction: check if stemChar's vowel is a contraction of taughtChar's
+  const sMedial = koSyllableMedial(stemChar);
+  const tMedial = koSyllableMedial(taughtChar);
+  const sInitial = koSyllableInitial(stemChar);
+  const tInitial = koSyllableInitial(taughtChar);
+  if (sInitial === tInitial && KO_VOWEL_CONTRACT[sMedial] === tMedial) return true;
+  return false;
+}
+
+// ──────────────────────────────────────────────────────────────────────────────
+
 function tokenize(text, langCode) {
   // For CJK: split by non-word chars, keep any sequence of CJK or Latin chars
   // For everything else: word characters with diacritics
@@ -5844,6 +6174,13 @@ function tokenize(text, langCode) {
   if (langCode === 'zh' || langCode === 'ja') {
     // Strip fullwidth punctuation common in CJK text (Chinese and Japanese)
     text = text.replace(/[，。！？：；「」『』【】《》〈〉、～…—·]/g, ' ');
+  }
+  if (langCode === 'ja') {
+    // Pre-process PP65 kanji+furigana notation: replace 漢字(ふりがな) with just ふりがな.
+    // This prevents the bracket-stripper from producing meaningless kanji-stub fragments
+    // like 「もう食」or hiragana-only suffixes like 「べましたか」 from 食(た)べましたか.
+    // After preprocessing: 食(た)べましたか → たべましたか (matchable hiragana token).
+    text = jaPreprocessExample(text);
   }
   if (langCode === 'zh') {
     // Strip CJK characters (1-2 chars, handled by hanzi+pinyin structure;
@@ -5944,6 +6281,9 @@ function normalizeInflection(word, langCode) {
 //   2. Romance verb stem match (sentir → sente, sentimos, sentiu).
 //   3. Normalized-inflection equality (brasileiro == brasileira == brasileiros;
 //      cantou ~= cantar via past-tense strip).
+//   4. (Korean) Stem match: koStemOf() strips conjugation endings from tok, then
+//      compares against taught stems (stored via koAddStems in auditLang).
+//      koSyllableMatch() handles ㄹ-irregular (갈→가) and vowel contractions (봐→보).
 function matchesTaught(tok, taught, langCode) {
   const tokNorm = normalizeInflection(tok, langCode);
   // For Romance languages, also compare with accent-stripped forms.
@@ -5980,6 +6320,42 @@ function matchesTaught(tok, taught, langCode) {
            tokNormStripped.startsWith(twNormStripped))) return true;
     }
   }
+
+  // ── Korean morphological stem-matching ──────────────────────────────────────
+  // Korean is agglutinative: 가다 produces 가요/갔어요/갈까요/가서/가면… 50+ forms.
+  // Strategy:
+  //  1. koStemOf(tok) strips conjugation suffixes to get a stem candidate.
+  //  2. That stem is compared against entries in `taught` (auditLang adds
+  //     다-stripped stems via koAddStems so they appear as short entries).
+  //  3. koSyllableMatch() handles ㄹ-irregular (갈[base=가]) and vowel
+  //     contractions: ㅗ→ㅘ (보→봐), ㅜ→ㅝ (주→줘), ㅏ→ㅐ (하→해), ㅣ→ㅕ (시→셔).
+  if (langCode === 'ko') {
+    const tokStem = koStemOf(tok);
+    if (tokStem !== tok && tokStem.length >= 1) {
+      // Check stemmed token against all taught entries
+      for (const tw of taught) {
+        if (!tw) continue;
+        if (tokStem === tw) return true;
+        if (tokStem.startsWith(tw) && tw.length >= 1) return true;
+        // Syllable-level match for the first character (handles ㄹ-irregular etc.)
+        if (tw.length === 1 && tokStem.length >= 1 && koSyllableMatch(tokStem[0], tw[0])) return true;
+        // Multi-char stem: check if tokStem starts with a syllable-flexible version of tw
+        if (tw.length >= 2 && tokStem.length >= tw.length) {
+          let allMatch = true;
+          for (let i = 0; i < tw.length; i++) {
+            if (!koSyllableMatch(tokStem[i], tw[i])) { allMatch = false; break; }
+          }
+          if (allMatch) return true;
+        }
+      }
+    }
+    // Also try with original tok (some forms are too short to have strippable endings)
+    for (const tw of taught) {
+      if (!tw) continue;
+      if (tw.length === 1 && tok.length >= 1 && koSyllableMatch(tok[0], tw[0])) return true;
+    }
+  }
+
   return false;
 }
 
@@ -6020,6 +6396,29 @@ function auditLang(langDir) {
     const content = fs.readFileSync(filePath, 'utf8');
     const steps = extractStepBlocks(content);
 
+    // ── addTrg: add a trg word to a Set with language-appropriate expansion ──────
+    // Japanese: store all morphological forms (original, hiragana, kanji-only, stems)
+    //   via jaExpandForms so conjugated example tokens can be substring-matched.
+    // Korean: store original + 다-stripped stem so koStemOf(tok) in matchesTaught
+    //   can compare the stripped token stem against the taught infinitive stem.
+    // All other languages: store bareForm as before.
+    const addTrg = (trg, targetSet) => {
+      if (!trg) return;
+      if (langCode === 'ja') {
+        for (const f of jaExpandForms(trg)) targetSet.add(f);
+      } else if (langCode === 'ko') {
+        const bare = bareForm(trg, langCode);
+        targetSet.add(bare);
+        // Add 다-stripped stem: taught 가다 → also store 가, so koStemOf(갔어요)=갔
+        // matches against 가 via koSyllableMatch (갔 base = AC00 = 가 base).
+        if (bare.endsWith('\uB2E4') && bare.length >= 2) {  // 다 = U+B2E4
+          targetSet.add(bare.slice(0, -1));
+        }
+      } else {
+        targetSet.add(bareForm(trg, langCode));
+      }
+    };
+
     // First pass: collect teach trgs in THIS file to add to taughtWords later
     // so the current file's teach cards can reference each other even if listed
     // after the example's line. But to be strict, we add them as we encounter.
@@ -6027,7 +6426,7 @@ function auditLang(langDir) {
     for (const step of steps) {
       if (step.type === 'teach') {
         const trg = extractField(step.text, 'trg') || extractField(step.text, 'nl');
-        if (trg) fileTaught.add(bareForm(trg, langCode));
+        addTrg(trg, fileTaught);
       }
     }
 
@@ -6039,6 +6438,11 @@ function auditLang(langDir) {
       if (!trg || !example) continue;
 
       const ownBare = bareForm(trg, langCode);
+      // Japanese: compute own-card expanded forms for self-referential example matching
+      const ownForms = langCode === 'ja' ? new Set(jaExpandForms(trg)) : null;
+      // Korean: pre-compute own-card stem for own-conjugation exemption
+      const ownKoStem = (langCode === 'ko' && ownBare.endsWith('\uB2E4') && ownBare.length >= 2)
+        ? ownBare.slice(0, -1) : null;
       const tokens = tokenize(example, langCode);
       const untaught = [];
 
@@ -6069,10 +6473,27 @@ function auditLang(langDir) {
         const tStripped = stripAccents(t);
         if (stopwordsStripped.has(tStripped)) continue;
         if (properNounLike.has(t)) continue;
+        // Own-card match: standard substring comparison
         if (t === ownBare || ownBare.includes(t) || t.includes(ownBare)) continue;
-        // Own-card verb-stem match: "sentir" example "sente" — same-card inflection.
+        // Own-card: Japanese expanded forms (hiragana, verb stems, kanji-only)
+        if (ownForms) {
+          let selfMatch = false;
+          for (const f of ownForms) {
+            if (f && (f === t || f.includes(t) || t.includes(f))) { selfMatch = true; break; }
+          }
+          if (selfMatch) continue;
+        }
+        // Own-card verb-stem match for Romance: "sentir" example "sente"
         const ownStem = romanceStem(ownBare, langCode);
         if (ownStem && ownStem.length >= 3 && t.startsWith(ownStem)) continue;
+        // Own-card Korean conjugation exemption: the card's own 다-verb forms are allowed
+        if (ownKoStem && ownKoStem.length >= 1) {
+          const tKoStem = koStemOf(t);
+          if (tKoStem === ownKoStem) continue;
+          // Single-char stem: syllable-base match handles ㄹ-irregular (가다 → 갈)
+          if (ownKoStem.length === 1 && tKoStem.length >= 1 &&
+              koSyllableMatch(tKoStem[0], ownKoStem[0])) continue;
+        }
         // Prior-taught match (cross-file + same-file cumulative).
         if (matchesTaught(t, taughtWords, langCode)) continue;
         if (matchesTaught(t, fileTaught, langCode)) continue;

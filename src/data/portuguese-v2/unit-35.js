@@ -193,7 +193,13 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
  {trg:"carnaval", src:"carnival"},
  {trg:"futebol", src:"soccer"},
  {trg:"jeitinho", src:"Brazilian workaround"}
-]}
+]},
+
+{type:"tip", title:"Diminutives: -inho and -zinho",
+ text:"Diminutives are one of the most distinctive features of Brazilian Portuguese. They add -inho (masculine) or -inha (feminine) to soften, endear, or truly shrink something.\n\nBase word > diminutive:\ncafé > cafezinho (small coffee, also the classic Brazilian espresso)\ncasa > casinha (little house)\npão > pãozinho (small bread roll)\njeito > jeitinho (the Brazilian workaround — the diminutive itself is cultural)\nagora > agora + inho = agorinha (right now, immediately)\n\nSpelling rule: if the word ends in a vowel, just add -inho/-inha. If it ends in a consonant, insert a linking syllable: café > cafezinho (not cafeinho).\n\nDiminutives do NOT always mean small. They also express affection, politeness, or softening.\nUm minutinho! (Just one minute!) = a polite request for patience, not a measurement.",
+ icon:"💛",
+ deepDive:{title:"Affective Use — The Most Brazilian Feature",
+  text:"Brazilians use diminutives so naturally that linguists call it a 'produtivo afetivo' (affective productivity) feature. Almost any noun or adjective can take -inho/-inha. A customer may say 'Me dá um cafezinho' even at a business meeting. A grandmother addresses everyone with '-inho'. A vendor says 'Espera um momentinho' to soften the wait. Even adverbs get it: 'calminho' (real calm), 'devagarzinho' (very slowly, with care). Learning to hear and use diminutives is one of the clearest signals that a learner has truly internalized Brazilian Portuguese."}},
 ]},
 
 {id:"ptv2_u35l3", title:"Economy and Progress", icon:"📈", xp:15, board:true, steps:[

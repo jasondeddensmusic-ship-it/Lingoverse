@@ -342,7 +342,13 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
  s:"A {1} de novas {2} transforma o mercado de trabalho.",
  blanks:{"1":"inovação","2":"tecnologia"},
  pool:["inovação","tecnologia","automação","ciência"],
- hint:"First blank: creating something new. Second blank: applied science tools."}
+ hint:"First blank: creating something new. Second blank: applied science tools."},
+
+{type:"tip", title:"Present Perfect: Tenho feito (Ongoing Habit)",
+ text:"Portuguese has a present perfect (tenho + past participle) but it means something different from English.\n\nIn Brazilian Portuguese, 'tenho feito' expresses a repeated or ongoing action from the past up to now:\n\nTenho trabalhado muito. (I have been working a lot lately.)\nEla tem estudado todo dia. (She has been studying every day.)\nNão tenho dormido bem. (I have not been sleeping well.)\n\nThis is NOT the English 'I have done it once'. Use the preterite (fiz, comi, fui) for a single completed event.\nThis IS closer to 'I have been doing' — an ongoing pattern reaching the present.\n\nParticiple formation: -AR > -ado, -ER/-IR > -ido.\nfalar > falado, comer > comido, dormir > dormido.",
+ icon:"⏰",
+ deepDive:{title:"European Portuguese Difference",
+  text:"In European Portuguese, the present perfect ('tenho feito') can express a single event: 'Tenho lido este livro' can mean 'I have read this book'. In Brazilian Portuguese, that same sentence means 'I have been reading this book (repeatedly/currently)'. For a single completed action, Brazilians always use the preterite: 'Li este livro.' This BR/PT split surprises learners who study both varieties."}},
 ]}
 
 ]}; export default UNIT_26;

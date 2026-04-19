@@ -297,7 +297,13 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
  s:"Essa música é {1} que aquela, mas aquela é {2} famosa do ano.",
  blanks:{"1":"melhor","2":"a mais"},
  pool:["melhor","a mais","pior","o menos"],
- hint:"First blank: irregular comparative. Second blank: article + adverb for the relative superlative."}
+ hint:"First blank: irregular comparative. Second blank: article + adverb for the relative superlative."},
+
+{type:"tip", title:"Conjunctions: mas, porém, todavia",
+ text:"Conjunctions connect ideas. The most important contrast connectors:\n\nmas = but (everyday speech, most common)\nEu gosto de café, mas prefiro chá. (I like coffee, but I prefer tea.)\n\nporém = however (slightly more formal, still common in writing and clear speech)\nÉ caro, porém vale a pena. (It is expensive, however it is worth it.)\n\ntodavia = nevertheless / yet (formal, written language)\nO projeto é difícil; todavia, vamos tentar. (The project is hard; nevertheless, we will try.)\n\nAlso useful:\ne = and (addition)\nou = or (choice)\npois = because / for (formal cause)\nentão = so / then (result)\nporque = because (reason, most common)",
+ icon:"🔗",
+ deepDive:{title:"Contrast Register Scale",
+  text:"For contrast, the register scale from most casual to most formal is:\nmas (spoken everywhere) > porém (written, clear speech) > contudo > todavia > entretanto (formal texts).\n\nFor addition: e > além disso > outrossim (very formal).\n\nFor result: então > portanto > logo (formal).\n\nStart with mas, e, porque, então. The formal connectors (porém, contudo, portanto) appear naturally in B2 writing, news articles, and academic texts."}},
 ]}
 
 ]}; export default UNIT_19;

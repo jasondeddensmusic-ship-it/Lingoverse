@@ -86,7 +86,13 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
  {trg:"portanto", src:"therefore"},
  {trg:"ademais", src:"moreover"},
  {trg:"outrossim", src:"likewise"}
-]}
+]},
+
+{type:"tip", title:"Haver as Impersonal 'There Is / There Are'",
+ text:"In formal Portuguese, 'haver' means 'there is / there are' as an impersonal verb:\n\nHá uma solução para isso. (There is a solution for this.)\nHá problemas a resolver. (There are problems to solve.)\nHouve uma mudança importante. (There was an important change.)\nHavia dúvidas no começo. (There were doubts at the beginning.)\n\nHá = present. Houve = simple past. Havia = imperfect. Haverá = future.\n\nCRITICAL: Haver as impersonal is ALWAYS singular. Never say 'houveram problemas'. Write 'houve problemas' even when the noun is plural.\n\nIn spoken Brazil, 'tem' replaces 'há': 'Tem uma loja aqui.' But in writing and formal contexts, 'há' is expected.",
+ icon:"🏛️",
+ deepDive:{title:"Haver de + Infinitive",
+  text:"Haver can also form an obligation or near-certainty with 'de + infinitive':\n\nHá de chegar um dia. (A day will surely come.)\nEle há de vencer. (He is bound to win.)\n\nThis construction is literary and formal, rarely heard in casual speech. It expresses inevitability or strong expectation. The equivalent in Brazilian conversation would be 'vai chegar' or 'vai vencer' using 'ir + infinitive'. Recognizing 'há de' helps with reading 19th-century Brazilian literature and formal oratory."}},
 ]},
 
 {id:"ptv2_u33l2", title:"Formal Prepositions", icon:"📜", xp:15, board:true, steps:[
@@ -283,7 +289,13 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
  a:["Assim sendo"],
  opts:["Assim sendo","Deste modo","Não obstante","Haja vista"],
  hint:"'That being so.' Introduces the final logical step.",
- sSrc:"The data was collected. {1}, we reached a conclusion."}
+ sSrc:"The data was collected. {1}, we reached a conclusion."},
+
+{type:"tip", title:"Complex Conjunctions: embora, contudo, todavia",
+ text:"Three essential concessive and adversative conjunctions for B2 writing:\n\nembora = although / even though (concessive — triggers the SUBJUNCTIVE)\nEmbora seja difícil, vale a pena tentar. (Although it is difficult, it is worth trying.)\n\ncontudo = however / yet (adversative, formal)\nO projeto foi aprovado; contudo, precisa de ajustes. (The project was approved; however, it needs adjustments.)\n\ntodavia = nevertheless / yet (adversative, literary/formal)\nO prazo é curto. Todavia, a equipe é capaz. (The deadline is short. Nevertheless, the team is capable.)\n\nCRITICAL: Embora always requires the SUBJUNCTIVE in the clause it introduces. This is non-negotiable: 'embora seja', never 'embora é'.",
+ icon:"✍️",
+ deepDive:{title:"Concessive vs Adversative",
+  text:"A concessive clause grants a point before making a contrast: 'Even though X is true, Y is still the case.' Embora is concessive: it introduces a subordinate clause with the subjunctive.\n\nAn adversative connector simply shows contrast between two independent clauses: 'X is true. However, Y is also true.' Contudo and todavia are adversative, like entretanto and não obstante.\n\nThe subjunctive requirement after embora is absolute. Learners who skip the subjunctive here sound like direct machine translation output. 'Embora o trabalho é difícil' sounds broken to every native speaker. Always: 'Embora o trabalho seja difícil.'"}},
 ]}
 
 ]}; export default UNIT_33;

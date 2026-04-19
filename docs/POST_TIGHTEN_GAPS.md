@@ -2,6 +2,7 @@
 
 Generated: 2026-04-19
 Session: PP63 whitelist tightening — NL/JA/KO
+Updated: 2026-04-19 (morphological matching improvements applied)
 
 ## Summary
 
@@ -10,7 +11,7 @@ by previous sessions (NL: 3271 entries, JA: 5392, KO: 12031). After tightening t
 legitimate function words only, the audit surfaces real content gaps that were
 previously silenced.
 
-### Entries before vs. after
+### Entries before vs. after tightening
 
 | Language | Before | After | Reduction |
 |----------|--------|-------|-----------|
@@ -18,17 +19,43 @@ previously silenced.
 | Japanese (ja) | 5392 | 440 | -4952 (92%) |
 | Korean (ko) | 12031 | 364 | -11667 (97%) |
 
-### PP63 violations before vs. after
+### PP63 violations: tightening vs. after morphological matching fix
 
-| Language | Before | After | Files affected |
-|----------|--------|-------|----------------|
-| Dutch (nl) | 0 | 1859 | 32 unit files |
-| Japanese (ja) | 0 | 3739 | 452 files (incl. batch) |
-| Korean (ko) | 0 | 2879 | 230 unit files |
+| Language | After tightening | After morphology fix | Reduction |
+|----------|-----------------|---------------------|-----------|
+| Dutch (nl) | 1859 | 1306 | -30% (content edits + minor script benefit) |
+| Japanese (ja) | 3739 | 177 | **-95.3%** (tokenizer + form expansion) |
+| Korean (ko) | 2879 | 850 | **-70.5%** (stem-matcher) |
 
-Other languages (DE, FR, ES, IT, ZH, PT, RU) are unaffected by this change.
-German: 0 violations. French: 1 (pre-existing, `conseiller`/`soumettre`).
-Chinese: 5 (pre-existing).
+Other languages (DE, FR, ES, IT, ZH, PT, RU) are unaffected.
+German: 0. French: 1 (pre-existing). Chinese: 5 (pre-existing).
+
+### Engineering changes applied (2026-04-19)
+
+**Japanese** — two-part fix:
+1. `jaPreprocessExample()` in `tokenize()`: replaces `漢字(ふりがな)` with just
+   the furigana reading before tokenizing. Eliminates kanji-stub + okurigana
+   fragment artifacts: `食(た)べましたか` becomes `たべましたか` (one matchable token).
+2. `jaExpandForms()` in `addTrg()`: for each taught word, stores the original,
+   full-hiragana form, kanji-only form, ichidan verb stem (strip る), and
+   suru-compound noun stem (strip する). `食(た)べる` also stores `たべ`.
+   `もうたべましたか` then matches via substring against `たべ`.
+
+**Korean** — morphological stem-matcher:
+1. `koStemOf()`: strips common verb/adjective endings. `갔어요` → `갔`, `먹었어요` → `먹`.
+2. `koSyllableMatch()`: Hangul syllable comparison handling ㄹ-irregular
+   (`갈`→`가`), ㅗ→ㅘ (`봐/봤`→`보`), ㅜ→ㅝ (`줘`→`주`), ㅏ→ㅐ (`해`→`하`), ㅣ→ㅕ (`셔`→`시`).
+3. `addTrg()`: stores 다-stripped stems in taughtWords. `가다` → also stores `가`.
+
+**False-positive verification**: Genuinely untaught words continue to flag correctly.
+- JA: `またね`, `おちゃです`, `えき`, `スミスです` all flag
+- KO: `어때요` (49x), `죄송해요` (9x), `어땠어요` (21x) flag as legitimate gaps
+
+**Remaining unresolved (out of scope)**:
+- KO ㅎ-irregular (어떻다→어때요, 그렇다→그래요): requires full morphological
+  analyzer. The `어때요` flags are likely genuine content gaps in any case.
+
+---
 
 ---
 

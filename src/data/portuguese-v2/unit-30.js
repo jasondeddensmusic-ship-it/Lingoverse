@@ -227,7 +227,13 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
  a:["cultura"],
  opts:["cultura","tradição","herança","identidade"],
  hint:"The arts, customs, and shared identity of a group.",
- sSrc:"Brazilian {1} mixes indigenous, African, and European elements."}
+ sSrc:"Brazilian {1} mixes indigenous, African, and European elements."},
+
+{type:"tip", title:"Relative Pronouns: que, qual, cujo",
+ text:"Relative pronouns connect a clause to the noun it describes.\n\nque = that / which / who (the most common in all registers)\nO livro que ela escreveu é famoso. (The book that she wrote is famous.)\n\no qual / a qual / os quais / as quais = which (formal, after prepositions)\nO museu sobre o qual estamos falando. (The museum about which we are talking.)\n\ncujo / cuja / cujos / cujas = whose (formal; rarely used in speech)\nA artista cujo trabalho é famoso. (The artist whose work is famous.)\n\nIn everyday Brazilian speech, que handles almost everything. O qual and cujo appear in formal writing, news, and academic contexts.",
+ icon:"🔗",
+ deepDive:{title:"Que vs O Qual — Register Difference",
+  text:"In spoken Brazilian, 'que' replaces most relative pronouns, even after prepositions. 'O livro que eu falei' (The book I talked about) is more natural than 'O livro do qual eu falei'. This creates a style gap: informal speech uses bare que, while formal writing carefully chooses o qual with the right preposition and gender agreement. For B2 writing and comprehension of formal texts, learn o qual and cujo. For conversation, que alone is sufficient."}},
 ]},
 
 {id:"ptv2_u30l3", title:"Performance and Entertainment", icon:"🎭", xp:15, board:true, steps:[

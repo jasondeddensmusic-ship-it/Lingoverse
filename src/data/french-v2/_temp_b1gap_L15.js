@@ -161,8 +161,8 @@ const LESSON_15 = {id:"frv2_b1gap_l15", title:"Débattre et argumenter", icon:"\
 
 {type:"teach", trg:"conseiller", src:"to advise, to recommend", pos:"verb", gender:null,
  note:"Regular -er verb. To give advice.\nAlso a noun: un conseiller (adviser).",
- example:"A: Je te conseille de relire avant de soumettre.\nB: Merci pour le conseil.",
- exampleSrc:"A: I advise you to reread before submitting.\nB: Thanks for the advice.",
+ example:"A: Je te conseille de parler à ton professeur.\nB: Merci pour l'avis.",
+ exampleSrc:"A: I advise you to speak to your professor.\nB: Thanks for the advice.",
  funFact:"Un conseiller municipal (city councillor) is an elected local official. France has 500,000 elected local councillors."},
 
 {type:"teach", trg:"la conséquence", src:"consequence", pos:"noun", gender:"f",

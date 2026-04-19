@@ -133,6 +133,12 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
  deepDive:{title:"Weather 'Fazer' Expressions",
   text:"For many weather phenomena, Brazilians use 'fazer' (to make) impersonally. 'Faz sol' (it is sunny), 'faz frio' (it is cold), 'faz vento' (it is windy). This is equivalent to 'está' but slightly more formal and general. Both are correct."}},
 
+{type:"tip", title:"Gerund: Estar + -ndo (Brazilian Progressive)",
+ text:"The Brazilian progressive is formed with estar + gerund:\n\nestá chovendo (it is raining)\nestou estudando (I am studying)\nela está trabalhando (she is working)\n\nFormation of the gerund:\n-AR verbs: drop -ar, add -ando. falar > falando\n-ER verbs: drop -er, add -endo. comer > comendo\n-IR verbs: drop -ir, add -indo. partir > partindo\n\nThis is the standard ongoing-action form in Brazil.",
+ icon:"💡",
+ deepDive:{title:"BR vs PT: -ndo vs a + Infinitive",
+  text:"This is one of the clearest splits between Brazilian and European Portuguese:\n\nBrazil: estou falando (I am speaking)\nPortugal: estou a falar (I am speaking)\n\nBrazil uses the gerund (-ndo) for all progressive actions. Portugal uses estar a + infinitive. Both are grammatically correct in their variety. Brazilians understand the Portuguese form but find it formal or old-fashioned. Portuguese speakers understand the Brazilian form but would not use it naturally. If you are learning Brazilian Portuguese, always use the -ndo gerund form."}},
+
 {type:"fb", s:"Está muito {1} lá fora. Melhor ficar em casa.",
  a:["frio"],
  opts:["frio","quente","nublado","ensolarado"],

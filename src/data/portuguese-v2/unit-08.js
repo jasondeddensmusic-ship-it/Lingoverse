@@ -224,6 +224,12 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  deepDive:{title:"Shopping Mall Culture",
   text:"Shopping malls (shoppings) are huge social hubs in Brazil. On weekends, whole families go to eat, watch movies, and hang out, often without buying anything. Every mid-size city has at least one major shopping center. The anglicism 'shopping' replaced 'centro comercial' decades ago."}},
 
+{type:"tip", title:"Demonstratives: Este, Esse, Aquele",
+ text:"Portuguese uses a three-way distance system:\n\neste / esta = this (near the speaker)\nEste sapato é meu. (This shoe is mine.)\n\nesse / essa = that (near the listener)\nEsse sapato é seu? (Is that shoe yours?)\n\naquele / aquela = that over there (far from both)\nAquela loja é ótima. (That store over there is great.)\n\nNeuter forms (for unspecified things or ideas): isto, isso, aquilo.\n\nBrazilians in casual speech often use esse for both near-me and near-you cases.",
+ icon:"👉",
+ deepDive:{title:"Contractions with de and em",
+  text:"Demonstratives contract with de and em:\n\nde + este = deste (of this)\nde + esse = desse (of that)\nde + aquele = daquele (of that over there)\n\nem + este = neste (in this)\nem + esse = nesse (in that)\nem + aquele = naquele (in that over there)\n\nSo 'Naquela loja' = in that store, 'deste tamanho' = of this size. These contractions are mandatory, just like do and na."}},
+
 {type:"fb", s:"Preciso de uma {1} nova para a reunião.",
  a:["camisa"],
  opts:["camisa","calça","sapato","roupa"],
