@@ -275,6 +275,105 @@ lessons:[
  hint:"This verb means 'to cause' or 'to lead to' and usually introduces bad results."}
 ]}
 
+,
+
+// ─── L4: HSK 3核心词汇 Core Vocabulary ───
+{id:"zhv2_u16l4", title:"HSK 3核心词汇(héxīn cíhuì) Core Words", icon:"📚", xp:15, board:true, steps:[
+{type:"intro", title:"HSK 3 Core Vocabulary",
+ desc:"Learn 7 essential HSK 3 words for expressing actions, purposes, and locations. These high-frequency words appear in daily conversation, essays, and the HSK 3 exam.",
+ goals:["Master 7 core HSK 3 words","Use 为了 to state purpose","Describe location with 附近"]},
+
+{type:"teach", trg:"表示(biǎoshì)", src:"to express / to indicate", pos:"verb", gender:null,
+ note:"Used to show feelings, opinions, or meanings.\n表 = surface/show, 示 = indicate.",
+ example:"A: 你(nǐ)觉得(juéde)这(zhè)次(cì)考试(kǎoshì)难(nán)吗(ma)？\nB: 我(wǒ)表示(biǎoshì)很(hěn)满意(mǎnyì)，结果(jiéguǒ)很(hěn)好(hǎo)。",
+ exampleSrc:"A: Do you think this exam was hard?\nB: I express great satisfaction, the result was very good.",
+ funFact:"表示 appears everywhere in formal Chinese: news anchors say 政府表示 (the government indicates), friends say 我表示理解 (I express understanding). It is the all-purpose verb for showing attitudes."},
+
+{type:"teach", trg:"参加(cānjiā)", src:"to participate / to attend", pos:"verb", gender:null,
+ note:"Used for events, activities, and groups.\n参 = join/participate, 加 = add.",
+ example:"A: 你(nǐ)今天(jīntiān)参加(cānjiā)考试(kǎoshì)吗(ma)？\nB: 对(duì)，我(wǒ)准备(zhǔnbèi)好(hǎo)了(le)。",
+ exampleSrc:"A: Are you taking the exam today?\nB: Yes, I am prepared.",
+ funFact:"加 means 'to add,' so 参加 literally means 'to add yourself to something.' When you join an event, you are adding one more person to the group. HSK 3 tests this word extensively."},
+
+{type:"teach", trg:"发现(fāxiàn)", src:"to discover / to find", pos:"verb", gender:null,
+ note:"Used for discovering facts, noticing things, or making findings.\n发 = emit/start, 现 = appear.",
+ example:"A: 你(nǐ)发现(fāxiàn)了(le)什么(shénme)问题(wèntí)吗(ma)？\nB: 我(wǒ)发现(fāxiàn)这(zhè)个(ge)办法(bànfǎ)不(bù)好(hǎo)。",
+ exampleSrc:"A: Did you discover any problems?\nB: I found that this method is not good.",
+ funFact:"发现 covers both 'discover' (Columbus discovered America) and 'notice' (I found my keys). English uses two different verbs; Chinese uses one. This flexibility makes 发现 extremely common."},
+
+{type:"teach", trg:"生活(shēnghuó)", src:"life / to live", pos:"noun", gender:null,
+ note:"Works as both a noun (life/living) and a verb (to live/lead a life).\n生 = born/life, 活 = alive/live.",
+ example:"A: 你(nǐ)觉得(juéde)现在(xiànzài)的(de)生活(shēnghuó)怎么样(zěnmeyàng)？\nB: 生活(shēnghuó)很(hěn)好(hǎo)，我(wǒ)很(hěn)满意(mǎnyì)。",
+ exampleSrc:"A: How do you feel about your current life?\nB: Life is good, I am very satisfied.",
+ funFact:"生活 can be a noun (daily life) or a verb (to live a life). 我生活在北京 means 'I live in Beijing' with a focus on lifestyle, while 我住在北京 just states location. The nuance matters at B1."},
+
+{type:"teach", trg:"目的(mùdì)", src:"purpose / goal", pos:"noun", gender:null,
+ note:"Refers to an aim or intention, often used in formal contexts.\n目 = eye/aim, 的 = target.",
+ example:"A: 你(nǐ)学习(xuéxí)中文(zhōngwén)的(de)目的(mùdì)是(shì)什么(shénme)？\nB: 我(wǒ)的(de)目的(mùdì)是(shì)通过(tōngguò)考试(kǎoshì)。",
+ exampleSrc:"A: What is your purpose for learning Chinese?\nB: My goal is to pass the exam.",
+ funFact:"的 in 目的 is a different character from the possessive 的 particle. This 的 originally meant 'target' or 'bull's-eye,' giving 目的 its meaning of 'the target your eye is aiming at.'"},
+
+{type:"teach", trg:"附近(fùjìn)", src:"nearby / vicinity", pos:"noun", gender:null,
+ note:"Describes location close to a reference point. Very common in daily speech.\n附 = attach/near, 近 = close.",
+ example:"A: 图书馆(túshūguǎn)在(zài)哪里(nǎlǐ)？\nB: 就(jiù)在(zài)地铁(dìtiě)站(zhàn)附近(fùjìn)。",
+ exampleSrc:"A: Where is the library?\nB: It is right near the subway station.",
+ funFact:"附近 is so common that Chinese speakers use it constantly for giving directions. You will hear 在...附近 (near...) in every city. 附 means 'attached to,' so something 附近 is 'attached close by.'"},
+
+{type:"teach", trg:"为了(wèile)", src:"in order to / for (the sake of)", pos:"prep", gender:null,
+ note:"States the purpose or motivation for an action. Always followed by a goal.\n为 = for, 了 = completion/purpose marker.",
+ example:"A: 你(nǐ)为什么(wèishénme)这(zhè)么(me)努力(nǔlì)学习(xuéxí)？\nB: 为了(wèile)通过(tōngguò)考试(kǎoshì)，我(wǒ)每天(měitiān)学习(xuéxí)。",
+ exampleSrc:"A: Why are you studying so hard?\nB: In order to pass the exam, I study every day.",
+ funFact:"为了 always looks forward. It states purpose before action. Compare: 因为 (because, looks back at cause) vs 为了 (in order to, looks forward to goal). Mandarin learners often confuse these two."},
+
+{type:"tip", title:"为了 vs 因为: Purpose vs Reason",
+ text:"These two words answer different questions:\n\n因为(yīnwèi) answers WHY (past reason):\n因为(yīnwèi)下雨(xiàyǔ)，我(wǒ)没(méi)去(qù)。\nBecause it rained, I did not go.\n\n为了(wèile) answers WHAT FOR (future goal):\n为了(wèile)学习(xuéxí)，我(wǒ)去(qù)图书馆(túshūguǎn)。\nIn order to study, I go to the library.\n\n因为 explains a cause. 为了 explains a goal.",
+ deepDive:{title:"目的 vs 原因: Goal vs Reason",
+  text:"Just as 为了/因为 are contrasted in connectors, 目的 and 原因 form a parallel noun pair:\n\n原因(yuányīn) = reason (why something happened)\n目的(mùdì) = purpose (what you are trying to achieve)\n\n你(nǐ)的(de)原因(yuányīn)是(shì)什么(shénme)？\nWhat is your reason? (Why did it happen?)\n\n你(nǐ)的(de)目的(mùdì)是(shì)什么(shénme)？\nWhat is your goal? (What are you aiming for?)\n\nUsing the right word shows precision in formal writing and the HSK 3 exam."}},
+
+{type:"mc", q:"我(wǒ)___参加(cānjiā)了(le)考试(kǎoshì)，但(dàn)结果(jiéguǒ)不(bù)好(hǎo)。",
+ opts:["发现(fāxiàn)","表示(biǎoshì)","终于(zhōngyú)","为了(wèile)"],
+ ans:"终于(zhōngyú)",
+ hint:"I ___ took the exam (finally, after waiting). Which word expresses relief after a long wait?"},
+
+{type:"fb", s:"{1}通过(tōngguò)考试(kǎoshì)，我(wǒ)每天(měitiān)学习(xuéxí)。",
+ a:["为了(wèile)"],
+ opts:["为了(wèile)","因为(yīnwèi)","所以(suǒyǐ)","目的(mùdì)"],
+ hint:"Which connector states a future goal or purpose before the action?",
+ sSrc:"{1} pass the exam, I study every day."},
+
+{type:"match", pairs:[
+  {trg:"表示(biǎoshì)", src:"to express / to indicate"},
+  {trg:"参加(cānjiā)", src:"to participate / to attend"},
+  {trg:"发现(fāxiàn)", src:"to discover / to find"},
+  {trg:"生活(shēnghuó)", src:"life / to live"},
+  {trg:"目的(mùdì)", src:"purpose / goal"},
+  {trg:"附近(fùjìn)", src:"nearby / vicinity"},
+  {trg:"为了(wèile)", src:"in order to / for"}
+]},
+
+{type:"mc", q:"图书馆(túshūguǎn)就(jiù)在(zài)公园(gōngyuán)___，走路(zǒulù)五(wǔ)分钟(fēnzhōng)。",
+ opts:["附近(fùjìn)","目的(mùdì)","生活(shēnghuó)","情况(qíngkuàng)"],
+ ans:"附近(fùjìn)",
+ hint:"The library is ___ the park, five minutes on foot. Which word describes a close location?"},
+
+{type:"fb", s:"我(wǒ)发现(fāxiàn)了(le)一(yí)个(gè)好(hǎo){1}，可以(kěyǐ)解决(jiějué)这(zhè)个(ge)问题(wèntí)。",
+ a:["办法(bànfǎ)"],
+ opts:["办法(bànfǎ)","目的(mùdì)","生活(shēnghuó)","原因(yuányīn)"],
+ hint:"I discovered a good ___ to solve the problem. Which noun means 'method' or 'way'?",
+ sSrc:"I discovered a good {1} that can solve this problem."},
+
+{type:"mc", q:"你(nǐ)学习(xuéxí)汉语(Hànyǔ)的(de)___是(shì)什么(shénme)？",
+ opts:["目的(mùdì)","附近(fùjìn)","生活(shēnghuó)","参加(cānjiā)"],
+ ans:"目的(mùdì)",
+ hint:"What is your ___ for learning Chinese? Which noun means 'purpose' or 'goal'?"},
+
+{type:"fb", s:"他(tā)___自己(zìjǐ)的(de)学习(xuéxí)情况(qíngkuàng)很(hěn)满意(mǎnyì)。",
+ a:["表示(biǎoshì)"],
+ opts:["表示(biǎoshì)","参加(cānjiā)","发现(fāxiàn)","解决(jiějué)"],
+ hint:"He ___ satisfaction with his learning situation. Which verb means 'to express' or 'to indicate'?",
+ sSrc:"He {1} satisfaction with his own learning situation."}
+]}
+
 ]};
 
 export default UNIT_16;
