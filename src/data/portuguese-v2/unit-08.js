@@ -25,14 +25,14 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
 
 {type:"teach", trg:"custar", src:"to cost", pos:"verb", gender:null,
  note:"To cost. Mostly used in 3rd person: custa (it costs), custam (they cost), custou (it cost).",
- example:"A: Quanto custa este livro?\nB: Custa trinta reais.\nA: E os dois juntos?\nB: Custam cinquenta.",
- exampleSrc:"A: How much does this book cost?\nB: It costs thirty reais.\nA: And the two together?\nB: They cost fifty.",
+ example:"A: Quanto custa o livro?\nB: Custa trinta reais.\nA: E os dois juntos?\nB: Custam cinquenta.",
+ exampleSrc:"A: How much does the book cost?\nB: It costs thirty reais.\nA: And the two together?\nB: They cost fifty.",
  funFact:"The question 'Quanto custa?' is among the first five phrases every Brazilian Portuguese student masters."},
 
 {type:"teach", trg:"caro", src:"expensive", pos:"adj", gender:null,
  note:"Expensive. Agrees with noun: caro (m), cara (f), caros/caras (pl).",
- example:"A: Este carro é caro.\nB: Quanto custa?\nA: Cinquenta mil reais.\nB: Muito caro!",
- exampleSrc:"A: This car is expensive.\nB: How much does it cost?\nA: Fifty thousand reais.\nB: Very expensive!",
+ example:"A: O carro é caro.\nB: Quanto custa?\nA: Cinquenta reais.\nB: Muito caro!",
+ exampleSrc:"A: The car is expensive.\nB: How much does it cost?\nA: Fifty reais.\nB: Very expensive!",
  funFact:"'Caro' also means 'dear' as in 'Caro amigo' (Dear friend). Same word, different meaning from context."},
 
 {type:"teach", trg:"barato", src:"cheap", pos:"adj", gender:null,
@@ -93,8 +93,8 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
 
 {type:"teach", trg:"comprar", src:"to buy", pos:"verb", gender:null,
  note:"Regular -ar verb: compro, compra, compramos, compram.",
- example:"A: O que você vai comprar?\nB: Um presente.\nA: Para quem?\nB: Para minha mãe.",
- exampleSrc:"A: What are you going to buy?\nB: A gift.\nA: For whom?\nB: For my mother.",
+ example:"A: O que você vai comprar?\nB: Um carro.\nA: Para quem?\nB: Para minha mãe.",
+ exampleSrc:"A: What are you going to buy?\nB: A car.\nA: For whom?\nB: For my mother.",
  funFact:"From Latin 'comparare' (to compare). You compare prices before you buy. Same root as 'compare'!"},
 
 {type:"teach", trg:"vender", src:"to sell", pos:"verb", gender:null,
@@ -197,8 +197,8 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
 
 {type:"teach", trg:"o sapato", src:"the shoe", pos:"noun", gender:"m",
  note:"Shoe. Plural: os sapatos (shoes, a pair).",
- example:"A: Gosto deste sapato.\nB: Qual tamanho?\nA: Quarenta.\nB: Vou buscar.",
- exampleSrc:"A: I like this shoe.\nB: What size?\nA: Forty.\nB: I will go get it.",
+ example:"A: Gosto do sapato.\nB: Qual tamanho?\nA: Quarenta.\nB: Vou buscar.",
+ exampleSrc:"A: I like the shoe.\nB: What size?\nA: Forty.\nB: I will go get it.",
  funFact:"Brazilian shoe sizes match European sizes. Size 40 equals roughly US 8 for men."},
 
 {type:"teach", trg:"o tamanho", src:"the size", pos:"noun", gender:"m",

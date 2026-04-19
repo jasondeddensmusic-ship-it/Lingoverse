@@ -25,7 +25,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 
 {type:"teach", trg:"a médica", src:"the doctor (f)", pos:"noun", gender:"f",
  note:"Female doctor. Note: professions change ending by gender.",
- example:"A: Minha mãe é médica.\nB: Há quanto tempo?\nA: Há vinte anos.\nB: Que carreira longa!",
+ example:"A: Minha mãe é médica.\nB: Há quanto tempo?\nA: Há dez anos.\nB: Que carreira longa!",
  exampleSrc:"A: My mother is a doctor.\nB: For how long?\nA: For twenty years.\nB: What a long career!",
  funFact:"Brazil has more female doctors than many countries. Over half of new medical graduates are women."},
 
@@ -55,7 +55,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 
 {type:"teach", trg:"o advogado", src:"the lawyer", pos:"noun", gender:"m",
  note:"Lawyer (m). Feminine: a advogada. Note the silent 'd' in casual speech.",
- example:"A: Preciso de um advogado.\nB: Para quê?\nA: Um contrato de trabalho.\nB: Conheço um bom.",
+ example:"A: Preciso de um advogado.\nB: Por que?\nA: Um contrato de trabalho.\nB: Conheço um bom.",
  exampleSrc:"A: I need a lawyer.\nB: What for?\nA: A work contract.\nB: I know a good one.",
  funFact:"Brazil has more law schools than any other country, producing around one hundred thousand new lawyers every year."},
 
@@ -106,7 +106,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 
 {type:"teach", trg:"o escritório", src:"the office", pos:"noun", gender:"m",
  note:"Office. Masculine noun. Refers to the workplace building or room.",
- example:"A: Vai ao escritório hoje?\nB: Sim, de manhã.\nA: E depois?\nB: Almoço com um cliente.",
+ example:"A: Vai ao escritório hoje?\nB: Sim, de manhã.\nA: E depois?\nB: Almoço no escritório.",
  exampleSrc:"A: Are you going to the office today?\nB: Yes, in the morning.\nA: And afterwards?\nB: Lunch with a client.",
  funFact:"From 'escrever' (to write). The office was historically the writing room of a business."},
 
@@ -130,7 +130,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 
 {type:"teach", trg:"o chefe", src:"the boss", pos:"noun", gender:"m",
  note:"Boss, chief. Common gender: o chefe, a chefe. Feminine 'chefa' exists but is less used.",
- example:"A: Seu chefe é simpático?\nB: Bem exigente.\nA: Mas justo?\nB: Sim, muito justo.",
+ example:"A: Seu chefe é simpático?\nB: Sim, bem simpático.\nA: Mas justo?\nB: Sim, muito justo.",
  exampleSrc:"A: Is your boss nice?\nB: Quite demanding.\nA: But fair?\nB: Yes, very fair.",
  funFact:"From French 'chef' (head). Same root as 'chef de cuisine', the head of the kitchen."},
 

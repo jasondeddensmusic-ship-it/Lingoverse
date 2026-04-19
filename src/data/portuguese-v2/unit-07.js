@@ -106,14 +106,14 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
 
 {type:"teach", trg:"a neve", src:"the snow", pos:"noun", gender:"f",
  note:"Feminine noun meaning snow. Rare in most of Brazil.",
- example:"A: Já viu neve?\nB: Sim, no sul do Brasil.\nA: Que legal!\nB: Foi lindo, mas frio!",
- exampleSrc:"A: Have you ever seen snow?\nB: Yes, in southern Brazil.\nA: How cool!\nB: It was beautiful, but cold!",
+ example:"A: Tem neve aqui?\nB: Sim, em Santa Catarina.\nA: Que legal!\nB: Foi lindo, mas frio!",
+ exampleSrc:"A: Is there snow here?\nB: Yes, in Santa Catarina.\nA: How cool!\nB: It was beautiful, but cold!",
  funFact:"It snows in São Joaquim, Santa Catarina, almost every winter. Brazilians travel hours to see it."},
 
 {type:"teach", trg:"o clima", src:"the climate", pos:"noun", gender:"m",
  note:"Climate refers to long-term weather patterns. Different from 'tempo' (current weather).",
- example:"A: Como é o clima aqui?\nB: É tropical, quente o ano todo.\nA: E no sul?\nB: É mais frio, com quatro estações.",
- exampleSrc:"A: What is the climate like here?\nB: It is tropical, hot all year.\nA: And in the south?\nB: It is colder, with four seasons.",
+ example:"A: Como é o clima aqui?\nB: É tropical, quente o ano todo.\nA: E em Brasília?\nB: É mais frio, com quatro estações.",
+ exampleSrc:"A: What is the climate like here?\nB: It is tropical, hot all year.\nA: And in Brasília?\nB: It is colder, with four seasons.",
  funFact:"Brazil has six distinct climate zones, from equatorial Amazon to subtropical Rio Grande do Sul."},
 
 {type:"tip", title:"Chover and Impersonal Verbs",
@@ -168,7 +168,7 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
 
 {type:"teach", trg:"a estação", src:"the season", pos:"noun", gender:"f",
  note:"Also means 'station' as in train station. Context decides.\nPlural: as estações.",
- example:"A: Qual é sua estação favorita?\nB: O verão!\nA: Por quê?\nB: Gosto do calor e da praia.",
+ example:"A: Qual é sua estação favorita?\nB: O verão!\nA: Por que?\nB: Gosto do calor e da praia.",
  exampleSrc:"A: What is your favorite season?\nB: Summer!\nA: Why?\nB: I like the heat and the beach.",
  funFact:"Near the equator, Brazilians say there are only 'estação chuvosa' and 'estação seca'. Four seasons is a southern concept."},
 
@@ -180,8 +180,8 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
 
 {type:"teach", trg:"o inverno", src:"the winter", pos:"noun", gender:"m",
  note:"Winter. In Brazil: June through August. Mild in most of the country.",
- example:"A: Como é o inverno aqui?\nB: Não é muito frio.\nA: Nunca neva?\nB: No sul sim, aqui não.",
- exampleSrc:"A: What is winter like here?\nB: It is not very cold.\nA: Does it ever snow?\nB: In the south yes, here no.",
+ example:"A: Como é o inverno aqui?\nB: Não é muito frio.\nA: Nunca neva?\nB: Em Santa Catarina sim, aqui não.",
+ exampleSrc:"A: What is winter like here?\nB: It is not very cold.\nA: Does it ever snow?\nB: In Santa Catarina yes, here no.",
  funFact:"Rio de Janeiro winter averages 21 degrees. Many Europeans consider it perfect summer weather."},
 
 {type:"teach", trg:"o outono", src:"the autumn", pos:"noun", gender:"m",
