@@ -268,5 +268,96 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
 ]}
 ,{type:"match",pairs:[{trg:"отец",src:"father (formal)"},{trg:"ребёнок",src:"child"},{trg:"муж",src:"husband"},{trg:"жена",src:"wife"},{trg:"твой",src:"your (informal, m/f/n/pl)"}]}]}
 
+,{id:"ruv2_u3l_people", title:"Люди", icon:"👥", xp:15, board:true, steps:[
+
+{type:"intro", title:"People in Your Life",
+ desc:"Learn 7 essential Russian nouns for people beyond family: female friend, male friend, neighbor, acquaintance, person, man, and woman. Essential for TRKI A1 social vocabulary.",
+ goals:["Master 7 people nouns","Distinguish grammatical gender","Describe social relationships"]},
+
+{type:"teach", trg:"подруга", src:"female friend", pos:"noun", gender:"f",
+ note:"Feminine counterpart of друг.\nEnds in -а (standard feminine).",
+ example:"A: Это твоя подруга?\nB: Да, это моя подруга Катя.",
+ exampleSrc:"A: Is this your female friend?\nB: Yes, this is my friend Katya.",
+ funFact:"Russian has two separate words for friend depending on the friend's gender: подруга (female) and друг (male). English 'friend' covers both, but Russian keeps them distinct."},
+
+{type:"teach", trg:"друг", src:"friend (male / generic)", pos:"noun", gender:"m",
+ note:"Masculine. Ends in consonant.\nIrregular plural: друзья.",
+ example:"A: У тебя есть друг в Москве?\nB: Да, мой друг живёт в Москве.",
+ exampleSrc:"A: Do you have a friend in Moscow?\nB: Yes, my friend lives in Moscow.",
+ funFact:"Друзья (friends) uses the same -ья plural as братья (brothers) and сыновья (sons). This collective plural pattern links friends and brothers — fitting, as close friendship is called 'братская дружба' (brotherly friendship)."},
+
+{type:"teach", trg:"сосед", src:"neighbor (male)", pos:"noun", gender:"m",
+ note:"Masculine. Ends in consonant.\nFeminine form: соседка.",
+ example:"A: Кто это?\nB: Это мой сосед. Он живёт рядом.",
+ exampleSrc:"A: Who is this?\nB: This is my neighbor. He lives nearby.",
+ funFact:"Russian neighbors traditionally share food and conversation in communal apartment buildings (коммуналки). The phrase 'добрый сосед лучше дальнего родственника' (a good neighbor is better than a distant relative) is a well-known proverb."},
+
+{type:"teach", trg:"человек", src:"person / human", pos:"noun", gender:"m",
+ note:"Masculine. Ends in -к.\nIrregular plural: люди (completely different stem!)",
+ example:"A: Кто этот человек?\nB: Не знаю. Я не знаю этого человека.",
+ exampleSrc:"A: Who is this person?\nB: I don't know. I don't know this person.",
+ funFact:"The plural люди is suppletive — from a different Old Slavic root meaning 'people.' This is like English 'person/people.' The unit title 'Люди' uses this plural form."},
+
+{type:"teach", trg:"мужчина", src:"man (adult)", pos:"noun", gender:"m",
+ note:"MASCULINE despite the -а ending.\nSame male-person override as папа, дедушка, дядя.",
+ example:"A: Кто тот мужчина?\nB: Это мой сосед.",
+ exampleSrc:"A: Who is that man?\nB: That is my neighbor.",
+ funFact:"Мужчина ends in -а but behaves like a masculine noun — adjectives agree masculine: высокий мужчина (tall man), not высокая мужчина. This is identical to the pattern for папа and дядя."},
+
+{type:"teach", trg:"женщина", src:"woman (adult)", pos:"noun", gender:"f",
+ note:"Feminine. Ends in -а.\nRoot shared with жена (wife) and женский (feminine).",
+ example:"A: Кто та женщина?\nB: Это моя подруга.",
+ exampleSrc:"A: Who is that woman?\nB: That is my (female) friend.",
+ funFact:"Женщина, жена (wife), и женский (feminine/female) all come from the same Proto-Slavic root. The stem жен- appears in dozens of Russian words related to women and femininity."},
+
+{type:"teach", trg:"знакомый", src:"acquaintance (male)", pos:"noun", gender:"m",
+ note:"Masculine. Adjective used as noun (short for знакомый человек).\nFeminine: знакомая.",
+ example:"A: Ты знаешь эту женщину?\nB: Да, это знакомый моей мамы.",
+ exampleSrc:"A: Do you know this woman?\nB: Yes, this is an acquaintance of my mom's.",
+ funFact:"Знакомый literally means 'known/familiar.' Russians draw a clear line between друг (close friend) and знакомый (acquaintance). Calling someone a friend is a stronger commitment than in English."},
+
+{type:"tip", title:"People Nouns: Gender Traps",
+ text:"Three people nouns break the normal gender rules:\n\nMASCULINE despite -а ending:\nмужчина (man).\nзнакомый has no -а, but declines like an adjective.\n\nRegular feminine in -а:\nподруга (female friend).\nженщина (woman).\nсоседка (female neighbor).\n\nRegular masculine ending in consonant:\nдруг (friend, male).\nсосед (neighbor, male).\n\nIRREGULAR plurals to memorize:\nчеловек → люди.\nдруг → друзья.",
+ icon:"⚡"},
+
+{type:"mc", q:"Which word means 'female friend'?",
+ opts:["друг","подруга","женщина","знакомый"],
+ ans:"подруга",
+ hint:"The female counterpart of 'друг.' Look for the feminine -а ending with the same root."},
+
+{type:"mc", q:"What is the irregular plural of 'человек' (person)?",
+ opts:["человеки","людьми","люди","человека"],
+ ans:"люди",
+ hint:"A suppletive plural — completely different stem from the singular. Like English 'person / people.'"},
+
+{type:"mc", q:"Why is 'мужчина' grammatically masculine?",
+ opts:["It ends in a hard consonant","It ends in -а so it must be masculine","It refers to a male person, overriding the -а ending","It is neuter"],
+ ans:"It refers to a male person, overriding the -а ending",
+ hint:"Think about папа and дядя: they also end in -а but take masculine adjectives. The deciding factor is who the noun describes, not how it ends."},
+
+{type:"fb", s:"A: Кто эта {1}?\nB: Это моя подруга Катя.",
+ a:["женщина"],
+ opts:["женщина","мужчина","человек","сосед"],
+ hint:"B says 'my female friend.' So A must have pointed to a female person. Choose the word for an adult female.",
+ sSrc:"A: Who is that {1}?\nB: That is my friend Katya."},
+
+{type:"fb", s:"А: Кто живёт рядом?\nБ: Мой {1} живёт рядом.",
+ a:["сосед"],
+ opts:["сосед","друг","знакомый","человек"],
+ hint:"The person being asked about lives nearby. Only one word specifically means the person who lives next door.",
+ sSrc:"A: Who lives nearby?\nB: My {1} lives nearby."},
+
+{type:"match", pairs:[
+  {trg:"друг", src:"friend (male / generic)"},
+  {trg:"подруга", src:"female friend"},
+  {trg:"сосед", src:"neighbor (male)"},
+  {trg:"человек", src:"person / human"},
+  {trg:"мужчина", src:"man (adult)"},
+  {trg:"женщина", src:"woman (adult)"},
+  {trg:"знакомый", src:"acquaintance (male)"}
+]}
+
+]}
+
 ]};
 export default UNIT_03;
