@@ -45,20 +45,20 @@ lessons:[
 
 {type:"teach", trg:"他(tā)", src:"he / him", pos:"pron", gender:null,
  note:"Third person masculine pronoun. First tone (flat).\nSounds identical to 她(tā) 'she.'",
- example:"A: 他(tā)是(shì)谁(shéi)？\nB: 他(tā)是(shì)我(wǒ)的(de)老师(lǎoshī)。",
- exampleSrc:"A: Who is he?\nB: He is my teacher.",
+ example:"A: 他(tā)好(hǎo)吗(ma)？\nB: 他(tā)很(hěn)好(hǎo)！",
+ exampleSrc:"A: Is he well?\nB: He is very well!",
  funFact:"他 and 她 sound exactly the same: tā. You can only tell them apart in writing. This is why Chinese speakers sometimes mix up 'he' and 'she' in English: in spoken Chinese there is no difference."},
 
 {type:"teach", trg:"她(tā)", src:"she / her", pos:"pron", gender:null,
  note:"Third person feminine pronoun. Same pronunciation as 他.\nOnly differs in writing: 女 (woman) radical.",
- example:"A: 她(tā)是(shì)谁(shéi)？\nB: 她(tā)是(shì)我(wǒ)的(de)朋友(péngyou)。",
- exampleSrc:"A: Who is she?\nB: She is my friend.",
+ example:"A: 她(tā)好(hǎo)吗(ma)？\nB: 她(tā)很(hěn)好(hǎo)！",
+ exampleSrc:"A: Is she well?\nB: She is very well!",
  funFact:"The character 她 was actually invented in the early 1900s to translate Western literature. Classical Chinese only had 他 for all genders. The 女 radical was added to create a written feminine form."},
 
 {type:"teach", trg:"再见(zàijiàn)", src:"goodbye", pos:"intj", gender:null,
  note:"The standard farewell. Literally: again see.\nWorks in any situation, formal or casual.",
- example:"A: 我(wǒ)走(zǒu)了(le)。再见(zàijiàn)！\nB: 再见(zàijiàn)！",
- exampleSrc:"A: I am leaving. Goodbye!\nB: Goodbye!",
+ example:"A: 好(hǎo)，再见(zàijiàn)！\nB: 再见(zàijiàn)！",
+ exampleSrc:"A: Alright, goodbye!\nB: Goodbye!",
  funFact:"再 means 'again' and 见 means 'to see.' So 再见 literally means 'see again.' Compare with French 'au revoir' (until seeing again) and German 'Auf Wiedersehen' (upon seeing again). Languages share this idea!"},
 
 {type:"mc", q:"What does 你好(nǐhǎo) literally mean?",
@@ -111,14 +111,14 @@ lessons:[
 
 {type:"teach", trg:"是(shì)", src:"to be", pos:"verb", gender:null,
  note:"Fourth tone (falling). The most common Chinese verb.\nLinks a subject to a noun: A 是 B.",
- example:"A: 你(nǐ)是(shì)学生(xuéshēng)吗(ma)？\nB: 是(shì)的(de)，我(wǒ)是(shì)学生(xuéshēng)。",
- exampleSrc:"A: Are you a student?\nB: Yes, I am a student.",
+ example:"A: 你(nǐ)是(shì)他(tā)吗(ma)？\nB: 不(bú)，我(wǒ)是(shì)我(wǒ)！",
+ exampleSrc:"A: Are you him?\nB: No, I am me!",
  funFact:"Chinese has no verb conjugation at all. 是 stays 是 whether the subject is I, you, he, she, or they. No am/is/are headaches. The same form works for past, present, and future."},
 
 {type:"teach", trg:"什么(shénme)", src:"what", pos:"pron", gender:null,
  note:"Question word. Always stays in the same position as the answer.\nNo word order change for questions!",
- example:"A: 你(nǐ)是(shì)什么(shénme)人(rén)？\nB: 我(wǒ)是(shì)美国(Měiguó)人(rén)。",
- exampleSrc:"A: What (kind of person) are you?\nB: I am American.",
+ example:"A: 你(nǐ)叫(jiào)什么(shénme)名字(míngzi)？\nB: 我(wǒ)叫(jiào)大卫(Dàwèi)。",
+ exampleSrc:"A: What is your name?\nB: My name is David.",
  funFact:"Chinese questions keep the same word order as statements. Swap the answer word with 什么 to make a question. No rearranging needed."},
 
 {type:"teach", trg:"叫(jiào)", src:"to be called", pos:"verb", gender:null,
@@ -140,8 +140,8 @@ lessons:[
 
 {type:"teach", trg:"不(bù)", src:"not / no", pos:"adv", gender:null,
  note:"Fourth tone normally, but changes to second tone before another fourth tone.\n不是(búshì) = am not / is not.",
- example:"A: 你(nǐ)是(shì)老师(lǎoshī)吗(ma)？\nB: 不(bú)是(shì)，我(wǒ)是(shì)学生(xuéshēng)。",
- exampleSrc:"A: Are you a teacher?\nB: No, I am a student.",
+ example:"A: 你(nǐ)是(shì)他(tā)吗(ma)？\nB: 不(bú)是(shì)，我(wǒ)是(shì)她(tā)。",
+ exampleSrc:"A: Are you him?\nB: No, I am her.",
  funFact:"不 changes its tone depending on what follows. Before a 4th tone word, it becomes 2nd tone: 不是 is pronounced búshì, not bùshì. This is one of only two characters in Chinese that change tone by rule."},
 
 {type:"mc", q:"How do you say 'My name is Lisa' in Chinese?",
@@ -194,8 +194,8 @@ lessons:[
 
 {type:"teach", trg:"谢谢(xièxie)", src:"thank you", pos:"intj", gender:null,
  note:"The universal thank-you. The second 谢 is pronounced with a neutral tone.\nMore polite: 谢谢你(xièxie nǐ) (thank you, specifically to you).",
- example:"A: 这(zhè)是(shì)你(nǐ)的(de)书(shū)。\nB: 谢谢(xièxie)！",
- exampleSrc:"A: This is your book.\nB: Thank you!",
+ example:"A: 你(nǐ)好(hǎo)！谢谢(xièxie)你(nǐ)！\nB: 不(bú)客气(kèqi)！",
+ exampleSrc:"A: Hello! Thank you!\nB: You are welcome!",
  funFact:"谢 originally meant 'to decline' or 'to fade away.' Thanking someone evolved from the idea of humbly withdrawing after receiving a favor. The repetition 谢谢 emphasizes sincerity."},
 
 {type:"teach", trg:"客气(kèqi)", src:"polite / courteous", pos:"adj", gender:null,
@@ -206,8 +206,8 @@ lessons:[
 
 {type:"teach", trg:"对不起(duìbuqǐ)", src:"sorry / excuse me", pos:"intj", gender:null,
  note:"A genuine apology. Literally: cannot face (you).\nStronger than a casual 'sorry.'",
- example:"A: 对不起(duìbuqǐ)，我(wǒ)来(lái)晚(wǎn)了(le)。\nB: 没关系(méi guānxi)！",
- exampleSrc:"A: Sorry, I came late.\nB: It is okay!",
+ example:"A: 对不起(duìbuqǐ)！\nB: 没关系(méi guānxi)！你(nǐ)好(hǎo)！",
+ exampleSrc:"A: Sorry!\nB: It is okay! Hello!",
  funFact:"对不起 literally means 'cannot face up to.' The feeling is: I have done something I cannot justify to you. This makes it a deeper apology than English 'sorry,' which can be very casual."},
 
 {type:"teach", trg:"没关系(méi guānxi)", src:"it is okay / no problem", pos:"intj", gender:null,

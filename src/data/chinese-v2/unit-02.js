@@ -20,8 +20,8 @@ const UNIT_02 = {
 
   {type:"teach", trg:"一(yī)", src:"one", pos:"num", gender:null,
    note:"The simplest character: one horizontal stroke.\nTone 1 (high flat) when counting.",
-   example:"A: 一(yī)、二(èr)、三(sān)!\nB: 好(hǎo)! 你(nǐ)会(huì)数(shǔ)数(shù)了(le)!",
-   exampleSrc:"A: One, two, three!\nB: Great! You can count now!",
+   example:"A: 一(yī)、二(èr)、三(sān)！\nB: 很(hěn)好(hǎo)！",
+   exampleSrc:"A: One, two, three!\nB: Very good!",
    funFact:"The character 一 is literally one horizontal line. Two lines stacked = 二 (two). Three lines = 三 (three). Ancient Chinese counting made visible."},
 
   {type:"teach", trg:"二(èr)", src:"two", pos:"num", gender:null,
@@ -32,20 +32,20 @@ const UNIT_02 = {
 
   {type:"teach", trg:"三(sān)", src:"three", pos:"num", gender:null,
    note:"Three horizontal strokes. Tone 1 (high flat).",
-   example:"A: 三(sān)加(jiā)三(sān)是(shì)几(jǐ)?\nB: 三(sān)加(jiā)三(sān)是(shì)六(liù)!",
-   exampleSrc:"A: What is three plus three?\nB: Three plus three is six!",
+   example:"A: 一(yī)、二(èr)、三(sān)！\nB: 好(hǎo)，是(shì)三(sān)！",
+   exampleSrc:"A: One, two, three!\nB: Good, that is three!",
    funFact:"After 三, the pattern of stacking lines stops. Four is NOT four lines. Instead, Chinese uses a completely different character: 四. Why? Four lines would be too hard to distinguish from three."},
 
   {type:"teach", trg:"四(sì)", src:"four", pos:"num", gender:null,
    note:"Tone 4 (falling). Often considered unlucky in Chinese culture.",
-   example:"A: 你(nǐ)住(zhù)几(jǐ)楼(lóu)?\nB: 我(wǒ)住(zhù)四(sì)楼(lóu)。",
-   exampleSrc:"A: Which floor do you live on?\nB: I live on the fourth floor.",
+   example:"A: 三(sān)、四(sì)、五(wǔ)？\nB: 是(shì)，三(sān)、四(sì)、五(wǔ)！",
+   exampleSrc:"A: Three, four, five?\nB: Yes, three, four, five!",
    funFact:"Four sounds like 死 (sǐ, death). Many Chinese buildings skip the 4th floor, just as some Western buildings skip 13. Phone numbers and license plates with 四 are cheaper."},
 
   {type:"teach", trg:"五(wǔ)", src:"five", pos:"num", gender:null,
    note:"Tone 3 (dipping). The middle number when counting on one hand.",
-   example:"A: 五(wǔ)个(gè)人(rén)。\nB: 好(hǎo)的(de)!",
-   exampleSrc:"A: Five people.\nB: All right!",
+   example:"A: 我(wǒ)有(yǒu)五(wǔ)个(gè)。\nB: 五(wǔ)个(gè)？好(hǎo)！",
+   exampleSrc:"A: I have five.\nB: Five? Great!",
    funFact:"In Chinese hand gestures, five is shown with an open palm, all five fingers up. The same as in the West. But 6-10 are shown on ONE hand using special gestures unique to China."},
 
   {type:"match", pairs:[
@@ -58,8 +58,8 @@ const UNIT_02 = {
 
   {type:"teach", trg:"六(liù)", src:"six", pos:"num", gender:null,
    note:"Tone 4 (falling). Considered a lucky number.",
-   example:"A: 六(liù)是(shì)好(hǎo)数字(shùzì)!\nB: 对(duì)! 六(liù)六(liù)大(dà)顺(shùn)!",
-   exampleSrc:"A: Six is a good number!\nB: Right! Double six, great luck!",
+   example:"A: 四(sì)、五(wǔ)、六(liù)！\nB: 好(hǎo)！六(liù)是(shì)好(hǎo)！",
+   exampleSrc:"A: Four, five, six!\nB: Good! Six is lucky!",
    funFact:"六 is lucky because it sounds like 溜 (liù, smooth/flowing). The phrase 六六大顺 means 'everything goes smoothly.' Many Chinese people love the number 6."},
 
   {type:"teach", trg:"七(qī)", src:"seven", pos:"num", gender:null,
@@ -70,14 +70,14 @@ const UNIT_02 = {
 
   {type:"teach", trg:"八(bā)", src:"eight", pos:"num", gender:null,
    note:"Tone 1 (high flat). The luckiest number in Chinese culture.",
-   example:"A: 八(bā)是(shì)最(zuì)好(hǎo)的(de)数字(shùzì)!\nB: 对(duì), 八(bā)八(bā)大(dà)发(fā)!",
-   exampleSrc:"A: Eight is the best number!\nB: Right, double eight, great fortune!",
+   example:"A: 八(bā)是(shì)很(hěn)好(hǎo)！\nB: 是(shì)，八(bā)八(bā)好(hǎo)！",
+   exampleSrc:"A: Eight is very lucky!\nB: Yes, double eight is great!",
    funFact:"八 sounds like 发 (fā, prosper/wealth). The Beijing Olympics opened on 08/08/08 at 8:08 PM. Phone numbers with 8s sell for thousands of dollars."},
 
   {type:"teach", trg:"九(jiǔ)", src:"nine", pos:"num", gender:null,
    note:"Tone 3 (dipping). Associated with longevity.",
-   example:"A: 九(jiǔ)加(jiā)一(yī)是(shì)十(shí)。\nB: 对(duì)!",
-   exampleSrc:"A: Nine plus one is ten.\nB: Correct!",
+   example:"A: 七(qī)、八(bā)、九(jiǔ)！\nB: 好(hǎo)！九(jiǔ)很(hěn)好(hǎo)！",
+   exampleSrc:"A: Seven, eight, nine!\nB: Good! Nine is great!",
    funFact:"九 sounds like 久 (jiǔ, long-lasting). The number 9 symbolizes eternity. The Forbidden City has 9,999 rooms. Gifts of 99 or 999 roses mean 'forever love.'"},
 
   {type:"teach", trg:"十(shí)", src:"ten", pos:"num", gender:null,
@@ -96,8 +96,8 @@ const UNIT_02 = {
 
   {type:"teach", trg:"零(líng)", src:"zero", pos:"num", gender:null,
    note:"Tone 2 (rising). Used in phone numbers, room numbers, and math.",
-   example:"A: 你(nǐ)的(de)房间(fángjiān)是(shì)零(líng)五(wǔ)号(hào)。\nB: 好(hǎo)的(de), 谢谢(xièxie)!",
-   exampleSrc:"A: Your room is number 05.\nB: OK, thanks!",
+   example:"A: 一(yī)零(líng)一(yī)！\nB: 好(hǎo)！是(shì)一(yī)、零(líng)、一(yī)。",
+   exampleSrc:"A: One zero one!\nB: Good! It is one, zero, one.",
    funFact:"The concept of zero reached China from India via the Silk Road. In phone numbers, Chinese people often say 零 (líng) for each 0, or sometimes 洞 (dòng, hole) in military contexts."},
 
   {type:"tip", title:"Chinese Number Hand Gestures",
@@ -175,8 +175,8 @@ const UNIT_02 = {
 
   {type:"teach", trg:"多(duō)", src:"many, much, how", pos:"adj", gender:null,
    note:"Used in questions about degree or quantity.\n多大 = how big/old. 多少 = how many.",
-   example:"A: 你(nǐ)多(duō)大(dà)?\nB: 我(wǒ)二十(èrshí)岁(suì)。",
-   exampleSrc:"A: How old are you?\nB: I am twenty years old.",
+   example:"A: 你(nǐ)多(duō)大(dà)?\nB: 我(wǒ)十(shí)岁(suì)。",
+   exampleSrc:"A: How old are you?\nB: I am ten years old.",
    funFact:"多 is incredibly versatile. 多大 (how big/old), 多少 (how many/much), 多长 (how long), 多远 (how far). It turns any adjective into a 'how much' question."},
 
   {type:"teach", trg:"大(dà)", src:"big, old (for age)", pos:"adj", gender:null,
