@@ -94,6 +94,9 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"The pair 硬(かた)い / 柔(やわ)らかい means:", opts:["Hard / soft","Hot / cold","Deep / shallow","Wide / narrow"], ans:"Hard / soft",
      hint:"These opposite adjectives describe texture and firmness."}
-  ,{type:"match",pairs:[{trg:"掃(は)く",src:"to sweep"},{trg:"拭(ふ)く",src:"to wipe"},{trg:"乾(かわ)かす",src:"to dry (something)"},{trg:"磨(みが)く",src:"to polish / to brush (teeth)"},{trg:"硬(かた)い",src:"hard / stiff / firm"},{trg:"柔(やわ)らかい",src:"soft / tender / gentle"}]}]
+  ,{type:"match",pairs:[{trg:"掃(は)く",src:"to sweep"},{trg:"拭(ふ)く",src:"to wipe"},{trg:"乾(かわ)かす",src:"to dry (something)"},{trg:"磨(みが)く",src:"to polish / to brush (teeth)"},{trg:"硬(かた)い",src:"hard / stiff / firm"},{trg:"柔(やわ)らかい",src:"soft / tender / gentle"}]},
+  {type:"fb", s:"毎週(まいしゅう)土曜日(どようび)に部屋(へや)の{1}をします。", a:["掃除(そうじ)"], opts:["掃除(そうじ)","洗(あら)う","畳(たた)む","干(ほ)す"], hint:"The household chore of tidying and cleaning a room.", sSrc:"Every Saturday I do {1} of my room."},
+  {type:"fb", s:"古(ふる)い服(ふく)を{1}てすっきりしました。", a:["捨(す)てる"], opts:["捨(す)てる","掃(は)く","拭(ふ)く","乾(かわ)かす"], hint:"The verb for disposing of unwanted items by throwing them away.", sSrc:"I felt refreshed after {1} my old clothes."}
+]
 };
 export default BATCH6_L1;

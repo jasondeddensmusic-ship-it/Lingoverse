@@ -81,6 +81,8 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"からといって...とは限(かぎ)らない means:", opts:["Just because X does not necessarily mean Y","Because of X, Y definitely follows","X and Y are the same","Neither X nor Y is true"], ans:"Just because X does not necessarily mean Y",
      hint:"This combined pattern warns against assuming a conclusion from a premise."},
-  {type:"match",pairs:[{trg:"腑(ふ)に落(お)ちない",src:"to not be convinced / to not make sense"}]}]
+  {type:"match",pairs:[{trg:"腑(ふ)に落(お)ちない",src:"to not be convinced / to not make sense"}]},
+  {type:"fb", s:"彼(かれ)の説明(せつめい)を聞(き)いても、どうも{1}。", a:["腑(ふ)に落(お)ちない"], opts:["腑(ふ)に落(お)ちない","〜をもって","〜を問(と)わず","〜ものの"], hint:"An idiomatic expression meaning the explanation does not make sense or convince you.", sSrc:"Even after hearing his explanation, something {1}."}
+]
 };
 export default BATCH2_L_1;

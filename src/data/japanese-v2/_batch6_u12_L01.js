@@ -94,6 +94,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"釣(つ)り means:", opts:["Fishing","Swimming","Running","Collecting"], ans:"Fishing",
      hint:"This hobby involves catching something from water using a rod."}
-  ,{type:"match",pairs:[{trg:"釣(つ)る",src:"to fish / to angle"},{trg:"絵(え)を描(か)く",src:"to draw a picture"},{trg:"集(あつ)める",src:"to collect / to gather"},{trg:"負(ま)ける",src:"to lose (a game)"}]}]
+  ,{type:"match",pairs:[{trg:"釣(つ)る",src:"to fish / to angle"},{trg:"絵(え)を描(か)く",src:"to draw a picture"},{trg:"集(あつ)める",src:"to collect / to gather"},{trg:"負(ま)ける",src:"to lose (a game)"}]},
+  {type:"fb", s:"バスに乗(の)り遅(おく)れないように全力(ぜんりょく)で{1}ました。", a:["走(はし)る"], opts:["走(はし)る","蹴(け)る","泳(およ)ぐ","投(な)げる"], hint:"The verb for moving on foot at speed.", sSrc:"I {1} at full speed so as not to miss the bus."}
+]
 };
 export default BATCH6_L1;

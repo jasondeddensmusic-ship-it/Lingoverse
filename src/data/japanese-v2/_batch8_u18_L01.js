@@ -95,6 +95,16 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is the difference between 命令(めいれい) and 指示(しじ)?", opts:["命令(めいれい) is a strong command, 指示(しじ) is a standard instruction","They mean exactly the same thing","指示(しじ) is stronger than 命令(めいれい)","命令(めいれい) is polite, 指示(しじ) is rude"], ans:"命令(めいれい) is a strong command, 指示(しじ) is a standard instruction",
      hint:"One carries the weight of a military-style order, the other is everyday workplace guidance."}
+  ,{type:"fb", s:"チームの結果(けっか)を上司(じょうし)に{1}する時間(じかん)です。",
+     a:["報告(ほうこく)する"],
+     opts:["報告(ほうこく)する","命令(めいれい)する","評価(ひょうか)する","指示(しじ)する"],
+     hint:"It is time to tell your manager about the team's results. This する-verb means 'to report' or 'to inform a superior.'",
+     sSrc:"It is time to {1} the team's results to the supervisor."}
+  ,{type:"fb", s:"この仕事(しごと)を田中(たなか)さんに{1}てもよいですか？",
+     a:["任(まか)せる"],
+     opts:["任(まか)せる","命令(めいれい)する","評価(ひょうか)する","指導(しどう)する"],
+     hint:"You are asking whether it is okay to give this work to Tanaka-san and let them handle it. This verb means 'to entrust' or 'to leave it to someone.'",
+     sSrc:"May I {1} this work to Tanaka-san?"}
   ,{type:"match",pairs:[{trg:"任務(にんむ)",src:"duty / task / mission"},{trg:"担当(たんとう)する",src:"to be in charge of / to handle"},{trg:"指導(しどう)する",src:"to guide / to coach / to instruct"},{trg:"期待(きたい)する",src:"to expect / to look forward to / to count on"},{trg:"基準(きじゅん)を守(まも)る",src:"to follow standards / to observe rules"},{trg:"評価(ひょうか)する",src:"to evaluate / to assess / to appraise"}]}]
 };
 export default BATCH8_L1;

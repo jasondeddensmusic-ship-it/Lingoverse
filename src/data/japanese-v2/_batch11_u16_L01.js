@@ -106,6 +106,11 @@ const BATCH11_L1 = {
      opts:["Last-minute cancellation","A type of dance","A card game","A morning exercise"],
      ans:"Last-minute cancellation",
      hint:"This slang word combines 'l... moment' with 'cancel' and describes something considered very rude in Japanese culture."}
+  ,{type:"fb", s:"友達(ともだち)にパーティーに来(く)るよう{1}ました。",
+    a:["誘(さそ)う"],
+    opts:["誘(さそ)う","断(ことわ)る","決(き)める","確認(かくにん)する"],
+    hint:"You asked a friend to join the party. This verb means 'to invite' or 'to ask someone to come along.'",
+    sSrc:"I {1} a friend to come to the party."}
   ,{type:"match",pairs:[{trg:"約束(やくそく)",src:"promise / appointment"},{trg:"つもり",src:"intention / plan to"},{trg:"準備(じゅんび)",src:"preparation"},{trg:"決(き)める",src:"to decide"},{trg:"変更(へんこう)",src:"change / modification"},{trg:"遅刻(ちこく)",src:"being late / tardiness"}]}]
 };
 export default BATCH11_L1;

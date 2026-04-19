@@ -83,6 +83,8 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"遭難(そうなん)する means:", opts:["to succeed","to be in distress","to celebrate","to travel"], ans:"to be in distress",
      hint:"This word describes a life-threatening situation, usually on a mountain or at sea."},
-  {type:"match",pairs:[{trg:"遭難(そうなん)する",src:"to be in distress / to be shipwrecked"}]}]
+  {type:"match",pairs:[{trg:"遭難(そうなん)する",src:"to be in distress / to be shipwrecked"}]},
+  {type:"fb", s:"警察(けいさつ)は{1}を尋問(じんもん)しました。", a:["容疑者(ようぎしゃ)"], opts:["容疑者(ようぎしゃ)","犯人(はんにん)","証人(しょうにん)","弁護士(べんごし)"], hint:"A person under investigation but not yet convicted.", sSrc:"The police questioned the {1}."}
+]
 };
 export default BATCH2_L_1;

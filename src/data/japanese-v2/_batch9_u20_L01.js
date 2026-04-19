@@ -57,6 +57,11 @@ const BATCH9_L1 = {
     ]},
     {type:"mc", q:"What does かしこまりました mean?", opts:["Certainly / I understand (very humble)","I am sorry","Please wait","Thank you"], ans:"Certainly / I understand (very humble)",
      hint:"This is the most formal response to a request, commonly heard in service settings."}
+  ,{type:"fb", s:"名刺(めいし)をお渡(わた)しし、メールを{1}しました。",
+    a:["拝見(はいけん)する"],
+    opts:["拝見(はいけん)する","いただく","差(さ)し上(あ)げる","参(まい)る"],
+    hint:"After exchanging business cards, you humbly read their email. This humble verb means 'to look at' or 'to read' something belonging to a superior.",
+    sSrc:"I handed my business card and {1} their email."}
   ,{type:"match",pairs:[{trg:"おる",src:"to be / to exist (humble)"},{trg:"存(ぞん)じる",src:"to know (humble)"},{trg:"差(さ)し上(あ)げる",src:"to give (humble)"},{trg:"拝見(はいけん)する",src:"to look / to see (humble)"}]}]
 };
 export default BATCH9_L1;

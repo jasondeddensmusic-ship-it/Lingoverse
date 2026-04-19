@@ -88,6 +88,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"働(はたら)き方(かた)改革(かいかく) is:", opts:["Government reform of work culture and practices","A new type of job","A salary increase program","A retirement plan"], ans:"Government reform of work culture and practices",
      hint:"This 2019 law changed overtime limits and working conditions in Japan."}
-  ,{type:"match",pairs:[{trg:"定年退職(ていねんたいしょく)",src:"mandatory retirement"},{trg:"人材(じんざい)",src:"human resources / talented personnel"},{trg:"働(はたら)き方(かた)",src:"work style / way of working"}]}]
+  ,{type:"match",pairs:[{trg:"定年退職(ていねんたいしょく)",src:"mandatory retirement"},{trg:"人材(じんざい)",src:"human resources / talented personnel"},{trg:"働(はたら)き方(かた)",src:"work style / way of working"}]},
+  {type:"fb", s:"今週(こんしゅう)は毎日(まいにち){1}が続(つづ)いています。", a:["残業(ざんぎょう)"], opts:["残業(ざんぎょう)","雇用(こよう)","失業(しつぎょう)","転職(てんしょく)"], hint:"Work performed beyond the regular end-of-shift time, often compensated extra.", sSrc:"Overtime has continued every day this week."}
+]
 };
 export default BATCH6_L1;

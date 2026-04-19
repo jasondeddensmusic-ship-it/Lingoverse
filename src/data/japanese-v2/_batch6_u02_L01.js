@@ -100,6 +100,9 @@ const BATCH6_L1 = {
 
     {type:"fb", s:"お仕事(しごと)は{1}ですか？\n(What is your job?)", a:"なん", opts:["なん","どこ","いくら","だれ"], sSrc:"What is your job?",
      hint:"The question word meaning 'what' that fits before ですか."}
-  ,{type:"match",pairs:[{trg:"教師(きょうし)",src:"teacher (formal)"},{trg:"エンジニア",src:"engineer"},{trg:"働(はたら)く",src:"to work"}]}]
+  ,{type:"match",pairs:[{trg:"教師(きょうし)",src:"teacher (formal)"},{trg:"エンジニア",src:"engineer"},{trg:"働(はたら)く",src:"to work"}]},
+  {type:"fb", s:"病気(びょうき)になったので{1}に診(み)てもらいました。", a:["医者(いしゃ)"], opts:["医者(いしゃ)","教師(きょうし)","会社員(かいしゃいん)","学生(がくせい)"], hint:"The healthcare professional who examines patients and prescribes treatment.", sSrc:"Because I got sick, I had a {1} examine me."},
+  {type:"fb", s:"彼(かれ)は病院(びょういん)で{1}いています。", a:["働(はたら)く"], opts:["働(はたら)く","学生(がくせい)","看護師(かんごし)","休(やす)み"], hint:"The verb for being employed or doing work at a place.", sSrc:"He is {1} at a hospital."}
+]
 };
 export default BATCH6_L1;

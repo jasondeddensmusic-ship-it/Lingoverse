@@ -106,6 +106,11 @@ const BATCH11_L1 = {
      opts:["Someone who anticipates others' needs","Someone who is selfish","Someone who is quiet","Someone who is strong"],
      ans:"Someone who anticipates others' needs",
      hint:"This describes a person who is socially attentive and considerate, proactively caring for those around them."}
+  ,{type:"fb", s:"いつも応援(おうえん)してくれて、{1}しています。本当(ほんとう)にありがとう。",
+    a:["感謝(かんしゃ)"],
+    opts:["感謝(かんしゃ)","迷惑(めいわく)","遠慮(えんりょ)","お詫(わ)び"],
+    hint:"You deeply appreciate someone's constant support. This noun expresses sincere gratitude or appreciation.",
+    sSrc:"I am {1} for your constant support. Thank you so much."}
   ,{type:"match",pairs:[{trg:"お願(ねが)い",src:"request / favor"},{trg:"頼(たの)む",src:"to request / to ask a favor"},{trg:"遠慮(えんりょ)",src:"restraint / holding back / hesitation"},{trg:"気(き)を使(つか)う",src:"to be considerate / attentive"}]}]
 };
 export default BATCH11_L1;

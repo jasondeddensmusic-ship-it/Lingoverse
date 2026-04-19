@@ -116,6 +116,8 @@ const BATCH4_L_2 = {
     {type:"mc", q:"虹(にじ) means:",
      opts:["rainbow","cloud","thunder","lightning"], ans:"rainbow",
      hint:"The colorful arc that appears in the sky after rain."}
-  ,{type:"match",pairs:[{trg:"ハイキング",src:"hiking"},{trg:"釣(つ)り",src:"fishing"},{trg:"泳(およ)ぐ",src:"to swim"},{trg:"登(のぼ)る",src:"to climb"},{trg:"バーベキュー",src:"barbecue"},{trg:"虹(にじ)",src:"rainbow"}]}]
+  ,{type:"match",pairs:[{trg:"ハイキング",src:"hiking"},{trg:"釣(つ)り",src:"fishing"},{trg:"泳(およ)ぐ",src:"to swim"},{trg:"登(のぼ)る",src:"to climb"},{trg:"バーベキュー",src:"barbecue"},{trg:"虹(にじ)",src:"rainbow"}]},
+  {type:"fb", s:"先週(せんしゅう)、友(とも)だちと山(やま)に{1}ました。", a:["登(のぼ)る"], opts:["登(のぼ)る","泳(およ)ぐ","釣(つ)り","ハイキング"], hint:"The verb meaning to ascend a mountain or height.", sSrc:"Last week I {1} a mountain with my friend."}
+]
 };
 export default BATCH4_L_2;

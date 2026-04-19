@@ -116,6 +116,9 @@ const BATCH4_L_2 = {
     {type:"mc", q:"目指(めざ)す means:",
      opts:["to aim for / aspire to","to give up","to remember","to forget"], ans:"to aim for / aspire to",
      hint:"Setting your sights on a long-term goal or aspiration."}
-  ,{type:"match",pairs:[{trg:"将来(しょうらい)",src:"future / in the future"},{trg:"計画(けいかく)する",src:"to plan"},{trg:"決(き)める",src:"to decide"},{trg:"選(えら)ぶ",src:"to choose / select"},{trg:"間(ま)に合(あ)う",src:"to be in time / make it"},{trg:"遅(おく)れる",src:"to be late"}]},{type:"match",pairs:[{trg:"目指(めざ)す",src:"to aim for / aspire to"},{trg:"迷(まよ)う",src:"to be lost / to hesitate / be torn"}]}]
+  ,{type:"match",pairs:[{trg:"将来(しょうらい)",src:"future / in the future"},{trg:"計画(けいかく)する",src:"to plan"},{trg:"決(き)める",src:"to decide"},{trg:"選(えら)ぶ",src:"to choose / select"},{trg:"間(ま)に合(あ)う",src:"to be in time / make it"},{trg:"遅(おく)れる",src:"to be late"}]},{type:"match",pairs:[{trg:"目指(めざ)す",src:"to aim for / aspire to"},{trg:"迷(まよ)う",src:"to be lost / to hesitate / be torn"}]},
+  {type:"fb", s:"今年(ことし)の{1}はJLPT N2に合格(ごうかく)することです。", a:["目標(もくひょう)"], opts:["目標(もくひょう)","将来(しょうらい)","計画(けいかく)する","選(えら)ぶ"], hint:"A specific aim or target you set for yourself to work toward.", sSrc:"My {1} for this year is to pass JLPT N2."},
+  {type:"fb", s:"留学(りゅうがく)は日本語(にほんご)を上達(じょうたつ)させる良(よ)い{1}です。", a:["機会(きかい)"], opts:["機会(きかい)","可能性(かのうせい)","目標(もくひょう)","将来(しょうらい)"], hint:"A favourable situation that allows you to do or achieve something.", sSrc:"Studying abroad is a good {1} to improve your Japanese."}
+]
 };
 export default BATCH4_L_2;

@@ -95,6 +95,11 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does 応援(おうえん)しています express?", opts:["I am cheering you on / rooting for you","I am watching you","I am competing with you","I am worried about you"], ans:"I am cheering you on / rooting for you",
      hint:"This is one of the warmest supportive phrases in Japanese."}
+  ,{type:"fb", s:"夢(ゆめ)を実現(じつげん)するためには毎日(まいにち)の{1}が大切(たいせつ)です。",
+     a:["努力(どりょく)"],
+     opts:["努力(どりょく)","目標(もくひょう)","将来(しょうらい)","きっかけ"],
+     hint:"To make your dreams come true, daily hard work is essential. This noun means 'effort' or 'hard work.'",
+     sSrc:"To realize your dreams, daily {1} is important."}
   ,{type:"match",pairs:[{trg:"経験(けいけん)を積(つ)む",src:"to accumulate experience"},{trg:"後悔(こうかい)する",src:"to regret"},{trg:"きっかけ",src:"trigger / opportunity / catalyst"},{trg:"決(き)める",src:"to decide / to determine"},{trg:"応援(おうえん)する",src:"to support / to cheer on / to root for"}]}]
 };
 export default BATCH8_L1;

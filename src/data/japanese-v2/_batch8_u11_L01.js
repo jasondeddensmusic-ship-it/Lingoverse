@@ -95,6 +95,16 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"Why do Japanese school students do 雑巾(ぞうきん)がけ?", opts:["To clean floors on hands and knees, building character","To practice calligraphy on the floor","To play a traditional game","To exercise during breaks"], ans:"To clean floors on hands and knees, building character",
      hint:"This traditional cleaning method is part of students cleaning their own classrooms."}
+  ,{type:"fb", s:"洗濯(せんたく)が終(お)わったら、シャツをハンガーに掛(か)けて{1}ください。",
+     a:["干(ほ)す"],
+     opts:["干(ほ)す","畳(たた)む","絞(しぼ)る","片付(かたづ)ける"],
+     hint:"After washing, hang the shirt on a hanger and leave it out. This verb means 'to air-dry' or 'to hang out to dry.'",
+     sSrc:"After washing, hang the shirt on a hanger and {1} please."}
+  ,{type:"fb", s:"部屋(へや)が散(ち)らかっているので{1}ましょう。すっきりしますよ。",
+     a:["片付(かたづ)ける"],
+     opts:["片付(かたづ)ける","干(ほ)す","磨(みが)く","絞(しぼ)る"],
+     hint:"The room is messy and you want to get it organized. This verb means 'to tidy up' or 'to put things away.'",
+     sSrc:"Since the room is messy, let us {1}. It will feel refreshing."}
   ,{type:"match",pairs:[{trg:"零(こぼ)す",src:"to spill"},{trg:"濡(ぬ)らす",src:"to wet / to moisten / to dampen"},{trg:"磨(みが)く",src:"to polish / to brush / to scrub"},{trg:"乾(かわ)かす",src:"to dry (something)"},{trg:"混(ま)ぜる",src:"to mix / to stir / to blend"},{trg:"絞(しぼ)る",src:"to wring / to squeeze / to tighten"}]},{type:"match",pairs:[{trg:"箒(ほうき)",src:"broom"}]}]
 };
 export default BATCH8_L1;

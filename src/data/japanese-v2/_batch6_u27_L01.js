@@ -88,6 +88,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"Japan's energy self-sufficiency is low because:", opts:["The country has few natural resources","It uses too much solar power","It exports all its energy","It has no nuclear power"], ans:"The country has few natural resources",
      hint:"Japan must import most of its fossil fuels and raw materials."}
-  ,{type:"match",pairs:[{trg:"持続可能(じぞくかのう)",src:"sustainable"},{trg:"太陽光(たいようこう)",src:"solar power / sunlight"},{trg:"排出(はいしゅつ)",src:"emission / discharge"},{trg:"汚(よご)す",src:"to pollute / to dirty / to contaminate"}]}]
+  ,{type:"match",pairs:[{trg:"持続可能(じぞくかのう)",src:"sustainable"},{trg:"太陽光(たいようこう)",src:"solar power / sunlight"},{trg:"排出(はいしゅつ)",src:"emission / discharge"},{trg:"汚(よご)す",src:"to pollute / to dirty / to contaminate"}]},
+  {type:"fb", s:"日本(にほん)はエネルギー{1}が少(すく)ないので輸入(ゆにゅう)に頼(たよ)っています。", a:["資源(しげん)"], opts:["資源(しげん)","排出(はいしゅつ)","太陽光(たいようこう)","持続可能(じぞくかのう)"], hint:"Natural materials such as oil, gas, or minerals that an economy depends on.", sSrc:"Japan relies on imports because it has few energy {1}."}
+]
 };
 export default BATCH6_L1;

@@ -79,6 +79,8 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"ということだ can mean:", opts:["Both 'I heard that' and 'it means that'","Only 'I heard that'","Only 'it means that'","Neither"], ans:"Both 'I heard that' and 'it means that'",
      hint:"This versatile pattern serves as both hearsay reporting and logical clarification."}
-  ,{type:"match",pairs:[{trg:"〜ということだ",src:"it means that ~ / I heard that ~ / that is to say"},{trg:"転勤(てんきん)",src:"job transfer / work relocation"},{trg:"日記(にっき)",src:"diary / journal"},{trg:"意外(いがい)",src:"unexpected / surprising / contrary to expectations"}]}]
+  ,{type:"match",pairs:[{trg:"〜ということだ",src:"it means that ~ / I heard that ~ / that is to say"},{trg:"転勤(てんきん)",src:"job transfer / work relocation"},{trg:"日記(にっき)",src:"diary / journal"},{trg:"意外(いがい)",src:"unexpected / surprising / contrary to expectations"}]},
+  {type:"fb", s:"来月(らいげつ)、大阪(おおさか)に{1}することになりました。", a:["転勤(てんきん)"], opts:["転勤(てんきん)","〜ことになる","〜ことにしている","〜ことはない"], hint:"A company-ordered transfer that relocates an employee to another office or city.", sSrc:"It has been decided that I will {1} to Osaka next month."}
+]
 };
 export default BATCH5_L_2;

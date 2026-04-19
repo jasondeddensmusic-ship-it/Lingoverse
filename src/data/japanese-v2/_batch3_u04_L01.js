@@ -118,6 +118,8 @@ const BATCH3_L_1 = {
     {type:"mc", q:"いらっしゃいませ is said by:", opts:["The customer when entering","Store staff to greeting customers","The cashier when giving change","Both the customer and staff"],
      ans:"Store staff to greeting customers",
      hint:"This welcome phrase is directed FROM s... TO c.... No reply is expected."},
-  {type:"match",pairs:[{trg:"本屋(ほんや)",src:"bookstore"},{trg:"薬屋(くすりや)",src:"pharmacy / drugstore"},{trg:"締(し)めて",src:"total / grand total"},{trg:"いらっしゃいませ",src:"welcome (to our store)"}]}]
+  {type:"match",pairs:[{trg:"本屋(ほんや)",src:"bookstore"},{trg:"薬屋(くすりや)",src:"pharmacy / drugstore"},{trg:"締(し)めて",src:"total / grand total"},{trg:"いらっしゃいませ",src:"welcome (to our store)"}]},
+  {type:"fb", s:"マンガを買(か)いに{1}へ行(い)きました。", a:["本屋(ほんや)"], opts:["本屋(ほんや)","スーパー","コンビニ","デパート"], hint:"A shop specialising in books, magazines, and comics.", sSrc:"I went to the {1} to buy manga."}
+]
 };
 export default BATCH3_L_1;

@@ -69,6 +69,11 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"What is the casual contraction of なくてはいけません?", opts:["なくちゃ / なきゃ","ないで","なくて","なければ"], ans:"なくちゃ / なきゃ",
      hint:"These very common casual forms shorten the obligation pattern dramatically."}
+  ,{type:"fb", s:"友達(ともだち)に荷物(にもつ)を持(も)っていただきました。これは{1}の表現(ひょうげん)です。",
+    a:["〜てもらう"],
+    opts:["〜てもらう","〜てあげる","〜てほしい","〜てください"],
+    hint:"A friend helped you carry your luggage. This te-form pattern expresses gratitude for an action received from someone.",
+    sSrc:"My friend carried my luggage. This is an expression of {1}."}
   ,{type:"match",pairs:[{trg:"〜てもいいですか",src:"may I? / is it okay if?"},{trg:"〜てあげる",src:"to do for someone (giving)"}]}]
 };
 export default BATCH10_L1;

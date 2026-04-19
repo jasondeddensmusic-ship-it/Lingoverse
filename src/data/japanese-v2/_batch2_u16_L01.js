@@ -93,5 +93,7 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"{1}しないと間(ま)に合(あ)いません。\n(If we do not hurry, we will not make it.)", a:"急(いそ)が", opts:["急(いそ)が","間(ま)に合(あ)わ","遅(おく)れ","やめ"], sSrc:"If we do not hurry, we will not make it.",
    hint:"The negative conditional stem of the verb meaning 'to rush.'"},
-{type:"match",pairs:[{trg:"退院(たいいん)する",src:"to leave the hospital / to be discharged"},{trg:"急(いそ)ぐ",src:"to hurry / to rush"},{trg:"大切(たいせつ)にする",src:"to cherish / to take care of"}]}]};
+{type:"match",pairs:[{trg:"退院(たいいん)する",src:"to leave the hospital / to be discharged"},{trg:"急(いそ)ぐ",src:"to hurry / to rush"},{trg:"大切(たいせつ)にする",src:"to cherish / to take care of"}]},
+  {type:"fb", s:"{1}の春(はる)に大学(だいがく)を卒業(そつぎょう)する予定(よてい)です。", a:["来年(らいねん)"], opts:["来年(らいねん)","来月(らいげつ)","来週(らいしゅう)","今年(ことし)"], hint:"The year that follows the current one.", sSrc:"I am scheduled to graduate from university in the spring of {1}."}
+]};
 export default BATCH2_L_1;

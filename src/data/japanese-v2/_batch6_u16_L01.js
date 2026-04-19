@@ -94,6 +94,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"折(お)り返(かえ)し relates to:", opts:["Returning a call or message","Making a new reservation","Arriving on time","Going to sleep"], ans:"Returning a call or message",
      hint:"This word literally means 'folding back' and is used for return contact."}
-  ,{type:"match",pairs:[{trg:"日にち(ひにち)",src:"date / day"},{trg:"都合(つごう)",src:"convenience / circumstances / availability"},{trg:"遅(おく)らせる",src:"to delay / to postpone"},{trg:"繰(く)り返(かえ)す",src:"to repeat"},{trg:"折(お)り返(かえ)し",src:"return (call/contact)"}]}]
+  ,{type:"match",pairs:[{trg:"日にち(ひにち)",src:"date / day"},{trg:"都合(つごう)",src:"convenience / circumstances / availability"},{trg:"遅(おく)らせる",src:"to delay / to postpone"},{trg:"繰(く)り返(かえ)す",src:"to repeat"},{trg:"折(お)り返(かえ)し",src:"return (call/contact)"}]},
+  {type:"fb", s:"レストランに電話(でんわ)して{1}を入(い)れました。", a:["予約(よやく)"], opts:["予約(よやく)","約束(やくそく)","都合(つごう)","変更(へんこう)"], hint:"A booking made in advance at a restaurant or hotel.", sSrc:"I called the restaurant and made a {1}."}
+]
 };
 export default BATCH6_L1;

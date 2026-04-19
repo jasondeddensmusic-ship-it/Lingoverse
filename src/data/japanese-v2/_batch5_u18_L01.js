@@ -93,6 +93,9 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"無理(むり)やり means:", opts:["By force / against one's will","Naturally / willingly","Carefully / gently","Politely / respectfully"], ans:"By force / against one's will",
      hint:"This adverb describes actions done without consent, often paired with causative-passive verbs."}
-  ,{type:"match",pairs:[{trg:"やらされる",src:"to be made to do (something unwanted)"},{trg:"新入社員(しんにゅうしゃいん)",src:"new employee / new hire"},{trg:"厳(きび)しい",src:"strict / harsh / severe"},{trg:"無理(むり)やり",src:"by force / forcibly / against one's will"},{trg:"断(ことわ)る",src:"to refuse / to decline"},{trg:"我慢(がまん)させられる",src:"to be made to endure / to be forced to put up with"}]}]
+  ,{type:"match",pairs:[{trg:"やらされる",src:"to be made to do (something unwanted)"},{trg:"新入社員(しんにゅうしゃいん)",src:"new employee / new hire"},{trg:"厳(きび)しい",src:"strict / harsh / severe"},{trg:"無理(むり)やり",src:"by force / forcibly / against one's will"},{trg:"断(ことわ)る",src:"to refuse / to decline"},{trg:"我慢(がまん)させられる",src:"to be made to endure / to be forced to put up with"}]},
+  {type:"fb", s:"新入社員(しんにゅうしゃいん)は好(す)きでもない雑用(ざつよう)を{1}ことが多(おお)い。", a:["やらされる"], opts:["やらされる","覚(おぼ)えさせられる","食(た)べさせられる","待(ま)たされる"], hint:"The shortened causative-passive of する, used when you are forced to do undesirable tasks.", sSrc:"New employees are often {1} chores they do not enjoy."},
+  {type:"fb", s:"無理(むり)な要求(ようきゅう)はきちんと{1}ことが大切(たいせつ)です。", a:["断(ことわ)る"], opts:["断(ことわ)る","覚(おぼ)えさせられる","やらされる","走(はし)らされる"], hint:"The verb for politely saying no to a request or offer.", sSrc:"It is important to properly {1} unreasonable requests."}
+]
 };
 export default BATCH5_L_1;

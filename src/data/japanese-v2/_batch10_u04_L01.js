@@ -69,6 +69,11 @@ const BATCH10_L1 = {
 
     {type:"mc", q:"How do you say 'one person' in Japanese?", opts:["1人(ひとり)","1人(いちにん)","1個(いっこ)","1つ(ひとつ)"], ans:"1人(ひとり)",
      hint:"The counter for people has special native Japanese readings for 1 and 2."}
+  ,{type:"fb", s:"車(くるま)やパソコンを数(かぞ)えるときに使(つか)う助数詞(じょすうし)は{1}です。",
+    a:["〜台(だい)"],
+    opts:["〜台(だい)","〜本(ほん)","〜冊(さつ)","〜個(こ)"],
+    hint:"This counter is used for machines and vehicles such as cars, computers, and bicycles.",
+    sSrc:"The counter used when counting cars and computers is {1}."}
   ,{type:"match",pairs:[{trg:"〜杯(はい)",src:"counter for cups/glasses/bowls"},{trg:"〜人(にん)",src:"counter for people"},{trg:"〜つ",src:"general counter (1-9)"}]}]
 };
 export default BATCH10_L1;

@@ -175,6 +175,18 @@ const UNIT_19 = {
 
   {type:"mc", q:"Which conditional CANNOT be followed by a request?", opts:["たら","ば","と","なら"], ans:"と",
    hint:"This conditional only works with automatic, natural results, never with commands or requests."},
+
+  {type:"fb", s:"困(こま)ったらいつでも{1}してください。助(たす)けます。",
+   a:["連絡(れんらく)する"],
+   opts:["連絡(れんらく)する","相談(そうだん)する","確認(かくにん)する","報告(ほうこく)する"],
+   hint:"If you are in trouble, please reach out at any time. This する-verb means 'to contact' or 'to get in touch.'",
+   sSrc:"If you are in trouble, please {1} at any time. I will help you."},
+
+  {type:"fb", s:"いいアパートを{1}いますが、なかなか見(み)つかりません。",
+   a:["探(さが)す"],
+   opts:["探(さが)す","決(き)める","借(か)りる","引(ひ)っ越(こ)す"],
+   hint:"You are on the hunt for a good apartment but cannot find one. This verb means 'to search' or 'to look for' something.",
+   sSrc:"I am {1} a good apartment but cannot find one easily."},
 ]},
 
 ,EXP_L3,EXP_L4,EXP_L5

@@ -122,6 +122,8 @@ const BATCH4_L_2 = {
     {type:"mc", q:"ズボン comes from which language?",
      opts:["French","English","German","Dutch"], ans:"French",
      hint:"Borrowed from a word that originally meant petticoat."}
-  ,{type:"match",pairs:[{trg:"服(ふく)",src:"clothes / clothing"},{trg:"スカート",src:"skirt"},{trg:"靴下(くつした)",src:"socks"},{trg:"帽子(ぼうし)",src:"hat / cap"},{trg:"ネクタイ",src:"necktie"},{trg:"脱(ぬ)ぐ",src:"to take off (clothing)"}]},{type:"match",pairs:[{trg:"似合(にあ)う",src:"to suit / to look good on"}]}]
+  ,{type:"match",pairs:[{trg:"服(ふく)",src:"clothes / clothing"},{trg:"スカート",src:"skirt"},{trg:"靴下(くつした)",src:"socks"},{trg:"帽子(ぼうし)",src:"hat / cap"},{trg:"ネクタイ",src:"necktie"},{trg:"脱(ぬ)ぐ",src:"to take off (clothing)"}]},{type:"match",pairs:[{trg:"似合(にあ)う",src:"to suit / to look good on"}]},
+  {type:"fb", s:"今日(きょう)は寒(さむ)いので厚(あつ)いコートを{1}ます。", a:["着(き)る"], opts:["着(き)る","履(は)く","被(かぶ)る","脱(ぬ)ぐ"], hint:"The verb for putting on garments worn on the upper body or full body.", sSrc:"Since it is cold today, I will {1} a thick coat."}
+]
 };
 export default BATCH4_L_2;

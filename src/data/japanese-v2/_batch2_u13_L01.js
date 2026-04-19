@@ -93,5 +93,7 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"山(やま)でキャンプを{1}ことがありますか？\n(Have you ever camped in the mountains?)", a:"した", opts:["した","する","して","できる"], sSrc:"Have you ever camped in the mountains?",
    hint:"The た-form of する, needed before ことがある for experiences."},
-{type:"match",pairs:[{trg:"スキューバダイビング",src:"scuba diving"},{trg:"スノーボード",src:"snowboarding"},{trg:"有名(ゆうめい)",src:"famous / well-known"}]}]};
+{type:"match",pairs:[{trg:"スキューバダイビング",src:"scuba diving"},{trg:"スノーボード",src:"snowboarding"},{trg:"有名(ゆうめい)",src:"famous / well-known"}]},
+  {type:"fb", s:"週末(しゅうまつ)に{1}をしに川(かわ)へ行(い)きました。", a:["釣(つ)り"], opts:["釣(つ)り","スノーボード","ホームステイ","キャンプ"], hint:"A leisure activity done near water with a rod and line.", sSrc:"I went to the river on the weekend to do {1}."}
+]};
 export default BATCH2_L_1;

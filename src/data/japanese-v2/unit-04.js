@@ -122,6 +122,18 @@ const UNIT_04 = {
 
   {type:"mc", q:"赤(あか)い傘(かさ) means:", opts:["big umbrella","old umbrella","expensive umbrella","red umbrella"], ans:"red umbrella",
    hint:"Akai is the i-adjective form of aka (r...)."},
+
+  {type:"fb", s:"このコートはとても{1}です。五万(ごまん)円(えん)もします。",
+   a:["高(たか)い"],
+   opts:["高(たか)い","安(やす)い","小(ちい)さい","大(おお)きい"],
+   hint:"The coat costs 50,000 yen. This i-adjective describes something that costs a lot.",
+   sSrc:"This coat is very {1}. It costs 50,000 yen."},
+
+  {type:"fb", s:"このスーパーの野菜(やさい)はとても{1}ですね。助(たす)かります。",
+   a:["安(やす)い"],
+   opts:["安(やす)い","高(たか)い","大(おお)きい","緑(みどり)"],
+   hint:"The vegetables at this supermarket have very low prices. This i-adjective means the opposite of expensive.",
+   sSrc:"The vegetables at this supermarket are very {1}. That is a great help."},
 ]},
 
 // ═══ L2: 数字(すうじ) (Numbers & Counters) ═══
@@ -207,6 +219,12 @@ const UNIT_04 = {
   {type:"match", pairs:[{trg:"百(ひゃく)",src:"100"},{trg:"千(せん)",src:"1,000"},{trg:"万(まん)",src:"10,000"},{trg:"三百(さんびゃく)",src:"300"}]},
 
   {type:"match", pairs:[{trg:"個(こ)",src:"counter: small objects"},{trg:"枚(まい)",src:"counter: flat objects"},{trg:"本(ほん)",src:"counter: long objects"},{trg:"ください",src:"please (give me)"}]},
+
+  {type:"fb", s:"すみません、このりんごを三個(さんこ){1}。",
+   a:["ください"],
+   opts:["ください","あります","います","です"],
+   hint:"You are at a market and politely asking the vendor to give you three apples. This word means 'please give me.'",
+   sSrc:"Excuse me, {1} three of these apples."},
 
   {type:"mc", q:"How do you say 'two flat objects' (like two tickets)?", opts:["二個(にこ)","二本(にほん)","二十(にじゅう)","二枚(にまい)"], ans:"二枚(にまい)",
    hint:"Flat things use the mai counter. No sound changes with two."},

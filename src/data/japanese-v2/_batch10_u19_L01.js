@@ -57,6 +57,11 @@ const BATCH10_L1 = {
     ]},
     {type:"mc", q:"What does 工夫(くふう) represent in Japanese culture?", opts:["Finding clever solutions within constraints","Giving up on difficult tasks","Spending more money","Asking for help"], ans:"Finding clever solutions within constraints",
      hint:"This word captures the Japanese value of creative invention born from necessity."}
+  ,{type:"fb", s:"問題(もんだい)が起(お)きたとき、まず上司(じょうし)に{1}しましょう。",
+    a:["相談(そうだん)する"],
+    opts:["相談(そうだん)する","あきらめる","困(こま)る","解決(かいけつ)する"],
+    hint:"When a problem arises, the first step is to seek advice from your manager. This verb means 'to consult' or 'to discuss.'",
+    sSrc:"When a problem arises, let's first {1} with a supervisor."}
   ,{type:"match",pairs:[{trg:"困(こま)る",src:"to be troubled / to be at a loss"},{trg:"相談(そうだん)する",src:"to consult / to discuss"},{trg:"仕方(しかた)がない",src:"it cannot be helped / there is no choice"},{trg:"めどが立(た)つ",src:"to have a rough timeline / to see a way forward"}]}]
 };
 export default BATCH10_L1;

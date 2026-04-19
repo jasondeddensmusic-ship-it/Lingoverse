@@ -88,6 +88,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"描(えが)く in literary context means:", opts:["To depict or portray through writing","To physically draw a picture","To erase something","To read aloud"], ans:"To depict or portray through writing",
      hint:"In literature, this verb describes how an author represents subjects in w...."}
-  ,{type:"match",pairs:[{trg:"描(えが)く",src:"to depict / to portray / to draw"},{trg:"背景(はいけい)",src:"background / setting / context"},{trg:"テーマ",src:"theme / subject"},{trg:"共感(きょうかん)",src:"empathy / sympathy / resonance"}]}]
+  ,{type:"match",pairs:[{trg:"描(えが)く",src:"to depict / to portray / to draw"},{trg:"背景(はいけい)",src:"background / setting / context"},{trg:"テーマ",src:"theme / subject"},{trg:"共感(きょうかん)",src:"empathy / sympathy / resonance"}]},
+  {type:"fb", s:"この小説(しょうせつ)の{1}は若(わか)い侍(さむらい)です。", a:["主人公(しゅじんこう)"], opts:["主人公(しゅじんこう)","物語(ものがたり)","作品(さくひん)","背景(はいけい)"], hint:"The central character around whom the story revolves.", sSrc:"The {1} of this novel is a young samurai."}
+]
 };
 export default BATCH6_L1;

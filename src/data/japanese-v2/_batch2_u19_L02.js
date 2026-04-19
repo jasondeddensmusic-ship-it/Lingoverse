@@ -83,6 +83,8 @@ const BATCH2_L_2 = {
 
     {type:"mc", q:"としたら vs としても: what is the difference?", opts:["They mean the same thing","としたら explores a hypothetical; としても dismisses its impact","としたら is past; としても is present","としたら is formal; としても is casual"], ans:"としたら explores a hypothetical; としても dismisses its impact",
      hint:"One sets up 'what if?' for discussion. The other says 'even if that were so, it would not matter.'"},
-  {type:"match",pairs:[{trg:"たとえ〜ても",src:"even if ~ / no matter how much ~"},{trg:"理論(りろん)",src:"theory"}]}]
+  {type:"match",pairs:[{trg:"たとえ〜ても",src:"even if ~ / no matter how much ~"},{trg:"理論(りろん)",src:"theory"}]},
+  {type:"fb", s:"昨日(きのう)は{1}があったので学校(がっこう)を休(やす)みました。", a:["熱(ねつ)"], opts:["熱(ねつ)","雨(あめ)","約束(やくそく)","仕事(しごと)"], hint:"The physical symptom of a high body temperature during illness.", sSrc:"I took the day off school yesterday because I had a {1}."}
+]
 };
 export default BATCH2_L_2;

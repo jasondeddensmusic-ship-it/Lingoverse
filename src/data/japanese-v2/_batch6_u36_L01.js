@@ -94,6 +94,9 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"勤(つと)める can mean all of the following EXCEPT:", opts:["To steal","To work at a company","To serve as a role","To strive/make effort"], ans:"To steal",
      hint:"This verb has three kanji forms covering employment, serving, and effort."}
-  ,{type:"match",pairs:[{trg:"伴(ともな)う",src:"to accompany / to entail / to involve"},{trg:"訴(うった)える",src:"to appeal / to sue / to complain"},{trg:"幅(はば)",src:"width / range / scope"},{trg:"目立(めだ)つ",src:"to stand out / to be noticeable / to be conspicuous"},{trg:"雇(やと)う",src:"to employ / to hire"},{trg:"勤(つと)める",src:"to work (at) / to serve / to strive"}]}]
+  ,{type:"match",pairs:[{trg:"伴(ともな)う",src:"to accompany / to entail / to involve"},{trg:"訴(うった)える",src:"to appeal / to sue / to complain"},{trg:"幅(はば)",src:"width / range / scope"},{trg:"目立(めだ)つ",src:"to stand out / to be noticeable / to be conspicuous"},{trg:"雇(やと)う",src:"to employ / to hire"},{trg:"勤(つと)める",src:"to work (at) / to serve / to strive"}]},
+  {type:"fb", s:"会社(かいしゃ)は新(あたら)しい働(はたら)き方(かた)を正式(せいしき)に{1}ました。", a:["認(みと)める"], opts:["認(みと)める","取(と)り組(く)む","伴(ともな)う","異(こと)なる"], hint:"The verb for formally approving or acknowledging something as valid.", sSrc:"The company formally {1} the new way of working."},
+  {type:"fb", s:"この道路(どうろ)の{1}は十メートルです。", a:["幅(はば)"], opts:["幅(はば)","抑(おさ)える","訴(うった)える","目立(めだ)つ"], hint:"The noun for the measurement of how wide something is from side to side.", sSrc:"The {1} of this road is ten metres."}
+]
 };
 export default BATCH6_L1;

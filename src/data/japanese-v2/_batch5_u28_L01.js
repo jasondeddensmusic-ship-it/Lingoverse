@@ -79,6 +79,8 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"いかなる is the literary equivalent of:", opts:["どんな (what kind of / any)","いつ (when)","どこ (where)","なぜ (why)"], ans:"どんな (what kind of / any)",
      hint:"This classical adjective replaces the everyday question word for 'what k... of' in formal writing."}
-  ,{type:"match",pairs:[{trg:"いかなる",src:"what kind of / any / whatever"},{trg:"〜ものの",src:"although / even though (literary)"},{trg:"わずか",src:"merely / only / a tiny amount"},{trg:"強靭(きょうじん)",src:"strong / tough / robust / tenacious"},{trg:"達成感(たっせいかん)",src:"sense of achievement / feeling of accomplishment"}]}]
+  ,{type:"match",pairs:[{trg:"いかなる",src:"what kind of / any / whatever"},{trg:"〜ものの",src:"although / even though (literary)"},{trg:"わずか",src:"merely / only / a tiny amount"},{trg:"強靭(きょうじん)",src:"strong / tough / robust / tenacious"},{trg:"達成感(たっせいかん)",src:"sense of achievement / feeling of accomplishment"}]},
+  {type:"fb", s:"{1}困難(こんなん)があっても、諦(あきら)めないことが大切(たいせつ)です。", a:["いかなる"], opts:["いかなる","〜にほかならない","〜からこそ","わずか"], hint:"A literary adjective meaning 'whatever kind of' or 'any', used in formal writing.", sSrc:"No matter what {1} difficulties arise, it is important not to give up."}
+]
 };
 export default BATCH5_L_1;

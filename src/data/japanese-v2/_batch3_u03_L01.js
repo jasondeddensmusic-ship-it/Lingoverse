@@ -120,6 +120,8 @@ const BATCH3_L_1 = {
     {type:"mc", q:"います is used for:", opts:["Books and pens","Boxes and wallets","Tables and chairs","Cats and people"],
      ans:"Cats and people",
      hint:"This existence verb is only for things that are alive and move on their own."},
-  {type:"match",pairs:[{trg:"スマホ",src:"smartphone"},{trg:"辞書(じしょ)",src:"dictionary"},{trg:"箱(はこ)",src:"box"}]}]
+  {type:"match",pairs:[{trg:"スマホ",src:"smartphone"},{trg:"辞書(じしょ)",src:"dictionary"},{trg:"箱(はこ)",src:"box"}]},
+  {type:"fb", s:"テーブルの{1}に本(ほん)があります。", a:["上(うえ)"], opts:["上(うえ)","下(した)","右(みぎ)","左(ひだり)"], hint:"The position directly higher than something, used with あります.", sSrc:"There is a book {1} the table."}
+]
 };
 export default BATCH3_L_1;

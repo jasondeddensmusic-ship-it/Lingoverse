@@ -133,6 +133,16 @@ const BATCH7_L1 = {
      opts:["乾(かわ)き","汚(よご)れ","畳(たた)み","脱(ぬ)ぎ"],
      hint:"Because it is raining, the laundry will not become dry. This verb describes the drying process.",
      sSrc:"Because it is raining, the laundry will not {1}."}
+  ,{type:"fb", s:"冬(ふゆ)は寒(さむ)いので、{1}をして外(そと)に出(で)かけましょう。",
+     a:["手袋(てぶくろ)"],
+     opts:["手袋(てぶくろ)","帽子(ぼうし)","靴下(くつした)","アクセサリー"],
+     hint:"It is cold in winter, so put these on your hands before going outside. They protect your hands from the cold.",
+     sSrc:"It is cold in winter, so put on {1} and go out."}
+  ,{type:"fb", s:"好(す)きな服(ふく)を{1}に持(も)っていって着(き)てみてください。",
+     a:["試着室(しちゃくしつ)"],
+     opts:["試着室(しちゃくしつ)","台所(だいどころ)","会議室(かいぎしつ)","浴室(よくしつ)"],
+     hint:"Take the clothes you like to this private area in a shop and try them on.",
+     sSrc:"Take the clothes you like to the {1} and try them on."}
   ,{type:"match",pairs:[{trg:"アクセサリー",src:"accessories / jewelry"},{trg:"試着室(しちゃくしつ)",src:"fitting room"}]}]
 };
 export default BATCH7_L1;

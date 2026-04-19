@@ -127,6 +127,8 @@ const BATCH4_L_1 = {
      sSrc:"I study Japanese every day.",
      opts:["勉強(べんきょう)","練習(れんしゅう)","質問(しつもん)","宿題(しゅくだい)"],
      hint:"The general word for academic studying."}
-  ,{type:"match",pairs:[{trg:"教室(きょうしつ)",src:"classroom"},{trg:"鉛筆(えんぴつ)",src:"pencil"},{trg:"覚(おぼ)える",src:"to memorize / remember"},{trg:"忘(わす)れる",src:"to forget"},{trg:"質問(しつもん)",src:"question"},{trg:"答(こた)え",src:"answer"}]}]
+  ,{type:"match",pairs:[{trg:"教室(きょうしつ)",src:"classroom"},{trg:"鉛筆(えんぴつ)",src:"pencil"},{trg:"覚(おぼ)える",src:"to memorize / remember"},{trg:"忘(わす)れる",src:"to forget"},{trg:"質問(しつもん)",src:"question"},{trg:"答(こた)え",src:"answer"}]},
+  {type:"fb", s:"テストは{1}で書(か)いてください。", a:["鉛筆(えんぴつ)"], opts:["鉛筆(えんぴつ)","消(け)しゴム","ノート","教室(きょうしつ)"], hint:"The wooden writing instrument that can be erased, not a pen.", sSrc:"Please write the test with a {1}."}
+]
 };
 export default BATCH4_L_1;

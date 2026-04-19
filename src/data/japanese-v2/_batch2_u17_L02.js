@@ -83,6 +83,8 @@ const BATCH2_L_2 = {
 
     {type:"mc", q:"邪魔(じゃま)される means:", opts:["to disturb someone","to be disturbed/interrupted","to invite someone","to be welcomed"], ans:"to be disturbed/interrupted",
      hint:"The passive of 邪魔(じゃま)する (to disturb). The speaker is on the receiving end of the disturbance."},
-  {type:"match",pairs:[{trg:"悪質(あくしつ)",src:"malicious / vicious / nasty"}]}]
+  {type:"match",pairs:[{trg:"悪質(あくしつ)",src:"malicious / vicious / nasty"}]},
+  {type:"fb", s:"お客様(きゃくさま)から{1}が届(とど)きました。", a:["苦情(くじょう)"], opts:["苦情(くじょう)","約束(やくそく)","嘘(うそ)","感謝(かんしゃ)"], hint:"A formal expression of dissatisfaction from a customer.", sSrc:"A {1} arrived from a customer."}
+]
 };
 export default BATCH2_L_2;

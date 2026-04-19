@@ -95,6 +95,11 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"How would you politely ask about someone's availability?", opts:["ご都合(つごう)はいかがですか","いま何時(なんじ)ですか","予約(よやく)しましたか","遅(おそ)くなりますか"], ans:"ご都合(つごう)はいかがですか",
      hint:"This phrase uses the honorific form of the word for convenience/availability."}
+  ,{type:"fb", s:"来週(らいしゅう)の月曜日(げつようび)に大事(だいじ)な{1}があります。忘(わす)れないでください。",
+     a:["予定(よてい)"],
+     opts:["予定(よてい)","予約(よやく)","約束(やくそく)","時々(ときどき)"],
+     hint:"You have an important scheduled commitment next Monday. This noun means 'plan' or 'scheduled event.'",
+     sSrc:"I have an important {1} next Monday. Please do not forget."}
   ,{type:"match",pairs:[{trg:"遅(おそ)くなる",src:"to be late / to become late"},{trg:"早(はや)めに",src:"early / ahead of time"},{trg:"約(やく)",src:"approximately / about"},{trg:"掛(か)かる",src:"to take (time/money) / to cost"}]}]
 };
 export default BATCH8_L1;

@@ -94,6 +94,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"What must you do before entering a Japanese home?", opts:["Take off your shoes (靴(くつ)を脱(ぬ)ぐ)","Bow three times","Say a prayer","Wash your hands"], ans:"Take off your shoes (靴(くつ)を脱(ぬ)ぐ)",
      hint:"Japanese homes require removing footwear at the genkan (entryway)."}
-  ,{type:"match",pairs:[{trg:"シャツ",src:"shirt"},{trg:"ズボン",src:"trousers / pants"},{trg:"着(き)てみる",src:"to try wearing"},{trg:"長(なが)い",src:"long"},{trg:"短(みじか)い",src:"short (length)"}]}]
+  ,{type:"match",pairs:[{trg:"シャツ",src:"shirt"},{trg:"ズボン",src:"trousers / pants"},{trg:"着(き)てみる",src:"to try wearing"},{trg:"長(なが)い",src:"long"},{trg:"短(みじか)い",src:"short (length)"}]},
+  {type:"fb", s:"日本(にほん)の家(いえ)では玄関(げんかん)で{1}を脱(ぬ)ぎます。", a:["靴(くつ)"], opts:["靴(くつ)","シャツ","ズボン","服(ふく)"], hint:"The footwear removed at the entrance of a Japanese home.", sSrc:"In Japanese homes, you take off your {1} at the entrance."}
+]
 };
 export default BATCH6_L1;

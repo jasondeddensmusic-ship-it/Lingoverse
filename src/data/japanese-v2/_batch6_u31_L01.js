@@ -88,6 +88,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"Japan's criminal conviction rate is:", opts:["Over 99%","About 75%","About 50%","About 30%"], ans:"Over 99%",
      hint:"Once Japanese prosecutors decide to indict, conviction is almost certain."}
-  ,{type:"match",pairs:[{trg:"犯人(はんにん)",src:"criminal / perpetrator"},{trg:"起訴(きそ)",src:"prosecution / indictment"},{trg:"罰金(ばっきん)",src:"fine / penalty payment"},{trg:"容疑者(ようぎしゃ)",src:"suspect"}]}]
+  ,{type:"match",pairs:[{trg:"犯人(はんにん)",src:"criminal / perpetrator"},{trg:"起訴(きそ)",src:"prosecution / indictment"},{trg:"罰金(ばっきん)",src:"fine / penalty payment"},{trg:"容疑者(ようぎしゃ)",src:"suspect"}]},
+  {type:"fb", s:"犯人(はんにん)を特定(とくてい)する{1}が見(み)つかりました。", a:["証拠(しょうこ)"], opts:["証拠(しょうこ)","犯罪(はんざい)","裁判(さいばん)","無罪(むざい)"], hint:"The physical or factual material that proves or disproves a claim in a legal case.", sSrc:"{1} was found that identifies the perpetrator."}
+]
 };
 export default BATCH6_L1;

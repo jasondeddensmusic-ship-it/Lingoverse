@@ -123,6 +123,9 @@ const BATCH4_L_1 = {
      sSrc:"I fixed the mistake.",
      opts:["直(なお)し","始(はじ)め","終(お)わり","続(つづ)け"],
      hint:"The verb for repairing or correcting something wrong."}
-  ,{type:"match",pairs:[{trg:"続(つづ)ける",src:"to continue"},{trg:"始(はじ)める",src:"to begin / start (transitive)"},{trg:"終(お)わる",src:"to end / finish (intransitive)"},{trg:"てみる",src:"to try doing (te-form + miru)"},{trg:"てしまう",src:"to finish / end up doing (accidentally)"},{trg:"直(なお)す",src:"to fix / repair / redo"}]},{type:"match",pairs:[{trg:"過(す)ぎる",src:"too much / excessively"},{trg:"やすい",src:"easy to (suffix)"},{trg:"にくい",src:"hard to / difficult to (suffix)"},{trg:"かた",src:"way of doing / method (suffix)"}]}]
+  ,{type:"match",pairs:[{trg:"続(つづ)ける",src:"to continue"},{trg:"始(はじ)める",src:"to begin / start (transitive)"},{trg:"終(お)わる",src:"to end / finish (intransitive)"},{trg:"てみる",src:"to try doing (te-form + miru)"},{trg:"てしまう",src:"to finish / end up doing (accidentally)"},{trg:"直(なお)す",src:"to fix / repair / redo"}]},{type:"match",pairs:[{trg:"過(す)ぎる",src:"too much / excessively"},{trg:"やすい",src:"easy to (suffix)"},{trg:"にくい",src:"hard to / difficult to (suffix)"},{trg:"かた",src:"way of doing / method (suffix)"}]},
+  {type:"fb", s:"毎朝(まいあさ)ジョギングを{1}ことにしました。", a:["始(はじ)める"], opts:["始(はじ)める","続(つづ)ける","終(お)わる","てしまう"], hint:"The transitive verb for commencing a new activity or habit.", sSrc:"I decided to {1} jogging every morning."},
+  {type:"fb", s:"壊(こわ)れた椅子(いす)を自分(じぶん)で{1}ました。", a:["直(なお)す"], opts:["直(なお)す","始(はじ)める","終(お)わる","過(す)ぎる"], hint:"The verb for repairing or fixing something that is broken.", sSrc:"I fixed the broken chair myself."}
+]
 };
 export default BATCH4_L_1;

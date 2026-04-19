@@ -175,6 +175,19 @@ const UNIT_17 = {
 
   {type:"mc", q:"Which sentence uses ADVERSITY passive (not direct)?", opts:["褒(ほ)められた (was praised)","選(えら)ばれた (was chosen)","雨(あめ)に降(ふ)られた (got rained on)","招待(しょうたい)された (was invited)"], ans:"雨(あめ)に降(ふ)られた (got rained on)",
    hint:"Adversity passive uses intransitive verbs where the speaker is not the direct object but suffers from the event."},
+
+  {type:"fb", s:"人前(ひとまえ)で間違(まちが)えて、とても{1}かったです。",
+   a:["恥(は)ずかしい"],
+   opts:["恥(は)ずかしい","悔(くや)しい","懐(なつ)かしい","寂(さび)しい"],
+   hint:"You made a mistake in front of others and felt a strong sense of social discomfort. This i-adjective covers embarrassment and shame.",
+   sSrc:"I made a mistake in front of others and felt very {1}."},
+
+  {type:"fb", s:"財布(さいふ)を{1}時(とき)は、すぐに警察(けいさつ)に行(い)ってください。",
+   a:["盗(ぬす)まれる"],
+   opts:["盗(ぬす)まれる","盗(ぬす)む","踏(ふ)まれる","笑(わら)われる"],
+   hint:"If your wallet is taken by a thief, you should go to the police right away. This passive verb means 'to have something stolen.'",
+   sSrc:"If you are {1}, please go to the police immediately."},
+
 {type:"match",pairs:[{trg:"〜れる・〜られる",src:"passive suffix (is done / was done)"}]}]},
 
 ,EXP_L3,EXP_L4,EXP_L5

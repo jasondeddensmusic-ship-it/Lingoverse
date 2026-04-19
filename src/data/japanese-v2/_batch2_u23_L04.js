@@ -93,6 +93,9 @@ const BATCH2_L_4 = {
 
     {type:"mc", q:"会(あ)うたびに means:", opts:["instead of meeting","before meeting","every time we meet","in order to meet"], ans:"every time we meet",
      hint:"たびに creates a recurring pattern: each t... the condition occurs, something happens."},
-  {type:"match",pairs:[{trg:"〜ものではない",src:"one should not ~ / it is not done"},{trg:"寝不足(ねぶそく)",src:"lack of sleep / sleep deprivation"},{trg:"宝物(たからもの)",src:"treasure / prized possession"}]}]
+  {type:"match",pairs:[{trg:"〜ものではない",src:"one should not ~ / it is not done"},{trg:"寝不足(ねぶそく)",src:"lack of sleep / sleep deprivation"},{trg:"宝物(たからもの)",src:"treasure / prized possession"}]},
+  {type:"fb", s:"成功(せいこう)するためには{1}から学(まな)ぶことが大切(たいせつ)です。", a:["失敗(しっぱい)"], opts:["失敗(しっぱい)","〜せいで","〜おかげで","〜ため（に）"], hint:"An unsuccessful outcome that can become a learning experience.", sSrc:"To succeed, it is important to learn from {1}."},
+  {type:"fb", s:"旅行(りょこう)の{1}をアルバムにまとめました。", a:["思(おも)い出(で)"], opts:["思(おも)い出(で)","宝物(たからもの)","寝不足(ねぶそく)","〜せいで"], hint:"The noun for personal memories or recollections of past events.", sSrc:"I put the {1} from the trip together into an album."}
+]
 };
 export default BATCH2_L_4;

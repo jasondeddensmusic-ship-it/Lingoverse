@@ -100,6 +100,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"What does 握(にぎ)る mean?", opts:["To grip or squeeze","To cut","To pour","To heat"], ans:"To grip or squeeze",
      hint:"This verb is the origin of the word おにぎり (rice ball)."}
-  ,{type:"match",pairs:[{trg:"お弁当(べんとう)",src:"boxed lunch / bento"},{trg:"温(あたた)める",src:"to heat up / to warm"},{trg:"お菓子(かし)",src:"sweets / snacks"},{trg:"飲(の)み物(もの)",src:"drink / beverage"},{trg:"握(にぎ)る",src:"to grip / to squeeze / to mold"},{trg:"ポイントカード",src:"point card / loyalty card"}]}]
+  ,{type:"match",pairs:[{trg:"お弁当(べんとう)",src:"boxed lunch / bento"},{trg:"温(あたた)める",src:"to heat up / to warm"},{trg:"お菓子(かし)",src:"sweets / snacks"},{trg:"飲(の)み物(もの)",src:"drink / beverage"},{trg:"握(にぎ)る",src:"to grip / to squeeze / to mold"},{trg:"ポイントカード",src:"point card / loyalty card"}]},
+  {type:"fb", s:"昼(ひる)ごはんにコンビニで{1}を買(か)いました。", a:["お弁当(べんとう)"], opts:["お弁当(べんとう)","おにぎり","袋(ふくろ)","温(あたた)める"], hint:"A pre-packaged boxed meal sold at convenience stores and shops.", sSrc:"I bought a {1} at the convenience store for lunch."}
+]
 };
 export default BATCH6_L1;

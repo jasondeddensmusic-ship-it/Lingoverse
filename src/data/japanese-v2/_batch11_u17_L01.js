@@ -106,6 +106,16 @@ const BATCH11_L1 = {
      opts:["To rewrite (fixing mistakes)","To write quickly","To stop writing","To start writing"],
      ans:"To rewrite (fixing mistakes)",
      hint:"This compound combines 'write' with a verb meaning 'to fix/repair.' The result implies correcting through redoing."}
+  ,{type:"fb", s:"レポートを書(か)き{1}ましたか？提出(ていしゅつ)前(まえ)に確認(かくにん)してください。",
+    a:["〜終(お)わる"],
+    opts:["〜終(お)わる","〜始(はじ)める","〜続(つづ)ける","〜直(なお)す"],
+    hint:"Have you completed writing the report? This compound verb pattern expresses having done something to its definitive end.",
+    sSrc:"Have you finished writing the report? Check it before submitting."}
+  ,{type:"fb", s:"走(はし)り{1}の人(ひと)は根気(こんき)があります。",
+    a:["〜続(つづ)ける"],
+    opts:["〜続(つづ)ける","〜過(す)ぎる","〜出(だ)す","〜切(き)る"],
+    hint:"A person who keeps running shows perseverance. This compound verb pattern expresses sustaining an action continuously.",
+    sSrc:"A person who keeps running has perseverance."}
   ,{type:"match",pairs:[{trg:"〜出(だ)す",src:"to suddenly start ~ing"},{trg:"〜合(あ)う",src:"to do together / mutually"},{trg:"〜切(き)る",src:"to do completely / to the limit"},{trg:"〜かける",src:"to start doing / to be in the middle of"},{trg:"〜込(こ)む",src:"to go/put into deeply"},{trg:"〜忘(わす)れる",src:"to forget to do"}]}]
 };
 export default BATCH11_L1;

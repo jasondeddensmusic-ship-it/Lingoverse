@@ -106,6 +106,16 @@ const BATCH11_L1 = {
      opts:["Anonymity is more valued than in Western social media","Real names are always required","Video content only","No social media use"],
      ans:"Anonymity is more valued than in Western social media",
      hint:"Japan's online culture places high value on this aspect, which is why Twitter/X has such a large Japanese user base."}
+  ,{type:"fb", s:"毎日(まいにち)スマホで{1}の便利(べんり)なものをダウンロードしています。",
+    a:["アプリ"],
+    opts:["アプリ","データ","クラウド","コンテンツ"],
+    hint:"You download useful programs to your smartphone every day. This word is short for 'application' in Japanese.",
+    sSrc:"I download useful {1} on my smartphone every day."}
+  ,{type:"fb", s:"個人情報(こじんじょうほう)のために{1}を守(まも)る方法(ほうほう)を学(まな)びましょう。",
+    a:["プライバシー"],
+    opts:["プライバシー","セキュリティ","データ","フェイク"],
+    hint:"We should learn how to protect our personal information. This loanword from English means 'privacy.'",
+    sSrc:"Let's learn how to protect {1} for our personal information."}
   ,{type:"match",pairs:[{trg:"データ",src:"data"},{trg:"クラウド",src:"cloud (computing)"},{trg:"アプリ",src:"application (software)"},{trg:"検索(けんさく)",src:"search (web/database)"},{trg:"投稿(とうこう)",src:"posting (online)"},{trg:"コンテンツ",src:"content (digital/media)"}]},{type:"match",pairs:[{trg:"フェイク",src:"fake (as in fake news)"}]}]
 };
 export default BATCH11_L1;

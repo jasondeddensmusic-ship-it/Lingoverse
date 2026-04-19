@@ -93,6 +93,9 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"批評家(ひひょうか)から高(たか)く評価(ひょうか)されている means:", opts:["It is highly rated by critics","Critics are being evaluated","Critics gave a low rating","Someone evaluated the critics"], ans:"It is highly rated by critics",
      hint:"批評家(ひひょうか) (c...) + から (by) + 高(たか)く (h...) + 評価(ひょうか)されている (is being evaluated/r...)."}
-  ,{type:"match",pairs:[{trg:"認(みと)められる",src:"to be recognized / to be acknowledged"},{trg:"信(しん)じられる",src:"to be believed / it is believable / I cannot believe it"},{trg:"疑(うたが)われる",src:"to be suspected / to be doubted"},{trg:"望(のぞ)まれる",src:"to be desired / to be wished for"},{trg:"明(あき)らかにされる",src:"to be made clear / to be revealed"},{trg:"才能(さいのう)",src:"talent / ability / gift"}]}]
+  ,{type:"match",pairs:[{trg:"認(みと)められる",src:"to be recognized / to be acknowledged"},{trg:"信(しん)じられる",src:"to be believed / it is believable / I cannot believe it"},{trg:"疑(うたが)われる",src:"to be suspected / to be doubted"},{trg:"望(のぞ)まれる",src:"to be desired / to be wished for"},{trg:"明(あき)らかにされる",src:"to be made clear / to be revealed"},{trg:"才能(さいのう)",src:"talent / ability / gift"}]},
+  {type:"fb", s:"長年(ながねん)の努力(どりょく)がついに上司(じょうし)に{1}ました。", a:["認(みと)められる"], opts:["認(みと)められる","疑(うたが)われる","信(しん)じられる","思(おも)われる"], hint:"The passive verb for having one's efforts or value acknowledged by others.", sSrc:"My years of effort were finally {1} by my supervisor."},
+  {type:"fb", s:"彼女(かのじょ)は音楽(おんがく)の{1}があります。", a:["才能(さいのう)"], opts:["才能(さいのう)","認(みと)められる","疑(うたが)われる","評価(ひょうか)される"], hint:"The innate ability or gift that makes someone naturally skilled at something.", sSrc:"She has a {1} for music."}
+]
 };
 export default BATCH5_L_2;

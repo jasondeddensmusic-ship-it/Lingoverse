@@ -105,7 +105,18 @@ const BATCH11_L1 = {
     {type:"mc", q:"「において」is the formal register equivalent of which particle?",
      opts:["で","に","を","と"],
      ans:"で",
-     hint:"This formal particle replaces the common location/context particle used in everyday speech."}
+     hint:"This formal particle replaces the common location/context particle used in everyday speech."},
+    {type:"fb", s:"外国人(がいこくじん){1}、漢字(かんじ)を覚(おぼ)えることは一番(いちばん)難(むずか)しい課題(かだい)です。",
+     a:["〜にとって"],
+     opts:["〜にとって","〜において","〜にかんして","〜にともなって"],
+     hint:"From a foreigner's perspective, memorizing kanji is the hardest challenge. This particle frames a statement from someone's standpoint.",
+     sSrc:"For foreigners, memorizing kanji is the most difficult challenge."},
+    {type:"fb", s:"調査(ちょうさ)結果(けっか){1}、新(あたら)しい計画(けいかく)を立(た)てました。",
+     a:["〜にもとづいて"],
+     opts:["〜にもとづいて","〜にともなって","〜をはじめ","〜をつうじて"],
+     hint:"The new plan was created using survey results as its factual foundation. This particle means 'based on' and implies strict adherence to data.",
+     sSrc:"We created a new plan based on survey results."},
+    {type:"match", pairs:[{trg:"〜にとって",src:"from standpoint of"},{trg:"〜にたいして",src:"toward / in contrast to"},{trg:"〜にかんして",src:"regarding / concerning"},{trg:"〜をはじめ",src:"starting with / including"}]}
   ]
 };
 export default BATCH11_L1;
