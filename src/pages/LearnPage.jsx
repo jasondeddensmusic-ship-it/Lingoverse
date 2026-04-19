@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from "react"
 import { LANGUAGES, CEFR_LEVELS, getCefrInfo, getCefrBandColor } from '../data/metadata.js';
 import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH, FK_GATE_QUIZ } from '../data/foundations.js';
 import { t, MEANINGS, LANG_FRAMEWORK, explainUnitLevel } from '../data/vocabulary.js';
-import { UNITS } from '../utils.js';
+import { UNITS, compareCefrLevel } from '../utils.js';
 import { SpeakerButton, UISounds, FOUNDATIONS_LOCK_ENABLED } from '../audio.jsx';
 import { NavArrow, AppIcon, BrandIcon, FlagButton, LessonErrorBoundary } from '../components/shared.jsx';
 import LessonEngine from '../components/LessonEngine.jsx';
@@ -204,6 +204,9 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
   // chapterNav + fkSection are controlled by LearnPage (lifted state)
   const [selectedChar,setSelectedChar]=useState(null); // {ch, rom} for detail card
   const prog=user.progress||{};
+  // Placement quiz result: units at or below this CEFR sub-level are auto-unlocked.
+  const startingLevel=(prog[lang]||{}).startingLevel||null;
+  const isPlacementUnlocked=(u)=>!!startingLevel&&compareCefrLevel(startingLevel,u.level)>=0;
 
   // ── Backspace/Escape: navigate back through UnitMap hierarchy ──
   useEffect(()=>{
@@ -302,7 +305,9 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
         :
           <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:14}}>
             {units.map(u=>{
-              const available=u.lessons.length>0;
+              const hasContent=u.lessons.length>0;
+              const placedHere=isPlacementUnlocked(u)&&hasContent;
+              const available=hasContent;
               const up=getUnitProg(u);
               const pctVal=up?up.pct:0;
               const done=up&&up.completed;
@@ -313,12 +318,14 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
                 display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",gap:6,
                 opacity:available?1:0.45,
                 background:done?(dk?"linear-gradient(180deg, rgba(40,80,65,0.85) 0%, rgba(30,65,50,0.9) 50%, rgba(22,50,40,0.95) 100%)":"linear-gradient(180deg, #E0FAE8 0%, #D2F5DC 50%, #C4F0D4 100%)"):(dk?"linear-gradient(180deg, rgba(55,45,105,0.94) 0%, rgba(42,36,90,0.96) 40%, rgba(30,26,68,0.98) 100%)":"linear-gradient(180deg, #F8F5FF 0%, #F4F0FF 35%, #F0ECFF 65%, #EDE8FF 100%)"),
-                border:done?`2.5px solid var(--teal)`:dk?`2px solid rgba(123,94,232,0.25)`:`2px solid rgba(123,94,232,0.1)`,
+                border:done?`2.5px solid var(--teal)`:placedHere?(dk?`2px solid rgba(74,143,231,0.5)`:`2px solid rgba(74,143,231,0.35)`):(dk?`2px solid rgba(123,94,232,0.25)`:`2px solid rgba(123,94,232,0.1)`),
                 boxShadow:dk?"0 6px 20px rgba(0,0,0,0.35), 0 0 14px rgba(123,94,232,0.2), inset 0 2px 0 rgba(255,255,255,0.08), inset 0 -3px 0 rgba(0,0,0,0.15)":"0 6px 20px rgba(123,94,232,0.1), 0 0 10px rgba(123,94,232,0.06), inset 0 2px 0 rgba(255,255,255,0.8), inset 0 -3px 0 rgba(123,94,232,0.05)",
                 transition:"transform 0.15s, box-shadow 0.15s, filter 0.15s",
                 position:"relative",overflow:"hidden",
               }}>
                 <div style={{position:"absolute",top:0,left:"6%",right:"6%",height:"38%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.06) 0%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.05) 60%, transparent 100%)",pointerEvents:"none",zIndex:1}}/>
+                {/* Placed badge — top-right corner */}
+                {placedHere&&!done&&<div style={{position:"absolute",top:8,right:8,zIndex:3,padding:"2px 7px",borderRadius:8,background:"linear-gradient(180deg,#6EB5F5 0%,#4A8FE7 55%,#3070C8 100%)",color:"white",fontSize:8,fontWeight:800,letterSpacing:0.4,boxShadow:"0 2px 6px rgba(74,143,231,0.4), inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.1)"}}>Placed</div>}
                 <div style={{
                   width:56,height:56,borderRadius:16,
                   background:done?"linear-gradient(180deg, #70E8C8 0%, #40D8A8 15%, #2ECD9E 40%, #1DB88A 65%, #18A07A 85%, #148068 100%)":"linear-gradient(180deg, #C0AEF8 0%, #A488F0 15%, #8B6AE4 35%, #7B5EE8 55%, #6545C8 75%, #5840B8 90%, #4A2BA6 100%)",
@@ -813,7 +820,9 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
       {/* ═══ ALL UNITS VIEW (original) ═══ */}
       {viewMode==="all"&&<div style={{display:"flex",flexDirection:"column",gap:12}}>
         {langUnits.map((u,i)=>{
-          const available=u.lessons.length>0;
+          const hasContent=u.lessons.length>0;
+          const placedHere=isPlacementUnlocked(u)&&hasContent;
+          const available=hasContent;
           const locked=!available&&i>0;
           const up=getUnitProg(u);
           return(
@@ -832,6 +841,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
                 <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:2}}>
                   <span className="hd" style={{fontWeight:800,fontSize:16,color:available?"var(--gray-800)":"var(--gray-400)"}}>{t("map_unit_prefix",baseLang)} {u.n}: <span className="trg-inline">{u.title}</span></span>
                   <span className="badge" style={{background:getCefrBandColor(getCefrInfo(u.level).band)+"18",color:getCefrBandColor(getCefrInfo(u.level).band),fontSize:10}}>{u.level}</span>
+                  {placedHere&&!up?.completed&&<span style={{padding:"2px 8px",borderRadius:8,background:"linear-gradient(180deg,#6EB5F5 0%,#4A8FE7 55%,#3070C8 100%)",color:"white",fontSize:10,fontWeight:800,letterSpacing:0.3,boxShadow:"0 2px 6px rgba(74,143,231,0.35), inset 0 1px 0 rgba(255,255,255,0.3)"}}>Placed</span>}
                 </div>
                 <p style={{color:"var(--gray-400)",fontSize:13}}>{u.sub}{up&&up.pct>0?` · ${up.pct}%`:""}</p>
                 {available&&<div style={{marginTop:6}}>
