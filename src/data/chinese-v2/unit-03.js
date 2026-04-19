@@ -418,6 +418,72 @@ lessons:[
  hint:"The 汉 in 汉语 names the ruling group whose period (206 BCE–220 CE) unified the country."}
 ]},
 
+// ═══ L5b: Siblings and Parents — Hierarchy Focus ═══
+{id:"zhv2_u3l_sib", title:"兄弟姐妹(xiōngdì jiěmèi)", icon:"👨‍👩‍👧‍👦", xp:15, board:true, steps:[
+{type:"intro", title:"Siblings and Parents",
+ desc:"Master the Chinese words for siblings and parents. Chinese distinguishes older vs younger siblings — a key cultural concept rooted in Confucian family hierarchy.",
+ goals:["Master older/younger sibling distinction","Review parent vocabulary","Describe your family members"]},
+
+{type:"tip", title:"Chinese Family Hierarchy",
+ text:"Chinese family vocabulary encodes birth order by design.\n\n哥哥(gēge) = older brother\n弟弟(dìdi) = younger brother\n姐姐(jiějie) = older sister\n妹妹(mèimei) = younger sister\n\nThere is no single word for 'brother' or 'sister.' You must always specify older or younger. This reflects Confucian values: the older sibling holds authority and responsibility; the younger sibling shows respect.\n\nParents reinforce this structure:\n爸爸(bàba) = dad\n妈妈(māma) = mom\n\nIn Chinese families, addressing relatives by their exact hierarchical title (not just their name) is a mark of respect.",
+ deepDive:{title:"Birth order in Chinese culture",
+  text:"The four sibling words reveal how deeply birth order shapes Chinese social life.\n\nOlder siblings (哥/姐) are expected to set an example and look after younger ones. Younger siblings (弟/妹) show deference in speech and at the dinner table.\n\nThe formal written compounds 兄弟(xiōngdì, brothers) and 姐妹(jiěmèi, sisters) always list the older sibling character first. Order matters in the language because it mirrors real family structure.\n\nFormal titles matter too: calling an older person 哥哥 or 姐姐 even outside the family — as a store clerk or coworker — is a compliment that signals friendly respect."}},
+
+{type:"mc", q:"Chinese has no single word for 'brother.' Which two words together cover the concept?",
+ opts:["哥哥(gēge) and 姐姐(jiějie)","哥哥(gēge) and 弟弟(dìdi)","妹妹(mèimei) and 弟弟(dìdi)","爸爸(bàba) and 妈妈(māma)"],
+ ans:"哥哥(gēge) and 弟弟(dìdi)",
+ hint:"Chinese has two male-sibling words, one per birth-order position. Neither is for a female family member."},
+
+{type:"match", pairs:[
+  {trg:"哥哥(gēge)", src:"older brother"},
+  {trg:"姐姐(jiějie)", src:"older sister"},
+  {trg:"弟弟(dìdi)", src:"younger brother"},
+  {trg:"妹妹(mèimei)", src:"younger sister"},
+  {trg:"爸爸(bàba)", src:"dad"}
+]},
+
+{type:"fb", s:"我(wǒ)有(yǒu)一(yī)个(gè){1}和(hé)一(yī)个(gè)妹妹(mèimei)。",
+ a:["哥哥(gēge)"],
+ opts:["哥哥(gēge)","弟弟(dìdi)","姐姐(jiějie)","妈妈(māma)"],
+ hint:"The blank is a male sibling who came before the speaker in birth order. The next word is 妹妹.",
+ sSrc:"I have one {1} and one younger sister."},
+
+{type:"mc", q:"你(nǐ)有(yǒu)姐姐(jiějie)吗(ma)？ What is the question asking?",
+ opts:["Do you have a younger sister?","Do you have a younger brother?","Do you have an older sister?","Do you have an older brother?"],
+ ans:"Do you have an older sister?",
+ hint:"The character 姐 encodes birth position and gender. The 女 radical points to which sex. Check which answer option matches both clues."},
+
+{type:"fb", s:"爸爸(bàba)和(hé){1}都(dōu)在(zài)家(jiā)。",
+ a:["妈妈(māma)"],
+ opts:["妈妈(māma)","哥哥(gēge)","儿子(érzi)","弟弟(dìdi)"],
+ hint:"Which word pairs with 爸爸 to name both parents? Think of the other parent.",
+ sSrc:"Dad and {1} are both at home."},
+
+{type:"mc", q:"Why does Chinese distinguish older vs younger siblings in its vocabulary?",
+ opts:["To match grammatical gender like European languages","Because Confucian values tie birth order to family authority and responsibility","To make learning easier for beginners","Because older and younger sound completely different in pronunciation"],
+ ans:"Because Confucian values tie birth order to family authority and responsibility",
+ hint:"The tip describes a Chinese philosophical tradition. The correct option names a specific teaching about society and the role each person plays within it."},
+
+{type:"fb", s:"她(tā)没有(méiyǒu){1}，但(dàn)她(tā)有(yǒu)一(yī)个(gè)弟弟(dìdi)。",
+ a:["姐姐(jiějie)"],
+ opts:["姐姐(jiějie)","哥哥(gēge)","妈妈(māma)","妹妹(mèimei)"],
+ hint:"The sentence describes a female relative that she does not have. The second clause gives a clue about the gender and direction of the missing person.",
+ sSrc:"She does not have an {1}, but she has a younger brother."},
+
+{type:"match", pairs:[
+  {trg:"妈妈(māma)", src:"mom"},
+  {trg:"姐姐(jiějie)", src:"older sister"},
+  {trg:"弟弟(dìdi)", src:"younger brother"},
+  {trg:"妹妹(mèimei)", src:"younger sister"},
+  {trg:"哥哥(gēge)", src:"older brother"}
+]},
+
+{type:"mc", q:"兄弟(xiōngdì) means brothers in formal Chinese. Which character always comes first, and why?",
+ opts:["弟 comes first — younger siblings are more important","兄 comes first — the older sibling is listed first, reflecting hierarchy","The order is random in formal Chinese","兄弟 refers to sisters, not brothers"],
+ ans:"兄 comes first — the older sibling is listed first, reflecting hierarchy",
+ hint:"The deep dive explains which character in 兄弟 leads the compound. Notice that Chinese social structure influenced the written sequence of these two characters."}
+]},
+
 // ═══ L6: Spouses and Children — HSK 2 Family ═══
 {id:"zhv2_u3l6", title:"妻子丈夫孩子 Spouses and Children", icon:"👨‍👩‍👧", xp:15, board:true, steps:[
 {type:"intro", title:"Spouses and Children",

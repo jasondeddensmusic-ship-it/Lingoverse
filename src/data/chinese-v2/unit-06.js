@@ -441,6 +441,114 @@ lessons:[
  opts:["小姐(xiǎojiě)","先生(xiānsheng)","医生(yīshēng)","住(zhù)"],
  hint:"A polite title for a young woman, like 'Miss.' Used with surnames.",
  sSrc:"This is Miss Li."}
+]},
+
+// === L6: More Essential Places ===
+{id:"zhv2_u6l_places", title:"地方(dìfāng) Essential Places", icon:"🏢", xp:15, board:true, steps:[
+{type:"intro", title:"Essential Places",
+ desc:"Learn four essential HSK 1 place nouns: supermarket, bank, library, and park. Plus inside and outside. These complete the core vocabulary for navigating daily life in China.",
+ goals:["Name four more essential places: supermarket, bank, library, park","Use inside and outside with place nouns","Describe locations in full sentences"]},
+
+{type:"teach", trg:"超市(chāoshì)", src:"supermarket", pos:"noun", gender:null,
+ note:"超 = exceed/super, 市 = market.\nLiterally 'super market.' The most common daily shopping destination.",
+ example:"A: 你(nǐ)去(qù)哪儿(nǎr)？\nB: 我(wǒ)去(qù)超市(chāoshì)买(mǎi)东西(dōngxi)。",
+ exampleSrc:"A: Where are you going?\nB: I am going to the supermarket to buy things.",
+ funFact:"超市 is short for 超级市场(chāojí shìchǎng), literally 'super market.' The abbreviation 超市 became standard in the 1990s as Western-style supermarkets spread across China. Before that, most shopping was done at specialized state-run stores."},
+
+{type:"teach", trg:"银行(yínháng)", src:"bank", pos:"noun", gender:null,
+ note:"银 = silver, 行 = professional institution.\nLiterally 'silver institution.' Historically, banks dealt in silver currency.",
+ example:"A: 银行(yínháng)在(zài)哪儿(nǎr)？\nB: 在(zài)超市(chāoshì)旁边(pángbiān)。",
+ exampleSrc:"A: Where is the bank?\nB: It is next to the supermarket.",
+ funFact:"银行 uses 行(háng), meaning 'a line of business' or 'professional establishment.' The same 行 appears in 旅行(lǚxíng, travel), 银行(yínháng, bank), 行业(hángyè, industry). In this context it is pronounced háng, not xíng."},
+
+{type:"teach", trg:"图书馆(túshūguǎn)", src:"library", pos:"noun", gender:null,
+ note:"图书 = books/maps, 馆 = building/venue.\nLiterally 'books building.' The most common place for study.",
+ example:"A: 你(nǐ)在(zài)哪儿(nǎr)看(kàn)书(shū)？\nB: 我(wǒ)在(zài)图书馆(túshūguǎn)看(kàn)书(shū)。",
+ exampleSrc:"A: Where do you read?\nB: I read at the library.",
+ funFact:"馆 (guǎn) is a building suffix that appears in many cultural venues: 图书馆 (library), 博物馆(bówùguǎn, museum), 美术馆(měishùguǎn, art gallery), 餐馆(cānguǎn, restaurant). If you see 馆, you know it is an institution or public building."},
+
+{type:"teach", trg:"公园(gōngyuán)", src:"park", pos:"noun", gender:null,
+ note:"公 = public, 园 = garden/enclosure.\nLiterally 'public garden.' Every Chinese city has large public parks.",
+ example:"A: 你(nǐ)去(qù)哪儿(nǎr)？\nB: 我(wǒ)去(qù)公园(gōngyuán)。",
+ exampleSrc:"A: Where are you going?\nB: I am going to the park.",
+ funFact:"Chinese parks are central to daily social life. Older residents practice taichi in the morning, families gather in the evening, and people play chess or sing together. 公园 are free to enter in most cities. They are living rooms for the community, not just green spaces."},
+
+{type:"teach", trg:"里面(lǐmiàn)", src:"inside", pos:"noun", gender:null,
+ note:"里 = inside, 面 = face/surface.\nLiterally 'inner face.' Opposite of 外面.",
+ example:"A: 医生(yīshēng)在(zài)哪儿(nǎr)？\nB: 在(zài)医院(yīyuàn)里面(lǐmiàn)。",
+ exampleSrc:"A: Where is the doctor?\nB: The doctor is inside the hospital.",
+ funFact:"里面 follows the same pattern as 前面 (front), 后面 (back), and 旁边 (beside). All Chinese position words describe the 'face' or 'side' of a reference point. 里面 describes the interior face. 外面 describes the exterior."},
+
+{type:"teach", trg:"外面(wàimiàn)", src:"outside", pos:"noun", gender:null,
+ note:"外 = outside, 面 = face/surface.\nLiterally 'outer face.' Opposite of 里面.",
+ example:"A: 他(tā)在(zài)哪儿(nǎr)？\nB: 他(tā)在(zài)图书馆(túshūguǎn)外面(wàimiàn)等(děng)你(nǐ)。",
+ exampleSrc:"A: Where is he?\nB: He is waiting for you outside the library.",
+ funFact:"里外 (inside-outside) is a natural opposite pair in Chinese, just like 前后 (front-back) and 左右 (left-right). Chinese thinks spatially in paired opposites. Learning one immediately gives you the other."},
+
+{type:"teach", trg:"地方(dìfāng)", src:"place / location", pos:"noun", gender:null,
+ note:"地 = ground/land, 方 = direction/side.\nLiterally 'land-direction.' Used as a general word for any place.",
+ example:"A: 这(zhè)是(shì)什么(shénme)地方(dìfāng)？\nB: 这(zhè)是(shì)图书馆(túshūguǎn)前面(qiánmiàn)的(de)公园(gōngyuán)。",
+ exampleSrc:"A: What place is this?\nB: This is the park in front of the library.",
+ funFact:"地方 has two pronunciations with different meanings: dìfāng (place, location) and dìfang (local, as in 地方政府 local government). The neutral-tone variant signals a different meaning. Context almost always makes the reading clear."},
+
+{type:"tip", title:"The 馆 and 市 Building Blocks",
+ text:"Two characters unlock many place names:\n\n馆(guǎn) = public building/venue:\n图书馆 = library\n博物馆 = museum\n美术馆 = art gallery\n\n市(shì) = market/city:\n超市 = supermarket\n城市 = city\n市场 = market\n\nWhen you see 馆 or 市, expect a public institution or marketplace. These two characters cover most of the cultural and commercial places you will encounter.",
+ deepDive:{title:"公 = Public in Chinese",
+  text:"公(gōng) marks something as shared or public:\n\n公园 = public garden (park)\n公司 = public/shared company\n公共汽车 = public bus\n公寓 = apartment building (public dwelling)\n公里 = kilometer (public measure)\n公民 = citizen (public person)\n\nWhenever you see 公 + place or thing, it signals something available to everyone. This reflects a Confucian value: certain resources and spaces belong to the community, not individuals."}},
+
+{type:"mc", q:"超市(chāoshì) literally means:",
+ opts:["small market","food store","super market","night market"],
+ ans:"super market",
+ hint:"超 means 'exceed' or 'super' and 市 means 'market.' Put them together."},
+
+{type:"match", pairs:[
+  {trg:"超市(chāoshì)", src:"supermarket"},
+  {trg:"银行(yínháng)", src:"bank"},
+  {trg:"图书馆(túshūguǎn)", src:"library"},
+  {trg:"公园(gōngyuán)", src:"park"}
+]},
+
+{type:"fb", s:"我(wǒ)去(qù){1}看(kàn)书(shū)。",
+ a:["图书馆(túshūguǎn)"],
+ opts:["图书馆(túshūguǎn)","超市(chāoshì)","银行(yínháng)","公园(gōngyuán)"],
+ hint:"You go to this place to read books. It has 馆 (building) in its name.",
+ sSrc:"I go to the {1} to read."},
+
+{type:"mc", q:"医生(yīshēng)在(zài)医院(yīyuàn)里面(lǐmiàn)。 Where is the doctor?",
+ opts:["outside the hospital","next to the hospital","inside the hospital","behind the hospital"],
+ ans:"inside the hospital",
+ hint:"里面 means the interior of something. The opposite of 外面."},
+
+{type:"fb", s:"他(tā)在(zài)银行(yínháng){1}等(děng)我(wǒ)。",
+ a:["外面(wàimiàn)"],
+ opts:["外面(wàimiàn)","里面(lǐmiàn)","前面(qiánmiàn)","后面(hòumiàn)"],
+ hint:"He is waiting on the exterior of the bank, not inside it.",
+ sSrc:"He is waiting for me {1} the bank."},
+
+{type:"mc", q:"公园(gōngyuán) uses 公 because parks are:",
+ opts:["expensive","very big","public spaces","far away"],
+ ans:"public spaces",
+ hint:"公 marks something belonging to everyone in the community. Think of the English word 'communal' or 'common.'"},
+
+{type:"fb", s:"超市(chāoshì)在(zài)银行(yínháng){1}。",
+ a:["旁边(pángbiān)"],
+ opts:["旁边(pángbiān)","里面(lǐmiàn)","外面(wàimiàn)","后面(hòumiàn)"],
+ hint:"The supermarket is alongside the bank. Which word means 'beside' or 'next to'?",
+ sSrc:"The supermarket is {1} the bank."},
+
+{type:"match", pairs:[
+  {trg:"里面(lǐmiàn)", src:"inside"},
+  {trg:"外面(wàimiàn)", src:"outside"},
+  {trg:"地方(dìfāng)", src:"place / location"},
+  {trg:"图书馆(túshūguǎn)", src:"library"},
+  {trg:"公园(gōngyuán)", src:"park"}
+]},
+
+{type:"fb", s:"这(zhè)是(shì)什么(shénme){1}？",
+ a:["地方(dìfāng)"],
+ opts:["地方(dìfāng)","时候(shíhou)","东西(dōngxi)","问题(wèntí)"],
+ hint:"The speaker is asking 'what ___ is this?' using the general word for any location.",
+ sSrc:"What {1} is this?"}
 ]}
 
 ]};
