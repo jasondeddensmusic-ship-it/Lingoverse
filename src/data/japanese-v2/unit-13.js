@@ -181,5 +181,72 @@ const UNIT_13 = {
 ,BATCH9_L1
 ,BATCH10_L1
 ,BATCH11_L1
+
+// ═══ N3中級語彙: Core N3 Vocabulary for Experience & Growth ═══
+,{id:"jpv2_u13l_n3", title:"N3中級語彙(ちゅうきゅうごい)", icon:"📚", xp:15, board:true, steps:[
+{type:"intro", title:"JLPT N3 Core Vocabulary", desc:"Learn 7 essential JLPT N3 Japanese words for daily life and reflection. Essential for N3 exam and B1-level fluency.", goals:["Master 7 core N3 words","Use formal expressions","Describe abstract concepts"]},
+
+{type:"teach", trg:"喜(よろこ)ぶ", src:"to rejoice / to be pleased", pos:"verb", gender:null,
+ note:"Group 1 verb. て-form: 喜(よろこ)んで.\n喜(よろこ)んで = gladly / with pleasure.",
+ example:"A: 合格(ごうかく)しました！\nB: それは本当(ほんとう)に喜(よろこ)べることですね。\nA: 家族(かぞく)も喜(よろこ)んでいます。\nB: おめでとうございます。",
+ exampleSrc:"A: I passed!\nB: That is truly something to rejoice about.\nA: My family is also pleased.\nB: Congratulations.",
+ funFact:"喜(よろこ)ぶ (喜ぶ) appears in the classic phrase 喜(よろこ)んで！ (gladly!), used when accepting a request with enthusiasm. The kanji 喜 shows a drum topped with a mouth, evoking joyful music."},
+
+{type:"teach", trg:"記録(きろく)", src:"record / documentation", pos:"noun", gender:null,
+ note:"記録(きろく)する = to record, to document.\n世界記録(せかいきろく) = world record.",
+ example:"A: 旅行(りょこう)の記録(きろく)をつけていますか？\nB: はい、日記(にっき)を書(か)いています。\nA: 写真(しゃしん)も撮(と)りましたか？\nB: はい、たくさん記録(きろく)しました。",
+ exampleSrc:"A: Do you keep a record of your travels?\nB: Yes, I write a diary.\nA: Did you also take photos?\nB: Yes, I documented a lot.",
+ funFact:"記録(きろく) uses 記 (write/record) and 録 (engrave). Breaking a world record is 世界記録(せかいきろく)を塗(ぬ)り替(か)える, literally 'to repaint the world record.' Japan is home to countless sports and cultural world records."},
+
+{type:"teach", trg:"現在(げんざい)", src:"present (time) / currently", pos:"noun", gender:null,
+ note:"Formal word for 'now' or 'at present.' More formal than 今(いま).\nKanji: 現在.",
+ example:"A: 現在(げんざい)どこに住(す)んでいますか？\nB: 現在(げんざい)は東京(とうきょう)に住(す)んでいます。\nA: 前(まえ)はどこに住(す)んでいましたか？\nB: 学校(がっこう)の近(ちか)くに住(す)んでいました。",
+ exampleSrc:"A: Where do you currently live?\nB: Currently I live in Tokyo.\nA: Where did you live before?\nB: I lived near the school.",
+ funFact:"現在(げんざい) is standard in formal writing, business, and news. 現在(げんざい) vs 今(いま): both mean 'now,' but 現在(げんざい) sounds official. You will see 現在(げんざい)のところ (as of now) and 現在形(げんざいけい) (present tense) in grammar textbooks."},
+
+{type:"teach", trg:"困難(こんなん)", src:"difficulty / hardship", pos:"noun", gender:null,
+ note:"Can be used as a noun or na-adjective. 困難(こんなん)な問題(もんだい) = a difficult problem.\nFormal register.",
+ example:"A: 困難(こんなん)な経験(けいけん)でしたか？\nB: はい、でも多(おお)くを学(まな)びました。\nA: どんな困難(こんなん)がありましたか？\nB: 言葉(ことば)の壁(かべ)が一番(いちばん)大(おお)きかったです。",
+ exampleSrc:"A: Was it a difficult experience?\nB: Yes, but I learned a lot.\nA: What kind of difficulties were there?\nB: The language barrier was the biggest.",
+ funFact:"困難(こんなん) uses 困 (be in trouble, a tree stuck in a box) and 難 (difficult, a bird in fire). Both kanji convey being trapped in hardship. Proverb: 困難(こんなん)は人(ひと)を強(つよ)くする (difficulties make a person stronger)."},
+
+{type:"teach", trg:"一生懸命(いっしょうけんめい)", src:"with all one's might / earnestly", pos:"adv", gender:null,
+ note:"One of the most useful N3 expressions. Often shortened to 一生懸命(いっしょうけんめい)に (adverb form).\nLiterally: 'risking one's life on this one place.'",
+ example:"A: 日本語(にほんご)の勉強(べんきょう)はどうですか？\nB: 一生懸命(いっしょうけんめい)やっています。\nA: 一生懸命(いっしょうけんめい)やれば、できますよ。\nB: ありがとうございます。頑張(がんば)ります。",
+ exampleSrc:"A: How is your Japanese study going?\nB: I am doing it with all my might.\nA: If you do it with all your might, you can do it.\nB: Thank you. I will keep at it.",
+ funFact:"一生懸命(いっしょうけんめい) (一所懸命) originally meant 'to risk one's life defending a single piece of land' in samurai culture. Over centuries it became the everyday word for giving 100% effort. It perfectly captures the Japanese cultural value of 真剣(しんけん)さ (seriousness/sincerity)."},
+
+{type:"teach", trg:"建(た)てる", src:"to build / to construct", pos:"verb", gender:null,
+ note:"Ichidan (Group 2) verb. て-form: 建(た)てて.\n家(いえ)を建(た)てる = to build a house.",
+ example:"A: 夢(ゆめ)はありますか？\nB: 自分(じぶん)の家(いえ)を建(た)てることです。\nA: どんな家(いえ)を建(た)てたいですか？\nB: 大(おお)きな庭(にわ)のある家(いえ)を建(た)てたいです。",
+ exampleSrc:"A: Do you have a dream?\nB: My dream is to build my own house.\nA: What kind of house do you want to build?\nB: I want to build a house with a big garden.",
+ funFact:"建(た)てる (建てる) uses 建, which combines 廴 (movement) and 聿 (writing brush held upright), suggesting raising something up. 建(た)てる is for structures; 作(つく)る is for objects or food. You build (建てる) a building, you make (作る) bread."},
+
+{type:"teach", trg:"理解(りかい)", src:"understanding / comprehension", pos:"noun", gender:null,
+ note:"理解(りかい)する = to understand. 理解力(りかいりょく) = comprehension ability.\nFormal, used in academic and business contexts.",
+ example:"A: 日本語(にほんご)の理解(りかい)が深(ふか)まりました。\nB: どうやって勉強(べんきょう)しましたか？\nA: 一生懸命(いっしょうけんめい)やった経験(けいけん)があります。\nB: 素晴(すば)らしい努力(どりょく)ですね。",
+ exampleSrc:"A: My understanding of Japanese has deepened.\nB: How did you study?\nA: I have the experience of doing it with all my might.\nB: What a wonderful effort.",
+ funFact:"理解(りかい) uses 理 (reason/logic) and 解 (untie/solve). To 理解(りかい)する is to untie the logic of something. Its opposite is 誤解(ごかい) (misunderstanding, lit. 'wrong untying'). 誤解(ごかい)されやすい = easily misunderstood."},
+
+{type:"tip", title:"N3 Vocabulary in Context", text:"These 7 words appear frequently on the JLPT N3 exam and in everyday B1-level Japanese:\n- 喜(よろこ)ぶ / 記録(きろく) / 現在(げんざい) are neutral-to-formal.\n- 困難(こんなん) is used in formal speech and writing.\n- 一生懸命(いっしょうけんめい) is universal, spoken and written.\n- 建(た)てる / 理解(りかい) appear in practical and academic contexts.", deepDive:"One key pattern: many N3 nouns become verbs by adding する. 記録(きろく)する (to record), 理解(りかい)する (to understand), 努力(どりょく)する (to make an effort). Mastering this する-verb pattern is essential for JLPT N3 and B1 fluency."},
+
+{type:"mc", q:"喜(よろこ)ぶ means:", opts:["to apologize","to be troubled","to rejoice / be pleased","to refuse"], ans:"to rejoice / be pleased",
+ hint:"This is a positive emotion verb. Think of celebration and good news."},
+
+{type:"mc", q:"一生懸命(いっしょうけんめい) means:", opts:["a little bit","sometimes","by oneself","with all one's might"], ans:"with all one's might",
+ hint:"This expression describes giving maximum effort, originally from samurai culture."},
+
+{type:"fb", s:"旅行(りょこう)の{1}をつけています。\n(I keep a record of my travels.)", a:"記録(きろく)", opts:["記録(きろく)","現在(げんざい)","理解(りかい)","経験(けいけん)"], sSrc:"I keep a record of my travels.",
+ hint:"The word meaning 'record / documentation,' also used for world records."},
+
+{type:"fb", s:"自分(じぶん)の家(いえ)を{1}のが夢(ゆめ)です。\n(My dream is to build my own house.)", a:"建(た)てる", opts:["建(た)てる","登(のぼ)る","撮(と)る","乗(の)る"], sSrc:"My dream is to build my own house.",
+ hint:"The ichidan verb meaning 'to construct / to build' structures."},
+
+{type:"match", pairs:[{trg:"喜(よろこ)ぶ",src:"to rejoice"},{trg:"記録(きろく)",src:"record"},{trg:"現在(げんざい)",src:"currently"},{trg:"困難(こんなん)",src:"difficulty"}]},
+
+{type:"match", pairs:[{trg:"一生懸命(いっしょうけんめい)",src:"with all one's might"},{trg:"建(た)てる",src:"to build"},{trg:"理解(りかい)",src:"understanding"},{trg:"経験(けいけん)",src:"experience"}]},
+
+]}
+
 ]};
 export default UNIT_13;
