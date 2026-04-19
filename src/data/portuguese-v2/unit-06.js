@@ -35,6 +35,10 @@ const UNIT_06 = {
           exampleSrc: "A: Where is he?\nB: He is there, at home.",
           funFact: "Brazilians say lá when the place is far or out of sight."},
 
+        {type: "tip", title: "Question Words: que, quem, onde, quando",
+          text: "Portuguese information questions start with a question word:\n\nonde = where (location)\nquem = who (person)\nquando = when (time)\no que / que = what (thing)\npor que = why (reason)\ncomo = how (manner)\nqual / quais = which (selection)\nquanto / quanta = how much\nquantos / quantas = how many\n\nYes-or-no questions use the same word order as statements. Only the rising intonation signals a question.\nVocê fala inglês? = Do you speak English?\n\nIn spoken Brazilian Portuguese you often hear: O que é que você quer? (What is it that you want?). This cleft-question pattern is very common.",
+          icon: "❓",
+          deepDive: {title: "Intonation Questions", text: "Brazilian Portuguese yes-no questions usually have rising intonation at the end. The verb does not invert, unlike in Spanish. You can also add né? (right?) or não é? at the end to soften a statement into a question: É brasileiro, né? (You are Brazilian, aren't you?). This tag is the most common softener in casual speech."}},
         {type: "mc", q: "Which word asks 'where'?",
           opts: ["onde", "aqui", "ali", "lá"], ans: "onde",
           hint: "The question word for location."},
@@ -166,6 +170,10 @@ const UNIT_06 = {
         {type: "tip", title: "Contractions no and na",
           text: "em + o = no (masculine)\nem + a = na (feminine)\nno trabalho (at work)\nna escola (at school)",
           deepDive: "Portuguese always contracts em with the articles o and a. You cannot say em o or em a. Always use no or na. Examples: no restaurante, na loja, no café, na casa dela."},
+        {type: "tip", title: "All Portuguese Contractions: do, da, ao, pelo",
+          text: "Portuguese contractions are MANDATORY. Four prepositions contract with articles:\n\nDE + o/a/os/as = do / da / dos / das\nEm sala do professor. (in the teacher's room.)\n\nEM + o/a/os/as = no / na / nos / nas\nEstou no trabalho. (I am at work.)\n\nA + o/a/os/as = ao / à / aos / às\nVou ao mercado. (I go to the market.)\nVou à praia. (I go to the beach.) — note the grave accent on à\n\nPOR + o/a/os/as = pelo / pela / pelos / pelas\nPassei pelo parque. (I went through the park.)\n\nThe grave accent in à marks the fusion of a (preposition) + a (feminine article). It is the only contracted form with an accent.",
+          icon: "🔗",
+          deepDive: {title: "Why Contractions Are Mandatory", text: "Unlike Spanish (which only has al and del), Portuguese contracts all four main prepositions. Saying 'de o' or 'em a' is a grammatical error, not a stylistic choice. New learners often forget the contraction when they see a preposition plus an article separately. The fix: any time de, em, a, or por appears before o or a, they must merge. No exceptions."}},
 
         {type: "fb", s: "Eu estou {1} escola. (at the school)", a: "na",
           sSrc: "I am at the school.",

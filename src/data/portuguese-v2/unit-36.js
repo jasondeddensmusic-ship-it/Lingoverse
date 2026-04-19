@@ -213,7 +213,19 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
  {trg:"negociar", src:"to negotiate"},
  {trg:"interpretar", src:"to interpret"},
  {trg:"desafio", src:"challenge"}
-]}
+]},
+
+{type:"tip", title:"Cleft Sentences: É... que (Focus and Emphasis)",
+ text:"Cleft sentences move a piece of information to the front to emphasize it. Portuguese uses 'É... que' (literally 'It is... that'):\n\nEu comprei o livro. (I bought the book.)\nFoi eu que comprei o livro. (It was ME who bought the book.)\nFoi o livro que eu comprei. (It was the BOOK that I bought.)\nFoi ontem que eu comprei. (It was YESTERDAY that I bought it.)\n\nThe structure: É / Foi + [emphasized element] + que + rest of sentence.\n\nFor people, use quem instead of que:\nFoi o professor quem explicou. (It was the teacher who explained.)\n\nThis pattern is very common in spoken Brazilian Portuguese. 'É que' alone can also soften an explanation: Desculpa, é que eu estava ocupado. (Sorry, it is just that I was busy.)",
+ icon:"🎯",
+ deepDive:{title:"Why Brazilians Use Cleft Sentences",
+  text:"English also has cleft sentences (It was Maria who called) but uses them sparingly. Brazilian Portuguese uses them far more often in everyday speech for contrast and correction. If someone says 'Ana foi ao mercado' and you want to correct the person, you say 'Foi o João que foi ao mercado, não a Ana.' (It was João who went, not Ana.) Cleft sentences are a natural tool for any moment of correction, surprise, or emphasis. Listening for them helps you understand what a speaker is stressing."}},
+
+{type:"tip", title:"Reported Speech: Tense Shifts",
+ text:"Reported speech (indirect speech) shifts the tenses back in time.\n\nDirect: Ele disse: 'Estou cansado.' (He said: I am tired.)\nIndirect: Ele disse que estava cansado. (He said that he was tired.)\n\nCommon tense shifts in reported speech:\npresent > imperfect: 'Sou feliz.' > Ele disse que era feliz.\npreterite > pluperfect: 'Fiz isso.' > Ela disse que tinha feito isso.\nfuture > conditional: 'Vou sair.' > Ele disse que ia sair.\nsubjunctive > imperfect subjunctive: 'Espero que você venha.' > Ela esperava que eu fosse.\n\nNote: In informal Brazilian speech, tense shifts are often not applied. 'Ele disse que está cansado' is common, even if formal grammar would require 'estava'.",
+ icon:"💬",
+ deepDive:{title:"'Que' as the Reporting Link",
+  text:"Portuguese uses 'que' to introduce reported speech, equivalent to English 'that': 'Ela disse que viria' (She said that she would come). Unlike English, the 'que' cannot be dropped in Portuguese. You cannot say 'Ela disse viria'. The connector is always required.\n\nFor questions in reported speech, use 'se' for yes-no questions: 'Ele perguntou se eu falava português.' (He asked if I spoke Portuguese). For information questions, keep the question word: 'Ele perguntou onde eu morava.' (He asked where I lived)."}},
 ]},
 
 {id:"ptv2_u36l3", title:"Your Journey", icon:"🚀", xp:15, board:true, steps:[

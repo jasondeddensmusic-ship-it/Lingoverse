@@ -348,7 +348,13 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
  s:"Bons {1} de {2} fazem toda a diferença.",
  blanks:{"1":"hábitos","2":"sono"},
  pool:["hábitos","sono","stress","preços"],
- hint:"First blank: regular behaviors. Second blank: what you do at night."}
+ hint:"First blank: regular behaviors. Second blank: what you do at night."},
+
+{type:"tip", title:"Pluperfect: Tinha feito (Past Before the Past)",
+ text:"The pluperfect (mais-que-perfeito composto) describes an action that happened BEFORE another past action.\n\nFormation: tinha / tínhamos / tinham + past participle.\n\nEla já tinha dormido quando eu cheguei. (She had already slept when I arrived.)\nEu tinha trabalhado o dia todo antes do jantar. (I had worked all day before dinner.)\nEles já tinham saído quando chegamos. (They had already left when we arrived.)\n\nKey signal words: já (already), antes de (before), quando (when), depois de (after).\n\nPortuguese also has a literary simple pluperfect (dormira, saíra, chegara) found in novels but almost never in spoken Brazilian.",
+ icon:"⏪",
+ deepDive:{title:"Synthetic vs Compound Pluperfect",
+  text:"The synthetic (simple) pluperfect uses one word: ele dormira, ela chegara. This form survives in formal literature and journalism but sounds archaic in Brazilian speech. The compound pluperfect (tinha dormido, tinha chegado) is the standard spoken form for all regions of Brazil. In everyday conversation, Brazilians sometimes use the preterite where formal grammar calls for the pluperfect, so the context and time markers (já, antes de) carry the 'before' meaning."}},
 ]}
 
 ]}; export default UNIT_28;
