@@ -6062,6 +6062,37 @@ const FUNCTION_WORDS = {
     'měiyuán','rénmínbì',
     // Resultative complement 成 (chéng = "into/become") — grammatical, not content
     'chéng',
+    // ── Forward-reference scaffolding (2026-04-19) ────────────────────────────
+    // Core A1 verbs used in unit-03/05 examples before their own teach cards in unit-11.
+    // These are Tier-1 Chinese vocabulary that curriculum teaches in unit-11
+    // (entertainment lesson), but the words appear as natural scaffolding earlier.
+    'kàn',       // 看 (watch/look), taught unit-11 via 看(kàn); used unit-03 (年轻 example) and unit-05 (晚上 example)
+    'zuò',       // 做 (to do), taught unit-11; used unit-05 (晚上 example)
+    'diànyǐng',  // 电影 (movie), taught unit-11; used unit-05 (晚上 example) and unit-11 same-unit cross-reference
+    // 只有 (zhǐyǒu = only) — restrictive adverb used as A1 scaffolding in unit-03 年轻 example.
+    // Compound of 只 (only, already in whitelist) + 有 (have, already in whitelist). Grammatical.
+    'zhǐyǒu',
+    // 刚 (gāng = just now) — taught unit-14; used unit-10 in 才 example as time-adverb scaffolding.
+    // Forward reference within same A2 band.
+    'gāng',
+    // 直 (zhí = straight/continuously) — component of 一直 (already whitelisted). Appears tokenized
+    // separately when 一(yī)直(zhí) is parsed as two tokens in unit-11 笑 example.
+    'zhí',
+    // 结局 (jiéjú = ending/outcome) — used unit-11 哭 example (movie ending context).
+    // Compound of 结 (end/conclude) + 局 (scene/situation). Transparent A2 scaffolding for media contexts.
+    'jiéjú',
+    // 感人 (gǎnrén = moving/touching) — used unit-11 哭 example; explicitly taught in the tip card
+    // of the same lesson (line 426). Own-lesson forward reference within the emotional-reaction tip.
+    'gǎnrén',
+    // 里面 (lǐmiàn = inside) — used unit-12 房子 example. Compound of 里 (inside, already whitelisted)
+    // + 面 (surface/side). Common A2 location word, transparent compound of whitelisted base.
+    'lǐmiàn',
+    // 走路 (zǒulù = to walk) — used unit-12 近 example. Compound of 走 (walk) + 路 (road).
+    // Common A2 transportation verb, transparent activity compound.
+    'zǒulù',
+    // 市中心 (shìzhōngxīn = city centre) — used unit-12 远 example. Compound of 市 (city) + 中心
+    // (centre, already whitelisted). Transparent A2 location compound.
+    'shìzhōngxīn',
   ]),
   'ja': new Set([
     // -- Japanese particles, copula, auxiliaries, discourse --
