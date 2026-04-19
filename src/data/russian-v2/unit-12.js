@@ -11,8 +11,8 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
 
 {type:"teach", trg:"путешествие", src:"journey / trip", pos:"noun", gender:"n",
  note:"NEUTER. Long word, stress on fourth syllable.\nFrom 'путь' (path).",
- example:"A: Как путешествие?\nB: Отлично, много впечатлений.",
- exampleSrc:"A: How was the trip?\nB: Great, lots of impressions.",
+ example:"A: Как путешествие?\nB: Хорошо, я доволен.",
+ exampleSrc:"A: How was the trip?\nB: Good, I'm happy.",
  funFact:"Путешествие vs поездка (shorter trip) vs поход (hiking trip). Путешествие implies significant, often international travel. A weekend getaway is a поездка."},
 
 {type:"teach", trg:"самолёт", src:"airplane", pos:"noun", gender:"m",
@@ -23,20 +23,20 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
 
 {type:"teach", trg:"поезд", src:"train", pos:"noun", gender:"m",
  note:"Masculine. Short, common.\nPlural: поезда.",
- example:"A: В Москву на поезде?\nB: Да, ночной.",
- exampleSrc:"A: To Moscow by train?\nB: Yes, overnight.",
+ example:"A: В Москву на поезде?\nB: Да, хорошо.",
+ exampleSrc:"A: To Moscow by train?\nB: Yes, great.",
  funFact:"Trans-Siberian Railway (Транссиб) is 9,289 km — the world's longest continuous rail line. Moscow-Vladivostok takes 7 days. A quintessential Russian experience."},
 
 {type:"teach", trg:"автобус", src:"bus", pos:"noun", gender:"m",
  note:"Masculine. Foreign origin.\nИз автобуса выхожу (I get off the bus).",
- example:"A: Едешь на автобусе?\nB: Нет, на метро быстрее.",
- exampleSrc:"A: Going by bus?\nB: No, faster by metro.",
+ example:"A: Едешь на автобусе?\nB: Нет, на метро.",
+ exampleSrc:"A: Going by bus?\nB: No, by metro.",
  funFact:"Russian city buses have conductors (кондуктор) in some cities. Electronic cards like Тройка in Moscow, Подорожник in Petersburg make life easier for Russians and tourists."},
 
 {type:"teach", trg:"машина", src:"car", pos:"noun", gender:"f",
  note:"Feminine. Also means 'machine' in general.\nFor car specifically: 'легковая машина.'",
- example:"A: У тебя есть машина?\nB: Да, купил в прошлом году.",
- exampleSrc:"A: Do you have a car?\nB: Yes, bought last year.",
+ example:"A: У тебя есть машина?\nB: Да, есть.",
+ exampleSrc:"A: Do you have a car?\nB: Yes, I do.",
  funFact:"Машина's broader meaning survives: 'стиральная машина' (washing machine), 'машинное обучение' (machine learning). Context clarifies whether it's a car."},
 
 {type:"teach", trg:"метро", src:"metro", pos:"noun", gender:"n",
@@ -107,8 +107,8 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
 
 {type:"teach", trg:"расписание", src:"schedule / timetable", pos:"noun", gender:"n",
  note:"Neuter. Ends in -е.\nLong word, stress on third syllable.",
- example:"A: Где расписание?\nB: Вон там, на стене.",
- exampleSrc:"A: Where's the schedule?\nB: Over there, on the wall.",
+ example:"A: Где расписание?\nB: Вон там, рядом.",
+ exampleSrc:"A: Where's the schedule?\nB: Over there, nearby.",
  funFact:"Russian train station walls display детальное расписание (detailed schedules) — departures, arrivals, platforms, delays. Digital displays exist but paper schedules persist."},
 
 {type:"teach", trg:"уходить", src:"to leave (imperfective)", pos:"verb", gender:null,
@@ -125,14 +125,14 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
 
 {type:"teach", trg:"быстро", src:"fast / quickly", pos:"adv", gender:null,
  note:"Adverb. Opposite of медленно.\nBoth describe transport speed.",
- example:"A: Быстро доехать?\nB: Час на такси.",
- exampleSrc:"A: Can we get there fast?\nB: An hour by taxi.",
+ example:"A: На автобусе быстро?\nB: Да, очень быстро.",
+ exampleSrc:"A: Is the bus fast?\nB: Yes, very fast.",
  funFact:"Быстро (fast) + comparative быстрее (faster) + superlative самый быстрый (fastest). Adverb family: быстро, быстрый, быстрота, быстренько (quickly — diminutive). Rich word web."},
 
 {type:"teach", trg:"медленно", src:"slowly", pos:"adv", gender:null,
  note:"Opposite of быстро.\nDouble consonant нн.",
- example:"A: Этот поезд медленно идёт.\nB: Да, ночной.",
- exampleSrc:"A: This train goes slowly.\nB: Yes, overnight.",
+ example:"A: Поезд идёт медленно?\nB: Да, очень медленно.",
+ exampleSrc:"A: Does the train go slowly?\nB: Yes, very slowly.",
  funFact:"Russian distinguishes slow trains (скорый, медленный) by ticket class. 'Сапсан' trains are fastest; 'плацкартные' overnight trains are slowest and cheapest."},
 
 {type:"teach", trg:"чемодан", src:"suitcase", pos:"noun", gender:"m",
@@ -184,14 +184,14 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
 
 {type:"teach", trg:"путь", src:"path / way", pos:"noun", gender:"m",
  note:"MASCULINE (unusual — ends in ь).\nMore abstract than дорога.",
- example:"A: Долгий путь?\nB: Восемь часов.",
- exampleSrc:"A: A long way?\nB: Eight hours.",
+ example:"A: Путь далеко?\nB: Да, восемь часов.",
+ exampleSrc:"A: Is the way far?\nB: Yes, eight hours.",
  funFact:"Путь is unusual among -ь-ending nouns: masculine. Most -ь nouns are feminine. Путь has Indo-European roots (English path, Latin pons/pontis)."},
 
 {type:"teach", trg:"направление", src:"direction", pos:"noun", gender:"n",
  note:"Neuter. Ends in -е.\nFrom прав- (right, true).",
- example:"A: В каком направлении?\nB: На север.",
- exampleSrc:"A: In which direction?\nB: North.",
+ example:"A: Какое направление?\nB: На север.",
+ exampleSrc:"A: Which direction?\nB: North.",
  funFact:"Направление also means 'trend' or 'tendency' metaphorically. 'Новое направление в искусстве' = new trend in art. Common modern extension."},
 
 {type:"teach", trg:"север", src:"north", pos:"noun", gender:"m",
@@ -214,8 +214,8 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
 
 {type:"teach", trg:"запад", src:"west", pos:"noun", gender:"m",
  note:"Masculine. From закат (sunset).\nRussia has a long western border.",
- example:"A: Какие столицы на западе?\nB: Москва, Петербург.",
- exampleSrc:"A: Which capitals are in the west?\nB: Moscow, Petersburg.",
+ example:"A: Москва на западе?\nB: Да, на западе.",
+ exampleSrc:"A: Is Moscow in the west?\nB: Yes, in the west.",
  funFact:"'Запад' carries strong associations in Russian discourse — 'Западная цивилизация' (Western civilization), 'западные ценности' (Western values). Central concept."},
 
 {type:"teach", trg:"заблудиться", src:"to get lost", pos:"verb", gender:null,

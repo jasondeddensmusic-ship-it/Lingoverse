@@ -11,8 +11,8 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
 
 {type:"teach", trg:"в доме", src:"in the house", pos:"phrase", gender:null,
  note:"В + prepositional = location inside.\nДом → в доме.",
- example:"A: Где Анна?\nB: В доме, спит.",
- exampleSrc:"A: Where is Anna?\nB: In the house, sleeping.",
+ example:"A: Где Анна?\nB: В доме.",
+ exampleSrc:"A: Where is Anna?\nB: In the house.",
  funFact:"В + prepositional for 'in enclosed space.' Different from 'в дом' (accusative = motion into)."},
 
 {type:"teach", trg:"на работе", src:"at work", pos:"phrase", gender:null,
@@ -35,8 +35,8 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
 
 {type:"teach", trg:"в городе", src:"in the city", pos:"phrase", gender:null,
  note:"Город → в городе.\nMasculine gets -е.",
- example:"A: Где ты живёшь?\nB: В Москве, большом городе.",
- exampleSrc:"A: Where do you live?\nB: In Moscow, a big city.",
+ example:"A: Где ты живёшь?\nB: В Москве.",
+ exampleSrc:"A: Where do you live?\nB: In Moscow.",
  funFact:"Russia has ~15 cities with over a million people. 'В городе' works for any — Москва, Петербург, Новосибирск, Екатеринбург."},
 
 {type:"teach", trg:"в школе", src:"at school", pos:"phrase", gender:null,
@@ -47,8 +47,8 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
 
 {type:"teach", trg:"в магазине", src:"at the shop", pos:"phrase", gender:null,
  note:"Магазин → в магазине.\nShop is enclosed space → в.",
- example:"A: Куда пошла мама?\nB: В магазин за хлебом.",
- exampleSrc:"A: Where did mom go?\nB: To the store for bread.",
+ example:"A: Мама в магазине?\nB: Да, в магазине.",
+ exampleSrc:"A: Is mom at the store?\nB: Yes, at the store.",
  funFact:"Notice 'в магазин' (acc, motion) vs 'в магазине' (prep, location). The direction/location distinction is fundamental and constant in Russian."},
 
 {type:"tip", title:"В vs На: Location Rules",
@@ -94,8 +94,8 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
 
 {type:"teach", trg:"стол → столе", src:"table → on table (m)", pos:"phrase", gender:null,
  note:"Masculine nouns: add -е.\nConsonant + е ending is standard.",
- example:"A: Где ложка?\nB: На столе, возле тарелки.",
- exampleSrc:"A: Where's the spoon?\nB: On the table, near the plate.",
+ example:"A: Книга где?\nB: На столе.",
+ exampleSrc:"A: Where's the book?\nB: On the table.",
  funFact:"Masculine -е is the most common prepositional ending. Дом → доме, университет → университете, город → городе."},
 
 {type:"teach", trg:"музей → музее", src:"museum → in museum (m)", pos:"phrase", gender:null,
@@ -106,8 +106,8 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
 
 {type:"teach", trg:"комната → комнате", src:"room → in room (f)", pos:"phrase", gender:null,
  note:"Feminine -а → -е.\nOne-letter change.",
- example:"A: Где дети?\nB: В комнате, играют.",
- exampleSrc:"A: Where are the kids?\nB: In the room, playing.",
+ example:"A: Ты в комнате?\nB: Да, в комнате.",
+ exampleSrc:"A: Are you in the room?\nB: Yes, in the room.",
  funFact:"Most feminine nouns with -а have identical -е endings for dative AND prepositional. Double-duty endings."},
 
 {type:"teach", trg:"площадь → площади", src:"square → on square (f)", pos:"phrase", gender:null,
@@ -118,14 +118,14 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
 
 {type:"teach", trg:"окно → окне", src:"window → at window (n)", pos:"phrase", gender:null,
  note:"Neuter -о → -е.\nStandard neuter transformation.",
- example:"A: Кто в окне?\nB: Это мой кот.",
- exampleSrc:"A: Who's in the window?\nB: That's my cat.",
+ example:"A: Кто в окне?\nB: Никто.",
+ exampleSrc:"A: Who's in the window?\nB: Nobody.",
  funFact:"Neuter prepositional is predictable: -о → -е. Море → море stays море — because final е replaces any ending. Language economy."},
 
 {type:"teach", trg:"здание → здании", src:"building → in building (n)", pos:"phrase", gender:null,
  note:"Neuter -ие → -ии.\nTwo vowels in a row.",
- example:"A: Где офис?\nB: В этом здании, на третьем этаже.",
- exampleSrc:"A: Where's the office?\nB: In this building, on the third floor.",
+ example:"A: Где офис?\nB: В здании рядом.",
+ exampleSrc:"A: Where's the office?\nB: In the building nearby.",
  funFact:"Neuters ending in -ие get -ии: здание → здании, упражнение → упражнении. The extra и appears for pronunciation."},
 
 {type:"tip", title:"Prepositional Endings Summary",

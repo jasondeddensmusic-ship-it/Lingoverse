@@ -23,14 +23,14 @@ const UNIT_25 = {n:25, lang:"ru", srcLang:"en", track:"v2", title:"Общест�
 
 {type:"teach", trg:"свобода", src:"freedom", pos:"noun", gender:"f",
  note:"Feminine. Ends in -а.\nCentral concept in Russian thought.",
- example:"A: Свобода слова важна.\nB: Абсолютно.",
- exampleSrc:"A: Freedom of speech is important.\nB: Absolutely.",
+ example:"A: Свобода важна?\nB: Да, очень.",
+ exampleSrc:"A: Is freedom important?\nB: Yes, very much.",
  funFact:"Свобода has weighty political associations in Russia. Soviet dissidents struggled for it. Today the word retains weight beyond everyday English 'freedom.'"},
 
 {type:"teach", trg:"справедливость", src:"justice / fairness", pos:"noun", gender:"f",
  note:"Feminine. -ость suffix for abstract concepts.\nFrom справедливый (fair).",
- example:"A: Социальная справедливость.\nB: Сложная тема.",
- exampleSrc:"A: Social justice.\nB: A complex topic.",
+ example:"A: Справедливость важна?\nB: Да, это важно.",
+ exampleSrc:"A: Is justice important?\nB: Yes, it's important.",
  funFact:"Russian -ость suffix creates abstract feminine nouns: справедливость, свобода, честность (honesty), доброта (kindness). Native Russian abstractions."},
 
 {type:"teach", trg:"право", src:"right / law", pos:"noun", gender:"n",
@@ -47,8 +47,8 @@ const UNIT_25 = {n:25, lang:"ru", srcLang:"en", track:"v2", title:"Общест�
 
 {type:"teach", trg:"проблема", src:"problem / issue", pos:"noun", gender:"f",
  note:"Feminine. Greek loanword.\nCommon in daily and political discourse.",
- example:"A: Это серьёзная проблема.\nB: Нужно решить.",
- exampleSrc:"A: This is a serious problem.\nB: Need to solve.",
+ example:"A: Это проблема?\nB: Да, это проблема.",
+ exampleSrc:"A: Is this a problem?\nB: Yes, this is a problem.",
  funFact:"Проблема is the universal word for any issue. Russians use it for small daily problems and big political ones. 'Это не проблема' (no problem) is common."},
 
 {type:"tip", title:"Abstract Nouns in Russian",

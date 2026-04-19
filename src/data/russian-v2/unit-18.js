@@ -17,8 +17,8 @@ const UNIT_18 = {n:18, lang:"ru", srcLang:"en", track:"v2", title:"Вините�
 
 {type:"teach", trg:"Я люблю маму", src:"I love mom (ACC)", pos:"phrase", gender:null,
  note:"Мама → маму.\nAnimate feminine: same -у ending as inanimate.",
- example:"A: Ты любишь маму?\nB: Конечно, очень.",
- exampleSrc:"A: Do you love mom?\nB: Of course, very much.",
+ example:"A: Ты любишь маму?\nB: Да, очень.",
+ exampleSrc:"A: Do you love mom?\nB: Yes, very much.",
  funFact:"For feminines ending in -а, accusative is always -у. Animate/inanimate doesn't matter for feminines. Simpler than masculines."},
 
 {type:"teach", trg:"Я купил журнал", src:"I bought a magazine (M inanimate)", pos:"phrase", gender:null,
@@ -35,8 +35,8 @@ const UNIT_18 = {n:18, lang:"ru", srcLang:"en", track:"v2", title:"Вините�
 
 {type:"teach", trg:"Я читаю газету", src:"I read the newspaper", pos:"phrase", gender:null,
  note:"Газета → газету.\nDaily activity verb + accusative.",
- example:"A: Что читаешь?\nB: Интересную газету.",
- exampleSrc:"A: What are you reading?\nB: An interesting newspaper.",
+ example:"A: Что читаешь?\nB: Газету.",
+ exampleSrc:"A: What are you reading?\nB: A newspaper.",
  funFact:"Note 'интересную газету' — adjective agrees with noun's accusative case: feminine adjective also goes -ую. Consistent pattern."},
 
 {type:"teach", trg:"Я знаю сестру", src:"I know (my) sister", pos:"phrase", gender:null,
@@ -107,8 +107,8 @@ const UNIT_18 = {n:18, lang:"ru", srcLang:"en", track:"v2", title:"Вините�
 
 {type:"teach", trg:"в парк", src:"to the park (motion)", pos:"phrase", gender:null,
  note:"Парк is masculine inanimate.\nAccusative = nominative (no change).",
- example:"A: Пойдём в парк?\nB: С удовольствием.",
- exampleSrc:"A: Shall we go to the park?\nB: With pleasure.",
+ example:"A: Пойдём в парк?\nB: Да, пойдём.",
+ exampleSrc:"A: Shall we go to the park?\nB: Yes, let's go.",
  funFact:"Masculine inanimate accusative = nominative, so 'в парк' and 'в доме' look different because 'дом' is parallel form without ending change."},
 
 {type:"teach", trg:"на концерт", src:"to a concert", pos:"phrase", gender:null,
@@ -119,8 +119,8 @@ const UNIT_18 = {n:18, lang:"ru", srcLang:"en", track:"v2", title:"Вините�
 
 {type:"teach", trg:"в гости", src:"to (someone's) house", pos:"phrase", gender:null,
  note:"Гости (pl of гость, animate masculine) → в гости.\nVisiting friends/family.",
- example:"A: Куда идёшь?\nB: В гости к Марине.",
- exampleSrc:"A: Where are you going?\nB: To visit Marina.",
+ example:"A: Куда идёшь?\nB: В гости.",
+ exampleSrc:"A: Where are you going?\nB: To visit friends.",
  funFact:"'Ходить/идти в гости' = to visit someone. Russians distinguish formal visiting (в гости) from just going to their place (к другу). Social ritual."},
 
 {type:"tip", title:"Direction vs Location",

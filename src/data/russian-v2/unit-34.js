@@ -11,20 +11,20 @@ const UNIT_34 = {n:34, lang:"ru", srcLang:"en", track:"v2", title:"Геогра�
 
 {type:"teach", trg:"Россия", src:"Russia", pos:"noun", gender:"f",
  note:"Feminine. Official: Российская Федерация.\n17.1 million km².",
- example:"A: Россия большая.\nB: Самая большая страна в мире.",
- exampleSrc:"A: Russia is big.\nB: The largest country in the world.",
+ example:"A: Россия большая.\nB: Да, очень большая.",
+ exampleSrc:"A: Russia is big.\nB: Yes, very big.",
  funFact:"Russia = 17.1M km² = 11% of Earth's land. Larger than Pluto. Stretches from Europe to Asia across 11 time zones, touching 14 countries."},
 
 {type:"teach", trg:"Москва", src:"Moscow", pos:"noun", gender:"f",
  note:"Feminine. Capital since 1918.\nПопуляция ~13 million.",
- example:"A: Ты живёшь в Москве?\nB: Родился здесь.",
- exampleSrc:"A: Do you live in Moscow?\nB: Born here.",
+ example:"A: Ты живёшь в Москве?\nB: Да, живу.",
+ exampleSrc:"A: Do you live in Moscow?\nB: Yes, I do.",
  funFact:"Moscow is Europe's largest city. Founded 1147. Red Square, Kremlin, Bolshoi are cultural landmarks. Largest Russian concentration of power, culture, business."},
 
 {type:"teach", trg:"Петербург", src:"Petersburg", pos:"noun", gender:"m",
  note:"Masculine. Full: Санкт-Петербург.\nFormer capital (1712-1918).",
- example:"A: Петербург красивый.\nB: Северная Венеция.",
- exampleSrc:"A: Petersburg is beautiful.\nB: The Northern Venice.",
+ example:"A: Петербург красивый.\nB: Да, красивый.",
+ exampleSrc:"A: Petersburg is beautiful.\nB: Yes, beautiful.",
  funFact:"Saint Petersburg (1703) was Peter the Great's creation. European-style city, imperial capital. 'Северная столица' (Northern capital). Cultural heart of Russia."},
 
 {type:"teach", trg:"Сибирь", src:"Siberia", pos:"noun", gender:"f",
@@ -35,14 +35,14 @@ const UNIT_34 = {n:34, lang:"ru", srcLang:"en", track:"v2", title:"Геогра�
 
 {type:"teach", trg:"Урал", src:"Urals (mountains)", pos:"noun", gender:"m",
  note:"Masculine. Mountain range.\nDivides Europe and Asia.",
- example:"A: Переехали через Урал.\nB: Теперь в Азии.",
- exampleSrc:"A: We crossed the Urals.\nB: Now in Asia.",
+ example:"A: Это Урал?\nB: Да, это Урал.",
+ exampleSrc:"A: Is this the Urals?\nB: Yes, this is the Urals.",
  funFact:"Ural Mountains stretch 2,500 km north-south. Traditional border between Europe and Asia. Richly mineralized. Сibirь starts east of Ural."},
 
 {type:"teach", trg:"Кавказ", src:"Caucasus", pos:"noun", gender:"m",
  note:"Masculine. Mountain region south.\nRich ethnic diversity.",
- example:"A: Был на Кавказе?\nB: Да, пошли в горы.",
- exampleSrc:"A: Were you in the Caucasus?\nB: Yes, we went to the mountains.",
+ example:"A: Был на Кавказе?\nB: Да, был там.",
+ exampleSrc:"A: Were you in the Caucasus?\nB: Yes, I was there.",
  funFact:"Caucasus region contains 50+ ethnic groups. Highest European mountain Эльбрус (5,642 m). Culturally distinct from Slavic Russia. Rich folk traditions."},
 
 {type:"teach", trg:"столица", src:"capital city", pos:"noun", gender:"f",

@@ -11,26 +11,26 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
 
 {type:"teach", trg:"где", src:"where (location)", pos:"pron", gender:null,
  note:"Used for static location (where something IS).\nOpposite of куда (where TO).",
- example:"A: Где твой телефон?\nB: На столе.",
- exampleSrc:"A: Where is your phone?\nB: On the table.",
+ example:"A: Где ты?\nB: Я здесь.",
+ exampleSrc:"A: Where are you?\nB: I'm here.",
  funFact:"Russian distinguishes location vs direction: где (where, static) vs куда (where, moving). English uses 'where' for both. This distinction is consistent in Russian — don't mix them."},
 
 {type:"teach", trg:"здесь", src:"here", pos:"adv", gender:null,
  note:"For location (static).\nSynonym: тут (more colloquial).",
- example:"A: Где ты?\nB: Я здесь, в кафе.",
- exampleSrc:"A: Where are you?\nB: I'm here, at the café.",
+ example:"A: Где ты?\nB: Я здесь, дома.",
+ exampleSrc:"A: Where are you?\nB: I'm here, at home.",
  funFact:"Здесь is slightly more formal than тут, but both are widely used. Тут is favored in casual speech and song lyrics for its rhythmic quality."},
 
 {type:"teach", trg:"там", src:"there", pos:"adv", gender:null,
  note:"For distant location.\nAlso used idiomatically: 'что там?' = what's up?",
- example:"A: Где твой брат?\nB: Он там, в парке.",
- exampleSrc:"A: Where's your brother?\nB: He's there, at the park.",
+ example:"A: Где твой брат?\nB: Он там, дома.",
+ exampleSrc:"A: Where's your brother?\nB: He's there, at home.",
  funFact:"Там opens the famous Pushkin line 'У лукоморья дуб зелёный...' ('Tam' in English children's book style 'There...'). A cornerstone of Russian poetry memorized by every schoolchild."},
 
 {type:"teach", trg:"дом", src:"house / home", pos:"noun", gender:"m",
  note:"Masculine. Ends in consonant.\nBoth the physical house and the concept of home.",
- example:"A: Где твой дом?\nB: Мой дом в центре города.",
- exampleSrc:"A: Where is your house?\nB: My house is in the city center.",
+ example:"A: Это твой дом?\nB: Да, это мой дом.",
+ exampleSrc:"A: Is this your house?\nB: Yes, this is my house.",
  funFact:"Russian distinguishes house vs home by preposition: в доме (in the building) vs дома (at home, adverbial). The phrase 'дом — это крепость' (home is a fortress) is a common saying."},
 
 {type:"teach", trg:"школа", src:"school", pos:"noun", gender:"f",
@@ -41,8 +41,8 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
 
 {type:"teach", trg:"работа", src:"work / job", pos:"noun", gender:"f",
  note:"Feminine. Ends in -а.\nBoth 'work' (activity) and 'workplace.'",
- example:"A: Где работа твоего папы?\nB: В банке.",
- exampleSrc:"A: Where is your dad's work?\nB: At a bank.",
+ example:"A: Где твоя работа?\nB: Там.",
+ exampleSrc:"A: Where is your work?\nB: There.",
  funFact:"Работа shares a root with раб (slave) — reflecting old Slavic understanding of work as servitude. The modern Russian 'работать' (to work) still carries this Latin-like root."},
 
 {type:"teach", trg:"магазин", src:"shop / store", pos:"noun", gender:"m",
@@ -53,8 +53,8 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
 
 {type:"teach", trg:"ресторан", src:"restaurant", pos:"noun", gender:"m",
  note:"Masculine. Ends in consonant.\nFrench loan, same as English.",
- example:"A: Где этот ресторан?\nB: Возле метро.",
- exampleSrc:"A: Where is this restaurant?\nB: Near the metro.",
+ example:"A: Где ресторан?\nB: Там, рядом.",
+ exampleSrc:"A: Where is the restaurant?\nB: There, nearby.",
  funFact:"Moscow has the 'ресторанный рейтинг' (restaurant rating) culture, with Russian equivalents of Michelin stars. Famous chain White Rabbit was ranked in World's 50 Best Restaurants."},
 
 {type:"tip", title:"Location vs Direction: Где vs Куда",
@@ -100,8 +100,8 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
 
 {type:"teach", trg:"на", src:"on / at (surface, event)", pos:"prep", gender:null,
  note:"For surfaces (на столе = on the table), events (на концерте = at the concert), islands.\nLike в, takes prepositional for location.",
- example:"A: Где книга?\nB: На столе.",
- exampleSrc:"A: Where is the book?\nB: On the table.",
+ example:"A: Где школа?\nB: Она там, рядом.",
+ exampleSrc:"A: Where is the school?\nB: It's there, nearby.",
  funFact:"Islands and peninsulas use на, not в: на Кубе (in Cuba), на Украине (in Ukraine — politically controversial, modern use prefers в Украину), на Кипре (in Cyprus)."},
 
 {type:"teach", trg:"у", src:"at (someone's place) / by", pos:"prep", gender:null,
@@ -118,8 +118,8 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
 
 {type:"teach", trg:"за", src:"behind / beyond", pos:"prep", gender:null,
  note:"Takes instrumental for location.\nAlso takes accusative for direction.",
- example:"A: Где ключи?\nB: За дверью.",
- exampleSrc:"A: Where are the keys?\nB: Behind the door.",
+ example:"A: Где школа?\nB: За магазином.",
+ exampleSrc:"A: Where is the school?\nB: Behind the shop.",
  funFact:"За has dozens of meanings: 'behind,' 'for,' 'during,' 'in place of.' One of the most polysemous Russian prepositions. 'За работу!' = 'to work!' (starting a task)."},
 
 {type:"teach", trg:"рядом", src:"nearby / next to", pos:"adv", gender:null,
@@ -201,20 +201,20 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
 
 {type:"teach", trg:"налево", src:"to the left", pos:"adv", gender:null,
  note:"Direction adverb.\nЛево = left (noun base).",
- example:"A: Где библиотека?\nB: Налево, за углом.",
- exampleSrc:"A: Where's the library?\nB: To the left, around the corner.",
+ example:"A: Где магазин?\nB: Налево, рядом.",
+ exampleSrc:"A: Where is the shop?\nB: To the left, nearby.",
  funFact:"'Пойти налево' literally 'to go left' is an idiomatic Russian expression meaning 'to be unfaithful in relationships.' Context makes clear whether it's directional or metaphorical."},
 
 {type:"teach", trg:"направо", src:"to the right", pos:"adv", gender:null,
  note:"Direction adverb.\nПраво = right (noun base, also 'right/law').",
- example:"A: Как пройти к музею?\nB: Идите прямо, потом направо.",
- exampleSrc:"A: How do I get to the museum?\nB: Go straight, then right.",
+ example:"A: Где магазин?\nB: Идите прямо, потом направо.",
+ exampleSrc:"A: Where is the shop?\nB: Go straight, then right.",
  funFact:"Право doubles as 'right' (direction) AND 'right' (legal right). Context distinguishes: 'идите направо' vs 'имею право' (I have the right). Similar to English."},
 
 {type:"teach", trg:"прямо", src:"straight ahead", pos:"adv", gender:null,
  note:"Most common direction word.\nLiterally: 'straight.'",
- example:"A: Как до метро?\nB: Идите прямо до светофора.",
- exampleSrc:"A: How to get to the metro?\nB: Go straight until the traffic light.",
+ example:"A: Где магазин?\nB: Идите прямо.",
+ exampleSrc:"A: Where is the shop?\nB: Go straight.",
  funFact:"Прямо also means 'frankly' or 'directly' in metaphorical use: 'скажите прямо' (speak frankly). A common word for both physical and verbal directness."},
 
 {type:"teach", trg:"быстро", src:"quickly", pos:"adv", gender:null,
@@ -225,8 +225,8 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
 
 {type:"teach", trg:"медленно", src:"slowly", pos:"adv", gender:null,
  note:"Opposite of быстро.\nDouble-N in Russian: pronounced as long N.",
- example:"A: Говорите медленно, пожалуйста.\nB: Хорошо, я постараюсь.",
- exampleSrc:"A: Please speak slowly.\nB: Okay, I'll try.",
+ example:"A: Идите медленно, пожалуйста.\nB: Да, хорошо.",
+ exampleSrc:"A: Please walk slowly.\nB: Yes, okay.",
  funFact:"The phrase 'Говорите медленно, пожалуйста!' is every Russian learner's lifeline. Russian is notorious for fast speech — this is the phrase that signals 'please slow down.'"},
 
 {type:"tip", title:"Motion Verbs: Идти vs Ехать",

@@ -11,14 +11,14 @@ const UNIT_23 = {n:23, lang:"ru", srcLang:"en", track:"v2", title:"Повели�
 
 {type:"teach", trg:"читай!", src:"read! (informal)", pos:"verb", gender:null,
  note:"Imperfective imperative.\nFrom читать: take я-form, remove -ю, add -й.",
- example:"A: Читай громче!\nB: Хорошо.",
- exampleSrc:"A: Read louder!\nB: Okay.",
+ example:"A: Читай!\nB: Хорошо.",
+ exampleSrc:"A: Read!\nB: Okay.",
  funFact:"Imperfective imperative for ongoing/repeated action. 'Читай!' might mean 'Keep reading!' or 'Read (regularly)!'"},
 
 {type:"teach", trg:"прочитай!", src:"read it! (complete)", pos:"verb", gender:null,
  note:"Perfective imperative.\nFrom прочитать. Emphasizes completion.",
- example:"A: Прочитай это письмо!\nB: Сейчас прочитаю.",
- exampleSrc:"A: Read this letter!\nB: I'll read it now.",
+ example:"A: Прочитай это!\nB: Сейчас прочитаю.",
+ exampleSrc:"A: Read this!\nB: I'll read it now.",
  funFact:"Perfective for specific, completed requests. 'Прочитай эту книгу!' = specific request to read a specific book completely."},
 
 {type:"teach", trg:"читайте!", src:"read! (formal/plural)", pos:"verb", gender:null,
@@ -41,20 +41,20 @@ const UNIT_23 = {n:23, lang:"ru", srcLang:"en", track:"v2", title:"Повели�
 
 {type:"teach", trg:"не говорите!", src:"don't speak!", pos:"phrase", gender:null,
  note:"Negative imperative = не + imperfective.\nUse imperfective for prohibitions.",
- example:"A: Не говорите громко!\nB: Извините, забыл.",
- exampleSrc:"A: Don't speak loudly!\nB: Sorry, forgot.",
+ example:"A: Не говорите здесь!\nB: Хорошо.",
+ exampleSrc:"A: Don't speak here!\nB: Okay.",
  funFact:"Negative commands use IMPERFECTIVE aspect ('не говори!' not 'не скажи!'). Russian aspect + negation flips normal perfective preference."},
 
 {type:"teach", trg:"давай", src:"let's (informal)", pos:"verb", gender:null,
  note:"Informal suggestion.\n'Давай пойдём!' = Let's go!",
- example:"A: Давай пойдём в кино!\nB: Отличная идея.",
- exampleSrc:"A: Let's go to the movies!\nB: Great idea.",
+ example:"A: Давай пойдём домой!\nB: Да, давай.",
+ exampleSrc:"A: Let's go home!\nB: Yes, let's.",
  funFact:"'Давай' is Russian's casual suggestion opener. With друг/peer: 'давай пообедаем' (let's have lunch). With вы: 'давайте' with plural form."},
 
 {type:"teach", trg:"давайте", src:"let's (formal/plural)", pos:"verb", gender:null,
  note:"Formal/plural version.\n'Давайте начнём!' = Let's begin (formal).",
- example:"A: Давайте встретимся в пять.\nB: Согласен.",
- exampleSrc:"A: Let's meet at five.\nB: Agreed.",
+ example:"A: Давайте встретимся в пять.\nB: Да, хорошо.",
+ exampleSrc:"A: Let's meet at five.\nB: Yes, good.",
  funFact:"Meetings in Russia commonly open with 'Давайте начнём' (let's begin). In business: 'давайте обсудим' (let's discuss). Respectful suggestion."},
 
 {type:"tip", title:"Russian Imperative Formation",

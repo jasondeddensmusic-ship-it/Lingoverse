@@ -11,32 +11,32 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
 
 {type:"teach", trg:"работал", src:"worked (he)", pos:"verb", gender:null,
  note:"Past tense. Drop infinitive -ть, add -л for masculine.\nFrom работать.",
- example:"A: Что ты делал вчера?\nB: Работал до ночи.",
- exampleSrc:"A: What did you do yesterday?\nB: Worked till night.",
+ example:"A: Что ты делал вчера?\nB: Работал весь день.",
+ exampleSrc:"A: What did you do yesterday?\nB: Worked all day.",
  funFact:"Russian past doesn't conjugate for person (я/ты/он all use работал). It conjugates for GENDER. This is unusual globally — most languages conjugate past for person."},
 
 {type:"teach", trg:"работала", src:"worked (she)", pos:"verb", gender:null,
  note:"Feminine past: add -ла.\nУ неё = 'at her.'",
- example:"A: Где была Маша?\nB: Она работала в офисе.",
- exampleSrc:"A: Where was Masha?\nB: She worked in the office.",
+ example:"A: Где была Маша?\nB: Она работала там.",
+ exampleSrc:"A: Where was Masha?\nB: She was working there.",
  funFact:"The feminine -ла ending is universal. 'Я работала' said by a woman, 'я работал' by a man. The same past tense form changes with the speaker's gender."},
 
 {type:"teach", trg:"работало", src:"worked (it)", pos:"verb", gender:null,
  note:"Neuter past: add -ло.\nRare for work verbs (worked is usually a person).",
- example:"A: Правительство работало хорошо.\nB: Согласен.",
- exampleSrc:"A: The government worked well.\nB: I agree.",
+ example:"A: Всё работало хорошо?\nB: Да, хорошо.",
+ exampleSrc:"A: Did everything work well?\nB: Yes, well.",
  funFact:"Neuter past is used when subject is неуter: сердце работало (the heart worked), правительство (government, which is neuter)."},
 
 {type:"teach", trg:"работали", src:"worked (they/we/you pl)", pos:"verb", gender:null,
  note:"Plural past: add -ли.\nNo distinction between мы/вы/они in past.",
- example:"A: Что вы делали в выходные?\nB: Работали над проектом.",
- exampleSrc:"A: What did you do on weekends?\nB: Worked on a project.",
+ example:"A: Что вы делали вчера?\nB: Работали весь день.",
+ exampleSrc:"A: What did you do yesterday?\nB: We worked all day.",
  funFact:"Plural -ли works for всех: мы (we), вы (you plural/formal), они (they). Russian past is refreshingly regular in this respect."},
 
 {type:"teach", trg:"жил", src:"lived (he)", pos:"verb", gender:null,
  note:"From жить (to live).\nStandard -л ending for masculine.",
- example:"A: Где ты жил в детстве?\nB: В маленьком городе.",
- exampleSrc:"A: Where did you live in childhood?\nB: In a small city.",
+ example:"A: Ты жил в Москве?\nB: Да, жил там.",
+ exampleSrc:"A: Did you live in Moscow?\nB: Yes, lived there.",
  funFact:"Жить is one of the most common Russian verbs. Its past (жил, жила, жило, жили) appears everywhere in stories: 'жил-был царь' (there lived a king) — opening of many fairy tales."},
 
 {type:"teach", trg:"был", src:"was (he)", pos:"verb", gender:null,
@@ -119,8 +119,8 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
 
 {type:"teach", trg:"смотрел", src:"was watching (imperfective)", pos:"verb", gender:null,
  note:"Imperfective past. Extended watching.\nProcess emphasized.",
- example:"A: Чем занимался вечером?\nB: Смотрел кино.",
- exampleSrc:"A: What were you up to in the evening?\nB: Was watching a movie.",
+ example:"A: Что ты делал вечером?\nB: Смотрел телевизор.",
+ exampleSrc:"A: What did you do in the evening?\nB: Was watching TV.",
  funFact:"Смотреть has both visual-watching AND looking-at meanings. Смотрел кино (watched movie) vs смотрел в окно (looked out window) — context distinguishes."},
 
 {type:"teach", trg:"посмотрел", src:"watched (perfective)", pos:"verb", gender:null,
@@ -131,8 +131,8 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
 
 {type:"teach", trg:"говорил", src:"was speaking (imperfective)", pos:"verb", gender:null,
  note:"Imperfective past. Ongoing/habitual speaking.\nЧего не говорил = didn't (use to) say.",
- example:"A: С кем ты говорил?\nB: С мамой, долго.",
- exampleSrc:"A: Who were you talking to?\nB: With mom, for a long time.",
+ example:"A: С кем ты говорил?\nB: С мамой.",
+ exampleSrc:"A: Who were you talking to?\nB: With mom.",
  funFact:"'Долго' (for a long time) is a classic imperfective marker. Combined with говорил, it emphasizes duration of talking — a process, not a single utterance."},
 
 {type:"teach", trg:"сказал", src:"said (perfective)", pos:"verb", gender:null,
@@ -184,20 +184,20 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
 
 {type:"teach", trg:"был", src:"was (he)", pos:"verb", gender:null,
  note:"Masculine past of быть.\nНа работе, в магазине — locations.",
- example:"A: Где ты был вчера?\nB: Был в парке.",
- exampleSrc:"A: Where were you yesterday?\nB: I was in the park.",
+ example:"A: Где ты был вчера?\nB: Был дома.",
+ exampleSrc:"A: Where were you yesterday?\nB: I was at home.",
  funFact:"Note the past tense: 'where were you?' vs present 'где ты?' — the past needs the verb. Russians drop быть in present but add it in past. Unusual linguistic asymmetry."},
 
 {type:"teach", trg:"была", src:"was (she)", pos:"verb", gender:null,
  note:"Feminine past of быть.\nАлтернатива: была на работе.",
- example:"A: Где была Маша?\nB: Была в библиотеке.",
- exampleSrc:"A: Where was Masha?\nB: She was at the library.",
+ example:"A: Где была Маша?\nB: Была дома.",
+ exampleSrc:"A: Where was Masha?\nB: She was at home.",
  funFact:"Female speakers always use 'была' about themselves: 'Я была дома.' Male speakers use 'был.' Non-binary individuals in Russian: still forced gender choice — a grammatical challenge."},
 
 {type:"teach", trg:"было", src:"was (it)", pos:"verb", gender:null,
  note:"Neuter past AND impersonal past.\nExtremely common in Russian.",
- example:"A: Как в Сочи?\nB: Было очень тепло.",
- exampleSrc:"A: How was Sochi?\nB: It was very warm.",
+ example:"A: Как в Москве?\nB: Было хорошо.",
+ exampleSrc:"A: How was Moscow?\nB: It was nice.",
  funFact:"Impersonal 'было' opens many Russian narratives: 'Было раннее утро' (it was early morning), 'Было холодно' (it was cold). Essential storytelling structure."},
 
 {type:"teach", trg:"были", src:"were (we/you/they)", pos:"verb", gender:null,
@@ -208,8 +208,8 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
 
 {type:"teach", trg:"у меня был", src:"I had (m)", pos:"phrase", gender:null,
  note:"Russian doesn't use иметь (to have) in past.\nУ меня был/была/было/были = I had.",
- example:"A: У тебя был телефон?\nB: Да, старый.",
- exampleSrc:"A: Did you have a phone?\nB: Yes, an old one.",
+ example:"A: У тебя был телефон?\nB: Да, был.",
+ exampleSrc:"A: Did you have a phone?\nB: Yes, I did.",
  funFact:"'У меня был' (literally 'at me was') = I had. The object possessed is subject. 'У меня был телефон' — the phone agrees with 'был' (masculine since phone = телефон)."},
 
 {type:"teach", trg:"у меня была", src:"I had (f)", pos:"phrase", gender:null,
@@ -226,8 +226,8 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
 
 {type:"teach", trg:"у меня были", src:"I had (pl)", pos:"phrase", gender:null,
  note:"For plural possessed objects.\nПлюс plural agreement with были.",
- example:"A: У тебя были друзья в школе?\nB: Много друзей.",
- exampleSrc:"A: Did you have friends in school?\nB: Many friends.",
+ example:"A: У тебя были друзья?\nB: Да, были.",
+ exampleSrc:"A: Did you have friends?\nB: Yes, I did.",
  funFact:"Any plural possession uses 'были': у меня были деньги (I had money), у меня были проблемы (I had problems). Common structure for life stories."},
 
 {type:"tip", title:"Past of 'Have' in Russian",

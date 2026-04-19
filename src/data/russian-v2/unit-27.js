@@ -35,20 +35,20 @@ const UNIT_27 = {n:27, lang:"ru", srcLang:"en", track:"v2", title:"Бизнес"
 
 {type:"teach", trg:"инвестировать", src:"to invest", pos:"verb", gender:null,
  note:"Imperfective. -овать verb.\n'Инвестировать в X' = invest in X.",
- example:"A: Ты инвестируешь?\nB: Немного, в акции.",
- exampleSrc:"A: Do you invest?\nB: A little, in stocks.",
+ example:"A: Ты инвестируешь?\nB: Немного.",
+ exampleSrc:"A: Do you invest?\nB: A little.",
  funFact:"Инвестировать takes 'в' + accusative: инвестировать в бизнес, в образование, в будущее. Common economic construction."},
 
 {type:"teach", trg:"менеджер", src:"manager", pos:"noun", gender:"m",
  note:"Masculine. English loanword.\nShorter: менеджер (used loosely for many roles).",
- example:"A: Ты менеджер?\nB: Да, в отделе продаж.",
- exampleSrc:"A: Are you a manager?\nB: Yes, in the sales department.",
+ example:"A: Ты менеджер?\nB: Да, менеджер.",
+ exampleSrc:"A: Are you a manager?\nB: Yes, a manager.",
  funFact:"Менеджер entered post-Soviet. Previously 'управляющий' or 'начальник' was used. Now in daily speech: офис-менеджер, менеджер по продажам (sales manager). Anglicization."},
 
 {type:"teach", trg:"клиент", src:"client / customer", pos:"noun", gender:"m",
  note:"Masculine. Latin root.\nCovers both business clients and retail customers.",
- example:"A: Сколько клиентов у компании?\nB: Около тысячи.",
- exampleSrc:"A: How many clients does the company have?\nB: About a thousand.",
+ example:"A: Клиент здесь?\nB: Да, клиент в компании.",
+ exampleSrc:"A: Is the client here?\nB: Yes, the client is at the company.",
  funFact:"Клиент combines 'client' (professional services) and 'customer' (retail). Russian doesn't separate these concepts. Покупатель exists for 'shopper' specifically."},
 
 {type:"teach", trg:"договор", src:"contract", pos:"noun", gender:"m",

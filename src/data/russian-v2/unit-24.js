@@ -88,8 +88,8 @@ const UNIT_24 = {n:24, lang:"ru", srcLang:"en", track:"v2", title:"Глагол�
 
 {type:"teach", trg:"пойти", src:"to go (start moving)", pos:"verb", gender:null,
  note:"Perfective! One-time departure.\nFuture: пойду, пойдёшь.",
- example:"A: Куда ты пошёл?\nB: В магазин, вернусь скоро.",
- exampleSrc:"A: Where did you go?\nB: To the store, will be back soon.",
+ example:"A: Куда ты пошёл?\nB: В магазин.",
+ exampleSrc:"A: Where did you go?\nB: To the store.",
  funFact:"По- prefix + идти = пойти (perfective). Future: пойду. Past: пошёл/пошла. Common: 'Пойдём!' (Let's go!) uses this form."},
 
 {type:"teach", trg:"прийти", src:"to come (arrive)", pos:"verb", gender:null,

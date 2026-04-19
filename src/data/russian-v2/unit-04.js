@@ -11,20 +11,20 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
 
 {type:"teach", trg:"хлеб", src:"bread", pos:"noun", gender:"m",
  note:"Masculine. Ends in consonant.\nA central food in Russian culture.",
- example:"A: Хочешь хлеб с маслом?\nB: Да, спасибо.",
- exampleSrc:"A: Do you want bread with butter?\nB: Yes, thanks.",
+ example:"A: Хочешь хлеб?\nB: Да, спасибо.",
+ exampleSrc:"A: Do you want bread?\nB: Yes, thanks.",
  funFact:"Bread and salt (хлеб-соль) is the traditional Russian welcome for guests. Even today, weddings may include this ancient ritual of offering bread."},
 
 {type:"teach", trg:"мясо", src:"meat", pos:"noun", gender:"n",
  note:"Neuter. Ends in -о (standard neuter).\nGeneral term for all meats.",
- example:"A: Ты ешь мясо?\nB: Нет, я вегетарианец.",
- exampleSrc:"A: Do you eat meat?\nB: No, I'm a vegetarian.",
+ example:"A: Ты ешь мясо?\nB: Нет.",
+ exampleSrc:"A: Do you eat meat?\nB: No.",
  funFact:"Russian cuisine is traditionally meat-heavy. Famous dishes: beef stroganoff (бефстроганов), pelmeni (пельмени), shashlik (шашлык). Vegetarianism is growing but still a minority."},
 
 {type:"teach", trg:"рыба", src:"fish", pos:"noun", gender:"f",
  note:"Feminine. Ends in -а.\nCollective term and individual fish.",
- example:"A: Вы любите рыбу?\nB: Да, особенно лосось.",
- exampleSrc:"A: Do you like fish?\nB: Yes, especially salmon.",
+ example:"A: Вы ешь рыбу?\nB: Да, я ем рыбу.",
+ exampleSrc:"A: Do you eat fish?\nB: Yes, I eat fish.",
  funFact:"Russia's long coastlines and rivers make fish central to cuisine. Herring (селёдка), smoked salmon (копчёный лосось), and caviar (икра) are iconic."},
 
 {type:"teach", trg:"молоко", src:"milk", pos:"noun", gender:"n",
@@ -35,8 +35,8 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
 
 {type:"teach", trg:"чай", src:"tea", pos:"noun", gender:"m",
  note:"Masculine. Ends in -й.\nNational drink of Russia.",
- example:"A: Хочешь чай?\nB: Да, чёрный, пожалуйста.",
- exampleSrc:"A: Want tea?\nB: Yes, black, please.",
+ example:"A: Хочешь чай?\nB: Да, пожалуйста.",
+ exampleSrc:"A: Want tea?\nB: Yes, please.",
  funFact:"Tea reached Russia in the 1600s via Mongolian trade. The самовар (samovar, traditional water heater) became the heart of Russian tea culture. Чаепитие (tea-drinking) is a ritual of hospitality."},
 
 {type:"teach", trg:"кофе", src:"coffee", pos:"noun", gender:"m",
@@ -53,8 +53,8 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
 
 {type:"teach", trg:"сок", src:"juice", pos:"noun", gender:"m",
  note:"Masculine. Short word, simple ending.\nUsed for all fruit juices.",
- example:"A: Какой сок вы хотите?\nB: Апельсиновый сок, пожалуйста.",
- exampleSrc:"A: Which juice do you want?\nB: Orange juice, please.",
+ example:"A: Ты хочешь сок?\nB: Да, пожалуйста.",
+ exampleSrc:"A: Do you want juice?\nB: Yes, please.",
  funFact:"Сок also means 'sap' (as in tree sap). Берёзовый сок (birch sap) is a traditional Russian drink, tapped from birch trees in spring."},
 
 {type:"tip", title:"Noun Genders in Food Vocabulary",
@@ -106,20 +106,20 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
 
 {type:"teach", trg:"есть", src:"to eat", pos:"verb", gender:null,
  note:"Infinitive. Irregular — conjugates differently from most verbs.\nNOT the same word as есть (there is, to be).",
- example:"A: Будешь есть?\nB: Нет, я не голоден.",
- exampleSrc:"A: Will you eat?\nB: No, I'm not hungry.",
+ example:"A: Ты хочешь есть?\nB: Нет.",
+ exampleSrc:"A: Do you want to eat?\nB: No.",
  funFact:"Russian has TWO identical words 'есть': one means 'to eat' (verb), the other means 'there is/are' (existential). Context makes the distinction clear."},
 
 {type:"teach", trg:"пить", src:"to drink", pos:"verb", gender:null,
  note:"Infinitive. Conjugates with stem change (пь-).\nи becomes 'yu' (я пью = I drink).",
- example:"A: Ты пьёшь кофе?\nB: Да, каждое утро.",
- exampleSrc:"A: Do you drink coffee?\nB: Yes, every morning.",
+ example:"A: Ты пьёшь воду?\nB: Да, я пью воду.",
+ exampleSrc:"A: Do you drink water?\nB: Yes, I drink water.",
  funFact:"Пить + acc in Russian means 'to drink alcohol' when used without specifying what. 'Он пьёт' = 'He drinks [alcohol].' The stigma around this verb means Russians often specify what they drink."},
 
 {type:"teach", trg:"вкусно", src:"tasty / delicious", pos:"adv", gender:null,
  note:"Adverb (not adjective).\nUsed impersonally: 'это вкусно' (this is tasty).",
- example:"A: Как борщ?\nB: Очень вкусно!",
- exampleSrc:"A: How is the borscht?\nB: Very tasty!",
+ example:"A: Как рыба?\nB: Очень вкусно!",
+ exampleSrc:"A: How is the fish?\nB: Very tasty!",
  funFact:"Russians rarely say a simple 'да' when enjoying food — the expected response is 'очень вкусно!' (very tasty). Saying just 'good' would seem cold."},
 
 {type:"teach", trg:"много", src:"a lot / many", pos:"adv", gender:null,
@@ -130,8 +130,8 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
 
 {type:"teach", trg:"мало", src:"a little / few", pos:"adv", gender:null,
  note:"Opposite of много.\nAlso requires genitive case.",
- example:"A: У тебя есть деньги?\nB: Мало.",
- exampleSrc:"A: Do you have money?\nB: A little (not much).",
+ example:"A: Воды много?\nB: Нет, мало.",
+ exampleSrc:"A: Is there a lot of water?\nB: No, a little.",
  funFact:"Мало has a slightly negative tone — implies 'not enough.' For 'a little bit' positive, use немного. The distinction: мало = too little; немного = a bit."},
 
 {type:"tip", title:"Хотеть: The Want Verb",

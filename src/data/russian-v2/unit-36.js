@@ -11,8 +11,8 @@ const UNIT_36 = {n:36, lang:"ru", srcLang:"en", track:"v2", title:"Свобод�
 
 {type:"teach", trg:"свободно", src:"fluently", pos:"adv", gender:null,
  note:"Adverb.\n'Говорить свободно' = speak fluently.",
- example:"A: Ты свободно говоришь по-русски?\nB: Почти свободно.",
- exampleSrc:"A: Do you speak Russian fluently?\nB: Almost fluently.",
+ example:"A: Ты свободно говоришь по-русски?\nB: Да, свободно.",
+ exampleSrc:"A: Do you speak Russian fluently?\nB: Yes, fluently.",
  funFact:"'Свободно' shares root with 'свобода' (freedom). Fluent = free with the language. Apt metaphor: fluency frees you to express anything."},
 
 {type:"teach", trg:"изучать", src:"to study / learn (formal)", pos:"verb", gender:null,
@@ -23,8 +23,8 @@ const UNIT_36 = {n:36, lang:"ru", srcLang:"en", track:"v2", title:"Свобод�
 
 {type:"teach", trg:"выучить", src:"to memorize / master (perfective)", pos:"verb", gender:null,
  note:"Perfective. Completion of learning.\nPair: учить.",
- example:"A: Ты выучил весь словарь?\nB: Почти.",
- exampleSrc:"A: Did you master the whole dictionary?\nB: Almost.",
+ example:"A: Ты выучил всё?\nB: Да, выучил.",
+ exampleSrc:"A: Did you master everything?\nB: Yes, I did.",
  funFact:"Выучить + object means to fully learn/memorize. 'Выучить стих' (memorize a poem), 'выучить язык' (master a language). Perfective = completion."},
 
 {type:"teach", trg:"понимать", src:"to understand", pos:"verb", gender:null,
