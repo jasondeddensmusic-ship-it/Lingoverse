@@ -363,6 +363,101 @@ const UNIT_02 = {
    opts:["Three horizontal lines","A cross / plus sign","Two vertical lines","A circle"],
    ans:"A cross / plus sign",
    hint:"This character for ten has one horizontal and one vertical stroke intersecting."}
+]},
+
+// ═══ Lesson 4: 填表 Filling Out Forms ═══
+{id:"zhv2_u2l_form", title:"填表(tián biǎo)", icon:"📝", xp:15, board:true, steps:[
+{type:"intro", title:"Filling Out Forms",
+ desc:"Learn how to fill out basic forms in Chinese: name, address, phone, email, and date of birth. Essential for hotel check-in, HSK registration, and visa applications.",
+ goals:["Read basic form field labels in Chinese","Fill in personal details on a form","Write a simple polite WeChat message"]},
+
+{type:"teach", trg:"姓名(xìngmíng)", src:"full name (formal)", pos:"noun", gender:null,
+ note:"Formal term for a person's full name. 姓 = surname, 名 = given name.\nUsed on official forms. Informal speech uses 名字.",
+ example:"A: 请(qǐng)填(tián)写(xiě)您(nín)的(de)姓名(xìngmíng)。\nB: 好(hǎo)的(de)，我(wǒ)的(de)姓名(xìngmíng)是(shì)李(Lǐ)明(Míng)。",
+ exampleSrc:"A: Please fill in your full name.\nB: Sure, my full name is Li Ming.",
+ funFact:"Chinese names are written surname first: 李明 is family name 李 (Li) plus given name 明 (Ming). On English forms, Chinese people often reverse the order for Western audiences. The word 姓名 literally reminds you: surname comes first."},
+
+{type:"teach", trg:"地址(dìzhǐ)", src:"address", pos:"noun", gender:null,
+ note:"地 = place/ground, 址 = location/site.\nUsed for home, school, or any mailing address.",
+ example:"A: 您(nín)的(de)地址(dìzhǐ)是(shì)什么(shénme)？\nB: 我(wǒ)的(de)地址(dìzhǐ)是(shì)北京(Běijīng)路(lù)五(wǔ)号(hào)。",
+ exampleSrc:"A: What is your address?\nB: My address is No. 5, Beijing Road.",
+ funFact:"Chinese addresses are written from largest to smallest: country, province, city, district, street, building number. This is the opposite of Western address format and reflects the Chinese priority of context over individual."},
+
+{type:"teach", trg:"电话号码(diànhuà hàomǎ)", src:"phone number", pos:"noun", gender:null,
+ note:"电话 = telephone, 号码 = number code.\nChinese mobile numbers are 11 digits.",
+ example:"A: 您(nín)的(de)电话号码(diànhuà hàomǎ)是(shì)什么(shénme)？\nB: 一(yī)三(sān)八(bā)...",
+ exampleSrc:"A: What is your phone number?\nB: 138...",
+ funFact:"Chinese mobile numbers start with 1 and are 11 digits long. The second digit tells you the carrier: 3 is China Telecom, 5 is China Unicom, 8 is China Mobile. Foreigners registering a Chinese SIM card need their passport number too."},
+
+{type:"teach", trg:"邮箱(yóuxiāng)", src:"email address", pos:"noun", gender:null,
+ note:"邮 = mail/post, 箱 = box. Literally: mail box.\nShort form of 电子邮件(diànzǐ yóujiàn). Used in speech and forms.",
+ example:"A: 您(nín)的(de)邮箱(yóuxiāng)是(shì)什么(shénme)？\nB: 我(wǒ)的(de)邮箱(yóuxiāng)是(shì)... 谢谢(xièxie)！",
+ exampleSrc:"A: What is your email?\nB: My email is... Thank you!",
+ funFact:"China's most popular email providers are 126.com and 163.com (both by NetEase) and QQ.com (by Tencent). Gmail is blocked in mainland China. For messaging, most Chinese people use WeChat rather than email for personal contact."},
+
+{type:"teach", trg:"出生日期(chūshēng rìqī)", src:"date of birth", pos:"noun", gender:null,
+ note:"出生 = born, 日期 = date. A compound noun used on all official forms.\nWritten as: year 年 + month 月 + day 日.",
+ example:"A: 您(nín)的(de)出生日期(chūshēng rìqī)是(shì)什么(shénme)？\nB: 八(bā)月(yuè)三(sān)日(rì)。",
+ exampleSrc:"A: What is your date of birth?\nB: August 3.",
+ funFact:"Chinese dates always go year-month-day, matching the address pattern of largest to smallest. This format is also used in Japan and Korea. ISO 8601 (the international standard) chose this same order: 1995-03-08. China was doing it right all along."},
+
+{type:"teach", trg:"填写(tiánxiě)", src:"to fill in / to fill out", pos:"verb", gender:null,
+ note:"填 = to fill, 写 = to write. Together: to fill in by writing.\nAlways used with forms, blanks, and questionnaires.",
+ example:"A: 请(qǐng)填写(tiánxiě)姓名(xìngmíng)。\nB: 好(hǎo)的(de)，我(wǒ)是(shì)李(Lǐ)明(Míng)。",
+ exampleSrc:"A: Please fill in your full name.\nB: Sure, I am Li Ming.",
+ funFact:"填 contains the earth radical 土 on the left. In ancient Chinese, 填 meant to fill a hole with earth. The meaning expanded from filling physical gaps to filling in written blanks. A perfectly practical metaphor for form-filling."},
+
+{type:"teach", trg:"您好(nín hǎo)", src:"Hello (polite, formal)", pos:"intj", gender:null,
+ note:"Polite version of 你好. 您 = respectful 'you.'\nUsed in formal messages, business, or with elders.",
+ example:"A: 您好(nín hǎo)！我(wǒ)是(shì)李(Lǐ)明(Míng)。\nB: 您好(nín hǎo)！请(qǐng)问(wèn)有(yǒu)什么(shénme)可以(kěyǐ)帮(bāng)您(nín)？",
+ exampleSrc:"A: Hello! I am Li Ming.\nB: Hello! How may I help you?",
+ funFact:"您 is the formal second-person pronoun, combining 你 (you) with a heart radical 心 underneath. The idea: showing respect means speaking from the heart. 您好 is standard for starting a formal WeChat message, email, or greeting a stranger in a service context."},
+
+{type:"tip", title:"Reading a Chinese Form",
+ text:"Chinese registration forms use these standard field labels:\n\n姓名(xìngmíng) = Full name\n出生日期(chūshēng rìqī) = Date of birth\n地址(dìzhǐ) = Address\n电话号码(diànhuà hàomǎ) = Phone number\n邮箱(yóuxiāng) = Email\n\nDate format: year 年(nián) + month 月(yuè) + day 日(rì)\nExample: 1990年5月12日 = May 12, 1990\n\nPhone numbers are 11 digits. Read each digit separately: 一三八五六...",
+ deepDive:{title:"WeChat vs Email in China",
+  text:"In China, most personal and professional communication happens on WeChat (微信 Wēixìn), not email. Email is mainly for formal documents and government correspondence.\n\nA typical formal WeChat message opens with 您好 and closes with a polite phrase. Chinese business culture values proper greetings even in digital messages.\n\nWhen filling in forms for hotels, hospitals, or official services, you will see all seven field labels above. Recognizing them instantly makes every registration much faster."}},
+
+{type:"mc", q:"Which field label on a Chinese form asks for your full name?",
+ opts:["地址(dìzhǐ)","出生日期(chūshēng rìqī)","姓名(xìngmíng)","邮箱(yóuxiāng)"],
+ ans:"姓名(xìngmíng)",
+ hint:"This word combines the character for surname with the character for given name."},
+
+{type:"mc", q:"On a Chinese form, 出生日期(chūshēng rìqī) asks for your:",
+ opts:["Home address","Phone number","Email address","Date of birth"],
+ ans:"Date of birth",
+ hint:"出生 means 'born' and 日期 means 'when something happens.' What event is this asking about?"},
+
+{type:"match", pairs:[
+  {trg:"姓名(xìngmíng)", src:"full name"},
+  {trg:"地址(dìzhǐ)", src:"address"},
+  {trg:"电话号码(diànhuà hàomǎ)", src:"phone number"},
+  {trg:"邮箱(yóuxiāng)", src:"email address"},
+  {trg:"出生日期(chūshēng rìqī)", src:"date of birth"}
+]},
+
+{type:"fb", s:"请(qǐng){1}您(nín)的(de)姓名(xìngmíng)。",
+ a:["填写(tiánxiě)"],
+ opts:["填写(tiánxiě)","地址(dìzhǐ)","姓名(xìngmíng)","您好(nín hǎo)"],
+ hint:"Which verb means 'to fill in' and is used specifically when completing a written form?",
+ sSrc:"Please {1} your full name."},
+
+{type:"fb", s:"您好(nín hǎo)！请(qǐng)填写(tiánxiě)您(nín)的(de){1}：liming@163.com",
+ a:["邮箱(yóuxiāng)"],
+ opts:["邮箱(yóuxiāng)","电话号码(diànhuà hàomǎ)","地址(dìzhǐ)","姓名(xìngmíng)"],
+ hint:"A .com address goes here. Which field label refers to an electronic mail address?",
+ sSrc:"Hello! Please fill in your {1}: liming@163.com"},
+
+{type:"mc", q:"您好(nín hǎo) is used instead of 你好(nǐhǎo) when:",
+ opts:["Greeting a close friend","Starting a formal message or greeting an elder","Saying goodbye","Talking to a child"],
+ ans:"Starting a formal message or greeting an elder",
+ hint:"您 is the respectful version of 你. It adds formality, similar to 'sir' or 'ma'am' in English."},
+
+{type:"fb", s:"{1}！我(wǒ)想(xiǎng)预约(yùyuē)一(yī)下(xià)。",
+ a:["您好(nín hǎo)"],
+ opts:["您好(nín hǎo)","你好(nǐhǎo)","再见(zàijiàn)","谢谢(xièxie)"],
+ hint:"You are opening a formal service message. Use the polite greeting, not the casual one.",
+ sSrc:"{1}! I would like to make an appointment."}
 ]}
 
 ]}; // end unit

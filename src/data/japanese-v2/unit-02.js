@@ -213,6 +213,89 @@ const UNIT_02 = {
    hint:"を is an object particle, not used for country identity patterns."},
 {type:"match",pairs:[{trg:"仕事(しごと)",src:"job / work"}]}]},
 
+// ═══ F15: フォーム記入(きにゅう) (Filling Out Forms) ═══
+{id:"jpv2_u2l_form", title:"フォーム記入(きにゅう)", icon:"📝", xp:15, board:true, steps:[
+  {type:"intro", title:"Filling Out Forms",
+   desc:"Learn how to read and fill out basic forms in Japanese: name, address, phone number, email. Essential for hotel check-in, hospital visits, and official documents in Japan.",
+   goals:["Read basic form fields","Fill in personal details","Send a simple message / email greeting"]},
+
+  {type:"teach", trg:"氏名(しめい)", src:"full name (formal)", pos:"noun", gender:null,
+   note:"The formal word for a person's full name, used on official documents and forms.\nMore formal than 名前(なまえ).",
+   example:"A: 氏名(しめい)をご記入(きにゅう)ください。\nB: はい、田中(たなか)太郎(たろう)です。",
+   exampleSrc:"A: Please fill in your full name.\nB: Yes, it is Tanaka Taro.",
+   funFact:"On Japanese forms, the family name is always written first and given name second. Many forms also have a second box for the reading in hiragana or katakana, since kanji names can have multiple valid readings."},
+
+  {type:"teach", trg:"住所(じゅうしょ)", src:"address", pos:"noun", gender:null,
+   note:"Your residential address. Japanese addresses go from largest to smallest: prefecture, city, district, block, room number.",
+   example:"A: 住所(じゅうしょ)はどこですか?\nB: 東京都(とうきょうと)渋谷区(しぶやく)です。",
+   exampleSrc:"A: What is your address?\nB: It is Shibuya Ward, Tokyo.",
+   funFact:"Japanese addresses work in reverse order compared to English. You start with the prefecture, then the city, then the neighborhood, then the block. Foreigners often find this confusing when writing envelopes."},
+
+  {type:"teach", trg:"電話番号(でんわばんごう)", src:"phone number", pos:"noun", gender:null,
+   note:"A compound of 電話(でんわ) (telephone) and 番号(ばんごう) (number).\nOften abbreviated to 電話(でんわ) on casual forms.",
+   example:"A: 電話番号(でんわばんごう)を教(おし)えてください。\nB: 090-1234-5678です。",
+   exampleSrc:"A: Please tell me your phone number.\nB: It is 090-1234-5678.",
+   funFact:"Japanese mobile numbers almost always start with 090, 080, or 070. The three-segment format (090-XXXX-XXXX) is standard nationwide."},
+
+  {type:"teach", trg:"メールアドレス", src:"email address", pos:"noun", gender:null,
+   note:"A loanword compound: メール (mail) + アドレス (address). Written in katakana as it is borrowed from English.",
+   example:"A: メールアドレスを教(おし)えてください。\nB: tanaka@example.comです。",
+   exampleSrc:"A: Please tell me your email address.\nB: It is tanaka@example.com.",
+   funFact:"Japanese speakers often read out email addresses with set pronunciation rules. The @ symbol is called アットマーク (atto maaku). Dots are called ドット (dotto) and underscores are called アンダーバー (andaa baa)."},
+
+  {type:"match", pairs:[
+    {trg:"氏名(しめい)", src:"full name (formal)"},
+    {trg:"住所(じゅうしょ)", src:"address"},
+    {trg:"電話番号(でんわばんごう)", src:"phone number"},
+    {trg:"メールアドレス", src:"email address"}
+  ]},
+
+  {type:"teach", trg:"生年月日(せいねんがっぴ)", src:"date of birth", pos:"noun", gender:null,
+   note:"A compound of 生 (birth) + 年月日 (year-month-day). Always written in the order year, month, day on Japanese forms.",
+   example:"A: 生年月日(せいねんがっぴ)をご記入(きにゅう)ください。\nB: 1995年(ねん)3月(がつ)15日(にち)です。",
+   exampleSrc:"A: Please fill in your date of birth.\nB: It is March 15, 1995.",
+   funFact:"Japan uses both the Western calendar (西暦, seireki) and the traditional era system (元号, gengo). Official forms often ask for the era-based year. 2024 CE is Reiwa 6 (令和6年)."},
+
+  {type:"teach", trg:"記入(きにゅう)する", src:"to fill out / fill in", pos:"verb", gender:null,
+   note:"A する-verb meaning to write in or fill out a form.\n記 (record) + 入 (enter).",
+   example:"A: ここに氏名(しめい)を記入(きにゅう)してください。\nB: わかりました。",
+   exampleSrc:"A: Please fill in your name here.\nB: Understood.",
+   funFact:"The polite command form ご記入ください (go-kinyuu kudasai) is the standard phrase you will see on every form in Japan, from hospital intake sheets to hotel registration cards."},
+
+  {type:"teach", trg:"お疲(つか)れさまです", src:"good work / greetings (message opener)", pos:"intj", gender:null,
+   note:"A versatile greeting used in workplace messages and emails. Literally means 'you must be tired' but functions as a warm acknowledgment.",
+   example:"A: お疲(つか)れさまです。フォームの記入(きにゅう)をお願(ねが)いします。\nB: わかりました。すぐに記入(きにゅう)します。",
+   exampleSrc:"A: Hello (good work). Please fill out the form.\nB: Understood. I will fill it in right away.",
+   funFact:"Otsukaresama desu is the most common opening for work messages, emails, and Slack messages in Japan. Using it signals you are part of the group and respect others' effort. Never start a work email with 'Haro' (Hello)."},
+
+  {type:"tip", title:"Reading a Japanese Form",
+   text:"Japanese forms typically include these fields:\n\n氏名(しめい) = Full name (family name first)\n住所(じゅうしょ) = Address\n電話番号(でんわばんごう) = Phone number\nメールアドレス = Email address\n生年月日(せいねんがっぴ) = Date of birth\n\nTo fill in a field, use:\nここに[field]を記入(きにゅう)してください。\n= Please fill in [field] here.",
+   deepDive:{title:"Dates on Japanese forms",
+    text:"Japanese forms ask for dates in year-month-day order (YYYY/MM/DD). You may also see era-based years:\n\nShowa (昭和) = 1926-1989\nHeisei (平成) = 1989-2019\nReiwa (令和) = 2019-present\n\nReiwa 6 = 2024. Just subtract 18 from the Reiwa year to get the last two digits of CE."}},
+
+  {type:"fb", s:"{1}をご記入(きにゅう)ください。", a:"氏名(しめい)", opts:["氏名(しめい)","住所(じゅうしょ)","電話番号(でんわばんごう)","メールアドレス"], sSrc:"Please fill in your full name.",
+   hint:"The formal word for a complete name, more official than namae."},
+
+  {type:"mc", q:"生年月日(せいねんがっぴ) means:", opts:["date of birth","home address","phone number","full name"], ans:"date of birth",
+   hint:"It starts with 生 (birth) and ends with 年月日 (year, month, day)."},
+
+  {type:"fb", s:"お疲(つか)れさまです。メールアドレスを{1}してください。", a:"記入(きにゅう)", opts:["記入(きにゅう)","住所(じゅうしょ)","電話番号(でんわばんごう)","生年月日(せいねんがっぴ)"], sSrc:"Good work. Please fill in your email address.",
+   hint:"The する-verb meaning to write into or fill out a field."},
+
+  {type:"mc", q:"Which phrase would you write at the top of a Japanese work email?", opts:["お疲(つか)れさまです","記入(きにゅう)する","生年月日(せいねんがっぴ)","電話番号(でんわばんごう)"], ans:"お疲(つか)れさまです",
+   hint:"The warm workplace greeting that opens messages and emails in Japan."},
+
+  {type:"match", pairs:[
+    {trg:"生年月日(せいねんがっぴ)", src:"date of birth"},
+    {trg:"記入(きにゅう)する", src:"to fill out"},
+    {trg:"お疲(つか)れさまです", src:"good work (message greeting)"},
+    {trg:"氏名(しめい)", src:"full name (formal)"}
+  ]},
+
+  {type:"mc", q:"お疲(つか)れさまです is used to:", opts:["fill out a form","greet a colleague in a message","say your address","give your phone number"], ans:"greet a colleague in a message",
+   hint:"This phrase opens workplace messages and emails. It acknowledges effort and shows group membership."},
+]},
+
 ,BATCH3_L1
 ,BATCH4_L01
 ,BATCH4_L02
