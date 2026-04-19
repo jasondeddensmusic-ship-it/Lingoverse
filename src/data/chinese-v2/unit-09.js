@@ -347,6 +347,111 @@ lessons:[
  opts:["一些(yīxiē)","一下(yīxià)","很(hěn)","看见(kànjiàn)"],
  hint:"The speaker wants an unspecified small amount of fruit. Which word means 'some'?",
  sSrc:"I want to eat {1} fruit."}
+]},
+
+// ─── L5: Making Appointments — F14 ───
+{id:"zhv2_u9l_apt", title:"预约(yùyuē)", icon:"📅", xp:15, board:true, steps:[
+{type:"intro", title:"预约(yùyuē)",
+ desc:"Learn to make, confirm, and reschedule appointments in Mandarin. Essential for clinics, dentists, and restaurants. Tested on HSK 3.",
+ goals:["Make appointments by phone","Confirm and cancel appointments","Reschedule a visit","Use polite Mandarin"]},
+
+{type:"teach", trg:"预约(yùyuē)", src:"appointment / reservation / to book", pos:"noun", gender:null,
+ note:"预 (in advance) + 约 (to arrange). Both a noun and a verb.\n预约了 = have made a booking.",
+ example:"A: 你(nǐ)有(yǒu)预约(yùyuē)吗(ma)？\nB: 有(yǒu)，我(wǒ)预约(yùyuē)了(le)。",
+ exampleSrc:"A: Do you have an appointment?\nB: Yes, I made one.",
+ funFact:"预约 is essential for hospitals in China. Most major hospitals now require advance booking through a phone hotline or app. Walking in without a 预约 often means a very long wait."},
+
+{type:"teach", trg:"确认(quèrèn)", src:"to confirm", pos:"verb", gender:null,
+ note:"确 (certain) + 认 (to recognize/acknowledge). Used for confirming times and details.\n请确认一下 = Please confirm.",
+ example:"A: 我(wǒ)想(xiǎng)确认(quèrèn)一下(yīxià)预约(yùyuē)。\nB: 好(hǎo)的(de)，你(nǐ)的(de)预约(yùyuē)没(méi)问题(wèntí)。",
+ exampleSrc:"A: I would like to confirm my appointment.\nB: Sure, your appointment is fine.",
+ funFact:"In Chinese customer service culture, 请确认一下 (please confirm) is extremely common. Businesses prefer written confirmation via WeChat to avoid disputes. A verbal 好的 is often not considered binding."},
+
+{type:"teach", trg:"取消(qǔxiāo)", src:"to cancel", pos:"verb", gender:null,
+ note:"取 (to take away) + 消 (to eliminate). The standard word for cancelling any booking.\n取消预约 = cancel an appointment.",
+ example:"A: 我(wǒ)想(xiǎng)取消(qǔxiāo)预约(yùyuē)。\nB: 好(hǎo)的(de)，已经(yǐjīng)取消(qǔxiāo)了(le)。",
+ exampleSrc:"A: I would like to cancel my appointment.\nB: Sure, it has already been cancelled.",
+ funFact:"取消 covers all types of cancellations in Chinese: flights, hotel bookings, appointments, subscriptions. The word 消 (to eliminate) gives you the mental image of erasing something from a list."},
+
+{type:"teach", trg:"改时间(gǎi shíjiān)", src:"to reschedule / to change the time", pos:"verb", gender:null,
+ note:"改 (to change) + 时间 (time). A two-word verb phrase.\n我想改时间 = I would like to reschedule.",
+ example:"A: 我(wǒ)想(xiǎng)改(gǎi)时间(shíjiān)，可以(kěyǐ)吗(ma)？\nB: 可以(kěyǐ)，你(nǐ)想(xiǎng)改(gǎi)到(dào)什么(shénme)时候(shíhou)？",
+ exampleSrc:"A: I would like to change the time, is that okay?\nB: Sure, what time would you like to change it to?",
+ funFact:"改 is a versatile verb in Chinese meaning 'to change or correct something.' You see it in 改错 (correct an error), 改变 (change circumstances), and 改善 (improve). When scheduling, 改时间 is always polite and never blunt."},
+
+{type:"teach", trg:"有空(yǒu kòng)", src:"to be free / to have free time", pos:"verb", gender:null,
+ note:"有 (to have) + 空 (empty time/gap). Opposite: 没有空 = not free.\n你有空吗？ = Are you free?",
+ example:"A: 你(nǐ)明天(míngtiān)下午(xiàwǔ)有空(yǒu kòng)吗(ma)？\nB: 有空(yǒu kòng)，什么(shénme)时候(shíhou)？",
+ exampleSrc:"A: Are you free tomorrow afternoon?\nB: Yes I am free, what time?",
+ funFact:"有空 is the most natural way to ask if someone is available in Chinese. It is softer than a direct appointment request. Chinese speakers often start with 你有空吗？ before proposing any specific time."},
+
+{type:"teach", trg:"我想预约(wǒ xiǎng yùyuē)...", src:"I would like to make an appointment...", pos:"intj", gender:null,
+ note:"The standard opening phrase for booking by phone or in person.\n我想预约 + doctor / time / date.",
+ example:"A: 你好(nǐhǎo)，我(wǒ)想(xiǎng)预约(yùyuē)医生(yīshēng)。\nB: 好(hǎo)的(de)，明天(míngtiān)上午(shàngwǔ)有(yǒu)空(kòng)。",
+ exampleSrc:"A: Hello, I would like to make an appointment with a doctor.\nB: Sure, there is availability tomorrow morning.",
+ funFact:"This phrase works at clinics, dentists, salons, and restaurants. Adding 一下 at the end (我想预约一下) makes it even softer and more polite. Chinese phone calls almost always open with 你好 before stating the request."},
+
+{type:"teach", trg:"什么时候方便(shénme shíhou fāngbiàn)？", src:"When is convenient for you?", pos:"intj", gender:null,
+ note:"方便 (convenient) is a polite way to ask about availability.\nAlternative: 你什么时候有空？ = When are you free?",
+ example:"A: 我(wǒ)想(xiǎng)预约(yùyuē)，什么(shénme)时候(shíhou)方便(fāngbiàn)？\nB: 明天(míngtiān)下午(xiàwǔ)两(liǎng)点(diǎn)可以(kěyǐ)。",
+ exampleSrc:"A: I would like to book an appointment, when is convenient?\nB: Tomorrow afternoon at two o'clock works.",
+ funFact:"方便 literally means 'convenient/easy direction.' It is one of the most polite ways to ask for a favour in Chinese. 你方便吗？ or 什么时候方便？ shows consideration for the other person's schedule. Direct demands are considered impolite."},
+
+{type:"tip", title:"Phone Booking Phrases",
+ text:"Full booking conversation structure:\n\n1. 你好，我想预约... = Hello, I would like to book...\n2. 什么时候方便？ = When is convenient?\n3. 明天下午可以吗？ = Can tomorrow afternoon work?\n4. 好的，帮你确认一下。 = Sure, let me confirm.\n5. 我想取消预约。 = I would like to cancel.\n6. 我想改时间。 = I would like to reschedule.\n\nKey politeness: always open with 你好 and use 请问 (may I ask) for questions.",
+ deepDive:{title:"Appointments in Chinese Culture",
+  text:"Chinese appointment culture has three key features:\n\nHospitals require pre-booking. Walk-in visits to specialists are almost impossible at major hospitals. The WeChat app and hospital apps are the primary booking channels.\n\nRestaurant reservations are called 预订 (yùdìng) rather than 预约. However, 预约 works for both contexts and is broadly understood.\n\nCancelling without notice is considered very impolite. A quick message or call to say 我想取消预约 is greatly appreciated. Chinese social norms strongly favour giving advance notice."}},
+
+{type:"mc", q:"你好，我想预约医生。 What is the speaker trying to do?",
+ opts:["Cancel a booking","Ask about prices","Make a doctor appointment","Confirm a time"],
+ ans:"Make a doctor appointment",
+ hint:"我想预约 means 'I would like to book.' The speaker follows it with a person, not a time or cancellation word."},
+
+{type:"mc", q:"You call the clinic and want to start your booking request politely. Which phrase do you open with?",
+ opts:["我想预约(wǒ xiǎng yùyuē)...","取消预约(qǔxiāo yùyuē)","改时间(gǎi shíjiān)","有空(yǒu kòng)吗(ma)？"],
+ ans:"我想预约(wǒ xiǎng yùyuē)...",
+ hint:"This is the standard opening for any booking call. It starts with 我想 (I would like) followed by the booking verb."},
+
+{type:"mc", q:"You want to ask a receptionist when works best. Which phrase is most natural?",
+ opts:["什么时候方便(shénme shíhou fāngbiàn)？","已经(yǐjīng)取消(qǔxiāo)了(le)。","明天(míngtiān)下午(xiàwǔ)有空(yǒu kòng)。","确认(quèrèn)一下(yīxià)。"],
+ ans:"什么时候方便(shénme shíhou fāngbiàn)？",
+ hint:"This phrase politely asks about timing and suitability. It uses 什么时候 for 'when' and a word meaning 'easy or suitable.'"},
+
+{type:"match", pairs:[
+  {trg:"预约(yùyuē)", src:"appointment / to book"},
+  {trg:"确认(quèrèn)", src:"to confirm"},
+  {trg:"取消(qǔxiāo)", src:"to cancel"},
+  {trg:"有空(yǒu kòng)", src:"to be free"},
+  {trg:"改时间(gǎi shíjiān)", src:"to reschedule"}
+]},
+
+{type:"fb", s:"我(wǒ)想(xiǎng){1}预约(yùyuē)。",
+ a:["取消(qǔxiāo)"],
+ opts:["取消(qǔxiāo)","确认(quèrèn)","改(gǎi)","有(yǒu)"],
+ hint:"You no longer need the booking. Which verb means to remove or eliminate a reservation?",
+ sSrc:"I would like to {1} my appointment."},
+
+{type:"mc", q:"A: 你明天下午有空吗？\nB: 没有空。\nWhat does B mean?",
+ opts:["B is free tomorrow afternoon","B has no free time tomorrow afternoon","B wants to reschedule","B will confirm later"],
+ ans:"B has no free time tomorrow afternoon",
+ hint:"有空 uses 有 (to have) and 空 (empty gap). Adding 没有 in front negates it. What does B say about their schedule?"},
+
+{type:"fb", s:"我(wǒ)想(xiǎng){1}时间(shíjiān)，明天(míngtiān)可以(kěyǐ)吗(ma)？",
+ a:["改(gǎi)"],
+ opts:["改(gǎi)","取消(qǔxiāo)","确认(quèrèn)","预约(yùyuē)"],
+ hint:"You want to move your booking to a new time. Which single character means 'to change or reschedule'?",
+ sSrc:"I would like to {1} the time, can tomorrow work?"},
+
+{type:"mc", q:"什么时候方便？ is asking:",
+ opts:["What time is it now?","When is convenient for you?","How long does it take?","Where is the appointment?"],
+ ans:"When is convenient for you?",
+ hint:"什么时候 asks about timing. 方便 comes from 方 (direction) + 便 (easy). Together the phrase politely asks about the other person's schedule."},
+
+{type:"fb", s:"你(nǐ)明天(míngtiān)下午(xiàwǔ){1}吗(ma)？",
+ a:["有空(yǒu kòng)"],
+ opts:["有空(yǒu kòng)","取消(qǔxiāo)","确认(quèrèn)","预约(yùyuē)"],
+ hint:"You want to know if someone has free time. Which phrase means 'to be free / available'?",
+ sSrc:"Are you {1} tomorrow afternoon?"}
 ]}
 
 ]};
