@@ -335,6 +335,73 @@ const UNIT_2 =
   {type:"fb",s:"이 사람은 제 ___예요.\n(This person is my friend.)",a:"친구",opts:["친구","선생님","가족","이름"],hint:"Sino-Korean: 親(close) + 舊(old acquaintance). Used only for people your own age."},
 ]},
 
+// ═══ L10b: 양식 작성하기 (Filling Out Forms) ═══
+{id:"kov2_u2l_form",title:"양식 작성하기",icon:"📝",xp:15,board:true,steps:[
+  {type:"intro",title:"Filling Out Forms",desc:"Learn to read and fill out basic forms in Korean: name, address, phone, email. Essential for hotel check-in, TOPIK registration, and everyday official documents.",goals:["Read basic form field labels","Fill in personal details in Korean","Use a simple closing message greeting"]},
+
+  {type:"teach",trg:"이름",src:"name",pos:"noun",gender:null,
+   note:"SINO-KOREAN: 이 (this) + 름 (phonetic). The standard word for a person's name.\n이름이 뭐예요? = What is your name?",
+   example:"A: 이름이 뭐예요?\nB: 제 이름은 민수예요.",
+   exampleSrc:"A: What is your name?\nB: My name is Minsu.",
+   funFact:"Korean names have the family name FIRST, given name second. So 김민수 = Kim (family) + Minsu (given). On foreign forms Koreans often reverse this order."},
+
+  {type:"teach",trg:"주소",src:"address",pos:"noun",gender:null,
+   note:"SINO-KOREAN: 住 (reside) + 所 (place). Your residential or mailing address.",
+   example:"A: 주소가 어디예요?\nB: 서울이에요.",
+   exampleSrc:"A: What is your address?\nB: It is Seoul.",
+   funFact:"Korea reformed its address system in 2014 to street-based addresses, but many Koreans still use the traditional neighbourhood and lot-number system."},
+
+  {type:"teach",trg:"전화번호",src:"phone number",pos:"noun",gender:null,
+   note:"COMPOUND: 전화 (telephone) + 번호 (number). Literally 'telephone number'.\n번호 is the same word used in bus or seat numbers.",
+   example:"A: 전화번호가 있어요?\nB: 네, 있어요.",
+   exampleSrc:"A: Do you have a phone number?\nB: Yes, I do.",
+   funFact:"Korean mobile numbers follow the format 010-XXXX-XXXX. The 010 prefix is standard for all carriers since 2004."},
+
+  {type:"teach",trg:"이메일",src:"email",pos:"noun",gender:null,
+   note:"Loanword from English 'email'. Written and pronounced as 이메일 in Korean.\n이메일 주소 = email address.",
+   example:"A: 이메일이 있어요?\nB: 네, 있어요.",
+   exampleSrc:"A: Do you have an email address?\nB: Yes, I do.",
+   funFact:"Korea has one of the world's highest internet penetration rates. 이메일 is universally understood, though the older generation may say 전자우편 (electronic mail) in formal writing."},
+
+  {type:"teach",trg:"생년월일",src:"date of birth",pos:"noun",gender:null,
+   note:"COMPOUND: 생 (born) + 년 (year) + 월 (month) + 일 (day). Literally 'birth-year-month-day'.\nKorean forms always use this order: year first.",
+   example:"A: 생년월일이 어떻게 돼요?\nB: 1990년 5월 3일이에요.",
+   exampleSrc:"A: What is your date of birth?\nB: It is May 3, 1990.",
+   funFact:"Korea uses two age systems: international age (from birth) and Korean age (born as age 1, everyone adds a year on New Year's Day). Official forms now use international age."},
+
+  {type:"teach",trg:"쓰다",src:"to write / to fill in",pos:"verb",gender:null,
+   note:"쓰다 = to write (also 'to use' in a second sense, taught later).\n쓰다 → 써요 (ㅡ-drop irregular: ㅡ drops, bright ㅏ wins) — actually ㅡ drops before -어요 → 써요.",
+   example:"A: 이름을 여기에 써요.\nB: 네, 알아요.",
+   exampleSrc:"A: Write your name here.\nB: Yes, I know.",
+   funFact:"쓰다 is a 으-irregular verb: the ㅡ stem vowel drops entirely before the -어요 ending, giving 써요 (not 쓰어요). This same rule applies to 크다 (big) → 커요."},
+
+  {type:"teach",trg:"수고하세요",src:"thank you for your hard work / goodbye (service context)",pos:"intj",gender:null,
+   note:"Literally 'please keep up the effort'. Used as a polite closing when leaving a shop, office, or official counter.\nOnly said TO the person who is CONTINUING to work, not to someone who is also leaving.",
+   example:"A: 감사합니다!\nB: 수고하세요!",
+   exampleSrc:"A: Thank you!\nB: Goodbye (keep up the good work)!",
+   funFact:"Saying 수고하세요 to your boss is awkward — it implies they are working hard below you. Use 수고하십니다 upward, or simply bow and say 먼저 가겠습니다 (I will leave first)."},
+
+  {type:"tip",title:"Korean Form Fields at a Glance",text:"The five fields on almost every Korean form:\n\n이름: name\n주소: address\n전화번호: phone number\n이메일: email\n생년월일: date of birth\n\nDate format is always year-month-day:\n1995년 8월 12일",deepDive:{title:"Official Document Order",text:"Year-month-day order (년/월/일) comes from Sino-Korean tradition.\nIt runs from largest to smallest unit.\n\nSame logic as the address system: country, city, district, street, number.\n\nThis 'largest to smallest' principle appears throughout Korean: family name before given name, year before month before day."}},
+
+  {type:"mc",q:"Which form field asks for where you live?",opts:["이름","주소","생년월일","이메일"],ans:"주소",hint:"주 (reside) + 소 (place): the residential location field."},
+
+  {type:"mc",q:"전화번호 literally means:",opts:["email address","phone number","date of birth","postal code"],ans:"phone number",hint:"전화 = telephone, 번호 = number."},
+
+  {type:"mc",q:"Korean date format on official forms:",opts:["day-month-year","month-day-year","year-month-day","no fixed order"],ans:"year-month-day",hint:"Korean orders time from the largest unit to the smallest: 년, 월, 일."},
+
+  {type:"fb",s:"___을 여기에 써요.\n(Write your name here.)",a:"이름",opts:["이름","주소","이메일","생년월일"],hint:"The most basic personal detail on any form: what are you called?"},
+
+  {type:"fb",s:"저의 ___가 없어요. 이메일만 있어요.\n(I don't have a phone number. I only have email.)",a:"전화번호",opts:["전화번호","주소","생년월일","이름"],hint:"전화 (telephone) + 번호 (number)."},
+
+  {type:"fb",s:"___이 어떻게 돼요?\n(What is your address?)",a:"주소",opts:["주소","이름","이메일","전화번호"],hint:"住 (reside) + 所 (place) = the field for where you live."},
+
+  {type:"fb",s:"사무실을 나갈 때: ___!\n(Leaving the office: ___!)",a:"수고하세요",opts:["수고하세요","알아요","몰라요","있어요"],hint:"A polite farewell to the person who is still working."},
+
+  {type:"match",pairs:[{trg:"이름",src:"name"},{trg:"주소",src:"address"},{trg:"전화번호",src:"phone number"},{trg:"이메일",src:"email"}]},
+
+  {type:"match",pairs:[{trg:"생년월일",src:"date of birth"},{trg:"쓰다",src:"to write / fill in"},{trg:"수고하세요",src:"goodbye (to someone still working)"},{trg:"번호",src:"number (in a sequence)"}]},
+]},
+
 // ═══ L10: Review & Quiz ═══
 {id:"kou2l10",title:"Review & Quiz",icon:"📝",xp:30,board:true,steps:[
   {type:"intro",title:"Review & Quiz",desc:"Review: jobs, existence, demonstratives, family, place, morphemes.",goals:["Verify all U2 concepts","Test morpheme decomposition","Confirm particle instincts"]},

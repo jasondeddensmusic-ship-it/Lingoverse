@@ -6190,6 +6190,8 @@ const FUNCTION_WORDS = {
     'たなかです',       // I am Tanaka (name-intro placeholder)
     'リサです',         // I am Lisa (name-intro placeholder)
     'スミスです',       // I am Smith (name-intro placeholder)
+    'tanaka',           // Romanised family name placeholder in email address example (unit-02 メールアドレス)
+    'example',          // RFC-standard domain placeholder (example.com) — not a vocabulary item
     'まっすぐいって',   // Go straight (directions)
     'また連絡します',   // Will contact again (stock business phrase)
     'またれんらくします', // Will contact again (hiragana)

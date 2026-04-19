@@ -235,7 +235,101 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  opts:["Grammar error in tradition","Russian uses impersonal constructions for states and feelings","To sound more formal","It's only in Moscow dialect"],
  ans:"Russian uses impersonal constructions for states and feelings",
  hint:"Think about how ___ says 'I'm cold' (мне холодно) — the pattern is consistent."}
-,{type:"match",pairs:[{trg:"ноль",src:"zero"}]}]}
+,{type:"match",pairs:[{trg:"ноль",src:"zero"}]}]},
+
+{id:"ruv2_u2l_form", title:"Заполнение анкеты", icon:"📝", xp:15, board:true, steps:[
+
+{type:"intro", title:"Filling Out Forms",
+ desc:"Learn to read and fill out basic forms in Russian: name, address, email, date of birth. Essential for hotel registration, TRKI exam entry forms, and official documents.",
+ goals:["Read basic form field labels in Russian","Fill in personal details in Cyrillic","Write a simple formal message greeting"]},
+
+{type:"teach", trg:"имя", src:"first name", pos:"noun", gender:"n",
+ note:"Neuter. Irregular: ends in -мя but has hidden -ен- stem in all cases.\nForm label: 'Имя:'",
+ example:"A: Ваше имя?\nB: Моё имя — Анна.",
+ exampleSrc:"A: Your first name?\nB: My name is Anna.",
+ funFact:"Имя belongs to a rare group of 12 neuter -мя nouns (время, знамя, племя...). They all add -ен- in oblique cases: имя → имени. Ancient Greek and Latin had the same pattern."},
+
+{type:"teach", trg:"фамилия", src:"surname / last name", pos:"noun", gender:"f",
+ note:"Feminine. Ends in -ия (soft feminine).\nForm label: 'Фамилия:'",
+ example:"A: Ваша фамилия?\nB: Моя фамилия — Иванова.",
+ exampleSrc:"A: Your surname?\nB: My surname is Ivanova.",
+ funFact:"Russian surnames change by gender: Иванов (male), Иванова (female). On forms you always write the female form for women. This system traces back to Old Slavic adjective declension."},
+
+{type:"teach", trg:"адрес", src:"address", pos:"noun", gender:"m",
+ note:"Masculine. Ends in consonant.\nForm label: 'Адрес:'",
+ example:"A: Ваш адрес?\nB: Мой адрес — Москва.",
+ exampleSrc:"A: Your address?\nB: My address is Moscow.",
+ funFact:"Borrowed from French adresse in the 18th century under Peter the Great, who modernised Russia's postal system. Before that, letters were addressed by village name and nearest church."},
+
+{type:"teach", trg:"электронная почта", src:"email (lit. electronic mail)", pos:"noun", gender:"f",
+ note:"Feminine (почта = post, mail is feminine).\nAbbreviated as эл. почта or емейл in informal use.",
+ example:"A: Ваша электронная почта?\nB: Моя электронная почта — здесь.",
+ exampleSrc:"A: Your email address?\nB: My email is right here.",
+ funFact:"Почта (post/mail) comes from the Italian posta, which itself came from Latin posita (placed). Modern Russians also just say емейл (pronounced 'ye-mail') in everyday speech."},
+
+{type:"teach", trg:"дата рождения", src:"date of birth", pos:"noun", gender:"f",
+ note:"Дата (f) + рождения (genitive of рождение, birth).\nForm label: 'Дата рождения:' Written day.month.year in Russia.",
+ example:"A: Дата рождения?\nB: Первое января.",
+ exampleSrc:"A: Date of birth?\nB: January first.",
+ funFact:"Russian dates use ordinal numbers: 'the first of January' (первое января). Day comes first, then month: 01.01.1990. This European format differs from US month-day-year."},
+
+{type:"teach", trg:"заполнить", src:"to fill out (perfective)", pos:"verb", gender:null,
+ note:"Perfective aspect. Imperfective pair: заполнять.\nUse заполнить for completing the action once.",
+ example:"A: Надо заполнить это?\nB: Да, заполнить здесь.",
+ exampleSrc:"A: Do I need to fill this out?\nB: Yes, fill it in here.",
+ funFact:"The prefix за- here means 'to completion.' It appears in many verbs: записать (write down), закрыть (close). Perfective aspect always signals a completed or bounded action."},
+
+{type:"teach", trg:"Уважаемый", src:"Dear (formal salutation, masculine)", pos:"adj", gender:"m",
+ note:"Adjective from уважать (to respect).\nUse Уважаемый for male, Уважаемая for female recipients.",
+ example:"A: Уважаемый Иван!\nB: Уважаемая Анна!",
+ exampleSrc:"A: Dear Ivan!\nB: Dear Anna!",
+ funFact:"Russian formal letters open with Уважаемый/Уважаемая + name in vocative-style. Emails follow the same convention. Dropping this greeting in official writing is considered rude."},
+
+{type:"tip", title:"Reading a Russian Form",
+ text:"Russian official forms follow a standard layout. These fields appear on hotel registration, TRKI entry, bank forms, and post office slips.\n\nCOMMON FORM FIELDS:\nФамилия: surname\nИмя: first name\nОтчество: patronymic (middle name based on father's first name)\nДата рождения: date of birth (day.month.year format)\nАдрес: address\nЭлектронная почта / Эл. почта: email\nТелефон: phone\n\nREMEMBER: Russians write day first, then month, then year.\n01.03.1990 = March 1st, 1990 (NOT January 3rd)."},
+
+{type:"mc", q:"What does 'Фамилия' mean on a Russian form?",
+ opts:["First name","Date of birth","Surname / last name","Email address"],
+ ans:"Surname / last name",
+ hint:"This word shares its root with 'family' (семья). Think of it as your inherited family identity, not your personal given identity."},
+
+{type:"mc", q:"A form says 'Электронная почта:'. What should you write?",
+ opts:["Your phone number","Your email address","Your home address","Your date of birth"],
+ ans:"Your email address",
+ hint:"Почта means 'post/mail.' The adjective before it means 'electronic.'"},
+
+{type:"fb", s:"Ваше {1}: Иванов.",
+ a:["Фамилия"],
+ opts:["Фамилия","Имя","Адрес","Дата рождения"],
+ hint:"'Иванов' is a typical Russian surname. The form label for a last name starts with Ф.",
+ sSrc:"Your {1}: Ivanov."},
+
+{type:"fb", s:"Уважаемая {1}!",
+ a:["Анна"],
+ opts:["Анна","Иванов","Да","Нет"],
+ hint:"This is the opening of a formal message to a woman. After the salutation comes the recipient's given name.",
+ sSrc:"Dear {1}!"},
+
+{type:"mc", q:"Which Russian word means 'to fill out' a form?",
+ opts:["заполнить","написать","прочитать","открыть"],
+ ans:"заполнить",
+ hint:"The за- prefix often marks completion of an action. The root means 'to fill.'"},
+
+{type:"mc", q:"How do you open a formal letter or email to a male recipient in Russian?",
+ opts:["Уважаемый","Привет","Меня зовут","Пожалуйста"],
+ ans:"Уважаемый",
+ hint:"The word comes from уважать (to respect). Use the masculine form for male recipients."},
+
+{type:"match", pairs:[
+ {trg:"имя", src:"first name"},
+ {trg:"фамилия", src:"surname"},
+ {trg:"адрес", src:"address"},
+ {trg:"дата рождения", src:"date of birth"},
+ {trg:"электронная почта", src:"email"},
+ {trg:"Уважаемый", src:"Dear (formal, masculine)"}
+]}
+
+]}
 
 ]};
 export default UNIT_02;
