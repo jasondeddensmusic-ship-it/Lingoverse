@@ -77,6 +77,12 @@ const UNIT_08 = {n:8, lang:"ru", srcLang:"en", track:"v2", title:"В магаз�
  hint:"Apples is plural (яблоки), so the verb agrees with plural.",
  sSrc:"A: How much do apples cost?\nB: Fifty rubles per kilo."},
 
+{type:"fb", s:"A: Это {1}?\nB: Да, слишком. Давай найдём что-нибудь дешевле.",
+ a:["дорого"],
+ opts:["дорого","дёшево","дорогой","дорогие"],
+ hint:"Impersonal word for 'pricey' — costs a lot.",
+ sSrc:"A: Is it expensive?\nB: Yes, too much. Let's find something cheaper."},
+
 {type:"match", pairs:[
   {trg:"деньги", src:"money"},
   {trg:"рубль", src:"ruble"},
@@ -166,6 +172,12 @@ const UNIT_08 = {n:8, lang:"ru", srcLang:"en", track:"v2", title:"В магаз�
  opts:["продают","продают","продаёт","продам"],
  hint:"Impersonal 'they sell' — 3rd person plural imperfective.",
  sSrc:"A: Where do they sell fresh bread?\nB: At the bakery near the metro."},
+
+{type:"fb", s:"A: Есть ли {1} на этот товар?\nB: Да, двадцать процентов.",
+ a:["скидка"],
+ opts:["скидка","чек","касса","размер"],
+ hint:"A price reduction offered in a shop.",
+ sSrc:"A: Is there a discount on this item?\nB: Yes, twenty percent."},
 
 {type:"match", pairs:[
   {trg:"купить", src:"to buy (perf)"},

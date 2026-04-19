@@ -57,6 +57,7 @@ const UNIT_23 = {
         {type:"match", pairs:[{trg:"saudade", src:"deep longing"},{trg:"fala sério", src:"no way"},{trg:"que saco", src:"what a pain"},{trg:"tá de brincadeira", src:"you're kidding"}]},
         {type:"tip", title:"Reading Emotional Tone", text:"Brazilian emotional expressions rely heavily on tone and facial expression.\nThe SAME words can mean opposite things:\n- Tá bom (happy) = yes, sure\n- Tá bom (flat) = fine, whatever\n- Legal (enthusiastic) = awesome\n- Legal (deadpan) = sarcastic 'sure, right'\nListen for rising vs. falling intonation and watch body language.", deepDive:"Brazilian Portuguese is often said to be more expressive than European Portuguese. Emotion-laden idioms pepper casual conversation, and understatement is less common than in Anglophone cultures."},
         {type:"mc", q:"Translate: 'I miss you deeply.'", opts:["Sinto sua falta.","Tenho saudade de você.","Gosto de você.","Te quero bem."], ans:"Tenho saudade de você.", hint:"The classic Portuguese word for bittersweet longing."},
+        {type:"fb", s:"Me ajudou muito, {1}!", a:"valeu", sSrc:"You helped me a lot, {1}!", opts:["valeu","mano","tá bom","legal"], hint:"Informal thanks, literally 'it was worth it'."},
 {type:"match", pairs:[
   {trg:"valer a pena", src:"to be worth it"},
   {trg:"mano", src:"dude / bro"},

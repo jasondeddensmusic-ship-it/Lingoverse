@@ -156,7 +156,19 @@ const UNIT_18 = {n:18, lang:"ru", srcLang:"en", track:"v2", title:"Вините�
   {trg:"на работе", src:"at work (location)"},
   {trg:"в гости", src:"to visit"}
 ]}
-,{type:"match",pairs:[{trg:"Я вижу книгу",src:"I see the book (ACC)"},{trg:"Я знаю сестру",src:"I know (my) sister"},{trg:"в парк",src:"to the park (motion)"},{trg:"на концерт",src:"to a concert"}]}]}
+,{type:"fb", s:"Каждое утро я иду {1}.",
+ a:["в школу"],
+ opts:["в школу","в школе","на работу","в город"],
+ hint:"Direction/motion to a learning institution.",
+ sSrc:"Every morning I go to school."},
+
+{type:"fb", s:"Сегодня вечером мы едем {1} слушать джаз.",
+ a:["на концерт"],
+ opts:["на концерт","в парк","в гости","в Москву"],
+ hint:"Going to hear live music performance.",
+ sSrc:"This evening we are going to a concert to listen to jazz."},
+
+{type:"match",pairs:[{trg:"Я вижу книгу",src:"I see the book (ACC)"},{trg:"Я знаю сестру",src:"I know (my) sister"},{trg:"в парк",src:"to the park (motion)"},{trg:"на концерт",src:"to a concert"}]}]}
 
 ]};
 export default UNIT_18;

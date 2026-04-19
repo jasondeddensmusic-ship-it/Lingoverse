@@ -155,7 +155,19 @@ const UNIT_19 = {n:19, lang:"ru", srcLang:"en", track:"v2", title:"Родите�
   {trg:"матери (GEN)", src:"of mother"},
   {trg:"времени (GEN)", src:"of time"}
 ]}
-,{type:"match",pairs:[{trg:"у меня нет",src:"I don't have"},{trg:"без сахара",src:"without sugar (GEN)"},{trg:"мать → матери",src:"mother → of mother (f -ь)"},{trg:"люди → людей",src:"people → of people (pl)"}]}]}
+,{type:"fb", s:"Я хочу кофе {1}.",
+ a:["без сахара"],
+ opts:["без сахара","для друга","из России","много времени"],
+ hint:"Ordering coffee with nothing sweet added.",
+ sSrc:"I want coffee without sugar."},
+
+{type:"fb", s:"Этот подарок {1}.",
+ a:["для друга"],
+ opts:["для друга","из России","без сахара","у меня нет"],
+ hint:"The gift is intended for a male companion.",
+ sSrc:"This gift is for a friend."},
+
+{type:"match",pairs:[{trg:"у меня нет",src:"I don't have"},{trg:"без сахара",src:"without sugar (GEN)"},{trg:"мать → матери",src:"mother → of mother (f -ь)"},{trg:"люди → людей",src:"people → of people (pl)"}]}]}
 
 ]};
 export default UNIT_19;
