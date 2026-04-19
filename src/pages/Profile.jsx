@@ -6,6 +6,7 @@ import { AppIcon, BrandIcon } from '../components/shared.jsx';
 import CountryFlag from '../components/CountryFlag.jsx';
 import GlossyPopup from '../components/GlossyPopup.jsx';
 import { getUserCefr } from '../helpers.js';
+import { CAN_DO, CEFR_SUB_LEVELS, CEFR_BAND_COLORS, getBand } from '../data/cefr-can-do.js';
 
 function buildUnitsVocabCount(lang) {
   const seen = new Set();
@@ -96,6 +97,9 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags,set
         <div style={{fontSize:12,color:"var(--gray-400)",marginTop:6}}>{learnedPct}% {t("prof_of",baseLang)} {L?.native} {t("prof_dict_mastered",baseLang)}</div>
       </div>
 
+      {/* CEFR Milestones */}
+      <MilestoneSection user={user} lang={lang} dk={dk} baseLang={baseLang}/>
+
       {/* Action buttons row */}
       <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:12,marginBottom:20}}>
         <button role="button" onClick={()=>setShowAchievements(true)} className="ghost-tile" style={{padding:"16px",borderRadius:18,border:dk?"2px solid rgba(123,94,232,0.3)":"2px solid rgba(123,94,232,0.12)",background:dk?"linear-gradient(180deg, rgba(55,45,105,0.94) 0%, rgba(42,36,90,0.96) 40%, rgba(30,26,68,0.98) 100%)":"linear-gradient(180deg, #F8F5FF 0%, #F4F0FF 35%, #F0ECFF 65%, #EDE8FF 100%)",cursor:"pointer",fontFamily:"inherit",display:"flex",alignItems:"center",justifyContent:"center",gap:8,transition:"transform 0.15s, box-shadow 0.15s, filter 0.15s, background 0.2s",boxShadow:dk?"0 4px 16px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.06)":"0 4px 16px rgba(123,94,232,0.08), inset 0 2px 0 rgba(255,255,255,0.8)"}}>
@@ -150,6 +154,234 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags,set
 
       {/* Logout */}
       <div style={{textAlign:"center",paddingTop:16,borderTop:dk?"2px solid rgba(123,94,232,0.15)":"2px solid rgba(123,94,232,0.06)"}}><button onClick={onLogout} style={{fontSize:14,padding:"12px 32px",borderRadius:14,border:"2px solid var(--coral)",background:"var(--card-bg)",color:"var(--coral)",fontWeight:700,cursor:"pointer",fontFamily:"inherit"}}>{t("profile_logout",baseLang)}</button></div>
+    </div>
+  );
+}
+
+// ── MilestoneSection ──────────────────────────────────────────────
+// Shows CEFR can-do checklist grouped by sub-level.
+// Unlock heuristic: each can-do statement unlocks proportionally to
+// the fraction of units at that sub-level the user has completed.
+// e.g. 5 statements, 4 units at A1.1, 2 completed -> 50% -> 2-3 unlocked.
+
+function MilestoneSection({ user, lang, dk, baseLang }) {
+  // Build per-sub-level stats from UNITS + user.cu
+  const stats = useMemo(() => {
+    const byLevel = {};
+    for (const sl of CEFR_SUB_LEVELS) {
+      byLevel[sl] = { total: 0, completed: 0 };
+    }
+    const langUnits = UNITS.filter(u => u.lang === lang);
+    for (const u of langUnits) {
+      const sl = u.level;
+      if (!byLevel[sl]) continue;
+      byLevel[sl].total += 1;
+      const key = `${lang}_u${u.n}`;
+      if (user.cu && user.cu[key]) {
+        byLevel[sl].completed += 1;
+      }
+    }
+    return byLevel;
+  }, [lang, user.cu]);
+
+  // Determine current active sub-level (first with incomplete units, or last with any progress)
+  const activeSubLevel = useMemo(() => {
+    for (const sl of CEFR_SUB_LEVELS) {
+      const s = stats[sl];
+      if (s.total > 0 && s.completed < s.total) return sl;
+    }
+    for (let i = CEFR_SUB_LEVELS.length - 1; i >= 0; i--) {
+      if (stats[CEFR_SUB_LEVELS[i]].completed > 0) return CEFR_SUB_LEVELS[i];
+    }
+    return CEFR_SUB_LEVELS[0];
+  }, [stats]);
+
+  const [expanded, setExpanded] = useState(() => {
+    const init = {};
+    init[activeSubLevel] = true;
+    return init;
+  });
+
+  const toggle = (sl) => setExpanded(prev => ({ ...prev, [sl]: !prev[sl] }));
+
+  const hasAnyUnits = CEFR_SUB_LEVELS.some(sl => stats[sl].total > 0);
+  if (!hasAnyUnits) return null;
+
+  const panelBg = dk
+    ? "linear-gradient(180deg, rgba(55,45,105,0.94) 0%, rgba(42,36,90,0.96) 40%, rgba(30,26,68,0.98) 100%)"
+    : "linear-gradient(180deg, #F8F5FF 0%, #F4F0FF 35%, #F0ECFF 65%, #EDE8FF 100%)";
+  const panelBorder = dk ? "2px solid rgba(123,94,232,0.3)" : "2px solid rgba(123,94,232,0.12)";
+  const panelShadow = dk
+    ? "0 4px 16px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.06)"
+    : "0 4px 16px rgba(123,94,232,0.08), inset 0 2px 0 rgba(255,255,255,0.8)";
+
+  return (
+    <div style={{ marginBottom: 20 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }}>
+        <AppIcon name="clipboard" size={22} />
+        <h3 style={{ fontSize: 16, fontWeight: 700, color: "var(--gray-700)", margin: 0, fontFamily: "'DM Sans','Inter',system-ui,sans-serif" }}>
+          Milestones
+        </h3>
+      </div>
+
+      {CEFR_SUB_LEVELS.map(sl => {
+        const s = stats[sl];
+        if (s.total === 0) return null;
+
+        const band = getBand(sl);
+        const bandColor = CEFR_BAND_COLORS[band] || "#888";
+        const statements = CAN_DO[sl] || [];
+        const totalStatements = statements.length;
+        const fraction = s.total > 0 ? s.completed / s.total : 0;
+        const unlockedCount = Math.round(fraction * totalStatements);
+        const progressPct = totalStatements > 0 ? Math.round((unlockedCount / totalStatements) * 100) : 0;
+        const allDone = unlockedCount >= totalStatements;
+        const isOpen = !!expanded[sl];
+
+        return (
+          <div key={sl} style={{ marginBottom: 10 }}>
+            <button
+              onClick={() => toggle(sl)}
+              style={{
+                width: "100%",
+                display: "flex",
+                alignItems: "center",
+                gap: 10,
+                background: panelBg,
+                border: panelBorder,
+                borderRadius: isOpen ? "18px 18px 0 0" : 18,
+                padding: "12px 16px",
+                cursor: "pointer",
+                fontFamily: "inherit",
+                boxShadow: panelShadow,
+                transition: "border-radius 0.2s ease",
+              }}
+            >
+              <span style={{
+                display: "inline-block",
+                padding: "2px 8px",
+                borderRadius: 10,
+                fontSize: 11,
+                fontWeight: 800,
+                fontFamily: "'Quicksand',sans-serif",
+                color: "#fff",
+                background: `linear-gradient(180deg, ${bandColor}EE 0%, ${bandColor}BB 100%)`,
+                textShadow: "0 1px 2px rgba(0,0,0,0.25)",
+                letterSpacing: 0.5,
+                boxShadow: `0 2px 6px ${bandColor}44, inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,0,0,0.12)`,
+                flexShrink: 0,
+              }}>{sl}</span>
+
+              <div style={{ flex: 1, display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
+                <div style={{
+                  flex: 1,
+                  height: 5,
+                  borderRadius: 3,
+                  background: dk ? "rgba(255,255,255,0.08)" : "rgba(123,94,232,0.1)",
+                  overflow: "hidden",
+                }}>
+                  <div style={{
+                    height: "100%",
+                    borderRadius: 3,
+                    width: `${progressPct}%`,
+                    background: `linear-gradient(90deg, ${bandColor}, ${bandColor}CC)`,
+                    transition: "width 0.5s ease",
+                  }} />
+                </div>
+                <span style={{
+                  fontSize: 11,
+                  fontWeight: 700,
+                  fontFamily: "'Nunito',sans-serif",
+                  color: dk ? "rgba(200,184,255,0.5)" : "rgba(100,80,160,0.45)",
+                  flexShrink: 0,
+                }}>{unlockedCount}/{totalStatements}</span>
+              </div>
+
+              {allDone ? (
+                <svg width="16" height="13" viewBox="0 0 10 8" fill="none" style={{ flexShrink: 0 }}>
+                  <path d="M1 3.5L3.5 6L9 1" stroke={bandColor} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              ) : (
+                <span style={{
+                  fontSize: 11,
+                  color: dk ? "rgba(200,184,255,0.4)" : "rgba(100,80,160,0.35)",
+                  flexShrink: 0,
+                  lineHeight: 1,
+                }}>{isOpen ? "\u25B2" : "\u25BC"}</span>
+              )}
+            </button>
+
+            {isOpen && (
+              <div style={{
+                background: dk
+                  ? "linear-gradient(180deg, rgba(42,36,90,0.96) 0%, rgba(30,26,68,0.98) 100%)"
+                  : "linear-gradient(180deg, #F4F0FF 0%, #EDE8FF 100%)",
+                border: panelBorder,
+                borderTop: "none",
+                borderRadius: "0 0 18px 18px",
+                padding: "4px 16px 12px",
+                boxShadow: panelShadow,
+              }}>
+                {statements.map((stmt, idx) => {
+                  const unlocked = idx < unlockedCount;
+                  return (
+                    <div key={idx} style={{
+                      display: "flex",
+                      alignItems: "flex-start",
+                      gap: 10,
+                      padding: "8px 0",
+                      borderBottom: idx < statements.length - 1
+                        ? (dk ? "1px solid rgba(123,94,232,0.1)" : "1px solid rgba(123,94,232,0.06)")
+                        : "none",
+                      opacity: unlocked ? 1 : 0.38,
+                      transition: "opacity 0.2s ease",
+                    }}>
+                      <div style={{
+                        width: 20,
+                        height: 20,
+                        borderRadius: 10,
+                        border: `2px solid ${unlocked ? bandColor : (dk ? "rgba(200,184,255,0.25)" : "rgba(123,94,232,0.2)")}`,
+                        background: unlocked ? `${bandColor}22` : "transparent",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                        marginTop: 1,
+                        transition: "all 0.2s ease",
+                      }}>
+                        {unlocked && (
+                          <svg width="10" height="8" viewBox="0 0 10 8" fill="none">
+                            <path d="M1 3.5L3.5 6L9 1" stroke={bandColor} strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+                          </svg>
+                        )}
+                      </div>
+                      <span style={{
+                        fontSize: 13,
+                        fontFamily: "'Nunito',sans-serif",
+                        fontWeight: unlocked ? 600 : 500,
+                        color: unlocked
+                          ? (dk ? "var(--gray-800)" : "var(--gray-700)")
+                          : (dk ? "rgba(200,184,255,0.35)" : "rgba(100,80,160,0.35)"),
+                        lineHeight: 1.45,
+                        flex: 1,
+                      }}>{stmt}</span>
+                    </div>
+                  );
+                })}
+                <div style={{
+                  marginTop: 8,
+                  fontSize: 11,
+                  color: dk ? "rgba(200,184,255,0.35)" : "rgba(100,80,160,0.35)",
+                  fontFamily: "'Nunito',sans-serif",
+                  textAlign: "right",
+                }}>
+                  {s.completed}/{s.total} units at {sl} completed
+                </div>
+              </div>
+            )}
+          </div>
+        );
+      })}
     </div>
   );
 }
