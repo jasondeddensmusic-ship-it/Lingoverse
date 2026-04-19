@@ -113,6 +113,41 @@ function bareForm(s, langCode) {
   return b.trim();
 }
 
+// romanceStem: for Romance-language verb infinitives and common noun forms,
+// return a stem that conjugations and inflections share. Enables the audit
+// to treat "sente" (3s pres.) as a form of taught "sentir" (infinitive), and
+// "cafés" (pl.) as a form of taught "café" (sg.).
+//
+// Conservative: only strip when the remainder is >=3 chars, so we don't
+// over-match short words.
+function romanceStem(word, langCode) {
+  if (!word || word.length < 4) return null;
+  if (langCode === 'pt' || langCode === 'es') {
+    if (/[aei]r$/.test(word) && word.length >= 5) return word.slice(0, -2);
+  }
+  if (langCode === 'it') {
+    if (/[aei]re$/.test(word) && word.length >= 6) return word.slice(0, -3);
+  }
+  if (langCode === 'fr') {
+    if (/(er|ir|re)$/.test(word) && word.length >= 5) return word.slice(0, -2);
+  }
+  return null;
+}
+
+// matchesTaught: returns true when `tok` transparently traces to a taught word.
+// Checks (in order):
+//   1. Substring match either direction (original logic, catches plurals like cafés⊃café).
+//   2. Romance verb stem match (sentir → stem sent → matches sente, sentimos, sentiu, etc.).
+function matchesTaught(tok, taught, langCode) {
+  for (const tw of taught) {
+    if (!tw) continue;
+    if (tw === tok || tw.includes(tok) || tok.includes(tw)) return true;
+    const stem = romanceStem(tw, langCode);
+    if (stem && stem.length >= 3 && tok.startsWith(stem)) return true;
+  }
+  return false;
+}
+
 function auditLang(langDir) {
   const BASE = path.join(__dirname, '..', 'src', 'data', langDir);
   if (!fs.existsSync(BASE)) return null;
@@ -184,19 +219,13 @@ function auditLang(langDir) {
         if (stopwords.has(t)) continue;
         if (properNounLike.has(t)) continue;
         if (t === ownBare || ownBare.includes(t) || t.includes(ownBare)) continue;
-        // Check taughtWords (prior units + earlier in this unit via fileTaught)
-        let found = false;
-        for (const tw of taughtWords) {
-          if (!tw) continue;
-          if (tw === t || tw.includes(t) || t.includes(tw)) { found = true; break; }
-        }
-        if (!found) {
-          for (const tw of fileTaught) {
-            if (!tw) continue;
-            if (tw === t || tw.includes(t) || t.includes(tw)) { found = true; break; }
-          }
-        }
-        if (!found) untaught.push(tok);
+        // Own-card verb-stem match: "sentir" example "sente" — same-card inflection.
+        const ownStem = romanceStem(ownBare, langCode);
+        if (ownStem && ownStem.length >= 3 && t.startsWith(ownStem)) continue;
+        // Prior-taught match (cross-file + same-file cumulative).
+        if (matchesTaught(t, taughtWords, langCode)) continue;
+        if (matchesTaught(t, fileTaught, langCode)) continue;
+        untaught.push(tok);
       }
 
       if (untaught.length > 0) {
