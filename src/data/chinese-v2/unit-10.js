@@ -422,6 +422,109 @@ lessons:[
 ]}
 ]}
 
+,
+
+// ─── L5: Writing Short Informal Messages ───
+{id:"zhv2_u10l5_letter", title:"短信(duǎnxìn)", icon:"✉️", xp:15, board:true, steps:[
+{type:"intro", title:"Writing Short Informal Messages",
+ desc:"Learn to write short informal messages in Mandarin: WeChat messages, casual notes, short letters. Essential for HSK 3 and everyday digital communication.",
+ goals:["Open a message casually","Use common body phrases","Close with an appropriate farewell"]},
+
+{type:"teach", trg:"短信(duǎnxìn)", src:"short message / text", pos:"noun", gender:null,
+ note:"The everyday word for a text message or brief written message.\n短 means short; 信 means letter or message.",
+ example:"A: 你(nǐ)发(fā)短信(duǎnxìn)给(gěi)我(wǒ)了(le)吗(ma)？\nB: 对(duì)，我(wǒ)发(fā)了(le)一(yī)条(tiáo)短信(duǎnxìn)。",
+ exampleSrc:"A: Did you send me a text message?\nB: Yes, I sent one message.",
+ funFact:"短信 originally referred to SMS texts but is now used for any short written message, including WeChat. It literally means 'short letter.'"},
+
+{type:"teach", trg:"你好吗？(nǐ hǎo ma?)", src:"How are you?", pos:"intj", gender:null,
+ note:"A casual written greeting used in informal notes and messages.\nMore common in writing than in speech.",
+ example:"A: 你好吗(nǐ hǎo ma)？好久(hǎojiǔ)没(méi)见(jiàn)你(nǐ)了(le)。\nB: 我(wǒ)很(hěn)好(hǎo)，谢谢(xièxie)你(nǐ)！",
+ exampleSrc:"A: How are you? I haven't seen you in a long time.\nB: I'm very well, thank you!",
+ funFact:"In spoken Chinese, people rarely open conversations with 你好吗 — it sounds a bit formal. But in written messages, especially to friends you haven't contacted in a while, it fits naturally."},
+
+{type:"teach", trg:"好久不见(hǎojiǔ bújiàn)", src:"Long time no see", pos:"intj", gender:null,
+ note:"A fixed phrase for reconnecting after a long absence.\n好久 = a long time; 不见 = haven't seen (each other).",
+ example:"A: 好久不见(hǎojiǔ bújiàn)！你(nǐ)最近(zuìjìn)好(hǎo)吗(ma)？\nB: 好久不见(hǎojiǔ bújiàn)！我(wǒ)很(hěn)好(hǎo)。",
+ exampleSrc:"A: Long time no see! How have you been recently?\nB: Long time no see! I am very well.",
+ funFact:"This phrase was actually borrowed INTO English as 'long time no see' by Chinese labourers in the 1800s — the English phrase is a direct calque of the Mandarin structure."},
+
+{type:"teach", trg:"想你(xiǎng nǐ)", src:"I miss you", pos:"intj", gender:null,
+ note:"Literally 'think of you' or 'want you.' Common in warm informal messages.\nUsed between close friends, family, and partners.",
+ example:"A: 我(wǒ)很(hěn)想你(xiǎng nǐ)，你(nǐ)什么(shénme)时候(shíhou)回来(huílái)？\nB: 我(wǒ)也(yě)想你(xiǎng nǐ)！",
+ exampleSrc:"A: I really miss you. When are you coming back?\nB: I miss you too!",
+ funFact:"想 is one of those Chinese characters that combines meaning with structure: the top part 木 (tree/stand) plus 目 (eye) over 心 (heart). Looking with your heart — the image of longing."},
+
+{type:"tip", title:"Structure of a Short Chinese Message",
+ text:"Informal Mandarin messages follow a simple three-part structure:\n1. Opening: 你好吗？ or 好久不见！\n2. Main point: state your news, ask a question, or share a feeling\n3. Closing: 想你 / 保重 / 下次见\n\nYou do not need 亲爱的 (dear) in a WeChat message to a friend. That register belongs to formal letters.",
+ deepDive:"WeChat messages are Chinese daily digital life. Even older generations send long voice notes and text. Short written messages mix formal openers with casual closers freely — there are no strict rules, just common patterns."},
+
+{type:"teach", trg:"保重(bǎozhòng)", src:"take care / stay safe", pos:"intj", gender:null,
+ note:"A warm closing phrase meaning 'take care of yourself.'\n保 = protect; 重 = important / serious.",
+ example:"A: 你(nǐ)要(yào)走(zǒu)了(le)，多(duō)保重(bǎozhòng)！\nB: 谢谢(xièxie)，你(nǐ)也(yě)保重(bǎozhòng)！",
+ exampleSrc:"A: You are leaving now. Take good care!\nB: Thank you, you take care too!",
+ funFact:"保重 is the standard warm farewell in Chinese correspondence. It appears in the closing line of letters, emails, and WeChat messages alike. The equivalent of 'take care' in English — genuine, not just filler."},
+
+{type:"teach", trg:"下次见(xià cì jiàn)", src:"See you next time", pos:"intj", gender:null,
+ note:"A casual closing meaning 'until we meet again.'\n下次 = next time; 见 = to see / to meet.",
+ example:"A: 好(hǎo)，我(wǒ)要(yào)走(zǒu)了(le)，下次见(xià cì jiàn)！\nB: 好的(hǎo)！下次见(xià cì jiàn)！",
+ exampleSrc:"A: OK, I have to go now. See you next time!\nB: Sure! See you next time!",
+ funFact:"下次见 is lighter and less final than 再见. Use it when you plan to be in touch again soon. For longer separations or more formal contexts, 再见 is the better choice."},
+
+{type:"teach", trg:"回信(huí xìn)", src:"to reply / to write back", pos:"verb", gender:null,
+ note:"Means to send a reply to a letter or message.\n回 = to return / reply; 信 = letter / message.",
+ example:"A: 你(nǐ)回信(huí xìn)了(le)吗(ma)？我(wǒ)等(děng)了(le)很(hěn)久(jiǔ)。\nB: 对不起(duìbuqǐ)！我(wǒ)现在(xiànzài)就(jiù)回信(huí xìn)。",
+ exampleSrc:"A: Did you write back? I've been waiting a long time.\nB: Sorry! I'll reply right now.",
+ funFact:"回 is a fascinatingly symmetric character: a small square inside a large square. Scholars believe it originally depicted a whirlpool or spiral, giving it the core meaning of 'turning back' or 'returning.'"},
+
+{type:"mc", q:"Which phrase is used to reconnect with someone after a long absence?",
+ opts:["你好吗？(nǐ hǎo ma?)","好久不见(hǎojiǔ bújiàn)","保重(bǎozhòng)","回信(huí xìn)"],
+ ans:"好久不见(hǎojiǔ bújiàn)",
+ hint:"Think of the phrase that literally means you haven't seen someone in a long time."},
+
+{type:"mc", q:"保重(bǎozhòng) is best used as:",
+ opts:["An opening greeting in a formal letter","A warm closing phrase wishing someone well","A way to say you miss someone","A phrase meaning you will reply soon"],
+ ans:"A warm closing phrase wishing someone well",
+ hint:"保重 belongs at the end of a message, not the beginning. It signals care and warmth as you say goodbye."},
+
+{type:"fb", s:"好久不见！你(nǐ)最近(zuìjìn){1}吗(ma)？",
+ a:["好(hǎo)"],
+ opts:["好(hǎo)","忙(máng)","冷(lěng)","贵(guì)"],
+ hint:"Which word completes 'How are you recently?' in a standard greeting? It describes being well or in a good state.",
+ sSrc:"Long time no see! Have you been {1} recently?"},
+
+{type:"fb", s:"我(wǒ)很(hěn){1}，什么(shénme)时候(shíhou)回来(huílái)？",
+ a:["想你(xiǎng nǐ)"],
+ opts:["想你(xiǎng nǐ)","好久不见(hǎojiǔ bújiàn)","保重(bǎozhòng)","下次见(xià cì jiàn)"],
+ hint:"Fill in the phrase expressing that the writer misses the reader and wants them to come back.",
+ sSrc:"I really {1}. When are you coming back?"},
+
+{type:"fb", s:"要(yào)出发(chūfā)了(le)，多(duō){1}！",
+ a:["保重(bǎozhòng)"],
+ opts:["保重(bǎozhòng)","回信(huí xìn)","下次见(xià cì jiàn)","短信(duǎnxìn)"],
+ hint:"Which closing phrase means 'take care of yourself' and is used when someone is leaving?",
+ sSrc:"Time to set off. {1}!"},
+
+{type:"mc", q:"你发短信给我了吗？ What is being asked?",
+ opts:["Did you call me?","Did you send me a text?","Did you reply to me?","Did you write me a letter?"],
+ ans:"Did you send me a text?",
+ hint:"短信 is the key word. Focus on which action the speaker completed: calling, replying, texting, or writing a physical letter."},
+
+{type:"mc", q:"Which phrase is the most natural way to close a WeChat message to a friend you plan to see again soon?",
+ opts:["保重(bǎozhòng)","你好吗？(nǐ hǎo ma?)","下次见(xià cì jiàn)","好久不见(hǎojiǔ bújiàn)"],
+ ans:"下次见(xià cì jiàn)",
+ hint:"Which closing phrase specifically points forward to the next meeting? It is lighter and shorter than the standard goodbye."},
+
+{type:"match", pairs:[
+  {trg:"短信(duǎnxìn)", src:"short message / text"},
+  {trg:"你好吗？(nǐ hǎo ma?)", src:"How are you?"},
+  {trg:"好久不见(hǎojiǔ bújiàn)", src:"long time no see"},
+  {trg:"想你(xiǎng nǐ)", src:"I miss you"},
+  {trg:"保重(bǎozhòng)", src:"take care"},
+  {trg:"下次见(xià cì jiàn)", src:"see you next time"},
+  {trg:"回信(huí xìn)", src:"to reply / write back"}
+]}
+]}
+
 ]};
 
 export default UNIT_10;

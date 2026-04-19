@@ -10,6 +10,7 @@ import BATCH4_L01 from './_batch4_u16_L01.js';
 import BATCH2_L1 from './_batch2_u16_L01.js';
 // Level: A2.2. JLPT N4 aligned.
 import JEXP_16_L1 from './_temp_u16_expand_L01.js';import JEXP_16_L2 from './_temp_u16_expand_L02.js';import JEXP_16_L3 from './_temp_u16_expand_L03.js';
+import F8_LETTER from './_f8_u16_letter.js';
 // つもり, よてい, たい vs ほしい, ために.
 
 const UNIT_16 = {
@@ -186,5 +187,6 @@ const UNIT_16 = {
 ,BATCH9_L1
 ,BATCH10_L1
 ,BATCH11_L1
+,F8_LETTER
 ]};
 export default UNIT_16;
