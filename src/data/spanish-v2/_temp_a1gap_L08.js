@@ -14,8 +14,8 @@ const LESSON_8 = {
 
     {type:"teach", trg:"antipático", src:"unfriendly, unpleasant", pos:"adj", gender:null,
      note:"Adjective. Antipático/antipática.\nOpposite of simpático (friendly).",
-     example:"A: El camarero es un poco antipático.\nB: Sí, no sonríe nunca.",
-     exampleSrc:"A: The waiter is a bit unfriendly.\nB: Yes, he never smiles.",
+     example:"A: El camarero es un poco antipático.\nB: Sí, es muy malo.",
+     exampleSrc:"A: The waiter is a bit unfriendly.\nB: Yes, he's very bad.",
      funFact:"From Greek 'antipatheia' (aversion). Notice the prefix 'anti-' (against) + 'pathos' (feeling)."},
 
     {type:"teach", trg:"aburrir", src:"to bore", pos:"verb", gender:null,

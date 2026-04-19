@@ -10,8 +10,8 @@ const LESSON_16 = {id:"esv2_b2g4_l16",title:"Hogar y alimentación",icon:"🍲",
 
 {type:"teach",trg:"el bolillo",src:"the bread roll / bobbin",pos:"noun",gender:"m",
  note:"Masculine noun. A small bread roll (Mexico) or a sewing bobbin.\nRegional variation.",
- example:"A: En México, los bolillos son el pan más popular.\nB: Son perfectos para hacer tortas.",
- exampleSrc:"A: In Mexico, bolillos are the most popular bread.\nB: They are perfect for making sandwiches.",
+ example:"A: En México, los bolillos son el pan más popular.\nB: Son muy buenos con mantequilla.",
+ exampleSrc:"A: In Mexico, bolillos are the most popular bread.\nB: They are very good with butter.",
  funFact:"In Spain, this bread is called 'pistola' or 'barra'. 'Bolillo' is distinctly Mexican."},
 
 {type:"teach",trg:"el brócoli",src:"the broccoli",pos:"noun",gender:"m",

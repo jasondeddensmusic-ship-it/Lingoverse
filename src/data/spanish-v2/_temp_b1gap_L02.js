@@ -81,8 +81,8 @@ const LESSON_2 = {
 
     {type:"teach", trg:"la batata", src:"the sweet potato", pos:"noun", gender:"f",
      note:"Feminine noun. Also called 'boniato' in some regions.\nVery popular in autumn.",
-     example:"A: \u00bfHas probado la batata asada?\nB: S\u00ed, est\u00e1 dul\u00edsima.",
-     exampleSrc:"A: Have you tried roasted sweet potato?\nB: Yes, it is very sweet.",
+     example:"A: \u00bfHas probado la batata asada?\nB: S\u00ed, est\u00e1 muy buena.",
+     exampleSrc:"A: Have you tried roasted sweet potato?\nB: Yes, it is very good.",
      funFact:"From Taino 'batata', a Caribbean indigenous language. Columbus brought the sweet potato to Spain in the late 1400s."},
 
     {type:"teach", trg:"el alm\u00edbar", src:"the syrup", pos:"noun", gender:"m",

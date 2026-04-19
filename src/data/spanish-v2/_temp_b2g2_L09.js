@@ -94,8 +94,8 @@ const LESSON_9 = {id:"esv2_b2g2_l9",title:"Verbos de acción y cambio",icon:"�
 
 {type:"teach",trg:"calificar",src:"to grade / to describe as",pos:"verb",gender:null,
  note:"Regular -ar verb. To assign a grade, or to characterize something.",
- example:"A: La prensa calificó el discurso de histórico.\nB: Fue un momento que nadie olvidará.",
- exampleSrc:"A: The press described the speech as historic.\nB: It was a moment nobody will forget.",
+ example:"A: La prensa calificó el discurso de histórico.\nB: Fue un momento muy importante.",
+ exampleSrc:"A: The press described the speech as historic.\nB: It was a very important moment.",
  funFact:"'Calificación' means both grade (academic) and rating. 'Calificación crediticia' is credit rating."},
 
 {type:"teach",trg:"capacitar",src:"to train / to qualify",pos:"verb",gender:null,
@@ -112,8 +112,8 @@ const LESSON_9 = {id:"esv2_b2g2_l9",title:"Verbos de acción y cambio",icon:"�
 
 {type:"teach",trg:"curvar",src:"to curve / to bend",pos:"verb",gender:null,
  note:"Regular -ar verb. To make something curved.\nReflexive: curvarse.",
- example:"A: El peso de la nieve curvó las ramas del árbol.\nB: Parecía que iban a romperse.",
- exampleSrc:"A: The weight of the snow bent the tree branches.\nB: It seemed like they were going to break.",
+ example:"A: El peso de la nieve curvó las ramas del árbol.\nB: Parecía que iban a caer.",
+ exampleSrc:"A: The weight of the snow bent the tree branches.\nB: It seemed like they were going to fall.",
  funFact:"From Latin curvare. 'Curva' (curve) is also used for road bends: 'curva peligrosa' (dangerous bend)."},
 
 {type:"fb",s:"La campaña logró {1} la atención de los votantes jóvenes.",a:["captar"],opts:["captar","aplazar","agravar","arropar"],hint:"The verb meaning to attract or capture someone's attention or interest.",sSrc:"The campaign managed to {1} the attention of young voters."},

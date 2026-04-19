@@ -4,8 +4,8 @@ const LESSON_16 = {id:"esv2_b2g5_l16",title:"Movimiento y deporte",icon:"⚽",xp
 
 {type:"teach",trg:"flexionar",src:"to flex / to bend",pos:"verb",gender:null,
  note:"Regular -ar verb. To bend a joint or muscle.\nRelated noun: la flexión.",
- example:"A: Flexiona las rodillas antes de saltar.\nB: Así evitarás lesionarte.",
- exampleSrc:"A: Flex your knees before jumping.\nB: That way you'll avoid injuring yourself.",
+ example:"A: Flexiona las rodillas antes de saltar.\nB: Es muy importante para el cuerpo.",
+ exampleSrc:"A: Flex your knees before jumping.\nB: It is very important for the body.",
  funFact:"From Latin flexare. 'Flexiones' (push-ups) are named after the bending movement of the arms."},
 
 {type:"teach",trg:"el goleador",src:"the goal scorer",pos:"noun",gender:"m",
@@ -42,8 +42,8 @@ const LESSON_16 = {id:"esv2_b2g5_l16",title:"Movimiento y deporte",icon:"⚽",xp
 
 {type:"teach",trg:"el escaque",src:"the square (on a chessboard)",pos:"noun",gender:"m",
  note:"Masculine noun. One of the 64 squares on a chessboard.\nFrom Arabic.",
- example:"A: El alfil se mueve en diagonal por los escaques.\nB: Solo puede pisar los de su color.",
- exampleSrc:"A: The bishop moves diagonally across the squares.\nB: It can only land on those of its color.",
+ example:"A: La pieza se mueve en diagonal por los escaques.\nB: Solo puede pisar los de su color.",
+ exampleSrc:"A: The piece moves diagonally across the squares.\nB: It can only land on those of its color.",
  funFact:"From Arabic ash-shaq (the half). A chessboard has 32 dark and 32 light escaques."},
 
 {type:"teach",trg:"fruncir",src:"to frown / to gather (fabric)",pos:"verb",gender:null,

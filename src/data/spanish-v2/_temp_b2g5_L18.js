@@ -28,8 +28,8 @@ const LESSON_18 = {id:"esv2_b2g5_l18",title:"Objetos y herramientas",icon:"🔧"
 
 {type:"teach",trg:"el arcabuz",src:"the arquebus (old firearm)",pos:"noun",gender:"m",
  note:"Masculine noun. A type of early firearm from the 15th-16th century.\nHistorical weapon.",
- example:"A: Los soldados españoles usaban el arcabuz en las batallas.\nB: Era un arma revolucionaria en su época.",
- exampleSrc:"A: Spanish soldiers used the arquebus in battles.\nB: It was a revolutionary weapon in its time.",
+ example:"A: Los soldados españoles usaban el arcabuz en las batallas.\nB: Era un arma muy importante en su época.",
+ exampleSrc:"A: Spanish soldiers used the arquebus in battles.\nB: It was a very important weapon in its time.",
  funFact:"The Spanish tercios (infantry units) mastered the arcabuz, dominating European battlefields for over a century."},
 
 {type:"mc",q:"¿Para qué sirve una grapadora?",opts:["Para unir papeles con grapas","Para cortar cartón","Para pegar sobres","Para perforar agujeros"],ans:"Para unir papeles con grapas",hint:"An office tool that joins sheets of paper together using small metal clips."},
@@ -62,8 +62,8 @@ const LESSON_18 = {id:"esv2_b2g5_l18",title:"Objetos y herramientas",icon:"🔧"
 
 {type:"teach",trg:"forrar",src:"to line / to cover / to wrap",pos:"verb",gender:null,
  note:"Regular -ar verb. To cover the inside or outside of something.\nColloquial: forrarse (to get rich).",
- example:"A: Hay que forrar los libros del colegio con plástico.\nB: Así duran todo el curso.",
- exampleSrc:"A: We need to cover the school books with plastic.\nB: That way they last the whole year.",
+ example:"A: Hay que forrar los libros del colegio con plástico.\nB: Es muy bueno para el libro.",
+ exampleSrc:"A: We need to cover the school books with plastic.\nB: It is very good for the book.",
  funFact:"'Forrarse' colloquially means to make a fortune: 'se forró con el negocio' (he made a fortune)."},
 
 {type:"teach",trg:"fletar",src:"to charter / to hire (transport)",pos:"verb",gender:null,

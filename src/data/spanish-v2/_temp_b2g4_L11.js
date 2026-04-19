@@ -54,8 +54,8 @@ const LESSON_11 = {id:"esv2_b2g4_l11",title:"El mundo laboral",icon:"💼",xp:15
 
 {type:"teach",trg:"la consistencia",src:"the consistency",pos:"noun",gender:"f",
  note:"Feminine noun. Firmness or steadiness of quality.\nAlso physical: la consistencia de la masa.",
- example:"A: La consistencia en la calidad del producto es clave.\nB: Los clientes notan cualquier variación.",
- exampleSrc:"A: Consistency in product quality is key.\nB: Customers notice any variation.",
+ example:"A: La consistencia en la calidad del producto es clave.\nB: Los clientes ven cualquier problema muy rápido.",
+ exampleSrc:"A: Consistency in product quality is key.\nB: Customers see any problem very quickly.",
  funFact:"Unlike English, 'consistencia' in Spanish also commonly refers to the physical texture of food."},
 
 {type:"fb",s:"La empresa necesita un {1} para organizar el evento.",a:["coordinador"],opts:["coordinador","concursante","conductor","asociado"],hint:"A person whose role is to arrange and manage activities.",sSrc:"The company needs a {1} to organize the event."},

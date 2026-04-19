@@ -50,8 +50,8 @@ const LESSON_12 = {id:"esv2_b2g6_l12",title:"Economía y finanzas",icon:"📊",x
 
 {type:"teach",trg:"la gradualidad",src:"gradualness / gradual nature",pos:"noun",gender:"f",
  note:"Feminine noun. The quality of happening step by step.\nFrom gradual + -idad.",
- example:"A: La gradualidad de las reformas evitó el caos.\nB: Los cambios bruscos generan rechazo.",
- exampleSrc:"A: The gradual nature of the reforms avoided chaos.\nB: Sudden changes generate rejection.",
+ example:"A: La gradualidad de las reformas evitó muchos problemas.\nB: Los cambios muy rápidos son siempre difíciles.",
+ exampleSrc:"A: The gradual nature of the reforms avoided many problems.\nB: Very rapid changes are always difficult.",
  funFact:"From Latin gradus (step). Gradual changes proceed 'step by step'."},
 
 {type:"teach",trg:"la irrupción",src:"the irruption / sudden appearance",pos:"noun",gender:"f",

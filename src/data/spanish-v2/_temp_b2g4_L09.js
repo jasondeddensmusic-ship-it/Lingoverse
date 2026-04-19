@@ -76,8 +76,8 @@ const LESSON_9 = {id:"esv2_b2g4_l9",title:"Política y sociedad",icon:"🏛️",
 
 {type:"teach",trg:"la confusión",src:"the confusion",pos:"noun",gender:"f",
  note:"Feminine noun. A state of disorder or bewilderment.\nVerb: confundir.",
- example:"A: La confusión reinaba en la sala.\nB: Nadie sabía qué decisión tomar.",
- exampleSrc:"A: Confusion reigned in the room.\nB: Nobody knew what decision to make.",
+ example:"A: Había mucha confusión en la sala.\nB: Nadie sabía qué decisión tomar.",
+ exampleSrc:"A: There was a lot of confusion in the room.\nB: Nobody knew what decision to make.",
  funFact:"From Latin confusionem. 'Sembrar confusión' means to deliberately cause chaos."},
 
 {type:"fb",s:"Se me ha {1} la cartera en el metro.",a:["extraviado"],opts:["extraviado","empate","asignado","detonado"],hint:"To have lost or mislaid something, a formal way to say you cannot find it.",sSrc:"I have {1} my wallet on the metro."},

@@ -79,8 +79,8 @@ const LESSON_15 = {id:"esv2_b2g8_l15",title:"Literatura y lengua",icon:"📚",xp
 
 {type:"teach",trg:"el lector",src:"the reader",pos:"noun",gender:"m",
  note:"Masculine noun. A person who reads. Also: a university teaching assistant.\nFeminine: la lectora.",
- example:"A: Esta novela ha conquistado a millones de lectores.\nB: No me extraña, es absolutamente adictiva.",
- exampleSrc:"A: This novel has captivated millions of readers.\nB: I am not surprised, it is absolutely addictive.",
+ example:"A: Esta novela tiene millones de lectores en el mundo.\nB: Es muy buena. Me gusta mucho.",
+ exampleSrc:"A: This novel has millions of readers in the world.\nB: It is very good. I like it a lot.",
  funFact:"In Spanish universities, a 'lector/a' is a native-speaker language assistant, different from a professor."},
 
 {type:"teach",trg:"la literatura popular",src:"the folk literature",pos:"noun",gender:"f",

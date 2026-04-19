@@ -80,8 +80,8 @@ const LESSON_12 = {id:"esv2_b2g5_l12",title:"Comunicación y medios",icon:"📡"
 
 {type:"teach",trg:"idear",src:"to devise / to come up with",pos:"verb",gender:null,
  note:"Regular -ar verb. To think up or create a plan.\nFrom idea.",
- example:"A: ¿Quién ideó esta campaña publicitaria?\nB: El equipo creativo de la agencia.",
- exampleSrc:"A: Who devised this advertising campaign?\nB: The agency's creative team.",
+ example:"A: ¿Quién ideó este plan de trabajo?\nB: El equipo creativo de la agencia.",
+ exampleSrc:"A: Who devised this work plan?\nB: The agency's creative team.",
  funFact:"From Latin idea. 'Idear' implies more creativity than 'planificar' (to plan)."},
 
 {type:"mc",q:"¿Qué es un galicismo?",opts:["Una palabra tomada del francés","Un dialecto de Galicia","Un gráfico de datos","Un tipo de medio digital"],ans:"Una palabra tomada del francés",hint:"A linguistic term for a word borrowed from a specific Romance language spoken in France."},

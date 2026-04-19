@@ -36,8 +36,8 @@ const LESSON_18 = {id:"esv2_b2gC_l18",title:"Arquitectura y patrimonio",icon:"�
 
 {type:"teach",trg:"el fierro",src:"the iron (Latin American) / branding iron",pos:"noun",gender:"m",
  note:"Masculine noun. Iron metal, used in Latin America.\nIn Spain: hierro.",
- example:"A: Los rancheros marcaban el ganado con un fierro al rojo.\nB: Cada familia tenía su marca registrada.",
- exampleSrc:"A: Ranchers branded cattle with a red-hot iron.\nB: Each family had their registered brand.",
+ example:"A: Los rancheros marcaban el ganado con un fierro al rojo.\nB: Cada familia tenía su propia marca.",
+ exampleSrc:"A: Ranchers branded cattle with a red-hot iron.\nB: Each family had their own brand.",
  funFact:"'Fierro' preserves the older Spanish pronunciation. 'Hierro' evolved through aspiration of the initial F."},
 
 {type:"teach",trg:"la línea",src:"the line / route / figure",pos:"noun",gender:"f",

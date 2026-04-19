@@ -68,8 +68,8 @@ const LESSON_5 = {id:"esv2_b2gap_l5",title:"Salud y cuerpo",icon:"🩺",xp:15,bo
 
 {type:"teach",trg:"broncear",src:"to tan / to bronze",pos:"verb",gender:null,
  note:"Regular -ar verb. To get a suntan.\nReflexive: broncearse.",
- example:"A: Me bronceo muy rápido en verano.\nB: Ten cuidado con las quemaduras solares.",
- exampleSrc:"A: I tan very quickly in summer.\nB: Be careful with sunburns.",
+ example:"A: Me bronceo muy rápido en verano.\nB: Ten cuidado con el sol. Puede ser muy malo para la piel.",
+ exampleSrc:"A: I tan very quickly in summer.\nB: Be careful with the sun. It can be very bad for the skin.",
  funFact:"From bronce (bronze). Getting a tan literally means becoming bronze-colored."},
 
 {type:"teach",trg:"el bañista",src:"the swimmer / bather",pos:"noun",gender:"m",

@@ -68,8 +68,8 @@ const LESSON_15 = {id:"esv2_b2g4_l15",title:"Derecho y gobernanza",icon:"⚖️"
 
 {type:"teach",trg:"la aspiración",src:"the aspiration / ambition",pos:"noun",gender:"f",
  note:"Feminine noun. A strong desire to achieve something.\nPlural: aspiraciones. Also phonetics term.",
- example:"A: Su mayor aspiración es llegar a ser jueza del Tribunal Supremo.\nB: Lleva años preparándose para ello.",
- exampleSrc:"A: Her greatest aspiration is to become a Supreme Court judge.\nB: She has been preparing for it for years.",
+ example:"A: Su mayor aspiración es llegar a ser médica.\nB: Lleva años preparándose para ello.",
+ exampleSrc:"A: Her greatest aspiration is to become a doctor.\nB: She has been preparing for it for years.",
  funFact:"In Andalusian Spanish, 'aspiración' also refers to the pronunciation of 's' as an 'h' sound."},
 
 {type:"teach",trg:"el ciego",src:"the blind person",pos:"noun",gender:"m",
@@ -80,8 +80,8 @@ const LESSON_15 = {id:"esv2_b2g4_l15",title:"Derecho y gobernanza",icon:"⚖️"
 
 {type:"teach",trg:"el aspirante",src:"the applicant / candidate",pos:"noun",gender:"m",
  note:"Masculine/feminine noun. A person who seeks a position.\nFrom aspirar (to aspire).",
- example:"A: Hay cincuenta aspirantes para una sola plaza de profesor.\nB: La competencia es durísima.",
- exampleSrc:"A: There are fifty applicants for a single teaching position.\nB: The competition is extremely tough.",
+ example:"A: Hay cincuenta aspirantes para una sola plaza de profesor.\nB: La competencia es muy alta.",
+ exampleSrc:"A: There are fifty applicants for a single teaching position.\nB: The competition is very high.",
  funFact:"In Spain, 'oposiciones' (competitive exams for public jobs) attract thousands of aspirantes each year."},
 
 {type:"mc",q:"Un ERE afecta principalmente a:",opts:["Trabajadores despedidos de forma colectiva","Estudiantes universitarios","Jubilados que cobran pensión","Políticos en campaña electoral"],ans:"Trabajadores despedidos de forma colectiva",hint:"Think about a legal procedure companies use when they need to lay off many employees at once."},

@@ -100,8 +100,8 @@ const LESSON_12 = {id:"esv2_b2g2_l12",title:"Trabajo y profesiones",icon:"👷",
 
 {type:"teach",trg:"el bañista",src:"the bather / swimmer",pos:"noun",gender:"m",
  note:"Common gender: el/la bañista.\nA person who bathes at a beach or pool.",
- example:"A: Los bañistas llenaron la playa desde primera hora.\nB: Con este calor, no me extraña.",
- exampleSrc:"A: The bathers filled the beach from early morning.\nB: With this heat, I am not surprised.",
+ example:"A: Los bañistas llenaron la playa desde primera hora.\nB: Con este calor, es muy normal.",
+ exampleSrc:"A: The bathers filled the beach from early morning.\nB: With this heat, it is very normal.",
  funFact:"Spanish news loves 'bañista' in summer headlines: 'Rescatan a un bañista en la costa'."},
 
 {type:"teach",trg:"el adulto",src:"the adult",pos:"noun",gender:"m",

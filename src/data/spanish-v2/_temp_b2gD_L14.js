@@ -16,8 +16,8 @@ const LESSON_14 = {id:"esv2_b2gD_l14",title:"Emociones y psicología",icon:"\uD8
 
 {type:"teach",trg:"la impureza",src:"the impurity",pos:"noun",gender:"f",
  note:"Feminine noun. The state of being impure or contaminated.\nFrom im- (not) + pureza (purity).",
- example:"A: El filtro elimina las impurezas del agua.\nB: Por eso el agua filtrada tiene mejor sabor.",
- exampleSrc:"A: The filter removes impurities from the water.\nB: That's why filtered water tastes better.",
+ example:"A: El filtro elimina las impurezas del agua.\nB: Por eso el agua muy limpia tiene mejor sabor.",
+ exampleSrc:"A: The filter removes impurities from the water.\nB: That is why very clean water tastes better.",
  funFact:"In medieval Spain, 'limpieza de sangre' (blood purity) certificates were required to prove lack of Jewish or Moorish ancestry."},
 
 {type:"teach",trg:"el infierno",src:"the hell / inferno",pos:"noun",gender:"m",

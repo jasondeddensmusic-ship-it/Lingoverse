@@ -10,8 +10,8 @@ const LESSON_1 = {id:"esv2_b2g4_l1",title:"Cuerpo y salud avanzada",icon:"🏥",
 
 {type:"teach",trg:"el esguince",src:"the sprain",pos:"noun",gender:"m",
  note:"Masculine noun. An injury to a ligament.\nCommon: esguince de tobillo (ankle sprain).",
- example:"A: Me torcí el tobillo jugando al fútbol.\nB: Parece un esguince. Necesitas hielo y reposo.",
- exampleSrc:"A: I twisted my ankle playing football.\nB: It looks like a sprain. You need ice and rest.",
+ example:"A: Me hice daño en el tobillo jugando al fútbol.\nB: Parece un esguince. Necesitas hielo y reposo.",
+ exampleSrc:"A: I hurt my ankle playing football.\nB: It looks like a sprain. You need ice and rest.",
  funFact:"From Old French esguincer (to swerve). One of the most common sports injuries in Spain."},
 
 {type:"teach",trg:"el estiramiento",src:"the stretching",pos:"noun",gender:"m",

@@ -41,8 +41,8 @@ const LESSON_16 = {id:"esv2_b2g9_l16", title:"Estilo y apariencia", icon:"\u{1F4
 
   {type:"teach", trg:"lacio", src:"straight; limp (hair)", pos:"adj", gender:null,
    note:"From Latin flaccidus (limp/slack).\nDescribes straight, smooth hair without curls.",
-   example:"A: Tengo el pelo lacio y fino.\nB: \u00bfNo te gustar\u00eda tenerlo rizado?\nA: A veces. Pero el pelo lacio es m\u00e1s f\u00e1cil de peinar.\nB: Eso es verdad.",
-   exampleSrc:"A: I have straight, fine hair.\nB: Would you not like to have it curly?\nA: Sometimes. But straight hair is easier to comb.\nB: That is true.",
+   example:"A: Tengo el pelo lacio y fino.\nB: \u00bfNo te gustar\u00eda tenerlo diferente?\nA: A veces. Pero el pelo lacio es m\u00e1s f\u00e1cil de peinar.\nB: Eso es verdad.",
+   exampleSrc:"A: I have straight, fine hair.\nB: Would you not like to have it different?\nA: Sometimes. But straight hair is easier to comb.\nB: That is true.",
    funFact:"In Latin America, 'lacio' is the standard word for straight hair. In Spain, 'liso' is more common."},
 
   {type:"teach", trg:"model\u00edco", src:"exemplary; model (adj.)", pos:"adj", gender:null,
@@ -64,8 +64,8 @@ const LESSON_16 = {id:"esv2_b2g9_l16", title:"Estilo y apariencia", icon:"\u{1F4
 
   {type:"teach", trg:"la materialidad", src:"materiality; material quality", pos:"noun", gender:"f",
    note:"From material + -idad.\nThe physical quality or tangibility of something.",
-   example:"A: La materialidad de este edificio es impresionante.\nB: \u00bfQu\u00e9 materiales usaron?\nA: Piedra natural y madera de roble.\nB: Se nota la calidad de los materiales.",
-   exampleSrc:"A: The materiality of this building is impressive.\nB: What materials did they use?\nA: Natural stone and oak wood.\nB: You can feel the quality of the materials.",
+   example:"A: La materialidad de este edificio es impresionante.\nB: Los materiales son muy buenos.\nA: Piedra natural y madera de roble.\nB: Se nota la calidad de los materiales.",
+   exampleSrc:"A: The materiality of this building is impressive.\nB: The materials are very good.\nA: Natural stone and oak wood.\nB: You can feel the quality of the materials.",
    funFact:"In architecture, 'materialidad' refers to how materials are chosen and used to create sensory experiences in a building."},
 
   {type:"mc", q:"\u00bfQu\u00e9 describe la palabra 'lacio' referida al pelo?",

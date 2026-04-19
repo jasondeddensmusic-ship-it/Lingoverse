@@ -10,8 +10,8 @@ const LESSON_15 = {id:"esv2_b2g2_l15",title:"Influir y comunicar",icon:"🗣️"
 
 {type:"teach",trg:"cotejar",src:"to compare / to cross-check",pos:"verb",gender:null,
  note:"Regular -ar verb. To compare two things carefully to check for matches.",
- example:"A: Hay que cotejar las firmas con el documento original.\nB: Si no coinciden, podría ser una falsificación.",
- exampleSrc:"A: We need to cross-check the signatures against the original document.\nB: If they do not match, it could be a forgery.",
+ example:"A: Hay que cotejar las firmas con el documento original.\nB: Si no coinciden, podría ser un problema muy serio.",
+ exampleSrc:"A: We need to cross-check the signatures against the original document.\nB: If they do not match, it could be a very serious problem.",
  funFact:"Common in legal and archival work. 'Cotejo de documentos' is a standard bureaucratic procedure."},
 
 {type:"teach",trg:"achacar",src:"to attribute / to blame on",pos:"verb",gender:null,

@@ -14,8 +14,8 @@ const LESSON_7 = {
 
     {type:"teach", trg:"el androide", src:"the android", pos:"noun", gender:"m",
      note:"Masculine noun. A human-like robot.\nAlso the mobile operating system.",
-     example:"A: \u00bfTu m\u00f3vil es androide o iPhone?\nB: Tengo un androide, me gusta m\u00e1s.",
-     exampleSrc:"A: Is your phone Android or iPhone?\nB: I have an Android, I like it better.",
+     example:"A: \u00bfTu m\u00f3vil es androide?\nB: S\u00ed, tengo un androide, me gusta m\u00e1s.",
+     exampleSrc:"A: Is your phone Android?\nB: Yes, I have an Android, I like it better.",
      funFact:"From Greek 'andro-' (man) + '-eides' (form). Science fiction popularized the word, but it was coined in the 1700s for automata."},
 
     {type:"teach", trg:"el audio", src:"the audio", pos:"noun", gender:"m",

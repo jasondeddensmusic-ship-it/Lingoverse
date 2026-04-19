@@ -85,8 +85,8 @@ const LESSON_6 = {id:"esv2_b2g8_l6",title:"Industria y fabricación",icon:"🏭"
 
 {type:"teach",trg:"el manuscrito",src:"the manuscript",pos:"noun",gender:"m",
  note:"Masculine noun. A handwritten or typed document, especially unpublished.\nManu (hand) + scrito (written).",
- example:"A: Encontraron un manuscrito medieval en la biblioteca.\nB: ¿De qué época? Debe ser valiosísimo.",
- exampleSrc:"A: They found a medieval manuscript in the library.\nB: From what period? It must be extremely valuable.",
+ example:"A: Encontraron un manuscrito medieval en la biblioteca.\nB: ¿De qué época? Debe ser muy importante.",
+ exampleSrc:"A: They found a medieval manuscript in the library.\nB: From what period? It must be very important.",
  funFact:"Spain's Royal Library holds over 3,000 medieval manuscripts, including Arabic texts from Al-Andalus."},
 
 {type:"fb",s:"La {1} de las obras está prevista para el próximo mes de junio.",

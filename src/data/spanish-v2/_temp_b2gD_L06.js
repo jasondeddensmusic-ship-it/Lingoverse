@@ -4,8 +4,8 @@ const LESSON_6 = {id:"esv2_b2gD_l6",title:"Objetos y materiales",icon:"\uD83D\uD
 
 {type:"teach",trg:"el pegamento",src:"the glue / adhesive",pos:"noun",gender:"m",
  note:"Masculine noun. A substance that sticks things together.\nFrom pegar (to stick/glue).",
- example:"A: Necesito pegamento para arreglar este jarrón roto.\nB: Usa uno de secado rápido, es más resistente.",
- exampleSrc:"A: I need glue to fix this broken vase.\nB: Use a fast-drying one, it's stronger.",
+ example:"A: Necesito pegamento para arreglar este jarrón roto.\nB: Usa uno muy bueno, es más resistente.",
+ exampleSrc:"A: I need glue to fix this broken vase.\nB: Use a very good one, it is more resistant.",
  funFact:"The verb 'pegar' also means 'to hit'. Context is key: 'pegar un sello' (stick a stamp) vs. 'pegar a alguien' (hit someone)."},
 
 {type:"teach",trg:"el pedal",src:"the pedal",pos:"noun",gender:"m",

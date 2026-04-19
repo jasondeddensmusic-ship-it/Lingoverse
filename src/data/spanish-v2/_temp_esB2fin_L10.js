@@ -61,8 +61,8 @@ const LESSON_10 = {
 
     {type:"teach", trg:"el apego", src:"attachment", pos:"noun", gender:"m",
      note:"The emotional bond between people, especially between child and caregiver.",
-     example:"A: La teoría del apego explica cómo formamos vínculos.\nB: Un apego seguro en la infancia favorece la autoestima.",
-     exampleSrc:"A: Attachment theory explains how we form bonds.\nB: Secure attachment in childhood promotes self-esteem.",
+     example:"A: La teoría del apego explica cómo creamos vínculos.\nB: Un apego seguro en la infancia favorece la autoestima.",
+     exampleSrc:"A: Attachment theory explains how we create bonds.\nB: Secure attachment in childhood promotes self-esteem.",
      funFact:"From 'apegar' (to attach), Latin 'applicare'. John Bowlby developed attachment theory in the 1960s."},
 
     {type:"teach", trg:"el trastorno", src:"the disorder", pos:"noun", gender:"m",
@@ -136,8 +136,8 @@ const LESSON_10 = {
     ]},
 
     {type:"mc", q:"¿Qué estudia la 'teoría del apego'?",
-     opts:["Las técnicas de relajación","Cómo formamos vínculos emocionales","Los tipos de estrés","Las fases del duelo"],
-     ans:"Cómo formamos vínculos emocionales",
+     opts:["Las técnicas de relajación","Cómo creamos vínculos emocionales","Los tipos de estrés","Las fases del duelo"],
+     ans:"Cómo creamos vínculos emocionales",
      hint:"This theory, developed by Bowlby, examines the emotional bonds we form, especially in childhood."},
 
     {type:"fb", s:"Logró {1} su miedo a volar después de meses de terapia.", a:["superar"],

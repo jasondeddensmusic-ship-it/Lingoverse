@@ -50,8 +50,8 @@ const LESSON_9 = {id:"esv2_b2gC_l9",title:"Geografía e identidad cultural",icon
 
 {type:"teach",trg:"la montañista",src:"the mountaineer (female)",pos:"noun",gender:"f",
  note:"Feminine noun. A person who climbs mountains.\nMale form: el montañista.",
- example:"A: La montañista coronó el Everest sin oxígeno.\nB: Es la primera española en conseguirlo.",
- exampleSrc:"A: The mountaineer summited Everest without oxygen.\nB: She's the first Spanish woman to achieve it.",
+ example:"A: La montañista llegó a la cima del Everest sin oxígeno.\nB: Es la primera española en conseguirlo.",
+ exampleSrc:"A: The mountaineer reached the top of Everest without oxygen.\nB: She's the first Spanish woman to achieve it.",
  funFact:"Spain has a strong mountaineering tradition. The Pyrenees and Sierra Nevada are popular training grounds."},
 
 {type:"teach",trg:"la peineta",src:"the ornamental comb",pos:"noun",gender:"f",

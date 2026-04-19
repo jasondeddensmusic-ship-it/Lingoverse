@@ -50,14 +50,14 @@ const LESSON_15 = {id:"esv2_b2g6_l15",title:"Industria y fabricación",icon:"�
 
 {type:"teach",trg:"el joyero",src:"the jeweler / jewelry box",pos:"noun",gender:"m",
  note:"Masculine noun. A person who makes jewelry,\nor a box for keeping jewelry.",
- example:"A: El joyero reparó el anillo de mi abuela.\nB: Hizo un trabajo precioso.",
- exampleSrc:"A: The jeweler repaired my grandmother's ring.\nB: He did a beautiful job.",
+ example:"A: El joyero arregló el anillo de mi abuela.\nB: Hizo un trabajo muy bueno.",
+ exampleSrc:"A: The jeweler fixed my grandmother's ring.\nB: He did a very good job.",
  funFact:"Same word for the person and the box. Context makes it clear: 'Fui al joyero' (jeweler) vs 'Guárdalo en el joyero' (box)."},
 
 {type:"teach",trg:"el escribiente",src:"the clerk / scribe",pos:"noun",gender:"m",
  note:"Masculine noun. A person who copies or writes\ndocuments. From escribir (to write).",
- example:"A: En el siglo diecinueve, los escribientes copiaban documentos a mano.\nB: Era un trabajo tedioso pero necesario.",
- exampleSrc:"A: In the nineteenth century, clerks copied documents by hand.\nB: It was a tedious but necessary job.",
+ example:"A: En el siglo diecinueve, los escribientes escribían documentos a mano.\nB: Era un trabajo muy importante.",
+ exampleSrc:"A: In the nineteenth century, clerks wrote documents by hand.\nB: It was a very important job.",
  funFact:"Melville's famous story 'Bartleby the Scrivener' is translated as 'Bartleby el escribiente' in Spanish."},
 
 {type:"teach",trg:"la jugada",src:"the play / move / trick",pos:"noun",gender:"f",

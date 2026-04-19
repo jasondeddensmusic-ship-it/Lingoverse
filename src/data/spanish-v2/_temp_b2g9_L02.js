@@ -6,7 +6,7 @@ const LESSON_2 = {id:"esv2_b2g9_l2", title:"La oficina moderna", icon:"\u{1F3E2}
 
   {type:"teach", trg:"el departamento de marketing", src:"the marketing department", pos:"noun", gender:"m",
    note:"Departamento (department) + de marketing.\nMarketing is used as a loanword in Spanish.",
-   example:"A: \u00bfEn qu\u00e9 departamento trabajas?\nB: En el departamento de marketing.\nA: \u00bfY qu\u00e9 haces exactamente?\nB: Dise\u00f1o campa\u00f1as publicitarias.",
+   example:"A: \u00bfEn qu\u00e9 departamento trabajas?\nB: En el departamento de marketing.\nA: \u00bfY qu\u00e9 haces exactamente?\nB: Trabajo con el equipo en muchos proyectos.",
    exampleSrc:"A: Which department do you work in?\nB: In the marketing department.\nA: And what do you do exactly?\nB: I design advertising campaigns.",
    funFact:"Though 'mercadotecnia' exists as a Spanish equivalent, 'marketing' is overwhelmingly preferred in Peninsular Spanish."},
 
@@ -64,7 +64,7 @@ const LESSON_2 = {id:"esv2_b2g9_l2", title:"La oficina moderna", icon:"\u{1F3E2}
 
   {type:"teach", trg:"la metodolog\u00eda", src:"the methodology", pos:"noun", gender:"f",
    note:"M\u00e9todo (method) + -log\u00eda (study of).\nUsed in academic and professional settings.",
-   example:"A: \u00bfQu\u00e9 metodolog\u00eda us\u00e1is en este proyecto?\nB: Usamos la metodolog\u00eda \u00e1gil.\nA: Interesante. \u00bfY funciona bien?\nB: S\u00ed, nos permite adaptarnos r\u00e1pidamente a los cambios.",
+   example:"A: \u00bfQu\u00e9 metodolog\u00eda usan en este proyecto?\nB: Usamos la metodolog\u00eda \u00e1gil.\nA: Interesante. \u00bfY funciona bien?\nB: S\u00ed, es muy buena para el equipo.",
    exampleSrc:"A: What methodology do you use in this project?\nB: We use agile methodology.\nA: Interesting. And does it work well?\nB: Yes, it allows us to adapt quickly to changes.",
    funFact:"Agile methodology, known as 'metodolog\u00eda \u00e1gil' in Spanish, has become the standard in Spanish tech companies."},
 

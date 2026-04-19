@@ -74,14 +74,14 @@ const LESSON_9 = {id:"esv2_b2gap_l9",title:"Política y gobierno",icon:"🏛️"
 
 {type:"teach",trg:"conformar",src:"to form / to make up",pos:"verb",gender:null,
  note:"Regular -ar verb. To constitute or compose.\nReflexive: conformarse (to settle for).",
- example:"A: Veinte países conforman la organización.\nB: Y esperan que se unan más pronto.",
- exampleSrc:"A: Twenty countries make up the organization.\nB: And they expect more to join soon.",
+ example:"A: Veinte países conforman la organización.\nB: Y esperan que haya más países pronto.",
+ exampleSrc:"A: Twenty countries make up the organization.\nB: And they expect more countries soon.",
  funFact:"Reflexive 'conformarse con' means to be content with, to settle for less."},
 
 {type:"teach",trg:"conforme",src:"in agreement / as",pos:"conj",gender:null,
  note:"Conjunction and adjective. As/according to, or satisfied.",
- example:"A: Conforme avanzaba el debate, la tensión crecía.\nB: Al final, no llegaron a un acuerdo.",
- exampleSrc:"A: As the debate progressed, tension grew.\nB: In the end, they did not reach an agreement.",
+ example:"A: Conforme avanzaba el debate, la tensión era mayor.\nB: Al final, no llegaron a un acuerdo.",
+ exampleSrc:"A: As the debate progressed, tension was greater.\nB: In the end, they did not reach an agreement.",
  funFact:"Very versatile: 'conforme a la ley' (according to the law), 'estoy conforme' (I agree)."},
 
 {type:"mc",q:"Un proceso con demasiado papeleo es:",opts:["autonómico","burocrático","aprobatorio","antidemocrático"],ans:"burocrático",hint:"Think about excessive red tape and administrative procedures."},

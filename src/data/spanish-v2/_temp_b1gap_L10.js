@@ -56,8 +56,8 @@ const LESSON_10 = {
 
     {type:"teach", trg:"la ausencia", src:"the absence", pos:"noun", gender:"f",
      note:"Feminine noun. Being away or not present.\nBrillar por su ausencia = conspicuous absence.",
-     example:"A: Su ausencia se not\u00f3 mucho.\nB: S\u00ed, todos preguntaron por \u00e9l.",
-     exampleSrc:"A: His absence was very noticeable.\nB: Yes, everyone asked about him.",
+     example:"A: Su ausencia fue muy clara.\nB: S\u00ed, todos preguntaron por \u00e9l.",
+     exampleSrc:"A: His absence was very clear.\nB: Yes, everyone asked about him.",
      funFact:"From Latin 'absentia'. The phrase 'brillar por su ausencia' (to shine by one's absence) comes from a speech by Tacitus about Roman politics."},
 
     {type:"teach", trg:"ascender", src:"to ascend, to be promoted", pos:"verb", gender:null,

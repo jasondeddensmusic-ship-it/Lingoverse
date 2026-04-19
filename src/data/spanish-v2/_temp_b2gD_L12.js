@@ -42,8 +42,8 @@ const LESSON_12 = {id:"esv2_b2gD_l12",title:"Comunicación y medios",icon:"\uD83
 
 {type:"teach",trg:"el palimpsesto",src:"the palimpsest",pos:"noun",gender:"m",
  note:"Masculine noun. A manuscript with layers of erased and rewritten text.\nAlso figurative: something with hidden layers.",
- example:"A: Los monjes medievales reutilizaban pergaminos creando palimpsestos.\nB: Con tecnología moderna se pueden leer los textos ocultos.",
- exampleSrc:"A: Medieval monks reused parchments creating palimpsests.\nB: With modern technology the hidden texts can be read.",
+ example:"A: Los monjes medievales escribían sobre pergaminos viejos creando palimpsestos.\nB: Con tecnología moderna se pueden leer los textos ocultos.",
+ exampleSrc:"A: Medieval monks wrote over old parchments creating palimpsests.\nB: With modern technology the hidden texts can be read.",
  funFact:"The most famous palimpsest is the Archimedes Palimpsest, containing erased Greek mathematical texts under medieval prayers."},
 
 {type:"fb",s:"El médico me dio varias {1} para llevar una vida más sana.",a:["pautas"],opts:["pautas","paradojas","fotonovelas","palimpsestos"],hint:"Guidelines or recommendations to follow. Rules that set a standard for behavior.",sSrc:"The doctor gave me several {1} for living a healthier life."},

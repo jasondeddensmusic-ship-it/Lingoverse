@@ -32,8 +32,8 @@ const LESSON_14 = {
 
     {type:"teach", trg:"la brujería", src:"the witchcraft", pos:"noun", gender:"f",
      note:"Feminine noun. The practice of magic or sorcery.\nBruja = witch. Brujo = wizard.",
-     example:"A: En la Edad Media cre\u00edan mucho en la brujer\u00eda.\nB: Y persegu\u00edan a supuestas brujas.",
-     exampleSrc:"A: In the Middle Ages they believed a lot in witchcraft.\nB: And they persecuted supposed witches.",
+     example:"A: En la Edad Media cre\u00edan mucho en la brujer\u00eda.\nB: Era una parte muy importante de la cultura.",
+     exampleSrc:"A: In the Middle Ages they believed a lot in witchcraft.\nB: It was a very important part of the culture.",
      funFact:"Origin uncertain, possibly pre-Roman Iberian. The town of Zugarramurdi in Navarra is famous for its witch trials in 1610."},
 
     {type:"teach", trg:"la barbarie", src:"the barbarity, savagery", pos:"noun", gender:"f",

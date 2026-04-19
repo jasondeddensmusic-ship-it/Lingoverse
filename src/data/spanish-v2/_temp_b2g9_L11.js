@@ -41,8 +41,8 @@ const LESSON_11 = {id:"esv2_b2g9_l11", title:"El mundo f\u00edsico", icon:"\u{1F
 
   {type:"teach", trg:"el estiramiento", src:"the stretching", pos:"noun", gender:"m",
    note:"From estirar (to stretch) + -miento.\nUsed for physical exercise and also figuratively.",
-   example:"A: Antes de correr, haz estiramientos.\nB: \u00bfCu\u00e1ntos minutos?\nA: Al menos diez minutos de estiramiento.\nB: As\u00ed evitar\u00e1s lesiones.",
-   exampleSrc:"A: Before running, do stretches.\nB: How many minutes?\nA: At least ten minutes of stretching.\nB: That way you will avoid injuries.",
+   example:"A: Antes de correr, haz estiramientos.\nB: \u00bfCu\u00e1ntos minutos?\nA: Al menos diez minutos de estiramiento.\nB: Es muy bueno para el cuerpo.",
+   exampleSrc:"A: Before running, do stretches.\nB: How many minutes?\nA: At least ten minutes of stretching.\nB: It is very good for the body.",
    funFact:"The -miento suffix creates nouns from verbs describing the process or result: estirar > estiramiento, conocer > conocimiento."},
 
   {type:"teach", trg:"el manto", src:"the mantle; the cloak", pos:"noun", gender:"m",
@@ -53,8 +53,8 @@ const LESSON_11 = {id:"esv2_b2g9_l11", title:"El mundo f\u00edsico", icon:"\u{1F
 
   {type:"teach", trg:"el margen", src:"the margin; the bank (of a river)", pos:"noun", gender:"m",
    note:"From Latin margo (edge/border).\nGender note: 'el margen' (edge/margin), 'la margen' (riverbank).",
-   example:"A: Hay un pueblo en la margen del r\u00edo.\nB: \u00bfEn cu\u00e1l de las dos m\u00e1rgenes?\nA: En la margen derecha.\nB: Es una zona muy f\u00e9rtil por las crecidas del r\u00edo.",
-   exampleSrc:"A: There is a village on the bank of the river.\nB: On which of the two banks?\nA: On the right bank.\nB: It is a very fertile area because of the river floods.",
+   example:"A: Hay un pueblo en la margen del r\u00edo.\nB: \u00bfEn cu\u00e1l de las dos m\u00e1rgenes?\nA: En la margen derecha.\nB: Es una zona muy f\u00e9rtil y muy bonita.",
+   exampleSrc:"A: There is a village on the bank of the river.\nB: On which of the two banks?\nA: On the right bank.\nB: It is a very fertile and very beautiful area.",
    funFact:"'Margen' changes meaning with gender: 'el margen' means margin or leeway, while 'la margen' means riverbank."},
 
   {type:"fb", s:"La previsi\u00f3n {1} anuncia lluvias para ma\u00f1ana.", a:["meteorol\u00f3gica"],

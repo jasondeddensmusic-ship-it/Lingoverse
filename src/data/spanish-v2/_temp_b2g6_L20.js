@@ -4,8 +4,8 @@ const LESSON_20 = {id:"esv2_b2g6_l20",title:"Palabras con prefijo",icon:"🔤",x
 
 {type:"teach",trg:"imborrable",src:"indelible / unforgettable",pos:"adj",gender:null,
  note:"Adjective. Impossible to erase or forget.\nIm- (not) + borrable (erasable).",
- example:"A: El viaje dejó recuerdos imborrables.\nB: Lo recordaré siempre.",
- exampleSrc:"A: The trip left indelible memories.\nB: I will remember it always.",
+ example:"A: El viaje dejó recuerdos imborrables.\nB: Fue lo mejor de mi vida.",
+ exampleSrc:"A: The trip left indelible memories.\nB: It was the best of my life.",
  funFact:"From borrar (to erase). Something imborrable cannot be erased from memory or paper."},
 
 {type:"teach",trg:"invencible",src:"invincible",pos:"adj",gender:null,

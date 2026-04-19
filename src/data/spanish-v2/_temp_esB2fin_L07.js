@@ -113,8 +113,8 @@ const LESSON_7 = {
 
     {type:"teach", trg:"el plagio", src:"plagiarism", pos:"noun", gender:"m",
      note:"Copying someone else's work and presenting it as your own.",
-     example:"A: El profesor detectó un caso de plagio en el trabajo.\nB: El plagio puede ser motivo de expulsión.",
-     exampleSrc:"A: The professor detected a case of plagiarism in the paper.\nB: Plagiarism can be grounds for expulsion.",
+     example:"A: El profesor detectó un caso de plagio en el trabajo.\nB: El plagio puede ser muy malo para el estudiante.",
+     exampleSrc:"A: The professor detected a case of plagiarism in the paper.\nB: Plagiarism can be very bad for the student.",
      funFact:"From Latin 'plagium' (kidnapping). Plagiarism 'kidnaps' another person's ideas and claims them as yours."},
 
     {type:"fb", s:"Me concedieron una {1} completa para estudiar en Madrid.", a:["beca"],

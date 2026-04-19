@@ -41,8 +41,8 @@ const LESSON_9 = {id:"esv2_b2g9_l9", title:"Arte y literatura", icon:"\u{1F3A8}"
 
   {type:"teach", trg:"la literatura popular", src:"popular literature; folk literature", pos:"noun", gender:"f",
    note:"Literatura (literature) + popular (of the people).\nTraditional stories, ballads, and oral traditions.",
-   example:"A: La literatura popular espa\u00f1ola es riqu\u00edsima.\nB: Los romances son un buen ejemplo.\nA: Tambi\u00e9n los cuentos populares como los de \u00c1lvarez Quintero.\nB: Es una tradici\u00f3n que hay que preservar.",
-   exampleSrc:"A: Spanish popular literature is extremely rich.\nB: The ballads are a good example.\nA: Also folk tales like those of Alvarez Quintero.\nB: It is a tradition that must be preserved.",
+   example:"A: La literatura popular espa\u00f1ola es riqu\u00edsima.\nB: Los romances son un buen ejemplo.\nA: Tambi\u00e9n los cuentos populares. Es una tradici\u00f3n muy importante.\nB: Hay que preservarla para el futuro.",
+   exampleSrc:"A: Spanish popular literature is extremely rich.\nB: The ballads are a good example.\nA: Also folk tales. It is a very important tradition.\nB: We must preserve it for the future.",
    funFact:"The 'Romancero' is Spain's great collection of popular ballads, passed down orally since the Middle Ages."},
 
   {type:"teach", trg:"el listado", src:"the list; listing", pos:"noun", gender:"m",
@@ -64,8 +64,8 @@ const LESSON_9 = {id:"esv2_b2g9_l9", title:"Arte y literatura", icon:"\u{1F3A8}"
 
   {type:"teach", trg:"el mapamundi", src:"the world map", pos:"noun", gender:"m",
    note:"From Latin mappa mundi (cloth of the world).\nA map showing the entire world.",
-   example:"A: En la oficina tenemos un mapamundi enorme.\nB: \u00bfSe\u00f1al\u00e1is los pa\u00edses donde trabaj\u00e1is?\nA: S\u00ed, con chinchetas de colores.\nB: Es una forma visual de ver vuestro alcance global.",
-   exampleSrc:"A: In the office we have a huge world map.\nB: Do you mark the countries where you work?\nA: Yes, with coloured pins.\nB: It is a visual way of seeing your global reach.",
+   example:"A: En la oficina tenemos un mapamundi enorme.\nB: \u00bfSe\u00f1al\u00e1is los pa\u00edses donde trabaj\u00e1is?\nA: S\u00ed, con marcas de colores.\nB: Es una forma muy visual de ver el trabajo del equipo.",
+   exampleSrc:"A: In the office we have a huge world map.\nB: Do you mark the countries where you work?\nA: Yes, with colored marks.\nB: It is a very visual way to see the team's work.",
    funFact:"The oldest surviving European mapamundi is the Hereford Mappa Mundi from around 1300, showing Jerusalem at its centre."},
 
   {type:"mc", q:"\u00bfQu\u00e9 porcentaje del l\u00e9xico espa\u00f1ol viene del \u00e1rabe?",

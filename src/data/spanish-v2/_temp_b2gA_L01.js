@@ -78,7 +78,7 @@ const LESSON_1 = {id:"esv2_b2gA_l1", title:"Medios de comunicación", icon:"📰
 
 {type:"teach", trg:"la prensa sensacionalista", src:"the tabloid press", pos:"noun", gender:"f",
  note:"Press that exaggerates stories for emotional impact.\nAlso called prensa amarilla.",
- example:"A: No me fío de la prensa sensacionalista.\nB: Yo tampoco. Exageran todo.",
+ example:"A: No creo en la prensa sensacionalista.\nB: Yo tampoco. Exageran todo.",
  exampleSrc:"A: I don't trust the tabloid press.\nB: Me neither. They exaggerate everything.",
  funFact:"'Prensa amarilla' (yellow press) comes from the American 'Yellow Journalism' of the 1890s."},
 

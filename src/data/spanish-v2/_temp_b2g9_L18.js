@@ -24,8 +24,8 @@ const LESSON_18 = {id:"esv2_b2g9_l18", title:"Cuerpo y salud", icon:"\u{1FA7A}",
 
   {type:"teach", trg:"la c\u00f3lera", src:"cholera; anger/rage", pos:"noun", gender:"f",
    note:"From Greek cholera (bile disease).\nAs feminine: the disease. As masculine (el c\u00f3lera): anger.",
-   example:"A: La c\u00f3lera fue una epidemia terrible en el siglo XIX.\nB: Miles de personas murieron.\nA: Hoy se puede prevenir con agua limpia.\nB: Pero a\u00fan existe en algunos pa\u00edses.",
-   exampleSrc:"A: Cholera was a terrible epidemic in the 19th century.\nB: Thousands of people died.\nA: Today it can be prevented with clean water.\nB: But it still exists in some countries.",
+   example:"A: La c\u00f3lera fue una epidemia terrible en el siglo XIX.\nB: Miles de personas perdieron la vida.\nA: Hoy se puede prevenir con agua limpia.\nB: Pero a\u00fan existe en algunos pa\u00edses.",
+   exampleSrc:"A: Cholera was a terrible epidemic in the 19th century.\nB: Thousands of people lost their lives.\nA: Today it can be prevented with clean water.\nB: But it still exists in some countries.",
    funFact:"Gender matters: 'la c\u00f3lera' is the disease cholera, while 'el c\u00f3lera' means rage or fury. Gabriel Garc\u00eda M\u00e1rquez played on this in his famous novel."},
 
   {type:"teach", trg:"el excremento", src:"excrement", pos:"noun", gender:"m",

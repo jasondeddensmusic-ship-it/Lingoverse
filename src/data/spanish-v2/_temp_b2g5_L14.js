@@ -10,8 +10,8 @@ const LESSON_14 = {id:"esv2_b2g5_l14",title:"Agricultura y vida rural",icon:"�
 
 {type:"teach",trg:"la carreta",src:"the cart / wagon",pos:"noun",gender:"f",
  note:"Feminine noun. A two-wheeled vehicle pulled by animals.\nTraditional farm transport.",
- example:"A: Mi bisabuelo transportaba la cosecha en carreta.\nB: Ahora usamos tractores, claro.",
- exampleSrc:"A: My great-grandfather transported the harvest by cart.\nB: Now we use tractors, of course.",
+ example:"A: Mi bisabuelo llevaba la cosecha en carreta.\nB: Ahora usamos tractores, claro.",
+ exampleSrc:"A: My great-grandfather took the harvest by cart.\nB: Now we use tractors, of course.",
  funFact:"Decorated carretas are still used in festivals like the Romería del Rocío in Andalusia."},
 
 {type:"teach",trg:"el basurero",src:"the garbage collector / dump",pos:"noun",gender:"m",
