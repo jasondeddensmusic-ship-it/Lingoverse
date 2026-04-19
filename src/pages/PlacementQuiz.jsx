@@ -13,7 +13,7 @@
 // buttons, teal for correct, coral for wrong, gold accents.
 
 import React, { useState, useMemo } from 'react';
-import { QUESTIONS_BY_LEVEL, LEVEL_ORDER } from '../data/placement-questions/es.js';
+import { getPlacementBank } from '../data/placement-questions/index.js';
 
 const BASELINE_PER_LEVEL = 5;
 const PASS_THRESHOLD = 3;
@@ -29,17 +29,20 @@ function shuffle(arr) {
   return a;
 }
 
-function buildLevelQueue(level) {
-  const pool = QUESTIONS_BY_LEVEL[level] || [];
-  return shuffle(pool).slice(0, BASELINE_PER_LEVEL);
-}
-
-function pickReinforcement(level, askedIds) {
-  const pool = (QUESTIONS_BY_LEVEL[level] || []).filter(q => !askedIds.has(q.id));
-  return shuffle(pool).slice(0, REINFORCEMENT_COUNT);
-}
-
 export default function PlacementQuiz({ onComplete, lang = 'es' }) {
+  const bank = getPlacementBank(lang);
+  const QUESTIONS_BY_LEVEL = bank ? bank.questionsByLevel : {};
+  const LEVEL_ORDER = bank ? bank.levelOrder : ['A1.1','A1.2','A2.1','A2.2','B1.1','B1.2','B2.1','B2.2'];
+
+  function buildLevelQueue(level) {
+    const pool = QUESTIONS_BY_LEVEL[level] || [];
+    return shuffle(pool).slice(0, BASELINE_PER_LEVEL);
+  }
+
+  function pickReinforcement(level, askedIds) {
+    const pool = (QUESTIONS_BY_LEVEL[level] || []).filter(q => !askedIds.has(q.id));
+    return shuffle(pool).slice(0, REINFORCEMENT_COUNT);
+  }
   const [currentLevelIdx, setCurrentLevelIdx] = useState(0);
   const [queue, setQueue] = useState(() => buildLevelQueue(LEVEL_ORDER[0]));
   const [askedIds, setAskedIds] = useState(new Set());
