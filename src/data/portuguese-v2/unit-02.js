@@ -11,7 +11,7 @@ const UNIT_02 = {n:2,lang:"pt",srcLang:"en",track:"v2",title:"Quantos anos você
     {type:"teach",trg:"quatro",src:"four",pos:"num",gender:null,note:"One form for both genders. Pronounced 'KWA-troo'.",example:"A: Quantos anos?\nB: Quatro anos.",exampleSrc:"A: How many years?\nB: Four years.",funFact:"The Q in Portuguese quatro is pronounced like KW, similar to Spanish and Italian."},
     {type:"teach",trg:"cinco",src:"five",pos:"num",gender:null,note:"One form for both genders. Pronounced 'SEEN-koo'.",example:"A: Quantos anos?\nB: Cinco anos.",exampleSrc:"A: How many years?\nB: Five years.",funFact:"Brazilian Portuguese pronounces final -o as 'oo', so cinco sounds like 'SEEN-koo'."},
     {type:"tip",title:"Numbers with gender",text:"Only um and dois change for gender:\num / uma (one)\ndois / duas (two)\n\nThree and up stay the same for both genders.",icon:"💡"},
-    {type:"fb",opts:["três","quatro","cinco","zero"],hint:"One more than dois in the counting sequence.",s:"Eu tenho {1} cafés: um, dois, três.",sSrc:"I have three coffees: one, two, three.",a:"três"},
+    {type:"fb",opts:["três","quatro","cinco","zero"],hint:"One more than dois in the counting sequence.",s:"Eu tenho {1} cafés no copo.",sSrc:"I have three coffees in the cup.",a:"três"},
     {type:"mc",q:"Which number in Portuguese is 'three'?",opts:["dois","três","quatro","cinco"],ans:"três",hint:"Think of the English cognate starting with th-."},
     {type:"mc",q:"Which number has BOTH a masculine and feminine form?",opts:["três","quatro","cinco","dois"],ans:"dois",hint:"Only one and two change ending by gender."},
     {type:"fb",opts:["zero","um","dois","três"],hint:"The first counting number after zero.",s:"Eu tenho {1} café.",sSrc:"I have one coffee.",a:"um"},

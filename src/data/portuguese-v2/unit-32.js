@@ -68,10 +68,10 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
  sSrc:"We should {1} forests for future generations."},
 
 {type:"mc",
- q:"Which is correct: 'o meio ambiente' or 'a meio ambiente'?",
+ q:"What is the correct article for 'meio ambiente'?",
  opts:["a meio ambiente","o meio ambiente","um meio ambiente","as meio ambiente"],
  ans:"o meio ambiente",
- hint:"Meio ambiente is always masculine, despite what the ending suggests."},
+ hint:"This compound noun is always masculine, despite what the final vowel might suggest."},
 
 {type:"fb",
  s:"O governo quer investir em {1}.",

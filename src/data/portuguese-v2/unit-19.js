@@ -58,7 +58,7 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
  q:"Which word completes the equality pattern? 'tão bonita ___ aquela'",
  opts:["que","como","de","quanto"],
  ans:"quanto",
- hint:"The equality frame is tão...quanto, not tão...que.",},
+ hint:"The equality frame uses a specific second word that pairs with 'tão', not the word for 'than'.",},
 
 {type:"mc",
  q:"How do you say 'hotter than'?",

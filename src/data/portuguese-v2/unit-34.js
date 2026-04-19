@@ -83,7 +83,7 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
  s:"O {1} inclui São Paulo e Rio de Janeiro.",
  a:["Sudeste"],
  opts:["Sudeste","Norte","Nordeste","Sul"],
- hint:"The economic powerhouse. 'Sudeste' = Southeast.",
+ hint:"The economic powerhouse. The cardinal direction between east and south.",
  sSrc:"The {1} includes São Paulo and Rio de Janeiro."},
 
 {type:"mc",
@@ -187,17 +187,17 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
  hint:"Tropical savanna. Called 'the Brazilian savanna'. Over 50% already deforested."},
 
 {type:"fb",
- s:"O {1} é o maior pantanal tropical do mundo.",
+ s:"O {1} abriga onças, jacarés e milhares de espécies.",
  a:["Pantanal"],
  opts:["Pantanal","Cerrado","Sertão","Amazônia"],
  hint:"World's largest tropical wetland. Floods every rainy season.",
- sSrc:"The {1} is the world's largest tropical wetland."},
+ sSrc:"The {1} is home to jaguars, caimans, and thousands of species."},
 
 {type:"mc",
  q:"What does 'sertão' refer to geographically?",
  opts:["coastal beaches","Amazon rainforest","dry interior of the Northeast","mountain ranges"],
  ans:"dry interior of the Northeast",
- hint:"Harsh, dry backlands. Setting of classic Brazilian literature."},
+ hint:"Harsh backlands far from the coast. Setting of Euclides da Cunha's famous work."},
 
 {type:"match", pairs:[
  {trg:"Amazônia", src:"Amazon (biome)"},

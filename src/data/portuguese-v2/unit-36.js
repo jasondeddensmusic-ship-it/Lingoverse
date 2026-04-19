@@ -185,7 +185,7 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
  q:"What is the difference between 'argumentar' and 'brigar'?",
  opts:["they mean the same","argumentar means to make a logical case, brigar means to quarrel","brigar is more polite","argumentar is informal"],
  ans:"argumentar means to make a logical case, brigar means to quarrel",
- hint:"'Argumentar' uses reason. 'Brigar' is an emotional fight."},
+ hint:"One uses reason and evidence. The other is an emotional or physical conflict."},
 
 {type:"fb",
  s:"O debate foi intenso, mas cada um conseguiu {1} bem.",

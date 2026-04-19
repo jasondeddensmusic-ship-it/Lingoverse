@@ -98,7 +98,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
  s:"A {1} de Portinari fica exposta em todo o mundo.",
  a:["obra"],
  opts:["obra","pintura","arte","literatura"],
- hint:"A creative piece. Also used in 'obra-prima' (masterpiece).",
+ hint:"A creative piece. The compound form with '-prima' means masterpiece.",
  sSrc:"Portinari's {1} is exhibited all over the world."},
 
 {type:"mc",
