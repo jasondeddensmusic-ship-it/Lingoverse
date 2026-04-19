@@ -139,7 +139,44 @@ const LESSON_15 = {id:"frv2_b1gap_l15", title:"Débattre et argumenter", icon:"\
  q:"Quel mot signifie à la fois 'opinion' et 'annonce officielle' ?",
  opts:["un avis","un aveu","un avenir","un avertissement"],
  ans:"un avis",
- hint:"'À mon...' is how you start saying 'in my opinion.' It also appears on official notice boards."}
+ hint:"'À mon...' is how you start saying 'in my opinion.' It also appears on official notice boards."},
+
+{type:"teach", trg:"l'éducation", src:"education", pos:"noun", gender:"f",
+ note:"Feminine noun. The system of schooling and learning.\nMinistère de l'Éducation nationale = Ministry of Education.",
+ example:"A: L'éducation publique est gratuite et obligatoire en France.\nB: C'est un droit fondamental.",
+ exampleSrc:"A: Public education is free and compulsory in France.\nB: It is a fundamental right.",
+ funFact:"France invented the secular public school system (école laïque) under Jules Ferry in 1882. A defining national achievement."},
+
+{type:"teach", trg:"proposer", src:"to propose, to suggest", pos:"verb", gender:null,
+ note:"Regular -er verb. To put forward an idea or candidate.\nJe vous propose de... = I suggest that we...",
+ example:"A: Je propose qu'on fasse une pause.\nB: Bonne idée, on a travaillé trois heures.",
+ exampleSrc:"A: I propose that we take a break.\nB: Good idea, we've worked for three hours.",
+ funFact:"'L'homme propose, Dieu dispose' (Man proposes, God disposes) is a classic French proverb from Thomas à Kempis."},
+
+{type:"teach", trg:"refuser", src:"to refuse, to reject", pos:"verb", gender:null,
+ note:"Regular -er verb. To say no or reject.\nRefuser de + infinitif = to refuse to do something.",
+ example:"A: Il a refusé de signer le contrat.\nB: Les conditions n'étaient pas acceptables.",
+ exampleSrc:"A: He refused to sign the contract.\nB: The conditions were not acceptable.",
+ funFact:"'Refuser le progrès' is a common political expression. In French bureaucracy, refusal often requires a written explanation."},
+
+{type:"teach", trg:"conseiller", src:"to advise, to recommend", pos:"verb", gender:null,
+ note:"Regular -er verb. To give advice.\nAlso a noun: un conseiller (adviser).",
+ example:"A: Je te conseille de relire avant de soumettre.\nB: Merci pour le conseil.",
+ exampleSrc:"A: I advise you to reread before submitting.\nB: Thanks for the advice.",
+ funFact:"Un conseiller municipal (city councillor) is an elected local official. France has 500,000 elected local councillors."},
+
+{type:"teach", trg:"la conséquence", src:"consequence", pos:"noun", gender:"f",
+ note:"Feminine noun. The result of an action.\nEn conséquence = consequently. Par conséquent = therefore.",
+ example:"A: Les conséquences de cette décision sont graves.\nB: On aurait dû y réfléchir avant.",
+ exampleSrc:"A: The consequences of this decision are serious.\nB: We should have thought about it beforehand.",
+ funFact:"From Latin consequi (to follow). 'Par conséquent' and 'en conséquence' are staple connectors in French argumentation."},
+
+{type:"fb",
+ s:"Je te {1} de vérifier tes sources avant de présenter.",
+ a:["conseille"],
+ opts:["conseille","propose","refuse","avertis"],
+ hint:"This verb means to give advice or recommend. Its noun form describes a city councillor.",
+ sSrc:"I {1} you to check your sources before presenting."}
 
 ]};
 export default LESSON_15;

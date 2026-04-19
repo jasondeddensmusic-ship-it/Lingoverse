@@ -145,7 +145,50 @@ const LESSON_7 = {id:"frv2_b1gap_l7", title:"Politique et société", icon:"\u{1
  q:"Quel adjectif décrit une décision prise sans logique ni justification ?",
  opts:["arbitraire","aristocratique","associatif","athée"],
  ans:"arbitraire",
- hint:"Saussure used this word for the relationship between words and meanings. Think 'based on whim.'"}
+ hint:"Saussure used this word for the relationship between words and meanings. Think 'based on whim.'"},
+
+{type:"teach", trg:"la société", src:"society", pos:"noun", gender:"f",
+ note:"Feminine noun. The community of people living together.\nAlso: a company (une société anonyme).",
+ example:"A: La société française est très attachée à la laïcité.\nB: C'est un principe fondamental depuis 1905.",
+ exampleSrc:"A: French society is very attached to secularism.\nB: It has been a fundamental principle since 1905.",
+ funFact:"From Latin societas (fellowship). In France, 'la société' is debated passionately every election cycle."},
+
+{type:"teach", trg:"la politique", src:"politics, policy", pos:"noun", gender:"f",
+ note:"Feminine noun. Both the field of politics and a specific policy.\nLa politique étrangère = foreign policy.",
+ example:"A: Tu t'intéresses à la politique ?\nB: Oui, surtout à la politique européenne.",
+ exampleSrc:"A: Are you interested in politics?\nB: Yes, especially European policy.",
+ funFact:"From Greek politikos (of citizens). La politique is serious business in France: 70%+ follow political news."},
+
+{type:"teach", trg:"l'économie", src:"the economy", pos:"noun", gender:"f",
+ note:"Feminine noun. The economic system of a country.\nFaire des économies = to save money (different meaning).",
+ example:"A: L'économie française est la septième du monde.\nB: Mais le chômage reste un défi.",
+ exampleSrc:"A: The French economy is the seventh largest in the world.\nB: But unemployment remains a challenge.",
+ funFact:"From Greek oikonomia (household management). France has a mixed economy: strong state, strong private sector."},
+
+{type:"fb",
+ s:"La {1} française est la septième économie mondiale.",
+ a:["société"],
+ opts:["société","politique","économie","liberté"],
+ hint:"This feminine noun means the community of people living together in a country.",
+ sSrc:"French {1} is highly attached to its founding values."},
+
+{type:"teach", trg:"la liberté", src:"freedom, liberty", pos:"noun", gender:"f",
+ note:"Feminine noun. Freedom from constraint.\nFirst word of the French motto: Liberté, Égalité, Fraternité.",
+ example:"A: La liberté d'expression est garantie par la Constitution.\nB: Mais elle a des limites légales.",
+ exampleSrc:"A: Freedom of expression is guaranteed by the Constitution.\nB: But it has legal limits.",
+ funFact:"Liberté is the first word of France's national motto. The Statue of Liberty was a gift from France to the USA."},
+
+{type:"teach", trg:"l'égalité", src:"equality", pos:"noun", gender:"f",
+ note:"Feminine noun. The state of being equal.\nSecond word of the French motto.",
+ example:"A: L'égalité hommes-femmes progresse lentement.\nB: Il faut continuer à se battre pour ce droit.",
+ exampleSrc:"A: Gender equality is progressing slowly.\nB: We must keep fighting for this right.",
+ funFact:"Égalité is the second word of France's motto. The Declaration of 1789 declared all men equal before the law."},
+
+{type:"mc",
+ q:"Quel mot est le deuxième terme de la devise de la République française ?",
+ opts:["l'égalité","la liberté","la fraternité","la démocratie"],
+ ans:"l'égalité",
+ hint:"France's national motto has three terms: the second one means being treated the same before the law."}
 
 ]};
 export default LESSON_7;

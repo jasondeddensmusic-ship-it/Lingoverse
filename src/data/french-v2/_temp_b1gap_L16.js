@@ -139,7 +139,26 @@ const LESSON_16 = {id:"frv2_b1gap_l16", title:"Changer et se transformer", icon:
  q:"Quel est l'encouragement français équivalent de 'Hang in there!' ?",
  opts:["Accroche-toi !","Assagis-toi !","Acclimate-toi !","Assouvis-toi !"],
  ans:"Accroche-toi !",
- hint:"This reflexive verb literally means to hook onto something. It's the most common French encouragement."}
+ hint:"This reflexive verb literally means to hook onto something. It's the most common French encouragement."},
+
+{type:"teach", trg:"l'environnement", src:"the environment", pos:"noun", gender:"m",
+ note:"Masculine noun. The natural world around us.\nLa protection de l'environnement = environmental protection.",
+ example:"A: Il faut protéger l'environnement pour les générations futures.\nB: Les actions individuelles comptent aussi.",
+ exampleSrc:"A: We must protect the environment for future generations.\nB: Individual actions matter too.",
+ funFact:"From French environner (to surround). France adopted major environmental laws in 1976, among Europe's first."},
+
+{type:"teach", trg:"le progrès", src:"progress", pos:"noun", gender:"m",
+ note:"Masculine noun. Forward movement or improvement.\nFaire des progrès = to make progress.",
+ example:"A: Les progrès de la médecine ont doublé l'espérance de vie.\nB: C'est une révolution silencieuse.",
+ exampleSrc:"A: Medical progress has doubled life expectancy.\nB: It's a silent revolution.",
+ funFact:"From Latin progressus (going forward). The French Enlightenment placed 'le progrès' at the heart of civilization."},
+
+{type:"fb",
+ s:"Il faut protéger l'{1} pour les générations futures.",
+ a:["environnement"],
+ opts:["environnement","aboutissement","avancement","acclimation"],
+ hint:"This masculine noun refers to the natural world and our surroundings. Its root means 'to surround.'",
+ sSrc:"We must protect the {1} for future generations."}
 
 ]};
 export default LESSON_16;
