@@ -385,7 +385,7 @@ lessons:[
 {type:"mc", q:"你家有没有狗(gǒu)？ What is this question asking?",
  opts:["Do you have a cat?","Does your family have a dog?","Where is your dog?","How many dogs do you have?"],
  ans:"Does your family have a dog?",
- hint:"家 means home/family. 有没有 is a yes/no question pattern. Which animal is mentioned?"},
+ hint:"家 is the word for household members. 有没有 is a yes/no pattern. Check which animal appears."},
 
 {type:"match", pairs:[
   {trg:"谁(shuí)", src:"who"},
@@ -415,7 +415,7 @@ lessons:[
 {type:"mc", q:"汉语(Hànyǔ) is named after which Chinese dynasty?",
  opts:["Tang dynasty","Qin dynasty","Ming dynasty","Han dynasty"],
  ans:"Han dynasty",
- hint:"The 汉 in 汉语 refers to the same 汉 in 汉人 (Han people), who gave their name to this important dynasty."}
+ hint:"The 汉 in 汉语 names the ruling group whose period (206 BCE–220 CE) unified the country."}
 ]}
 
 ]};

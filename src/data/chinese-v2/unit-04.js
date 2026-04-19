@@ -401,7 +401,7 @@ lessons:[
 {type:"mc", q:"水果(shuǐguǒ) literally means 'water fruit.' What does this word mean?",
  opts:["watermelon","fruit in general","juice","garden"],
  ans:"fruit in general",
- hint:"This is the general category word. It includes apples, oranges, and all other fruit."},
+ hint:"This is the broad category word. It covers apples, oranges, and everything else of its kind."},
 
 {type:"match", pairs:[
   {trg:"苹果(píngguǒ)", src:"apple"},

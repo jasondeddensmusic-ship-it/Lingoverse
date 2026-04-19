@@ -406,7 +406,7 @@ lessons:[
 {type:"mc", q:"今天几号(hào)？ What is this question asking?",
  opts:["What is today's day of the week?","What year is it?","What is today's date?","What time is it?"],
  ans:"What is today's date?",
- hint:"号 is used for the day number within a month. 几号 asks which number (date) in the month."},
+ hint:"号 marks the specific day within a month. 几号 is the standard way to ask."},
 
 {type:"match", pairs:[
   {trg:"中午(zhōngwǔ)", src:"noon"},

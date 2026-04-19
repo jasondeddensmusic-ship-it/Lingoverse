@@ -248,7 +248,7 @@ const UNIT_17 = {
 
   {type:"mc", q:"母(はは)が作(つく)った料理(りょうり) is best translated as:", opts:["the mother who made food","food that made my mother","the dish my mother made","my mother makes food"],
    ans:"the dish my mother made",
-   hint:"作った modifies 料理 — the clause describes which dish. The agent (mother) appears inside the clause with が."},
+   hint:"作った modifies 料理 — the clause describes which one. The agent (母) appears inside the clause with が."},
 
   {type:"fb", s:"昨日(きのう)食(た)べた{1}はとてもおいしかったです。\n(The sushi I ate yesterday was very delicious.)",
    a:"寿司(すし)", opts:["寿司(すし)","駅(えき)","公園(こうえん)","料理(りょうり)"],
@@ -280,7 +280,7 @@ const UNIT_17 = {
 
   {type:"mc", q:"昨日(きのう)食(た)べた寿司(すし) — which verb type is 食(た)べる?", opts:["godan (う-verb)","ichidan (る-verb)","irregular","auxiliary"],
    ans:"ichidan (る-verb)",
-   hint:"Ichidan verbs end in る and their stem takes た directly: 食べ + た → 食べた. Godan verbs need a different ending."},
+   hint:"These verbs end in る and their stem takes た directly: 食べ + た → 食べた. The other class needs a different ending."},
 
   {type:"fb", s:"大(おお)きい{1}の前(まえ)で待(ま)っています。\n(I am waiting in front of the big park.)",
    a:"公園(こうえん)", opts:["公園(こうえん)","駅(えき)","病院(びょういん)","銀行(ぎんこう)"],

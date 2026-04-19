@@ -363,7 +363,7 @@ lessons:[
 {type:"mc", q:"他(tā)站(zhàn)着(zhe)。 What does 着 add to 站 here?",
  opts:["It shows the action happened before","It turns the verb into a question","It shows a sustained posture being held","It makes the action stronger"],
  ans:"It shows a sustained posture being held",
- hint:"着 makes the verb describe a state that is continuing — not one that just happened, but one that is being maintained."},
+ hint:"着 makes the verb describe a state that is continuing — not one that just started, but one the subject keeps up."},
 
 {type:"fb", s:"门(mén)开(kāi){1}。",
  a:["着(zhe)"],
