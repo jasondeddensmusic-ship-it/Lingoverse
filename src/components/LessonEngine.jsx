@@ -7,6 +7,7 @@ import { shuffle, pick, clamp, getLevel, cap, xpNext, xpCurr, UNITS, _romanize, 
 import { getPreferredVoice, playAudio, SpeakerButton, AUDIO_ENABLED, UISounds } from '../audio.jsx';
 import { useFocusNav, KB_FOCUS_SEL, useSwipe } from '../hooks.js';
 import { Confetti, ContinueButton, NavArrow, ScoreCircle, FlagButton, AppIcon, BrandIcon, _memStore, renderNavTitle } from './shared.jsx';
+import { recordQuizOutcome } from '../srs.js';
 
 function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,onBack,onComplete,addFlag,lang="nl",hideQuizRom=false,onContinue=null}){
   const dk=document.documentElement.classList.contains("dark");
@@ -569,6 +570,17 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   },[si,st_type,answered]);
   const checkAndNext=(correct)=>{
     setAnswered(true);
+    // ── SRS integration (2026-04-19): record every quiz outcome into FSRS ──
+    // Extract the primary target-language form from the current step.
+    // checkAndNext is called for mc, fb, drag_fill, and tr steps.
+    // match steps are handled separately in handleMatch below.
+    try {
+      const _st = steps[si];
+      if (_st) {
+        const _word = _st.trg || _st.ans || (Array.isArray(_st.a) ? _st.a[0] : _st.a) || null;
+        if (_word) recordQuizOutcome(lang, _word, correct);
+      }
+    } catch (_e) { /* never block lesson flow */ }
     setTimeout(()=>{if(correct){setScore(s=>s+1);addXp(2);UISounds.correct();}else{UISounds.wrong();}},150);
   };
 
@@ -3976,6 +3988,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       if(newSel.nl&&newSel.en){
         const pair=pairs.find(p=>p.nl===newSel.nl);
         if(pair&&pair.en===newSel.en){
+          // ── SRS: record correct match for this pair's target-language word ──
+          try { recordQuizOutcome(lang, newSel.nl, true); } catch (_e) {}
           setMatchDone(d=>{const next=[...d,newSel.nl,newSel.en];
             // Compute line for this newly matched pair immediately
             setTimeout(()=>{
