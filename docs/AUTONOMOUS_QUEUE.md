@@ -25,9 +25,25 @@ _None currently._
 
 ## P1 — Pedagogical completeness (mechanical, no external blockers)
 
-### PP63-AUDIT-001 — Run PP63/PP68 example-vocab integrity audit, enumerate gaps per language
-- **preconditions:** `scripts/pp63_audit.cjs` exists (created in this session).
-- **acceptance:** Produces a per-language, per-unit report of teach cards whose `example` contains words not taught earlier. Report committed under `docs/audits/pp63_baseline_2026-04-19.md`.
+### PP63-AUDIT-001 — DONE 2026-04-19 (previous session)
+- Per-language baselines committed under `docs/audits/pp63_baseline_<lang>-v2.md`.
+
+### PP63-REMEDIATION-PORTUGUESE — 103 untraced cards remain (was 147)
+- **progress:** Units 1-3 + 7/8/10 cleared this session (44 cards).
+- **remaining:** units 9, 11-36. Unit 9 has 9 flags mostly inflectional
+  (dói/sente/verdes) — consider improving `pp63_audit.cjs` to handle
+  Portuguese verb stems (-ar/-er/-ir truncation) before rewriting.
+- **acceptance:** 0 flags for portuguese-v2 via `node scripts/pp63_audit.cjs portuguese-v2`.
+
+### PP63-AUDIT-IMPROVEMENT — Add Portuguese/Spanish/Italian/French morphology
+- **context:** Current pp63_audit uses substring matching only. Verb conjugations
+  (sentir → sente, doer → dói) and plurals (café → cafés) aren't transparent
+  to the check even though they ARE transparent to learners.
+- **proposal:** Add a per-language `stem(word, langCode)` helper that strips
+  -r infinitive endings, -s/-es plurals, and common verb endings before
+  comparing. Keep conservative — over-stripping causes false negatives.
+- **acceptance:** Portuguese baseline drops from 103 → <60 without any
+  content edit; Spanish/Italian/French baselines drop proportionally.
 
 ### FILLER-CLEANUP-001 — Replace all `src:"(review)"` match-pair filler with the teach card's real translation
 - **preconditions:** `scripts/cleanup_review_fillers.cjs` exists.
@@ -145,3 +161,13 @@ _None currently._
 - Rules PP66/67/68, Rule B15/16/17, Rule C11/12, Rule E4, Rule G, Rule H added to CLAUDE.md
 - Core Principles 14–18 added
 - Autonomy infrastructure docs created
+
+## Done this session (sad-cohen-32e111, 2026-04-19 late)
+
+- PP67 production-mode validator implemented in `scripts/validate_all.cjs` + baseline captured (PR #189)
+  - 4 langs PASS: Dutch, German, Korean, Spanish
+  - Remaining: 243 unit-level flags across 7 languages
+- `scripts/generate_queue.cjs` + first snapshot at `docs/audits/queue_snapshot_<date>.md` (PR #190)
+- PP63 Portuguese remediation: 44 cards cleared across units 1-3 and 7/8/10 (147 → 103) (PR #191, #192)
+  - Dual-linguist Rule G validation applied (Sonnet Brazilian-Portuguese linguist agent cross-read unit-01)
+  - Rewrites use only taught vocabulary + function words + proper nouns

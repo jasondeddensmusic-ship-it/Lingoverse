@@ -14,3 +14,5 @@ audit trail. Format: `YYYY-MM-DDTHH:MM:SSZ | agent-id | task | outcome`.
 2026-04-19 | main + linguist | PP63 portuguese-v2 remediation units 1-3 | 147 → 115 untraced (32 cards cleared); Rule G cross-read by sonnet linguist agent
 2026-04-19 | main | PR #191 merged (portuguese 1-3) | CI green
 2026-04-19 | main | PP63 portuguese-v2 units 7/8/10 | 115 → 103 (12 more cards cleared)
+2026-04-19 | main | PR #192 merged (portuguese 7/8/10) | CI green
+2026-04-19 | main | session wrap: queue updated, 4 PRs shipped, 44 PT cards, PP67 baseline captured, queue generator live
