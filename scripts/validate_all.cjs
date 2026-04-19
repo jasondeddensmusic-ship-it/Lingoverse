@@ -186,9 +186,32 @@ const pp8Fixes = []; // {file, original, fixed}
 const ARTICLE_STRIP = /^(de|het|een|le|la|l'|les|un|une|el|los|las|der|die|das|ein|eine|il|i|gli|lo|uno|o|os|as|um|uma|ein|eine|-s|-es)\s+/i;
 function normalizeTrg(v) {
   if (!v) return '';
-  return String(v).toLowerCase().replace(ARTICLE_STRIP, '').trim();
+  return String(v).toLowerCase().replace(ARTICLE_STRIP, '').replace(/[!?.,;:]/g, '').trim();
 }
+
+// Romance-language verb stem detection. Mirrors pp63_audit's morphology
+// helper so PP67 also recognizes that fb `a:"come"` (imperative of `comer`)
+// counts as production mode — the learner produced the conjugated target form.
+const LANG_CODE_MAP = { 'portuguese-v2':'pt','spanish-v2':'es','italian-v2':'it','french-v2':'fr',
+                        'dutch-v2':'nl','german-v2':'de','korean-v2':'ko','japanese-v2':'ja',
+                        'chinese-v2':'zh','russian-v2':'ru' };
+const _langCode = LANG_CODE_MAP[langDir] || 'en';
+function romanceStem(word) {
+  if (!word || word.length < 4) return null;
+  if (_langCode === 'pt' || _langCode === 'es') {
+    if (/[aei]r$/.test(word) && word.length >= 5) return word.slice(0, -2);
+  }
+  if (_langCode === 'it') {
+    if (/[aei]re$/.test(word) && word.length >= 6) return word.slice(0, -3);
+  }
+  if (_langCode === 'fr') {
+    if (/(er|ir|re)$/.test(word) && word.length >= 5) return word.slice(0, -2);
+  }
+  return null;
+}
+
 const allTrgs = new Set();
+const allStems = new Set(); // precomputed stems for fast PP67 matching
 for (const file of files) {
   const content = fs.readFileSync(path.join(BASE, file), 'utf8');
   // Accept either `trg:` (new format) or legacy `nl:` (Korean still uses this).
@@ -200,9 +223,27 @@ for (const file of files) {
     const trgM = text.match(/\btrg\s*:\s*['"]([^'"]+)['"]/) || text.match(/\bnl\s*:\s*['"]([^'"]+)['"]/);
     if (trgM) {
       const bare = normalizeTrg(trgM[1]);
-      if (bare) allTrgs.add(bare);
+      if (bare) {
+        allTrgs.add(bare);
+        const stem = romanceStem(bare);
+        if (stem && stem.length >= 3) allStems.add(stem);
+      }
     }
   }
+}
+
+// isProductionAnswer: true when the quiz answer matches a taught target-lang
+// form exactly, OR (for Romance languages) when it starts with a verb stem
+// of a taught infinitive — so an imperative/conjugation counts as production.
+function isProductionAnswer(ans) {
+  if (!ans) return false;
+  const bare = normalizeTrg(ans);
+  if (!bare) return false;
+  if (allTrgs.has(bare)) return true;
+  for (const stem of allStems) {
+    if (stem.length >= 3 && bare.startsWith(stem)) return true;
+  }
+  return false;
 }
 
 // Per-unit aggregates so we can report PP67 violations at unit granularity.
@@ -299,8 +340,9 @@ for (const file of files) {
         // Track quizzed words for PP64
         if (a.length > 0) a.forEach(w => quizzedWords.add(w));
 
-        // PP67: fb counts as production when the answer is a target-lang form.
-        if (a.length > 0 && allTrgs.has(normalizeTrg(a[0]))) {
+        // PP67: fb counts as production when the answer is a target-lang form
+        // (exact match OR a Romance-language inflection of a taught infinitive).
+        if (a.length > 0 && isProductionAnswer(a[0])) {
           totals.production++;
           unitProd++;
         }
@@ -369,7 +411,7 @@ for (const file of files) {
           let bm;
           while ((bm = valRe.exec(blanksText[1])) !== null) {
             quizzedWords.add(bm[1]);
-            if (allTrgs.has(normalizeTrg(bm[1]))) prodHit = true;
+            if (isProductionAnswer(bm[1])) prodHit = true;
           }
         }
         if (prodHit) {
