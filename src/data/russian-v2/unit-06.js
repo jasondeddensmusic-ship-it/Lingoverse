@@ -265,5 +265,98 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
 ]}
 ,{type:"match",pairs:[{trg:"перед",src:"in front of"},{trg:"близко",src:"close / near"},{trg:"быстро",src:"quickly"},{trg:"медленно",src:"slowly"}]}]}
 
+,
+
+{id:"ruv2_u6l_places", title:"Места в городе", icon:"🏢", xp:15, board:true, steps:[
+
+{type:"intro", title:"Places in the City",
+ desc:"Learn 7 essential Russian words for city places: bank, university, supermarket, station, library, café, park. Essential for TRKI A1 and navigating daily life.",
+ goals:["Master 7 city place nouns","Recognise gender patterns in place names","Ask where a place is with где"]},
+
+{type:"teach", trg:"банк", src:"bank", pos:"noun", gender:"m",
+ note:"Masculine. Ends in consonant.\nPrepositional: в банке (at the bank).",
+ example:"A: Где банк?\nB: Там, рядом.",
+ exampleSrc:"A: Where is the bank?\nB: There, nearby.",
+ funFact:"Russian inherited 'банк' from Italian 'banca' (bench) — medieval money-changers worked at wooden benches. The Russian Central Bank (Центральный банк) was founded in 1990 and controls the ruble."},
+
+{type:"teach", trg:"университет", src:"university", pos:"noun", gender:"m",
+ note:"Masculine. Ends in consonant.\nPrepositional: в университете (at university).",
+ example:"A: Где твой университет?\nB: Там, далеко.",
+ exampleSrc:"A: Where is your university?\nB: There, far away.",
+ funFact:"Moscow State University (МГУ — Московский государственный университет) was founded in 1755 and is the oldest in Russia. Its Stalin-era skyscraper on Sparrow Hills is one of Moscow's most iconic buildings."},
+
+{type:"teach", trg:"супермаркет", src:"supermarket", pos:"noun", gender:"m",
+ note:"Masculine. Ends in consonant.\nPrepositional: в супермаркете (at the supermarket).",
+ example:"A: Где супермаркет?\nB: Прямо, потом направо.",
+ exampleSrc:"A: Where is the supermarket?\nB: Straight ahead, then right.",
+ funFact:"Russia's largest supermarket chains include Магнит (Magnet) and Пятёрочка (Five). The word супермаркет arrived from English in the 1990s after Soviet-era дефицит (shortage) ended."},
+
+{type:"teach", trg:"станция", src:"station", pos:"noun", gender:"f",
+ note:"Feminine. Ends in -ия.\nPrepositional: на станции (at the station). Use на, not в.",
+ example:"A: Где станция?\nB: Рядом с банком.",
+ exampleSrc:"A: Where is the station?\nB: Next to the bank.",
+ funFact:"Moscow Metro has 257 stations — more than London. Each is uniquely decorated: marble halls, mosaics, chandeliers. Muscovites call it 'the most beautiful metro in the world.'"},
+
+{type:"teach", trg:"библиотека", src:"library", pos:"noun", gender:"f",
+ note:"Feminine. Ends in -а.\nPrepositional: в библиотеке (at the library).",
+ example:"A: Ты идёшь в библиотеку?\nB: Да, там тихо.",
+ exampleSrc:"A: Are you going to the library?\nB: Yes, it's quiet there.",
+ funFact:"The Russian State Library in Moscow (formerly Lenin Library) holds over 47 million items — one of the largest collections in the world. Russians have the highest book-reading rate in Europe."},
+
+{type:"teach", trg:"кафе", src:"café", pos:"noun", gender:"n",
+ note:"Neuter. Indeclinable — form never changes.\nAlways: в кафе (in the café), even in other cases.",
+ example:"A: Где ты?\nB: Я в кафе.",
+ exampleSrc:"A: Where are you?\nB: I'm at a café.",
+ funFact:"Кафе is an indeclinable word — borrowed from French, it keeps its form in all cases. Russian has many such foreign borrowings: кино, метро, такси. The final vowel signals they don't follow standard Russian declension patterns."},
+
+{type:"teach", trg:"парк", src:"park", pos:"noun", gender:"m",
+ note:"Masculine. Ends in consonant.\nPrepositional: в парке (in the park).",
+ example:"A: Где ты был?\nB: Я был в парке.",
+ exampleSrc:"A: Where were you?\nB: I was in the park.",
+ funFact:"Gorky Park (Парк Горького) opened in 1928 in Moscow and was the Soviet Union's first 'culture and rest park.' Today it has bike rentals, outdoor gyms, and ping-pong tables — a modern Moscow landmark."},
+
+{type:"tip", title:"Prepositional Case with Places",
+ text:"Most place nouns use В + prepositional case for location.\n\nMASCULINE and NEUTER nouns: add -е.\nбанк → в банке (at the bank).\nуниверситет → в университете.\nсупермаркет → в супермаркете.\nпарк → в парке.\n\nFEMININE nouns ending -а: change to -е.\nбиблиотека → в библиотеке.\n\nFEMININE nouns ending -ия: change to -ии.\nстанция → на станции (use НА, not В).\n\nINDECLINABLE (foreign loans ending in vowel): never change!\nкафе → в кафе (same form always).\n\nRemember: 'на станции' not 'в станции' — stations use на like events and some public places.",
+ icon:"📍"},
+
+{type:"mc", q:"Where is the bank? — Где банк?",
+ opts:["В библиотеке","Рядом с кафе","В парке","На станции"],
+ ans:"Рядом с кафе",
+ hint:"The question asks where the bank IS. 'Next to the café' is a valid location answer."},
+
+{type:"mc", q:"Which noun is FEMININE?",
+ opts:["банк","парк","станция","супермаркет"],
+ ans:"станция",
+ hint:"Nouns ending in -ия are feminine. The three masculine options all end in consonants."},
+
+{type:"fb", s:"A: Где университет?\nB: Идите {1}, потом налево.",
+ a:["прямо"],
+ opts:["прямо","рядом","далеко","там"],
+ hint:"Standard direction: go this way first, then turn. 'Straight ahead' fits naturally before 'then left'.",
+ sSrc:"A: Where is the university?\nB: Go {1}, then left."},
+
+{type:"fb", s:"Мы в {1}. Здесь тихо и много книг.",
+ a:["библиотеке"],
+ opts:["библиотеке","парке","банке","кафе"],
+ hint:"Quiet place with many books. Feminine noun takes -е in prepositional after в.",
+ sSrc:"We are in the {1}. It is quiet here and there are many books."},
+
+{type:"fb", s:"A: Где станция?\nB: {1} станции, рядом с банком.",
+ a:["На"],
+ opts:["На","В","У","За"],
+ hint:"Stations take this preposition (not в). Think: events, stations, and some public places use this word.",
+ sSrc:"A: Where is the station?\nB: {1} the station, next to the bank."},
+
+{type:"match", pairs:[
+  {trg:"банк", src:"bank"},
+  {trg:"университет", src:"university"},
+  {trg:"супермаркет", src:"supermarket"},
+  {trg:"станция", src:"station"},
+  {trg:"библиотека", src:"library"},
+  {trg:"кафе", src:"café"},
+  {trg:"парк", src:"park"}
+]}
+]}
+
 ]};
 export default UNIT_06;
