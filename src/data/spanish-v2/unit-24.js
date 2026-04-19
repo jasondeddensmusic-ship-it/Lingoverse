@@ -236,6 +236,6 @@ export default {n:24,lang:"es",srcLang:"en",track:"v2",title:"El Mundo Laboral",
     {type:"fb",opts:["renovar","rellenar","pedir","traer"],hint:"The verb meaning to make a document valid again for a new period.",s:"Mi pasaporte caduca pronto. Tengo que {1}lo.",a:"renovar"},
     {type:"mc",q:"¿Qué es un 'trámite'?",opts:["An identity document","A step in an official procedure","A type of form","A service window"],ans:"A step in an official procedure",hint:"The word describes the individual steps you must complete within a larger administrative process."},
     {type:"fb",opts:["formulario","documento","NIE","trámite"],hint:"The paper you fill in with your personal details when making an official request.",s:"Para pedir el NIE, primero hay que rellenar un {1}.",a:"formulario"},
-    {type:"match",pairs:[{trg:"el NIE",src:"foreigner ID number"},{trg:"el DNI",src:"national ID card"},{trg:"el formulario",src:"the form"},{trg:"la ventanilla",src:"the service window"},{trg:"renovar",src:"to renew"}]}
+    {type:"match",pairs:[{trg:"el NIE",src:"foreigner ID number"},{trg:"el DNI",src:"national ID card"},{trg:"el formulario",src:"the form"},{trg:"la ventanilla",src:"the service window"},{trg:"renovar",src:"to renew"},{trg:"el trámite",src:"an administrative step / procedure"}]}
   ]}
 ]};
