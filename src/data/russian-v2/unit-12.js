@@ -265,5 +265,100 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
 ]}
 ,{type:"match",pairs:[{trg:"путешествие",src:"journey / trip"},{trg:"быстро",src:"fast / quickly"},{trg:"путь",src:"path / way"},{trg:"направление",src:"direction"},{trg:"заблудиться",src:"to get lost"}]}]}
 
+,
+
+{id:"ruv2_u12l4_lett", title:"Неформальное письмо", icon:"✉️", xp:15, board:true, steps:[
+
+{type:"intro", title:"Writing Short Informal Letters",
+ desc:"Learn to write short informal letters and WhatsApp/Telegram messages in Russian. Essential for TRKI A2 and daily communication with friends and family.",
+ goals:["Open a letter casually","Use common body phrases","Close with a warm farewell"]},
+
+{type:"teach", trg:"Привет, [имя]!", src:"Hi, [name]! (casual letter opening)", pos:"intj", gender:null,
+ note:"Standard informal opening.\nUse a comma after Привет, then the name.",
+ example:"A: Привет, Катя!\nB: Привет! Как ты?",
+ exampleSrc:"A: Hi, Katya!\nB: Hi! How are you?",
+ funFact:"In Russian letters, the greeting is always followed by a comma, then the name. This punctuation rule differs from English, where we use a colon in formal and a comma in informal letters."},
+
+{type:"teach", trg:"Как ты?", src:"How are you? (informal)", pos:"intj", gender:null,
+ note:"Short casual check-in.\nMost common in messages and informal letters.",
+ example:"A: Привет! Как ты?\nB: Всё хорошо, спасибо!",
+ exampleSrc:"A: Hi! How are you?\nB: All good, thanks!",
+ funFact:"Как ты? is the informal version; the formal equivalent is Как вы? Russians tend to ask this as a genuine question, not just a greeting filler as in English."},
+
+{type:"teach", trg:"Надеюсь, у тебя всё хорошо", src:"I hope all is well with you", pos:"intj", gender:null,
+ note:"Warm body opener for letters and messages.\nLiteral meaning: I hope, at you everything good.",
+ example:"A: Надеюсь, у тебя всё хорошо!\nB: Да, спасибо!",
+ exampleSrc:"A: I hope all is well with you!\nB: Yes, thanks!",
+ funFact:"Надеюсь comes from the verb надеяться (to hope). The phrase pattern у тебя всё хорошо uses the dative у + pronoun to express possession of a state, a core Russian construction."},
+
+{type:"tip", title:"Informal vs Formal Letter Openings",
+ text:"INFORMAL (to friends, family, classmates):\nПривет, [name]! — Hi, [name]!\nКак ты? — How are you?\nНадеюсь, у тебя всё хорошо — I hope all is well with you.\n\nFORMAL (to teachers, bosses, strangers):\nУважаемый/Уважаемая [name] — Dear [name] (m/f)\nС уважением — With respect\n\nFor WhatsApp and Telegram, informal forms are standard even with semi-acquaintances.",
+ deepDive:"The informal register in Russian letters maps to тыкание (using ты). The formal register uses вы. Once you switch to ты with someone, informal letter openings are expected. Switching back to вы in writing would seem cold or ironic."},
+
+{type:"teach", trg:"До скорого", src:"See you soon / Until soon", pos:"intj", gender:null,
+ note:"Casual farewell used in messages and letters.\nMore specific than Пока — implies you will meet again soon.",
+ example:"A: Пока! До скорого!\nB: До скорого!",
+ exampleSrc:"A: Bye! See you soon!\nB: See you soon!",
+ funFact:"До скорого is short for до скорого свидания (until a quick meeting). Russians drop свидания in casual speech, just like До свидания loses its До in very casual Пока. Скорого is the genitive of скорый (quick/soon)."},
+
+{type:"teach", trg:"Обнимаю", src:"I hug you (warm letter closing)", pos:"intj", gender:null,
+ note:"First-person singular of обнимать (to hug).\nUsed as a warm informal closing.",
+ example:"A: Пока! Обнимаю!\nB: Обнимаю тебя!",
+ exampleSrc:"A: Bye! I hug you!\nB: I hug you!",
+ funFact:"Using a verb form (I hug / I kiss) as a letter closing is a distinctly Slavic and Romance convention. English speakers say 'Hugs' (noun) but Russian and French use the first-person verb, making the action personal and direct."},
+
+{type:"teach", trg:"Целую", src:"I kiss you (affectionate letter closing)", pos:"intj", gender:null,
+ note:"From целовать (to kiss).\nUsed between close friends and family in letters.",
+ example:"A: Пока! Целую!\nB: Целую!",
+ exampleSrc:"A: Bye! Kisses!\nB: Kisses!",
+ funFact:"Целую is natural between female friends and across genders in close family. Male friends typically use Обнимаю or Пока. Using Целую with an acquaintance would feel unexpectedly intimate."},
+
+{type:"teach", trg:"С любовью", src:"With love (letter sign-off)", pos:"intj", gender:null,
+ note:"Common warm closing before signing your name.\nС = with + любовью (instrumental of любовь).",
+ example:"A: С любовью, Маша.\nB: С любовью, Саша.",
+ exampleSrc:"A: With love, Masha.\nB: With love, Sasha.",
+ funFact:"С любовью uses the instrumental case of любовь (love). The instrumental often expresses manner — 'with what' something is done or said. Other closings follow the same pattern: С уважением (With respect), С надеждой (With hope)."},
+
+{type:"mc", q:"Which opening is correct for an informal Russian letter to a friend?",
+ opts:["Привет, Катя!","Уважаемый Катя,","Катя: Привет","Катя, здравствуй"],
+ ans:"Привет, Катя!",
+ hint:"A comma follows the greeting, then the recipient's name in Cyrillic."},
+
+{type:"fb", s:"{1}, у тебя всё хорошо!", a:"Надеюсь",
+ opts:["Надеюсь","Привет","Пока","Целую"],
+ hint:"The phrase opener meaning 'I hope' starts this warm body sentence."},
+
+{type:"fb", s:"Пока! {1} скорого!", a:"До",
+ opts:["До","На","За","От"],
+ hint:"The farewell phrase means 'Until soon' — which preposition starts it?"},
+
+{type:"mc", q:"How do you ask 'How are you?' informally in a message?",
+ opts:["Как ты?","Как вы?","Как дела у вас?","Здравствуй?"],
+ ans:"Как ты?",
+ hint:"The informal second-person pronoun marks the casual register."},
+
+{type:"fb", s:"Тепло и {1}, Анна.", a:"Обнимаю",
+ opts:["Обнимаю","Целую","Привет","Надеюсь"],
+ hint:"A warm verb closing meaning 'I hug you' fits after тепло и."},
+
+{type:"mc", q:"Which closing means 'I kiss you' — used between close friends in a letter?",
+ opts:["Целую","Обнимаю","Пока","Привет"],
+ ans:"Целую",
+ hint:"From целовать. A first-person verb form used as an affectionate sign-off."},
+
+{type:"fb", s:"С {1}, Маша.", a:"любовью",
+ opts:["любовью","работой","домом","водой"],
+ hint:"The letter sign-off 'With love' uses the instrumental case of love."},
+
+{type:"match", pairs:[
+  {trg:"Привет, [имя]!", src:"Hi, [name]! (casual opening)"},
+  {trg:"Как ты?", src:"How are you? (informal)"},
+  {trg:"До скорого", src:"See you soon"},
+  {trg:"Обнимаю", src:"I hug you (closing)"},
+  {trg:"С любовью", src:"With love"}
+]}
+
+]}
+
 ]};
 export default UNIT_12;

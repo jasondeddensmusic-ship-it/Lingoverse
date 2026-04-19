@@ -320,6 +320,92 @@ const UNIT_10 = {
        hint:"14:30 is clear and unambiguous. In everyday speech, Italians use both 12-hour and 24-hour time."}
     ,{type:"match",pairs:[{trg:"la partenza",src:"the departure"}]},{type:"mc",q:"How do you say \"to arrive\" in Italian?",opts:["arrivare","la finestra","il tavolo","la bicicletta"],ans:"arrivare",hint:"Recall the Italian vocabulary word taught in this lesson."}]},
     EXP_10_L1, EXP_10_L2, EXP_10_L3,
+    {id:"itv2_u10l_lett", title:"Una lettera informale", icon:"\u2709\uFE0F", xp:15, board:true, steps:[
+      {type:"intro", title:"Writing Short Informal Letters",
+       desc:"Learn to write short informal letters and casual emails in Italian. Essential for CILS A2 and everyday Italian correspondence.",
+       goals:["Open a letter casually","Use common body phrases","Close with a warm farewell"]},
+
+      {type:"teach", trg:"Caro/Cara [nome]", src:"Dear [name] (informal opening)", pos:"intj", gender:null,
+       note:"Use 'Caro' for a male, 'Cara' for a female.\nThis is the standard informal letter opening in Italian.",
+       example:"A: Caro Marco, come stai?\nB: Cara Sofia, sto bene, grazie!",
+       exampleSrc:"A: Dear Marco, how are you?\nB: Dear Sofia, I am well, thank you!",
+       funFact:"'Caro' means both 'dear' and 'expensive' in Italian. In letters, it comes from Latin 'carus' (beloved, precious). The dual meaning reflects how valued a person is: they are 'costly' to your heart."},
+
+      {type:"teach", trg:"ti scrivo", src:"I am writing to you (informal)", pos:"verb", gender:null,
+       note:"From 'scrivere' (to write) + 'ti' (to you, informal).\nUsed in letters and messages to a close friend.",
+       example:"A: Ciao Sofia! Ti scrivo da Roma.\nB: Ciao Marco! Come stai?",
+       exampleSrc:"A: Hi Sofia! I am writing to you from Rome.\nB: Hi Marco! How are you?",
+       funFact:"Italians still write letters by hand for birthdays, thank-you notes, and postcards. 'Ti scrivo' is one of the most poetic phrases in Italian. It opens countless famous letters and songs."},
+
+      {type:"teach", trg:"Spero che tu stia bene", src:"I hope you are well (informal)", pos:"intj", gender:null,
+       note:"A warm, standard opener after the greeting.\nLiterally: 'I hope that you are well.'",
+       example:"A: Cosa scrivi dopo 'Caro Marco'?\nB: Scrivo: Spero che tu stia bene.",
+       exampleSrc:"A: What do you write after 'Dear Marco'?\nB: I write: I hope you are well.",
+       funFact:"This phrase uses the subjunctive mood ('stia' from 'stare'). Even Italians who rarely use subjunctive in speech use it here because it is a fixed letter formula — a great way to meet the subjunctive naturally before studying it formally."},
+
+      {type:"teach", trg:"A presto", src:"See you soon (letter closing)", pos:"intj", gender:null,
+       note:"One of the most common informal closings.\nUsed in letters, emails, and text messages.",
+       example:"A: Ciao! Devo andare. A presto!\nB: A presto! Ciao!",
+       exampleSrc:"A: Hi! I have to go. See you soon!\nB: See you soon! Bye!",
+       funFact:"'A presto' is flexible: it works as a spoken goodbye AND a written closing. In English you must choose between 'Bye!' (spoken) and 'See you soon' (written). Italian uses the same phrase for both."},
+
+      {type:"teach", trg:"Un bacio", src:"A kiss (informal closing)", pos:"intj", gender:null,
+       note:"Warm, affectionate closing for close friends and family.\n'Un bacione' = a big kiss (even warmer).",
+       example:"A: Ciao Sofia! Come stai? Un bacio, Marco.\nB: Grazie, Marco! Un bacio!",
+       exampleSrc:"A: Hi Sofia! How are you? A kiss, Marco.\nB: Thank you, Marco! A kiss!",
+       funFact:"Italians sign letters and WhatsApp messages with 'un bacio' or 'bacioni' (kisses) even between male friends, especially in southern Italy. It reflects the culture's warmth rather than romantic intent."},
+
+      {type:"teach", trg:"Un abbraccio", src:"A hug (informal closing)", pos:"intj", gender:null,
+       note:"Slightly warmer and more affectionate than 'Saluti'.\nCommon in letters and emails to friends or family.",
+       example:"A: Come firmi la lettera?\nB: Con 'Un abbraccio' e il mio nome.",
+       exampleSrc:"A: How do you sign the letter?\nB: With 'A hug' and my name.",
+       funFact:"The double closing 'Un bacio e un abbraccio' (a kiss and a hug) is extremely common in Italian letters. It is the written equivalent of the two-cheek kiss greeting Italians give in person."},
+
+      {type:"teach", trg:"Saluti", src:"Regards (letter closing)", pos:"intj", gender:null,
+       note:"Slightly more neutral than 'Un bacio'. Works for friends and acquaintances.\n'Tanti saluti' = many regards.",
+       example:"A: Cosa scrivi a un amico non molto vicino?\nB: Scrivo: Saluti, Marco.",
+       exampleSrc:"A: What do you write to a friend you are not very close to?\nB: I write: Regards, Marco.",
+       funFact:"'Saluti' is the informal-end-of-spectrum equivalent of 'Cordiali saluti' (warm regards, formal). In practice, most Italians use 'un bacio' or 'un abbraccio' with friends. 'Saluti' is reserved for people somewhere between friend and formal contact."},
+
+      {type:"tip", title:"Sample Informal Letter",
+       text:"Here is a complete short informal letter in Italian:\n\nCara Sofia,\nti scrivo da Roma. Spero che tu stia bene.\nRoma e bellissima. A presto!\nUn bacio,\nMarco\n\nStructure:\n1. Opening: Caro/Cara [nome],\n2. Body opener: ti scrivo... / Spero che tu stia bene.\n3. Main content: one or two sentences.\n4. Closing phrase: A presto / Saluti\n5. Sign-off: Un bacio / Un abbraccio + your name",
+       deepDive:"Informal Italian letters follow a consistent structure that has changed little in a century. The comma after the greeting ('Caro Marco,') is standard. The closing phrase goes on its own line, then the sign-off on the next line. Italians write the city and date at the top right: 'Roma, 15 aprile'. In emails, the same phrases are used but the date header is optional."},
+
+      {type:"mc", q:"What is the correct informal opening for a letter to a female friend named Giulia?",
+       opts:["Caro Giulia,","Gentile Giulia,","Cara Giulia,","Egregio Giulia,"],
+       ans:"Cara Giulia,",
+       hint:"Informal openings use 'Caro' for males and the feminine form for females. 'Gentile' and 'Egregio' are formal."},
+
+      {type:"mc", q:"Which phrase means 'I am writing to you' in an informal Italian letter?",
+       opts:["ti scrivo","vi scrivo","scrivo voi","me scrivo"],
+       ans:"ti scrivo",
+       hint:"The informal singular 'you' object pronoun in Italian is a two-letter word that comes before the verb."},
+
+      {type:"fb", s:"Spero che tu stia {1}.",
+       a:["bene"],
+       opts:["bene","caro","presto","bacio"],
+       hint:"This standard letter opener ends with a common adverb meaning 'well' that you learned in the first unit.",
+       sSrc:"I hope you are {1}."},
+
+      {type:"fb", s:"Un {1}, Marco.",
+       a:["abbraccio"],
+       opts:["abbraccio","viaggio","tavolo","bicchiere"],
+       hint:"You are signing off warmly with a physical gesture of affection. Think of the Italian word for a warm embrace.",
+       sSrc:"A {1}, Marco."},
+
+      {type:"mc", q:"Which two closings are typical for an informal Italian letter?",
+       opts:["Distinti saluti and Egregio","Un bacio and Un abbraccio","Cordiali saluti and Gentile","A domani and Buongiorno"],
+       ans:"Un bacio and Un abbraccio",
+       hint:"Formal closings use 'saluti' with adjectives. Informal ones use warm physical gestures. Which pair reflects that?"},
+
+      {type:"match", pairs:[
+        {trg:"Caro/Cara", src:"Dear (informal opening)"},
+        {trg:"A presto", src:"See you soon (warm closing)"},
+        {trg:"ti scrivo", src:"I am writing to you"},
+        {trg:"Un bacio", src:"A kiss (closing)"},
+        {trg:"Saluti", src:"Regards (closing)"}
+      ]}
+    ]},
   ]
 };
 export default UNIT_10;

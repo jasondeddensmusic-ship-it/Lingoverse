@@ -283,6 +283,115 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
 
 {type:"match", pairs:[
   {trg:"a viagem", src:"the trip"}
-]}]}
+]}]},
+
+{id:"ptv2_u12l4", title:"Uma carta informal", icon:"✉️", xp:15, board:true, steps:[
+{type:"intro", title:"Writing Short Informal Letters",
+ desc:"Learn to write short informal letters, emails, and WhatsApp messages in Brazilian Portuguese. Essential for CAPLE A2 and daily communication.",
+ goals:["Open a letter casually","Use common body phrases","Close with a warm farewell"]},
+
+{type:"teach", trg:"Oi", src:"Hi (casual letter opening)", pos:"intj", gender:null,
+ note:"The most natural casual opening for letters, emails, and WhatsApp messages in Brazil. Add the recipient's name: 'Oi, Ana!'",
+ example:"A: Oi, Ana! Como vai você?\nB: Oi, João! Estou bem, obrigada.",
+ exampleSrc:"A: Hi, Ana! How are you?\nB: Hi, João! I am well, thank you.",
+ funFact:"Brazilians almost never write 'Prezado/a' to friends. 'Oi' opens ninety percent of all informal messages."},
+
+{type:"teach", trg:"Como vai você?", src:"How are you?", pos:"intj", gender:null,
+ note:"Common informal check-in. Shorter than 'Tudo bem?' but just as friendly.",
+ example:"A: Como vai você?\nB: Vou bem! E você?\nA: Tudo bem.",
+ exampleSrc:"A: How are you?\nB: I am well! And you?\nA: All good.",
+ funFact:"'Como vai?' can stand alone without 'você'. Brazilians drop pronouns all the time in casual messages."},
+
+{type:"teach", trg:"Espero que esteja bem.", src:"I hope you are well.", pos:"intj", gender:null,
+ note:"Polite letter-body opener after the greeting. Signals care without being too formal.",
+ example:"A: Espero que esteja bem, João!\nB: Estou bem, sim! Obrigado.",
+ exampleSrc:"A: I hope you are well, João!\nB: I am well, yes! Thank you.",
+ funFact:"'Espero que' triggers the subjunctive ('esteja' instead of 'está'). At A2 you use it as a fixed phrase before learning the full subjunctive at B1."},
+
+{type:"teach", trg:"Até logo", src:"see you soon", pos:"intj", gender:null,
+ note:"Friendly closing that assumes you will meet again. Works in letters and spoken goodbyes.",
+ example:"A: Até logo, Ana!\nB: Até logo! Tchau tchau.",
+ exampleSrc:"A: See you soon, Ana!\nB: See you soon! Bye bye.",
+ funFact:"'Até' means 'until'. You can swap 'logo' for 'amanhã' (tomorrow), 'breve' (soon), or 'mais tarde' (later) to be more specific."},
+
+{type:"teach", trg:"Um beijo", src:"a kiss", pos:"intj", gender:"m",
+ note:"Affectionate letter closing. Brazilians use this freely between friends, regardless of gender.",
+ example:"A: Escrevo mais depois. Um beijo!\nB: Um beijo para você também!",
+ exampleSrc:"A: I will write more later. A kiss!\nB: A kiss for you too!",
+ funFact:"In Brazil, one air-kiss on the cheek is the standard greeting between friends. 'Um beijo' in a message mirrors this physical warmth."},
+
+{type:"teach", trg:"Um abraço", src:"a hug", pos:"intj", gender:"m",
+ note:"Warm but slightly less intimate closing than 'Um beijo'. Common between male friends and colleagues.",
+ example:"A: Boa viagem! Um abraço, João.\nB: Obrigado! Um abraço para você.",
+ exampleSrc:"A: Have a good trip! A hug, João.\nB: Thank you! A hug for you too.",
+ funFact:"'Abraço' comes from 'braço' (arm). A hug is literally an arm-wrap. Brazilians are famous for being physically expressive and warm."},
+
+{type:"teach", trg:"Saudades", src:"missing you", pos:"noun", gender:"f",
+ note:"Unique Portuguese concept: deep longing for someone or something. Plural form 'saudades' is most common.",
+ example:"A: Muitas saudades de você!\nB: Eu também! Quando você vem?\nA: Em dezembro.",
+ exampleSrc:"A: I miss you so much!\nB: Me too! When are you coming?\nA: In December.",
+ funFact:"'Saudade' has no perfect English translation. It is a bittersweet longing for someone absent. Fado music, Portugal's national genre, is built entirely around this feeling."},
+
+{type:"tip", title:"Informal Letter Structure",
+ text:"A short informal message in Brazilian Portuguese has three parts:\n\n1. Opening: 'Oi, [nome]!' or 'Oi!'\n2. Body: 'Espero que esteja bem.' + your news or question\n3. Closing: 'Um beijo,' or 'Um abraço,' + your name\n\nWhatsApp messages often skip the opening and go straight to body. The closing is optional in rapid chats but expected in longer messages.",
+ deepDive:{title:"Beijo vs Abraço vs Saudades",
+  text:"Use as closings:\n\nUm beijo: close friends and family, all genders in Brazil.\nUm abraço: broad use, safe between men who prefer not to use 'beijo'.\nSaudades: when you genuinely miss the person, often in a final line before the closing.\n\nExample order: 'Saudades de você. Um beijo, Ana.' (Missing you. A kiss, Ana.)"}},
+
+{type:"mc", q:"Which phrase opens an informal Brazilian letter most naturally?",
+ opts:["Prezado Senhor,","Oi, Ana!","Boa tarde,","Muito obrigado"],
+ ans:"Oi, Ana!",
+ hint:"Use the same greeting you would in a text message to a friend."},
+
+{type:"fb", s:"Uma mensagem informal começa com {1}, não com 'Prezado Senhor'.",
+ a:["Oi"],
+ opts:["Oi","Olá","Sim","Não"],
+ hint:"The short, warm Brazilian greeting that opens casual messages and WhatsApp chats.",
+ sSrc:"An informal message opens with {1}, not with 'Dear Sir'."},
+
+{type:"fb", s:"{1} você?\nVou bem, obrigada! E você?",
+ a:["Como vai"],
+ opts:["Como vai","Espero que","Até logo","Saudades de"],
+ hint:"A two-word phrase asking how someone is going, often used to open a message body.",
+ sSrc:"{1} you?\nI am well, thanks! And you?"},
+
+{type:"mc", q:"'Espero que esteja bem' is best used:",
+ opts:["As a letter closing","As a letter-body opener after the greeting","As the subject line of an email","As a question"],
+ ans:"As a letter-body opener after the greeting",
+ hint:"It signals care and warmth right after you say hello."},
+
+{type:"fb", s:"Boa viagem para o Rio! {1}!\nObrigado, até logo!",
+ a:["Um abraço"],
+ opts:["Um abraço","Saudades","Sim","Até logo"],
+ hint:"A warm physical-gesture closing, common between friends before a trip.",
+ sSrc:"Have a good trip to Rio! {1}!\nThank you, see you soon!"},
+
+{type:"mc", q:"'Muitas saudades de você!' means:",
+ opts:["See you soon!","I miss you so much!","Nice to meet you!","Thank you for writing!"],
+ ans:"I miss you so much!",
+ hint:"This word expresses a deep Portuguese longing for someone absent."},
+
+{type:"fb", s:"Escrevo mais depois. {1}, Ana.",
+ a:["Um beijo"],
+ opts:["Um beijo","Como vai","Saudades","Espero que"],
+ hint:"An affectionate one-word closing used freely between friends in Brazil.",
+ sSrc:"I will write more later. {1}, Ana."},
+
+{type:"mc", q:"Which phrase means 'See you soon' at the end of a message?",
+ opts:["Saudades","Até logo","Um beijo","Espero que esteja bem."],
+ ans:"Até logo",
+ hint:"A farewell that implies you will meet again soon."},
+
+{type:"mc", q:"'Espero que esteja bem.' is a Portuguese phrase meaning:",
+ opts:["I miss you very much.","I hope you are well.","See you soon.","A hug from me."],
+ ans:"I hope you are well.",
+ hint:"A warm wish placed at the start of the message body."},
+
+{type:"match", pairs:[
+ {trg:"Como vai você?", src:"How are you?"},
+ {trg:"Um beijo", src:"a kiss (closing)"},
+ {trg:"Um abraço", src:"a hug (closing)"},
+ {trg:"Saudades", src:"missing you"}
+]}
+]}
 
 ]}; export default UNIT_12;
