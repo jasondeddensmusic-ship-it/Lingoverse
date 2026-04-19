@@ -335,7 +335,107 @@ const UNIT_14 = {
        opts:["Il contratto","Il lavoro","Il progetto","Lo stage"],
        ans:"Lo stage",
        hint:"This word is borrowed from French and pronounced 'stazh.' The formal Italian alternative is 'tirocinio.'"}
-    ,{type:"match",pairs:[{trg:"dimettersi",src:"to resign"}]}]}
+    ,{type:"match",pairs:[{trg:"dimettersi",src:"to resign"}]}]},
+
+    {id:"itv2_u14l_civ", title:"Concetti sociali", icon:"🏛️", xp:15, board:true, steps:[
+      {type:"intro", title:"B1 Civic Vocabulary",
+       desc:"Learn 7 essential B1 Italian words for discussing society, economy, and ideas: to compare, society, politics, economy, education, development, advantage. Essential for CILS B1/B2 writing and opinion tasks.",
+       goals:["Master 7 abstract civic words","Use them in formal discussion","Structure opinion writing"]},
+
+      {type:"teach", trg:"confrontare", src:"to compare", pos:"verb", gender:null,
+       note:"Regular -are verb.\n'Confrontare A con B' = to compare A with B.",
+       example:"A: Come confronti questo lavoro con quello precedente?\nB: Il nuovo lavoro offre uno stipendio migliore.\nA: E le condizioni?\nB: Molto meglio, sono soddisfatto.",
+       exampleSrc:"A: How do you compare this job with the previous one?\nB: The new job offers a better salary.\nA: And the conditions?\nB: Much better, I am satisfied.",
+       funFact:"From Latin 'confrontare' (to face, to stand opposite). The same root gives English 'confront.' In Italian academic and journalistic writing, this verb is essential for analysis essays."},
+
+      {type:"teach", trg:"la società", src:"society", pos:"noun", gender:"f",
+       note:"Feminine. Irregular: ends in -a but does not change in plural ('le societa').\nAlso means 'company' in a business context.",
+       example:"A: La società ha bisogno di più istruzione.\nB: Sono d'accordo. Ogni cittadino deve poter studiare.\nA: E qual e il ruolo della politica?\nB: Creare le condizioni giuste.",
+       exampleSrc:"A: Society needs more education.\nB: I agree. Every citizen must be able to study.\nA: And what is the role of politics?\nB: To create the right conditions.",
+       funFact:"The word 'società' covers both 'society' and 'company' (e.g. società per azioni = a joint-stock company). The context always makes it clear which meaning is intended."},
+
+      {type:"teach", trg:"la politica", src:"politics / policy", pos:"noun", gender:"f",
+       note:"Feminine. Can mean 'politics' (the field) or 'policy' (a specific rule).\nFrom Greek 'politike' (the art of governing).",
+       example:"A: Ti interessa la politica?\nB: Un po'. Seguo le notizie ogni giorno.\nA: Pensi che i politici lavorino bene?\nB: Dipende. Alcuni sì, altri no.",
+       exampleSrc:"A: Are you interested in politics?\nB: A little. I follow the news every day.\nA: Do you think politicians work well?\nB: It depends. Some yes, others no.",
+       funFact:"Ancient Greek split governance into 'politike' (public affairs) and 'oikonomia' (household management). Both roots survive in Italian today: politica and economia."},
+
+      {type:"teach", trg:"l'economia", src:"the economy / economics", pos:"noun", gender:"f",
+       note:"Feminine. Refers to the national or global economy, or to economics as a discipline.\nFrom Greek 'oikonomia' (household management).",
+       example:"A: Come va l'economia del paese?\nB: Non bene. La disoccupazione è alta.\nA: E lo sviluppo?\nB: Lento, ma c'è qualche segnale positivo.",
+       exampleSrc:"A: How is the country's economy doing?\nB: Not well. Unemployment is high.\nA: And development?\nB: Slow, but there are some positive signs.",
+       funFact:"Italy has the third-largest economy in the eurozone. The term 'economia sommersa' (shadow economy) is widely used in Italian public debate, referring to unreported economic activity estimated at 10-15% of GDP."},
+
+      {type:"teach", trg:"l'istruzione", src:"education (formal system)", pos:"noun", gender:"f",
+       note:"Feminine. Refers to the formal education system, not a single lesson.\nFrom Latin 'instruere' (to build up, to equip).",
+       example:"A: L'istruzione pubblica è gratuita in Italia?\nB: Sì, fino alle scuole superiori.\nA: E l'università?\nB: Le tasse universitarie esistono, ma ci sono borse di studio.",
+       exampleSrc:"A: Is public education free in Italy?\nB: Yes, up to secondary school.\nA: And university?\nB: University fees exist, but there are scholarships.",
+       funFact:"Italy has one of the oldest universities in the world. The University of Bologna, founded in 1088, is the oldest continuously operating university on earth. Its motto: 'Alma mater studiorum.'"},
+
+      {type:"teach", trg:"lo sviluppo", src:"development / growth", pos:"noun", gender:"m",
+       note:"Masculine. From 'sviluppare' (to develop, to unfold).\nUsed for economic, personal, or technical growth.",
+       example:"A: Lo sviluppo economico crea nuovi posti di lavoro.\nB: Sì, ma deve essere sostenibile.\nA: È importante per la società.\nB: Molto. Lo sviluppo e l'istruzione vanno insieme.",
+       exampleSrc:"A: Economic development creates new jobs.\nB: Yes, but it must be sustainable.\nA: It is important for society.\nB: Very much. Development and education go together.",
+       funFact:"'Sviluppo' comes from 'sviluppare,' which originally meant 'to unwrap' (dis-envelop). The idea of 'unwrapping potential' still resonates in phrases like 'sviluppo personale' (personal development)."},
+
+      {type:"teach", trg:"il vantaggio", src:"the advantage", pos:"noun", gender:"m",
+       note:"Masculine. Plural: i vantaggi.\nOpposite: lo svantaggio (the disadvantage).",
+       example:"A: Qual è il vantaggio di confrontare più offerte di lavoro?\nB: Puoi scegliere lo stipendio migliore.\nA: E lo svantaggio?\nB: Richiede più tempo. Ma vale la pena.",
+       exampleSrc:"A: What is the advantage of comparing several job offers?\nB: You can choose the best salary.\nA: And the disadvantage?\nB: It takes more time. But it is worth it.",
+       funFact:"'Vantaggio' entered Italian from Old French 'avantage' (from 'avant' = before, forward). In tennis scoring, 'vantaggio' is the Italian term used when the score reaches deuce and one player gains the next point."},
+
+      {type:"tip", title:"Expressing Opinion in Italian",
+       text:"These civic words appear constantly in formal Italian writing. Useful opinion phrases:\n\nA mio parere... (In my opinion...)\nSecondo me... (According to me...)\nRitengo che + subjunctive... (I believe that...)\nSono convinto/a che... (I am convinced that...)\n\nNote: after opinion verbs like 'ritenere' and 'credere,' use the subjunctive.\nExample: Ritengo che la società abbia bisogno di più istruzione.\n(I believe that society needs more education.)",
+       icon:"✍️",
+       deepDive:{title:"Civic Italian in CILS writing tasks",
+        text:"The CILS B1 and B2 writing tasks often ask you to express an opinion on a social or political topic. Strong candidates use all 7 words from this lesson. A typical prompt: 'Quali sono i vantaggi e gli svantaggi dello sviluppo tecnologico per la società?' (What are the advantages and disadvantages of technological development for society?) Notice how confrontare, l'economia, la politica, and l'istruzione all fit naturally into this essay. The examiner rewards precise vocabulary, not just grammatical correctness."}},
+
+      {type:"mc", q:"What does 'confrontare' mean?",
+       opts:["To confirm","To confront","To compare","To consider"],
+       ans:"To compare",
+       hint:"This -are verb is used to place two things side by side and examine differences. Think of placing them 'face to face.'"},
+
+      {type:"fb", s:"Come {1} questo lavoro con il precedente?",
+       a:["confronti"],
+       opts:["confronti","descrivi","cerchi","trovi"],
+       hint:"Fill in the tu-form of the verb meaning 'to compare.' Regular -are verb, second person singular.",
+       sSrc:"How do you {1} this job with the previous one?"},
+
+      {type:"mc", q:"'La società' can mean both 'society' AND which other thing?",
+       opts:["The state","A company","The government","The public"],
+       ans:"A company",
+       hint:"In business contexts, this word refers to a legal entity that employs people. Think 'società per azioni.'"},
+
+      {type:"mc", q:"Which gender is 'lo sviluppo'?",
+       opts:["Feminine","Neuter","Masculine","It has no gender"],
+       ans:"Masculine",
+       hint:"Check the article: 'lo' is used with m nouns starting with s+consonant clusters, like sv-. What gender takes 'lo'?"},
+
+      {type:"fb", s:"L'{1} del paese cresce lentamente quest'anno.",
+       a:["economia"],
+       opts:["economia","istruzione","politica","società"],
+       hint:"Fill in the noun describing the system of production, trade, and money in a country. It uses l' because it starts with a vowel.",
+       sSrc:"The country's {1} is growing slowly this year."},
+
+      {type:"match", pairs:[
+        {trg:"confrontare", src:"to compare"},
+        {trg:"la società", src:"society"},
+        {trg:"la politica", src:"politics"},
+        {trg:"l'istruzione", src:"education"},
+        {trg:"il vantaggio", src:"the advantage"}
+      ]},
+
+      {type:"fb", s:"Qual è il {1} principale di questo piano?",
+       a:["vantaggio"],
+       opts:["vantaggio","progetto","sviluppo","capo"],
+       hint:"Fill in the masculine noun meaning the positive side or benefit of a plan. Its opposite is 'lo svantaggio.'",
+       sSrc:"What is the main {1} of this plan?"},
+
+      {type:"mc", q:"Which sentence uses 'lo sviluppo' correctly?",
+       opts:["Lo sviluppo è un verbo irregolare.","Lo sviluppo economico crea lavoro.","La sviluppo della città è rapida.","Un sviluppo, per favore."],
+       ans:"Lo sviluppo economico crea lavoro.",
+       hint:"One option uses the right article AND builds a meaningful civic phrase about growth and jobs. Eliminate the grammar errors and nonsense options first."}
+    ]}
   ]
 };
 export default UNIT_14;
