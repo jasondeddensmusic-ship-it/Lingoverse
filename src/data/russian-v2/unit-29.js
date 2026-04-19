@@ -77,6 +77,12 @@ const UNIT_29 = {n:29, lang:"ru", srcLang:"en", track:"v2", title:"СМИ и н�
  hint:"'По моему + DAT' = in my opinion. Dative neuter.",
  sSrc:"In my opinion, this is important."},
 
+{type:"fb", s:"Я читаю {1} каждое утро за кофе.",
+ a:["газета"],
+ opts:["газета","телевизор","интернет","новости"],
+ hint:"A printed publication you read, not a screen.",
+ sSrc:"I read the newspaper every morning with coffee."},
+
 {type:"match", pairs:[
   {trg:"новости", src:"news"},
   {trg:"газета", src:"newspaper"},

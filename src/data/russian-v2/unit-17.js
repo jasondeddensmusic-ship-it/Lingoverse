@@ -155,7 +155,19 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
   {trg:"о матери", src:"about mother"},
   {trg:"в здании", src:"in the building"}
 ]}
-,{type:"match",pairs:[{trg:"в магазине",src:"at the shop"},{trg:"музей → музее",src:"museum → in museum (m)"},{trg:"комната → комнате",src:"room → in room (f)"},{trg:"площадь → площади",src:"square → on square (f)"},{trg:"окно → окне",src:"window → at window (n)"},{trg:"здание → здании",src:"building → in building (n)"}]}]}
+,{type:"fb", s:"A: Где можно купить хлеб?\nB: {1}.",
+ a:["в магазине"],
+ opts:["в магазине","в школе","на работе","в доме"],
+ hint:"The place you go to shop and buy things.",
+ sSrc:"A: Where can you buy bread?\nB: At the shop."},
+
+{type:"fb", s:"A: Где папа сейчас?\nB: {1}.",
+ a:["на работе"],
+ opts:["на работе","в школе","в городе","в доме"],
+ hint:"He's doing his job right now, not at home.",
+ sSrc:"A: Where is dad right now?\nB: At work."},
+
+{type:"match",pairs:[{trg:"в магазине",src:"at the shop"},{trg:"музей → музее",src:"museum → in museum (m)"},{trg:"комната → комнате",src:"room → in room (f)"},{trg:"площадь → площади",src:"square → on square (f)"},{trg:"окно → окне",src:"window → at window (n)"},{trg:"здание → здании",src:"building → in building (n)"}]}]}
 
 ]};
 export default UNIT_17;

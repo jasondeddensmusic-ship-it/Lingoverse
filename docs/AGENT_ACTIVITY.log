@@ -21,3 +21,5 @@ audit trail. Format: `YYYY-MM-DDTHH:MM:SSZ | agent-id | task | outcome`.
 2026-04-19 | main | pp63_audit.cjs Romance morphology added (verb stem matching) | Italian -126, Spanish -18, French -13, PT -4, other langs unchanged
 2026-04-19 | main | PR #195 merged (Romance morphology in pp63) | CI green
 2026-04-19 | main | validate_all.cjs PP67 morphology added | French 5→0, Italian 104→67, Portuguese 3→2 (all via conjugation-transparency)
+2026-04-19 | main | PR #196 merged (PP67 morphology) | CI green
+2026-04-19 | main + russian-linguist-sonnet | PP67 remediation Portuguese/Chinese/Russian | 13 production fbs added across 12 files; 7/10 langs now 0 PP67 flags (only Italian 67 and Japanese 121 batch files remain)

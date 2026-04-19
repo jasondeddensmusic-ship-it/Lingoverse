@@ -247,6 +247,12 @@ lessons:[
 
 ,
 
+{type:"fb", s:"四川(Sìchuān)菜(cài)很(hěn){1}，我(wǒ)喜欢(xǐhuān)。",
+ a:["辣(là)"],
+ opts:["辣(là)","甜(tián)","酸(suān)","咸(xián)"],
+ hint:"Sichuan cuisine is famous for this flavor.",
+ sSrc:"Sichuan food is very {1}, I like it."},
+
 {type:"match", pairs:[
   {trg:"菜(cài)", src:"dish / cuisine / vegetable"},
   {trg:"味道(wèidào)", src:"taste / flavor"},
