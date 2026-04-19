@@ -25,25 +25,17 @@ _None currently._
 
 ## P1 — Pedagogical completeness (mechanical, no external blockers)
 
-### PP63-AUDIT-001 — DONE 2026-04-19 (previous session)
+### ~~PP63-AUDIT-001~~ — DONE 2026-04-19
 - Per-language baselines committed under `docs/audits/pp63_baseline_<lang>-v2.md`.
 
-### PP63-REMEDIATION-PORTUGUESE — 103 untraced cards remain (was 147)
-- **progress:** Units 1-3 + 7/8/10 cleared this session (44 cards).
-- **remaining:** units 9, 11-36. Unit 9 has 9 flags mostly inflectional
-  (dói/sente/verdes) — consider improving `pp63_audit.cjs` to handle
-  Portuguese verb stems (-ar/-er/-ir truncation) before rewriting.
-- **acceptance:** 0 flags for portuguese-v2 via `node scripts/pp63_audit.cjs portuguese-v2`.
+### ~~PP63-REMEDIATION-ALL-LANGUAGES~~ — DONE 2026-04-19 (PRs #191-#204)
+- All 10 languages cleared from 24,710 total flags → 0. All PASS.
+- Morphology-aware audit (verb stems, plurals) implemented in `pp63_audit.cjs` (PR #195).
+- Whitelist approach used for transparent cognates; content rewrites used where examples were genuinely broken.
 
-### PP63-AUDIT-IMPROVEMENT — Add Portuguese/Spanish/Italian/French morphology
-- **context:** Current pp63_audit uses substring matching only. Verb conjugations
-  (sentir → sente, doer → dói) and plurals (café → cafés) aren't transparent
-  to the check even though they ARE transparent to learners.
-- **proposal:** Add a per-language `stem(word, langCode)` helper that strips
-  -r infinitive endings, -s/-es plurals, and common verb endings before
-  comparing. Keep conservative — over-stripping causes false negatives.
-- **acceptance:** Portuguese baseline drops from 103 → <60 without any
-  content edit; Spanish/Italian/French baselines drop proportionally.
+### ~~PP63-AUDIT-IMPROVEMENT~~ — DONE 2026-04-19 (PR #195)
+- Romance morphology (verb stem matching) added to `pp63_audit.cjs` and `validate_all.cjs`.
+- False positive rate dropped significantly without requiring content changes.
 
 ### FILLER-CLEANUP-001 — Replace all `src:"(review)"` match-pair filler with the teach card's real translation
 - **preconditions:** `scripts/cleanup_review_fillers.cjs` exists.
@@ -74,13 +66,10 @@ _None currently._
 ### ~~PP67-REMEDIATION-RUSSIAN~~ — DONE 2026-04-19 (PR #197 via russian-linguist agent)
 ### ~~PP67-REMEDIATION-FRENCH~~ — DONE via morphology (PR #196)
 
-### PP67-REMEDIATION-ITALIAN — IN PROGRESS 2026-04-19 (agent sonnet)
-- 67 batch files flagged (down from 104 after morphology PR #196).
-- Agent running: one production fb per file using existing taught trgs.
-
-### PP67-REMEDIATION-JAPANESE — IN PROGRESS 2026-04-19 (2 agents sonnet)
-- 121 batch files flagged; PP65 kanji+furigana rules apply.
-- Split across 2 agents (batch2-6 / batch7-11+units).
+### ~~PP67-REMEDIATION-ITALIAN~~ — DONE 2026-04-19 (PR #198)
+### ~~PP67-REMEDIATION-JAPANESE~~ — DONE 2026-04-19 (PR #198)
+- All 10 languages now 0 under-production units. `validate_all.cjs` reports PASS for all langs.
+- Note: Japanese unit-15 and unit-22 still have 1 production quiz where 2 is preferred — they pass threshold overall but are candidates for a future polish pass.
 
 ### PP66-VALIDATOR — Implement filler-coverage check in `scripts/check_filler.cjs`
 - **acceptance:** Grep for `"(review)"`, `"(taught)"`, `"(TBD)"`, `"(see above)"` in all `src/data/*.js`. Zero matches required. Runs as pre-commit / pre-push hook.
@@ -92,24 +81,26 @@ _None currently._
 
 ## P2 — Product features (requires UI work)
 
-### PLACEMENT-QUIZ — Ceiling-test placement quiz with forgiveness algorithm
-- **acceptance:** React component with algorithm: 5 baseline per sub-level, 3/5 pass, 2 reinforcement questions per wrong, reinforcement-recovery resets streak, 5-wrong safety valve terminates. Integrated into onboarding flow optionally.
+### ~~PLACEMENT-QUIZ~~ — DONE 2026-04-19 (unmerged on sad-cohen-32e111, commit e2a8fc8)
+- Ceiling-test placement quiz integrated into onboarding. Starting-level state persisted; UnitMap shows "Placed" badge on auto-unlocked units.
+- **Next:** merge PR from sad-cohen-32e111 branch.
 
-### SRS-LESSON-INTEGRATION — Wire ts-fsrs into LessonEngine
-- **acceptance:** Missed quiz items call `fsrs.update(grade: Again)`. Correct items call `fsrs.update(grade: Good/Easy)`. `DailyReview` mode exists surfacing due-today cards. Existing Flashcards page still works.
-- **risk:** LessonEngine.jsx is ~4,000 lines. High surface area.
+### ~~SRS-LESSON-INTEGRATION~~ — DONE 2026-04-19 (unmerged on sad-cohen-32e111, commit d828866)
+- ts-fsrs wired into LessonEngine. Missed items call `fsrs.update(grade: Again)`, correct items call `fsrs.update(grade: Good/Easy)`. Daily Review tile surfaces due-today cards.
+- **Next:** merge PR from sad-cohen-32e111 branch. Needs Supabase backend to persist across devices (STOPS-ON item below).
 
 ### CAN-DO-MILESTONES — Surface CEFR can-do statements in profile page
 - **acceptance:** For each language the user studies, show a checklist of can-do statements per CEFR sub-level with progress indicators tied to units completed.
 
 ## P2 — Content expansion (dual-linguist gated)
 
-### VERUMIUS-STORY-SPANISH — Port Verumius story framework to Spanish
-- **acceptance:** A1 story-mode dialogues exist for the first 6 units with 2-bubble format. Text only; art follows separately.
-- **flow:** Author-agent (Opus) writes; Validator A (grammar/accuracy) + Validator B (register/idiomaticity) cross-read per Rule G.
+### ~~VERUMIUS-STORY-SPANISH~~ — DONE 2026-04-19 (unmerged on sad-cohen-32e111, commit fee89b8)
+- Verumius A1 story arcs for Spanish units 1-6 written. 2-bubble dialogues format. Text-only; art follows.
+- **Next:** merge PR from sad-cohen-32e111 branch.
 
 ### VERUMIUS-STORY-JAPANESE — Port Verumius to Japanese
-- Same pattern with kanji+furigana per PP65.
+- Same pattern with kanji+furigana per PP65. Not yet started.
+- **flow:** Author-agent (Opus) writes; Validator A + Validator B cross-read per Rule G.
 
 ## P3 — Audit catch-up
 
@@ -122,12 +113,35 @@ _None currently._
 ### PP58-AUDIT — CEFR communicative function coverage
 - Only German currently audited.
 
-## P3 — Feature polish (deferred)
+## P3 — Feature polish
 
-### VERB-TABLES-CLICKABLE — `verb_table` forms don't use `universalHl()`; no click-to-see, no POS colors
-### IDIOMS-PAGE-SEARCH — 45 entries with no filter/search
-### GERMAN-FOUNDATIONS-CONTENT — "Coming soon" placeholder
-### LESSON-TRANSITIONS — Completion celebrations still TODO
+### ~~VERB-TABLES-CLICKABLE~~ — DONE 2026-04-19 (unmerged on sad-cohen-32e111, commit 2d5c69a)
+- `verb_table` forms now use `universalHl()`. POS colors + tap-to-see active.
+
+### IDIOMS-PAGE-SEARCH — 45 entries with no filter/search. Still open.
+
+### ~~GERMAN-FOUNDATIONS-CONTENT~~ — DONE (was never actually "coming soon")
+- Full content has existed in `src/data/foundations.js` since 2026-04-08 (alphabet, pronunciation, vowels, consonants, umlauts, articles, gate quiz). CLAUDE.md had a stale entry. Corrected 2026-04-19.
+
+### ~~LESSON-TRANSITIONS~~ — DONE 2026-04-19 (unmerged on sad-cohen-32e111, commit 1b768cd)
+- Completion celebration screen with confetti + streak added to LessonEngine.
+
+### DUTCH-GRAMMAR-TEACHER-BOARD — DONE 2026-04-19 (unmerged on sad-cohen-32e111, commit 151684b)
+- 36 real NT2-aligned entries replacing mock stubs.
+
+### COGNATE-HUB-TIP-CARDS — DONE 2026-04-19 (unmerged on sad-cohen-32e111, commit aec94c6)
+- Cognate Hub tip cards added to Spanish/French/Italian/Portuguese/German Unit 1.
+
+### PP56-CEFR-DISTRIBUTION — French/Spanish/Korean still template-based (not concept-driven)
+- **description:** Audit French (90 units), Spanish (92 units), Korean (69 units) against concept-driven PP56 standard. May require reshaping unit boundaries.
+- **acceptance:** PP56 audit report for each language; concept-driven justification or reshaping plan for each.
+
+### JAPANESE-PP67-POLISH — unit-15 and unit-22 have 1 production quiz where 2 is preferred
+- **description:** Add one more `fb` or `drag_fill` step per unit targeting existing taught vocabulary.
+- **acceptance:** `validate_all.cjs japanese-v2` reports 0 under-production units with no soft flags.
+
+### SUPABASE-BACKEND — Wire auth/progress/SRS data to Supabase
+- **STOPS-ON:** owner green-light on Supabase plan + project URL + anon key. See `docs/` backend recommendation doc (commit 8710737).
 
 ---
 
@@ -157,12 +171,37 @@ _None currently._
 - Core Principles 14–18 added
 - Autonomy infrastructure docs created
 
-## Done this session (sad-cohen-32e111, 2026-04-19 late)
+## Done this session (sad-cohen-32e111, 2026-04-19 late — full session)
 
-- PP67 production-mode validator implemented in `scripts/validate_all.cjs` + baseline captured (PR #189)
-  - 4 langs PASS: Dutch, German, Korean, Spanish
-  - Remaining: 243 unit-level flags across 7 languages
-- `scripts/generate_queue.cjs` + first snapshot at `docs/audits/queue_snapshot_<date>.md` (PR #190)
-- PP63 Portuguese remediation: 44 cards cleared across units 1-3 and 7/8/10 (147 → 103) (PR #191, #192)
-  - Dual-linguist Rule G validation applied (Sonnet Brazilian-Portuguese linguist agent cross-read unit-01)
-  - Rewrites use only taught vocabulary + function words + proper nouns
+**Validator infrastructure (merged to main, PRs #189-#204):**
+- PP67 production-mode validator + baseline (PR #189) — 243 initial violations
+- Queue generator `scripts/generate_queue.cjs` (PR #190)
+- PP63 morphology-aware audit for Romance langs (PR #195)
+- PP67 Romance morphology fix — French cleared without content edits (PR #196)
+- PP67 cleared: Portuguese, Chinese, Russian (PR #197)
+- PP67 cleared: Italian, Japanese — all 10 languages PASS (PR #198)
+- PP63 inflection normalization + Italian PP8 visual leak (PR #199)
+- PP63 cleared: Portuguese fully 0 (PR #200)
+- PP63 cleared: Chinese 638 → 0 (PR #201)
+- PP63 cleared: Russian 348 → 0 (PR #202)
+- PP63 cleared: French, German, Italian, Spanish (PR #203)
+- PP63 cleared: Dutch, Korean, Japanese, Spanish final (PR #204)
+- **Final state: ALL 10 languages 0 violations across PP63/PP64/PP67/PP8/PP43/PP48**
+
+**Feature commits (unmerged — on sad-cohen-32e111 branch, pending PR):**
+- Supabase backend recommendation doc (commit 8710737)
+- SRS wired into LessonEngine via ts-fsrs (commit d828866)
+- Verumius A1 story arcs for Spanish units 1-6 (commit fee89b8)
+- Dutch grammar rewritten: 36 real NT2-aligned entries (commit 151684b)
+- Verb table forms clickable + POS-colored (commit 2d5c69a)
+- Cognate Hub tip cards added to 5 languages (commit aec94c6)
+- Lesson completion celebration screen + streak (commit 1b768cd)
+- Placement quiz integration + starting-level unlock in UnitMap (commit e2a8fc8)
+
+**CLAUDE.md stale entries fixed (2026-04-19):**
+- Russian grammar: "2 entries (placeholder)" → 50 real TRKI-aligned entries
+- Dutch grammar: "mock / needs teacher-board rewrite" → DONE (36 NT2 entries)
+- German Foundations: "Coming soon placeholder" → has been live since 2026-04-08
+- Japanese batch note: "still use pure hiragana" → PP65 complete since 2026-04-17
+- Grammar module total: 470 → 521 (no zero-placeholder languages remain)
+- Validator state totals updated throughout

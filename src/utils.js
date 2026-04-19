@@ -2,7 +2,7 @@
 // Extracted from verumlingua.jsx for modularity
 
 import { LEVEL_XP } from './data/vocabulary.js';
-import { LANGUAGES, LANG_META } from './data/metadata.js';
+import { LANGUAGES, LANG_META, CEFR_LEVELS } from './data/metadata.js';
 import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH } from './data/foundations.js';
 import dutchV2Units from './data/units-dutch-v2.js';
 import koreanV2Units from './data/units-korean-v2.js';
@@ -662,8 +662,20 @@ if(typeof window!=="undefined"&&window.__lingoDevGuardLangCodes){
 }catch(e){}
 
 
+// ── CEFR sub-level comparator ──
+// compareCefrLevel("A2.1", "A1.2") → positive (A2.1 > A1.2)
+// compareCefrLevel("A1.1", "B1.1") → negative (A1.1 < B1.1)
+// compareCefrLevel("A2.1", "A2.1") → 0 (equal)
+// Unknown levels map to index -1, which sorts before all known levels.
+const compareCefrLevel=(a,b)=>{
+  const ai=CEFR_LEVELS.findIndex(l=>l.id===a);
+  const bi=CEFR_LEVELS.findIndex(l=>l.id===b);
+  return ai-bi;
+};
+
 export { shuffle, pick, clamp, getLevel, cap, xpNext, xpCurr };
 export { _normStep, UNITS, _RAW_UNITS };
 export { _romanize, _normS, _findHit, searchUnits };
+export { compareCefrLevel };
 export { __contentWarnings, validateLessonForLeaks };
 export { __devWarnings };
