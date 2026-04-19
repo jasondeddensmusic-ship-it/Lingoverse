@@ -282,5 +282,108 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
 ]}
 ,{type:"match",pairs:[{trg:"тело",src:"body"},{trg:"рот",src:"mouth"},{trg:"нос",src:"nose"},{trg:"горло",src:"throat"},{trg:"болеть",src:"to be sick / to hurt"},{trg:"здоровый",src:"healthy (m)"}]},{type:"match",pairs:[{trg:"отдыхать",src:"to rest (imperfective)"},{trg:"приём",src:"appointment / reception"},{trg:"принимать",src:"to take (medicine)"},{trg:"помочь",src:"to help (perfective)"}]}]}
 
+,
+
+{id:"ruv2_u9l_apt", title:"Записаться на приём", icon:"📅", xp:15, board:true, steps:[
+
+{type:"intro", title:"Making Appointments",
+ desc:"Learn to make, confirm, and reschedule appointments in Russian. Essential for clinics, dentists, and service centres. Tested on TRKI A2.",
+ goals:["Make appointments by phone","Confirm and cancel appointments","Reschedule a visit","Use polite Russian (Вы form)"]},
+
+{type:"teach", trg:"запись", src:"booking / registration entry", pos:"noun", gender:"f",
+ note:"Feminine. From 'записать' (to write down).\nНа записи = on the list. Записи нет = no booking.",
+ example:"A: Есть запись на завтра?\nB: Да, запись есть.",
+ exampleSrc:"A: Is there a booking for tomorrow?\nB: Yes, there is a booking.",
+ funFact:"Russian clinics use 'запись' for both the act of registering and the record itself. Soviet-era queues were managed via written 'записи' — lists posted on doors the night before."},
+
+{type:"teach", trg:"записаться на приём", src:"to make an appointment", pos:"verb", gender:null,
+ note:"Reflexive perfective phrase.\nZаписаться = sign yourself up. На приём = for a reception/visit.",
+ example:"A: Я хочу записаться на приём.\nB: К какому врачу?",
+ exampleSrc:"A: I want to make an appointment.\nB: With which doctor?",
+ funFact:"Both words already exist: записаться (to register) + приём (reception). Russians combine them into a single fixed phrase for booking medical visits, exactly like English 'make an appointment.'"},
+
+{type:"teach", trg:"подтвердить", src:"to confirm (perfective)", pos:"verb", gender:null,
+ note:"Perfective. Imperfective pair: подтверждать.\nSubject confirms an existing plan.",
+ example:"A: Вы подтвердите приём?\nB: Да, подтверждаю.",
+ exampleSrc:"A: Will you confirm the appointment?\nB: Yes, I confirm it.",
+ funFact:"Подтвердить = under + affirm. Related to 'твёрдый' (firm, solid). To confirm = to make firm under. Same logic as English 'confirm' from Latin 'firmus' (firm)."},
+
+{type:"teach", trg:"отменить", src:"to cancel (perfective)", pos:"verb", gender:null,
+ note:"Perfective. Imperfective pair: отменять.\nОтменить приём = cancel an appointment.",
+ example:"A: Нужно отменить приём.\nB: Хорошо.",
+ exampleSrc:"A: I need to cancel the appointment.\nB: OK.",
+ funFact:"Отменить comes from 'отмена' (cancellation, abolition). Historically used for major decrees: 'отмена крепостного права' = abolition of serfdom (1861). Now routinely used for dentist cancellations."},
+
+{type:"teach", trg:"перенести", src:"to reschedule / to move (perfective)", pos:"verb", gender:null,
+ note:"Perfective. Imperfective: переносить.\nПеренести приём = move the appointment to another time.",
+ example:"A: Можно перенести приём?\nB: Да, на когда?",
+ exampleSrc:"A: Can I reschedule the appointment?\nB: Yes, to when?",
+ funFact:"Перенести literally means 'to carry across.' In scheduling, you 'carry' the event to a new date. Also used physically: перенести коробку = carry a box across the room."},
+
+{type:"teach", trg:"Я хотел(а) бы записаться...", src:"I would like to make an appointment...", pos:"intj", gender:null,
+ note:"Conditional polite request. Хотел = masc, хотела = fem.\nбы = subjunctive particle — makes it softer.",
+ example:"A: Я хотел бы записаться на приём к врачу.\nB: Хорошо, когда?",
+ exampleSrc:"A: I would like to make an appointment with a doctor.\nB: OK, when?",
+ funFact:"Хотел бы = wanted + бы (the would-particle). Бы turns any past-tense form into conditional/polite. It floats freely: 'Я бы хотел' and 'Я хотел бы' are both correct."},
+
+{type:"teach", trg:"Когда Вам удобно?", src:"When is convenient for you? (polite)", pos:"intj", gender:null,
+ note:"Вам = dative of Вы (polite you).\nУдобно = convenient (predicate adjective).",
+ example:"A: Когда Вам удобно?\nB: Завтра, если можно.",
+ exampleSrc:"A: When is convenient for you?\nB: Tomorrow, if possible.",
+ funFact:"Russian uses 'Вам удобно' (convenient to you) rather than 'Are you free?' English asks about freedom; Russian asks about convenience — a culturally telling difference in framing."},
+
+{type:"tip", title:"Phone Call: Making an Appointment",
+ text:"Standard Russian phone script for a clinic appointment:\n\nOPENING:\nЗдравствуйте! Я хотел(а) бы записаться на приём к врачу.\n(Hello! I would like to make an appointment with a doctor.)\n\nCLINIC ASKS:\nКогда Вам удобно?\n(When is convenient for you?)\n\nYOU RESPOND:\nЗавтра, если можно. / В пятницу.\n(Tomorrow, if possible. / On Friday.)\n\nCONFIRM:\nПожалуйста, подтвердите, что я записан(а).\n(Please confirm that I am registered.)\n\nCANCEL:\nМне нужно отменить приём на среду.\n(I need to cancel my Wednesday appointment.)\n\nRESCHEDULE:\nМожно перенести на другой день?\n(Can it be moved to another day?)\n\nKey pattern: Вы / Вам (polite you) is standard on the phone.",
+ icon:"📞"},
+
+{type:"mc", q:"Which phrase means 'to make an appointment' in Russian?",
+ opts:["записать врача","записаться на приём","подтвердить приём","перенести приём"],
+ ans:"записаться на приём",
+ hint:"Reflexive verb + 'на приём' — you sign yourself up for a reception slot."},
+
+{type:"mc", q:"Which verb means 'to cancel' an appointment?",
+ opts:["перенести","подтвердить","записаться","отменить"],
+ ans:"отменить",
+ hint:"Think of a historic abolition decree — the same verb applies to dentist slots."},
+
+{type:"fb", s:"A: Вы можете {1} завтрашний приём?\nB: Да, конечно.",
+ a:["подтвердить"],
+ opts:["подтвердить","отменить","перенести","записать"],
+ hint:"Speaker B says 'yes, of course' — what action is being agreed to?",
+ sSrc:"A: Can you confirm tomorrow's appointment?\nB: Yes, of course."},
+
+{type:"fb", s:"A: Мне нужно {1} приём — я занят в пятницу.\nB: Хорошо, есть среда.",
+ a:["перенести"],
+ opts:["перенести","отменить","подтвердить","записать"],
+ hint:"Speaker is busy on Friday and wants to move the slot — not cancel it.",
+ sSrc:"A: I need to reschedule the appointment — I'm busy on Friday.\nB: OK, there's Wednesday."},
+
+{type:"mc", q:"What does 'Когда Вам удобно?' mean?",
+ opts:["Where is the clinic?","When is convenient for you?","How long is the wait?","Who is your doctor?"],
+ ans:"When is convenient for you?",
+ hint:"Вам = dative of polite Вы. Удобно = a short-form adjective about ease or suitability."},
+
+{type:"fb", s:"A: Есть {1} на завтра?\nB: Да, есть.",
+ a:["запись"],
+ opts:["запись","приём","рецепт","врач"],
+ hint:"Feminine noun meaning a booking or registration entry — from 'записать'.",
+ sSrc:"A: Is there a booking for tomorrow?\nB: Yes, there is."},
+
+{type:"fb", s:"A: Я хотел {1} записаться на приём.\nB: К кому — к терапевту?",
+ a:["бы"],
+ opts:["бы","же","ли","ведь"],
+ hint:"This word makes 'I wanted' softer — turning it into a polite request form.",
+ sSrc:"A: I would like to make an appointment.\nB: With whom — with a general practitioner?"},
+
+{type:"match", pairs:[
+  {trg:"записаться на приём", src:"make an appointment"},
+  {trg:"подтвердить", src:"confirm"},
+  {trg:"отменить", src:"cancel"},
+  {trg:"перенести", src:"reschedule"},
+  {trg:"Когда Вам удобно?", src:"When is convenient for you?"}
+]}
+
+]}
+
 ]};
 export default UNIT_09;

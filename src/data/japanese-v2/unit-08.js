@@ -193,6 +193,77 @@ const UNIT_08 = {
    hint:"Naka means the interior or i... of something."},
 ]},
 
+// ═══ L3: 予約(よやく) (Making Appointments) ═══
+{id:"jpv2_u8l_apt", title:"予約(よやく)", icon:"📅", xp:15, board:true, steps:[
+  {type:"intro", title:"予約(よやく)",
+   desc:"Learn to make, confirm, and reschedule appointments in Japanese. These skills are essential for clinics, dentists, and restaurants.",
+   goals:["Make appointments by phone","Confirm and cancel appointments","Reschedule a visit","Use polite Japanese"]},
+
+  {type:"teach", trg:"予約(よやく)", src:"appointment / reservation", pos:"noun", gender:null,
+   note:"Used for doctor visits, restaurants, hotels, and more. Essential in daily life.\nKanji: 予約.",
+   example:"A: 予約(よやく)はありますか?\nB: はい、予約(よやく)があります。",
+   exampleSrc:"A: Do you have a reservation?\nB: Yes, I have a reservation.",
+   funFact:"予 means 'in advance' and 約 means 'promise/agreement.' Together they mean a promise made in advance. In Japan, making a yoyaku is standard for popular restaurants, clinics, and salons. Walk-in culture is less common than in many other countries."},
+
+  {type:"teach", trg:"予約(よやく)する", src:"to make an appointment", pos:"verb", gender:null,
+   note:"A suru-verb. Polite form: 予約(よやく)します. Negative: 予約(よやく)しません.\nKanji: 予約.",
+   example:"A: 病院(びょういん)を予約(よやく)しましたか?\nB: はい、明日(あした)予約(よやく)しました。",
+   exampleSrc:"A: Did you make a hospital appointment?\nB: Yes, I made one for tomorrow.",
+   funFact:"Suru-verbs are one of the most productive patterns in Japanese. You take a noun (yoyaku, benkyou, ryokou) and add suru to make it a verb. This lets you borrow loanwords and use them as verbs: meeru suru (to email), bideo suru (to video), etc."},
+
+  {type:"teach", trg:"確認(かくにん)する", src:"to confirm", pos:"verb", gender:null,
+   note:"A suru-verb used for confirming details, bookings, and information.\nKanji: 確認.",
+   example:"A: 予約(よやく)を確認(かくにん)したいです。\nB: お名前(なまえ)をどうぞ。",
+   exampleSrc:"A: I would like to confirm my appointment.\nB: Your name please.",
+   funFact:"確 means 'certain/firm' and 認 means 'to acknowledge/recognize.' Kakunin suru (to confirm) is very common in business Japanese. You will also hear it in daily settings: densha no jikan wo kakunin suru (confirm the train time)."},
+
+  {type:"mc", q:"予約(よやく) means:", opts:["appointment / reservation","confirmation","cancellation","change"], ans:"appointment / reservation",
+   hint:"The word made of 予 (in advance) and 約 (promise), used at restaurants and clinics."},
+
+  {type:"teach", trg:"キャンセルする", src:"to cancel", pos:"verb", gender:null,
+   note:"Loanword from English 'cancel,' written in katakana. Suru makes it a verb.",
+   example:"A: 予約(よやく)をキャンセルしたいのですが。\nB: わかりました。",
+   exampleSrc:"A: I would like to cancel my reservation.\nB: I understand.",
+   funFact:"Japanese often borrows English words for modern concepts. Kyanseru (cancel) is universal and understood everywhere. The polite construction ...したいのですが (I would like to...) softens requests. The のですが at the end signals you are about to make a polite request."},
+
+  {type:"teach", trg:"変更(へんこう)する", src:"to change / reschedule", pos:"verb", gender:null,
+   note:"Used to change dates, times, or details of an appointment.\nKanji: 変更.",
+   example:"A: 予約(よやく)の日時(にちじ)を変更(へんこう)できますか?\nB: はい、可能(かのう)です。",
+   exampleSrc:"A: Can I change the date and time of my appointment?\nB: Yes, that is possible.",
+   funFact:"変 means 'change/strange' and 更 means 'renew/again.' Henkou suru is the formal word for changing a reservation. In everyday speech you might also hear kaeru (to change, casual) but henkou suru is expected in formal service contexts."},
+
+  {type:"teach", trg:"予約(よやく)したいのですが", src:"I would like to make an appointment", pos:"intj", gender:null,
+   note:"A polite phone opener. のですが softens the request and invites a response.\nUse this when calling a clinic or restaurant.",
+   example:"A: 予約(よやく)したいのですが。\nB: はい、どのような用件(ようけん)でしょうか?",
+   exampleSrc:"A: I would like to make an appointment.\nB: Of course, what is the reason for your visit?",
+   funFact:"The ending のですが is a classic Japanese politeness strategy. It states your intention but leaves the sentence unfinished, implying 'please help me.' This is softer than a direct request. Using です alone sounds slightly abrupt; のですが sounds considerate and customer-ready."},
+
+  {type:"teach", trg:"空(あ)いている時間(じかん)はありますか", src:"What times are available?", pos:"intj", gender:null,
+   note:"Essential when booking. 空(あ)いている = open/available. 時間(じかん) = time.\nKanji: 空, 時間.",
+   example:"A: 空(あ)いている時間(じかん)はありますか?\nB: 午後(ごご)二時(にじ)はいかがですか?",
+   exampleSrc:"A: What times are available?\nB: How about 2 PM?",
+   funFact:"空(あ)いている literally means 'is open/empty' from 空く (to become empty/open). The same verb describes an empty seat (seki ga aite iru) or a free time slot. Time vocabulary from unit 3 combines with this phrase for natural booking conversations."},
+
+  {type:"tip", title:"Making Appointments by Phone",
+   text:"A typical phone appointment call in Japanese:\n\n1. 予約(よやく)したいのですが。(I would like to make an appointment.)\n2. 空(あ)いている時間(じかん)はありますか? (What times are available?)\n3. 木曜日(もくようび)の午後(ごご)はいかがですか? (How about Thursday afternoon?)\n4. では、二時(にじ)に予約(よやく)をお願(ねが)いします。(Then please book me in at 2 PM.)\n5. 確認(かくにん)ありがとうございます。(Thank you for confirming.)",
+   deepDive:{title:"Polite request endings",
+    text:"Polite softeners used in appointment contexts:\n\n...したいのですが = I would like to... (soft request opener)\n...をお願(ねが)いします = Please do... (firm but polite request)\n...はいかがですか = How about...? (offering a suggestion politely)\n...でよろしいでしょうか = Is... acceptable? (formal confirmation)\n\nThese patterns appear throughout service interactions in Japan. Mastering them makes you sound natural and respectful in any booking situation."}},
+
+  {type:"match", pairs:[{trg:"予約(よやく)する",src:"to make an appointment"},{trg:"確認(かくにん)する",src:"to confirm"},{trg:"キャンセルする",src:"to cancel"},{trg:"変更(へんこう)する",src:"to reschedule"}]},
+
+  {type:"fb", s:"予約(よやく)を{1}したいのですが。\n(I would like to cancel my appointment.)", a:"キャンセル", opts:["キャンセル","確認(かくにん)","変更(へんこう)","予約(よやく)"], sSrc:"I would like to cancel my appointment.",
+   hint:"The katakana loanword from English meaning to call off a booking."},
+
+  {type:"fb", s:"空(あ)いている{1}はありますか?\n(What times are available?)", a:"時間(じかん)", opts:["時間(じかん)","予約(よやく)","名前(なまえ)","場所(ばしょ)"], sSrc:"What times are available?",
+   hint:"The word for 'time' that you ask about when booking."},
+
+  {type:"mc", q:"Which phrase opens a polite phone appointment request?", opts:["予約(よやく)したいのですが","予約(よやく)はいいです","予約(よやく)ありがとう","予約(よやく)じゃない"], ans:"予約(よやく)したいのですが",
+   hint:"The polite opener that states your intention with the soft のですが ending."},
+
+  {type:"mc", q:"変更(へんこう)する means:", opts:["to confirm","to cancel","to reschedule / change","to reserve"], ans:"to reschedule / change",
+   hint:"The verb built from 変 (change) and 更 (renew), used when moving an appointment to a new time."},
+]},
+
 ,BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
