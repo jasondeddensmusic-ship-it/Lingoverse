@@ -5500,6 +5500,17 @@ const FUNCTION_WORDS = {
     // играть (to play) — taught
     'играю','играешь','играет','играем','играете','играют',
     'играл','играла','играло','играли',
+    // уметь (to know how to — taught unit 5)
+    'умею','умеешь','умеет','умеем','умеете','умеют',
+    'умел','умела','умело','умели',
+    // мочь (to be able to — taught unit 5)
+    'могу','можешь','может','можем','можете','могут',
+    'мог','могла','могло','могли',
+    // по-русски and similar language adverbs (taught unit 5; formulaic discourse)
+    // Tokenizer splits on hyphen, so both the full form and the root are whitelisted.
+    'по-русски','русски',
+    // Other language adverbs used in ability/speaking examples
+    'по-английски','английски','по-французски','французски',
     // пить (to drink) — taught
     'пью','пьёшь','пьёт','пьём','пьёте','пьют',
     'пил','пила','пило','пили',
