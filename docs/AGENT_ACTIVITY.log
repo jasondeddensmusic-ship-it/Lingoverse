@@ -19,3 +19,5 @@ audit trail. Format: `YYYY-MM-DDTHH:MM:SSZ | agent-id | task | outcome`.
 2026-04-19 | main | CORRECTION: restored Tudo bem / Muito prazer / bem in unit 1 and 3 examples after owner flagged content loss | added bem/tudo/muito/prazer/favor/aqui/sim + possessives to pt function-word whitelist; flag count held at 103
 2026-04-19 | main | PR #194 merged (revert + whitelist expansion) | CI green
 2026-04-19 | main | pp63_audit.cjs Romance morphology added (verb stem matching) | Italian -126, Spanish -18, French -13, PT -4, other langs unchanged
+2026-04-19 | main | PR #195 merged (Romance morphology in pp63) | CI green
+2026-04-19 | main | validate_all.cjs PP67 morphology added | French 5→0, Italian 104→67, Portuguese 3→2 (all via conjugation-transparency)
