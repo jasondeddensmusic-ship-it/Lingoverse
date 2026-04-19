@@ -108,6 +108,6 @@ const BATCH6_L1 = {id:"itv2_u35l_b6_1", title:"L'intelligenza artificiale", icon
  {trg:"l'obsolescenza", src:"obsolescence"},
  {trg:"la realta virtuale", src:"virtual reality"},
  {trg:"il cloud", src:"cloud computing"}
-]}
-]};
+]},
+{type:"fb",s:"La {1} sta trasformando tutti i settori industriali.",a:["rivoluzione digitale"],opts:["rivoluzione digitale","sostenibilita","obsolescenza","realta virtuale"],hint:"The sweeping transformation of industries through digital technology.",sSrc:"The {1} is transforming all industrial sectors."}]};
 export default BATCH6_L1;

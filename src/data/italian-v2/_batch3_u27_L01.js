@@ -117,6 +117,7 @@ const BATCH3_L_1 = {
      opts:["Per rendere l'esperimento piu lungo e dettagliato","Per garantire che i risultati siano affidabili e replicabili","Per usare piu reagenti possibili nel processo","Per pubblicare il lavoro su una rivista internazionale"],
      ans:"Per garantire che i risultati siano affidabili e replicabili",
      hint:"If uncontrolled factors interfere, you cannot be sure what caused the result. Reliability and reproducibility depend on this."}
-  ,{type:"match",pairs:[{trg:"la sostanza",src:"the substance"},{trg:"la formula",src:"the formula"},{trg:"il campione",src:"the sample / specimen"},{trg:"la variabile",src:"the variable"},{trg:"il fenomeno",src:"the phenomenon"},{trg:"la precisione",src:"the precision / accuracy"}]}]
+  ,{type:"match",pairs:[{trg:"la sostanza",src:"the substance"},{trg:"la formula",src:"the formula"},{trg:"il campione",src:"the sample / specimen"},{trg:"la variabile",src:"the variable"},{trg:"il fenomeno",src:"the phenomenon"},{trg:"la precisione",src:"the precision / accuracy"}]},
+{type:"fb",s:"Il chimico ha messo la soluzione nella {1}.",a:["provetta"],opts:["provetta","formula","variabile","reazione"],hint:"A small glass tube used in laboratory experiments.",sSrc:"The chemist put the solution in the {1}."}]
 };
 export default BATCH3_L_1;

@@ -130,6 +130,7 @@ const BATCH3_U19_L1 = {
      opts:["Pride comes before the fall","Pride makes you stronger","Pride is always positive","Proud people never fail"],
      ans:"Pride comes before the fall",
      hint:"Excessive p... leads to downfall. Italian wisdom warns against 'troppo orgoglio' while valuing healthy p... in achievements."}
-  ,{type:"match",pairs:[{trg:"la gratitudine",src:"the gratitude"},{trg:"la serenita",src:"the serenity / peace of mind"}]}]
+  ,{type:"match",pairs:[{trg:"la gratitudine",src:"the gratitude"},{trg:"la serenita",src:"the serenity / peace of mind"}]},
+{type:"fb",s:"Dopo aver superato l'esame, ho provato grande {1}.",a:["soddisfazione"],opts:["soddisfazione","frustrazione","rimpianto","inquietudine"],hint:"A positive feeling when you achieve something you worked hard for.",sSrc:"After passing the exam, I felt great {1}."}]
 };
 export default BATCH3_U19_L1;

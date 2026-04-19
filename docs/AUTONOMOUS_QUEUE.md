@@ -69,23 +69,18 @@ _None currently._
 - Baseline: 243 unit-file violations across 7 languages. 4 langs PASS (Dutch/German/Korean/Spanish).
 - Remediation queued as PP67-REMEDIATION-\* below.
 
-### PP67-REMEDIATION-CHINESE — fix `chinese-v2/unit-41.js` (needs 3+ production, has 2)
-- **acceptance:** validator reports 0 PP67 flags for chinese-v2.
+### ~~PP67-REMEDIATION-CHINESE~~ — DONE 2026-04-19 (PR #197)
+### ~~PP67-REMEDIATION-PORTUGUESE~~ — DONE 2026-04-19 (PR #197)
+### ~~PP67-REMEDIATION-RUSSIAN~~ — DONE 2026-04-19 (PR #197 via russian-linguist agent)
+### ~~PP67-REMEDIATION-FRENCH~~ — DONE via morphology (PR #196)
 
-### PP67-REMEDIATION-PORTUGUESE — fix `portuguese-v2/unit-09/22/23.js` (3 units, low teach counts)
-- **acceptance:** 0 PP67 flags for portuguese-v2.
+### PP67-REMEDIATION-ITALIAN — IN PROGRESS 2026-04-19 (agent sonnet)
+- 67 batch files flagged (down from 104 after morphology PR #196).
+- Agent running: one production fb per file using existing taught trgs.
 
-### PP67-REMEDIATION-RUSSIAN — fix russian-v2/unit-08/17/18/19/20/22/24/29/35.js (9 units)
-- **acceptance:** 0 PP67 flags for russian-v2.
-
-### PP67-REMEDIATION-FRENCH — fix french-v2/unit-02/11/12/14/26.js (5 units, some with 0 production)
-- **acceptance:** 0 PP67 flags for french-v2.
-
-### PP67-REMEDIATION-ITALIAN — large (104 flagged batch files); requires batch-file rewrites
-- **acceptance:** under-production count reduced by 50% in first pass; full clear in second pass.
-
-### PP67-REMEDIATION-JAPANESE — large (121 flagged batch files); PP65 kanji+furigana rules apply
-- **acceptance:** same ramp as Italian.
+### PP67-REMEDIATION-JAPANESE — IN PROGRESS 2026-04-19 (2 agents sonnet)
+- 121 batch files flagged; PP65 kanji+furigana rules apply.
+- Split across 2 agents (batch2-6 / batch7-11+units).
 
 ### PP66-VALIDATOR — Implement filler-coverage check in `scripts/check_filler.cjs`
 - **acceptance:** Grep for `"(review)"`, `"(taught)"`, `"(TBD)"`, `"(see above)"` in all `src/data/*.js`. Zero matches required. Runs as pre-commit / pre-push hook.

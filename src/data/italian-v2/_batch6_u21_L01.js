@@ -131,5 +131,6 @@ const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{27
  {trg:"rinunciare", src:"to give up"},
  {trg:"rimandare", src:"to postpone"}
 ]}
-,{type:"match",pairs:[{trg:"bastare",src:"to be enough / to suffice"},{trg:"esagerare",src:"to exaggerate"},{trg:"accontentarsi",src:"to settle for / to be content with"},{trg:"giurare",src:"to swear / to vow"},{trg:"scommettere",src:"to bet"}]}]};
+,{type:"match",pairs:[{trg:"bastare",src:"to be enough / to suffice"},{trg:"esagerare",src:"to exaggerate"},{trg:"accontentarsi",src:"to settle for / to be content with"},{trg:"giurare",src:"to swear / to vow"},{trg:"scommettere",src:"to bet"}]},
+{type:"fb",s:"Posso {1} il piano: vale la pena provarci.",a:["consigliare"],opts:["consigliare","rimandare","esagerare","rinunciare"],hint:"To recommend something to someone based on your experience.",sSrc:"I can {1} the plan: it is worth trying."}]};
 export default BATCH6_L1;

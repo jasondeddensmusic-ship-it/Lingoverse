@@ -124,6 +124,7 @@ const BATCH3_U12_L1 = {
      opts:["Vestirsi, svegliarsi, lavarsi, alzarsi","Svegliarsi, alzarsi, lavarsi, vestirsi","Alzarsi, vestirsi, svegliarsi, lavarsi","Lavarsi, vestirsi, alzarsi, svegliarsi"],
      ans:"Svegliarsi, alzarsi, lavarsi, vestirsi",
      hint:"Wake up, get up, wash, get dressed. A logical sequence that Italian children learn early. All four verbs are reflexive and use essere."}
-  ,{type:"match",pairs:[{trg:"si e seduto/a",src:"he/she sat down"},{trg:"mi sono lavato/a",src:"I washed (myself)"},{trg:"mi sono preparato/a",src:"I prepared / I got ready"},{trg:"si e alzato/a",src:"he/she got up / stood up"},{trg:"mi sono addormentato/a",src:"I fell asleep"},{trg:"mi sono abituato/a",src:"I got used to"}]}]
+  ,{type:"match",pairs:[{trg:"si e seduto/a",src:"he/she sat down"},{trg:"mi sono lavato/a",src:"I washed (myself)"},{trg:"mi sono preparato/a",src:"I prepared / I got ready"},{trg:"si e alzato/a",src:"he/she got up / stood up"},{trg:"mi sono addormentato/a",src:"I fell asleep"},{trg:"mi sono abituato/a",src:"I got used to"}]},
+{type:"fb",s:"Ieri sera {1} tardi per la stanchezza.",a:["mi sono addormentato/a"],opts:["mi sono addormentato/a","mi sono svegliato/a","mi sono vestito/a","mi sono alzato/a"],hint:"Past reflexive verb meaning to fall asleep.",sSrc:"Last night I {1} late from tiredness."}]
 };
 export default BATCH3_U12_L1;

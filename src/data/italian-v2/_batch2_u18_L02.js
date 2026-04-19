@@ -118,6 +118,8 @@ const BATCH2_U18_L2 = {
      opts:["About 1 square meter per second","About 2 square meters per second","About 10 square meters per second","About 50 square meters per second"],
      ans:"About 2 square meters per second",
      hint:"The ISPRA reports document this alarming rate of 'consumo di suolo.' Farmland and natural areas are converted to concrete."}
-  ,{type:"match",pairs:[{trg:"la deforestazione",src:"deforestation"}]}]
+  ,{type:"match",pairs:[{trg:"la deforestazione",src:"deforestation"}]},
+{type:"fb",s:"La {1} distrugge gli ecosistemi tropicali.",a:["deforestazione"],opts:["deforestazione","biodiversita","estinzione","riserva naturale"],hint:"The large-scale removal of forest cover, harming wildlife and climate.",sSrc:"The {1} destroys tropical ecosystems."},
+{type:"fb",s:"Il {1} protegge le specie in via di estinzione.",a:["parco nazionale"],opts:["parco nazionale","habitat","ecosistema","zona umida"],hint:"A protected area managed by the state to preserve nature.",sSrc:"The {1} protects endangered species."}]
 };
 export default BATCH2_U18_L2;

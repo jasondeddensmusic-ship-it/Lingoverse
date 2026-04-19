@@ -130,6 +130,7 @@ const BATCH3_U09_L1 = {
      opts:["Thermometers are given free by the government","It is a deeply ingrained cultural health habit","Italian fevers are uniquely dangerous","Doctors require daily temperature logs"],
      ans:"It is a deeply ingrained cultural health habit",
      hint:"Every household has a thermometer. A parent's first response to any illness is always 'Misura la febbre!' (Check your temperature!)."}
-  ,{type:"match",pairs:[{trg:"il termometro",src:"the thermometer"},{trg:"la puntura",src:"the injection / sting"},{trg:"la ricetta medica",src:"the medical prescription"},{trg:"il farmacista",src:"the pharmacist"},{trg:"la farmacia di turno",src:"the duty pharmacy (open nights/holidays)"}]},{type:"mc",q:"How do you say \"aspirin\" in Italian?",opts:["la finestra","il tavolo","l'aspirina","la bicicletta"],ans:"l'aspirina",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il termometro",src:"the thermometer"},{trg:"la puntura",src:"the injection / sting"},{trg:"la ricetta medica",src:"the medical prescription"},{trg:"il farmacista",src:"the pharmacist"},{trg:"la farmacia di turno",src:"the duty pharmacy (open nights/holidays)"}]},{type:"mc",q:"How do you say \"aspirin\" in Italian?",opts:["la finestra","il tavolo","l'aspirina","la bicicletta"],ans:"l'aspirina",hint:"Recall the Italian vocabulary word taught in this lesson."},
+{type:"fb",s:"Il medico mi ha dato la {1} per comprare l'antibiotico.",a:["ricetta medica"],opts:["ricetta medica","termometro","crema","cerotto"],hint:"A written authorization from a doctor needed to get certain medicines.",sSrc:"The doctor gave me the {1} to buy the antibiotic."}]
 };
 export default BATCH3_U09_L1;

@@ -111,6 +111,7 @@ const BATCH3_L_1 = {
      opts:["Una critica alla debolezza intellettuale della cultura contemporanea","Una forma di nichilismo positivo che accetta l'assenza di verita assolute","Un metodo di studio basato sulla lettura superficiale dei testi filosofici","Una teoria economica sulla fragilita dei mercati finanziari globali"],
      ans:"Una forma di nichilismo positivo che accetta l'assenza di verita assolute",
      hint:"This Italian philosopher proposed that accepting no absolute truths can lead to tolerance and openness. A positive interpretation of nihilism."}
-  ,{type:"match",pairs:[{trg:"il determinismo",src:"determinism"},{trg:"la democrazia",src:"democracy"},{trg:"il pragmatismo",src:"pragmatism"},{trg:"il nichilismo",src:"nihilism"}]},{type:"mc",q:"How do you say \"utilitarianism\" in Italian?",opts:["la finestra","l'utilitarismo","il tavolo","la bicicletta"],ans:"l'utilitarismo",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il determinismo",src:"determinism"},{trg:"la democrazia",src:"democracy"},{trg:"il pragmatismo",src:"pragmatism"},{trg:"il nichilismo",src:"nihilism"}]},{type:"mc",q:"How do you say \"utilitarianism\" in Italian?",opts:["la finestra","l'utilitarismo","il tavolo","la bicicletta"],ans:"l'utilitarismo",hint:"Recall the Italian vocabulary word taught in this lesson."},
+{type:"fb",s:"Un giudice deve affrontare ogni {1} etico con cura.",a:["dilemma etico"],opts:["dilemma etico","utilitarismo","nichilismo","pragmatismo"],hint:"A situation with no clearly right answer, requiring careful moral reasoning.",sSrc:"A judge must approach every ethical {1} carefully."}]
 };
 export default BATCH3_L_1;

@@ -130,6 +130,7 @@ const BATCH3_U11_L2 = {
      opts:["The passato prossimo (completed action)","The future tense (upcoming action)","The imperfect (ongoing background action)","The conditional (hypothetical action)"],
      ans:"The imperfect (ongoing background action)",
      hint:"'Mentre dormivo, ha suonato il telefono.' The b... a... uses the o... tense, while the foreground event uses the completed tense."}
-  ,{type:"match",pairs:[{trg:"raccogliere",src:"to pick up / to collect"},{trg:"scoprire",src:"to discover / to find out"},{trg:"raccontare",src:"to tell / to narrate"},{trg:"accorgersi",src:"to realize / to notice"},{trg:"rendersi conto",src:"to realize / to become aware"}]}]
+  ,{type:"match",pairs:[{trg:"raccogliere",src:"to pick up / to collect"},{trg:"scoprire",src:"to discover / to find out"},{trg:"raccontare",src:"to tell / to narrate"},{trg:"accorgersi",src:"to realize / to notice"},{trg:"rendersi conto",src:"to realize / to become aware"}]},
+{type:"fb",s:"Mario ha deciso di {1} la storia della sua vita.",a:["raccontare"],opts:["raccontare","raccogliere","dimenticare","scoprire"],hint:"To narrate or tell a story to an audience.",sSrc:"Mario decided to {1} the story of his life."}]
 };
 export default BATCH3_U11_L2;

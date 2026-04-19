@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u35l_b7_1", title:"La trasformazione digitale", icon
  {trg:"il dato", src:"data"},
  {trg:"l'ecosistema digitale", src:"digital ecosystem"}
 ]}
-]};
+,{type:"fb",s:"Le aziende archiviano i file nel {1} per accedervi da qualsiasi dispositivo.",a:["il cloud"],opts:["il cloud","la blockchain","il dato","la piattaforma"],hint:"A remote server infrastructure that stores and delivers data and services over the internet.",sSrc:"Companies store files in the {1} to access them from any device."}]};
 export default BATCH7_L1;
