@@ -311,6 +311,111 @@ lessons:[
  hint:"发展 means development or growth. 得很快 describes something happening at a fast pace."}
 ]}
 
+,
+
+// ─── L5: Administrative Situations (F22) ───
+{id:"zhv2_u22l5_burocr", title:"办(bàn)手续(shǒuxù) Handling Paperwork", icon:"🏛️", xp:15, board:true, steps:[
+{type:"intro", title:"Handling Administrative Situations",
+ desc:"Learn vocabulary for Chinese bureaucracy: post offices, passport and visa offices, ID cards, and official documents. These words appear on HSK 3/4 and are essential for daily life in China.",
+ goals:["Navigate the post office and government offices","Request and process official documents","Use polite, formal Chinese for administrative tasks"]},
+
+{type:"tip", title:"Bureaucracy in China",
+ text:"China has a strong culture of official procedures. Many everyday tasks require going in person to a government office.\n\nKey offices:\n派出所(pàichūsuǒ) = local police station (handles 身份证 and registration)\n邮局(yóujú) = post office (handles packages, money transfers, some certificates)\n出入境管理局(chūrùjìng guǎnlǐjú) = entry-exit bureau (handles 护照 and 签证)\n\nUseful phrases:\n请问在哪里办理？ = Excuse me, where do I process this?\n需要什么手续？ = What procedures are required?\n请填写这张表。 = Please fill out this form.",
+ deepDive:{title:"The Chinese ID Card System",
+  text:"Every Chinese citizen must carry a 身份证(shēnfènzhèng) from age 16. It contains your name, birth date, address, and a unique 18-digit identification number.\n\nThe ID is used for everything: buying train tickets, checking into hotels, opening bank accounts, accessing government services, and signing contracts. Foreigners living in China receive a similar card called the 外国人居留许可(wàiguórén jūliú xǔkě), the Foreigner's Residence Permit.\n\nLosing your 身份证 requires going to the local 派出所 (police station) to file a report and apply for a replacement. The process usually takes 1-2 weeks."}},
+
+{type:"teach", trg:"邮局(yóujú)", src:"post office", pos:"noun", gender:null,
+ note:"Mail + bureau. The government postal service office.\n去邮局 = go to the post office. 邮局在哪里？ = Where is the post office?",
+ example:"A: 你(nǐ)知道(zhīdào)邮局(yóujú)在(zài)哪里(nǎlǐ)吗(ma)？\nB: 就(jiù)在(zài)大学(dàxué)旁边(pángbiān)，很(hěn)近(jìn)。",
+ exampleSrc:"A: Do you know where the post office is?\nB: It is right next to the university, very close.",
+ funFact:"China Post (中国邮政, Zhōngguó Yóuzhèng) is one of the world's largest postal networks with over 50,000 branches. Beyond mail, many 邮局 branches also offer savings accounts, insurance, and government certificate services. In rural areas, the 邮局 is often the only financial institution for miles."},
+
+{type:"teach", trg:"护照(hùzhào)", src:"passport", pos:"noun", gender:null,
+ note:"Protect + shine/illumination. A document that lets you travel internationally.\n护照号码 = passport number. 护照有效期 = passport validity period.",
+ example:"A: 我(wǒ)的(de)护照(hùzhào)在(zài)哪里(nǎlǐ)办理(bànlǐ)？\nB: 需要(xūyào)去(qù)公安局(gōng'ānjú)申请(shēnqǐng)护照(hùzhào)。",
+ exampleSrc:"A: Where do I process my passport?\nB: You need to go to the Public Security Bureau to apply for a passport.",
+ funFact:"护 means to protect, and 照 means to illuminate or shine light. A passport is a document that 'shines protection' on you abroad. The Chinese passport is one of the world's most strictly controlled documents. Citizens apply through the local Public Security Bureau (公安局). Processing takes about 15 working days and costs around 200 yuan."},
+
+{type:"teach", trg:"签证(qiānzhèng)", src:"visa", pos:"noun", gender:null,
+ note:"Sign + certificate. An official authorization to enter another country.\n申请签证 = apply for a visa. 签证到期 = visa expires.",
+ example:"A: 去(qù)美国(Měiguó)需要(xūyào)签证(qiānzhèng)吗(ma)？\nB: 需要(xūyào)，申请(shēnqǐng)签证(qiānzhèng)要(yào)准备(zhǔnbèi)很(hěn)多(duō)材料(cáiliào)。",
+ exampleSrc:"A: Do you need a visa to go to the United States?\nB: Yes, applying for a visa requires preparing a lot of documents.",
+ funFact:"签 means to sign one's name, and 证 means a certificate or proof. A visa is literally a 'signed certificate' of permission to enter. China uses a complex visa system with categories like L (tourist), F (business), X (student), and Z (work). Getting a US visa for Chinese citizens involves an interview at the embassy. Wait times can be months during peak periods."},
+
+{type:"teach", trg:"身份证(shēnfènzhèng)", src:"ID card / identity card", pos:"noun", gender:null,
+ note:"Identity + certificate. China's national identification card. Required for all adult citizens.\n出示身份证 = show your ID. 身份证号码 = ID number.",
+ example:"A: 坐(zuò)火车(huǒchē)需要(xūyào)带(dài)身份证(shēnfènzhèng)吗(ma)？\nB: 需要(xūyào)，在(zài)中国(Zhōngguó)坐(zuò)火车(huǒchē)都(dōu)要(yào)带(dài)身份证(shēnfènzhèng)。",
+ exampleSrc:"A: Do you need to bring your ID card to take the train?\nB: Yes, in China you need to bring your ID card for all train travel.",
+ funFact:"The 身份证 is an 18-digit number. The first 6 digits are your birthplace region code, the next 8 are your birth date (YYYYMMDD), the next 3 are sequence numbers, and the final digit is a checksum. Since 2004, the card uses biometric data and an embedded chip. Losing it requires a police report (报案) and can disrupt daily life significantly."},
+
+{type:"teach", trg:"办理(bànlǐ)", src:"to handle / to process", pos:"verb", gender:null,
+ note:"Handle + manage. To officially process or take care of administrative tasks.\n办理手续 = handle procedures. 办理签证 = process a visa.",
+ example:"A: 在(zài)哪里(nǎlǐ)可以(kěyǐ)办理(bànlǐ)护照(hùzhào)？\nB: 需要(xūyào)去(qù)公安局(gōng'ānjú)办理(bànlǐ)。",
+ exampleSrc:"A: Where can I process my passport?\nB: You need to go to the Public Security Bureau to process it.",
+ funFact:"办 means to do or handle, and 理 means to manage or put in order. 办理 is the standard formal verb used in government contexts. You 办理 a visa, 办理 bank accounts, and 办理 registration. In everyday speech, people also use just 办 (bàn) as a shorthand. The opposite is 不予办理 (refused to process), which is the official phrase for rejection."},
+
+{type:"teach", trg:"手续(shǒuxù)", src:"procedures / formalities / paperwork", pos:"noun", gender:null,
+ note:"Hand + sequence. The steps you must complete to accomplish something officially.\n办手续 = complete the formalities. 手续很复杂 = the procedures are complicated.",
+ example:"A: 办理(bànlǐ)签证(qiānzhèng)的(de)手续(shǒuxù)复杂(fùzá)吗(ma)？\nB: 有(yǒu)点(diǎn)复杂(fùzá)，需要(xūyào)填写(tiánxiě)申请(shēnqǐng)材料(cáiliào)，手续(shǒuxù)很(hěn)多(duō)。",
+ exampleSrc:"A: Are the procedures for processing a visa complicated?\nB: A bit complicated. You need to fill out application materials. There are many procedures.",
+ funFact:"手 means hand, and 序 (written as 续 in this compound) means sequence or order. Procedures are literally 'the sequence your hands must follow.' Chinese bureaucracy is famous for its 手续 — sometimes requiring multiple offices, specific forms, passport photos, original documents, and notarized copies all at once. The phrase 手续繁琐 (máfan and complicated procedures) is a common complaint."},
+
+{type:"teach", trg:"证明(zhèngmíng)", src:"certificate / proof / to certify", pos:"noun", gender:null,
+ note:"Prove + make clear. Evidence or documentation confirming a fact.\n开证明 = issue a certificate. 收入证明 = income certificate.",
+ example:"A: 我(wǒ)需要(xūyào)工作(gōngzuò)证明(zhèngmíng)，怎么(zěnme)办(bàn)？\nB: 让(ràng)公司(gōngsī)开(kāi)证明(zhèngmíng)就(jiù)可以(kěyǐ)了(le)。",
+ exampleSrc:"A: I need a work certificate. How do I get one?\nB: Just have your company issue a certificate.",
+ funFact:"证 means to prove or certify, and 明 means clear or bright. A certificate makes something officially clear and proven. In China, you often need 证明 for everything: 工作证明 (proof of employment), 收入证明 (income proof), 住址证明 (address proof), and 无犯罪记录证明 (criminal background clearance). Government offices, schools, and banks all issue their own types of 证明."},
+
+{type:"mc", q:"你(nǐ)去(qù)邮局(yóujú)是(shì)为了(wèile)什么(shénme)？ This asks why you are going to:",
+ opts:["the post office","the bank","the hospital","the university"],
+ ans:"the post office",
+ hint:"邮局 combines 'mail' and 'bureau.' It is where you send letters, packages, and pick up mail."},
+
+{type:"match", pairs:[
+  {trg:"邮局(yóujú)", src:"post office"},
+  {trg:"护照(hùzhào)", src:"passport"},
+  {trg:"签证(qiānzhèng)", src:"visa"},
+  {trg:"身份证(shēnfènzhèng)", src:"ID card"},
+  {trg:"办理(bànlǐ)", src:"to handle / process"}
+]},
+
+{type:"fb", s:"去(qù)美国(Měiguó)需要(xūyào){1}护照(hùzhào)和(hé)签证(qiānzhèng)。",
+ a:["申请(shēnqǐng)"],
+ opts:["申请(shēnqǐng)","办理(bànlǐ)","填写(tiánxiě)","需要(xūyào)"],
+ hint:"This verb means to formally apply or request. You do this to obtain official documents like a passport or visa.",
+ sSrc:"Going to the United States requires {1} for a passport and visa."},
+
+{type:"mc", q:"手续(shǒuxù) refers to:",
+ opts:["The formal steps required to complete an official task","A type of ID document","A government office","The cost of applying"],
+ ans:"The formal steps required to complete an official task",
+ hint:"手 means hand, and 序 means sequence. This compound describes the bureaucratic process you must follow step by step, not a document or building."},
+
+{type:"fb", s:"请问(qǐngwèn)在(zài)哪里(nǎlǐ)可以(kěyǐ){1}签证(qiānzhèng)？",
+ a:["办理(bànlǐ)"],
+ opts:["办理(bànlǐ)","申请(shēnqǐng)","填写(tiánxiě)","证明(zhèngmíng)"],
+ hint:"This verb means to officially process or handle an administrative task. Use it when asking where to complete formal procedures.",
+ sSrc:"Excuse me, where can I {1} a visa?"},
+
+{type:"fb", s:"买(mǎi)火车票(huǒchēpiào)需要(xūyào)出示(chūshì){1}。",
+ a:["身份证(shēnfènzhèng)"],
+ opts:["身份证(shēnfènzhèng)","签证(qiānzhèng)","护照(hùzhào)","证明(zhèngmíng)"],
+ hint:"This is China's national identification card. Every adult citizen carries one and needs it for most official transactions.",
+ sSrc:"Buying train tickets requires showing your {1}."},
+
+{type:"mc", q:"开证明(kāi zhèngmíng) means:",
+ opts:["To issue an official certificate","To open a file","To write a letter","To cancel an appointment"],
+ ans:"To issue an official certificate",
+ hint:"开 here means to issue or produce. 证明 means proof or certificate. Together they describe producing an official document for someone."},
+
+{type:"match", pairs:[
+  {trg:"手续(shǒuxù)", src:"procedures / formalities"},
+  {trg:"证明(zhèngmíng)", src:"certificate / proof"},
+  {trg:"身份证(shēnfènzhèng)", src:"ID card"},
+  {trg:"签证(qiānzhèng)", src:"visa"},
+  {trg:"邮局(yóujú)", src:"post office"}
+]}
+]}
+
 ]};
 
 export default UNIT_22;
