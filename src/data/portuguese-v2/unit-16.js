@@ -239,4 +239,97 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
   {trg:"peço que", src:"I ask / request that"}
 ]}]}
 
+,
+
+{id:"ptv2_u16l_civ", title:"Conceitos sociais", icon:"🏛️", xp:15, board:true, steps:[
+{type:"intro", title:"B1 Civic Vocabulary", desc:"Learn 7 essential B1 Brazilian Portuguese words for discussing society, politics, and ideas. Essential for CELPE-Bras B1/B2 writing tasks.", goals:["Master 7 abstract civic words","Use them in formal discussion","Structure opinion writing"]},
+
+{type:"teach", trg:"comparar", src:"to compare", pos:"verb", gender:null,
+ note:"Regular -ar verb. Compare two things using 'comparar com' (compare with).",
+ example:"A: Posso comparar os dois?\nB: Claro, comparar é muito bom.",
+ exampleSrc:"A: Can I compare the two?\nB: Of course, comparing is very good.",
+ funFact:"From Latin 'comparare'. The prefix com- means 'together', and parare means 'to prepare' — putting things side by side to evaluate them."},
+
+{type:"teach", trg:"a política", src:"politics / policy", pos:"noun", gender:"f",
+ note:"Covers both 'politics' as a field and 'policy' as a decision. Context determines which.",
+ example:"A: Você gosta de política?\nB: Política é importante, mas complicada.",
+ exampleSrc:"A: Do you like politics?\nB: Politics is important, but complicated.",
+ funFact:"From Greek 'politike', related to 'polis' (city-state). 'Político' (politician) shares the same root. Brazil's lively democratic politics makes this word very high-frequency."},
+
+{type:"teach", trg:"a educação", src:"education", pos:"noun", gender:"f",
+ note:"The -ção suffix marks feminine nouns derived from verbs. 'Educar' (to educate) gives 'educação'.",
+ example:"A: A educação é a base de tudo.\nB: Sim, sem educação, não há progresso.",
+ exampleSrc:"A: Education is the foundation of everything.\nB: Yes, without education, there is no progress.",
+ funFact:"The -ção suffix corresponds to English -tion. Once you learn it, hundreds of Portuguese nouns become recognizable: nação, situação, organização."},
+
+{type:"teach", trg:"o progresso", src:"progress", pos:"noun", gender:"m",
+ note:"Used for advancement in society, science, or personal development.",
+ example:"A: O progresso no trabalho é muito bom.\nB: Mas ainda temos muito a melhorar.",
+ exampleSrc:"A: The progress at work is very good.\nB: But we still have a lot to improve.",
+ funFact:"From Latin 'progressus', meaning 'a going forward'. 'Progredir' (to progress/advance) is the related verb. The 'pro-' prefix signals forward movement."},
+
+{type:"teach", trg:"a vantagem", src:"advantage / benefit", pos:"noun", gender:"f",
+ note:"Opposite of 'a desvantagem'. Often used in 'ter vantagem' (to have an advantage).",
+ example:"A: Qual é a vantagem do plano?\nB: A vantagem é que é mais barato.",
+ exampleSrc:"A: What is the advantage of the plan?\nB: The advantage is that it is cheaper.",
+ funFact:"From Old French 'avantage', which entered Portuguese via 'avante' (forward). The prefix 'des-' simply reverses the meaning — a very productive pattern in Portuguese."},
+
+{type:"teach", trg:"a desvantagem", src:"disadvantage / drawback", pos:"noun", gender:"f",
+ note:"Built from 'des-' (negation) + 'vantagem'. One of Portuguese's most productive prefix patterns.",
+ example:"A: Tem alguma desvantagem?\nB: A desvantagem é o custo alto.",
+ exampleSrc:"A: Is there any disadvantage?\nB: The disadvantage is the high cost.",
+ funFact:"The prefix 'des-' works like English 'dis-' or 'un-'. You can form dozens of antonyms this way: feliz/desfeliz, ordem/desordem, vantagem/desvantagem."},
+
+{type:"teach", trg:"a solução", src:"solution", pos:"noun", gender:"f",
+ note:"Another -ção noun. Plural: as soluções. Verb form: 'solucionar' (to solve).",
+ example:"A: Precisamos encontrar uma solução.\nB: Qual é a melhor solução para isso?",
+ exampleSrc:"A: We need to find a solution.\nB: What is the best solution for this?",
+ funFact:"From Latin 'solutio' (loosening, releasing). To 'solve' a problem is literally to 'loosen' it. The same root gives English 'dissolve' and 'resolve'."},
+
+{type:"tip", title:"Vantagem / Desvantagem in Writing",
+ text:"For CELPE-Bras opinion tasks, a simple structure works well:\n\nA vantagem de [noun] é que...\nThe advantage of [noun] is that...\n\nA desvantagem é que...\nThe disadvantage is that...\n\nNo entanto, a solução pode ser...\nHowever, the solution could be...\n\nThis vantagem/desvantagem frame signals B1 analytical thinking to examiners.",
+ deepDive:{title:"The -ção Rule", text:"Portuguese -ção nouns are almost always feminine and almost always translate to English -tion or -sion. Pattern: educar > educação, solucionar > solução, organizar > organização. The only real exception to watch: não (no/not) ends in -ão but is not a noun of this type. Once you internalize the feminine -ção, you gain access to hundreds of high-register vocabulary words at once."}},
+
+{type:"mc",
+ q:"A: Como podemos comparar os dois sistemas?\nB: Podemos comparar pela eficiência e pelo custo.",
+ opts:["We can compare by efficiency and cost","We cannot compare the two systems","Efficiency and cost are the same","The system is very expensive"],
+ ans:"We can compare by efficiency and cost",
+ hint:"Focus on what 'podemos comparar' means and what follows 'pela'."},
+
+{type:"mc",
+ q:"Which word means 'politics' or 'policy' in Portuguese?",
+ opts:["a política","a educação","a solução","o progresso"],
+ ans:"a política",
+ hint:"Think of the English word 'political' — the Portuguese cognate keeps the same root."},
+
+{type:"fb",
+ s:"A {1} no Brasil melhorou muito nos últimos anos.",
+ a:["educação"],
+ opts:["educação","vantagem","solução","política"],
+ hint:"Which word means the process of teaching and learning in a society?",
+ sSrc:"Education in Brazil has improved a lot in recent years."},
+
+{type:"fb",
+ s:"Precisamos encontrar uma {1} para esse problema.",
+ a:["solução"],
+ opts:["solução","desvantagem","comparação","educação"],
+ hint:"Which word means 'a way to resolve a difficulty'?",
+ sSrc:"We need to find a solution to this problem."},
+
+{type:"mc",
+ q:"A: Qual é a desvantagem desse plano?\nB: A desvantagem principal é o tempo que leva.",
+ opts:["The main disadvantage is the time it takes","The plan has no disadvantages","The advantage is the time saved","The plan takes no time"],
+ ans:"The main disadvantage is the time it takes",
+ hint:"'Desvantagem' is the negative counterpart of 'vantagem'. Read what follows 'é'."},
+
+{type:"match", pairs:[
+  {trg:"comparar", src:"to compare"},
+  {trg:"a vantagem", src:"advantage / benefit"},
+  {trg:"a desvantagem", src:"disadvantage / drawback"},
+  {trg:"o progresso", src:"progress"},
+  {trg:"a solução", src:"solution"}
+]}
+
+]}
+
 ]}; export default UNIT_16;
