@@ -212,21 +212,24 @@ _None currently._
 - PR #213 — Fixed 10 PP8 hint-leak regressions (Chinese×5, Italian×2, Spanish×1, Dutch×1) introduced by PRs #211/#212; closed 3 Dutch PP64 untested cards
 - PR #214 — Chinese PP63 (8→0) via forward-reference whitelist entries; Japanese PP67 (2→0) by adding production-mode fb to unit-15 and unit-22
 
-**PP58 universal-function closures (4 complete!):**
+**PP58 universal-function closures (SIX complete!):**
 - **F14 Make appointments** — 10/10 (PR #211 for FR/ES/IT/PT/NL; PR #215 for JA/KO/ZH/RU)
 - **F15 Fill in forms** — 10/10 (PR #216 for JA/KO/ZH/RU; PR #217 for FR/ES/IT/PT; PR #218 for NL)
 - **F17 Express ability** — 10/10 (PR #219 for IT/PT/RU; other 7 languages already had it)
 - **F8 Write informal letters** — 10/10 (PR #220 for NL/JA/KO/ZH; PR #221 for IT/PT/RU)
+- **F22 Handle admin situations** — 9/9 (PR #222 for IT/PT/RU/ZH; PR #223 for FR/ES/NL/JA; PR #224 for KO)
+- **F21 Write personal significance** — 9/9 (PR #225 for IT/PT/RU/ZH; PR #226 for FR/ES/NL/JA; PR #227 for KO)
 
-**Teach card increments this session: +155 across all 10 languages.**
-- Grand total: ~13,791 teach cards validated.
+**Teach card increments this session: +281 across all 10 languages.**
+- Grand total: ~13,967 teach cards validated.
 
-**Final state — ALL 10 LANGUAGES STILL 100% CLEAN:**
+**15 PRs shipped (#213 through #227). All CI green on main.**
+
+**Final state — ALL 10 LANGUAGES 100% CLEAN:**
 PP8: 0 | PP43: 0 | PP48: 0 | PP64: 0 | PP67: 0 | PP63: 0
 
 **Remaining PP58 universal gaps (for future sessions):**
-- F22 Handle administrative situations (B1, 9/9 missing)
-- F21 Write about personal significance (B2, 9/9 missing)
-- F11 Resolve disputes / mediate (B2, 6/9)
+- F11 Resolve disputes / mediate (B2, 6/9 missing — FR, ES, JP, KO, RU, and Dutch partial)
+- F10 Make purchases A1 for Portuguese (isolated gap)
 
-**Writing process:** All content written by parallel Sonnet agents (Rule B7 max 4), each self-validating PP8/PP63/PP64/PP67 before reporting. Main session reviewed aggregate outputs, ran npm run build, pushed, watched CI to green.
+**Writing process:** All content written by parallel Sonnet agents (Rule B7 max 4), each self-validating PP8/PP63/PP64/PP67 before reporting. Main session reviewed aggregate outputs, ran npm run build, pushed, watched CI to green. Total agents dispatched this session: ~28 (across F14+F15+F17+F8+F22+F21 batches).
