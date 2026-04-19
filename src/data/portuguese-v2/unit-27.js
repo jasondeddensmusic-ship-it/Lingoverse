@@ -13,14 +13,14 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
 
 {type:"teach", trg:"empresa", src:"company", pos:"noun", gender:"f",
  note:"A commercial organization. 'Empresário' means businessperson. 'Empresa familiar' = family company.",
- example:"A: A empresa tem mil funcionários.\nB: Está crescendo rápido.",
- exampleSrc:"A: The company has a thousand employees.\nB: It's growing fast.",
+ example:"A: A empresa tem muitos funcionários.\nB: Está crescendo rápido.",
+ exampleSrc:"A: The company has many employees.\nB: It's growing fast.",
  funFact:"Embraer, Vale, and Petrobras are Brazil's three largest empresas, each a global giant in their sector."},
 
 {type:"teach", trg:"produto", src:"product", pos:"noun", gender:"m",
  note:"What a company sells. 'Produtos de beleza' = beauty products. Also appears in 'PIB' (Gross Domestic Product).",
- example:"A: Esse produto é o mais vendido.\nB: Não me surpreende.",
- exampleSrc:"A: This product is the best seller.\nB: It doesn't surprise me.",
+ example:"A: Esse produto é o mais vendido.\nB: Sim, o produto é muito bom.",
+ exampleSrc:"A: This product is the best seller.\nB: Yes, the product is very good.",
  funFact:"Havaianas flip-flops are Brazil's most iconic export product, sold in over 80 countries."},
 
 {type:"teach", trg:"serviço", src:"service", pos:"noun", gender:"m",
@@ -37,8 +37,8 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
 
 {type:"teach", trg:"mercado", src:"market", pos:"noun", gender:"m",
  note:"Both a physical marketplace and an economic concept. 'Mercado de trabalho' = job market.",
- example:"A: O mercado brasileiro é imenso.\nB: São mais de 200 milhões de consumidores.",
- exampleSrc:"A: The Brazilian market is huge.\nB: Over 200 million consumers.",
+ example:"A: O mercado brasileiro é imenso.\nB: Sim, o mercado é muito grande.",
+ exampleSrc:"A: The Brazilian market is huge.\nB: Yes, the market is very big.",
  funFact:"The São Paulo Mercado Municipal is a century-old covered market famous for its mortadella sandwich."},
 
 {type:"teach", trg:"vendas", src:"sales", pos:"noun", gender:"f",
@@ -114,8 +114,8 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
 
 {type:"teach", trg:"inflação", src:"inflation", pos:"noun", gender:"f",
  note:"The rate at which prices rise. Brazilians know this word intimately from history.",
- example:"A: A inflação subiu de novo este mês.\nB: Os preços estão absurdos.",
- exampleSrc:"A: Inflation went up again this month.\nB: Prices are absurd.",
+ example:"A: A inflação é um grande problema.\nB: Sim, a inflação afeta todos.",
+ exampleSrc:"A: Inflation is a big problem.\nB: Yes, inflation affects everyone.",
  funFact:"In 1994, Brazilian inflation hit 2,477% per year. The Plano Real stabilized the currency and is still in place today."},
 
 {type:"teach", trg:"juros", src:"interest (on money)", pos:"noun", gender:"m",
@@ -138,8 +138,8 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
 
 {type:"teach", trg:"custo", src:"cost", pos:"noun", gender:"m",
  note:"The expense to produce something. 'Custo-benefício' (cost-benefit) is a fixed business phrase.",
- example:"A: O custo dos insumos aumentou demais.\nB: Isso reduz as margens.",
- exampleSrc:"A: The cost of raw materials increased a lot.\nB: That cuts into margins.",
+ example:"A: O custo dos insumos aumentou demais.\nB: Isso é um grande problema.",
+ exampleSrc:"A: The cost of raw materials increased a lot.\nB: That's a big problem.",
  funFact:"'Custo Brasil' is a famous phrase describing the high costs of doing business in Brazil due to taxes and bureaucracy."},
 
 {type:"teach", trg:"concorrência", src:"competition", pos:"noun", gender:"f",

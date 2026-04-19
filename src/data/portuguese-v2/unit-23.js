@@ -38,7 +38,7 @@ const UNIT_23 = {
         {type:"match", pairs:[{trg:"tá ligado", src:"you know / got it"},{trg:"de boa", src:"chill / no worries"},{trg:"beleza", src:"alright / cool"},{trg:"massa", src:"awesome"}]},
         {type:"tip", title:"Formality Danger Zone", text:"Slang is great with friends but dangerous in formal settings.\nOkay with friends: mano, beleza, de boa, massa, tá ligado.\nNEVER in: job interviews, emails to professors, formal business.\nNeutral replacements:\n- mano -> amigo / colega\n- beleza -> tudo bem / certo\n- de boa -> tudo tranquilo\n- massa -> muito bom / ótimo", deepDive:"Brazilian Portuguese has huge formality gaps between street slang and business speech. A well-educated speaker can switch smoothly between both. Start with neutral Portuguese, then layer in slang with close friends."},
         {type:"mc", q:"Translate 'It's really cool!' (casual)", opts:["É bom.","É muito massa!","É formal.","É sério."], ans:"É muito massa!", hint:"Use northeastern-origin slang for 'awesome'."},
-        {type:"teach", trg:"valeu", src:"thanks (casual)", pos:"intj", gender:null, note:"Literally 'it was worth'. Short for obrigado in friend-talk.", example:"A: Pega isso pra mim?\nB: Toma.\nA: Valeu!", exampleSrc:"A: Grab this for me?\nB: Here.\nA: Thanks!", funFact:"Valeu is the casual gratitude word. Using it in a formal email would sound strange."}
+        {type:"teach", trg:"valeu", src:"thanks (casual)", pos:"intj", gender:null, note:"Literally 'it was worth'. Short for obrigado in friend-talk.", example:"A: Aqui está o livro!\nB: Toma.\nA: Valeu!", exampleSrc:"A: Here is the book!\nB: Here.\nA: Thanks!", funFact:"Valeu is the casual gratitude word. Using it in a formal email would sound strange."}
       ]
     },
     {

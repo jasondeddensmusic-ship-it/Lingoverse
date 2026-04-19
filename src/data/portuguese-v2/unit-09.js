@@ -13,14 +13,14 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
 
 {type:"teach", trg:"a cabeça", src:"the head", pos:"noun", gender:"f",
  note:"Head. Feminine noun. Used in many idioms too.",
- example:"A: A cabeça dói.\nB: Tem remédio?\nA: Não, acabou.\nB: Vou comprar.",
- exampleSrc:"A: My head hurts.\nB: Do you have medicine?\nA: No, it is all gone.\nB: I will go buy some.",
+ example:"A: A cabeça é parte do corpo.\nB: E o olho?\nA: O olho também.\nB: E a boca?",
+ exampleSrc:"A: The head is part of the body.\nB: And the eye?\nA: The eye too.\nB: And the mouth?",
  funFact:"'Perder a cabeça' (to lose your head) means to lose control, just like in English."},
 
 {type:"teach", trg:"o olho", src:"the eye", pos:"noun", gender:"m",
  note:"Eye. Plural: os olhos.",
- example:"A: Seus olhos são lindos.\nB: Obrigada!\nA: São verdes?\nB: Sim, verdes como o mar.",
- exampleSrc:"A: Your eyes are beautiful.\nB: Thank you!\nA: Are they green?\nB: Yes, green like the sea.",
+ example:"A: Seus olhos são lindos.\nB: Obrigada!\nA: Os olhos são parte do corpo?\nB: Sim, são parte da cabeça.",
+ exampleSrc:"A: Your eyes are beautiful.\nB: Thank you!\nA: Are the eyes part of the body?\nB: Yes, they are part of the head.",
  funFact:"The expression 'custar os olhos da cara' (to cost the eyes of your face) means extremely expensive."},
 
 {type:"teach", trg:"a boca", src:"the mouth", pos:"noun", gender:"f",
@@ -37,14 +37,14 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
 
 {type:"teach", trg:"a perna", src:"the leg", pos:"noun", gender:"f",
  note:"Leg. Feminine noun. Plural: as pernas.",
- example:"A: Minha perna dói.\nB: Qual?\nA: A esquerda.\nB: Vou chamar o médico.",
- exampleSrc:"A: My leg hurts.\nB: Which one?\nA: The left one.\nB: I will call the doctor.",
+ example:"A: Tenho uma perna.\nB: E dois pés?\nA: Sim, e dois pés também.\nB: E duas mãos!",
+ exampleSrc:"A: I have one leg.\nB: And two feet?\nA: Yes, and two feet too.\nB: And two hands!",
  funFact:"The expression 'estar de pernas para o ar' (to be with legs up) means to rest or laze around."},
 
 {type:"teach", trg:"o pé", src:"the foot", pos:"noun", gender:"m",
  note:"Foot. Masculine noun. Plural: os pés.",
- example:"A: O pé dói muito.\nB: Caminhou muito?\nA: Sim, o dia todo.\nB: Descanse um pouco.",
- exampleSrc:"A: My foot hurts a lot.\nB: Did you walk a lot?\nA: Yes, all day.\nB: Rest a little.",
+ example:"A: O pé é parte do corpo.\nB: E a perna?\nA: A perna também.\nB: E a mão e o olho!",
+ exampleSrc:"A: The foot is part of the body.\nB: And the leg?\nA: The leg too.\nB: And the hand and the eye!",
  funFact:"'A pé' (on foot) is a common way to say walking. 'Vou a pé' means 'I am going on foot'."},
 
 {type:"tip", title:"Body Parts with Articles",
@@ -105,8 +105,8 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
 
 {type:"teach", trg:"a dor", src:"the pain", pos:"noun", gender:"f",
  note:"Pain, ache. Feminine noun. Combines with body parts: dor de cabeça (headache).",
- example:"A: Que dor!\nB: Onde dói?\nA: Aqui, nas costas.\nB: Precisa de remédio?",
- exampleSrc:"A: What pain!\nB: Where does it hurt?\nA: Here, in my back.\nB: Do you need medicine?",
+ example:"A: Que dor!\nB: Tenho muita dor.\nA: Na cabeça?\nB: Sim, dor de cabeça.",
+ exampleSrc:"A: What pain!\nB: I have a lot of pain.\nA: In the head?\nB: Yes, a headache.",
  funFact:"'Dor de cotovelo' (elbow pain) is slang for the ache of heartbreak or jealousy after lost love."},
 
 {type:"teach", trg:"sentir", src:"to feel", pos:"verb", gender:null,
@@ -117,8 +117,8 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
 
 {type:"teach", trg:"doer", src:"to hurt", pos:"verb", gender:null,
  note:"To hurt. Works backwards: body part is subject, person is object. Dói-me a cabeça = My head hurts (lit. the head hurts me).",
- example:"A: Dói-me a cabeça.\nB: Muito?\nA: Sim, desde de manhã.\nB: Toma um analgésico.",
- exampleSrc:"A: My head hurts.\nB: A lot?\nA: Yes, since this morning.\nB: Take a painkiller.",
+ example:"A: Dói-me a cabeça.\nB: Muito?\nA: Sim, muito.\nB: Toma um remédio.",
+ exampleSrc:"A: My head hurts.\nB: A lot?\nA: Yes, a lot.\nB: Take a medicine.",
  funFact:"Brazilians also say 'minha cabeça dói' (my head hurts) using possessives. Both forms are natural."},
 
 {type:"teach", trg:"bem", src:"well", pos:"adv", gender:null,
@@ -191,8 +191,8 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
 
 {type:"teach", trg:"o remédio", src:"the medicine", pos:"noun", gender:"m",
  note:"Medicine, medication. Masculine noun.",
- example:"A: Preciso de remédio.\nB: Para quê?\nA: Para dor de cabeça.\nB: Tem na farmácia.",
- exampleSrc:"A: I need medicine.\nB: For what?\nA: For a headache.\nB: You can find it at the pharmacy.",
+ example:"A: Preciso de remédio.\nB: Tem remédio em casa?\nA: Não, não tem.\nB: Tem na farmácia.",
+ exampleSrc:"A: I need medicine.\nB: Do you have medicine at home?\nA: No, there is none.\nB: There is some at the pharmacy.",
  funFact:"'Remédio' also means 'solution' or 'remedy' in a broader sense. 'Não tem remédio' = 'There is no solution'."},
 
 {type:"teach", trg:"o hospital", src:"the hospital", pos:"noun", gender:"m",

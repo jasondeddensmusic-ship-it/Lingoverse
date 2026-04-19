@@ -18,8 +18,8 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
 
 {type:"teach", trg:"falava", src:"I / you / he / she used to speak", pos:"verb", gender:null,
  note:"Same form for eu, você, ele, ela.\nContext or the subject pronoun decides.",
- example:"A: Você falava espanhol quando era pequeno?\nB: Falava sim, morava na Argentina.\nA: Que legal!\nB: Agora esqueci quase tudo.",
- exampleSrc:"A: Did you use to speak Spanish when you were little?\nB: I did, I lived in Argentina.\nA: How cool!\nB: Now I have forgotten almost everything.",
+ example:"A: Você falava espanhol quando era pequeno?\nB: Falava sim, morava na Argentina.\nA: Que legal!\nB: Agora não falo mais.",
+ exampleSrc:"A: Did you use to speak Spanish when you were little?\nB: I did, I lived in Argentina.\nA: How cool!\nB: Now I no longer speak it.",
  funFact:"The -ava ending is the calling card of the imperfect. Hear it and you know you are in the realm of memory."},
 
 {type:"teach", trg:"falávamos", src:"we used to speak", pos:"verb", gender:null,
@@ -42,8 +42,8 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
 
 {type:"teach", trg:"estudava", src:"I / he / she used to study", pos:"verb", gender:null,
  note:"Imperfect of estudar.\nHabitual past action.",
- example:"A: Você estudava muito na faculdade?\nB: Estudava sim, todo fim de semana.\nA: Que dedicada!\nB: Valeu a pena.",
- exampleSrc:"A: Did you use to study a lot in college?\nB: I did, every weekend.\nA: So dedicated!\nB: It was worth it.",
+ example:"A: Você estudava muito na faculdade?\nB: Estudava sim, todo dia.\nA: Que dedicada!\nB: Valeu a pena.",
+ exampleSrc:"A: Did you use to study a lot in college?\nB: I did, every day.\nA: So dedicated!\nB: It was worth it.",
  funFact:"Estudava is the verb of nostalgia for every Brazilian who went through university. Pair with 'aquela época' (those days)."},
 
 {type:"mc", q:"Choose the correct imperfect of falar for nós:", opts:["falava","falávamos","falavam","falamos"], ans:"falávamos", hint:"First person plural imperfect has a written accent on the stressed vowel."},
@@ -69,8 +69,8 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
 
 {type:"teach", trg:"gostava", src:"I / he / she used to like", pos:"verb", gender:null,
  note:"Imperfect of gostar.\nCommon when describing past preferences.",
- example:"A: Você gostava de chocolate em criança?\nB: Adorava! Comia todo dia.\nA: Eu também.\nB: Acho que não existe criança que não gostava.",
- exampleSrc:"A: Did you use to like chocolate as a child?\nB: I loved it! I ate it every day.\nA: Me too.\nB: I think there is no child who did not like it.",
+ example:"A: Você gostava de chocolate em criança?\nB: Adorava! Comia todo dia.\nA: Eu também gostava.\nB: Era muito bom!",
+ exampleSrc:"A: Did you use to like chocolate as a child?\nB: I loved it! I ate it every day.\nA: I used to like it too.\nB: It was so good!",
  funFact:"Preferences, feelings, and tastes almost always go in the imperfect when describing the past. Gostar is a feelings verb, so expect imperfect."},
 
 {type:"mc", q:"Which sentence correctly uses the imperfect for a description?", opts:["Ela estudava francês naquela época","Ela estudou naquela época","Ela estuda naquela época","Ela vai estudar naquela época"], ans:"Ela estudava francês naquela época", hint:"The time expression meaning 'in those days' signals a continuous background state, not a completed action."}
@@ -123,8 +123,8 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
 
 {type:"teach", trg:"saía", src:"I / you / he / she used to go out", pos:"verb", gender:null,
  note:"Imperfect of sair.\nAccent on the í because of the hiatus.",
- example:"A: Você saía muito quando era jovem?\nB: Saía todo fim de semana.\nA: Onde vocês iam?\nB: Para o bar do Zé.",
- exampleSrc:"A: Did you use to go out a lot when you were young?\nB: I used to go out every weekend.\nA: Where did you go?\nB: To Zé's bar.",
+ example:"A: Você saía muito quando era jovem?\nB: Saía sim, todo sábado.\nA: Onde vocês iam?\nB: Para o centro da cidade.",
+ exampleSrc:"A: Did you use to go out a lot when you were young?\nB: Yes, every Saturday.\nA: Where did you go?\nB: To the city center.",
  funFact:"Sair is one of those verbs where a tiny accent makes all the difference. Without it, 'saia' means skirt, not 'I went out'."},
 
 {type:"teach", trg:"costumava", src:"I / you / he / she used to (habitually)", pos:"verb", gender:null,
@@ -191,8 +191,8 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
 
 {type:"teach", trg:"era", src:"I / you / he / she was", pos:"verb", gender:null,
  note:"Imperfect of ser.\nDescribes past qualities, identities, conditions.",
- example:"A: Como era a sua casa de infância?\nB: Era grande e cheia de luz.\nA: E tinha jardim?\nB: Tinha, enorme.",
- exampleSrc:"A: What was your childhood home like?\nB: It was big and full of light.\nA: And did it have a garden?\nB: It did, huge.",
+ example:"A: Como era a sua casa de infância?\nB: Era grande e tinha muito espaço.\nA: E tinha jardim?\nB: Tinha, enorme.",
+ exampleSrc:"A: What was your childhood home like?\nB: It was big and had a lot of space.\nA: And did it have a garden?\nB: It did, huge.",
  funFact:"'Era uma vez...' (Once upon a time) starts every Brazilian fairy tale. The imperfect is the tense of all storytelling."},
 
 {type:"teach", trg:"éramos", src:"we were", pos:"verb", gender:null,
@@ -221,8 +221,8 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
 
 {type:"teach", trg:"ia", src:"I / you / he / she was going", pos:"verb", gender:null,
  note:"Imperfect of ir.\nHabitual or ongoing past movement.",
- example:"A: Para onde você ia nos fins de semana?\nB: Eu ia para a casa da vovó.\nA: Que bom!\nB: Eram os melhores dias.",
- exampleSrc:"A: Where did you use to go on weekends?\nB: I used to go to grandma's house.\nA: How nice!\nB: They were the best days.",
+ example:"A: Para onde você ia todo sábado?\nB: Eu ia para a casa da vovó.\nA: Que bom!\nB: Eram os melhores dias.",
+ exampleSrc:"A: Where did you use to go every Saturday?\nB: I used to go to grandma's house.\nA: How nice!\nB: They were the best days.",
  funFact:"Ir in the imperfect is also used for frustrated plans: 'Eu ia sair, mas começou a chover' (I was going to go out, but it started raining)."},
 
 {type:"teach", trg:"íamos", src:"we were going / we used to go", pos:"verb", gender:null,

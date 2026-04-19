@@ -18,26 +18,26 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
 
 {type:"teach", trg:"falei", src:"I spoke", pos:"verb", gender:null,
  note:"First person singular preterite of falar.\nAction complete, moment specific.",
- example:"A: Você falou com a Maria?\nB: Sim, eu falei com ela ontem.\nA: O que ela disse?\nB: Ela disse que chega amanhã.",
- exampleSrc:"A: Did you speak with Maria?\nB: Yes, I spoke with her yesterday.\nA: What did she say?\nB: She said she arrives tomorrow.",
+ example:"A: Você falou com a Maria?\nB: Sim, eu falei com ela ontem.\nA: E como foi?\nB: Muito bem, falamos sobre o trabalho.",
+ exampleSrc:"A: Did you speak with Maria?\nB: Yes, I spoke with her yesterday.\nA: And how was it?\nB: Very well, we spoke about work.",
  funFact:"The -ei ending is the fingerprint of the eu preterite for -ar verbs. One vowel shift and you are in the past."},
 
 {type:"teach", trg:"falou", src:"you / he / she spoke", pos:"verb", gender:null,
  note:"Third person singular AND você form.\nOne ending covers three subjects.",
- example:"A: O que o professor falou hoje?\nB: Ele falou sobre a história do Brasil.\nA: E você? Falou alguma coisa?\nB: Não, só escutei.",
- exampleSrc:"A: What did the teacher say today?\nB: He spoke about the history of Brazil.\nA: And you? Did you say anything?\nB: No, I only listened.",
+ example:"A: O que o professor falou hoje?\nB: Ele falou sobre a história do Brasil.\nA: E você? Falou alguma coisa?\nB: Falei sim, falei muito.",
+ exampleSrc:"A: What did the teacher say today?\nB: He spoke about the history of Brazil.\nA: And you? Did you say anything?\nB: Yes I did, I spoke a lot.",
  funFact:"The -ou ending sounds like 'oh' in Brazilian Portuguese. A very recognizable past-tense signal."},
 
 {type:"teach", trg:"falamos", src:"we spoke / we speak", pos:"verb", gender:null,
  note:"Identical in present and preterite.\nContext makes the meaning clear.",
- example:"A: Nós falamos com o gerente ontem.\nB: E ele ajudou vocês?\nA: Sim, resolveu tudo rapidinho.\nB: Que bom!",
- exampleSrc:"A: We spoke with the manager yesterday.\nB: And did he help you?\nA: Yes, he solved everything quickly.\nB: How nice!",
+ example:"A: Nós falamos com o professor ontem.\nB: E ele ajudou vocês?\nA: Sim, falou muito bem.\nB: Que bom!",
+ exampleSrc:"A: We spoke with the teacher yesterday.\nB: And did he help you?\nA: Yes, he spoke very well.\nB: How nice!",
  funFact:"European Portuguese adds an accent (falámos) to separate past from present. Brazil drops the accent but the vowel is open."},
 
 {type:"teach", trg:"falaram", src:"they / you all spoke", pos:"verb", gender:null,
  note:"Used for vocês, eles, and elas.\nPlural third person preterite ending.",
- example:"A: Os meus pais falaram com o diretor.\nB: Sobre o quê?\nA: Sobre as minhas notas.\nB: E como foi?",
- exampleSrc:"A: My parents spoke with the principal.\nB: About what?\nA: About my grades.\nB: And how did it go?",
+ example:"A: Os meus pais falaram com o professor.\nB: Sobre o que?\nA: Sobre as minhas notas.\nB: E como foi?",
+ exampleSrc:"A: My parents spoke with the teacher.\nB: About what?\nA: About my grades.\nB: And how did it go?",
  funFact:"The -aram ending is stressed on the second A. Brazilians often reduce it to 'falarum' in fast speech."},
 
 {type:"teach", trg:"ontem", src:"yesterday", pos:"adv", gender:null,
@@ -127,8 +127,8 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
 
 {type:"teach", trg:"vivi", src:"I lived", pos:"verb", gender:null,
  note:"Preterite of viver for eu.\nUseful for talking about past residence.",
- example:"A: Onde você morou antes?\nB: Eu vivi em Portugal por cinco anos.\nA: Que experiência!\nB: Foi incrível.",
- exampleSrc:"A: Where did you live before?\nB: I lived in Portugal for five years.\nA: What an experience!\nB: It was amazing.",
+ example:"A: Onde você morou antes?\nB: Eu vivi em Portugal por cinco anos.\nA: E como foi?\nB: Muito bem, aprendi muito.",
+ exampleSrc:"A: Where did you live before?\nB: I lived in Portugal for five years.\nA: And how was it?\nB: Very well, I learned a lot.",
  funFact:"Viver is often used for experiences, morar for residence. Vivi em Paris feels richer than morei em Paris."},
 
 {type:"mc", q:"Choose the correct preterite of comer for eu:", opts:["comeu","comi","comemos","comeram"], ans:"comi", hint:"First person singular -er preterite drops everything except the -i."},
@@ -177,8 +177,8 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
 
 {type:"teach", trg:"fui", src:"I was / I went", pos:"verb", gender:null,
  note:"Preterite of BOTH ser and ir for eu.\nContext decides which meaning.",
- example:"A: Onde você foi no fim de semana?\nB: Eu fui à praia com a família.\nA: E como foi?\nB: Foi maravilhoso, fui muito feliz lá.",
- exampleSrc:"A: Where did you go on the weekend?\nB: I went to the beach with the family.\nA: And how was it?\nB: It was wonderful, I was very happy there.",
+ example:"A: Onde você foi ontem?\nB: Eu fui à praia com a família.\nA: E como foi?\nB: Foi muito bem, foi ótimo.",
+ exampleSrc:"A: Where did you go yesterday?\nB: I went to the beach with the family.\nA: And how was it?\nB: It was very good, it was great.",
  funFact:"In one conversation you can say 'fui' three times meaning went, was, and went again. Portuguese trusts context."},
 
 {type:"teach", trg:"foi", src:"you / he / she was / went", pos:"verb", gender:null,
@@ -189,14 +189,14 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
 
 {type:"teach", trg:"fomos", src:"we were / we went", pos:"verb", gender:null,
  note:"First person plural of ser AND ir.\nSounds like 'foh-mohs'.",
- example:"A: Vocês conheceram o Rio?\nB: Sim, fomos em janeiro.\nA: E fomos à praia todos os dias.\nB: A vista foi incrível.",
- exampleSrc:"A: Did you get to know Rio?\nB: Yes, we went in January.\nA: And we went to the beach every day.\nB: The view was incredible.",
+ example:"A: Vocês foram ao Rio?\nB: Sim, fomos em janeiro.\nA: E fomos à praia todos os dias.\nB: Foi muito bem.",
+ exampleSrc:"A: Did you go to Rio?\nB: Yes, we went in January.\nA: And we went to the beach every day.\nB: It was very good.",
  funFact:"Fomos appears in both halves of almost every vacation story. It is the engine of Brazilian travel talk."},
 
 {type:"teach", trg:"foram", src:"they / you all were / went", pos:"verb", gender:null,
  note:"Plural third person of ser AND ir.\nOne of the most common past verbs in Portuguese.",
- example:"A: Seus amigos foram ao show?\nB: Foram todos, até o Paulo.\nA: E foram felizes?\nB: Foram, voltaram cantando.",
- exampleSrc:"A: Did your friends go to the concert?\nB: They all went, even Paulo.\nA: And were they happy?\nB: They were, they came back singing.",
+ example:"A: Seus amigos foram ao restaurante?\nB: Foram todos, até o Paulo.\nA: E como foram?\nB: Foram muito bem, comeram muito.",
+ exampleSrc:"A: Did your friends go to the restaurant?\nB: They all went, even Paulo.\nA: And how were they?\nB: They were very good, they ate a lot.",
  funFact:"Notice how fui, foi, fomos, foram all start with F. A handy clue when you are listening and catching only the beginning of the word."},
 
 {type:"verb_table", title:"Preterite: fazer (to do/make)",
@@ -237,14 +237,14 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
 
 {type:"teach", trg:"teve", src:"you / he / she had", pos:"verb", gender:null,
  note:"Third person singular of ter.\nRhymes with leve (light).",
- example:"A: O Pedro teve sorte no jogo?\nB: Teve muita sorte, ganhou três vezes.\nA: E você?\nB: Eu não tive tanta sorte.",
- exampleSrc:"A: Did Pedro have luck in the game?\nB: He had a lot of luck, he won three times.\nA: And you?\nB: I did not have as much luck.",
+ example:"A: O Pedro teve sorte no jogo?\nB: Teve muita sorte, ganhou!\nA: E você?\nB: Eu não tive tanta sorte.",
+ exampleSrc:"A: Did Pedro have luck in the game?\nB: He had a lot of luck, he won!\nA: And you?\nB: I did not have as much luck.",
  funFact:"'Teve' sounds identical to the name Tevez. Portuguese-speaking football fans have a lot of fun with this coincidence."},
 
 {type:"teach", trg:"já", src:"already / ever", pos:"adv", gender:null,
  note:"Preterite marker for completion.\nCan also form past-experience questions.",
- example:"A: Você já foi ao Rio?\nB: Já fui três vezes.\nA: E já comeu açaí lá?\nB: Já! É a melhor coisa do mundo.",
- exampleSrc:"A: Have you ever been to Rio?\nB: I have been three times.\nA: And have you eaten açaí there?\nB: I have! It is the best thing in the world.",
+ example:"A: Você já foi ao Rio?\nB: Já fui!\nA: E já comeu lá?\nB: Já! É a melhor coisa do mundo.",
+ exampleSrc:"A: Have you ever been to Rio?\nB: I have been there!\nA: And have you eaten there?\nB: I have! It is the best thing in the world.",
  funFact:"Já has about ten meanings in Portuguese. 'Já' alone as a reply means 'already done' or 'right away'. Context is king."},
 
 {type:"teach", trg:"ainda não", src:"not yet", pos:"adv", gender:null,

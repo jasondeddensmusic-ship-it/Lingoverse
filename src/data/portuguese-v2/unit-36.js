@@ -31,8 +31,8 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
 
 {type:"teach", trg:"compreender", src:"to understand", pos:"verb", gender:null,
  note:"Formal equivalent of 'entender'. Used in exams, official documents, and polite speech.",
- example:"A: Você compreende o sotaque baiano?\nB: Está ficando mais fácil com a prática.",
- exampleSrc:"A: Do you understand the Bahian accent?\nB: It is getting easier with practice.",
+ example:"A: Você compreende o sotaque baiano?\nB: Estou compreendendo com a prática.",
+ exampleSrc:"A: Do you understand the Bahian accent?\nB: I'm understanding with practice.",
  funFact:"Breaks down as 'com + preender' (to grasp with). To comprehend is to grasp wholly."},
 
 {type:"teach", trg:"comunicar", src:"to communicate", pos:"verb", gender:null,

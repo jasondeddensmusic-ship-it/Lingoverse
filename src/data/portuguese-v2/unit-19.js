@@ -25,8 +25,8 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
 
 {type:"teach", trg:"tão", src:"as", pos:"adv", gender:null,
  note:"Used for equality. Tão + adjective + quanto. Means 'as...as' in English.",
- example:"A: Essa praia é tão bonita quanto aquela.\nB: Verdade, as duas são incríveis.",
- exampleSrc:"A: This beach is as beautiful as that one.\nB: True, both are incredible.",
+ example:"A: Essa praia é tão bonita quanto aquela.\nB: Verdade, as duas são muito bonitas.",
+ exampleSrc:"A: This beach is as beautiful as that one.\nB: True, both are very beautiful.",
  funFact:"Before vowels, 'tão' doesn't contract. Keeps its full form always."},
 
 {type:"teach", trg:"quanto", src:"as (in comparisons)", pos:"conj", gender:null,
@@ -174,8 +174,8 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
 
 {type:"teach", trg:"o mais", src:"the most", pos:"adv", gender:null,
  note:"Relative superlative. 'O/A/Os/As mais + adjective + de'. Agrees with the noun in gender and number.",
- example:"A: Qual é a cidade mais bonita do Brasil?\nB: Para mim, é Salvador.",
- exampleSrc:"A: Which is the most beautiful city in Brazil?\nB: For me, it's Salvador.",
+ example:"A: Qual é a cidade mais bonita do Brasil?\nB: Rio é a mais bonita do país.",
+ exampleSrc:"A: Which is the most beautiful city in Brazil?\nB: Rio is the most beautiful in the country.",
  funFact:"The article 'o/a' can drop if the noun already has one: 'a cidade mais bonita' instead of 'a mais bonita cidade'."},
 
 {type:"teach", trg:"o menos", src:"the least", pos:"adv", gender:null,

@@ -25,8 +25,8 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"teach", trg:"ademais", src:"moreover / furthermore", pos:"adv", gender:null,
  note:"Adds another supporting argument. Used in essays and formal letters.",
- example:"A: O clima tropical favorece a agricultura. Ademais, o solo é fértil.\nB: Por isso o Brasil é um gigante agrícola.",
- exampleSrc:"A: The tropical climate favors agriculture. Moreover, the soil is fertile.\nB: That is why Brazil is an agricultural giant.",
+ example:"A: O clima tropical favorece a agricultura. Ademais, temos muita água.\nB: Por isso o Brasil é um gigante agrícola.",
+ exampleSrc:"A: The tropical climate favors agriculture. Moreover, we have plenty of water.\nB: That is why Brazil is an agricultural giant.",
  funFact:"Sounds old-fashioned in speech. In writing, adds serious polish."},
 
 {type:"teach", trg:"outrossim", src:"likewise / also", pos:"adv", gender:null,
@@ -144,8 +144,8 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"teach", trg:"não obstante", src:"nevertheless / notwithstanding", pos:"conj", gender:null,
  note:"Stronger than 'entretanto'. Signals a contrast that does not block the conclusion.",
- example:"A: O plano é complexo. Não obstante, podemos executá-lo.\nB: Concordo. Vamos começar a planejar.",
- exampleSrc:"A: The plan is complex. Nevertheless, we can execute it.\nB: I agree. Let us start planning.",
+ example:"A: O plano é complexo. Não obstante, podemos fazer.\nB: Concordo. Vamos começar a planejar.",
+ exampleSrc:"A: The plan is complex. Nevertheless, we can do it.\nB: I agree. Let us start planning.",
  funFact:"'Obstar' means 'to obstruct'. 'Não obstante' literally means 'not obstructing'."},
 
 {type:"teach", trg:"deste modo", src:"in this way / thus", pos:"adv", gender:null,
@@ -156,8 +156,8 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"teach", trg:"assim sendo", src:"that being so / therefore", pos:"conj", gender:null,
  note:"A gerund-based connector. Wraps up an argument before the final conclusion.",
- example:"A: Os prazos são apertados. Assim sendo, precisamos agir já.\nB: Vou acionar a equipe agora.",
- exampleSrc:"A: The deadlines are tight. That being so, we need to act now.\nB: I will notify the team now.",
+ example:"A: Os prazos são apertados. Assim sendo, precisamos agir já.\nB: Vou avisar todos agora.",
+ exampleSrc:"A: The deadlines are tight. That being so, we need to act now.\nB: I will notify everyone now.",
  funFact:"Literally 'thus being'. A gerund acting as a full subordinate clause, very Latinate."},
 
 {type:"tip", title:"Register Mastery: Casual vs Formal",

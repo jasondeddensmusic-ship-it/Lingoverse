@@ -108,8 +108,8 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
 
 {type:"teach", trg:"computador", src:"computer", pos:"noun", gender:"m",
  note:"From Latin, not English. Brazilians usually say 'computador' (desktop) or 'notebook' (laptop, borrowed from English).",
- example:"A: Meu computador está lento.\nB: Pode ser vírus ou memória cheia.",
- exampleSrc:"A: My computer is slow.\nB: Could be a virus or full memory.",
+ example:"A: Meu computador está lento.\nB: Pode ser problema de memória.",
+ exampleSrc:"A: My computer is slow.\nB: Could be a memory problem.",
  funFact:"Portuguese has a native word for computer, unlike many languages that use English. 'Computar' means 'to calculate'."},
 
 {type:"teach", trg:"software", src:"software", pos:"noun", gender:"m",
@@ -227,8 +227,8 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
 
 {type:"teach", trg:"desenvolver", src:"to develop", pos:"verb", gender:null,
  note:"Regular -er verb. Used for developing software, products, ideas, or countries.",
- example:"A: Nossa equipe desenvolveu um novo aplicativo.\nB: Parabéns pelo lançamento!",
- exampleSrc:"A: Our team developed a new app.\nB: Congratulations on the launch!",
+ example:"A: Nossa empresa vai desenvolver um novo aplicativo.\nB: Parabéns pelo projeto!",
+ exampleSrc:"A: Our company is going to develop a new app.\nB: Congratulations on the project!",
  funFact:"'Desenvolvedor' (developer) is the Portuguese job title, though 'dev' is common in tech slang."},
 
 {type:"teach", trg:"programa", src:"program", pos:"noun", gender:"m",
@@ -239,8 +239,8 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
 
 {type:"teach", trg:"máquina", src:"machine", pos:"noun", gender:"f",
  note:"Any mechanical device. 'Máquina de lavar' = washing machine. Feminine noun.",
- example:"A: Essa máquina substitui dez trabalhadores.\nB: É bom e ruim ao mesmo tempo.",
- exampleSrc:"A: This machine replaces ten workers.\nB: It's good and bad at the same time.",
+ example:"A: Essa máquina substitui dez trabalhadores.\nB: É bom para a empresa, difícil para eles.",
+ exampleSrc:"A: This machine replaces ten workers.\nB: Good for the company, hard for them.",
  funFact:"'À máquina' means 'by machine' (manufactured), while 'à mão' means 'by hand'. Both describe how something was made."},
 
 {type:"teach", trg:"futuro", src:"future", pos:"noun", gender:"m",

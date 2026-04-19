@@ -93,8 +93,8 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
 
 {type:"teach", trg:"o aeroporto", src:"the airport", pos:"noun", gender:"m",
  note:"Airport. Masculine noun. Combines 'aéreo' (aerial) and 'porto' (port).",
- example:"A: O aeroporto é longe?\nB: Uns quarenta minutos.\nA: De táxi?\nB: Melhor de Uber.",
- exampleSrc:"A: Is the airport far?\nB: About forty minutes.\nA: By taxi?\nB: Better by Uber.",
+ example:"A: O aeroporto é longe?\nB: Uns quarenta minutos.\nA: De carro?\nB: Sim, melhor de carro.",
+ exampleSrc:"A: Is the airport far?\nB: About forty minutes.\nA: By car?\nB: Yes, better by car.",
  funFact:"Brazil's biggest airport is São Paulo Guarulhos, handling over forty million passengers annually."},
 
 {type:"teach", trg:"a estação", src:"the station", pos:"noun", gender:"f",
@@ -173,8 +173,8 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
 
 {type:"teach", trg:"viajar", src:"to travel", pos:"verb", gender:null,
  note:"Regular -ar verb: viajo, viaja, viajamos, viajam.",
- example:"A: Viaja muito?\nB: Duas vezes por ano.\nA: Para onde?\nB: Portugal e Argentina.",
- exampleSrc:"A: Do you travel a lot?\nB: Twice a year.\nA: Where to?\nB: Portugal and Argentina.",
+ example:"A: Viaja muito?\nB: Adoro viajar!\nA: Para onde?\nB: Portugal e Argentina.",
+ exampleSrc:"A: Do you travel a lot?\nB: I love to travel!\nA: Where to?\nB: Portugal and Argentina.",
  funFact:"Brazilians love 'férias' (vacation). Workers are entitled to thirty paid days off per year by law."},
 
 {type:"teach", trg:"chegar", src:"to arrive", pos:"verb", gender:null,

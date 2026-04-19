@@ -13,20 +13,20 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
 
 {type:"teach", trg:"o esporte", src:"the sport", pos:"noun", gender:"m",
  note:"Sport. Masculine noun. In Portugal spelled 'desporto'.",
- example:"A: Pratica algum esporte?\nB: Sim, vôlei.\nA: Onde?\nB: Na praia, nos fins de semana.",
- exampleSrc:"A: Do you play any sport?\nB: Yes, volleyball.\nA: Where?\nB: On the beach, on weekends.",
+ example:"A: Pratica algum esporte?\nB: Sim, futebol.\nA: Onde?\nB: Na praia, de manhã.",
+ exampleSrc:"A: Do you play any sport?\nB: Yes, football.\nA: Where?\nB: On the beach, in the morning.",
  funFact:"From the English 'sport'. Brazil's favorite sport is football, but volleyball and futsal are close behind."},
 
 {type:"teach", trg:"o futebol", src:"the football", pos:"noun", gender:"m",
  note:"Football (soccer). Masculine noun. The national sport of Brazil.",
- example:"A: Gosta de futebol?\nB: Muito!\nA: Qual é o seu time?\nB: O Flamengo.",
- exampleSrc:"A: Do you like football?\nB: Very much!\nA: Which is your team?\nB: Flamengo.",
+ example:"A: Gosta de futebol?\nB: Muito!\nA: Pratica esporte?\nB: Sim, futebol é o meu esporte.",
+ exampleSrc:"A: Do you like football?\nB: Very much!\nA: Do you play sport?\nB: Yes, football is my sport.",
  funFact:"Brazil is the only country to have played in every FIFA World Cup since the tournament began in 1930."},
 
 {type:"teach", trg:"a praia", src:"the beach", pos:"noun", gender:"f",
  note:"Beach. Feminine noun. Central to Brazilian life along the coast.",
- example:"A: Vamos à praia?\nB: Com este calor?\nA: Sim, está perfeito.\nB: Vou pegar o biquíni.",
- exampleSrc:"A: Shall we go to the beach?\nB: In this heat?\nA: Yes, it is perfect.\nB: I will grab my bikini.",
+ example:"A: Vamos à praia?\nB: Com este calor?\nA: Sim, está perfeito.\nB: Ótimo, vamos nadar!",
+ exampleSrc:"A: Shall we go to the beach?\nB: In this heat?\nA: Yes, it is perfect.\nB: Great, let's swim!",
  funFact:"Rio's Copacabana beach stretches four kilometers and hosts over two million people for New Year's Eve."},
 
 {type:"teach", trg:"a música", src:"the music", pos:"noun", gender:"f",
@@ -123,14 +123,14 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
 
 {type:"teach", trg:"ler", src:"to read", pos:"verb", gender:null,
  note:"Irregular verb: leio, lê, lemos, leem. Short but irregular.",
- example:"A: Você lê muito?\nB: Um livro por mês.\nA: De que tipo?\nB: Romances.",
- exampleSrc:"A: Do you read a lot?\nB: One book per month.\nA: What kind?\nB: Novels.",
+ example:"A: Você lê muito?\nB: Sim, adoro ler livros.\nA: De que tipo?\nB: Gosto de livros de música.",
+ exampleSrc:"A: Do you read a lot?\nB: Yes, I love to read books.\nA: What kind?\nB: I like music books.",
  funFact:"From Latin 'legere', also the root of English 'legend' and 'lecture'."},
 
 {type:"teach", trg:"escrever", src:"to write", pos:"verb", gender:null,
  note:"Regular -er verb: escrevo, escreve, escrevemos, escrevem.",
- example:"A: Você escreve?\nB: Sim, um blog.\nA: Sobre o quê?\nB: Sobre viagens.",
- exampleSrc:"A: Do you write?\nB: Yes, a blog.\nA: About what?\nB: About travel.",
+ example:"A: Você escreve?\nB: Sim, escrevo e leio muito.\nA: Escreve livros?\nB: Não, escrevo música.",
+ exampleSrc:"A: Do you write?\nB: Yes, I write and read a lot.\nA: Do you write books?\nB: No, I write music.",
  funFact:"From Latin 'scribere'. Same root as 'escritório' (office), the place where you write."},
 
 {type:"teach", trg:"assistir", src:"to watch", pos:"verb", gender:null,

@@ -31,20 +31,20 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
 
 {type:"teach", trg:"dieta", src:"diet (restrictive)", pos:"noun", gender:"f",
  note:"A specific eating plan, usually for weight or health. 'Estar de dieta' = to be on a diet.",
- example:"A: Estou de dieta faz um mês.\nB: Está valendo a pena?",
- exampleSrc:"A: I've been on a diet for a month.\nB: Is it worth it?",
+ example:"A: Estou de dieta há um ano.\nB: Está valendo a pena?",
+ exampleSrc:"A: I've been on a diet for a year.\nB: Is it worth it?",
  funFact:"'Dieta do tipo sanguíneo' (blood type diet) was a Brazilian bestseller in the 2000s despite weak science."},
 
 {type:"teach", trg:"peso", src:"weight", pos:"noun", gender:"m",
  note:"Body weight. 'Perder peso' = to lose weight. 'Ganhar peso' = to gain weight.",
- example:"A: Eu perdi peso esse verão.\nB: Ficou ótimo, parabéns!",
- exampleSrc:"A: I lost weight this summer.\nB: You look great, congrats!",
+ example:"A: O peso é um problema.\nB: Você pode fazer dieta.",
+ exampleSrc:"A: Weight is a problem.\nB: You can go on a diet.",
  funFact:"Portuguese uses kilograms for body weight. A Brazilian would say '70 quilos', not '154 pounds'."},
 
 {type:"teach", trg:"academia", src:"gym", pos:"noun", gender:"f",
  note:"Gym or fitness center. Also means 'academy' (academic institution).",
- example:"A: Vou à academia três vezes por semana.\nB: Que disciplina!",
- exampleSrc:"A: I go to the gym three times a week.\nB: What discipline!",
+ example:"A: Vou à academia todo dia.\nB: Que disciplina!",
+ exampleSrc:"A: I go to the gym every day.\nB: What discipline!",
  funFact:"Smart Fit, a Brazilian chain, became the largest gym network in Latin America in the 2010s."},
 
 {type:"teach", trg:"aparelho", src:"machine / equipment / device", pos:"noun", gender:"m",
@@ -209,8 +209,8 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
 
 {type:"teach", trg:"bem-estar", src:"wellbeing", pos:"noun", gender:"m",
  note:"Compound noun connected by hyphen. Literally 'well-being'. Masculine.",
- example:"A: O bem-estar depende de muitas coisas.\nB: Corpo, mente e relações.",
- exampleSrc:"A: Wellbeing depends on many things.\nB: Body, mind, and relationships.",
+ example:"A: O bem-estar é muito importante.\nB: Sim, corpo e mente juntos.",
+ exampleSrc:"A: Wellbeing is very important.\nB: Yes, body and mind together.",
  funFact:"'Bem-estar' replaced older terms like 'saúde geral' in Brazilian corporate wellness programs around 2015."},
 
 {type:"teach", trg:"meditação", src:"meditation", pos:"noun", gender:"f",
@@ -233,8 +233,8 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
 
 {type:"teach", trg:"equilíbrio", src:"balance", pos:"noun", gender:"m",
  note:"Physical or life balance. 'Equilíbrio entre trabalho e vida' = work-life balance.",
- example:"A: O equilíbrio é a chave da felicidade.\nB: Mais fácil dizer que fazer.",
- exampleSrc:"A: Balance is the key to happiness.\nB: Easier said than done.",
+ example:"A: O equilíbrio é a chave da felicidade.\nB: Sim, o equilíbrio é muito importante.",
+ exampleSrc:"A: Balance is the key to happiness.\nB: Yes, balance is very important.",
  funFact:"The Portuguese 'equilíbrio' is cognate with English 'equilibrium' and appears in both physics and daily life."},
 
 {type:"teach", trg:"energia", src:"energy", pos:"noun", gender:"f",
