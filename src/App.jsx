@@ -91,6 +91,7 @@ export default function App(){
     setFlags(prev=>[...prev,f]);
   };
   const [page,setPage]=useState("home");
+  const [flashcardMode,setFlashcardMode]=useState("due"); // "due" | "browse"
   const [jumpTo,setJumpTo]=useState(null);
   const [toast,setToast]=useState(null);
   const [pops,setPops]=useState([]);
@@ -626,10 +627,10 @@ export default function App(){
         <>
           <NavBar/>
           <div className="main anim" key={page}>
-            {page==="home"&&<Home user={user} setPage={setPage} lang={lang} baseLang={baseLang}/>}
+            {page==="home"&&<Home user={user} setPage={setPage} lang={lang} baseLang={baseLang} setFlashcardMode={setFlashcardMode}/>}
             {page==="learn"&&<LearnPage lang={lang} baseLang={baseLang} user={user} setUser={setUser} addXp={addXp} learnWord={learnWord} showToast={showToast} addFlag={addFlag} jumpTo={jumpTo} clearJumpTo={()=>setJumpTo(null)}/>}
             {page==="vocabulary"&&<VocabularyPage lang={lang} user={user} showToast={showToast} baseLang={baseLang}/>}
-            {page==="flashcards"&&<Flashcards lang={lang} baseLang={baseLang} user={user} addXp={addXp} learnWord={learnWord} showToast={showToast}/>}
+            {page==="flashcards"&&<Flashcards lang={lang} baseLang={baseLang} user={user} addXp={addXp} learnWord={learnWord} showToast={showToast} initialTab={flashcardMode}/>}
             {page==="curriculum"&&<div className="anim" style={{textAlign:"center",padding:"60px 20px"}}><AppIcon name="brain" size={72}/><h2 style={{fontSize:24,fontWeight:800,color:"var(--gray-800)",marginTop:16,marginBottom:8,fontFamily:"'DM Sans','Inter',system-ui,sans-serif"}}>Personal Curriculum</h2><p style={{color:"var(--gray-400)",fontSize:14,lineHeight:1.6,maxWidth:320,margin:"0 auto 24px"}}>Your AI-powered personalized learning path is being developed. It will adapt to your strengths, weaknesses, and learning style.</p><div style={{display:"inline-block",padding:"10px 24px",borderRadius:16,background:"linear-gradient(180deg, #C0AEF8 0%, #7B5EE8 50%, #5840B8 100%)",color:"white",fontWeight:700,fontSize:13,boxShadow:"0 4px 16px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.35), inset 0 -2px 0 rgba(0,0,0,0.12)"}}>Coming Soon</div></div>}
             {page==="quiz"&&<Quiz lang={lang} baseLang={baseLang} user={user} addXp={addXp} learnWord={learnWord} onPerfect={()=>unlock("quiz_perfect")} showToast={showToast}/>}
             {page==="chat"&&<Chat lang={lang} baseLang={baseLang} user={user} addXp={addXp} addChat={addChat} learnedWords={[...user.lw]}/>}

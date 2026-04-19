@@ -158,6 +158,15 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
         {type:"fb",opts:["tiene","tengo","tienes","tener"],hint:"Asking about HER age, third person singular.",s:"¿Cuántos años {1} tu abuela?",a:"tiene"},
         {type:"mc",q:"How would you say 'You have two sisters'?",opts:["Tengo dos hermanas","Tienes dos hermanas","Tiene dos hermanas","Tener dos hermanas"],ans:"Tienes dos hermanas",hint:"Addressing someone informally: tú form."}
   ]},
+  {id:"esp2l7b",title:"La familia de Carmen",icon:"👨‍👩‍👧",xp:10,board:true,steps:[
+        {type:"intro",title:"La familia de Carmen",desc:"Verumius meets Carmen's family. An encounter with numbers, descriptions, and a very curious grandmother.",goals:["See family vocabulary in action","Watch Verumius describe people","Enjoy the story"]},
+        {type:"story",speaker:"narrator",mood:"warm",art:"es-unit-02-scene-01",trg:"Carmen presenta a Verumius a su familia. Su madre es alta y morena. Su abuelo es viejo pero muy simpático.",src:"Carmen introduces Verumius to her family. Her mother is tall and dark-haired. Her grandfather is old but very kind."},
+        {type:"story",speaker:"verumius",mood:"formal",art:"es-unit-02-scene-01",trg:"¡Buenas tardes, señora! Me llamo Verumius. Mucho gusto.",src:"Good afternoon, ma'am! My name is Verumius. Nice to meet you."},
+        {type:"story",speaker:"carmen",mood:"amused",art:"es-unit-02-scene-02",trg:"Verumius, mi madre se llama Elena. Y él es mi abuelo Pedro.",src:"Verumius, my mother's name is Elena. And he is my grandfather Pedro."},
+        {type:"story",speaker:"verumius",mood:"curious",art:"es-unit-02-scene-02",trg:"¿Cuántos años tiene su abuelo, Carmen?",src:"How old is your grandfather, Carmen?"},
+        {type:"story",speaker:"carmen",mood:"laughing",art:"es-unit-02-scene-03",trg:"Mi abuelo tiene... ¡diez años! No, no. Tiene ochenta años.",src:"My grandfather is... ten years old! No, no. He is eighty years old."},
+        {type:"story",speaker:"verumius",mood:"embarrassed",art:"es-unit-02-scene-03",trg:"¡Lo siento! Mi español es pequeño. Pero mi familia tiene tres hijos y mi madre es muy simpática también.",src:"I'm sorry! My Spanish is small. But my family has three children and my mother is very kind too."}
+  ]},
   {id:"esp2l8",title:"¡Describe Tu Familia!",icon:"🏠",xp:20,board:true,steps:[
         {type:"intro",title:"¡Describe Tu Familia!",desc:"Put it all together. Describe your family using everything from this unit.",goals:["Combine family vocabulary with possessives","Use ser and tener for descriptions","Practice numbers and adjective agreement"]},
         {type:"tip",title:"Describing People: Full Toolkit",text:"You now have these tools:\n\n- Family words: padre, madre, hermano, abuelo, tío, primo...\n- Possessives: mi, tu, su, mis\n- Ser + adjective: es alto, es joven, es grande\n- Tener + feature: tiene el pelo negro, tiene los ojos marrones\n- Tener + age: tiene diez años\n- Numbers: cero to diez",icon:"🧰"},

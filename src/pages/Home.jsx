@@ -5,10 +5,16 @@ import { UNITS } from '../utils.js';
 import { AppIcon } from '../components/shared.jsx';
 import CountryFlag from '../components/CountryFlag.jsx';
 import { getUserCefr } from '../helpers.js';
+import { getDueToday } from '../srs.js';
 
-function Home({user,setPage,lang,baseLang="en"}){
+function Home({user,setPage,lang,baseLang="en",setFlashcardMode}){
   const dk=document.documentElement.classList.contains("dark");
   const L=LANGUAGES.find(l=>l.code===lang);
+
+  // Due cards count for Daily Review tile
+  const dueCount = useMemo(() => {
+    try { return getDueToday(lang, 200).length; } catch { return 0; }
+  }, [lang]);
 
   // Find next incomplete lesson for "Continue Learning"
   const continueInfo = useMemo(() => {
@@ -76,6 +82,41 @@ function Home({user,setPage,lang,baseLang="en"}){
       {/* All complete badge */}
       {continueInfo?.allComplete && <div style={{maxWidth:520,margin:"0 auto 20px",borderRadius:20,padding:"16px 24px",textAlign:"center",background:dk?"rgba(46,205,167,0.12)":"linear-gradient(135deg, #E8FFF6, #D1FAE5)",border:"1.5px solid rgba(46,205,167,0.2)"}}>
         <span style={{fontSize:14,fontWeight:700,color:"var(--teal-dark)"}}>🎉 {t("home_all_complete",baseLang) || "All lessons completed!"}</span>
+      </div>}
+
+      {/* Daily Review tile — only shown when cards are due */}
+      {dueCount > 0 && <div
+        role="button"
+        onClick={() => {
+          if (setFlashcardMode) setFlashcardMode("due");
+          setPage("flashcards");
+        }}
+        style={{
+          maxWidth:520,margin:"0 auto 20px",borderRadius:20,padding:"20px 24px",cursor:"pointer",
+          background:dk
+            ?"linear-gradient(135deg, rgba(46,205,167,0.2), rgba(14,165,133,0.12))"
+            :"linear-gradient(135deg, #E8FFF6, #D1FAE5)",
+          border:dk?"1.5px solid rgba(46,205,167,0.3)":"1.5px solid rgba(46,205,167,0.25)",
+          boxShadow:"0 4px 16px rgba(14,165,133,0.14)",
+          transition:"all .15s",position:"relative",overflow:"hidden",
+        }}
+      >
+        <div style={{position:"absolute",top:0,left:0,right:0,height:"50%",borderRadius:"20px 20px 0 0",background:"linear-gradient(180deg, rgba(255,255,255,0.15) 0%, transparent 100%)",pointerEvents:"none"}}/>
+        <div style={{display:"flex",alignItems:"center",gap:16,position:"relative",zIndex:1}}>
+          <div style={{fontSize:36,flexShrink:0}}>&#128337;</div>
+          <div style={{flex:1,minWidth:0}}>
+            <div style={{fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:1.2,color:"var(--teal-dark)",marginBottom:4}}>
+              Daily Review
+            </div>
+            <div style={{fontSize:16,fontWeight:800,color:"var(--gray-800)",marginBottom:2}}>
+              {dueCount} card{dueCount !== 1 ? "s" : ""} due for review
+            </div>
+            <div style={{fontSize:12,color:"var(--gray-400)",fontWeight:600}}>
+              Tap to review now
+            </div>
+          </div>
+          <div style={{fontSize:24,color:"var(--teal-dark)",flexShrink:0}}>&#8594;</div>
+        </div>
       </div>}
 
       {/* 6 Category buttons — continue-button purple */}

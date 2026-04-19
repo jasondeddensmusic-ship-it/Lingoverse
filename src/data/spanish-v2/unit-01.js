@@ -148,6 +148,16 @@ export default {n:1,lang:"es",srcLang:"en",track:"v2",title:"¡Hola!",sub:"Greet
         {type:"fb",opts:["francesa","francés","Francia","francesas"],hint:"Feminine singular nationality for a woman from France.",s:"Ella es {1}. De París.",a:"francesa"},
         {type:"mc",q:"To ask formally where someone is from:",opts:["¿De dónde es usted?","¿De dónde eres?","¿Dónde estás?","¿De dónde estás?"],ans:"¿De dónde es usted?",hint:"Formal requires ___ and the third person verb form."}
   ]},
+  {id:"esp1l7b",title:"Verumius llega a Madrid",icon:"🏛️",xp:10,board:true,steps:[
+        {type:"intro",title:"Verumius llega a Madrid",desc:"Meet Verumius, a Roman scholar who has arrived in Madrid with one mission: speak Spanish. Watch his first encounter with a local.",goals:["See greetings in real conversation","Meet Verumius and Carmen","Enjoy the story"]},
+        {type:"story",speaker:"narrator",mood:"excited",art:"es-unit-01-scene-01",trg:"Madrid. Una tarde de lunes. Verumius llega a la Plaza Mayor. Es su primer día en España.",src:"Madrid. A Monday afternoon. Verumius arrives at the Plaza Mayor. It is his first day in Spain."},
+        {type:"story",speaker:"verumius",mood:"nervous",art:"es-unit-01-scene-02",trg:"¡Buenas tardes! Me llamo Verumius. Soy... estudiante de español.",src:"Good afternoon! My name is Verumius. I am... a Spanish student."},
+        {type:"story",speaker:"carmen",mood:"friendly",art:"es-unit-01-scene-02",trg:"¡Buenas tardes! Soy Carmen. ¡Mucho gusto, Verumius!",src:"Good afternoon! I am Carmen. Nice to meet you, Verumius!"},
+        {type:"story",speaker:"verumius",mood:"relieved",art:"es-unit-01-scene-03",trg:"¡Encantado, Carmen! ¿Cómo estás?",src:"Delighted, Carmen! How are you?"},
+        {type:"story",speaker:"carmen",mood:"happy",art:"es-unit-01-scene-03",trg:"¡Muy bien, gracias! ¿Y tú? ¿Cómo estás?",src:"Very well, thank you! And you? How are you?"},
+        {type:"story",speaker:"verumius",mood:"happy",art:"es-unit-01-scene-04",trg:"Bien, gracias. Un poco... así así. ¡Perdón! Mi español es... regular.",src:"Good, thanks. A little... so-so. Sorry! My Spanish is... okay."},
+        {type:"story",speaker:"carmen",mood:"amused",art:"es-unit-01-scene-04",trg:"¡No pasa nada, Verumius! Tu español es muy bueno.",src:"No worries, Verumius! Your Spanish is very good."}
+  ]},
   {id:"esp1l8",title:"¡Conversación!",icon:"💬",xp:20,board:true,steps:[
         {type:"intro",title:"¡Conversación!",desc:"Put everything from Unit 1 together in real conversations.",goals:["Complete a full greeting conversation","Introduce yourself naturally","Use all Unit 1 vocabulary"]},
         {type:"tip",title:"Your first conversation",text:"A complete Spanish meeting follows this pattern:\n1. Greeting (Hola, Buenos días)\n2. How are you? (¿Cómo estás?)\n3. Introductions (Me llamo...)\n4. Where from? (Soy de...)\n5. Farewell (Hasta luego)",icon:"🗣️"},

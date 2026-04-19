@@ -181,6 +181,15 @@ export default {n:5,lang:"es",srcLang:"en",track:"v2",title:"Mi Día",sub:"Daily
         {type:"mc",q:"'Estoy triste' vs 'Soy triste'. What is the difference?",opts:["Estoy = sad right now. Soy = a sad person by nature.","They mean the same thing.","Estoy is informal, soy is formal.","Estoy is wrong, only soy works."],ans:"Estoy = sad right now. Soy = a sad person by nature.",hint:"One verb describes a current state, the other a permanent trait."},
         {type:"fb",opts:["asustada","contenta","emocionada","orgullosa"],hint:"Something happened that frightened you. Using the feminine form.",s:"¿Por qué estás {1}? ¿Qué pasó?",a:"asustada"}
   ]},
+  {id:"esp5l7b",title:"El día de Verumius",icon:"☀️",xp:10,board:true,steps:[
+        {type:"intro",title:"El día de Verumius",desc:"Carmen asks Verumius about his daily routine. His answers are very... Roman.",goals:["See daily routine vocabulary in real conversation","Watch Verumius describe his day","Enjoy the story"]},
+        {type:"story",speaker:"narrator",mood:"calm",art:"es-unit-05-scene-01",trg:"Carmen y Verumius pasean por el parque el domingo. Carmen pregunta sobre la rutina de Verumius.",src:"Carmen and Verumius walk in the park on Sunday. Carmen asks about Verumius's routine."},
+        {type:"story",speaker:"carmen",mood:"curious",art:"es-unit-05-scene-01",trg:"Verumius, ¿a qué hora te despiertas por la mañana?",src:"Verumius, at what time do you wake up in the morning?"},
+        {type:"story",speaker:"verumius",mood:"proud",art:"es-unit-05-scene-02",trg:"Primero me despierto a las cinco. Luego leo libros. Después estudio español. Siempre.",src:"First I wake up at five. Then I read books. After that I study Spanish. Always."},
+        {type:"story",speaker:"carmen",mood:"surprised",art:"es-unit-05-scene-02",trg:"¡Las cinco! ¿Y a qué hora te acuestas?",src:"Five o'clock! And at what time do you go to bed?"},
+        {type:"story",speaker:"verumius",mood:"confused",art:"es-unit-05-scene-03",trg:"Me acuesto a las nueve de la noche. ¿Es tarde? En Roma, los romanos se acuestan a las nueve.",src:"I go to bed at nine at night. Is that late? In Rome, Romans go to bed at nine."},
+        {type:"story",speaker:"carmen",mood:"laughing",art:"es-unit-05-scene-03",trg:"¡Verumius! En Madrid, ¡las nueve de la noche es la hora de cenar!",src:"Verumius! In Madrid, nine at night is dinner time!"}
+  ]},
   {id:"esp5l8",title:"Un Día Típico",icon:"📖",xp:15,board:true,steps:[
         {type:"intro",title:"Un Día Típico",desc:"Describe a complete typical day from morning to night.",goals:["Combine all unit vocabulary","Use sequence words naturally","Describe routines fluently"]},
         {type:"mc",q:"How do you say 'I wake up at seven'?",opts:["Me despierto a las siete","Me desperto a las siete","Despierto me a las siete","Me despierta a las siete"],ans:"Me despierto a las siete",hint:"Reflexive pronoun + stem change e to ie."},

@@ -142,6 +142,15 @@ export default {n:4,lang:"es",srcLang:"en",track:"v2",title:"¡A Comer!",sub:"Fo
         {type:"mc",q:"What is the difference between 'caliente' and 'picante'?",opts:["Caliente = warm, picante = burning hot","Caliente = spicy, picante = temperature","They mean the same thing","Caliente = temperature, picante = spicy flavor"],ans:"Caliente = temperature, picante = spicy flavor",hint:"One is about heat you feel, the other about heat you taste."},
         {type:"fb",opts:["está","es","tiene","hay"],hint:"Describing how the ice cream tastes right now.",s:"El helado {1} muy dulce.",a:"está"}
   ]},
+  {id:"esp4l7b",title:"La paella de Carmen",icon:"🥘",xp:10,board:true,steps:[
+        {type:"intro",title:"La paella de Carmen",desc:"Carmen takes Verumius to a restaurant in Madrid. He tries paella for the first time. It does not go quite as expected.",goals:["See food vocabulary in real conversation","Watch Verumius order and react to food","Enjoy the story"]},
+        {type:"story",speaker:"narrator",mood:"excited",art:"es-unit-04-scene-01",trg:"Carmen lleva a Verumius a un restaurante. Él tiene mucha hambre. La carta es grande y Verumius no sabe qué pedir.",src:"Carmen takes Verumius to a restaurant. He is very hungry. The menu is big and Verumius does not know what to order."},
+        {type:"story",speaker:"verumius",mood:"nervous",art:"es-unit-04-scene-01",trg:"Carmen, tengo hambre. ¿Qué quieres comer? Yo quiero... la carta.",src:"Carmen, I'm hungry. What do you want to eat? I want... the menu."},
+        {type:"story",speaker:"carmen",mood:"laughing",art:"es-unit-04-scene-02",trg:"¡Verumius! La carta es el menú, no la comida. ¿Quieres la paella?",src:"Verumius! The menu is the menu, not the food. Do you want the paella?"},
+        {type:"story",speaker:"verumius",mood:"eager",art:"es-unit-04-scene-02",trg:"Sí, por favor. De primero, quiero una ensalada. De segundo, ¡quiero la paella!",src:"Yes, please. For the first course, I want a salad. For the second, I want the paella!"},
+        {type:"story",speaker:"verumius",mood:"amazed",art:"es-unit-04-scene-03",trg:"¡Carmen! ¡La paella está muy rica! Tiene arroz, pollo y... ¿verduras?",src:"Carmen! The paella is very delicious! It has rice, chicken and... vegetables?"},
+        {type:"story",speaker:"carmen",mood:"happy",art:"es-unit-04-scene-03",trg:"Sí, y tiene tomate. ¿Está buena? ¡En Roma no hay paella!",src:"Yes, and it has tomato. Is it good? In Rome there is no paella!"}
+  ]},
   {id:"esp4l8",title:"¿Qué Comemos?",icon:"🛒",xp:15,board:true,steps:[
         {type:"intro",title:"¿Qué Comemos?",desc:"Put it all together: order meals, describe food, and express preferences.",goals:["Order a complete meal","Combine food vocabulary with opinions","Use gustar, querer, estar naturally"]},
         {type:"mc",q:"How do you say 'I'm thirsty'?",opts:["Tengo sed","Estoy sed","Soy sed","Tengo sedo"],ans:"Tengo sed",hint:"Spanish uses 'to have thirst', not 'to be thirsty'."},

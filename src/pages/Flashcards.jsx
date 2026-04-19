@@ -315,7 +315,7 @@ function SessionComplete({ stats, onContinue, onBrowse }) {
 // ═══════════════════════════════════════════════════════════════
 //  MAIN COMPONENT
 // ═══════════════════════════════════════════════════════════════
-function Flashcards({ lang, baseLang = "en", user, addXp, showToast }) {
+function Flashcards({ lang, baseLang = "en", user, addXp, showToast, initialTab = "due" }) {
   const allVocab = useMemo(() => {
     const unitsVocab = buildUnitsVocab(lang, baseLang);
     if (unitsVocab.length > 50) return unitsVocab;
@@ -331,7 +331,7 @@ function Flashcards({ lang, baseLang = "en", user, addXp, showToast }) {
 
   // ── SRS State ──
   const [srsCards, setSrsCards] = useState({});
-  const [tab, setTab] = useState("due");
+  const [tab, setTab] = useState(initialTab);
   const [sessionStats, setSessionStats] = useState({ reviewed: 0, again: 0, hard: 0, good: 0, easy: 0, remaining: 0 });
   const [sessionDone, setSessionDone] = useState(false);
 
@@ -359,7 +359,8 @@ function Flashcards({ lang, baseLang = "en", user, addXp, showToast }) {
     setRated(false);
     setSessionDone(false);
     setSessionStats({ reviewed: 0, again: 0, hard: 0, good: 0, easy: 0, remaining: Math.max(0, due.length - SESSION_CAP) });
-    setTab(due.length > 0 ? "due" : "browse");
+    // Respect initialTab when there are cards to review; fall back to "browse" if no due cards.
+    setTab(due.length > 0 ? initialTab : "browse");
   }, [lang, user.lw.size]);
 
   // ── Browse deck builder ──

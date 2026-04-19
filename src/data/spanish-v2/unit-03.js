@@ -196,6 +196,15 @@ export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores"
         {type:"fb",opts:["azul","azula","azulo","azules"],hint:"This color adjective stays the same for both masculine and feminine nouns.",s:"Mi coche es {1} y mi bicicleta también.",a:"azul"},
         {type:"mc",q:"How do you say 'the violet flowers'?",opts:["las flores violetas","las flores violeto","las flores violeta","las flores violetaas"],ans:"las flores violeta",hint:"Like naranja and rosa, this color from a noun stays invariable."}
   ]},
+  {id:"esp3l7b",title:"El café del lunes",icon:"☕",xp:10,board:true,steps:[
+        {type:"intro",title:"El café del lunes",desc:"Verumius and Carmen meet at a café. He tries to order using numbers, times, and colors. Things get slightly complicated.",goals:["See numbers and time in real conversation","Watch Verumius navigate a Spanish café","Enjoy the story"]},
+        {type:"story",speaker:"narrator",mood:"calm",art:"es-unit-03-scene-01",trg:"Es el lunes. Son las once y media de la mañana. Verumius llega al café. La puerta es azul y las sillas son rojas.",src:"It is Monday. It is eleven thirty in the morning. Verumius arrives at the café. The door is blue and the chairs are red."},
+        {type:"story",speaker:"verumius",mood:"excited",art:"es-unit-03-scene-01",trg:"¡Hola, Carmen! Son las once y media. ¡Soy puntual!",src:"Hello, Carmen! It is eleven thirty. I am punctual!"},
+        {type:"story",speaker:"carmen",mood:"amused",art:"es-unit-03-scene-02",trg:"¡Hola, Verumius! Sí, pero... mi cumpleaños es el veinte de marzo. ¡No el lunes!",src:"Hello, Verumius! Yes, but... my birthday is March twentieth. Not on Monday!"},
+        {type:"story",speaker:"verumius",mood:"confused",art:"es-unit-03-scene-02",trg:"¡Lo siento! En mi libro, el lunes es el veinte. ¿Cuántos años tienes?",src:"I'm sorry! In my book, Monday is the twentieth. How old are you?"},
+        {type:"story",speaker:"carmen",mood:"playful",art:"es-unit-03-scene-03",trg:"Tengo veintiún años. Y tú, Verumius, ¿cuántos años tienes?",src:"I am twenty-one years old. And you, Verumius, how old are you?"},
+        {type:"story",speaker:"verumius",mood:"proud",art:"es-unit-03-scene-03",trg:"Tengo dos mil años. Soy romano. ¡Pero mi español tiene solo veinte días!",src:"I am two thousand years old. I am Roman. But my Spanish is only twenty days old!"}
+  ]},
   {id:"esp3l8",title:"¡Todo Junto!",icon:"🧩",xp:20,board:true,steps:[
         {type:"intro",title:"¡Todo Junto!",desc:"Combine numbers, days, months, colors, and time in real conversations.",goals:["Use numbers in context","Talk about schedules with days and times","Describe objects with colors"]},
         {type:"mc",q:"How do you say 47?",opts:["cuarenta y siete","cuarentasiete","cuatro y siete","cuarenta siete"],ans:"cuarenta y siete",hint:"Tens + y + ones for numbers 31 and above."},

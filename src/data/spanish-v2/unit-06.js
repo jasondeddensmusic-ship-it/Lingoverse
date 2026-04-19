@@ -143,6 +143,15 @@ export default {n:6,lang:"es",srcLang:"en",track:"v2",title:"La Casa",sub:"Home,
         {type:"mc",q:"What does 'Mi madre cocina todos los días' mean?",opts:["My mother cooks every day","My mother cleans every day","My mother washes every day","My mother works every day"],ans:"My mother cooks every day",hint:"Cocina comes from cocinar, related to la cocina (kitchen)."},
         {type:"fb",opts:["lavo","lavas","lava","lavamos"],hint:"I wash. First person singular of lavar.",s:"Yo {1} los platos y mi hermana limpia la cocina.",a:"lavo"}
   ]},
+  {id:"esp6l7b",title:"La casa de Verumius",icon:"🏛️",xp:10,board:true,steps:[
+        {type:"intro",title:"La casa de Verumius",desc:"Carmen visits Verumius at his apartment in Madrid. It is not quite what she expected.",goals:["See rooms and furniture vocabulary in real conversation","Watch Verumius describe his home","Enjoy the story"]},
+        {type:"story",speaker:"narrator",mood:"curious",art:"es-unit-06-scene-01",trg:"Carmen visita el piso de Verumius en Madrid. El salón es pequeño y hay libros sobre la mesa, sobre las sillas y en el baño.",src:"Carmen visits Verumius's apartment in Madrid. The living room is small and there are books on the table, on the chairs and in the bathroom."},
+        {type:"story",speaker:"carmen",mood:"surprised",art:"es-unit-06-scene-01",trg:"¡Verumius! ¿Hay libros en el baño?",src:"Verumius! Are there books in the bathroom?"},
+        {type:"story",speaker:"verumius",mood:"serious",art:"es-unit-06-scene-02",trg:"Sí. El baño está al lado de la cocina. En Roma, los romanos leen en el baño. Es la tradición.",src:"Yes. The bathroom is next to the kitchen. In Rome, Romans read in the bathroom. It is the tradition."},
+        {type:"story",speaker:"carmen",mood:"amused",art:"es-unit-06-scene-02",trg:"¡Qué curioso! ¿Y tu dormitorio? ¿Dónde está?",src:"How curious! And your bedroom? Where is it?"},
+        {type:"story",speaker:"verumius",mood:"proud",art:"es-unit-06-scene-03",trg:"Mi dormitorio está lejos... hay un escritorio y una cama pequeña. La alfombra es azul. Es mi color favorito.",src:"My bedroom is far... there is a desk and a small bed. The rug is blue. It is my favorite color."},
+        {type:"story",speaker:"carmen",mood:"laughing",art:"es-unit-06-scene-03",trg:"Verumius, tu piso tiene dos habitaciones. ¡No está lejos, está aquí!",src:"Verumius, your apartment has two rooms. It is not far, it is right here!"}
+  ]},
   {id:"esp6l8",title:"Mi Casa Ideal",icon:"🏡",xp:15,board:true,steps:[
         {type:"intro",title:"Mi Casa Ideal",desc:"Describe your ideal house combining all vocabulary from this unit.",goals:["Describe rooms and furniture","Use hay, estar, ser correctly","Talk about chores and locations"]},
         {type:"mc",q:"Which verb describes WHERE something is?",opts:["estar","hay","ser","tener"],ans:"estar",hint:"For the specific location of known things."},
