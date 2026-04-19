@@ -1127,6 +1127,13 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   if(done){
     const cappedScore=Math.min(score,totalEx);
     const p=totalEx>0?Math.round((cappedScore/totalEx)*100):100;
+    // Count teach cards introduced fresh in this lesson
+    const newWordsCount=steps.filter(s=>{
+      if(s._generated)return false;
+      const word=s.trg||s.nl||"";
+      return(s.type==="teach"&&word&&lwAtStart.current&&!lwAtStart.current.has(word));
+    }).length;
+    const streak=user?.streak||1;
     const candyBtn=(label,onClick,idx,{grad,shadow}={})=>{
       const g=grad||"linear-gradient(180deg, #606078 0%, #4A4A60 30%, #38384E 60%, #2C2C40 100%)";
       const sh=shadow||"rgba(60,60,80,0.4)";
@@ -1140,18 +1147,33 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         <span style={{position:"relative",zIndex:1}}>{label}</span>
       </button>;
     };
+    const statCard=(icon,value,label,accent)=>(
+      <div style={{flex:"1 1 auto",minWidth:80,background:dk?"rgba(255,255,255,0.07)":"rgba(255,255,255,0.72)",backdropFilter:"blur(14px)",WebkitBackdropFilter:"blur(14px)",borderRadius:18,border:`1.5px solid ${dk?"rgba(255,255,255,0.13)":"rgba(255,255,255,0.6)"}`,padding:"14px 8px",boxShadow:dk?"0 4px 18px rgba(0,0,0,0.32), inset 0 1px 0 rgba(255,255,255,0.08)":"0 4px 18px rgba(0,0,0,0.07), inset 0 1px 0 rgba(255,255,255,0.95)",textAlign:"center"}}>
+        <div style={{fontSize:24,lineHeight:1,marginBottom:5}}>{icon}</div>
+        <div style={{fontSize:22,fontWeight:800,fontFamily:"'Quicksand','system-ui',sans-serif",color:accent,lineHeight:1,marginBottom:4}}>{value}</div>
+        <div style={{fontSize:10,fontWeight:700,color:"var(--gray-400)",textTransform:"uppercase",letterSpacing:0.8,lineHeight:1.3}}>{label}</div>
+      </div>
+    );
     return(
-      <div className="anim" data-kb-owner="lesson-done" style={{textAlign:"center",paddingTop:40}}>
-        <Confetti active={true}/>
-        <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:16,marginBottom:16}}>
-          <div style={{fontSize:56,lineHeight:1}}>{p>=80?<AppIcon name="trophy" size={72}/>:p>=60?<AppIcon name="star" size={72}/>:<AppIcon name="hand_wave" size={72}/>}</div>
+      <div className="anim" data-kb-owner="lesson-done" style={{textAlign:"center",paddingTop:32,paddingBottom:24,maxWidth:420,margin:"0 auto",padding:"32px 16px 24px"}}>
+        <Confetti active={true} burst="big"/>
+        {/* Trophy / star icon + score circle */}
+        <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:16,marginBottom:14}}>
+          <div style={{filter:"drop-shadow(0 4px 14px rgba(123,94,232,0.4))"}}>{p>=80?<AppIcon name="trophy" size={72}/>:p>=60?<AppIcon name="star" size={72}/>:<AppIcon name="hand_wave" size={72}/>}</div>
           {totalEx>0&&<ScoreCircle percentage={p} size={84}/>}
         </div>
-        <h2 className="hd" style={{fontSize:28,fontWeight:800,marginBottom:6}}>{t("le_lesson_complete",baseLang)}</h2>
-        <p style={{fontSize:18,color:"var(--gray-500)",marginBottom:4}}>{renderNavTitle(lesson.icon,lesson.title,18)}</p>
-        {totalEx>0&&<p style={{fontSize:16,marginBottom:6,color:"var(--gray-400)"}}>{t("le_quiz_score",baseLang)} <span style={{color:p>=70?"var(--teal)":"var(--gold)",fontWeight:800}}>{cappedScore}/{totalEx}</span></p>}
-        <p style={{color:"var(--purple-accent)",fontWeight:700,marginBottom:28}}>{t("le_xp_earned",baseLang).replace("{xp}",lesson.xp)}</p>
-        <div style={{display:"flex",gap:12,justifyContent:"center",flexWrap:"wrap"}}>
+        {/* Gradient title */}
+        <h2 className="hd" style={{fontSize:28,fontWeight:800,marginBottom:4,background:"linear-gradient(135deg,#7B5EE8 0%,#2ECDA7 100%)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",backgroundClip:"text"}}>{t("le_lesson_complete",baseLang)}</h2>
+        <p style={{fontSize:15,color:"var(--gray-500)",marginBottom:20,fontWeight:600}}>{renderNavTitle(lesson.icon,lesson.title,15)}</p>
+        {/* Stats row: frosted glass pills */}
+        <div style={{display:"flex",gap:8,justifyContent:"center",marginBottom:22,flexWrap:"wrap"}}>
+          {statCard("⚡",`+${lesson.xp}`,"XP","var(--purple-accent)")}
+          {newWordsCount>0&&statCard("📖",newWordsCount,t("le_words_learned",baseLang),"var(--teal)")}
+          {totalEx>0&&statCard("🎯",`${cappedScore}/${totalEx}`,t("le_quiz_score",baseLang).replace(":",""),"var(--gold)")}
+          {statCard("🔥",streak,t("le_day_streak",baseLang),"#F56565")}
+        </div>
+        {/* Action buttons */}
+        <div style={{display:"flex",gap:12,justifyContent:"center",flexWrap:"wrap",marginBottom:14}}>
           {candyBtn(t("le_overview",baseLang),()=>{UISounds.click();onBack();},1,{
             grad:"linear-gradient(180deg, #606078 0%, #4A4A60 30%, #38384E 60%, #2C2C40 100%)",
             shadow:"rgba(40,40,60,0.4)"
@@ -1163,8 +1185,9 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           {onContinue&&candyBtn(t("le_continue",baseLang),()=>{UISounds.click();onContinue();},0,{
             grad:"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)",
             shadow:"rgba(123,94,232,0.5)"
-          })}</div>
-        <div style={{marginTop:14,fontSize:11,color:"var(--gray-300)"}}>{t("le_arrow_keys",baseLang)}</div>
+          })}
+        </div>
+        <div style={{fontSize:11,color:"var(--gray-300)"}}>{t("le_arrow_keys",baseLang)}</div>
       </div>
     );
   }
@@ -3283,17 +3306,17 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
                 <span style={{fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1.5,color:"var(--purple-accent-text)"}}>{grp.label||grp.header}</span>
               </div>}
               {normalizedRows.map((r,ri)=>(
-                <div key={ri} style={{display:"grid",gridTemplateColumns:r.en?"1fr 1fr 1fr":"1fr 1fr",borderTop:(gi>0||ri>0||grp.label||grp.header)?"1px solid var(--gray-100)":"none"}}>
+                <div key={ri} style={{display:"grid",gridTemplateColumns:r.en?"1fr 1fr 1fr":"1fr 1fr",borderTop:(gi>0||ri>0||grp.label||grp.header)?"1px solid var(--gray-100)":"none",minHeight:32}}>
                   {/* Pronoun */}
-                  {r.pronoun&&<div style={{padding:"10px 16px",background:"rgba(123,94,232,0.03)"}}>
+                  {r.pronoun&&<div style={{padding:"10px 16px",background:"rgba(123,94,232,0.03)",display:"flex",alignItems:"center"}}>
                     <span style={{fontSize:15,fontWeight:700,color:"var(--purple-accent-text)",display:"flex",flexWrap:"wrap",gap:2}}>{universalHl(r.pronoun, lang)}</span>
                   </div>}
-                  {/* Verb form */}
-                  <div style={{padding:"10px 16px",textAlign:r.pronoun?"center":"left",background:"rgba(123,94,232,0.06)",gridColumn:!r.pronoun&&!r.en?"1 / -1":undefined}}>
-                    <span style={{fontSize:17,fontWeight:800,color:"#5B3DB8",fontFamily:"'Quicksand','system-ui',sans-serif",display:"flex",flexWrap:"wrap",gap:2,justifyContent:r.pronoun?"center":"flex-start"}}>{universalHl(r.form, lang)}</span>
+                  {/* Verb form — forceGrammar so POS colors always show; no hardcoded color override */}
+                  <div style={{padding:"10px 16px",textAlign:r.pronoun?"center":"left",background:"rgba(123,94,232,0.06)",gridColumn:!r.pronoun&&!r.en?"1 / -1":undefined,display:"flex",alignItems:"center",justifyContent:r.pronoun?"center":"flex-start"}}>
+                    <span style={{fontSize:17,fontWeight:800,fontFamily:"'Quicksand','system-ui',sans-serif",display:"flex",flexWrap:"wrap",gap:2,justifyContent:r.pronoun?"center":"flex-start"}}>{universalHl(r.form, lang, {forceGrammar:true})}</span>
                   </div>
                   {/* English */}
-                  {r.en&&<div style={{padding:"10px 16px",textAlign:"right"}}>
+                  {r.en&&<div style={{padding:"10px 16px",textAlign:"right",display:"flex",alignItems:"center",justifyContent:"flex-end"}}>
                     <span style={{fontSize:14,fontWeight:600,color:"var(--teal-text)"}}>{r.en}</span>
                   </div>}
                 </div>
