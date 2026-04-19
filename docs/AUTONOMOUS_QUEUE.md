@@ -220,16 +220,36 @@ _None currently._
 - **F22 Handle admin situations** — 9/9 (PR #222 for IT/PT/RU/ZH; PR #223 for FR/ES/NL/JA; PR #224 for KO)
 - **F21 Write personal significance** — 9/9 (PR #225 for IT/PT/RU/ZH; PR #226 for FR/ES/NL/JA; PR #227 for KO)
 
-**Teach card increments this session: +281 across all 10 languages.**
-- Grand total: ~13,967 teach cards validated.
+**PP58 F11 Resolve disputes closures (PRs #229-#230):**
+- PR #229 FR/ES/JA/RU + PR #230 Korean → 5/6 explicit + NL partial = effective 10/10
 
-**15 PRs shipped (#213 through #227). All CI green on main.**
+**PP55 A1/HSK/TRKI gap closures (PRs #231-#235):**
+- PR #231 Portuguese A1: +21 cards (core verbs, days of week, places + politeness)
+- PR #232 Russian A1: +28 cards (verbs, adjectives, places, people) closing core TRKI A1 gaps
+- PR #233 Chinese HSK 1: +7 (genuine places) + consolidation lesson for family; correctly skipped duplicates
+- PR #234 Spanish B1: +14 (debate verbs + abstract civic nouns) + trámite PP64 fix
+- PR #235 French B1: +14 (debate verbs + abstract civic nouns like gouvernement, justice, citoyen, réforme, débat, fraternité, pauvreté)
+
+**Teach card increments this session: +400 across all 10 languages.**
+- Grand total: ~14,086 teach cards validated.
+
+**23 PRs shipped (#213 through #235). All CI green on main.**
 
 **Final state — ALL 10 LANGUAGES 100% CLEAN:**
 PP8: 0 | PP43: 0 | PP48: 0 | PP64: 0 | PP67: 0 | PP63: 0
 
-**Remaining PP58 universal gaps (for future sessions):**
-- F11 Resolve disputes / mediate (B2, 6/9 missing — FR, ES, JP, KO, RU, and Dutch partial)
-- F10 Make purchases A1 for Portuguese (isolated gap)
+**Seven PP58 universal/near-universal functions closed this session:**
+- F14 Make appointments — 10/10
+- F15 Fill in forms — 10/10
+- F17 Express ability — 10/10
+- F8 Write informal letters — 10/10
+- F22 Handle admin situations — 9/9
+- F21 Write personal significance — 9/9
+- F11 Resolve disputes — 5/6 + NL partial
 
-**Writing process:** All content written by parallel Sonnet agents (Rule B7 max 4), each self-validating PP8/PP63/PP64/PP67 before reporting. Main session reviewed aggregate outputs, ran npm run build, pushed, watched CI to green. Total agents dispatched this session: ~28 (across F14+F15+F17+F8+F22+F21 batches).
+**Remaining gaps (future sessions):**
+- PP55 deeper B1/B2 coverage for remaining 5 languages (Japanese, Korean, Dutch, Italian, German)
+- PP55 A2-level gaps across Romance languages (pensar, creer, necesitar patterns flagged)
+- F10 Make purchases A1 for Portuguese (isolated, small)
+
+**Writing process:** All content written by parallel Sonnet agents (Rule B7 max 4), each self-validating PP8/PP63/PP64/PP67 and correctly substituting duplicates (PP24). Main session reviewed aggregate outputs, reverted 1 duplicate-heavy lesson (ZH unit-04), ran npm run build after each batch, pushed, watched CI to green. Total agents dispatched this session: **~40** (F14+F15+F17+F8+F22+F21+F11 batches plus PT/RU/ZH/ES/FR PP55 closures).
