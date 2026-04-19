@@ -199,5 +199,33 @@ export default {n:2,lang:"es",srcLang:"en",track:"v2",title:"Mi Familia",sub:"Fa
         ]},
         {type:"fb",opts:["hijos","años","hermanos","ojos"],hint:"Asking how many children your uncle has.",s:"¿Cuántos {1} tiene tu tío?",a:"hijos"},
         {type:"mc",q:"Complete: 'Mi abuelo tiene ___ años.'",opts:["rubio","alto","diez","grande"],ans:"diez",hint:"Age uses a number with años."}
+  ]},
+  {id:"esp2l_form",title:"Rellenar un formulario",icon:"📝",xp:15,board:true,steps:[
+        {type:"intro",title:"Filling Out Forms",desc:"Learn to read and fill out basic forms in Spanish: name, address, phone, email. Essential for hotel check-in, DELE exams, and official documents.",goals:["Read basic form fields","Fill in personal details","Write a simple message greeting"]},
+        {type:"teach",trg:"el nombre",src:"the first name",pos:"noun",gender:"m",phonetic:"el NOM-breh",note:"Nombre = first name on a form. Apellido = surname (comes next).",example:"A: ¿Cuál es tu nombre?\nB: Mi nombre es Carlos.",exampleSrc:"A: What is your first name?\nB: My first name is Carlos.",funFact:"Spanish forms list apellido before nombre, the opposite of English order."},
+        {type:"teach",trg:"el apellido",src:"the surname / last name",pos:"noun",gender:"m",phonetic:"el ah-peh-YEE-doh",note:"Apellido = family name. Many Spaniards carry two: paterno and materno.",example:"A: ¿Cuál es tu apellido?\nB: Mi apellido es García.",exampleSrc:"A: What is your surname?\nB: My surname is García.",funFact:"Spanish naming tradition gives everyone two surnames: one from each parent. García López has García from father, López from mother."},
+        {type:"teach",trg:"la dirección",src:"the address",pos:"noun",gender:"f",phonetic:"la dee-rek-SYON",note:"Dirección = address (on a form or envelope). Also means direction in traffic contexts.",example:"A: ¿Cuál es tu dirección?\nB: Mi dirección es calle Mayor, tres.",exampleSrc:"A: What is your address?\nB: My address is 3 Mayor Street.",funFact:"In Spanish addresses, the street name comes before the number: Calle Mayor 3, not 3 Calle Mayor."},
+        {type:"teach",trg:"el teléfono",src:"the phone number",pos:"noun",gender:"m",phonetic:"el teh-LEH-foh-noh",note:"El teléfono = telephone or phone number on a form.",example:"A: ¿Cuál es tu teléfono?\nB: Mi teléfono es seis-cuatro-tres.",exampleSrc:"A: What is your phone number?\nB: My phone number is 6-4-3.",funFact:"Spanish mobile numbers start with 6 or 7. Landlines start with 9. Spanish speakers often say digits in pairs."},
+        {type:"teach",trg:"el correo electrónico",src:"the email address",pos:"noun",gender:"m",phonetic:"el koh-REH-oh eh-lek-TROH-nee-koh",note:"Correo = mail, electrónico = electronic. Often shortened to correo or email in everyday speech.",example:"A: ¿Tienes correo?\nB: Sí, tengo correo.",exampleSrc:"A: Do you have an email?\nB: Yes, I have an email.",funFact:"In Spain, email is often called correo electrónico in official contexts, but email (borrowed from English) is common in casual speech."},
+        {type:"teach",trg:"rellenar",src:"to fill out / to fill in",pos:"verb",gender:null,phonetic:"reh-yeh-NAR",note:"Rellenar un formulario = to fill out a form. Rellenar can also mean to fill up (a glass).",example:"A: ¿Cómo rellenar esto?\nB: Rellenar con tu nombre.",exampleSrc:"A: How do I fill this in?\nB: Fill in your name.",funFact:"From re- (again) + llenar (to fill). The re- prefix intensifies the idea of filling completely."},
+        {type:"teach",trg:"Estimado/a Señor/a",src:"Dear Sir/Madam",pos:"intj",gender:null,phonetic:"ehs-tee-MAH-doh seh-NYOR",note:"Estimado Señor for men, Estimada Señora for women. The standard opening of a formal letter or email in Spanish.",example:"Estimado Señor García:\nMe llamo Carlos. Mucho gusto.",exampleSrc:"Dear Mr. García:\nMy name is Carlos. Nice to meet you.",funFact:"Estimado comes from estimar (to esteem, to value). Writing Estimado shows you value the recipient before you have even made your request."},
+        {type:"tip",title:"Form Field Labels",text:"Spanish form fields you will see:\n\n- Nombre: first name\n- Apellido(s): surname(s)\n- Dirección: address\n- Teléfono: phone number\n- Correo electrónico: email\n- Fecha de nacimiento: date of birth\n\nAlways fill in apellido before nombre on Spanish official forms.",icon:"📝"},
+        {type:"mc",q:"On a Spanish form, 'Nombre' asks for your...",opts:["surname","first name","phone number","address"],ans:"first name",hint:"This field asks for what people call you by day to day."},
+        {type:"mc",q:"What does 'la dirección' mean?",opts:["the name","the phone number","the address","the email"],ans:"the address",hint:"Where you live, written on an envelope."},
+        {type:"fb",opts:["apellido","nombre","teléfono","correo"],hint:"The family name passed down from your parents.",s:"Mi {1} es García. Soy de la familia García.",a:"apellido"},
+        {type:"mc",q:"'Rellenar un formulario' means...",opts:["to read a form","to send a form","to print a form","to fill out a form"],ans:"to fill out a form",hint:"You put your information IN the blank spaces."},
+        {type:"fb",opts:["teléfono","dirección","correo","nombre"],hint:"The number you dial to call someone.",s:"Mi {1} es seis-cuatro-tres-ocho.",a:"teléfono"},
+        {type:"mc",q:"How do you start a formal letter to a man named García?",opts:["Hola García","Buenos días García","Estimado Señor García","Señor García Hola"],ans:"Estimado Señor García",hint:"Use the formal written greeting with the title and surname."},
+        {type:"fb",opts:["correo","dirección","apellido","nombre"],hint:"The @-address you use to receive digital messages.",s:"Mi {1} electrónico es maria@mail.es.",a:"correo"},
+        {type:"match",pairs:[
+          {trg:"el nombre",src:"the first name"},
+          {trg:"el apellido",src:"the surname"},
+          {trg:"la dirección",src:"the address"},
+          {trg:"el teléfono",src:"the phone number"},
+          {trg:"el correo electrónico",src:"the email address"},
+          {trg:"rellenar",src:"to fill out"}
+        ]},
+        {type:"mc",q:"'Estimada Señora' is addressed to...",opts:["a man","a woman","a child","a professor"],ans:"a woman",hint:"The -a ending on Estimada and Señora signals feminine."},
+        {type:"fb",opts:["nombre","apellido","dirección","teléfono"],hint:"Where you live: street, city, postal code.",s:"Mi {1} es calle Mayor, dos, Madrid.",a:"dirección"}
   ]}
 ]};

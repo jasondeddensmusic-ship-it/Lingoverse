@@ -208,6 +208,105 @@ const UNIT_02 = {
        hint:"You are leaving in the morning of the next day. The day that comes after today.",
        sSrc:"I leave {1} morning early."},
     ]},
+    {id:"itv2_u2l_form", title:"Compilare un modulo", icon:"📝", xp:15, board:true, steps:[
+      {type:"intro", title:"Filling Out Forms",
+       desc:"Learn to read and fill out basic forms in Italian: name, address, phone, email. Essential for hotel check-in, CILS exams, and official documents.",
+       goals:["Read basic form fields","Fill in personal details","Write a simple formal message greeting"]},
+
+      {type:"teach", trg:"il nome", src:"the first name", pos:"noun", gender:"m",
+       note:"Masculine. Plural: i nomi.\n'Qual e il tuo nome?' = What is your first name?",
+       example:"A: Come si chiama?\nB: Il mio nome e Marco.",
+       exampleSrc:"A: What is your name?\nB: My first name is Marco.",
+       funFact:"In Italy, a person's legal name on official documents is written as COGNOME (surname) first, then nome. Forms always ask for them separately, which surprises many visitors."},
+
+      {type:"teach", trg:"il cognome", src:"the surname / last name", pos:"noun", gender:"m",
+       note:"Masculine. Plural: i cognomi.\nAlways listed before nome on Italian official forms.",
+       example:"A: Qual e il suo cognome?\nB: Il mio cognome e Rossi.",
+       exampleSrc:"A: What is your surname?\nB: My surname is Rossi.",
+       funFact:"Rossi (from rosso, red) is the most common Italian surname, like Smith in English. It originally described people with red hair. About 350,000 Italians share this name."},
+
+      {type:"teach", trg:"l'indirizzo", src:"the address", pos:"noun", gender:"m",
+       note:"Masculine. Uses l' before vowel. Plural: gli indirizzi.\n'Qual e il suo indirizzo?' = What is your address?",
+       example:"A: Mi puo dare il suo indirizzo?\nB: Si, il mio indirizzo e Via Roma, tre.",
+       exampleSrc:"A: Can you give me your address?\nB: Yes, my address is 3 Via Roma.",
+       funFact:"Italian addresses follow this order: Via (street) + name + number: 'Via Garibaldi, 7.' The house number comes AFTER the street name, opposite to English. Many Italian streets are named after historical figures."},
+
+      {type:"teach", trg:"il numero di telefono", src:"the phone number", pos:"noun", gender:"m",
+       note:"Compound noun. Masculine. Often shortened to 'il numero' in speech.\n'Qual e il tuo numero di telefono?' = What is your phone number?",
+       example:"A: Qual e il suo numero di telefono?\nB: Il mio numero e tre tre tre, cinque sei sette.",
+       exampleSrc:"A: What is your phone number?\nB: My number is 333, 567.",
+       funFact:"Italian mobile numbers always start with 3. Landlines start with 0 followed by the city code: 06 for Rome, 02 for Milan. You read phone numbers as individual digits or in pairs."},
+
+      {type:"teach", trg:"l'e-mail", src:"the email address", pos:"noun", gender:"f",
+       note:"Feminine. Uses l' before vowel. From English.\nAlso: 'l'indirizzo e-mail' (full form on forms).",
+       example:"A: Qual e la sua e-mail?\nB: La mia e-mail e marco.rossi@esempio.it.",
+       exampleSrc:"A: What is your email address?\nB: My email is marco.rossi@esempio.it.",
+       funFact:"The @ symbol is called 'la chiocciola' (the snail) in Italian, because of its spiral shape. French calls it the same. The word is far more poetic than the English 'at sign.'"},
+
+      {type:"teach", trg:"la data di nascita", src:"the date of birth", pos:"noun", gender:"f",
+       note:"Compound noun. Feminine. di nascita = of birth.\nOn forms: written day/month/year: 15/07/1990.",
+       example:"A: Qual e la sua data di nascita?\nB: La mia data di nascita e il cinque marzo.",
+       exampleSrc:"A: What is your date of birth?\nB: My date of birth is the fifth of March.",
+       funFact:"Italians write dates as DD/MM/YYYY, not MM/DD/YYYY like Americans. The fifth of March is 05/03, not 03/05. This confusion has caused many missed appointments for American visitors."},
+
+      {type:"teach", trg:"Egregio / Gentile", src:"Dear (formal letter greeting)", pos:"intj", gender:null,
+       note:"Egregio (m) / Egregi (pl) = most formal (rarely used now).\nGentile (m/f) / Gentili (pl) = standard formal in modern Italian.\nAlways followed by title + name: Gentile Signora Rossi.",
+       example:"A: Gentile Signora Rossi, buongiorno.\nB: Buongiorno. Prego, si accomodi.",
+       exampleSrc:"A: Dear Ms. Rossi, good morning.\nB: Good morning. Please, have a seat.",
+       funFact:"Egregio literally means 'distinguished from the flock' (e + grege = out of the herd). It sounds archaic today. Gentile, meaning 'kind/gentle,' is the standard for modern business emails and official letters."},
+
+      {type:"tip", title:"Form fields in Italian",
+       text:"When filling out an Italian form (un modulo), you will see these standard fields:\n\nNome: first name\nCognome: surname\nIndirizzo: address\nNumero di telefono: phone number\nE-mail: email address\nData di nascita: date of birth\nFirma: signature\n\nForms always ask for COGNOME first, then NOME. Italian dates use DD/MM/YYYY format.\n\nUseful phrases:\nCan you fill out the form? Puo compilare il modulo?\nWhere do I sign? Dove devo firmare?\nIn block letters, please. In stampatello, per favore.",
+       icon:"📝",
+       deepDive:{title:"Formal and informal registers in Italian writing",
+        text:"Italian has a clear split between formal and informal writing. In formal letters and emails, use Gentile + title + surname to open, and Cordiali saluti (kind regards) or Distinti saluti (distinguished regards) to close. In informal messages between friends, start with Ciao and sign off with A presto (see you soon) or Un abbraccio (a hug). Business Italian uses Lei (capitalized) for the formal 'you,' even in emails. Using tu in a formal email is considered rude. The shift from formal to informal is usually proposed by the older or senior person in a relationship."}},
+
+      {type:"fb", s:"Il mio {1} e Marco.",
+       a:["nome"],
+       opts:["nome","cognome","indirizzo","numero"],
+       hint:"This is your given name, not your family name. The field for it always comes second on Italian forms.",
+       sSrc:"My {1} is Marco."},
+
+      {type:"fb", s:"Il mio {1} e Via Roma, tre.",
+       a:["indirizzo"],
+       opts:["indirizzo","cognome","nome","numero"],
+       hint:"This is where you live. Italian addresses start with Via (street) followed by the name and house number.",
+       sSrc:"My {1} is 3 Via Roma."},
+
+      {type:"mc", q:"How does a standard formal Italian email begin?",
+       opts:["Gentile Signora Rossi,","Ciao Signora Rossi,","Ehi Signora Rossi,","Buongiorno Rossi,"],
+       ans:"Gentile Signora Rossi,",
+       hint:"The modern formal greeting means 'kind/gentle.' It is used for business emails and official letters in current Italian."},
+
+      {type:"match", pairs:[
+        {trg:"il nome", src:"first name"},
+        {trg:"il cognome", src:"surname"},
+        {trg:"l'indirizzo", src:"address"},
+        {trg:"la data di nascita", src:"date of birth"}
+      ]},
+
+      {type:"fb", s:"Qual e la sua {1} di nascita?",
+       a:["data"],
+       opts:["data","nome","numero","firma"],
+       hint:"You are asking when someone was born. Italian dates go day/month/year.",
+       sSrc:"What is your {1} of birth?"},
+
+      {type:"mc", q:"What is the Italian term for the @ symbol?",
+       opts:["la chiocciola","il punto","la virgola","il trattino"],
+       ans:"la chiocciola",
+       hint:"This symbol is named after a small garden creature with a spiral shell. Much more poetic than the English name."},
+
+      {type:"fb", s:"La mia {1} e marco.rossi@esempio.it.",
+       a:["e-mail"],
+       opts:["e-mail","firma","data","indirizzo"],
+       hint:"This is the electronic contact field on a form. It always contains the snail symbol.",
+       sSrc:"My {1} is marco.rossi@esempio.it."},
+
+      {type:"mc", q:"On Italian official forms, which name field comes FIRST?",
+       opts:["Il cognome (surname)","Il nome (first name)","La firma (signature)","La data (date)"],
+       ans:"Il cognome (surname)",
+       hint:"Italian forms reverse the English order. The family name appears before the given name on all official documents."},
+    ]},
     EXP_02_L1, EXP_02_L2, EXP_02_L3,
   ]
 };
