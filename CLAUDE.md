@@ -57,7 +57,7 @@ npm run build                 # Production build (validates compilation)
 | `italian-v2/_batch*_u*_L*.js` | **~252 batch density files.** Imported into unit lessons arrays. Contains ~4,176 teach cards. |
 | `units-japanese-v2.js` | Re-exports from 4 per-level files (active import) |
 | `japanese-v2/unit-01.js` ... `unit-36.js` | **36 per-unit files.** V2 format with kanji+furigana (PP65). |
-| `japanese-v2/_batch*_u*_L*.js` | **~348 batch density files.** Imported into unit lessons arrays. Contains ~4,375 teach cards. **NOTE: batch files still use pure hiragana. Need PP65 conversion.** |
+| `japanese-v2/_batch*_u*_L*.js` | **~348 batch density files.** Imported into unit lessons arrays. Contains ~4,375 teach cards. PP65 kanji+furigana conversion COMPLETE (2026-04-17, PR #170). |
 | `units-other.js` | Arabic skeletons (5 units) |
 | `grammar/korean.js` | 47 grammar entries, TOPIK aligned A1-B2 |
 | `grammar/french.js` | 52 grammar entries, DELF aligned A1-B2 |
@@ -340,18 +340,19 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 |----------|--------|-------|-------------|---------|--------|
 | German v2 | v2 | 36 | 5,148 | 58 entries | **GOLD STANDARD.** All PP checks PASS. |
 | German v2 (AR) | v2 | 36 | ~5,148 | 58 entries (AR) | Arabic source variant. B2 CEFR trAr gap (1,821). |
-| Korean | v2 | 69 | 5,166 | 47 entries | COMPLETE. 100%+ of German. |
-| Dutch | v2 | 89 | 5,106 | mock | COMPLETE. Grammar needs teacher-board rewrite. |
-| French | v2 | 90 | 5,036 | 52 entries | COMPLETE. 98% of German. |
-| Spanish | v2 | 92 | 5,124 | 53 entries | COMPLETE. 100% of German. |
-| Italian | v2 | 36 | 5,013 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. |
-| Japanese | v2 | 36 | 4,978 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, Foundations lock, notation tutorial, CEFR ref wired. |
-| Chinese | v2 | 45 | 719 | 53 entries | **NEW (2026-04-17).** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8 0/0, PP48 0/0. |
-| Portuguese | v2 | 36 | 649+ | 50 entries | **NEW (2026-04-17).** Brazilian primary, EU notes. CEFR A1-B2. Nasal vowels, ser/estar, personal infinitive. PP8 0/0, PP48 0/0. |
-| Russian | v2 | 36 | ~50 (U1-2 done) | 2 entries (placeholder) | **NEW (2026-04-17).** Cyrillic, 6 cases, aspect pairs, TRKI framework. U1 (greetings), U2 (numbers/age) complete. U3-36 stubs. |
+| Korean | v2 | 69 | 5,166 | 47 entries | COMPLETE. 100%+ of German. PP8/PP63/PP67 all clean. |
+| Dutch | v2 | 89 | 5,106 | 36 entries | COMPLETE. Grammar rewritten to production quality (NT2-aligned, PR #205). PP8/PP63/PP67 all clean. |
+| French | v2 | 90 | 5,036 | 52 entries | COMPLETE. 98% of German. PP8/PP63/PP67 all clean. |
+| Spanish | v2 | 92 | 5,124 | 53 entries | COMPLETE. 100% of German. PP8/PP63/PP67 all clean. |
+| Italian | v2 | 36 | 5,013 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. PP67 0/0, PP63 PASS. |
+| Japanese | v2 | 36 | 4,978 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, PP63 PASS, PP67 2 soft flags (unit-15, unit-22). Foundations lock, notation tutorial, CEFR ref wired. |
+| Chinese | v2 | 45 | 719 | 53 entries | **VALIDATED (2026-04-19).** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8/PP48/PP63/PP67 all clean. |
+| Portuguese | v2 | 36 | 649+ | 50 entries | **VALIDATED (2026-04-19).** Brazilian primary, EU notes. CEFR A1-B2. PP8/PP48/PP63/PP67 all clean. |
+| Russian | v2 | 36 | ~1,200+ | 50 entries | **VALIDATED (2026-04-19).** Cyrillic, 6 cases, aspect pairs, TRKI framework. All 36 units complete. PP8/PP48/PP63/PP67 all clean. Grammar: 50 real entries (A1-B2, TRKI-aligned). |
 
 **Grand total: ~32,600+ teach cards across 10 languages. Build passes.**
-**Grammar modules: 470 entries across 10 languages (Chinese 53, Portuguese 50, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch mock, Russian 2 placeholder).**
+**Grammar modules: 521 real entries across 10 languages (Chinese 53, Portuguese 50, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch 36, Russian 50). Zero placeholder modules remaining.**
+**Validator state (2026-04-19): All 10 languages PASS PP8, PP43, PP48, PP63, PP64, PP67.**
 
 ### Build History (compact)
 
@@ -366,18 +367,21 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 - **Japanese PP65 complete** (2026-04-17): All 348 batch files kanji+furigana. Full PP validation PASS. Beginner path audited.
 
 ### Known Blockers
-1. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56).
-2. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537).
-3. **V1 archival — COMPLETE (2026-04-18).** All five V1 unit files (French, Dutch, Korean, German, Spanish) moved to `.claude/archive/v1-legacy/`. Imports removed from `src/utils.js` and `src/data/dictionary.js`. 43 documented salvage gaps added to V2: Korean 2 → `korean-v2/_temp_b1gap_L12.js`, Dutch 8 → `dutch-v2/_temp_b1gap_L10.js` + `_temp_b1gap_L20.js`, Spanish 9 → `spanish-v2/_temp_b1gap_L04.js`, German 23 → new `german-v2/_salvage_v1.js` wired into Unit 35. Index bundle shrank 7 MB. Smart-matcher audit: Dutch/Korean/French/Spanish 100%, German 90.1% (residual 133 items are documented pedagogical pattern strings per V1_SALVAGE_STATUS.md, not teachable vocabulary).
+1. **CEFR distribution imbalance** — French/Spanish/Korean still template-based (not concept-driven per PP56). Not blocking release; scheduled as PP56-AUDIT items in `docs/AUTONOMOUS_QUEUE.md`.
+2. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537). Unblocked pending content session.
+3. **V1 archival — COMPLETE (2026-04-18).** All five V1 unit files archived; 43 gaps salvaged; 7 MB bundle reduction. See COMPLETE block below.
 4. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing.
+5. **Japanese PP67 soft flags** — unit-15.js and unit-22.js have 1 production quiz for 16-17 teach cards (need 2+). Validator reports PASS overall (threshold met in aggregate). Queued for cleanup.
 
 > 25 previously tracked blockers have been resolved. See `docs/BUILD_STATUS.md` for full history.
 
 ---
 
-## Next Priorities (updated 2026-04-17c)
+## Next Priorities (updated 2026-04-19)
 
-> Chinese (45 units), Portuguese (36 units), Russian (36 units) all complete and merged (PR #175, #177, #178). V1 salvage audited (PR #179). 10 languages live.
+> 10 languages live. All PP8/PP43/PP48/PP63/PP64/PP67 clean across all languages. See `docs/SESSION_HANDOFF_2026-04-19.md` for full details.
+
+> **Unmerged on branch `claude/sad-cohen-32e111` (pending PR):** 8 feature commits — SRS wiring, Verb table clickable, Dutch grammar, Verumius story arcs (Spanish), Cognate Hub cards, lesson celebration screen, placement quiz integration. These are built and tested but not yet on main.
 
 ### COMPLETE: V1 Salvage (2026-04-18)
 
@@ -396,14 +400,14 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 ### Polish Remaining
 1. **A2 dialogue scaling** — Italian: 138 dialogues need 3+ turns. Japanese: 28 need 3+ turns.
 
-**Validator state (2026-04-18):** **All 10 languages PASS all critical checks (PP8/PP43/PP48).** Korean cleared its 729 PP8-HINT leaks via Sonnet agent swarms (one agent per unit file, 3-pass iteration each). Every hint reworded to preserve pedagogical guidance while removing answer-word overlaps.
+**Validator state (2026-04-19):** **All 10 languages PASS all critical checks (PP8/PP43/PP48/PP63/PP64/PP67).** 24,710 PP63 example-vocab violations cleared to 0 across all 10 languages. PP67 production-mode minimum achieved for all 10 languages.
 
-### Feature Polish (deferred)
-7. **Verb tables clickable** — `verb_table` forms don't use `universalHl()`. No tap-to-see, no colors.
-8. **Idioms page search/filter** — 45 entries with no way to filter by level or search.
-9. **German Foundations** — "Coming soon" placeholder. Needs at least alphabet/basics content.
-10. **Arabic Foundations text** — Scope not yet defined.
-11. **Smooth transitions** — Page fadeUp works. Lesson completion celebrations still TODO.
+### Feature Polish (in-flight on sad-cohen-32e111)
+7. **Verb tables clickable — DONE (2026-04-19, unmerged).** Forms now use POS-colored tap-to-see via `universalHl()`. Commit: `2d5c69a`.
+8. **Idioms page search/filter** — 45 entries with no way to filter by level or search. Still TODO.
+9. **German Foundations — DONE (2026-04-08).** Full content exists in `src/data/foundations.js` (alphabet, pronunciation, vowels, consonants, umlauts, articles, gate quiz). Not a "coming soon" placeholder.
+10. **Arabic Foundations text** — Scope not yet defined. Still TODO.
+11. **Lesson completion celebrations — DONE (2026-04-19, unmerged).** Confetti + streak celebration screen added. Commit: `1b768cd`.
 
 ### Grammar Visualization (POST-LAUNCH)
 - Visual sentence analysis mode, cases pack, grammar toggle, word-by-word breakdown
@@ -412,8 +416,8 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 12. **Google Cloud TTS integration** — Provider chosen, deferred until content phases done.
 
 ### Content Quality
-13. **Dutch grammar teacher-board rewrite** — Current content is mock/placeholder.
-14. **CEFR B2 Arabic gap** — 1,821 B2 entries missing `trAr`.
+13. **Dutch grammar teacher-board rewrite — DONE (2026-04-19, unmerged).** 36 real NT2-aligned entries replacing old mock stubs. Commit: `151684b`.
+14. **CEFR B2 Arabic gap** — 1,821 B2 entries missing `trAr`. Still open.
 
 ### Premium Visual Overhaul (deferred)
 15. **Design session with owner** — Benchmark apps, icon system, music/soundtrack, animations.
@@ -449,10 +453,10 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-17b.md`** — **LATEST HANDOFF.** Japanese PP65 complete. Full validation PASS. Next: A2 dialogue scaling, then new languages.
-- **`docs/SESSION_HANDOFF_2026-04-17.md`** — Previous handoff. Italian+Japanese polish complete.
+- **`docs/SESSION_HANDOFF_2026-04-19.md`** — **LATEST HANDOFF.** PP63/PP67/PP64 all clean across 10 languages. 8 feature PRs unmerged on sad-cohen-32e111. Next: merge branch, then PP56 concept-driven audit.
+- **`docs/SESSION_HANDOFF_2026-04-17b.md`** — Previous handoff. Japanese PP65 complete. Full validation PASS.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic (D1-D124).
-- **`docs/BUILD_STATUS.md`** — Full build history per language (updated 2026-04-17).
+- **`docs/BUILD_STATUS.md`** — Full build history per language (updated 2026-04-19).
 - **`docs/PRODUCT_PLAN.md`** — Business model, monetization, premium features roadmap.
 
 ### Tier 2.5: Agent Infrastructure
@@ -484,7 +488,7 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 ## Session Startup
 
 1. Read this file (CLAUDE.md).
-2. Read `docs/SESSION_HANDOFF_2026-04-17.md` for latest context and exact next-agent instructions.
+2. Read `docs/SESSION_HANDOFF_2026-04-19.md` for latest context and exact next-agent instructions.
 3. Check memory files (`~/.claude/projects/.../memory/`).
 4. Before audits: follow Rule A (grep actual code, never trust docs alone).
 5. Before content: re-read Pipeline Rules above.
