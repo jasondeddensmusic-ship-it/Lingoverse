@@ -113,13 +113,8 @@ function bareForm(s, langCode) {
   return b.trim();
 }
 
-// romanceStem: for Romance-language verb infinitives and common noun forms,
-// return a stem that conjugations and inflections share. Enables the audit
-// to treat "sente" (3s pres.) as a form of taught "sentir" (infinitive), and
-// "cafés" (pl.) as a form of taught "café" (sg.).
-//
-// Conservative: only strip when the remainder is >=3 chars, so we don't
-// over-match short words.
+// romanceStem: Romance-language verb infinitive stem (drop -r / -re).
+// Enables `sentir` ≡ `sente` and `cafés` ⊃ `café` via prefix match.
 function romanceStem(word, langCode) {
   if (!word || word.length < 4) return null;
   if (langCode === 'pt' || langCode === 'es') {
@@ -134,16 +129,59 @@ function romanceStem(word, langCode) {
   return null;
 }
 
+// normalizeInflection: strip common inflection endings to get a lexical root.
+// Applied to BOTH taught word and token before equality comparison, so the
+// audit treats `brasileiro` ≡ `brasileira` ≡ `brasileiros`, `amigo` ≡ `amigos`,
+// `gato` ≡ `gata` (gender/number pairs), `cantou` ≡ `cantar` (past tense).
+// Conservative: only strips when ≥4 chars remain.
+function normalizeInflection(word, langCode) {
+  if (!word || word.length < 5) return word;
+  let w = word;
+  // Romance: past-tense endings. Strip before plural.
+  if (langCode === 'pt' || langCode === 'es') {
+    // -ou, -ei, -aste, -eu, -iu, -aram, -eram, -iram, -amos, -emos, -imos,
+    //  -ava, -ia, -ou, -ado/-ada/-ido/-ida (past participles).
+    w = w.replace(/(aram|eram|iram|amos|emos|imos|aste|este|iste|ava|iva|ado|ada|ido|ida|ou|ei|eu|iu|í|á|ó|é)$/u, '');
+  } else if (langCode === 'it') {
+    w = w.replace(/(avano|evano|ivano|arono|erono|irono|avamo|evamo|ivamo|asti|esti|isti|ato|ata|uto|uta|ito|ita|ando|endo|ava|eva|iva|ò|ì|é)$/u, '');
+  } else if (langCode === 'fr') {
+    w = w.replace(/(asses|isses|issent|aient|aimes|issiez|assiez|âmes|îmes|èrent|èrent|ais|ait|ant|ent|és|ées|ée|é|é|âtes|ites|ira|era)$/u, '');
+  }
+  // Plural / gender pairs for Romance+Germanic (very conservative — last 1 char only).
+  // `-s` plural: applies to nearly all European languages.
+  if (w.length >= 5 && /s$/.test(w)) w = w.slice(0, -1);
+  // `-es` plural (Portuguese/Spanish/French for some nouns)
+  if (langCode === 'pt' || langCode === 'es' || langCode === 'fr') {
+    if (w.length >= 5 && /es$/.test(w)) w = w.slice(0, -2);
+  }
+  // `-a`/`-o` gender endings for Romance
+  if (langCode === 'pt' || langCode === 'es' || langCode === 'it') {
+    if (w.length >= 4 && /[ao]$/.test(w)) {
+      // only strip if remainder still meaningful (≥3 chars)
+      const tentative = w.slice(0, -1);
+      if (tentative.length >= 3) w = tentative;
+    }
+  }
+  return w;
+}
+
 // matchesTaught: returns true when `tok` transparently traces to a taught word.
-// Checks (in order):
-//   1. Substring match either direction (original logic, catches plurals like cafés⊃café).
-//   2. Romance verb stem match (sentir → stem sent → matches sente, sentimos, sentiu, etc.).
+// Layers, tried in order:
+//   1. Exact / substring match either direction (original, catches trivial inflections).
+//   2. Romance verb stem match (sentir → sente, sentimos, sentiu).
+//   3. Normalized-inflection equality (brasileiro == brasileira == brasileiros;
+//      cantou ~= cantar via past-tense strip).
 function matchesTaught(tok, taught, langCode) {
+  const tokNorm = normalizeInflection(tok, langCode);
   for (const tw of taught) {
     if (!tw) continue;
     if (tw === tok || tw.includes(tok) || tok.includes(tw)) return true;
     const stem = romanceStem(tw, langCode);
     if (stem && stem.length >= 3 && tok.startsWith(stem)) return true;
+    // Normalized inflection: compare the lexical roots.
+    const twNorm = normalizeInflection(tw, langCode);
+    if (twNorm.length >= 3 && tokNorm.length >= 3 &&
+        (twNorm === tokNorm || twNorm.startsWith(tokNorm) || tokNorm.startsWith(twNorm))) return true;
   }
   return false;
 }
