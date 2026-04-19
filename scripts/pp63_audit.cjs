@@ -2607,6 +2607,11 @@ const FUNCTION_WORDS = {
     'reportés','reporté','reportée','reporter','reporte',
     'réveilles','réveillé','réveillée','réveiller','reveilles',
     'attirait','attire','attiraient',
+    // ── French month names (transparent cognates — janvier, février, etc.) ──
+    'janvier','février','fevrier','mars','avril','mai','juin',
+    'juillet','août','aout','septembre','octobre','novembre','décembre','decembre',
+    // ── Form/document vocabulary (transparent cognates used in form-filling contexts) ──
+    'formulaire','formulaires',   // formulaire = form/formulary — transparent English cognate; appears in remplir teach card before its own teach card
   ]),
   'es': new Set([
     'el','la','los','las','un','una','unos','unas',
