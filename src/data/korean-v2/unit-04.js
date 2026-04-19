@@ -128,6 +128,7 @@ const UNIT_4 =
   {type:"mc",q:"In Korea, how do you usually pay?",opts:["Always at the table","At the counter (usually)","Only by card","Only by cash"],ans:"At the counter (usually)",hint:"Korean restaurants use a front register model, not tableside service. Walk up to settle the bill."},
   {type:"mc",q:"'Takeaway please' in Korean:",opts:["먹고 갈게요","주문이요","포장이요","계산이요"],ans:"포장이요",hint:"포장 = packaging/wrapping = to go"},
   {type:"mc",q:"계산해 주세요 literally means:",opts:["One more dish please","I want the food here","Order for me please","Please calculate this"],ans:"Please calculate this",hint:"계산 = calculation; 해 주세요 = please do for me"},
+  {type:"fb",s:"학교 근처 ___에서 밥을 먹을 거예요.\n(I'm going to eat at the ___ near school.)",a:"식당",opts:["식당","병원","학원","약국"],hint:"식(食) + 당(堂): eating hall. The casual Korean eatery or cafeteria."},
 ]},
 
 // ═══ L6: 반찬 Culture ═══

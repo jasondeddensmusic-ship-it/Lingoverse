@@ -434,7 +434,13 @@ lessons:[
 {type:"mc", q:"先生(xiānsheng) originally meant:",
  opts:["young man","rich person","elder / teacher","worker"],
  ans:"elder / teacher",
- hint:"先 means 'before' and 生 means 'born.' Someone born before you is an ___."}
+ hint:"先 means 'before' and 生 means 'born.' Someone born before you is an ___."},
+
+{type:"fb", s:"这位(zhè wèi)是(shì)李(Lǐ){1}。",
+ a:["小姐(xiǎojiě)"],
+ opts:["小姐(xiǎojiě)","先生(xiānsheng)","医生(yīshēng)","住(zhù)"],
+ hint:"A polite title for a young woman, like 'Miss.' Used with surnames.",
+ sSrc:"This is Miss Li."}
 ]}
 
 ]};

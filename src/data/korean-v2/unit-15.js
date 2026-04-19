@@ -92,6 +92,9 @@ const UNIT_15 =
 {type:"match",pairs:[{nl:"수능",en:"CSAT (college entrance exam)"},{nl:"학원",en:"private academy (hagwon)"},{nl:"교육",en:"education"},{nl:"시험",en:"exam / test"}]},
 {type:"drag_fill",s:"시험을 잘 {1} 위해서 매일 {2} 공부했어요.\n(In order to do well on the exam, I studied hard every day.)",blanks:{"1":"보기","2":"열심히"},pool:["보기","열심히","보는","잘","볼","많이"],hint:"-기 위해서 (in order to) + adverb + past tense."},
 {type:"mc",q:"수능 전에 엄마가 떡을 사 주셨어요. 한국에서는 시험 전에 떡을 먹어요.\n(Before the CSAT, mom bought rice cake for me. In Korea, you eat rice cake before exams.)",opts:["-게 되다 (come to)","-아/어 보다 (try)","-아/어 주다 (benefactive)","-아/어야 하다 (must)"],ans:"-아/어 주다 (benefactive)",hint:"The mother purchased something as an act of benefit for her child. Which grammar pattern does this show?"},
+{type:"fb",s:"이번 토론에 ___하면 한국어 실력이 늘어요.\n(If you ___ in the discussion, your Korean improves.)",a:"참여",opts:["참여","제안","졸업","합격"],hint:"참(參) + 여(與): attend + involve. Joining an event or activity."},
+{type:"fb",s:"어디에서 만날까요? 학교 근처 식당을 ___해요.\n(Where shall we meet? I ___ the restaurant near school.)",a:"제안",opts:["제안","참여","졸업","합격"],hint:"제(提) + 안(案): present a plan. Offering a suggestion."},
+{type:"fb",s:"왜 열심히 공부해요? ___ 시험이 있기 때문이에요.\n(Why do you study hard? ___ there is an exam.)",a:"왜냐하면",opts:["왜냐하면","그래서","그런데","하지만"],hint:"Opens a full-sentence explanation. Always pairs with -기 때문이에요 at the end."},
 ]},
 
 // ── L4: ★ -게 되다 HARVEST ──

@@ -301,6 +301,7 @@ const UNIT_2 =
   {type:"drag_fill",s:"A: 선생님이 어디에 있어요? B: {1}. 저도 {2}.",blanks:{"1":"몰라요","2":"몰라요"},pool:["알아요","몰라요","맞아요","정말요"],hint:"A asks where the teacher is. B has no idea. Neither does C."},
   {type:"mc",q:"진짜요? compared to 정말요? is:",opts:["More formal","More casual/emphatic","Less common","Completely different meaning"],ans:"More casual/emphatic",hint:"진짜 = real/true, often used with stronger feeling"},
   {type:"mc",q:"알아요 covers which English meanings?",opts:["Only I know (knowledge)","Only I understand (feeling)","Both I know and I understand","I want to know something"],ans:"Both I know and I understand",hint:"알아요 is used for both in daily conversation"},
+  {type:"mc",q:"'To know' in Korean (dictionary form) is:",opts:["알다","몰라요","맞아요","배우다"],ans:"알다",hint:"The ㄹ-irregular verb for knowing a person, fact, or information."},
 ]},
 
 // ═══ L9b: Question Words ═══
@@ -331,6 +332,7 @@ const UNIT_2 =
   {type:"mc",q:"뭐 vs 무엇:",opts:["뭐 is formal, 무엇 is casual","They are unrelated words","뭐 is casual/spoken, 무엇 is formal","뭐 is old Korean, 무엇 is modern"],ans:"뭐 is casual/spoken, 무엇 is formal",hint:"Daily speech uses 뭐"},
   {type:"drag_fill",s:"A: {1} 사람은 {2}예요? B: 제 선생님이에요.",blanks:{"1":"이","2":"누구"},pool:["이","그","누구","뭐","왜"],hint:"A: Who is this person? B: It's my teacher."},
   {type:"drag_fill",s:"A: {1} 한국어를 배워요? B: 한국 음악이 좋아요. A: {2} 배워요? B: 학교에서 배워요.",blanks:{"1":"왜","2":"어떻게"},pool:["왜","어떻게","뭐","어디","누구"],hint:"A asks WHY (reason), then HOW (method)."},
+  {type:"fb",s:"이 사람은 제 ___예요.\n(This person is my friend.)",a:"친구",opts:["친구","선생님","가족","이름"],hint:"Sino-Korean: 親(close) + 舊(old acquaintance). Used only for people your own age."},
 ]},
 
 // ═══ L10: Review & Quiz ═══

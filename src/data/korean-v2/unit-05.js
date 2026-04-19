@@ -234,6 +234,7 @@ const UNIT_5 =
   {type:"mc",q:"Koreans ask age early in conversations because:",opts:["It is rude elsewhere","They are curious about you","Age sets speech level/terms","It is a legal requirement"],ans:"Age sets speech level/terms",hint:"It determines 형/오빠/언니 and the honorific register choice, which affects the entire conversation."},
 
   {type:"teach",kind:"word",nl:"마음",en:"heart / mind / feelings",pos:"noun",gender:null,funFact:"Pure Korean word (not Sino-Korean).",phonetic:"ma-eum",example:"A: 그 사람이 어때요? B: 마음이 따뜻해요.",exampleEn:"A: What is that person like? B: They are warm-hearted.",note:"마음: heart/mind/feelings.\n\nPure Korean word (not Sino-Korean).",deepDive:{title:"마음 in Korean Culture",text:"마음이 따뜻해요: warm-hearted.\n마음이 아파요: my heart hurts.\n마음에 들다: to like (lit: enter the heart).\n\n정 (deep bond) lives in the 마음.\n한국인의 마음: the Korean heart."}},
+  {type:"fb",s:"한국어가 정말 ___어요!\n(Korean is really fun!)",a:"재미있",opts:["재미있","재미없","맛있","맛없"],hint:"재미(fun) + 있다(exists). When fun exists = this state."},
 ]},
 
 // ═══ L7b: More Emotions ═══
