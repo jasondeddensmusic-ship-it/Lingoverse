@@ -9,7 +9,7 @@ import BATCH5_L02 from './_batch5_u20_L02.js';
 import BATCH5_L01 from './_batch5_u20_L01.js';
 import BATCH2_L02 from './_batch2_u20_L02.js';
 import BATCH2_L01 from './_batch2_u20_L01.js';
-import EXP_L3 from './_temp_u20_expand_L01.js';import EXP_L4 from './_temp_u20_expand_L02.js';import EXP_L5 from './_temp_u20_expand_L03.js';
+import EXP_L3 from './_temp_u20_expand_L01.js';import EXP_L4 from './_temp_u20_expand_L02.js';import EXP_L5 from './_temp_u20_expand_L03.js';import EXP_ADMIN from './_temp_u20_admin.js';
 // Level: B1.2. JLPT N3 aligned.
 // 尊敬語 (sonkeigo), 謙譲語 (kenjougo), お/ご patterns.
 
@@ -190,7 +190,7 @@ const UNIT_20 = {
 
 {type:"match",pairs:[{trg:"ご覧(らん)になる",src:"to look / to see (honorific)"},{trg:"お休(やす)みになる",src:"to rest / to sleep (honorific)"},{trg:"〜お + stem + になる",src:"honorific verb pattern"},{trg:"なさる",src:"to do (honorific)"},{trg:"くださる",src:"to give (honorific, to me/us)"},{trg:"いただく",src:"to receive / to eat (humble)"}]},{type:"match",pairs:[{trg:"申(もう)す",src:"to say / to be called (humble)"},{trg:"〜お + stem + する",src:"humble verb pattern"},{trg:"お待(ま)ちする",src:"to wait (humble)"},{trg:"拝見(はいけん)する",src:"to look / to see (humble)"}]}]},
 
-,EXP_L3,EXP_L4,EXP_L5
+,EXP_L3,EXP_L4,EXP_L5,EXP_ADMIN
 ,BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01
