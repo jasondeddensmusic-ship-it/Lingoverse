@@ -17,8 +17,8 @@ const LESSON_20 = {id:"frv2_b1gap_l20", title:"Nuances avancées", icon:"\u{1F39
  exampleSrc:"A: The sky is a perfect azure today.\nB: Not a single cloud in sight.",
  funFact:"La Côte d'Azur gets its name from the azure sky and sea. The term was coined in 1887."},
 
-{type:"teach", trg:"l'aveu", src:"confession (review)", pos:"noun", gender:"m",
- note:"Masculine noun (review from L15/L19). Key word.\nDe l'aveu de tous = by everyone's admission.",
+{type:"teach", trg:"l'aveu", src:"confession, admission", pos:"noun", gender:"m",
+ note:"Masculine noun. An admission of truth or guilt.\nDe l'aveu de tous = by everyone's admission.",
  example:"A: De l'aveu de tous, c'est le meilleur restaurant.\nB: Je n'ai jamais été déçu là-bas.",
  exampleSrc:"A: By everyone's admission, it's the best restaurant.\nB: I've never been disappointed there.",
  funFact:"De l'aveu même de... means 'by the own admission of...' A powerful rhetorical device."},

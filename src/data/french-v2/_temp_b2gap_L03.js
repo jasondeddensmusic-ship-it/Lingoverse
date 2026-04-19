@@ -139,7 +139,26 @@ const LESSON_3 = {
      q:"Quel adjectif d\u00e9crit des preuves qui pourraient nuire \u00e0 quelqu'un ?",
      opts:["compromettant","applicable","clandestin","criminel"],
      ans:"compromettant",
-     hint:"Evidence that could damage someone's reputation or legal standing. From 'compromettre'."}
+     hint:"Evidence that could damage someone's reputation or legal standing. From 'compromettre'."},
+
+    {type:"teach", trg:"illustrer", src:"to illustrate, to demonstrate", pos:"verb", gender:null,
+     note:"Regular -er verb. To make an abstract point clear with an example.\nIllustrer par un exemple = to illustrate with an example.",
+     example:"A: Pouvez-vous illustrer ce principe avec un exemple concret ?\nB: Bien sûr. Prenons le cas de la loi de 1905.",
+     exampleSrc:"A: Can you illustrate this principle with a concrete example?\nB: Of course. Let's take the case of the 1905 law.",
+     funFact:"From Latin illustrare (to light up). In French essays, 'pour illustrer' is a key connector used to introduce examples."},
+
+    {type:"teach", trg:"la biodiversité", src:"biodiversity", pos:"noun", gender:"f",
+     note:"Feminine noun. The variety of life on Earth.\nLa protection de la biodiversité = biodiversity conservation.",
+     example:"A: La biodiversité est menacée par la déforestation.\nB: Des espèces disparaissent chaque jour.",
+     exampleSrc:"A: Biodiversity is threatened by deforestation.\nB: Species disappear every day.",
+     funFact:"France signed the Convention on Biological Diversity in 1992 at Rio. France's overseas territories host 10% of world's species."},
+
+    {type:"fb",
+     s:"Pour {1} ce point, prenons l'exemple de la Révolution française.",
+     a:["illustrer"],
+     opts:["illustrer","critiquer","défendre","justifier"],
+     hint:"This verb means to make an abstract idea clear with a concrete example. A key essay-writing skill.",
+     sSrc:"To {1} this point, let's take the example of the French Revolution."}
   ]
 };
 export default LESSON_3;

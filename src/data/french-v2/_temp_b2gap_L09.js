@@ -152,7 +152,50 @@ const LESSON_9 = {
      a:["bureaucratique"],
      opts:["bureaucratique","budg\u00e9taire","cantonal","diplomatique"],
      hint:"Relating to excessive official procedures. A word France itself invented from 'bureau' + Greek 'kratos'.",
-     sSrc:"This process is too {1}, we need to simplify it."}
+     sSrc:"This process is too {1}, we need to simplify it."},
+
+    {type:"teach", trg:"la démocratie", src:"democracy", pos:"noun", gender:"f",
+     note:"Feminine noun. A system where citizens choose their government.\nDémocratie directe vs. représentative.",
+     example:"A: La démocratie exige une participation citoyenne active.\nB: Le vote est un droit et un devoir.",
+     exampleSrc:"A: Democracy requires active citizen participation.\nB: Voting is both a right and a duty.",
+     funFact:"From Greek demos (people) + kratos (power). France's Fifth Republic was founded in 1958 by de Gaulle."},
+
+    {type:"teach", trg:"la mondialisation", src:"globalization", pos:"noun", gender:"f",
+     note:"Feminine noun. The process of global economic and cultural integration.\nAltermondialisation = anti-globalization.",
+     example:"A: La mondialisation a transformé les échanges commerciaux.\nB: Mais elle a aussi creusé les inégalités.",
+     exampleSrc:"A: Globalization has transformed trade.\nB: But it has also deepened inequalities.",
+     funFact:"France resisted calling it 'globalisation' (the English word). 'Mondialisation' from 'monde' (world) won officially."},
+
+    {type:"teach", trg:"l'immigration", src:"immigration", pos:"noun", gender:"f",
+     note:"Feminine noun. The movement of people into a country.\nL'émigration = leaving a country (opposite).",
+     example:"A: L'immigration est un sujet central du débat politique.\nB: Les chiffres et les faits sont souvent mal compris.",
+     exampleSrc:"A: Immigration is a central topic in the political debate.\nB: The figures and facts are often misunderstood.",
+     funFact:"France has one of Europe's oldest immigration histories. In 1900, Paris had 400,000 foreign residents."},
+
+    {type:"teach", trg:"l'inégalité", src:"inequality", pos:"noun", gender:"f",
+     note:"Feminine noun. Unfair differences in wealth, rights, or opportunities.\nLes inégalités sociales = social inequalities.",
+     example:"A: Les inégalités de revenus ont augmenté ces vingt dernières années.\nB: La redistribution fiscale doit être renforcée.",
+     exampleSrc:"A: Income inequalities have increased over the last twenty years.\nB: Tax redistribution must be strengthened.",
+     funFact:"Égalité is in France's national motto. Yet France has strong debates about inégalités. The tension drives politics."},
+
+    {type:"teach", trg:"critiquer", src:"to criticize", pos:"verb", gender:null,
+     note:"Regular -er verb. To analyze faults or express disapproval.\nCritiquer constructivement = to give constructive criticism.",
+     example:"A: On peut critiquer une politique sans attaquer les personnes.\nB: C'est la base du débat démocratique.",
+     exampleSrc:"A: You can criticize a policy without attacking individuals.\nB: That's the basis of democratic debate.",
+     funFact:"La critique (criticism) is a respected art form in France. Literary critics like Sainte-Beuve shaped French culture."},
+
+    {type:"teach", trg:"défendre", src:"to defend, to argue for", pos:"verb", gender:null,
+     note:"Regular -re verb. To protect or advocate for a position.\nDéfendre une cause = to champion a cause.",
+     example:"A: L'avocat a bien défendu son client.\nB: Il a présenté des arguments solides.",
+     exampleSrc:"A: The lawyer defended his client well.\nB: He presented solid arguments.",
+     funFact:"In debate, 'défendre une thèse' means to argue for a position. Distinct from 'critiquer' (attacking a position)."},
+
+    {type:"fb",
+     s:"La {1} a profondément transformé les échanges économiques mondiaux.",
+     a:["mondialisation"],
+     opts:["mondialisation","démocratie","immigration","inégalité"],
+     hint:"This feminine noun describes the global integration of trade and culture. France prefers this word to the English 'globalisation.'",
+     sSrc:"{1} has deeply transformed global economic exchange."}
   ]
 };
 export default LESSON_9;
