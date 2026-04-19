@@ -56,8 +56,8 @@ const BATCH7_L1 = {
 
     {type:"teach", trg:"前略(ぜんりゃく)", src:"dispensing with formalities (letter opening)", pos:"noun", gender:null,
      note:"Letter/email opener. 前略(ぜんりゃく) = skipping the seasonal greeting.\nUsed when getting straight to business.",
-     example:"A: 前略(ぜんりゃく)。緊急(きんきゅう)の用件(ようけん)です。\nB: (reads the rest of the message)\nA: 何(なに)か良(よ)い方法(ほうほう)はありませんか？\nB: 一(ひと)つ提案(ていあん)があります。段階的(だんかいてき)に進(すす)めてはどうでしょうか。\nA: 段階的(だんかいてき)に、というのはどういうことですか？\nB: まず小規模(しょうきぼ)で試(ため)してから、徐々(じょじょ)に拡大(かくだい)するということです。",
-     exampleSrc:"A: Dispensing with formalities. This is an urgent matter.\nB: (reads the rest)\nA: Is there a good method?\nB: I have one suggestion. How about proceeding step by step?\nA: What do you mean by step by step?\nB: It means trying it on a small scale first, then gradually expanding.",
+     example:"A: 前略(ぜんりゃく)。緊急(きんきゅう)の用件(ようけん)です。\nB: 了解(りょうかい)しました。詳(くわ)しく教(おし)えてください。\nA: 何(なに)か良(よ)い方法(ほうほう)はありませんか？\nB: 一(ひと)つ提案(ていあん)があります。段階的(だんかいてき)に進(すす)めてはどうでしょうか。",
+     exampleSrc:"A: Dispensing with formalities. This is an urgent matter.\nB: Understood. Please tell me more.\nA: Is there a good method?\nB: I have one suggestion. How about proceeding step by step?",
      funFact:"前略(ぜんりゃく) literally means 'abbreviating what comes before.' Japanese letters traditionally start with seasonal greetings (時候(じこう)の挨拶(あいさつ)). Writing 前略(ぜんりゃく) skips this and signals urgency or casual familiarity. Formal letters must include proper seasonal openings like 'the leaves are changing color' (紅葉(こうよう)の候(こう))."},
 
     {type:"teach", trg:"草稿(そうこう)", src:"draft / manuscript", pos:"noun", gender:null,

@@ -26,8 +26,8 @@ const BATCH6_L1 = {
 
     {type:"teach", trg:"お返(かえ)し", src:"return gift / reciprocal gift", pos:"noun", gender:null,
      note:"From 返(かえ)す (to return). お返(かえ)しをする = to give a return gift.\nTypically half the value of the original.",
-     example:"A: お祝(いわ)いをいただいたのでお返(かえ)しをしなくては。\nB: 半返(はんがえ)し (half return) が一般的(いっぱんてき)ですよ。\nA: 何(なに)が一番(いちばん)良(よ)かったですか？\nB: 食(た)べ物(もの)が一番(いちばん)おいしかったです。",
-     exampleSrc:"A: I received a congratulatory gift so I must give a return gift.\nB: Half the value is the general custom.\nA: What was the best part?\nB: The food was the most delicious.",
+     example:"A: お祝(いわ)いをいただいたのでお返(かえ)しをしなくては。\nB: 半返(はんがえ)しが一般的(いっぱんてき)ですよ。\nA: 半返(はんがえ)しとは何(なに)ですか？\nB: いただいた金額(きんがく)の半分(はんぶん)ほどのお返(かえ)しです。",
+     exampleSrc:"A: I received a congratulatory gift so I must give a return gift.\nB: Giving half the value back is the general custom.\nA: What is 半返し?\nB: It means returning about half the value of what you received.",
      funFact:"お返(かえ)し culture ensures no one is left feeling indebted. Wedding guests receive 引き出物(ひきでもの) (return gifts). Hospital visitors receive お見舞(みま)い返(がえ)し (get-well return gifts). The balance of giving and returning maintains social harmony (和(わ)). 半返(はんがえ)し (half return) is the standard: return approximately half the gift's value."},
 
     {type:"teach", trg:"包(つつ)む", src:"to wrap", pos:"verb", gender:null,

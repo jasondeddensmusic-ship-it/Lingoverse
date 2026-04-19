@@ -8,5 +8,6 @@ import UNIT_31 from './dutch-v2/unit-31.js';
 import UNIT_32 from './dutch-v2/unit-32.js';
 import UNIT_33 from './dutch-v2/unit-33.js';
 import UNIT_34 from './dutch-v2/unit-34.js';
+import UNIT_90 from './dutch-v2/unit-90.js';
 
-export default [UNIT_1, UNIT_2, UNIT_3, UNIT_4, UNIT_5, UNIT_6, UNIT_31, UNIT_32, UNIT_33, UNIT_34];
+export default [UNIT_1, UNIT_2, UNIT_3, UNIT_4, UNIT_5, UNIT_6, UNIT_31, UNIT_32, UNIT_33, UNIT_34, UNIT_90];

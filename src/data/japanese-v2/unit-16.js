@@ -133,7 +133,7 @@ const UNIT_16 = {
 
   {type:"teach", trg:"練習(れんしゅう)する", src:"to practice", pos:"verb", gender:null,
    note:"する-verb. 練習(れんしゅう) = practice/training.\nKanji: 練習する.",
-   example:"A: 毎日(まいにち)ピアノを練習(れんしゅう)しています。\nB: 上手(じょうず)になりたいですか？\nA: はい、コンサートのために頑張(がんば)っています。\nB: すごいですね。応���(おうえん)していま��。",
+   example:"A: 毎日(まいにち)ピアノを練習(れんしゅう)しています。\nB: 上手(じょうず)になりたいですか？\nA: はい、コンサートのために頑張(がんば)っています。\nB: すごいですね。応援(おうえん)しています。",
    exampleSrc:"A: I practice piano every day.\nB: Do you want to become skilled?\nA: Yes, I am doing my best for the concert.\nB: That is impressive. I am cheering for you.",
    funFact:"練習 combines 練 (refine/knead) and 習 (learn/practice). The Japanese approach to mastery emphasizes repetitive practice. The concept of 'renshu' extends beyond skills to include spiritual and mental training. Martial arts dojos are called 練習場(れんしゅうじょう) (practice places)."},
 
