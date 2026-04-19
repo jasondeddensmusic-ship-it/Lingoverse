@@ -125,6 +125,81 @@ const UNIT_30 = {
    hint:"The kanji uses 'mutual' and 'face each other,' suggesting a paired or comparative existence."},
 ]},
 
+// ═══ L_SIGN: Writing About Personal Significance ═══
+{id:"jpv2_u30l_sign", title:"私(わたし)にとって大切(たいせつ)なもの", icon:"💭", xp:15, board:true, steps:[
+  {type:"intro", title:"Writing About Personal Significance",
+   desc:"Learn to write about meaningful experiences, memories, and values in Japanese. Essential for JLPT N2 autobiographical writing and formal Japanese essays.",
+   goals:["Express what matters to you","Reflect on formative memories","Describe your personal values"]},
+
+  {type:"teach", trg:"感情(かんじょう)", src:"emotion / feelings", pos:"noun", gender:null,
+   note:"Kanji: 感情. 感情的(かんじょうてき) = emotional.\n感情(かんじょう)を表(あらわ)す = to express feelings.",
+   example:"A: その映画(えいが)はどんな感情(かんじょう)を呼(よ)び起(お)こしますか？\nB: 悲(かな)しさと希望(きぼう)が混(ま)じった感情(かんじょう)になります。",
+   exampleSrc:"A: What kind of emotions does that film evoke?\nB: It leaves me with a mix of sadness and hope.",
+   funFact:"感情 combines 感 (feeling/sense) and 情 (emotion/circumstances). Japanese culture traditionally values restraint in expressing 感情(かんじょう) publicly, captured in the concept 以心伝心(いしんでんしん) (heart-to-heart communication without words). Yet modern Japanese literature is celebrated worldwide for its deep emotional nuance."},
+
+  {type:"teach", trg:"記憶(きおく)", src:"memory / recollection (mental storage)", pos:"noun", gender:null,
+   note:"Kanji: 記憶. 記憶(きおく)する = to memorize / to remember.\n記憶(きおく)に残(のこ)る = to stick in one's memory.",
+   example:"A: その経験(けいけん)は記憶(きおく)に残(のこ)っていますか？\nB: はい、今(いま)でも鮮明(せんめい)に覚(おぼ)えています。",
+   exampleSrc:"A: Has that experience stayed in your memory?\nB: Yes, I still remember it vividly.",
+   funFact:"記憶 uses 記 (record) and 憶 (remember). Unlike 思(おも)い出(で) (warm nostalgic memory), 記憶(きおく) is more neutral and clinical, referring to the mental act of retention. The phrase 記憶(きおく)が曖昧(あいまい) (memory is hazy) reflects the psychological reality that human memory is reconstructive, not like a video recording."},
+
+  {type:"teach", trg:"忘(わす)れられない", src:"unforgettable / cannot forget", pos:"adj", gender:null,
+   note:"Potential-negative form: 忘(わす)れ + られ + ない.\n忘(わす)れられない経験(けいけん) = an unforgettable experience.",
+   example:"A: あの経験(けいけん)は本当(ほんとう)に忘(わす)れられないですね。\nB: そうですね。あの感動(かんどう)はずっと残(のこ)ります。",
+   exampleSrc:"A: That experience is truly unforgettable, isn't it.\nB: Yes. That feeling of being moved will stay with us forever.",
+   funFact:"忘(わす)れられない is the potential-negative form of 忘(わす)れる (to forget): the ability to forget simply does not exist. Japanese potential-negative forms are powerful because they imply the emotion is beyond the speaker's control. 忘(わす)れられない is often used in love songs and reflective essays at peak emotional moments."},
+
+  {type:"tip", title:"Expressing Personal Significance",
+   text:"Japanese autobiographical writing uses a set of fixed sentence patterns to anchor personal reflection:\n\n- 〜にとって大切(たいせつ)なもの: 'what is important to me'\n- 〜が私(わたし)を形作(かたちづく)った: 'that which shaped who I am'\n- 〜は記憶(きおく)に残(のこ)っている: 'stays in my memory'\n- 〜によって価値観(かちかん)が変(か)わった: 'my values changed because of'\n\nThese patterns appear in JLPT N2 reading passages and are essential for essay writing.",
+   deepDive:"In formal Japanese essays, the opening sentence often anchors the reader with the writer's personal standpoint: 私(わたし)にとって、〜は最(もっと)も大切(たいせつ)なものの一(ひと)つです. This mirrors the English thesis statement and signals what the essay will explore. The polite distancing of 〜にとって (as far as I am concerned) is characteristic of Japanese academic register."},
+
+  {type:"teach", trg:"形作(かたちづく)る", src:"to shape / to form / to mold", pos:"verb", gender:null,
+   note:"Kanji: 形作る. 形作(かたちづく)られた = was shaped.\nOften used: 経験(けいけん)が性質(せいしつ)を形作(かたちづく)る.",
+   example:"A: 幼(おさな)い頃(ごろ)の経験(けいけん)が私(わたし)たちを形作(かたちづく)ると思(おも)います。\nB: 影響(えいきょう)は大(おお)きいですね。",
+   exampleSrc:"A: I think childhood experiences shape who we are.\nB: The influence is great.",
+   funFact:"形作(かたちづく)る combines 形(かたち) (shape/form) and 作(つく)る (to make). It is a literary verb favored in essays and reflective writing. The passive form 形作(かたちづく)られる (to be shaped by) is especially common: 環境(かんきょう)に形作(かたちづく)られた価値観(かちかん) (values shaped by one's environment) appears regularly in sociology and education texts."},
+
+  {type:"teach", trg:"自分(じぶん)らしさ", src:"one's true self / authenticity / what makes you you", pos:"noun", gender:null,
+   note:"自分(じぶん) (self) + らしさ (quality of being like). 自分(じぶん)らしく生(い)きる = to live true to yourself.",
+   example:"A: 成長(せいちょう)する中(なか)で自分(じぶん)らしさを保(たも)つのは難(むずか)しい。\nB: 価値観(かちかん)がしっかりしていれば大丈夫(だいじょうぶ)だと思(おも)います。",
+   exampleSrc:"A: It is hard to preserve your true self while growing.\nB: I think if your values are solid, you will be fine.",
+   funFact:"自分(じぶん)らしさ is a distinctly modern Japanese concept that emerged prominently in 1990s self-help culture. The suffix らしさ nominalizes the sense of 'being like something.' 自分(じぶん)らしさ gained cultural weight as a counterpoint to Japan's traditionally group-oriented society, where standing out is often discouraged. It now appears frequently in career counseling and personal essays."},
+
+  {type:"mc", q:"記憶(きおく)に残(のこ)る means:", opts:["to erase a memory","to share a memory","to stick in one's memory","to create a memory"], ans:"to stick in one's memory",
+   hint:"残(のこ)る means 'to remain' or 'to be left behind,' so this phrase describes something that stays with you."},
+
+  {type:"teach", trg:"価値観(かちかん)", src:"values / personal value system", pos:"noun", gender:null,
+   note:"価値(かち) (value) + 観(かん) (view/perspective). 価値観(かちかん)が変(か)わる = values change.\n価値観(かちかん)の違(ちが)い = difference in values.",
+   example:"A: 将来(しょうらい)への経験(けいけん)が私(わたし)の価値観(かちかん)を大(おお)きく変(か)えました。\nB: どのように変(か)わりましたか？\nA: 家族(かぞく)との時間(じかん)をもっと大切(たいせつ)にするようになりました。",
+   exampleSrc:"A: My experience changed my personal values greatly.\nB: How did they change?\nA: I came to value time with family more.",
+   funFact:"価値観 uses 価値(かち) (value/worth) and 観(かん) (view). The term is central to Japanese sociology and cross-cultural studies. A popular topic in Japanese essays is 価値観(かちかん)の変化(へんか) (shifts in values), particularly the postwar transition from collective to individual values. In job interviews, 価値観(かちかん) questions are standard."},
+
+  {type:"teach", trg:"自己(じこ)形成(けいせい)", src:"self-formation / personal development / building one's character", pos:"noun", gender:null,
+   note:"自己(じこ) (self) + 形成(けいせい) (formation). 自己形成(じこけいせい)の過程(かてい) = process of self-formation.",
+   example:"A: 自己形成(じこけいせい)において、影響(えいきょう)を受(う)けた人(ひと)は誰(だれ)ですか？\nB: 両親(りょうしん)の存在(そんざい)は非常(ひじょう)に大切(たいせつ)でした。",
+   exampleSrc:"A: In your self-formation, who influenced you?\nB: The presence of my parents was extremely important.",
+   funFact:"自己形成 is a technical term from developmental psychology and education, but it has entered everyday academic Japanese. 自己(じこ) means 'the self' in formal contexts, while 自分(じぶん) is the everyday equivalent. 自己形成(じこけいせい) appears in university application essays where students reflect on how their experiences have shaped who they are becoming."},
+
+  {type:"fb", s:"私(わたし)の{1}はあの経験(けいけん)を通(とお)じて大(おお)きく変(か)わりました。\n(My personal values changed greatly through that experience.)", a:"価値観(かちかん)", opts:["価値観(かちかん)","記憶(きおく)","感情(かんじょう)","自分(じぶん)らしさ"], sSrc:"My personal values changed greatly through that experience.",
+   hint:"The compound noun for your personal 'value system,' made from 'value' and 'view/perspective.'"},
+
+  {type:"fb", s:"幼(おさな)い頃(ごろ)の経験(けいけん)が私(わたし)たちを{1}と思(おも)います。\n(I think childhood experiences shape who we are.)", a:"形作(かたちづく)る", opts:["形作(かたちづく)る","覚(おぼ)える","忘(わす)れる","表(あらわ)す"], sSrc:"I think childhood experiences shape who we are.",
+   hint:"The verb meaning 'to shape' or 'to form,' combining the kanji for 'shape' and 'make.'"},
+
+  {type:"mc", q:"自分(じぶん)らしさ describes:", opts:["your social status","your nationality","your true self or authenticity","your academic ability"], ans:"your true self or authenticity",
+   hint:"The suffix らしさ turns an adjective into a noun meaning 'the quality of being like.' 自分(じぶん) is the everyday pronoun for 'I/me,' giving the compound its meaning of genuine personal expression."},
+
+  {type:"match", pairs:[{trg:"感情(かんじょう)",src:"emotion / feelings"},{trg:"記憶(きおく)",src:"memory / recollection"},{trg:"忘(わす)れられない",src:"unforgettable"},{trg:"形作(かたちづく)る",src:"to shape / to form"}]},
+
+  {type:"match", pairs:[{trg:"自分(じぶん)らしさ",src:"one's true self"},{trg:"価値観(かちかん)",src:"personal value system"},{trg:"自己(じこ)形成(けいせい)",src:"self-formation"},{trg:"記憶(きおく)に残(のこ)る",src:"to stick in one's memory"}]},
+
+  {type:"mc", q:"自己(じこ)形成(けいせい) refers to:", opts:["memory loss","the process of building one's character","forgetting past experiences","expressing emotions publicly"], ans:"the process of building one's character",
+   hint:"形成(けいせい) means 'formation' and 自己(じこ) is the formal word for one's own identity. The compound is a key term in Japanese developmental psychology and university essays."},
+
+  {type:"fb", s:"あの経験(けいけん)は本当(ほんとう)に{1}ですね。\n(That experience is truly unforgettable, isn't it.)", a:"忘(わす)れられない", opts:["忘(わす)れられない","覚(おぼ)えられない","話(はな)せない","続(つづ)けられない"], sSrc:"That experience is truly unforgettable, isn't it.",
+   hint:"The potential-negative form of 'to forget,' meaning the ability to forget simply does not exist."},
+]},
+
 // ═══ L2: Philosophical Arguments & Debate ═══
 {id:"jav2_u30l2", title:"Arguments & Debate", icon:"⚖️", xp:15, board:true, steps:[
   {type:"intro", title:"Philosophical Arguments & Debate",
