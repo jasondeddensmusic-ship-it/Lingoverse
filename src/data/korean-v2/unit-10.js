@@ -230,6 +230,9 @@ const UNIT_10 =
   {type:"teach",kind:"phrase",nl:"들어가다 → 들어가요",en:"to enter / to go in",pos:"verb",gender:null,funFact:"Korean verbs don't change for person or number. \"I go\" and \"they go\" use the same verb form.",phonetic:"deu-reo-ga-da",example:"A: 늦었어요. 이제 집에 들어가요. B: 벌써요? A: 네, 내일 일찍 일어나야 해요. B: 그래요, 잘 자요!",exampleEn:"A: It's late. I'm going inside now. B: Already? A: Yes, I have to wake up early tomorrow. B: Okay, sleep well!",note:"들어가다: to enter.\n들어 (into) + 가다 (to go). Literally go-in.\n나가다 (go out) ↔ 들어가다 (go in)."},
   {type:"mc",q:"수업이 끝났어요 means:",opts:["Class started","Class ended","Class is fun","Class is boring"],ans:"Class ended",hint:"끝나다 = to end. 끝났어요 = ended (past)."},
   {type:"mc",q:"나가다 = 나 + 가다. 나 means:",opts:["I/me","House","Out","Go"],ans:"Out",hint:"나 = out. 나가다 = go out. 나오다 = come out."},
+  {type:"mc",q:"이 가방이 가볍다의 반대말은?",opts:["무겁다","빠르다","느리다","크다"],ans:"무겁다",hint:"가볍다 = light (weight). Its direct opposite describes something that is heavy."},
+  {type:"mc",q:"짐이 너무 ___. 도와 주세요! (The luggage is too ___. Please help!)",opts:["무겁다","가볍다","빠르다","높다"],ans:"무겁다",hint:"ㅂ-irregular: 무겁다 conjugates to 무거워요. Used for physical heaviness."},
+  {type:"mc",q:"이 가방이 정말 ___. 들기 쉬워요. (This bag is really ___. Easy to carry.)",opts:["가볍다","무겁다","크다","작다"],ans:"가볍다",hint:"ㅂ-irregular: 가볍다 conjugates to 가벼워요. Opposite of 무겁다."},
 ]},
 
 // ═══ L8: -는 것 Nominalization Preview ═══

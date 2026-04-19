@@ -46,6 +46,18 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
  exampleSrc:"A: What did you do yesterday?\nB: Yesterday I studied all afternoon.\nA: Wow, so dedicated!\nB: The exam is tomorrow.",
  funFact:"Ontem comes from Latin 'ad noctem' (at night). In medieval Portuguese, the day started at sunset."},
 
+{type:"fb", s:"Eu {1} com a Maria ontem à tarde.",
+ a:["falei"],
+ opts:["falei","falou","falamos","falaram"],
+ hint:"Subject is eu. First person singular -ar preterite.",
+ sSrc:"I {1} with Maria yesterday afternoon."},
+
+{type:"fb", s:"Eles {1} durante três horas na reunião.",
+ a:["falaram"],
+ opts:["falaram","falei","falou","falamos"],
+ hint:"Subject is eles. Third person plural preterite of falar.",
+ sSrc:"They {1} for three hours in the meeting."},
+
 {type:"mc", q:"Choose the correct preterite of falar for eu:", opts:["falou","falei","falamos","falaram"], ans:"falei", hint:"First person singular -ar preterite ends in a very distinctive diphthong."},
 
 {type:"mc", q:"What does 'Ontem eu estudei' mean?", opts:["Yesterday I studied","Today I studied","Tomorrow I will study","I study every day"], ans:"Yesterday I studied", hint:"Ontem is the time marker. The verb is completed in the past."},

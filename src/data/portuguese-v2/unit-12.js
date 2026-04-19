@@ -126,6 +126,18 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  deepDive:{title:"Passagem vs Ingresso vs Bilhete",
   text:"Three words, all about tickets:\n\nPassagem: travel tickets (plane, train, long-distance bus).\nIngresso: entry tickets for events (cinema, stadium, concert).\nBilhete: short-distance or small tickets (city bus, metro, lottery).\n\nBrazilians may mix them in casual speech, but the difference is clear in formal contexts."}},
 
+{type:"fb", s:"Preciso fazer as {1} antes da viagem amanhã.",
+ a:["malas"],
+ opts:["malas","passagens","hotéis","estações"],
+ hint:"The bags you pack your clothes into. Plural.",
+ sSrc:"I need to pack my {1} before the trip tomorrow."},
+
+{type:"fb", s:"Vou ficar num {1} perto da praia de Copacabana.",
+ a:["hotel"],
+ opts:["hotel","aeroporto","estação","ônibus"],
+ hint:"The place where you pay to sleep while traveling.",
+ sSrc:"I'm going to stay at a {1} near Copacabana beach."},
+
 {type:"mc", q:"Where do you catch a plane?",
  opts:["na estação","no aeroporto","no hotel","no escritório"],
  ans:"no aeroporto",

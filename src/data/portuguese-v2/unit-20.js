@@ -40,6 +40,20 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
  deepDive:{title:"Why Portuguese Invented This",
   text:"Portuguese needed a way to mark the subject of a non-finite verb inside a longer sentence. Spanish solves this with subjunctives and pronouns. Portuguese solves it with a simpler trick: just add endings to the infinitive. The personal infinitive appears as early as the 13th century and shows up in Camões and Pessoa. It makes Portuguese grammatically elegant in ways other Romance languages cannot match."}},
 
+{type:"fb",
+ s:"É bom para nós {1} todos os dias.",
+ a:["estudarmos"],
+ opts:["estudarmos","estudar","estudares","estudarem"],
+ hint:"Subject is nós. Add the first person plural ending to estudar.",
+ sSrc:"It is good for us {1} every day."},
+
+{type:"fb",
+ s:"É hora de eles {1} a verdade ao chefe.",
+ a:["falarem"],
+ opts:["falarem","falar","falarmos","falares"],
+ hint:"Subject is eles. Third person plural personal infinitive.",
+ sSrc:"It is time for them {1} the truth to the boss."},
+
 {type:"mc",
  q:"Which language has the personal infinitive?",
  opts:["Spanish","French","Portuguese","Italian"],
@@ -119,6 +133,20 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
  text:"Main triggers for personal infinitive:\n\npara + (different subject) + personal infinitive\nantes de + (different subject) + personal infinitive\ndepois de + (different subject) + personal infinitive\nsem + (different subject) + personal infinitive\nao + (different subject) + personal infinitive\n\nExamples:\n\npara ela saber (for her to know)\nantes de você chegar (before you arrive)\ndepois de eles partirem (after they leave)\nsem nós pedirmos (without us asking)\nao chegarmos (upon our arriving)",
  deepDive:{title:"Different Subject = Personal Infinitive",
   text:"The golden rule: if the preposition introduces a different subject from the main clause, switch to the personal infinitive. Same subject? Regular infinitive is fine. 'Eu saí para comer' (same subject, simple infinitive). 'Eu saí para eles comerem' (different subject, personal infinitive). This one rule handles most cases."}},
+
+{type:"fb",
+ s:"Comprei flores para ela {1} no dia especial.",
+ a:["sorrir"],
+ opts:["sorrir","sorrirmos","sorrirem","sorrirem"],
+ hint:"Different subject (ela) after para. Simple infinitive works when subject = pronoun.",
+ sSrc:"I bought flowers for her to {1} on the special day."},
+
+{type:"fb",
+ s:"Antes de vocês {1}, fechem as janelas.",
+ a:["saírem"],
+ opts:["saírem","sair","sairmos","saíres"],
+ hint:"Subject is vocês. Third person plural personal infinitive ending.",
+ sSrc:"Before you {1}, close the windows."},
 
 {type:"mc",
  q:"Which triggers the personal infinitive?",

@@ -20,6 +20,11 @@ const UNIT_24 = {
         {type:"mc", q:"Which lusophone country is in Asia?", opts:["Cabo Verde","Timor-Leste","Angola","Guiné-Bissau"], ans:"Timor-Leste", hint:"Southeast Asia, independent since 2002."},
         {type:"fb", s:"{1} é um país africano de língua portuguesa.", a:"Angola", sSrc:"{1} is a Portuguese-speaking African country.", opts:["Angola","Brasil","Portugal","Timor-Leste"], hint:"Largest lusophone country in Africa."},
         {type:"match", pairs:[{trg:"o Brasil", src:"Brazil"},{trg:"Portugal", src:"Portugal"},{trg:"Angola", src:"Angola"},{trg:"Moçambique", src:"Mozambique"}]},
+        {type:"fb", s:"A {1} é o maior país lusófono em população.", a:"Brasil", sSrc:"{1} is the largest lusophone country by population.", opts:["Brasil","Portugal","Angola","Moçambique"], hint:"About 215 million Portuguese speakers. Only country in South America where Portuguese is official."},
+        {type:"mc", q:"Timor-Leste is on which continent?", opts:["Africa","Europe","Asia","South America"], ans:"Asia", hint:"Located between Australia and the Pacific. The only nation on that continent with Portuguese as official language."},
+        {type:"fb", s:"{1} é a segunda maior cidade lusófona do mundo.", a:"Angola", sSrc:"{1} has the second largest lusophone population after Brazil.", opts:["Angola","Portugal","Moçambique","Cabo Verde"], hint:"Largest Portuguese-speaking country in Africa."},
+        {type:"mc", q:"How many speakers does the Portuguese language have worldwide?", opts:["about 50 million","about 130 million","about 265 million","about 500 million"], ans:"about 265 million", hint:"Nine lusophone CPLP member nations together reach this number."},
+        {type:"match", pairs:[{trg:"o Brasil", src:"Brazil"},{trg:"Angola", src:"Angola"},{trg:"Cabo Verde", src:"Cape Verde"},{trg:"Timor-Leste", src:"East Timor"},{trg:"Macau", src:"Macau"}]},
         {type:"tip", title:"The CPLP", text:"The Comunidade dos Países de Língua Portuguesa (CPLP) is the official union of lusophone nations.\nFounded in 1996.\nMembers: Brasil, Portugal, Angola, Moçambique, Cabo Verde, Guiné-Bissau, São Tomé e Príncipe, Timor-Leste, Guiné Equatorial.\nGuiné Equatorial joined in 2014, adopting Portuguese as a third official language alongside Spanish and French.", deepDive:"The nine CPLP members represent around 265 million speakers. Portuguese is the sixth most-spoken language in the world by native speakers, and the most widely spoken language in the Southern Hemisphere."}
       ]
     },
@@ -39,6 +44,11 @@ const UNIT_24 = {
         {type:"mc", q:"Feijoada is made with:", opts:["chicken and rice","black beans and pork","seafood","pasta"], ans:"black beans and pork", hint:"Brazil's national dish, traditionally eaten Saturdays."},
         {type:"fb", s:"O {1} é a música tradicional de Portugal.", a:"fado", sSrc:"{1} is the traditional music of Portugal.", opts:["fado","samba","rock","jazz"], hint:"Soulful genre about saudade and loss."},
         {type:"match", pairs:[{trg:"saudade", src:"deep longing"},{trg:"morabeza", src:"Cape Verdean warmth"},{trg:"samba", src:"Brazilian dance"},{trg:"fado", src:"Portuguese music"}]},
+        {type:"fb", s:"A {1} é a bebida nacional do Brasil.", a:"caipirinha", sSrc:"The {1} is Brazil's national drink.", opts:["caipirinha","feijoada","morabeza","saudade"], hint:"A cocktail made with cachaça, lime, and sugar."},
+        {type:"mc", q:"Which word describes a deeply emotional Portuguese music genre?", opts:["samba","fado","bossa nova","capoeira"], ans:"fado", hint:"Associated with saudade. UNESCO heritage since 2011."},
+        {type:"fb", s:"O {1} é uma arte marcial e dança criada no Brasil.", a:"capoeira", sSrc:"{1} is a martial art and dance created in Brazil.", opts:["capoeira","samba","fado","carnaval"], hint:"Afro-Brazilian blend of dance, martial arts, and music."},
+        {type:"mc", q:"Saudade is described as:", opts:["anger","hunger","bittersweet longing","joy"], ans:"bittersweet longing", hint:"It is both happy and sad. Missing something with warmth."},
+        {type:"match", pairs:[{trg:"saudade", src:"deep longing"},{trg:"caipirinha", src:"national cocktail"},{trg:"capoeira", src:"Afro-Brazilian martial art"},{trg:"fado", src:"Portuguese music"},{trg:"feijoada", src:"national dish"}]},
         {type:"tip", title:"Cultural Imports", text:"Some Portuguese cultural words have entered English directly:\n- samba, bossa nova, capoeira (Brazilian)\n- fado (Portuguese)\n- caipirinha (cocktail, global)\n- saudade (increasingly adopted by English poets)\nOthers remain specific to Portuguese speakers:\n- morabeza (Cape Verde)\n- morna (Cape Verdean music genre)\n- fandango (Portuguese folk dance)", deepDive:"Portuguese and Brazilian cultural exports have shaped global music more than most languages of comparable population. Samba-rock, bossa nova, tropicália, and recently funk carioca have all influenced world music."}
       ]
     },
@@ -60,6 +70,20 @@ const UNIT_24 = {
         {type:"tip", title:"Main BR vs PT Differences", text:"GRAMMAR:\n- BR uses você for 'you', PT uses tu.\n- BR puts pronouns BEFORE verbs (me diz), PT after (diz-me).\n- BR uses the gerund (estou falando), PT uses estar a + infinitive (estou a falar).\nVOCABULARY:\n- bus: ônibus / autocarro\n- ice cream: sorvete / gelado\n- cell phone: celular / telemóvel\n- cup: xícara / chávena\nPRONUNCIATION:\n- BR pronounces all vowels clearly.\n- PT swallows unstressed vowels.\n- BR 'ti' sounds like 'chi', PT keeps hard 'ti'.", deepDive:"Brazilians and Portuguese understand each other, but with effort. Many Brazilians find Portuguese accents harder to follow than the reverse, because PT pronunciation reduces vowels more aggressively."},
         {type:"mc", q:"BR 'estou falando' in PT is:", opts:["estou falar","estou a falar","falo","falando"], ans:"estou a falar", hint:"Portugal uses estar a + infinitive for progressive."},
         {type:"teach", trg:"sotaque", src:"accent", pos:"noun", gender:"m", note:"Word for accent, pronunciation style. Used a lot when comparing BR vs PT.", example:"A: Adoro o sotaque português.\nB: O brasileiro também é lindo.", exampleSrc:"A: I love the Portuguese accent.\nB: The Brazilian one is beautiful too.", funFact:"There's no single Brazilian or Portuguese accent. Brazil alone has around 16 distinct regional accents."},
+{type:"fb",
+ s:"Em Portugal, dizem 'tu queres' mas no Brasil dizem '{1} quer'.",
+ a:["você"],
+ opts:["você","ele","nós","eles"],
+ hint:"Brazilian default pronoun for 'you', the difference from European Portuguese.",
+ sSrc:"In Portugal they say 'tu queres' but in Brazil they say '{1} quer'."},
+
+{type:"fb",
+ s:"Adoro o {1} brasileiro! O carioca é muito musical.",
+ a:["sotaque"],
+ opts:["sotaque","idioma","vocabulário","pronúncia"],
+ hint:"The distinctive way of pronouncing words in a region.",
+ sSrc:"I love the Brazilian {1}! The carioca one is very musical."},
+
 {type:"match", pairs:[
   {trg:"São Tomé e Príncipe", src:"São Tomé and Príncipe"},
   {trg:"Macau", src:"Macau"},

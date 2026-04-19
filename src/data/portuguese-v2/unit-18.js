@@ -40,6 +40,26 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
  deepDive:{title:"When Is a Verb Reflexive?",
   text:"A verb is reflexive when the action returns to the subject. In English, we often use 'myself, yourself, himself'. In Portuguese, the reflexive pronoun is usually required. Some verbs are ALWAYS reflexive (arrepender-se, queixar-se). Others are reflexive only sometimes (lavar = to wash / lavar-se = to wash oneself)."}},
 
+{type:"fb",
+ s:"Eu {1} chamo Maria. Como você se chama?",
+ a:["me"],
+ opts:["me","se","te","nos"],
+ hint:"First person reflexive, placed before the verb.",
+ sSrc:"My name is Maria. What is your name?"},
+
+{type:"mc",
+ q:"Which reflexive pronoun covers 'ele', 'ela', and 'você'?",
+ opts:["me","te","se","nos"],
+ ans:"se",
+ hint:"One pronoun covers all third-person subjects."},
+
+{type:"fb",
+ s:"Nós {1} sentamos aqui e esperamos.",
+ a:["nos"],
+ opts:["nos","se","me","te"],
+ hint:"Subject is nós. First person plural reflexive.",
+ sSrc:"We {1} sat down here and waited."},
+
 {type:"mc",
  q:"Which reflexive pronoun matches 'nós'?",
  opts:["me","se","nos","vos"],
@@ -126,6 +146,20 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
  example:"A: Não se esqueça das chaves!\nB: Está bem, vou lembrar.",
  exampleSrc:"A: Don't forget the keys!\nB: Okay, I will remember.",
  funFact:"Without the reflexive, 'eu esqueci as chaves' also works in BR. Grammar purists prefer the reflexive."},
+
+{type:"fb",
+ s:"Eu me {1} às seis da manhã para ir trabalhar.",
+ a:["levanto"],
+ opts:["levanto","visto","sento","deito"],
+ hint:"The verb for getting out of bed. Eu form of levantar-se.",
+ sSrc:"I {1} at six in the morning to go to work."},
+
+{type:"fb",
+ s:"Ela se {1} rapidamente e saiu correndo.",
+ a:["vestiu"],
+ opts:["vestiu","levantou","sentou","banharam"],
+ hint:"Past tense of vestir-se. She got dressed in a hurry.",
+ sSrc:"She {1} quickly and ran out."},
 
 {type:"mc",
  q:"What does 'eu me visto' mean?",
@@ -253,6 +287,20 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
  {trg:"preocupar-se com", src:"to worry about"},
  {trg:"apaixonar-se por", src:"to fall in love with"}
 ]},
+
+{type:"fb",
+ s:"Ela {1} sente muito melhor depois de descansar.",
+ a:["se"],
+ opts:["se","me","te","nos"],
+ hint:"Subject is ela/você. Use the third person reflexive.",
+ sSrc:"She {1} feels much better after resting."},
+
+{type:"fb",
+ s:"Eles {1} mudaram para o Rio no mês passado.",
+ a:["se"],
+ opts:["se","me","te","nos"],
+ hint:"Subject is eles. Third person reflexive, placed before the verb in Brazilian Portuguese.",
+ sSrc:"They {1} moved to Rio last month."},
 
 {type:"mc",
  q:"Which verb means 'to move to a new home'?",

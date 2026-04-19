@@ -64,6 +64,18 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  deepDive:{title:"Gendered Profession Endings",
   text:"Most profession nouns change ending by gender:\n\n-o / -a: médico / médica, advogado / advogada\n-or / -ora: professor / professora, doutor / doutora\n\nSome keep one form for both genders, only changing the article:\n\no/a estudante, o/a gerente, o/a jornalista\n\nWhen in doubt, the -o/-a pattern works for most Brazilian professions."}},
 
+{type:"fb", s:"Ele é {1} e defende clientes no tribunal.",
+ a:["advogado"],
+ opts:["advogado","médico","estudante","professor"],
+ hint:"The legal professional who argues cases in court.",
+ sSrc:"He is a {1} and defends clients in court."},
+
+{type:"fb", s:"Sou {1} de engenharia na USP.",
+ a:["estudante"],
+ opts:["estudante","médico","advogado","professor"],
+ hint:"The noun for a person who studies. Same form for both genders.",
+ sSrc:"I am a {1} of engineering at USP."},
+
 {type:"mc", q:"How do you say 'I am a teacher' (female)?",
  opts:["Sou professor","Sou professora","Tenho professora","Estou professora"],
  ans:"Sou professora",
@@ -150,6 +162,18 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  text:"A few things to know about working in Brazil:\n\nHorário comercial is usually 9-18h with a lunch break.\nReuniões often start a few minutes late.\nColegas call each other by first name, even the chefe.\nThe thirteenth salary is a bonus paid in December.\n\nPersonal relationships matter as much as professional skills.",
  deepDive:{title:"Formal vs Informal at Work",
   text:"Brazilian workplaces are often less formal than European or North American ones. You will quickly be called by your first name, not your surname. However, titles like 'doutor' (for lawyers and doctors) or 'senhor' (for older or senior people) are used out of respect. Watch how your colleagues address the chefe and follow their lead."}},
+
+{type:"fb", s:"Trabalho numa {1} internacional com cem funcionários.",
+ a:["empresa"],
+ opts:["empresa","reunião","salário","horário"],
+ hint:"The word for a business or company. Feminine noun.",
+ sSrc:"I work at an international {1} with one hundred employees."},
+
+{type:"fb", s:"Recebi o {1} hoje, finalmente!",
+ a:["salário"],
+ opts:["salário","horário","escritório","colega"],
+ hint:"The monthly pay from your job. Related to the Latin word for salt.",
+ sSrc:"I received my {1} today, finally!"},
 
 {type:"mc", q:"Where do people usually work in a city?",
  opts:["no escritório","no hospital","na escola","na farmácia"],

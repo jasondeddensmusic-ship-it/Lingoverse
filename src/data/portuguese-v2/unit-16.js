@@ -60,13 +60,25 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
  exampleSrc:"A: I hope she is well.\nB: I hope so too.\nA: I will call her.\nB: Good idea.",
  funFact:"Ser uses seja (permanent state). Estar uses esteja (temporary state). The permanent/temporary split continues in the subjunctive."},
 
+{type:"fb", s:"Espero que você {1} bem amanhã.",
+ a:["esteja"],
+ opts:["esteja","está","estava","estará"],
+ hint:"After espero que, use the present subjunctive of estar. This verb is irregular.",
+ sSrc:"I hope you {1} well tomorrow."},
+
+{type:"fb", s:"Quero que ele {1} a verdade.",
+ a:["saiba"],
+ opts:["saiba","sabe","soube","saberá"],
+ hint:"After quero que, use the present subjunctive of saber. This verb does not follow the regular pattern.",
+ sSrc:"I want him to {1} the truth."},
+
 {type:"mc", q:"Choose the correct subjunctive of falar for eu:", opts:["falo","fala","fale","falei"], ans:"fale", hint:"Subjunctive flips the final vowel. -ar verb eu form."},
 
 {type:"mc", q:"'Quero que você coma tudo' means:", opts:["I want you to eat everything","I want to eat everything","I eat everything","I will eat everything"], ans:"I want you to eat everything", hint:"Quero que triggers the subjunctive. Coma is the flipped form."},
 
 {type:"fb", s:"Espero que você {1} cedo amanhã.", a:["venha"], opts:["venha","vem","veio","virá"], hint:"Subjunctive after espero que. Use irregular form of vir.", sSrc:"I hope you {1} early tomorrow."},
 
-{type:"mc", q:"Which sentence uses the subjunctive correctly?", opts:["Quero que ela fala comigo","Quero que ela fale comigo","Quero que ela falou comigo","Quero que ela falará comigo"], ans:"Quero que ela fale comigo", hint:"___rer ___ is a trigger. The verb must be in the subjunctive."},
+{type:"mc", q:"Which sentence uses the subjunctive correctly?", opts:["Quero que ela fala comigo","Quero que ela fale comigo","Quero que ela falou comigo","Quero que ela falará comigo"], ans:"Quero que ela fale comigo", hint:"Querer introduces a wish about another person. The verb in the second clause must take the subjunctive form."},
 
 {type:"fb", s:"Espero que nós {1} a tempo.", a:["cheguemos"], opts:["cheguemos","chegamos","chegaremos","chegávamos"], hint:"Subjunctive of chegar for nós. Watch the spelling: c > qu before e.", sSrc:"I hope we {1} on time."},
 
@@ -87,7 +99,21 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
  exampleSrc:"A: I want her to know the truth.\nB: Are you going to tell her?\nA: I am, tonight.\nB: Be brave.",
  funFact:"Saber has one of the most unexpected subjunctive forms: saiba. It does not follow the eu-form rule. Memorize it."},
 
-{type:"mc", q:"Choose the correct subjunctive pair.", opts:["espero que ele venha","espero que ele vem","espero que ele veio","espero que ele virá"], ans:"espero que ele venha", hint:"Esperar ___ triggers the subjunctive. ___ is the irregular form."}
+{type:"fb",
+ s:"Quero que nós {1} juntos amanhã.",
+ a:["falemos"],
+ opts:["falemos","falamos","falaram","falaremos"],
+ hint:"Subjunctive of falar for nós. Drop -ar, add the opposite-vowel ending.",
+ sSrc:"I want us to speak together tomorrow."},
+
+{type:"fb",
+ s:"Espero que eles {1} tudo no prato.",
+ a:["comam"],
+ opts:["comam","comeram","comem","vão comer"],
+ hint:"Subjunctive of comer for eles/elas. Drop -er, add the opposite-vowel ending.",
+ sSrc:"I hope they eat everything on the plate."},
+
+{type:"mc", q:"Choose the correct subjunctive pair.", opts:["espero que ele venha","espero que ele vem","espero que ele veio","espero que ele virá"], ans:"espero que ele venha", hint:"Esperar triggers the subjunctive for a different subject. The verb vir is irregular in this mood."}
 ]},
 
 {id:"ptv2_u16l2", title:"Trigger Verbs: querer, esperar, duvidar", icon:"🔔", xp:15, board:true, steps:[
@@ -192,6 +218,20 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
 
 {type:"mc", q:"'Talvez ele esteja certo' uses the subjunctive because:", opts:["Talvez expresses uncertainty","Ele is singular","Certo is an adjective","It is a question"], ans:"Talvez expresses uncertainty", hint:"___ is a trigger for the subjunctive. ___ demands it."}
 ,
+
+{type:"fb",
+ s:"Quero que você {1} ao evento amanhã.",
+ a:["vá"],
+ opts:["vá","vai","foi","irá"],
+ hint:"Quero que triggers the subjunctive. Ir is irregular: one syllable.",
+ sSrc:"I want you to {1} to the event tomorrow."},
+
+{type:"fb",
+ s:"Duvido que ele {1} a resposta certa.",
+ a:["saiba"],
+ opts:["saiba","sabe","soube","saberá"],
+ hint:"Duvidar que triggers the subjunctive. Use the irregular subjunctive form of saber.",
+ sSrc:"I doubt he {1} the right answer."},
 
 {type:"match", pairs:[
   {trg:"saiba", src:"know (subjunctive of saber)"},

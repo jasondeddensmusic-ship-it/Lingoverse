@@ -54,6 +54,32 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
  ans:"entretanto",
  hint:"Most formal and longest option. Three syllables."},
 
+{type:"fb",
+ s:"{1} a lei, o contrato deve ser assinado por ambas as partes.",
+ a:["Conforme"],
+ opts:["Conforme","Portanto","Ademais","Outrossim"],
+ hint:"Means 'according to'. Replaces 'de acordo com' in formal text.",
+ sSrc:"{1} the law, the contract must be signed by both parties."},
+
+{type:"mc",
+ q:"Which connector introduces a logical CONCLUSION?",
+ opts:["entretanto","ademais","outrossim","portanto"],
+ ans:"portanto",
+ hint:"Cause leads to effect. This word bridges the two."},
+
+{type:"fb",
+ s:"O projeto é viável. {1}, precisamos de mais verba para a fase dois.",
+ a:["Entretanto"],
+ opts:["Entretanto","Portanto","Conforme","Outrossim"],
+ hint:"Introduces a contrast with the previous statement. Formal cousin of 'mas'.",
+ sSrc:"The project is viable. {1}, we need more funds for phase two."},
+
+{type:"mc",
+ q:"Which connector adds a FURTHER supporting argument?",
+ opts:["portanto","entretanto","conforme","ademais"],
+ ans:"ademais",
+ hint:"Like 'moreover' or 'furthermore'. Adds another layer."},
+
 {type:"match", pairs:[
  {trg:"conforme", src:"according to"},
  {trg:"entretanto", src:"however"},
@@ -134,7 +160,41 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
  q:"What does 'haja vista' mean?",
  opts:["however","considering","moreover","likewise"],
  ans:"considering",
- hint:"Introduces a reason to support the previous statement."}
+ hint:"Introduces a reason to support the previous statement."},
+
+{type:"fb",
+ s:"O prazo foi prorrogado {1} as dificuldades encontradas.",
+ a:["haja vista"],
+ opts:["haja vista","mediante","doravante","no tocante"],
+ hint:"Formal phrase meaning 'considering' or 'given that'. Two words.",
+ sSrc:"The deadline was extended {1} the difficulties encountered."},
+
+{type:"mc",
+ q:"'Doravante' sets a rule that applies:",
+ opts:["in the past","right now only","from this point forward","temporarily"],
+ ans:"from this point forward",
+ hint:"De ora + avante. It points to the future from now on."},
+
+{type:"fb",
+ s:"{1} ao orçamento, precisamos discutir os limites.",
+ a:["No tocante"],
+ opts:["No tocante","Em virtude","Haja vista","Mediante"],
+ hint:"Introduces a topic to be discussed. Means 'regarding'.",
+ sSrc:"{1} the budget, we need to discuss the limits."},
+
+{type:"mc",
+ q:"Which phrase replaces 'por causa de' in formal writing?",
+ opts:["mediante","doravante","em virtude de","no tocante a"],
+ ans:"em virtude de",
+ hint:"Introduces the cause. Contains a word for 'power' or 'force'."},
+
+{type:"match", pairs:[
+ {trg:"mediante", src:"by means of"},
+ {trg:"haja vista", src:"considering"},
+ {trg:"em virtude de", src:"due to"},
+ {trg:"doravante", src:"from now on"},
+ {trg:"a respeito de", src:"regarding"}
+]}
 ]},
 
 {id:"ptv2_u33l3", title:"Formal Style Mastery", icon:"📝", xp:15, board:true, steps:[
@@ -203,7 +263,27 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
  q:"Which register fits a WhatsApp to a friend?",
  opts:["não obstante","entretanto","porém","mas"],
  ans:"mas",
- hint:"Shortest, most everyday. Three letters."}
+ hint:"Shortest, most everyday. Three letters."},
+
+{type:"fb",
+ s:"O relatório foi bem recebido. {1}, há pontos a melhorar.",
+ a:["Não obstante"],
+ opts:["Não obstante","Deste modo","Assim sendo","Portanto"],
+ hint:"Means 'nevertheless'. Contains a negation. Two words.",
+ sSrc:"The report was well received. {1}, there are points to improve."},
+
+{type:"mc",
+ q:"Which word summarizes a method described in the previous sentence?",
+ opts:["assim sendo","não obstante","deste modo","outrossim"],
+ ans:"deste modo",
+ hint:"Means 'in this way'. Points backward to what was just explained."},
+
+{type:"fb",
+ s:"Os dados foram coletados. {1}, chegamos a uma conclusão.",
+ a:["Assim sendo"],
+ opts:["Assim sendo","Deste modo","Não obstante","Haja vista"],
+ hint:"'That being so.' Introduces the final logical step.",
+ sSrc:"The data was collected. {1}, we reached a conclusion."}
 ]}
 
 ]}; export default UNIT_33;

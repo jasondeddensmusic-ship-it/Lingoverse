@@ -98,7 +98,27 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
  q:"What is the difference between 'notícia' and 'reportagem'?",
  opts:["No difference","Notícia is shorter, reportagem is deeper","Reportagem is for TV only","Notícia is bad news"],
  ans:"Notícia is shorter, reportagem is deeper",
- hint:"One is a quick item, the other a developed feature."}
+ hint:"One is a quick item, the other a developed feature."},
+
+{type:"fb",
+ s:"A {1} de São Paulo tem mais leitores do que a maioria dos jornais do Brasil.",
+ a:["Folha"],
+ opts:["Folha","Globo","Mídia","Televisão"],
+ hint:"Name of one of Brazil's oldest newspapers. Starts with F.",
+ sSrc:"The Folha de São Paulo has more readers than most newspapers in Brazil."},
+
+{type:"mc",
+ q:"'Liberdade de imprensa' means:",
+ opts:["freedom of movement","freedom of the press","freedom of speech","freedom of trade"],
+ ans:"freedom of the press",
+ hint:"Imprensa = press / journalism as an institution."},
+
+{type:"fb",
+ s:"O {1} assinou a reportagem sobre corrupção.",
+ a:["jornalista"],
+ opts:["jornalista","jornal","televisão","informação"],
+ hint:"The person who writes and reports news.",
+ sSrc:"The {1} signed the report on corruption."}
 ]},
 
 {id:"ptv2_u29l2", title:"Social Media and Fake News", icon:"📱", xp:15, board:true, steps:[
@@ -152,6 +172,20 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
  text:"The Portuguese vocabulary of media literacy:\n\nfake news (fake news, fem)\ndesinformação (disinformation, fem)\nverificação de fatos (fact-checking)\ncheckagem (fact-check, informal)\nboato (rumor, masc)\nmentira (lie, fem)\nfonte (source, fem)\nconfiável (reliable, adj)\n\nCritical thinking phrases:\nverificar a fonte (check the source)\ncruzar informações (cross-reference)\ndar uma googlada (to google it, slang)",
  deepDive:{title:"WhatsApp and Political Influence",
   text:"WhatsApp is central to Brazilian life, used by over 90% of internet users. During the 2018 elections, WhatsApp became a main channel for political content, including widespread fake news. This led to research, laws, and media literacy campaigns. 'Grupo de família no WhatsApp' (family WhatsApp group) is now a cliché for misinformation spread. Understanding WhatsApp culture is essential to understanding Brazil."}},
+
+{type:"fb",
+ s:"Não {1} isso sem verificar a fonte primeiro.",
+ a:["compartilhe"],
+ opts:["compartilhe","debata","entreviste","poste"],
+ hint:"Imperative of compartilhar (você form). To send content to others.",
+ sSrc:"Don't {1} that without checking the source first."},
+
+{type:"fb",
+ s:"Isso é {1}! A informação é totalmente falsa.",
+ a:["fake news"],
+ opts:["fake news","debate","internet","entrevista"],
+ hint:"Misinformation spread online. Feminine term kept in English.",
+ sSrc:"That is {1}! The information is completely false."},
 
 {type:"mc",
  q:"What gender is 'internet' in Portuguese?",
@@ -253,6 +287,20 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
  text:"Portuguese distinguishes active media involvement:\n\nActive verbs:\nescrever (to write)\npublicar (to publish)\nreportar (to report)\ncobrir (to cover)\nentrevistar (to interview)\n\nPassive verbs (receiving):\nler (to read)\nassistir (to watch)\nouvir (to listen)\ninformar-se (to inform oneself)\n\nVerb + preposition patterns matter:\nassistir A um programa (watch a program)\nler sobre algo (read about something)\nfalar sobre algo (talk about something)\ninformar-se sobre algo (inform oneself about something)",
  deepDive:{title:"The 'Assistir' Preposition",
   text:"Formal Portuguese requires 'assistir A' (watch TO) for watching shows. 'Assistir AO filme' = 'watch THE film' (with preposition contraction). Spoken Brazilian Portuguese has largely dropped this: 'assistir o filme' is common and accepted in speech, flagged in writing. European Portuguese keeps the preposition strictly. For B2 writing and formal speech, use 'assistir a'. For casual conversation, follow native speakers."}},
+
+{type:"fb",
+ s:"Viu a {1} de hoje? Está em todo canal!",
+ a:["manchete"],
+ opts:["manchete","cobertura","anúncio","censura"],
+ hint:"The big title at the top of a news story.",
+ sSrc:"Did you see today's {1}? It's on every channel!"},
+
+{type:"fb",
+ s:"O {1} cortou metade do texto antes da publicação.",
+ a:["editor"],
+ opts:["editor","público","anúncio","debate"],
+ hint:"The person in charge of editing content. Masculine.",
+ sSrc:"The {1} cut half the text before publication."},
 
 {type:"mc",
  q:"Which word means 'headline'?",

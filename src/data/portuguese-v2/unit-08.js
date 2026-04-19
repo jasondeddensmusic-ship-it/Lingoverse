@@ -46,6 +46,18 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  deepDive:{title:"Bargaining Culture",
   text:"In Brazil, bargaining is common at street markets (feiras) and fairs, but rare in stores. The phrase 'Tem desconto?' (Is there a discount?) often opens negotiations. Cash payments especially at markets often get 10 percent off. In shopping malls, asking for descontos can feel awkward."}},
 
+{type:"fb", s:"Esse carro é muito {1}! Não tenho dinheiro.",
+ a:["caro"],
+ opts:["caro","barato","bom","velho"],
+ hint:"The adjective for something too expensive.",
+ sSrc:"This car is very {1}! I don't have money."},
+
+{type:"fb", s:"Eu quero {1} um presente para minha mãe.",
+ a:["comprar"],
+ opts:["comprar","vender","pagar","custar"],
+ hint:"The verb for acquiring something in exchange for money.",
+ sSrc:"I want to {1} a gift for my mother."},
+
 {type:"mc", q:"How do you ask 'How much does it cost?' in Portuguese?",
  opts:["Quanto é hoje?","Quanto custa?","Qual dinheiro?","Quem custa?"],
  ans:"Quanto custa?",
@@ -211,6 +223,18 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  text:"Essential shopping phrases:\n\nPosso experimentar? (Can I try it on?)\nQual é o tamanho? (What size?)\nTem em outra cor? (Do you have it in another color?)\nFica bem? (Does it look good?)\n\nFitting rooms in Brazilian stores are 'provadores'. Most department stores allow you to try on several items at once.",
  deepDive:{title:"Shopping Mall Culture",
   text:"Shopping malls (shoppings) are huge social hubs in Brazil. On weekends, whole families go to eat, watch movies, and hang out, often without buying anything. Every mid-size city has at least one major shopping center. The anglicism 'shopping' replaced 'centro comercial' decades ago."}},
+
+{type:"fb", s:"Preciso de uma {1} nova para a reunião.",
+ a:["camisa"],
+ opts:["camisa","calça","sapato","roupa"],
+ hint:"A shirt with buttons, formal or casual. Feminine noun.",
+ sSrc:"I need a new {1} for the meeting."},
+
+{type:"fb", s:"Que {1} você usa? Quarenta?",
+ a:["tamanho"],
+ opts:["tamanho","preço","dinheiro","número"],
+ hint:"For clothes and shoes, you need to know this to pick the right fit.",
+ sSrc:"What {1} do you wear? Forty?"},
 
 {type:"mc", q:"What does 'sapato' mean?",
  opts:["shirt","pants","shoe","hat"],

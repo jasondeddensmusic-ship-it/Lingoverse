@@ -78,7 +78,8 @@ const BATCH2_L_2 = {
     {type:"mc", q:"こちらコーヒーになります is incorrect because:", opts:["Coffee is too informal for keigo","'Becomes' implies transformation, not identification","You should not serve coffee","The word order is wrong"], ans:"'Becomes' implies transformation, not identification",
      hint:"になります means 'will become.' The item is not becoming coffee; it already IS coffee. Use でございます."},
   {type:"match",pairs:[{trg:"おっしゃられる",src:"[INCORRECT] double honorific of 'to say'"},{trg:"〜れる敬語(けいご)",src:"passive-honorific (common but lower-register)"}]},
-  {type:"fb", s:"「おっしゃられる」は{1}の典型的(てんけいてき)な例(れい)です。", a:["二重敬語(にじゅうけいご)"], opts:["二重敬語(にじゅうけいご)","内外(うちそと)の間違(まちが)い","させていただきすぎ","〜れる敬語(けいご)"], hint:"The grammatical error of stacking two honorific forms on the same verb.", sSrc:"'Ossharareru' is a classic example of {1}."}
+  {type:"fb", s:"「おっしゃられる」は{1}の典型的(てんけいてき)な例(れい)です。", a:["二重敬語(にじゅうけいご)"], opts:["二重敬語(にじゅうけいご)","内外(うちそと)の間違(まちが)い","させていただきすぎ","〜れる敬語(けいご)"], hint:"The grammatical error of stacking two honorific forms on the same verb.", sSrc:"'Ossharareru' is a classic example of {1}."},
+  {type:"mc", q:"Which of these is the passive-honorific pattern?", opts:["〜れる敬語(けいご)","二重敬語(にじゅうけいご)","させていただきすぎ","バイト敬語(けいご)"], ans:"〜れる敬語(けいご)", hint:"The pattern where passive form (帰(かえ)られる, 読(よ)まれる) is used as an honorific. Acceptable but lower-register."}
 ]
 };
 export default BATCH2_L_2;

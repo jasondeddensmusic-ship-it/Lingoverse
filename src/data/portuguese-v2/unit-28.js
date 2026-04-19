@@ -98,7 +98,27 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
  q:"Which verb pairs with 'peso'?",
  opts:["perder peso","levar peso","pegar peso","virar peso"],
  ans:"perder peso",
- hint:"Think about what you do to weight when dieting."}
+ hint:"Think about what you do to weight when dieting."},
+
+{type:"fb",
+ s:"Faço {1} na academia três vezes por semana.",
+ a:["exercício"],
+ opts:["exercício","dieta","peso","saúde"],
+ hint:"Physical activity. What you do at the gym.",
+ sSrc:"I do {1} at the gym three times a week."},
+
+{type:"mc",
+ q:"Which word is the scientific discipline of food and health?",
+ opts:["alimentação","dieta","nutrição","academia"],
+ ans:"nutrição",
+ hint:"The academic field. A university studies it."},
+
+{type:"fb",
+ s:"Após a consulta, o médico disse que minha {1} está ótima.",
+ a:["saúde"],
+ opts:["saúde","dieta","peso","academia"],
+ hint:"General wellbeing. The doctor confirms it.",
+ sSrc:"After the appointment, the doctor said my {1} is great."}
 ]},
 
 {id:"ptv2_u28l2", title:"Treatment and Prevention", icon:"💊", xp:15, board:true, steps:[
@@ -152,6 +172,20 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
  text:"Portuguese has two spellings for this word:\n\nstress (English spelling, widely used in Brazil)\nestresse (Portuguese adaptation)\n\nBoth are masculine. Both pronounced the same. Newspapers prefer 'estresse'. Everyday speech uses both freely. The verb is 'estressar-se' (to get stressed): 'não se estresse' (don't stress).\n\nRelated words:\nestressado (stressed, person)\nestressante (stressful, thing)\nestresse crônico (chronic stress)",
  deepDive:{title:"Mental Health in Brazil",
   text:"Brazilian culture traditionally underplayed mental health. A strong person (pessoa forte) just pushed through. That is changing. 'Saúde mental' is now discussed openly. Therapy (terapia) is common among middle-class Brazilians. Phrases like 'estou no limite' (I'm at my limit) and 'não aguento mais' (I can't take anymore) used to be shameful. Today they are signals to seek help. Vocabulary reflects this shift."}},
+
+{type:"fb",
+ s:"O principal {1} da gripe é a febre alta.",
+ a:["sintoma"],
+ opts:["sintoma","tratamento","stress","crônico"],
+ hint:"A sign that tells you something is wrong. Masculine despite -a ending.",
+ sSrc:"The main {1} of the flu is high fever."},
+
+{type:"fb",
+ s:"A {1} é sempre mais eficaz do que o tratamento.",
+ a:["prevenção"],
+ opts:["prevenção","sintoma","saúde","stress"],
+ hint:"Stopping problems before they start. Better than curing.",
+ sSrc:"{1} is always more effective than treatment."},
 
 {type:"mc",
  q:"What gender is 'sintoma'?",
@@ -253,6 +287,20 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
  text:"Portuguese uses hyphens in some compound nouns:\n\nbem-estar (wellbeing)\nfim-de-semana (weekend, old spelling) or fim de semana (new spelling)\nguarda-roupa (wardrobe)\nguarda-chuva (umbrella)\narco-íris (rainbow)\n\nThe 2009 Portuguese language reform removed many hyphens. Check both forms if unsure. 'Bem-estar' kept the hyphen because removing it creates two separate concepts ('well' and 'being') that blur meaning.",
  deepDive:{title:"The Brazilian Wellness Movement",
   text:"Wellness (bem-estar) as a formal concept arrived in Brazil around 2010 through yoga studios, corporate programs, and Instagram. Previously, 'estar bem' (feeling good) was enough. Today, 'bem-estar' carries holistic weight: mental health, physical fitness, nutrition, relationships, financial peace. The phrase 'busca pelo bem-estar' (pursuit of wellbeing) is now cliché in self-help books. B2 learners should know both the word and the cultural moment it represents."}},
+
+{type:"fb",
+ s:"Preciso de mais {1}. Não estou dormindo bem.",
+ a:["descanso"],
+ opts:["descanso","sono","energia","equilíbrio"],
+ hint:"Rest or break. Not the same as sleep itself.",
+ sSrc:"I need more {1}. I haven't been sleeping well."},
+
+{type:"fb",
+ s:"A {1} me ajuda a começar o dia com calma.",
+ a:["meditação"],
+ opts:["meditação","energia","hábito","saúde"],
+ hint:"A mindfulness practice. Brasilians increasingly use apps for this.",
+ sSrc:"{1} helps me start the day calmly."},
 
 {type:"mc",
  q:"How is the word for 'wellbeing' written?",
