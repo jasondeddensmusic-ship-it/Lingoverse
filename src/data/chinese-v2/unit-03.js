@@ -416,6 +416,86 @@ lessons:[
  opts:["Tang dynasty","Qin dynasty","Ming dynasty","Han dynasty"],
  ans:"Han dynasty",
  hint:"The 汉 in 汉语 names the ruling group whose period (206 BCE–220 CE) unified the country."}
+]},
+
+// ═══ L6: Spouses and Children — HSK 2 Family ═══
+{id:"zhv2_u3l6", title:"妻子丈夫孩子 Spouses and Children", icon:"👨‍👩‍👧", xp:15, board:true, steps:[
+{type:"intro", title:"Spouses and Children",
+ desc:"Expand your family vocabulary to talk about spouses and children. Learn three essential HSK 2 family words and two adjectives for describing people.",
+ goals:["Name spouses with 妻子 and 丈夫","Use 孩子 to talk about children","Describe people as young or cute"]},
+
+{type:"teach", trg:"妻子(qīzi)", src:"wife", pos:"noun", gender:null,
+ note:"Formal word for wife. 妻 is the base, 子 is a common noun suffix.\nMore informal: 老婆(lǎopo).",
+ example:"A: 你(nǐ)妻子(qīzi)叫(jiào)什么(shénme)名字(míngzi)？\nB: 我(wǒ)妻子(qīzi)叫(jiào)李(Lǐ)梅(Méi)。",
+ exampleSrc:"A: What is your wife's name?\nB: My wife's name is Li Mei.",
+ funFact:"妻 is an ancient character showing a woman with a decorative hairpin being led by a hand — a reference to traditional wedding ceremonies. The modern meaning is simply 'wife,' and the character has appeared in Chinese texts for over 3,000 years."},
+
+{type:"teach", trg:"丈夫(zhàngfu)", src:"husband", pos:"noun", gender:null,
+ note:"Formal word for husband. The second syllable is neutral tone.\nMore informal: 老公(lǎogōng).",
+ example:"A: 她(tā)丈夫(zhàngfu)在(zài)哪(nǎ)里(lǐ)工作(gōngzuò)？\nB: 她(tā)丈夫(zhàngfu)在(zài)学校(xuéxiào)工作(gōngzuò)。",
+ exampleSrc:"A: Where does her husband work?\nB: Her husband works at a school.",
+ funFact:"丈 is an old unit of length, about 3.3 metres — the height of a tall, impressive man. Historically, a 丈夫 was literally a 'man of stature.' The meaning shifted to 'husband,' but the idea of a capable, upstanding man remains embedded in the word."},
+
+{type:"teach", trg:"孩子(háizi)", src:"child / children", pos:"noun", gender:null,
+ note:"The most common word for child. Used for boys or girls.\n子 is a neutral noun suffix. Plural implied by context.",
+ example:"A: 你(nǐ)有(yǒu)孩子(háizi)吗(ma)？\nB: 有(yǒu)，我(wǒ)有(yǒu)两(liǎng)个(gè)孩子(háizi)。",
+ exampleSrc:"A: Do you have children?\nB: Yes, I have two children.",
+ funFact:"孩 originally meant a baby who is still teething. The tooth radical 牙 is hidden inside 孩. Chinese etymology often encodes developmental stages: 孩子 captures that early period when a child is growing their first teeth, a universal milestone across cultures."},
+
+{type:"teach", trg:"可爱(kě'ài)", src:"cute / adorable", pos:"adj", gender:null,
+ note:"可 (can/worthy of) + 爱 (love). Literally: worthy of love.\nUsed for children, animals, and things that are sweet or charming.",
+ example:"A: 你(nǐ)的(de)孩子(háizi)真(zhēn)可爱(kě'ài)！\nB: 谢谢(xièxie)，他(tā)很(hěn)活泼(huópo)。",
+ exampleSrc:"A: Your child is really cute!\nB: Thank you, he is very lively.",
+ funFact:"可爱 is one of the most widely used Chinese adjectives on social media. Short-video platforms are full of 可爱 videos of children, animals, and even food. The word jumped into East Asian pop culture globally — the Japanese word for cute, 可愛い (kawaii), uses the exact same characters."},
+
+{type:"teach", trg:"年轻(niánqīng)", src:"young", pos:"adj", gender:null,
+ note:"年 (year) + 轻 (light/mild). Literally: light in years.\nThe opposite of 老 (old, already taught in Unit 10).",
+ example:"A: 她(tā)看(kàn)起来(qǐlái)很(hěn)年轻(niánqīng)！\nB: 是(shì)的(de)，她(tā)只有(zhǐyǒu)三十(sānshí)岁(suì)。",
+ exampleSrc:"A: She looks very young!\nB: Yes, she is only thirty years old.",
+ funFact:"轻 means 'light' in the sense of weight. To be young is to carry few years lightly. Chinese often uses physical weight metaphors for life stages: 年轻 (light years = young), while the burden of age grows heavier. A beautiful metaphor built into the word itself."},
+
+{type:"mc", q:"Which word is the formal term for 'wife'?",
+ opts:["孩子(háizi)","丈夫(zhàngfu)","妻子(qīzi)","年轻(niánqīng)"],
+ ans:"妻子(qīzi)",
+ hint:"This word refers to a female spouse. Think of the two characters: one is the base form for wife, the other is a common noun suffix."},
+
+{type:"match", pairs:[
+  {trg:"妻子(qīzi)", src:"wife"},
+  {trg:"丈夫(zhàngfu)", src:"husband"},
+  {trg:"孩子(háizi)", src:"child"},
+  {trg:"可爱(kě'ài)", src:"cute"},
+  {trg:"年轻(niánqīng)", src:"young"}
+]},
+
+{type:"fb", s:"你(nǐ)有(yǒu){1}吗(ma)？",
+ a:["孩子(háizi)"],
+ opts:["孩子(háizi)","妻子(qīzi)","丈夫(zhàngfu)","年轻(niánqīng)"],
+ hint:"Which word means 'children' and would naturally follow 有 in a question about family?",
+ sSrc:"Do you have {1}?"},
+
+{type:"mc", q:"你的孩子(háizi)真(zhēn)可爱(kě'ài)！ What is the speaker saying?",
+ opts:["Your child is very young","Your child is very smart","Your child is really cute","Your child is very busy"],
+ ans:"Your child is really cute",
+ hint:"可爱 combines 可 (worthy of) and 爱 (love). It describes something sweet and charming."},
+
+{type:"fb", s:"她(tā)很(hěn){1}，只有(zhǐyǒu)二十五(èrshíwǔ)岁(suì)。",
+ a:["年轻(niánqīng)"],
+ opts:["年轻(niánqīng)","可爱(kě'ài)","忙(máng)","好(hǎo)"],
+ hint:"Which adjective describes someone who has few years — the opposite of 老 (old)?",
+ sSrc:"She is very {1}, only twenty-five years old."},
+
+{type:"mc", q:"丈夫(zhàngfu) literally means:",
+ opts:["a kind man","a man of stature (from an old unit of height)","a working man","a family man"],
+ ans:"a man of stature (from an old unit of height)",
+ hint:"丈 is an old measurement unit for a tall person's height. The etymology reflects the idea of a capable, upstanding figure."},
+
+{type:"match", pairs:[
+  {trg:"妻子(qīzi)", src:"wife"},
+  {trg:"丈夫(zhàngfu)", src:"husband"},
+  {trg:"孩子(háizi)", src:"child"},
+  {trg:"年轻(niánqīng)", src:"young"},
+  {trg:"可爱(kě'ài)", src:"cute / adorable"}
+]}
 ]}
 
 ]};

@@ -402,6 +402,71 @@ lessons:[
  blanks:{"1":"正在(zhèngzài)","2":"唱歌(chàng gē)"},
  pool:["正在(zhèngzài)","唱歌(chàng gē)","经常(jīngcháng)","跳舞(tiào wǔ)"],
  hint:"A asks about what she is doing right now. B says she is singing."}
+]},
+
+// ─── L6: 笑和哭 Laughter and Tears ───
+{id:"zhv2_u11l6", title:"笑和哭 Laughter and Tears", icon:"😂", xp:15, board:true, steps:[
+{type:"intro", title:"Laughter and Tears",
+ desc:"Learn how to describe emotional reactions while watching or hearing things you enjoy. Master the verbs for laughing and crying — two of the most natural human responses to stories, movies, and music.",
+ goals:["Use 笑 to describe laughing","Use 哭 to describe crying","Combine emotional reactions with activities from this unit"]},
+
+{type:"teach", trg:"笑(xiào)", src:"to laugh / to smile", pos:"verb", gender:null,
+ note:"Fourth tone (falling). Covers both laughing and smiling.\n笑着 = smiling. 大笑 = laugh loudly. 笑话 = joke (laugh-talk).",
+ example:"A: 这(zhè)个(gè)电影(diànyǐng)很(hěn)好笑(hǎoxiào)！\nB: 是(shì)的(de)，我(wǒ)看(kàn)了(le)一(yī)直(zhí)在(zài)笑(xiào)。",
+ exampleSrc:"A: This movie is very funny!\nB: Yes, I kept laughing the whole time.",
+ funFact:"The character 笑 shows bamboo (竹) bending over a person (夭) who is bending forward in laughter. Bamboo sways flexibly in the wind, and a laughing person sways the same way — a beautiful visual metaphor. 笑 is also one of the most common characters in Chinese internet slang."},
+
+{type:"teach", trg:"哭(kū)", src:"to cry / to weep", pos:"verb", gender:null,
+ note:"First tone (high flat). Describes crying with tears.\n哭鼻子(kū bízi) = cry one's nose (informal, like 'cry your eyes out').",
+ example:"A: 这(zhè)个(gè)电影(diànyǐng)让(ràng)你(nǐ)哭(kū)了(le)吗(ma)？\nB: 哭(kū)了(le)！结局(jiéjú)太(tài)感人(gǎnrén)了(le)。",
+ exampleSrc:"A: Did this movie make you cry?\nB: I cried! The ending was so moving.",
+ funFact:"哭 combines 口 (mouth, twice — representing wailing sounds) and 犬 (dog, thought to represent a crying sound or grief). The character visually captures the sound of someone crying out loud. In Chinese culture, crying at a moving film or story is considered a sign of genuine feeling, not weakness."},
+
+{type:"tip", title:"Emotional Reactions to Entertainment",
+ text:"Chinese has a rich set of expressions for reacting to media:\n\n好笑(hǎoxiào) = funny (good-laugh)\n感人(gǎnrén) = moving / touching\n有意思(yǒu yìsi) = interesting\n没意思(méi yìsi) = boring\n\nWith verbs:\n让(ràng)我(wǒ)笑(xiào) = made me laugh (lit. let me laugh)\n让(ràng)我(wǒ)哭(kū) = made me cry (lit. let me cry)\n\nThe pattern 让 + person + verb means 'cause someone to do something.' Very common for describing emotional effects.",
+ deepDive:{title:"让 (ràng): The Causative Verb",
+  text:"让 is one of Chinese's most versatile verbs:\n\n1. Permission: 妈妈让我去 = Mom lets me go\n2. Causative: 这个故事让我哭了 = This story made me cry\n3. Request: 请让一下 = Please move aside\n\nAt A2, learn 让 mainly in the causative sense (made someone do something) and permission sense (someone allows something). Both appear constantly in descriptions of reactions and interactions."}},
+
+{type:"mc", q:"Which sentence means 'This joke is very funny'?",
+ opts:["这个笑话很感人。","这个笑话很有意思。","这个笑话很好笑。","这个笑话让我哭了。"],
+ ans:"这个笑话很好笑。",
+ hint:"The word 好笑 means funny — it combines 好 (good) and 笑 (laugh). A 'good laugh' thing."},
+
+{type:"match", pairs:[
+  {trg:"笑(xiào)", src:"to laugh / smile"},
+  {trg:"哭(kū)", src:"to cry"},
+  {trg:"好笑(hǎoxiào)", src:"funny"},
+  {trg:"感人(gǎnrén)", src:"moving / touching"}
+]},
+
+{type:"fb", s:"这(zhè)个(gè)电影(diànyǐng)让(ràng)我(wǒ){1}了(le)！太(tài)感人(gǎnrén)了(le)。",
+ a:["哭(kū)"],
+ opts:["哭(kū)","笑(xiào)","唱歌(chàng gē)","跳舞(tiào wǔ)"],
+ hint:"The movie is described as touching (感人). Which emotional reaction involves tears?",
+ sSrc:"This movie made me {1}! It is so touching."},
+
+{type:"mc", q:"她(tā)正在(zhèngzài)笑(xiào)着(zhe)。 What is she doing?",
+ opts:["She is crying","She is singing","She is smiling right now","She is dancing"],
+ ans:"She is smiling right now",
+ hint:"正在 marks an action happening now. 着 marks a sustained state. Together they show an ongoing facial expression of amusement."},
+
+{type:"fb", s:"这(zhè)个(gè)笑话(xiàohua)很(hěn){1}，我(wǒ)一(yī)直(zhí)在(zài)笑(xiào)。",
+ a:["好笑(hǎoxiào)"],
+ opts:["好笑(hǎoxiào)","感人(gǎnrén)","忙(máng)","有意思(yǒu yìsi)"],
+ hint:"The person kept laughing. Which word describes something that causes laughter?",
+ sSrc:"This joke is very {1}, I kept laughing."},
+
+{type:"mc", q:"哭 combines which elements?",
+ opts:["Eye + water","Two mouths + dog (representing crying sounds)","Heart + eye","Mouth + tear"],
+ ans:"Two mouths + dog (representing crying sounds)",
+ hint:"The character encodes both the sound (through the two 口 components) and an ancient reference to vocal grief."},
+
+{type:"match", pairs:[
+  {trg:"笑(xiào)", src:"to laugh"},
+  {trg:"哭(kū)", src:"to cry"},
+  {trg:"让(ràng)我(wǒ)笑(xiào)", src:"made me laugh"},
+  {trg:"让(ràng)我(wǒ)哭(kū)", src:"made me cry"}
+]}
 ]}
 
 ]};

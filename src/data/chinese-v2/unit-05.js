@@ -443,6 +443,96 @@ lessons:[
  opts:["十五(shíwǔ)","中午(zhōngwǔ)","年(nián)","分钟(fēnzhōng)"],
  hint:"Today is the 15th. Which number means fifteen?",
  sSrc:"Today is the {1}th."}
+]},
+
+// ═══ L6: 早上晚上 Morning and Evening — HSK 2 Time ═══
+{id:"zhv2_u5l6", title:"早上晚上 Morning and Evening", icon:"🌙", xp:15, board:true, steps:[
+{type:"intro", title:"Morning and Evening",
+ desc:"Complete the Chinese day. Learn early morning and evening time words, the word for time itself, and the from-to pattern for expressing durations.",
+ goals:["Use 早上 and 晚上 for morning and evening","Talk about 时间 (time)","Use 从...到... for from-to durations"]},
+
+{type:"teach", trg:"早上(zǎoshang)", src:"morning / early morning", pos:"noun", gender:null,
+ note:"早 (early) + 上 (above/start). Refers to early morning, roughly 6–9 AM.\n早上好 = Good morning.",
+ example:"A: 你(nǐ)早上(zǎoshang)几(jǐ)点(diǎn)起(qǐ)来(lái)？\nB: 我(wǒ)早上(zǎoshang)六(liù)点(diǎn)起(qǐ)来(lái)。",
+ exampleSrc:"A: What time do you get up in the morning?\nB: I get up at six in the morning.",
+ funFact:"早上好 (zǎoshang hǎo) is the standard Chinese morning greeting. Literally 'morning good.' Chinese greetings are often time-based: 早上好 (morning), 下午好 (afternoon), 晚上好 (evening). Unlike English 'good morning,' these are fully interchangeable all day by swapping the time word."},
+
+{type:"teach", trg:"晚上(wǎnshang)", src:"evening / night", pos:"noun", gender:null,
+ note:"晚 (late/evening) + 上 (above/start). Refers to evening, roughly 7 PM onward.\n晚上好 = Good evening.",
+ example:"A: 你(nǐ)晚上(wǎnshang)做(zuò)什么(shénme)？\nB: 我(wǒ)晚上(wǎnshang)看(kàn)电影(diànyǐng)。",
+ exampleSrc:"A: What do you do in the evening?\nB: I watch movies in the evening.",
+ funFact:"晚 contains the 日 (sun) radical and 免 (avoid), suggesting the time when the sun is avoided — hidden beyond the horizon. The 上 suffix works the same as in 早上 and 上午: all three time words use 上 to signal a block of time rather than a single point."},
+
+{type:"teach", trg:"时间(shíjiān)", src:"time", pos:"noun", gender:null,
+ note:"时 (time) + 间 (space/interval). The general word for time.\n有时间 = have time (be free). 没时间 = no time (be too busy).",
+ example:"A: 你(nǐ)有(yǒu)时间(shíjiān)吗(ma)？\nB: 对(duì)不(bu)起(qǐ)，我(wǒ)现在(xiànzài)没有(méiyǒu)时间(shíjiān)。",
+ exampleSrc:"A: Do you have time?\nB: Sorry, I do not have time right now.",
+ funFact:"时间 covers both 'time as a resource' (有时间 = have free time) and 'time as a period' (这段时间 = during this period). In Chinese philosophy, particularly Taoism, time (时) is seen as cyclic and infinite. The character 时 shows the sun (日) and 寸 (a unit, the pulse) — time as measured by heartbeats under the sun."},
+
+{type:"teach", trg:"从(cóng)", src:"from", pos:"prep", gender:null,
+ note:"Marks the starting point of time or place.\n从 A 到 B = from A to B. Very common pattern.",
+ example:"A: 你(nǐ)从(cóng)几(jǐ)点(diǎn)工作(gōngzuò)到(dào)几(jǐ)点(diǎn)？\nB: 从(cóng)九(jiǔ)点(diǎn)到(dào)五(wǔ)点(diǎn)。",
+ exampleSrc:"A: From what time to what time do you work?\nB: From nine to five.",
+ funFact:"从 originally depicted a person following another person — one walks, the other follows from behind. This 'following from' sense evolved into the preposition 'from,' indicating a starting point. The character still shows two people stacked one behind the other."},
+
+{type:"teach", trg:"到(dào)", src:"to / arrive at / until", pos:"verb", gender:null,
+ note:"Marks the end point of time or place. Paired with 从 for the from-to pattern.\nAlso means 'to arrive': 我到了 = I have arrived.",
+ example:"A: 你(nǐ)今天(jīntiān)在(zài)学校(xuéxiào)到(dào)几(jǐ)点(diǎn)？\nB: 我(wǒ)在(zài)学校(xuéxiào)到(dào)下午(xiàwǔ)四(sì)点(diǎn)。",
+ exampleSrc:"A: Until what time are you at school today?\nB: I am at school until four in the afternoon.",
+ funFact:"到 is one of the most productive words in Chinese. It means 'arrive,' 'to (a destination),' and 'until.' In compounds: 到达 (arrive at), 做到 (accomplish = do-until-reached), 买到 (manage to buy = buy-until-got). The sense is always 'reaching a point.'"},
+
+{type:"tip", title:"从...到...: From-To Pattern",
+ text:"The from-to pattern works for both time and place:\n\nTime:\n从(cóng)早上(zǎoshang)到(dào)晚上(wǎnshang) = from morning to evening\n从(cóng)九(jiǔ)点(diǎn)到(dào)五(wǔ)点(diǎn) = from 9 to 5\n\nPlace:\n从(cóng)北京(Běijīng)到(dào)上海(Shànghǎi) = from Beijing to Shanghai\n从(cóng)学校(xuéxiào)到(dào)家(jiā) = from school to home\n\nThe pattern is: 从 + start + 到 + end.",
+ deepDive:{title:"到 as an Achievement Marker",
+  text:"到 is also used as a verb complement showing that an action reached its goal:\n\n买到(mǎi dào) = managed to buy (the buying reached the goal)\n找到(zhǎo dào) = managed to find (the finding reached its target)\n做到(zuò dào) = managed to accomplish (the doing reached completion)\n\nThis is different from the from-to 到. Context makes the difference clear. At A2, focus on the from-to pattern with 从...到... and the arrival meaning of 到."}},
+
+{type:"mc", q:"早上好 is said:",
+ opts:["in the afternoon","at noon","in the evening","in the morning"],
+ ans:"in the morning",
+ hint:"早上 is the Chinese time word for the early part of the day. The greeting matches the time period."},
+
+{type:"match", pairs:[
+  {trg:"早上(zǎoshang)", src:"morning"},
+  {trg:"晚上(wǎnshang)", src:"evening"},
+  {trg:"时间(shíjiān)", src:"time"},
+  {trg:"从(cóng)", src:"from"},
+  {trg:"到(dào)", src:"to / until"}
+]},
+
+{type:"fb", s:"我(wǒ)从(cóng)九(jiǔ)点(diǎn){1}五(wǔ)点(diǎn)工作(gōngzuò)。",
+ a:["到(dào)"],
+ opts:["到(dào)","从(cóng)","在(zài)","里(lǐ)"],
+ hint:"Which word marks the end point of a time range in the from-to pattern?",
+ sSrc:"I work from nine {1} five."},
+
+{type:"mc", q:"你有时间吗？ What is this question asking?",
+ opts:["What time is it?","Are you on time?","Do you have free time?","How long does it take?"],
+ ans:"Do you have free time?",
+ hint:"有 + this word = to be unoccupied. 没有 + this word = too occupied to help. The question asks about availability."},
+
+{type:"fb", s:"她(tā)每(měi)天(tiān){1}六(liù)点(diǎn)跑步(pǎobù)。",
+ a:["早上(zǎoshang)"],
+ opts:["早上(zǎoshang)","晚上(wǎnshang)","中午(zhōngwǔ)","下午(xiàwǔ)"],
+ hint:"She runs at 6 o'clock — which time of day is typically 6 AM, the early morning?",
+ sSrc:"She runs every {1} at six."},
+
+{type:"mc", q:"从北京到上海 uses 从 and 到. What do these mark?",
+ opts:["The purpose of the journey","The cost of the journey","The starting and ending points of a journey","The time of departure and arrival"],
+ ans:"The starting and ending points of a journey",
+ hint:"从 marks where you start from, and 到 marks where you end up."},
+
+{type:"fb", s:"我(wǒ)对(duì)不(bu)起(qǐ)，我(wǒ)没有(méiyǒu){1}。",
+ a:["时间(shíjiān)"],
+ opts:["时间(shíjiān)","晚上(wǎnshang)","早上(zǎoshang)","从(cóng)"],
+ hint:"The speaker is apologizing for being unavailable. Which noun pairs with 有 to mean being unoccupied and with 没有 to mean being too busy?",
+ sSrc:"Sorry, I do not have {1}."},
+
+{type:"match", pairs:[
+  {trg:"早上(zǎoshang)", src:"morning"},
+  {trg:"晚上(wǎnshang)", src:"evening"},
+  {trg:"从(cóng)...到(dào)...", src:"from ... to ..."},
+  {trg:"有时间(yǒu shíjiān)", src:"have free time"}
+]}
 ]}
 
 ]};

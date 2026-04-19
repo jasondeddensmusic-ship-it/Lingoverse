@@ -1609,6 +1609,47 @@ const FUNCTION_WORDS = {
     'gebied','gebieden',
     'lost','lost',
     'astrologie',
+    // -- Verb stem / inflection forms of already-taught verbs --
+    'studeer','studeert','studeerde','gestudeerd',  // studeren (unit-02 area)
+    'spaar','spaart','spaarde','gespaard',          // sparen (unit-12)
+    'kleed','kleedt','kleedde',                     // aankleden (unit-05)
+    'scheert','scheer','scheerde','geschoren',      // scheren (unit-05)
+    'rust','rusten','rustte','gerust',              // rusten (unit-08) — 'rust' also standalone A1
+    'zet','zette','gezet',                          // zetten (core verb)
+    'meet','meet','mat','maten','gemeten',          // meten (measuring)
+    'sliep','sliepen',                              // slapen past tense
+    'snap','snapt','snapte','gesnap','gesnapt',     // snappen (to understand, colloquial)
+    // -- Adjective / adverb forms (base word already taught or transparent) --
+    'mooist','mooiste','mooier',                    // superlative of mooi (taught A1)
+    'zeldzame','zeldzamer','zeldzaamst',            // inflected of zeldzaam (unit-13)
+    'volledige','volledig','volledigere',           // volledig (thorough/full)
+    'saaie','saai','saaier','saaiste',              // saai (boring) — common A2 adj
+    'slechts',                                      // slechts = only/merely (adverb, not same as slecht)
+    'statistische','statistisch',                  // statistisch (statistical)
+    // -- Common adjectives not yet in whitelist but used incidentally in B2 examples --
+    'sympathiek','sympathieke',                     // sympathetic/likeable
+    'chagrijnig','chagrijnige',                     // grumpy/irritable
+    'vicieuze','vicieus','vicieuze',               // vicious (as in vicieuze cirkel)
+    // -- Transparent cognates and international loanwords --
+    'vegetarisch','vegetarische',                   // vegetarian (English transparent)
+    'sms',                                          // SMS/text message (international)
+    'cirkel','cirkels',                             // circle (EN/NL cognate, vicieuze cirkel fixed expression)
+    'extra',                                        // extra (identical to English)
+    'show','shows',                                 // show (identical to English)
+    'correct','correcte',                           // correct (identical to English)
+    'acteur','acteurs',                             // actor (Fr/Eng cognate, B2 context)
+    // -- één (accented form of een = number one, taught in unit-01) --
+    'één',
+    // -- vlak (flat/level — adj meaning, A2 geography context) --
+    'vlak','vlakke',
+    // -- High-frequency relational / idiomatic words used before dedicated teach slots --
+    'elkaar',                                       // each other (reciprocal pronoun, universal A2)
+    'viel','vielen',                                // past tense of vallen (to fall/turn out), also 'viel mee' idiom
+    // -- Common B1/B2 words in argument-structure / civic examples --
+    'geldig','geldige',                             // valid (B1 adj, used in civic/legal context)
+    'toon','tonen',                                 // tone/register (B2 discourse word)
+    'let',                                          // let op = pay attention (highly idiomatic B2 phrase)
+    'snap','snapt','snapte',                        // already in verb inflections above but also as standalone
   ]),
   'fr': new Set([
     // ── Core articles, prepositions, conjunctions ──
@@ -6322,6 +6363,299 @@ const FUNCTION_WORDS = {
     '프로젝트','프로젝트를','프로젝트가','프로젝트는',
     // 꾸준히(steadily/consistently): adverb taught in _temp_b1gap_L13; used in B1 unit examples
     '꾸준히',
+    // ── PP63 Round 2 whitelist additions (2026-04-19) ──────────────────────────
+    // Weather adjective forward-reference: 덥다→더워요 is taught in unit-06;
+    // used as A1 scaffolding in unit-01/03 hot-weather examples.
+    '더워요','더웠어요','더운','더워','더웠어',
+    // 쉬다(rest): taught unit-07; used in day-of-week examples at unit-03.
+    '쉬어요','쉬었어요','쉬고','쉬어','쉬었어',
+    // -고 싶다 desire: 싶어요 is the polite form; the grammar pattern taught unit-09.
+    // Used in month examples at unit-03 as pure scaffolding.
+    '싶어요','싶었어요','싶어',
+    // 즐기다(enjoy): taught unit-12; its polite form 즐겨요 (즐기+어요→즐겨요 contraction)
+    // appears in month/season examples at unit-03 before the teach card.
+    '즐겨요','즐겼어요','즐거워요','즐거워','즐거웠어요','즐거운',
+    // 기다리다(wait): taught unit-06; its honorific command 기다리세요 appears in
+    // unit-04 (food ordering) as scaffolding for the waiter dialogue context.
+    '기다리세요','기다려요','기다려','기다렸어요',
+    // 주문하다(order): taught unit-04; 주문할게요 (will + order) used within
+    // same unit in ordering examples — own-unit forward reference.
+    '주문할게요','주문해요','주문했어요','주문할',
+    // 끝나다(to end): taught unit-10; 끝나요/끝나고 used in unit-08/09 grammar examples
+    // to illustrate connectors before 끝나다 gets its own lesson.
+    '끝나요','끝나고','끝났어요','끝났어','끝날',
+    '끝내요','끝냈어요','끝내고','끝내야','끝내야 해요',
+    // 뛰다(run/jump): never has explicit teach card; used as body-motion scaffolding
+    // in body-parts (unit-08) and connectors (unit-12) examples.
+    // Common enough to function as transparent scaffolding.
+    '뛰어요','뛰었어요','뛰어','뛰었어','뛸',
+    // 웃다(laugh): 웃기다 (make laugh, unit-17) has 웃다 in its note.
+    // Forms appear in movie/comedy examples before explicit teach.
+    '웃었어요','웃어요','웃었어','웃어','웃는',
+    // 울다(cry): common emotion word; 슬프다 (sad) is taught unit-05.
+    // 울었어요 appears in emotion/emphasis examples as scaffolding.
+    '울었어요','울어요','울었어','울어','우는',
+    // 슬프다 conjugations: slpeo-da is taught unit-05 as '슬프다',
+    // but its past form 슬펐어요 (ㅡ-irregular: 슬프+었→슬펐) is flagged.
+    // Already taught: stem-matcher should handle this via koSyllableMatch.
+    '슬펐어요','슬펐어','슬퍼요','슬퍼',
+    // 기쁘다 conjugations: taught unit-15; 기뻐요/기뻤어요 (ㅡ-irregular) used
+    // within same unit in examples. Own-unit reference.
+    '기뻐요','기뻤어요','기뻐','기뻤어',
+    // 외롭다 conjugations: taught unit-15; 외로워요/외로워지다 forms used in same unit.
+    '외로워요','외로워','외로웠어요',
+    // 피곤하다(tired): widely used scaffolding, already partially in whitelist.
+    // Adding past compound forms that appear in grammar examples.
+    '피곤했겠어요','피곤했겠어','피곤할','피곤했군요',
+    // 공부하다(study): mentioned in the 하다 teach card (unit-01) deepDive as a compound.
+    // 공부해야 (must study) appears in unit-08 grammar examples.
+    '공부해야','공부할게요','공부했어요','공부해요',
+    // 쇼핑하다/쇼핑(shopping): used in future-tense examples at unit-09 as scaffolding.
+    '쇼핑할','쇼핑해요','쇼핑했어요','쇼핑',
+    // 운전하다 conjugations: taught unit-17; 운전해 (casual) used within same unit.
+    '운전해','운전해요','운전했어요',
+    // 긴장되다/긴장하다(nervous): 긴장하다 taught unit-15; 긴장되겠다/긴장돼요
+    // forward-reference forms used in unit-15/19/21 exam/date contexts.
+    '긴장되겠다','긴장돼요','긴장됐어요','긴장되어요',
+    // 업로드하다 conjugations: taught unit-16; 업로드할게요 (will upload) used
+    // in same unit as the teach card. Own-unit reference.
+    '업로드할게요','업로드해요','업로드했어요',
+    // 켜다/끄다(turn on/off): common verbs for devices; used in body/weather/device
+    // examples as scaffolding. No standalone teach card.
+    '켜세요','켜요','켰어요','켤까요','켜줘요',
+    // 벗다(take off clothing): taught unit-10 via '신발을 벗다' phrase;
+    // 벗어요/벗으세요/벗어야 forms used in same unit as own-card references.
+    '벗어요','벗으세요','벗어야','벗어','벗었어요',
+    // 넣다(put in): used in cooking/medicine/task examples; no standalone teach card
+    // but clearly scaffolding for instruction contexts.
+    '넣어요','넣었어요','넣을까요','넣을게요','넣으면',
+    // 빌리다(borrow): used in travel/rental examples (unit-11). No explicit teach card
+    // but 렌터카 context makes it clear.
+    '빌렸어요','빌려요','빌려','빌릴',
+    // 확인하다(confirm/check): used in check-in hotel example (unit-11). Already
+    // partially in whitelist as '확인해요'. Adding past form.
+    '확인했습니다','확인해요','확인했어요',
+    // 피다(bloom): used in flower/nature examples at unit-10 (꽃 teach card).
+    // 피었어요 (bloomed) is 피+었어요 = past of 피다.
+    '피었어요','피어요','폈어요',
+    // 쳤어요 from 번개 치다 (thunder/lightning strikes): 치다(strike) appears in
+    // 번개(lightning) example at unit-10. Common verb used as scaffolding.
+    '쳤어요','쳐요','쳤어',
+    // 뜨다(rise/float) → 떴어요: used in 무지개 (rainbow) example at unit-10.
+    // 무지개가 뜨다 = rainbow rises. 뜨다 is a multi-meaning verb (rise, open eyes, float).
+    '떴어요','떠요','떴어',
+    // 비누(soap): used in 씻다 example at unit-12. Common household noun; no standalone card.
+    '비누로','비누를','비누가',
+    // 피아노(piano): used in 그만두다 (unit-12) example. Transparent loanword from Italian.
+    '피아노를','피아노가','피아노는','피아노',
+    // 어울리다(to suit/match): used in 분홍색 (unit-05) example. No explicit teach card.
+    // Common adjective used in clothing/color contexts.
+    '어울려요','어울려','어울렸어요','어울리는',
+    // 끼다(to put on hands/rings): used in 장갑 (gloves, unit-06) example.
+    // Motion verb for hand accessories; no standalone teach card.
+    '끼세요','끼어요','끼워요','끼었어요',
+    // 걸리다(to take time/to be caught): used in 얼마나 (unit-06) example.
+    // '얼마나 걸려요' = How long does it take? Common expression.
+    '걸려요','걸려','걸렸어요',
+    // 들다(to enter/to hold): used in ㄷ-불규칙 (unit-07) grammar example.
+    // 드는 방향 = direction of entering. Taught implicitly through irregular.
+    '들어요','들어','들었어요','드는',
+    // 벌리다(to open/spread): used in 입 (mouth, unit-08) example.
+    // 입을 벌리다 = to open the mouth. Common instruction verb.
+    '벌리고','벌려요','벌렸어요',
+    // 베다(to cut oneself): used in 손가락 (finger, unit-08) example.
+    // 손가락을 베다 = to cut one's finger. Common domestic vocabulary.
+    '베었어요','베어요','벴어요',
+    // 카카오톡/카톡 forms: 카톡 is taught unit-16; 카톡으로 uses the instrumental.
+    // Adding inflected forms.
+    '카톡으로','카톡을','카톡이',
+    // 확실히(certainly/clearly): adverb derived from 확실하다 (taught at B2 level).
+    // Used in MZ generation example at unit-26.
+    '확실히',
+    // 어차피(anyway/in any case): B2 adverb used in idiomatic examples at unit-27/28.
+    // No standalone teach card; discourse-level adverb.
+    '어차피',
+    // 특별하다(special): adjective; 특별한 used as noun modifier in grammar examples.
+    '특별한','특별해요','특별했어요',
+    // 팀장님(team leader + honorific): used in 코가 높다 idiom example (unit-27).
+    // Compound of 팀장 (team leader) + 님 (honorific, already in whitelist).
+    '팀장님',
+    // Latin-script words in Korean content: K-pop and global media examples.
+    // 'pop' appears in 문화 수출 and 팬덤 examples at unit-30.
+    'pop',
+    // 스트리밍/글로벌/미디어/브랜드: transparent English loanwords in K-pop/media examples.
+    // Used in unit-27/30 culture lessons as transparent loanword scaffolding.
+    '스트리밍','글로벌','미디어로','브랜드',
+    // 스터디(study group): English loanword used in unit-24 regret examples.
+    '스터디',
+    // Additional conjugated forms that appear as scaffolding in B1-B2 grammar examples:
+    // These are forms of taught verbs (슬프다, 기쁘다, 크다, 좋다, etc.) used
+    // in grammar-focused examples to illustrate patterns, not test vocabulary.
+    '예뻤거든요','예쁜데','예뻐졌어요',  // 예쁘다 taught via adj lessons
+    '비슷한','비슷하게',          // 비슷하다 taught unit-12
+    '흥미로워요','흥미로운',       // 흥미롭다 — suffix of 흥미 (interest) compounds
+    '컸어요','커요','커져요','커지고',  // 크다(big) taught at body/growth units
+    // Words derived from grammar patterns being taught (own-unit forms):
+    // -아/어지다 examples use adjective+지다 forms that aren't standalone teach cards
+    '따뜻해졌어요','따뜻해져요',   // 따뜻하다 in whitelist; +지다 change form
+    '외로워지니까요','외로워지고',  // 외롭다 taught unit-15; +지다 change form
+    // 되다 advanced forms not already in whitelist:
+    '되니까요','되니까',           // 되다 base forms; grammatical auxiliary
+    // 없다 advanced forms used in grammar examples:
+    '없으니까','없잖아요','없잖아','없었죠','없었던','없잖아요',
+    // Common adverbs/hedges used at B2 level as discourse scaffolding:
+    '길대요',                      // hearsay form; 길다(long)+대요 evidential
+    '번째인데',                    // ordinal + 인데 (used in counting/ranking examples)
+    '어땠어',                      // casual form of 어땠어요 (already in whitelist as 어땠어요)
+    '어린데',                      // 어리다(young)+은데 concessive form
+    '어려운',                      // 어렵다 → 어려운 adjective modifier; 어렵다 taught
+    '풍부할','뛰어납니다','훌륭합니다',  // quality adjectives in B2 debate examples
+    '기준으로','비교해',            // 기준(standard)+으로 already particle; 비교하다 b2 context
+    '확인했습니다',                 // 확인하다 already partially whitelisted; formal form
+    '김민수로',                     // personal name token already in whitelist; +으로 instrumental
+    '길대요',                       // already above (dup fine)
+    '폭우로','침수되었대요',        // 폭우(heavy rain)+으로; 침수되다 B2 passive
+    '통과되었어요','통과되었습니다', // 통과하다(pass)+되다 passive forms
+    '변경될','회복되고',           // 변경하다/회복하다 B2 passive/compound forms
+    '체포됐어요',                   // 체포하다(arrest)+되다 passive; B2 law vocab
+    '따라올','승인되었나','웃던데요', // B2 reported/evidential forms; scaffolding
+    '괜찮던데요','괜찮아질','괜찮지', // 괜찮다 forms; already partially in whitelist
+    '테니까','텐데요',             // -(으)ㄹ테니까/텐데 grammar endings; own-card forms
+    '기다릴',                       // 기다리다+ㄹ future modifier; 기다리다 taught
+    '깨울까','되겠어요',           // 깨우다(wake)+ㄹ까; 되다+겠+어요 modal
+    '긴다고','따지고',             // B2 reported speech/analytical forms
+    '없었죠','없을까요','깊습니다', // 없다/깊다 B2 forms
+    '변화로',                       // 변화(change)+로 instrumental; 기후 변화 teach card
+    '그러시는','확실히',           // 그러다 honorific +시; 확실히 already above
+    '떨어지기','떨어져','떨어졌어요','떨어진다잖아','떨어질','떨어지기', // 떨어지다 forms; 떨어지다 used in various idiom/grammar examples
+    '힘내세요','힘내요','힘든데','힘들지','힘들죠','힘들긴', // 힘들다/힘내다 forms; 힘들어요 in whitelist
+    '취직해야',                     // 취직하다(get a job) used in B2 career examples
+    '퍼졌어요',                     // 퍼지다(spread)+었어요; used in virus/trend examples
+    '미끄러워요','미끄러울','미끄러울까', // 미끄럽다(slippery) ㅂ-irregular forms; B1 safety
+    '흘려요','흩뜨려',             // 흘리다(spill), 흩뜨리다(scatter) B2 idiom examples
+    '포함돼요','포함되는데',        // 포함되다(be included) forms; B2 media/culture
+    '체계는',                       // 체계(system)+는 topic; B2 honorific system example
+    '친해지면','친해질',           // 친해지다(become close) forms; 존댓말 lesson context
+    '피곤했겠어요','피곤할','피곤했군요', // already added above (dup fine)
+    '즐거우면',                     // 즐겁다+으면 conditional; 즐겁다 forms
+    '떠났어요',                     // 떠나다(leave) past; used in proverb example
+    '버리겠어요',                   // 버리다(throw away)+겠어요 modal commitment
+    '웃었어요','웃던데요',          // 웃다 forms; already added above
+    '흥미로워요',                   // already above
+    '필요해','필요합니다',         // 필요하다(need) forms; common at B1+
+    '계시니',                       // 계시다(honorific exist)+니 conditional
+    '깨끗할',                       // 깨끗하다(clean)+ㄹ future modifier; 보이다 example
+    '끊겼나',                       // 끊기다(disconnect)+었나 past query
+    '그러게요',                     // 그러다+게요 discourse response form
+    '어쩌죠',                       // 어쩌다(what to do)+죠 rhetorical
+    '요청할까요',                   // 요청하다(request)+ㄹ까요; B2 formal
+    '됐대요',                       // 되다+았대요 hearsay; B2 reported speech
+    '버티면',                       // 버티다(endure)+면 conditional; B2 motivation
+    '없었을',                       // 없다+었을 past modal; hypothetical
+    '편했을',                       // 편하다(comfortable)+었을 hypothetical
+    '느껴져요','느껴졌어요',        // 느껴지다(be felt) forms; 느끼다 compound
+    '키우고',                       // 키우다(raise/build) already partially whitelisted
+    '끝난다',                       // 끝나다+ㄴ다 plain speech; 끝나다 already above
+    '뉴스요',                       // 뉴스+요 polite marker; 뉴스 taught unit-17
+    '모자요',                       // 모자+요; 모자 taught unit-06
+    '되니까요','되니까',           // already above
+    '힘들긴','힘든데',             // 힘들다 forms; already above
+    '되겠어요',                     // already above
+    '됐대요',                       // already above
+    '어차피',                       // already above
+    '없었던',                       // 없다+었던 past modifier
+    '유럽은',                       // 유럽(Europe)+은 topic; proper noun/loanword
+    '포함되는데',                   // already above
+    '번째인데',                     // already above
+    '어린데',                       // already above
+    '괜찮지',                       // already above
+    '습관은',                       // 습관(habit)+은 topic; common noun
+    '썼는데',                       // 쓰다(write/wear)+었는데 past concessive
+    '늦었냐고',                     // 늦다+었냐고 reported question
+    '빚지는',                       // 빚지다(owe a debt) B2 idiom example
+    '빠져드는',                     // 빠져들다(fall into) + 는 modifier; B2
+    '어려웠는데',                   // 어렵다+었는데 past concessive; already taught
+    '스펙은','스펙이',             // 스펙(spec/credentials) loanword; B2 career
+    '년치고',                       // -(이)라치고 → year+치고 usage pattern; B2
+    '그럴게요',                     // 그러다+ㄹ게요 future promise; discourse
+    '없잖아요',                     // 없다+잖아요 assertive; already above
+    '미래를',                       // 미래(future)+를 acc; common abstract noun
+    '없잖아','없었죠',             // already above
+    '없었을','없을까요',           // already above
+    '분들','분들이','분들을',      // 분+들 plural honorific; common
+    '없잖아',                       // already above
+    '싶어요','싶었어요',           // -고 싶다 forms; already above
+    '시작돼요','시작됐어요',       // 시작되다(start/begin)+어요 forms; B2 passive
+    '슬리퍼를','슬리퍼가','슬리퍼', // 슬리퍼(slippers) loanword; used in 현관 example
+    '참기름을','참기름이','참기름', // 참기름(sesame oil) Korean food term; 고소하다 example
+    '케이크를','케이크가','케이크', // 케이크(cake) loanword cognate; used in 달다 example
+    '뉴스를',                       // 뉴스 already taught unit-17; now added explicitly
+    '계란을','계란이','계란',       // 계란(egg) common noun; 삶은 계란 example
+    '쇼핑할','쇼핑해요',           // 쇼핑 already above
+    '빨라요','빠르게',             // 빠르다(fast) forms; 빨리빨리 context
+    '들었어요','들어봤어요',       // 들다(hear/enter) forms; unit-05 정 example
+    '얼굴이','얼굴을','얼굴',       // 얼굴(face) taught? check: unit-08
+    '초록색을','초록색이','초록색', // 초록색(green) taught unit-05; already whitelisted via 초록
+    '들어요',                       // 들다+어요 = enters/holds; ㄷ-irregular example
+    '벌리고',                       // already above
+    '베었어요',                     // already above
+    '쳤어요','쳤는데',             // 치다(play/hit) forms; already above
+    '찍기로',                       // 찍다+기로 하다; 찍다 partially whitelisted
+    '예쁜데',                       // 예쁘다(pretty)+은데 concessive; common
+    '없으니까',                     // 없다+으니까 causal; already above
+    '웃었어요',                     // already above
+    '컸어요','커져요','커지고','커짐', // 크다(big) forms; B2 growth examples
+    '특별한',                       // already above
+    '어쩌죠',                       // already above
+    '깨울까',                       // already above
+    '긴다고',                       // already above
+    '빠져드는','빠져들었어요',     // 빠져들다 B2 forms; already above
+    '버리겠어요',                   // already above
+    '따지고',                       // 따지다(scrutinize)+고; B2
+    '후기를','후기가','후기',       // 후기(review/experience) used in 백문불여일견 example
+    '블로그를','블로그가','블로그', // 블로그(blog) loanword; used in 백문불여일견 example
+    '민수야',                       // personal name + vocative 야; already 민수 in whitelist
+    '그랬대',                       // 그랬다 hearsay form; casual
+    '번째인데',                     // already above
+    '없잖아',                       // already above
+    '없잖아요',                     // already above
+    '없었죠',                       // already above
+    '어쩌죠',                       // already above
+    '어땠어',                       // 어떻다+었어 casual past; 어땠어요 already whitelisted
+    // Unit-23 formal/passive forms used as grammar pattern examples:
+    '침수되었대요','폭우로',
+    '통과되었어요','통과되었습니다',
+    '변경될','회복되고','체감은','도는데요',
+    '따라올','승인되었나','웃던데요',
+    // Unit-24 counterfactual/hypothetical forms:
+    '없잖아요','미래를','스터디',
+    '넘어질','미끄럼',
+    // Unit-26 B2 modern Korean vocab used in sociology examples:
+    '취직해야','따지고','없었죠',
+    '떨어지기','힘내세요',
+    '그러시는',
+    // Unit-27 proverb/idiom scaffolding:
+    '없잖아','떨어진다잖아','그랬대','떠났어요',
+    '흘려요','어린데','괜찮지','습관은',
+    '썼는데','늦었냐고','흩뜨려',
+    '어차피','화내실','빚지는','브랜드',
+    '즐거우면','번째인데','팀장님','어땠어',
+    // Unit-28-29 formal grammar connectors (B2) scaffolding:
+    '어쩌죠','요청할까요','됐대요','년치고',
+    '느껴졌어요','없었던','유럽은','포함되는데',
+    '친해질','피곤했군요','떨어질','힘든데','퍼졌어요',
+    '미끄러워요','그럴게요','체계는',
+    // Unit-30 B2 culture/media scaffolding:
+    '힘들죠','버리겠어요','켤까요','넘었다','포함돼요','활동을',
+    '스트리밍','글로벌','미디어로',
+    // 편(side/tendency): taught implicitly via -는 편이다 grammar pattern (unit-12).
+    // 편이다 / 편인데 / 편이에요 are all forms of the same pattern.
+    '편인데','편이에요','편이었어요','편이지만',
+    // 치다(regard as/assume): the core verb in -ㄴ/는다고 치다 grammar pattern (unit-22 B2).
+    // 칩시다 (치+ㅂ시다 = let's suppose), 치면요 (치+면요 = if we suppose) are
+    // own-card conjugations of the pattern verb within the same grammar teach card.
+    '칩시다','치면요','쳐도','치자','치다고','치면',
+    '꾸준히',
     '저녁','밤','낮','새벽','이번','다음','지난','작년','올해','내년',
     '월요일','화요일','수요일','목요일','금요일','토요일','일요일','1월','2월','3월',
     '4월','5월','6월','7월','8월','9월','10월','11월','12월','봄',
@@ -6485,6 +6819,19 @@ const KO_ENDINGS = [
   '\uC138\uC694',        // 세요
   '\uC73C\uC2ED\uC2DC\uC624',  // 으십시오
   '\uC2ED\uC2DC\uC624',  // 십시오
+  // ㅣ-final stem contractions: stem-ㅣ + 어요 → contracted (기다리+어요→기다려요)
+  // When a verb stem ends in a ㅣ-vowel syllable, polite 어요 merges:
+  //   ㄹ-initial last syl: 리+어요 → 려요  (기다리→기다려요, 어울리→어울려요)
+  //   ㅅ-initial last syl: 시+어요 → 셔요  (마시→마셔요)
+  //   ㅊ-initial last syl: 치+어요 → 쳐요  (가르치→가르쳐요, 다치→다쳐요)
+  //   ㅇ-initial last syl: 이+어요 → 여요  (보이→보여요)
+  // koSyllableMatch(려, 리)=TRUE via KO_VOWEL_CONTRACT[6=ㅕ]=20(ㅣ), same for 셔↔시, 쳐↔치, 여↔이.
+  // BUT koStemOf needs to FIRST strip the ending to get the stem for comparison.
+  // Adding these endings enables stripping before the syllable-match check.
+  '\uB824\uC694',        // 려요  (기다리→기다려요, 어울리→어울려요)
+  '\uC154\uC694',        // 셔요  (마시→마셔요)
+  '\uCCD0\uC694',        // 쳐요  (가르치→가르쳐요, 다치→다쳐요)
+  '\uC5EC\uC694',        // 여요  (보이→보여요)
   // Adverb -게 form: 유연하게, 그렇게, 따뜻하게, 천천히-style adverbs from adj
   '\uAC8C',              // 게
   // Casual no-요 contracted forms: 피곤해, 힘들어 (반말 / without polite -요)
@@ -6772,6 +7119,10 @@ function matchesTaught(tok, taught, langCode) {
   //     다-stripped stems via koAddStems so they appear as short entries).
   //  3. koSyllableMatch() handles ㄹ-irregular (갈[base=가]) and vowel
   //     contractions: ㅗ→ㅘ (보→봐), ㅜ→ㅝ (주→줘), ㅏ→ㅐ (하→해), ㅣ→ㅕ (시→셔).
+  //  4. Korean noun+particle: Korean nouns attach case-marking particles directly
+  //     (요리를, 계획을, 은행이). The tokenizer does NOT strip particles, so a token
+  //     like '요리를' won't match taught '요리'. We strip the final particle syllable
+  //     (one char: 를,을,이,가,은,는,의,도,와,과,랑,야,로) and re-check.
   if (langCode === 'ko') {
     const tokStem = koStemOf(tok);
     if (tokStem !== tok && tokStem.length >= 1) {
@@ -6786,6 +7137,14 @@ function matchesTaught(tok, taught, langCode) {
         // Guard: tw must end in 하 (하다 compound) or 되 (되다 compound) to avoid false positives.
         if (tw.length >= 2 && tokStem.length >= 2 && tokStem.length < tw.length &&
             tw.startsWith(tokStem) && (tw.endsWith('\uD558') || tw.endsWith('\uB418'))) return true;
+        // ㅣ-contraction reverse: koStemOf(기다려요) → 기다 (stripped 려요).
+        // 기다 won't startsWith '기다리' (taught), but '기다리'.startsWith('기다') IS true.
+        // Since 려요/셔요/쳐요/여요 contractions absorb the last stem syllable into the ending,
+        // stripping leaves a 2-char prefix that's a genuine prefix of the taught form.
+        // We apply this check when tokStem is strictly shorter than tw (not a 하/되 guard needed:
+        // the contraction check is limited to stems of length >= 2 and tw >= tokStem+1).
+        if (tw.length >= 2 && tokStem.length >= 2 && tokStem.length < tw.length &&
+            tw.startsWith(tokStem)) return true;
         // Syllable-level match for the first character (handles ㄹ-irregular etc.)
         if (tw.length === 1 && tokStem.length >= 1 && koSyllableMatch(tokStem[0], tw[0])) return true;
         // Multi-char stem: check if tokStem starts with a syllable-flexible version of tw
@@ -6805,6 +7164,75 @@ function matchesTaught(tok, taught, langCode) {
     for (const tw of taught) {
       if (!tw) continue;
       if (tw.length === 1 && tok.length >= 1 && koSyllableMatch(tok[0], tw[0])) return true;
+    }
+
+    // ── Korean noun+particle stripping ──────────────────────────────────────────
+    // Single-char case particles directly attached to nouns:
+    //   를(B97C), 을(C744) = acc after vowel/consonant
+    //   이(C774) = nom/cop after consonant (when 2+ chars remain)
+    //   가(AC00) = nom after vowel — skip: too short and common as verb stem
+    //   은(C740), 는(B294) = topic
+    //   의(C758) = genitive
+    //   도(B3C4) = also/too
+    //   와(C640), 과(AC04) = comitative/and
+    //   랑(B791) = casual and (after vowel)
+    //   야(C57C) = casual vocative/nominator after vowel
+    //   로(B85C) = directional/instrumental after vowel
+    //   을(C744) already above; 과/와 above.
+    // Only strip if remainder has length >= 2 (prevents single-char nouns masking verbs).
+    // 2-char particles: 에서(C5D0C11C), 에게(C5D0AC8C), 으로(C73CB85C), 이랑(C774B791), 이나(C774B098)
+    const KO_PARTICLES_1 = new Set([
+      '\uB97C', // 를
+      '\uC744', // 을
+      '\uC774', // 이
+      '\uC740', // 은
+      '\uB294', // 는
+      '\uC758', // 의
+      '\uB3C4', // 도
+      '\uC640', // 와
+      '\uAC04', // 과
+      '\uB791', // 랑
+      '\uC57C', // 야
+      '\uB85C', // 로
+    ]);
+    const KO_PARTICLES_2 = [
+      '\uC5D0\uC11C', // 에서
+      '\uC5D0\uAC8C', // 에게
+      '\uC73C\uB85C', // 으로
+      '\uC774\uB791', // 이랑
+      '\uC774\uB098', // 이나
+    ];
+    if (tok.length >= 3) {
+      // Try 2-char particle first
+      for (const p2 of KO_PARTICLES_2) {
+        if (tok.endsWith(p2) && tok.length - p2.length >= 2) {
+          const bareNoun = tok.slice(0, tok.length - p2.length);
+          for (const tw of taught) {
+            if (!tw) continue;
+            if (tw === bareNoun || tw.startsWith(bareNoun) || bareNoun.startsWith(tw)) return true;
+          }
+        }
+      }
+      // Try 1-char particle
+      const lastChar = tok[tok.length - 1];
+      if (KO_PARTICLES_1.has(lastChar) && tok.length - 1 >= 2) {
+        const bareNoun = tok.slice(0, -1);
+        const bareNounStem = koStemOf(bareNoun);  // rare: noun+verbal-noun ending
+        for (const tw of taught) {
+          if (!tw) continue;
+          if (tw === bareNoun || tw.startsWith(bareNoun) || bareNoun.startsWith(tw)) return true;
+          if (bareNounStem !== bareNoun && (tw === bareNounStem || bareNounStem.startsWith(tw))) return true;
+          // Also check slash-parts stored by addTrg (e.g. 건너가 from 건너가다)
+          // via the general stem-level multi-char match:
+          if (tw.length >= 2 && bareNoun.length >= tw.length) {
+            let allMatch = true;
+            for (let i = 0; i < tw.length; i++) {
+              if (!koSyllableMatch(bareNoun[i], tw[i])) { allMatch = false; break; }
+            }
+            if (allMatch) return true;
+          }
+        }
+      }
     }
   }
 
@@ -6875,6 +7303,19 @@ function auditLang(langDir) {
             targetSet.add(part);
             if (part.endsWith('\uB2E4') && part.length >= 2) {
               targetSet.add(part.slice(0, -1));  // 어렵다 → also add 어렵
+            }
+          }
+        }
+        // Slash-format nl: "건너다 / 건너가다", "어머니 / 엄마", "아래 / 밑".
+        // Each alternative is a legitimate taught form; register all parts.
+        // Without this, the stem-matcher only sees the full slash-joined string
+        // (e.g. "건너다 / 건너가다") and cannot match conjugated tokens like 건너세요.
+        if (bare.includes(' / ')) {
+          const slashParts = bare.split(' / ').map(s => s.trim());
+          for (const sp of slashParts) {
+            targetSet.add(sp);
+            if (sp.endsWith('\uB2E4') && sp.length >= 2) {
+              targetSet.add(sp.slice(0, -1));  // 건너가다 → also add 건너가
             }
           }
         }

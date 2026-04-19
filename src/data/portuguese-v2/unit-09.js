@@ -292,6 +292,89 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
   {trg:"a boca", src:"the mouth"},
   {trg:"sentir", src:"to feel"},
   {trg:"doer", src:"to hurt"}
-]}]}
+]}]},
+
+{id:"ptv2_u9l4", title:"Marcar uma consulta", icon:"📅", xp:15, board:true, steps:[
+{type:"intro", title:"Marcar uma consulta",
+ desc:"Learn to make, confirm, and reschedule appointments in Brazilian Portuguese. These skills are tested on CAPLE A2 and are essential for navigating clinics, dentists, and restaurants.",
+ goals:["Make an appointment by phone","Confirm and cancel a consultation","Reschedule a visit","Use polite telephone Portuguese"]},
+
+{type:"teach", trg:"a consulta", src:"the appointment / consultation", pos:"noun", gender:"f",
+ note:"Feminine noun. 'Consulta' covers both medical appointments and broader consultations.\nMarcar uma consulta = to make an appointment.\nMore formal than 'compromisso'.",
+ example:"A: Preciso marcar uma consulta com o médico.\nB: Para quando o senhor precisa?\nA: O quanto antes.\nB: Temos uma vaga na sexta-feira.",
+ exampleSrc:"A: I need to make an appointment with the doctor.\nB: When do you need it, sir?\nA: As soon as possible.\nB: We have a slot on Friday.",
+ funFact:"In Brazil, the word 'consulta' covers everything from a medical check-up to consulting a lawyer or accountant. The context makes it clear."},
+
+{type:"teach", trg:"marcar uma consulta", src:"to make an appointment", pos:"verb", gender:null,
+ note:"Marcar = to mark/schedule. Regular -ar verb.\nMarco, marca, marcamos...\nUsed for medical, dental, and beauty appointments.",
+ example:"A: Preciso marcar uma consulta com o médico.\nB: Claro. Qual é o seu nome?\nA: Meu nome é João Silva.\nB: Marquei para quinta às 10h.",
+ exampleSrc:"A: I need to make an appointment with the doctor.\nB: Of course. What is your name?\nA: My name is João Silva.\nB: I booked you for Thursday at 10am.",
+ funFact:"'Marcar' originally meant 'to mark' (from Germanic 'mark'). Scheduling appointments is literally 'marking' a time in the calendar."},
+
+{type:"teach", trg:"confirmar", src:"to confirm", pos:"verb", gender:null,
+ note:"Regular -ar verb. Confirmo, confirma, confirmamos...\nConfirmar a consulta = to confirm the appointment.",
+ example:"A: Ligo para confirmar minha consulta de amanhã.\nB: Sim, está confirmado para as 14h.\nA: Ótimo, muito obrigado.\nB: Até amanhã.",
+ exampleSrc:"A: I'm calling to confirm my appointment tomorrow.\nB: Yes, it is confirmed for 2pm.\nA: Great, thank you very much.\nB: See you tomorrow.",
+ funFact:"Portuguese and Spanish both use 'confirmar'. Both inherited it from the same Latin source: 'confirmare'."},
+
+{type:"teach", trg:"cancelar", src:"to cancel", pos:"verb", gender:null,
+ note:"Regular -ar verb. Cancelo, cancela, cancelamos...\nCancelar a consulta = to cancel the appointment.",
+ example:"A: Preciso cancelar minha consulta de segunda.\nB: Tudo bem. Quer remarcar?\nA: Sim, tem algo na semana que vem?\nB: Quarta-feira às 15h, pode ser?",
+ exampleSrc:"A: I need to cancel my Monday appointment.\nB: No problem. Would you like to reschedule?\nA: Yes, do you have something next week?\nB: Wednesday at 3pm, is that okay?",
+ funFact:"'Cancelar' is a direct cognate with English 'cancel'. Both come from Latin 'cancellare' (to cross out in a lattice pattern)."},
+
+{type:"teach", trg:"remarcar a consulta", src:"to reschedule the appointment", pos:"verb", gender:null,
+ note:"Remarcar = to re-mark, to reschedule.\nRemarco, remarca, remarcamos...\nSpecifically used for medical appointments.",
+ example:"A: Posso remarcar a minha consulta?\nB: Claro. Que dia é bom para você?\nA: Terça-feira de manhã, se possível.\nB: Terça às 9h está bom?",
+ exampleSrc:"A: Can I reschedule my appointment?\nB: Of course. What day is good for you?\nA: Tuesday morning if possible.\nB: Tuesday at 9am, is that okay?",
+ funFact:"Brazilian Portuguese uses the re- prefix (remarcar, reagendar) for rescheduling. European Portuguese tends to prefer 'adiar' or 'transferir'."},
+
+{type:"teach", trg:"Gostaria de marcar uma consulta para...",
+ src:"I would like to make an appointment for...", pos:"intj", gender:null,
+ note:"Gostaria = conditional of gostar (polite form).\nUsed to make polite requests. More formal than 'quero'.\nComplete with: segunda-feira / o dentista / etc.",
+ example:"A: Bom dia, gostaria de marcar uma consulta para o doutor Lima.\nB: Claro. Manhã ou tarde?\nA: Manhã, de preferência.\nB: Segunda-feira às 9h30, pode ser?",
+ exampleSrc:"A: Good morning, I would like to make an appointment with Doctor Lima.\nB: Of course. Morning or afternoon?\nA: Morning, preferably.\nB: Monday at 9:30am, would that work?",
+ funFact:"Using 'gostaria' (conditional) instead of 'quero' (present) is considered much more polite in Brazilian service interactions. The conditional softens any request."},
+
+{type:"teach", trg:"Qual é o horário disponível?", src:"What time slots are available?", pos:"intj", gender:null,
+ note:"Horário = schedule / time slot / opening hours.\nDisponível = available.\nUsed to ask what appointment times are open.",
+ example:"A: Qual é o horário disponível para esta semana?\nB: Temos terça às 10h ou quinta às 16h.\nA: Prefiro terça às 10h.\nB: Perfeito, ficou agendado.",
+ exampleSrc:"A: What time slots are available this week?\nB: We have Tuesday at 10am or Thursday at 4pm.\nA: I prefer Tuesday at 10am.\nB: Perfect, it is scheduled.",
+ funFact:"'Horário' (schedule) and 'hora' (hour/time) come from Latin 'hora'. The -ário suffix creates nouns meaning a collection or schedule of something."},
+
+{type:"tip", title:"Phone calls for appointments in Brazilian Portuguese",
+ text:"Standard script for calling a clinic:\n\n1. Opening:\n'Bom dia, gostaria de marcar uma consulta.'\n\n2. Specify the doctor:\n'Com o doutor / a doutora [name].'\n\n3. Indicate urgency:\n'É urgente.' or 'Para quando for possível.'\n\n4. Confirm the details:\n'Então é segunda-feira às 10h, certo?'\n\nKey vocabulary:\na clínica = the clinic\no consultório = the doctor's private office\nagendado = scheduled\ndisponível = available\no mais cedo possível = as soon as possible"},
+
+{type:"mc", q:"Which verb means 'to reschedule' an appointment in Brazilian Portuguese?",
+ opts:["cancelar","confirmar","remarcar","marcar"],
+ ans:"remarcar",
+ hint:"The prefix 're-' means again. You are marking the appointment again for a new time."},
+
+{type:"fb",
+ opts:["marcar","fazer","ter","pedir"],
+ hint:"'___ uma consulta' is the standard Brazilian Portuguese phrase. Which verb fills the gap?",
+ s:"Preciso {1} uma consulta com o dentista.",
+ a:"marcar",
+ sSrc:"I need to {1} an appointment with the dentist."},
+
+{type:"mc", q:"'Gostaria de marcar uma consulta' uses the conditional because:",
+ opts:["It refers to the past","It makes the request more polite","It is a question","It means 'I used to book appointments'"],
+ ans:"It makes the request more polite",
+ hint:"The conditional ('would like') is softer and more courteous than the present tense ('I want')."},
+
+{type:"match", pairs:[
+ {trg:"marcar uma consulta", src:"to make an appointment"},
+ {trg:"cancelar", src:"to cancel"},
+ {trg:"remarcar a consulta", src:"to reschedule"},
+ {trg:"confirmar", src:"to confirm"},
+ {trg:"disponível", src:"available"}]},
+
+{type:"fb",
+ opts:["remarcar","cancelar","confirmar","marcar"],
+ hint:"Moving the appointment to a new time, not cancelling it.",
+ s:"Posso {1} minha consulta de segunda para quarta-feira?",
+ a:"remarcar",
+ sSrc:"Can I {1} my Monday appointment to Wednesday?"}
+]}
 
 ]}; export default UNIT_09;

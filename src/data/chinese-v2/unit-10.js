@@ -329,6 +329,97 @@ lessons:[
   {trg:"回答(huídá)", src:"to answer"},
   {trg:"教(jiāo)", src:"to teach"}
 ]}
+]},
+
+// ─── L5: Company, Classroom, and Key Verbs ───
+{id:"zhv2_u10l5", title:"公司和教室 Company and Classroom", icon:"🏢", xp:15, board:true, steps:[
+{type:"intro", title:"Company and Classroom",
+ desc:"Learn essential HSK 2 workplace and education words. Also master three key verbs: 知道, 结束, and the important modal 可以.",
+ goals:["Distinguish 公司 (company) from 学校 (school)","Use 教室 for classroom","Express permission with 可以 and completion with 结束"]},
+
+{type:"teach", trg:"公司(gōngsī)", src:"company / firm", pos:"noun", gender:null,
+ note:"公 (public/official) + 司 (to manage). Literally: public management.\nRefers to any business company.",
+ example:"A: 你(nǐ)在(zài)哪(nǎ)家(jiā)公司(gōngsī)工作(gōngzuò)？\nB: 我(wǒ)在(zài)一(yī)家(jiā)科技(kējì)公司(gōngsī)工作(gōngzuò)。",
+ exampleSrc:"A: Which company do you work at?\nB: I work at a tech company.",
+ funFact:"司 originally depicted a person kneeling with a mouth — someone managing affairs by speaking official words. Today 公司 is universal for any company: 大公司 (big company), 小公司 (small company). The word entered Chinese during the late Qing dynasty as Western business culture arrived."},
+
+{type:"teach", trg:"教室(jiàoshì)", src:"classroom", pos:"noun", gender:null,
+ note:"教 (teach, 4th tone here) + 室 (room). Literally: teaching room.\nNote: 教 is 1st tone (jiāo) as a verb but 4th tone (jiào) in this compound.",
+ example:"A: 同学们(tóngxuémen)，进(jìn)教室(jiàoshì)吧(ba)！\nB: 好(hǎo)的(de)，老师(lǎoshī)！",
+ exampleSrc:"A: Students, let us go into the classroom!\nB: Okay, teacher!",
+ funFact:"室 appears in many formal room names: 教室 (classroom), 办公室 (office), 卧室 (bedroom), 浴室 (bathroom). It is more formal than 房间. You can always recognize a 室 as a purposeful, designated room — not just any room."},
+
+{type:"teach", trg:"知道(zhīdào)", src:"to know (a fact)", pos:"verb", gender:null,
+ note:"知 (know/understand) + 道 (way/path). Literally: know the way.\nUsed for knowing facts. 认识 is used for knowing people.",
+ example:"A: 你(nǐ)知道(zhīdào)他(tā)家(jiā)在(zài)哪(nǎ)里(lǐ)吗(ma)？\nB: 我(wǒ)不(bù)知道(zhīdào)。",
+ exampleSrc:"A: Do you know where his home is?\nB: I do not know.",
+ funFact:"知道 vs 认识: 知道 is for facts and information, 认识 is for people and places. 我知道他 means 'I know of him' (have heard of him), while 我认识他 means 'I know him' (we have met). This distinction matters in Chinese and is a frequent topic in HSK exams."},
+
+{type:"teach", trg:"结束(jiéshù)", src:"to finish / to end", pos:"verb", gender:null,
+ note:"结 (tie/conclude) + 束 (bundle/end). Literally: tie up the bundle.\nOpposite of 开始 (to begin), which was taught in L1 of this unit.",
+ example:"A: 工作(gōngzuò)几(jǐ)点(diǎn)结束(jiéshù)？\nB: 六(liù)点(diǎn)结束(jiéshù)。",
+ exampleSrc:"A: When does work finish?\nB: It finishes at six.",
+ funFact:"束 shows an arrow tied to a bundle — the idea of binding things together to close them. 结束 perfectly pairs with 开始 (begin): together they bracket any event, period, or task. Chinese learners should learn them as a matching pair from the very start."},
+
+{type:"teach", trg:"可以(kěyǐ)", src:"can / may (permission)", pos:"aux", gender:null,
+ note:"Expresses permission or possibility. Used when asking or giving permission.\nDifferent from 会(huì) = ability and 能(néng) = capability.",
+ example:"A: 我(wǒ)可以(kěyǐ)进(jìn)来(lái)吗(ma)？\nB: 当然(dāngrán)可以(kěyǐ)！",
+ exampleSrc:"A: May I come in?\nB: Of course you may!",
+ funFact:"可以, 能, and 会 are three different Chinese modals. 可以 = permission (May I?). 能 = physical/situational ability (I can because conditions allow it). 会 = learned skill (I can because I know how). 我可以进来吗 (May I come in?) vs 我能进来吗 (Is it possible for me to enter?) vs 我会进来 (I know how to enter, for a learned skill). Getting this right is an A2-B1 milestone."},
+
+{type:"teach", trg:"才(cái)", src:"only just / not until / only then", pos:"adv", gender:null,
+ note:"Expresses that something happens later than expected or involves only a small amount.\n才 = only just, barely, not until.\nOpposite sense from 就 (already, right away).",
+ example:"A: 你(nǐ)什么(shénme)时候(shíhou)到(dào)的(de)？\nB: 我(wǒ)才(cái)到(dào)，刚(gāng)进(jìn)门(mén)。",
+ exampleSrc:"A: When did you arrive?\nB: I only just arrived, just walked in the door.",
+ funFact:"才 and 就 are mirror opposites. 才 = later than expected or emphasizing smallness. 就 = sooner than expected or emphasizing readiness. 他八点才来 (He did not come until 8 — late!) vs 他八点就来了 (He came as early as 8 — early!). Same time, opposite emotional framing."},
+
+{type:"tip", title:"可以 vs 能 vs 会: Three Ways of 'Can'",
+ text:"Chinese has three modal verbs for ability:\n\n可以(kěyǐ) = permission\n你(nǐ)可以(kěyǐ)进(jìn)来(lái)。 You may come in.\n\n能(néng) = situational capability\n我(wǒ)今天(jīntiān)不(bù)能(néng)来(lái)。 I cannot come today (not possible).\n\n会(huì) = learned skill\n我(wǒ)会(huì)说(shuō)中文(zhōngwén)。 I can speak Chinese (I learned it).\n\nAt A2, focus on 可以 for asking permission and 会 for skills.",
+ deepDive:{title:"Why Three Modals?",
+  text:"English 'can' covers all three meanings at once. Chinese keeps them separate because the reasons for ability differ:\n\n可以: External permission — someone allows it.\n能: External/internal conditions — circumstances allow it.\n会: Internal knowledge — you learned how.\n\n我可以游泳 = I am allowed to swim.\n我能游泳 = I am capable of swimming right now.\n我会游泳 = I know how to swim.\n\nAt B1 you will see them overlap in casual speech. At A2, keeping them separate is the clean, exam-correct approach."}},
+
+{type:"mc", q:"What is the main difference between 公司(gōngsī) and 学校(xuéxiào)?",
+ opts:["公司 is smaller","学校 is for working, 公司 is for studying","公司 is for business work, 学校 is for education","They mean the same thing"],
+ ans:"公司 is for business work, 学校 is for education",
+ hint:"One is where you earn money doing a job, the other is where students go to learn."},
+
+{type:"match", pairs:[
+  {trg:"公司(gōngsī)", src:"company"},
+  {trg:"教室(jiàoshì)", src:"classroom"},
+  {trg:"知道(zhīdào)", src:"to know a fact"},
+  {trg:"结束(jiéshù)", src:"to finish / end"},
+  {trg:"可以(kěyǐ)", src:"may / can (permission)"}
+]},
+
+{type:"fb", s:"我(wǒ)不(bù){1}他(tā)在(zài)哪(nǎ)里(lǐ)。",
+ a:["知道(zhīdào)"],
+ opts:["知道(zhīdào)","结束(jiéshù)","可以(kěyǐ)","教(jiāo)"],
+ hint:"Which verb means to have information about a fact?",
+ sSrc:"I do not {1} where he is."},
+
+{type:"mc", q:"我可以进来吗？ What is the speaker asking for?",
+ opts:["Asking if they are able to enter","Asking if they know the way in","Asking permission to enter","Asking when to enter"],
+ ans:"Asking permission to enter",
+ hint:"可以 specifically asks whether an action is allowed by social rules or authority."},
+
+{type:"fb", s:"课(kè){1}了(le)，同学们(tóngxuémen)可以(kěyǐ)走(zǒu)了(le)。",
+ a:["结束(jiéshù)"],
+ opts:["结束(jiéshù)","开始(kāishǐ)","知道(zhīdào)","教(jiāo)"],
+ hint:"Which verb means the class has come to an end? It is the opposite of 开始.",
+ sSrc:"Class has {1}, students may leave now."},
+
+{type:"mc", q:"她(tā)才(cái)到(dào)，刚(gāng)进(jìn)门(mén)。 What does 才 tell you here?",
+ opts:["She arrived very early","She arrived right on time","She only just arrived — a moment ago","She arrived a long time ago"],
+ ans:"She only just arrived — a moment ago",
+ hint:"才 emphasizes that the action happened very recently or later than expected — not earlier."},
+
+{type:"match", pairs:[
+  {trg:"知道(zhīdào)", src:"to know a fact"},
+  {trg:"结束(jiéshù)", src:"to finish"},
+  {trg:"可以(kěyǐ)", src:"may / permission"},
+  {trg:"才(cái)", src:"only just / not until"},
+  {trg:"教室(jiàoshì)", src:"classroom"}
+]}
 ]}
 
 ]};

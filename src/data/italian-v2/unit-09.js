@@ -332,6 +332,82 @@ const UNIT_09 = {
        hint:"Many -ire verbs insert an extra cluster between stem and ending in singular and 3rd plural forms. Capire does the same."}
     ]},
     EXP_09_L1, EXP_09_L2, EXP_09_L3,
+    {id:"itv2_u9l4", title:"Prendere un appuntamento", icon:"📅", xp:15, board:true, steps:[
+      {type:"intro", title:"Prendere un appuntamento",
+       desc:"Learn to make, confirm, and reschedule appointments in Italian. These phrases are tested on CILS A2 and are essential for doctors, dentists, and restaurant reservations.",
+       goals:["Make an appointment by phone","Confirm or cancel an appointment","Reschedule a visit","Use polite telephone Italian"]},
+
+      {type:"teach", trg:"prendere un appuntamento", src:"to make an appointment", pos:"verb", gender:null,
+       note:"Prendere = to take (irregular). Appuntamento = appointment.\nPrendo un appuntamento = I make an appointment.\nPrendiamo = we make (1st person plural).",
+       example:"A: Devo prendere un appuntamento dal medico.\nB: Puoi chiamare stamattina.\nA: Sì, chiamo subito.\nB: Di' che è urgente.",
+       exampleSrc:"A: I need to make an appointment with the doctor.\nB: You can call this morning.\nA: Yes, I'll call right away.\nB: Tell them it's urgent.",
+       funFact:"Italian 'prendere' (to take) is used for making appointments, just as French uses 'prendre'. Both inherited this pattern from Late Latin."},
+
+      {type:"teach", trg:"confermare", src:"to confirm", pos:"verb", gender:null,
+       note:"Regular -are verb. Confermo, confermi, conferma...\nUsed to confirm appointments and reservations.",
+       example:"A: Chiamo per confermare il mio appuntamento.\nB: Sì, va bene. Martedì alle 10.\nA: Perfetto, grazie mille.\nB: Arrivederci.",
+       exampleSrc:"A: I'm calling to confirm my appointment.\nB: Yes, that's fine. Tuesday at 10.\nA: Perfect, thank you very much.\nB: Goodbye.",
+       funFact:"'Confermare' shares its Latin root 'confirmare' with French 'confirmer' and English 'confirm'. Latin was the common ancestor."},
+
+      {type:"teach", trg:"annullare", src:"to cancel", pos:"verb", gender:null,
+       note:"Regular -are verb. Annullo, annulli, annulla...\nNote the double 'l': annullo.\nAnnullare un appuntamento = to cancel an appointment.",
+       example:"A: Devo annullare il mio appuntamento di domani.\nB: Nessun problema. Vuole un nuovo appuntamento?\nA: Sì, la settimana prossima se possibile.\nB: Mercoledì alle 15, va bene?",
+       exampleSrc:"A: I need to cancel my appointment tomorrow.\nB: No problem. Would you like a new appointment?\nA: Yes, next week if possible.\nB: Wednesday at 3pm, is that okay?",
+       funFact:"'Annullare' comes from Latin 'annullare' (to make null). The double 'l' is preserved from the Latin form."},
+
+      {type:"teach", trg:"spostare l'appuntamento", src:"to reschedule the appointment", pos:"verb", gender:null,
+       note:"Spostare = to move (something). Sposto, sposti, sposta...\nLiterally 'to move the appointment to another time'.\nAlso: rimandare = to postpone.",
+       example:"A: Posso spostare il mio appuntamento?\nB: Certo. Che giorno preferisce?\nA: Giovedì mattina, se possibile.\nB: Giovedì alle 9, va bene?",
+       exampleSrc:"A: Can I reschedule my appointment?\nB: Certainly. What day do you prefer?\nA: Thursday morning, if possible.\nB: Thursday at 9, is that okay?",
+       funFact:"'Spostare' literally means 'to move from its place' (s- prefix = away + posto = place). Italian builds many verbs this way with the s- prefix."},
+
+      {type:"teach", trg:"Vorrei fissare un appuntamento per...",
+       src:"I would like to book an appointment for...", pos:"intj", gender:null,
+       note:"Standard phone opening. Vorrei = conditional of volere (polite).\nFissare = to fix/set. Fissare un appuntamento = to book an appointment.",
+       example:"A: Buongiorno, vorrei fissare un appuntamento per una visita.\nB: Certo. Mattina o pomeriggio?\nA: Mattina, preferibilmente.\nB: Lunedì alle 9, è disponibile?",
+       exampleSrc:"A: Good morning, I would like to book an appointment for a check-up.\nB: Certainly. Morning or afternoon?\nA: Morning, preferably.\nB: Monday at 9, are you available?",
+       funFact:"Using 'vorrei' (conditional) instead of 'voglio' (present) is essential for polite Italian. 'Voglio' in a shop or clinic can sound very blunt."},
+
+      {type:"teach", trg:"Che giorno è disponibile?", src:"What day are you available?", pos:"intj", gender:null,
+       note:"Standard question asking for open time slots.\nDisponibile = available (same in m/f for -ile adjectives).\nYou can also ask: 'Avete disponibilità per questa settimana?'",
+       example:"A: Che giorno è disponibile il dottor Rossi?\nB: Martedì e giovedì.\nA: Allora prendo giovedì pomeriggio.\nB: Perfetto. A giovedì.",
+       exampleSrc:"A: What day is Doctor Rossi available?\nB: Tuesday and Thursday.\nA: Then I'll take Thursday afternoon.\nB: Perfect. See you Thursday.",
+       funFact:"'Disponibile' comes from Latin 'disponere' (to arrange). The suffix -bile is the Italian equivalent of English -ble (available, possible, flexible)."},
+
+      {type:"tip", title:"Phone calls for appointments in Italian",
+       text:"Standard script for calling an Italian medical practice:\n\n1. Greeting:\n'Buongiorno, vorrei prendere un appuntamento.'\n\n2. With which doctor:\n'Con il dottor / la dottoressa [name].'\n\n3. Indicate type of visit:\n'È per una visita di controllo.' (routine check-up)\n'È urgente.' (it's urgent)\n\n4. Confirm details:\n'Quindi è mercoledì alle 11, giusto?'\n\nKey vocabulary:\nlo studio medico = the medical practice / doctor's office\nla segreteria = the reception / secretary\ndisponibile = available\nurgente = urgent"},
+
+      {type:"mc", q:"Which verb means 'to cancel' an appointment in Italian?",
+       opts:["confermare","spostare","annullare","prendere"],
+       ans:"annullare",
+       hint:"This verb makes something null and void. It contains the Latin root for 'null'."},
+
+      {type:"fb",
+       opts:["prendere","fare","mettere","avere"],
+       hint:"The verb for 'to take' in Italian is used in this collocation with appointments. Which verb fills the gap?",
+       s:"Devo {1} un appuntamento dal dentista.",
+       a:"prendere",
+       sSrc:"I need to {1} an appointment with the dentist."},
+
+      {type:"mc", q:"'Vorrei fissare un appuntamento' is the polite way because:",
+       opts:["'Vorrei' is past tense","'Vorrei' is conditional and sounds more courteous than 'voglio'","'Vorrei' is plural","'Fissare' means urgent"],
+       ans:"'Vorrei' is conditional and sounds more courteous than 'voglio'",
+       hint:"The -ei ending softens requests and is the standard Italian politeness marker in service interactions."},
+
+      {type:"match", pairs:[
+       {trg:"prendere un appuntamento", src:"to make an appointment"},
+       {trg:"annullare", src:"to cancel"},
+       {trg:"spostare l'appuntamento", src:"to reschedule"},
+       {trg:"confermare", src:"to confirm"},
+       {trg:"disponibile", src:"available"}]},
+
+      {type:"fb",
+       opts:["spostare","annullare","confermare","prendere"],
+       hint:"Moving the appointment to a different time, not cancelling it entirely.",
+       s:"Posso {1} il mio appuntamento di lunedì a mercoledì?",
+       a:"spostare",
+       sSrc:"Can I {1} my Monday appointment to Wednesday?"}
+    ]}
   ]
 };
 export default UNIT_09;
