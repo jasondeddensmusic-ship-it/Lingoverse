@@ -106,6 +106,11 @@ const BATCH11_L1 = {
      opts:["ストレスチェック for employees","Free gym membership","Mandatory vacation","Daily exercise time"],
      ans:"ストレスチェック for employees",
      hint:"A legally required assessment to monitor employee mental health and prevent workplace stress disorders."}
+  ,{type:"fb", s:"最近(さいきん){1}がたまって体調(たいちょう)が悪(わる)いです。ゆっくり休(やす)んでください。",
+    a:["ストレス"],
+    opts:["ストレス","アレルギー","免疫(めんえき)","症状(しょうじょう)"],
+    hint:"Work and daily pressures have been building up, causing poor health. This loanword describes mental and emotional pressure.",
+    sSrc:"Lately, {1} has been building up and my physical condition is poor. Please rest well."}
   ,{type:"match",pairs:[{trg:"薬(くすり)",src:"medicine / drug"},{trg:"健康診断(けんこうしんだん)",src:"health checkup"},{trg:"免疫(めんえき)",src:"immunity / immune system"},{trg:"アレルギー",src:"allergy"},{trg:"体調(たいちょう)",src:"physical condition"}]}]
 };
 export default BATCH11_L1;

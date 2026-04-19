@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u18l_b7_1", title:"La vita sostenibile", icon:"\u267
  {trg:"il pannello solare", src:"solar panel"},
  {trg:"la biodiversita", src:"biodiversity"}
 ]}
-,{type:"match",pairs:[{trg:"la raccolta",src:"the collection / harvesting"},{trg:"il risparmio energetico",src:"energy saving"},{trg:"il riscaldamento globale",src:"global warming"},{trg:"a chilometro zero",src:"locally sourced / zero-km"}]}]};
+,{type:"match",pairs:[{trg:"la raccolta",src:"the collection / harvesting"},{trg:"il risparmio energetico",src:"energy saving"},{trg:"il riscaldamento globale",src:"global warming"},{trg:"a chilometro zero",src:"locally sourced / zero-km"}]},{type:"fb",s:"Comprare frutta {1} riduce le emissioni di CO2.",a:["a chilometro zero"],opts:["a chilometro zero","la biodiversita","il consumo","la raccolta"],hint:"Buying produce grown and sold within a very short distance, minimizing transport.",sSrc:"Buying {1} fruit reduces CO2 emissions."}]};
 export default BATCH7_L1;

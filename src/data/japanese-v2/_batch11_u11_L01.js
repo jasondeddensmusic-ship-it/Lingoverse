@@ -106,6 +106,16 @@ const BATCH11_L1 = {
      opts:["A laundry drying index","A cooking difficulty index","A shopping index","A sleep quality index"],
      ans:"A laundry drying index",
      hint:"Because most Japanese households dry clothes outside, the weather forecast includes a helpful rating about this daily chore."}
+  ,{type:"fb", s:"部屋(へや)が散(ち)らかっています。まず机(つくえ)の上(うえ)を{1}ましょう。",
+    a:["片付(かたづ)ける"],
+    opts:["片付(かたづ)ける","掃除(そうじ)する","洗濯(せんたく)する","洗(あら)う"],
+    hint:"The room is messy. The first step is to organize the desk. This verb means 'to tidy up' or 'to organize.'",
+    sSrc:"The room is messy. First let's {1} the top of the desk."}
+  ,{type:"fb", s:"明日(あした)どこに{1}ますか？友達(ともだち)と映画(えいが)を見(み)に行(い)きます。",
+    a:["出(で)かける"],
+    opts:["出(で)かける","戻(もど)る","休(やす)む","着替(きが)える"],
+    hint:"You are going somewhere tomorrow with a friend. This verb means 'to go out' or 'to head out.'",
+    sSrc:"Where will you {1} tomorrow? I am going to see a movie with a friend."}
   ,{type:"match",pairs:[{trg:"洗(あら)う",src:"to wash"},{trg:"着替(きが)える",src:"to change clothes"},{trg:"掃除(そうじ)する",src:"to clean"},{trg:"洗濯(せんたく)する",src:"to do laundry"},{trg:"片付(かたづ)ける",src:"to tidy up / organize"},{trg:"出(で)かける",src:"to go out"}]},{type:"match",pairs:[{trg:"使(つか)う",src:"to use"}]}]
 };
 export default BATCH11_L1;

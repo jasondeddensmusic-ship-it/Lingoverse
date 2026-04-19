@@ -94,6 +94,9 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"孤独死(こどくし) is a social problem involving:", opts:["People dying alone without anyone noticing","Children being bullied","Traffic accidents","Natural disasters"], ans:"People dying alone without anyone noticing",
      hint:"This issue particularly affects elderly p... living a... in Japan."}
-  ,{type:"match",pairs:[{trg:"メンタルヘルス",src:"mental health"},{trg:"うつ",src:"depression"},{trg:"カウンセリング",src:"counseling"},{trg:"気分(きぶん)",src:"mood / feeling / disposition"},{trg:"りらっくす",src:"to relax"},{trg:"自信(じしん)",src:"self-confidence / confidence in oneself"}]}]
+  ,{type:"match",pairs:[{trg:"メンタルヘルス",src:"mental health"},{trg:"うつ",src:"depression"},{trg:"カウンセリング",src:"counseling"},{trg:"気分(きぶん)",src:"mood / feeling / disposition"},{trg:"りらっくす",src:"to relax"},{trg:"自信(じしん)",src:"self-confidence / confidence in oneself"}]},
+  {type:"fb", s:"ストレスが続(つづ)くので専門家(せんもんか)に{1}を受(う)けることにしました。", a:["カウンセリング"], opts:["カウンセリング","メンタルヘルス","うつ","不安(ふあん)"], hint:"A professional talking therapy service for mental and emotional wellbeing.", sSrc:"Since the stress continues, I decided to receive {1} from a specialist."},
+  {type:"fb", s:"試験(しけん)に合格(ごうかく)して{1}しました。", a:["安心(あんしん)"], opts:["安心(あんしん)","孤独(こどく)","我慢(がまん)","気分(きぶん)"], hint:"The feeling of relief and peace of mind when worry ends.", sSrc:"I felt {1} after passing the exam."}
+]
 };
 export default BATCH6_L1;

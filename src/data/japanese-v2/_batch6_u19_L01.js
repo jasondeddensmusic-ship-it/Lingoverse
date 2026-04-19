@@ -94,6 +94,9 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"おすすめ means:", opts:["A recommendation","A problem","A complaint","An apology"], ans:"A recommendation",
      hint:"You see this word on menus and in shops when staff suggest their best items."}
-  ,{type:"match",pairs:[{trg:"困(こま)る",src:"to be troubled / in difficulty"},{trg:"直(なお)す",src:"to fix / to repair / to correct"},{trg:"探(さが)す",src:"to search / to look for"},{trg:"選(えら)ぶ",src:"to choose / to select"},{trg:"慣(な)れる",src:"to get used to / to become accustomed"},{trg:"見(み)つける",src:"to find / to discover"}]}]
+  ,{type:"match",pairs:[{trg:"困(こま)る",src:"to be troubled / in difficulty"},{trg:"直(なお)す",src:"to fix / to repair / to correct"},{trg:"探(さが)す",src:"to search / to look for"},{trg:"選(えら)ぶ",src:"to choose / to select"},{trg:"慣(な)れる",src:"to get used to / to become accustomed"},{trg:"見(み)つける",src:"to find / to discover"}]},
+  {type:"fb", s:"なくした鍵(かぎ)を家中(いえじゅう){1}ました。", a:["探(さが)す"], opts:["探(さが)す","直(なお)す","困(こま)る","相談(そうだん)する"], hint:"The verb for looking all over to find something that is missing.", sSrc:"I {1} the whole house for the lost key."},
+  {type:"fb", s:"困(こま)っている人(ひと)を{1}ことは大切(たいせつ)です。", a:["助(たす)ける"], opts:["助(たす)ける","諦(あきら)める","選(えら)ぶ","慣(な)れる"], hint:"The verb for coming to someone's aid when they are in trouble.", sSrc:"It is important to {1} people who are in difficulty."}
+]
 };
 export default BATCH6_L1;

@@ -94,6 +94,9 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"戻(もど)る means:", opts:["To return to a previous place","To open something","To forget","To hand over"], ans:"To return to a previous place",
      hint:"This verb emphasizes physically going back to where you were."}
-  ,{type:"match",pairs:[{trg:"触(さわ)る",src:"to touch"},{trg:"戻(もど)る",src:"to return / to go back"},{trg:"渡(わた)す",src:"to hand over / to pass"},{trg:"残(のこ)る",src:"to remain / to stay behind"},{trg:"覚(おぼ)える",src:"to memorize / to remember"}]}]
+  ,{type:"match",pairs:[{trg:"触(さわ)る",src:"to touch"},{trg:"戻(もど)る",src:"to return / to go back"},{trg:"渡(わた)す",src:"to hand over / to pass"},{trg:"残(のこ)る",src:"to remain / to stay behind"},{trg:"覚(おぼ)える",src:"to memorize / to remember"}]},
+  {type:"fb", s:"暑(あつ)いので窓(まど)を{1}てください。", a:["開(あ)ける"], opts:["開(あ)ける","閉(し)める","付(つ)ける","消(け)す"], hint:"The verb for making a door or window no longer closed.", sSrc:"Please {1} the window because it is hot."},
+  {type:"fb", s:"食事(しょくじ)の後(あと)は必(かなら)ず食器(しょっき)を{1}ます。", a:["片付(かたづ)ける"], opts:["片付(かたづ)ける","忘(わす)れる","戻(もど)る","渡(わた)す"], hint:"The verb for tidying up or putting things away after use.", sSrc:"I always {1} the dishes after meals."}
+]
 };
 export default BATCH6_L1;

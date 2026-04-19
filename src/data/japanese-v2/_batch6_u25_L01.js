@@ -94,6 +94,9 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"採用(さいよう) covers:", opts:["Both hiring people and adopting plans","Only hiring people","Only adopting plans","Firing people"], ans:"Both hiring people and adopting plans",
      hint:"This versatile word is used for bringing in both new employees and new ideas."}
-  ,{type:"match",pairs:[{trg:"判断(はんだん)",src:"judgment / decision / assessment"},{trg:"締(し)め切(き)り",src:"deadline"},{trg:"採用(さいよう)",src:"hiring / adoption (of a plan)"},{trg:"貢献(こうけん)",src:"contribution"}]}]
+  ,{type:"match",pairs:[{trg:"判断(はんだん)",src:"judgment / decision / assessment"},{trg:"締(し)め切(き)り",src:"deadline"},{trg:"採用(さいよう)",src:"hiring / adoption (of a plan)"},{trg:"貢献(こうけん)",src:"contribution"}]},
+  {type:"fb", s:"両社(りょうしゃ)は新(あたら)しい{1}に署名(しょめい)しました。", a:["契約(けいやく)"], opts:["契約(けいやく)","条件(じょうけん)","判断(はんだん)","交渉(こうしょう)"], hint:"A formal written agreement between two parties with legal binding.", sSrc:"The two companies signed a new {1}."},
+  {type:"fb", s:"このプロジェクトの{1}は部長(ぶちょう)にあります。", a:["責任(せきにん)"], opts:["責任(せきにん)","利益(りえき)","効率(こうりつ)","貢献(こうけん)"], hint:"The duty or obligation someone has for a role or outcome.", sSrc:"The {1} for this project lies with the manager."}
+]
 };
 export default BATCH6_L1;

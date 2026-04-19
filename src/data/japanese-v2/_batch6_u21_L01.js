@@ -88,6 +88,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"集(あつ)まる describes:", opts:["People coming together in one place","One person leaving","Distributing items","Cleaning up"], ans:"People coming together in one place",
      hint:"This intransitive verb describes the act of gathering."}
-  ,{type:"match",pairs:[{trg:"参加(さんか)",src:"participation"},{trg:"催(もよお)し",src:"event / gathering / function"},{trg:"役(やく)に立(た)つ",src:"to be useful / to be helpful"},{trg:"集(あつ)まる",src:"to gather / to assemble (intransitive)"}]}]
+  ,{type:"match",pairs:[{trg:"参加(さんか)",src:"participation"},{trg:"催(もよお)し",src:"event / gathering / function"},{trg:"役(やく)に立(た)つ",src:"to be useful / to be helpful"},{trg:"集(あつ)まる",src:"to gather / to assemble (intransitive)"}]},
+  {type:"fb", s:"地域(ちいき)の清掃(せいそう)イベントに{1}しました。", a:["参加(さんか)"], opts:["参加(さんか)","ボランティア","協力(きょうりょく)","つながり"], hint:"The act of joining or taking part in an activity or event.", sSrc:"I {1} in the local clean-up event."}
+]
 };
 export default BATCH6_L1;

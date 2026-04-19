@@ -359,7 +359,7 @@ const UNIT_25 = {
        opts:["La fusione di due aziende pubbliche","L'aumento delle tasse per le imprese","La vendita di beni statali a privati","L'assunzione di nuovi dipendenti pubblici"],
        ans:"La vendita di beni statali a privati",
        hint:"When the state sells its companies or assets to private buyers. The opposite of nationalization."}
-    ,{type:"match",pairs:[{trg:"investire",src:"to invest"},{trg:"finanziare",src:"to finance / fund"},{trg:"quotare",src:"to list (on the stock exchange) / to quote"},{trg:"la tassa",src:"the tax"},{trg:"la burocrazia",src:"the bureaucracy"}]}]}
+    ,{type:"match",pairs:[{trg:"investire",src:"to invest"},{trg:"finanziare",src:"to finance / fund"},{trg:"quotare",src:"to list (on the stock exchange) / to quote"},{trg:"la tassa",src:"the tax"},{trg:"la burocrazia",src:"the bureaucracy"}]},{type:"fb",s:"La societa ha dichiarato {1} dopo anni di perdite.",a:["il fallimento"],opts:["il fallimento","la fusione","il debito","il bilancio"],hint:"The legal state when a company can no longer pay its creditors and ceases operations.",sSrc:"The company declared {1} after years of losses."},{type:"fb",s:"{1} tra le due banche ha creato il gruppo piu grande del paese.",a:["la fusione"],opts:["la fusione","il debito","il settore","il profitto"],hint:"When two companies combine to form a single entity, a common corporate strategy.",sSrc:"{1} between the two banks created the largest group in the country."}]}
   ]
 };
 

@@ -93,5 +93,7 @@ const BATCH2_L_1 = {
 
   {type:"fb", s:"あの信号(しんごう)で{1}ください。\n(Please stop at that traffic light.)", a:"止(と)まって", opts:["止(と)まって","曲(ま)がって","渡(わた)って","歩(ある)いて"], sSrc:"Please stop at that traffic light.",
    hint:"The て-form of the verb meaning 'to stop' or 'halt.'"},
-{type:"match",pairs:[{trg:"上(のぼ)る",src:"to go up / to climb"},{trg:"止(と)まる",src:"to stop"}]}]};
+{type:"match",pairs:[{trg:"上(のぼ)る",src:"to go up / to climb"},{trg:"止(と)まる",src:"to stop"}]},
+  {type:"fb", s:"エレベーターが動(うご)かないので{1}を使(つか)います。", a:["階段(かいだん)"], opts:["階段(かいだん)","横断歩道(おうだんほどう)","坂(さか)","歩道(ほどう)"], hint:"The stepped structure you climb floor by floor when the lift is out.", sSrc:"Since the elevator is not working, I will use the {1}."}
+]};
 export default BATCH2_L_1;

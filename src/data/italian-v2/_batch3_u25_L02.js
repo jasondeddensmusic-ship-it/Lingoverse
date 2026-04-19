@@ -123,6 +123,7 @@ const BATCH3_L_2 = {
      opts:["Articolo 1","Articolo 11","Articolo 47","Articolo 139"],
      ans:"Articolo 47",
      hint:"This article declares that the Republic encourages and protects savings. A unique constitutional guarantee reflecting postwar values."}
-  ,{type:"match",pairs:[{trg:"la banca centrale",src:"the central bank"},{trg:"il patrimonio",src:"the wealth / assets / estate"},{trg:"il risparmio",src:"the savings"},{trg:"il titolo di Stato",src:"the government bond"},{trg:"il fallimento bancario",src:"the bank failure"}]},{type:"mc",q:"How do you say \"tax evasion\" in Italian?",opts:["l'evasione fiscale","la finestra","il tavolo","la bicicletta"],ans:"l'evasione fiscale",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"la banca centrale",src:"the central bank"},{trg:"il patrimonio",src:"the wealth / assets / estate"},{trg:"il risparmio",src:"the savings"},{trg:"il titolo di Stato",src:"the government bond"},{trg:"il fallimento bancario",src:"the bank failure"}]},{type:"mc",q:"How do you say \"tax evasion\" in Italian?",opts:["l'evasione fiscale","la finestra","il tavolo","la bicicletta"],ans:"l'evasione fiscale",hint:"Recall the Italian vocabulary word taught in this lesson."},
+{type:"fb",s:"Per comprare casa ho chiesto un {1} alla banca.",a:["mutuo"],opts:["mutuo","prestito","risparmio","patrimonio"],hint:"A long-term bank loan specifically used to purchase property.",sSrc:"To buy a house I asked the bank for a {1}."}]
 };
 export default BATCH3_L_2;

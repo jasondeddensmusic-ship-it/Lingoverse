@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u36l_b7_1", title:"Strategie per l'esame CILS B2", i
  {trg:"tenendo conto di", src:"taking into account"},
  {trg:"e opportuno che", src:"it is advisable that"}
 ]}
-,{type:"match",pairs:[{trg:"a condizione che",src:"provided that / on condition that"},{trg:"e indubbio che",src:"it is undeniable that"},{trg:"si auspica che",src:"it is hoped that"}]}]};
+,{type:"match",pairs:[{trg:"a condizione che",src:"provided that / on condition that"},{trg:"e indubbio che",src:"it is undeniable that"},{trg:"si auspica che",src:"it is hoped that"}]},{type:"fb",s:"{1} ci sia presto una soluzione condivisa.",a:["si auspica che"],opts:["si auspica che","a condizione che","in ogni caso","di conseguenza"],hint:"An impersonal expression conveying hope or a wish that something will come to pass.",sSrc:"{1} there will soon be a shared solution."}]};
 export default BATCH7_L1;

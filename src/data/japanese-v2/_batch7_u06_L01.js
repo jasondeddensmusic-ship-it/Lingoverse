@@ -133,6 +133,11 @@ const BATCH7_L1 = {
      opts:["甲虫(かぶとむし)","魚(さかな)","鳥(とり)","亀(かめ)"],
      hint:"Japanese children catch these large beetles in summer. They are kept as pets and even sold in shops.",
      sSrc:"Japanese children catch {1} in summer."}
+  ,{type:"fb", s:"池(いけ)の中(なか)に{1}がいます。甲羅(こうら)が緑(みどり)色(いろ)です。",
+     a:["亀(かめ)"],
+     opts:["亀(かめ)","蛇(へび)","魚(さかな)","兎(うさぎ)"],
+     hint:"In the pond there is an animal with a green shell. This reptile is a symbol of longevity and good luck in Japan.",
+     sSrc:"There is a {1} in the pond. Its shell is green."}
   ,{type:"match",pairs:[{trg:"動物(どうぶつ)",src:"animal"},{trg:"飼(か)う",src:"to keep (a pet) / to raise"}]}]
 };
 export default BATCH7_L1;

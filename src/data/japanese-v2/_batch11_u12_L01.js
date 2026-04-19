@@ -106,6 +106,16 @@ const BATCH11_L1 = {
      opts:["覚(おぼ)える is storing memories, 思(おも)い出(だ)す is retrieving them","They are the same","覚(おぼ)える is formal, 思(おも)い出(だ)す is casual","覚(おぼ)える is for names, 思(おも)い出(だ)す is for events"],
      ans:"覚(おぼ)える is storing memories, 思(おも)い出(だ)す is retrieving them",
      hint:"Think of memory as having two directions: putting information in and pulling information out."}
+  ,{type:"fb", s:"間違(まちが)いに{1}ましたか？すぐ直(なお)してください。",
+    a:["気(き)づく"],
+    opts:["気(き)づく","思(おも)う","感(かん)じる","わかる"],
+    hint:"Did you become aware of the mistake? This verb means 'to notice' or 'to realize' something.",
+    sSrc:"Did you {1} the mistake? Please fix it right away."}
+  ,{type:"fb", s:"あの映画(えいが)のタイトルを{1}せますか？",
+    a:["思(おも)い出(だ)す"],
+    opts:["思(おも)い出(だ)す","気(き)がする","覚(おぼ)える","気(き)づく"],
+    hint:"You are trying to retrieve the movie title from your memory. This verb means 'to recall' (to bring out a thought).",
+    sSrc:"Can you recall the title of that movie?"}
   ,{type:"match",pairs:[{trg:"におう",src:"to smell (intransitive)"},{trg:"触(さわ)る",src:"to touch"},{trg:"わかる",src:"to understand / to know"},{trg:"知(し)る",src:"to come to know / to learn (a fact)"},{trg:"思(おも)う",src:"to think / to feel (opinion)"}]}]
 };
 export default BATCH11_L1;

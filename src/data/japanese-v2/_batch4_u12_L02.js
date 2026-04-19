@@ -122,6 +122,8 @@ const BATCH4_L_2 = {
     {type:"mc", q:"自信(じしん) means:",
      opts:["self-confidence","earthquake","effort","ability"], ans:"self-confidence",
      hint:"S... + believe. Different kanji from the natural disaster word."}
-  ,{type:"match",pairs:[{trg:"能力(のうりょく)",src:"ability / capability"},{trg:"得意(とくい)",src:"good at / strong point"},{trg:"経験(けいけん)",src:"experience"},{trg:"自信(じしん)",src:"self-confidence"},{trg:"成長(せいちょう)する",src:"to grow / develop"}]}]
+  ,{type:"match",pairs:[{trg:"能力(のうりょく)",src:"ability / capability"},{trg:"得意(とくい)",src:"good at / strong point"},{trg:"経験(けいけん)",src:"experience"},{trg:"自信(じしん)",src:"self-confidence"},{trg:"成長(せいちょう)する",src:"to grow / develop"}]},
+  {type:"fb", s:"練習(れんしゅう)を続(つづ)けると{1}がつきます。", a:["自信(じしん)"], opts:["自信(じしん)","得意(とくい)","苦手(にがて)","経験(けいけん)"], hint:"The inner belief in your own abilities, built through practice.", sSrc:"If you keep practising, you will gain {1}."}
+]
 };
 export default BATCH4_L_2;

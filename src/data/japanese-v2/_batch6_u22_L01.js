@@ -88,6 +88,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"つまらないものですが expresses:", opts:["Humble self-deprecation when giving a gift","Disappointment with a gift received","A request for better wrapping","Dislike of the gift"], ans:"Humble self-deprecation when giving a gift",
      hint:"Japanese culture values modesty when presenting gifts to others."}
-  ,{type:"match",pairs:[{trg:"お中元(ちゅうげん)",src:"mid-year gift"},{trg:"お歳暮(せいぼ)",src:"year-end gift"},{trg:"熨斗(のし)",src:"decorative gift wrapping paper / gift marker"},{trg:"気持(きも)ち",src:"feeling / sentiment / thought"},{trg:"つまらないものですが",src:"this is a trifling thing, but... (humble gift phrase)"}]}]
+  ,{type:"match",pairs:[{trg:"お中元(ちゅうげん)",src:"mid-year gift"},{trg:"お歳暮(せいぼ)",src:"year-end gift"},{trg:"熨斗(のし)",src:"decorative gift wrapping paper / gift marker"},{trg:"気持(きも)ち",src:"feeling / sentiment / thought"},{trg:"つまらないものですが",src:"this is a trifling thing, but... (humble gift phrase)"}]},
+  {type:"fb", s:"プレゼントを綺麗(きれい)な紙(かみ)で{1}ました。", a:["包(つつ)む"], opts:["包(つつ)む","贈(おく)り物(もの)","お返(かえ)し","お中元(ちゅうげん)"], hint:"The verb for enclosing a gift in paper or cloth.", sSrc:"I {1} the present in beautiful paper."}
+]
 };
 export default BATCH6_L1;

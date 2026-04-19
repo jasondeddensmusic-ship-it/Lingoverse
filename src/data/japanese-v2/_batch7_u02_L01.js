@@ -132,6 +132,11 @@ const BATCH7_L1 = {
      opts:["にぎやか","静(しず)か","真面目(まじめ)","つまらない"],
      hint:"This na-adjective means lively and bustling, the opposite of quiet.",
      sSrc:"Shibuya is a {1} town. There are many people."}
+  ,{type:"fb", s:"あの子(こ)は笑顔(えがお)が素敵(すてき)で、クラス全員(ぜんいん)に{1}があります。",
+     a:["人気(にんき)がある"],
+     opts:["人気(にんき)がある","背(せ)が高(たか)い","真面目(まじめ)","元気(げんき)"],
+     hint:"She has a lovely smile and everyone in the class likes her. This phrase describes being well-liked or popular.",
+     sSrc:"That child has a lovely smile and {1} with the whole class."}
   ,{type:"match",pairs:[{trg:"元気(げんき)",src:"energetic / healthy / well"},{trg:"やさしい人(ひと)",src:"kind person"},{trg:"髪(かみ)が長(なが)い",src:"long hair"}]}]
 };
 export default BATCH7_L1;

@@ -83,6 +83,8 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"辞(や)めさせる means:", opts:["to quit by oneself","to make someone quit / to fire","to ask to quit","to want to quit"], ans:"to make someone quit / to fire",
      hint:"The causative of 辞(や)める. The subject forces or causes s... else to q...."},
-  {type:"match",pairs:[{trg:"通(かよ)わせる",src:"to make someone commute / to send someone (to school)"}]}]
+  {type:"match",pairs:[{trg:"通(かよ)わせる",src:"to make someone commute / to send someone (to school)"}]},
+  {type:"fb", s:"社長(しゃちょう)は問題(もんだい)のある社員(しゃいん)を{1}ことにしました。", a:["辞(や)めさせる"], opts:["辞(や)めさせる","遊(あそ)ばせる","使(つか)わせる","通(かよ)わせる"], hint:"The causative verb meaning to compel someone to quit their position.", sSrc:"The company president decided to {1} the problematic employee."}
+]
 };
 export default BATCH2_L_1;

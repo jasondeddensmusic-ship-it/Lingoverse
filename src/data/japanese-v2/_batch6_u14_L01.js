@@ -94,6 +94,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"ぼんやりする means:", opts:["To be absent-minded or space out","To be excited","To be irritated","To feel refreshed"], ans:"To be absent-minded or space out",
      hint:"This word describes a foggy, unfocused mental state."}
-  ,{type:"match",pairs:[{trg:"寂(さび)しい",src:"lonely / lonesome"},{trg:"恥(は)ずかしい",src:"embarrassed / ashamed"},{trg:"すっきりする",src:"to feel refreshed / to feel clear"},{trg:"ぼんやりする",src:"to be absent-minded / to space out"},{trg:"いらいらする",src:"to be irritated / to be agitated"}]}]
+  ,{type:"match",pairs:[{trg:"寂(さび)しい",src:"lonely / lonesome"},{trg:"恥(は)ずかしい",src:"embarrassed / ashamed"},{trg:"すっきりする",src:"to feel refreshed / to feel clear"},{trg:"ぼんやりする",src:"to be absent-minded / to space out"},{trg:"いらいらする",src:"to be irritated / to be agitated"}]},
+  {type:"fb", s:"プレゼントをもらってとても{1}です。", a:["嬉(うれ)しい"], opts:["嬉(うれ)しい","悲(かな)しい","寂(さび)しい","恥(は)ずかしい"], hint:"The adjective describing the feeling of joy or delight when something good happens.", sSrc:"I am very {1} to have received a present."}
+]
 };
 export default BATCH6_L1;

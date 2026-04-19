@@ -94,6 +94,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"A 通帳(つうちょう) is:", opts:["A physical bankbook that records transactions","A credit card","A train ticket","An ID card"], ans:"A physical bankbook that records transactions",
      hint:"This item is inserted into ATMs to print your banking r...."}
-  ,{type:"match",pairs:[{trg:"送(おく)る",src:"to send"},{trg:"受(う)け取(と)る",src:"to receive / to accept"},{trg:"預(あず)ける",src:"to deposit / to entrust"},{trg:"下(お)ろす",src:"to withdraw (money) / to take down"},{trg:"窓口(まどぐち)",src:"service window / counter"},{trg:"通帳(つうちょう)",src:"bankbook / passbook"}]}]
+  ,{type:"match",pairs:[{trg:"送(おく)る",src:"to send"},{trg:"受(う)け取(と)る",src:"to receive / to accept"},{trg:"預(あず)ける",src:"to deposit / to entrust"},{trg:"下(お)ろす",src:"to withdraw (money) / to take down"},{trg:"窓口(まどぐち)",src:"service window / counter"},{trg:"通帳(つうちょう)",src:"bankbook / passbook"}]},
+  {type:"fb", s:"海外(かいがい)に荷物(にもつ)を送(おく)るために{1}へ行(い)きました。", a:["郵便局(ゆうびんきょく)"], opts:["郵便局(ゆうびんきょく)","銀行(ぎんこう)","切手(きって)","受(う)け取(と)る"], hint:"The government facility where you send packages, letters, and buy stamps.", sSrc:"I went to the {1} to send a package overseas."}
+]
 };
 export default BATCH6_L1;

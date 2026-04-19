@@ -175,6 +175,19 @@ const UNIT_18 = {
 
   {type:"mc", q:"Which form is the short causative-passive of 書(か)く (to write)?", opts:["書(か)かせられる","書(か)かれる","書(か)かされる","書(か)かせる"], ans:"書(か)かされる",
    hint:"Group 1 short form: change う to あ-row, then add される."},
+
+  {type:"fb", s:"仕事(しごと)が多(おお)くても、何(なに)とか{1}ています。あきらめません。",
+   a:["我慢(がまん)する"],
+   opts:["我慢(がまん)する","残業(ざんぎょう)する","休(やす)む","断(ことわ)る"],
+   hint:"Even with a heavy workload you are persevering and not giving up. This する-verb means 'to endure' or 'to bear with' hardship.",
+   sSrc:"Even with a lot of work, I am somehow {1}. I will not give up."},
+
+  {type:"fb", s:"今日(きょう)も{1}があって、疲(つか)れました。早(はや)く家(いえ)に帰(かえ)りたいです。",
+   a:["残業(ざんぎょう)"],
+   opts:["残業(ざんぎょう)","休憩(きゅうけい)","仕事(しごと)","勤務(きんむ)"],
+   hint:"You stayed at work beyond normal hours again and are exhausted. This noun refers to extra hours worked past the scheduled end of the workday.",
+   sSrc:"There was {1} again today and I am tired. I want to go home soon."},
+
 {type:"match",pairs:[{trg:"待(ま)つ",src:"to wait"}]}]},
 
 ,EXP_L3,EXP_L4,EXP_L5

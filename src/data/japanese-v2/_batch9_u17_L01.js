@@ -69,6 +69,11 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What is おれおれさぎ?", opts:["A phone scam targeting elderly people","A type of theft","A traffic violation","A cybercrime"], ans:"A phone scam targeting elderly people",
      hint:"Scammers call pretending to be relatives, saying 'it's me, it's me' to trick victims."}
+  ,{type:"fb", s:"交番(こうばん)に行(い)って事件(じけん)を{1}ました。",
+    a:["届(とど)ける"],
+    opts:["届(とど)ける","盗(ぬす)む","騙(だま)す","捕(つか)まえる"],
+    hint:"You went to the police box to inform the authorities about the incident. This verb means 'to report' or 'to notify.'",
+    sSrc:"I went to the police box and {1} the incident."}
   ,{type:"match",pairs:[{trg:"巻(ま)き込(こ)まれる",src:"to get caught up in / to get involved"},{trg:"捕(つか)まる",src:"to be caught / to be arrested"},{trg:"意識(いしき)を失(うしな)う",src:"to lose consciousness"},{trg:"不審者(ふしんしゃ)",src:"suspicious person"}]}]
 };
 export default BATCH9_L1;

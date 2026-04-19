@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u14l_b7_1", title:"Il colloquio di lavoro", icon:"\u
  {trg:"la candidatura", src:"application"},
  {trg:"il preavviso", src:"notice period"}
 ]}
-,{type:"match",pairs:[{trg:"il requisito",src:"the requirement"},{trg:"il punto di forza",src:"the strength / strong point"},{trg:"il contratto",src:"the contract"},{trg:"la referenza",src:"the reference"}]}]};
+,{type:"match",pairs:[{trg:"il requisito",src:"the requirement"},{trg:"il punto di forza",src:"the strength / strong point"},{trg:"il contratto",src:"the contract"},{trg:"la referenza",src:"the reference"}]},{type:"fb",s:"Devi completare {1} di sei mesi per ottenere il posto fisso.",a:["il tirocinio"],opts:["il tirocinio","il preavviso","la formazione","la competenza"],hint:"A period of practical work experience required before permanent employment.",sSrc:"You must complete a six-month {1} to get a permanent position."}]};
 export default BATCH7_L1;

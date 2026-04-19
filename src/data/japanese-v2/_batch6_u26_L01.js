@@ -88,6 +88,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"復興(ふっこう) describes:", opts:["Rebuilding and recovery after disaster","Preventing disasters","Predicting earthquakes","Evacuating to safety"], ans:"Rebuilding and recovery after disaster",
      hint:"This word refers to the long-term process of reconstruction."}
-  ,{type:"match",pairs:[{trg:"災害(さいがい)",src:"disaster / calamity"},{trg:"警報(けいほう)",src:"warning / alert"},{trg:"緊急(きんきゅう)",src:"emergency / urgent"},{trg:"復興(ふっこう)",src:"reconstruction / recovery"},{trg:"備(そな)える",src:"to prepare (for) / to equip"}]}]
+  ,{type:"match",pairs:[{trg:"災害(さいがい)",src:"disaster / calamity"},{trg:"警報(けいほう)",src:"warning / alert"},{trg:"緊急(きんきゅう)",src:"emergency / urgent"},{trg:"復興(ふっこう)",src:"reconstruction / recovery"},{trg:"備(そな)える",src:"to prepare (for) / to equip"}]},
+  {type:"fb", s:"昨夜(さくや)、大(おお)きな{1}がありました。", a:["地震(じしん)"], opts:["地震(じしん)","台風(たいふう)","避難(ひなん)","警報(けいほう)"], hint:"The natural phenomenon caused by tectonic plate movement under the ground.", sSrc:"There was a large {1} last night."}
+]
 };
 export default BATCH6_L1;

@@ -82,6 +82,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"援助(えんじょ) in international context means:", opts:["Providing aid and assistance to other countries","Attacking enemies","Closing borders","Raising taxes"], ans:"Providing aid and assistance to other countries",
      hint:"Japan is known for its generous ODA program supporting developing nations."}
-  ,{type:"match",pairs:[{trg:"難民(なんみん)",src:"refugee"},{trg:"脅威(きょうい)",src:"threat / menace"}]}]
+  ,{type:"match",pairs:[{trg:"難民(なんみん)",src:"refugee"},{trg:"脅威(きょうい)",src:"threat / menace"}]},
+  {type:"fb", s:"その国(くに)では多(おお)くの{1}が支援(しえん)を必要(ひつよう)としています。", a:["難民(なんみん)"], opts:["難民(なんみん)","外交(がいこう)","条約(じょうやく)","貿易(ぼうえき)"], hint:"People who have fled their country due to war or persecution.", sSrc:"In that country, many {1} are in need of support."}
+]
 };
 export default BATCH6_L1;

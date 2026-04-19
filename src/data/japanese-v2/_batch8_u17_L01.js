@@ -95,6 +95,16 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"Which pair means 'to grow up / to raise'?", opts:["育(そだ)つ / 育(そだ)てる","開(あ)く / 開(あ)ける","壊(こわ)れる / 壊(こわ)す","決(き)まる / 決(き)める"], ans:"育(そだ)つ / 育(そだ)てる",
      hint:"The intransitive form describes a child growing, the transitive describes raising a child."}
+  ,{type:"fb", s:"窓(まど)が{1}たままにしておくと、虫(むし)が入(はい)ります。",
+     a:["開(あ)く"],
+     opts:["開(あ)く","閉(し)まる","壊(こわ)れる","点(つ)く"],
+     hint:"If you leave the window in an open state, insects will get in. This intransitive verb describes the window being in the opened condition by itself.",
+     sSrc:"If you leave the window {1}, insects will come in."}
+  ,{type:"fb", s:"落(お)としてしまって、スマホの画面(がめん)が{1}てしまいました。",
+     a:["壊(こわ)れる"],
+     opts:["壊(こわ)れる","開(あ)く","落(お)ちる","直(なお)る"],
+     hint:"You dropped your phone and now its screen is damaged. This intransitive verb describes something becoming broken on its own.",
+     sSrc:"I dropped it and now my phone screen has {1}."}
   ,{type:"match",pairs:[{trg:"点(つ)く",src:"to be attached / to turn on / intransitive"},{trg:"変(か)わる",src:"to change / intransitive"},{trg:"混(ま)ざる",src:"to be mixed / to mingle / intransitive"},{trg:"映(うつ)る",src:"to move / to transfer / to be reflected / intransitive"},{trg:"溜(た)まる",src:"to accumulate / to pile up / intransitive"}]}]
 };
 export default BATCH8_L1;

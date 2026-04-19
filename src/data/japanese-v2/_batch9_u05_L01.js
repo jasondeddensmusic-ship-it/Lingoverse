@@ -69,6 +69,11 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What is 茶碗蒸(ちゃわんむ)し?", opts:["Steamed egg custard","Grilled chicken","Boiled rice","Cut vegetables"], ans:"Steamed egg custard",
      hint:"茶碗(ちゃわん) means tea cup and 蒸(む)し means s.... It is a savory dish."}
+  ,{type:"fb", s:"野菜(やさい)と肉(にく)を{1}で食材(しょくざい)を切(き)ります。",
+    a:["まな板(いた)"],
+    opts:["まな板(いた)","鍋(なべ)","包丁(ほうちょう)","皿(さら)"],
+    hint:"You place ingredients on this flat surface before cutting them. Its name literally means 'fish-cutting board.'",
+    sSrc:"I cut ingredients on a {1} with vegetables and meat."}
   ,{type:"match",pairs:[{trg:"焼(や)く",src:"to grill / to bake / to roast"},{trg:"煮(に)る",src:"to boil / to stew / to simmer"},{trg:"蒸(む)す",src:"to steam"},{trg:"切(き)る",src:"to cut / to chop"}]}]
 };
 export default BATCH9_L1;

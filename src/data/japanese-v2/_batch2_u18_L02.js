@@ -83,6 +83,8 @@ const BATCH2_L_2 = {
 
     {type:"mc", q:"泣(な)かせる vs 泣(な)かれる: what is the difference?", opts:["They mean the same thing","泣(な)かせる = make cry (causative); 泣(な)かれる = be bothered by crying (adversity passive)","泣(な)かせる is polite; 泣(な)かれる is casual","泣(な)かせる is past; 泣(な)かれる is present"], ans:"泣(な)かせる = make cry (causative); 泣(な)かれる = be bothered by crying (adversity passive)",
      hint:"One form is c... (you cause the action); the other is a... p... (you suffer from the action)."},
-  {type:"match",pairs:[{trg:"泣(な)きそう",src:"about to cry / on the verge of tears"}]}]
+  {type:"match",pairs:[{trg:"泣(な)きそう",src:"about to cry / on the verge of tears"}]},
+  {type:"fb", s:"映画(えいが)のラストシーンが観客(かんきゃく)を{1}ました。", a:["泣(な)かせる"], opts:["泣(な)かせる","笑(わら)わせる","驚(おどろ)かせる","困(こま)らせる"], hint:"The causative verb for provoking tears in someone.", sSrc:"The final scene of the film {1} the audience."}
+]
 };
 export default BATCH2_L_2;

@@ -68,7 +68,13 @@ const BATCH10_L1 = {
     ]},
 
     {type:"mc", q:"What makes 悔(くや)しい different from just 'sad'?", opts:["It specifically describes frustration from defeat when you could have done better","It is a polite word for sadness","It means extremely sad","It describes physical pain"], ans:"It specifically describes frustration from defeat when you could have done better",
-     hint:"This emotion is considered positive because it drives self-improvement."}
+     hint:"This emotion is considered positive because it drives self-improvement."},
+    {type:"fb", s:"試合(しあい)に負(ま)けてしまって{1}です。次(つぎ)こそは頑張(がんば)ります。",
+     a:["悔(くや)しい"],
+     opts:["悔(くや)しい","懐(なつ)かしい","恥(はず)かしい","寂(さび)しい"],
+     hint:"You lost the match and feel a burning frustration because you know you could have done better. This i-adjective describes that specific feeling.",
+     sSrc:"I am {1} about losing the match. I will work harder next time."},
+    {type:"match", pairs:[{trg:"懐(なつ)かしい",src:"nostalgic / fondly missed"},{trg:"恥(はず)かしい",src:"embarrassed / shy / ashamed"},{trg:"寂(さび)しい",src:"lonely / lonesome"}]}
   ]
 };
 export default BATCH10_L1;

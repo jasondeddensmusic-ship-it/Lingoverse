@@ -94,6 +94,9 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"誠実(せいじつ) describes someone who is:", opts:["Sincere and honest","Strict and harsh","Quiet and shy","Funny and entertaining"], ans:"Sincere and honest",
      hint:"This quality involves truthfulness and genuine behavior."}
-  ,{type:"match",pairs:[{trg:"道徳(どうとく)",src:"morality / morals"},{trg:"公平(こうへい)",src:"fairness / impartiality"},{trg:"思(おも)いやり",src:"empathy / consideration / compassion"},{trg:"誠実(せいじつ)",src:"sincere / honest / faithful"},{trg:"許(ゆる)す",src:"to forgive / to permit"}]}]
+  ,{type:"match",pairs:[{trg:"道徳(どうとく)",src:"morality / morals"},{trg:"公平(こうへい)",src:"fairness / impartiality"},{trg:"思(おも)いやり",src:"empathy / consideration / compassion"},{trg:"誠実(せいじつ)",src:"sincere / honest / faithful"},{trg:"許(ゆる)す",src:"to forgive / to permit"}]},
+  {type:"fb", s:"社会(しゃかい)において{1}を守(まも)ることは大切(たいせつ)です。", a:["正義(せいぎ)"], opts:["正義(せいぎ)","倫理(りんり)","義務(ぎむ)","道徳(どうとく)"], hint:"The moral principle of what is right and fair in society.", sSrc:"In society, it is important to uphold {1}."},
+  {type:"fb", s:"彼(かれ)は謝(あやま)ったので私(わたし)は{1}ことにしました。", a:["許(ゆる)す"], opts:["許(ゆる)す","尊重(そんちょう)","思(おも)いやり","誠実(せいじつ)"], hint:"The verb for pardoning someone who has wronged you.", sSrc:"He apologised, so I decided to {1} him."}
+]
 };
 export default BATCH6_L1;

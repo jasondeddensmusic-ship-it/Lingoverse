@@ -95,6 +95,16 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is the formal apology hierarchy from casual to most formal?", opts:["ごめん, すみません, もうしわけありません, もうしわけございません","すみません, ごめん, もうしわけ, しつれい","もうしわけ, すみません, ごめん, しつれい","ごめん, しつれい, すみません, もうしわけ"], ans:"ごめん, すみません, もうしわけありません, もうしわけございません",
      hint:"Each level adds formality, from casual among friends to the most formal business apology."}
+  ,{type:"fb", s:"来週(らいしゅう)ご都合(つごう)がよければ、先生(せんせい)のお宅(たく)に{1}てもよいですか？",
+     a:["うかがう"],
+     opts:["うかがう","おめにかかる","もうしあげる","ぞんじあげる"],
+     hint:"You are humbly asking if you may visit the teacher's home next week if they are available. This humble verb covers visiting, asking, and listening.",
+     sSrc:"If you are available next week, may I {1} your home?"}
+  ,{type:"fb", s:"ご不便(ふべん)をおかけして{1}。誠(まこと)に申(もう)し訳(わけ)ありません。",
+     a:["もうしわけございません"],
+     opts:["もうしわけございません","おそれいります","ごぶさたしております","おかげさまで"],
+     hint:"You caused the customer inconvenience and are offering the most formal possible apology. This set phrase is the highest level of formal apology in Japanese.",
+     sSrc:"I am {1} for the inconvenience I have caused you."}
   ,{type:"match",pairs:[{trg:"はいけんする",src:"to see / to look (humble)"},{trg:"さしあげる",src:"to give (humble, to a superior)"},{trg:"おめにかかる",src:"to meet (humble)"},{trg:"ぞんじあげる",src:"to know (humble)"},{trg:"うかがう",src:"to ask / to visit / to listen (humble)"},{trg:"おいでになる",src:"to come / to go / to be (honorific)"}]}]
 };
 export default BATCH8_L1;

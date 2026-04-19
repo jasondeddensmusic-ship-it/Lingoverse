@@ -79,6 +79,8 @@ const BATCH5_L_1 = {
 
     {type:"mc", q:"てあげる can sound condescending because:", opts:["It implies doing a favor from a superior position","It is always rude","It uses wrong grammar","It is too casual"], ans:"It implies doing a favor from a superior position",
      hint:"Saying 'I did X for you' can sound like you are placing yourself above the other person."}
-  ,{type:"match",pairs:[{trg:"直(なお)す",src:"to fix / to correct / to repair"},{trg:"送(おく)る",src:"to see off / to send / to escort"},{trg:"親切(しんせつ)",src:"kind / helpful / friendly"},{trg:"役(やく)に立(た)つ",src:"to be useful / to be helpful"}]}]
+  ,{type:"match",pairs:[{trg:"直(なお)す",src:"to fix / to correct / to repair"},{trg:"送(おく)る",src:"to see off / to send / to escort"},{trg:"親切(しんせつ)",src:"kind / helpful / friendly"},{trg:"役(やく)に立(た)つ",src:"to be useful / to be helpful"}]},
+  {type:"fb", s:"壊(こわ)れた自転車(じてんしゃ)を{1}てもらいました。", a:["直(なお)す"], opts:["直(なお)す","送(おく)る","役(やく)に立(た)つ","親切(しんせつ)"], hint:"The verb for repairing something that is broken or correcting a mistake.", sSrc:"I had my broken bicycle {1} for me."}
+]
 };
 export default BATCH5_L_1;

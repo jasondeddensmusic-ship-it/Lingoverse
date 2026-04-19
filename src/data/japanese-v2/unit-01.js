@@ -130,10 +130,16 @@ const UNIT_01 = {
        hint:"The standard response to thanks. It literally means 'what have I done?' (implying it was nothing)."},
 
       {type:"fb", s:"コーヒーを{1}。",
-       a:["お願いします"],
-       opts:["お願いします","ありがとう","すみません","さようなら"],
+       a:["お願(ねが)いします"],
+       opts:["お願(ねが)いします","ありがとうございます","すみません","さようなら"],
        hint:"You are making a polite request, like ordering at a cafe. This means 'please.'",
        sSrc:"Coffee, {1}."},
+
+      {type:"fb", s:"朝(あさ)、会社(かいしゃ)に着(つ)いてから同僚(どうりょう)に「{1}」と言(い)います。",
+       a:["おはようございます"],
+       opts:["おはようございます","こんにちは","こんばんは","さようなら"],
+       hint:"This polite morning greeting is used until about 10 AM, and in the entertainment industry it is used at any hour when starting a shift.",
+       sSrc:"When you arrive at work in the morning, you say '{1}' to your colleagues."},
     ]},
 ,BATCH11_L1
 ]};

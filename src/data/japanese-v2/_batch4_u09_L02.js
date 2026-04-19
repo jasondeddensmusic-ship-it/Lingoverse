@@ -122,6 +122,8 @@ const BATCH4_L_2 = {
     {type:"mc", q:"What does カートに入(い)れる mean?",
      opts:["add to shopping cart","remove from cart","buy now","save for later"], ans:"add to shopping cart",
      hint:"Placing an item in your virtual basket before checkout."}
-  ,{type:"match",pairs:[{trg:"注文(ちゅうもん)する",src:"to order (online)"},{trg:"配達(はいたつ)",src:"delivery"},{trg:"荷物(にもつ)",src:"luggage / package"},{trg:"品物(しなもの)",src:"product / goods / item"},{trg:"サイズ",src:"size"},{trg:"レビュー",src:"review (product)"}]},{type:"match",pairs:[{trg:"カート",src:"shopping cart (online)"},{trg:"お届(とど)け先(さき)",src:"delivery address"},{trg:"代引(だいび)き",src:"cash on delivery (COD)"}]}]
+  ,{type:"match",pairs:[{trg:"注文(ちゅうもん)する",src:"to order (online)"},{trg:"配達(はいたつ)",src:"delivery"},{trg:"荷物(にもつ)",src:"luggage / package"},{trg:"品物(しなもの)",src:"product / goods / item"},{trg:"サイズ",src:"size"},{trg:"レビュー",src:"review (product)"}]},{type:"match",pairs:[{trg:"カート",src:"shopping cart (online)"},{trg:"お届(とど)け先(さき)",src:"delivery address"},{trg:"代引(だいび)き",src:"cash on delivery (COD)"}]},
+  {type:"fb", s:"荷物(にもつ)の{1}は明日(あした)の午前中(ごぜんちゅう)に来(く)る予定(よてい)です。", a:["配達(はいたつ)"], opts:["配達(はいたつ)","送料(そうりょう)","注文(ちゅうもん)する","品物(しなもの)"], hint:"The act of bringing ordered goods to your address.", sSrc:"The {1} of the package is scheduled to arrive before noon tomorrow."}
+]
 };
 export default BATCH4_L_2;

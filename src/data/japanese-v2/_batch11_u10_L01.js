@@ -106,6 +106,11 @@ const BATCH11_L1 = {
      opts:["A rabbit making mochi","A man's face","A crab","A tree"],
      ans:"A rabbit making mochi",
      hint:"Japanese tradition sees a different figure in the moon than Western tradition does. It involves an animal and a traditional food."}
+  ,{type:"fb", s:"この{1}には鹿(しか)や狸(たぬき)がいます。散歩(さんぽ)して森林浴(しんりんよく)をしましょう。",
+    a:["森(もり)"],
+    opts:["森(もり)","川(かわ)","海(うみ)","山(やま)"],
+    hint:"This place is full of trees and wildlife like deer and raccoon dogs. The Japanese tradition of forest bathing happens here.",
+    sSrc:"There are deer and raccoon dogs in this {1}. Let's take a walk and do forest bathing."}
   ,{type:"match",pairs:[{trg:"自然(しぜん)",src:"nature"},{trg:"森(もり)",src:"forest"},{trg:"木(き)",src:"tree"},{trg:"石(いし)",src:"stone / rock"},{trg:"星(ほし)",src:"star"},{trg:"月(つき)",src:"moon"}]}]
 };
 export default BATCH11_L1;

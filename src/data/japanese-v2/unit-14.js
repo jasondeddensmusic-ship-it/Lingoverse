@@ -165,6 +165,12 @@ const UNIT_14 = {
   {type:"mc", q:"きっと大丈夫(だいじょうぶ)ですよ means:", opts:["It is probably fine","It is definitely not fine","I am sure it will be fine","Maybe it is fine"], ans:"I am sure it will be fine",
    hint:"きっと is a reassuring word meaning 'surely/certainly' with emotional warmth."},
 
+  {type:"fb", s:"傘(かさ)を持(も)ってきてよかったです。今日(きょう)は{1}でしたね。",
+   a:["雨(あめ)"],
+   opts:["雨(あめ)","晴(は)れ","雪(ゆき)","天気(てんき)"],
+   hint:"You were glad you brought your umbrella. The weather today involved water falling from the sky.",
+   sSrc:"I am glad I brought my umbrella. It was {1} today, was it not."},
+
   {type:"tip", title:"Certainty Scale in Japanese",
    text:"From most to least certain:\n絶対(ぜったい) (absolutely): 絶対行(ぜったいい)く。(I am absolutely going.)\nきっと (surely, ~90%): きっと大丈夫(だいじょうぶ)。(Surely it is fine.)\n多分(たぶん) (probably, ~70%): 多分(たぶん)雨(あめ)だ。(Probably rain.)\nでしょう/だろう (likely): 雨(あめ)でしょう。(It will likely rain.)\nかもしれない (might, ~40%): 雨(あめ)かもしれない。(It might rain.)",
    deepDive:{title:"Combining certainty markers",

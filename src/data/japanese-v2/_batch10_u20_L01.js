@@ -57,6 +57,11 @@ const BATCH10_L1 = {
     ]},
     {type:"mc", q:"What does お目(め)にかかる literally mean?", opts:["To hang upon your eyes","To see your face","To bow at your feet","To hear your voice"], ans:"To hang upon your eyes",
      hint:"This humble verb for 'to meet' puts the speaker in the listener's field of vision."}
+  ,{type:"fb", s:"こちらの資料(しりょう)を{1}ください。",
+    a:["ご覧(らん)になる"],
+    opts:["ご覧(らん)になる","いらっしゃる","なさる","仰(おっ)しゃる"],
+    hint:"You are asking a respected person to look at the materials. This honorific verb means 'to look' and elevates the viewer.",
+    sSrc:"Please {1} these materials."}
   ,{type:"match",pairs:[{trg:"召(め)し上(あ)がる",src:"to eat / to drink (honorific)"},{trg:"おいでになる",src:"to go / to come / to be (honorific)"},{trg:"お目(め)にかかる",src:"to meet (humble)"}]}]
 };
 export default BATCH10_L1;

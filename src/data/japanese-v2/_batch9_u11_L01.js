@@ -69,6 +69,11 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What does 日本語(にほんご)がわかってきました mean?", opts:["I have gradually come to understand Japanese","I understood Japanese completely","I forgot Japanese","I started studying Japanese"], ans:"I have gradually come to understand Japanese",
      hint:"てくる expresses a gradual change approaching the present moment."}
+  ,{type:"fb", s:"この歌(うた)を{1}ますか？有名(ゆうめい)な曲(きょく)ですよ。",
+    a:["知(し)っている"],
+    opts:["知(し)っている","持(も)っている","わかっている","見(み)ている"],
+    hint:"Someone asks if you are familiar with this famous song. The verb means 'to know' and its negative is 知(し)らない.",
+    sSrc:"Do you {1} this song? It is a famous track."}
   ,{type:"match",pairs:[{trg:"持(も)っている",src:"to have / to be holding"},{trg:"知(し)っている",src:"to know"},{trg:"〜ていく",src:"to go on doing / to start doing"}]}]
 };
 export default BATCH9_L1;

@@ -69,6 +69,11 @@ const BATCH9_L1 = {
 
     {type:"mc", q:"What should you do in a Japanese fitting room before trying on clothes?", opts:["Use a face cover to protect clothes from makeup","Take a selfie","Ask for a different size","Remove all accessories"], ans:"Use a face cover to protect clothes from makeup",
      hint:"Staff often hand you a フェイスカバー to prevent cosmetics from transferring to garments."}
+  ,{type:"fb", s:"この服(ふく)は私(わたし)に{1}ますか？",
+    a:["似合(にあ)う"],
+    opts:["似合(にあ)う","流行(はや)る","着(き)る","切(き)る"],
+    hint:"You are asking the shop assistant whether this piece of clothing looks good on you. This verb means 'to suit.'",
+    sSrc:"Does this clothing {1} me?"}
   ,{type:"match",pairs:[{trg:"ジャケット",src:"jacket"},{trg:"スカート",src:"skirt"},{trg:"コート",src:"coat / overcoat"},{trg:"布(ぬの)",src:"cloth / fabric"}]}]
 };
 export default BATCH9_L1;

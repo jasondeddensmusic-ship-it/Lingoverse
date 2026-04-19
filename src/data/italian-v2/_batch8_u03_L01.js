@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u03l_b8_1", title:"Le feste in famiglia", icon:"🎂
  opts:["Look each person in the eyes","Close your eyes","Hold the glass with two hands","Say your name"],
  ans:"Look each person in the eyes",
  hint:"Not doing this is considered bad luck, similar to a superstition in many European countries."}
-,{type:"match",pairs:[{trg:"il compleanno",src:"the birthday"},{trg:"il matrimonio",src:"the wedding / marriage"},{trg:"il brindisi",src:"the toast (celebratory)"},{trg:"riunirsi",src:"to gather / to get together"},{trg:"sorprendere",src:"to surprise"}]}]};
+,{type:"match",pairs:[{trg:"il compleanno",src:"the birthday"},{trg:"il matrimonio",src:"the wedding / marriage"},{trg:"il brindisi",src:"the toast (celebratory)"},{trg:"riunirsi",src:"to gather / to get together"},{trg:"sorprendere",src:"to surprise"}]},{type:"fb",s:"Hanno fatto {1} per festeggiare la vittoria della squadra.",a:["il brindisi"],opts:["il brindisi","il ricordo","il regalo","il matrimonio"],hint:"A celebratory gesture where glasses are raised and clinked together, often accompanied by a short speech.",sSrc:"They made {1} to celebrate the team victory."}]};
 export default BATCH8_L1;

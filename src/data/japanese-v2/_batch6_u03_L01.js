@@ -100,6 +100,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"物差(ものさ)し is used for:", opts:["Measuring length or drawing lines","Cutting paper","Erasing mistakes","Writing notes"], ans:"Measuring length or drawing lines",
      hint:"This tool helps you measure things or draw straight l...."}
-  ,{type:"match",pairs:[{trg:"のり",src:"glue"},{trg:"物差(ものさ)し",src:"ruler"},{trg:"筆箱(ふでばこ)",src:"pencil case"},{trg:"一枚(いちまい)",src:"one (flat thin object)"},{trg:"引(ひ)く",src:"to draw (a line) / to pull"},{trg:"押(お)す",src:"to push / to press"}]}]
+  ,{type:"match",pairs:[{trg:"のり",src:"glue"},{trg:"物差(ものさ)し",src:"ruler"},{trg:"筆箱(ふでばこ)",src:"pencil case"},{trg:"一枚(いちまい)",src:"one (flat thin object)"},{trg:"引(ひ)く",src:"to draw (a line) / to pull"},{trg:"押(お)す",src:"to push / to press"}]},
+  {type:"fb", s:"間違(まちが)えたので{1}で消(け)しました。", a:["消(け)しゴム"], opts:["消(け)しゴム","鉛筆(えんぴつ)","はさみ","のり"], hint:"The small rubber tool used to remove pencil marks from paper.", sSrc:"Because I made a mistake, I erased it with a {1}."}
+]
 };
 export default BATCH6_L1;

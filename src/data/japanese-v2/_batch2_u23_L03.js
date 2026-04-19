@@ -87,6 +87,7 @@ const BATCH2_L_3 = {
 
     {type:"fb", s:"健康(けんこう)のために野菜(やさい)を食(た)べる{1}にしています。\n(I make sure to eat vegetables for my health.)", a:"よう", opts:["よう","こと","はず","わけ"], sSrc:"I make sure to eat vegetables for my health.",
      hint:"The pattern for describing deliberate effort to maintain a habit."},
-  ]
+  {type:"fb", s:"レポートの{1}は金曜日(きんようび)の午後(ごご)五時(ごじ)です。", a:["締(し)め切(き)り"], opts:["締(し)め切(き)り","〜はず","〜ところ","〜わけ"], hint:"The final date and time by which work must be submitted.", sSrc:"The {1} for the report is Friday at 5 p.m."}
+]
 };
 export default BATCH2_L_3;

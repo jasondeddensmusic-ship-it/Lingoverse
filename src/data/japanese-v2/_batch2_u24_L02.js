@@ -83,6 +83,8 @@ const BATCH2_L_2 = {
 
     {type:"mc", q:"をふまえて differs from にもとづいて because:", opts:["They are identical","をふまえて implies actively building upon past knowledge; にもとづいて simply states a foundation","をふまえて is casual; にもとづいて is formal","をふまえて is for negatives only"], ans:"をふまえて implies actively building upon past knowledge; にもとづいて simply states a foundation",
      hint:"踏(ふ)まえて (step u...) is more dynamic than 基(もと)づいて (be based on). One a... builds; the other s... references."},
-  {type:"match",pairs:[{trg:"耐震(たいしん)",src:"earthquake resistance / seismic resistance"}]}]
+  {type:"match",pairs:[{trg:"耐震(たいしん)",src:"earthquake resistance / seismic resistance"}]},
+  {type:"fb", s:"この建物(たてもの)は最新(さいしん)の{1}設計(せっけい)で建(た)てられています。", a:["耐震(たいしん)"], opts:["耐震(たいしん)","すなわち","〜にもとづいて","〜ことから"], hint:"The engineering property that allows a building to withstand seismic shaking.", sSrc:"This building was constructed with the latest {1} design."}
+]
 };
 export default BATCH2_L_2;

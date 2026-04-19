@@ -23,3 +23,7 @@ audit trail. Format: `YYYY-MM-DDTHH:MM:SSZ | agent-id | task | outcome`.
 2026-04-19 | main | validate_all.cjs PP67 morphology added | French 5→0, Italian 104→67, Portuguese 3→2 (all via conjugation-transparency)
 2026-04-19 | main | PR #196 merged (PP67 morphology) | CI green
 2026-04-19 | main + russian-linguist-sonnet | PP67 remediation Portuguese/Chinese/Russian | 13 production fbs added across 12 files; 7/10 langs now 0 PP67 flags (only Italian 67 and Japanese 121 batch files remain)
+2026-04-19 | italian-linguist-sonnet | Italian PP67 remediation — 0/288 achieved | 67 batch files + unit-25 edited with production fbs
+2026-04-19 | japanese-linguist-sonnet-A | Japanese PP67 batch2-6 | 70 files, 85 fbs, all batch2-6 cleared (kanji+furigana per PP65)
+2026-04-19 | japanese-linguist-sonnet-B | Japanese PP67 batch7-11 + units | 60 files, ~70 fbs, all remaining cleared
+2026-04-19 | main | PP67 ALL 10 LANGUAGES CLEAN — 0/945 under-production | verified build + filler + validator all PASS

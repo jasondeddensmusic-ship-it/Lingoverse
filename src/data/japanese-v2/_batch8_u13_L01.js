@@ -95,6 +95,16 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does 寄(よ)り道(みち)する mean?", opts:["To stop by somewhere on the way","To get lost","To take a shortcut","To walk straight"], ans:"To stop by somewhere on the way",
      hint:"Parents often tell children not to do this when they should come straight home."}
+  ,{type:"fb", s:"次(つぎ)の駅(えき)で地下鉄(ちかてつ)を{1}てバスに乗(の)ります。",
+     a:["降(お)りる"],
+     opts:["降(お)りる","乗(の)る","乗(の)り換(か)える","飛(と)び乗(の)る"],
+     hint:"At the next station you step off the subway and board a bus. This intransitive verb means 'to get off' or 'to disembark.'",
+     sSrc:"I will get off the subway at the next station and take a bus."}
+  ,{type:"fb", s:"初(はじ)めて来(き)た街(まち)で道(みち)に{1}てしまいました。",
+     a:["迷(まよ)う"],
+     opts:["迷(まよ)う","突(つ)き当(あ)たる","寄(よ)り道(みち)する","通(とお)り過(す)ぎる"],
+     hint:"It was your first time in this town and you could not find your way. This verb means 'to get lost.'",
+     sSrc:"I ended up {1} in a town I had never been to before."}
   ,{type:"match",pairs:[{trg:"通(とお)り過(す)ぎる",src:"to pass by / to go past"},{trg:"飛(と)び乗(の)る",src:"to jump on (a departing vehicle)"},{trg:"突(つ)き当(あ)たる",src:"to reach the end / to come to a dead end"},{trg:"近道(ちかみち)",src:"shortcut"}]}]
 };
 export default BATCH8_L1;

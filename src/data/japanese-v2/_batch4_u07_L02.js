@@ -122,6 +122,8 @@ const BATCH4_L_2 = {
     {type:"mc", q:"歯磨(はみが)き means:",
      opts:["brushing teeth","washing face","combing hair","taking a bath"], ans:"brushing teeth",
      hint:"T... + polishing, the hygiene act done after meals."}
-  ,{type:"match",pairs:[{trg:"寝(ね)る",src:"to sleep / go to bed"},{trg:"シャワーを浴(あ)びる",src:"to take a shower"},{trg:"歯磨(はみが)き",src:"brushing teeth"},{trg:"化粧(けしょう)する",src:"to put on makeup"},{trg:"出(で)かける",src:"to go out / leave home"},{trg:"帰(かえ)る",src:"to return / go home"}]},{type:"match",pairs:[{trg:"散歩(さんぽ)する",src:"to take a walk"},{trg:"休(やす)む",src:"to rest / take a day off"}]}]
+  ,{type:"match",pairs:[{trg:"寝(ね)る",src:"to sleep / go to bed"},{trg:"シャワーを浴(あ)びる",src:"to take a shower"},{trg:"歯磨(はみが)き",src:"brushing teeth"},{trg:"化粧(けしょう)する",src:"to put on makeup"},{trg:"出(で)かける",src:"to go out / leave home"},{trg:"帰(かえ)る",src:"to return / go home"}]},{type:"match",pairs:[{trg:"散歩(さんぽ)する",src:"to take a walk"},{trg:"休(やす)む",src:"to rest / take a day off"}]},
+  {type:"fb", s:"朝(あさ)ごはんの後(あと)に{1}をするのを忘(わす)れないでください。", a:["歯磨(はみが)き"], opts:["歯磨(はみが)き","シャワーを浴(あ)びる","化粧(けしょう)する","起(お)きる"], hint:"The oral hygiene routine done with a toothbrush and paste.", sSrc:"Please don't forget to do {1} after breakfast."}
+]
 };
 export default BATCH4_L_2;

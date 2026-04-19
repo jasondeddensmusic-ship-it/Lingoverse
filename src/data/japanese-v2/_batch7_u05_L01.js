@@ -133,6 +133,11 @@ const BATCH7_L1 = {
      opts:["味(あじ)","色(いろ)","形(かたち)","サイズ"],
      hint:"The cook is asking about how the food tastes. This noun means 'flavor.'",
      sSrc:"How is the {1}? Is it just right?"}
+  ,{type:"fb", s:"この魚(さかな)は{1}でじっくり焼(や)くとおいしいです。",
+     a:["鍋(なべ)"],
+     opts:["鍋(なべ)","皿(さら)","茶碗(ちゃわん)","箸(はし)"],
+     hint:"Cooking this fish slowly over low heat in a heavy pot makes it delicious. This kitchen item is a round cooking vessel.",
+     sSrc:"This fish is delicious when grilled slowly in a {1}."}
   ,{type:"match",pairs:[{trg:"台所(だいどころ)",src:"kitchen"},{trg:"レシピ",src:"recipe"}]}]
 };
 export default BATCH7_L1;

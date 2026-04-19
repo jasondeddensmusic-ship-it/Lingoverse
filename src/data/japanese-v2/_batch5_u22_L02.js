@@ -79,6 +79,8 @@ const BATCH5_L_2 = {
 
     {type:"mc", q:"恩(おん) describes:", opts:["A moral debt of gratitude that should be repaid","A religious ritual","A type of music","A financial debt"], ans:"A moral debt of gratitude that should be repaid",
      hint:"This deep concept drives Japanese social reciprocity and sense of obligation."}
-  ,{type:"match",pairs:[{trg:"恵(めぐ)まれる",src:"to be blessed with / to be fortunate to have"},{trg:"かしこまりました",src:"certainly / understood (formal acknowledgment)"},{trg:"お礼(れい)",src:"thanks / gratitude / expression of thanks"},{trg:"光栄(こうえい)",src:"honor / privilege"},{trg:"恩(おん)",src:"debt of gratitude / favor owed / grace"}]}]
+  ,{type:"match",pairs:[{trg:"恵(めぐ)まれる",src:"to be blessed with / to be fortunate to have"},{trg:"かしこまりました",src:"certainly / understood (formal acknowledgment)"},{trg:"お礼(れい)",src:"thanks / gratitude / expression of thanks"},{trg:"光栄(こうえい)",src:"honor / privilege"},{trg:"恩(おん)",src:"debt of gratitude / favor owed / grace"}]},
+  {type:"fb", s:"自然(しぜん)豊(ゆた)かな環境(かんきょう)に{1}て育(そだ)ちました。", a:["恵(めぐ)まれる"], opts:["恵(めぐ)まれる","〜てさしあげる","〜ていただく","〜てくださる"], hint:"The passive verb for being fortunate enough to have or receive something wonderful.", sSrc:"I grew up {1} with a nature-rich environment."}
+]
 };
 export default BATCH5_L_2;

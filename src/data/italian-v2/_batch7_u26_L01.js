@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u26l_b7_1", title:"Il diritto penale", icon:"\u2696\
  {trg:"l'assoluzione", src:"acquittal"},
  {trg:"la testimonianza", src:"testimony"}
 ]}
-]};
+,{type:"fb",s:"Il giudice ha letto {1} davanti alla corte.",a:["la sentenza"],opts:["la sentenza","la prova","la pena","il reato"],hint:"The official decision or ruling that a judge delivers at the end of a trial.",sSrc:"The judge read {1} in front of the court."}]};
 export default BATCH7_L1;

@@ -94,6 +94,9 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"事実(じじつ) means:", opts:["Fact or truth","Opinion","Guess","Feeling"], ans:"Fact or truth",
      hint:"This word describes verified reality, not speculation."}
-  ,{type:"match",pairs:[{trg:"原因(げんいん)",src:"cause / origin (of a problem)"},{trg:"事実(じじつ)",src:"fact / truth / reality"},{trg:"意見(いけん)",src:"opinion / view"},{trg:"大切(たいせつ)",src:"important / precious / valuable"},{trg:"考(かんが)える",src:"to think / to consider"},{trg:"決(き)める",src:"to decide / to determine"}]}]
+  ,{type:"match",pairs:[{trg:"原因(げんいん)",src:"cause / origin (of a problem)"},{trg:"事実(じじつ)",src:"fact / truth / reality"},{trg:"意見(いけん)",src:"opinion / view"},{trg:"大切(たいせつ)",src:"important / precious / valuable"},{trg:"考(かんが)える",src:"to think / to consider"},{trg:"決(き)める",src:"to decide / to determine"}]},
+  {type:"fb", s:"火事(かじ)の{1}を調(しら)べています。", a:["原因(げんいん)"], opts:["原因(げんいん)","結果(けっか)","影響(えいきょう)","理由(りゆう)"], hint:"The factor that directly causes an event or problem to occur.", sSrc:"We are investigating the {1} of the fire."},
+  {type:"fb", s:"みんなで相談(そうだん)して方針(ほうしん)を{1}ました。", a:["決(き)める"], opts:["決(き)める","影響(えいきょう)","考(かんが)える","事実(じじつ)"], hint:"The verb for making a decision or settling on a course of action.", sSrc:"We consulted together and {1} on a policy."}
+]
 };
 export default BATCH6_L1;

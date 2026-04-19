@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u08l_b7_1", title:"Gioielli e accessori", icon:"\u{1
  {trg:"il diamante", src:"diamond"},
  {trg:"il portafoglio", src:"wallet"}
 ]}
-,{type:"match",pairs:[{trg:"la borsa",src:"the handbag / purse"},{trg:"indossare",src:"to wear"}]}]};
+,{type:"match",pairs:[{trg:"la borsa",src:"the handbag / purse"},{trg:"indossare",src:"to wear"}]},{type:"fb",s:"Ha comprato {1} di perle per sua madre.",a:["la collana"],opts:["la collana","il braccialetto","il diamante","il portafoglio"],hint:"A jewelry item worn around the neck, often made of pearls or gold.",sSrc:"She bought a {1} of pearls for her mother."}]};
 export default BATCH7_L1;

@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u18l_b8_1", title:"Disastri e clima", icon:"🌊", x
  opts:["Etna, Stromboli, and Vesuvio","Etna, Monte Bianco, and Dolomiti","Vesuvio, Stromboli, and Cervino","Etna, Amiata, and Stromboli"],
  ans:"Etna, Stromboli, and Vesuvio",
  hint:"One is in Sicily, one in the Aeolian Islands, and one near Naples. The last one famously destroyed Pompeii."}
-]};
+,{type:"fb",s:"I volontari hanno coordinato {1} dopo il terremoto.",a:["il soccorso"],opts:["il soccorso","il dissesto","la frana","la siccita"],hint:"Emergency assistance and rescue operations carried out after a natural disaster.",sSrc:"Volunteers coordinated {1} after the earthquake."}]};
 export default BATCH8_L1;

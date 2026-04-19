@@ -106,6 +106,11 @@ const BATCH11_L1 = {
      opts:["Wearing white gloves","Wearing a suit","Wearing sunglasses","Wearing a hat"],
      ans:"Wearing white gloves",
      hint:"This is a famous detail about Japanese professional drivers that surprises many visitors."}
+  ,{type:"fb", s:"近所(きんじょ)に面白(おもしろ)い{1}がいくつもあります。パン屋(や)や花屋(はなや)も近(ちか)いです。",
+    a:["店(みせ)"],
+    opts:["店(みせ)","仕事(しごと)","学生(がくせい)","会社員(かいしゃいん)"],
+    hint:"In the neighborhood there are several interesting places to shop. This word means 'shop' or 'store.'",
+    sSrc:"There are several interesting {1} in the neighborhood. There is even a bakery and florist nearby."}
   ,{type:"match",pairs:[{trg:"仕事(しごと)",src:"work / job"},{trg:"先生(せんせい)",src:"teacher"},{trg:"医者(いしゃ)",src:"doctor"},{trg:"エンジニア",src:"engineer"},{trg:"店(みせ)",src:"shop / store"},{trg:"料理人(りょうりにん)",src:"cook / chef"}]}]
 };
 export default BATCH11_L1;

@@ -83,6 +83,8 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"結論(けつろん)として signals:", opts:["The beginning of an essay","A change of topic","The conclusion of an argument","A question"], ans:"The conclusion of an argument",
      hint:"This phrase wraps up a logical a..., drawing everything together into a final statement."},
-  {type:"match",pairs:[{trg:"研究(けんきゅう)",src:"research / study / investigation"}]}]
+  {type:"match",pairs:[{trg:"研究(けんきゅう)",src:"research / study / investigation"}]},
+  {type:"fb", s:"高齢化(こうれいか)が進(すす)むと{1}が不足(ふそく)します。", a:["労働力(ろうどうりょく)"], opts:["労働力(ろうどうりょく)","きっかけ","はじめに","言(い)い換(か)えれば"], hint:"The total pool of people available to work in an economy.", sSrc:"As the population ages, {1} will fall short."}
+]
 };
 export default BATCH2_L_1;

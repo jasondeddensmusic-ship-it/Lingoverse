@@ -106,6 +106,11 @@ const BATCH11_L1 = {
      opts:["Naive or lenient","Angry","Careful","Expensive"],
      ans:"Naive or lenient",
      hint:"Besides describing sweet food, this adjective has a figurative meaning when used about people or situations."}
+  ,{type:"fb", s:"食(た)べ終(お)わりましたか？では、{1}をお願(ねが)いします。",
+    a:["お勘定(かんじょう)"],
+    opts:["お勘定(かんじょう)","おかわり","メニュー","注文(ちゅうもん)"],
+    hint:"You have finished eating and now need to settle up. This noun means 'the bill' or 'check.'",
+    sSrc:"Have you finished eating? Then please bring the {1}."}
   ,{type:"match",pairs:[{trg:"朝(あさ)ごはん",src:"breakfast"},{trg:"昼(ひる)ごはん",src:"lunch"},{trg:"晩(ばん)ごはん",src:"dinner"},{trg:"メニュー",src:"menu"},{trg:"注文(ちゅうもん)",src:"order (at restaurant)"},{trg:"お勘定(かんじょう)",src:"the bill / check"}]}]
 };
 export default BATCH11_L1;

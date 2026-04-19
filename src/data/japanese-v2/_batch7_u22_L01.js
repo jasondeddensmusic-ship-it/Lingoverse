@@ -127,6 +127,11 @@ const BATCH7_L1 = {
      opts:["励(はげ)ま","裏切(うらぎ)","頼(たよ)","許(ゆる)"],
      hint:"Friends cheered you up and you felt better. This verb means 'to encourage.'",
      sSrc:"I was {1} by friends and felt better."}
+  ,{type:"fb", s:"Aさんへの{1}として、助(たす)けてもらったお礼(れい)に食事(しょくじ)をおごりました。",
+     a:["恩返(おんがえ)し"],
+     opts:["恩返(おんがえ)し","仲直(なかなお)り","絆(きずな)","思(おも)いやり"],
+     hint:"You treated someone to a meal to thank them for their help. This noun refers to repaying a kindness or returning a favor.",
+     sSrc:"As {1} to A-san, I treated them to a meal to thank them for their help."}
   ,{type:"match",pairs:[{trg:"付(つ)き合(あ)い",src:"association / social relationship / dating"}]}]
 };
 export default BATCH7_L1;

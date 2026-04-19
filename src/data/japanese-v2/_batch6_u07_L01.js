@@ -94,6 +94,8 @@ const BATCH6_L1 = {
 
     {type:"mc", q:"運(はこ)ぶ means:", opts:["To carry or transport","To push","To pull","To ride"], ans:"To carry or transport",
      hint:"This verb describes moving objects from one place to another."}
-  ,{type:"match",pairs:[{trg:"通勤(つうきん)",src:"commuting (to work)"},{trg:"切符(きっぷ)",src:"ticket"},{trg:"ホーム",src:"platform (train station)"},{trg:"混(こ)む",src:"to be crowded"},{trg:"運(はこ)ぶ",src:"to carry / to transport"},{trg:"回(まわ)す",src:"to turn / to spin / to rotate"}]}]
+  ,{type:"match",pairs:[{trg:"通勤(つうきん)",src:"commuting (to work)"},{trg:"切符(きっぷ)",src:"ticket"},{trg:"ホーム",src:"platform (train station)"},{trg:"混(こ)む",src:"to be crowded"},{trg:"運(はこ)ぶ",src:"to carry / to transport"},{trg:"回(まわ)す",src:"to turn / to spin / to rotate"}]},
+  {type:"fb", s:"駅(えき)の自動販売機(じどうはんばいき)で{1}を買(か)いました。", a:["切符(きっぷ)"], opts:["切符(きっぷ)","通勤(つうきん)","ホーム","乗(の)り換(か)える"], hint:"The paper or card proof of payment that allows you to board a train.", sSrc:"I bought a {1} at the vending machine at the station."}
+]
 };
 export default BATCH6_L1;

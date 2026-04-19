@@ -122,6 +122,8 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What is a 鍋(なべ)?",
      opts:["pot / hot pot","knife","pan","bowl"], ans:"pot / hot pot",
      hint:"Both a cooking vessel and a popular winter group meal in Japan."}
-  ,{type:"match",pairs:[{trg:"焼(や)く",src:"to grill / to bake / to roast"},{trg:"切(き)る",src:"to cut"},{trg:"鍋(なべ)",src:"pot / saucepan"},{trg:"フライパン",src:"frying pan"},{trg:"包丁(ほうちょう)",src:"kitchen knife"},{trg:"まな板(いた)",src:"cutting board"}]},{type:"match",pairs:[{trg:"味(あじ)",src:"flavor / taste"},{trg:"味噌(みそ)",src:"miso (fermented soybean paste)"}]}]
+  ,{type:"match",pairs:[{trg:"焼(や)く",src:"to grill / to bake / to roast"},{trg:"切(き)る",src:"to cut"},{trg:"鍋(なべ)",src:"pot / saucepan"},{trg:"フライパン",src:"frying pan"},{trg:"包丁(ほうちょう)",src:"kitchen knife"},{trg:"まな板(いた)",src:"cutting board"}]},{type:"match",pairs:[{trg:"味(あじ)",src:"flavor / taste"},{trg:"味噌(みそ)",src:"miso (fermented soybean paste)"}]},
+  {type:"fb", s:"とんかつを作(つく)るには油(あぶら)で肉(にく)を{1}ます。", a:["揚(あ)げる"], opts:["揚(あ)げる","焼(や)く","煮(に)る","蒸(む)す"], hint:"The cooking method that submerges food in hot oil until crispy.", sSrc:"To make tonkatsu, you {1} the meat in oil."}
+]
 };
 export default BATCH4_L_1;
