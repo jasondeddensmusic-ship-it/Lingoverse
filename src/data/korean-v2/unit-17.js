@@ -320,6 +320,74 @@ const UNIT_17 =
 {type:"match",pairs:[{nl:"-다가",en:"while doing, then switched"},{nl:"N밖에 + neg",en:"nothing but (emphatic)"},{nl:"-았/었었",en:"used to (discontinued)"},{nl:"에 의해",en:"by (agent in passive)"}]},
 {type:"drag_fill",s:"한국 드라마를 보{1} 한국어에 관심이 생겼어요. 한국어{2} 공부 안 해요. 드라마를 보면 볼{3} 실력이 늘{4}.\n(While watching K-dramas, I got interested. I study nothing but Korean. The more I watch, the more my skills improve.)",blanks:{"1":"다가","2":"밖에","3":"수록","4":"더라고요"},pool:["다가","밖에","수록","더라고요","면서","만","거든요","네요"],hint:"Interrupted action + nothing but + the more + I found that. Four patterns."},
 {type:"match",pairs:[{trg:"끊기다",src:"to be cut off, disconnected"},{trg:"낮추다",src:"to lower, to reduce"},{trg:"높이다",src:"to raise, to increase"},{trg:"보도하다",src:"to report (news)"},{trg:"체포하다",src:"to arrest"},{trg:"개최하다",src:"to hold (an event)"}]},{type:"match",pairs:[{trg:"실시하다",src:"to implement, to carry out"},{trg:"인기를 얻다",src:"to gain popularity"},{trg:"출연하다",src:"to appear (on a show)"},{trg:"예전에",src:"in the past, before"},{trg:"시청자",src:"viewer, audience"}]}]},
+
+// ── L11: B1 접속사와 동사 (Discourse Connectors & Core Verbs) ──
+{id:"kov2_u17l_disc",title:"B1 접속사와 동사",icon:"🔗",xp:20,board:true,steps:[
+{type:"intro",title:"B1 Discourse Connectors and Core Verbs",desc:"Learn contrast and additive connectors that structure Korean essays and news writing.\n하지만, 그러나, 비록, 또한, 게다가\nPlus two core B1 verbs: 설명하다 and 결정하다.\nEssential for TOPIK II reading and writing tasks.",goals:["Use 5 discourse connectors accurately","Distinguish formal vs. informal contrast markers","Use 설명하다 and 결정하다 naturally","Structure multi-sentence arguments"]},
+
+{type:"teach",trg:"하지만",src:"but / however (spoken)",pos:"conj",gender:null,
+ note:"Contrasts two clauses. Used at the start of the second sentence.\n어렵다. 하지만 재미있다.\nReady for any CEFR-level conversation.\nEquivalent to English 'but' or 'however.'",
+ example:"A: 한국어 공부가 어때요?\nB: 어려워요. 하지만 정말 재미있어요.\nA: 저도 그래요. 하지만 시험이 걱정돼요.\nB: 걱정하지 마세요. 잘 할 수 있어요!",
+ exampleSrc:"A: How is your Korean study going?\nB: It's hard. But it's really interesting.\nA: Same here. But I'm worried about the exam.\nB: Don't worry. You can do it!",
+ funFact:"하지만 comes from 하지 (not doing) + 만 (only/but). Literally 'but only...' - it evolved into the standard spoken contrast connector."},
+
+{type:"teach",trg:"그러나",src:"however / but (formal written)",pos:"conj",gender:null,
+ note:"Formal contrast connector. Used in essays, news, and written Korean.\nDo not use in casual conversation.\n그래서 → result. 그러나 → contrast.\nSynonym of 하지만 in formal registers.",
+ example:"A: 기사 잘 썼어요?\nB: 경제 문제를 설명했어요. 그러나 결론이 약해요.\nA: 그러나를 어디에 쓰면 좋아요?\nB: 글에서 두 가지 의견을 대조할 때 써요.",
+ exampleSrc:"A: Did you write the article well?\nB: I explained the economic issue. However, the conclusion is weak.\nA: Where is it best to use 그러나?\nB: In writing, when contrasting two viewpoints.",
+ funFact:"그러나 is one of the three most common connectors in TOPIK II writing tasks. Alongside 따라서 and 또한, it marks advanced essay structure."},
+
+{type:"teach",trg:"비록",src:"although / even though",pos:"conj",gender:null,
+ note:"Concessive connector. Always followed by -(으)ㄹ지라도, -아/어도, or -지만.\n비록 어렵지만 포기하지 않아요.\n= Although it's hard, I don't give up.",
+ example:"A: 경제 상황이 어때요?\nB: 비록 문제가 있지만 사회가 발전하고 있어요.\nA: 비록은 어떻게 써요?\nB: 비록 + [상황] + -지만 이에요.",
+ exampleSrc:"A: How is the economic situation?\nB: Although there are problems, society is developing.\nA: How do you use 비록?\nB: It is: 비록 + [situation] + -지만.",
+ funFact:"비록 is a Sino-Korean-era concessive connector. It signals that the speaker acknowledges a negative fact but still holds a contrasting view. Mastering it marks a clear B1-B2 writing jump."},
+
+{type:"teach",trg:"또한",src:"also / moreover / in addition",pos:"adv",gender:null,
+ note:"Additive connector linking two parallel points. Used in formal speech and writing.\n그리고 = casual 'and'. 또한 = formal 'moreover'.\n또한 is a TOPIK writing staple.",
+ example:"A: 뉴스 기사를 어떻게 써요?\nB: 사건을 설명해요. 또한 사회 영향도 써야 해요.\nA: 또한 vs 그리고는 어때요?\nB: 또한이 더 격식적이에요.",
+ exampleSrc:"A: How do you write a news article?\nB: You explain the incident. Moreover, you also need to write about the social impact.\nA: What about 또한 vs 그리고?\nB: 또한 is more formal.",
+ funFact:"Sino-Korean: 또(again/also) + 한(one/the same). A single compact word that carries the weight of 'furthermore' in English essays."},
+
+{type:"teach",trg:"게다가",src:"besides / on top of that / moreover",pos:"adv",gender:null,
+ note:"Additive connector with an escalation nuance.\nAdds a second point that strengthens the first.\n경제 문제가 있어요. 게다가 정치 문제도 있어요.\n= There are economic problems. On top of that, political ones too.",
+ example:"A: 왜 그 사건이 뉴스에 많이 나와요?\nB: 사회 문제예요. 게다가 환경 문제도 포함돼 있어요.\nA: 아, 두 가지 문제가 있군요.\nB: 맞아요. 게다가는 '더 나쁜 점을 추가할 때' 써요.",
+ exampleSrc:"A: Why is that incident covered so much in the news?\nB: It is a social issue. On top of that, it also involves an environmental issue.\nA: Ah, so there are two problems.\nB: Right. 게다가 is used to add a point that makes the situation even more so.",
+ funFact:"게다가 comes from 것 (thing) + 에다가 (to/onto). Literally 'onto that thing.' It always piles on an additional, often escalating, point."},
+
+{type:"teach",trg:"설명하다",src:"to explain",pos:"verb",gender:null,
+ note:"Sino-Korean: 설(explain/說) + 명(clear/明) + 하다.\nExplain something to someone.\n선생님께 설명해요 = I explain to the teacher.\n이유를 설명하다 = to explain the reason.",
+ example:"A: 이 기사가 어려워요.\nB: 제가 설명해 드릴게요.\nA: 감사해요. 잘 설명해 줘요.\nB: 사회 문제를 쉽게 설명하려고 해요.",
+ exampleSrc:"A: This article is difficult.\nB: I will explain it to you.\nA: Thank you. Please explain it well.\nB: I will try to explain the social issue in a simple way.",
+ funFact:"설명하다 is one of the top 500 most-used Korean verbs. In TOPIK reading tasks, you're often asked to identify 'what the writer explains (설명한다)' as the main purpose."},
+
+{type:"teach",trg:"결정하다",src:"to decide",pos:"verb",gender:null,
+ note:"Sino-Korean: 결(decide/決) + 정(determine/定) + 하다.\nUsed for both personal and formal decisions.\n결정했어요 = I have decided.\n결정: decision (noun).",
+ example:"A: 어떤 뉴스를 볼지 결정했어요?\nB: 정치 뉴스를 보기로 결정했어요.\nA: 왜요?\nB: 환경 문제에 관심이 생겨서 결정했어요.",
+ exampleSrc:"A: Have you decided which news to watch?\nB: I decided to watch political news.\nA: Why?\nB: I became interested in environmental issues and decided.",
+ funFact:"결정하다 vs 정하다: Both mean 'to decide.' 결정하다 is more formal and deliberate; 정하다 is casual and used for simple choices like times and places."},
+
+{type:"tip",title:"Spoken vs. Written Contrast Connectors",text:"Korean has two registers for 'however':\n\nSPOKEN (해요체 / 반말):\n하지만 = but / however\n그런데 = but / by the way\n\nFORMAL WRITTEN (문어체):\n그러나 = however / but\n반면에 = on the other hand\n\nFor B1-B2 writing: use 그러나.\nFor conversation: use 하지만.\n\nThe fastest way to sound more advanced\nin TOPIK 쓰기 is to replace 하지만\nwith 그러나 in your essays.",
+ deepDive:"Full register table for contrast connectors:\n\n하지만: spoken, informal writing, blogs\n그런데: spoken, topic shift, light contrast\n그러나: formal essays, news, academic writing\n반면에: formal, side-by-side comparison\n반면: same, slightly shorter form\n\nAlso note additive connectors by register:\nCAUSAL / SPOKEN: 그래서, 그러니까\nFORMAL: 따라서, 그러므로\n\nADDITIVE / SPOKEN: 그리고\nFORMAL: 또한, 더불어\nESCALATING: 게다가 (neutral-formal)\n\nFor TOPIK II 쓰기 (writing task):\nUse 그러나, 또한, 따라서, 게다가."},
+
+{type:"mc",q:"하지만 is used in which context?",opts:["Formal essay writing","Spoken conversation and informal writing","Academic research papers","News broadcasts only"],ans:"Spoken conversation and informal writing",hint:"하지만 belongs to 해요체 -- the everyday register. Its formal counterpart, 그러나, is saved for essays and news."},
+
+{type:"fb",s:"경제 문제가 심각해요. ___ 해결책도 있어요.\n(The economic problem is serious. ___, there are also solutions.)",a:"하지만",opts:["하지만","또한","게다가","왜냐하면"],hint:"Two contrasting facts: 'serious problem' vs. 'solutions exist'. Which spoken contrast connector fits here?"},
+
+{type:"mc",q:"사회가 발전했다. ___ 환경 문제가 생겼다.\nWhich formal connector fits the blank?",opts:["하지만","왜냐하면","그러나","게다가"],ans:"그러나",hint:"The sentence is in formal written style (-다 ending). Which connector belongs in formal essays and news?"},
+
+{type:"fb",s:"___ 어렵지만 포기하지 않아요.\n(Although it's hard, I don't give up.)",a:"비록",opts:["비록","게다가","또한","그러나"],hint:"This connector signals concession: 'I acknowledge the difficulty, but still...' It always pairs with -지만 or -아도."},
+
+{type:"mc",q:"기사를 썼어요. ___ 사진도 찍었어요.\nWhich connector shows 'in addition'?",opts:["하지만","그러나","비록","또한"],ans:"또한",hint:"Both actions are positive additions. Which formal additive connector links two parallel efforts?"},
+
+{type:"mc",q:"선생님이 문법을 ___ 주셨어요.\n(The teacher ___ the grammar for us.)",opts:["설명하다","결정하다","발전하다","이해하다"],ans:"설명하다",hint:"The teacher made the grammar clear and easy to understand. Which verb means 'to explain'?"},
+
+{type:"mc",q:"어디서 만날지 ___ 해야 해요.\n(We need to ___ where to meet.)",opts:["설명하다","결정하다","참여하다","이해하다"],ans:"결정하다",hint:"You have not yet agreed on a meeting place. A choice needs to be made. Which verb means 'to decide'?"},
+
+{type:"drag_fill",s:"기자가 사건을 {1}. 비록 정보가 적지만 {2} {3}줬어요. {4} 사회 영향도 보도했어요.\n(The reporter ___ the incident. Although there was little information, they ___ explained well. Moreover, they also reported the social impact.)",blanks:{"1":"결정하다","2":"잘","3":"설명해","4":"또한"},pool:["결정하다","잘","설명해","또한","게다가","했어요"],hint:"Decided what to report. Explained clearly despite limited info. Then added social context."},
+
+{type:"match",pairs:[{trg:"하지만",src:"but / however (spoken)"},{trg:"그러나",src:"however / but (formal written)"},{trg:"비록",src:"although / even though"},{trg:"또한",src:"also / moreover"},{trg:"게다가",src:"on top of that / besides"}]},
+]},
 ]};
 
 export default UNIT_17;
