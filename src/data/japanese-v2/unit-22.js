@@ -68,7 +68,7 @@ const UNIT_22 = {
    deepDive:{title:"Why Three Verbs for Giving?",
     text:"English has 'give' and 'receive.' Japanese has three verbs because direction relative to the speaker matters.\n\nImagine yourself at the center of a circle:\n- あげる: arrows going OUT from you (you give, or others give to each other)\n- くれる: arrows coming IN toward you (others give to you)\n- もらう: you PULL something in (you receive)\n\nくれる and もらう describe the same event from different angles:\n友達(ともだち)がくれた (friend gave to me, emphasizes friend's kindness)\n私(わたし)がもらった (I received from friend, emphasizes my receiving)\n\nThis system encodes social awareness and gratitude into the grammar itself."}},
 
-  {type:"fb", s:"誕生日(たんじょうび)に友達(ともだち){1}プレゼントをもらいました。\n(I received a present from my friend for my birthday.)", a:"から", opts:["か���","に","を","で"], sSrc:"I received a present from my friend for my birthday.",
+  {type:"fb", s:"誕生日(たんじょうび)に友達(ともだち){1}プレゼントをもらいました。\n(I received a present from my friend for my birthday.)", a:"から", opts:["から","に","を","で"], sSrc:"I received a present from my friend for my birthday.",
    hint:"The particle marking the source/origin when receiving something from someone."},
 
   {type:"teach", trg:"渡(わた)す", src:"to hand over / to deliver", pos:"verb", gender:null,
@@ -90,7 +90,7 @@ const UNIT_22 = {
 
   {type:"match", pairs:[{trg:"送(おく)る",src:"to send/give"},{trg:"お土産(みやげ)",src:"souvenir"},{trg:"渡(わた)す",src:"to hand over"},{trg:"受(う)ける",src:"to receive (formal)"}]},
 
-  {type:"fb", s:"友達(ともだち)が本(ほん)を{1}ました。\n(My friend gave me a book.)", a:"��れ", opts:["くれ","あげ","もらい","送(おく)り"], sSrc:"My friend gave me a book.",
+  {type:"fb", s:"友達(ともだち)が本(ほん)を{1}ました。\n(My friend gave me a book.)", a:"くれ", opts:["くれ","あげ","もらい","送(おく)り"], sSrc:"My friend gave me a book.",
    hint:"The verb for when someone else gives something TO the speaker. Implies gratitude."},
 
   {type:"mc", q:"お土産(みやげ) is:", opts:["a greeting card","a birthday cake","a souvenir brought back from a trip","a business card"], ans:"a souvenir brought back from a trip",
@@ -138,7 +138,7 @@ const UNIT_22 = {
 
   {type:"teach", trg:"教(おし)える", src:"to teach / to tell / to show", pos:"verb", gender:null,
    note:"Group 2 verb. Covers teaching, informing, and showing the way.\nKanji: 教える. 道(みち)を教(おし)える = give directions.",
-   example:"A: 道(みち)を教(おし)えていただけますか？\nB: まっ���ぐ行(い)って、右(みぎ)に曲(ま)がってください。\nA: いい思(おも)い出(で)ですね。\nB: はい、一生(いっしょう)忘(わす)れません。",
+   example:"A: 道(みち)を教(おし)えていただけますか？\nB: まっすぐ行(い)って、右(みぎ)に曲(ま)がってください。\nA: いい思(おも)い出(で)ですね。\nB: はい、一生(いっしょう)忘(わす)れません。",
    exampleSrc:"A: Could you tell me the way? (polite)\nB: Go straight and turn right.\nA: That is a nice memory.\nB: Yes, I will never forget it.",
    funFact:"教える covers a wider range than English 'teach.' It includes teaching (先生(せんせい)が教(おし)える), telling/informing (住所(じゅうしょ)を教(おし)える, tell the address), and showing directions (道(みち)を教(おし)える). The polite 教(おし)えていただけますか (could you kindly tell me?) is one of the most useful phrases for travelers in Japan."},
 
@@ -151,7 +151,7 @@ const UNIT_22 = {
    hint:"The polite/humble version of てもらう, used when the favor-doer is a superior."},
 
   {type:"teach", trg:"直(なお)す", src:"to fix / to repair / to correct", pos:"verb", gender:null,
-   note:"Group 1 verb. パソコンを直(なお)す = fix a computer.\nKanji: ��す. Also means to correct (writing).",
+   note:"Group 1 verb. パソコンを直(なお)す = fix a computer.\nKanji: 直す. Also means to correct (writing).",
    example:"A: パソコンを直(なお)してもらいました。\nB: 誰(だれ)に直(なお)してもらいましたか？\nA: どうでしたか？\nB: とても良(よ)かったです。",
    exampleSrc:"A: I had my computer fixed.\nB: Who did you have fix it?\nA: How was it?\nB: It was very good.",
    funFact:"直す has two main meanings: repair (broken things) and correct (mistakes). 車(くるま)を直(なお)す (fix a car), 作文(さくぶん)を直(なお)す (correct an essay). The kanji 直 means 'straight/direct,' suggesting making something right again. The related 直(なお)る (naoru) is the intransitive: the computer fixed itself/got fixed."},
@@ -165,7 +165,7 @@ const UNIT_22 = {
   {type:"mc", q:"兄(あに)が宿題(しゅくだい)を手伝(てつだ)ってくれた means:", opts:["I helped my brother with homework","My brother kindly helped me with homework","My brother wants to help","I asked my brother for help"], ans:"My brother kindly helped me with homework",
    hint:"てくれる shows that someone did something for the speaker. It emphasizes their kindness."},
 
-  {type:"match", pairs:[{trg:"てあげる",src:"do for someone"},{trg:"てもらう",src:"have someone do"},{trg:"てくれる",src:"someone does for me"},{trg:"てい��だく",src:"have someone do (polite)"}]},
+  {type:"match", pairs:[{trg:"てあげる",src:"do for someone"},{trg:"てもらう",src:"have someone do"},{trg:"てくれる",src:"someone does for me"},{trg:"ていただく",src:"have someone do (polite)"}]},
 
   {type:"fb", s:"道(みち)を{1}いただけますか？\n(Could you kindly tell me the way?)", a:"教(おし)えて", opts:["教(おし)えて","教(おし)え","教(おし)える","教(おし)えた"], sSrc:"Could you kindly tell me the way?",
    hint:"The て-form of the verb meaning 'to teach/tell.' Combined with いただけますか for a polite request."},

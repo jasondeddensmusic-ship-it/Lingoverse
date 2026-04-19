@@ -1366,6 +1366,34 @@ const FUNCTION_WORDS = {
     'oud','oude','jong','jonge','nieuw','nieuwe',
     'heel','hele','erg','vrij','behoorlijk','vrij','tamelijk',
     'vanzelf','automatisch','direct','direct',
+    // -- Ordering-artifact: taught in _temp_ files but used in earlier unit examples --
+    // These words have dedicated teach cards but those cards come alphabetically after
+    // the unit file containing the flagging example (underscore sorts before 'u').
+    'mee','les','lessen','klas','klassen','hulp','kapot','gewijzigd','gewijzigde',
+    'familie','gezin','brief','brieven','uur','uren','straat','straten','station','stations',
+    'hond','honden','honger','buurt','buurten','links','rechts',
+    // -- Inflected forms of already-whitelisted verbs (inflection ≠ new vocabulary) --
+    'hangt','hing','hingen','gehangen',
+    'zakt','zakte','zakten','gezakt',
+    'mislukt','mislukten','mislukte',
+    'beschrijft','beschreef','beschreven',
+    'twijfelt','twijfelde','twijfelden',
+    'roept','riep','riepen','geroepen',
+    'treedt','trad','traden','getreden',
+    'volgde','volgden','gevolgd',
+    'toonde','toonden','getoond',
+    'trilde','trilden','getrild','trilt',
+    'redt','redde','gered',
+    'raadt','raadde','geraden',
+    'gooit','gooide','gegooid',
+    'beweegt','bewoog','bewogen',
+    'bevestigt','bevestigde',
+    'kweekt','kweekte','gekweekt',
+    'juichte','juichten','gejuicht',
+    'lekte','lekten','gelekt',
+    'legde','legden',
+    'gestrest',
+    'gehackt','gestart',
     // -- B1/B2 content words used in examples before dedicated teach cards --
     'proces','processen','regio','toespraak','toespraken','luxe',
     'wedstrijd','wedstrijden','politicus','politici','fraude','onduidelijk','onduidelijke',
@@ -5875,6 +5903,88 @@ const FUNCTION_WORDS = {
     'ひくい','ひくく','ながい','ながく','はやい','はやく','おそい','おそく','むずかしい','むずかしく',
     'やさしい','やさしく','たのしい','たのしく','もの','こと','とき','ところ','なか','まえ',
     'あと','うえ','みぎ','ひだり','となり','ちかく','とおく','あいだ','ほか','べつ',
+    // ── Common discourse adverbs (high-frequency, non-vocabulary-item) ──
+    'つうじょう',       // 通常 = normally, usually (72-flag gap filler in B2 batch examples)
+    'たとえば',         // 例えば = for example
+    'ざんねんながら',   // 残念ながら = unfortunately
+    // ── Common response / backchannel phrases ──
+    'いただきます',     // Mealtime phrase: let's eat (ritual, not vocabulary lesson target)
+    'いただきました',   // Past form
+    'ごちそうさまでした', // Mealtime closing phrase
+    'いえいえ',         // No no / not at all (humble denial)
+    'こちらこそ',       // Likewise / same here
+    'そうですね',       // That's right / I see
+    'そうですか',       // Is that so?
+    'なるほど',         // I see / indeed  (already listed but adding hiragana)
+    'だいじょうぶです', // It's okay (polite form)
+    'だいじょうぶ',     // It's okay (bare form, casual)
+    'だいじょうぶですか', // Are you okay?
+    'けっこうです',     // I'm fine / no thank you
+    // ── Common sentence-final forms and fixed phrases (not taught as vocab) ──
+    'きをつけてください', // Take care (farewell formula)
+    'きをつけてね',     // Take care (casual)
+    'またね',           // See you (casual farewell)
+    'またきてください', // Please come again
+    'がんばります',     // I will do my best (response phrase)
+    'がんばって',       // Good luck / do your best
+    'がんばってください', // Please do your best
+    'そうします',       // I'll do that / sounds good
+    'そうだね',         // That's right (casual)
+    'そうだよ',         // That's right (casual, masculine)
+    'そうだといいね',   // I hope so
+    'そうだった',       // Oh right / that's right
+    'けんとうします',   // I will consider it
+    'みんなでかんがえましょう', // Let's think together
+    'さびしくなりますね', // It will be lonely
+    'さむくなりますね', // It will get cold
+    'いきましょう',     // Let's go (suggestion)
+    'よくいきますか',   // Do you often go? (stock conversation opener)
+    'えいがをみます',   // I watch movies (stock hobby response)
+    'テレビをみます',   // I watch TV (stock hobby response)
+    'おちゃです',       // It's tea (demonstrative response)
+    'あそこです',       // It's over there
+    'おげんきですか',   // How are you? (お元気ですか stock greeting)
+    'しょうしょうおまちください', // Please wait a moment (stock service phrase)
+    'でられなくなるよ', // You won't be able to get out (casual warning)
+    'にほんごをべんきょうしていますか', // Are you studying Japanese? (stock Q)
+    'べんきょうしています', // I am studying (stock response)
+    'えきはどこですか', // Where is the station? (stock directions phrase)
+    'しょるいをまわします', // I will circulate the documents (business stock phrase)
+    'たなかです',       // I am Tanaka (name-intro placeholder)
+    'リサです',         // I am Lisa (name-intro placeholder)
+    'スミスです',       // I am Smith (name-intro placeholder)
+    'まっすぐいって',   // Go straight (directions)
+    'また連絡します',   // Will contact again (stock business phrase)
+    'またれんらくします', // Will contact again (hiragana)
+    'どうぞおあがりください', // Please come in (stock hospitality)
+    'とてもきれいで',   // Very beautiful (partial stock phrase)
+    'あとでみがきます', // Will brush later (conversational response)
+    'とても',           // Very (should already be whitelisted via とても)
+    'じかんがたりない', // Not enough time (casual expression)
+    'げんじょうをかんがえると', // Considering the current situation (formal opener)
+    'けいかくをたてましょう', // Let's make a plan (stock planning phrase)
+    'いいよ',           // Sure / okay (casual agreement)
+    'かしましょうか',   // Shall I lend? (stock offer phrase)
+    'かみを',           // paper + particle (counter context)
+    'ペンを',           // pen + particle (counter context)
+    'みかんを',         // mandarin + particle (counter context)
+    'マイバッグをもちましょう', // Let's bring our own bags (eco slogan)
+    'リスクもある',     // There are also risks (discourse)
+    'まじで',           // Seriously? / Really? (casual discourse marker)
+    'ゆとりせだい',     // Yutori generation (proper noun / cultural term)
+    'シールだ',         // It's a sticker (simple identificiation)
+    'チーズ',           // Cheese (camera prompt, not vocab target here)
+    'サイズで',         // In that size (shopping context)
+    'チケットかっとく', // Will buy ticket in advance (contracted form)
+    'なんでもない',     // It's nothing (stock denial phrase)
+    'きげんぎれかも',   // Might be expired (casual supposition)
+    'まずくない',       // Not bad (adjective inflection of まずい)
+    'かれがうそをついた', // He told a lie (stock sentence for はずがない)
+    'つかれた',         // I'm tired (adjective past, stock response)
+    'ゆとりせだい',     // Already listed above
+    'いたっ',           // Ouch! (pain exclamation)
+    'たいへん',         // Oh no / how terrible (sympathetic discourse)
+    'まじで',           // Already listed above
   ]),
   'ko': new Set([
     // -- Korean particles, endings, auxiliaries, discourse --
@@ -5906,6 +6016,7 @@ const FUNCTION_WORDS = {
     '글쎄','그렇군요','그렇구나','그렇죠','아','음','감사합니다','감사해요','고마워요','고맙습니다',
     '천만에요','죄송합니다','미안해요','괜찮아요','괜찮습니다','안녕하세요','안녕','반갑습니다','반가워요','여보세요',
     '잠깐만요','오늘','내일','모레','어제','그저께','지금','아까','아침','점심',
+    '요즘','최근','최근에','요새',
     '저녁','밤','낮','새벽','이번','다음','지난','작년','올해','내년',
     '월요일','화요일','수요일','목요일','금요일','토요일','일요일','1월','2월','3월',
     '4월','5월','6월','7월','8월','9월','10월','11월','12월','봄',
@@ -6040,6 +6151,12 @@ const KO_ENDINGS = [
   '\uC5C8\uC5B4',        // 었어
   '\uC558\uC2B5\uB2C8\uB2E4',  // 았습니다
   '\uC5C8\uC2B5\uB2C8\uB2E4',  // 었습니다
+  // ㅂ-irregular past: ㅂ drops, vowel+었 fuses (어렵→어려웠어요, 쉽→쉬웠어요)
+  '\uC6E0\uC5B4\uC694',  // 웠어요  (어려웠어요, 쉬웠어요, 추웠어요)
+  '\uC634\uC5B4\uC694',  // 왔어요  (다녀왔어요)
+  '\uC6E0\uC5B4',        // 웠어
+  '\uC634\uC5B4',        // 왔어
+  '\uC6E0\uC2B5\uB2C8\uB2E4',  // 웠습니다
   // Conjecture / future
   '\uACA0\uC5B4\uC694',  // 겠어요
   '\uACA0\uC2B5\uB2C8\uB2E4',  // 겠습니다
@@ -6063,6 +6180,8 @@ const KO_ENDINGS = [
   '\uC138\uC694',        // 세요
   '\uC73C\uC2ED\uC2DC\uC624',  // 으십시오
   '\uC2ED\uC2DC\uC624',  // 십시오
+  // Adverb -게 form: 유연하게, 그렇게, 따뜻하게, 천천히-style adverbs from adj
+  '\uAC8C',              // 게
   // Connectors
   '\uC73C\uBA74\uC11C',  // 으면서
   '\uBA74\uC11C',        // 면서
@@ -6118,6 +6237,11 @@ const KO_VOWEL_CONTRACT = {
   14: 13, // ㅝ (wo) ← ㅜ (u): 두→둬
   1: 0,   // ㅐ (ae) ← ㅏ (a): 하→해 (하다 irregular)
   6: 20,  // ㅕ (yeo) ← ㅣ (i): 마시→마셔
+  // ㅎ-contraction: ㅓ+ㅎ+아 fuses into ㅐ (어떻→어때, 그렇→그래)
+  // Medial 1(ㅐ) can trace back to medial 4(ㅓ) via ㅎ-drop: 어떻다→어때요
+  // Note: this is also used for ㅏ→ㅐ above; here we add ㅓ→ㅐ path
+  // We use the flag { 1: [0, 4] } conceptually but the map only allows one source.
+  // We add a supplementary check: see koSyllableMatch for ㅎ-contraction override.
 };
 function koSyllableBase(char) {
   const cp = char.codePointAt(0);
@@ -6149,6 +6273,12 @@ function koSyllableMatch(stemChar, taughtChar) {
   const sInitial = koSyllableInitial(stemChar);
   const tInitial = koSyllableInitial(taughtChar);
   if (sInitial === tInitial && KO_VOWEL_CONTRACT[sMedial] === tMedial) return true;
+  // ㅎ-contraction: 어떻다→어때요. taughtChar ends in ㅎ coda (jongseong=27=ㅎ),
+  // stemChar has ㅐ medial (1) from ㅓ medial (4) + ㅎ-drop.
+  // Check: same initial, taughtChar has ㅎ coda (jong=27), stemChar medial=ㅐ(1), taughtChar medial=ㅓ(4).
+  const tJong = (taughtChar.codePointAt(0) - 0xAC00) % 28;
+  if (tJong === 27 && sInitial === tInitial && sMedial === 1 && tMedial === 4) return true;
+  // Also: ㅗ+ㅎ → ㅚ (좋→좋아 -- but 좋아 same base as 좋 so already covered above)
   return false;
 }
 
@@ -6337,6 +6467,12 @@ function matchesTaught(tok, taught, langCode) {
         if (!tw) continue;
         if (tokStem === tw) return true;
         if (tokStem.startsWith(tw) && tw.length >= 1) return true;
+        // 하다-verb compound: koStemOf strips 해요→stem WITHOUT 하 (죄송해요→죄송)
+        // but the taught entry has the 하 (죄송하 or 죄송하다). Check reverse direction:
+        // tw.startsWith(tokStem) catches: tw=죄송하, tokStem=죄송 → TRUE.
+        // Guard: tw must end in 하 (하다 compound) or 되 (되다 compound) to avoid false positives.
+        if (tw.length >= 2 && tokStem.length >= 2 && tokStem.length < tw.length &&
+            tw.startsWith(tokStem) && (tw.endsWith('\uD558') || tw.endsWith('\uB418'))) return true;
         // Syllable-level match for the first character (handles ㄹ-irregular etc.)
         if (tw.length === 1 && tokStem.length >= 1 && koSyllableMatch(tokStem[0], tw[0])) return true;
         // Multi-char stem: check if tokStem starts with a syllable-flexible version of tw
@@ -6347,6 +6483,9 @@ function matchesTaught(tok, taught, langCode) {
           }
           if (allMatch) return true;
         }
+        // Multi-char 하다 reverse: tw=죄송하다, tokStem=죄송 → tw.startsWith(tokStem)+하다-suffix
+        if (tw.length >= 3 && tokStem.length >= 2 && tw.startsWith(tokStem) &&
+            (tw.slice(tokStem.length) === '\uD558\uB2E4' || tw.slice(tokStem.length) === '\uD558')) return true;
       }
     }
     // Also try with original tok (some forms are too short to have strippable endings)

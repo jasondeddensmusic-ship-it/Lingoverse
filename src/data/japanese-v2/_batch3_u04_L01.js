@@ -91,8 +91,8 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"いらっしゃいませ", src:"welcome (to our store)", pos:"intj", gender:null,
      note:"The greeting every customer hears upon entering a store in Japan. Not answered.",
-     example:"[Entering a store]\nStaff: いらっしゃいませ！\nCustomer: [No reply needed. Just browse.]",
-     exampleSrc:"Staff: Welcome!\nCustomer: (No response required, just start shopping.)",
+     example:"店員(てんいん): いらっしゃいませ！\n客(きゃく): ありがとうございます。",
+     exampleSrc:"Staff: Welcome!\nCustomer: Thank you.",
      funFact:"Irasshaimase is the most-heard phrase in Japan. It literally means 'please be here' (humble-polite verb form of iru, to be). You hear it shouted enthusiastically in izakayas (Japanese pubs) and said gently in high-end boutiques. Foreign visitors often feel compelled to reply. No response is needed."},
 
     {type:"match", pairs:[

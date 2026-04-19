@@ -76,8 +76,8 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"いただきます", src:"let's eat (ritual before eating)", pos:"intj", gender:null,
      note:"Said before every meal. Expresses gratitude for the food and all who prepared it.\nFrom いただく (to humbly receive).",
-     example:"[Before eating]\nみんな：いただきます！\n[Everyone claps hands together and begins eating]",
-     exampleSrc:"Everyone: Itadakimasu!\n[Everyone joins hands, bows slightly, and begins eating]",
+     example:"A: ご飯(はん)ができましたよ。\nみんな: いただきます！",
+     exampleSrc:"A: Dinner's ready.\nEveryone: Itadakimasu!",
      funFact:"Itadakimasu has no equivalent in English. It simultaneously thanks the cook, the farmers, the animals, and nature that provided the food. The gesture of pressing palms together (gasshou) accompanies it. Eating without saying itadakimasu feels rude in Japan, even when alone."},
 
     {type:"mc", q:"いただきます is said:", opts:["When ordering food","When paying the bill","Before starting to eat","After finishing a meal"],
@@ -86,7 +86,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"ごちそうさまでした", src:"thank you for the meal (said after eating)", pos:"intj", gender:null,
      note:"Said after finishing a meal. Counterpart to itadakimasu.\nCasual: ごちそうさま.",
-     example:"[After finishing the meal]\nA: ごちそうさまでした！とてもおいしかったです。\nB: よかったです！また作(つく)ります。",
+     example:"A: ごちそうさまでした！とてもおいしかったです。\nB: よかったです！また作(つく)ります。",
      exampleSrc:"A: Thank you for the meal! It was very delicious.\nB: Great! I will make it again.",
      funFact:"Gochisousama literally means 'it was a feast' or 'thank you for going to all that trouble.' Gochisou (feast) comes from chisou (running around) to source ingredients. You are thanking the host for running around to prepare your meal. Deep cultural consideration packed into one word."},
 
