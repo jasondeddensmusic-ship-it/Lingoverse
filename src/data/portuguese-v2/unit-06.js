@@ -286,6 +286,100 @@ const UNIT_06 = {
           opts: ["perto", "direita", "longe", "casa"], ans: "direita",
           hint: "The option opposite to esquerda."}
       ]
+    },
+    {
+      id: "ptv2_u6l_places", title: "Lugares e cortesia", icon: "🏢", xp: 15, board: true,
+      steps: [
+        {type: "intro", title: "Places and Politeness", desc: "Learn essential Brazilian Portuguese for places around town and key politeness phrases. These words are essential for asking directions and navigating daily interactions.", goals: ["Learn 4 essential places", "Use 3 core politeness phrases", "Apologize and thank in Portuguese"]},
+
+        {type: "teach", trg: "o apartamento", src: "the apartment", pos: "noun", gender: "m",
+          note: "Masculine noun. The standard word for an apartment or flat in Brazil.",
+          example: "A: Onde você está?\nB: Estou no apartamento.",
+          exampleSrc: "A: Where are you?\nB: I am in the apartment.",
+          funFact: "Borrowed from French appartement. In Brazilian cities most people live in apartamentos, not standalone houses."},
+
+        {type: "teach", trg: "o banco", src: "the bank", pos: "noun", gender: "m",
+          note: "Masculine. Means bank (financial institution). Also means bench in other contexts.",
+          example: "A: Onde é o banco?\nB: O banco é ali, perto.",
+          exampleSrc: "A: Where is the bank?\nB: The bank is there, nearby.",
+          funFact: "O banco also means bench in a park or classroom. Context makes the meaning clear."},
+
+        {type: "teach", trg: "a biblioteca", src: "the library", pos: "noun", gender: "f",
+          note: "Feminine noun. The public or school library.",
+          example: "A: Você vai à escola?\nB: Não, eu vou à biblioteca.",
+          exampleSrc: "A: Are you going to school?\nB: No, I am going to the library.",
+          funFact: "From Latin bibliotheca, from Greek: biblio (book) + theke (container). A library is literally a place that holds books."},
+
+        {type: "teach", trg: "a rua", src: "the street", pos: "noun", gender: "f",
+          note: "Feminine noun. Used in addresses and directions.",
+          example: "A: Onde está a loja?\nB: Está na rua, perto.",
+          exampleSrc: "A: Where is the shop?\nB: It is on the street, nearby.",
+          funFact: "From Latin ruga (wrinkle, row). Brazilian addresses always lead with Rua: Rua das Flores, 10."},
+
+        {type: "tip", title: "Brazilian Politeness Culture",
+          text: "Brazilians are warm and indirect. Three key moves:\n\n1. Always greet before asking anything. Launch straight into a question without olá or bom dia and you will seem rude.\n\n2. Soften requests with por favor. It goes at the start or end and changes everything.\n\n3. Three different sorry words exist for different situations:\ndesculpa = casual sorry (you bumped someone)\ndesculpe = slightly more formal sorry\ncom licença = excuse me to pass or interrupt",
+          icon: "🇧🇷",
+          deepDive: {title: "Why Brazilians say desculpa vs. com licença", text: "Desculpa literally means dis-blame me and is used after you have done something: stepped on a foot, interrupted, arrived late. Com licença asks permission before acting: squeezing past someone in a row, entering an office, or interrupting a conversation. Using one where the other is expected will get puzzled looks. A simple rule: desculpa looks backward (apology), com licença looks forward (permission)."}},
+
+        {type: "teach", trg: "de nada", src: "you're welcome", pos: "intj", gender: null,
+          note: "The standard response to obrigado or obrigada. Literally: of nothing.",
+          example: "A: Obrigado!\nB: De nada!",
+          exampleSrc: "A: Thank you!\nB: You're welcome!",
+          funFact: "De nada (of nothing) mirrors Spanish de nada and French de rien. You are saying the favor was nothing special."},
+
+        {type: "teach", trg: "desculpa", src: "sorry (casual)", pos: "intj", gender: null,
+          note: "Casual apology. Use after bumping someone, arriving late, or making a small mistake.",
+          example: "A: Desculpa!\nB: Não, não!",
+          exampleSrc: "A: Sorry!\nB: No, no worries!",
+          funFact: "Desculpa is informal. For a formal written apology, use peço desculpas (I ask for forgiveness)."},
+
+        {type: "teach", trg: "com licença", src: "excuse me (to pass)", pos: "intj", gender: null,
+          note: "Said before squeezing past, entering a room, or politely interrupting. Asks permission.",
+          example: "A: Com licença.\nB: Sim, por favor.",
+          exampleSrc: "A: Excuse me.\nB: Yes, please.",
+          funFact: "Licença means license or permission. Com licença literally means with permission. You are asking to be allowed to act."},
+
+        {type: "mc", q: "What does 'de nada' mean?",
+          opts: ["you're welcome", "thank you", "sorry", "excuse me"], ans: "you're welcome",
+          hint: "Said in response to obrigado or obrigada."},
+
+        {type: "fb", s: "A: Obrigado! B: {1}! (standard response)", a: "De nada",
+          sSrc: "A: Thank you! B: You're welcome!",
+          opts: ["De nada", "Desculpa", "Com licença", "Por favor"],
+          hint: "The standard reply to any expression of thanks."},
+
+        {type: "mc", q: "You bump into someone. You say:",
+          opts: ["Com licença", "Desculpa", "De nada", "Obrigada"], ans: "Desculpa",
+          hint: "An apology for something you already did."},
+
+        {type: "fb", s: "Você quer passar. Você diz: {1}. (excuse me to pass)", a: "Com licença",
+          sSrc: "You want to pass. You say: excuse me.",
+          opts: ["Desculpa", "De nada", "Com licença", "Por favor"],
+          hint: "Asks permission before acting, not after."},
+
+        {type: "match", title: "Match the politeness phrases",
+          pairs: [{trg: "de nada", src: "you're welcome"}, {trg: "desculpa", src: "sorry"}, {trg: "com licença", src: "excuse me"}]},
+
+        {type: "fb", s: "O {1} é perto daqui. (financial place)", a: "banco",
+          sSrc: "The bank is nearby.",
+          opts: ["banco", "apartamento", "biblioteca", "rua"],
+          hint: "Where you go to deposit or withdraw money."},
+
+        {type: "fb", s: "Ela não vai à escola. Ela vai à {1}. (place for books)", a: "biblioteca",
+          sSrc: "She is not going to school. She is going to the library.",
+          opts: ["biblioteca", "rua", "escola", "loja"],
+          hint: "A public place full of books to read and borrow."},
+
+        {type: "mc", q: "Ela está no ____. (apartment)",
+          opts: ["rua", "banco", "apartamento", "biblioteca"], ans: "apartamento",
+          hint: "Masculine word for a home in a building."},
+
+        {type: "mc", q: "Which is feminine?",
+          opts: ["apartamento", "banco", "trabalho", "rua"], ans: "rua",
+          hint: "Takes the article a and means street."},
+
+        {type: "tr", mk: "De nada! Com licença.", dir: "trg2src"}
+      ]
     }
   ]
 };

@@ -256,6 +256,95 @@ const UNIT_05 = {
       ]
     },
     {
+      id: "ptv2_u5l_days", title: "Dias da semana", icon: "📅", xp: 15, board: true,
+      steps: [
+        {type: "intro", title: "Days of the Week", desc: "Learn the days of the week in Brazilian Portuguese. These are essential for scheduling, making plans, and everyday conversation.", goals: ["Learn all 7 days of the week", "Use days with 'na/no' prepositions", "Talk about weekly routines"]},
+
+        {type: "teach", trg: "segunda-feira", src: "Monday", pos: "noun", gender: "f",
+          note: "Literally 'second market day'. Portuguese weekdays count market days.",
+          example: "A: Hoje é segunda-feira?\nB: Sim, hoje é segunda-feira.",
+          exampleSrc: "A: Is today Monday?\nB: Yes, today is Monday.",
+          funFact: "Portuguese names weekdays by ordinal numbers. Segunda means second. Monday is the second day of the traditional week (after Sunday)."},
+
+        {type: "teach", trg: "terça-feira", src: "Tuesday", pos: "noun", gender: "f",
+          note: "Literally 'third market day'. Terça = third (feminine).",
+          example: "A: Amanhã é terça-feira?\nB: Sim, amanhã é terça-feira.",
+          exampleSrc: "A: Is tomorrow Tuesday?\nB: Yes, tomorrow is Tuesday.",
+          funFact: "Terça comes from Latin tertia, meaning third. Portuguese is the only Romance language that names weekdays by market-day numbers."},
+
+        {type: "teach", trg: "quarta-feira", src: "Wednesday", pos: "noun", gender: "f",
+          note: "Literally 'fourth market day'. Quarta = fourth (feminine).",
+          example: "A: Hoje é quarta-feira.\nB: Boa tarde! Quarta-feira já.",
+          exampleSrc: "A: Today is Wednesday.\nB: Good afternoon! Wednesday already.",
+          funFact: "Quarta comes from Latin quarta, meaning fourth. Wednesday breaks the week in half, making quarta-feira literally midweek."},
+
+        {type: "teach", trg: "quinta-feira", src: "Thursday", pos: "noun", gender: "f",
+          note: "Literally 'fifth market day'. Quinta = fifth (feminine).",
+          example: "A: Você quer café na quinta-feira?\nB: Sim, na quinta-feira.",
+          exampleSrc: "A: Do you want coffee on Thursday?\nB: Yes, on Thursday.",
+          funFact: "In most Romance languages Thursday is named after the Roman god Jupiter (jovedi, jueves, jeudi). Only Portuguese uses the ordinal feira system."},
+
+        {type: "teach", trg: "sexta-feira", src: "Friday", pos: "noun", gender: "f",
+          note: "Literally 'sixth market day'. Sexta = sixth (feminine).",
+          example: "A: Hoje é sexta-feira!\nB: Boa tarde! Sexta-feira.",
+          exampleSrc: "A: Today is Friday!\nB: Good afternoon! Friday.",
+          funFact: "Sexta comes from Latin sexta, meaning sixth. In Brazilian culture, sexta-feira is widely celebrated as the gateway to the weekend."},
+
+        {type: "tip", title: "The feira system: how Portuguese names weekdays",
+          text: "Monday through Friday are named using ordinal numbers plus feira (market day):\nsegunda (2nd) terça (3rd) quarta (4th) quinta (5th) sexta (6th)\n\nNo other Romance language does this. French, Spanish, and Italian use Roman god names (Lundi, Lunes, Lunedi).\n\nThe weekend keeps religious names: sábado (Sabbath) and domingo (Lord's Day).",
+          deepDive: "The feira system comes from medieval Portugal, where weekly market days were counted from Sunday. Igreja (church) days set the rhythm of the week. Monday was the second day after Sunday, and so on up to Friday. When you learn Portuguese, you are inheriting a Medieval Portuguese counting system that has survived for 800 years."},
+
+        {type: "teach", trg: "sábado", src: "Saturday", pos: "noun", gender: "m",
+          note: "Masculine noun. No feira suffix. From Hebrew Shabbat (rest day).",
+          example: "A: Você quer comer no sábado?\nB: Sim, no sábado.",
+          exampleSrc: "A: Do you want to eat on Saturday?\nB: Yes, on Saturday.",
+          funFact: "Sábado comes from Hebrew Shabbat, the Jewish day of rest. It entered Portuguese through Latin and Arabic during the medieval Iberian period."},
+
+        {type: "teach", trg: "domingo", src: "Sunday", pos: "noun", gender: "m",
+          note: "Masculine noun. No feira suffix. From Latin dies Dominica (Lord's Day).",
+          example: "A: Você bebe café no domingo?\nB: Sim, sempre no domingo.",
+          exampleSrc: "A: Do you drink coffee on Sunday?\nB: Yes, always on Sunday.",
+          funFact: "Domingo comes from Latin dies Dominica, meaning the Lord's Day. The same root gives Italian domenica and Spanish domingo."},
+
+        {type: "mc", q: "Which day is 'Monday' in Portuguese?",
+          opts: ["terça-feira", "segunda-feira", "quarta-feira", "domingo"], ans: "segunda-feira",
+          hint: "The second market day of the week."},
+
+        {type: "mc", q: "Which day is 'Friday' in Portuguese?",
+          opts: ["quinta-feira", "sábado", "sexta-feira", "terça-feira"], ans: "sexta-feira",
+          hint: "The final market-day weekday. Six comes after five in the ordinal count."},
+
+        {type: "mc", q: "Sábado and domingo have no feira because they are ____.",
+          opts: ["religious names", "market days", "ordinal numbers", "Latin verbs"], ans: "religious names",
+          hint: "One comes from Hebrew, one from Latin for Lord's Day."},
+
+        {type: "fb", s: "Hoje é {1}. (the second market day)", a: "segunda-feira",
+          sSrc: "Today is Monday.",
+          opts: ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira"],
+          hint: "Second of the market-day weekdays."},
+
+        {type: "fb", s: "Você quer comer no {1}? (the fifth market day)", a: "quinta-feira",
+          sSrc: "Do you want to eat on Thursday?",
+          opts: ["terça-feira", "quarta-feira", "quinta-feira", "sexta-feira"],
+          hint: "Four plus one. The day between Wednesday and Friday."},
+
+        {type: "match", title: "Match days of the week",
+          pairs: [{trg: "segunda-feira", src: "Monday"}, {trg: "quarta-feira", src: "Wednesday"}, {trg: "sexta-feira", src: "Friday"}, {trg: "domingo", src: "Sunday"}]},
+
+        {type: "fb", s: "Amanhã é {1}. (the day after Saturday)", a: "domingo",
+          sSrc: "Tomorrow is Sunday.",
+          opts: ["sábado", "domingo", "segunda-feira", "sexta-feira"],
+          hint: "Lord's Day. Comes after sábado."},
+
+        {type: "mc", q: "Eu sempre bebo café no ____. (a weekend day named after the Sabbath)",
+          opts: ["domingo", "sexta-feira", "sábado", "segunda-feira"], ans: "sábado",
+          hint: "From Hebrew Shabbat. Saturday."},
+
+        {type: "match", title: "Match remaining days",
+          pairs: [{trg: "terça-feira", src: "Tuesday"}, {trg: "quinta-feira", src: "Thursday"}, {trg: "sábado", src: "Saturday"}]}
+      ]
+    },
+    {
       id: "ptv2_u5l5", title: "Posso, sei, consigo", icon: "💪", xp: 15, board: true,
       steps: [
         {type: "intro", title: "Expressing Ability", desc: "Learn to say what you can and cannot do in Brazilian Portuguese using poder (can), saber (know how to), and conseguir (manage to).", goals: ["Use poder for permission and possibility", "Use saber for learned skills", "Say what you cannot do"]},
