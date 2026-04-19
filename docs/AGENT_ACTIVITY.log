@@ -10,3 +10,4 @@ audit trail. Format: `YYYY-MM-DDTHH:MM:SSZ | agent-id | task | outcome`.
 2026-04-19 | main | PP67 baseline report written to docs/audits/pp67_baseline_2026-04-19.md | 4 langs PASS (Dutch/German/Korean/Spanish)
 2026-04-19 | main | PR #189 merged (PP67 validator + baseline) | CI green
 2026-04-19 | main | scripts/generate_queue.cjs shipped | snapshot at docs/audits/queue_snapshot_<date>.md, 17 derived items
+2026-04-19 | main + linguist | PP63 portuguese-v2 remediation units 1-3 | 147 → 115 untraced (32 cards cleared); Rule G cross-read by sonnet linguist agent
