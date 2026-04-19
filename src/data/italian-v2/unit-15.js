@@ -325,6 +325,114 @@ const UNIT_15 = {
        ans:"A fee collected from both sides of the deal",
        hint:"In Italy, the buyer AND the seller (or tenant and landlord) each pay the real estate agency."}
     ]}
+    ,{id:"itv2_u15l4_burocr", title:"La burocrazia italiana", icon:"🏛️", xp:15, board:true, steps:[
+      {type:"intro", title:"Handling Administrative Situations",
+       desc:"Learn essential vocabulary for dealing with Italian bureaucracy: the civil registry, ID cards, revenue stamps, and official requests. Indispensable for living in Italy and tested on CILS B1.",
+       goals:["Navigate the civil registry office","Request and renew official documents","Use polite official Italian in administrative contexts"]},
+
+      {type:"teach", trg:"l'anagrafe", src:"the civil registry / registry office", pos:"noun", gender:"f",
+       note:"Feminine. The office where births, deaths, marriages, and residency are registered.\nEvery Italian comune has one.",
+       example:"A: Dove devo andare per la residenza?\nB: All'anagrafe del tuo comune.\nA: Cosa devo portare?\nB: Il documento d'identita e il modulo compilato.",
+       exampleSrc:"A: Where do I need to go for residency registration?\nB: To the civil registry office of your town.\nA: What do I need to bring?\nB: Your identity document and the completed form.",
+       funFact:"Every Italian resident must be registered at the local anagrafe. Without this registration, you cannot get a tax code, open a bank account, or access public services. Foreigners living in Italy must register within 20 days of establishing a fixed address."},
+
+      {type:"teach", trg:"la residenza", src:"the residency / registered address", pos:"noun", gender:"f",
+       note:"Feminine. Your official address on file with the state.\n'Prendere la residenza' = to register your address.",
+       example:"A: Hai gia la residenza in Italia?\nB: No, devo ancora richiedere il trasferimento.\nA: Quanto tempo ci vuole?\nB: Di solito qualche settimana dopo la visita dell'ufficiale.",
+       exampleSrc:"A: Do you already have residency registration in Italy?\nB: No, I still need to request the transfer.\nA: How long does it take?\nB: Usually a few weeks after the official's visit.",
+       funFact:"Having Italian 'residenza' is different from citizenship. Even non-EU citizens can be registered residents. The comune sends an officer to physically verify you live at the declared address before approving residency. This visit is called 'accertamento.'"},
+
+      {type:"teach", trg:"la carta d'identita", src:"the identity card", pos:"noun", gender:"f",
+       note:"Feminine. Italy's national ID card, accepted across the EU.\n'Carte d'identita elettronica' = the modern electronic version.",
+       example:"A: La mia carta d'identita e scaduta.\nB: Devi rinnovarla al comune.\nA: Serve un appuntamento?\nB: Si, puoi prenotare online sul sito del tuo comune.",
+       exampleSrc:"A: My identity card has expired.\nB: You need to renew it at the town hall.\nA: Is an appointment needed?\nB: Yes, you can book online on your town hall's website.",
+       funFact:"Italy introduced the electronic identity card (CIE) in 2016. It contains a microchip with biometric data and can be used as a travel document within the EU. The old paper card is no longer issued, but remains valid until its expiry date."},
+
+      {type:"teach", trg:"rinnovare", src:"to renew", pos:"verb", gender:null,
+       note:"Regular -are verb. 'Rinnovo' = I renew. 'Il rinnovo' = the renewal.\nUsed for documents, contracts, subscriptions.",
+       example:"A: Quando scade il tuo passaporto?\nB: Il mese prossimo. Devo rinnovarlo.\nA: Hai gia tutto il necessario?\nB: Si, ho la foto e ho prenotato l'appuntamento.",
+       exampleSrc:"A: When does your passport expire?\nB: Next month. I need to renew it.\nA: Do you already have everything you need?\nB: Yes, I have the photo and I booked the appointment.",
+       funFact:"Italian passports and identity cards have different validity periods depending on the holder's age. Children under 3: 3 years. Ages 3-18: 5 years. Adults: 10 years. Renewing abroad at the Italian consulate is a common experience for Italians living overseas."},
+
+      {type:"teach", trg:"richiedere", src:"to request / to apply for", pos:"verb", gender:null,
+       note:"Irregular -ere verb. 'Richiedo' = I request. 'La richiesta' = the request.\nMore formal than 'chiedere.'",
+       example:"A: Come si richiede la residenza in Italia?\nB: Puoi richiedere all'anagrafe o online.\nA: Costa qualcosa?\nB: Si, bisogna pagare la marca da bollo.",
+       exampleSrc:"A: How does one apply for residency in Italy?\nB: You can request it at the registry office or online.\nA: Does it cost anything?\nB: Yes, you need to pay the revenue stamp.",
+       funFact:"'Richiedere' is the standard verb for official applications in Italian bureaucracy. Its noun 'la richiesta' appears on almost every official form. The verb 'chiedere' is more casual; richiedere signals a formal administrative request."},
+
+      {type:"teach", trg:"la marca da bollo", src:"the revenue stamp", pos:"noun", gender:"f",
+       note:"Feminine. A tax stamp bought at tabaccherie, required on official requests.\nCurrently 16 euros for most documents.",
+       example:"A: Ho il passaporto da rinnovare. Cos'altro serve?\nB: Devi attaccare una marca da bollo da sedici euro.\nA: Dove si compra?\nB: Dal tabaccaio qui vicino.",
+       exampleSrc:"A: I have a passport to renew. What else is needed?\nB: You need to attach a sixteen-euro revenue stamp.\nA: Where do you buy it?\nB: At the tobacconist nearby.",
+       funFact:"The marca da bollo dates back to the 18th century under Austrian rule in northern Italy. Today, most government documents require one. You buy it at any tabaccheria (tobacconist). Digital bollo is also available via the Agenzia delle Entrate website."},
+
+      {type:"teach", trg:"fare la fila", src:"to queue / to stand in line", pos:"verb", gender:null,
+       note:"'Fila' = line, queue. 'Fare la fila' = to join and wait in a queue.\nAlternative: 'fare la coda' (same meaning).",
+       example:"A: Com'e andata all'anagrafe?\nB: Ho fatto la fila per due ore.\nA: Non puoi prenotare online?\nB: Si, ma non sapevo. La prossima volta prenoto.",
+       exampleSrc:"A: How did it go at the registry office?\nB: I queued for two hours.\nA: Can you not book online?\nB: Yes, but I did not know. Next time I will book.",
+       funFact:"Waiting in line at Italian public offices is a cultural experience. Italians often say the real Italian bureaucracy is not the paperwork, but the wait. The online booking system ('agenda online') introduced in recent years has improved things, but spontaneous visits still mean long waits."},
+
+      {type:"tip", title:"La burocrazia italiana: survival tips",
+       text:"Italian bureaucracy has a reputation, but knowing the system makes it manageable.\n\nKey offices:\n- L'anagrafe: for residency, birth certificates, family documents.\n- Il comune: covers many services including the anagrafe.\n- La questura: for residence permits (permesso di soggiorno) for non-EU citizens.\n\nEssential items to bring:\n- Un documento d'identita (identity card or passport).\n- La marca da bollo (buy at any tabaccheria beforehand).\n- Moduli compilati (completed forms, often downloadable online).\n\nPractical tips:\nAlways book an appointment ('prenotare un appuntamento') online where possible. Arriving without one risks wasted hours. Bring more documents than asked. Italian officials often request extras not listed on the website.",
+       icon:"💡",
+       deepDive:{title:"Why Italian bureaucracy works the way it does",
+        text:"Italy's administrative complexity reflects its history. The unified Italian state is relatively young (1861), and different regions brought different legal traditions. Post-war Italy added layers of welfare-state paperwork. The result is a system with high procedural formality but also regional variation. Reforms since the 1990s have moved many services online. The SPID (Sistema Pubblico di Identita Digitale) is a unified digital identity now required for most government portals. Getting your SPID is itself a rite of passage for residents."}},
+
+      {type:"mc", q:"Where do you go to officially register your address in Italy?",
+       opts:["La questura","L'anagrafe","Il tribunale","La biblioteca"],
+       ans:"L'anagrafe",
+       hint:"This office handles births, deaths, marriages, and address registration. Every Italian town has one.",
+       answerSrc:"The civil registry office"},
+
+      {type:"fb", s:"Devo {1} la mia carta d'identita: e scaduta.",
+       a:["rinnovare"],
+       opts:["rinnovare","richiedere","compilare","affittare"],
+       hint:"The document has expired and must be brought back into valid status. Use the verb for renewal.",
+       sSrc:"I need to {1} my identity card: it has expired."},
+
+      {type:"fb", s:"Devo attaccare una {1} da sedici euro al modulo.",
+       a:["marca da bollo"],
+       opts:["marca da bollo","carta d'identita","residenza","anagrafe"],
+       hint:"This is a tax stamp bought at a tabaccheria. It must be attached to most government submissions.",
+       sSrc:"I need to attach a {1} worth sixteen euros to the form."},
+
+      {type:"fb", s:"Come si {1} il certificato di residenza?",
+       a:["richiede"],
+       opts:["richiede","compra","porta","affitta"],
+       hint:"You are asking how to formally apply for this certificate. Use the formal verb for making an official request.",
+       sSrc:"How does one {1} the residency certificate?"},
+
+      {type:"fb", s:"Ho trasferito la mia {1} al nuovo comune.",
+       a:["residenza"],
+       opts:["residenza","anagrafe","marca da bollo","carta d'identita"],
+       hint:"This is your legally registered home address on file with the state. You transfer it when you move cities.",
+       sSrc:"I transferred my {1} to the new municipality."},
+
+      {type:"fb", s:"La mia {1} e scaduta: devo rinnovarla al comune.",
+       a:["carta d'identita"],
+       opts:["carta d'identita","residenza","marca da bollo","modulo"],
+       hint:"This Italian national ID expires and must be renewed at the town hall. Accepted for travel in the EU.",
+       sSrc:"My {1} has expired: I need to renew it at the town hall."},
+
+      {type:"match", pairs:[
+        {trg:"l'anagrafe", src:"the civil registry office"},
+        {trg:"la residenza", src:"the registered address"},
+        {trg:"la marca da bollo", src:"the revenue stamp"},
+        {trg:"rinnovare", src:"to renew"},
+        {trg:"richiedere", src:"to request / apply for"}
+      ]},
+
+      {type:"fb", s:"Devo {1} per un'ora allo sportello senza appuntamento.",
+       a:["fare la fila"],
+       opts:["fare la fila","rinnovare","richiedere","compilare"],
+       hint:"You must wait in a queue at the counter. Use the Italian expression meaning to stand in a line.",
+       sSrc:"I have to {1} for an hour at the counter without an appointment."},
+
+      {type:"mc", q:"What does 'prendere la residenza' mean in Italy?",
+       opts:["Applying for Italian citizenship","Picking up a parcel at the post office","Registering your address with the civil registry","Taking out a mortgage on a property"],
+       ans:"Registering your address with the civil registry",
+       hint:"The anagrafe is where Italian residents file their location. This phrase describes the act of doing that filing."}
+    ]}
   ]
 };
 export default UNIT_15;

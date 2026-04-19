@@ -205,3 +205,28 @@ _None currently._
 - Japanese batch note: "still use pure hiragana" → PP65 complete since 2026-04-17
 - Grammar module total: 470 → 521 (no zero-placeholder languages remain)
 - Validator state totals updated throughout
+
+## Done this session (sad-cohen-32e111, 2026-04-19 night — continuation)
+
+**PP8/PP63/PP64/PP67 regression cleanup (PRs #213–#214):**
+- PR #213 — Fixed 10 PP8 hint-leak regressions (Chinese×5, Italian×2, Spanish×1, Dutch×1) introduced by PRs #211/#212; closed 3 Dutch PP64 untested cards
+- PR #214 — Chinese PP63 (8→0) via forward-reference whitelist entries; Japanese PP67 (2→0) by adding production-mode fb to unit-15 and unit-22
+
+**PP58 universal-function closures (4 complete!):**
+- **F14 Make appointments** — 10/10 (PR #211 for FR/ES/IT/PT/NL; PR #215 for JA/KO/ZH/RU)
+- **F15 Fill in forms** — 10/10 (PR #216 for JA/KO/ZH/RU; PR #217 for FR/ES/IT/PT; PR #218 for NL)
+- **F17 Express ability** — 10/10 (PR #219 for IT/PT/RU; other 7 languages already had it)
+- **F8 Write informal letters** — 10/10 (PR #220 for NL/JA/KO/ZH; PR #221 for IT/PT/RU)
+
+**Teach card increments this session: +155 across all 10 languages.**
+- Grand total: ~13,791 teach cards validated.
+
+**Final state — ALL 10 LANGUAGES STILL 100% CLEAN:**
+PP8: 0 | PP43: 0 | PP48: 0 | PP64: 0 | PP67: 0 | PP63: 0
+
+**Remaining PP58 universal gaps (for future sessions):**
+- F22 Handle administrative situations (B1, 9/9 missing)
+- F21 Write about personal significance (B2, 9/9 missing)
+- F11 Resolve disputes / mediate (B2, 6/9)
+
+**Writing process:** All content written by parallel Sonnet agents (Rule B7 max 4), each self-validating PP8/PP63/PP64/PP67 before reporting. Main session reviewed aggregate outputs, ran npm run build, pushed, watched CI to green.

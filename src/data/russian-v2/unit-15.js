@@ -272,5 +272,95 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
 ]}
 ,{type:"match",pairs:[{trg:"сделаю",src:"I will do (perfective future)"},{trg:"хотеть",src:"to want (imperfective)"}]}]}
 
+,{id:"ruv2_u15l_burocr", title:"Бюрократия и документы", icon:"🏛️", xp:15, board:true, steps:[
+
+{type:"intro", title:"Handling Administrative Situations",
+ desc:"Essential vocabulary for Russian bureaucracy: the post office, МФЦ, official documents, and formal requests. Tested on TRKI B1 and essential for everyday life in Russia.",
+ goals:["Navigate the post office and МФЦ","Request official documents","Use polite official Russian"]},
+
+{type:"teach", trg:"почта", src:"post office / mail", pos:"noun", gender:"f",
+ note:"Refers to both the post office building and mail/post in general.\nFeminine noun.",
+ example:"A: Где ближайшая почта?\nB: Почта на следующей улице.",
+ exampleSrc:"A: Where is the nearest post office?\nB: The post office is on the next street.",
+ funFact:"'Почта' comes from Italian 'posta' (relay station), entering Russian in the 17th century when Peter the Great set up the first postal routes."},
+
+{type:"teach", trg:"документ", src:"document", pos:"noun", gender:"m",
+ note:"Official paper: passport, certificate, contract, etc.\nMasculine noun.",
+ example:"A: Вам нужен документ?\nB: Да, возьмите мой документ.",
+ exampleSrc:"A: Do you need a document?\nB: Yes, take my document.",
+ funFact:"Russians carry their 'документы' everywhere — being stopped without ID is a real possibility, and the police can request it at any time."},
+
+{type:"teach", trg:"паспорт", src:"passport", pos:"noun", gender:"m",
+ note:"The Russian internal passport (паспорт гражданина РФ) is required for domestic travel, banking, and most official procedures.\nMasculine noun.",
+ example:"A: У вас есть паспорт?\nB: Да, мой паспорт здесь.",
+ exampleSrc:"A: Do you have your passport?\nB: Yes, my passport is right here.",
+ funFact:"Russians have TWO passports: an internal one for life in Russia and a foreign one (загранпаспорт) for international travel. Most transactions require the internal one."},
+
+{type:"teach", trg:"виза", src:"visa", pos:"noun", gender:"f",
+ note:"Entry permit for a foreign country.\nFeminine noun.",
+ example:"A: Моя виза скоро закончится.\nB: Нужно продлить визу.",
+ exampleSrc:"A: My visa will expire soon.\nB: You need to extend the visa.",
+ funFact:"Russia issues over 30 types of visas. The most common for foreigners is the tourist visa (туристическая виза), valid for 30 days."},
+
+{type:"teach", trg:"прописка", src:"residence registration", pos:"noun", gender:"f",
+ note:"The official system of registering your place of residence with the state.\nFeminine noun.\nAlso called 'регистрация' in modern usage.",
+ example:"A: Мне нужна прописка в Москве.\nB: Идите на почту или в МФЦ.",
+ exampleSrc:"A: I need residence registration in Moscow.\nB: Go to the post office or MFC.",
+ funFact:"Прописка dates back to the Soviet era. Today it is officially called 'регистрация', but Russians still use 'прописка' in everyday speech."},
+
+{type:"teach", trg:"продлить", src:"to renew / extend (perfective)", pos:"verb", gender:null,
+ note:"Perfective verb: to extend a deadline, visa, contract, or document.\nImperfective pair: продлевать.",
+ example:"A: Нужно продлить визу до конца месяца.\nB: Хорошо, я сделаю это сегодня.",
+ exampleSrc:"A: The visa needs to be extended by the end of the month.\nB: OK, I will do it today.",
+ funFact:"In Russian bureaucracy, 'продлить' is one of the most-used verbs. You продлить visas, contracts, insurance, library books, and even subscriptions."},
+
+{type:"teach", trg:"справка", src:"official certificate / reference letter", pos:"noun", gender:"f",
+ note:"An official document confirming a fact: income, residence, medical status, etc.\nFeminine noun.\nYou 'получить справку' (get a certificate) or 'взять справку' (pick up a certificate).",
+ example:"A: Мне нужна справка с работы.\nB: Напишите заявление, и вы получите справку.",
+ exampleSrc:"A: I need a certificate from work.\nB: Write an application and you will receive the certificate.",
+ funFact:"The справка is the lifeblood of Russian administration. To enroll in school, open a bank account, or apply for benefits, you will almost certainly need at least one."},
+
+{type:"tip", title:"МФЦ: Russia's One-Stop Government Office",
+ text:"МФЦ (Многофункциональный центр) is the modern solution to Russian bureaucracy. Instead of visiting five separate offices, you go to one МФЦ to get your прописка, renew documents, and request any справка.\n\nKey phrases:\n- 'Возьмите талон' — Take a ticket (queue number).\n- 'Подойдите к окошку' — Approach the window.\n- 'Заполните бланк' — Fill in the form.",
+ deepDive:"Before МФЦ existed, getting a single government document could mean queuing at multiple offices across the city. МФЦ centres opened in 2011 and now serve all major Russian cities. If you live in Russia, find your nearest МФЦ first — it will save hours."},
+
+{type:"fb", s:"A: Мне нужна {1} в Россию на три месяца.\nB: Хорошо, я помогу вам.",
+ a:["виза"],
+ opts:["виза","справка","прописка","паспорт"],
+ hint:"This official permit allows you to enter a country for a set period.",
+ sSrc:"A: I need a visa to Russia for three months.\nB: OK, I will help you."},
+
+{type:"mc", q:"What does 'прописка' mean in Russian administrative life?",
+ opts:["A type of visa","Residence registration","A bank certificate","A post office form"],
+ ans:"Residence registration",
+ hint:"This is the system that ties you officially to an address in Russia."},
+
+{type:"mc", q:"You need to renew your visa before it expires. Which verb do you use?",
+ opts:["заполнить","написать","продлить","взять"],
+ ans:"продлить",
+ hint:"This perfective verb means to extend a deadline or document beyond its current end date."},
+
+{type:"fb", s:"A: Мне нужна {1} с работы для банка.\nB: Хорошо, я дам вам её завтра.",
+ a:["справка"],
+ opts:["справка","виза","прописка","почта"],
+ hint:"An official document confirming employment or income — common for bank applications.",
+ sSrc:"A: I need an official certificate from work for the bank.\nB: OK, I will give it to you tomorrow."},
+
+{type:"fb", s:"A: Где мой {1}? Мне нужно показать его на почте.\nB: Вот он, в сумке.",
+ a:["паспорт"],
+ opts:["паспорт","документ","справка","виза"],
+ hint:"The specific ID document Russians need for nearly all official transactions.",
+ sSrc:"A: Where is my passport? I need to show it at the post office.\nB: Here it is, in the bag."},
+
+{type:"match", pairs:[
+ {trg:"почта", src:"post office / mail"},
+ {trg:"справка", src:"official certificate"},
+ {trg:"прописка", src:"residence registration"},
+ {trg:"продлить", src:"to renew / extend"},
+ {trg:"документ", src:"document"}
+]}
+
+]}
+
 ]};
 export default UNIT_15;
