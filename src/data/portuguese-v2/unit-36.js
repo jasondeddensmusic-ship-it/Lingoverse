@@ -66,6 +66,32 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
  ans:"dominar",
  hint:"Stronger than 'aprender'. Shares root with 'dono' (owner)."},
 
+{type:"fb",
+ s:"Ela {1} três idiomas: inglês, francês e árabe.",
+ a:["domina"],
+ opts:["domina","aprende","expressa","compreende"],
+ hint:"To master something fully, to own it. Ela form: remove the -r.",
+ sSrc:"She {1} three languages: English, French, and Arabic."},
+
+{type:"mc",
+ q:"Which verb is MORE formal than 'entender'?",
+ opts:["aprender","expressar","comunicar","compreender"],
+ ans:"compreender",
+ hint:"Used in exams and official speech. Shares root with 'comprehend'."},
+
+{type:"fb",
+ s:"Você consegue {1} o sotaque carioca?",
+ a:["compreender"],
+ opts:["compreender","dominar","aprender","expressar"],
+ hint:"Formal equivalent of 'entender'. To grasp fully.",
+ sSrc:"Can you {1} the carioca accent?"},
+
+{type:"mc",
+ q:"What does it mean to be 'fluente'?",
+ opts:["to know grammar rules","to speak smoothly and naturally","to memorize vocabulary","to pass a test"],
+ ans:"to speak smoothly and naturally",
+ hint:"From Latin 'fluere' (to flow). Fluency = words that flow."},
+
 {type:"match", pairs:[
  {trg:"fluente", src:"fluent"},
  {trg:"aprender", src:"to learn"},
@@ -147,6 +173,39 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
  opts:["desafio","conquista","saudade","jeitinho"],
  hint:"A difficult task that requires effort. Three syllables.",
  sSrc:"Learning Portuguese is a great {1}."},
+
+{type:"fb",
+ s:"A empresa conseguiu {1} um acordo melhor com o fornecedor.",
+ a:["negociar"],
+ opts:["negociar","argumentar","persuadir","conversar"],
+ hint:"To bargain and reach a deal. Shares root with 'negócio'.",
+ sSrc:"The company managed to {1} a better deal with the supplier."},
+
+{type:"mc",
+ q:"What is the difference between 'argumentar' and 'brigar'?",
+ opts:["they mean the same","argumentar means to make a logical case, brigar means to quarrel","brigar is more polite","argumentar is informal"],
+ ans:"argumentar means to make a logical case, brigar means to quarrel",
+ hint:"'Argumentar' uses reason. 'Brigar' is an emotional fight."},
+
+{type:"fb",
+ s:"O debate foi intenso, mas cada um conseguiu {1} bem.",
+ a:["argumentar"],
+ opts:["argumentar","persuadir","negociar","conversar"],
+ hint:"To build a logical case for your position.",
+ sSrc:"The debate was intense, but each person managed to {1} well."},
+
+{type:"mc",
+ q:"Which noun describes something difficult that requires effort?",
+ opts:["conquista","desafio","saudade","identidade"],
+ ans:"desafio",
+ hint:"A task that tests your limits. Three syllables."},
+
+{type:"fb",
+ s:"Depois de anos de esforço, aprender português é uma grande {1}.",
+ a:["conquista"],
+ opts:["conquista","desafio","saudade","conversa"],
+ hint:"An achievement earned through hard work. Related to 'conquer'.",
+ sSrc:"After years of effort, learning Portuguese is a great {1}."},
 
 {type:"match", pairs:[
  {trg:"argumentar", src:"to argue (make a case)"},

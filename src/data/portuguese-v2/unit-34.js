@@ -66,6 +66,32 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
  ans:"Sudeste",
  hint:"Contains São Paulo, the biggest city in South America."},
 
+{type:"fb",
+ s:"O {1} tem 26 estados mais o Distrito Federal.",
+ a:["Brasil"],
+ opts:["Brasil","Nordeste","Sudeste","Norte"],
+ hint:"The country as a whole. Five regions plus one capital district.",
+ sSrc:"{1} has 26 states plus the Federal District."},
+
+{type:"mc",
+ q:"Brasília, the capital, is located in which region?",
+ opts:["Sudeste","Norte","Centro-Oeste","Sul"],
+ ans:"Centro-Oeste",
+ hint:"The agricultural heartland region. The capital was built there in 1960."},
+
+{type:"fb",
+ s:"O {1} inclui São Paulo e Rio de Janeiro.",
+ a:["Sudeste"],
+ opts:["Sudeste","Norte","Nordeste","Sul"],
+ hint:"The economic powerhouse. 'Sudeste' = Southeast.",
+ sSrc:"The {1} includes São Paulo and Rio de Janeiro."},
+
+{type:"mc",
+ q:"Which word is the singular form for a Brazilian federal unit?",
+ opts:["região","estado","cidade","país"],
+ ans:"estado",
+ hint:"Brazil has 26 of these, each with its own governor."},
+
 {type:"match", pairs:[
  {trg:"Norte", src:"North"},
  {trg:"Nordeste", src:"Northeast"},
@@ -152,7 +178,34 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
  a:["praia"],
  opts:["praia","serra","selva","costa"],
  hint:"Sandy shore where people swim and sunbathe.",
- sSrc:"The Brazilian {1} is 7,500 kilometers long."}
+ sSrc:"The Brazilian {1} is 7,500 kilometers long."},
+
+{type:"mc",
+ q:"Which biome covers the Brazilian savanna in the Center-West?",
+ opts:["Pantanal","Cerrado","Mata Atlântica","Amazônia"],
+ ans:"Cerrado",
+ hint:"Tropical savanna. Called 'the Brazilian savanna'. Over 50% already deforested."},
+
+{type:"fb",
+ s:"O {1} é o maior pantanal tropical do mundo.",
+ a:["Pantanal"],
+ opts:["Pantanal","Cerrado","Sertão","Amazônia"],
+ hint:"World's largest tropical wetland. Floods every rainy season.",
+ sSrc:"The {1} is the world's largest tropical wetland."},
+
+{type:"mc",
+ q:"What does 'sertão' refer to geographically?",
+ opts:["coastal beaches","Amazon rainforest","dry interior of the Northeast","mountain ranges"],
+ ans:"dry interior of the Northeast",
+ hint:"Harsh, dry backlands. Setting of classic Brazilian literature."},
+
+{type:"match", pairs:[
+ {trg:"Amazônia", src:"Amazon (biome)"},
+ {trg:"Pantanal", src:"Pantanal (wetlands)"},
+ {trg:"Cerrado", src:"Cerrado (savanna)"},
+ {trg:"Mata Atlântica", src:"Atlantic Forest"},
+ {trg:"sertão", src:"backlands"}
+]}
 ]},
 
 {id:"ptv2_u34l3", title:"Describing Brazil", icon:"🇧🇷", xp:15, board:true, steps:[
@@ -216,7 +269,27 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
  q:"Most Brazilians live close to which geographic feature?",
  opts:["the sertão","the Amazon","the coast","the serra"],
  ans:"the coast",
- hint:"About 80 percent live within 200 km of the ocean."}
+ hint:"About 80 percent live within 200 km of the ocean."},
+
+{type:"fb",
+ s:"A Amazônia {1} por cerca de 40 por cento do território brasileiro.",
+ a:["cobre"],
+ opts:["cobre","abriga","fica","estende"],
+ hint:"Verb meaning 'covers' an area. One syllable.",
+ sSrc:"The Amazon {1} about 40 percent of Brazilian territory."},
+
+{type:"mc",
+ q:"Which expression means 'is located in'?",
+ opts:["abriga","estende-se por","fica no","cobre"],
+ ans:"fica no",
+ hint:"Literal meaning: 'stays in'. Used for fixed geographic positions."},
+
+{type:"fb",
+ s:"O Sudeste {1} quase metade do PIB do país.",
+ a:["concentra"],
+ opts:["concentra","abriga","estende","fica"],
+ hint:"To gather or concentrate something in one place.",
+ sSrc:"The Southeast {1} almost half of the country's GDP."}
 ]}
 
 ]}; export default UNIT_34;

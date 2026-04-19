@@ -52,6 +52,18 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
  deepDive:{title:"Gostar de + Verb",
   text:"With verbs, you also need 'de':\n\nGosto de ler. (I like to read.)\nEle gosta de cantar. (He likes to sing.)\nGostam de dançar. (They like to dance.)\n\nThe verb after 'de' stays in infinitive form. Think of 'de' as tying the two words together."}},
 
+{type:"fb", s:"O {1} é o esporte nacional do Brasil.",
+ a:["futebol"],
+ opts:["futebol","esporte","livro","filme"],
+ hint:"The sport Brazilians are most famous for, played with a round ball.",
+ sSrc:"{1} is the national sport of Brazil."},
+
+{type:"fb", s:"Vamos à {1} nadar! Está muito calor hoje.",
+ a:["praia"],
+ opts:["praia","música","filme","hobby"],
+ hint:"The sandy place by the ocean. Feminine noun.",
+ sSrc:"Let's go to the {1} to swim! It's very hot today."},
+
 {type:"mc", q:"How do you say 'I like football'?",
  opts:["Eu gosto futebol","Eu gosto de futebol","Eu futebol gosto","Eu sou futebol"],
  ans:"Eu gosto de futebol",

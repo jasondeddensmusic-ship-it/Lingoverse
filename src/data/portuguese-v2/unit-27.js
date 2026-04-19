@@ -98,7 +98,27 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
  q:"Which phrase means 'business plan'?",
  opts:["plano de vendas","plano de negócios","plano de mercado","plano de contrato"],
  ans:"plano de negócios",
- hint:"The plural noun form is used for 'business' here."}
+ hint:"The plural noun form is used for 'business' here."},
+
+{type:"fb",
+ s:"A {1} lançou um novo produto no mercado.",
+ a:["empresa"],
+ opts:["empresa","cliente","serviço","vendas"],
+ hint:"The commercial organization. Feminine noun.",
+ sSrc:"The {1} launched a new product on the market."},
+
+{type:"mc",
+ q:"What does 'serviço' in a restaurant bill usually mean?",
+ opts:["the menu","a 10% suggested tip","the order","the dish of the day"],
+ ans:"a 10% suggested tip",
+ hint:"An optional percentage added for the staff."},
+
+{type:"fb",
+ s:"O {1} brasileiro de trabalho é muito competitivo.",
+ a:["mercado"],
+ opts:["mercado","produto","serviço","cliente"],
+ hint:"Economic concept for where jobs are bought and sold.",
+ sSrc:"The Brazilian job {1} is very competitive."}
 ]},
 
 {id:"ptv2_u27l2", title:"The Economy", icon:"💰", xp:15, board:true, steps:[
@@ -152,6 +172,20 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
  text:"Many economic terms follow predictable Portuguese patterns:\n\n-ção endings = feminine (all abstract):\ninflação, deflação, recessão, expansão\n\n-o endings = mostly masculine:\ncusto, lucro, mercado, produto\n\n-os masculine plural only:\njuros (interest)\ndados (data)\nrendimentos (earnings)\n\n-a endings = usually feminine:\neconomia, empresa, moeda (currency)\n\nKnow the pattern and you know the gender for 80% of economic terms.",
  deepDive:{title:"The Selic Rate",
   text:"The Selic is Brazil's benchmark interest rate, set by the Central Bank (Banco Central). It controls the entire economy: savings, loans, mortgages, inflation. When the Selic rises, borrowing gets expensive and inflation cools. When it falls, credit flows and growth can speed up. Brazilian news talks about the Selic as Americans talk about Fed rates. Know the word 'Selic' for any real economic conversation in Brazil."}},
+
+{type:"fb",
+ s:"A empresa investiu muito e gerou {1} recorde.",
+ a:["lucro"],
+ opts:["lucro","custo","juros","inflação"],
+ hint:"The money earned after expenses. Opposite of prejuízo.",
+ sSrc:"The company invested a lot and generated a record {1}."},
+
+{type:"fb",
+ s:"O {1} de produção subiu por causa da inflação.",
+ a:["custo"],
+ opts:["custo","lucro","juros","economia"],
+ hint:"The expense required to produce something.",
+ sSrc:"The production {1} rose because of inflation."},
 
 {type:"mc",
  q:"What is the opposite of 'lucro'?",
@@ -253,6 +287,20 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
  text:"Business emails in Portuguese follow predictable openings and closings:\n\nOpenings:\nPrezado(a) Sr(a). X (Dear Mr/Mrs X, formal)\nCaro(a) X (Dear X, slightly warmer)\nOlá, X (Hi X, informal)\n\nClosings:\nAtenciosamente (Sincerely, formal)\nCordialmente (Cordially)\nAbraços (Hugs, warm but professional)\nAbs (Hugs, abbreviated, informal)\n\nThe formality level must match throughout. Do not open 'Prezado' and close 'Abs'.",
  deepDive:{title:"Brazilian Business Style",
   text:"Brazilian business culture values personal relationships. Cold, transactional emails feel rude. Even formal messages often include 'espero que esteja bem' (hope you're doing well). Meetings may open with personal chat before the agenda. In negotiations, Brazilians prefer indirect 'no'. 'Vou pensar' (I'll think about it) often means 'no'. 'Vamos conversar' (let's talk) often means 'not now'. Read between the lines."}},
+
+{type:"fb",
+ s:"Precisamos {1} o contrato antes de fechar.",
+ a:["negociar"],
+ opts:["negociar","pagar","fornecer","acordar"],
+ hint:"The verb for discussing terms and reaching a deal.",
+ sSrc:"We need to {1} the contract before closing."},
+
+{type:"fb",
+ s:"Finalmente chegamos a um {1} depois de três dias.",
+ a:["acordo"],
+ opts:["acordo","preço","proposta","fornecedor"],
+ hint:"The mutual understanding that ends a negotiation.",
+ sSrc:"We finally reached an {1} after three days."},
 
 {type:"mc",
  q:"Which word means 'proposal' in business?",

@@ -40,6 +40,26 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
  deepDive:{title:"Quanto vs Como",
   text:"In Portugal and older writing, 'como' sometimes replaces 'quanto' for equality: 'tão bonita como aquela'. In modern BR speech, 'tão... quanto' dominates. Both are correct, but 'quanto' sounds more neutral and current in Brazil. Hearing 'como' in this context often flags a European Portuguese speaker."}},
 
+{type:"fb",
+ s:"O Rio é {1} quente que Curitiba.",
+ a:["mais"],
+ opts:["mais","menos","tão","muito"],
+ hint:"Rio is hotter, so use the superiority word.",
+ sSrc:"Rio is {1} hot than Curitiba."},
+
+{type:"fb",
+ s:"Este café é {1} forte que aquele.",
+ a:["menos"],
+ opts:["menos","mais","tão","muito"],
+ hint:"This coffee is weaker, so use the inferiority word.",
+ sSrc:"This coffee is {1} strong than that one."},
+
+{type:"mc",
+ q:"Which word completes the equality pattern? 'tão bonita ___ aquela'",
+ opts:["que","como","de","quanto"],
+ ans:"quanto",
+ hint:"The equality frame is tão...quanto, not tão...que.",},
+
 {type:"mc",
  q:"How do you say 'hotter than'?",
  opts:["menos quente que","tão quente quanto","mais quente que","muito quente"],
@@ -114,6 +134,20 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
  text:"bom > melhor (good > better)\nmau / ruim > pior (bad > worse)\ngrande > maior (big > bigger)\npequeno > menor (small > smaller)\n\nCommon learner mistakes:\n\nWRONG: mais bom, mais mau, mais grande, mais pequeno\nRIGHT: melhor, pior, maior, menor\n\nThese forms are used for BOTH comparatives AND superlatives:\n\nO melhor livro do ano. (The best book of the year.)\nO pior dia da minha vida. (The worst day of my life.)",
  deepDive:{title:"Bem, Mal, and Their Comparatives",
   text:"The adverbs 'bem' (well) and 'mal' (badly) also have irregular comparatives: 'melhor' and 'pior'. Context tells you whether you are comparing an adjective or an adverb. 'Ele canta melhor' (He sings better, adverb) vs 'Este é melhor' (This one is better, adjective). Same word, different grammar role."}},
+
+{type:"fb",
+ s:"Este restaurante é {1} que ontem. A comida está ótima!",
+ a:["melhor"],
+ opts:["melhor","pior","maior","menor"],
+ hint:"The food is great, so things improved. Irregular comparative of bom.",
+ sSrc:"This restaurant is {1} than yesterday. The food is great!"},
+
+{type:"fb",
+ s:"O trânsito hoje está {1} que ontem, demorei duas horas.",
+ a:["pior"],
+ opts:["pior","melhor","menor","maior"],
+ hint:"The traffic got worse, not better. Irregular comparative of mau.",
+ sSrc:"Traffic today is {1} than yesterday, it took me two hours."},
 
 {type:"mc",
  q:"What is the comparative of 'bom'?",

@@ -60,6 +60,40 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
  ans:"to preserve",
  hint:"To keep something safe and intact over time. Sounds like the English cognate."},
 
+{type:"fb",
+ s:"Devemos {1} as florestas para as futuras gerações.",
+ a:["preservar"],
+ opts:["preservar","poluir","desmatar","ignorar"],
+ hint:"To protect and keep intact over time.",
+ sSrc:"We should {1} forests for future generations."},
+
+{type:"mc",
+ q:"Which is correct: 'o meio ambiente' or 'a meio ambiente'?",
+ opts:["a meio ambiente","o meio ambiente","um meio ambiente","as meio ambiente"],
+ ans:"o meio ambiente",
+ hint:"Meio ambiente is always masculine, despite what the ending suggests."},
+
+{type:"fb",
+ s:"O governo quer investir em {1}.",
+ a:["sustentabilidade"],
+ opts:["sustentabilidade","poluição","extinção","desmatamento"],
+ hint:"The practice of preserving resources for future generations. Longest option.",
+ sSrc:"The government wants to invest in {1}."},
+
+{type:"fb",
+ s:"Separar o lixo é o primeiro passo para a {1} doméstica.",
+ a:["reciclagem"],
+ opts:["reciclagem","poluição","extinção","sustentabilidade"],
+ hint:"Turning waste materials into new products. Starts with 'r'.",
+ sSrc:"Separating trash is the first step toward household {1}."},
+
+{type:"fb",
+ s:"Precisamos {1} as florestas e os rios para as próximas gerações.",
+ a:["proteger"],
+ opts:["proteger","poluir","desmatar","explorar"],
+ hint:"To actively defend and shield from harm.",
+ sSrc:"We need to {1} the forests and rivers for future generations."},
+
 {type:"match", pairs:[
  {trg:"meio ambiente", src:"environment"},
  {trg:"sustentabilidade", src:"sustainability"},
@@ -134,7 +168,34 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
  a:["espécies"],
  opts:["espécies","florestas","poluições","reciclagens"],
  hint:"Plural of a biological group. The word ends in -s already.",
- sSrc:"Many {1} are in danger of extinction."}
+ sSrc:"Many {1} are in danger of extinction."},
+
+{type:"mc",
+ q:"Which word describes the variety of life in an ecosystem?",
+ opts:["extinção","floresta","biodiversidade","espécie"],
+ ans:"biodiversidade",
+ hint:"Combines 'bio' (life) with diversity. Brazil has the world's highest amount."},
+
+{type:"fb",
+ s:"O {1} ilegal destrói milhares de hectares de floresta por ano.",
+ a:["desmatamento"],
+ opts:["desmatamento","aquecimento","reciclagem","ambiente"],
+ hint:"The clearing of forests, often illegal.",
+ sSrc:"Illegal {1} destroys thousands of hectares of forest per year."},
+
+{type:"mc",
+ q:"Which noun refers to a specific group of organisms that share genetics?",
+ opts:["biodiversidade","floresta","extinção","espécie"],
+ ans:"espécie",
+ hint:"Singular. Dogs are one, cats are another example."},
+
+{type:"match", pairs:[
+ {trg:"Amazônia", src:"Amazon (region)"},
+ {trg:"floresta", src:"forest"},
+ {trg:"desmatamento", src:"deforestation"},
+ {trg:"biodiversidade", src:"biodiversity"},
+ {trg:"extinção", src:"extinction"}
+]}
 ]},
 
 {id:"ptv2_u32l3", title:"Climate and Energy", icon:"☀️", xp:15, board:true, steps:[
@@ -191,14 +252,47 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
  hint:"The rising temperature of the planet.",
  sSrc:"Global {1} threatens ecosystems worldwide."},
 
+{type:"fb",
+ s:"A {1} é essencial para reduzir as emissões de carbono.",
+ a:["energia renovável"],
+ opts:["energia renovável","poluição","reciclagem","extinção"],
+ hint:"Energy from sources that replenish naturally: sun, wind, water. Two words.",
+ sSrc:"{1} is essential to reduce carbon emissions."},
+
+{type:"mc",
+ q:"Which of these contributes MOST to global warming?",
+ opts:["energia renovável","reciclagem","queima de combustíveis fósseis","biodiversidade"],
+ ans:"queima de combustíveis fósseis",
+ hint:"Burning oil, coal, and gas releases CO2 that traps heat."},
+
+{type:"fb",
+ s:"O {1} global causa o derretimento das calotas polares.",
+ a:["aquecimento"],
+ opts:["aquecimento","desmatamento","clima","ambiente"],
+ hint:"Rising temperature of the planet. Noun from the verb 'aquecer'.",
+ sSrc:"Global {1} causes the melting of polar ice caps."},
+
+{type:"fb",
+ s:"O Brasil produz mais de 80% da sua eletricidade com {1}.",
+ a:["energia renovável"],
+ opts:["energia renovável","combustível fóssil","poluição","extinção"],
+ hint:"Power generated from sources that naturally replenish. Two words.",
+ sSrc:"Brazil produces more than 80% of its electricity from {1}."},
+
+{type:"fb",
+ s:"O {1} da cidade é quente o ano todo por causa da sua localização.",
+ a:["clima"],
+ opts:["clima","aquecimento","desmatamento","ambiente"],
+ hint:"The long-term pattern of weather in a specific region.",
+ sSrc:"The city's {1} is hot all year because of its location."},
+
 {type:"match", pairs:[
  {trg:"clima", src:"climate"},
  {trg:"aquecimento global", src:"global warming"},
  {trg:"energia renovável", src:"renewable energy"},
  {trg:"preservar", src:"to preserve"},
  {trg:"proteger", src:"to protect"}
-]}
-,
+]},
 
 {type:"match", pairs:[
   {trg:"desmatamento", src:"deforestation"}

@@ -46,6 +46,18 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
  deepDive:{title:"Está vs É for Weather",
   text:"The distinction is crucial. 'Está' marks temporary states happening right now. 'É' marks permanent traits. 'Está quente' means it is hot right now. 'É quente' means this place is generally hot. Mix them up and you sound strange."}},
 
+{type:"fb", s:"O {1} está forte hoje. Vamos à praia?",
+ a:["sol"],
+ opts:["sol","vento","frio","tempo"],
+ hint:"The star that gives light and heat. Masculine noun.",
+ sSrc:"The {1} is strong today. Shall we go to the beach?"},
+
+{type:"fb", s:"Está muito {1}! Não preciso de casaco.",
+ a:["quente"],
+ opts:["quente","frio","nublado","ensolarado"],
+ hint:"The opposite of cold. No coat needed.",
+ sSrc:"It is very {1}! I don't need a jacket."},
+
 {type:"mc", q:"How do you say 'It is hot' in Brazilian Portuguese?",
  opts:["É quente","Está quente","Tem quente","Faz quente"],
  ans:"Está quente",
@@ -120,6 +132,18 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
  text:"Some verbs have no real subject. They describe weather events:\n\nchover (to rain) > chove, choveu, vai chover\nnevar (to snow) > neva, nevou\nventar (to be windy) > venta, ventou\n\nNever say 'eu chovo' or 'ele chove'. Only the 3rd person singular exists. The progressive form is common: 'está chovendo'.",
  deepDive:{title:"Weather 'Fazer' Expressions",
   text:"For many weather phenomena, Brazilians use 'fazer' (to make) impersonally. 'Faz sol' (it is sunny), 'faz frio' (it is cold), 'faz vento' (it is windy). This is equivalent to 'está' but slightly more formal and general. Both are correct."}},
+
+{type:"fb", s:"Está muito {1} lá fora. Melhor ficar em casa.",
+ a:["frio"],
+ opts:["frio","quente","nublado","ensolarado"],
+ hint:"The opposite of quente. Suggests staying indoors.",
+ sSrc:"It's very {1} outside. Better to stay home."},
+
+{type:"fb", s:"Vai {1} hoje. Leve guarda-chuva.",
+ a:["chover"],
+ opts:["chover","nevar","vento","sol"],
+ hint:"The impersonal verb for rain as a future event.",
+ sSrc:"It is going to {1} today. Take an umbrella."},
 
 {type:"mc", q:"Which is correct for 'It is raining'?",
  opts:["Eu chovo","Está chovendo","É chuva","Tem chovendo"],
@@ -200,6 +224,12 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
  text:"To say 'in summer' or 'in winter', use these contractions:\n\nno verão (in summer, m)\nno inverno (in winter, m)\nno outono (in autumn, m)\nna primavera (in spring, f)\n\nThe contractions come from em + o = no, em + a = na. The gender of the season decides which contraction you use.",
  deepDive:{title:"Brazilian vs European Seasons",
   text:"Brazil sits in the Southern Hemisphere. When Portugal has summer, Brazil has winter. This creates interesting contrasts: Brazilian Christmas is on a beach in high heat, while São João festivals in June happen in chilly evenings. Seasons depend entirely on your hemisphere."}},
+
+{type:"fb", s:"Gosto da {1} porque as flores desabrocham em setembro.",
+ a:["primavera"],
+ opts:["primavera","outono","inverno","verão"],
+ hint:"The season that blooms in September in Brazil. Feminine noun.",
+ sSrc:"I like {1} because the flowers bloom in September."},
 
 {type:"mc", q:"When is summer in Brazil?",
  opts:["June to August","March to May","December to February","September to November"],

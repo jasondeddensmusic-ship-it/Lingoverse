@@ -92,7 +92,27 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
  q:"What does 'música' mean in Brazilian Portuguese?",
  opts:["only music in general","only a specific song","both music and song","only classical music"],
  ans:"both music and song",
- hint:"Brazilian usage is broader than European usage here."}
+ hint:"Brazilian usage is broader than European usage here."},
+
+{type:"fb",
+ s:"A {1} de Portinari fica exposta em todo o mundo.",
+ a:["obra"],
+ opts:["obra","pintura","arte","literatura"],
+ hint:"A creative piece. Also used in 'obra-prima' (masterpiece).",
+ sSrc:"Portinari's {1} is exhibited all over the world."},
+
+{type:"mc",
+ q:"What is the feminine form of 'escritor'?",
+ opts:["escritorar","escritória","escritora","escrição"],
+ ans:"escritora",
+ hint:"Just add -a to the masculine form."},
+
+{type:"fb",
+ s:"O Cândido Portinari foi um grande {1} brasileiro.",
+ a:["pintor"],
+ opts:["pintor","escritor","músico","ator"],
+ hint:"A person who creates paintings.",
+ sSrc:"Cândido Portinari was a great Brazilian {1}."}
 ]},
 
 {id:"ptv2_u30l2", title:"Culture and Heritage", icon:"🏛️", xp:15, board:true, steps:[
@@ -187,7 +207,27 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
  q:"Which three are Brazil's 'root' cultures?",
  opts:["Spanish, French, German","Indigenous, European, African","Chinese, Japanese, Korean","Italian, Portuguese, Dutch"],
  ans:"Indigenous, European, African",
- hint:"The three foundational streams of Brazilian identity."}
+ hint:"The three foundational streams of Brazilian identity."},
+
+{type:"fb",
+ s:"O Carnaval de Rio é o maior {1} do mundo.",
+ a:["festival"],
+ opts:["festival","museu","exposição","herança"],
+ hint:"A large celebration or event. Carnaval is the biggest one.",
+ sSrc:"Rio Carnival is the largest {1} in the world."},
+
+{type:"mc",
+ q:"Which word means 'heritage' or 'inheritance'?",
+ opts:["identidade","cultura","herança","tradição"],
+ ans:"herança",
+ hint:"Something passed down from ancestors. Shares root with English 'heir'."},
+
+{type:"fb",
+ s:"A {1} brasileira mistura elementos indígenas, africanos e europeus.",
+ a:["cultura"],
+ opts:["cultura","tradição","herança","identidade"],
+ hint:"The arts, customs, and shared identity of a group.",
+ sSrc:"Brazilian {1} mixes indigenous, African, and European elements."}
 ]},
 
 {id:"ptv2_u30l3", title:"Performance and Entertainment", icon:"🎭", xp:15, board:true, steps:[

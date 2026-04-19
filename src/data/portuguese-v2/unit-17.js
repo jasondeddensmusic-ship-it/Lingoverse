@@ -47,6 +47,20 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
  exampleSrc:"A: And your sisters?\nB: I met them at the park.",
  funFact:"If even one person in the group is male, Portuguese switches to 'os'."},
 
+{type:"fb",
+ s:"Você conhece o Paulo? Sim, eu {1} vi ontem.",
+ a:["o"],
+ opts:["o","a","os","as"],
+ hint:"Paulo is masculine and singular. Use the matching direct object pronoun.",
+ sSrc:"Do you know Paulo? Yes, I saw {1} yesterday."},
+
+{type:"fb",
+ s:"Eu {1} amo muito, mamãe!",
+ a:["te"],
+ opts:["te","o","a","nos"],
+ hint:"You are speaking directly to your mother. Use the informal second-person pronoun.",
+ sSrc:"I love {1} very much, mom!"},
+
 {type:"mc",
  q:"Select the masculine singular accusative clitic:",
  opts:["a","o","os","as"],
@@ -127,6 +141,20 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
  example:"A: Ele mostrou a foto à Júlia?\nB: Sim, ele lhe mostrou tudo.",
  exampleSrc:"A: Did he show the photo to Júlia?\nB: Yes, he showed her everything.",
  funFact:"In spoken Brazilian, 'ele mostrou pra ela' is much more common than 'ele lhe mostrou'."},
+
+{type:"fb",
+ s:"Eu {1} dei um presente no Natal.",
+ a:["lhe"],
+ opts:["lhe","lhes","o","a"],
+ hint:"TO him or her. Singular indirect object.",
+ sSrc:"I gave {1} a gift at Christmas."},
+
+{type:"fb",
+ s:"Os estudantes perguntaram e a professora {1} respondeu.",
+ a:["lhes"],
+ opts:["lhes","lhe","os","as"],
+ hint:"She replied TO them. Plural indirect object.",
+ sSrc:"The students asked and the teacher replied to {1}."},
 
 {type:"mc",
  q:"Which pronoun fills the gap: 'Eu ___ dei um conselho aos meus irmãos.'",

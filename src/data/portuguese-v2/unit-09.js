@@ -52,6 +52,18 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  deepDive:{title:"Mão vs Não vs Mão",
   text:"Be careful with the tilde! 'Mão' (hand) sounds nasal. 'Não' (no) sounds similar but has a different meaning entirely. The nasal accent is crucial. Practice saying 'A mão não está' (The hand is not here) to train both sounds together."}},
 
+{type:"fb", s:"A {1} é a parte mais importante do corpo.",
+ a:["cabeça"],
+ opts:["cabeça","perna","mão","boca"],
+ hint:"The top part of your body, where your brain is.",
+ sSrc:"The {1} is the most important part of the body."},
+
+{type:"fb", s:"Tenho dois {1} e duas mãos.",
+ a:["pés"],
+ opts:["pés","olhos","pernas","bocas"],
+ hint:"Plural of pé. The body part at the end of your legs.",
+ sSrc:"I have two {1} and two hands."},
+
 {type:"mc", q:"Which word means 'the head'?",
  opts:["o corpo","a cabeça","a mão","o pé"],
  ans:"a cabeça",
@@ -137,6 +149,18 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  text:"The verb 'doer' (to hurt) flips English logic:\n\nDói-me a cabeça. (The head hurts me = My head hurts.)\nDoem-lhe os pés. (His feet hurt him.)\nDói-nos a perna. (Our leg hurts.)\n\nThe body part is the subject. The person is the indirect object (me, te, lhe, nos). In Brazil, people often say 'Minha cabeça dói' (My head hurts) which is simpler and equally correct.",
  deepDive:{title:"Formal vs Casual Pain",
   text:"The 'dói-me' construction is more formal and common in writing. In everyday Brazilian speech, you will hear 'Minha cabeça está doendo' (My head is hurting) far more often. Both are correct. Use 'dói-me' in careful speech, and the possessive form in daily conversation."}},
+
+{type:"fb", s:"Estou {1}, tenho febre e dor de cabeça.",
+ a:["doente"],
+ opts:["doente","bem","mal","cansado"],
+ hint:"The adjective for being sick, used with estar.",
+ sSrc:"I am {1}, I have a fever and headache."},
+
+{type:"fb", s:"Tenho {1} de barriga desde ontem.",
+ a:["dor"],
+ opts:["dor","febre","cansaço","remédio"],
+ hint:"The feminine noun for physical pain or ache.",
+ sSrc:"I've had a stomach {1} since yesterday."},
 
 {type:"mc", q:"How do you say 'I am sick'?",
  opts:["Eu sou doente","Estou doente","Eu tenho doente","Eu doente"],

@@ -54,6 +54,46 @@ const UNIT_31 = {n:31, lang:"pt", srcLang:"en", track:"v2", title:"História e p
  ans:"passado",
  hint:"The sentence describes something people did long ago, not now."},
 
+{type:"fb",
+ s:"O {1} estuda os eventos do passado.",
+ a:["historiador"],
+ opts:["historiador","escritor","médico","advogado"],
+ hint:"Someone who studies and writes about the past.",
+ sSrc:"The {1} studies events of the past."},
+
+{type:"mc",
+ q:"'O futuro' refers to:",
+ opts:["what happened yesterday","what is happening now","what will happen later","the distant past"],
+ ans:"what will happen later",
+ hint:"The time dimension that comes after the present."},
+
+{type:"fb",
+ s:"Vivemos no {1}, entre o passado e o futuro.",
+ a:["presente"],
+ opts:["presente","passado","futuro","século"],
+ hint:"The time that is happening right now.",
+ sSrc:"We live in the {1}, between the past and the future."},
+
+{type:"mc",
+ q:"História can mean both 'history' and:",
+ opts:["poem","story","lesson","century"],
+ ans:"story",
+ hint:"A narrative, whether fictional or factual."},
+
+{type:"fb",
+ s:"A {1} estuda os eventos do passado e do presente.",
+ a:["história"],
+ opts:["história","século","futuro","presente"],
+ hint:"The discipline and the subject — means both 'history' and 'story'.",
+ sSrc:"The {1} studies the events of the past and present."},
+
+{type:"fb",
+ s:"O {1} ainda está por vir. Ninguém sabe o que vai acontecer.",
+ a:["futuro"],
+ opts:["futuro","passado","século","presente"],
+ hint:"The time dimension that comes after the present.",
+ sSrc:"The {1} is yet to come. No one knows what will happen."},
+
 {type:"match", pairs:[
  {trg:"história", src:"history"},
  {trg:"século", src:"century"},
@@ -128,7 +168,48 @@ const UNIT_31 = {n:31, lang:"pt", srcLang:"en", track:"v2", title:"História e p
  a:["descobrimento"],
  opts:["descobrimento","império","passado","presente"],
  hint:"The event when Portuguese explorers first arrived.",
- sSrc:"The {1} of Brazil occurred in 1500."}
+ sSrc:"The {1} of Brazil occurred in 1500."},
+
+{type:"mc",
+ q:"Who signed the Lei Áurea, abolishing slavery in Brazil?",
+ opts:["Dom Pedro I","Dom Pedro II","Princesa Isabel","Getúlio Vargas"],
+ ans:"Princesa Isabel",
+ hint:"A princess who signed the landmark document in 1888."},
+
+{type:"fb",
+ s:"O Brasil proclamou sua {1} em 7 de setembro de 1822.",
+ a:["independência"],
+ opts:["independência","abolição","república","colônia"],
+ hint:"Freedom from foreign rule. Long feminine noun.",
+ sSrc:"Brazil proclaimed its {1} on September 7, 1822."},
+
+{type:"mc",
+ q:"Brazil was a Portuguese colony for approximately how long?",
+ opts:["100 years","200 years","300 years","500 years"],
+ ans:"300 years",
+ hint:"From 1500 to 1822 is roughly three centuries."},
+
+{type:"fb",
+ s:"A {1} foi a lei que libertou os escravizados no Brasil em 1888.",
+ a:["abolição"],
+ opts:["abolição","independência","colônia","império"],
+ hint:"The act of legally ending slavery. The noun matches the English root.",
+ sSrc:"The {1} was the law that freed enslaved people in Brazil in 1888."},
+
+{type:"fb",
+ s:"O Brasil foi o último país das Américas a decretar a {1} da escravatura.",
+ a:["abolição"],
+ opts:["abolição","independência","revolução","república"],
+ hint:"The formal end of slavery. Long feminine noun ending in -ção.",
+ sSrc:"Brazil was the last country in the Americas to decree the {1} of slavery."},
+
+{type:"match", pairs:[
+ {trg:"colônia", src:"colony"},
+ {trg:"descobrimento", src:"discovery"},
+ {trg:"independência", src:"independence"},
+ {trg:"abolição", src:"abolition"},
+ {trg:"escravidão", src:"slavery"}
+]}
 ]},
 
 {id:"ptv2_u31l3", title:"Conflict and Peace", icon:"⚔️", xp:15, board:true, steps:[
@@ -191,14 +272,33 @@ const UNIT_31 = {n:31, lang:"pt", srcLang:"en", track:"v2", title:"História e p
  hint:"The armed conflict that ends when peace is signed.",
  sSrc:"After the {1}, peace came."},
 
+{type:"fb",
+ s:"O Brasil virou uma {1} em 1889, quando a monarquia caiu.",
+ a:["república"],
+ opts:["república","colônia","império","guerra"],
+ hint:"The form of government that replaced the empire.",
+ sSrc:"Brazil became a {1} in 1889, when the monarchy fell."},
+
+{type:"mc",
+ q:"Which word is the OPPOSITE of 'guerra' (war)?",
+ opts:["revolução","império","paz","república"],
+ ans:"paz",
+ hint:"Three letters. The absence of armed conflict."},
+
+{type:"fb",
+ s:"A {1} de 1930 pôs fim à Primeira República.",
+ a:["Revolução"],
+ opts:["Revolução","Guerra","Paz","Abolição"],
+ hint:"A sudden political change that overturns the existing order.",
+ sSrc:"The 1930 {1} ended the First Republic."},
+
 {type:"match", pairs:[
  {trg:"revolução", src:"revolution"},
  {trg:"guerra", src:"war"},
  {trg:"paz", src:"peace"},
  {trg:"república", src:"republic"},
  {trg:"abolição", src:"abolition"}
-]}
-,
+]},
 
 {type:"match", pairs:[
   {trg:"independência", src:"independence"},

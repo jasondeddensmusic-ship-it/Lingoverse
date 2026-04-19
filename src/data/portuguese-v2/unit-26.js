@@ -52,6 +52,20 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
  deepDive:{title:"Verbs Behind the Nouns",
   text:"The verbs are 'descobrir' (to uncover, un-cover) and 'inventar' (to create). Both are irregular in some tenses. Descobrir shares roots with cover/cobrir, and inventar with vindo from Latin 'invenire' (to come upon). When Brazilians argue about whether Pedro Alvares Cabral 'descobriu' Brazil, they debate whether indigenous peoples counted as having 'found' the land first."}},
 
+{type:"fb",
+ s:"Ela é uma {1} brilhante e ganhou o prêmio Nobel.",
+ a:["cientista"],
+ opts:["cientista","pesquisa","teoria","descoberta"],
+ hint:"A person who works in science. Same form for both genders.",
+ sSrc:"She is a brilliant {1} and won the Nobel Prize."},
+
+{type:"fb",
+ s:"A {1} da penicilina salvou milhões de vidas.",
+ a:["descoberta"],
+ opts:["descoberta","invenção","teoria","pesquisa"],
+ hint:"Something that already existed but was found for the first time.",
+ sSrc:"The {1} of penicillin saved millions of lives."},
+
 {type:"mc",
  q:"Which word means 'experiment' in scientific context?",
  opts:["ciência","experiência","teoria","descoberta"],
@@ -152,6 +166,20 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
  text:"Portuguese translates some tech terms and keeps others:\n\nTranslated:\ncomputador (computer)\nrede (network)\ndados (data)\n\nKept in English:\nsoftware\nhardware\nsite (site)\ne-mail\nwifi\nstreaming\nbackup\n\nHybrid:\nnotebook (laptop)\nmouse (still 'mouse' but pronounced 'máus')\n\nRule of thumb: older tech concepts got translated. Newer ones stay English.",
  deepDive:{title:"Pronunciation of Loanwords",
   text:"English loanwords keep English spelling but get Portuguese pronunciation. 'Site' becomes 'sáiti' (two syllables). 'Download' becomes 'daunlóudi'. 'Email' becomes 'imêu'. The final vowel sound in Portuguese syllables is strong, so English words always gain an extra vowel at the end. This is why 'hot dog' becomes 'hóti dógui' on Brazilian street food carts."}},
+
+{type:"fb",
+ s:"A {1} artificial está mudando o mercado de trabalho.",
+ a:["inteligência"],
+ opts:["inteligência","tecnologia","pesquisa","rede"],
+ hint:"Combined with 'artificial', it forms a two-word term. Feminine noun.",
+ sSrc:"Artificial {1} is changing the job market."},
+
+{type:"fb",
+ s:"Meu {1} está muito lento, preciso comprar um novo.",
+ a:["computador"],
+ opts:["computador","software","algoritmo","dados"],
+ hint:"The machine itself, not the program. Portuguese native word.",
+ sSrc:"My {1} is very slow, I need to buy a new one."},
 
 {type:"mc",
  q:"Which word is always plural in Portuguese?",
@@ -279,6 +307,20 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
  opts:["programa","máquina","futuro","dado"],
  hint:"Software. A masculine Greek-origin noun.",
  sSrc:"This computer {1} is quite advanced."},
+
+{type:"fb",
+ s:"Nosso time vai {1} um aplicativo para o próximo semestre.",
+ a:["desenvolver"],
+ opts:["desenvolver","programar","inovar","automatizar"],
+ hint:"To build or create something, like software or a product.",
+ sSrc:"Our team is going to {1} an app for next semester."},
+
+{type:"fb",
+ s:"O {1} do trabalho preocupa muitos funcionários em setores industriais.",
+ a:["robô"],
+ opts:["robô","futuro","programa","máquina"],
+ hint:"A machine designed to do work autonomously. Ends in -ô.",
+ sSrc:"The {1} worries many employees in industrial sectors."},
 
 {type:"match", pairs:[
  {trg:"robô", src:"robot"},

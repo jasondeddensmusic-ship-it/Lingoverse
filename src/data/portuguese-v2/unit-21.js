@@ -19,7 +19,10 @@ const UNIT_21 = {
         {type:"teach", trg:"poderia", src:"could / would be able to", pos:"verb", gender:null, note:"Conditional of poder. Softens any request into politeness.", example:"A: Poderia me ajudar?\nB: Claro que sim.", exampleSrc:"A: Could you help me?\nB: Of course.", funFact:"Poderia is so polite it is used with strangers, waiters, and bosses, where English speakers might use could."},
         {type:"mc", q:"Polite way to ask 'Could you repeat?'", opts:["Pode repetir?","Poderia repetir?","Repete!","Repetiria?"], ans:"Poderia repetir?", hint:"The softest form uses the conditional of poder."},
         {type:"match", pairs:[{trg:"falaria", src:"I would speak"},{trg:"faria", src:"I would do"},{trg:"diria", src:"I would say"},{trg:"teria", src:"I would have"}]},
-        {type:"tip", title:"How to Form the Conditional", text:"For MOST verbs, just add -ia, -ias, -ia, -íamos, -íeis, -iam to the full infinitive.\nfalar -> falaria, falarias, falaria...\ncomer -> comeria, comerias...\npartir -> partiria, partirias...\nOnly THREE verbs shorten the stem: fazer (far-), dizer (dir-), trazer (trar-).", deepDive:"The conditional is the go-to tense for politeness in Portuguese, much more than in English. In spoken Brazilian, the imperfect tense often replaces the conditional: Eu queria um café (I wanted a coffee) is used where textbook Portuguese would say Eu quereria."}
+        {type:"fb", s:"Eu {1} mais se tivesse tempo.", a:"estudaria", sSrc:"I {1} more if I had time.", opts:["estudaria","estudo","estudei","estudava"], hint:"Conditional of estudar. Add -ia to the full infinitive."},
+{type:"mc", q:"Which three verbs shorten the conditional stem?", opts:["ser, estar, ter","falar, comer, partir","fazer, dizer, trazer","ir, vir, vir"], ans:"fazer, dizer, trazer", hint:"These three contract to far-, dir-, trar- before the -ia ending."},
+{type:"fb", s:"Com mais dinheiro, eu {1} uma casa nova.", a:"compraria", sSrc:"With more money, I {1} buy a new house.", opts:["compraria","compro","comprei","comprava"], hint:"Conditional of comprar. Add -ia to the infinitive."},
+{type:"tip", title:"How to Form the Conditional", text:"For MOST verbs, just add -ia, -ias, -ia, -íamos, -íeis, -iam to the full infinitive.\nfalar -> falaria, falarias, falaria...\ncomer -> comeria, comerias...\npartir -> partiria, partirias...\nOnly THREE verbs shorten the stem: fazer (far-), dizer (dir-), trazer (trar-).", deepDive:"The conditional is the go-to tense for politeness in Portuguese, much more than in English. In spoken Brazilian, the imperfect tense often replaces the conditional: Eu queria um café (I wanted a coffee) is used where textbook Portuguese would say Eu quereria."}
       ]
     },
     {
@@ -36,7 +39,10 @@ const UNIT_21 = {
         {type:"fb", s:"{1} eu pudesse, eu viajaria.", a:"Se", sSrc:"{1} I could, I would travel.", opts:["Se","Quando","Que","Para"], hint:"The hypothetical marker at the start of if-clauses."},
         {type:"tip", title:"If-Clause Structure", text:"The classic hypothetical:\nSe + imperfect subjunctive, conditional.\nSe eu tivesse tempo, viajaria. (If I had time, I would travel.)\nSe ela fosse rica, compraria a casa.\nBoth halves can swap: Viajaria se tivesse tempo.\nNever use se with the present subjunctive for hypotheticals.", deepDive:"Portuguese keeps the subjunctive alive where English has flattened it. English says 'if I was' in casual speech, but Portuguese still strictly uses se eu fosse. Getting this right is a clear B1 marker."},
         {type:"mc", q:"Complete: Se eu ___ você, aceitaria.", opts:["sou","era","fosse","seria"], ans:"fosse", hint:"If-clauses take the imperfect subjunctive."},
-        {type:"match", pairs:[{trg:"se eu fosse", src:"if I were"},{trg:"se eu tivesse", src:"if I had"},{trg:"se eu pudesse", src:"if I could"},{trg:"se eu falasse", src:"if I spoke"}]},
+        {type:"mc", q:"The imperfect subjunctive of 'ter' is:", opts:["tinha","tivesse","terei","teria"], ans:"tivesse", hint:"Used after 'se' for hypotheticals about possession."},
+{type:"fb", s:"Se eu {1} mais tempo, viajaria pelo Brasil.", a:"tivesse", sSrc:"If I {1} more time, I would travel around Brazil.", opts:["tivesse","teria","tinha","tenho"], hint:"Imperfect subjunctive of ter for a hypothetical condition."},
+{type:"mc", q:"Complete: 'Se ela ___ rica, compraria uma fazenda.'", opts:["é","foi","fosse","seria"], ans:"fosse", hint:"Hypothetical 'if' clause needs imperfect subjunctive."},
+{type:"match", pairs:[{trg:"se eu fosse", src:"if I were"},{trg:"se eu tivesse", src:"if I had"},{trg:"se eu pudesse", src:"if I could"},{trg:"se eu falasse", src:"if I spoke"}]},
         {type:"teach", trg:"quisera", src:"I wish / I wanted", pos:"verb", gender:null, note:"Poetic form of the imperfect subjunctive of querer. Often used for longing.", example:"A: Quisera estar lá.\nB: Um dia você vai.", exampleSrc:"A: I wish I were there.\nB: One day you will be.", funFact:"Quisera is a literary alternative to quisesse. It appears in bossa nova and MPB lyrics."}
       ]
     },
@@ -57,9 +63,14 @@ const UNIT_21 = {
         {type:"match", pairs:[{trg:"queria", src:"I would like"},{trg:"gostaria", src:"I would like (more formal)"},{trg:"poderia", src:"could you"},{trg:"por favor", src:"please"}]},
         {type:"tip", title:"The Brazilian Politeness Ladder", text:"From most casual to most polite:\n1. Quero (I want) - blunt, friends only\n2. Queria (I wanted / I'd like) - everyday soft\n3. Gostaria (I would like) - formal, restaurants\n4. Seria possível (would it be possible) - business, strangers\nAlways add por favor and obrigado/obrigada.", deepDive:"Brazilians use softer forms more readily than English speakers. What feels over-polite in English is just normal in Portuguese. When in doubt, go one step softer."},
         {type:"mc", q:"In a formal email, which opener is best?", opts:["Quero saber...","Gostaria de saber...","Sei que...","Pergunto..."], ans:"Gostaria de saber...", hint:"Conditional politeness is expected in Brazilian business writing."},
+{type:"fb", s:"Você {1} de esperar um momento?", a:"se importaria", sSrc:"Would you {1} waiting a moment?", opts:["se importaria","poderia","gostaria","queria"], hint:"Literally 'would you mind'. Reflexive + conditional."},
+{type:"mc", q:"Rank from MOST to LEAST polite: quero / queria / gostaria", opts:["quero, queria, gostaria","queria, gostaria, quero","gostaria, queria, quero","gostaria, quero, queria"], ans:"gostaria, queria, quero", hint:"Conditional is softest, present is bluntest."},
+{type:"fb", s:"{1} possível trocar a data da reunião?", a:"Seria", sSrc:"{1} it be possible to change the meeting date?", opts:["Seria","Será","É","Foi"], hint:"Conditional of ser. The softest way to make a formal request."},
 {type:"match", pairs:[
   {trg:"se eu fizesse", src:"if I did / if I made"},
-  {trg:"você se importaria", src:"would you mind"}
+  {trg:"você se importaria", src:"would you mind"},
+  {trg:"seria possível", src:"would it be possible"},
+  {trg:"queria", src:"I would like (soft)"}
 ]}
       ]
     }

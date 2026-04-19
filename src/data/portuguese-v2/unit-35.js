@@ -66,6 +66,32 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
  ans:"século XX",
  hint:"The 1900s. The century when urbanization exploded worldwide."},
 
+{type:"fb",
+ s:"A {1} social do Brasil é um dos maiores desafios do país.",
+ a:["desigualdade"],
+ opts:["desigualdade","imigração","urbanização","globalização"],
+ hint:"The gap between rich and poor. Long feminine noun.",
+ sSrc:"Social {1} is one of Brazil's greatest challenges."},
+
+{type:"mc",
+ q:"What does 'urbanização' describe?",
+ opts:["people moving abroad","growth of cities","farming expansion","beach tourism"],
+ ans:"growth of cities",
+ hint:"Brazil went from 30% to 85% urban in the 20th century."},
+
+{type:"fb",
+ s:"São Paulo tem a maior comunidade japonesa fora do {1}.",
+ a:["Japão"],
+ opts:["Japão","Brasil","Portugal","China"],
+ hint:"The country of origin of this diaspora community. Start with J.",
+ sSrc:"São Paulo has the largest Japanese community outside {1}."},
+
+{type:"mc",
+ q:"Which word best describes the complex urban communities in Rio?",
+ opts:["urbanização","globalização","favela","classe média"],
+ ans:"favela",
+ hint:"Informal settlements with strong community and culture."},
+
 {type:"match", pairs:[
  {trg:"globalização", src:"globalization"},
  {trg:"imigração", src:"immigration"},
@@ -140,7 +166,34 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
  a:["carnaval"],
  opts:["carnaval","jeitinho","futebol","sertão"],
  hint:"The biggest party on Earth. Happens in February or March.",
- sSrc:"Brazilian {1} is famous worldwide."}
+ sSrc:"Brazilian {1} is famous worldwide."},
+
+{type:"mc",
+ q:"Which sport is practically a religion in Brazil?",
+ opts:["capoeira","carnaval","futebol","samba"],
+ ans:"futebol",
+ hint:"Brazil is the only country to have played in every FIFA World Cup."},
+
+{type:"fb",
+ s:"O {1} é visto como algo criativo ou como esquivar-se das regras.",
+ a:["jeitinho"],
+ opts:["jeitinho","futebol","carnaval","saudade"],
+ hint:"A cultural concept about finding informal workarounds.",
+ sSrc:"The {1} is seen as something creative or as bending rules."},
+
+{type:"mc",
+ q:"Which word means 'diversity'?",
+ opts:["identidade","saudade","diversidade","jeitinho"],
+ ans:"diversidade",
+ hint:"Having many different kinds. Brazil prides itself on this."},
+
+{type:"match", pairs:[
+ {trg:"diversidade", src:"diversity"},
+ {trg:"identidade", src:"identity"},
+ {trg:"carnaval", src:"carnival"},
+ {trg:"futebol", src:"soccer"},
+ {trg:"jeitinho", src:"Brazilian workaround"}
+]}
 ]},
 
 {id:"ptv2_u35l3", title:"Economy and Progress", icon:"📈", xp:15, board:true, steps:[
@@ -209,11 +262,34 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
  q:"Brazil's economy is ranked among the world's top:",
  opts:["three","five","ten","twenty"],
  ans:"ten",
- hint:"Ninth largest. Which rank band does that fall into?"}
-,
+ hint:"Ninth largest. Which rank band does that fall into?"},
+
+{type:"fb",
+ s:"O Brasil investe em {1} para criar startups de sucesso.",
+ a:["inovação"],
+ opts:["inovação","desigualdade","migração","favela"],
+ hint:"Creating new products and ideas. Related to the English cognate.",
+ sSrc:"Brazil invests in {1} to create successful startups."},
+
+{type:"mc",
+ q:"What does 'PIB' stand for in Portuguese?",
+ opts:["Programa de Investimento Brasileiro","Produto Interno Bruto","Plano de Infraestrutura Básica","Partido Industrial Brasileiro"],
+ ans:"Produto Interno Bruto",
+ hint:"The total value of goods and services produced in a country. Starts with P-I-B."},
+
+{type:"fb",
+ s:"O {1} sustentável combina crescimento com preservação ambiental.",
+ a:["desenvolvimento"],
+ opts:["desenvolvimento","PIB","inovação","urbanização"],
+ hint:"Economic and social progress. Long masculine noun ending in -mento.",
+ sSrc:"Sustainable {1} combines growth with environmental preservation."},
 
 {type:"match", pairs:[
-  {trg:"identidade", src:"identity"}
+ {trg:"desenvolvimento", src:"development"},
+ {trg:"PIB", src:"GDP"},
+ {trg:"inovação", src:"innovation"},
+ {trg:"desigualdade", src:"inequality"},
+ {trg:"identidade", src:"identity"}
 ]}]}
 
 ]}; export default UNIT_35;

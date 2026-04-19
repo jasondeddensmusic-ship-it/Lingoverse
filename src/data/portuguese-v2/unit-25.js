@@ -52,6 +52,20 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
  deepDive:{title:"Latin Roots",
   text:"The -dade ending comes from Latin -tatem. Liberdade traces to 'libertatem', igualdade to 'aequalitatem'. This pattern unites Portuguese with Spanish -dad and Italian -ita. Learning one abstract value gives you the formula for dozens more. The gender is always feminine because Latin -tatem endings were feminine."}},
 
+{type:"fb",
+ s:"Todo {1} tem o direito de votar.",
+ a:["cidadão"],
+ opts:["cidadão","dever","lei","igualdade"],
+ hint:"Member of a political community. Masculine noun.",
+ sSrc:"Every {1} has the right to vote."},
+
+{type:"fb",
+ s:"A {1} entre todos é um valor democrático fundamental.",
+ a:["igualdade"],
+ opts:["igualdade","liberdade","responsabilidade","lei"],
+ hint:"Equal treatment for everyone. Opposite of inequality.",
+ sSrc:"{1} for all is a fundamental democratic value."},
+
 {type:"mc",
  q:"Which word means 'duty'?",
  opts:["direito","dever","lei","liberdade"],
@@ -77,6 +91,20 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
  opts:["liberdade","igualdade","responsabilidade","lei"],
  hint:"The freedom to speak. Core democratic value.",
  sSrc:"Freedom of expression is fundamental in democracy."},
+
+{type:"fb",
+ s:"Votar é um {1} de todo cidadão brasileiro.",
+ a:["dever"],
+ opts:["dever","direito","lei","responsabilidade"],
+ hint:"A civic obligation. Masculine noun, also used as 'to have to'.",
+ sSrc:"Voting is a {1} of every Brazilian citizen."},
+
+{type:"fb",
+ s:"A {1} proíbe discriminação por cor ou religião.",
+ a:["lei"],
+ opts:["lei","dever","cidadão","igualdade"],
+ hint:"A specific legal rule. Short feminine noun.",
+ sSrc:"The {1} prohibits discrimination based on color or religion."},
 
 {type:"match", pairs:[
  {trg:"direito", src:"right"},
@@ -145,6 +173,20 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
  text:"In Portuguese, you vote FOR a person or party using 'em', not 'por':\n\nVotei no candidato X. (I voted for candidate X)\nVotei no partido Y. (I voted for party Y)\n\nNot: votei por X.\n\nBut you DO use 'por' when giving the reason:\n\nVotei por ele por causa das propostas.\n(I voted for him because of the proposals.)\n\nThis 'por causa' means 'because of', not 'for'.",
  deepDive:{title:"Political Verb Patterns",
   text:"Portuguese verbs often attach to unexpected prepositions. 'Confiar em' (to trust), 'acreditar em' (to believe in), 'votar em' (to vote for). The pattern 'verb + em' for political and psychological actions is strong. Memorize the preposition with the verb. English speakers often say 'votar por' by mistake, which sounds like a translation."}},
+
+{type:"fb",
+ s:"A {1} social no Brasil ainda é um dos maiores desafios.",
+ a:["desigualdade"],
+ opts:["desigualdade","democracia","reforma","manifestação"],
+ hint:"The opposite of equality. A key social challenge.",
+ sSrc:"Social {1} in Brazil is still one of the biggest challenges."},
+
+{type:"fb",
+ s:"A {1} de expressão é um pilar da democracia.",
+ a:["liberdade"],
+ opts:["liberdade","igualdade","responsabilidade","lei"],
+ hint:"The right to speak freely. A core democratic value.",
+ sSrc:"Freedom of expression is a pillar of democracy."},
 
 {type:"mc",
  q:"How do you say 'to vote for someone' in Portuguese?",
@@ -281,6 +323,20 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
  opts:["Por exemplo","Na minha opinião","Por isso","De qualquer forma"],
  ans:"Na minha opinião",
  hint:"The B2 signature phrase for giving your view."},
+
+{type:"fb",
+ s:"A {1} civil exige mais responsabilidade dos governantes.",
+ a:["sociedade"],
+ opts:["sociedade","ética","opinião","princípio"],
+ hint:"The collective community. Ends in -dade.",
+ sSrc:"Civil {1} demands more accountability from leaders."},
+
+{type:"fb",
+ s:"Cada pessoa tem o direito de expressar sua {1}.",
+ a:["opinião"],
+ opts:["opinião","ética","sociedade","princípio"],
+ hint:"A personal view or standpoint. Used with 'na minha'.",
+ sSrc:"Every person has the right to express their {1}."},
 
 {type:"drag_fill",
  s:"Na minha {1}, precisamos de mais {2} na política.",
