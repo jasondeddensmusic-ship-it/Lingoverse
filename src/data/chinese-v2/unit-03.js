@@ -366,8 +366,8 @@ lessons:[
 
 {type:"teach", trg:"狗(gǒu)", src:"dog", pos:"noun", gender:null,
  note:"Third tone (dipping). The most common pet in China.\nThe dog radical 犬 appears in many animal characters.",
- example:"A: 你(nǐ)家(jiā)有(yǒu)狗(gǒu)吗(ma)？\nB: 有(yǒu)，我(wǒ)有(yǒu)一(yī)只(zhī)狗(gǒu)。",
- exampleSrc:"A: Does your family have a dog?\nB: Yes, I have one dog.",
+ example:"A: 你(nǐ)家(jiā)有(yǒu)狗(gǒu)吗(ma)？\nB: 有(yǒu)，我(wǒ)家(jiā)有(yǒu)狗(gǒu)。",
+ exampleSrc:"A: Does your family have a dog?\nB: Yes, my family has a dog.",
  funFact:"The year of the Dog (狗年) in the Chinese zodiac comes every twelve years. People born in Dog years are said to be loyal, honest, and hardworking. The dog has been a close companion in China for thousands of years."},
 
 {type:"teach", trg:"猫(māo)", src:"cat", pos:"noun", gender:null,
@@ -378,8 +378,8 @@ lessons:[
 
 {type:"teach", trg:"汉语(Hànyǔ)", src:"Chinese language / Mandarin", pos:"noun", gender:null,
  note:"汉 = Han (ethnic Chinese). 语 = language.\nAlso called 普通话(pǔtōnghuà) for standard Mandarin.",
- example:"A: 你(nǐ)学(xué)汉语(Hànyǔ)吗(ma)？\nB: 是(shì)，我(wǒ)在(zài)学(xué)汉语(Hànyǔ)。",
- exampleSrc:"A: Are you learning Chinese?\nB: Yes, I am learning Chinese.",
+ example:"A: 这(zhè)是(shì)汉语(Hànyǔ)吗(ma)？\nB: 是(shì)，这(zhè)是(shì)汉语(Hànyǔ)！",
+ exampleSrc:"A: Is this Chinese?\nB: Yes, this is Chinese!",
  funFact:"汉语 is named after the Han dynasty (206 BCE–220 CE), which unified China and spread Chinese culture. The Han people make up about 92% of China's population today, making 汉语 the world's most-spoken first language."},
 
 {type:"mc", q:"你家有没有狗(gǒu)？ What is this question asking?",

@@ -340,8 +340,8 @@ lessons:[
 
 {type:"teach", trg:"着(zhe)", src:"(ongoing state marker)", pos:"part", gender:null,
  note:"Attaches to a verb to show a continuous state or held posture.\nVerb + 着 = is in the state of doing.",
- example:"A: 她(tā)在(zài)看(kàn)着(zhe)你(nǐ)。\nB: 真的(zhēnde)吗(ma)？",
- exampleSrc:"A: She is looking at you (ongoing).\nB: Really?",
+ example:"A: 她(tā)在(zài)看(kàn)着(zhe)你(nǐ)。\nB: 是(shì)吗(ma)？",
+ exampleSrc:"A: She is looking at you (ongoing).\nB: Is that so?",
  funFact:"着 originally meant 'to wear' or 'to be attached to.' This evolved into a grammatical marker showing that an action clings to a moment — it is not finished but suspended in ongoing time."},
 
 {type:"tip", title:"正在 vs 着: Action vs State",

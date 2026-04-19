@@ -373,8 +373,8 @@ lessons:[
 
 {type:"teach", trg:"北京(Běijīng)", src:"Beijing", pos:"noun", gender:null,
  note:"北 (north) + 京 (capital). Literally: Northern Capital.\nCapital of China since 1421 (Ming dynasty).",
- example:"A: 你(nǐ)去(qù)过(guò)北京(Běijīng)吗(ma)？\nB: 没有(méiyǒu)，我(wǒ)想(xiǎng)去(qù)北京(Běijīng)！",
- exampleSrc:"A: Have you been to Beijing?\nB: No, I want to go to Beijing!",
+ example:"A: 你(nǐ)住(zhù)在(zài)北京(Běijīng)吗(ma)？\nB: 没有(méiyǒu)，我(wǒ)想(xiǎng)去(qù)北京(Běijīng)！",
+ exampleSrc:"A: Do you live in Beijing?\nB: No, but I want to go to Beijing!",
  funFact:"Beijing is written with 北 (north) + 京 (capital). Japan's 東京 (Tokyo) uses the same 京 character, meaning 'Eastern Capital.' Both cities are named by their direction from ancient power centers. China had both a Northern and Southern capital at different times."},
 
 {type:"teach", trg:"住(zhù)", src:"to live / to reside", pos:"verb", gender:null,
@@ -385,8 +385,8 @@ lessons:[
 
 {type:"teach", trg:"医生(yīshēng)", src:"doctor", pos:"noun", gender:null,
  note:"医 (medicine) + 生 (student/professional). Literally: medicine student/professional.\nMore formal than 大夫(dàifu) in most regions.",
- example:"A: 我(wǒ)不(bù)舒服(shūfu)，我(wǒ)想(xiǎng)看(kàn)医生(yīshēng)。\nB: 医院(yīyuàn)在(zài)前面(qiánmiàn)。",
- exampleSrc:"A: I do not feel well, I want to see a doctor.\nB: The hospital is ahead.",
+ example:"A: 我(wǒ)想(xiǎng)去(qù)医院(yīyuàn)，要(yào)医生(yīshēng)。\nB: 医院(yīyuàn)在(zài)前面(qiánmiàn)。",
+ exampleSrc:"A: I want to go to the hospital, I need a doctor.\nB: The hospital is ahead.",
  funFact:"看医生 literally means 'look at the doctor' but means 'see a doctor.' Chinese uses 看 for all kinds of consulting and viewing. You 看 a doctor the same way you 看 a movie. Both are about turning your attention toward something."},
 
 {type:"teach", trg:"先生(xiānsheng)", src:"mister / sir / husband", pos:"noun", gender:null,
