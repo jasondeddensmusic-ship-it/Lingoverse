@@ -190,6 +190,112 @@ const UNIT_17 = {
 
 {type:"match",pairs:[{trg:"〜れる・〜られる",src:"passive suffix (is done / was done)"}]}]},
 
+// ═══ L3: 連体修飾 (Relative Clauses) ═══
+{id:"jav2_u17l_rentai", title:"連体修飾(れんたいしゅうしょく)", icon:"🔗", xp:15, board:true, steps:[
+  {type:"intro", title:"連体修飾(れんたいしゅうしょく)",
+   desc:"In Japanese, whole clauses can directly modify nouns — placed before the noun, in plain form, with no relative pronoun needed. This is called rentai shuushoku (pre-nominal modification). Instead of 'the book that I read,' Japanese says 'I-read book': 私(わたし)が読(よ)んだ本(ほん)。 This single structure covers 'who,' 'which,' 'that,' and 'where' clauses in English.",
+   goals:["Form relative clauses with godan, ichidan, and irregular verbs in plain past form","Modify nouns with い-adjectives and な-adjectives directly","Understand the particle-drop rule inside relative clauses"]},
+
+  {type:"tip", title:"How Relative Clauses Work in Japanese",
+   text:"English: 'the book [that I read]' — relative pronoun 'that' links clause to noun.\nJapanese: [私(わたし)が読(よ)んだ] 本(ほん) — clause comes first, noun comes last. No connector word.\n\nStructure: [CLAUSE in plain form] + NOUN\n\nExamples:\n• 私(わたし)が読(よ)んだ本(ほん) = the book I read\n• 先生(せんせい)に褒(ほ)められた学生(がくせい) = the student who was praised by the teacher\n• 静(しず)かな場所(ばしょ) = a quiet place\n• 大(おお)きい公園(こうえん) = a big park\n\nKey rule: the verb or adjective inside the clause is always in plain form, never polite (ます/です).",
+   deepDive:{title:"The Particle-Drop Rule",
+    text:"Inside a relative clause, the subject is often marked with が, but it can also be marked with の instead:\n私(わたし)が読(よ)んだ本(ほん) = 私(わたし)の読(よ)んだ本(ほん) (both correct)\n\nThe topic particle は cannot appear inside a relative clause. If the original sentence has は, it disappears or shifts to が:\nOriginal: 私(わたし)は本(ほん)を読(よ)んだ。\nRelative: 私(わたし)が読(よ)んだ本(ほん) (は → が)\n\nThis は-to-が shift is one of the most important and most tested features of relative clauses at JLPT N4/N3."}},
+
+  {type:"teach", trg:"私(わたし)が読(よ)んだ本(ほん)", src:"the book I read (godan verb)", pos:"noun", gender:null,
+   note:"読(よ)む is a godan verb. Plain past: 読(よ)んだ.\n読(よ)んだ modifies 本(ほん) — no connector word needed.",
+   example:"A: あの本(ほん)はどうでしたか？\nB: 昨日(きのう)読(よ)んだ本(ほん)はとてもおもしろかったです。\nA: どんな内容(ないよう)ですか？\nB: 日本(にほん)の歴史(れきし)についての本(ほん)です。",
+   exampleSrc:"A: How was that book?\nB: The book I read yesterday was very interesting.\nA: What is it about?\nB: It is a book about the history of Japan.",
+   funFact:"読む (to read) is one of the most frequently relativized verbs in JLPT N4 reading tasks. The pattern 読んだ本 appears in almost every N4 grammar exam. Godan past-plain formation: む → んだ (the same ん contraction used in て-form)."},
+
+  {type:"teach", trg:"母(はは)が作(つく)った料理(りょうり)", src:"the dish my mother made (godan verb)", pos:"noun", gender:null,
+   note:"作(つく)る is a godan verb. Plain past: 作(つく)った.\n作(つく)った modifies 料理(りょうり).",
+   example:"A: この料理(りょうり)、おいしいですね。\nB: ありがとうございます。母(はは)が作(つく)った料理(りょうり)です。\nA: いつもおいしいですね。\nB: はい、母(はは)の料理(りょうり)が大好(だいす)きです。",
+   exampleSrc:"A: This dish is delicious!\nB: Thank you. It is a dish my mother made.\nA: It is always delicious.\nB: Yes, I love my mother's cooking.",
+   funFact:"作る (to make/cook) uses the godan past rule: る → った (not to be confused with ichidan verbs which also end in る but follow a different rule). The distinction — godan vs ichidan — is the core challenge of plain-form relative clauses."},
+
+  {type:"teach", trg:"昨日(きのう)食(た)べた寿司(すし)", src:"the sushi I ate yesterday (ichidan verb)", pos:"noun", gender:null,
+   note:"食(た)べる is an ichidan verb. Plain past: 食(た)べた.\nStem 食(た)べ + た → 食(た)べた.",
+   example:"A: 昨日(きのう)食(た)べた寿司(すし)はどうでしたか？\nB: とてもおいしかったです。\nA: どのお店(みせ)でしたか？\nB: 駅(えき)の近(ちか)くのお店(みせ)です。",
+   exampleSrc:"A: How was the sushi you ate yesterday?\nB: It was very delicious.\nA: Which restaurant was it?\nB: It is a restaurant near the station.",
+   funFact:"食べる (to eat) is an ichidan verb: the stem 食べ stays intact, and た attaches directly. Compare with the godan 読む → 読んだ. This godan/ichidan distinction is the most common source of errors on JLPT N4. The plain past form is identical to the form used in relative clauses."},
+
+  {type:"teach", trg:"先生(せんせい)がした説明(せつめい)", src:"the explanation the teacher did (irregular する)", pos:"noun", gender:null,
+   note:"する is an irregular verb. Plain past: した.\nした modifies 説明(せつめい).",
+   example:"A: 先生(せんせい)がした説明(せつめい)はわかりやすかったですか？\nB: はい、とてもわかりやすかったです。\nA: どんな内容(ないよう)でしたか？\nB: 受(う)け身(み)の使(つか)い方(かた)についてでした。",
+   exampleSrc:"A: Was the explanation the teacher gave easy to understand?\nB: Yes, it was very easy to understand.\nA: What was it about?\nB: It was about how to use the passive voice.",
+   funFact:"する → した is the most productive relativization in Japanese. Any noun + する compound can become a relative clause: 勉強(べんきょう)した内容(ないよう) (the content I studied), 練習(れんしゅう)した表現(ひょうげん) (the expression I practiced). This pattern is extremely common in academic and professional writing."},
+
+  {type:"teach", trg:"大(おお)きい公園(こうえん)", src:"a big park (い-adjective modifying noun)", pos:"noun", gender:null,
+   note:"い-adjectives modify nouns directly: 大(おお)きい + 公園(こうえん).\nNo change to the adjective form. Same as English word order.",
+   example:"A: 近(ちか)くに大(おお)きい公園(こうえん)がありますか？\nB: はい、駅(えき)の前(まえ)に大(おお)きい公園(こうえん)があります。\nA: よく行(い)きますか？\nB: 週末(しゅうまつ)によく行(い)きます。",
+   exampleSrc:"A: Is there a big park nearby?\nB: Yes, there is a big park in front of the station.\nA: Do you often go?\nB: I often go on weekends.",
+   funFact:"い-adjective modification is the simplest case of rentai shuushoku. The adjective sits directly before the noun with no change: 大きい公園, 小さい店, おいしい料理. This structure exists in English too ('big park'), but in Japanese it generalizes to full clauses — the same pattern that handles entire verb phrases."},
+
+  {type:"teach", trg:"静(しず)かな場所(ばしょ)", src:"a quiet place (な-adjective + な)", pos:"noun", gender:null,
+   note:"な-adjectives add な before a noun: 静(しず)か → 静(しず)かな.\nWithout な, 静(しず)か cannot directly precede a noun.",
+   example:"A: 静(しず)かな場所(ばしょ)で勉強(べんきょう)したいです。\nB: 公園(こうえん)はどうですか？\nA: 公園(こうえん)は遠(とお)いですか？\nB: いいえ、駅(えき)から歩(ある)いて五分(ごふん)ぐらいです。",
+   exampleSrc:"A: I want to study in a quiet place.\nB: How about the park?\nA: Is the park far?\nB: No, it is about five minutes' walk from the station.",
+   funFact:"な-adjectives (called 形容動詞 keiyou doushi in Japanese grammar) take な when modifying nouns and に when modifying verbs. 静か is the prototype na-adjective for JLPT N4 examples. The pair 静かな / 静かに (quiet / quietly) captures the two key uses perfectly."},
+
+  {type:"tip", title:"Common Learner Pitfalls",
+   text:"Pitfall 1: Using ます/です form inside relative clauses.\nWRONG: 読みます本 — verbs in relative clauses must be plain form.\nCORRECT: 読んだ本\n\nPitfall 2: Forgetting な for な-adjectives before nouns.\nWRONG: 静か場所 — the な connector is mandatory.\nCORRECT: 静かな場所\n\nPitfall 3: Leaving は inside the relative clause.\nWRONG: 私は読んだ本 — は cannot be the subject of a relative clause.\nCORRECT: 私が読んだ本\n\nPitfall 4: Placing the noun before the clause (English word order).\nWRONG: 本・私が読んだ\nCORRECT: 私が読んだ本 (clause + noun, always)",
+   deepDive:{title:"Non-Past Relative Clauses",
+    text:"Relative clauses also use the non-past plain form for present or future reference:\n\n今(いま)読(よ)んでいる本(ほん) = the book I am reading now (progressive)\n明日(あした)食(た)べる寿司(すし) = the sushi I will eat tomorrow (future)\n先生(せんせい)がする説明(せつめい) = the explanation the teacher will give\n\nThe て-form + いる construction inside a relative clause gives a progressive meaning. This is how Japanese handles 'the book I am reading' without a separate relative pronoun."}},
+
+  {type:"mc", q:"Which sentence correctly modifies 本(ほん) with a relative clause?", opts:["私(わたし)は読みます本(ほん)","私(わたし)が読(よ)んだ本(ほん)","読(よ)んだ私(わたし)の本(ほん)","本(ほん)私(わたし)が読(よ)んだ"],
+   ans:"私(わたし)が読(よ)んだ本(ほん)",
+   hint:"The clause uses plain past form and comes before the noun. は cannot be the subject inside a relative clause."},
+
+  {type:"mc", q:"母(はは)が作(つく)った料理(りょうり) is best translated as:", opts:["the mother who made food","food that made my mother","the dish my mother made","my mother makes food"],
+   ans:"the dish my mother made",
+   hint:"作った modifies 料理 — the clause describes which one. The agent (母) appears inside the clause with が."},
+
+  {type:"fb", s:"昨日(きのう)食(た)べた{1}はとてもおいしかったです。\n(The sushi I ate yesterday was very delicious.)",
+   a:"寿司(すし)", opts:["寿司(すし)","駅(えき)","公園(こうえん)","料理(りょうり)"],
+   hint:"昨日食べた modifies the noun that was eaten. Which noun fits: the thing you eat at a Japanese restaurant?",
+   sSrc:"The {1} I ate yesterday was very delicious."},
+
+  {type:"fb", s:"勉強(べんきょう)できる静(しず)か{1}場所(ばしょ)を探(さが)しています。\n(I am looking for a quiet place where I can study.)",
+   a:"な", opts:["な","に","が","の"],
+   hint:"な-adjectives need this connector when placed directly before a noun. Without it the sentence is ungrammatical.",
+   sSrc:"I am looking for a quiet {1} place to study."},
+
+  {type:"mc", q:"Which particle CANNOT appear as the subject marker inside a relative clause?", opts:["が","の","を","は"],
+   ans:"は",
+   hint:"The topic particle は cannot appear inside a relative clause. The subject shifts to が (or の) inside the clause."},
+
+  {type:"drag_fill",
+   s:"先生(せんせい)が{1}説明(せつめい)はわかりやすかったです。\n(The explanation the teacher gave was easy to understand.)",
+   blanks:{"1":"した"},
+   pool:["した","する","して","します"],
+   hint:"する is irregular. Its plain past form is した. Relative clauses require plain form.",
+   sSrc:"The explanation the teacher {1} was easy to understand."},
+
+  {type:"match", pairs:[
+    {trg:"私(わたし)が読(よ)んだ本(ほん)", src:"the book I read"},
+    {trg:"母(はは)が作(つく)った料理(りょうり)", src:"the dish my mother made"},
+    {trg:"静(しず)かな場所(ばしょ)", src:"a quiet place"},
+    {trg:"先生(せんせい)がした説明(せつめい)", src:"the explanation the teacher gave"}
+  ]},
+
+  {type:"mc", q:"昨日(きのう)食(た)べた寿司(すし) — which verb type is 食(た)べる?", opts:["godan (う-verb)","ichidan (る-verb)","irregular","auxiliary"],
+   ans:"ichidan (る-verb)",
+   hint:"These verbs end in る and their stem takes た directly: 食べ + た → 食べた. The other class needs a different ending."},
+
+  {type:"fb", s:"大(おお)きい{1}の前(まえ)で待(ま)っています。\n(I am waiting in front of the big park.)",
+   a:"公園(こうえん)", opts:["公園(こうえん)","駅(えき)","病院(びょういん)","銀行(ぎんこう)"],
+   hint:"大きい modifies a place. Which place word fits a big outdoor space in a neighborhood?",
+   sSrc:"I am waiting in front of the big {1}."},
+
+  {type:"match", pairs:[
+    {trg:"読(よ)んだ", src:"plain past of 読む (godan)"},
+    {trg:"食(た)べた", src:"plain past of 食べる (ichidan)"},
+    {trg:"した", src:"plain past of する (irregular)"},
+    {trg:"静(しず)かな", src:"な-adjective before a noun"}
+  ]}
+
+]},
+
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01
 ,BATCH2_L02

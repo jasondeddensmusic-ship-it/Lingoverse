@@ -283,6 +283,12 @@ const UNIT_14 = {
        exampleSrc:"A: I heard that Marco resigned.\nB: Yes, he found a better job.\nA: Where is he going to work now?\nB: At a large company in Milan. An excellent opportunity.",
        funFact:"'Dimettersi' is reflexive: literally 'to dismiss oneself.' In Italian employment law, resignation requires written notice ('preavviso'), usually 15 to 90 days depending on the contract. Leaving without notice can result in a financial penalty."},
 
+      {type:"tip", title:"Passato Prossimo vs Imperfetto",
+       text:"Both are past tenses. The key difference is HOW you see the action.\n\nPassato prossimo — completed, specific events:\nIeri ho lavorato fino alle otto. (Yesterday I worked until eight.)\nMi hanno assunto lunedi. (They hired me on Monday.)\nUse it for: single completed events, sequences of events, reactions.\n\nImperfetto — ongoing, habitual, or descriptive:\nLavoravo in una banca per anni. (I used to work at a bank for years.)\nMentre lavoravo, ha chiamato il capo. (While I was working, the boss called.)\nUse it for: habits in the past, background descriptions, interrupted actions.\n\nThe quick test:\nCan you say 'was doing' or 'used to do'? Use imperfetto.\nDid it happen once, completely? Use passato prossimo.\n\nTogether in a story:\nImperfetto sets the scene. Passato prossimo moves the plot.",
+       icon:"💡",
+       deepDive:{title:"The narrative engine of Italian",
+        text:"Italian learners call this distinction the hardest grammar challenge after the subjunctive. The trick is to see time cinematically. The imperfetto is the camera holding on a scene: 'Era tardi, pioveva, e lavoravo ancora.' (It was late, it was raining, and I was still working.) Then the passato prossimo is a cut: 'Poi ha telefonato Marco.' (Then Marco called.) The imperfetto creates the atmosphere; the passato prossimo creates the event. Verbs of emotion and state (pensare, volere, essere, avere) often prefer the imperfetto in past contexts because they describe conditions, not events: 'Ero stanco' (I was tired) not 'Ho stato stanco.'"}},
+
       // Quiz steps
       {type:"mc", q:"What is 'la scadenza'?",
        opts:["The deadline","The meeting","The salary","The promotion"],

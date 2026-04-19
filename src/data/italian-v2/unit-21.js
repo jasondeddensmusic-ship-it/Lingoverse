@@ -174,6 +174,12 @@ const UNIT_21 = {
        deepDive:{title:"Why Conditional = Future + Different Endings",
         text:"The Italian conditional evolved from the Latin infinitive plus the imperfect of 'avere' (habebam). The future evolved from the infinitive plus the present of 'avere' (habeo). This is why both tenses share the same irregular stems. Knowing the future automatically gives you the conditional."}},
 
+      {type:"tip", title:"Trapassato Prossimo (Past Perfect)",
+       text:"The trapassato prossimo expresses an action that was ALREADY completed before another past action.\n\nFormation: avere/essere (imperfect) + past participle\nWith avere: avevo, avevi, aveva, avevamo, avevate, avevano + past participle\nWith essere: ero, eri, era, eravamo, eravate, erano + past participle\n\nExamples:\nQuando sono arrivato, Maria era gia partita.\n(When I arrived, Maria had already left.)\nNon avevo mai mangiato il risotto prima.\n(I had never eaten risotto before.)\nEra tornata a casa quando ha chiamato.\n(She had returned home when he called.)\n\nChoosing the auxiliary:\nSame rule as passato prossimo: avere with transitive verbs, essere with motion/state verbs.\nAvoiding 'had left': partire uses essere > era partita.\nAvoiding 'had eaten': mangiare uses avere > aveva mangiato.\n\nThe trapassato sets the earlier scene. The passato prossimo or imperfetto describes what happened next.",
+       icon:"💡",
+       deepDive:{title:"Trapassato vs condizionale passato",
+        text:"The trapassato prossimo pairs naturally with the conditional perfect (condizionale passato) in hypothetical sentences: 'Se avessi studiato di piu, avresti superato l'esame' (If you had studied more, you would have passed the exam). The 'if' clause uses the trapassato prossimo; the result clause uses the conditional perfect (avrei, avresti... + past participle). This is the Italian equivalent of English third conditional. The trapassato is also frequent in narrative writing to show what had happened before the main story events begin, exactly as the English past perfect works in literature."}},
+
       // Quiz steps
       {type:"mc", q:"What happens to -are verbs in the conditional?",
        opts:["The -a changes to -e: parlare > parler-","Nothing at all changes in the verb stem","The -a changes to an -i sound instead","The -a ending is simply dropped completely"],

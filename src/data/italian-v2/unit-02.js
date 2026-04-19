@@ -74,6 +74,12 @@ const UNIT_02 = {
        exampleSrc:"A: How much is the rent?\nB: A thousand euros per month.",
        funFact:"'Grazie mille' (a thousand thanks) uses the singular mille. For the year 2000, Italians say 'Duemila' with the irregular plural mila."},
 
+      {type:"tip", title:"Asking Questions in Italian",
+       text:"Italian questions are simpler than English: just raise your intonation. No do/does needed.\n\nParli italiano? (Do you speak Italian?) — same word order, different intonation.\n\nQuestion words:\nChi? — Who? Chi e? (Who is it?)\nChe cosa? / Cosa? — What? Cosa fai? (What are you doing?)\nDove? — Where? Dove abiti? (Where do you live?)\nQuando? — When? Quando parti? (When do you leave?)\nPerche? — Why? Also means 'because' in answers.\nCome? — How? Come stai? (How are you?)\nQuanto/a? — How much? Quanto costa? (How much does it cost?)\nQuali/Quale? — Which? Quale preferisci?\n\nNote: perche means both 'why' and 'because' depending on position.",
+       icon:"💡",
+       deepDive:{title:"Question formation and word order",
+        text:"Italian does not invert subject and verb for questions the way English does. 'Parli italiano?' and 'Tu parli italiano?' are both correct questions. The question mark at the end (or rising intonation in speech) is what signals a question. More formal or precise questions use a question word at the start: 'Dove abiti?' (Where do you live?). With 'perche,' the same word serves as both the question (perche studi?) and the connector in the answer (perche voglio imparare). French works the same way: pourquoi/parce que. Italian keeps it simpler with one word."}},
+
       // Quiz steps
       {type:"mc", q:"Come si dice '5' in italiano?",
        opts:["Cinque","Quattro","Sei","Tre"],

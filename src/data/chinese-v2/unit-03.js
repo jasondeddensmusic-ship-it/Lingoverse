@@ -344,6 +344,78 @@ lessons:[
  opts:["It negates the sentence","It connects two sentences","It shows possession: my","It asks a question"],
  ans:"It shows possession: my",
  hint:"\u7684 links the pronoun \u6211 to \u5BB6, showing that the family belongs to the speaker."}
+]},
+
+// ═══ L5: Family Conversations — HSK 1 Essentials ═══
+{id:"zhv2_u3l5", title:"Who? Pets? Essential Words", icon:"🐾", xp:15, board:true, steps:[
+{type:"intro", title:"Who? Pets? Essential Words",
+ desc:"Learn five essential HSK 1 words: the question word 'who,' the negative 'don't have,' plus the Chinese words for dog, cat, and the Chinese language itself.",
+ goals:["Ask 'who' with 谁","Use 没有 as a standalone negative","Name common pets in Chinese"]},
+
+{type:"teach", trg:"谁(shuí)", src:"who", pos:"pron", gender:null,
+ note:"Question word meaning 'who' or 'whose.'\nStays in the same position as the answer.",
+ example:"A: 那(nà)个(gè)人(rén)是(shì)谁(shuí)？\nB: 那(nà)是(shì)我(wǒ)的(de)妈妈(māma)。",
+ exampleSrc:"A: Who is that person?\nB: That is my mom.",
+ funFact:"谁 can also be pronounced shéi — both tones are correct. You will hear both in natural speech. The shéi pronunciation is more common in northern China."},
+
+{type:"teach", trg:"没有(méiyǒu)", src:"to not have / there is no", pos:"verb", gender:null,
+ note:"The complete negative form of 有 (to have).\n没有 = do not have. 没 alone also appears before 有 in sentences.",
+ example:"A: 你(nǐ)有(yǒu)弟弟(dìdi)吗(ma)？\nB: 没有(méiyǒu)，我(wǒ)没有(méiyǒu)弟弟(dìdi)。",
+ exampleSrc:"A: Do you have a younger brother?\nB: No, I do not have a younger brother.",
+ funFact:"没有 is often used as a one-word answer to yes/no questions with 有: 'Do you have a car?' '没有.' It works like English 'nope' — short, complete, and conversational."},
+
+{type:"teach", trg:"狗(gǒu)", src:"dog", pos:"noun", gender:null,
+ note:"Third tone (dipping). The most common pet in China.\nThe dog radical 犬 appears in many animal characters.",
+ example:"A: 你(nǐ)家(jiā)有(yǒu)狗(gǒu)吗(ma)？\nB: 有(yǒu)，我(wǒ)有(yǒu)一(yī)只(zhī)狗(gǒu)。",
+ exampleSrc:"A: Does your family have a dog?\nB: Yes, I have one dog.",
+ funFact:"The year of the Dog (狗年) in the Chinese zodiac comes every twelve years. People born in Dog years are said to be loyal, honest, and hardworking. The dog has been a close companion in China for thousands of years."},
+
+{type:"teach", trg:"猫(māo)", src:"cat", pos:"noun", gender:null,
+ note:"First tone (high flat). Cats are beloved pets in China.\n猫 sounds somewhat like a meow — it may be onomatopoeic.",
+ example:"A: 你(nǐ)喜欢(xǐhuan)狗(gǒu)还是(háishi)猫(māo)？\nB: 我(wǒ)喜欢(xǐhuan)猫(māo)！",
+ exampleSrc:"A: Do you prefer dogs or cats?\nB: I like cats!",
+ funFact:"The Chinese internet has a famous saying: 吸猫 (xī māo), literally 'cat sniffing,' meaning the joy of being around cats. Chinese social media is full of cat content, just like everywhere else in the world."},
+
+{type:"teach", trg:"汉语(Hànyǔ)", src:"Chinese language / Mandarin", pos:"noun", gender:null,
+ note:"汉 = Han (ethnic Chinese). 语 = language.\nAlso called 普通话(pǔtōnghuà) for standard Mandarin.",
+ example:"A: 你(nǐ)学(xué)汉语(Hànyǔ)吗(ma)？\nB: 是(shì)，我(wǒ)在(zài)学(xué)汉语(Hànyǔ)。",
+ exampleSrc:"A: Are you learning Chinese?\nB: Yes, I am learning Chinese.",
+ funFact:"汉语 is named after the Han dynasty (206 BCE–220 CE), which unified China and spread Chinese culture. The Han people make up about 92% of China's population today, making 汉语 the world's most-spoken first language."},
+
+{type:"mc", q:"你家有没有狗(gǒu)？ What is this question asking?",
+ opts:["Do you have a cat?","Does your family have a dog?","Where is your dog?","How many dogs do you have?"],
+ ans:"Does your family have a dog?",
+ hint:"家 is the word for household members. 有没有 is a yes/no pattern. Check which animal appears."},
+
+{type:"match", pairs:[
+  {trg:"谁(shuí)", src:"who"},
+  {trg:"没有(méiyǒu)", src:"to not have"},
+  {trg:"狗(gǒu)", src:"dog"},
+  {trg:"猫(māo)", src:"cat"},
+  {trg:"汉语(Hànyǔ)", src:"Chinese language"}
+]},
+
+{type:"fb", s:"那(nà)个(gè)人(rén)是(shì){1}？",
+ a:["谁(shuí)"],
+ opts:["谁(shuí)","什么(shénme)","哪(nǎ)","这(zhè)"],
+ hint:"Which question word asks about a person's identity — 'who' rather than 'what' or 'which'?",
+ sSrc:"Who is that person?"},
+
+{type:"mc", q:"没有(méiyǒu) is the negative form of which verb?",
+ opts:["是(shì)","不(bù)","有(yǒu)","好(hǎo)"],
+ ans:"有(yǒu)",
+ hint:"This verb means 'to have.' Its special negative is 没有, not 不有."},
+
+{type:"fb", s:"A: 你(nǐ)有(yǒu)猫(māo)吗(ma)？\nB: {1}，我(wǒ)没(méi)有(yǒu)猫(māo)。",
+ a:["没有(méiyǒu)"],
+ opts:["没有(méiyǒu)","不是(búshì)","有(yǒu)","好(hǎo)"],
+ hint:"This is a negative answer to 'do you have.' The verb 有 takes a special short negation word — not the general 不.",
+ sSrc:"A: Do you have a cat?\nB: {1}, I do not have a cat."},
+
+{type:"mc", q:"汉语(Hànyǔ) is named after which Chinese dynasty?",
+ opts:["Tang dynasty","Qin dynasty","Ming dynasty","Han dynasty"],
+ ans:"Han dynasty",
+ hint:"The 汉 in 汉语 names the ruling group whose period (206 BCE–220 CE) unified the country."}
 ]}
 
 ]};

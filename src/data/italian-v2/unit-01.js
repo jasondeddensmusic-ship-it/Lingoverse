@@ -109,6 +109,12 @@ const UNIT_01 = {
 
       {type:"tip", title:"🎁 Italian cognates you already know", text:"Italian and English share thousands of Latinate words:\n\naction → azione\nuniversity → università\npossibility → possibilità\ninformation → informazione\nexactly → esattamente\nhistory → storia\n\nPattern 1: English -tion → Italian -zione\nPattern 2: English -ty → Italian -tà\nPattern 3: English -ly → Italian -mente\n\nYou already recognize thousands of Italian words. Don't memorize them. Notice the suffix swaps.", icon:"🎁", deepDive:{title:"Latin is the shared grandparent", text:"Italian descends directly from Latin. English absorbed Latinate vocabulary through the Norman conquest (1066) and later scholarly borrowing. The result: English has a Latinate half that IS Italian with suffix swaps.\n\n'Action' is azione. 'Possibility' is possibilità. 'Probably' is probabilmente. Once you know the three main patterns (-tion↔-zione, -ty↔-tà, -ly↔-mente), you unlock thousands of words with zero memorization.\n\nFalse-friend warning: 'fattoria' means 'farm', not 'factory'. 'educato' means 'polite', not 'educated'. Maybe 4% of cognates drift; the other 96% are reliable free vocabulary."}},
 
+      {type:"tip", title:"Negation in Italian",
+       text:"Italian negation is simple: place non before the verb.\n\nnon + verb:\nNon parlo tedesco. (I don't speak German.)\nNon ho fame. (I'm not hungry.)\n\nDouble negatives are CORRECT in Italian (unlike English):\nnon ... mai (never): Non vado mai al cinema.\nnon ... niente (nothing): Non ho niente.\nnon ... nessuno (nobody): Non conosco nessuno.\nnon ... ancora (not yet): Non e ancora arrivato.\n\nWithout non (at sentence start):\nNessuno lo sa. (Nobody knows.)\nNiente e impossibile. (Nothing is impossible.)",
+       icon:"💡",
+       deepDive:{title:"Why Italian double negatives are correct",
+        text:"Italian grammar requires negative words (mai, niente, nessuno) to co-exist with non. This is called concord negation and is the original Latin pattern. English removed double negation in the 1700s for 'logical' reasons, but most of the world's languages use it. Italian non ... mai is exactly how Latin worked: non ... numquam. Think of it as non setting the negative frame, with the extra word reinforcing it."}},
+
       // Quiz steps
       {type:"mc", q:"Come si dice 'good morning' in italiano?",
        opts:["Buongiorno","Buonanotte","Arrivederci","Prego"],
@@ -222,6 +228,12 @@ const UNIT_01 = {
        exampleSrc:"A: What do you study?\nB: I study medicine at the university.",
        funFact:"Lo studio as a noun has multiple meanings: a study room, a professional office (studio medico = doctor's office), or an artist's studio. All from Latin 'studium' (eagerness)."},
 {type:"match",pairs:[{trg:"parlo",src:"I speak"},{trg:"un po'",src:"a little / a bit"},{trg:"lavoro",src:"I work / job"},{trg:"studio",src:"I study"}]},
+
+      {type:"tip", title:"Subject Pronouns",
+       text:"Italian subject pronouns are usually optional because verb endings already show who is doing the action.\n\nSingular:\nio - I (often dropped)\ntu - you (informal)\nlui - he\nlei - she\nLei - you (formal, always capitalized)\n\nPlural:\nnoi - we\nvoi - you all\nloro - they\n\nWhen to use the pronoun:\n- For emphasis: Io non lo so, ma TU si! (I don't know, but YOU do!)\n- After conjunctions: anche lui (he too), solo lei (only she)\n- Formal Lei is always capitalized in writing.",
+       icon:"💡",
+       deepDive:{title:"Why Italian drops subject pronouns",
+        text:"Italian is a pro-drop language: the subject pronoun is encoded in the verb ending itself. Parlo (I speak) is complete without io. Adding io creates emphasis: 'Io parlo italiano' stresses that I specifically speak it. The formal Lei (capitalized) is historically fascinating: it descends from Renaissance courtesy forms meaning 'Your Grace.' Italians addressed the powerful in third person, and over time Lei became the standard formal 'you.' This is why formal verbs use third-person endings: Lei parla (you speak, formal) uses the same form as lei parla (she speaks)."}},
 
       // Quiz steps
       {type:"mc", q:"Come si dice 'I am Italian'?",

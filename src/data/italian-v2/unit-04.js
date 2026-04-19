@@ -94,6 +94,12 @@ const UNIT_04 = {
         {trg:"il gelato", src:"the ice cream"}
       ]},
 
+      {type:"tip", title:"Definite Articles: il, lo, la, l', i, gli, le",
+       text:"Italian has 7 definite articles. The right form depends on gender, number, and the first sound of the word.\n\nMasculine singular:\nil — before most consonants: il caffe, il vino\nlo — before s+consonant, z, gn, ps: lo zucchero\nl' — before vowels: l'amico\n\nFeminine singular:\nla — before consonants: la pizza, la birra\nl' — before vowels: l'acqua, l'amica\n\nPlural:\ni — masculine (most): i panini, i vini\ngli — masculine (vowel or special clusters): gli amici\nle — all feminine: le pizze, le birre\n\nThe article is part of the word. Learn nouns with their article.",
+       icon:"💡",
+       deepDive:{title:"Why so many articles?",
+        text:"Italian articles encode gender AND phonology. The phonological rules (il vs. lo, la vs. l') exist for smooth pronunciation. 'Il zucchero' would clash because two consonants in a row is awkward. 'Lo zucchero' flows. Same with 'la acqua' vs. 'l'acqua.' Italian always chooses the path of least resistance phonologically. The best strategy: never learn a noun alone. Always learn it as 'il caffe,' 'la pizza,' 'lo zucchero.' The article locks in gender."}},
+
       {type:"mc", q:"What is the correct plural of 'panino'?",
        opts:["Paninos","Panini","Paninis","Panine"],
        ans:"Panini",

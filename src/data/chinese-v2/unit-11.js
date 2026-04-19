@@ -324,6 +324,84 @@ lessons:[
  blanks:{"1":"喜欢(xǐhuan)","2":"爱(ài)"},
  pool:["喜欢(xǐhuan)","爱(ài)","经常(jīngcháng)","一起(yìqǐ)"],
  hint:"A asks with the moderate preference verb. B responds with the stronger passion verb."}
+]},
+
+// ─── L5: What Are You Doing Right Now? ───
+{id:"zhv2_u11l5", title:"正在做什么？ What Are You Doing?", icon:"🎬", xp:20, board:true, steps:[
+{type:"intro", title:"正在做什么？ What Are You Doing?",
+ desc:"Learn two essential ways to describe actions in progress. Chinese uses 正在 for actions happening right now and 着 for ongoing states or sustained postures.",
+ goals:["Use 正在 to say what is happening now","Use 着 for ongoing states and postures","Ask and answer 正在做什么 questions"]},
+
+{type:"teach", trg:"正在(zhèngzài)", src:"right now / in the middle of (doing)", pos:"adv", gender:null,
+ note:"Marks an action as happening at this very moment.\n正在 + verb = is currently doing.",
+ example:"A: 你(nǐ)正在(zhèngzài)做(zuò)什么(shénme)？\nB: 我(wǒ)正在(zhèngzài)听(tīng)音乐(yīnyuè)。",
+ exampleSrc:"A: What are you doing right now?\nB: I am listening to music.",
+ funFact:"正 means 'correct, upright, exact' and 在 means 'at/located.' Together, they pinpoint the present moment exactly. Think of it as Chinese's way of saying 'right at this point in time.'"},
+
+{type:"teach", trg:"着(zhe)", src:"(ongoing state marker)", pos:"part", gender:null,
+ note:"Attaches to a verb to show a continuous state or held posture.\nVerb + 着 = is in the state of doing.",
+ example:"A: 她(tā)在(zài)看(kàn)着(zhe)你(nǐ)。\nB: 真的(zhēnde)吗(ma)？",
+ exampleSrc:"A: She is looking at you (ongoing).\nB: Really?",
+ funFact:"着 originally meant 'to wear' or 'to be attached to.' This evolved into a grammatical marker showing that an action clings to a moment — it is not finished but suspended in ongoing time."},
+
+{type:"tip", title:"正在 vs 着: Action vs State",
+ text:"Both 正在 and 着 describe ongoing situations, but they work differently:\n\n正在 emphasizes the action is happening NOW:\n我(wǒ)正在(zhèngzài)跑步(pǎobù)。 I am (right now) running.\n她(tā)正在(zhèngzài)唱歌(chàng gē)。 She is (right now) singing.\n\n着 marks a sustained state or posture:\n他(tā)站(zhàn)着(zhe)。 He is standing (posture).\n门(mén)开(kāi)着(zhe)。 The door is open (ongoing state).\n她(tā)看(kàn)着(zhe)我(wǒ)。 She is looking at me (continuous gaze).\n\nRule of thumb: 正在 = action in progress. 着 = state being held.",
+ deepDive:{title:"When can they combine?",
+  text:"Sometimes both appear together for extra emphasis:\n他(tā)正在(zhèngzài)睡觉(shuìjiào)呢(ne)。 He is sleeping right now.\n她(tā)正(zhèng)看(kàn)着(zhe)我(wǒ)呢(ne)。 She is right in the middle of watching me.\n\nThe particle 呢 at the end adds a gentle emphasis, like English 'you know' or '...isn't that so.' It makes the ongoing nature feel very immediate and conversational.\n\nAt A2 level, use 正在 for actions and 着 for postures and states. The combination comes naturally at B1."}},
+
+{type:"mc", q:"Which sentence means 'I am currently watching a movie'?",
+ opts:["我看过电影。","我正在看电影。","我喜欢看电影。","我看了电影。"],
+ ans:"我正在看电影。",
+ hint:"One of these uses the word that pinpoints the present moment — 'right now, in progress.'"},
+
+{type:"fb", s:"A: 你(nǐ){1}做(zuò)什么(shénme)？\nB: 我(wǒ)正在(zhèngzài)游泳(yóuyǒng)！",
+ a:["正在(zhèngzài)"],
+ opts:["正在(zhèngzài)","经常(jīngcháng)","一起(yìqǐ)","喜欢(xǐhuan)"],
+ hint:"Which word marks an action as happening at this exact moment, right now?",
+ sSrc:"A: What are you {1} doing?\nB: I am swimming!"},
+
+{type:"mc", q:"他(tā)站(zhàn)着(zhe)。 What does 着 add to 站 here?",
+ opts:["It shows the action happened before","It turns the verb into a question","It shows a sustained posture being held","It makes the action stronger"],
+ ans:"It shows a sustained posture being held",
+ hint:"着 makes the verb describe a state that is continuing — not one that just started, but one the subject keeps up."},
+
+{type:"fb", s:"门(mén)开(kāi){1}。",
+ a:["着(zhe)"],
+ opts:["着(zhe)","了(le)","过(guò)","正在(zhèngzài)"],
+ hint:"The door is open as an ongoing state — not 'was opened' but 'remains open.' Which marker shows an ongoing state?",
+ sSrc:"The door is open (ongoing state)."},
+
+{type:"tip", title:"Asking 'What Are You Doing?'",
+ text:"The most useful question pattern with 正在:\n\n你(nǐ)正在(zhèngzài)做(zuò)什么(shénme)？ What are you doing right now?\n\nCommon answers:\n我(wǒ)正在(zhèngzài)听(tīng)音乐(yīnyuè)。 I am listening to music.\n她(tā)正在(zhèngzài)看(kàn)书(shū)。 She is reading a book.\n他(tā)正在(zhèngzài)打篮球(dǎ lánqiú)。 He is playing basketball.\n\nNote that 做什么 (do what) stays in the same word order as a statement. No inversion needed in Chinese questions!"},
+
+{type:"mc", q:"How do you say 'She is reading a book right now'?",
+ opts:["她看过书。","她喜欢看书。","她正在看书。","她看了书。"],
+ ans:"她正在看书。",
+ hint:"Look for the form that shows an action happening at this very moment, using 正在."},
+
+{type:"fb", s:"她(tā)正在(zhèngzài){1}音乐(yīnyuè)。",
+ a:["听(tīng)"],
+ opts:["听(tīng)","看(kàn)","爱(ài)","跑步(pǎobù)"],
+ hint:"Which verb means 'to listen'? It pairs with 音乐 (music) and is followed by the object.",
+ sSrc:"She is currently {1} to music."},
+
+{type:"match", pairs:[
+  {trg:"正在(zhèngzài)", src:"right now / in the middle of"},
+  {trg:"着(zhe)", src:"(ongoing state marker)"},
+  {trg:"做(zuò)", src:"to do"},
+  {trg:"站(zhàn)", src:"to stand"}
+]},
+
+{type:"mc", q:"你正在做什么？ What is this question asking?",
+ opts:["What do you like to do?","What did you just do?","What are you doing right now?","What will you do?"],
+ ans:"What are you doing right now?",
+ hint:"正在 marks the present moment. The question is about what is happening NOW, not in the past or future."},
+
+{type:"drag_fill",
+ s:"A: 她(tā){1}做(zuò)什么(shénme)？\nB: 她(tā)正在(zhèngzài){2}。",
+ blanks:{"1":"正在(zhèngzài)","2":"唱歌(chàng gē)"},
+ pool:["正在(zhèngzài)","唱歌(chàng gē)","经常(jīngcháng)","跳舞(tiào wǔ)"],
+ hint:"A asks about what she is doing right now. B says she is singing."}
 ]}
 
 ]};
