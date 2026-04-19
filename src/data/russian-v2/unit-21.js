@@ -23,7 +23,7 @@ const UNIT_21 = {n:21, lang:"ru", srcLang:"en", track:"v2", title:"Творит�
 
 {type:"teach", trg:"с мамой", src:"with mom (INS)", pos:"phrase", gender:null,
  note:"С + instrumental = accompaniment.\nДифферент from tool meaning.",
- example:"A: С кем ты идёшь?\nB: С мамой, к врачу.",
+ example:"A: С кем ты идёшь?\nB: С мамой.",
  exampleSrc:"A: Who are you going with?\nB: With mom, to the doctor.",
  funFact:"С + instrumental = 'together with.' Russian distinguishes: 'пишу ручкой' (with pen, tool) vs 'с ручкой в руке' (with pen in hand, accompaniment)."},
 
@@ -35,8 +35,8 @@ const UNIT_21 = {n:21, lang:"ru", srcLang:"en", track:"v2", title:"Творит�
 
 {type:"teach", trg:"работаю учителем", src:"I work as a teacher", pos:"phrase", gender:null,
  note:"Instrumental for profession.\nUчитель → учителем.",
- example:"A: Кем ты работаешь?\nB: Учителем в школе.",
- exampleSrc:"A: What do you work as?\nB: As a teacher in a school.",
+ example:"A: Кем ты работаешь?\nB: Учителем.",
+ exampleSrc:"A: What do you work as?\nB: As a teacher.",
  funFact:"Russian 'работать + instrumental' for profession. Я работаю врачом (I work as a doctor), инженером (engineer), программистом. No preposition."},
 
 {type:"teach", trg:"стать врачом", src:"to become a doctor", pos:"phrase", gender:null,
@@ -88,14 +88,14 @@ const UNIT_21 = {n:21, lang:"ru", srcLang:"en", track:"v2", title:"Творит�
 
 {type:"teach", trg:"стол → столом", src:"table → with table (m)", pos:"phrase", gender:null,
  note:"Masculine: -ом.\nStandard hard consonant ending.",
- example:"A: За столом сидят гости.\nB: Отлично!",
- exampleSrc:"A: Guests are sitting at the table.\nB: Great!",
+ example:"A: Ты за столом?\nB: Да, за столом.",
+ exampleSrc:"A: Are you at the table?\nB: Yes, at the table.",
  funFact:"'За столом' = at the table. 'За' + instrumental for locations at/behind. Similar: перед столом (in front of), над столом (above)."},
 
 {type:"teach", trg:"книга → книгой", src:"book → with book (f)", pos:"phrase", gender:null,
  note:"Feminine: -а → -ой.\nSpelling rule: after ж/ш/ч/щ/ц unstressed is -ей.",
- example:"A: Он пришёл с книгой.\nB: Какой?",
- exampleSrc:"A: He came with a book.\nB: Which one?",
+ example:"A: Он пришёл с книгой.\nB: Хорошо.",
+ exampleSrc:"A: He came with a book.\nB: Good.",
  funFact:"Feminine instrumental -ой is highly productive. Also shares with adjective endings (красивой — beautiful). Pattern consistency!"},
 
 {type:"teach", trg:"окно → окном", src:"window → with window (n)", pos:"phrase", gender:null,

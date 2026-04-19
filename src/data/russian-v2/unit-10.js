@@ -11,8 +11,8 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 
 {type:"teach", trg:"работа", src:"work / job", pos:"noun", gender:"f",
  note:"Feminine.\nBoth the activity and the workplace.",
- example:"A: Где твоя работа?\nB: В центре.",
- exampleSrc:"A: Where is your work?\nB: Downtown.",
+ example:"A: Где твоя работа?\nB: Там, рядом.",
+ exampleSrc:"A: Where is your work?\nB: There, nearby.",
  funFact:"Работа shares root with раб (slave) — reflecting old Slavic association of work with servitude. Modern meaning is neutral/positive."},
 
 {type:"teach", trg:"профессия", src:"profession", pos:"noun", gender:"f",
@@ -23,8 +23,8 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 
 {type:"teach", trg:"учитель", src:"teacher (male)", pos:"noun", gender:"m",
  note:"Masculine. From 'учить' (to teach).\nFeminine: учительница.",
- example:"A: Он учитель?\nB: Да, учитель математики.",
- exampleSrc:"A: Is he a teacher?\nB: Yes, a math teacher.",
+ example:"A: Он учитель?\nB: Да, он учитель.",
+ exampleSrc:"A: Is he a teacher?\nB: Yes, he is a teacher.",
  funFact:"Russians distinguish учитель (school teacher) from преподаватель (university instructor) and воспитатель (kindergarten teacher). Each is a different profession."},
 
 {type:"teach", trg:"учительница", src:"teacher (female)", pos:"noun", gender:"f",
@@ -35,8 +35,8 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 
 {type:"teach", trg:"инженер", src:"engineer", pos:"noun", gender:"m",
  note:"Masculine default, refers to both genders.\nPlural: инженеры.",
- example:"A: Кем ты работаешь?\nB: Я инженер.",
- exampleSrc:"A: What do you do?\nB: I'm an engineer.",
+ example:"A: Ты инженер?\nB: Да, я инженер.",
+ exampleSrc:"A: Are you an engineer?\nB: Yes, I'm an engineer.",
  funFact:"Engineering traditionally prestigious in Russia. 'Инженер' carried Soviet respect — Soviet Union prioritized engineering education. Russian tech companies (Яндекс, Касперский) continue this tradition."},
 
 {type:"teach", trg:"программист", src:"programmer", pos:"noun", gender:"m",
@@ -53,14 +53,14 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 
 {type:"teach", trg:"студентка", src:"student (female)", pos:"noun", gender:"f",
  note:"Feminine form. Add -ка to male base.\nStandard feminine formation.",
- example:"A: Маша — студентка?\nB: Да, учится на медицинском.",
- exampleSrc:"A: Is Masha a student?\nB: Yes, she's at medical school.",
+ example:"A: Маша — студентка?\nB: Да, она студентка.",
+ exampleSrc:"A: Is Masha a student?\nB: Yes, she's a student.",
  funFact:"Many Russian professions use -ка feminine suffix: студентка, программистка, официантка. But some refuse feminine forms: врач, учитель (for formal writing)."},
 
 {type:"teach", trg:"офис", src:"office", pos:"noun", gender:"m",
  note:"Masculine. From English.\nBecame common in 1990s corporate vocabulary.",
- example:"A: Где твой офис?\nB: В центре, рядом с метро.",
- exampleSrc:"A: Where is your office?\nB: Downtown, near the metro.",
+ example:"A: Где твой офис?\nB: Там, рядом.",
+ exampleSrc:"A: Where is your office?\nB: There, nearby.",
  funFact:"Офис is newer than Russian equivalent 'контора' (office, dated/bureaucratic) or 'бюро' (bureau). Офис won out in modern usage due to Western business influence."},
 
 {type:"tip", title:"Gendered Profession Names",
@@ -101,14 +101,14 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 
 {type:"teach", trg:"работать", src:"to work (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Pair: поработать (work for a while).\nЯ работаю = I work.",
- example:"A: Где ты работаешь?\nB: В банке.",
- exampleSrc:"A: Where do you work?\nB: At a bank.",
+ example:"A: Где ты работаешь?\nB: Там, в офисе.",
+ exampleSrc:"A: Where do you work?\nB: There, in the office.",
  funFact:"Работать conjugates: я работаю, ты работаешь, он работает, мы работаем, вы работаете, они работают. Uses -ать verb pattern."},
 
 {type:"teach", trg:"компания", src:"company", pos:"noun", gender:"f",
  note:"Feminine. International word.\nIn В + prepositional: 'в компании'.",
- example:"A: В какой компании?\nB: В крупной российской компании.",
- exampleSrc:"A: At which company?\nB: At a large Russian company.",
+ example:"A: В какой компании?\nB: В моей компании.",
+ exampleSrc:"A: At which company?\nB: At my company.",
  funFact:"Компания evolved from military/social 'company' meaning in 18-19th centuries. Same word covers 'business firm' AND 'company of friends' — context clarifies."},
 
 {type:"teach", trg:"начальник", src:"boss", pos:"noun", gender:"m",
@@ -131,8 +131,8 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 
 {type:"teach", trg:"зарабатывать", src:"to earn", pos:"verb", gender:null,
  note:"Imperfective. Pair: заработать (perfective).\nMoney in accusative: зарабатывать деньги.",
- example:"A: Сколько зарабатываешь?\nB: Хватает на жизнь.",
- exampleSrc:"A: How much do you earn?\nB: Enough to live on.",
+ example:"A: Ты зарабатываешь?\nB: Да, зарабатываю.",
+ exampleSrc:"A: Do you earn money?\nB: Yes, I earn.",
  funFact:"Зарабатывать from 'работать' (work) + за- (prefix meaning 'start/complete'). Asking Russians about exact salary is considered rude — they answer generally: 'normal,' 'enough.'"},
 
 {type:"teach", trg:"часто", src:"often", pos:"adv", gender:null,
@@ -143,14 +143,14 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 
 {type:"teach", trg:"редко", src:"rarely", pos:"adv", gender:null,
  note:"Opposite of часто.\nRequires imperfective verb.",
- example:"A: Ты работаешь в выходные?\nB: Редко, только в отчётные периоды.",
- exampleSrc:"A: Do you work on weekends?\nB: Rarely, only during reporting periods.",
+ example:"A: Ты работаешь в выходные?\nB: Редко.",
+ exampleSrc:"A: Do you work on weekends?\nB: Rarely.",
  funFact:"Russian frequency adverbs pair with imperfective verbs. Chain: всегда > часто > иногда > редко > никогда. Never with perfective unless expressing specific completed action."},
 
 {type:"teach", trg:"устал", src:"tired (m past)", pos:"verb", gender:null,
  note:"Past tense perfective of устать.\nFeminine: устала. Plural: устали.",
- example:"A: Ты устал?\nB: Очень, долгий день.",
- exampleSrc:"A: Are you tired?\nB: Very, long day.",
+ example:"A: Ты устал?\nB: Да, устал.",
+ exampleSrc:"A: Are you tired?\nB: Yes, tired.",
  funFact:"Russian past tense agrees with gender of subject. Он устал (he tired) vs она устала (she tired) vs они устали (they tired). Speaking to a mixed group, use plural form."},
 
 {type:"tip", title:"Impersonal Work Phrases",
@@ -196,14 +196,14 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 
 {type:"teach", trg:"выходной", src:"day off / weekend", pos:"noun", gender:"m",
  note:"Masculine (from adjective).\nPlural: выходные = the weekend.",
- example:"A: Что ты делаешь в выходные?\nB: Отдыхаю, хожу в гости.",
- exampleSrc:"A: What do you do on weekends?\nB: Rest, visit friends.",
+ example:"A: Ты свободен в выходные?\nB: Да, это мои выходные.",
+ exampleSrc:"A: Are you free on weekends?\nB: Yes, these are my days off.",
  funFact:"Russians take weekends seriously. 'В выходные' = on weekends. 'Мои выходные' = my time off. Russian work culture values delineation between work and rest time."},
 
 {type:"teach", trg:"отпуск", src:"vacation / leave", pos:"noun", gender:"m",
  note:"Masculine. Soviet term.\nЕхать в отпуск = go on vacation.",
- example:"A: Когда отпуск?\nB: В августе, на две недели.",
- exampleSrc:"A: When's your vacation?\nB: In August, for two weeks.",
+ example:"A: Когда отпуск?\nB: В августе.",
+ exampleSrc:"A: When's your vacation?\nB: In August.",
  funFact:"Russian law guarantees 28 days of annual vacation. Traditional отпуск timing: July-August for warm weather, New Year's holiday for winter. Everyone takes time off then."},
 
 {type:"teach", trg:"обед", src:"lunch", pos:"noun", gender:"m",
@@ -226,8 +226,8 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 
 {type:"teach", trg:"опоздать", src:"to be late (perfective)", pos:"verb", gender:null,
  note:"Perfective. Pair: опаздывать.\nOn + accusative: опоздать на X минут (be X minutes late).",
- example:"A: Прости, я опоздал.\nB: Ничего, проходи.",
- exampleSrc:"A: Sorry, I'm late.\nB: No problem, come in.",
+ example:"A: Я опоздал?\nB: Да, опоздал.",
+ exampleSrc:"A: Am I late?\nB: Yes, you're late.",
  funFact:"Russians value punctuality strongly — opposite of stereotypes about 'Russian time.' Being late is taken seriously. Apologize promptly: 'извините за опоздание' (sorry for being late)."},
 
 {type:"teach", trg:"встреча", src:"meeting", pos:"noun", gender:"f",

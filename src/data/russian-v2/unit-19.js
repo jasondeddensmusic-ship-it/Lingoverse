@@ -35,8 +35,8 @@ const UNIT_19 = {n:19, lang:"ru", srcLang:"en", track:"v2", title:"Родите�
 
 {type:"teach", trg:"для друга", src:"for (a) friend (GEN)", pos:"phrase", gender:null,
  note:"Для + genitive = for (benefit).\nДруг → друга.",
- example:"A: Кому подарок?\nB: Это для друга.",
- exampleSrc:"A: Who's the gift for?\nB: This is for a friend.",
+ example:"A: Это для кого?\nB: Для друга.",
+ exampleSrc:"A: Who is this for?\nB: For a friend.",
  funFact:"Для + gen is 'for the benefit of.' Compare: для друга (for friend), для работы (for work), для здоровья (for health). Always genitive."},
 
 {type:"teach", trg:"без сахара", src:"without sugar (GEN)", pos:"phrase", gender:null,
@@ -88,20 +88,20 @@ const UNIT_19 = {n:19, lang:"ru", srcLang:"en", track:"v2", title:"Родите�
 
 {type:"teach", trg:"книга → книги", src:"book → of book (f)", pos:"phrase", gender:null,
  note:"Feminine -а → -ы.\nAfter г/к/х/ч/щ/ж/ш, use -и (spelling rule).",
- example:"A: Где обложка книги?\nB: У меня.",
- exampleSrc:"A: Where's the book's cover?\nB: At my place.",
+ example:"A: У тебя нет книги?\nB: Есть, вот книга.",
+ exampleSrc:"A: Don't you have a book?\nB: I do, here's the book.",
  funFact:"Spelling rule (г/к/х/ж/ч/ш/щ + и) applies throughout Russian. Книги not книгы because г forces и."},
 
 {type:"teach", trg:"стол → стола", src:"table → of table (m)", pos:"phrase", gender:null,
  note:"Masculine: add -а.\nСтанд pattern for consonant-ending masculines.",
- example:"A: Ножка стола сломалась.\nB: Починим.",
- exampleSrc:"A: The table leg broke.\nB: We'll fix it.",
+ example:"A: Это стол Ивана?\nB: Нет, стола нет.",
+ exampleSrc:"A: Is this Ivan's table?\nB: No, there's no table.",
  funFact:"Masculine genitive -а is a very productive ending. Стола (of table), дома (of house), друга (of friend)."},
 
 {type:"teach", trg:"окно → окна", src:"window → of window (n)", pos:"phrase", gender:null,
  note:"Neuter: -о → -а.\nOne letter change.",
- example:"A: Стекло окна разбилось.\nB: Звоню в ремонт.",
- exampleSrc:"A: The window glass broke.\nB: Calling for repair.",
+ example:"A: Где окно?\nB: У окна нет.",
+ exampleSrc:"A: Where's the window?\nB: There's no window.",
  funFact:"Neuter genitive shares form with masculine (both -а). This merges them in genitive and accusative inanimate, simplifying plural rules later."},
 
 {type:"teach", trg:"мать → матери", src:"mother → of mother (f -ь)", pos:"phrase", gender:null,
@@ -118,8 +118,8 @@ const UNIT_19 = {n:19, lang:"ru", srcLang:"en", track:"v2", title:"Родите�
 
 {type:"teach", trg:"люди → людей", src:"people → of people (pl)", pos:"phrase", gender:null,
  note:"Plural genitive: varies by noun.\nЛюди → людей.",
- example:"A: Много людей на улице.\nB: Праздник.",
- exampleSrc:"A: Many people on the street.\nB: A holiday.",
+ example:"A: Здесь много людей.\nB: Да, очень много.",
+ exampleSrc:"A: There are many people here.\nB: Yes, very many.",
  funFact:"Plural genitive is the 'chaos' of Russian declension — dozens of patterns. Людей, книг (zero ending), друзей (different stem), месяцев. Learn common ones."},
 
 {type:"tip", title:"Genitive Endings Summary",

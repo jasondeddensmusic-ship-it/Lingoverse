@@ -100,8 +100,8 @@ const UNIT_20 = {n:20, lang:"ru", srcLang:"en", track:"v2", title:"Датель�
 
 {type:"teach", trg:"окно → окну", src:"window → to window (n)", pos:"phrase", gender:null,
  note:"Neuter: -о → -у.\nSame pattern as masculine.",
- example:"A: Я подошёл к окну.\nB: Что видишь?",
- exampleSrc:"A: I approached the window.\nB: What do you see?",
+ example:"A: Я подошёл к окну.\nB: Хорошо.",
+ exampleSrc:"A: I approached the window.\nB: Good.",
  funFact:"Neuter -у matches masculine -у. Russian often conflates masculine and neuter in non-nominative forms. Both use -а in genitive, -у in dative."},
 
 {type:"teach", trg:"площадь → площади", src:"square → to square (f -ь)", pos:"phrase", gender:null,
@@ -112,8 +112,8 @@ const UNIT_20 = {n:20, lang:"ru", srcLang:"en", track:"v2", title:"Датель�
 
 {type:"teach", trg:"друзьям", src:"to friends (pl DAT)", pos:"phrase", gender:null,
  note:"Plural dative: -ам/-ям for all genders.\nДрузья → друзьям.",
- example:"A: Я пишу друзьям каждую неделю.\nB: Замечательно.",
- exampleSrc:"A: I write to friends every week.\nB: Wonderful.",
+ example:"A: Я пишу друзьям.\nB: Хорошо.",
+ exampleSrc:"A: I write to friends.\nB: Good.",
  funFact:"Plural dative collapses gender distinctions: -ам for hard, -ям for soft. Simple. 'Друзьям' (friends, dat), 'учителям' (teachers), 'девушкам' (girls)."},
 
 {type:"teach", trg:"ему/ей/им", src:"to him/her/them (PRON)", pos:"phrase", gender:null,

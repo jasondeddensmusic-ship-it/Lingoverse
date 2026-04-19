@@ -17,8 +17,8 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
 
 {type:"teach", trg:"Здравствуйте", src:"hello (formal)", pos:"intj", gender:null,
  note:"Stress on the second syllable.\nUse with strangers, elders, and in professional settings.",
- example:"A: Здравствуйте!\nB: Здравствуйте, рад вас видеть.",
- exampleSrc:"A: Hello!\nB: Hello, glad to see you.",
+ example:"A: Здравствуйте!\nB: Здравствуйте! Очень приятно.",
+ exampleSrc:"A: Hello!\nB: Hello! Very nice to meet you.",
  funFact:"Literally means 'be healthy' (be well). Looks intimidating but the first в is often silent in fast speech: 'zdraas-TVUY-tye.'"},
 
 {type:"teach", trg:"Доброе утро", src:"good morning", pos:"intj", gender:null,
@@ -29,20 +29,20 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
 
 {type:"teach", trg:"Добрый день", src:"good afternoon/day", pos:"intj", gender:null,
  note:"Used from noon until evening.\nAlso used as a polite all-day greeting.",
- example:"A: Добрый день!\nB: Добрый день! Чем могу помочь?",
- exampleSrc:"A: Good day!\nB: Good day! How can I help?",
+ example:"A: Добрый день!\nB: Добрый день! Да, пожалуйста.",
+ exampleSrc:"A: Good day!\nB: Good day! Yes, please.",
  funFact:"Добрый is the masculine form of the adjective (to match день 'day' which is masculine). This is a safe, polite greeting at any business during the day."},
 
 {type:"teach", trg:"Добрый вечер", src:"good evening", pos:"intj", gender:null,
  note:"Used from evening through night.\nSame masculine form as день.",
- example:"A: Добрый вечер!\nB: Добрый вечер! Проходите.",
- exampleSrc:"A: Good evening!\nB: Good evening! Come in.",
+ example:"A: Добрый вечер!\nB: Добрый вечер! Спасибо.",
+ exampleSrc:"A: Good evening!\nB: Good evening! Thank you.",
  funFact:"Вечер (evening) is also masculine, so Добрый matches. Russians rarely say 'good night' (Спокойной ночи) as a greeting. That phrase is for saying goodbye before sleep."},
 
 {type:"teach", trg:"До свидания", src:"goodbye (formal)", pos:"intj", gender:null,
  note:"The standard formal farewell.\nLiterally: 'until (next) meeting.'",
- example:"A: До свидания!\nB: До свидания, хорошего дня!",
- exampleSrc:"A: Goodbye!\nB: Goodbye, have a nice day!",
+ example:"A: До свидания!\nB: До свидания! Пока!",
+ exampleSrc:"A: Goodbye!\nB: Goodbye! Bye!",
  funFact:"Pronounced 'da-svi-DAN-ya.' The unstressed o becomes 'ah.' This vowel reduction makes written Russian sound different from how it looks."},
 
 {type:"teach", trg:"Пока", src:"bye (informal)", pos:"intj", gender:null,
@@ -115,14 +115,14 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
 
 {type:"teach", trg:"Он", src:"he", pos:"pron", gender:null,
  note:"Stress on the O: ON.\nRefers to any masculine noun, not just men.",
- example:"A: Это Максим. Он студент.\nB: Он хороший человек.",
- exampleSrc:"A: This is Maxim. He is a student.\nB: He is a good person.",
+ example:"A: Это Максим. Он там.\nB: Да, он здесь.",
+ exampleSrc:"A: This is Maxim. He is there.\nB: Yes, he is here.",
  funFact:"Он can also refer to masculine nouns like стол (table) as 'he.' Russian assigns gender to ALL nouns, even inanimate ones."},
 
 {type:"teach", trg:"Она", src:"she", pos:"pron", gender:null,
  note:"Stress on A: a-NA.\nRefers to any feminine noun.",
- example:"A: Это Анна. Она моя сестра.\nB: Она очень добрая.",
- exampleSrc:"A: This is Anna. She is my sister.\nB: She is very kind.",
+ example:"A: Это Анна. Она здесь.\nB: Да, она там.",
+ exampleSrc:"A: This is Anna. She is here.\nB: Yes, she is there.",
  funFact:"Она is also used for feminine inanimate nouns: книга (book) is 'she' because книга ends in -а."},
 
 {type:"teach", trg:"Меня зовут", src:"my name is (literally: me they-call)", pos:"verb", gender:null,
@@ -178,20 +178,20 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
 
 {type:"teach", trg:"Спасибо", src:"thank you", pos:"intj", gender:null,
  note:"Stress on И: spa-SEE-ba.\nThe final o reduces to 'a.'",
- example:"A: Вот ваш чай.\nB: Спасибо!",
- exampleSrc:"A: Here's your tea.\nB: Thank you!",
+ example:"A: Пожалуйста!\nB: Спасибо!",
+ exampleSrc:"A: Here you go!\nB: Thank you!",
  funFact:"Comes from 'спаси Бог' (God save you), an old Christian blessing. Used many times a day in Russia. Not saying it feels rude."},
 
 {type:"teach", trg:"Пожалуйста", src:"please / you're welcome", pos:"intj", gender:null,
  note:"Stress on second A: pa-ZHA-luy-sta.\nThe zh sound is like 'pleasure.'",
- example:"A: Спасибо большое!\nB: Пожалуйста!",
- exampleSrc:"A: Thank you very much!\nB: You're welcome!",
+ example:"A: Спасибо!\nB: Пожалуйста!",
+ exampleSrc:"A: Thank you!\nB: You're welcome!",
  funFact:"One word doing double duty. Before a request = please. After a thank-you = you're welcome. Context makes the meaning clear."},
 
 {type:"teach", trg:"Да", src:"yes", pos:"adv", gender:null,
  note:"Simple, clear: DA.\nAlso used as a soft 'well...' in conversation.",
- example:"A: Вы говорите по-английски?\nB: Да, немного.",
- exampleSrc:"A: Do you speak English?\nB: Yes, a little.",
+ example:"A: Вы из России?\nB: Да.",
+ exampleSrc:"A: Are you from Russia?\nB: Yes.",
  funFact:"Да can also mean 'and' in set phrases (да и: and also). Tone matters: a flat Да is confirming; a rising Да? is a question ('really?')."},
 
 {type:"teach", trg:"Нет", src:"no", pos:"adv", gender:null,
@@ -202,8 +202,8 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
 
 {type:"teach", trg:"Извините", src:"sorry / excuse me", pos:"intj", gender:null,
  note:"Stress on И: iz-vi-NEE-tye.\nFormal, for strangers.",
- example:"A: Извините, где метро?\nB: Прямо по улице.",
- exampleSrc:"A: Excuse me, where is the metro?\nB: Straight down the street.",
+ example:"A: Извините!\nB: Да, пожалуйста.",
+ exampleSrc:"A: Excuse me!\nB: Yes, please.",
  funFact:"Literally 'forgive (plural/formal).' The informal version is Извини (single form). Use Извините any time you need to get a stranger's attention."},
 
 {type:"teach", trg:"Очень приятно", src:"very nice (to meet you)", pos:"phrase", gender:null,

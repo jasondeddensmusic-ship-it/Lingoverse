@@ -11,7 +11,7 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
 
 {type:"teach", trg:"именительный", src:"nominative (subject)", pos:"noun", gender:"m",
  note:"Case for subjects. Question: кто? что?\nThe dictionary form of nouns.",
- example:"A: Кто это?\nB: Это Анна. (nominative)",
+ example:"A: Кто это?\nB: Это Анна.",
  exampleSrc:"A: Who is this?\nB: This is Anna.",
  funFact:"Nominative (именительный) literally 'naming case' — because it NAMES things. All dictionary forms are nominative. This is your baseline case."},
 
@@ -23,20 +23,20 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
 
 {type:"teach", trg:"родительный", src:"genitive (of/from)", pos:"noun", gender:"m",
  note:"Case of possession, absence, quantity. Question: кого? чего?\nFeminine -а → -ы, masculine → -а.",
- example:"A: Это книга Анны.\nB: Понятно.",
- exampleSrc:"A: This is Anna's book. (Anna in genitive)\nB: Got it.",
+ example:"A: Это книга Анны.\nB: Да, её.",
+ exampleSrc:"A: This is Anna's book.\nB: Yes, hers.",
  funFact:"Genitive (родительный) means 'birthing case' — the source/origin. Used for 'from' (из России — from Russia) and 'of' (книга Анны — book of Anna)."},
 
 {type:"teach", trg:"дательный", src:"dative (to/for)", pos:"noun", gender:"m",
  note:"Case for indirect objects. Question: кому? чему?\nFeminine -а → -е, masculine → -у.",
- example:"A: Я дал Анне книгу.\nB: Она будет рада.",
- exampleSrc:"A: I gave Anna a book. (Anna in dative)\nB: She'll be glad.",
+ example:"A: Я дал Анне книгу.\nB: Хорошо.",
+ exampleSrc:"A: I gave Anna a book.\nB: Good.",
  funFact:"Dative (дательный) from 'давать' (to give). The 'giving-to' case. Russian uses it extensively for age (Мне 25 лет), feelings (Мне холодно), and indirect objects."},
 
 {type:"teach", trg:"творительный", src:"instrumental (by/with)", pos:"noun", gender:"m",
  note:"Case for tools, means, manner. Question: кем? чем?\nFeminine -а → -ой, masculine → -ом.",
- example:"A: Чем ты пишешь?\nB: Я пишу ручкой.",
- exampleSrc:"A: What are you writing with?\nB: I'm writing with a pen. (pen in instrumental)",
+ example:"A: Чем ты пишешь?\nB: Я пишу.",
+ exampleSrc:"A: What are you writing with?\nB: I'm writing.",
  funFact:"Instrumental (творительный) from 'творить' (to create). The 'creating/tool' case. 'Чем?' asks 'with what means?' Answers tell you the instrument."},
 
 {type:"teach", trg:"предложный", src:"prepositional (in/on/about)", pos:"noun", gender:"m",
@@ -95,20 +95,20 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
 
 {type:"teach", trg:"книги", src:"book (GEN)", pos:"noun", gender:"f",
  note:"Genitive. -а → -и (after к/г/х/ж/ч/ш/щ) or -ы.\n'У меня нет книги' (I don't have a book).",
- example:"A: Много у тебя книг?\nB: Около пятидесяти.",
- exampleSrc:"A: Do you have many books?\nB: About fifty.",
+ example:"A: Много у тебя книг?\nB: Да, много.",
+ exampleSrc:"A: Do you have many books?\nB: Yes, many.",
  funFact:"Spelling rule: after к/г/х/ж/ч/ш/щ, write И (not Ы). Так книги (not книгы). Важно."},
 
 {type:"teach", trg:"книге", src:"book (DAT/PREP)", pos:"noun", gender:"f",
  note:"Dative -а → -е. Prepositional -а → -е.\nSame ending for both cases.",
- example:"A: Я думаю о книге.\nB: Какую читаешь?",
- exampleSrc:"A: I'm thinking about the book.\nB: Which one?",
+ example:"A: Я думаю о книге.\nB: О какой книге?",
+ exampleSrc:"A: I'm thinking about the book.\nB: Which book?",
  funFact:"For feminine nouns ending in -а, Dative and Prepositional have the same form: -е. Reduces memory load! Only 5 distinct forms for feminine."},
 
 {type:"teach", trg:"книгой", src:"book (INS)", pos:"noun", gender:"f",
  note:"Instrumental. -а → -ой.\nС книгой = with a book.",
- example:"A: С чем ты идёшь?\nB: С книгой и сумкой.",
- exampleSrc:"A: What are you going with?\nB: With a book and a bag.",
+ example:"A: С чем ты идёшь?\nB: С книгой.",
+ exampleSrc:"A: What are you going with?\nB: With a book.",
  funFact:"Instrumental -ой often appears in means/tools: рукой (by hand), карандашом (with pencil). Also used with 'с' (with) preposition."},
 
 {type:"tip", title:"Feminine Case Summary",

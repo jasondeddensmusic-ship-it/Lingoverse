@@ -23,8 +23,8 @@ const UNIT_29 = {n:29, lang:"ru", srcLang:"en", track:"v2", title:"СМИ и н�
 
 {type:"teach", trg:"телевизор", src:"TV (device)", pos:"noun", gender:"m",
  note:"Masculine. The device.\nТелевидение = broadcasting (abstract).",
- example:"A: Купил новый телевизор.\nB: Большой?",
- exampleSrc:"A: I bought a new TV.\nB: Big?",
+ example:"A: Купил телевизор.\nB: Хороший!",
+ exampleSrc:"A: I bought a TV.\nB: Good one!",
  funFact:"Russian distinguishes телевизор (TV set, device) from телевидение (TV as institution/medium). 'Смотрю телевизор' — watch the device. 'Российское телевидение' — Russian TV."},
 
 {type:"teach", trg:"интернет", src:"internet", pos:"noun", gender:"m",
@@ -47,14 +47,14 @@ const UNIT_29 = {n:29, lang:"ru", srcLang:"en", track:"v2", title:"СМИ и н�
 
 {type:"teach", trg:"журналист", src:"journalist", pos:"noun", gender:"m",
  note:"Masculine. Feminine: журналистка.\nFrom журнал (magazine) + -ist.",
- example:"A: Ты знаешь этого журналиста?\nB: Да, читаю его статьи.",
- exampleSrc:"A: Do you know this journalist?\nB: Yes, I read his articles.",
+ example:"A: Ты знаешь этого журналиста?\nB: Да, знаю.",
+ exampleSrc:"A: Do you know this journalist?\nB: Yes, I do.",
  funFact:"Russian has strong journalism tradition. Famous journalists: Анна Политковская, Дмитрий Муратов (Nobel 2021). Also challenging political environment for journalism."},
 
 {type:"teach", trg:"мнение", src:"opinion", pos:"noun", gender:"n",
  note:"Neuter. Ends in -ие.\n'По моему мнению' = in my opinion.",
- example:"A: Какое твоё мнение?\nB: Сложный вопрос.",
- exampleSrc:"A: What's your opinion?\nB: Complex question.",
+ example:"A: Какое твоё мнение?\nB: Это важно.",
+ exampleSrc:"A: What's your opinion?\nB: It's important.",
  funFact:"'По моему мнению' is the formal 'in my opinion' in Russian. Casually: 'по-моему' (one word). Essential for expressing views."},
 
 {type:"tip", title:"Russian Media Landscape",

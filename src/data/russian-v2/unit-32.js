@@ -11,14 +11,14 @@ const UNIT_32 = {n:32, lang:"ru", srcLang:"en", track:"v2", title:"Природ�
 
 {type:"teach", trg:"природа", src:"nature", pos:"noun", gender:"f",
  note:"Feminine. Central cultural concept.\nРусская природа — famous motif.",
- example:"A: Люблю русскую природу.\nB: Особенно весной.",
- exampleSrc:"A: I love Russian nature.\nB: Especially in spring.",
+ example:"A: Люблю русскую природу.\nB: Да, красиво.",
+ exampleSrc:"A: I love Russian nature.\nB: Yes, it's beautiful.",
  funFact:"Русская природа (Russian nature) is a recurring theme in literature and painting. Vast forests, wide rivers, endless steppe define the Russian aesthetic."},
 
 {type:"teach", trg:"лес", src:"forest", pos:"noun", gender:"m",
  note:"Masculine. Plural: леса.\nRussia has largest forests on Earth.",
- example:"A: Пойдём в лес?\nB: Да, за грибами.",
- exampleSrc:"A: Let's go to the forest?\nB: Yes, mushroom-picking.",
+ example:"A: Пойдём в лес?\nB: Да, пойдём.",
+ exampleSrc:"A: Let's go to the forest?\nB: Yes, let's go.",
  funFact:"Russia has 815 million hectares of forest — 20% of world's forest area. Mushroom-picking (грибы) is a national pastime in late summer/fall."},
 
 {type:"teach", trg:"река", src:"river", pos:"noun", gender:"f",
@@ -41,8 +41,8 @@ const UNIT_32 = {n:32, lang:"ru", srcLang:"en", track:"v2", title:"Природ�
 
 {type:"teach", trg:"экология", src:"ecology", pos:"noun", gender:"f",
  note:"Feminine. Greek loanword.\nAlso: окружающая среда (environment).",
- example:"A: Экология важна.\nB: Нужно беречь природу.",
- exampleSrc:"A: Ecology is important.\nB: We need to protect nature.",
+ example:"A: Экология важна.\nB: Да, природа важна.",
+ exampleSrc:"A: Ecology is important.\nB: Yes, nature is important.",
  funFact:"'Экология' means both science (ecology) AND environmental condition. 'Плохая экология' = bad environment. Single word for both English concepts."},
 
 {type:"teach", trg:"загрязнение", src:"pollution", pos:"noun", gender:"n",

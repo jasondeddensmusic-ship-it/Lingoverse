@@ -17,14 +17,14 @@ const UNIT_26 = {n:26, lang:"ru", srcLang:"en", track:"v2", title:"Наука и
 
 {type:"teach", trg:"исследование", src:"research / study", pos:"noun", gender:"n",
  note:"Neuter. Ends in -ие.\nGen sg: исследования.",
- example:"A: Это большое исследование.\nB: Да, три года работы.",
- exampleSrc:"A: This is a big research project.\nB: Yes, three years of work.",
+ example:"A: Это большое исследование?\nB: Да, это исследование.",
+ exampleSrc:"A: Is this a major research project?\nB: Yes, this is research.",
  funFact:"Исследование has both general 'study/research' meaning AND specific 'research paper/project.' Russian scientific vocabulary distinguishes исследование (research) from опыт (experiment, tangible)."},
 
 {type:"teach", trg:"эксперимент", src:"experiment", pos:"noun", gender:"m",
  note:"Masculine. International word.\nSometimes: опыт (less formal).",
- example:"A: Провели эксперимент?\nB: Да, результаты интересные.",
- exampleSrc:"A: Did you conduct the experiment?\nB: Yes, results are interesting.",
+ example:"A: Провели эксперимент?\nB: Да, результаты хорошие.",
+ exampleSrc:"A: Did you conduct the experiment?\nB: Yes, the results are good.",
  funFact:"Russian has opыт for 'experience' AND 'experiment' in informal use. Эксперимент is more formal/scientific. Both translate to 'experiment' in English."},
 
 {type:"teach", trg:"результат", src:"result", pos:"noun", gender:"m",
@@ -35,8 +35,8 @@ const UNIT_26 = {n:26, lang:"ru", srcLang:"en", track:"v2", title:"Наука и
 
 {type:"teach", trg:"открытие", src:"discovery", pos:"noun", gender:"n",
  note:"Neuter. Ends in -ие.\nFrom открыть (to open/discover).",
- example:"A: Большое открытие!\nB: Революционное!",
- exampleSrc:"A: A major discovery!\nB: Revolutionary!",
+ example:"A: Это открытие важное?\nB: Да, очень важное.",
+ exampleSrc:"A: Is this discovery important?\nB: Yes, very important.",
  funFact:"Mendeleev's periodic table (периодическая таблица) is THE iconic Russian scientific discovery. Открытие includes accidental discoveries and deliberate research findings."},
 
 {type:"teach", trg:"теория", src:"theory", pos:"noun", gender:"f",

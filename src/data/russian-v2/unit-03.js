@@ -17,14 +17,14 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
 
 {type:"teach", trg:"папа", src:"dad", pos:"noun", gender:"m",
  note:"MASCULINE despite ending in -а.\nOne of several 'male nouns with female endings.'",
- example:"A: Где твой папа?\nB: Мой папа на работе.",
- exampleSrc:"A: Where is your dad?\nB: My dad is at work.",
+ example:"A: Это твой папа?\nB: Да, это мой папа.",
+ exampleSrc:"A: Is this your dad?\nB: Yes, this is my dad.",
  funFact:"Папа, дедушка, дядя, and мужчина are masculine despite the -а ending. This comes from their semantic category (male people) overriding the morphological rule."},
 
 {type:"teach", trg:"мама", src:"mom", pos:"noun", gender:"f",
  note:"Feminine. Ends in -а (standard feminine).\nUniversal word for mother across many languages.",
- example:"A: Твоя мама врач?\nB: Нет, моя мама учительница.",
- exampleSrc:"A: Is your mom a doctor?\nB: No, my mom is a teacher.",
+ example:"A: Это твоя мама?\nB: Да, это моя мама.",
+ exampleSrc:"A: Is this your mom?\nB: Yes, this is my mom.",
  funFact:"Мама is among the first words children say in most languages — the bilabial M sound is the easiest for babies. Russian shares this with Spanish mamá, Chinese 妈妈, Arabic ماما."},
 
 {type:"teach", trg:"отец", src:"father (formal)", pos:"noun", gender:"m",
@@ -35,8 +35,8 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
 
 {type:"teach", trg:"мать", src:"mother (formal)", pos:"noun", gender:"f",
  note:"Feminine. Ends in soft sign ь.\nFormal/written alternative to мама.",
- example:"A: Ваша мать работает?\nB: Да, моя мать директор школы.",
- exampleSrc:"A: Does your mother work?\nB: Yes, my mother is a school director.",
+ example:"A: Это ваша мать?\nB: Да, это моя мать.",
+ exampleSrc:"A: Is this your mother?\nB: Yes, this is my mother.",
  funFact:"Мать has an irregular declension: in genitive it becomes матери, with a hidden -er- stem. Words ending in ь are sometimes masculine, sometimes feminine — no easy rule."},
 
 {type:"teach", trg:"сын", src:"son", pos:"noun", gender:"m",
@@ -47,8 +47,8 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
 
 {type:"teach", trg:"дочь", src:"daughter", pos:"noun", gender:"f",
  note:"Feminine. Ends in ч + soft sign.\nIrregular: has -er- stem in oblique cases.",
- example:"A: Где ваша дочь?\nB: Моя дочь в университете.",
- exampleSrc:"A: Where is your daughter?\nB: My daughter is at university.",
+ example:"A: Это ваша дочь?\nB: Да, это моя дочь.",
+ exampleSrc:"A: Is this your daughter?\nB: Yes, this is my daughter.",
  funFact:"Like мать, дочь gets a hidden -er- stem: genitive дочери, dative дочери, plural дочери. These two 'hidden stem' nouns are the most famous irregular feminines."},
 
 {type:"teach", trg:"ребёнок", src:"child", pos:"noun", gender:"m",
@@ -94,8 +94,8 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
 
 {type:"teach", trg:"брат", src:"brother", pos:"noun", gender:"m",
  note:"Masculine. Standard ending in consonant.\nIrregular plural: братья.",
- example:"A: У тебя есть брат?\nB: Да, у меня есть старший брат.",
- exampleSrc:"A: Do you have a brother?\nB: Yes, I have an older brother.",
+ example:"A: У тебя есть брат?\nB: Да, у меня есть брат.",
+ exampleSrc:"A: Do you have a brother?\nB: Yes, I have a brother.",
  funFact:"Братья (brothers) uses the -ья plural ending — one of Russia's collective plural patterns. Also seen in друзья (friends), сыновья (sons), мужья (husbands)."},
 
 {type:"teach", trg:"сестра", src:"sister", pos:"noun", gender:"f",
@@ -130,8 +130,8 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
 
 {type:"teach", trg:"муж", src:"husband", pos:"noun", gender:"m",
  note:"Masculine. Ends in ж.\nPlural: мужья (with -ья pattern).",
- example:"A: Где ваш муж?\nB: Мой муж в командировке.",
- exampleSrc:"A: Where is your husband?\nB: My husband is on a business trip.",
+ example:"A: Это ваш муж?\nB: Да, это мой муж.",
+ exampleSrc:"A: Is this your husband?\nB: Yes, this is my husband.",
  funFact:"Муж literally means both 'husband' and historically 'man/male' in old Russian. Today only means husband. The broader word for man is мужчина."},
 
 {type:"teach", trg:"жена", src:"wife", pos:"noun", gender:"f",
@@ -183,20 +183,20 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
 
 {type:"teach", trg:"моя", src:"my (feminine)", pos:"pron", gender:null,
  note:"Used with feminine singular nouns.\nEnds in -я (matches feminine gender).",
- example:"A: Где твоя сестра?\nB: Моя сестра в Америке.",
- exampleSrc:"A: Where is your sister?\nB: My sister is in America.",
+ example:"A: Это твоя сестра?\nB: Да, это моя сестра.",
+ exampleSrc:"A: Is this your sister?\nB: Yes, this is my sister.",
  funFact:"The ending -я matches the feminine ending of most nouns. It's the only hint most of the time about grammatical gender. Learn the noun and its gender together."},
 
 {type:"teach", trg:"моё", src:"my (neuter)", pos:"pron", gender:null,
  note:"Used with neuter singular nouns.\nNeuter nouns end in -о/-е/-ё.",
- example:"A: Это твоё письмо?\nB: Да, это моё письмо.",
- exampleSrc:"A: Is this your letter?\nB: Yes, this is my letter.",
+ example:"A: Это твоё?\nB: Да, это моё.",
+ exampleSrc:"A: Is this yours?\nB: Yes, this is mine.",
  funFact:"Neuter is the third gender — neither masculine nor feminine. Common neuter nouns: письмо (letter), окно (window), море (sea), солнце (sun), небо (sky)."},
 
 {type:"teach", trg:"мои", src:"my (plural)", pos:"pron", gender:null,
  note:"Used with ALL plural nouns regardless of gender.\nOne form covers all three genders in plural.",
- example:"A: Это твои родители?\nB: Да, это мои родители.",
- exampleSrc:"A: Are these your parents?\nB: Yes, these are my parents.",
+ example:"A: Это твои?\nB: Да, это мои.",
+ exampleSrc:"A: Are these yours?\nB: Yes, these are mine.",
  funFact:"Russian genders merge in plural. Мои brothers, мои sisters, мои letters — all the same. Plural is grammatically simpler than singular in some ways."},
 
 {type:"teach", trg:"твой", src:"your (informal, m/f/n/pl)", pos:"pron", gender:null,
@@ -207,14 +207,14 @@ const UNIT_03 = {n:3, lang:"ru", srcLang:"en", track:"v2", title:"Моя сем�
 
 {type:"teach", trg:"ваш", src:"your (formal, m/f/n/pl)", pos:"pron", gender:null,
  note:"Forms: ваш/ваша/ваше/ваши.\nUsed with вы (formal or plural you).",
- example:"A: Ваш муж тоже врач?\nB: Нет, мой муж инженер.",
- exampleSrc:"A: Is your husband also a doctor?\nB: No, my husband is an engineer.",
+ example:"A: Это ваш муж?\nB: Да, это мой муж.",
+ exampleSrc:"A: Is this your husband?\nB: Yes, this is my husband.",
  funFact:"Ваш is always capitalized in formal written correspondence as Ваш (showing respect). Similar to the German Sie capitalization convention."},
 
 {type:"teach", trg:"его", src:"his / its", pos:"pron", gender:null,
  note:"NEVER CHANGES.\nNo gender/case agreement at all.",
- example:"A: Это его книга?\nB: Да, это его книга.",
- exampleSrc:"A: Is this his book?\nB: Yes, this is his book.",
+ example:"A: Это его папа?\nB: Да, это его папа.",
+ exampleSrc:"A: Is this his dad?\nB: Yes, this is his dad.",
  funFact:"Его, её, and их are 'frozen' forms — they never decline. This makes them the easiest possessives in Russian. Pronounced 'ye-VO' (not 'ye-GO')."},
 
 {type:"teach", trg:"её", src:"her", pos:"pron", gender:null,

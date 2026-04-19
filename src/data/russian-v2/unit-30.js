@@ -17,14 +17,14 @@ const UNIT_30 = {n:30, lang:"ru", srcLang:"en", track:"v2", title:"Искусс�
 
 {type:"teach", trg:"культура", src:"culture", pos:"noun", gender:"f",
  note:"Feminine. Latin loanword.\nBroad: arts, traditions, lifestyle.",
- example:"A: Русская культура богата.\nB: Особенно литература.",
- exampleSrc:"A: Russian culture is rich.\nB: Especially literature.",
+ example:"A: Русская культура важна?\nB: Да, очень важна.",
+ exampleSrc:"A: Is Russian culture important?\nB: Yes, very important.",
  funFact:"Министерство культуры (Ministry of Culture) is central in Russia. Russians cultivate 'high culture' as distinct from everyday life. Cultural capital is socially important."},
 
 {type:"teach", trg:"литература", src:"literature", pos:"noun", gender:"f",
  note:"Feminine. International root.\nRussia's cultural pride.",
- example:"A: Любишь литературу?\nB: Особенно Толстого и Достоевского.",
- exampleSrc:"A: Do you love literature?\nB: Especially Tolstoy and Dostoevsky.",
+ example:"A: Любишь литературу?\nB: Да, очень.",
+ exampleSrc:"A: Do you love literature?\nB: Yes, very much.",
  funFact:"Russian literature is arguably most acclaimed contribution to world literature. Pushkin, Tolstoy, Dostoevsky, Chekhov, Bulgakov. Every educated Russian reads them."},
 
 {type:"teach", trg:"музыка", src:"music", pos:"noun", gender:"f",
@@ -35,26 +35,26 @@ const UNIT_30 = {n:30, lang:"ru", srcLang:"en", track:"v2", title:"Искусс�
 
 {type:"teach", trg:"картина", src:"painting", pos:"noun", gender:"f",
  note:"Feminine. Ends in -а.\nAlso: film (colloquial).",
- example:"A: Эта картина в Эрмитаже?\nB: В Третьяковке.",
- exampleSrc:"A: Is this painting at the Hermitage?\nB: At the Tretyakovka.",
+ example:"A: Эта картина в Эрмитаже?\nB: Да, там.",
+ exampleSrc:"A: Is this painting at the Hermitage?\nB: Yes, there.",
  funFact:"Русские картины: Третьяковская галерея (Tretyakov Gallery in Moscow) has iconic Russian paintings. Эрмитаж (Hermitage in Petersburg) has world art."},
 
 {type:"teach", trg:"писатель", src:"writer", pos:"noun", gender:"m",
  note:"Masculine. Feminine: писательница.\nFrom писать (to write).",
- example:"A: Ты читал этого писателя?\nB: Да, великий писатель.",
- exampleSrc:"A: Have you read this writer?\nB: Yes, a great writer.",
+ example:"A: Ты читал этого писателя?\nB: Да, читал.",
+ exampleSrc:"A: Have you read this writer?\nB: Yes, I have.",
  funFact:"Russian literary tradition canonizes writers as moral authorities. Писатель carries more weight than English 'writer' — almost prophetic role."},
 
 {type:"teach", trg:"балет", src:"ballet", pos:"noun", gender:"m",
  note:"Masculine. French loanword.\nBolshoi = ballet theater in Moscow.",
- example:"A: Пойдём в Большой на балет?\nB: С удовольствием.",
- exampleSrc:"A: Let's go to the Bolshoi for ballet?\nB: With pleasure.",
+ example:"A: Пойдём на балет?\nB: Да, пойдём!",
+ exampleSrc:"A: Shall we go to the ballet?\nB: Yes, let's go!",
  funFact:"Russian ballet is world-renowned. Bolshoi Theater (Moscow), Mariinsky (Petersburg) are top venues. Prima ballerinas like Plisetskaya are cultural icons."},
 
 {type:"teach", trg:"театр", src:"theater", pos:"noun", gender:"m",
  note:"Masculine. Greek loanword.\nBroadly: theater building or medium.",
- example:"A: Идёшь в театр?\nB: Да, на новую пьесу.",
- exampleSrc:"A: Going to theater?\nB: Yes, to a new play.",
+ example:"A: Идёшь в театр?\nB: Да, иду.",
+ exampleSrc:"A: Going to theater?\nB: Yes, I am.",
  funFact:"Russian theater culture strong. Moscow Art Theater (Станиславский), Meyerhold theater innovations shaped world theater. Drama schools highly competitive."},
 
 {type:"tip", title:"Russian Cultural Pantheon",

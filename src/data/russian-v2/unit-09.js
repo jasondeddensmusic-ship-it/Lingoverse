@@ -11,8 +11,8 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
 
 {type:"teach", trg:"тело", src:"body", pos:"noun", gender:"n",
  note:"NEUTER. Ends in -о.\nЧеловеческое тело = human body.",
- example:"A: Тело болит?\nB: Да, после спорта.",
- exampleSrc:"A: Does your body ache?\nB: Yes, after sports.",
+ example:"A: Тело болит?\nB: Да, болит.",
+ exampleSrc:"A: Does your body ache?\nB: Yes, it aches.",
  funFact:"Тело also means 'essence' or 'subject matter' in academic contexts. 'Тело статьи' = body of an article (like English)."},
 
 {type:"teach", trg:"голова", src:"head", pos:"noun", gender:"f",
@@ -23,20 +23,20 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
 
 {type:"teach", trg:"глаз", src:"eye", pos:"noun", gender:"m",
  note:"Masculine. Plural: глаза (very irregular).\nGen pl: глаз (identical to nom sg).",
- example:"A: Какого цвета глаза у ребёнка?\nB: Голубые.",
- exampleSrc:"A: What color eyes does the baby have?\nB: Blue.",
+ example:"A: Глаз болит?\nB: Да, болит.",
+ exampleSrc:"A: Does your eye hurt?\nB: Yes, it hurts.",
  funFact:"Глаза is suppletive — switches from singular глаз to plural глаза via ancient metathesis. Similar irregularity in English 'foot/feet.'"},
 
 {type:"teach", trg:"рот", src:"mouth", pos:"noun", gender:"m",
  note:"Masculine. Fleeting vowel: рот → рта (of mouth).\nShort, common word.",
- example:"A: Открой рот, пожалуйста.\nB: (при враче) Aaa.",
- exampleSrc:"A: Open your mouth, please.\nB: (at doctor) Aaa.",
+ example:"A: Рот болит?\nB: Да, болит.",
+ exampleSrc:"A: Does your mouth hurt?\nB: Yes, it hurts.",
  funFact:"Рот uses the fleeting-vowel pattern. Similar nouns: сон/сна (dream), лев/льва (lion). The о/е 'escapes' when endings are added."},
 
 {type:"teach", trg:"нос", src:"nose", pos:"noun", gender:"m",
  note:"Masculine. Ends in consonant.\nCommon in idioms: совать нос (stick nose in).",
- example:"A: У меня заложен нос.\nB: Выпей чай с малиной.",
- exampleSrc:"A: My nose is stuffed.\nB: Drink tea with raspberry.",
+ example:"A: Нос болит?\nB: Да, болит нос.",
+ exampleSrc:"A: Does your nose hurt?\nB: Yes, my nose hurts.",
  funFact:"Russians say 'заложен нос' (nose is blocked) for congestion. Traditional remedies: чай с малиной (raspberry tea), горчичники (mustard plasters)."},
 
 {type:"teach", trg:"рука", src:"hand / arm", pos:"noun", gender:"f",
@@ -53,8 +53,8 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
 
 {type:"teach", trg:"горло", src:"throat", pos:"noun", gender:"n",
  note:"Neuter. Ends in -о.\nКашель = cough (related).",
- example:"A: Что болит?\nB: Горло, сильно.",
- exampleSrc:"A: What hurts?\nB: My throat, badly.",
+ example:"A: Горло болит?\nB: Да, горло болит.",
+ exampleSrc:"A: Does your throat hurt?\nB: Yes, my throat hurts.",
  funFact:"Russians talk extensively about 'горло' (throat) in health contexts. Cold medicine ads feature sore throats prominently — it's the primary cold symptom discussed."},
 
 {type:"teach", trg:"живот", src:"stomach / belly", pos:"noun", gender:"m",
@@ -100,8 +100,8 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
 
 {type:"teach", trg:"болеть", src:"to be sick / to hurt", pos:"verb", gender:null,
  note:"Two meanings depending on construction.\nЯ болею = I'm sick. У меня болит голова = My head hurts.",
- example:"A: Я болею.\nB: Что с тобой?",
- exampleSrc:"A: I'm sick.\nB: What's wrong?",
+ example:"A: Я болею.\nB: Ты больной?",
+ exampleSrc:"A: I'm sick.\nB: Are you ill?",
  funFact:"Болеть has the complex duality: with a person as subject = to be sick. With a body part as subject = to hurt. Different structures, same verb."},
 
 {type:"teach", trg:"болит", src:"hurts (3rd p sg)", pos:"verb", gender:null,
@@ -130,26 +130,26 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
 
 {type:"teach", trg:"простуда", src:"cold (illness)", pos:"noun", gender:"f",
  note:"Feminine. Ends in -а.\nThe common cold, rhinitis.",
- example:"A: Что с тобой?\nB: Простая простуда.",
- exampleSrc:"A: What's wrong with you?\nB: Just a cold.",
+ example:"A: Ты больной?\nB: Да, простуда.",
+ exampleSrc:"A: Are you sick?\nB: Yes, a cold.",
  funFact:"From 'простой' (simple) — 'the simple illness.' Russians have seasonal simple cold vs flu distinction: простуда (cold) vs грипп (flu)."},
 
 {type:"teach", trg:"грипп", src:"flu", pos:"noun", gender:"m",
  note:"Masculine. From Latin via English.\nSerious illness unlike простуда.",
- example:"A: Он в больнице?\nB: Да, у него грипп.",
- exampleSrc:"A: Is he in the hospital?\nB: Yes, he has the flu.",
+ example:"A: Он больной?\nB: Да, грипп.",
+ exampleSrc:"A: Is he sick?\nB: Yes, the flu.",
  funFact:"Грипп comes from 18th century French 'grippe.' Russia had historically devastating flu outbreaks — the 1889 Russian flu killed ~1 million globally."},
 
 {type:"teach", trg:"устать", src:"to be tired (perfective)", pos:"verb", gender:null,
  note:"Perfective.\nPast: устал/устала/устали.",
- example:"A: Что с тобой?\nB: Я устал, вот и всё.",
- exampleSrc:"A: What's wrong?\nB: I'm tired, that's all.",
+ example:"A: Ты устал?\nB: Да, я устал.",
+ exampleSrc:"A: Are you tired?\nB: Yes, I'm tired.",
  funFact:"Russian tells you the past tense: 'Я устал' (I got tired, perfective). 'Я устаю' (I'm getting tired, imperfective). The aspect choice shows if it's an ongoing process or completed state."},
 
 {type:"teach", trg:"отдыхать", src:"to rest (imperfective)", pos:"verb", gender:null,
  note:"Imperfective.\nPair: отдохнуть (perfective).",
- example:"A: Что ты делаешь?\nB: Отдыхаю — устала очень.",
- exampleSrc:"A: What are you doing?\nB: Resting — very tired.",
+ example:"A: Ты устала?\nB: Да, я отдыхаю.",
+ exampleSrc:"A: Are you tired?\nB: Yes, I'm resting.",
  funFact:"Отдыхать is used for ALL forms of rest: weekend relaxation, vacations, sleeping, taking breaks. Russians say 'еду отдыхать' to mean going on vacation."},
 
 {type:"tip", title:"Saying 'I Have [Symptom]'",
@@ -201,20 +201,20 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
 
 {type:"teach", trg:"больница", src:"hospital", pos:"noun", gender:"f",
  note:"Feminine. From 'больной' (sick) + -ница (location).\nРоддом = maternity hospital (separate word).",
- example:"A: Где больница?\nB: Центральная больница — в центре.",
- exampleSrc:"A: Where is the hospital?\nB: The central hospital is downtown.",
+ example:"A: Где больница?\nB: Там, рядом.",
+ exampleSrc:"A: Where is the hospital?\nB: There, nearby.",
  funFact:"Russian has specific hospital types: поликлиника (clinic for outpatient), больница (full hospital with beds), травмпункт (emergency room/trauma center), санаторий (sanatorium for rest)."},
 
 {type:"teach", trg:"аптека", src:"pharmacy", pos:"noun", gender:"f",
  note:"Feminine. International word.\nFound on every block in Russia.",
- example:"A: Где аптека?\nB: Напротив метро, 24 часа.",
- exampleSrc:"A: Where is the pharmacy?\nB: Across from the metro, 24 hours.",
+ example:"A: Где аптека?\nB: Там, рядом с больницей.",
+ exampleSrc:"A: Where is the pharmacy?\nB: There, next to the hospital.",
  funFact:"24-hour apteka (аптека 24 часа) is ubiquitous in Russian cities. Many OTC medications available that require prescriptions elsewhere. Russian pharmacies also sell cosmetics and supplements."},
 
 {type:"teach", trg:"лекарство", src:"medicine / medication", pos:"noun", gender:"n",
  note:"Neuter. From 'лекарь' (healer, archaic).\nTakes prepositional: 'лекарство от' (medicine for).",
- example:"A: Есть лекарство от кашля?\nB: Да, вот сироп.",
- exampleSrc:"A: Do you have medicine for cough?\nB: Yes, here's syrup.",
+ example:"A: Лекарство есть?\nB: Да, вот лекарство.",
+ exampleSrc:"A: Is there medicine?\nB: Yes, here's the medicine.",
  funFact:"Лекарство от X = medicine for X. Uses 'от' (from/against) instead of 'для' (for). Lingers from old concept of healing as protection 'from' illness."},
 
 {type:"teach", trg:"рецепт", src:"prescription / recipe", pos:"noun", gender:"m",
@@ -237,14 +237,14 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
 
 {type:"teach", trg:"принимать", src:"to take (medicine)", pos:"verb", gender:null,
  note:"Imperfective.\nUsed with лекарство, таблетки.",
- example:"A: Как принимать лекарство?\nB: Три раза в день, после еды.",
- exampleSrc:"A: How to take the medicine?\nB: Three times a day, after meals.",
+ example:"A: Принимать лекарство?\nB: Да, принимать.",
+ exampleSrc:"A: Take the medicine?\nB: Yes, take it.",
  funFact:"Принимать has many uses: to receive (guests), to accept (an offer), to admit (to hospital), to take (medicine, bath). Core meaning: to take in/accept."},
 
 {type:"teach", trg:"помочь", src:"to help (perfective)", pos:"verb", gender:null,
  note:"Perfective.\nPair: помогать.",
- example:"A: Лекарство помогло?\nB: Да, теперь лучше.",
- exampleSrc:"A: Did the medicine help?\nB: Yes, better now.",
+ example:"A: Лекарство помогло?\nB: Да, помогло.",
+ exampleSrc:"A: Did the medicine help?\nB: Yes, it helped.",
  funFact:"Помочь takes dative: 'помочь кому' (to help someone). Russian helps verbs often take unusual cases — part of why learning cases matters."},
 
 {type:"tip", title:"At the Doctor: Key Phrases",

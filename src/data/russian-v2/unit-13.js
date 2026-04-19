@@ -23,8 +23,8 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
 
 {type:"teach", trg:"писать", src:"to write (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Writing as ongoing activity.\nPair: написать.",
- example:"A: Что ты пишешь?\nB: Письмо маме.",
- exampleSrc:"A: What are you writing?\nB: A letter to mom.",
+ example:"A: Что ты пишешь?\nB: Пишу маме.",
+ exampleSrc:"A: What are you writing?\nB: Writing to mom.",
  funFact:"Писать has irregular conjugation: я пишу (not пишаю!). Stem changes occur: пис→пиш. This 'verb stem mutation' is common in Russian."},
 
 {type:"teach", trg:"написать", src:"to write (perfective)", pos:"verb", gender:null,
@@ -35,8 +35,8 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
 
 {type:"teach", trg:"читать", src:"to read (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Reading as process.\nPair: прочитать.",
- example:"A: Что ты читаешь сейчас?\nB: Новый роман.",
- exampleSrc:"A: What are you reading now?\nB: A new novel.",
+ example:"A: Что ты читаешь сейчас?\nB: Читаю книгу.",
+ exampleSrc:"A: What are you reading now?\nB: Reading a book.",
  funFact:"Reading 'Анна Каренина' could take weeks. Russians would use читаю (imperfective) throughout. Only after finishing would they say прочитала."},
 
 {type:"teach", trg:"прочитать", src:"to read (perfective)", pos:"verb", gender:null,
@@ -95,26 +95,26 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
 
 {type:"teach", trg:"сказать", src:"to say (perfective)", pos:"verb", gender:null,
  note:"Perfective. Single utterance.\nСУPPletive pair — completely different stem.",
- example:"A: Что он сказал?\nB: Не знаю, не слышал.",
- exampleSrc:"A: What did he say?\nB: Don't know, didn't hear.",
+ example:"A: Что он сказал?\nB: Не знаю.",
+ exampleSrc:"A: What did he say?\nB: Don't know.",
  funFact:"Говорить and сказать are suppletive — historically unrelated stems. Similar to English 'go/went.' Russians don't think about this — they just learn the pair."},
 
 {type:"teach", trg:"брать", src:"to take (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Ongoing/habitual taking.\nPair: взять.",
- example:"A: Ты берёшь такси?\nB: Нет, пешком.",
- exampleSrc:"A: Are you taking a taxi?\nB: No, walking.",
+ example:"A: Ты берёшь автобус?\nB: Нет, на метро.",
+ exampleSrc:"A: Are you taking the bus?\nB: No, by metro.",
  funFact:"Брать/взять suppletive pair. Брать for habits ('беру такси каждый день'), взять for one-time ('взял такси вчера')."},
 
 {type:"teach", trg:"взять", src:"to take (perfective)", pos:"verb", gender:null,
  note:"Perfective. Single completed take.\nDifferent stem from брать.",
- example:"A: Ты взял ключи?\nB: Да, не беспокойся.",
- exampleSrc:"A: Did you take the keys?\nB: Yes, don't worry.",
+ example:"A: Ты взял билет?\nB: Да, вот он.",
+ exampleSrc:"A: Did you take the ticket?\nB: Yes, here it is.",
  funFact:"Взять conjugates irregularly: я возьму, ты возьмёшь. The з appears only in future/imperative forms. Russian verb conjugation is famously complex."},
 
 {type:"teach", trg:"давать", src:"to give (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Giving as process/habit.\nPair: дать.",
- example:"A: Почему ты даёшь ему деньги?\nB: Он всегда помогает.",
- exampleSrc:"A: Why do you give him money?\nB: He always helps.",
+ example:"A: Ты даёшь ему деньги?\nB: Да, иногда.",
+ exampleSrc:"A: Do you give him money?\nB: Yes, sometimes.",
  funFact:"Давать is another stem-mutation verb: я даю (not даваю!). The stem goes from ДАВА- to ДАЮ-. Subconscious pattern for native speakers, painful for learners."},
 
 {type:"teach", trg:"дать", src:"to give (perfective)", pos:"verb", gender:null,
@@ -125,8 +125,8 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
 
 {type:"teach", trg:"покупать", src:"to buy (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Stem change pair with купить.\nSyllable addition: пок-у-пать.",
- example:"A: Где ты обычно покупаешь хлеб?\nB: В пекарне возле дома.",
- exampleSrc:"A: Where do you usually buy bread?\nB: At the bakery near home.",
+ example:"A: Где ты обычно покупаешь хлеб?\nB: В магазине рядом.",
+ exampleSrc:"A: Where do you usually buy bread?\nB: At the nearby store.",
  funFact:"Покупать/купить is a stem-change pair. Most Russian aspect pairs work this way: insert/remove a syllable. Pattern repeated in other verbs: принимать/принять, поднимать/поднять."},
 
 {type:"teach", trg:"купить", src:"to buy (perfective)", pos:"verb", gender:null,
@@ -184,8 +184,8 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
 
 {type:"teach", trg:"вчера", src:"yesterday", pos:"adv", gender:null,
  note:"Past marker, typically perfective.\nBut with duration: imperfective.",
- example:"A: Что ты делал вчера?\nB: Писал работу весь день.",
- exampleSrc:"A: What did you do yesterday?\nB: Wrote the paper all day.",
+ example:"A: Что ты делал вчера?\nB: Читал книгу весь день.",
+ exampleSrc:"A: What did you do yesterday?\nB: Read a book all day.",
  funFact:"'Вчера' alone doesn't determine aspect. Depends on duration. Вчера весь день писал (imperfective — process). Вчера наконец написал (perfective — completed)."},
 
 {type:"teach", trg:"обычно", src:"usually", pos:"adv", gender:null,
@@ -196,8 +196,8 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
 
 {type:"teach", trg:"уже", src:"already", pos:"adv", gender:null,
  note:"Completion marker.\nStrong perfective trigger in past.",
- example:"A: Ты уже написал письмо?\nB: Да, утром.",
- exampleSrc:"A: Have you already written the letter?\nB: Yes, in the morning.",
+ example:"A: Ты уже написал?\nB: Да, утром.",
+ exampleSrc:"A: Have you already written it?\nB: Yes, in the morning.",
  funFact:"'Уже' + perfective past is THE way to express 'have (already) done.' English 'have done' maps directly. 'Ты уже закончил?' = Have you already finished?"},
 
 {type:"teach", trg:"никогда не", src:"never", pos:"phrase", gender:null,
@@ -214,8 +214,8 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
 
 {type:"teach", trg:"в субботу", src:"on Saturday", pos:"phrase", gender:null,
  note:"Specific time = perfective.\nExactness triggers perfective.",
- example:"A: Что будешь делать в субботу?\nB: Пойду в кино.",
- exampleSrc:"A: What will you do Saturday?\nB: I'll go to the cinema.",
+ example:"A: Что будешь делать в субботу?\nB: Пойду в магазин.",
+ exampleSrc:"A: What will you do Saturday?\nB: I'll go to the store.",
  funFact:"Specific time ('в субботу,' 'завтра,' 'в три часа') usually requires perfective future. Why? Specific = once = completed = perfective."},
 
 {type:"teach", trg:"до завтра", src:"until tomorrow", pos:"phrase", gender:null,
