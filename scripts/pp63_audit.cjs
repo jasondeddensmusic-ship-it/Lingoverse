@@ -1609,6 +1609,47 @@ const FUNCTION_WORDS = {
     'gebied','gebieden',
     'lost','lost',
     'astrologie',
+    // -- Verb stem / inflection forms of already-taught verbs --
+    'studeer','studeert','studeerde','gestudeerd',  // studeren (unit-02 area)
+    'spaar','spaart','spaarde','gespaard',          // sparen (unit-12)
+    'kleed','kleedt','kleedde',                     // aankleden (unit-05)
+    'scheert','scheer','scheerde','geschoren',      // scheren (unit-05)
+    'rust','rusten','rustte','gerust',              // rusten (unit-08) — 'rust' also standalone A1
+    'zet','zette','gezet',                          // zetten (core verb)
+    'meet','meet','mat','maten','gemeten',          // meten (measuring)
+    'sliep','sliepen',                              // slapen past tense
+    'snap','snapt','snapte','gesnap','gesnapt',     // snappen (to understand, colloquial)
+    // -- Adjective / adverb forms (base word already taught or transparent) --
+    'mooist','mooiste','mooier',                    // superlative of mooi (taught A1)
+    'zeldzame','zeldzamer','zeldzaamst',            // inflected of zeldzaam (unit-13)
+    'volledige','volledig','volledigere',           // volledig (thorough/full)
+    'saaie','saai','saaier','saaiste',              // saai (boring) — common A2 adj
+    'slechts',                                      // slechts = only/merely (adverb, not same as slecht)
+    'statistische','statistisch',                  // statistisch (statistical)
+    // -- Common adjectives not yet in whitelist but used incidentally in B2 examples --
+    'sympathiek','sympathieke',                     // sympathetic/likeable
+    'chagrijnig','chagrijnige',                     // grumpy/irritable
+    'vicieuze','vicieus','vicieuze',               // vicious (as in vicieuze cirkel)
+    // -- Transparent cognates and international loanwords --
+    'vegetarisch','vegetarische',                   // vegetarian (English transparent)
+    'sms',                                          // SMS/text message (international)
+    'cirkel','cirkels',                             // circle (EN/NL cognate, vicieuze cirkel fixed expression)
+    'extra',                                        // extra (identical to English)
+    'show','shows',                                 // show (identical to English)
+    'correct','correcte',                           // correct (identical to English)
+    'acteur','acteurs',                             // actor (Fr/Eng cognate, B2 context)
+    // -- één (accented form of een = number one, taught in unit-01) --
+    'één',
+    // -- vlak (flat/level — adj meaning, A2 geography context) --
+    'vlak','vlakke',
+    // -- High-frequency relational / idiomatic words used before dedicated teach slots --
+    'elkaar',                                       // each other (reciprocal pronoun, universal A2)
+    'viel','vielen',                                // past tense of vallen (to fall/turn out), also 'viel mee' idiom
+    // -- Common B1/B2 words in argument-structure / civic examples --
+    'geldig','geldige',                             // valid (B1 adj, used in civic/legal context)
+    'toon','tonen',                                 // tone/register (B2 discourse word)
+    'let',                                          // let op = pay attention (highly idiomatic B2 phrase)
+    'snap','snapt','snapte',                        // already in verb inflections above but also as standalone
   ]),
   'fr': new Set([
     // ── Core articles, prepositions, conjunctions ──
@@ -6485,6 +6526,19 @@ const KO_ENDINGS = [
   '\uC138\uC694',        // 세요
   '\uC73C\uC2ED\uC2DC\uC624',  // 으십시오
   '\uC2ED\uC2DC\uC624',  // 십시오
+  // ㅣ-final stem contractions: stem-ㅣ + 어요 → contracted (기다리+어요→기다려요)
+  // When a verb stem ends in a ㅣ-vowel syllable, polite 어요 merges:
+  //   ㄹ-initial last syl: 리+어요 → 려요  (기다리→기다려요, 어울리→어울려요)
+  //   ㅅ-initial last syl: 시+어요 → 셔요  (마시→마셔요)
+  //   ㅊ-initial last syl: 치+어요 → 쳐요  (가르치→가르쳐요, 다치→다쳐요)
+  //   ㅇ-initial last syl: 이+어요 → 여요  (보이→보여요)
+  // koSyllableMatch(려, 리)=TRUE via KO_VOWEL_CONTRACT[6=ㅕ]=20(ㅣ), same for 셔↔시, 쳐↔치, 여↔이.
+  // BUT koStemOf needs to FIRST strip the ending to get the stem for comparison.
+  // Adding these endings enables stripping before the syllable-match check.
+  '\uB824\uC694',        // 려요  (기다리→기다려요, 어울리→어울려요)
+  '\uC154\uC694',        // 셔요  (마시→마셔요)
+  '\uCCD0\uC694',        // 쳐요  (가르치→가르쳐요, 다치→다쳐요)
+  '\uC5EC\uC694',        // 여요  (보이→보여요)
   // Adverb -게 form: 유연하게, 그렇게, 따뜻하게, 천천히-style adverbs from adj
   '\uAC8C',              // 게
   // Casual no-요 contracted forms: 피곤해, 힘들어 (반말 / without polite -요)
@@ -6772,6 +6826,10 @@ function matchesTaught(tok, taught, langCode) {
   //     다-stripped stems via koAddStems so they appear as short entries).
   //  3. koSyllableMatch() handles ㄹ-irregular (갈[base=가]) and vowel
   //     contractions: ㅗ→ㅘ (보→봐), ㅜ→ㅝ (주→줘), ㅏ→ㅐ (하→해), ㅣ→ㅕ (시→셔).
+  //  4. Korean noun+particle: Korean nouns attach case-marking particles directly
+  //     (요리를, 계획을, 은행이). The tokenizer does NOT strip particles, so a token
+  //     like '요리를' won't match taught '요리'. We strip the final particle syllable
+  //     (one char: 를,을,이,가,은,는,의,도,와,과,랑,야,로) and re-check.
   if (langCode === 'ko') {
     const tokStem = koStemOf(tok);
     if (tokStem !== tok && tokStem.length >= 1) {
@@ -6786,6 +6844,14 @@ function matchesTaught(tok, taught, langCode) {
         // Guard: tw must end in 하 (하다 compound) or 되 (되다 compound) to avoid false positives.
         if (tw.length >= 2 && tokStem.length >= 2 && tokStem.length < tw.length &&
             tw.startsWith(tokStem) && (tw.endsWith('\uD558') || tw.endsWith('\uB418'))) return true;
+        // ㅣ-contraction reverse: koStemOf(기다려요) → 기다 (stripped 려요).
+        // 기다 won't startsWith '기다리' (taught), but '기다리'.startsWith('기다') IS true.
+        // Since 려요/셔요/쳐요/여요 contractions absorb the last stem syllable into the ending,
+        // stripping leaves a 2-char prefix that's a genuine prefix of the taught form.
+        // We apply this check when tokStem is strictly shorter than tw (not a 하/되 guard needed:
+        // the contraction check is limited to stems of length >= 2 and tw >= tokStem+1).
+        if (tw.length >= 2 && tokStem.length >= 2 && tokStem.length < tw.length &&
+            tw.startsWith(tokStem)) return true;
         // Syllable-level match for the first character (handles ㄹ-irregular etc.)
         if (tw.length === 1 && tokStem.length >= 1 && koSyllableMatch(tokStem[0], tw[0])) return true;
         // Multi-char stem: check if tokStem starts with a syllable-flexible version of tw
@@ -6805,6 +6871,75 @@ function matchesTaught(tok, taught, langCode) {
     for (const tw of taught) {
       if (!tw) continue;
       if (tw.length === 1 && tok.length >= 1 && koSyllableMatch(tok[0], tw[0])) return true;
+    }
+
+    // ── Korean noun+particle stripping ──────────────────────────────────────────
+    // Single-char case particles directly attached to nouns:
+    //   를(B97C), 을(C744) = acc after vowel/consonant
+    //   이(C774) = nom/cop after consonant (when 2+ chars remain)
+    //   가(AC00) = nom after vowel — skip: too short and common as verb stem
+    //   은(C740), 는(B294) = topic
+    //   의(C758) = genitive
+    //   도(B3C4) = also/too
+    //   와(C640), 과(AC04) = comitative/and
+    //   랑(B791) = casual and (after vowel)
+    //   야(C57C) = casual vocative/nominator after vowel
+    //   로(B85C) = directional/instrumental after vowel
+    //   을(C744) already above; 과/와 above.
+    // Only strip if remainder has length >= 2 (prevents single-char nouns masking verbs).
+    // 2-char particles: 에서(C5D0C11C), 에게(C5D0AC8C), 으로(C73CB85C), 이랑(C774B791), 이나(C774B098)
+    const KO_PARTICLES_1 = new Set([
+      '\uB97C', // 를
+      '\uC744', // 을
+      '\uC774', // 이
+      '\uC740', // 은
+      '\uB294', // 는
+      '\uC758', // 의
+      '\uB3C4', // 도
+      '\uC640', // 와
+      '\uAC04', // 과
+      '\uB791', // 랑
+      '\uC57C', // 야
+      '\uB85C', // 로
+    ]);
+    const KO_PARTICLES_2 = [
+      '\uC5D0\uC11C', // 에서
+      '\uC5D0\uAC8C', // 에게
+      '\uC73C\uB85C', // 으로
+      '\uC774\uB791', // 이랑
+      '\uC774\uB098', // 이나
+    ];
+    if (tok.length >= 3) {
+      // Try 2-char particle first
+      for (const p2 of KO_PARTICLES_2) {
+        if (tok.endsWith(p2) && tok.length - p2.length >= 2) {
+          const bareNoun = tok.slice(0, tok.length - p2.length);
+          for (const tw of taught) {
+            if (!tw) continue;
+            if (tw === bareNoun || tw.startsWith(bareNoun) || bareNoun.startsWith(tw)) return true;
+          }
+        }
+      }
+      // Try 1-char particle
+      const lastChar = tok[tok.length - 1];
+      if (KO_PARTICLES_1.has(lastChar) && tok.length - 1 >= 2) {
+        const bareNoun = tok.slice(0, -1);
+        const bareNounStem = koStemOf(bareNoun);  // rare: noun+verbal-noun ending
+        for (const tw of taught) {
+          if (!tw) continue;
+          if (tw === bareNoun || tw.startsWith(bareNoun) || bareNoun.startsWith(tw)) return true;
+          if (bareNounStem !== bareNoun && (tw === bareNounStem || bareNounStem.startsWith(tw))) return true;
+          // Also check slash-parts stored by addTrg (e.g. 건너가 from 건너가다)
+          // via the general stem-level multi-char match:
+          if (tw.length >= 2 && bareNoun.length >= tw.length) {
+            let allMatch = true;
+            for (let i = 0; i < tw.length; i++) {
+              if (!koSyllableMatch(bareNoun[i], tw[i])) { allMatch = false; break; }
+            }
+            if (allMatch) return true;
+          }
+        }
+      }
     }
   }
 
@@ -6875,6 +7010,19 @@ function auditLang(langDir) {
             targetSet.add(part);
             if (part.endsWith('\uB2E4') && part.length >= 2) {
               targetSet.add(part.slice(0, -1));  // 어렵다 → also add 어렵
+            }
+          }
+        }
+        // Slash-format nl: "건너다 / 건너가다", "어머니 / 엄마", "아래 / 밑".
+        // Each alternative is a legitimate taught form; register all parts.
+        // Without this, the stem-matcher only sees the full slash-joined string
+        // (e.g. "건너다 / 건너가다") and cannot match conjugated tokens like 건너세요.
+        if (bare.includes(' / ')) {
+          const slashParts = bare.split(' / ').map(s => s.trim());
+          for (const sp of slashParts) {
+            targetSet.add(sp);
+            if (sp.endsWith('\uB2E4') && sp.length >= 2) {
+              targetSet.add(sp.slice(0, -1));  // 건너가다 → also add 건너가
             }
           }
         }
