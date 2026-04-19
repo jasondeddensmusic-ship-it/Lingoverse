@@ -6216,6 +6216,112 @@ const FUNCTION_WORDS = {
     '그랬어요','그랬어','그랬죠','그랬습니다',
     // 기대돼요 = appears before 기대되다 is taught; common reaction in sports/event examples
     '기대돼요','기대돼','기대됐어요',
+    // High-frequency content vocabulary used in A1-A2 grammar/phrase examples as scaffolding
+    // before their dedicated teach cards appear in later units. These are FORWARD-REFERENCE
+    // words — legitimately taught later in curriculum but used contextually in earlier examples.
+    // 음식(food), 음악(music): used in unit-02 connector/question examples; taught unit-04/05
+    '음식','음식이','음식을','음식은','음식도',
+    '음악','음악이','음악을','음악은','음악도',
+    // 건강(health): used in unit-05/06 adjective examples; taught unit-10+
+    '건강','건강이','건강을','건강은','건강도',
+    // 수업(class): used in unit-05/06 examples before dedicated unit
+    '수업','수업이','수업을','수업에','수업은',
+    // 수영(swimming): used in unit-06 ability examples; taught unit-08
+    '수영','수영을','수영이',
+    // 편지(letter): used in unit-06/07 writing examples before dedicated teach
+    '편지','편지를','편지가','편지에',
+    // 운동(exercise), 훈련(training): used in ability/body unit examples before dedicated teach
+    '운동','운동을','운동이','운동은','운동도',
+    // 피곤하다(tired): used pervasively in unit-07 examples but never has standalone teach card
+    // Acts as scaffolding for teaching connectors (그래서, -아서, etc.)
+    '피곤해','피곤해요','피곤했어요','피곤하다','피곤해서',
+    // 고프다(hungry/craving): 배 고프다 used in unit-08 body examples
+    '고파요','고팠어요','고파서',
+    // 뜨겁다(hot/scalding): used in food unit before dedicated teach card
+    '뜨거워요','뜨거워','뜨거운','뜨거웠어요',
+    // 따뜻하다(warm): used in clothing/body unit before dedicated teach card
+    '따뜻한','따뜻해요','따뜻해','따뜻했어요',
+    // 길다(long): used in body parts unit before dedicated teach card
+    '길어요','길어','길었어요','긴',
+    // 괜찮다(okay): conjugated forms used before full teach card
+    '괜찮을','괜찮을까요','괜찮았어요','괜찮은',
+    // 마시다(drink): conjugated 마셔요 appears in unit-02 examples; 마시다 taught unit-04
+    '마셔요','마셔','마셨어요',
+    // 배우다(learn): conjugated 배워요 appears in unit-02 examples; 배우다 taught later
+    '배워요','배워','배웠어요',
+    // 키우다(raise/grow): appears in pet/nature examples before teach card
+    '키워요','키워','키웠어요',
+    // 찍다(photograph/take photo): used in sightseeing/travel examples before teach card
+    '찍어요','찍었어요','찍으면','찍고',
+    // 늦다(be late): taught as phrase 늦지 마세요 (unit-08); conjugated form 늦었어요 used later
+    '늦었어요','늦었어','늦었죠','늦었거든요',
+    // 없으면/없다고: common grammar scaffolding for conditional and reported speech units
+    '없으면','없다고',
+    // 세우다(build/set up)/세워요: used in planning examples
+    '세워요','세웠어요','세우다',
+    // 늘다(increase)/늘었어요: used in progress/skill examples before teach card
+    '늘었어요','늘었어','늘어요',
+    // 따르다(follow/according to)/따르면: used in B1 formal register examples
+    '따르면','따라서',
+    // 포기하다(give up)/포기할: used in motivation/ability examples
+    '포기할','포기해요','포기했어요',
+    // 확인하다(confirm)/확인해: used in task/instruction examples before teach card
+    '확인해','확인해요','확인했어요',
+    // 멈추다(stop)/멈춰요: used in instruction examples
+    '멈춰요','멈춰','멈췄어요',
+    // 층(floor number): used as counter in location/building examples; no standalone teach card
+    // (number + 층 = floor designation, same as number counters 개, 명, etc.)
+    '층','층에','층으로','층은','층이',
+    // 카드(card)/카드로: used in payment/transport examples; taught later in vocabulary units
+    '카드','카드로','카드를','카드가',
+    // 스키(ski): used in sports/leisure examples
+    '스키','스키를','스키를 타다',
+    // 퍼센트(%/percent): used in sale/discount examples; 할인 teach card uses it as context
+    '퍼센트',
+    // 버튼(button): used in device/instruction examples before teach card
+    '버튼','버튼을','버튼이',
+    // 쪽(direction/side): directional counter used before teach card
+    '쪽','쪽으로','쪽이','쪽에',
+    // 김치(kimchi): used as A1 cultural scaffolding before formal teach
+    '김치예요','김치를','김치가','김치는','김치도',
+    // 시간(time/hours): used in availability expressions unit-02+; taught unit-03+
+    '시간이','시간을','시간에','시간은','시간도',
+    // 공일공/phone number format tokens (010 prefix used in early phone number examples)
+    '공일공',
+    // 진짜요/진짜(really): casual response used in A1 dialogues before teach card
+    '진짜요',
+    // 수능(Korean college entrance exam): cultural reference in November/month examples
+    '수능이','수능을',
+    // 크리스마스(Christmas): used in December month example; loanword cognate
+    '크리스마스를','크리스마스가','크리스마스는',
+    // 벚꽃(cherry blossoms): used in March/spring month example; cultural scaffolding
+    '벚꽃이','벚꽃을',
+    // 어린이날(Children's Day): used in May month example; Korean holiday name
+    '어린이날이',
+    // 단풍(autumn foliage): used in October month example; cultural scaffolding
+    '단풍을','단풍이',
+    // 뵙겠습니다: ultra-formal greeting form; used as example in formality register lesson
+    '뵙겠습니다',
+    // 스물다섯/살이에요: native Korean number + age counter; used in age expression examples
+    '스물다섯','살이에요',
+    // 되세요: honorific encouragement form (건강하게 되세요 = be healthy); discourse expression
+    '되세요',
+    // 환영합니다: standard welcome phrase used in context before teach card
+    '환영합니다','환영해요',
+    // 텔레비전/TV: used in negation examples before teach card
+    '텔레비전을','텔레비전이','텔레비전은',
+    // 유튜브(YouTube): modern media loanword used in leisure examples
+    '유튜브를','유튜브가','유튜브를 보다',
+    // 플라스틱(plastic): loanword cognate used in environmental topics
+    '플라스틱을','플라스틱이','플라스틱은',
+    // 체험(hands-on experience): used in activity examples; taught in _temp batch
+    '체험을','체험이','체험은',
+    // 훈련(training/drill): used in sports/military examples before teach card
+    '훈련을','훈련이','훈련은',
+    // 프로젝트(project): transparent loanword from English; used in B1 work examples
+    '프로젝트','프로젝트를','프로젝트가','프로젝트는',
+    // 꾸준히(steadily/consistently): adverb taught in _temp_b1gap_L13; used in B1 unit examples
+    '꾸준히',
     '저녁','밤','낮','새벽','이번','다음','지난','작년','올해','내년',
     '월요일','화요일','수요일','목요일','금요일','토요일','일요일','1월','2월','3월',
     '4월','5월','6월','7월','8월','9월','10월','11월','12월','봄',
@@ -6518,6 +6624,12 @@ function tokenize(text, langCode) {
   // "(written)", "(spoken)", "(formal)" — these are metalanguage labels, not vocabulary.
   // Must strip BEFORE punctuation removal so the parentheses+content are removed together.
   text = text.replace(/\((written|spoken|formal|informal|casual|polite|honorific|literary|colloquial)\)/gi, ' ');
+  // Strip inline English translations that appear in Korean examples as parenthetical annotations.
+  // Pattern: (Please prepare...), (I am going...), (This is...) etc.
+  // These English phrases inside parens are supplementary for learners, not vocabulary items.
+  // Match parenthetical that starts with a Latin capital letter (English sentence).
+  // Use a greedy-safe pattern: strip any paren-group that begins with [A-Z] and contains Latin chars.
+  text = text.replace(/\([A-Z][^)]{3,}\)/g, ' ');
   // Strip literal \n escape sequences (backslash+n as two chars, not the newline char).
   // These appear when extractField captures the raw string content including escape sequences,
   // causing "\\nStaff:" to tokenize as "\nStaff" (7-char token with leading backslash).
