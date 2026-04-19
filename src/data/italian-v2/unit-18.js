@@ -272,6 +272,12 @@ const UNIT_18 = {
        exampleSrc:"A: The factories are polluting the river.\nB: The government must intervene.\nA: How did you find out?\nB: A friend told me last night.",
        funFact:"'Inquinare' comes from Latin 'inquinare' (to stain). Italy's industrial north has historically produced significant pollution, but strict EU regulations have improved air and water quality considerably since the 1990s. The Adriatic Sea, once severely polluted, has seen remarkable recovery."},
 
+      {type:"tip", title:"Si Impersonale & Si Passivante",
+       text:"Italian uses 'si' to make impersonal or passive-style sentences without naming a subject.\n\nSi impersonale (impersonal 'one/you/people')\nSubject is unspecified. Always uses the third-person singular verb:\nSi deve riciclare. (One must recycle. / You should recycle.)\nCome si dice 'environment' in italiano? (How do you say...?)\nSi sa che inquinare e sbagliato. (Everyone knows that polluting is wrong.)\n\nSi passivante (passive-like 'si')\nSubject IS specified (the acted-upon thing). Verb agrees in number:\nSingular: Si usa meno plastica. (Less plastic is used.)\nPlural:   Si riciclano bottiglie e carta. (Bottles and paper are recycled.)\n         Si vendono pannelli solari. (Solar panels are sold.)\n\nKey test: does the verb agree with a following noun?\nYes > si passivante. No noun / no agreement > si impersonale.\n\nBoth are extremely common in Italian environmental and public discourse.",
+       icon:"💡",
+       deepDive:{title:"Why si is so productive in Italian",
+        text:"Si is Italian's Swiss-army knife of impersonality. It turns any transitive verb into a passive equivalent and any verb into an 'everyone/one/you' statement. In English you would need 'people,' 'one,' 'they,' or a full passive construction. Italian si covers all of these with one word. In formal writing, si is preferred over the passive with 'da': 'Si usa energia rinnovabile' sounds more natural than 'L'energia rinnovabile e usata.' In spoken Italian, si impersonale sometimes doubles with reflexive si, creating 'ci si': 'Ci si abitua presto' (One gets used to it quickly). This is the expected form when the main verb is itself reflexive."}},
+
       // Quiz steps
       {type:"mc", q:"What does 'sprecare' mean?",
        opts:["To use resources carelessly","To save or conserve something","To process used materials again","To shield from harm"],

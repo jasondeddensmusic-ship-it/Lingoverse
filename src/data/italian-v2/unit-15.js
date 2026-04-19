@@ -272,6 +272,12 @@ const UNIT_15 = {
        exampleSrc:"A: Did you find a place through an agency?\nB: Yes, the real estate agency found a perfect one-bedroom.\nA: How much did you pay in commission?\nB: One month's rent. It is the norm in Italy.",
        funFact:"Italian real estate agencies typically charge a commission of one month's rent for rentals and 2-4% of the sale price for purchases. The commission is paid by both parties (buyer and seller, or tenant and landlord). Online platforms are slowly changing this."},
 
+      {type:"tip", title:"Relative Pronouns: che & cui",
+       text:"Relative pronouns connect two sentences about the same thing or person.\n\nche = who, that, which (subject or direct object):\nL'appartamento che ho affittato. (The apartment that I rented.)\nLa persona che parla. (The person who is speaking.)\nChe never changes form.\n\ncui = whom, which (used AFTER a preposition):\nL'agenzia con cui lavoro. (The agency I work with.)\nLa citta in cui vivo. (The city where I live.)\nIl motivo per cui mi sono trasferito. (The reason why I moved.)\n\ncui for possession (article + cui = whose):\nL'amico il cui appartamento e grande. (The friend whose apartment is big.)\n\nFormal alternative: il/la quale (which/who, agrees in gender and number):\nLa persona con la quale lavoro. (same as con cui, more formal)",
+       icon:"💡",
+       deepDive:{title:"Che vs. cui: the key rule",
+        text:"The distinction is simple once you see the logic. Che covers subject and direct object functions — no preposition involved. Cui covers all other functions — always preceded by a preposition (di, a, da, in, con, su, per, tra). If you can replace the pronoun with 'him/her/it' directly, use che. If the pronoun needs a preposition ('with it,' 'in which,' 'for whom'), use cui. Colloquial Italian sometimes drops the preposition before cui: 'il motivo cui mi sono trasferito' (the reason I moved) instead of 'per cui.' Both are understood."}},
+
       // Quiz steps
       {type:"mc", q:"What does 'trasferirsi' mean?",
        opts:["To move / relocate your life","To transfer money abroad","To transform into something new","To translate a foreign text"],

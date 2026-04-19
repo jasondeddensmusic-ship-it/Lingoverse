@@ -164,6 +164,12 @@ const UNIT_09 = {
        exampleSrc:"A: How are you?\nB: I feel ill. I have a fever.",
        funFact:"'Stare' is used for temporary states of being. 'Sto male' (I feel bad physically), 'sto bene' (I feel well). This is different from 'essere' (to be), which describes permanent qualities. 'Stare' for feelings, 'essere' for identity."},
 
+      {type:"tip", title:"Stare + Gerundio (Progressive)",
+       text:"To say something is happening RIGHT NOW, use stare (conjugated) + gerundio.\n\nForming the gerundio:\n-are verbs: -ando (mangiare > mangiando)\n-ere verbs: -endo (scrivere > scrivendo)\n-ire verbs: -endo (dormire > dormendo)\n\nExamples:\nSto mangiando. (I am eating, right now.)\nStai parlando? (Are you speaking?)\nSta dormendo. (He/she is sleeping.)\n\nFor past progressive, use stare in the imperfetto:\nStavo leggendo quando hai chiamato. (I was reading when you called.)\n\nDo NOT use this for future plans:\nParto domani. (I am leaving tomorrow.) NOT Sto partendo domani.",
+       icon:"💡",
+       deepDive:{title:"Stare + gerundio vs. English -ing",
+        text:"Italian uses stare + gerundio MUCH less than English uses -ing. Italian present tense already covers most situations. 'Mangio' (I eat / I am eating / I do eat) handles three English forms. Stare + gerundio only adds emphasis on the action happening at this exact moment. The irregular gerundi: fare > facendo, dire > dicendo, bere > bevendo. These follow older Latin stems."}},
+
       {type:"teach", trg:"il dolore", src:"the pain", pos:"noun", gender:"m",
        note:"Masculine. From Latin 'dolor' (pain, grief).\n'Ho un dolore al ginocchio' = I have knee pain.",
        example:"A: Dove sente il dolore?\nB: Qui, alla spalla destra.",
@@ -271,6 +277,12 @@ const UNIT_09 = {
        example:"A: Quanto tempo per guarire?\nB: Circa una settimana.",
        exampleSrc:"A: How long to recover?\nB: About a week.",
        funFact:"From Germanic 'warjan' (to defend, protect), entering Italian through Frankish. Related to English 'ward' and 'warden.' The -isc- pattern (guarisco, guarisci, guarisce) is common in -ire verbs: capire (capisco), finire (finisco)."},
+
+      {type:"tip", title:"Comparatives & Superlatives",
+       text:"Comparing things in Italian follows clear patterns.\n\nComparatives (more/less than):\npiu + adj + di: Roma e piu grande di Firenze. (Rome is bigger than Florence.)\nmeno + adj + di: Questo e meno caro di quello. (This is cheaper than that.)\n\nUse 'che' (not 'di') before adjectives, verbs, or prepositions:\nE piu stanco che malato. (He is more tired than sick.)\n\nEquality (as ... as):\n(tanto) ... quanto / (cosi) ... come:\nSei alto quanto me. (You are as tall as me.)\n\nRelative superlative (the most ...):\nil/la piu + adj: la citta piu bella (the most beautiful city)\n\nAbsolute superlative (very ...):\nadj + -issimo: bellissimo, grandissimo, velocissimo\n\nIrregular forms:\nbuono > migliore (better) / ottimo (best/excellent)\ncattivo > peggiore (worse) / pessimo (worst)\ngrande > maggiore (larger/older)\npiccolo > minore (smaller/younger)",
+       icon:"💡",
+       deepDive:{title:"Di vs. che in comparisons",
+        text:"The di/che choice trips many learners. Use di before a noun or pronoun you are comparing against: 'piu alto di Marco,' 'piu veloce di te.' Use che when comparing two adjectives, two verbs, or two prepositional phrases about the same noun: 'e piu facile che difficile' (it is more easy than hard). The absolute superlative (-issimo) is a uniquely Italian feature. It does not require a comparative frame: 'buonissimo' simply means 'very good' or 'really good.' It is used constantly in everyday Italian."}},
 
       // Quiz steps
       {type:"mc", q:"How do you say 'My shoulder hurts' in Italian?",
