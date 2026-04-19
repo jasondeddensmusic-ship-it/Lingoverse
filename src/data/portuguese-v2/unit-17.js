@@ -19,14 +19,14 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"teach", trg:"o", src:"him / it (m)", pos:"pron", gender:"m",
  note:"Third person masculine direct object. Replaces a masculine noun or person.",
- example:"A: Você viu o João?\nB: Sim, eu o vi na padaria.",
- exampleSrc:"A: Did you see João?\nB: Yes, I saw him at the bakery.",
+ example:"A: Você conhece o João?\nB: Sim, eu o conheço bem.",
+ exampleSrc:"A: Do you know João?\nB: Yes, I know him well.",
  funFact:"In casual Brazilian speech, many people say 'eu vi ele' instead. But 'o vi' is the written standard."},
 
 {type:"teach", trg:"a", src:"her / it (f)", pos:"pron", gender:"f",
  note:"Third person feminine direct object. Replaces a feminine noun or person.",
- example:"A: Cadê a chave?\nB: Eu a deixei na mesa.",
- exampleSrc:"A: Where is the key?\nB: I left it on the table.",
+ example:"A: Cadê a chave?\nB: Eu a tenho aqui na mão.",
+ exampleSrc:"A: Where is the key?\nB: I have it here in my hand.",
  funFact:"Looks identical to the feminine article 'a'. Context makes the meaning clear."},
 
 {type:"teach", trg:"nos", src:"us", pos:"pron", gender:null,
@@ -37,8 +37,8 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"teach", trg:"os", src:"them (m/mixed)", pos:"pron", gender:"m",
  note:"Third person masculine plural direct object. Also used for mixed-gender groups.",
- example:"A: Onde estão seus filhos?\nB: Eu os deixei na escola.",
- exampleSrc:"A: Where are your children?\nB: I dropped them off at school.",
+ example:"A: Onde estão seus filhos?\nB: Eu os tenho aqui, estão bem.",
+ exampleSrc:"A: Where are your children?\nB: I have them here, they are fine.",
  funFact:"Defaults to masculine plural for any mixed group, even one man with ten women."},
 
 {type:"teach", trg:"as", src:"them (f)", pos:"pron", gender:"f",
@@ -94,9 +94,9 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
  goals:["Learn lhe and lhes","See how me, te, nos do double duty","Distinguish direct from indirect objects"]},
 
 {type:"teach", trg:"lhe", src:"to him / to her / to you (formal)", pos:"pron", gender:null,
- note:"Third person singular indirect object. Replaces 'a ele', 'a ela', or 'a você'.",
- example:"A: Você disse a verdade ao chefe?\nB: Sim, eu lhe contei tudo.",
- exampleSrc:"A: Did you tell the truth to the boss?\nB: Yes, I told him everything.",
+ note:"Third person singular indirect object. Replaces 'a ele', 'a ela', ou 'a você'.",
+ example:"A: Você falou com o professor?\nB: Sim, eu lhe falei tudo.",
+ exampleSrc:"A: Did you talk to the teacher?\nB: Yes, I told him everything.",
  funFact:"In casual Brazilian speech, people often say 'eu falei pra ele' instead. But 'lhe' is the polished form."},
 
 {type:"teach", trg:"lhes", src:"to them / to you all (formal)", pos:"pron", gender:null,
@@ -112,8 +112,8 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"teach", trg:"dar algo a alguém", src:"to give something to someone", pos:"verb", gender:null,
  note:"Classic double-object verb. Takes a direct object (the thing) and an indirect object (the receiver).",
- example:"A: Eu dei o presente à Ana.\nB: Você deu o presente a ela? Que gentil!",
- exampleSrc:"A: I gave the gift to Ana.\nB: You gave the gift to her? How kind!",
+ example:"A: Eu dei o livro à Ana.\nB: Você deu o livro a ela? Muito bem!",
+ exampleSrc:"A: I gave the book to Ana.\nB: You gave the book to her? Very good!",
  funFact:"The 'à' with accent is the fusion of 'a' (to) + 'a' (the). Portuguese loves contracting prepositions with articles."},
 
 {type:"teach", trg:"responder", src:"to answer / to reply", pos:"verb", gender:null,
@@ -186,8 +186,8 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"teach", trg:"Ela me chamou", src:"She called me", pos:"verb", gender:null,
  note:"BR pattern: pronoun sits between the subject and the verb. The pronoun 'me' is unstressed.",
- example:"A: Ela me chamou três vezes.\nB: Desculpa, eu estava com fones de ouvido.",
- exampleSrc:"A: She called me three times.\nB: Sorry, I had headphones on.",
+ example:"A: Ela me chamou!\nB: Desculpa, eu estava em casa.\nA: Tudo bem.\nB: Ela fala muito bem.",
+ exampleSrc:"A: She called me!\nB: Sorry, I was at home.\nA: It is fine.\nB: She speaks very well.",
  funFact:"Compare with PT 'Ela chamou-me'. Same meaning, different position."},
 
 {type:"teach", trg:"Eu o conheço", src:"I know him", pos:"verb", gender:null,

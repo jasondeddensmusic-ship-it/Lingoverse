@@ -37,8 +37,8 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
 
 {type:"teach", trg:"liberdade", src:"freedom", pos:"noun", gender:"f",
  note:"A core political value. Common in phrases like 'liberdade de expressão' (freedom of expression).",
- example:"A: A liberdade é um valor universal.\nB: E precisamos defendê-la sempre.",
- exampleSrc:"A: Freedom is a universal value.\nB: And we must always defend it.",
+ example:"A: A liberdade é muito importante.\nB: Sim, a liberdade é um valor universal.",
+ exampleSrc:"A: Freedom is very important.\nB: Yes, freedom is a universal value.",
  funFact:"The Brazilian national motto on the flag in 1889 was 'Liberdade, Igualdade, Fraternidade', borrowed from France."},
 
 {type:"teach", trg:"igualdade", src:"equality", pos:"noun", gender:"f",
@@ -107,8 +107,8 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
 
 {type:"teach", trg:"votar", src:"to vote", pos:"verb", gender:null,
  note:"Regular -ar verb. Vote for someone: 'votar em alguém' (not 'votar por').",
- example:"A: Em quem você vai votar?\nB: Ainda não decidi.",
- exampleSrc:"A: Who are you going to vote for?\nB: I haven't decided yet.",
+ example:"A: Em quem você vai votar?\nB: Vou votar em Maria.",
+ exampleSrc:"A: Who are you going to vote for?\nB: I'm going to vote for Maria.",
  funFact:"Brazil was the first major country to adopt electronic voting nationwide, in 1996."},
 
 {type:"teach", trg:"manifestação", src:"protest / demonstration", pos:"noun", gender:"f",
@@ -201,8 +201,8 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
 
 {type:"teach", trg:"valor", src:"value", pos:"noun", gender:"m",
  note:"A principle or ideal. Also means monetary value. Plural 'valores' often means moral values.",
- example:"A: Meus valores vêm da minha família.\nB: É assim com a maioria das pessoas.",
- exampleSrc:"A: My values come from my family.\nB: It's like that for most people.",
+ example:"A: Meus valores são da minha família.\nB: É assim com muitas pessoas.",
+ exampleSrc:"A: My values are from my family.\nB: It's like that for many people.",
  funFact:"'Valores tradicionais' (traditional values) became a political slogan in the 2010s across Brazil."},
 
 {type:"teach", trg:"sociedade", src:"society", pos:"noun", gender:"f",

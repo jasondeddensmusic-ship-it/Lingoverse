@@ -123,8 +123,8 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
 
 {type:"teach", trg:"esquecer-se de", src:"to forget", pos:"verb", gender:null,
  note:"Opposite of lembrar-se. Also requires 'de' before the forgotten object.",
- example:"A: Você se esqueceu das chaves?\nB: Ai não, me esqueci sim!",
- exampleSrc:"A: Did you forget the keys?\nB: Oh no, I did forget!",
+ example:"A: Não se esqueça das chaves!\nB: Está bem, vou lembrar.",
+ exampleSrc:"A: Don't forget the keys!\nB: Okay, I will remember.",
  funFact:"Without the reflexive, 'eu esqueci as chaves' also works in BR. Grammar purists prefer the reflexive."},
 
 {type:"mc",
@@ -210,8 +210,8 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
 
 {type:"teach", trg:"mudar-se", src:"to move (to a new home)", pos:"verb", gender:null,
  note:"Reflexive for changing residence. Without the reflexive, 'mudar' means to change something else.",
- example:"A: Quando vocês se mudaram?\nB: Nos mudamos mês passado.",
- exampleSrc:"A: When did you move?\nB: We moved last month.",
+ example:"A: Quando vocês se mudaram?\nB: Nos mudamos no ano passado.",
+ exampleSrc:"A: When did you move?\nB: We moved last year.",
  funFact:"Compare: 'eu mudei de ideia' (I changed my mind, no reflexive) vs 'eu me mudei' (I moved house)."},
 
 {type:"mc",

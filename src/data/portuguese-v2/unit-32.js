@@ -19,8 +19,8 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
 
 {type:"teach", trg:"poluição", src:"pollution", pos:"noun", gender:"f",
  note:"Contamination of air, water, or soil. Common compound: 'poluição do ar' (air pollution).",
- example:"A: São Paulo tem muita poluição?\nB: Infelizmente, sim. O ar às vezes fica cinza.",
- exampleSrc:"A: Does São Paulo have a lot of pollution?\nB: Unfortunately, yes. The air sometimes turns gray.",
+ example:"A: São Paulo tem muita poluição?\nB: Infelizmente, sim. O ar fica cinza.",
+ exampleSrc:"A: Does São Paulo have a lot of pollution?\nB: Unfortunately, yes. The air turns gray.",
  funFact:"The verb form is 'poluir': 'não polua o rio' (do not pollute the river)."},
 
 {type:"teach", trg:"reciclagem", src:"recycling", pos:"noun", gender:"f",

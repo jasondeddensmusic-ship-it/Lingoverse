@@ -126,20 +126,20 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"teach", trg:"festival", src:"festival", pos:"noun", gender:"m",
  note:"Cultural celebration. 'Festival de cinema' = film festival. 'Festival de música' = music festival.",
- example:"A: O festival de Parintins é incrível.\nB: É o segundo maior do Brasil.",
- exampleSrc:"A: The Parintins festival is amazing.\nB: It's the second biggest in Brazil.",
+ example:"A: O festival de Parintins é muito bom.\nB: É um dos maiores do Brasil.",
+ exampleSrc:"A: The Parintins festival is very good.\nB: It's one of the biggest in Brazil.",
  funFact:"Brazilian Carnival is arguably the world's biggest 'festival', attracting millions to Rio, Salvador, and Recife."},
 
 {type:"teach", trg:"exposição", src:"exhibition", pos:"noun", gender:"f",
  note:"An art or museum show. 'Exposição de arte' = art exhibition. 'Visitar uma exposição' = to visit an exhibition.",
- example:"A: A exposição de Tarsila foi linda.\nB: Fui três vezes, não me cansei.",
- exampleSrc:"A: The Tarsila exhibition was beautiful.\nB: I went three times, didn't get tired.",
+ example:"A: A exposição de Tarsila foi linda.\nB: Fui ontem, não me cansei.",
+ exampleSrc:"A: The Tarsila exhibition was beautiful.\nB: I went yesterday, didn't get tired.",
  funFact:"The São Paulo Biennial is one of the world's oldest contemporary art exhibitions, started in 1951."},
 
 {type:"teach", trg:"museu", src:"museum", pos:"noun", gender:"m",
  note:"Cultural institution. 'Museu de arte' = art museum. MASP is the most famous in São Paulo.",
- example:"A: O museu tem obras incríveis.\nB: Vou voltar na próxima viagem.",
- exampleSrc:"A: The museum has incredible works.\nB: I'll come back on my next trip.",
+ example:"A: O museu tem obras muito boas.\nB: Vou voltar na próxima viagem.",
+ exampleSrc:"A: The museum has very good works.\nB: I'll come back on my next trip.",
  funFact:"The Museu Nacional in Rio burned down in 2018, losing 20 million artifacts, a tragedy for Brazilian heritage."},
 
 {type:"tip", title:"Cultural Identity Vocabulary",
@@ -197,8 +197,8 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"teach", trg:"teatro", src:"theater", pos:"noun", gender:"m",
  note:"Both the building and the art form. 'Ir ao teatro' = to go to the theater. 'Peça de teatro' = play.",
- example:"A: Amo ir ao teatro nos fins de semana.\nB: Eu também, a energia é única.",
- exampleSrc:"A: I love going to the theater on weekends.\nB: Me too, the energy is unique.",
+ example:"A: Amo ir ao teatro todo sábado.\nB: Eu também, a energia é única.",
+ exampleSrc:"A: I love going to the theater every Saturday.\nB: Me too, the energy is unique.",
  funFact:"Teatro Municipal in Rio and São Paulo are two of Latin America's most elegant opera houses, both from the early 1900s."},
 
 {type:"teach", trg:"cinema", src:"cinema", pos:"noun", gender:"m",
@@ -209,8 +209,8 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"teach", trg:"concerto", src:"concert", pos:"noun", gender:"m",
  note:"Classical or formal music performance. For pop concerts, Brazilians often say 'show'.",
- example:"A: O concerto da orquestra foi incrível.\nB: Os músicos são fantásticos.",
- exampleSrc:"A: The orchestra concert was amazing.\nB: The musicians are fantastic.",
+ example:"A: O concerto da orquestra foi muito bom.\nB: Os músicos são fantásticos.",
+ exampleSrc:"A: The orchestra concert was very good.\nB: The musicians are fantastic.",
  funFact:"Sala São Paulo is one of the world's top concert halls for acoustics, built in a former train station."},
 
 {type:"teach", trg:"show", src:"show / concert (pop)", pos:"noun", gender:"m",
@@ -227,8 +227,8 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"teach", trg:"personagem", src:"character", pos:"noun", gender:"f",
  note:"Feminine, even though many characters are male. Greek origin. 'Uma personagem marcante' = a memorable character.",
- example:"A: Essa personagem me marcou.\nB: Tem camadas incríveis.",
- exampleSrc:"A: This character marked me.\nB: It has incredible layers.",
+ example:"A: Essa personagem me marcou.\nB: Tem uma história muito boa.",
+ exampleSrc:"A: This character marked me.\nB: Has a very good story.",
  funFact:"'Personagem' is one of those tricky gender cases. Some speakers say 'o personagem' informally, but 'a personagem' is standard."},
 
 {type:"teach", trg:"público", src:"audience", pos:"noun", gender:"m",

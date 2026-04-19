@@ -7,8 +7,8 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
 
 {type:"teach", trg:"região", src:"region", pos:"noun", gender:"f",
  note:"A large area grouping several states. Brazil has five official regions.",
- example:"A: Quantas regiões o Brasil tem?\nB: Cinco: Norte, Nordeste, Centro-Oeste, Sudeste e Sul.",
- exampleSrc:"A: How many regions does Brazil have?\nB: Five: North, Northeast, Center-West, Southeast, and South.",
+ example:"A: Qual região do Brasil você conhece?\nB: Conheço o Nordeste e o Sul.",
+ exampleSrc:"A: Which region of Brazil do you know?\nB: I know the Northeast and the South.",
  funFact:"The plural adds -ões: 'regiões'. One of the most beautiful plurals in Portuguese."},
 
 {type:"teach", trg:"estado", src:"state", pos:"noun", gender:"m",
@@ -43,8 +43,8 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
 
 {type:"teach", trg:"Sul", src:"South (region)", pos:"noun", gender:"m",
  note:"The coolest region climatically. Strong European immigrant heritage.",
- example:"A: Como é o clima no Sul?\nB: Mais ameno. Às vezes até neva na serra.",
- exampleSrc:"A: How is the climate in the South?\nB: Milder. Sometimes it even snows in the mountains.",
+ example:"A: Como é o clima no Sul?\nB: Mais ameno. Pode até nevar na serra.",
+ exampleSrc:"A: How is the climate in the South?\nB: Milder. It can even snow in the mountains.",
  funFact:"Includes Rio Grande do Sul, Santa Catarina, and Paraná. Known for gaúcho culture and churrasco."},
 
 {type:"mc",
@@ -106,8 +106,8 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
 
 {type:"teach", trg:"praia", src:"beach", pos:"noun", gender:"f",
  note:"Brazil's coastline is 7,500 kilometers long, packed with beaches famous worldwide.",
- example:"A: Qual praia você prefere?\nB: Copacabana. A vista do Pão de Açúcar é linda.",
- exampleSrc:"A: Which beach do you prefer?\nB: Copacabana. The view of Sugarloaf Mountain is beautiful.",
+ example:"A: Qual praia é a melhor?\nB: Copacabana. A vista do Pão de Açúcar é linda.",
+ exampleSrc:"A: Which beach is the best?\nB: Copacabana. The view of Sugarloaf Mountain is beautiful.",
  funFact:"Brazil has the longest continuous beach in the world: Praia do Cassino in Rio Grande do Sul, 254 kilometers long."},
 
 {type:"teach", trg:"sertão", src:"backlands / hinterland", pos:"noun", gender:"m",

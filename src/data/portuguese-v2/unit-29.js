@@ -7,8 +7,8 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
 
 {type:"teach", trg:"notícia", src:"news item", pos:"noun", gender:"f",
  note:"A single news story. Plural 'notícias' refers to news in general.",
- example:"A: Você viu a notícia de hoje?\nB: Ainda não, o que houve?",
- exampleSrc:"A: Did you see today's news?\nB: Not yet, what happened?",
+ example:"A: Você leu a notícia de hoje?\nB: Ainda não, o que houve?",
+ exampleSrc:"A: Did you read today's news?\nB: Not yet, what happened?",
  funFact:"Brazilian TV news anchors start with 'Boa noite' (good evening) as their trademark, regardless of broadcast time."},
 
 {type:"teach", trg:"jornal", src:"newspaper", pos:"noun", gender:"m",
@@ -114,8 +114,8 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
 
 {type:"teach", trg:"internet", src:"internet", pos:"noun", gender:"f",
  note:"Feminine in Portuguese: 'a internet'. Kept as English but with Portuguese article.",
- example:"A: A internet caiu de novo?\nB: Sim, o wifi está um horror hoje.",
- exampleSrc:"A: The internet is down again?\nB: Yes, the wifi is terrible today.",
+ example:"A: A internet caiu de novo?\nB: Sim, a internet não está boa hoje.",
+ exampleSrc:"A: The internet is down again?\nB: Yes, the internet is not good today.",
  funFact:"Brazilians sometimes say 'entrei na net' (I went online), using the English shortening."},
 
 {type:"teach", trg:"fake news", src:"fake news", pos:"noun", gender:"f",
@@ -209,8 +209,8 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
 
 {type:"teach", trg:"público", src:"public (audience)", pos:"noun", gender:"m",
  note:"The audience. 'Falar em público' = to speak in public. Also an adjective 'público' (public, as in public school).",
- example:"A: O público estava empolgado.\nB: Foi uma apresentação incrível.",
- exampleSrc:"A: The audience was excited.\nB: It was an amazing show.",
+ example:"A: O público estava empolgado.\nB: Sim, o público estava muito bem.",
+ exampleSrc:"A: The audience was excited.\nB: Yes, the audience was doing great.",
  funFact:"The phrase 'o grande público' means mainstream audiences, in contrast to niche or specialized crowds."},
 
 {type:"teach", trg:"comunicação", src:"communication", pos:"noun", gender:"f",

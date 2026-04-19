@@ -37,14 +37,14 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"teach", trg:"classe média", src:"middle class", pos:"noun", gender:"f",
  note:"Brazil's middle class grew dramatically in the 2000s. Now it is squeezed by inflation and slow growth.",
- example:"A: A classe média brasileira cresceu?\nB: Sim, mas os últimos anos foram difíceis.",
- exampleSrc:"A: Has the Brazilian middle class grown?\nB: Yes, but the last few years have been difficult.",
+ example:"A: A classe média brasileira cresceu?\nB: Sim, mas os últimos anos foram complicados.",
+ exampleSrc:"A: Has the Brazilian middle class grown?\nB: Yes, but the last few years have been complicated.",
  funFact:"Economists often divide Brazil into classes A, B, C, D, E. Class C is roughly middle class and the largest."},
 
 {type:"teach", trg:"desigualdade", src:"inequality", pos:"noun", gender:"f",
  note:"The gap between rich and poor. Brazil has historically ranked among the world's most unequal countries.",
- example:"A: A desigualdade no Brasil diminuiu?\nB: Um pouco, mas ainda é alta.",
- exampleSrc:"A: Has inequality in Brazil decreased?\nB: A little, but it is still high.",
+ example:"A: A desigualdade no Brasil é grande?\nB: Sim, a desigualdade ainda é alta.",
+ exampleSrc:"A: Is inequality in Brazil big?\nB: Yes, inequality is still high.",
  funFact:"The Gini coefficient measures inequality. Brazil's has fallen from 0.63 in 1989 to around 0.53 today. Progress, but still high."},
 
 {type:"mc",
@@ -88,8 +88,8 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"teach", trg:"identidade", src:"identity", pos:"noun", gender:"f",
  note:"The sense of who you are, individually or as a nation. Brazilian identity is constantly debated.",
- example:"A: O que define a identidade brasileira?\nB: A mistura. Somos uma fusão de culturas.",
- exampleSrc:"A: What defines Brazilian identity?\nB: The mix. We are a fusion of cultures.",
+ example:"A: A identidade brasileira é complexa?\nB: Sim. Somos uma mistura de culturas.",
+ exampleSrc:"A: Is Brazilian identity complex?\nB: Yes. We are a mix of cultures.",
  funFact:"'Cédula de identidade' (identity card) is the Brazilian ID. Brazilians carry it everywhere."},
 
 {type:"teach", trg:"carnaval", src:"carnival", pos:"noun", gender:"m",
@@ -156,8 +156,8 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"teach", trg:"PIB", src:"GDP", pos:"noun", gender:"m",
  note:"Produto Interno Bruto. The total value of goods and services produced in a country.",
- example:"A: Qual é o PIB do Brasil?\nB: Cerca de dois trilhões de dólares. A nona maior economia.",
- exampleSrc:"A: What is Brazil's GDP?\nB: About two trillion dollars. The ninth largest economy.",
+ example:"A: Qual é o PIB do Brasil?\nB: Muito grande. A nona maior economia do mundo.",
+ exampleSrc:"A: What is Brazil's GDP?\nB: Very large. The ninth largest economy in the world.",
  funFact:"Read as 'o PIB' (pee-ee-bay). One of the most common acronyms in Brazilian news."},
 
 {type:"teach", trg:"inovação", src:"innovation", pos:"noun", gender:"f",

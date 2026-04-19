@@ -87,8 +87,8 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
 
 {type:"teach", trg:"para", src:"for / in order to", pos:"prep", gender:null,
  note:"When followed by a verb with a different subject, trigger the personal infinitive. Marks purpose or recipient.",
- example:"A: Comprei flores para a Ana ficar feliz.\nB: Que fofo você!",
- exampleSrc:"A: I bought flowers for Ana to be happy.\nB: How sweet of you!",
+ example:"A: Comprei flores para a Ana.\nB: Que fofo você!\nA: É para ela sorrir.\nB: Ela vai adorar!",
+ exampleSrc:"A: I bought flowers for Ana.\nB: How sweet of you!\nA: It is for her to smile.\nB: She will love it!",
  funFact:"Without a subject change, the regular infinitive is enough: 'comprei flores para dar a ela'."},
 
 {type:"teach", trg:"antes de", src:"before", pos:"prep", gender:null,
@@ -198,8 +198,8 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
 
 {type:"teach", trg:"comermos", src:"for us to eat", pos:"verb", gender:null,
  note:"Personal infinitive of 'comer', first person plural. -er verbs add -mos to the infinitive.",
- example:"A: Antes de comermos, vamos lavar as mãos.\nB: Claro, higiene em primeiro lugar.",
- exampleSrc:"A: Before we eat, let's wash our hands.\nB: Of course, hygiene first.",
+ example:"A: Antes de comermos, vamos lavar as mãos.\nB: Claro, é muito importante.",
+ exampleSrc:"A: Before we eat, let's wash our hands.\nB: Of course, it is very important.",
  funFact:"Same ending for -ar, -er, and -ir verbs in the first person plural. Consistent and easy."},
 
 {type:"teach", trg:"virmos", src:"for us to come", pos:"verb", gender:null,

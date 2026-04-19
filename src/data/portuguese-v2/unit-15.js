@@ -111,8 +111,8 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 
 {type:"teach", trg:"comerei", src:"I will eat", pos:"verb", gender:null,
  note:"Formal future of comer for eu.\nWritten accent on final syllable.",
- example:"A: Amanhã comerei só saladas.\nB: Sério? Por quê?\nA: Para emagrecer.\nB: Coragem!",
- exampleSrc:"A: Tomorrow I will eat only salads.\nB: Seriously? Why?\nA: To lose weight.\nB: Good luck with that!",
+ example:"A: Amanhã comerei só saladas.\nB: Sério?\nA: Sim, vou comer bem.\nB: Coragem!",
+ exampleSrc:"A: Tomorrow I will eat only salads.\nB: Seriously?\nA: Yes, I am going to eat well.\nB: Good luck with that!",
  funFact:"The formal future adds solemnity. 'Eu comerei essa salada' sounds like a dramatic vow. 'Vou comer essa salada' sounds like a normal day."},
 
 {type:"verb_table", title:"Irregular Future: fazer, dizer, trazer",
@@ -137,8 +137,8 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 
 {type:"teach", trg:"direi", src:"I will say", pos:"verb", gender:null,
  note:"Irregular future of dizer.\nDrops the -ze- from the infinitive.",
- example:"A: Você direi a verdade a ele?\nB: Direi, embora seja difícil.\nA: É o certo.\nB: Eu sei.",
- exampleSrc:"A: Will you tell him the truth?\nB: I will, even though it is hard.\nA: It is the right thing.\nB: I know.",
+ example:"A: Você direi a verdade a ele?\nB: Direi, sim.\nA: É o certo.\nB: Eu sei.",
+ exampleSrc:"A: Will you tell him the truth?\nB: I will, yes.\nA: It is the right thing.\nB: I know.",
  funFact:"Direi carries weight. In courtrooms and novels you see it often. In casual chat, Brazilians say 'vou dizer' instead."},
 
 {type:"teach", trg:"pretendo", src:"I intend / I plan to", pos:"verb", gender:null,
@@ -149,14 +149,14 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 
 {type:"teach", trg:"planejo", src:"I plan", pos:"verb", gender:null,
  note:"Planejar + infinitive.\nMore concrete than pretendo, often paired with a timeline.",
- example:"A: Você planeja se mudar em breve?\nB: Planejo mudar em janeiro.\nA: Por que janeiro?\nB: Começo novo trabalho.",
- exampleSrc:"A: Are you planning to move soon?\nB: I plan to move in January.\nA: Why January?\nB: I start a new job.",
+ example:"A: Você planeja se mudar?\nB: Planejo mudar em janeiro.\nA: Por que janeiro?\nB: Começo novo trabalho.",
+ exampleSrc:"A: Are you planning to move?\nB: I plan to move in January.\nA: Why January?\nB: I start a new job.",
  funFact:"Planejar is a cognate of 'plan'. Cool detail: the Portuguese word already existed before English borrowed it. Both come from Latin 'planus'."},
 
 {type:"teach", trg:"penso em", src:"I am thinking of", pos:"verb", gender:null,
  note:"Pensar em + infinitive = to consider/think of.\nMore tentative than pretendo or planejo.",
- example:"A: Penso em voltar aos estudos.\nB: Por quê agora?\nA: Sinto falta.\nB: Então vai fundo!",
- exampleSrc:"A: I am thinking of going back to school.\nB: Why now?\nA: I miss it.\nB: Then go for it!",
+ example:"A: Penso em voltar aos estudos.\nB: E quando?\nA: Sinto falta.\nB: Então vai fundo!",
+ exampleSrc:"A: I am thinking of going back to school.\nB: And when?\nA: I miss it.\nB: Then go for it!",
  funFact:"Penso em is the softest of the three. It opens the door without walking through. The verb of daydreams."},
 
 {type:"mc", q:"Choose the correct future for eu of comer:", opts:["comeria","comerei","comerá","comeremos"], ans:"comerei", hint:"First person singular future ends in -ei with accent."},
@@ -230,14 +230,14 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 
 {type:"teach", trg:"poderia", src:"could / would be able to", pos:"verb", gender:null,
  note:"Conditional of poder.\nUsed for polite requests and hypotheticals.",
- example:"A: Você poderia me ajudar?\nB: Claro, com o quê?\nA: Com a mudança.\nB: Sem problemas.",
- exampleSrc:"A: Could you help me?\nB: Sure, with what?\nA: With the move.\nB: No problem.",
+ example:"A: Você poderia me ajudar?\nB: Claro!\nA: Com a mudança.\nB: Sem problemas.",
+ exampleSrc:"A: Could you help me?\nB: Of course!\nA: With the move.\nB: No problem.",
  funFact:"Poderia is the magic request word. 'Poderia me passar o sal?' is 10x more polite than 'me passa o sal'."},
 
 {type:"teach", trg:"viajaria", src:"I / you / he / she would travel", pos:"verb", gender:null,
  note:"Conditional of viajar.\nFor hypothetical trips.",
- example:"A: Se você pudesse, para onde viajaria?\nB: Viajaria para o Japão.\nA: Por que o Japão?\nB: Sempre sonhei.",
- exampleSrc:"A: If you could, where would you travel?\nB: I would travel to Japan.\nA: Why Japan?\nB: I always dreamed of it.",
+ example:"A: Para onde você viajaria?\nB: Viajaria para o Japão.\nA: Por que o Japão?\nB: Sempre sonhei.",
+ exampleSrc:"A: Where would you travel?\nB: I would travel to Japan.\nA: Why Japan?\nB: I always dreamed of it.",
  funFact:"The daydream conditional. Every Brazilian has a 'para onde eu viajaria' list ready."},
 
 {type:"teach", trg:"seria", src:"I / you / he / she would be", pos:"verb", gender:null,

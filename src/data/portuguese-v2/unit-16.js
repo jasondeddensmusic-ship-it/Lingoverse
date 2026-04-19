@@ -32,8 +32,8 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
 
 {type:"teach", trg:"fale", src:"speak (subjunctive)", pos:"verb", gender:null,
  note:"Subjunctive of falar for eu, você, ele, ela.\nUsed after trigger verbs like querer que and esperar que.",
- example:"A: Quero que você fale com o seu irmão.\nB: Por quê?\nA: Ele está triste.\nB: Tudo bem, eu falo.",
- exampleSrc:"A: I want you to speak with your brother.\nB: Why?\nA: He is sad.\nB: Okay, I will talk.",
+ example:"A: Quero que você fale com o professor.\nB: Tudo bem.\nA: Ele pode ajudar.\nB: Tudo bem, eu falo.",
+ exampleSrc:"A: I want you to speak with the teacher.\nB: Okay.\nA: He can help.\nB: Okay, I will talk.",
  funFact:"'Quero que você fale' literally says 'I want that you speak'. Portuguese needs the que and the subjunctive. English drops both."},
 
 {type:"teach", trg:"coma", src:"eat (subjunctive)", pos:"verb", gender:null,
@@ -137,14 +137,14 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
 
 {type:"teach", trg:"é preciso que", src:"it is necessary that", pos:"conj", gender:null,
  note:"Stronger than é importante.\nFull obligation.",
- example:"A: É preciso que todos estejam aqui às oito.\nB: Vou avisar o time.\nA: Obrigado.\nB: Conte comigo.",
- exampleSrc:"A: It is necessary that everyone be here at eight.\nB: I will notify the team.\nA: Thank you.\nB: You can count on me.",
+ example:"A: É preciso que todos estejam aqui às oito.\nB: Vou avisar todos.\nA: Obrigado.\nB: Conte comigo.",
+ exampleSrc:"A: It is necessary that everyone be here at eight.\nB: I will notify everyone.\nA: Thank you.\nB: You can count on me.",
  funFact:"É preciso que is the voice of authority: managers, teachers, coaches. More direct than é importante."},
 
 {type:"teach", trg:"talvez", src:"maybe / perhaps", pos:"adv", gender:null,
  note:"Uncertainty trigger.\nAlmost always followed by the subjunctive.",
- example:"A: Você vai ao cinema?\nB: Talvez eu vá, não decidi.\nA: Me avise.\nB: Claro.",
- exampleSrc:"A: Are you going to the cinema?\nB: Maybe I will go, I have not decided.\nA: Let me know.\nB: Of course.",
+ example:"A: Você vai ao cinema?\nB: Talvez eu vá, não sei.\nA: Me avise.\nB: Claro.",
+ exampleSrc:"A: Are you going to the cinema?\nB: Maybe I will go, I do not know.\nA: Let me know.\nB: Of course.",
  funFact:"Talvez is the king of maybes. Placed before the verb, it triggers the subjunctive. Placed after, it can allow the indicative. Word order matters."},
 
 {type:"teach", trg:"peço que", src:"I ask / request that", pos:"verb", gender:null,
@@ -186,8 +186,8 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
 
 {type:"teach", trg:"diga", src:"say (subjunctive of dizer)", pos:"verb", gender:null,
  note:"Subjunctive of dizer.\nFollows the eu-form rule: eu digo > diga.",
- example:"A: Quero que você me diga a verdade.\nB: Vou dizer, espera.\nA: Estou pronto.\nB: Então vamos.",
- exampleSrc:"A: I want you to tell me the truth.\nB: I will tell you, wait.\nA: I am ready.\nB: Then let's go.",
+ example:"A: Quero que você me diga a verdade.\nB: Tudo bem.\nA: Estou pronto.\nB: Então vamos.",
+ exampleSrc:"A: I want you to tell me the truth.\nB: Okay.\nA: I am ready.\nB: Then let's go.",
  funFact:"Diga appears in headlines: 'Diga sim' (Say yes), 'Diga não' (Say no). Imperative and subjunctive share the form."},
 
 {type:"mc", q:"'Talvez ele esteja certo' uses the subjunctive because:", opts:["Talvez expresses uncertainty","Ele is singular","Certo is an adjective","It is a question"], ans:"Talvez expresses uncertainty", hint:"___ is a trigger for the subjunctive. ___ demands it."}
