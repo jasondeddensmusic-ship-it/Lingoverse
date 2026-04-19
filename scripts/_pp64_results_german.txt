@@ -105,13 +105,10 @@ Teach: 139 | Tested: 139 | Untested: 0 | Coverage: 100.0%
 
 === UNIT 34 ===
 Teach: 147 | Tested: 147 | Untested: 0 | Coverage: 100.0%
-
-=== UNIT 35 ===
-Teach: 136 | Tested: 135 | Untested: 1 | Coverage: 99.3%
-  Untested [deu_r35l7]: "auf diese Weise" (src: "in this way, thus")
+=== UNIT 35 === (LOAD ERROR)
 
 === UNIT 36 ===
 Teach: 109 | Tested: 109 | Untested: 0 | Coverage: 100.0%
 
 ────────────────────────────────────────────────────────────
-GRAND TOTAL: 5148 teach | 5142 tested | 6 untested | 99.9% coverage
+GRAND TOTAL: 5012 teach | 5007 tested | 5 untested | 99.9% coverage
