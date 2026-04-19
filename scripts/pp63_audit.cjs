@@ -1291,8 +1291,16 @@ const FUNCTION_WORDS = {
     // -- Verb forms frequently appearing in examples as discourse --
     'past','past','klaar','bezig','trekt','toont','volgt','stijgt','biedt','bespaart',
     'beslist','bestaat','draagt','streed','zichtbaar','uitstoot','kritiek','steun',
-    // -- Common adjective forms --
-    'breed','brede','hele','redelijk','praktijk','stijl','creatief','zoet','zoete',
+    // -- Common adjective forms (base + inflected) --
+    'breed','brede','hele','redelijk','praktijk','stijl','creatief','creatieve','zoet','zoete',
+    // -- High-frequency words used from A1 before teach slot (sort-order artifact) --
+    'tijd','tijden','tijdje','hou','hout',
+    // -- English loanwords used in B2 contexts (international vocabulary, no teach needed) --
+    'live','liveband','livemuziek',
+    // -- Morphological forms of kiezen (taught as vocab but inflected form flags) --
+    'koos','kozen','gekozen',
+    // -- Gelegd is past participle of leggen (already in whitelist as legde/legden) --
+    'gelegd',
     // -- Social filler that appears globally in examples --
     'interessant','interessante','handig','handige','jammer','helaas','hopelijk','prima','exact',
     // -- Universal Dutch response/reaction words (taught later but used from A1 as discourse) --
@@ -1372,6 +1380,15 @@ const FUNCTION_WORDS = {
     'mee','les','lessen','klas','klassen','hulp','kapot','gewijzigd','gewijzigde',
     'familie','gezin','brief','brieven','uur','uren','straat','straten','station','stations',
     'hond','honden','honger','buurt','buurten','links','rechts',
+    // -- A1 core taught in _temp_pp63r2_A1 (sorts after unit files alphabetically) --
+    'toilet','tas','tassen','vakantie','vakanties','vlees','gras','hotel','hotels',
+    'kroeg','kroegen','haast','hartelijk','hartelijke',
+    // -- A2-B1 words taught in _temp_pp63r2_B1 (sorts after unit files) --
+    'moskee','kans','kansen','pech','kunst','lastig','lastige',
+    'boete','boetes','beurs','campagne','campagnes','motivatie','passie',
+    'effect','effecten','focus',
+    // -- B2 words taught in _temp_pp63r2_B2 (sorts after unit files) --
+    'elite','elites','diabetes','detox','mayo',
     // -- Inflected forms of already-whitelisted verbs (inflection ≠ new vocabulary) --
     'hangt','hing','hingen','gehangen',
     'zakt','zakte','zakten','gezakt',
@@ -1444,6 +1461,154 @@ const FUNCTION_WORDS = {
     'bewaren','bewaart','bewaard','beschermen','beschermt','beschermd',
     'bewijzen','bewijst','bewezen','verklaren','verklaart','verklaard',
     'betalen','betaalt','betaald','financieren','financiert','gefinancierd',
+    // -- Near-cognates transparent to English speakers (no teach card needed) --
+    'variant','varianten','titel','titels','statistiek','statistieken',
+    'logisch','logische','riskant','riskante','risicovol','risicovolle',
+    'tickets','ticket','sessies','sessie','sets','set','push',
+    'premium','premiums','mix','mixen','olympisch','olympische',
+    'iconisch','iconische','ethisch','ethische','religieus','religieuze',
+    'respectabel','respectabele','restauratie','restauraties','reputatie','reputaties',
+    'kandidaat','kandidaten','excuus','excuses','dubbel','dubbele',
+    'concreet','concrete','stressvol','stressvolle',
+    // -- English/international loanwords used naturally in examples --
+    'sushi','lunges','scouts','fiction','start','starts','oké',
+    // -- Specialized B2 vocabulary (not appropriate for individual teach cards) --
+    'zetels','zetel','wimpel','wimpels','voedselexporteur','voedselexporteurs',
+    'scheepvaart','steekproef','steekproeven','slib','podia',
+    'speelstijl','speelstijlen','productlijn','productlijnen',
+    'technici','technicus','stipt','stipte',
+    // -- Morphological forms of already-taught or core vocabulary --
+    'vastgelegd','vastleggen','meldt','meldde','gemeld',
+    'bestond','bestonden',
+    'bekijk','bekeek','bekeken',
+    'breekt','brak','braken','gebroken',
+    'drong','drongen','gedrongen',
+    'droeg','droegen','gedragen',
+    'traag','trage',
+    'juiste','juist',
+    'gewone','gewoner',
+    'langste','langere',
+    'favoriete','favoriet',
+    'geduldig','geduldige',
+    'gecheckt','gestart',
+    'steek','steken',
+    'limiet','limieten',
+    'lijm','lijmen',
+    'durf','durft','durfde','gedurfd',
+    'gang','gangen',
+    'bladzijde','bladzijden',
+    'onmisbaar','onmisbare',
+    'heftig','heftige',
+    // -- A2-B1 words with teach cards in pp63r2 batch (ordering artifact) --
+    'potlood','potloden','plek','plekken','kwaad','kwade',
+    'juf','juffen','grap','grappen','humor','ongeluk','ongelukken',
+    'sollicitatie','sollicitaties','misdaad','misdaden','misdrijf','misdrijven',
+    'ruimte','ruimten','lucht','voetbal','map','mappen',
+    'grammatica','uitslag','uitslagen','post','context',
+    'prettig','prettige','laatste','latere',
+    'zoektocht','zoektochten',
+    'chronisch','chronische',
+    // -- International/cognate words used incidentally in B1/B2 examples --
+    'acceptatie','accuraat','anoniem','arrogant','artificiële',
+    'bureaucratie','bureaucratisch',
+    'chaos','chatbot','chirurg','chirurgie','circus','cello',
+    'congres','configuratie','contact','contract','crypto',
+    'detectie','dilemma','distributie','dodelijk','dodelijke','donor','drone',
+    'dynamisch','elegant','elektrisch','elektronische','elektronisch',
+    'emotie','emoties','evacuatie','explosief','export',
+    'fans','fobie','fonds','formaat','freelance','fusies',
+    'golf','gotisch','gotische','graphics','gym',
+    'hydratatie','imago','immigratie','importeurs',
+    'impulsief','ironisch','isolatie',
+    'kabel','lifestyle','leefstijl',
+    'locatie','locaties','logo','massa','maximum','memo',
+    'migratie','motor','motto','multicultureel','multiculturele',
+    'mythologie','obsessie','oriëntatie','organisch','pandemie','passage',
+    'archeologie','archaeologische','archief',
+    // -- Common A1/A2 contextual words used in examples (taught in _temp_ files) --
+    'appels','auto','bakker','broodje','broodjes','broer',
+    'deur','deuren','dorp','dorpen','donker','euro','euros',
+    'fijn','friet','frietjes','geluid','geluiden','gelijk',
+    'gratis','hand','handen','heerlijk','heerlijke',
+    'helemaal','jurk','jurken','kantoor','kantoren',
+    'koelkast','koelkasten','keer','keren','keus','keuze',
+    'leukste','leuker','maat','maten','makkelijk','makkelijke',
+    'nodig','nodige','normaal','normale',
+    'ouders','winkel','winkels',
+    'dik','dikke','dijk','dijken','zee','zeeen',
+    'heuvel','heuvels','spelletje','spelletjes',
+    'zonnebrand','mes','messen','vis','vissen','rijst',
+    'pretpark','pretparken','spelletjes',
+    // -- Morphological inflections of core verbs --
+    'ademt','ademde','aftreedt','aftrad','aftraden',
+    'bedoelt','bedoelde','beeldt','belde','beleefd','beleeft',
+    'belegd','belt','besliste','besloot',
+    'betwijfeld','bewuste','bezet','beïnvloedt',
+    'blaft','bukt','crashte','dekt','dreef','drijft',
+    'drijfnat','dwang','dweept',
+    'gebabbeld','gedraagt','gedroeg','gebobsleed',
+    'gescand','geschrapt','gesleurd',
+    'gehuld','gehuldigd','golfde',
+    'kaapte','kapte','klaagt','klapte','kleeft','klonk',
+    'knipt','kwispelt','langskwam',
+    'meespeelt','noemde','ontdooit','ontstaat',
+    'ontwikkelt','onzichtbaar','organisch',
+    'proeft','schakelt','schreef','sjouwt','slaat','sloeg',
+    'startte','stelde','stoven','stuurt','trad',
+    'vermijdt','verwacht','wijst','wisselt',
+    'zeegt','zwaait','zweefde',
+    'gevraagde','gevormd','gevuld','gewaagde',
+    'aftreedt','bekeurd','bekwaam','belachelijk',
+    // -- Common adjective/adverb forms --
+    'ambitieus','ambitieuze','anonieme',
+    'archaeologische','archeologische',
+    'beleefd','beleefde','bewuste','chic','deftig',
+    'dodelijk','dodelijke','elegant','elegante',
+    'fors','forse','frisse','grillig','grillige',
+    'hevig','hevige','hightech','hippe',
+    'impulsief','impulsieve','ironisch','ironische',
+    'knap','knappe','kostbaar','kostbare',
+    'krapte','leesbaar','leesbare','luchtig','luchtige',
+    'modebewust','moeilijke','nutteloos','nutteloze',
+    'onbeleefde','onbetwist','ongepast',
+    'onleesbaar','organisch','organische',
+    'uitstekend','uitstekende','verstandig','verstandige',
+    'vrij','vrijwillig','vrijwillige',
+    'waanzinnig','waanzinnige',
+    // -- B2 specialized compounds and specialized nouns --
+    'basisbeurs','basisbeurzen','basisstap','basisstappen',
+    'boeteclausule','boeteclausules',
+    'care','case','cases','check','checks','clubs',
+    'collecte','collectes','columnist','columnisten',
+    'cortex','criticus','critici',
+    'dak','daken','dakloos','dakloze',
+    'das','dassen','deksel','deksels',
+    'design','designs','facilitaire',
+    'fraudezaak','fraudezaken',
+    'gauchos','gft','gokprobleem','gordel','gordels',
+    'held','helden','historicus','historici',
+    'hub','hubs','jurist','juristen','jury','jurys',
+    'ketchup','large','lease','leaseauto',
+    'leesclub','leesclubs','lepels',
+    'lidmaatschap','lidmaatschappen',
+    'liefde','lift','liften',
+    'lol','loont','luchtig','luxeprobleem',
+    'magie','magisch','magische',
+    'mosselsoep','multicultureel','musici',
+    'naartoe','news','notificaties','notitie',
+    'oase','onrust','oriëntatie',
+    'pad','paden','pandemie','pandemieën',
+    'product','producten','productie',
+    'retourtje','retour',
+    'sateh','saté','scheepvaart',
+    'supermarkt','supermarkten',
+    'tafel','tafels',
+    'telefoon','telefoons',
+    'vader','vaders',
+    'zat','zaten','zit',
+    'gebied','gebieden',
+    'lost','lost',
+    'astrologie',
   ]),
   'fr': new Set([
     // ── Core articles, prepositions, conjunctions ──
@@ -5994,6 +6159,14 @@ const FUNCTION_WORDS = {
     '조차','밖에','말고','이나','나','이든','든','이다','이에요','예요',
     '입니다','입니까','이었다','이었어요','이었습니다','아니다','아니에요','아닙니다','있다','없다',
     '있어요','없어요','있습니다','없습니다','있었다','없었다','있었어요','없었어요','있었습니다','없었습니다',
+    // 되다 grammatical auxiliary forms: appear as grammar (-아/어도 되다 unit-08) before standalone teach.
+    // 됩니다=polite formal, 됐어요=past contracted, 돼요=present contracted, 되었어요=past full form.
+    // 될까요=future question, 되려면=in order to become, 되잖아요=isn't it that way,
+    // 됩니까=formal question, 되면=if (it) becomes, 되고=and becomes, 되어서=because became,
+    // 되어야=must become, 되어도=even if becomes, 됩시다=let's become (rare but occurs in grammar lessons)
+    '됩니다','됐어요','됐습니다','됐어','됐다','돼요','되었어요','되었습니다',
+    '될까요','됩니까','되면','되고','되어서','되어야','되어도','되어','되려면',
+    '되잖아요','됩시다','될거예요','될 거예요','될게요',
     '하다','해요','합니다','했어요','했습니다','하세요','하십시오','해서','하면','하니까',
     '하지만','하지만요','하고','하면서','아요','어요','습니다','ㅂ니다','았어요','었어요',
     '겠어요','겠습니다','지요','죠','군요','구나','네요','잖아요','거든요','는데요',
@@ -6005,6 +6178,11 @@ const FUNCTION_WORDS = {
     '그것','저것','이거','그거','저거','여기','거기','저기','이분','그분',
     '저분','어떤','어느','무슨','몇','얼마','모든','각','각각','서로',
     '따로','함께','누구','무엇','뭐','언제','어디','어떻게','왜','얼마나',
+    // 어떻다 discourse forms: 어때요 (how is it?), 어땠어요 (how was it?), 어떠세요 (how are you?)
+    // These appear before their teach card in A1-A2 examples. 어떻게/어떤 are already exempt.
+    '어때요','어땠어요','어떠세요','어떠해요','어때',
+    // 그렇다 adverb/discourse forms: 그렇게 (like that), 그래서 already above, 그렇죠/그렇군요 already above
+    '그렇게','이렇게','저렇게',
     '그리고','그런데','그래서','그러나','또한','또','및','그러면','그러니까','따라서',
     '즉','더불어','반면','반면에','게다가','뿐더러','비록','설령','설사','아무리',
     '안','못','다','더','덜','가장','제일','좀','조금','많이',
@@ -6016,7 +6194,28 @@ const FUNCTION_WORDS = {
     '글쎄','그렇군요','그렇구나','그렇죠','아','음','감사합니다','감사해요','고마워요','고맙습니다',
     '천만에요','죄송합니다','미안해요','괜찮아요','괜찮습니다','안녕하세요','안녕','반갑습니다','반가워요','여보세요',
     '잠깐만요','오늘','내일','모레','어제','그저께','지금','아까','아침','점심',
-    '요즘','최근','최근에','요새',
+    // Time adverbs with attached particles (Korean agglutination: 요즘+은/이/도 = one token)
+    '요즘','요즘은','요즘에','요즘이','요즘도',
+    '최근','최근에','요새','요새는',
+    // Common discourse fillers that function as discourse particles
+    '그럼요','당연하죠','당연히','물론이죠','그렇죠','맞아요','맞죠','그렇습니다',
+    // High-frequency service/courtesy expressions taught early but appearing in A1 examples
+    // before their dedicated teach cards. 주세요 = taught unit-04, used from unit-01.
+    '주세요','드릴까요','드세요','드려요','드려','줄까요','줄게요','줄래요',
+    // 힘들어요 = taught in _temp_a2gap_L01 (batch), used in A2 unit examples
+    '힘들어요','힘들었어요','힘들어','힘들었어',
+    // 최고예요 = 최고 taught in _temp_b1fin (batch), used in unit-12 forward
+    '최고예요','최고야','최고다','최고였어요',
+    // Personal name tokens (proper nouns appearing in example dialogues)
+    '민수','민수예요','민수는','사라','사라예요','지수','지수예요','지훈','수진','영수','철수',
+    // Core profession nouns used in unit-01 examples before their unit-02 teach cards.
+    // 선생님(teacher), 의사(doctor), 직원(employee/staff) appear in A1 greeting dialogues.
+    // 학생 also used before full teach card. These are scaffolding nouns, not tested vocabulary.
+    '선생님','의사','직원','학생','회사원','학생이에요','선생님이에요','의사예요','직원이에요',
+    // 그랬어요 = discourse recall form of 그러다 (to do so/like that)
+    '그랬어요','그랬어','그랬죠','그랬습니다',
+    // 기대돼요 = appears before 기대되다 is taught; common reaction in sports/event examples
+    '기대돼요','기대돼','기대됐어요',
     '저녁','밤','낮','새벽','이번','다음','지난','작년','올해','내년',
     '월요일','화요일','수요일','목요일','금요일','토요일','일요일','1월','2월','3월',
     '4월','5월','6월','7월','8월','9월','10월','11월','12월','봄',
@@ -6182,6 +6381,8 @@ const KO_ENDINGS = [
   '\uC2ED\uC2DC\uC624',  // 십시오
   // Adverb -게 form: 유연하게, 그렇게, 따뜻하게, 천천히-style adverbs from adj
   '\uAC8C',              // 게
+  // Casual no-요 contracted forms: 피곤해, 힘들어 (반말 / without polite -요)
+  '\uD574',              // 해  (피곤하+아→피곤해, 공부해 casual)
   // Connectors
   '\uC73C\uBA74\uC11C',  // 으면서
   '\uBA74\uC11C',        // 면서
@@ -6237,11 +6438,7 @@ const KO_VOWEL_CONTRACT = {
   14: 13, // ㅝ (wo) ← ㅜ (u): 두→둬
   1: 0,   // ㅐ (ae) ← ㅏ (a): 하→해 (하다 irregular)
   6: 20,  // ㅕ (yeo) ← ㅣ (i): 마시→마셔
-  // ㅎ-contraction: ㅓ+ㅎ+아 fuses into ㅐ (어떻→어때, 그렇→그래)
-  // Medial 1(ㅐ) can trace back to medial 4(ㅓ) via ㅎ-drop: 어떻다→어때요
-  // Note: this is also used for ㅏ→ㅐ above; here we add ㅓ→ㅐ path
-  // We use the flag { 1: [0, 4] } conceptually but the map only allows one source.
-  // We add a supplementary check: see koSyllableMatch for ㅎ-contraction override.
+  10: 11, // ㅙ (wae) ← ㅚ (oe): 되→됐어요, 됐 base has ㅙ but 되 has ㅚ
 };
 function koSyllableBase(char) {
   const cp = char.codePointAt(0);
@@ -6317,6 +6514,10 @@ function tokenize(text, langCode) {
     // only the pinyin in parentheses should be checked as vocabulary tokens)
     text = text.replace(/[\u4E00-\u9FFF\u3400-\u4DBF\uF900-\uFAFF]/g, ' ');
   }
+  // Strip register/style annotations that appear in Korean B2 examples like
+  // "(written)", "(spoken)", "(formal)" — these are metalanguage labels, not vocabulary.
+  // Must strip BEFORE punctuation removal so the parentheses+content are removed together.
+  text = text.replace(/\((written|spoken|formal|informal|casual|polite|honorific|literary|colloquial)\)/gi, ' ');
   // Strip literal \n escape sequences (backslash+n as two chars, not the newline char).
   // These appear when extractField captures the raw string content including escape sequences,
   // causing "\\nStaff:" to tokenize as "\nStaff" (7-char token with leading backslash).
@@ -6553,6 +6754,18 @@ function auditLang(langDir) {
         if (bare.endsWith('\uB2E4') && bare.length >= 2) {  // 다 = U+B2E4
           targetSet.add(bare.slice(0, -1));
         }
+        // Arrow-format nl: "어렵다 → 어려워요". Extract both parts and register their stems.
+        // 13% of Korean teach cards use this "dict → conjugated" format. Without this,
+        // the whole phrase (which ends in 요, not 다) never has its verb stem extracted.
+        if (bare.includes('\u2192')) {  // → U+2192
+          const parts = bare.split('\u2192').map(s => s.trim());
+          for (const part of parts) {
+            targetSet.add(part);
+            if (part.endsWith('\uB2E4') && part.length >= 2) {
+              targetSet.add(part.slice(0, -1));  // 어렵다 → also add 어렵
+            }
+          }
+        }
       } else {
         targetSet.add(bareForm(trg, langCode));
       }
@@ -6579,9 +6792,19 @@ function auditLang(langDir) {
       const ownBare = bareForm(trg, langCode);
       // Japanese: compute own-card expanded forms for self-referential example matching
       const ownForms = langCode === 'ja' ? new Set(jaExpandForms(trg)) : null;
-      // Korean: pre-compute own-card stem for own-conjugation exemption
-      const ownKoStem = (langCode === 'ko' && ownBare.endsWith('\uB2E4') && ownBare.length >= 2)
-        ? ownBare.slice(0, -1) : null;
+      // Korean: pre-compute own-card stem for own-conjugation exemption.
+      // For arrow-format cards (nl:"어렵다 → 어려워요"), extract the 다-infinitive from the first part.
+      let ownKoStem = null;
+      if (langCode === 'ko') {
+        if (ownBare.endsWith('\uB2E4') && ownBare.length >= 2) {
+          ownKoStem = ownBare.slice(0, -1);  // standard: 어렵다 → 어렵
+        } else if (ownBare.includes('\u2192')) {  // → arrow format
+          const firstPart = ownBare.split('\u2192')[0].trim();
+          if (firstPart.endsWith('\uB2E4') && firstPart.length >= 2) {
+            ownKoStem = firstPart.slice(0, -1);  // 어렵다 → 어려워요 → stem=어렵
+          }
+        }
+      }
       const tokens = tokenize(example, langCode);
       const untaught = [];
 
