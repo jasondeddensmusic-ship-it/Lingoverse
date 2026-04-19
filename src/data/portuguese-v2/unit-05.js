@@ -254,6 +254,107 @@ const UNIT_05 = {
   {trg:"quanto", src:"how much"}
 ]}
       ]
+    },
+    {
+      id: "ptv2_u5l5", title: "Posso, sei, consigo", icon: "💪", xp: 15, board: true,
+      steps: [
+        {type: "intro", title: "Expressing Ability", desc: "Learn to say what you can and cannot do in Brazilian Portuguese using poder (can), saber (know how to), and conseguir (manage to).", goals: ["Use poder for permission and possibility", "Use saber for learned skills", "Say what you cannot do"]},
+
+        {type: "teach", trg: "poder", src: "to be able to / can", pos: "verb", gender: null,
+          note: "Irregular modal verb for general possibility or permission.\neu posso (I can), você pode (you can), podemos (we can).",
+          example: "A: Eu posso comer agora?\nB: Sim, você pode comer.",
+          exampleSrc: "A: Can I eat now?\nB: Yes, you can eat.",
+          funFact: "From Latin potere. The same root gave English possible, potent, and powerful."},
+
+        {type: "teach", trg: "saber", src: "to know how to", pos: "verb", gender: null,
+          note: "Use saber for skills you have learned.\neu sei (I know how to), você sabe (you know how to).",
+          example: "A: Você sabe cozinhar?\nB: Eu sei cozinhar um pouco.",
+          exampleSrc: "A: Do you know how to cook?\nB: I know how to cook a little.",
+          funFact: "Saber covers knowledge of skills and facts. Conhecer means 'to be acquainted with' a person or place. Never swap them."},
+
+        {type: "teach", trg: "conseguir", src: "to manage to / to be able to", pos: "verb", gender: null,
+          note: "Use conseguir to stress effort or success.\neu consigo (I manage to), você consegue (you manage to).",
+          example: "A: Você consegue comer tudo?\nB: Sim, eu consigo.",
+          exampleSrc: "A: Can you manage to eat everything?\nB: Yes, I can manage.",
+          funFact: "Conseguir implies overcoming a challenge. Eu consigo suggests you succeeded despite difficulty."},
+
+        {type: "tip", title: "Poder vs. saber vs. conseguir",
+          text: "poder: general possibility or permission.\nsaber: a learned skill.\nconseguir: managing to do something, often despite difficulty.\n\nAll three translate as 'can' in English, but Portuguese keeps them separate.",
+          deepDive: "For everyday A1 use: permission or possibility = poder. Learned skill = saber. Difficult achievement = conseguir. In Brazil, saber is the go-to for skills: Eu sei nadar, eu sei cozinhar, eu sei dirigir."},
+
+        {type: "teach", trg: "não posso", src: "I cannot", pos: "verb", gender: null,
+          note: "Negation of posso. Place não directly before the verb.",
+          example: "A: Você pode comer agora?\nB: Não, eu não posso comer agora.",
+          exampleSrc: "A: Can you eat now?\nB: No, I cannot eat now.",
+          funFact: "Brazilians sometimes intensify negation: Eu nao posso nao. This doubled no is common in casual speech."},
+
+        {type: "teach", trg: "não sei", src: "I do not know how", pos: "verb", gender: null,
+          note: "Negation of sei. Used when you lack a learned skill.",
+          example: "A: Você sabe cozinhar?\nB: Não, eu não sei cozinhar.",
+          exampleSrc: "A: Do you know how to cook?\nB: No, I do not know how to cook.",
+          funFact: "Nao sei alone (without a following verb) is the everyday phrase for 'I don't know' in conversation."},
+
+        {type: "teach", trg: "cozinhar", src: "to cook", pos: "verb", gender: null,
+          note: "A regular -ar verb. The standard verb for preparing food.",
+          example: "A: Você sabe cozinhar?\nB: Sim, eu sei cozinhar.",
+          exampleSrc: "A: Do you know how to cook?\nB: Yes, I know how to cook.",
+          funFact: "From Latin coquinare. Cozinha (kitchen) and culinária (cuisine) share the same root."},
+
+        {type: "teach", trg: "dirigir", src: "to drive", pos: "verb", gender: null,
+          note: "A regular -ir verb. The standard verb for driving a vehicle.",
+          example: "A: Você sabe dirigir?\nB: Sim, eu sei dirigir.",
+          exampleSrc: "A: Do you know how to drive?\nB: Yes, I know how to drive.",
+          funFact: "From Latin dirigere (to guide, direct). The same root gives English direct and director."},
+
+        {type: "mc", q: "Which verb means 'to know how to' (a learned skill)?",
+          opts: ["poder", "conseguir", "saber", "querer"], ans: "saber",
+          hint: "Think: I know how to cook, I know how to drive."},
+
+        {type: "mc", q: "Which phrase correctly means 'I cannot'?",
+          opts: ["eu posso", "eu não sei", "eu não posso", "eu consegue"], ans: "eu não posso",
+          hint: "Start with the subject, then the negation word, then the verb form for I."},
+
+        {type: "fb", s: "Eu {1} cozinhar bem.", a: "sei",
+          sSrc: "I know how to cook well.",
+          opts: ["posso", "sei", "consigo", "quero"],
+          hint: "Cooking is a learned skill. Use the skill verb, not the permission verb."},
+
+        {type: "fb", s: "Você {1} comer agora?", a: "pode",
+          sSrc: "Can you eat now?",
+          opts: ["sabe", "pode", "consegue", "quer"],
+          hint: "Permission or general possibility uses this modal verb."},
+
+        {type: "mc", q: "Eu ____ dirigir. (I do not know how to drive)",
+          opts: ["não posso", "não sei", "não consigo", "não quero"], ans: "não sei",
+          hint: "Driving is a learned skill. Negate the skill verb, not the permission verb."},
+
+        {type: "fb", s: "Ele não {1} cozinhar hoje.", a: "consegue",
+          sSrc: "He cannot manage to cook today.",
+          opts: ["sabe", "pode", "consegue", "quer"],
+          hint: "The effort or success verb, third-person singular."},
+
+        {type: "match", title: "Match the ability phrases",
+          pairs: [{trg: "eu posso", src: "I can (permission)"}, {trg: "eu sei", src: "I know how to"}, {trg: "eu consigo", src: "I manage to"}, {trg: "eu não sei", src: "I do not know how"}]},
+
+        {type: "fb", s: "Eu sei {1} muito bem.", a: "cozinhar",
+          sSrc: "I know how to cook very well.",
+          opts: ["cozinhar", "dirigir", "comer", "beber"],
+          hint: "The verb for preparing food in the kitchen."},
+
+        {type: "fb", s: "Você sabe {1}?", a: "dirigir",
+          sSrc: "Do you know how to drive?",
+          opts: ["dirigir", "cozinhar", "comer", "beber"],
+          hint: "The verb for operating a car."},
+
+        {type: "mc", q: "Você ____ cozinhar? Sim, eu sei.",
+          opts: ["posso", "sabe", "consegue", "pode"], ans: "sabe",
+          hint: "Asking about a skill uses the skill verb. Você form of saber."},
+
+        {type: "fb", s: "Eu sempre {1} beber água.", a: "posso",
+          sSrc: "I can always drink water.",
+          opts: ["sei", "posso", "consigo", "quero"],
+          hint: "General possibility uses this modal verb."}
+      ]
     }
   ]
 };

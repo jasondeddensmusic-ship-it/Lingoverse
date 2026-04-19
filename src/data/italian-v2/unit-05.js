@@ -300,6 +300,94 @@ const UNIT_05 = {
        ans:"It starts with s + consonant (sp)",
        hint:"The word begins with a cluster that makes 'il' awkward to pronounce. Italian uses a different article to keep speech flowing smoothly."}
     ]},
+    {id:"itv2_u5l_pot", title:"Posso, sai, puo", icon:"\ud83d\udcaa", xp:15, board:true, steps:[
+      {type:"intro", title:"Expressing Ability",
+       desc:"Learn to say what you can and cannot do in Italian using 'potere' (can/be able to) and 'sapere' (know how to). These two verbs cover everything from permission and possibility to learned skills.",
+       goals:["Use potere for possibility or permission","Use sapere for learned skills","Say what you cannot do"]},
+
+      {type:"teach", trg:"potere", src:"to be able to / can", pos:"verb", gender:null,
+       note:"Modal verb for possibility, permission, or physical ability.\nKey forms: posso (I), puoi (you), puo (he/she).",
+       example:"A: Puoi aprire la finestra?\nB: Si, posso aprirla.",
+       exampleSrc:"A: Can you open the window?\nB: Yes, I can open it.",
+       funFact:"'Potere' comes from Latin 'potere' (to be powerful), the same root as 'potent,' 'power,' and 'potential.' Saying 'posso' literally means 'I have the power to.'"},
+
+      {type:"teach", trg:"posso", src:"I can / I am able to", pos:"verb", gender:null,
+       note:"First person of potere. Already met as 'can I?' in polite requests.\nHere the meaning shifts to ability: I am able to.",
+       example:"A: Posso cucinare la pasta?\nB: Certo, posso aprire anche il vino!",
+       exampleSrc:"A: Can I cook the pasta?\nB: Of course, I can also open the wine!",
+       funFact:"You already know 'Posso?' as a request (May I?). With an infinitive after it, the meaning shifts to ability: 'Posso farlo' means 'I am able to do it.' The same verb does double duty."},
+
+      {type:"teach", trg:"non posso", src:"I cannot / I am not able to", pos:"verb", gender:null,
+       note:"'Non' goes before the verb to negate it. 'Non posso + infinitive' = I cannot do something.\nAlso used for apologies: 'Mi dispiace, non posso.'",
+       example:"A: Puoi aprire la porta?\nB: Mi dispiace, non posso. Sono in cucina.",
+       exampleSrc:"A: Can you open the door?\nB: I'm sorry, I cannot. I am in the kitchen.",
+       funFact:"'Non posso' is one of the most useful phrases in Italian. It handles both 'I'm not able to' (ability) and 'I can't' (permission denied). Add 'purtroppo' (unfortunately) for extra politeness."},
+
+      {type:"teach", trg:"sapere", src:"to know how to (learned skill)", pos:"verb", gender:null,
+       note:"Use sapere for skills you learned, not for permission.\nKey forms: so (I), sai (you), sa (he/she).",
+       example:"A: Sai cucinare la pasta?\nB: Certo, so cucinare molto bene!",
+       exampleSrc:"A: Do you know how to cook pasta?\nB: Of course, I know how to cook very well!",
+       funFact:"'Sapere' comes from Latin 'sapere' (to taste, to be wise). 'Homo sapiens' means 'wise human' from the same root. In Italian, 'sai qualcosa' means you have truly mastered it."},
+
+      {type:"teach", trg:"sai?", src:"do you know how? / can you?", pos:"verb", gender:null,
+       note:"Second person of sapere. Used to ask about skills.\n'Sai + infinitive?' = Do you know how to ___?",
+       example:"A: Sai ballare il tango?\nB: Un po', ma non sono bravo.",
+       exampleSrc:"A: Do you know how to dance the tango?\nB: A little, but I'm not good.",
+       funFact:"Asking 'sai + infinitive?' is the standard Italian way to ask 'can you do X (as a skill)?' Compare: 'puoi venire domani?' (can you come tomorrow? = possibility) vs 'sai guidare?' (can you drive? = skill)."},
+
+      {type:"teach", trg:"ballare", src:"to dance", pos:"verb", gender:null,
+       note:"Regular -are verb. 'Ballo' = I dance.\nUsed for all kinds of dancing.",
+       example:"A: Ti piace ballare?\nB: Si, ballo ogni weekend!",
+       exampleSrc:"A: Do you like to dance?\nB: Yes, I dance every weekend!",
+       funFact:"From Latin 'ballare,' which came from Greek 'ballizein' (to dance, to jump). English 'ball' (a formal dance event) and 'ballet' share this root. Italy has a rich dance tradition: from folk tarantella to opera ballet."},
+
+      {type:"tip", title:"Potere vs Sapere",
+       text:"Both potere and sapere can be translated 'can' in English, but they mean different things:\n\nPOTERE = possibility, permission, or physical ability\n- 'Posso uscire?' (May I go out? = permission)\n- 'Non posso dormire.' (I cannot sleep. = physical state)\n\nSAPERE = a learned or acquired skill\n- 'Sai guidare?' (Do you know how to drive? = skill)\n- 'So cucinare.' (I know how to cook. = mastered skill)\n\nA quick test: if you could not do it as a baby and had to learn it, use sapere.",
+       icon:"\ud83d\udca1",
+       deepDive:{title:"Why Italian has two 'can' verbs",
+        text:"Many European languages make this distinction. In French: pouvoir (potere) vs savoir (sapere). In German: koennen has both senses, but kennen covers a related distinction. Italian keeps the split clear. The rule of thumb: if a baby could not do it and you had to practise, use sapere. If it is about circumstance or permission, use potere. Edge case: physical feats can go either way. 'So nuotare' (I know how to swim, i.e. I learned) and 'posso nuotare' (I am able to swim, i.e. conditions allow) are both correct depending on what you want to emphasize."}},
+
+      {type:"mc", q:"Which verb means 'to know how to (a learned skill)'?",
+       opts:["potere","sapere","dovere","avere"],
+       ans:"sapere",
+       hint:"This verb covers skills you had to practise and learn. Think of the Latin root meaning 'to be wise.'"},
+
+      {type:"fb", s:"{1} aprire la finestra?",
+       a:["Puoi"],
+       opts:["Puoi","Sai","Devi","Sei"],
+       hint:"You are asking if the other person is able to (physically capable or willing). Use the second person of potere.",
+       sSrc:"Can you open the window?"},
+
+      {type:"mc", q:"How do you say 'I cannot come tonight'?",
+       opts:["Non sai venire stasera","Non posso venire stasera","Non puoi venire stasera","Posso venire stasera"],
+       ans:"Non posso venire stasera",
+       hint:"Negate the first-person modal that expresses possibility or permission, then add the infinitive."},
+
+      {type:"fb", s:"{1} ballare il tango?",
+       a:["Sai"],
+       opts:["Sai","Puoi","Devi","Sei"],
+       hint:"You are asking about a learned dance skill. Use the second person of the 'know how to' verb.",
+       sSrc:"Do you know how to dance the tango?"},
+
+      {type:"match", pairs:[
+        {trg:"potere", src:"to be able to / can (possibility)"},
+        {trg:"sapere", src:"to know how to (learned skill)"},
+        {trg:"non posso", src:"I cannot"},
+        {trg:"ballare", src:"to dance"},
+        {trg:"sai?", src:"do you know how?"}
+      ]},
+
+      {type:"fb", s:"So {1}, ma non sono bravo.",
+       a:["ballare"],
+       opts:["ballare","potere","sapere","cucinare"],
+       hint:"You know this skill to some degree. It is an -are verb for a physical activity you do to music.",
+       sSrc:"I know how to {1}, but I'm not good."},
+
+      {type:"mc", q:"'Sai cucinare?' asks about what?",
+       opts:["Permission to cook","Whether cooking is possible","A learned cooking skill","The cooking schedule"],
+       ans:"A learned cooking skill",
+       hint:"The verb sapere always refers to something you had to study or practise over time. Potere covers permissions and circumstances."}
+    ]},
     EXP_05_L1, EXP_05_L2, EXP_05_L3,
   ]
 };
