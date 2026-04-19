@@ -152,6 +152,78 @@ const UNIT_25 = {
    hint:"法(ほう) (法) relates to law, 務(む) (務) to duty, and 部(ぶ) (部) to section within a company."},
 {type:"match",pairs:[{trg:"プレゼン",src:"presentation"},{trg:"提出(ていしゅつ)",src:"submission"},{trg:"法務部(ほうむぶ)",src:"legal department"},{trg:"確認(かくにん)",src:"confirmation / verification"}]}]},
 
+
+// ═══ L_DISP: Resolving Disputes & Mediating ═══
+{id:"jav2_u25l_disp", title:"対立(たいりつ)を解決(かいけつ)する", icon:"🤝", xp:15, board:true, steps:[
+  {type:"intro", title:"Resolving Disputes & Mediating",
+   desc:"Learn to mediate conflicts diplomatically in Japanese: expressing disagreement politely (omote/ura), finding compromises, restoring trust. Essential for JLPT N2 speaking.",
+   goals:["Express disagreement politely","Propose compromises","Use diplomatic Japanese in conflict"]},
+
+  {type:"teach", trg:"対立(たいりつ)", src:"conflict / opposition", pos:"noun", gender:null,
+   note:"Kanji: 対立(たいりつ). 対(たい) = opposing, 立(りつ) = stand.\n対立(たいりつ)が生(う)まれる = a conflict arises.",
+   example:"A: 会議(かいぎ)で対立(たいりつ)が生(う)まれました。\nB: 問題(もんだい)を解決(かいけつ)するために話(はな)し合(あ)いましょう。",
+   exampleSrc:"A: A conflict arose in the meeting.\nB: Let us discuss in order to resolve the problem.",
+   funFact:"対立 uses 対 (face/oppose) and 立 (stand). It describes two sides standing face to face. In Japanese workplace culture, open 対立(たいりつ) is avoided because it disrupts wa (和, group harmony). Disagreements are usually expressed indirectly or resolved through a mediator rather than direct confrontation."},
+
+  {type:"teach", trg:"誤解(ごかい)", src:"misunderstanding", pos:"noun", gender:null,
+   note:"Kanji: 誤解(ごかい). 誤(ご) = mistake, 解(かい) = understanding.\n誤解(ごかい)が解(と)ける = the misunderstanding is resolved.",
+   example:"A: これは誤解(ごかい)です。そう言(い)ったのではありません。\nB: 分(わ)かりました。もう一度(いちど)教(おし)えてください。",
+   exampleSrc:"A: This is a misunderstanding. That is not what I said.\nB: I see. Please tell me once more.",
+   funFact:"誤解 combines 誤 (mistake) and 解 (interpretation/understanding). It is the go-to word for clearing the air in Japan. Saying それは誤解(ごかい)です (that is a misunderstanding) is softer than saying 間違(まちが)っています (you are wrong). It shifts blame from the listener to the situation, preserving face for both sides."},
+
+  {type:"teach", trg:"話(はな)し合(あ)い", src:"discussion / negotiation between parties", pos:"noun", gender:null,
+   note:"Kanji: 話(はな)し合(あ)い. 話(はな)し合(あ)いをする / 持(も)つ = to hold a discussion.\nMore collaborative than 会議(かいぎ). Implies working something out.",
+   example:"A: 今日(きょう)の話(はな)し合(あ)いで誤解(ごかい)が解(と)けてよかったです。\nB: はい、問題(もんだい)が解決(かいけつ)できてよかったです。",
+   exampleSrc:"A: I am glad the misunderstanding was resolved in today's discussion.\nB: Yes, I am glad we could resolve the problem.",
+   funFact:"話し合い (from 話す = speak + 合う = mutually) implies two-way communication, not a lecture. Japanese schools teach kids to resolve conflicts through 話し合い from an early age. It appears constantly in mediation contexts, union-management relations, and neighborhood disputes. The word itself signals a cooperative, non-adversarial approach."},
+
+  {type:"teach", trg:"仲裁(ちゅうさい)する", src:"to mediate / to arbitrate", pos:"verb", gender:null,
+   note:"Kanji: 仲裁(ちゅうさい)する. 仲(ちゅう) = relationship, 裁(さい) = judge/arbitrate.\n仲裁(ちゅうさい)に入(はい)る = to step in as mediator.",
+   example:"A: 先生(せんせい)、この対立(たいりつ)を仲裁(ちゅうさい)していただけますか？\nB: 分(わ)かりました。問題(もんだい)の解決(かいけつ)のために意見(いけん)を聞(き)きます。",
+   exampleSrc:"A: Teacher, could you mediate this conflict?\nB: Understood. I will listen to opinions in order to resolve the problem.",
+   funFact:"仲裁 uses 仲 (relationship/middleman) and 裁 (judge). In Japanese labor law, 仲裁(ちゅうさい) is a formal dispute resolution mechanism alongside 調停(ちょうてい) (conciliation) and 審判(しんぱん) (adjudication). Outside formal legal contexts, asking a senior colleague to 仲裁(ちゅうさい)する is the most common way to resolve interpersonal conflicts at Japanese workplaces."},
+
+  {type:"teach", trg:"謝(あやま)る", src:"to apologize", pos:"verb", gender:null,
+   note:"Kanji: 謝(あやま)る. Plain verb form. 謝(あやま)ってください = please apologize.\n申(もう)し訳(わけ)ない is keigo form; 謝(あやま)る is the plain action verb.",
+   example:"A: 誤解(ごかい)について謝(あやま)ってください。\nB: はい、申(もう)し訳(わけ)ありません。誤解(ごかい)させてしまいました。",
+   exampleSrc:"A: Please apologize for the misunderstanding.\nB: Yes, I am sorry. I caused a misunderstanding.",
+   funFact:"謝(あやま)る is the everyday verb for apologizing. Japan is famous for its apology culture. Public figures bow deeply (お辞儀(じぎ), ojigi) at press conferences. Shops open apology letters with 深(ふか)くお詫(わ)び申(もう)し上(あ)げます. Research shows Japanese speakers apologize roughly 5 times more often per day than American English speakers. Apology is social glue."},
+
+  {type:"tip", title:"Omote and Ura in Conflict",
+   text:"Japanese communication has two layers in conflict situations:\n\n表(おもて) omote = the surface / what is said publicly\n裏(うら) ura = the real intention / what is felt privately\n\nThis gap explains why direct confrontation is rare:\n- Direct criticism = destroys 面目(めんもく) (face)\n- Indirect hint = preserves harmony while signaling the problem\n\nUseful phrases:\nそれはちょっと難(むずか)しいですね = That is a bit difficult (= I disagree)\n善処(ぜんしょ)します = We will handle it well (= do not count on it)\n検討(けんとう)します = We will consider it (= probably no)\n\nWhen mediating: ask both sides to express 本音(ほんね) (true feelings) privately before any joint discussion.",
+   deepDive:{title:"Why Indirect Refusal Works in Japan",
+    text:"Japanese interpersonal conflict resolution follows a consistent pattern:\n\n1. Avoid direct confrontation (直接対決(ちょくせつたいけつ)を避(さ)ける)\n2. Use a go-between (仲裁者(ちゅうさいしゃ)) to carry messages\n3. Allow both sides to save face (面目(めんもく)を保(たも)つ)\n4. Reach a compromise (妥協(だきょう)) that no one is fully happy with but everyone accepts\n5. Restore the relationship (関係(かんけい)を修復(しゅうふく)する)\n\nThe word 根回(ねまわ)し (nemawashi, pre-meeting consensus building) is central. A skilled mediator arranges private conversations with each party before any formal meeting, so no one loses face publicly."}},
+
+  {type:"teach", trg:"和解(わかい)", src:"reconciliation / settlement", pos:"noun", gender:null,
+   note:"Kanji: 和解(わかい). 和(わ) = harmony, 解(かい) = resolution.\n和解(わかい)する = to reconcile. 和解(わかい)に達(たっ)する = to reach a settlement.",
+   example:"A: 話(はな)し合(あ)いの末(すえ)に和解(わかい)しました。\nB: よかったです。問題(もんだい)が解決(かいけつ)しましたね。",
+   exampleSrc:"A: After the discussion, we reconciled.\nB: That is good. The problem has been resolved.",
+   funFact:"和解 uses 和 (harmony) and 解 (dissolve/resolve). In Japanese courts, 和解(わかい) is strongly encouraged before trial. Over 60% of civil disputes are resolved through court-assisted 和解(わかい) rather than a full verdict. This reflects the cultural value of maintaining relationships over winning arguments. The verb 和解(わかい)する can be used for personal, business, and legal reconciliation."},
+
+  {type:"teach", trg:"訴(うった)える", src:"to appeal / to file a complaint / to take legal action", pos:"verb", gender:null,
+   note:"Kanji: 訴(うった)える. 訴(うった)えを起(お)こす = to bring a lawsuit.\nAlso used informally: 上司(じょうし)に訴(うった)える = to report to the boss.",
+   example:"A: このままでは上(うえ)に訴(うった)えるしかありません。\nB: その前(まえ)に和解(わかい)の可能性(かのうせい)を探(さが)りましょう。",
+   exampleSrc:"A: At this rate, there is no choice but to escalate the complaint.\nB: Before that, let us explore the possibility of reconciliation.",
+   funFact:"訴える has a wide range of use from 'to complain to someone' all the way to 'to sue.' In the workplace, 上司(じょうし)に訴(うった)える (report to a superior) is a common conflict-escalation step. Formally filing a legal 訴(うった)え is relatively rare in Japan compared to the US, because cultural pressure strongly favors 和解(わかい) over litigation."},
+
+  {type:"mc", q:"誤解(ごかい)が解(と)ける means:", opts:["A misunderstanding is cleared up","A misunderstanding is created","A misunderstanding is ignored","A misunderstanding is reported"], ans:"A misunderstanding is cleared up",
+   hint:"解(と)ける means to dissolve or come undone, so the misunderstanding comes apart."},
+
+  {type:"mc", q:"仲裁(ちゅうさい)に入(はい)る means:", opts:["To enter into a contract","To step in as a mediator","To join a discussion as an observer","To file a formal complaint"], ans:"To step in as a mediator",
+   hint:"仲(ちゅう) refers to acting as the middle person between two parties in dispute."},
+
+  {type:"mc", q:"訴(うった)える in a workplace context means:", opts:["To escalate a complaint to a superior","To hold a celebration","To sign a contract","To take a vacation"], ans:"To escalate a complaint to a superior",
+   hint:"This verb covers both informal complaints and formal legal filings, from reporting to a manager up to filing legal action."},
+
+  {type:"fb", s:"会議(かいぎ)で{1}が生(う)まれました。\n(A conflict arose in the meeting.)", a:"対立(たいりつ)", opts:["対立(たいりつ)","誤解(ごかい)","和解(わかい)","話(はな)し合(あ)い"], sSrc:"A conflict arose in the meeting.",
+   hint:"The noun meaning two sides standing in opposition, facing each other."},
+
+  {type:"fb", s:"話(はな)し合(あ)いの末(すえ)に{1}しました。\n(After the discussion, we reconciled.)", a:"和解(わかい)", opts:["和解(わかい)","仲裁(ちゅうさい)","対立(たいりつ)","謝(あやま)る"], sSrc:"After the discussion, we reconciled.",
+   hint:"The noun meaning harmony restored, used for personal and legal reconciliation. Add する."},
+
+  {type:"match", pairs:[{trg:"対立(たいりつ)",src:"conflict / opposition"},{trg:"誤解(ごかい)",src:"misunderstanding"},{trg:"仲裁(ちゅうさい)する",src:"to mediate"},{trg:"謝(あやま)る",src:"to apologize"},{trg:"和解(わかい)",src:"reconciliation"},{trg:"話(はな)し合(あ)い",src:"discussion / negotiation"},{trg:"訴(うった)える",src:"to appeal / file a complaint"}]},
+]},
+
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L03
 ,BATCH2_L04
