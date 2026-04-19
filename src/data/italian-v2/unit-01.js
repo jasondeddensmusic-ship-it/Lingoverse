@@ -107,6 +107,8 @@ const UNIT_01 = {
        exampleSrc:"A: My name is Anna. Nice to meet you!\nB: The pleasure is mine! I'm Marco.",
        funFact:"The full formal phrase is 'piacere di conoscerLa' (pleasure to know you). In casual settings, just 'piacere' with a handshake is enough."},
 
+      {type:"tip", title:"🎁 Italian cognates you already know", text:"Italian and English share thousands of Latinate words:\n\naction → azione\nuniversity → università\npossibility → possibilità\ninformation → informazione\nexactly → esattamente\nhistory → storia\n\nPattern 1: English -tion → Italian -zione\nPattern 2: English -ty → Italian -tà\nPattern 3: English -ly → Italian -mente\n\nYou already recognize thousands of Italian words. Don't memorize them. Notice the suffix swaps.", icon:"🎁", deepDive:{title:"Latin is the shared grandparent", text:"Italian descends directly from Latin. English absorbed Latinate vocabulary through the Norman conquest (1066) and later scholarly borrowing. The result: English has a Latinate half that IS Italian with suffix swaps.\n\n'Action' is azione. 'Possibility' is possibilità. 'Probably' is probabilmente. Once you know the three main patterns (-tion↔-zione, -ty↔-tà, -ly↔-mente), you unlock thousands of words with zero memorization.\n\nFalse-friend warning: 'fattoria' means 'farm', not 'factory'. 'educato' means 'polite', not 'educated'. Maybe 4% of cognates drift; the other 96% are reliable free vocabulary."}},
+
       // Quiz steps
       {type:"mc", q:"Come si dice 'good morning' in italiano?",
        opts:["Buongiorno","Buonanotte","Arrivederci","Prego"],

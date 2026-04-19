@@ -344,7 +344,21 @@ export default function App(){
     setUser(u=>{const ls=new Set(u.ls);ls.add(lang);if(ls.size>=3&&!u.achs.includes("polyglot"))setTimeout(()=>unlock("polyglot"),500);return{...u,ls};});
   },[lang]);
 
-  const onboard=(base,target)=>{setBaseLang(base);setLang(target);setOb(true);setProfile({displayName:"Learner",avatar:"🧑‍🚀",level:"beginner",dailyGoal:15,createdAt:new Date().toISOString()});setAuthed(true);showToast(`${t("ob_start_learning",base)} ${LANGUAGES.find(l=>l.code===target)?.name}!`,"🚀");};
+  const onboard=(base,target,startingLevel)=>{
+    setBaseLang(base);setLang(target);setOb(true);
+    setProfile({displayName:"Learner",avatar:"🧑‍🚀",level:"beginner",dailyGoal:15,createdAt:new Date().toISOString()});
+    setAuthed(true);
+    // Store starting CEFR sub-level from placement quiz (null = start at A1.1).
+    if(startingLevel){
+      setUser(u=>{
+        const progress={...(u.progress||{})};
+        progress[target]={...(progress[target]||{}),startingLevel,placementDate:new Date().toISOString()};
+        return{...u,progress};
+      });
+    }
+    const lvlMsg=startingLevel?` Starting at ${startingLevel}.`:"";
+    showToast(`${t("ob_start_learning",base)} ${LANGUAGES.find(l=>l.code===target)?.name}!${lvlMsg}`,"🚀");
+  };
 
   // ── PERSISTENCE ──
   useEffect(()=>{

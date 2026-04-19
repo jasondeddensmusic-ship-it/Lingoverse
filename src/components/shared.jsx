@@ -85,18 +85,23 @@ function FlagButton({lessonId,stepIndex,stepData,addFlag,baseLang="en"}){
 
 // ── CONTINUE BUTTON — styled, in target language ──
 // ── CONFETTI — Pure CSS celebration burst ──
-function Confetti({active}){
+// burst prop: "normal" (35 pieces, 1.8-3.3s) | "big" (60 pieces, 2.5-4.5s, wider spread)
+function Confetti({active,burst="normal"}){
+  const count=burst==="big"?60:35;
+  const maxDur=burst==="big"?2.5:1.8;
+  const durRange=burst==="big"?2.0:1.5;
+  const maxDelay=burst==="big"?0.7:0.4;
   const [pieces]=useState(()=>{
-    const colors=["#F5A623","#4A8FE7","#2ECD9E","#E74C6F","#9B59B6","#F39C12","#1ABC9C","#E74C3C"];
-    return Array.from({length:35},(_,i)=>({
+    const colors=["#F5A623","#4A8FE7","#2ECD9E","#E74C6F","#9B59B6","#F39C12","#1ABC9C","#E74C3C","#7B5EE8","#2ECDA7","#F56565","#48BB78"];
+    return Array.from({length:count},(_,i)=>({
       id:i,
       color:colors[i%colors.length],
       x:Math.random()*100,
-      dur:1.8+Math.random()*1.5,
-      delay:Math.random()*0.4,
-      spin:360+Math.random()*720,
-      w:6+Math.random()*8,
-      h:4+Math.random()*6,
+      dur:maxDur+Math.random()*durRange,
+      delay:Math.random()*maxDelay,
+      spin:360+Math.random()*900,
+      w:5+Math.random()*10,
+      h:4+Math.random()*7,
       r:Math.random()*360,
     }));
   });
