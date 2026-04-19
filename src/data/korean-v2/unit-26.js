@@ -270,6 +270,72 @@ const UNIT_26 =
 {type:"drag_fill",s:"최종: particles ({1}, {2}, {3}) support patterns.\n곤 했다, 마련이다, 법이다, 구나, 고 나면, 고 보면.\n(Subject. Topic. Every.)",blanks:{"1":"이/가","2":"은/는","3":"마다"},pool:["이/가","은/는","마다","을/를","에서","부터"],hint:"Which three particles appear most often supporting patterns? Think about marking roles in sentences."},
 ]},
 
+
+
+// ── L11: 갈등 해결 (Resolving Disputes / Mediating) ──
+{id:"kou26l11",title:"갈등 해결",icon:"🤝",xp:15,board:true,steps:[
+{type:"intro",title:"Resolving Disputes & Mediating",desc:"Learn to mediate conflicts diplomatically in Korean: expressing disagreement politely with honorifics, finding compromises, restoring harmony. Essential for TOPIK II speaking.",goals:["Express disagreement politely","Propose compromises","Use diplomatic Korean in conflict"]},
+
+{type:"teach",trg:"오해",src:"misunderstanding",pos:"noun",gender:null,
+ note:"Sino-Korean: 오(wrong/誤) + 해(understand/解).\n오해하다 = to misunderstand.\n오해를 풀다 = to clear up a misunderstanding.",
+ example:"A: 왜 저한테 화가 나셨어요?\nB: 아, 오해예요. 화난 게 아니에요.",
+ exampleSrc:"A: Why are you angry with me?\nB: Oh, it is a misunderstanding. I am not angry.",
+ funFact:"오해 vs 이해: 이(understand/理) + 해 = understanding. The prefix 오(誤) flips it to 'wrong understanding.'"},
+
+{type:"teach",trg:"입장",src:"position / standpoint",pos:"noun",gender:null,
+ note:"입장 = the stance or viewpoint one holds.\n상대방 입장 = the other person's standpoint.\n입장 차이 = difference in positions.",
+ example:"상대방 입장에서 생각해 보세요.\n(Try thinking from the other person's standpoint.)",
+ exampleSrc:"Try thinking from the other person's standpoint.",
+ funFact:"입장 literally means 'entering a place' (입/入 + 장/場) but extended to the mental stance you occupy in a debate or dispute."},
+
+{type:"teach",trg:"배려",src:"consideration / thoughtfulness",pos:"noun",gender:null,
+ note:"배려하다 = to show consideration.\n상대방을 배려하다 = to be considerate of the other person.\nKey concept in Korean harmony culture.",
+ example:"A: 왜 그냥 참으셨어요?\nB: 상대방을 배려해서요.",
+ exampleSrc:"A: Why did you just hold back?\nB: Because I wanted to show consideration for the other person.",
+ funFact:"배려 is central to 눈치 culture: sensing others' needs and adjusting your behavior accordingly without being asked."},
+
+{type:"teach",trg:"중재하다",src:"to mediate",pos:"verb",gender:null,
+ note:"중재 = mediation (Sino-Korean: 중/中 + 재/裁).\n중재자 = mediator.\n갈등을 중재하다 = to mediate a conflict.",
+ example:"A: 두 사람이 계속 다퉈요.\nB: 제가 중재할게요. 잠깐 이야기해 봐요.",
+ exampleSrc:"A: The two of them keep arguing.\nB: I will mediate. Let us talk for a moment.",
+ funFact:"중재 is used in legal and workplace settings (노동 중재 = labor mediation) as well as everyday interpersonal conflict."},
+
+{type:"teach",trg:"조율하다",src:"to coordinate / to harmonize",pos:"verb",gender:null,
+ note:"조율 comes from musical tuning: 조(tune/調) + 율(pitch/律).\n의견을 조율하다 = to align different opinions.\nOften used in meetings and negotiations.",
+ example:"A: 두 분의 의견이 달라요.\nB: 서로 조율해 보겠습니다.",
+ exampleSrc:"A: Your two opinions differ.\nB: We will try to coordinate with each other.",
+ funFact:"Like tuning instruments before a concert, 조율하다 means bringing different elements into harmony. Common in business Korean: 일정을 조율하다 = to coordinate schedules."},
+
+{type:"teach",trg:"용서하다",src:"to forgive",pos:"verb",gender:null,
+ note:"용서 (Sino-Korean: 용/容 + 서/恕).\n용서해 주세요 = Please forgive me (polite request).\n용서받다 = to be forgiven.",
+ example:"A: 정말 죄송해요. 용서해 주시겠어요?\nB: 네, 용서할게요. 앞으로 조심해요.",
+ exampleSrc:"A: I am truly sorry. Could you please forgive me?\nB: Yes, I will forgive you. Please be careful going forward.",
+ funFact:"용서 appears in Korean proverbs: 용서는 약자의 덕목이 아니라 강자의 선택 (Forgiveness is not the virtue of the weak but the choice of the strong)."},
+
+{type:"teach",trg:"화해하다",src:"to reconcile / to make up",pos:"verb",gender:null,
+ note:"화해 (Sino-Korean: 화/和 + 해/解).\n화해를 제안하다 = to propose reconciliation.\n화해가 되다 = to become reconciled.",
+ example:"A: 아직도 그 친구랑 사이가 안 좋아요?\nB: 아니요, 이미 화해했어요.",
+ exampleSrc:"A: Are you still on bad terms with that friend?\nB: No, we have already reconciled.",
+ funFact:"화해 combines 화(harmony/和) and 해(release/解): releasing tension to restore harmony. The Japanese cognate 和解 (わかい) carries the same meaning."},
+
+{type:"tip",title:"Diplomatic Disagreement in Korean",
+ text:"Korean culture values 눈치 and 체면 (face-saving).\nDisagreeing directly can feel confrontational.\n\nPolite disagreement patterns:\n저는 좀 다른 의견인데요.\n→ I have a slightly different opinion...\n\n그 부분은 좀 어렵지 않을까요?\n→ Might that part be a bit difficult?\n\n이렇게 해 보시면 어떨까요?\n→ How about trying it this way?\n\nAlways soften with 좀, -는데요, -(으)ㄹ까요.",
+ deepDive:"Face-saving (체면) shapes Korean conflict resolution:\n\n1. 직접 vs 간접 (direct vs indirect)\n Koreans often prefer indirect hints over direct complaint.\n Noticing the hint = showing 눈치.\n\n2. 빠른 사과 (quick apology)\n A fast 사과 prevents conflict from escalating.\n Even if not fully at fault, 먼저 사과 (apologize first)\n is seen as mature (어른스럽다).\n\n3. 밥 먹기 (sharing a meal)\n화해 often sealed over a shared meal.\n '밥이나 한번 먹자' = 'Let us grab a meal' = implicit peace offer.\n\n4. 체면 유지 (maintaining face)\n Winning an argument publicly = making someone lose face.\n Koreans often resolve in private."},
+
+{type:"fb",s:"두 사람이 계속 다퉈서 제가 {1}할게요.\n(Since the two keep arguing, I will mediate.)",a:"중재",opts:["중재","타협","해결","배려"],hint:"Appointing yourself to step between two conflicting parties and help them reach agreement."},
+
+{type:"fb",s:"정말 미안해요. {1}해 주시겠어요?\n(I am truly sorry. Could you please forgive me?)",a:"용서",opts:["용서","화해","중재","조율"],hint:"Asking the other person to release their grievance and pardon you completely."},
+
+{type:"fb",s:"두 분의 의견이 달라서 서로 {1}해야 해요.\n(Since your opinions differ, you need to coordinate with each other.)",a:"조율",opts:["조율","화해","중재","용서"],hint:"Bringing different viewpoints into alignment, like tuning instruments before a concert."},
+
+{type:"mc",q:"상대방 입장에서 생각해 보세요.\nWhat does 입장 mean here?",opts:["argument","apology","standpoint / perspective","misunderstanding"],ans:"standpoint / perspective",hint:"입장 = the mental position you occupy when viewing a situation."},
+
+{type:"drag_fill",s:"오해가 생겼{1}니, 서로 {2}을 이해하고 {3}하는 게 중요해요.\n(Since a misunderstanding arose, understanding each other's standpoint and reconciling is important.)",blanks:{"1":"으","2":"입장","3":"화해"},pool:["으","입장","화해","았","오해","중재","아","배려"],hint:"Past-cause connector. Standpoint noun. Reconcile verb stem."},
+
+{type:"match",pairs:[{trg:"오해",src:"misunderstanding"},{trg:"화해하다",src:"to reconcile"},{trg:"중재하다",src:"to mediate"},{trg:"배려",src:"consideration / thoughtfulness"}]},
+
+]},
+
 ]};
 
 export default UNIT_26;
