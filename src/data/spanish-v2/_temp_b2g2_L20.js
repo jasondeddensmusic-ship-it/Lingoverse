@@ -68,14 +68,14 @@ const LESSON_20 = {id:"esv2_b2g2_l20",title:"Vocabulario avanzado variado",icon:
 
 {type:"teach",trg:"la cabida",src:"the capacity / room",pos:"noun",gender:"f",
  note:"Feminine noun. The amount of space available to fit something.",
- example:"A: El teatro tiene cabida para quinientas personas.\nB: Las entradas se agotaron en una hora.",
- exampleSrc:"A: The theater has room for five hundred people.\nB: Tickets sold out in an hour.",
+ example:"A: El teatro tiene cabida para quinientas personas.\nB: Las entradas ya no están disponibles.",
+ exampleSrc:"A: The theater has room for five hundred people.\nB: Tickets are no longer available.",
  funFact:"'Dar cabida a' (to make room for) is used both literally and figuratively in formal Spanish."},
 
 {type:"teach",trg:"el córner",src:"the corner kick",pos:"noun",gender:"m",
  note:"Masculine noun. A corner kick in football. Plural: córneres.",
- example:"A: El gol llegó tras un córner desde la derecha.\nB: El defensa remató de cabeza perfectamente.",
- exampleSrc:"A: The goal came after a corner kick from the right.\nB: The defender headed it in perfectly.",
+ example:"A: El gol llegó tras un córner desde la derecha.\nB: Fue un momento muy bueno para el equipo.",
+ exampleSrc:"A: The goal came after a corner kick from the right.\nB: It was a very good moment for the team.",
  funFact:"English loanword adapted to Spanish pronunciation: CÓR-ner. Fully integrated into football talk."},
 
 {type:"teach",trg:"el bandazo",src:"the swerve / sudden change",pos:"noun",gender:"m",

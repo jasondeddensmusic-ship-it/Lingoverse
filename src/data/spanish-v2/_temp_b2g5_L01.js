@@ -22,8 +22,8 @@ const LESSON_1 = {id:"esv2_b2g5_l1",title:"El arte y la artesanía",icon:"🎨",
 
 {type:"teach",trg:"la herrería",src:"the blacksmith's forge / ironwork",pos:"noun",gender:"f",
  note:"Feminine noun. The craft of working with iron.\nAlso the smithy itself.",
- example:"A: La herrería del pueblo lleva abierta tres generaciones.\nB: Hacen rejas y balcones preciosos.",
- exampleSrc:"A: The village forge has been open for three generations.\nB: They make beautiful railings and balconies.",
+ example:"A: La herrería del pueblo lleva abierta tres generaciones.\nB: Hacen cosas muy buenas con el hierro.",
+ exampleSrc:"A: The village forge has been open for three generations.\nB: They make very good things with iron.",
  funFact:"From hierro (iron). Spanish herrerías produced the ornate ironwork seen on Andalusian balconies."},
 
 {type:"teach",trg:"el fresco",src:"the fresco (wall painting)",pos:"noun",gender:"m",

@@ -86,8 +86,8 @@ const LESSON_6 = {id:"esv2_b2g5_l6",title:"Historia y arqueología",icon:"🏛�
 
 {type:"teach",trg:"el escribano",src:"the scribe / notary",pos:"noun",gender:"m",
  note:"Masculine noun. A person who copied documents by hand.\nHistorical: also a public notary.",
- example:"A: El escribano redactaba todos los documentos oficiales.\nB: Era un oficio muy respetado.",
- exampleSrc:"A: The scribe drafted all the official documents.\nB: It was a very respected profession.",
+ example:"A: El escribano escribía todos los documentos oficiales.\nB: Era un oficio muy respetado.",
+ exampleSrc:"A: The scribe wrote all the official documents.\nB: It was a very respected profession.",
  funFact:"In colonial Spanish America, the escribano was essential for all legal transactions and land grants."},
 
 {type:"mc",q:"¿Qué es un homínido?",opts:["Un antepasado del ser humano","Un tipo de fósil vegetal","Una herramienta de piedra","Un estamento social"],ans:"Un antepasado del ser humano",hint:"Think about early human ancestors that walked upright millions of years ago."},

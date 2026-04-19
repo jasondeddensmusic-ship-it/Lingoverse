@@ -24,8 +24,8 @@ const LESSON_14 = {id:"esv2_b2g9_l14", title:"Objetos y materiales", icon:"\u{1F
 
   {type:"teach", trg:"el le\u00f1o", src:"the log; piece of firewood", pos:"noun", gender:"m",
    note:"From le\u00f1a (firewood).\nA single piece of wood for burning.",
-   example:"A: Pon otro le\u00f1o en la chimenea.\nB: \u00bfEste es suficientemente seco?\nA: S\u00ed, est\u00e1 perfecto. Arder\u00e1 bien.\nB: Me encanta el olor de la madera quemada.",
-   exampleSrc:"A: Put another log on the fire.\nB: Is this one dry enough?\nA: Yes, it is perfect. It will burn well.\nB: I love the smell of burning wood.",
+   example:"A: Pon otro le\u00f1o en la chimenea.\nB: \u00bfEste es suficientemente seco?\nA: S\u00ed, est\u00e1 perfecto. Arder\u00e1 bien.\nB: Me encanta el calor de la chimenea.",
+   exampleSrc:"A: Put another log on the fire.\nB: Is this one dry enough?\nA: Yes, it is perfect. It will burn well.\nB: I love the warmth of the fireplace.",
    funFact:"The expression 'dormir como un le\u00f1o' (to sleep like a log) exists in both Spanish and English with the same meaning."},
 
   {type:"teach", trg:"el asta", src:"the flagpole; antler; shaft", pos:"noun", gender:"f",
@@ -64,8 +64,8 @@ const LESSON_14 = {id:"esv2_b2g9_l14", title:"Objetos y materiales", icon:"\u{1F
 
   {type:"teach", trg:"la borda", src:"the gunwale; the side of a ship", pos:"noun", gender:"f",
    note:"From French bord (edge).\nThe upper edge of a ship's side.",
-   example:"A: Se asomaron por la borda para ver los delfines.\nB: \u00a1Qu\u00e9 espect\u00e1culo!\nA: Estaban saltando junto al barco.\nB: Nunca olvidar\u00e9 esa imagen.",
-   exampleSrc:"A: They leaned over the gunwale to see the dolphins.\nB: What a spectacle!\nA: They were jumping next to the boat.\nB: I will never forget that image.",
+   example:"A: Se asomaron por la borda para ver los delfines.\nB: \u00a1Qu\u00e9 espect\u00e1culo!\nA: Estaban saltando junto al barco.\nB: Es un momento muy especial.",
+   exampleSrc:"A: They leaned over the gunwale to see the dolphins.\nB: What a spectacle!\nA: They were jumping next to the boat.\nB: It is a very special moment.",
    funFact:"The expression 'tirar por la borda' (to throw overboard) means to waste or discard something valuable."},
 
   {type:"mc", q:"\u00bfPor qu\u00e9 decimos 'el asta' si es femenino?",

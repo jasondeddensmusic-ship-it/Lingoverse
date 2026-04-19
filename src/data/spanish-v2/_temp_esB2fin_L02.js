@@ -61,8 +61,8 @@ const LESSON_2 = {
 
     {type:"teach", trg:"el servidor", src:"the server", pos:"noun", gender:"m",
      note:"A computer that provides data to other computers on a network.",
-     example:"A: El servidor se cayó y perdimos acceso al correo.\nB: El técnico está reiniciando el servidor.",
-     exampleSrc:"A: The server went down and we lost access to email.\nB: The technician is restarting the server.",
+     example:"A: El servidor se cayó y perdimos acceso al correo.\nB: El técnico está trabajando en el servidor.",
+     exampleSrc:"A: The server went down and we lost access to email.\nB: The technician is working on the server.",
      funFact:"From 'servir' (to serve). A server 'serves' data to client devices that request it."},
 
     {type:"fb", s:"La {1} protege los sistemas informáticos contra ataques.", a:["ciberseguridad"],

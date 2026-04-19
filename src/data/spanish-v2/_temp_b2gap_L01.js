@@ -22,8 +22,8 @@ const LESSON_1 = {id:"esv2_b2gap_l1",title:"Ciudadanos y sociedad",icon:"🏛️
 
 {type:"teach",trg:"el censo",src:"the census",pos:"noun",gender:"m",
  note:"Masculine noun. Official count of the population.",
- example:"A: ¿Estás inscrito en el censo electoral?\nB: Sí, me registré el mes pasado.",
- exampleSrc:"A: Are you registered in the electoral census?\nB: Yes, I registered last month.",
+ example:"A: ¿Estás en el censo electoral?\nB: Sí, me registré el mes pasado.",
+ exampleSrc:"A: Are you on the electoral census?\nB: Yes, I registered last month.",
  funFact:"From Latin censere (to assess). Spain's first modern census was in 1768."},
 
 {type:"teach",trg:"el consenso",src:"the consensus",pos:"noun",gender:"m",
@@ -62,8 +62,8 @@ const LESSON_1 = {id:"esv2_b2gap_l1",title:"Ciudadanos y sociedad",icon:"🏛️
 
 {type:"teach",trg:"el concursante",src:"the contestant",pos:"noun",gender:"m",
  note:"Masculine noun. Someone in a competition.\nFeminine: la concursante.",
- example:"A: ¿Cuántos concursantes hay en el programa?\nB: Veinte, pero solo uno ganará.",
- exampleSrc:"A: How many contestants are on the show?\nB: Twenty, but only one will win.",
+ example:"A: ¿Cuántos concursantes hay en el programa?\nB: Veinte, pero solo uno puede ganar.",
+ exampleSrc:"A: How many contestants are on the show?\nB: Twenty, but only one can win.",
  funFact:"From concurso (contest). Spanish TV game shows use this word constantly."},
 
 {type:"teach",trg:"el aspirante",src:"the candidate / aspirant",pos:"noun",gender:"m",

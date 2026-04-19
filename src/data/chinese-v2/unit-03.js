@@ -103,8 +103,8 @@ lessons:[
 
 {type:"teach", trg:"\u7684(de)", src:"(possessive particle)", pos:"part", gender:null,
  note:"Links a possessor to what they possess. Like English apostrophe-s.\n\u6211\u7684 = my. \u4F60\u7684 = your.",
- example:"A: \u8FD9(zh\u00E8)\u662F(sh\u00EC)\u8C01(sh\u00E9i)\u7684(de)\u4E66(sh\u016B)?\nB: \u8FD9(zh\u00E8)\u662F(sh\u00EC)\u6211(w\u01D2)\u7684(de)\u4E66(sh\u016B)\u3002",
- exampleSrc:"A: Whose book is this?\nB: This is my book.",
+ example:"A: \u8FD9(zh\u00E8)\u662F(sh\u00EC)\u8C01(sh\u00E9i)\u7684(de)\u54E5\u54E5(g\u0113ge)?\nB: \u8FD9(zh\u00E8)\u662F(sh\u00EC)\u6211(w\u01D2)\u7684(de)\u54E5\u54E5(g\u0113ge)\u3002",
+ exampleSrc:"A: Whose older brother is this?\nB: This is my older brother.",
  funFact:"\u7684 is the single most frequently used character in modern Chinese. It appears in nearly every sentence. Think of it as the glue that connects a description to a noun: \u6211\u7684 (my), \u5927\u7684 (big one), \u7EA2\u7684 (red one)."},
 
 {type:"teach", trg:"\u6709(y\u01D2u)", src:"to have", pos:"verb", gender:null,

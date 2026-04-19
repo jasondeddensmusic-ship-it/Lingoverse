@@ -74,8 +74,8 @@ const LESSON_2 = {id:"esv2_b2g4_l2",title:"Economía y empresa",icon:"📊",xp:1
 
 {type:"teach",trg:"el exponente",src:"the exponent / example",pos:"noun",gender:"m",
  note:"Masculine noun. A leading representative or mathematical power.\nAlso: el máximo exponente.",
- example:"A: Picasso es el máximo exponente del cubismo.\nB: Su obra revolucionó el arte del siglo XX.",
- exampleSrc:"A: Picasso is the greatest exponent of cubism.\nB: His work revolutionized twentieth-century art.",
+ example:"A: Picasso es el máximo exponente del arte moderno.\nB: Su obra es muy importante en la historia del arte.",
+ exampleSrc:"A: Picasso is the greatest exponent of modern art.\nB: His work is very important in the history of art.",
  funFact:"In math, 'exponente' means the power to which a number is raised, just like in English."},
 
 {type:"mc",q:"¿Qué significa 'factible'?",opts:["Que se puede hacer","Que es muy caro","Que está prohibido","Que ya está hecho"],ans:"Que se puede hacer",hint:"Think about whether a plan or project can actually be carried out."},

@@ -41,13 +41,13 @@ const LESSON_16 = {id:"esv2_b2gA_l16", title:"Deportes y ocio", icon:"⚽", xp:1
 
 {type:"teach", trg:"el mirón", src:"the onlooker / voyeur", pos:"noun", gender:"m",
  note:"Someone who watches without participating. Slightly negative connotation.\nFrom mirar.",
- example:"A: Había varios mirones observando las obras de la calle.\nB: La gente siempre se para a mirar.",
- exampleSrc:"A: There were several onlookers watching the street works.\nB: People always stop to look.",
+ example:"A: Había varios mirones mirando las obras de la calle.\nB: La gente siempre se para a mirar.",
+ exampleSrc:"A: There were several onlookers looking at the street works.\nB: People always stop to look.",
  funFact:"Has a mildly pejorative tone. 'Espectador' is the neutral word for spectator."},
 
 {type:"teach", trg:"mozo", src:"young / young man / waiter (archaic)", pos:"adj", gender:null,
  note:"Young and vigorous. As noun: a young assistant or porter.\nFrom Latin musteus (new).",
- example:"A: De mozo trabajó en el mercado cargando cajas.\nB: Eran trabajos duros pero formaban el carácter.",
+ example:"A: De mozo trabajó en el mercado cargando cajas.\nB: Eran trabajos muy duros pero muy buenos para el carácter.",
  exampleSrc:"A: As a young man he worked at the market carrying boxes.\nB: They were tough jobs but they built character.",
  funFact:"'Mozo de equipajes' (porter) is still used at train stations. Very Peninsular."},
 

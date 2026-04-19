@@ -50,8 +50,8 @@ const LESSON_8 = {id:"esv2_b2gC_l8",title:"Historia y arqueología",icon:"🏛�
 
 {type:"teach",trg:"el pedernal",src:"the flint",pos:"noun",gender:"m",
  note:"Masculine noun. A hard stone used for making fire.\nAlso used for Stone Age tools.",
- example:"A: Los primeros humanos usaban pedernal para hacer fuego.\nB: También tallaban puntas de flecha con él.",
- exampleSrc:"A: The first humans used flint to make fire.\nB: They also carved arrowheads from it.",
+ example:"A: Los primeros humanos usaban pedernal para hacer fuego.\nB: También hacían cosas muy útiles con él.",
+ exampleSrc:"A: The first humans used flint to make fire.\nB: They also made very useful things from it.",
  funFact:"Pedernal comes from Latin petra (stone) + ignis (fire). A stone that creates fire."},
 
 {type:"teach",trg:"la cristianización",src:"the Christianization",pos:"noun",gender:"f",

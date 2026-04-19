@@ -94,8 +94,8 @@ const LESSON_13 = {id:"esv2_b2gap_l13",title:"Conceptos abstractos I",icon:"💭
 
 {type:"teach",trg:"la coherencia",src:"the coherence",pos:"noun",gender:"f",
  note:"Feminine noun. Logical consistency and clarity.",
- example:"A: Su discurso carecía de coherencia.\nB: Saltaba de un tema a otro sin conexión.",
- exampleSrc:"A: His speech lacked coherence.\nB: He jumped from one topic to another without connection.",
+ example:"A: Su discurso no tenía coherencia.\nB: Saltaba de un tema a otro sin conexión.",
+ exampleSrc:"A: His speech had no coherence.\nB: He jumped from one topic to another without connection.",
  funFact:"From Latin cohaerentia (sticking together). 'Falta de coherencia' is a common criticism."},
 
 {type:"teach",trg:"el conglomerado",src:"the conglomerate",pos:"noun",gender:"m",

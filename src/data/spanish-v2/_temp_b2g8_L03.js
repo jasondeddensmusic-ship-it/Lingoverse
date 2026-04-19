@@ -62,8 +62,8 @@ const LESSON_3 = {id:"esv2_b2g8_l3",title:"Leyes y legislación",icon:"⚖️",x
 
 {type:"teach",trg:"la invalidez",src:"the disability / invalidity",pos:"noun",gender:"f",
  note:"Feminine noun. The state of being disabled or legally invalid.\nPensión de invalidez = disability pension.",
- example:"A: ¿Cuáles son los requisitos para la pensión de invalidez?\nB: Depende del grado de incapacidad reconocido.",
- exampleSrc:"A: What are the requirements for the disability pension?\nB: It depends on the recognized degree of incapacity.",
+ example:"A: ¿Cuáles son los requisitos para la pensión de invalidez?\nB: Es un proceso muy largo y muy difícil.",
+ exampleSrc:"A: What are the requirements for the disability pension?\nB: It is a very long and very difficult process.",
  funFact:"Spain distinguishes between 'invalidez permanente parcial' (partial) and 'total' (total) disability."},
 
 {type:"teach",trg:"el mandato",src:"the mandate / term of office",pos:"noun",gender:"m",

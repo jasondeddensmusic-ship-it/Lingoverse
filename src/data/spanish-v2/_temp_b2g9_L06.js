@@ -47,8 +47,8 @@ const LESSON_6 = {id:"esv2_b2g9_l6", title:"Cualidades y defectos", icon:"\u{1F3
 
   {type:"teach", trg:"la irritabilidad", src:"irritability", pos:"noun", gender:"f",
    note:"From irritable (irritable) + -idad.\nTendency to get annoyed or angry easily.",
-   example:"A: \u00daltimamente noto mucha irritabilidad en \u00e9l.\nB: Puede ser por el estr\u00e9s del trabajo.\nA: Deber\u00eda tomarse unos d\u00edas de descanso.\nB: O hablar con un profesional.",
-   exampleSrc:"A: Lately I notice a lot of irritability in him.\nB: It could be from work stress.\nA: He should take a few days off.\nB: Or talk to a professional.",
+   example:"A: \u00daltimamente hay mucha irritabilidad en \u00e9l.\nB: Puede ser por el estr\u00e9s del trabajo.\nA: Deber\u00eda tomarse unos d\u00edas de descanso.\nB: O hablar con un profesional.",
+   exampleSrc:"A: Lately there is a lot of irritability in him.\nB: It could be from work stress.\nA: He should take a few days off.\nB: Or talk to a professional.",
    funFact:"Medical Spanish uses 'irritabilidad' as a clinical symptom, particularly in descriptions of anxiety and sleep disorders."},
 
   {type:"teach", trg:"mezquino", src:"petty; mean; stingy", pos:"adj", gender:null,

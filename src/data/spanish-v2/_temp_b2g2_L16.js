@@ -36,8 +36,8 @@ const LESSON_16 = {id:"esv2_b2g2_l16",title:"Geografía y descripción",icon:"�
 
 {type:"teach",trg:"anglosajón",src:"Anglo-Saxon",pos:"adj",gender:null,
  note:"Adjective. Relating to English-speaking culture.\nFeminine: anglosajona.",
- example:"A: La cultura anglosajona ha influido mucho en España.\nB: Sobre todo en la música y el cine.",
- exampleSrc:"A: Anglo-Saxon culture has greatly influenced Spain.\nB: Especially in music and cinema.",
+ example:"A: La cultura anglosajona está muy presente en España.\nB: Sobre todo en la música y el cine.",
+ exampleSrc:"A: Anglo-Saxon culture is very present in Spain.\nB: Especially in music and cinema.",
  funFact:"Spaniards use 'anglosajón' broadly for anything from the English-speaking world."},
 
 {type:"teach",trg:"arancelario",src:"tariff-related",pos:"adj",gender:null,

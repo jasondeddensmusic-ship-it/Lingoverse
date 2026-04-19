@@ -22,8 +22,8 @@ const LESSON_13 = {id:"esv2_b2g5_l13",title:"Edificios y construcción",icon:"�
 
 {type:"teach",trg:"el batiente",src:"the door frame / leaf of a door",pos:"noun",gender:"m",
  note:"Masculine noun. The part of a door frame the door closes against.\nAlso: each wing of a double door.",
- example:"A: El batiente de la puerta está dañado.\nB: Hay que cambiarlo antes de que se rompa del todo.",
- exampleSrc:"A: The door frame is damaged.\nB: We need to replace it before it breaks completely.",
+ example:"A: El batiente de la puerta está muy dañado.\nB: Hay que cambiarlo muy pronto.",
+ exampleSrc:"A: The door frame is very damaged.\nB: We need to replace it very soon.",
  funFact:"From batir (to beat). The batiente is where the door 'beats' or strikes when closing."},
 
 {type:"teach",trg:"el elevador",src:"the elevator / lift",pos:"noun",gender:"m",

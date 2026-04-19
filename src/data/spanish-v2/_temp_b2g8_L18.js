@@ -45,8 +45,8 @@ const LESSON_18 = {id:"esv2_b2g8_l18",title:"Cuestiones morales",icon:"⚖️",x
 
 {type:"teach",trg:"el manifestante",src:"the protester / demonstrator",pos:"noun",gender:"m",
  note:"Common gender noun. A person who takes part in a protest.\nFeminine: la manifestante.",
- example:"A: Miles de manifestantes ocuparon la plaza central.\nB: Pedían una reforma del sistema educativo.",
- exampleSrc:"A: Thousands of protesters occupied the central square.\nB: They were demanding a reform of the education system.",
+ example:"A: Miles de manifestantes estaban en la plaza central.\nB: Pedían una reforma del sistema educativo.",
+ exampleSrc:"A: Thousands of protesters were in the central square.\nB: They were demanding a reform of the education system.",
  funFact:"Spain's 15-M movement (2011) brought millions of manifestantes to the streets. It reshaped Spanish politics."},
 
 {type:"teach",trg:"el manto",src:"the cloak / mantle / layer",pos:"noun",gender:"m",
@@ -91,8 +91,8 @@ const LESSON_18 = {id:"esv2_b2g8_l18",title:"Cuestiones morales",icon:"⚖️",x
 
 {type:"teach",trg:"el magnate",src:"the tycoon / magnate",pos:"noun",gender:"m",
  note:"Masculine noun. A very wealthy and powerful business person.\nAlso: magnata (feminine, less common).",
- example:"A: El magnate compró el periódico más importante del país.\nB: Muchos temen que pierda su independencia editorial.",
- exampleSrc:"A: The tycoon bought the most important newspaper in the country.\nB: Many fear it will lose its editorial independence.",
+ example:"A: El magnate compró el periódico más importante del país.\nB: Muchos tienen miedo por el futuro del periódico.",
+ exampleSrc:"A: The tycoon bought the most important newspaper in the country.\nB: Many are afraid for the future of the newspaper.",
  funFact:"From Latin magnus (great). Originally referred to Hungarian nobles. Now used globally for business moguls."},
 
 {type:"fb",s:"Los {1} recorrieron las calles pidiendo mejores condiciones laborales.",

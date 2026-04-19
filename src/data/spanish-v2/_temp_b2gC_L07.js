@@ -62,8 +62,8 @@ const LESSON_7 = {id:"esv2_b2gC_l7",title:"Salud y medicina",icon:"🏥",xp:15,b
 
 {type:"teach",trg:"la pequeñez",src:"the smallness / pettiness",pos:"noun",gender:"f",
  note:"Feminine noun. The quality of being small.\nAlso used for trivial, petty behavior.",
- example:"A: No pierdas el tiempo con esas pequeñeces.\nB: Tienes razón, hay asuntos más importantes.",
- exampleSrc:"A: Don't waste time on those petty things.\nB: You're right, there are more important matters.",
+ example:"A: No uses el tiempo en esas pequeñeces.\nB: Tienes razón, hay asuntos más importantes.",
+ exampleSrc:"A: Don't spend time on those petty things.\nB: You're right, there are more important matters.",
  funFact:"The suffix -ez creates abstract quality nouns: pequeño > pequeñez, viejo > vejez, bello > belleza."},
 
 {type:"mc",q:"¿Qué significa 'fisonomía'?",opts:["Los rasgos del rostro de una persona","Una enfermedad de la piel","Un tipo de medicina alternativa","La obesidad infantil"],ans:"Los rasgos del rostro de una persona",hint:"Think about the distinctive features of someone's face that make them recognizable."},

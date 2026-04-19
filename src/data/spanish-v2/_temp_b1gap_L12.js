@@ -111,8 +111,8 @@ const LESSON_12 = {
 
     {type:"teach", trg:"arduo", src:"arduous, difficult", pos:"adj", gender:null,
      note:"Adjective. Arduo/ardua. Formal word for difficult.\nUna tarea ardua = an arduous task.",
-     example:"A: Fue un camino arduo, pero lo logramos.\nB: El esfuerzo vali\u00f3 la pena.",
-     exampleSrc:"A: It was an arduous path, but we made it.\nB: The effort was worth it.",
+     example:"A: Fue un camino arduo, pero lo logramos.\nB: El esfuerzo fue muy bueno.",
+     exampleSrc:"A: It was an arduous path, but we made it.\nB: The effort was very good.",
      funFact:"From Latin 'arduus' (steep, difficult). Originally described steep terrain, then extended to any difficult undertaking. More literary than 'dif\u00edcil'."},
 
     {type:"teach", trg:"autodidacta", src:"self-taught", pos:"adj", gender:null,

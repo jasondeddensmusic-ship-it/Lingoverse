@@ -68,8 +68,8 @@ const LESSON_19 = {id:"esv2_b2g8_l19",title:"Artes y publicaciones",icon:"📜",
 
 {type:"teach",trg:"la mediocridad",src:"the mediocrity",pos:"noun",gender:"f",
  note:"Feminine noun. The quality of being average or below standard.\nFrom mediocre (mediocre).",
- example:"A: No se conformaba con la mediocridad en su trabajo.\nB: Siempre buscaba la excelencia en cada proyecto.",
- exampleSrc:"A: She did not settle for mediocrity in her work.\nB: She always sought excellence in every project.",
+ example:"A: Para ella, la mediocridad en el trabajo era inaceptable.\nB: Siempre buscaba lo mejor en cada proyecto.",
+ exampleSrc:"A: For her, mediocrity at work was unacceptable.\nB: She always sought the best in every project.",
  funFact:"The word 'mediocre' comes from Latin mediocris, literally 'halfway up the mountain' (medius + ocris)."},
 
 {type:"teach",trg:"la ilustración",src:"the illustration / the Enlightenment",pos:"noun",gender:"f",

@@ -54,8 +54,8 @@ const LESSON_18 = {id:"esv2_b2g2_l18",title:"Propiedades y materiales",icon:"�
 
 {type:"teach",trg:"la consistencia",src:"the consistency / texture",pos:"noun",gender:"f",
  note:"Feminine noun. The firmness or density of a substance.",
- example:"A: La masa necesita una consistencia suave pero firme.\nB: Sigue amasando unos minutos más.",
- exampleSrc:"A: The dough needs a soft but firm consistency.\nB: Keep kneading for a few more minutes.",
+ example:"A: La masa necesita una consistencia suave pero firme.\nB: Sigue trabajando unos minutos más.",
+ exampleSrc:"A: The dough needs a soft but firm consistency.\nB: Keep working it for a few more minutes.",
  funFact:"Works for food textures, behavioral reliability, and logical coherence. Very versatile word."},
 
 {type:"teach",trg:"el acorazado",src:"the battleship / armored",pos:"noun",gender:"m",
@@ -80,8 +80,8 @@ const LESSON_18 = {id:"esv2_b2g2_l18",title:"Propiedades y materiales",icon:"�
 
 {type:"teach",trg:"la absorción",src:"the absorption",pos:"noun",gender:"f",
  note:"Feminine noun. The process of soaking up or taking in.",
- example:"A: La absorción de agua por las raíces es esencial.\nB: Sin agua, la planta muere en pocos días.",
- exampleSrc:"A: The absorption of water by the roots is essential.\nB: Without water, the plant dies in a few days.",
+ example:"A: La absorción de agua por las raíces es esencial.\nB: Sin agua, la planta está muy mal en pocos días.",
+ exampleSrc:"A: The absorption of water by the roots is essential.\nB: Without water, the plant is in very bad shape within days.",
  funFact:"Also business: 'absorción de una empresa' means a company takeover. Dual meaning."},
 
 {type:"teach",trg:"la adecuación",src:"the suitability / adaptation",pos:"noun",gender:"f",

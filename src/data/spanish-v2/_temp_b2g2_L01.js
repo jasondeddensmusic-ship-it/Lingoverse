@@ -4,8 +4,8 @@ const LESSON_1 = {id:"esv2_b2g2_l1",title:"Justicia y derecho",icon:"⚖️",xp:
 
 {type:"teach",trg:"absolver",src:"to acquit / to absolve",pos:"verb",gender:null,
  note:"Irregular: absuelvo, absuelves. Same pattern as resolver.",
- example:"A: ¿El juez absolvió al acusado?\nB: Sí, no había pruebas suficientes.",
- exampleSrc:"A: Did the judge acquit the accused?\nB: Yes, there was not enough evidence.",
+ example:"A: ¿El juez absolvió a Juan?\nB: Sí, no había pruebas suficientes.",
+ exampleSrc:"A: Did the judge acquit Juan?\nB: Yes, there was not enough evidence.",
  funFact:"From Latin absolvere (to set free). Shares the root with 'absoluto' in Spanish."},
 
 {type:"teach",trg:"arrestar",src:"to arrest",pos:"verb",gender:null,
@@ -54,8 +54,8 @@ const LESSON_1 = {id:"esv2_b2g2_l1",title:"Justicia y derecho",icon:"⚖️",xp:
 
 {type:"teach",trg:"defraudar",src:"to defraud / to disappoint",pos:"verb",gender:null,
  note:"Regular -ar verb. Two meanings: financial fraud and emotional letdown.",
- example:"A: Lo acusaron de defraudar a Hacienda.\nB: Dicen que no pagó impuestos durante años.",
- exampleSrc:"A: He was accused of defrauding the Treasury.\nB: They say he did not pay taxes for years.",
+ example:"A: Dijeron que intentó defraudar a Hacienda.\nB: Dicen que no pagó impuestos durante años.",
+ exampleSrc:"A: They said he tried to defraud the Treasury.\nB: They say he did not pay taxes for years.",
  funFact:"'Hacienda somos todos' (We are all the Treasury) is Spain's famous tax slogan."},
 
 {type:"fb",s:"La policía {1} las mercancías ilegales en el puerto.",a:["decomisó"],opts:["decomisó","absolvió","censuró","custodió"],hint:"The verb meaning to officially seize illegal goods.",sSrc:"The police {1} the illegal goods at the port."},

@@ -26,8 +26,8 @@ const LESSON_16 = {
 
     {type:"teach", trg:"ant\u00e1rtico", src:"Antarctic", pos:"adj", gender:null,
      note:"Adjective. Ant\u00e1rtico/ant\u00e1rtica.\nFrom Greek: anti (opposite) + arktikos (of the bear).",
-     example:"A: Las temperaturas ant\u00e1rticas son extremas.\nB: Pueden llegar a menos sesenta grados.",
-     exampleSrc:"A: Antarctic temperatures are extreme.\nB: They can reach minus sixty degrees.",
+     example:"A: Las temperaturas ant\u00e1rticas son muy bajas.\nB: Pueden llegar a menos sesenta grados.",
+     exampleSrc:"A: Antarctic temperatures are very low.\nB: They can reach minus sixty degrees.",
      funFact:"'Ant-' (opposite) + 'arktikos' (of the bear, i.e. the constellation). The Arctic is under the Great Bear; the Antarctic is its opposite."},
 
     {type:"teach", trg:"el antioxidante", src:"the antioxidant", pos:"noun", gender:"m",

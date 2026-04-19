@@ -22,8 +22,8 @@ const LESSON_17 = {id:"esv2_b2gA_l17", title:"Asuntos globales", icon:"🌎", xp
 
 {type:"teach", trg:"nipón", src:"Japanese", pos:"adj", gender:null,
  note:"Literary word for Japanese. More formal than 'japonés'.\nFrom Nippon (Japan).",
- example:"A: La cultura nipona fascina a muchos españoles.\nB: El manga y el anime son muy populares.",
- exampleSrc:"A: Japanese culture fascinates many Spaniards.\nB: Manga and anime are very popular.",
+ example:"A: La cultura nipona es muy interesante para muchos españoles.\nB: El manga y el anime son muy populares.",
+ exampleSrc:"A: Japanese culture is very interesting for many Spaniards.\nB: Manga and anime are very popular.",
  funFact:"'Nipón' is used in journalism and literature for stylistic variety alongside 'japonés'."},
 
 {type:"teach", trg:"islámico", src:"Islamic", pos:"adj", gender:null,

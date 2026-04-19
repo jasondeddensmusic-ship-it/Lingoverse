@@ -50,8 +50,8 @@ const LESSON_10 = {id:"esv2_b2gC_l10",title:"Medios y comunicación digital",ico
 
 {type:"teach",trg:"la percha",src:"the coat hanger / clothes rack",pos:"noun",gender:"f",
  note:"Feminine noun. A hanger for clothes or a rack.\nAlso slang for a nice figure.",
- example:"A: Cuelga el abrigo en la percha del recibidor.\nB: No hay sitio, están todas ocupadas.",
- exampleSrc:"A: Hang the coat on the hanger in the hallway.\nB: There's no room, they're all taken.",
+ example:"A: Cuelga el abrigo en la percha del recibidor.\nB: No hay sitio, están todas llenas.",
+ exampleSrc:"A: Hang the coat on the hanger in the hallway.\nB: There's no room, they're all full.",
  funFact:"In fashion slang, 'tener percha' means to look good in any clothes, to have a model-like frame."},
 
 {type:"teach",trg:"perdurar",src:"to endure / to last",pos:"verb",gender:null,

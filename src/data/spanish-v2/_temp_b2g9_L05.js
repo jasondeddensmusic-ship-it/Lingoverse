@@ -30,8 +30,8 @@ const LESSON_5 = {id:"esv2_b2g9_l5", title:"Profesiones y oficios", icon:"\u{1F5
 
   {type:"teach", trg:"el adulto", src:"the adult", pos:"noun", gender:"m",
    note:"From Latin adultus (grown up).\nFeminine: la adulta. Also used as adjective.",
-   example:"A: Este curso es solo para adultos.\nB: \u00bfA partir de qu\u00e9 edad?\nA: Mayores de dieciocho a\u00f1os.\nB: Perfecto. Me apuntar\u00e9 entonces.",
-   exampleSrc:"A: This course is only for adults.\nB: From what age?\nA: Over eighteen years old.\nB: Perfect. I will sign up then.",
+   example:"A: Este curso es solo para adultos.\nB: \u00bfA partir de qu\u00e9 edad?\nA: Mayores de dieciocho a\u00f1os.\nB: Perfecto. Es muy bueno para m\u00ed.",
+   exampleSrc:"A: This course is only for adults.\nB: From what age?\nA: Over eighteen years old.\nB: Perfect. It is very good for me.",
    funFact:"Spanish law defines an 'adulto' as someone aged 18 or over, the same age at which you can vote and drive."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es una carpinter\u00eda?",

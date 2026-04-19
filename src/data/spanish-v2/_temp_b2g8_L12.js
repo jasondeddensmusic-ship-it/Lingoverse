@@ -10,8 +10,8 @@ const LESSON_12 = {id:"esv2_b2g8_l12",title:"Comercio y mercados",icon:"🏪",xp
 
 {type:"teach",trg:"la mercadería",src:"the merchandise / goods",pos:"noun",gender:"f",
  note:"Feminine noun. Goods for buying and selling.\nMore common in Latin America. Spain prefers 'mercancía'.",
- example:"A: La mercadería llegó dañada al almacén.\nB: Tendremos que reclamar al proveedor.",
- exampleSrc:"A: The merchandise arrived damaged at the warehouse.\nB: We will have to file a claim with the supplier.",
+ example:"A: La mercadería llegó muy mal al almacén.\nB: Tendremos que reclamar al proveedor.",
+ exampleSrc:"A: The merchandise arrived in very bad condition at the warehouse.\nB: We will have to file a claim with the supplier.",
  funFact:"In Peninsular Spanish, 'mercancía' is standard. 'Mercadería' is the preferred form in Argentina and Chile."},
 
 {type:"teach",trg:"el margen",src:"the margin",pos:"noun",gender:"m",

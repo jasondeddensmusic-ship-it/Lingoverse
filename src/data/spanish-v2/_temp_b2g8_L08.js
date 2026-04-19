@@ -45,8 +45,8 @@ const LESSON_8 = {id:"esv2_b2g8_l8",title:"Sociedad y poder",icon:"👑",xp:15,b
 
 {type:"teach",trg:"el gueto",src:"the ghetto",pos:"noun",gender:"m",
  note:"Masculine noun. An isolated area where a minority group lives.\nAlso spelled 'guetto'.",
- example:"A: No queremos que ese barrio se convierta en un gueto.\nB: La integración social es fundamental.",
- exampleSrc:"A: We do not want that neighborhood to become a ghetto.\nB: Social integration is fundamental.",
+ example:"A: No queremos que ese barrio sea un gueto.\nB: La integración social es fundamental.",
+ exampleSrc:"A: We do not want that neighborhood to be a ghetto.\nB: Social integration is fundamental.",
  funFact:"From Italian 'ghetto', first used for the Jewish quarter in Venice. Spain prefers the adapted spelling 'gueto'."},
 
 {type:"fb",s:"Miles de {1} marcharon por el centro de la ciudad pidiendo cambios.",
@@ -85,8 +85,8 @@ const LESSON_8 = {id:"esv2_b2g8_l8",title:"Sociedad y poder",icon:"👑",xp:15,b
 
 {type:"teach",trg:"el mediador",src:"the mediator",pos:"noun",gender:"m",
  note:"Masculine noun. A person who helps resolve disputes between parties.\nFeminine: la mediadora.",
- example:"A: El mediador propuso un acuerdo que satisfizo a ambas partes.\nB: Es muy hábil. Tiene mucha experiencia.",
- exampleSrc:"A: The mediator proposed an agreement that satisfied both parties.\nB: He is very skilled. He has a lot of experience.",
+ example:"A: El mediador propuso un acuerdo muy bueno para todos.\nB: Es muy hábil. Tiene mucha experiencia.",
+ exampleSrc:"A: The mediator proposed a very good agreement for everyone.\nB: He is very skilled. He has a lot of experience.",
  funFact:"Professional mediators in Spain must have a university degree and specific mediation training."},
 
 {type:"fb",s:"La {1} árabe es visible en miles de palabras del español moderno.",

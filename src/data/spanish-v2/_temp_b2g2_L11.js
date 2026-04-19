@@ -106,8 +106,8 @@ const LESSON_11 = {id:"esv2_b2g2_l11",title:"Cocina y alimentos",icon:"🍳",xp:
 
 {type:"teach",trg:"el bautismo",src:"the baptism",pos:"noun",gender:"m",
  note:"Masculine noun. A religious ceremony or a first experience.",
- example:"A: El bautismo del bebé será el domingo.\nB: Toda la familia está invitada a la celebración.",
- exampleSrc:"A: The baby's baptism will be on Sunday.\nB: The whole family is invited to the celebration.",
+ example:"A: El bautismo del bebé será el domingo.\nB: Toda la familia va a la celebración.",
+ exampleSrc:"A: The baby's baptism will be on Sunday.\nB: The whole family is going to the celebration.",
  funFact:"'Bautismo de fuego' (baptism of fire) means a first difficult experience. Used in many contexts."},
 
 {type:"teach",trg:"la base",src:"the base / basis",pos:"noun",gender:"f",

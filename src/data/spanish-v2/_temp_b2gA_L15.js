@@ -16,8 +16,8 @@ const LESSON_15 = {id:"esv2_b2gA_l15", title:"Bienestar y modo de vida", icon:"�
 
 {type:"teach", trg:"el mostacho", src:"the moustache (literary)", pos:"noun", gender:"m",
  note:"A more literary or humorous word for moustache.\nEvery-day: bigote.",
- example:"A: El capitán lucía un mostacho imponente.\nB: Era su seña de identidad.",
- exampleSrc:"A: The captain sported an imposing moustache.\nB: It was his trademark.",
+ example:"A: El capitán tenía un mostacho muy grande.\nB: Era su seña de identidad.",
+ exampleSrc:"A: The captain had a very big moustache.\nB: It was his trademark.",
  funFact:"'Bigote' is the standard word. 'Mostacho' has a deliberately old-fashioned, literary feel."},
 
 {type:"teach", trg:"el bolillo", src:"the bobbin / bread roll (Mexico)", pos:"noun", gender:"m",

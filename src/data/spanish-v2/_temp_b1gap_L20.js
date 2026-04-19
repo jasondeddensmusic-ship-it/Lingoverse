@@ -26,8 +26,8 @@ const LESSON_20 = {
 
     {type:"teach", trg:"el besito", src:"the little kiss", pos:"noun", gender:"m",
      note:"Masculine noun. Diminutive of 'beso' (kiss).\nDar un besito = to give a peck.",
-     example:"A: Dale un besito a la abuela.\nB: \u00a1Hola, abuela! Mua.",
-     exampleSrc:"A: Give grandma a little kiss.\nB: Hi, grandma! Mwah.",
+     example:"A: Dale un besito a la abuela.\nB: \u00a1Hola, abuela! Te quiero.",
+     exampleSrc:"A: Give grandma a little kiss.\nB: Hi, grandma! I love you.",
      funFact:"The '-ito' diminutive adds affection: beso > besito, abrazo > abracito. In Spanish culture, greeting with two kisses (one on each cheek) is standard."},
 
     {type:"teach", trg:"la cacería", src:"the hunt", pos:"noun", gender:"f",

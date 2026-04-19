@@ -10,8 +10,8 @@ const LESSON_6 = {id:"esv2_b2g2_l6",title:"Carácter y personalidad",icon:"🎭"
 
 {type:"teach",trg:"astuto",src:"astute / cunning",pos:"adj",gender:null,
  note:"Adjective. Clever at achieving goals, sometimes slyly.\nFeminine: astuta.",
- example:"A: Es una negociadora muy astuta.\nB: Siempre consigue lo que quiere sin que nadie se dé cuenta.",
- exampleSrc:"A: She is a very astute negotiator.\nB: She always gets what she wants without anyone noticing.",
+ example:"A: Es una persona muy astuta.\nB: Siempre consigue lo que quiere sin que nadie se dé cuenta.",
+ exampleSrc:"A: She is a very astute person.\nB: She always gets what she wants without anyone noticing.",
  funFact:"Can be positive (clever) or negative (sly). Context decides. Related to 'astucia' (cunning)."},
 
 {type:"teach",trg:"bondadoso",src:"kind-hearted / good-natured",pos:"adj",gender:null,

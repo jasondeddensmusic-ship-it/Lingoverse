@@ -80,8 +80,8 @@ const LESSON_14 = {id:"esv2_b2gap_l14",title:"Materiales e industria",icon:"🏭
 
 {type:"teach",trg:"la carreta",src:"the cart / wagon",pos:"noun",gender:"m",
  note:"Feminine noun. A traditional wheeled vehicle pulled by animals.",
- example:"A: Las carretas de bueyes transportaban la cosecha.\nB: Era el medio de transporte principal del campo.",
- exampleSrc:"A: Ox carts transported the harvest.\nB: It was the main means of transport in the countryside.",
+ example:"A: Las carretas de bueyes llevaban la cosecha.\nB: Era el medio de transporte principal del campo.",
+ exampleSrc:"A: Ox carts carried the harvest.\nB: It was the main means of transport in the countryside.",
  funFact:"From carro (cart). Carreta routes across Spain were vital trade arteries for centuries."},
 
 {type:"teach",trg:"la calza",src:"the stocking / wedge",pos:"noun",gender:"f",

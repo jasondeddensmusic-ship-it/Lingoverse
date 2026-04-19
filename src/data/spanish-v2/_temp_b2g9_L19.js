@@ -24,8 +24,8 @@ const LESSON_19 = {id:"esv2_b2g9_l19", title:"Tecnolog\u00eda y modernidad", ico
 
   {type:"teach", trg:"la fotonovela", src:"the photo novel; photo story", pos:"noun", gender:"f",
    note:"Foto (photo) + novela (novel).\nA narrative told through photographs with dialogue bubbles.",
-   example:"A: Mi abuela le\u00eda fotonovelas en los a\u00f1os sesenta.\nB: \u00bfQu\u00e9 son exactamente?\nA: Historias contadas con fotos y di\u00e1logos, como un c\u00f3mic.\nB: \u00a1Qu\u00e9 curioso! Es como un precursor de Instagram.",
-   exampleSrc:"A: My grandmother read photo novels in the sixties.\nB: What are they exactly?\nA: Stories told with photos and dialogue, like a comic.\nB: How curious! It is like a precursor of Instagram.",
+   example:"A: Mi abuela le\u00eda fotonovelas en los a\u00f1os sesenta.\nB: \u00bfQu\u00e9 son exactamente?\nA: Historias con fotos y di\u00e1logos, como un c\u00f3mic.\nB: \u00a1Qu\u00e9 curioso! Es como un precursor de Instagram.",
+   exampleSrc:"A: My grandmother read photo novels in the sixties.\nB: What are they exactly?\nA: Stories with photos and dialogue, like a comic.\nB: How curious! It is like a precursor of Instagram.",
    funFact:"Photo novels were hugely popular in Spain and Latin America from the 1950s to 1980s, with millions of weekly readers."},
 
   {type:"teach", trg:"el kiosco", src:"the kiosk; newsstand", pos:"noun", gender:"m",

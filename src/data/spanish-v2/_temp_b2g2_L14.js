@@ -4,8 +4,8 @@ const LESSON_14 = {id:"esv2_b2g2_l14",title:"Ciencia y conocimiento",icon:"🔬"
 
 {type:"teach",trg:"el astrónomo",src:"the astronomer",pos:"noun",gender:"m",
  note:"Masculine noun. Feminine: la astrónoma.\nA scientist who studies stars and space.",
- example:"A: El astrónomo descubrió un nuevo asteroide.\nB: Lo observó durante meses con su telescopio.",
- exampleSrc:"A: The astronomer discovered a new asteroid.\nB: He observed it for months with his telescope.",
+ example:"A: El astrónomo descubrió un nuevo asteroide.\nB: Lo estudió durante meses con su telescopio.",
+ exampleSrc:"A: The astronomer discovered a new asteroid.\nB: He studied it for months with his telescope.",
  funFact:"Spain's Canary Islands host some of the world's best observatories due to clear skies."},
 
 {type:"teach",trg:"aritmético",src:"arithmetic / arithmetical",pos:"adj",gender:null,

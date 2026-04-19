@@ -56,8 +56,8 @@ const LESSON_3 = {id:"esv2_b2gC_l3",title:"Recursos humanos y formación",icon:"
 
 {type:"teach",trg:"la modificación",src:"the modification / change",pos:"noun",gender:"f",
  note:"Feminine noun. A change or alteration to something.\nFrom modificar (to modify).",
- example:"A: La modificación del contrato requiere la firma de ambas partes.\nB: Lo revisaré con mi abogado antes de firmar.",
- exampleSrc:"A: The modification of the contract requires both parties' signatures.\nB: I'll review it with my lawyer before signing.",
+ example:"A: La modificación del contrato requiere la firma de ambas partes.\nB: Lo voy a ver con mi abogado antes de firmar.",
+ exampleSrc:"A: The modification of the contract requires both parties' signatures.\nB: I will look at it with my lawyer before signing.",
  funFact:"In legal Spanish, 'modificación sustancial' (substantial modification) has specific labor law implications."},
 
 {type:"teach",trg:"la finalización",src:"the completion / conclusion",pos:"noun",gender:"f",

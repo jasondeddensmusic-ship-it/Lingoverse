@@ -42,8 +42,8 @@ const LESSON_4 = {id:"esv2_b2g6_l4",title:"Ley y justicia",icon:"⚖️",xp:15,b
 
 {type:"teach",trg:"la incursión",src:"the incursion / raid",pos:"noun",gender:"f",
  note:"Feminine noun. A sudden attack or entry.\nFrom Latin incursio.",
- example:"A: La policía realizó una incursión en el almacén.\nB: Encontraron mercancía robada.",
- exampleSrc:"A: The police carried out a raid on the warehouse.\nB: They found stolen merchandise.",
+ example:"A: La policía realizó una incursión en el almacén.\nB: Encontraron muchas cosas muy malas allí.",
+ exampleSrc:"A: The police carried out a raid on the warehouse.\nB: They found many very bad things there.",
  funFact:"Also used figuratively: 'hacer una incursión en la política' means venturing into politics."},
 
 {type:"fb",s:"Los {1} del crimen apuntaban al empleado del banco.",a:["indicios"],opts:["indicios","impostores","incumplimientos","fechorías"],hint:"Clues or signs that suggest who committed the crime.",sSrc:"The {1} of the crime pointed to the bank employee."},
@@ -56,8 +56,8 @@ const LESSON_4 = {id:"esv2_b2g6_l4",title:"Ley y justicia",icon:"⚖️",xp:15,b
 
 {type:"teach",trg:"la invalidez",src:"the invalidity / disability",pos:"noun",gender:"f",
  note:"Feminine noun. Legal invalidity, or physical disability.\nIn- (not) + validez (validity).",
- example:"A: El juez declaró la invalidez del contrato.\nB: No cumplía los requisitos legales.",
- exampleSrc:"A: The judge declared the invalidity of the contract.\nB: It did not meet the legal requirements.",
+ example:"A: El juez declaró la invalidez del contrato.\nB: El contrato tenía muchos problemas legales.",
+ exampleSrc:"A: The judge declared the invalidity of the contract.\nB: The contract had many legal problems.",
  funFact:"'Invalidez permanente' is also a disability category in the Spanish social security system."},
 
 {type:"teach",trg:"el causante",src:"the person responsible / originator",pos:"noun",gender:"m",

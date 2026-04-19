@@ -50,8 +50,8 @@ const LESSON_3 = {
 
     {type:"teach", trg:"el antebrazo", src:"the forearm", pos:"noun", gender:"m",
      note:"Masculine noun. Ante (before) + brazo (arm).\nThe part between elbow and wrist.",
-     example:"A: Me he quemado el antebrazo con el horno.\nB: Pon agua fr\u00eda enseguida.",
-     exampleSrc:"A: I burned my forearm on the oven.\nB: Put cold water on it right away.",
+     example:"A: Me he hecho daño en el antebrazo.\nB: Pon agua fr\u00eda enseguida.",
+     exampleSrc:"A: I hurt my forearm.\nB: Put cold water on it right away.",
      funFact:"A compound word: 'ante' (before, in front of) + 'brazo' (arm). The forearm is 'before' the upper arm when you reach out."},
 
     {type:"teach", trg:"la ansiedad", src:"the anxiety", pos:"noun", gender:"f",

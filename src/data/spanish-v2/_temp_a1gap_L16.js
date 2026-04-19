@@ -20,8 +20,8 @@ const LESSON_16 = {
 
     {type:"teach", trg:"el equipaje", src:"the luggage", pos:"noun", gender:"m",
      note:"Masculine noun. Equipaje de mano = hand luggage.\nFacturar el equipaje = to check in luggage.",
-     example:"A: \u00bfDónde está mi equipaje?\nB: En la cinta transportadora.",
-     exampleSrc:"A: Where is my luggage?\nB: On the conveyor belt.",
+     example:"A: \u00bfDónde está mi equipaje?\nB: Allí, al lado de la puerta.",
+     exampleSrc:"A: Where is my luggage?\nB: There, next to the door.",
      funFact:"From French 'équipage'. 'Hacer las maletas' (to pack the suitcases) is the expression for packing before a trip."},
 
     {type:"teach", trg:"el alpinismo", src:"mountaineering", pos:"noun", gender:"m",

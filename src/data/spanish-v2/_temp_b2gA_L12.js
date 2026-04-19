@@ -41,8 +41,8 @@ const LESSON_12 = {id:"esv2_b2gA_l12", title:"Normas y regulación", icon:"📋"
 
 {type:"teach", trg:"la fechoría", src:"the misdeed / wrongdoing", pos:"noun", gender:"f",
  note:"A bad or criminal act. Slightly old-fashioned but still used.\nFrom hecho (deed).",
- example:"A: Las fechorías del ladrón fueron descubiertas por la policía.\nB: Llevaba meses robando en la zona.",
- exampleSrc:"A: The thief's misdeeds were discovered by the police.\nB: He had been stealing in the area for months.",
+ example:"A: Las fechorías del ladrón fueron descubiertas por la policía.\nB: Llevaba meses haciendo cosas muy malas en la zona.",
+ exampleSrc:"A: The thief's misdeeds were discovered by the police.\nB: He had been doing very bad things in the area for months.",
  funFact:"Has a slightly theatrical quality. Often used in children's stories for villains."},
 
 {type:"teach", trg:"la detonación", src:"the detonation / explosion", pos:"noun", gender:"f",

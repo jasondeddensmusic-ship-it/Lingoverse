@@ -14,8 +14,8 @@ const LESSON_3 = {
 
     {type:"teach", trg:"los residuos", src:"waste / residues", pos:"noun", gender:"m",
      note:"Waste materials, especially industrial or hazardous. More formal than 'basura'.",
-     example:"A: ¿Dónde se depositan los residuos tóxicos?\nB: En vertederos especiales para residuos peligrosos.",
-     exampleSrc:"A: Where are toxic waste materials deposited?\nB: In special landfills for hazardous waste.",
+     example:"A: ¿Dónde se depositan los residuos muy peligrosos?\nB: En vertederos especiales para residuos peligrosos.",
+     exampleSrc:"A: Where are very dangerous waste materials deposited?\nB: In special landfills for hazardous waste.",
      funFact:"From Latin 'residuum' (what remains behind). English 'residue' is a direct cognate."},
 
     {type:"teach", trg:"sostenible", src:"sustainable", pos:"adj", gender:null,

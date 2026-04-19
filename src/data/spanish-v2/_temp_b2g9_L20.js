@@ -64,8 +64,8 @@ const LESSON_20 = {id:"esv2_b2g9_l20", title:"Naturaleza y tradici\u00f3n", icon
 
   {type:"teach", trg:"el menhir", src:"the menhir; standing stone", pos:"noun", gender:"m",
    note:"From Breton men (stone) + hir (long).\nA tall upright stone from prehistoric times.",
-   example:"A: Hay un menhir en las afueras del pueblo.\nB: \u00bfDe qu\u00e9 \u00e9poca es?\nA: Del neol\u00edtico, unos cinco mil a\u00f1os.\nB: Es incre\u00edble que siga en pie.",
-   exampleSrc:"A: There is a menhir on the outskirts of the village.\nB: From what period is it?\nA: From the Neolithic, about five thousand years.\nB: It is incredible that it is still standing.",
+   example:"A: Hay un menhir en las afueras del pueblo.\nB: \u00bfDe qu\u00e9 \u00e9poca es?\nA: Del neol\u00edtico, unos cinco mil a\u00f1os.\nB: Es muy antiguo y muy impresionante.",
+   exampleSrc:"A: There is a menhir on the outskirts of the village.\nB: From what period is it?\nA: From the Neolithic, about five thousand years.\nB: It is very old and very impressive.",
    funFact:"Galicia in northwest Spain has hundreds of menhirs, rivalling Brittany as one of Europe's richest regions for megalithic monuments."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es un enrejado en una casa andaluza?",

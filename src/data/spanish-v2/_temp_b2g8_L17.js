@@ -56,8 +56,8 @@ const LESSON_17 = {id:"esv2_b2g8_l17",title:"Deporte y competición",icon:"⚽",
 
 {type:"teach",trg:"la madrastra",src:"the stepmother",pos:"noun",gender:"f",
  note:"Feminine noun. The wife of one's father who is not one's birth mother.\nMadre + -astra (pejorative suffix).",
- example:"A: Su madrastra fue quien la animó a practicar atletismo.\nB: A veces las familias mixtas son las más unidas.",
- exampleSrc:"A: It was her stepmother who encouraged her to practice athletics.\nB: Sometimes blended families are the closest.",
+ example:"A: Su madrastra fue quien la animó a practicar atletismo.\nB: A veces las familias mixtas son muy buenas.",
+ exampleSrc:"A: It was her stepmother who encouraged her to practice athletics.\nB: Sometimes blended families are very good.",
  funFact:"The -astra/-astro suffix comes from Latin and implies a replacement: madrastra, padrastro, hijastro."},
 
 {type:"teach",trg:"el concursante",src:"the contestant",pos:"noun",gender:"m",

@@ -54,7 +54,7 @@ const LESSON_4 = {id:"esv2_b2g5_l4",title:"En la cocina",icon:"🍳",xp:15,board
 
 {type:"teach",trg:"el grumo",src:"the lump / clump",pos:"noun",gender:"m",
  note:"Masculine noun. A small hard piece in a liquid or sauce.\nUsually unwanted in cooking.",
- example:"A: La salsa tiene grumos.\nB: Pásala por el colador y quedarán perfecta.",
+ example:"A: La salsa tiene grumos.\nB: Pásala por el colador y estará perfecta.",
  exampleSrc:"A: The sauce has lumps.\nB: Strain it and it will be perfect.",
  funFact:"The key to avoiding grumos in bechamel is to add the milk slowly while stirring constantly."},
 

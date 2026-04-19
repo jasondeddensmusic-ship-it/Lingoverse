@@ -8,8 +8,8 @@ const LESSON_6 = {
 
     {type:"teach", trg:"jurídico", src:"legal / juridical", pos:"adj", gender:null,
      note:"Related to the law or legal system. More formal than 'legal'.",
-     example:"A: Necesito asesoramiento jurídico antes de firmar.\nB: El departamento jurídico revisará el contrato.",
-     exampleSrc:"A: I need legal advice before signing.\nB: The legal department will review the contract.",
+     example:"A: Necesito asesoramiento jurídico antes de firmar.\nB: El departamento jurídico va a ver el contrato.",
+     exampleSrc:"A: I need legal advice before signing.\nB: The legal department will look at the contract.",
      funFact:"From Latin 'iuridicus'. 'Ius' (law) + 'dicere' (to say). One who 'speaks the law'."},
 
     {type:"teach", trg:"la sentencia", src:"the sentence / verdict", pos:"noun", gender:"f",

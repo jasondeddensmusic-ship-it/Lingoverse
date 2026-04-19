@@ -62,14 +62,14 @@ const LESSON_16 = {id:"esv2_b2gap_l16",title:"Personas y roles",icon:"👥",xp:1
 
 {type:"teach",trg:"el cochero",src:"the coachman / driver",pos:"noun",gender:"m",
  note:"Masculine noun. Someone who drives a horse-drawn carriage.\nFeminine: la cochera (also: garage).",
- example:"A: El cochero guiaba a los caballos por el parque.\nB: Es un paseo turístico muy popular.",
- exampleSrc:"A: The coachman guided the horses through the park.\nB: It is a very popular tourist ride.",
+ example:"A: El cochero llevaba a los caballos por el parque.\nB: Es un paseo turístico muy popular.",
+ exampleSrc:"A: The coachman led the horses through the park.\nB: It is a very popular tourist ride.",
  funFact:"From coche (carriage, then car). 'La cochera' also means garage or bus depot."},
 
 {type:"teach",trg:"el colegiado",src:"the registered professional / referee",pos:"noun",gender:"m",
  note:"Masculine noun. A professional in an official association, or a sports referee.\nFeminine: la colegiada.",
- example:"A: El colegiado pitó un penalti muy polémico.\nB: Todo el estadio protestó la decisión.",
- exampleSrc:"A: The referee called a very controversial penalty.\nB: The entire stadium protested the decision.",
+ example:"A: El colegiado dio un penalti muy polémico.\nB: Todo el estadio protestó la decisión.",
+ exampleSrc:"A: The referee gave a very controversial penalty.\nB: The entire stadium protested the decision.",
  funFact:"From colegio profesional. In Spanish football, referees are always called 'el colegiado'."},
 
 {type:"teach",trg:"el colegial",src:"the schoolchild",pos:"noun",gender:"m",
