@@ -294,6 +294,59 @@ lessons:[
  opts:["起床(qǐchuáng)","睡觉(shuìjiào)","休息(xiūxi)","生病(shēngbìng)"],
  hint:"At 6 AM every day, you do the first action of the morning. Which verb means getting out of bed?",
  sSrc:"I {1} at six every day."}
+]},
+
+// ─── L4: Useful Daily Words — HSK 1 Essentials ───
+{id:"zhv2_u9l4", title:"一些和看见 Some and Noticing", icon:"👀", xp:15, board:true, steps:[
+{type:"intro", title:"一些和看见 Some and Noticing",
+ desc:"Complete your HSK 1 foundation with three essential words: 一些 (some), 看见 (to see/notice), and 呢 (sentence particle for ongoing situations).",
+ goals:["Use 一些 for 'some amount'","See or notice something with 看见","Understand the 呢 particle for ongoing states"]},
+
+{type:"teach", trg:"一些(yīxiē)", src:"some / a few", pos:"adv", gender:null,
+ note:"一 (one) + 些 (some). Indicates a small, unspecified quantity.\n一些人 = some people. 一些水果 = some fruit.",
+ example:"A: 你(nǐ)想(xiǎng)喝(hē)一些(yīxiē)水(shuǐ)吗(ma)？\nB: 好(hǎo)的(de)，来(lái)一些(yīxiē)！",
+ exampleSrc:"A: Would you like some water?\nB: Sure, bring some!",
+ funFact:"些 is one of the few Chinese characters with no obvious pictographic origin — it evolved from a more complex character over centuries. Paired with 一, it became the natural way to say 'some.' Its simplicity makes it endlessly useful."},
+
+{type:"teach", trg:"看见(kànjiàn)", src:"to see / to notice / to catch sight of", pos:"verb", gender:null,
+ note:"看 (to look) + 见 (to perceive/encounter). Together: to actually see something.\n看 = to look. 看见 = to successfully see.",
+ example:"A: 你(nǐ)看见(kànjiàn)我(wǒ)的(de)猫(māo)了(le)吗(ma)？\nB: 看见(kànjiàn)了(le)！在(zài)那儿(nàr)！",
+ exampleSrc:"A: Did you see my cat?\nB: Yes! It is over there!",
+ funFact:"Chinese verbs often pair with 见 to show successful completion: 看见 (look → see), 听见 (listen → hear), 遇见 (meet → encounter). The 见 turns the attempt into the result. It is Chinese's elegant way to distinguish trying from succeeding."},
+
+{type:"teach", trg:"呢(ne)", src:"(sentence-end particle for ongoing situations)", pos:"part", gender:null,
+ note:"Goes at the end of a sentence. Adds a sense of 'at this moment' or 'what about...?'\n你呢？ = And you? / What about you?",
+ example:"A: 你(nǐ)在(zài)做(zuò)什么(shénme)呢(ne)？\nB: 我(wǒ)在(zài)休息(xiūxi)呢(ne)。",
+ exampleSrc:"A: What are you doing right now?\nB: I am resting right now.",
+ funFact:"呢 is one of Chinese's most conversational particles. 你呢？ is the quickest way to ask 'what about you?' after answering a question. It is polite, brief, and shows engagement. Every Chinese speaker uses 呢 many times per day without thinking about it."},
+
+{type:"mc", q:"一些(yīxiē) means:",
+ opts:["one thing","all of it","some / a few","too many"],
+ ans:"some / a few",
+ hint:"一 means 'one/a' and 些 means 'some.' Together they express an unspecified small quantity."},
+
+{type:"match", pairs:[
+  {trg:"一些(yīxiē)", src:"some / a few"},
+  {trg:"看见(kànjiàn)", src:"to see / notice"},
+  {trg:"呢(ne)", src:"(ongoing / what about you?)"}
+]},
+
+{type:"fb", s:"A: 你(nǐ){1}我(wǒ)的(de)书(shū)了(le)吗(ma)？\nB: 没有(méiyǒu)，我(wǒ)没看见。",
+ a:["看见(kànjiàn)"],
+ opts:["看见(kànjiàn)","喝(hē)","听(tīng)","去(qù)"],
+ hint:"The question asks whether you successfully spotted something. Which verb means 'to see/notice something'?",
+ sSrc:"A: Did you {1} my book?\nB: No, I did not see it."},
+
+{type:"mc", q:"你呢？ How is this question most naturally translated?",
+ opts:["Where are you?","Are you okay?","And you? / What about you?","When are you?"],
+ ans:"And you? / What about you?",
+ hint:"呢 at the end turns a topic into an open question directed back at the listener. It is the Chinese equivalent of 'and yourself?'"},
+
+{type:"fb", s:"我(wǒ)想(xiǎng)吃(chī){1}水果(shuǐguǒ)。",
+ a:["一些(yīxiē)"],
+ opts:["一些(yīxiē)","一下(yīxià)","很(hěn)","看见(kànjiàn)"],
+ hint:"The speaker wants an unspecified small amount of fruit. Which word means 'some'?",
+ sSrc:"I want to eat {1} fruit."}
 ]}
 
 ]};

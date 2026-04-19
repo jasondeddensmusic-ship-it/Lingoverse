@@ -357,6 +357,84 @@ lessons:[
   {trg:"\u8FDC(yu\u01CEn)", src:"far"},
   {trg:"\u8FD1(j\u00ECn)", src:"near"}
 ]}
+]},
+
+// ═══ L5: People and Places — HSK 1 Essentials ═══
+{id:"zhv2_u6l5", title:"中国和北京 China and Beijing", icon:"🏙️", xp:15, board:true, steps:[
+{type:"intro", title:"中国和北京 China and Beijing",
+ desc:"Learn six essential HSK 1 words: China, Beijing, where you live, two polite titles, and how to ask for a doctor. These words are fundamental to basic conversation in Chinese.",
+ goals:["Name China and Beijing in Chinese","Say where you live with 住","Use polite titles 先生 and 小姐"]},
+
+{type:"teach", trg:"中国(Zhōngguó)", src:"China", pos:"noun", gender:null,
+ note:"中 (middle) + 国 (country). Literally: Middle Kingdom.\nChina refers to itself as the country at the center of the world.",
+ example:"A: 你(nǐ)是(shì)中国(Zhōngguó)人(rén)吗(ma)？\nB: 是(shì)，我(wǒ)是(shì)中国(Zhōngguó)人(rén)。",
+ exampleSrc:"A: Are you Chinese?\nB: Yes, I am Chinese.",
+ funFact:"中国 (Middle Kingdom) reflects the ancient Chinese worldview that China was the civilized center of the world. The Chinese name predates Western contact by thousands of years. The English word 'China' likely comes from 'Qin' (秦), the first unified dynasty."},
+
+{type:"teach", trg:"北京(Běijīng)", src:"Beijing", pos:"noun", gender:null,
+ note:"北 (north) + 京 (capital). Literally: Northern Capital.\nCapital of China since 1421 (Ming dynasty).",
+ example:"A: 你(nǐ)去(qù)过(guò)北京(Běijīng)吗(ma)？\nB: 没有(méiyǒu)，我(wǒ)想(xiǎng)去(qù)北京(Běijīng)！",
+ exampleSrc:"A: Have you been to Beijing?\nB: No, I want to go to Beijing!",
+ funFact:"Beijing is written with 北 (north) + 京 (capital). Japan's 東京 (Tokyo) uses the same 京 character, meaning 'Eastern Capital.' Both cities are named by their direction from ancient power centers. China had both a Northern and Southern capital at different times."},
+
+{type:"teach", trg:"住(zhù)", src:"to live / to reside", pos:"verb", gender:null,
+ note:"Fourth tone. Used for where you live.\n你住哪儿？ = Where do you live?",
+ example:"A: 你(nǐ)住(zhù)在(zài)哪儿(nǎr)？\nB: 我(wǒ)住(zhù)在(zài)北京(Běijīng)。",
+ exampleSrc:"A: Where do you live?\nB: I live in Beijing.",
+ funFact:"住 contains the person radical (亻) on the left and the character 主 (master/main) on the right. Literally: where a person establishes their main position. Living somewhere is about putting down roots and being the master of your space."},
+
+{type:"teach", trg:"医生(yīshēng)", src:"doctor", pos:"noun", gender:null,
+ note:"医 (medicine) + 生 (student/professional). Literally: medicine student/professional.\nMore formal than 大夫(dàifu) in most regions.",
+ example:"A: 我(wǒ)不(bù)舒服(shūfu)，我(wǒ)想(xiǎng)看(kàn)医生(yīshēng)。\nB: 医院(yīyuàn)在(zài)前面(qiánmiàn)。",
+ exampleSrc:"A: I do not feel well, I want to see a doctor.\nB: The hospital is ahead.",
+ funFact:"看医生 literally means 'look at the doctor' but means 'see a doctor.' Chinese uses 看 for all kinds of consulting and viewing. You 看 a doctor the same way you 看 a movie. Both are about turning your attention toward something."},
+
+{type:"teach", trg:"先生(xiānsheng)", src:"mister / sir / husband", pos:"noun", gender:null,
+ note:"先 (before) + 生 (born/life). Originally: one born before = elder/teacher.\nNow: polite title for men. Also: husband (in certain contexts).",
+ example:"A: 请问(qǐngwèn)，您(nín)是(shì)王(Wáng)先生(xiānsheng)吗(ma)？\nB: 是(shì)，我(wǒ)是(shì)。",
+ exampleSrc:"A: Excuse me, are you Mr. Wang?\nB: Yes, I am.",
+ funFact:"先生 originally meant 'teacher' or 'elder.' Confucius is called 孔子先生 (Master Kong). In modern usage, it is a formal title for men, like 'mister.' In Taiwan and among older generations, 先生 also means husband. In mainland China, 老公(lǎogōng) is more common for husband."},
+
+{type:"teach", trg:"小姐(xiǎojiě)", src:"Miss / young lady", pos:"noun", gender:null,
+ note:"小 (small/little) + 姐 (older sister). Originally: little sister.\nPolite address for young women. Usage has shifted — see funFact.",
+ example:"A: 这位(zhè wèi)是(shì)李(Lǐ)小姐(xiǎojiě)。\nB: 你好(nǐhǎo)，李(Lǐ)小姐(xiǎojiě)！",
+ exampleSrc:"A: This is Miss Li.\nB: Hello, Miss Li!",
+ funFact:"小姐 was the standard polite term for women until the 1990s, when it acquired associations with service workers and sometimes inappropriate connotations in mainland China. Today, 女士 (nǚshì, Ms./lady) is preferred in formal contexts. 小姐 is still widely used in Taiwan and appears on HSK 1."},
+
+{type:"mc", q:"中国(Zhōngguó) literally means:",
+ opts:["Eastern Country","Great Nation","Middle Kingdom","Ancient Land"],
+ ans:"Middle Kingdom",
+ hint:"中 means 'middle' and 国 means 'country.' The name reflects China's historical view of itself."},
+
+{type:"match", pairs:[
+  {trg:"中国(Zhōngguó)", src:"China"},
+  {trg:"北京(Běijīng)", src:"Beijing"},
+  {trg:"住(zhù)", src:"to live / to reside"},
+  {trg:"医生(yīshēng)", src:"doctor"},
+  {trg:"先生(xiānsheng)", src:"mister / sir"}
+]},
+
+{type:"fb", s:"你(nǐ){1}在(zài)哪儿(nǎr)？",
+ a:["住(zhù)"],
+ opts:["住(zhù)","去(qù)","来(lái)","是(shì)"],
+ hint:"Which verb asks about someone's permanent residence — where they live?",
+ sSrc:"Where do you live?"},
+
+{type:"mc", q:"How do you say 'I want to see a doctor'?",
+ opts:["我想看医院。","我想看医生。","我是医生。","我住在医院。"],
+ ans:"我想看医生。",
+ hint:"看医生 means 'see a doctor.' Which sentence uses 看 (see) with the word for doctor?"},
+
+{type:"fb", s:"我(wǒ)住(zhù)在(zài){1}。",
+ a:["北京(Běijīng)"],
+ opts:["北京(Běijīng)","中国(Zhōngguó)","医生(yīshēng)","先生(xiānsheng)"],
+ hint:"Which specific city is the capital of China? The one with 北 (north) in its name.",
+ sSrc:"I live in {1}."},
+
+{type:"mc", q:"先生(xiānsheng) originally meant:",
+ opts:["young man","rich person","elder / teacher","worker"],
+ ans:"elder / teacher",
+ hint:"先 means 'before' and 生 means 'born.' Someone born before you is an ___."}
 ]}
 
 ]};
