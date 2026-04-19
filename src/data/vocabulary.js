@@ -265,6 +265,8 @@ export const UI={
   le_start_over:{en:"Start over",ar:"ابدأ من جديد",fr:"Recommencer",es:"Empezar de nuevo",tr:"Baştan Başla"},
   le_quiz_score:{en:"Quiz score:",ar:"نتيجة الاختبار:",fr:"Score du quiz :",es:"Puntuación:",tr:"Quiz skoru:"},
   le_xp_earned:{en:"+{xp} XP earned!",ar:"+{xp} XP مكتسبة!",fr:"+{xp} XP gagnés !",es:"+{xp} XP ganados!",tr:"+{xp} XP kazanıldı!"},
+  le_words_learned:{en:"Words learned",ar:"كلمات مُتعلَّمة",fr:"Mots appris",es:"Palabras aprendidas",tr:"Öğrenilen kelimeler"},
+  le_day_streak:{en:"Day streak",ar:"أيام متتالية",fr:"Jours d'affilée",es:"Días seguidos",tr:"Günlük seri"},
   le_lesson:{en:"Lesson",ar:"درس",fr:"Leçon",es:"Lección",tr:"Ders"},
   le_arrow_keys:{en:"Arrow keys navigate \u00b7 Space select \u00b7 Esc quit",ar:"مفاتيح الأسهم للتنقل \u00b7 مسافة للاختيار \u00b7 Esc للخروج",fr:"Fl\u00e8ches naviguer \u00b7 Espace s\u00e9lectionner \u00b7 Esc quitter",es:"Flechas navegar \u00b7 Espacio seleccionar \u00b7 Esc salir",tr:"Ok tu\u015flar\u0131 gezin \u00b7 Bo\u015fluk se\u00e7 \u00b7 Esc \u00e7\u0131k"},
   le_arrow_space:{en:"Arrow keys navigate \u00b7 Space select",ar:"مفاتيح الأسهم للتنقل \u00b7 مسافة للاختيار",fr:"Fl\u00e8ches naviguer \u00b7 Espace s\u00e9lectionner",es:"Flechas navegar \u00b7 Espacio seleccionar",tr:"Ok tu\u015flar\u0131 gezin \u00b7 Bo\u015fluk se\u00e7"},
