@@ -311,6 +311,84 @@ lessons:[
  opts:["慢(màn)","快(kuài)","好(hǎo)","忙(máng)"],
  hint:"The speaker wants to switch to a faster transport. What complaint about the bus motivates the switch?",
  sSrc:"The bus is too {1}, let us take the subway!"}
+]},
+
+// ─── L5: Train Station, Home, and Distances ───
+{id:"zhv2_u12l5", title:"火车站和房子 Station and Home", icon:"🚉", xp:15, board:true, steps:[
+{type:"intro", title:"Train Station and Home",
+ desc:"Learn the key place words that appear throughout HSK 2 travel and daily life conversations: train station, house, and the essential near-far adjectives.",
+ goals:["Use 火车站 for train station","Distinguish 房子 (house) from 家 (home)","Describe distances with 近 and 远"]},
+
+{type:"teach", trg:"火车站(huǒchēzhàn)", src:"train station", pos:"noun", gender:null,
+ note:"火车 (train) + 站 (station/stop).\nYou already know 火车 (fire vehicle). 站 means a stop or platform.",
+ example:"A: 火车站(huǒchēzhàn)怎么(zěnme)走(zǒu)？\nB: 坐(zuò)地铁(dìtiě)，十(shí)分钟(fēnzhōng)就(jiù)到(dào)了(le)。",
+ exampleSrc:"A: How do I get to the train station?\nB: Take the subway, you will be there in ten minutes.",
+ funFact:"中国 has the world's longest high-speed rail network — over 40,000 kilometres of track, more than the rest of the world combined. The fastest trains reach 350 km/h. A journey from Beijing to Shanghai (1,318 km) takes just four hours by high-speed rail."},
+
+{type:"teach", trg:"房子(fángzi)", src:"house / building", pos:"noun", gender:null,
+ note:"房 (room/building) + 子 (noun suffix). Refers to a physical building.\nDifferent from 家(jiā) which means 'home' (the emotional concept or family).",
+ example:"A: 那(nà)个(gè)房子(fángzi)很(hěn)大(dà)！\nB: 是(shì)的(de)，里面(lǐmiàn)有(yǒu)五(wǔ)个(gè)房间(fángjiān)。",
+ exampleSrc:"A: That house is very big!\nB: Yes, inside there are five rooms.",
+ funFact:"房子 is the physical structure, 家 is the emotional home. Chinese speakers say 我的家在北京 (my home is in Beijing) but 那个房子很大 (that house is big). This mirrors the English distinction between 'house' and 'home' — though Chinese learners often mix them up, just as English learners of Chinese do."},
+
+{type:"teach", trg:"近(jìn)", src:"near / close", pos:"adj", gender:null,
+ note:"Fourth tone (falling). Describes short distances.\n近 + place = close to somewhere. 很近 = very close.",
+ example:"A: 火车站(huǒchēzhàn)离(lí)这(zhè)里(lǐ)近(jìn)吗(ma)？\nB: 很(hěn)近(jìn)，走路(zǒulù)五(wǔ)分钟(fēnzhōng)就(jiù)到(dào)了(le)。",
+ exampleSrc:"A: Is the train station close to here?\nB: Very close, just five minutes on foot.",
+ funFact:"近 contains the 辶 (movement) radical on the left. Many movement-related words share this radical: 进 (enter), 远 (far), 还 (still/return), 这 (this), 那 (that). The radical traces back to a crossroads symbol, showing paths and distances."},
+
+{type:"teach", trg:"远(yuǎn)", src:"far / distant", pos:"adj", gender:null,
+ note:"Third tone. The opposite of 近.\n远 + place = far from somewhere. 不远 = not far.",
+ example:"A: 机场(jīchǎng)离(lí)市中心(shìzhōngxīn)远(yuǎn)吗(ma)？\nB: 比较(bǐjiào)远(yuǎn)，坐(zuò)地铁(dìtiě)要(yào)四十(sìshí)分钟(fēnzhōng)。",
+ exampleSrc:"A: Is the airport far from the city centre?\nB: Fairly far, it takes forty minutes by subway.",
+ funFact:"远 appears in the beautiful phrase 远在天边 (far to the edge of heaven) — used to describe something or someone who feels impossibly distant. Chinese poetry loves 远 as a symbol of longing, separation, and the vastness of the world. Even at A2, you are inheriting a rich literary tradition."},
+
+{type:"tip", title:"离 (lí): Expressing Distance From",
+ text:"To express distance between two points, Chinese uses 离:\n\n A + 离(lí) + B + distance\n\n火车站(huǒchēzhàn)离(lí)这里(zhèlǐ)很近(hěn jìn)。\nThe train station is very close to here.\n\n公司(gōngsī)离(lí)我家(wǒ jiā)很远(hěn yuǎn)。\nThe company is very far from my home.\n\n学校(xuéxiào)离(lí)这里(zhèlǐ)不远(bù yuǎn)。\nThe school is not far from here.\n\n离 = measured separation between two locations.",
+ deepDive:{title:"离 vs 从",
+  text:"Both involve spatial or temporal relationships, but they work differently:\n\n从(cóng) = starting point for movement: I go FROM here\n从这里到学校很近。 From here to school is close. (path)\n\n离(lí) = distance gap between two locations (no movement implied)\n这里离学校很近。 This place is close to school. (gap)\n\nQuick test: Can you replace with 'the distance between'? Then use 离. Are you describing movement? Then use 从...到."}},
+
+{type:"mc", q:"火车站(huǒchēzhàn) is made of which three parts?",
+ opts:["fire + car + stop","fly + machine + place","fire + machine + road","fire + iron + station"],
+ ans:"fire + car + stop",
+ hint:"You already know 火 (fire) and 车 (vehicle). 站 is the word for a stop or platform."},
+
+{type:"match", pairs:[
+  {trg:"火车站(huǒchēzhàn)", src:"train station"},
+  {trg:"房子(fángzi)", src:"house / building"},
+  {trg:"近(jìn)", src:"near / close"},
+  {trg:"远(yuǎn)", src:"far / distant"}
+]},
+
+{type:"fb", s:"公司(gōngsī)离(lí)我(wǒ)家(jiā)很(hěn){1}，我(wǒ)每(měi)天(tiān)坐(zuò)地铁(dìtiě)。",
+ a:["远(yuǎn)"],
+ opts:["远(yuǎn)","近(jìn)","快(kuài)","慢(màn)"],
+ hint:"The speaker takes the subway every day — this suggests the company is not nearby. Which distance word fits?",
+ sSrc:"My company is very {1} from home, I take the subway every day."},
+
+{type:"mc", q:"那个房子(fángzi)很大。 What is being described?",
+ opts:["The family is large","A room inside is large","The physical building is large","The home feels warm and big"],
+ ans:"The physical building is large",
+ hint:"房子 refers to the building structure, not the family or emotional home concept."},
+
+{type:"fb", s:"火车站(huǒchēzhàn)离(lí)这(zhè)里(lǐ)很(hěn){1}，走(zǒu)路(lù)五(wǔ)分钟(fēnzhōng)就(jiù)到(dào)了(le)。",
+ a:["近(jìn)"],
+ opts:["近(jìn)","远(yuǎn)","快(kuài)","大(dà)"],
+ hint:"Five minutes on foot is a short distance. Which adjective means 'close' or 'nearby'?",
+ sSrc:"The train station is very {1} from here, just five minutes on foot."},
+
+{type:"mc", q:"公司(gōngsī)离(lí)我家(wǒ jiā)很远(hěn yuǎn)。 The pattern A + 离 + B + distance means:",
+ opts:["A is moving toward B","B is inside A","The gap between A and B is large","A and B are the same place"],
+ ans:"The gap between A and B is large",
+ hint:"离 expresses the distance gap between two locations — no movement, just separation."},
+
+{type:"match", pairs:[
+  {trg:"火车站(huǒchēzhàn)", src:"train station"},
+  {trg:"房子(fángzi)", src:"house"},
+  {trg:"近(jìn)", src:"near"},
+  {trg:"远(yuǎn)", src:"far"},
+  {trg:"离(lí)", src:"distance from"}
+]}
 ]}
 
 ]};
