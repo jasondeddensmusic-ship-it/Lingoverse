@@ -291,7 +291,101 @@ const UNIT_29 = {
        opts:["Rispondere immediatamente senza pensare","Ascoltare solo quando si e interessati","Ascoltare con attenzione, dando segnali di comprensione","Ignorare il linguaggio non verbale"],
        ans:"Ascoltare con attenzione, dando segnali di comprensione",
        hint:"A communication technique where you fully concentrate on the speaker and show understanding. More than just hearing words."}
-    ,{type:"match",pairs:[{trg:"la percezione",src:"the perception"},{trg:"lo stress",src:"the stress"},{trg:"la consapevolezza",src:"the awareness / mindfulness"},{trg:"il condizionamento",src:"the conditioning"}]},{type:"mc",q:"How do you say \"attachment\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'attaccamento"],ans:"l'attaccamento",hint:"Recall the Italian vocabulary word taught in this lesson."}]}
+    ,{type:"match",pairs:[{trg:"la percezione",src:"the perception"},{trg:"lo stress",src:"the stress"},{trg:"la consapevolezza",src:"the awareness / mindfulness"},{trg:"il condizionamento",src:"the conditioning"}]},{type:"mc",q:"How do you say \"attachment\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'attaccamento"],ans:"l'attaccamento",hint:"Recall the Italian vocabulary word taught in this lesson."}]},
+
+    // ─── Lesson 4: Il significato personale (F21 — CILS B2 autobiographical writing) ───
+    {id:"itv2_u29l_sign", title:"Il significato personale", icon:"💭", xp:15, board:true, steps:[
+      {type:"intro", title:"Writing About Personal Significance",
+       desc:"Learn to write about meaningful experiences, memories, and values in Italian. Essential for CILS B2 autobiographical writing and personal reflections.",
+       goals:["Express what matters to you","Reflect on formative memories","Describe your personal values"]},
+
+      {type:"teach", trg:"significare", src:"to mean / to signify", pos:"verb", gender:null,
+       note:"Irregular in meaning: 'cosa significa?' = 'what does it mean?'\nCentral to expressing what something stands for in your life.",
+       example:"A: Cosa significa per te questo periodo?\nB: Significa molto. E un momento unico nella mia vita.\nA: Capisco, ti ha cambiato.\nB: Si, in modo profondo.",
+       exampleSrc:"A: What does this period mean to you?\nB: It means a lot. It is a unique moment in my life.\nA: I understand, it changed you.\nB: Yes, in a deep way.",
+       funFact:"From Latin 'significare' (signum = sign, facere = to make). To 'make a sign' became 'to give meaning.' Italian kept both the literal and emotional senses of the original."},
+
+      {type:"teach", trg:"l'emozione", src:"the emotion", pos:"noun", gender:"f",
+       note:"Feminine noun. Plural: le emozioni.\n'Provare emozione' = to feel emotion. 'Emozionarsi' = to be moved / get emotional.",
+       example:"A: L'emozione che provo in questo momento e indescrivibile.\nB: Si vede che ti ha colpito profondamente.\nA: Si, non mi aspettavo una reazione cosi forte.\nB: Certe esperienze lasciano il segno.",
+       exampleSrc:"A: The emotion I feel at this moment is indescribable.\nB: One can see that it has affected you deeply.\nA: Yes, I did not expect such a strong reaction.\nB: Some experiences leave a mark.",
+       funFact:"Italian has a rich emotional vocabulary: 'commozione' (being moved to tears), 'tenerezza' (tenderness), 'nostalgia.' The language reflects the culture's comfort with expressing feeling openly."},
+
+      {type:"teach", trg:"commuovere", src:"to move (emotionally)", pos:"verb", gender:null,
+       note:"'Commuoversi' = to be moved / to be touched emotionally.\n'Mi ha commosso' = it moved me. Related: 'commovente' (adj) = touching.",
+       example:"A: Quella storia mi ha commosso profondamente.\nB: Anch'io ho sentito una forte emozione.\nA: Non e facile restare indifferenti.\nB: Hai ragione, certe esperienze toccano il cuore.",
+       exampleSrc:"A: That story moved me deeply.\nB: I too felt a strong emotion.\nA: It is not easy to remain indifferent.\nB: You are right, some experiences touch the heart.",
+       funFact:"The noun 'commozione' specifically means being moved to the point of tears, often at joyful or solemn occasions. Italians do not consider this embarrassing. Showing emotion publicly is part of authentic connection."},
+
+      {type:"teach", trg:"il valore", src:"the value (abstract)", pos:"noun", gender:"m",
+       note:"Masculine noun. Plural: i valori.\n'Valori personali' = personal values. 'Mettere in discussione i valori' = to question values.",
+       example:"A: I valori che ho imparato da bambino mi guidano ancora.\nB: La famiglia e uno di questi valori fondamentali?\nA: Assolutamente si. E il valore piu importante per me.\nB: Capisco, anche per me e cosi.",
+       exampleSrc:"A: The values I learned as a child still guide me.\nB: Is family one of these fundamental values?\nA: Absolutely yes. It is the most important value for me.\nB: I understand, it is the same for me.",
+       funFact:"'Valore' covers both monetary value and moral worth. The phrase 'una persona di valore' means a person of great worth or character, not wealth. This double meaning reflects Italian culture's deep connection between ethics and identity."},
+
+      {type:"teach", trg:"plasmare", src:"to shape (metaphorically)", pos:"verb", gender:null,
+       note:"Literally: to mold clay. Metaphorically: to shape character, identity, or a person.\n'Le esperienze ci plasmano' = experiences shape us.",
+       example:"A: Le esperienze dell'infanzia plasmano la nostra personalita.\nB: E vero, quel periodo e fondamentale per lo sviluppo.\nA: Hai notato come ti ha cambiato?\nB: Si, in modo profondo. Non sono la stessa persona di prima.",
+       exampleSrc:"A: Childhood experiences shape our personality.\nB: It is true, that period is fundamental for development.\nA: Have you noticed how it changed you?\nB: Yes, in a deep way. I am not the same person as before.",
+       funFact:"From Latin 'plasmare' (to mold, to shape). The same root gives us 'plastica' (plastic) and 'plasma.' In Italian B2 writing, 'plasmare' is a key verb for discussing how events form who we are."},
+
+      {type:"tip", title:"Expressing Personal Significance in Italian",
+       text:"CILS B2 autobiographical writing uses these structures:\n\nSignificato: 'Questo momento ha significato molto per me.'\nEmozione: 'Ho provato una grande emozione quando...'\nImpatto: 'Quell'esperienza mi ha plasmato/a.'\nValore: 'E un valore che porto sempre con me.'\n\nUse the passato prossimo for specific past events, and the presente for lasting effects.",
+       deepDive:{title:"Autobiographical Register",
+        text:"CILS B2 tests require a formal yet personal tone. Avoid overly casual language but do not be cold. Italian autobiographical writing balances personal feeling with reflective distance. The congiuntivo trapassato appears in hypothetical reflections: 'Se non avessi vissuto quell'esperienza, non sarei la persona che sono.'"}},
+
+      {type:"teach", trg:"il ricordo", src:"the memory (specific)", pos:"noun", gender:"m",
+       note:"Masculine noun. Plural: i ricordi.\nRefers to a specific remembered event, not the faculty of memory ('la memoria').\n'Un ricordo indelebile' = an indelible memory.",
+       example:"A: Quel ricordo mi accompagna ancora oggi.\nB: I ricordi dell'infanzia hanno un significato speciale.\nA: Hai qualche ricordo che ti ha plasmato?\nB: Si, uno in particolare che non dimentichero mai.",
+       exampleSrc:"A: That memory still stays with me today.\nB: Childhood memories have a special significance.\nA: Do you have a memory that shaped you?\nB: Yes, one in particular that I will never forget.",
+       funFact:"Italian distinguishes 'il ricordo' (a specific memory you recall) from 'la memoria' (the general capacity to remember) and 'la reminiscenza' (a vague, literary-register recollection). Writers choose carefully between them."},
+
+      {type:"teach", trg:"indimenticabile", src:"unforgettable", pos:"adj", gender:null,
+       note:"Composed of 'in-' (not) + 'dimenticare' (to forget) + '-bile' (able to be).\nLiterally: not-forgettable. Invariable in gender. Plural: indimenticabili.",
+       example:"A: E stata un'esperienza indimenticabile.\nB: Hai provato una forte emozione durante quell'evento?\nA: Si, un'emozione indescrivibile. Un ricordo che plasmerà la mia vita.\nB: Capisco. Certe esperienze significano davvero molto.",
+       exampleSrc:"A: It was an unforgettable experience.\nB: Did you feel a strong emotion during that event?\nA: Yes, an indescribable emotion. A memory that will shape my life.\nB: I understand. Some experiences truly mean a lot.",
+       funFact:"The suffix '-bile' (from Latin '-bilis') creates adjectives meaning 'able to be done.' Italian has hundreds of them: credibile, impossibile, irresistibile. Adding 'in-' negates them: incredible, impossible, irresistible."},
+
+      {type:"mc",
+       q:"Quale frase usa correttamente 'commuovere'?",
+       opts:["Quella musica mi ha commosso fino alle lacrime.","Ho commosso un libro interessante.","Il valore commuove ogni mattina.","Plasmiamo commuovere spesso."],
+       ans:"Quella musica mi ha commosso fino alle lacrime.",
+       hint:"This verb means to be moved emotionally. It describes an internal reaction triggered by something powerful, often leading to tears of feeling."},
+
+      {type:"fb",
+       s:"Le esperienze dell'infanzia {1} la nostra personalita in modo profondo.",
+       a:["plasmano"],
+       opts:["plasmano","significano","commuovono","dimenticano"],
+       hint:"The verb that means to shape or mold someone's character. Like a sculptor working with clay, experiences form who we become.",
+       sSrc:"Childhood experiences {1} our personality in a profound way."},
+
+      {type:"mc",
+       q:"Qual e la differenza tra 'il ricordo' e 'la memoria'?",
+       opts:["Sono sinonimi perfetti","Il ricordo e un evento specifico ricordato, la memoria e la capacita di ricordare","La memoria si usa solo in medicina","Il ricordo e sempre negativo"],
+       ans:"Il ricordo e un evento specifico ricordato, la memoria e la capacita di ricordare",
+       hint:"One refers to a specific remembered event, like a moment from your childhood. The other is the general mental faculty that makes remembering possible."},
+
+      {type:"fb",
+       s:"Quello e stato un momento {1}. Non lo dimentichero mai.",
+       a:["indimenticabile"],
+       opts:["indimenticabile","commuovente","importante","significativo"],
+       hint:"An adjective built from the negative prefix 'in-' plus the verb 'dimenticare' (to forget). Literally: impossible to forget.",
+       sSrc:"That was an {1} moment. I will never forget it."},
+
+      {type:"match", pairs:[
+        {trg:"significare", src:"to mean / to signify"},
+        {trg:"l'emozione", src:"the emotion"},
+        {trg:"commuovere", src:"to move emotionally"},
+        {trg:"il valore", src:"the value (abstract)"},
+        {trg:"plasmare", src:"to shape (metaphorically)"}
+      ]},
+
+      {type:"mc",
+       q:"Quale parola completa meglio questa frase? 'Per me, la famiglia ha un grande ___ nella vita.'",
+       opts:["significato","commozione","plasmare","indimenticabile"],
+       ans:"significato",
+       hint:"The noun form of 'significare.' When something has great personal importance or deep meaning for you, it has this quality."}
+    ]}
   ]
 };
 

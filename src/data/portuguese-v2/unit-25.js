@@ -343,6 +343,114 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
  blanks:{"1":"opinião","2":"ética"},
  pool:["opinião","ética","sociedade","valor"],
  hint:"First blank: a personal view. Second blank: moral principles."}
+]},
+
+{id:"ptv2_u25l4_sign", title:"Significado pessoal", icon:"💭", xp:15, board:true, steps:[
+{type:"intro", title:"Writing About Personal Significance",
+ desc:"Learn to write about meaningful experiences, memories, and values in Brazilian Portuguese. Essential for CAPLE B2 autobiographical writing.",
+ goals:["Express what matters to you","Reflect on formative memories","Describe your personal values"]},
+
+{type:"teach", trg:"significar", src:"to mean / to signify", pos:"verb", gender:null,
+ note:"What something means or represents emotionally. 'O que significa isso para você?' = What does this mean for you?",
+ example:"A: O que essa foto significa para você?\nB: Significa tudo. Foi o dia mais especial da minha vida.",
+ exampleSrc:"A: What does this photo mean to you?\nB: It means everything. It was the most special day of my life.",
+ funFact:"'Significar' shares its Latin root 'signum' with English 'significant' and 'sign'. In Portuguese, the word carries strong emotional weight in personal writing."},
+
+{type:"teach", trg:"a lembrança", src:"a memory / a keepsake", pos:"noun", gender:"f",
+ note:"A specific remembered moment, or a physical souvenir. Plural 'lembranças'. From the verb 'lembrar-se de' (to remember).",
+ example:"A: Tenho muitas lembranças boas da infância.\nB: Eu também. São muito especiais.",
+ exampleSrc:"A: I have many good memories of childhood.\nB: Me too. They are very special.",
+ funFact:"In Brazilian Portuguese, 'lembranças' at the end of a letter means 'regards' — like sending warm memories to someone."},
+
+{type:"teach", trg:"a emoção", src:"emotion / feeling", pos:"noun", gender:"f",
+ note:"A strong feeling. Plural 'emoções'. 'Com emoção' means with emotion or moved. Adjective: 'emocionante' (moving).",
+ example:"A: Que emoção! Não esperava esse presente.\nB: Obrigado. Para mim é muito especial.",
+ exampleSrc:"A: What a feeling! I wasn't expecting this gift.\nB: Thank you. It is very special to me.",
+ funFact:"'Que emoção!' is one of the most natural exclamations in Brazilian Portuguese, used at weddings, reunions, and emotional surprises."},
+
+{type:"teach", trg:"marcante", src:"striking / deeply memorable", pos:"adj", gender:null,
+ note:"An experience that leaves a lasting mark. Comes from 'marcar' (to mark, to stamp). Does not change for gender.",
+ example:"A: Aquela viagem foi muito marcante para mim.\nB: É o tipo de experiência que não se esquece.",
+ exampleSrc:"A: That trip was very meaningful for me.\nB: It's the kind of experience you don't forget.",
+ funFact:"Brazilians use 'marcante' in job interviews, personal essays, and ENEM writing tasks. It signals depth and reflection."},
+
+{type:"teach", trg:"transformar", src:"to transform / to change deeply", pos:"verb", gender:null,
+ note:"A deeper, more fundamental change than 'mudar'. 'Transformar-se em' = to turn into / to become.",
+ example:"A: Essa experiência me transformou.\nB: Acredito que certas vivências fazem isso.",
+ exampleSrc:"A: That experience transformed me.\nB: I believe certain experiences do that.",
+ funFact:"'Transformar' is the word ENEM exam graders look for in a B2 autobiographical essay. It shows the writer can reflect beyond surface events."},
+
+{type:"teach", trg:"inesquecível", src:"unforgettable", pos:"adj", gender:null,
+ note:"Literally 'unable to be forgotten'. Built from 'esquecer' (to forget) + prefix 'in-' + suffix '-ível'. Invariable for gender.",
+ example:"A: O show foi simplesmente inesquecível.\nB: Concordo. Nunca vivi algo assim.",
+ exampleSrc:"A: The show was simply unforgettable.\nB: I agree. I've never experienced anything like it.",
+ funFact:"The '-ível' suffix in Portuguese (like English '-ible') makes adjectives meaning 'can be done' or 'cannot be done' when combined with 'in-'. 'Incrível' (incredible), 'impossível' (impossible)."},
+
+{type:"teach", trg:"a memória", src:"memory (faculty / general)", pos:"noun", gender:"f",
+ note:"Memory as a mental faculty or the general concept. Contrast with 'a lembrança' (a specific remembered moment).",
+ example:"A: A memória da infância é muito importante.\nB: Sim, ela forma quem somos.",
+ exampleSrc:"A: Childhood memory is very important.\nB: Yes, it shapes who we are.",
+ funFact:"'Ter boa memória' means to have a good memory. 'Em memória de' means 'in memory of' and appears on plaques, dedications, and book inscriptions."},
+
+{type:"tip", title:"Significar vs Querer dizer",
+ text:"Two ways to ask or say 'what does this mean' in Portuguese:\n\nO que significa isso? (What does this mean? — formal, written)\nO que quer dizer isso? (What does this mean? — everyday spoken)\n\nBoth are correct. 'Significar' is preferred in writing and emotional contexts. 'Querer dizer' is used in conversation to check understanding.\n\nFor personal significance, always use 'significar':\n\nIsso significa muito para mim. (This means a lot to me.)\nO que a família significa para você? (What does family mean to you?)",
+ deepDive:{title:"Building a Reflective Essay in Portuguese",
+  text:"CAPLE B2 writing tasks often ask for a 'texto reflexivo' (reflective text). The key vocabulary cluster is: 'uma experiência marcante', 'isso me transformou', 'a lembrança que tenho', 'com grande emoção'. Brazilian ENEM essays use the same cluster. Train yourself to link these words: an event that was 'marcante' led to a 'transformação', and the 'emoção' involved is preserved in a 'lembrança inesquecível'. This chain tells a complete personal narrative."}},
+
+{type:"mc",
+ q:"What does 'marcante' mean?",
+ opts:["ordinary","deeply memorable","recent","difficult"],
+ ans:"deeply memorable",
+ hint:"From 'marcar' — this adjective describes an experience that leaves a lasting impression."},
+
+{type:"mc",
+ q:"Which word refers to a specific remembered moment?",
+ opts:["a memória","a emoção","a lembrança","a sociedade"],
+ ans:"a lembrança",
+ hint:"The noun from 'lembrar-se de'. You might keep one of these in a photo album."},
+
+{type:"fb",
+ s:"Essa experiência me {1} completamente.",
+ a:["transformou"],
+ opts:["transformou","significou","lembrou","emocionou"],
+ hint:"The past tense of the verb meaning to change someone deeply and fundamentally.",
+ sSrc:"That experience completely {1} me."},
+
+{type:"fb",
+ s:"Aquele dia foi {1}. Nunca vou esquecer.",
+ a:["inesquecível"],
+ opts:["inesquecível","marcante","emocionante","significante"],
+ hint:"An adjective meaning 'unable to be forgotten'. Built with prefix in- and suffix -ível.",
+ sSrc:"That day was {1}. I'll never forget it."},
+
+{type:"mc",
+ q:"How do you say 'This means a lot to me' in Portuguese?",
+ opts:["Isso lembra muito para mim.","Isso significa muito para mim.","Isso transforma muito para mim.","Isso marca muito para mim."],
+ ans:"Isso significa muito para mim.",
+ hint:"Use the verb meaning 'to signify or mean' in the present tense."},
+
+{type:"fb",
+ s:"Tenho muitas {1} boas da nossa viagem.",
+ a:["lembranças"],
+ opts:["lembranças","emoções","memórias","experiências"],
+ hint:"The plural of the noun meaning specific remembered moments or keepsakes.",
+ sSrc:"I have many good {1} from our trip."},
+
+{type:"match", pairs:[
+ {trg:"significar", src:"to mean / to signify"},
+ {trg:"a lembrança", src:"a specific memory"},
+ {trg:"a emoção", src:"emotion / feeling"},
+ {trg:"marcante", src:"deeply memorable"},
+ {trg:"transformar", src:"to transform"},
+ {trg:"inesquecível", src:"unforgettable"},
+ {trg:"a memória", src:"memory (faculty)"}
+]},
+
+{type:"drag_fill",
+ s:"Foi uma experiência {1} que me {2} para sempre.",
+ blanks:{"1":"marcante","2":"transformou"},
+ pool:["marcante","transformou","inesquecível","significou"],
+ hint:"First blank: describes how memorable the experience was. Second blank: past tense verb meaning it changed you deeply."}
 ]}
 
 ]}; export default UNIT_25;
