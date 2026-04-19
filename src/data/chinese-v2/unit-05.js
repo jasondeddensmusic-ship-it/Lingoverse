@@ -365,6 +365,84 @@ lessons:[
  opts:["\u53BB(q\u00F9)","\u6765(l\u00E1i)","\u56DE(hu\u00ED)","\u5728(z\u00E0i)"],
  hint:"She did not go somewhere yesterday. Which verb means 'to go' toward a destination?",
  sSrc:"She did not go to school yesterday."}
+]},
+
+// ═══ L5: More Time Words — HSK 1 Essentials ═══
+{id:"zhv2_u5l5", title:"年月日 Year, Month, Date", icon:"📅", xp:15, board:true, steps:[
+{type:"intro", title:"年月日 Year, Month, Date",
+ desc:"Complete your time vocabulary with five essential HSK 1 words: noon, year, minute, date numbers, and the handy phrase 'a moment.'",
+ goals:["Say noon with 中午","Count years and minutes","Use 号 for dates and 一下 for brief actions"]},
+
+{type:"teach", trg:"中午(zhōngwǔ)", src:"noon / midday", pos:"noun", gender:null,
+ note:"中 (middle) + 午 (the horse hour, noon). Literally: middle of noon.\n上午 (morning) — 中午 (noon) — 下午 (afternoon).",
+ example:"A: 你(nǐ)中午(zhōngwǔ)吃(chī)什么(shénme)？\nB: 我(wǒ)中午(zhōngwǔ)吃(chī)米饭(mǐfàn)。",
+ exampleSrc:"A: What do you eat at noon?\nB: I eat rice at noon.",
+ funFact:"午 comes from the Chinese zodiac hour system. The horse hour (午时, wǔshí) was 11am–1pm. Noon was the peak of the horse hour, so 中午 (middle of horse) came to mean midday. Chinese time divisions survive in everyday words."},
+
+{type:"teach", trg:"年(nián)", src:"year", pos:"noun", gender:null,
+ note:"Second tone (rising). Used for years, New Year, and age.\n今年 = this year. 明年 = next year. 去年 = last year.",
+ example:"A: 今年(jīnnián)是(shì)哪(nǎ)年(nián)？\nB: 今年(jīnnián)是(shì)二零二六(èr líng èr liù)年(nián)。",
+ exampleSrc:"A: What year is this year?\nB: This year is 2026.",
+ funFact:"The character 年 depicts a person (人) carrying a sheaf of grain (禾). A year is one harvest cycle. Chinese New Year celebrations last 15 days — from New Year's Eve to the Lantern Festival — because the new year is the biggest annual event in Chinese culture."},
+
+{type:"teach", trg:"分钟(fēnzhōng)", src:"minute", pos:"noun", gender:null,
+ note:"分 (minute/divide) + 钟 (clock). Together: a minute on a clock.\n三分钟 = three minutes.",
+ example:"A: 你(nǐ)还(hái)要(yào)多少(duōshao)分钟(fēnzhōng)？\nB: 再(zài)等(děng)五(wǔ)分钟(fēnzhōng)！",
+ exampleSrc:"A: How many more minutes do you need?\nB: Wait five more minutes!",
+ funFact:"分 also means 'point' or 'score.' In Chinese time, 三点十五分 means 3:15 — literally 'three-o'clock fifteen-minutes.' The same character covers minutes of time and decimal points in numbers."},
+
+{type:"teach", trg:"号(hào)", src:"number / date (of month)", pos:"noun", gender:null,
+ note:"Used for dates, room numbers, and phone numbers.\n三号 = the 3rd (of the month). 一号房间 = room 1.",
+ example:"A: 今天(jīntiān)几(jǐ)号(hào)？\nB: 今天(jīntiān)是(shì)十五(shíwǔ)号(hào)。",
+ exampleSrc:"A: What date is today?\nB: Today is the 15th.",
+ funFact:"号 is used for dates in speech: 三月五号 = March 5th. In formal writing, 日 (rì) is used instead: 三月五日. So you will see both, but for speaking, 号 is the natural choice."},
+
+{type:"teach", trg:"一下(yīxià)", src:"a moment / a bit / give it a try", pos:"adv", gender:null,
+ note:"Makes a request sound softer and quicker.\n等一下 = wait a moment. 看一下 = have a look.",
+ example:"A: 请(qǐng)等(děng)一下(yīxià)！\nB: 好(hǎo)，我(wǒ)等(děng)你(nǐ)。",
+ exampleSrc:"A: Please wait a moment!\nB: Okay, I will wait for you.",
+ funFact:"一下 is the ultimate politeness softener in Chinese. 看一下 (have a quick look), 想一下 (think for a moment), 试一下 (try it out once). Adding 一下 makes any verb sound casual, brief, and non-demanding."},
+
+{type:"mc", q:"今天几号(hào)？ What is this question asking?",
+ opts:["What is today's day of the week?","What year is it?","What is today's date?","What time is it?"],
+ ans:"What is today's date?",
+ hint:"号 is used for the day number within a month. 几号 asks which number (date) in the month."},
+
+{type:"match", pairs:[
+  {trg:"中午(zhōngwǔ)", src:"noon"},
+  {trg:"年(nián)", src:"year"},
+  {trg:"分钟(fēnzhōng)", src:"minute"},
+  {trg:"号(hào)", src:"number / date"},
+  {trg:"一下(yīxià)", src:"a moment"}
+]},
+
+{type:"fb", s:"我(wǒ)中午(zhōngwǔ)吃(chī){1}。",
+ a:["米饭(mǐfàn)"],
+ opts:["米饭(mǐfàn)","水(shuǐ)","茶(chá)","杯子(bēizi)"],
+ hint:"What food item is the typical Chinese staple meal, served at noon?",
+ sSrc:"I eat {1} at noon."},
+
+{type:"mc", q:"How do you say 'Wait a moment, please' in Chinese?",
+ opts:["请一下等。","请等一下。","一下请等。","等请一下。"],
+ ans:"请等一下。",
+ hint:"请 (please) comes first, then the verb 等 (wait), then 一下 to soften and shorten the request."},
+
+{type:"fb", s:"我(wǒ)再(zài)等(děng){1}分钟(fēnzhōng)。",
+ a:["五(wǔ)"],
+ opts:["五(wǔ)","中午(zhōngwǔ)","号(hào)","年(nián)"],
+ hint:"Five minutes of waiting. Which number completes the sentence?",
+ sSrc:"I will wait {1} more minutes."},
+
+{type:"mc", q:"今年(jīnnián) means:",
+ opts:["last year","next year","this year","many years"],
+ ans:"this year",
+ hint:"今 means 'now' or 'this current.' You already know 今天 (today). Apply the same logic to 年."},
+
+{type:"fb", s:"今天(jīntiān)是(shì){1}号(hào)。",
+ a:["十五(shíwǔ)"],
+ opts:["十五(shíwǔ)","中午(zhōngwǔ)","年(nián)","分钟(fēnzhōng)"],
+ hint:"Today is the 15th. Which number means fifteen?",
+ sSrc:"Today is the {1}th."}
 ]}
 
 ]};

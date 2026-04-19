@@ -360,6 +360,80 @@ lessons:[
  opts:["saying goodbye","apologizing","asking your name","inviting you to eat"],
  ans:"inviting you to eat",
  hint:"\u8BF7 makes any statement into a polite invitation. Combined with '___ rice,' it is a warm welcome to a meal."}
+]},
+
+// ═══ L5: More Food and Daily Objects ═══
+{id:"zhv2_u4l5", title:"苹果和东西 Fruit and Daily Things", icon:"🍎", xp:15, board:true, steps:[
+{type:"intro", title:"苹果和东西 Fruit and Daily Things",
+ desc:"Learn essential HSK 1 vocabulary for fruit, daily objects, and phone greetings. These words appear constantly in everyday Chinese life.",
+ goals:["Name common fruits with 苹果 and 水果","Use 东西 for things and objects","Answer the phone with 喂"]},
+
+{type:"teach", trg:"苹果(píngguǒ)", src:"apple", pos:"noun", gender:null,
+ note:"First + third tone. A very common fruit in China.\n苹果 is also the Chinese brand name for Apple (the company).",
+ example:"A: 你(nǐ)想(xiǎng)吃(chī)苹果(píngguǒ)吗(ma)？\nB: 好(hǎo)，谢谢(xièxie)！",
+ exampleSrc:"A: Do you want to eat an apple?\nB: Sure, thank you!",
+ funFact:"Apple Inc. chose 苹果 (píngguǒ, apple) as its Chinese brand name. 平安果 (píng'ānguǒ, peace-safety fruit) is a Christmas tradition in some Chinese cities: vendors sell decorated apples on Christmas Eve because 平安 sounds like the English word 'evening.'"},
+
+{type:"teach", trg:"水果(shuǐguǒ)", src:"fruit", pos:"noun", gender:null,
+ note:"水 (water) + 果 (fruit/result). Literally: water fruit.\nRefers to fruit in general.",
+ example:"A: 你(nǐ)喜欢(xǐhuan)吃(chī)什么(shénme)水果(shuǐguǒ)？\nB: 我(wǒ)喜欢(xǐhuan)吃(chī)苹果(píngguǒ)。",
+ exampleSrc:"A: What fruit do you like to eat?\nB: I like to eat apples.",
+ funFact:"中国 is the world's largest producer of fruit. 水果 vendors (水果摊 shuǐguǒ tān) are a fixture on Chinese streets. The 水 in 水果 hints that juicy, watery fruit is the most valued kind."},
+
+{type:"teach", trg:"东西(dōngxi)", src:"thing / stuff / object", pos:"noun", gender:null,
+ note:"东 (east) + 西 (west). Originally: goods from east and west.\nNow: any thing or object.",
+ example:"A: 你(nǐ)在(zài)买(mǎi)什么(shénme)东西(dōngxi)？\nB: 我(wǒ)在(zài)买(mǎi)水果(shuǐguǒ)。",
+ exampleSrc:"A: What are you buying?\nB: I am buying fruit.",
+ funFact:"东西 originally meant merchandise from the east and west trade routes. China's east and west were the two great trading directions. Today 东西 is the casual word for any object — 'this thing,' 'that stuff,' 'what's that thing?'"},
+
+{type:"teach", trg:"杯子(bēizi)", src:"cup / glass", pos:"noun", gender:null,
+ note:"杯 (cup) + 子 (general noun suffix). The actual object.\n杯 alone is the measure word. 杯子 is the noun (a cup as an object).",
+ example:"A: 这(zhè)个(gè)杯子(bēizi)是(shì)谁(shuí)的(de)？\nB: 是(shì)我(wǒ)的(de)！",
+ exampleSrc:"A: Whose cup is this?\nB: It is mine!",
+ funFact:"Chinese cups come in all shapes. A 茶杯 (chábēi) is a tea cup, a 水杯 (shuǐbēi) is a water cup, a 马克杯 (mǎkèbēi) is a mug. The -子 suffix in 杯子 is a neutral tone syllable added to many everyday object nouns in Mandarin."},
+
+{type:"teach", trg:"喂(wèi)", src:"hello (on the phone) / hey", pos:"intj", gender:null,
+ note:"Fourth tone. Used when answering the phone.\nIn person, it can also mean 'hey' to get attention.",
+ example:"A: 喂(wèi)？你(nǐ)好(hǎo)！\nB: 你(nǐ)好(hǎo)！我(wǒ)是(shì)小明(Xiǎomíng)。",
+ exampleSrc:"A: Hello? Hi!\nB: Hi! I am Xiaoming.",
+ funFact:"喂 is used ONLY on the phone or to call attention — never as a general greeting like 你好. The character 喂 has the mouth radical (口) showing it is a spoken sound. In restaurants, you might hear it to call a waiter: 喂，服务员！"},
+
+{type:"mc", q:"水果(shuǐguǒ) literally means 'water fruit.' What does this word mean?",
+ opts:["watermelon","fruit in general","juice","garden"],
+ ans:"fruit in general",
+ hint:"This is the general category word. It includes apples, oranges, and all other fruit."},
+
+{type:"match", pairs:[
+  {trg:"苹果(píngguǒ)", src:"apple"},
+  {trg:"水果(shuǐguǒ)", src:"fruit"},
+  {trg:"东西(dōngxi)", src:"thing / stuff"},
+  {trg:"杯子(bēizi)", src:"cup / glass"},
+  {trg:"喂(wèi)", src:"hello (on phone)"}
+]},
+
+{type:"fb", s:"你(nǐ)在(zài)买(mǎi)什么(shénme){1}？",
+ a:["东西(dōngxi)"],
+ opts:["东西(dōngxi)","水果(shuǐguǒ)","苹果(píngguǒ)","杯子(bēizi)"],
+ hint:"Which word means 'thing/stuff' in the general sense — useful in 'What are you buying?'",
+ sSrc:"What stuff are you buying?"},
+
+{type:"mc", q:"When do you use 喂(wèi)?",
+ opts:["As a general greeting like hello","Only when answering the phone or calling attention","As a farewell","When thanking someone"],
+ ans:"Only when answering the phone or calling attention",
+ hint:"喂 is a specific interjection. It is NOT the same as 你好 and cannot replace it in face-to-face greetings."},
+
+{type:"fb", s:"我(wǒ)想(xiǎng)吃(chī)一(yī)个(gè){1}。",
+ a:["苹果(píngguǒ)"],
+ opts:["苹果(píngguǒ)","水果(shuǐguǒ)","杯子(bēizi)","东西(dōngxi)"],
+ hint:"Which word refers specifically to the red or green fruit that grows on a tree? (Not fruit in general.)",
+ sSrc:"I want to eat one {1}."},
+
+{type:"match", pairs:[
+  {trg:"苹果(píngguǒ)", src:"apple"},
+  {trg:"水果(shuǐguǒ)", src:"fruit"},
+  {trg:"杯子(bēizi)", src:"cup"},
+  {trg:"喂(wèi)", src:"hello (phone)"}
+]}
 ]}
 
 ]};
