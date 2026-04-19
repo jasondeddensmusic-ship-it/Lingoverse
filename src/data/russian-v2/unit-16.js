@@ -230,5 +230,94 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
 ]}
 ,{type:"match",pairs:[{trg:"у меня нет",src:"I don't have"},{trg:"для мамы",src:"for mom (GEN)"}]}]}
 
+,{id:"ruv2_u16l_civ", title:"Общественные концепции", icon:"🏛️", xp:15, board:true, steps:[
+
+{type:"intro", title:"B1 Civic Concepts",
+ desc:"Learn 7 essential B1 Russian words for discussing society, politics, and ideas. Essential for TRKI B1 writing tasks and news comprehension.",
+ goals:["Master 7 abstract civic words","Use them in formal discussion","Structure opinion writing"]},
+
+{type:"teach", trg:"объяснять", src:"to explain (imperfective)", pos:"verb", gender:null,
+ note:"Imperfective: ongoing or repeated explaining.\nПарная форма: объяснить (perfective, one complete explanation).",
+ example:"A: Можешь объяснять это?\nB: Да, конечно.",
+ exampleSrc:"A: Can you explain this?\nB: Yes, of course.",
+ funFact:"From объяснение (explanation). The -ять/-яю conjugation pattern: объясняю, объясняешь, объясняет. Widely used in classrooms, debates, and instructions."},
+
+{type:"teach", trg:"предлагать", src:"to propose / suggest (imperfective)", pos:"verb", gender:null,
+ note:"Imperfective: habitual or ongoing proposals.\nПарная форма: предложить (perfective).",
+ example:"A: Можно предлагать?\nB: Да, конечно.",
+ exampleSrc:"A: Can one make suggestions?\nB: Yes, of course.",
+ funFact:"From pre- (before) + лагать (to put). You 'put something before' someone for consideration. The perfective предложить is where the word 'proposal' (предложение) comes from."},
+
+{type:"teach", trg:"политика", src:"politics / policy", pos:"noun", gender:"f",
+ note:"Feminine noun (-ика always f in Russian).\nВнешняя политика = foreign policy. Внутренняя политика = domestic policy.",
+ example:"A: Ты понимаешь политика?\nB: Да, немного.",
+ exampleSrc:"A: Do you understand politics?\nB: Yes, a little.",
+ funFact:"Borrowed from Greek polis (city-state) via Latin. The same root gives English 'police,' 'policy,' and 'polite.' In Russian, политик = a politician (masculine)."},
+
+{type:"teach", trg:"экономика", src:"economy / economics", pos:"noun", gender:"f",
+ note:"Feminine noun.\nЭкономика страны = the country's economy. Рыночная экономика = market economy.",
+ example:"A: Как наша экономика?\nB: Она нормальная.",
+ exampleSrc:"A: How is our economy?\nB: It's okay.",
+ funFact:"From Greek oikonomia (household management). The same root is in 'ecology' (oikos = house). Russian экономить means 'to save/economize' — directly from the same stem."},
+
+{type:"teach", trg:"образование", src:"education", pos:"noun", gender:"n",
+ note:"Neuter noun (-ание ending = always neuter).\nВысшее образование = higher education. Среднее образование = secondary education.",
+ example:"A: Образование важно для общества.\nB: Согласен.",
+ exampleSrc:"A: Education is important for society.\nB: I agree.",
+ funFact:"From образовать (to form/shape). Literally 'formation' — the same root as образ (image/form). Russian school types: школа (secondary), университет (university)."},
+
+{type:"teach", trg:"развитие", src:"development", pos:"noun", gender:"n",
+ note:"Neuter noun (-ие ending = neuter).\nЭкономическое развитие = economic development. Развитие ребёнка = child development.",
+ example:"A: Развитие — это хорошо.\nB: Да, очень.",
+ exampleSrc:"A: Development is good.\nB: Yes, very much.",
+ funFact:"From развивать (to develop/unfold). The root вить means 'to wind/coil' — development as an unrolling or expansion. Развитие страны is a common phrase in political speeches."},
+
+{type:"teach", trg:"решение", src:"solution / decision", pos:"noun", gender:"n",
+ note:"Neuter noun (-ение ending = neuter).\nПринять решение = to make a decision. Найти решение = to find a solution.",
+ example:"A: Какое решение лучше?\nB: Нужно думать.",
+ exampleSrc:"A: Which solution is better?\nB: We need to think.",
+ funFact:"From решить (to decide/solve). The same verb root gives решать (imperfective), нерешённый (unresolved), and решительный (decisive). 'Принять решение' is the standard formal phrase."},
+
+{type:"tip", title:"Abstract Noun Suffix Patterns",
+ text:"RUSSIAN ABSTRACT NOUN SUFFIXES:\n\n-ОСТЬ (FEMININE):\nExamples: справедливость (justice), ответственность (responsibility).\nPattern: adjective + -ость.\n\n-СТВО (NEUTER):\nExamples: общество (society), большинство (majority).\nPattern: noun/adj root + -ство.\n\n-АНИЕ / -ЕНИЕ (NEUTER):\nExamples: образование (education), решение (decision), мнение (opinion).\nPattern: verb stem + -ание/-ение.\n\n-ИЕ (NEUTER):\nExamples: развитие (development), условие (condition).\nPattern: verb stem + -ие.\n\nPRACTICAL RULE:\nIf a noun ends in -ость: it is FEMININE.\nIf a noun ends in -ство, -ание, -ение, -ие: it is NEUTER.\nThis covers 80% of Russian abstract vocabulary.",
+ icon:"📐"},
+
+{type:"mc", q:"Which word means 'to propose / suggest' (imperfective)?",
+ opts:["объяснять","предлагать","развитие","решение"],
+ ans:"предлагать",
+ hint:"The imperfective verb 'to put something forward for consideration.'"},
+
+{type:"mc", q:"What gender is 'политика' (politics)?",
+ opts:["masculine","feminine","neuter","plural"],
+ ans:"feminine",
+ hint:"Nouns ending in -ика always belong to one consistent gender class in Russian."},
+
+{type:"mc", q:"Which abstract noun suffix signals a FEMININE noun?",
+ opts:["-ство","-ение","-ость","-ие"],
+ ans:"-ость",
+ hint:"The tip card lists this suffix as the one feminine category."},
+
+{type:"fb", s:"Она хочет {1} задачу.",
+ a:["объяснять"],
+ opts:["объяснять","предлагать","решение","политика"],
+ hint:"To describe or make something clear step-by-step is the imperfective verb for 'explain.'",
+ sSrc:"She wants to explain the task."},
+
+{type:"fb", s:"Высшее {1} важно для карьеры.",
+ a:["образование"],
+ opts:["образование","развитие","экономика","решение"],
+ hint:"The neuter noun from -ание suffix meaning 'formal schooling / being formed.'",
+ sSrc:"Higher education is important for a career."},
+
+{type:"match", pairs:[
+  {trg:"политика", src:"politics / policy (f)"},
+  {trg:"экономика", src:"economy / economics (f)"},
+  {trg:"образование", src:"education (n)"},
+  {trg:"развитие", src:"development (n)"},
+  {trg:"решение", src:"solution / decision (n)"}
+]}
+
+]}
+
 ]};
 export default UNIT_16;
