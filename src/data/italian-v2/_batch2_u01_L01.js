@@ -135,7 +135,13 @@ const BATCH2_U01_L1 = {
     {type:"mc", q:"Which greeting works when you are unsure about formal or informal?",
      opts:["Salve","Ciao","Buonanotte","Arrivederci"],
      ans:"Salve",
-     hint:"This 2,000-year-old Latin greeting sits perfectly between casual and formal. Use it with anyone."}
+     hint:"This 2,000-year-old Latin greeting sits perfectly between casual and formal. Use it with anyone."},
+
+    {type:"fb", s:"A: Come va? B: {1}!",
+     a:["tutto bene"],
+     opts:["tutto bene","buon appetito","arrivederci","buonanotte"],
+     hint:"The everyday positive response when someone asks how things are going.",
+     sSrc:"A: How is it going? B: {1}!"}
   ,{type:"match",pairs:[{trg:"buon pomeriggio",src:"good afternoon"},{trg:"come va?",src:"how is it going?"},{trg:"molto bene",src:"very well"}]}]
 };
 export default BATCH2_U01_L1;
