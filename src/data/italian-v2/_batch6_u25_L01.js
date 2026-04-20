@@ -42,7 +42,7 @@ const BATCH6_L1 = {id:"itv2_u25l_b6_1", title:"Il commercio internazionale", ico
 
 {type:"teach", trg:"la fusione", src:"the merger", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le fusioni.\nWhen two companies combine into one. Also means 'melting.'",
- example:"A: La fusione tra le due banche e completata.\nB: Ora e il terzo gruppo bancario italiano.",
+ example:"A: La fusione tra le due banche è completata.\nB: Ora e il terzo gruppo bancario italiano.",
  exampleSrc:"A: The merger between the two banks is complete.\nB: Now it is the third largest Italian banking group.",
  funFact:"'Fusione' means both business merger and physical melting. 'Fusione nucleare' is nuclear fusion. The metaphor of melting two entities into one works perfectly."},
 

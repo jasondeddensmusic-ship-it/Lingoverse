@@ -16,7 +16,7 @@ const BATCH3_U22_L1 = {
      note:"Masculine. 'Tipico' = typical, characteristic.\n'Qual e il piatto tipico della regione?' = What is the region's typical dish?",
      example:"A: Qual e il piatto tipico di Napoli?\nB: La pizza napoletana, senza dubbio.",
      exampleSrc:"A: What is the typical dish of Naples?\nB: Neapolitan pizza, without a doubt.",
-     funFact:"Regional pride in 'piatti tipici' is fierce. Every town claims its version is the 'original.' Bologna has ragu (not 'spaghetti bolognese,' which Italians do not recognize), Rome has carbonara and cacio e pepe, Sicily has arancini, and Milan has risotto alla milanese."},
+     funFact:"Regional pride in 'piatti tipici' is fierce. Every town claims its version is the 'original.' Bologna has ragu (not 'spaghetti bolognese,' which Italians do not recognize), Rome has carbonara and caciò è pepe, Sicily has arancini, and Milan has risotto alla milanese."},
 
     {type:"teach", trg:"la sagra", src:"the local food festival", pos:"noun", gender:"f",
      note:"Feminine. From Latin 'sacra' (sacred celebrations).\n'Sagra del tartufo' = truffle festival.",

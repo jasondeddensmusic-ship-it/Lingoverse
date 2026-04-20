@@ -16,7 +16,7 @@ const BATCH3_U19_L2 = {
      note:"Regular -are verb. From Latin 'perdonare' (to give completely).\n'Ti perdono' = I forgive you.",
      example:"A: Mi perdoni?\nB: Si, ti perdono. Ma non dimenticare.",
      exampleSrc:"A: Do you forgive me?\nB: Yes, I forgive you. But do not forget.",
-     funFact:"'Perdonare' literally means 'to give through/completely' (per + donare). Forgiveness in Italian culture often comes with 'pero non dimenticare' (but do not forget). The balance between forgiving and remembering is a recurring theme in Italian family dynamics."},
+     funFact:"'Perdonare' literally means 'to give through/completely' (per + donare). Forgiveness in Italian culture often comes with 'però non dimenticare' (but do not forget). The balance between forgiving and remembering is a recurring theme in Italian family dynamics."},
 
     {type:"teach", trg:"la comprensione", src:"the understanding / comprehension", pos:"noun", gender:"f",
      note:"Feminine. From 'comprendere' (to understand).\n'Avere comprensione' = to show understanding.",
@@ -50,7 +50,7 @@ const BATCH3_U19_L2 = {
 
     {type:"teach", trg:"la convivenza", src:"the cohabitation / living together", pos:"noun", gender:"f",
      note:"Feminine. From 'convivere' (to live together).\n'Convivenza pacifica' = peaceful coexistence.",
-     example:"A: La convivenza non e sempre facile.\nB: Richiede compromessi quotidiani.",
+     example:"A: La convivenza non è sempre facile.\nB: Richiede compromessi quotidiani.",
      exampleSrc:"A: Living together is not always easy.\nB: It requires daily compromises.",
      funFact:"'Convivenza' in Italy refers to unmarried couples living together, which was taboo until recently. Italian law now recognizes 'unioni civili' (civil unions). The shift from mandatory marriage to accepted 'convivenza' represents one of Italy's biggest social changes in recent decades."},
 

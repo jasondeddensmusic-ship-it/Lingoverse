@@ -78,7 +78,7 @@ const BATCH7_L1 = {id:"itv2_u19l_b7_1", title:"Interazioni sociali", icon:"\u{1F
 
 {type:"teach", trg:"il rancore", src:"resentment / grudge", pos:"noun", gender:"m",
  note:"Masculine noun. 'Portare rancore' = to hold a grudge.\n'Senza rancore' = no hard feelings.",
- example:"A: Non porto rancore per quello che e successo.\nB: Sono contento, guardiamo avanti.",
+ example:"A: Non porto rancore per quello che è successo.\nB: Sono contento, guardiamo avanti.",
  exampleSrc:"A: I do not hold a grudge for what happened.\nB: I am glad, let us look forward.",
  funFact:"'Senza rancore?' (no hard feelings?) is said after conflicts are resolved. In Italian, letting go of 'rancore' is seen as a sign of strength, not weakness."},
 

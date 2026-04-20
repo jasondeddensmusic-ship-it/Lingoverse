@@ -1,6 +1,6 @@
 // Batch 8 — Unit 25 extra lesson. Economy: Trade & Commerce
-const BATCH8_L1 = {id:"itv2_u25l_b8_1", title:"Commercio e scambi", icon:"🏪", xp:15, board:true, steps:[
-{type:"intro", title:"Commercio e scambi",
+const BATCH8_L1 = {id:"itv2_u25l_b8_1", title:"Commerciò è scambi", icon:"🏪", xp:15, board:true, steps:[
+{type:"intro", title:"Commerciò è scambi",
  desc:"Learn vocabulary for trade, commerce, and business transactions in the Italian economy.",
  goals:["Discuss trade and commerce","Use business transaction vocabulary","Understand Italian commercial terminology"]},
 
@@ -24,7 +24,7 @@ const BATCH8_L1 = {id:"itv2_u25l_b8_1", title:"Commercio e scambi", icon:"🏪",
 
 {type:"teach", trg:"il marchio", src:"the brand / trademark", pos:"noun", gender:"m",
  note:"Masculine noun. 'Marchio registrato' = registered trademark.\n'Il marchio di fabbrica' = hallmark.",
- example:"A: Il marchio italiano e sinonimo di qualità.\nB: Per questo e imitato in tutto il mondo.",
+ example:"A: Il marchio italiano e sinonimo di qualità.\nB: Per questo è imitato in tutto il mondo.",
  exampleSrc:"A: The Italian brand is synonymous with quality.\nB: That is why it is imitated worldwide.",
  funFact:"Italian 'contraffazione' (counterfeiting) is a billion-euro problem. Fake 'Made in Italy' products flood global markets. Italy fights this aggressively through legal and branding campaigns."},
 

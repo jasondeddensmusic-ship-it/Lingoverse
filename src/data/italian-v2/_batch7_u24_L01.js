@@ -44,7 +44,7 @@ const BATCH7_L1 = {id:"itv2_u24l_b7_1", title:"Condizioni e alternative", icon:"
  note:"Adverb. Contraction of 'se mai' (if ever).\n'Semmai, ti chiamo io' = if anything, I will call you.",
  example:"A: Devo chiamarti?\nB: No, semmai ti chiamo io.",
  exampleSrc:"A: Should I call you?\nB: No, if anything I will call you.",
- funFact:"'Semmai' is wonderfully versatile. It softens statements: 'non e stupido, semmai e pigro' (he is not stupid, if anything he is lazy). A very Italian way of correcting diplomatically."},
+ funFact:"'Semmai' is wonderfully versatile. It softens statements: 'non è stupido, semmai e pigro' (he is not stupid, if anything he is lazy). A very Italian way of correcting diplomatically."},
 
 {type:"teach", trg:"eventualmente", src:"possibly / if need be", pos:"adv", gender:null,
  note:"Adverb. FALSE FRIEND: does NOT mean 'eventually' (that is 'alla fine').\nMeans 'if the situation arises.'",

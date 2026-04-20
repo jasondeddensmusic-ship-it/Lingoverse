@@ -34,7 +34,7 @@ const BATCH4_U11_L1 = {
      note:"Triple meaning: 'ancora' = still, yet, again.\n'Non ho ancora finito' = I have not yet finished.",
      example:"A: Hai finito?\nB: No, non ho ancora finito.",
      exampleSrc:"A: Have you finished?\nB: No, I have not finished yet.",
-     funFact:"'Ancora' has three lives: 'e ancora qui' (he is still here), 'non e ancora arrivato' (he has not arrived yet), 'vuoi ancora?' (do you want more/again?). Context determines meaning. This triple-duty word confuses many learners."},
+     funFact:"'Ancora' has three lives: 'e ancora qui' (he is still here), 'non è ancora arrivato' (he has not arrived yet), 'vuoi ancora?' (do you want more/again?). Context determines meaning. This triple-duty word confuses many learners."},
 
     {type:"teach", trg:"appena", src:"just (now) / barely", pos:"adv", gender:null,
      note:"'Ho appena mangiato' = I have just eaten.\nPlaced between auxiliary and participle.",

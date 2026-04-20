@@ -78,7 +78,7 @@ const BATCH7_L1 = {id:"itv2_u04l_b7_1", title:"Frutta e spuntini", icon:"\u{1F34
 
 {type:"teach", trg:"la macedonia", src:"the fruit salad", pos:"noun", gender:"f",
  note:"Feminine noun. A mix of chopped fresh fruits.\nOften served with lemon juice and sugar.",
- example:"A: Facciamo una macedonia per dessert?\nB: Si, con fragole, pesche e banane.",
+ example:"A: Facciamo una macedonia per dessert?\nB: Si, con fragole, pesche è banane.",
  exampleSrc:"A: Shall we make a fruit salad for dessert?\nB: Yes, with strawberries, peaches, and bananas.",
  funFact:"'Macedonia' means both fruit salad and the country. The metaphor is the same: a mix of different things. It originally referred to the diverse peoples of ancient Macedonia."},
 

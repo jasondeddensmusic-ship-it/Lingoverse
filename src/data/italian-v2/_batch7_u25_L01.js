@@ -78,7 +78,7 @@ const BATCH7_L1 = {id:"itv2_u25l_b7_1", title:"Le startup e l'imprenditoria", ic
 
 {type:"teach", trg:"innovativo", src:"innovative", pos:"adj", gender:null,
  note:"Adjective. Innovativo/a/i/e.\n'L'innovazione' = innovation.",
- example:"A: L'approccio e molto innovativo.\nB: E questo che ci distingue dalla concorrenza.",
+ example:"A: L'approcciò è molto innovativo.\nB: E questo che ci distingue dalla concorrenza.",
  exampleSrc:"A: The approach is very innovative.\nB: That is what sets us apart from the competition.",
  funFact:"Italy ranks well in 'innovazione' in design, food technology, and green energy, less so in digital tech. The 'Piano Nazionale Innovazione' aims to change this."},
 
@@ -114,7 +114,7 @@ const BATCH7_L1 = {id:"itv2_u25l_b7_1", title:"Le startup e l'imprenditoria", ic
  ans:"Milano",
  hint:"Italy's financial and business capital in the north."},
 
-{type:"fb", s:"L'approccio e molto {1}.", a:["innovativo"],
+{type:"fb", s:"L'approcciò è molto {1}.", a:["innovativo"],
  opts:["innovativo","tradizionale","economico","finanziario"],
  hint:"New, creative, and different from what has been done before.",
  sSrc:"The approach is very {1}."},

@@ -15,7 +15,7 @@ const BATCH6_L1 = {id:"itv2_u33l_b6_1", title:"L'etica e la morale", icon:"\u{26
  funFact:"'Coscienza' covers both 'conscience' (moral sense) and 'consciousness' (awareness). 'Obiezione di coscienza' (conscientious objection) is a legal right in Italy."},
 {type:"teach", trg:"la virtu", src:"the virtue", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le virtu (invariable).\nA morally good quality. Opposite: il vizio.",
- example:"A: La pazienza e una grande virtu.\nB: Ma non e facile da praticare.",
+ example:"A: La pazienza e una grande virtu.\nB: Ma non è facile da praticare.",
  exampleSrc:"A: Patience is a great virtue.\nB: But it is not easy to practice.",
  funFact:"Machiavelli redefined 'virtu' in 'The Prince' to mean political skill and courage, not Christian virtue. This Italian concept influenced all modern political philosophy."},
 {type:"teach", trg:"il vizio", src:"the vice / bad habit", pos:"noun", gender:"m",

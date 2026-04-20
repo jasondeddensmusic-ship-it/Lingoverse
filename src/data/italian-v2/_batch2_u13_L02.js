@@ -60,7 +60,7 @@ const BATCH2_U13_L2 = {
      exampleSrc:"A: It is better that you go to the doctor.\nB: It is better that I leave early.",
      funFact:"'E meglio che' belongs to the family of impersonal judgment expressions like 'e importante che' and 'e necessario che.' Italian has a rich set of these: 'e ora che' (it is time that), 'e giusto che' (it is fair that), 'e assurdo che' (it is absurd that). All take the subjunctive."},
 
-    {type:"teach", trg:"non e detto che", src:"it is not certain that / that doesn't mean", pos:"verb", gender:null,
+    {type:"teach", trg:"non è detto che", src:"it is not certain that / that doesn't mean", pos:"verb", gender:null,
      note:"Negative impersonal trigger. Literally 'it is not said that.'\nExpresses that something is not guaranteed.",
      example:"A: Non e detto che vinca il migliore.\nB: Non e detto che piova domani.",
      exampleSrc:"A: It is not certain that the best will win.\nB: That doesn't mean it will rain tomorrow.",
@@ -92,7 +92,7 @@ const BATCH2_U13_L2 = {
       {trg:"valga", src:"(that) be worth (valere)"}
     ]},
 
-    {type:"mc", q:"What does 'non e detto che' mean?",
+    {type:"mc", q:"What does 'non è detto che' mean?",
      opts:["It is absolutely forbidden to say that","Nobody has ever said that aloud before","It is not certain or guaranteed that","The words have not been written down yet"],
      ans:"It is not certain or guaranteed that",
      hint:"Literally 'it is not said that.' It challenges certainty and pushes back on assumptions. Always followed by the subjunctive."},
@@ -118,6 +118,6 @@ const BATCH2_U13_L2 = {
      opts:["A conclusion based on proven facts","A hypothesis accepted for the sake of argument","A past event that is now completed","A direct quote from another person"],
      ans:"A hypothesis accepted for the sake of argument",
      hint:"From 'ammettere' (to admit). The speaker grants a point hypothetically, without fully accepting it as fact."}
-  ,{type:"match",pairs:[{trg:"non penso che",src:"I don't think that"},{trg:"pare che",src:"it seems that / apparently"},{trg:"e meglio che",src:"it is better that"},{trg:"non e detto che",src:"it is not certain that / that doesn't mean"},{trg:"ammesso che",src:"assuming that / granted that"}]}]
+  ,{type:"match",pairs:[{trg:"non penso che",src:"I don't think that"},{trg:"pare che",src:"it seems that / apparently"},{trg:"e meglio che",src:"it is better that"},{trg:"non è detto che",src:"it is not certain that / that doesn't mean"},{trg:"ammesso che",src:"assuming that / granted that"}]}]
 };
 export default BATCH2_U13_L2;

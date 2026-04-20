@@ -1,8 +1,8 @@
 // Batch 3 — Unit 25 Lesson (Economy: Trade & Employment)
 const BATCH3_L_1 = {
-  id:"itv2_u25l_b3_1", title:"Commercio e occupazione", icon:"🏭", xp:15, board:true,
+  id:"itv2_u25l_b3_1", title:"Commerciò è occupazione", icon:"🏭", xp:15, board:true,
   steps:[
-    {type:"intro", title:"Commercio e occupazione",
+    {type:"intro", title:"Commerciò è occupazione",
      desc:"Deepen your understanding of international trade, employment markets, and macroeconomic indicators. These terms appear daily in Italian economic journalism.",
      goals:["Discuss trade agreements and tariffs","Describe employment conditions and labor markets","Analyze economic indicators and forecasts"]},
 

@@ -24,7 +24,7 @@ const BATCH6_L1 = {id:"itv2_u22l_b6_1", title:"Proverbi e modi di dire", icon:"\
 
 {type:"teach", trg:"non tutte le ciambelle riescono col buco", src:"not everything goes as planned", pos:"intj", gender:null,
  note:"Proverb. Literally: 'not all donuts come out with a hole.'\nNot every attempt will be perfect.",
- example:"A: Il dolce non e venuto bene.\nB: Non tutte le ciambelle riescono col buco!",
+ example:"A: Il dolce non è venuto bene.\nB: Non tutte le ciambelle riescono col buco!",
  exampleSrc:"A: The cake did not turn out well.\nB: Not everything goes as planned!",
  funFact:"This uniquely Italian proverb uses the image of a donut ('ciambella') that fails to have its characteristic hole. It is a gentle way to accept imperfection."},
 

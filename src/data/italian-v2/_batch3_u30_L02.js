@@ -50,7 +50,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"che io sappia", src:"as far as I know / to my knowledge", pos:"verb", gender:null,
      note:"Independent subjunctive expressing epistemic hedging.\nMore formal than 'per quanto ne so' (indicative).",
-     example:"A: Che io sappia, la riunione non e stata annullata.\nB: Ma verifico subito per sicurezza.",
+     example:"A: Che io sappia, la riunione non è stata annullata.\nB: Ma verifico subito per sicurezza.",
      exampleSrc:"A: To my knowledge, the meeting has not been cancelled.\nB: But I will check right away to be sure.",
      funFact:"This construction elegantly limits the speaker's claim to their own knowledge. It is more sophisticated than 'secondo me' (in my opinion) and is common in parliamentary speeches and academic presentations."},
 

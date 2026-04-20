@@ -42,7 +42,7 @@ const BATCH3_L_2 = {
      ans:"A mio avviso",
      hint:"The most formal option from this list. Used in academic essays, official speeches, and formal presentations. The hierarchy goes from casual to very formal."},
 
-    {type:"teach", trg:"d'accordo, pero", src:"I agree, but / granted, however", pos:"conj", gender:null,
+    {type:"teach", trg:"d'accordo, però", src:"I agree, but / granted, however", pos:"conj", gender:null,
      note:"A concessive move in spoken argumentation.\nAcknowledges the opponent's point before presenting your counter-argument.",
      example:"A: D'accordo, la tecnologia ha vantaggi. Pero non possiamo ignorare i rischi.\nB: E un equilibrio difficile da trovare.",
      exampleSrc:"A: Granted, technology has advantages. However, we cannot ignore the risks.\nB: It is a difficult balance to find.",
@@ -77,7 +77,7 @@ const BATCH3_L_2 = {
      note:"Formal conjunction. Very elevated register.\nSynonyms: 'tuttavia,' 'nonostante cio,' 'nondimeno.'",
      example:"A: I rischi sono reali. Ciononostante, i benefici giustificano l'investimento.\nB: Dobbiamo procedere con cautela ma con determinazione.",
      exampleSrc:"A: The risks are real. Nevertheless, the benefits justify the investment.\nB: We must proceed with caution but with determination.",
-     funFact:"'Ciononostante' is among the most formal concessive connectives in Italian. Using it correctly signals mastery of elevated register. In everyday speech, Italians would simply say 'pero' (but) or 'comunque' (anyway)."},
+     funFact:"'Ciononostante' is among the most formal concessive connectives in Italian. Using it correctly signals mastery of elevated register. In everyday speech, Italians would simply say 'però' (but) or 'comunque' (anyway)."},
 
     {type:"teach", trg:"la padronanza", src:"mastery / command (of a language)", pos:"noun", gender:"f",
      note:"Feminine noun. Full control and fluency.\n'Padronanza linguistica' = linguistic mastery. C2 = 'piena padronanza.'",
@@ -105,7 +105,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"in definitiva", src:"ultimately / when all is said and done", pos:"conj", gender:null,
      note:"Formal concluding expression. Stronger than 'in conclusione.'\nSignals the final, decisive assessment.",
-     example:"A: In definitiva, l'italiano non e solo una lingua: e una porta su una cultura millenaria.\nB: Ogni parola porta con se secoli di storia.",
+     example:"A: In definitiva, l'italiano non è solo una lingua: e una porta su una cultura millenaria.\nB: Ogni parola porta con se secoli di storia.",
      exampleSrc:"A: Ultimately, Italian is not just a language: it is a gateway to a millennial culture.\nB: Every word carries centuries of history with it.",
      funFact:"'In definitiva' signals the speaker's final, most considered judgment. It carries more weight than 'in conclusione' because it implies that all alternatives have been weighed and rejected. A powerful closing move."},
 
@@ -129,7 +129,7 @@ const BATCH3_L_2 = {
      opts:["Conoscere perfettamente tutte le regole grammaticali senza eccezione","Saper comunicare efficacemente adattando il registro al contesto","Avere un accento identico a quello di un madrelingua italiano","Memorizzare il maggior numero possibile di vocaboli specialistici"],
      ans:"Saper comunicare efficacemente adattando il registro al contesto",
      hint:"At B2, effective communication with appropriate register is the gold standard. Perfect grammar or native accent are not required. Adaptability is key."}
-  ,{type:"match",pairs:[{trg:"il discorso",src:"the speech / address"},{trg:"il gesto",src:"the gesture"},{trg:"il dibattito",src:"the debate"},{trg:"a mio parere",src:"in my opinion (formal)"},{trg:"il proverbio",src:"the proverb / saying"},{trg:"in definitiva",src:"ultimately / when all is said and done"}]},{type:"mc",q:"How do you say \"I agree, but / granted, however\" in Italian?",opts:["d'accordo, pero","la finestra","il tavolo","la bicicletta"],ans:"d'accordo, pero",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"il discorso",src:"the speech / address"},{trg:"il gesto",src:"the gesture"},{trg:"il dibattito",src:"the debate"},{trg:"a mio parere",src:"in my opinion (formal)"},{trg:"il proverbio",src:"the proverb / saying"},{trg:"in definitiva",src:"ultimately / when all is said and done"}]},{type:"mc",q:"How do you say \"I agree, but / granted, however\" in Italian?",opts:["d'accordo, però","la finestra","il tavolo","la bicicletta"],ans:"d'accordo, però",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Il {1} formale e necessario in un discorso pubblico.",a:["registro formale"],opts:["registro formale","proverbio","gesto","dibattito"],hint:"The level of formal language used in official or professional contexts.",sSrc:"Formal {1} is necessary in a public speech."}]
 };
 export default BATCH3_L_2;
