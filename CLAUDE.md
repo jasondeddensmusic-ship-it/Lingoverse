@@ -262,6 +262,10 @@ Five leak types. ALL must be zero:
 15. **Genuine content, not validator theater (2026-04-19).** Agents assigned to fix validator violations must produce pedagogically genuine content. Forbidden patterns every agent prompt must explicitly prohibit: `src:"(review)"` or any filler placeholder (PP66); `___` substitution in hints that merely removes a leaked word without rewriting the guidance; match pairs whose `src` is merely "see above"; rewrites that introduce new filler. Violation = reject agent output, re-dispatch with stricter prompt.
 16. **Bounded retry (2026-04-19).** After 3 consecutive failures on the same task (agent edit → validator/build fails → revert), STOP. Write a summary to `docs/BLOCKED.md` with agent ID, task, failure modes observed, and suggested next approach. Move on to the next queue item. Do not loop.
 17. **Agents never self-validate (2026-04-19).** The author-agent that produces content cannot be the validator that approves it. Content flows through Rule G (dual-linguist) before merge. Validator agents are fresh spawns with non-identical prompts.
+18. **PP24 pre-check is mandatory in every content-agent prompt (2026-04-20).** Every agent prompt that writes new teach cards must include: "Grep each target word across the whole language corpus (`grep -rE 'trg:\"[^\"]*<word>[^\"]*\"' src/data/<lang>-v2/`). If >0 hits found, substitute with the provided fallback list. Never re-teach a word that already has a teach card elsewhere." Skipping this step led to a duplicate-heavy Chinese lesson that had to be reverted.
+19. **PP55 audits have false positives (2026-04-20).** The grep-based audit misses teach cards with article-prefixed `trg:` (e.g. "o café" not matched when searching for bare "café"). Every agent prompt must say: "Verify each word is actually missing BEFORE writing a teach card for it. If the PP55 audit says X is missing but grep finds it, trust grep." This saved ~40% of one Portuguese batch from becoming duplicates.
+20. **Lessons array boundary discipline (2026-04-20).** Agents occasionally add `],` in the wrong place, closing the lessons array prematurely. Every content-agent prompt must say: "CRITICAL: Append the new lesson INSIDE the `lessons:[...]` array, BEFORE the closing `]`. Verify with `npm run build` before reporting success." This bit once on a Chinese unit-16 commit that had to be amended.
+21. **Agent self-report is insufficient proof (2026-04-20).** Agents sometimes report "both validators pass" while the build actually fails. Main session must ALWAYS run `npm run build` after aggregating agent output, before committing. `validate_all.cjs` and `pp63_audit.cjs` do not catch JS parse errors.
 
 ### Rule C: Build Process
 1. Validate density PER LESSON during build, not after.
@@ -466,7 +470,8 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-19.md`** — **LATEST HANDOFF.** PP63/PP67/PP64 all clean across 10 languages. 8 feature PRs unmerged on sad-cohen-32e111. Next: merge branch, then PP56 concept-driven audit.
+- **`docs/SESSION_HANDOFF_2026-04-20.md`** — **LATEST HANDOFF.** 41 PRs shipped (#213–#253). +538 teach cards. 7 PP58 function closures (F14/F15/F17/F8/F22/F21/F11). B1/B2 civic + A2 mental verbs 10/10 across all 10 languages. Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-19.md`** — Previous handoff. PP63/PP67/PP64 all clean. 8 feature PRs (SRS, placement quiz, Verumius Spanish).
 - **`docs/SESSION_HANDOFF_2026-04-17b.md`** — Previous handoff. Japanese PP65 complete. Full validation PASS.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic (D1-D124).
 - **`docs/BUILD_STATUS.md`** — Full build history per language (updated 2026-04-19).
