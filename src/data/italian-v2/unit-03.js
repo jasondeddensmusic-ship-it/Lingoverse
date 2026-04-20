@@ -341,6 +341,140 @@ const UNIT_03 = {
        hint:"The no-article rule has exceptions. When the family word is plural or has an adjective, the article returns."}
     ]},
     EXP_03_L1, EXP_03_L2, EXP_03_L3,
+
+    {id:"itv2_u3l_essential_a1", title:"Essenziali A1", icon:"🌟", xp:15, board:true, steps:[
+      {type:"intro", title:"Essenziali A1",
+       desc:"Nine high-frequency Italian words: a person, a place, a drink, a color set, a descriptive adjective, and a number. All are required for CILS A1.",
+       goals:["Name a friend using the correct gender form","Use la città and il caffè in context","Identify invariable color adjectives blu and viola","Use brutto as the opposite of bello","Count to sei"]},
+
+      {type:"teach", trg:"l'amico / l'amica", src:"friend (m/f)", pos:"noun", gender:"m",
+       note:"Masculine: l'amico. Feminine: l'amica.\nBoth take the elided article l' because they start with a vowel.\nPlural: gli amici (m), le amiche (f).",
+       example:"A: Chi è lui?\nB: È il mio amico Marco. È molto simpatico.",
+       exampleSrc:"A: Who is he?\nB: He is my friend Marco. He is very nice.",
+       funFact:"From Latin 'amicus' (friend), connected to 'amare' (to love). The same root gives English 'amiable' and 'amicable.' Interestingly, the feminine plural 'amiche' keeps the hard c sound: a spelling rule unique to -co/-ca nouns."},
+
+      {type:"teach", trg:"la città", src:"the city", pos:"noun", gender:"f",
+       note:"Feminine. Final accent on à marks stress on the last syllable.\nPlural: le città (invariable: accented nouns never change in the plural).",
+       example:"A: Di dove sei?\nB: Sono di una piccola città. E tu?\nA: Io sono di Milano.",
+       exampleSrc:"A: Where are you from?\nB: I am from a small city. And you?\nA: I am from Milan.",
+       funFact:"From Latin 'civitas' (community of citizens). Old Italian said 'cittade,' then the final syllable eroded away but the stress stayed on the à. This is why Italian has so many accent marks on short words."},
+
+      {type:"teach", trg:"il caffè", src:"the coffee / café", pos:"noun", gender:"m",
+       note:"Masculine. Final accent on è keeps the stress on the last syllable.\nPlural: i caffè (invariable, like città).\nMeans both the drink AND the café where you drink it.",
+       example:"A: Un caffè, per favore.\nB: Subito! Con zucchero?\nA: No, grazie.",
+       exampleSrc:"A: A coffee, please.\nB: Right away! With sugar?\nA: No, thank you.",
+       funFact:"From Ottoman Turkish 'kahve,' borrowed via Venetian merchants. Italy's espresso culture transformed it: an Italian caffè is a short, strong espresso shot, not the milky cup Northern Europeans call 'coffee.' Ordering 'un caffè' in Italy always means espresso."},
+
+      {type:"teach", trg:"brutto", src:"ugly / bad-looking", pos:"adj", gender:null,
+       note:"Masculine: brutto. Feminine: brutta.\nPlural: brutti (m), brutte (f). Regular -o/-a pattern.\nThe direct opposite of bello (beautiful).",
+       example:"A: Com'è il tempo oggi?\nB: È molto brutto. Piove!",
+       exampleSrc:"A: What is the weather like today?\nB: It is very bad. It is raining!",
+       funFact:"'Brutto tempo' (bad weather) is one of the most common uses. Italians say 'che brutto!' to mean 'how awful!' about anything unpleasant. The word also appears in the famous idiom 'brutto anatroccolo,' the ugly duckling."},
+
+      {type:"teach", trg:"blu", src:"blue", pos:"adj", gender:null,
+       note:"Invariable adjective: blu NEVER changes for gender or number.\nCorrect: un cielo blu, una camicia blu, due occhi blu.\nNever: *bluo, *blua, *blui, *blue.",
+       example:"A: Di che colore sono gli occhi di tua sorella?\nB: Sono blu. Sono bellissimi!",
+       exampleSrc:"A: What color are your sister's eyes?\nB: They are blue. They are very beautiful!",
+       funFact:"Borrowed from French 'bleu' in the 19th century. Because it is a loanword, Italian never gave it native endings. The older native Italian word for blue was 'azzurro,' still used today for sky blue and the Italian national sports teams."},
+
+      {type:"teach", trg:"giallo", src:"yellow", pos:"adj", gender:null,
+       note:"Masculine: giallo. Feminine: gialla.\nPlural: gialli (m), gialle (f). Regular -o/-a native adjective.",
+       example:"A: Il sole è grande e giallo.\nB: Sì, e molto bello oggi!",
+       exampleSrc:"A: The sun is big and yellow.\nB: Yes, it is very beautiful today!",
+       funFact:"In Italian publishing, 'giallo' also means 'crime thriller' or 'detective novel.' This is because early crime paperbacks had yellow covers. Saying 'leggo un giallo' means 'I am reading a crime novel,' not 'I am reading a yellow thing.'"},
+
+      {type:"teach", trg:"viola", src:"purple", pos:"adj", gender:null,
+       note:"Invariable adjective: viola NEVER changes for gender or number.\nCorrect: un fiore viola, una borsa viola, due camicie viola.\nNever: *violo, *violi, *viole (in the adjective sense).",
+       example:"A: Blu o viola?\nB: Viola! Non è giallo e non è brutto.",
+       exampleSrc:"A: Blue or purple?\nB: Purple! It is not yellow and not ugly.",
+       funFact:"Named after the violet flower ('la viola'). Like 'blu,' it is an invariable color because it started as a noun used to describe color. Italian has several such noun-turned-adjective colors: viola, blu, rosa (pink), arancione (orange)."},
+
+      {type:"tip", title:"Invariable adjectives: blu and viola",
+       text:"Most Italian adjectives agree with the noun in gender and number.\nBut color adjectives borrowed from nouns are INVARIABLE. They never change:\n- un vestito blu, una scarpa blu, due scarpe blu\n- un fiore viola, una camicia viola, tre fiori viola\n\nOther invariable colors: rosa (pink), arancione (orange).\n\nRegular colors DO change: giallo/gialla/gialli/gialle, rosso/rossa/rossi/rosse.",
+       deepDive:"Why are these colors invariable? Because they started as nouns: 'blu' (the color blue, borrowed as a noun), 'viola' (the violet flower). Italian grammar treats nouns used as adjectives as invariable. When you spot a color name that doubles as a thing (flower, fruit, gem), expect it to be invariable. Arancione comes from 'arancia' (orange fruit), rosa from 'rosa' (rose flower)."},
+
+      {type:"teach", trg:"il minuto", src:"the minute", pos:"noun", gender:"m",
+       note:"Masculine. Plural: i minuti.\nArticle: il (regular masculine before consonant).\nUsed for both time (60 seconds) and informally for 'a moment.'",
+       example:"A: Aspetta un minuto, per favore!\nB: Sì, certo. Nessun problema.",
+       exampleSrc:"A: Wait a minute, please!\nB: Yes, of course. No problem.",
+       funFact:"From Latin 'minuta' (small), the same root as English 'minute' and 'mini.' In medieval timekeeping, an hour was divided into 60 'partes minutae primae' (first small parts) = minutes. The word literally means 'tiny division of time.'"},
+
+      {type:"teach", trg:"sei", src:"six", pos:"num", gender:null,
+       note:"The number six. Invariable like all Italian cardinal numbers.\nAlso happens to be the 'tu' form of essere: tu sei = you are.\nContext always makes the meaning clear.",
+       example:"A: Quanti minuti mancano?\nB: Solo sei minuti. Quasi pronto!",
+       exampleSrc:"A: How many minutes are left?\nB: Only six minutes. Almost ready!",
+       funFact:"From Latin 'sex,' the same root as English 'sextant,' 'sextet,' and 'semester' (from Latin 'sex menses,' six months). The Italian numbers one through ten all derive directly from Latin with very little change."},
+
+      {type:"mc", q:"Come si dice 'friend (male)' in italiano?",
+       opts:["L'amico","L'amica","Il cugino","Lo zio"],
+       ans:"L'amico",
+       hint:"Male friend takes the elided masculine article. The word starts with a vowel, so 'il' shortens to 'l'.'"},
+
+      {type:"fb", s:"Roma è una grande {1}.",
+       a:["città"],
+       opts:["città","caffè","minuto","famiglia"],
+       hint:"You are describing Rome as a big place where many people live. Think: capital of Italy.",
+       sSrc:"Rome is a big {1}."},
+
+      {type:"mc", q:"Which sentence uses 'blu' correctly?",
+       opts:["Una camicia blu","Una camicia blua","Una camicia blui","Una camicia blue"],
+       ans:"Una camicia blu",
+       hint:"This color adjective is invariable. It never takes gender or number endings, unlike regular adjectives."},
+
+      {type:"fb", s:"Il sole è grande e {1}.",
+       a:["giallo"],
+       opts:["giallo","gialla","viola","blu"],
+       hint:"The sun's color is a regular adjective. 'Il sole' is masculine singular: match the adjective ending.",
+       sSrc:"The sun is big and {1}."},
+
+      {type:"match", pairs:[
+        {trg:"l'amico", src:"friend (male)"},
+        {trg:"la città", src:"the city"},
+        {trg:"il caffè", src:"the coffee / café"},
+        {trg:"il minuto", src:"the minute"},
+        {trg:"sei", src:"six"}
+      ]},
+
+      {type:"mc", q:"What does 'brutto' mean?",
+       opts:["Ugly / bad-looking","Beautiful","Small","Old"],
+       ans:"Ugly / bad-looking",
+       hint:"Think of it as the opposite of 'bello.' If bello is beautiful, brutto is the flip side."},
+
+      {type:"fb", s:"Un {1}, per favore.",
+       a:["caffè"],
+       opts:["caffè","città","minuto","amico"],
+       hint:"You are ordering the most famous Italian hot drink at a bar. One word, final accent.",
+       sSrc:"A {1}, please."},
+
+      {type:"mc", q:"Which color adjective is invariable (does NOT change for gender/number)?",
+       opts:["giallo","bello","viola","grande"],
+       ans:"viola",
+       hint:"Look for the color borrowed from a flower name. It never takes -a, -i, or -e endings."},
+
+      {type:"fb", s:"Aspetta un {1}, per favore!",
+       a:["minuto"],
+       opts:["minuto","caffè","amico","figlio"],
+       hint:"You are asking someone to wait briefly. A unit of 60 seconds.",
+       sSrc:"Wait a {1}, please!"},
+
+      {type:"mc", q:"How many are 'sei'?",
+       opts:["Four","Five","Six","Seven"],
+       ans:"Six",
+       hint:"This number follows cinque (five). It comes from Latin 'sex.'"},
+
+      {type:"match", pairs:[
+        {trg:"brutto", src:"ugly / bad-looking"},
+        {trg:"blu", src:"blue"},
+        {trg:"giallo", src:"yellow"},
+        {trg:"viola", src:"purple"}
+      ]},
+
+      {type:"fb", s:"La mia amica è {1}, non è bella.",
+       a:["brutta"],
+       opts:["brutta","brutto","piccola","vecchia"],
+       hint:"The subject 'amica' is feminine singular. Apply the feminine ending to the adjective meaning ugly.",
+       sSrc:"My friend (f.) is {1}, she is not beautiful."}
+    ]}
   ]
 };
 export default UNIT_03;
