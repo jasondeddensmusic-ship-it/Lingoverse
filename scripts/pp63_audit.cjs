@@ -5361,8 +5361,9 @@ const FUNCTION_WORDS = {
     'вдруг','просто','быстро','медленно','рано','поздно','давно',
     'хорошо','плохо','нормально','конечно','понятно','можно','нельзя',
     'вот','вон','ну','ой','эй',
-    // Question words
+    // Question words (nominative + all cases)
     'кто','что','где','когда','как','почему','зачем','откуда','куда',
+    'чего','чему','чём','чем','чьё','чем',
     'какой','какая','какое','какие','который','которая','которое','которые',
     'сколько','чей','чья','чьё','чьи',
     // Relative/conjunctive
@@ -7408,6 +7409,23 @@ function auditLang(langDir) {
       const ownBare = bareForm(trg, langCode);
       // Japanese: compute own-card expanded forms for self-referential example matching
       const ownForms = langCode === 'ja' ? new Set(jaExpandForms(trg)) : null;
+      // Russian: pre-compute own-card stem for own-conjugation exemption.
+      // Strips the infinitive ending to get the verb stem (e.g. думать → дума, верить → вер).
+      // Tokens starting with this stem (length >= 4) are treated as own-verb forms.
+      let ownRuStem = null;
+      if (langCode === 'ru') {
+        // Handle reflexive: нуждаться в → нуждаться → нуждаться
+        const ruBase = ownBare.split(' ')[0]; // strip " в" etc.
+        const ruSuffixes = ['оваться','еваться','иваться','иться',
+                           'ывать','овать','евать','ивать','ться',
+                           'ать','ять','ить','еть','оть','уть','сть','зть','чь'];
+        for (const suf of ruSuffixes) {
+          if (ruBase.endsWith(suf) && ruBase.length - suf.length >= 3) {
+            ownRuStem = ruBase.slice(0, ruBase.length - suf.length);
+            break;
+          }
+        }
+      }
       // Korean: pre-compute own-card stem for own-conjugation exemption.
       // For arrow-format cards (nl:"어렵다 → 어려워요"), extract the 다-infinitive from the first part.
       let ownKoStem = null;
@@ -7464,6 +7482,10 @@ function auditLang(langDir) {
         // Own-card verb-stem match for Romance: "sentir" example "sente"
         const ownStem = romanceStem(ownBare, langCode);
         if (ownStem && ownStem.length >= 3 && t.startsWith(ownStem)) continue;
+        // Own-card Russian conjugation exemption: conjugated forms of the teach card verb.
+        // дума-ть → tokens starting with "дума" (stem >= 3 chars) are exempted.
+        // Min 3 to cover short stems like вер- (верить → веришь, верю).
+        if (ownRuStem && ownRuStem.length >= 3 && t.startsWith(ownRuStem)) continue;
         // Own-card Korean conjugation exemption: the card's own 다-verb forms are allowed
         if (ownKoStem && ownKoStem.length >= 1) {
           const tKoStem = koStemOf(t);
