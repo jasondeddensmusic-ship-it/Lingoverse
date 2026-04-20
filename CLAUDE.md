@@ -344,17 +344,17 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 |----------|--------|-------|-------------|---------|--------|
 | German v2 | v2 | 36 | 5,170 | 58 entries | **GOLD STANDARD.** All PP checks PASS. |
 | German v2 (AR) | v2 | 36 | ~5,170 | 58 entries (AR) | Arabic source variant. B2 CEFR trAr gap (1,821). |
-| Korean | v2 | 69 | 1,350 | 47 entries | COMPLETE. PP8/PP63/PP67 all clean. |
-| Dutch | v2 | 89 | 1,333 | 36 entries | COMPLETE. Grammar rewritten to production quality (NT2-aligned, PR #205). PP8/PP63/PP67 all clean. |
-| French | v2 | 90 | 1,156 | 52 entries | COMPLETE. PP8/PP63/PP67 all clean. |
-| Spanish | v2 | 92 | 1,323 | 53 entries | COMPLETE. PP8/PP63/PP67 all clean. |
-| Italian | v2 | 36 | 905 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. PP67 0/0, PP63 PASS. |
-| Japanese | v2 | 36 | 670 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, PP63 PASS, PP67 0/0. Foundations lock, notation tutorial, CEFR ref wired. |
-| Chinese | v2 | 45 | 842 | 53 entries | **VALIDATED.** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8/PP48/PP63/PP67 all clean. |
-| Portuguese | v2 | 36 | 761 | 50 entries | **VALIDATED.** Brazilian primary, EU notes. CEFR A1-B2. PP8/PP48/PP63/PP67 all clean. |
-| Russian | v2 | 36 | 665 | 50 entries | **VALIDATED.** Cyrillic, 6 cases, aspect pairs, TRKI framework. All 36 units complete. PP8/PP48/PP63/PP67 all clean. Grammar: 50 real entries (A1-B2, TRKI-aligned). |
+| Korean | v2 | 69 | 1,384 | 47 entries | COMPLETE. PP8/PP63/PP67 all clean. |
+| Dutch | v2 | 89 | 1,349 | 36 entries | COMPLETE. Grammar rewritten to production quality (NT2-aligned, PR #205). PP8/PP63/PP67 all clean. |
+| French | v2 | 90 | 1,176 | 52 entries | COMPLETE. PP8/PP63/PP67 all clean. |
+| Spanish | v2 | 92 | 1,350 | 53 entries | COMPLETE. PP8/PP63/PP67 all clean. |
+| Italian | v2 | 36 | 924 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. PP67 0/0, PP63 PASS. |
+| Japanese | v2 | 36 | 684 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, PP63 PASS, PP67 0/0. Foundations lock, notation tutorial, CEFR ref wired. |
+| Chinese | v2 | 45 | 860 | 53 entries | **VALIDATED.** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8/PP48/PP63/PP67 all clean. |
+| Portuguese | v2 | 36 | 779 | 50 entries | **VALIDATED.** Brazilian primary, EU notes. CEFR A1-B2. PP8/PP48/PP63/PP67 all clean. |
+| Russian | v2 | 36 | 672 | 50 entries | **VALIDATED.** Cyrillic, 6 cases, aspect pairs, TRKI framework. All 36 units complete. PP8/PP48/PP63/PP67 all clean. Grammar: 50 real entries (A1-B2, TRKI-aligned). |
 
-**Grand total: ~14,175 teach cards across 10 languages (main unit files; excludes legacy batch-file duplicates). Build passes.**
+**Grand total: ~14,348 teach cards across 10 languages (main unit files; excludes legacy batch-file duplicates). Build passes.**
 **Grammar modules: 521 real entries across 10 languages (Chinese 53, Portuguese 50, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch 36, Russian 50). Zero placeholder modules remaining.**
 **Validator state (2026-04-20): All 10 languages PASS PP8, PP43, PP48, PP63, PP64, PP67.**
 
@@ -470,8 +470,9 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-20.md`** — **LATEST HANDOFF.** 41 PRs shipped (#213–#253). +538 teach cards. 7 PP58 function closures (F14/F15/F17/F8/F22/F21/F11). B1/B2 civic + A2 mental verbs 10/10 across all 10 languages. Read this FIRST.
-- **`docs/SESSION_HANDOFF_2026-04-19.md`** — Previous handoff. PP63/PP67/PP64 all clean. 8 feature PRs (SRS, placement quiz, Verumius Spanish).
+- **`docs/SESSION_HANDOFF_2026-04-20b.md`** — **LATEST HANDOFF.** 6 PRs shipped (#255–#260). +173 teach cards across 9 languages. PP55 deep-batch closures: A1/A2 essentials for FR/ES/NL/KO/JA/ZH/RU/PT/IT. All 10 languages 100% clean on every validator. Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-20.md`** — Previous handoff. 41 PRs shipped (#213–#253). +538 teach cards. 7 PP58 function closures.
+- **`docs/SESSION_HANDOFF_2026-04-19.md`** — Earlier handoff. PP63/PP67/PP64 all clean. 8 feature PRs (SRS, placement quiz, Verumius Spanish).
 - **`docs/SESSION_HANDOFF_2026-04-17b.md`** — Previous handoff. Japanese PP65 complete. Full validation PASS.
 - **`docs/DECISION_LOG.md`** — All D-numbers indexed by topic (D1-D124).
 - **`docs/BUILD_STATUS.md`** — Full build history per language (updated 2026-04-19).
