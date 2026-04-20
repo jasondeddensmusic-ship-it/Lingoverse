@@ -307,6 +307,140 @@ lessons:[
  hint:"表演 means a live show or ___. 精彩 means wonderful or spectacular. The sentence praises a show."}
 ]}
 
+,
+
+// ─── L5: HSK 4 Civic Verbs and Social Concepts ───
+{id:"zhv2_u24l_hsk4_civic_verbs", title:"社会动词 Civic Verbs and Social Concepts", icon:"🤝", xp:20, board:true, steps:[
+{type:"intro", title:"社会动词 Civic Verbs and Social Concepts",
+ desc:"Learn essential HSK 4 verbs and adjectives for discussing cooperation, advice, responsibility, and attitude in social contexts. These words are core vocabulary for written Chinese and workplace communication.",
+ goals:["Use action verbs 支持, 鼓励, 建议, 负责, 参与","Describe attitude with 积极, 消极, 完整","Discuss abstract ideas with 可能性"]},
+
+{type:"tip", title:"Positive and Negative Attitude: 积极 vs. 消极",
+ text:"These two adjectives form a natural pair in Chinese:\n\n积极(jījí) = positive, proactive, active\n消极(xiāojí) = passive, negative, inactive\n\n积 means to accumulate and build; 极 means extreme or utmost. A positive person builds up maximum effort.\n消 means to vanish or fade; 消极 describes something that drains away rather than builds.\n\nBoth are used to describe attitudes, behavior, and outlook. In Chinese workplaces and schools, 积极 is strongly praised. 积极参与 (participate actively) is a common teacher's phrase.",
+ deepDive:{title:"消极 vs. 不积极",
+  text:"In Chinese, saying someone is 消极 is stronger than saying they are 不积极. 不积极 simply means 'not proactive.' 消极 implies a draining, defeatist attitude.\n\nIn formal writing (work reports, HSK essays), using these paired adjectives precisely signals advanced vocabulary control. They also combine productively: 消极影响 (negative influence), 积极作用 (positive role)."}},
+
+{type:"teach", trg:"支持(zhīchí)", src:"to support", pos:"verb", gender:null,
+ note:"Prop up + hold. To back someone or something with active support.\n支持者 = supporter. 得到支持 = receive support.",
+ example:"A: 你(nǐ)支持(zhīchí)这个(zhège)计划(jìhuà)吗(ma)？\nB: 支持(zhīchí)，我(wǒ)认为(rènwéi)这个(zhège)方法(fāngfǎ)很(hěn)好(hǎo)。",
+ exampleSrc:"A: Do you support this plan?\nB: I support it. I think this method is very good.",
+ funFact:"支 means a branch or prop, and 持 means to hold or maintain. To support something is to hold it up like a branch propping a structure. This character appears in 支出 (expenditure, 'letting money branch out') and 支付 (to pay). 支持 is politically neutral in Chinese. You can support a friend's idea or a government policy with the same word."},
+
+{type:"teach", trg:"鼓励(gǔlì)", src:"to encourage", pos:"verb", gender:null,
+ note:"Drum + strength/force. To stir up someone's energy and confidence.\n鼓励某人做某事 = encourage someone to do something.",
+ example:"A: 老师(lǎoshī)一直(yīzhí)鼓励(gǔlì)我(wǒ)努力(nǔlì)学习(xuéxí)。\nB: 你(nǐ)的(de)老师(lǎoshī)真(zhēn)的(de)很(hěn)好(hǎo)。",
+ exampleSrc:"A: My teacher has always encouraged me to study hard.\nB: Your teacher is really wonderful.",
+ funFact:"鼓 is the character for drum, and 励 means strength or force. Encouragement is literally 'beating the drum to build someone's strength.' In ancient China, war drums motivated soldiers to fight harder. The same energy applies to encouragement in daily life. The structure 鼓励你做某事 (encourage you to do something) is a very common HSK 4 sentence pattern."},
+
+{type:"teach", trg:"建议(jiànyì)", src:"to suggest / suggestion", pos:"verb", gender:null,
+ note:"Establish + idea. To offer a recommendation.\n我建议... = I suggest... 提建议 = to make a suggestion.",
+ example:"A: 你(nǐ)有(yǒu)什么(shénme)建议(jiànyì)吗(ma)？\nB: 我(wǒ)建议(jiànyì)你(nǐ)先(xiān)和(hé)朋友(péngyou)讨论(tǎolùn)一下(yīxià)。",
+ exampleSrc:"A: Do you have any suggestions?\nB: I suggest you discuss it with your friends first.",
+ funFact:"建 means to establish or build, and 议 means discussion or deliberation. A suggestion is 'establishing something for discussion.' 建议 is both a verb ('I suggest') and a noun ('a suggestion'), like many Chinese two-character words. It appears in formal phrases like 合理建议 (reasonable suggestion) and 接受建议 (accept a suggestion), common in HSK 4 reading passages."},
+
+{type:"teach", trg:"负责(fùzé)", src:"to be responsible / responsible", pos:"verb", gender:null,
+ note:"Bear + duty. To take on responsibility for something.\n负责人 = person in charge. 负责任 = take responsibility.",
+ example:"A: 谁(shéi)负责(fùzé)这个(zhège)工作(gōngzuò)？\nB: 我(wǒ)负责(fùzé)，有(yǒu)问题(wèntí)可以(kěyǐ)找(zhǎo)我(wǒ)。",
+ exampleSrc:"A: Who is responsible for this work?\nB: I am responsible. If there are problems, you can come to me.",
+ funFact:"负 means to carry on one's back or to bear a burden. 责 means duty or accountability. Being responsible is literally 'carrying the duty on your back.' 负 also appears in 负担 (burden) and 负面 (negative side). Chinese work culture strongly values 负责任的态度 (a responsible attitude). It appears frequently in performance reviews and recommendation letters."},
+
+{type:"teach", trg:"参与(cānyù)", src:"to participate / to take part in", pos:"verb", gender:null,
+ note:"Join + enter/engage. To actively take part in something.\n积极参与 = participate actively. 参与者 = participant.",
+ example:"A: 老师(lǎoshī)希望(xīwàng)学生(xuésheng)积极(jījí)参与(cānyù)。\nB: 我(wǒ)很(hěn)喜欢(xǐhuan)参与(cānyù)，能(néng)学(xué)到(dào)很(hěn)多(duō)。",
+ exampleSrc:"A: The teacher hopes students participate actively.\nB: I really enjoy participating. I can learn a lot.",
+ funFact:"参 means to join in or attend, and 与 means to engage with or be involved in. Together they emphasize active engagement rather than passive observation. 参与 is slightly more formal than 参加, which focuses on physically attending. You 参加 a party (show up), but you 参与 a project (contribute to it). This distinction often appears in HSK 4 grammar exercises."},
+
+{type:"teach", trg:"积极(jījí)", src:"positive / proactive / active", pos:"adj", gender:null,
+ note:"Accumulate + extreme. Describes an energetic, constructive attitude.\n积极性 = enthusiasm/initiative. 积极参与 = participate actively.",
+ example:"A: 她(tā)在(zài)工作(gōngzuò)上(shàng)一直(yīzhí)很(hěn)积极(jījí)。\nB: 对(duì)，她(tā)总是(zǒngshì)努力(nǔlì)帮(bāng)别人(biérén)解决(jiějué)问题(wèntí)。",
+ exampleSrc:"A: She has always been very proactive at work.\nB: Yes, she always works hard to help others solve problems.",
+ funFact:"积 means to accumulate, and 极 means extreme or utmost. A proactive person accumulates effort to the maximum. The opposite 消极 (passive, negative) uses 消 (to vanish). Together they form the most common attitude-contrast pair in Chinese education and workplace vocabulary. HSK 4 essays frequently ask you to discuss 积极影响 (positive influence) vs. 消极影响 (negative influence)."},
+
+{type:"teach", trg:"消极(xiāojí)", src:"passive / negative / inactive", pos:"adj", gender:null,
+ note:"Vanish + extreme. Describes a draining, defeatist attitude.\n消极情绪 = negative emotions. 消极影响 = negative influence.",
+ example:"A: 他(tā)最近(zuìjìn)态度(tàidu)很(hěn)消极(xiāojí)，什么(shénme)都(dōu)不(bù)想(xiǎng)做(zuò)。\nB: 你(nǐ)应该(yīnggāi)鼓励(gǔlì)他(tā)，帮(bāng)他(tā)想(xiǎng)办法(bànfǎ)。",
+ exampleSrc:"A: He has been very passive lately. He does not want to do anything.\nB: You should encourage him and help him find a way forward.",
+ funFact:"消 means to vanish, fade, or eliminate. 消极 describes energy that drains away rather than builds up. The pairing with 积极 is deliberate: Chinese grammar books teach them together as antonyms. In psychology-themed HSK texts, 消极情绪 (negative emotions) like stress or hopelessness are contrasted with 积极态度 (positive attitude) as a common essay topic."},
+
+{type:"teach", trg:"完整(wánzhěng)", src:"complete / intact / whole", pos:"adj", gender:null,
+ note:"Complete + whole. Nothing missing, fully intact.\n完整的信息 = complete information. 保持完整 = keep intact.",
+ example:"A: 这个(zhège)故事(gùshi)的(de)内容(nèiróng)完整(wánzhěng)吗(ma)？\nB: 不(bù)太(tài)完整(wánzhěng)，结果(jiéguǒ)还(hái)没(méi)写(xiě)。",
+ exampleSrc:"A: Is the content of this story complete?\nB: Not very complete. The ending has not been written yet.",
+ funFact:"完 means complete or finished, and 整 means whole or orderly. Together they emphasize both completion and structural integrity. 完整 differs from just 完 (done): 完 means finished, 完整 means fully intact with nothing missing. This distinction matters in reading comprehension: 完整的思路 means a fully developed line of reasoning, not just a finished one."},
+
+{type:"teach", trg:"可能性(kěnéngxìng)", src:"possibility", pos:"noun", gender:null,
+ note:"Possible + ability + nature. An abstract noun formed by adding 性.\n有可能性 = there is a possibility. 可能性很大 = high likelihood.",
+ example:"A: 你(nǐ)觉得(juéde)成功(chénggōng)的(de)可能性(kěnéngxìng)大(dà)吗(ma)？\nB: 只要(zhǐyào)我们(wǒmen)努力(nǔlì)，可能性(kěnéngxìng)就(jiù)很(hěn)大(dà)。",
+ exampleSrc:"A: Do you think the possibility of success is high?\nB: As long as we work hard, the possibility is very high.",
+ funFact:"可能 means 'possible' or 'maybe.' Adding the suffix 性 turns it into an abstract noun meaning 'possibility' or 'probability.' This pattern is productive in Chinese: 可能性, 重要性 (importance), 可靠性 (reliability). The suffix 性 signals an abstract quality or characteristic. HSK 4 reading passages use 可能性 frequently when discussing outcomes, risks, and plans."},
+
+{type:"mc", q:"我(wǒ)建议(jiànyì)你(nǐ)先(xiān)和(hé)朋友(péngyou)讨论(tǎolùn)一下(yīxià)。 The speaker is:",
+ opts:["Making a suggestion to the listener","Asking a question","Giving a command","Describing a past event"],
+ ans:"Making a suggestion to the listener",
+ hint:"建议 functions here as a verb meaning to recommend or suggest. 我建议你 means 'I recommend that you...'"},
+
+{type:"match", pairs:[
+  {trg:"支持(zhīchí)", src:"to support"},
+  {trg:"鼓励(gǔlì)", src:"to encourage"},
+  {trg:"建议(jiànyì)", src:"to suggest"},
+  {trg:"负责(fùzé)", src:"to be responsible"},
+  {trg:"参与(cānyù)", src:"to participate"}
+]},
+
+{type:"fb", s:"老师(lǎoshī)一直(yīzhí){1}我(wǒ)努力(nǔlì)学习(xuéxí)。",
+ a:["鼓励(gǔlì)"],
+ opts:["鼓励(gǔlì)","支持(zhīchí)","建议(jiànyì)","参与(cānyù)"],
+ hint:"This verb means to stir up someone's confidence and energy. Its characters combine 'drum' and 'strength.'",
+ sSrc:"My teacher has always {1} me to study hard."},
+
+{type:"mc", q:"积极(jījí) and 消极(xiāojí) are antonyms. What does 消极 describe?",
+ opts:["A draining, passive attitude","An energetic, proactive attitude","A careful, detailed attitude","A friendly, warm attitude"],
+ ans:"A draining, passive attitude",
+ hint:"消 means to vanish or fade. This word describes energy that drains away rather than builds up."},
+
+{type:"fb", s:"谁(shéi){1}这个(zhège)工作(gōngzuò)？请(qǐng)告诉(gàosu)我(wǒ)。",
+ a:["负责(fùzé)"],
+ opts:["负责(fùzé)","参与(cānyù)","支持(zhīchí)","鼓励(gǔlì)"],
+ hint:"This verb means to be in charge of or accountable for something. Its characters mean 'to carry a duty on your back.'",
+ sSrc:"Who is {1} for this work? Please tell me."},
+
+{type:"fb", s:"她(tā)在(zài)工作(gōngzuò)上(shàng)一直(yīzhí)很(hěn){1}，总是(zǒngshì)主动(zhǔdòng)帮(bāng)别人(biérén)。",
+ a:["积极(jījí)"],
+ opts:["积极(jījí)","消极(xiāojí)","完整(wánzhěng)","负责(fùzé)"],
+ hint:"This adjective describes an energetic, constructive attitude. It is the opposite of 消极.",
+ sSrc:"She has always been very {1} at work, always taking the initiative to help others."},
+
+{type:"match", pairs:[
+  {trg:"积极(jījí)", src:"positive / proactive"},
+  {trg:"消极(xiāojí)", src:"passive / negative"},
+  {trg:"完整(wánzhěng)", src:"complete / intact"},
+  {trg:"可能性(kěnéngxìng)", src:"possibility"}
+]},
+
+{type:"fb", s:"你(nǐ)觉得(juéde)成功(chénggōng)的(de){1}大(dà)吗(ma)？",
+ a:["可能性(kěnéngxìng)"],
+ opts:["可能性(kěnéngxìng)","完整(wánzhěng)","建议(jiànyì)","积极(jījí)"],
+ hint:"This abstract noun means the likelihood that something may happen. It is formed by adding 性 to 可能.",
+ sSrc:"Do you think the {1} of success is high?"},
+
+{type:"mc", q:"完整(wánzhěng) differs from 完(wán) because:",
+ opts:["完整 means fully intact with nothing missing; 完 means simply finished","They are identical in meaning","完整 is informal; 完 is formal","完 means complete; 完整 means started"],
+ ans:"完整 means fully intact with nothing missing; 完 means simply finished",
+ hint:"The key is the character 整, which adds structural wholeness. Think about a report: it can be submitted yet still lack data. Which answer captures that extra requirement?"},
+
+{type:"fb", s:"他(tā)最近(zuìjìn)态度(tàidu)很(hěn){1}，什么(shénme)都(dōu)不(bù)想(xiǎng)做(zuò)。",
+ a:["消极(xiāojí)"],
+ opts:["消极(xiāojí)","积极(jījí)","完整(wánzhěng)","负责(fùzé)"],
+ hint:"This adjective means passive or negative in attitude. It describes energy that fades away rather than builds up.",
+ sSrc:"He has been very {1} lately. He does not want to do anything."},
+
+{type:"drag_fill",
+ s:"我(wǒ)们(men){1}你(nǐ)积极(jījí){2}这个(zhège)计划(jìhuà)，我们(wǒmen)都(dōu){3}你(nǐ)的(de)决定(juédìng)。",
+ blanks:{"1":"建议(jiànyì)","2":"参与(cānyù)","3":"支持(zhīchí)"},
+ pool:["建议(jiànyì)","参与(cānyù)","支持(zhīchí)","负责(fùzé)"],
+ hint:"We suggest, you actively participate, and we support. Three different civic verbs from this lesson."}
+]}
+
 ]};
 
 export default UNIT_24;
