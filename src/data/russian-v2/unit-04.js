@@ -216,5 +216,104 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
  hint:"An ancient Russian custom of hospitality — offering bread and salt to visitors."}
 ,{type:"match",pairs:[{trg:"сок",src:"juice"},{trg:"мало",src:"a little / few"}]}]}
 
+,
+
+{id:"ruv2_u4l4", title:"Ещё слова", icon:"📚", xp:15, board:true, steps:[
+
+{type:"intro", title:"More Essential Words",
+ desc:"Seven A1 gaps: a key food word (суп), a verb (слышать), a polite expression (простите), two core adjectives (лёгкий, трудный), and two question-answer nouns (вопрос, интересный).",
+ goals:["Learn суп and простите","Use слышать in context","Use лёгкий, трудный, интересный as predicates"]},
+
+{type:"teach", trg:"суп", src:"soup", pos:"noun", gender:"m",
+ note:"Masculine. Ends in consonant.\nOne of the most common Russian lunch dishes.",
+ example:"A: Ты хочешь суп?\nB: Да, суп и хлеб.",
+ exampleSrc:"A: Do you want soup?\nB: Yes, soup and bread.",
+ funFact:"Borscht (борщ) and solyanka (солянка) are Russia's most iconic soups. Russians say 'первое' (first course) instead of 'soup course' — it always starts the main meal."},
+
+{type:"teach", trg:"простите", src:"sorry / excuse me (formal)", pos:"intj", gender:null,
+ note:"Formal apology/excuse. From простить (to forgive).\nUse простите with strangers; прости with friends.",
+ example:"A: Простите, где туалет?\nB: Там.",
+ exampleSrc:"A: Excuse me, where is the toilet?\nB: Over there.",
+ funFact:"Простите literally means 'forgive me' (imperative plural/formal). Russians use it for interrupting someone, bumping into them, or asking a favour of a stranger — a full-use apology word."},
+
+{type:"teach", trg:"слышать", src:"to hear", pos:"verb", gender:null,
+ note:"2nd conjugation imperfective. Stem: слыш-.\nConj: я слышу, ты слышишь, он слышит.",
+ example:"A: Ты слышишь меня?\nB: Да, я слышу тебя.",
+ exampleSrc:"A: Can you hear me?\nB: Yes, I can hear you.",
+ funFact:"Слышать is an involuntary perception verb — you hear without trying. Compare with слушать (to listen), which is deliberate. The same distinction as English 'hear' vs 'listen.'"},
+
+{type:"teach", trg:"лёгкий", src:"easy / light", pos:"adj", gender:"m",
+ note:"Short-form predicate: лёгок (m), легка (f), легко (n).\nTwo meanings: easy and physically light.",
+ example:"A: Этот суп лёгкий?\nB: Да, очень лёгкий.",
+ exampleSrc:"A: Is this soup light (mild)?\nB: Yes, very light.",
+ funFact:"The ё in лёгкий is mandatory — 'легкий' (without ё) is technically wrong but very common in informal writing. In pronunciation, the е is always stressed: лЁгкий. The г is often pronounced like 'kh' before кий."},
+
+{type:"teach", trg:"трудный", src:"difficult / hard", pos:"adj", gender:"m",
+ note:"Regular adj, 1st declension.\nOpposite of лёгкий. Stress on ТРУД-.",
+ example:"A: Русский язык трудный?\nB: Немного трудный, но интересный.",
+ exampleSrc:"A: Is Russian difficult?\nB: A little difficult, but interesting.",
+ funFact:"Russians themselves say Russian grammar is трудный for foreigners. The case system, aspects, and verb conjugations are genuinely complex. Saying 'немного трудный' is a polite understatement."},
+
+{type:"teach", trg:"интересный", src:"interesting", pos:"adj", gender:"m",
+ note:"Regular adj. Stress on -рЕС-.\nUsed in the same pattern as English: это интересный вопрос.",
+ example:"A: Как вопрос?\nB: Очень интересный!",
+ exampleSrc:"A: How is the question?\nB: Very interesting!",
+ funFact:"Интересный is one of the earliest Russian cognates English speakers recognise. It came into Russian via French 'intéressant' in the 18th century during Russia's Francophile era under Catherine the Great."},
+
+{type:"teach", trg:"вопрос", src:"question", pos:"noun", gender:"m",
+ note:"Masculine. Ends in consonant.\nPlural: вопросы. Often paired with ответ (answer).",
+ example:"A: У тебя есть вопрос?\nB: Да, один вопрос.",
+ exampleSrc:"A: Do you have a question?\nB: Yes, one question.",
+ funFact:"Вопросительный знак (question mark) is called that because вопрос means question. In Russian classrooms, raising your hand is сигнал вопроса — a universal gesture that needs no translation."},
+
+{type:"tip", title:"Adjective Agreement: Short Preview",
+ text:"Russian adjectives agree with the noun's gender. For now, just know the masculine form (dictionary form) and use it as a predicate after 'это':\n\nЭто лёгкий суп. (easy/light soup — masc noun)\nЭто трудный вопрос. (difficult question — masc noun)\nЭто интересный вопрос. (interesting question — masc noun)\n\nAs a predicate after 'is':\nСуп лёгкий.\nВопрос трудный.\n\nFull adjective declension comes in A2. For now, master the pattern with masculine nouns.",
+ icon:"🎯"},
+
+{type:"mc", q:"You bump into someone on the street in Russia. What do you say?",
+ opts:["Да","Простите","Спасибо","Нет"],
+ ans:"Простите",
+ hint:"This formal expression is used to apologise or get someone's attention politely."},
+
+{type:"mc", q:"Which word best describes something you find engaging and want to know more about?",
+ opts:["лёгкий","трудный","интересный","много"],
+ ans:"интересный",
+ hint:"This adjective comes from the same Latin root as the English word for the same concept."},
+
+{type:"mc", q:"What is the Russian word for 'to hear' (involuntary perception)?",
+ opts:["слышать","слушать","смотреть","говорить"],
+ ans:"слышать",
+ hint:"This verb describes hearing without deliberately trying. It differs from listening attentively."},
+
+{type:"fb", s:"A: Ты {1} меня?\nB: Да, я слышу тебя.",
+ a:["слышишь"],
+ opts:["слышишь","слышу","слышит","слышать"],
+ hint:"Fill in the ты-form (you, informal) of слышать. The stem is слыш- plus the 2nd conjugation ending for ты.",
+ sSrc:"A: Can you {1} me?\nB: Yes, I can hear you."},
+
+{type:"fb", s:"A: Русский язык трудный?\nB: Немного, но очень {1}.",
+ a:["интересный"],
+ opts:["интересный","лёгкий","трудный","много"],
+ hint:"B agrees it is somewhat difficult but adds a positive quality — what word fits 'engaging and worth learning'?",
+ sSrc:"A: Is Russian difficult?\nB: A little, but very {1}."},
+
+{type:"match", pairs:[
+  {trg:"суп", src:"soup"},
+  {trg:"простите", src:"sorry / excuse me"},
+  {trg:"слышать", src:"to hear"},
+  {trg:"лёгкий", src:"easy / light"},
+  {trg:"трудный", src:"difficult"}
+]},
+
+{type:"match", pairs:[
+  {trg:"интересный", src:"interesting"},
+  {trg:"вопрос", src:"question"},
+  {trg:"суп", src:"soup"},
+  {trg:"простите", src:"excuse me"},
+  {trg:"лёгкий", src:"easy"}
+]}
+
+]}
+
 ]};
 export default UNIT_04;
