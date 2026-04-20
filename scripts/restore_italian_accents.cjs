@@ -1,14 +1,13 @@
 #!/usr/bin/env node
 // Restore stripped Italian accents in italian-v2 batch files.
 // Only unambiguous substitutions (word-boundary match).
-// Skip: e/è, a/à, o/ò (these are semantically ambiguous single-letter words).
+// Skip: e/è, a/à, o/ò single letters (semantically ambiguous).
 
 'use strict';
 const fs = require('fs');
 const path = require('path');
 
 function globSync(pattern) {
-  // pattern: 'src/data/italian-v2/_batch*.js'
   const dir = path.dirname(pattern);
   const prefix = path.basename(pattern).split('*')[0];
   const suffix = path.basename(pattern).split('*')[1] || '';
@@ -17,9 +16,8 @@ function globSync(pattern) {
     .map(f => path.join(dir, f));
 }
 
-// Each entry: [pattern (no accent), replacement (with accent)]
-// All entries are unambiguous Italian words — only one valid spelling exists with the accent.
-const SUBSTITUTIONS = [
+// Word-level substitutions: [stripped, accented]
+const WORD_SUBSTITUTIONS = [
   // Conjunctions and question words
   ['perche', 'perché'],
   ['finche', 'finché'],
@@ -28,6 +26,7 @@ const SUBSTITUTIONS = [
   ['nonche', 'nonché'],
   ['sicche', 'sicché'],
   ['affinche', 'affinché'],
+  ['pero', 'però'],
   // Adverbs
   ['cosi', 'così'],
   ['piu', 'più'],
@@ -66,14 +65,30 @@ const SUBSTITUTIONS = [
   ['venerdi', 'venerdì'],
 ];
 
+// Phrase-level substitutions for è (is) vs e (and).
+// Only unambiguous contexts where "is" is the only sensible reading.
+const PHRASE_SUBSTITUTIONS = [
+  ['non e ', 'non è '],
+  ['non e,', 'non è,'],
+  ['non e.', 'non è.'],
+  ['non e!', 'non è!'],
+  ['non e?', 'non è?'],
+  ['cio e ', 'ciò è '],
+  ['questo e ', 'questo è '],
+  ['questa e ', 'questa è '],
+  ['quello e ', 'quello è '],
+  ['quella e ', 'quella è '],
+  ['lui e ', 'lui è '],
+  ['lei e ', 'lei è '],
+  ['che e ', 'che è '],
+];
+
 function processFile(filePath) {
   let content = fs.readFileSync(filePath, 'utf8');
   const original = content;
-  let changes = [];
+  const changes = [];
 
-  for (const [stripped, accented] of SUBSTITUTIONS) {
-    // Word-boundary regex. \b handles Unicode imperfectly, so use explicit boundaries.
-    // Match: (start-of-line | non-letter) + stripped + (end-of-line | non-letter)
+  for (const [stripped, accented] of WORD_SUBSTITUTIONS) {
     const re = new RegExp(`([^a-zA-ZÀ-ÿ])${stripped}([^a-zA-ZÀ-ÿ])`, 'g');
     let count = 0;
     content = content.replace(re, (_m, before, after) => {
@@ -81,6 +96,16 @@ function processFile(filePath) {
       return `${before}${accented}${after}`;
     });
     if (count > 0) changes.push(`${stripped}→${accented}: ${count}`);
+  }
+
+  for (const [before, after] of PHRASE_SUBSTITUTIONS) {
+    let count = 0;
+    const parts = content.split(before);
+    if (parts.length > 1) {
+      count = parts.length - 1;
+      content = parts.join(after);
+      changes.push(`"${before}"→"${after}": ${count}`);
+    }
   }
 
   if (content !== original) {

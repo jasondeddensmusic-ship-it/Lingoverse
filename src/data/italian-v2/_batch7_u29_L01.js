@@ -72,7 +72,7 @@ const BATCH7_L1 = {id:"itv2_u29l_b7_1", title:"La motivazione e la crescita pers
 
 {type:"teach", trg:"il fallimento", src:"failure", pos:"noun", gender:"m",
  note:"Masculine noun. 'Fallire' = to fail.\n'Imparare dal fallimento' = to learn from failure.",
- example:"A: Il fallimento non e la fine.\nB: E l'inizio di una nuova opportunita.",
+ example:"A: Il fallimento non è la fine.\nB: E l'inizio di una nuova opportunita.",
  exampleSrc:"A: Failure is not the end.\nB: It is the beginning of a new opportunity.",
  funFact:"Italian culture historically stigmatized 'fallimento' (also means bankruptcy). The startup movement is changing this, promoting 'fail fast' culture, though the cultural shift is still ongoing."},
 

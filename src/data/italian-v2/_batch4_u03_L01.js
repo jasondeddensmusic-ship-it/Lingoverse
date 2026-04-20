@@ -52,7 +52,7 @@ const BATCH4_U03_L1 = {
      note:"Masculine. Feminine: antipatica.\nThe opposite of 'simpatico.' Strong negative judgment.",
      example:"A: Ti piace il nuovo vicino?\nB: No, e molto antipatico.",
      exampleSrc:"A: Do you like the new neighbor?\nB: No, he is very unpleasant.",
-     funFact:"Calling someone 'antipatico' is quite harsh in Italian. It implies the person is actively off-putting, not just neutral. Italians might soften it: 'non e molto simpatico' (not very likeable) instead of directly saying 'antipatico.'"},
+     funFact:"Calling someone 'antipatico' is quite harsh in Italian. It implies the person is actively off-putting, not just neutral. Italians might soften it: 'non è molto simpatico' (not very likeable) instead of directly saying 'antipatico.'"},
 
     {type:"teach", trg:"gentile", src:"kind / gentle / polite", pos:"adj", gender:null,
      note:"Same form for masculine and feminine.\nFrom Latin 'gentilis' (of good family).",

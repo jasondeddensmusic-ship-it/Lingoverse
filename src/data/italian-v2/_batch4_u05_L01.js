@@ -68,7 +68,7 @@ const BATCH4_U05_L1 = {
 
     {type:"teach", trg:"la coperta", src:"the blanket", pos:"noun", gender:"f",
      note:"Feminine. Plural: le coperte. From 'coprire' (to cover).\n'Coperta' also means 'deck' on a ship.",
-     example:"A: Hai freddo? Prendi una coperta.\nB: Grazie, questa e calda.",
+     example:"A: Hai freddo? Prendi una coperta.\nB: Grazie, questa è calda.",
      exampleSrc:"A: Are you cold? Take a blanket.\nB: Thanks, this one is warm.",
      funFact:"In Italian bedding tradition, the 'piumone' (duvet) has largely replaced multiple 'coperte' (blankets). However, many Italian grandmothers still insist on the proper layering system: lenzuola (sheets), then coperte, then copriletto (bedspread)."},
 

@@ -26,7 +26,7 @@ const BATCH2_U02_L2 = {
 
     {type:"teach", trg:"agosto", src:"August", pos:"noun", gender:"m",
      note:"Masculine. Named after Emperor Augustus.\nThe month when Italy practically shuts down.",
-     example:"A: In agosto l'ufficio e chiuso.\nB: Come tutta l'Italia!",
+     example:"A: In agosto l'ufficiò è chiuso.\nB: Come tutta l'Italia!",
      exampleSrc:"A: In August the office is closed.\nB: Like all of Italy!",
      funFact:"August is when Italy goes on vacation. Cities empty, shops close, and everyone heads to the coast or mountains. Ferragosto (August 15th) is the peak. Working in August is considered unusual."},
 
@@ -102,7 +102,7 @@ const BATCH2_U02_L2 = {
      ans:"Luglio",
      hint:"This Roman dictator reformed the calendar. The month that honors him is the seventh month."},
 
-    {type:"fb", s:"A {1} l'ufficio e chiuso. Come tutta l'Italia!",
+    {type:"fb", s:"A {1} l'ufficiò è chiuso. Come tutta l'Italia!",
      a:["agosto"],
      opts:["agosto","gennaio","marzo","ottobre"],
      hint:"This is the month when Italy practically shuts down for vacation. Named after Emperor Augustus.",

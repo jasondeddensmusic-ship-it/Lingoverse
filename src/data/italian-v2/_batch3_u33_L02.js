@@ -81,7 +81,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"l'ermeneutica", src:"hermeneutics", pos:"noun", gender:"f",
      note:"Feminine noun. The theory and practice of interpretation.\n'Ermeneutica del testo' = textual hermeneutics.",
-     example:"A: L'ermeneutica ci insegna che ogni testo ha molteplici interpretazioni.\nB: Il significato non e mai fisso e definitivo.",
+     example:"A: L'ermeneutica ci insegna che ogni testo ha molteplici interpretazioni.\nB: Il significato non è mai fisso e definitivo.",
      exampleSrc:"A: Hermeneutics teaches us that every text has multiple interpretations.\nB: Meaning is never fixed and final.",
      funFact:"Emilio Betti, an Italian legal scholar, developed a rigorous hermeneutic theory in the 1950s that influenced legal interpretation worldwide. His work bridges philosophy and practical law, showing how interpretation shapes justice."},
 

@@ -86,7 +86,7 @@ const BATCH4_U08_L2 = {
 
     {type:"teach", trg:"accontentarsi", src:"to be satisfied with / to settle for", pos:"verb", gender:null,
      note:"Reflexive verb. 'Chi si accontenta gode' = He who settles is happy (proverb).\nFrom 'contento' (happy).",
-     example:"A: Il vestito non e perfetto, ma mi accontento.\nB: Stai bene comunque!",
+     example:"A: Il vestito non è perfetto, ma mi accontento.\nB: Stai bene comunque!",
      exampleSrc:"A: The dress is not perfect, but I'll settle for it.\nB: You look good anyway!",
      funFact:"'Chi si accontenta gode' (who settles, enjoys) is a famous Italian proverb about finding happiness in what you have. It is the philosophical counterpart to the Italian love of complaining: complain, but ultimately accept and enjoy."},
 

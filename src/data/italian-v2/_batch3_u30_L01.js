@@ -114,8 +114,8 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Perche 'senza che' richiede il congiuntivo?",
-     opts:["Perche 'senza' e una parola negativa che richiede il congiuntivo","Perche l'azione nella subordinata non e avvenuta e resta ipotetica","Perche tutte le congiunzioni italiane richiedono il congiuntivo","Perche 'senza che' introduce una causa, non una conseguenza"],
-     ans:"Perche l'azione nella subordinata non e avvenuta e resta ipotetica",
+     opts:["Perche 'senza' e una parola negativa che richiede il congiuntivo","Perche l'azione nella subordinata non è avvenuta e resta ipotetica","Perche tutte le congiunzioni italiane richiedono il congiuntivo","Perche 'senza che' introduce una causa, non una conseguenza"],
+     ans:"Perche l'azione nella subordinata non è avvenuta e resta ipotetica",
      hint:"The action described did not take place. This n...-occurrence creates the uncertainty that the subjunctive mood is designed to express."}
   ,{type:"match",pairs:[{trg:"comunque",src:"however / in any case"},{trg:"per quanto",src:"however much / no matter how"},{trg:"supposto che",src:"supposing that"},{trg:"nel caso che",src:"in case / in the event that"},{trg:"malgrado",src:"despite / in spite of"},{trg:"per quanto ne sappia",src:"as far as I know"}]}]
 };

@@ -42,7 +42,7 @@ const BATCH8_L1 = {id:"itv2_u09l_b8_1", title:"Il pronto soccorso", icon:"🚑",
 
 {type:"teach", trg:"gonfiare", src:"to swell / to inflate", pos:"verb", gender:null,
  note:"Regular -are verb. 'Gonfiarsi' = to swell up.\n'Gonfio' = swollen.",
- example:"A: La caviglia si e gonfiata molto.\nB: Tieni il ghiaccio e solleva il piede.",
+ example:"A: La caviglia si e gonfiata molto.\nB: Tieni il ghiacciò è solleva il piede.",
  exampleSrc:"A: The ankle swelled up a lot.\nB: Keep the ice and elevate the foot.",
  funFact:"'Gonfiare' also means to inflate (a tire, balloon). 'Gonfiare i prezzi' = to inflate prices. And 'gonfio come un pallone' = bloated like a balloon."},
 

@@ -24,7 +24,7 @@ const BATCH8_L1 = {id:"itv2_u30l_b8_1", title:"Concessione e contrasto", icon:"�
 
 {type:"teach", trg:"la sfumatura", src:"the nuance / shade", pos:"noun", gender:"f",
  note:"Feminine noun. 'Sfumare' = to fade/shade.\n'Cogliere le sfumature' = to catch the nuances.",
- example:"A: La lingua italiana ha mille sfumature.\nB: Per questo e così bella e difficile.",
+ example:"A: La lingua italiana ha mille sfumature.\nB: Per questo è così bella e difficile.",
  exampleSrc:"A: The Italian language has a thousand nuances.\nB: That is why it is so beautiful and difficult.",
  funFact:"'Sfumato' is Leonardo da Vinci's famous painting technique: softly blending colors without lines. The Mona Lisa's smile is the ultimate sfumatura, neither happy nor sad."},
 

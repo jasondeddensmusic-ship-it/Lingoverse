@@ -86,9 +86,9 @@ const BATCH4_U09_L2 = {
 
     {type:"teach", trg:"grave", src:"serious / severe", pos:"adj", gender:null,
      note:"Same form for masculine and feminine. 'Non e grave' = it is not serious.\nAlso means 'grave' (emotional weight).",
-     example:"A: E grave, dottore?\nB: No, non e grave. Si riposera.",
+     example:"A: E grave, dottore?\nB: No, non è grave. Si riposera.",
      exampleSrc:"A: Is it serious, doctor?\nB: No, it is not serious. Get some rest.",
-     funFact:"'E grave?' (Is it serious?) is the anxious patient's classic question. The doctor's reassuring 'non e niente di grave' (it is nothing serious) brings immediate relief. Italian medical communication tends to be direct but reassuring."},
+     funFact:"'E grave?' (Is it serious?) is the anxious patient's classic question. The doctor's reassuring 'non è niente di grave' (it is nothing serious) brings immediate relief. Italian medical communication tends to be direct but reassuring."},
 
     {type:"teach", trg:"migliorare", src:"to improve / to get better", pos:"verb", gender:null,
      note:"Regular -are verb. 'Le cose migliorano' = things are improving.\nFrom 'migliore' (better).",

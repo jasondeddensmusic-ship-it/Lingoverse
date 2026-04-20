@@ -62,7 +62,7 @@ const BATCH7_L1 = {id:"itv2_u30l_b7_1", title:"Il registro formale", icon:"\u{1F
  note:"Conjunction. Formal. 'Tuttavia, bisogna considerare...' = however, one must consider...",
  example:"A: I risultati sono positivi. Tuttavia, ci sono limiti.\nB: Quali limiti?",
  exampleSrc:"A: The results are positive. However, there are limitations.\nB: What limitations?",
- funFact:"'Tuttavia' is the academic version of 'pero' and 'comunque.' In a formal essay, using 'pero' sounds too colloquial. 'Tuttavia' adds the right scholarly tone."},
+ funFact:"'Tuttavia' is the academic version of 'però' and 'comunque.' In a formal essay, using 'però' sounds too colloquial. 'Tuttavia' adds the right scholarly tone."},
 
 {type:"teach", trg:"va sottolineato che", src:"it should be emphasized that", pos:"verb", gender:null,
  note:"Impersonal construction. 'Sottolineare' = to underline/emphasize.\nCommon in formal arguments.",
@@ -83,7 +83,7 @@ const BATCH7_L1 = {id:"itv2_u30l_b7_1", title:"Il registro formale", icon:"\u{1F
  funFact:"'In definitiva' is how you wrap up a formal argument. The hierarchy for 'in conclusion': 'in definitiva' (very formal) > 'in conclusione' (formal) > 'alla fine' (informal) > 'insomma' (colloquial)."},
 
 {type:"mc", q:"Quale congiunzione e la PIU formale per dire 'although'?",
- opts:["sebbene","anche se","pero","ma"],
+ opts:["sebbene","anche se","però","ma"],
  ans:"sebbene",
  hint:"The most formal option. Always requires the subjunctive mood."},
 

@@ -48,7 +48,7 @@ const BATCH6_L1 = {id:"itv2_u07l_b6_1", title:"In cucina", icon:"\u{1F373}", xp:
 
 {type:"teach", trg:"il mestolo", src:"the ladle", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i mestoli.\nA large spoon for serving soups and sauces.",
- example:"A: Passami il mestolo per il brodo.\nB: Eccolo, stai attento che e caldo.",
+ example:"A: Passami il mestolo per il brodo.\nB: Eccolo, stai attento che è caldo.",
  exampleSrc:"A: Pass me the ladle for the broth.\nB: Here it is, be careful, it is hot.",
  funFact:"'Mestolo' and 'mestola' are sometimes confused. The 'mestolo' is the soup ladle; the 'mestola' is a flat stirring utensil used by bricklayers too."},
 

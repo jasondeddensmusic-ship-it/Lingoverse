@@ -50,7 +50,7 @@ const BATCH3_U23_L2 = {
 
     {type:"teach", trg:"influenzare", src:"to influence", pos:"verb", gender:null,
      note:"Regular -are verb. 'Influenzare l'opinione' = to influence opinion.\nAlso: 'influencer' (English loanword) used in Italian.",
-     example:"A: I social media influenzano l'opinione pubblica.\nB: Per questo e importante pensare criticamente.",
+     example:"A: I social media influenzano l'opinione pubblica.\nB: Per questo è importante pensare criticamente.",
      exampleSrc:"A: Social media influence public opinion.\nB: That is why it is important to think critically.",
      funFact:"'Influenzare' shares its root with 'influenza' (the flu). Both come from Latin 'influere' (to flow in). The idea is that an external force 'flows into' you, whether a disease or an idea. Italian uses 'influencer' directly from English for social media personalities."},
 

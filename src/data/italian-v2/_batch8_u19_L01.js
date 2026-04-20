@@ -30,7 +30,7 @@ const BATCH8_L1 = {id:"itv2_u19l_b8_1", title:"Emozioni complesse", icon:"🎭",
 
 {type:"teach", trg:"la vergogna", src:"the shame / embarrassment", pos:"noun", gender:"f",
  note:"Feminine noun. 'Vergognarsi' = to be ashamed.\n'Che vergogna!' = How shameful!",
- example:"A: Provo vergogna per quello che ho detto.\nB: Chiedi scusa, non e mai troppo tardi.",
+ example:"A: Provo vergogna per quello che ho detto.\nB: Chiedi scusa, non è mai troppo tardi.",
  exampleSrc:"A: I feel shame for what I said.\nB: Apologize, it is never too late.",
  funFact:"'Che vergogna!' is used constantly in Italian for public scandals, bad behavior, and social outrage. It is the go-to exclamation for moral disapproval."},
 

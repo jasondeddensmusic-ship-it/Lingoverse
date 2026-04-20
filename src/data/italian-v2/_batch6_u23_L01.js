@@ -60,7 +60,7 @@ const BATCH6_L1 = {id:"itv2_u23l_b6_1", title:"La giustizia e i diritti", icon:"
 
 {type:"teach", trg:"l'uguaglianza", src:"the equality", pos:"noun", gender:"f",
  note:"Feminine noun. From 'uguale' (equal).\nA fundamental constitutional principle.",
- example:"A: L'uguaglianza davanti alla legge e un principio fondamentale.\nB: Purtroppo non e sempre rispettata.",
+ example:"A: L'uguaglianza davanti alla legge e un principio fondamentale.\nB: Purtroppo non è sempre rispettata.",
  exampleSrc:"A: Equality before the law is a fundamental principle.\nB: Unfortunately it is not always respected.",
  funFact:"Article 3 of the Italian Constitution guarantees equality regardless of sex, race, language, religion, or political opinion. It is one of the most cited articles."},
 

@@ -8,7 +8,7 @@ const BATCH3_U10_L1 = {
 
     {type:"teach", trg:"il bagaglio", src:"the luggage / baggage", pos:"noun", gender:"m",
      note:"Masculine. Plural: i bagagli. From French 'bagage.'\n'Ritiro bagagli' = baggage claim.",
-     example:"A: Il mio bagaglio non e arrivato.\nB: Compili questo modulo, per favore.",
+     example:"A: Il mio bagaglio non è arrivato.\nB: Compili questo modulo, per favore.",
      exampleSrc:"A: My luggage has not arrived.\nB: Fill out this form, please.",
      funFact:"Lost luggage in Italian airports requires filling out a 'PIR' (Property Irregularity Report). Italian airports have improved their baggage handling, but delays still happen during peak summer season. Fiumicino airport in Rome processes over 40 million passengers yearly."},
 

@@ -30,7 +30,7 @@ const BATCH7_L1 = {id:"itv2_u33l_b7_1", title:"La logica e l'argomentazione", ic
 
 {type:"teach", trg:"l'ipotesi", src:"the hypothesis", pos:"noun", gender:"f",
  note:"Feminine noun. Invariable plural.\n'Ipotetico' = hypothetical. 'Formulare un'ipotesi' = to formulate a hypothesis.",
- example:"A: L'ipotesi deve essere verificabile.\nB: Altrimenti non e scienza.",
+ example:"A: L'ipotesi deve essere verificabile.\nB: Altrimenti non è scienza.",
  exampleSrc:"A: The hypothesis must be verifiable.\nB: Otherwise it is not science.",
  funFact:"Galileo's scientific method, developed in Italy, placed 'ipotesi' (hypothesis) and 'esperimento' (experiment) at the center of knowledge. This Italian contribution transformed human thought."},
 

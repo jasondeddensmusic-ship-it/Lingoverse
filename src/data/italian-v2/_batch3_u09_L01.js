@@ -20,7 +20,7 @@ const BATCH3_U09_L1 = {
 
     {type:"teach", trg:"la crema", src:"the cream / ointment", pos:"noun", gender:"f",
      note:"Feminine. From Latin 'chrisma' (ointment).\n'Crema solare' = sunscreen.",
-     example:"A: Ha una crema per le scottature?\nB: Si, questa e molto efficace.",
+     example:"A: Ha una crema per le scottature?\nB: Si, questa è molto efficace.",
      exampleSrc:"A: Do you have a cream for sunburn?\nB: Yes, this one is very effective.",
      funFact:"Italian pharmacies sell both medicinal creams and cosmetic products. The 'farmacia' is where many Italians buy their skincare. Italian pharmacy brands like Rilastil, Lierac, and Avene are respected alternatives to luxury cosmetics."},
 

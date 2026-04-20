@@ -75,7 +75,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"l'introversione", src:"introversion", pos:"noun", gender:"f",
      note:"Feminine noun. A personality trait characterized by a focus on inner experience.\nOpposite: 'l'estroversione' (extraversion).",
-     example:"A: L'introversione non e timidezza.\nB: Gli introversi preferiscono ambienti tranquilli per ricaricarsi.",
+     example:"A: L'introversione non è timidezza.\nB: Gli introversi preferiscono ambienti tranquilli per ricaricarsi.",
      exampleSrc:"A: Introversion is not shyness.\nB: Introverts prefer quiet environments to recharge.",
      funFact:"In Italy's expressive, social culture, introversion is sometimes misunderstood. Italian self-help literature has embraced the concept of 'il potere degli introversi' (the power of introverts), helping to destigmatize quieter personality styles."},
 

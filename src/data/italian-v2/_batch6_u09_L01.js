@@ -78,7 +78,7 @@ const BATCH6_L1 = {id:"itv2_u09l_b6_1", title:"In farmacia e dal dottore", icon:
 
 {type:"teach", trg:"la puntura", src:"the injection / sting", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le punture.\nBoth a medical injection and an insect sting.",
- example:"A: Ha paura delle punture?\nB: Un po', ma so che e necessaria.",
+ example:"A: Ha paura delle punture?\nB: Un po', ma so che è necessaria.",
  exampleSrc:"A: Are you afraid of injections?\nB: A little, but I know it is necessary.",
  funFact:"'Puntura' covers both needles and bug bites. 'Puntura di zanzara' (mosquito bite) and 'puntura di vaccino' (vaccine shot) use the same word."},
 
