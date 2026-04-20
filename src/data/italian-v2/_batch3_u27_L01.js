@@ -113,11 +113,7 @@ const BATCH3_L_1 = {
      sSrc:"The {1} of the sample revealed traces of mercury in the water."},
 
     {type:"mc",
-<<<<<<< HEAD
      q:"Perche è importante controllare tutte le variabili di un esperimento?",
-=======
-     q:"Perche è importante controllare tutte le variabili di un esperimento?",
->>>>>>> origin/main
      opts:["Per rendere l'esperimento più lungo e dettagliato","Per garantire che i risultati siano affidabili e replicabili","Per usare più reagenti possibili nel processo","Per pubblicare il lavoro su una rivista internazionale"],
      ans:"Per garantire che i risultati siano affidabili e replicabili",
      hint:"If uncontrolled factors interfere, you cannot be sure what caused the result. Reliability and reproducibility depend on this."}
