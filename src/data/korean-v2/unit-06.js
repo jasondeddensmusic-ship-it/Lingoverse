@@ -427,6 +427,92 @@ const UNIT_6 =
   {type:"mc",q:"지금까지 배운 것으로 할 수 있는 것은?",opts:["회의에서 유창하게 말하기 (Speak fluently in meetings)","한국 소설 읽기 (Read Korean novels)","자막 없이 드라마 보기 (Watch dramas without subs)","기본 생활 한국어 (Handle survival Korean)"],ans:"기본 생활 한국어 (Handle survival Korean)",hint:"At this stage you can navigate, eat, shop, ask directions, and manage basic numbers."},
 {type:"match",pairs:[{trg:"기다리다",src:"to wait"},{trg:"찾다",src:"to find / to look for"},{trg:"(이)랑",src:"and / with (casual)"},{trg:"유턴",src:"U-turn"},{trg:"아래 / 밑",src:"below / under"},{trg:"뒤",src:"behind / back"}]},{type:"match",pairs:[{trg:"과거 시제 미리보기",src:"Adding the past tense car"},{trg:"앉다 → 앉아요",src:"to sit → sits"},{trg:"날씨",src:"weather"},{trg:"마다",src:"every / each"},{trg:"아주",src:"very / extremely"},{trg:"바람",src:"wind"}]},{type:"match",pairs:[{trg:"바다",src:"sea / ocean"},{trg:"재킷",src:"jacket"},{trg:"스웨터",src:"sweater"},{trg:"가방",src:"bag"},{trg:"T-money 카드",src:"T-money card"},{trg:"보통",src:"usually"}]},{type:"match",pairs:[{trg:"다시",src:"again"},{trg:"혼자",src:"alone"},{trg:"A1 Complete: Grammar Summary",src:"Everything covered through U6"}]}]},
 
+// ═══ Daily Routines: 하루 일과 ═══
+,{id:"kov2_u9l_a1_essentials",title:"하루 일과",icon:"☀️",xp:22,board:true,steps:[
+  {type:"intro",title:"Daily Life Essentials",desc:"Nine core words for talking about your day: drinks, time, sleep, family, and feelings.",goals:["Learn 차, 시간, 자다, 일찍, 늦게","Learn 가족, 피곤하다, 항상, 맑다","Describe a daily routine in Korean","Produce target-language forms in fill-in-blank quizzes"]},
+
+  {type:"teach",trg:"차",src:"tea",pos:"noun",gender:null,
+   phonetic:"cha",
+   note:"차: tea.\n차를 마시다 = to drink tea.\nAlso means 'car' — context always makes it clear.",
+   example:"A: 뭐 마실 거예요?\nB: 차 한 잔 주세요.",
+   exampleSrc:"A: What would you like to drink?\nB: One cup of tea, please.",
+   funFact:"차 entered Korean from Chinese 茶 (chá). Korea has a long tea culture — 녹차 (green tea) is served free in many traditional restaurants, just like water."},
+
+  {type:"teach",trg:"시간",src:"time / hour",pos:"noun",gender:null,
+   phonetic:"si-gan",
+   note:"시간: time, hour.\n시간이 있어요 = I have time.\n한 시간 = one hour.",
+   example:"A: 지금 시간 있어요?\nB: 네, 시간 있어요. 같이 가요!",
+   exampleSrc:"A: Do you have time now?\nB: Yes, I have time. Let's go together!",
+   funFact:"From Sino-Korean 時間: 시 (時 = time/hour) + 간 (間 = interval). A span of time. Koreans also use 시 alone for o'clock: 세 시 = three o'clock."},
+
+  {type:"teach",trg:"자다",src:"to sleep",pos:"verb",gender:null,
+   phonetic:"ja-da",
+   note:"자다: to sleep.\n자요 = sleeps (polite).\n잘 자요 = sleep well (casual goodnight).",
+   example:"A: 몇 시에 자요?\nB: 보통 열한 시에 자요.",
+   exampleSrc:"A: What time do you sleep?\nB: I usually sleep at eleven.",
+   funFact:"잘 자요 (sleep well) is how Koreans say goodnight casually. The more formal version is 안녕히 주무세요 — using the honorific verb 주무시다 (to sleep, honorific)."},
+
+  {type:"teach",trg:"가족",src:"family",pos:"noun",gender:null,
+   phonetic:"ga-jok",
+   note:"가족: family (as a group).\n우리 가족 = my family.\n가족이 있어요 = I have a family.",
+   example:"A: 가족이 몇 명이에요?\nB: 네 명이에요. 부모님하고 여동생이 있어요.",
+   exampleSrc:"A: How many people are in your family?\nB: Four. I have my parents and a younger sister.",
+   funFact:"Koreans often say 우리 가족 (our family) even when referring to their own family alone. 우리 (our/we) replaces 내 (my) for family, home, and close things — a reflection of the collective culture."},
+
+  {type:"teach",trg:"피곤하다",src:"to be tired",pos:"adj",gender:null,
+   phonetic:"pi-gon-ha-da",
+   note:"피곤하다: tired, fatigued.\n피곤해요 = I'm tired.\nOpposite: 활기차다 (energetic).",
+   example:"A: 왜 피곤해요?\nB: 어제 늦게 자서 피곤해요.",
+   exampleSrc:"A: Why are you tired?\nB: I slept late yesterday so I'm tired.",
+   funFact:"From Sino-Korean: 疲 (피, tired) + 困 (곤, stuck/troubled). Literally 'weary and stuck.' 피로 (fatigue) shares the same root and appears in formal contexts like 피로감 (feeling of fatigue)."},
+
+  {type:"teach",trg:"항상",src:"always",pos:"adv",gender:null,
+   phonetic:"hang-sang",
+   note:"항상: always.\nSynonyms: 늘 (always, native Korean), 언제나 (always, any time).\n항상 vs 자주: always vs often.",
+   example:"A: 아침에 항상 차를 마셔요?\nB: 네, 항상 마셔요. 습관이에요.",
+   exampleSrc:"A: Do you always drink tea in the morning?\nB: Yes, always. It's a habit.",
+   funFact:"항상 comes from Sino-Korean 恒常: 항 (恒, permanent) + 상 (常, ordinary/constant). Together they mean perpetually constant — always without exception."},
+
+  {type:"teach",trg:"일찍",src:"early",pos:"adv",gender:null,
+   phonetic:"il-jjik",
+   note:"일찍: early.\n일찍 자요 = I sleep early.\nOpposite: 늦게 (late).",
+   example:"A: 오늘 일찍 왔어요!\nB: 네, 오늘은 일찍 일어났어요.",
+   exampleSrc:"A: You came early today!\nB: Yes, I woke up early today.",
+   funFact:"일찍 is a pure native Korean adverb with no hanja root. It always describes timing — you can't say 일찍 빠르다 (quickly fast). For speed, Koreans use 빨리. 일찍 is only about time of day."},
+
+  {type:"teach",trg:"늦게",src:"late",pos:"adv",gender:null,
+   phonetic:"neut-ge",
+   note:"늦게: late (adverb form of 늦다).\n늦게 자요 = I sleep late.\nOpposite: 일찍 (early).",
+   example:"A: 왜 늦게 왔어요?\nB: 지하철이 늦게 와서 늦었어요.",
+   exampleSrc:"A: Why did you come late?\nB: The subway came late so I was late.",
+   funFact:"늦게 is the adverb form of 늦다 (to be late). Korean forms adverbs from adjectives/verbs by adding -게: 늦다 → 늦게, 빠르다 → 빠르게, 조용하다 → 조용하게. This -게 pattern is extremely productive."},
+
+  {type:"teach",trg:"맑다",src:"to be clear / sunny",pos:"adj",gender:null,
+   phonetic:"mak-da",
+   note:"맑다: clear, sunny (weather), bright.\n맑아요 = it's clear.\n하늘이 맑아요 = the sky is clear.",
+   example:"A: 오늘 날씨가 어때요?\nB: 맑아요! 구름이 없어요.",
+   exampleSrc:"A: How's the weather today?\nB: It's clear! There are no clouds.",
+   funFact:"맑다 is a native Korean word. It describes weather, water, and even a person's eyes or voice: 목소리가 맑다 (a clear voice). A 맑은 하늘 (clear sky) is the classic weather expression in Korean weather forecasts."},
+
+  {type:"tip",title:"자다 vs 주무시다: Sleep Verbs",text:"Korean has two verbs for sleeping depending on who you're talking about:\n\n자다 = to sleep (plain)\n주무시다 = to sleep (honorific — for elders/respected people)\n\nYou say:\n부모님이 주무세요. (Parents are sleeping.)\n저는 자요. (I'm sleeping.)\n\nGoodnight:\n잘 자요! = Goodnight (casual — to a friend)\n안녕히 주무세요! = Goodnight (polite — to parents/elders)",deepDive:{title:"The -시- Honorific",text:"주무시다 is the honorific form of 자다. The honorific marker -시- transforms many common verbs:\n자다 → 주무시다 (sleep)\n먹다 → 드시다 (eat)\n있다 → 계시다 (exist/be)\n\nUse them whenever speaking ABOUT or TO someone older or of higher status."}},
+
+  {type:"mc",q:"차 means:",opts:["car only","coffee","tea (drink)","hot water"],ans:"tea (drink)",hint:"차 can mean tea or car — here we focus on the drink. 차를 마시다 = drink tea."},
+  {type:"mc",q:"시간 있어요? means:",opts:["What time is it?","How many hours?","Do you have time?","How long is it?"],ans:"Do you have time?",hint:"시간 = time. 있어요 = have. Together: Do you have time?"},
+  {type:"mc",q:"항상 means:",opts:["sometimes","often","never","always"],ans:"always",hint:"항상 = always (every time, without exception). 자주 = often."},
+  {type:"mc",q:"맑아요 describes:",opts:["cloudy weather","rainy weather","clear sunny weather","cold weather"],ans:"clear sunny weather",hint:"맑다 conjugates to 맑아요. 구름이 없고 하늘이 파래요 — blue sky, no clouds. Pick the option that fits."},
+  {type:"mc",q:"일찍 is the opposite of:",opts:["항상","빨리","늦게","자주"],ans:"늦게",hint:"일찍 (early) and 늦게 (late) are a pair: arrive early vs arrive late."},
+
+  {type:"fb",s:"저는 보통 열 시에 ___요.\n(I usually sleep at 10.)",a:"자",opts:["자","보","가","와"],hint:"Which verb means to sleep? Remove 다 and add 아/어요."},
+  {type:"fb",s:"오늘 날씨가 ___ 어요.\n(Today's weather is clear.)",a:"맑",opts:["맑","춥","더","비"],hint:"Clear/sunny weather. Stem + 아요 (bright vowel)."},
+  {type:"fb",s:"왜 ___해요? 어제 늦게 자서요.\n(Why are you tired? Because I slept late yesterday.)",a:"피곤",opts:["피곤","행복","조용","가능"],hint:"Which word means tired/fatigued?"},
+  {type:"fb",s:"저는 ___ 아침에 차를 마셔요.\n(I always drink tea in the morning.)",a:"항상",opts:["항상","가끔","보통","자주"],hint:"Without exception, every morning. The strongest frequency word."},
+
+  {type:"match",pairs:[{trg:"차",src:"tea"},{trg:"시간",src:"time / hour"},{trg:"자다",src:"to sleep"},{trg:"가족",src:"family"}]},
+  {type:"match",pairs:[{trg:"항상",src:"always"},{trg:"일찍",src:"early"},{trg:"늦게",src:"late"},{trg:"피곤하다",src:"to be tired"}]},
+
+  {type:"drag_fill",s:"저는 {1} 일찍 자요. 그래서 아침에 {2} 않아요. 날씨가 {3} 때 기분이 좋아요.",blanks:{"1":"항상","2":"피곤하지","3":"맑을"},pool:["항상","피곤하지","맑을","보통","기쁘지","춥"],hint:"I always sleep early. So I'm not tired in the morning. I feel good when the weather is clear."},
+]},
+
 ]};
 
 export default UNIT_6;
