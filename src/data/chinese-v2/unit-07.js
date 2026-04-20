@@ -291,6 +291,119 @@ lessons:[
   {trg:"秋天(qiūtiān)很(hěn)凉快(liángkuai)", src:"Autumn is very cool"},
   {trg:"冬天(dōngtiān)更(gèng)冷(lěng)", src:"Winter is even colder"}
 ]}
+]},
+
+// ─── L4: Colors and Daily Actions ───
+{id:"zhv2_u7l4", title:"颜色和动作 Colors and Daily Actions", icon:"🎨", xp:15, board:true, steps:[
+{type:"intro", title:"颜色和动作 Colors and Daily Actions",
+ desc:"Learn three core colors plus key everyday adjectives and verbs from HSK 2. You will describe objects, people, and what you do every day.",
+ goals:["Use 黑, 白, and 蓝 to describe colors","Describe something old with 旧","Distinguish 男 for male people","Use 玩 for playing and 洗 for washing"]},
+
+{type:"teach", trg:"黑(hēi)", src:"black", pos:"adj", gender:null,
+ note:"First tone (high flat). Describes anything black in color.\n黑色(hēisè) = the color black. 黑 alone works as an adjective.",
+ example:"A: 你(nǐ)喜欢(xǐhuan)黑(hēi)色(sè)吗(ma)？\nB: 喜欢(xǐhuan)！我(wǒ)很(hěn)喜欢(xǐhuan)黑(hēi)。",
+ exampleSrc:"A: Do you like black?\nB: Yes! I really like black.",
+ funFact:"The character 黑 is a pictograph of a face with charcoal marks on it (from ancient fire smoke). The top section represents a sooty face, the bottom 灬 is the fire radical. Black and fire have been linked since the character was invented."},
+
+{type:"teach", trg:"白(bái)", src:"white", pos:"adj", gender:null,
+ note:"Second tone (rising). Describes anything white.\n白色(báisè) = the color white. Also appears in names: 白 is a common Chinese surname.",
+ example:"A: 你(nǐ)喜欢(xǐhuan)白(bái)色(sè)吗(ma)？\nB: 喜欢(xǐhuan)！白(bái)色(sè)很(hěn)好(hǎo)。",
+ exampleSrc:"A: Do you like white?\nB: Yes! White is very nice.",
+ funFact:"白 is one of the simplest Chinese characters. It depicts the sun just appearing above the horizon: the circle 日 with a single line below representing the horizon. That first sliver of sunlight is white. The character is pure visual poetry."},
+
+{type:"teach", trg:"蓝(lán)", src:"blue", pos:"adj", gender:null,
+ note:"Second tone (rising). The most common word for blue.\n蓝色(lánsè) = the color blue. Sky blue is 天蓝色(tiān lán sè).",
+ example:"A: 你(nǐ)喜欢(xǐhuan)蓝(lán)色(sè)吗(ma)？\nB: 喜欢(xǐhuan)，蓝(lán)色(sè)比(bǐ)黑(hēi)色(sè)更(gèng)好(hǎo)！",
+ exampleSrc:"A: Do you like blue?\nB: Yes, blue is even better than black!",
+ funFact:"蓝 contains the grass radical (艹) at the top and a phonetic component below. Blue dye in ancient China came from a plant called indigo. The grass radical remembers that blue was originally a plant color, harvested from fields."},
+
+{type:"teach", trg:"旧(jiù)", src:"old (used / worn)", pos:"adj", gender:null,
+ note:"Fourth tone (falling). Describes objects that are old, used, or worn.\nNOT for people's age. Use 老(lǎo) for elderly people.",
+ example:"A: 这(zhè)个(gè)杯子(bēizi)很(hěn)旧(jiù)了(le)。\nB: 对(duì)，我(wǒ)想(xiǎng)要(yào)一(yī)个(gè)好(hǎo)的(de)。",
+ exampleSrc:"A: This cup is very old already.\nB: Yes, I want to get a good one.",
+ funFact:"旧 combines 臼 (a mortar/pestle, a worn tool) with a phonetic element. A mortar becomes old from grinding grain day after day. The character captures wear through use. Compare with 新(xīn) new: they are natural antonyms."},
+
+{type:"teach", trg:"男(nán)", src:"male / man", pos:"noun", gender:null,
+ note:"Second tone (rising). Used in compounds: 男人(nánrén) = man, 男生(nánshēng) = male student.\n男 alone can describe gender: 男(nán)老师(lǎoshī) = male teacher.",
+ example:"A: 那(nà)个(gè)男(nán)人(rén)是(shì)谁(shuí)？\nB: 他(tā)是(shì)我(wǒ)哥哥(gēge)。",
+ exampleSrc:"A: Who is that man?\nB: He is my older brother.",
+ funFact:"男 combines 田(tián) field at the top and 力(lì) strength at the bottom. In ancient agricultural China, men (males) were associated with working the fields with physical strength. The character tells a story about early society."},
+
+{type:"teach", trg:"玩(wán)", src:"to play", pos:"verb", gender:null,
+ note:"Second tone (rising). Used for leisure play, games, or having fun.\n今天(jīntiān)你(nǐ)玩(wán)什么(shénme)？ = What are you playing today?",
+ example:"A: 你(nǐ)喜欢(xǐhuan)玩(wán)什么(shénme)？\nB: 我(wǒ)喜欢(xǐhuan)玩(wán)，在(zài)公园(gōngyuán)里(lǐ)玩(wán)最(zuì)好(hǎo)！",
+ exampleSrc:"A: What do you like to play?\nB: I like to play. Playing in the park is the best!",
+ funFact:"玩 has the jade radical (王) on the left. In ancient China, playing with precious jade pieces was a leisure activity of the upper class. Over time the character expanded to mean any kind of leisure play or having fun."},
+
+{type:"teach", trg:"洗(xǐ)", src:"to wash", pos:"verb", gender:null,
+ note:"Third tone (falling-rising). Used for washing hands, dishes, clothes, etc.\n洗手(xǐ shǒu) = wash hands. 洗衣服(xǐ yīfu) = do laundry.",
+ example:"A: 你(nǐ)洗(xǐ)了(le)吗(ma)？\nB: 洗(xǐ)了(le)！我(wǒ)去(qù)洗(xǐ)了(le)。",
+ exampleSrc:"A: Did you wash?\nB: Yes! I went and washed.",
+ funFact:"洗 has the water radical (氵) on the left. Most verbs involving water carry this three-dot radical: 洗(xǐ) wash, 游(yóu) swim, 喝(hē) drink. The radical immediately signals the meaning family. Once you know it, you can guess many characters."},
+
+{type:"tip", title:"Colors as Adjectives and Nouns",
+ text:"Chinese colors work both as adjectives and nouns, depending on context:\n\nAdjective (before noun):\n黑(hēi)猫(māo) = black cat\n白(bái)色(sè)的(de)狗(gǒu) = white dog\n蓝(lán)天(tiān) = blue sky\n\nNoun (add 色):\n黑(hēi)色(sè) = the color black\n白(bái)色(sè) = the color white\n蓝(lán)色(sè) = the color blue\n\nWith 很 (as a predicate):\n天(tiān)很(hěn)蓝(lán)。 The sky is very blue.\n那(nà)个(gè)猫(māo)很(hěn)白(bái)。 That cat is very white.",
+ deepDive:{title:"旧 vs 老: Two Ways to Say Old",
+  text:"Chinese uses different words for old depending on what is old:\n\n旧(jiù) = old/worn (for objects)\n这(zhè)本(běn)书(shū)很(hěn)旧(jiù)。 This book is very old.\n\n老(lǎo) = old/elderly (for people, relationships, long-established things)\n他(tā)很(hěn)老(lǎo)了(le)。 He is very old.\n老朋友(lǎo péngyou) = old friend (long friendship, not age)\n\nUsing 旧 for a person sounds like you are calling them worn-out. Always use 老 for people."}},
+
+{type:"mc", q:"Which sentence uses colors correctly to describe a clear sky?",
+ opts:["天(tiān)很(hěn)旧(jiù)。","天(tiān)很(hěn)蓝(lán)。","天(tiān)很(hěn)男(nán)。","天(tiān)很(hěn)洗(xǐ)。"],
+ ans:"天(tiān)很(hěn)蓝(lán)。",
+ hint:"Which of the four words is a color that describes the sky on a clear day?"},
+
+{type:"match", pairs:[
+  {trg:"黑(hēi)", src:"black"},
+  {trg:"白(bái)", src:"white"},
+  {trg:"蓝(lán)", src:"blue"},
+  {trg:"旧(jiù)", src:"old (used)"},
+  {trg:"男(nán)", src:"male / man"}
+]},
+
+{type:"fb", s:"今天(jīntiān)是(shì)晴天(qíngtiān)，天(tiān)很(hěn){1}。",
+ a:["蓝(lán)"],
+ opts:["蓝(lán)","黑(hēi)","白(bái)","旧(jiù)"],
+ hint:"On a clear sunny day, what color is the sky?",
+ sSrc:"Today is a sunny day, the sky is very {1}."},
+
+{type:"mc", q:"这(zhè)个(gè)杯子(bēizi)很(hěn)旧(jiù)了(le)。 What does 旧 tell us about the cup?",
+ opts:["It is very new","It is very old / worn","It is very large","It is very black"],
+ ans:"It is very old / worn",
+ hint:"旧 describes the condition of an object that has been used over a long time."},
+
+{type:"fb", s:"那(nà)个(gè){1}人(rén)是(shì)我(wǒ)哥哥(gēge)。",
+ a:["男(nán)"],
+ opts:["男(nán)","旧(jiù)","白(bái)","黑(hēi)"],
+ hint:"Fill in the word that indicates the gender of the person being described.",
+ sSrc:"That {1} person is my older brother."},
+
+{type:"mc", q:"你(nǐ)喜欢(xǐhuan)玩(wán)吗(ma)？ What is this question asking?",
+ opts:["Do you like to wash?","Do you like to play?","Do you like black?","Do you like old things?"],
+ ans:"Do you like to play?",
+ hint:"玩 is the key verb here. Think about what activity people do for fun and leisure."},
+
+{type:"fb", s:"今天(jīntiān)很(hěn)热(rè)，我(wǒ)想(xiǎng)去(qù){1}。",
+ a:["洗(xǐ)"],
+ opts:["洗(xǐ)","玩(wán)","来(lái)","回(huí)"],
+ hint:"It is hot and you want to clean yourself. Which action verb means to wash?",
+ sSrc:"Today is very hot, I want to go and {1}."},
+
+{type:"mc", q:"Which word describes a used, worn-out umbrella but NOT an elderly grandparent?",
+ opts:["旧(jiù)","老(lǎo)","男(nán)","白(bái)"],
+ ans:"旧(jiù)",
+ hint:"One word applies to objects showing wear, while 老 is used for people. Which one is for worn objects only?"},
+
+{type:"match", pairs:[
+  {trg:"玩(wán)", src:"to play"},
+  {trg:"洗(xǐ)", src:"to wash"},
+  {trg:"男(nán)人(rén)", src:"man"},
+  {trg:"旧(jiù)", src:"old (used)"}
+]},
+
+{type:"fb", s:"在(zài)公园(gōngyuán)里(lǐ){1}很(hěn)好(hǎo)！",
+ a:["玩(wán)"],
+ opts:["玩(wán)","洗(xǐ)","比(bǐ)","更(gèng)"],
+ hint:"What activity is great to do in a park? Think about a leisure or fun verb.",
+ sSrc:"Playing {1} in the park is great!"}
 ]}
 
 ]};
