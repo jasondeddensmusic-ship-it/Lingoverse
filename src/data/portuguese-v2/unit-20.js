@@ -298,6 +298,139 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
   {trg:"é melhor", src:"it is better"},
   {trg:"é difícil", src:"it is difficult"},
   {trg:"convém", src:"it is advisable"}
-]}]}
+]}]},
+
+{id:"ptv2_u20l_b1_abstract", title:"Abstract Ideas and Discourse", icon:"💡", xp:20, board:true, steps:[
+{type:"intro", title:"The Language of Ideas",
+ desc:"These abstract nouns and discourse verbs are the building blocks of B1-level discussion. Master them and you can explain causes, propose solutions, and discuss consequences in Portuguese.",
+ goals:["Learn 6 key abstract nouns for B1 discussion","Master 3 essential discourse verbs","Practice using them in context"]},
+
+{type:"teach", trg:"o significado", src:"the meaning / the significance", pos:"noun", gender:"m",
+ note:"What a word, phrase, or event means. Used in both linguistic and abstract contexts.",
+ example:"A: Qual é o significado desta palavra?\nB: Não sei, precisamos verificar.",
+ exampleSrc:"A: What is the meaning of this word?\nB: I don't know, we need to check.",
+ funFact:"Significado shares its Latin root with English 'significant'. Both come from signum (sign) + facere (to make)."},
+
+{type:"teach", trg:"o efeito", src:"the effect / the result", pos:"noun", gender:"m",
+ note:"The outcome or impact of something. Often paired with 'a causa' (cause) in B1 discussions.",
+ example:"A: O efeito do trabalho em equipe é muito bom.\nB: Concordo, trabalhamos melhor juntos.",
+ exampleSrc:"A: The effect of teamwork is very good.\nB: I agree, we work better together.",
+ funFact:"Efeito special — a common phrase for a particularly striking or dramatic result. Borrowed from film and theater."},
+
+{type:"teach", trg:"a causa", src:"the cause / the reason", pos:"noun", gender:"f",
+ note:"The origin or reason behind something. In Portuguese, causa and razão are near-synonyms but causa emphasizes direct action.",
+ example:"A: Qual é a causa do problema?\nB: Ainda não sei, precisamos analisar.",
+ exampleSrc:"A: What is the cause of the problem?\nB: I still don't know, we need to analyse.",
+ funFact:"'Por causa de' (because of) is one of the most common prepositional phrases in everyday Brazilian speech."},
+
+{type:"teach", trg:"o objetivo", src:"the goal / the objective", pos:"noun", gender:"m",
+ note:"A target or aim. Used in professional, academic, and personal contexts.",
+ example:"A: Qual é o objetivo desta reunião?\nB: É preciso falar sobre o trabalho da empresa.",
+ exampleSrc:"A: What is the goal of this meeting?\nB: We need to talk about the company's work.",
+ funFact:"Objetivo is a false friend alert: in Portuguese it never means 'objective' in the sense of unbiased. Use 'imparcial' for that."},
+
+{type:"teach", trg:"a solução", src:"the solution / the answer (to a problem)", pos:"noun", gender:"f",
+ note:"The resolution to a difficulty. Pair it with 'o problema' to practice cause-effect discussion.",
+ example:"A: Temos um problema. Qual é a solução?\nB: Precisamos pensar juntos.",
+ exampleSrc:"A: We have a problem. What is the solution?\nB: We need to think together.",
+ funFact:"Solução comes from Latin solvere (to loosen, to free). The same root gives us English 'dissolve' and 'solve'."},
+
+{type:"teach", trg:"a consequência", src:"the consequence", pos:"noun", gender:"f",
+ note:"The result that follows from an action or decision. Often implies a negative outcome, but not always.",
+ example:"A: Qual é a consequência desta decisão?\nB: Ainda não sabemos, mas é importante analisar.",
+ exampleSrc:"A: What is the consequence of this decision?\nB: We don't know yet, but it is important to analyse.",
+ funFact:"Portuguese often pairs consequência with 'ter': 'isso tem consequências' (this has consequences). A very natural construction."},
+
+{type:"tip", title:"Cause and Effect in Portuguese",
+ text:"Three core abstract nouns for B1 discussion:\n\na causa (f) > the cause\no efeito (m) > the effect\na consequência (f) > the consequence\n\nCommon patterns:\n\nA causa do problema é...\nO efeito desta decisão é...\nA consequência é...\n\nNotice the genders: causa and consequência are feminine, efeito is masculine.",
+ deepDive:{title:"Why These Nouns Are Certification-Grade",
+  text:"CELPE-Bras B1 tests the ability to explain, discuss, and reason. Examiners look for linking words and abstract nouns that show logical thinking. A candidate who can say 'a causa disso é... e a consequência é...' demonstrates B1 competence. Candidates who only use simpler connectors like 'e' and 'mas' score at A2. Mastering these nouns moves your Portuguese into a different register."}},
+
+{type:"teach", trg:"explicar", src:"to explain", pos:"verb", gender:null,
+ note:"Regular -ar verb. Key forms: eu explico, você explica, nós explicamos. Used to clarify or make something clear.",
+ example:"A: Pode explicar o objetivo desta tarefa?\nB: Claro, vou explicar agora.",
+ exampleSrc:"A: Can you explain the goal of this task?\nB: Of course, I'll explain now.",
+ funFact:"In Brazilian schools, a common student request is 'professor, pode explicar de novo?' (teacher, can you explain again?). Universally understood and always polite."},
+
+{type:"teach", trg:"aceitar", src:"to accept", pos:"verb", gender:null,
+ note:"Regular -ar verb. Key forms: eu aceito, você aceita, nós aceitamos. To agree to receive, allow, or acknowledge.",
+ example:"A: É difícil aceitar esta consequência.\nB: Eu sei, mas precisamos pensar na solução.",
+ exampleSrc:"A: It is difficult to accept this consequence.\nB: I know, but we need to think about the solution.",
+ funFact:"'Aceitar' also covers card payment in shops: 'Aceita cartão?' (Do you accept card?). One of the most practical verbs for daily life."},
+
+{type:"teach", trg:"propor", src:"to propose / to suggest", pos:"verb", gender:null,
+ note:"Irregular -er verb derived from 'pôr'. Key forms: eu proponho, você propõe, nós propomos. Used in meetings, debates, and formal settings.",
+ example:"A: Quero propor uma solução para o problema.\nB: Ótimo, vamos ouvir a sua ideia.",
+ exampleSrc:"A: I want to propose a solution to the problem.\nB: Great, let's hear your idea.",
+ funFact:"'Propor' follows the same conjugation pattern as 'compor', 'dispor', and 'expor'. Once you learn one, you know them all."},
+
+{type:"mc",
+ q:"Which noun refers to the reason something happens?",
+ opts:["o efeito","o objetivo","a causa","a solução"],
+ ans:"a causa",
+ hint:"Think of the starting point in a cause-and-effect chain."},
+
+{type:"mc",
+ q:"Which verb means 'to suggest a plan or idea'?",
+ opts:["aceitar","explicar","propor","querer"],
+ ans:"propor",
+ hint:"This verb is used in meetings and formal contexts to put forward a new idea."},
+
+{type:"fb",
+ s:"A professora vai {1} o significado desta palavra.",
+ a:["explicar"],
+ opts:["explicar","aceitar","propor","falar"],
+ hint:"Clarify or make something clear. Regular -ar verb.",
+ sSrc:"The teacher is going to {1} the meaning of this word."},
+
+{type:"fb",
+ s:"O objetivo da reunião é encontrar uma {1} para o problema.",
+ a:["solução"],
+ opts:["solução","consequência","causa","efeito"],
+ hint:"A resolution to a difficulty. Feminine noun.",
+ sSrc:"The goal of the meeting is to find a {1} to the problem."},
+
+{type:"fb",
+ s:"É difícil {1} as consequências desta decisão.",
+ a:["aceitar"],
+ opts:["aceitar","propor","explicar","fazer"],
+ hint:"To agree to receive or acknowledge something. Regular -ar verb.",
+ sSrc:"It is difficult to {1} the consequences of this decision."},
+
+{type:"match", pairs:[
+ {trg:"o significado", src:"the meaning"},
+ {trg:"o efeito", src:"the effect"},
+ {trg:"a causa", src:"the cause"},
+ {trg:"o objetivo", src:"the goal"},
+ {trg:"a solução", src:"the solution"},
+ {trg:"a consequência", src:"the consequence"}
+]},
+
+{type:"fb",
+ s:"O funcionário quer {1} uma nova solução para o efeito do problema.",
+ a:["propor"],
+ opts:["propor","aceitar","explicar","fazer"],
+ hint:"Put forward a new idea or plan. Irregular -er verb.",
+ sSrc:"The employee wants to {1} a new solution to the effect of the problem."},
+
+{type:"mc",
+ q:"What is the gender of 'a consequência'?",
+ opts:["masculine","feminine","neuter","it varies"],
+ ans:"feminine",
+ hint:"The article 'a' is a clear signal of the grammatical gender."},
+
+{type:"mc",
+ q:"Which sentence correctly uses 'o efeito'?",
+ opts:["O efeito de propor é a causa.","O efeito do trabalho em equipe é muito bom.","O efeito aceitar é difícil.","O efeito de a solução é o objetivo."],
+ ans:"O efeito do trabalho em equipe é muito bom.",
+ hint:"Effect follows from an action or situation. Pick the sentence where a clear situation produces an outcome."},
+
+{type:"drag_fill",
+ s:"A {1} do problema é o trabalho em excesso. O {2} já é visível na empresa.",
+ blanks:{"1":"causa","2":"efeito"},
+ pool:["causa","efeito","solução","objetivo"],
+ hint:"First blank: what produced the problem. Second blank: the visible result.",
+ sSrc:"The {1} of the problem is overwork. The {2} is already visible at the company."}
+]}
 
 ]}; export default UNIT_20;

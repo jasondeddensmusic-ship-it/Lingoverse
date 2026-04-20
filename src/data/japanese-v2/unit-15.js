@@ -188,5 +188,102 @@ const UNIT_15 = {
 ,BATCH9_L1
 ,BATCH10_L1
 ,BATCH11_L1
+
+// ═══ L_N4_EXPAND: 借(か)りる・返(かえ)す (Borrowing, Lending & Natural Places) ═══
+,{id:"jav2_u15l_n4_expand", title:"借(か)りる・返(かえ)す", icon:"🌊", xp:20, board:true, steps:[
+  {type:"intro", title:"借(か)りる・返(かえ)す",
+   desc:"Master nine essential N4 words: the borrow/lend/return verb triad, paying for things, staying overnight, and Japan's iconic natural landscapes.",
+   goals:["Use 借りる, 貸す, 返す correctly for borrowing and lending","Express staying overnight and paying","Name key natural features: sea, mountain, road, bridge"]},
+
+  {type:"teach", trg:"道(みち)", src:"road / street / path", pos:"noun", gender:null,
+   note:"Any road, path, or route. 道(みち)を渡(わた)る = cross the road. 道(みち)を聞(き)く = ask for directions.",
+   example:"A: この道(みち)をまっすぐ行(い)くと駅(えき)に着(つ)きますか？\nB: はい、五分(ごふん)で着(つ)きます。",
+   exampleSrc:"A: If I go straight down this road, will I arrive at the station?\nB: Yes, you will arrive in five minutes.",
+   funFact:"道 is one of Japan's most culturally loaded words. Do (michi read as do) also appears in martial arts: judo (柔道), kendo (剣道), judo (柔道). The concept of a way or path as a discipline for self-improvement is deeply embedded in Japanese culture."},
+
+  {type:"teach", trg:"橋(はし)", src:"bridge", pos:"noun", gender:null,
+   note:"Any bridge over water or a gap. 橋(はし)を渡(わた)る = cross a bridge.\nKanji: 橋.",
+   example:"A: あの橋(はし)を渡(わた)ると、駅(えき)が見(み)えます。\nB: きれいな橋(はし)ですね。",
+   exampleSrc:"A: Once you cross that bridge, you can see the station.\nB: What a beautiful bridge.",
+   funFact:"Japan has over 700,000 bridges, more than any other country. Famous examples include the Akashi Kaikyo Bridge (the world's longest suspension bridge) and the ornate wooden bridges of Kyoto's temple gardens. The word hashi also means chopsticks, written differently."},
+
+  {type:"teach", trg:"海(うみ)", src:"sea / ocean", pos:"noun", gender:null,
+   note:"Used for the sea or ocean. 海(うみ)に行(い)く = go to the sea / beach.\nKanji: 海.",
+   example:"A: 夏(なつ)に海(うみ)に行(い)きませんか？\nB: いいですね。友達(ともだち)と一緒(いっしょ)に行(い)きましょう。",
+   exampleSrc:"A: Shall we go to the sea in summer?\nB: Sounds great. Let us go together with friends.",
+   funFact:"Japan is an island nation surrounded by sea on all sides. The kanji 海 combines water (氵) and every (毎), evoking a place where water is everywhere. About 73% of Japanese land is mountainous, so sea and mountain (山) define the landscape equally in Japanese consciousness."},
+
+  {type:"teach", trg:"山(やま)", src:"mountain", pos:"noun", gender:null,
+   note:"Any mountain or hill. 山(やま)に登(のぼ)る = climb a mountain.\nKanji: 山.",
+   example:"A: 富士山(ふじさん)に登(のぼ)ったことがありますか？\nB: いいえ、でも山(やま)は大好(だいす)きです。",
+   exampleSrc:"A: Have you ever climbed Mount Fuji?\nB: No, but I love mountains.",
+   funFact:"山 is one of the first kanji most people learn because its shape clearly pictures three mountain peaks. Japan has over 100 mountains above 2,000 meters. The honorific prefix 富士山 (Mt. Fuji) uses さん, the same suffix as for people, showing deep respect for the mountain."},
+
+  {type:"mc", q:"橋(はし)を渡(わた)る means:", opts:["climb a mountain","cross a bridge","walk on a road","reach the station"], ans:"cross a bridge",
+   hint:"渡る means to cross, and 橋 is the structure over water."},
+
+  {type:"teach", trg:"借(か)りる", src:"to borrow", pos:"verb", gender:null,
+   note:"Group 2 verb. Subject borrows FROM someone. に from particle: 友達(ともだち)に借(か)りる.\nKanji: 借りる.",
+   example:"A: 傘(かさ)を借(か)りてもいいですか？\nB: もちろんです。どうぞ。",
+   exampleSrc:"A: May I borrow an umbrella?\nB: Of course. Please go ahead.",
+   funFact:"借りる contains the kanji 借 (borrow), which shows a person (亻) next to a crossed basket (昔 a past layer), implying taking something temporarily. Japanese culture has a strong norm of returning borrowed items promptly. Keeping something borrowed too long is considered rude."},
+
+  {type:"teach", trg:"貸(か)す", src:"to lend", pos:"verb", gender:null,
+   note:"Group 1 verb. Subject lends TO someone. に to particle: 友達(ともだち)に貸(か)す.\nKanji: 貸す.",
+   example:"A: 本(ほん)を貸(か)してください。\nB: いいですよ。いつ返(かえ)しますか？",
+   exampleSrc:"A: Please lend me a book.\nB: Sure. When will you return it?",
+   funFact:"貸す and 借りる are a matched pair. Lend and borrow cause confusion in English too. Japanese learners find it clearer with the particles: 友達に貸す (lend to a friend) vs. 友達に借りる (borrow from a friend). Libraries use 貸し出し (lending out) on checkout receipts."},
+
+  {type:"teach", trg:"返(かえ)す", src:"to return (something)", pos:"verb", gender:null,
+   note:"Group 1 verb. Return an object to its owner. Different from 帰(かえ)る (return home).\nKanji: 返す.",
+   example:"A: 先週(せんしゅう)借(か)りた本(ほん)を返(かえ)します。\nB: ありがとうございます。",
+   exampleSrc:"A: I am returning the book I borrowed last week.\nB: Thank you.",
+   funFact:"返す and 帰る share the reading kaeri/kaes but have completely different kanji and meanings. 返 (return an object) vs. 帰 (return home). This is a famous confusable pair in Japanese. The verb also appears in 繰(く)り返(かえ)す (to repeat), literally to return repeatedly."},
+
+  {type:"fb", s:"友達(ともだち)に本(ほん)を{1}もいいですか？\n(May I borrow a book from my friend?)", a:"借(か)りて", opts:["借(か)りて","貸(か)して","返(かえ)して","渡(わた)って"], sSrc:"May I borrow a book from my friend?",
+   hint:"The て-form of the verb meaning to take something temporarily from someone."},
+
+  {type:"teach", trg:"払(はら)う", src:"to pay", pos:"verb", gender:null,
+   note:"Group 1 verb. お金(かね)を払(はら)う = pay money. Used at shops, restaurants, stations.\nKanji: 払う.",
+   example:"A: ここでお金(かね)を払(はら)いますか？\nB: はい、レジで払(はら)ってください。",
+   exampleSrc:"A: Do I pay here?\nB: Yes, please pay at the register.",
+   funFact:"払う originally meant to brush away or sweep, from the image of handing over coins. Related words: 支払(しはら)い (payment), 払(はら)い戻(もど)し (refund). Japan is still largely a cash society; many small restaurants and shops accept only cash, so 払う is a very practical verb."},
+
+  {type:"teach", trg:"泊(と)まる", src:"to stay overnight / to lodge", pos:"verb", gender:null,
+   note:"Group 1 verb. Place + に + 泊(と)まる = stay at a place overnight.\nKanji: 泊まる.",
+   example:"A: 旅館(りょかん)に泊(と)まったことがありますか？\nB: はい、去年(きょねん)友達(ともだち)と泊(と)まりました。",
+   exampleSrc:"A: Have you ever stayed at a Japanese inn?\nB: Yes, I stayed there last year with friends.",
+   funFact:"泊まる contains the kanji 泊 (overnight), which combines water (氵) and white (白). Legend says it evokes a boat anchored overnight on still water. The counter for nights is 泊(はく): 一泊(いっぱく) = one night, 二泊(にはく) = two nights. Hotel check-in forms ask 何泊(なんはく)ですか？"},
+
+  {type:"mc", q:"お金(かね)を払(はら)う means:", opts:["to borrow money","to lend money","to pay money","to return money"], ans:"to pay money",
+   hint:"This verb describes giving money at a shop or restaurant."},
+
+  {type:"fb", s:"この本(ほん)は図書館(としょかん)に{1}します。\n(I will return this book to the library.)", a:"返(かえ)", opts:["返(かえ)","貸(か)","借(か)","払(はら)"], sSrc:"I will return this book to the library.",
+   hint:"The verb stem for giving something back to where it came from."},
+
+  {type:"tip", title:"The Borrow/Lend/Return Triad",
+   text:"Three verbs, one transaction:\nBorrow: 借(か)りる (Group 2, iru-verb)\nLend: 貸(か)す (Group 1, su-verb)\nReturn: 返(かえ)す (Group 1, su-verb)\n\nParticle logic:\nBorrow FROM: 友達(ともだち)に借(か)りる\nLend TO: 友達(ともだち)に貸(か)す\nReturn TO: 友達(ともだち)に返(かえ)す\n\nTip: Both 貸す and 返す are Group 1 (plain past: 貸した, 返した). Only 借りる is Group 2.",
+   deepDive:{title:"Polite request forms",
+    text:"Borrowing politely:\n借(か)りてもいいですか？ = May I borrow?\n貸(か)してください = Please lend me.\n返(かえ)してもらえますか？ = Could you return it?\n\nPermission (〜てもいいですか) is softer and more common than a direct request (〜てください) when asking to borrow something. Use 〜てください when returning something, since you are giving, not asking."}},
+
+  {type:"match", pairs:[{trg:"借(か)りる",src:"to borrow"},{trg:"貸(か)す",src:"to lend"},{trg:"返(かえ)す",src:"to return (sth)"},{trg:"払(はら)う",src:"to pay"}]},
+
+  {type:"match", pairs:[{trg:"道(みち)",src:"road / path"},{trg:"橋(はし)",src:"bridge"},{trg:"海(うみ)",src:"sea / ocean"},{trg:"山(やま)",src:"mountain"}]},
+
+  {type:"mc", q:"泊(と)まる means:", opts:["to travel","to stay overnight","to check out","to book a room"], ans:"to stay overnight",
+   hint:"This verb describes spending the night at a hotel or inn."},
+
+  {type:"fb", s:"ホテルに一晩(ひとばん){1}ました。\n(I stayed overnight at the hotel.)", a:"泊(と)ま", opts:["泊(と)ま","借(か)り","払(はら)","返(かえ)し"], sSrc:"I stayed overnight at the hotel.",
+   hint:"The verb stem for spending the night somewhere."},
+
+  {type:"fb", s:"海(うみ)まで{1}を渡(わた)ってください。\n(Please cross the bridge to reach the sea.)", a:"橋(はし)", opts:["橋(はし)","山(やま)","道(みち)","信号(しんごう)"], sSrc:"Please cross the bridge to reach the sea.",
+   hint:"The structure built over water for crossing."},
+
+  {type:"mc", q:"貸(か)す means:", opts:["to borrow","to lend","to return","to pay"], ans:"to lend",
+   hint:"You give something to someone temporarily. They will give it back later."},
+
+  {type:"mc", q:"Which sentence means 'I borrowed money from a friend'?", opts:["友達(ともだち)にお金(かね)を貸(か)しました","友達(ともだち)にお金(かね)を借(か)りました","友達(ともだち)にお金(かね)を返(かえ)しました","友達(ともだち)にお金(かね)を払(はら)いました"], ans:"友達(ともだち)にお金(かね)を借(か)りました",
+   hint:"に marks the source when you receive something temporarily."},
+]}
 ]};
 export default UNIT_15;
