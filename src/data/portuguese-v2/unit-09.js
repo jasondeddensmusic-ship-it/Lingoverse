@@ -377,4 +377,145 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  sSrc:"Can I {1} my Monday appointment to Wednesday?"}
 ]}
 
+,
+
+{id:"ptv2_u9l_a2_rooms_objects", title:"Em casa", icon:"🏠", xp:15, board:true, steps:[
+{type:"intro", title:"Rooms and furniture",
+ desc:"Knowing the rooms and furniture in a home is essential for giving directions, describing where things are, and talking about daily life. Learn 10 essential words and two key adjectives.",
+ goals:["Name 5 rooms of a home","Learn 5 pieces of furniture","Use limpo and sujo to describe condition"]},
+
+{type:"teach", trg:"a cozinha", src:"the kitchen", pos:"noun", gender:"f",
+ note:"Kitchen. Feminine noun.",
+ example:"A: A cozinha é grande?\nB: Sim, é grande.\nA: Tem mesa na cozinha?\nB: Tem, tem mesa e cadeira.",
+ exampleSrc:"A: Is the kitchen big?\nB: Yes, it is big.\nA: Is there a table in the kitchen?\nB: Yes, there is a table and chair.",
+ funFact:"From 'coquere' (Latin for to cook). The word 'cook' and 'kitchen' share the same ancient root."},
+
+{type:"teach", trg:"o quarto", src:"the bedroom", pos:"noun", gender:"m",
+ note:"Bedroom. Masculine noun. Also the ordinal for 'fourth', but context makes it clear.",
+ example:"A: O quarto é pequeno?\nB: Não, é grande.\nA: Tem cama no quarto?\nB: Tem, e tem armário.",
+ exampleSrc:"A: Is the bedroom small?\nB: No, it is big.\nA: Is there a bed in the bedroom?\nB: Yes, and there is a wardrobe.",
+ funFact:"'Quarto' means both 'bedroom' and 'quarter' (one fourth). Context tells you which meaning applies."},
+
+{type:"teach", trg:"a sala", src:"the living room", pos:"noun", gender:"f",
+ note:"Living room. Short for 'sala de estar'. Feminine noun.",
+ example:"A: Onde está o sofá?\nB: Na sala.\nA: A sala é grande?\nB: Sim, é muito grande.",
+ exampleSrc:"A: Where is the sofa?\nB: In the living room.\nA: Is the living room big?\nB: Yes, it is very big.",
+ funFact:"'Sala' comes from a Germanic root meaning hall or large room. Many European languages share it: English 'saloon', French 'salle'."},
+
+{type:"teach", trg:"a janela", src:"the window", pos:"noun", gender:"f",
+ note:"Window. Feminine noun. From Latin 'janua' (gate, door opening).",
+ example:"A: Abra a janela, por favor.\nB: Está frio!\nA: Não está.\nB: Está, a janela está aberta.",
+ exampleSrc:"A: Open the window, please.\nB: It is cold!\nA: It is not.\nB: It is, the window is open.",
+ funFact:"'Janela' shares its root with the Roman god Janus, who guarded gates and passages, and with the month January."},
+
+{type:"teach", trg:"a porta", src:"the door", pos:"noun", gender:"f",
+ note:"Door. Feminine noun. Also used figuratively, as in English.",
+ example:"A: A porta está aberta?\nB: Não, está fechada.\nA: Pode abrir a porta?\nB: Claro, um momento.",
+ exampleSrc:"A: Is the door open?\nB: No, it is closed.\nA: Can you open the door?\nB: Sure, one moment.",
+ funFact:"From Latin 'porta' (gate, door). Same root as 'Portugal' itself: 'Portus Cale' (the port-gate of Cale)."},
+
+{type:"teach", trg:"a cama", src:"the bed", pos:"noun", gender:"f",
+ note:"Bed. Feminine noun.",
+ example:"A: A cama é grande?\nB: Não, é pequena.\nA: O quarto tem cama?\nB: Tem, e tem janela.",
+ exampleSrc:"A: Is the bed big?\nB: No, it is small.\nA: Does the bedroom have a bed?\nB: Yes, and it has a window.",
+ funFact:"Same word in Spanish, same Latin origin. 'Fazer a cama' (to make the bed) is the Brazilian expression for tidying up."},
+
+{type:"teach", trg:"a mesa", src:"the table", pos:"noun", gender:"f",
+ note:"Table. Feminine noun. Also means 'plateau' or 'mesa' geographically.",
+ example:"A: Coloca o livro na mesa.\nB: Qual mesa?\nA: A mesa da cozinha.\nB: Pronto, está na mesa.",
+ exampleSrc:"A: Put the book on the table.\nB: Which table?\nA: The kitchen table.\nB: Done, it is on the table.",
+ funFact:"'Mesa' also gave English 'mesa' (the flat-topped hill). Both come from Latin for flat surface."},
+
+{type:"teach", trg:"a cadeira", src:"the chair", pos:"noun", gender:"f",
+ note:"Chair. Feminine noun.",
+ example:"A: Tem cadeira na cozinha?\nB: Tem, tem três cadeiras.\nA: E mesa?\nB: Tem mesa também.",
+ exampleSrc:"A: Is there a chair in the kitchen?\nB: Yes, there are three chairs.\nA: And a table?\nB: There is a table too.",
+ funFact:"From Latin 'cathedra' (a seat of authority). Same root as English 'cathedral', the bishop's seat. Your chair is royalty."},
+
+{type:"teach", trg:"o sofá", src:"the sofa", pos:"noun", gender:"m",
+ note:"Sofa, couch. Masculine noun.",
+ example:"A: O sofá está na sala?\nB: Está, na sala.\nA: É grande?\nB: Sim, é grande e confortável.",
+ exampleSrc:"A: Is the sofa in the living room?\nB: Yes, in the living room.\nA: Is it big?\nB: Yes, it is big and comfortable.",
+ funFact:"Borrowed from Arabic 'suffah' (a raised platform with cushions). A great reminder that Arabic shaped much of world vocabulary."},
+
+{type:"teach", trg:"limpo", src:"clean", pos:"adj", gender:"m",
+ note:"Clean. Masculine form. Feminine: limpa. Describes the condition of objects and spaces.",
+ example:"A: O quarto está limpo?\nB: Está, está muito limpo.\nA: E a cozinha?\nB: A cozinha não está limpa.",
+ exampleSrc:"A: Is the bedroom clean?\nB: Yes, it is very clean.\nA: And the kitchen?\nB: The kitchen is not clean.",
+ funFact:"From Latin 'limpidus' (clear, transparent). Same root as English 'limpid'. Cleanliness was originally about transparency, not hygiene."},
+
+{type:"tip", title:"De onde vem o sofá?",
+ text:"Portuguese borrows heavily from Arabic:\n\nalcool (alcohol), almofada (cushion), sofá (sofa)\n\nArabic traders brought goods to Portugal for centuries. Many household words came with the products.\n\nNote how gender works with these adjectives:\n\nO quarto está limpo. (m)\nA cozinha está limpa. (f)\nO sofá está sujo. (m)\nA janela está suja. (f)\n\nAdjectives agree with the noun they describe.",
+ deepDive:{title:"Estar vs Ser with conditions",
+  text:"Use 'estar' with limpo/sujo/aberto/fechado because these are temporary states, not permanent qualities:\n\nA porta está fechada. (The door is closed right now.)\nO quarto está sujo. (The bedroom is dirty at the moment.)\n\nNever use 'ser' for these temporary conditions. 'A porta é fechada' would mean the door is permanently/inherently a closed kind of door, which makes no sense."}},
+
+{type:"fb", s:"O sofá está na {1}.",
+ a:["sala"],
+ opts:["sala","cozinha","janela","cama"],
+ hint:"The room where you relax and watch TV, not where you sleep or cook.",
+ sSrc:"The sofa is in the {1}."},
+
+{type:"fb", s:"Durmo na {1} todos os dias.",
+ a:["cama"],
+ opts:["cama","mesa","cadeira","porta"],
+ hint:"The furniture you sleep in every night.",
+ sSrc:"I sleep in the {1} every day."},
+
+{type:"mc", q:"Which room has the stove and refrigerator?",
+ opts:["o quarto","a sala","a cozinha","o banheiro"],
+ ans:"a cozinha",
+ hint:"The room where you prepare and cook food."},
+
+{type:"match", pairs:[
+ {trg:"a cozinha", src:"the kitchen"},
+ {trg:"o quarto", src:"the bedroom"},
+ {trg:"a sala", src:"the living room"},
+ {trg:"a cama", src:"the bed"},
+ {trg:"o sofá", src:"the sofa"}
+]},
+
+{type:"fb", s:"A {1} está fechada. Pode abrir?",
+ a:["porta"],
+ opts:["porta","mesa","cadeira","cama"],
+ hint:"The thing you open and close to enter or leave a room.",
+ sSrc:"The {1} is closed. Can you open it?"},
+
+{type:"mc", q:"What does 'limpo' mean?",
+ opts:["big","old","clean","open"],
+ ans:"clean",
+ hint:"The adjective for a room or object that has been washed or tidied."},
+
+{type:"fb", s:"O quarto está {1}, preciso limpar.",
+ a:["sujo"],
+ opts:["sujo","limpo","aberto","grande"],
+ hint:"The opposite of limpo, describing something that needs cleaning.",
+ sSrc:"The bedroom is {1}, I need to clean it."},
+
+{type:"mc", q:"Which sentence uses the correct gender agreement?",
+ opts:["A cama está limpo","O sofá está suja","A sala está limpa","O quarto está sujas"],
+ ans:"A sala está limpa",
+ hint:"The adjective must match the gender of the noun it describes."},
+
+{type:"fb", s:"Ela está sentada na {1} da cozinha.",
+ a:["cadeira"],
+ opts:["cadeira","janela","porta","cama"],
+ hint:"The piece of furniture you sit on at a table.",
+ sSrc:"She is sitting on the {1} in the kitchen."},
+
+{type:"drag_fill",
+ s:"Em casa há {1} para dormir e {2} para cozinhar.",
+ blanks:{"1":"o quarto","2":"a cozinha"},
+ pool:["o quarto","a cozinha","a sala","a janela","a porta"],
+ hint:"Match each room to its purpose: sleeping and cooking.",
+ sSrc:"At home there is {1} for sleeping and {2} for cooking."},
+
+{type:"match", pairs:[
+ {trg:"a janela", src:"the window"},
+ {trg:"a porta", src:"the door"},
+ {trg:"a mesa", src:"the table"},
+ {trg:"a cadeira", src:"the chair"},
+ {trg:"limpo", src:"clean"}
+]}
+]}
+
 ]}; export default UNIT_09;
