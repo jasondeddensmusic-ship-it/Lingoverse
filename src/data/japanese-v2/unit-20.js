@@ -190,7 +190,100 @@ const UNIT_20 = {
 
 {type:"match",pairs:[{trg:"ご覧(らん)になる",src:"to look / to see (honorific)"},{trg:"お休(やす)みになる",src:"to rest / to sleep (honorific)"},{trg:"〜お + stem + になる",src:"honorific verb pattern"},{trg:"なさる",src:"to do (honorific)"},{trg:"くださる",src:"to give (honorific, to me/us)"},{trg:"いただく",src:"to receive / to eat (humble)"}]},{type:"match",pairs:[{trg:"申(もう)す",src:"to say / to be called (humble)"},{trg:"〜お + stem + する",src:"humble verb pattern"},{trg:"お待(ま)ちする",src:"to wait (humble)"},{trg:"拝見(はいけん)する",src:"to look / to see (humble)"}]}]},
 
-,EXP_L3,EXP_L4,EXP_L5,EXP_ADMIN
+,{id:"jav2_u20l_n3_expand", title:"重要(じゅうよう)な表現(ひょうげん)", icon:"💡", xp:20, board:true, steps:[
+  {type:"intro", title:"Key N3 Expressions for Polite Communication",
+   desc:"Build the abstract vocabulary that gives your keigo depth and precision. Describing someone's attitude, conveying important information, or acknowledging a situation: these words appear constantly in business Japanese and everyday B1 conversation.",
+   goals:["Use important/special (重要・特別) as na-adjectives","Describe attitude, manner, and behavior (態度・様子・行動)","Use 伝(つた)える and 認(みと)める in keigo contexts","Describe facial expressions (表情)"]},
+
+  {type:"teach", trg:"重要(じゅうよう)", src:"important / significant", pos:"adj", gender:null,
+   note:"Na-adjective. 重要(じゅうよう)な + noun, or 〜は重要(じゅうよう)です.\n重要(じゅうよう)性(せい) = importance.",
+   example:"A: この会議(かいぎ)は重要(じゅうよう)ですか？\nB: はい、とても重要(じゅうよう)な会議(かいぎ)です。",
+   exampleSrc:"A: Is this meeting important?\nB: Yes, it is a very important meeting.",
+   funFact:"重要 uses 重 (heavy/serious) and 要 (need/essential). 重 appears in 重(おも)い (heavy), linking physical weight with serious importance. The opposite is 些細(ささい) (trivial). On JLPT N3, 重要 appears in reading passages about social issues and news."},
+
+  {type:"teach", trg:"特別(とくべつ)", src:"special / particular", pos:"adj", gender:null,
+   note:"Na-adjective. 特別(とくべつ)な + noun, or 〜は特別(とくべつ)です.\n特別(とくべつ)に = especially / as a special exception.",
+   example:"A: 今日(きょう)は特別(とくべつ)な日(ひ)ですね。\nB: はい、特別(とくべつ)な会議(かいぎ)があります。",
+   exampleSrc:"A: Today is a special day, isn't it.\nB: Yes, there is a special meeting.",
+   funFact:"特別 combines 特 (special/unique) and 別 (separate/different). 特別割引(とくべつわりびき) means special discount. Airlines announce 特別サービス (special service) in Japanese. The adverb 特別(とくべつ)に is used to grant someone an exception in formal contexts."},
+
+  {type:"mc", q:"重要(じゅうよう) is which word class?", opts:["i-adjective","na-adjective","verb","adverb"], ans:"na-adjective",
+   hint:"You say 重要(じゅうよう)な会議(かいぎ), using the な particle to link this word to a noun."},
+
+  {type:"teach", trg:"態度(たいど)", src:"attitude / manner / behavior", pos:"noun", gender:null,
+   note:"態度(たいど)が悪(わる)い = rude manner. 態度(たいど)を改(あらた)める = to improve one's attitude.\nAppears often in workplace and interpersonal contexts.",
+   example:"A: あの人(ひと)の態度(たいど)はどう思(おも)いますか？\nB: 少(すこ)し礼儀(れいぎ)がないと思(おも)います。",
+   exampleSrc:"A: What do you think about that person's attitude?\nB: I think it lacks a little courtesy.",
+   funFact:"態度 uses 態 (appearance/form) and 度 (degree/extent). In Japanese culture, one's 態度 is closely watched in service, school, and work settings. 態度を改める (to reform one's attitude) is a phrase teachers and managers use to signal expected behavioral change."},
+
+  {type:"teach", trg:"様子(ようす)", src:"appearance / manner / state of affairs", pos:"noun", gender:null,
+   note:"Describes how someone looks or how a situation appears.\n様子(ようす)を見(み)る = to see how things go / to watch the situation.",
+   example:"A: 田中(たなか)さんの様子(ようす)はどうですか？\nB: 元気(げんき)がない様子(ようす)です。",
+   exampleSrc:"A: How does Tanaka-san seem?\nB: He seems to have no energy.",
+   funFact:"様子 is a uniquely flexible word. 様(ようす) alone already appears in 〜ようす (the way/state of something). 様子を見る (watch the situation) is extremely common in Japanese decision-making culture, where a wait-and-see approach is preferred over rushing in."},
+
+  {type:"teach", trg:"行動(こうどう)", src:"action / behavior / conduct", pos:"noun", gender:null,
+   note:"行動(こうどう)する = to act / to take action.\n行動力(こうどうりょく) = drive / ability to take action.\nAppears in business, social discussion, and news.",
+   example:"A: 行動(こうどう)が大切(たいせつ)だと思(おも)います。\nB: 同(おな)じです。行動(こうどう)で見(み)せましょう。",
+   exampleSrc:"A: I think action is important.\nB: Same here. Let us show it through action.",
+   funFact:"行動 uses 行 (go/conduct) and 動 (move). 行動力(こうどうりょく) is a highly praised quality on Japanese resumes and in job interviews. The opposite is 優柔不断(ゆうじゅうふだん) (indecision). 行動パターン (behavioral pattern) appears in psychology and management contexts."},
+
+  {type:"teach", trg:"表情(ひょうじょう)", src:"facial expression / look", pos:"noun", gender:null,
+   note:"表情(ひょうじょう)が豊(ゆた)か = expressive face.\n表情(ひょうじょう)を読(よ)む = to read someone's expression.",
+   example:"A: 先生(せんせい)の表情(ひょうじょう)を見(み)ると難(むずか)しいと思(おも)います。\nB: でも、おっしゃる通(とお)りです。",
+   exampleSrc:"A: Looking at the teacher's expression, I think it is difficult.\nB: But, it is exactly as you say.",
+   funFact:"表情 uses 表 (surface/express) and 情 (emotion/feeling). Japanese culture places great emphasis on reading 表情 and atmosphere (空気(くうき)を読(よ)む). In keigo settings, controlling your own 表情 is considered important etiquette. A smile (笑顔(えがお)) is standard customer service."},
+
+  {type:"fb", s:"この会議(かいぎ)は非常(ひじょう)に{1}です。\n(This meeting is extremely important.)", a:"重要(じゅうよう)", opts:["重要(じゅうよう)","特別(とくべつ)","行動(こうどう)","様子(ようす)"], sSrc:"This meeting is extremely important.",
+   hint:"The na-adjective meaning 'important / significant,' formed from 'heavy' + 'essential.'"},
+
+  {type:"teach", trg:"伝(つた)える", src:"to convey / to tell / to pass on", pos:"verb", gender:null,
+   note:"One-directional: speaker actively conveys to someone.\nお伝(つた)えします = I will convey it (humble pattern お + stem + する).",
+   example:"A: 部長(ぶちょう)にこの件(けん)をお伝(つた)えします。\nB: よろしくお願(ねが)いいたします。",
+   exampleSrc:"A: I will convey this matter to the department head. (humble)\nB: I look forward to your help. (humble)",
+   funFact:"伝える uses 伝 (transmit/tradition) and the eru ending showing it is transitive (you transmit something TO someone). The humble form お伝(つた)えする is one of the most common keigo expressions in the office. 伝言(でんごん) (message to relay) uses the same kanji root."},
+
+  {type:"teach", trg:"認(みと)める", src:"to acknowledge / to recognize / to accept", pos:"verb", gender:null,
+   note:"Can mean: to admit (a fact), to recognize (a person's effort), or to grant permission.\n認(みと)める = standard form. 認(みと)めていただく = to have it acknowledged (humble).",
+   example:"A: その点(てん)は認(みと)めなければなりません。\nB: おっしゃる通(とお)りです。改(あらた)めます。",
+   exampleSrc:"A: We must acknowledge that point.\nB: Exactly as you say. I will reform (my approach).",
+   funFact:"認める is built on 認 (recognize/approve), the same kanji as 確認(かくにん) (confirmation) and 認証(にんしょう) (authentication). In Japanese workplace culture, it is highly significant when a superior 認める your effort (acknowledges your work). Job satisfaction surveys show this recognition drives motivation more than salary increases."},
+
+  {type:"teach", trg:"改(あらた)める", src:"to reform / to renew / to correct", pos:"verb", gender:null,
+   note:"改(あらた)める attitude/behavior means to fix or change it for the better.\n改(あらた)めて = once again / on a new occasion (set expression).",
+   example:"A: 態度(たいど)を改(あらた)めてほしいと思(おも)います。\nB: 申(もう)し訳(わけ)ございません。改(あらた)めます。",
+   exampleSrc:"A: I think I would like you to reform your attitude.\nB: I have no excuse. I will correct it.",
+   funFact:"改める uses 改 (reform/revise), the same character in 改札(かいさつ) (ticket gate, literally 'reformed/checked barrier') and 改正(かいせい) (legal revision). 改めて (once more, on a fresh occasion) is a polished business phrase: 改めてご連絡(れんらく)いたします (I will contact you again in due course)."},
+
+  {type:"tip", title:"Na-adjectives in Polite Speech",
+   text:"重要(じゅうよう) and 特別(とくべつ) are na-adjectives:\nBefore a noun: 重要(じゅうよう)な会議(かいぎ) (important meeting)\nAs a predicate: この会議(かいぎ)は重要(じゅうよう)です (this meeting is important)\nAs an adverb: 特別(とくべつ)に (specially)\n\nIn keigo sentences they appear frequently:\n重要(じゅうよう)なご連絡(れんらく)をいただきました。\n(I humbly received an important message.)\n特別(とくべつ)にご対応(たいおう)いただけますか？\n(Could you give special consideration?)",
+   deepDive:{title:"Combining N3 Abstract Nouns with Keigo",
+    text:"The N3 abstract nouns in this lesson combine naturally with keigo patterns:\n\n態度(たいど)を改(あらた)める → 態度(たいど)をお改(あらた)めください (please reform your attitude, polite request)\n様子(ようす)を見(み)る → 様子(ようす)を拝見(はいけん)します (I will observe the situation, humble)\n行動(こうどう)する → ご行動(こうどう)ください (please take action, honorific request)\n表情(ひょうじょう)を読(よ)む → 表情(ひょうじょう)を拝見(はいけん)する (to observe the expression, humble)\n\nMastering these combinations bridges JLPT N3 vocabulary with real keigo usage."}},
+
+  {type:"fb", s:"部長(ぶちょう)にこの件(けん)を{1}します。\n(I will convey this matter to the department head. - humble)", a:"お伝(つた)え", opts:["お伝(つた)え","おっしゃい","お読(よ)み","拝見(はいけん)"], sSrc:"I will convey this matter to the department head.",
+   hint:"The humble お + stem + する pattern of 伝(つた)える (to convey/tell)."},
+
+  {type:"mc", q:"Which word describes someone's facial expression?", opts:["態度(たいど)","様子(ようす)","表情(ひょうじょう)","行動(こうどう)"], ans:"表情(ひょうじょう)",
+   hint:"This word literally combines 表 (surface/express) and 情 (emotion/feeling)."},
+
+  {type:"mc", q:"その点(てん)は認(みと)めます means:", opts:["I will reform that point","I acknowledge that point","I will convey that point","I will look at that point"], ans:"I acknowledge that point",
+   hint:"認(みと)める means to recognize or accept something as true."},
+
+  {type:"match", pairs:[{trg:"重要(じゅうよう)",src:"important"},{trg:"特別(とくべつ)",src:"special"},{trg:"態度(たいど)",src:"attitude"},{trg:"様子(ようす)",src:"appearance / state"}]},
+
+  {type:"match", pairs:[{trg:"行動(こうどう)",src:"action / behavior"},{trg:"表情(ひょうじょう)",src:"facial expression"},{trg:"伝(つた)える",src:"to convey / tell"},{trg:"認(みと)める",src:"to acknowledge"}]},
+
+  {type:"fb", s:"彼(かれ)の態度(たいど)は重要(じゅうよう){1}と思(おも)います。\n(I think his attitude is important.)", a:"だ", opts:["だ","です","な","に"], sSrc:"I think his attitude is important.",
+   hint:"After a na-adjective used as a predicate in a plain-form embedded clause (〜と思う), use the plain copula."},
+
+  {type:"fb", s:"その問題(もんだい)は{1}だと思(おも)います。\n(I think that problem is important.)", a:"重要(じゅうよう)", opts:["重要(じゅうよう)","特別(とくべつ)","表情(ひょうじょう)","様子(ようす)"], sSrc:"I think that problem is important.",
+   hint:"The na-adjective for 'important' or 'significant,' appearing constantly in news and business Japanese."},
+
+  {type:"mc", q:"改(あらた)める is best described as:", opts:["to investigate something thoroughly","to recognize someone's effort","to reform or correct for the better","to observe someone's manner"], ans:"to reform or correct for the better",
+   hint:"The kanji 改 also appears in 改札(かいさつ) (ticket gate) and 改正(かいせい) (legal revision). It signals changing something that was previously unsatisfactory."},
+
+  {type:"match", pairs:[{trg:"伝(つた)える",src:"to convey / to tell"},{trg:"認(みと)める",src:"to acknowledge"},{trg:"改(あらた)める",src:"to reform / correct"},{trg:"様子(ようす)を見(み)る",src:"to wait and see"}]},
+]},EXP_L3,EXP_L4,EXP_L5,EXP_ADMIN
 ,BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01
