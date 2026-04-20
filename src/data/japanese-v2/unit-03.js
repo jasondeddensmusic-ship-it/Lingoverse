@@ -224,6 +224,73 @@ const UNIT_03 = {
    hint:"Juu (ten) + ni (two) = twelve."},
 {type:"match",pairs:[{trg:"誰(だれ)",src:"who"}]}]},
 
+// ═══ L7: 場所(ばしょ)と場所(ばしょ) (Places & Everyday Spaces) ═══
+{id:"jav2_u3l7", title:"場所(ばしょ)とまわり", icon:"\u{1F3E2}", xp:15, board:true, steps:[
+  {type:"intro", title:"場所(ばしょ)とまわり",
+   desc:"Learn five core JLPT N5 nouns for everyday places and spaces you encounter in Japan.",
+   goals:["Name a train station, shop, and room","Identify a window and a newspaper","Build simple sentences about places with desu ka"]},
+
+  {type:"teach", trg:"駅(えき)", src:"station / train station", pos:"noun", gender:null,
+   note:"The place where you board trains. Ubiquitous in Japanese daily life.",
+   example:"A: すみません、駅(えき)はどこですか?\nB: あそこです。",
+   exampleSrc:"A: Excuse me, where is the station?\nB: It is over there.",
+   funFact:"Japan has over 9,000 train stations. Many major 駅 are cities within cities, with department stores, clinics, and even hotels inside."},
+
+  {type:"teach", trg:"店(みせ)", src:"store / shop", pos:"noun", gender:null,
+   note:"Any kind of shop: grocery store, bookstore, clothing store.",
+   example:"A: あの店(みせ)は何(なん)の店(みせ)ですか?\nB: 本(ほん)の店(みせ)です。",
+   exampleSrc:"A: What kind of shop is that?\nB: It is a bookshop.",
+   funFact:"The word 店 can stand alone or combine: 本屋(ほんや) (bookstore), 花屋(はなや) (flower shop). The standalone みせ is more general."},
+
+  {type:"teach", trg:"部屋(へや)", src:"room", pos:"noun", gender:null,
+   note:"Refers to any room inside a building: bedroom, living room, classroom.",
+   example:"A: これは誰(だれ)の部屋(へや)ですか?\nB: わたしの部屋(へや)です。",
+   exampleSrc:"A: Whose room is this?\nB: It is my room.",
+   funFact:"Traditional Japanese rooms are measured in tatami mats (畳(じょう)). A 6-mat room (六畳(ろくじょう)) is about 9.7 square metres."},
+
+  {type:"teach", trg:"窓(まど)", src:"window", pos:"noun", gender:null,
+   note:"The window of a room or vehicle. Often part of 窓口(まどぐち), a service counter at stations and banks.",
+   example:"A: 窓(まど)はどれですか?\nB: あれが窓(まど)です。",
+   exampleSrc:"A: Which one is the window?\nB: That over there is the window.",
+   funFact:"窓口(まどぐち) literally means 'window opening' but has come to mean any service counter or help desk."},
+
+  {type:"teach", trg:"新聞(しんぶん)", src:"newspaper", pos:"noun", gender:null,
+   note:"Japan's major newspapers have daily circulations in the millions.",
+   example:"A: それは何(なん)ですか?\nB: 新聞(しんぶん)です。",
+   exampleSrc:"A: What is that?\nB: It is a newspaper.",
+   funFact:"The Yomiuri Shimbun (読売新聞) holds a Guinness World Record as the world's highest-circulation daily newspaper, with over 7 million copies per day."},
+
+  {type:"tip", title:"は vs が for Location Questions",
+   text:"Both particles can introduce location:\n\n駅(えき)はどこですか? = Where IS the station? (topic, expected info)\n駅(えき)がありますか? = Is there a station? (existence, yes/no)\n\nUse は when the listener already knows what you are asking about.\nUse が when asking whether something exists at all.",
+   deepDive:{title:"Where vs whether",
+    text:"どこですか (where is it?) assumes the thing exists.\nありますか (is there?) questions existence.\n\nIn A1 Japanese, は + どこ and が + あります are the two patterns you need most."}},
+
+  {type:"mc", q:"駅(えき) means:", opts:["room","station","newspaper","window"], ans:"station",
+   hint:"This is where you catch trains and subways in Japan."},
+
+  {type:"mc", q:"部屋(へや) means:", opts:["store","window","room","station"], ans:"room",
+   hint:"Any enclosed space inside a building, including a bedroom or classroom."},
+
+  {type:"mc", q:"Which word means 'newspaper'?", opts:["窓(まど)","新聞(しんぶん)","店(みせ)","駅(えき)"], ans:"新聞(しんぶん)",
+   hint:"A compound of 'new' and 'hear/news.' Print media you read daily."},
+
+  {type:"match", pairs:[{trg:"駅(えき)",src:"station"},{trg:"店(みせ)",src:"store / shop"},{trg:"部屋(へや)",src:"room"},{trg:"窓(まど)",src:"window"}]},
+
+  {type:"mc", q:"あの店(みせ)は本(ほん)の店(みせ)です means:", opts:["That shop sells windows","That shop sells keys","That shop is a bookshop","That is a train station"], ans:"That shop is a bookshop",
+   hint:"本 (book) + の + 店 (shop) describes what kind of shop it is."},
+
+  {type:"fb", s:"すみません、{1}はどこですか?\n(Excuse me, where is the station?)", a:"駅(えき)", opts:["駅(えき)","店(みせ)","窓(まど)","部屋(へや)"], sSrc:"Excuse me, where is the station?",
+   hint:"The place where trains stop and depart."},
+
+  {type:"fb", s:"これは誰(だれ)の{1}ですか?\n(Whose room is this?)", a:"部屋(へや)", opts:["部屋(へや)","新聞(しんぶん)","鍵(かぎ)","店(みせ)"], sSrc:"Whose room is this?",
+   hint:"An enclosed space inside a building, not a vehicle or station."},
+
+  {type:"match", pairs:[{trg:"新聞(しんぶん)",src:"newspaper"},{trg:"窓(まど)",src:"window"},{trg:"駅(えき)",src:"station"},{trg:"部屋(へや)",src:"room"}]},
+
+  {type:"mc", q:"窓口(まどぐち) is derived from:", opts:["newspaper + floor","window + opening","station + exit","room + key"], ans:"window + opening",
+   hint:"The second character means the same thing as a mouth-shaped gap in a wall. Together the compound describes a service counter."},
+]},
+
 ,BATCH3_L1
 ,BATCH4_L01
 ,BATCH4_L02
