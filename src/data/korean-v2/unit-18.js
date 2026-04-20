@@ -257,6 +257,100 @@ const UNIT_18 =
 {type:"drag_fill",s:"한국 음식을 배우{1} 위해서 요리 학원에 {2} 있어요.\n(I am attending a cooking academy in order to learn Korean food.)",blanks:{"1":"기","2":"다니고"},pool:["기","다니고","는","다녀서","게","다니면"],hint:"-기 위해서 (purpose) + -고 있다 (progressive)."},
 {type:"match",pairs:[{trg:"요리하다",src:"to cook"},{trg:"굽다",src:"to grill, to roast"},{trg:"볶다",src:"to stir-fry"},{trg:"시키다",src:"to order (food/delivery)"},{trg:"레시피",src:"recipe"},{trg:"남다",src:"to remain, to be left over"}]},{type:"match",pairs:[{trg:"주문하다",src:"to order (at a restaurant)"},{trg:"맵다",src:"to be spicy"},{trg:"싱겁다",src:"to be bland"},{trg:"젓가락",src:"chopsticks"}]}]},
 
+,
+
+// ── L10: TOPIK II 추상 개념 (24 steps) ──
+{id:"kov2_u18l_topik2_abstract",title:"TOPIK II 추상 개념",icon:"💡",xp:28,board:true,steps:[
+{type:"intro",title:"Abstract Concepts for TOPIK II",desc:"Move beyond concrete nouns.\n\nAt B1 you discuss society, goals, and problems.\nThese words unlock civic and academic topics.",goals:["Learn 9 TOPIK II abstract nouns and verbs","Use abstract vocab in real B1 sentences","Practice with fb and drag_fill production","Combine with -기 위해서 and -는 것"]},
+
+{type:"teach",trg:"기회",src:"opportunity, chance",pos:"noun",gender:null,
+note:"Sino-Korean: 기(chance/機) + 회(meeting/會).\n기회를 잡다 = seize an opportunity.\n좋은 기회 = a good chance.",
+example:"A: 이번 기회를 놓치면 안 돼요.\nB: 맞아요. 좋은 기회가 자주 오지 않아요.\nA: 그러면 도전해 볼까요?\nB: 네, 기회가 있을 때 도전해야 해요.",
+exampleSrc:"A: We must not miss this opportunity.\nB: That is right. Good chances do not come often.\nA: Then shall we try?\nB: Yes, you have to try when you have the chance.",
+funFact:"The hanja 機 also appears in 비행기 (airplane). The character suggests a pivotal mechanism or turning point."},
+
+{type:"teach",trg:"결과",src:"result, outcome",pos:"noun",gender:null,
+note:"Sino-Korean: 결(decide/結) + 과(fruit/果).\n결과가 좋다 = the result is good.\n결과를 기다리다 = wait for the result.",
+example:"A: 시험 결과가 어땠어요?\nB: 결과가 좋았어요! 열심히 공부한 결과예요.\nA: 정말요? 축하해요!\nB: 감사해요. 좋은 결과를 받아서 기분이 좋아요.",
+exampleSrc:"A: How was your exam result?\nB: The result was good! It is the result of studying hard.\nA: Really? Congratulations!\nB: Thank you. I feel great getting a good result.",
+funFact:"결과 pairs with 원인 (cause): 원인과 결과 = cause and effect, a key phrase in Korean academic writing."},
+
+{type:"teach",trg:"이유",src:"reason, cause",pos:"noun",gender:null,
+note:"Sino-Korean: 이(reason/理) + 유(reason/由).\n이유가 있다 = there is a reason.\n이유를 설명하다 = explain a reason.",
+example:"A: 왜 한국어를 배워요?\nB: 이유는 간단해요. 한국 문화를 좋아해요.\nA: 좋은 이유네요!\nB: 이유가 있으면 더 열심히 할 수 있어요.",
+exampleSrc:"A: Why do you learn Korean?\nB: The reason is simple. I like Korean culture.\nA: That is a good reason!\nB: If you have a reason, you can work harder.",
+funFact:"이유 vs 까닭: 이유 is Sino-Korean (formal/neutral), 까닭 is pure Korean (literary). Both mean reason. TOPIK II tests both."},
+
+{type:"teach",trg:"목표",src:"goal, target",pos:"noun",gender:null,
+note:"Sino-Korean: 목(eye/目) + 표(mark/標).\n목표를 세우다 = set a goal.\n목표를 이루다 = achieve a goal.",
+example:"A: 올해 목표가 뭐예요?\nB: 한국어 시험을 통과하는 것이 목표예요.\nA: 좋은 목표예요! 열심히 하면 이룰 수 있어요.\nB: 목표를 이루기 위해서 매일 공부하고 있어요.",
+exampleSrc:"A: What is your goal this year?\nB: Passing the Korean language test is my goal.\nA: That is a great goal! If you work hard you can achieve it.\nB: I am studying every day in order to achieve my goal.",
+funFact:"The expression 목표를 향해 나아가다 (move toward a goal) is common in Korean motivational writing and TOPIK essay prompts."},
+
+{type:"teach",trg:"문제",src:"problem, issue",pos:"noun",gender:null,
+note:"Sino-Korean: 문(question/問) + 제(topic/題).\n문제가 생기다 = a problem arises.\n문제를 해결하다 = solve a problem.",
+example:"A: 무슨 문제가 있어요?\nB: 요즘 건강 문제가 있어요.\nA: 걱정이에요. 도와줄 수 있어요?\nB: 감사해요. 문제를 같이 해결하면 좋겠어요.",
+exampleSrc:"A: Is there a problem?\nB: I have a health problem these days.\nA: I am worried. Can I help you?\nB: Thank you. It would be nice to solve the problem together.",
+funFact:"문제 also means an exam question (시험 문제). Context makes the meaning clear, which is exactly what TOPIK II tests."},
+
+{type:"teach",trg:"사회",src:"society",pos:"noun",gender:null,
+note:"Sino-Korean: 사(group/社) + 회(meeting/會).\n사회 문제 = social issue.\n사회에 참여하다 = participate in society.",
+example:"A: 사회에서 중요한 것이 뭐예요?\nB: 서로 돕는 것이 중요하다고 생각해요.\nA: 맞아요. 좋은 사회를 만들기 위해서 노력해야 해요.\nB: 사회 문제에 관심을 가지는 것도 중요해요.",
+exampleSrc:"A: What is important in society?\nB: I think helping each other is important.\nA: That is right. We must make efforts to build a good society.\nB: Taking an interest in social issues is also important.",
+funFact:"사회 is a TOPIK II high-frequency word that appears in essay prompts about modern life, justice, and community values."},
+
+{type:"teach",trg:"참여하다",src:"to participate, to take part",pos:"verb",gender:null,
+note:"Sino-Korean: 참(attend/參) + 여(join/與) + 하다.\n행사에 참여하다 = participate in an event.\n토론에 참여하다 = take part in a debate.",
+example:"A: 이번 행사에 참여할 거예요?\nB: 네, 꼭 참여하고 싶어요.\nA: 참여하는 사람이 많을 것 같아요.\nB: 같이 참여하기 위해서 일찍 도착했어요.",
+exampleSrc:"A: Will you participate in this event?\nB: Yes, I really want to take part.\nA: I think many people will participate.\nB: I arrived early in order to take part together.",
+funFact:"In Korean civic life, 시민 참여 (citizen participation) is a key concept. TOPIK II essays frequently ask about how citizens can contribute to society."},
+
+{type:"teach",trg:"제안하다",src:"to suggest, to propose",pos:"verb",gender:null,
+note:"Sino-Korean: 제(present/提) + 안(plan/案) + 하다.\n아이디어를 제안하다 = propose an idea.\n해결책을 제안하다 = suggest a solution.",
+example:"A: 문제를 해결할 방법이 있어요?\nB: 제가 한 가지 제안할게요.\nA: 좋아요. 무슨 아이디어예요?\nB: 함께 참여하는 프로그램을 만드는 것을 제안해요.",
+exampleSrc:"A: Do you have a way to solve the problem?\nB: I will suggest one thing.\nA: Sure. What is the idea?\nB: I suggest creating a program that everyone participates in together.",
+funFact:"제안 (proposal) is distinct from 요청 (request): a 제안 invites discussion, while a 요청 asks for action. TOPIK II writing tests this distinction."},
+
+{type:"teach",trg:"발전하다",src:"to develop, to advance, to progress",pos:"verb",gender:null,
+note:"Sino-Korean: 발(rise/發) + 전(unfold/展) + 하다.\n사회가 발전하다 = society progresses.\n빠르게 발전하다 = develop rapidly.",
+example:"A: 한국이 많이 발전했네요.\nB: 맞아요. 기술과 사회가 함께 발전했어요.\nA: 앞으로도 계속 발전할 것 같아요.\nB: 좋은 기회를 잘 살리면 더 발전할 수 있어요.",
+exampleSrc:"A: Korea has developed a lot.\nB: That is right. Technology and society have advanced together.\nA: It seems it will keep developing in the future too.\nB: If we make good use of opportunities, we can advance further.",
+funFact:"발전 also appears in the noun form alone (발전 = development/progress) and in 경제 발전 (economic development), a staple of TOPIK II essays."},
+
+{type:"tip",title:"Abstract Nouns in Korean Civic Discourse",text:"These nouns are the building blocks of B1-B2 Korean.\n\n기회 = opportunity\n결과 = result\n이유 = reason\n목표 = goal\n문제 = problem\n사회 = society\n\nAll six combine naturally:\n사회 문제를 해결하기 위해서...\n= In order to solve social problems...\n\n목표를 이루는 것이 중요해요.\n= Achieving goals is important.",
+deepDive:"TOPIK II essay pattern: 이유 + 결과\n\nKorean academic writing uses a predictable structure:\n\n왜냐하면 A이기 때문이다.\n그 결과, B가 생겼다.\n이 문제를 해결하기 위해서 C가 필요하다.\n\nTranslation pattern:\nThe reason is because A.\nAs a result, B occurred.\nIn order to solve this problem, C is needed.\n\nMastering these 6 nouns unlocks essay structure on TOPIK II."},
+
+{type:"mc",q:"기회를 잡다 means:",opts:["to miss an opportunity","to seize an opportunity","to create an opportunity","to discuss an opportunity"],ans:"to seize an opportunity",hint:"잡다 means to grab or catch. What do you do to an opportunity when you act on it?"},
+
+{type:"fb",s:"이번 기회를 {1}으면 안 돼요.\n(We must not miss this opportunity.)",a:"놓치",opts:["놓치","잡","만들","포기"],hint:"놓치다 = to miss, to let slip. Choose the stem that means failing to catch an opportunity."},
+
+{type:"mc",q:"열심히 공부한 결과예요 means:",opts:["It is hard to study for results","It is the result of studying hard","I will study hard for results","Studying hard has no results"],ans:"It is the result of studying hard",hint:"결과 = result/outcome. -ㄴ 결과 = as a result of doing. 공부한 = studied (past modifier)."},
+
+{type:"fb",s:"문제를 해결하{1} 위해서 같이 생각해 봐요.\n(Let us think together in order to solve the problem.)",a:"기",opts:["기","는","는 것","기로"],hint:"-기 위해서 = in order to. Which suffix attaches to the verb stem for formal purpose?"},
+
+{type:"mc",q:"이유를 설명하다 means:",opts:["to look for a reason","to explain a reason","to ignore a reason","to make a reason"],ans:"to explain a reason",hint:"설명하다 = to explain. 이유 = reason. Which action pairs naturally with giving a reason?"},
+
+{type:"fb",s:"사회 {1}에 관심을 가지는 것이 중요해요.\n(Taking an interest in social issues is important.)",a:"문제",opts:["문제","기회","결과","목표"],hint:"The phrase 사회 ___ = social ___. Which noun means issue or problem?"},
+
+{type:"drag_fill",s:"좋은 {1}를 이루{2} 위해서 매일 노력하는 것이 {3}.\n(In order to achieve a good goal, trying every day is important.)",blanks:{"1":"목표","2":"기","3":"중요해요"},pool:["목표","기","중요해요","결과","는","좋아요"],hint:"Goal = 목표. In order to achieve = 이루기 위해서. Is important = 중요해요."},
+
+{type:"fb",s:"이번 행사에 꼭 {1}하고 싶어요.\n(I really want to participate in this event.)",a:"참여",opts:["참여","제안","발전","해결"],hint:"Taking part in an event. Which verb means to participate?"},
+
+{type:"mc",q:"제안하다 vs 요청하다:",opts:["Same meaning","Both mean to refuse","To suggest (open to discussion) vs to request (action expected)","To demand vs to respond"],ans:"To suggest (open to discussion) vs to request (action expected)",hint:"제안하다 invites input. 요청하다 asks for something specific. The nuance matters in formal contexts."},
+
+{type:"fb",s:"사회가 빠르게 {1}하고 있어요.\n(Society is developing rapidly.)",a:"발전",opts:["발전","참여","제안","결과"],hint:"Society is making progress. Which verb means to develop or advance?"},
+
+{type:"drag_fill",s:"문제의 {1}를 알면 더 좋은 해결책을 {2}할 수 있어요.\n(If you know the reason for a problem, you can suggest a better solution.)",blanks:{"1":"이유","2":"제안"},pool:["이유","제안","결과","목표","참여","발전"],hint:"Reason for a problem = 이유. Suggest a solution = 제안하다."},
+
+{type:"mc",q:"사회에 참여하는 것이 중요하다고 생각해요 combines:",opts:["Only -는 것","Only 중요하다","Only -다고","Three: -는 것 + 중요하다 + -다고 (reported opinion)"],ans:"Three: -는 것 + 중요하다 + -다고 (reported opinion)",hint:"참여하는 것 = the act of participating (nominalized). -다고 생각해요 = I think that. Count the grammar layers."},
+
+{type:"fb",s:"그 결과, 사회가 더 {1}했어요.\n(As a result, society advanced further.)",a:"발전",opts:["발전","참여","제안","문제"],hint:"Society made progress or advanced. Which verb describes moving forward in development?"},
+
+{type:"match",pairs:[{trg:"기회",src:"opportunity"},{trg:"결과",src:"result"},{trg:"이유",src:"reason"},{trg:"목표",src:"goal"},{trg:"문제",src:"problem"},{trg:"사회",src:"society"}]},
+
+{type:"match",pairs:[{trg:"참여하다",src:"to participate"},{trg:"제안하다",src:"to suggest"},{trg:"발전하다",src:"to develop, advance"},{trg:"문제를 해결하다",src:"to solve a problem"}]}
+]}
+
 ]};
 
 export default UNIT_18;
