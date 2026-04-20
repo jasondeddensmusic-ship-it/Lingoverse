@@ -296,6 +296,99 @@ const UNIT_17 = {
 
 ]},
 
+// ═══ L4: N4 Career & Work Vocabulary ═══
+,{id:"jav2_u17l_n4_career", title:"仕事(しごと)と職場(しょくば)", icon:"💼", xp:15, board:true, steps:[
+  {type:"intro", title:"仕事(しごと)と職場(しょくば)",
+   desc:"Build essential N4 workplace vocabulary. Japanese work culture has its own rich vocabulary for meetings, roles, and daily professional actions. These words appear constantly in JLPT N4 reading passages and real office settings.",
+   goals:["Name key workplace roles: employee, company president","Describe professional situations: meeting, overtime, business trip","Use action verbs: decide, continue","Ask and answer questions using N4 communication vocabulary"]},
+
+  {type:"teach", trg:"会議(かいぎ)", src:"meeting / conference", pos:"noun", gender:null,
+   note:"A scheduled gathering to discuss work matters. Very common in Japanese workplaces.\nKanji: 会 (meet) + 議 (discuss).",
+   example:"A: 今日(きょう)は会議(かいぎ)がありますか？\nB: はい、午後(ごご)三時(さんじ)から会議(かいぎ)があります。\nA: 長(なが)い会議(かいぎ)ですか？\nB: いいえ、三十分(さんじゅっぷん)ぐらいです。",
+   exampleSrc:"A: Do you have a meeting today?\nB: Yes, there is a meeting from 3 p.m.\nA: Is it a long meeting?\nB: No, it is about thirty minutes.",
+   funFact:"Japan is famous for kaigi (meetings) that are thorough, structured, and sometimes lengthy. The word 会議室(かいぎしつ) (conference room) is one of the first signs you will see in any Japanese office. The kanji 議 also appears in 国会議員(こっかいぎいん) (member of parliament)."},
+
+  {type:"teach", trg:"社員(しゃいん)", src:"employee / company staff member", pos:"noun", gender:null,
+   note:"A general term for any employee of a company.\nKanji: 社 (company/shrine) + 員 (member).",
+   example:"A: あの人(ひと)は誰(だれ)ですか？\nB: 新(あたら)しい社員(しゃいん)の田中(たなか)さんです。\nA: 何人(なんにん)の社員(しゃいん)がいますか？\nB: 約(やく)五十人(ごじゅうにん)います。",
+   exampleSrc:"A: Who is that person?\nB: That is Tanaka, a new employee.\nA: How many employees are there?\nB: There are about fifty.",
+   funFact:"社員 specifically means a full-time regular employee. Japan's labor system distinguishes sharply between 正社員(せいしゃいん) (permanent staff) and 非正規(ひせいき) (non-regular/contract workers). 社員 implies loyalty and long-term commitment — a significant social status in Japanese corporate culture."},
+
+  {type:"teach", trg:"社長(しゃちょう)", src:"company president / CEO", pos:"noun", gender:null,
+   note:"The head of a company. Literally: company (社) + chief (長).\nSpeaking to or about the 社長(しゃちょう) requires polite language.",
+   example:"A: 社長(しゃちょう)は今日(きょう)いますか？\nB: はい、社長(しゃちょう)はここにいます。\nA: 社員(しゃいん)も今日(きょう)いますか？\nB: はい、社員(しゃいん)はみんないます。",
+   exampleSrc:"A: Is the president here today?\nB: Yes, the president is here.\nA: Are the employees here today too?\nB: Yes, all the employees are here.",
+   funFact:"社長 combines 社 (company) and 長 (head/chief). The same 長 appears in 部長(ぶちょう) (department head) and 課長(かちょう) (section manager). Japanese companies have a clear hierarchy: 社長 at the top, then 副社長(ふくしゃちょう) (VP), then 部長, 課長, 係長(かかりちょう), and 一般社員(いっぱんしゃいん) (general staff)."},
+
+  {type:"mc", q:"Which word means 'meeting' in a work context?", opts:["社員(しゃいん)","会議(かいぎ)","社長(しゃちょう)","残業(ざんぎょう)"], ans:"会議(かいぎ)",
+   hint:"Two kanji: 会 (meet) + 議 (discuss). Used for any scheduled professional gathering."},
+
+  {type:"teach", trg:"残業(ざんぎょう)", src:"overtime work / working late", pos:"noun", gender:null,
+   note:"Working beyond scheduled hours. Very common in Japanese workplaces.\nKanji: 残 (remain) + 業 (work/business).",
+   example:"A: 昨日(きのう)も残業(ざんぎょう)しましたか？\nB: はい、また残業(ざんぎょう)でした。\nA: 大変(たいへん)ですね。\nB: でも、仕事(しごと)が終(お)わりました。",
+   exampleSrc:"A: Did you work overtime again yesterday?\nB: Yes, it was overtime again.\nA: That is tough.\nB: But the work is finished.",
+   funFact:"Zangyo is a defining feature of Japanese work culture. Japan even has a word for dying from overwork: 過労死(かろうし). In recent years the government has pushed for 働(はたら)き方(かた)改革(かいかく) (work-style reform) to reduce zangyo. The phrase サービス残業(ざんぎょう) means 'unpaid overtime' — literally 'service overtime,' referring to free labor expected from loyal employees."},
+
+  {type:"teach", trg:"出張(しゅっちょう)", src:"business trip", pos:"noun", gender:null,
+   note:"A work-related trip away from the main office.\nKanji: 出 (go out) + 張 (stretch/post).",
+   example:"A: 来週(らいしゅう)はどこにいますか？\nB: 来週(らいしゅう)は出張(しゅっちょう)で大阪(おおさか)にいます。\nA: 何日間(なんにちかん)ですか？\nB: 三日間(みっかかん)の予定(よてい)です。",
+   exampleSrc:"A: Where will you be next week?\nB: Next week I will be in Osaka on a business trip.\nA: How many days?\nB: The plan is for three days.",
+   funFact:"Shuccho is taken seriously in Japanese business. Before going, employees file a 出張申請書(しゅっちょうしんせいしょ) (business trip application). Bullet-train tickets and hotel stays are carefully documented. Being sent on a business trip signals trust from management. Long Shinkansen rides are a quintessential part of Japanese business life."},
+
+  {type:"teach", trg:"決(き)める", src:"to decide / to set / to determine", pos:"verb", gender:null,
+   note:"Group 2 (ichidan) verb. Stem: 決(き)め. Passive: 決(き)められる.\nKanji: 決 (decide/determine).",
+   example:"A: 会議(かいぎ)の日程(にってい)を決(き)めましたか？\nB: はい、来週(らいしゅう)の月曜日(げつようび)に決(き)めました。\nA: 何時(なんじ)に始(はじ)まりますか？\nB: 午前(ごぜん)十時(じゅうじ)に始(はじ)まる予定(よてい)です。",
+   exampleSrc:"A: Have you decided on the meeting schedule?\nB: Yes, we decided on next Monday.\nA: What time does it start?\nB: It is scheduled to start at 10 a.m.",
+   funFact:"決める (to decide) and its intransitive pair 決まる (to be decided) are both essential N4 verbs. The kanji 決 also appears in 決勝(けっしょう) (final match) and 解決(かいけつ) (resolution/solution). In Japanese workplaces, decisions are made by group consensus (根回(ねまわ)し nemawashi) before any formal announcement."},
+
+  {type:"teach", trg:"続(つづ)ける", src:"to continue / to keep doing", pos:"verb", gender:null,
+   note:"Group 2 verb: stem 続(つづ)け + る. Often combines with te-form: 〜し続(つづ)ける (keep doing).\nKanji: 続 (continue/connect).",
+   example:"A: このプロジェクトを続(つづ)けますか？\nB: はい、来月(らいげつ)まで続(つづ)けるつもりです。\nA: 一人(ひとり)でできますか？\nB: はい、頑張(がんば)って続(つづ)けます。",
+   exampleSrc:"A: Will you continue this project?\nB: Yes, I intend to keep going until next month.\nA: Can you do it alone?\nB: Yes, I will keep working hard at it.",
+   funFact:"続ける follows the pattern VERB-stem + 続ける. So 働(はたら)き続(つづ)ける means 'to keep working' and 話(はな)し続(つづ)ける means 'to keep talking.' The kanji 続 appears in 続(つづ)き (continuation), 連続(れんぞく) (consecutive), and 手続(てつづ)き (procedure) — a key workplace word."},
+
+  {type:"tip", title:"Workplace Roles and Hierarchy",
+   text:"Japanese companies have clear title layers:\n社長(しゃちょう) — company president / CEO\n副社長(ふくしゃちょう) — vice president\n部長(ぶちょう) — department head\n課長(かちょう) — section chief\n社員(しゃいん) — employee / staff member\n\nWhen addressing these people, use their title instead of their name:\n田中社長(しゃちょう) = President Tanaka\n鈴木部長(ぶちょう) = Department Head Suzuki\n\nUsing bare names with superiors sounds rude. Titles function as honorifics.",
+   deepDive:{title:"残業(ざんぎょう) Culture and Reform",
+    text:"Japan's zangyo culture is one of the most discussed workplace topics worldwide. The 2019 Work Style Reform Act (働(はたら)き方(かた)改革(かいかく)関連法(かんれんほう)) set overtime caps for the first time. Before this law, there were no legal limits on monthly overtime hours in many industries.\n\nCompanies now face fines for exceeding limits. Young Japanese workers increasingly value work-life balance and use the term ワークライフバランス. Remote work (テレワーク) became mainstream after 2020, challenging traditional office attendance culture.\n\nThe phrase 定時(ていじ)退社(たいしゃ) (leaving at scheduled time) was once mocked; today it is celebrated as healthy and efficient."}},
+
+  {type:"teach", trg:"質問(しつもん)", src:"question / inquiry", pos:"noun", gender:null,
+   note:"Used in formal and educational contexts. More formal than 疑問(ぎもん).\nKanji: 質 (quality/substance) + 問 (question).\n質問(しつもん)する = to ask a question.",
+   example:"A: 何(なに)か質問(しつもん)がありますか？\nB: はい、一(ひと)つ質問(しつもん)があります。\nA: どうぞ。\nB: この仕事(しごと)はいつ始(はじ)まりますか？",
+   exampleSrc:"A: Do you have any questions?\nB: Yes, I have one question.\nA: Go ahead.\nB: When does this job start?",
+   funFact:"質問 is used in classrooms, meetings, and formal situations. The polite phrase 質問(しつもん)があるのですが... (I have a question, but...) is the standard way to raise one in a meeting. The kanji 質 also appears in 品質(ひんしつ) (product quality) and 質(しつ)の高(たか)い (high quality) — both common in Japanese business writing."},
+
+  {type:"teach", trg:"返事(へんじ)", src:"reply / response / answer", pos:"noun", gender:null,
+   note:"A response to a message or spoken question. More everyday than 回答(かいとう).\nKanji: 返 (return) + 事 (thing/matter).\n返事(へんじ)する = to reply.",
+   example:"A: メールの返事(へんじ)を送(おく)りましたか？\nB: まだです。今日(きょう)の午後(ごご)に送(おく)ります。\nA: 早(はや)めにお願(ねが)いします。\nB: わかりました。すぐに送(おく)ります。",
+   exampleSrc:"A: Did you send a reply to the email?\nB: Not yet. I will send it this afternoon.\nA: Please do it as soon as possible.\nB: Understood. I will send it right away.",
+   funFact:"Prompt 返事 is considered a professional virtue in Japan. Not replying quickly is seen as disrespectful. The phrase 返事(へんじ)が遅(おそ)い (slow to reply) is a common complaint in offices. Digital culture has intensified this: not replying to a LINE or email within hours is considered poor etiquette in many workplace relationships."},
+
+  {type:"fb", s:"明日(あした)の会議(かいぎ)の時間(じかん)を{1}ましたか？\n(Did you decide on tomorrow's meeting time?)", a:"決(き)め", opts:["決(き)め","続(つづ)け","始(はじ)め","集(あつ)め"], sSrc:"Did you decide on the meeting time for tomorrow?",
+   hint:"Which verb means to make a decision or to set a time? Group 2 ichidan verb."},
+
+  {type:"mc", q:"社員(しゃいん) means:", opts:["company president","business trip","employee / staff member","meeting"], ans:"employee / staff member",
+   hint:"社 (company) + 員 (member). This refers to any regular member of a company's staff."},
+
+  {type:"fb", s:"仕事(しごと)を{1}けるために、毎日(まいにち)頑張(がんば)っています。\n(I work hard every day in order to keep doing my job.)", a:"続(つづ)", opts:["続(つづ)","決(き)","始(はじ)","終(お)わ"], sSrc:"I work hard every day in order to keep {1} my job.",
+   hint:"Which verb means to go on doing something without stopping? The て-form pattern [verb]+続(つづ)ける."},
+
+  {type:"match", pairs:[{trg:"会議(かいぎ)",src:"meeting"},{trg:"社員(しゃいん)",src:"employee"},{trg:"社長(しゃちょう)",src:"company president"},{trg:"残業(ざんぎょう)",src:"overtime work"}]},
+
+  {type:"match", pairs:[{trg:"出張(しゅっちょう)",src:"business trip"},{trg:"質問(しつもん)",src:"question"},{trg:"返事(へんじ)",src:"reply / response"},{trg:"決(き)める",src:"to decide"}]},
+
+  {type:"fb", s:"何(なに)か{1}がありますか？\n(Do you have any questions?)", a:"質問(しつもん)", opts:["質問(しつもん)","返事(へんじ)","会議(かいぎ)","出張(しゅっちょう)"], sSrc:"Do you have any {1}?",
+   hint:"This noun means a question or inquiry. Used to invite input in meetings or classrooms."},
+
+  {type:"mc", q:"出張(しゅっちょう) means:", opts:["overtime work","business trip","company meeting","job interview"], ans:"business trip",
+   hint:"出 (go out) + 張 (post/extend). This is a work trip away from the main office."},
+
+  {type:"fb", s:"社長(しゃちょう)はただいま会議(かいぎ){1}です。\n(The president is currently in a meeting.)", a:"中(ちゅう)", opts:["中(ちゅう)","後(ご)","前(まえ)","外(そと)"], sSrc:"The president is currently in the middle of a meeting.",
+   hint:"This single kanji suffix means 'in the middle of' or 'during.' Attaches to nouns to indicate an ongoing activity."},
+
+  {type:"match", pairs:[{trg:"続(つづ)ける",src:"to continue"},{trg:"決(き)める",src:"to decide"},{trg:"返事(へんじ)する",src:"to reply"},{trg:"質問(しつもん)する",src:"to ask a question"}]}
+
+]}
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01
 ,BATCH2_L02
