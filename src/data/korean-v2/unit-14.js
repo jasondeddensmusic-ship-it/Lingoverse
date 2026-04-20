@@ -340,6 +340,7 @@ const UNIT_14 =
 {type:"mc",q:"Which sentence uses 여행하다 correctly?",opts:["주말에 여행해요.","주말에 여행이에요.","주말을 여행이에요.","주말은 여행했어요 해요."],ans:"주말에 여행해요.",hint:"여행하다 is a verb. Use the time particle 에 for 주말 (weekend). Which option has the correct particle and verb form?"},
 
 {type:"drag_fill",s:"봄 {1}에는 따뜻하고 {2}해서 여행하기 좋아요.\n(In the spring ___, it is warm and ___ so it is good to travel.)",blanks:{"1":"계절","2":"편"},pool:["계절","편","주말","직장","여름","깨끗"],hint:"봄 계절 = the spring season. 편하다 = comfortable. Both make travel enjoyable."},
+{type:"match",pairs:[{trg:"여행하다",src:"to travel (dictionary form)"},{trg:"깨끗하다",src:"to be clean (dictionary form)"}]},
 ]},
 
 // ── F22: 관공서 업무 보기 (Handling Administrative Situations) ──

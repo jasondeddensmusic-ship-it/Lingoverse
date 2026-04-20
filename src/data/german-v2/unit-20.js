@@ -398,7 +398,8 @@ const UNIT_20 =
 {type:"mc",q:"Sie sieht entspannt aus. Was bedeutet 'entspannt'?",opts:["bored","exhausted","relaxed","disappointed"],ans:"relaxed",hint:"The opposite of stressed. Ent- (un-) + spannen (to tighten). Un-tightened."},
 {type:"match",pairs:[{trg:"aufgeregt",src:"excited, agitated"},{trg:"entspannt",src:"relaxed"},{trg:"enttäuscht",src:"disappointed"},{trg:"überrascht",src:"surprised"},{trg:"gelangweilt",src:"bored"},{trg:"eifersüchtig",src:"jealous"}]},
 {type:"fb",s:"Die Versicherung {1} es, die Therapie zu bezahlen.",a:["ermöglicht"],opts:["ermöglicht","bewältigt","erleichtert","verteilt"],hint:"Which verb means to make something possible?",sSrc:"The insurance makes it possible to pay for the therapy."},
-{type:"mc",q:"Wie bewältigst du den Stress? Was bedeutet 'bewältigen'?",opts:["to estimate","to distribute","to cope with, to manage","to enable"],ans:"to cope with, to manage",hint:"Be- + wältigen (to overpower). Wrestling a difficulty until you master it."}
+{type:"mc",q:"Wie bewältigst du den Stress? Was bedeutet 'bewältigen'?",opts:["to estimate","to distribute","to cope with, to manage","to enable"],ans:"to cope with, to manage",hint:"Be- + wältigen (to overpower). Wrestling a difficulty until you master it."},
+{type:"match",pairs:[{trg:"ermöglichen",src:"to enable / to make possible"},{trg:"bewältigen",src:"to cope with / to manage"}]}
 ]}
 
 ]};
