@@ -296,6 +296,103 @@ const UNIT_02 = {
    hint:"This phrase opens workplace messages and emails. It acknowledges effort and shows group membership."},
 ]},
 
+,{id:"jav2_u2l_essential_n5", title:"私(わたし)・彼(かれ)・動詞(どうし)", icon:"\u{1F465}", xp:15, board:true, steps:[
+  {type:"intro", title:"Essential N5 Pronouns and Verbs",
+   desc:"Learn the three core Japanese personal pronouns and three essential N5 verbs. These words appear in almost every Japanese conversation.",
+   goals:["Use 私(わたし), 彼(かれ), 彼女(かのじょ) correctly in sentences","Conjugate 来(く)る, 見(み)る, 聞(き)く in polite present form","Build sentences combining pronouns with these verbs"]},
+
+  {type:"teach", trg:"私(わたし)", src:"I (formal first-person pronoun)", pos:"pron", gender:null,
+   phonetic:"watashi",
+   note:"私(わたし) = I, me.\nGender-neutral and polite. Safe for all contexts.\nMen in casual speech often use 僕(ぼく) or 俺(おれ) instead.",
+   example:"A: 私(わたし)は田中(たなか)です。\nB: はじめまして、私(わたし)はリサです。",
+   exampleSrc:"A: I am Tanaka.\nB: Nice to meet you. I am Lisa.",
+   funFact:"The kanji 私 originally meant 'private' (as opposed to 公, public). During the Edo period (1603-1868) it shifted to mean the private self, becoming the standard polite first-person pronoun."},
+
+  {type:"teach", trg:"彼(かれ)", src:"he / him", pos:"pron", gender:null,
+   phonetic:"kare",
+   note:"Third-person masculine pronoun.\nAlso means 'boyfriend' in modern spoken Japanese.\nJapanese rarely uses pronouns; names are preferred in conversation.",
+   example:"A: 彼(かれ)は学生(がくせい)ですか?\nB: はい、彼(かれ)は大学生(だいがくせい)です。",
+   exampleSrc:"A: Is he a student?\nB: Yes, he is a university student.",
+   funFact:"Kare was a rare, literary word for 'he' until the Meiji era (1868-1912), when Japan borrowed Western grammatical concepts. Before that, Japanese speakers simply used names or context instead of pronouns."},
+
+  {type:"teach", trg:"彼女(かのじょ)", src:"she / her (also: girlfriend)", pos:"pron", gender:null,
+   phonetic:"kanojo",
+   note:"Third-person feminine pronoun. Also the standard word for 'girlfriend.'\nContext makes the meaning clear.\n彼女(かのじょ)がいます = I have a girlfriend.",
+   example:"A: 彼女(かのじょ)は先生(せんせい)です。\nB: そうですか。彼女(かのじょ)はやさしいですか?",
+   exampleSrc:"A: She is a teacher.\nB: Really? Is she kind?",
+   funFact:"Like 彼(かれ), 彼女(かのじょ) was introduced as a pronoun in the Meiji era to translate Western novels. The kanji literally mean 'that woman' (彼 = that/he, 女 = woman)."},
+
+  {type:"match", pairs:[
+    {trg:"私(わたし)", src:"I / me (formal)"},
+    {trg:"彼(かれ)", src:"he / him"},
+    {trg:"彼女(かのじょ)", src:"she / her"}
+  ]},
+
+  {type:"mc", q:"彼(かれ)は医者(いしゃ)です means:", opts:["She is a doctor","He is a doctor","I am a doctor","Is he a doctor?"], ans:"He is a doctor",
+   hint:"彼(かれ) = he. 医者(いしゃ) = doctor. です = is."},
+
+  {type:"fb", s:"{1}は学生(がくせい)です。", a:"彼女(かのじょ)", opts:["彼女(かのじょ)","彼(かれ)","私(わたし)","先生(せんせい)"], sSrc:"She is a student.",
+   hint:"The feminine third-person pronoun meaning 'she.'"},
+
+  {type:"teach", trg:"来(く)る", src:"to come (irregular verb)", pos:"verb", gender:null,
+   phonetic:"kuru",
+   note:"One of only two truly irregular Japanese verbs (the other is する).\nPolite present: 来(き)ます (kimasu).\nNegative: 来(き)ません (kimasen).",
+   example:"A: 先生(せんせい)は来(き)ますか?\nB: はい、先生(せんせい)は来(き)ます。",
+   exampleSrc:"A: Is the teacher coming?\nB: Yes, the teacher is coming.",
+   funFact:"来(く)る is the only Japanese verb where the verb stem itself changes in conjugation (ku/ki/ko). All other irregular patterns are variations; this one is completely unpredictable. Every Japanese learner must memorize it separately."},
+
+  {type:"teach", trg:"見(み)る", src:"to see / to look at / to watch", pos:"verb", gender:null,
+   phonetic:"miru",
+   note:"An ichidan (Group 2) verb. Drop る and add ます for polite form.\n見(み)ます (mimasu) = see/watch.\nCan mean watching TV, seeing a person, or looking at something.",
+   example:"A: 彼女(かのじょ)を見(み)ますか?\nB: はい、彼女(かのじょ)を見(み)ます。",
+   exampleSrc:"A: Do you see her?\nB: Yes, I see her.",
+   funFact:"見(み)る covers seeing, watching, and looking. 彼(かれ)を見(み)る (to see him), 彼女(かのじょ)を見(み)る (to see her), 仕事(しごと)を見(み)る (to look at work). One verb, many English translations."},
+
+  {type:"teach", trg:"聞(き)く", src:"to hear / to listen / to ask", pos:"verb", gender:null,
+   phonetic:"kiku",
+   note:"A godan (Group 1) verb. Polite form: 聞(き)きます.\nThree meanings depending on context:\n聞(き)く (person) = to hear/listen, 聞(き)く (question) = to ask.",
+   example:"A: 先生(せんせい)に聞(き)きますか?\nB: はい、先生(せんせい)に聞(き)きます。",
+   exampleSrc:"A: Will you ask the teacher?\nB: Yes, I will ask the teacher.",
+   funFact:"聞(き)く is a triple-duty verb. 先生(せんせい)に聞(き)く = ask the teacher. 日本語(にほんご)を聞(き)く = listen to Japanese. 声(こえ)を聞(き)く = hear a voice. Context determines which meaning applies."},
+
+  {type:"tip", title:"Irregular Verbs: 来(く)る and する",
+   text:"Japanese has only two truly irregular verbs:\n\n来(く)る (to come) and する (to do).\n\nPolite conjugations:\n来(く)る → 来(き)ます (kimasu)\nする → します (shimasu)\n\nAll other verbs follow predictable patterns:\n見(み)る → 見(み)ます (ichidan group: drop る + ます)\n聞(き)く → 聞(き)きます (godan group: く → き + ます)",
+   deepDive:{title:"How to spot verb groups",
+    text:"Japanese verbs fall into two main groups plus the two irregulars:\n\nGodan (Group 1): ends in a consonant + u.\n聞(き)く, 話(はな)す, 書(か)く, 読(よ)む\nConjugate by changing the final vowel: く → き + ます\n\nIchidan (Group 2): ends in る after an e/i vowel.\n見(み)る, 食(た)べる, 起(お)きる\nConjugate by dropping る and adding ます\n\nIrregulars: 来(く)る and する. Memorize these as fixed forms."}},
+
+  {type:"mc", q:"The polite form of 来(く)る is:", opts:["来(く)ます","来(き)ます","来(こ)ます","くます"], ans:"来(き)ます",
+   hint:"来(く)る is irregular. The stem changes from ku to ki in polite form."},
+
+  {type:"fb", s:"彼女(かのじょ)を{1}ます。", a:"見(み)", opts:["見(み)","来(き)","聞(き)き","行(い)き"], sSrc:"I see her. (polite form)",
+   hint:"The verb meaning 'to see / look at.' Drop る and the stem becomes み."},
+
+  {type:"mc", q:"聞(き)く can mean which of the following?", opts:["to eat and to drink","to listen and to ask","to see and to watch","to come and to go"], ans:"to listen and to ask",
+   hint:"This verb covers both hearing/listening and the act of asking a question."},
+
+  {type:"fb", s:"私(わたし)は先生(せんせい)に{1}きます。", a:"聞(き)", opts:["聞(き)","見(み)","来(き)","行(い)"], sSrc:"I ask the teacher. (polite form)",
+   hint:"The verb meaning 'to ask / hear.' Godan group: く → き + ます."},
+
+  {type:"mc", q:"彼女(かのじょ)は来(き)ます means:", opts:["She is coming","He came","She does not come","She is listening"], ans:"She is coming",
+   hint:"彼女(かのじょ) = she. 来(き)ます = polite present of 来(く)る (to come)."},
+
+  {type:"fb", s:"彼(かれ)は先生(せんせい)を{1}ます。", a:"見(み)", opts:["見(み)","聞(き)き","来(き)","行(い)き"], sSrc:"He sees the teacher. (polite form)",
+   hint:"The verb for seeing or looking at something. Ichidan verb: stem み + ます."},
+
+  {type:"match", pairs:[
+    {trg:"来(く)る", src:"to come (irregular)"},
+    {trg:"見(み)る", src:"to see / watch"},
+    {trg:"聞(き)く", src:"to hear / listen / ask"},
+    {trg:"彼女(かのじょ)", src:"she / girlfriend"}
+  ]},
+
+  {type:"mc", q:"Which sentence means 'She sees the teacher'?", opts:["彼女(かのじょ)は先生(せんせい)に聞(き)きます","彼(かれ)は先生(せんせい)を見(み)ます","彼女(かのじょ)は先生(せんせい)を見(み)ます","私(わたし)は先生(せんせい)に来(き)ます"], ans:"彼女(かのじょ)は先生(せんせい)を見(み)ます",
+   hint:"彼女(かのじょ) = she. 先生(せんせい)を見(み)ます = sees the teacher."},
+
+  {type:"fb", s:"先生(せんせい)に{1}きます。", a:"聞(き)", opts:["聞(き)","見(み)","来(き)","行(い)"], sSrc:"I will ask the teacher. (polite form)",
+   hint:"This verb means 'to ask' when followed by a person + に. Godan: く → き + ます."},
+
+]}
+
 ,BATCH3_L1
 ,BATCH4_L01
 ,BATCH4_L02
