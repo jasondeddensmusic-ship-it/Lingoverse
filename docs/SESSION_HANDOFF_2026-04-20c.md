@@ -2,11 +2,12 @@
 
 > Read this first. Continuation of handoff-2026-04-20b. Extended autonomous loop per "no stops" mandate.
 
-## TL;DR
-- **17 PRs shipped** (#255–#272). All merged to main, all CI green.
-- **+538 teach cards** across 10 languages this extended run.
+## TL;DR (final)
+- **29 PRs shipped** (#255–#284). All merged to main, all CI green.
+- **+634 teach cards** across 10 languages this extended run.
 - All 10 languages **100% clean** on PP8/PP43/PP48/PP63/PP64/PP66/PP67.
-- Grand total: **14,713 teach cards** (was 14,175 at start of 2026-04-20 sessions).
+- Grand total: **14,809 teach cards** (was 14,175 at start of 2026-04-20 sessions).
+- Late-session pivot: parallel agents had unreliable Edit persistence on Windows worktree (~50% rollback rate). Switched to inline main-session edits in batches 19-29, which worked reliably.
 
 ## Per-language session totals
 
