@@ -378,9 +378,11 @@ German v2 is COMPLETE. All phases done. Full detailed history in `docs/BUILD_STA
 2. **CEFR B2 Arabic gap** — 1,821 B2 CEFR vocab entries have no `trAr` field. A1+A2+B1 complete (4,699/6,537). Unblocked pending content session.
 3. **V1 archival — COMPLETE (2026-04-18).** All five V1 unit files archived; 43 gaps salvaged; 7 MB bundle reduction. See COMPLETE block below.
 4. **REVIEW/NEW WORD edge cases** — `lwAtStart` ref fix deployed (2026-04-08). Needs browser testing.
-5. **Japanese PP67 soft flags** — unit-15.js and unit-22.js have 1 production quiz for 16-17 teach cards (need 2+). Validator reports PASS overall (threshold met in aggregate). Queued for cleanup.
+5. **Japanese PP67 soft flags — RESOLVED (2026-04-20).** All languages PP67 0 under-production even with batch-file expansion (`--include-batch`). Italian's 1 remaining unit fixed in PR #291.
+6. **Italian accent restoration — RESOLVED (2026-04-20).** `scripts/restore_italian_accents.cjs` shipped. ~805 stripped accents restored across 208 batch files (PRs #286/#287/#289).
+7. **PP58 F11 Resolve Disputes — CLOSED (2026-04-20).** PT + ZH F11 lessons added (PR #288). DE + IT have vocabulary scattered across existing units (no dedicated lesson needed).
 
-> 25 previously tracked blockers have been resolved. See `docs/BUILD_STATUS.md` for full history.
+> 25+ previously tracked blockers resolved. See `docs/BUILD_STATUS.md` for full history.
 
 ---
 
@@ -471,7 +473,8 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-20c.md`** — **LATEST HANDOFF.** 17 PRs shipped (#255–#272). +538 teach cards across 10 languages. Deep PP55 thematic closures: A1 essentials, A2 rooms/body/clothing/weather/jobs, B1 civic/abstract, B2 academic, C1 German formal. All 10 languages 100% clean. Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-20d.md`** — **LATEST HANDOFF.** 38 PRs shipped (#255–#292). +648 teach cards → 14,823 total. Italian accent restoration complete (805 fixes). F11 Resolve Disputes closed for PT+ZH. PP64 lemma-match gaps closed DE+KO. Code organization planning notes included. Next-session priorities ranked. Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-20c.md`** — Earlier snapshot. 17 PRs. +538 cards.
 - **`docs/SESSION_HANDOFF_2026-04-20b.md`** — Earlier handoff. 6 PRs shipped. +173 teach cards.
 - **`docs/SESSION_HANDOFF_2026-04-20.md`** — Earlier handoff. 41 PRs shipped (#213–#253). +538 teach cards. 7 PP58 function closures.
 - **`docs/SESSION_HANDOFF_2026-04-19.md`** — Earlier handoff. PP63/PP67/PP64 all clean. 8 feature PRs (SRS, placement quiz, Verumius Spanish).
