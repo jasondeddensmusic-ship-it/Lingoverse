@@ -253,6 +253,95 @@ const UNIT_14 =
 {type:"fb",s:"선배가 도와{1} 해서 감사했어요.\n(The senior helped me so I was grateful.)",a:["줘서"],opts:["줘서","주면","주는데","줘도"],hint:"-아/어 주다 past + -아/어서 (so): benefactive action leading to gratitude."},
 {type:"match",pairs:[{trg:"제출하다",src:"to submit"},{trg:"준비하다",src:"to prepare"},{trg:"분위기",src:"atmosphere, mood"},{trg:"허락",src:"permission, approval"}]}]},
 
+// ── A2 Seasons + States (New Lesson) ──
+{id:"kov2_u14l_a2_seasons_states",title:"계절과 상태",icon:"🌸",xp:22,board:true,steps:[
+{type:"intro",title:"Seasons and States",desc:"계절 = season\n주말 = weekend\n\nFour seasons + descriptive verbs for places.\nA2 vocabulary tested on TOPIK I.",goals:["Name all four Korean seasons","Use 주말 and 여행하다 naturally","Describe places with 편하다, 깨끗하다","Combine season + activity sentences"]},
+
+{type:"teach",trg:"계절",src:"season",pos:"noun",gender:null,
+ note:"Sino-Korean: 계(period/季) + 절(section/節).\n한국은 사계절이 있어요 = Korea has four seasons.",
+ example:"A: 어느 계절을 좋아하세요?\nB: 가을 계절을 특히 좋아해요. 날씨가 좋거든요.",
+ exampleSrc:"A: Which season do you like?\nB: I especially like the autumn season. The weather is good, you see.",
+ funFact:"Korea is famous for its distinct 사계절 (four seasons). The contrast between scorching summers and snowy winters makes 계절 a major topic in daily conversation."},
+
+{type:"teach",trg:"봄",src:"spring",pos:"noun",gender:null,
+ note:"Pure Korean word (not Sino-Korean).\n봄에 꽃이 피어요 = Flowers bloom in spring.",
+ example:"A: 봄은 따뜻하고 좋아요.\nB: 그래서 보통 봄에 공원에 가요.",
+ exampleSrc:"A: Spring is warm and nice.\nB: So I usually go to the park in spring.",
+ funFact:"봄 (spring) triggers 봄나들이 (spring picnics) and cherry blossom (벚꽃) festivals across Korea. The Seoul Cherry Blossom Festival draws millions each April."},
+
+{type:"teach",trg:"여름",src:"summer",pos:"noun",gender:null,
+ note:"Pure Korean word.\n한국 여름은 덥고 습해요 = Korean summers are hot and humid.",
+ example:"A: 여름에 바다에 가요?\nB: 네, 가족이랑 바다에 자주 가요.",
+ exampleSrc:"A: Do you go to the sea in summer?\nB: Yes, I often go to the sea with my family.",
+ funFact:"Korean summers (June-August) bring monsoon rains called 장마. 여름 is also 삼복더위 season: three official 'dog days' of extreme heat when Koreans eat 삼계탕 (ginseng chicken soup) for stamina."},
+
+{type:"teach",trg:"가을",src:"autumn, fall",pos:"noun",gender:null,
+ note:"Pure Korean word.\n가을에는 단풍이 아름다워요 = Autumn foliage is beautiful.",
+ example:"A: 가을에 뭘 좋아해요?\nB: 가을 날씨가 좋아서 공원에서 쉬어요.",
+ exampleSrc:"A: What do you like in autumn?\nB: The autumn weather is nice so I rest in the park.",
+ funFact:"가을 in Korea is peak leaf-peeping season. 단풍 (autumn leaves) turns mountains red and orange. Koreans plan weekend trips (주말 여행) specifically to see 가을 단풍 at mountains."},
+
+{type:"teach",trg:"겨울",src:"winter",pos:"noun",gender:null,
+ note:"Pure Korean word.\n겨울에 눈이 와요 = Snow falls in winter.",
+ example:"A: 겨울을 좋아해요?\nB: 하지만 겨울이 너무 추워서 어려워요.",
+ exampleSrc:"A: Do you like winter?\nB: But winter is too cold so it is hard.",
+ funFact:"Korean winters are dry and very cold, especially in the north. 겨울 sports like skiing (스키) are popular. Seoul's Han River freezes in harsh winters, and 빙어낚시 (ice fishing) becomes a weekend activity."},
+
+{type:"teach",trg:"주말",src:"weekend",pos:"noun",gender:null,
+ note:"Sino-Korean: 주(week/週) + 말(end/末).\n주말에 뭐 해요? = What do you do on weekends?",
+ example:"A: 주말에 보통 뭐 해요?\nB: 주말에는 가족이랑 만나요. 그래서 특히 좋아요.",
+ exampleSrc:"A: What do you usually do on weekends?\nB: On weekends I meet with family. So I especially like it.",
+ funFact:"주말 is derived from 주(週, week) + 말(末, end). The opposite is 주중(weekdays). 주말 여행 (weekend trips) are hugely popular in Korea, with millions traveling to mountain or beach destinations every Friday evening."},
+
+{type:"teach",trg:"여행하다",src:"to travel",pos:"verb",gender:null,
+ note:"여행(travel/旅行) + 하다.\n여행하다 vs 여행 가다: both are natural.\n여행하다 is more formal; 여행 가다 = go travel.",
+ example:"A: 주말에 여행해요?\nB: 네, 특히 가을에 자주 여행해요.",
+ exampleSrc:"A: Do you travel on weekends?\nB: Yes, I especially travel often in autumn.",
+ funFact:"여행하다 comes from hanja 旅行 (journey + move). Koreans are among the world's most avid travelers per capita. 여행 박사 (travel PhD) is a nickname for seasoned travelers in Korean internet culture."},
+
+{type:"teach",trg:"편하다",src:"comfortable, at ease",pos:"adj",gender:null,
+ note:"Descriptive verb. Use 편한 before nouns.\n이 의자가 편해요 = This chair is comfortable.\nOpposite: 불편하다.",
+ example:"A: 이 공원이 편해요?\nB: 네, 조용하고 편해서 자주 와요.",
+ exampleSrc:"A: Is this park comfortable?\nB: Yes, it is quiet and comfortable so I come often.",
+ funFact:"편하다 (comfortable/easy) and 불편하다 (uncomfortable) are both TOPIK I vocabulary. The root 편(便) means 'convenient.' The same character appears in 편의점 (convenience store: 편의 = convenience, 점 = store)."},
+
+{type:"teach",trg:"깨끗하다",src:"clean, neat",pos:"adj",gender:null,
+ note:"Descriptive verb. Use 깨끗한 before nouns.\n깨끗한 곳 = a clean place.\nOpposite: 더럽다 (dirty, already taught).",
+ example:"A: 저 카페가 깨끗해요?\nB: 네, 깨끗하고 편해서 공부하기 좋아요.",
+ exampleSrc:"A: Is that cafe clean?\nB: Yes, it is clean and comfortable so it is good for studying.",
+ funFact:"깨끗하다 is pure Korean (not Sino-Korean). Koreans take cleanliness very seriously: 새벽 청소 (early-morning cleaning) crews maintain immaculate subway stations. 깨끗한 이미지 (clean image) is a top compliment for people and places alike."},
+
+{type:"tip",title:"Descriptive Verbs as Adjectives",text:"Korean 'adjectives' are descriptive verbs.\nThey conjugate just like action verbs:\n\n편하다 → 편해요 (it is comfortable)\n깨끗하다 → 깨끗해요 (it is clean)\n따뜻하다 → 따뜻해요 (it is warm)\n\nBefore nouns: drop 다, add ㄴ/은:\n편한 곳 = a comfortable place\n깨끗한 방 = a clean room\n따뜻한 봄 = a warm spring\n\nNegative: 편하지 않아요 / 안 편해요",deepDive:"Why Korean adjectives conjugate:\n\nEnglish adjectives do not conjugate.\nBut Korean uses the same verb system\nfor both actions and descriptions.\n\n가다 (to go) → 가요 (goes)\n편하다 (comfortable) → 편해요 (is comfortable)\n\nBoth are predicates. Both take endings.\nThis is why Korean dictionaries list\nadjectives in -다 form, not a bare stem."},
+
+{type:"mc",q:"어느 계절을 좋아해요? You are asking:",opts:["Which season do you like?","What is the weather today?","Where do you travel in summer?","When is the weekend?"],ans:"Which season do you like?",hint:"어느 signals a choice among options. 계절 names a time-of-year category. 좋아하다 asks about personal preference. Put the three elements together."},
+
+{type:"fb",s:"{1}에 날씨가 따뜻해요. 꽃이 피어요.\n(___ weather is warm. Flowers bloom.)",a:"봄",opts:["봄","여름","가을","겨울"],hint:"Which season has warm weather and blooming flowers?"},
+
+{type:"mc",q:"한국 여름은 덥고 습해요. 습하다 means:",opts:["cold","dry","humid, muggy","windy"],ans:"humid, muggy",hint:"Summer in Korea is famously hot and humid. 덥다 = hot. 습하다 = the weather quality that makes you sweat even at night."},
+
+{type:"fb",s:"가을에 날씨가 좋아서 공원에서 {1}.\n(The autumn weather is nice so I ___ in the park.)",a:"쉬어요",opts:["쉬어요","출근해요","제출해요","준비해요"],hint:"The autumn weather is nice so I do what in the park? A relaxing activity."},
+
+{type:"mc",q:"겨울에 눈이 많이 와요. 눈 here means:",opts:["eye","snow","cloud","sun"],ans:"snow",hint:"겨울 = winter. 많이 와요 = comes a lot. What falls from the sky in winter in Korea?"},
+
+{type:"fb",s:"주말에 보통 뭐 해요? → 주말에 가족이랑 {1}.\n(What do you usually do on weekends? → On weekends I ___ with my family.)",a:"만나요",opts:["만나요","야근해요","출근해요","제출해요"],hint:"주말 is a day off. What is a natural weekend activity with family? A social verb."},
+
+{type:"mc",q:"특히 가을에 자주 여행해요 means:",opts:["I especially travel often in autumn","I traveled last autumn","I do not travel in autumn","I prefer summer travel"],ans:"I especially travel often in autumn",hint:"특히 = especially. 자주 = often. 가을에 = in autumn. 여행해요 = travel."},
+
+{type:"fb",s:"이 공원이 조용하고 {1}어서 자주 와요.\n(This park is quiet and ___ so I come often.)",a:"편해",opts:["편해","야근해","출근해","제출해"],hint:"The park is quiet and this descriptive quality makes it pleasant. Which adjective fits 'comfortable, at ease'?"},
+
+{type:"mc",q:"깨끗하다 is the OPPOSITE of:",opts:["따뜻하다 (warm)","편하다 (comfortable)","더럽다 (dirty)","조용하다 (quiet)"],ans:"더럽다 (dirty)",hint:"깨끗하다 = clean. Which of these options means the exact opposite?"},
+
+{type:"drag_fill",s:"저는 {1}을 제일 좋아해요. 날씨가 따뜻하고 날씨도 좋거든요.\n(I like ___ the most. The weather is warm and the weather is also nice, you see.)",blanks:{"1":"봄"},pool:["봄","여름","가을","겨울","주말"],hint:"This season has warm weather and nice conditions. Which of the four seasons fits?"},
+
+{type:"fb",s:"이 카페는 깨끗하고 {1}해서 공부하기 좋아요.\n(This cafe is clean and ___ so it is good for studying.)",a:"편",opts:["편","직장","보통","특히"],hint:"Clean and this quality make a great study place. A descriptive verb meaning comfortable or at ease."},
+
+{type:"match",pairs:[{trg:"봄",src:"spring"},{trg:"여름",src:"summer"},{trg:"가을",src:"autumn"},{trg:"겨울",src:"winter"},{trg:"계절",src:"season"},{trg:"주말",src:"weekend"}]},
+
+{type:"mc",q:"Which sentence uses 여행하다 correctly?",opts:["주말에 여행해요.","주말에 여행이에요.","주말을 여행이에요.","주말은 여행했어요 해요."],ans:"주말에 여행해요.",hint:"여행하다 is a verb. Use the time particle 에 for 주말 (weekend). Which option has the correct particle and verb form?"},
+
+{type:"drag_fill",s:"봄 {1}에는 따뜻하고 {2}해서 여행하기 좋아요.\n(In the spring ___, it is warm and ___ so it is good to travel.)",blanks:{"1":"계절","2":"편"},pool:["계절","편","주말","직장","여름","깨끗"],hint:"봄 계절 = the spring season. 편하다 = comfortable. Both make travel enjoyable."},
+]},
+
 // ── F22: 관공서 업무 보기 (Handling Administrative Situations) ──
 {id:"kov2_u14l_burocr",title:"관공서 업무 보기",icon:"🏛️",xp:15,board:true,steps:[
 {type:"intro",title:"Handling Administrative Situations",desc:"Learn vocabulary for Korean bureaucracy: 관공서 (government office), 주민등록증 (resident card), 외국인등록증 (alien registration card), documents. Tested on TOPIK II and essential for living in Korea.",goals:["Navigate 관공서 (government offices)","Request and submit official documents","Use polite administrative Korean"]},
