@@ -301,7 +301,107 @@ const UNIT_28 = {
        opts:["Meno del 10%","Circa l'80%","Circa il 40%","Il 100%"],
        ans:"Circa il 40%",
        hint:"Italy has one of the lowest reading rates in Western Europe. The percentage is well under half the population."}
-    ,{type:"match",pairs:[{trg:"la narrativa",src:"the fiction / narrative prose"},{trg:"il verso",src:"the verse / line of poetry"},{trg:"il colpo di scena",src:"the plot twist"},{trg:"il capitolo",src:"the chapter"}]}]}
+    ,{type:"match",pairs:[{trg:"la narrativa",src:"the fiction / narrative prose"},{trg:"il verso",src:"the verse / line of poetry"},{trg:"il colpo di scena",src:"the plot twist"},{trg:"il capitolo",src:"the chapter"}]}]},
+
+    // ─── Lesson 4: Verbi avanzati ───
+    {id:"itv2_u28l_b2v", title:"Verbi avanzati", icon:"📚", xp:15, board:true, steps:[
+      {type:"intro", title:"B2 Advanced Verbs",
+       desc:"Learn 7 essential B2 Italian verbs for academic and formal writing: to argue, to analyze, to criticize, to demonstrate, to illustrate, to underline, to contest. Essential for CILS B2/C1 tasks.",
+       goals:["Master 7 advanced B2 verbs","Use them in formal writing","Structure academic arguments"]},
+
+      {type:"teach", trg:"argomentare", src:"to argue (a case) / to present arguments", pos:"verb", gender:null,
+       note:"Regular -are verb. Used in academic and formal contexts to mean presenting a reasoned case, not quarreling.",
+       example:"A: Come e il tuo saggio?\nB: Ho cercato di argomentare ogni punto in modo chiaro.\nA: Bene. Un saggio deve argomentare con esempi.\nB: Si, ho lavorato molto sulla struttura.",
+       exampleSrc:"A: How is your essay?\nB: I tried to argue each point in a clear way.\nA: Good. An essay must argue with examples.\nB: Yes, I worked hard on the structure.",
+       funFact:"From Latin 'argumentare.' The noun 'argomento' means both 'argument' and 'topic/subject' in Italian, so context determines the meaning."},
+
+      {type:"teach", trg:"analizzare", src:"to analyze", pos:"verb", gender:null,
+       note:"Regular -are verb. Core verb for academic writing, literary criticism, and formal discourse.",
+       example:"A: Cosa bisogna fare per la tesi?\nB: Devi analizzare la trama e il tema del romanzo.\nA: E difficile scegliere da dove iniziare.\nB: Inizia dal personaggio principale.",
+       exampleSrc:"A: What do you need to do for the thesis?\nB: You have to analyze the plot and the theme of the novel.\nA: It is difficult to choose where to start.\nB: Start from the main character.",
+       funFact:"'Analizzare' entered Italian via French 'analyser' from Greek 'analyein' (to unloose). Analysis literally means breaking something apart to understand it."},
+
+      {type:"teach", trg:"criticare", src:"to criticize / to critique", pos:"verb", gender:null,
+       note:"Regular -are verb. Note the spelling: the hard 'c' sound is kept before vowel endings. Used both for literary criticism and negative judgment.",
+       example:"A: Il professore ha criticato il mio saggio.\nB: In che senso? Ha detto che era sbagliato?\nA: No, ha criticato solo la struttura.\nB: Allora e un commento utile, non un problema grande.",
+       exampleSrc:"A: The professor critiqued my essay.\nB: In what sense? Did he say it was wrong?\nA: No, he only criticized the structure.\nB: Then it is useful feedback, not a big problem.",
+       funFact:"Literary criticism (la critica letteraria) is a respected academic discipline in Italy. Great critics like Benedetto Croce shaped how Italians read their own literature."},
+
+      {type:"teach", trg:"dimostrare", src:"to demonstrate / to prove", pos:"verb", gender:null,
+       note:"Regular -are verb. Stronger than 'mostrare' (to show): dimostrare implies logical proof or evidence, not just display.",
+       example:"A: Riesci a dimostrare la tua tesi?\nB: Si, ho trovato tre citazioni molto chiare nel romanzo.\nA: Ottimo. Usa le citazioni nel saggio.\nB: Le aggiungo subito nel capitolo due.",
+       exampleSrc:"A: Can you demonstrate your thesis?\nB: Yes, I found three very clear quotations in the novel.\nA: Excellent. Use the quotations in the essay.\nB: I will add them right away in chapter two.",
+       funFact:"'Dimostrare' and English 'demonstrate' both come from Latin 'demonstrare' (to point out fully). In Italian, a math proof is called 'una dimostrazione.'"},
+
+      {type:"teach", trg:"illustrare", src:"to illustrate / to exemplify", pos:"verb", gender:null,
+       note:"Regular -are verb. In academic Italian, 'illustrare' means to clarify or explain with examples, not just to draw pictures.",
+       example:"A: Puoi illustrare con un esempio?\nB: Certo. Il tema della solitudine si vede nella trama del romanzo.\nA: Molto chiaro.\nB: Gli esempi rendono tutto piu facile da capire.",
+       exampleSrc:"A: Can you illustrate with an example?\nB: Of course. The theme of loneliness can be seen in the plot of the novel.\nA: Very clear.\nB: Examples make everything easier to understand.",
+       funFact:"From Latin 'illustrare' (to light up, to make bright). When you illustrate a point, you are literally shedding light on it."},
+
+      {type:"teach", trg:"sottolineare", src:"to underline / to emphasize", pos:"verb", gender:null,
+       note:"Regular -are verb. Literally 'to underline' but figuratively means to stress or highlight the importance of something. Very common in academic and journalistic writing.",
+       example:"A: Cosa vuoi sottolineare nel saggio?\nB: Voglio sottolineare il tema del romanzo e il suo simbolo centrale.\nA: Hai ragione, e un punto importante.\nB: Si, lo sottolineo nel capitolo finale.",
+       exampleSrc:"A: What do you want to emphasize in the essay?\nB: I want to underline the theme of the novel and its central symbol.\nA: You are right, it is an important point.\nB: Yes, I will underline it in the final chapter.",
+       funFact:"'Sottolineare' literally means 'to underline' (sotto = under, linea = line). Students in Italy still physically underline key passages in textbooks, so the literal and figurative meanings overlap naturally."},
+
+      {type:"teach", trg:"contestare", src:"to contest / to challenge / to dispute", pos:"verb", gender:null,
+       note:"Regular -are verb. Means to formally challenge or dispute a claim, decision, or idea. Stronger than 'criticare': contestare implies active opposition.",
+       example:"A: Hai letto la recensione?\nB: Si, ma contesto la sua interpretazione del personaggio.\nA: In che senso la contesti?\nB: Non vede il tema centrale del romanzo.",
+       exampleSrc:"A: Did you read the review?\nB: Yes, but I contest its interpretation of the character.\nA: In what sense do you contest it?\nB: It does not see the central theme of the novel.",
+       funFact:"'Contestare' became prominent in Italian during the 1968 student protests ('la contestazione'). Today it is used in both legal contexts (to dispute a charge) and intellectual debate."},
+
+      {type:"tip", title:"Academic Italian: Verbi chiave",
+       text:"These 7 verbs are the backbone of formal academic writing in Italian.\nUse them to: argue a position (argomentare), analyze evidence (analizzare), critique a work (criticare), prove a claim (dimostrare), give examples (illustrare), emphasize key ideas (sottolineare), and challenge interpretations (contestare).\nCILS B2/C1 writing tasks explicitly reward candidates who use these verbs accurately and in context.",
+       deepDive:"Tone matters: 'criticare' is neutral in academic Italian (literary criticism is a respected field), but in everyday speech it can sound negative. Use 'analizzare' or 'contestare' when you want to sound more precise and less judgmental.\nFor essay writing, a classic structure is: enunciare la tesi (state the thesis), argomentare con prove (argue with evidence), illustrare con esempi (illustrate with examples), contestare le obiezioni (contest objections), and sottolineare la conclusione (emphasize the conclusion)."},
+
+      {type:"mc",
+       q:"Which verb means to formally challenge or dispute a claim?",
+       opts:["illustrare","argomentare","contestare","sottolineare"],
+       ans:"contestare",
+       hint:"This verb implies active opposition. It became prominent during the 1968 Italian student movement."},
+
+      {type:"mc",
+       q:"Il professore ha ___ la tesi con tre esempi storici.",
+       opts:["criticato","illustrato","analizzato","sottolineato"],
+       ans:"illustrato",
+       hint:"The verb that means 'to clarify or exemplify with examples.' From Latin meaning 'to light up.'"},
+
+      {type:"fb",
+       s:"Per la tesi, devi {1} almeno tre romanzi del Novecento.",
+       a:["analizzare"],
+       opts:["analizzare","illustrare","contestare","sottolineare"],
+       hint:"The core academic verb for breaking down a text or evidence into its parts. Comes from Greek 'to unloose.'",
+       sSrc:"For the thesis, you have to {1} at least three twentieth-century novels."},
+
+      {type:"fb",
+       s:"Nella conclusione, voglio {1} che il tema del romanzo e ancora attuale.",
+       a:["sottolineare"],
+       opts:["sottolineare","argomentare","contestare","dimostrare"],
+       hint:"The verb that literally means 'to underline' but figuratively means to emphasize or stress an idea.",
+       sSrc:"In the conclusion, I want to {1} that the theme of the novel is still relevant today."},
+
+      {type:"match", pairs:[
+        {trg:"argomentare", src:"to argue / present a case"},
+        {trg:"dimostrare", src:"to prove / demonstrate"},
+        {trg:"contestare", src:"to contest / challenge"},
+        {trg:"illustrare", src:"to illustrate / exemplify"},
+        {trg:"sottolineare", src:"to emphasize / underline"}
+      ]},
+
+      {type:"mc",
+       q:"'Dimostrare' and 'mostrare' are related, but 'dimostrare' implies:",
+       opts:["showing something visually","logical proof or evidence","drawing a picture","giving a speech"],
+       ans:"logical proof or evidence",
+       hint:"'Dimostrare' is stronger than 'mostrare.' It goes beyond showing — it establishes a claim through reasoning. A math 'dimostrazione' is a formal derivation."},
+
+      {type:"fb",
+       s:"Bisogna {1} ogni saggio prima di pubblicarlo.",
+       a:["criticare"],
+       opts:["criticare","illustrare","argomentare","contestare"],
+       hint:"The verb meaning 'to critique' or 'to give critical feedback.' Note the hard 'c' sound before each ending.",
+       sSrc:"One must {1} every essay before publishing it."}
+    ]}
   ]
 };
 
