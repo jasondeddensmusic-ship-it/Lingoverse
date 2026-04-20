@@ -289,6 +289,42 @@ const UNIT_5 =
   {type:"fb",s:"___색 고양이가 있어요.\n(There is a brown cat.)",a:"갈",opts:["갈","회","보라","초록"],hint:"This color sounds like autumn. 갈 = brown/autumn."},
 ]},
 
+// ═══ L9: TOPIK I Essential Vocabulary ═══
+{id:"kov2_u5l_essential",title:"TOPIK I 핵심 어휘",icon:"🏆",xp:25,board:true,steps:[
+  {type:"intro",title:"TOPIK I Core Vocabulary",desc:"Ten high-frequency words every TOPIK I candidate must know: the 이/그/저 demonstrative system, essential public places, two core action verbs, and two descriptive verbs Koreans use daily.",goals:["Master the 이/그/저 distance-based demonstrative system","Learn hospital, bank, and restaurant vocabulary","Practice 말하다 and 만나다 action verbs","Use 재미있다 and 어렵다 descriptive verbs in context"]},
+
+  {type:"teach",trg:"이것",src:"this thing (near me)",pos:"pron",gender:null,phonetic:"i-geot",note:"이것 = this + thing.\n이 (i) = near the speaker.\n이것이 = subject form (이것이 뭐예요?).",example:"A: 이것이 뭐예요?\nB: 이것은 제 가방이에요.",exampleSrc:"A: What is this?\nB: This is my bag.",funFact:"Korean demonstratives form a perfect three-way distance system: 이 (near me), 그 (near you), 저 (far from both). English only has 2 (this/that)."},
+  {type:"teach",trg:"그것",src:"that thing (near you)",pos:"pron",gender:null,phonetic:"geu-geot",note:"그것 = that + thing (near the listener).\n그 (geu) = near the listener.\n이것/그것/저것: a three-way system.",example:"A: 그것이 뭐예요?\nB: 그것은 제 책이에요.",exampleSrc:"A: What is that (near you)?\nB: That is my book.",funFact:"그 also appears in 그 사람 (that person). The same distance logic applies to all Korean demonstrative words."},
+  {type:"teach",trg:"저것",src:"that thing (over there)",pos:"pron",gender:null,phonetic:"jeo-geot",note:"저것 = that + thing (far from both).\n저 (jeo) = distant from speaker and listener.\nPolite: 저것은 무엇입니까?",example:"A: 저것이 뭐예요?\nB: 저것은 남산타워예요.",exampleSrc:"A: What is that over there?\nB: That is Namsan Tower.",funFact:"저 is also the humble first person (I/me). Context always makes the meaning clear in Korean."},
+
+  {type:"tip",title:"이/그/저 Demonstrative System",text:"Korean has THREE demonstratives, not two like English.\n이 = near the SPEAKER (this)\n그 = near the LISTENER (that, close)\n저 = FAR from both (that, distant)\n\nThe pattern extends to all demonstrative words:\n이것 / 그것 / 저것 (things)\n이 사람 / 그 사람 / 저 사람 (people)\n여기 / 거기 / 저기 (places: here / there / over there)\n\nThink of it as a triangle: you, your conversation partner, and the distant horizon.",deepDive:{title:"이/그/저 in real speech",text:"In practice 그것 shortens to 그거 and 이것 to 이거 in casual speech.\nFormally: 이것, 그것, 저것.\nCasually: 이거, 그거, 저거.\n\nWhen pointing at a store window: 저거 얼마예요? (How much is that over there?)\nWhen handing something: 이거 받아요. (Take this.)"}},
+
+  {type:"teach",trg:"병원",src:"hospital",pos:"noun",gender:null,phonetic:"byeong-won",note:"병원 = hospital / clinic.\n병 (病) = illness. 원 (院) = institution.\nAlso covers small clinics, not just large hospitals.",example:"A: 어디에 가요?\nB: 병원에 가요. 머리가 아파요.",exampleSrc:"A: Where are you going?\nB: I am going to the hospital. My head hurts.",funFact:"병원 covers everything from small neighborhood clinics to major hospitals. South Korea has one of the highest doctor-visit rates in the world."},
+  {type:"teach",trg:"은행",src:"bank",pos:"noun",gender:null,phonetic:"eun-haeng",note:"은행 = bank (financial institution).\n은 (銀) = silver. 행 (行) = hall/row.\nFrom the old meaning: silver exchange hall.",example:"A: 은행이 어디에 있어요?\nB: 저기에 은행이 있어요.",exampleSrc:"A: Where is the bank?\nB: There is a bank over there.",funFact:"은행 also means 'ginkgo tree' in Korean. Same characters, completely different meaning. Context always disambiguates."},
+  {type:"teach",trg:"식당",src:"restaurant",pos:"noun",gender:null,phonetic:"sik-dang",note:"식당 = restaurant / dining hall.\n식 (食) = eat/food. 당 (堂) = hall.\nLiterally: eating hall.",example:"A: 점심을 어디에서 먹어요?\nB: 식당에서 먹어요.",exampleSrc:"A: Where do you eat lunch?\nB: I eat at a restaurant.",funFact:"식당 is the everyday word for any restaurant. Koreans eat out very frequently. A meal at a neighborhood 식당 often costs under 10,000 won (about 7 USD)."},
+
+  {type:"teach",trg:"말하다",src:"to speak / to say",pos:"verb",gender:null,phonetic:"mal-ha-da",note:"말하다 = to speak or say.\n말 = speech/word. 하다 = to do.\nPolite present: 말해요.",example:"A: 한국어를 말할 수 있어요?\nB: 네, 조금 말해요.",exampleSrc:"A: Can you speak Korean?\nB: Yes, I speak a little.",funFact:"말하다 is a 하다-verb: 말 (word) + 하다 (do). Korean has hundreds of 하다-verbs formed this way. Mastering 하다 unlocks them all."},
+  {type:"teach",trg:"만나다",src:"to meet",pos:"verb",gender:null,phonetic:"man-na-da",note:"만나다 = to meet (a person).\nObject takes 을/를: 친구를 만나다.\nPolite present: 만나요.",example:"A: 오늘 누구를 만나요?\nB: 친구를 만나요.",exampleSrc:"A: Who are you meeting today?\nB: I am meeting a friend.",funFact:"반갑습니다 (nice to meet you) literally means 'I am glad / pleased.' Koreans say this at first meetings. 만나다 is the verb behind the encounter."},
+
+  {type:"teach",trg:"재미있다",src:"to be fun / interesting",pos:"adj",gender:null,phonetic:"jae-mi-it-da",note:"재미있다 = fun + exist = to be interesting.\n재미 = fun/interest. 있다 = to exist/have.\nPolite: 재미있어요.",example:"A: 한국어 공부가 재미있어요?\nB: 네, 아주 재미있어요!",exampleSrc:"A: Is studying Korean interesting?\nB: Yes, it is very interesting!",funFact:"The opposite is 재미없다 (boring, literally fun-not-exist). Korean builds many adjectives this way: [noun] + 있다/없다."},
+  {type:"teach",trg:"어렵다",src:"to be difficult",pos:"adj",gender:null,phonetic:"eo-ryeop-da",note:"어렵다 = to be difficult/hard.\nIrregular conjugation: 어렵 + 어요 → 어려워요.\nOpposite: 쉽다 (to be easy) → 쉬워요.",example:"A: 한국어가 어려워요?\nB: 조금 어려워요. 하지만 재미있어요.",exampleSrc:"A: Is Korean difficult?\nB: It is a little difficult. But it is interesting.",funFact:"어렵다 follows the 'ㅂ irregular' pattern: the final ㅂ changes to 우 before vowel endings. 어렵 + 어요 = 어려워요. This affects many Korean adjectives."},
+
+  {type:"mc",q:"이것, 그것, 저것 - which is near the LISTENER?",opts:["이것","그것","저것","거것"],ans:"그것",hint:"Think of the three-way triangle: speaker, listener, far. Pick the middle one."},
+  {type:"mc",q:"병원에 가요 means:",opts:["I am going to school","I am going to the bank","I am going to the restaurant","I am going to the hospital"],ans:"I am going to the hospital",hint:"병 (illness) + 원 (institution). Where do you go when you are sick?"},
+  {type:"mc",q:"말하다의 공손한 형태는? (Polite form of 말하다?)",opts:["말해요","말하아요","말했어요","말하요"],ans:"말해요",hint:"하다-verbs: drop 다, replace with 해요 in polite speech."},
+  {type:"mc",q:"재미있다 is built from 재미 (fun) + what?",opts:["없다 (to not exist)","있다 (to exist/have)","이다 (to be)","하다 (to do)"],ans:"있다 (to exist/have)",hint:"재미없다 is the opposite (boring). The positive form pairs 재미 with the verb that means fun IS present."},
+  {type:"mc",q:"식당에서 먹어요 means:",opts:["I buy food at the restaurant","I cook at the restaurant","I eat at the restaurant","I meet someone at the bank"],ans:"I eat at the restaurant",hint:"식당 = restaurant. 먹다 = to eat. 에서 = location of action."},
+
+  {type:"fb",s:"A: 저것이 뭐예요?\nB: ___ 남산타워예요.\n(That over there is Namsan Tower.)",a:"저것은",opts:["저것은","이것은","그것은","저기는"],hint:"Repeat the same demonstrative from the question. Topic particle is 은 after a consonant."},
+  {type:"fb",s:"오늘 친구를 ___.\n(Today I am meeting a friend.)",a:"만나요",opts:["만나요","말해요","먹어요","마셔요"],hint:"친구를 [verb]. 친구 = friend. Which verb means 'to meet'?"},
+  {type:"fb",s:"한국어가 ___.\n(Korean is difficult.)",a:"어려워요",opts:["어려워요","어렵어요","어렵해요","어렵이에요"],hint:"어렵다 is a ㅂ-irregular verb. The ㅂ changes to 우 before 어요."},
+  {type:"fb",s:"은행이 ___에 있어요.\n(The bank is over there.)",a:"저기",opts:["저기","여기","거기","이기"],hint:"저 = far from both speaker and listener. 저기 = over there (place form of 저)."},
+
+  {type:"match",pairs:[{trg:"이것",src:"this thing (near me)"},{trg:"그것",src:"that thing (near you)"},{trg:"저것",src:"that thing (over there)"},{trg:"재미있다",src:"to be fun / interesting"}]},
+  {type:"match",pairs:[{trg:"병원",src:"hospital"},{trg:"은행",src:"bank"},{trg:"식당",src:"restaurant"},{trg:"어렵다",src:"to be difficult"}]},
+  {type:"match",pairs:[{trg:"말하다",src:"to speak / to say (dictionary form)"},{trg:"만나다",src:"to meet (dictionary form)"}]},
+]},
+
 // ═══ L8: Review & Quiz ═══
 {id:"kou5l8",title:"Review and Quiz",icon:"📝",xp:30,board:true,steps:[
   {type:"intro",title:"Review & Quiz",desc:"Review: family, adjectives, particles, modifiers, culture.",goals:["Verify particle system mastery","Test family vocabulary","Confirm adjective verb understanding"]},
