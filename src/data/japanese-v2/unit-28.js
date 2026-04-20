@@ -208,6 +208,92 @@ const UNIT_28 = {
    hint:"The noun for running and operating a business at the strategic level."},
 ]},
 
+// ═══ L4: N2 Formal Vocabulary — Time, Society, and Action ═══
+{id:"jav2_u28l_n2_formal", title:"N2 Formal Vocabulary", icon:"🗂️", xp:20, board:true, steps:[
+  {type:"intro", title:"N2 Formal Vocabulary: Time, Society, and Action",
+   desc:"Eight high-frequency N2 words spanning time reference, social context, and formal verbs. These appear in JLPT N2 reading passages, newspaper articles, and business correspondence. Mastering them unlocks a large cluster of written and spoken formal register.",
+   goals:["Use 以前, 以後, 以外 as formal time and scope markers","Apply 社会的 and 現代 to describe society","Use 安定する, 応じる, and 引き受ける in formal contexts"]},
+
+  {type:"teach", trg:"以前(いぜん)", src:"before / previously / formerly", pos:"noun", gender:null,
+   note:"Marks a point before a reference time. 以前(いぜん)は = previously. 三年前(さんねんまえ)以前(いぜん) = before three years ago.",
+   example:"A: 以前(いぜん)はこの町(まち)に住(す)んでいたのですか？\nB: はい、十年(じゅうねん)ほど前(まえ)に住(す)んでいました。\nA: その頃(ころ)と今(いま)では町(まち)の様子(ようす)はずいぶん変(か)わりましたか？\nB: ええ、以前(いぜん)は田んぼが多(おお)かったですが、今(いま)はマンションばかりです。",
+   exampleSrc:"A: Did you used to live in this town before?\nB: Yes, I lived here about ten years ago.\nA: Has the appearance of the town changed a lot compared to that time?\nB: Yes, previously there were many rice fields, but now there are only apartment buildings.",
+   funFact:"以前 splits into 以 (from/based on) and 前 (before/front). Its mirror is 以後(いご) (after/from now on). In legal documents and formal instructions, 以前 pins a cutoff date precisely: 申請期限(しんせいきげん)以前(いぜん)に提出(ていしゅつ)すること (submit before the application deadline). This precision makes it indispensable in contracts and regulations."},
+
+  {type:"teach", trg:"以後(いご)", src:"after / from now on / hereafter", pos:"noun", gender:null,
+   note:"Marks a point after a reference time, or from this point forward. 以後(いご)は = from now on. 会議(かいぎ)以後(いご) = after the meeting.",
+   example:"A: 以後(いご)、このような間違(まちが)いのないようにしてください。\nB: 申(もう)し訳(わけ)ありません。以後(いご)、十分(じゅうぶん)注意(ちゅうい)いたします。\nA: 具体的(ぐたいてき)にどのような対策(たいさく)を取(と)りますか？\nB: 確認(かくにん)作業(さぎょう)を二重(にじゅう)にチェックする手順(てじゅん)を設(もう)けます。",
+   exampleSrc:"A: Please make sure not to make such mistakes from now on.\nB: I am very sorry. From now on, I will take sufficient care.\nA: What specific measures will you take?\nB: I will establish a procedure to double-check the verification process.",
+   funFact:"以後 is the formal counterpart of これから (from now on). In apologies and formal instructions, 以後(いご)ご注意(ちゅうい)ください (please be careful from now on) is the standard phrase. The kanji 後 also appears in 午後(ごご) (afternoon) and 後輩(こうはい) (junior). Note the reading difference: 以後 reads いご, not いあと."},
+
+  {type:"teach", trg:"以外(いがい)", src:"except / other than / besides", pos:"noun", gender:null,
+   note:"Excludes something from a scope. X以外(いがい) = everything except X. 彼(かれ)以外(いがい) = anyone but him.",
+   example:"A: 月曜日(げつようび)以外(いがい)はいつでも大丈夫(だいじょうぶ)ですか？\nB: はい、火曜日(かようび)から金曜日(きんようび)であれば問題(もんだい)ありません。\nA: 場所(ばしょ)はこちらのオフィス以外(いがい)でも構(かま)いませんか？\nB: もちろんです。ご希望(きぼう)の場所(ばしょ)でも対応(たいおう)できます。",
+   exampleSrc:"A: Is any day except Monday fine with you?\nB: Yes, Tuesday through Friday presents no problem.\nA: Would a location other than this office be acceptable as well?\nB: Of course. We can accommodate your preferred location.",
+   funFact:"以外 is one of the most versatile exclusion words in Japanese. It contrasts with を除(のぞ)いて (excluding, more formal) and ほか (other). In everyday speech, 以外 covers almost all exclusion needs: 日本語(にほんご)以外(いがい)の言語(げんご) (languages other than Japanese). In JLPT N2 grammar, 以外に (in addition to / aside from) appears as a separate usage that means the opposite — so context matters."},
+
+  {type:"mc", q:"以前(いぜん) refers to:", opts:["a point in time before a reference","a point in time after a reference","an exception or exclusion","something from a different place"],
+   ans:"a point in time before a reference",
+   hint:"This word contains the kanji for 'before/front'. Think of it as the formal way to say 'prior to'."},
+
+  {type:"teach", trg:"社会的(しゃかいてき)", src:"social / societal", pos:"adj", gender:null,
+   note:"Na-adjective. 社会的(しゃかいてき)な = social (attributive). 社会的(しゃかいてき)に = socially (adverbial).\n社会的問題(しゃかいてきもんだい) = social problem.",
+   example:"A: この問題(もんだい)は社会的(しゃかいてき)に大(おお)きな影響(えいきょう)を与(あた)えています。\nB: 特(とく)にどのような層(そう)に影響(えいきょう)がありますか？\nA: 若(わか)い世代(せだい)や低所得者(ていしょとくしゃ)に深刻(しんこく)な影響(えいきょう)があると言(い)われています。\nB: 政府(せいふ)は何(なん)か対策(たいさく)を取(と)っていますか？",
+   exampleSrc:"A: This issue is having a major social impact.\nB: Which groups in particular are affected?\nA: It is said to have a serious impact on younger generations and low-income earners.\nB: Is the government taking any measures?",
+   funFact:"社会的 is built from 社会(しゃかい) (society) and the suffix 的(てき) that turns nouns into na-adjectives. This same suffix appears in 一般的(いっぱんてき) (general), 具体的(ぐたいてき) (specific), and 経済的(けいざいてき) (economic). Japanese frequently uses 〜的 to create adjectives from nouns, making it a powerful vocabulary-building pattern at N2 and above."},
+
+  {type:"teach", trg:"現代(げんだい)", src:"modern times / the present age / contemporary", pos:"noun", gender:null,
+   note:"Kanji: 現代. 現(げん) (present/current) + 代(だい) (era/generation). 現代語(げんだいご) = modern language. 現代社会(げんだいしゃかい) = modern society.",
+   example:"A: 現代(げんだい)ではスマートフォンなしの生活(せいかつ)は想像(そうぞう)できません。\nB: 確(たし)かにそうですね。十年前(じゅうねんまえ)とは全(まった)く違(ちが)います。\nA: 現代(げんだい)の若者(わかもの)はどのようなことに価値(かち)を見出(みいだ)しているのでしょうか？\nB: 物質的(ぶっしつてき)なものより経験(けいけん)や人間関係(にんげんかんけい)を重視(じゅうし)する傾向(けいこう)がありますね。",
+   exampleSrc:"A: In modern times, it is impossible to imagine life without a smartphone.\nB: That is certainly true. It is completely different from ten years ago.\nA: What do young people in modern society find value in?\nB: There is a tendency to value experiences and human relationships over material things.",
+   funFact:"現代 contrasts with 古代(こだい) (ancient times), 中世(ちゅうせい) (medieval times), and 近代(きんだい) (early modern / Meiji era onward). Japanese history periodization matters at N2: the 現代 period typically begins after World War II in Japanese academic usage. Note that 近代 and 現代 are often confused by learners: 近代 is the Meiji-Taisho-early Showa era, while 現代 is post-1945."},
+
+  {type:"fb", s:"この{1}な問題(もんだい)には政策(せいさく)的(てき)な解決(かいけつ)が必要(ひつよう)だ。\n(This social problem requires a policy-based solution.)", a:"社会的(しゃかいてき)", opts:["社会的(しゃかいてき)","以前(いぜん)","現代(げんだい)","具体的(ぐたいてき)"], sSrc:"This social problem requires a policy-based solution.",
+   hint:"The na-adjective formed from the word for society plus the suffix that means relating to."},
+
+  {type:"teach", trg:"安定(あんてい)する", src:"to stabilize / to become stable", pos:"verb", gender:null,
+   note:"Kanji: 安定. 安(あん) (ease/peace) + 定(てい) (fixed/set). Noun form: 安定(あんてい) = stability. 安定(あんてい)した = stable (past/adj form).",
+   example:"A: 手術(しゅじゅつ)後(ご)、患者(かんじゃ)の容態(ようだい)は安定(あんてい)していますか？\nB: はい、昨日(きのう)の夜(よる)から容態(ようだい)が安定(あんてい)してきました。\nA: 今後(こんご)の治療(ちりょう)はどのように進(すす)める予定(よてい)ですか？\nB: 経過(けいか)を観察(かんさつ)しながら段階的(だんかいてき)に回復(かいふく)を目指(めざ)します。",
+   exampleSrc:"A: After the surgery, is the patient's condition stable?\nB: Yes, the condition has been stabilizing since last night.\nA: How do you plan to proceed with the treatment going forward?\nB: We will aim for gradual recovery while monitoring the progress.",
+   funFact:"安定 appears in many compound terms: 安定供給(あんていきょうきゅう) (stable supply), 安定成長(あんていせいちょう) (stable growth), 精神的安定(せいしんてきあんてい) (psychological stability). In Japanese job culture, 安定した仕事(あんていしたしごと) (stable work) is a major consideration when choosing a career. Large companies and civil service (公務員, こうむいん) roles are prized precisely because of 安定."},
+
+  {type:"teach", trg:"応(おう)じる", src:"to respond / to comply / to accommodate", pos:"verb", gender:null,
+   note:"Kanji: 応じる. Group 2 verb. 要求(ようきゅう)に応(おう)じる = to respond to a demand. 状況(じょうきょう)に応(おう)じて = depending on the situation.",
+   example:"A: このご要望(ようぼう)には応(おう)じかねますが、別(べつ)の形(かたち)でお手伝(てつだ)いできます。\nB: それはどのような対応(たいおう)ですか？\nA: 状況(じょうきょう)に応(おう)じて柔軟(じゅうなん)に対応(たいおう)いたします。\nB: わかりました。では、ご提案(ていあん)の内容(ないよう)を詳(くわ)しく教(おし)えていただけますか？",
+   exampleSrc:"A: I am unable to comply with this request, but I can assist in another form.\nB: What kind of response would that be?\nA: We will respond flexibly depending on the situation.\nB: I understand. In that case, could you explain the details of your proposal?",
+   funFact:"応じる is a highly flexible verb in formal register. The pattern 〜に応(おう)じて (according to / depending on) is an N2 grammar point in itself: 必要(ひつよう)に応(おう)じて (as needed), 能力(のうりょく)に応(おう)じて (according to ability). The kanji 応 also appears in 応援(おうえん) (cheering/support) and 対応(たいおう) (response/correspondence), making it a high-yield kanji at N2."},
+
+  {type:"teach", trg:"引(ひ)き受(う)ける", src:"to take on / to accept responsibility / to undertake", pos:"verb", gender:null,
+   note:"Kanji: 引き受ける. Compound verb: 引(ひ)く (to pull) + 受(う)ける (to receive). Takes on full responsibility for something.",
+   example:"A: このプロジェクトのリーダーを引(ひ)き受(う)けていただけますか？\nB: 責任(せきにん)は大(おお)きいですが、喜(よろこ)んで引(ひ)き受(う)けます。\nA: ありがとうございます。全面的(ぜんめんてき)にサポートします。\nB: チームの皆(みな)とよく話(はな)し合(あ)って進(すす)めていきます。",
+   exampleSrc:"A: Could you take on the role of leader for this project?\nB: It is a major responsibility, but I will take it on gladly.\nA: Thank you. We will support you fully.\nB: I will proceed by discussing things carefully with the whole team.",
+   funFact:"引き受ける literally means to 'pull and receive,' suggesting actively drawing something toward yourself and taking it on. It is stronger than just する (to do): when you 引き受ける something, you are committing your full responsibility. The opposite action is 断(ことわ)る (to refuse/decline). In Japanese work culture, being asked to 引き受ける something is an honor, and refusing requires careful face-saving language."},
+
+  {type:"fb", s:"会社(かいしゃ)の要求(ようきゅう)に{1}、残業(ざんぎょう)を引(ひ)き受(う)けた。\n(I accepted overtime in response to the company's request.)", a:"応(おう)じて", opts:["応(おう)じて","安定(あんてい)して","以後(いご)","以外(いがい)に"], sSrc:"I accepted overtime in response to the company's request.",
+   hint:"The te-form of the verb meaning to comply or respond, used in the pattern depending on / in response to."},
+
+  {type:"fb", s:"この仕事(しごと)を{1}くれる人(ひと)はいますか？\n(Is there anyone who will take on this work?)", a:"引(ひ)き受(う)け", opts:["引(ひ)き受(う)け","応(おう)じ","安定(あんてい)し","述(の)べ"], sSrc:"Is there anyone who will take on this work?",
+   hint:"The stem of the compound verb meaning to accept responsibility for or to undertake a task."},
+
+  {type:"tip", title:"以前 vs 以後 vs 以外",
+   text:"These three formal markers look similar but function very differently.\n\n以前(いぜん) = before / prior to: marks a cutoff in the past. 申請期限(しんせいきげん)以前(いぜん) (before the deadline).\n\n以後(いご) = after / from now on: marks a point going forward. 以後(いご)ご注意(ちゅうい)を (be careful from now on).\n\n以外(いがい) = except / other than: excludes from a scope. 月曜日(げつようび)以外(いがい) (any day except Monday).\n\nMemory hook: 前(まえ) means front/before, 後(あと/ご) means after/behind, 外(そと) means outside.",
+   deepDive:"All three use the prefix 以(い), which comes from 以って (by means of / from). In classical Chinese-influenced writing, 以 acts as a preposition indicating a reference point. Japanese absorbed this usage wholesale. You can extend the pattern: 以上(いじょう) (above / more than), 以下(いか) (below / less than), 以内(いない) (within). These all appear on N2 and N1 tests as reading comprehension vocabulary."},
+
+  {type:"mc", q:"引(ひ)き受(う)ける means:", opts:["to pull away from","to take on responsibility","to push forward","to step back from"],
+   ans:"to take on responsibility",
+   hint:"This compound verb combines pulling toward yourself and receiving, creating the sense of actively accepting a task or duty."},
+
+  {type:"match", pairs:[{trg:"以前(いぜん)",src:"before / previously"},{trg:"以後(いご)",src:"after / from now on"},{trg:"以外(いがい)",src:"except / other than"},{trg:"社会的(しゃかいてき)",src:"social / societal"}]},
+
+  {type:"match", pairs:[{trg:"現代(げんだい)",src:"modern times"},{trg:"安定(あんてい)する",src:"to stabilize"},{trg:"応(おう)じる",src:"to respond / comply"},{trg:"引(ひ)き受(う)ける",src:"to take on / accept"}]},
+
+  {type:"fb", s:"彼(かれ)は新(あたら)しい仕事(しごと)で{1}した生活(せいかつ)を手(て)に入(い)れた。\n(He obtained a stable life with the new job.)", a:"安定(あんてい)", opts:["安定(あんてい)","応(おう)じ","現代(げんだい)","以後(いご)"], sSrc:"He obtained a stable life with the new job.",
+   hint:"The stem of the suru verb meaning to become stable or steady, used here as an adjective modifying life."},
+
+  {type:"fb", s:"{1}の若者(わかもの)はどのような課題(かだい)に直面(ちょくめん)していますか？\n(What challenges are young people in modern times facing?)", a:"現代(げんだい)", opts:["現代(げんだい)","以前(いぜん)","社会的(しゃかいてき)","以外(いがい)"], sSrc:"What challenges are young people in modern times facing?",
+   hint:"The noun meaning the present era or contemporary period, contrasted with ancient or medieval times."},
+]},
+
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L03
 ,BATCH2_L04
