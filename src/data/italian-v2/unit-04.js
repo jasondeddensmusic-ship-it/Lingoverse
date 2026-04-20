@@ -233,6 +233,138 @@ const UNIT_04 = {
        hint:"Italian dining culture considers it rude to rush customers. You must take the initiative."}
     ,{type:"match",pairs:[{trg:"per favore",src:"please"}]}]},
     EXP_04_L1, EXP_04_L2, EXP_04_L3,
+
+    {id:"itv2_u4l_jobs_animals_sports", title:"Professioni, animali e sport", icon:"\u26bd", xp:15, board:true, steps:[
+      {type:"intro", title:"Professioni, animali e sport",
+       desc:"Learn Italian words for professions (female forms), common animals, and sports. These are essential A1/A2 vocabulary for everyday conversations.",
+       goals:["Name female profession forms in Italian","Identify common Italian animals","Talk about sports and hobbies"]},
+
+      {type:"teach", trg:"la professoressa", src:"the female teacher / professor", pos:"noun", gender:"f",
+       note:"Feminine form of 'il professore.' Used for female teachers at school or university.\nIn Italian, professions change ending for gender.",
+       example:"A: Chi e la tua professoressa?\nB: La mia professoressa si chiama Maria. E brava.",
+       exampleSrc:"A: Who is your female teacher?\nB: My female teacher is called Maria. She is good.",
+       funFact:"Italian is one of the most gender-consistent languages in Europe. Every profession has both a masculine and feminine form. The -essa ending (from Latin -issa) marks feminine roles: professoressa, dottoressa, studentessa."},
+
+      {type:"teach", trg:"la cuoca", src:"the female cook / chef", pos:"noun", gender:"f",
+       note:"Feminine form of 'il cuoco.' Used for a female cook or chef.\nFrom Latin 'coqua' (female cook).",
+       example:"A: La cuoca e brava?\nB: Si, la cuoca e bravissima! Mangiamo bene qui.",
+       exampleSrc:"A: Is the female cook good?\nB: Yes, the female cook is excellent! We eat well here.",
+       funFact:"Italy has some of the world's most celebrated female chefs. The tradition of the 'nonna' (grandmother) as the family cook is deeply cultural. Many Italian restaurant owners are proud of their 'cuoca di casa' (home cook)."},
+
+      {type:"teach", trg:"la cameriera", src:"the waitress", pos:"noun", gender:"f",
+       note:"Feminine form of 'il cameriere.' A female room or table attendant.\nFrom 'camera' (room): a room attendant.",
+       example:"A: Scusa, cameriera!\nB: Si, dica! Cosa prende?",
+       exampleSrc:"A: Excuse me, waitress!\nB: Yes, tell me! What will you have?",
+       funFact:"The word 'cameriera' can also mean 'maid' or 'chambermaid' in a hotel. Context makes the meaning clear. In a restaurant, she waits tables; in a hotel, she cleans rooms."},
+
+      {type:"teach", trg:"la commessa", src:"the female shop assistant", pos:"noun", gender:"f",
+       note:"Feminine form of 'il commesso.' A female shop assistant or saleswoman.\nFrom Latin 'committere' (to entrust).",
+       example:"A: La commessa e gentile.\nB: Si, mi ha aiutato molto.",
+       exampleSrc:"A: The shop assistant is kind.\nB: Yes, she helped me a lot.",
+       funFact:"Italian shops, especially boutiques, are famous for their attentive 'commesse.' Unlike self-service supermarkets, traditional Italian shops often have staff who guide customers personally. This personal service is a point of cultural pride."},
+
+      {type:"teach", trg:"il poliziotto", src:"the police officer", pos:"noun", gender:"m",
+       note:"Masculine. Feminine: la poliziotta.\nFrom 'polizia' (police), from Greek 'polis' (city-state).",
+       example:"A: C'e un poliziotto li.\nB: Si, chiediamo a lui.",
+       exampleSrc:"A: There is a police officer there.\nB: Yes, let us ask him.",
+       funFact:"Italy has multiple police forces: the Polizia di Stato (state police), the Carabinieri (military police), and the Guardia di Finanza (financial police). A 'poliziotto' typically refers to the Polizia di Stato officer."},
+
+      {type:"teach", trg:"l'orso", src:"the bear", pos:"noun", gender:"m",
+       note:"Masculine. Uses l' because it starts with a vowel.\nFrom Latin 'ursus.' Plural: gli orsi.",
+       example:"A: Hai paura dell'orso?\nB: Si, l'orso e grande e forte!",
+       exampleSrc:"A: Are you afraid of the bear?\nB: Yes, the bear is big and strong!",
+       funFact:"The brown bear (orso bruno) still lives in the Italian Alps and the Apennines. The Adamello Brenta Natural Park in Trentino is home to Italy's last significant wild bear population. 'Orso' also gave English the name Ursula."},
+
+      {type:"teach", trg:"il topo", src:"the mouse / rat", pos:"noun", gender:"m",
+       note:"Masculine. Refers to both mice and rats.\nFrom Latin 'typus.' Plural: i topi.",
+       example:"A: C'e un topo in casa!\nB: Un topo? Chiama il gatto!",
+       exampleSrc:"A: There is a mouse in the house!\nB: A mouse? Call the cat!",
+       funFact:"'Il topo di biblioteca' (the library mouse) is the Italian idiom for a bookworm. Italian culture loves animal metaphors. Mickey Mouse is called 'Topolino' (little mouse) in Italy, and Disney comics were published under that name for decades."},
+
+      {type:"teach", trg:"il maiale", src:"the pig", pos:"noun", gender:"m",
+       note:"Masculine. From Latin 'maialis' (castrated pig).\nAlso used figuratively as an insult (similar to English 'pig').",
+       example:"A: Il maiale e grande o piccolo?\nB: Il maiale e grande e molto intelligente!",
+       exampleSrc:"A: Is the pig big or small?\nB: The pig is big and very intelligent!",
+       funFact:"Italy's cured pork tradition is world-famous. Prosciutto di Parma, salame, pancetta, and mortadella all come from the pig. Italians say 'del maiale non si butta via niente' (nothing of the pig is thrown away), celebrating its full use."},
+
+      {type:"teach", trg:"la pallacanestro", src:"basketball", pos:"noun", gender:"f",
+       note:"Feminine. Literally: palla (ball) + canestro (basket).\nItalian translation describes the action of the sport.",
+       example:"A: Ti piace la pallacanestro?\nB: Si, mi piace molto! Guardo le partite in televisione.",
+       exampleSrc:"A: Do you like basketball?\nB: Yes, I like it a lot! I watch the games on television.",
+       funFact:"Italy has a strong basketball tradition. The Italian national team has won European Championships multiple times. Many NBA stars played in the Italian league (Lega Basket) early in their careers. 'Canestro' means 'basket' but also 'wicker basket.'"},
+
+      {type:"teach", trg:"il tennis", src:"tennis", pos:"noun", gender:"m",
+       note:"Masculine. Borrowed directly from English/French.\nFrom the tennis call 'tenez!' (French: hold!, catch!).",
+       example:"A: Giochi a tennis?\nB: Si! Mi piace molto il tennis.",
+       exampleSrc:"A: Do you play tennis?\nB: Yes! I like tennis a lot.",
+       funFact:"Italy produced champions like Adriano Panatta and more recently Jannik Sinner, who became world number 1 in 2024. The Italian Open in Rome ('Internazionali d'Italia') is one of the top clay court tournaments."},
+
+      {type:"tip", title:"Gender patterns in Italian professions",
+       text:"Italian professions follow predictable gender patterns.\n\nMasculine to feminine changes:\n-o → -a: il cuoco → la cuoca, il commesso → la commessa\n-tore → -trice: il direttore → la direttrice\n-e → -essa: il professore → la professoressa\n-e stays -e: il cameriere → la cameriera (! note: -e → -a here)\n\nSome professions use the same form for both:\nil medico, il giudice (add article to mark gender: la medico, la giudice)\n\nRule: always learn the masculine and feminine forms together.",
+       icon:"\ud83d\udca1",
+       deepDive:{title:"Why Italian marks profession gender",
+        text:"Italian grammar reflects grammatical gender in nearly every noun. Profession nouns are especially consistent because they describe people. When a noun refers to a person, Italian almost always has both a masculine and feminine form. This is different from English, which mostly uses neutral terms (teacher, doctor, actor). The Italian system is more precise: 'il professore' (male teacher) vs. 'la professoressa' (female teacher) leaves no ambiguity about who is being discussed. The -essa ending, from Latin -issa (itself from Greek), is one of the oldest feminine markers in the language."}},
+
+      {type:"mc", q:"What is the feminine form of 'il cuoco'?",
+       opts:["la cuoca","la cuoco","la cuochi","la cuoci"],
+       ans:"la cuoca",
+       hint:"Masculine nouns ending in -o form their feminine by changing -o to -a. The article also changes."},
+
+      {type:"mc", q:"What does 'la pallacanestro' literally mean?",
+       opts:["ball in the basket","round ball game","court ball","big round thing"],
+       ans:"ball in the basket",
+       hint:"The Italian name is a compound word describing the sport visually. The first part means the round object you throw. The second part ('canestro') names the hoop you score through."},
+
+      {type:"fb", s:"C'e un {1} in casa! Chiama il gatto!",
+       a:["topo"],
+       opts:["topo","orso","maiale","cane"],
+       hint:"This small rodent causes panic in households. The cat is the natural solution.",
+       sSrc:"There is a {1} in the house! Call the cat!"},
+
+      {type:"match", pairs:[
+        {trg:"la professoressa", src:"the female teacher"},
+        {trg:"la cameriera", src:"the waitress"},
+        {trg:"il poliziotto", src:"the police officer"},
+        {trg:"la commessa", src:"the female shop assistant"},
+        {trg:"la cuoca", src:"the female cook"}
+      ]},
+
+      {type:"fb", s:"Ti piace {1}?\nSi, mi piace molto!",
+       a:["il tennis"],
+       opts:["il tennis","la pallacanestro","il calcio","la birra"],
+       hint:"This racket sport is popular worldwide and was borrowed into Italian from French. Italy's Sinner plays it.",
+       sSrc:"Do you like {1}?\nYes, I like it a lot!"},
+
+      {type:"mc", q:"Which animal is described by 'orso'?",
+       opts:["a bear","a mouse","a pig","a horse"],
+       ans:"a bear",
+       hint:"This large animal still lives in the Italian Alps. Its Latin name 'ursus' gave English the name Ursula."},
+
+      {type:"fb", s:"La {1} e bravissima! Mangiamo bene qui.",
+       a:["cuoca"],
+       opts:["cuoca","cameriera","commessa","professoressa"],
+       hint:"The person cooking the excellent food in this restaurant. Feminine professional noun ending in -a.",
+       sSrc:"The female {1} is excellent! We eat well here."},
+
+      {type:"mc", q:"What does 'il maiale' represent in Italian food culture?",
+       opts:["A farm animal used for world-famous cured meats","A symbol of bad luck","An animal kept only as a pet","An animal found only in zoos"],
+       ans:"A farm animal used for world-famous cured meats",
+       hint:"Italians say 'nothing is thrown away' from this creature. Prosciutto di Parma and salame are two products made from it."},
+
+      {type:"fb", s:"Scusa, {1}! Cosa prende?",
+       a:["cameriera"],
+       opts:["cameriera","commessa","cuoca","professoressa"],
+       hint:"You are addressing the female person who serves food and drinks at your table in a restaurant.",
+       sSrc:"Excuse me, {1}! What will you have?"},
+
+      {type:"match", pairs:[
+        {trg:"l'orso", src:"the bear"},
+        {trg:"il topo", src:"the mouse"},
+        {trg:"il maiale", src:"the pig"},
+        {trg:"la pallacanestro", src:"basketball"},
+        {trg:"il tennis", src:"tennis"}
+      ]}
+    ]},
   ]
 };
 export default UNIT_04;

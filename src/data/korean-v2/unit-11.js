@@ -303,6 +303,101 @@ const UNIT_11 =
 {type:"match",pairs:[{nl:"KTX로 2시간 걸려요",en:"Takes 2 hours by KTX"},{nl:"비행기로 1시간 걸려요",en:"Takes 1 hour by plane"},{nl:"버스로 4시간 걸려요",en:"Takes 4 hours by bus"},{nl:"지하철로 30분 걸려요",en:"Takes 30 minutes by subway"}]},
 {type:"match",pairs:[{trg:"-로/-으로 (교통수단)",src:"by (transport method)"},{trg:"렌터카",src:"rental car"},{trg:"-(으)ㄴ 후에",src:"after doing"},{trg:"1박 2일",src:"1 night 2 days"},{trg:"ㅎ 불규칙",src:"ㅎ-irregular pattern"},{trg:"빨갛다",src:"to be red"}]},{type:"match",pairs:[{trg:"까맣다",src:"to be black"},{trg:"파랗다",src:"to be blue"}]}]},
 
+,
+
+// ═══ L11: 직업, 동물, 취미 (Jobs, Animals, Hobbies) ═══
+{id:"kov2_u11l_jobs_animals_hobbies",title:"직업, 동물, 취미",icon:"🎯",xp:22,board:true,steps:[
+  {type:"intro",title:"Jobs, Animals, and Hobbies",desc:"Vocabulary for three essential everyday topics: what people do for work, common animals, and popular leisure activities.",goals:["Learn 3 core profession words","Learn 3 common animal names","Learn 3 popular hobby words","Practice with production quizzes"]},
+
+  // ── PROFESSIONS ──
+  {type:"teach",kind:"word",nl:"학생",en:"student",pos:"noun",gender:null,
+   note:"학 (study) + 생 (person born into). A person born into studying.",
+   funFact:"Sino-Korean compound: 學 (study) + 生 (life/person). Literally 'study-person.' Korean university students are among the most hardworking in the world.",
+   example:"A: 직업이 뭐예요? B: 저는 학생이에요. 대학교에 다녀요.",
+   exampleEn:"A: What is your job? B: I am a student. I attend university."},
+
+  {type:"teach",kind:"word",nl:"변호사",en:"lawyer",pos:"noun",gender:null,
+   note:"변 (argue) + 호 (protect) + 사 (person of expertise). One who argues to protect.",
+   funFact:"Sino-Korean compound: 辯護士. Korean legal dramas (법정 드라마) have popularized this word. The 사 (士) suffix appears in 의사 (doctor) and 요리사 (chef) too.",
+   example:"A: 무슨 일을 해요? B: 변호사예요. 일을 좋아해요.",
+   exampleEn:"A: What work do you do? B: I am a lawyer. I love my work."},
+
+  {type:"teach",kind:"word",nl:"운전사",en:"driver",pos:"noun",gender:null,
+   note:"운전 (driving) + 사 (person of expertise). Person who drives professionally.",
+   funFact:"운전 (運轉) means 'to operate a vehicle.' The 사 (士) suffix marks a skilled professional, the same as in 의사 and 변호사.",
+   example:"A: 아버지 직업이 뭐예요? B: 버스 운전사예요. 매일 일찍 일어나요.",
+   exampleEn:"A: What is your father's job? B: He is a bus driver. He wakes up early every day."},
+
+  // ── ANIMALS ──
+  {type:"teach",kind:"word",nl:"개",en:"dog",pos:"noun",gender:null,
+   note:"Pure Korean (not Sino-Korean). One syllable, very frequent in daily speech.",
+   funFact:"Korea has one of the highest rates of pet dog ownership in Asia. The phrase 개가 짖다 (a dog barks) appears in proverbs. Do not confuse 개 (dog) with the prefix 개- which intensifies adjectives informally.",
+   example:"A: 동물을 좋아해요? B: 네, 개를 좋아해요. 정말 귀여워요.",
+   exampleEn:"A: Do you like animals? B: Yes, I like dogs. They are really cute."},
+
+  {type:"teach",kind:"word",nl:"고양이",en:"cat",pos:"noun",gender:null,
+   note:"Pure Korean, three syllables. The informal shortened form 냥이 is heard in casual speech.",
+   funFact:"고양이 is thought to derive from an older Korean word. Cat cafes (고양이 카페) are hugely popular in Korean cities. Cats are called 냐옹 (meow) in Korean onomatopoeia.",
+   example:"A: 개를 좋아해요? 아니면 고양이요? B: 저는 고양이를 좋아해요.",
+   exampleEn:"A: Do you like dogs or cats? B: I like cats."},
+
+  {type:"teach",kind:"word",nl:"토끼",en:"rabbit",pos:"noun",gender:null,
+   note:"Pure Korean. The ㄲ (double consonant) gives it a sharper pronunciation than 토기 would.",
+   funFact:"In Korean mythology, a rabbit lives on the moon and pounds rice cakes (떡). This image appears on the moon during 추석 (Chuseok, harvest festival). Children are taught to look for 달 토끼 (moon rabbit).",
+   example:"A: 어떤 동물을 좋아해요? B: 토끼를 좋아해요. 귀엽잖아요!",
+   exampleEn:"A: What animals do you like? B: I like rabbits. They are so cute!"},
+
+  // ── HOBBIES ──
+  {type:"teach",kind:"word",nl:"축구",en:"soccer",pos:"noun",gender:null,
+   note:"축 (kick) + 구 (ball). The foot-kicking ball game.",
+   funFact:"Sino-Korean: 蹴球. Korea co-hosted the 2002 FIFA World Cup with Japan, and the national team's run to the semi-finals is still celebrated as 4강 신화 (the miracle of the final four). 축구 is the most popular team sport in Korea.",
+   example:"A: 취미가 뭐예요? B: 축구예요. 주말마다 해요.",
+   exampleEn:"A: What is your hobby? B: Soccer. I play every weekend."},
+
+  {type:"teach",kind:"word",nl:"영화",en:"movie / film",pos:"noun",gender:null,
+   note:"영 (shadow/image) + 화 (picture). A moving shadow picture.",
+   funFact:"Sino-Korean: 映畫. The Korean film industry (한국 영화) earned global fame with 기생충 (Parasite, 2019), the first non-English film to win the Academy Award for Best Picture. Cinema-going (영화관 가기) is one of the top date activities in Korea.",
+   example:"A: 무슨 취미가 있어요? B: 영화 보기를 좋아해요.",
+   exampleEn:"A: What hobbies do you have? B: I like watching movies."},
+
+  {type:"teach",kind:"word",nl:"음악",en:"music",pos:"noun",gender:null,
+   note:"음 (sound/note) + 악 (music). The art of organized sound.",
+   funFact:"Sino-Korean: 音樂. K-pop (케이팝) has made 음악 one of Korea's most powerful cultural exports. The word covers all music genres: 클래식 음악 (classical), 팝 음악 (pop), 국악 (traditional Korean music).",
+   example:"A: 어떤 취미가 있어요? B: 음악 듣기를 좋아해요. 케이팝을 좋아해요.",
+   exampleEn:"A: What hobbies do you have? B: I like listening to music. I like K-pop."},
+
+  // ── TIP ──
+  {type:"tip",title:"직업 endings: -사 and -생",text:"Korean profession words often end in -사 (士/師: skilled person) or -생 (生: person).\n\n-사 pattern:\n변호사: lawyer\n의사: doctor\n간호사: nurse\n요리사: chef\n운전사: driver\n\n-생 pattern:\n학생: student (study-person)\n\nSpotting these suffixes helps you recognize new job words instantly.",
+   deepDive:{title:"More -사 professions",text:"The -사 suffix marks professional expertise across many fields:\n\n건축사: architect\n약사: pharmacist\n교사: teacher (formal)\n\nNote: 선생님 is the everyday word for 'teacher.' 교사 is the formal title used on official documents and job listings."}},
+
+  // ── QUIZZES ──
+  {type:"mc",q:"학생 = 학 + 생. 학 means:",opts:["Study","Person","Work","School"],ans:"Study",hint:"학 (學) = study/learning. 학교 = school, 학생 = student."},
+
+  {type:"mc",q:"Which suffix means 'skilled professional'?",opts:["-생","-사","-어","-도"],ans:"-사",hint:"The -사 (士) suffix appears in 변호사, 의사, 요리사, 운전사."},
+
+  {type:"fb",s:"저는 버스 ___예요. 매일 일찍 일어나요.\n(I am a bus driver. I wake up early every day.)",a:"운전사",opts:["운전사","변호사","학생","간호사"],hint:"운전 = driving. Which profession drives professionally?"},
+
+  {type:"fb",s:"저는 법 관련 일을 해요. 저는 ___예요.\n(I do law-related work. I am a ___.) ",a:"변호사",opts:["변호사","운전사","학생","의사"],hint:"변 (argue) + 호 (protect) + 사 = the legal profession."},
+
+  {type:"mc",q:"고양이 카페 means:",opts:["A coffee shop that serves cats","A cafe themed around cats","A pet hospital","A dog park"],ans:"A cafe themed around cats",hint:"고양이 = cat. 카페 = cafe. Very popular in Korean cities."},
+
+  {type:"match",pairs:[{nl:"학생",en:"student"},{nl:"변호사",en:"lawyer"},{nl:"운전사",en:"driver"},{nl:"개",en:"dog"}]},
+
+  {type:"match",pairs:[{nl:"고양이",en:"cat"},{nl:"토끼",en:"rabbit"},{nl:"축구",en:"soccer"},{nl:"음악",en:"music"}]},
+
+  {type:"fb",s:"저는 ___를 좋아해요. 케이팝을 자주 들어요.\n(I like ___. I often listen to K-pop.)",a:"음악",opts:["음악","영화","축구","토끼"],hint:"음 (sound) + 악 (music). The art of organized sound."},
+
+  {type:"fb",s:"주말에 친구들하고 ___를 해요. 운동을 좋아해요.\n(On weekends I play ___ with friends. I like exercise.)",a:"축구",opts:["축구","영화","음악","변호사"],hint:"축 (kick) + 구 (ball). Korea's most popular team sport."},
+
+  {type:"mc",q:"영화 = 영 + 화. 화 means:",opts:["Shadow","Picture","Screen","Camera"],ans:"Picture",hint:"화 (畫) = picture/drawing. 영화 = shadow picture = movie."},
+
+  {type:"drag_fill",s:"A: 취미가 뭐예요? B: {1} 보기를 좋아해요. 그리고 {2}도 들어요.\nA: What is your hobby? B: I like watching ___. I also listen to ___.",blanks:{"1":"영화","2":"음악"},pool:["영화","음악","축구","토끼","변호사","학생"],hint:"Think: watch something, listen to something."},
+
+  {type:"mc",q:"달 토끼 refers to:",opts:["A rabbit that lives by the sea","A rabbit in moon mythology","A type of white chocolate","A rabbit racing game"],ans:"A rabbit in moon mythology",hint:"달 = one of Korea's most poetic celestial words. What legendary creature lives there in Korean folklore?"},
+
+  {type:"fb",s:"A: 집에 동물이 있어요? B: 네, ___가 있어요. 이름이 초코예요.\n(A: Do you have animals? B: Yes, I have a ___. Its name is Choco.)",a:"개",opts:["개","고양이","토끼","물고기"],hint:"개 = dog. One syllable, pure Korean."},
+]},
+
 ]};
 
 export default UNIT_11;
