@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Qual e la differenza tra uno psicologo e uno psichiatra in Italia?",
-     opts:["Non c'e nessuna differenza pratica tra le due figure","Lo psichiatra e un medico che può prescrivere farmaci, lo psicologo no","Lo psicologo lavora solo con i bambini, lo psichiatra con gli adulti","Lo psichiatra lavora solo in ospedale, lo psicologo solo in studio privato"],
+     opts:["Non c'è nessuna differenza pratica tra le due figure","Lo psichiatra e un medico che può prescrivere farmaci, lo psicologo no","Lo psicologo lavora solo con i bambini, lo psichiatra con gli adulti","Lo psichiatra lavora solo in ospedale, lo psicologo solo in studio privato"],
      ans:"Lo psichiatra e un medico che può prescrivere farmaci, lo psicologo no",
      hint:"One has a medical degree and can prescribe medication. The other works through talk therapy and assessment."},
 

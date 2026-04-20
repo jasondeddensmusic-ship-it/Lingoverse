@@ -62,7 +62,7 @@ const BATCH2_U04_L1 = {
 
     {type:"teach", trg:"la minestra", src:"the soup", pos:"noun", gender:"f",
      note:"Feminine. From Latin 'ministrare' (to serve). Traditional first course.\nAlso 'la zuppa' (thicker soup, with bread).",
-     example:"A: Oggi c'e la minestra di verdure.\nB: Perfetto, fa freddo!",
+     example:"A: Oggi c'è la minestra di verdure.\nB: Perfetto, fa freddo!",
      exampleSrc:"A: Today there is vegetable soup.\nB: Perfect, it is cold!",
      funFact:"'Minestra' comes from 'ministrare' (to serve, to administer). The same root gave English 'minister' and 'administer.' A minister originally served food, then served the state. Soup and government, connected."},
 

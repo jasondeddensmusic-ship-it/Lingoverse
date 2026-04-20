@@ -86,8 +86,8 @@ const BATCH3_L_1 = {
      funFact:"'Malgrado' (from French 'malgre') and 'nonostante' are fully interchangeable concessive conjunctions. Italian's abundance of concessive forms reflects the language's love of nuanced expression and elegant variation."},
 
     {type:"mc",
-     q:"Che differenza c'e tra 'ammesso che' e 'dato che' in italiano?",
-     opts:["Non c'e nessuna differenza: sono perfetti sinonimi intercambiabili","'Ammesso che' richiede il congiuntivo ed esprime dubbio, 'dato che' richiede l'indicativo ed esprime certezza","'Dato che' e più formale di 'ammesso che' nella scrittura accademica","'Ammesso che' si usa solo nella lingua parlata, 'dato che' solo nello scritto"],
+     q:"Che differenza c'è tra 'ammesso che' e 'dato che' in italiano?",
+     opts:["Non c'è nessuna differenza: sono perfetti sinonimi intercambiabili","'Ammesso che' richiede il congiuntivo ed esprime dubbio, 'dato che' richiede l'indicativo ed esprime certezza","'Dato che' e più formale di 'ammesso che' nella scrittura accademica","'Ammesso che' si usa solo nella lingua parlata, 'dato che' solo nello scritto"],
      ans:"'Ammesso che' richiede il congiuntivo ed esprime dubbio, 'dato che' richiede l'indicativo ed esprime certezza",
      hint:"One tentatively accepts a premise (maybe true, maybe not). The other states a fact taken as given."},
 

@@ -56,7 +56,7 @@ const BATCH3_U10_L2 = {
 
     {type:"teach", trg:"la mappa", src:"the map", pos:"noun", gender:"f",
      note:"Feminine. From Latin 'mappa' (cloth, napkin, then map).\n'Mappa della città' = city map.",
-     example:"A: Hai una mappa della città?\nB: Si, c'e anche la versione digitale.",
+     example:"A: Hai una mappa della città?\nB: Si, c'è anche la versione digitale.",
      exampleSrc:"A: Do you have a city map?\nB: Yes, there is also the digital version.",
      funFact:"'Mappa' originally meant 'cloth' in Latin, because early maps were drawn on cloth. Italian cartography was revolutionary: Fra Mauro's 1459 map was the most detailed world map of its time. Today, Italian tourist offices ('ufficio turistico') still offer free paper maps alongside digital options."},
 

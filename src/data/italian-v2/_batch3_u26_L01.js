@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Qual e la differenza tra furto e rapina in diritto italiano?",
-     opts:["La rapina riguarda solo oggetti di valore superiore a mille euro","Il furto coinvolge violenza o minaccia, la rapina no","La rapina implica violenza o minaccia, il furto no","Non c'e differenza legale tra i due reati"],
+     opts:["La rapina riguarda solo oggetti di valore superiore a mille euro","Il furto coinvolge violenza o minaccia, la rapina no","La rapina implica violenza o minaccia, il furto no","Non c'è differenza legale tra i due reati"],
      ans:"La rapina implica violenza o minaccia, il furto no",
      hint:"One involves taking property without confrontation, the other uses force or threats against the victim."},
 

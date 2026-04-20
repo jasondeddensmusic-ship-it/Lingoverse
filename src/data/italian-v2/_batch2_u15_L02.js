@@ -22,7 +22,7 @@ const BATCH2_U15_L2 = {
      note:"Masculine. From French 'fourgon.'\n'Noleggiare un furgone' = to rent a van.",
      example:"A: Hai noleggiato il furgone per il trasloco?\nB: Si, per sabato mattina.",
      exampleSrc:"A: Did you rent the van for the move?\nB: Yes, for Saturday morning.",
-     funFact:"Renting a 'furgone' for moving is common in Italy. Companies like Europcar and local services offer daily rates. Many Italians instead borrow a friend's van or hire 'traslocatori' (movers). The famous Italian expression 'Tra il dire e il fare c'e di mezzo il mare' (between saying and doing lies the sea) applies perfectly to moving day."},
+     funFact:"Renting a 'furgone' for moving is common in Italy. Companies like Europcar and local services offer daily rates. Many Italians instead borrow a friend's van or hire 'traslocatori' (movers). The famous Italian expression 'Tra il dire e il fare c'è di mezzo il mare' (between saying and doing lies the sea) applies perfectly to moving day."},
 
     {type:"teach", trg:"la scatola", src:"the box / cardboard box", pos:"noun", gender:"f",
      note:"Feminine. 'Scatola di cartone' = cardboard box.\nEssential for moving: 'Quante scatole servono?'",

@@ -20,7 +20,7 @@ const BATCH2_U14_L1 = {
 
     {type:"teach", trg:"la clausola", src:"the clause (contract)", pos:"noun", gender:"f",
      note:"Feminine. From Latin 'clausula' (conclusion, clause).\n'Clausola risolutiva' = termination clause.",
-     example:"A: Hai letto tutte le clausole del contratto?\nB: Si, c'e una clausola sul preavviso.",
+     example:"A: Hai letto tutte le clausole del contratto?\nB: Si, c'è una clausola sul preavviso.",
      exampleSrc:"A: Did you read all the clauses of the contract?\nB: Yes, there is a clause about the notice period.",
      funFact:"Italian contracts are known for their detail. Common clauses include 'clausola di riservatezza' (confidentiality clause), 'clausola di non concorrenza' (non-compete clause), and 'clausola penale' (penalty clause). Reading every clausola is strongly recommended before signing anything in Italy."},
 

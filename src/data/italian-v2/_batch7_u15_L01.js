@@ -54,7 +54,7 @@ const BATCH7_L1 = {id:"itv2_u15l_b7_1", title:"Il quartiere", icon:"\u{1F3D8}\uF
 
 {type:"teach", trg:"la fontanella", src:"the drinking fountain", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le fontanelle.\nSmall public water fountain found throughout Italian cities.",
- example:"A: Ho sete, c'e una fontanella?\nB: Si, all'angolo della piazza.",
+ example:"A: Ho sete, c'è una fontanella?\nB: Si, all'angolo della piazza.",
  exampleSrc:"A: I am thirsty, is there a drinking fountain?\nB: Yes, at the corner of the square.",
  funFact:"Rome has over 2,500 public drinking fountains called 'nasoni' (big noses) because of their curved spout shape. The water comes from ancient Roman aqueducts and is free and clean."},
 

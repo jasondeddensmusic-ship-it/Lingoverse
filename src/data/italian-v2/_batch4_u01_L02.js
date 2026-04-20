@@ -34,7 +34,7 @@ const BATCH4_U01_L2 = {
      note:"Used as 'you're welcome' after someone thanks you.\nAlso means 'nothing' in general.",
      example:"A: Grazie per l'aiuto!\nB: Di niente!",
      exampleSrc:"A: Thanks for the help!\nB: It's nothing!",
-     funFact:"'Di niente' (of nothing) is one of many Italian responses to thanks. Others: 'prego' (please/go ahead), 'figurati' (don't mention it), 'non c'e di che' (there's nothing to thank for). Italians have at least six ways to say 'you're welcome.'"},
+     funFact:"'Di niente' (of nothing) is one of many Italian responses to thanks. Others: 'prego' (please/go ahead), 'figurati' (don't mention it), 'non c'è di che' (there's nothing to thank for). Italians have at least six ways to say 'you're welcome.'"},
 
     {type:"teach", trg:"permesso", src:"may I? / excuse me (to pass)", pos:"intj", gender:null,
      note:"Said when entering a room or passing through a crowd.\nLiterally: permission.",

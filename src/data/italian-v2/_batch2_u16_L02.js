@@ -31,7 +31,7 @@ const BATCH2_U16_L2 = {
      funFact:"'Vaccino' comes from 'vacca' (cow) because Edward Jenner's first vaccine in 1796 used cowpox. Italy has mandatory childhood vaccines for ten diseases. The 'Legge Lorenzin' (2017) requires vaccination for school enrollment. Italian pharmacies now also offer flu and other vaccinations."},
 
     {type:"teach", trg:"la cura", src:"the cure / treatment course", pos:"noun", gender:"f",
-     note:"Feminine. 'Seguire una cura' = to follow a treatment.\n'Non c'e cura' = there is no cure.",
+     note:"Feminine. 'Seguire una cura' = to follow a treatment.\n'Non c'è cura' = there is no cure.",
      example:"A: Devo seguire una cura di antibiotici.\nB: Per quanti giorni?",
      exampleSrc:"A: I have to follow a course of antibiotics.\nB: For how many days?",
      funFact:"'Cura' is broader than English 'cure.' It means both the healing itself and the course of treatment. 'Le cure termali' (thermal treatments) are a beloved Italian tradition. 'Prendersi cura di' (to take care of) shows another shade of meaning: care and attention, not just medical healing."},

@@ -50,7 +50,7 @@ const BATCH2_U02_L2 = {
 
     {type:"teach", trg:"dicembre", src:"December", pos:"noun", gender:"m",
      note:"Masculine. From Latin 'decem' (ten), the original 10th month.\nChristmas season: Natale on December 25th.",
-     example:"A: A dicembre c'e Natale!\nB: E il mio mese preferito!",
+     example:"A: A dicembre c'è Natale!\nB: E il mio mese preferito!",
      exampleSrc:"A: In December there is Christmas!\nB: It is my favorite month!",
      funFact:"Italian Christmas traditions include the presepe (nativity scene), panettone (sweet bread from Milan), and the Feast of the Seven Fishes on Christmas Eve. Gifts come from both Santa and La Befana (January 6th)."},
 

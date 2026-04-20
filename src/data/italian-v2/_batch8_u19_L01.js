@@ -12,7 +12,7 @@ const BATCH8_L1 = {id:"itv2_u19l_b8_1", title:"Emozioni complesse", icon:"🎭",
 
 {type:"teach", trg:"la gratitudine", src:"the gratitude", pos:"noun", gender:"f",
  note:"Feminine noun. 'Provare gratitudine' = to feel gratitude.\n'Grato' = grateful.",
- example:"A: Provo profonda gratitudine per il tuo aiuto.\nB: Non c'e di che, siamo amici.",
+ example:"A: Provo profonda gratitudine per il tuo aiuto.\nB: Non c'è di che, siamo amici.",
  exampleSrc:"A: I feel deep gratitude for your help.\nB: Do not mention it, we are friends.",
  funFact:"Italian has many ways to express gratitude: 'grazie' (thanks), 'ti sono grato' (I am grateful to you), 'te ne sono riconoscente' (I am indebted to you). Each has a different weight."},
 

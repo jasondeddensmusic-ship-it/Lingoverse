@@ -80,7 +80,7 @@ const BATCH4_U06_L2 = {
 
     {type:"teach", trg:"il marciapiede", src:"the sidewalk", pos:"noun", gender:"m",
      note:"Masculine. Compound: marcia (march) + piede (foot).\nOften narrow in old Italian cities.",
-     example:"A: Cammina sul marciapiede!\nB: Non c'e spazio, e troppo stretto.",
+     example:"A: Cammina sul marciapiede!\nB: Non c'è spazio, e troppo stretto.",
      exampleSrc:"A: Walk on the sidewalk!\nB: There is no room, it is too narrow.",
      funFact:"Italian sidewalks in historic centers are famously narrow, often just wide enough for one person. In some medieval streets, there is no sidewalk at all. Pedestrians, cars, and scooters share the space in a chaotic but functional dance."},
 

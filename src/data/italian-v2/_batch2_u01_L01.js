@@ -30,11 +30,11 @@ const BATCH2_U01_L1 = {
      exampleSrc:"A: How is it going?\nB: All good! You?\nA: Great!",
      funFact:"Italians use 'tutto bene' both as a statement and a question. A waiter asking 'tutto bene?' means 'is everything okay with your meal?' The phrase has become universal."},
 
-    {type:"teach", trg:"non c'e male", src:"not bad", pos:"adv", gender:null,
+    {type:"teach", trg:"non c'è male", src:"not bad", pos:"adv", gender:null,
      note:"Literally: 'there is no bad.' A modest positive response.\nMore reserved than 'bene.'",
-     example:"A: Come stai?\nB: Non c'e male, grazie.",
+     example:"A: Come stai?\nB: Non c'è male, grazie.",
      exampleSrc:"A: How are you?\nB: Not bad, thanks.",
-     funFact:"Italians sometimes downplay how they feel. 'Non c'e male' is neither negative nor enthusiastic. It signals 'things are fine but nothing to celebrate.' A classic understated Italian response."},
+     funFact:"Italians sometimes downplay how they feel. 'Non c'è male' is neither negative nor enthusiastic. It signals 'things are fine but nothing to celebrate.' A classic understated Italian response."},
 
     {type:"teach", trg:"così così", src:"so-so", pos:"adv", gender:null,
      note:"Means things are mediocre. Often accompanied by a hand wave gesture.\nFrom 'così' (like this).",
@@ -108,8 +108,8 @@ const BATCH2_U01_L1 = {
      hint:"One is used when meeting someone in the evening, the other when parting. The longer form is a wish for the time ahead."},
 
     {type:"fb", s:"Come stai? {1}, grazie.",
-     a:["Non c'e male"],
-     opts:["Non c'e male","A dopo","Buon appetito","Alla prossima"],
+     a:["Non c'è male"],
+     opts:["Non c'è male","A dopo","Buon appetito","Alla prossima"],
      hint:"A modest, positive response meaning 'not bad.' Literally: 'there is no bad.'",
      sSrc:"How are you? {1}, thanks."},
 

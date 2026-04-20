@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Qual e la differenza tra una similitudine e una metafora?",
-     opts:["Non c'e nessuna differenza tecnica tra i due concetti","La similitudine usa 'come' per il confronto, la metafora no","La metafora e sempre più lunga e complessa della similitudine","La similitudine si usa solo in poesia, la metafora solo in prosa"],
+     opts:["Non c'è nessuna differenza tecnica tra i due concetti","La similitudine usa 'come' per il confronto, la metafora no","La metafora e sempre più lunga e complessa della similitudine","La similitudine si usa solo in poesia, la metafora solo in prosa"],
      ans:"La similitudine usa 'come' per il confronto, la metafora no",
      hint:"One makes the comparison explicit with 'c...' (like/as). The other states the comparison directly without the linking word."},
 

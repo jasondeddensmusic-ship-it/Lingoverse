@@ -62,7 +62,7 @@ const BATCH4_U08_L2 = {
 
     {type:"teach", trg:"il reclamo", src:"the complaint", pos:"noun", gender:"m",
      note:"Masculine. 'Fare un reclamo' = to make a complaint.\nFrom 'reclamare' (to complain/claim).",
-     example:"A: Vorrei fare un reclamo.\nB: Mi dica, qual e il problema?",
+     example:"A: Vorrei fare un reclamo.\nB: Mi dica, qual è il problema?",
      exampleSrc:"A: I would like to make a complaint.\nB: Tell me, what is the problem?",
      funFact:"Italian consumer rights are protected by the 'Codice del Consumo' (Consumer Code). The 'Libro dei reclami' (complaints book) must legally exist in many establishments. Italians do not hesitate to 'fare reclamo' when something is wrong."},
 

@@ -6,7 +6,7 @@ const BATCH6_L1 = {id:"itv2_u09l_b6_1", title:"In farmacia e dal dottore", icon:
 
 {type:"teach", trg:"la farmacia", src:"the pharmacy", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le farmacie.\nMarked by a green cross sign. Open on rotation at night.",
- example:"A: C'e una farmacia aperta qui vicino?\nB: Si, in piazza c'e la farmacia di turno.",
+ example:"A: C'e una farmacia aperta qui vicino?\nB: Si, in piazza c'è la farmacia di turno.",
  exampleSrc:"A: Is there an open pharmacy nearby?\nB: Yes, in the square there is the on-duty pharmacy.",
  funFact:"Italian pharmacies display a green cross and always have one 'di turno' (on duty) open at night and on holidays. They also sell cosmetics and health products."},
 

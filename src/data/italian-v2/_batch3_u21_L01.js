@@ -62,7 +62,7 @@ const BATCH3_U21_L1 = {
 
     {type:"teach", trg:"saprei", src:"I would know (how to)", pos:"verb", gender:null,
      note:"Conditional of 'sapere.' Irregular stem: sapr-.\n'Non saprei' = I would not know / I am not sure.",
-     example:"A: Sapresti dirmi dov'e la stazione?\nB: Non saprei, chiedi a quel signore.",
+     example:"A: Sapresti dirmi dov'è la stazione?\nB: Non saprei, chiedi a quel signore.",
      exampleSrc:"A: Would you know where the station is?\nB: I am not sure, ask that gentleman.",
      funFact:"'Non saprei' (I would not know) is a wonderfully Italian way to express uncertainty. It is softer than 'non so' (I do not know). 'Sapresti' in questions is a very polite way to ask for information: 'Sapresti aiutarmi?' (Would you know how to help me?)."},
 

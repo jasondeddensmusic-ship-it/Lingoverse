@@ -6,7 +6,7 @@ const BATCH6_L1 = {id:"itv2_u13l_b6_1", title:"Verbi impersonali e congiuntivo",
 
 {type:"teach", trg:"conviene che", src:"it is advisable that", pos:"verb", gender:null,
  note:"Impersonal form of 'convenire.' Triggers congiuntivo.\nUsed for giving advice or suggesting the best course.",
- example:"A: Conviene che tu parta presto.\nB: Hai ragione, c'e sempre traffico.",
+ example:"A: Conviene che tu parta presto.\nB: Hai ragione, c'è sempre traffico.",
  exampleSrc:"A: It is advisable that you leave early.\nB: You are right, there is always traffic.",
  funFact:"'Convenire' also means 'to be worth it' in terms of value: 'conviene comprare online' (it is better to buy online). The subjunctive use adds a layer of advice."},
 

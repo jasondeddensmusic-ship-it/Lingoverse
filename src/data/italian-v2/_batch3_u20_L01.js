@@ -67,8 +67,8 @@ const BATCH3_U20_L1 = {
      funFact:"Italian schools now use 'registri elettronici' (electronic registers) where parents can check grades, absences, and homework in real time. This digital transition happened in the 2010s. Before that, the paper 'registro di classe' was the teacher's sacred document."},
 
     {type:"teach", trg:"il supplente", src:"the substitute teacher", pos:"noun", gender:"m",
-     note:"Masculine. Feminine: la supplente. From 'supplire' (to substitute).\n'Oggi c'e il supplente' = Today we have a sub.",
-     example:"A: Oggi c'e la supplente di matematica.\nB: Bene, forse non interroga!",
+     note:"Masculine. Feminine: la supplente. From 'supplire' (to substitute).\n'Oggi c'è il supplente' = Today we have a sub.",
+     example:"A: Oggi c'è la supplente di matematica.\nB: Bene, forse non interroga!",
      exampleSrc:"A: Today we have the substitute math teacher.\nB: Good, maybe she will not quiz us!",
      funFact:"Substitute teaching in Italy is a major career path. 'Supplenti' are teachers waiting for a permanent position ('cattedra'). Many spend years on waiting lists ('graduatorie'). The system is notoriously complex. Students often cheer for substitute teachers, hoping for an easier class."},
 
@@ -114,7 +114,7 @@ const BATCH3_U20_L1 = {
      ans:"Private tutoring lessons (major industry)",
      hint:"Many Italian teachers earn extra income this way. Students struggling with subjects seek these after-school sessions for improvement."},
 
-    {type:"fb", s:"Oggi c'e il {1} di matematica.",
+    {type:"fb", s:"Oggi c'è il {1} di matematica.",
      a:["supplente"],
      opts:["supplente","professore","registro","compito"],
      hint:"A temporary teacher replacing the regular one. Many spend years waiting for a permanent position.",

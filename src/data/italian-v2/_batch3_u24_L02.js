@@ -56,7 +56,7 @@ const BATCH3_U24_L2 = {
 
     {type:"teach", trg:"a pensarci bene", src:"come to think of it / on reflection", pos:"verb", gender:null,
      note:"Expression. 'Pensarci' = to think about it.\n'A pensarci bene, hai ragione' = On reflection, you are right.",
-     example:"A: A pensarci bene, e meglio aspettare.\nB: Sono d'accordo. Non c'e fretta.",
+     example:"A: A pensarci bene, e meglio aspettare.\nB: Sono d'accordo. Non c'è fretta.",
      exampleSrc:"A: Come to think of it, it is better to wait.\nB: I agree. There is no hurry.",
      funFact:"'A pensarci bene' introduces a revised opinion. The speaker has reconsidered. It is a graceful way to change your mind in Italian conversation. Combined with conditional structures, it allows elegant corrections: 'A pensarci bene, farei diversamente' (On reflection, I would do it differently)."},
 
@@ -84,7 +84,7 @@ const BATCH3_U24_L2 = {
      ans:"Patience: time will reveal the outcome",
      hint:"Literally 'who will live, will see.' Italian philosophical p.... Trust t... to r... truth rather than making premature judgments."},
 
-    {type:"fb", s:"Non c'e fretta. {1} tardi che mai.",
+    {type:"fb", s:"Non c'è fretta. {1} tardi che mai.",
      a:["Meglio"],
      opts:["Meglio","Peggio","Tanto","Sempre"],
      hint:"A universal proverb. Especially fitting in Italy, where punctuality is treated with a relaxed attitude.",

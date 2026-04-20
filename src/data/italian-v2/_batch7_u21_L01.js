@@ -24,7 +24,7 @@ const BATCH7_L1 = {id:"itv2_u21l_b7_1", title:"Consigli e suggerimenti", icon:"\
 
 {type:"teach", trg:"evitare", src:"to avoid", pos:"verb", gender:null,
  note:"Regular -are verb. evito, eviti, evita.\n'Eviterei di...' = I would avoid...",
- example:"A: Eviterei di prendere l'autostrada.\nB: Perche, c'e traffico?",
+ example:"A: Eviterei di prendere l'autostrada.\nB: Perche, c'è traffico?",
  exampleSrc:"A: I would avoid taking the highway.\nB: Why, is there traffic?",
  funFact:"'Evitare' comes from Latin 'ex + via' (out of the way). Italians use it constantly for both physical and metaphorical avoidance: 'evita i problemi' = avoid trouble."},
 

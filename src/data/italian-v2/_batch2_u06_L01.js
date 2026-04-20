@@ -56,7 +56,7 @@ const BATCH2_U06_L1 = {
 
     {type:"teach", trg:"il mercatino", src:"the small market / flea market", pos:"noun", gender:"m",
      note:"Masculine. Diminutive of 'mercato.'\n'Mercatino delle pulci' = flea market. 'Mercatino di Natale' = Christmas market.",
-     example:"A: Sabato c'e il mercatino in piazza.\nB: Andiamo! Adoro i mercatini!",
+     example:"A: Sabato c'è il mercatino in piazza.\nB: Andiamo! Adoro i mercatini!",
      exampleSrc:"A: Saturday there is a market in the square.\nB: Let's go! I love small markets!",
      funFact:"Italian Christmas markets ('mercatini di Natale') are magical, especially in northern cities like Bolzano, Trento, and Merano, which share Austrian-German traditions. They sell crafts, food, and mulled wine ('vin brule')."},
 
