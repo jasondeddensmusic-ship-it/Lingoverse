@@ -344,8 +344,8 @@ lessons:[
 
 {type:"teach", trg:"担心(dānxīn)", src:"to worry / worried", pos:"verb", gender:null,
  note:"To feel anxious about something. Often followed by the thing you worry about.\n担 = carry on shoulder, 心 = heart.",
- example:"A: 妈妈(māma)，我(wǒ)没事(méishì)，别(bié)担心(dānxīn)。\nB: 你(nǐ)一(yì)个(gè)人(rén)在(zài)外地(wàidì)，我(wǒ)怎么(zěnme)能(néng)不(bù)担心(dānxīn)呢(ne)？",
- exampleSrc:"A: Mom, I am fine, do not worry.\nB: You are away from home alone, how can I not worry?",
+ example:"A: 妈妈(māma)，别(bié)担心(dānxīn)。\nB: 我(wǒ)不(bù)能(néng)不(bù)担心(dānxīn)。",
+ exampleSrc:"A: Mom, do not worry.\nB: I cannot not worry.",
  funFact:"担 shows a person carrying a heavy shoulder pole with two baskets. Worry is imagined as carrying a weight on your shoulders. In Chinese, you do not just feel worried, you are 'carrying that worry on your heart' (心)."},
 
 {type:"teach", trg:"骄傲(jiāo'ào)", src:"proud / arrogant", pos:"adj", gender:null,
@@ -356,20 +356,20 @@ lessons:[
 
 {type:"teach", trg:"开心(kāixīn)", src:"happy / delighted (colloquial)", pos:"adj", gender:null,
  note:"Colloquial, warm happiness. More casual and intimate than 高兴.\n开 = open, 心 = heart: your heart opens up.",
- example:"A: 生日(shēngrì)快乐(kuàilè)！你(nǐ)开心(kāixīn)吗(ma)？\nB: 太(tài)开心(kāixīn)了(le)！谢谢(xièxiè)大家(dàjiā)！",
- exampleSrc:"A: Happy birthday! Are you happy?\nB: So happy! Thank you everyone!",
+ example:"A: 生日(shēngrì)快乐(kuàilè)！你(nǐ)开心(kāixīn)吗(ma)？\nB: 太(tài)开心(kāixīn)了(le)！",
+ exampleSrc:"A: Happy birthday! Are you happy?\nB: So happy!",
  funFact:"开心 literally means 'open heart.' When you are happy in Chinese, your heart opens up and lets the good feelings flow. The imagery is beautiful: joy as the heart unlocking. 高兴 is more formal; 开心 is what you say to close friends and family."},
 
 {type:"teach", trg:"伤心(shāngxīn)", src:"sad / heartbroken", pos:"adj", gender:null,
  note:"Deeper sadness than 难过. Often implies being hurt by someone or something.\n伤 = wound/injury, 心 = heart.",
- example:"A: 他(tā)今天(jīntiān)为什么(wèishénme)这么(zhème)伤心(shāngxīn)？\nB: 他(tā)和(hé)朋友(péngyou)吵架(chǎojià)了(le)，很(hěn)伤心(shāngxīn)。",
- exampleSrc:"A: Why is he so sad today?\nB: He had an argument with his friend and is very sad.",
+ example:"A: 他(tā)今天(jīntiān)为什么(wèishénme)这么(zhème)伤心(shāngxīn)？\nB: 他(tā)的(de)朋友(péngyou)不(bù)在(zài)。",
+ exampleSrc:"A: Why is he so sad today?\nB: His friend is not here.",
  funFact:"伤心 is literally a 'wounded heart.' Chinese emotional vocabulary often uses the heart (心) as the seat of all feelings. Compare 开心 (happy heart), 伤心 (wounded heart), 担心 (burdened heart). The heart is the emotional barometer in Chinese thought."},
 
 {type:"teach", trg:"生气(shēngqì)", src:"angry / to get angry", pos:"adj", gender:null,
  note:"The most common word for anger. Can be a stative verb or adjective.\n生 = produce/generate, 气 = energy/breath.",
- example:"A: 你(nǐ)为什么(wèishénme)生气(shēngqì)了(le)？\nB: 他(tā)又(yòu)忘(wàng)了(le)我们(wǒmen)的(de)约定(yuēdìng)，我(wǒ)真(zhēn)的(de)很(hěn)生气(shēngqì)。",
- exampleSrc:"A: Why are you angry?\nB: He forgot our agreement again. I am really angry.",
+ example:"A: 你(nǐ)为什么(wèishénme)生气(shēngqì)了(le)？\nB: 他(tā)没(méi)来(lái)，我(wǒ)很(hěn)生气(shēngqì)。",
+ exampleSrc:"A: Why are you angry?\nB: He did not come. I am very angry.",
  funFact:"生气 literally means 'producing energy' or 'generating breath.' When you are angry, you breathe hard and your energy surges. Interestingly, 生气 also means 'vitality' or 'life force' in another context, so the same word means both anger and being full of life."},
 
 {type:"tip", title:"心 (xīn): The Heart Character",
@@ -385,14 +385,14 @@ lessons:[
 
 {type:"teach", trg:"累(lèi)", src:"tired / exhausted", pos:"adj", gender:null,
  note:"Physical or mental tiredness. Very commonly used in daily speech.\nCan also be used as a verb: 累坏了 = completely worn out.",
- example:"A: 你(nǐ)看(kàn)起来(qǐlái)很(hěn)累(lèi)，没(méi)休息(xiūxi)好(hǎo)吗(ma)？\nB: 是(shì)啊(a)，最近(zuìjìn)工作(gōngzuò)太(tài)多(duō)了(le)，真的(zhēnde)很(hěn)累(lèi)。",
- exampleSrc:"A: You look very tired. Did you not sleep well?\nB: Right, I have had too much work lately. I am really tired.",
+ example:"A: 你(nǐ)很(hěn)累(lèi)吗(ma)？\nB: 是(shì)的(de)，工作(gōngzuò)太(tài)多(duō)了(le)，我(wǒ)很(hěn)累(lèi)。",
+ exampleSrc:"A: Are you very tired?\nB: Yes, work is too much. I am very tired.",
  funFact:"累 was originally written with a field (田) stacked three times, showing repeated heavy labor in the fields. The original meaning was 'to pile up' or 'accumulate.' Over time it evolved to mean the exhaustion that comes from accumulated effort."},
 
 {type:"teach", trg:"聪明(cōngming)", src:"clever / intelligent", pos:"adj", gender:null,
  note:"A genuine compliment in Chinese culture. Parents love hearing their child is 聪明.\n聪 = sharp senses, 明 = bright/clear.",
- example:"A: 这个(zhège)学生(xuéshēng)真的(zhēnde)很(hěn)聪明(cōngming)。\nB: 是(shì)啊(a)，他(tā)又(yòu)聪明(cōngming)又(yòu)努力(nǔlì)，考试(kǎoshì)总是(zǒngshì)第一(dìyī)。",
- exampleSrc:"A: This student is really clever.\nB: Yes, he is both clever and hardworking. He always comes first in exams.",
+ example:"A: 这个(zhège)学生(xuésheng)很(hěn)聪明(cōngming)。\nB: 他(tā)又(yòu)聪明(cōngming)又(yòu)努力(nǔlì)。",
+ exampleSrc:"A: This student is very clever.\nB: He is both clever and hardworking.",
  funFact:"聪 is a remarkable character: it contains 耳 (ear) at the top and components for eye, mouth, and heart below. To be clever in Chinese, you must have sharp ears, bright eyes, a quick tongue, and a clear mind. All four senses working together."},
 
 {type:"mc", q:"妈妈(māma)，我(wǒ)一(yì)个(gè)人(rén)去(qù)旅行(lǚxíng)，你(nǐ)别(bié)___了(le)。",
