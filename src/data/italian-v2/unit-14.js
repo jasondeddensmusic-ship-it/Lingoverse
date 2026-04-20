@@ -350,7 +350,7 @@ const UNIT_14 = {
 
       {type:"teach", trg:"la società", src:"society", pos:"noun", gender:"f",
        note:"Feminine. Irregular: ends in -a but does not change in plural ('le societa').\nAlso means 'company' in a business context.",
-       example:"A: La società ha bisogno di più istruzione.\nB: Sono d'accordo. Ogni cittadino deve poter studiare.\nA: E qual e il ruolo della politica?\nB: Creare le condizioni giuste.",
+       example:"A: La società ha bisogno di più istruzione.\nB: Sono d'accordo. Ogni cittadino deve poter studiare.\nA: E qual è il ruolo della politica?\nB: Creare le condizioni giuste.",
        exampleSrc:"A: Society needs more education.\nB: I agree. Every citizen must be able to study.\nA: And what is the role of politics?\nB: To create the right conditions.",
        funFact:"The word 'società' covers both 'society' and 'company' (e.g. società per azioni = a joint-stock company). The context always makes it clear which meaning is intended."},
 
