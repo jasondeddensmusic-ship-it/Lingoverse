@@ -264,6 +264,86 @@ const UNIT_22 =
 {type:"drag_fill",s:"운동한{1}거나 산책한{1}거나 건강{2} 위해 뭐든 하세요. 못 하{3}고 해도 시도{4} 중요해요.\n(Whether exercising or walking, do something for health. Even if you can't, trying is important.)",blanks:{"1":"다","2":"을","3":"ㄴ다","4":"가"},pool:["다","을","ㄴ다","가","는","이","어","에"],hint:"Listing (x2). Object (for health). Even-if. Subject."},
 ]},
 
+// ── L11: 학문적 동사와 형용사 (Academic Verbs & Adjectives) ──
+{id:"kov2_u22l_b1_b2_academic",title:"학문적 동사와 형용사",icon:"🎓",xp:25,board:true,steps:[
+{type:"intro",title:"Academic Verbs & Adjectives",desc:"B1/B2 academic vocabulary for debate and analysis.\nThese verbs and adjectives appear in essays, presentations, and formal arguments.",goals:["Learn 8 B1/B2 academic verbs and adjectives","Use 찬성하다, 증명하다, 판단하다, 평가하다 in debate context","Use 필수적, 효과적, 주관적, 증거 in formal argument","Combine these with U22 debate patterns"]},
+
+{type:"teach",trg:"찬성하다",src:"to agree, to be in favor of",pos:"verb",gender:null,
+note:"Verb form of 찬성 (agreement). 이 제안에 찬성하다 = to agree with this proposal.\n찬성하다 vs 반대하다: vote for vs vote against.",
+example:"A: 이 제안에 찬성하세요?\nB: 네, 저는 찬성합니다.\nA: 근거를 말씀해 주세요.\nB: 비용이 낮고 결과가 좋기 때문입니다.",
+exampleSrc:"A: Do you agree with this proposal?\nB: Yes, I am in favor.\nA: Please state your grounds.\nB: Because the cost is low and the results are good.",
+funFact:"Comes from hanja 贊成: 贊 (praise/support) + 成 (complete/achieve). Supporting to completion."},
+
+{type:"teach",trg:"증거",src:"evidence, proof",pos:"noun",gender:null,
+note:"Concrete proof. 근거 = logical grounds; 증거 = physical or factual evidence.\n법적 증거 = legal evidence. 증거를 제시하다 = to present evidence.",
+example:"A: 주장에는 증거가 필요하죠?\nB: 맞아요. 증거 없이는 찬성하기 어렵습니다.\nA: 어떤 증거가 있어요?\nB: 반대 의견도 있지만 증거가 명확합니다.",
+exampleSrc:"A: Arguments need evidence, right?\nB: That is right. Without evidence it is hard to agree.\nA: What evidence do you have?\nB: There are opposing opinions too, but the evidence is clear.",
+funFact:"From hanja 證據: 證 (testify/verify) + 據 (rely on). Verifiable testimony you can rely on."},
+
+{type:"teach",trg:"증명하다",src:"to prove, to demonstrate",pos:"verb",gender:null,
+note:"To establish something as true through evidence or logic.\n이 이론을 증명하다 = to prove this theory.\n증명 = proof (noun form).",
+example:"A: 이 주장을 어떻게 증명할 수 있어요?\nB: 증거로 증명할 수 있습니다.\nA: 증거가 충분한가요?\nB: 네, 결론을 증명하기에 충분합니다.",
+exampleSrc:"A: How can you prove this claim?\nB: I can prove it with evidence.\nA: Is the evidence sufficient?\nB: Yes, it is sufficient to prove the conclusion.",
+funFact:"From hanja 證明: 證 (testify) + 明 (clear/bright). Making something clear through testimony."},
+
+{type:"teach",trg:"판단하다",src:"to judge, to determine, to assess",pos:"verb",gender:null,
+note:"To form a reasoned judgment. 상황을 판단하다 = to assess the situation.\n판단 = judgment (noun). 판단력 = judgment ability.",
+example:"A: 이 의견을 어떻게 판단하세요?\nB: 근거를 보고 판단합니다.\nA: 주관적으로 판단하면 안 되죠?\nB: 맞아요. 증거로 판단해야 합니다.",
+exampleSrc:"A: How do you judge this opinion?\nB: I judge by looking at the grounds.\nA: We should not judge subjectively, right?\nB: That is right. We must judge by evidence.",
+funFact:"From hanja 判斷: 判 (decide/separate) + 斷 (cut off). Cutting to a decision."},
+
+{type:"teach",trg:"평가하다",src:"to evaluate, to assess, to appraise",pos:"verb",gender:null,
+note:"To measure or assess the value, quality, or performance of something.\n성과를 평가하다 = to evaluate performance. 평가 = evaluation (noun).",
+example:"A: 이 계획을 어떻게 평가하세요?\nB: 효과적이라고 평가합니다.\nA: 장단점도 평가해 주세요.\nB: 네, 여론을 보면서 평가하겠습니다.",
+exampleSrc:"A: How do you evaluate this plan?\nB: I evaluate it as effective.\nA: Please also evaluate the pros and cons.\nB: Yes, I will evaluate while looking at public opinion.",
+funFact:"From hanja 評價: 評 (comment/discuss) + 價 (value/price). Putting a value on something through discussion."},
+
+{type:"teach",trg:"필수적",src:"essential, mandatory, indispensable",pos:"adj",gender:null,
+note:"Absolutely required; cannot be left out. 필수적인 요소 = an essential element.\n필수 = essential (noun/prefix). 필수적이다 = to be essential.",
+example:"A: 찬성하기 위해 무엇이 필수적인가요?\nB: 증거가 필수적입니다.\nA: 다른 것은요?\nB: 근거도 필수적이고 결론도 명확해야 합니다.",
+exampleSrc:"A: What is essential in order to agree?\nB: Evidence is essential.\nA: What about other things?\nB: Grounds are also essential and the conclusion must be clear.",
+funFact:"From hanja 必須的: 必 (must) + 須 (need) + 的 (adjectival suffix). Must-need-ness."},
+
+{type:"teach",trg:"효과적",src:"effective, efficient",pos:"adj",gender:null,
+note:"Producing the desired result. 효과적인 방법 = an effective method.\n효과 = effect/result. 효과적이다 = to be effective. Used in formal and academic writing.",
+example:"A: 이 방법이 효과적인가요?\nB: 네, 증거로 증명된 효과적인 방법입니다.\nA: 찬성하시나요?\nB: 물론이죠. 필수적이기도 하고 효과적이기도 합니다.",
+exampleSrc:"A: Is this method effective?\nB: Yes, it is a method proven effective by evidence.\nA: Do you agree?\nB: Of course. It is both essential and effective.",
+funFact:"From hanja 效果的: 效 (result/effect) + 果 (fruit/outcome) + 的 (suffix). Fruit-bearing results."},
+
+{type:"teach",trg:"주관적",src:"subjective",pos:"adj",gender:null,
+note:"Based on personal feelings rather than facts. Opposite of 객관적 (objective).\n주관적인 의견 = a subjective opinion. 주관적이다 = to be subjective.",
+example:"A: 이 평가가 주관적이지 않나요?\nB: 증거로 판단하면 주관적이지 않습니다.\nA: 여론도 주관적일 수 있죠?\nB: 맞아요. 그래서 증거가 필수적입니다.",
+exampleSrc:"A: Is this evaluation not subjective?\nB: If you judge by evidence, it is not subjective.\nA: Public opinion can also be subjective, right?\nB: That is right. That is why evidence is essential.",
+funFact:"From hanja 主觀的: 主 (main/subject) + 觀 (view/observe) + 的 (suffix). Viewing from the main self."},
+
+{type:"tip",title:"Academic Adjectives: 객관적 vs 주관적",text:"Korean academic writing demands this contrast:\n\n객관적 (objective): based on evidence and facts\n주관적 (subjective): based on personal feelings or views\n\nIn debate: 주관적인 의견 = personal opinion\n객관적인 증거 = objective evidence\n\nBoth take -이다/-이지 않다 for statements.\n효과적이다 = is effective\n필수적이지 않다 = is not essential",deepDive:"Academic register in Korean:\n\n-적 suffix makes nouns into adjectives:\n주관(主觀) = subjective view + 적 = 주관적 (subjective)\n객관(客觀) = objective view + 적 = 객관적 (objective)\n효과(效果) = effect + 적 = 효과적 (effective)\n필수(必須) = necessity + 적 = 필수적 (essential)\n\nAll four appear in TOPIK II writing tasks.\nLearners who master these score higher in academic register."},
+
+{type:"mc",q:"찬성하다 vs 찬성:\nA: 찬성하세요? (Do you agree?)\nB: 찬성합니다. (I agree.)\n찬성하다 is:",opts:["A noun meaning agreement","The verb form meaning to agree","An adjective meaning agreeable","A particle for agreement"],ans:"The verb form meaning to agree",hint:"-하다 attached to a noun makes it into an action word. 찬성 alone cannot be conjugated."},
+
+{type:"fb",s:"주장을 {1}하려면 증거가 필요합니다.\n(To prove a claim, evidence is needed.)",a:"증명",opts:["증명","평가","판단","찬성"],hint:"Making a claim clear through evidence. 證明 = verify + clarify."},
+
+{type:"mc",q:"증거 vs 근거:\nA: 법적 증거가 있어요. (There is legal evidence.)\nB: 근거가 충분해요. (The grounds are sufficient.)\nKey difference:",opts:["They mean exactly the same","증거 = physical or factual proof; 근거 = logical grounds or basis","근거 is formal; 증거 is casual","증거 is for science; 근거 is for law"],ans:"증거 = physical or factual proof; 근거 = logical grounds or basis",hint:"One comes from 證 (testify, as in court). The other from 根 (root) and 據 (rely on). One is a thing you can point to; the other is the reasoning structure."},
+
+{type:"mc",q:"이 계획이 ___ 인지 먼저 ___ 해야 합니다.\n(We must first evaluate whether this plan is effective.)",opts:["효과적 / 평가","필수적 / 증명","주관적 / 판단","효과적 / 찬성"],ans:"효과적 / 평가",hint:"Fruit-bearing results (effective). Put a value on it systematically (evaluate)."},
+
+{type:"fb",s:"의견이 {1}이면 찬성하기 어렵습니다.\n(If an opinion is subjective, it is hard to agree with it.)",a:"주관적",opts:["주관적","효과적","필수적","객관적"],hint:"Personal feelings-based. Opposite of 객관적."},
+
+{type:"mc",q:"주장을 평가할 때 무엇이 필수적입니까?\n(When evaluating a claim, what is essential?)",opts:["타협이 필수적입니다","증거와 근거가 필수적입니다","여론이 필수적입니다","댓글이 필수적입니다"],ans:"증거와 근거가 필수적입니다",hint:"Evidence + grounds are the non-negotiable elements of any valid argument."},
+
+{type:"fb",s:"이 이론은 증거로 충분히 {1}되었습니다.\n(This theory has been sufficiently proven by evidence.)",a:"증명",opts:["증명","판단","평가","찬성"],hint:"Proving via evidence. 證明 hanja: testify + make clear."},
+
+{type:"match",pairs:[{trg:"찬성하다",src:"to agree / be in favor"},{trg:"증거",src:"evidence, proof"},{trg:"증명하다",src:"to prove"},{trg:"판단하다",src:"to judge, to determine"}]},
+
+{type:"match",pairs:[{trg:"평가하다",src:"to evaluate"},{trg:"필수적",src:"essential"},{trg:"효과적",src:"effective"},{trg:"주관적",src:"subjective"}]},
+
+{type:"drag_fill",s:"이 방법이 {1}인지 객관적으로 {2}해야 합니다.\n(We must objectively evaluate whether this method is effective.)",blanks:{"1":"효과적","2":"평가"},pool:["효과적","평가","필수적","증명","주관적","판단"],hint:"Fruit-bearing (effective). Systematically value it."},
+
+{type:"drag_fill",s:"찬성하{1}에는 {2}가 {3}적입니다.\n(In order to agree, evidence is essential.)",blanks:{"1":"기","2":"증거","3":"필수"},pool:["기","증거","필수","는","근거","효과","에"],hint:"Nominalization for 'in order to'. Concrete proof. Must-have."},
+
+{type:"drag_fill",s:"{1}한 의견보다 {2}가 있는 주장이 더 설득력이 있습니다.\n(A claim with evidence is more convincing than a subjective opinion.)",blanks:{"1":"주관적","2":"증거"},pool:["주관적","증거","효과적","근거","필수적","의견"],hint:"Personal-feelings-based. Concrete verifiable proof."},
+
+]},
+
 ]};
 
 export default UNIT_22;
