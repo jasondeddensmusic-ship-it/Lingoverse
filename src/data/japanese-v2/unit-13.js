@@ -323,5 +323,112 @@ const UNIT_13 = {
   {type:"match", pairs:[{trg:"映画館(えいがかん)",src:"movie theater"},{trg:"場所(ばしょ)",src:"place / location"},{trg:"交通(こうつう)",src:"traffic / transportation"}]},
 ]}
 
+// ═══ Essential N4: Daily Life, Places & Society ═══
+,{id:"jav2_u13l_essential_n4", title:"N4必須語彙(ひっすごい): Daily Life", icon:"🌐", xp:15, board:true, steps:[
+  {type:"intro", title:"N4 Essential Vocabulary: Daily Life",
+   desc:"Ten core JLPT N4 words covering daily life, society, and the world around you. These words appear constantly in everyday Japanese and are essential for N4 exam readiness.",
+   goals:["Use 入れる, 音, 会話, 言語 naturally","Name key places and concepts: 入口, 出口, 映画館","Describe life, era, and the world with 生活, 時代, 世界"]},
+
+  {type:"teach", trg:"入(い)れる", src:"to put in / to insert / to include", pos:"verb", gender:null,
+   phonetic:"ireru",
+   note:"Ichidan verb. Takes に for destination and を for the object.\nほんをかばんに入(い)れる = put the book in the bag.",
+   example:"A: 塩(しお)をどのくらい入(い)れますか？\nB: 少(すこ)しだけ入(い)れてください。",
+   exampleSrc:"A: How much salt do you put in?\nB: Please put in just a little.",
+   funFact:"入(い)れる (transitive: you put something in) pairs with 入(はい)る (intransitive: something goes in). This is the classic Japanese transitive/intransitive pair. You will see this distinction constantly at N4 and N3."},
+
+  {type:"teach", trg:"音(おと)", src:"sound / noise", pos:"noun", gender:null,
+   phonetic:"oto",
+   note:"General word for a sound or noise. 音楽(おんがく) = music (sound + enjoy).\nDifferent from 声(こえ) which is a voice.",
+   example:"A: 外(そと)から大(おお)きな音(おと)が聞(き)こえます。\nB: 何(なに)の音(おと)ですか？\nA: 音楽(おんがく)の音(おと)だと思(おも)います。\nB: そうですね。お祭(まつ)りかもしれません。",
+   exampleSrc:"A: I can hear a loud sound from outside.\nB: What kind of sound is it?\nA: I think it is the sound of music.\nB: Yes, it might be a festival.",
+   funFact:"音 appears in many compound words: 音楽(おんがく) (music), 音声(おんせい) (voice/audio), 発音(はつおん) (pronunciation), 騒音(そうおん) (noise/din). The kanji itself shows a standing figure making a sound — 立(たつ) + 日 gives the sense of something standing and resonating."},
+
+  {type:"teach", trg:"会話(かいわ)", src:"conversation / dialogue", pos:"noun", gender:null,
+   phonetic:"kaiwa",
+   note:"会話(かいわ)する = to have a conversation.\n日本語(にほんご)で会話(かいわ)する = to converse in Japanese.",
+   example:"A: 日本語(にほんご)で会話(かいわ)したことがありますか？\nB: はい、日本人(にほんじん)の友達(ともだち)と話(はな)したことがあります。",
+   exampleSrc:"A: Have you had a conversation in Japanese before?\nB: Yes, I have spoken with Japanese friends.",
+   funFact:"会話 combines 会 (meet) and 話 (talk): a meeting of talk. 会話練習(かいわれんしゅう) (conversation practice) is a key phrase in language learning. Japanese has a highly context-dependent communication style; what is NOT said in a 会話 is often as important as what is."},
+
+  {type:"teach", trg:"言語(げんご)", src:"language / tongue", pos:"noun", gender:null,
+   phonetic:"gengo",
+   note:"Formal/academic word for language as a system. More formal than 言葉(ことば).\n言語学(げんごがく) = linguistics.",
+   example:"A: 何(なん)か国語(かこくご)話(はな)せますか？\nB: 二(に)つの言語(げんご)が話(はな)せます。日本語(にほんご)と英語(えいご)です。",
+   exampleSrc:"A: How many languages can you speak?\nB: I can speak two languages. Japanese and English.",
+   funFact:"言語 uses 言 (words/say) and 語 (language/speak). 言語 tends toward formal and academic usage; 言葉(ことば) is the everyday word for 'word' or 'language.' The field of 言語学(げんごがく) (linguistics) studies how languages work as systems."},
+
+  {type:"mc", q:"入(い)れる means:", opts:["to put in / insert","to take out","to enter (intransitive)","to hear"], ans:"to put in / insert",
+   hint:"This transitive verb takes an object (を) and a destination (に). The thing YOU put into something."},
+
+  {type:"teach", trg:"今度(こんど)", src:"next time / this time / soon", pos:"adv", gender:null,
+   phonetic:"kondo",
+   note:"Context-dependent: 今度(こんど)は (this time), 今度(こんど)また (next time again).\nVery common in everyday speech.",
+   example:"A: 今度(こんど)、映画館(えいがかん)に行(い)きませんか？\nB: いいですよ。いつがいいですか？\nA: 来週(らいしゅう)の土曜日(どようび)はどうですか？\nB: 土曜日(どようび)なら大丈夫(だいじょうぶ)です。",
+   exampleSrc:"A: Shall we go to the movie theater next time?\nB: Sure. When is good?\nA: How about next Saturday?\nB: Saturday works for me.",
+   funFact:"今度(こんど) is one of the most natural ways to suggest doing something 'next time' or 'soon' in Japanese. 今度(こんど)こそ (this time for sure) is a common motivational phrase. The kanji 今 (now) + 度 (time/degree) gives it a sense of immediacy."},
+
+  {type:"teach", trg:"入口(いりぐち)", src:"entrance / entry", pos:"noun", gender:null,
+   phonetic:"iriguchi",
+   note:"入(はい)る (to enter) + 口(くち) (mouth/opening). Physically marked at buildings and stations.\nOpposite: 出口(でぐち) (exit).",
+   example:"A: 入口(いりぐち)はどこですか？\nB: あそこの建物(たてもの)の右側(みぎがわ)にあります。",
+   exampleSrc:"A: Where is the entrance?\nB: It is on the right side of that building over there.",
+   funFact:"口(くち) as a suffix meaning 'opening' appears in 入口 (entrance), 出口(でぐち) (exit), 改札口(かいさつぐち) (ticket gate), and 窓口(まどぐち) (window/service counter). Recognizing this pattern is one of the most useful compound reading tricks for navigating Japan."},
+
+  {type:"teach", trg:"出口(でぐち)", src:"exit / way out", pos:"noun", gender:null,
+   phonetic:"deguchi",
+   note:"出(で)る (to exit) + 口(くち) (opening). Pair: 入口(いりぐち) = entrance.\nSeen at all stations, buildings, and exits in Japan.",
+   example:"A: 出口(でぐち)はどこですか？\nB: 電車(でんしゃ)を降(お)りたら、南口(みなみぐち)が出口(でぐち)です。",
+   exampleSrc:"A: Where is the exit?\nB: When you get off the train, the South Exit is the exit.",
+   funFact:"Japanese train stations often have multiple exits named by direction: 北口(きたぐち) (North Exit), 南口(みなみぐち) (South Exit), 東口(ひがしぐち) (East Exit), 西口(にしぐち) (West Exit). Knowing 出口 and these compound words is essential for navigating Japanese transit."},
+
+  {type:"tip", title:"入口 and 出口: Compound nouns with 口",
+   text:"口(くち) alone means 'mouth.' As a suffix, it means 'opening' or 'gate.'\n\n入口(いりぐち) = entrance (entering + opening)\n出口(でぐち) = exit (exiting + opening)\n改札口(かいさつぐち) = ticket gate\n窓口(まどぐち) = service counter\n北口(きたぐち) = north exit\n\nSpotting 口 at the end of a compound tells you it is a physical opening or access point.",
+   deepDive:{title:"Reading stations and buildings",
+    text:"In Japan, every 駅(えき) (station) posts 入口 and 出口 signs. Large stations split into multiple named 口. Learning this pattern means you can read exit signs, shop entrances, and office buildings — essential practical reading at N4 level.\n\nThe pair to learn: 入口 (going in) / 出口 (going out). They share 口 and are always displayed together."}},
+
+  {type:"teach", trg:"生活(せいかつ)", src:"life / daily life / lifestyle", pos:"noun", gender:null,
+   phonetic:"seikatsu",
+   note:"生活(せいかつ)する = to live / to lead one's life.\n日常生活(にちじょうせいかつ) = everyday life.",
+   example:"A: 日本(にほん)での生活(せいかつ)はどうですか？\nB: 慣(な)れるまで大変(たいへん)でしたが、今(いま)はとても楽(たの)しいです。",
+   exampleSrc:"A: How is daily life in Japan?\nB: It was tough until I got used to it, but now it is very enjoyable.",
+   funFact:"生活 combines 生 (life/living) and 活 (activity/lively). It is broader than 生命(せいめい) (biological life) and closer to 'how you live day to day.' 学生生活(がくせいせいかつ) = student life; 社会生活(しゃかいせいかつ) = social life. The word captures the texture of everyday living."},
+
+  {type:"teach", trg:"時代(じだい)", src:"era / age / period", pos:"noun", gender:null,
+   phonetic:"jidai",
+   note:"Used for historical periods and personal life stages.\n江戸時代(えどじだい) = Edo period; 学生時代(がくせいじだい) = student days.",
+   example:"A: 江戸時代(えどじだい)の日本(にほん)はどんな生活(せいかつ)でしたか？\nB: とても違(ちが)う時代(じだい)でしたね。電気(でんき)もなかったです。",
+   exampleSrc:"A: What was daily life like in Japan during the Edo period?\nB: It was a very different era, wasn't it. There was no electricity either.",
+   funFact:"時代 combines 時 (time) and 代 (generation/era). Japanese historical eras are named dynastically: 縄文時代(じょうもんじだい), 弥生時代(やよいじだい), 平安時代(へいあんじだい), 江戸時代(えどじだい). The current era name 令和(れいわ) started May 2019 with the new emperor."},
+
+  {type:"teach", trg:"世界(せかい)", src:"world / the world", pos:"noun", gender:null,
+   phonetic:"sekai",
+   note:"世界中(せかいじゅう) = throughout the world / around the world.\n世界記録(せかいきろく) = world record.",
+   example:"A: 世界(せかい)にはたくさんの言語(げんご)がありますね。\nB: はい、七千(ななせん)以上(いじょう)の言語(げんご)があると言(い)われています。",
+   exampleSrc:"A: There are many languages in the world, aren't there.\nB: Yes, it is said that there are over seven thousand languages.",
+   funFact:"世界 combines 世 (world/generation) and 界 (boundary/world). The phrase 世界中(せかいじゅう)で (throughout the world) appears in news and travel writing. 世界遺産(せかいいさん) = World Heritage Site — Japan has 25, the 3rd most in Asia."},
+
+  {type:"mc", q:"今度(こんど) most naturally means in the sentence 今度(こんど)また行(い)きましょう:", opts:["a long time ago","next time / again soon","every day","last time"], ans:"next time / again soon",
+   hint:"今度 pairs 今 (now) with 度 (occurrence/counter). With また it conveys doing something once more in the near future."},
+
+  {type:"fb", s:"駅(えき)の{1}はどこですか？\n(Where is the exit of the station?)", a:"出口(でぐち)", opts:["出口(でぐち)","入口(いりぐち)","場所(ばしょ)","交通(こうつう)"], sSrc:"Where is the exit of the station?",
+   hint:"The compound noun meaning 'exit / way out,' built from 'going out' + 'opening.'"},
+
+  {type:"fb", s:"日本(にほん)での{1}に慣(な)れましたか？\n(Have you gotten used to daily life in Japan?)", a:"生活(せいかつ)", opts:["生活(せいかつ)","時代(じだい)","会話(かいわ)","言語(げんご)"], sSrc:"Have you gotten used to daily life in Japan?",
+   hint:"The noun meaning 'daily life / lifestyle,' often used with する to mean 'to live.'"},
+
+  {type:"mc", q:"世界(せかい)にはたくさんの言語(げんご)がある。 What do both words mean?", opts:["world; language","history; dialect","era; alphabet","culture; grammar"], ans:"world; language",
+   hint:"世界 uses 世 (generation) and 界 (boundary). 言語 uses 言 (words) and 語 (speak). Both appear on the N4 word list."},
+
+  {type:"fb", s:"かばんにほんを{1}てください。\n(Please put the book in the bag.)", a:"入(い)れ", opts:["入(い)れ","出(だ)し","置(お)き","伝(つた)え"], sSrc:"Please put the book in the bag.",
+   hint:"The transitive ichidan verb meaning 'to insert / put in.' The destination is marked with に."},
+
+  {type:"fb", s:"外国語(がいこくご)で会話(かいわ)する{1}がありますか？\n(Have you had a conversation in a foreign language before?)", a:"こと", opts:["こと","もの","ひと","とき"], sSrc:"Have you had a conversation in a foreign language before?",
+   hint:"The nominalizer that turns a verb phrase into 'the experience of...' Combined with がある = have done before."},
+
+  {type:"match", pairs:[{trg:"音(おと)",src:"sound"},{trg:"会話(かいわ)",src:"conversation"},{trg:"言語(げんご)",src:"language"},{trg:"今度(こんど)",src:"next time"}]},
+
+  {type:"match", pairs:[{trg:"入口(いりぐち)",src:"entrance"},{trg:"出口(でぐち)",src:"exit"},{trg:"生活(せいかつ)",src:"daily life"},{trg:"時代(じだい)",src:"era"},{trg:"世界(せかい)",src:"world"}]},
+]}
+
 ]};
 export default UNIT_13;

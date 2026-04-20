@@ -334,6 +334,148 @@ lessons:[
  sSrc:"Do you {1} your previous teacher?"}
 ]}
 
+,
+
+// === L5: Qualities and Practices (HSK 2/3 Expansion) ===
+{id:"zhv2_u14l_hsk2_3_expand", title:"认真学习 Learning Seriously", icon:"📚", xp:15, board:true, steps:[
+{type:"intro", title:"认真学习 Learning Seriously",
+ desc:"Learn 9 high-frequency HSK 2/3 words for describing qualities, comparing things, and expressing feelings. These words appear constantly in everyday Chinese conversation.",
+ goals:["Practice: 练习 (to practice), 安静 (quiet), 比较 (compare/comparatively)","Feelings: 感觉 (feeling/to feel), 认真 (serious/earnest)","Descriptors: 正确 (correct), 合适 (suitable), 有用 (useful), 有趣 (interesting)"]},
+
+{type:"teach", trg:"练习(liànxí)", src:"to practice / practice (noun)", pos:"verb", gender:null,
+ phonetic:"liànxí",
+ note:"练 = practice/train, 习 = study/practice.\nWorks as both verb and noun.\n练习汉语 = practice Chinese. 做练习 = do an exercise.",
+ example:"A: 你(nǐ)怎么(zěnme)学(xué)汉语(Hànyǔ)？\nB: 我(wǒ)每天(měitiān)都(dōu)练习(liànxí)听(tīng)和(hé)说(shuō)。",
+ exampleSrc:"A: How do you learn Chinese?\nB: I practice listening and speaking every day.",
+ funFact:"练习 and 学习 both involve learning, but 学习 means 'to study/learn' broadly while 练习 means 'to practice' a specific skill through repetition. Athletes 练习, students 学习. In Chinese learning contexts, both appear together: 学了就练 (learn then practice)."},
+
+{type:"teach", trg:"安静(ānjìng)", src:"quiet / calm", pos:"adj", gender:null,
+ phonetic:"ānjìng",
+ note:"安 = peaceful/safe, 静 = still/quiet.\n安静 describes a place or person that is quiet and calm.\n请安静！= Please be quiet!",
+ example:"A: 这(zhè)个(gè)地方(dìfang)很(hěn)安静(ānjìng)。\nB: 是(shì)的(de)，我(wǒ)喜欢(xǐhuan)在(zài)这儿(zhèr)学习(xuéxí)。",
+ exampleSrc:"A: This place is very quiet.\nB: Yes, I like to study here.",
+ funFact:"安静 combines two powerful concepts: 安 (safety/peace) and 静 (stillness). Chinese libraries and study halls often have 请保持安静 (please maintain quiet) signs. The character 静 contains the radical for 'blue-green' (青) suggesting the calm of still water."},
+
+{type:"teach", trg:"比较(bǐjiào)", src:"to compare / comparatively / relatively", pos:"adv", gender:null,
+ phonetic:"bǐjiào",
+ note:"比 = compare, 较 = compare/examine.\nUsed as a verb: 比较两个方法 = compare two methods.\nUsed as an adverb before adj: 比较难 = relatively difficult.",
+ example:"A: 这(zhè)两(liǎng)个(gè)方法(fāngfǎ)，你(nǐ)觉得(juéde)哪(nǎ)个(gè)好(hǎo)？\nB: 我(wǒ)觉得(juéde)这(zhè)个(gè)比较(bǐjiào)容易(róngyì)。",
+ exampleSrc:"A: Which of these two methods do you think is better?\nB: I think this one is relatively easier.",
+ funFact:"比较 as an adverb softens statements. 很难 (very difficult) is absolute; 比较难 (comparatively difficult) is more polite and shows nuance. Native speakers use 比较 constantly for diplomatic comparisons. It is considered more refined than the blunt 很."},
+
+{type:"teach", trg:"感觉(gǎnjué)", src:"to feel / feeling / sense", pos:"verb", gender:null,
+ phonetic:"gǎnjué",
+ note:"感 = feel/sense, 觉 = sense/perceive.\nWorks as verb: 我感觉很好 = I feel very good.\nWorks as noun: 这种感觉 = this feeling.",
+ example:"A: 你(nǐ)感觉(gǎnjué)好(hǎo)吗(ma)？\nB: 很(hěn)好(hǎo)，我(wǒ)感觉(gǎnjué)今天(jīntiān)学(xué)了(le)很(hěn)多(duō)。",
+ exampleSrc:"A: Do you feel good?\nB: Very good, I feel like I learned a lot today.",
+ funFact:"感觉 vs 觉得: both mean 'to feel/think' but with different nuances. 感觉 (feel physically or emotionally) points to a sensation or gut feeling. 觉得 (think/feel) points to an opinion or assessment. 我感觉冷 (I feel cold) vs 我觉得这很重要 (I think this is important)."},
+
+{type:"teach", trg:"认真(rènzhēn)", src:"serious / earnest / careful", pos:"adj", gender:null,
+ phonetic:"rènzhēn",
+ note:"认 = recognize, 真 = true/real.\nLiterally: treat as real/true.\n认真学习 = study seriously. 认真工作 = work diligently.",
+ example:"A: 你(nǐ)学习(xuéxí)很(hěn)认真(rènzhēn)。\nB: 谢谢(xièxie)，我(wǒ)觉得(juéde)认真(rènzhēn)很(hěn)重要(zhòngyào)。",
+ exampleSrc:"A: You study very seriously.\nB: Thank you, I think being earnest is very important.",
+ funFact:"认真 is one of the highest compliments in Chinese culture, especially in academic and professional settings. Being told you are 认真 means you are reliable and take things seriously. It is more meaningful than being called 'smart' (聪明) because it signals character, not just ability."},
+
+{type:"tip", title:"Degree Adverbs: 很 vs 比较 vs 特别",
+ text:"Chinese uses degree adverbs to show how much of a quality something has:\n\n很(hěn) = very (neutral default)\n比较(bǐjiào) = comparatively / relatively (polite, softened)\n特别(tèbié) = especially / particularly (strong emphasis)\n\nExamples with 安静:\n这里很安静。 This place is very quiet.\n这里比较安静。 This place is relatively quiet.\n这里特别安静。 This place is especially quiet.\n\nUsing 比较 shows linguistic sophistication and politeness. It avoids absolute statements and leaves room for comparison.",
+ deepDive:{title:"Why Native Speakers Prefer 比较",
+  text:"Blunt statements using 很 can sound overly direct or childlike in formal contexts. Adding 比较 before an adjective shows the speaker is aware of degrees and making a considered comparison.\n\n比较难 = harder than expected or harder than something else, but manageable.\n很难 = just hard.\n\nIn written Chinese and formal speech, 比较 also introduces comparisons: 我们来比较一下 (let us compare for a moment). Mastering 比较 as both an adverb and a verb is a B1 milestone."}},
+
+{type:"teach", trg:"正确(zhèngquè)", src:"correct / accurate", pos:"adj", gender:null,
+ phonetic:"zhèngquè",
+ note:"正 = upright/correct, 确 = certain/confirmed.\n正确的答案 = the correct answer.\n你说得正确 = you are correct (said correctly).",
+ example:"A: 这(zhè)个(gè)答案(dá'àn)正确(zhèngquè)吗(ma)？\nB: 对(duì)，你(nǐ)回答(huídá)得(de)很(hěn)正确(zhèngquè)。",
+ exampleSrc:"A: Is this answer correct?\nB: Yes, you answered correctly.",
+ funFact:"正 appears in many correctness-related words: 正确 (correct), 正式 (formal/official), 正在 (right now). The character 正 shows an arrow hitting a target exactly — hitting the mark is the visual origin of 'correct.' In Chinese school culture, getting 正确答案 (the correct answer) is a serious achievement."},
+
+{type:"teach", trg:"合适(héshì)", src:"suitable / appropriate / fitting", pos:"adj", gender:null,
+ phonetic:"héshì",
+ note:"合 = fit together, 适 = suitable/proper.\n这件衣服合适吗？= Does this clothing fit / is it appropriate?\nUsed for clothes, choices, jobs, timing.",
+ example:"A: 这(zhè)个(gè)时间(shíjiān)合适(héshì)吗(ma)？\nB: 合适(héshì)，我(wǒ)有(yǒu)时间(shíjiān)。",
+ exampleSrc:"A: Is this time suitable?\nB: Yes, I have time.",
+ funFact:"合适 covers both physical fit (clothes) and situational appropriateness (timing, choices). English needs two words ('fits' vs 'appropriate'), but Chinese uses 合适 for both. This makes 合适 very efficient for daily negotiation: 这样合适吗？ (Is this arrangement OK?)"},
+
+{type:"teach", trg:"有用(yǒuyòng)", src:"useful / helpful", pos:"adj", gender:null,
+ phonetic:"yǒuyòng",
+ note:"有 = have, 用 = use.\nLiterally: has use. Opposite: 没用(méiyòng) = useless.\n这个方法很有用 = this method is very useful.",
+ example:"A: 这(zhè)本(běn)书(shū)有用(yǒuyòng)吗(ma)？\nB: 非常(fēicháng)有用(yǒuyòng)，我(wǒ)学(xué)了(le)很(hěn)多(duō)。",
+ exampleSrc:"A: Is this book useful?\nB: Very useful, I learned a lot.",
+ funFact:"有用 and 没用 are everyday words with an interesting cultural dimension. Calling something 没用 (useless) or a person 没用 (no good, incompetent) is a strong insult. The mirror compliment 有用 is often used to encourage learners: 你学的东西很有用 (what you are learning is very useful)."},
+
+{type:"teach", trg:"有趣(yǒuqù)", src:"interesting / fun / entertaining", pos:"adj", gender:null,
+ phonetic:"yǒuqù",
+ note:"有 = have, 趣 = interest/fun.\nLiterally: has interest. Describes things, topics, experiences.\n这个故事很有趣 = this story is very interesting.",
+ example:"A: 你(nǐ)觉得(juéde)学(xué)汉语(Hànyǔ)有趣(yǒuqù)吗(ma)？\nB: 很(hěn)有趣(yǒuqù)！汉语(Hànyǔ)有(yǒu)很(hěn)多(duō)有趣(yǒuqù)的(de)问题(wèntí)。",
+ exampleSrc:"A: Do you find learning Chinese interesting?\nB: Very interesting! Chinese has many interesting questions to explore.",
+ funFact:"有趣 is specifically about intellectual or narrative interest. For physical fun/play, Chinese uses 好玩 (hǎowán, fun to do). A book is 有趣; a game is 好玩. A conversation can be both. Confusingly, English 'interesting' covers both but Chinese draws a clearer line."},
+
+{type:"match", pairs:[
+  {trg:"练习(liànxí)", src:"to practice"},
+  {trg:"安静(ānjìng)", src:"quiet / calm"},
+  {trg:"比较(bǐjiào)", src:"comparatively / to compare"},
+  {trg:"感觉(gǎnjué)", src:"to feel / feeling"},
+  {trg:"认真(rènzhēn)", src:"serious / earnest"}
+]},
+
+{type:"mc", q:"我(wǒ)感觉(gǎnjué)今天(jīntiān)的(de)汉语课(Hànyǔkè)很(hěn)有趣(yǒuqù)。 What does 感觉 express here?",
+ opts:["A formal opinion about the class","A physical sensation in the body","A feeling or personal impression","A comparison with other classes"],
+ ans:"A feeling or personal impression",
+ hint:"感觉 means 'to ___' — a subjective inner state, not a formal judgment about quality."},
+
+{type:"fb", s:"请(qǐng)大家(dàjiā){1}，我们(wǒmen)要(yào)开始(kāishǐ)了(le)。",
+ a:["安静(ānjìng)"],
+ opts:["安静(ānjìng)","认真(rènzhēn)","有趣(yǒuqù)","正确(zhèngquè)"],
+ hint:"The speaker asks everyone to be ___. The setting is about to begin. Which adjective means 'quiet'?",
+ sSrc:"Please everyone be {1}, we are about to start."},
+
+{type:"mc", q:"这(zhè)本(běn)书(shū)比较(bǐjiào)难(nán)。 How difficult is the book?",
+ opts:["Extremely difficult","Relatively difficult","Not difficult at all","The most difficult"],
+ ans:"Relatively difficult",
+ hint:"比较 before an adjective acts as a degree adverb. It softens and contextualizes the intensity."},
+
+{type:"fb", s:"你(nǐ)回答(huídá)得(de)很(hěn){1}。",
+ a:["正确(zhèngquè)"],
+ opts:["正确(zhèngquè)","合适(héshì)","有用(yǒuyòng)","安静(ānjìng)"],
+ hint:"The speaker praises someone's answer as being ___. Which adjective means 'correct'?",
+ sSrc:"You answered very {1}."},
+
+{type:"mc", q:"这(zhè)件(jiàn)衣服(yīfu)合适(héshì)吗(ma)？ What is being asked?",
+ opts:["Is this clothing expensive?","Is this clothing correct?","Is this clothing the right size and style?","Is this clothing useful?"],
+ ans:"Is this clothing the right size and style?",
+ hint:"合适 asks whether something is well-matched or appropriate. Look at the MC options: 贵 = expensive, 有用 = useful. What does 合适 specifically ask?"},
+
+{type:"fb", s:"我(wǒ)每天(měitiān)都(dōu){1}写(xiě)汉字(hànzì)。",
+ a:["练习(liànxí)"],
+ opts:["练习(liànxí)","感觉(gǎnjué)","比较(bǐjiào)","认真(rènzhēn)"],
+ hint:"The speaker does this activity with Chinese characters daily. Which verb means 'to practice'?",
+ sSrc:"I {1} writing Chinese characters every day."},
+
+{type:"mc", q:"这(zhè)本(běn)词典(cídiǎn)非常(fēicháng)有用(yǒuyòng)。 What does 有用 mean?",
+ opts:["very interesting","very expensive","very useful","very suitable"],
+ ans:"very useful",
+ hint:"有 = have, 用 = use. Together they form an adjective: 'having use.'"},
+
+{type:"fb", s:"学(xué)汉语(Hànyǔ)很(hěn){1}，我(wǒ)喜欢(xǐhuan)学(xué)。",
+ a:["有趣(yǒuqù)"],
+ opts:["有趣(yǒuqù)","有用(yǒuyòng)","正确(zhèngquè)","合适(héshì)"],
+ hint:"The speaker says learning Chinese is ___ and they enjoy it. Which adjective means 'interesting/fun'?",
+ sSrc:"Learning Chinese is very {1}, I enjoy studying it."},
+
+{type:"mc", q:"她(tā)学习(xuéxí)很(hěn)认真(rènzhēn)。 What compliment is being given?",
+ opts:["She is very fast at studying","She studies very seriously and earnestly","She finds studying very interesting","She studies comparatively well"],
+ ans:"She studies very seriously and earnestly",
+ hint:"认真 means taking something ___. It is a character compliment, not about speed or results."},
+
+{type:"match", pairs:[
+  {trg:"正确(zhèngquè)", src:"correct / accurate"},
+  {trg:"合适(héshì)", src:"suitable / appropriate"},
+  {trg:"有用(yǒuyòng)", src:"useful"},
+  {trg:"有趣(yǒuqù)", src:"interesting / fun"},
+  {trg:"认真(rènzhēn)", src:"serious / earnest"}
+]}
+]}
+
 ]};
 
 export default UNIT_14;
