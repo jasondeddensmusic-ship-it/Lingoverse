@@ -271,5 +271,104 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 ]}
 ,{type:"match",pairs:[{trg:"студент",src:"student (male)"},{trg:"студентка",src:"student (female)"},{trg:"офис",src:"office"},{trg:"зарабатывать",src:"to earn"},{trg:"редко",src:"rarely"},{trg:"устал",src:"tired (m past)"}]},{type:"match",pairs:[{trg:"свободен",src:"free / available (m)"},{trg:"опоздать",src:"to be late (perfective)"}]}]}
 
+,
+
+{id:"ruv2_u10l4", title:"Мысли и чувства", icon:"🧠", xp:15, board:true, steps:[
+
+{type:"intro", title:"Thoughts and Feelings at Work",
+ desc:"Russian mental-state verbs describe how you think, believe, remember, and feel at work and in daily life. These high-frequency imperfective verbs are core A2 vocabulary.",
+ goals:["Use думать, верить, помнить","Express needs with нуждаться в","Use предпочитать, забывать, беспокоиться"]},
+
+{type:"teach", trg:"думать", src:"to think (imperfective)", pos:"verb", gender:null,
+ note:"Imperfective. Pair: подумать (perfective).\nЯ думаю = I think.",
+ example:"A: Ты думаешь, это хорошая работа?\nB: Да, я так думаю.",
+ exampleSrc:"A: Do you think it's a good job?\nB: Yes, I think so.",
+ funFact:"Думать conjugates like a standard -ать verb: думаю, думаешь, думает. The phrase 'я думаю' doubles as 'I think' (opinion) and 'I am thinking' (ongoing) — Russian makes no tense distinction here."},
+
+{type:"teach", trg:"верить", src:"to believe (imperfective)", pos:"verb", gender:null,
+ note:"Imperfective. Takes dative: верить кому (believe someone).\nВерить в + accusative = believe in.",
+ example:"A: Ты веришь ему?\nB: Да, верю.",
+ exampleSrc:"A: Do you believe him?\nB: Yes, I believe (him).",
+ funFact:"Верить, вера (faith), верный (loyal/true) all share the root вер-. The same root gives church-related words like исповедь (confession). Latin cognate: verum (truth)."},
+
+{type:"teach", trg:"нуждаться в", src:"to need / to be in need of", pos:"verb", gender:null,
+ note:"Imperfective reflexive. Takes в + prepositional.\nЯ нуждаюсь в + noun.",
+ example:"A: Ты нуждаешься в чём-то?\nB: Нет, всё хорошо.",
+ exampleSrc:"A: Do you need anything?\nB: No, everything's fine.",
+ funFact:"Нуждаться is more formal than просто нужно (it is needed). Used in official contexts: нуждаться в поддержке (need support), нуждаться в отдыхе (need rest). The root нужда means 'need/poverty.'"},
+
+{type:"teach", trg:"помнить", src:"to remember (imperfective)", pos:"verb", gender:null,
+ note:"Imperfective. No perfective pair needed for A2.\nПомню, помнишь, помнит.",
+ example:"A: Ты помнишь этот день?\nB: Да, хорошо помню.",
+ exampleSrc:"A: Do you remember that day?\nB: Yes, I remember it well.",
+ funFact:"Помнить pairs with забывать (to forget). Russian memory verbs: помнить (ongoing state), вспомнить (perfective: suddenly remember), забыть (perfective: forget completely)."},
+
+{type:"teach", trg:"предпочитать", src:"to prefer (imperfective)", pos:"verb", gender:null,
+ note:"Imperfective. Takes accusative or infinitive.\nЯ предпочитаю + noun or verb.",
+ example:"A: Ты предпочитаешь офис или дом?\nB: Я предпочитаю офис.",
+ exampleSrc:"A: Do you prefer the office or home?\nB: I prefer the office.",
+ funFact:"From Latin praeferō via French préférer — a European loan. Russian also uses любить больше (to like more) for informal preference. Предпочитать is the formal choice on job applications and surveys."},
+
+{type:"teach", trg:"забывать", src:"to forget (imperfective)", pos:"verb", gender:null,
+ note:"Imperfective. Pair: забыть (perfective, completed forgetting).\nЯ забываю = I keep forgetting.",
+ example:"A: Ты забываешь про обед?\nB: Да, часто забываю.",
+ exampleSrc:"A: Do you forget about lunch?\nB: Yes, I often forget.",
+ funFact:"Забывать / забыть is one of the most useful aspect pairs. Imperfective: repeated forgetting (habit). Perfective: I forgot it (done). 'Не забудь!' (Don't forget! — perfective imperative) is heard constantly."},
+
+{type:"teach", trg:"беспокоиться", src:"to worry (imperfective reflexive)", pos:"verb", gender:null,
+ note:"Imperfective reflexive (-ся). Takes о + prepositional.\nЯ беспокоюсь о работе = I worry about work.",
+ example:"A: Ты беспокоишься о встрече?\nB: Немного беспокоюсь.",
+ exampleSrc:"A: Are you worried about the meeting?\nB: I'm a little worried.",
+ funFact:"Беспокоить (to disturb someone) and беспокоиться (to worry oneself) share the root покой (peace, rest). The prefix без- (without) + покой = без-покойства = unrest. English cognate: Russian бесOKOй → 'no peace.'"},
+
+{type:"tip", title:"Imperfective Mental Verbs",
+ text:"Mental-state verbs are ALMOST ALWAYS imperfective in Russian:\n\nREASON: Mental states are continuous, not single completed actions.\n'I think' = ongoing. 'I believe' = ongoing state.\n\nTHESE VERBS ARE USUALLY IMPERFECTIVE:\nдумать (think) | верить (believe)\nпомнить (remember) | забывать (forget)\nпредпочитать (prefer) | беспокоиться (worry)\n\nEXCEPTION: perfective shifts meaning to a single moment:\nПодумать = think about it (once)\nЗабыть = forget (completed, done)\nПоверить = come to believe (sudden shift)\n\nFor daily practice: use the imperfective forms above.",
+ icon:"🧠"},
+
+{type:"fb", s:"A: Любишь {1} о работе дома?\nB: Нет, не хочу.",
+ a:["думать"],
+ opts:["думать","верить","помнить","предпочитать"],
+ hint:"Infinitive 'to think' — used after любить (to like + infinitive).",
+ sSrc:"A: Do you like to think about work at home?\nB: No, I don't want to."},
+
+{type:"mc", q:"Which verb means 'to believe' in Russian?",
+ opts:["думать","верить","помнить","забывать"],
+ ans:"верить",
+ hint:"This verb takes dative case: верить кому."},
+
+{type:"mc", q:"'Нуждаться в' takes which case after 'в'?",
+ opts:["Accusative","Dative","Prepositional","Genitive"],
+ ans:"Prepositional",
+ hint:"Location and state preposition 'в' at rest uses this case."},
+
+{type:"fb", s:"A: Ты {1} завтрашний рабочий день?\nB: Да, беспокоюсь.",
+ a:["беспокоишься"],
+ opts:["беспокоишься","думаешь","помнишь","веришь"],
+ hint:"The conjugated 2nd-person form of 'to worry' — ends in -ишься.",
+ sSrc:"A: Are you worried about tomorrow's workday?\nB: Yes, I'm worried."},
+
+{type:"fb", s:"A: Ты часто {1} ключи?\nB: К сожалению, да.",
+ a:["забываешь"],
+ opts:["забываешь","думаешь","веришь","помнишь"],
+ hint:"2nd-person singular of 'to forget (imperfective)' — conjugated like a standard -ать verb.",
+ sSrc:"A: Do you often forget your keys?\nB: Unfortunately, yes."},
+
+{type:"fb", s:"A: Я {1} в твоей помощи, коллега.\nB: Конечно, помогу!",
+ a:["нуждаюсь"],
+ opts:["нуждаюсь","беспокоюсь","верю","предпочитаю"],
+ hint:"1st-person singular of 'нуждаться в' — I am in need of. Ends in -юсь (reflexive).",
+ sSrc:"A: I need your help, colleague.\nB: Of course, I'll help!"},
+
+{type:"match", pairs:[
+  {trg:"думать", src:"to think"},
+  {trg:"верить", src:"to believe"},
+  {trg:"нуждаться в", src:"to need"},
+  {trg:"помнить", src:"to remember"},
+  {trg:"предпочитать", src:"to prefer"},
+  {trg:"забывать", src:"to forget"},
+  {trg:"беспокоиться", src:"to worry"}
+]}
+]}
+
 ]};
 export default UNIT_10;

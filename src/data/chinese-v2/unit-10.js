@@ -523,6 +523,108 @@ lessons:[
   {trg:"下次见(xià cì jiàn)", src:"see you next time"},
   {trg:"回信(huí xìn)", src:"to reply / write back"}
 ]}
+]},
+
+// ─── L7: Mental Verbs ───
+{id:"zhv2_u10l7", title:"思维动词 Mental Verbs", icon:"🧠", xp:15, board:true, steps:[
+{type:"intro", title:"Mental Verbs",
+ desc:"Learn the core verbs for expressing what you need, think, believe, hope, decide, feel, and remember. These are essential for work and study conversations.",
+ goals:["Learn 7 key mental verbs","Use them in sentences about work and school","Practice producing target-language answers in fill-in exercises"]},
+
+{type:"teach", trg:"需要(xūyào)", src:"to need", pos:"verb", gender:null,
+ note:"Expresses necessity or a requirement.\n需 = to need; 要 = to want / require. Together: to have a need for.",
+ example:"A: 你(nǐ)工作(gōngzuò)需要(xūyào)什么(shénme)？\nB: 我(wǒ)需要(xūyào)一(yī)台(tái)电脑(diànnǎo)。",
+ exampleSrc:"A: What do you need for work?\nB: I need a computer.",
+ funFact:"需要 is often the more formal or objective 'need,' while 要 alone sounds like 'want.' In job applications and official forms, 需要 is always preferred over 要."},
+
+{type:"teach", trg:"相信(xiāngxìn)", src:"to believe / to trust", pos:"verb", gender:null,
+ note:"Means to have faith in a person or statement.\n相 = mutual; 信 = trust / letter. To 'mutually trust' someone.",
+ example:"A: 你(nǐ)相信(xiāngxìn)他(tā)吗(ma)？\nB: 我(wǒ)相信(xiāngxìn)他(tā)，他(tā)是(shì)好(hǎo)老师(lǎoshī)。",
+ exampleSrc:"A: Do you believe him?\nB: I believe him. He is a good teacher.",
+ funFact:"The character 信 (trust) also means 'letter.' In ancient China, a letter was a personal message carried by a trusted messenger. Trust and written words were inseparable."},
+
+{type:"teach", trg:"希望(xīwàng)", src:"to hope / hope", pos:"verb", gender:null,
+ note:"Functions as both a verb ('I hope that...') and a noun ('a hope / wish').\nFollowed by a clause: 希望你好 = I hope you are well.",
+ example:"A: 你(nǐ)希望(xīwàng)学(xué)什么(shénme)？\nB: 我(wǒ)希望(xīwàng)学(xué)汉语(Hànyǔ)。",
+ exampleSrc:"A: What do you hope to study?\nB: I hope to study Chinese.",
+ funFact:"希 literally means 'rare / to hope for something scarce.' 望 means 'to gaze into the distance.' Together they paint hope as looking far ahead for something precious. Poetic and practical at once."},
+
+{type:"teach", trg:"决定(juédìng)", src:"to decide / decision", pos:"verb", gender:null,
+ note:"Both a verb ('to decide') and a noun ('a decision').\n决 = to resolve; 定 = fixed / settled.",
+ example:"A: 你(nǐ)决定(juédìng)了(le)吗(ma)？\nB: 我(wǒ)决定(juédìng)去(qù)学(xué)汉语(Hànyǔ)。",
+ exampleSrc:"A: Have you decided?\nB: I have decided to go study Chinese.",
+ funFact:"决 contains the water radical 氵, evoking a river breaking through a dam. Once decided, the flow cannot be stopped. The character visually captures the moment of commitment."},
+
+{type:"teach", trg:"觉得(juéde)", src:"to feel / to think (opinion)", pos:"verb", gender:null,
+ note:"Expresses a personal feeling or subjective opinion.\nDo NOT use for factual knowledge — use 知道(zhīdào) for that.",
+ example:"A: 你(nǐ)觉得(juéde)这(zhè)门(mén)课(kè)怎么样(zěnmeyàng)？\nB: 我(wǒ)觉得(juéde)很(hěn)好(hǎo)，老师(lǎoshī)教(jiāo)得(de)好(hǎo)。",
+ exampleSrc:"A: How do you feel about this class?\nB: I think it is very good. The teacher teaches well.",
+ funFact:"觉 shares its root with 睡觉(shuìjiào), 'to sleep.' Both involve a state of consciousness. 觉得 is the waking, conscious sense of something, while 睡觉 is surrendering that awareness."},
+
+{type:"teach", trg:"以为(yǐwéi)", src:"to think mistakenly / to assume", pos:"verb", gender:null,
+ note:"Used when someone THOUGHT something that turned out to be wrong.\nNever use 以为 for correct beliefs. Use 认为(rènwéi) for reasoned opinion.",
+ example:"A: 你(nǐ)以为(yǐwéi)考试(kǎoshì)今天(jīntiān)吗(ma)？\nB: 对(duì)，我(wǒ)以为(yǐwéi)是(shì)今天(jīntiān)，但是(dànshì)是(shì)明天(míngtiān)。",
+ exampleSrc:"A: Did you think the exam was today?\nB: Yes, I assumed it was today, but it is tomorrow.",
+ funFact:"以为 is the classic 'oops' verb of Chinese. Native speakers say 我以为... whenever something surprises them. It carries a light self-deprecating tone, making it very natural in informal speech."},
+
+{type:"teach", trg:"记得(jìde)", src:"to remember", pos:"verb", gender:null,
+ note:"To recall something from memory. Opposite: 忘(wàng) 'to forget.'\n记 = to record / remember; 得 = to obtain / achieve.",
+ example:"A: 你(nǐ)记得(jìde)老师(lǎoshī)叫(jiào)什么(shénme)名字(míngzi)吗(ma)？\nB: 记得(jìde)！他(tā)叫(jiào)王(Wáng)先生(xiānsheng)。",
+ exampleSrc:"A: Do you remember the teacher's name?\nB: Yes! His name is Mr. Wang.",
+ funFact:"记 contains the word radical 言 (speech/words) and 己 (oneself). To remember something is literally to 'speak words to yourself.' Memorization was historically tied to recitation in Chinese education."},
+
+{type:"tip", title:"Mental Verbs: Which One to Use?",
+ text:"Four verbs cover 'thinking' in Chinese, each with a different angle:\n\n觉得(juéde): personal feeling or opinion. 'I feel that...'\n以为(yǐwéi): a mistaken assumption. 'I thought (wrongly) that...'\n相信(xiāngxìn): trust and belief in a person or statement.\n决定(juédìng): a commitment. 'I have decided.'\n\nThe key contrast: 觉得 is fluid and ongoing. 决定 is final and committed. 以为 always implies being proven wrong.",
+ deepDive:{title:"以为 vs 觉得 vs 认为",
+  text:"These three overlap but differ in register and implication.\n\n以为 (yǐwéi): subjective assumption, often wrong. Used in everyday speech.\n觉得 (juéde): gut feeling or casual opinion. Very common in conversation.\n认为 (rènwéi): considered, reasoned opinion. Formal. Used in writing and debate.\n\nExample set:\n我以为今天有课。I assumed there was class today. (probably wrong)\n我觉得这很难。I feel this is difficult. (personal impression)\n我认为这个方法更好。I consider this method better. (argued position)"}},
+
+{type:"mc", q:"Which verb describes having an incorrect assumption?",
+ opts:["希望(xīwàng)","以为(yǐwéi)","相信(xiāngxìn)","决定(juédìng)"],
+ ans:"以为(yǐwéi)",
+ hint:"Think about the verb that native speakers use right after discovering they were wrong about something."},
+
+{type:"mc", q:"我(wǒ)觉得(juéde)这(zhè)门(mén)课(kè)很(hěn)难(nán)。 What is being expressed?",
+ opts:["A factual statement that the class is difficult","A personal opinion that the class feels difficult","A decision to drop the class","A belief that the teacher is wrong"],
+ ans:"A personal opinion that the class feels difficult",
+ hint:"觉得 is the key word. It signals the speaker's own subjective sense, not an objective fact."},
+
+{type:"fb", s:"我(wǒ){1}买(mǎi)一(yī)本(běn)新(xīn)书(shū)。",
+ a:["需要(xūyào)"],
+ opts:["需要(xūyào)","以为(yǐwéi)","记得(jìde)","决定(juédìng)"],
+ hint:"Which mental verb expresses that something is required or necessary? The speaker lacks an item and must obtain it.",
+ sSrc:"I {1} to buy a new book."},
+
+{type:"fb", s:"你(nǐ){1}今天(jīntiān)有(yǒu)考试(kǎoshì)吗(ma)？",
+ a:["记得(jìde)"],
+ opts:["记得(jìde)","希望(xīwàng)","决定(juédìng)","相信(xiāngxìn)"],
+ hint:"Which verb asks whether something is held in memory? The question checks whether a fact has been retained.",
+ sSrc:"Do you {1} that there is an exam today?"},
+
+{type:"mc", q:"希望(xīwàng) is best described as:",
+ opts:["A certainty about the future","A forward-looking wish for what you do not yet have","A mistaken belief","A firm commitment"],
+ ans:"A forward-looking wish for what you do not yet have",
+ hint:"希望 is neither a decision nor a guarantee. It expresses wanting what lies ahead without controlling whether it happens."},
+
+{type:"fb", s:"他(tā)已经(yǐjīng){1}去(qù)北京(Běijīng)工作(gōngzuò)了(le)。",
+ a:["决定(juédìng)"],
+ opts:["决定(juédìng)","以为(yǐwéi)","需要(xūyào)","希望(xīwàng)"],
+ hint:"Which verb signals that a final choice has been made and acted on? The particle 了 confirms completion.",
+ sSrc:"He has already {1} to go to Beijing to work."},
+
+{type:"mc", q:"我(wǒ)以为(yǐwéi)今天(jīntiān)没有(méiyǒu)课(kè)，但是(dànshì)有(yǒu)课(kè)。 What does this tell us?",
+ opts:["The speaker knew about the class in advance","The speaker assumed there was no class but was wrong","The speaker decided not to attend class","The speaker hopes there is no class"],
+ ans:"The speaker assumed there was no class but was wrong",
+ hint:"以为 always carries the meaning that the assumption turned out to be incorrect. The second clause confirms the surprise."},
+
+{type:"match", pairs:[
+  {trg:"需要(xūyào)", src:"to need"},
+  {trg:"相信(xiāngxìn)", src:"to believe / to trust"},
+  {trg:"希望(xīwàng)", src:"to hope"},
+  {trg:"决定(juédìng)", src:"to decide"},
+  {trg:"觉得(juéde)", src:"to feel / to think (opinion)"},
+  {trg:"以为(yǐwéi)", src:"to think mistakenly"},
+  {trg:"记得(jìde)", src:"to remember"}
+]}
 ]}
 
 ]};

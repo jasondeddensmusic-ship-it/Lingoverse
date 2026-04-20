@@ -362,6 +362,80 @@ const UNIT_10 =
   {type:"drag_fill",s:"카페에서 {1}를 연결하고 {2}로 {3}을 보내요. 그리고 네이버에서 맛집을 {4}해요.",blanks:{"1":"와이파이","2":"이메일","3":"사진","4":"검색"},pool:["와이파이","이메일","사진","검색","메시지","앱","비밀번호","충전기"],hint:"At the cafe I connect wifi and send photos by email. Then I search for restaurants on Naver."},
 {type:"match",pairs:[{trg:"일하다",src:"to work"},{trg:"자다 → 잤어요",src:"to sleep → slept"},{trg:"욕실",src:"bathroom (bathing)"},{trg:"신발을 벗다",src:"to take off shoes"},{trg:"온돌",src:"underfloor heating"},{trg:"의자",src:"chair"}]},{type:"match",pairs:[{trg:"침대",src:"bed"},{trg:"이에요/예요 → 이야/야",src:"am/is → am/is (casual)"},{trg:"후라이드",src:"fried (plain) chicken"},{trg:"벌써",src:"already (time flew)"},{trg:"이미",src:"already (completed)"},{trg:"천둥",src:"thunder"},{trg:"치킨",src:"Korean fried chicken"},{trg:"양념치킨",src:"seasoned fried chicken"},{trg:"들어가다 → 들어가요",src:"to enter / to go in"},{trg:"꽃",src:"flower"},{trg:"사진",src:"photo"}]}]},
 
+// ═══ L11: 생각과 마음 — Thinking & Mental State Verbs ═══
+{id:"kou10l11",title:"생각과 마음",icon:"🧠",xp:20,board:true,steps:[
+  {type:"intro",title:"Thinking & Mental State Verbs",desc:"Seven core verbs for expressing thoughts, feelings, and knowledge in Korean. Essential for TOPIK I.",goals:["Learn 7 A2 mental-state and cognitive verbs","Conjugate 알다 and 모르다 with ㄹ-irregular","Use 좋아하다, 생각하다, and 잊다 in natural sentences","Express arrival, departure, and knowing in daily conversation"]},
+
+  {type:"teach",trg:"생각하다",src:"to think",pos:"verb",gender:null,
+   note:"생각 (thought) + 하다 (do).\n생각해요 (polite present). 생각했어요 (past).",
+   example:"A: 이 식당 어때요?\nB: 정말 좋다고 생각해요.\nA: 저도 그렇게 생각해요!\nB: 다음에 또 와요.",
+   exampleSrc:"A: What do you think of this restaurant?\nB: I think it's really good.\nA: I think so too!\nB: Let's come again next time.",
+   funFact:"생각 (思考) is Sino-Korean. 하다 turns nouns into verbs in Korean. This pattern (noun + 하다) is one of the most productive in the language."},
+
+  {type:"teach",trg:"좋아하다",src:"to like",pos:"verb",gender:null,
+   note:"좋아 (liking state) + 하다 (do/feel).\n좋아해요 (polite present). 좋아했어요 (past).\n좋다 = to be good. 좋아하다 = to actively like.",
+   example:"A: 한국 음식 좋아해요?\nB: 네, 특히 김치찌개를 좋아해요.\nA: 저는 비빔밥을 좋아해요.\nB: 둘 다 맛있어요!",
+   exampleSrc:"A: Do you like Korean food?\nB: Yes, I especially like kimchi stew.\nA: I like bibimbap.\nB: Both are delicious!",
+   funFact:"좋아하다 vs 좋다: 음식이 좋아요 (the food is good) vs 음식을 좋아해요 (I like the food). The second form uses the object particle 을/를 and expresses active preference."},
+
+  {type:"mc",q:"생각하다 means:",opts:["to know","to think","to forget","to like"],ans:"to think",hint:"생각 = thought. 생각하다 = to do a thought."},
+
+  {type:"teach",trg:"알다",src:"to know",pos:"verb",gender:null,
+   note:"알다 is an irregular ㄹ verb.\n알아요 (polite present). 알았어요 (past).\nWith -ㅂ니다: 압니다 (the ㄹ drops before ㅂ).",
+   example:"A: 이 단어 알아요?\nB: 아니요, 몰라요.\nA: '이메일'이에요. 이메일을 알아요?\nB: 아, 알아요! 영어 단어예요.",
+   exampleSrc:"A: Do you know this word?\nB: No, I don't know.\nA: It's 'email'. Do you know email?\nB: Oh, I know! It's an English word.",
+   funFact:"알다 drops ㄹ before ㅂ, ㄴ, and ㅅ endings. This ㄹ-irregular pattern applies to 알다, 모르다, and dozens of other common verbs."},
+
+  {type:"teach",trg:"모르다",src:"to not know",pos:"verb",gender:null,
+   note:"Irregular ㄹ verb with vowel change.\n모르다 → 몰라요 (polite present).\n몰랐어요 (past). The ㄹ doubles before 아/어.",
+   example:"A: 이 버스 어디 가요?\nB: 저는 몰라요. 저도 처음이에요.\nA: 괜찮아요. 같이 확인해요.\nB: 네, 앱으로 찾아봐요.",
+   exampleSrc:"A: Where does this bus go?\nB: I don't know. It's my first time too.\nA: That's okay. Let's check together.\nB: Yes, let's look it up with the app.",
+   funFact:"모르다 is the negative counterpart to 알다. They are not just antonyms but have different irregular patterns: 알다 → 알아요, 모르다 → 몰라요. The ㄹ doubles in 모르다."},
+
+  {type:"mc",q:"알다 → polite present form:",opts:["알어요","알해요","알아요","알었어요"],ans:"알아요",hint:"Vowel stem ending in ㄹ: drop ㄹ and add 아요? No — keep it. 알 + 아요 = 알아요."},
+
+  {type:"mc",q:"모르다 → polite present form:",opts:["모르어요","모르해요","모르아요","몰라요"],ans:"몰라요",hint:"모르다 is irregular. ㄹ doubles: 몰 + 라요 = 몰라요."},
+
+  {type:"teach",trg:"잊다",src:"to forget",pos:"verb",gender:null,
+   note:"잊다 is a regular verb.\n잊어요 (polite present). 잊었어요 (past).\nOften pairs with -어버리다 for emphasis: 잊어버렸어요 (I completely forgot).",
+   example:"A: 숙제 했어요?\nB: 아, 잊었어요! 정말 미안해요.\nA: 괜찮아요. 내일 가져오세요.\nB: 네, 꼭 할게요.",
+   exampleSrc:"A: Did you do the homework?\nB: Oh, I forgot! I'm really sorry.\nA: It's okay. Bring it tomorrow.\nB: Yes, I'll definitely do it.",
+   funFact:"Koreans often strengthen 잊다 with -어버리다: 잊어버렸어요. The 버리다 suffix means the action is complete and irreversible. It adds emotional weight, like 'I totally forgot and now it's done.'"},
+
+  {type:"teach",trg:"도착하다",src:"to arrive",pos:"verb",gender:null,
+   note:"도착 (arrival/到着) + 하다.\n도착해요 (polite present). 도착했어요 (past).\nUse particle 에 for location: 학교에 도착했어요.",
+   example:"A: 지금 어디예요?\nB: 거의 도착했어요!\nA: 잘 됐어요. 저도 지금 왔어요.\nB: 5분 후에 도착해요.",
+   exampleSrc:"A: Where are you right now?\nB: I've almost arrived!\nA: Great. I just got here too.\nB: I'll arrive in 5 minutes.",
+   funFact:"到着 (도착) comes from Chinese: 到 (arrive/reach) + 着 (land/settle). The same hanja 到 appears in 到達 (도달, to reach a goal). Korean uses this Sino-Korean compound far more than any pure Korean word for 'arrive.'"},
+
+  {type:"teach",trg:"출발하다",src:"to depart / to leave",pos:"verb",gender:null,
+   note:"출발 (departure/出發) + 하다.\n출발해요 (polite present). 출발했어요 (past).\nOpposite: 도착하다 (arrive).",
+   example:"A: 몇 시에 출발해요?\nB: 9시에 출발해요.\nA: 어디에서 만나요?\nB: 지하철역 앞에서 만나요.",
+   exampleSrc:"A: What time do you depart?\nB: We leave at 9.\nA: Where do we meet?\nB: Let's meet in front of the subway station.",
+   funFact:"출발 (出發): 出 = exit + 發 = emit/send off. The same 出 appears in 출근 (go to work) and 출구 (exit). Korean learners can decode many new Sino-Korean words once they recognize these hanja patterns."},
+
+  {type:"mc",q:"도착하다 means:",opts:["to depart","to enter","to arrive","to leave work"],ans:"to arrive",hint:"도착: 到 = arrive, 着 = land. Reaching a destination."},
+
+  {type:"mc",q:"출발하다 is the opposite of:",opts:["알다","잊다","도착하다","생각하다"],ans:"도착하다",hint:"One means to set off from a place. The other means to reach a place."},
+
+  {type:"fb",s:"지금 어디예요? 거의 ___해요.\n(Where are you now? I've almost arrived.)",a:"도착",opts:["도착","출발","생각","잊"],hint:"The verb for reaching your destination. 도착 + 했어요/해요."},
+
+  {type:"fb",s:"몇 시에 ___해요? 9시에 ___해요.\n(What time do you leave? I leave at 9.)",a:"출발",opts:["출발","도착","알","모르"],hint:"The verb for setting off from a starting point."},
+
+  {type:"mc",q:"Which sentence is correct?",opts:["저는 한국 음식을 좋아해요","저는 한국 음식이 좋아해요","저는 한국 음식을 좋다해요","저는 한국 음식이 좋아요"],ans:"저는 한국 음식을 좋아해요",hint:"좋아하다 takes the object particle 을/를. 좋다 takes the subject particle 이/가."},
+
+  {type:"mc",q:"숙제를 잊었어요 means:",opts:["I finished the homework","I forgot the homework","I submitted the homework","I know the homework"],ans:"I forgot the homework",hint:"잊다 = to forget. 잊었어요 = forgot (past polite)."},
+
+  {type:"fb",s:"이 단어 ___ 요? 아니요, ___라요.\n(Do you know this word? No, I don't know.)",a:"알아",opts:["알아","몰라","알었어","잊어"],hint:"알다 present: 알아요. You're asking if someone knows."},
+
+  {type:"match",pairs:[{trg:"생각하다",src:"to think"},{trg:"좋아하다",src:"to like"},{trg:"알다",src:"to know"},{trg:"모르다",src:"to not know"},{trg:"잊다",src:"to forget"},{trg:"도착하다",src:"to arrive"},{trg:"출발하다",src:"to depart"}]},
+
+  {type:"drag_fill",s:"저는 한국어를 {1}. 단어를 {2} 때 사전을 봐요. 친구가 곧 {3}해요. 같이 {4}할 거예요.",blanks:{"1":"좋아해요","2":"모를","3":"도착","4":"출발"},pool:["좋아해요","모를","도착","출발","알아요","잊어요","생각해요","잊었어요"],hint:"I like Korean. When I don't know a word, I look in the dictionary. My friend will arrive soon. We'll depart together."},
+
+  {type:"tip",title:"생각 vs 알다 vs 느끼다",text:"Three ways to express your inner world:\n\n생각하다 = to think (cognitive, opinion-based)\n알다 = to know (knowledge, fact)\n느끼다 = to feel (emotion, physical sensation)\n\n이게 좋다고 생각해요 = I think this is good.\n이미 알아요 = I already know.\n피곤하다고 느껴요 = I feel tired.",deepDive:{title:"When to Use Each",text:"생각하다 introduces opinions: ~다고 생각해요 (I think that...).\n\n알다 expresses factual knowledge: 알아요 / 몰라요.\n\n잊다 is the natural opposite of 기억하다 (remember, B1).\n\n도착하다 and 출발하다 are essential for travel and arrangements. They often appear with time expressions: 10시에 출발해요, 12시에 도착해요."}},
+
+]},
+
 ]};
 
 export default UNIT_10;
