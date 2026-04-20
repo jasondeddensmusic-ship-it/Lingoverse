@@ -388,6 +388,72 @@ const UNIT_17 =
 
 {type:"match",pairs:[{trg:"하지만",src:"but / however (spoken)"},{trg:"그러나",src:"however / but (formal written)"},{trg:"비록",src:"although / even though"},{trg:"또한",src:"also / moreover"},{trg:"게다가",src:"on top of that / besides"}]},
 ]},
+
+// ── Discourse Connectors: 그래서 그런데 그리고 그러면 그래도 ──
+{id:"kov2_u17l_connectors",title:"연결어 (Discourse Connectors)",icon:"🔗",xp:20,board:true,steps:[
+
+{type:"intro",title:"Korean Discourse Connectors",desc:"Words that connect ideas across sentences.\n그래서, 그런데, 그리고, 그러면, 그래도\n→ so, but/by the way, and, then, still\n\nThese are the glue of Korean speech and TOPIK reading passages.",goals:["Recognize 5 core discourse connectors","Understand the logical relationship each signals","Use connectors to link sentences naturally","Distinguish register: spoken vs. formal alternatives"]},
+
+{type:"teach",trg:"그래서",src:"so / therefore",pos:"conj",gender:null,
+ phonetic:"geu-rae-seo",
+ note:"Signals cause-and-effect: A 그래서 B.\nA caused B. Neutral register — spoken and written.",
+ example:"A: 어제 아팠어요. 그래서 학교에 못 갔어요.\nB: 지금은 괜찮아요?",
+ exampleSrc:"A: I was sick yesterday. So I couldn't go to school.\nB: Are you OK now?",
+ funFact:"그래서 traces to 그렇게 (like that) + 해서 (having done). Literally 'having done like that' — the cause already happened, so the result follows."},
+
+{type:"teach",trg:"그런데",src:"but / by the way",pos:"conj",gender:null,
+ phonetic:"geu-reon-de",
+ note:"Two jobs:\n1. Soft contrast: 'but / however' (spoken register).\n2. Topic shift: 'by the way / actually'.\nContext determines which meaning applies.",
+ example:"A: 운동을 시작했어요. 그런데 시간이 없어요.\nB: 그런데 오늘 날씨는 정말 좋네요!",
+ exampleSrc:"A: I started exercising. But I have no time.\nB: By the way, the weather is really nice today!",
+ funFact:"그런데 collapses 그러한데 (in such a state, but). Its cousin 그러나 carries the same contrast meaning in formal writing. TOPIK reading passages use 그러나; conversation uses 그런데."},
+
+{type:"teach",trg:"그리고",src:"and / and then",pos:"conj",gender:null,
+ phonetic:"geu-ri-go",
+ note:"Adds information or sequences events.\nCan link nouns (A하고 B) or full sentences (A. 그리고 B.).\n그리고 works between sentences; -하고 links noun phrases.",
+ example:"A: 오늘 뭐 했어요?\nB: 도서관에서 공부했어요. 그리고 친구를 만났어요.",
+ exampleSrc:"A: What did you do today?\nB: I studied at the library. And then I met a friend.",
+ funFact:"그리고 is from 그리하고 (doing so, and). In formal writing, 또한 and 더불어 serve the same additive role. In everyday speech, 그리고 is by far the most common additive connector."},
+
+{type:"teach",trg:"그러면",src:"then / in that case / if so",pos:"conj",gender:null,
+ phonetic:"geu-reo-myeon",
+ note:"Draws a logical conclusion from what was just said.\n'If that is the case, then...'\nOften shortened to 그럼 in casual speech.",
+ example:"A: 내일 시험이 있어요.\nB: 그러면 오늘 일찍 자야 해요.",
+ exampleSrc:"A: There's an exam tomorrow.\nB: Then you should go to bed early today.",
+ funFact:"그러면 = 그렇다 (to be so) + -(으)면 (if). Its casual short form 그럼 is extremely common. In TOPIK 듣기, expect both forms. 그럼 can also close a conversation: '그럼, 안녕히 가세요!'"},
+
+{type:"teach",trg:"그래도",src:"still / even so / but still",pos:"conj",gender:null,
+ phonetic:"geu-rae-do",
+ note:"Concedes a point but asserts something despite it.\n'Even so / still' — the speaker acknowledges the reality but pushes back.",
+ example:"A: 힘들지 않아요?\nB: 네, 힘들어요. 그래도 계속하고 싶어요.",
+ exampleSrc:"A: Isn't it hard?\nB: Yes, it's hard. But I still want to keep going.",
+ funFact:"그래도 = 그래 (so / like that) + -도 (even). Compare: 그래서 (so, therefore — consequence) vs. 그래도 (even so — concession despite the fact). The -도 is the same particle that means 'even' in 저도 (me too)."},
+
+{type:"tip",title:"Connector Logic Map",
+ text:"Five connectors, five logical relationships:\n\n그래서 → CAUSE/RESULT: A happened, so B.\n그런데 → CONTRAST or TOPIC SHIFT: A, but B / By the way...\n그리고 → ADDITION/SEQUENCE: A, and also B.\n그러면 → CONDITION/CONSEQUENCE: Given A, then B.\n그래도 → CONCESSION: A is true, but still B.\n\nSpoken shortened forms:\n그러면 → 그럼\n그런데 → 근데\n그리고 → (no standard short form)\n\nFormal written alternatives:\n그래서 → 따라서 / 그러므로\n그런데 → 그러나\n그리고 → 또한 / 더불어",
+ deepDive:"Register guide for TOPIK:\n\nFor TOPIK II 쓰기 (writing):\nReplace 그래서 with 따라서 or 그러므로.\nReplace 그런데 with 그러나 or 반면에.\nReplace 그리고 with 또한 or 더불어.\nKeep 그러면 as-is (acceptable in all registers).\nKeep 그래도 as-is (common in both registers).\n\nFor TOPIK II 듣기/읽기 (listening/reading):\nBoth formal and informal connectors appear.\nContext clues: -다 verb endings signal formal style.\n-아요/어요 endings signal spoken style."},
+
+{type:"mc",q:"어제 비가 많이 왔어요. ___ 집에 있었어요.\nWhich connector best fills the blank?",opts:["그래서","그런데","그래도","그러면"],ans:"그래서",hint:"Heavy rain caused staying home. Choose the connector that signals 'A happened, so B followed.'"},
+
+{type:"mc",q:"오늘 날씨가 좋아요. ___ 내일은 비가 온대요.\nWhich connector fits?",opts:["그래서","그리고","그런데","그러면"],ans:"그런데",hint:"The two sentences shift from good news to unexpected news. Which connector signals contrast or a topic shift?"},
+
+{type:"fb",s:"도서관에서 공부했어요. ___ 카페에서 쉬었어요.\n(I studied at the library. ___ I rested at the cafe.)",a:"그리고",opts:["그리고","그래서","그래도","그런데"],hint:"Two actions listed in sequence, with no contrast or cause. Which connector simply adds the next thing that happened?"},
+
+{type:"mc",q:"시험이 어려웠어요. ___ 열심히 공부했어요.\nWhich connector expresses 'even so / but still'?",opts:["그리고","그러면","그래도","그래서"],ans:"그래도",hint:"The exam was hard — that is acknowledged. But the speaker studied hard anyway. Which connector signals 'despite that'?"},
+
+{type:"fb",s:"내일 회의가 있어요. ___ 오늘 준비해야 해요.\n(There is a meeting tomorrow. ___ I should prepare today.)",a:"그러면",opts:["그러면","그런데","그리고","그래도"],hint:"The meeting tomorrow is the given condition. What follows is the logical next step. Which connector means 'in that case / then'?"},
+
+{type:"match",pairs:[{trg:"그래서",src:"so / therefore (cause-result)"},{trg:"그런데",src:"but / by the way (contrast or shift)"},{trg:"그리고",src:"and / and then (addition or sequence)"},{trg:"그러면",src:"then / in that case (condition)"},{trg:"그래도",src:"still / even so (concession)"}]},
+
+{type:"fb",s:"날씨가 추워요. ___ 운동하러 갔어요.\n(The weather is cold. ___ I still went to exercise.)",a:"그래도",opts:["그래도","그래서","그러면","그리고"],hint:"Cold weather is the acknowledged obstacle. The speaker went anyway. Which connector signals 'even so'?"},
+
+{type:"mc",q:"배가 고파요. ___ 식당을 찾아요.\nWhich connector logically fits?",opts:["그래도","그러면","그런데","그리고"],ans:"그러면",hint:"Being hungry is the stated condition. Going to find a restaurant is the logical response. Which connector means 'given that, then...'?"},
+
+{type:"mc",q:"그러면 is often shortened in spoken Korean to:",opts:["그러나","그래서","그럼","그래도"],ans:"그럼",hint:"The shortened spoken form keeps only the first syllable of each part. Listen for this in TOPIK 듣기."},
+
+{type:"drag_fill",s:"어제 늦게 잤어요. {1} 피곤해요. {2} 일은 해야 해요.\n(I went to bed late yesterday. ___ I'm tired. ___ I still have to work.)",blanks:{"1":"그래서","2":"그래도"},pool:["그래서","그래도","그런데","그러면","그리고"],hint:"Late sleep caused tiredness. Tiredness is acknowledged but work continues regardless."},
+
+]},
 ]};
 
 export default UNIT_17;
