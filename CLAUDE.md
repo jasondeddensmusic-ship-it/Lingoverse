@@ -344,17 +344,17 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 |----------|--------|-------|-------------|---------|--------|
 | German v2 | v2 | 36 | 5,170 | 58 entries | **GOLD STANDARD.** All PP checks PASS. |
 | German v2 (AR) | v2 | 36 | ~5,170 | 58 entries (AR) | Arabic source variant. B2 CEFR trAr gap (1,821). |
-| Korean | v2 | 69 | 1,419 | 47 entries | COMPLETE. PP8/PP63/PP67 all clean. |
-| Dutch | v2 | 89 | 1,376 | 36 entries | COMPLETE. Grammar rewritten to production quality (NT2-aligned, PR #205). PP8/PP63/PP67 all clean. |
-| French | v2 | 90 | 1,203 | 52 entries | COMPLETE. PP8/PP63/PP67 all clean. |
+| Korean | v2 | 69 | 1,427 | 47 entries | COMPLETE. PP8/PP63/PP67 all clean. |
+| Dutch | v2 | 89 | 1,384 | 36 entries | COMPLETE. Grammar rewritten to production quality (NT2-aligned, PR #205). PP8/PP63/PP67 all clean. |
+| French | v2 | 90 | 1,212 | 52 entries | COMPLETE. PP8/PP63/PP67 all clean. |
 | Spanish | v2 | 92 | 1,388 | 53 entries | COMPLETE. PP8/PP63/PP67 all clean. |
-| Italian | v2 | 36 | 960 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. PP67 0/0, PP63 PASS. |
-| Japanese | v2 | 36 | 729 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, PP63 PASS, PP67 0/0. Foundations lock, notation tutorial, CEFR ref wired. |
-| Chinese | v2 | 45 | 905 | 53 entries | **VALIDATED.** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8/PP48/PP63/PP67 all clean. |
-| Portuguese | v2 | 36 | 827 | 50 entries | **VALIDATED.** Brazilian primary, EU notes. CEFR A1-B2. PP8/PP48/PP63/PP67 all clean. |
-| Russian | v2 | 36 | 719 | 50 entries | **VALIDATED.** Cyrillic, 6 cases, aspect pairs, TRKI framework. All 36 units complete. PP8/PP48/PP63/PP67 all clean. Grammar: 50 real entries (A1-B2, TRKI-aligned). |
+| Italian | v2 | 36 | 970 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. PP67 0/0, PP63 PASS. |
+| Japanese | v2 | 36 | 737 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, PP63 PASS, PP67 0/0. Foundations lock, notation tutorial, CEFR ref wired. |
+| Chinese | v2 | 45 | 913 | 53 entries | **VALIDATED.** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8/PP48/PP63/PP67 all clean. |
+| Portuguese | v2 | 36 | 835 | 50 entries | **VALIDATED.** Brazilian primary, EU notes. CEFR A1-B2. PP8/PP48/PP63/PP67 all clean. |
+| Russian | v2 | 36 | 737 | 50 entries | **VALIDATED.** Cyrillic, 6 cases, aspect pairs, TRKI framework. All 36 units complete. PP8/PP48/PP63/PP67 all clean. Grammar: 50 real entries (A1-B2, TRKI-aligned). |
 
-**Grand total: ~14,713 teach cards across 10 languages (main unit files; excludes legacy batch-file duplicates). Build passes.**
+**Grand total: ~14,790 teach cards across 10 languages (main unit files; excludes legacy batch-file duplicates). Build passes.**
 **Grammar modules: 521 real entries across 10 languages (Chinese 53, Portuguese 50, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch 36, Russian 50). Zero placeholder modules remaining.**
 **Validator state (2026-04-20): All 10 languages PASS PP8, PP43, PP48, PP63, PP64, PP67.**
 
