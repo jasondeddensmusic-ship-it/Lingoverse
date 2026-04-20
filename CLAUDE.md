@@ -338,21 +338,23 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 
 | Language | Format | Units | Teach Cards | Grammar | Status |
 |----------|--------|-------|-------------|---------|--------|
-| German v2 | v2 | 36 | 5,148 | 58 entries | **GOLD STANDARD.** All PP checks PASS. |
-| German v2 (AR) | v2 | 36 | ~5,148 | 58 entries (AR) | Arabic source variant. B2 CEFR trAr gap (1,821). |
-| Korean | v2 | 69 | 5,166 | 47 entries | COMPLETE. 100%+ of German. PP8/PP63/PP67 all clean. |
-| Dutch | v2 | 89 | 5,106 | 36 entries | COMPLETE. Grammar rewritten to production quality (NT2-aligned, PR #205). PP8/PP63/PP67 all clean. |
-| French | v2 | 90 | 5,036 | 52 entries | COMPLETE. 98% of German. PP8/PP63/PP67 all clean. |
-| Spanish | v2 | 92 | 5,124 | 53 entries | COMPLETE. 100% of German. PP8/PP63/PP67 all clean. |
-| Italian | v2 | 36 | 5,013 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. PP67 0/0, PP63 PASS. |
-| Japanese | v2 | 36 | 4,978 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, PP63 PASS, PP67 2 soft flags (unit-15, unit-22). Foundations lock, notation tutorial, CEFR ref wired. |
-| Chinese | v2 | 45 | 719 | 53 entries | **VALIDATED (2026-04-19).** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8/PP48/PP63/PP67 all clean. |
-| Portuguese | v2 | 36 | 649+ | 50 entries | **VALIDATED (2026-04-19).** Brazilian primary, EU notes. CEFR A1-B2. PP8/PP48/PP63/PP67 all clean. |
-| Russian | v2 | 36 | ~1,200+ | 50 entries | **VALIDATED (2026-04-19).** Cyrillic, 6 cases, aspect pairs, TRKI framework. All 36 units complete. PP8/PP48/PP63/PP67 all clean. Grammar: 50 real entries (A1-B2, TRKI-aligned). |
+| German v2 | v2 | 36 | 5,170 | 58 entries | **GOLD STANDARD.** All PP checks PASS. |
+| German v2 (AR) | v2 | 36 | ~5,170 | 58 entries (AR) | Arabic source variant. B2 CEFR trAr gap (1,821). |
+| Korean | v2 | 69 | 1,350 | 47 entries | COMPLETE. PP8/PP63/PP67 all clean. |
+| Dutch | v2 | 89 | 1,333 | 36 entries | COMPLETE. Grammar rewritten to production quality (NT2-aligned, PR #205). PP8/PP63/PP67 all clean. |
+| French | v2 | 90 | 1,156 | 52 entries | COMPLETE. PP8/PP63/PP67 all clean. |
+| Spanish | v2 | 92 | 1,323 | 53 entries | COMPLETE. PP8/PP63/PP67 all clean. |
+| Italian | v2 | 36 | 905 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. PP67 0/0, PP63 PASS. |
+| Japanese | v2 | 36 | 670 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, PP63 PASS, PP67 0/0. Foundations lock, notation tutorial, CEFR ref wired. |
+| Chinese | v2 | 45 | 842 | 53 entries | **VALIDATED.** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8/PP48/PP63/PP67 all clean. |
+| Portuguese | v2 | 36 | 761 | 50 entries | **VALIDATED.** Brazilian primary, EU notes. CEFR A1-B2. PP8/PP48/PP63/PP67 all clean. |
+| Russian | v2 | 36 | 665 | 50 entries | **VALIDATED.** Cyrillic, 6 cases, aspect pairs, TRKI framework. All 36 units complete. PP8/PP48/PP63/PP67 all clean. Grammar: 50 real entries (A1-B2, TRKI-aligned). |
 
-**Grand total: ~32,600+ teach cards across 10 languages. Build passes.**
+**Grand total: ~14,175 teach cards across 10 languages (main unit files; excludes legacy batch-file duplicates). Build passes.**
 **Grammar modules: 521 real entries across 10 languages (Chinese 53, Portuguese 50, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch 36, Russian 50). Zero placeholder modules remaining.**
-**Validator state (2026-04-19): All 10 languages PASS PP8, PP43, PP48, PP63, PP64, PP67.**
+**Validator state (2026-04-20): All 10 languages PASS PP8, PP43, PP48, PP63, PP64, PP67.**
+
+> Note: Previous CLAUDE.md totals (~32,600+) counted teach cards in batch files PLUS their imports into main unit files — essentially double-counting. The per-language numbers above reflect the actual corpus as reported by `node scripts/validate_all.cjs <lang-dir>`.
 
 ### Build History (compact)
 
@@ -400,11 +402,22 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 ### Polish Remaining
 1. **A2 dialogue scaling** — Italian: 138 dialogues need 3+ turns. Japanese: 28 need 3+ turns.
 
-**Validator state (2026-04-19):** **All 10 languages PASS all critical checks (PP8/PP43/PP48/PP63/PP64/PP67).** 24,710 PP63 example-vocab violations cleared to 0 across all 10 languages. PP67 production-mode minimum achieved for all 10 languages.
+**Validator state (2026-04-20):** **All 10 languages PASS all critical checks (PP8/PP43/PP48/PP63/PP64/PP67).**
+
+**PP58 communicative-function closures (session 2026-04-19/20):**
+- F14 Make appointments (A1) — 10/10 ✓
+- F15 Fill in forms (A1) — 10/10 ✓
+- F17 Express ability (A1) — 10/10 ✓
+- F8 Write informal letters (A2) — 10/10 ✓
+- F22 Handle admin situations (B1) — 9/9 ✓
+- F21 Write personal significance (B2) — 9/9 ✓
+- F11 Resolve disputes (B2) — 5/6 + NL partial
+
+**PP55 vocabulary closures (session 2026-04-19/20):** B1/B2 civic + A2 mental verbs now 10/10 across all languages. Major A1 gaps closed for PT/RU/ZH/JA. ~+800 teach cards added total across the session.
 
 ### Feature Polish (in-flight on sad-cohen-32e111)
 7. **Verb tables clickable — DONE (2026-04-19, unmerged).** Forms now use POS-colored tap-to-see via `universalHl()`. Commit: `2d5c69a`.
-8. **Idioms page search/filter** — 45 entries with no way to filter by level or search. Still TODO.
+8. **Idioms page search/filter — DONE.** Search input + level filter chips already implemented in `src/pages/IdiomsPage.jsx:97-117`. Queue doc was stale.
 9. **German Foundations — DONE (2026-04-08).** Full content exists in `src/data/foundations.js` (alphabet, pronunciation, vowels, consonants, umlauts, articles, gate quiz). Not a "coming soon" placeholder.
 10. **Arabic Foundations text** — Scope not yet defined. Still TODO.
 11. **Lesson completion celebrations — DONE (2026-04-19, unmerged).** Confetti + streak celebration screen added. Commit: `1b768cd`.
