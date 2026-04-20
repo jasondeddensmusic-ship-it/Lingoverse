@@ -8,7 +8,7 @@ const BATCH4_U08_L1 = {
 
     {type:"teach", trg:"la pelle", src:"leather / skin", pos:"noun", gender:"f",
      note:"Feminine. Dual meaning: leather (material) and skin (body).\n'Borsa in pelle' = leather bag.",
-     example:"A: Questa borsa e in pelle?\nB: Si, pelle italiana di alta qualita.",
+     example:"A: Questa borsa e in pelle?\nB: Si, pelle italiana di alta qualità.",
      exampleSrc:"A: Is this bag leather?\nB: Yes, high-quality Italian leather.",
      funFact:"Italian leather ('pelle italiana') is world-renowned. Florence's leather district near Santa Croce has been producing fine leather since the Renaissance. The 'cuoio fiorentino' (Florentine leather) is considered the gold standard."},
 
@@ -20,7 +20,7 @@ const BATCH4_U08_L1 = {
 
     {type:"teach", trg:"il cotone", src:"cotton", pos:"noun", gender:"m",
      note:"Masculine. From Arabic 'qutn.'\n'Maglietta di cotone' = cotton T-shirt.",
-     example:"A: Preferisco il cotone in estate.\nB: Si, e piu fresco della seta.",
+     example:"A: Preferisco il cotone in estate.\nB: Si, e più fresco della seta.",
      exampleSrc:"A: I prefer cotton in summer.\nB: Yes, it is cooler than silk.",
      funFact:"The word 'cotone' entered Italian from Arabic during medieval trade. Italy is not a major cotton producer but is famous for transforming raw cotton into high-quality fabrics, especially in textile districts of Lombardy and Tuscany."},
 
@@ -38,7 +38,7 @@ const BATCH4_U08_L1 = {
 
     {type:"teach", trg:"la cintura", src:"the belt", pos:"noun", gender:"f",
      note:"Feminine. From 'cingere' (to gird/encircle).\n'Cintura di sicurezza' = seatbelt.",
-     example:"A: Questa cintura e troppo grande.\nB: Prova una taglia piu piccola.",
+     example:"A: Questa cintura e troppo grande.\nB: Prova una taglia più piccola.",
      exampleSrc:"A: This belt is too big.\nB: Try a smaller size.",
      funFact:"Italian leather belts are a fashion essential. 'Cintura di sicurezza' (safety belt/seatbelt) uses the same word. The expression 'stringere la cintura' (to tighten the belt) means to cut spending, just like in English."},
 
@@ -91,7 +91,7 @@ const BATCH4_U08_L1 = {
      funFact:"'Provare' means both 'to try on' (clothes) and 'to try/attempt.' In Italian shops, the fitting room is 'il camerino.' Shop assistants ('commessi') in Italian fashion stores are typically well-informed and happy to offer styling advice."},
 
     // Quiz steps
-    {type:"mc", q:"Quale citta e il centro mondiale degli occhiali?",
+    {type:"mc", q:"Quale città e il centro mondiale degli occhiali?",
      opts:["L'industria italiana (Luxottica) domina","La Svizzera","La Francia","La Germania"],
      ans:"L'industria italiana (Luxottica) domina",
      hint:"This Italian company owns Ray-Ban and produces glasses for major luxury brands."},

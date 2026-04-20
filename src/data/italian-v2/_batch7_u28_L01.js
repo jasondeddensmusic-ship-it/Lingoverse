@@ -6,7 +6,7 @@ const BATCH7_L1 = {id:"itv2_u28l_b7_1", title:"La poesia", icon:"\u{1F4DC}", xp:
 
 {type:"teach", trg:"il poeta", src:"the poet", pos:"noun", gender:"m",
  note:"Masculine noun. Feminine: la poetessa or la poeta. Plural: i poeti.\n'Poetico' = poetic.",
- example:"A: Dante e il piu grande poeta italiano.\nB: La Divina Commedia e il suo capolavoro.",
+ example:"A: Dante e il più grande poeta italiano.\nB: La Divina Commedia e il suo capolavoro.",
  exampleSrc:"A: Dante is the greatest Italian poet.\nB: The Divine Comedy is his masterpiece.",
  funFact:"Dante Alighieri is called 'il Sommo Poeta' (the Supreme Poet). He is also credited with standardizing the Italian language. Modern Italian is largely based on the Tuscan dialect he used."},
 
@@ -24,7 +24,7 @@ const BATCH7_L1 = {id:"itv2_u28l_b7_1", title:"La poesia", icon:"\u{1F4DC}", xp:
 
 {type:"teach", trg:"la strofa", src:"the stanza / strophe", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le strofe.\nA group of verses forming a unit in a poem.",
- example:"A: La prima strofa e la piu bella.\nB: Introduce il tema dell'amore.",
+ example:"A: La prima strofa e la più bella.\nB: Introduce il tema dell'amore.",
  exampleSrc:"A: The first stanza is the most beautiful.\nB: It introduces the theme of love.",
  funFact:"The Italian 'ottava rima' (eight-line stanza, ABABABCC) was invented for epic poetry. Ariosto's 'Orlando Furioso' uses it throughout its 46 cantos."},
 
@@ -72,7 +72,7 @@ const BATCH7_L1 = {id:"itv2_u28l_b7_1", title:"La poesia", icon:"\u{1F4DC}", xp:
 
 {type:"teach", trg:"il canto", src:"the canto / song", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i canti.\nA major division of a long poem. Also: a song.",
- example:"A: La Divina Commedia ha cento canti.\nB: Trentatre per cantica, piu uno introduttivo.",
+ example:"A: La Divina Commedia ha cento canti.\nB: Trentatre per cantica, più uno introduttivo.",
  exampleSrc:"A: The Divine Comedy has one hundred cantos.\nB: Thirty-three per canticle, plus one introduction.",
  funFact:"'Canto' means both a chapter of a long poem and a song. Leopardi's collection is called 'Canti' (Songs). The musical and poetic meanings reflect the deep link between Italian poetry and music."},
 

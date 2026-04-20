@@ -14,7 +14,7 @@ const BATCH4_U12_L1 = {
 
     {type:"teach", trg:"tornare / tornato", src:"to return, to come back / returned", pos:"verb", gender:null,
      note:"Takes essere. 'Sono tornato/a' = I returned.\n'Tornare a casa' = to go home/return home.",
-     example:"A: Sei gia tornata?\nB: Si, sono tornata un'ora fa.",
+     example:"A: Sei già tornata?\nB: Si, sono tornata un'ora fa.",
      exampleSrc:"A: Are you already back?\nB: Yes, I came back an hour ago.",
      funFact:"'Tornare' is one of the most common Italian essere verbs. 'Bentornato/a!' (welcome back!) is the standard greeting for returning travelers or colleagues. The noun 'il ritorno' (the return) comes from the same root."},
 

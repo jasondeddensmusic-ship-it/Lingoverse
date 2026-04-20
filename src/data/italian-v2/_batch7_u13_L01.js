@@ -18,7 +18,7 @@ const BATCH7_L1 = {id:"itv2_u13l_b7_1", title:"Speranze e dubbi", icon:"\u{1F4AD
 
 {type:"teach", trg:"il desiderio", src:"the wish / desire", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i desideri.\n'Desiderare' = to wish/desire. Triggers subjunctive.",
- example:"A: Qual e il tuo desiderio piu grande?\nB: Desidero che ci sia pace nel mondo.",
+ example:"A: Qual e il tuo desiderio più grande?\nB: Desidero che ci sia pace nel mondo.",
  exampleSrc:"A: What is your biggest wish?\nB: I wish there were peace in the world.",
  funFact:"'Desiderio' comes from Latin 'de sideribus' (from the stars). A desire was originally something you wished upon a star. The poetic etymology matches the Italian spirit."},
 
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u13l_b7_1", title:"Speranze e dubbi", icon:"\u{1F4AD
 ]},
 
 {type:"mc", q:"Quale congiunzione richiede SEMPRE il congiuntivo?",
- opts:["prima che","dopo che","perche","quando"],
+ opts:["prima che","dopo che","perché","quando"],
  ans:"prima che",
  hint:"It expresses something that has not happened yet. 'Before' + subjunctive."},
 

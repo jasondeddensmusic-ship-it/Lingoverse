@@ -44,7 +44,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"in conclusione", src:"in conclusion", pos:"conj", gender:null,
      note:"Formal concluding expression.\nAlternatives: 'per concludere,' 'in definitiva,' 'riassumendo.'",
-     example:"A: In conclusione, i dati dimostrano che la riforma e necessaria.\nB: Nonostante le difficolta, i benefici superano i costi.",
+     example:"A: In conclusione, i dati dimostrano che la riforma e necessaria.\nB: Nonostante le difficoltà, i benefici superano i costi.",
      exampleSrc:"A: In conclusion, the data demonstrate that the reform is necessary.\nB: Despite the difficulties, the benefits outweigh the costs.",
      funFact:"Italian exam graders look for proper concluding expressions. Simply stopping without a conclusion lowers the score. 'In conclusione' signals that you are wrapping up and restating your thesis in light of the arguments presented."},
 
@@ -55,10 +55,10 @@ const BATCH3_L_1 = {
      funFact:"'A tal proposito' is a hallmark of formal Italian. Using it in an essay signals sophisticated register control. In conversation, Italians would say 'a proposito' (by the way) or simply 'su questo' (on this)."},
 
     {type:"teach", trg:"vale a dire", src:"that is to say / namely", pos:"conj", gender:null,
-     note:"Formal explanatory expression. Introduces a clarification.\nSynonyms: 'cioe' (less formal), 'ossia,' 'ovvero.'",
+     note:"Formal explanatory expression. Introduces a clarification.\nSynonyms: 'cioè' (less formal), 'ossia,' 'ovvero.'",
      example:"A: L'Italia e una repubblica parlamentare, vale a dire che il governo dipende dalla fiducia del parlamento.\nB: Il presidente della Repubblica ha un ruolo di garanzia.",
      exampleSrc:"A: Italy is a parliamentary republic, that is to say the government depends on parliament's confidence.\nB: The president of the Republic has a guarantor role.",
-     funFact:"Italian has a rich inventory of explanatory connectives ranging from informal ('cioe') to formal ('vale a dire,' 'ossia'). Choosing the right one demonstrates register awareness, a criterion explicitly tested at B2 level."},
+     funFact:"Italian has a rich inventory of explanatory connectives ranging from informal ('cioè') to formal ('vale a dire,' 'ossia'). Choosing the right one demonstrates register awareness, a criterion explicitly tested at B2 level."},
 
     {type:"fb",
      s:"La traccia dell'esame chiede di discutere vantaggi e svantaggi. {1}, bisogna presentare entrambi i punti di vista.",
@@ -69,7 +69,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"di conseguenza", src:"consequently / as a result", pos:"conj", gender:null,
      note:"Formal conjunction expressing a logical consequence.\nSynonyms: 'pertanto,' 'dunque,' 'percio.'",
-     example:"A: I costi sono aumentati. Di conseguenza, i prezzi al consumo sono saliti.\nB: L'inflazione colpisce le famiglie piu vulnerabili.",
+     example:"A: I costi sono aumentati. Di conseguenza, i prezzi al consumo sono saliti.\nB: L'inflazione colpisce le famiglie più vulnerabili.",
      exampleSrc:"A: Costs have increased. Consequently, consumer prices have risen.\nB: Inflation hits the most vulnerable families.",
      funFact:"'Di conseguenza' belongs to the formal register and appears frequently in academic, legal, and journalistic writing. In everyday speech, Italians prefer 'quindi' (therefore) or 'e allora' (and so)."},
 
@@ -120,8 +120,8 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che livello linguistico deve raggiungere un candidato CILS B2 secondo il QCER?",
-     opts:["Utente base: puo comprendere frasi semplici e di uso quotidiano","Utente indipendente: puo interagire con parlanti nativi senza sforzo e argomentare su temi complessi","Utente avanzato: puo tradurre testi letterari e tenere conferenze accademiche","Madrelingua: nessuna differenza con un parlante nativo in qualsiasi contesto"],
-     ans:"Utente indipendente: puo interagire con parlanti nativi senza sforzo e argomentare su temi complessi",
+     opts:["Utente base: può comprendere frasi semplici e di uso quotidiano","Utente indipendente: può interagire con parlanti nativi senza sforzo e argomentare su temi complessi","Utente avanzato: può tradurre testi letterari e tenere conferenze accademiche","Madrelingua: nessuna differenza con un parlante nativo in qualsiasi contesto"],
+     ans:"Utente indipendente: può interagire con parlanti nativi senza sforzo e argomentare su temi complessi",
      hint:"B2 is the 'independent user' level. You can handle complex topics, argue positions, and interact fluently with native speakers."}
   ,{type:"match",pairs:[{trg:"il paragrafo",src:"the paragraph"},{trg:"il lessico specifico",src:"specialized vocabulary"},{trg:"in conclusione",src:"in conclusion"},{trg:"a tal proposito",src:"in this regard / on this matter"},{trg:"il quesito",src:"the question / item (on a test)"},{trg:"la competenza linguistica",src:"linguistic competence"}]}]
 };

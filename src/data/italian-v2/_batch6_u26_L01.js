@@ -11,7 +11,7 @@ const BATCH6_L1 = {id:"itv2_u26l_b6_1", title:"I diritti civili", icon:"\u{1F4DC
  funFact:"The Italian Constitution was drafted by the Constituent Assembly in 1946-47 and took effect on January 1, 1948. It is considered one of the most progressive constitutions in the world."},
 
 {type:"teach", trg:"il cittadino", src:"the citizen", pos:"noun", gender:"m",
- note:"Masculine noun. Feminine: la cittadina. Plural: i cittadini.\nFrom 'citta' (city). A member of a state.",
+ note:"Masculine noun. Feminine: la cittadina. Plural: i cittadini.\nFrom 'città' (city). A member of a state.",
  example:"A: Ogni cittadino ha diritto al voto.\nB: E un diritto fondamentale.",
  exampleSrc:"A: Every citizen has the right to vote.\nB: It is a fundamental right.",
  funFact:"'Cittadinanza' (citizenship) comes from the same root. 'Cittadinanza italiana' can be acquired by descent ('ius sanguinis'), which is why many Americans and Argentines have Italian passports."},
@@ -36,7 +36,7 @@ const BATCH6_L1 = {id:"itv2_u26l_b6_1", title:"I diritti civili", icon:"\u{1F4DC
 
 {type:"teach", trg:"la giurisprudenza", src:"the jurisprudence / case law", pos:"noun", gender:"f",
  note:"Feminine noun. From Latin 'iuris prudentia' (knowledge of law).\nAlso the university degree in law.",
- example:"A: Ha studiato giurisprudenza a Bologna.\nB: La facolta di legge piu antica del mondo.",
+ example:"A: Ha studiato giurisprudenza a Bologna.\nB: La facoltà di legge più antica del mondo.",
  exampleSrc:"A: He studied law at Bologna.\nB: The oldest law school in the world.",
  funFact:"The University of Bologna, founded in 1088, is the world's oldest continuously operating university. Its law faculty shaped European legal tradition."},
 
@@ -60,7 +60,7 @@ const BATCH6_L1 = {id:"itv2_u26l_b6_1", title:"I diritti civili", icon:"\u{1F4DC
 
 {type:"teach", trg:"la tutela", src:"the protection / safeguarding", pos:"noun", gender:"f",
  note:"Feminine noun. From 'tutelare' (to protect).\nLegal protection of rights, heritage, or vulnerable persons.",
- example:"A: La tutela dell'ambiente e un dovere di tutti.\nB: Serve una legge piu severa.",
+ example:"A: La tutela dell'ambiente e un dovere di tutti.\nB: Serve una legge più severa.",
  exampleSrc:"A: Environmental protection is everyone's duty.\nB: A stricter law is needed.",
  funFact:"'Tutela' is a key concept in Italian law: 'tutela dei minori' (child protection), 'tutela dei consumatori' (consumer protection), 'tutela del paesaggio' (landscape protection)."},
 
@@ -84,7 +84,7 @@ const BATCH6_L1 = {id:"itv2_u26l_b6_1", title:"I diritti civili", icon:"\u{1F4DC
 
 {type:"teach", trg:"ratificare", src:"to ratify", pos:"verb", gender:null,
  note:"Regular -are verb. ratifico, ratifichi, ratifica.\nTo formally approve a treaty or agreement.",
- example:"A: Il Parlamento deve ratificare il trattato.\nB: La votazione e prevista per giovedi.",
+ example:"A: Il Parlamento deve ratificare il trattato.\nB: La votazione e prevista per giovedì.",
  exampleSrc:"A: Parliament must ratify the treaty.\nB: The vote is scheduled for Thursday.",
  funFact:"Italy ratifies international treaties through Parliamentary vote. The EU treaties required ratification by all member states, a process Italy has sometimes delayed."},
 

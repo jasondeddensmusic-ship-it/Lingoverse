@@ -42,7 +42,7 @@ const BATCH6_L1 = {id:"itv2_u14l_b6_1", title:"La vita in ufficio", icon:"\u{1F4
 
 {type:"teach", trg:"la pratica", src:"the file / case / paperwork", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le pratiche.\nBureaucratic paperwork or a professional case/file.",
- example:"A: Devo chiudere questa pratica entro venerdi.\nB: Hai bisogno di aiuto?",
+ example:"A: Devo chiudere questa pratica entro venerdì.\nB: Hai bisogno di aiuto?",
  exampleSrc:"A: I need to close this file by Friday.\nB: Do you need help?",
  funFact:"'Pratica' in an office means a bureaucratic file or case. 'Sbrigare le pratiche' (to handle the paperwork) is a dreaded but essential part of Italian professional life."},
 
@@ -72,7 +72,7 @@ const BATCH6_L1 = {id:"itv2_u14l_b6_1", title:"La vita in ufficio", icon:"\u{1F4
 
 {type:"teach", trg:"dimettersi", src:"to resign", pos:"verb", gender:null,
  note:"Reflexive -ere verb. mi dimetto, ti dimetti, si dimette.\nTo voluntarily leave a job.",
- example:"A: Si e dimesso per motivi personali.\nB: Aveva gia trovato un altro lavoro?",
+ example:"A: Si e dimesso per motivi personali.\nB: Aveva già trovato un altro lavoro?",
  exampleSrc:"A: He resigned for personal reasons.\nB: Had he already found another job?",
  funFact:"'Dare le dimissioni' (to hand in one's resignation) is the formal expression. In politics, 'dimettersi' is a common and often dramatic headline."},
 

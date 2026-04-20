@@ -54,7 +54,7 @@ const BATCH8_L1 = {id:"itv2_u07l_b8_1", title:"Gli ingredienti", icon:"🧄", xp
 
 {type:"teach", trg:"il brodo", src:"the broth / stock", pos:"noun", gender:"m",
  note:"Masculine noun. 'Brodo di pollo' = chicken broth.\n'In brodo' = in broth (as a soup).",
- example:"A: Preferisci i tortellini in brodo o asciutti?\nB: In brodo, e piu tradizionale.",
+ example:"A: Preferisci i tortellini in brodo o asciutti?\nB: In brodo, e più tradizionale.",
  exampleSrc:"A: Do you prefer tortellini in broth or dry?\nB: In broth, it is more traditional.",
  funFact:"In Emilia-Romagna, tortellini MUST be served 'in brodo.' Serving them with cream sauce is considered almost offensive. The broth lets you taste the filling."},
 
@@ -72,7 +72,7 @@ const BATCH8_L1 = {id:"itv2_u07l_b8_1", title:"Gli ingredienti", icon:"🧄", xp
 ]},
 
 {type:"fb",
- s:"Aglio, olio e {1} e il piatto piu semplice.",
+ s:"Aglio, olio e {1} e il piatto più semplice.",
  a:["peperoncino"],
  opts:["peperoncino","prezzemolo","pangrattato","lievito"],
  hint:"This is a small, spicy pepper. Together with garlic and oil, it names the simplest pasta dish.",

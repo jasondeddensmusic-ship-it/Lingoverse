@@ -10,11 +10,11 @@ const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{
  exampleSrc:"A: Do you have a degree in economics?\nB: Yes, I graduated from Bologna.",
  funFact:"In Italy, anyone with a 'laurea' can be addressed as 'dottore/dottoressa.' This is much broader than in English, where 'doctor' usually means a physician or PhD."},
 
-{type:"teach", trg:"la facolta", src:"the faculty / department", pos:"noun", gender:"f",
+{type:"teach", trg:"la facoltà", src:"the faculty / department", pos:"noun", gender:"f",
  note:"Feminine noun. Invariable plural.\n'Facolta di Lettere' = Faculty of Arts. 'Facolta di Medicina' = Medical School.",
- example:"A: A quale facolta sei iscritto?\nB: Facolta di Giurisprudenza.",
+ example:"A: A quale facoltà sei iscritto?\nB: Facolta di Giurisprudenza.",
  exampleSrc:"A: Which faculty are you enrolled in?\nB: Faculty of Law.",
- funFact:"Italian universities are divided into 'facolta,' each with its own building, culture, and student community. Medicine, Law, and Engineering are traditionally the most prestigious."},
+ funFact:"Italian universities are divided into 'facoltà,' each with its own building, culture, and student community. Medicine, Law, and Engineering are traditionally the most prestigious."},
 
 {type:"teach", trg:"la tesi", src:"the thesis", pos:"noun", gender:"f",
  note:"Feminine noun. Invariable plural.\n'Scrivere la tesi' = to write the thesis. 'Discutere la tesi' = to defend the thesis.",
@@ -30,7 +30,7 @@ const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{
 
 {type:"teach", trg:"la borsa di studio", src:"the scholarship", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le borse di studio.\nLiterally: 'study purse.' Financial aid for students.",
- example:"A: Ho vinto una borsa di studio!\nB: Complimenti! Per quale universita?",
+ example:"A: Ho vinto una borsa di studio!\nB: Complimenti! Per quale università?",
  exampleSrc:"A: I won a scholarship!\nB: Congratulations! For which university?",
  funFact:"Italian universities charge relatively low tuition compared to the US or UK. 'Borse di studio' are available based on merit and family income. The ISEE (income indicator) determines eligibility."},
 
@@ -78,11 +78,11 @@ const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{
 
 {type:"teach", trg:"iscriversi", src:"to enroll / to register", pos:"verb", gender:null,
  note:"Reflexive -ere verb. mi iscrivo, ti iscrivi, si iscrive.\n'L'iscrizione' = enrollment.",
- example:"A: Ti sei iscritto all'universita?\nB: Si, alla facolta di Architettura.",
+ example:"A: Ti sei iscritto all'università?\nB: Si, alla facoltà di Architettura.",
  exampleSrc:"A: Did you enroll at university?\nB: Yes, in the Architecture department.",
  funFact:"Italian universities do not have an 'acceptance' process for most faculties. If you have the right diploma, you can 'iscriversi.' Only Medicine, Architecture, and a few others have 'numero chiuso' (limited enrollment)."},
 
-{type:"mc", q:"In Italia, chi puo essere chiamato 'dottore'?",
+{type:"mc", q:"In Italia, chi può essere chiamato 'dottore'?",
  opts:["Chiunque abbia una laurea","Solo i medici","Solo i professori","Solo chi ha un dottorato"],
  ans:"Chiunque abbia una laurea",
  hint:"In Italy, the title is broader than in English. Anyone with a university degree qualifies."},
@@ -104,7 +104,7 @@ const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{
  ans:"18",
  hint:"The minimum passing grade in the Italian university system, on a scale up to 30."},
 
-{type:"fb", s:"Mi sono {1} alla facolta di Economia.", a:["iscritto"],
+{type:"fb", s:"Mi sono {1} alla facoltà di Economia.", a:["iscritto"],
  opts:["iscritto","laureato","bocciato","preparato"],
  hint:"The past participle of enrolling or registering at a university.",
  sSrc:"I {1} in the Economics department."},
@@ -114,8 +114,8 @@ const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{
  ans:"A student behind the normal graduation schedule",
  hint:"Very common in Italy. About 40% of students are in this situation."},
 
-{type:"fb", s:"Mangiamo alla {1} dell'universita?", a:["mensa"],
- opts:["mensa","dispensa","facolta","sessione"],
+{type:"fb", s:"Mangiamo alla {1} dell'università?", a:["mensa"],
+ opts:["mensa","dispensa","facoltà","sessione"],
  hint:"The subsidized dining hall where students eat affordable meals.",
  sSrc:"Shall we eat at the university {1}?"},
 

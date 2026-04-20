@@ -30,7 +30,7 @@ const BATCH6_L1 = {id:"itv2_u04l_b6_1", title:"La colazione al bar", icon:"\u{1F
 
 {type:"teach", trg:"il bancone", src:"the bar counter", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i banconi.\nWhere you stand to drink coffee quickly.",
- example:"A: Prendiamo il caffe al bancone?\nB: Si, e piu veloce e costa meno.",
+ example:"A: Prendiamo il caffè al bancone?\nB: Si, e più veloce e costa meno.",
  exampleSrc:"A: Shall we have coffee at the counter?\nB: Yes, it is faster and costs less.",
  funFact:"In Italy, coffee at the bar counter costs less than sitting at a table. Standing at the bancone is the traditional, quick Italian coffee ritual."},
 
@@ -72,13 +72,13 @@ const BATCH6_L1 = {id:"itv2_u04l_b6_1", title:"La colazione al bar", icon:"\u{1F
 
 {type:"teach", trg:"il cucchiaino", src:"the teaspoon", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i cucchiaini.\nDiminutive of 'cucchiaio' (spoon).",
- example:"A: Posso avere un cucchiaino per il caffe?\nB: Eccolo.",
+ example:"A: Posso avere un cucchiaino per il caffè?\nB: Eccolo.",
  exampleSrc:"A: May I have a teaspoon for the coffee?\nB: Here it is.",
  funFact:"Italians stir their espresso vigorously with a cucchiaino to blend the 'crema' (foam) with the liquid. Some add sugar first, stir, then drink in one or two sips."},
 
 {type:"teach", trg:"il vassoio", src:"the tray", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i vassoi.\nUsed in bars and restaurants to carry drinks and food.",
- example:"A: Il barista porta il vassoio al tavolo.\nB: Tre caffe e due cornetti.",
+ example:"A: Il barista porta il vassoio al tavolo.\nB: Tre caffè e due cornetti.",
  exampleSrc:"A: The barista brings the tray to the table.\nB: Three coffees and two croissants.",
  funFact:"In busy Italian bars, the barista carries an impossibly full vassoio with one hand through the crowd, a skill learned over years of practice."},
 
@@ -115,7 +115,7 @@ const BATCH6_L1 = {id:"itv2_u04l_b6_1", title:"La colazione al bar", icon:"\u{1F
  hint:"The person who works behind the bar and makes drinks.",
  sSrc:"The {1} makes an excellent cappuccino every morning."},
 
-{type:"mc", q:"Dove costa meno il caffe in un bar italiano?",
+{type:"mc", q:"Dove costa meno il caffè in un bar italiano?",
  opts:["Al bancone","Al tavolo","In terrazza","Alla cassa"],
  ans:"Al bancone",
  hint:"Standing up at the bar is the cheapest option, a quick Italian tradition."},

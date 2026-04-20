@@ -48,7 +48,7 @@ const BATCH7_L1 = {id:"itv2_u03l_b7_1", title:"Gli animali domestici", icon:"\u{
 
 {type:"teach", trg:"la pecora", src:"the sheep", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le pecore.\n'La pecora nera' = the black sheep.",
- example:"A: Ci sono molte pecore in Sardegna.\nB: Si, piu pecore che persone!",
+ example:"A: Ci sono molte pecore in Sardegna.\nB: Si, più pecore che persone!",
  exampleSrc:"A: There are many sheep in Sardinia.\nB: Yes, more sheep than people!",
  funFact:"Sardinia has more sheep than people (about 3 million sheep for 1.6 million humans). Pecorino cheese is made from sheep's milk and is a staple of Italian cuisine."},
 

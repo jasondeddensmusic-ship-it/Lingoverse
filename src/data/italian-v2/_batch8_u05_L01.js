@@ -12,7 +12,7 @@ const BATCH8_L1 = {id:"itv2_u05l_b8_1", title:"Le faccende domestiche", icon:"ðŸ
 
 {type:"teach", trg:"stirare", src:"to iron", pos:"verb", gender:null,
  note:"Regular -are verb. 'Il ferro da stiro' = the iron.\n'Stirare una camicia' = to iron a shirt.",
- example:"A: Devo stirare le camicie.\nB: Usa il vapore, e piu facile.",
+ example:"A: Devo stirare le camicie.\nB: Usa il vapore, e piÃ¹ facile.",
  exampleSrc:"A: I need to iron the shirts.\nB: Use steam, it is easier.",
  funFact:"Italians take ironing seriously. Even bed sheets and underwear get ironed in many households. 'Bella figura' (looking good) starts at home."},
 

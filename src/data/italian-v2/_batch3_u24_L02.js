@@ -68,7 +68,7 @@ const BATCH3_U24_L2 = {
 
     {type:"teach", trg:"semmai", src:"if anything / if at all", pos:"adv", gender:null,
      note:"Adverb. From 'se' + 'mai' (if ever). Corrects or redirects.\n'Semmai, e il contrario' = If anything, it is the opposite.",
-     example:"A: Pensi che sia troppo costoso?\nB: Semmai, e troppo economico per la qualita.",
+     example:"A: Pensi che sia troppo costoso?\nB: Semmai, e troppo economico per la qualità.",
      exampleSrc:"A: Do you think it is too expensive?\nB: If anything, it is too cheap for the quality.",
      funFact:"'Semmai' is an elegant correction tool. It gently redirects the conversation: 'the truth is actually the opposite of what you said.' Italian conversation values indirect correction over blunt contradiction, and 'semmai' is the perfect vehicle for this."},
 

@@ -80,7 +80,7 @@ const BATCH2_U02_L2 = {
 
     {type:"teach", trg:"la settimana", src:"the week", pos:"noun", gender:"f",
      note:"Feminine. From Latin 'septimana' (period of seven days).\n'La settimana prossima' = next week.",
-     example:"A: Ci vediamo la settimana prossima?\nB: Si, lunedi o martedi.",
+     example:"A: Ci vediamo la settimana prossima?\nB: Si, lunedì o martedì.",
      exampleSrc:"A: Shall we meet next week?\nB: Yes, Monday or Tuesday.",
      funFact:"'Settimana' contains 'sette' (seven), making its origin transparent. 'Fine settimana' (weekend) literally means 'end of the week.' Italian weeks officially start on Monday, not Sunday."},
 

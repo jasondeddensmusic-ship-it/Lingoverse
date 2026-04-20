@@ -8,7 +8,7 @@ const BATCH4_U01_L2 = {
 
     {type:"teach", trg:"per favore", src:"please", pos:"adv", gender:null,
      note:"The essential polite word. Literally: for favor/kindness.\nCan go at the beginning or end of a request.",
-     example:"A: Un caffe, per favore.\nB: Subito!",
+     example:"A: Un caffè, per favore.\nB: Subito!",
      exampleSrc:"A: A coffee, please.\nB: Right away!",
      funFact:"'Per favore' is standard but Italians also say 'per cortesia' (by courtesy) or 'per piacere' (by pleasure). Each region tends to prefer one. 'Per piacere' is more common in the north."},
 
@@ -56,7 +56,7 @@ const BATCH4_U01_L2 = {
 
     {type:"teach", trg:"ecco", src:"here it is / there you go", pos:"adv", gender:null,
      note:"Used when presenting or showing something.\nFrom Latin 'ecce' (behold).",
-     example:"A: Dov'e il mio caffe?\nB: Ecco il tuo caffe!",
+     example:"A: Dov'e il mio caffè?\nB: Ecco il tuo caffè!",
      exampleSrc:"A: Where is my coffee?\nB: Here is your coffee!",
      funFact:"From Latin 'ecce' (behold), the same word Caesar used: 'ecce homo' (behold the man). In modern Italian, 'ecco' is casual and everyday but carries 2,000 years of linguistic history."},
 

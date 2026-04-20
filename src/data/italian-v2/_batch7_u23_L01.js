@@ -1,4 +1,4 @@
-// Batch 7 — Unit 23 extra lesson. La politica e la societa: Civic Participation & Volunteering
+// Batch 7 — Unit 23 extra lesson. La politica e la società: Civic Participation & Volunteering
 const BATCH7_L1 = {id:"itv2_u23l_b7_1", title:"La partecipazione civica", icon:"\u{1F3DB}\uFE0F", xp:15, board:true, steps:[
 {type:"intro", title:"La partecipazione civica",
  desc:"Learn vocabulary for civic participation, volunteering, and community engagement in Italy.",

@@ -14,7 +14,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la mobilita sostenibile", src:"sustainable mobility", pos:"noun", gender:"f",
      note:"Feminine compound noun. Environmentally friendly transportation.\n'Mobilita elettrica' = electric mobility. 'Trasporto pubblico' = public transport.",
-     example:"A: La mobilita sostenibile richiede investimenti nel trasporto pubblico.\nB: Molte citta italiane stanno creando piste ciclabili.",
+     example:"A: La mobilita sostenibile richiede investimenti nel trasporto pubblico.\nB: Molte città italiane stanno creando piste ciclabili.",
      exampleSrc:"A: Sustainable mobility requires investments in public transport.\nB: Many Italian cities are creating bike lanes.",
      funFact:"Italian cities are rapidly adopting sustainable mobility. Milan's 'Area C' congestion charge, Bologna's 30 km/h speed limit, and Rome's tram expansion show different approaches. Italy is also Europe's largest market for electric scooters."},
 
@@ -32,7 +32,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"l'economia della conoscenza", src:"the knowledge economy", pos:"noun", gender:"f",
      note:"Feminine compound noun. An economy driven by intellectual capital rather than material production.\n'Societa della conoscenza' = knowledge society.",
-     example:"A: L'economia della conoscenza valorizza le competenze e la creativita.\nB: L'Italia deve investire di piu nell'istruzione e nella ricerca.",
+     example:"A: L'economia della conoscenza valorizza le competenze e la creativita.\nB: L'Italia deve investire di più nell'istruzione e nella ricerca.",
      exampleSrc:"A: The knowledge economy values skills and creativity.\nB: Italy must invest more in education and research.",
      funFact:"Italy spends only 1.4% of GDP on research and development, well below the EU average of 2.3%. Yet Italian researchers produce more scientific publications per euro spent than almost any other country, demonstrating remarkable efficiency."},
 
@@ -108,8 +108,8 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"In quale settore i produttori italiani sono pionieri nell'uso dell'agricoltura di precisione?",
-     opts:["La produzione di riso nella Pianura Padana","La viticoltura e la produzione di vino di qualita","L'allevamento di bufale per la mozzarella campana","La coltivazione di agrumi in Sicilia e Calabria"],
-     ans:"La viticoltura e la produzione di vino di qualita",
+     opts:["La produzione di riso nella Pianura Padana","La viticoltura e la produzione di vino di qualità","L'allevamento di bufale per la mozzarella campana","La coltivazione di agrumi in Sicilia e Calabria"],
+     ans:"La viticoltura e la produzione di vino di qualità",
      hint:"Sensors monitor grape ripeness, soil, and microclimate. This technology helps produce wines of consistent excellence while reducing environmental impact."}
   ,{type:"match",pairs:[{trg:"la mobilita sostenibile",src:"sustainable mobility"},{trg:"il superbonus",src:"the superbonus (building incentive)"},{trg:"la startup green",src:"the green startup"},{trg:"il brevetto verde",src:"the green patent"}]},{type:"mc",q:"How do you say \"knowledge economy\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'economia della conoscenza"],ans:"l'economia della conoscenza",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Il {1} solare sul tetto riduce la bolletta elettrica.",a:["pannello solare"],opts:["pannello solare","idrogeno verde","brevetto verde","superbonus"],hint:"A device installed on roofs that converts sunlight into electricity.",sSrc:"The solar {1} on the roof reduces the electricity bill."}]

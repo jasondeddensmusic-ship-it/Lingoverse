@@ -6,7 +6,7 @@ const BATCH8_L1 = {id:"itv2_u19l_b8_1", title:"Emozioni complesse", icon:"🎭",
 
 {type:"teach", trg:"la nostalgia", src:"the nostalgia / longing", pos:"noun", gender:"f",
  note:"Feminine noun. 'Avere nostalgia di' = to miss/long for.\n'Nostalgico' = nostalgic.",
- example:"A: Ho nostalgia della mia citta.\nB: E normale, sei lontano da tanto tempo.",
+ example:"A: Ho nostalgia della mia città.\nB: E normale, sei lontano da tanto tempo.",
  exampleSrc:"A: I miss my city.\nB: It is normal, you have been away for a long time.",
  funFact:"In Italian, 'nostalgia' covers both missing the past AND missing a place or person. 'Ho nostalgia di te' = I miss you. One word does the work of many English phrases."},
 
@@ -24,7 +24,7 @@ const BATCH8_L1 = {id:"itv2_u19l_b8_1", title:"Emozioni complesse", icon:"🎭",
 
 {type:"teach", trg:"la gelosia", src:"the jealousy", pos:"noun", gender:"f",
  note:"Feminine noun. 'Essere geloso/a' = to be jealous.\n'Geloso di' = jealous of.",
- example:"A: La gelosia puo distruggere un rapporto.\nB: Bisogna avere fiducia.",
+ example:"A: La gelosia può distruggere un rapporto.\nB: Bisogna avere fiducia.",
  exampleSrc:"A: Jealousy can destroy a relationship.\nB: You need to have trust.",
  funFact:"'Gelosia' also means 'window shutter' (the slatted kind). The connection: jealous people 'peek through shutters' to spy on their partners. A very Italian image."},
 

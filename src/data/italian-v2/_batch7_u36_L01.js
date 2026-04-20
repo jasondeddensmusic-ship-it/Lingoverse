@@ -22,9 +22,9 @@ const BATCH7_L1 = {id:"itv2_u36l_b7_1", title:"Strategie per l'esame CILS B2", i
  exampleSrc:"A: In my opinion, the problem is complex.\nB: It requires a multidisciplinary approach.",
  funFact:"The formality hierarchy for opinions: 'a mio avviso' (very formal) > 'a mio parere' (formal) > 'secondo me' (standard) > 'per me' (informal). CILS B2 rewards the formal ones."},
 
-{type:"teach", trg:"non si puo negare che", src:"it cannot be denied that", pos:"verb", gender:null,
+{type:"teach", trg:"non si può negare che", src:"it cannot be denied that", pos:"verb", gender:null,
  note:"Impersonal construction. Concedes a point before presenting your argument.\n'Negare' = to deny.",
- example:"A: Non si puo negare che la situazione sia difficile.\nB: Tuttavia, ci sono soluzioni.",
+ example:"A: Non si può negare che la situazione sia difficile.\nB: Tuttavia, ci sono soluzioni.",
  exampleSrc:"A: It cannot be denied that the situation is difficult.\nB: However, there are solutions.",
  funFact:"This concession-then-counter structure is golden in CILS B2. It shows you can acknowledge complexity before stating your position. Examiners reward this nuance."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u36l_b7_1", title:"Strategie per l'esame CILS B2", i
  ans:"a mio avviso",
  hint:"The most formal of the options. Uses 'a...' (opinion/notice)."},
 
-{type:"fb", s:"Non si puo {1} che la situazione sia difficile.", a:["negare"],
+{type:"fb", s:"Non si può {1} che la situazione sia difficile.", a:["negare"],
  opts:["negare","dire","pensare","credere"],
  hint:"To deny. This phrase concedes a point before your counter-argument.",
  sSrc:"It cannot be {1} that the situation is difficult."},

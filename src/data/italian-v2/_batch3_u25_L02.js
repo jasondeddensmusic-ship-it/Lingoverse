@@ -8,7 +8,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la banca centrale", src:"the central bank", pos:"noun", gender:"f",
      note:"Feminine compound noun. 'La Banca d'Italia' = the Bank of Italy.\n'La BCE' = European Central Bank (Banca Centrale Europea).",
-     example:"A: La banca centrale ha alzato i tassi di interesse.\nB: I mutui diventeranno piu costosi.",
+     example:"A: La banca centrale ha alzato i tassi di interesse.\nB: I mutui diventeranno più costosi.",
      exampleSrc:"A: The central bank raised interest rates.\nB: Mortgages will become more expensive.",
      funFact:"The Banca d'Italia, founded in 1893, was Italy's sole central bank until the euro era. It now shares monetary policy with the ECB but retains supervisory powers over Italian banks."},
 
@@ -50,7 +50,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"il prestito", src:"the loan", pos:"noun", gender:"m",
      note:"Masculine noun. Plural: i prestiti.\n'Prestito bancario' = bank loan. 'Chiedere un prestito' = to apply for a loan.",
-     example:"A: La banca ha rifiutato il prestito.\nB: I requisiti sono diventati piu severi.",
+     example:"A: La banca ha rifiutato il prestito.\nB: I requisiti sono diventati più severi.",
      exampleSrc:"A: The bank refused the loan.\nB: The requirements have become stricter.",
      funFact:"Italian small businesses often struggle to obtain bank loans, a problem called 'credit crunch.' This forces many to rely on self-financing or informal lending, limiting their growth potential."},
 
@@ -81,7 +81,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la svalutazione", src:"the devaluation", pos:"noun", gender:"f",
      note:"Feminine noun. The loss of value of a currency.\nOpposite: la rivalutazione (revaluation).",
-     example:"A: La svalutazione della lira aiutava le esportazioni.\nB: Con l'euro, questo strumento non esiste piu.",
+     example:"A: La svalutazione della lira aiutava le esportazioni.\nB: Con l'euro, questo strumento non esiste più.",
      exampleSrc:"A: The devaluation of the lira helped exports.\nB: With the euro, this tool no longer exists.",
      funFact:"Before the euro, Italy regularly devalued the lira to boost competitiveness. Critics of the euro argue that losing this tool has trapped Italy in slow growth. Supporters counter that devaluation was an inflationary shortcut."},
 

@@ -80,7 +80,7 @@ const BATCH7_L1 = {id:"itv2_u26l_b7_1", title:"Il diritto penale", icon:"\u2696\
  note:"Feminine noun. 'Assolvere' = to acquit.\n'Assolto/a' = acquitted. Opposite of 'condanna.'",
  example:"A: L'imputato ha ottenuto l'assoluzione.\nB: Le prove non erano sufficienti.",
  exampleSrc:"A: The defendant obtained an acquittal.\nB: The evidence was not sufficient.",
- funFact:"The Italian verdict 'assolto perche il fatto non sussiste' (acquitted because the fact does not exist) means the alleged crime never happened. It is the strongest form of acquittal."},
+ funFact:"The Italian verdict 'assolto perché il fatto non sussiste' (acquitted because the fact does not exist) means the alleged crime never happened. It is the strongest form of acquittal."},
 
 {type:"mc", q:"Quanti livelli di giudizio prevede il sistema italiano?",
  opts:["Tre","Due","Quattro","Uno"],

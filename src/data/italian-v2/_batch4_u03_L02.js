@@ -92,7 +92,7 @@ const BATCH4_U03_L2 = {
 
     {type:"teach", trg:"somigliare", src:"to look alike / to resemble", pos:"verb", gender:null,
      note:"Synonym of 'assomigliare.' Slightly more informal.\n'Si somigliano molto' = they look very alike.",
-     example:"A: Voi due vi somigliate molto!\nB: Si, tutti dicono cosi!",
+     example:"A: Voi due vi somigliate molto!\nB: Si, tutti dicono così!",
      exampleSrc:"A: You two look very much alike!\nB: Yes, everyone says that!",
      funFact:"Italian has two verbs for 'to resemble': 'somigliare' and 'assomigliare.' Both are correct and interchangeable. 'Somigliare' is slightly shorter and more colloquial. Both come from Latin 'similis' (similar)."},
 

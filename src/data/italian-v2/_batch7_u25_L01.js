@@ -109,7 +109,7 @@ const BATCH7_L1 = {id:"itv2_u25l_b7_1", title:"Le startup e l'imprenditoria", ic
  hint:"The difference between revenue and costs. How much profit remains.",
  sSrc:"The profit {1} is only five percent."},
 
-{type:"mc", q:"Quale citta e il centro dell'ecosistema startup italiano?",
+{type:"mc", q:"Quale città e il centro dell'ecosistema startup italiano?",
  opts:["Milano","Roma","Napoli","Firenze"],
  ans:"Milano",
  hint:"Italy's financial and business capital in the north."},

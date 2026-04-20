@@ -38,7 +38,7 @@ const BATCH2_U02_L1 = {
 
     {type:"teach", trg:"ottanta", src:"eighty", pos:"num", gender:null,
      note:"From Latin 'octoginta.' Related to 'otto' (eight).\nOttantuno, ottantadue...",
-     example:"A: Il bisnonno ha ottanta anni.\nB: Che bella eta!",
+     example:"A: Il bisnonno ha ottanta anni.\nB: Che bella età!",
      exampleSrc:"A: The great-grandfather is eighty years old.\nB: What a wonderful age!",
      funFact:"In Italian tombola (bingo), each number has a traditional meaning from the Neapolitan 'Smorfia' dream book. 90 is 'la paura' (fear), 1 is 'l'Italia.' These associations date back centuries."},
 
@@ -80,15 +80,15 @@ const BATCH2_U02_L1 = {
 
     {type:"teach", trg:"mezzo", src:"half", pos:"adj", gender:"m",
      note:"Masculine: mezzo. Feminine: mezza.\n'Mezz'ora' = half an hour. 'Mezzo chilo' = half a kilo.",
-     example:"A: Quanto tempo ci vuole?\nB: Mezz'ora, piu o meno.",
+     example:"A: Quanto tempo ci vuole?\nB: Mezz'ora, più o meno.",
      exampleSrc:"A: How long does it take?\nB: Half an hour, more or less.",
      funFact:"'Mezzo' contracts before 'ora': mezz'ora (not mezzo ora). This contraction is standard. The word 'mezzogiorno' (noon) and 'mezzanotte' (midnight) both use 'mezzo' for the midpoint."},
 
     {type:"teach", trg:"doppio", src:"double", pos:"adj", gender:"m",
-     note:"Masculine: doppio. Feminine: doppia.\nFrom Latin 'duplus.' 'Un caffe doppio' = a double espresso.",
-     example:"A: Un caffe doppio, per favore.\nB: Subito!",
+     note:"Masculine: doppio. Feminine: doppia.\nFrom Latin 'duplus.' 'Un caffè doppio' = a double espresso.",
+     example:"A: Un caffè doppio, per favore.\nB: Subito!",
      exampleSrc:"A: A double espresso, please.\nB: Right away!",
-     funFact:"'Doppio' is essential at Italian bars: 'caffe doppio' (double espresso) is for those who need extra energy. The Latin root 'duplus' also gave English 'double' and 'duplicate.'"},
+     funFact:"'Doppio' is essential at Italian bars: 'caffè doppio' (double espresso) is for those who need extra energy. The Latin root 'duplus' also gave English 'double' and 'duplicate.'"},
 
     // Quiz steps
     {type:"mc", q:"Come si dice '40' in italiano?",
@@ -126,7 +126,7 @@ const BATCH2_U02_L1 = {
      ans:"Mezz'ora",
      hint:"The word for 'half' contracts before 'o....' The apostrophe marks the dropped vowel."},
 
-    {type:"fb", s:"Un caffe {1}, per favore.",
+    {type:"fb", s:"Un caffè {1}, per favore.",
      a:["doppio"],
      opts:["doppio","primo","mezzo","ultimo"],
      hint:"You want twice the standard amount. This adjective means 'double,' from Latin 'duplus.'",

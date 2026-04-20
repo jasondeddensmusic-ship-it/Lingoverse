@@ -38,7 +38,7 @@ const BATCH4_U05_L2 = {
 
     {type:"teach", trg:"il bucato", src:"the laundry", pos:"noun", gender:"m",
      note:"Masculine. 'Fare il bucato' = to do laundry.\nFrom 'buca' (hole) referring to old soaking method.",
-     example:"A: Hai fatto il bucato?\nB: Si, e gia in lavatrice.",
+     example:"A: Hai fatto il bucato?\nB: Si, e già in lavatrice.",
      exampleSrc:"A: Have you done the laundry?\nB: Yes, it is already in the washing machine.",
      funFact:"Italians hang laundry to dry ('stendere il bucato') more than using dryers. Clotheslines stretched between buildings are an iconic image of Italian urban life, especially in Naples and southern cities."},
 

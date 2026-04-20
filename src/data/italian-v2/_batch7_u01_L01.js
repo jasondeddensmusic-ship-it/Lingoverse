@@ -84,7 +84,7 @@ const BATCH7_L1 = {id:"itv2_u01l_b7_1", title:"Che tempo fa?", icon:"\u2601\uFE0
 
 {type:"teach", trg:"nevicare", src:"to snow", pos:"verb", gender:null,
  note:"Impersonal verb. 'Nevica' = it snows.\nPast: ha nevicato. Used like 'piovere.'",
- example:"A: Nevica spesso qui?\nB: Solo in montagna, in citta quasi mai.",
+ example:"A: Nevica spesso qui?\nB: Solo in montagna, in città quasi mai.",
  exampleSrc:"A: Does it snow often here?\nB: Only in the mountains, in the city almost never.",
  funFact:"Snow in Rome is so rare it makes national news. When it snowed in 2012, Romans built snowmen at the Colosseum and the photos went viral."},
 

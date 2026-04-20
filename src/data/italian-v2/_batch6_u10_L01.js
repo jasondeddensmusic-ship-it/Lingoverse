@@ -30,7 +30,7 @@ const BATCH6_L1 = {id:"itv2_u10l_b6_1", title:"All'aeroporto", icon:"\u{2708}\u{
 
 {type:"teach", trg:"la stiva", src:"the cargo hold", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le stive.\nThe compartment under the plane for luggage.",
- example:"A: La valigia va in stiva.\nB: L'ho gia pesata, pesa ventidue chili.",
+ example:"A: La valigia va in stiva.\nB: L'ho già pesata, pesa ventidue chili.",
  exampleSrc:"A: The suitcase goes in the cargo hold.\nB: I already weighed it, it weighs twenty-two kilos.",
  funFact:"From old Italian for 'to stow/pack.' Originally a nautical term for the hold of a ship. 'Bagaglio da stiva' is checked luggage."},
 

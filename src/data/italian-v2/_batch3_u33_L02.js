@@ -14,7 +14,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la contemplazione", src:"contemplation", pos:"noun", gender:"f",
      note:"Feminine noun. Deep, focused reflection. 'Vita contemplativa' = contemplative life.\nOpposite: 'vita activa' = active life.",
-     example:"A: La contemplazione di un'opera d'arte richiede tempo e silenzio.\nB: Non si puo capire un quadro con uno sguardo rapido.",
+     example:"A: La contemplazione di un'opera d'arte richiede tempo e silenzio.\nB: Non si può capire un quadro con uno sguardo rapido.",
      exampleSrc:"A: The contemplation of a work of art requires time and silence.\nB: You cannot understand a painting with a quick glance.",
      funFact:"Italian monasticism perfected the art of contemplazione. Benedictine monks in Monte Cassino and Franciscans in Assisi created spaces designed for deep reflection. The Italian museum tradition inherits this contemplative approach."},
 
@@ -75,7 +75,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la fenomenologia", src:"phenomenology", pos:"noun", gender:"f",
      note:"Feminine noun. The study of structures of experience and consciousness.\n'Approccio fenomenologico' = phenomenological approach.",
-     example:"A: La fenomenologia studia come sperimentiamo il mondo.\nB: Non la realta oggettiva, ma la nostra esperienza di essa.",
+     example:"A: La fenomenologia studia come sperimentiamo il mondo.\nB: Non la realtà oggettiva, ma la nostra esperienza di essa.",
      exampleSrc:"A: Phenomenology studies how we experience the world.\nB: Not objective reality, but our experience of it.",
      funFact:"Italian phenomenology, developed by Enzo Paci and Antonio Banfi in Milan, connected Husserl's abstract philosophy to concrete social issues. The Italian school uniquely blended phenomenology with Marxism and existentialism."},
 

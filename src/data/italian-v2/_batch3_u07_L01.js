@@ -8,7 +8,7 @@ const BATCH3_U07_L1 = {
 
     {type:"teach", trg:"arrosto", src:"roasted / roast", pos:"adj", gender:null,
      note:"Invariable adjective. 'Pollo arrosto' = roast chicken.\nFrom Germanic 'raustjan' (to roast).",
-     example:"A: Il pollo arrosto e buono qui?\nB: Si, e la specialita della casa.",
+     example:"A: Il pollo arrosto e buono qui?\nB: Si, e la specialità della casa.",
      exampleSrc:"A: Is the roast chicken good here?\nB: Yes, it is the house specialty.",
      funFact:"'Arrosto' is one of the most common cooking terms in Italy. Sunday 'arrosto' (roast) is a family tradition. The word came to Italian from Germanic languages during the medieval period, replacing the Latin term."},
 
@@ -32,7 +32,7 @@ const BATCH3_U07_L1 = {
 
     {type:"teach", trg:"al vapore", src:"steamed", pos:"adj", gender:null,
      note:"Prepositional phrase, invariable. 'Vapore' = steam.\n'Verdure al vapore' = steamed vegetables.",
-     example:"A: Il pesce al vapore e piu sano.\nB: Si, ma ha meno sapore.",
+     example:"A: Il pesce al vapore e più sano.\nB: Si, ma ha meno sapore.",
      exampleSrc:"A: Steamed fish is healthier.\nB: Yes, but it has less flavor.",
      funFact:"Steaming is considered the healthiest Italian cooking method. Italian dietitians often recommend 'cucina al vapore' for people watching their weight. However, many Italians find steamed food bland and prefer to add olive oil and herbs."},
 
@@ -96,7 +96,7 @@ const BATCH3_U07_L1 = {
      ans:"Grilled over heat",
      hint:"This method uses direct h... from below. Italians love it for fish and vegetables, especially in summer barbecues."},
 
-    {type:"fb", s:"Il pollo {1} e la specialita della casa.",
+    {type:"fb", s:"Il pollo {1} e la specialità della casa.",
      a:["arrosto"],
      opts:["arrosto","fritto","bollito","crudo"],
      hint:"Cooked in the oven until golden brown. A classic Sunday family meal in Italy.",

@@ -6,7 +6,7 @@ const BATCH8_L1 = {id:"itv2_u29l_b8_1", title:"Processi cognitivi", icon:"💡",
 
 {type:"teach", trg:"la percezione", src:"the perception", pos:"noun", gender:"f",
  note:"Feminine noun. 'Percepire' = to perceive.\n'Percezione visiva/uditiva' = visual/auditory perception.",
- example:"A: La percezione del tempo cambia con l'eta.\nB: E vero, gli anni passano piu velocemente.",
+ example:"A: La percezione del tempo cambia con l'età.\nB: E vero, gli anni passano più velocemente.",
  exampleSrc:"A: The perception of time changes with age.\nB: It is true, years pass more quickly.",
  funFact:"Italian philosophy has a rich tradition of studying perception. From Galileo's empiricism to modern neuroscience at SISSA in Trieste, Italians have always investigated how we perceive reality."},
 

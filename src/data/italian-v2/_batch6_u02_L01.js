@@ -42,7 +42,7 @@ const BATCH6_L1 = {id:"itv2_u02l_b6_1", title:"Appuntamenti e orari", icon:"\u{1
 
 {type:"teach", trg:"spostare", src:"to move / to reschedule", pos:"verb", gender:null,
  note:"Regular -are verb. sposto, sposti, sposta.\nFor appointments: to reschedule to another time.",
- example:"A: Possiamo spostare la riunione a giovedi?\nB: Certo, a che ora?",
+ example:"A: Possiamo spostare la riunione a giovedì?\nB: Certo, a che ora?",
  exampleSrc:"A: Can we move the meeting to Thursday?\nB: Of course, at what time?",
  funFact:"Literally 'to change place' (s + postare). Used for both physical objects and time-based events."},
 
@@ -60,13 +60,13 @@ const BATCH6_L1 = {id:"itv2_u02l_b6_1", title:"Appuntamenti e orari", icon:"\u{1
 
 {type:"teach", trg:"in anticipo", src:"early / ahead of time", pos:"adv", gender:null,
  note:"Adverbial phrase. Opposite of 'in ritardo.'\nUsed for arrivals and deadlines.",
- example:"A: Siamo in anticipo di dieci minuti.\nB: Perfetto, possiamo prendere un caffe.",
+ example:"A: Siamo in anticipo di dieci minuti.\nB: Perfetto, possiamo prendere un caffè.",
  exampleSrc:"A: We are ten minutes early.\nB: Perfect, we can have a coffee.",
  funFact:"'Anticipo' shares its root with 'anticipare' (to anticipate). Arriving 'in anticipo' is considered polite in business settings."},
 
 {type:"teach", trg:"l'agenda", src:"the planner / diary", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le agende.\nA personal organizer for appointments and notes.",
- example:"A: Guardo la mia agenda... sono libero venerdi.\nB: Perfetto, venerdi va bene.",
+ example:"A: Guardo la mia agenda... sono libero venerdì.\nB: Perfetto, venerdì va bene.",
  exampleSrc:"A: Let me check my planner... I am free on Friday.\nB: Perfect, Friday works.",
  funFact:"From Latin 'agenda' meaning 'things to be done.' Unlike in English, the Italian 'agenda' usually refers to a physical or digital diary, not a political program."},
 

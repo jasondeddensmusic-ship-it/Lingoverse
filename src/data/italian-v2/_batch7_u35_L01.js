@@ -46,9 +46,9 @@ const BATCH7_L1 = {id:"itv2_u35l_b7_1", title:"La trasformazione digitale", icon
  exampleSrc:"A: Data is the new oil.\nB: But it must be protected and used responsibly.",
  funFact:"Italy's 'Garante della Privacy' (Privacy Authority) is one of Europe's most active data protection agencies. GDPR ('Regolamento Generale sulla Protezione dei Dati') is strictly enforced."},
 
-{type:"teach", trg:"la citta intelligente", src:"smart city", pos:"noun", gender:"f",
+{type:"teach", trg:"la città intelligente", src:"smart city", pos:"noun", gender:"f",
  note:"Feminine noun. Also: 'smart city' (used in Italian).\n'Mobilita intelligente' = smart mobility.",
- example:"A: Milano vuole diventare una citta intelligente.\nB: Con sensori, dati e servizi digitali.",
+ example:"A: Milano vuole diventare una città intelligente.\nB: Con sensori, dati e servizi digitali.",
  exampleSrc:"A: Milan wants to become a smart city.\nB: With sensors, data, and digital services.",
  funFact:"Italian smart city projects focus on 'mobilita' (mobility), waste management, and energy efficiency. Milan, Bologna, and Florence are leaders. Historic centers pose unique challenges for technology integration."},
 
@@ -78,7 +78,7 @@ const BATCH7_L1 = {id:"itv2_u35l_b7_1", title:"La trasformazione digitale", icon
 
 {type:"teach", trg:"l'ecosistema digitale", src:"digital ecosystem", pos:"noun", gender:"m",
  note:"Masculine noun. The interconnected network of digital platforms, services, and users.",
- example:"A: L'ecosistema digitale italiano sta crescendo.\nB: Servono piu investimenti in formazione.",
+ example:"A: L'ecosistema digitale italiano sta crescendo.\nB: Servono più investimenti in formazione.",
  exampleSrc:"A: The Italian digital ecosystem is growing.\nB: More investment in training is needed.",
  funFact:"Italy's digital ecosystem includes major players like Nexi (payments), engineering.it (IT services), and hundreds of innovative startups. Milan's 'Milano Digitale' initiative leads the transformation."},
 
@@ -114,7 +114,7 @@ const BATCH7_L1 = {id:"itv2_u35l_b7_1", title:"La trasformazione digitale", icon
  ans:"Per la tracciabilita dei prodotti",
  hint:"Tracking products from origin to consumer to fight counterfeiting."},
 
-{type:"fb", s:"Milano vuole diventare una citta {1}.", a:["intelligente"],
+{type:"fb", s:"Milano vuole diventare una città {1}.", a:["intelligente"],
  opts:["intelligente","grande","antica","italiana"],
  hint:"A city that uses technology, data, and sensors to improve services.",
  sSrc:"Milan wants to become a {1} city."},

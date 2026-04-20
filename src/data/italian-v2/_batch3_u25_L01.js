@@ -14,7 +14,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"il PIL pro capite", src:"the GDP per capita", pos:"noun", gender:"m",
      note:"Masculine compound noun. GDP divided by population.\n'Reddito pro capite' = per capita income.",
-     example:"A: Il PIL pro capite del nord Italia e molto piu alto del sud.\nB: La differenza e quasi il doppio.",
+     example:"A: Il PIL pro capite del nord Italia e molto più alto del sud.\nB: La differenza e quasi il doppio.",
      exampleSrc:"A: GDP per capita in northern Italy is much higher than the south.\nB: The difference is almost double.",
      funFact:"Italy's north-south economic divide is among the starkest in Europe. Lombardia's per-capita GDP rivals Germany's, while Calabria's is closer to Greece's. This gap has persisted since unification in 1861."},
 
@@ -69,7 +69,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"lo sciopero", src:"the strike", pos:"noun", gender:"m",
      note:"Masculine noun. Plural: gli scioperi.\n'Scioperare' (verb) = to go on strike. 'Sciopero generale' = general strike.",
-     example:"A: Lo sciopero dei trasporti ha paralizzato la citta.\nB: Autobus e treni fermi per otto ore.",
+     example:"A: Lo sciopero dei trasporti ha paralizzato la città.\nB: Autobus e treni fermi per otto ore.",
      exampleSrc:"A: The transport strike paralyzed the city.\nB: Buses and trains stopped for eight hours.",
      funFact:"Italy has one of the highest strike rates in Europe. Strikes must be announced in advance and guarantee 'servizi minimi' (minimum services), especially in transport. Romans joke that the metro is 'always on strike.'"},
 

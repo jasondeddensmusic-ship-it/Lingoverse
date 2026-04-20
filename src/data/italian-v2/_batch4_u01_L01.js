@@ -101,7 +101,7 @@ const BATCH4_U01_L1 = {
      ans:"Thank goodness",
      hint:"This expression literally means 'less bad' and shows relief."},
 
-    {type:"fb", s:"Sono molto {1} perche domani c'e la festa.",
+    {type:"fb", s:"Sono molto {1} perché domani c'e la festa.",
      a:["contento"], opts:["contento","triste","stanco","arrabbiato"],
      hint:"The speaker is looking forward to the party. Pick the positive feeling.",
      sSrc:"I am very {1} because tomorrow there is the party."},

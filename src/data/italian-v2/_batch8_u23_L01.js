@@ -30,7 +30,7 @@ const BATCH8_L1 = {id:"itv2_u23l_b8_1", title:"Il sistema politico", icon:"🗳�
 
 {type:"teach", trg:"il sindaco", src:"the mayor", pos:"noun", gender:"m",
  note:"Masculine noun. Feminine: la sindaca (increasingly used).\n'Palazzo del sindaco' = mayor's office.",
- example:"A: Chi e il sindaco della tua citta?\nB: E stato eletto l'anno scorso.",
+ example:"A: Chi e il sindaco della tua città?\nB: E stato eletto l'anno scorso.",
  exampleSrc:"A: Who is the mayor of your city?\nB: He was elected last year.",
  funFact:"Italian mayors have significant power. They control local police, urban planning, and civil ceremonies. They can even perform weddings. The mayor's office is in the 'municipio.'"},
 

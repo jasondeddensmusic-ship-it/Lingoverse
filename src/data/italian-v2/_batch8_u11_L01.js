@@ -30,7 +30,7 @@ const BATCH8_L1 = {id:"itv2_u11l_b8_1", title:"Participi irregolari", icon:"🔀
 
 {type:"teach", trg:"coprire", src:"to cover", pos:"verb", gender:null,
  note:"Irregular. Past participle: coperto.\n'Scoprire' (to discover) = s- + coprire (uncover).",
- example:"A: Ho coperto il divano con una coperta.\nB: Buona idea, cosi resta pulito.",
+ example:"A: Ho coperto il divano con una coperta.\nB: Buona idea, così resta pulito.",
  exampleSrc:"A: I covered the sofa with a blanket.\nB: Good idea, it stays clean that way.",
  funFact:"'Scoprire' (to discover) literally means 'to uncover.' Columbus 'uncovered' America. 'Scoprire l'acqua calda' (to discover hot water) means to state the obvious."},
 

@@ -62,7 +62,7 @@ const BATCH3_U19_L2 = {
 
     {type:"teach", trg:"il legame", src:"the bond / tie", pos:"noun", gender:"m",
      note:"Masculine. From 'legare' (to bind, tie).\n'Legame familiare' = family bond.",
-     example:"A: Il legame tra madre e figlio e fortissimo.\nB: E il legame piu naturale che esista.",
+     example:"A: Il legame tra madre e figlio e fortissimo.\nB: E il legame più naturale che esista.",
      exampleSrc:"A: The bond between mother and child is very strong.\nB: It is the most natural bond that exists.",
      funFact:"'Legame' comes from 'legare' (to bind), from Latin 'ligare.' The same root gave English 'ligament,' 'league,' and 'obligation.' Italian culture places extraordinary emphasis on family bonds. 'I legami di sangue' (blood ties) are considered sacred in traditional Italian society."},
 

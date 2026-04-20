@@ -99,7 +99,7 @@ const BATCH7_L1 = {id:"itv2_u27l_b7_1", title:"Lo spazio e l'astronomia", icon:"
  {trg:"l'asteroide", src:"asteroid"}
 ]},
 
-{type:"mc", q:"Quale astronauta italiana ha fatto il caffe nello spazio?",
+{type:"mc", q:"Quale astronauta italiana ha fatto il caffè nello spazio?",
  opts:["Samantha Cristoforetti","Luca Parmitano","Paolo Nespoli","Roberto Vittori"],
  ans:"Samantha Cristoforetti",
  hint:"The first Italian woman in space. She made espresso in zero gravity."},

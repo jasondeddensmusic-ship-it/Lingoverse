@@ -30,7 +30,7 @@ const BATCH6_L1 = {id:"itv2_u12l_b6_1", title:"Verbi di movimento", icon:"\u{1F3
 
 {type:"teach", trg:"attraversare", src:"to cross", pos:"verb", gender:null,
  note:"Regular -are verb. attraverso, attraversi, attraversa.\nUses avere. For streets, rivers, borders.",
- example:"A: Attraversa la strada al semaforo.\nB: Si, e piu sicuro.",
+ example:"A: Attraversa la strada al semaforo.\nB: Si, e più sicuro.",
  exampleSrc:"A: Cross the street at the traffic light.\nB: Yes, it is safer.",
  funFact:"'Attraversare' contains 'traverso' (across). Italian pedestrians technically have the right of way at zebra crossings, though drivers in Naples may disagree."},
 
@@ -60,7 +60,7 @@ const BATCH6_L1 = {id:"itv2_u12l_b6_1", title:"Verbi di movimento", icon:"\u{1F3
 
 {type:"teach", trg:"trascinare", src:"to drag / to haul", pos:"verb", gender:null,
  note:"Regular -are verb. trascino, trascini, trascina.\nPhysically dragging something heavy.",
- example:"A: Ho trascinato la valigia per tutto l'aeroporto.\nB: Era cosi pesante?",
+ example:"A: Ho trascinato la valigia per tutto l'aeroporto.\nB: Era così pesante?",
  exampleSrc:"A: I dragged the suitcase through the whole airport.\nB: Was it that heavy?",
  funFact:"'Trascinare' also means to captivate: 'un discorso trascinante' is a rousing speech. The idea of being pulled along by something compelling."},
 

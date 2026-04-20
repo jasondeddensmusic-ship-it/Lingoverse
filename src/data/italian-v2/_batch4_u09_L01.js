@@ -86,7 +86,7 @@ const BATCH4_U09_L1 = {
 
     {type:"teach", trg:"l'energia", src:"energy", pos:"noun", gender:"f",
      note:"Feminine. 'Avere energia' = to have energy.\n'Sono senza energia' = I have no energy.",
-     example:"A: Oggi non ho energia.\nB: Forse hai bisogno di dormire di piu.",
+     example:"A: Oggi non ho energia.\nB: Forse hai bisogno di dormire di più.",
      exampleSrc:"A: Today I have no energy.\nB: Maybe you need to sleep more.",
      funFact:"Italians believe strongly in the connection between food and energy. 'Mangia che ti fa bene!' (Eat, it is good for you!) is the Italian grandmother's universal prescription. Italian culture sees good food as the foundation of good health."},
 

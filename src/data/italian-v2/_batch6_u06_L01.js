@@ -1,4 +1,4 @@
-// Batch 6 — Unit 06 extra lesson. In citta: Public Services & Emergencies
+// Batch 6 — Unit 06 extra lesson. In città: Public Services & Emergencies
 const BATCH6_L1 = {id:"itv2_u06l_b6_1", title:"I servizi pubblici", icon:"\u{1F3E5}", xp:15, board:true, steps:[
 {type:"intro", title:"I servizi pubblici",
  desc:"Learn essential vocabulary for public services, emergencies, and getting help in Italian cities.",
@@ -60,7 +60,7 @@ const BATCH6_L1 = {id:"itv2_u06l_b6_1", title:"I servizi pubblici", icon:"\u{1F3
 
 {type:"teach", trg:"soccorrere", src:"to help / to rescue", pos:"verb", gender:null,
  note:"Irregular -ere verb. soccorro, soccorri, soccorre.\nPast participle: soccorso.",
- example:"A: I volontari soccorrono le persone in difficolta.\nB: Fanno un lavoro importante.",
+ example:"A: I volontari soccorrono le persone in difficoltà.\nB: Fanno un lavoro importante.",
  exampleSrc:"A: The volunteers help people in difficulty.\nB: They do important work.",
  funFact:"The noun 'soccorso' appears everywhere in Italy: 'pronto soccorso' (ER), 'soccorso stradale' (roadside assistance), 'soccorso alpino' (mountain rescue)."},
 
@@ -72,9 +72,9 @@ const BATCH6_L1 = {id:"itv2_u06l_b6_1", title:"I servizi pubblici", icon:"\u{1F3
 
 {type:"teach", trg:"il documento", src:"the document / ID", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i documenti.\nIncludes ID card, passport, driver's license.",
- example:"A: Ha un documento, per favore?\nB: Ecco la mia carta d'identita.",
+ example:"A: Ha un documento, per favore?\nB: Ecco la mia carta d'identità.",
  exampleSrc:"A: Do you have an ID, please?\nB: Here is my identity card.",
- funFact:"Italians are legally required to carry a 'documento d'identita' at all times. The 'carta d'identita' (ID card) is the most common form."},
+ funFact:"Italians are legally required to carry a 'documento d'identità' at all times. The 'carta d'identità' (ID card) is the most common form."},
 
 {type:"teach", trg:"smarrire", src:"to lose / to misplace", pos:"verb", gender:null,
  note:"Regular -ire verb with -isc- infix: smarrisco, smarrisci, smarrisce.\nFormal for losing objects.",
@@ -120,7 +120,7 @@ const BATCH6_L1 = {id:"itv2_u06l_b6_1", title:"I servizi pubblici", icon:"\u{1F3
  ans:"to lose or misplace",
  hint:"A formal way to say you lost something. Used in 'oggetti smarriti' (lost and found)."},
 
-{type:"fb", s:"Ha un {1}, per favore? La carta d'identita va bene.", a:["documento"],
+{type:"fb", s:"Ha un {1}, per favore? La carta d'identità va bene.", a:["documento"],
  opts:["documento","testimone","rischio","vigile"],
  hint:"An official paper that proves your identity. ID card, passport, or license.",
  sSrc:"Do you have an {1}, please? The identity card is fine."},

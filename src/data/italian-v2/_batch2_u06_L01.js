@@ -1,8 +1,8 @@
 // Unit 06 Batch 2 — Lesson 1: More City Places & Shops
 const BATCH2_U06_L1 = {
-  id:"itv2_u06l_b2_1", title:"I negozi in citta", icon:"\ud83d\udecd\ufe0f", xp:15, board:true,
+  id:"itv2_u06l_b2_1", title:"I negozi in città", icon:"\ud83d\udecd\ufe0f", xp:15, board:true,
   steps:[
-    {type:"intro", title:"I negozi in citta",
+    {type:"intro", title:"I negozi in città",
      desc:"Learn the names of shops, services, and other places you will find in an Italian city.",
      goals:["Name common shops and services","Ask where shops are located","Understand Italian shopping culture"]},
 
@@ -76,7 +76,7 @@ const BATCH2_U06_L1 = {
      note:"Masculine: chiuso. Feminine: chiusa.\nPast participle of 'chiudere.' 'E chiuso?' = Is it closed?",
      example:"A: La farmacia e chiusa?\nB: Si, apre domani mattina.",
      exampleSrc:"A: Is the pharmacy closed?\nB: Yes, it opens tomorrow morning.",
-     funFact:"'Chiuso per ferie' (closed for holidays) is a common August sign. 'Chiuso il lunedi' (closed Mondays) appears on many Italian shops and museums. Always check before visiting."},
+     funFact:"'Chiuso per ferie' (closed for holidays) is a common August sign. 'Chiuso il lunedì' (closed Mondays) appears on many Italian shops and museums. Always check before visiting."},
 
     {type:"teach", trg:"la via", src:"the street / road (address)", pos:"noun", gender:"f",
      note:"Feminine. Used in addresses: 'Via Roma, 15.'\nFrom Latin 'via' (road, path, way).",

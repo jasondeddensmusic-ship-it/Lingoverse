@@ -48,7 +48,7 @@ const BATCH7_L1 = {id:"itv2_u31l_b7_1", title:"Le notizie false e l'alfabetizzaz
 
 {type:"teach", trg:"la trasparenza", src:"transparency", pos:"noun", gender:"f",
  note:"Feminine noun. 'Trasparente' = transparent.\n'Trasparenza istituzionale' = institutional transparency.",
- example:"A: Chiediamo piu trasparenza ai media.\nB: Il pubblico ha diritto all'informazione.",
+ example:"A: Chiediamo più trasparenza ai media.\nB: Il pubblico ha diritto all'informazione.",
  exampleSrc:"A: We demand more transparency from the media.\nB: The public has a right to information.",
  funFact:"'Trasparenza' is a key word in Italian public discourse. FOIA (Freedom of Information Act) was adopted in Italy in 2016, giving citizens the right to access government data."},
 

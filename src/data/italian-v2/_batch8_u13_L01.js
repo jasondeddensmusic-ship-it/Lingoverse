@@ -50,7 +50,7 @@ const BATCH8_L1 = {id:"itv2_u13l_b8_1", title:"Dubbi e incertezze", icon:"🤔",
  note:"Regular -are verb. 'Negare che...' + subjunctive.\n'La negazione' = the denial/negation.",
  example:"A: Nega che ci sia un problema.\nB: Ma il problema e evidente!",
  exampleSrc:"A: He denies that there is a problem.\nB: But the problem is obvious!",
- funFact:"'Non si puo negare che...' (you cannot deny that...) is a powerful rhetorical tool in Italian debate. It introduces a point as undeniable fact."},
+ funFact:"'Non si può negare che...' (you cannot deny that...) is a powerful rhetorical tool in Italian debate. It introduces a point as undeniable fact."},
 
 {type:"teach", trg:"l'apparenza", src:"the appearance / semblance", pos:"noun", gender:"f",
  note:"Feminine noun. 'Le apparenze ingannano' = appearances are deceiving.\n'In apparenza' = apparently.",

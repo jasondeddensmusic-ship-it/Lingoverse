@@ -20,7 +20,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"la fobia", src:"the phobia", pos:"noun", gender:"f",
      note:"Feminine noun. Plural: le fobie.\n'Fobia sociale' = social phobia. 'Aracnofobia' = fear of spiders.",
-     example:"A: La fobia dei ragni e molto comune.\nB: Si puo trattare con la terapia dell'esposizione.",
+     example:"A: La fobia dei ragni e molto comune.\nB: Si può trattare con la terapia dell'esposizione.",
      exampleSrc:"A: Fear of spiders is very common.\nB: It can be treated with exposure therapy.",
      funFact:"From Greek 'phobos' (fear). Italian medical terminology uses compound forms: 'claustrofobia,' 'agorafobia,' 'aracnofobia.' The productive suffix '-fobia' can create new words as needed."},
 
@@ -38,8 +38,8 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Qual e la differenza tra uno psicologo e uno psichiatra in Italia?",
-     opts:["Non c'e nessuna differenza pratica tra le due figure","Lo psichiatra e un medico che puo prescrivere farmaci, lo psicologo no","Lo psicologo lavora solo con i bambini, lo psichiatra con gli adulti","Lo psichiatra lavora solo in ospedale, lo psicologo solo in studio privato"],
-     ans:"Lo psichiatra e un medico che puo prescrivere farmaci, lo psicologo no",
+     opts:["Non c'e nessuna differenza pratica tra le due figure","Lo psichiatra e un medico che può prescrivere farmaci, lo psicologo no","Lo psicologo lavora solo con i bambini, lo psichiatra con gli adulti","Lo psichiatra lavora solo in ospedale, lo psicologo solo in studio privato"],
+     ans:"Lo psichiatra e un medico che può prescrivere farmaci, lo psicologo no",
      hint:"One has a medical degree and can prescribe medication. The other works through talk therapy and assessment."},
 
     {type:"teach", trg:"il questionario", src:"the questionnaire", pos:"noun", gender:"m",
@@ -75,13 +75,13 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"la motivazione", src:"motivation", pos:"noun", gender:"f",
      note:"Feminine noun. The drive behind behavior.\n'Motivazione intrinseca/estrinseca' = intrinsic/extrinsic motivation.",
-     example:"A: La motivazione e la chiave del successo scolastico.\nB: Senza motivazione, anche i piu intelligenti non rendono.",
+     example:"A: La motivazione e la chiave del successo scolastico.\nB: Senza motivazione, anche i più intelligenti non rendono.",
      exampleSrc:"A: Motivation is the key to academic success.\nB: Without motivation, even the brightest underperform.",
      funFact:"Italian educational psychology places strong emphasis on 'motivazione allo studio' (study motivation). Research shows that Italian students' motivation drops significantly during middle school, a pattern linked to the transition from elementary school's nurturing environment."},
 
     {type:"teach", trg:"il campione", src:"the sample (research)", pos:"noun", gender:"m",
      note:"Masculine noun. In research: the group of participants studied.\n'Campione rappresentativo' = representative sample.",
-     example:"A: Il campione dello studio includeva 500 partecipanti.\nB: Era bilanciato per eta e genere.",
+     example:"A: Il campione dello studio includeva 500 partecipanti.\nB: Era bilanciato per età e genere.",
      exampleSrc:"A: The study sample included 500 participants.\nB: It was balanced by age and gender.",
      funFact:"'Campione' in research (sample of participants) uses the same word as 'campione' in science (specimen) and sports (champion). All derive from Latin 'campus' but through very different metaphorical paths."},
 
@@ -106,7 +106,7 @@ const BATCH3_L_1 = {
     ]},
 
     {type:"fb",
-     s:"La {1} intrinseca e piu efficace di quella estrinseca nel lungo periodo.",
+     s:"La {1} intrinseca e più efficace di quella estrinseca nel lungo periodo.",
      a:["motivazione"],
      opts:["motivazione","cognizione","dipendenza","personalita"],
      hint:"The internal drive that pushes someone to act. When it comes from within, it lasts longer than when driven by external rewards.",

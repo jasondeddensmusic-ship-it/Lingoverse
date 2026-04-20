@@ -109,8 +109,8 @@ const BATCH7_L1 = {id:"itv2_u05l_b7_1", title:"Attrezzi e fai-da-te", icon:"\u{1
  hint:"To check the exact size using a tape measure or ruler.",
  sSrc:"I need to {1} the wall before buying the bookshelf."},
 
-{type:"mc", q:"Quando NON si puo usare il trapano in un palazzo italiano?",
- opts:["Durante l'ora di pranzo e dopo le 9 di sera","Solo la domenica","Mai, e sempre permesso","Solo il lunedi"],
+{type:"mc", q:"Quando NON si può usare il trapano in un palazzo italiano?",
+ opts:["Durante l'ora di pranzo e dopo le 9 di sera","Solo la domenica","Mai, e sempre permesso","Solo il lunedì"],
  ans:"Durante l'ora di pranzo e dopo le 9 di sera",
  hint:"Quiet hours in Italian apartments protect lunch and evening rest."},
 

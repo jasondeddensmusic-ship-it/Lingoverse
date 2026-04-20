@@ -24,7 +24,7 @@ const BATCH8_L1 = {id:"itv2_u32l_b8_1", title:"Migrazione e culture", icon:"🌏
 
 {type:"teach", trg:"la convivenza", src:"the coexistence / cohabitation", pos:"noun", gender:"f",
  note:"Feminine noun. 'Convivere' = to coexist/live together.\n'Convivenza pacifica' = peaceful coexistence.",
- example:"A: La convivenza tra culture diverse arricchisce la societa.\nB: La diversita e una risorsa.",
+ example:"A: La convivenza tra culture diverse arricchisce la società.\nB: La diversita e una risorsa.",
  exampleSrc:"A: Coexistence between different cultures enriches society.\nB: Diversity is a resource.",
  funFact:"'Convivenza' also means living together as an unmarried couple. Italy legally recognized 'unioni civili' (civil unions) in 2016, changing the meaning of convivenza in Italian law."},
 

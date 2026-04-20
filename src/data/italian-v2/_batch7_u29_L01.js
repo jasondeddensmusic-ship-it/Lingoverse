@@ -24,7 +24,7 @@ const BATCH7_L1 = {id:"itv2_u29l_b7_1", title:"La motivazione e la crescita pers
 
 {type:"teach", trg:"la resilienza", src:"resilience", pos:"noun", gender:"f",
  note:"Feminine noun. 'Resiliente' = resilient.\nThe ability to recover from difficulties.",
- example:"A: La resilienza e una qualita importante.\nB: Ci aiuta a superare i momenti difficili.",
+ example:"A: La resilienza e una qualità importante.\nB: Ci aiuta a superare i momenti difficili.",
  exampleSrc:"A: Resilience is an important quality.\nB: It helps us overcome difficult times.",
  funFact:"'Resilienza' became hugely popular in Italian after 2020. It was chosen as Italy's word of the year. Originally an engineering term (material that bounces back), it entered everyday vocabulary."},
 
@@ -42,7 +42,7 @@ const BATCH7_L1 = {id:"itv2_u29l_b7_1", title:"La motivazione e la crescita pers
 
 {type:"teach", trg:"superare", src:"to overcome / to surpass", pos:"verb", gender:null,
  note:"Regular -are verb. supero, superi, supera.\n'Superare un ostacolo' = to overcome an obstacle.",
- example:"A: Puoi superare qualsiasi difficolta.\nB: Basta credere in se stessi.",
+ example:"A: Puoi superare qualsiasi difficoltà.\nB: Basta credere in se stessi.",
  exampleSrc:"A: You can overcome any difficulty.\nB: You just need to believe in yourself.",
  funFact:"'Superare' works for everything: exams (superare un esame), obstacles (superare un ostacolo), speed limits (superare il limite), and even other cars (superare un'auto = to overtake)."},
 
@@ -66,7 +66,7 @@ const BATCH7_L1 = {id:"itv2_u29l_b7_1", title:"La motivazione e la crescita pers
 
 {type:"teach", trg:"la sfida", src:"the challenge", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le sfide.\n'Sfidare' = to challenge. 'Lanciarsi una sfida' = to challenge oneself.",
- example:"A: Ogni sfida e un'opportunita di crescita.\nB: Sono d'accordo, le sfide ci rendono piu forti.",
+ example:"A: Ogni sfida e un'opportunita di crescita.\nB: Sono d'accordo, le sfide ci rendono più forti.",
  exampleSrc:"A: Every challenge is an opportunity for growth.\nB: I agree, challenges make us stronger.",
  funFact:"'Sfida' comes from 'sfiducia' (distrust), as a challenge originally meant doubting someone's ability. The meaning evolved from 'I doubt you can' to 'I dare you to.'"},
 
@@ -114,7 +114,7 @@ const BATCH7_L1 = {id:"itv2_u29l_b7_1", title:"La motivazione e la crescita pers
  ans:"Grit / fierce determination",
  hint:"The highest compliment in Italian sports. Fighting with heart, not just talent."},
 
-{type:"fb", s:"Puoi {1} qualsiasi difficolta.", a:["superare"],
+{type:"fb", s:"Puoi {1} qualsiasi difficoltà.", a:["superare"],
  opts:["superare","creare","perdere","dimenticare"],
  hint:"To overcome, to get past. Works for obstacles, exams, and even other cars.",
  sSrc:"You can {1} any difficulty."},

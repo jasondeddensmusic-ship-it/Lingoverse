@@ -8,7 +8,7 @@ const BATCH3_U20_L1 = {
 
     {type:"teach", trg:"la filosofia", src:"the philosophy", pos:"noun", gender:"f",
      note:"Feminine. From Greek 'philosophia' (love of wisdom).\nMandatory in Italian liceo for 3 years.",
-     example:"A: La filosofia e la mia materia preferita.\nB: Quale filosofo ti piace di piu?",
+     example:"A: La filosofia e la mia materia preferita.\nB: Quale filosofo ti piace di più?",
      exampleSrc:"A: Philosophy is my favorite subject.\nB: Which philosopher do you like the most?",
      funFact:"Philosophy is mandatory in all Italian licei (academic high schools) for three years. Students study from the Pre-Socratics through modern thinkers. This is unusual in Europe. Italy considers philosophical thinking essential to education, not an elective luxury."},
 

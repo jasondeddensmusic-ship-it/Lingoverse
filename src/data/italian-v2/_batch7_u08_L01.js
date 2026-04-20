@@ -36,7 +36,7 @@ const BATCH7_L1 = {id:"itv2_u08l_b7_1", title:"Gioielli e accessori", icon:"\u{1
 
 {type:"teach", trg:"l'argento", src:"silver", pos:"noun", gender:"m",
  note:"Masculine noun. 'D'argento' = made of silver.\nAlso used for hair: 'capelli d'argento' = silver hair.",
- example:"A: Preferisco l'argento all'oro.\nB: Anche io, e piu elegante.",
+ example:"A: Preferisco l'argento all'oro.\nB: Anche io, e più elegante.",
  exampleSrc:"A: I prefer silver to gold.\nB: Me too, it is more elegant.",
  funFact:"'Argento vivo' (quicksilver/mercury) is used figuratively to describe a restless person. 'Ha l'argento vivo addosso' means someone who cannot sit still."},
 
@@ -48,7 +48,7 @@ const BATCH7_L1 = {id:"itv2_u08l_b7_1", title:"Gioielli e accessori", icon:"\u{1
 
 {type:"teach", trg:"il diamante", src:"the diamond", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i diamanti.\nFrom Greek 'adamas' (unconquerable).",
- example:"A: Il diamante e la pietra piu dura.\nB: Per questo si dice 'un diamante e per sempre.'",
+ example:"A: Il diamante e la pietra più dura.\nB: Per questo si dice 'un diamante e per sempre.'",
  exampleSrc:"A: The diamond is the hardest stone.\nB: That is why they say 'a diamond is forever.'",
  funFact:"Italy is a major diamond cutting and trading center. Valenza Po in Piedmont is known as the 'city of gold and jewels' for its concentration of jewelry workshops."},
 

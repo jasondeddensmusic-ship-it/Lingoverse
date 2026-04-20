@@ -42,7 +42,7 @@ const BATCH6_L1 = {id:"itv2_u15l_b6_1", title:"Problemi in casa", icon:"\u{1F527
 
 {type:"teach", trg:"la muffa", src:"the mold / mildew", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le muffe.\nA common problem in old Italian buildings with poor ventilation.",
- example:"A: C'e muffa sulle pareti del bagno.\nB: Bisogna arieggiare di piu.",
+ example:"A: C'e muffa sulle pareti del bagno.\nB: Bisogna arieggiare di più.",
  exampleSrc:"A: There is mold on the bathroom walls.\nB: We need to air out more.",
  funFact:"Mold is a common problem in Italian apartments, especially in humid coastal cities. 'Arieggiare' (to air out) by opening windows is the traditional solution."},
 
@@ -60,7 +60,7 @@ const BATCH6_L1 = {id:"itv2_u15l_b6_1", title:"Problemi in casa", icon:"\u{1F527
 
 {type:"teach", trg:"aggiustare", src:"to fix / to adjust", pos:"verb", gender:null,
  note:"Regular -are verb. aggiusto, aggiusti, aggiusta.\nSynonym of 'riparare,' slightly more informal.",
- example:"A: Chi puo aggiustare la lavatrice?\nB: Chiama il tecnico dell'assistenza.",
+ example:"A: Chi può aggiustare la lavatrice?\nB: Chiama il tecnico dell'assistenza.",
  exampleSrc:"A: Who can fix the washing machine?\nB: Call the service technician.",
  funFact:"'Aggiustare' and 'riparare' are largely interchangeable. 'Aggiustare' has a nuance of adjusting or fine-tuning, while 'riparare' focuses on restoring function."},
 
@@ -110,7 +110,7 @@ const BATCH6_L1 = {id:"itv2_u15l_b6_1", title:"Problemi in casa", icon:"\u{1F527
  ans:"to flood",
  hint:"From 'lago' (lake). When too much water fills a room."},
 
-{type:"fb", s:"C'e {1} sulle pareti, bisogna arieggiare di piu.", a:["muffa"],
+{type:"fb", s:"C'e {1} sulle pareti, bisogna arieggiare di più.", a:["muffa"],
  opts:["muffa","crepa","perdita","presa"],
  hint:"A fungal growth on walls caused by humidity. Common in old buildings.",
  sSrc:"There is {1} on the walls, we need to air out more."},

@@ -1,4 +1,4 @@
-// Batch 6 — Unit 23 extra lesson. La politica e la societa: Justice & Legal System
+// Batch 6 — Unit 23 extra lesson. La politica e la società: Justice & Legal System
 const BATCH6_L1 = {id:"itv2_u23l_b6_1", title:"La giustizia e i diritti", icon:"\u{2696}\u{FE0F}", xp:15, board:true, steps:[
 {type:"intro", title:"La giustizia e i diritti",
  desc:"Learn vocabulary about justice, rights, and the Italian legal system at an intermediate level.",
@@ -30,13 +30,13 @@ const BATCH6_L1 = {id:"itv2_u23l_b6_1", title:"La giustizia e i diritti", icon:"
 
 {type:"teach", trg:"il processo", src:"the trial / process", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i processi.\nBoth a legal trial and a general process.",
- example:"A: Il processo dura gia da due anni.\nB: In Italia i processi sono spesso lunghi.",
+ example:"A: Il processo dura già da due anni.\nB: In Italia i processi sono spesso lunghi.",
  exampleSrc:"A: The trial has been going on for two years.\nB: In Italy trials are often long.",
  funFact:"The Italian justice system is notoriously slow. Cases can take years to resolve. 'Processo breve' (short trial) has been a political debate topic for decades."},
 
 {type:"teach", trg:"la sentenza", src:"the verdict / sentence", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le sentenze.\nThe judge's official decision in a case.",
- example:"A: La sentenza sara pronunciata venerdi.\nB: Speriamo in un risultato giusto.",
+ example:"A: La sentenza sara pronunciata venerdì.\nB: Speriamo in un risultato giusto.",
  exampleSrc:"A: The verdict will be pronounced on Friday.\nB: We hope for a fair result.",
  funFact:"Italian criminal courts have three levels: Tribunale (first instance), Corte d'Appello (appeal), and Cassazione (supreme court). Each can issue a different 'sentenza.'"},
 
@@ -64,11 +64,11 @@ const BATCH6_L1 = {id:"itv2_u23l_b6_1", title:"La giustizia e i diritti", icon:"
  exampleSrc:"A: Equality before the law is a fundamental principle.\nB: Unfortunately it is not always respected.",
  funFact:"Article 3 of the Italian Constitution guarantees equality regardless of sex, race, language, religion, or political opinion. It is one of the most cited articles."},
 
-{type:"teach", trg:"la liberta", src:"the freedom / liberty", pos:"noun", gender:"f",
- note:"Feminine noun. Plural: le liberta.\nA core value in the Italian Constitution.",
- example:"A: La liberta di espressione e un diritto fondamentale.\nB: Si, e va sempre difesa.",
+{type:"teach", trg:"la libertà", src:"the freedom / liberty", pos:"noun", gender:"f",
+ note:"Feminine noun. Plural: le libertà.\nA core value in the Italian Constitution.",
+ example:"A: La libertà di espressione e un diritto fondamentale.\nB: Si, e va sempre difesa.",
  exampleSrc:"A: Freedom of expression is a fundamental right.\nB: Yes, and it must always be defended.",
- funFact:"The Italian Constitution, born in 1948 after fascism, places enormous emphasis on 'liberta.' The word appears over 30 times in the document."},
+ funFact:"The Italian Constitution, born in 1948 after fascism, places enormous emphasis on 'libertà.' The word appears over 30 times in the document."},
 
 {type:"teach", trg:"la pena", src:"the penalty / punishment", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le pene.\n'Pena di morte' = death penalty (abolished in Italy in 1947).",
@@ -95,7 +95,7 @@ const BATCH6_L1 = {id:"itv2_u23l_b6_1", title:"La giustizia e i diritti", icon:"
 {type:"match", pairs:[
  {trg:"il diritto", src:"right / law"},
  {trg:"il dovere", src:"duty"},
- {trg:"la liberta", src:"freedom"},
+ {trg:"la libertà", src:"freedom"},
  {trg:"l'uguaglianza", src:"equality"}
 ]},
 

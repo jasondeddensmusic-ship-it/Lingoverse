@@ -14,7 +14,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"il genocidio", src:"genocide", pos:"noun", gender:"m",
      note:"Masculine noun. The deliberate killing of a large group of people.\n'Crimine contro l'umanita' = crime against humanity.",
-     example:"A: Il genocidio e il crimine piu grave previsto dal diritto internazionale.\nB: La Corte Penale Internazionale ha il compito di giudicarlo.",
+     example:"A: Il genocidio e il crimine più grave previsto dal diritto internazionale.\nB: La Corte Penale Internazionale ha il compito di giudicarlo.",
      exampleSrc:"A: Genocide is the most serious crime under international law.\nB: The International Criminal Court has the task of judging it.",
      funFact:"Raphael Lemkin coined 'genocide' in 1944. Italy ratified the UN Genocide Convention in 1952. Italian courts have tried cases related to historical atrocities in Ethiopia during the colonial period, though many convictions came very late."},
 
@@ -100,7 +100,7 @@ const BATCH3_L_2 = {
     ]},
 
     {type:"fb",
-     s:"La {1} Penale Internazionale giudica i crimini piu gravi come il genocidio.",
+     s:"La {1} Penale Internazionale giudica i crimini più gravi come il genocidio.",
      a:["Corte"],
      opts:["Corte","Commissione","Assemblea","Organizzazione"],
      hint:"This international judicial body, based in The Hague, prosecutes the most serious crimes. Its founding statute was adopted in Rome in 1998.",
@@ -108,7 +108,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Qual e la differenza tra 'profugo,' 'rifugiato' e 'sfollato' in italiano?",
-     opts:["Sono tre sinonimi perfetti e intercambiabili in ogni contesto","Il profugo e generico, il rifugiato ha status giuridico internazionale, lo sfollato e interno al proprio paese","Il profugo viene dall'Africa, il rifugiato dal Medio Oriente, lo sfollato dall'Europa orientale","La differenza riguarda solo l'eta: profugo per adulti, rifugiato per famiglie, sfollato per minori"],
+     opts:["Sono tre sinonimi perfetti e intercambiabili in ogni contesto","Il profugo e generico, il rifugiato ha status giuridico internazionale, lo sfollato e interno al proprio paese","Il profugo viene dall'Africa, il rifugiato dal Medio Oriente, lo sfollato dall'Europa orientale","La differenza riguarda solo l'età: profugo per adulti, rifugiato per famiglie, sfollato per minori"],
      ans:"Il profugo e generico, il rifugiato ha status giuridico internazionale, lo sfollato e interno al proprio paese",
      hint:"Three related but distinct terms: one is general, one has specific legal recognition under international law, and one refers to displacement within national borders."}
   ,{type:"match",pairs:[{trg:"il genocidio",src:"genocide"},{trg:"la zona di conflitto",src:"the conflict zone"},{trg:"le mine antiuomo",src:"antipersonnel landmines"},{trg:"la sicurezza collettiva",src:"collective security"}]},

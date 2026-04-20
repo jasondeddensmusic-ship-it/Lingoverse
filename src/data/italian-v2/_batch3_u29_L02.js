@@ -14,7 +14,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"l'apprendimento", src:"learning", pos:"noun", gender:"m",
      note:"Masculine noun. 'Apprendimento automatico' = machine learning.\n'Disturbo dell'apprendimento' = learning disability. From 'apprendere' (to learn).",
-     example:"A: L'apprendimento delle lingue e piu facile nell'infanzia.\nB: Il cervello dei bambini e piu plastico.",
+     example:"A: L'apprendimento delle lingue e più facile nell'infanzia.\nB: Il cervello dei bambini e più plastico.",
      exampleSrc:"A: Language learning is easier in childhood.\nB: Children's brains are more plastic.",
      funFact:"Italian schools use the term 'DSA' (Disturbi Specifici dell'Apprendimento) for specific learning disabilities like dyslexia. A 2010 law (Legge 170) guarantees support measures for students with DSA, including extra time on exams."},
 
@@ -30,9 +30,9 @@ const BATCH3_L_2 = {
      exampleSrc:"A: Conformity is strong in adolescence.\nB: Young people want to be accepted by the group.",
      funFact:"Italian social psychology has studied 'conformismo' extensively in the context of political movements. The fascist era's demand for mass conformity left deep scars on Italian intellectual culture, making the concept particularly loaded."},
 
-    {type:"teach", trg:"l'identita", src:"identity", pos:"noun", gender:"f",
-     note:"Feminine noun. Invariable (accented ending).\n'Crisi di identita' = identity crisis. 'Identita sociale' = social identity.",
-     example:"A: La costruzione dell'identita e il compito centrale dell'adolescenza.\nB: Chi sono? Cosa voglio? Sono domande normali.",
+    {type:"teach", trg:"l'identità", src:"identity", pos:"noun", gender:"f",
+     note:"Feminine noun. Invariable (accented ending).\n'Crisi di identità' = identity crisis. 'Identita sociale' = social identity.",
+     example:"A: La costruzione dell'identità e il compito centrale dell'adolescenza.\nB: Chi sono? Cosa voglio? Sono domande normali.",
      exampleSrc:"A: Building identity is the central task of adolescence.\nB: Who am I? What do I want? These are normal questions.",
      funFact:"Erik Erikson's 'identity crisis' concept resonates deeply in Italian culture, where regional, family, and generational identities layer upon each other. An Italian's identity is always plural: local, regional, national, European."},
 
@@ -61,15 +61,15 @@ const BATCH3_L_2 = {
      funFact:"Italy itself is subject to many stereotypes internationally: pasta, mafia, fashion. Italian social psychologists study 'auto-stereotipi' (self-stereotypes), the images Italians hold of themselves and how these shape national identity."},
 
     {type:"fb",
-     s:"L'{1} delle lingue e piu facile durante i primi anni di vita.",
+     s:"L'{1} delle lingue e più facile durante i primi anni di vita.",
      a:["apprendimento"],
-     opts:["apprendimento","adolescenza","identita","conformismo"],
+     opts:["apprendimento","adolescenza","identità","conformismo"],
      hint:"The process of acquiring new knowledge and skills. Language acquisition in childhood is a prime example.",
      sSrc:"Language {1} is easier during the first years of life."},
 
     {type:"teach", trg:"la maturita", src:"maturity", pos:"noun", gender:"f",
      note:"Feminine noun. Invariable (accented ending).\n'Maturita emotiva' = emotional maturity.\nAlso: 'l'esame di maturita' = the Italian school-leaving exam.",
-     example:"A: La maturita emotiva non coincide sempre con l'eta adulta.\nB: Alcune persone maturano prima, altre dopo.",
+     example:"A: La maturita emotiva non coincide sempre con l'età adulta.\nB: Alcune persone maturano prima, altre dopo.",
      exampleSrc:"A: Emotional maturity does not always coincide with adulthood.\nB: Some people mature earlier, others later.",
      funFact:"In Italian, 'la maturita' also refers to the final high school exam ('esame di maturita'). The double meaning is poetic: completing school marks the transition to adult maturity. The exam includes written tests and an oral defense."},
 
@@ -87,7 +87,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Perche i giovani italiani lasciano la casa dei genitori in media a 30 anni?",
-     opts:["Perche la legge italiana vieta di vivere da soli prima dei 25 anni","Per una combinazione di fattori culturali, economici e del mercato immobiliare","Perche le universita italiane non offrono residenze studentesche","Perche lo psicologo lo sconsiglia prima della piena maturita emotiva"],
+     opts:["Perche la legge italiana vieta di vivere da soli prima dei 25 anni","Per una combinazione di fattori culturali, economici e del mercato immobiliare","Perche le università italiane non offrono residenze studentesche","Perche lo psicologo lo sconsiglia prima della piena maturita emotiva"],
      ans:"Per una combinazione di fattori culturali, economici e del mercato immobiliare",
      hint:"Multiple factors: strong family ties, high youth unemployment, expensive housing, and cultural norms about family closeness."},
 
@@ -117,8 +117,8 @@ const BATCH3_L_2 = {
      opts:["Il primo giorno di scuola del bambino nell'asilo nido","L'apprendimento di norme e valori che avviene in famiglia durante l'infanzia","Il processo di inserimento lavorativo dei giovani neolaureati","La prima sessione con lo psicologo clinico durante la terapia"],
      ans:"L'apprendimento di norme e valori che avviene in famiglia durante l'infanzia",
      hint:"The first stage of learning social norms. It happens within the family during early childhood, before school begins."}
-  ,{type:"match",pairs:[{trg:"lo sviluppo cognitivo",src:"cognitive development"},{trg:"la socializzazione",src:"socialization"}]},{type:"mc",q:"How do you say \"adolescence\" in Italian?",opts:["l'adolescenza","la finestra","il tavolo","la bicicletta"],ans:"l'adolescenza",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"identity\" in Italian?",opts:["la finestra","l'identita","il tavolo","la bicicletta"],ans:"l'identita",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"emotional intelligence\" in Italian?",opts:["la finestra","il tavolo","l'intelligenza emotiva","la bicicletta"],ans:"l'intelligenza emotiva",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"introversion\" in Italian?",opts:["la finestra","il tavolo","l'introversione","la bicicletta"],ans:"l'introversione",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"emulation / imitation\" in Italian?",opts:["l'emulazione","la finestra","il tavolo","la bicicletta"],ans:"l'emulazione",hint:"Recall the Italian vocabulary word taught in this lesson."},
-{type:"fb",s:"La {1} cognitiva continua fino all'eta adulta.",a:["maturita"],opts:["maturita","socializzazione","memoria","adolescenza"],hint:"The state of full development, reached after adolescence.",sSrc:"Cognitive {1} continues into adulthood."},
-{type:"fb",s:"La {1} aiuta i bambini a sviluppare abilita sociali.",a:["socializzazione"],opts:["socializzazione","emulazione","identita","maturita"],hint:"The process of learning to interact and live within a group.",sSrc:"The {1} helps children develop social skills."}]
+  ,{type:"match",pairs:[{trg:"lo sviluppo cognitivo",src:"cognitive development"},{trg:"la socializzazione",src:"socialization"}]},{type:"mc",q:"How do you say \"adolescence\" in Italian?",opts:["l'adolescenza","la finestra","il tavolo","la bicicletta"],ans:"l'adolescenza",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"identity\" in Italian?",opts:["la finestra","l'identità","il tavolo","la bicicletta"],ans:"l'identità",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"emotional intelligence\" in Italian?",opts:["la finestra","il tavolo","l'intelligenza emotiva","la bicicletta"],ans:"l'intelligenza emotiva",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"introversion\" in Italian?",opts:["la finestra","il tavolo","l'introversione","la bicicletta"],ans:"l'introversione",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"emulation / imitation\" in Italian?",opts:["l'emulazione","la finestra","il tavolo","la bicicletta"],ans:"l'emulazione",hint:"Recall the Italian vocabulary word taught in this lesson."},
+{type:"fb",s:"La {1} cognitiva continua fino all'età adulta.",a:["maturita"],opts:["maturita","socializzazione","memoria","adolescenza"],hint:"The state of full development, reached after adolescence.",sSrc:"Cognitive {1} continues into adulthood."},
+{type:"fb",s:"La {1} aiuta i bambini a sviluppare abilita sociali.",a:["socializzazione"],opts:["socializzazione","emulazione","identità","maturita"],hint:"The process of learning to interact and live within a group.",sSrc:"The {1} helps children develop social skills."}]
 };
 export default BATCH3_L_2;

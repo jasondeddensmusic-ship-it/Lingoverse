@@ -16,7 +16,7 @@ const BATCH3_L_1 = {
      note:"Masculine noun. The philosophy that actions are right if they produce the greatest happiness.\n'Principio di utilita' = utility principle.",
      example:"A: L'utilitarismo valuta le azioni in base alle loro conseguenze.\nB: Il fine giustifica i mezzi? Non tutti sono d'accordo.",
      exampleSrc:"A: Utilitarianism evaluates actions based on their consequences.\nB: Does the end justify the means? Not everyone agrees.",
-     funFact:"Cesare Beccaria anticipated utilitarian thinking decades before Bentham. His 'Dei delitti e delle pene' (1764) argued that laws should aim at 'la massima felicita divisa nel maggior numero' (the greatest happiness distributed among the greatest number)."},
+     funFact:"Cesare Beccaria anticipated utilitarian thinking decades before Bentham. His 'Dei delitti e delle pene' (1764) argued that laws should aim at 'la massima felicità divisa nel maggior numero' (the greatest happiness distributed among the greatest number)."},
 
     {type:"teach", trg:"il determinismo", src:"determinism", pos:"noun", gender:"m",
      note:"Masculine noun. The doctrine that all events are predetermined.\nOpposite: 'l'indeterminismo.' 'Determinismo biologico' = biological determinism.",
@@ -32,7 +32,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"il contratto sociale", src:"the social contract", pos:"noun", gender:"m",
      note:"Masculine compound noun. The implicit agreement between citizens and state.\n'Teoria del contratto sociale' = social contract theory.",
-     example:"A: Il contratto sociale implica diritti e doveri reciproci.\nB: I cittadini rinunciano a parte della liberta in cambio di protezione.",
+     example:"A: Il contratto sociale implica diritti e doveri reciproci.\nB: I cittadini rinunciano a parte della libertà in cambio di protezione.",
      exampleSrc:"A: The social contract implies mutual rights and duties.\nB: Citizens give up part of their freedom in exchange for protection.",
      funFact:"Italian philosophy contributed to social contract theory through Beccaria and Filangieri. Gaetano Filangieri's 'Scienza della legislazione' (1780) influenced Benjamin Franklin and the American Constitution's framers."},
 
@@ -50,7 +50,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"l'alienazione", src:"alienation", pos:"noun", gender:"f",
      note:"Feminine noun. The feeling of being estranged from society, work, or oneself.\n'Alienazione del lavoro' = work alienation (Marxist concept).",
-     example:"A: L'alienazione moderna nasce dalla societa dei consumi.\nB: Le persone si sentono disconnesse dalla propria vita.",
+     example:"A: L'alienazione moderna nasce dalla società dei consumi.\nB: Le persone si sentono disconnesse dalla propria vita.",
      exampleSrc:"A: Modern alienation stems from consumer society.\nB: People feel disconnected from their own lives.",
      funFact:"Gramsci developed Marx's concept of alienation in the Italian context, linking it to 'egemonia culturale.' Italian cinema explored alienation masterfully: Antonioni's 'L'avventura' (1960) depicts characters lost in affluent but empty lives."},
 
@@ -61,7 +61,7 @@ const BATCH3_L_1 = {
      funFact:"Giovanni Vailati and Mario Calderoni introduced pragmatism to Italy in the early 1900s. Italian pragmatismo blended American practical philosophy with Italian mathematical logic, creating a unique intellectual tradition."},
 
     {type:"fb",
-     s:"Il {1} sociale implica che i cittadini rinuncino a parte della liberta in cambio di protezione.",
+     s:"Il {1} sociale implica che i cittadini rinuncino a parte della libertà in cambio di protezione.",
      a:["contratto"],
      opts:["contratto","determinismo","pragmatismo","utilitarismo"],
      hint:"An implicit agreement between citizens and their government. Citizens accept rules in exchange for protection and services.",
@@ -75,13 +75,13 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"il nichilismo", src:"nihilism", pos:"noun", gender:"m",
      note:"Masculine noun. The rejection of all moral and religious principles.\n'Nichilista' = nihilist.",
-     example:"A: Il nichilismo nega l'esistenza di valori universali.\nB: Se nulla ha significato, perche agire moralmente?",
+     example:"A: Il nichilismo nega l'esistenza di valori universali.\nB: Se nulla ha significato, perché agire moralmente?",
      exampleSrc:"A: Nihilism denies the existence of universal values.\nB: If nothing has meaning, why act morally?",
      funFact:"Italian thinkers engaged deeply with Nietzschean nichilismo. Gianni Vattimo's 'pensiero debole' (weak thought) proposed a positive nihilism: accepting that there are no absolute truths can lead to tolerance and openness."},
 
     {type:"teach", trg:"il dilemma etico", src:"the ethical dilemma", pos:"noun", gender:"m",
      note:"Masculine compound noun. A situation requiring a choice between conflicting moral principles.\n'Affrontare un dilemma' = to face a dilemma.",
-     example:"A: L'eutanasia e un dilemma etico che divide la societa.\nB: Il diritto alla vita si scontra con il diritto alla dignita.",
+     example:"A: L'eutanasia e un dilemma etico che divide la società.\nB: Il diritto alla vita si scontra con il diritto alla dignita.",
      exampleSrc:"A: Euthanasia is an ethical dilemma that divides society.\nB: The right to life clashes with the right to dignity.",
      funFact:"Italy's debate on ethical dilemmas is deeply influenced by Catholic teaching. Issues like euthanasia, abortion, and embryo research pit secular liberalism against religious tradition, with the Vatican exercising unique influence from within Rome itself."},
 

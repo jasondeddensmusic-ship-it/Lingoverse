@@ -72,7 +72,7 @@ const BATCH7_L1 = {id:"itv2_u34l_b7_1", title:"L'Italia e l'Unione Europea", ico
 
 {type:"teach", trg:"la cooperazione", src:"cooperation", pos:"noun", gender:"f",
  note:"Feminine noun. 'Cooperare' = to cooperate.\n'Cooperazione internazionale' = international cooperation.",
- example:"A: La cooperazione europea e fondamentale.\nB: Insieme siamo piu forti.",
+ example:"A: La cooperazione europea e fondamentale.\nB: Insieme siamo più forti.",
  exampleSrc:"A: European cooperation is fundamental.\nB: Together we are stronger.",
  funFact:"'Cooperazione allo sviluppo' (development cooperation) is a major Italian foreign policy pillar. Italy contributes to UN, EU, and bilateral aid programs worldwide."},
 

@@ -8,7 +8,7 @@ const BATCH3_U21_L1 = {
 
     {type:"teach", trg:"cambierei", src:"I would change", pos:"verb", gender:null,
      note:"Conditional of 'cambiare.' Regular -are.\n'Cambierei lavoro' = I would change jobs.",
-     example:"A: Cosa cambieresti della tua vita?\nB: Cambierei lavoro e citta.",
+     example:"A: Cosa cambieresti della tua vita?\nB: Cambierei lavoro e città.",
      exampleSrc:"A: What would you change about your life?\nB: I would change jobs and city.",
      funFact:"'Cosa cambieresti?' is a favorite Italian conversation starter. Italians love hypothetical discussions about life choices. The conditional makes these conversations feel safe: you are exploring possibilities, not making commitments."},
 
@@ -38,12 +38,12 @@ const BATCH3_U21_L1 = {
 
     {type:"teach", trg:"darei", src:"I would give", pos:"verb", gender:null,
      note:"Conditional of 'dare.' Irregular stem: dar-.\n'Darei tutto' = I would give everything.",
-     example:"A: Darei qualsiasi cosa per tornare in Italia.\nB: Ti manca cosi tanto?",
+     example:"A: Darei qualsiasi cosa per tornare in Italia.\nB: Ti manca così tanto?",
      exampleSrc:"A: I would give anything to go back to Italy.\nB: Do you miss it that much?",
      funFact:"'Dare' keeps a simple stem (dar-) in the conditional. 'Darei' is used in expressions of sacrifice: 'Darei la vita per...' (I would give my life for...). In everyday speech: 'Ti darei ragione' (I would say you are right) is a diplomatic way to partially agree."},
 
     {type:"teach", trg:"berrei", src:"I would drink", pos:"verb", gender:null,
-     note:"Conditional of 'bere.' Irregular stem: berr- (double r).\n'Berrei volentieri un caffe' = I would gladly drink a coffee.",
+     note:"Conditional of 'bere.' Irregular stem: berr- (double r).\n'Berrei volentieri un caffè' = I would gladly drink a coffee.",
      example:"A: Berrei volentieri qualcosa di fresco.\nB: Ti offro una limonata.",
      exampleSrc:"A: I would gladly drink something cool.\nB: I will get you a lemonade.",
      funFact:"'Bere' has a contracted infinitive (from Latin 'bevere'). The conditional stem 'berr-' has a distinctive double r. 'Berrei volentieri' is a polite, slightly playful way to accept a drink invitation. It is less direct than 'vorrei bere' and sounds more natural."},

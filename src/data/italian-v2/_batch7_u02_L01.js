@@ -80,13 +80,13 @@ const BATCH7_L1 = {id:"itv2_u02l_b7_1", title:"Misure e numeri ordinali", icon:"
  note:"Masculine noun. 'Il doppio' = twice as much.\nAlso adjective: 'doppio senso' = double meaning.",
  example:"A: Questa borsa costa il doppio.\nB: Troppo cara, cerchiamo un'altra.",
  exampleSrc:"A: This bag costs double.\nB: Too expensive, let us look for another.",
- funFact:"A 'caffe doppio' is a double espresso. In tennis, 'il doppio' means doubles. 'Fare il doppio gioco' means to play a double game (be two-faced)."},
+ funFact:"A 'caffè doppio' is a double espresso. In tennis, 'il doppio' means doubles. 'Fare il doppio gioco' means to play a double game (be two-faced)."},
 
-{type:"teach", trg:"la meta", src:"the half", pos:"noun", gender:"f",
- note:"Feminine noun. 'A meta prezzo' = at half price.\n'La meta di' = half of.",
- example:"A: Voglio solo la meta della pizza.\nB: Va bene, dividiamo.",
+{type:"teach", trg:"la metà", src:"the half", pos:"noun", gender:"f",
+ note:"Feminine noun. 'A metà prezzo' = at half price.\n'La metà di' = half of.",
+ example:"A: Voglio solo la metà della pizza.\nB: Va bene, dividiamo.",
  exampleSrc:"A: I only want half of the pizza.\nB: Alright, let us split it.",
- funFact:"'Fare le cose a meta' means to do things halfway (badly). 'La mia dolce meta' (my sweet half) is an old-fashioned way to say 'my partner.'"},
+ funFact:"'Fare le cose a metà' means to do things halfway (badly). 'La mia dolce metà' (my sweet half) is an old-fashioned way to say 'my partner.'"},
 
 {type:"mc", q:"Come si dice 'fifth' in italiano?",
  opts:["quinto","quarto","sesto","settimo"],
@@ -115,7 +115,7 @@ const BATCH7_L1 = {id:"itv2_u02l_b7_1", title:"Misure e numeri ordinali", icon:"
  hint:"The metric unit used to measure liquids.",
  sSrc:"One {1} of milk, please."},
 
-{type:"mc", q:"Che cosa significa 'la meta della pizza'?",
+{type:"mc", q:"Che cosa significa 'la metà della pizza'?",
  opts:["half of the pizza","the price of the pizza","the size of the pizza","double the pizza"],
  ans:"half of the pizza",
  hint:"When you divide something into two equal parts, each part is this."},
@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u02l_b7_1", title:"Misure e numeri ordinali", icon:"
  {trg:"il chilometro", src:"kilometer"},
  {trg:"il centimetro", src:"centimeter"}
 ]}
-,{type:"match",pairs:[{trg:"nono",src:"ninth"},{trg:"pesare",src:"to weigh"},{trg:"la meta",src:"the half"}]}]};
+,{type:"match",pairs:[{trg:"nono",src:"ninth"},{trg:"pesare",src:"to weigh"},{trg:"la metà",src:"the half"}]}]};
 export default BATCH7_L1;

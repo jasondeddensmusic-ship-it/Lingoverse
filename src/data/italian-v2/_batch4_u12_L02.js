@@ -38,7 +38,7 @@ const BATCH4_U12_L2 = {
 
     {type:"teach", trg:"arrabbiarsi / arrabbiato", src:"to get angry / gotten angry", pos:"verb", gender:null,
      note:"Reflexive. 'Mi sono arrabbiato/a' = I got angry.\n'Non ti arrabbiare!' = Don't get angry!",
-     example:"A: Ti sei arrabbiato?\nB: Si, mi sono arrabbiato perche era in ritardo.",
+     example:"A: Ti sei arrabbiato?\nB: Si, mi sono arrabbiato perché era in ritardo.",
      exampleSrc:"A: Did you get angry?\nB: Yes, I got angry because he was late.",
      funFact:"The reflexive 'arrabbiarsi' shows that anger is self-directed: you make yourself angry. Italian has many reflexive emotion verbs: preoccuparsi (worry), annoiarsi (get bored), vergognarsi (feel ashamed). Emotions are reflexive actions."},
 

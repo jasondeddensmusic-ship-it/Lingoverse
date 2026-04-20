@@ -17,7 +17,7 @@ const BATCH8_L1 = {id:"itv2_u33l_b8_1", title:"Etica e morale", icon:"🤔", xp:
  funFact:"'Obiezione di coscienza' is recognized in Italian law for military service (since 1972) and for doctors regarding abortion. It sparks intense debate about rights and duties."},
 
 {type:"teach", trg:"la virtu", src:"the virtue", pos:"noun", gender:"f",
- note:"Feminine noun. Invariable. 'Virtuoso' = virtuous.\n'Fare di necessita virtu' = to make a virtue of necessity.",
+ note:"Feminine noun. Invariable. 'Virtuoso' = virtuous.\n'Fare di necessità virtu' = to make a virtue of necessity.",
  example:"A: La pazienza e una grande virtu.\nB: Una virtu che non tutti hanno.",
  exampleSrc:"A: Patience is a great virtue.\nB: A virtue that not everyone has.",
  funFact:"Machiavelli redefined 'virtu' in 'Il Principe.' For him, it was not moral goodness but political skill and boldness. This redefinition shocked Europe and changed political philosophy forever."},
@@ -42,7 +42,7 @@ const BATCH8_L1 = {id:"itv2_u33l_b8_1", title:"Etica e morale", icon:"🤔", xp:
 
 {type:"teach", trg:"la dignita", src:"the dignity", pos:"noun", gender:"f",
  note:"Feminine noun. Invariable. 'Dignita umana' = human dignity.\nArticle 3 of the Italian Constitution.",
- example:"A: Ogni persona ha diritto alla dignita.\nB: E il fondamento di ogni societa civile.",
+ example:"A: Ogni persona ha diritto alla dignita.\nB: E il fondamento di ogni società civile.",
  exampleSrc:"A: Every person has the right to dignity.\nB: It is the foundation of every civil society.",
  funFact:"'Dignita' appears in the very first articles of the Italian Constitution. The post-war founders, remembering fascism, placed human dignity above all other values."},
 

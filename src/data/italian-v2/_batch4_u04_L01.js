@@ -44,7 +44,7 @@ const BATCH4_U04_L1 = {
 
     {type:"teach", trg:"il cioccolato", src:"the chocolate", pos:"noun", gender:"m",
      note:"Masculine. From Nahuatl 'xocolatl' (bitter water).\nTurin is Italy's chocolate capital.",
-     example:"A: Preferisci il cioccolato fondente o al latte?\nB: Fondente, piu amaro e meglio e!",
+     example:"A: Preferisci il cioccolato fondente o al latte?\nB: Fondente, più amaro e meglio e!",
      exampleSrc:"A: Do you prefer dark or milk chocolate?\nB: Dark, the more bitter the better!",
      funFact:"Turin (Torino) is Italy's chocolate capital and home to Nutella's parent company Ferrero. 'Cioccolato di Modica' (Sicily) is made using an ancient Aztec technique that keeps a grainy texture. Italy's chocolate tradition rivals Switzerland's."},
 
@@ -56,7 +56,7 @@ const BATCH4_U04_L1 = {
 
     {type:"teach", trg:"amaro", src:"bitter", pos:"adj", gender:"m",
      note:"Masculine. Feminine: amara. Also a type of herbal liqueur.\n'Amaro' is drunk after meals as a digestif.",
-     example:"A: Il caffe e troppo amaro.\nB: Metti un po' di zucchero.",
+     example:"A: Il caffè e troppo amaro.\nB: Metti un po' di zucchero.",
      exampleSrc:"A: The coffee is too bitter.\nB: Put a little sugar.",
      funFact:"'Amaro' is both an adjective and a category of Italian liqueurs made with herbs, roots, and citrus peel. Every Italian region has its own amaro recipe. Fernet Branca, Averna, and Montenegro are famous brands."},
 

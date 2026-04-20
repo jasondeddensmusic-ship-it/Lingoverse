@@ -50,7 +50,7 @@ const BATCH2_U16_L1 = {
 
     {type:"teach", trg:"la circolazione", src:"the circulation (blood)", pos:"noun", gender:"f",
      note:"Feminine. From 'circolare' (to circulate).\n'Problemi di circolazione' = circulation problems.",
-     example:"A: Ho problemi di circolazione alle gambe.\nB: Cammina di piu e alza le gambe la sera.",
+     example:"A: Ho problemi di circolazione alle gambe.\nB: Cammina di più e alza le gambe la sera.",
      exampleSrc:"A: I have circulation problems in my legs.\nB: Walk more and elevate your legs in the evening.",
      funFact:"Circulation problems are common in Italy, especially among elderly people. 'Gambe pesanti' (heavy legs) is a recognized medical complaint. Italian pharmacies sell a range of products for circulation, from supplements to compression stockings ('calze a compressione'). Summer heat worsens symptoms."},
 
@@ -58,11 +58,11 @@ const BATCH2_U16_L1 = {
      note:"Masculine. 'Reflusso gastroesofageo' = gastroesophageal reflux.\nFrom 're-' (back) + 'flusso' (flow).",
      example:"A: Soffro di reflusso dopo cena.\nB: Evita cibi grassi e non sdraiarti subito.",
      exampleSrc:"A: I suffer from reflux after dinner.\nB: Avoid fatty foods and don't lie down right away.",
-     funFact:"Given Italy's food culture, reflux is a common complaint. Late dinners (8-9 PM) and rich sauces contribute. The Italian dietary advice for reflux: avoid 'fritto' (fried food), 'piccante' (spicy), 'caffe' (coffee), and 'pomodoro' (tomato). For a food-loving nation, these restrictions are especially challenging."},
+     funFact:"Given Italy's food culture, reflux is a common complaint. Late dinners (8-9 PM) and rich sauces contribute. The Italian dietary advice for reflux: avoid 'fritto' (fried food), 'piccante' (spicy), 'caffè' (coffee), and 'pomodoro' (tomato). For a food-loving nation, these restrictions are especially challenging."},
 
     {type:"teach", trg:"il colesterolo", src:"cholesterol", pos:"noun", gender:"m",
      note:"Masculine. 'Colesterolo alto' = high cholesterol.\n'Colesterolo buono (HDL)' vs. 'colesterolo cattivo (LDL).'",
-     example:"A: Il colesterolo e un po' alto.\nB: Devo fare piu esercizio e mangiare meglio.",
+     example:"A: Il colesterolo e un po' alto.\nB: Devo fare più esercizio e mangiare meglio.",
      exampleSrc:"A: The cholesterol is a bit high.\nB: I need to exercise more and eat better.",
      funFact:"Despite the Mediterranean diet's reputation, high cholesterol is common in Italy, especially in northern regions where butter and cheese are dietary staples. Italian doctors distinguish between 'colesterolo buono' (good, HDL) and 'colesterolo cattivo' (bad, LDL). The 'dieta mediterranea' is prescribed as the primary lifestyle intervention."},
 

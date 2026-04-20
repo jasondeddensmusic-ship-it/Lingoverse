@@ -26,13 +26,13 @@ const BATCH2_U01_L2 = {
 
     {type:"teach", trg:"ecco", src:"here it is / there you go", pos:"adv", gender:null,
      note:"Used when handing something to someone or pointing something out.\nExtremely common in daily Italian.",
-     example:"A: Dov'e il mio caffe?\nB: Ecco il Suo caffe!",
+     example:"A: Dov'e il mio caffè?\nB: Ecco il Suo caffè!",
      exampleSrc:"A: Where is my coffee?\nB: Here is your coffee!",
      funFact:"'Ecco' is one of the most-used Italian words. It works alone ('Ecco!') or with a noun ('Ecco il libro!'). It comes from Latin 'eccum' and has no exact English equivalent. 'Here/there it is' comes closest."},
 
     {type:"teach", trg:"subito", src:"right away / immediately", pos:"adv", gender:null,
      note:"Very common response from service staff.\nFrom Latin 'subitus' (sudden, immediate).",
-     example:"A: Un caffe, per favore.\nB: Subito!",
+     example:"A: Un caffè, per favore.\nB: Subito!",
      exampleSrc:"A: A coffee, please.\nB: Right away!",
      funFact:"Italian baristas and waiters say 'subito!' constantly. It literally means 'immediately' and comes from Latin 'subitus' (sudden). The musical term 'subito forte' (suddenly loud) uses the same word."},
 
@@ -96,7 +96,7 @@ const BATCH2_U01_L2 = {
      ans:"Here it is / there you go",
      hint:"This word is used when handing something over or pointing something out. It has no exact English equivalent."},
 
-    {type:"fb", s:"Un caffe, per favore. {1}!",
+    {type:"fb", s:"Un caffè, per favore. {1}!",
      a:["Subito"],
      opts:["Subito","Ecco","Certo","Niente"],
      hint:"The barista responds with this word meaning 'right away.' From Latin 'subitus' (sudden).",

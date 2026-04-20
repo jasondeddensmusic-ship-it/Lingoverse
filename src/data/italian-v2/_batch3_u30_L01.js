@@ -8,13 +8,13 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"chiunque", src:"whoever / anyone who", pos:"pron", gender:null,
      note:"Indefinite pronoun requiring the congiuntivo.\n'Chiunque venga' = whoever comes. Always triggers subjunctive.",
-     example:"A: Chiunque abbia visto l'incidente contatti la polizia.\nB: Anche le informazioni piu piccole sono utili.",
+     example:"A: Chiunque abbia visto l'incidente contatti la polizia.\nB: Anche le informazioni più piccole sono utili.",
      exampleSrc:"A: Whoever witnessed the accident, contact the police.\nB: Even the smallest information is useful.",
      funFact:"'Chiunque' always triggers the subjunctive because it refers to an unknown, unidentified person. The certainty of identity is absent, which is exactly what the subjunctive mood expresses in Italian."},
 
     {type:"teach", trg:"ovunque", src:"wherever", pos:"adv", gender:null,
      note:"Adverb requiring the congiuntivo.\n'Ovunque tu vada' = wherever you go. Also: 'dovunque' (synonym).",
-     example:"A: Ovunque tu vada, ricordati delle tue radici.\nB: L'identita non si perde con la distanza.",
+     example:"A: Ovunque tu vada, ricordati delle tue radici.\nB: L'identità non si perde con la distanza.",
      exampleSrc:"A: Wherever you go, remember your roots.\nB: Identity is not lost with distance.",
      funFact:"'Ovunque' and 'dovunque' are interchangeable in modern Italian. Both require the subjunctive because the place is indefinite and unknown. The construction echoes a poetic tradition stretching back to Petrarch's love sonnets."},
 
@@ -34,7 +34,7 @@ const BATCH3_L_1 = {
      note:"Concessive conjunction requiring the congiuntivo.\n'Per quanto mi sforzi' = no matter how hard I try.",
      example:"A: Per quanto studiassi, non riuscivo a capire la fisica.\nB: A volte serve un approccio diverso.",
      exampleSrc:"A: No matter how much I studied, I could not understand physics.\nB: Sometimes a different approach is needed.",
-     funFact:"'Per quanto' introduces a concessive clause expressing an effort that proves insufficient. It is more emphatic than 'benche' because it highlights the intensity of the attempt. Common in academic and journalistic writing."},
+     funFact:"'Per quanto' introduces a concessive clause expressing an effort that proves insufficient. It is more emphatic than 'benché' because it highlights the intensity of the attempt. Common in academic and journalistic writing."},
 
     {type:"mc",
      q:"Quale parola richiede SEMPRE il congiuntivo?",
@@ -87,7 +87,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che differenza c'e tra 'ammesso che' e 'dato che' in italiano?",
-     opts:["Non c'e nessuna differenza: sono perfetti sinonimi intercambiabili","'Ammesso che' richiede il congiuntivo ed esprime dubbio, 'dato che' richiede l'indicativo ed esprime certezza","'Dato che' e piu formale di 'ammesso che' nella scrittura accademica","'Ammesso che' si usa solo nella lingua parlata, 'dato che' solo nello scritto"],
+     opts:["Non c'e nessuna differenza: sono perfetti sinonimi intercambiabili","'Ammesso che' richiede il congiuntivo ed esprime dubbio, 'dato che' richiede l'indicativo ed esprime certezza","'Dato che' e più formale di 'ammesso che' nella scrittura accademica","'Ammesso che' si usa solo nella lingua parlata, 'dato che' solo nello scritto"],
      ans:"'Ammesso che' richiede il congiuntivo ed esprime dubbio, 'dato che' richiede l'indicativo ed esprime certezza",
      hint:"One tentatively accepts a premise (maybe true, maybe not). The other states a fact taken as given."},
 

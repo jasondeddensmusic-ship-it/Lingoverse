@@ -36,7 +36,7 @@ const BATCH7_L1 = {id:"itv2_u24l_b7_1", title:"Condizioni e alternative", icon:"
 
 {type:"teach", trg:"altrimenti", src:"otherwise", pos:"adv", gender:null,
  note:"Adverb. 'Sbrigati, altrimenti perdiamo il treno' = hurry, otherwise we miss the train.",
- example:"A: Devi prenotare adesso, altrimenti non ci sono piu posti.\nB: Lo faccio subito!",
+ example:"A: Devi prenotare adesso, altrimenti non ci sono più posti.\nB: Lo faccio subito!",
  exampleSrc:"A: You must book now, otherwise there are no more seats.\nB: I will do it right away!",
  funFact:"'Altrimenti' comes from 'altro' (other) + 'mente' (mind/manner). Literally: in another way. It always implies a negative consequence if the condition is not met."},
 
@@ -115,7 +115,7 @@ const BATCH7_L1 = {id:"itv2_u24l_b7_1", title:"Condizioni e alternative", icon:"
  hint:"Meaning 'unless.' The 'n...' is pleonastic (not actually negative)."},
 
 {type:"fb", s:"Ti aiuto, {1} tu studi.", a:["purche"],
- opts:["purche","perche","finche","affinche"],
+ opts:["purche","perché","finché","affinché"],
  hint:"Meaning 'as long as' or 'provided that.' A condition for helping.",
  sSrc:"I will help you, {1} you study."},
 

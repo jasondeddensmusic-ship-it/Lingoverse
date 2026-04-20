@@ -50,7 +50,7 @@ const BATCH3_U11_L1 = {
 
     {type:"teach", trg:"conosciuto", src:"met / known (past participle)", pos:"verb", gender:null,
      note:"Regular past participle of 'conoscere' (to know/meet).\n'Ho conosciuto' = I met (for the first time).",
-     example:"A: Dove hai conosciuto Maria?\nB: L'ho conosciuta all'universita.",
+     example:"A: Dove hai conosciuto Maria?\nB: L'ho conosciuta all'università.",
      exampleSrc:"A: Where did you meet Maria?\nB: I met her at university.",
      funFact:"'Conoscere' in the passato prossimo specifically means 'to meet for the first time,' not just 'to know.' 'Ho conosciuto Marco ieri' = I met Marco yesterday. The present tense 'conosco Marco' means 'I know Marco.' This tense distinction is important and does not exist in English."},
 
@@ -67,7 +67,7 @@ const BATCH3_U11_L1 = {
      funFact:"'Rotto' from Latin 'ruptum' also gave English 'rupture,' 'bankrupt' (broken bank), and 'corrupt' (thoroughly broken). In Italian, 'rotto' is used both literally (broken objects) and figuratively: 'rompere le scatole' (to break the boxes) means 'to annoy someone.'"},
 
     {type:"teach", trg:"offerto", src:"offered (past participle)", pos:"verb", gender:null,
-     note:"Irregular past participle of 'offrire' (to offer).\n'Ti offro un caffe' = I will buy you a coffee.",
+     note:"Irregular past participle of 'offrire' (to offer).\n'Ti offro un caffè' = I will buy you a coffee.",
      example:"A: Chi ha offerto la cena?\nB: L'ha offerta Marco. Molto generoso!",
      exampleSrc:"A: Who paid for dinner?\nB: Marco paid. Very generous!",
      funFact:"'Offrire' in Italian often means 'to treat someone' or 'to pay for.' 'Offro io!' means 'It is my treat!' This is important in Italian social culture, where people often compete to pay the bill. The phrase 'lascia stare, offro io' (leave it, I am paying) is heard constantly."},

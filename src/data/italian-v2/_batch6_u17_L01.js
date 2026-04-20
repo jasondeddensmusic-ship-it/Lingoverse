@@ -30,7 +30,7 @@ const BATCH6_L1 = {id:"itv2_u17l_b6_1", title:"La vita digitale", icon:"\u{1F4F1
 
 {type:"teach", trg:"caricare", src:"to upload / to charge", pos:"verb", gender:null,
  note:"Regular -are verb. carico, carichi, carica.\nOpposite of scaricare. Upload or charge a battery.",
- example:"A: Ho caricato le foto sul cloud.\nB: Bene, cosi non le perdi.",
+ example:"A: Ho caricato le foto sul cloud.\nB: Bene, così non le perdi.",
  exampleSrc:"A: I uploaded the photos to the cloud.\nB: Good, that way you will not lose them.",
  funFact:"'Caricare' has three digital meanings: to upload files, to charge a battery, and to load a webpage. 'La pagina non si carica' means the page is not loading."},
 

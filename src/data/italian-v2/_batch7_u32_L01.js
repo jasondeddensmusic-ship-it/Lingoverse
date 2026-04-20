@@ -1,18 +1,18 @@
 // Batch 7 — Unit 32 extra lesson. La globalizzazione: Cultural Identity & Heritage
-const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identita culturale", icon:"\u{1F30D}", xp:15, board:true, steps:[
-{type:"intro", title:"L'identita culturale",
+const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identità culturale", icon:"\u{1F30D}", xp:15, board:true, steps:[
+{type:"intro", title:"L'identità culturale",
  desc:"Learn vocabulary for discussing cultural identity, heritage preservation, and the tension between tradition and modernity.",
  goals:["Discuss cultural identity and belonging","Talk about heritage preservation","Express nuanced views on tradition vs. change"]},
 
-{type:"teach", trg:"l'identita", src:"identity", pos:"noun", gender:"f",
- note:"Feminine noun. Plural: le identita. Invariable.\n'Carta d'identita' = ID card.",
- example:"A: L'identita culturale e importante.\nB: Ci definisce come popolo.",
+{type:"teach", trg:"l'identità", src:"identity", pos:"noun", gender:"f",
+ note:"Feminine noun. Plural: le identità. Invariable.\n'Carta d'identità' = ID card.",
+ example:"A: L'identità culturale e importante.\nB: Ci definisce come popolo.",
  exampleSrc:"A: Cultural identity is important.\nB: It defines us as a people.",
- funFact:"'Carta d'identita' (identity card) is mandatory in Italy for all citizens over 15. It has been used since 1931 and is a more common form of ID than the passport."},
+ funFact:"'Carta d'identità' (identity card) is mandatory in Italy for all citizens over 15. It has been used since 1931 and is a more common form of ID than the passport."},
 
 {type:"teach", trg:"il patrimonio culturale", src:"cultural heritage", pos:"noun", gender:"m",
  note:"Masculine noun. 'Patrimonio UNESCO' = UNESCO Heritage.\nItaly has 59 UNESCO sites, the most in the world.",
- example:"A: L'Italia ha un patrimonio culturale immenso.\nB: Il piu grande al mondo per numero di siti UNESCO.",
+ example:"A: L'Italia ha un patrimonio culturale immenso.\nB: Il più grande al mondo per numero di siti UNESCO.",
  exampleSrc:"A: Italy has an immense cultural heritage.\nB: The greatest in the world by number of UNESCO sites.",
  funFact:"Italy's 59 UNESCO World Heritage Sites include Venice, Florence's historic center, Pompeii, the Dolomites, and the trulli of Alberobello. Protecting them is a national mission."},
 
@@ -36,13 +36,13 @@ const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identita culturale", icon:"\u{1
 
 {type:"teach", trg:"la diversita", src:"diversity", pos:"noun", gender:"f",
  note:"Feminine noun. Invariable plural.\n'Diversita culturale' = cultural diversity.",
- example:"A: La diversita arricchisce la societa.\nB: Ogni cultura porta qualcosa di unico.",
+ example:"A: La diversita arricchisce la società.\nB: Ogni cultura porta qualcosa di unico.",
  exampleSrc:"A: Diversity enriches society.\nB: Every culture brings something unique.",
  funFact:"Italy itself is incredibly diverse: Alpine, Mediterranean, insular cultures; dozens of dialects; Germanic, Slavic, and Albanian minorities. 'Diversita' starts at home."},
 
 {type:"teach", trg:"lo stereotipo", src:"the stereotype", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: gli stereotipi.\n'Stereotipato' = stereotypical.",
- example:"A: Non tutti gli italiani mangiano pasta ogni giorno.\nB: Beh... quasi tutti, in realta!",
+ example:"A: Non tutti gli italiani mangiano pasta ogni giorno.\nB: Beh... quasi tutti, in realtà!",
  exampleSrc:"A: Not all Italians eat pasta every day.\nB: Well... almost all, actually!",
  funFact:"Italian stereotypes (pasta, gestures, loud talking, mamma) have some truth but also limit understanding. Italians themselves joke about regional stereotypes: northerners are cold, southerners are dramatic."},
 
@@ -72,7 +72,7 @@ const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identita culturale", icon:"\u{1
 
 {type:"teach", trg:"il campanilismo", src:"local patriotism / parochialism", pos:"noun", gender:"m",
  note:"Masculine noun. From 'campanile' (bell tower).\nStrong identification with one's hometown.",
- example:"A: Il campanilismo italiano e molto forte.\nB: Ogni citta crede di essere la migliore.",
+ example:"A: Il campanilismo italiano e molto forte.\nB: Ogni città crede di essere la migliore.",
  exampleSrc:"A: Italian local patriotism is very strong.\nB: Every city believes it is the best.",
  funFact:"'Campanilismo' literally means loyalty to your town's bell tower (campanile). It explains why Italians feel Milanese or Palermitan before Italian, and why rivalries between neighboring towns are fierce."},
 
@@ -88,7 +88,7 @@ const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identita culturale", icon:"\u{1
  hint:"The most of any country in the world. Over fifty sites."},
 
 {type:"fb", s:"Ogni regione ha le sue {1}.", a:["tradizioni"],
- opts:["tradizioni","stereotipi","dialetti","identita"],
+ opts:["tradizioni","stereotipi","dialetti","identità"],
  hint:"Customs, practices, and beliefs passed down through generations.",
  sSrc:"Every region has its own {1}."},
 
@@ -120,7 +120,7 @@ const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identita culturale", icon:"\u{1
  sSrc:"Italian {1} is famous worldwide."},
 
 {type:"match", pairs:[
- {trg:"l'identita", src:"identity"},
+ {trg:"l'identità", src:"identity"},
  {trg:"la diversita", src:"diversity"},
  {trg:"l'integrazione", src:"integration"},
  {trg:"la globalizzazione", src:"globalization"}

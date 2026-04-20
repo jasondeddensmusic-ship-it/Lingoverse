@@ -14,7 +14,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la proprieta", src:"the property / ownership", pos:"noun", gender:"f",
      note:"Feminine noun. Invariable (accented ending).\n'Diritto di proprieta' = property right. 'Proprieta intellettuale' = intellectual property.",
-     example:"A: Il diritto di proprieta e garantito dalla Costituzione.\nB: Ma puo essere limitato per motivi di interesse pubblico.",
+     example:"A: Il diritto di proprieta e garantito dalla Costituzione.\nB: Ma può essere limitato per motivi di interesse pubblico.",
      exampleSrc:"A: The right to property is guaranteed by the Constitution.\nB: But it can be limited for reasons of public interest.",
      funFact:"Article 42 of the Italian Constitution recognizes private property but states it can be expropriated for public utility with compensation. This balance between individual rights and collective needs reflects the Republic's founding compromise."},
 
@@ -50,7 +50,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la querela", src:"the criminal complaint (by victim)", pos:"noun", gender:"f",
      note:"Feminine noun. 'Sporgere querela' = to file a criminal complaint.\nDifferent from 'denuncia': querela starts prosecution for certain crimes.",
-     example:"A: Ha sporto querela per diffamazione.\nB: Senza querela, il PM non puo procedere.",
+     example:"A: Ha sporto querela per diffamazione.\nB: Senza querela, il PM non può procedere.",
      exampleSrc:"A: She filed a criminal complaint for defamation.\nB: Without a complaint, the prosecutor cannot proceed.",
      funFact:"Italian law divides crimes into those prosecutable 'a querela di parte' (only if the victim complains) and 'd'ufficio' (automatically). Defamation, minor theft, and some assaults require the victim's querela."},
 
@@ -114,7 +114,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Perche il sistema giudiziario italiano ha milioni di cause pendenti?",
-     opts:["Perche gli italiani litigano piu degli altri europei","Per la combinazione di alta litigiosita, scarsita di giudici e procedure complesse","Perche non esistono metodi alternativi di risoluzione delle dispute","Perche i tribunali italiani sono chiusi durante l'estate"],
+     opts:["Perche gli italiani litigano più degli altri europei","Per la combinazione di alta litigiosita, scarsita di giudici e procedure complesse","Perche non esistono metodi alternativi di risoluzione delle dispute","Perche i tribunali italiani sono chiusi durante l'estate"],
      ans:"Per la combinazione di alta litigiosita, scarsita di giudici e procedure complesse",
      hint:"Multiple factors: many lawsuits filed, not enough judges, and complex procedures that slow everything down."}
   ,{type:"match",pairs:[{trg:"il codice civile",src:"the civil code"},{trg:"la proprieta",src:"the property / ownership"},{trg:"la presunzione di innocenza",src:"the presumption of innocence"},{trg:"la diffamazione",src:"the defamation / libel"},{trg:"il testimone",src:"the witness"}]}]

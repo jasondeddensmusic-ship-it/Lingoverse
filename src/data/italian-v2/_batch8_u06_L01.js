@@ -12,15 +12,15 @@ const BATCH8_L1 = {id:"itv2_u06l_b8_1", title:"I servizi pubblici", icon:"🏤",
 
 {type:"teach", trg:"il comune", src:"the town hall / municipality", pos:"noun", gender:"m",
  note:"Masculine noun. Where you get documents and certificates.\n'Andare in comune' = to go to town hall.",
- example:"A: Devo andare in comune per il certificato.\nB: Porta un documento d'identita!",
+ example:"A: Devo andare in comune per il certificato.\nB: Porta un documento d'identità!",
  exampleSrc:"A: I need to go to town hall for the certificate.\nB: Bring an ID document!",
  funFact:"Italian bureaucracy is legendary. Getting a simple document can require visits to multiple offices. The word 'burocrazia' itself comes from French 'bureau' (desk)."},
 
 {type:"teach", trg:"il documento", src:"the document / ID", pos:"noun", gender:"m",
- note:"Masculine noun. 'Documento d'identita' = identity document.\nAlways carry one in Italy.",
- example:"A: Ha un documento d'identita?\nB: Si, ecco la mia carta d'identita.",
+ note:"Masculine noun. 'Documento d'identità' = identity document.\nAlways carry one in Italy.",
+ example:"A: Ha un documento d'identità?\nB: Si, ecco la mia carta d'identità.",
  exampleSrc:"A: Do you have an identity document?\nB: Yes, here is my ID card.",
- funFact:"Italians carry a 'carta d'identita' (ID card) everywhere. It is used for everything: banks, hotels, even buying a SIM card. Foreigners need their passport."},
+ funFact:"Italians carry a 'carta d'identità' (ID card) everywhere. It is used for everything: banks, hotels, even buying a SIM card. Foreigners need their passport."},
 
 {type:"teach", trg:"la questura", src:"the police headquarters", pos:"noun", gender:"f",
  note:"Feminine noun. Where foreigners get their 'permesso di soggiorno.'\nRun by the Polizia di Stato.",
@@ -48,7 +48,7 @@ const BATCH8_L1 = {id:"itv2_u06l_b8_1", title:"I servizi pubblici", icon:"🏤",
 
 {type:"teach", trg:"la fila", src:"the queue / line", pos:"noun", gender:"f",
  note:"Feminine noun. 'Fare la fila' = to stand in line.\n'Saltare la fila' = to skip the queue.",
- example:"A: C'e molta fila all'ufficio postale.\nB: Come sempre il lunedi mattina!",
+ example:"A: C'e molta fila all'ufficio postale.\nB: Come sempre il lunedì mattina!",
  exampleSrc:"A: There is a long queue at the post office.\nB: As always on Monday morning!",
  funFact:"Italians are surprisingly orderly in queues, despite stereotypes. The phrase 'Chi e l'ultimo?' (Who is the last one?) is how you find your place."},
 

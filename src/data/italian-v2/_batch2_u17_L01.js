@@ -50,7 +50,7 @@ const BATCH2_U17_L1 = {
 
     {type:"teach", trg:"la cybersicurezza", src:"cybersecurity", pos:"noun", gender:"f",
      note:"Feminine. Also: 'la sicurezza informatica.'\n'Attacco informatico' = cyberattack.",
-     example:"A: La cybersicurezza e importante per le aziende.\nB: Ogni anno ci sono piu attacchi informatici.",
+     example:"A: La cybersicurezza e importante per le aziende.\nB: Ogni anno ci sono più attacchi informatici.",
      exampleSrc:"A: Cybersecurity is important for companies.\nB: Every year there are more cyberattacks.",
      funFact:"Italy uses both 'cybersicurezza' (hybrid English-Italian) and 'sicurezza informatica' (pure Italian). The 'Agenzia per la Cybersicurezza Nazionale' (ACN) was established in 2021. Italian small businesses are particularly vulnerable to cyberattacks due to limited IT budgets."},
 

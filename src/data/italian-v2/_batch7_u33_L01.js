@@ -66,7 +66,7 @@ const BATCH7_L1 = {id:"itv2_u33l_b7_1", title:"La logica e l'argomentazione", ic
 
 {type:"teach", trg:"l'analogia", src:"the analogy", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le analogie.\n'Per analogia' = by analogy. 'Analogo' = analogous.",
- example:"A: Uso un'analogia per spiegare.\nB: Le analogie rendono tutto piu chiaro.",
+ example:"A: Uso un'analogia per spiegare.\nB: Le analogie rendono tutto più chiaro.",
  exampleSrc:"A: I use an analogy to explain.\nB: Analogies make everything clearer.",
  funFact:"'Ragionare per analogia' (reasoning by analogy) is a fundamental tool in Italian legal tradition. Laws can be applied 'per analogia' when a specific case is not covered by existing rules."},
 

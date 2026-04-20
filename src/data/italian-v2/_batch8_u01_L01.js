@@ -42,7 +42,7 @@ const BATCH8_L1 = {id:"itv2_u01l_b8_1", title:"Signore e signora", icon:"🎩", 
 
 {type:"teach", trg:"volentieri", src:"gladly / with pleasure", pos:"adv", gender:null,
  note:"Adverb. A warm, enthusiastic way to accept an offer.\nMore expressive than a simple 'si.'",
- example:"A: Vuoi un caffe?\nB: Volentieri, grazie!",
+ example:"A: Vuoi un caffè?\nB: Volentieri, grazie!",
  exampleSrc:"A: Do you want a coffee?\nB: Gladly, thank you!",
  funFact:"'Volentieri' comes from the Latin 'voluntarius' (willing). It is the most charming way to say yes in Italian."},
 

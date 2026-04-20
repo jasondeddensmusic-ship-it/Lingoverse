@@ -74,7 +74,7 @@ const BATCH3_U10_L1 = {
 
     {type:"teach", trg:"il modulo", src:"the form (to fill out)", pos:"noun", gender:"m",
      note:"Masculine. From Latin 'modulus' (a measure).\n'Compilare un modulo' = to fill out a form.",
-     example:"A: Deve compilare questo modulo.\nB: Serve anche un documento d'identita?",
+     example:"A: Deve compilare questo modulo.\nB: Serve anche un documento d'identità?",
      exampleSrc:"A: You need to fill out this form.\nB: Do you also need an ID document?",
      funFact:"Italian bureaucracy involves many forms. 'Compilare' (to compile/fill in) is the standard verb. Many forms now have online versions, but paper forms persist in smaller offices. Patience with Italian paperwork is essential. The phrase 'in triplice copia' (in triplicate) is still heard in some offices."},
 

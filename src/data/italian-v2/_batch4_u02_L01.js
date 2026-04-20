@@ -22,7 +22,7 @@ const BATCH4_U02_L1 = {
      note:"Masculine. Feminine: terza.\nFrom Latin 'tertius.'",
      example:"A: E la terza volta che chiamo!\nB: Mi dispiace per l'attesa.",
      exampleSrc:"A: It is the third time I am calling!\nB: I am sorry for the wait.",
-     funFact:"'Terzo mondo' (third world) and 'la terza eta' (the third age, meaning old age) are common expressions. The pattern for ordinals after 'decimo' (tenth) adds -esimo to the cardinal number."},
+     funFact:"'Terzo mondo' (third world) and 'la terza età' (the third age, meaning old age) are common expressions. The pattern for ordinals after 'decimo' (tenth) adds -esimo to the cardinal number."},
 
     {type:"teach", trg:"gennaio", src:"January", pos:"noun", gender:"m",
      note:"Masculine. Not capitalized in Italian (unlike English).\nFrom Janus, the two-faced Roman god.",
@@ -124,12 +124,12 @@ const BATCH4_U02_L1 = {
      ans:"Giorno/mese/anno",
      hint:"Italian format puts the day first, opposite to American English."},
 
-    {type:"fb", s:"L'Italia si ferma quasi completamente a meta {1}.",
+    {type:"fb", s:"L'Italia si ferma quasi completamente a metà {1}.",
      a:["agosto"], opts:["agosto","luglio","settembre","giugno"],
      hint:"Italy's biggest summer holiday falls in the eighth month of the year.",
      sSrc:"Italy almost completely shuts down in mid-{1}."},
 
-    {type:"mc", q:"Perche settembre si chiama cosi?",
+    {type:"mc", q:"Perche settembre si chiama così?",
      opts:["Was the 7th month in the Roman calendar","Has seven letters","Was dedicated to a senator","Means harvest month"],
      ans:"Was the 7th month in the Roman calendar",
      hint:"The prefix 'sette' in Italian means seven, from Latin 'septem.'"}

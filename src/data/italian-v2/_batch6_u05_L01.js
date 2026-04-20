@@ -54,7 +54,7 @@ const BATCH6_L1 = {id:"itv2_u05l_b6_1", title:"Le faccende domestiche", icon:"\u
 
 {type:"teach", trg:"buttare via", src:"to throw away", pos:"verb", gender:null,
  note:"Separable verb phrase. butto via, butti via, butta via.\n'Via' means 'away.'",
- example:"A: Posso buttare via questi giornali vecchi?\nB: Si, non servono piu.",
+ example:"A: Posso buttare via questi giornali vecchi?\nB: Si, non servono più.",
  exampleSrc:"A: Can I throw away these old newspapers?\nB: Yes, they are no longer needed.",
  funFact:"Italy has strict recycling rules. You cannot simply 'buttare via' everything in one bin. Cities have color-coded bags for different materials."},
 
@@ -110,7 +110,7 @@ const BATCH6_L1 = {id:"itv2_u05l_b6_1", title:"Le faccende domestiche", icon:"\u
  ans:"l'aspirapolvere",
  hint:"A compound word: it sucks (aspira) dust (polvere)."},
 
-{type:"fb", s:"Puoi {1} questi giornali vecchi? Non servono piu.", a:["buttare via"],
+{type:"fb", s:"Puoi {1} questi giornali vecchi? Non servono più.", a:["buttare via"],
  opts:["buttare via","riordinare","appendere","lavare"],
  hint:"To dispose of something you no longer need. Two words.",
  sSrc:"Can you {1} these old newspapers? They are no longer needed."},
