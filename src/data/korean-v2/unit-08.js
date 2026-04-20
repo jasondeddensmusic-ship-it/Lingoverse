@@ -333,6 +333,104 @@ const UNIT_8 =
   {type:"match",pairs:[{trg:"예약",src:"appointment / reservation"},{trg:"확인하다",src:"to confirm"},{trg:"취소하다",src:"to cancel"},{trg:"변경하다",src:"to change / reschedule"}]},
 ]},
 
+,
+
+// ═══ L11: TOPIK I Core Verbs + Descriptive Verbs ═══
+{id:"kov2_u8l_topik1_essential",title:"사다, 싫어하다, 크다, 작다...",icon:"📚",xp:20,board:true,steps:[
+  {type:"intro",title:"Core TOPIK I Words",desc:"Ten essential words every TOPIK I learner must know: action verbs, emotional verbs, and descriptive verbs (Korean adjectives). All are on official TOPIK I vocabulary lists.",goals:["Learn 사다 (buy) and 싫어하다 (dislike)","Learn descriptive verbs 크다, 작다, 바쁘다, 나쁘다, 길다, 짧다, 적다, 무섭다","Understand that Korean adjectives conjugate like verbs","Practice using them in natural sentences"]},
+
+  {type:"teach",trg:"사다",src:"to buy",pos:"verb",gender:null,phonetic:"sa-da",
+   note:"사다: to buy.\n사다 → 사요 (polite present).\n사다 → 샀어요 (past).\n뭐 사요?: What are you buying?",
+   example:"A: 뭐 사요?\nB: 책을 사요.",
+   exampleSrc:"A: What are you buying?\nB: I am buying a book.",
+   funFact:"사다 has a vowel stem (사). Before 아요, the two ㅏ sounds merge: 사+아요 → 사요. Compare past: 사+았어요 → 샀어요."},
+
+  {type:"teach",trg:"싫어하다",src:"to dislike / to hate",pos:"verb",gender:null,phonetic:"si-reo-ha-da",
+   note:"싫어하다: to dislike or hate.\n싫어요: it is disliked (descriptive).\n싫어하다: actively dislike (action).\n저는 매운 음식을 싫어해요: I dislike spicy food.",
+   example:"A: 어떤 음식을 싫어해요?\nB: 저는 매운 음식을 싫어해요.",
+   exampleSrc:"A: What food do you dislike?\nB: I dislike spicy food.",
+   funFact:"싫어하다 is the opposite of 좋아하다 (to like). Korean distinguishes 싫다 (it is disliked, emotional state) from 싫어하다 (to actively dislike something)."},
+
+  {type:"teach",trg:"크다",src:"to be big",pos:"adj",gender:null,phonetic:"keu-da",
+   note:"크다: to be big, large, great.\nKorean descriptive verbs conjugate just like action verbs.\n크다 → 커요 (polite present, ㅡ drops).\n이 가방이 커요: This bag is big.",
+   example:"A: 이 방이 커요?\nB: 네, 방이 아주 커요.",
+   exampleSrc:"A: Is this room big?\nB: Yes, the room is very big.",
+   funFact:"크다 behaves like a verb: 크면 (if big), 크고 (big and), 컸어요 (was big). This is why Korean linguists call adjectives '형용사' (descriptive verbs) — they follow the same grammatical rules as action verbs."},
+
+  {type:"teach",trg:"작다",src:"to be small",pos:"adj",gender:null,phonetic:"jak-da",
+   note:"작다: to be small, little, tiny.\n작다 → 작아요 (polite present).\n크다 (big) ↔ 작다 (small): a key opposite pair.",
+   example:"A: 이 신발이 작아요?\nB: 네, 조금 작아요.",
+   exampleSrc:"A: Are these shoes small?\nB: Yes, they are a little small.",
+   funFact:"작다 and 크다 are taught together in Korean classrooms as the first size adjective pair. You will see this pair on virtually every TOPIK I exam."},
+
+  {type:"tip",title:"Korean Adjectives ARE Verbs",text:"In Korean, descriptive verbs (adjectives) work exactly like action verbs.\nThey conjugate with the same endings:\n\n크다 → 커요 (is big)\n작다 → 작아요 (is small)\n바쁘다 → 바빠요 (is busy)\n\nNo linking verb needed. Just stem + 아/어요.",deepDive:{title:"Descriptive Verb Conjugation",text:"Pattern: stem + 아/어요\n\nBright vowel (ㅏ/ㅗ) stem → 아요:\n작다 → 작아요\n\nDark vowel (ㅜ/ㅓ etc.) stem → 어요:\n무섭다 → 무서워요 (ㅂ-irregular)\n\nㅡ-stem → ㅡ drops:\n크다 → 커요\n바쁘다 → 바빠요\n\nㅂ-stem → ㅂ becomes 우:\n무섭다 → 무서워요\n길다 → 길어요 (ㄹ stem, stays before vowels)"}},
+
+  {type:"teach",trg:"바쁘다",src:"to be busy",pos:"adj",gender:null,phonetic:"ba-ppeu-da",
+   note:"바쁘다: to be busy.\nㅡ-stem: ㅡ drops before 아/어요.\n바쁘다 → 바빠요 (polite present).\n오늘 많이 바빠요?: Are you very busy today?",
+   example:"A: 오늘 바빠요?\nB: 네, 오늘 많이 바빠요.",
+   exampleSrc:"A: Are you busy today?\nB: Yes, I am very busy today.",
+   funFact:"바쁘다 follows the ㅡ-drop rule: the stem 바쁘 loses its ㅡ before 아요, giving 바빠요. The same rule applied to 크다 → 커요. You already learned this in the -(으)면 conditional lesson!"},
+
+  {type:"teach",trg:"나쁘다",src:"to be bad",pos:"adj",gender:null,phonetic:"na-ppeu-da",
+   note:"나쁘다: to be bad.\nOpposite of 좋다 (to be good).\nㅡ-stem: 나쁘다 → 나빠요 (polite present).\n이 음식은 나빠요?: Is this food bad?",
+   example:"A: 이 음식이 나빠요?\nB: 아니요, 나쁘지 않아요. 맛있어요!",
+   exampleSrc:"A: Is this food bad?\nB: No, it is not bad. It is delicious!",
+   funFact:"나쁘다 shares the ㅡ-stem pattern with 바쁘다: both drop ㅡ before vowel endings. 나쁘다 is one of the most basic evaluation adjectives on the TOPIK I word list."},
+
+  {type:"teach",trg:"길다",src:"to be long",pos:"adj",gender:null,phonetic:"gil-da",
+   note:"길다: to be long.\nㄹ-stem: ㄹ stays before vowel endings.\n길다 → 길어요 (polite present).\nOpposite: 짧다 (short).",
+   example:"A: 이 영화가 길어요?\nB: 네, 두 시간이에요.",
+   exampleSrc:"A: Is this movie long?\nB: Yes, it is two hours.",
+   funFact:"길다 is a ㄹ-irregular adjective: the ㄹ stays before vowels (길어요) but drops before ㄴ, ㅂ, ㅅ endings (긴, 깁니다). You learned this ㄹ-irregular pattern with 살다 and 알다."},
+
+  {type:"teach",trg:"짧다",src:"to be short",pos:"adj",gender:null,phonetic:"jjal-da",
+   note:"짧다: to be short (in length).\n짧다 → 짧아요 (polite present).\n길다 (long) ↔ 짧다 (short): essential size pair.\n주의: 짧다 = short in length, not height. For height, use 작다.",
+   example:"A: 이 머리카락이 짧아요?\nB: 네, 조금 짧아요.",
+   exampleSrc:"A: Is this hair short?\nB: Yes, it is a bit short.",
+   funFact:"짧다 has the double consonant cluster ㄼ (ㄹ + ㅂ). In 짧아요, the ㄹ sounds: jjal-la-yo. This consonant cluster follows the same rule as 읽다: both sounds emerge before a vowel."},
+
+  {type:"teach",trg:"적다",src:"to be few / to be little",pos:"adj",gender:null,phonetic:"jeok-da",
+   note:"적다: to be few, little (in quantity).\nOpposite: 많다 (to be many, a lot).\n적다 → 적어요 (polite present).\n사람이 적어요: There are few people.",
+   example:"A: 사람이 많아요?\nB: 아니요, 오늘은 사람이 적어요.",
+   exampleSrc:"A: Are there many people?\nB: No, there are few people today.",
+   funFact:"적다 is the opposite of 많다, one of the most common Korean adjectives. The pair 많다/적다 (many/few) parallels 크다/작다 (big/small) and 길다/짧다 (long/short): Korean loves opposite-pair vocabulary."},
+
+  {type:"teach",trg:"무섭다",src:"to be scary / to be frightening",pos:"adj",gender:null,phonetic:"mu-seop-da",
+   note:"무섭다: to be scary.\nㅂ-irregular: ㅂ becomes 우 before vowel endings.\n무섭다 → 무서워요 (polite present).\n이 영화가 무서워요: This movie is scary.",
+   example:"A: 이 영화가 무서워요?\nB: 네, 정말 무서워요!",
+   exampleSrc:"A: Is this movie scary?\nB: Yes, it is really scary!",
+   funFact:"무섭다 follows the ㅂ-irregular pattern: ㅂ becomes 우 before vowel endings. You already saw this pattern in the conditional lesson: 덥다 → 더우면, 춥다 → 추우면. 무섭다 → 무서워요 follows the same rule."},
+
+  {type:"mc",q:"사다 means:",opts:["to sell","to buy","to make","to open"],ans:"to buy",hint:"You use this verb at a store when handing over money. Its opposite is 팔다 (to sell)."},
+  {type:"mc",q:"싫어하다 is the opposite of:",opts:["가다 (to go)","알다 (to know)","좋아하다 (to like)","먹다 (to eat)"],ans:"좋아하다 (to like)",hint:"싫어하다 = to dislike. The opposite emotional verb is used when you enjoy something."},
+
+  {type:"fb",s:"저는 매운 음식을 ___.\n(I dislike spicy food.)",a:"싫어해요",opts:["싫어해요","좋아해요","먹어요","사요"],hint:"싫어하다 → polite present: 싫어해요. The opposite of 좋아해요."},
+
+  {type:"mc",q:"크다 → polite present:",opts:["크아요","크요","커요","큰요"],ans:"커요",hint:"ㅡ-stem: ㅡ drops before 아/어요. 크 → ㅡ drops → 어요→ 커요."},
+
+  {type:"fb",s:"이 신발이 ___.\n(These shoes are small.)",a:"작아요",opts:["작아요","커요","길어요","짧아요"],hint:"작다 → bright vowel stem 작 → 아요 → 작아요."},
+
+  {type:"mc",q:"바쁘다 → polite present:",opts:["바빠요","바쁘요","바쁘어요","바빼요"],ans:"바빠요",hint:"ㅡ drops: 바쁘 → 바ㅃ + 아요 → 바빠요. Same pattern as 크다 → 커요."},
+
+  {type:"fb",s:"오늘 ___ 바빠요.\n(I am very busy today.)",a:"많이",opts:["많이","조금","적게","크게"],hint:"Which adverb means 'very much / a lot'?"},
+
+  {type:"mc",q:"나쁘다 → polite present:",opts:["나빠요","나쁘요","나쁘어요","나빼요"],ans:"나빠요",hint:"Same ㅡ-drop pattern as 바쁘다 → 바빠요."},
+
+  {type:"fb",s:"이 음식은 ___지 않아요. 맛있어요!\n(This food is not bad. It is delicious!)",a:"나쁘",opts:["나쁘","좋","작","길"],hint:"나쁘다 + 지 않아요 = is not bad. What is the stem of 나쁘다?"},
+
+  {type:"mc",q:"길다 → polite present:",opts:["길아요","기아요","길어요","길요"],hint:"ㄹ-stem stays before vowel endings: 길 + 어요.",ans:"길어요"},
+
+  {type:"mc",q:"짧다 is the opposite of:",opts:["크다 (big)","길다 (long)","바쁘다 (busy)","나쁘다 (bad)"],ans:"길다 (long)",hint:"짧다 = short in length. Think of a ruler: which Korean adjective names the other end of the scale?"},
+
+  {type:"fb",s:"사람이 ___. 오늘 조용해요.\n(There are few people. It is quiet today.)",a:"적어요",opts:["적어요","많아요","커요","바빠요"],hint:"적다 → 적어요. The opposite of 많아요 (there are many)."},
+
+  {type:"mc",q:"무섭다 → polite present (ㅂ-irregular):",opts:["무섭아요","무섭어요","무서워요","무서아요"],ans:"무서워요",hint:"ㅂ-irregular: ㅂ becomes 우 before vowels. Same pattern as 덥다 → 더워요."},
+
+  {type:"match",pairs:[{trg:"사다",src:"to buy"},{trg:"싫어하다",src:"to dislike"},{trg:"크다",src:"to be big"},{trg:"작다",src:"to be small"}]},
+  {type:"match",pairs:[{trg:"바쁘다",src:"to be busy"},{trg:"나쁘다",src:"to be bad"},{trg:"길다",src:"to be long"},{trg:"짧다",src:"to be short"}]},
+  {type:"match",pairs:[{trg:"적다",src:"to be few"},{trg:"무섭다",src:"to be scary"}]},
+]},
+
 ]};
 
 export default UNIT_8;

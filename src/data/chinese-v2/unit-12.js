@@ -389,6 +389,146 @@ lessons:[
   {trg:"远(yuǎn)", src:"far"},
   {trg:"离(lí)", src:"distance from"}
 ]}
+]},
+
+// ─── L6: Essential HSK 2–3 Words ───
+{id:"zhv2_u12l_essential_hsk2_3", title:"核心词汇 Essential HSK 2–3 Words", icon:"📚", xp:20, board:true, steps:[
+{type:"intro", title:"Essential HSK 2–3 Words",
+ desc:"Master nine high-frequency HSK 2 and HSK 3 words that appear constantly in real Mandarin. These include key verbs, pronouns, adverbs, and abstract nouns that unlock natural Chinese conversation.",
+ goals:["Use 给 as a verb meaning to give and as a preposition meaning for","Recognize 大家 as a collective pronoun for everyone","Use 成功, 内容, and 目的 in context","Express certainty with 当然 and logical steps with 经过 and 形成","Use 表示 to express or indicate something"]},
+
+{type:"teach", trg:"给(gěi)", src:"to give / for / by", pos:"verb", gender:null,
+ phonetic:"gěi",
+ note:"给 has three main uses:\n1. Verb: 给 + recipient + thing (I give you something)\n2. Preposition for: 给我打电话 (call me / call for me)\n3. Passive marker at B1+: 杯子给打破了 (the cup got broken)",
+ example:"A: 你(nǐ)给(gěi)我(wǒ)什么(shénme)？\nB: 我(wǒ)给(gěi)你(nǐ)一(yī)本(běn)书(shū)。",
+ exampleSrc:"A: What are you giving me?\nB: I am giving you a book.",
+ funFact:"给 is one of the most versatile words in Mandarin. As a verb it means 'give'; as a preposition it means 'for' or 'to' a recipient. Later at B1 it even acts like a passive marker. Mastering 给 early unlocks dozens of common sentence patterns."},
+
+{type:"teach", trg:"大家(dàjiā)", src:"everyone / everybody", pos:"pron", gender:null,
+ phonetic:"dàjiā",
+ note:"大 = big / great + 家 = family/home. Literally: the big family.\nUsed to address or refer to a whole group. Always plural in meaning.",
+ example:"A: 大家(dàjiā)好(hǎo)！\nB: 老师(lǎoshī)好(hǎo)！",
+ exampleSrc:"A: Hello, everyone!\nB: Hello, teacher!",
+ funFact:"大家好！ is the classic opening line Chinese teachers use at the start of every class. 大 (great/big) combined with 家 (family) expresses the idea of one big family — a warm, collective greeting rooted in Confucian values of group harmony."},
+
+{type:"teach", trg:"成功(chénggōng)", src:"success / to succeed", pos:"noun", gender:null,
+ phonetic:"chénggōng",
+ note:"成 = to achieve/become + 功 = achievement/merit.\nWorks as both noun (success) and verb (to succeed).\n成功了！= We succeeded! / It worked!",
+ example:"A: 你(nǐ)想(xiǎng)成功(chénggōng)吗(ma)？\nB: 想(xiǎng)！我(wǒ)要(yào)努力(nǔlì)！",
+ exampleSrc:"A: Do you want to succeed?\nB: Yes! I will work hard!",
+ funFact:"成功 appears constantly in Chinese motivational culture. The phrase 祝你成功 (zhù nǐ chénggōng — wishing you success) is as common as 'good luck' in English. 功 is also the root of 功夫 (gōngfu) — skill built through hard work and merit."},
+
+{type:"teach", trg:"当然(dāngrán)", src:"of course / certainly", pos:"adv", gender:null,
+ phonetic:"dāngrán",
+ note:"当 = should/ought + 然 = so/thus. Literally: it should naturally be so.\nUsed to confirm something obvious or express strong agreement.",
+ example:"A: 你(nǐ)喜欢(xǐhuan)旅游(lǚyóu)吗(ma)？\nB: 当然(dāngrán)！我(wǒ)很(hěn)喜欢(xǐhuan)！",
+ exampleSrc:"A: Do you like traveling?\nB: Of course! I like it very much!",
+ funFact:"当然 is one of the friendliest words in Mandarin. Saying 当然！makes the other person feel that their question had an obvious, positive answer. It is warmer and more enthusiastic than just 是 (yes). Overuse it and you will sound charmingly confident."},
+
+{type:"teach", trg:"表示(biǎoshì)", src:"to express / to indicate", pos:"verb", gender:null,
+ phonetic:"biǎoshì",
+ note:"表 = to display/show + 示 = to indicate/point out.\nUsed when something conveys a meaning: a gesture, word, or action expresses something.",
+ example:"A: 这(zhè)个(gè)词(cí)表示(biǎoshì)什么(shénme)？\nB: 这(zhè)个(gè)词(cí)表示(biǎoshì)成功(chénggōng)。",
+ exampleSrc:"A: What does this word indicate?\nB: This word indicates success.",
+ funFact:"表示 is heavily used in academic and formal Chinese — in textbooks, news reports, and speeches. Politicians 表示 their support; scientists 表示 their findings. At HSK 3, mastering this verb marks the shift from everyday chat to formal literacy."},
+
+{type:"teach", trg:"经过(jīngguò)", src:"to pass through / via / after", pos:"prep", gender:null,
+ phonetic:"jīngguò",
+ note:"经 = to pass through/experience + 过 = to cross/pass.\nCan be a verb (pass through a place) or a preposition (via / after going through).",
+ example:"A: 你(nǐ)怎么(zěnme)去(qù)车站(chēzhàn)？\nB: 我(wǒ)经过(jīngguò)公园(gōngyuán)去(qù)。",
+ exampleSrc:"A: How do you get to the station?\nB: I go via the park.",
+ funFact:"经过 shares its root 经 with 经验 (jīngyàn — experience) and 经济 (jīngjì — economy). The idea of passing through or traversing connects all three: you gain experience by passing through events; an economy is the flow of goods passing through society."},
+
+{type:"teach", trg:"形成(xíngchéng)", src:"to form / to take shape", pos:"verb", gender:null,
+ phonetic:"xíngchéng",
+ note:"形 = shape/form + 成 = to become/achieve.\nDescribes how a pattern, habit, idea, or structure gradually develops.",
+ example:"A: 好(hǎo)习惯(xíguàn)是(shì)怎么(zěnme)形成(xíngchéng)的(de)？\nB: 每(měi)天(tiān)练习(liànxí)就(jiù)能(néng)形成(xíngchéng)。",
+ exampleSrc:"A: How do good habits form?\nB: Practicing every day is how they form.",
+ funFact:"形成 is a favorite word in Chinese educational writing. Teachers talk about how knowledge forms, how character forms, how society forms. The character 形 originated as a pictograph of shadows cast by a shape — visual form emerging from light. Even abstract ideas have a visual root in Chinese."},
+
+{type:"teach", trg:"内容(nèiróng)", src:"content / contents", pos:"noun", gender:null,
+ phonetic:"nèiróng",
+ note:"内 = inside/inner + 容 = to contain/hold. Literally: what is held inside.\nRefers to the substance or subject matter of a text, lesson, or communication.",
+ example:"A: 这(zhè)本(běn)书(shū)的(de)内容(nèiróng)很(hěn)好(hǎo)。\nB: 好(hǎo)的(de)，我(wǒ)想(xiǎng)看(kàn)！",
+ exampleSrc:"A: The content of this book is very good.\nB: Great, I want to read it!",
+ funFact:"内容 is one of those words that feels abstract until you realise you use it daily: the content of a course, a song, a video, a speech. 内 (inner) also appears in 内部 (internal), 室内 (indoors), and 内心 (inner heart/feelings). The inside dimension runs through Chinese thought."},
+
+{type:"teach", trg:"目的(mùdì)", src:"purpose / goal / objective", pos:"noun", gender:null,
+ phonetic:"mùdì",
+ note:"目 = eye/aim + 的 (dì in this word, not the particle de) = target.\nLiterally: the target the eye is aimed at. Used for goals, intentions, and purposes.",
+ example:"A: 你(nǐ)学(xué)习(xí)中文(zhōngwén)的(de)目的(mùdì)是(shì)什么(shénme)？\nB: 我(wǒ)的(de)目的(mùdì)是(shì)去(qù)中国(Zhōngguó)工作(gōngzuò)。",
+ exampleSrc:"A: What is your goal in learning Chinese?\nB: My goal is to work in China.",
+ funFact:"The character 目 is one of the oldest pictographs in Chinese — it depicts a human eye turned sideways. A goal is literally 'what the eye aims at.' 的 (dì) as a suffix marks a target or destination (different from the particle 的 de), and it appears in 目的地 (mùdìdì — destination)."},
+
+{type:"tip", title:"Abstract HSK 2–3 Nouns: 成功, 内容, 目的",
+ text:"Three abstract nouns you just learned appear in HSK 2-3 exam questions and real Mandarin constantly:\n\n成功(chénggōng) = success (also a verb: to succeed)\n内容(nèiróng) = content (of a text, lesson, conversation)\n目的(mùdì) = purpose, goal, objective\n\nAll three describe outcomes and substance, not physical objects.\n\nUseful patterns:\n你的目的是什么？= What is your purpose?\n这本书的内容很好。= The content of this book is great.\n经过努力，他成功了。= After hard work, he succeeded.\n\n目的 and 成功 often appear together: 达到目的 = reach your goal.",
+ deepDive:{title:"给(gěi) — Three Roles in One Word",
+  text:"给 at HSK 2 means 'to give.' But it has two more roles worth knowing:\n\nRole 1 — Verb (give):\n我给你一本书。= I give you a book.\n\nRole 2 — Preposition (for / to):\n给我打电话。= Call me. (literally: make a call for/to me)\n我给大家介绍一下。= Let me introduce to everyone.\n\nRole 3 — Passive marker (B1+):\n书给他拿走了。= The book was taken away by him.\n\nAt A2, focus on Roles 1 and 2. The passive role comes naturally at B1 with more exposure."}},
+
+{type:"mc", q:"我(wǒ)给(gěi)你(nǐ)一(yī)本(běn)书(shū)。 What is 给 doing in this sentence?",
+ opts:["Acting as a preposition meaning for","Acting as a verb meaning to give","Acting as a passive marker","Acting as an adverb"],
+ ans:"Acting as a verb meaning to give",
+ hint:"The subject (I) performs an action transferring something to the recipient (you). Look at the structure: who acts, who receives, and what is transferred."},
+
+{type:"fb", s:"大家(dàjiā){1}！",
+ a:["好(hǎo)"],
+ opts:["好(hǎo)","去(qù)","来(lái)","走(zǒu)"],
+ hint:"This is the classic Chinese greeting used to address a whole group at once. One syllable completes it.",
+ sSrc:"Hello, {1} everyone!"},
+
+{type:"match", pairs:[
+  {trg:"给(gěi)", src:"to give / for"},
+  {trg:"大家(dàjiā)", src:"everyone"},
+  {trg:"成功(chénggōng)", src:"success / to succeed"},
+  {trg:"当然(dāngrán)", src:"of course"},
+  {trg:"表示(biǎoshì)", src:"to express / to indicate"}
+]},
+
+{type:"fb", s:"你(nǐ)喜欢(xǐhuan)旅游(lǚyóu)吗(ma)？{1}！我(wǒ)很(hěn)喜欢(xǐhuan)！",
+ a:["当然(dāngrán)"],
+ opts:["当然(dāngrán)","成功(chénggōng)","内容(nèiróng)","目的(mùdì)"],
+ hint:"The answer expresses enthusiastic, obvious agreement. Which adverb means of course or certainly?",
+ sSrc:"{1}! I like it very much!"},
+
+{type:"mc", q:"这(zhè)个(gè)词(cí)表示(biǎoshì)什么(shénme)？ What is being asked?",
+ opts:["What time is this word?","What does this word indicate or mean?","Who said this word?","How do you write this word?"],
+ ans:"What does this word indicate or mean?",
+ hint:"Focus on 表示 and 什么. The question is asking about the communicative function or message that something conveys."},
+
+{type:"fb", s:"我(wǒ)经过(jīngguò){1}去(qù)车站(chēzhàn)。",
+ a:["公园(gōngyuán)"],
+ opts:["公园(gōngyuán)","内容(nèiróng)","目的(mùdì)","成功(chénggōng)"],
+ hint:"经过 means to pass through a place. Which option is a physical location you can walk through on the way?",
+ sSrc:"I go to the station via the {1}."},
+
+{type:"match", pairs:[
+  {trg:"经过(jīngguò)", src:"to pass through / via"},
+  {trg:"形成(xíngchéng)", src:"to form / to take shape"},
+  {trg:"内容(nèiróng)", src:"content"},
+  {trg:"目的(mùdì)", src:"purpose / goal"}
+]},
+
+{type:"fb", s:"你(nǐ)学(xué)习(xí)中文(zhōngwén)的(de){1}是(shì)什么(shénme)？",
+ a:["目的(mùdì)"],
+ opts:["目的(mùdì)","内容(nèiróng)","成功(chénggōng)","大家(dàjiā)"],
+ hint:"The question asks why someone is studying Chinese. Which noun means the reason or objective behind an action?",
+ sSrc:"What is your {1} in studying Chinese?"},
+
+{type:"mc", q:"好习惯经过每天练习可以形成。 What does 形成 mean here?",
+ opts:["to disappear","to form and take shape","to express","to pass through"],
+ ans:"to form and take shape",
+ hint:"形 is a pictograph of a visible outline, and 成 means to achieve or become. What happens when repeated practice gradually produces a stable pattern?"},
+
+{type:"fb", s:"这(zhè)本(běn)书(shū)的(de){1}很(hěn)好(hǎo)，我(wǒ)很(hěn)喜欢(xǐhuan)。",
+ a:["内容(nèiróng)"],
+ opts:["内容(nèiróng)","目的(mùdì)","成功(chénggōng)","当然(dāngrán)"],
+ hint:"The speaker praises the substance or subject matter of a book. Which noun means what is held inside — the material or subject?",
+ sSrc:"The {1} of this book is great, I like it very much."},
+
+{type:"mc", q:"经过努力，他成功了。 What caused the success?",
+ opts:["Passing through the park","Hard work and effort","Giving something to someone","Forming a new habit"],
+ ans:"Hard work and effort",
+ hint:"经过 here functions as 'after going through.' 努力 describes the sustained, determined action he performed. What kind of input produces 成功?"}
 ]}
 
 ]};
