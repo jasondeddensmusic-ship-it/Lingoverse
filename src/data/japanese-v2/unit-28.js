@@ -137,6 +137,77 @@ const UNIT_28 = {
   {type:"match", pairs:[{trg:"〜んだ / 〜のだ",src:"it is that (explanatory)"},{trg:"〜っけ",src:"was it? (recall)"},{trg:"書(か)き言葉(ことば)",src:"written language"},{trg:"である",src:"to be (written)"}]},
 ]},
 
+// ═══ L3: Business & Society Concepts ═══
+{id:"jav2_u28l3", title:"Business & Society Concepts", icon:"🏢", xp:15, board:true, steps:[
+  {type:"intro", title:"Business and Society Concepts",
+   desc:"Seven high-frequency nouns and adjectives from JLPT N2. These words appear constantly in Japanese newspapers, business meetings, and academic writing. Mastering them unlocks a large vocabulary cluster around work, society, and abstract reasoning.",
+   goals:["Use 経営, 教育, 管理 in business contexts","Apply 過去, 印象 to descriptions and narratives","Use 具体的 and 一般 to structure arguments"]},
+
+  {type:"teach", trg:"経営(けいえい)", src:"management / business operation", pos:"noun", gender:null,
+   note:"Kanji: 経営. Often paired with する: 経営(けいえい)する = to manage (a business).\n経営者(けいえいしゃ) = business owner/manager.",
+   example:"A: 会社(かいしゃ)の経営(けいえい)はうまくいっていますか？\nB: はい、先月(せんげつ)から黒字(くろじ)になりました。\nA: それはおめでとうございます。\nB: ありがとうございます。まだ安心(あんしん)はできませんが。",
+   exampleSrc:"A: Is the management of the company going well?\nB: Yes, it has been profitable since last month.\nA: Congratulations on that.\nB: Thank you. I cannot relax just yet though.",
+   funFact:"経営 splits into 経 (to pass through / manage) and 営 (to operate). The same 経 appears in 経験(けいけん) (experience) and 経済(けいざい) (economy). Large Japanese companies often have a 経営会議(けいえいかいぎ) (management meeting) at the board level, distinct from regular 会議(かいぎ) held by staff."},
+
+  {type:"teach", trg:"教育(きょういく)", src:"education", pos:"noun", gender:null,
+   note:"Kanji: 教育. 教(きょう) (teach) + 育(いく) (raise/nurture).\n教育(きょういく)する = to educate. 教育制度(きょういくせいど) = education system.",
+   example:"A: 日本(にほん)の教育(きょういく)についてどう思(おも)いますか？\nB: 基礎的(きそてき)な学力(がくりょく)は高(たか)いと思(おも)います。\nA: 海外(かいがい)と比(くら)べるとどうでしょうか？\nB: 創造性(そうぞうせい)の面(めん)では改善(かいぜん)の余地(よち)があると言(い)われています。",
+   exampleSrc:"A: What do you think about education in Japan?\nB: I think the foundational academic ability is high.\nA: How does it compare to overseas?\nB: It is said there is room for improvement in terms of creativity.",
+   funFact:"教育 is one of the most discussed topics in Japanese society. Japan's 教育ママ (education mom) culture, 受験戦争(じゅけんせんそう) (examination war), and 塾(じゅく) (cram school) industry all revolve around this word. The government 文部科学省(もんぶかがくしょう) (Ministry of Education) sets the national curriculum, which is known for rigor."},
+
+  {type:"mc", q:"経営(けいえい)する means:", opts:["to educate","to manage a business","to administer a law","to study abroad"], ans:"to manage a business",
+   hint:"This word combines kanji for 'to pass through' and 'to operate', referring to running an organization."},
+
+  {type:"teach", trg:"管理(かんり)", src:"management / administration / control", pos:"noun", gender:null,
+   note:"Kanji: 管理. 管(かん) (pipe/control) + 理(り) (reason/order).\n管理(かんり)する = to manage, to administer. 管理者(かんりしゃ) = administrator.",
+   example:"A: このプロジェクトの管理(かんり)は誰(だれ)が担当(たんとう)していますか？\nB: 田中(たなか)さんが責任者(せきにんしゃ)です。\nA: 進(すす)み具合(ぐあい)はどうですか？\nB: 予定(よてい)より少(すこ)し遅(おく)れていますが、来週中(らいしゅうちゅう)には追(お)いつけます。",
+   exampleSrc:"A: Who is in charge of managing this project?\nB: Mr. Tanaka is the person responsible.\nA: How is the progress?\nB: It is a little behind schedule, but we can catch up by next week.",
+   funFact:"管理 and 経営 are often confused. 経営 is about running and growing a business at a strategic level, while 管理 is about controlling and overseeing systems, people, or processes at an operational level. A company president does 経営; a section chief does 管理. The IT term for system administrator is システム管理者(かんりしゃ)."},
+
+  {type:"teach", trg:"過去(かこ)", src:"the past", pos:"noun", gender:null,
+   note:"Kanji: 過去. 過(か) (to pass/exceed) + 去(こ) (to leave/go away).\n過去(かこ)の = past (adjective). Opposite: 未来(みらい) (future).",
+   example:"A: 過去(かこ)の経験(けいけん)から何(なに)を学(まな)びましたか？\nB: 失敗(しっぱい)を恐(おそ)れずに挑戦(ちょうせん)することが大切(たいせつ)だと学(まな)びました。\nA: 今(いま)の仕事(しごと)にも生(い)かせていますか？\nB: はい、毎日(まいにち)意識(いしき)しています。",
+   exampleSrc:"A: What have you learned from past experience?\nB: I learned that it is important to take on challenges without fearing failure.\nA: Are you applying it to your current work as well?\nB: Yes, I am conscious of it every day.",
+   funFact:"過去 is also a Buddhist term for one of the three times: 過去(かこ) (past), 現在(げんざい) (present), and 未来(みらい) (future). This triple concept pervades Japanese philosophy and literature. The kanji 過 also appears in 過(す)ぎる (to pass, to go too far) and 過失(かしつ) (mistake/negligence)."},
+
+  {type:"mc", q:"管理(かんり) is best described as:", opts:["Strategic business growth","Operational control and administration","Educational curriculum","Past events and history"], ans:"Operational control and administration",
+   hint:"This word is about overseeing systems and processes at a hands-on level, not top-level strategy."},
+
+  {type:"teach", trg:"印象(いんしょう)", src:"impression", pos:"noun", gender:null,
+   note:"Kanji: 印象. 印 (seal/stamp) + 象 (image/phenomenon).\n第一印象(だいいちいんしょう) = first impression. 印象的(いんしょうてき) = impressive.",
+   example:"A: あの先生(せんせい)の授業(じゅぎょう)はどんな印象(いんしょう)でしたか？\nB: とても熱心(ねっしん)で分(わ)かりやすかったです。\nA: 学生(がくせい)たちの反応(はんのう)はどうでしたか？\nB: 皆(みな)、積極的(せっきょくてき)に参加(さんか)していました。",
+   exampleSrc:"A: What impression did you get from that teacher's class?\nB: It was very enthusiastic and easy to understand.\nA: How did the students react?\nB: Everyone was participating actively.",
+   funFact:"印象 literally means 'stamp image' — the mark something leaves in your mind, like a seal pressed into wax. 第一印象(だいいちいんしょう) (first impression) is a major concern in Japanese job-hunting culture. Companies teach 就活生(しゅうかつせい) (job-hunting students) how to walk, bow, and speak precisely to control their 第一印象."},
+
+  {type:"fb", s:"彼女(かのじょ)の第一{1}はとても良(よ)かった。\n(Her first impression was very good.)", a:"印象(いんしょう)", opts:["印象(いんしょう)","管理(かんり)","経営(けいえい)","過去(かこ)"], sSrc:"Her first impression was very good.",
+   hint:"The noun meaning the mark or image something leaves in someone's mind."},
+
+  {type:"teach", trg:"具体的(ぐたいてき)", src:"concrete / specific", pos:"adj", gender:null,
+   note:"Kanji: 具体的. Na-adjective. 具体的(ぐたいてき)に = specifically / concretely.\n具体的(ぐたいてき)な例(れい) = a concrete example.",
+   example:"A: もっと具体的(ぐたいてき)に説明(せつめい)していただけますか？\nB: もちろんです。例(たと)えば、先週(せんしゅう)の会議(かいぎ)の場合(ばあい)…\nA: なるほど、よく分(わ)かりました。\nB: 具体的(ぐたいてき)な例(れい)があると理解(りかい)しやすいですよね。",
+   exampleSrc:"A: Could you explain more specifically?\nB: Of course. For example, in the case of last week's meeting...\nA: I see, I understood well.\nB: It is easier to understand when there is a concrete example, right?",
+   funFact:"具体的 is indispensable in Japanese business and academic contexts. Its opposite is 抽象的(ちゅうしょうてき) (abstract). Japanese presentations often follow the pattern: general statement, then 具体的(ぐたいてき)には... (specifically...) to give examples. This mirrors the top-down rhetorical structure valued in Japanese communication."},
+
+  {type:"teach", trg:"一般(いっぱん)", src:"general / common / ordinary", pos:"noun", gender:null,
+   note:"Kanji: 一般. Also used as a prefix or na-adjective: 一般的(いっぱんてき) = generally / typically.\n一般人(いっぱんじん) = ordinary person.",
+   example:"A: この規則(きそく)は一般(いっぱん)の人(ひと)にも適用(てきよう)されますか？\nB: はい、特別(とくべつ)な場合(ばあい)を除(のぞ)いて一般(いっぱん)に適用(てきよう)されます。\nA: 例外(れいがい)はどのような場合(ばあい)ですか？\nB: 医療(いりょう)や教育(きょういく)の分野(ぶんや)では別(べつ)のルールが適用(てきよう)されます。",
+   exampleSrc:"A: Does this rule apply to ordinary people as well?\nB: Yes, it generally applies, except in special cases.\nA: What kinds of cases are exceptions?\nB: Separate rules apply in fields such as medicine and education.",
+   funFact:"一般 comes from 一 (one) + 般 (carry around/rotate), suggesting something that goes around broadly to everyone. In Japanese bureaucracy, 一般公開(いっぱんこうかい) means 'open to the public.' 一般的(いっぱんてき)に言(い)えば (generally speaking) is a standard academic phrase that signals you are about to make a broad claim before giving details."},
+
+  {type:"fb", s:"{1}な例(れい)を挙(あ)げてください。\n(Please give a concrete example.)", a:"具体的(ぐたいてき)", opts:["具体的(ぐたいてき)","一般(いっぱん)","過去(かこ)","印象的(いんしょうてき)"], sSrc:"Please give a concrete example.",
+   hint:"The na-adjective meaning specific or concrete, the opposite of abstract."},
+
+  {type:"mc", q:"一般(いっぱん)的(てき)に言(い)えば means:", opts:["Specifically speaking","Generally speaking","Concretely speaking","In the past"], ans:"Generally speaking",
+   hint:"This phrase introduces a broad claim. 一般 relates to what is common or broadly applicable."},
+
+  {type:"match", pairs:[{trg:"経営(けいえい)",src:"business management"},{trg:"教育(きょういく)",src:"education"},{trg:"管理(かんり)",src:"administration"},{trg:"過去(かこ)",src:"the past"}]},
+
+  {type:"match", pairs:[{trg:"印象(いんしょう)",src:"impression"},{trg:"具体的(ぐたいてき)",src:"concrete / specific"},{trg:"一般(いっぱん)",src:"general / ordinary"},{trg:"教育(きょういく)",src:"education"}]},
+
+  {type:"fb", s:"会社(かいしゃ)の{1}をしているのは誰(だれ)ですか？\n(Who is managing the company?)", a:"経営(けいえい)", opts:["経営(けいえい)","印象(いんしょう)","教育(きょういく)","過去(かこ)"], sSrc:"Who is managing the company?",
+   hint:"The noun for running and operating a business at the strategic level."},
+]},
+
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L03
 ,BATCH2_L04

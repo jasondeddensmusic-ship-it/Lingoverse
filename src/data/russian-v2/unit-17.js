@@ -167,7 +167,114 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
  hint:"He's doing his job right now, not at home.",
  sSrc:"A: Where is dad right now?\nB: At work."},
 
-{type:"match",pairs:[{trg:"в магазине",src:"at the shop"},{trg:"музей → музее",src:"museum → in museum (m)"},{trg:"комната → комнате",src:"room → in room (f)"},{trg:"площадь → площади",src:"square → on square (f)"},{trg:"окно → окне",src:"window → at window (n)"},{trg:"здание → здании",src:"building → in building (n)"}]}]}
+{type:"match",pairs:[{trg:"в магазине",src:"at the shop"},{trg:"музей → музее",src:"museum → in museum (m)"},{trg:"комната → комнате",src:"room → in room (f)"},{trg:"площадь → площади",src:"square → on square (f)"},{trg:"окно → окне",src:"window → at window (n)"},{trg:"здание → здании",src:"building → in building (n)"}]}]},
+
+{id:"ruv2_u17l3", title:"Природа и среда", icon:"🌿", xp:20, board:true, steps:[
+
+{type:"intro", title:"Environmental and Global Vocabulary",
+ desc:"B1 learners need vocabulary for discussing the natural world, health, and global issues. These words appear in TRKI B1 reading and speaking tasks.",
+ goals:["Name key environmental concepts in Russian","Discuss health and resources","Use imperfective verbs for ongoing actions"]},
+
+{type:"teach", trg:"окружающая среда", src:"the natural environment", pos:"noun", gender:null,
+ note:"Literally: 'surrounding environment.'\nСреда = environment (not Wednesday).\nUsed in formal and ecological contexts.",
+ example:"A: Почему окружающая среда важна для нас?\nB: Потому что мы живём в ней.",
+ exampleSrc:"A: Why is the natural environment important for us?\nB: Because we live in it.",
+ funFact:"'Среда' has two meanings: 'Wednesday' (день недели) and 'environment' (окружающая среда). Context tells them apart. The ecological term comes from the verb 'окружать' (to surround)."},
+
+{type:"teach", trg:"деревня", src:"village / countryside", pos:"noun", gender:"f",
+ note:"Feminine noun. Деревня = both a small village and 'the countryside' in general.\nGenitive: деревни.",
+ example:"A: Ты любишь деревню?\nB: Да, там очень хорошо.",
+ exampleSrc:"A: Do you like the countryside?\nB: Yes, it's very nice there.",
+ funFact:"Russians traditionally escape to the countryside in summer. 'Ехать в деревню' (going to the village) evokes the classic Russian dacha culture of gardens and fresh air."},
+
+{type:"teach", trg:"здоровье", src:"health", pos:"noun", gender:"n",
+ note:"Neuter noun. Used in the toast 'За ваше здоровье!' (To your health!).\nRelated adjective: здоровый (healthy).",
+ example:"A: Как твоё здоровье?\nB: Хорошо, думаю.",
+ exampleSrc:"A: How is your health?\nB: Good, I think.",
+ funFact:"Russians say 'Будьте здоровы!' (Be healthy!) when someone sneezes. The same phrase closes many toasts. Health talk is very natural in everyday Russian conversation."},
+
+{type:"teach", trg:"изменение климата", src:"climate change", pos:"noun", gender:null,
+ note:"Noun phrase. Изменение = change (noun), климат = climate.\nHigh-frequency in B1 texts and news.",
+ example:"A: Ты знаешь слово изменение климата?\nB: Да, знаю.",
+ exampleSrc:"A: Do you know the phrase climate change?\nB: Yes, I do.",
+ funFact:"'Изменение' comes from the verb 'изменять' (to change). Russia's vast territory makes it acutely sensitive to climate shifts: permafrost thaw affects ~65% of Russian land."},
+
+{type:"teach", trg:"энергия", src:"energy", pos:"noun", gender:"f",
+ note:"Feminine noun, direct borrowing from Greek.\nЭлектроэнергия = electrical energy, electricity.",
+ example:"A: Что даёт нам солнце?\nB: Солнце — это энергия.",
+ exampleSrc:"A: What does the sun give us?\nB: The sun is energy.",
+ funFact:"Russia is one of the world's largest energy exporters. 'Энергия' entered Russian in the 18th century alongside scientific vocabulary from Western Europe."},
+
+{type:"teach", trg:"ресурс", src:"resource", pos:"noun", gender:"m",
+ note:"Masculine noun, international borrowing.\nPlural: ресурсы.\nПриродные ресурсы = natural resources.",
+ example:"A: Какие ресурсы важны для человека?\nB: Вода — самый важный ресурс.",
+ exampleSrc:"A: What resources are important for a person?\nB: Water is the most important resource.",
+ funFact:"Russia has the world's largest natural gas reserves and is rich in oil, coal, and timber. 'Ресурс' covers natural (природный) and human (человеческий) resources alike."},
+
+{type:"teach", trg:"перерабатывать", src:"to recycle (imperfective)", pos:"verb", gender:null,
+ note:"Imperfective. Perfective: переработать.\nPrefix пере- = re-, again.\nAlso means 'to process' (materials).",
+ example:"A: Вы перерабатываете мусор дома?\nB: Да, мы всегда перерабатываем.",
+ exampleSrc:"A: Do you recycle rubbish at home?\nB: Yes, we always recycle.",
+ funFact:"The verb comes from 'работать' (to work) + prefix пере- (re-). Literally: 'to rework.' Major Russian cities now have coloured sorting bins for glass, plastic, and paper."},
+
+{type:"tip", title:"B1 Environmental Vocabulary: Key Notes",
+ text:"KEY POINTS:\n\n1. Окружающая среда = the natural environment.\nСреда alone can mean 'Wednesday' — context is essential.\n\n2. Деревня = both 'village' (a specific place) and 'the countryside' in general.\nIn prepositional: в деревне (in the countryside).\n\n3. Здоровье (health) is neuter: -ье ending.\nRelated: здоровый (healthy, adj). Toast: За здоровье!\n\n4. Изменение климата follows the pattern: verbal noun (изменение) + genitive noun (климата).\n\n5. Перерабатывать is imperfective: ongoing, habitual recycling.\nPerfective переработать = one completed recycling action.",
+ icon:"🌿"},
+
+{type:"mc", q:"Which phrase means 'the natural environment' in Russian?",
+ opts:["деревня","окружающая среда","здоровье","энергия"],
+ ans:"окружающая среда",
+ hint:"Think: what 'surrounds' us in the natural world? A compound phrase, not a single word."},
+
+{type:"mc", q:"What gender is 'здоровье' (health)?",
+ opts:["Masculine","Feminine","Neuter","No gender"],
+ ans:"Neuter",
+ hint:"The -ье ending on nouns is a strong signal for one particular Russian grammatical gender."},
+
+{type:"mc", q:"'Перерабатывать' is which verbal aspect?",
+ opts:["Perfective","Imperfective","Both aspects","It has no aspect"],
+ ans:"Imperfective",
+ hint:"The -ывать suffix combined with пере- signals an ongoing or habitual action, not a completed one."},
+
+{type:"mc", q:"Which noun means 'resource' in Russian?",
+ opts:["ресурс","деревня","здоровье","энергия"],
+ ans:"ресурс",
+ hint:"An international borrowing. It sounds recognisable across many European languages."},
+
+{type:"fb", s:"A: Почему {1} важна для нас?\nB: Потому что мы живём в ней.",
+ a:["окружающая среда"],
+ opts:["окружающая среда","деревня","энергия","здоровье"],
+ hint:"The full compound phrase meaning 'the natural environment' — what literally surrounds us.",
+ sSrc:"A: Why is the natural environment important for us?\nB: Because we live in it."},
+
+{type:"fb", s:"A: Как твоё {1}?\nB: Хорошо, думаю.",
+ a:["здоровье"],
+ opts:["здоровье","ресурс","деревня","энергия"],
+ hint:"A neuter noun. What you ask about when you want to know if someone is well.",
+ sSrc:"A: How is your health?\nB: Good, I think."},
+
+{type:"fb", s:"A: Откуда берётся {1}?\nB: Солнце даёт нам её.",
+ a:["энергия"],
+ opts:["энергия","деревня","здоровье","ресурс"],
+ hint:"The sun gives us this. A feminine noun borrowed into Russian from Greek.",
+ sSrc:"A: Where does energy come from?\nB: The sun gives it to us."},
+
+{type:"fb", s:"A: Вы {1} мусор дома?\nB: Да, мы всегда перерабатываем.",
+ a:["перерабатываете"],
+ opts:["перерабатываете","переработали","перерабатывать","перерабатывал"],
+ hint:"Habitual action, question to 'you' (plural). Imperfective present, 2nd person plural.",
+ sSrc:"A: Do you recycle rubbish at home?\nB: Yes, we always recycle."},
+
+{type:"match", pairs:[
+  {trg:"окружающая среда", src:"the natural environment"},
+  {trg:"деревня", src:"village / countryside"},
+  {trg:"здоровье", src:"health"},
+  {trg:"изменение климата", src:"climate change"},
+  {trg:"энергия", src:"energy"},
+  {trg:"ресурс", src:"resource"},
+  {trg:"перерабатывать", src:"to recycle (imperfective)"}
+]}
+]}
 
 ]};
 export default UNIT_17;
