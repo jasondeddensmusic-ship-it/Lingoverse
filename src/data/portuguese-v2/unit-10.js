@@ -419,6 +419,150 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  opts:["Acredito que a reunião vai bem","Espero que a reunião vá bem","Lembro que a reunião vai bem","Preciso de reunião boa"],
  ans:"Espero que a reunião vá bem",
  hint:"The verb 'esperar' covers both hoping and waiting. In this sentence the speaker is expressing a wish about the meeting."}
+]},
+
+{id:"ptv2_u10l_essential_a2_emotions", title:"Emoções e verbos do dia a dia", icon:"😊", xp:20, board:true, steps:[
+{type:"intro", title:"Feelings and everyday actions",
+ desc:"Expressing how you feel is essential at A2 level. Learn six core emotion adjectives and three high-frequency verbs for daily routines.",
+ goals:["Describe six common emotions","Use estar with emotion adjectives","Learn acordar, esquecer, and ajudar"]},
+
+{type:"teach", trg:"triste", src:"sad", pos:"adj", gender:null,
+ phonetic:"TREES-chee",
+ note:"Adjective ending in -e. Gender-neutral: o menino triste, a menina triste.\nUse with estar for temporary states: Estou triste hoje.\nPlural: tristes.",
+ example:"A: Por que você está triste?\nB: Não estou bem.\nA: O que aconteceu?\nB: Estou cansado e triste.",
+ exampleSrc:"A: Why are you sad?\nB: I am not well.\nA: What happened?\nB: I am tired and sad.",
+ funFact:"All adjectives ending in -e are gender-neutral in Portuguese. This is a useful learner shortcut: triste, alegre, and others never need an -a ending for feminine nouns."},
+
+{type:"teach", trg:"alegre", src:"happy / cheerful", pos:"adj", gender:null,
+ phonetic:"ah-LEH-greh",
+ note:"Gender-neutral adjective ending in -e. Plural: alegres.\nMore lively than 'feliz'. Implies visible, outward happiness.",
+ example:"A: Você está alegre hoje!\nB: Sim, estou muito bem.\nA: O que aconteceu?\nB: Estou com a família e isso é bom.",
+ exampleSrc:"A: You are cheerful today!\nB: Yes, I am very well.\nA: What happened?\nB: I am with my family and that is good.",
+ funFact:"In music, 'alegre' gives us 'allegro', the Italian tempo marking. Both come from Latin 'alacer', meaning lively or quick."},
+
+{type:"teach", trg:"cansado", src:"tired", pos:"adj", gender:"m",
+ phonetic:"kan-ZAH-doo",
+ note:"Emotion adjective. Gender changes: cansado (m), cansada (f). Plural: cansados/cansadas.\nAlways used with estar: Estou cansado. NOT sou cansado.",
+ example:"A: Como você está?\nB: Estou muito cansado.\nA: Trabalhou muito?\nB: Sim, trabalho todos os dias.",
+ exampleSrc:"A: How are you?\nB: I am very tired.\nA: Did you work a lot?\nB: Yes, I work every day.",
+ funFact:"'Cansado' comes from 'cansar' (to tire). The prefix can- echoes Latin 'campsare', to drag oneself forward, which paints a vivid picture of fatigue."},
+
+{type:"teach", trg:"nervoso", src:"nervous / anxious", pos:"adj", gender:"m",
+ phonetic:"nehr-VOH-zoo",
+ note:"Gender changes: nervoso (m), nervosa (f). Plural: nervosos/nervosas.\nUsed with estar: Estou nervoso antes da reunião.",
+ example:"A: Você está nervoso?\nB: Estou um pouco nervoso.\nA: Por que?\nB: Tenho uma reunião importante.",
+ exampleSrc:"A: Are you nervous?\nB: I am a little nervous.\nA: Why?\nB: I have an important meeting.",
+ funFact:"'Nervoso' in Brazil also means 'irritated or agitated', not only nervous. 'Ela ficou nervosa' can mean 'she got irritated' in everyday Brazilian speech."},
+
+{type:"teach", trg:"calmo", src:"calm", pos:"adj", gender:"m",
+ phonetic:"KAHL-moo",
+ note:"Gender changes: calmo (m), calma (f). Plural: calmos/calmas.\nCan be used with ser (permanent personality) or estar (current state).",
+ example:"A: Fique calmo, vai ficar bem.\nB: Estou tentando.\nA: Respira fundo.\nB: Obrigado, você está certo.",
+ exampleSrc:"A: Stay calm, it will be fine.\nB: I am trying.\nA: Take a deep breath.\nB: Thank you, you are right.",
+ funFact:"'Calmo' and 'calma' are near-identical cognates with English 'calm', French 'calme', and Spanish 'calmo'. All trace back to Latin 'cauma', heat of the midday sun, when everything is still."},
+
+{type:"teach", trg:"preocupado", src:"worried", pos:"adj", gender:"m",
+ phonetic:"preh-oh-koo-PAH-doo",
+ note:"Gender changes: preocupado (m), preocupada (f). Plural: preocupados/preocupadas.\nAlways paired with estar: Estou preocupada com você.",
+ example:"A: Você está preocupado?\nB: Estou sim, com minha família.\nA: O que aconteceu?\nB: Minha mãe está doente.",
+ exampleSrc:"A: Are you worried?\nB: Yes, I am, about my family.\nA: What happened?\nB: My mother is ill.",
+ funFact:"'Preocupado' literally means pre-occupied, that is, your mind is already taken up by a worry before you even face it. The same logic works in English."},
+
+{type:"teach", trg:"acordar", src:"to wake up", pos:"verb", gender:null,
+ phonetic:"ah-kohr-DAR",
+ note:"Regular -ar verb: acordo, acorda, acordamos, acordam.\nUse with time: acordo às sete. Can be used reflexively (me acordar) in some contexts.",
+ example:"A: Que horas você acorda?\nB: Acordo às seis.\nA: Todo dia?\nB: Sim, trabalho cedo.",
+ exampleSrc:"A: What time do you wake up?\nB: I wake up at six.\nA: Every day?\nB: Yes, I work early.",
+ funFact:"'Acordar' comes from 'a + corda', referring to the heart strings. To wake up was poetically described as having your heart strings pulled back to consciousness."},
+
+{type:"teach", trg:"esquecer", src:"to forget", pos:"verb", gender:null,
+ phonetic:"esh-keh-SEHR",
+ note:"Regular -er verb: esqueço, esquece, esquecemos, esquecem.\nCommon structure: esquecer de + noun or infinitive: Esqueci de estudar.",
+ example:"A: Você esqueceu o livro?\nB: Esqueci sim, desculpe.\nA: Acontece.\nB: Não vou esquecer de novo.",
+ exampleSrc:"A: Did you forget the book?\nB: I did forget, sorry.\nA: It happens.\nB: I will not forget again.",
+ funFact:"In Brazil, the past tense 'esqueci' (I forgot) is extremely common in casual conversation. You will hear it daily as an apology or excuse."},
+
+{type:"teach", trg:"ajudar", src:"to help", pos:"verb", gender:null,
+ phonetic:"ah-zhoo-DAR",
+ note:"Regular -ar verb: ajudo, ajuda, ajudamos, ajudam.\nStructure: ajudar + person + com + thing: Posso ajudar você com o trabalho.",
+ example:"A: Posso ajudar?\nB: Sim, por favor!\nA: O que você precisa?\nB: Preciso de ajuda com este formulário.",
+ exampleSrc:"A: Can I help?\nB: Yes, please!\nA: What do you need?\nB: I need help with this form.",
+ funFact:"'Ajudar' is one of the first verbs a learner hears in Brazil. Shop assistants use 'Posso ajudar?' (Can I help you?) as their standard greeting."},
+
+{type:"tip", title:"Estar with Emotion Adjectives",
+ text:"In Portuguese, temporary states and feelings use 'estar', not 'ser':\n\nEstou triste. (I am sad — right now.)\nEstou nervoso. (I am nervous — at this moment.)\nEstou cansado. (I am tired — today.)\n\nUsing 'ser' would mean a permanent character trait:\nEle é calmo. (He is a calm person.) — personality.\nEle está calmo. (He is calm right now.) — current state.\n\nFor most emotions at A2, you will use 'estar'.",
+ deepDive:{title:"Gender Agreement with Emotion Adjectives",
+  text:"Adjectives ending in -o change to -a for feminine nouns. Adjectives ending in -e are neutral:\n\n-o/-a group: cansado/cansada, nervoso/nervosa, calmo/calma, preocupado/preocupada\n-e group (no change): triste, alegre\n\nPractical shortcut: if you are female or talking about a woman, swap the -o ending to -a. Nothing else changes."}},
+
+{type:"fb", s:"Ela está {1} porque perdeu o livro.",
+ a:["triste"],
+ opts:["triste","calmo","nervoso","alegre"],
+ hint:"The gender-neutral adjective for sad, ending in -e.",
+ sSrc:"She is {1} because she lost the book."},
+
+{type:"mc", q:"Which sentence correctly describes a temporary feeling?",
+ opts:["Sou nervosa hoje","Estou nervosa hoje","Tenho nervosa hoje","Vou nervosa hoje"],
+ ans:"Estou nervosa hoje",
+ hint:"Temporary feelings use the verb to be that describes states, not permanent traits."},
+
+{type:"fb", s:"Estou {1} porque trabalhei muito hoje.",
+ a:["cansado"],
+ opts:["cansado","alegre","triste","calmo"],
+ hint:"The masculine adjective that describes fatigue after a long day. Ends in -o.",
+ sSrc:"I am {1} because I worked a lot today."},
+
+{type:"mc", q:"What does 'Que horas você acorda?' mean?",
+ opts:["What time do you go to sleep?","What time do you wake up?","How long do you sleep?","Where do you wake up?"],
+ ans:"What time do you wake up?",
+ hint:"The verb 'acordar' refers to the action of waking up."},
+
+{type:"fb", s:"Eu {1} às sete de manhã todos os dias.",
+ a:["acordo"],
+ opts:["acordo","acorda","acordam","acordamos"],
+ hint:"First person singular of acordar. Use this form with 'eu'.",
+ sSrc:"I {1} at seven in the morning every day."},
+
+{type:"fb", s:"Não posso {1} de levar o livro para a escola.",
+ a:["esquecer"],
+ opts:["esquecer","ajudar","acordar","decidir"],
+ hint:"The infinitive verb meaning to forget. Use 'de' before what is forgotten.",
+ sSrc:"I cannot {1} to bring the book to school."},
+
+{type:"fb", s:"Você pode me {1} com este trabalho?",
+ a:["ajudar"],
+ opts:["ajudar","esquecer","acordar","cansado"],
+ hint:"The infinitive verb meaning to help. Follows 'poder' here.",
+ sSrc:"Can you {1} me with this work?"},
+
+{type:"mc", q:"Which adjective is gender-neutral (same for male and female)?",
+ opts:["cansado","nervoso","alegre","preocupado"],
+ ans:"alegre",
+ hint:"Adjectives ending in -e do not change for gender."},
+
+{type:"match", pairs:[
+ {trg:"triste", src:"sad"},
+ {trg:"alegre", src:"happy / cheerful"},
+ {trg:"cansado", src:"tired"},
+ {trg:"nervoso", src:"nervous / anxious"}
+]},
+
+{type:"match", pairs:[
+ {trg:"calmo", src:"calm"},
+ {trg:"preocupado", src:"worried"},
+ {trg:"acordar", src:"to wake up"},
+ {trg:"ajudar", src:"to help"}
+]},
+
+{type:"fb", s:"Estou {1} com minha família, não sei como ela está.",
+ a:["preocupado"],
+ opts:["preocupado","alegre","calmo","cansado"],
+ hint:"The masculine adjective that means worried. Has four syllables.",
+ sSrc:"I am {1} about my family, I do not know how she is."},
+
+{type:"mc", q:"How do you say 'Stay calm' in Portuguese?",
+ opts:["Fique nervoso","Fique triste","Fique calmo","Fique cansado"],
+ ans:"Fique calmo",
+ hint:"Use the imperative of 'ficar' followed by the adjective that means calm."}
 ]}
 
 ]}; export default UNIT_10;

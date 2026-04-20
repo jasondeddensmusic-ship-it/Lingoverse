@@ -370,5 +370,133 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
 ]}
 ]}
 
+
+,{id:"ruv2_u10l_essentials_expand", title:"Цвета, чувства, мир", icon:"🎨", xp:20, board:true, steps:[
+
+{type:"intro", title:"Colors, Feelings, and the World Around You",
+ desc:"Master nine high-frequency Russian words: four colors, three emotion adjectives, and two essential nouns (weather + car). These appear on every TRKI exam at A1-A2 level.",
+ goals:["Name four core colors with gender agreement","Express happiness, sadness, and anger","Talk about the weather and cars"]},
+
+{type:"teach", trg:"красный", src:"red", pos:"adj", gender:null,
+ phonetic:"KRAS-ny",
+ note:"Masculine citation form.\nFeminine: красная. Neuter: красное. Plural: красные.\nAdjectives agree with the noun they describe.",
+ example:"A: Это красный дом?\nB: Да, красный.",
+ exampleSrc:"A: Is that a red house?\nB: Yes, red.",
+ funFact:"Красный shares a root with красивый (beautiful). In Old Russian красный meant beautiful — Red Square (Красная площадь) literally means Beautiful Square."},
+
+{type:"teach", trg:"синий", src:"blue (dark / rich)", pos:"adj", gender:null,
+ phonetic:"SEE-ny",
+ note:"Masculine citation form. Specifically deep or dark blue.\nFeminine: синяя. Neuter: синее. Plural: синие.\nContrast: голубой = sky blue / light blue.",
+ example:"A: Какой цвет?\nB: Синий.",
+ exampleSrc:"A: What color?\nB: Blue.",
+ funFact:"Russian distinguishes two blues: синий (dark, rich) and голубой (light, sky). English speakers find this unusual — Russian treats them as distinct colors, not shades."},
+
+{type:"teach", trg:"зелёный", src:"green", pos:"adj", gender:null,
+ phonetic:"zye-LYO-ny",
+ note:"Masculine citation form. Note the ё (always stressed).\nFeminine: зелёная. Neuter: зелёное. Plural: зелёные.",
+ example:"A: Это зелёный дом?\nB: Да, зелёный.",
+ exampleSrc:"A: Is that the green house?\nB: Yes, the green one.",
+ funFact:"Зелёный is related to зелень (greenery/herbs) and зелёный чай (green tea). The ё is mandatory — writing зеленый without the dots is technically incorrect."},
+
+{type:"teach", trg:"жёлтый", src:"yellow", pos:"adj", gender:null,
+ phonetic:"ZHOL-ty",
+ note:"Masculine citation form. Note ё (stressed).\nFeminine: жёлтая. Neuter: жёлтое. Plural: жёлтые.",
+ example:"A: Это жёлтый цвет?\nB: Да, жёлтый.",
+ exampleSrc:"A: Is that yellow?\nB: Yes, yellow.",
+ funFact:"Жёлтый connects to желчь (bile) in old medicine — yellow bile was one of the four humors. Russian tabloids are called жёлтая пресса (yellow press) — same as English 'yellow journalism.'"},
+
+{type:"tip", title:"Adjective Gender Agreement",
+ text:"Russian adjectives change ending to match the noun's gender and number:\n\nMASCULINE (-ый / -ий):\nкрасный дом (red house)\nсиний карандаш (blue pencil)\n\nFEMININE (-ая / -яя):\nкрасная школа (red school)\nсиняя ручка (blue pen)\n\nNEUTER (-ое / -ее):\nкрасное молоко (red milk)\nзелёное здание (green building)\n\nPLURAL (-ые / -ие):\nкрасные дома (red houses)\nсиние карандаши (blue pencils)\n\nThe NOUN's gender controls the adjective ending — always check the noun first.",
+ deepDive:{title:"Soft vs Hard Adjective Stems",
+  text:"Most adjectives use 'hard' endings (-ый, -ая, -ое). But синий uses 'soft' endings (-ий, -яя, -ее, -ие) because the stem ends in н before a soft consonant. You'll learn to recognize the pattern. For now: синий/синяя/синее/синие are the four forms."}},
+
+{type:"teach", trg:"счастливый", src:"happy", pos:"adj", gender:null,
+ phonetic:"shchast-LEE-vy",
+ note:"Masculine citation form.\nFeminine: счастливая. Short form: счастлив/счастлива.\nNote: the сч sounds like щ.",
+ example:"A: Ты счастливый сегодня?\nB: Да, очень.",
+ exampleSrc:"A: Are you happy today?\nB: Yes, very.",
+ funFact:"Счастье (happiness) + -ливый (inclined to) = счастливый. The same root gives счастливый случай (lucky coincidence). The сч cluster sounds like a single щ — so счастье sounds like 'SHCHAS-tye.'"},
+
+{type:"teach", trg:"грустный", src:"sad", pos:"adj", gender:null,
+ phonetic:"GRUS-ny",
+ note:"Masculine citation form.\nFeminine: грустная. Short form: грустен/грустна.\nNote: грустн- cluster — the т is silent in speech.",
+ example:"A: Ты грустный?\nB: Немного грустный.",
+ exampleSrc:"A: Are you sad?\nB: A little sad.",
+ funFact:"Грустный comes from грусть (sadness/melancholy). Russian literature made грусть almost romantic — Pushkin, Lermontov, Chekhov all wrote about грусть as a noble emotion. Russian culture does not see sadness as weakness."},
+
+{type:"teach", trg:"злой", src:"angry / mean / evil", pos:"adj", gender:null,
+ phonetic:"ZLOY",
+ note:"Masculine citation form. Covers anger, meanness, and evil.\nFeminine: злая. Short form: зол/зла.",
+ example:"A: Он злой сегодня?\nB: Да, очень злой.",
+ exampleSrc:"A: Is he angry today?\nB: Yes, very angry.",
+ funFact:"Злой is remarkably versatile: злой человек (mean person), злой волк (the big bad wolf), злой начальник (angry boss). In fairy tales зло = evil. The root зл- appears in злость (rage), зловещий (ominous), злодей (villain)."},
+
+{type:"teach", trg:"погода", src:"weather", pos:"noun", gender:"f",
+ phonetic:"pa-GO-da",
+ note:"Feminine. One of the most frequent Russian nouns.\nКакая погода? = What's the weather like?",
+ example:"A: Какая погода сегодня?\nB: Хорошая погода.",
+ exampleSrc:"A: What's the weather like today?\nB: Good weather.",
+ funFact:"Russians discuss погода constantly — a social ritual, like in England. 'Какая погода?' is a standard small-talk opener. Russian winter fascination: погода is one of the most searched words on Russian internet."},
+
+{type:"teach", trg:"машина", src:"car / machine", pos:"noun", gender:"f",
+ phonetic:"ma-SHEE-na",
+ note:"Feminine. Covers car and machine depending on context.\nНа машине = by car (instrumental).",
+ example:"A: Это твоя машина?\nB: Да, моя машина.",
+ exampleSrc:"A: Is that your car?\nB: Yes, my car.",
+ funFact:"Машина comes from French machine. In Russian it shifted to mean 'car' most commonly in everyday speech. You can still say автомобиль (formal/technical) but машина is what everyone says."},
+
+{type:"mc", q:"What is the feminine form of 'красный'?",
+ opts:["красная","красное","красние","красный"],
+ ans:"красная",
+ hint:"Feminine adjective ending in Russian is -ая for hard-stem adjectives.",
+ _why:"Tests color gender agreement."},
+
+{type:"mc", q:"Which Russian word means 'sad'?",
+ opts:["злой","счастливый","грустный","красный"],
+ ans:"грустный",
+ hint:"This emotion adjective comes from the noun грусть (melancholy).",
+ _why:"Distinguishes three emotion adjectives."},
+
+{type:"mc", q:"'Синий' means which shade of blue?",
+ opts:["Sky blue / light blue","Dark / deep blue","Any shade of blue","Green-blue"],
+ ans:"Dark / deep blue",
+ hint:"Russian vocabulary is unusually precise about color depth. Голубой is the lighter, sky-toned variant; синий is the richer, darker counterpart.",
+ _why:"Teaches the blue distinction — common confusion point."},
+
+{type:"fb", s:"A: Какая {1} сегодня?\nB: Плохая, идёт дождь.",
+ a:["погода"],
+ opts:["погода","машина","школа","улица"],
+ hint:"The standard question opener about today's atmospheric conditions.",
+ sSrc:"A: What's the weather like today?\nB: Bad, it's raining."},
+
+{type:"fb", s:"A: Ты едешь на {1}?\nB: Да, еду.",
+ a:["машине"],
+ opts:["машине","машина","машины","машину"],
+ hint:"На + instrumental case for transport. Машина in instrumental ends in -е.",
+ sSrc:"A: Are you going by car?\nB: Yes, I am."},
+
+{type:"fb", s:"A: Он выглядит {1} сегодня.\nB: Да, что-то случилось.",
+ a:["грустным"],
+ opts:["грустным","злым","счастливым","красным"],
+ hint:"Instrumental case after 'выглядит' (looks like). Грустный in instrumental = грустным.",
+ sSrc:"A: He looks sad today.\nB: Yes, something happened."},
+
+{type:"match", pairs:[
+  {trg:"красный", src:"red"},
+  {trg:"синий", src:"blue (dark)"},
+  {trg:"зелёный", src:"green"},
+  {trg:"жёлтый", src:"yellow"},
+  {trg:"погода", src:"weather"}
+]},
+
+{type:"match", pairs:[
+  {trg:"счастливый", src:"happy"},
+  {trg:"грустный", src:"sad"},
+  {trg:"злой", src:"angry / mean"},
+  {trg:"машина", src:"car"}
+]}
+
+]}
+
 ]};
 export default UNIT_10;
