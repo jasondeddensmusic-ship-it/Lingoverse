@@ -315,6 +315,110 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 
 {type:"match", pairs:[
   {trg:"trabalhar", src:"to work"}
-]}]}
+]}]},
+
+{id:"ptv2_u10l4_a2v", title:"Verbos A2 essenciais", icon:"📝", xp:15, board:true, steps:[
+{type:"intro", title:"Essential A2 Verbs",
+ desc:"Learn 7 essential A2 Brazilian Portuguese verbs: to need, to think, to believe, to hope, to decide, to prefer, to remember. Essential for CELPE-Bras A2 communication.",
+ goals:["Master 7 core A2 mental verbs","Express opinions and preferences","Talk about decisions"]},
+
+{type:"teach", trg:"precisar", src:"to need", pos:"verb", gender:null,
+ note:"Regular -ar verb. Takes 'de' before a noun: preciso de ajuda. Without 'de' before an infinitive: preciso trabalhar.",
+ example:"A: Você precisa de ajuda?\nB: Sim, preciso.\nA: O que você precisa?\nB: Preciso de mais tempo.",
+ exampleSrc:"A: Do you need help?\nB: Yes, I do.\nA: What do you need?\nB: I need more time.",
+ funFact:"In Brazil, 'precisar de' is the everyday choice. European Portuguese uses 'precisar de' and 'precisar' almost equally."},
+
+{type:"teach", trg:"pensar", src:"to think", pos:"verb", gender:null,
+ note:"Regular -ar verb: penso, pensa, pensamos, pensam. Used with 'em' (about) or 'que' (that) + clause.",
+ example:"A: O que você pensa?\nB: Penso que é bom.\nA: Tem certeza?\nB: Sim, penso que sim.",
+ exampleSrc:"A: What do you think?\nB: I think it is good.\nA: Are you sure?\nB: Yes, I think so.",
+ funFact:"'Pensar' and 'achar' both mean 'to think' in Brazilian Portuguese. 'Acho que...' is extremely common in casual speech."},
+
+{type:"teach", trg:"acreditar", src:"to believe", pos:"verb", gender:null,
+ note:"Regular -ar verb. Use 'em' for people and things: acreditar em alguém. Use 'que' + clause: acredito que você está certo.",
+ example:"A: Você acredita nisso?\nB: Sim, acredito.\nA: Por que?\nB: Porque os fatos mostram.",
+ exampleSrc:"A: Do you believe that?\nB: Yes, I do.\nA: Why?\nB: Because the facts show it.",
+ funFact:"'Acreditar' comes from Latin 'accreditare'. The prefix 'ac-' reinforces the idea of giving full credit to something."},
+
+{type:"teach", trg:"esperar", src:"to hope / to wait", pos:"verb", gender:null,
+ note:"Regular -ar verb. Means both 'to hope' and 'to wait for'. Context determines meaning: espero que sim (I hope so) vs espero o ônibus (I wait for the bus).",
+ example:"A: Espero que você venha.\nB: Eu também espero.\nA: Vai ser divertido.\nB: Sim, espero que sim.",
+ exampleSrc:"A: I hope you come.\nB: I hope so too.\nA: It will be fun.\nB: Yes, I hope so.",
+ funFact:"The double meaning of hope and wait comes from Latin 'sperare'. In many Romance languages, hoping and waiting share the same verb."},
+
+{type:"teach", trg:"decidir", src:"to decide", pos:"verb", gender:null,
+ note:"Regular -ir verb: decido, decide, decidimos, decidem. Often used reflexively: se decidir (to make up your mind).",
+ example:"A: Você decidiu?\nB: Ainda não.\nA: Precisa decidir logo.\nB: Eu sei, vou decidir hoje.",
+ exampleSrc:"A: Did you decide?\nB: Not yet.\nA: You need to decide soon.\nB: I know, I will decide today.",
+ funFact:"From Latin 'decidere', to cut off, meaning to cut away all other options. Deciding literally closes the door on alternatives."},
+
+{type:"teach", trg:"preferir", src:"to prefer", pos:"verb", gender:null,
+ note:"Stem-changing -ir verb: prefiro, prefere, preferimos, preferem. The stem vowel shifts e to i in 'eu' form only.",
+ example:"A: Você prefere café ou chá?\nB: Prefiro café.\nA: Com leite?\nB: Sim, prefiro com leite.",
+ exampleSrc:"A: Do you prefer coffee or tea?\nB: I prefer coffee.\nA: With milk?\nB: Yes, I prefer it with milk.",
+ funFact:"'Preferir' has a stem change only in the 'eu' form: prefiro (not prefero). This is a common -ir pattern in Brazilian Portuguese."},
+
+{type:"teach", trg:"lembrar", src:"to remember", pos:"verb", gender:null,
+ note:"Regular -ar verb. Used alone (lembro disso) or reflexively (me lembro de tudo). Both forms are common in Brazilian Portuguese.",
+ example:"A: Você lembra o nome?\nB: Não lembro.\nA: Era João ou José?\nB: Agora lembro, era João.",
+ exampleSrc:"A: Do you remember the name?\nB: I do not remember.\nA: Was it João or José?\nB: Now I remember, it was João.",
+ funFact:"'Me lembro' is more common in standard Brazilian Portuguese, while 'lembro' without 'me' is accepted in informal speech."},
+
+{type:"tip", title:"Mental Verbs: Opinion and Decision",
+ text:"These 7 verbs express mental states and decisions. They are core CELPE-Bras A2 vocabulary.\n\nAcredito que... (I believe that...)\nPenso que... (I think that...)\nEspero que... (I hope that...)\nPreciso de... (I need...)\nPrefiro... (I prefer...)\n\nAll but 'decidir' are regular -ar verbs. Only 'preferir' has a stem change in the 'eu' form: prefiro.",
+ deepDive:{title:"Precisar: With or Without 'de'",
+  text:"'Precisar' is one of the most useful A2 verbs but has a tricky choice:\n\nBefore a noun, use 'de':\nPreciso de dinheiro. (I need money.)\nPreciso de ajuda. (I need help.)\n\nBefore an infinitive, 'de' is often dropped:\nPreciso trabalhar. (I need to work.)\nPreciso decidir. (I need to decide.)\n\nIn informal Brazilian speech, 'de' is sometimes dropped before nouns too, but the form with 'de' is always safe and correct."}},
+
+{type:"mc", q:"Which sentence correctly uses 'precisar'?",
+ opts:["Preciso de ajuda","Preciso ajuda de","Preciso em ajuda","Ajuda precisar de"],
+ ans:"Preciso de ajuda",
+ hint:"This verb takes 'de' before a noun. First person singular form."},
+
+{type:"fb", s:"Eu {1} que ela está certa.",
+ a:["acredito"],
+ opts:["acredito","espero","lembro","decido"],
+ hint:"The verb meaning 'to believe'. Regular -ar verb in first person singular.",
+ sSrc:"I {1} that she is right."},
+
+{type:"mc", q:"'Prefiro chá a café' means:",
+ opts:["I hate tea and coffee","I prefer tea to coffee","I drink tea and coffee","I need tea, not coffee"],
+ ans:"I prefer tea to coffee",
+ hint:"The verb is the 'eu' stem-change form of preferir, and 'a' here means 'over / to'."},
+
+{type:"fb", s:"Você ainda não {1}? Precisa escolher logo.",
+ a:["decidiu"],
+ opts:["decidiu","lembrou","esperou","pensou"],
+ hint:"The regular -ir verb for making a choice, in the third-person past (pretérito perfeito). Context: 'you haven't X yet'.",
+ sSrc:"You still have not {1}? You need to choose soon."},
+
+{type:"mc", q:"'Não me lembro do nome' means:",
+ opts:["I do not know the name","I cannot say the name","I do not remember the name","I do not like the name"],
+ ans:"I do not remember the name",
+ hint:"'Lembrar' means to remember. 'Me lembro de' is the reflexive form."},
+
+{type:"fb", s:"Eu {1} trabalhar em casa hoje.",
+ a:["prefiro"],
+ opts:["prefiro","prefere","lembro","espero"],
+ hint:"First-person singular of the stem-changing verb meaning 'to prefer'. Stem vowel changes from e to i.",
+ sSrc:"I {1} to work from home today."},
+
+{type:"match", pairs:[
+ {trg:"precisar", src:"to need"},
+ {trg:"pensar", src:"to think"},
+ {trg:"decidir", src:"to decide"},
+ {trg:"lembrar", src:"to remember"}
+]},
+
+{type:"match", pairs:[
+ {trg:"acreditar", src:"to believe"},
+ {trg:"esperar", src:"to hope / to wait"},
+ {trg:"preferir", src:"to prefer"}
+]},
+
+{type:"mc", q:"Which sentence means 'I hope the meeting goes well'?",
+ opts:["Acredito que a reunião vai bem","Espero que a reunião vá bem","Lembro que a reunião vai bem","Preciso de reunião boa"],
+ ans:"Espero que a reunião vá bem",
+ hint:"The verb 'esperar' covers both hoping and waiting. In this sentence the speaker is expressing a wish about the meeting."}
+]}
 
 ]}; export default UNIT_10;

@@ -312,6 +312,94 @@ const UNIT_11 = {
        hint:"'Scorso' comes from 'scorrere' (to flow, pass by). Think of the calendar page that already slipped away."}
     ,{type:"match",pairs:[{trg:"avete dormito",src:"you (plural) slept"}]}]},
     EXP_11_L1, EXP_11_L2, EXP_11_L3,
+    {id:"itv2_u11l_a2v", title:"Verbi A2 mentali", icon:"\uD83D\uDCDD", xp:15, board:true, steps:[
+      {type:"intro", title:"Essential A2 Mental Verbs",
+       desc:"Learn 7 essential A2 Italian verbs and words for thinking, believing, and deciding. Essential for CILS A2 and daily Italian communication.",
+       goals:["Master 7 core A2 mental verbs and nouns","Express opinions and beliefs clearly","Talk about decisions and feelings"]},
+
+      {type:"teach", trg:"pensare", src:"to think", pos:"verb", gender:null,
+       note:"Regular -are verb. Pensare a = to think about. Pensare che = to think that.",
+       example:"A: Cosa pensi di questo?\nB: Penso che sia una buona idea.",
+       exampleSrc:"A: What do you think about this?\nB: I think it is a good idea.",
+       funFact:"From Latin 'pensare' (to weigh, consider). The same root gives English 'pensive' (deep in thought) and 'suspense' (being weighed in the balance)."},
+
+      {type:"teach", trg:"credere", src:"to believe", pos:"verb", gender:null,
+       note:"Regular -ere verb. Credere in = to believe in. Credere che = to believe that.",
+       example:"A: Credi in questo progetto?\nB: Si, ci credo molto.",
+       exampleSrc:"A: Do you believe in this project?\nB: Yes, I believe in it a lot.",
+       funFact:"From Latin 'credere' (to trust, entrust). English 'credit,' 'credible,' and 'creed' all share this root. The phrase 'credo' (I believe) is used unchanged in many languages."},
+
+      {type:"teach", trg:"decidere", src:"to decide", pos:"verb", gender:null,
+       note:"Regular -ere verb with irregular past participle: deciso.\nDecidere di + infinitive = to decide to do something.",
+       example:"A: Hai deciso dove andare?\nB: Ho deciso di andare a Roma.",
+       exampleSrc:"A: Have you decided where to go?\nB: I have decided to go to Rome.",
+       funFact:"From Latin 'decidere' (to cut off, settle). English 'decision' comes from the same root. The idea: to decide is to 'cut off' other options. The irregular participle 'deciso' follows the pattern of many -ere verbs."},
+
+      {type:"teach", trg:"spiegare", src:"to explain", pos:"verb", gender:null,
+       note:"Regular -are verb with a spelling change: g becomes gh before -i/-e endings.\nSpiego, spieghi, spiega, spieghiamo, spiegate, spiegano.",
+       example:"A: Puoi spiegare questo?\nB: Si, ti spiego subito.",
+       exampleSrc:"A: Can you explain this?\nB: Yes, I will explain it to you right away.",
+       funFact:"From Latin 'explicare' (to unfold, spread out). English 'explain' and 'explicit' share the same origin. The Italian spelling change g > gh preserves the hard 'g' sound before front vowels."},
+
+      {type:"teach", trg:"la malattia", src:"the illness", pos:"noun", gender:"f",
+       note:"Noun, feminine. Use with 'avere una malattia' (to have an illness) or 'essere malato/a' (to be sick).",
+       example:"A: Perche non sei venuto?\nB: Ho avuto una malattia la settimana scorsa.",
+       exampleSrc:"A: Why didn't you come?\nB: I had an illness last week.",
+       funFact:"From Latin 'malus' (bad) + 'habitus' (condition). A malattia is literally a 'bad condition.' The adjective form 'malato/malata' (sick) comes from the same root."},
+
+      {type:"teach", trg:"felice", src:"happy", pos:"adj", gender:null,
+       note:"Adjective, same form for masculine and feminine. Plural: felici.\nDo not confuse with 'contento' (satisfied, content) or 'allegro' (cheerful).",
+       example:"A: Come ti senti oggi?\nB: Mi sento molto felice oggi.",
+       exampleSrc:"A: How do you feel today?\nB: I feel very happy today.",
+       funFact:"From Latin 'felix' (fortunate, fruitful). Roman names Felix and Felicia share this root. In Italian, 'felice' specifically means a deep sense of happiness, while 'contento' is more like being satisfied with a situation."},
+
+      {type:"teach", trg:"la bevanda", src:"the drink", pos:"noun", gender:"f",
+       note:"Noun, feminine. General word for any drink. Specific: l'acqua (water), il vino (wine), la birra (beer), il succo (juice).",
+       example:"A: Cosa vuoi come bevanda?\nB: Una bevanda fredda, per favore.",
+       exampleSrc:"A: What do you want as a drink?\nB: A cold drink, please.",
+       funFact:"From Latin 'bibenda' (things to be drunk), from 'bibere' (to drink). English 'beverage' and 'imbibe' share this root. Italian keeps the simple form 'bevanda' while English borrowed the longer 'beverage' from Old French."},
+
+      {type:"tip", title:"Using mental verbs with 'che'",
+       text:"Three key verbs take 'che' to introduce a second idea:\n\nPensare che = to think that\nCredere che = to believe that\n(requires subjunctive in formal Italian)\n\nDecidere di + infinitive = to decide to do\n(no 'che,' use 'di' + verb)\n\nExamples:\nPenso che tu abbia ragione. (I think you are right.)\nHo deciso di spiegare il problema. (I decided to explain the problem.)",
+       deepDive:"At A2 level, use 'pensare che' and 'credere che' with indicative for everyday speech. The subjunctive (penso che sia...) is a B1 feature. At this stage, focus on the vocabulary and structure: decide + di + infinitive is immediately usable and very common."},
+
+      {type:"mc", q:"Which Italian word means 'to believe'?",
+       opts:["pensare","credere","decidere","spiegare"],
+       ans:"credere",
+       hint:"This verb shares a root with English 'credit' and 'credible.'"},
+
+      {type:"mc", q:"What is the past participle of 'decidere'?",
+       opts:["deciduto","deciso","decidito","decidito"],
+       ans:"deciso",
+       hint:"This verb has an irregular past participle. Think of the English word 'decision' for a clue to the Italian form."},
+
+      {type:"fb", s:"Puoi {1} questo concetto?",
+       a:["spiegare"],
+       opts:["spiegare","pensare","credere","decidere"],
+       hint:"The blank asks for the verb meaning 'to explain.' It takes a direct object.",
+       sSrc:"Can you {1} this concept?"},
+
+      {type:"fb", s:"Mi sento molto {1} oggi.",
+       a:["felice"],
+       opts:["felice","malattia","bevanda","credere"],
+       hint:"The blank needs an adjective describing a positive emotion. One option here is a noun, one a verb.",
+       sSrc:"I feel very {1} today."},
+
+      {type:"mc", q:"What gender is 'la malattia'?",
+       opts:["masculine","feminine","neuter","it changes with context"],
+       ans:"feminine",
+       hint:"Look at the article used with this noun. Italian articles always signal the gender."},
+
+      {type:"match", pairs:[
+        {trg:"pensare", src:"to think"},
+        {trg:"credere", src:"to believe"},
+        {trg:"decidere", src:"to decide"},
+        {trg:"spiegare", src:"to explain"},
+        {trg:"la malattia", src:"the illness"},
+        {trg:"felice", src:"happy"},
+        {trg:"la bevanda", src:"the drink"}
+      ]}
+    ]},
   ]
 };
 export default UNIT_11;
