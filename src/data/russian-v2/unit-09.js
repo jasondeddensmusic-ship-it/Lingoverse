@@ -385,5 +385,120 @@ const UNIT_09 = {n:9, lang:"ru", srcLang:"en", track:"v2", title:"Здоровь
 
 ]}
 
+,{id:"ruv2_u9l_essential_a1b1", title:"Важные слова", icon:"🔑", xp:20, board:true, steps:[
+
+{type:"intro", title:"Essential Words: Pronouns, Verbs, and Civic Discourse",
+ desc:"Fill seven key gaps: the pronoun 'we', the verb 'to be', 'to have', 'thousand', 'street', plus two B1 civic discourse verbs. All are required for TRKI A1-B1 certification.",
+ goals:["Use мы (we) correctly with plural verbs","Understand быть: invisible in present tense, essential in past and future","Distinguish иметь from у меня есть","Say thousand (тысяча) in context","Name улица (street)","Use отказываться and советовать in civic situations"]},
+
+{type:"teach", trg:"мы", src:"we", pos:"pron", gender:null,
+ phonetic:"my",
+ note:"First-person plural pronoun.\nTakes plural verb forms: мы знаем (we know), мы говорим (we speak).\nNever capitalised unless it starts a sentence.",
+ example:"A: Мы живём здесь.\nB: Да? Мы тоже живём рядом!",
+ exampleSrc:"A: We live here.\nB: Really? We also live nearby!",
+ funFact:"Мы has been мы in Slavic languages for over 1,500 years. It traces back to Proto-Indo-European *we-, the same root as English 'we' and German 'wir.' One of the most stable words in any language family."},
+
+{type:"teach", trg:"быть", src:"to be", pos:"verb", gender:null,
+ phonetic:"byt'",
+ note:"INFINITIVE. In PRESENT tense: быть has NO form — the copula is INVISIBLE.\nя студент (I am a student). Мы дома (We are at home).\nPast: был (masc), была (fem), было (neut), были (pl).\nFuture: буду, будешь, будет, будем, будете, будут.",
+ example:"A: Где вы были вчера?\nB: Мы были дома.",
+ exampleSrc:"A: Where were you yesterday?\nB: We were at home.",
+ funFact:"Russian is one of few languages where the present-tense copula is completely silent. In Church Slavonic 'есть' (is) was used — it survives in one phrase: 'У меня есть...' (I have...). Everywhere else, быть vanishes in the present."},
+
+{type:"teach", trg:"иметь", src:"to have (formal / abstract)", pos:"verb", gender:null,
+ phonetic:"imet'",
+ note:"IMPERFECTIVE. Used for formal or abstract possession.\nFor physical objects, Russians prefer: у меня есть (I have at me).\nиметь appears in formal writing and set phrases: иметь право (to have the right), иметь значение (to matter).",
+ example:"A: Можно иметь право знать?\nB: Да, можно.",
+ exampleSrc:"A: Can one have the right to know?\nB: Yes, one can.",
+ funFact:"Everyday Russian avoids иметь for ownership. 'У меня есть машина' (I have a car) sounds natural; 'Я имею машину' sounds bookish. But иметь dominates legal texts, contracts, and bureaucratic language — a pattern English shares with 'possess vs. have.'"},
+
+{type:"teach", trg:"тысяча", src:"thousand", pos:"num", gender:"f",
+ phonetic:"tys-ya-cha",
+ note:"FEMININE noun used as a numeral.\nAfter тысяча: noun in genitive plural.\nодна тысяча = one thousand. Пять тысяч = five thousand.",
+ example:"A: Сколько это стоит?\nB: Три тысячи рублей.",
+ exampleSrc:"A: How much does it cost?\nB: Three thousand roubles.",
+ funFact:"The word тысяча derives from Proto-Slavic *tysontja, related to Greek 'thysias' (sacrifice) — possibly from the custom of counting offerings. In modern Russia, тысяча is colloquially shortened to 'штука' (piece) in informal speech: 'пять штук' = five thousand roubles."},
+
+{type:"teach", trg:"улица", src:"street", pos:"noun", gender:"f",
+ phonetic:"u-li-tsa",
+ note:"FEMININE. Standard word for any named street.\нули = street. улица Пушкина = Pushkin Street.\nContrast: проспект (avenue), переулок (lane), площадь (square).",
+ example:"A: Как называется эта улица?\nB: Это улица Садовая.",
+ exampleSrc:"A: What is this street called?\nB: This is Sadovaya Street.",
+ funFact:"Russian street addresses put the house number AFTER the street name: улица Пушкина, дом 5 (Pushkin Street, house 5). The word улица appears in hundreds of Russian city names and was used in medieval Novgorod records from the 11th century."},
+
+{type:"teach", trg:"отказываться", src:"to refuse / to decline (imperfective)", pos:"verb", gender:null,
+ phonetic:"at-ka-ZY-vat'-sya",
+ note:"IMPERFECTIVE reflexive. Perfective pair: отказаться.\нОтказываться от чего = to refuse something (from + genitive).\nUsed for habitual or ongoing refusal.",
+ example:"A: Ты отказываешься?\nB: Да, я отказываюсь от этого.",
+ exampleSrc:"A: Are you refusing?\nB: Yes, I am declining this.",
+ funFact:"Отказываться is built from от- (away from) + казать (to show) + -ся (reflexive). Literally: 'to show oneself away.' The civic formula 'имею право отказаться' (I have the right to refuse) appears in Russian contract and labour law — linking this word to иметь."},
+
+{type:"teach", trg:"советовать", src:"to advise / to recommend (imperfective)", pos:"verb", gender:null,
+ phonetic:"sa-VYE-ta-vat'",
+ note:"IMPERFECTIVE. Perfective pair: посоветовать.\нсоветовать кому + infinitive = to advise someone to do something.\нТакже: советоваться с кем = to consult / seek advice.",
+ example:"A: Что ты советуешь?\nB: Я советую отдыхать.",
+ exampleSrc:"A: What do you advise?\nB: I advise you to rest.",
+ funFact:"Советовать shares its root with 'совет' (advice, council, Soviet). The USSR name — Советский Союз — literally means 'Union of Councils.' Every day Russians use советовать meaning simply 'to recommend,' carrying a thousand years of council history in one ordinary verb."},
+
+{type:"tip", title:"быть in Present vs Other Tenses",
+ text:"The copula ('to be') behaves differently across tenses:\n\nPRESENT — INVISIBLE:\nЯ студент. (I am a student. NOT: Я есть студент.)\nМы дома. (We are at home.)\n\nPAST — был/была/было/были:\nОн был дома. (He was at home.)\nМы были в магазине. (We were at the store.)\n\nFUTURE — буду/будешь/будет etc.:\nЯ буду дома. (I will be at home.)\nМы будем в школе. (We will be at school.)\n\nSPECIAL CASE — есть survives in one present phrase:\nУ меня есть... (I have... lit. By me there is...)\n\nRule: if you need 'to be' in present tense outside 'у меня есть', drop it entirely.",
+ icon:"💡"},
+
+{type:"mc", q:"How do you say 'We are at home' in Russian?",
+ opts:["Мы есть дома","Мы быть дома","Мы дома","Мы будем дома"],
+ ans:"Мы дома",
+ hint:"Present-tense быть is invisible — no copula word appears at all."},
+
+{type:"mc", q:"Which sentence uses иметь correctly?",
+ opts:["Я имею книгу на столе","Вы имеете право отказаться","Он имеет кофе","Мы имеем дом здесь"],
+ ans:"Вы имеете право отказаться",
+ hint:"иметь suits formal or abstract possession — rights, significance, purpose. For physical objects, use у меня есть."},
+
+{type:"fb", s:"Мы {1} дома весь день.",
+ a:["были"],
+ opts:["были","есть","будете","быть"],
+ hint:"Past tense of быть, plural — the subject 'мы' requires the plural past form.",
+ sSrc:"We were at home all day."},
+
+{type:"fb", s:"Я живу на тихой {1} рядом со школой.",
+ a:["улице"],
+ opts:["улице","работе","школе","доме"],
+ hint:"Feminine noun for a named road in a city — prepositional case here.",
+ sSrc:"I live on a quiet street near the school."},
+
+{type:"mc", q:"What does отказываться take in Russian?",
+ opts:["Accusative case for the thing refused","Genitive with от for the thing refused","Dative case for the person refusing","Instrumental with с"],
+ ans:"Genitive with от for the thing refused",
+ hint:"Think of the prefix от- (away from). The preposition that pairs with 'away from' uses the second grammatical case."},
+
+{type:"fb", s:"A: Что ты {1} сделать?\nB: Я советую отдыхать.",
+ a:["советуешь"],
+ opts:["советуешь","отказываешься","говоришь","знаешь"],
+ hint:"The question asks what advice the person is giving — which verb fits 'advise / recommend'?",
+ sSrc:"A: What do you advise doing?\nB: I advise resting."},
+
+{type:"fb", s:"A: Сколько это стоит?\nB: Две {1} рублей.",
+ a:["тысячи"],
+ opts:["тысячи","тысяча","тысяч","тысячу"],
+ hint:"After два/две/оба the noun takes genitive singular — тысяча becomes тысячи.",
+ sSrc:"A: How much does it cost?\nB: Two thousand roubles."},
+
+{type:"mc", q:"Which verb means 'to refuse or decline' something?",
+ opts:["советовать","иметь","отказываться","записываться"],
+ ans:"отказываться",
+ hint:"Think: you show yourself away from something. Imperfective, reflexive with -ся."},
+
+{type:"match", pairs:[
+ {trg:"мы", src:"we"},
+ {trg:"быть", src:"to be"},
+ {trg:"иметь", src:"to have (formal)"},
+ {trg:"тысяча", src:"thousand"},
+ {trg:"улица", src:"street"},
+ {trg:"отказываться", src:"to refuse"},
+ {trg:"советовать", src:"to advise"}
+]}
+
+]}
+
 ]};
 export default UNIT_09;

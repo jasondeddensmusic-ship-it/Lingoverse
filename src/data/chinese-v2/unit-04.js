@@ -434,6 +434,165 @@ lessons:[
   {trg:"杯子(bēizi)", src:"cup"},
   {trg:"喂(wèi)", src:"hello (phone)"}
 ]}
+]},
+
+// ═══ L6: Essential HSK 1 — Time, Actions, and School ═══
+{id:"zhv2_u4l_essential_hsk1", title:"Time, Actions, and School", icon:"📅", xp:20, board:true, steps:[
+{type:"intro", title:"Time, Actions, and School",
+ desc:"Nine essential HSK 1 words that appear in every real conversation: days (yesterday, today, tomorrow), time expressions, core verbs (to speak, to do), school, and the question word for place.",
+ goals:["Name yesterday, today, and tomorrow in Chinese","Use 现在 and 时候 to talk about time","Say 'to speak' and 'to do' with 说 and 做","Ask where something is with 哪儿","Use 学校 in context"]},
+
+{type:"teach", trg:"昨天(zuótiān)", src:"yesterday", pos:"noun", gender:null,
+ phonetic:"zuótiān",
+ note:"Second + first tone. Time words like this go BEFORE the verb.\n昨天 = yesterday. Always before the action.",
+ example:"A: 你(nǐ)昨天(zuótiān)在(zài)家(jiā)吗(ma)?\nB: 是(shì)的, 我(wǒ)昨天(zuótiān)在(zài)家(jiā)。",
+ exampleSrc:"A: Were you at home yesterday?\nB: Yes, I was at home yesterday.",
+ funFact:"昨 (yesterday) contains 日 (sun/day) on the right. The character 昨 originally meant 'the day just passed.' Chinese children learn the trio 昨天, 今天, 明天 (yesterday, today, tomorrow) together as their first time vocabulary."},
+
+{type:"teach", trg:"今天(jīntiān)", src:"today", pos:"noun", gender:null,
+ phonetic:"jīntiān",
+ note:"First + first tone. 今 = now/present. 天 = day/sky.\nToday = the present day.",
+ example:"A: 你(nǐ)今天(jīntiān)去(qù)学校(xuéxiào)吗(ma)?\nB: 去(qù), 今天(jīntiān)我(wǒ)去(qù)学校(xuéxiào)。",
+ exampleSrc:"A: Are you going to school today?\nB: Yes, I am going to school today.",
+ funFact:"今天, 今年 (this year), 今晚 (tonight) all use 今 (now/present). The character 今 has a person with a sealed mouth — meaning 'the present moment,' right now, contained and immediate."},
+
+{type:"teach", trg:"明天(míngtiān)", src:"tomorrow", pos:"noun", gender:null,
+ phonetic:"míngtiān",
+ note:"Second + first tone. 明 = bright/clear = tomorrow (the bright day coming).\n明 also means 'clear' or 'to understand.'",
+ example:"A: 你(nǐ)明天(míngtiān)去(qù)学校(xuéxiào)吗(ma)?\nB: 不(bù)去(qù), 明天(míngtiān)我(wǒ)在(zài)家(jiā)。",
+ exampleSrc:"A: Are you going to school tomorrow?\nB: No, I will be home tomorrow.",
+ funFact:"明 combines 日 (sun) and 月 (moon) — the two brightest things in the sky. 明天 is therefore 'the day when the sky brightens again.' This makes it one of the most beautiful characters in HSK 1."},
+
+{type:"tip", title:"Time Words Go BEFORE the Verb in Chinese",
+ text:"In Chinese, time expressions come BEFORE the main verb — the opposite of English.\n\nEnglish: 'I am at home TODAY.'\nChinese: 我今天在家。(I today am-at home.)\n\nEnglish: 'She went to school YESTERDAY.'\nChinese: 她昨天去学校了。(She yesterday went school.)\n\nThis rule applies to: 昨天, 今天, 明天, 现在 — and all future time words you learn.\nLearn this pattern once, and it works forever.",
+ deepDive:{title:"Why does Chinese put time first?",
+  text:"Chinese organizes sentences from large to small, global to specific. Time sets the scene before the action. This is why Chinese addresses go from country to city to street to house number — the opposite of English.\n\nIn sentences: Time > Place > Verb > Object.\n我(wǒ)今天(jīntiān)在(zài)学校(xuéxiào)学习(xuéxí)。\nI today at school study.\n\nOnce you internalize this 'big-to-small' logic, Chinese word order becomes much more intuitive."}},
+
+{type:"teach", trg:"现在(xiànzài)", src:"now", pos:"noun", gender:null,
+ phonetic:"xiànzài",
+ note:"Fourth + fourth tone. The most useful time word for the present.\n现在几点? = What time is it now?",
+ example:"A: 你(nǐ)现在(xiànzài)在(zài)家(jiā)吗(ma)?\nB: 不(bù)在(zài), 我(wǒ)现在(xiànzài)在(zài)学校(xuéxiào)。",
+ exampleSrc:"A: Are you at home now?\nB: No, I am at school now.",
+ funFact:"现在 can open almost any sentence about the present. 现在几点? (What time is it now?), 现在怎么样? (How is it going now?), 我现在很忙 (I am busy now). It is the go-to word for 'right now' in spoken Chinese."},
+
+{type:"teach", trg:"时候(shíhou)", src:"time / moment / when", pos:"noun", gender:null,
+ phonetic:"shíhou",
+ note:"Second tone + neutral. 时 = time. 候 = moment/period.\n什么时候 = when (question). 那时候 = at that time.",
+ example:"A: 你(nǐ)什么(shénme)时候(shíhou)去(qù)学校(xuéxiào)?\nB: 我(wǒ)今天(jīntiān)去(qù)。",
+ exampleSrc:"A: When are you going to school?\nB: I am going today.",
+ funFact:"时候 is the core of the question 什么时候 (shénme shíhou) — 'when?' This is one of the five essential question words in Chinese: 什么 (what), 谁 (who), 哪儿 (where), 什么时候 (when), 为什么 (why). Master 时候 and you can ask 'when' about anything."},
+
+{type:"teach", trg:"学校(xuéxiào)", src:"school", pos:"noun", gender:null,
+ phonetic:"xuéxiào",
+ note:"Second + fourth tone. 学 = study/learn. 校 = school/institution.\nThe verb 上学 = to go to school (shorter form).",
+ example:"A: 你(nǐ)今天(jīntiān)去(qù)学校(xuéxiào)吗(ma)?\nB: 去(qù), 我(wǒ)很(hěn)想(xiǎng)去(qù)学校(xuéxiào)。",
+ exampleSrc:"A: Are you going to school today?\nB: Yes, I really want to go to school.",
+ funFact:"The 学 in 学校 appears in many education words: 学生 (student), 学习 (to study), 同学 (classmate), 大学 (university). Once you know this character, a whole family of education vocabulary opens up."},
+
+{type:"teach", trg:"说(shuō)", src:"to speak / to say", pos:"verb", gender:null,
+ phonetic:"shuō",
+ note:"First tone. The core verb for speaking.\n说汉语 = speak Chinese. 说话 = to talk.",
+ example:"A: 你(nǐ)说(shuō)汉语(Hànyǔ)吗(ma)?\nB: 说(shuō), 我(wǒ)很(hěn)想(xiǎng)说(shuō)汉语(Hànyǔ)。",
+ exampleSrc:"A: Do you speak Chinese?\nB: Yes, I really want to speak Chinese.",
+ funFact:"说 has the speech radical 讠(a simplified form of 言, meaning speech/words) on the left. This radical appears in hundreds of Chinese verbs: 话 (speech), 请 (please), 谢 (thank), 读 (read), 语 (language). Spot 讠 and you know the character relates to speaking or language."},
+
+{type:"teach", trg:"做(zuò)", src:"to do / to make", pos:"verb", gender:null,
+ phonetic:"zuò",
+ note:"Fourth tone. A high-frequency HSK 1 verb.\n做什么 = do what? 你在做什么 = What are you doing?",
+ example:"A: 你(nǐ)今天(jīntiān)做(zuò)什么(shénme)?\nB: 我(wǒ)想(xiǎng)去(qù)学校(xuéxiào)。",
+ exampleSrc:"A: What are you doing today?\nB: I want to go to school.",
+ funFact:"做 appears in many everyday expressions: 做饭 (cook), 做作业 (do homework), 做梦 (dream). The character has the human radical 亻on the left — a person doing something. It covers both 'to do' and 'to make,' just as English uses one verb for both."},
+
+{type:"teach", trg:"哪儿(nǎr)", src:"where", pos:"pron", gender:null,
+ phonetic:"nǎr",
+ note:"Third tone + erhua. The Beijing spoken form of 哪里 (nǎlǐ).\n你在哪儿? = Where are you? Both 哪儿 and 哪里 are correct.",
+ example:"A: 你(nǐ)在(zài)哪儿(nǎr)?\nB: 我(wǒ)在(zài)家(jiā)。",
+ exampleSrc:"A: Where are you?\nB: I am at home.",
+ funFact:"哪儿 is the Beijing dialect version of 哪里 (where). The 儿 suffix (erhua) is a distinctive feature of northern Chinese speech. In standard textbooks and the south, 哪里 is preferred. Both are understood everywhere in China."},
+
+{type:"mc", q:"Which word means 'yesterday' in Chinese?",
+ opts:["今天(jīntiān)","明天(míngtiān)","昨天(zuótiān)","现在(xiànzài)"],
+ ans:"昨天(zuótiān)",
+ hint:"Three days are in the set: yesterday, today, tomorrow. The one in the past has a character meaning 'day just passed.'"},
+
+{type:"match", pairs:[
+  {trg:"昨天(zuótiān)", src:"yesterday"},
+  {trg:"今天(jīntiān)", src:"today"},
+  {trg:"明天(míngtiān)", src:"tomorrow"},
+  {trg:"现在(xiànzài)", src:"now"},
+  {trg:"时候(shíhou)", src:"time / when"}
+]},
+
+{type:"fb", s:"你(nǐ){1}在(zài)哪儿(nǎr)?",
+ a:["现在(xiànzài)"],
+ opts:["现在(xiànzài)","明天(míngtiān)","昨天(zuótiān)","时候(shíhou)"],
+ hint:"You are asking where someone is at this very moment. Which time word means 'right now'?",
+ sSrc:"Where are you {1}?"},
+
+{type:"mc", q:"什么(shénme)时候(shíhou)去(qù)? What is being asked?",
+ opts:["Who is going?","How are you going?","Where are you going?","When are you going?"],
+ ans:"When are you going?",
+ hint:"什么时候 is the question expression for time. It uses the word that means 'moment/period.'"},
+
+{type:"fb", s:"你(nǐ)今天(jīntiān)去(qù){1}吗(ma)?",
+ a:["学校(xuéxiào)"],
+ opts:["学校(xuéxiào)","昨天(zuótiān)","时候(shíhou)","做(zuò)"],
+ hint:"The question asks if you are going somewhere for study. Which word means 'school'?",
+ sSrc:"Are you going to {1} today?"},
+
+{type:"match", pairs:[
+  {trg:"学校(xuéxiào)", src:"school"},
+  {trg:"说(shuō)", src:"to speak"},
+  {trg:"做(zuò)", src:"to do"},
+  {trg:"哪儿(nǎr)", src:"where"}
+]},
+
+{type:"fb", s:"你(nǐ){1}汉语(Hànyǔ)吗(ma)?",
+ a:["说(shuō)"],
+ opts:["说(shuō)","做(zuò)","在(zài)","去(qù)"],
+ hint:"Which verb means 'to speak' a language? It has the speech radical on the left.",
+ sSrc:"Do you {1} Chinese?"},
+
+{type:"mc", q:"你(nǐ)在(zài)哪儿(nǎr)? How would you correctly answer: 'I am at school.'",
+ opts:["我(wǒ)是(shì)学校(xuéxiào)。","我(wǒ)在(zài)学校(xuéxiào)。","我(wǒ)有(yǒu)学校(xuéxiào)。","我(wǒ)去(qù)学校(xuéxiào)。"],
+ ans:"我(wǒ)在(zài)学校(xuéxiào)。",
+ hint:"The question uses 在 to ask about location. The answer also uses 在 to state a location."},
+
+{type:"fb", s:"我(wǒ)想(xiǎng){1}饭(fàn)。",
+ a:["做(zuò)"],
+ opts:["做(zuò)","说(shuō)","去(qù)","有(yǒu)"],
+ hint:"The speaker wants to cook a meal. Which verb means 'to do / to make'?",
+ sSrc:"I want to {1} (cook) a meal."},
+
+{type:"mc", q:"Where does 今天(jīntiān) go in a Chinese sentence?",
+ opts:["After the verb","At the very end","Before the verb, after the subject","Before the subject"],
+ ans:"Before the verb, after the subject",
+ hint:"Time words in Chinese come before the action. The speaker comes first, then the time, then what they do."},
+
+{type:"fb", s:"她(tā){1}在(zài)家(jiā)。",
+ a:["昨天(zuótiān)"],
+ opts:["昨天(zuótiān)","明天(míngtiān)","学校(xuéxiào)","说(shuō)"],
+ hint:"She was home — in the past. Which time word means 'yesterday'?",
+ sSrc:"She was home {1}."},
+
+{type:"match", pairs:[
+  {trg:"今天(jīntiān)", src:"today"},
+  {trg:"昨天(zuótiān)", src:"yesterday"},
+  {trg:"明天(míngtiān)", src:"tomorrow"},
+  {trg:"说(shuō)", src:"to speak"},
+  {trg:"做(zuò)", src:"to do"}
+]},
+
+{type:"mc", q:"你(nǐ)明天(míngtiān)做(zuò)什么(shénme)? What does this question ask?",
+ opts:["Where are you today?","What did you do yesterday?","What are you doing tomorrow?","When did you go to school?"],
+ ans:"What are you doing tomorrow?",
+ hint:"明天 points to the future. 做什么 asks 'do what.' The full question asks about plans ahead."},
+
+{type:"fb", s:"学校(xuéxiào)在(zài){1}?",
+ a:["哪儿(nǎr)"],
+ opts:["哪儿(nǎr)","什么(shénme)","时候(shíhou)","现在(xiànzài)"],
+ hint:"You want to know the location of the school. Which question word asks 'where'?",
+ sSrc:"Where is the school?"}
 ]}
 
 ]};
