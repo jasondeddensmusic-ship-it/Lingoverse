@@ -156,6 +156,92 @@ const UNIT_12 = {
     text:"When もう appears in a question, it often implies expectation:\nもうできましたか? (Are you done already? / Have you finished yet?)\nもうわかりましたか? (Do you understand now? / Have you figured it out?)\n\nThe speaker expects or hopes the answer is yes. If you want a neutral question without expectation, do not use もう."}},
 {type:"match",pairs:[{trg:"行(い)ける",src:"can go"}]}]},
 
+// ═══ L3: 心(こころ)の動詞(どうし) (Mental-State Verbs) ═══
+{id:"jav2_u12l3", title:"心(こころ)の動詞(どうし)", icon:"\u{1F9E0}", xp:15, board:true, steps:[
+  {type:"intro", title:"心(こころ)の動詞(どうし)",
+   desc:"Learn seven core verbs for thinking, believing, deciding, and remembering. These mental-state verbs appear constantly in everyday Japanese and are essential for JLPT N4.",
+   goals:["Use 思(おも)う and 信(しん)じる to express thoughts and beliefs","Express hopes with 希望(きぼう)する","Use 決(き)める, 選(えら)ぶ, 覚(おぼ)える for decision and memory"]},
+
+  {type:"teach", trg:"必要(ひつよう)", src:"necessary / need", pos:"noun", gender:null,
+   note:"Used as a noun or na-adjective. Pattern: noun + が + 必要(ひつよう)です.\nMeans something is required or needed.",
+   example:"A: 仕事(しごと)に日本語(にほんご)が必要(ひつよう)ですか?\nB: はい、とても必要(ひつよう)です。",
+   exampleSrc:"A: Is Japanese necessary for work?\nB: Yes, it is very necessary.",
+   funFact:"必要 combines 必 (certain, inevitable) and 要 (need, crucial). The same 要 appears in 重要(じゅうよう) (important) and 要求(ようきゅう) (demand). Once you know 要, many advanced vocabulary words click into place."},
+
+  {type:"teach", trg:"思(おも)う", src:"to think", pos:"verb", gender:null,
+   note:"Godan verb. Express opinions with: sentence + と思(おも)います.\nThe と turns the sentence into quoted content.",
+   example:"A: このコーヒーはどうですか?\nB: おいしいと思(おも)います。",
+   exampleSrc:"A: How is this coffee?\nB: I think it is delicious.",
+   funFact:"と思(おも)います is one of the most useful N4 patterns. It softens statements and expresses personal opinion, making you sound more natural and polite. Politicians, news anchors, and everyday speakers all use this pattern constantly."},
+
+  {type:"mc", q:"日本語(にほんご)が必要(ひつよう)です means:", opts:["Japanese is necessary","Japanese is difficult","I like Japanese","I studied Japanese"], ans:"Japanese is necessary",
+   hint:"必要 means 'necessary' or 'needed.' It follows が as the required thing."},
+
+  {type:"teach", trg:"信(しん)じる", src:"to believe", pos:"verb", gender:null,
+   note:"Ichidan verb. Drop る to conjugate: 信(しん)じます, 信(しん)じました.\nUsed for beliefs, trust, and faith.",
+   example:"A: 本当(ほんとう)に信(しん)じますか?\nB: はい、信(しん)じます。",
+   exampleSrc:"A: Do you really believe it?\nB: Yes, I believe it.",
+   funFact:"信 (trust, faith) is a kanji with deep cultural weight. It appears in 信頼(しんらい) (trust), 信号(しんごう) (traffic signal, literally 'faith sign'), and 自信(じしん) (self-confidence). The idea of 信 underpins many Japanese values around reliability."},
+
+  {type:"teach", trg:"希望(きぼう)する", src:"to hope / wish", pos:"verb", gender:null,
+   note:"Suru-verb. 希望(きぼう) + する. Can also use as a noun: 希望(きぼう)があります.\nMore formal than 〜たい (want to).",
+   example:"A: どんな仕事(しごと)を希望(きぼう)しますか?\nB: 先生(せんせい)を希望(きぼう)します。",
+   exampleSrc:"A: What kind of work do you hope for?\nB: I hope to be a teacher.",
+   funFact:"希望 (hope) uses 希 (rare, wish) and 望 (hope, look toward). The same 望 appears in 絶望(ぜつぼう) (despair, literally 'cut off from hope') and 展望(てんぼう) (outlook, view). Hope and despair share the same kanji root in Japanese."},
+
+  {type:"fb", s:"日本語(にほんご)が難(むずか)しいと{1}います。\n(I think Japanese is difficult.)", a:"思(おも)", opts:["思(おも)","信(しん)じ","希望(きぼう)","決(き)め"], sSrc:"I think Japanese is difficult.",
+   hint:"The verb for expressing opinions in 〜と patterns. Godan verb, 'to think.'"},
+
+  {type:"teach", trg:"決(き)める", src:"to decide", pos:"verb", gender:null,
+   note:"Ichidan verb. Drop る to conjugate.\nOften followed by ことにする (decided to) in natural speech.",
+   example:"A: 仕事(しごと)を決(き)めましたか?\nB: はい、もう決(き)めました。",
+   exampleSrc:"A: Have you decided on a job?\nB: Yes, I have already decided.",
+   funFact:"決 (decide, determine) appears in many useful compounds: 決定(けってい) (decision), 解決(かいけつ) (solution, literally 'dissolve + decide'), 多数決(たすうけつ) (majority vote). The verb 決まる (kimaru) is the intransitive pair meaning 'to be decided.'"},
+
+  {type:"teach", trg:"選(えら)ぶ", src:"to choose / select", pos:"verb", gender:null,
+   note:"Godan verb. Change ぶ to the b-row or び for ます form.\n選(えら)ぶ becomes 選(えら)びます.",
+   example:"A: どの食(た)べ物(もの)を選(えら)びましたか?\nB: 魚(さかな)を選(えら)びました。",
+   exampleSrc:"A: Which food did you choose?\nB: I chose fish.",
+   funFact:"選 (choose, select, elect) is the kanji used in elections: 選挙(せんきょ) (election, literally 'choose + lift up'). The same kanji appears in 選手(せんしゅ) (athlete, literally 'chosen person') used for sports players and team members."},
+
+  {type:"mc", q:"Which verb means 'to decide'?", opts:["選(えら)ぶ","決(き)める","覚(おぼ)える","信(しん)じる"], ans:"決(き)める",
+   hint:"Think of making a firm choice. The kanji means 'determine.'"},
+
+  {type:"teach", trg:"覚(おぼ)える", src:"to remember / memorize", pos:"verb", gender:null,
+   note:"Ichidan verb. Drop る: 覚(おぼ)えます, 覚(おぼ)えました.\nUsed for both memorizing and recalling.",
+   example:"A: 学校(がっこう)で日本語(にほんご)を覚(おぼ)えましたか?\nB: はい、毎日(まいにち)勉強(べんきょう)して覚(おぼ)えました。",
+   exampleSrc:"A: Did you memorize Japanese at school?\nB: Yes, I memorized it by studying every day.",
+   funFact:"覚 combines the kanji for 'claw/hand' over 'see.' It visually suggests grasping something with your mind. Its pair verb 忘(わす)れる (to forget) is the natural opposite. Language learners joke: 覚(おぼ)える as fast as you can, because 忘(わす)れる is always right behind you."},
+
+  {type:"fb", s:"魚(さかな)を{1}ました。\n(I chose fish.)", a:"選(えら)び", opts:["選(えら)び","決(き)め","覚(おぼ)え","信(しん)じ"], sSrc:"I chose fish.",
+   hint:"The verb for making a selection. Godan verb — check the ます-form ending."},
+
+  {type:"match", pairs:[
+   {trg:"思(おも)う",src:"to think"},
+   {trg:"信(しん)じる",src:"to believe"},
+   {trg:"決(き)める",src:"to decide"},
+   {trg:"選(えら)ぶ",src:"to choose"}
+  ]},
+
+  {type:"mc", q:"How do you say 'I memorized it' in Japanese?", opts:["覚(おぼ)えました","決(き)めました","選(えら)びました","信(しん)じました"], ans:"覚(おぼ)えました",
+   hint:"The mental-state verb for storing something in memory."},
+
+  {type:"fb", s:"先生(せんせい)を{1}します。\n(I hope to be a teacher.)", a:"希望(きぼう)", opts:["希望(きぼう)","必要(ひつよう)","信(しん)じ","決(き)め"], sSrc:"I hope to be a teacher.",
+   hint:"A formal suru-verb expressing a wish or aspiration. Two kanji: 'rare wish' + 'hope.'"},
+
+  {type:"match", pairs:[
+   {trg:"必要(ひつよう)",src:"necessary / need"},
+   {trg:"希望(きぼう)する",src:"to hope / wish"},
+   {trg:"覚(おぼ)える",src:"to remember / memorize"}
+  ]},
+
+  {type:"tip", title:"Mental-State Verbs Quick Guide",
+   text:"Opinions and thoughts:\n思(おも)う: I think that... — sentence + と思(おも)います\n信(しん)じる: I believe that...\n\nDecision and choice:\n決(き)める: to decide (active choice)\n選(えら)ぶ: to choose between options\n\nMemory:\n覚(おぼ)える: to memorize / remember\n\nNeed and hope:\n必要(ひつよう)です: is necessary\n希望(きぼう)する: to hope for (formal)",
+   deepDive:{title:"思う vs 信じる",
+    text:"Both express internal states but with different nuances.\n\n思(おも)う = personal opinion based on reasoning or feeling:\n難(むずか)しいと思(おも)います。(I think it is difficult.)\n\n信(しん)じる = belief or trust, often without direct evidence:\n信(しん)じます。(I believe you.)\n\nIn practice, 思(おも)う is far more common in daily conversation. 信(しん)じる is used in emotional contexts: trusting a person, holding a faith, or believing something is true against doubt."}},
+
+]},
+
 ,BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
