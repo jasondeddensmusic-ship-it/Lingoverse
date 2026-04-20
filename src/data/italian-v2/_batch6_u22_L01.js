@@ -76,9 +76,9 @@ const BATCH6_L1 = {id:"itv2_u22l_b6_1", title:"Proverbi e modi di dire", icon:"\
  exampleSrc:"A: Do you want to finish everything today?\nB: Slow and steady wins the race.",
  funFact:"This proverb captures Italian wisdom about quality over speed. It is especially used in driving contexts, where Italian roads demand caution despite the reputation for fast driving."},
 
-{type:"teach", trg:"la pratica vale piu della grammatica", src:"practice is worth more than theory", pos:"intj", gender:null,
+{type:"teach", trg:"la pratica vale più della grammatica", src:"practice is worth more than theory", pos:"intj", gender:null,
  note:"Proverb. 'Pratica' (practice) + 'grammatica' (grammar/theory).\nHands-on experience beats book knowledge.",
- example:"A: Ho letto tutti i libri di cucina.\nB: La pratica vale piu della grammatica. Cucina!",
+ example:"A: Ho letto tutti i libri di cucina.\nB: La pratica vale più della grammatica. Cucina!",
  exampleSrc:"A: I have read all the cookbooks.\nB: Practice is worth more than theory. Cook!",
  funFact:"This proverb is perfect for language learning. Italians value practical skill over theoretical knowledge. 'Grammatica' here means abstract rules, not just grammar."},
 
@@ -120,7 +120,7 @@ const BATCH6_L1 = {id:"itv2_u22l_b6_1", title:"Proverbi e modi di dire", icon:"\
  ans:"Crepi il lupo!",
  hint:"The traditional Italian response. Literally: 'May the wolf die!'"},
 
-{type:"fb", s:"La {1} vale piu della grammatica. Devi provare!", a:["pratica"],
+{type:"fb", s:"La {1} vale più della grammatica. Devi provare!", a:["pratica"],
  opts:["pratica","teoria","scuola","lezione"],
  hint:"Hands-on experience. This proverb says doing beats studying about doing.",
  sSrc:"{1} is worth more than theory. You have to try!"},

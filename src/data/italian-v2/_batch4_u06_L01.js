@@ -14,7 +14,7 @@ const BATCH4_U06_L1 = {
 
     {type:"teach", trg:"la metropolitana", src:"the subway / metro", pos:"noun", gender:"f",
      note:"Feminine. Often shortened to 'la metro.'\nOnly Rome, Milan, Naples, Turin, Catania, Brescia, and Genoa have metro systems.",
-     example:"A: Prendiamo la metro?\nB: Si, e piu veloce dell'autobus.",
+     example:"A: Prendiamo la metro?\nB: Si, e più veloce dell'autobus.",
      exampleSrc:"A: Shall we take the metro?\nB: Yes, it is faster than the bus.",
      funFact:"Milan has the most extensive metro in Italy. Rome's metro is famously small because digging always uncovers archaeological remains. Every construction project in Rome risks becoming an archaeological dig."},
 
@@ -119,7 +119,7 @@ const BATCH4_U06_L1 = {
      hint:"This is the universal Italian excuse for arriving late.",
      sSrc:"There was a lot of {1}, that is why I am late."},
 
-    {type:"mc", q:"Quale citta italiana e famosa per le biciclette?",
+    {type:"mc", q:"Quale città italiana e famosa per le biciclette?",
      opts:["Ferrara","Roma","Napoli","Palermo"],
      ans:"Ferrara",
      hint:"This flat Emilia-Romagna city has the highest bikes per capita in Italy."},

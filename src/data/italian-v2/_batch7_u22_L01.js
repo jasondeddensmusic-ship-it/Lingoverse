@@ -18,7 +18,7 @@ const BATCH7_L1 = {id:"itv2_u22l_b7_1", title:"La musica e lo spettacolo", icon:
 
 {type:"teach", trg:"il concerto", src:"the concert", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i concerti.\n'Concerto dal vivo' = live concert.",
- example:"A: Andiamo al concerto sabato sera?\nB: Si, ho gia i biglietti!",
+ example:"A: Andiamo al concerto sabato sera?\nB: Si, ho già i biglietti!",
  exampleSrc:"A: Shall we go to the concert Saturday evening?\nB: Yes, I already have the tickets!",
  funFact:"'Concerto' comes from Latin 'concertare' (to agree/harmonize). Italy hosts major music festivals: Umbria Jazz, Ravello Festival, and the Arena di Verona summer opera season."},
 
@@ -66,7 +66,7 @@ const BATCH7_L1 = {id:"itv2_u22l_b7_1", title:"La musica e lo spettacolo", icon:
 
 {type:"teach", trg:"il compositore", src:"the composer", pos:"noun", gender:"m",
  note:"Masculine noun. Feminine: la compositrice. Plural: i compositori.\n'Comporre' = to compose.",
- example:"A: Verdi e il piu grande compositore italiano.\nB: Anche Puccini e straordinario.",
+ example:"A: Verdi e il più grande compositore italiano.\nB: Anche Puccini e straordinario.",
  exampleSrc:"A: Verdi is the greatest Italian composer.\nB: Puccini is also extraordinary.",
  funFact:"Italy's great 'compositori' shaped Western music: Vivaldi, Monteverdi, Verdi, Puccini, Rossini. Musical terms like 'allegro,' 'forte,' and 'piano' are all Italian words."},
 
@@ -104,7 +104,7 @@ const BATCH7_L1 = {id:"itv2_u22l_b7_1", title:"La musica e lo spettacolo", icon:
  ans:"Italy's most important music festival",
  hint:"Held annually since 1951. The biggest event in Italian m...."},
 
-{type:"fb", s:"Verdi e il piu grande {1} italiano.", a:["compositore"],
+{type:"fb", s:"Verdi e il più grande {1} italiano.", a:["compositore"],
  opts:["compositore","cantante","regista","ballerino"],
  hint:"Someone who writes music. The creator of operas and symphonies.",
  sSrc:"Verdi is the greatest Italian {1}."},

@@ -44,7 +44,7 @@ const BATCH2_U04_L2 = {
 
     {type:"teach", trg:"preferire", src:"to prefer", pos:"verb", gender:null,
      note:"Irregular -ire verb with -isc- infix: preferisco, preferisci, preferisce.\nFrom Latin 'praeferre' (to put before).",
-     example:"A: Preferisci il caffe o il te?\nB: Preferisco il caffe.",
+     example:"A: Preferisci il caffè o il te?\nB: Preferisco il caffè.",
      exampleSrc:"A: Do you prefer coffee or tea?\nB: I prefer coffee.",
      funFact:"'Preferire' belongs to a group of -ire verbs that add -isc- in singular and third person plural forms. Other verbs in this group: capire (to understand), finire (to finish), pulire (to clean). A common pattern."},
 
@@ -62,13 +62,13 @@ const BATCH2_U04_L2 = {
 
     {type:"teach", trg:"dolce", src:"sweet (taste)", pos:"adj", gender:null,
      note:"Same form for masculine and feminine (-e ending).\n'Troppo dolce' = too sweet. 'Il dolce' = the dessert.",
-     example:"A: Il caffe e dolce?\nB: No, e amaro. Senza zucchero.",
+     example:"A: Il caffè e dolce?\nB: No, e amaro. Senza zucchero.",
      exampleSrc:"A: Is the coffee sweet?\nB: No, it is bitter. Without sugar.",
      funFact:"'La dolce vita' (the sweet life) became world-famous from Fellini's 1960 film. As an adjective, dolce describes taste (sweet). As a noun, it means dessert. 'Acqua dolce' means fresh water (not salty)."},
 
     {type:"teach", trg:"amaro", src:"bitter", pos:"adj", gender:"m",
      note:"Masculine: amaro. Feminine: amara.\nAlso a noun: 'l'amaro' is a bitter digestive liqueur.",
-     example:"A: Il caffe e amaro.\nB: Vuoi lo zucchero?",
+     example:"A: Il caffè e amaro.\nB: Vuoi lo zucchero?",
      exampleSrc:"A: The coffee is bitter.\nB: Do you want sugar?",
      funFact:"An 'amaro' is also a category of Italian digestive liqueurs drunk after meals. Famous examples: Fernet-Branca, Averna, Montenegro. They are intentionally bitter, believed to aid digestion. Bitter taste, positive purpose."},
 
@@ -80,7 +80,7 @@ const BATCH2_U04_L2 = {
 
     {type:"teach", trg:"troppo", src:"too much / too", pos:"adv", gender:null,
      note:"As adverb: 'troppo caldo' (too hot). As adjective: 'troppa gente' (too many people).\nFrom Germanic 'throp' (village, crowd).",
-     example:"A: Il caffe e troppo caldo.\nB: Aspetta un momento.",
+     example:"A: Il caffè e troppo caldo.\nB: Aspetta un momento.",
      exampleSrc:"A: The coffee is too hot.\nB: Wait a moment.",
      funFact:"'Troppo' entered Italian from Germanic languages. It changes form as an adjective: troppo (m.sg.), troppa (f.sg.), troppi (m.pl.), troppe (f.pl.). As an adverb before adjectives, it stays 'troppo.'"},
 
@@ -126,7 +126,7 @@ const BATCH2_U04_L2 = {
      ans:"Sweet or savory?",
      hint:"The fundamental Italian snack question. It divides the food world into two basic taste categories."},
 
-    {type:"fb", s:"Il caffe e {1} caldo. Aspetta un momento.",
+    {type:"fb", s:"Il caffè e {1} caldo. Aspetta un momento.",
      a:["troppo"],
      opts:["troppo","molto","abbastanza","poco"],
      hint:"The coffee exceeds the acceptable temperature. This word means 'too much' or 'excessively.'",

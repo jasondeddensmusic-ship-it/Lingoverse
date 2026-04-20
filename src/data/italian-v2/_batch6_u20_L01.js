@@ -66,7 +66,7 @@ const BATCH6_L1 = {id:"itv2_u20l_b6_1", title:"La vita scolastica", icon:"\u{1F3
 
 {type:"teach", trg:"la borsa di studio", src:"the scholarship", pos:"noun", gender:"f",
  note:"Feminine noun. 'Borsa' (purse/bag) + 'di studio' (of study).\nFinancial aid for students.",
- example:"A: Ho vinto una borsa di studio per l'universita.\nB: Complimenti! Te la meriti.",
+ example:"A: Ho vinto una borsa di studio per l'università.\nB: Complimenti! Te la meriti.",
  exampleSrc:"A: I won a scholarship for university.\nB: Congratulations! You deserve it.",
  funFact:"Italian public universities are relatively affordable, but 'borse di studio' are still crucial for many families. They are awarded based on income and academic merit."},
 
@@ -78,7 +78,7 @@ const BATCH6_L1 = {id:"itv2_u20l_b6_1", title:"La vita scolastica", icon:"\u{1F3
 
 {type:"teach", trg:"copiare", src:"to copy / to cheat", pos:"verb", gender:null,
  note:"Regular -are verb. copio, copi, copia.\nIn school context: to cheat by copying.",
- example:"A: Non copiare dal compagno!\nB: Scusa, non lo faccio piu.",
+ example:"A: Non copiare dal compagno!\nB: Scusa, non lo faccio più.",
  exampleSrc:"A: Do not copy from your classmate!\nB: Sorry, I will not do it again.",
  funFact:"Italian students have elaborate systems for cheating: 'bigliettini' (cheat sheets), 'suggerire' (whispering answers), and the 'compagno di banco' (desk neighbor) who shows their work."},
 
@@ -110,7 +110,7 @@ const BATCH6_L1 = {id:"itv2_u20l_b6_1", title:"La vita scolastica", icon:"\u{1F3
  ans:"Must repeat the entire year",
  hint:"The opposite of being promoted. The student stays in the same grade."},
 
-{type:"fb", s:"Ho vinto una {1} per studiare all'universita.", a:["borsa di studio"],
+{type:"fb", s:"Ho vinto una {1} per studiare all'università.", a:["borsa di studio"],
  opts:["borsa di studio","pagella","cattedra","materia"],
  hint:"Financial aid for students. Literally a 'study purse.'",
  sSrc:"I won a {1} to study at university."},

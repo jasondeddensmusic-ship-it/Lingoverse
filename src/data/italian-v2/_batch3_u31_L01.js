@@ -8,13 +8,13 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"il quotidiano", src:"the daily newspaper", pos:"noun", gender:"m",
      note:"Masculine noun. Plural: i quotidiani.\n'Quotidiano nazionale' = national daily. Also adjective: 'la vita quotidiana' = daily life.",
-     example:"A: Il Corriere della Sera e il quotidiano piu diffuso d'Italia.\nB: Seguito da La Repubblica e La Stampa.",
+     example:"A: Il Corriere della Sera e il quotidiano più diffuso d'Italia.\nB: Seguito da La Repubblica e La Stampa.",
      exampleSrc:"A: Corriere della Sera is the most widely read daily in Italy.\nB: Followed by La Repubblica and La Stampa.",
      funFact:"Italy has about 80 daily newspapers, far more than most European countries. Many are regional: Il Mattino (Naples), Il Messaggero (Rome), La Nazione (Florence). Italians often read the local paper alongside a national one."},
 
     {type:"teach", trg:"il settimanale", src:"the weekly magazine", pos:"noun", gender:"m",
      note:"Masculine noun. Plural: i settimanali.\n'Settimanale di attualita' = news weekly. From 'settimana' (week).",
-     example:"A: L'Espresso era il settimanale di attualita piu letto.\nB: Ora e diventato un supplemento online.",
+     example:"A: L'Espresso era il settimanale di attualita più letto.\nB: Ora e diventato un supplemento online.",
      exampleSrc:"A: L'Espresso was the most read news weekly.\nB: Now it has become an online supplement.",
      funFact:"Italian magazines follow the time pattern in their names: 'quotidiano' (daily), 'settimanale' (weekly), 'mensile' (monthly). Gossip weeklies like 'Chi' and 'Oggi' sell millions of copies, far outstripping serious journalism."},
 
@@ -26,7 +26,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"il telegiornale", src:"the TV news / newscast", pos:"noun", gender:"m",
      note:"Masculine noun. Abbreviated TG.\n'TG1' = RAI's main evening news. 'TG5' = Mediaset's main evening news.",
-     example:"A: Il telegiornale delle otto e il piu seguito in Italia.\nB: Circa dieci milioni di spettatori ogni sera.",
+     example:"A: Il telegiornale delle otto e il più seguito in Italia.\nB: Circa dieci milioni di spettatori ogni sera.",
      exampleSrc:"A: The eight o'clock news is the most watched in Italy.\nB: About ten million viewers every evening.",
      funFact:"Italy has multiple competing TGs: TG1, TG2, TG3 (RAI), TG4, TG5, Studio Aperto (Mediaset), and TGLa7. Each has a perceived political lean. The 8pm TG1 remains the single most-watched TV program in Italy."},
 
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Perche il canone RAI e stato spostato sulla bolletta elettrica?",
-     opts:["Per ridurre il costo per le famiglie italiane piu povere","Perche la RAI non aveva piu bisogno di finanziamenti pubblici","Per combattere l'evasione: molti italiani non lo pagavano","Per finanziare la transizione al digitale della televisione"],
+     opts:["Per ridurre il costo per le famiglie italiane più povere","Perche la RAI non aveva più bisogno di finanziamenti pubblici","Per combattere l'evasione: molti italiani non lo pagavano","Per finanziare la transizione al digitale della televisione"],
      ans:"Per combattere l'evasione: molti italiani non lo pagavano",
      hint:"About 30% of Italians simply did not pay the license fee. Putting it on the electricity bill made evasion nearly impossible."},
 
@@ -61,7 +61,7 @@ const BATCH3_L_1 = {
      funFact:"Italian TV 'servizi' combine narrated footage with on-site interviews. Programs like 'Report' (RAI3) produce investigative servizi that have exposed scandals, changed laws, and occasionally toppled politicians."},
 
     {type:"fb",
-     s:"Il {1} delle otto di RAI1 e il programma piu visto in Italia.",
+     s:"Il {1} delle otto di RAI1 e il programma più visto in Italia.",
      a:["telegiornale"],
      opts:["telegiornale","palinsesto","servizio","quotidiano"],
      hint:"The TV news broadcast. Abbreviated TG. The 8pm edition on RAI's main channel draws about 10 million viewers nightly.",

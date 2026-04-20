@@ -64,7 +64,7 @@ const BATCH2_U05_L2 = {
      note:"Irregular past: 'ho preso.' Extremely versatile.\n'Prendi il libro' = take the book. Already taught for transport.",
      example:"A: Prendi l'ombrello! Piove!\nB: Grazie, quasi dimenticavo!",
      exampleSrc:"A: Take the umbrella! It is raining!\nB: Thanks, I almost forgot!",
-     funFact:"'Prendere' is one of Italian's most versatile verbs: prendere un caffe (have coffee), prendere il treno (catch the train), prendere una decisione (make a decision), prendere il sole (sunbathe). One verb, many uses."},
+     funFact:"'Prendere' is one of Italian's most versatile verbs: prendere un caffè (have coffee), prendere il treno (catch the train), prendere una decisione (make a decision), prendere il sole (sunbathe). One verb, many uses."},
 
     {type:"teach", trg:"portare", src:"to bring / to carry", pos:"verb", gender:null,
      note:"Regular -are verb. 'Porto io!' = I will bring it!\nFrom Latin 'portare' (to carry).",

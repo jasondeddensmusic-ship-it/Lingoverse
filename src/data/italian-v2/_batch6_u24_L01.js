@@ -6,13 +6,13 @@ const BATCH6_L1 = {id:"itv2_u24l_b6_1", title:"Rimpianti e occasioni mancate", i
 
 {type:"teach", trg:"il rimpianto", src:"the regret", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i rimpianti.\nFrom 'rimpiangere' (to regret). A deep sense of loss.",
- example:"A: Il mio piu grande rimpianto? Non aver studiato musica.\nB: Non e mai troppo tardi!",
+ example:"A: Il mio più grande rimpianto? Non aver studiato musica.\nB: Non e mai troppo tardi!",
  exampleSrc:"A: My biggest regret? Not having studied music.\nB: It is never too late!",
  funFact:"'Rimpianto' has a melancholic quality that 'regret' lacks. Italian culture embraces nostalgia: 'la dolce malinconia' (sweet melancholy) of looking back."},
 
 {type:"teach", trg:"rimpiangere", src:"to regret / to miss deeply", pos:"verb", gender:null,
  note:"Irregular -ere verb. rimpiango, rimpiangi, rimpiange.\nPast participle: rimpianto.",
- example:"A: Rimpiango di non aver viaggiato di piu.\nB: Puoi ancora farlo!",
+ example:"A: Rimpiango di non aver viaggiato di più.\nB: Puoi ancora farlo!",
  exampleSrc:"A: I regret not having traveled more.\nB: You can still do it!",
  funFact:"'Rimpiangere' literally means 'to cry again' (ri + piangere). It implies deep emotional weight, more intense than the English 'to regret.'"},
 
@@ -42,7 +42,7 @@ const BATCH6_L1 = {id:"itv2_u24l_b6_1", title:"Rimpianti e occasioni mancate", i
 
 {type:"teach", trg:"avrei dovuto", src:"I should have", pos:"verb", gender:null,
  note:"Conditional past of 'dovere.' Expresses obligation that was not fulfilled.\n'Avrei dovuto + infinitive' = I should have + past participle.",
- example:"A: Avrei dovuto studiare di piu.\nB: Non e troppo tardi per recuperare.",
+ example:"A: Avrei dovuto studiare di più.\nB: Non e troppo tardi per recuperare.",
  exampleSrc:"A: I should have studied more.\nB: It is not too late to catch up.",
  funFact:"'Avrei dovuto' is the Italian expression of hindsight regret. It is used constantly in daily conversation for everything from missed buses to life decisions."},
 
@@ -78,13 +78,13 @@ const BATCH6_L1 = {id:"itv2_u24l_b6_1", title:"Rimpianti e occasioni mancate", i
 
 {type:"teach", trg:"riscattarsi", src:"to redeem oneself / to make amends", pos:"verb", gender:null,
  note:"Reflexive -are verb. mi riscatto, ti riscatti, si riscatta.\nTo make up for past failures.",
- example:"A: Vuole riscattarsi dopo l'errore.\nB: Tutti meritano una seconda possibilita.",
+ example:"A: Vuole riscattarsi dopo l'errore.\nB: Tutti meritano una seconda possibilità.",
  exampleSrc:"A: He wants to redeem himself after the mistake.\nB: Everyone deserves a second chance.",
  funFact:"'Riscatto' originally meant 'ransom' (to buy back a prisoner). The figurative sense of personal redemption is now the primary meaning in everyday Italian."},
 
 {type:"teach", trg:"la lezione", src:"the lesson (moral)", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le lezioni.\nBoth a class and a moral lesson learned from experience.",
- example:"A: Ho imparato la lezione. Non lo faro piu.\nB: L'importante e crescere dagli errori.",
+ example:"A: Ho imparato la lezione. Non lo faro più.\nB: L'importante e crescere dagli errori.",
  exampleSrc:"A: I learned my lesson. I will not do it again.\nB: The important thing is to grow from mistakes.",
  funFact:"'Dare una lezione a qualcuno' means to teach someone a lesson (punish them). 'Imparare la lezione' means to learn from a mistake. Both meanings are very common."},
 

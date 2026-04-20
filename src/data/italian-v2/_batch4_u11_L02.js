@@ -37,10 +37,10 @@ const BATCH4_U11_L2 = {
      funFact:"Note: with direct object pronouns, the past participle agrees: 'l'ho scritta' (I wrote it, feminine because 'email' is feminine). This agreement rule catches many learners but sounds natural to Italians."},
 
     {type:"teach", trg:"prendere / preso", src:"to take / taken", pos:"verb", gender:null,
-     note:"Irregular past participle: preso. 'Ho preso' = I took.\n'Prendere un caffe' = to have a coffee.",
+     note:"Irregular past participle: preso. 'Ho preso' = I took.\n'Prendere un caffè' = to have a coffee.",
      example:"A: Hai preso il treno?\nB: No, ho preso l'autobus.",
      exampleSrc:"A: Did you take the train?\nB: No, I took the bus.",
-     funFact:"'Prendere' is incredibly versatile: prendere un caffe (have a coffee), prendere il sole (sunbathe), prendere una decisione (make a decision), prendere freddo (catch cold). The irregular 'preso' must simply be memorized."},
+     funFact:"'Prendere' is incredibly versatile: prendere un caffè (have a coffee), prendere il sole (sunbathe), prendere una decisione (make a decision), prendere freddo (catch cold). The irregular 'preso' must simply be memorized."},
 
     {type:"teach", trg:"mettere / messo", src:"to put / put", pos:"verb", gender:null,
      note:"Irregular past participle: messo. 'Ho messo' = I put.\n'Mettersi' = to put on (clothes), to start.",
@@ -92,7 +92,7 @@ const BATCH4_U11_L2 = {
 
     {type:"teach", trg:"conoscere / conosciuto", src:"to know (person) / known, met", pos:"verb", gender:null,
      note:"Regular-pattern past participle: conosciuto. 'Ho conosciuto' = I met (for the first time).\nDifferent from 'sapere' (to know a fact).",
-     example:"A: Dove hai conosciuto tua moglie?\nB: L'ho conosciuta all'universita.",
+     example:"A: Dove hai conosciuto tua moglie?\nB: L'ho conosciuta all'università.",
      exampleSrc:"A: Where did you meet your wife?\nB: I met her at university.",
      funFact:"In passato prossimo, 'conoscere' means 'to meet for the first time,' not 'to know.' 'L'ho conosciuto ieri' = I met him yesterday (not: I knew him yesterday). This meaning shift in the past tense is a key Italian concept."},
 

@@ -6,7 +6,7 @@ const BATCH8_L1 = {id:"itv2_u22l_b8_1", title:"Design e architettura", icon:"üè
 
 {type:"teach", trg:"la cupola", src:"the dome / cupola", pos:"noun", gender:"f",
  note:"Feminine noun. 'La cupola del Brunelleschi' = Brunelleschi's dome.\nIconic Italian architectural element.",
- example:"A: La cupola del Duomo e impressionante.\nB: E la piu grande cupola in muratura del mondo.",
+ example:"A: La cupola del Duomo e impressionante.\nB: E la pi√π grande cupola in muratura del mondo.",
  exampleSrc:"A: The dome of the Cathedral is impressive.\nB: It is the largest masonry dome in the world.",
  funFact:"Brunelleschi's dome in Florence (1436) was built without scaffolding, using a technique so brilliant that engineers still study it. No wooden support, just genius engineering."},
 

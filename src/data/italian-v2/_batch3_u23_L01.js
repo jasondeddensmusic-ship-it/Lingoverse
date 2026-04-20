@@ -8,7 +8,7 @@ const BATCH3_U23_L1 = {
 
     {type:"teach", trg:"il sindaco", src:"the mayor", pos:"noun", gender:"m",
      note:"Masculine. Feminine: la sindaca (increasingly used).\nFrom Greek 'syndikos' (advocate).",
-     example:"A: Chi e il sindaco della tua citta?\nB: E stato eletto due anni fa.",
+     example:"A: Chi e il sindaco della tua città?\nB: E stato eletto due anni fa.",
      exampleSrc:"A: Who is the mayor of your city?\nB: He was elected two years ago.",
      funFact:"Italian mayors ('sindaci') are directly elected by citizens and serve five-year terms. They have significant power over local services, urban planning, and public order. The mayor wears a tricolor sash at official events. Some mayors become national figures and later enter parliament."},
 
@@ -38,7 +38,7 @@ const BATCH3_U23_L1 = {
 
     {type:"teach", trg:"la Costituzione", src:"the Constitution", pos:"noun", gender:"f",
      note:"Feminine (capitalized for the Italian one). Entered into force January 1, 1948.\n'Principi fondamentali' = fundamental principles.",
-     example:"A: La Costituzione italiana e del 1948.\nB: E considerata una delle piu progressive.",
+     example:"A: La Costituzione italiana e del 1948.\nB: E considerata una delle più progressive.",
      exampleSrc:"A: The Italian Constitution is from 1948.\nB: It is considered one of the most progressive.",
      funFact:"The Italian Constitution was written after World War II and the fall of Fascism. Its opening article states: 'L'Italia e una Repubblica democratica, fondata sul lavoro' (Italy is a democratic Republic, founded on labor). It was designed with strong anti-authoritarian safeguards to prevent another dictatorship."},
 

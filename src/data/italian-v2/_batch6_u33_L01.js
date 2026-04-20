@@ -55,7 +55,7 @@ const BATCH6_L1 = {id:"itv2_u33l_b6_1", title:"L'etica e la morale", icon:"\u{26
  funFact:"'Condannare' has both legal (to sentence) and moral (to condemn) meanings. 'Condanna a morte' (death sentence) was abolished in Italy in 1947."},
 {type:"teach", trg:"la solidarieta", src:"the solidarity", pos:"noun", gender:"f",
  note:"Feminine noun. From 'solidale' (in solidarity).\nSupport for those in need. A core Italian value.",
- example:"A: La solidarieta tra i popoli e essenziale.\nB: Insieme siamo piu forti.",
+ example:"A: La solidarieta tra i popoli e essenziale.\nB: Insieme siamo più forti.",
  exampleSrc:"A: Solidarity between peoples is essential.\nB: Together we are stronger.",
  funFact:"'Solidarieta' is enshrined in Article 2 of the Italian Constitution as a fundamental duty. Italian culture values collective support, from family to community to nation."},
 {type:"teach", trg:"la dignita", src:"the dignity", pos:"noun", gender:"f",

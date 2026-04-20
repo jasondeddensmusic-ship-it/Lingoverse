@@ -42,9 +42,9 @@ const BATCH8_L1 = {id:"itv2_u02l_b8_1", title:"Gli orari", icon:"📋", xp:15, b
 
 {type:"teach", trg:"la pausa", src:"the break / pause", pos:"noun", gender:"f",
  note:"Feminine noun. 'Pausa pranzo' = lunch break.\n'Fare una pausa' = to take a break.",
- example:"A: Facciamo una pausa caffe?\nB: Si, ne ho bisogno!",
+ example:"A: Facciamo una pausa caffè?\nB: Si, ne ho bisogno!",
  exampleSrc:"A: Shall we take a coffee break?\nB: Yes, I need one!",
- funFact:"The 'pausa caffe' is sacred in Italian workplaces. It is not just about caffeine but about socializing. Drinking coffee alone at your desk is considered sad."},
+ funFact:"The 'pausa caffè' is sacred in Italian workplaces. It is not just about caffeine but about socializing. Drinking coffee alone at your desk is considered sad."},
 
 {type:"teach", trg:"quotidiano", src:"daily / everyday", pos:"adj", gender:null,
  note:"Adjective: quotidiano/a/i/e. Also a noun: 'il quotidiano' = the daily newspaper.",
@@ -60,7 +60,7 @@ const BATCH8_L1 = {id:"itv2_u02l_b8_1", title:"Gli orari", icon:"📋", xp:15, b
 
 {type:"teach", trg:"il promemoria", src:"the reminder", pos:"noun", gender:"m",
  note:"Masculine noun. Invariable plural: i promemoria.\nA useful word for modern life.",
- example:"A: Metto un promemoria sul telefono.\nB: Buona idea, cosi non dimentichiamo.",
+ example:"A: Metto un promemoria sul telefono.\nB: Buona idea, così non dimentichiamo.",
  exampleSrc:"A: I will set a reminder on my phone.\nB: Good idea, so we do not forget.",
  funFact:"Literally 'for memory' (pro + memoria). One of many Latin-derived compound words that Italian has kept intact."},
 

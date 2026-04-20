@@ -20,7 +20,7 @@ const BATCH2_U05_L1 = {
 
     {type:"teach", trg:"il balcone", src:"the balcony", pos:"noun", gender:"m",
      note:"Masculine. From Germanic 'balko' (beam, platform).\nA defining feature of Italian urban architecture.",
-     example:"A: Hai un balcone?\nB: Si, un bel balcone con vista sulla citta.",
+     example:"A: Hai un balcone?\nB: Si, un bel balcone con vista sulla città.",
      exampleSrc:"A: Do you have a balcony?\nB: Yes, a nice balcony overlooking the city.",
      funFact:"Balconies are essential in Italian architecture. Italians use them for drying laundry, growing herbs, and socializing with neighbors. Romeo and Juliet's famous scene takes place on a Verona balcony."},
 

@@ -30,7 +30,7 @@ const BATCH7_L1 = {id:"itv2_u21l_b7_1", title:"Consigli e suggerimenti", icon:"\
 
 {type:"teach", trg:"piuttosto", src:"rather / instead", pos:"adv", gender:null,
  note:"Adverb. 'Piuttosto che' = rather than.\n'Farei piuttosto...' = I would rather...",
- example:"A: Piuttosto che guidare, prenderei il treno.\nB: Buona idea, e piu rilassante.",
+ example:"A: Piuttosto che guidare, prenderei il treno.\nB: Buona idea, e più rilassante.",
  exampleSrc:"A: Rather than driving, I would take the train.\nB: Good idea, it is more relaxing.",
  funFact:"'Piuttosto che' is a classic connector at B1 level. Note: in standard Italian it means 'rather than,' but in northern dialects it can mean 'or' (which confuses southerners)."},
 

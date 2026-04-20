@@ -32,7 +32,7 @@ const BATCH4_U05_L1 = {
 
     {type:"teach", trg:"il tavolo", src:"the table", pos:"noun", gender:"m",
      note:"Masculine. 'Il tavolo da pranzo' = dining table.\n'Tavola' (feminine) = table when set for a meal.",
-     example:"A: Mettiamo tutto sul tavolo.\nB: Il tavolo e gia pieno!",
+     example:"A: Mettiamo tutto sul tavolo.\nB: Il tavolo e già pieno!",
      exampleSrc:"A: Let's put everything on the table.\nB: The table is already full!",
      funFact:"Italian has both 'tavolo' (the furniture piece) and 'tavola' (the table ready for a meal). 'A tavola!' (to the table!) is the call that lunch is ready. This distinction reflects how central meals are to Italian life."},
 
@@ -74,7 +74,7 @@ const BATCH4_U05_L1 = {
 
     {type:"teach", trg:"la mensola", src:"the shelf", pos:"noun", gender:"f",
      note:"Feminine. Plural: le mensole. A wall-mounted shelf.\n'Scaffale' = a freestanding bookshelf.",
-     example:"A: Metti i libri sulla mensola.\nB: Non c'e piu spazio!",
+     example:"A: Metti i libri sulla mensola.\nB: Non c'e più spazio!",
      exampleSrc:"A: Put the books on the shelf.\nB: There is no more space!",
      funFact:"Italian homes love 'mensole.' Open shelving in kitchens is a classic Italian design choice. The distinction between 'mensola' (wall shelf) and 'scaffale' (standing shelf/bookcase) is important in Italian."},
 

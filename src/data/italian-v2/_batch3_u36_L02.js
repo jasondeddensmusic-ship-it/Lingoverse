@@ -37,7 +37,7 @@ const BATCH3_L_2 = {
      funFact:"'Mi permetta' uses the formal subjunctive of 'permettere.' It is a quintessentially Italian politeness formula: rather than simply speaking, you request permission, showing respect for the listener and the conversation's formality."},
 
     {type:"mc",
-     q:"Quale espressione e piu formale per introdurre un'opinione personale?",
+     q:"Quale espressione e più formale per introdurre un'opinione personale?",
      opts:["Per me","Secondo me","Io penso che","A mio avviso"],
      ans:"A mio avviso",
      hint:"The most formal option from this list. Used in academic essays, official speeches, and formal presentations. The hierarchy goes from casual to very formal."},
@@ -125,7 +125,7 @@ const BATCH3_L_2 = {
      sSrc:"I {1} like to emphasize that these results are exceptional."},
 
     {type:"mc",
-     q:"In definitiva, quale competenza e piu importante al livello B2?",
+     q:"In definitiva, quale competenza e più importante al livello B2?",
      opts:["Conoscere perfettamente tutte le regole grammaticali senza eccezione","Saper comunicare efficacemente adattando il registro al contesto","Avere un accento identico a quello di un madrelingua italiano","Memorizzare il maggior numero possibile di vocaboli specialistici"],
      ans:"Saper comunicare efficacemente adattando il registro al contesto",
      hint:"At B2, effective communication with appropriate register is the gold standard. Perfect grammar or native accent are not required. Adaptability is key."}

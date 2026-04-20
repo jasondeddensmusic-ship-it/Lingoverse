@@ -73,8 +73,8 @@ const BATCH4_U10_L1 = {
      funFact:"Air conditioning in Italian homes was rare until recently. Many Italians believe 'l'aria condizionata' causes illness (the feared 'colpo d'aria'). Hotels in southern Italy absolutely need AC in summer, when temperatures exceed 40 degrees."},
 
     {type:"teach", trg:"svegliare", src:"to wake (someone) up", pos:"verb", gender:null,
-     note:"Regular -are verb. 'Mi puo svegliare alle sette?' = Can you wake me at seven?\n'La sveglia' = wake-up call.",
-     example:"A: Mi puo svegliare alle sei domani?\nB: Certo, le faremo la sveglia.",
+     note:"Regular -are verb. 'Mi può svegliare alle sette?' = Can you wake me at seven?\n'La sveglia' = wake-up call.",
+     example:"A: Mi può svegliare alle sei domani?\nB: Certo, le faremo la sveglia.",
      exampleSrc:"A: Can you wake me at six tomorrow?\nB: Of course, we will give you a wake-up call.",
      funFact:"The 'sveglia telefonica' (telephone wake-up call) is still offered at Italian hotels. In the age of smartphones, fewer people use it, but it remains a charming hotel service. The receptionist ('portiere') personally calls your room."},
 
@@ -94,7 +94,7 @@ const BATCH4_U10_L1 = {
      note:"Feminine. 'Camera con vista' = room with a view.\n'Che bella vista!' = What a beautiful view!",
      example:"A: Avete una camera con vista sul mare?\nB: Si, al quinto piano.",
      exampleSrc:"A: Do you have a room with a sea view?\nB: Yes, on the fifth floor.",
-     funFact:"'Camera con vista' (room with a view) is the title of E.M. Forster's famous novel set in Florence. In Italy, views are premium: 'vista mare' (sea view), 'vista montagna' (mountain view), and 'vista citta' (city view) command higher prices."},
+     funFact:"'Camera con vista' (room with a view) is the title of E.M. Forster's famous novel set in Florence. In Italy, views are premium: 'vista mare' (sea view), 'vista montagna' (mountain view), and 'vista città' (city view) command higher prices."},
 
     // Quiz steps
     {type:"mc", q:"Qual e la differenza tra 'camera doppia' e 'camera matrimoniale'?",

@@ -6,7 +6,7 @@ const BATCH6_L1 = {id:"itv2_u08l_b6_1", title:"In banca", icon:"\u{1F3E6}", xp:1
 
 {type:"teach", trg:"il conto", src:"the account / bill", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i conti.\n'Conto corrente' = checking account. 'Il conto' at a restaurant = the bill.",
- example:"A: Vorrei aprire un conto corrente.\nB: Ha un documento d'identita?",
+ example:"A: Vorrei aprire un conto corrente.\nB: Ha un documento d'identità?",
  exampleSrc:"A: I would like to open a checking account.\nB: Do you have an ID?",
  funFact:"'Fare i conti' (to do the math) is also used figuratively: 'fare i conti con qualcuno' means to settle scores with someone."},
 

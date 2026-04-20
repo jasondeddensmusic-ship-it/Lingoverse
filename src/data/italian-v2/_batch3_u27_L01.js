@@ -50,7 +50,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"il composto", src:"the compound", pos:"noun", gender:"m",
      note:"Masculine noun. A substance made of two or more elements.\n'Composto chimico' = chemical compound. 'Composto organico' = organic compound.",
-     example:"A: L'acqua e un composto di idrogeno e ossigeno.\nB: E il composto piu abbondante sulla Terra.",
+     example:"A: L'acqua e un composto di idrogeno e ossigeno.\nB: E il composto più abbondante sulla Terra.",
      exampleSrc:"A: Water is a compound of hydrogen and oxygen.\nB: It is the most abundant compound on Earth.",
      funFact:"Giulio Natta won the 1963 Nobel Prize in Chemistry for discovering a way to create polypropylene, a compound now used in everything from packaging to car bumpers. His research at the Politecnico di Milano changed the plastics industry forever."},
 
@@ -75,7 +75,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"la precisione", src:"the precision / accuracy", pos:"noun", gender:"f",
      note:"Feminine noun. 'Con precisione' = with precision.\n'Strumento di precisione' = precision instrument.",
-     example:"A: La precisione delle misurazioni e fondamentale.\nB: Un errore minimo puo invalidare l'intero esperimento.",
+     example:"A: La precisione delle misurazioni e fondamentale.\nB: Un errore minimo può invalidare l'intero esperimento.",
      exampleSrc:"A: The precision of measurements is fundamental.\nB: A small error can invalidate the entire experiment.",
      funFact:"Italian craftsmanship is famous for precision, from Ferrari engines to surgical instruments. The word 'precisione' comes from Latin 'praecidere' (to cut short, to cut precisely), linking accuracy to the image of a clean cut."},
 
@@ -93,8 +93,8 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che cos'e una variabile in un esperimento scientifico?",
-     opts:["Un errore nel procedimento sperimentale che deve essere corretto","Un fattore che puo cambiare e che viene controllato o misurato","Il risultato finale dell'esperimento da pubblicare","Uno strumento di laboratorio per le misurazioni chimiche"],
-     ans:"Un fattore che puo cambiare e che viene controllato o misurato",
+     opts:["Un errore nel procedimento sperimentale che deve essere corretto","Un fattore che può cambiare e che viene controllato o misurato","Il risultato finale dell'esperimento da pubblicare","Uno strumento di laboratorio per le misurazioni chimiche"],
+     ans:"Un fattore che può cambiare e che viene controllato o misurato",
      hint:"A factor that scientists change, control, or measure. Experiments involve manipulating one while keeping others constant."},
 
     {type:"match", pairs:[
@@ -114,7 +114,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Perche e importante controllare tutte le variabili di un esperimento?",
-     opts:["Per rendere l'esperimento piu lungo e dettagliato","Per garantire che i risultati siano affidabili e replicabili","Per usare piu reagenti possibili nel processo","Per pubblicare il lavoro su una rivista internazionale"],
+     opts:["Per rendere l'esperimento più lungo e dettagliato","Per garantire che i risultati siano affidabili e replicabili","Per usare più reagenti possibili nel processo","Per pubblicare il lavoro su una rivista internazionale"],
      ans:"Per garantire che i risultati siano affidabili e replicabili",
      hint:"If uncontrolled factors interfere, you cannot be sure what caused the result. Reliability and reproducibility depend on this."}
   ,{type:"match",pairs:[{trg:"la sostanza",src:"the substance"},{trg:"la formula",src:"the formula"},{trg:"il campione",src:"the sample / specimen"},{trg:"la variabile",src:"the variable"},{trg:"il fenomeno",src:"the phenomenon"},{trg:"la precisione",src:"the precision / accuracy"}]},

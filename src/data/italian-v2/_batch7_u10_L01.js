@@ -1,6 +1,6 @@
 // Batch 7 — Unit 10 extra lesson. I viaggi: Nature & Outdoor Activities
-const BATCH7_L1 = {id:"itv2_u10l_b7_1", title:"La natura e le attivita all'aperto", icon:"\u{1F3D5}\uFE0F", xp:15, board:true, steps:[
-{type:"intro", title:"La natura e le attivita all'aperto",
+const BATCH7_L1 = {id:"itv2_u10l_b7_1", title:"La natura e le attività all'aperto", icon:"\u{1F3D5}\uFE0F", xp:15, board:true, steps:[
+{type:"intro", title:"La natura e le attività all'aperto",
  desc:"Learn vocabulary for outdoor activities, landscapes, and nature during your travels in Italy.",
  goals:["Describe natural landscapes","Talk about outdoor activities","Express preferences about travel destinations"]},
 
@@ -82,7 +82,7 @@ const BATCH7_L1 = {id:"itv2_u10l_b7_1", title:"La natura e le attivita all'apert
  exampleSrc:"A: This place is completely wild.\nB: There is nobody, just nature.",
  funFact:"'Selvaggio' comes from Latin 'silvaticus' (of the forest). Sardinia's eastern coast, the 'Supramonte,' is one of the wildest and most unspoiled areas in the Mediterranean."},
 
-{type:"mc", q:"Qual e il lago piu grande d'Italia?",
+{type:"mc", q:"Qual e il lago più grande d'Italia?",
  opts:["Il Lago di Garda","Il Lago di Como","Il Lago Maggiore","Il Lago Trasimeno"],
  ans:"Il Lago di Garda",
  hint:"Shared by three regions in northern Italy. The largest lake in the country."},

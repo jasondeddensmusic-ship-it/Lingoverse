@@ -56,7 +56,7 @@ const BATCH2_U14_L2 = {
 
     {type:"teach", trg:"la competitivita", src:"competitiveness", pos:"noun", gender:"f",
      note:"Feminine. From 'competitivo' (competitive).\n'Aumentare la competitivita' = to increase competitiveness.",
-     example:"A: La competitivita dell'azienda dipende dall'innovazione.\nB: Dobbiamo investire di piu nella ricerca.",
+     example:"A: La competitivita dell'azienda dipende dall'innovazione.\nB: Dobbiamo investire di più nella ricerca.",
      exampleSrc:"A: The company's competitiveness depends on innovation.\nB: We must invest more in research.",
      funFact:"Italy ranks around 30th globally in competitiveness indices. Strengths include design, craftsmanship, and brand heritage. Weaknesses include bureaucracy, slow digital adoption, and high labor costs. The debate between tradition and innovation defines Italian business culture."},
 

@@ -68,7 +68,7 @@ const BATCH3_U07_L2 = {
 
     {type:"teach", trg:"digerire", src:"to digest", pos:"verb", gender:null,
      note:"Regular -ire verb (with -isc- forms). Present: digerisco.\n'Non digerisco il latte' = I cannot digest milk.",
-     example:"A: Non digerisco bene i fritti.\nB: Prova qualcosa di piu leggero.",
+     example:"A: Non digerisco bene i fritti.\nB: Prova qualcosa di più leggero.",
      exampleSrc:"A: I do not digest fried food well.\nB: Try something lighter.",
      funFact:"Italians are very conscious of 'digestione' (digestion). After a big meal, they drink espresso or an 'amaro' (bitter liqueur) to aid digestion. The concept of 'digerire bene' (digesting well) is a common topic of Italian conversation, especially among older generations."},
 

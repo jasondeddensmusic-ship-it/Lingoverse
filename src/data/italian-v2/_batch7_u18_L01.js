@@ -8,7 +8,7 @@ const BATCH7_L1 = {id:"itv2_u18l_b7_1", title:"La vita sostenibile", icon:"\u267
  note:"Adjective. Same form for m/f.\n'Sviluppo sostenibile' = sustainable development.",
  example:"A: Dobbiamo vivere in modo sostenibile.\nB: Sono d'accordo, iniziamo da piccoli gesti.",
  exampleSrc:"A: We must live sustainably.\nB: I agree, let us start with small gestures.",
- funFact:"'Sostenibile' became mainstream in Italian after the 2015 UN Sustainable Development Goals. Italian cities now compete for 'citta sostenibile' (sustainable city) rankings."},
+ funFact:"'Sostenibile' became mainstream in Italian after the 2015 UN Sustainable Development Goals. Italian cities now compete for 'città sostenibile' (sustainable city) rankings."},
 
 {type:"teach", trg:"lo spreco", src:"the waste / wastefulness", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: gli sprechi.\n'Sprecare' = to waste. 'Spreco alimentare' = food waste.",

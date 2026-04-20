@@ -6,9 +6,9 @@ const BATCH2_U03_L1 = {
      desc:"Learn to talk about ages, life stages, and the verbs Italians use to describe family relationships.",
      goals:["Ask and state someone's age","Name life stages","Use avere (to have) for age and family"]},
 
-    {type:"teach", trg:"l'eta", src:"the age", pos:"noun", gender:"f",
-     note:"Feminine. Invariable plural: le eta.\nFrom Latin 'aetas' (age, lifetime).",
-     example:"A: Qual e la tua eta?\nB: Ho venticinque anni.",
+    {type:"teach", trg:"l'età", src:"the age", pos:"noun", gender:"f",
+     note:"Feminine. Invariable plural: le età.\nFrom Latin 'aetas' (age, lifetime).",
+     example:"A: Qual e la tua età?\nB: Ho venticinque anni.",
      exampleSrc:"A: What is your age?\nB: I am twenty-five years old.",
      funFact:"Italian asks for age using 'avere' (to have), not 'essere' (to be): 'Quanti anni hai?' (How many years do you have?). You 'have' years in Italian. This is standard across Romance languages."},
 
@@ -91,8 +91,8 @@ const BATCH2_U03_L1 = {
      funFact:"From Latin 'gemellus' (twin). The zodiac sign Gemini uses the same root. Italy has a slightly higher twin birth rate than the global average. The word also means 'cufflink' in Italian fashion."},
 
     // Quiz steps
-    {type:"mc", q:"Come si chiede l'eta in italiano?",
-     opts:["Quanti anni hai?","Quanto sei vecchio?","Che eta sei?","Come sei grande?"],
+    {type:"mc", q:"Come si chiede l'età in italiano?",
+     opts:["Quanti anni hai?","Quanto sei vecchio?","Che età sei?","Come sei grande?"],
      ans:"Quanti anni hai?",
      hint:"Italians 'have' years, they do not 'are' years. The question literally asks 'how many years do you have?'"},
 
@@ -136,6 +136,6 @@ const BATCH2_U03_L1 = {
      opts:["Vivere = live (exist), abitare = reside (address)","They are identical","Vivere is formal only","Abitare means to work"],
      ans:"Vivere = live (exist), abitare = reside (address)",
      hint:"One asks about your life in general, the other specifically about where you r.... Both translate to 'l....'"}
-  ,{type:"match",pairs:[{trg:"il/la gemello/a",src:"the twin"}]},{type:"mc",q:"How do you say \"age\" in Italian?",opts:["la finestra","l'eta","il tavolo","la bicicletta"],ans:"l'eta",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"adult\" in Italian?",opts:["l'adulto","la finestra","il tavolo","la bicicletta"],ans:"l'adulto",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il/la gemello/a",src:"the twin"}]},{type:"mc",q:"How do you say \"age\" in Italian?",opts:["la finestra","l'età","il tavolo","la bicicletta"],ans:"l'età",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"adult\" in Italian?",opts:["l'adulto","la finestra","il tavolo","la bicicletta"],ans:"l'adulto",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U03_L1;

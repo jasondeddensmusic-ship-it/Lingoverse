@@ -26,7 +26,7 @@ const BATCH2_U15_L2 = {
 
     {type:"teach", trg:"la scatola", src:"the box / cardboard box", pos:"noun", gender:"f",
      note:"Feminine. 'Scatola di cartone' = cardboard box.\nEssential for moving: 'Quante scatole servono?'",
-     example:"A: Ho bisogno di piu scatole per il trasloco.\nB: Chiedi al supermercato, ne hanno sempre.",
+     example:"A: Ho bisogno di più scatole per il trasloco.\nB: Chiedi al supermercato, ne hanno sempre.",
      exampleSrc:"A: I need more boxes for the move.\nB: Ask the supermarket, they always have some.",
      funFact:"'Scatola' covers all boxes: cardboard ('di cartone'), metal ('di latta'), and decorative ('portagioie'). Italian supermarkets are a reliable source of free cardboard boxes. During moving season (typically September and spring), the competition for good boxes is real."},
 
@@ -50,7 +50,7 @@ const BATCH2_U15_L2 = {
 
     {type:"teach", trg:"il mercato rionale", src:"the local neighborhood market", pos:"noun", gender:"m",
      note:"Masculine. 'Rionale' = of the neighborhood ('rione').\nOften open-air, with fresh produce and local goods.",
-     example:"A: Vai al mercato rionale?\nB: Si, la frutta e piu fresca che al supermercato.",
+     example:"A: Vai al mercato rionale?\nB: Si, la frutta e più fresca che al supermercato.",
      exampleSrc:"A: Are you going to the neighborhood market?\nB: Yes, the fruit is fresher than at the supermarket.",
      funFact:"Italian neighborhood markets are cultural institutions. Rome's Testaccio market, Florence's San Lorenzo market, and Turin's Porta Palazzo are famous. Vendors build relationships with regular customers, offering discounts and saving the best produce. 'Fare la spesa al mercato' (shopping at the market) is a cherished Italian tradition."},
 
@@ -62,7 +62,7 @@ const BATCH2_U15_L2 = {
 
     {type:"teach", trg:"la raccolta dei rifiuti", src:"waste collection / garbage pickup", pos:"noun", gender:"f",
      note:"Feminine. 'Raccolta' = collection. 'Rifiuti' = waste.\n'Il calendario della raccolta' = the collection schedule.",
-     example:"A: Quando e la raccolta dei rifiuti?\nB: La plastica il lunedi, la carta il giovedi.",
+     example:"A: Quando e la raccolta dei rifiuti?\nB: La plastica il lunedì, la carta il giovedì.",
      exampleSrc:"A: When is waste collection?\nB: Plastic on Monday, paper on Thursday.",
      funFact:"Italian waste collection schedules vary by city and are strictly enforced. Putting the wrong waste out on the wrong day can result in fines. Many cities use 'porta a porta' (door-to-door) collection where specific bags or bins are collected on assigned days. The learning curve for new residents is steep."},
 

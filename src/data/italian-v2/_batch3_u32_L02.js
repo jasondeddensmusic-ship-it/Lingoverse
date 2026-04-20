@@ -56,7 +56,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la decrescita", src:"degrowth", pos:"noun", gender:"f",
      note:"Feminine noun. An economic theory questioning endless growth.\n'Movimento per la decrescita' = degrowth movement.",
-     example:"A: La decrescita propone un modello economico basato sul benessere, non sul PIL.\nB: E un'idea controversa ma sempre piu discussa.",
+     example:"A: La decrescita propone un modello economico basato sul benessere, non sul PIL.\nB: E un'idea controversa ma sempre più discussa.",
      exampleSrc:"A: Degrowth proposes an economic model based on well-being, not GDP.\nB: It is a controversial but increasingly discussed idea.",
      funFact:"The degrowth movement has strong roots in Italy, influenced by philosopher Serge Latouche and Italian thinker Mauro Bonaiuti. Annual 'decrescita felice' (happy degrowth) conferences attract thousands of Italian participants."},
 
@@ -75,19 +75,19 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la resilienza urbana", src:"urban resilience", pos:"noun", gender:"f",
      note:"Feminine compound noun. A city's ability to withstand and recover from shocks.\n'Citta resiliente' = resilient city.",
-     example:"A: La resilienza urbana e fondamentale di fronte ai cambiamenti climatici.\nB: Le citta devono prepararsi a eventi estremi.",
+     example:"A: La resilienza urbana e fondamentale di fronte ai cambiamenti climatici.\nB: Le città devono prepararsi a eventi estremi.",
      exampleSrc:"A: Urban resilience is fundamental in the face of climate change.\nB: Cities must prepare for extreme events.",
      funFact:"Italian cities face multiple resilience challenges: flooding (Venice, Genoa), earthquakes (L'Aquila, central Italy), heat waves (Po Valley), and rising seas (entire coastline). Urban planning now incorporates resilience as a core design principle."},
 
     {type:"teach", trg:"l'impatto ambientale", src:"the environmental impact", pos:"noun", gender:"m",
      note:"Masculine compound noun. The effect of human activities on the environment.\n'Valutazione di impatto ambientale' (VIA) = environmental impact assessment.",
-     example:"A: Ogni nuovo progetto richiede una valutazione di impatto ambientale.\nB: Senza la VIA, il progetto non puo procedere.",
+     example:"A: Ogni nuovo progetto richiede una valutazione di impatto ambientale.\nB: Senza la VIA, il progetto non può procedere.",
      exampleSrc:"A: Every new project requires an environmental impact assessment.\nB: Without the EIA, the project cannot proceed.",
      funFact:"Italy's VIA process is legally binding for major infrastructure projects. Environmental groups like Legambiente and WWF Italy actively participate in assessments, sometimes blocking or modifying projects deemed harmful."},
 
     {type:"mc",
      q:"Perche Venezia e un esempio drammatico di gentrificazione?",
-     opts:["Perche il turismo e gli affitti alti hanno dimezzato la popolazione residente permanente","Perche il governo ha demolito i vecchi edifici per costruire hotel","Perche i veneziani si sono trasferiti all'estero per ragioni economiche","Perche la citta e stata chiusa ai residenti per motivi di sicurezza"],
+     opts:["Perche il turismo e gli affitti alti hanno dimezzato la popolazione residente permanente","Perche il governo ha demolito i vecchi edifici per costruire hotel","Perche i veneziani si sono trasferiti all'estero per ragioni economiche","Perche la città e stata chiusa ai residenti per motivi di sicurezza"],
      ans:"Perche il turismo e gli affitti alti hanno dimezzato la popolazione residente permanente",
      hint:"Tourism and short-term rentals drove up housing costs, pushing out permanent residents. The city lost half its population."},
 

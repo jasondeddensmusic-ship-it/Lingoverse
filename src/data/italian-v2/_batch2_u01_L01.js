@@ -36,11 +36,11 @@ const BATCH2_U01_L1 = {
      exampleSrc:"A: How are you?\nB: Not bad, thanks.",
      funFact:"Italians sometimes downplay how they feel. 'Non c'e male' is neither negative nor enthusiastic. It signals 'things are fine but nothing to celebrate.' A classic understated Italian response."},
 
-    {type:"teach", trg:"cosi cosi", src:"so-so", pos:"adv", gender:null,
-     note:"Means things are mediocre. Often accompanied by a hand wave gesture.\nFrom 'cosi' (like this).",
-     example:"A: Come va il lavoro?\nB: Cosi cosi. Non e il mio periodo migliore.",
+    {type:"teach", trg:"così così", src:"so-so", pos:"adv", gender:null,
+     note:"Means things are mediocre. Often accompanied by a hand wave gesture.\nFrom 'così' (like this).",
+     example:"A: Come va il lavoro?\nB: Cosi così. Non e il mio periodo migliore.",
      exampleSrc:"A: How is work going?\nB: So-so. Not my best period.",
-     funFact:"The famous Italian hand wobble gesture (flat hand tilting side to side) often accompanies 'cosi cosi.' Body language and words go together in Italian communication."},
+     funFact:"The famous Italian hand wobble gesture (flat hand tilting side to side) often accompanies 'così così.' Body language and words go together in Italian communication."},
 
     {type:"teach", trg:"molto bene", src:"very well", pos:"adv", gender:null,
      note:"Standard positive response. Stronger than 'bene' alone.\n'Molto' = very, much.",
@@ -52,7 +52,7 @@ const BATCH2_U01_L1 = {
      note:"Used when you expect to see someone later the same day.\nLiterally: 'to later.'",
      example:"A: Vado a pranzo. A dopo!\nB: A dopo! Buon appetito!",
      exampleSrc:"A: I am going to lunch. See you later!\nB: See you later! Enjoy your meal!",
-     funFact:"Italian has specific farewells for different time gaps: a dopo (later today), a domani (tomorrow), a lunedi (Monday), a presto (soon, general). Each one sets a clear expectation."},
+     funFact:"Italian has specific farewells for different time gaps: a dopo (later today), a domani (tomorrow), a lunedì (Monday), a presto (soon, general). Each one sets a clear expectation."},
 
     {type:"teach", trg:"a domani", src:"see you tomorrow", pos:"adv", gender:null,
      note:"Used when you will see someone the next day.\nVery common among colleagues and classmates.",
@@ -127,8 +127,8 @@ const BATCH2_U01_L1 = {
      hint:"This expression is said before a meal. It wishes someone a good appetite. Almost mandatory in Italy."},
 
     {type:"fb", s:"Come va? {1}. Non e il mio periodo migliore.",
-     a:["Cosi cosi"],
-     opts:["Cosi cosi","Molto bene","Tutto bene","Benissimo"],
+     a:["Cosi così"],
+     opts:["Cosi così","Molto bene","Tutto bene","Benissimo"],
      hint:"Things are mediocre, neither good nor bad. Often accompanied by a hand-wobble gesture.",
      sSrc:"How is it going? {1}. Not my best period."},
 

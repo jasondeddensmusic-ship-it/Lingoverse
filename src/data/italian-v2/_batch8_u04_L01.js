@@ -18,13 +18,13 @@ const BATCH8_L1 = {id:"itv2_u04l_b8_1", title:"La colazione italiana", icon:"ü•
 
 {type:"teach", trg:"il miele", src:"the honey", pos:"noun", gender:"m",
  note:"Masculine noun. Uncountable.\n'Dolce come il miele' = sweet as honey.",
- example:"A: Metti miele o zucchero nel te?\nB: Miele, e piu naturale.",
+ example:"A: Metti miele o zucchero nel te?\nB: Miele, e pi√π naturale.",
  exampleSrc:"A: Do you put honey or sugar in your tea?\nB: Honey, it is more natural.",
  funFact:"Italy produces extraordinary regional honeys. 'Miele di castagno' (chestnut honey) from Tuscany is dark and slightly bitter, unlike anything else."},
 
 {type:"teach", trg:"lo zucchero", src:"the sugar", pos:"noun", gender:"m",
  note:"Masculine noun. 'Senza zucchero' = without sugar.\n'Zuccherato' = sweetened.",
- example:"A: Quanto zucchero nel caffe?\nB: Niente, lo prendo amaro.",
+ example:"A: Quanto zucchero nel caff√®?\nB: Niente, lo prendo amaro.",
  exampleSrc:"A: How much sugar in the coffee?\nB: None, I take it bitter.",
  funFact:"Italians are passionate about their coffee order. 'Amaro' (bitter, no sugar), 'dolce' (sweet), or 'con un po' di zucchero' (with a little sugar) are the options."},
 
@@ -48,7 +48,7 @@ const BATCH8_L1 = {id:"itv2_u04l_b8_1", title:"La colazione italiana", icon:"ü•
 
 {type:"teach", trg:"lo scontrino", src:"the receipt", pos:"noun", gender:"m",
  note:"Masculine noun. You often pay first, then show the receipt.\n'Chiedere lo scontrino' = to ask for the receipt.",
- example:"A: Ha lo scontrino?\nB: Si, eccolo. Un caffe e un cornetto.",
+ example:"A: Ha lo scontrino?\nB: Si, eccolo. Un caff√® e un cornetto.",
  exampleSrc:"A: Do you have the receipt?\nB: Yes, here it is. A coffee and a croissant.",
  funFact:"In many Italian bars, you pay at the cassa (register) first, get your scontrino, then hand it to the barista. The Guardia di Finanza can fine shops without receipts."},
 

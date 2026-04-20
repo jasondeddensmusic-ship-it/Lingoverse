@@ -84,7 +84,7 @@ const BATCH6_L1 = {id:"itv2_u07l_b6_1", title:"In cucina", icon:"\u{1F373}", xp:
 
 {type:"teach", trg:"il coperchio", src:"the lid / cover", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i coperchi.\nUsed for pots, pans, jars.",
- example:"A: Metti il coperchio sulla pentola.\nB: Cosi l'acqua bolle piu veloce.",
+ example:"A: Metti il coperchio sulla pentola.\nB: Cosi l'acqua bolle più veloce.",
  exampleSrc:"A: Put the lid on the pot.\nB: That way the water boils faster.",
  funFact:"'Ogni pentola ha il suo coperchio' (every pot has its lid) is the Italian way of saying there is someone for everyone, a charming cooking metaphor."},
 
@@ -110,7 +110,7 @@ const BATCH6_L1 = {id:"itv2_u07l_b6_1", title:"In cucina", icon:"\u{1F373}", xp:
  ans:"Aspettare che l'acqua bolla",
  hint:"The water needs to reach a vigorous rolling state first."},
 
-{type:"fb", s:"Metti il {1} sulla pentola cosi l'acqua bolle piu veloce.", a:["coperchio"],
+{type:"fb", s:"Metti il {1} sulla pentola così l'acqua bolle più veloce.", a:["coperchio"],
  opts:["coperchio","grembiule","tagliere","mestolo"],
  hint:"The top piece that covers the pot to trap heat.",
  sSrc:"Put the {1} on the pot so the water boils faster."},

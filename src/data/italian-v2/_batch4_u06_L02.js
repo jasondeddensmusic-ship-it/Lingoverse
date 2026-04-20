@@ -92,7 +92,7 @@ const BATCH4_U06_L2 = {
 
     {type:"teach", trg:"la cartina", src:"the map (small/folding)", pos:"noun", gender:"f",
      note:"Feminine. Diminutive of 'carta.' A physical folding map.\n'La mappa' is used for digital or wall maps.",
-     example:"A: Hai una cartina della citta?\nB: No, uso il telefono.",
+     example:"A: Hai una cartina della città?\nB: No, uso il telefono.",
      exampleSrc:"A: Do you have a city map?\nB: No, I use my phone.",
      funFact:"'Cartina' specifically refers to a small, foldable paper map. 'Mappa' is more general. In the age of smartphones, 'cartina' is becoming nostalgic. Tourist information offices ('uffici turistici') still offer free cartine of Italian cities."},
 

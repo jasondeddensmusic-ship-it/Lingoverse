@@ -1,6 +1,6 @@
 // Batch 8 — Unit 20 extra lesson. Education: Academic Writing & Research
-const BATCH8_L1 = {id:"itv2_u20l_b8_1", title:"Scrivere all'universita", icon:"📝", xp:15, board:true, steps:[
-{type:"intro", title:"Scrivere all'universita",
+const BATCH8_L1 = {id:"itv2_u20l_b8_1", title:"Scrivere all'università", icon:"📝", xp:15, board:true, steps:[
+{type:"intro", title:"Scrivere all'università",
  desc:"Learn vocabulary for academic writing, research papers, and the Italian university system.",
  goals:["Discuss academic writing concepts","Use research terminology","Navigate university vocabulary"]},
 
@@ -12,7 +12,7 @@ const BATCH8_L1 = {id:"itv2_u20l_b8_1", title:"Scrivere all'universita", icon:"�
 
 {type:"teach", trg:"la bibliografia", src:"the bibliography", pos:"noun", gender:"f",
  note:"Feminine noun. 'Compilare la bibliografia' = to compile the bibliography.\nFrom Greek: biblio (book) + grafia (writing).",
- example:"A: La bibliografia deve avere almeno trenta fonti.\nB: Ho gia trovato venti articoli.",
+ example:"A: La bibliografia deve avere almeno trenta fonti.\nB: Ho già trovato venti articoli.",
  exampleSrc:"A: The bibliography must have at least thirty sources.\nB: I have already found twenty articles.",
  funFact:"Italian universities are very strict about bibliographies. Forgetting to cite a source can be considered plagiarism ('plagio'), which can void your entire thesis."},
 

@@ -6,7 +6,7 @@ const BATCH8_L1 = {id:"itv2_u21l_b8_1", title:"Desideri e cortesia", icon:"✨",
 
 {type:"teach", trg:"desiderare", src:"to desire / to wish", pos:"verb", gender:null,
  note:"Regular -are verb. 'Desiderei' = I would wish (conditional).\n'Il desiderio' = the wish/desire.",
- example:"A: Desidererei un mondo piu giusto.\nB: Chi non lo desidererebbe?",
+ example:"A: Desidererei un mondo più giusto.\nB: Chi non lo desidererebbe?",
  exampleSrc:"A: I would wish for a fairer world.\nB: Who would not wish for that?",
  funFact:"'Desiderare' comes from Latin 'de + sidus' (from the stars). To desire literally means 'to miss the stars.' The longing for something unreachable."},
 

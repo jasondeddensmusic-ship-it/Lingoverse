@@ -109,7 +109,7 @@ const BATCH7_L1 = {id:"itv2_u16l_b7_1", title:"L'alimentazione", icon:"\u{1F957}
  hint:"Not too much of anything, not too little. A bit of everything in harmony.",
  sSrc:"A {1} diet is fundamental."},
 
-{type:"mc", q:"Quale minerale ha lo stesso nome dello sport piu popolare in Italia?",
+{type:"mc", q:"Quale minerale ha lo stesso nome dello sport più popolare in Italia?",
  opts:["il calcio (calcium)","il ferro (iron)","lo zinco (zinc)","il sodio (sodium)"],
  ans:"il calcio (calcium)",
  hint:"This mineral shares its name with the Italian word for football."},

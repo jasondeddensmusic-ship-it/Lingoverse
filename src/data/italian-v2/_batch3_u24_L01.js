@@ -50,7 +50,7 @@ const BATCH3_U24_L1 = {
 
     {type:"teach", trg:"se solo avessi", src:"if only I had", pos:"verb", gender:null,
      note:"Type 2 + 'solo' for emphasis. Imperfect subjunctive.\n'Se solo avessi saputo!' = If only I had known!",
-     example:"A: Se solo avessi piu tempo libero!\nB: Cosa faresti?",
+     example:"A: Se solo avessi più tempo libero!\nB: Cosa faresti?",
      exampleSrc:"A: If only I had more free time!\nB: What would you do?",
      funFact:"Adding 'solo' to 'se' intensifies the wishful quality. 'Se avessi tempo' is neutral hypothetical. 'Se solo avessi tempo!' adds emotional longing. Italian loves these intensified expressions for everyday wishes: time, money, youth, talent."},
 

@@ -44,7 +44,7 @@ const BATCH4_U02_L2 = {
 
     {type:"teach", trg:"sempre", src:"always", pos:"adv", gender:null,
      note:"One of the most common Italian adverbs.\nFrom Latin 'semper.' English 'semper' in 'Semper Fi.'",
-     example:"A: Bevi sempre il caffe la mattina?\nB: Si, sempre!",
+     example:"A: Bevi sempre il caffè la mattina?\nB: Si, sempre!",
      exampleSrc:"A: Do you always drink coffee in the morning?\nB: Yes, always!",
      funFact:"Latin 'semper' survives unchanged in the US Marines motto 'Semper Fidelis' (always faithful). In Italian, it evolved to 'sempre.' The word has been in continuous use for over 2,500 years."},
 
@@ -62,7 +62,7 @@ const BATCH4_U02_L2 = {
 
     {type:"teach", trg:"qualche volta", src:"sometimes", pos:"adv", gender:null,
      note:"Two words. 'Qualche' = some, 'volta' = time/occasion.\nAlternative: 'a volte.'",
-     example:"A: Mangi la pizza qualche volta?\nB: Si, qualche volta il venerdi.",
+     example:"A: Mangi la pizza qualche volta?\nB: Si, qualche volta il venerdì.",
      exampleSrc:"A: Do you eat pizza sometimes?\nB: Yes, sometimes on Fridays.",
      funFact:"'Qualche volta' and 'a volte' are interchangeable. 'Volta' has many meanings: time/occasion, turn, vault (architecture). 'C'era una volta' (once upon a time) starts every Italian fairy tale."},
 
@@ -80,7 +80,7 @@ const BATCH4_U02_L2 = {
 
     {type:"teach", trg:"la colazione", src:"breakfast", pos:"noun", gender:"f",
      note:"Feminine. 'Fare colazione' = to have breakfast.\nItalian breakfast is light: coffee and pastry.",
-     example:"A: Hai fatto colazione?\nB: Si, un caffe e un cornetto.",
+     example:"A: Hai fatto colazione?\nB: Si, un caffè e un cornetto.",
      exampleSrc:"A: Have you had breakfast?\nB: Yes, a coffee and a croissant.",
      funFact:"Italian breakfast is minimal compared to English or American breakfast. A 'cornetto e cappuccino' at the bar is the standard. Eating eggs, bacon, or cereal for breakfast is considered very strange by most Italians."},
 
@@ -120,7 +120,7 @@ const BATCH4_U02_L2 = {
      ans:"To be late or stay out late",
      hint:"'Tardi' means l..., and 'fare' means to do or make."},
 
-    {type:"fb", s:"Bevo il caffe {1}, non posso vivere senza!",
+    {type:"fb", s:"Bevo il caffè {1}, non posso vivere senza!",
      a:["ogni giorno"], opts:["ogni giorno","mai","tardi","adesso"],
      hint:"The speaker drinks coffee daily, with no exceptions.",
      sSrc:"I drink coffee {1}, I can't live without it!"},

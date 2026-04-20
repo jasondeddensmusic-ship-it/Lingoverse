@@ -32,7 +32,7 @@ const BATCH2_U18_L2 = {
 
     {type:"teach", trg:"la deforestazione", src:"deforestation", pos:"noun", gender:"f",
      note:"Feminine. De- (removal) + forestazione (forestation).\n'Lottare contro la deforestazione' = to fight deforestation.",
-     example:"A: La deforestazione e un problema globale.\nB: In Italia, in realta, la superficie forestale sta aumentando.",
+     example:"A: La deforestazione e un problema globale.\nB: In Italia, in realtà, la superficie forestale sta aumentando.",
      exampleSrc:"A: Deforestation is a global problem.\nB: In Italy, actually, the forest area is increasing.",
      funFact:"Counterintuitively, Italy's forest cover has been growing for decades as abandoned agricultural land naturally reforests. Today, about 37% of Italy is forested, up from 20% in the 1950s. However, these new forests are often monocultures and lack the biodiversity of ancient woodlands."},
 

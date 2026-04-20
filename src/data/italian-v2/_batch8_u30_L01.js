@@ -12,7 +12,7 @@ const BATCH8_L1 = {id:"itv2_u30l_b8_1", title:"Concessione e contrasto", icon:"‚
 
 {type:"teach", trg:"il paradosso", src:"the paradox", pos:"noun", gender:"m",
  note:"Masculine noun. 'Paradossale' = paradoxical.\nFrom Greek: para (against) + doxa (opinion).",
- example:"A: E un paradosso: piu studio, meno capisco.\nB: A volte serve fare una pausa.",
+ example:"A: E un paradosso: pi√π studio, meno capisco.\nB: A volte serve fare una pausa.",
  exampleSrc:"A: It is a paradox: the more I study, the less I understand.\nB: Sometimes you need to take a break.",
  funFact:"Italy loves paradoxes. Pirandello built his entire theatrical career on paradox: the mask versus the face, appearance versus reality, sanity versus madness."},
 
@@ -24,7 +24,7 @@ const BATCH8_L1 = {id:"itv2_u30l_b8_1", title:"Concessione e contrasto", icon:"‚
 
 {type:"teach", trg:"la sfumatura", src:"the nuance / shade", pos:"noun", gender:"f",
  note:"Feminine noun. 'Sfumare' = to fade/shade.\n'Cogliere le sfumature' = to catch the nuances.",
- example:"A: La lingua italiana ha mille sfumature.\nB: Per questo e cosi bella e difficile.",
+ example:"A: La lingua italiana ha mille sfumature.\nB: Per questo e cos√¨ bella e difficile.",
  exampleSrc:"A: The Italian language has a thousand nuances.\nB: That is why it is so beautiful and difficult.",
  funFact:"'Sfumato' is Leonardo da Vinci's famous painting technique: softly blending colors without lines. The Mona Lisa's smile is the ultimate sfumatura, neither happy nor sad."},
 
@@ -48,7 +48,7 @@ const BATCH8_L1 = {id:"itv2_u30l_b8_1", title:"Concessione e contrasto", icon:"‚
 
 {type:"teach", trg:"l'eccezione", src:"the exception", pos:"noun", gender:"f",
  note:"Feminine noun. 'L'eccezione conferma la regola' = the exception proves the rule.\n'Eccezionale' = exceptional.",
- example:"A: Ogni regola ha la sua eccezione.\nB: In italiano, ci sono piu eccezioni che regole!",
+ example:"A: Ogni regola ha la sua eccezione.\nB: In italiano, ci sono pi√π eccezioni che regole!",
  exampleSrc:"A: Every rule has its exception.\nB: In Italian, there are more exceptions than rules!",
  funFact:"Italian grammar is famously full of exceptions. Students joke that learning the exceptions takes longer than learning the rules. 'L'eccezione conferma la regola' is cold comfort."},
 

@@ -30,7 +30,7 @@ const BATCH8_L1 = {id:"itv2_u16l_b8_1", title:"Salute mentale", icon:"🧘", xp:
 
 {type:"teach", trg:"il sonno", src:"the sleep", pos:"noun", gender:"m",
  note:"Masculine noun. 'Avere sonno' = to be sleepy.\n'Disturbi del sonno' = sleep disorders.",
- example:"A: Ho bisogno di piu sonno.\nB: Prova ad andare a letto prima.",
+ example:"A: Ho bisogno di più sonno.\nB: Prova ad andare a letto prima.",
  exampleSrc:"A: I need more sleep.\nB: Try going to bed earlier.",
  funFact:"The 'pisolino' (afternoon nap) is a cherished Italian tradition, especially in southern Italy. Many shops still close from 1 to 4 PM for the pausa pranzo and rest."},
 
@@ -48,7 +48,7 @@ const BATCH8_L1 = {id:"itv2_u16l_b8_1", title:"Salute mentale", icon:"🧘", xp:
 
 {type:"teach", trg:"la resilienza", src:"the resilience", pos:"noun", gender:"f",
  note:"Feminine noun. 'Essere resiliente' = to be resilient.\nBorrowed from physics (material elasticity).",
- example:"A: Ammiro la tua resilienza.\nB: Si impara dalle difficolta.",
+ example:"A: Ammiro la tua resilienza.\nB: Si impara dalle difficoltà.",
  exampleSrc:"A: I admire your resilience.\nB: You learn from difficulties.",
  funFact:"'Resilienza' became Italy's word of the year during the pandemic. PM Mario Draghi even named Italy's recovery plan 'Piano Nazionale di Ripresa e Resilienza.'"},
 

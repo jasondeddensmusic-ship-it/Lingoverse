@@ -13,7 +13,7 @@ const BATCH3_L_2 = {
      funFact:"The optative (wish-expressing) subjunctive is ancient, inherited directly from Latin. Italian preserves it in fixed expressions and prayers. 'Che Dio ti benedica' (God bless you) uses the same construction."},
 
     {type:"teach", trg:"viva l'Italia", src:"long live Italy", pos:"verb", gender:null,
-     note:"An exclamatory subjunctive. Third-person present subjunctive of 'vivere.'\n'Viva la liberta!' = long live freedom!",
+     note:"An exclamatory subjunctive. Third-person present subjunctive of 'vivere.'\n'Viva la libertà!' = long live freedom!",
      example:"A: Viva l'Italia! Viva la Repubblica!\nB: Queste parole risuonano ogni 2 giugno.",
      exampleSrc:"A: Long live Italy! Long live the Republic!\nB: These words resound every June 2nd.",
      funFact:"'Viva' is technically the present subjunctive of 'vivere' (may he/she/it live). During the Risorgimento, 'Viva l'Italia!' and 'Viva Verdi!' (an acronym for Vittorio Emanuele Re d'Italia) were revolutionary slogans."},
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Che funzione ha il congiuntivo nella frase 'Viva l'Italia'?",
-     opts:["Esprime un dubbio sull'esistenza dell'Italia come nazione","Esprime un augurio: che l'Italia viva e prosperi","E un errore grammaticale: dovrebbe essere 'Vive l'Italia'","Indica che l'Italia non esiste piu come stato indipendente"],
+     opts:["Esprime un dubbio sull'esistenza dell'Italia come nazione","Esprime un augurio: che l'Italia viva e prosperi","E un errore grammaticale: dovrebbe essere 'Vive l'Italia'","Indica che l'Italia non esiste più come stato indipendente"],
      ans:"Esprime un augurio: che l'Italia viva e prosperi",
      hint:"The subjunctive here expresses a wish or acclamation: may Italy live! It is an ancient construction inherited from Latin."},
 
@@ -75,7 +75,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"piaccia o non piaccia", src:"like it or not", pos:"verb", gender:null,
      note:"An independent subjunctive expressing inevitability.\n'Piaccia' = third-person present subjunctive of 'piacere.'",
-     example:"A: Piaccia o non piaccia, il mondo sta cambiando.\nB: Dobbiamo adattarci alle nuove realta.",
+     example:"A: Piaccia o non piaccia, il mondo sta cambiando.\nB: Dobbiamo adattarci alle nuove realtà.",
      exampleSrc:"A: Like it or not, the world is changing.\nB: We must adapt to the new realities.",
      funFact:"This construction uses the subjunctive to present both possibilities (pleasing or not) as equally possible and irrelevant to the main point. It is a powerful rhetorical device in Italian political discourse."},
 
@@ -87,7 +87,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Perche il congiuntivo e usato per i comandi formali con 'Lei' in italiano?",
-     opts:["Perche i comandi formali esprimono dubbio sulla risposta dell'interlocutore","Perche il congiuntivo e il modo verbale della cortesia e della distanza rispettosa","Perche l'imperativo non esiste per la terza persona singolare","Perche il congiuntivo e piu facile da coniugare dell'imperativo formale"],
+     opts:["Perche i comandi formali esprimono dubbio sulla risposta dell'interlocutore","Perche il congiuntivo e il modo verbale della cortesia e della distanza rispettosa","Perche l'imperativo non esiste per la terza persona singolare","Perche il congiuntivo e più facile da coniugare dell'imperativo formale"],
      ans:"Perche il congiuntivo e il modo verbale della cortesia e della distanza rispettosa",
      hint:"The subjunctive softens commands into polite requests. Rather than ordering, it suggests. This politeness strategy is built into Italian grammar."},
 

@@ -38,7 +38,7 @@ const BATCH3_U19_L1 = {
 
     {type:"teach", trg:"l'orgoglio", src:"the pride", pos:"noun", gender:"m",
      note:"Masculine. From Germanic 'urgoli' (excellence).\n'Orgoglio nazionale' = national pride. Can be positive or negative.",
-     example:"A: L'orgoglio di un padre per sua figlia.\nB: E il sentimento piu bello.",
+     example:"A: L'orgoglio di un padre per sua figlia.\nB: E il sentimento più bello.",
      exampleSrc:"A: A father's pride for his daughter.\nB: It is the most beautiful feeling.",
      funFact:"'Orgoglio' can be positive (healthy pride in achievements) or negative (excessive pride preventing growth). 'Essere orgoglioso' (to be proud) is usually positive. 'Avere troppo orgoglio' (having too much pride) is negative. Italian proverb: 'L'orgoglio precede la caduta' (Pride precedes the fall)."},
 
@@ -56,7 +56,7 @@ const BATCH3_U19_L1 = {
 
     {type:"teach", trg:"il rimpianto", src:"the regret (for missed opportunity)", pos:"noun", gender:"m",
      note:"Masculine. From 'rimpiangere' (to lament again).\n'Senza rimpianti' = without regrets.",
-     example:"A: Il mio piu grande rimpianto e non aver viaggiato di piu.\nB: Non e mai troppo tardi.",
+     example:"A: Il mio più grande rimpianto e non aver viaggiato di più.\nB: Non e mai troppo tardi.",
      exampleSrc:"A: My biggest regret is not having traveled more.\nB: It is never too late.",
      funFact:"'Rimpianto' versus 'rimorso': rimpianto is about what you WISH you had done (missed opportunities), while rimorso is about what you DID that was wrong (guilt). Edith Piaf's 'Non, je ne regrette rien' is 'Non rimpiango niente' in Italian. 'Vivere senza rimpianti' is a popular life motto."},
 

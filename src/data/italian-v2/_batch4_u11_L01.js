@@ -24,11 +24,11 @@ const BATCH4_U11_L1 = {
      exampleSrc:"A: When did you call?\nB: Two hours ago.",
      funFact:"Italian 'fa' (ago) is placed after the time expression, opposite to English. 'Molto tempo fa' (a long time ago) opens Italian fairy tales, like 'long ago' in English. 'Poco fa' (a little while ago) describes very recent past."},
 
-    {type:"teach", trg:"gia", src:"already", pos:"adv", gender:null,
-     note:"Usually placed between 'ho/sono' and the past participle.\n'Ho gia mangiato' = I have already eaten.",
-     example:"A: Vuoi mangiare?\nB: No, ho gia mangiato.",
+    {type:"teach", trg:"già", src:"already", pos:"adv", gender:null,
+     note:"Usually placed between 'ho/sono' and the past participle.\n'Ho già mangiato' = I have already eaten.",
+     example:"A: Vuoi mangiare?\nB: No, ho già mangiato.",
      exampleSrc:"A: Do you want to eat?\nB: No, I have already eaten.",
-     funFact:"'Gia' placement matters: 'ho gia fatto' (I have already done) vs 'hai fatto gia?' (you've done it already? with surprise). Word order in Italian affects emphasis and nuance more than in English."},
+     funFact:"'Gia' placement matters: 'ho già fatto' (I have already done) vs 'hai fatto già?' (you've done it already? with surprise). Word order in Italian affects emphasis and nuance more than in English."},
 
     {type:"teach", trg:"ancora", src:"still / yet / again", pos:"adv", gender:null,
      note:"Triple meaning: 'ancora' = still, yet, again.\n'Non ho ancora finito' = I have not yet finished.",
@@ -38,7 +38,7 @@ const BATCH4_U11_L1 = {
 
     {type:"teach", trg:"appena", src:"just (now) / barely", pos:"adv", gender:null,
      note:"'Ho appena mangiato' = I have just eaten.\nPlaced between auxiliary and participle.",
-     example:"A: Vuoi un caffe?\nB: No, ho appena preso un caffe.",
+     example:"A: Vuoi un caffè?\nB: No, ho appena preso un caffè.",
      exampleSrc:"A: Do you want a coffee?\nB: No, I have just had a coffee.",
      funFact:"'Appena' works like 'just' in English: 'sono appena arrivato' (I have just arrived). It also means 'barely' or 'as soon as': 'appena possibile' (as soon as possible). A small word with big flexibility."},
 
@@ -80,7 +80,7 @@ const BATCH4_U11_L1 = {
 
     {type:"teach", trg:"dimenticare", src:"to forget", pos:"verb", gender:null,
      note:"Regular -are verb. 'Ho dimenticato' = I forgot.\n'Dimenticarsi' (reflexive) is equally common.",
-     example:"A: Ho dimenticato le chiavi a casa!\nB: Di nuovo? Sei sempre cosi!",
+     example:"A: Ho dimenticato le chiavi a casa!\nB: Di nuovo? Sei sempre così!",
      exampleSrc:"A: I forgot the keys at home!\nB: Again? You are always like this!",
      funFact:"'Non dimenticare!' (don't forget!) and 'non ti dimenticare!' are both common. Italian has a philosophical expression: 'perdonare ma non dimenticare' (forgive but don't forget). Memory and forgetting carry emotional weight in Italian culture."},
 
@@ -103,7 +103,7 @@ const BATCH4_U11_L1 = {
      hint:"In Italian, 'fa' (ago) comes after the time expression, not before."},
 
     {type:"fb", s:"Avete {1} deciso dove andare in vacanza?",
-     a:["gia"], opts:["gia","ancora","appena","mai"],
+     a:["già"], opts:["già","ancora","appena","mai"],
      hint:"Placed between the auxiliary and participle. Asks if a decision was made before now.",
      sSrc:"Have you {1} decided where to go on vacation?"},
 

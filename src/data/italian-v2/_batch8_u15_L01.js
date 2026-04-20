@@ -24,13 +24,13 @@ const BATCH8_L1 = {id:"itv2_u15l_b8_1", title:"Problemi in casa", icon:"🔧", x
 
 {type:"teach", trg:"il rubinetto", src:"the faucet / tap", pos:"noun", gender:"m",
  note:"Masculine noun. 'Il rubinetto gocciola' = the faucet drips.\nDiminutive of 'rubino' (ruby).",
- example:"A: Il rubinetto della cucina gocciola.\nB: Prova a chiuderlo piu forte.",
+ example:"A: Il rubinetto della cucina gocciola.\nB: Prova a chiuderlo più forte.",
  exampleSrc:"A: The kitchen faucet is dripping.\nB: Try closing it tighter.",
  funFact:"'Rubinetto' literally means 'little ruby.' Medieval taps were shaped like small ruby-colored cocks (roosters). The French 'robinet' shares the same origin."},
 
 {type:"teach", trg:"la muffa", src:"the mold / mildew", pos:"noun", gender:"f",
  note:"Feminine noun. 'C'e muffa sul muro' = there is mold on the wall.\nCommon in old Italian buildings.",
- example:"A: C'e muffa nell'angolo del bagno.\nB: Serve piu ventilazione.",
+ example:"A: C'e muffa nell'angolo del bagno.\nB: Serve più ventilazione.",
  exampleSrc:"A: There is mold in the corner of the bathroom.\nB: More ventilation is needed.",
  funFact:"Mold is a chronic issue in many old Italian apartments, especially in humid cities like Venice. 'Anti-muffa' (anti-mold) paint is a booming business."},
 

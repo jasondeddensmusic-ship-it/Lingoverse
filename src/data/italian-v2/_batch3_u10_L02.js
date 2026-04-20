@@ -1,8 +1,8 @@
-// Batch 3 — Unit 10, Lesson 2: Visitare le citta (Sightseeing)
+// Batch 3 — Unit 10, Lesson 2: Visitare le città (Sightseeing)
 const BATCH3_U10_L2 = {
-  id:"itv2_u10l_b3_2", title:"Visitare le citta", icon:"\uD83C\uDFDB\uFE0F", xp:15, board:true,
+  id:"itv2_u10l_b3_2", title:"Visitare le città", icon:"\uD83C\uDFDB\uFE0F", xp:15, board:true,
   steps:[
-    {type:"intro", title:"Visitare le citta",
+    {type:"intro", title:"Visitare le città",
      desc:"Learn sightseeing vocabulary for exploring Italian cities. From museums to monuments, these words help you discover Italy's incredible cultural heritage.",
      goals:["Name tourist attractions and landmarks","Ask for directions and information","Talk about sightseeing experiences"]},
 
@@ -44,7 +44,7 @@ const BATCH3_U10_L2 = {
 
     {type:"teach", trg:"la guida", src:"the guide / guidebook", pos:"noun", gender:"f",
      note:"Feminine. Also: 'la guida turistica' (tour guide, person).\n'Visita guidata' = guided tour.",
-     example:"A: Prendiamo una guida?\nB: Si, impariamo di piu con una visita guidata.",
+     example:"A: Prendiamo una guida?\nB: Si, impariamo di più con una visita guidata.",
      exampleSrc:"A: Shall we get a guide?\nB: Yes, we learn more with a guided tour.",
      funFact:"Licensed tour guides in Italy must pass rigorous state exams specific to their city or region. An unauthorized guide cannot legally give paid tours at major sites. The profession is protected to ensure quality and accuracy. Audio guides ('audioguide') are available at most major museums."},
 
@@ -55,8 +55,8 @@ const BATCH3_U10_L2 = {
      funFact:"Many Italian museums offer 'biglietto ridotto' (reduced tickets) for EU citizens under 25 and free entry for those under 18. The first Sunday of each month ('domenica al museo'), many state museums offer free admission. Booking online ('prenotazione') avoids long queues at popular sites."},
 
     {type:"teach", trg:"la mappa", src:"the map", pos:"noun", gender:"f",
-     note:"Feminine. From Latin 'mappa' (cloth, napkin, then map).\n'Mappa della citta' = city map.",
-     example:"A: Hai una mappa della citta?\nB: Si, c'e anche la versione digitale.",
+     note:"Feminine. From Latin 'mappa' (cloth, napkin, then map).\n'Mappa della città' = city map.",
+     example:"A: Hai una mappa della città?\nB: Si, c'e anche la versione digitale.",
      exampleSrc:"A: Do you have a city map?\nB: Yes, there is also the digital version.",
      funFact:"'Mappa' originally meant 'cloth' in Latin, because early maps were drawn on cloth. Italian cartography was revolutionary: Fra Mauro's 1459 map was the most detailed world map of its time. Today, Italian tourist offices ('ufficio turistico') still offer free paper maps alongside digital options."},
 
@@ -74,7 +74,7 @@ const BATCH3_U10_L2 = {
 
     {type:"teach", trg:"il tramonto", src:"the sunset", pos:"noun", gender:"m",
      note:"Masculine. From 'tramontare' (to set, go beyond the mountain).\n'Guardare il tramonto' = to watch the sunset.",
-     example:"A: Che bel tramonto!\nB: L'Italia ha i tramonti piu belli del mondo.",
+     example:"A: Che bel tramonto!\nB: L'Italia ha i tramonti più belli del mondo.",
      exampleSrc:"A: What a beautiful sunset!\nB: Italy has the most beautiful sunsets in the world.",
      funFact:"'Tramontare' literally means 'to go beyond the mountain' (tra + monte). Italian sunsets are famous, especially over the sea in Cinque Terre, from Piazzale Michelangelo in Florence, and from the Spanish Steps in Rome. 'L'ora d'oro' (the golden hour) before sunset is magical in Italy."},
 

@@ -32,24 +32,24 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la ristampa", src:"the reprint", pos:"noun", gender:"f",
      note:"Feminine noun. Plural: le ristampe.\n'Andare in ristampa' = to go into reprint. A sign of commercial success.",
-     example:"A: Il romanzo e gia alla decima ristampa.\nB: Ha venduto oltre centomila copie.",
+     example:"A: Il romanzo e già alla decima ristampa.\nB: Ha venduto oltre centomila copie.",
      exampleSrc:"A: The novel is already at its tenth reprint.\nB: It has sold over one hundred thousand copies.",
      funFact:"In Italy, selling 5,000 copies makes a book a modest success. Selling 50,000 puts it in bestseller territory. The few books that reach 100,000+ copies ('centomila copie') become cultural events discussed on talk shows."},
 
     {type:"mc",
-     q:"Qual e il premio letterario piu prestigioso in Italia?",
+     q:"Qual e il premio letterario più prestigioso in Italia?",
      opts:["Il Premio Nobel","Il Premio Strega","Il Premio Pulitzer","Il Premio Goncourt"],
      ans:"Il Premio Strega",
      hint:"Awarded every July in Rome since 1947. Named after a famous Italian liqueur. Winning it is the pinnacle for Italian novelists."},
 
     {type:"teach", trg:"la collana", src:"the book series / collection", pos:"noun", gender:"f",
      note:"Feminine noun. A series of books with consistent format.\nAlso means 'necklace.' 'Collana economica' = paperback series.",
-     example:"A: Gli Oscar Mondadori sono la collana tascabile piu venduta.\nB: Contengono classici a prezzi accessibili.",
+     example:"A: Gli Oscar Mondadori sono la collana tascabile più venduta.\nB: Contengono classici a prezzi accessibili.",
      exampleSrc:"A: Oscar Mondadori is the bestselling paperback collection.\nB: It contains classics at accessible prices.",
      funFact:"The double meaning of 'collana' (necklace and book series) reflects the idea of stringing together valuable items. Adelphi's blue-cover 'Biblioteca' and Einaudi's white-spine 'Supercoralli' are iconic Italian collane that readers collect like treasures."},
 
     {type:"teach", trg:"il bestseller", src:"the bestseller", pos:"noun", gender:"m",
-     note:"Masculine noun. English loanword. A book that sells very well.\nAlso used in Italian: 'libro piu venduto.'",
+     note:"Masculine noun. English loanword. A book that sells very well.\nAlso used in Italian: 'libro più venduto.'",
      example:"A: Il suo ultimo romanzo e diventato un bestseller internazionale.\nB: E stato tradotto in quaranta lingue.",
      exampleSrc:"A: Her latest novel became an international bestseller.\nB: It has been translated into forty languages.",
      funFact:"Elena Ferrante's Neapolitan novels became a global phenomenon from 2011, selling over 15 million copies worldwide. Despite (or because of) the author's anonymity, the books sparked intense speculation about her identity."},
@@ -69,7 +69,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la libreria", src:"the bookshop", pos:"noun", gender:"f",
      note:"Feminine noun. Plural: le librerie.\nAlso means 'bookshelf.' 'Libreria indipendente' = independent bookshop.",
-     example:"A: Le librerie indipendenti sono in difficolta.\nB: Amazon e le catene le mettono sotto pressione.",
+     example:"A: Le librerie indipendenti sono in difficoltà.\nB: Amazon e le catene le mettono sotto pressione.",
      exampleSrc:"A: Independent bookshops are struggling.\nB: Amazon and chain stores are putting pressure on them.",
      funFact:"Italy has about 3,500 bookshops, but the number has been declining. A 2020 law ('legge sul libro') limited discounts to 5% to protect small shops from predatory pricing by online retailers and large chains."},
 
@@ -106,7 +106,7 @@ const BATCH3_L_2 = {
     ]},
 
     {type:"fb",
-     s:"Il Premio {1} e il riconoscimento letterario piu importante in Italia.",
+     s:"Il Premio {1} e il riconoscimento letterario più importante in Italia.",
      a:["Strega"],
      opts:["Strega","Nobel","Campiello","Bancarella"],
      hint:"Named after a famous Italian liqueur, this prize has been awarded every July in Rome since 1947.",

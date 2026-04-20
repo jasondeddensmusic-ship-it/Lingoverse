@@ -40,11 +40,11 @@ const BATCH6_L1 = {id:"itv2_u13l_b6_1", title:"Verbi impersonali e congiuntivo",
  exampleSrc:"A: I will help you, provided that you listen to me.\nB: Agreed, I am listening.",
  funFact:"'Purche' is a contraction of 'pur che' (even though). It is more literary than 'basta che' but common in formal speech and writing."},
 
-{type:"teach", trg:"affinche", src:"so that / in order that", pos:"conj", gender:null,
- note:"Conjunction triggering congiuntivo. Expresses purpose.\nMore formal than 'perche' (so that).",
- example:"A: Parlo lentamente affinche tutti capiscano.\nB: Grazie, cosi e piu chiaro.",
+{type:"teach", trg:"affinché", src:"so that / in order that", pos:"conj", gender:null,
+ note:"Conjunction triggering congiuntivo. Expresses purpose.\nMore formal than 'perché' (so that).",
+ example:"A: Parlo lentamente affinché tutti capiscano.\nB: Grazie, così e più chiaro.",
  exampleSrc:"A: I speak slowly so that everyone understands.\nB: Thank you, it is clearer that way.",
- funFact:"'Affinche' is a compound of 'a fine che' (to the end that). In everyday speech, Italians often use 'perche' + subjunctive for the same meaning."},
+ funFact:"'Affinche' is a compound of 'a fine che' (to the end that). In everyday speech, Italians often use 'perché' + subjunctive for the same meaning."},
 
 {type:"teach", trg:"qualunque", src:"whichever / whatever", pos:"adj", gender:null,
  note:"Indefinite adjective. Triggers congiuntivo in relative clauses.\nSame for masculine and feminine.",
@@ -95,7 +95,7 @@ const BATCH6_L1 = {id:"itv2_u13l_b6_1", title:"Verbi impersonali e congiuntivo",
  funFact:"'Ammesso che' (assuming that/granted that) is a common subjunctive trigger. 'Ammesso e non concesso' (granted but not conceded) is a classic Italian rhetorical phrase."},
 
 {type:"mc", q:"Quale congiunzione significa 'unless' e richiede 'non' pleonastico?",
- opts:["a meno che non","purche","nonostante","affinche"],
+ opts:["a meno che non","purche","nonostante","affinché"],
  ans:"a meno che non",
  hint:"This expression requires a grammatically unnecessary 'n...' that does not make it negative."},
 
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u13l_b6_1", title:"Verbi impersonali e congiuntivo",
 
 {type:"match", pairs:[
  {trg:"purche", src:"provided that"},
- {trg:"affinche", src:"so that"},
+ {trg:"affinché", src:"so that"},
  {trg:"nonostante", src:"despite"},
  {trg:"prima che", src:"before"}
 ]},
@@ -116,8 +116,8 @@ const BATCH6_L1 = {id:"itv2_u13l_b6_1", title:"Verbi impersonali e congiuntivo",
  ans:"to demand or expect",
  hint:"A famous false friend. NOT the same as the English word it resembles."},
 
-{type:"fb", s:"Parlo lentamente {1} tutti capiscano.", a:["affinche"],
- opts:["affinche","nonostante","a meno che","prima che"],
+{type:"fb", s:"Parlo lentamente {1} tutti capiscano.", a:["affinché"],
+ opts:["affinché","nonostante","a meno che","prima che"],
  hint:"A conjunction meaning 'so that' or 'in order that.' Expresses purpose.",
  sSrc:"I speak slowly {1} everyone understands."},
 

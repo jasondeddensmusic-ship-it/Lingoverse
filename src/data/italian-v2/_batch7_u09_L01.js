@@ -36,7 +36,7 @@ const BATCH7_L1 = {id:"itv2_u09l_b7_1", title:"L'esercizio fisico", icon:"\u{1F3
 
 {type:"teach", trg:"il fiato", src:"breath / stamina", pos:"noun", gender:"m",
  note:"Masculine noun. 'Senza fiato' = breathless.\n'Avere il fiato corto' = to be short of breath.",
- example:"A: Sono senza fiato dopo le scale!\nB: Devi fare piu esercizio.",
+ example:"A: Sono senza fiato dopo le scale!\nB: Devi fare più esercizio.",
  exampleSrc:"A: I am breathless after the stairs!\nB: You need to exercise more.",
  funFact:"'Mozzafiato' (breathtaking) is literally 'breath-cutting.' 'Un panorama mozzafiato' is a view so beautiful it takes your breath away. Used constantly in tourism."},
 
@@ -78,7 +78,7 @@ const BATCH7_L1 = {id:"itv2_u09l_b7_1", title:"L'esercizio fisico", icon:"\u{1F3
 
 {type:"teach", trg:"la salute", src:"health", pos:"noun", gender:"f",
  note:"Feminine noun. 'Alla salute!' = Cheers! (toasting).\n'In salute' = in good health.",
- example:"A: La salute e la cosa piu importante.\nB: Hai ragione, senza salute non c'e niente.",
+ example:"A: La salute e la cosa più importante.\nB: Hai ragione, senza salute non c'e niente.",
  exampleSrc:"A: Health is the most important thing.\nB: You are right, without health there is nothing.",
  funFact:"'Salute!' is said when someone sneezes (like 'bless you') and also as a toast. It comes from Latin 'salus' (health/salvation), the root of 'salutation' and 'salute.'"},
 

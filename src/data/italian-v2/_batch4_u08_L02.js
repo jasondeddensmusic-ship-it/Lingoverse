@@ -32,13 +32,13 @@ const BATCH4_U08_L2 = {
 
     {type:"teach", trg:"stretto", src:"tight / narrow", pos:"adj", gender:"m",
      note:"Masculine. Feminine: stretta. Opposite: largo (wide/loose).\n'Le scarpe sono troppo strette' = the shoes are too tight.",
-     example:"A: Questa giacca e troppo stretta.\nB: Provi una taglia piu grande.",
+     example:"A: Questa giacca e troppo stretta.\nB: Provi una taglia più grande.",
      exampleSrc:"A: This jacket is too tight.\nB: Try a bigger size.",
      funFact:"'Stretto' describes tight clothing, narrow streets, and close relationships ('amico stretto' = close friend). 'Lo stretto di Messina' (the Strait of Messina) separates Sicily from the mainland. One word, many contexts."},
 
     {type:"teach", trg:"largo", src:"wide / loose / big", pos:"adj", gender:"m",
      note:"Masculine. Feminine: larga. Opposite: stretto.\n'Il vestito e troppo largo' = the dress is too loose.",
-     example:"A: Questi pantaloni sono troppo larghi.\nB: Ha bisogno di una taglia piu piccola.",
+     example:"A: Questi pantaloni sono troppo larghi.\nB: Ha bisogno di una taglia più piccola.",
      exampleSrc:"A: These pants are too loose.\nB: You need a smaller size.",
      funFact:"In Italian urban planning, 'largo' is also a small square or widened section of a street (Largo Argentina in Rome). For clothing, 'largo' means the garment hangs too loosely. Italian fashion generally favors fitted clothes."},
 
@@ -98,11 +98,11 @@ const BATCH4_U08_L2 = {
 
     // Quiz steps
     {type:"mc", q:"Cosa serve per fare un reso in Italia?",
-     opts:["Lo scontrino (the receipt)","La carta d'identita","Il passaporto","La carta di credito"],
+     opts:["Lo scontrino (the receipt)","La carta d'identità","Il passaporto","La carta di credito"],
      ans:"Lo scontrino (the receipt)",
      hint:"Without this proof of purchase, returns are nearly impossible."},
 
-    {type:"fb", s:"Questa giacca e troppo {1}, mi serve una taglia piu grande.",
+    {type:"fb", s:"Questa giacca e troppo {1}, mi serve una taglia più grande.",
      a:["stretta"], opts:["stretta","larga","rotta","nuova"],
      hint:"The jacket is too tight and you need a bigger size.",
      sSrc:"This jacket is too {1}, I need a bigger size."},

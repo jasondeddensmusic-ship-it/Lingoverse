@@ -20,7 +20,7 @@ const BATCH3_U22_L2 = {
 
     {type:"teach", trg:"il Neorealismo", src:"the Neorealism", pos:"noun", gender:"m",
      note:"Masculine. Post-WWII Italian film and literature movement.\n'Cinema neorealista' = neorealist cinema.",
-     example:"A: Il Neorealismo ha rivoluzionato il cinema.\nB: Film come Roma citta aperta sono capolavori.",
+     example:"A: Il Neorealismo ha rivoluzionato il cinema.\nB: Film come Roma città aperta sono capolavori.",
      exampleSrc:"A: Neorealism revolutionized cinema.\nB: Films like Rome, Open City are masterpieces.",
      funFact:"Italian Neorealism (1940s-1950s) used non-professional actors, real locations, and stories of ordinary people struggling in post-war Italy. Directors like De Sica, Rossellini, and Visconti created a new cinematic language. 'Ladri di biciclette' (Bicycle Thieves, 1948) is often called the greatest film ever made."},
 

@@ -48,7 +48,7 @@ const BATCH6_L1 = {id:"itv2_u16l_b6_1", title:"Il benessere mentale", icon:"\u{1
 
 {type:"teach", trg:"la solitudine", src:"the loneliness / solitude", pos:"noun", gender:"f",
  note:"Feminine noun. No common plural.\nCan be negative (loneliness) or positive (solitude).",
- example:"A: La solitudine puo essere difficile.\nB: Ma a volte serve per riflettere.",
+ example:"A: La solitudine può essere difficile.\nB: Ma a volte serve per riflettere.",
  exampleSrc:"A: Loneliness can be difficult.\nB: But sometimes it is needed for reflection.",
  funFact:"Italian distinguishes between positive solitude (chosen peace) and negative isolation. 'Stare da soli' (being alone) is neutral; context determines the emotional meaning."},
 
@@ -66,13 +66,13 @@ const BATCH6_L1 = {id:"itv2_u16l_b6_1", title:"Il benessere mentale", icon:"\u{1
 
 {type:"teach", trg:"sostenere", src:"to support / to sustain", pos:"verb", gender:null,
  note:"Irregular -ere verb. sostengo, sostieni, sostiene.\nPast participle: sostenuto.",
- example:"A: I miei amici mi sostengono sempre.\nB: E importante avere persone cosi.",
+ example:"A: I miei amici mi sostengono sempre.\nB: E importante avere persone così.",
  exampleSrc:"A: My friends always support me.\nB: It is important to have people like that.",
  funFact:"'Sostenere' also means 'to maintain/claim': 'sostenere una tesi' (to defend a thesis). 'Sostenere un esame' means to take an exam, not to support it."},
 
 {type:"teach", trg:"respirare", src:"to breathe", pos:"verb", gender:null,
  note:"Regular -are verb. respiro, respiri, respira.\nFrom Latin 're' + 'spirare.'",
- example:"A: Respira profondamente e conta fino a dieci.\nB: Mi sento gia meglio.",
+ example:"A: Respira profondamente e conta fino a dieci.\nB: Mi sento già meglio.",
  exampleSrc:"A: Breathe deeply and count to ten.\nB: I already feel better.",
  funFact:"'Respirare' is the basis for 'respiro' (breath) and 'sospirare' (to sigh). Deep breathing exercises are prescribed by Italian doctors for anxiety management."},
 
@@ -84,7 +84,7 @@ const BATCH6_L1 = {id:"itv2_u16l_b6_1", title:"Il benessere mentale", icon:"\u{1
 
 {type:"teach", trg:"esaurimento", src:"the burnout / exhaustion", pos:"noun", gender:"m",
  note:"Masculine noun. From 'esaurire' (to exhaust/deplete).\n'Esaurimento nervoso' = nervous breakdown.",
- example:"A: Rischia un esaurimento se continua cosi.\nB: Deve fermarsi e riposare.",
+ example:"A: Rischia un esaurimento se continua così.\nB: Deve fermarsi e riposare.",
  exampleSrc:"A: He risks burnout if he continues like this.\nB: He needs to stop and rest.",
  funFact:"'Esaurimento nervoso' was once the Italian catch-all term for mental health crises. Today, more specific terminology is used, but the expression persists in everyday speech."},
 

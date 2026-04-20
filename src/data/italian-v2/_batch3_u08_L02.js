@@ -8,7 +8,7 @@ const BATCH3_U08_L2 = {
 
     {type:"teach", trg:"il mercato", src:"the market", pos:"noun", gender:"m",
      note:"Masculine. From Latin 'mercatus' (trading).\n'Mercato rionale' = neighborhood market.",
-     example:"A: Andiamo al mercato sabato?\nB: Si, la frutta e piu fresca li.",
+     example:"A: Andiamo al mercato sabato?\nB: Si, la frutta e più fresca li.",
      exampleSrc:"A: Shall we go to the market Saturday?\nB: Yes, the fruit is fresher there.",
      funFact:"Every Italian town has at least one weekly market. These 'mercati rionali' sell everything from fresh produce to clothing. Bargaining is expected at outdoor markets but never in shops with fixed prices. The famous Porta Portese flea market in Rome runs every Sunday."},
 
@@ -38,7 +38,7 @@ const BATCH3_U08_L2 = {
 
     {type:"teach", trg:"economico", src:"cheap / budget-friendly", pos:"adj", gender:null,
      note:"Adjective. Feminine: economica. Does NOT mean 'economic.'\n'Un hotel economico' = a budget hotel.",
-     example:"A: Cerco qualcosa di piu economico.\nB: Abbiamo questi modelli in offerta.",
+     example:"A: Cerco qualcosa di più economico.\nB: Abbiamo questi modelli in offerta.",
      exampleSrc:"A: I am looking for something cheaper.\nB: We have these models on offer.",
      funFact:"'Economico' is another false friend. In Italian, it means 'inexpensive' or 'budget,' not 'relating to the economy.' For that meaning, Italians say 'economico' in academic contexts but 'a buon mercato' or 'conveniente' are preferred for everyday shopping."},
 

@@ -6,7 +6,7 @@ const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{27
 
 {type:"teach", trg:"gradire", src:"to appreciate / to like (formal)", pos:"verb", gender:null,
  note:"Regular -ire verb with -isc- infix: gradisco, gradisci, gradisce.\nVery polite 'to want/like.'",
- example:"A: Gradirebbe un caffe?\nB: Si, lo gradirei molto, grazie.",
+ example:"A: Gradirebbe un caffè?\nB: Si, lo gradirei molto, grazie.",
  exampleSrc:"A: Would you appreciate a coffee?\nB: Yes, I would appreciate it very much, thank you.",
  funFact:"'Gradire' is the most polite way to offer something in Italian. Using the conditional 'gradirebbe' is the height of formal courtesy, found in high-end restaurants and hotels."},
 
@@ -18,7 +18,7 @@ const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{27
 
 {type:"teach", trg:"consigliare", src:"to advise / to recommend", pos:"verb", gender:null,
  note:"Regular -are verb. consiglio, consigli, consiglia.\nFrom 'consiglio' (advice/council).",
- example:"A: Ti consiglierei di studiare di piu.\nB: Lo so, hai ragione.",
+ example:"A: Ti consiglierei di studiare di più.\nB: Lo so, hai ragione.",
  exampleSrc:"A: I would advise you to study more.\nB: I know, you are right.",
  funFact:"'Consiglio' means both 'advice' and 'council/board.' 'Consiglio dei Ministri' is the Council of Ministers (Italian cabinet). Advice and governance share the same word."},
 
@@ -30,7 +30,7 @@ const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{27
 
 {type:"teach", trg:"preferire", src:"to prefer", pos:"verb", gender:null,
  note:"Regular -ire verb with -isc- infix: preferisco, preferisci, preferisce.\nTo choose one over another.",
- example:"A: Preferirei il te al caffe.\nB: Certo, lo preparo subito.",
+ example:"A: Preferirei il te al caffè.\nB: Certo, lo preparo subito.",
  exampleSrc:"A: I would prefer tea over coffee.\nB: Of course, I will prepare it right away.",
  funFact:"'Preferire' in the conditional ('preferirei') is the standard polite way to state a preference. It is softer than 'voglio' (I want) and shows courtesy."},
 
@@ -66,7 +66,7 @@ const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{27
 
 {type:"teach", trg:"rinunciare", src:"to give up / to renounce", pos:"verb", gender:null,
  note:"Regular -are verb. rinuncio, rinunci, rinuncia.\nTo voluntarily give up something.",
- example:"A: Non rinuncerei mai al caffe.\nB: Neanch'io, e sacro!",
+ example:"A: Non rinuncerei mai al caffè.\nB: Neanch'io, e sacro!",
  exampleSrc:"A: I would never give up coffee.\nB: Neither would I, it is sacred!",
  funFact:"'Rinuncia' (renunciation) has a strong historical meaning in Italy. Pope Benedict XVI's 'rinuncia al pontificato' (renunciation of the papacy) in 2013 was the first in 600 years."},
 
@@ -84,11 +84,11 @@ const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{27
 
 {type:"teach", trg:"rimandare", src:"to postpone / to put off", pos:"verb", gender:null,
  note:"Regular -are verb. rimando, rimandi, rimanda.\nTo delay something to a later time.",
- example:"A: Rimanderei la riunione a lunedi.\nB: D'accordo, avviso tutti.",
+ example:"A: Rimanderei la riunione a lunedì.\nB: D'accordo, avviso tutti.",
  exampleSrc:"A: I would postpone the meeting to Monday.\nB: Agreed, I will notify everyone.",
  funFact:"'Non rimandare a domani quello che puoi fare oggi' (do not put off until tomorrow what you can do today) is the Italian anti-procrastination proverb."},
 
-{type:"mc", q:"Qual e il modo piu cortese per offrire qualcosa in italiano?",
+{type:"mc", q:"Qual e il modo più cortese per offrire qualcosa in italiano?",
  opts:["Gradirebbe...? (conditional of gradire)","Vuoi...? (present of volere)","Prendi! (imperative)","Devi prendere (must take)"],
  ans:"Gradirebbe...? (conditional of gradire)",
  hint:"The most formal and polite verb for offering, used in the c... tense."},
@@ -120,7 +120,7 @@ const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{27
  ans:"The art of managing with what you have",
  hint:"A cultural Italian skill: improvising and getting by with limited resources."},
 
-{type:"fb", s:"Non {1} mai al caffe mattutino!", a:["rinuncerei"],
+{type:"fb", s:"Non {1} mai al caffè mattutino!", a:["rinuncerei"],
  opts:["rinuncerei","rimanderei","scommetterei","giurerei"],
  hint:"Conditional of the verb meaning 'to give up.' You would never abandon morning coffee.",
  sSrc:"I would never {1} my morning coffee!"},

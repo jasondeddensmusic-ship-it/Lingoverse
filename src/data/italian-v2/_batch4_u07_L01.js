@@ -22,7 +22,7 @@ const BATCH4_U07_L1 = {
      note:"Masculine. Plural: gli ingredienti.\nItalian cooking prizes quality over quantity of ingredients.",
      example:"A: Quali ingredienti servono?\nB: Solo pomodori, basilico e mozzarella.",
      exampleSrc:"A: What ingredients are needed?\nB: Just tomatoes, basil, and mozzarella.",
-     funFact:"Italian cuisine is built on 'pochi ingredienti di qualita' (few quality ingredients). A classic Margherita pizza has only five ingredients. Italian chefs believe that great ingredients need minimal manipulation."},
+     funFact:"Italian cuisine is built on 'pochi ingredienti di qualità' (few quality ingredients). A classic Margherita pizza has only five ingredients. Italian chefs believe that great ingredients need minimal manipulation."},
 
     {type:"teach", trg:"il ragu", src:"the meat sauce", pos:"noun", gender:"m",
      note:"Masculine. Invariable. From French 'ragout.'\n'Ragu bolognese' and 'ragu napoletano' are different dishes.",

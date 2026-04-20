@@ -16,7 +16,7 @@ const BATCH2_U17_L2 = {
      note:"Masculine. Plural: i programmi.\n'Programma televisivo' = TV program. Also means 'plan.'",
      example:"A: Quale programma guardi stasera?\nB: Un programma di cucina su Rai Due.",
      exampleSrc:"A: What program are you watching tonight?\nB: A cooking show on Rai Two.",
-     funFact:"Italian TV is famous for its variety shows ('programmi di varieta'), cooking competitions ('gare di cucina'), and talk shows ('salotti televisivi'). 'Sanremo' (the Italian Song Festival) is the most-watched event of the year. Italian prime-time programming starts later than in most countries: around 9:15 PM."},
+     funFact:"Italian TV is famous for its variety shows ('programmi di varietà'), cooking competitions ('gare di cucina'), and talk shows ('salotti televisivi'). 'Sanremo' (the Italian Song Festival) is the most-watched event of the year. Italian prime-time programming starts later than in most countries: around 9:15 PM."},
 
     {type:"teach", trg:"la trasmissione", src:"the broadcast / transmission", pos:"noun", gender:"f",
      note:"Feminine. From 'trasmettere' (to transmit, to broadcast).\n'Trasmissione in diretta' = live broadcast.",
@@ -62,7 +62,7 @@ const BATCH2_U17_L2 = {
 
     {type:"teach", trg:"il palinsesto", src:"the TV schedule / programming lineup", pos:"noun", gender:"m",
      note:"Masculine. From Greek 'palimpsestos' (scraped and reused).\nThe full schedule of shows for a channel.",
-     example:"A: Il palinsesto autunnale e gia uscito?\nB: Si, ci sono molte novita quest'anno.",
+     example:"A: Il palinsesto autunnale e già uscito?\nB: Si, ci sono molte novità quest'anno.",
      exampleSrc:"A: Has the autumn schedule been released?\nB: Yes, there are many new shows this year.",
      funFact:"'Palinsesto' originally referred to ancient parchment that was scraped clean and rewritten. In Italian TV, it means the programming schedule. 'La guerra dei palinsesti' (the schedule war) describes the fierce competition between RAI and Mediaset for prime-time audiences, especially in autumn."},
 

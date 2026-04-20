@@ -79,7 +79,7 @@ const BATCH4_U04_L2 = {
      funFact:"Italians prefer 'economico' to describe good value. Calling something 'cheap' (a buon mercato) can imply low quality. 'Economico' suggests smart spending. Italian culture values quality: better to spend more on fewer, better things."},
 
     {type:"teach", trg:"offrire", src:"to treat / to offer (to pay for someone)", pos:"verb", gender:null,
-     note:"Irregular past participle: offerto. 'Ti offro un caffe' = I'll buy you a coffee.\nCommon social gesture.",
+     note:"Irregular past participle: offerto. 'Ti offro un caffè' = I'll buy you a coffee.\nCommon social gesture.",
      example:"A: Oggi offro io!\nB: Grazie, sei gentilissimo!",
      exampleSrc:"A: Today I'm treating!\nB: Thanks, you are very kind!",
      funFact:"'Offrire' a coffee to someone is a fundamental Italian social ritual. Arguments over who pays ('no, offro io!' 'no, io!') are a national sport. The fight to pay the bill is genuine and expected. Letting someone else pay without resistance is rude."},
@@ -120,7 +120,7 @@ const BATCH4_U04_L2 = {
      ans:"Table service costs more than counter service",
      hint:"Standing at the c... is the quick, cheaper option in Italian bars."},
 
-    {type:"fb", s:"Oggi {1} io il caffe! Sei mio ospite.",
+    {type:"fb", s:"Oggi {1} io il caffè! Sei mio ospite.",
      a:["offro"], opts:["offro","pago","costo","compro"],
      hint:"You are treating your friend to coffee, insisting on paying.",
      sSrc:"Today I'll {1} the coffee! You are my guest."},

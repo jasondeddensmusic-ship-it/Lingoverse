@@ -83,7 +83,7 @@ const BATCH7_L1 = {id:"itv2_u07l_b7_1", title:"Le bevande e il galateo", icon:"\
  funFact:"Italian wine etiquette: never fill a glass more than one-third full (for red) or halfway (for white). This lets the wine breathe and concentrates the aroma."},
 
 {type:"mc", q:"Che cosa si beve DOPO cena in Italia?",
- opts:["il digestivo","l'aperitivo","il caffe","il succo"],
+ opts:["il digestivo","l'aperitivo","il caffè","il succo"],
  ans:"il digestivo",
  hint:"An after-dinner drink meant to help your stomach. Often bitter or herbal."},
 

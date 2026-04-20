@@ -36,7 +36,7 @@ const BATCH6_L1 = {id:"itv2_u25l_b6_1", title:"Il commercio internazionale", ico
 
 {type:"teach", trg:"la filiale", src:"the branch (office)", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le filiali.\nA branch office of a company or bank.",
- example:"A: La nostra filiale a Milano ha venti dipendenti.\nB: E la piu grande del nord.",
+ example:"A: La nostra filiale a Milano ha venti dipendenti.\nB: E la più grande del nord.",
  exampleSrc:"A: Our branch in Milan has twenty employees.\nB: It is the biggest in the north.",
  funFact:"From 'figlio' (son/child). A branch is the 'child' of the parent company. Italian banks typically have many 'filiali' (branches) scattered across neighborhoods."},
 
@@ -60,7 +60,7 @@ const BATCH6_L1 = {id:"itv2_u25l_b6_1", title:"Il commercio internazionale", ico
 
 {type:"teach", trg:"il marchio", src:"the brand / trademark", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: i marchi.\n'Marchio registrato' = registered trademark.",
- example:"A: Il marchio 'Made in Italy' e conosciuto in tutto il mondo.\nB: E sinonimo di qualita.",
+ example:"A: Il marchio 'Made in Italy' e conosciuto in tutto il mondo.\nB: E sinonimo di qualità.",
  exampleSrc:"A: The 'Made in Italy' brand is known worldwide.\nB: It is synonymous with quality.",
  funFact:"'Marchio' comes from Germanic 'marka' (sign/boundary). Italian brands like Gucci, Prada, and Barilla are among the world's most recognized 'marchi.'"},
 
@@ -120,8 +120,8 @@ const BATCH6_L1 = {id:"itv2_u25l_b6_1", title:"Il commercio internazionale", ico
  ans:"Borsa Italiana a Milano",
  hint:"Located in the financial capital of Italy, now part of the Euronext group."},
 
-{type:"fb", s:"Il marchio 'Made in Italy' e sinonimo di {1}.", a:["qualita"],
- opts:["qualita","burocrazia","fallimento","importazione"],
+{type:"fb", s:"Il marchio 'Made in Italy' e sinonimo di {1}.", a:["qualità"],
+ opts:["qualità","burocrazia","fallimento","importazione"],
  hint:"Italian products are known worldwide for this characteristic.",
  sSrc:"The 'Made in Italy' brand is synonymous with {1}."},
 

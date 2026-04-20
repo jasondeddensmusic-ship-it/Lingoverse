@@ -13,14 +13,14 @@ const BATCH2_U13_L1 = {
      funFact:"'Purche' is a contracted form of 'pure che' (even if that). It always signals a condition and never takes the indicative. Italians use it to set boundaries: the action is allowed only if the condition is met."},
 
     {type:"teach", trg:"sebbene", src:"although / even though", pos:"conj", gender:null,
-     note:"Formal concessive conjunction. Always requires the subjunctive.\nSynonym of 'benche' and 'nonostante.'",
+     note:"Formal concessive conjunction. Always requires the subjunctive.\nSynonym of 'benché' and 'nonostante.'",
      example:"A: Sebbene sia stanco, continuo a lavorare.\nB: Sebbene faccia freddo, usciamo lo stesso.",
      exampleSrc:"A: Although I am tired, I keep working.\nB: Even though it is cold, we go out anyway.",
      funFact:"'Sebbene' comes from 'se' (if) + 'bene' (well), literally 'if well' or 'even if.' It belongs to the formal register and is especially common in written Italian. In everyday speech, 'anche se' (even if) with the indicative is more common, but the formal forms signal education."},
 
     {type:"teach", trg:"magari", src:"I wish / if only / maybe", pos:"adv", gender:null,
      note:"Versatile word. With subjunctive = 'if only.' Alone = 'maybe' or 'I wish!'\nFrom Greek 'makarios' (blessed).",
-     example:"A: Magari potessi viaggiare di piu!\nB: Magari! Anche io vorrei.",
+     example:"A: Magari potessi viaggiare di più!\nB: Magari! Anche io vorrei.",
      exampleSrc:"A: If only I could travel more!\nB: I wish! I would like to as well.",
      funFact:"'Magari' is one of Italian's most expressive words. As an exclamation ('Magari!'), it means 'I wish!' or 'If only!' With the imperfect subjunctive, it expresses unrealizable wishes: 'Magari fossi ricco!' (If only I were rich!). It also works as 'maybe': 'Magari domani' (Maybe tomorrow)."},
 
@@ -64,7 +64,7 @@ const BATCH2_U13_L1 = {
      note:"Conjunction that requires the subjunctive.\nUsed when the subjects are different.",
      example:"A: E uscito senza che nessuno lo vedesse.\nB: Ha fatto tutto senza che io lo sapessi.",
      exampleSrc:"A: He left without anyone seeing him.\nB: He did everything without me knowing.",
-     funFact:"'Senza che' (without) takes the subjunctive because the action did not happen. When the subject is the same, use 'senza + infinitive': 'E uscito senza parlare' (He left without speaking). The two-subject rule applies here just as with 'prima che' and 'affinche.'"},
+     funFact:"'Senza che' (without) takes the subjunctive because the action did not happen. When the subject is the same, use 'senza + infinitive': 'E uscito senza parlare' (He left without speaking). The two-subject rule applies here just as with 'prima che' and 'affinché.'"},
 
     {type:"teach", trg:"nel caso che", src:"in case / in the event that", pos:"conj", gender:null,
      note:"Conditional conjunction. Always requires the subjunctive.\nAlternative: 'nel caso in cui.'",
@@ -85,7 +85,7 @@ const BATCH2_U13_L1 = {
 
     {type:"fb", s:"Puoi uscire, {1} tu finisca i compiti.",
      a:["purche"],
-     opts:["purche","perche","dopo che","quando"],
+     opts:["purche","perché","dopo che","quando"],
      hint:"This conjunction means 'as long as' and always takes the subjunctive. It sets a condition for permission.",
      sSrc:"You can go out, {1} you finish your homework."},
 

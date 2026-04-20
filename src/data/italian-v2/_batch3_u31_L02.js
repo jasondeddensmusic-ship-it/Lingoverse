@@ -20,7 +20,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la bufala", src:"the hoax / fake news", pos:"noun", gender:"f",
      note:"Feminine noun. False or misleading information.\n'Smascherare una bufala' = to debunk a hoax. Informal but widely used.",
-     example:"A: Quella notizia e una bufala: non ha alcuna fonte verificabile.\nB: Purtroppo e gia diventata virale.",
+     example:"A: Quella notizia e una bufala: non ha alcuna fonte verificabile.\nB: Purtroppo e già diventata virale.",
      exampleSrc:"A: That news is a hoax: it has no verifiable source.\nB: Unfortunately it has already gone viral.",
      funFact:"'Bufala' literally means 'female buffalo' (buffalo mozzarella comes from bufala milk). The slang meaning of 'hoax' may derive from 'menare per il naso come una bufala' (to lead by the nose like a buffalo), meaning to deceive."},
 
@@ -44,7 +44,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la viralita", src:"virality", pos:"noun", gender:"f",
      note:"Feminine noun. Invariable (accented ending).\nThe rapid spread of content online.",
-     example:"A: La viralita di un contenuto non ne garantisce la veridicita.\nB: Spesso le bufale si diffondono piu velocemente dei fatti.",
+     example:"A: La viralita di un contenuto non ne garantisce la veridicita.\nB: Spesso le bufale si diffondono più velocemente dei fatti.",
      exampleSrc:"A: A content's virality does not guarantee its truthfulness.\nB: Hoaxes often spread faster than facts.",
      funFact:"Research shows that false news spreads 6 times faster than true news on social media. Italian fact-checking organizations like Pagella Politica and Butac work to combat this asymmetry."},
 
@@ -108,7 +108,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Che cos'e la 'bolla informativa' creata dagli algoritmi?",
-     opts:["Un servizio premium che offre notizie esclusive a pagamento","L'effetto per cui vediamo solo contenuti coerenti con le nostre opinioni preesistenti","Un gruppo chiuso di giornalisti che condividono informazioni riservate","La quantita massima di dati che un algoritmo puo elaborare"],
+     opts:["Un servizio premium che offre notizie esclusive a pagamento","L'effetto per cui vediamo solo contenuti coerenti con le nostre opinioni preesistenti","Un gruppo chiuso di giornalisti che condividono informazioni riservate","La quantità massima di dati che un algoritmo può elaborare"],
      ans:"L'effetto per cui vediamo solo contenuti coerenti con le nostre opinioni preesistenti",
      hint:"Algorithms show you content matching your existing views, creating a bubble where you never encounter different perspectives."}
   ,{type:"match",pairs:[{trg:"il diritto di replica",src:"the right of reply"},{trg:"il trolling",src:"trolling (online harassment)"},{trg:"la diffida",src:"the cease-and-desist letter / formal warning"}]},{type:"mc",q:"How do you say \"copyright\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","il diritto d'autore"],ans:"il diritto d'autore",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"hashtag\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'hashtag"],ans:"l'hashtag",hint:"Recall the Italian vocabulary word taught in this lesson."}]

@@ -10,7 +10,7 @@ const BATCH2_U06_L2 = {
      note:"Masculine. As exclamation: 'Aiuto!' = Help!\n'Ho bisogno di aiuto' = I need help.",
      example:"A: Ho bisogno di aiuto.\nB: Certo, come posso aiutarla?",
      exampleSrc:"A: I need help.\nB: Of course, how can I help you?",
-     funFact:"'Aiuto!' as an exclamation is instantly understood everywhere in Italy. For less urgent situations, 'Mi puo aiutare?' (Can you help me?) is polite. Italians are generally very willing to help lost tourists."},
+     funFact:"'Aiuto!' as an exclamation is instantly understood everywhere in Italy. For less urgent situations, 'Mi può aiutare?' (Can you help me?) is polite. Italians are generally very willing to help lost tourists."},
 
     {type:"teach", trg:"il problema", src:"the problem", pos:"noun", gender:"m",
      note:"Masculine despite ending in -a. Plural: i problemi.\nFrom Greek 'problema' (something thrown forward).",
@@ -46,17 +46,17 @@ const BATCH2_U06_L2 = {
      note:"Regular -ere verb. 'Puo ripetere?' = Can you repeat? (formal).\nFrom Latin 'repetere' (to seek again).",
      example:"A: Puo ripetere, per favore?\nB: Certo! La stazione e a destra.",
      exampleSrc:"A: Can you repeat, please?\nB: Of course! The station is to the right.",
-     funFact:"'Puo ripetere, per favore?' is the polite life-saver phrase. Italians speak fast and the informal 'Puoi ripetere?' works with peers. Add 'piu lentamente' (more slowly) if speed is the issue."},
+     funFact:"'Puo ripetere, per favore?' is the polite life-saver phrase. Italians speak fast and the informal 'Puoi ripetere?' works with peers. Add 'più lentamente' (more slowly) if speed is the issue."},
 
     {type:"teach", trg:"lentamente", src:"slowly", pos:"adv", gender:null,
      note:"From 'lento' (slow) + '-mente' (mind, manner).\n'-mente' is the Italian equivalent of English '-ly.'",
-     example:"A: Puo parlare piu lentamente?\nB: Certo! La... stazione... e... a... destra.",
+     example:"A: Puo parlare più lentamente?\nB: Certo! La... stazione... e... a... destra.",
      exampleSrc:"A: Can you speak more slowly?\nB: Of course! The... station... is... to... the right.",
      funFact:"Italian adverbs ending in '-mente' follow the same pattern as English '-ly' and French '-ment.' All come from Latin 'mens' (mind). Slowly = 'with a slow mind/manner.' Adding 'per favore' makes any request polite."},
 
     {type:"teach", trg:"la mappa", src:"the map", pos:"noun", gender:"f",
-     note:"Feminine. From medieval Latin 'mappa' (napkin, cloth map).\n'Mappa della citta' = city map.",
-     example:"A: Hai una mappa della citta?\nB: Si, eccola!",
+     note:"Feminine. From medieval Latin 'mappa' (napkin, cloth map).\n'Mappa della città' = city map.",
+     example:"A: Hai una mappa della città?\nB: Si, eccola!",
      exampleSrc:"A: Do you have a city map?\nB: Yes, here it is!",
      funFact:"From Latin 'mappa' (cloth), because maps were drawn on cloth. Tourist information offices ('uffici turistici') in Italian cities provide free maps. Google Maps has largely replaced paper maps, but asking for one is still common."},
 
@@ -70,7 +70,7 @@ const BATCH2_U06_L2 = {
      note:"Regular -are verb. 'Giri a destra' = turn right (formal imperative).\nAlso means 'to wander around.'",
      example:"A: Dove giro?\nB: Gira a sinistra dopo il semaforo.",
      exampleSrc:"A: Where do I turn?\nB: Turn left after the traffic light.",
-     funFact:"'Girare' means 'to turn' in directions but also 'to wander' (girare per la citta = wander around the city), 'to spin' (la terra gira = the earth spins), and 'to film' (girare un film). Extremely versatile."},
+     funFact:"'Girare' means 'to turn' in directions but also 'to wander' (girare per la città = wander around the city), 'to spin' (la terra gira = the earth spins), and 'to film' (girare un film). Extremely versatile."},
 
     {type:"teach", trg:"attraversare", src:"to cross", pos:"verb", gender:null,
      note:"Regular -are verb. 'Attraversa la piazza' = cross the square.\nFrom 'attraverso' (through, across).",
@@ -107,7 +107,7 @@ const BATCH2_U06_L2 = {
      ans:"Non capisco",
      hint:"This phrase uses the -isc- form of 'capire.' It tells the speaker you did not follow their words."},
 
-    {type:"fb", s:"Puo parlare piu {1}?",
+    {type:"fb", s:"Puo parlare più {1}?",
      a:["lentamente"],
      opts:["lentamente","velocemente","fortemente","gentilmente"],
      hint:"You want the person to reduce their speaking speed. This adverb means 'slowly.'",

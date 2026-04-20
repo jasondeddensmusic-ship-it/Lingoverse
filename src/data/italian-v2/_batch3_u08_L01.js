@@ -20,7 +20,7 @@ const BATCH3_U08_L1 = {
 
     {type:"teach", trg:"sintetico", src:"synthetic", pos:"adj", gender:null,
      note:"Adjective. Feminine: sintetica. 'Tessuto sintetico' = synthetic fabric.\nOpposite: naturale.",
-     example:"A: E sintetico o naturale?\nB: Sintetico, ma di buona qualita.",
+     example:"A: E sintetico o naturale?\nB: Sintetico, ma di buona qualità.",
      exampleSrc:"A: Is it synthetic or natural?\nB: Synthetic, but good quality.",
      funFact:"Italian fashion generally favors natural fibers over synthetics. Asking 'Di che tessuto e?' (What fabric is it?) is common in Italian shops. High-quality Italian clothing typically uses cotton, wool, silk, or linen. Synthetic blends are more common in fast fashion."},
 

@@ -20,7 +20,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"la corruzione", src:"the corruption", pos:"noun", gender:"f",
      note:"Feminine noun. 'Corruzione di pubblico ufficiale' = corruption of a public official.\n'Anticorruzione' = anticorruption.",
-     example:"A: La corruzione nel settore pubblico e ancora diffusa.\nB: Servono piu controlli e trasparenza.",
+     example:"A: La corruzione nel settore pubblico e ancora diffusa.\nB: Servono più controlli e trasparenza.",
      exampleSrc:"A: Corruption in the public sector is still widespread.\nB: More oversight and transparency are needed.",
      funFact:"Italy consistently ranks below Northern European countries on corruption indexes. The 'Tangentopoli' scandal of 1992 exposed systemic corruption in politics, leading to the collapse of the entire postwar party system."},
 
@@ -44,7 +44,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"l'udienza", src:"the hearing / court session", pos:"noun", gender:"f",
      note:"Feminine noun. Plural: le udienze.\n'Udienza preliminare' = preliminary hearing. 'Rinviare l'udienza' = to postpone the hearing.",
-     example:"A: L'udienza e stata rinviata al mese prossimo.\nB: Il giudice ha concesso piu tempo alla difesa.",
+     example:"A: L'udienza e stata rinviata al mese prossimo.\nB: Il giudice ha concesso più tempo alla difesa.",
      exampleSrc:"A: The hearing was postponed to next month.\nB: The judge granted more time to the defense.",
      funFact:"Italian trials can involve dozens of hearings spread over years. A single hearing ('udienza') typically lasts a few hours and covers specific procedural steps. Trials with many defendants can have hundreds of hearings."},
 
@@ -61,7 +61,7 @@ const BATCH3_L_1 = {
      funFact:"Italy introduced plea bargaining in 1989, adapting the American concept to its civil law system. It can reduce sentences by up to one third and speeds up proceedings, but victims sometimes feel justice is shortchanged."},
 
     {type:"fb",
-     s:"Il reato e andato in {1} perche il processo e durato troppo a lungo.",
+     s:"Il reato e andato in {1} perché il processo e durato troppo a lungo.",
      a:["prescrizione"],
      opts:["prescrizione","ergastolo","patteggiamento","udienza"],
      hint:"The legal time limit expired. When courts take too long, some crimes cannot be prosecuted anymore.",

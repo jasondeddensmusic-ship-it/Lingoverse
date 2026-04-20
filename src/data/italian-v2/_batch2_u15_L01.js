@@ -20,7 +20,7 @@ const BATCH2_U15_L1 = {
 
     {type:"teach", trg:"la presa", src:"the electrical outlet / socket", pos:"noun", gender:"f",
      note:"Feminine. Italian outlets use three-pin plugs (Type L and F).\n'Presa di corrente' = power outlet.",
-     example:"A: Dov'e la presa piu vicina?\nB: Ce n'e una dietro il divano.",
+     example:"A: Dov'e la presa più vicina?\nB: Ce n'e una dietro il divano.",
      exampleSrc:"A: Where is the nearest outlet?\nB: There is one behind the sofa.",
      funFact:"Italian electrical outlets come in two standard sizes: the smaller Type L (10A) and the larger 'Schuko' Type F (16A). Older apartments may have only the small Italian type, requiring adapters for some appliances. Universal outlets ('prese universali') accept both types."},
 

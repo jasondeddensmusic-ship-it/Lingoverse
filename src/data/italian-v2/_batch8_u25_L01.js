@@ -24,13 +24,13 @@ const BATCH8_L1 = {id:"itv2_u25l_b8_1", title:"Commercio e scambi", icon:"🏪",
 
 {type:"teach", trg:"il marchio", src:"the brand / trademark", pos:"noun", gender:"m",
  note:"Masculine noun. 'Marchio registrato' = registered trademark.\n'Il marchio di fabbrica' = hallmark.",
- example:"A: Il marchio italiano e sinonimo di qualita.\nB: Per questo e imitato in tutto il mondo.",
+ example:"A: Il marchio italiano e sinonimo di qualità.\nB: Per questo e imitato in tutto il mondo.",
  exampleSrc:"A: The Italian brand is synonymous with quality.\nB: That is why it is imitated worldwide.",
  funFact:"Italian 'contraffazione' (counterfeiting) is a billion-euro problem. Fake 'Made in Italy' products flood global markets. Italy fights this aggressively through legal and branding campaigns."},
 
 {type:"teach", trg:"l'esportazione", src:"the export", pos:"noun", gender:"f",
  note:"Feminine noun. 'Esportare' = to export.\n'Paese esportatore' = exporting country.",
- example:"A: L'esportazione di prodotti italiani e in crescita.\nB: Il Made in Italy e sempre piu richiesto.",
+ example:"A: L'esportazione di prodotti italiani e in crescita.\nB: Il Made in Italy e sempre più richiesto.",
  exampleSrc:"A: The export of Italian products is growing.\nB: Made in Italy is increasingly in demand.",
  funFact:"Italy is the world's 8th largest exporter. The four F's drive exports: Food, Fashion, Furniture, and Ferrari. 'Made in Italy' is worth over 60 billion euros annually."},
 
@@ -48,7 +48,7 @@ const BATCH8_L1 = {id:"itv2_u25l_b8_1", title:"Commercio e scambi", icon:"🏪",
 
 {type:"teach", trg:"la fusione", src:"the merger / fusion", pos:"noun", gender:"f",
  note:"Feminine noun. 'Fusione aziendale' = corporate merger.\nAlso: melting/fusion (physics).",
- example:"A: Le due banche hanno annunciato la fusione.\nB: Diventera la piu grande d'Italia.",
+ example:"A: Le due banche hanno annunciato la fusione.\nB: Diventera la più grande d'Italia.",
  exampleSrc:"A: The two banks announced the merger.\nB: It will become the largest in Italy.",
  funFact:"Italian banking has seen major fusioni in recent decades. The creation of Intesa Sanpaolo and UniCredit through mergers reshaped Italy's financial landscape."},
 

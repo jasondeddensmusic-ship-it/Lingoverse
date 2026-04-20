@@ -18,7 +18,7 @@ const BATCH6_L1 = {id:"itv2_u19l_b6_1", title:"Il carattere e la personalita", i
 
 {type:"teach", trg:"avaro", src:"stingy / miserly", pos:"adj", gender:null,
  note:"Adjective. m: avaro, f: avara.\nOpposite: generoso. Also used as a noun.",
- example:"A: Non essere avaro, offri un caffe!\nB: Va bene, pago io.",
+ example:"A: Non essere avaro, offri un caffè!\nB: Va bene, pago io.",
  exampleSrc:"A: Do not be stingy, treat us to a coffee!\nB: Alright, I will pay.",
  funFact:"Moliere's famous play 'L'Avare' (The Miser) has its roots in Latin 'avarus.' In Italian, 'tirchio' is the more colloquial word for stingy."},
 
@@ -66,7 +66,7 @@ const BATCH6_L1 = {id:"itv2_u19l_b6_1", title:"Il carattere e la personalita", i
 
 {type:"teach", trg:"ingenuo", src:"naive / ingenuous", pos:"adj", gender:null,
  note:"Adjective. m: ingenuo, f: ingenua.\nOpposite of 'furbo.' Innocent, sometimes too trusting.",
- example:"A: Non essere cosi ingenuo, ti stanno prendendo in giro.\nB: Davvero? Non me ne ero accorto.",
+ example:"A: Non essere così ingenuo, ti stanno prendendo in giro.\nB: Davvero? Non me ne ero accorto.",
  exampleSrc:"A: Do not be so naive, they are making fun of you.\nB: Really? I had not noticed.",
  funFact:"From Latin 'ingenuus' (freeborn, noble). The original positive meaning (honest, sincere) shifted toward negative (gullible) in modern Italian."},
 
@@ -84,7 +84,7 @@ const BATCH6_L1 = {id:"itv2_u19l_b6_1", title:"Il carattere e la personalita", i
 
 {type:"teach", trg:"umile", src:"humble / modest", pos:"adj", gender:null,
  note:"Adjective, same form for m/f. From Latin 'humilis' (low/ground).\nOpposite: arrogante.",
- example:"A: Nonostante il successo, resta umile.\nB: E una qualita rara.",
+ example:"A: Nonostante il successo, resta umile.\nB: E una qualità rara.",
  exampleSrc:"A: Despite his success, he remains humble.\nB: It is a rare quality.",
  funFact:"'Umile' shares its root with 'humus' (earth). To be humble is literally to be close to the ground. Italian culture traditionally values modesty over self-promotion."},
 
@@ -93,7 +93,7 @@ const BATCH6_L1 = {id:"itv2_u19l_b6_1", title:"Il carattere e la personalita", i
  ans:"testardo",
  hint:"Hard-headed. From 'testa' (head). Compared to a mule in Italian sayings."},
 
-{type:"fb", s:"Non essere {1}, offri un caffe agli amici!", a:["avaro"],
+{type:"fb", s:"Non essere {1}, offri un caffè agli amici!", a:["avaro"],
  opts:["avaro","generoso","coraggioso","furbo"],
  hint:"The opposite of generous. Someone who does not like to spend money.",
  sSrc:"Do not be {1}, buy your friends a coffee!"},

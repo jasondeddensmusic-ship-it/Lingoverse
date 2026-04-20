@@ -32,7 +32,7 @@ const BATCH2_U04_L1 = {
 
     {type:"teach", trg:"la panna", src:"the cream / whipped cream", pos:"noun", gender:"f",
      note:"Feminine. Both fresh cream and whipped cream.\nFrom Latin 'pannus' (cloth), for the cream layer on top of milk.",
-     example:"A: Vuoi la panna sul caffe?\nB: Si, con la panna, grazie!",
+     example:"A: Vuoi la panna sul caffè?\nB: Si, con la panna, grazie!",
      exampleSrc:"A: Do you want cream on the coffee?\nB: Yes, with cream, thanks!",
      funFact:"'Panna cotta' (cooked cream) is one of Italy's most famous desserts. 'Panna montata' is whipped cream. You can add it to coffee, hot chocolate, or gelato. Italians use real cream, never spray cans."},
 
@@ -79,14 +79,14 @@ const BATCH2_U04_L1 = {
      funFact:"'Senza' is essential at Italian bars and restaurants: senza zucchero (no sugar), senza latte (no milk), senza glutine (gluten-free). Italy has one of the highest celiac disease awareness rates in Europe."},
 
     {type:"teach", trg:"altro", src:"other / anything else", pos:"adj", gender:"m",
-     note:"Masculine: altro. Feminine: altra. Plural: altri/altre.\n'Altro?' or 'Basta cosi?' = Anything else? / Is that all?",
-     example:"A: Un caffe. Altro?\nB: No grazie, basta cosi.",
+     note:"Masculine: altro. Feminine: altra. Plural: altri/altre.\n'Altro?' or 'Basta così?' = Anything else? / Is that all?",
+     example:"A: Un caffè. Altro?\nB: No grazie, basta così.",
      exampleSrc:"A: A coffee. Anything else?\nB: No thanks, that is all.",
-     funFact:"At any Italian bar or market, the server will ask 'Altro?' (Anything else?). The response 'Basta cosi' (that is enough) or 'E tutto' (that is all) closes the transaction. Simple but essential interactions."},
+     funFact:"At any Italian bar or market, the server will ask 'Altro?' (Anything else?). The response 'Basta così' (that is enough) or 'E tutto' (that is all) closes the transaction. Simple but essential interactions."},
 
     {type:"teach", trg:"basta", src:"enough / that's enough", pos:"verb", gender:null,
-     note:"From 'bastare' (to be enough). 'Basta!' alone means 'Stop! Enough!'\n'Basta cosi' = that will do.",
-     example:"A: Vuoi ancora pasta?\nB: No, basta cosi. Sono pieno!",
+     note:"From 'bastare' (to be enough). 'Basta!' alone means 'Stop! Enough!'\n'Basta così' = that will do.",
+     example:"A: Vuoi ancora pasta?\nB: No, basta così. Sono pieno!",
      exampleSrc:"A: Do you want more pasta?\nB: No, that's enough. I am full!",
      funFact:"'Basta!' is one of the most powerful Italian words. Said firmly, it means 'Stop! I have had enough!' It can end arguments, stop children misbehaving, or simply close a transaction at a bar politely."},
 
@@ -126,7 +126,7 @@ const BATCH2_U04_L1 = {
      ans:"They believe very cold drinks are bad for digestion",
      hint:"A cultural belief about temperature and the stomach. Younger generations are changing this habit."},
 
-    {type:"fb", s:"Vuoi ancora pasta? No, {1} cosi.",
+    {type:"fb", s:"Vuoi ancora pasta? No, {1} così.",
      a:["basta"],
      opts:["basta","altro","con","ecco"],
      hint:"This word means 'enough.' It politely closes a food offer. It comes from a verb meaning 'to suffice.'",

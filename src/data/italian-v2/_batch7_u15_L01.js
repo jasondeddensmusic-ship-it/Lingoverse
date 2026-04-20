@@ -30,7 +30,7 @@ const BATCH7_L1 = {id:"itv2_u15l_b7_1", title:"Il quartiere", icon:"\u{1F3D8}\uF
 
 {type:"teach", trg:"la periferia", src:"the outskirts / suburbs", pos:"noun", gender:"f",
  note:"Feminine noun. 'In periferia' = in the suburbs.\nOpposite: 'il centro' (the center).",
- example:"A: Abiti in centro o in periferia?\nB: In periferia, gli affitti sono piu bassi.",
+ example:"A: Abiti in centro o in periferia?\nB: In periferia, gli affitti sono più bassi.",
  exampleSrc:"A: Do you live in the center or the suburbs?\nB: In the suburbs, rents are lower.",
  funFact:"Italian 'periferia' has a different connotation than American suburbs. It often refers to concrete apartment blocks built in the 1960s-70s, sometimes associated with social challenges."},
 

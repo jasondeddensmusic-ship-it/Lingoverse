@@ -8,13 +8,13 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"il deepfake", src:"the deepfake", pos:"noun", gender:"m",
      note:"Masculine noun. Invariable. AI-generated fake video or audio.\n'Riconoscere un deepfake' = to recognize a deepfake.",
-     example:"A: I deepfake rendono impossibile fidarsi dei video online.\nB: La tecnologia per crearli diventa sempre piu accessibile.",
+     example:"A: I deepfake rendono impossibile fidarsi dei video online.\nB: La tecnologia per crearli diventa sempre più accessibile.",
      exampleSrc:"A: Deepfakes make it impossible to trust online videos.\nB: The technology to create them is becoming increasingly accessible.",
      funFact:"Italy's Garante per la Privacy issued specific guidelines on deepfakes in 2023, warning about their use in disinformation and identity theft. Italian researchers at the Politecnico di Milano are developing detection tools."},
 
     {type:"teach", trg:"il bias algoritmico", src:"algorithmic bias", pos:"noun", gender:"m",
      note:"Masculine compound noun. Systematic discrimination embedded in algorithms.\n'Bias di genere' = gender bias.",
-     example:"A: Il bias algoritmico puo discriminare minoranze etniche.\nB: Se i dati di addestramento sono distorti, l'IA perpetua le disuguaglianze.",
+     example:"A: Il bias algoritmico può discriminare minoranze etniche.\nB: Se i dati di addestramento sono distorti, l'IA perpetua le disuguaglianze.",
      exampleSrc:"A: Algorithmic bias can discriminate against ethnic minorities.\nB: If training data is biased, AI perpetuates inequalities.",
      funFact:"Italian AI ethics research, centered at universities like Bologna and Turin, examines how cultural assumptions embedded in training data affect algorithmic decisions. The EU AI Act, which Italy helped shape, addresses bias as a key risk."},
 
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che cos'e il 'bias algoritmico'?",
-     opts:["Un errore tecnico che rende i computer piu lenti del previsto","La discriminazione sistematica presente nei sistemi di intelligenza artificiale","Un virus informatico che colpisce i social media e le piattaforme digitali","Una preferenza personale dell'utente che influenza i risultati di ricerca"],
+     opts:["Un errore tecnico che rende i computer più lenti del previsto","La discriminazione sistematica presente nei sistemi di intelligenza artificiale","Un virus informatico che colpisce i social media e le piattaforme digitali","Una preferenza personale dell'utente che influenza i risultati di ricerca"],
      ans:"La discriminazione sistematica presente nei sistemi di intelligenza artificiale",
      hint:"When algorithms systematically discriminate because their training data reflects existing societal biases and inequalities."},
 
@@ -69,7 +69,7 @@ const BATCH3_L_1 = {
 
     {type:"teach", trg:"l'etica dell'IA", src:"AI ethics", pos:"noun", gender:"f",
      note:"Feminine compound noun. The moral principles guiding AI development and use.\n'IA responsabile' = responsible AI.",
-     example:"A: L'etica dell'IA deve garantire equita, trasparenza e rispetto della privacy.\nB: Senza regole, l'IA puo causare danni enormi.",
+     example:"A: L'etica dell'IA deve garantire equita, trasparenza e rispetto della privacy.\nB: Senza regole, l'IA può causare danni enormi.",
      exampleSrc:"A: AI ethics must ensure fairness, transparency, and privacy respect.\nB: Without rules, AI can cause enormous harm.",
      funFact:"Italy was among the first EU countries to establish an AI ethics advisory body. The Vatican also published guidelines on AI ethics in 2020, reflecting the unique Italian situation where technological innovation meets centuries of moral philosophy."},
 
@@ -79,9 +79,9 @@ const BATCH3_L_1 = {
      exampleSrc:"A: Planned obsolescence forces consumers to buy new devices.\nB: It is an enormous waste of natural resources.",
      funFact:"Italy, as a leader in the circular economy, is pushing back against planned obsolescence. Consumer groups like Altroconsumo campaign for the 'diritto alla riparabilita' (right to repair), which EU legislation is beginning to guarantee."},
 
-    {type:"teach", trg:"la realta aumentata", src:"augmented reality", pos:"noun", gender:"f",
+    {type:"teach", trg:"la realtà aumentata", src:"augmented reality", pos:"noun", gender:"f",
      note:"Feminine compound noun. Technology overlaying digital info on the real world.\n'Realta virtuale' = virtual reality.",
-     example:"A: La realta aumentata viene usata nei musei italiani per mostrare le rovine originali.\nB: Punti il telefono verso le colonne e vedi come apparivano duemila anni fa.",
+     example:"A: La realtà aumentata viene usata nei musei italiani per mostrare le rovine originali.\nB: Punti il telefono verso le colonne e vedi come apparivano duemila anni fa.",
      exampleSrc:"A: Augmented reality is used in Italian museums to show the original ruins.\nB: You point your phone at the columns and see how they looked two thousand years ago.",
      funFact:"Italian museums and archaeological sites are pioneers in augmented reality. The Colosseum, Pompeii, and the Roman Forum use AR apps to let visitors see ancient buildings reconstructed over the actual ruins."},
 
@@ -96,7 +96,7 @@ const BATCH3_L_1 = {
       {trg:"blockchain", src:"blockchain"},
       {trg:"divario digitale", src:"digital divide"},
       {trg:"sovranita digitale", src:"digital sovereignty"},
-      {trg:"realta aumentata", src:"augmented reality"}
+      {trg:"realtà aumentata", src:"augmented reality"}
     ]},
 
     {type:"fb",
@@ -113,6 +113,6 @@ const BATCH3_L_1 = {
      hint:"Italy sits at a unique crossroads: cutting-edge technology meets centuries of moral philosophy. The Vatican's involvement reflects this distinctive cultural context."}
   ,{type:"match",pairs:[{trg:"il bias algoritmico",src:"algorithmic bias"},{trg:"la trasparenza",src:"transparency"},{trg:"la robotica",src:"robotics"}]},{type:"mc",q:"How do you say \"Internet of Things\" in Italian?",opts:["l'internet delle cose","la finestra","il tavolo","la bicicletta"],ans:"l'internet delle cose",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"planned obsolescence\" in Italian?",opts:["la finestra","il tavolo","l'obsolescenza programmata","la bicicletta"],ans:"l'obsolescenza programmata",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"La {1} garantisce operazioni sicure sui siti web.",a:["crittografia"],opts:["crittografia","blockchain","robotica","trasparenza"],hint:"The encoding of data so only authorized parties can read it.",sSrc:"The {1} ensures secure operations on websites."},
-{type:"fb",s:"Il {1} presente nei social media puo influenzare le decisioni.",a:["bias algoritmico"],opts:["bias algoritmico","deepfake","internet delle cose","sovranita digitale"],hint:"Systematic errors in AI decisions caused by flawed training data.",sSrc:"The {1} present in social media can influence decisions."}]
+{type:"fb",s:"Il {1} presente nei social media può influenzare le decisioni.",a:["bias algoritmico"],opts:["bias algoritmico","deepfake","internet delle cose","sovranita digitale"],hint:"Systematic errors in AI decisions caused by flawed training data.",sSrc:"The {1} present in social media can influence decisions."}]
 };
 export default BATCH3_L_1;

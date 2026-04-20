@@ -17,7 +17,7 @@ const BATCH8_L1 = {id:"itv2_u28l_b8_1", title:"Generi e tecniche", icon:"📖", 
  funFact:"'Chiudere un capitolo' (to close a chapter) is used figuratively for ending a phase of life. 'Aprire un nuovo capitolo' means starting fresh."},
 
 {type:"teach", trg:"la metafora", src:"the metaphor", pos:"noun", gender:"f",
- note:"Feminine noun. 'Metaforico' = metaphorical.\nFrom Greek: meta (beyond) + phora (to carry).",
+ note:"Feminine noun. 'Metaforico' = metaphorical.\nFrom Greek: metà (beyond) + phora (to carry).",
  example:"A: La pioggia e una metafora della tristezza.\nB: Nella letteratura italiana, sempre.",
  exampleSrc:"A: Rain is a metaphor for sadness.\nB: In Italian literature, always.",
  funFact:"Dante's 'Divina Commedia' is built on elaborate metaphors. The 'selva oscura' (dark forest) in the opening represents spiritual confusion. Every detail is symbolic."},

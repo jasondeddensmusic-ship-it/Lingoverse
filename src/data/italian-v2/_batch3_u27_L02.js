@@ -8,7 +8,7 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"l'energia", src:"the energy", pos:"noun", gender:"f",
      note:"Feminine noun. 'Energia rinnovabile' = renewable energy.\n'Energia nucleare/solare/eolica' = nuclear/solar/wind energy.",
-     example:"A: L'Italia deve investire di piu nelle energie rinnovabili.\nB: Il sole e il vento non mancano certo.",
+     example:"A: L'Italia deve investire di più nelle energie rinnovabili.\nB: Il sole e il vento non mancano certo.",
      exampleSrc:"A: Italy must invest more in renewable energy.\nB: Sun and wind are certainly not lacking.",
      funFact:"Italy voted against nuclear energy in a 1987 referendum after Chernobyl and confirmed the ban in 2011 after Fukushima. The country relies heavily on natural gas imports and is rapidly expanding solar power."},
 
@@ -50,13 +50,13 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la velocita", src:"velocity / speed", pos:"noun", gender:"f",
      note:"Feminine noun. Invariable (accented ending).\n'Velocita della luce' = speed of light. 'A tutta velocita' = at full speed.",
-     example:"A: La velocita della luce e circa 300.000 km al secondo.\nB: Nulla puo superarla secondo Einstein.",
+     example:"A: La velocita della luce e circa 300.000 km al secondo.\nB: Nulla può superarla secondo Einstein.",
      exampleSrc:"A: The speed of light is about 300,000 km per second.\nB: Nothing can exceed it according to Einstein.",
      funFact:"Italian physicist Galileo attempted to measure the speed of light using lanterns on distant hilltops. He concluded it was 'if not instantaneous, extraordinarily fast.' The actual measurement came later with Ole Roemer's work in 1676."},
 
     {type:"teach", trg:"il riciclaggio", src:"the recycling", pos:"noun", gender:"m",
      note:"Masculine noun. 'Raccolta differenziata' = waste sorting.\n'Riciclare' (verb) = to recycle. Also means 'money laundering.'",
-     example:"A: Il riciclaggio dei rifiuti in Italia e migliorato molto.\nB: La raccolta differenziata e obbligatoria in molte citta.",
+     example:"A: Il riciclaggio dei rifiuti in Italia e migliorato molto.\nB: La raccolta differenziata e obbligatoria in molte città.",
      exampleSrc:"A: Waste recycling in Italy has improved a lot.\nB: Waste sorting is mandatory in many cities.",
      funFact:"Italy is actually a European leader in recycling, with industrial waste recycling rates above 80%. The city of Treviso pioneered the 'porta a porta' (door-to-door) waste collection model now adopted across the country."},
 
@@ -69,19 +69,19 @@ const BATCH3_L_2 = {
 
     {type:"teach", trg:"la temperatura", src:"the temperature", pos:"noun", gender:"f",
      note:"Feminine noun. 'Temperatura media' = average temperature.\nMeasured in gradi Celsius in Italy.",
-     example:"A: La temperatura media e aumentata di quasi due gradi.\nB: Le conseguenze si vedono gia nell'agricoltura.",
+     example:"A: La temperatura media e aumentata di quasi due gradi.\nB: Le conseguenze si vedono già nell'agricoltura.",
      exampleSrc:"A: The average temperature has risen by almost two degrees.\nB: The consequences are already visible in agriculture.",
      funFact:"Italy uses Celsius exclusively. The Fahrenheit scale, named after a German physicist, is almost unknown in everyday Italian life. Scientists use Kelvin for absolute temperature measurements."},
 
     {type:"teach", trg:"la siccita", src:"the drought", pos:"noun", gender:"f",
      note:"Feminine noun. Invariable (accented ending).\n'Siccita prolungata' = prolonged drought.",
-     example:"A: La siccita ha devastato le colture del sud Italia.\nB: Il Po e ai livelli piu bassi mai registrati.",
+     example:"A: La siccita ha devastato le colture del sud Italia.\nB: Il Po e ai livelli più bassi mai registrati.",
      exampleSrc:"A: The drought devastated crops in southern Italy.\nB: The Po River is at the lowest levels ever recorded.",
      funFact:"Italy experienced its worst drought in 70 years in 2022, when the Po River nearly dried up. Northern rice paddies, which produce most of Europe's risotto rice, were severely damaged, threatening a cultural staple."},
 
     {type:"teach", trg:"il riscaldamento globale", src:"global warming", pos:"noun", gender:"m",
      note:"Masculine compound noun. The long-term increase in Earth's average temperature.\n'Effetto serra' = greenhouse effect.",
-     example:"A: Il riscaldamento globale minaccia gli ecosistemi marini.\nB: Il Mediterraneo si sta riscaldando piu velocemente degli oceani.",
+     example:"A: Il riscaldamento globale minaccia gli ecosistemi marini.\nB: Il Mediterraneo si sta riscaldando più velocemente degli oceani.",
      exampleSrc:"A: Global warming threatens marine ecosystems.\nB: The Mediterranean is warming faster than the oceans.",
      funFact:"The Mediterranean Sea is warming 20% faster than the global average. Italian marine biologists have documented the arrival of tropical fish species in Italian waters, a visible sign of changing temperatures."},
 
@@ -114,7 +114,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Perche la siccita del 2022 e stata particolarmente grave per l'Italia?",
-     opts:["Ha causato una crisi energetica perche non funzionavano le pale eoliche","Ha colpito il fiume Po e le risaie del nord, minacciando la produzione di riso","Ha provocato un referendum sul nucleare come fonte alternativa","Ha costretto il governo a importare acqua dalla Francia"],
+     opts:["Ha causato una crisi energetica perché non funzionavano le pale eoliche","Ha colpito il fiume Po e le risaie del nord, minacciando la produzione di riso","Ha provocato un referendum sul nucleare come fonte alternativa","Ha costretto il governo a importare acqua dalla Francia"],
      ans:"Ha colpito il fiume Po e le risaie del nord, minacciando la produzione di riso",
      hint:"Italy's longest river nearly dried up, threatening the rice paddies that produce most of Europe's risotto rice."}
   ,{type:"match",pairs:[{trg:"la gravita",src:"gravity"},{trg:"la materia",src:"matter"},{trg:"il clima",src:"the climate"},{trg:"la velocita",src:"velocity / speed"},{trg:"il riciclaggio",src:"the recycling"},{trg:"la temperatura",src:"the temperature"}]},{type:"match",pairs:[{trg:"il riscaldamento globale",src:"global warming"}]}]

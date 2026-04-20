@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che cos'e la delocalizzazione nel contesto economico?",
-     opts:["Lo spostamento della sede legale di un'azienda in un'altra citta italiana","Il trasferimento della produzione in paesi con costi inferiori","L'apertura di filiali di vendita in nuovi mercati esteri","La fusione tra due aziende di paesi diversi"],
+     opts:["Lo spostamento della sede legale di un'azienda in un'altra città italiana","Il trasferimento della produzione in paesi con costi inferiori","L'apertura di filiali di vendita in nuovi mercati esteri","La fusione tra due aziende di paesi diversi"],
      ans:"Il trasferimento della produzione in paesi con costi inferiori",
      hint:"Moving manufacturing to countries where labor and other costs are lower. A major issue for Italy's textile and manufacturing sectors."},
 

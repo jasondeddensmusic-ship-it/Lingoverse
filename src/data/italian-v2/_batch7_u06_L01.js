@@ -1,4 +1,4 @@
-// Batch 7 — Unit 06 extra lesson. In citta: Sports & Leisure Activities
+// Batch 7 — Unit 06 extra lesson. In città: Sports & Leisure Activities
 const BATCH7_L1 = {id:"itv2_u06l_b7_1", title:"Sport e tempo libero", icon:"\u26BD", xp:15, board:true, steps:[
 {type:"intro", title:"Sport e tempo libero",
  desc:"Learn vocabulary for popular sports and leisure activities in Italy.",

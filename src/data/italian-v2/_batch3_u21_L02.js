@@ -8,7 +8,7 @@ const BATCH3_U21_L2 = {
 
     {type:"teach", trg:"le sarei grato", src:"I would be grateful to you (formal)", pos:"verb", gender:null,
      note:"Formal expression. 'Le' = to you (Lei form).\n'Le sarei grato se...' = I would be grateful if...",
-     example:"A: Le sarei grato se potesse rispondere entro venerdi.\nB: Certo, faro del mio meglio.",
+     example:"A: Le sarei grato se potesse rispondere entro venerdì.\nB: Certo, faro del mio meglio.",
      exampleSrc:"A: I would be grateful if you could reply by Friday.\nB: Of course, I will do my best.",
      funFact:"'Le sarei grato/a' is the gold standard of formal Italian requests. Used in business emails, official letters, and professional communication. The 'Le' (capitalized) signals the Lei form. Adding 'se potesse' (if you could) creates an impeccably polite request."},
 
@@ -46,10 +46,10 @@ const BATCH3_U21_L2 = {
      note:"Conditional of 'gradire' (to appreciate, to welcome).\nVery formal. 'Gradirei una risposta' = I would appreciate a reply.",
      example:"A: Gradirei ricevere informazioni sul corso.\nB: Le invio la brochure per email.",
      exampleSrc:"A: I would appreciate receiving information about the course.\nB: I will send you the brochure by email.",
-     funFact:"'Gradire' is among the most formal Italian verbs for requests. In restaurants: 'Gradisce un caffe?' (Would you care for a coffee?). In business: 'Gradirei un incontro' (I would appreciate a meeting). It conveys refined politeness beyond simple 'vorrei.'"},
+     funFact:"'Gradire' is among the most formal Italian verbs for requests. In restaurants: 'Gradisce un caffè?' (Would you care for a coffee?). In business: 'Gradirei un incontro' (I would appreciate a meeting). It conveys refined politeness beyond simple 'vorrei.'"},
 
     {type:"teach", trg:"bisognerebbe", src:"it would be necessary / one should", pos:"verb", gender:null,
-     note:"Conditional of 'bisognare' (impersonal). 'Bisognerebbe studiare di piu' = One should study more.",
+     note:"Conditional of 'bisognare' (impersonal). 'Bisognerebbe studiare di più' = One should study more.",
      example:"A: Bisognerebbe organizzarsi meglio.\nB: Sono d'accordo, facciamo un piano.",
      exampleSrc:"A: We should organize ourselves better.\nB: I agree, let us make a plan.",
      funFact:"'Bisognerebbe' softens necessity. 'Bisogna' (it is necessary) is direct. 'Bisognerebbe' (it would be necessary) is gentle. Italian managers often use impersonal forms to avoid singling people out: 'bisognerebbe migliorare' rather than 'devi migliorare.'"},
