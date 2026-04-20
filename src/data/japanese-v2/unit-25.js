@@ -224,6 +224,98 @@ const UNIT_25 = {
   {type:"match", pairs:[{trg:"対立(たいりつ)",src:"conflict / opposition"},{trg:"誤解(ごかい)",src:"misunderstanding"},{trg:"仲裁(ちゅうさい)する",src:"to mediate"},{trg:"謝(あやま)る",src:"to apologize"},{trg:"和解(わかい)",src:"reconciliation"},{trg:"話(はな)し合(あ)い",src:"discussion / negotiation"},{trg:"訴(うった)える",src:"to appeal / file a complaint"}]},
 ]},
 
+// ═══ N3 Abstract Verbs & Attitude Adjectives ═══
+,{id:"jav2_u25l_n3_abstract_verbs", title:"N3 Verbs: Conviction & Prevention", icon:"🔷", xp:20, board:true, steps:[
+  {type:"intro", title:"N3 Verbs: Conviction and Prevention",
+   desc:"This lesson covers N3 verbs expressing belief, doubt, hope, and prevention, plus key attitude adjectives. These words appear frequently in JLPT N3 reading and listening and are essential for B1 communication.",
+   goals:["Use 願う, 疑う, 防ぐ in context","Apply 完全, 真剣, 熱心, 積極的 as descriptors","Recognize 成長 as a standalone noun"]},
+
+  {type:"teach", trg:"願(ねが)う", src:"to wish / to hope / to request", pos:"verb", gender:null,
+   note:"願(ねが)う = wish from the heart. 〜を願(ねが)う = to hope for something.\n願(ねが)い = the noun form (a wish).",
+   example:"A: 試験(しけん)に合格(ごうかく)できるよう願(ねが)っています。\nB: 一生懸命(いっしょうけんめい)頑張(がんば)れば、きっと大丈夫(だいじょうぶ)です。",
+   exampleSrc:"A: I am hoping to pass the exam.\nB: If you work as hard as you can, I am sure it will be fine.",
+   funFact:"願う uses the kanji 願(ねが), which also appears in お願(ねが)い (request / please). The difference between 願う (heartfelt wish or appeal) and 望(のぞ)む (directed desire/aspiration) is subtle: 願う emphasizes a prayer-like hope, while 望む describes aiming toward something. New Year prayers at shrines use 願(ねが)い."},
+
+  {type:"teach", trg:"疑(うたが)う", src:"to doubt / to suspect", pos:"verb", gender:null,
+   note:"疑(うたが)う = to cast doubt on. 〜を疑(うたが)う = to doubt something or someone.\n疑(うたが)い = noun: doubt, suspicion.",
+   example:"A: 彼(かれ)の言葉(ことば)を疑(うたが)う理由(りゆう)がありますか？\nB: 特(とく)にはありませんが、確認(かくにん)したほうがいいと思(おも)います。",
+   exampleSrc:"A: Is there a reason to doubt his words?\nB: Not particularly, but I think it would be better to confirm.",
+   funFact:"疑う shares its root with 疑問(ぎもん) (doubt / question) and 疑惑(ぎわく) (suspicion). In Japanese, openly 疑う-ing someone is considered impolite because it implies distrust. The indirect phrase ちょっと確認(かくにん)させてください (let me just double-check) is culturally preferred. The passive 疑(うたが)われる (to be suspected) carries serious social weight."},
+
+  {type:"teach", trg:"防(ふせ)ぐ", src:"to prevent / to protect against / to ward off", pos:"verb", gender:null,
+   note:"防(ふせ)ぐ = block or stop something harmful before it occurs.\n〜を防(ふせ)ぐ = prevent something. 予防(よぼう) = prevention (noun).",
+   example:"A: 病気(びょうき)を防(ふせ)ぐために、手(て)をよく洗(あら)ってください。\nB: はい、毎日(まいにち)の習慣(しゅうかん)が大切(たいせつ)ですね。",
+   exampleSrc:"A: Please wash your hands well to prevent illness.\nB: Yes, daily habits are important.",
+   funFact:"防ぐ uses the kanji 防(ふせ), which appears in 防火(ぼうか) (fire prevention), 防衛(ぼうえい) (defense), and 防犯(ぼうはん) (crime prevention). In public health messaging, 感染(かんせん)を防(ふせ)ぐ (prevent infection) is one of the most common uses. Note the て-form: 防(ふせ)いで, not 防(ふせ)ぎて, due to a voicing rule for gu-ending verbs."},
+
+  {type:"mc", q:"Which verb means to prevent something harmful from happening?",
+   opts:["願(ねが)う","疑(うたが)う","防(ふせ)ぐ","頑張(がんば)る"],
+   ans:"防(ふせ)ぐ",
+   hint:"This verb is used for blocking illness, accidents, or problems before they occur."},
+
+  {type:"teach", trg:"成長(せいちょう)", src:"growth / development / maturation", pos:"noun", gender:null,
+   note:"Noun form used alone. 成長(せいちょう)する = to grow (verb).\n子供(こども)の成長(せいちょう) = a child's growth. 個人(こじん)の成長(せいちょう) = personal growth.",
+   example:"A: 一年間(いちねんかん)でずいぶん成長(せいちょう)しましたね。\nB: 失敗(しっぱい)から学(まな)んだことが大(おお)きかったです。",
+   exampleSrc:"A: You have grown considerably over the past year.\nB: Learning from failures was a big part of it.",
+   funFact:"成長(せいちょう) uses 成 (become) and 長 (grow). The same 成 appears in 成功(せいこう) (success) and 成熟(せいじゅく) (maturity). Japanese educational philosophy stresses growth through failure: the proverb 七転(ななころ)び八起(やお)き (fall seven times, rise eight) expresses this spirit. Personal growth (成長(せいちょう)) is a central theme in school graduation speeches and job interviews."},
+
+  {type:"teach", trg:"完全(かんぜん)", src:"complete / perfect / total", pos:"adj", gender:null,
+   note:"完全(かんぜん)な = complete (attributive). 完全(かんぜん)に = completely (adverb).\nNothing missing, no flaws.",
+   example:"A: 完全(かんぜん)な準備(じゅんび)はできましたか？\nB: 完全(かんぜん)ではありませんが、できる限(かぎ)り頑張(がんば)りました。",
+   exampleSrc:"A: Have you completed the preparations fully?\nB: Not completely, but I tried as hard as I could.",
+   funFact:"完全 uses 完 (finish/complete) and 全 (all/whole). Both kanji reinforce the idea of nothing missing. 完全犯罪(かんぜんはんざい) (perfect crime) is a popular phrase from detective fiction. In daily speech, 完全(かんぜん)じゃない (not perfect) is said with humility when handing in work, even when it is excellent, reflecting Japanese modesty culture."},
+
+  {type:"tip", title:"Conviction Verbs: Plain Form Pairs",
+   text:"N3 verbs of belief and doubt often have matching nouns:\n\n願(ねが)う (verb) + 願(ねが)い (noun) = wish\n疑(うたが)う (verb) + 疑(うたが)い (noun) = doubt\n防(ふせ)ぐ (verb) + 予防(よぼう) (noun) = prevent / prevention\n\nLearning the verb-noun pair together helps with both reading and speaking tasks on JLPT.",
+   deepDive:{title:"Verb Forms for N3 Practice",
+    text:"These three verbs follow Group 1 (u-verb) conjugation:\n\n願(ねが)う: 願(ねが)います, 願(ねが)って, 願(ねが)わない\n疑(うたが)う: 疑(うたが)います, 疑(うたが)って, 疑(うたが)わない\n防(ふせ)ぐ: 防(ふせ)ぎます, 防(ふせ)いで, 防(ふせ)がない\n\nNote: 防ぐ takes the て-form 防(ふせ)いで, not 防(ふせ)ぎて. This voicing rule (gu endings become -ide in て-form) is tested on JLPT N3. Compare: 泳(およ)ぐ → 泳(およ)いで."}},
+
+  {type:"teach", trg:"真剣(しんけん)", src:"serious / earnest / sincere", pos:"adj", gender:null,
+   note:"真剣(しんけん)な = serious (attributive). 真剣(しんけん)に = seriously (adverb).\n真剣(しんけん)に取(と)り組(く)む = to tackle something seriously.",
+   example:"A: 彼女(かのじょ)は仕事(しごと)に真剣(しんけん)に取(と)り組(く)んでいます。\nB: その積極的(せっきょくてき)な姿勢(しせい)が評価(ひょうか)されています。",
+   exampleSrc:"A: She is tackling her work with earnest dedication.\nB: That proactive attitude is being recognized.",
+   funFact:"真剣(しんけん) literally means 'real sword,' as opposed to 木刀(ぼくとう) (wooden practice sword). The metaphor is vivid: when you are 真剣(しんけん), you are not just practicing, you are using the real blade. The phrase 真剣勝負(しんけんしょうぶ) (a real contest, no holding back) comes from martial arts. In daily life, it signals that you mean business."},
+
+  {type:"teach", trg:"熱心(ねっしん)", src:"enthusiastic / zealous / passionate", pos:"adj", gender:null,
+   note:"熱心(ねっしん)な = enthusiastic (attributive). 熱心(ねっしん)に = enthusiastically.\n熱心(ねっしん)に勉強(べんきょう)する = to study with dedication.",
+   example:"A: 田中(たなか)さんは熱心(ねっしん)に日本語(にほんご)を勉強(べんきょう)していますね。\nB: はい、毎日(まいにち)一時間(いちじかん)以上(いじょう)練習(れんしゅう)しているそうです。",
+   exampleSrc:"A: Tanaka is studying Japanese very enthusiastically.\nB: Yes, apparently she practices more than one hour every day.",
+   funFact:"熱心 uses 熱 (heat/fever) and 心 (heart). The image is of a heart burning with passion. Related words: 情熱(じょうねつ) (passion), 熱意(ねつい) (enthusiasm and drive). In job interviews, 何(なに)でも熱心(ねっしん)に取(と)り組(く)みます (I tackle everything with enthusiasm) is a standard self-description. Schools also value 熱心さ (dedication) as a core character trait."},
+
+  {type:"teach", trg:"積極的(せっきょくてき)", src:"proactive / positive / assertive", pos:"adj", gender:null,
+   note:"積極的(せっきょくてき)な = proactive. Opposite: 消極的(しょうきょくてき)な = passive.\n積極的(せっきょくてき)に参加(さんか)する = to participate actively.",
+   example:"A: 会議(かいぎ)では積極的(せっきょくてき)に意見(いけん)を出(だ)してください。\nB: 分(わ)かりました。成長(せいちょう)のためにも積極的(せっきょくてき)に発言(はつげん)します。",
+   exampleSrc:"A: Please proactively share your opinions in the meeting.\nB: Understood. I will speak up proactively for my own growth as well.",
+   funFact:"積極的 uses 積 (accumulate), 極 (utmost), and 的 (adjectival suffix). Its opposite, 消極的(しょうきょくてき), combines 消 (extinguish) + 極 + 的. In modern Japanese workplaces and schools, being 積極的(せっきょくてき) is praised, while 消極的(しょうきょくてき) is gently corrected. JLPT N3 commonly tests this antonym pair."},
+
+  {type:"fb", s:"彼女(かのじょ)は仕事(しごと)に{1}に取(と)り組(く)んでいます。\n(She is tackling her work seriously.)", a:"真剣(しんけん)", opts:["真剣(しんけん)","熱心(ねっしん)","積極的(せっきょくてき)","完全(かんぜん)"], sSrc:"She is tackling her work seriously.",
+   hint:"The adjective literally meaning 'real sword,' used to express full seriousness, not just practice."},
+
+  {type:"fb", s:"会議(かいぎ)では{1}に意見(いけん)を出(だ)してください。\n(Please proactively share your opinions in the meeting.)", a:"積極的(せっきょくてき)", opts:["積極的(せっきょくてき)","消極的(しょうきょくてき)","熱心(ねっしん)","真剣(しんけん)"], sSrc:"Please proactively share your opinions in the meeting.",
+   hint:"The attitude adjective meaning active and forward-leaning, the opposite of passive."},
+
+  {type:"fb", s:"病気(びょうき)を{1}ために、毎日(まいにち)手(て)を洗(あら)ってください。\n(Please wash your hands every day in order to prevent illness.)", a:"防(ふせ)ぐ", opts:["防(ふせ)ぐ","願(ねが)う","疑(うたが)う","成長(せいちょう)する"], sSrc:"Please wash your hands every day in order to prevent illness.",
+   hint:"The verb for blocking or stopping something harmful before it can occur."},
+
+  {type:"fb", s:"試験(しけん)に合格(ごうかく)できるよう{1}います。\n(I am hoping to pass the exam.)", a:"願(ねが)って", opts:["願(ねが)って","疑(うたが)って","防(ふせ)いで","終(お)わって"], sSrc:"I am hoping to pass the exam.",
+   hint:"The te-form of the verb meaning to wish or hope from the heart."},
+
+  {type:"mc", q:"田中(たなか)さんは日本語(にほんご)を熱心(ねっしん)に勉強(べんきょう)しています. Which best describes her?",
+   opts:["She studies Japanese reluctantly","She studies Japanese with great enthusiasm","She has stopped studying Japanese","She is a Japanese teacher"],
+   ans:"She studies Japanese with great enthusiasm",
+   hint:"熱心(ねっしん) contains 熱 meaning heat or burning passion."},
+
+  {type:"match", pairs:[
+    {trg:"願(ねが)う", src:"to wish / to hope"},
+    {trg:"疑(うたが)う", src:"to doubt / to suspect"},
+    {trg:"防(ふせ)ぐ", src:"to prevent / to ward off"},
+    {trg:"完全(かんぜん)", src:"complete / perfect"},
+    {trg:"成長(せいちょう)", src:"growth / development"},
+    {trg:"真剣(しんけん)", src:"serious / earnest"},
+    {trg:"熱心(ねっしん)", src:"enthusiastic / zealous"},
+    {trg:"積極的(せっきょくてき)", src:"proactive / assertive"}
+  ]},
+]}
 ,EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L03
 ,BATCH2_L04
