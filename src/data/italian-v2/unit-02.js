@@ -308,6 +308,153 @@ const UNIT_02 = {
        hint:"Italian forms reverse the English order. The family name appears before the given name on all official documents."},
     ]},
     EXP_02_L1, EXP_02_L2, EXP_02_L3,
+
+    {id:"itv2_u2l_essential_a1", title:"Pronomi, verbi e aggettivi", icon:"🗣️", xp:20, board:true, steps:[
+      {type:"intro", title:"Pronouns, Verbs & Adjectives",
+       desc:"Learn the remaining subject pronouns, two essential -are verbs, three key adjectives, and one very common word for university.",
+       goals:["Use all Italian subject pronouns","Conjugate lavorare and parlare","Describe things as easy, difficult, or interesting","Talk about university life","Use forse to express maybe"]},
+
+      {type:"teach", trg:"lui", src:"he", pos:"pron", gender:null,
+       note:"Third-person singular masculine subject pronoun.\nItalian often drops subject pronouns, but 'lui' is used for contrast or emphasis.",
+       example:"A: Chi parla italiano?\nB: Lui parla italiano. Io parlo inglese.",
+       exampleSrc:"A: Who speaks Italian?\nB: He speaks Italian. I speak English.",
+       funFact:"In older Italian, 'egli' was the formal word for 'he,' but modern spoken Italian almost universally uses 'lui' instead. You will only see 'egli' in classical literature today."},
+
+      {type:"teach", trg:"voi", src:"you (plural)", pos:"pron", gender:null,
+       note:"Second-person plural pronoun. Used when addressing two or more people informally.\nVoi form for -are verbs ends in -ate: voi lavorate, voi parlate.",
+       example:"A: Voi parlate italiano?\nB: Si, studiamo italiano da tre mesi.",
+       exampleSrc:"A: Do you (all) speak Italian?\nB: Yes, we have been studying Italian for three months.",
+       funFact:"In southern Italy, 'voi' was historically used as a formal singular address (like vous in French), but this usage has faded. Today standard Italian uses 'Lei' for formal singular."},
+
+      {type:"teach", trg:"loro", src:"they / them", pos:"pron", gender:null,
+       note:"Third-person plural pronoun for any gender mix.\nAs a subject: loro lavorano. As an object: parlo con loro (I speak with them).",
+       example:"A: Dove lavorano Marco e Anna?\nB: Loro lavorano a Roma. E molto interessante.",
+       exampleSrc:"A: Where do Marco and Anna work?\nB: They work in Rome. It is very interesting.",
+       funFact:"'Loro' is both subject (they) and object (them/their) in Italian. It is also the word for 'gold' in some contexts, from Latin 'aurum' via a different path. Context always clarifies which meaning is intended."},
+
+      {type:"teach", trg:"lavorare", src:"to work", pos:"verb", gender:null,
+       note:"Regular -are verb. Io lavoro, tu lavori, lui/lei lavora, noi lavoriamo, voi lavorate, loro lavorano.\nUse: lavorare in/per/con (work at/for/with).",
+       example:"A: Dove lavori?\nB: Lavoro in un ufficio. E tu?\nA: Io studio. Non lavoro ancora.",
+       exampleSrc:"A: Where do you work?\nB: I work in an office. And you?\nA: I study. I don't work yet.",
+       funFact:"From Latin 'laborare.' The same root gives English 'labor,' 'laboratory,' and 'elaborate.' In Italian, 'lavoro' (the noun) is one of the 100 most frequently used words in the language."},
+
+      {type:"teach", trg:"parlare", src:"to speak / to talk", pos:"verb", gender:null,
+       note:"Regular -are verb. Io parlo, tu parli, lui/lei parla, noi parliamo, voi parlate, loro parlano.\nUse: parlare italiano / parlare con qualcuno (talk to someone).",
+       example:"A: Parli italiano bene!\nB: Grazie! Studio italiano da tre mesi.",
+       exampleSrc:"A: You speak Italian well!\nB: Thank you! I have been studying Italian for three months.",
+       funFact:"'Parlare' comes from Late Latin 'parabolare,' meaning to speak in parables. The same root gives French 'parler' and Spanish 'hablar' (via a different path). Italian and French kept the Latin form almost intact."},
+
+      {type:"tip", title:"Italian Subject Pronouns: Optional but Useful",
+       text:"Italian is a pro-drop language: the verb ending already shows who is acting.\nio parlo — I speak (the -o tells you it's io)\nlui parla — he speaks (the -a tells you it's lei/lui)\n\nSo Italians often drop the pronoun:\nParli italiano? (Do you speak Italian?) — the -i ending = tu.\n\nUse the pronoun when you want to:\n- Contrast: Io lavoro, lui studia. (I work, HE studies.)\n- Clarify: Lei parla inglese? (Does SHE speak English?)\n- Emphasize: Voi lavorare molto! (YOU all work a lot!)\n\nKey pronoun summary:\nio — I | tu — you (sing.) | lui — he | lei — she\nnoi — we | voi — you (pl.) | loro — they",
+       icon:"💡",
+       deepDive:{title:"When to use subject pronouns in Italian",
+        text:"In languages like Spanish, French, and Italian (called pro-drop languages), subject pronouns are optional because the verb conjugation encodes the subject. Italian verbs have six distinct endings for the six persons, making the pronoun redundant. However, pronouns appear in three situations: (1) Contrastive focus: 'Io lavoro, tu studi' — the contrast is the whole point. (2) Disambiguation: 'lui parla' vs. 'lei parla' both share the -a ending, so the pronoun clarifies gender. (3) Formal contexts: written Italian and careful speech retain pronouns more often. The pronoun 'loro' for third-person plural is increasingly replaced by 'loro lavorano' being shortened to just the conjugated verb in casual speech."}},
+
+      {type:"teach", trg:"facile", src:"easy", pos:"adj", gender:null,
+       note:"Adjective ending in -e: same form for masculine and feminine singular.\nFacile/facile (m./f. sing.) — facili/facili (m./f. pl.).",
+       example:"A: E difficile parlare italiano?\nB: No, e facile! Le parole sono interessanti.",
+       exampleSrc:"A: Is it difficult to speak Italian?\nB: No, it is easy! The words are interesting.",
+       funFact:"Italian adjectives ending in -e (not -o/-a) are invariable for gender: un libro facile, una lezione facile. Only the plural changes: libri facili, lezioni facili. This is one of the few places Italian grammar is simpler than Spanish."},
+
+      {type:"teach", trg:"difficile", src:"difficult", pos:"adj", gender:null,
+       note:"Opposite of facile. Same -e ending rule: invariable for gender in singular.\nNote: in Italian, 'difficile' sounds more neutral than in English; use it freely.",
+       example:"A: Il cinese e difficile?\nB: Si, e molto difficile. Ma e anche molto interessante.",
+       exampleSrc:"A: Is Chinese difficult?\nB: Yes, it is very difficult. But it is also very interesting.",
+       funFact:"'Difficile' comes from Latin 'difficilis' (not easy). The prefix 'dis-' + 'facilis' (easy). The same logic as English 'difficult' from 'dis-' + 'facilis.' Both English and Italian built the opposite of 'easy' the same way."},
+
+      {type:"teach", trg:"interessante", src:"interesting", pos:"adj", gender:null,
+       note:"Adjective ending in -e: same for m./f. singular. Plural: interessanti.\nVery common in conversation: e interessante! (how interesting!)",
+       example:"A: Come e il corso di italiano?\nB: E molto interessante e non troppo difficile.",
+       exampleSrc:"A: How is the Italian course?\nB: It is very interesting and not too difficult.",
+       funFact:"This word is a transparent cognate with English 'interesting,' French 'intéressant,' and Spanish 'interesante.' It comes from Latin 'interesse' (to be between, to matter). Italian learners get this one for free from day one."},
+
+      {type:"teach", trg:"l'università", src:"university", pos:"noun", gender:"f",
+       note:"Feminine noun. The article contracts before vowels: l'università (not la università).\nAt university = all'università. I study at university = Studio all'università.",
+       example:"A: Dove studi?\nB: Studio all'università. E facile?\nA: No, e molto difficile ma interessante.",
+       exampleSrc:"A: Where do you study?\nB: I study at university. Is it easy?\nA: No, it is very difficult but interesting.",
+       funFact:"The word comes from Latin 'universitas,' meaning a whole community or guild. Medieval European universities (Bologna in 1088, Oxford in 1096) used this term for their communities of scholars. Italian 'università' still carries that ancient communal meaning."},
+
+      {type:"teach", trg:"forse", src:"maybe / perhaps", pos:"adv", gender:null,
+       note:"Invariable adverb. Placed at start or mid-sentence.\nForse + present tense = maybe it is so. Forse + future = maybe it will happen.",
+       example:"A: Lui lavora all'università?\nB: Forse. Non sono sicuro.",
+       exampleSrc:"A: Does he work at the university?\nB: Maybe. I am not sure.",
+       funFact:"'Forse' comes from Latin 'forsitan' (perhaps, it may be). In formal or literary Italian, you might see 'forse' doubled for emphasis — 'forse forse' — meaning 'quite possibly' or 'I really think so, but I'm not sure.' Very expressive!"},
+
+      {type:"mc", q:"Come si dice 'he' in italiano?",
+       opts:["lui","voi","loro","io"],
+       ans:"lui",
+       hint:"This pronoun refers to a single male person. It shares its first letter with the English word 'him.'"},
+
+      {type:"mc", q:"Which pronoun means 'you (plural)' when addressing a group?",
+       opts:["voi","loro","lui","si"],
+       ans:"voi",
+       hint:"This is the pronoun used to address multiple people informally. In Italian restaurants, the server uses this when talking to a table of guests."},
+
+      {type:"fb", s:"Marco e Anna lavorano a Milano. {1} sono ingegneri.",
+       a:["Loro"],
+       opts:["Loro","Voi","Lui","Io"],
+       hint:"Marco and Anna are two people being described. You need the third-person plural subject pronoun.",
+       sSrc:"Marco and Anna work in Milan. {1} are engineers."},
+
+      {type:"match", pairs:[
+        {trg:"lui", src:"he"},
+        {trg:"voi", src:"you (plural)"},
+        {trg:"loro", src:"they"},
+        {trg:"forse", src:"maybe / perhaps"}
+      ]},
+
+      {type:"fb", s:"Io {1} italiano. E tu?",
+       a:["parlo"],
+       opts:["parlo","parli","parla","parlate"],
+       hint:"Fill in the correct form of parlare for the first-person singular (io). Regular -are verbs drop -are and add -o for io.",
+       sSrc:"I {1} Italian. And you?"},
+
+      {type:"fb", s:"Loro {1} all'università.",
+       a:["lavorano"],
+       opts:["lavorano","lavoro","lavori","lavorate"],
+       hint:"Use the correct form of lavorare for loro (they). Regular -are verbs add -ano for the third-person plural.",
+       sSrc:"They {1} at the university."},
+
+      {type:"mc", q:"Which Italian adjective means 'easy'?",
+       opts:["facile","difficile","interessante","bene"],
+       ans:"facile",
+       hint:"Think of 'facility' in English, meaning ease or the ability to do something without effort. Same Latin root."},
+
+      {type:"mc", q:"How does the adjective 'interessante' change for a feminine noun?",
+       opts:["It stays the same (interessante)","It becomes interessanta","It becomes interessanti","It becomes interessa"],
+       ans:"It stays the same (interessante)",
+       hint:"Italian adjectives ending in -e are invariable for gender in the singular. Only the plural form changes. Think of the -e class: one form covers both masculine and feminine."},
+
+      {type:"drag_fill",
+       s:"L'italiano e {interessante} ma non e {difficile}.",
+       blanks:{"interessante":"interesting","difficile":"difficult"},
+       pool:["interessante","difficile","facile","bello"],
+       hint:"Drag the two adjectives into the correct blanks. One means engaging; the other means hard.",
+       sSrc:"Italian is [interesting] but it is not [difficult]."},
+
+      {type:"match", pairs:[
+        {trg:"lavorare", src:"to work"},
+        {trg:"parlare", src:"to speak / to talk"},
+        {trg:"l'università", src:"university"},
+        {trg:"interessante", src:"interesting"}
+      ]},
+
+      {type:"mc", q:"What is the Italian word for 'university'?",
+       opts:["l'università","la scuola","il lavoro","l'ufficio"],
+       ans:"l'università",
+       hint:"This Italian word is a near-perfect cognate with English. It begins with a vowel, so the article contracts to l'."},
+
+      {type:"fb", s:"Voi {1} italiano bene!",
+       a:["parlate"],
+       opts:["parlate","parla","parliamo","parlo"],
+       hint:"You are addressing a group (voi). For regular -are verbs, the second-person plural ending is -ate. Count the other options: -o is first person, -a is third singular, -iamo is first plural.",
+       sSrc:"You (all) {1} Italian well!"},
+
+      {type:"mc", q:"How do you say 'maybe' in Italian?",
+       opts:["forse","bene","anche","molto"],
+       ans:"forse",
+       hint:"This adverb expresses uncertainty. It is placed at the beginning or middle of a sentence. Think of 'perhaps' and its role in conversation."},
+    ]},
   ]
 };
 
