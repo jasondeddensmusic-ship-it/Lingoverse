@@ -433,6 +433,153 @@ const UNIT_15 = {
        ans:"Registering your address with the civil registry",
        hint:"The anagrafe is where Italian residents file their location. This phrase describes the act of doing that filing."}
     ]}
+    ,{id:"itv2_u15l_b1_abstract", title:"Concetti astratti", icon:"💡", xp:20, board:true, steps:[
+      {type:"intro", title:"Concetti astratti",
+       desc:"Master key abstract nouns and verbs essential for CILS B1 discussion topics: meaning, tolerance, sustainability, and critical thinking vocabulary. These words appear across opinion essays, debates, and formal conversations.",
+       goals:["Use abstract nouns to express ideas","Apply critical thinking vocabulary","Form opinions on social and environmental topics"]},
+
+      {type:"teach", trg:"il significato", src:"the meaning", pos:"noun", gender:"m",
+       note:"Masculine. From 'significare' (to mean, to signify).\n'Che significato ha?' = What does it mean?",
+       example:"A: Qual e il significato di questa parola?\nB: Vuol dire 'tolleranza.'\nA: E importante capire il significato esatto.\nB: Hai ragione, il contesto aiuta molto.",
+       exampleSrc:"A: What is the meaning of this word?\nB: It means 'tolerance.'\nA: It is important to understand the exact meaning.\nB: You are right, context helps a lot.",
+       funFact:"'Significato' shares its Latin root with the English 'significant.' In Italian linguistics, 'il significante' is the word form (sound/spelling) and 'il significato' is the meaning it carries. This distinction comes from the Swiss linguist Ferdinand de Saussure, widely studied in Italian universities."},
+
+      {type:"teach", trg:"necessario", src:"necessary / essential", pos:"adj", gender:null,
+       note:"Agrees with noun gender/number: necessario (m), necessaria (f), necessari (m pl), necessarie (f pl).\nFrom Latin 'necessarius' (unavoidable).",
+       example:"A: E necessario studiare ogni giorno?\nB: Si, e necessario per imparare bene.\nA: Anche il fine settimana?\nB: Almeno un po'. La costanza e necessaria.",
+       exampleSrc:"A: Is it necessary to study every day?\nB: Yes, it is necessary to learn well.\nA: Even at the weekend?\nB: At least a little. Consistency is necessary.",
+       funFact:"'Necessario' comes from the Latin 'necesse,' which is said to derive from 'ne-cedere' (not to yield). The Romans used it for things that simply cannot be avoided. The same root appears in English 'necessity' and French 'necessaire.'"},
+
+      {type:"teach", trg:"principale", src:"main / principal", pos:"adj", gender:null,
+       note:"Does not change for gender: il problema principale, la ragione principale.\nPlural: principali (same for m and f).\nFrom Latin 'principalis' (first in importance).",
+       example:"A: Qual e il problema principale?\nB: La mancanza di risorse e l'ostacolo principale.\nA: E l'obiettivo principale del progetto?\nB: Trovare una soluzione sostenibile.",
+       exampleSrc:"A: What is the main problem?\nB: The lack of resources is the main obstacle.\nA: And the main goal of the project?\nB: To find a sustainable solution.",
+       funFact:"'Principale' shares its Latin root with 'prince' (princeps = the first). In Italian schools, 'il preside' (principal/headteacher) was historically called 'il principale.' The same root gives us 'principio' (principle/beginning) and 'la principessa' (princess)."},
+
+      {type:"teach", trg:"impossibile", src:"impossible", pos:"adj", gender:null,
+       note:"Does not change for gender: impossibile (m/f). Plural: impossibili.\nOpposite: possibile (possible). From Latin 'impossibilis.'",
+       example:"A: E possibile finire il progetto oggi?\nB: E quasi impossibile. Abbiamo bisogno di piu tempo.\nA: Cosa possiamo fare?\nB: Dobbiamo decidere cosa e veramente necessario.",
+       exampleSrc:"A: Is it possible to finish the project today?\nB: It is almost impossible. We need more time.\nA: What can we do?\nB: We must decide what is truly necessary.",
+       funFact:"'Impossible' entered English directly from the Latin 'impossibilis.' One famous use: Nelson Mandela's quote often cited in Italian is 'Sembra sempre impossibile finche non e fatto' ('It always seems impossible until it is done'). This sentence is a staple of Italian motivational culture."},
+
+      {type:"teach", trg:"la tolleranza", src:"tolerance / acceptance", pos:"noun", gender:"f",
+       note:"Feminine. From Latin 'tolerantia' (endurance, patience).\nIn modern Italian, used for social tolerance and scientific measurement.",
+       example:"A: La tolleranza e importante nella societa.\nB: Sono d'accordo. Dobbiamo capire le differenze.\nA: Come possiamo imparare la tolleranza?\nB: Parlando con persone diverse e ascoltando le loro storie.",
+       exampleSrc:"A: Tolerance is important in society.\nB: I agree. We must understand differences.\nA: How can we learn tolerance?\nB: By talking with different people and listening to their stories.",
+       funFact:"In Italian philosophy and history, 'tolleranza' has deep roots in the Enlightenment. Voltaire's 'Trattato sulla tolleranza' (Treatise on Tolerance, 1763) was widely read in Italian intellectual circles. Today the word covers everything from social acceptance to engineering tolerances (margini di tolleranza)."},
+
+      {type:"teach", trg:"la sostenibilità", src:"sustainability", pos:"noun", gender:"f",
+       note:"Feminine. Accent on final -a. From 'sostenibile' (sustainable).\nKey term in Italian environmental and economic discourse.",
+       example:"A: La sostenibilita e il tema principale del progetto.\nB: Dobbiamo trovare soluzioni che aiutano l'economia e l'ambiente.\nA: E possibile avere i due insieme?\nB: Si, ma serve un cambiamento necessario nella politica.",
+       exampleSrc:"A: Sustainability is the main theme of the project.\nB: We must find solutions that help both the economy and the environment.\nA: Is it possible to have both?\nB: Yes, but a necessary change in policy is needed.",
+       funFact:"Italy is a European leader in the 'economia circolare' (circular economy). The country recycles 79% of its packaging, ahead of the EU average. The word 'sostenibilita' entered common Italian usage in the 1990s following the Brundtland Report, which defined sustainable development."},
+
+      {type:"teach", trg:"sperimentare", src:"to experience / to experiment", pos:"verb", gender:null,
+       note:"Regular -are verb. Two meanings: to experience something directly, or to conduct an experiment.\nContext clarifies which sense is intended.",
+       example:"A: Hai sperimentato difficolta nel lavoro?\nB: Si, ho sperimentato molti problemi all'inizio.\nA: Come hai imparato a risolvere i problemi?\nB: Sperimentando soluzioni diverse e chiedendo aiuto.",
+       exampleSrc:"A: Have you experienced difficulties at work?\nB: Yes, I experienced many problems at the beginning.\nA: How did you learn to solve the problems?\nB: By trying out different solutions and asking for help.",
+       funFact:"'Sperimentare' comes from Latin 'experiri' (to try, to test), the same root as 'esperienza' (experience) and the English 'experiment.' In Italian science, 'lo sperimento' is a controlled experiment, while 'l'esperienza' is a lived experience. The verb bridges both meanings."},
+
+      {type:"teach", trg:"esaminare", src:"to examine / to analyze", pos:"verb", gender:null,
+       note:"Regular -are verb. More formal than 'guardare' (to look at).\nUsed in academic, medical, and investigative contexts.",
+       example:"A: Dobbiamo esaminare il problema con attenzione.\nB: Hai ragione. Non possiamo decidere senza esaminare i dati.\nA: Come puoi esaminare la situazione?\nB: Devo parlare con le persone e capire i fatti.",
+       exampleSrc:"A: We must examine the problem carefully.\nB: You are right. We cannot decide without examining the data.\nA: How can you examine the situation?\nB: I need to talk to the people and understand the facts.",
+       funFact:"'Esaminare' shares its root with 'esame' (exam/examination), from Latin 'examen' (weighing, testing). The 'esame di stato' (state exam) is Italy's school-leaving qualification, taken at the end of secondary school. It is one of the most discussed events in Italian culture every June."},
+
+      {type:"teach", trg:"investigare", src:"to investigate", pos:"verb", gender:null,
+       note:"Regular -are verb. More formal and official than 'cercare' (to search).\nUsed in journalism, law, and science.",
+       example:"A: I giornalisti investigano la situazione con attenzione.\nB: E necessario investigare prima di rispondere.\nA: E possibile investigare senza i dati?\nB: No, bisogna esaminare tutti i fatti principali.",
+       exampleSrc:"A: The journalists are investigating the situation carefully.\nB: It is necessary to investigate before responding.\nA: Is it possible to investigate without data?\nB: No, you must examine all the main facts.",
+       funFact:"'Investigare' comes from Latin 'investigare' (to track, to follow footprints), from 'vestigium' (footprint, trace). The same root gives 'le vestigia' (ruins, traces) in Italian. The word entered English as 'investigate' during the Renaissance, when Latin-educated scholars carried both languages simultaneously."},
+
+      {type:"tip", title:"Abstract Adjectives: Agreement Patterns",
+       text:"Italian adjectives must agree with the nouns they modify. These B1 adjectives follow standard patterns.\n\nTwo-form adjectives (change only for singular/plural, not gender):\nnecessario / necessaria / necessari / necessarie\npossibile / possibili (same for m and f)\nimpossibile / impossibili (same for m and f)\nprincipal adjectives ending in -e: principale / principali\n\nExamples:\nIl problema principale. (The main problem.)\nLa ragione principale. (The main reason.)\nI problemi principali. (The main problems.)\nE necessario studiare. (It is necessary to study.)\nLa costanza e necessaria. (Consistency is necessary.)\n\nTip: Adjectives ending in -e (possibile, impossibile, principale) never change for gender, only for number. This makes them easier to use than adjectives ending in -o/-a.",
+       icon:"💡",
+       deepDive:{title:"Necessario and the impersonal construction",
+        text:"'Necessario' appears most often in impersonal constructions: 'e necessario + infinitive' and 'e necessario che + subjunctive.' The infinitive form is simpler and more common in B1 speech: 'E necessario studiare' (It is necessary to study). The subjunctive form is more formal: 'E necessario che tu studi' (It is necessary that you study). At B1, mastering the infinitive construction is the priority. The subjunctive version is B1/B2 territory and appears later."}},
+
+      {type:"mc", q:"What does 'il significato' mean?",
+       opts:["The signal","The meaning","The sign","The signature"],
+       ans:"The meaning",
+       hint:"Related to 'significare' (to mean). You ask 'Qual e il significato?' when you want to know what something means."},
+
+      {type:"fb", s:"E {1} studiare ogni giorno per imparare bene.",
+       a:["necessario"],
+       opts:["necessario","impossibile","principale","possibile"],
+       hint:"You need to express that daily study is required and unavoidable. Choose the adjective meaning 'essential.'",
+       sSrc:"It is {1} to study every day to learn well."},
+
+      {type:"mc", q:"Which sentence uses 'principale' correctly?",
+       opts:["Il problema e principale difficile.","Il problema principali e la mancanza di fondi.","Il problema principale e la mancanza di fondi.","Il principale problema e la mancanza di fondi principale."],
+       ans:"Il problema principale e la mancanza di fondi.",
+       hint:"This adjective follows the noun and does not change for gender. Look for the sentence where it appears in singular form, correctly placed after the noun."},
+
+      {type:"fb", s:"E quasi {1} finire il lavoro in un giorno solo.",
+       a:["impossibile"],
+       opts:["impossibile","necessario","principale","possibile"],
+       hint:"The task cannot realistically be done. Choose the adjective that means it cannot happen.",
+       sSrc:"It is almost {1} to finish the work in just one day."},
+
+      {type:"fb", s:"La {1} e fondamentale per vivere in una societa moderna.",
+       a:["tolleranza"],
+       opts:["tolleranza","sostenibilità","significato","carriera"],
+       hint:"This feminine noun describes the acceptance of differences between people. A key social value.",
+       sSrc:"{1} is essential for living in a modern society."},
+
+      {type:"mc", q:"What does 'la sostenibilità' refer to?",
+       opts:["The ability to sustain physical effort","The capacity to support a sports team","Meeting present needs without depleting resources for the future","A type of Italian regional policy from the 1980s"],
+       ans:"Meeting present needs without depleting resources for the future",
+       hint:"This noun is central to environmental and economic debate. Related to 'sostenibile' (sustainable)."},
+
+      {type:"fb", s:"Ho {1} molte difficolta nel mio primo anno di lavoro.",
+       a:["sperimentato"],
+       opts:["sperimentato","esaminato","investigato","cambiato"],
+       hint:"You directly lived through these difficulties. Use the past participle of the verb meaning 'to experience.'",
+       sSrc:"I {1} many difficulties in my first year of work."},
+
+      {type:"fb", s:"Dobbiamo {1} tutti i dati prima di decidere.",
+       a:["esaminare"],
+       opts:["esaminare","investigare","sperimentare","spiegare"],
+       hint:"Looking carefully at data before making a decision. Choose the formal verb for analyzing something closely.",
+       sSrc:"We must {1} all the data before deciding."},
+
+      {type:"fb", s:"I giornalisti devono {1} la situazione con attenzione.",
+       a:["investigare"],
+       opts:["investigare","esaminare","sperimentare","capire"],
+       hint:"Journalists search for evidence and facts. Choose the verb used in reporting and law enforcement contexts.",
+       sSrc:"Journalists must {1} the situation carefully."},
+
+      {type:"match", pairs:[
+        {trg:"il significato", src:"the meaning"},
+        {trg:"la tolleranza", src:"tolerance / acceptance"},
+        {trg:"la sostenibilità", src:"sustainability"},
+        {trg:"sperimentare", src:"to experience / to experiment"},
+        {trg:"esaminare", src:"to examine / to analyze"}
+      ]},
+
+      {type:"match", pairs:[
+        {trg:"necessario", src:"necessary / essential"},
+        {trg:"principale", src:"main / principal"},
+        {trg:"impossibile", src:"impossible"},
+        {trg:"investigare", src:"to investigate"}
+      ]},
+
+      {type:"mc", q:"Which verb is most appropriate when journalists research and uncover hidden facts?",
+       opts:["sperimentare","esaminare","investigare","spiegare"],
+       ans:"investigare",
+       hint:"This verb comes from Latin 'vestigium' (footprint). Think of following a trail of evidence."},
+
+      {type:"mc", q:"What is the gender of 'la sostenibilità'?",
+       opts:["Masculine","Feminine","Neuter","It depends on context"],
+       ans:"Feminine",
+       hint:"The article 'la' is a strong clue. Look at the ending of the noun: all Italian abstract nouns ending in -ta belong to the same grammatical category."},
+
+      {type:"fb", s:"Qual e il {1} di questa parola difficile?",
+       a:["significato"],
+       opts:["significato","problema","progetto","obiettivo"],
+       hint:"You are asking what a word means. This masculine noun is the answer to 'what does it mean?'",
+       sSrc:"What is the {1} of this difficult word?"}
+    ]}
   ]
 };
 export default UNIT_15;

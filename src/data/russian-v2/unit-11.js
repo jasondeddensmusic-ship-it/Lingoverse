@@ -277,5 +277,133 @@ const UNIT_11 = {n:11, lang:"ru", srcLang:"en", track:"v2", title:"Хобби", 
 ]}
 ,{type:"match",pairs:[{trg:"теннис",src:"tennis"},{trg:"музыка",src:"music"},{trg:"плавать",src:"to swim (habitual)"},{trg:"рисовать",src:"to draw"},{trg:"танцевать",src:"to dance"}]}]}
 
+,
+
+{id:"ruv2_u11l_a2_clothes_objects", title:"Одежда и вещи", icon:"🧥", xp:15, board:true, steps:[
+
+{type:"intro", title:"Clothes and Everyday Objects",
+ desc:"Essential A2 vocabulary: winter clothing items, household objects, and two key action verbs. Russian nouns have different endings for soft vs hard stems — this lesson covers both.",
+ goals:["Name key clothing items","Use household object words","Use открывать and закрывать in context"]},
+
+{type:"teach", trg:"куртка", src:"jacket / short coat", pos:"noun", gender:"f",
+ note:"Feminine, ends in -а.\nPlural: куртки.",
+ example:"A: Где моя куртка?\nB: Куртка на стуле.",
+ exampleSrc:"A: Where is my jacket?\nB: The jacket is on the chair.",
+ funFact:"Куртка entered Russian from German 'Kurtke' or French 'courte veste.' In Russia it usually means a practical, padded or windproof outdoor jacket — lighter than пальто, heavier than a shirt."},
+
+{type:"teach", trg:"шапка", src:"winter hat / beanie", pos:"noun", gender:"f",
+ note:"Feminine, ends in -а.\nA must-have in Russian winters.",
+ example:"A: Холодно. Надень шапку!\nB: Да, сейчас надену.",
+ exampleSrc:"A: It's cold. Put on your hat!\nB: Yes, I'll put it on now.",
+ funFact:"In Russia, not wearing a шапка in winter is considered reckless. Grandmothers famously remind everyone to wear one. The phrase 'надень шапку' (put on your hat) is almost a cultural institution."},
+
+{type:"teach", trg:"пальто", src:"coat (overcoat)", pos:"noun", gender:"n",
+ note:"Indeclinable neuter.\nNo change in any case: пальто, пальто, пальто...",
+ example:"A: Это твоё пальто?\nB: Да, моё пальто.",
+ exampleSrc:"A: Is this your coat?\nB: Yes, my coat.",
+ funFact:"Пальто is borrowed from French 'paletot.' Indeclinable because it entered Russian after the case-ending system was set. Like метро and кофе, it resists Russian morphology entirely."},
+
+{type:"teach", trg:"сумка", src:"bag / handbag", pos:"noun", gender:"f",
+ note:"Feminine, ends in -а.\nPlural: сумки. Genitive singular: сумки.",
+ example:"A: Где ключ?\nB: В сумке.",
+ exampleSrc:"A: Where's the key?\nB: In the bag.",
+ funFact:"Сумка is the everyday word for any carried bag — handbag, shopping bag, school bag. 'Дамская сумка' = ladies' handbag. 'Рюкзак' is specifically a backpack, while сумка is shoulder or hand-held."},
+
+{type:"teach", trg:"дверь", src:"door", pos:"noun", gender:"f",
+ note:"Feminine, soft ending (-ь).\nPrepositional: двери. Plural: двери.",
+ example:"A: Открой дверь, пожалуйста.\nB: Хорошо, открываю.",
+ exampleSrc:"A: Open the door, please.\nB: OK, I'm opening it.",
+ funFact:"Дверь is feminine despite ending in -ь (a soft-sign ending that can be either gender). Other feminine -ь nouns: кровать (bed), площадь (square), ночь (night). The gender must be memorised."},
+
+{type:"teach", trg:"ключ", src:"key", pos:"noun", gender:"m",
+ note:"Masculine, ends in consonant.\nPlural: ключи. Genitive: ключа.",
+ example:"A: Ты видел мой ключ?\nB: Ключ в сумке.",
+ exampleSrc:"A: Did you see my key?\nB: The key is in the bag.",
+ funFact:"Ключ also means 'spring' (water source) and 'clue/key' in abstract sense (ключ к решению = key to the solution). Russian literature loves double meanings of ключ in titles and metaphors."},
+
+{type:"teach", trg:"кровать", src:"bed", pos:"noun", gender:"f",
+ note:"Feminine, soft ending (-ь).\nПод кроватью (under the bed) uses instrumental.",
+ example:"A: Где ключ?\nB: Под кроватью.",
+ exampleSrc:"A: Where's the key?\nB: Under the bed.",
+ funFact:"Кровать is borrowed from Greek 'krabbatos' via Old Church Slavonic. The old native Slavic word was 'ложе' (now literary/poetic). Кровать became the standard everyday word."},
+
+{type:"teach", trg:"стул", src:"chair", pos:"noun", gender:"m",
+ note:"Masculine. Plural: стулья (irregular).\nDo not confuse with кресло (armchair).",
+ example:"A: Где куртка?\nB: Куртка на стуле.",
+ exampleSrc:"A: Where's the jacket?\nB: The jacket is on the chair.",
+ funFact:"Стул has an irregular plural стулья — from an old collective form. Similar irregular plurals: брат/братья, дерево/деревья, лист/листья. These follow a pattern of nouns with animate or countable collective meanings."},
+
+{type:"teach", trg:"открывать", src:"to open", pos:"verb", gender:null,
+ note:"Imperfective. Pair: открыть.\nОткрываю, открываешь, открывает.",
+ example:"A: Ты открываешь дверь?\nB: Да, открываю.",
+ exampleSrc:"A: Are you opening the door?\nB: Yes, I'm opening it.",
+ funFact:"Открывать/открыть (open) and закрывать/закрыть (close) are an inseparable pair. Prefix 'от-' = separation (open), 'за-' = covering/sealing (close). The root 'крыть' means 'to cover.'"},
+
+{type:"teach", trg:"закрывать", src:"to close", pos:"verb", gender:null,
+ note:"Imperfective. Pair: закрыть.\nЗакрываю, закрываешь, закрывает.",
+ example:"A: Закрой дверь, холодно.\nB: Да, закрываю.",
+ exampleSrc:"A: Close the door, it's cold.\nB: Yes, I'm closing it.",
+ funFact:"Закрыть also means 'to close (a business/account)': магазин закрыт (the shop is closed). Same verb, different domain. 'Закрыто' on a shop sign means 'closed.' Very frequent in daily life."},
+
+{type:"tip", title:"Soft-Sign Feminine Nouns",
+ text:"Several key A2 nouns end in -ь (soft sign) and are FEMININE:\n\nдверь (door)\nкровать (bed)\nтетрадь (notebook)\nплощадь (square)\nночь (night)\n\nThey follow the third declension pattern:\nNOM: дверь\nGEN: двери\nDAT: двери\nACC: дверь\nINST: дверью\nPREP: двери\n\nNote the instrumental ends in -ью — unique to this group.\n\nDo NOT confuse with masculine soft-sign nouns:\nкарандаш (pencil) is masculine (ends in hard consonant)\nстуль is NOT a word — plural of стул is стулья.\n\nWhen you see -ь, check the dictionary gender — it is not predictable from the ending alone.",
+ icon:"📚"},
+
+{type:"mc", q:"Which noun is NOT feminine?",
+ opts:["куртка","стул","дверь","кровать"],
+ ans:"стул",
+ hint:"Check the gender of each: three are feminine, one is masculine ending in a hard consonant."},
+
+{type:"mc", q:"Which word means 'to open' in Russian?",
+ opts:["закрывать","открывать","надевать","снимать"],
+ ans:"открывать",
+ hint:"Think of the prefix: 'от-' = away from / separation. Opening means separating something."},
+
+{type:"fb", s:"A: Где ключ?\nB: В {1}.",
+ a:["сумке"],
+ opts:["сумке","сумка","сумку","сумкой"],
+ hint:"Location 'in X' uses prepositional case. Feminine noun ending: -е.",
+ sSrc:"A: Where's the key?\nB: In the bag."},
+
+{type:"fb", s:"A: Холодно! {1} дверь!\nB: Хорошо.",
+ a:["Закрой"],
+ opts:["Закрой","Открой","Открывай","Закрывай"],
+ hint:"It's cold — you want the door sealed, not opened. Imperative singular.",
+ sSrc:"A: It's cold! Close the door!\nB: OK."},
+
+{type:"fb", s:"A: Это твоё {1}?\nB: Да, я забыл в магазине.",
+ a:["пальто"],
+ opts:["пальто","куртка","шапка","сумка"],
+ hint:"This item is indeclinable neuter and never changes form. Left behind in a shop.",
+ sSrc:"A: Is this your coat?\nB: Yes, I left it at the shop."},
+
+{type:"mc", q:"What is the plural of стул?",
+ opts:["стулы","стули","стулья","стулов"],
+ ans:"стулья",
+ hint:"Стул follows an irregular plural pattern shared with брат (братья) and лист (листья)."},
+
+{type:"mc", q:"Куртка на стуле — what case is стуле?",
+ opts:["Nominative","Accusative","Genitive","Prepositional"],
+ ans:"Prepositional",
+ hint:"Location 'on X' with no movement uses the static locative case. На стуле = the jacket is resting there."},
+
+{type:"match", pairs:[
+ {trg:"куртка", src:"jacket"},
+ {trg:"шапка", src:"winter hat"},
+ {trg:"пальто", src:"overcoat"},
+ {trg:"сумка", src:"bag"},
+ {trg:"ключ", src:"key"}
+]},
+
+{type:"match", pairs:[
+ {trg:"дверь", src:"door"},
+ {trg:"кровать", src:"bed"},
+ {trg:"стул", src:"chair"},
+ {trg:"открывать", src:"to open"},
+ {trg:"закрывать", src:"to close"}
+]}
+
+]}
+
 ]};
 export default UNIT_11;
