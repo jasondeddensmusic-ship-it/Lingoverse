@@ -444,6 +444,141 @@ const UNIT_05 = {
           opts: ["sei", "posso", "consigo", "quero"],
           hint: "General possibility uses this modal verb."}
       ]
+    },
+    {
+      id: "ptv2_u5l_essential_a1", title: "Verbos e alimentos essenciais", icon: "🗝️", xp: 20, board: true,
+      steps: [
+        {type: "intro", title: "Essential daily words", desc: "Learn two foundational Brazilian foods and eight core verbs you will use every day. These words come up in nearly every conversation.", goals: ["Name two breakfast staples: queijo and ovo", "Use estudar, ver, ouvir, abrir, fechar, sair", "Use perguntar and começar in sentences", "Produce target forms in fill-in-the-blank quizzes"]},
+
+        {type: "teach", trg: "o queijo", src: "the cheese", pos: "noun", gender: "m",
+          note: "Masculine noun. One of the most common Brazilian breakfast foods.\nArticle: o queijo. With em: no queijo.",
+          example: "A: Você quer queijo hoje?\nB: Sim, eu quero queijo com pão.",
+          exampleSrc: "A: Do you want cheese today?\nB: Yes, I want cheese with bread.",
+          funFact: "Brazil is one of the world's top cheese producers. Queijo mineiro, from Minas Gerais, is so iconic it earned UNESCO heritage status in 2019."},
+
+        {type: "teach", trg: "o ovo", src: "the egg", pos: "noun", gender: "m",
+          note: "Masculine noun. Plural: ovos. A staple of the Brazilian café da manhã (breakfast).",
+          example: "A: Você come ovo de manhã?\nB: Sim, sempre como ovo.",
+          exampleSrc: "A: Do you eat egg in the morning?\nB: Yes, I always eat egg.",
+          funFact: "Brazil is the fourth-largest egg producer globally. Ovos mexidos (scrambled eggs) and ovo frito (fried egg) are standard on nearly every Brazilian breakfast table."},
+
+        {type: "teach", trg: "estudar", src: "to study", pos: "verb", gender: null,
+          note: "Regular -ar verb. eu estudo, você estuda, nós estudamos.\nUsed for studying any subject or language.",
+          example: "A: Você quer estudar hoje?\nB: Sim, eu quero estudar agora.",
+          exampleSrc: "A: Do you want to study today?\nB: Yes, I want to study now.",
+          funFact: "From Latin studere (to be eager). The same root gives English studio, student, and study."},
+
+        {type: "teach", trg: "ver", src: "to see", pos: "verb", gender: null,
+          note: "Irregular verb. eu vejo (I see), você vê (you see), ele vê (he sees).\nUse for seeing with the eyes or watching something.",
+          example: "A: Você quer ver?\nB: Sim, eu quero ver agora.",
+          exampleSrc: "A: Do you want to see?\nB: Yes, I want to see now.",
+          funFact: "One of the most ancient Portuguese verbs, from Latin videre. The same root gives English video, vision, and visual."},
+
+        {type: "teach", trg: "ouvir", src: "to hear / to listen", pos: "verb", gender: null,
+          note: "Irregular -ir verb. eu ouço (I hear), você ouve (you hear).\nUsed for both passive hearing and active listening.",
+          example: "A: Você ouve bem?\nB: Sim, eu ouço bem.",
+          exampleSrc: "A: Do you hear well?\nB: Yes, I hear well.",
+          funFact: "Ouço (I hear/listen) has the irregular -ço ending. From Latin audire, same root as English audio and audience."},
+
+        {type: "teach", trg: "abrir", src: "to open", pos: "verb", gender: null,
+          note: "Regular -ir verb. eu abro, você abre, nós abrimos.\nUsed for doors, windows, books, shops.",
+          example: "A: Você pode abrir?\nB: Sim, eu posso abrir agora.",
+          exampleSrc: "A: Can you open it?\nB: Yes, I can open it now.",
+          funFact: "From Latin aperire. Abertura (opening, overture) shares the same root. Also used in abrir um negócio (to open a business)."},
+
+        {type: "teach", trg: "fechar", src: "to close", pos: "verb", gender: null,
+          note: "Regular -ar verb. eu fecho, você fecha, nós fechamos.\nThe direct opposite of abrir.",
+          example: "A: Pode fechar agora?\nB: Sim, eu fecho agora.",
+          exampleSrc: "A: Can you close it now?\nB: Yes, I will close it now.",
+          funFact: "Fechado (closed) appears on nearly every shop sign in Brazil. The same root gives fechadura (lock) and enclausurar (to lock away)."},
+
+        {type: "teach", trg: "sair", src: "to leave / to go out", pos: "verb", gender: null,
+          note: "Irregular -ir verb. eu saio (I leave), você sai (you leave).\nUsed for leaving a place or going out socially.",
+          example: "A: Você vai sair hoje?\nB: Sim, eu quero sair de manhã.",
+          exampleSrc: "A: Are you going to go out today?\nB: Yes, I want to go out in the morning.",
+          funFact: "Saio (I leave) keeps the irregular -io ending in the eu form. A saída (the exit) comes from the same root and appears on every door in Brazil."},
+
+        {type: "teach", trg: "perguntar", src: "to ask (a question)", pos: "verb", gender: null,
+          note: "Regular -ar verb. eu pergunto, você pergunta.\nUsed when asking someone a question. Do not confuse with pedir (to ask for something).",
+          example: "A: Posso perguntar?\nB: Sim, pode perguntar agora.",
+          exampleSrc: "A: May I ask?\nB: Yes, you may ask now.",
+          funFact: "From Latin percontari (to question thoroughly). Pergunta means question. Brazilians often say Posso te fazer uma pergunta? before asking anything delicate."},
+
+        {type: "teach", trg: "começar", src: "to begin / to start", pos: "verb", gender: null,
+          note: "Regular -ar verb with spelling change: eu começo (c becomes ç before o).\nvocê começa, nós começamos.",
+          example: "A: Quando você quer começar?\nB: Eu quero começar agora.",
+          exampleSrc: "A: When do you want to start?\nB: I want to start now.",
+          funFact: "The spelling change começo (not comeco) is mandatory. Portuguese uses ç before o/a to preserve the soft /s/ sound. From Latin initiare via Vulgar Latin."},
+
+        {type: "tip", title: "Irregular eu forms: ver, ouvir, sair, começar",
+          text: "Four verbs in this lesson have tricky first-person singular forms:\n\nver: eu vejo (not eu ve)\nouvir: eu ouço (not eu ouvio)\nsair: eu saio (not eu sai)\ncomeçar: eu começo (spelling change: c to ç)\n\nAll other forms are regular. Just memorize the eu form for each.",
+          deepDive: "These irregular eu forms are extremely common in speech. Brazilians hear eu ouço, eu vejo, eu saio, and eu começo hundreds of times a day. The best strategy: practice the eu form in short sentences until it feels automatic. Você/ele/ela forms follow the infinitive stem with standard endings."},
+
+        {type: "mc", q: "Which word means 'the egg'?",
+          opts: ["o queijo", "o ovo", "o leite", "o café"], ans: "o ovo",
+          hint: "A round breakfast item. Its plural is ovos."},
+
+        {type: "mc", q: "Which verb means 'to study'?",
+          opts: ["ver", "ouvir", "estudar", "sair"], ans: "estudar",
+          hint: "A regular -ar verb. Think: student, studio."},
+
+        {type: "fb", s: "Eu {1} bem de manhã. (I listen / I hear)", a: "ouço",
+          sSrc: "I hear well in the morning.",
+          opts: ["ouvir", "ouço", "vejo", "abro"],
+          hint: "Irregular eu form of ouvir. Ends in -ço."},
+
+        {type: "fb", s: "Ela quer {1} agora. (to open)", a: "abrir",
+          sSrc: "She wants to open it now.",
+          opts: ["fechar", "abrir", "sair", "ver"],
+          hint: "The infinitive meaning to open, opposite of fechar."},
+
+        {type: "mc", q: "What is the eu form of ver?",
+          opts: ["eu ve", "eu vejo", "eu vir", "eu vê"], ans: "eu vejo",
+          hint: "Irregular: adds -jo to the stem."},
+
+        {type: "fb", s: "Você pode {1} agora? (to close)", a: "fechar",
+          sSrc: "Can you close it now?",
+          opts: ["abrir", "fechar", "sair", "começar"],
+          hint: "The opposite of abrir. Regular -ar verb."},
+
+        {type: "fb", s: "Eu {1} de casa às oito. (I leave)", a: "saio",
+          sSrc: "I leave home at eight.",
+          opts: ["sai", "saio", "saiu", "vou"],
+          hint: "Irregular eu form of sair. Ends in -io."},
+
+        {type: "match", title: "Match the verbs",
+          pairs: [{trg: "estudar", src: "to study"}, {trg: "ver", src: "to see"}, {trg: "ouvir", src: "to hear"}, {trg: "sair", src: "to go out"}]},
+
+        {type: "mc", q: "Posso ____ agora? (to ask something)",
+          opts: ["perguntar", "começar", "abrir", "estudar"], ans: "perguntar",
+          hint: "The verb for posing a question, not for requesting an object."},
+
+        {type: "fb", s: "Quando você quer {1}? (to begin)", a: "começar",
+          sSrc: "When do you want to start?",
+          opts: ["começar", "terminar", "sair", "estudar"],
+          hint: "The verb for starting something. eu começo is its irregular eu form."},
+
+        {type: "mc", q: "Which two are masculine nouns?",
+          opts: ["o queijo e o ovo", "o queijo e a água", "o ovo e a fruta", "o café e a casa"], ans: "o queijo e o ovo",
+          hint: "Both are common breakfast items. Both take the article o."},
+
+        {type: "fb", s: "Eu {1} estudar hoje. (I want to begin)", a: "quero começar",
+          sSrc: "I want to start studying today.",
+          opts: ["quero começar", "posso sair", "sei abrir", "vou ouvir"],
+          hint: "Two-word phrase: the querer form for eu, then the infinitive for starting."},
+
+        {type: "match", title: "Match nouns and verbs",
+          pairs: [{trg: "o queijo", src: "the cheese"}, {trg: "o ovo", src: "the egg"}, {trg: "abrir", src: "to open"}, {trg: "fechar", src: "to close"}]},
+
+        {type: "mc", q: "Eu ____ de casa às oito. (the correct eu form of sair)",
+          opts: ["sai", "saio", "saiu", "saiço"], ans: "saio",
+          hint: "The irregular eu form ends in -io."},
+
+        {type: "fb", s: "A: Você {1} queijo de manhã? B: Sim, eu como. (eat, você form)", a: "come",
+          sSrc: "A: Do you eat cheese in the morning? B: Yes, I do.",
+          opts: ["come", "comer", "comendo", "comeu"],
+          hint: "The você/ele/ela present form of comer."}
+      ]
     }
   ]
 };

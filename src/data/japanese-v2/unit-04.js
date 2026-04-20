@@ -253,5 +253,112 @@ const UNIT_04 = {
 ,BATCH9_L1
 ,BATCH10_L1
 ,BATCH11_L1
+
+// ═══ Essential N5 B2: Time Words, Core Verbs & Adjectives ═══
+,{id:"jav2_u4l_essential_n5_b2", title:"今日(きょう)は楽(たの)しい！", icon:"\u{1F4C5}", xp:15, board:true, steps:[
+
+  {type:"intro", title:"今日(きょう)は楽(たの)しい！",
+   desc:"Eight foundational JLPT N5 words: two time words, two core verbs, a key noun, and three everyday adjectives. These unlock hundreds of natural Japanese sentences.",
+   goals:["Say today and tomorrow in Japanese","Use the verbs 'speak' and 'write' in polite sentences","Describe things as fun, good, or old"]},
+
+  {type:"teach", trg:"今日(きょう)", src:"today", pos:"noun", gender:null,
+   phonetic:"kyō",
+   note:"今日(きょう) means today.\nTime words go near the start of a sentence, before the verb.\nPattern: 今日(きょう)は + topic + です/verb.",
+   example:"A: 今日(きょう)は何曜日(なんようび)ですか？\nB: 今日(きょう)は月曜日(げつようび)です。",
+   exampleSrc:"A: What day of the week is today?\nB: Today is Monday.",
+   funFact:"今 (now) + 日 (day). The reading きょう is irregular (jukujikun) — it does not follow either character's standard sound. Japanese children learn it as one indivisible concept word, the same way English speakers learn 'today' as a single unit."},
+
+  {type:"teach", trg:"明日(あした)", src:"tomorrow", pos:"noun", gender:null,
+   phonetic:"ashita",
+   note:"明日(あした) means tomorrow.\nAlternate reading: 明日(あす) — same kanji, more formal.\nUse exactly like 今日(きょう): time word first, then topic, then verb.",
+   example:"A: 明日(あした)は学校(がっこう)がありますか？\nB: はい、明日(あした)もあります。",
+   exampleSrc:"A: Is there school tomorrow?\nB: Yes, there is school tomorrow too.",
+   funFact:"明 means 'bright/clear' (as in the next bright day), and 日 means 'sun/day.' The reading あした is the everyday word; あす is used in news and formal writing. Both are correct for JLPT N5."},
+
+  {type:"teach", trg:"話(はな)す", src:"to speak / to talk", pos:"verb", gender:null,
+   phonetic:"hanasu",
+   note:"Dictionary form of 'to speak.' Godan verb (Group 1).\nPolite form: 話(はな)します.\nPatterns: 〜と話(はな)す (speak with), 〜を話(はな)す (speak about).",
+   example:"A: 日本語(にほんご)を話(はな)しますか？\nB: はい、少(すこ)し話(はな)します。",
+   exampleSrc:"A: Do you speak Japanese?\nB: Yes, I speak a little.",
+   funFact:"話す (hanasu) and 放す (hanasu) are homophones — both mean 'to release' in different senses. 話す releases words; 放す releases a physical grip. Japanese uses kanji precisely to distinguish these in writing."},
+
+  {type:"teach", trg:"書(か)く", src:"to write", pos:"verb", gender:null,
+   phonetic:"kaku",
+   note:"Dictionary form of 'to write.' Godan verb (Group 1).\nPolite form: 書(か)きます.\nPatterns: 〜を書(か)く (write something), 〜に書(か)く (write on/to).",
+   example:"A: 何(なに)を書(か)きますか？\nB: 名前(なまえ)を書(か)きます。",
+   exampleSrc:"A: What do you write?\nB: I write my name.",
+   funFact:"The kanji 書 shows a hand holding a brush (聿) over a surface (曰). It appears in 図書館(としょかん) (library = drawing-book-hall) and 書道(しょどう) (calligraphy). This single kanji captures the whole concept of putting language into visible form."},
+
+  {type:"teach", trg:"友達(ともだち)", src:"friend", pos:"noun", gender:null,
+   phonetic:"tomodachi",
+   note:"友達(ともだち) = friend. Includes both singular and plural.\nOne friend: 友達(ともだち)が一人(ひとり)います.\nSeveral friends: 友達(ともだち)がたくさんいます.",
+   example:"A: 友達(ともだち)と話(はな)しますか？\nB: はい、毎日(まいにち)話(はな)します。",
+   exampleSrc:"A: Do you talk with your friend?\nB: Yes, I talk every day.",
+   funFact:"友 (friend) + 達 (suffix that softens and pluralizes). 達 appears in 私達(わたしたち) (we/us) and 子供達(こどもたち) (children). Tomodachi reached global fame through the 'Tomodachi Initiative,' the US humanitarian mission to Japan after the 2011 earthquake."},
+
+  {type:"tip", title:"I-Adjective Basics",
+   text:"I-adjectives (い形容詞) always end in い and conjugate as a group:\n\nDictionary / present:\n楽(たの)しい (fun), 良(よ)い (good), 古(ふる)い (old)\n\nPolite statement: add です after the い-form:\n楽(たの)しいです。(It is fun.)\n\nNegative: replace final い with くない:\n楽(たの)しくない (not fun), 古(ふる)くない (not old)\n\nBefore a noun: adjective goes directly before it:\n楽(たの)しい 授業(じゅぎょう) = fun class\n古(ふる)い 本(ほん) = old book",
+   deepDive:{title:"良い vs いい",
+    text:"良(よ)い (yoi) and いい (ii) both mean 'good' — same word, two readings.\n\nいい is the spoken everyday form. 良(よ)い is the written/formal form.\n\nOnly 良(よ)い conjugates correctly:\nNegative: 良(よ)くない (NOT いくない)\nPast: 良(よ)かった (NOT いかった)\n\nIn conversation you will hear いい most of the time. In reading and formal writing, 良(よ)い appears. Learning both from the start prevents a very common mistake."}},
+
+  {type:"teach", trg:"楽(たの)しい", src:"fun / enjoyable", pos:"adj", gender:null,
+   phonetic:"tanoshii",
+   note:"I-adjective meaning fun or enjoyable.\nPolite: 楽(たの)しいです.\nNegative: 楽(たの)しくないです.\nKanji 楽 also means 'music' and 'ease.'",
+   example:"A: 授業(じゅぎょう)は楽(たの)しいですか？\nB: はい、とても楽(たの)しいです！",
+   exampleSrc:"A: Is the class fun?\nB: Yes, it is very fun!",
+   funFact:"楽 is a remarkably versatile kanji. It means fun (tanoshii), music (gaku), and ease (raku) depending on context. 音楽(おんがく) = music (sound + ease/play). 気楽(きらく) = easygoing. 楽しむ = to enjoy. One shape, three emotional registers."},
+
+  {type:"teach", trg:"良(よ)い", src:"good (formal/written form)", pos:"adj", gender:null,
+   phonetic:"yoi / ii",
+   note:"I-adjective meaning good. Formal reading: 良(よ)い. Spoken: いい.\nAlways conjugate from 良(よ)い:\nNegative: 良(よ)くない. Past: 良(よ)かった.",
+   example:"A: この本(ほん)は良(よ)いですか？\nB: はい、とても良(よ)いです。",
+   exampleSrc:"A: Is this book good?\nB: Yes, it is very good.",
+   funFact:"良 (good/fine) is one of the most ancient and useful kanji. It appears in 良心(りょうしん) (conscience = good heart), 優良(ゆうりょう) (excellent), and 良薬(りょうやく) (effective medicine = good medicine). The dual reading yoi/ii reflects centuries of linguistic evolution."},
+
+  {type:"teach", trg:"古(ふる)い", src:"old (for things, not people)", pos:"adj", gender:null,
+   phonetic:"furui",
+   note:"I-adjective for things that are old or aged.\nNEVER use for people's age — use 年(と)した for elderly.\nOpposite: 新(あたら)しい (new).",
+   example:"A: この本(ほん)は古(ふる)いですか？\nB: はい、百年(ひゃくねん)前(まえ)の本(ほん)です。",
+   exampleSrc:"A: Is this book old?\nB: Yes, it is a book from 100 years ago.",
+   funFact:"古 appears in 古典(こてん) (classical literature), 古都(こと) (ancient capital — Kyoto's nickname), and 古代(こだい) (ancient times). Antiquities shops in Japan are called 古物商(こぶつしょう), literally 'old-things dealers.'"},
+
+  {type:"mc", q:"今日(きょう) means:", opts:["yesterday","tomorrow","today","this week"], ans:"today",
+   hint:"今 = now/this, 日 = day. The reading きょう is irregular but the meaning follows the kanji logic."},
+
+  {type:"mc", q:"Which word means 'tomorrow'?", opts:["今日(きょう)","昨日(きのう)","明日(あした)","毎日(まいにち)"], ans:"明日(あした)",
+   hint:"明 means bright/clear — as in the next bright day ahead."},
+
+  {type:"fb", s:"日本語(にほんご)を{1}ますか？\n(Do you speak Japanese?)", a:"話(はな)し", opts:["話(はな)し","書(か)き","飲(の)み","食(た)べ"], sSrc:"Do you speak Japanese?",
+   hint:"The polite stem of the verb meaning 'to speak.' Remove su, add masu."},
+
+  {type:"fb", s:"毎日(まいにち)日記(にっき)を{1}きます。\n(I write a diary every day.)", a:"書(か)", opts:["書(か)","話(はな)","読(よ)","見(み)"], sSrc:"I write a diary every day.",
+   hint:"The polite stem of the verb meaning 'to write.'"},
+
+  {type:"mc", q:"友達(ともだち) means:", opts:["teacher","classmate","friend","family"], ans:"friend",
+   hint:"Tomodachi became an internationally recognized Japanese word after the 2011 earthquake relief mission."},
+
+  {type:"match", pairs:[{trg:"今日(きょう)",src:"today"},{trg:"明日(あした)",src:"tomorrow"},{trg:"友達(ともだち)",src:"friend"},{trg:"話(はな)す",src:"to speak"}]},
+
+  {type:"mc", q:"楽(たの)しい describes something that is:", opts:["old","expensive","fun","small"], ans:"fun",
+   hint:"This i-adjective uses the kanji 楽, which also means ease and music."},
+
+  {type:"fb", s:"授業(じゅぎょう)はとても{1}しいです。\n(The class is very fun.)", a:"楽(たの)", opts:["楽(たの)","良(よ)","古(ふる)","高(たか)"], sSrc:"The class is very fun.",
+   hint:"The i-adjective meaning enjoyable. Kanji: 楽."},
+
+  {type:"mc", q:"良(よ)い and いい both mean 'good.' Which conjugates correctly?", opts:["いい (always)","良(よ)い (for conjugation)","Both conjugate the same way","Neither — adjective form is fixed"], ans:"良(よ)い (for conjugation)",
+   hint:"Negative is 良(よ)くない, past is 良(よ)かった. Never いくない or いかった."},
+
+  {type:"fb", s:"この本(ほん)は{1}いですか？百年(ひゃくねん)前(まえ)のものです。\n(Is this book old? It is from 100 years ago.)", a:"古(ふる)", opts:["古(ふる)","新(あたら)し","高(たか)","楽(たの)し"], sSrc:"Is this book old? It is from 100 years ago.",
+   hint:"This i-adjective describes things that have aged over time. Never use it for a person's age."},
+
+  {type:"match", pairs:[{trg:"楽(たの)しい",src:"fun / enjoyable"},{trg:"良(よ)い",src:"good"},{trg:"古(ふる)い",src:"old (things)"},{trg:"書(か)く",src:"to write"}]},
+
+  {type:"mc", q:"古(ふる)い is used for:", opts:["a person who is elderly","a thing that is aged","something that is boring","something that is cheap"], ans:"a thing that is aged",
+   hint:"Furui applies to objects and places — not people's age. For people, Japanese uses different expressions."},
+
+  {type:"fb", s:"明日(あした)は友達(ともだち)と{1}します。\n(Tomorrow I will talk with my friend.)", a:"話(はな)", opts:["話(はな)","書(か)","食(た)べ","飲(の)"], sSrc:"Tomorrow I will talk with my friend.",
+   hint:"The polite stem of the verb for speaking or talking with someone."},
+
+]}
 ]};
 export default UNIT_04;
