@@ -320,6 +320,124 @@ const UNIT_07 = {
        hint:"The adverb meaning 'thoroughly' combines with the past participle of 'cuocere.' No pink left inside."}
     ,{type:"match",pairs:[{trg:"prenotare",src:"to book / to reserve"},{trg:"saporito",src:"tasty / flavorful"}]}]},
     EXP_07_L1, EXP_07_L2, EXP_07_L3,
+    {id:"itv2_u7l_a2_time_seasons", title:"Il tempo e le stagioni", icon:"\u2600\uFE0F", xp:15, board:true, steps:[
+      {type:"intro", title:"Il tempo e le stagioni",
+       desc:"Learn to describe Italian weather and seasons. Italy has four distinct seasons, and the weather varies dramatically from the Alps to Sicily.",
+       goals:["Name the four seasons in Italian","Use weather adjectives to describe the climate","Talk about typical Italian weather across the year"]},
+
+      {type:"teach", trg:"la stagione", src:"the season", pos:"noun", gender:"f",
+       note:"Feminine. Plural: le stagioni.\nFrom Latin 'statio' (standing, fixed time).",
+       example:"A: Com'e la stagione estiva in Italia?\nB: L'estate e calda e soleggiata.",
+       exampleSrc:"A: What is the summer season like in Italy?\nB: Summer is hot and sunny.",
+       funFact:"Italy has four very distinct seasons. 'La bella stagione' (the beautiful season) is a poetic phrase for summer. The word 'stagione' also means 'season' of a TV show, just as in English."},
+
+      {type:"teach", trg:"il caldo", src:"the heat", pos:"noun", gender:"m",
+       note:"Masculine noun. 'Fa caldo' = it is hot.\nFrom Latin 'calidus' (warm, hot).",
+       example:"A: Non sopporto il caldo d'estate.\nB: Anch'io! Preferisco il fresco.",
+       exampleSrc:"A: I can't stand the summer heat.\nB: Me too! I prefer cool weather.",
+       funFact:"Italian summers can be intense. Southern Italy regularly reaches 38-42 C in July and August. 'Caldo' is also used metaphorically: 'un'accoglienza calda' means 'a warm welcome.' The same Latin root gave English 'calorie.'"},
+
+      {type:"teach", trg:"il freddo", src:"the cold", pos:"noun", gender:"m",
+       note:"Masculine noun. 'Fa freddo' = it is cold.\nFrom Latin 'frigidus' (cold).",
+       example:"A: Hai freddo?\nB: Si, fa molto freddo oggi.",
+       exampleSrc:"A: Are you cold?\nB: Yes, it is very cold today.",
+       funFact:"'Avere freddo' means 'to feel cold' (personal sensation), while 'fa freddo' means 'it is cold' (weather). These are different structures. The Latin root 'frigidus' gave English 'frigid' and the brand name Frigidaire."},
+
+      {type:"tip", title:"Weather adjectives: agreement",
+       text:"Weather adjectives in Italian agree with the noun they describe.\nMasculine singular: ventoso, nevoso, piovoso, sereno, afoso.\nFeminine: ventosa, nevosa, piovosa, serena, afosa.\nFor weather reports: 'Il cielo e sereno' (The sky is clear). 'Il tempo e piovoso' (The weather is rainy).\nWith 'essere': 'La giornata e afosa' (The day is muggy).",
+       deepDive:"Italian weather adjectives are regular -oso/-a adjectives, formed by adding -oso to a noun root. 'Pioggia' (rain) gives 'piovoso.' 'Neve' (snow) gives 'nevoso.' 'Vento' (wind) gives 'ventoso.' This pattern is very productive in Italian."},
+
+      {type:"teach", trg:"sereno", src:"clear / sunny (sky)", pos:"adj", gender:null,
+       note:"Adj. Feminine: serena. From Latin 'serenus' (clear, calm).\nDescribes a cloudless sky.",
+       example:"A: Com'e il cielo oggi?\nB: E sereno, non c'e una nuvola.",
+       exampleSrc:"A: What is the sky like today?\nB: It is clear, there is not a cloud.",
+       funFact:"'Sereno' also means 'calm' or 'serene' as a personality trait. Weather forecasters in Italy use it constantly. The phrase 'un cielo sereno' (a clear sky) appears in hundreds of Italian songs. The name Serena comes from this word."},
+
+      {type:"teach", trg:"piovoso", src:"rainy", pos:"adj", gender:null,
+       note:"Adj. Feminine: piovosa. From 'pioggia' (rain).\n'Una giornata piovosa' = a rainy day.",
+       example:"A: Com'e novembre a Milano?\nB: E piovoso e grigio.",
+       exampleSrc:"A: What is November like in Milan?\nB: It is rainy and grey.",
+       funFact:"Milan is surprisingly rainy. It rains more in Milan than in London. Northern Italy gets heavy rain in spring and autumn, channelled by the Alps. Venice gets 'acqua alta' (high water) floods in autumn when rain and high tides combine."},
+
+      {type:"teach", trg:"nevoso", src:"snowy", pos:"adj", gender:null,
+       note:"Adj. Feminine: nevosa. From 'neve' (snow).\n'Un inverno nevoso' = a snowy winter.",
+       example:"A: Come sono le Dolomiti in inverno?\nB: Sono nevose e bellissime.",
+       exampleSrc:"A: What are the Dolomites like in winter?\nB: They are snowy and very beautiful.",
+       funFact:"The Italian Alps and Dolomites are among the best ski areas in the world. Italian ski resorts have a tradition: ski in the morning, eat a long lunch, ski again in the afternoon. The World Ski Championships have been held in Italy multiple times."},
+
+      {type:"teach", trg:"ventoso", src:"windy", pos:"adj", gender:null,
+       note:"Adj. Feminine: ventosa. From 'vento' (wind).\n'Una zona ventosa' = a windy area.",
+       example:"A: Com'e il tempo oggi?\nB: E ventoso, porta una giacca.",
+       exampleSrc:"A: What is the weather like today?\nB: It is windy, bring a jacket.",
+       funFact:"The 'tramontane' and 'scirocco' are famous Italian winds. The scirocco blows hot, dusty air from the Sahara across the Mediterranean to Sicily and southern Italy, sometimes carrying orange-coloured sand. It can affect mood and was once used as a legal defence in court."},
+
+      {type:"teach", trg:"afoso", src:"humid / muggy", pos:"adj", gender:null,
+       note:"Adj. Feminine: afosa. From 'afa' (close heat, stuffiness).\nDescribes hot and humid weather.",
+       example:"A: Come stai?\nB: Sono stanco. E troppo afoso oggi.",
+       exampleSrc:"A: How are you?\nB: I am tired. It is too muggy today.",
+       funFact:"August in Rome, Naples, or Milan can be extremely 'afoso.' Italians leave cities in August (called 'Ferragosto') partly because of the unbearable heat and humidity. Many shops and restaurants close entirely for two weeks in August."},
+
+      {type:"mc", q:"Which Italian word means 'the season'?",
+       opts:["il tempo","la stagione","il grado","la pioggia"],
+       ans:"la stagione",
+       hint:"This feminine noun ends in -ione. Italy has four of them, from the Alps to Sicily."},
+
+      {type:"fb", s:"In inverno fa molto {1}.",
+       a:["freddo"],
+       opts:["freddo","caldo","sereno","afoso"],
+       hint:"Winter brings low temperatures. Think of the noun describing cold weather.",
+       sSrc:"In winter it is very {1}."},
+
+      {type:"fb", s:"Il cielo e {1}, non c'e una nuvola.",
+       a:["sereno"],
+       opts:["sereno","piovoso","nevoso","ventoso"],
+       hint:"No clouds at all. The sky is completely clear and bright.",
+       sSrc:"The sky is {1}, there is not a cloud."},
+
+      {type:"match", pairs:[
+        {trg:"la stagione", src:"the season"},
+        {trg:"il caldo", src:"the heat"},
+        {trg:"il freddo", src:"the cold"},
+        {trg:"sereno", src:"clear / sunny"},
+        {trg:"piovoso", src:"rainy"}
+      ]},
+
+      {type:"fb", s:"Le Dolomiti in inverno sono {1} e bellissime.",
+       a:["nevose"],
+       opts:["nevose","piovose","afose","ventose"],
+       hint:"The Dolomites in winter are covered in snow. Use the feminine plural form.",
+       sSrc:"The Dolomites in winter are {1} and very beautiful."},
+
+      {type:"mc", q:"What does 'afoso' describe?",
+       opts:["Cold and snowy","Hot and humid / muggy","Clear and sunny","Windy and stormy"],
+       ans:"Hot and humid / muggy",
+       hint:"This adjective comes from 'afa' (close heat). August in Italian cities is notoriously this way."},
+
+      {type:"fb", s:"E {1} oggi, porta una giacca.",
+       a:["ventoso"],
+       opts:["ventoso","nevoso","sereno","afoso"],
+       hint:"There is a lot of wind today. The Italian Alps have famous named winds.",
+       sSrc:"It is {1} today, bring a jacket."},
+
+      {type:"mc", q:"How do you say 'it is cold' as a weather expression in Italian?",
+       opts:["Ho freddo","Fa freddo","Il freddo e forte","Sono freddo"],
+       ans:"Fa freddo",
+       hint:"Italian uses the verb 'fare' (to make/do) for weather. This is the third-person form.",
+       note:"'Ho freddo' = I feel cold (personal sensation). 'Fa freddo' = the weather is cold (impersonal)."},
+
+      {type:"match", pairs:[
+        {trg:"nevoso", src:"snowy"},
+        {trg:"piovoso", src:"rainy"},
+        {trg:"ventoso", src:"windy"},
+        {trg:"afoso", src:"muggy"},
+        {trg:"sereno", src:"clear"}
+      ]},
+
+      {type:"mc", q:"What is 'la bella stagione' in Italian?",
+       opts:["A poetic phrase for winter","A poetic phrase for summer","The skiing season","A rainy autumn period"],
+       ans:"A poetic phrase for summer",
+       hint:"'Bella' means beautiful. Italians use this expression to describe the warm, sunny months of the year."}
+    ]},
   ]
 };
 export default UNIT_07;
