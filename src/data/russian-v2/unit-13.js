@@ -257,7 +257,127 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
   {trg:"обычно", src:"imperfective"},
   {trg:"только что", src:"perfective"}
 ]}
-,{type:"match",pairs:[{trg:"давать",src:"to give (imperfective)"},{trg:"дать",src:"to give (perfective)"},{trg:"никогда не",src:"never"},{trg:"в субботу",src:"on Saturday"},{trg:"до завтра",src:"until tomorrow"}]}]}
+,{type:"match",pairs:[{trg:"давать",src:"to give (imperfective)"},{trg:"дать",src:"to give (perfective)"},{trg:"никогда не",src:"never"},{trg:"в субботу",src:"on Saturday"},{trg:"до завтра",src:"until tomorrow"}]}]},
+
+{id:"ruv2_u13l_a2_actions_qualities", title:"Actions and Qualities", icon:"🌟", xp:15, board:true, steps:[
+
+{type:"intro", title:"Actions and Qualities",
+ desc:"Expand your vocabulary with essential A2 verbs and adjectives. These words describe what people do and what they are like — the building blocks of everyday conversation.",
+ goals:["Learn 5 high-frequency A2 action verbs","Learn 4 core personality adjectives","Use them in natural dialogue"]},
+
+{type:"teach", trg:"начинать", src:"to begin / to start", pos:"verb", gender:null,
+ note:"Imperfective. Pair: начать (perf).\nSubject starts an action.",
+ example:"A: Когда ты начинаешь работу?\nB: В девять часов.",
+ exampleSrc:"A: When do you start work?\nB: At nine o'clock.",
+ funFact:"Начинать comes from 'кон' (start/end) with the prefix на-. Its perfective 'начать' drops the -ива- suffix. Classic imperfective/perfective stem change pair."},
+
+{type:"teach", trg:"заканчивать", src:"to finish / to end", pos:"verb", gender:null,
+ note:"Imperfective. Pair: закончить (perf).\nOpposite of начинать.",
+ example:"A: Ты заканчиваешь работу в шесть?\nB: Да, сегодня в шесть.",
+ exampleSrc:"A: Do you finish work at six?\nB: Yes, today at six.",
+ funFact:"Заканчивать shares the root 'конец' (end). Prefix за- adds the sense of completion. Pair: закончил = finished (done). Essential TRKI A2 verb."},
+
+{type:"teach", trg:"помогать", src:"to help", pos:"verb", gender:null,
+ note:"Imperfective. Pair: помочь (perf).\nTakes dative case: помогать кому.",
+ example:"A: Ты помогаешь маме дома?\nB: Да, каждый день.",
+ exampleSrc:"A: Do you help mom at home?\nB: Yes, every day.",
+ funFact:"'Помогать' requires dative: помогать другу (to help a friend). Its perfective 'помочь' is suppletive-looking but shares the root МОГ (might/power). Russian 'мочь' = to be able."},
+
+{type:"teach", trg:"ждать", src:"to wait", pos:"verb", gender:null,
+ note:"Imperfective. Genitive or accusative object.\nNo simple perfective pair.",
+ example:"A: Ты будешь ждать здесь?\nB: Да, пять минут.",
+ exampleSrc:"A: Will you wait here?\nB: Yes, five minutes.",
+ funFact:"'Ждать' takes genitive for abstract things (ждать автобуса) and accusative for people (жду тебя). This case split confuses learners. TRKI examiners test it."},
+
+{type:"teach", trg:"бояться", src:"to be afraid / to fear", pos:"verb", gender:null,
+ note:"Imperfective reflexive (-ся).\nTakes genitive: бояться чего.",
+ example:"A: Ты боишься новой работы?\nB: Нет, всё хорошо.",
+ exampleSrc:"A: Are you afraid of the new job?\nB: No, everything is fine.",
+ funFact:"'Бояться' is always imperfective in the fear/phobia sense. The -ся marks a reflexive verb (no separate perfective needed for ongoing state). Genitive object: бояться работы (afraid of work)."},
+
+{type:"teach", trg:"скучный", src:"boring", pos:"adj", gender:null,
+ note:"Short form: скучно (it is boring).\nOpposite of интересный.",
+ example:"A: Как был фильм?\nB: Скучный. Я чуть не заснул.",
+ exampleSrc:"A: How was the film?\nB: Boring. I almost fell asleep.",
+ funFact:"'Скучный' also means 'dull' in personality contexts. Adjective root СКУК- (boredom). Same root as 'скучать' (to miss/be bored). Note: 'скучно' without а subject = 'it is boring.'"},
+
+{type:"teach", trg:"весёлый", src:"cheerful / merry / fun", pos:"adj", gender:null,
+ note:"Used for people, parties, films.\nShort form: весело (it is fun).",
+ example:"A: Твой брат весёлый?\nB: Да, всегда смеётся.",
+ exampleSrc:"A: Is your brother cheerful?\nB: Yes, he always laughs.",
+ funFact:"'Весёлый' is the root of 'веселье' (merriment/fun) and 'весело' (it is fun/merry). Used for New Year celebrations: 'Весёлого Нового года!' (Happy New Year!) in some regional greetings."},
+
+{type:"teach", trg:"серьёзный", src:"serious", pos:"adj", gender:null,
+ note:"Opposite of весёлый in personality.\nAlso used for situations.",
+ example:"A: Он серьёзный студент?\nB: Да, много занимается.",
+ exampleSrc:"A: Is he a serious student?\nB: Yes, he studies a lot.",
+ funFact:"'Серьёзный' is a loanword from Latin 'serius' via French 'sérieux.' Russians use it the same way: серьёзная проблема (serious problem), серьёзный человек (serious person)."},
+
+{type:"teach", trg:"умный", src:"smart / clever / intelligent", pos:"adj", gender:null,
+ note:"Short form: умён (m), умна (f), умно (n).\nPositive trait.",
+ example:"A: Твоя сестра умная?\nB: Да, она хорошо учится.",
+ exampleSrc:"A: Is your sister smart?\nB: Yes, she studies well.",
+ funFact:"'Умный' comes from 'ум' (mind/intelligence). Common phrases: умная мысль (clever thought), умный вопрос (smart question). Russians consider intellectual sharpness a high compliment."},
+
+{type:"tip", title:"Adjective Short Forms",
+ text:"Russian adjectives have two forms:\n\nLONG FORM (attributive — before a noun):\nумный студент (a smart student)\nвесёлый человек (a cheerful person)\nскучный фильм (a boring film)\n\nSHORT FORM (predicative — after verb быть):\nОн умён. (He is smart.)\nОна весела. (She is merry.)\nФильм скучен. (The film is boring.)\n\nFor BEGINNERS: use long form for everything.\nShort forms appear in formal writing, proverbs, and high register speech.\n\nADJECTIVE AGREEMENT: adjectives match noun gender.\n умный (m) — умная (f) — умное (n) — умные (pl)\n весёлый (m) — весёлая (f) — весёлое (n) — весёлые (pl)\n серьёзный (m) — серьёзная (f) — серьёзное (n) — серьёзные (pl)\n скучный (m) — скучная (f) — скучное (n) — скучные (pl)",
+ deepDive:{title:"Short vs Long Form in Practice",
+  text:"Short forms survive in modern Russian mainly in set phrases and elevated registers. You will encounter them in literature, proverbs, and official documents. In everyday speech, most speakers prefer long forms even after verbs. Exception: masculine singular short forms are still common in speech, especially with рад (glad), готов (ready), должен (must), and уверен (sure). These four have no usable long forms."}},
+
+{type:"mc", q:"Which verb requires a dative object?",
+ opts:["начинать","ждать","бояться","помогать"],
+ ans:"помогать",
+ hint:"This verb means 'to help.' In Russian, you help TO someone — so the person gets a special object case."},
+
+{type:"mc", q:"'Я ___ экзамена' — what verb fits?",
+ opts:["помогаю","начинаю","боюсь","жду"],
+ ans:"боюсь",
+ hint:"This verb means to be afraid of something. It takes genitive case. 'Экзамена' is genitive of экзамен."},
+
+{type:"mc", q:"Which adjective describes someone who is always laughing and making jokes?",
+ opts:["серьёзный","скучный","умный","весёлый"],
+ ans:"весёлый",
+ hint:"Think: laughter, parties, fun. This word contains the root for 'merriment.'"},
+
+{type:"fb", s:"A: Ты {1} работу в шесть?\nB: Да, иногда раньше.",
+ a:["заканчиваешь"],
+ opts:["заканчиваешь","начинаешь","помогаешь","боишься"],
+ hint:"Present tense, 2nd person singular: 'Do you ___ work at six?' The verb means to finish.",
+ sSrc:"A: Do you finish work at six?\nB: Yes, sometimes earlier."},
+
+{type:"fb", s:"Он {1} помочь, потому что он добрый человек.",
+ a:["начинает"],
+ opts:["начинает","ждёт","боится","заканчивает"],
+ hint:"He ___ to help because he is a kind person. Which verb means 'to start/begin'?",
+ sSrc:"He begins to help because he is a kind person."},
+
+{type:"fb", s:"Этот фильм очень {1}. Я хочу смотреть ещё.",
+ a:["весёлый"],
+ opts:["весёлый","скучный","серьёзный","умный"],
+ hint:"The person wants to keep watching. The film is entertaining and fun, not boring.",
+ sSrc:"This film is very fun. I want to watch more."},
+
+{type:"mc", q:"'Серьёзный студент' — what does this mean?",
+ opts:["A student who is afraid","A student who helps others","A diligent, focused student","A bored student"],
+ ans:"A diligent, focused student",
+ hint:"This adjective describes someone who takes things seriously and works hard."},
+
+{type:"match", pairs:[
+ {trg:"начинать", src:"to begin / to start"},
+ {trg:"заканчивать", src:"to finish / to end"},
+ {trg:"помогать", src:"to help"},
+ {trg:"ждать", src:"to wait"},
+ {trg:"бояться", src:"to be afraid"}
+]},
+
+{type:"match", pairs:[
+ {trg:"скучный", src:"boring"},
+ {trg:"весёлый", src:"cheerful / merry / fun"},
+ {trg:"серьёзный", src:"serious"},
+ {trg:"умный", src:"smart / clever"}
+]}
+
+]}
 
 ]};
 export default UNIT_13;

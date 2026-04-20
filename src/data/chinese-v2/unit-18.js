@@ -328,6 +328,137 @@ lessons:[
  opts:["来得及(láidejí)","来不及(láibùjí)","受不了(shòubuliǎo)","做不到(zuòbudào)"],
  hint:"The train does not leave for 30 more minutes. We still have time. Which phrase fits?",
  sSrc:"The train does not leave for half an hour, we {1}."}
+]},
+
+// ─── L5: Feelings, States & Character (HSK 3) ───
+{id:"zhv2_u18l_hsk3_feelings", title:"心情与性格 Feelings and Character", icon:"😊", xp:20, board:true, steps:[
+{type:"intro", title:"心情与性格: Feelings and Character",
+ desc:"Chinese has precise vocabulary for emotional states and personality traits. This lesson covers nine essential HSK 3 words you will use every day in conversations about how people feel and what kind of person they are.",
+ goals:["Describe emotional states: afraid, worried, happy, sad, angry, hungry, tired","Use character descriptors: clever, proud","Distinguish 开心 (colloquial happy) from 高兴 (formal happy)"]},
+
+{type:"teach", trg:"害怕(hàipà)", src:"afraid / scared", pos:"adj", gender:null,
+ note:"Describes fear or fright. Can be a verb (to be afraid of) or adjective.\n害 = harm, 怕 = fear.",
+ example:"A: 你(nǐ)害怕(hàipà)什么(shénme)？\nB: 我(wǒ)不(bù)太(tài)害怕(hàipà)什么(shénme)，但是(dànshì)我(wǒ)害怕(hàipà)考试(kǎoshì)不(bù)好(hǎo)。",
+ exampleSrc:"A: What are you afraid of?\nB: I am not too afraid of anything, but I am afraid of failing exams.",
+ funFact:"害 originally meant 'harm' or 'injury.' 怕 shows a heart (忄) next to a white (白) color, suggesting someone turning pale with fright. Together: to be harmed into turning pale."},
+
+{type:"teach", trg:"担心(dānxīn)", src:"to worry / worried", pos:"verb", gender:null,
+ note:"To feel anxious about something. Often followed by the thing you worry about.\n担 = carry on shoulder, 心 = heart.",
+ example:"A: 妈妈(māma)，我(wǒ)没事(méishì)，别(bié)担心(dānxīn)。\nB: 你(nǐ)一(yì)个(gè)人(rén)在(zài)外地(wàidì)，我(wǒ)怎么(zěnme)能(néng)不(bù)担心(dānxīn)呢(ne)？",
+ exampleSrc:"A: Mom, I am fine, do not worry.\nB: You are away from home alone, how can I not worry?",
+ funFact:"担 shows a person carrying a heavy shoulder pole with two baskets. Worry is imagined as carrying a weight on your shoulders. In Chinese, you do not just feel worried, you are 'carrying that worry on your heart' (心)."},
+
+{type:"teach", trg:"骄傲(jiāo'ào)", src:"proud / arrogant", pos:"adj", gender:null,
+ note:"Can mean legitimately proud OR arrogant depending on context.\n骄 = proud horse, 傲 = haughty.",
+ example:"A: 你(nǐ)的(de)孩子(háizi)成绩(chéngjì)那么(nàme)好(hǎo)！\nB: 是(shì)啊(a)，我(wǒ)非常(fēicháng)骄傲(jiāo'ào)，他(tā)很(hěn)努力(nǔlì)。",
+ exampleSrc:"A: Your child has such good grades!\nB: Yes, I am very proud. He works very hard.",
+ funFact:"骄 shows a horse that is too spirited to be controlled, representing pride that cannot be tamed. This dual meaning, both healthy pride and dangerous arrogance, reflects how Chinese culture views the fine line between self-respect and ego."},
+
+{type:"teach", trg:"开心(kāixīn)", src:"happy / delighted (colloquial)", pos:"adj", gender:null,
+ note:"Colloquial, warm happiness. More casual and intimate than 高兴.\n开 = open, 心 = heart: your heart opens up.",
+ example:"A: 生日(shēngrì)快乐(kuàilè)！你(nǐ)开心(kāixīn)吗(ma)？\nB: 太(tài)开心(kāixīn)了(le)！谢谢(xièxiè)大家(dàjiā)！",
+ exampleSrc:"A: Happy birthday! Are you happy?\nB: So happy! Thank you everyone!",
+ funFact:"开心 literally means 'open heart.' When you are happy in Chinese, your heart opens up and lets the good feelings flow. The imagery is beautiful: joy as the heart unlocking. 高兴 is more formal; 开心 is what you say to close friends and family."},
+
+{type:"teach", trg:"伤心(shāngxīn)", src:"sad / heartbroken", pos:"adj", gender:null,
+ note:"Deeper sadness than 难过. Often implies being hurt by someone or something.\n伤 = wound/injury, 心 = heart.",
+ example:"A: 他(tā)今天(jīntiān)为什么(wèishénme)这么(zhème)伤心(shāngxīn)？\nB: 他(tā)和(hé)朋友(péngyou)吵架(chǎojià)了(le)，很(hěn)伤心(shāngxīn)。",
+ exampleSrc:"A: Why is he so sad today?\nB: He had an argument with his friend and is very sad.",
+ funFact:"伤心 is literally a 'wounded heart.' Chinese emotional vocabulary often uses the heart (心) as the seat of all feelings. Compare 开心 (happy heart), 伤心 (wounded heart), 担心 (burdened heart). The heart is the emotional barometer in Chinese thought."},
+
+{type:"teach", trg:"生气(shēngqì)", src:"angry / to get angry", pos:"adj", gender:null,
+ note:"The most common word for anger. Can be a stative verb or adjective.\n生 = produce/generate, 气 = energy/breath.",
+ example:"A: 你(nǐ)为什么(wèishénme)生气(shēngqì)了(le)？\nB: 他(tā)又(yòu)忘(wàng)了(le)我们(wǒmen)的(de)约定(yuēdìng)，我(wǒ)真(zhēn)的(de)很(hěn)生气(shēngqì)。",
+ exampleSrc:"A: Why are you angry?\nB: He forgot our agreement again. I am really angry.",
+ funFact:"生气 literally means 'producing energy' or 'generating breath.' When you are angry, you breathe hard and your energy surges. Interestingly, 生气 also means 'vitality' or 'life force' in another context, so the same word means both anger and being full of life."},
+
+{type:"tip", title:"心 (xīn): The Heart Character",
+ text:"Notice how many emotion words contain 心 (heart):\n\n担心(dānxīn) = worry ('heart burden')\n开心(kāixīn) = happy ('open heart')\n伤心(shāngxīn) = sad ('wounded heart')\n\nThis is not coincidence. Chinese philosophy places the heart at the center of thought and emotion. The character 心 appears in hundreds of emotional words. When you learn one, look for 心 and you will understand the emotional logic.\n\n生气(shēngqì) uses 气(breath/energy) instead, reflecting the physical sensation of rising anger.",
+ deepDive:{title:"害怕 vs 担心: Fear vs Worry",
+  text:"These two are easy to confuse:\n\n害怕(hàipà) = fear in the present moment, a reaction to something scary\n我(wǒ)害怕(hàipà)黑暗(hēi'àn)。 I am afraid of the dark.\n\n担心(dānxīn) = ongoing worry or anxiety about what might happen\n我(wǒ)担心(dānxīn)考试(kǎoshì)。 I am worried about the exam.\n\nHear a loud noise right now? 害怕. Nervous about tomorrow's presentation? 担心. Fear is a reaction; worry is an anticipation."}},
+
+{type:"teach", trg:"饿(è)", src:"hungry", pos:"adj", gender:null,
+ note:"Describes physical hunger. Use 很饿 for 'very hungry.'\n饿 contains 食 (eat/food) on the left side.",
+ example:"A: 我(wǒ)很(hěn)饿(è)了(le)，你(nǐ)呢(ne)？\nB: 我(wǒ)也(yě)饿(è)了(le)，我们(wǒmen)去(qù)吃饭(chīfàn)吧(ba)。",
+ exampleSrc:"A: I am very hungry. What about you?\nB: I am hungry too. Let us go eat.",
+ funFact:"The left side of 饿 is 食 (food radical), and the right is 我 (I/me). So 饿 contains 'food' and 'I' together, almost as if it means 'I need food.' This makes the character surprisingly intuitive once you see it."},
+
+{type:"teach", trg:"累(lèi)", src:"tired / exhausted", pos:"adj", gender:null,
+ note:"Physical or mental tiredness. Very commonly used in daily speech.\nCan also be used as a verb: 累坏了 = completely worn out.",
+ example:"A: 你(nǐ)看(kàn)起来(qǐlái)很(hěn)累(lèi)，没(méi)休息(xiūxi)好(hǎo)吗(ma)？\nB: 是(shì)啊(a)，最近(zuìjìn)工作(gōngzuò)太(tài)多(duō)了(le)，真的(zhēnde)很(hěn)累(lèi)。",
+ exampleSrc:"A: You look very tired. Did you not sleep well?\nB: Right, I have had too much work lately. I am really tired.",
+ funFact:"累 was originally written with a field (田) stacked three times, showing repeated heavy labor in the fields. The original meaning was 'to pile up' or 'accumulate.' Over time it evolved to mean the exhaustion that comes from accumulated effort."},
+
+{type:"teach", trg:"聪明(cōngming)", src:"clever / intelligent", pos:"adj", gender:null,
+ note:"A genuine compliment in Chinese culture. Parents love hearing their child is 聪明.\n聪 = sharp senses, 明 = bright/clear.",
+ example:"A: 这个(zhège)学生(xuéshēng)真的(zhēnde)很(hěn)聪明(cōngming)。\nB: 是(shì)啊(a)，他(tā)又(yòu)聪明(cōngming)又(yòu)努力(nǔlì)，考试(kǎoshì)总是(zǒngshì)第一(dìyī)。",
+ exampleSrc:"A: This student is really clever.\nB: Yes, he is both clever and hardworking. He always comes first in exams.",
+ funFact:"聪 is a remarkable character: it contains 耳 (ear) at the top and components for eye, mouth, and heart below. To be clever in Chinese, you must have sharp ears, bright eyes, a quick tongue, and a clear mind. All four senses working together."},
+
+{type:"mc", q:"妈妈(māma)，我(wǒ)一(yì)个(gè)人(rén)去(qù)旅行(lǚxíng)，你(nǐ)别(bié)___了(le)。",
+ opts:["担心(dānxīn)","伤心(shāngxīn)","害怕(hàipà)","生气(shēngqì)"],
+ ans:"担心(dānxīn)",
+ hint:"Telling your mother not to feel anxious about your trip. Which word means ongoing worry or anxiety?"},
+
+{type:"fb", s:"今天(jīntiān)是(shì)我(wǒ)的(de)生日(shēngrì)，我(wǒ)很(hěn){1}！",
+ a:["开心(kāixīn)"],
+ opts:["开心(kāixīn)","伤心(shāngxīn)","生气(shēngqì)","害怕(hàipà)"],
+ hint:"It is your birthday. Which colloquial word means happy or delighted?",
+ sSrc:"Today is my birthday, I am very {1}!"},
+
+{type:"mc", q:"他(tā)的(de)成绩(chéngjì)这么(zhème)好(hǎo)，老师(lǎoshī)和(hé)父母(fùmǔ)都(dōu)很(hěn)___。",
+ opts:["骄傲(jiāo'ào)","害怕(hàipà)","饿(è)","伤心(shāngxīn)"],
+ ans:"骄傲(jiāo'ào)",
+ hint:"His grades are very good. Teachers and parents both feel positive about him. Which word means proud?"},
+
+{type:"fb", s:"我(wǒ)工作(gōngzuò)了(le)十(shí)个(gè)小时(xiǎoshí)，真(zhēn)的(de)很(hěn){1}了(le)。",
+ a:["累(lèi)"],
+ opts:["累(lèi)","饿(è)","开心(kāixīn)","担心(dānxīn)"],
+ hint:"You worked for ten hours. Which word describes physical exhaustion?",
+ sSrc:"I worked for ten hours, I am really {1}."},
+
+{type:"mc", q:"她(tā)听到(tīngdào)这个(zhège)坏(huài)消息(xiāoxi)以后(yǐhòu)很(hěn)___，哭(kū)了(le)。",
+ opts:["伤心(shāngxīn)","骄傲(jiāo'ào)","聪明(cōngming)","生气(shēngqì)"],
+ ans:"伤心(shāngxīn)",
+ hint:"She heard bad news and cried. Which word describes deep sadness or heartbreak?"},
+
+{type:"fb", s:"我(wǒ)没(méi)吃(chī)早饭(zǎofàn)，现在(xiànzài)很(hěn){1}。",
+ a:["饿(è)"],
+ opts:["饿(è)","累(lèi)","生气(shēngqì)","害怕(hàipà)"],
+ hint:"You did not eat breakfast. What are you feeling now?",
+ sSrc:"I did not eat breakfast. I am very {1} now."},
+
+{type:"match", pairs:[
+  {trg:"害怕(hàipà)", src:"afraid"},
+  {trg:"担心(dānxīn)", src:"worried"},
+  {trg:"开心(kāixīn)", src:"happy (colloquial)"},
+  {trg:"伤心(shāngxīn)", src:"sad"},
+  {trg:"生气(shēngqì)", src:"angry"}
+]},
+
+{type:"mc", q:"这个(zhège)孩子(háizi)___，五(wǔ)岁(suì)就(jiù)会(huì)看书(kànshū)了(le)。",
+ opts:["聪明(cōngming)","骄傲(jiāo'ào)","担心(dānxīn)","害怕(hàipà)"],
+ ans:"聪明(cōngming)",
+ hint:"This child can already read at age five. What character trait is being described?"},
+
+{type:"fb", s:"他(tā)又(yòu)说(shuō)了(le)谎(huǎng)，我(wǒ)真(zhēn)的(de)很(hěn){1}。",
+ a:["生气(shēngqì)"],
+ opts:["生气(shēngqì)","开心(kāixīn)","聪明(cōngming)","饿(è)"],
+ hint:"He lied again. You feel furious. Which word means angry?",
+ sSrc:"He lied again. I am really very {1}."},
+
+{type:"match", pairs:[
+  {trg:"骄傲(jiāo'ào)", src:"proud"},
+  {trg:"累(lèi)", src:"tired"},
+  {trg:"饿(è)", src:"hungry"},
+  {trg:"聪明(cōngming)", src:"clever"}
+]},
+
+{type:"drag_fill",
+ s:"考试(kǎoshì)成绩(chéngjì)出来(chūlái)了(le)，我(wǒ)考(kǎo)得(de)很(hěn)好(hǎo)！我(wǒ)非常(fēicháng){1}，爸爸(bàba)也(yě)很(hěn){2}。",
+ blanks:{"1":"开心(kāixīn)","2":"骄傲(jiāo'ào)"},
+ pool:["开心(kāixīn)","骄傲(jiāo'ào)","伤心(shāngxīn)","担心(dānxīn)"],
+ hint:"Exam results are out and you did well. You feel personally happy, and your father is proud of you."}
 ]}
 
 ]};
