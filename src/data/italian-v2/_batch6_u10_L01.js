@@ -84,7 +84,7 @@ const BATCH6_L1 = {id:"itv2_u10l_b6_1", title:"All'aeroporto", icon:"\u{2708}\u{
 
 {type:"teach", trg:"il fuso orario", src:"the time zone", pos:"noun", gender:"m",
  note:"Masculine noun. 'Fuso' (spindle) + 'orario' (time-related).\nUsed when discussing jet lag.",
- example:"A: Che fuso orario c'e in Giappone?\nB: Piu otto ore rispetto all'Italia.",
+ example:"A: Che fuso orario c'è in Giappone?\nB: Piu otto ore rispetto all'Italia.",
  exampleSrc:"A: What time zone is Japan in?\nB: Plus eight hours compared to Italy.",
  funFact:"The term 'fuso orario' comes from the spindle-shaped zones on a globe. Italy is in the CET zone (Central European Time), UTC+1."},
 

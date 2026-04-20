@@ -54,7 +54,7 @@ const BATCH6_L1 = {id:"itv2_u04l_b6_1", title:"La colazione al bar", icon:"\u{1F
 
 {type:"teach", trg:"la cassa", src:"the cash register / checkout", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le casse.\nWhere you pay in a bar or shop.",
- example:"A: Scusi, dov'e la cassa?\nB: La in fondo, a sinistra.",
+ example:"A: Scusi, dov'è la cassa?\nB: La in fondo, a sinistra.",
  exampleSrc:"A: Excuse me, where is the cash register?\nB: Over there in the back, on the left.",
  funFact:"In traditional Italian bars, the 'cassiere/a' (cashier) sits at a separate register from where drinks are prepared, an efficient division of labor."},
 

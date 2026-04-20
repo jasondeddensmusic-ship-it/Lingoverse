@@ -78,7 +78,7 @@ const BATCH7_L1 = {id:"itv2_u27l_b7_1", title:"Lo spazio e l'astronomia", icon:"
 
 {type:"teach", trg:"la scoperta", src:"the discovery", pos:"noun", gender:"f",
  note:"Feminine noun. Plural: le scoperte.\n'Scoprire' = to discover. Past: scoperto.",
- example:"A: La scoperta di nuovi pianeti e emozionante.\nB: Chissa se c'e vita altrove.",
+ example:"A: La scoperta di nuovi pianeti e emozionante.\nB: Chissa se c'è vita altrove.",
  exampleSrc:"A: The discovery of new planets is exciting.\nB: Who knows if there is life elsewhere.",
  funFact:"'Scoperta' and 'scoprire' are used for all types of discoveries: scientific, geographic, personal. Colombo's 'scoperta dell'America' (discovery of America) is the most famous Italian discovery."},
 

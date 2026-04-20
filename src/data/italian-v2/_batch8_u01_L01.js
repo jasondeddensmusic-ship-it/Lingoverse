@@ -66,7 +66,7 @@ const BATCH8_L1 = {id:"itv2_u01l_b8_1", title:"Signore e signora", icon:"🎩", 
 
 {type:"mc",
  q:"How do you say 'excuse me, may I come in?' in Italian?",
- opts:["Permesso, posso entrare?","Scusi, dov'e la porta?","Buongiorno, come sta?","Mi dispiace, sono in ritardo."],
+ opts:["Permesso, posso entrare?","Scusi, dov'è la porta?","Buongiorno, come sta?","Mi dispiace, sono in ritardo."],
  ans:"Permesso, posso entrare?",
  hint:"This word is specifically used when entering a space or passing through. Think of asking 'permission.'"},
 

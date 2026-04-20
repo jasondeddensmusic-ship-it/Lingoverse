@@ -93,7 +93,7 @@ const BATCH7_L1 = {id:"itv2_u36l_b7_1", title:"Strategie per l'esame CILS B2", i
  ans:"In primo luogo",
  hint:"Used at the beginning of a structured argument. Followed by 'in secondo l....'"},
 
-{type:"fb", s:"{1} un lato c'e il progresso, dall'altro il rischio.", a:["Da"],
+{type:"fb", s:"{1} un lato c'è il progresso, dall'altro il rischio.", a:["Da"],
  opts:["Da","In","Per","Con"],
  hint:"The preposition that starts the phrase meaning 'on one hand.'",
  sSrc:"On one {1} there is progress, on the other risk."},

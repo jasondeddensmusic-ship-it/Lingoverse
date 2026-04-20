@@ -34,9 +34,9 @@ const BATCH6_L1 = {id:"itv2_u22l_b6_1", title:"Proverbi e modi di dire", icon:"\
  exampleSrc:"A: I cannot find a job!\nB: He who seeks finds. Keep trying.",
  funFact:"This proverb echoes the biblical 'seek and you shall find.' Italians often extend it humorously: 'chi cerca trova e chi domanda si sente rispondere' (and who asks gets an answer)."},
 
-{type:"teach", trg:"tra il dire e il fare c'e di mezzo il mare", src:"easier said than done", pos:"intj", gender:null,
+{type:"teach", trg:"tra il dire e il fare c'è di mezzo il mare", src:"easier said than done", pos:"intj", gender:null,
  note:"Proverb. Literally: 'between saying and doing, there is the sea.'\nTalking is easy, action is hard.",
- example:"A: Voglio correre una maratona!\nB: Tra il dire e il fare c'e di mezzo il mare.",
+ example:"A: Voglio correre una maratona!\nB: Tra il dire e il fare c'è di mezzo il mare.",
  exampleSrc:"A: I want to run a marathon!\nB: Easier said than done.",
  funFact:"The 'sea' in this proverb represents the vast distance between intention and action. As a maritime nation, Italy naturally uses the sea as a metaphor for great obstacles."},
 
@@ -88,7 +88,7 @@ const BATCH6_L1 = {id:"itv2_u22l_b6_1", title:"Proverbi e modi di dire", icon:"\
  exampleSrc:"A: They thought I would not make it.\nB: He who laughs last laughs best!",
  funFact:"Italians love this proverb for its dramatic flair. It is used after proving doubters wrong, delivered with a knowing smile and perhaps a gesture."},
 
-{type:"mc", q:"Cosa significa 'Tra il dire e il fare c'e di mezzo il mare'?",
+{type:"mc", q:"Cosa significa 'Tra il dire e il fare c'è di mezzo il mare'?",
  opts:["Easier said than done","The sea is between us","Talking is more important","I prefer the sea"],
  ans:"Easier said than done",
  hint:"The 'sea' represents the vast gap between talking about something and actually doing it."},
@@ -131,6 +131,6 @@ const BATCH6_L1 = {id:"itv2_u22l_b6_1", title:"Proverbi e modi di dire", icon:"\
  {trg:"chi va piano va lontano", src:"slow and steady wins"},
  {trg:"a caval donato...", src:"don't look a gift horse..."}
 ]}
-,{type:"match",pairs:[{trg:"non tutte le ciambelle riescono col buco",src:"not everything goes as planned"},{trg:"a caval donato non si guarda in bocca",src:"do not look a gift horse in the mouth"},{trg:"chi va piano va sano e va lontano",src:"slow and steady wins the race"}]},{type:"mc",q:"How do you say \"easier said than done\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","tra il dire e il fare c'e di mezzo il mare"],ans:"tra il dire e il fare c'e di mezzo il mare",hint:"Recall the Italian vocabulary word taught in this lesson."},
+,{type:"match",pairs:[{trg:"non tutte le ciambelle riescono col buco",src:"not everything goes as planned"},{trg:"a caval donato non si guarda in bocca",src:"do not look a gift horse in the mouth"},{trg:"chi va piano va sano e va lontano",src:"slow and steady wins the race"}]},{type:"mc",q:"How do you say \"easier said than done\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","tra il dire e il fare c'è di mezzo il mare"],ans:"tra il dire e il fare c'è di mezzo il mare",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Come dice il {1}: chi cerca trova.",a:["proverbio"],opts:["proverbio","modo di dire","discorso","canzone"],hint:"A traditional saying that conveys folk wisdom about effort.",sSrc:"As the {1} says: seek and you shall find."}]};
 export default BATCH6_L1;

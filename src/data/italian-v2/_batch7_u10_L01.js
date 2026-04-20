@@ -78,7 +78,7 @@ const BATCH7_L1 = {id:"itv2_u10l_b7_1", title:"La natura e le attività all'aper
 
 {type:"teach", trg:"selvaggio", src:"wild / unspoiled", pos:"adj", gender:null,
  note:"Adjective. Selvaggio/a/i/e.\n'Natura selvaggia' = wild nature.",
- example:"A: Questo posto e completamente selvaggio.\nB: Non c'e nessuno, solo natura.",
+ example:"A: Questo posto e completamente selvaggio.\nB: Non c'è nessuno, solo natura.",
  exampleSrc:"A: This place is completely wild.\nB: There is nobody, just nature.",
  funFact:"'Selvaggio' comes from Latin 'silvaticus' (of the forest). Sardinia's eastern coast, the 'Supramonte,' is one of the wildest and most unspoiled areas in the Mediterranean."},
 

@@ -56,7 +56,7 @@ const BATCH2_U18_L2 = {
 
     {type:"teach", trg:"la riserva naturale", src:"the nature reserve", pos:"noun", gender:"f",
      note:"Feminine. 'Riserva' = reserve. 'Naturale' = natural.\nSmaller and more specific than a national park.",
-     example:"A: Vicino a casa c'e una riserva naturale.\nB: Ci vado spesso per fare escursioni.",
+     example:"A: Vicino a casa c'è una riserva naturale.\nB: Ci vado spesso per fare escursioni.",
      exampleSrc:"A: Near my house there is a nature reserve.\nB: I go there often for hikes.",
      funFact:"Italy has hundreds of 'riserve naturali' (nature reserves), both state and regional. They protect specific ecosystems: wetlands, dunes, forests, or marine areas. 'Riserva marina protetta' (marine protected area) safeguards coastal waters. The Zingaro reserve in Sicily was Italy's first nature reserve (1981)."},
 

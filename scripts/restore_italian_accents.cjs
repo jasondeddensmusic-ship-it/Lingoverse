@@ -81,6 +81,24 @@ const PHRASE_SUBSTITUTIONS = [
   ['lui e ', 'lui è '],
   ['lei e ', 'lei è '],
   ['che e ', 'che è '],
+  // Question-word constructions — "e" after these can only be "is"
+  ['qual e ', "qual è "],
+  ['qual e,', "qual è,"],
+  ['qual e.', "qual è."],
+  ['qual e?', "qual è?"],
+  ['quale e ', "quale è "],
+  ['quali e ', "quali è "],
+  // Existence: c'e → c'è (there is)
+  ["c'e ", "c'è "],
+  ["c'e,", "c'è,"],
+  ["c'e.", "c'è."],
+  ["c'e!", "c'è!"],
+  ["c'e?", "c'è?"],
+  // dov'e / com'e (where/how is)
+  ["dov'e ", "dov'è "],
+  ["dov'e?", "dov'è?"],
+  ["com'e ", "com'è "],
+  ["com'e?", "com'è?"],
 ];
 
 function processFile(filePath) {

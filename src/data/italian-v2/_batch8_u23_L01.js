@@ -42,7 +42,7 @@ const BATCH8_L1 = {id:"itv2_u23l_b8_1", title:"Il sistema politico", icon:"🗳�
 
 {type:"teach", trg:"lo sciopero", src:"the strike", pos:"noun", gender:"m",
  note:"Masculine noun. 'Fare sciopero' = to go on strike.\n'Scioperare' = to strike.",
- example:"A: Domani c'e sciopero dei trasporti.\nB: Come vado al lavoro allora?",
+ example:"A: Domani c'è sciopero dei trasporti.\nB: Come vado al lavoro allora?",
  exampleSrc:"A: Tomorrow there is a transport strike.\nB: How do I get to work then?",
  funFact:"Transport strikes in Italy are so common they have guaranteed 'fasce di garanzia' (guaranteed service windows) by law: 6-9 AM and 5-8 PM. Italians plan around them."},
 
@@ -72,7 +72,7 @@ const BATCH8_L1 = {id:"itv2_u23l_b8_1", title:"Il sistema politico", icon:"🗳�
 ]},
 
 {type:"fb",
- s:"Domani c'e {1} dei trasporti, prendi la bicicletta.",
+ s:"Domani c'è {1} dei trasporti, prendi la bicicletta.",
  a:["sciopero"],
  opts:["sciopero","referendum","dibattito","bilancio"],
  hint:"This word means a work stoppage. When transport workers do this, buses and trains do not run.",

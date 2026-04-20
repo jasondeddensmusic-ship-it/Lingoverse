@@ -6,7 +6,7 @@ const BATCH8_L1 = {id:"itv2_u33l_b8_1", title:"Etica e morale", icon:"🤔", xp:
 
 {type:"teach", trg:"l'etica", src:"the ethics", pos:"noun", gender:"f",
  note:"Feminine noun. 'Etico' = ethical.\n'Codice etico' = code of ethics.",
- example:"A: L'etica professionale e fondamentale.\nB: Senza etica, non c'e fiducia.",
+ example:"A: L'etica professionale e fondamentale.\nB: Senza etica, non c'è fiducia.",
  exampleSrc:"A: Professional ethics are fundamental.\nB: Without ethics, there is no trust.",
  funFact:"Italy's ethical tradition runs from Roman Stoicism through Catholic moral theology to modern bioethics. The Vatican's influence makes ethical debates in Italy uniquely complex."},
 

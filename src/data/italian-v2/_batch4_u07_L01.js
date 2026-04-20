@@ -130,7 +130,7 @@ const BATCH4_U07_L1 = {
      ans:"Italian tradition serves the main dish alone, sides are ordered separately",
      hint:"The secondo comes on its own plate. S... are a separate decision."},
 
-    {type:"fb", s:"Questa pasta e molto {1}, c'e tanto peperoncino!",
+    {type:"fb", s:"Questa pasta e molto {1}, c'è tanto peperoncino!",
      a:["piccante"], opts:["piccante","leggera","dolce","amara"],
      hint:"The pasta has a lot of chili pepper, making it hot and spicy.",
      sSrc:"This pasta is very {1}, there is a lot of chili pepper!"},

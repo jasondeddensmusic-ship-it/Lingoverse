@@ -32,7 +32,7 @@ const BATCH2_U06_L2 = {
 
     {type:"teach", trg:"sapere", src:"to know (facts/information)", pos:"verb", gender:null,
      note:"Irregular: so, sai, sa, sappiamo, sapete, sanno.\nFor facts and skills. 'Sai dov'e...?' = Do you know where...?",
-     example:"A: Sai dov'e la stazione?\nB: Si, e dritto poi a sinistra.",
+     example:"A: Sai dov'è la stazione?\nB: Si, e dritto poi a sinistra.",
      exampleSrc:"A: Do you know where the station is?\nB: Yes, it is straight then left.",
      funFact:"Remember: sapere = facts/skills, conoscere = people/places. 'Sai parlare italiano?' (Can you speak Italian?) uses sapere because it is about a skill. This distinction is one of the first grammar points in Italian."},
 
@@ -96,7 +96,7 @@ const BATCH2_U06_L2 = {
      ans:"Ho bisogno di aiuto",
      hint:"Italian uses 'I have need of' rather than 'I need.' The structure uses avere plus a noun and a preposition."},
 
-    {type:"fb", s:"{1} dov'e la stazione?",
+    {type:"fb", s:"{1} dov'è la stazione?",
      a:["Sai"],
      opts:["Sai","Sei","Hai","Vai"],
      hint:"You are asking if someone knows a fact. This is the 'tu' form of 'sapere,' for knowledge and information.",

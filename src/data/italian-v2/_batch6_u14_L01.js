@@ -84,7 +84,7 @@ const BATCH6_L1 = {id:"itv2_u14l_b6_1", title:"La vita in ufficio", icon:"\u{1F4
 
 {type:"teach", trg:"lo sciopero", src:"the strike", pos:"noun", gender:"m",
  note:"Masculine noun. Plural: gli scioperi.\n'Fare sciopero' or 'scioperare' = to go on strike.",
- example:"A: Domani c'e uno sciopero dei trasporti.\nB: Devo andare al lavoro in macchina.",
+ example:"A: Domani c'è uno sciopero dei trasporti.\nB: Devo andare al lavoro in macchina.",
  exampleSrc:"A: Tomorrow there is a transport strike.\nB: I have to drive to work.",
  funFact:"Transport strikes are common in Italy, especially on Fridays. 'Sciopero a singhiozzo' (hiccup strike) means intermittent work stoppages throughout the day."},
 

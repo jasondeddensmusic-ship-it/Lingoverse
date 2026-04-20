@@ -74,7 +74,7 @@ const BATCH4_U05_L1 = {
 
     {type:"teach", trg:"la mensola", src:"the shelf", pos:"noun", gender:"f",
      note:"Feminine. Plural: le mensole. A wall-mounted shelf.\n'Scaffale' = a freestanding bookshelf.",
-     example:"A: Metti i libri sulla mensola.\nB: Non c'e più spazio!",
+     example:"A: Metti i libri sulla mensola.\nB: Non c'è più spazio!",
      exampleSrc:"A: Put the books on the shelf.\nB: There is no more space!",
      funFact:"Italian homes love 'mensole.' Open shelving in kitchens is a classic Italian design choice. The distinction between 'mensola' (wall shelf) and 'scaffale' (standing shelf/bookcase) is important in Italian."},
 

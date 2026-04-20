@@ -6,7 +6,7 @@ const BATCH7_L1 = {id:"itv2_u01l_b7_1", title:"Che tempo fa?", icon:"\u2601\uFE0
 
 {type:"teach", trg:"il tempo", src:"the weather", pos:"noun", gender:"m",
  note:"Masculine noun. Also means 'time.' Context tells you which.\n'Che tempo fa?' = What is the weather like?",
- example:"A: Che tempo fa oggi?\nB: Fa bello, c'e il sole!",
+ example:"A: Che tempo fa oggi?\nB: Fa bello, c'è il sole!",
  exampleSrc:"A: What is the weather like today?\nB: It is nice, the sun is out!",
  funFact:"Italians use 'fare' (to do/make) for weather: 'fa caldo' (it is hot), 'fa freddo' (it is cold). The weather literally 'does' things in Italian."},
 

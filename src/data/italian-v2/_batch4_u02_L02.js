@@ -92,7 +92,7 @@ const BATCH4_U02_L2 = {
 
     {type:"teach", trg:"la cena", src:"dinner / supper", pos:"noun", gender:"f",
      note:"Feminine. Evening meal. 'Cenare' = to have dinner.\nItalians eat dinner late, around 8-9 PM.",
-     example:"A: Cosa c'e per cena?\nB: Stasera facciamo la pasta.",
+     example:"A: Cosa c'è per cena?\nB: Stasera facciamo la pasta.",
      exampleSrc:"A: What is there for dinner?\nB: Tonight we are making pasta.",
      funFact:"From Latin 'cena,' which was the main meal of the day for Romans, eaten around 3 PM. Over centuries, it shifted to the evening. In ancient Rome, the cena could last for hours with multiple courses."},
 

@@ -78,7 +78,7 @@ const BATCH7_L1 = {id:"itv2_u09l_b7_1", title:"L'esercizio fisico", icon:"\u{1F3
 
 {type:"teach", trg:"la salute", src:"health", pos:"noun", gender:"f",
  note:"Feminine noun. 'Alla salute!' = Cheers! (toasting).\n'In salute' = in good health.",
- example:"A: La salute e la cosa più importante.\nB: Hai ragione, senza salute non c'e niente.",
+ example:"A: La salute e la cosa più importante.\nB: Hai ragione, senza salute non c'è niente.",
  exampleSrc:"A: Health is the most important thing.\nB: You are right, without health there is nothing.",
  funFact:"'Salute!' is said when someone sneezes (like 'bless you') and also as a toast. It comes from Latin 'salus' (health/salvation), the root of 'salutation' and 'salute.'"},
 

@@ -12,7 +12,7 @@ const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{27
 
 {type:"teach", trg:"suggerire", src:"to suggest", pos:"verb", gender:null,
  note:"Regular -ire verb with -isc- infix: suggerisco, suggerisci, suggerisce.\nTo give advice or recommendations.",
- example:"A: Ti suggerirei di partire presto.\nB: Hai ragione, c'e sempre traffico.",
+ example:"A: Ti suggerirei di partire presto.\nB: Hai ragione, c'è sempre traffico.",
  exampleSrc:"A: I would suggest you leave early.\nB: You are right, there is always traffic.",
  funFact:"'Suggerire' comes from Latin 'suggerere' (to carry from below). In theater, the 'suggeritore' is the prompter who whispers forgotten lines to actors from below the stage."},
 
