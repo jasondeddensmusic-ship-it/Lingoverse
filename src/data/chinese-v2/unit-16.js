@@ -374,6 +374,146 @@ lessons:[
  sSrc:"He {1} satisfaction with his own learning situation."}
 ]}
 
+,
+
+// ─── L5: HSK 3/4 Abstract Words — Attitudes and Change ───
+{id:"zhv2_u16l_hsk3_4_abstract", title:"态度与变化(tàidu yǔ biànhuà) Attitudes and Change", icon:"🔄", xp:20, board:true, steps:[
+{type:"intro", title:"Attitudes and Change",
+ desc:"Learn 9 essential HSK 3/4 words for expressing attitudes, decisions, and change. These high-frequency words appear in everyday conversation, formal writing, and the HSK 3 and 4 exams.",
+ goals:["Use 接受 and 拒绝 to accept or refuse","Express change with 改变 and 增加","Describe attitudes with 态度 and 主要","Contrast ideas with 相同 and 不同"]},
+
+{type:"teach", trg:"接受(jiēshòu)", src:"to accept / to receive", pos:"verb", gender:null,
+ note:"Used for accepting offers, ideas, criticism, or outcomes.\n接 = connect/receive, 受 = receive/bear.",
+ example:"A: 你(nǐ)接受(jiēshòu)这(zhè)个(ge)结果(jiéguǒ)吗(ma)？\nB: 我(wǒ)接受(jiēshòu)，这(zhè)个(ge)结果(jiéguǒ)很(hěn)好(hǎo)。",
+ exampleSrc:"A: Do you accept this result?\nB: I accept it, this result is very good.",
+ funFact:"接受 covers a wide range: accepting a gift, taking criticism, receiving medical treatment, or agreeing to terms. In business Chinese, 接受条件 (accept the conditions) is one of the most negotiated phrases."},
+
+{type:"teach", trg:"拒绝(jùjué)", src:"to refuse / to decline", pos:"verb", gender:null,
+ note:"The opposite of 接受. Carries firmness, not necessarily rudeness.\n拒 = resist/block, 绝 = cut off/absolutely.",
+ example:"A: 你(nǐ)为什么(wèishénme)拒绝(jùjué)了(le)？\nB: 因为(yīnwèi)我(wǒ)不(bù)满意(mǎnyì)这(zhè)个(ge)办法(bànfǎ)。",
+ exampleSrc:"A: Why did you refuse?\nB: Because I am not satisfied with this method.",
+ funFact:"绝 means 'to cut completely,' making 拒绝 literally 'to block and cut off.' It is stronger than a polite 不了 (no thank you). In formal contexts, 婉拒 (to politely decline) is softer. HSK 3 tests both words."},
+
+{type:"teach", trg:"增加(zēngjiā)", src:"to increase / to add", pos:"verb", gender:null,
+ note:"Used for quantities, numbers, or amounts going up.\n增 = increase, 加 = add/plus.",
+ example:"A: 你(nǐ)觉得(juéde)问题(wèntí)增加(zēngjiā)了(le)吗(ma)？\nB: 对(duì)，情况(qíngkuàng)越(yuè)来(lái)越(yuè)复杂(fùzá)。",
+ exampleSrc:"A: Do you think the problems have increased?\nB: Yes, the situation is getting more and more complex.",
+ funFact:"增加 is the go-to word for rising numbers in news and statistics. Its antonym 减少 (jiǎnshǎo) means 'to decrease.' Together they appear in almost every economic or social report in China."},
+
+{type:"teach", trg:"改变(gǎibiàn)", src:"to change / to transform", pos:"verb", gender:null,
+ note:"Used for changing plans, opinions, situations, or people.\n改 = correct/alter, 变 = change/transform.",
+ example:"A: 你(nǐ)想(xiǎng)改变(gǎibiàn)什么(shénme)？\nB: 我(wǒ)想(xiǎng)改变(gǎibiàn)我(wǒ)的(de)生活(shēnghuó)方式(fāngshì)。",
+ exampleSrc:"A: What do you want to change?\nB: I want to change my lifestyle.",
+ funFact:"改 originally meant 'to correct a mistake.' 变 means 'to transform.' Together they cover both small adjustments and big transformations. 改变主意 (to change one's mind) is one of the most common daily expressions."},
+
+{type:"teach", trg:"态度(tàidu)", src:"attitude / manner", pos:"noun", gender:null,
+ note:"Refers to one's stance, approach, or manner toward something.\n态 = posture/state, 度 = degree/attitude.",
+ example:"A: 他(tā)的(de)态度(tàidu)怎么样(zěnmeyàng)？\nB: 他(tā)的(de)态度(tàidu)很(hěn)认真(rènzhēn)，我(wǒ)很(hěn)满意(mǎnyì)。",
+ exampleSrc:"A: What is his attitude like?\nB: His attitude is very serious, I am very satisfied.",
+ funFact:"态度 covers workplace behavior, customer service, and personal conduct. In China, a bad 态度 is considered a serious fault. The phrase 端正态度 (correct your attitude) is something students and employees hear regularly."},
+
+{type:"teach", trg:"条件(tiáojiàn)", src:"condition / terms / requirement", pos:"noun", gender:null,
+ note:"Refers to requirements, terms of an agreement, or circumstances.\n条 = clause/item, 件 = matter/item.",
+ example:"A: 你(nǐ)接受(jiēshòu)这(zhè)个(ge)条件(tiáojiàn)吗(ma)？\nB: 这(zhè)个(ge)条件(tiáojiàn)需要(xūyào)改变(gǎibiàn)，我(wǒ)不(bù)接受(jiēshòu)。",
+ exampleSrc:"A: Do you accept this condition?\nB: This condition needs to change, I do not accept it.",
+ funFact:"条 originally meant 'strip of bamboo' used for writing rules. 条件 today covers contract terms, entry requirements, living conditions, and negotiation points. It appears on nearly every legal and official document in China."},
+
+{type:"teach", trg:"主要(zhǔyào)", src:"main / primary / major", pos:"adj", gender:null,
+ note:"Highlights the most important element. Often followed by a noun.\n主 = master/main, 要 = important/need.",
+ example:"A: 这(zhè)件(jiàn)事(shì)的(de)主要(zhǔyào)原因(yuányīn)是(shì)什么(shénme)？\nB: 主要(zhǔyào)原因(yuányīn)是(shì)没有(méiyǒu)解决(jiějué)问题(wèntí)。",
+ exampleSrc:"A: What is the main reason for this matter?\nB: The main reason is that the problem was not solved.",
+ funFact:"主要 is the Chinese equivalent of 'main,' 'primary,' or 'major.' It ranks importance without excluding others. Compare: 主要 = main point, 唯一 = the only one. News and academic writing use 主要 constantly."},
+
+{type:"teach", trg:"相同(xiāngtóng)", src:"same / identical", pos:"adj", gender:null,
+ note:"Describes two things that are alike or share qualities.\n相 = mutual/each other, 同 = same.",
+ example:"A: 这(zhè)两(liǎng)个(ge)结果(jiéguǒ)相同(xiāngtóng)吗(ma)？\nB: 对(duì)，两(liǎng)个(ge)结果(jiéguǒ)是(shì)相同(xiāngtóng)的(de)。",
+ exampleSrc:"A: Are these two results the same?\nB: Yes, the two results are the same.",
+ funFact:"相同 emphasizes full or near-full equivalence. Its antonym 不同 (different) appears alongside it constantly. A proverb: 物以类聚，人以群分 (similar things gather, people group by kind). 相同 captures the 'similar things' part."},
+
+{type:"teach", trg:"不同(bùtóng)", src:"different / unlike", pos:"adj", gender:null,
+ note:"Describes things that differ from each other. Often paired with 相同.\n不 = not, 同 = same.",
+ example:"A: 这(zhè)两(liǎng)个(ge)办法(bànfǎ)有(yǒu)什么(shénme)不同(bùtóng)？\nB: 主要(zhǔyào)的(de)不同(bùtóng)是(shì)结果(jiéguǒ)不(bù)一样(yīyàng)。",
+ exampleSrc:"A: What is different about these two methods?\nB: The main difference is that the results are not alike.",
+ funFact:"不同 functions as both adjective (different things) and noun (the difference). This flexibility makes it very common. 有所不同 (somewhat different) and 大不相同 (vastly different) are fixed expressions used in formal writing."},
+
+{type:"tip", title:"接受 vs 拒绝: Accept or Refuse",
+ text:"This pair covers one of the most common communicative functions: agreeing or declining.\n\n接受(jiēshòu) = to accept\n拒绝(jùjué) = to refuse\n\nExamples:\n接受(jiēshòu)条件(tiáojiàn) = accept the conditions\n拒绝(jùjué)这(zhè)个(ge)办法(bànfǎ) = refuse this method\n\nTip: 接受 connects to something; 拒绝 cuts it off. This mirrors the characters themselves: 接 means 'connect,' 绝 means 'cut off.'",
+ deepDive:{title:"相同 and 不同 as Nouns",
+  text:"Both 相同 and 不同 can function as nouns in Chinese, which surprises learners.\n\n有(yǒu)什么(shénme)不同(bùtóng)？= What is the difference?\n找出(zhǎochū)两(liǎng)者(zhě)的(de)相同(xiāngtóng)点(diǎn)。= Find the similarities between the two.\n\nThis noun usage is common in academic writing, exam questions, and formal comparison tasks. The HSK 4 writing section often asks you to discuss 相同点 (similarities) and 不同点 (differences)."}},
+
+{type:"mc", q:"他(tā)___了(le)这(zhè)个(ge)条件(tiáojiàn)，因为(yīnwèi)他(tā)不(bù)满意(mǎnyì)。",
+ opts:["拒绝(jùjué)","接受(jiēshòu)","增加(zēngjiā)","改变(gǎibiàn)"],
+ ans:"拒绝(jùjué)",
+ hint:"He ___ the condition because he was not satisfied. Which verb means 'to refuse'?"},
+
+{type:"fb", s:"我(wǒ)___了(le)这(zhè)个(ge)结果(jiéguǒ)，所以(suǒyǐ)我(wǒ)很(hěn)满意(mǎnyì)。",
+ a:["接受(jiēshòu)"],
+ opts:["接受(jiēshòu)","拒绝(jùjué)","改变(gǎibiàn)","增加(zēngjiā)"],
+ hint:"I ___ the result, so I am satisfied. Which verb means 'to accept'?",
+ sSrc:"I {1} this result, so I am very satisfied."},
+
+{type:"mc", q:"问题(wèntí)___了(le)，情况(qíngkuàng)越(yuè)来(lái)越(yuè)复杂(fùzá)。",
+ opts:["增加(zēngjiā)","减少","接受(jiēshòu)","相同(xiāngtóng)"],
+ ans:"增加(zēngjiā)",
+ hint:"The problems ___, the situation gets more and more complex. Which verb means 'to increase'?"},
+
+{type:"fb", s:"你(nǐ)想(xiǎng)___什么(shénme)？现在(xiànzài)的(de)情况(qíngkuàng)需要(xūyào)新(xīn)办法(bànfǎ)。",
+ a:["改变(gǎibiàn)"],
+ opts:["改变(gǎibiàn)","接受(jiēshòu)","增加(zēngjiā)","拒绝(jùjué)"],
+ hint:"What do you want to ___ ? Which verb means 'to change' or 'to transform'?",
+ sSrc:"What do you want to {1}? The current situation needs a new method."},
+
+{type:"match", pairs:[
+  {trg:"接受(jiēshòu)", src:"to accept"},
+  {trg:"拒绝(jùjué)", src:"to refuse"},
+  {trg:"增加(zēngjiā)", src:"to increase"},
+  {trg:"改变(gǎibiàn)", src:"to change"},
+  {trg:"态度(tàidu)", src:"attitude / manner"}
+]},
+
+{type:"mc", q:"他(tā)对(duì)工作(gōngzuò)的(de)___很(hěn)认真(rènzhēn)，所以(suǒyǐ)大家(dàjiā)都(dōu)很(hěn)满意(mǎnyì)。",
+ opts:["态度(tàidu)","条件(tiáojiàn)","原因(yuányīn)","结果(jiéguǒ)"],
+ ans:"态度(tàidu)",
+ hint:"His ___ toward work is very serious. Which noun means 'attitude' or 'manner'?"},
+
+{type:"fb", s:"我(wǒ)需要(xūyào)先(xiān)了解(liǎojiě)所有(suǒyǒu)的(de){1}再(zài)决定(juédìng)。",
+ a:["条件(tiáojiàn)"],
+ opts:["条件(tiáojiàn)","态度(tàidu)","影响(yǐngxiǎng)","原因(yuányīn)"],
+ hint:"I need to understand all the ___ before deciding. Which noun means 'conditions' or 'terms'?",
+ sSrc:"I need to understand all the {1} before deciding."},
+
+{type:"mc", q:"这(zhè)两(liǎng)个(ge)办法(bànfǎ)的(de)___原因(yuányīn)是(shì)什么(shénme)？",
+ opts:["主要(zhǔyào)","相同(xiāngtóng)","不同(bùtóng)","态度(tàidu)"],
+ ans:"主要(zhǔyào)",
+ hint:"What is the ___ reason for these two methods? Which adjective means 'main' or 'primary'?"},
+
+{type:"fb", s:"这(zhè)两(liǎng)个(ge)结果(jiéguǒ)是(shì)___的(de)，没有(méiyǒu)不同(bùtóng)。",
+ a:["相同(xiāngtóng)"],
+ opts:["相同(xiāngtóng)","不同(bùtóng)","主要(zhǔyào)","改变(gǎibiàn)"],
+ hint:"The two results are ___, with no difference. Which adjective means 'same' or 'identical'?",
+ sSrc:"These two results are {1}, with no difference."},
+
+{type:"match", pairs:[
+  {trg:"条件(tiáojiàn)", src:"condition / terms"},
+  {trg:"主要(zhǔyào)", src:"main / primary"},
+  {trg:"相同(xiāngtóng)", src:"same / identical"},
+  {trg:"不同(bùtóng)", src:"different / unlike"},
+  {trg:"改变(gǎibiàn)", src:"to change"}
+]},
+
+{type:"drag_fill",
+ s:"他(tā)的(de){1}很(hěn)好(hǎo)，因为(yīnwèi)他(tā){2}了(le)所有(suǒyǒu)条件(tiáojiàn)。",
+ blanks:{"1":"态度(tàidu)","2":"接受(jiēshòu)"},
+ pool:["态度(tàidu)","接受(jiēshòu)","拒绝(jùjué)","结果(jiéguǒ)"],
+ hint:"His ___ is good, because he ___ all conditions. Use the attitude word first, then the acceptance verb."},
+
+{type:"fb", s:"这(zhè)两(liǎng)个(ge)看法(kànfǎ)完全(wánquán){1}，我(wǒ)们(men)的(de)想法(xiǎngfǎ)不(bù)一样(yīyàng)。",
+ a:["不同(bùtóng)"],
+ opts:["不同(bùtóng)","相同(xiāngtóng)","主要(zhǔyào)","增加(zēngjiā)"],
+ hint:"The two opinions are completely ___, our ideas are not alike. Which adjective means 'different'?",
+ sSrc:"These two opinions are completely {1}, our ideas are not alike."}
+]}
+
 ]};
 
 export default UNIT_16;
