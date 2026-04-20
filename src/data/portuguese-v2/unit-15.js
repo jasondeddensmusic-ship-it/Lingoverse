@@ -278,6 +278,102 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
   {trg:"falarei", src:"I will speak"},
   {trg:"direi", src:"I will say"},
   {trg:"diria", src:"I / you / he / she would say"}
-]}]}
+]}]},
+
+{id:"ptv2_u15l4_essential_a2_b1_civic", title:"Civic and Social Life", icon:"🏛️", xp:20, board:true, steps:[
+{type:"intro", title:"Society, Work, and Rights", desc:"Eight core nouns that unlock conversation about society, employment, and civic life. All are CELPE-Bras A2/B1 essentials. They appear constantly in news, interviews, and everyday Brazilian life.", goals:["Use o emprego, o problema, a sociedade, o direito","Use a história, a justiça, o poder, a liberdade","Build sentences about work, rights, and daily life"]},
+
+{type:"teach", trg:"o emprego", src:"the job / the employment", pos:"noun", gender:"m",
+ phonetic:"oo em-PREH-goo",
+ note:"O emprego = a specific job or position held.\nDistinct from o trabalho (the activity of working).\nTer emprego = to have a job.",
+ example:"A: Você tem emprego agora?\nB: Sim, tenho emprego em São Paulo.\nA: Que bom!\nB: Estou bem, obrigado.",
+ exampleSrc:"A: Do you have a job now?\nB: Yes, I have a job in São Paulo.\nA: Great!\nB: I am doing well, thank you.",
+ funFact:"Brazil's unemployment rate is called 'a taxa de desemprego'. The prefix des- (un-) + emprego = desemprego. Same logic as English 'dis-employment'."},
+
+{type:"teach", trg:"o problema", src:"the problem", pos:"noun", gender:"m",
+ phonetic:"oo pro-BLEH-mah",
+ note:"Masculine noun despite the -a ending.\nCommon false friend: looks feminine but is not.",
+ example:"A: Qual é o problema?\nB: Não tenho emprego.\nA: Isso é sério.\nB: Estou procurando.",
+ exampleSrc:"A: What is the problem?\nB: I do not have a job.\nA: That is serious.\nB: I am looking.",
+ funFact:"O problema is one of the most famous gender-trap nouns in Portuguese. Learners often say 'a problema' — but Brazilians will notice. The word comes from Greek 'problema', which was already neuter-masculine."},
+
+{type:"teach", trg:"a sociedade", src:"society", pos:"noun", gender:"f",
+ phonetic:"ah so-see-eh-DAH-djee",
+ note:"Broad noun for society as a whole.\nCommon in news, debates, and civic speech.",
+ example:"A: A sociedade está mudando.\nB: É verdade.\nA: Você acha bom?\nB: Acho sim.",
+ exampleSrc:"A: Society is changing.\nB: That is true.\nA: Do you think it is good?\nB: I think so.",
+ funFact:"A sociedade comes from Latin 'societas' (fellowship, alliance). The same root gives English 'society', 'social', and 'associate'. Brazilian political debates use it constantly."},
+
+{type:"teach", trg:"o direito", src:"the right / the law / law (field)", pos:"noun", gender:"m",
+ phonetic:"oo djee-RAY-too",
+ note:"Triple use: a legal right, the field of law, or justice itself.\nDireitos humanos = human rights.",
+ example:"A: Você tem o direito de falar.\nB: Obrigado. É importante.\nA: Todo cidadão tem direitos.\nB: Concordo.",
+ exampleSrc:"A: You have the right to speak.\nB: Thank you. That is important.\nA: Every citizen has rights.\nB: I agree.",
+ funFact:"Direito also means 'straight' as an adjective (andar direito = walk straight). Law is the 'straight path'. The word does double duty in everyday Portuguese."},
+
+{type:"teach", trg:"a história", src:"history / story", pos:"noun", gender:"f",
+ phonetic:"ah ees-TOH-ree-ah",
+ note:"Used for both history (the subject) and a story (a narrative).\nContext tells you which meaning applies.",
+ example:"A: Você gosta de história?\nB: Sim, adoro a história do Brasil.\nA: É muito interessante.\nB: Concordo, tem muita história.",
+ exampleSrc:"A: Do you like history?\nB: Yes, I love the history of Brazil.\nA: It is very interesting.\nB: I agree, there is a lot of history.",
+ funFact:"A história do Brasil includes 500+ years of indigenous, colonial, imperial, and republican eras. Brazilians often say their country has 'muita história' — a lot of history (and a lot of stories, too)."},
+
+{type:"teach", trg:"a justiça", src:"justice", pos:"noun", gender:"f",
+ phonetic:"ah zhoos-TEE-sah",
+ note:"Justice as a concept or the justice system.\nFazer justiça = to do justice / to bring justice.",
+ example:"A: A justiça é importante.\nB: Concordo.\nA: Você tem confiança?\nB: Tenho esperança.",
+ exampleSrc:"A: Justice is important.\nB: I agree.\nA: Do you have confidence?\nB: I have hope.",
+ funFact:"The Brazilian court system is called o Poder Judiciário. Brazilians frequently debate 'onde está a justiça?' (where is justice?) in public life."},
+
+{type:"teach", trg:"o poder", src:"power / the power", pos:"noun", gender:"m",
+ phonetic:"oo po-DEHR",
+ note:"Power as authority, influence, or capacity.\nTer poder = to have power.\nAlso the verb poder (to be able).",
+ example:"A: O poder é uma responsabilidade.\nB: É verdade.\nA: Você quer o poder?\nB: Prefiro a liberdade.",
+ exampleSrc:"A: Power is a responsibility.\nB: That is true.\nA: Do you want power?\nB: I prefer freedom.",
+ funFact:"Portuguese has the same word for the noun 'power' and the infinitive 'to be able to' (poder). Context resolves it every time: 'o poder' (noun, with article) vs. 'posso' or 'pode' (verb forms)."},
+
+{type:"teach", trg:"a liberdade", src:"freedom / liberty", pos:"noun", gender:"f",
+ phonetic:"ah lee-behr-DAH-djee",
+ note:"Freedom or liberty as a value or state.\nLutar pela liberdade = to fight for freedom.",
+ example:"A: O que é mais importante: o poder ou a liberdade?\nB: Para mim, a liberdade.\nA: Por que?\nB: Porque sem liberdade não há vida.",
+ exampleSrc:"A: What is more important: power or freedom?\nB: For me, freedom.\nA: Why?\nB: Because without freedom there is no life.",
+ funFact:"A liberdade appears in Brazil's national motto direction. The phrase 'Ordem e Progresso' (Order and Progress) on the flag comes from positivist philosophy, but liberty debates have been central to Brazilian history since independence."},
+
+{type:"tip", title:"Nouns ending in -dade, -ção, -são",
+ text:"In Portuguese, nouns ending in -dade are always feminine:\n\na liberdade (freedom)\na sociedade (society)\na cidade (city)\na realidade (reality)\n\nNouns ending in -ção and -são are also feminine:\n\na educação (education)\na solução (solution)\na decisão (decision)\n\nMasculine traps: o problema, o sistema, o tema all end in -a but are masculine. Learn them individually.",
+ deepDive:{title:"Why these patterns matter", text:"Recognizing -dade and -ção as feminine saves dozens of agreement errors. When you see a new word ending in -dade, you already know it is feminine without looking it up. This is one of the most efficient pattern rules in Portuguese. The -dade ending comes from Latin -tatem (like English -ty in liberty, quality). Both English and Portuguese inherited it from the same Latin root."}},
+
+{type:"mc", q:"'O emprego' is:", opts:["the work activity","the specific job held","the office building","the salary"], ans:"the specific job held", hint:"Think of emprego as the position or post, not the activity itself."},
+
+{type:"fb", s:"Não tenho {1} agora. Estou procurando.", a:["emprego"], opts:["emprego","problema","poder","história"], hint:"You look for a job, not for power. The word for a specific position you hold.", sSrc:"I do not have a {1} right now. I am looking."},
+
+{type:"mc", q:"'O problema' is which gender?", opts:["feminine (ends in -a)","masculine (tricky exception)","neuter","either gender"], ans:"masculine (tricky exception)", hint:"The -a ending is misleading here. Greek-origin nouns in Portuguese often break the usual pattern. Notice which article the word uses."},
+
+{type:"match", pairs:[
+  {trg:"o emprego", src:"the job / the employment"},
+  {trg:"o problema", src:"the problem"},
+  {trg:"a sociedade", src:"society"},
+  {trg:"o direito", src:"the right / the law"}
+]},
+
+{type:"fb", s:"Você tem o {1} de falar.", a:["direito"], opts:["direito","poder","problema","emprego"], hint:"Legal entitlement or right to do something. 'You have the ___ to speak.'", sSrc:"You have the {1} to speak."},
+
+{type:"mc", q:"A história can mean:", opts:["only history (the subject)","only a story (a narrative)","both history and a story, depending on context","neither"], ans:"both history and a story, depending on context", hint:"Portuguese sometimes uses a single word to cover two related English concepts. Listen to the surrounding sentence to know which sense is intended."},
+
+{type:"fb", s:"A {1} é importante para todos.", a:["justiça"], opts:["justiça","história","liberdade","sociedade"], hint:"The concept of fairness and legal equality. Fazer ___ = to bring fairness.", sSrc:"{1} is important for everyone."},
+
+{type:"mc", q:"'A liberdade' comes from which Latin root?", opts:["-tatem (like English -ty)","liber (book)","labor (work)","libertas (balance)"], ans:"-tatem (like English -ty)", hint:"Liberty, quality, reality — all share the same ancestor ending. Portuguese kept it as -dade."},
+
+{type:"match", pairs:[
+  {trg:"a história", src:"history / story"},
+  {trg:"a justiça", src:"justice"},
+  {trg:"o poder", src:"power / the power"},
+  {trg:"a liberdade", src:"freedom / liberty"}
+]},
+
+{type:"fb", s:"O {1} é uma grande responsabilidade.", a:["poder"], opts:["poder","problema","direito","emprego"], hint:"Authority and influence. 'Power is a great responsibility.'", sSrc:"___ is a great responsibility."},
+
+{type:"mc", q:"Which of these nouns follows the -dade = feminine rule?", opts:["o problema","o direito","a liberdade","o poder"], ans:"a liberdade", hint:"Only one option ends in -dade. That ending is always feminine in Portuguese."}
+]}
 
 ]}; export default UNIT_15;
