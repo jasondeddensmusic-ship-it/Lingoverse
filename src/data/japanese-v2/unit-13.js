@@ -248,5 +248,80 @@ const UNIT_13 = {
 
 ]}
 
+  ,{id:"jav2_u13l_n4v", title:"N4動詞(どうし)と名詞(めいし)", icon:"🎬", xp:15, board:true, steps:[
+  {type:"intro", title:"N4 Verbs and Nouns", desc:"Seven JLPT N4 words that come up constantly in everyday Japanese: three verbs covering actions you do for others, and four nouns for places and concepts central to daily life.", goals:["Use 伝える, 置く, 起こす, 始まる correctly","Name key everyday nouns: 映画館, 場所, 交通","Form natural sentences at A2-B1 level"]},
+
+  {type:"teach", trg:"伝(つた)える", src:"to convey / to tell / to pass on", pos:"verb", gender:null,
+   note:"Ichidan verb. Takes に for the recipient: 先生(せんせい)に伝(つた)える.\nConveys a message from one person to another.",
+   example:"A: 田中(たなか)さんに会議(かいぎ)の時間(じかん)を伝(つた)えてください。\nB: わかりました。すぐに伝(つた)えます。",
+   exampleSrc:"A: Please tell Mr. Tanaka the meeting time.\nB: Understood. I will pass it on right away.",
+   funFact:"伝える uses 伝 (transmit/tradition), also in 伝統(でんとう) (tradition) and 伝言(でんごん) (verbal message). The idea is that a message travels down a chain, like oral tradition passing through generations."},
+
+  {type:"teach", trg:"置(お)く", src:"to place / to put / to leave (in a spot)", pos:"verb", gender:null,
+   note:"Godan verb. Indicates deliberate placement: どこに置(お)く (where to put it).\nAlso appears in compound verb ておく (to do in advance).",
+   example:"A: 鍵(かぎ)をどこに置(お)きましたか？\nB: テーブルの上(うえ)に置(お)きました。",
+   exampleSrc:"A: Where did you put the key?\nB: I placed it on top of the table.",
+   funFact:"置く is the root of the grammatical pattern ておく (to do something in advance or for later): 準備(じゅんび)しておく = to prepare in advance. This pattern is extremely common at N4 and appears in business Japanese constantly."},
+
+  {type:"teach", trg:"起(お)こす", src:"to wake (someone) up / to cause / to stir up", pos:"verb", gender:null,
+   note:"Godan verb. Compare: 起(お)きる (I wake up, intransitive) vs. 起(お)こす (I wake you up, transitive).\nWho wakes up: the person marked with を.",
+   example:"A: 明日(あした)の朝(あさ)、起(お)こしてもらえますか？\nB: いいですよ。何時(なんじ)に起(お)こしますか？",
+   exampleSrc:"A: Can you wake me up tomorrow morning?\nB: Sure. What time shall I wake you?",
+   funFact:"起こす and 起きる share the root 起 (rise/get up). Japanese often pairs intransitive and transitive verb forms this way: 始(はじ)まる (it begins) / 始(はじ)める (to begin it); 終(お)わる (it ends) / 終(お)える (to end it). Spotting these pairs accelerates vocabulary growth."},
+
+  {type:"teach", trg:"始(はじ)まる", src:"to begin / to start (intransitive)", pos:"verb", gender:null,
+   note:"Godan verb. Subject is the thing that starts (no agent needed).\nCompare: 始(はじ)める (transitive, someone starts something) — taught in Unit 11.",
+   example:"A: 映画(えいが)は何時(なんじ)に始(はじ)まりますか？\nB: 三時(さんじ)に始(はじ)まります。",
+   exampleSrc:"A: What time does the movie begin?\nB: It starts at three o'clock.",
+   funFact:"始まる marks the event as the subject: 授業(じゅぎょう)が始(はじ)まる (class begins). When YOU start something, use 始める: 授業(じゅぎょう)を始(はじ)める (to start class). Getting this pair right is a key N4 accuracy marker."},
+
+  {type:"tip", title:"Transitive vs. Intransitive Verb Pairs",
+   text:"Japanese pairs many verbs: one intransitive (thing acts on its own) and one transitive (person causes it).\n\nIntransitive (subject changes):\n起(お)きる — I wake up\n始(はじ)まる — it begins\n\nTransitive (person causes change):\n起(お)こす — (I) wake (you) up\n始(はじ)める — (I) begin (something)\n\nKey test: can you ask 'who caused it?' If yes, use the transitive form.",
+   deepDive:{title:"Spotting the pairs",
+    text:"Look at the verb endings. A rough pattern:\n-る (intransitive) pairs with -す (transitive):\n起(お)きる / 起(お)こす, 出(で)る / 出(だ)す\n\n-まる (intransitive) pairs with -める (transitive):\n始(はじ)まる / 始(はじ)める, 決(き)まる / 決(き)める\n\nThis is not a rule without exceptions, but knowing it helps you guess correctly ~70% of the time at N4 level."}},
+
+  {type:"teach", trg:"映画館(えいがかん)", src:"movie theater", pos:"noun", gender:null,
+   note:"映画(えいが) (movie) + 館(かん) (building/hall).\n館 is a common suffix for public buildings.",
+   example:"A: 映画館(えいがかん)でどんな映画(えいが)を見(み)ましたか？\nB: アクション映画(えいが)を見(み)ました。面白(おもしろ)かったです。",
+   exampleSrc:"A: What movie did you watch at the movie theater?\nB: I watched an action movie. It was interesting.",
+   funFact:"The kanji 館(かん) (building) appears in many Japanese public buildings: 美術館(びじゅつかん) (art museum), 博物館(はくぶつかん) (natural history museum), 体育館(たいいくかん) (gymnasium), 図書館(としょかん) (library). Recognizing 館 immediately tells you it is a public building or hall."},
+
+  {type:"teach", trg:"場所(ばしょ)", src:"place / location / spot", pos:"noun", gender:null,
+   note:"Very common noun. Used for both physical and abstract locations.\nどんな場所(ばしょ) = what kind of place.",
+   example:"A: 待(ま)ち合(あ)わせの場所(ばしょ)はどこですか？\nB: 駅(えき)の前(まえ)の場所(ばしょ)はどうですか？",
+   exampleSrc:"A: Where is the meeting place?\nB: How about the spot in front of the station?",
+   funFact:"場所 uses 場 (location/situation) and 所 (place). You will see 場 in 場合(ばあい) (situation/case), 工場(こうじょう) (factory), and 広場(ひろば) (plaza). 所 appears in 台所(だいどころ) (kitchen) and 所長(しょちょう) (director of a place). Both kanji carry the 'place' meaning independently."},
+
+  {type:"teach", trg:"交通(こうつう)", src:"traffic / transportation / transit", pos:"noun", gender:null,
+   note:"交通機関(こうつうきかん) = transportation system.\n交通手段(こうつうしゅだん) = means of transport.",
+   example:"A: この町(まち)の交通(こうつう)はどうですか？\nB: 電車(でんしゃ)がよく走(はし)っているので、とても便利(べんり)です。",
+   exampleSrc:"A: How is the transportation in this town?\nB: Trains run frequently, so it is very convenient.",
+   funFact:"Japan has some of the world's most reliable 交通(こうつう). The average shinkansen delay is under one minute per year. 交通渋滞(こうつうじゅうたい) (traffic jam) is a frequent topic in cities; the solution is usually 電車(でんしゃ) (train), which is why most Tokyo residents rarely drive."},
+
+  {type:"mc", q:"田中(たなか)さんに会議(かいぎ)の時間(じかん)を___てください。 (Please pass on the meeting time to Mr. Tanaka.)", opts:["伝(つた)え","置(お)き","起(お)こし","始(はじ)め"], ans:"伝(つた)え",
+   hint:"The verb meaning 'to convey a message to someone,' used with the に recipient particle."},
+
+  {type:"mc", q:"Which verb means 'to put something down in a spot' (godan, transitive)?", opts:["置(お)く","起(お)きる","伝(つた)える","始(はじ)まる"], ans:"置(お)く",
+   hint:"Think of setting an object deliberately somewhere. Godan. Pairs with おいてあります (it has been placed there)."},
+
+  {type:"fb", s:"朝(あさ)6時(じ)に起(お)こして{1}か？\n(Could you wake me up at 6 in the morning?)", a:"もらえます", opts:["もらえます","います","きます","あります"], hint:"The polite request form: 'could you do X for me' uses てもらえますか with the te-form of the main verb.", sSrc:"Could you wake me up at 6 in the morning?"},
+
+  {type:"fb", s:"映画(えいが)は3時(じ)に{1}まります。\n(The movie starts at 3 o'clock.)", a:"始(はじ)", opts:["始(はじ)","置(お)","伝(つた)","起(お)こ"], hint:"The intransitive verb meaning 'it begins on its own.' The subject is the movie, not a person.", sSrc:"The movie starts at 3 o'clock."},
+
+  {type:"mc", q:"映画館(えいがかん) means:", opts:["movie theater","train station","library","art museum"], ans:"movie theater",
+   hint:"映画 = movie. The second part is a kanji meaning 'public building or hall.' Where do you watch movies?"},
+
+  {type:"fb", s:"待(ま)ち合(あ)わせの{1}はどこにしますか？\n(Where shall we set the meeting place?)", a:"場所(ばしょ)", opts:["場所(ばしょ)","交通(こうつう)","時間(じかん)","映画館(えいがかん)"], hint:"The noun meaning 'place/spot/location,' used for arranging where to meet.", sSrc:"Where shall we set the meeting place?"},
+
+  {type:"mc", q:"この地域(ちいき)の交通(こうつう)はとても便利(べんり)です。 What does 交通 mean here?", opts:["transportation","communication","weather","population"], ans:"transportation",
+   hint:"交通 refers to the movement of people and vehicles — trains, buses, roads. Not to be confused with 通信(つうしん) (communication)."},
+
+  {type:"fb", s:"鍵(かぎ)をテーブルの上(うえ)に{1}いてください。\n(Please place the key on top of the table.)", a:"置(お)", opts:["置(お)","伝(つた)","起(お)こ","始(はじ)"], hint:"The godan verb meaning 'to place/put something somewhere.' The object is the key.", sSrc:"Please place the key on top of the table."},
+
+  {type:"match", pairs:[{trg:"伝(つた)える",src:"to convey / tell"},{trg:"置(お)く",src:"to place / put"},{trg:"起(お)こす",src:"to wake (someone) up"},{trg:"始(はじ)まる",src:"to begin (intransitive)"}]},
+
+  {type:"match", pairs:[{trg:"映画館(えいがかん)",src:"movie theater"},{trg:"場所(ばしょ)",src:"place / location"},{trg:"交通(こうつう)",src:"traffic / transportation"}]},
+]}
+
 ]};
 export default UNIT_13;

@@ -289,6 +289,93 @@ lessons:[
  opts:["买(mǎi)","卖(mài)","穿(chuān)","找(zhǎo)"],
  hint:"Someone has already completed a purchase of three clothing items. Which verb means 'to buy'?",
  sSrc:"Already {1} three pieces of clothing."}
+]},
+
+{id:"zhv2_u8l4", title:"日常生活词 Everyday Words", icon:"🌟", xp:15, board:true, steps:[
+
+{type:"intro", title:"Everyday Words", desc:"Five high-frequency HSK 2 words that come up in hotels, shops, and daily conversation: hotel, happy, color, to tell, and sound.", goals:["Name a hotel in Chinese","Express happiness with 快乐","Ask about color","Use 告诉 to share information","Identify 声音 in context"]},
+
+{type:"teach", trg:"宾馆(bīnguǎn)", src:"hotel", pos:"noun", gender:null,
+ note:"A hotel or guesthouse. More informal than 酒店(jiǔdiàn).",
+ example:"A: 你(nǐ)住(zhù)在(zài)哪(nǎ)个(gè)宾馆(bīnguǎn)？\nB: 我(wǒ)住(zhù)在(zài)北京(Běijīng)饭店(fàndiàn)旁边(pángbiān)的(de)宾馆(bīnguǎn)。",
+ exampleSrc:"A: Which hotel are you staying at?\nB: I am staying at a hotel next to the Beijing Hotel.",
+ funFact:"宾(bīn) means 'guest' and 馆(guǎn) means 'building for service.' So 宾馆 is literally a 'guest building.' The same 馆 appears in 图书馆(túshūguǎn, library) and 饭馆(fànguǎn, restaurant)."},
+
+{type:"teach", trg:"快乐(kuàilè)", src:"happy, joyful", pos:"adj", gender:null,
+ note:"A warm, full happiness. Used in greetings and heartfelt expressions.",
+ example:"A: 今天(jīntiān)你(nǐ)看(kàn)起来(qǐlái)很(hěn)快乐(kuàilè)！\nB: 是(shì)的(de)，买(mǎi)到(dào)了(le)一(yī)件(jiàn)好(hǎo)衣服(yīfu)。",
+ exampleSrc:"A: You look very happy today!\nB: Yes, I found a great piece of clothing to buy.",
+ funFact:"快乐 is built from 快(kuài, fast/quick) and 乐(lè, joy). Happiness arrives quickly and joy flows freely. The same 乐 appears in 音乐(yīnyuè, music) and 快乐 is the standard phrase in 生日快乐(shēngrì kuàilè, happy birthday)."},
+
+{type:"mc", q:"Which sentence uses 宾馆(bīnguǎn) correctly?",
+ opts:["我(wǒ)在(zài)宾馆(bīnguǎn)买(mǎi)衣服(yīfu)。","我(wǒ)住(zhù)在(zài)宾馆(bīnguǎn)里(lǐ)。","宾馆(bīnguǎn)里(lǐ)有(yǒu)很(hěn)多(duō)钱(qián)。","我(wǒ)的(de)宾馆(bīnguǎn)很(hěn)冷(lěng)。"],
+ ans:"我(wǒ)住(zhù)在(zài)宾馆(bīnguǎn)里(lǐ)。",
+ hint:"A hotel is a place to stay overnight. Which sentence describes someone staying in a hotel?"},
+
+{type:"mc", q:"What does 快乐(kuàilè) mean?",
+ opts:["hungry","tired","happy / joyful","cold"],
+ ans:"happy / joyful",
+ hint:"快乐 is a positive emotion word. It appears in birthday greetings and expressions of joy."},
+
+{type:"teach", trg:"颜色(yánsè)", src:"color", pos:"noun", gender:null,
+ note:"The general word for color. Use it to ask about or describe colors.",
+ example:"A: 你(nǐ)喜欢(xǐhuan)什么(shénme)颜色(yánsè)？\nB: 我(wǒ)喜欢(xǐhuan)这(zhè)件(jiàn)衣服(yīfu)的(de)颜色(yánsè)，很(hěn)好看(hǎokàn)！",
+ exampleSrc:"A: What color do you like?\nB: I like the color of this piece of clothing, it looks great!",
+ funFact:"颜(yán) originally meant 'face complexion' and 色(sè) meant 'appearance/hue.' Together they form the modern word for color. Many color words follow the pattern: base color + 色. 红色(hóng sè, red), 蓝色(lán sè, blue), 白色(bái sè, white)."},
+
+{type:"teach", trg:"告诉(gàosu)", src:"to tell, to inform", pos:"verb", gender:null,
+ note:"To pass information to someone. Always takes a person object first: 告诉+person+content.",
+ example:"A: 你(nǐ)告诉(gàosu)我(wǒ)宾馆(bīnguǎn)在(zài)哪里(nǎlǐ)吗(ma)？\nB: 好(hǎo)，宾馆(bīnguǎn)在(zài)超市(chāoshì)旁边(pángbiān)。",
+ exampleSrc:"A: Can you tell me where the hotel is?\nB: Sure, the hotel is next to the supermarket.",
+ funFact:"告(gào) means 'to announce' and 诉(sù) means 'to narrate/report.' Together: to deliver a message. In legal Chinese, 告诉 also means 'to file a complaint,' showing how the concept of 'telling' can shift into 'reporting.' Everyday usage is always just 'to tell.'"},
+
+{type:"teach", trg:"声音(shēngyīn)", src:"sound, voice, noise", pos:"noun", gender:null,
+ note:"Any sound or voice. Can refer to a person's voice or background noise.",
+ example:"A: 那(nà)个(gè)声音(shēngyīn)是(shì)什么(shénme)？\nB: 是(shì)外面(wàimiàn)的(de)声音(shēngyīn)，不(bù)是(shì)在(zài)宾馆(bīnguǎn)里(lǐ)。",
+ exampleSrc:"A: What is that sound?\nB: It is a sound from outside, not inside the hotel.",
+ funFact:"声(shēng) means 'sound/tone' and 音(yīn) means 'tone/note.' Together they form 声音 meaning any sound. The same 音 is in 音乐(yīnyuè, music). A person's speaking voice is also 声音; a singing voice is often 歌声(gēshēng) in formal usage."},
+
+{type:"fb", s:"你(nǐ)喜欢(xǐhuan)什么(shénme){1}？蓝色(lánsè)还是(háishi)红色(hóng sè)？",
+ a:["颜色(yánsè)"],
+ opts:["颜色(yánsè)","声音(shēngyīn)","快乐(kuàilè)","宾馆(bīnguǎn)"],
+ hint:"The question asks about a preference between blue and red. What category does blue vs. red belong to?",
+ sSrc:"What {1} do you like? Blue or red?"},
+
+{type:"fb", s:"请(qǐng)你(nǐ){1}我(wǒ)，宾馆(bīnguǎn)在(zài)哪里(nǎlǐ)？",
+ a:["告诉(gàosu)"],
+ opts:["告诉(gàosu)","买(mǎi)","穿(chuān)","找(zhǎo)"],
+ hint:"The speaker wants information about the hotel's location. Which verb means 'to tell' someone something?",
+ sSrc:"Please {1} me where the hotel is."},
+
+{type:"mc", q:"颜色(yánsè) means:",
+ opts:["music","color","sound","hotel"],
+ ans:"color",
+ hint:"颜色 is the word used when asking 'what color is it?' or describing the hue of an object."},
+
+{type:"mc", q:"Which sentence uses 告诉(gàosu) correctly?",
+ opts:["我(wǒ)告诉(gàosu)你(nǐ)的(de)颜色(yánsè)。","他(tā)告诉(gàosu)我(wǒ)宾馆(bīnguǎn)在(zài)右边(yòubiān)。","告诉(gàosu)很(hěn)贵(guì)。","我(wǒ)告诉(gàosu)颜色(yánsè)是(shì)蓝色(lánsè)。"],
+ ans:"他(tā)告诉(gàosu)我(wǒ)宾馆(bīnguǎn)在(zài)右边(yòubiān)。",
+ hint:"告诉 needs a person after it. Which sentence has: 告诉 + person + information?"},
+
+{type:"fb", s:"宾馆(bīnguǎn)外面(wàimiàn)的(de){1}太(tài)大(dà)了(le)，睡(shuì)不(bù)着(zháo)。",
+ a:["声音(shēngyīn)"],
+ opts:["声音(shēngyīn)","颜色(yánsè)","快乐(kuàilè)","时间(shíjiān)"],
+ hint:"Someone cannot sleep because of something from outside the hotel that is too loud. Which word means sound or noise?",
+ sSrc:"The {1} outside the hotel is too loud to sleep."},
+
+{type:"match", pairs:[
+ {trg:"宾馆(bīnguǎn)", src:"hotel"},
+ {trg:"快乐(kuàilè)", src:"happy / joyful"},
+ {trg:"颜色(yánsè)", src:"color"},
+ {trg:"告诉(gàosu)", src:"to tell / to inform"},
+ {trg:"声音(shēngyīn)", src:"sound / voice"}
+]},
+
+{type:"mc", q:"A friend asks: 你(nǐ)今天(jīntiān)感觉(gǎnjué)怎么样(zěnmeyàng)？ You feel great. Which reply fits?",
+ opts:["我(wǒ)的(de)声音(shēngyīn)很(hěn)大(dà)。","我(wǒ)很(hěn)快乐(kuàilè)，买(mǎi)到(dào)了(le)好东西(hǎo dōngxi)。","宾馆(bīnguǎn)很(hěn)贵(guì)。","颜色(yánsè)很(hěn)好看(hǎokàn)。"],
+ ans:"我(wǒ)很(hěn)快乐(kuàilè)，买(mǎi)到(dào)了(le)好东西(hǎo dōngxi)。",
+ hint:"The question asks how you feel today. Which reply expresses happiness and gives a reason?"}
+
 ]}
 
 ]};

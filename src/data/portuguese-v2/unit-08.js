@@ -284,6 +284,105 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
 
 {type:"match", pairs:[
   {trg:"o mercado", src:"the market"}
-]}]}
+]}]},
+
+{id:"ptv2_u8l_money", title:"Fazendo compras", icon:"💰", xp:15, board:true, steps:[
+{type:"intro", title:"Making Purchases and Handling Money",
+ desc:"Learn essential Brazilian Portuguese for completing a transaction: payment cards, change, receipts, discounts, and talking with the cashier. Essential for CELPE-Bras A1 and daily life in Brazil.",
+ goals:["Ask about discounts and totals","Pay by card or cash and get change","Request a receipt"]},
+
+{type:"teach", trg:"o cartão", src:"the card", pos:"noun", gender:"m",
+ note:"Payment card. 'Cartão de débito' = debit card. 'Cartão de crédito' = credit card.",
+ example:"A: Aceita cartão?\nB: Sim, débito e crédito.\nA: Vou pagar no cartão.\nB: Pode inserir.",
+ exampleSrc:"A: Do you accept card?\nB: Yes, debit and credit.\nA: I will pay by card.\nB: You can insert it.",
+ funFact:"Brazil is a world leader in contactless payments. Pix, launched in 2020, lets anyone send money instantly using just a phone number."},
+
+{type:"teach", trg:"o troco", src:"the change", pos:"noun", gender:"m",
+ note:"Change, money returned after paying more than the price. 'Tem troco?' = Do you have change?",
+ example:"A: São cinco reais.\nB: Aqui está dez reais.\nA: Aqui está o troco.\nB: Obrigado!",
+ exampleSrc:"A: That is five reais.\nB: Here is ten reais.\nA: Here is the change.\nB: Thank you!",
+ funFact:"Coins are called 'moedas' and are scarce in Brazil. Many shops round up or give candy instead of small change."},
+
+{type:"teach", trg:"o desconto", src:"the discount", pos:"noun", gender:"m",
+ note:"Discount, reduction in price. 'Tem desconto?' = Is there a discount?",
+ example:"A: Tem desconto?\nB: Sim, dez por cento.\nA: Que bom!\nB: Aceitamos cartão também.",
+ exampleSrc:"A: Is there a discount?\nB: Yes, ten percent.\nA: Great!\nB: We also accept card.",
+ funFact:"At street markets (feiras) in Brazil, asking 'Tem desconto?' is expected. Sellers often say yes for cash."},
+
+{type:"teach", trg:"o recibo", src:"the receipt", pos:"noun", gender:"m",
+ note:"Receipt, proof of payment. Brazilians also say 'nota fiscal' (official tax receipt).",
+ example:"A: Posso ter o recibo?\nB: Claro, aqui está.\nA: Obrigado.\nB: Volte sempre!",
+ exampleSrc:"A: Can I have the receipt?\nB: Of course, here it is.\nA: Thank you.\nB: Come back anytime!",
+ funFact:"The nota fiscal is Brazil's official receipt with tax info. Brazilians can even enter lotteries with their notas fiscais in some states."},
+
+{type:"teach", trg:"o total", src:"the total", pos:"noun", gender:"m",
+ note:"The total amount. 'Qual é o total?' = What is the total?",
+ example:"A: Qual é o total?\nB: Trinta e cinco reais.\nA: Vou pagar em dinheiro.\nB: Ótimo!",
+ exampleSrc:"A: What is the total?\nB: Thirty-five reais.\nA: I will pay in cash.\nB: Great!",
+ funFact:"'Total' is the same word in Portuguese and English. Many financial and math terms are shared between the two languages."},
+
+{type:"teach", trg:"cobrar", src:"to charge", pos:"verb", gender:null,
+ note:"To charge a price. Used from the seller's perspective. 'Quanto você cobra?' = How much do you charge?",
+ example:"A: Quanto você cobra?\nB: Cobro dez reais.\nA: Tudo bem.\nB: Vou cobrar no cartão.",
+ exampleSrc:"A: How much do you charge?\nB: I charge ten reais.\nA: Alright.\nB: I will charge it to the card.",
+ funFact:"Cobrar comes from Latin 'cobrare', to recover. The idea is the seller recovers the cost from the buyer."},
+
+{type:"teach", trg:"o caixa", src:"the cashier", pos:"noun", gender:"m",
+ note:"Cashier or checkout counter. 'Caixa' can be masculine (the cashier person) or feminine (a caixa = the checkout machine/area).",
+ example:"A: Onde é o caixa?\nB: Ali no fundo.\nA: Obrigado!\nB: Pode pagar lá.",
+ exampleSrc:"A: Where is the cashier?\nB: There in the back.\nA: Thank you!\nB: You can pay there.",
+ funFact:"Self-checkout is called 'caixa de autoatendimento' in Brazil. Major supermarkets started introducing them in the 2010s."},
+
+{type:"tip", title:"Completing a Purchase in Brazil",
+ text:"A typical checkout conversation:\n\nBuyer: Aceita cartão? (Do you accept card?)\nSeller: Sim! Débito ou crédito? (Yes! Debit or credit?)\nBuyer: Débito. Qual é o total? (Debit. What is the total?)\nSeller: Vinte reais. (Twenty reais.)\nBuyer: Posso ter o recibo? (Can I have the receipt?)\nSeller: Claro, aqui está. (Of course, here it is.)\n\nFor cash:\nBuyer: Em dinheiro. (In cash.)\nSeller: Aqui está o troco. (Here is the change.)",
+ deepDive:{title:"Pix, Cash, and Cards in Brazil",
+  text:"Brazil has three main payment methods. Dinheiro (cash) is used at markets and small shops. Cartão (card) works everywhere in cities. Pix is a free instant bank transfer widely used since 2020. Sellers often prefer Pix because there are no card fees. If you see a QR code at checkout, that is Pix. Many small vendors now say 'Aceita Pix?' before accepting cash."}},
+
+{type:"fb", s:"Você aceita {1} de débito?",
+ a:["cartão"],
+ opts:["cartão","troco","recibo","total"],
+ hint:"The payment method you insert or tap at a machine.",
+ sSrc:"Do you accept {1} payment?"},
+
+{type:"mc", q:"What does 'o troco' mean?",
+ opts:["the total","the discount","the change","the receipt"],
+ ans:"the change",
+ hint:"After paying with a large bill, you get this back from the seller."},
+
+{type:"fb", s:"Qual é o {1}? Vinte ou trinta reais?",
+ a:["total"],
+ opts:["total","troco","desconto","recibo"],
+ hint:"The final amount you owe before paying.",
+ sSrc:"What is the {1}? Twenty or thirty reais?"},
+
+{type:"mc", q:"Which question asks for a discount?",
+ opts:["Onde é o caixa?","Aceita cartão?","Tem desconto?","Qual é o total?"],
+ ans:"Tem desconto?",
+ hint:"This is the key phrase shoppers use at markets to negotiate a lower price."},
+
+{type:"fb", s:"Posso ter o {1}? Preciso para a empresa.",
+ a:["recibo"],
+ opts:["recibo","desconto","cartão","caixa"],
+ hint:"A proof of payment, needed for expense reports or returns.",
+ sSrc:"Can I have the {1}? I need it for the company."},
+
+{type:"match", pairs:[
+ {trg:"o cartão", src:"the card"},
+ {trg:"o troco", src:"the change"},
+ {trg:"o desconto", src:"the discount"},
+ {trg:"o recibo", src:"the receipt"}
+]},
+
+{type:"fb", s:"Quanto você vai {1} por isso?",
+ a:["cobrar"],
+ opts:["cobrar","pagar","comprar","vender"],
+ hint:"Ask the seller about the price they will set for the item.",
+ sSrc:"How much are you going to {1} for that?"},
+
+{type:"mc", q:"Where do you go to pay in a store?",
+ opts:["a loja","o mercado","o caixa","o recibo"],
+ ans:"o caixa",
+ hint:"The counter or person that handles your payment at the end."}
+]}
 
 ]}; export default UNIT_08;
