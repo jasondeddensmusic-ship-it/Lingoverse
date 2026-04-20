@@ -308,6 +308,145 @@ lessons:[
  hint:"分类 means to sort into categories. Combined with 垃圾 (trash), it describes the practice of separating waste types."}
 ]}
 
+,
+
+// ─── L5: HSK 4 Action Verbs + Government Vocabulary ───
+{id:"zhv2_u20l_hsk4_b2_expand", title:"政府与行动 Government and Action", icon:"🏛️", xp:20, board:true, steps:[
+{type:"intro", title:"政府与行动 Government and Action",
+ desc:"Learn HSK 4 high-frequency verbs and nouns used in civic, professional, and academic contexts. These words appear throughout news, speeches, and formal writing.",
+ goals:["Use formal action verbs: establish, carry out, criticize, evaluate","Talk about government and tasks","Describe obvious results and achieved goals"]},
+
+{type:"teach", trg:"政府(zhèngfǔ)", src:"government", pos:"noun", gender:null,
+ note:"Political + prefecture/mansion. The formal administrative authority of a country or region.\n政府 can refer to national, regional, or local government.",
+ example:"A: 政府(zhèngfǔ)对(duì)这个(zhège)问题(wèntí)有(yǒu)什么(shénme)办法(bànfǎ)？\nB: 政府(zhèngfǔ)已经(yǐjīng)开始(kāishǐ)解决(jiějué)了(le)。",
+ exampleSrc:"A: What solution does the government have for this problem?\nB: The government has already started to solve it.",
+ funFact:"政 (zhèng) means 'to govern/correct' and contains 止 (stop) + 攴 (strike) — to correct by striking at the root. 府 means a grand official residence. Together: the mansion where governing happens. 政府 is used at every level from 中央政府 (central government) to 地方政府 (local government)."},
+
+{type:"teach", trg:"任务(rènwu)", src:"task / mission", pos:"noun", gender:null,
+ note:"Appoint + affairs. An assigned task, duty, or mission.\nMore formal than 工作(gōngzuò). Used in professional, military, and official contexts.",
+ example:"A: 你(nǐ)今天(jīntiān)有(yǒu)什么(shénme)任务(rènwu)？\nB: 我(wǒ)的(de)任务(rènwu)是(shì)把(bǎ)这件(zhèjiàn)工作(gōngzuò)做(zuò)好(hǎo)。",
+ exampleSrc:"A: What is your task today?\nB: My task is to do this job well.",
+ funFact:"任 means 'to appoint' or 'to entrust,' so 任务 is literally 'entrusted affairs' — something you have been officially given to do. In Chinese military and official speech, 完成任务 (complete the mission) is a fixed phrase. 'Mission Impossible' is translated as 碟中谍(Dié zhōng Dié), but game contexts often use 任务 for 'quest.'"},
+
+{type:"teach", trg:"建立(jiànlì)", src:"to establish / to set up", pos:"verb", gender:null,
+ note:"Build + stand. To create something lasting: a company, relationship, or system.\nMore permanent than 建造 (to construct physically).",
+ example:"A: 他们(tāmen)建立(jiànlì)了(le)这个(zhège)公司(gōngsī)。\nB: 对(duì)，目的(mùdì)是(shì)解决(jiějué)环境(huánjìng)问题(wèntí)。",
+ exampleSrc:"A: They established this company.\nB: Right, the goal is to solve environmental problems.",
+ funFact:"建立 appears in one of China's most quoted phrases: 建立和谐社会 (establish a harmonious society), a key political slogan. The verb also appears in 建立关系 (establish a relationship) and 建立信任 (build trust). When two countries open diplomatic ties, they 建立外交关系 (establish diplomatic relations)."},
+
+{type:"teach", trg:"进行(jìnxíng)", src:"to carry out / to conduct", pos:"verb", gender:null,
+ note:"Advance + go. A formal verb meaning to perform, conduct, or carry out an activity.\nAlways followed by a noun: 进行 + activity.",
+ example:"A: 政府(zhèngfǔ)正在(zhèngzài)进行(jìnxíng)工作(gōngzuò)。\nB: 工作(gōngzuò)的(de)结果(jiéguǒ)很(hěn)重要(zhòngyào)。",
+ exampleSrc:"A: The government is currently carrying out the work.\nB: The results of the work are very important.",
+ funFact:"进行 is one of Chinese's most-used formal verbs. It literally means 'to advance and walk' — to push an activity forward. Unlike most verbs, 进行 cannot stand alone as a predicate. It always needs a following noun: 进行研究 (conduct research), 进行讨论 (hold a discussion), 进行比赛 (hold a competition). Think of it as 'the activity is underway.'"},
+
+{type:"teach", trg:"批评(pīpíng)", src:"to criticize / criticism", pos:"verb", gender:null,
+ note:"Comment + assess. Both a verb (to criticize) and a noun (criticism).\n批评 is constructive-sounding; 指责 is harsher accusation.",
+ example:"A: 老师(lǎoshī)批评(pīpíng)了(le)他(tā)的(de)态度(tàidu)。\nB: 他(tā)应该(yīnggāi)认真(rènzhēn)听(tīng)老师(lǎoshī)的(de)批评(pīpíng)。",
+ exampleSrc:"A: The teacher criticized his attitude.\nB: He should listen carefully to the teacher's criticism.",
+ funFact:"批 originally meant to strike with the hand in writing — to mark up a document. Officials would 批 papers with comments in red ink. Combined with 评 (assess/comment), 批评 became the word for formal written critique. Even today, formal criticism in workplaces and school settings is called 批评，while harsh personal attacks use stronger terms."},
+
+{type:"teach", trg:"评价(píngjià)", src:"to evaluate / evaluation", pos:"verb", gender:null,
+ note:"Assess + value. To judge the quality or worth of something.\nMore neutral and analytical than 批评 (criticize).",
+ example:"A: 你(nǐ)怎么(zěnme)评价(píngjià)这个(zhège)任务(rènwu)的(de)结果(jiéguǒ)？\nB: 我(wǒ)觉得(juéde)结果(jiéguǒ)很(hěn)好(hǎo)，工作(gōngzuò)做得(zuòde)很(hěn)认真(rènzhēn)。",
+ exampleSrc:"A: How do you evaluate the results of this task?\nB: I think the results are very good, the work was done very carefully.",
+ funFact:"评价 appears everywhere in modern Chinese digital life: product reviews (商品评价), app ratings, and annual performance reviews (年终评价). 价 (value/price) gives the word its sense of 'assigning worth.' Chinese social media platforms heavily feature star-rating systems called 综合评价 (overall evaluation)."},
+
+{type:"tip", title:"批评 vs. 评价: Key Distinction",
+ text:"Both words involve judgment, but they differ in tone:\n\n批评(pīpíng) = criticize (negative, finds fault)\n评价(píngjià) = evaluate (neutral, assesses worth)\n\nExamples:\n老师(lǎoshī)批评(pīpíng)了(le)他(tā)。 The teacher criticized him. (negative)\n\n老师(lǎoshī)评价(píngjià)了(le)他(tā)的(de)工作(gōngzuò)。 The teacher evaluated his work. (neutral)\n\n评价 can be positive or negative. 批评 is always negative.\nIn formal Chinese: 做出评价 = to make an evaluation. 受到批评 = to receive criticism.",
+ deepDive:{title:"The 评 Family in Chinese",
+  text:"The character 评 (to comment/assess) forms many useful compound words:\n\n评价(píngjià) = evaluate\n批评(pīpíng) = criticize\n评论(pínglùn) = comment / review\n评分(píngfēn) = to score / to grade\n评判(píngjùn) = to judge / adjudicate\n\n评 itself means 'to discuss by words' — it contains 言 (speech radical) on the left. All these words share the idea of using words to assess something. The key difference between them lies in the second character: 价 (value), 论 (discuss), 分 (score), 判 (judge)."}},
+
+{type:"teach", trg:"引起(yǐnqǐ)", src:"to cause / to trigger", pos:"verb", gender:null,
+ note:"Lead + rise. To cause something to arise or happen.\nUsed for problems, reactions, or attention: 引起问题, 引起关注.",
+ example:"A: 空气(kōngqì)污染(wūrǎn)引起(yǐnqǐ)了(le)很(hěn)多(duō)严重(yánzhòng)的(de)问题(wèntí)。\nB: 对(duì)，影响(yǐngxiǎng)很(hěn)大(dà)。",
+ exampleSrc:"A: Air pollution has caused many serious problems.\nB: Right, the impact is very significant.",
+ funFact:"引 originally depicted a bow being drawn back — pulling something toward you. In 引起, the idea is pulling something into existence: causing a reaction to arise. The phrase 引起关注 (draw attention / cause concern) is extremely common in Chinese news reporting. When a social issue 引起关注, it means the public or authorities have begun paying attention."},
+
+{type:"teach", trg:"实现(shíxiàn)", src:"to realize / to achieve", pos:"verb", gender:null,
+ note:"Solid/real + appear. To make something real that was previously only a goal or dream.\n实现目标 = achieve a goal. 实现梦想 = realize a dream.",
+ example:"A: 你(nǐ)实现(shíxiàn)了(le)自己(zìjǐ)的(de)目的(mùdì)吗(ma)？\nB: 还(hái)没有(méiyǒu)，但是(dànshì)我(wǒ)相信(xiāngxìn)我(wǒ)会(huì)成功(chénggōng)的(de)。",
+ exampleSrc:"A: Have you achieved your goal?\nB: Not yet, but I believe I will succeed.",
+ funFact:"实现 is the verb of dreams and ambitions in Chinese. 实 (solid/real) + 现 (appear/manifest) = to make something manifest in reality. The most famous use is 实现中国梦 (realize the Chinese Dream), a national slogan since 2012. The phrase emphasizes transforming aspirations into tangible reality, not just wishing."},
+
+{type:"teach", trg:"明显(míngxiǎn)", src:"obvious / evident / clear", pos:"adj", gender:null,
+ note:"Bright/clear + appear. So clear that it shows itself without being pointed out.\n结果很明显 = the result is obvious. 明显的变化 = obvious change.",
+ example:"A: 这里(zhèlǐ)的(de)情况(qíngkuàng)很(hěn)明显(míngxiǎn)。\nB: 对(duì)，环境(huánjìng)改变(gǎibiàn)了(le)，空气(kōngqì)也(yě)好(hǎo)多(duō)了(le)。",
+ exampleSrc:"A: The situation here is very obvious.\nB: Right, the environment has changed, and the air is also much better.",
+ funFact:"明 (bright) combines sun 日 and moon 月 — the two brightest things in the sky. 显 means to appear visibly. Together 明显 describes something so clear it shines like the sun and moon combined. The opposite is 不明显 (not obvious) or 隐约 (vague, barely visible). 明显 is a false friend for Japanese learners: 明显 in Chinese vs. 明らか in Japanese, similar concept but different form."},
+
+{type:"mc", q:"政府(zhèngfǔ) refers to:",
+ opts:["the formal administrative authority of a country or region","a large company or business","a school or educational institution","a military organization"],
+ ans:"the formal administrative authority of a country or region",
+ hint:"政 means to govern or correct, and 府 is a grand official residence. Together they name the ___ entity that administers a place."},
+
+{type:"match", pairs:[
+  {trg:"政府(zhèngfǔ)", src:"government"},
+  {trg:"任务(rènwu)", src:"task / mission"},
+  {trg:"建立(jiànlì)", src:"to establish"},
+  {trg:"进行(jìnxíng)", src:"to carry out / conduct"},
+  {trg:"引起(yǐnqǐ)", src:"to cause / trigger"}
+]},
+
+{type:"fb", s:"他们(tāmen)正在(zhèngzài){1}一项(yìxiǎng)新的(xīnde)调查(diàochá)。",
+ a:["进行(jìnxíng)"],
+ opts:["进行(jìnxíng)","建立(jiànlì)","引起(yǐnqǐ)","实现(shíxiàn)"],
+ hint:"This formal verb means to conduct or carry out an activity. It must be followed by a noun activity.",
+ sSrc:"They are {1} a new investigation."},
+
+{type:"mc", q:"What is the key difference between 批评(pīpíng) and 评价(píngjià)?",
+ opts:["批评 is always negative; 评价 is neutral and can be positive or negative","批评 is formal; 评价 is informal","批评 is for people; 评价 is for things only","They mean exactly the same thing"],
+ ans:"批评 is always negative; 评价 is neutral and can be positive or negative",
+ hint:"One word specifically means to find fault. The other means to assign worth — which can be high or low."},
+
+{type:"fb", s:"这些(zhèxiē)工厂(gōngchǎng)的(de)污染(wūrǎn){1}了(le)很(hěn)多(duō)问题(wèntí)。",
+ a:["引起(yǐnqǐ)"],
+ opts:["引起(yǐnqǐ)","建立(jiànlì)","批评(pīpíng)","进行(jìnxíng)"],
+ hint:"This verb means to cause something to arise. Pollution leads to many problems.",
+ sSrc:"The pollution from these factories has {1} many problems."},
+
+{type:"mc", q:"实现(shíxiàn) literally combines which two ideas?",
+ opts:["solid/real + appear","work + finish","want + get","try + succeed"],
+ ans:"solid/real + appear",
+ hint:"Break the compound: 实(shí) is the first character, 现(xiàn) is the second. Think about what each character means individually, then combine them."},
+
+{type:"fb", s:"结果(jiéguǒ)很(hěn){1}，大家(dàjiā)都(dōu)看(kàn)得(de)出来(chūlái)。",
+ a:["明显(míngxiǎn)"],
+ opts:["明显(míngxiǎn)","严重(yánzhòng)","重要(zhòngyào)","批评(pīpíng)"],
+ hint:"The result is so clear that everyone can see it. This adjective means evident or obvious.",
+ sSrc:"The result is very {1}, everyone can see it."},
+
+{type:"fb", s:"他(tā)终于(zhōngyú){1}了(le)自己(zìjǐ)的(de)目的(mùdì)。",
+ a:["实现(shíxiàn)"],
+ opts:["实现(shíxiàn)","建立(jiànlì)","进行(jìnxíng)","批评(pīpíng)"],
+ hint:"He finally made his goal real. This verb means to achieve or realize a goal.",
+ sSrc:"He finally {1} his goal."},
+
+{type:"match", pairs:[
+  {trg:"批评(pīpíng)", src:"to criticize"},
+  {trg:"评价(píngjià)", src:"to evaluate"},
+  {trg:"实现(shíxiàn)", src:"to achieve / realize"},
+  {trg:"明显(míngxiǎn)", src:"obvious / evident"}
+]},
+
+{type:"fb", s:"政府(zhèngfǔ){1}了(le)新的(xīnde)保护(bǎohù)政策(zhèngcè)。",
+ a:["建立(jiànlì)"],
+ opts:["建立(jiànlì)","引起(yǐnqǐ)","批评(pīpíng)","进行(jìnxíng)"],
+ hint:"The government created something lasting and new. This verb means to establish or set up.",
+ sSrc:"The government {1} new protection policies."},
+
+{type:"mc", q:"Which sentence uses 进行(jìnxíng) correctly?",
+ opts:["我们进行这个任务","政府进行了研究","他进行成功了","进行我们去工作"],
+ ans:"政府进行了研究",
+ hint:"进行 is a formal verb that conducts or carries out an activity. It must come before a NOUN describing the activity, not before a destination or result."},
+
+{type:"drag_fill",
+ s:"政府(zhèngfǔ){1}了(le)新的(xīnde)任务(rènwu)：{2}调查(diàochá)，然后(ránhòu){3}污染(wūrǎn){4}的(de)问题(wèntí)。",
+ blanks:{"1":"建立(jiànlì)","2":"进行(jìnxíng)","3":"引起(yǐnqǐ)","4":"明显(míngxiǎn)"},
+ pool:["建立(jiànlì)","进行(jìnxíng)","引起(yǐnqǐ)","明显(míngxiǎn)"],
+ hint:"The government established a new task: conduct an investigation, then address the obvious pollution problem. Match the verbs and adjective to their correct positions."}
+]}
+
 ]};
 
 export default UNIT_20;

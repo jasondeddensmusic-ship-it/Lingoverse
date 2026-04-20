@@ -425,6 +425,146 @@ const UNIT_06 = {
        hint:"About 30% of -ire verbs in Italian insert these extra letters before personal endings in all singular forms and the loro plural."}
     ]},
     EXP_06_L1, EXP_06_L2, EXP_06_L3,
+
+    {id:"itv2_u6l_a2_food_kitchen", title:"In cucina", icon:"\ud83c\udf73", xp:20, board:true, steps:[
+      {type:"intro", title:"In cucina",
+       desc:"Learn essential A2 food and kitchen vocabulary: ingredients you buy every day and cook with.",
+       goals:["Name nine everyday food ingredients","Distinguish masculine and feminine food nouns","Use food words in simple shopping and cooking sentences"]},
+
+      {type:"teach", trg:"il burro", src:"the butter", pos:"noun", gender:"m",
+       note:"Masculine. Solid yellow fat from milk, used for cooking and baking.\nStore in the fridge.",
+       example:"A: Hai il burro?\nB: Si, e nel frigorifero.",
+       exampleSrc:"A: Do you have the butter?\nB: Yes, it's in the fridge.",
+       funFact:"The word comes from Greek 'bouturon' (cow-cheese). Northern Italy uses butter widely in cooking, while southern Italy prefers olive oil. The regional divide is one of Italy's great culinary faultlines."},
+
+      {type:"teach", trg:"il sale", src:"the salt", pos:"noun", gender:"m",
+       note:"Masculine. One of the most essential kitchen staples.\nSalt-free Tuscan bread (pane sciocco) exists because salt was historically taxed.",
+       example:"A: Metti il sale?\nB: Si, un po' di sale va bene.",
+       exampleSrc:"A: Do you add salt?\nB: Yes, a little salt is fine.",
+       funFact:"The word 'salary' comes from Latin 'salarium', linked to 'sal' (salt). Roman soldiers were sometimes paid in salt. Tuscany still bakes saltless bread because the Florentine republic once boycotted the Pope's salt tax."},
+
+      {type:"teach", trg:"l'uovo", src:"the egg", pos:"noun", gender:"m",
+       note:"Masculine singular: l'uovo. Irregular plural: le uova (feminine).\nOne of the few Italian nouns that changes gender in the plural.",
+       example:"A: Quante uova ci vogliono?\nB: Due uova per la pasta.",
+       exampleSrc:"A: How many eggs do we need?\nB: Two eggs for the pasta.",
+       funFact:"'L'uovo' is one of only a handful of Italian nouns with this masculine singular / feminine plural pattern, inherited from Latin neuter plurals. Children and learners often make the mistake of saying 'gli uovi' — it's wrong!"},
+
+      {type:"teach", trg:"il riso", src:"the rice", pos:"noun", gender:"m",
+       note:"Masculine. Both the grain and the cooked dish. Do not confuse with 'il riso' meaning 'laughter' (same spelling, different context).",
+       example:"A: Preparo il riso.\nB: Bene, metti il sale e l'olio.",
+       exampleSrc:"A: I'm preparing the rice.\nB: Good, add the salt and oil.",
+       funFact:"Italy produces more rice than any other EU country. The Po Valley in northern Italy is covered with rice paddies. Risotto, one of Italy's iconic dishes, uses special short-grain varieties like Arborio and Carnaroli — never long-grain."},
+
+      {type:"teach", trg:"l'olio", src:"the oil", pos:"noun", gender:"m",
+       note:"Masculine. In cooking, almost always means olive oil unless specified.\nFull term: l'olio d'oliva.",
+       example:"A: C'e l'olio?\nB: Si, metti un po' di olio nella pentola.",
+       exampleSrc:"A: Is there any oil?\nB: Yes, put a bit of oil in the pot.",
+       funFact:"Italy is the world's second-largest olive oil producer after Spain. Regions like Puglia, Tuscany, and Liguria each produce oils with very distinct flavors. The label 'extra vergine' (extra virgin) means the oil was cold-pressed without heat or chemicals."},
+
+      {type:"teach", trg:"la cipolla", src:"the onion", pos:"noun", gender:"f",
+       note:"Feminine. A kitchen staple used in the base of almost every Italian sauce.\nPlural: le cipolle.",
+       example:"A: Taglio la cipolla?\nB: Si, metti la cipolla con l'olio.",
+       exampleSrc:"A: Shall I cut the onion?\nB: Yes, put the onion in with the oil.",
+       funFact:"From Latin 'caepa' (onion). Onions are the foundation of the Italian 'soffritto' — the aromatic base of onion, carrot, and celery gently cooked in oil that starts almost every Italian soup, sauce, and stew."},
+
+      {type:"teach", trg:"la patata", src:"the potato", pos:"noun", gender:"f",
+       note:"Feminine. From Spanish 'patata', which came from the Taino word 'batata'.\nPlural: le patate.",
+       example:"A: Preparo le patate.\nB: Le patate fritte o al forno?",
+       exampleSrc:"A: I'm preparing the potatoes.\nB: Fried or baked potatoes?",
+       funFact:"Potatoes arrived in Italy only in the 1500s, brought from South America via Spain. Gnocchi di patate (potato dumplings) are now so Italian they feel ancient, but they predate the potato — original gnocchi were made from bread or spelt."},
+
+      {type:"teach", trg:"il pomodoro", src:"the tomato", pos:"noun", gender:"m",
+       note:"Masculine. Literally 'golden apple' (pomo d'oro). Plural: i pomodori.\nArrived in Italy from the Americas in the 1500s.",
+       example:"A: Hai i pomodori?\nB: Si, i pomodori sono per la pizza.",
+       exampleSrc:"A: Do you have the tomatoes?\nB: Yes, the tomatoes are for the pizza.",
+       funFact:"Tomatoes were initially thought poisonous in Europe because they belong to the nightshade family. Italians first used them as ornamental plants. By the 1700s, southern Italians were cooking with them — and the rest is culinary history."},
+
+      {type:"teach", trg:"il pollo", src:"the chicken", pos:"noun", gender:"m",
+       note:"Masculine. Refers both to the live bird and the meat.\nPlural: i polli. Chicken meat: la carne di pollo.",
+       example:"A: Cosa cucini stasera?\nB: Il pollo con le patate.",
+       exampleSrc:"A: What are you cooking tonight?\nB: Chicken with potatoes.",
+       funFact:"'Pollo' comes from Latin 'pullus' (young bird, young animal). The same root gave English 'pullet' (a young hen). In Italian slang, 'pollo' also means a gullible person — like someone who has been plucked."},
+
+      {type:"tip", title:"Masculine or feminine?",
+       text:"Food nouns in Italian follow their article, not their ending:\n- Ending in -o: nearly always masculine (il burro, il riso, il pollo)\n- Ending in -a: nearly always feminine (la cipolla, la patata)\n- 'L'uovo' is a famous exception: masculine singular, feminine plural (le uova)\nAlways learn a noun WITH its article.",
+       deepDive:"A handful of Italian nouns change gender in the plural because they descend from Latin neuter nouns, which became masculine in the singular but looked like feminine plurals. 'L'uovo/le uova' and 'il paio/le paia' (pair/pairs) are the most common examples a learner will meet."},
+
+      {type:"mc", q:"What does 'il pomodoro' literally mean?",
+       opts:["red fruit","golden apple","garden treasure","round berry"],
+       ans:"golden apple",
+       hint:"Break the word into 'pomo' (a round fruit) and 'd'oro' (of gold). Early Italian tomatoes were yellow, not red."},
+
+      {type:"fb", s:"Metti il {1} nella pentola con l'olio.",
+       a:["riso"],
+       opts:["riso","burro","sale","pollo"],
+       hint:"This grain forms the base of risotto. It goes directly into the pot with oil.",
+       sSrc:"Put the {1} in the pot with oil."},
+
+      {type:"mc", q:"Which of these food words is FEMININE?",
+       opts:["il burro","il pollo","il riso","la patata"],
+       ans:"la patata",
+       hint:"Three options use 'il' (masculine). One uses 'la' and refers to a starchy vegetable from South America."},
+
+      {type:"fb", s:"A: Hai il {1}? B: Si, e nel frigorifero.",
+       a:["burro"],
+       opts:["burro","sale","olio","riso"],
+       hint:"This solid yellow dairy fat is stored cold. Northern Italian cooks use it constantly.",
+       sSrc:"A: Do you have the {1}? B: Yes, it's in the fridge."},
+
+      {type:"match", pairs:[
+        {trg:"il burro", src:"the butter"},
+        {trg:"il sale", src:"the salt"},
+        {trg:"l'uovo", src:"the egg"},
+        {trg:"il riso", src:"the rice"},
+        {trg:"l'olio", src:"the oil"}
+      ]},
+
+      {type:"fb", s:"Taglio la {1} con l'olio per il sugo.",
+       a:["cipolla"],
+       opts:["cipolla","patata","carne","frutta"],
+       hint:"This tearful vegetable is the first thing you cut for nearly every Italian sauce.",
+       sSrc:"I cut the {1} with oil for the sauce."},
+
+      {type:"mc", q:"What is the correct plural of 'l'uovo'?",
+       opts:["gli uovi","le uova","i uovi","le uovo"],
+       ans:"le uova",
+       hint:"This noun descends from a Latin neuter. It switches gender in the plural — a famous Italian exception."},
+
+      {type:"fb", s:"Cosa cucini stasera? Il {1} con le patate.",
+       a:["pollo"],
+       opts:["pollo","riso","burro","sale"],
+       hint:"This is a common Italian dinner: a bird's meat roasted or pan-cooked with potatoes.",
+       sSrc:"What are you cooking tonight? {1} with potatoes."},
+
+      {type:"match", pairs:[
+        {trg:"la cipolla", src:"the onion"},
+        {trg:"la patata", src:"the potato"},
+        {trg:"il pomodoro", src:"the tomato"},
+        {trg:"il pollo", src:"the chicken"}
+      ]},
+
+      {type:"mc", q:"Which region of Italy is most associated with butter-based cooking?",
+       opts:["Sicily","Calabria","Northern Italy (Po Valley)","Sardinia"],
+       ans:"Northern Italy (Po Valley)",
+       hint:"Think about the geographic divide: olive oil dominates the south, while a different dairy fat defines the north."},
+
+      {type:"fb", s:"I {1} sono per la pizza.",
+       a:["pomodori"],
+       opts:["pomodori","cipolle","patate","uova"],
+       hint:"The classic red topping on pizza. This is the plural form of a masculine noun meaning 'golden apple.'",
+       sSrc:"The {1} are for the pizza."},
+
+      {type:"mc", q:"What does 'il sale' mean?",
+       opts:["the sauce","the salt","the salami","the cellar"],
+       ans:"the salt",
+       hint:"This white mineral seasoning is essential in every kitchen. Roman soldiers were famously paid in it."},
+
+      {type:"fb", s:"Metti un po' di {1} nella pasta.",
+       a:["sale"],
+       opts:["sale","olio","burro","riso"],
+       hint:"Every Italian cook adds this white seasoning to the water before boiling pasta.",
+       sSrc:"Add a little {1} to the pasta."}
+    ]},
   ]
 };
 export default UNIT_06;

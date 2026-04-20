@@ -392,6 +392,146 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  {trg:"Um abraço", src:"a hug (closing)"},
  {trg:"Saudades", src:"missing you"}
 ]}
+]},
+
+{id:"ptv2_u12l_a2_body_clothes", title:"Corpo e roupa", icon:"👕", xp:20, board:true, steps:[
+{type:"intro", title:"Body and clothing vocabulary",
+ desc:"Expand your body vocabulary beyond unit 9 basics, and learn key clothing words for everyday conversation.",
+ goals:["Name six more body parts","Learn four clothing items","Use 'usar' to say what someone is wearing"]},
+
+{type:"teach", trg:"o nariz", src:"the nose", pos:"noun", gender:"m",
+ note:"Nose. Masculine noun. Plural: os narizes.",
+ example:"A: O nariz está frio!\nB: Faz muito frio hoje.\nA: Sim, vou comprar um casaco.",
+ exampleSrc:"A: My nose is cold!\nB: It is very cold today.\nA: Yes, I am going to buy a coat.",
+ funFact:"In Brazilian Portuguese, 'dar de nariz' (to nose-dive) describes a bad fall — borrowed directly from the image of landing face-first."},
+
+{type:"teach", trg:"as orelhas", src:"the ears", pos:"noun", gender:"f",
+ note:"Ears. Feminine plural noun. Singular: a orelha. Different from 'o ouvido' (the inner ear, sense of hearing).",
+ example:"A: As orelhas estão geladas!\nB: Faz frio lá fora?\nA: Faz muito frio.",
+ exampleSrc:"A: My ears are frozen!\nB: Is it cold outside?\nA: It is very cold.",
+ funFact:"'Orelha' is the visible outer ear. 'Ouvido' is the sense of hearing or the inner ear. Brazilians never confuse them."},
+
+{type:"teach", trg:"o cabelo", src:"the hair", pos:"noun", gender:"m",
+ note:"Hair (on the head). Masculine noun. Usually singular in Portuguese: 'o cabelo' even for a full head of hair.",
+ example:"A: O cabelo é bonito!\nB: Obrigada! Cortei ontem.\nA: Ficou muito bom.",
+ exampleSrc:"A: Your hair is beautiful!\nB: Thank you! I cut it yesterday.\nA: It looks very good.",
+ funFact:"Brazil has the second-largest beauty industry in the world. Hair care ('cuidado com o cabelo') is a major cultural preoccupation."},
+
+{type:"teach", trg:"o braço", src:"the arm", pos:"noun", gender:"m",
+ note:"Arm. Masculine noun. Plural: os braços. Not to be confused with 'o abraço' (a hug), which literally means 'an arm-wrap'.",
+ example:"A: O braço está doendo.\nB: Você se machucou?\nA: Sim, no trabalho.\nB: Vai ao médico.",
+ exampleSrc:"A: My arm is hurting.\nB: Did you hurt yourself?\nA: Yes, at work.\nB: Go to the doctor.",
+ funFact:"'Dar o braço' (to give the arm) means to link arms when walking — a common gesture between friends and couples in Brazil."},
+
+{type:"teach", trg:"o estômago", src:"the stomach", pos:"noun", gender:"m",
+ note:"Stomach. Masculine noun. In everyday speech Brazilians also say 'a barriga' (the belly).",
+ example:"A: O estômago está doendo.\nB: Comeu bem hoje?\nA: Não comi nada.\nB: Come alguma coisa!",
+ exampleSrc:"A: My stomach is hurting.\nB: Have you eaten well today?\nA: I have not eaten anything.\nB: Eat something!",
+ funFact:"'Ter estômago' (to have stomach) is a figure of speech meaning to have the nerve or courage to do something unpleasant."},
+
+{type:"teach", trg:"o coração", src:"the heart", pos:"noun", gender:"m",
+ note:"Heart. Masculine noun. Plural: os corações. Also used figuratively for love and emotion.",
+ example:"A: O coração é um músculo.\nB: Sim, muito importante.\nA: Precisa de exercício.",
+ exampleSrc:"A: The heart is a muscle.\nB: Yes, very important.\nA: It needs exercise.",
+ funFact:"'De coração' (from the heart) is a common phrase in Brazil for expressing sincere feelings, as in 'Obrigado de coração' (Thank you from the heart)."},
+
+{type:"tip", title:"Body-part pain with DOER",
+ text:"Portuguese uses 'doer' (to hurt) like an impersonal verb — similar to how English uses 'my ... hurts':\n\nO braço está doendo. (My arm is hurting.)\nO estômago dói. (My stomach hurts.)\nAs orelhas doem no frio. (Ears hurt in the cold.)\n\n'Estar doendo' (progressive) = ongoing pain. 'Doer / dói' (simple) = general or habitual pain. Both are natural.",
+ deepDive:{title:"Orelha vs Ouvido",
+  text:"Two words for 'ear':\n\nA orelha: the outer, visible ear. What you can see and touch.\nO ouvido: the inner ear, or the sense of hearing.\n\nPractical examples:\nEle tem as orelhas grandes. (He has big ears — physical description.)\nEle tem bom ouvido musical. (He has a good musical ear — sense/ability.) Never swap them."}},
+
+{type:"teach", trg:"a camiseta", src:"the t-shirt", pos:"noun", gender:"f",
+ note:"T-shirt. Feminine noun. The most common casual top in Brazil, worn year-round in warm climates.",
+ example:"A: Gosto desta camiseta!\nB: É nova?\nA: Sim, comprei ontem.\nB: Muito bonita.",
+ exampleSrc:"A: I like this t-shirt!\nB: Is it new?\nA: Yes, I bought it yesterday.\nB: Very nice.",
+ funFact:"Brazilians wear camisetas in almost all casual settings. Dress codes for restaurants or clubs will specify 'no camiseta' to require smarter clothing."},
+
+{type:"teach", trg:"a saia", src:"the skirt", pos:"noun", gender:"f",
+ note:"Skirt. Feminine noun. Plural: as saias.",
+ example:"A: A saia é bonita.\nB: Obrigada! Comprei na loja.\nA: É cara?\nB: Não, é barata.",
+ exampleSrc:"A: The skirt is nice.\nB: Thank you! I bought it at the store.\nA: Is it expensive?\nB: No, it is cheap.",
+ funFact:"Brazil's Carnaval is famous for elaborate costumes, but the everyday saia is a staple of informal Brazilian fashion for women."},
+
+{type:"teach", trg:"o casaco", src:"the coat", pos:"noun", gender:"m",
+ note:"Coat, jacket. Masculine noun. Used in cold weather or air-conditioned spaces.",
+ example:"A: Precisa de um casaco?\nB: Sim, está frio.\nA: Tenho um casaco aqui.\nB: Obrigado!",
+ exampleSrc:"A: Do you need a coat?\nB: Yes, it is cold.\nA: I have a coat here.\nB: Thank you!",
+ funFact:"In São Paulo's 'inverno europeu' (cold winter by Brazilian standards), casaco sales spike. In Rio, a casaco is often only needed in air-conditioned shopping malls."},
+
+{type:"teach", trg:"usar", src:"to wear / to use", pos:"verb", gender:null,
+ note:"To wear (clothing) or to use (an object). Regular -ar verb: uso, usa, usamos, usam.",
+ example:"A: Você usa camiseta no trabalho?\nB: Não, uso camisa.\nA: Eu uso camiseta sempre.\nB: Depende do trabalho.",
+ exampleSrc:"A: Do you wear a t-shirt to work?\nB: No, I wear a shirt.\nA: I always wear a t-shirt.\nB: It depends on the job.",
+ funFact:"'Usar' is the everyday Brazilian verb for wearing clothes. 'Vestir' exists too but is more formal or reflexive ('vestir-se' = to get dressed)."},
+
+{type:"mc", q:"Which word is the outer visible ear?",
+ opts:["o nariz","a orelha","o ouvido","o coração"],
+ ans:"a orelha",
+ hint:"The physical structure you can see on the side of someone's head."},
+
+{type:"fb", s:"Está frio! Preciso comprar um {1} para sair.",
+ a:["casaco"],
+ opts:["casaco","camiseta","saia","camisa"],
+ hint:"The outer garment you wear over other clothes when it is cold.",
+ sSrc:"It is cold! I need to buy a {1} to go out."},
+
+{type:"mc", q:"'Usar' in the sentence 'Ela usa camiseta' means:",
+ opts:["She buys a t-shirt","She wears a t-shirt","She washes a t-shirt","She likes a t-shirt"],
+ ans:"She wears a t-shirt",
+ hint:"In the context of clothing, 'usar' always means to wear."},
+
+{type:"fb", s:"O {1} está doendo — comi muito hoje.",
+ a:["estômago"],
+ opts:["estômago","coração","nariz","braço"],
+ hint:"The digestive organ that hurts when you overeat.",
+ sSrc:"My {1} is hurting — I ate too much today."},
+
+{type:"match", pairs:[
+ {trg:"o nariz", src:"the nose"},
+ {trg:"as orelhas", src:"the ears"},
+ {trg:"o cabelo", src:"the hair"},
+ {trg:"o braço", src:"the arm"}
+]},
+
+{type:"fb", s:"Ela não {1} saia no trabalho, prefere calça.",
+ a:["usa"],
+ opts:["usa","tem","faz","compra"],
+ hint:"The verb for wearing clothing items (3rd-person singular, present).",
+ sSrc:"She does not {1} a skirt at work, she prefers pants."},
+
+{type:"mc", q:"Which body part is used figuratively in 'Obrigado de coração'?",
+ opts:["o braço","o nariz","o coração","o estômago"],
+ ans:"o coração",
+ hint:"This organ is universally linked to emotion and sincere feeling."},
+
+{type:"fb", s:"O {1} de Ana é muito bonito — ela cortou ontem.",
+ a:["cabelo"],
+ opts:["cabelo","nariz","casaco","braço"],
+ hint:"What grows on the top of your head.",
+ sSrc:"Ana's {1} is very nice — she cut it yesterday."},
+
+{type:"match", pairs:[
+ {trg:"a camiseta", src:"the t-shirt"},
+ {trg:"a saia", src:"the skirt"},
+ {trg:"o casaco", src:"the coat"},
+ {trg:"usar", src:"to wear / to use"}
+]},
+
+{type:"fb", s:"O médico disse: o {1} precisa de exercício para ficar forte.",
+ a:["coração"],
+ opts:["coração","nariz","cabelo","casaco"],
+ hint:"The vital muscle that pumps blood throughout the body.",
+ sSrc:"The doctor said: the {1} needs exercise to stay strong."},
+
+{type:"mc", q:"What is the everyday Brazilian word for wearing clothing?",
+ opts:["vestir","ter","fazer","usar"],
+ ans:"usar",
+ hint:"A regular -ar verb meaning 'to use', also used for clothing in everyday speech."},
+
+{type:"mc", q:"Which sentence is correct Portuguese?",
+ opts:["O braço está doendo.","O braço está hurt.","Braço é hurt.","O braço doer."],
+ ans:"O braço está doendo.",
+ hint:"Use 'estar' + present participle (-ndo form) for ongoing pain."}
 ]}
 
 ]}; export default UNIT_12;
