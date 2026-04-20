@@ -350,11 +350,12 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Spanish | v2 | 92 | 1,398 | 53 entries | COMPLETE. PP8/PP63/PP67 all clean. |
 | Italian | v2 | 36 | 970 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. PP67 0/0, PP63 PASS. |
 | Japanese | v2 | 36 | 737 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, PP63 PASS, PP67 0/0. Foundations lock, notation tutorial, CEFR ref wired. |
-| Chinese | v2 | 45 | 913 | 53 entries | **VALIDATED.** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8/PP48/PP63/PP67 all clean. |
-| Portuguese | v2 | 36 | 844 | 50 entries | **VALIDATED.** Brazilian primary, EU notes. CEFR A1-B2. PP8/PP48/PP63/PP67 all clean. |
+| Chinese | v2 | 45 | 920 | 53 entries | **VALIDATED.** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8/PP48/PP63/PP67 all clean. |
+| Portuguese | v2 | 36 | 851 | 50 entries | **VALIDATED.** Brazilian primary, EU notes. CEFR A1-B2. PP8/PP48/PP63/PP67 all clean. |
 | Russian | v2 | 36 | 737 | 50 entries | **VALIDATED.** Cyrillic, 6 cases, aspect pairs, TRKI framework. All 36 units complete. PP8/PP48/PP63/PP67 all clean. Grammar: 50 real entries (A1-B2, TRKI-aligned). |
 
-**Grand total: ~14,809 teach cards across 10 languages (main unit files; excludes legacy batch-file duplicates). Build passes.**
+**Grand total: ~14,823 teach cards across 10 languages (main unit files; excludes legacy batch-file duplicates). Build passes.**
+**All 10 languages PASS PP8/PP43/PP48/PP63/PP64/PP66/PP67 including batch-file expansion. Italian has 1 non-critical PP64 flag (1/4228 = 0.024%); all other languages 0.**
 **Grammar modules: 521 real entries across 10 languages (Chinese 53, Portuguese 50, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch 36, Russian 50). Zero placeholder modules remaining.**
 **Validator state (2026-04-20): All 10 languages PASS PP8, PP43, PP48, PP63, PP64, PP67.**
 
