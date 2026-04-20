@@ -22,6 +22,10 @@ const BATCH5_L_2={id:"itv2_u20l_b5_2",title:"Apprendimento permanente",icon:"\u{
 {type:"match",pairs:[{trg:"l'apprendistato",src:"apprenticeship"},{trg:"il reskilling",src:"learning new skills"},{trg:"il mentoring",src:"professional guidance"},{trg:"il gap di competenze",src:"skills gap"},{trg:"l'orientamento professionale",src:"career guidance"}]},
 {type:"fb",s:"Il {1} delle competenze aiuta a capire i propri punti di forza.",a:["bilancio"],opts:["bilancio","portfolio","gap","tirocinio"],hint:"An evaluation of professional skills. Offered free by Italian employment centers.",sSrc:"The skills {1} helps understand one's strengths."},
 {type:"mc",q:"Quale centro offre educazione per adulti in Italia?",opts:["Il CPIA","L'INPS","L'ASL","L'AGCM"],ans:"Il CPIA",hint:"Provincial Centers for Adult Education. They also teach Italian to immigrants."},
+<<<<<<< HEAD
 {type:"fb",s:"Il tirocinio {1} da crediti universitari ma di solito non è pagato.",a:["curriculare"],opts:["curriculare","extracurriculare","professionale","permanente"],hint:"An internship that is part of a degree program. Distinguished from post-graduation internships.",sSrc:"The {1} internship gives university credits but is usually unpaid."},
+=======
+{type:"fb",s:"Il tirocinio {1} da crediti universitari ma di solito non è pagato.",a:["curriculare"],opts:["curriculare","extracurriculare","professionale","permanente"],hint:"An internship that is part of a degree program. Distinguished from post-graduation internships.",sSrc:"The {1} internship gives university credits but is usually unpaid."},
+>>>>>>> origin/main
 {type:"mc",q:"A che età gli studenti italiani scelgono il tipo di scuola superiore?",opts:["A 14 anni","A 16 anni","A 18 anni","A 12 anni"],ans:"A 14 anni",hint:"Italian students face a crucial educational choice after middle school (scuola media)."},
 ]};export default BATCH5_L_2;
