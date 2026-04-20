@@ -313,6 +313,117 @@ const UNIT_06 = {
        ans:"It is a foreign loan word",
        hint:"Italian plural rules apply only to native vocabulary. Imports from French or English stay fixed in form."}
     ,{type:"match",pairs:[{trg:"la strada",src:"the street / road"},{trg:"la piazza",src:"the square / plaza"},{trg:"prendere",src:"to take (transport)"},{trg:"andare",src:"to go"}]}]},
+
+    {id:"itv2_u6l4", title:"Azioni comuni", icon:"\ud83d\udcac", xp:15, board:true, steps:[
+      {type:"intro", title:"Azioni comuni",
+       desc:"Learn seven essential Italian verbs for everyday actions: talking, asking, finishing, and meeting.",
+       goals:["Use verbs for communication","Say when things start and finish","Describe common daily actions"]},
+
+      {type:"teach", trg:"finire", src:"to finish / to end", pos:"verb", gender:null,
+       note:"Regular -ire verb with -isc- insert.\nIo finisco, tu finisci, lui finisce, noi finiamo.",
+       example:"A: Quando finisci il lavoro?\nB: Finisco alle cinque.",
+       exampleSrc:"A: When do you finish work?\nB: I finish at five.",
+       funFact:"From Latin 'finire' (to limit, to end), from 'finis' (boundary, end). English 'finish,' 'final,' 'finite,' and 'define' all come from the same root. The -isc- pattern marks about 30% of all -ire verbs in Italian."},
+
+      {type:"teach", trg:"cominciare", src:"to begin / to start", pos:"verb", gender:null,
+       note:"Regular -are verb. Spelling note: io comincio (drop the i before -o/-a).\nOpposite of finire.",
+       example:"A: A che ora comincia il museo?\nB: Comincia alle nove.",
+       exampleSrc:"A: What time does the museum open?\nB: It opens at nine.",
+       funFact:"From Latin 'cominitiare' (to begin together), from 'cum' (together) + 'initium' (beginning). English 'initiate' and 'initial' share the same Latin root 'initium.' 'Incominciare' is a longer synonym you will see in formal Italian."},
+
+      {type:"teach", trg:"dire", src:"to say / to tell", pos:"verb", gender:null,
+       note:"Irregular verb. Present: dico, dici, dice, diciamo, dite, dicono.\n'Come si dice?' = How do you say?",
+       example:"A: Come si dice 'street' in italiano?\nB: Si dice 'la strada.'",
+       exampleSrc:"A: How do you say 'street' in Italian?\nB: You say 'la strada.'",
+       funFact:"From Latin 'dicere' (to say), one of the most common Latin verbs. English 'dictate,' 'diction,' 'predict,' 'verdict,' and 'indicate' all come from this root. 'Come si dice?' is the single most useful question for a language learner."},
+
+      {type:"teach", trg:"incontrare", src:"to meet / to run into", pos:"verb", gender:null,
+       note:"Regular -are verb. Covers both planned and chance meetings.\n'Ci incontriamo' = Let's meet up.",
+       example:"A: Dove ci incontriamo?\nB: Ci incontriamo in piazza.",
+       exampleSrc:"A: Where shall we meet?\nB: Let's meet in the square.",
+       funFact:"From Latin 'in contra' (against, face-to-face). The same prefix gave English 'encounter.' Notice that Italian builds the idea of meeting from 'coming face-to-face' with someone."},
+
+      {type:"teach", trg:"chiedere", src:"to ask", pos:"verb", gender:null,
+       note:"Irregular -ere verb. Present: chiedo, chiedi, chiede, chiediamo, chiedete, chiedono.\nPast participle: chiesto.",
+       example:"A: Posso chiedere un'informazione?\nB: Certo, mi dica!",
+       exampleSrc:"A: Can I ask for some information?\nB: Of course, go ahead!",
+       funFact:"From Latin 'quaerere' (to seek, to ask). English words like 'query,' 'question,' 'quest,' and 'inquest' all share this root. 'Chiedere' is always followed by a person or thing, never an indirect statement alone."},
+
+      {type:"teach", trg:"rispondere", src:"to answer / to respond", pos:"verb", gender:null,
+       note:"Irregular -ere verb. Present: rispondo, rispondi, risponde, rispondiamo, rispondete, rispondono.\nPast participle: risposto.",
+       example:"A: Ha risposto al telefono?\nB: No, non risponde.",
+       exampleSrc:"A: Did she answer the phone?\nB: No, she's not answering.",
+       funFact:"From Latin 'respondere' (to respond, to pledge back), from 're-' (back) + 'spondere' (to promise). English 'respond,' 'response,' and 'correspond' all share this root. The Italian past participle 'risposto' is always used with 'avere.'"},
+
+      {type:"teach", trg:"sentire", src:"to hear / to feel", pos:"verb", gender:null,
+       note:"Regular -ire verb. No -isc- insert.\nIo sento, tu senti, lui sente, noi sentiamo.\n'Senti!' = Listen! / Hey!",
+       example:"A: Senti, c'e un problema.\nB: Cosa? Non sento bene.",
+       exampleSrc:"A: Listen, there's a problem.\nB: What? I can't hear well.",
+       funFact:"From Latin 'sentire' (to feel, to sense). English 'sense,' 'sentence,' 'sentiment,' 'consent,' and 'scent' all come from this root. In everyday Italian, 'senti!' works like English 'hey!' or 'listen up!' to get someone's attention."},
+
+      {type:"mc", q:"What is the Italian verb for 'to finish'?",
+       opts:["cominciare","finire","sentire","incontrare"],
+       ans:"finire",
+       hint:"This -ire verb uses the -isc- pattern in the present tense. Its English cognate means the same thing."},
+
+      {type:"fb", s:"Il museo {1} alle nove.",
+       a:["comincia"],
+       opts:["comincia","finisce","dice","sente"],
+       hint:"The museum opens at nine. Use the 'he/she/it' form of the verb meaning 'to begin.'",
+       sSrc:"The museum {1} at nine."},
+
+      {type:"mc", q:"Which is the correct 'io' form of 'dire'?",
+       opts:["diio","diro","dire","dico"],
+       ans:"dico",
+       hint:"'Dire' is an irregular verb. Its 'io' form does not follow any predictable pattern and must be memorized."},
+
+      {type:"fb", s:"Come si {1} 'pharmacy' in italiano?",
+       a:["dice"],
+       opts:["dice","sente","chiede","risponde"],
+       hint:"'Come si ___?' is the standard phrase for asking how to say a word. Use the 'lui/lei/it' form of the verb meaning 'to say.'",
+       sSrc:"How do you {1} 'pharmacy' in Italian?"},
+
+      {type:"match", pairs:[
+        {trg:"finire", src:"to finish / to end"},
+        {trg:"cominciare", src:"to begin / to start"},
+        {trg:"dire", src:"to say / to tell"},
+        {trg:"incontrare", src:"to meet / to run into"}
+      ]},
+
+      {type:"mc", q:"How do you say 'Where shall we meet?' in Italian?",
+       opts:["Dove si dice?","Dove ci incontriamo?","Dove rispondiamo?","Dove sentiamo?"],
+       ans:"Dove ci incontriamo?",
+       hint:"The verb for meeting up uses a reflexive particle. 'Ci' signals the action is mutual."},
+
+      {type:"fb", s:"Posso {1} un'informazione?",
+       a:["chiedere"],
+       opts:["chiedere","rispondere","sentire","dire"],
+       hint:"You want to ask for some information. The infinitive of the verb meaning 'to ask' fits here.",
+       sSrc:"Can I {1} for some information?"},
+
+      {type:"mc", q:"What does 'rispondere' mean?",
+       opts:["to ask","to meet","to hear","to answer / to respond"],
+       ans:"to answer / to respond",
+       hint:"From Latin 're-' (back) + 'spondere' (to promise). Think of sending a message back to someone."},
+
+      {type:"fb", s:"Non {1} bene. Puoi ripetere?",
+       a:["sento"],
+       opts:["sento","finisco","chiedo","dico"],
+       hint:"You cannot hear properly. Use 'io' form of the verb meaning 'to hear.'",
+       sSrc:"I can't {1} well. Can you repeat?"},
+
+      {type:"match", pairs:[
+        {trg:"chiedere", src:"to ask"},
+        {trg:"rispondere", src:"to answer / to respond"},
+        {trg:"sentire", src:"to hear / to feel"},
+        {trg:"incontrare", src:"to meet / to run into"}
+      ]},
+
+      {type:"mc", q:"Which verb uses the -isc- pattern in the present tense?",
+       opts:["sentire","dire","cominciare","finire"],
+       ans:"finire",
+       hint:"About 30% of -ire verbs in Italian insert these extra letters before personal endings in all singular forms and the loro plural."}
+    ]},
     EXP_06_L1, EXP_06_L2, EXP_06_L3,
   ]
 };
