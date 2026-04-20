@@ -386,7 +386,8 @@ const UNIT_16 =
 {type:"mc",q:"Was bedeutet 'bewirken'?",opts:["to bring about, to achieve a result","to demand more resources","to withdraw funding","to limit participation"],ans:"to bring about, to achieve a result",hint:"Be- + wirken (to have an effect). To make something actually happen through deliberate action."},
 {type:"fb",s:"Die Beteiligung der Bürger {1} den Zusammenhalt.",a:"stärkt",opts:["stärkt","fördert","bewirkt","maßnahmt"],hint:"This verb means to strengthen or make something more powerful. From the adjective 'stark'.",sSrc:"The participation of citizens strengthens social cohesion."},
 {type:"mc",q:"Welches Wort bedeutet 'the funding or support from the state'?",opts:["die Förderung","die Maßnahme","die Unterstützung","die Beteiligung"],ans:"die Förderung",hint:"This word specifically means financial promotion or funding. Spot the ö in both the noun and the related verb."},
-{type:"fb",s:"Ohne die {1} der Gemeinschaft ist das Projekt vergeblich.",a:"Unterstützung",opts:["Unterstützung","Maßnahme","Beteiligung","Förderung"],hint:"This feminine noun means support, from the verb 'unterstützen' (to stand under and prop up).",sSrc:"Without the support of the community, the project is in vain."}
+{type:"fb",s:"Ohne die {1} der Gemeinschaft ist das Projekt vergeblich.",a:"Unterstützung",opts:["Unterstützung","Maßnahme","Beteiligung","Förderung"],hint:"This feminine noun means support, from the verb 'unterstützen' (to stand under and prop up).",sSrc:"Without the support of the community, the project is in vain."},
+{type:"match",pairs:[{trg:"bewirken",src:"to bring about / achieve"},{trg:"fördern",src:"to promote / support"},{trg:"stärken",src:"to strengthen"}]}
 ]}
 
 ]};
