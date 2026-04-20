@@ -305,6 +305,128 @@ lessons:[
  hint:"1.4 billion consumers represents an ___ potential customer base. Scale is the key advantage."}
 ]}
 
+,
+
+// ─── L5: Governance and Policy ───
+{id:"zhv2_u27l5", title:"政府政策 Governance and Policy", icon:"🏛", xp:15, board:true, steps:[
+{type:"intro", title:"政府政策 Governance and Policy",
+ desc:"Learn abstract vocabulary for discussing government, policy, and economic development. These HSK 4 words are essential for reading news, following public debate, and discussing current affairs in Mandarin.",
+ goals:["Talk about government and policy with 政府 and 政策","Discuss information and inclusion with 信息 and 包括","Use 进行, 当地, and 经济增长 in context"]},
+
+{type:"tip", title:"Civic Vocabulary in Modern Chinese",
+ text:"Civic and policy language appears constantly in Chinese media:\n\n政府 (government) issues 政策 (policies).\n政策 shapes 经济增长 (economic growth).\n信息 (information) about 政策 reaches 当地 (local) communities.\n调查 and projects are 进行 (carried out) by officials.\n\nMastering these 7 words unlocks newspaper headlines, official speeches, and everyday political conversation.",
+ deepDive:{title:"How Chinese Government Works",
+  text:"China's system differs from Western models. Key structures:\n\n中央政府 = central government (Beijing). Sets national 政策.\n\n地方政府 = local government. Implements 政策 at the 当地 level.\n\n国务院 = State Council. The executive branch that conducts (进行) government affairs day to day.\n\nPolicy words to know:\n政策目标 = policy goal\n政策影响 = policy impact\n信息公开 = information disclosure (transparency)\n\nPublic 信息 in China is increasingly released through official apps and websites. Citizens can access government 信息 on local 政策 more easily than ever."}},
+
+{type:"teach", trg:"政府(zhèngfǔ)", src:"government", pos:"noun", gender:null,
+ note:"Politics + storehouse/manage. The body that governs a country or region.\n中央政府 = central government. 地方政府 = local government.",
+ example:"A: 政府(zhèngfǔ)决定(juédìng)做(zuò)市场(shìchǎng)改革(gǎigé)。\nB: 这(zhè)对(duì)社会(shèhuì)发展(fāzhǎn)很(hěn)重要(zhòngyào)。",
+ exampleSrc:"A: The government decided to carry out market reforms.\nB: That is very important for social development.",
+ funFact:"政 means governance or administration, and 府 originally meant a storehouse where official documents were kept. Government is 'the storehouse of governance.' The phrase 政府工作报告 (Government Work Report) is delivered each March at the National People's Congress and outlines policy priorities for the year. It is one of the most closely watched political documents in China."},
+
+{type:"teach", trg:"政策(zhèngcè)", src:"policy", pos:"noun", gender:null,
+ note:"Politics + plan/whip. An official course of action set by government.\n制定政策 = to formulate policy. 执行政策 = to implement policy.",
+ example:"A: 政府(zhèngfǔ)的(de)新(xīn)政策(zhèngcè)对(duì)经济(jīngjì)发展(fāzhǎn)很(hěn)重要(zhòngyào)。\nB: 对(duì)，公司(gōngsī)都(dōu)在(zài)关注(guānzhù)这个(zhège)政策(zhèngcè)。",
+ exampleSrc:"A: The government's new policy is very important for economic development.\nB: Right, companies are all paying close attention to this policy.",
+ funFact:"政 means governance, and 策 originally meant a whip or a bamboo tablet used for writing plans. A policy is 'a written plan to drive governance.' The 改革开放 (reform and opening-up) policy launched by Deng Xiaoping in 1978 is considered the most consequential Chinese 政策 of the modern era. It transformed the country from a closed, planned economy into the world's second largest."},
+
+{type:"teach", trg:"信息(xìnxī)", src:"information", pos:"noun", gender:null,
+ note:"Trust/letter + rest/news. News, data, or facts passed from one person to another.\n信息技术 = information technology. 信息公开 = information disclosure.",
+ example:"A: 你(nǐ)关注(guānzhù)政治(zhèngzhì)信息(xìnxī)吗(ma)？\nB: 对(duì)，我(wǒ)每天(měi tiān)看(kàn)新闻(xīnwén)，政策(zhèngcè)信息(xìnxī)很(hěn)重要(zhòngyào)。",
+ exampleSrc:"A: Do you follow political information?\nB: Yes, I watch the news every day. Policy information is very important.",
+ funFact:"信 means trust or letter, and 息 means rest or news (it depicts the heart resting, suggesting a calm moment to receive news). Information is 'trusted news that reaches you.' The phrase 信息时代 (information age) is how Chinese speakers describe the digital era. China has the world's largest internet user base, making 信息 literacy more important than ever."},
+
+{type:"teach", trg:"包括(bāokuò)", src:"to include", pos:"verb", gender:null,
+ note:"Wrap + enclose/surround. To have something as part of a larger whole.\n包括在内 = included within. 不包括 = not including.",
+ example:"A: 这个(zhège)计划(jìhuà)包括(bāokuò)什么(shénme)？\nB: 包括(bāokuò)市场(shìchǎng)、成本(chéngběn)和(hé)战略(zhànlüè)。",
+ exampleSrc:"A: What does this plan include?\nB: It includes market, cost, and strategy.",
+ funFact:"包 means to wrap or bundle, and 括 means to enclose or put in brackets. To include something is to 'wrap it inside.' The word 括号 (kuòhào) means brackets or parentheses in Chinese, from the same character. In formal writing, 包括 is preferred over 有 (have) when listing components of a system or program."},
+
+{type:"teach", trg:"进行(jìnxíng)", src:"to carry out / to conduct", pos:"verb", gender:null,
+ note:"Advance + proceed. To carry out an activity, especially a formal or planned one.\n进行调查 = to conduct a survey. 正在进行 = currently underway.",
+ example:"A: 政府(zhèngfǔ)正在(zhèngzài)进行(jìnxíng)改革(gǎigé)。\nB: 改革(gǎigé)需要(xūyào)时间(shíjiān)，但(dàn)结果(jiéguǒ)会(huì)很(hěn)好(hǎo)。",
+ exampleSrc:"A: The government is currently conducting reforms.\nB: Reform takes time, but the results will be good.",
+ funFact:"进 means to advance or move forward, and 行 means to proceed or travel. Carrying out something is 'moving forward and proceeding.' 进行 is a formal register verb: you would say 进行调查 (conduct an investigation) in a report, but 查一查 (check it out) in casual speech. The formality gap is similar to English 'conduct' vs. 'do.'"},
+
+{type:"teach", trg:"当地(dāngdì)", src:"local / of the locality", pos:"adj", gender:null,
+ note:"The very + place. Belonging to or specific to a particular place.\n当地政府 = local government. 当地文化 = local culture.",
+ example:"A: 这个(zhège)政策(zhèngcè)对(duì)当地(dāngdì)经济(jīngjì)有(yǒu)影响(yǐngxiǎng)吗(ma)？\nB: 有(yǒu)，当地(dāngdì)公司(gōngsī)都(dōu)很(hěn)关注(guānzhù)这个(zhège)政策(zhèngcè)。",
+ exampleSrc:"A: Does this policy have an impact on the local economy?\nB: Yes, local companies are all paying close attention to this policy.",
+ funFact:"当 means 'the very' or 'that particular,' and 地 means place or land. The local area is 'that particular place.' 当地人 (local people) is a common collocation. Travelers and business people frequently use 当地 to distinguish what is specific to a location from what is national or universal: 当地特色 = local specialty, 当地习惯 = local customs."},
+
+{type:"teach", trg:"经济增长(jīngjì zēngzhǎng)", src:"economic growth", pos:"noun", gender:null,
+ note:"Economy + increase + grow. The rate at which an economy expands.\n经济增长率 = GDP growth rate. 经济增长目标 = economic growth target.",
+ example:"A: 今年(jīnnián)的(de)经济增长(jīngjì zēngzhǎng)情况(qíngkuàng)怎么样(zěnmeyàng)？\nB: 政府(zhèngfǔ)的(de)政策(zhèngcè)对(duì)经济增长(jīngjì zēngzhǎng)很(hěn)重要(zhòngyào)。",
+ exampleSrc:"A: How is this year's economic growth situation?\nB: The government's policies are very important for economic growth.",
+ funFact:"增 means to increase, and 长 means to grow or lengthen. Economic growth is literally 'the economy increasing and growing.' China maintained double-digit 经济增长 for three decades after 1978, lifting more than 800 million people out of poverty in the fastest economic development in human history. The IMF and World Bank track Chinese 经济增长 as a key global indicator."},
+
+{type:"mc", q:"政府(zhèngfǔ) contains 府(fǔ), which originally meant:",
+ opts:["A storehouse for official documents","A military barracks","A public square","A royal garden"],
+ ans:"A storehouse for official documents",
+ hint:"府 was the place where records and papers of state were kept. What kind of building is that?"},
+
+{type:"match", pairs:[
+  {trg:"政府(zhèngfǔ)", src:"government"},
+  {trg:"政策(zhèngcè)", src:"policy"},
+  {trg:"信息(xìnxī)", src:"information"},
+  {trg:"包括(bāokuò)", src:"to include"},
+  {trg:"进行(jìnxíng)", src:"to carry out"},
+  {trg:"当地(dāngdì)", src:"local"},
+  {trg:"经济增长(jīngjì zēngzhǎng)", src:"economic growth"}
+]},
+
+{type:"mc", q:"改革开放 is described as the most consequential Chinese 政策(zhèngcè) of the modern era because:",
+ opts:["It transformed China from a closed economy into the world's second largest","It established the central government","It created the national currency","It introduced information technology"],
+ ans:"It transformed China from a closed economy into the world's second largest",
+ hint:"1978: 改革开放 began. The policy opened the country to global markets and drove decades of rapid development. No other policy had comparable impact."},
+
+{type:"fb", s:"政府(zhèngfǔ)决定(juédìng)制定(zhìdìng)新(xīn)的(de){1}来(lái)促进(cùjìn)经济(jīngjì)发展(fāzhǎn)。",
+ a:["政策(zhèngcè)"],
+ opts:["政策(zhèngcè)","信息(xìnxī)","市场(shìchǎng)","战略(zhànlüè)"],
+ hint:"This word means an official course of action set by government. The government is creating a new one to drive economic growth.",
+ sSrc:"The government decided to formulate a new {1} to promote economic development."},
+
+{type:"mc", q:"信息(xìnxī) contains 息(xī), which depicts:",
+ opts:["The heart at rest, suggesting receiving news calmly","A running person","A flame","A stack of books"],
+ ans:"The heart at rest, suggesting receiving news calmly",
+ hint:"息 shows the organ of feeling in a still, quiet state. This posture connects to the idea of quietly taking in what reaches you."},
+
+{type:"fb", s:"这个(zhège)计划(jìhuà){1}培训(péixùn)、奖励(jiǎnglì)和(hé)评估(pínggū)三个(sān gè)部分(bùfen)。",
+ a:["包括(bāokuò)"],
+ opts:["包括(bāokuò)","进行(jìnxíng)","当地(dāngdì)","信息(xìnxī)"],
+ hint:"This verb means to have something as part of a larger whole. The plan wraps in three components.",
+ sSrc:"This plan {1} three parts: training, rewards, and assessment."},
+
+{type:"fb", s:"政府(zhèngfǔ)正在(zhèngzài){1}市场(shìchǎng)改革(gǎigé)。",
+ a:["进行(jìnxíng)"],
+ opts:["进行(jìnxíng)","包括(bāokuò)","影响(yǐngxiǎng)","决定(juédìng)"],
+ hint:"This formal verb means to carry out or conduct a planned activity. The government is currently doing this to the market.",
+ sSrc:"The government is currently {1} market reform."},
+
+{type:"mc", q:"当地(dāngdì) is most accurately translated as:",
+ opts:["local / of the locality","national","foreign","regional capital"],
+ ans:"local / of the locality",
+ hint:"当 means 'that very' and 地 means place. It refers to the specific ___ in question, not a broader area."},
+
+{type:"drag_fill",
+ s:"我们(wǒmen)需要(xūyào)了解(liǎojiě){1}的(de)政策(zhèngcè)对(duì){2}经济(jīngjì)的(de)影响(yǐngxiǎng)。",
+ blanks:{"1":"政府(zhèngfǔ)","2":"当地(dāngdì)"},
+ pool:["政府(zhèngfǔ)","当地(dāngdì)","社会(shèhuì)","信息(xìnxī)","市场(shìchǎng)","政策(zhèngcè)"],
+ hint:"First blank: the body that creates policy. Second blank: a word meaning specific to a place.",
+ sSrc:"We need to understand the impact of {1} policy on the {2} economy."},
+
+{type:"mc", q:"中国(Zhōngguó)的(de)经济增长(jīngjì zēngzhǎng)是(shì)有(yǒu)历史意义(lìshǐ yìyì)的(de)，因为:",
+ opts:["It lifted 800 million people out of poverty in record time","It was the slowest growth in Asia","It depended entirely on foreign investment","It replaced all government policy"],
+ ans:"It lifted 800 million people out of poverty in record time",
+ hint:"Three decades of rapid development after 1978. The scale of improvement in living standards was unprecedented in human history."},
+
+{type:"drag_fill",
+ s:"政府(zhèngfǔ)发布(fābù)了(le)新(xīn){1}，包括(bāokuò)多项(duōxiàng)改革(gǎigé)措施(cuòshī)。当地(dāngdì){2}可以(kěyǐ)从(cóng)官方(guānfāng)网站(wǎngzhàn)获取(huòqǔ){3}。这次(zhècì)改革(gǎigé)将会(jiānghuì)进行(jìnxíng)两年(liǎng nián)，目标(mùbiāo)是(shì)促进(cùjìn){4}。",
+ blanks:{"1":"政策(zhèngcè)","2":"公司(gōngsī)","3":"信息(xìnxī)","4":"经济增长(jīngjì zēngzhǎng)"},
+ pool:["政策(zhèngcè)","公司(gōngsī)","信息(xìnxī)","经济增长(jīngjì zēngzhǎng)","当地(dāngdì)","政府(zhèngfǔ)"],
+ hint:"The government released a new [blank 1] including reforms. Local [blank 2] can access [blank 3] online. The reform runs 2 years to promote [blank 4]."}
+]}
+
 ]};
 
 export default UNIT_27;
