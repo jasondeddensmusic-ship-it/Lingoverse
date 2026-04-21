@@ -317,6 +317,17 @@ const UNIT_24 = {
        ans:"Type 3 (impossible/past conditions)",
        hint:"Uses the pluperfect subjunctive plus a compound conditional for things that cannot be changed: 'Se avessi studiato, avrei passato.'"}
     ]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 export default UNIT_24;

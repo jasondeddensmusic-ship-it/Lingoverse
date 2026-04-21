@@ -325,6 +325,17 @@ const UNIT_18 = {
        ans:"A measure of environmental impact per person",
        hint:"'Impronta' means any kind of mark or print. 'Ecologica' points to the natural world. It quantifies how much of the planet you consume."}
     ,{type:"match",pairs:[{trg:"ridurre",src:"to reduce"}]}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH2_L02,
+  BATCH2_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 export default UNIT_18;

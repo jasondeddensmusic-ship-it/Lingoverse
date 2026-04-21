@@ -402,5 +402,10 @@ const UNIT_02 = {
 ,BATCH9_L1
 ,BATCH10_L1
 ,BATCH11_L1
+,
+  JEXP_02_L1,
+  JEXP_02_L2,
+  JEXP_02_L3,
+  JEXP_02_L4
 ]};
 export default UNIT_02;

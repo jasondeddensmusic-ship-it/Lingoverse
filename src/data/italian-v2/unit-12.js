@@ -310,6 +310,14 @@ const UNIT_12 = {
        hint:"Even one person of the opposite gender forces the ending to switch to -i. The -e ending requires complete uniformity in the group."}
     ]},
     EXP_12_L1, EXP_12_L2, EXP_12_L3,
-  ]
+  
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH4_L02,
+  BATCH4_L01,
+  BATCH3_L02,
+  BATCH3_L01
+]
 };
 export default UNIT_12;

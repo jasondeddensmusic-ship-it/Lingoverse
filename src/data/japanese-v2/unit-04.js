@@ -360,5 +360,10 @@ const UNIT_04 = {
    hint:"The polite stem of the verb for speaking or talking with someone."},
 
 ]}
+,
+  JEXP_04_L1,
+  JEXP_04_L2,
+  JEXP_04_L3,
+  JEXP_04_L4
 ]};
 export default UNIT_04;

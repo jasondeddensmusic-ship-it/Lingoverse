@@ -286,7 +286,18 @@ const UNIT_32 = {
        ans:"Un movimento che vuole piu controllo nazionale su politiche europee e immigrazione",
        hint:"A political movement advocating for more national control over decisions currently shared with the EU or international bodies. Related to 'sovranita' (sovereignty)."}
     ,{type:"match",pairs:[{trg:"il commercio internazionale",src:"the international trade"},{trg:"la catena di fornitura",src:"the supply chain"},{trg:"il patrimonio culturale",src:"the cultural heritage"},{trg:"la cittadinanza globale",src:"the global citizenship"}]},{type:"mc",q:"How do you say \"welcome / reception\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'accoglienza"],ans:"l'accoglienza",hint:"Recall the Italian vocabulary word taught in this lesson."}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 
 export default UNIT_32;

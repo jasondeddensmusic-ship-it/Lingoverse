@@ -395,6 +395,17 @@ const UNIT_13 = {
        ans:"potere",
        hint:"This modal verb means 'to be able to.' Its subjunctive stem changes to 'poss-' with a double s."}
     ,{type:"match",pairs:[{trg:"il congiuntivo",src:"the subjunctive"},{trg:"studi",src:"(that) you study (subjunctive)"},{trg:"possa",src:"(that) I/you/he can (subjunctive)"},{trg:"sappia",src:"(that) I/you/he know (subjunctive)"}]}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH2_L02,
+  BATCH2_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 export default UNIT_13;

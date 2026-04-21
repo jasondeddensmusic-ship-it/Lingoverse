@@ -408,6 +408,14 @@ const UNIT_09 = {
        a:"spostare",
        sSrc:"Can I {1} my Monday appointment to Wednesday?"}
     ]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH4_L02,
+  BATCH4_L01,
+  BATCH3_L02,
+  BATCH3_L01
+]
 };
 export default UNIT_09;

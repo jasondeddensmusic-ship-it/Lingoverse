@@ -400,6 +400,14 @@ const UNIT_11 = {
         {trg:"la bevanda", src:"the drink"}
       ]}
     ]},
-  ]
+  
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH4_L02,
+  BATCH4_L01,
+  BATCH3_L02,
+  BATCH3_L01
+]
 };
 export default UNIT_11;

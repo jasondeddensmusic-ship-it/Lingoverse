@@ -317,6 +317,17 @@ const UNIT_19 = {
        ans:"Expressing feelings openly is seen as genuine",
        hint:"Italian social bonds value emotional directness. 'Come stai?' expects a real answer. Physical warmth and expressive language are normal even with acquaintances."}
     ,{type:"match",pairs:[{trg:"mi sento",src:"I feel"},{trg:"emozionarsi",src:"to get emotional / to be moved"},{trg:"arrabbiato",src:"angry / upset"}]}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 export default UNIT_19;

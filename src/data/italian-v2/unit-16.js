@@ -319,6 +319,17 @@ const UNIT_16 = {
        ans:"Buona guarigione!",
        hint:"'G...' means 'recovery' or 'healing.' This wish follows the Italian pattern of 'Buon/B... + noun.'"}
     ,{type:"match",pairs:[{trg:"la ferita",src:"the wound / injury"},{trg:"curare",src:"to treat / to cure"}]}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH2_L02,
+  BATCH2_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 export default UNIT_16;

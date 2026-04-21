@@ -328,6 +328,17 @@ const UNIT_21 = {
        ans:"Al posto tuo + conditional verb",
        hint:"'If I were in your situation...' introduces advice diplomatically. The structure uses a position expression followed by a hypothetical mood."}
     ,{type:"match",pairs:[{trg:"desidererei",src:"I would wish / I would desire"}]}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 export default UNIT_21;

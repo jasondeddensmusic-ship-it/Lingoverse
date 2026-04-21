@@ -285,5 +285,9 @@ const UNIT_15 = {
   {type:"mc", q:"Which sentence means 'I borrowed money from a friend'?", opts:["友達(ともだち)にお金(かね)を貸(か)しました","友達(ともだち)にお金(かね)を借(か)りました","友達(ともだち)にお金(かね)を返(かえ)しました","友達(ともだち)にお金(かね)を払(はら)いました"], ans:"友達(ともだち)にお金(かね)を借(か)りました",
    hint:"に marks the source when you receive something temporarily."},
 ]}
+,
+  JEXP_15_L1,
+  JEXP_15_L2,
+  JEXP_15_L3
 ]};
 export default UNIT_15;

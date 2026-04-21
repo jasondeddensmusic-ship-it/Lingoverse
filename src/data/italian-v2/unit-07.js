@@ -438,6 +438,14 @@ const UNIT_07 = {
        ans:"A poetic phrase for summer",
        hint:"'Bella' means beautiful. Italians use this expression to describe the warm, sunny months of the year."}
     ]},
-  ]
+  
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH4_L02,
+  BATCH4_L01,
+  BATCH3_L02,
+  BATCH3_L01
+]
 };
 export default UNIT_07;

@@ -436,6 +436,17 @@ const UNIT_14 = {
        ans:"Lo sviluppo economico crea lavoro.",
        hint:"One option uses the right article AND builds a meaningful civic phrase about growth and jobs. Eliminate the grammar errors and nonsense options first."}
     ]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH2_L02,
+  BATCH2_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 export default UNIT_14;

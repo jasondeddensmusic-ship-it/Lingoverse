@@ -283,6 +283,14 @@ const UNIT_33 = {
        ans:"Una considerazione meditata e attenta",
        hint:"Deeper than a quick thought. This noun describes the kind of careful, sustained thinking a complex topic demands."}
     ,{type:"match",pairs:[{trg:"confutare",src:"to refute / to disprove"},{trg:"sostenere",src:"to argue / to maintain / to support"}]}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01
+]
 };
 export default UNIT_33;
