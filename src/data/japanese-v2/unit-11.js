@@ -181,5 +181,9 @@ const UNIT_11 = {
 ,BATCH10_L1
 ,BATCH11_L1
 ,N4VERBS_L1
+,
+  JEXP_11_L1,
+  JEXP_11_L2,
+  JEXP_11_L3
 ]};
 export default UNIT_11;

@@ -430,5 +430,9 @@ const UNIT_13 = {
   {type:"match", pairs:[{trg:"入口(いりぐち)",src:"entrance"},{trg:"出口(でぐち)",src:"exit"},{trg:"生活(せいかつ)",src:"daily life"},{trg:"時代(じだい)",src:"era"},{trg:"世界(せかい)",src:"world"}]},
 ]}
 
+,
+  JEXP_13_L1,
+  JEXP_13_L2,
+  JEXP_13_L3
 ]};
 export default UNIT_13;

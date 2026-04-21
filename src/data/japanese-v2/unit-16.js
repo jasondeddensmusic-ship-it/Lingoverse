@@ -188,5 +188,9 @@ const UNIT_16 = {
 ,BATCH10_L1
 ,BATCH11_L1
 ,F8_LETTER
+,
+  JEXP_16_L1,
+  JEXP_16_L2,
+  JEXP_16_L3
 ]};
 export default UNIT_16;
