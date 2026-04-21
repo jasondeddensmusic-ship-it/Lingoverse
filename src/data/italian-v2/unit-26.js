@@ -355,7 +355,18 @@ const UNIT_26 = {
        ans:"La rapina implica violenza o minaccia, il furto no",
        hint:"One involves taking property without confrontation. The other involves force or threats against the victim."}
     ,{type:"match",pairs:[{trg:"condannare",src:"to convict / to sentence"}]}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 
 export default UNIT_26;

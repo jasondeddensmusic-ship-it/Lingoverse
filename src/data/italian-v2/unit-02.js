@@ -455,7 +455,15 @@ const UNIT_02 = {
        ans:"forse",
        hint:"This adverb expresses uncertainty. It is placed at the beginning or middle of a sentence. Think of 'perhaps' and its role in conversation."},
     ]},
-  ]
+  
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH4_L02,
+  BATCH4_L01,
+  BATCH2_L02,
+  BATCH2_L01
+]
 };
 
 export default UNIT_02;

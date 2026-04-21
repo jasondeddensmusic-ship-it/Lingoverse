@@ -365,6 +365,14 @@ const UNIT_04 = {
         {trg:"il tennis", src:"tennis"}
       ]}
     ]},
-  ]
+  
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH4_L02,
+  BATCH4_L01,
+  BATCH2_L02,
+  BATCH2_L01
+]
 };
 export default UNIT_04;

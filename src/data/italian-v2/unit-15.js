@@ -580,6 +580,17 @@ const UNIT_15 = {
        hint:"You are asking what a word means. This masculine noun is the answer to 'what does it mean?'",
        sSrc:"What is the {1} of this difficult word?"}
     ]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH2_L02,
+  BATCH2_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 export default UNIT_15;

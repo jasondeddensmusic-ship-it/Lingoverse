@@ -307,6 +307,17 @@ const UNIT_20 = {
        ans:"Scaled to household earnings via the ISEE declaration",
        hint:"Wealthier families pay more; lower-earning families pay very little. This makes higher education accessible to all."}
     ,{type:"match",pairs:[{trg:"frequentare",src:"to attend (school/classes)"},{trg:"bocciare",src:"to fail (a student) / to hold back"},{trg:"iscriversi",src:"to enroll / to register"}]}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 export default UNIT_20;

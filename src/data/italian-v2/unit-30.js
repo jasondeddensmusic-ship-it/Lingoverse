@@ -298,7 +298,18 @@ const UNIT_30 = {
        ans:"E un 'non pleonastico' grammaticalmente obbligatorio ma non negativo",
        hint:"This 'n...' is a quirk of Italian grammar. It looks like a negation but does not negate anything. It is required by the grammar but adds no negative meaning."}
     ]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 
 export default UNIT_30;

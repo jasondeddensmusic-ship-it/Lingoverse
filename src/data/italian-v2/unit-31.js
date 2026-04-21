@@ -293,7 +293,18 @@ const UNIT_31 = {
        ans:"Per avere una visione piu completa e ridurre il pregiudizio mediatico",
        hint:"Every newspaper has some bias. Reading multiple perspectives gives you a fuller picture and helps counteract one-sided information."}
     ,{type:"match",pairs:[{trg:"la redazione",src:"the editorial office / newsroom"},{trg:"la cronaca",src:"the news report / chronicle"},{trg:"la privacy",src:"the privacy"}]}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 
 export default UNIT_31;

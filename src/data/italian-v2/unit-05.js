@@ -389,6 +389,14 @@ const UNIT_05 = {
        hint:"The verb sapere always refers to something you had to study or practise over time. Potere covers permissions and circumstances."}
     ]},
     EXP_05_L1, EXP_05_L2, EXP_05_L3,
-  ]
+  
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH4_L02,
+  BATCH4_L01,
+  BATCH2_L02,
+  BATCH2_L01
+]
 };
 export default UNIT_05;

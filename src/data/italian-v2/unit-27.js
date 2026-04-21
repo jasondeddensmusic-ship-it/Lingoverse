@@ -299,7 +299,18 @@ const UNIT_27 = {
        ans:"Per la scarsita di posizioni e stipendi bassi in Italia",
        hint:"Limited job openings and low pay push talented scientists to seek opportunities abroad. This phenomenon is called 'brain drain.'"}
     ,{type:"match",pairs:[{trg:"la sperimentazione",src:"the experimentation / testing"}]}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 
 export default UNIT_27;

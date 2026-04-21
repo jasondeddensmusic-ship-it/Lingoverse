@@ -565,6 +565,14 @@ const UNIT_06 = {
        hint:"Every Italian cook adds this white seasoning to the water before boiling pasta.",
        sSrc:"Add a little {1} to the pasta."}
     ]},
-  ]
+  
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH4_L02,
+  BATCH4_L01,
+  BATCH2_L02,
+  BATCH2_L01
+]
 };
 export default UNIT_06;

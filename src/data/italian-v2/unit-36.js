@@ -308,6 +308,14 @@ const UNIT_36 = {
        ans:"Il lessico",
        hint:"The full stock of words in a language. At B2 level, a learner controls around 4,000 to 5,000 items from this total store."}
     ]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01
+]
 };
 export default UNIT_36;

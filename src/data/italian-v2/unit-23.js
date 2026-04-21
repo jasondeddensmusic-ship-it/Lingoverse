@@ -301,6 +301,17 @@ const UNIT_23 = {
        ans:"The name of a major Turin newspaper (since 1867)",
        hint:"One of Italy's oldest and most respected dailies, founded in Piedmont's capital, shares its masthead with the Italian word for 'the press.'"}
     ,{type:"match",pairs:[{trg:"votare",src:"to vote"},{trg:"informarsi",src:"to inform oneself / to stay informed"}]}]}
-  ]
+  ,
+  BATCH8_L1,
+  BATCH7_L1,
+  BATCH6_L1,
+  BATCH5_L02,
+  BATCH5_L01,
+  BATCH3_L02,
+  BATCH3_L01,
+  EXP_L4,
+  EXP_L5,
+  EXP_L6
+]
 };
 export default UNIT_23;
