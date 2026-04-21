@@ -344,18 +344,19 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 |----------|--------|-------|-------------|---------|--------|
 | German v2 | v2 | 36 | 5,170 | 58 entries | **GOLD STANDARD.** All PP checks PASS. |
 | German v2 (AR) | v2 | 36 | ~5,170 | 58 entries (AR) | Arabic source variant. B2 CEFR trAr gap (1,821). |
-| Korean | v2 | 69 | 1,427 | 47 entries | COMPLETE. PP8/PP63/PP67 all clean. |
-| Dutch | v2 | 89 | 1,384 | 36 entries | COMPLETE. Grammar rewritten to production quality (NT2-aligned, PR #205). PP8/PP63/PP67 all clean. |
-| French | v2 | 90 | 1,212 | 52 entries | COMPLETE. PP8/PP63/PP67 all clean. |
-| Spanish | v2 | 92 | 1,398 | 53 entries | COMPLETE. PP8/PP63/PP67 all clean. |
-| Italian | v2 | 36 | 970 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. PP67 0/0, PP63 PASS. |
-| Japanese | v2 | 36 | 737 | 54 entries | **FULLY VALIDATED.** PP65 complete, PP8 0/0, PP63 PASS, PP67 0/0. Foundations lock, notation tutorial, CEFR ref wired. |
+| Korean | v2 | 69 | 5,331 | 47 entries | COMPLETE. PP8/PP63/PP67 all clean. |
+| Dutch | v2 | 89 | 5,290 | 36 entries | COMPLETE. Grammar rewritten to production quality (NT2-aligned, PR #205). PP8/PP63/PP67 all clean. |
+| French | v2 | 90 | 5,176 | 52 entries | COMPLETE. PP8/PP63/PP67 all clean. |
+| Spanish | v2 | 92 | 5,302 | 53 entries | COMPLETE. PP8/PP63/PP67 all clean. |
+| Italian | v2 | 36 | 5,146 | 51 entries | POLISHED. Foundations, grammar (51), interleaving, CEFR ref, dialogue scaling done. Wired 312 orphan batch imports 2026-04-21 (PR #294). |
+| Japanese | v2 | 36 | 5,076 | 54 entries | **FULLY VALIDATED.** PP65 complete. Wired 33 orphan JEXP imports 2026-04-21 (PR #294). Foundations lock, notation tutorial, CEFR ref wired. |
 | Chinese | v2 | 45 | 920 | 53 entries | **VALIDATED.** HSK 1-4 concept-driven (D125). Hanzi+pinyin notation. PP8/PP48/PP63/PP67 all clean. |
 | Portuguese | v2 | 36 | 851 | 50 entries | **VALIDATED.** Brazilian primary, EU notes. CEFR A1-B2. PP8/PP48/PP63/PP67 all clean. |
 | Russian | v2 | 36 | 737 | 50 entries | **VALIDATED.** Cyrillic, 6 cases, aspect pairs, TRKI framework. All 36 units complete. PP8/PP48/PP63/PP67 all clean. Grammar: 50 real entries (A1-B2, TRKI-aligned). |
 
-**Grand total: ~14,823 teach cards across 10 languages (main unit files; excludes legacy batch-file duplicates). Build passes.**
-**All 10 languages PASS PP8/PP43/PP48/PP63/PP64/PP66/PP67 including batch-file expansion. Italian has 1 non-critical PP64 flag (1/4228 = 0.024%); all other languages 0.**
+**Grand total: 39,038 teach cards across 10 languages (runtime count via `scripts/_runtime_count.mjs` — what users actually see in the app). Build passes.**
+**Note on counting:** `scripts/validate_all.cjs` reads files as text and does NOT follow JS imports, so it undercounts languages whose unit files import batch/temp content (Korean, Dutch, French, Spanish, Italian, Japanese). Use `node scripts/_runtime_count.mjs` for the true production corpus size.
+**All 10 languages PASS PP8/PP43/PP48/PP63/PP64/PP66/PP67 (via validate_all.cjs). Italian has 1 non-critical PP64 flag (0.024%).**
 **Grammar modules: 521 real entries across 10 languages (Chinese 53, Portuguese 50, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch 36, Russian 50). Zero placeholder modules remaining.**
 **Validator state (2026-04-20): All 10 languages PASS PP8, PP43, PP48, PP63, PP64, PP67.**
 
