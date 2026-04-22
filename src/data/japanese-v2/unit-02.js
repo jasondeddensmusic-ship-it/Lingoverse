@@ -277,7 +277,7 @@ const UNIT_02 = {
    hint:"The formal word for a complete name, more official than namae."},
 
   {type:"mc", q:"生年月日(せいねんがっぴ) means:", opts:["date of birth","home address","phone number","full name"], ans:"date of birth",
-   hint:"It starts with 生 (birth) and ends with 年月日 (year, month, day)."},
+   hint:"It starts with 生 and ends with 年月日 (year, month, day)."},
 
   {type:"fb", s:"お疲(つか)れさまです。メールアドレスを{1}してください。", a:"記入(きにゅう)", opts:["記入(きにゅう)","住所(じゅうしょ)","電話番号(でんわばんごう)","生年月日(せいねんがっぴ)"], sSrc:"Good work. Please fill in your email address.",
    hint:"The する-verb meaning to write into or fill out a field."},
@@ -329,7 +329,7 @@ const UNIT_02 = {
   ]},
 
   {type:"mc", q:"彼(かれ)は医者(いしゃ)です means:", opts:["She is a doctor","He is a doctor","I am a doctor","Is he a doctor?"], ans:"He is a doctor",
-   hint:"彼(かれ) = he. 医者(いしゃ) = doctor. です = is."},
+   hint:"彼(かれ) = he. 医者(いしゃ) = …. です = is."},
 
   {type:"fb", s:"{1}は学生(がくせい)です。", a:"彼女(かのじょ)", opts:["彼女(かのじょ)","彼(かれ)","私(わたし)","先生(せんせい)"], sSrc:"She is a student.",
    hint:"The feminine third-person pronoun meaning 'she.'"},
@@ -373,7 +373,7 @@ const UNIT_02 = {
    hint:"The verb meaning 'to ask / hear.' Godan group: く → き + ます."},
 
   {type:"mc", q:"彼女(かのじょ)は来(き)ます means:", opts:["She is coming","He came","She does not come","She is listening"], ans:"She is coming",
-   hint:"彼女(かのじょ) = she. 来(き)ます = polite present of 来(く)る (to come)."},
+   hint:"彼女(かのじょ) = …. 来(き)ます = polite present of 来(く)る (to come)."},
 
   {type:"fb", s:"彼(かれ)は先生(せんせい)を{1}ます。", a:"見(み)", opts:["見(み)","聞(き)き","来(き)","行(い)き"], sSrc:"He sees the teacher. (polite form)",
    hint:"The verb for seeing or looking at something. Ichidan verb: stem み + ます."},

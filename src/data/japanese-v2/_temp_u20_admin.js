@@ -69,7 +69,7 @@ const LESSON_ADMIN = {
    hint:"This document proves where you live in Japan. It is issued by the 役所(やくしょ) and needed for many official purposes."},
 
   {type:"mc", q:"在留(ざいりゅう)カード is specifically issued to:", opts:["Japanese citizens only","all residents for ID","foreign nationals staying over 3 months","students over 18"], ans:"foreign nationals staying over 3 months",
-   hint:"The kanji 在留 means 'staying/residing.' This card is not for Japanese citizens but for people from other countries living in Japan."},
+   hint:"The kanji 在留 means '…/residing.' This card is not for Japanese citizens but for people from other countries living in Japan."},
 
   {type:"fb", s:"パスポートと{1}が必要(ひつよう)です。\n(A passport and documents are required.)", a:"書類(しょるい)", opts:["書類(しょるい)","手続(てつづ)き","申請(しんせい)","更新(こうしん)"], sSrc:"A passport and documents are required.",
    hint:"The general word for official papers or written materials needed for an application."},

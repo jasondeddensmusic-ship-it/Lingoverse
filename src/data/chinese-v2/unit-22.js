@@ -126,7 +126,7 @@ lessons:[
 {type:"mc", q:"面试(miànshì) literally means:",
  opts:["face test","written test","phone test","group test"],
  ans:"face test",
- hint:"面 is the character for face, and 试 means test or examination. This is a face-to-face evaluation."},
+ hint:"面 is the character for …, and 试 means … or examination. This is a …-to-… evaluation."},
 
 {type:"match", pairs:[
   {trg:"经验(jīngyàn)", src:"experience"},
@@ -145,7 +145,7 @@ lessons:[
 {type:"mc", q:"他(tā)有(yǒu)十年(shínián)的(de)工作(gōngzuò)经验(jīngyàn)。 This means:",
  opts:["He has ten years of work experience","He has been looking for work for ten years","He has ten jobs","He works ten hours a day"],
  ans:"He has ten years of work experience",
- hint:"工作经验 means professional experience. 十年 means ten years. The sentence describes someone's career history."},
+ hint:"工作经验 means professional …. 十年 means … …. The sentence describes someone's career history."},
 
 {type:"fb", s:"我(wǒ)已经(yǐjīng){1}了(le)五个(wǔge)公司(gōngsī)。",
  a:["申请(shēnqǐng)"],
@@ -405,7 +405,7 @@ lessons:[
 {type:"mc", q:"开证明(kāi zhèngmíng) means:",
  opts:["To issue an official certificate","To open a file","To write a letter","To cancel an appointment"],
  ans:"To issue an official certificate",
- hint:"开 here means to issue or produce. 证明 means proof or certificate. Together they describe producing an official document for someone."},
+ hint:"开 here means to … or produce. 证明 means proof or …. Together they describe producing an authorised document for someone."},
 
 {type:"match", pairs:[
   {trg:"手续(shǒuxù)", src:"procedures / formalities"},

@@ -53,7 +53,7 @@ lessons:[
 {type:"mc", q:"新闻(xīnwén) literally means:",
  opts:["newly heard","old stories","written record","public announcement"],
  ans:"newly heard",
- hint:"新 means 'new,' and 闻 originally meant 'to hear.' News is what has been newly heard or learned."},
+ hint:"新 means 'new,' and 闻 originally meant 'to hear.' News is what has been … … or learned."},
 
 {type:"match", pairs:[
   {trg:"新闻(xīnwén)", src:"news"},

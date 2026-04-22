@@ -119,7 +119,7 @@ const N4VERBS_L1 = {id:"jpv2_u11l_n4v", title:"N4必須動詞(ひっすどうし
   {type:"mc", q:"母(はは)を呼(よ)んでください means:",
    opts:["Please meet my mother","Please call my mother","Please change my mother","Please hold my mother"],
    ans:"Please call my mother",
-   hint:"呼(よ)ぶ means to call out to or summon someone. を marks the person called."}
+   hint:"呼(よ)ぶ means to … out to or summon someone. を marks the person called."}
 
 ]};
 

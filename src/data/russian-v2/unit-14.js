@@ -364,7 +364,7 @@ const UNIT_14 = {n:14, lang:"ru", srcLang:"en", track:"v2", title:"Прошед�
 {type:"mc", q:"'Быстрый рост' means:",
  opts:["Quick growth","Tall height","Small change","Slow progress"],
  ans:"Quick growth",
- hint:"Быстрый = fast/quick. Рост in this context = growth (abstract), not physical height."},
+ hint:"Быстрый = fast/…. Рост in this context = … (abstract), not physical height."},
 
 {type:"match", pairs:[
  {trg:"сравнивать", src:"to compare"},

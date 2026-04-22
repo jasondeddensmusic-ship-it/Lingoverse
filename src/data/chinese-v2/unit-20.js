@@ -52,7 +52,7 @@ lessons:[
 {type:"mc", q:"动物(dòngwù) literally means:",
  opts:["moving thing","living creature","natural being","breathing thing"],
  ans:"moving thing",
- hint:"The first character 动 means 'to move,' and 物 means 'thing.' Animals are defined by their ability to move."},
+ hint:"The first character 动 means 'to move,' and 物 means 'object / item.' Animals are defined by their ability to move."},
 
 {type:"match", pairs:[
   {trg:"自然(zìrán)", src:"nature / natural"},
@@ -215,7 +215,7 @@ lessons:[
 {type:"mc", q:"回收(huíshōu) literally means:",
  opts:["return + collect","again + use","throw + away","clean + sort"],
  ans:"return + collect",
- hint:"The first character means 'to return' and the second means 'to collect.' Together they describe gathering things back for reuse."},
+ hint:"The first character means 'to …' and the second means 'to ….' Together they describe gathering things back for reuse."},
 
 {type:"fb", s:"这些(zhèxiē)塑料(sùliào)瓶(píng)可以(kěyǐ){1}。",
  a:["回收(huíshōu)"],
@@ -232,7 +232,7 @@ lessons:[
 {type:"mc", q:"我们(wǒmen)不(bù)应该(yīnggāi)浪费(làngfèi)水(shuǐ)。 This means:",
  opts:["We should not waste water","We cannot drink water","We do not have water","We do not like water"],
  ans:"We should not waste water",
- hint:"不应该 means 'should not,' and 浪费 means 'to waste.' The sentence expresses what we ought to avoid doing."},
+ hint:"不应该 means '… not,' and 浪费 means 'to ….' The sentence expresses what we ought to avoid doing."},
 
 {type:"drag_fill",
  s:"我们(wǒmen){1}{2}环境(huánjìng)，{3}用水(yòngshuǐ)，{4}垃圾(lājī)。",

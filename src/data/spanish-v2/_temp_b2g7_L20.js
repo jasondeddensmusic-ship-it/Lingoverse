@@ -23,7 +23,7 @@ const LESSON_20 = {id:"esv2_b2g7_l20",title:"Repaso y consolidación",icon:"🎯
 {type:"mc",q:"'En cambio' se usa para:",opts:["Contrastar dos ideas","Dar una causa","Expresar consecuencia","Añadir información igual"],ans:"Contrastar dos ideas",hint:"This connector introduces the opposite or contrasting side of an argument."},
 {type:"fb",s:"La {1} en redes sociales influye cada vez más en la opinión pública.",a:["interacción"],opts:["interacción","inflexión","intermediación","incursión"],hint:"This noun describes how people communicate and engage with each other.",sSrc:"{1} on social media increasingly influences public opinion."},
 {type:"mc",q:"¿Cuál es el patrón correcto para dos adverbios en -mente?",opts:["'lenta y constantemente'","'lentamente y constantemente'","'lenta-mente y constante-mente'","'lento y constante'"],ans:"'lenta y constantemente'",hint:"Only the last adverb in a series keeps the -mente ending."},
-{type:"fb",s:"Los {1} económicos muestran que la situación mejora {2}.",a:["indicadores"],opts:["indicadores","mandatarios","convenios","lineamientos"],hint:"These are metrics that show economic trends and conditions.",sSrc:"The economic {1} show that the situation is improving slowly."},
+{type:"fb",s:"Los {1} económicos muestran que la situación mejora poco a poco.",a:["indicadores"],opts:["indicadores","mandatarios","convenios","lineamientos"],hint:"These are metrics that show economic trends and conditions.",sSrc:"The economic {1} show that the situation is improving little by little."},
 {type:"match",pairs:[
   {trg:"lamentar",src:"to regret (formal)"},
   {trg:"en cambio",src:"on the other hand"},

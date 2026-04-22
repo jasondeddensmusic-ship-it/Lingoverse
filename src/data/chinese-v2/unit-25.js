@@ -138,7 +138,7 @@ lessons:[
 {type:"mc", q:"改革(gǎigé) literally means:",
  opts:["Changing by stripping away the old","Adding new rules","Keeping tradition","Going backwards"],
  ans:"Changing by stripping away the old",
- hint:"改 means to change, and 革 originally depicted stripping an animal hide. Reform removes what no longer works."},
+ hint:"改 means to change, and 革 originally depicted … an animal hide. Reform removes what no longer works."},
 
 {type:"fb", s:"中国(Zhōngguó)的(de)教育(jiàoyù){1}和(hé)美国(Měiguó)的(de)很(hěn)不同(bùtóng)。",
  a:["制度(zhìdù)"],
@@ -218,7 +218,7 @@ lessons:[
 {type:"mc", q:"民主(mínzhǔ) literally means:",
  opts:["The people are masters","Government power","Free elections","Equal rights"],
  ans:"The people are masters",
- hint:"民 means people, and 主 means master or host. The word captures the idea that the people govern themselves."},
+ hint:"民 means …, and 主 means master or host. The word captures the idea that the … govern themselves."},
 
 {type:"fb", s:"年轻人(niánqīngrén)和(hé)老一辈(lǎoyíbèi)的(de){1}很(hěn)不同(bùtóng)。",
  a:["观念(guānniàn)"],
@@ -250,7 +250,7 @@ lessons:[
 {type:"mc", q:"法律(fǎlǜ)面前(miànqián)人人(rénrén)平等(píngděng)。 This means:",
  opts:["Everyone is equal before the law","The law is always fair","Laws never change","Only some people follow the law"],
  ans:"Everyone is equal before the law",
- hint:"面前 means 'in front of.' The sentence states that no one is above or below the law."},
+ hint:"面前 means 'in front of.' The sentence states that no one is above or below the …."},
 
 {type:"fb", s:"每个(měigè)人(rén)都(dōu)有(yǒu)受(shòu)教育(jiàoyù)的(de){1}。",
  a:["权利(quánlì)"],
@@ -286,7 +286,7 @@ lessons:[
 {type:"mc", q:"歧视(qíshì) literally means:",
  opts:["Looking at someone as divergent/different","Hitting someone","Ignoring someone","Praising someone"],
  ans:"Looking at someone as divergent/different",
- hint:"歧 means to diverge from the norm, and 视 means to look at. Discrimination is seeing someone as 'other.'"},
+ hint:"歧 means to diverge from the norm, and 视 means to look at. Discrimination is seeing … as 'other.'"},
 
 {type:"drag_fill",
  s:"每个(měigè)公民(gōngmín)都(dōu)有(yǒu){1}，也(yě)有(yǒu){2}。我们(wǒmen)应该(yīnggāi)在(zài){3}面前(miànqián)人人(rénrén){4}。",

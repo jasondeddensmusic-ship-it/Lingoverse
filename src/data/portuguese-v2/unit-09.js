@@ -90,7 +90,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
 {type:"mc", q:"'Abra a boca' means:",
  opts:["Close your mouth","Open your mouth","Wash your hands","Lift your leg"],
  ans:"Open your mouth",
- hint:"Abra is the imperative of abrir (to open); boca is the mouth."},
+ hint:"Abra is the imperative of abrir; boca is the …."},
 
 {type:"fb", s:"Caminhei muito e meus {1} doem.",
  a:["pés"],

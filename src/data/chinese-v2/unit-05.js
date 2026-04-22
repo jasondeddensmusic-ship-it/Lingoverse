@@ -82,7 +82,7 @@ lessons:[
 {type:"mc", q:"\u4E0A\u5348(sh\u00E0ngw\u01D4) literally means:",
  opts:["below noon","middle of noon","before the sun","above noon"],
  ans:"above noon",
- hint:"\u4E0A means 'above' or 'upper,' and \u5348 means 'noon.' Put them together."},
+ hint:"上 marks the earlier/upper position; 午 marks the mid-day slot. The compound points to the pre-midday stretch."},
 
 {type:"fb", s:"{1}\u4E09(s\u0101n)\u70B9(di\u01CEn)\u597D(h\u01CEo)\u5417(ma)\uFF1F",
  a:["\u4E0B\u5348(xi\u00E0w\u01D4)"],

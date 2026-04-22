@@ -243,7 +243,7 @@ lessons:[
 {type:"mc", q:"没意思(méi yìsi) is the opposite of 有意思(yǒu yìsi). It means:",
  opts:["Very interesting","Quite good","Boring / not interesting","Meaningless"],
  ans:"Boring / not interesting",
- hint:"没 negates 有 (to have). If something 'has meaning' is interesting, then 'not having meaning' is the opposite."},
+ hint:"没 negates 有 (to have). If something 'has meaning' is …, then 'not having meaning' is the opposite."},
 
 {type:"fb", s:"这(zhè)个(gè)电影(diànyǐng)很(hěn){1}！",
  a:["有意思(yǒu yìsi)"],

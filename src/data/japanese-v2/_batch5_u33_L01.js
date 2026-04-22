@@ -19,7 +19,7 @@ const BATCH5_L_1 = {
     {type:"mc", q:"儚(はかな)い describes:", opts:["Something beautiful but fleeting/transient","Something ugly and permanent","Something boring","Something expensive"], ans:"Something beautiful but fleeting/transient", hint:"This core aesthetic word captures beauty that is all the more precious because it does not last."},
     {type:"match", pairs:[{trg:"古典(こてん)",src:"classic/classical"},{trg:"俳句(はいく)",src:"17-syllable poem"},{trg:"短歌(たんか)",src:"31-syllable poem"},{trg:"随筆(ずいひつ)",src:"essay/miscellaneous writings"}]},
     {type:"fb", s:"この詩(し)には美(うつく)しい{1}が使(つか)われています。\n(Beautiful metaphors are used in this poem.)", a:"比喩(ひゆ)", opts:["比喩(ひゆ)","文法(ぶんぽう)","語彙(ごい)","文字(もじ)"], sSrc:"Beautiful metaphors are used in this poem.", hint:"The literary term for figurative language that compares one thing to another."},
-    {type:"mc", q:"随筆(ずいひつ) literally means:", opts:["Following the brush (writing freely)","Short story","Long novel","Historical record"], ans:"Following the brush (writing freely)", hint:"随(ずい) (follow) + 筆(ひつ) (brush/pen) = writing that follows wherever the pen leads."}
+    {type:"mc", q:"随筆(ずいひつ) literally means:", opts:["Following the brush (writing freely)","Short story","Long novel","Historical record"], ans:"Following the brush (writing freely)", hint:"随(ずい) (follow) + 筆(ひつ) = … that follows wherever the pen leads."}
   ,{type:"match",pairs:[{trg:"物語(ものがたり)",src:"tale / narrative / story"},{trg:"儚(はかな)い",src:"fleeting / ephemeral / transient"},{trg:"名作(めいさく)",src:"masterpiece / classic work"}]}]
 };
 export default BATCH5_L_1;

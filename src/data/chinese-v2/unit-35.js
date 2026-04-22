@@ -72,7 +72,7 @@ lessons:[
 {type:"mc", q:"The suffix 化(huà) in 城市化(chéngshìhuà) means:",
  opts:["city","change into / -ization","big","new"],
  ans:"change into / -ization",
- hint:"This suffix transforms a noun into a process word. Like English '-ization' turning 'urban' into 'urbanization.'"},
+ hint:"This suffix transforms a noun into a process word. Like English '-…' turning 'urban' into 'urbanization.'"},
 
 {type:"fb", s:"很(hěn)多(duō)农村(nóngcūn)人(rén){1}到(dào)大(dà)城市(chéngshì)。",
  a:["移民(yímín)"],

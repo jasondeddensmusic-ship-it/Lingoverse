@@ -47,7 +47,7 @@ lessons:[
 {type:"mc", q:"地理(dìlǐ) literally means:",
  opts:["earth principle","sky map","water way","mountain path"],
  ans:"earth principle",
- hint:"Break the compound into its two characters. 地 means earth or land, and 理 means principle or logic."},
+ hint:"Break the compound into its two characters. 地 means … or land, and 理 means … or logic."},
 
 {type:"match", pairs:[
   {trg:"地理(dìlǐ)", src:"geography"},
@@ -151,7 +151,7 @@ lessons:[
 {type:"mc", q:"长江(Chángjiāng) literally means:",
  opts:["Long River","Great River","Dragon River","Old River"],
  ans:"Long River",
- hint:"The first character 长 means 'long.' The second character 江 means 'river.' Put them together."},
+ hint:"The first character 长 means '….' The second character 江 means '….' Put them together."},
 
 {type:"match", pairs:[
   {trg:"长江(Chángjiāng)", src:"Yangtze River"},

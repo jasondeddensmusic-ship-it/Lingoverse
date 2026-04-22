@@ -196,7 +196,7 @@ lessons:[
 {type:"mc", q:"未来(wèilái) literally means:",
  opts:["year to come","time ahead","not yet come","coming soon"],
  ans:"not yet come",
- hint:"未 means 'not yet,' 来 means 'come.' The future has not yet arrived."},
+ hint:"未 means 'not yet,' 来 means 'approach / arrive.' The future has not yet arrived."},
 
 {type:"fb", s:"不同(bùtóng)国家(guójiā)之间(zhījiān)要(yào)互相(hùxiāng){1}。",
  a:["尊重(zūnzhòng)"],

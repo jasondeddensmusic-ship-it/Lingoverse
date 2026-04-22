@@ -18,7 +18,7 @@ export default {n:15,lang:"fr",srcLang:"en",track:"v2",title:"Comparatifs et sup
         {type:"mc",q:"Negative comparison: 'Il n'est pas aussi grand que toi' means:",opts:["He's taller than you","He's the shortest","He's the tallest","He's not as tall as you"],ans:"He's not as tall as you",hint:"Not + as...as = negative equality comparison."},
         {type:"fb",opts:["moins","plus","que","de"],hint:"Apples are cheaper than strawberries. Less expensive.",s:"Les pommes sont {1} chères ___ les fraises. (less...than)",a:["moins","que"]},
         {type:"match",pairs:[{trg:"plus grand que",src:"bigger than"},{trg:"moins cher que",src:"cheaper than"},{trg:"aussi rapide que",src:"as fast as"},{trg:"pas aussi bon que",src:"not as good as"}]},
-        {type:"mc",q:"To emphasize: 'beaucoup plus grand' means:",opts:["Much bigger","A little bigger","Not bigger","The biggest"],ans:"Much bigger",hint:"Beaucoup reinforces the comparison = much more."},
+        {type:"mc",q:"To emphasize: 'beaucoup plus grand' means:",opts:["Much bigger","A little bigger","Not bigger","The biggest"],ans:"Much bigger",hint:"Beaucoup reinforces the comparison = … more."},
         {type:"fb",opts:["plus","moins","que","de"],hint:"This city is much ___ beautiful. Beaucoup reinforces the comparison.",s:"Cette ville est beaucoup {1} belle ___ la mienne. (more...than)",a:["plus","que"]},
         {type:"mc",q:"Which modifiers work with comparatives?",opts:["Only beaucoup","Beaucoup, un peu, bien","Only très","No modifiers allowed"],ans:"Beaucoup, un peu, bien",hint:"Much more, a little more, way more = all valid."}
   ]},

@@ -278,7 +278,7 @@ export default {n:3,lang:"nl",srcLang:"en",track:"v2",title:"Numbers & Time",sub
         {type:"mc",q:"'Wat een leeftijd!' is said about someone who is:",opts:["very fast","very young","very old","very kind"],ans:"very old",hint:"Leeftijd = age. Commenting on a notable age."},
         {type:"mc",q:"Which article do both 'idee' and 'plan' take in Dutch?",opts:["de","geen","een","het"],ans:"het",hint:"Neither follows the -de pattern. Both are neuter nouns."},
         {type:"fb",opts:["plan","idee","leeftijd","keuze"],hint:"'Goed ___!' when someone suggests something smart",s:"Fietsen naar de markt? Goed ___!",a:"idee"},
-        {type:"mc",q:"'Plannen maken' means:",opts:["to cancel plans","to make plans","to miss plans","to discuss plans"],ans:"to make plans",hint:"Maken = to make"},
+        {type:"mc",q:"'Plannen maken' means:",opts:["to cancel plans","to make plans","to miss plans","to discuss plans"],ans:"to make plans",hint:"Maken = to create"},
         {type:"match",pairs:[{trg:"de leeftijd",src:"the age"},{trg:"het plan",src:"the plan"},{trg:"het idee",src:"the idea"},{trg:"plannen maken",src:"to make plans"}]},
         {type:"fb",opts:["leeftijd","plan","idee","keuze"],hint:"Asking about age: 'Wat is je ___?'",s:"Op mijn ___ ga ik niet meer hardlopen.",a:"leeftijd"}
   ]}

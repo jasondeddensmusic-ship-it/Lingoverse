@@ -33,7 +33,7 @@ const LESSON_8 = {
      text:"Korean motion verbs form pairs using \uAC00\uB2E4 (go, away) and \uC624\uB2E4 (come, toward):\n\n\uB0A0\uC544\uAC00\uB2E4 (fly away) / \uB0A0\uC544\uC624\uB2E4 (fly here)\n\uB2EC\uB824\uAC00\uB2E4 (run away) / \uB2EC\uB824\uC624\uB2E4 (run here)\n\uB118\uC5B4\uAC00\uB2E4 (go over) / \uB118\uC5B4\uC624\uB2E4 (come over)\n\uB2E4\uAC00\uAC00\uB2E4 (approach away) / \uB2E4\uAC00\uC624\uB2E4 (approach here)\n\nThe speaker's position determines which one to use."},
 
     {type:"mc",
-     q:"\uC0C8\uAC00 \uB0A0\uC544___. (\uC5EC\uAE30\uB85C \uC654\uC5B4\uC694)",
+     q:"\uC0C8\uAC00 \uB0A0\uC544___. (The bird flew toward the speaker.)",
      opts:["\uAC14\uC5B4\uC694","\uB0AC\uC5B4\uC694","\uC654\uC5B4\uC694","\uBD24\uC5B4\uC694"],
      ans:"\uC654\uC5B4\uC694",
      hint:"The bird came TOWARD the speaker. Which directional ending means 'come/arrive here'?"},

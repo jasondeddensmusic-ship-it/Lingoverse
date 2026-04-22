@@ -124,7 +124,7 @@ const LESSON_15 = {
      s:"{1} la greve, tous les vols sont annules aujourd'hui.",
      a:["Du fait de"],
      opts:["Du fait de","En marge de","En presence de","En dehors de"],
-     hint:"Because of, due to. A formal way to express cause. Think of 'fait' (fact).",
+     hint:"Because of, due to. A formal way to express cause. Think of '…' (fact).",
      sSrc:"{1} the strike, all flights are canceled today."},
 
     {type:"match", pairs:[

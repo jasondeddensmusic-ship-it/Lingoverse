@@ -145,7 +145,7 @@ lessons:[
 {type:"mc", q:"文化(wénhuà) literally means:",
  opts:["transformation through writing/learning","old stories","festival traditions","family customs"],
  ans:"transformation through writing/learning",
- hint:"文 relates to writing and patterns, while 化 means transformation or change."},
+ hint:"文 relates to … and patterns, while 化 means … or change."},
 
 {type:"fb", s:"我(wǒ)已经(yǐjīng){1}了(le)中国(Zhōngguó)的(de)生活(shēnghuó)。",
  a:["习惯(xíguàn)"],

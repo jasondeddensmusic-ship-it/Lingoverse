@@ -168,7 +168,7 @@ lessons:[
 {type:"mc", q:"差不多(chàbuduō) literally means:",
  opts:["very different","differ not much","exactly the same","completely wrong"],
  ans:"differ not much",
- hint:"差 means 'differ,' 不 means 'not,' 多 means 'much.' Put the three parts together."},
+ hint:"差 means '…,' 不 means 'not,' 多 means '….' Put the three parts together."},
 
 {type:"fb", s:"你(nǐ)说(shuō){1}了(le)吗(ma)？我(wǒ)没(méi)听(tīng)懂(dǒng)。",
  a:["清楚(qīngchu)"],

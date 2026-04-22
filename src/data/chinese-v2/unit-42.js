@@ -53,12 +53,12 @@ lessons:[
 {type:"mc", q:"机器人(jīqìrén) literally means:",
  opts:["computer brain","machine person","smart tool","digital helper"],
  ans:"machine person",
- hint:"机器 means machine. 人 means person. Combine them literally."},
+ hint:"机器 means …. 人 means …. Combine them literally."},
 
 {type:"mc", q:"The character 自 in 自动 means:",
  opts:["ready","new","self","fast"],
  ans:"self",
- hint:"Automatic in Chinese is 'self-moving.' The first character carries the reflexive meaning."},
+ hint:"Automatic in Chinese is '…-moving.' The first character carries the reflexive meaning."},
 
 {type:"fb", s:"这(zhè)家(jiā)公司(gōngsī)开发(kāifā)了(le)一个(yígè)新(xīn)的(de){1}，处理(chǔlǐ)速度(sùdù)非常(fēicháng)快(kuài)。",
  a:["算法(suànfǎ)"],
@@ -191,7 +191,7 @@ lessons:[
 {type:"mc", q:"在线(zàixiàn) literally means:",
  opts:["over the hill","on the line","at the station","on the air"],
  ans:"on the line",
- hint:"在 means 'on' or 'at.' 线 means 'line.' This echoes the telegraph-era metaphor."},
+ hint:"在 means 'on' or 'at.' 线 means '….' This echoes the telegraph-era metaphor."},
 
 {type:"mc", q:"To download is 下载. To upload is:",
  opts:["远载(yuǎnzài)","上载(shàngzài)","上传(shàngchuán)","大载(dàzài)"],

@@ -217,7 +217,7 @@ export default {n:4,lang:"nl",srcLang:"en",track:"v2",title:"Eten & Drinken",sub
         {type:"drag_fill",hint:"This is MY coffee. That is YOUR sandwich.",s:"Dit is {1} koffie. Dat is {2} broodje.",blanks:{"1":"mijn","2":"jouw"},pool:["mijn","jouw","de","het"]},
         {type:"mc",q:"In a restaurant, the formal 'your' is:",opts:["jouw","mijn","uw","hun"],ans:"uw",hint:"Used with 'u' and 'meneer/mevrouw'"},
         {type:"fb",opts:["rekening","koffie","boterham","kaas"],hint:"The bill, please",s:"Mag ik de ___?",a:"rekening"},
-        {type:"mc",q:"'Haar haar is lang' means:",opts:["Their hair is long.","His hair is long.","Her house is long.","Her hair is long."],ans:"Her hair is long.",hint:"haar = her AND h..."},
+        {type:"mc",q:"'Haar haar is lang' means:",opts:["Their hair is long.","His hair is long.","Her house is long.","Her hair is long."],ans:"Her hair is long.",hint:"haar = … AND h..."},
         {type:"drag_fill",hint:"HIS glass is empty. Whose coffee is cold?",s:"{1} glas is leeg. {2} koffie is koud.",blanks:{"1":"Zijn","2":"Mijn"},pool:["Zijn","Mijn","De","Het"]},
         {type:"tr",mk:"u4_my_coffee_cold",dir:"produce"},
         {type:"tr",mk:"u4_may_have_bill",dir:"produce"}
@@ -261,7 +261,7 @@ export default {n:4,lang:"nl",srcLang:"en",track:"v2",title:"Eten & Drinken",sub
         {type:"teach",trg:"goedkoop",src:"cheap / inexpensive",pos:"noun",gender:null,phonetic:"GOOT-kohp",note:"goed (good) + koop (buy) = 'good buy'.\nLiterally: a good purchase!\nOpposite: duur (expensive).",example:"A: Kaas is goedkoop op de markt.\nB: Wil je er nog iets bij?\nA: Klopt!",exampleSrc:"A: Cheese is cheap at the market.\nB: Would you like anything else with that?\nA: Right!",funFact:"Dutch and English are the closest major language pair in the world. Many words share common roots."},
         {type:"teach",trg:"duur",src:"expensive",pos:"adj",gender:null,phonetic:"duwr",note:"Cognate of English 'dear' (as in 'costly').\nThe Dutch complain about prices constantly.\n'Dat is te duur!' = That's too expensive!",example:"A: Amsterdam is duur.\nB: Is dat niet te duur?\nA: Ja, precies!",exampleSrc:"A: Amsterdam is expensive.\nB: Isn't that too expensive?\nA: Yes, exactly!",funFact:"Germanic cousin of English 'dear (costly)', German 'teuer'."},
         {type:"tip",title:"🇳🇱 De Markt: Dutch Market Culture",text:"Every Dutch town has a weekly market.\n\nAmsterdam: Albert Cuypmarkt (every day!)\nRotterdam: Markthal + Blaak\nUtrecht: Bloemenmarkt\n\nWhat you find: verse groenten (fresh vegetables),\nkaas, vis (fish), bloemen (flowers), kleding (clothing).\n\nAt the market, you'll hear:\n'Zegt u het maar!' = Go ahead, tell me! (= What would you like?)\n'Drie euro het kilo.' = Three euros per kilo.\n'Anders nog iets?' = Anything else?\n\nThe Dutch reputation for being careful with money?\nThe market is where you see it in action.\n'Dat is te duur' is not rude  -  it's negotiation."},
-        {type:"mc",q:"'Hoeveel kost dat?' means:",opts:["How much does that cost?","How much does that weigh?","How many do you want?","How expensive is that?"],ans:"How much does that cost?",hint:"hoeveel = how much, kost = costs"},
+        {type:"mc",q:"'Hoeveel kost dat?' means:",opts:["How much does that cost?","How much does that weigh?","How many do you want?","How expensive is that?"],ans:"How much does that cost?",hint:"hoeveel = how …, kost = costs"},
         {type:"fb",opts:["vijftig","vijf","vijftien","vijfentwintig"],hint:"The common currency used across the EU",s:"Dat is drie euro ___. (= €3.50)",a:"vijftig"},
         {type:"mc",q:"In Dutch, the currency word stays unchanged after numbers. What is the plural form?",opts:["euros","euro","euro's","euren"],ans:"euro",hint:"No change needed! The currency stays the same after numbers"},
         {type:"match",pairs:[{trg:"kopen",src:"to buy"},{trg:"verkopen",src:"to sell"},{trg:"goedkoop",src:"cheap"},{trg:"duur",src:"expensive"}]},
@@ -307,7 +307,7 @@ export default {n:4,lang:"nl",srcLang:"en",track:"v2",title:"Eten & Drinken",sub
         {type:"mc",q:"'Het restaurant' and 'het museum' are both:",opts:["de-words","het-words","plurals","irregular"],ans:"het-words",hint:"Check the article in their Dutch names"},
         {type:"mc",q:"'De paraplu' comes from French meaning:",opts:["against wind","against rain","against cold","rainy day"],ans:"against rain",hint:"Two French roots: para (shield/protect) + pluie (think: the weather it blocks)."},
         {type:"fb",opts:["belangrijk","fout","mooi","groot"],hint:"This is very ___. (= This really matters)",s:"Dit is heel ___.",a:"belangrijk"},
-        {type:"mc",q:"'Mijn fout' means:",opts:["My mistake","My fault","I am wrong","Correct mistake"],ans:"My mistake",hint:"fout = the mistake (de-word)"},
+        {type:"mc",q:"'Mijn fout' means:",opts:["My mistake","My fault","I am wrong","Correct mistake"],ans:"My mistake",hint:"fout = the … (de-word)"},
         {type:"match",pairs:[{trg:"het restaurant",src:"the restaurant"},{trg:"het museum",src:"the museum"},{trg:"de paraplu",src:"the umbrella"},{trg:"de fout",src:"the mistake"}]},
         {type:"fb",opts:["paraplu","museum","restaurant","fout"],hint:"Takes cover from the rain",s:"Heb je een ___?",a:"paraplu"}
   ]}

@@ -150,7 +150,7 @@ lessons:[
 {type:"mc", q:"养生(yǎngshēng) literally means:",
  opts:["Nourish life","Strong body","Eat medicine","Prevent disease"],
  ans:"Nourish life",
- hint:"养 means 'to nourish or raise' and 生 means 'life.' Combine the two characters."},
+ hint:"养 means 'to … or raise' and 生 means '….' Combine the two characters."},
 
 {type:"fb", s:"工作(gōngzuò){1}很(hěn)大(dà)，我(wǒ)需要(xūyào)休息(xiūxi)。",
  a:["压力(yālì)"],
@@ -197,7 +197,7 @@ lessons:[
 {type:"mc", q:"减肥(jiǎnféi) literally means:",
  opts:["Reduce fat","Increase weight","Balanced diet","Strong body"],
  ans:"Reduce fat",
- hint:"减 means 'reduce' and 肥 means 'fat.' Put the two characters together literally."},
+ hint:"减 means '…' and 肥 means '….' Put the two characters together literally."},
 
 {type:"match", pairs:[
   {trg:"体重(tǐzhòng)", src:"body weight"},

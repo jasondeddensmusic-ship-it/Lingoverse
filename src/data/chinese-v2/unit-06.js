@@ -46,7 +46,7 @@ lessons:[
 {type:"mc", q:"\u5B66\u6821(xu\u00E9xi\u00E0o) literally means:",
  opts:["big building","reading place","children house","study building"],
  ans:"study building",
- hint:"Break the word into its two characters: \u5B66 (study) + \u6821 (school/building)."},
+ hint:"学 refers to formal learning; 校 names an institution devoted to it. Their compound is where you go for both."},
 
 {type:"match", pairs:[
   {trg:"\u5B66\u6821(xu\u00E9xi\u00E0o)", src:"school"},
@@ -404,7 +404,7 @@ lessons:[
 {type:"mc", q:"中国(Zhōngguó) literally means:",
  opts:["Eastern Country","Great Nation","Middle Kingdom","Ancient Land"],
  ans:"Middle Kingdom",
- hint:"中 means 'middle' and 国 means 'country.' The name reflects China's historical view of itself."},
+ hint:"中 means '…' and 国 means 'country.' The name reflects China's historical view of itself."},
 
 {type:"match", pairs:[
   {trg:"中国(Zhōngguó)", src:"China"},
@@ -499,7 +499,7 @@ lessons:[
 {type:"mc", q:"超市(chāoshì) literally means:",
  opts:["small market","food store","super market","night market"],
  ans:"super market",
- hint:"超 means 'exceed' or 'super' and 市 means 'market.' Put them together."},
+ hint:"超 means 'exceed' or '…' and 市 means '….' Put them together."},
 
 {type:"match", pairs:[
   {trg:"超市(chāoshì)", src:"supermarket"},

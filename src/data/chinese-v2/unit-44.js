@@ -53,7 +53,7 @@ lessons:[
 {type:"mc", q:"简历(jiǎnlì) literally means:",
  opts:["full story","life record","brief history","personal details"],
  ans:"brief history",
- hint:"简 means brief. 历 means history or experience. Combine them."},
+ hint:"简 means …. 历 means … or experience. Combine them."},
 
 {type:"mc", q:"To resign from a job is:",
  opts:["应聘(yìngpìn)","升职(shēngzhí)","辞职(cízhí)","职位(zhíwèi)"],
@@ -196,7 +196,7 @@ lessons:[
 {type:"mc", q:"商务(shāngwù) literally means:",
  opts:["shopping matters","commerce affairs","rich affairs","working arrangements"],
  ans:"commerce affairs",
- hint:"商 means commerce or trade. 务 means affairs or business."},
+ hint:"商 means … or trade. 务 means … or business."},
 
 {type:"fb", s:"请(qǐng)在(zài)周五(zhōuwǔ)前(qián){1}你(nǐ)的(de)报告(bàogào)。",
  a:["提交(tíjiāo)"],

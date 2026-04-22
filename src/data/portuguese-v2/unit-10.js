@@ -212,7 +212,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 {type:"mc", q:"'Trabalho numa empresa grande' means:",
  opts:["I visit a big company","I work at a big company","I own a big company","I see a big company"],
  ans:"I work at a big company",
- hint:"The verb is trabalho (I work) and the preposition 'numa' is in+a."}
+ hint:"The verb is trabalho and the preposition 'numa' is in+a."}
 ]},
 
 {id:"ptv2_u10l3", title:"Trabalhar e fazer", icon:"⚙️", xp:15, board:true, steps:[
@@ -394,7 +394,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 {type:"mc", q:"'Não me lembro do nome' means:",
  opts:["I do not know the name","I cannot say the name","I do not remember the name","I do not like the name"],
  ans:"I do not remember the name",
- hint:"'Lembrar' means to remember. 'Me lembro de' is the reflexive form."},
+ hint:"'Lembrar' means to …. 'Me lembro de' is the reflexive form."},
 
 {type:"fb", s:"Eu {1} trabalhar em casa hoje.",
  a:["prefiro"],

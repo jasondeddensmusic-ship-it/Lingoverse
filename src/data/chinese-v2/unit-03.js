@@ -553,7 +553,7 @@ lessons:[
 {type:"mc", q:"丈夫(zhàngfu) literally means:",
  opts:["a kind man","a man of stature (from an old unit of height)","a working man","a family man"],
  ans:"a man of stature (from an old unit of height)",
- hint:"丈 is an old measurement unit for a tall person's height. The etymology reflects the idea of a capable, upstanding figure."},
+ hint:"丈 is an old measurement … for a tall person's …. The etymology reflects the idea of a capable, upstanding figure."},
 
 {type:"match", pairs:[
   {trg:"妻子(qīzi)", src:"wife"},

@@ -220,7 +220,7 @@ const UNIT_15 = {
    funFact:"山 is one of the first kanji most people learn because its shape clearly pictures three mountain peaks. Japan has over 100 mountains above 2,000 meters. The honorific prefix 富士山 (Mt. Fuji) uses さん, the same suffix as for people, showing deep respect for the mountain."},
 
   {type:"mc", q:"橋(はし)を渡(わた)る means:", opts:["climb a mountain","cross a bridge","walk on a road","reach the station"], ans:"cross a bridge",
-   hint:"渡る means to cross, and 橋 is the structure over water."},
+   hint:"渡る means to …, and 橋 is the structure over water."},
 
   {type:"teach", trg:"借(か)りる", src:"to borrow", pos:"verb", gender:null,
    note:"Group 2 verb. Subject borrows FROM someone. に from particle: 友達(ともだち)に借(か)りる.\nKanji: 借りる.",

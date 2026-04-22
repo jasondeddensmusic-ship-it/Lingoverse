@@ -159,7 +159,7 @@ export default {n:6,lang:"fr",srcLang:"en",track:"v2",title:"La maison",sub:"Hom
         {type:"fb",opts:["pars","pars","partez","partent"],hint:"I leave: first person singular of partir.",s:"Je {1} du travail a dix-huit heures. (to leave)",a:"pars"},
         {type:"mc",q:"'Entrer dans la maison' means:",opts:["To leave the house","To enter the house","To build the house","To clean the house"],ans:"To enter the house",hint:"Entrer = to go IN. Dans = inside. The movement is toward the interior."},
         {type:"fb",opts:["sors","sort","sortez","sortent"],hint:"She goes out: third person singular of sortir.",s:"Elle {1} du jardin. (to go out)",a:"sort"},
-        {type:"mc",q:"'Je trouve que c'est beau' means:",opts:["I look for something beautiful","I find it beautiful","I build something","I stay here"],ans:"I find it beautiful",hint:"Trouver can express an opinion: 'I find that...'"},
+        {type:"mc",q:"'Je trouve que c'est beau' means:",opts:["I look for something beautiful","I find it beautiful","I build something","I stay here"],ans:"I find it beautiful",hint:"Trouver can express an opinion: 'I … that...'"},
         {type:"fb",opts:["reste","restes","restez","restent"],hint:"We stay: nous form. But this is the je/il form of rester.",s:"Je {1} ici jusqu'a midi. (to stay)",a:"reste"},
         {type:"match",pairs:[{trg:"partir",src:"to leave"},{trg:"entrer",src:"to enter"},{trg:"sortir",src:"to go out"},{trg:"rester",src:"to stay"}]},
         {type:"mc",q:"'Demander' is a false friend because it means:",opts:["To demand (firmly)","To demonstrate","To ask (politely)","To destroy"],ans:"To ask (politely)",hint:"This -er verb is softer than the English word it resembles."},

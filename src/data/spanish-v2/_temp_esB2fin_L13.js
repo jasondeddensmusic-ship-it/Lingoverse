@@ -27,7 +27,7 @@ const LESSON_13 = {
     {type:"mc", q:"\u00bfQu\u00e9 significa 'defender una postura'?",
      opts:["Cambiar de opini\u00f3n","Rechazar una idea","Argumentar a favor de una posici\u00f3n","Analizar los datos"],
      ans:"Argumentar a favor de una posici\u00f3n",
-     hint:"This verb means to support and argue in favor of something, not against it."},
+     hint:"This verb means to support and argue in … of something, not against it."},
 
     {type:"teach", trg:"la soluci\u00f3n", src:"the solution", pos:"noun", gender:"f",
      note:"A way of resolving a problem or difficulty.",

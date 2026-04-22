@@ -159,7 +159,7 @@ lessons:[
 {type:"mc", q:"下课(xià kè) means:",
  opts:["Go to class","Class is over","Skip class","Good class"],
  ans:"Class is over",
- hint:"下 means 'down' or 'exit from.' Combined with class, it signals the end of the activity."},
+ hint:"下 means 'down' or 'exit from.' Combined with …, it signals the end of the activity."},
 
 {type:"fb", s:"{1}好(hǎo)！今天(jīntiān)我们(wǒmen)学习(xuéxí)中文(zhōngwén)。",
  a:["老师(lǎoshī)"],

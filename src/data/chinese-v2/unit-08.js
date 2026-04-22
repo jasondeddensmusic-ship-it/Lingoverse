@@ -350,7 +350,7 @@ lessons:[
 {type:"mc", q:"颜色(yánsè) means:",
  opts:["music","color","sound","hotel"],
  ans:"color",
- hint:"颜色 is the word used when asking 'what color is it?' or describing the hue of an object."},
+ hint:"颜色 is the word used when asking 'what … is it?' or describing the hue of an object."},
 
 {type:"mc", q:"Which sentence uses 告诉(gàosu) correctly?",
  opts:["我(wǒ)告诉(gàosu)你(nǐ)的(de)颜色(yánsè)。","他(tā)告诉(gàosu)我(wǒ)宾馆(bīnguǎn)在(zài)右边(yòubiān)。","告诉(gàosu)很(hěn)贵(guì)。","我(wǒ)告诉(gàosu)颜色(yánsè)是(shì)蓝色(lánsè)。"],

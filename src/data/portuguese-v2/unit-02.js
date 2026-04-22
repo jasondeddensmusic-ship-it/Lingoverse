@@ -57,7 +57,7 @@ const UNIT_02 = {n:2,lang:"pt",srcLang:"en",track:"v2",title:"Quantos anos você
     {type:"fb",opts:["ano","anos","idade","idades"],hint:"Plural of the word for year, used with numbers above one.",s:"Ele tem dez {1}.",sSrc:"He is ten years old.",a:"anos"},
     {type:"match",pairs:[{trg:"ter",src:"to have"},{trg:"tenho",src:"I have"},{trg:"ano",src:"year"},{trg:"idade",src:"age"},{trg:"quantos",src:"how many (m)"},{trg:"quantas",src:"how many (f)"}]},
     {type:"mc",q:"Which sentence asks 'How old is she?' correctly?",opts:["Ela é quantos anos?","Quantos anos ela tem?","Ela está anos?","Quantos ela anos?"],ans:"Quantos anos ela tem?",hint:"Use ___ plus ___ plus a form of ter."},
-    {type:"mc",q:"'Minha idade' means:",opts:["my year","my age","my number","my name"],ans:"my age",hint:"Idade is the feminine noun for the concept of age itself."}
+    {type:"mc",q:"'Minha idade' means:",opts:["my year","my age","my number","my name"],ans:"my age",hint:"Idade is the feminine noun for the concept of … itself."}
   ]}
   ,{id:"ptv2_u2l_form",title:"Preencher um formulário",icon:"📝",xp:15,board:true,steps:[
     {type:"intro",title:"Filling Out Forms",desc:"Learn to read and fill out basic forms in Brazilian Portuguese: name, address, phone, email. Essential for hotel check-in, CAPLE exams, and official documents.",goals:["Read basic form fields","Fill in personal details","Write a simple formal message greeting"]},
