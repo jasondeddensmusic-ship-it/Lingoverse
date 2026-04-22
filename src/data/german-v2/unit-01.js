@@ -79,7 +79,7 @@ const UNIT_1 =
 {type:"teach",trg:"Deutschland",src:"Germany",pos:"noun",gender:"n",note:"COMPOUND: Deutsch (German) + Land (land).\nNeuter noun: das Deutschland. No plural needed.",example:"A: Wo sind wir?\nB: Wir sind in Deutschland!",exampleSrc:"A: Where are we?\nB: We are in Germany!",funFact:"Every language has a different name for Germany. French: Allemagne. Italian: Germania. Finnish: Saksa. Polish: Niemcy. The Germans call themselves 'Deutsche' from an old word meaning 'the people.'"},
 {type:"mc",q:"Verumius says 'Ich komme aus Italien.' Where is he from?",opts:["Germany","Italy","France","Spain"],ans:"Italy",hint:"'Italien' sounds very similar to its English equivalent."}
 ,
-{"type":"mc","q":"Was bedeutet 'vielleicht'?","opts":["maybe","always","never","already"],"ans":"maybe","hint":"Think of uncertainty, not commitment."}]},
+{"type":"mc","q":"Was bedeutet 'vielleicht'?","opts":["never","already","maybe","always"],"ans":"maybe","hint":"Think of uncertainty, not commitment."}]},
 {id:"deu_r01l3b",title:"Erste Sätze (Teil 2)",icon:"💬",xp:15,board:true,steps:[
 {type:"intro",title:"Erste Sätze (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"Ich verstehe nicht",src:"I don't understand",pos:"verb",gender:null,note:"'Verstehen' = to understand. 'Nicht' = not.",example:"A: Der Zug fährt von Gleis siebzehn.\nB: Entschuldigung, ich verstehe nicht.",exampleSrc:"A: The train departs from platform seventeen.\nB: Excuse me, I don't understand.",funFact:"You'll use this phrase a LOT as a beginner. 'Verstehen' literally means 'to stand before' something, as if standing in front of an idea until you grasp it."},
@@ -393,7 +393,7 @@ const UNIT_1 =
 {type:"match",pairs:[{trg:"elf",src:"11"},{trg:"vierzehn",src:"14"},{trg:"neunzehn",src:"19"},{trg:"sechs",src:"6"},{trg:"zw\u00f6lf",src:"12"}]},
 {type:"mc",q:"Welche Zahl ist 'vier + zehn'?",opts:["f\u00fcnfzehn","dreizehn","vierzehn","sechzehn"],ans:"vierzehn",hint:"Add the root number directly to zehn."}
 ,
-{"type":"mc","q":"Was bedeutet 'zwei'?","opts":["two","three","twelve","twenty"],"ans":"two","hint":"This is one of the first numbers you learn."},
+{"type":"mc","q":"Was bedeutet 'zwei'?","opts":["three","twelve","twenty","two"],"ans":"two","hint":"This is one of the first numbers you learn."},
 {"type":"fb","s":"Ist dein Ticket noch {1}?","a":["gültig"],"opts":["gültig","schnell","gut","schlecht"],"hint":"Describes whether a document is still accepted.","sSrc":"Is your ticket still valid?"}]},
 
 {id:"deu_r01l14",title:"Unsere Welt",icon:"\u{1F30D}",xp:15,board:true,steps:[
@@ -441,7 +441,7 @@ const UNIT_1 =
 {type:"teach",trg:"entschuldigen",src:"to excuse",pos:"verb",gender:null,note:"Regular verb. Entschuldigen Sie! = Excuse me! (formal). Entschuldigung! = Sorry!",example:"A: Entschuldigen Sie, wo ist der Zoll?\nB: Der Zoll ist dort dr\u00fcben.",exampleSrc:"A: Excuse me, where is customs?\nB: Customs is over there.",funFact:"Ent- (un-) + Schuld (guilt) + -igen = to un-guilt someone. Literally: to remove guilt."},
 {type:"fb",s:"Was {1} 'Flughafen' auf Englisch?",a:["bedeutet"],opts:["bedeutet","buchstabiert","dankt","antwortet"],hint:"Which verb is used to ask for the meaning of a word?",sSrc:"What does 'Flughafen' mean in English?"}
 ,
-{"type":"mc","q":"Was bedeutet 'entschuldigen'?","opts":["to excuse","to understand","to explain","to forget"],"ans":"to excuse","hint":"What you say when you bump into someone."}]},
+{"type":"mc","q":"Was bedeutet 'entschuldigen'?","opts":["to forget","to excuse","to understand","to explain"],"ans":"to excuse","hint":"What you say when you bump into someone."}]},
 {id:"deu_r01l15b",title:"Am Flughafen (Teil 2)",icon:"\u2708\uFE0F",xp:15,board:true,steps:[
 {type:"intro",title:"Am Flughafen (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"finden",src:"to find",pos:"verb",gender:null,note:"Irregular verb. Ich finde, du findest. Past: ich fand.",example:"A: Findest du den Koffer?\nB: Ja, ich finde ihn!",exampleSrc:"A: Can you find the suitcase?\nB: Yes, I found it!",funFact:"Ich finde das gut means 'I think that is good.' Finden is also used for opinions."},

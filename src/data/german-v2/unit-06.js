@@ -87,7 +87,7 @@ const UNIT_6 =
 {type:"fb",s:"Ich wohne {1} drei Wochen in Berlin.",a:["seit"],opts:["seit","vor","nach","um"],hint:"Which preposition means 'for' with a continuing duration?",sSrc:"I have been living in Berlin for three weeks."},
 {type:"mc",q:"Shops are closed on ___ in Germany.",opts:["Samstag","Freitag","Sonntag","Mittwoch"],ans:"Sonntag",hint:"The Sunday rest is law."}
 ,
-{"type":"mc","q":"Welcher Tag ist 'Dienstag'?","opts":["Tuesday","Monday","Wednesday","Thursday"],"ans":"Tuesday","hint":"The second working day of the week."}]},
+{"type":"mc","q":"Welcher Tag ist 'Dienstag'?","opts":["Monday","Wednesday","Thursday","Tuesday"],"ans":"Tuesday","hint":"The second working day of the week."}]},
 
 // ─── L4: Juli bis Dezember ───
 {id:"deu_r6l4",title:"Juli bis Dezember",icon:"🌦️",xp:15,board:true,steps:[
@@ -341,7 +341,7 @@ const UNIT_6 =
 {type:"teach",trg:"der Bogen",src:"the sheet (of paper)/form",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Bögen or die Bogen.",example:"A: Ich brauche einen Bogen Papier.\nB: Hier, nimm diesen Bogen.",exampleSrc:"A: I need a sheet of paper.\nB: Here, take this sheet.",funFact:"Bogen also means bow or arch. The Regenbogen (rainbow) is literally a rain arch."},
 {type:"fb",s:"Ich habe einen {1} gemacht. Die Antwort war falsch.",a:["Fehler"],opts:["Fehler","Lösung","Ergebnis","Bogen"],hint:"A mistake. Something incorrect.",sSrc:"I made a mistake. The answer was wrong."}
 ,
-{"type":"mc","q":"Was ist 'die Aussage'?","opts":["the statement","the question","the answer","the warning"],"ans":"the statement","hint":"A declaration or claim someone makes."},
+{"type":"mc","q":"Was ist 'die Aussage'?","opts":["the warning","the statement","the question","the answer"],"ans":"the statement","hint":"A declaration or claim someone makes."},
 {"type":"fb","s":"Schau dir das {1} an!","a":["Bild"],"opts":["Bild","Buch","Lied","Wort"],"hint":"A visual representation, a photo or painting.","sSrc":"Look at the picture!"}]},
 {id:"deu_r6l14b",title:"Stift und Papier (Teil 2)",icon:"✏️",xp:15,board:true,steps:[
 {type:"intro",title:"Stift und Papier (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
@@ -380,7 +380,7 @@ const UNIT_6 =
 {type:"teach",trg:"der Drucker",src:"the printer",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Drucker. From drucken (to print).",example:"A: Funktioniert der Drucker?\nB: Nein, der Drucker ist kaputt.",exampleSrc:"A: Does the printer work?\nB: No, the printer is broken.",funFact:"Drucker also means printer as a profession. Johannes Gutenberg was the most famous Drucker in history."},
 {type:"fb",s:"Am Telefon sagt man zum Abschied: Auf {1}!",a:["Wiederhören"],opts:["Wiederhören","Wiedersehen","Morgen","Abend"],hint:"On the phone you say goodbye with hearing, not seeing.",sSrc:"On the phone one says goodbye: Auf Wiederhören!"}
 ,
-{"type":"mc","q":"Was ist 'die CD'?","opts":["the CD","the DVD","the USB","the radio"],"ans":"the CD","hint":"A round disc for storing music or data."}]},
+{"type":"mc","q":"Was ist 'die CD'?","opts":["the radio","the CD","the DVD","the USB"],"ans":"the CD","hint":"A round disc for storing music or data."}]},
 {id:"deu_r6l15b",title:"Am Telefon (Teil 2)",icon:"📱",xp:15,board:true,steps:[
 {type:"intro",title:"Am Telefon (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"das Internet",src:"the internet",pos:"noun",gender:"n",note:"Neuter noun. No plural. Always with article: das Internet.",example:"A: Hast du Internet zu Hause?\nB: Ja, aber es ist langsam.",exampleSrc:"A: Do you have internet at home?\nB: Yes, but it is slow.",funFact:"Germany is often teased for slow Internet. The country has been working to expand fiber optic networks."},
@@ -456,7 +456,7 @@ const UNIT_6 =
 {type:"teach",trg:"die Hochzeit",src:"the wedding",pos:"noun",gender:"f",note:"COMPOUND: Hoch (high) + Zeit (time).\nFeminine noun. Plural: die Hochzeiten. Literally: high time.",example:"A: Wann ist die Hochzeit?\nB: Im Juni. Die Feier ist im Garten.",exampleSrc:"A: When is the wedding?\nB: In June. The celebration is in the garden.",funFact:"Hochzeit literally means 'high time' or 'best time.' A Hochzeitstorte (wedding cake) is often multi-layered."},
 {type:"mc",q:"Was sagt man, wenn jemand Geburtstag hat?",opts:["Viel Glück!","Herzlichen Glückwunsch!","Guten Appetit!","Gute Nacht!"],ans:"Herzlichen Glückwunsch!",hint:"The standard birthday congratulation phrase in German."}
 ,
-{"type":"mc","q":"Was ist 'die Pause'?","opts":["the break","the lesson","the meeting","the speech"],"ans":"the break","hint":"A short rest between activities."}]},
+{"type":"mc","q":"Was ist 'die Pause'?","opts":["the meeting","the speech","the break","the lesson"],"ans":"the break","hint":"A short rest between activities."}]},
 {id:"deu_r6l17b",title:"Zeit und Feste (Teil 2)",icon:"🎊",xp:15,board:true,steps:[
 {type:"intro",title:"Zeit und Feste (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"der Verein",src:"the club / association",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Vereine. Central to German social life.",example:"A: Bist du in einem Verein?\nB: Ja, ich bin im Sportverein.",exampleSrc:"A: Are you in a club?\nB: Yes, I'm in the sports club.",funFact:"Germany has over 600,000 Vereine. There is a saying: Drei Deutsche, ein Verein (three Germans, one club)."},

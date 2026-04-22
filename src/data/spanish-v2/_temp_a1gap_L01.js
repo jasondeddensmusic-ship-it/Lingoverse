@@ -99,7 +99,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"\u00bfCuál es la forma femenina de 'actor'?",
-     opts:["la actriz","la actriz","la actora","la actora"],
+     opts:["la actora","la actriz","la actriz","la actora"],
      ans:"la actriz",
      hint:"Spanish uses an irregular Latin suffix for this feminine form, not the usual -a ending."},
 

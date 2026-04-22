@@ -202,9 +202,9 @@ const UNIT_9 =
 {type:"teach",trg:"ausleihen", pos:"verb", gender:null,src:"to borrow / to lend out",note:"Separable: ich leihe aus. Perfekt: hat ausgeliehen. In der Bibliothek Bücher ausleihen.",example:"A: Kann ich das Buch ausleihen?\nB: Ja, du kannst es zwei Wochen behalten.\nA: Danke! Ich bringe es pünktlich zurück.",exampleSrc:"A: Can I borrow the book?\nB: Yes, you can keep it for two weeks.\nA: Thanks! I'll bring it back on time.",funFact:"German libraries are very popular. Over 200 million items are borrowed per year. Many now also lend e-books, video games, and even kitchen appliances."},
 
 {"type":"mc","q":"Was ist 'der Fotoapparat'?","opts":["the camera (old style)","the telephone","the television","the radio"],"ans":"the camera (old style)","hint":"An older device used to take photographs."},
-{"type":"mc","q":"Was ist 'die Kamera'?","opts":["the camera","the lamp","the clock","the screen"],"ans":"the camera","hint":"A modern device for taking photos or video."},
+{"type":"mc","q":"Was ist 'die Kamera'?","opts":["the screen","the camera","the lamp","the clock"],"ans":"the camera","hint":"A modern device for taking photos or video."},
 {"type":"fb","s":"Ich lese gern ein gutes {1}.","a":["Buch"],"opts":["Buch","Film","Lied","Spiel"],"hint":"Pages bound together with a story inside.","sSrc":"I like reading a good book."},
-{"type":"mc","q":"Was bedeutet 'ausleihen'?","opts":["to borrow","to buy","to sell","to return"],"ans":"to borrow","hint":"Taking something temporarily with a plan to give it back."}]}
+{"type":"mc","q":"Was bedeutet 'ausleihen'?","opts":["to sell","to return","to borrow","to buy"],"ans":"to borrow","hint":"Taking something temporarily with a plan to give it back."}]}
 ,
 
 // U9 L6: Nach dem Lauf - Story climax (post-run park scene)
