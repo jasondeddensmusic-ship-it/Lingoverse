@@ -7,6 +7,7 @@ import BATCH5_L01 from './_batch5_u28_L01.js';
 import BATCH3_L02 from './_batch3_u28_L02.js';
 import BATCH3_L01 from './_batch3_u28_L01.js';
 import EXP_L4 from './_temp_u28_expand_L01.js';import EXP_L5 from './_temp_u28_expand_L02.js';import EXP_L6 from './_temp_u28_expand_L03.js';
+import COVERAGE_U28 from './_coverage_u28.js';
 // CILS B2 aligned. Literature, narrative forms, and literary analysis vocabulary.
 
 const UNIT_28 = {
@@ -413,7 +414,7 @@ const UNIT_28 = {
   EXP_L4,
   EXP_L5,
   EXP_L6
-]
+, COVERAGE_U28]
 };
 
 export default UNIT_28;

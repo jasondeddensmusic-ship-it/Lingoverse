@@ -4,5 +4,6 @@ import L17 from './_temp_b2g8_L17.js';
 import L18 from './_temp_b2g8_L18.js';
 import L19 from './_temp_b2g8_L19.js';
 import L20 from './_temp_b2g8_L20.js';
-const UNIT_70 = { n:70, lang:"es", srcLang:"en", track:"v2", title:"B2 Batch 8 4", sub:"B2 Vocabulary", icon:"🎓", level:"B2.2", color:"#5B8DEF", lessons:[L16, L17, L18, L19, L20]};
+import COVERAGE_U70 from './_coverage_u70.js';
+const UNIT_70 = { n:70, lang:"es", srcLang:"en", track:"v2", title:"B2 Batch 8 4", sub:"B2 Vocabulary", icon:"🎓", level:"B2.2", color:"#5B8DEF", lessons:[L16, L17, L18, L19, L20, COVERAGE_U70]};
 export default UNIT_70;

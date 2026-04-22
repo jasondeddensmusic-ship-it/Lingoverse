@@ -9,6 +9,7 @@ import BATCH2_L01 from './_batch2_u02_L01.js';
 // CILS/CELI A1 aligned.
 import EXP_02_L1 from './_temp_u02_expand_L01.js';import EXP_02_L2 from './_temp_u02_expand_L02.js';import EXP_02_L3 from './_temp_u02_expand_L03.js';
 
+import COVERAGE_U02 from './_coverage_u02.js';
 const UNIT_02 = {
   n:2, lang:"it", srcLang:"en", track:"v2",
   title:"Che ore sono?", sub:"Numbers, Days & Time",
@@ -463,7 +464,7 @@ const UNIT_02 = {
   BATCH4_L01,
   BATCH2_L02,
   BATCH2_L01
-]
+, COVERAGE_U02]
 };
 
 export default UNIT_02;

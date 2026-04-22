@@ -1,6 +1,8 @@
 // Unit 28 — Convaincre et Argumenter
 // Essay structure and persuasion
 
+import COVERAGE_U28 from './_coverage_u28.js';
+
 export default {n:28,lang:"fr",srcLang:"en",track:"v2",title:"Convaincre et Argumenter",sub:"Essay structure and persuasion",icon:"💬",level:"B2.4",color:"#7B5EE8",lessons:[
   {id:"fre28l1",title:"Structurer ses idées",icon:"📋",xp:15,board:true,steps:[
         {type:"intro",title:"Structurer ses idées",desc:"Learn the essential sequencing markers that give your writing and speech a clear, logical flow.",goals:["Use d'abord, ensuite, puis, enfin","Structure a sequence of arguments","Recognize formal ordering markers"]},
@@ -235,4 +237,4 @@ export default {n:28,lang:"fr",srcLang:"en",track:"v2",title:"Convaincre et Argu
           {trg:"l'émotion",src:"emotion / feeling"}
         ]}
   ]}
-]};
+, COVERAGE_U28]};

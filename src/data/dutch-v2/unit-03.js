@@ -1,6 +1,8 @@
 // Unit 3 — Numbers & Time
 // Counting, Clock & Days
 
+import COVERAGE_U03 from './_coverage_u03.js';
+
 export default {n:3,lang:"nl",srcLang:"en",track:"v2",title:"Numbers & Time",sub:"Counting, Clock & Days",icon:"🔢",level:"A1.1",color:"#7B5EE8",lessons:[
   {id:"v2u3l1",title:"Numbers 11–100",icon:"🔢",xp:15,board:true,steps:[
         {type:"intro",title:"Numbers 11–100",desc:"Dutch numbers follow clear patterns. Above twenty, digits REVERSE: 'eenentwintig' = one-and-twenty.",goals:["Count the teens (11–19)","Learn the reversed digit order (20+)","Count by tens to 100","Spot the one irregular ten"]},
@@ -282,4 +284,4 @@ export default {n:3,lang:"nl",srcLang:"en",track:"v2",title:"Numbers & Time",sub
         {type:"match",pairs:[{trg:"de leeftijd",src:"the age"},{trg:"het plan",src:"the plan"},{trg:"het idee",src:"the idea"},{trg:"plannen maken",src:"to make plans"}]},
         {type:"fb",opts:["leeftijd","plan","idee","keuze"],hint:"Asking about age: 'Wat is je ___?'",s:"Op mijn ___ ga ik niet meer hardlopen.",a:"leeftijd"}
   ]}
-]};
+, COVERAGE_U03]};

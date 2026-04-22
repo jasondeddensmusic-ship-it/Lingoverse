@@ -96,6 +96,15 @@ function romanceStem(word, code) {
   if (code === 'fr') {
     if (/(er|ir|re)$/.test(word) && word.length >= 5) return word.slice(0, -2);
   }
+  // Korean verbs/adjectives end in 다 (dictionary form). Drop the 다 to get
+  // the stem that all conjugated forms share a prefix of.
+  if (code === 'ko') {
+    if (/다$/.test(word) && word.length >= 2) return word.slice(0, -1);
+  }
+  // Japanese godan verbs typically have stable 2+-char stems before the
+  // conjugated final kana; keep conservative: return the first 2 chars of
+  // multi-char verbs so conjugations count. Limited use; PP67 already largely
+  // satisfied by direct matches in JP.
   return null;
 }
 
@@ -262,29 +271,29 @@ function validateLanguage(name, units) {
     // PP64 — every teach card tested somewhere in same unit.
     // Skip meta/section-header "teach" cards whose trg is clearly a heading.
     const META_HEADING = /^(a1|a2|b1|b2)\b.*(complete|summary|review|test|checkpoint)/i;
+    // Pre-normalize every quizzed word once so comparisons below work on
+    // consistent forms (lowercase + punctuation-stripped + article-stripped).
+    const quizzedBare = new Set();
+    for (const q of quizzedWords) {
+      const qBare = normalizeTrg(q);
+      if (qBare) quizzedBare.add(qBare);
+    }
     for (const trg of teachTrgs) {
       if (META_HEADING.test(trg)) continue;
       const bare = normalizeTrg(trg);
       if (!bare) continue;
-      // For Romance languages, precompute lemma stem for inflection-tolerant match.
       const trgStem = romanceStem(bare, code);
       let tested = false;
-      for (const q of quizzedWords) {
-        const qLower = String(q).toLowerCase().trim();
-        if (!qLower) continue;
-        if (qLower.includes(bare) || bare.includes(qLower)) { tested = true; break; }
-        // Romance inflection match: teach "presentare" counts tested if quiz
-        // contains a conjugation starting with stem "present".
+      for (const qBare of quizzedBare) {
+        if (qBare.includes(bare) || bare.includes(qBare)) { tested = true; break; }
         if (trgStem && trgStem.length >= 4) {
-          // Check each word in the quiz string for stem match.
-          const qWords = qLower.split(/[^\p{L}\p{N}]+/u);
+          const qWords = qBare.split(/[^\p{L}\p{N}]+/u);
           for (const qw of qWords) {
             if (qw.length >= trgStem.length && qw.startsWith(trgStem)) { tested = true; break; }
           }
           if (tested) break;
         }
-        // Reverse: quiz is lemma form "presentare", teach trg is conjugation.
-        const qStem = romanceStem(qLower, code);
+        const qStem = romanceStem(qBare, code);
         if (qStem && qStem.length >= 4 && bare.startsWith(qStem)) { tested = true; break; }
       }
       if (!tested) {

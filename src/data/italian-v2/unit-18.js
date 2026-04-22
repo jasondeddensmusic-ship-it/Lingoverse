@@ -7,6 +7,7 @@ import BATCH5_L01 from './_batch5_u18_L01.js';
 import BATCH2_L02 from './_batch2_u18_L02.js';
 import BATCH2_L01 from './_batch2_u18_L01.js';
 import EXP_L4 from './_temp_u18_expand_L01.js';import EXP_L5 from './_temp_u18_expand_L02.js';import EXP_L6 from './_temp_u18_expand_L03.js';
+import COVERAGE_U18 from './_coverage_u18.js';
 // CILS/CELI B1 aligned. Environment, climate change, sustainability vocabulary.
 
 const UNIT_18 = {
@@ -336,6 +337,6 @@ const UNIT_18 = {
   EXP_L4,
   EXP_L5,
   EXP_L6
-]
+, COVERAGE_U18]
 };
 export default UNIT_18;

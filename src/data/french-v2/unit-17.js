@@ -1,6 +1,8 @@
 // Unit 17 — Le subjonctif
 // Subjunctive: Wishes & Necessity
 
+import COVERAGE_U17 from './_coverage_u17.js';
+
 export default {n:17,lang:"fr",srcLang:"en",track:"v2",title:"Le subjonctif",sub:"Subjunctive: Wishes & Necessity",icon:"🌀",level:"B1.1",color:"#7B5EE8",lessons:[
   {id:"fre17l1",title:"Qu'est-ce que le subjonctif?",icon:"❓",xp:15,board:true,steps:[
         {type:"intro",title:"Introducing the subjunctive",desc:"The subjunctive is a verb MOOD (not a tense). It's used after expressions of necessity, desire, emotion, and doubt. It follows 'que' and expresses things that aren't factual.",goals:["Understand what the subjunctive is","Know when it's triggered","Learn the most common triggers"]},
@@ -228,4 +230,4 @@ export default {n:17,lang:"fr",srcLang:"en",track:"v2",title:"Le subjonctif",sub
     {type:"fb",opts:["pauvreté","justice","débat","citoyen"],hint:"The -té suffix. The state of being poor. A DELF B1 essay topic.",s:"Le gouvernement lutte contre la {1} dans le pays.",a:["pauvreté"]},
     {type:"match",pairs:[{trg:"le gouvernement",src:"government"},{trg:"la justice",src:"justice"},{trg:"le citoyen",src:"citizen"},{trg:"la réforme",src:"reform"},{trg:"la fraternité",src:"brotherhood / solidarity"},{trg:"la pauvreté",src:"poverty"}]}
   ]}
-]};
+, COVERAGE_U17]};

@@ -7,6 +7,7 @@ import BATCH5_L01 from './_batch5_u20_L01.js';
 import BATCH3_L02 from './_batch3_u20_L02.js';
 import BATCH3_L01 from './_batch3_u20_L01.js';
 import EXP_L4 from './_temp_u20_expand_L01.js';import EXP_L5 from './_temp_u20_expand_L02.js';import EXP_L6 from './_temp_u20_expand_L03.js';
+import COVERAGE_U20 from './_coverage_u20.js';
 // CILS/CELI B1 aligned. School system, university, academic vocabulary.
 
 const UNIT_20 = {
@@ -318,6 +319,6 @@ const UNIT_20 = {
   EXP_L4,
   EXP_L5,
   EXP_L6
-]
+, COVERAGE_U20]
 };
 export default UNIT_20;

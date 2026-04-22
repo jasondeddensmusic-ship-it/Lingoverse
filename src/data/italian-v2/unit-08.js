@@ -9,6 +9,7 @@ import BATCH3_L01 from './_batch3_u08_L01.js';
 // CILS/CELI A2 aligned. Clothing, shopping vocabulary, colors and patterns.
 import EXP_08_L1 from './_temp_u08_expand_L01.js';import EXP_08_L2 from './_temp_u08_expand_L02.js';import EXP_08_L3 from './_temp_u08_expand_L03.js';
 
+import COVERAGE_U08 from './_coverage_u08.js';
 const UNIT_08 = {
   n:8, lang:"it", srcLang:"en", track:"v2",
   title:"Lo shopping", sub:"Shopping & Clothes",
@@ -322,6 +323,6 @@ const UNIT_08 = {
   BATCH4_L01,
   BATCH3_L02,
   BATCH3_L01
-]
+, COVERAGE_U08]
 };
 export default UNIT_08;

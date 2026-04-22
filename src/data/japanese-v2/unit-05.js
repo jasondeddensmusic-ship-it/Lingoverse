@@ -10,6 +10,7 @@ import BATCH4_L01 from './_batch4_u05_L01.js';
 import BATCH3_L1 from './_batch3_u05_L01.js';
 // Level: A1.2. JLPT N5 aligned.
 import JEXP_05_L1 from './_temp_u05_expand_L01.js';import JEXP_05_L2 from './_temp_u05_expand_L02.js';import JEXP_05_L3 from './_temp_u05_expand_L03.js';
+import COVERAGE_U05 from './_coverage_u05.js';
 // Food vocabulary, drinks, eating verbs, taste adjectives, suki/kirai.
 
 const UNIT_05 = {
@@ -229,5 +230,5 @@ const UNIT_05 = {
   JEXP_05_L1,
   JEXP_05_L2,
   JEXP_05_L3
-]};
+, COVERAGE_U05]};
 export default UNIT_05;

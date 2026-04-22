@@ -10,6 +10,7 @@ import BATCH4_L01 from './_batch4_u13_L01.js';
 import BATCH2_L1 from './_batch2_u13_L01.js';
 // Level: A2.1. JLPT N4 aligned.
 import JEXP_13_L1 from './_temp_u13_expand_L01.js';import JEXP_13_L2 from './_temp_u13_expand_L02.js';import JEXP_13_L3 from './_temp_u13_expand_L03.js';
+import COVERAGE_U13 from './_coverage_u13.js';
 // たことがある, ことがない, travel vocabulary.
 
 const UNIT_13 = {
@@ -434,5 +435,5 @@ const UNIT_13 = {
   JEXP_13_L1,
   JEXP_13_L2,
   JEXP_13_L3
-]};
+, COVERAGE_U13]};
 export default UNIT_13;

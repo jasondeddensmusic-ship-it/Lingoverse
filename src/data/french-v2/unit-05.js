@@ -1,6 +1,8 @@
 // Unit 5 — La routine quotidienne
 // Daily Routine, Time & -er Verbs
 
+import COVERAGE_U05 from './_coverage_u05.js';
+
 export default {n:5,lang:"fr",srcLang:"en",track:"v2",title:"La routine quotidienne",sub:"Daily Routine, Time & -er Verbs",icon:"⏰",level:"A1.2",color:"#7B5EE8",lessons:[
   {id:"fre5l1",title:"Les verbes en -er",icon:"📝",xp:15,board:true,steps:[
         {type:"intro",title:"Les verbes en -er",desc:"About 90% of French verbs follow the -er pattern. Learn this ONE pattern and you unlock hundreds of verbs. Parler was the preview. Now master the full system.",goals:["Conjugate -er verbs in all 6 persons","Recognize the silent endings","Apply the pattern to new verbs"]},
@@ -243,4 +245,4 @@ export default {n:5,lang:"fr",srcLang:"en",track:"v2",title:"La routine quotidie
         {type:"mc",q:"'Prendre le petit déjeuner' means:",opts:["To take breakfast away","To have breakfast","To make breakfast","To skip breakfast"],ans:"To have breakfast",hint:"Prendre = to take/have. Used for meals."},
         {type:"fb",opts:["puis","enfin","avant","d'abord"],hint:"First I wake up, THEN I get up. The second sequencer.",s:"D'abord je me réveille, {1} je me lève.",a:"puis"}
   ,{type:"match",pairs:[{trg:"le week-end",src:"the weekend"},{trg:"de ... à ...",src:"from ... to ..."},{trg:"novembre",src:"November"}]}]}
-]};
+, COVERAGE_U05]};

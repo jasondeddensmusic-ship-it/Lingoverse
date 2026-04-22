@@ -10,6 +10,7 @@ import BATCH5_L01 from './_batch5_u29_L01.js';
 import BATCH2_L04 from './_batch2_u29_L04.js';
 import BATCH2_L03 from './_batch2_u29_L03.js';
 import EXP_L3 from './_temp_u29_expand_L01.js';import EXP_L4 from './_temp_u29_expand_L02.js';import EXP_L5 from './_temp_u29_expand_L03.js';
+import COVERAGE_U29 from './_coverage_u29.js';
 // Level: B2.2. JLPT N2 aligned.
 // 景気, インフレ, 株式, 輸入, 輸出, 市場, 投資.
 
@@ -157,5 +158,5 @@ const UNIT_29 = {
 ,BATCH9_L1
 ,BATCH10_L1
 ,BATCH11_L1
-]};
+, COVERAGE_U29]};
 export default UNIT_29;

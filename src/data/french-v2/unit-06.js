@@ -1,6 +1,8 @@
 // Unit 6 — La maison
 // Home & Rooms
 
+import COVERAGE_U06 from './_coverage_u06.js';
+
 export default {n:6,lang:"fr",srcLang:"en",track:"v2",title:"La maison",sub:"Home & Rooms",icon:"🏠",level:"A1.3",color:"#7B5EE8",lessons:[
   {id:"fre6l1",title:"Les pièces",icon:"🚪",xp:15,board:true,steps:[
         {type:"intro",title:"Les pièces de la maison",desc:"Learn the rooms of a French home. Every room has a gender: le or la. Pay attention to articles from day one.",goals:["Name 8 rooms in French","Use correct articles (le/la)","Describe where things happen in a home"]},
@@ -188,4 +190,4 @@ export default {n:6,lang:"fr",srcLang:"en",track:"v2",title:"La maison",sub:"Hom
         {type:"mc",q:"'Je cherche un T3' means I'm looking for:",opts:["A three-floor house","Three apartments","A three-room apartment","A third-floor studio"],ans:"A three-room apartment",hint:"T + number = number of main ___s in French housing."},
         {type:"fb",opts:["derrière","dans","sur","chez"],hint:"The garden is BEHIND the house. At the back.",s:"Le jardin est {1} la maison.",a:"derrière"}
   ,{type:"match",pairs:[{trg:"petit",src:"small / little"},{trg:"une pièce",src:"a room"}]}]}
-]};
+, COVERAGE_U06]};

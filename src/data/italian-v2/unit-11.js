@@ -9,6 +9,7 @@ import BATCH3_L01 from './_batch3_u11_L01.js';
 // CILS/CELI A2 aligned. Passato prossimo with avere, irregular participles, time expressions.
 import EXP_11_L1 from './_temp_u11_expand_L01.js';import EXP_11_L2 from './_temp_u11_expand_L02.js';import EXP_11_L3 from './_temp_u11_expand_L03.js';
 
+import COVERAGE_U11 from './_coverage_u11.js';
 const UNIT_11 = {
   n:11, lang:"it", srcLang:"en", track:"v2",
   title:"Il passato", sub:"Past Tense Introduction",
@@ -408,6 +409,6 @@ const UNIT_11 = {
   BATCH4_L01,
   BATCH3_L02,
   BATCH3_L01
-]
+, COVERAGE_U11]
 };
 export default UNIT_11;

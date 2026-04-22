@@ -9,6 +9,7 @@ import BATCH2_L01 from './_batch2_u05_L01.js';
 // CILS/CELI A1 aligned. Rooms, furniture, location expressions.
 import EXP_05_L1 from './_temp_u05_expand_L01.js';import EXP_05_L2 from './_temp_u05_expand_L02.js';import EXP_05_L3 from './_temp_u05_expand_L03.js';
 
+import COVERAGE_U05 from './_coverage_u05.js';
 const UNIT_05 = {
   n:5, lang:"it", srcLang:"en", track:"v2",
   title:"A casa", sub:"At Home",
@@ -397,6 +398,6 @@ const UNIT_05 = {
   BATCH4_L01,
   BATCH2_L02,
   BATCH2_L01
-]
+, COVERAGE_U05]
 };
 export default UNIT_05;

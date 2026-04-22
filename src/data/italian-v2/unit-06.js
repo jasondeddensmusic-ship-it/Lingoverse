@@ -9,6 +9,7 @@ import BATCH2_L01 from './_batch2_u06_L01.js';
 // CILS/CELI A1 aligned. Places, directions, transport.
 import EXP_06_L1 from './_temp_u06_expand_L01.js';import EXP_06_L2 from './_temp_u06_expand_L02.js';import EXP_06_L3 from './_temp_u06_expand_L03.js';
 
+import COVERAGE_U06 from './_coverage_u06.js';
 const UNIT_06 = {
   n:6, lang:"it", srcLang:"en", track:"v2",
   title:"In citta", sub:"In the City",
@@ -573,6 +574,6 @@ const UNIT_06 = {
   BATCH4_L01,
   BATCH2_L02,
   BATCH2_L01
-]
+, COVERAGE_U06]
 };
 export default UNIT_06;

@@ -1,6 +1,8 @@
 // Unit 2 — Je me présente
 // Identity, Numbers & Core Verbs
 
+import COVERAGE_U02 from './_coverage_u02.js';
+
 export default {n:2,lang:"fr",srcLang:"en",track:"v2",title:"Je me présente",sub:"Identity, Numbers & Core Verbs",icon:"🪪",level:"A1.1",color:"#7B5EE8",lessons:[
   {id:"fre2l1",title:"Les nationalités",icon:"🌍",xp:15,board:true,steps:[
         {type:"intro",title:"Les nationalités",desc:"Learn to say where you are from and ask others. French nationalities change form based on gender: the Agreement Web at work.",goals:["Say your nationality","Ask where someone is from","Understand masculine/feminine nationality forms"]},
@@ -202,4 +204,4 @@ export default {n:2,lang:"fr",srcLang:"en",track:"v2",title:"Je me présente",su
     {type:"mc",q:"French mobile phone numbers start with:",opts:["01 or 02","06 or 07","08 or 09","05 or 04"],ans:"06 or 07",hint:"Mobile prefix in France: 06 and 07."},
     {type:"fb",opts:["date de naissance","adresse e-mail","numéro de téléphone","nom de famille"],hint:"The field that asks for your birthday. Three words, all three are needed.",s:"Votre {1}, s'il vous plaît? Le 12 avril 1988.",a:"date de naissance"}
   ]}
-]};
+, COVERAGE_U02]};

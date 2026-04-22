@@ -9,6 +9,7 @@ import BATCH2_L01 from './_batch2_u03_L01.js';
 // CILS/CELI A1 aligned. Family members, describing people, possessives.
 import EXP_03_L1 from './_temp_u03_expand_L01.js';import EXP_03_L2 from './_temp_u03_expand_L02.js';import EXP_03_L3 from './_temp_u03_expand_L03.js';
 
+import COVERAGE_U03 from './_coverage_u03.js';
 const UNIT_03 = {
   n:3, lang:"it", srcLang:"en", track:"v2",
   title:"La famiglia", sub:"Family & People",
@@ -483,6 +484,6 @@ const UNIT_03 = {
   BATCH4_L01,
   BATCH2_L02,
   BATCH2_L01
-]
+, COVERAGE_U03]
 };
 export default UNIT_03;

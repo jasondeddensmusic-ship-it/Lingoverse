@@ -5,10 +5,11 @@ import L23 from './_temp_b1gap_L23.js';
 import L24 from './_temp_b1gap_L24.js';
 import L25 from './_temp_b1gap_L25.js';
 
+import COVERAGE_U38 from './_coverage_u38.js';
 const UNIT_38 = {
   n:38, lang:"ko", srcLang:"en", track:"v2",
   title:"중급 어휘 5", sub:"Description, Cooking, Movement, Actions & Home",
   icon:"🏃", level:"B1.2", color:"#7B5EE8",
-  lessons:[L21, L22, L23, L24, L25]
+  lessons:[L21, L22, L23, L24, L25, COVERAGE_U38]
 };
 export default UNIT_38;

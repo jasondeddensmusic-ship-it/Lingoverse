@@ -11,6 +11,7 @@ import BATCH4_L01 from './_batch4_u11_L01.js';
 import BATCH2_L1 from './_batch2_u11_L01.js';
 // Level: A2.1. JLPT N4 aligned.
 import JEXP_11_L1 from './_temp_u11_expand_L01.js';import JEXP_11_L2 from './_temp_u11_expand_L02.js';import JEXP_11_L3 from './_temp_u11_expand_L03.js';
+import COVERAGE_U11 from './_coverage_u11.js';
 // て-form formation, requests, ongoing actions, permission.
 
 const UNIT_11 = {
@@ -185,5 +186,5 @@ const UNIT_11 = {
   JEXP_11_L1,
   JEXP_11_L2,
   JEXP_11_L3
-]};
+, COVERAGE_U11]};
 export default UNIT_11;

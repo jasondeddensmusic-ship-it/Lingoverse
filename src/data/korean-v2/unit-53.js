@@ -4,10 +4,11 @@ import L17 from './_temp_b2b2_L17.js';
 import L18 from './_temp_b2b2_L18.js';
 import L19 from './_temp_b2b2_L19.js';
 import L20 from './_temp_b2b2_L20.js';
+import COVERAGE_U53 from './_coverage_u53.js';
 const UNIT_53 = {
   n:53, lang:"ko", srcLang:"en", track:"v2",
   title:"고급 어휘 8", sub:"B2 TOPIK II Vocabulary",
   icon:"🎓", level:"B2.1", color:"#5B8DEF",
-  lessons:[L16, L17, L18, L19, L20]
+  lessons:[L16, L17, L18, L19, L20, COVERAGE_U53]
 };
 export default UNIT_53;

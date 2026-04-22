@@ -1,6 +1,8 @@
 // Unit 12 — PC vs imparfait
 // The Critical Distinction
 
+import COVERAGE_U12 from './_coverage_u12.js';
+
 export default {n:12,lang:"fr",srcLang:"en",track:"v2",title:"PC vs imparfait",sub:"The Critical Distinction",icon:"⚖️",level:"A2.4",color:"#7B5EE8",lessons:[
   {id:"fre12l1",title:"Les mots-signaux",icon:"🚦",xp:15,board:true,steps:[
         {type:"intro",title:"Signal words for each tense",desc:"Certain words and expressions naturally pair with passé composé or imparfait. Learning to spot these signals makes choosing the right tense much easier.",goals:["Identify PC signal words","Identify imparfait signal words","Choose tenses based on context clues"]},
@@ -198,4 +200,4 @@ export default {n:12,lang:"fr",srcLang:"en",track:"v2",title:"PC vs imparfait",s
         {type:"mc",q:"Comment dit-on 'the female police officer' en français ?",opts:["la policiste","la policieure","la policière","la policeuse"],ans:"la policière",hint:"The -ier ending changes following a common feminine pattern."},
         {type:"fb",opts:["chauffeur","pompier","cuisinier","chanteur"],hint:"This person's job is to drive vehicles for passengers.",s:"Mon voisin est {1}, il conduit un taxi toute la journée.",a:["chauffeur"]}
   ]}
-]};
+, COVERAGE_U12]};

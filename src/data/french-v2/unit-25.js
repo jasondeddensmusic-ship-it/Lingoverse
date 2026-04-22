@@ -1,6 +1,8 @@
 // Unit 25 — Le Subjonctif Passé
 // Past subjunctive and advanced triggers
 
+import COVERAGE_U25 from './_coverage_u25.js';
+
 export default {n:25,lang:"fr",srcLang:"en",track:"v2",title:"Le Subjonctif Passé",sub:"Past subjunctive and advanced triggers",icon:"🎭",level:"B2.1",color:"#7B5EE8",lessons:[
   {id:"fre25l1",title:"Formation du subjonctif passé",icon:"🔨",xp:15,board:true,steps:[
         {type:"intro",title:"Formation du subjonctif passé",desc:"Learn to form the past subjunctive using avoir or être in the subjunctive + past participle.",goals:["Form subjonctif passé with avoir","Form subjonctif passé with être","Apply past participle agreement rules"]},
@@ -209,4 +211,4 @@ export default {n:25,lang:"fr",srcLang:"en",track:"v2",title:"Le Subjonctif Pass
         {type:"drag_fill",hint:"Both il faut que and avant que trigger subjunctive. Different helpers for different verbs.",s:"Il faut que tu {1} {2} tes devoirs avant que je {3} rentré.",blanks:{"1":"aies","2":"fini","3":"sois"},pool:["aies","fini","sois","as","suis"]},
         {type:"mc",q:"What is the single most important factor in choosing subjonctif passé vs présent?",opts:["Whether the sentence is negative","The tense of the main verb","Whether the subordinate action is completed or not","The formality of the context"],ans:"Whether the subordinate action is completed or not",hint:"The time reference of the dependent clause determines the choice"}
   ]}
-]};
+, COVERAGE_U25]};

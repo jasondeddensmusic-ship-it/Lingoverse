@@ -4,5 +4,6 @@ import L07 from './_temp_b2g6_L07.js';
 import L08 from './_temp_b2g6_L08.js';
 import L09 from './_temp_b2g6_L09.js';
 import L10 from './_temp_b2g6_L10.js';
-const UNIT_60 = { n:60, lang:"fr", srcLang:"en", track:"v2", title:"Vocabulaire B2 22", sub:"DELF B2", icon:"🎓", level:"B2.2", color:"#5B8DEF", lessons:[L06, L07, L08, L09, L10]};
+import COVERAGE_U60 from './_coverage_u60.js';
+const UNIT_60 = { n:60, lang:"fr", srcLang:"en", track:"v2", title:"Vocabulaire B2 22", sub:"DELF B2", icon:"🎓", level:"B2.2", color:"#5B8DEF", lessons:[L06, L07, L08, L09, L10, COVERAGE_U60]};
 export default UNIT_60;

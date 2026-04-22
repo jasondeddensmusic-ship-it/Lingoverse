@@ -7,6 +7,7 @@ import BATCH5_L01 from './_batch5_u30_L01.js';
 import BATCH3_L02 from './_batch3_u30_L02.js';
 import BATCH3_L01 from './_batch3_u30_L01.js';
 import EXP_L4 from './_temp_u30_expand_L01.js';import EXP_L5 from './_temp_u30_expand_L02.js';import EXP_L6 from './_temp_u30_expand_L03.js';
+import COVERAGE_U30 from './_coverage_u30.js';
 // CILS B2 aligned. Advanced subjunctive, hypothetical periods, concessive conjunctions.
 
 const UNIT_30 = {
@@ -309,7 +310,7 @@ const UNIT_30 = {
   EXP_L4,
   EXP_L5,
   EXP_L6
-]
+, COVERAGE_U30]
 };
 
 export default UNIT_30;

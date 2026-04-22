@@ -7,6 +7,7 @@ import BATCH5_L01 from './_batch5_u26_L01.js';
 import BATCH3_L02 from './_batch3_u26_L02.js';
 import BATCH3_L01 from './_batch3_u26_L01.js';
 import EXP_L4 from './_temp_u26_expand_L01.js';import EXP_L5 from './_temp_u26_expand_L02.js';import EXP_L6 from './_temp_u26_expand_L03.js';
+import COVERAGE_U26 from './_coverage_u26.js';
 // CILS B2 aligned. Law, justice, and rights vocabulary.
 
 const UNIT_26 = {
@@ -366,7 +367,7 @@ const UNIT_26 = {
   EXP_L4,
   EXP_L5,
   EXP_L6
-]
+, COVERAGE_U26]
 };
 
 export default UNIT_26;

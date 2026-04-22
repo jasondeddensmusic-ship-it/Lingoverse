@@ -10,6 +10,7 @@ import BATCH5_L01 from './_batch5_u25_L01.js';
 import BATCH2_L04 from './_batch2_u25_L04.js';
 import BATCH2_L03 from './_batch2_u25_L03.js';
 import EXP_L3 from './_temp_u25_expand_L01.js';import EXP_L4 from './_temp_u25_expand_L02.js';import EXP_L5 from './_temp_u25_expand_L03.js';
+import COVERAGE_U25 from './_coverage_u25.js';
 // Level: B2.1. JLPT N2 aligned.
 // 会議, 資料, 提案, 報告, 契約, 納期, keigo in business.
 
@@ -327,5 +328,5 @@ const UNIT_25 = {
 ,BATCH9_L1
 ,BATCH10_L1
 ,BATCH11_L1
-]};
+, COVERAGE_U25]};
 export default UNIT_25;

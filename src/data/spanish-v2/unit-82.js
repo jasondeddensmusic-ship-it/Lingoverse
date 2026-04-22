@@ -3,5 +3,6 @@ import L17 from './_temp_b2gB_L17.js';
 import L18 from './_temp_b2gB_L18.js';
 import L19 from './_temp_b2gB_L19.js';
 import L20 from './_temp_b2gB_L20.js';
-const UNIT_82 = { n:82, lang:"es", srcLang:"en", track:"v2", title:"Vocabulario B2 44", sub:"DELE B2", icon:"🎓", level:"B2.2", color:"#5B8DEF", lessons:[L16, L17, L18, L19, L20]};
+import COVERAGE_U82 from './_coverage_u82.js';
+const UNIT_82 = { n:82, lang:"es", srcLang:"en", track:"v2", title:"Vocabulario B2 44", sub:"DELE B2", icon:"🎓", level:"B2.2", color:"#5B8DEF", lessons:[L16, L17, L18, L19, L20, COVERAGE_U82]};
 export default UNIT_82;

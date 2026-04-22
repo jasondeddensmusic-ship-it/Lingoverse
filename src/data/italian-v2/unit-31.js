@@ -7,6 +7,7 @@ import BATCH5_L01 from './_batch5_u31_L01.js';
 import BATCH3_L02 from './_batch3_u31_L02.js';
 import BATCH3_L01 from './_batch3_u31_L01.js';
 import EXP_L4 from './_temp_u31_expand_L01.js';import EXP_L5 from './_temp_u31_expand_L02.js';import EXP_L6 from './_temp_u31_expand_L03.js';
+import COVERAGE_U31 from './_coverage_u31.js';
 // CILS B2 aligned. Advanced media, journalism, digital communication vocabulary.
 
 const UNIT_31 = {
@@ -304,7 +305,7 @@ const UNIT_31 = {
   EXP_L4,
   EXP_L5,
   EXP_L6
-]
+, COVERAGE_U31]
 };
 
 export default UNIT_31;

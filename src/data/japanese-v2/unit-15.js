@@ -10,6 +10,7 @@ import BATCH4_L01 from './_batch4_u15_L01.js';
 import BATCH2_L1 from './_batch2_u15_L01.js';
 // Level: A2.2. JLPT N4 aligned.
 import JEXP_15_L1 from './_temp_u15_expand_L01.js';import JEXP_15_L2 from './_temp_u15_expand_L02.js';import JEXP_15_L3 from './_temp_u15_expand_L03.js';
+import COVERAGE_U15 from './_coverage_u15.js';
 // Directions, before/after, while doing, transport vocabulary.
 
 const UNIT_15 = {
@@ -289,5 +290,5 @@ const UNIT_15 = {
   JEXP_15_L1,
   JEXP_15_L2,
   JEXP_15_L3
-]};
+, COVERAGE_U15]};
 export default UNIT_15;
