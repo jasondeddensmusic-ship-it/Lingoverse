@@ -7,6 +7,7 @@ import BATCH5_L01 from './_batch5_u32_L01.js';
 import BATCH3_L02 from './_batch3_u32_L02.js';
 import BATCH3_L01 from './_batch3_u32_L01.js';
 import EXP_L4 from './_temp_u32_expand_L01.js';import EXP_L5 from './_temp_u32_expand_L02.js';import EXP_L6 from './_temp_u32_expand_L03.js';
+import COVERAGE_U32 from './_coverage_u32.js';
 // CILS B2 aligned. Globalization, migration, identity, and international cooperation vocabulary.
 
 const UNIT_32 = {
@@ -297,7 +298,7 @@ const UNIT_32 = {
   EXP_L4,
   EXP_L5,
   EXP_L6
-]
+, COVERAGE_U32]
 };
 
 export default UNIT_32;

@@ -10,6 +10,7 @@ import BATCH5_L01 from './_batch5_u20_L01.js';
 import BATCH2_L02 from './_batch2_u20_L02.js';
 import BATCH2_L01 from './_batch2_u20_L01.js';
 import EXP_L3 from './_temp_u20_expand_L01.js';import EXP_L4 from './_temp_u20_expand_L02.js';import EXP_L5 from './_temp_u20_expand_L03.js';import EXP_ADMIN from './_temp_u20_admin.js';
+import COVERAGE_U20 from './_coverage_u20.js';
 // Level: B1.2. JLPT N3 aligned.
 // 尊敬語 (sonkeigo), 謙譲語 (kenjougo), お/ご patterns.
 
@@ -294,5 +295,5 @@ const UNIT_20 = {
 ,BATCH9_L1
 ,BATCH10_L1
 ,BATCH11_L1
-]};
+, COVERAGE_U20]};
 export default UNIT_20;

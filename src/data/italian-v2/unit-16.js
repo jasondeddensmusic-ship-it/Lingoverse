@@ -7,6 +7,7 @@ import BATCH5_L01 from './_batch5_u16_L01.js';
 import BATCH2_L02 from './_batch2_u16_L02.js';
 import BATCH2_L01 from './_batch2_u16_L01.js';
 import EXP_L4 from './_temp_u16_expand_L01.js';import EXP_L5 from './_temp_u16_expand_L02.js';import EXP_L6 from './_temp_u16_expand_L03.js';
+import COVERAGE_U16 from './_coverage_u16.js';
 // CILS/CELI B1 aligned. Medical terms, specialist vocabulary, health verbs.
 
 const UNIT_16 = {
@@ -330,6 +331,6 @@ const UNIT_16 = {
   EXP_L4,
   EXP_L5,
   EXP_L6
-]
+, COVERAGE_U16]
 };
 export default UNIT_16;

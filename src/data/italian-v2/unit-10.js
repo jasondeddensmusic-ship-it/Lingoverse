@@ -9,6 +9,7 @@ import BATCH3_L01 from './_batch3_u10_L01.js';
 // CILS/CELI A2 aligned. Travel vocabulary, hotels, transport.
 import EXP_10_L1 from './_temp_u10_expand_L01.js';import EXP_10_L2 from './_temp_u10_expand_L02.js';import EXP_10_L3 from './_temp_u10_expand_L03.js';
 
+import COVERAGE_U10 from './_coverage_u10.js';
 const UNIT_10 = {
   n:10, lang:"it", srcLang:"en", track:"v2",
   title:"I viaggi", sub:"Travel",
@@ -414,6 +415,6 @@ const UNIT_10 = {
   BATCH4_L01,
   BATCH3_L02,
   BATCH3_L01
-]
+, COVERAGE_U10]
 };
 export default UNIT_10;

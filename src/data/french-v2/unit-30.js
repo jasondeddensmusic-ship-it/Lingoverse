@@ -1,6 +1,8 @@
 // Unit 30 — Objectif DELF B2
 // Exam prep, comprehensive review, and C1 preview
 
+import COVERAGE_U30 from './_coverage_u30.js';
+
 export default {n:30,lang:"fr",srcLang:"en",track:"v2",title:"Objectif DELF B2",sub:"Exam prep, comprehensive review, and C1 preview",icon:"🎯",level:"B2.6",color:"#7B5EE8",lessons:[
   {id:"fre30l1",title:"Le DELF B2: mode d'emploi",icon:"📋",xp:15,board:true,steps:[
         {type:"intro",title:"Le DELF B2: mode d'emploi",desc:"Discover the DELF B2 exam format and learn key reading comprehension strategies to tackle any text with confidence.",goals:["Understand the DELF B2 exam structure","Learn reading strategies: skimming, scanning, synthesizing","Practice identifying main ideas and supporting arguments"]},
@@ -203,4 +205,4 @@ export default {n:30,lang:"fr",srcLang:"en",track:"v2",title:"Objectif DELF B2",
         {type:"fb",opts:["résumé","effet","revanche","outre"],hint:"This word follows \"en\" to mean \"in summary\" or \"to sum up\".",s:"En {1}, les marqueurs de discours structurent votre argumentation.",a:["résumé"]},
         {type:"drag_fill",hint:"The three standard sections of any structured French essay",s:"L'essai argumentatif comprend une {1}, un {2} et une {3}.",blanks:{"1":"introduction","2":"développement","3":"conclusion"},pool:["introduction","développement","conclusion","traduction"]}
   ]}
-]};
+, COVERAGE_U30]};

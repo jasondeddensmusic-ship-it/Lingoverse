@@ -9,6 +9,7 @@ import BATCH3_L01 from './_batch3_u12_L01.js';
 // CILS/CELI A2 aligned. Passato prossimo with essere, movement verbs, agreement.
 import EXP_12_L1 from './_temp_u12_expand_L01.js';import EXP_12_L2 from './_temp_u12_expand_L02.js';import EXP_12_L3 from './_temp_u12_expand_L03.js';
 
+import COVERAGE_U12 from './_coverage_u12.js';
 const UNIT_12 = {
   n:12, lang:"it", srcLang:"en", track:"v2",
   title:"Essere al passato", sub:"Past Tense with Essere",
@@ -318,6 +319,6 @@ const UNIT_12 = {
   BATCH4_L01,
   BATCH3_L02,
   BATCH3_L01
-]
+, COVERAGE_U12]
 };
 export default UNIT_12;

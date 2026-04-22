@@ -1,6 +1,8 @@
 // Unit 23 — Le Monde du Travail
 // Work culture and professional French
 
+import COVERAGE_U23 from './_coverage_u23.js';
+
 export default {n:23,lang:"fr",srcLang:"en",track:"v2",title:"Le Monde du Travail",sub:"Work culture and professional French",icon:"💼",level:"B1.7",color:"#7B5EE8",lessons:[
   {id:"fre23l1",title:"Au travail",icon:"💼",xp:15,board:true,steps:[
         {type:"intro",title:"Au travail",desc:"Learn essential job vocabulary for professional life in France.",goals:["Name common workplace nouns","Use articles correctly with job vocabulary","Discuss work in simple sentences"]},
@@ -229,4 +231,4 @@ export default {n:23,lang:"fr",srcLang:"en",track:"v2",title:"Le Monde du Travai
     {type:"mc",q:"'Renouveler' is conjugated as:",opts:["je renouvèle","je renouvelle","je renouvelie","je renouvels"],ans:"je renouvelle",hint:"A stem-changing -er verb that doubles the final consonant"},
     {type:"fb",opts:["justificatif","formulaire","pièce d'identité","mairie"],hint:"A bill or bank statement proving your income or address",s:"Un {1} de revenus est obligatoire pour cette demande.",a:["justificatif"]}
   ]}
-]};
+, COVERAGE_U23]};

@@ -11,6 +11,7 @@ import BATCH2_L1 from './_batch2_u16_L01.js';
 // Level: A2.2. JLPT N4 aligned.
 import JEXP_16_L1 from './_temp_u16_expand_L01.js';import JEXP_16_L2 from './_temp_u16_expand_L02.js';import JEXP_16_L3 from './_temp_u16_expand_L03.js';
 import F8_LETTER from './_f8_u16_letter.js';
+import COVERAGE_U16 from './_coverage_u16.js';
 // つもり, よてい, たい vs ほしい, ために.
 
 const UNIT_16 = {
@@ -192,5 +193,5 @@ const UNIT_16 = {
   JEXP_16_L1,
   JEXP_16_L2,
   JEXP_16_L3
-]};
+, COVERAGE_U16]};
 export default UNIT_16;

@@ -10,6 +10,7 @@ import BATCH4_L01 from './_batch4_u12_L01.js';
 import BATCH2_L1 from './_batch2_u12_L01.js';
 // Level: A2.1. JLPT N4 aligned.
 import JEXP_12_L1 from './_temp_u12_expand_L01.js';import JEXP_12_L2 from './_temp_u12_expand_L02.js';import JEXP_12_L3 from './_temp_u12_expand_L03.js';
+import COVERAGE_U12 from './_coverage_u12.js';
 // Potential form, koto ga dekiru, mou/mada.
 
 const UNIT_12 = {
@@ -255,5 +256,5 @@ const UNIT_12 = {
   JEXP_12_L1,
   JEXP_12_L2,
   JEXP_12_L3
-]};
+, COVERAGE_U12]};
 export default UNIT_12;

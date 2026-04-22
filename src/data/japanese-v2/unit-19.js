@@ -10,6 +10,7 @@ import BATCH5_L01 from './_batch5_u19_L01.js';
 import BATCH2_L02 from './_batch2_u19_L02.js';
 import BATCH2_L01 from './_batch2_u19_L01.js';
 import EXP_L3 from './_temp_u19_expand_L01.js';import EXP_L4 from './_temp_u19_expand_L02.js';import EXP_L5 from './_temp_u19_expand_L03.js';
+import COVERAGE_U19 from './_coverage_u19.js';
 // Level: B1.1. JLPT N3 aligned.
 // たら, ば, と, なら. four conditional forms.
 
@@ -200,5 +201,5 @@ const UNIT_19 = {
 ,BATCH9_L1
 ,BATCH10_L1
 ,BATCH11_L1
-]};
+, COVERAGE_U19]};
 export default UNIT_19;

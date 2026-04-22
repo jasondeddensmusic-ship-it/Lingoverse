@@ -11,6 +11,7 @@ import BATCH3_L1 from './_batch3_u01_L01.js';
 // First Japanese content unit. JLPT N5 aligned.
 import JEXP_01_L1 from './_temp_u01_expand_L01.js';import JEXP_01_L2 from './_temp_u01_expand_L02.js';import JEXP_01_L3 from './_temp_u01_expand_L03.js';import JEXP_01_L4 from './_temp_u01_expand_L04.js';
 
+import COVERAGE_U01 from './_coverage_u01.js';
 const UNIT_01 = {
   n:1, lang:"ja", srcLang:"en", track:"v2",
   title:"はじめまして", sub:"Greetings & Self-Introduction",
@@ -155,6 +156,6 @@ const UNIT_01 = {
   JEXP_01_L2,
   JEXP_01_L3,
   JEXP_01_L4
-]};
+, COVERAGE_U01]};
 
 export default UNIT_01;

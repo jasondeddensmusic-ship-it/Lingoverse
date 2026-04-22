@@ -4,5 +4,6 @@ import L02 from './_temp_b2g6_L02.js';
 import L03 from './_temp_b2g6_L03.js';
 import L04 from './_temp_b2g6_L04.js';
 import L05 from './_temp_b2g6_L05.js';
-const UNIT_59 = { n:59, lang:"nl", srcLang:"en", track:"v2", title:"B2 Woordenschat 21", sub:"NT2 B2", icon:"🎓", level:"B2.2", color:"#5B8DEF", lessons:[L01, L02, L03, L04, L05]};
+import COVERAGE_U59 from './_coverage_u59.js';
+const UNIT_59 = { n:59, lang:"nl", srcLang:"en", track:"v2", title:"B2 Woordenschat 21", sub:"NT2 B2", icon:"🎓", level:"B2.2", color:"#5B8DEF", lessons:[L01, L02, L03, L04, L05, COVERAGE_U59]};
 export default UNIT_59;

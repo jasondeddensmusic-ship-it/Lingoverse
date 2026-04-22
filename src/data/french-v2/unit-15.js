@@ -1,6 +1,8 @@
 // Unit 15 — Comparatifs et superlatifs
 // Comparing & Ranking
 
+import COVERAGE_U15 from './_coverage_u15.js';
+
 export default {n:15,lang:"fr",srcLang:"en",track:"v2",title:"Comparatifs et superlatifs",sub:"Comparing & Ranking",icon:"📊",level:"A2.7",color:"#7B5EE8",lessons:[
   {id:"fre15l1",title:"Plus...que",icon:"⬆️",xp:15,board:true,steps:[
         {type:"intro",title:"More...than: comparatives with plus",desc:"To say something is MORE than something else, French uses plus + adjective + que. This is the most common comparative structure.",goals:["Form comparatives with plus...que","Use adjective agreement in comparatives","Compare people and things"]},
@@ -255,4 +257,4 @@ export default {n:15,lang:"fr",srcLang:"en",track:"v2",title:"Comparatifs et sup
     {type:"fb",opts:["refuser","critiquer","avouer","illustrer"],hint:"She strongly rejects the proposal. Which verb = to say no / to decline?",s:"Elle a décidé de {1} la proposition.",a:["refuser"]},
     {type:"match",pairs:[{trg:"proposer",src:"to suggest / propose"},{trg:"défendre",src:"to defend / argue for"},{trg:"illustrer",src:"to illustrate / exemplify"},{trg:"avouer",src:"to admit / confess"},{trg:"critiquer",src:"to criticize"}]}
   ]}
-]};
+, COVERAGE_U15]};

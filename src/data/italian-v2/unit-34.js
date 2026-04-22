@@ -6,6 +6,7 @@ import BATCH5_L02 from './_batch5_u34_L02.js';
 import BATCH5_L01 from './_batch5_u34_L01.js';
 import BATCH3_L02 from './_batch3_u34_L02.js';
 import BATCH3_L01 from './_batch3_u34_L01.js';
+import COVERAGE_U34 from './_coverage_u34.js';
 // Level: B2.3. CILS/CELI B2 aligned.
 
 const UNIT_34 = {
@@ -306,6 +307,6 @@ const UNIT_34 = {
   BATCH5_L01,
   BATCH3_L02,
   BATCH3_L01
-]
+, COVERAGE_U34]
 };
 export default UNIT_34;

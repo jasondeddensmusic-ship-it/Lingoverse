@@ -1,6 +1,8 @@
 // Unit 16 — Le conditionnel
 // Conditional: Polite & Hypothetical
 
+import COVERAGE_U16 from './_coverage_u16.js';
+
 export default {n:16,lang:"fr",srcLang:"en",track:"v2",title:"Le conditionnel",sub:"Conditional: Polite & Hypothetical",icon:"💫",level:"A2.8",color:"#7B5EE8",lessons:[
   {id:"fre16l1",title:"Demandes polies",icon:"🎩",xp:15,board:true,steps:[
         {type:"intro",title:"The conditional for politeness",desc:"The conditional is the 'would' tense. Its most common use is for polite requests: je voudrais (I would like) instead of je veux (I want). Same stem as futur simple + imparfait endings!",goals:["Form the conditional tense","Use je voudrais, j'aimerais politely","Make requests with the conditional"]},
@@ -218,4 +220,4 @@ export default {n:16,lang:"fr",srcLang:"en",track:"v2",title:"Le conditionnel",s
         {type:"fb",opts:["écran","internet","application","message"],hint:"This is the visual display part of a computer.",s:"L'{1} de mon ordinateur est très grand.",a:["écran"]},
         {type:"match",pairs:[{trg:"l'ordinateur",src:"the computer"},{trg:"le portable",src:"the cell phone"},{trg:"le chargeur",src:"the charger"},{trg:"le wifi",src:"the wifi"},{trg:"la photo",src:"the photo"}]}
   ,{type:"match",pairs:[{trg:"chercher",src:"to search"}]}]}
-]};
+, COVERAGE_U16]};

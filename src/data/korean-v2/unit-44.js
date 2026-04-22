@@ -5,10 +5,11 @@ import L15 from './_temp_b1fin_L15.js';
 import L16 from './_temp_b1fin_L16.js';
 import L17 from './_temp_b1fin_L17.js';
 
+import COVERAGE_U44 from './_coverage_u44.js';
 const UNIT_44 = {
   n:44, lang:"ko", srcLang:"en", track:"v2",
   title:"중급 완성 3", sub:"Communication, Space, Decisions & Achievement",
   icon:"🎯", level:"B1.2", color:"#7B5EE8",
-  lessons:[L13, L14, L15, L16, L17]
+  lessons:[L13, L14, L15, L16, L17, COVERAGE_U44]
 };
 export default UNIT_44;

@@ -10,6 +10,7 @@ import BATCH5_L01 from './_batch5_u26_L01.js';
 import BATCH2_L04 from './_batch2_u26_L04.js';
 import BATCH2_L03 from './_batch2_u26_L03.js';
 import EXP_L3 from './_temp_u26_expand_L01.js';import EXP_L4 from './_temp_u26_expand_L02.js';import EXP_L5 from './_temp_u26_expand_L03.js';
+import COVERAGE_U26 from './_coverage_u26.js';
 // Level: B2.1. JLPT N2 aligned.
 // 報道, 記事, 特集, 社説, 政策, 国会, formal expressions.
 
@@ -148,5 +149,5 @@ const UNIT_26 = {
 ,BATCH9_L1
 ,BATCH10_L1
 ,BATCH11_L1
-]};
+, COVERAGE_U26]};
 export default UNIT_26;

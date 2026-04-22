@@ -11,6 +11,7 @@ import EXP_L1 from './_temp_u01_expand_L01.js';
 import EXP_L2 from './_temp_u01_expand_L02.js';
 import EXP_L3 from './_temp_u01_expand_L03.js';
 
+import COVERAGE_U01 from './_coverage_u01.js';
 const UNIT_01 = {
   n:1, lang:"it", srcLang:"en", track:"v2",
   title:"Ciao!", sub:"Greetings & Introductions",
@@ -280,7 +281,7 @@ const UNIT_01 = {
   BATCH4_L01,
   BATCH2_L02,
   BATCH2_L01
-]
+, COVERAGE_U01]
 };
 
 export default UNIT_01;

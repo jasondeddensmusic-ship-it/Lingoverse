@@ -1,6 +1,8 @@
 // Unit 21 — Le Gérondif
 // Gerund and present participle
 
+import COVERAGE_U21 from './_coverage_u21.js';
+
 export default {n:21,lang:"fr",srcLang:"en",track:"v2",title:"Le Gérondif",sub:"Gerund and present participle",icon:"🔄",level:"B1.5",color:"#7B5EE8",lessons:[
   {id:"fre21l1",title:"Le Participe Présent",icon:"📝",xp:15,board:true,steps:[
         {type:"intro",title:"Le Participe Présent",desc:"Learn how to form the present participle in French: take the nous form of the present tense, remove -ons, and add -ant. This is the foundation for the gérondif.",goals:["Form present participles from the nous stem","Learn the three irregular present participles","Recognize the -ant ending pattern"]},
@@ -223,4 +225,4 @@ export default {n:21,lang:"fr",srcLang:"en",track:"v2",title:"Le Gérondif",sub:
         {type:"drag_fill",hint:"The reporter wrote a text about something that happened.",s:"Le {1} a écrit un {2} sur l'{3} de ce week-end.",blanks:{"1":"journaliste","2":"article","3":"événement"},pool:["journaliste","article","événement","publicité"]},
         {type:"match",pairs:[{trg:"une histoire intéressante",src:"an interesting story"},{trg:"une rue passante",src:"a busy street"},{trg:"les réseaux sociaux",src:"social media"}]}
   ]}
-]};
+, COVERAGE_U21]};

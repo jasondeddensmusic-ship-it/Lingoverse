@@ -7,6 +7,7 @@ import BATCH5_L01 from './_batch5_u14_L01.js';
 import BATCH2_L02 from './_batch2_u14_L02.js';
 import BATCH2_L01 from './_batch2_u14_L01.js';
 import EXP_L4 from './_temp_u14_expand_L01.js';import EXP_L5 from './_temp_u14_expand_L02.js';import EXP_L6 from './_temp_u14_expand_L03.js';
+import COVERAGE_U14 from './_coverage_u14.js';
 // CILS/CELI B1 aligned. Jobs, workplace vocabulary, career phrases.
 
 const UNIT_14 = {
@@ -447,6 +448,6 @@ const UNIT_14 = {
   EXP_L4,
   EXP_L5,
   EXP_L6
-]
+, COVERAGE_U14]
 };
 export default UNIT_14;

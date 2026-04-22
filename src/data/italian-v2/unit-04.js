@@ -9,6 +9,7 @@ import BATCH2_L01 from './_batch2_u04_L01.js';
 // CILS/CELI A1 aligned. Food, drink, ordering, articles.
 import EXP_04_L1 from './_temp_u04_expand_L01.js';import EXP_04_L2 from './_temp_u04_expand_L02.js';import EXP_04_L3 from './_temp_u04_expand_L03.js';
 
+import COVERAGE_U04 from './_coverage_u04.js';
 const UNIT_04 = {
   n:4, lang:"it", srcLang:"en", track:"v2",
   title:"Al bar", sub:"At the Bar / Cafe",
@@ -373,6 +374,6 @@ const UNIT_04 = {
   BATCH4_L01,
   BATCH2_L02,
   BATCH2_L01
-]
+, COVERAGE_U04]
 };
 export default UNIT_04;

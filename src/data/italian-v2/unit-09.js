@@ -9,6 +9,7 @@ import BATCH3_L01 from './_batch3_u09_L01.js';
 // CILS/CELI A2 aligned. Body parts, health vocabulary, doctor visits.
 import EXP_09_L1 from './_temp_u09_expand_L01.js';import EXP_09_L2 from './_temp_u09_expand_L02.js';import EXP_09_L3 from './_temp_u09_expand_L03.js';
 
+import COVERAGE_U09 from './_coverage_u09.js';
 const UNIT_09 = {
   n:9, lang:"it", srcLang:"en", track:"v2",
   title:"Il corpo e la salute", sub:"Body & Health",
@@ -416,6 +417,6 @@ const UNIT_09 = {
   BATCH4_L01,
   BATCH3_L02,
   BATCH3_L01
-]
+, COVERAGE_U09]
 };
 export default UNIT_09;

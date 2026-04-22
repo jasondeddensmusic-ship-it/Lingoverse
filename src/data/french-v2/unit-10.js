@@ -1,6 +1,8 @@
 // Unit 10 — Le passé composé (être)
 // Past with être & Agreement
 
+import COVERAGE_U10 from './_coverage_u10.js';
+
 export default {n:10,lang:"fr",srcLang:"en",track:"v2",title:"Le passé composé (être)",sub:"Past with être & Agreement",icon:"🚶",level:"A2.2",color:"#7B5EE8",lessons:[
   {id:"fre10l1",title:"Être au passé",icon:"🔀",xp:15,board:true,steps:[
         {type:"intro",title:"Passé composé with être",desc:"Some verbs use être instead of avoir as the helper. These are mostly verbs of movement or state change. With être, the past participle AGREES with the subject.",goals:["Know why some verbs use être","Understand participle agreement","Learn the first être verbs"]},
@@ -173,4 +175,4 @@ export default {n:10,lang:"fr",srcLang:"en",track:"v2",title:"Le passé composé
         {type:"mc",q:"You now know passé composé with avoir AND être. What percentage of verbs use avoir?",opts:["About 10%","About 50%","About 90%","All of them"],ans:"About 90%",hint:"Être verbs are a small, memorizable group. The vast majority use the other helper."},
         {type:"fb",opts:["fait","faire","fais","faite"],hint:"I did my homework. Irregular participle of faire.",s:"Hier, j'ai {1} mes devoirs et je suis sorti. (to do)",a:"fait"}
   ,{type:"match",pairs:[{trg:"tomber",src:"to fall (past: tombé)"}]}]}
-]};
+, COVERAGE_U10]};

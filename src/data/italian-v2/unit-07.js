@@ -9,6 +9,7 @@ import BATCH3_L01 from './_batch3_u07_L01.js';
 // CILS/CELI A2 aligned. Ordering food, restaurant phrases, food adjectives.
 import EXP_07_L1 from './_temp_u07_expand_L01.js';import EXP_07_L2 from './_temp_u07_expand_L02.js';import EXP_07_L3 from './_temp_u07_expand_L03.js';
 
+import COVERAGE_U07 from './_coverage_u07.js';
 const UNIT_07 = {
   n:7, lang:"it", srcLang:"en", track:"v2",
   title:"Al ristorante", sub:"At the Restaurant",
@@ -446,6 +447,6 @@ const UNIT_07 = {
   BATCH4_L01,
   BATCH3_L02,
   BATCH3_L01
-]
+, COVERAGE_U07]
 };
 export default UNIT_07;
